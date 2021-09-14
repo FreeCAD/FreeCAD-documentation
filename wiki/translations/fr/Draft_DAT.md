@@ -1,3 +1,5 @@
+# Draft DAT/fr
+
 
 
 
@@ -16,4 +18,4 @@ Il existe de nombreux versions de ce format, aussi ce module d\'importation tent
 
  
 
-[Category:File Formats{{\#translation:}}](Category:File_Formats.md)
+[Category:File Formats](Category:File_Formats.md)

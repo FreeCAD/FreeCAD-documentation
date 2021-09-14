@@ -8,6 +8,9 @@
    SeeAlso:[Std Bearbeiten](Std_Edit/de.md)
 ---
 
+
+</div>
+
 ## Beschreibung
 
 Der <img alt="" src=images/Draft_Edit.svg  style="width:16px;"> **Entwurf Bearbeiten** Befehl versetzt ausgewählte Objekte in den Entwurf bearbeiten Modus. In diesem Modus können die Eigenschaften von Objekten grafisch bearbeitet werden. Typischerweise können Knoten verschoben werden und in einigen Fällen können Kontextmenüoptionen ausgewählt werden. Der Befehl kann die meisten Entwurfsobjekte, aber auch einige andere Objekte bearbeiten. Siehe [Unterstützte Objekte](#Unterstützte_Objekte.md). Unterstützte Entwurfsobjekte können auch mit dem Befehl [Std Berabeiten](Std_Edit/de.md) in den Entwurf Bearbeitungsmodus versetzt werden.
@@ -17,6 +20,9 @@ Der <img alt="" src=images/Draft_Edit.svg  style="width:16px;"> **Entwurf Bearbe
 ## Anwendung
 
 Siehe auch: [Entwurf Fang](Draft_Snap/de.md) und [Entwurf Beschränken](Draft_Constrain/de.md).
+
+
+<div class="mw-translate-fuzzy">
 
 1.  Wähle optional ein oder mehrere Objekte aus. Beachte, dass sich zwar mehrere Objekte im Entwurf Bearbeitungsmodus befinden können, aber immer nur ein Objekt auf einmal bearbeitet werden kann.
 2.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
@@ -43,6 +49,9 @@ Siehe auch: [Entwurf Fang](Draft_Snap/de.md) und [Entwurf Beschränken](Draft_Co
     -   Greife einen Punkt in der [3D Ansicht](3D_view/de.md), oder gib Koordinaten ein und drücke die **<img src="images/Draft_AddPoint.svg" width=16px> Punkt eingeben** Schaltfläche.
     -   Das Ergebnis hängt vom Objekt und dem ausgewählten Knoten ab.
     -   Drücke **Esc** oder die **Schliessen** Schaltfläche, um den Befehl zu beenden.
+
+
+</div>
 
 ## Optionen
 

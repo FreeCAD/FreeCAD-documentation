@@ -8,9 +8,6 @@
    SeeAlso:[TechDraw Modèles](TechDraw_Templates/fr.md), [Draft SVG](Draft_SVG/fr.md), [TechDraw Ligne de référence](TechDraw_LeaderLine/fr.md)
 ---
 
-
-</div>
-
 ## Description
 
 L\'outil Insérer une annotation de texte enrichi ajoute un bloc d\'annotation formaté à une [Ligne de référence](TechDraw_LeaderLine/fr.md) ou à une vue.
@@ -59,13 +56,7 @@ blockObj.AnnoText = myHTMLText
 -   Vous pouvez modifier votre Annotation en texte enrichi en double-cliquant dessus dans la vue arborescente. Un double clic dans la zone graphique n'est pas encore supporté.
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{TechDraw Tools navi

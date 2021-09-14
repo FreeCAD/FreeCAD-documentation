@@ -10,7 +10,7 @@
 
 The [Arch Fence](Arch_Fence.md) is a object that builds a fence by repeating a single fence post and section along a given path.
 
-<img alt="" src=images/Arch_Fence_description_example.png  style="width:600px;">
+ <img alt="" src=images/Arch_Fence_description_example.png  style="width:600px;"> 
 
 ## Usage
 
@@ -61,7 +61,7 @@ The Fence tool can be used in [macros](Macros.md) and from the [Python](Python.m
 Fence = buildFence(section, post, path)
 ```
 
-Example.
+Example:
 
  
 ```python

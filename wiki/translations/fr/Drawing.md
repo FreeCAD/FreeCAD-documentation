@@ -1,3 +1,5 @@
+# Drawing/fr
+
 
 
 ## Introduction
@@ -29,4 +31,4 @@ Cependant, lorsque plus de précision est requise, la distinction doit être fai
 
 }} {{Document objects navi}} 
 
-[Category:Glossary{{\#translation:}}](Category:Glossary.md)
+[Category:Glossary](Category:Glossary.md)

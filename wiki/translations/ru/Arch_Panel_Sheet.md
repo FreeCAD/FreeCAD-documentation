@@ -1,10 +1,11 @@
 ---
 - GuiCommand:/ru
-   Name:Arch Panel Sheet
-   Workbenches:[Arch](Arch_Workbench.md)
-   MenuLocation:Arch → Panel tools → Panel Sheet
+   Name/ru:Arch_Panel_Sheet
+   Name:Arch_Panel_Sheet
+   MenuLocation:Arch → Инструменты панели → Лист панелей
+   Workbenches:[Arch](Arch_Workbench/ru.md)
    Shortcut:**P** **S**
-   SeeAlso:[[Arch Panel]], [[Arch Panel Cut]], [[Arch Nest]]
+   SeeAlso:[Arch Panel](Arch_Panel/ru.md), [Arch Panel Cut](Arch_Panel_Cut/ru.md), [Arch Nest](Arch_Nest/ru.md)
 ---
 
 
@@ -20,7 +21,7 @@ This tool allows to build a 2D sheet, including any number of [Arch Panel Cut](A
 
 *The above image shows how Panel Sheets appear when exported to DXF.*
 
-## Использование
+## Применение
 
 1.  Optionally, select one or more [Arch Panel Cut](Arch_Panel_Cut.md) objects or any other 2D object that lies on the XY plane.
 2.  Press the **<img src="images/Arch_Panel_Sheet.svg" width=16px> [Arch Panel Sheet](Arch_Panel_Sheet.md)** button, or press **P** then **S** keys.
@@ -36,7 +37,7 @@ This tool allows to build a 2D sheet, including any number of [Arch Panel Cut](A
 
 ## Свойства
 
-### Data
+### Данные
 
 -    **Height**: The height of the sheet
 
@@ -58,7 +59,7 @@ This tool allows to build a 2D sheet, including any number of [Arch Panel Cut](A
 
 -    **Grain Direction**: This allows you to inform the main direction of the panel fiber (clockwise direction, 0° means up)
 
-### View
+### Вид
 
 -    **Margin**: A margin that can be displayed inside the panel border
 
@@ -66,7 +67,7 @@ This tool allows to build a 2D sheet, including any number of [Arch Panel Cut](A
 
 -    **Show Grain**: Shows a fiber texture (Make Face must be set to True)
 
-## Scripting
+## Сценарии
 
 
 **See also:**
@@ -82,7 +83,7 @@ Sheet = makePanelSheet(panels=[], name="PanelSheet")
 
 -   Creates a `Sheet` object from `panels`, which is a list of [Arch Panel](Arch_Panel.md) objects.
 
-Example:
+Пример:
 
 
 ```python

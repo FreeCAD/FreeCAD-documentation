@@ -1,3 +1,5 @@
+# Draft tutorial/it
+
 
 
 
@@ -350,7 +352,7 @@ Tools like **<img src=images/TechDraw_ActiveView.svg style="width:16px"> <img sr
 
 <div class="mw-translate-fuzzy">
 
-Il flusso di lavoro di base per l\'ambiente [Draft](Draft_Module/it.md) è concluso.
+Il flusso di lavoro di base per l\'ambiente [Draft](Draft_Workbench/it.md) è concluso.
 
 
 </div>

@@ -1,4 +1,6 @@
-\_\_NOTOC\_\_ 
+# Artwork Sketcher/de
+
+ 
 
 Diese Symbole befinden sich im angegebenen Quellpfad.
 

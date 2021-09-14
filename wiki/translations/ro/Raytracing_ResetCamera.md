@@ -4,9 +4,19 @@
 
 </div>
 
+## Description
+
+
+<div class="mw-translate-fuzzy">
+
 ## Descriere
 
 Setează camera pentru proiectul selectat de raytracing pentru a se potrivi cu vizualizarea curentă.
+
+
+</div>
+
+## Usage
 
 
 <div class="mw-translate-fuzzy">
@@ -45,4 +55,4 @@ Setează camera pentru proiectul selectat de raytracing pentru a se potrivi cu v
 
 {{Raytracing_Tools_navi
 
-}}  
+}} 

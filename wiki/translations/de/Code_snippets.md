@@ -1,3 +1,5 @@
+# Code snippets/de
+
 
 
 
@@ -280,7 +282,7 @@ QtWidgets.QApplication.setOverrideCursor(QtGui.QCursor(cursor))
 
 {{Top}}
 
-### Observe camera change in the 3D viewer via Python 
+### Beobachten von Kameraänderungen im 3D-Betrachter über Python 
 
 This can be done adding a Node sensor to the camera. from pivy import coin
 
@@ -1771,4 +1773,4 @@ Siehe [Coin3d Schnippsel](Coin3d_snippets/de.md)
 
 }}
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Python Code{{\#translation:}}](Category:Python_Code.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)

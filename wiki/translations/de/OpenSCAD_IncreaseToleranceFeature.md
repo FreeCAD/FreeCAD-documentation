@@ -1,8 +1,10 @@
 ---
-- GuiCommand:/de   Name:OpenSCAD IncreaseTolerance‏‎    MenuLocation:OpenSCAD → Toleranz erhöhen   |Workbenches:[[OpenSCAD_Workbench/de   OpenSCAD]]|Shortcut:none   SeeAlso:------
-
-
-</div>
+- GuiCommand:/de
+   Name:OpenSCAD IncreaseTolerance‏‎
+   Name/de:OpenSCAD ErhöheToleranz‏‎
+   MenuLocation:OpenSCAD → Toleranz erhöhen
+   Workbenches:[OpenSCAD](OpenSCAD_Workbench/de.md)
+---
 
 ## Beschreibung
 

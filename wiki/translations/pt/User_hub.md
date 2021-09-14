@@ -1,8 +1,10 @@
+# User hub/pt
+
  <img alt="" src=images/User_hub.png  style="width:64px;">
 
 ------------------------------------------------------------------------
 
-\_\_NOTOC\_\_
+
 
 
 <div class="mw-translate-fuzzy">
@@ -39,7 +41,7 @@ Se você gostaria de saber como começou o desenvolvimento de FreeCADa anos atr�
 
 <div class="mw-translate-fuzzy">
 
-Se tiver alguma informação que gostaria que aparecesse aqui, porque não contribuir a ajudar este manual a crescer? É fácil escrever páginas wiki, a página [This page](Help:Editing.md) vai ajudá-lo a começar. \_\_NOTOC\_\_
+Se tiver alguma informação que gostaria que aparecesse aqui, porque não contribuir a ajudar este manual a crescer? É fácil escrever páginas wiki, a página [This page](Help:Editing.md) vai ajudá-lo a começar. 
 
 ## Usando o FreeCAD 
 
@@ -193,4 +195,4 @@ Esta é a ajuda online oficial do FreeCAD. Note que o sistema de ajuda online es
 
 
 
-[Category:Hubs{{\#translation:}}](Category:Hubs.md)
+[Category:Hubs](Category:Hubs.md)

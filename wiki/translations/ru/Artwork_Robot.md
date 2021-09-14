@@ -1,4 +1,6 @@
-\_\_NOTOC\_\_ 
+# Artwork Robot/ru
+
+ 
 
 Эти иконки находятся в указанной исходной папке.
 
@@ -15,4 +17,4 @@
 
 }} 
 
-[Category:Robot{{\#translation:}}](Category:Robot.md)
+[Category:Robot](Category:Robot.md)

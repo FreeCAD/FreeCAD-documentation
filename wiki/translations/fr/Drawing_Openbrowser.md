@@ -20,7 +20,14 @@ Cette commande vous permet d\'afficher une [Feuille A3 paysage](Drawing_Landscap
 <div class="mw-translate-fuzzy">
 
 
-{{docnav/fr|[Masque](Drawing_Clip/fr.md)|[Vues orthogonales](Drawing_Orthoviews/fr.md)|[Atelier Mise en plan](Drawing_Module/fr.md)|IconL=Drawing_Clip.png|IconC=Workbench_Drawing.svg|IconR=Drawing_Orthoviews.png}}
+{{docnav/fr
+|[Masque](Drawing_Clip/fr.md)
+|[Vues orthogonales](Drawing_Orthoviews/fr.md)
+|[Atelier Mise en plan](Drawing_Workbench/fr.md)
+|IconL=Drawing_Clip.png
+|IconC=Workbench_Drawing.svg
+|IconR=Drawing_Orthoviews.png
+}}
 
 
 </div>

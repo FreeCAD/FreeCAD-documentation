@@ -1,4 +1,6 @@
-\_\_NOTOC\_\_  Here is the artwork that has been created for FreeCAD. Feel free to reuse in other applications. If you would like to contribute with icons, please read the [artwork guidelines](Artwork_Guidelines.md).
+# Artwork/en
+
+  Here is the artwork that has been created for FreeCAD. Feel free to reuse in other applications. If you would like to contribute with icons, please read the [artwork guidelines](Artwork_Guidelines.md).
 
 ## Miscellaneous icons 
 
@@ -155,4 +157,4 @@ See [Artwork Erroneous](Artwork_Erroneous.md).
 
 }}
 
-[Category:Icon{{\#translation:}}](Category:Icon.md) [Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md)
+[Category:Icon](Category:Icon.md) [Category:Developer Documentation](Category:Developer_Documentation.md)

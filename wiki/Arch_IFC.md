@@ -1,3 +1,5 @@
+# Arch IFC
+
   
 
  
@@ -71,4 +73,4 @@ If the shape of exported objects is based on an extrusion or a boolean operation
 
   
 
-[Category:File Formats{{\#translation:}}](Category:File_Formats.md)
+[Category:File Formats](Category:File_Formats.md)

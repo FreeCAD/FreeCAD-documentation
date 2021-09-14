@@ -1,5 +1,11 @@
 ---
-- GuiCommand:/ro   Name:Draft Label   Name/ro:Draft Label   Workbenches:[Arch](Draft_Module/ro___Draft]],_[[Arch_Module/ro.md)|MenuLocation:Draft → Label   Shortcut:D L---
+- GuiCommand:/ro
+   Name:Draft Label
+   Name/ro:Draft Label
+   MenuLocation:Draft → Label
+   Workbenches:[Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
+   Shortcut:**D** **L**
+---
 
 
 </div>

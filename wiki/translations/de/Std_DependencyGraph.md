@@ -94,4 +94,4 @@ Du kannst ein Abhängigkeitsdiagramm speichern:
 
 }}  
 
-[Category:3rd Party{{\#translation:}}](Category:3rd_Party.md)
+[Category:3rd Party](Category:3rd_Party.md)

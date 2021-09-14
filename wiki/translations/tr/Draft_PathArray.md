@@ -1,5 +1,11 @@
 ---
-- GuiCommand:/tr   Name:Draft PathArray   Name/tr:Yol dizisi   Workbenches:[Arch](Draft_Module/tr___Draft]],_[[Arch_Module/tr.md)|MenuLocation:Draft → PathArray   SeeAlso:[Draft Array](Draft_Array/tr.md) ---
+- GuiCommand:/tr
+   Name:Draft PathArray
+   Name/tr:Yol dizisi
+   MenuLocation:Draft → PathArray
+   Workbenches:[Draft](Draft_Workbench/tr.md), [Arch](Arch_Workbench/tr.md)
+   SeeAlso:[Draft Array](Draft_Array/tr.md)
+---
 
 
 </div>

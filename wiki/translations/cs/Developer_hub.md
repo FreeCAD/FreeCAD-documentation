@@ -1,3 +1,5 @@
+# Developer hub/cs
+
 
 
 ![150](images/Crystal_Clear_app_tutorials.png )
@@ -177,4 +179,4 @@ FreeCAD, ačkoli už je použitelný v určité oblasti, je na začátku dlouhé
 
 
 
-[Category:Hubs{{\#translation:}}](Category:Hubs.md) [Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md)
+[Category:Hubs](Category:Hubs.md) [Category:Developer Documentation](Category:Developer_Documentation.md)

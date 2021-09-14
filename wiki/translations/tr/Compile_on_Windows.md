@@ -1,3 +1,5 @@
+# Compile on Windows/tr
+
 
 
 
@@ -469,4 +471,4 @@ See also
 
 
 
-[Category:Developer Documentation/tr](Category:Developer_Documentation/tr.md) [Category:Developer\_Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Developer{{\#translation:}}](Category:Developer.md)
+[Category:Developer Documentation/tr](Category:Developer_Documentation/tr.md) [Category:Developer\_Documentation](Category:Developer_Documentation.md) [Category:Developer](Category:Developer.md)

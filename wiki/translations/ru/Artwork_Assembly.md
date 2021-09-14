@@ -1,4 +1,6 @@
-\_\_NOTOC\_\_ 
+# Artwork Assembly/ru
+
+ 
 
 Эти иконки находятся в указанной исходной папке.
 
@@ -27,4 +29,4 @@
 
 }} 
 
-[Category:Assembly{{\#translation:}}](Category:Assembly.md)
+[Category:Assembly](Category:Assembly.md)

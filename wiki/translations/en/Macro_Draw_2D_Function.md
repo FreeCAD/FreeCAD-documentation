@@ -1,3 +1,5 @@
+# Macro Draw 2D Function/en
+
  {{Macro
 |Name=Draw 2D Function
 |Icon=Macro_Draw_2D_Function.png

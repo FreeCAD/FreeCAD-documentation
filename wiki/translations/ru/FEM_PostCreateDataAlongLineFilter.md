@@ -1,33 +1,3 @@
----
-- GuiCommand:/ru
-   Name:FEM PostCreateDataAlongLineFilter
-   Name/ru:FEM PostCreateDataAlongLineFilter
-   Icon:Fem-DataAlongLine.svg
-   MenuLocation: Results → Data along line filter
-   |Workbenches:[FEM](FEM_Workbench/ru.md)
-   Shortcut:
-   SeeAlso:[FEM tutorial](FEM_tutorial/ru.md)
----
+# FEM PostCreateDataAlongLineFilter/ru
 
-
-</div>
-
-## Описание
-
-ToDo
-
-## Использование
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
-
-
-{{FEM Tools navi
-
-}}  
+1.  REDIRECT [FEM\_PostFilterDataAlongLine/ru](FEM_PostFilterDataAlongLine/ru.md)

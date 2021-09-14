@@ -1,3 +1,5 @@
+# Macro Triangle AH/it
+
  {{Macro/it
 |Name=Macro Triangle AH
 |Translate=Triangolo AH

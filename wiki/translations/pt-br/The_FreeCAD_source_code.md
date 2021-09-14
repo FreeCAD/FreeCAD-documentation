@@ -1,3 +1,5 @@
+# The FreeCAD source code/pt-br
+
  O [FreeCAD source code](https://github.com/FreeCAD/FreeCAD) é gerenciado com git e é público, aberto e disponível sob a licença [LGPL](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License). Pode ser copiado, baixado, lido, analisado, redistribuído e modificado por qualquer pessoa. Se você planeja fazer modificações que deseja ver incluídas no próprio código oficial, lembre-se de que suas alterações precisarão ser aprovadas pelos desenvolvedores do FreeCAD, por isso é aconselhável discutir primeiro suas intenções em \[http: // forum.freecadweb.org forum\] para evitar o risco de ter suas alterações rejeitadas por algum motivo que você não previu.
 
 Abaixo estão algumas dicas e informações úteis para colocar você nos trilhos, caso esteja interessado em explorar o código do FreeCAD.
@@ -31,4 +33,4 @@ Abaixo estão algumas dicas e informações úteis para colocar você nos trilho
 -   The [Power users hub](Power_users_hub.md) contains a lot of documentation about modules, OpenCascade and Coin3D, mainly for the Python programmer. However, as the functionality is similar, these pages will be of interest to the C++ programmer as well.
 -   [FCStd](File_Format_FCStd.md) - the FreeCAD file format
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md)

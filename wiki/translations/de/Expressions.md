@@ -1,3 +1,5 @@
+# Expressions/de
+
  {{TOCright}}
 
 ## Übersicht
@@ -20,7 +22,7 @@ Die Argumente können Verweise auf Zellen in einer Kalkulationstabelle enthalten
 
 ### Referenzierende Objekte 
 
-Du kannst auf ein Objekt über seinen **Namen** oder über seine **Beschriftung** verweisen. Im Falle einer **Beschriftung** muss es in doppelten **<<** und **>>** Symbolen eingeschlossen sein, wie z.B. **<<Beschriftung>>**.
+Du kannst auf ein Objekt über seinen {{PropertyData/de|Namen}} oder über seine {{PropertyData/de|Beschriftung}} verweisen. Im Falle einer {{PropertyData/de|Beschriftung}} muss es in doppelten {{PropertyData/de|<<}} und {{PropertyData/de|>>}} Symbolen eingeschlossen sein, wie z.B. {{PropertyData/de|<<Beschriftung>>}}.
 
 Du kannst auf jede numerische Eigenschaft eines Objekts referenzieren. Um sich beispielsweise auf die Höhe eines Zylinders zu beziehen, kann `Zylinder.Hoehe` oder `<<Langer_Name_des_Zylinders>>.Hoehe` verwendet werden.
 
@@ -57,7 +59,7 @@ Die folgenden Operatoren werden untertstützt:
 
 Die nachfolgend aufgeführten mathematischen Funktionen sind verfügbar.
 
-[Trigonometrische Funktionen](https://de.wikipedia.org/wiki/Trigonometrische_Funktion) verwenden Grad als Standardeinheit. Für die Angabe im Bogenmaß wird ersten Wert in einem Ausdruck hinzugefügt. So ist z.B. `cos(45)` das gleiche, wie `cos(pi rad / 4)`. Ausdrücke in Grad können entweder `deg` oder `°` verwenden, z.B. `360deg - atan2(3; 4)` or `360&deg; - atan2(3; 4)`. Ein Ausdruck, der ohne Einheiten angegeben ist und aus Kompatibilitätsgründen in Grad oder Bogenmaß umgewandelt werden muss, wird mit **1 deg**, **1 °** oder **1 rad** multipliziert, gegebenenfalls, z.B. **(360 - X) \* 1deg**; **(360 - X) \* 1°**; **(0.5 + pi / 2) \* 1rad**.
+[Trigonometrische Funktionen](https://de.wikipedia.org/wiki/Trigonometrische_Funktion) verwenden Grad als Standardeinheit. Für die Angabe im Bogenmaß wird ersten Wert in einem Ausdruck hinzugefügt. So ist z.B. `cos(45)` das gleiche, wie `cos(pi rad / 4)`. Ausdrücke in Grad können entweder `deg` oder `°` verwenden, z.B. `360deg - atan2(3; 4)` oder `360&deg; - atan2(3; 4)`. Ein Ausdruck, der ohne Einheiten angegeben ist und aus Kompatibilitätsgründen in Grad oder Bogenmaß umgewandelt werden muss, wird mit `1&nbsp;deg`, `1&nbsp;°` oder `1&nbsp;rad` multipliziert, gegebenenfalls, z.B. `(360 - X) * 1deg`; `(360 - X) * 1°`; `(0.5 + pi / 2) * 1rad`.
 Folgende Trigonometrische Funktionen werden unterstützt:
 
   Funktion      Beschreibung                                                                                Wertebereich
@@ -160,7 +162,7 @@ In einigen Fällen funktioniert es auch ohne Einheit, z.B. wenn Sie in Zelle B1 
 
 Einheiten mit Exponenten können direkt eingegeben werden. So wird z.B. `mm^3` als mm³ erkannt und `m^3` wird als m³ erkannt.
 
-Wenn eine Variable mit dem Namen einer Einheit verwendet wird, muß die Variable in `<< >>` gesetzt werden. Das verhindert, dass die Variable als Einheit erkannt wird. Das Maß `Sketch.Constraints.A` würde z.B. als Einheit Ampere erkannt werden. Daher muß der Ausdruck als `Sketch.Constraints.<<<A>>` geschrieben werden.
+Wenn eine Variable mit dem Namen einer Einheit verwendet wird, muss die Variable in `<< >>` gesetzt werden. Das verhindert, dass die Variable als Einheit erkannt wird. Das Maß `Sketch.Constraints.A` würde z.B. als Einheit Ampere erkannt werden. Daher muss der Ausdruck als `Sketch.Constraints.<<A>>` geschrieben werden.
 
 Die folgenden Einheiten werden vom Analysator für Ausdrücke erkannt:
 
@@ -218,12 +220,12 @@ Elektrische Leitfähigkeit:
 Elektrische Induktivität:
 
   Einheit   Beschreibung
-  --------- -------------------------------------------------------------------------------------------------------------------------------------
-  nH        Nano[henry (Einheit)](https://de.wikipedia.org/wiki/Henry_(Einheit)), <small>(v0.19)</small> 
-  uH        Micro[henry (Einheit)](https://de.wikipedia.org/wiki/Henry_(Einheit)); Alternative zur Einheit *µH*, <small>(v0.19)</small> 
-  µH        Micro[henry (Einheit)](https://de.wikipedia.org/wiki/Henry_(Einheit)); Alternative zur Einheit *uH*, <small>(v0.19)</small> 
-  mH        Milli[henry (Einheit)](https://de.wikipedia.org/wiki/Henry_(Einheit)), <small>(v0.19)</small> 
-  H         [Henry (Einheit)](https://de.wikipedia.org/wiki/Henry_(Einheit)); 1 H = 1 kg·m\^2/s\^2/A\^2, <small>(v0.19)</small> 
+  --------- ----------------------------------------------------------------------------------------------------------------------------------------
+  nH        Nano[henry (Einheit)](https://de.wikipedia.org/wiki/Henry_(Einheit)), {{Version/de|0.19}}
+  uH        Micro[henry (Einheit)](https://de.wikipedia.org/wiki/Henry_(Einheit)); Alternative zur Einheit *µH*, {{Version/de|0.19}}
+  µH        Micro[henry (Einheit)](https://de.wikipedia.org/wiki/Henry_(Einheit)); Alternative zur Einheit *uH*, {{Version/de|0.19}}
+  mH        Milli[henry (Einheit)](https://de.wikipedia.org/wiki/Henry_(Einheit)), {{Version/de|0.19}}
+  H         [Henry (Einheit)](https://de.wikipedia.org/wiki/Henry_(Einheit)); 1 H = 1 kg·m\^2/s\^2/A\^2, {{Version/de|0.19}}
 
 Elektrischer Widerstand:
 
@@ -236,8 +238,8 @@ Elektrischer Widerstand:
 Elektrische Ladung:
 
   Einheit   Beschreibung
-  --------- -----------------------------------------------------------------------------------------------
-  C         [Coulomb](https://de.wikipedia.org/wiki/Coulomb); 1 C = 1 A·s, <small>(v0.19)</small> 
+  --------- --------------------------------------------------------------------------------------------------
+  C         [Coulomb](https://de.wikipedia.org/wiki/Coulomb); 1 C = 1 A·s, {{Version/de|0.19}}
 
 Elektrisches Spannung:
 
@@ -250,19 +252,19 @@ Elektrisches Spannung:
 Energie / Arbeit:
 
   Einheit   Beschreibung
-  --------- --------------------------------------------------------------------------------------------------------------------------
+  --------- -----------------------------------------------------------------------------------------------------------------------------
   mJ        Milli[joule](https://de.wikipedia.org/wiki/Joule)
   J         [Joule](https://de.wikipedia.org/wiki/Joule)
-  kJ        Kilo[joule](https://de.wikipedia.org/wiki/Joule), <small>(v0.19)</small> 
-  eV        [Elektronenvolt](https://de.wikipedia.org/wiki/Elektronenvolt); 1 ev = 1.602176634e-19 J, <small>(v0.19)</small> 
-  keV       Kilo[elektronenvolt](https://de.wikipedia.org/wiki/Elektronenvolt), <small>(v0.19)</small> 
-  MeV       Mega[elektronenvolt](https://de.wikipedia.org/wiki/Elektronenvolt), <small>(v0.19)</small> 
-  kWh       Kilo[wattstunde](https://de.wikipedia.org/wiki/Wattstunde); 1 kWh = 3.6e6 J, <small>(v0.19)</small> 
+  kJ        Kilo[joule](https://de.wikipedia.org/wiki/Joule), {{Version/de|0.19}}
+  eV        [Elektronenvolt](https://de.wikipedia.org/wiki/Elektronenvolt); 1 ev = 1.602176634e-19 J, {{Version/de|0.19}}
+  keV       Kilo[elektronenvolt](https://de.wikipedia.org/wiki/Elektronenvolt), {{Version/de|0.19}}
+  MeV       Mega[elektronenvolt](https://de.wikipedia.org/wiki/Elektronenvolt), {{Version/de|0.19}}
+  kWh       Kilo[wattstunde](https://de.wikipedia.org/wiki/Wattstunde); 1 kWh = 3.6e6 J, {{Version/de|0.19}}
   Ws        [Wattsekunde](https://de.wikipedia.org/wiki/Joule); Alternative zur Einheit *Joule*
   VAs       [Voltamperesekunde](https://de.wikipedia.org/wiki/Joule); Alternative zur Einheit *Joule*
   CV        [Coulombvolt](https://de.wikipedia.org/wiki/Joule); Alternative zur Einheit *Joule*
-  cal       [Kalorie](https://de.wikipedia.org/wiki/Kalorie); 1 cal = 4.184 J, <small>(v0.19)</small> 
-  kcal      Kilo[kalorie](https://de.wikipedia.org/wiki/Kalorie), <small>(v0.19)</small> 
+  cal       [Kalorie](https://de.wikipedia.org/wiki/Kalorie); 1 cal = 4.184 J, {{Version/de|0.19}}
+  kcal      Kilo[kalorie](https://de.wikipedia.org/wiki/Kalorie), {{Version/de|0.19}}
 
 Kraft:
 
@@ -277,7 +279,7 @@ Kraft:
 Länge:
 
   Einheit   Beschreibung
-  --------- -------------------------------------------------------------------------------------------------
+  --------- ------------------------------------------------------------------------------------------------------------
   mu        Nano[meter](https://de.wikipedia.org/wiki/Meter)
   um        Micro-[Meter](https://de.wikipedia.org/wiki/Meter); Alternative zur Einheit *µm*
   µm        Micro[meter](https://de.wikipedia.org/wiki/Meter); Alternative zur Einheit *mu*
@@ -287,8 +289,8 @@ Länge:
   dm        Dezi[meter](https://de.wikipedia.org/wiki/Meter)
   m         [Meter](https://de.wikipedia.org/wiki/Meter)
   km        Kilo[meter](https://de.wikipedia.org/wiki/Meter)
-  mil       [Thousandth of an inch](https://de.wikipedia.org/wiki/Thou); Alternative zur Einheit *thou*
-  thou      [Thousandth of an inch](https://de.wikipedia.org/wiki/Thou); Alternative zur Einheit *mil*
+  mil       [Thou](https://de.wikipedia.org/wiki/Thou) (Abk. f. Thousandth of an inch); Alternative zur Einheit *thou*
+  thou      [Thou](https://de.wikipedia.org/wiki/Thou) (Abk. f. Thousandth of an inch); Alternative zur Einheit *mil*
   in        [Zoll (Einheit)](https://de.wikipedia.org/wiki/Zoll_(Einheit)), in = inch
   ft        [Fuß (Einheit)](https://de.wikipedia.org/wiki/Fu%C3%9F_(Einheit)); Alternative zur Einheit \'
   \'        [Fuß (Einheit)](https://de.wikipedia.org/wiki/Fu%C3%9F_(Einheit)); Alternative zur Einheit *ft*
@@ -304,21 +306,21 @@ Lichtstärke:
 Magnetische Feldstärke (seit 1970 nicht mehr offiziell gültig):
 
   Einheit   Beschreibung
-  --------- ---------------------------------------------------------------------------------------------------------------------------
-  Oe        [Oersted (Einheit)](https://de.wikipedia.org/wiki/Oersted_(Einheit)); 1 Oe = 79.57747 A/m, <small>(v0.19)</small> 
+  --------- ------------------------------------------------------------------------------------------------------------------------------
+  Oe        [Oersted (Einheit)](https://de.wikipedia.org/wiki/Oersted_(Einheit)); 1 Oe = 79.57747 A/m, {{Version/de|0.19}}
 
 Magnetischer Fluß:
 
   Einheit   Beschreibung
-  --------- ----------------------------------------------------------------------------------------------------------------------------
-  Wb        [Weber (Einheit)](https://de.wikipedia.org/wiki/Weber_(Einheit)); 1 Wb = 1 kg\*m\^2/s\^2/A, <small>(v0.19)</small> 
+  --------- -------------------------------------------------------------------------------------------------------------------------------
+  Wb        [Weber (Einheit)](https://de.wikipedia.org/wiki/Weber_(Einheit)); 1 Wb = 1 kg\*m\^2/s\^2/A, {{Version/de|0.19}}
 
 Magnetische Flußdichte:
 
   Einheit   Beschreibung
-  --------- ---------------------------------------------------------------------------------------------------------------------
-  G         [Gauß (Einheit)](https://de.wikipedia.org/wiki/Gau%C3%9F_(Einheit)); 1 G = 1 e-4 T, <small>(v0.19)</small> 
-  T         [Tesla (Einheit)](https://de.wikipedia.org/wiki/Tesla_(Einheit)); 1 T = 1 kg/s\^2/A, <small>(v0.19)</small> 
+  --------- ------------------------------------------------------------------------------------------------------------------------
+  G         [Gauß (Einheit)](https://de.wikipedia.org/wiki/Gau%C3%9F_(Einheit)); 1 G = 1 e-4 T, {{Version/de|0.19}}
+  T         [Tesla (Einheit)](https://de.wikipedia.org/wiki/Tesla_(Einheit)); 1 T = 1 kg/s\^2/A, {{Version/de|0.19}}
 
 Masse:
 
@@ -339,28 +341,28 @@ Masse:
 Energie:
 
   Einheit   Beschreibung
-  --------- -------------------------------------------------------------------------------------------
+  --------- ----------------------------------------------------------------------------------------------
   W         [Watt(Einheit)](https://de.wikipedia.org/wiki/Watt_(Einheit))
-  kW        Kilo-[Watt](https://de.wikipedia.org/wiki/Watt_(Einheit)), <small>(v0.19)</small> 
+  kW        Kilo-[Watt](https://de.wikipedia.org/wiki/Watt_(Einheit)), {{Version/de|0.19}}
   VA        [Voltampere](https://de.wikipedia.org/wiki/Voltampere)
 
 Druck:
 
   Einheit   Beschreibung
-  --------- --------------------------------------------------------------------------------------------------------------------------
+  --------- -----------------------------------------------------------------------------------------------------------------------------
   Pa        [Pascal (Einheit)](https://de.wikipedia.org/wiki/Pascal_(Einheit))
   kPa       Kilo-[Pascal (Einheit)](https://de.wikipedia.org/wiki/Pascal_(Einheit))
   MPa       Mega-[Pascal (Einheit)](https://de.wikipedia.org/wiki/Pascal_(Einheit))
   GPa       Giga-[Pascal (Einheit)](https://de.wikipedia.org/wiki/Pascal_(Einheit))
-  mbar      Milli-[Bar (Einheit)](https://de.wikipedia.org/wiki/Bar_(Einheit)), <small>(v0.19)</small> 
-  bar       [Bar (Einheit)](https://de.wikipedia.org/wiki/Bar_(Einheit)), <small>(v0.19)</small> 
+  mbar      Milli-[Bar (Einheit)](https://de.wikipedia.org/wiki/Bar_(Einheit)), {{Version/de|0.19}}
+  bar       [Bar (Einheit)](https://de.wikipedia.org/wiki/Bar_(Einheit)), {{Version/de|0.19}}
   uTorr     Micro-[Torr](https://de.wikipedia.org/wiki/Torr); Alternative zu Einheit *µTorr*
   µTorr     Micro-[Torr](https://de.wikipedia.org/wiki/Torr); Alternative zu Einheit *uTorr*
   mTorr     Milli-[Torr](https://de.wikipedia.org/wiki/Torr)
   Torr      [Torr](https://de.wikipedia.org/wiki/Torr); 1 Torr = 133.32 Pa
   psi       [Pound-force per square inch](https://de.wikipedia.org/wiki/Pound-force_per_square_inch); 1 psi = 6.895 kPa
   ksi       Kilo-[Pound-force per square inch](https://en.wikipedia.org/wiki/Pounds_per_square_inch)
-  Mpsi      Mega-[Pound-force per square inch](https://en.wikipedia.org/wiki/Pounds_per_square_inch), <small>(v0.19)</small> 
+  Mpsi      Mega-[Pound-force per square inch](https://en.wikipedia.org/wiki/Pounds_per_square_inch), {{Version/de|0.19}}
 
 Temperatur:
 
@@ -374,30 +376,30 @@ Temperatur:
 Zeit:
 
   Einheit    Beschreibung
-  ---------- ------------------------------------------------------------------------------------------------------
+  ---------- ---------------------------------------------------------------------------------------------------------
   s          [Secunde](https://de.wikipedia.org/wiki/Sekunde)
   min        [Minute](https://de.wikipedia.org/wiki/Minute)
   h          [Stunde](https://de.wikipedia.org/wiki/Stunde)
-  Hz (1/s)   [Hertz (Einheit)](https://de.wikipedia.org/wiki/Hertz_(Einheit)), <small>(v0.19)</small> 
-  kHz        Kilo[hertz (Einheit)](https://de.wikipedia.org/wiki/Hertz_(Einheit)), <small>(v0.19)</small> 
-  MHz        Mega[hertz (Einheit)](https://de.wikipedia.org/wiki/Hertz_(Einheit)), <small>(v0.19)</small> 
-  GHz        Giga[hertz (Einheit)](https://de.wikipedia.org/wiki/Hertz_(Einheit)), <small>(v0.19)</small> 
-  THz        Tera[hertz (Einheit)](https://de.wikipedia.org/wiki/Hertz_(Einheit)), <small>(v0.19)</small> 
+  Hz (1/s)   [Hertz (Einheit)](https://de.wikipedia.org/wiki/Hertz_(Einheit)), {{Version/de|0.19}}
+  kHz        Kilo[hertz (Einheit)](https://de.wikipedia.org/wiki/Hertz_(Einheit)), {{Version/de|0.19}}
+  MHz        Mega[hertz (Einheit)](https://de.wikipedia.org/wiki/Hertz_(Einheit)), {{Version/de|0.19}}
+  GHz        Giga[hertz (Einheit)](https://de.wikipedia.org/wiki/Hertz_(Einheit)), {{Version/de|0.19}}
+  THz        Tera[hertz (Einheit)](https://de.wikipedia.org/wiki/Hertz_(Einheit)), {{Version/de|0.19}}
 
 Volumen:
 
   Einheit   Beschreibung
-  --------- ---------------------------------------------------------------------------------------------------------
-  ml        Milli[liter](https://de.wikipedia.org/wiki/Liter), <small>(v0.19)</small> 
+  --------- ------------------------------------------------------------------------------------------------------------
+  ml        Milli[liter](https://de.wikipedia.org/wiki/Liter), {{Version/de|0.19}}
   l         [Liter](https://de.wikipedia.org/wiki/Liter)
-  cft       Kubik-[Fuß (Einheit)](https://de.wikipedia.org/wiki/Fu%C3%9F_(Einheit)), <small>(v0.19)</small> 
+  cft       Kubik-[Fuß (Einheit)](https://de.wikipedia.org/wiki/Fu%C3%9F_(Einheit)), {{Version/de|0.19}}
 
 Imperiale Spezialeinheiten:
 
   Einheit   Beschreibung
-  --------- ------------------------------------------------------------------------------------------------------
-  mph       [Meilen pro Stunde](https://de.wikipedia.org/wiki/Meilen_pro_Stunde), <small>(v0.19)</small> 
-  sqft      [Quadratfuß](https://de.wikipedia.org/wiki/Quadratfu%C3%9F), <small>(v0.19)</small> 
+  --------- ---------------------------------------------------------------------------------------------------------
+  mph       [Meilen pro Stunde](https://de.wikipedia.org/wiki/Meilen_pro_Stunde), {{Version/de|0.19}}
+  sqft      [Quadratfuß](https://de.wikipedia.org/wiki/Quadratfu%C3%9F), {{Version/de|0.19}}
 
 Die folgenden häufig verwendeten Einheiten werden noch nicht unterstützt:
 
@@ -414,7 +416,7 @@ Die folgenden häufig verwendeten Einheiten werden noch nicht unterstützt:
 
 ## Ungültige Zeichen und Namen 
 
-Das Ausdrucks-Feature ist sehr leistungsfähig. Um das zu ermöglichen gibt es ein paar Einschränkungen bei ein paar Zeichen. Als Workaround gibt es in FreeCAD die Möglichkeit anstatt der Objektnamen sog. Bezeichner (\'labels\') zu verwenden und sich auf diese zu beziehen.
+Das Ausdrucks-Feature ist sehr leistungsfähig. Um das zu ermöglichen gibt es ein paar Einschränkungen bei ein paar Zeichen. Als Abhilfe gibt es in FreeCAD die Möglichkeit anstatt der Objektnamen sog. Bezeichner (\'labels\') zu verwenden und sich auf diese zu beziehen.
 
 In Fällen, in denen du keine Beschriftung verwenden kannst, wie z. B. der Name einer Skizzenbeschränkung, musst du dir bewusst sein, welche Zeichen nicht erlaubt sind.
 
@@ -435,12 +437,12 @@ Zum Beispiel muss der Bezeichner `Skizze\002` als `<<Skizze\002>>` referenziert 
 
 ### Namen
 
-[de/Namen](Object_name#Name.md) von Objekten wie Dimensionen, Skizzen, usw. dürfen folgende Zeichen oder Zeichenfolgen nicht enthalten. Anderenfalls ist der Namen ungültig.
+[Namen](Object_name/de#Name.md) von Objekten wie Dimensionen, Skizzen, usw. dürfen folgende Zeichen oder Zeichenfolgen nicht enthalten. Anderenfalls ist der Namen ungültig.
 
   Zeichen / Zeichenfolgen                                                                                                                    Beschreibung
   ------------------------------------------------------------------------------------------------------------------------------------------ ----------------------------------------------------------------------------------------------------
   **+**, **-**, **\***, **/**, **\^**, **\_**, **\<**, **\>**, **(**, **)**, **{**, **}**, **\[**, **\]**, **.**, **,**, **=**               Zeichen die als mathematische Operatoren funktionieren.
-  **A**, **kA**, **mA**, **MA**, **C**, **G**, **F**, **uF**, **µF**, **J**, **K**, \'\'\' \' \'\'\', \'\'\' ft \'\'\', **°**, und solche!   Zeichen oder Zeichenfolgen, die als [de/Einheiten](Expressions#Units.md) verwendet werden.
+  **A**, **kA**, **mA**, **MA**, **C**, **G**, **F**, **uF**, **µF**, **J**, **K**, \'\'\' \' \'\'\', \'\'\' ft \'\'\', **°**, und solche!   Zeichen oder Zeichenfolgen, die als [Einheiten](Expressions/de#Units.md) verwendet werden.
   **\#**, **!**, **?**, **§**, **\$**, **%**, **&**, **:**, **;**, **\\**, **\|**, **\~**, **∆**, **¿**, und solche!                         Zeichen, die als Platzhalter verwendet werden oder die Funktionen auslösen.
   **pi**, **e**                                                                                                                              Mathematische Konstanten
   **´**, **\**, \'\'\' \' \'\'\', **\"**                                                                                                    Akzente
@@ -506,16 +508,16 @@ In FreeCAD gibt es zur Zeit kein Konzept für globale Variablen. Stattdessen kö
 
 ## Dokumentenübergreifende Verweise 
 
-Es ist (mit Begrenzungen) möglich, eine Eigenschaft eines Objekts in deinem aktuellen Dokument (\".FCstd\" Datei) durch Verwendung eines Ausdrucks zu definieren, um auf eine Eigenschaft eines Objekts in einem anderen Dokument zu verweisen (\".FCstd\" file). Zum Beispiel kann eine Zelle in einer Kalkulationstabelle oder die **Länge** eines Formteil Würfels usw. in einem Dokument durch einen Ausdruck definiert werden, der auf den X Platzierungswert oder eine andere Eigenschaft eines Objekts in einem anderen Dokument verweist.
+Es ist (mit Begrenzungen) möglich, eine Eigenschaft eines Objekts in deinem aktuellen Dokument (\".FCstd\" Datei) durch Verwendung eines Ausdrucks zu definieren, um auf eine Eigenschaft eines Objekts in einem anderen Dokument zu verweisen (\".FCstd\" file). Zum Beispiel kann eine Zelle in einer Kalkulationstabelle oder die {{PropertyData/de|Länge}} eines Formteil Würfels usw. in einem Dokument durch einen Ausdruck definiert werden, der auf den X Platzierungswert oder eine andere Eigenschaft eines Objekts in einem anderen Dokument verweist.
 
-Der Name des Dokuments wird verwendet, um von einem anderen Dokument aus darauf zu referenzieren. Wenn ein Dokument zum ersten Mal gespeichert wird, muss dem Dokument ein Name gegeben werden. Dies ist normalerweise ein anderer Name als die Vorgabe \"Unbenannt1\". Um zu verhindern, dass Veknüpfungen beim Speichern des Hauptdokumentes verloren gehen, wenn dieses dabei einen anderen Namen bekommt, sollte das Hauptdokument zuerst mit einer Kalkulationstabelle erstellt werden. Danach kann der Inhalt des Dokuments geändert und das Dokument gespeichert werden, aber es darf nicht umbenannt werden.
+Der Name des Dokuments wird verwendet, um von einem anderen Dokument aus darauf zu referenzieren. Wenn ein Dokument zum ersten Mal gespeichert wird, muss dem Dokument ein Name gegeben werden. Dies ist normalerweise ein anderer Name als die Vorgabe \"Unbenannt1\". Um zu verhindern, dass Verknüpfungen beim Speichern des Hauptdokumentes verloren gehen, wenn dieses dabei einen anderen Namen bekommt, sollte das Hauptdokument zuerst mit einer Kalkulationstabelle erstellt werden. Danach kann der Inhalt des Dokuments geändert und das Dokument gespeichert werden, aber es darf nicht umbenannt werden.
 
 Sobald das Mutterdokument mit der Kalkulationstabelle erstellt und gespeichert (benannt) ist, können abhängige Dokumente erstellt werden. Angenommen, du nennst das Mutterdokument `master`, die Kalkulationstabelle `modelConstants` und gibst einer Zelle einen Alias-Namen `Length`, dann kannst du auf den Wert zugreifen als:
 
 
 `master#modelConstants.Length`
 
-**Hinweis:**dass der Mutterdokument geladen sein muss, damit die Werte des Mutterdokuments für das abhängige Dokument verfügbar sind.
+**Hinweis:** dass das Mutterdokument geladen sein muss, damit die Werte des Mutterdokuments für das abhängige Dokument verfügbar sind.
 
 Leider meldet der integrierte Prüfer manchmal, dass ein gültiger Name nicht existiert. Tippe trotzdem weiter. Wenn du die vollständige Referenz eingegeben hast, wird die Schaltfläche **OK** aktiv.
 
@@ -523,21 +525,15 @@ Natürlich liegt es bei dir, die zugehörigen Dokumente später zu laden, wenn d
 
 ## Bekannte Probleme / Verbleibende Aufgaben 
 
-
-<div class="mw-translate-fuzzy">
-
 -   Das Abhängigkeitsdiagramm basiert auf der Beziehung zwischen Dokumentobjekten, nicht auf Eigenschaften. Das bedeutet, dass man nicht Daten einem Objekt zur Verfügung stellen kann und gleichzeitig Daten von diesem Objekt abfragt. Auch wenn es beispielsweise keine zyklischen Abhängigkeiten gibt, wenn die Eigenschaften selbst berücksichtigt werden, kann es vorkommen, dass es kein Objekt gibt, das seine Abmessungen aus einer Kalkulationstabelle erhält und dann das Volumen dieses Objekts in derselben Kalkulationstabelle anzeigt. Zur Umgehung des Problems können mehrere Tabellen angelegt werden: Eine Tabelle, die die Objektdaten zur Verfügung stellt und eine andere zur Datenauswertung.
--   Der Analysator für Ausdrucke kann mit Klammern nicht gut umgehen und ist nicht in der Lage einige Ausdrücke korrekt zu analysieren. Zum Beispiel \"**= (A1 \> A2) ? 1 : 0**\" führt zu einem Fehler, während \"**= A1 \> A2 ? 1 : 0**\" akzeptiert wird. Der Ausdruck \"**= 5 + ((A1\>A2) ? 1 : 0)**\" kann in keiner Form eingegeben werden.
+-   Der Analysator für Ausdrücke kann mit Klammern nicht gut umgehen und ist nicht in der Lage, einige Ausdrücke korrekt zu analysieren. Zum Beispiel führt `<nowiki>=</nowiki> (A1 > A2) ? 1 : 0` zu einem Fehler, während `<nowiki>=</nowiki> A1 > A2 ? 1 : 0` akzeptiert wird. Der Ausdruck `<nowiki>=</nowiki> 5 + ((A1>A2) ? 1 : 0)` kann in keiner Form eingegeben werden.
 -   Wie oben erwähnt, erkennt der eingebaute Formelprüfer einen gültigen Namen manchmal nicht. Daher einfach mit der Eingabe fortfahren. Wenn die vollständige Verknüpfung eingegeben ist, wird die Schaltfläche **OK** aktiv.
--   Es gibt keinen Ausdrucksverwalter, mit dem Ausdrücke erstellt werden können, der alle vorhandenen Ausdrücke aufzeigt, löscht oder sucht etc.
+-   FreeCAD hat bisher keinen eingebauten Ausdrucksverwalter, mit dem alle Ausdrücke in einem Dokument aufgeführt und erstellt, gelöscht, abgefragt, etc. werden können. Aber es ist ein Addon verfügbar: [fcxref expression manager](https://github.com/gbroques/fcxref).
 -   Offene Fehler/Tickets für die Ausdrücke (Expressions) können hier nachgeschlagen werden: [FreeCAD Bugtracker Expressions category](https://freecadweb.org/tracker/set_project.php?project_id=4;20)
-
-
-</div>
 
 
 {{Powerdocnavi
 
 }} 
 
-[Category:Spreadsheet{{\#translation:}}](Category:Spreadsheet.md)
+[Category:Spreadsheet](Category:Spreadsheet.md)

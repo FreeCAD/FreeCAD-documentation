@@ -1,14 +1,11 @@
 ---
 - GuiCommand:/fr
    Name:Path DressupDogbone
-   Name/fr:Path Usinage des angles
-   MenuLocation:Path → Path Dressup → Dogbone Dress-up
+   Name/fr:Path Dégagement des angles
+   MenuLocation:Path → Path Dressup → Dégagement des angles
    Workbenches:[Path](Path_Workbench/fr.md)
-   SeeAlso:[Path Balise d'attache](Path_DressupTag/fr.md), [Path Rampe d'entrée](Path_DressupRampEntry/fr.md), [Path Parcours de couteau](Path_DressupDragKnife/fr.md)
+   SeeAlso:[Path Balise d'attache](Path_DressupTag/fr.md), [Path Rampe d'entrée](Path_DressupRampEntry/fr.md), [Path Habillage pour lame rotative](Path_DressupDragKnife/fr.md)
 ---
-
-
-</div>
 
 ## Description
 
@@ -16,7 +13,7 @@ Cet outil permet de rajouter des sur-découpes dans le cas d\'angles intérieurs
 
 ## Utilisation
 
-1.  Sélectionner un objet contour ou profil [Path](Path_Workbench/fr.md)
+1.  Sélectionnez un contour ou un profil d\'objets [Path](Path_Workbench/fr.md).
 2.  Cliquez sur l\'élément de menu <img alt="" src=images/Path_DressupDogbone.svg  style="width:24px;"> [Dégagement des angles](Path_DressupDogbone/fr.md) ou 
 **Path** → **Path Dressup** → **<img src="images/Path_DressupDogbone.svg" width=24px> [Dégagement des angles](Path_DressupDogbone/fr.md)**
 
@@ -29,24 +26,10 @@ Cet outil permet de rajouter des sur-découpes dans le cas d\'angles intérieurs
 
 ## Limitations
 
-
-<div class="mw-translate-fuzzy">
-
-## Limitations 
-
 Pour déterminer le tracé de correction des coins, il faut un segment droit (G1) avant et après le coin où la correction doit être insérée.
 
 
-</div>
 
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 {{Path_Tools_navi

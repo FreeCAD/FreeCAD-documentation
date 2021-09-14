@@ -1,3 +1,5 @@
+# Compiling/cs
+
  Each operating system has its own page for compiling FreeCAD in the [Online Help Documentation](Online_Help_Toc.md).
 
   ------------------------------------------------------ -------------------------------------------------- ------------------------------------------------- -------------------------------------------------------------
@@ -18,4 +20,4 @@ To learn to use revision control system and contribute code see [Source code man
 
 
 
-[Category:Developer\_Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Developer{{\#translation:}}](Category:Developer.md)
+[Category:Developer\_Documentation](Category:Developer_Documentation.md) [Category:Developer](Category:Developer.md)

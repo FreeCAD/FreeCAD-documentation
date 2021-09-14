@@ -1,5 +1,11 @@
 ---
-- GuiCommand:/ro   Name:Draft Point   Name/ro:Draft Punctul   Workbenches:[Arch](Draft_Module/ro___Draft]],_[[Arch_Module/ro.md)|MenuLocation:Draft → Point   Shortcut:P T---
+- GuiCommand:/ro
+   Name:Draft Point
+   Name/ro:Draft Punctul
+   Workbenches:[Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
+   MenuLocation:Draft → Point
+   Shortcut:P T
+---
 
 
 </div>

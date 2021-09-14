@@ -1,3 +1,5 @@
+# Workbenches/pt
+
 
 
 
@@ -110,4 +112,4 @@ Há mais bancadas em desenvolvimento, mantenha-se atento!
 
 
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

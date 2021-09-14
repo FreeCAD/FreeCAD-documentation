@@ -1,3 +1,5 @@
+# Sketcher Workbench/ro
+
 
 
 
@@ -31,21 +33,53 @@ Atelierul de lucru Sketcher pune pe primul loc "constrângerile" - permițând d
 
 *A fully constrained sketch*
 
+## Basics of constraint sketching 
+
+
+<div class="mw-translate-fuzzy">
+
 ## Elementele de bază ale constrângerilor schiței 
 
 Pentru a explica cum funcționează Sketcher-ul, poate fi util să îl comparați cu modul tradițional de redactare.
+
+
+</div>
+
+#### Traditional Drafting 
+
+
+<div class="mw-translate-fuzzy">
 
 #### Schițarea tradițională 
 
 Modul tradițional de schițare CAD moștenește de la vechea [drawing board](http://en.wikipedia.org/wiki/Drawing_board). [Vizualizări ortogonale (2D)](http://en.wikipedia.org/wiki/Multiview_orthographic_projection) sunt desenate manual și sunt destinate pentru realizarea desenelor tehnice (cunoscute și sub denumirea de planuri). Obiectele sunt desenate exact la dimensiunea sau dimensiunea dorită. Dacă doriți să desenați o linie orizontală cu lungimea de 100 mm începând cu (0,0), activați instrumentul Linie, faceți clic pe ecran sau introduceți coordonatele (0,0) pentru primul punct, apoi efectuați un al doilea clic sau introduceți coordonatele celui de-al doilea punct la (100,0). Sau vă veți trage linia fără a ține seama de poziția sa și o veți muta ulterior. După ce ați terminat desenarea geometriei, adăugați dimensiuni acestora.
 
+
+</div>
+
+#### Constraint Sketching 
+
+
+<div class="mw-translate-fuzzy">
+
 #### Constrângeri în Sketching 
 
 **Sketcherul** se îndepărtează de această logică. Obiectele nu trebuie să fie desenate exact așa cum intenționați, deoarece ele vor fi definite ulterior prin constrângeri. Obiectele pot fi desenate și, atâta timp cât ele nu sunt restricționate, pot fi modificate. Ele sunt în fapt \"plutitoare\" și pot fi mișcate, întinse, rotite, scalate și așa mai departe. Acest lucru oferă o mare flexibilitate în procesul de proiectare.
 
+
+</div>
+
+#### What are constraints? 
+
+
+<div class="mw-translate-fuzzy">
+
 #### Ce sunt constrângerile? 
 
 În loc de dimensiuni, constrângerile sunt folosite pentru a limita gradul de libertate al unui obiect. De exemplu, o linie fără constrângeri are 4 [ Degrees of Freedom](#Degrees_of_Freedom.md) (abreviat ca \"DOF\"): poate fi mișcat orizontal sau vertical, poate fi întinsă și poate fi rotită.
+
+
+</div>
 
 Aplicarea unei constrângeri orizontale sau verticale sau a unei constrângeri de unghi (relativ la o altă linie sau la una dintre axe) va limita capacitatea sa de a se roti, lăsându-l astfel cu 3 grade de libertate. Blocarea unuia dintre punctele sale în raport cu originea va elimina încă 2 grade de libertate. Și aplicarea unei constrângeri de dimensiune va elimina ultimul grad de libertate. Linia este apoi considerată \'\'\' complet constrânsă \'\'\'.
 
@@ -59,9 +93,17 @@ Obiectele multiple pot fi constrânse între ele. Două linii pot fi unite prin 
 
 Există două tipuri de constrângeri: geometrice și dimensionale. Acestea sunt detaliate în secțiunea [ \'Instrumentele\'](#_Instrumente.md) de mai jos.
 
+#### What the Sketcher is not good for 
+
+
+<div class="mw-translate-fuzzy">
+
 #### La ce nu este bun Sketcher-ul 
 
 Instrumentul Sketcher nu este destinat pentru realizarea planurilor 2D. Odată ce schițele sunt folosite pentru a genera o caracteristică solidă, ele sunt ascunse automat. Constrângerile sunt vizibile numai în modul Editare schiță.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -95,9 +137,17 @@ Dacă schița are segmente care se încrucișă unul pe altul, locurile în care
 
 Once a Sketch is fully constrained, the Sketch features will turn green; Construction Geometry will remain blue. It is usually \"finished\" at this point and suitable for use in creating a 3D solid. However, once the Sketch dialog is closed it may be worthwhile going to <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> <img src=images/Part_CheckGeometry.svg style="width:Part Workbench](Part_Workbench.md) and running **[16px"> [Check geometry](Part_CheckGeometry.md)** to ensure there are no features in the Sketch which may cause later problems.
 
+## The tools 
+
+
+<div class="mw-translate-fuzzy">
+
 ## Instrumentele
 
 Instrumentele Sketcher Workbench sunt toate localizate în meniul Sketch care apare atunci când încărcați Sketcher Workbench.
+
+
+</div>
 
 ### General
 
@@ -181,7 +231,7 @@ Instrumentele Sketcher Workbench sunt toate localizate în meniul Sketch care ap
 
 </div>
 
--   <img alt="" src=images/Sketcher_StopOperation.svg  style="width:32px;"> [Stop operation](Sketcher_StopOperation.md): when in edit mode, stop the current operation, whether that is drawing, setting constraints, etc.
+-   <img alt="" src=images/Sketcher_StopOperation.svg  style="width:32px;"> [Stop operation](Sketcher_StopOperation.md): When in edit mode, stop the current operation, whether that is drawing, setting constraints, etc.
 
 ### Sketcher geometries 
 
@@ -407,9 +457,17 @@ Desenează un arc de elipsă definită prin punctul central, punctul principal d
 
 Constrângerile sunt folosite pentru a defini lungimile, a stabili reguli între elementele de schiță și pentru a bloca schița de-a lungul axelor verticale și orizontale. Unele constrângeri necesită utilizarea [Helper constraints](Sketcher_helper_constraint.md).
 
+#### Geometric constraints 
+
+
+<div class="mw-translate-fuzzy">
+
 #### Constrângeri geometrice 
 
 Aceste constrângeri nu sunt asociate cu date numerice.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -495,9 +553,17 @@ Practic permite blocarea unui element geometric în loc cu o singură constrâng
 
 </div>
 
+#### Dimensional constraints 
+
+
+<div class="mw-translate-fuzzy">
+
 #### Constrângeri dimensionale 
 
 Acestea sunt constrângeri asociate datelor numerice, pentru care puteți utiliza expresiile [expressions](Expressions.md). Datele pot fi preluate dintr-un [spreadsheet](Spreadsheet_Workbench.md).
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -713,7 +779,7 @@ The following tools can be used the change the effect of constraints:
 
 </div>
 
--   <img alt="" src=images/Sketcher_RemoveAxesAlignment.svg  style="width:32px;"> [Remove Axes Alignment](Sketcher_RemoveAxesAlignment.md): Remove axes alignment while trying to preserve the constraint relationship of the selection <small>(v0.20)</small> 
+-   <img alt="" src=images/Sketcher_RemoveAxesAlignment.svg  style="width:32px;"> [Remove Axes Alignment](Sketcher_RemoveAxesAlignment.md): Remove axes alignment while trying to preserve the constraint relationship of the selection. <small>(v0.20)</small> 
 
 
 <div class="mw-translate-fuzzy">
@@ -803,9 +869,17 @@ The following tools can be used the change the effect of constraints:
 
 </div>
 
+## Best Practices 
+
+
+<div class="mw-translate-fuzzy">
+
 ## Cele mai bune practici 
 
 Fiecare utilizator CAD își dezvoltă în timp propriul mod de a lucra, dar există câteva principii generale utile care trebuie urmate.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -856,4 +930,4 @@ The [Sketcher scripting](Sketcher_scripting.md) page contains examples on how to
 
 }} 
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

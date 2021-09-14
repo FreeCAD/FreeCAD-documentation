@@ -1,3 +1,5 @@
+# Arch Workbench/fr
+
 
 
 
@@ -142,4 +144,4 @@ L\'atelier Arch peut être utilisé dans des scripts [Python](Python/fr.md) et d
 
  
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

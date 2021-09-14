@@ -1,4 +1,6 @@
-\_\_NOTOC\_\_ 
+# Artwork Path/ru
+
+ 
 
 Эти иконки находятся в указанной исходной папке.
 
@@ -15,4 +17,4 @@
 
 }} 
 
-[Category:Path{{\#translation:}}](Category:Path.md)
+[Category:Path](Category:Path.md)

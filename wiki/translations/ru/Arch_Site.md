@@ -1,26 +1,23 @@
 ---
 - GuiCommand:/ru
    Name:Arch Site
-   Name/ru:Arch Site
-   Workbenches:[Arch](Arch_Module/ru.md)
+   Name/ru:Местность
+   Workbenches:[Arch](Arch_Workbench/ru.md)
    MenuLocation:Архитектура → Место
-   Shortcut:S I
-   SeeAlso:[Этаж](Arch_Floor/ru.md), [Здание](Arch_Building/ru.md)
+   Shortcut:**S** **I**
+   SeeAlso:[Уровень](Arch_Floor/ru.md), [Здание](Arch_Building/ru.md)
 ---
 
-
-</div>
-
-## Description
+## Описание
 
 The Arch Site is a special object that combines properties of a standard FreeCAD group object and Arch objects. It is particularly suited for representing a whole project site, or terrain. In IFC-based architectural work, it is mostly used to organize your model, by containing [building](Arch_Building.md) objects. The site is also used to manage and display a physical terrain, and can computes volumes of earth to be added or removed.
 
-## Usage
+## Применение
 
 1.  Optionally, select one or more objects to be included in your new site.
 2.  Press the **<img src="images/Arch_Site.svg" width=16px> [Arch Site](Arch_Site.md)** button, or press the **S** then **I** keys.
 
-## Options
+## Опции
 
 -   After creating a site, you can add more objects to it by drag and dropping them in the Tree View or by using the **<img src="images/Arch_Add.svg" width=16px> [Arch Add](Arch_Add.md)** tool. This only determines which object is part of the given site, and has no effect on the terrain itself.
 -   You can remove objects from a site by drag and dropping them out of it the Tree View or by using the **<img src="images/Arch_Remove.svg" width=16px> [Arch Remove](Arch_Remove.md)** tool
@@ -28,7 +25,7 @@ The Arch Site is a special object that combines properties of a standard FreeCAD
 -   You can add volumes to be added or subtracted from the base terrain, by double-clicking the Site, and adding objects to its Subtractions or Additions groups. The objects must be solids.
 -   The **Extrusion Vector** property can be used to solve some problems that can appear when working with subtractions and additions. In order to perform those additions/subtractions, the terrain surface is extruded into a solid, which is then appropriately unioned/subtracted. Depending on the terrain topology, this extrusion might fail with the default extrusion vector. You might therefore be able to remedy the problem by changing this to a different value.
 
-## Properties
+## Свойства
 
 ### Data
 
@@ -76,7 +73,7 @@ The Arch Site is a special object that combines properties of a standard FreeCAD
 
 -    **Wind Rose**: Shows or hides the wind rose diagram (requires the **EPW File** data property filled, and the Ladybug Python module installed (see below)
 
-## Typical workflow 
+## Типовой рабочий процесс 
 
 Start by creating an object that represents your terrain. It must be an open surface, not a solid. For example, it is easy to import mesh data, that can be turned into a Part Shape from menu **Part → Create Shape from Mesh**. Then, create a Site object, and set its **Terrain** property to the Part we just created:
 
@@ -114,7 +111,7 @@ Site = makeSite(objectslist=None, baseobj=None, name="Site")
 
 -   Creates a `Site` object from `objectslist`, which is a list of objects, or `baseobj`, which is a `Shape` or `Terrain`.
 
-Example: 
+Пример: 
 ```python
 import FreeCAD, Draft, Arch
 
@@ -168,12 +165,7 @@ FreeCAD.Gui.ActiveDocument.ActiveView.getSceneGraph().addChild(Node)
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-</div>
 
 
  
-
-[Category:Arch/ru](Category:Arch/ru.md)

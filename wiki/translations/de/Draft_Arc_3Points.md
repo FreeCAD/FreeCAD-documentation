@@ -3,7 +3,7 @@
    Name:Draft Arc 3Points
    Name/de:Entwurf Bogen 3Punkte
    MenuLocation:Entwurf → Bogen 3 Punkte
-   Workbenches:[Entwurf](Draft_Module/de.md), [Arch](Arch_Module/de.md)
+   Workbenches:[Entwurf](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
    Shortcut:**A** **T**
    Version:0.19
    SeeAlso:[Entwurf Bogen](Draft_Arc/de.md), [Entwurf Kreis](Draft_Circle/de.md), [Entwurf Ellipse](Draft_Ellipse/de.md)
@@ -100,7 +100,7 @@ arc = make_arc_3points(points, placement=None, face=False, support=None, map_mod
 
 :   For example: support=[(obj, ("Face1"))].
 
--   If `map_mode` is given, it is a string defining a type of mapping, for example: map_mode='FlatFace', map_mode='ThreePointsPlane', etc. See [Part Attachment](Part_Attachment.md) for more information.
+-   If `map_mode` is given, it is a string defining a type of mapping, for example: map_mode='FlatFace', map_mode='ThreePointsPlane', etc. See [Part EditAttachment](Part_EditAttachment.md) for more information.
 -   If `primitive` is `True`, the arc created will be a simple [Part Feature](Part_Feature.md), not a complex Draft object.
 
 Beispiel:

@@ -1,3 +1,5 @@
+# VRML Preparation for Robot Simulation/de
+
  {{TutorialInfo/de
 |Topic=Roboter Arbeitsbereich
 |Level=Mittelschwer
@@ -380,4 +382,4 @@ Group {
 
 
 
-[Category:Robot{{\#translation:}}](Category:Robot.md)
+[Category:Robot](Category:Robot.md)

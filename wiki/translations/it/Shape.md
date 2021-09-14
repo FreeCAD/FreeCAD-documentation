@@ -1,3 +1,5 @@
+# Shape/it
+
 
 
 ## Introduzione
@@ -34,4 +36,4 @@ However, when more precision is required, the distinction must be made.
 
  {{Document objects navi}} 
 
-[Category:Glossary{{\#translation:}}](Category:Glossary.md)
+[Category:Glossary](Category:Glossary.md)

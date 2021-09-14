@@ -1,3 +1,5 @@
+# FreeCAD Managing Expectations
+
  
 
 ## Purpose
@@ -71,4 +73,4 @@ Links to forum thread discussions related to this topic
 
 
 
-[Category:Common Questions{{\#translation:}}](Category:Common_Questions.md)
+[Category:Common Questions](Category:Common_Questions.md)

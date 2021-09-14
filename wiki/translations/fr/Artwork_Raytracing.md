@@ -1,4 +1,6 @@
-\_\_NOTOC\_\_ 
+# Artwork Raytracing/fr
+
+ 
 
 Ces icônes se trouvent dans le chemin source indiqué.
 
@@ -15,4 +17,4 @@ Pour toutes les icônes de l\'arborescence source, voir [Graphisme](Artwork/fr.m
 
 }} 
 
-[Category:Raytracing{{\#translation:}}](Category:Raytracing.md)
+[Category:Raytracing](Category:Raytracing.md)

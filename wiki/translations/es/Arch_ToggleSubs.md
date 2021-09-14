@@ -1,5 +1,12 @@
 ---
-- GuiCommand:/es   Name:Arch ToggleSubs   Name/es:Arch ToggleSubs   Workbenches:[[Arch Module/es   Arch]]|MenuLocation:Arch → Utilities → Toggle Subcomponents   Shortcut:‏‎   SeeAlso:---
+- GuiCommand:/es
+   Name:Arch ToggleSubs
+   Name/es:Arch ToggleSubs
+   MenuLocation:Arch → Utilities → Toggle Subcomponents
+   Workbenches:[Arch](Arch_Workbench/es.md)
+   Shortcut:‏‎Ctrl + Space
+   SeeAlso:
+---
 
 
 </div>
@@ -9,7 +16,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Esta herramienta alterna la visibilidad de todas las restas de un objeto [Arch](Arch_Module/es.md) entre visible y oculto. Si un objeto Arch contiene algunos objetos restados visibles y otros ocultos, todos se volverán visibles/ocultos después de ejecutar este comando.
+Esta herramienta alterna la visibilidad de todas las restas de un objeto [Arch](Arch_Workbench/es.md) entre visible y oculto. Si un objeto Arch contiene algunos objetos restados visibles y otros ocultos, todos se volverán visibles/ocultos después de ejecutar este comando.
 
 
 </div>

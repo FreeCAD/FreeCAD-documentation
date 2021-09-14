@@ -3,7 +3,7 @@
    Name:Arch SectionPlane
    Name/ru:Arch SectionPlane
    MenuLocation:Архитектура -> Плоскость сечения
-   Workbenches:[Arch](Arch_Module/ru.md)
+   Workbenches:[Arch](Arch_Workbench/ru.md)
    Shortcut:**S** **P**
    SeeAlso:[Draft Shape2DView](Draft_Shape2DView/ru.md), [TechDraw NewArch](TechDraw_NewArch/ru.md)
 ---
@@ -25,7 +25,7 @@
 
 <img alt="" src=images/Arch_SectionPlane_example.jpg  style="width:600px;">
 
-## Использование
+## Применение
 
 
 <div class="mw-translate-fuzzy">

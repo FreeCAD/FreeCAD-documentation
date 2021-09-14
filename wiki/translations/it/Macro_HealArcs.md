@@ -1,3 +1,5 @@
+# Macro HealArcs/it
+
  {{Macro/it
 |Name=HealArcs
 |Translate=Cura gli archi

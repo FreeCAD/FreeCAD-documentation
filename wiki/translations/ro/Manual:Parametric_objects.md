@@ -1,3 +1,5 @@
+# Manual:Parametric objects/ro
+
 
 
 
@@ -61,4 +63,4 @@ Cu toate acestea, toate obiectele, parametrice sau nu, vor avea câțiva dintre 
 
 
 
-[Category:Poweruser Documentation{{\#translation:}}](Category:Poweruser_Documentation.md) [Category:Tutorials{{\#translation:}}](Category:Tutorials.md)
+[Category:Poweruser Documentation](Category:Poweruser_Documentation.md) [Category:Tutorials](Category:Tutorials.md)

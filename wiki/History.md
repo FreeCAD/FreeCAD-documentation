@@ -1,3 +1,5 @@
+# History
+
  \_\_FORCETOC\_\_ 
 
 ## History
@@ -99,15 +101,16 @@ In April 2019 the team of core developers was expanded: Jürgen, Werner and Yori
 
   Version   Release name   Release date     Release notes                                         Release commit                                                                            Release branch
   --------- -------------- ---------------- ----------------------------------------------------- ----------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------
-  0.19      ?              in development   [Release notes 0.19](Release_notes_0.19.md)   [head master](https://github.com/FreeCAD/FreeCAD/commits/master)                          
+  0.20      ?              in development   [Release notes 0.20](Release_notes_0.20.md)   [head master](https://github.com/FreeCAD/FreeCAD/commits/master)                          
+  0.19      \-             2021-03-20       [Release notes 0.19](Release_notes_0.19.md)   [release commit 0.19](https://github.com/FreeCAD/FreeCAD/commits/releases/FreeCAD-0-19)   [branch bugfixes 0.19](https://github.com/FreeCAD/FreeCAD/tree/releases/FreeCAD-0-19)
   0.18      \-             2019-03-12       [Release notes 0.18](Release_notes_0.18.md)   [release commit 0.18](https://github.com/FreeCAD/FreeCAD/commits/releases/FreeCAD-0-18)   [branch bugfixes 0.18](https://github.com/FreeCAD/FreeCAD/tree/releases/FreeCAD-0-18)
   0.17      Roland         2018-04-06       [Release notes 0.17](Release_notes_0.17.md)   [release commit 0.17](https://github.com/FreeCAD/FreeCAD/commits/releases/FreeCAD-0-17)   [branch bugfixes 0.17](https://github.com/FreeCAD/FreeCAD/tree/releases/FreeCAD-0-17)
   0.16      \-             2016-04-18       [Release notes 0.16](Release_notes_0.16.md)   [release commit 0.16](https://github.com/FreeCAD/FreeCAD/commits/releases/FreeCAD-0-16)   [branch bugfixes 0.16](https://github.com/FreeCAD/FreeCAD/tree/releases/FreeCAD-0-16)
   0.15      \-             2015-04-08       [Release notes 0.15](Release_notes_0.15.md)   [release commit 0.15](https://github.com/FreeCAD/FreeCAD/commits/releases/FreeCAD-0-15)   [branch bugfixes 0.15](https://github.com/FreeCAD/FreeCAD/tree/releases/FreeCAD-0-15)
   0.14      \-             2014-07-01       [Release notes 0.14](Release_notes_0.14.md)   [release commit 0.14](https://github.com/FreeCAD/FreeCAD/commits/releases/FreeCAD-0-14)   [branch bugfixes 0.14](https://github.com/FreeCAD/FreeCAD/tree/releases/FreeCAD-0-14)
-  0.13      \-             2013-01-29       [Release notes 0.13](Release_notes_013.md)    [release commit 0.13](https://github.com/FreeCAD/FreeCAD/commits/releases/FreeCAD-0-13)   [branch bugfixes 0.13](https://github.com/FreeCAD/FreeCAD/tree/releases/FreeCAD-0-13)
-  0.12      \-             2011-12-20       [Release notes 0.12](Release_notes_012.md)                                                                                              
-  0.11      \-             2011-05-03       [Release notes 0.11](Release_notes_011.md)                                                                                              
+  0.13      \-             2013-01-29       [Release notes 0.13](Release_notes_0.13.md)   [release commit 0.13](https://github.com/FreeCAD/FreeCAD/commits/releases/FreeCAD-0-13)   [branch bugfixes 0.13](https://github.com/FreeCAD/FreeCAD/tree/releases/FreeCAD-0-13)
+  0.12      \-             2011-12-20       [Release notes 0.12](Release_notes_0.12.md)                                                                                             
+  0.11      \-             2011-05-03       [Release notes 0.11](Release_notes_0.11.md)                                                                                             
   0.10      \-             2010-07-24                                                                                                                                                       
   0.9       \-             2010-01-16                                                                                                                                                       
   0.8       \-             2009-07-10                                                                                                                                                       
@@ -119,7 +122,6 @@ In April 2019 the team of core developers was expanded: Jürgen, Werner and Yori
   0.2       \-             2005-08-09                                                                                                                                                       
   0.1       \-             2003-01-27                                                                                                                                                       
   0.0.1     \-             2002-10-29       Initial Upload of a version                                                                                                                     
-                                                                                                                                                                                            
 
 #### Legend
 
@@ -138,6 +140,6 @@ In April 2019 the team of core developers was expanded: Jürgen, Werner and Yori
 -   [SourceForge Old Files section](http://sourceforge.net/projects/free-cad/files/OldFiles/)
 -   [Announcing FreeCAD Project](http://www.opencascade.org/org/forum/thread_6572/?forum=11) on the OpenCascade forum
 
- 
 
-[Category:News{{\#translation:}}](Category:News.md)
+
+[Category:News](Category:News.md)

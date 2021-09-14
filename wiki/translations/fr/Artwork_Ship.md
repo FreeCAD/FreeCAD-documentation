@@ -1,4 +1,6 @@
-\_\_NOTOC\_\_ 
+# Artwork Ship/fr
+
+ 
 
 Ces icônes se trouvent dans le chemin source indiqué.
 
@@ -15,4 +17,4 @@ Pour toutes les icônes de l\'arborescence source, voir [Graphisme](Artwork/fr.m
 
 }} 
 
-[Category:Ship{{\#translation:}}](Category:Ship.md)
+[Category:Ship](Category:Ship.md)

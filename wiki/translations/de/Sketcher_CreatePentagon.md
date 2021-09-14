@@ -18,9 +18,17 @@ Zeichnet ein Fünfeck, das in einem Kreis der Konstruktionsgeometrie eingeschrie
 -   Nach Drücken der **<img src=images/Sketcher_CreatePentagon.svg style="width:16px"> [Fünfeck erstellen](Sketcher_CreatePentagon/de.md)**, klicke einmal, um das Zentrum zu setzen, bewege dann die Maus und klicke ein zweites Mal, um einen der Knoten zu setzen.
 -   Drücken von **Esc** oder Klicken mit der rechten Maustaste bricht die Funktion ab.
 
+## Notes
+
+
+<div class="mw-translate-fuzzy">
+
 ## Hinweise
 
 Der umschriebene Kreis ist Konstruktionsgeometrie, die nur bei der Bearbeitung der Skizze sichtbar ist.
+
+
+</div>
 
 
 
@@ -28,4 +36,4 @@ Der umschriebene Kreis ist Konstruktionsgeometrie, die nur bei der Bearbeitung d
 
 {{Sketcher Tools navi
 
-}}  
+}} 

@@ -47,7 +47,7 @@ Git est un outil complexe, considérez d\'en apprendre les bases avant d\'utilis
 
 ## Activation des différences lisibles par l\'homme pour les fichiers FCStd avec l\'utilitaire fcinfo 
 
-Le [format de fichier Fcstd](File_Format_FCStd/fr.md) de FreeCAD est un format binaire au format zip, pour lequel Git ne peut pas produire de diffs corrects. Cela signifie que vous ne pouvez pas voir ce qui a changé entre les versions et que chaque nouvelle version stockée dans le référentiel Git est une copie complète du fichier.
+Le [format de fichier FCStd](File_Format_FCStd/fr.md) de FreeCAD est un format binaire au format zip, pour lequel Git ne peut pas produire de diffs corrects. Cela signifie que vous ne pouvez pas voir ce qui a changé entre les versions et que chaque nouvelle version stockée dans le référentiel Git est une copie complète du fichier.
 
 Bien que le second problème n'ait actuellement pas de solution, le premier peut être résolu avec un petit outil disponible dans le code source de FreeCAD, appelé [fcinfo](https://github.com/FreeCAD/FreeCAD/blob/master/src/Tools/fcinfo). On peut dire à Git d'utiliser l'utilitaire fcinfo pour imprimer un rapport convivial pour un fichier FCStd et que, s'il est invité à produire un diff entre deux fichiers FCStd, il produira un diff entre les deux rapports fcinfo. Veuillez noter qu\'il ne s\'agit que d\'un retour visuel. Une copie complète du fichier sera toujours stockée en interne.
 

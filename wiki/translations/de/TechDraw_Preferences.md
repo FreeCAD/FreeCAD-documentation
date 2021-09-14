@@ -1,3 +1,5 @@
+# TechDraw Preferences/de
+
 
 
 
@@ -211,4 +213,4 @@ Einige Einrichtungseinstellungen sind nur über den [Parametereditor](Std_DlgPar
 
 }} 
 
-[Category:Preferences{{\#translation:}}](Category:Preferences.md)
+[Category:Preferences](Category:Preferences.md)

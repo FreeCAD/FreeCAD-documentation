@@ -1,8 +1,16 @@
-\_\_NOTOC\_\_ 
+# Main Page/pt-br
+
+ 
+
+
+<div class="mw-translate-fuzzy">
 
 ## Introdução
 
 Esta é a documentação wiki de [FreeCAD](http://www.freecadweb.org). Existem duas maneiras principais de navegar pela documentação: explorando os tópicos ou seguindo o manual. Trata-se de um trabalho em andamento, escrito pela comunidade de usuários e desenvolvedores do FreeCAD. Se você encontrar informações erradas ou ausentes, [ajude o FreeCAD](Special:MyLanguage/help_FreeCAD.md)!
+
+
+</div>
 
 ## Os Tópicos 
 
@@ -64,4 +72,4 @@ Visite o [Mapa de desenvolvimento](Development_roadmap/pt-br.md) para ver notíc
 
 
 
-[Category:Documentation{{\#translation:}}](Category:Documentation.md)
+[Category:Documentation](Category:Documentation.md)

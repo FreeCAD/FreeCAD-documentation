@@ -2,8 +2,8 @@
 - GuiCommand:/ru
    Name:Arch SetMaterial
    Name/ru:Arch SetMaterial
-   Workbenches:[Arch](Arch_Module/ru.md), [BIM](BIM_Workbench/ru.md)
    MenuLocation:Arch → Инструменты материала → Материал
+   Workbenches:[Arch](Arch_Workbench/ru.md), [BIM](BIM_Workbench/ru.md)
    Shortcut:**M** **T**
    SeeAlso:[Arch CompSetMaterial](Arch_CompSetMaterial/ru.md), [Arch MultiMaterial](Arch_MultiMaterial/ru.md)
 ---
@@ -23,7 +23,7 @@
 
 ![](images/Arch_materials_01.jpg )
 
-## Использование
+## Применение
 
 1.  При желании выберите один или несколько объектов, которым вы хотите задать новый материал
 2.  Вызовите команду одним из способов

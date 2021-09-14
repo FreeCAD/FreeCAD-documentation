@@ -1,3 +1,5 @@
+# FEM tutorial/it
+
 
 
 
@@ -212,7 +214,7 @@ Con questo abbiamo stabilito i vincoli e le forze per lo studio statico.
 
 <div class="mw-translate-fuzzy">
 
-A questo punto il flusso di lavoro di base per il [Modulo FEM](FEM_Module/it.md) è terminato.
+A questo punto il flusso di lavoro di base per il [Modulo FEM](FEM_Workbench/it.md) è terminato.
 
 
 </div>

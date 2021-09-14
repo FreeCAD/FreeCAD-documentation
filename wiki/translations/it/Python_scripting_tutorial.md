@@ -1,3 +1,5 @@
+# Python scripting tutorial/it
+
 
 
 
@@ -530,7 +532,7 @@ Esplorando il contenuto di myShape, noterete che sono disponibili vari sotto-com
 
 ## Draft
 
-FreeCAD offre altri moduli, quali [Schizzo](Sketcher_Workbench/it.md) o [Draft](Draft_Module/it.md), che creano anche loro degli oggetti Parte, ma vi aggiungono dei parametri, o usano un modo diverso per gestire la geometria della Parte.
+FreeCAD offre altri moduli, quali [Schizzo](Sketcher_Workbench/it.md) o [Draft](Draft_Workbench/it.md), che creano anche loro degli oggetti Parte, ma vi aggiungono dei parametri, o usano un modo diverso per gestire la geometria della Parte.
 
 Il box del nostro precedente esempio è un esempio di perfetto oggetto parametrico.
 
@@ -544,7 +546,7 @@ FreeCAD features many more modules, such as [Sketcher](Sketcher_Workbench.md) an
 
 <div class="mw-translate-fuzzy">
 
-Il [Modulo Draft](Draft_Module/it.md) aggiunge un paio di tipi di oggetti 2D parametrici (che sono tutti oggetti di Parte) quali linee e cerchi, e fornisce anche alcune funzioni generiche che funzionano non solo sugli oggetti creati con Draft, ma su qualsiasi oggetto Parte. Per esplorare ciò che è disponibile, fare semplicemente:
+Il [Modulo Draft](Draft_Workbench/it.md) aggiunge un paio di tipi di oggetti 2D parametrici (che sono tutti oggetti di Parte) quali linee e cerchi, e fornisce anche alcune funzioni generiche che funzionano non solo sugli oggetti creati con Draft, ma su qualsiasi oggetto Parte. Per esplorare ciò che è disponibile, fare semplicemente:
 
 
 </div>
@@ -635,4 +637,4 @@ Dirigetevi al [Centro degli utenti esperti](Power_users_hub/it.md)!
 
 }} 
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Python Code{{\#translation:}}](Category:Python_Code.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)

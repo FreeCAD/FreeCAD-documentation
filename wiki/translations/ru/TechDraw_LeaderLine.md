@@ -1,19 +1,23 @@
 ---
-- GuiCommand:
-   Name:TechDraw LeaderLine
-   MenuLocation:TechDraw → Add Lines → Add Leaderline to View
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
+- GuiCommand:/ru
+   Name/ru:Добавить Линию-выноску в Вид
+   Name:TechDraw_LeaderLine
+   MenuLocation:TechDraw → Добавить Линии → Добавить Линию-выноску в Вид
+   Workbenches:[TechDraw](TechDraw_Workbench/ru.md)
    Version:0.19
-   SeeAlso:[TechDraw Rich Text Annotation](TechDraw_RichTextAnnotation.md), [TechDraw Welding Symbol](TechDraw_WeldSymbol.md), [TechDraw Line Group](TechDraw_LineGroup.md)
+   SeeAlso:[Вставка аннотаций форматированным текстом](TechDraw_RichTextAnnotation/ru.md), [Добавить информацию о сварке в указательную линию](TechDraw_WeldSymbol/ru.md), [TechDraw Line Group](TechDraw_LineGroup/ru.md)
 ---
 
-## Description
+
+</div>
+
+## Описание
 
 The LeaderLine tool adds a line to a View. Other annotation objects (such as [Rich Text Annotations](TechDraw_RichTextAnnotation.md)) can be connected to the leaderline to form complex annotations.
 
 ![](images/TechDraw_LeaderLine_sample.png ) *Leaderline added to View001*
 
-## Usage
+## Применение
 
 1.  Select a view.
 2.  Press the **<img src="images/TechDraw_LeaderLine.svg" width=16px> Add Leaderline to View** button. A dialog will open allowing to draw the leaderline and assigning end symbols to the line.
@@ -33,7 +37,7 @@ The LeaderLine tool adds a line to a View. Other annotation objects (such as [Ri
 3.  To edit the points, click on **Edit points** and the line points become visible in the drawing.
 4.  Drag the points to a place you like and finish the change by clicking on **Save changes**.
 
-## Properties
+## Свойства
 
 -    **X,Y**: The point at which the leaderline is connected to the View.
 
@@ -55,12 +59,12 @@ The LeaderLine tool adds a line to a View. Other annotation objects (such as [Ri
 
 -    **Line Width**: Width of leaderline.
 
-## Scripting
+## Программирование
 
 
-**See also:**
+**См. так же:**
 
-[TechDraw API](TechDraw_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+[TechDraw API](TechDraw_API/ru.md) и [Основы составления скриптов FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 
 The LeaderLine tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following functions:
 

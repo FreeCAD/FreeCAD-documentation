@@ -1,3 +1,5 @@
+# Python console/de
+
  {{VeryImportantMessage|(Januar 2020) FreeCAD wurde ursprünglich für die Arbeit mit Python 2 entwickelt. Da Python 2 im Jahr 2020 das Ende seiner Lebensdauer erreicht hat, wird die zukünftige Entwicklung von FreeCAD ausschließlich mit Python 3 erfolgen und die Abwärtskompatibilität wird nicht unterstützt.}}
 
 ## Einleitung
@@ -73,7 +75,7 @@ Ein Rechtsklick auf die Python Konsole zeigt einige Befehle an:
 
 -    {{MenuCommand/de|Wort umbrechen}}: sehr lange Zeilen umbrechen, die die horizontale Dimension der Python-Konsole überschreiten.
 
-## Notes
+## Hinweise
 
 -   One has the ability to scroll the API in the Python console. Example:
     1.  In the console type: `FreeCAD.`

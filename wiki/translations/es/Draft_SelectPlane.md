@@ -3,7 +3,7 @@
    Name:Draft SelectPlane
    Name/es:Borrador SeleccionarPlano
    MenuLocation:Borrador -> Seleccionar Plano
-   Workbenches:[Borrador](Draft_Module/es.md), [Arquitectura](Arch_Module/es.md)
+   Workbenches:[Borrador](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
    Shortcut:**W** **P**
    SeeAlso:[Borrador PlanoTrabajoProxy](Draft_WorkingPlaneProxy/es.md), [Borrador AlternarRejilla](Draft_ToggleGrid/es.md)
 ---
@@ -16,7 +16,7 @@
 
 <div class="mw-translate-fuzzy">
 
-El <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Ambiente de Trabajo Borrador](Draft_Module/es.md) cuenta con un sistema de planos de trabajo. Un plano en la [Vista 3D](3D_view/es.md) indica dónde se construirá una forma de Borrador. Hay varios métodos para definir el plano de trabajo:
+El <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Ambiente de Trabajo Borrador](Draft_Workbench/es.md) cuenta con un sistema de planos de trabajo. Un plano en la [Vista 3D](3D_view/es.md) indica dónde se construirá una forma de Borrador. Hay varios métodos para definir el plano de trabajo:
 
 -   A partir de una cara seleccionada
 -   De tres vértices seleccionados.

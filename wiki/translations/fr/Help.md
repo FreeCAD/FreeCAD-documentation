@@ -1,3 +1,5 @@
+# Help/fr
+
 
 
 ## Forum
@@ -29,9 +31,9 @@ Vous pouvez rejoindre le [groupe publique de FreeCAD Facebook](https://www.faceb
 
 {{Userdocnavi/fr}}
 
-Nous avons un [serveur Discord officiel dédié à FreeCAD](https://discord.gg/BgZh2n7Kn9) avec une variété de canaux pour divers sous-thèmes. Il existe également plusieurs serveurs tiers avec des canaux de discussion liés à FreeCAD. Le serveur [Elmer FEM](https://discordapp.com/invite/NeZEBZn) a un canal pour pratiquement tous les outils de CAO, FAO et IAO, qu\'ils soient open source ou propriétaires, et il a un canal \"freecad\" assez bien établi. La grande variété de canaux et de communautés que ce serveur attire signifie qu\'il peut être utile pour discuter avec des personnes de communautés connexes. Le serveur [OpenFOAM](https://discordapp.com/invite/P9p9eHn) possède un canal \"freecad-salome-etc\", où vous pourriez trouver des personnes plus intéressées par le chevauchement entre FreeCAD et les outils de dynamique des fluides numériques comme OpenFOAM. Le serveur [Modelica Language](https://discordapp.com/invite/bp2yeYU) possède également un canal \"freecad\" si vous êtes intéressé par FreeCAD du point de vue de la modélisation multi-domaine. Cependant, veuillez ne pas utiliser les groupes de discussion comme principal moyen d\'échange de données. Ils ne sont pas indexés par les moteurs de recherche et les informations produites sur ces plateformes ne sont pas correctement accumulées, comme c\'est le cas sur les forums, les articles de blog ou les pages wiki.
+Nous avons un [serveur Discord officiel dédié à FreeCAD](https://discord.gg/NeZEBZn) avec une variété de canaux pour divers sous-thèmes. Il existe également plusieurs serveurs tiers avec des canaux de discussion liés à FreeCAD. Le serveur [Elmer FEM](https://discordapp.com/invite/NeZEBZn) a un canal pour pratiquement tous les outils de CAO, FAO et IAO, qu\'ils soient open source ou propriétaires, et il a un canal \"freecad\" assez bien établi. La grande variété de canaux et de communautés que ce serveur attire signifie qu\'il peut être utile pour discuter avec des personnes de communautés connexes. Le serveur [OpenFOAM](https://discordapp.com/invite/P9p9eHn) possède un canal \"freecad-salome-etc\", où vous pourriez trouver des personnes plus intéressées par le chevauchement entre FreeCAD et les outils de dynamique des fluides numériques comme OpenFOAM. Le serveur [Modelica Language](https://discordapp.com/invite/bp2yeYU) possède également un canal \"freecad\" si vous êtes intéressé par FreeCAD du point de vue de la modélisation multi-domaine. Cependant, veuillez ne pas utiliser les groupes de discussion comme principal moyen d\'échange de données. Ils ne sont pas indexés par les moteurs de recherche et les informations produites sur ces plateformes ne sont pas correctement accumulées, comme c\'est le cas sur les forums, les articles de blog ou les pages wiki.
 
 
  
 
-[Category:Help{{\#translation:}}](Category:Help.md)
+[Category:Help](Category:Help.md)

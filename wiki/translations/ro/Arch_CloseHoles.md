@@ -1,5 +1,11 @@
 ---
-- GuiCommand:/ro   Name:Arch CloseHoles   Name/ro:Arch CloseHoles   Workbenches:[MenuLocation:Arch → Utilities → Close Holes   SeeAlso:[[Arch Check/ro|Arch Check](Arch_Module/ro___Arch]].md)---
+- GuiCommand:/ro
+   Name:Arch CloseHoles
+   Name/ro:Arch CloseHoles
+   MenuLocation:Arch → Utilities → Close Holes
+   Workbenches:[Arch](Arch_Workbench/ro.md)
+   SeeAlso:[Arch Check](Arch_Check/ro.md)
+---
 
 
 </div>

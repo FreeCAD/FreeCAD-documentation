@@ -1,14 +1,11 @@
 ---
 - GuiCommand:/ru
-   Name:Std Placement
-   Name/ru:Std Placement
-   MenuLocation:Правка → Размещение...‏‎
-   |Workbenches:All
-   SeeAlso:[Std Alignment](Std_Alignment/ru.md), [Tasks Placement](Tasks_Placement/ru.md), [Placement](Placement/ru.md)
+   Name/ru:Расположение
+   Name:Std_Placement
+   MenuLocation:Правка → Расположение...
+   Workbenches:Все
+   SeeAlso:[Выравнивание](Std_Alignment/ru.md), [Расположение](Placement/ru.md)
 ---
-
-
-</div>
 
 ## Описание
 

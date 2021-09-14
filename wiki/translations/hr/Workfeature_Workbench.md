@@ -1,3 +1,5 @@
+# Workfeature Workbench/hr
+
 
 
 <img alt="Workfeature workbench icon" src=images/WF_wf.png  style="width:128px;">
@@ -76,4 +78,4 @@ This workbench can be installed from the [Addon Manager](Std_AddonMgr.md).
 
 -   [External workbenches](External_workbenches.md)
 
-[Category:Sandbox{{\#translation:}}](Category:Sandbox.md) [Category:User Documentation{{\#translation:}}](Category:User_Documentation.md) [Category:Addons{{\#translation:}}](Category:Addons.md) [Category:External Workbenches{{\#translation:}}](Category:External_Workbenches.md)
+[Category:Sandbox](Category:Sandbox.md) [Category:User Documentation](Category:User_Documentation.md) [Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)

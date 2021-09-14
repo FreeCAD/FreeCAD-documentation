@@ -1,8 +1,8 @@
 ---
 - GuiCommand:/ru
    Name:Arch MultiMaterial   Name/ru:Arch MultiMaterial
-   Workbenches:[Arch](Arch_Module/ru.md)
    MenuLocation:Архитектура → Multi-Material
+   Workbenches:[Arch](Arch_Workbench/ru.md)
 ---
 
 

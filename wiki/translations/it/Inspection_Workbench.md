@@ -1,3 +1,5 @@
+# Inspection Workbench/it
+
 
 
 
@@ -52,4 +54,4 @@ In alternativa utilizzare la macro <img alt="" src=images/HighlightDifference.pn
 
 
 
-[Category:Inspection{{\#translation:}}](Category:Inspection.md) [Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Inspection](Category:Inspection.md) [Category:Workbenches](Category:Workbenches.md)

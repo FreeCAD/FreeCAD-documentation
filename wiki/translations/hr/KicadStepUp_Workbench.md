@@ -1,3 +1,5 @@
+# KicadStepUp Workbench/hr
+
 
 
 <img alt="KicadStepUp External workbench icon" src=images/Kicad-StepUp-tools-WB.svg  style="width:128px;">
@@ -139,4 +141,4 @@ New workbenches are in development, stay tuned!
 
 
 
-[Category:Addons{{\#translation:}}](Category:Addons.md) [Category:External Workbenches{{\#translation:}}](Category:External_Workbenches.md)
+[Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)

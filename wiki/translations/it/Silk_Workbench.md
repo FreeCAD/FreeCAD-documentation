@@ -1,4 +1,6 @@
- {{UnfinishedDocu}} <img alt="" src=images/Silk_workbench_icon.svg  style="width:240px;"> 
+# Silk Workbench/it
+
+ } <img alt="" src=images/Silk_workbench_icon.svg  style="width:240px;"> 
 *align=center|L'icona dell'ambiente aggiuntivo Silk*
 
 ## Descrizione
@@ -25,4 +27,4 @@ Si consiglia di installarlo tramite <img alt="" src=images/AddonManager.svg  sty
 
 
 
-[Category:Silk{{\#translation:}}](Category:Silk.md) [Category:External Workbenches{{\#translation:}}](Category:External_Workbenches.md) [Category:Addons{{\#translation:}}](Category:Addons.md)
+[Category:Silk](Category:Silk.md) [Category:External Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)

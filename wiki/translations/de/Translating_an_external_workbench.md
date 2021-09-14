@@ -1,3 +1,5 @@
+# Translating an external workbench/de
+
 
 
 In den folgenden Hinweisen sollte `"context"` der Name Deiner Erweiterung oder Deines Arbeitsbereichs sein, z.B. `"MySuperAddon"` oder `"DraftPlus"`, oder was auch immer. Dieser Kontext macht es so, dass die gesamte Übersetzung deines Codes unter dem gleichen Namen zusammengefasst wird, um von den Übersetzern leichter identifiziert werden zu können. Das heißt, sie wissen genau, zu welcher Erweiterung oder welchem Arbeitsbereich eine bestimmte Zeichenkette gehört.
@@ -210,4 +212,4 @@ Ergebnis: Dies sollte die deutsche Übersetzung liefern. Wenn das funktioniert, 
 
  
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md)

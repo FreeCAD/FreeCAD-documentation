@@ -1,11 +1,11 @@
 ---
 - GuiCommand:/ru
-   Name:Std ViewRight
-   Name/ru:Std ViewRight
-   MenuLocation:Виды → Стандартные виды → Справа
-   Workbenches:All
+   Name/ru:Справа
+   Name:Std_ViewRight
+   MenuLocation:Вид → Стандартные виды‏‎ → Справа
+   Workbenches:Все
    Shortcut:**3**
-   SeeAlso:[Std ViewFront](Std_ViewFront/ru.md), [Std ViewTop](Std_ViewTop/ru.md)
+   SeeAlso:[Спереди](Std_ViewFront/ru.md), [Сверху](Std_ViewTop/ru.md)
 ---
 
 ## Описание
@@ -22,7 +22,7 @@ The **Std ViewRight** command points the camera in the active [3D view](3D_view.
     -   Select the **Standard views → <img src="images/Std_ViewRight.svg" width=16px> Right** option from the [3D view](3D_view.md) context menu.
     -   Use the keyboard shortcut: **3**.
 
-## Scripting
+## Программирование
 
 
 **Смотрите так же:**

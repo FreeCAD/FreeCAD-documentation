@@ -10,9 +10,17 @@
 
 </div>
 
+## Description
+
+
+<div class="mw-translate-fuzzy">
+
 ## Descriere
 
 Aplică un punct pe un alt obiect, cum ar fi o linie, un arc sau o axă de schiță.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -41,9 +49,17 @@ Notă : Ordinea în care alegeți linia și punctul nu contează. Punctul se va
 
 </div>
 
+## Scripting
+
+
+<div class="mw-translate-fuzzy">
+
 ### Script
 
 Constrângerea poate fi creată din macrocomenzi și din consola Python folosind următoarea comandă:
+
+
+</div>
 
 
 `Sketch.addConstraint(Sketcher.Constraint('PointOnObject',LineMoving,PointOfLineMoving,LineFixed))`

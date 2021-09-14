@@ -1,4 +1,6 @@
-\_\_NOTOC\_\_ 
+# Main Page/tr
+
+ 
 
 
 <div class="mw-translate-fuzzy">
@@ -109,4 +111,4 @@ Neler yapılması planlandığı ile ilgili olarak [Geliştirici rehberine](Deve
 
 
 
-[Category:Documentation{{\#translation:}}](Category:Documentation.md)
+[Category:Documentation](Category:Documentation.md)

@@ -1,10 +1,11 @@
 ---
-- GuiCommand:
-   Name:TechDraw 2PointCenterLine
-   MenuLocation:TechDraw → Add Lines → Add Centerline between 2 points
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
+- GuiCommand:/ru
+   Name/ru:Добавить осевую линию между 2 точками
+   Name:TechDraw_2PointCenterLine
+   MenuLocation:TechDraw → Добавить Линии → Add Centerline between 2 points
+   Workbenches:[TechDraw](TechDraw_Workbench/ru.md)
    Version:0.19
-   SeeAlso:[TechDraw Centerline to Face(s)](TechDraw_FaceCenterLine.md), [TechDraw Centerline between 2 Lines](TechDraw_2LineCenterLine.md)
+   SeeAlso:[Добавить осевую линию к Граням](TechDraw_FaceCenterLine/ru.md), [Добавить осевую линию между 2 линиями](TechDraw_2LineCenterLine/ru.md)
 ---
 
 ## Описание
@@ -50,12 +51,12 @@ Centerlines have no properties of their own, as they are no document objects. Th
 7.  **Weight**: Thickness of the centerline
 8.  **Style**: <img alt="" src=images/Continuous-line.svg  style="width:20px;"> Continuous, <img alt="" src=images/Dash-line.svg  style="width:20px;"> Dash, <img alt="" src=images/Dot-line.svg  style="width:20px;"> Dot, <img alt="" src=images/DashDot-line.svg  style="width:20px;"> DashDot, <img alt="" src=images/DashDotDot-line.svg  style="width:20px;"> DashDotDot
 
-## Scripting
+## Программирование
 
 
-**See also:**
+**См. так же:**
 
-[TechDraw API](TechDraw_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+[TechDraw API](TechDraw_API/ru.md) и [Основы составления скриптов FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 
 Centerlines are not accessible from [macros](Macros.md) or the [Python](Python.md) console at this time.
 

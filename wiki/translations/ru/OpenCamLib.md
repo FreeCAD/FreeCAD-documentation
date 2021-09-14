@@ -1,3 +1,5 @@
+# OpenCamLib/ru
+
 
 
 ## Описание
@@ -113,4 +115,4 @@ Thank you to [Dr. Anders Wallin](http://www.anderswallin.net/about/) for providi
 
 
 
-[Category:User Documentation{{\#translation:}}](Category:User_Documentation.md) [Category:3rd Party{{\#translation:}}](Category:3rd_Party.md)
+[Category:User Documentation](Category:User_Documentation.md) [Category:3rd Party](Category:3rd_Party.md)

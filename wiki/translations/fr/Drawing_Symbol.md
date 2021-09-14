@@ -21,7 +21,7 @@ Cette commande vous permet d\'ajouter le contenu d\'une image SVG sur une [ Feui
 <div class="mw-translate-fuzzy">
 
 
-{{docnav/fr|[Vues orthogonales](Drawing_Orthoviews/fr.md)|[Vue d'une feuille de calcul](Drawing_SpreadsheetView/fr.md)|[Atelier Mise en plan](Drawing_Module/fr.md)|IconL=Drawing_Orthoviews.png|IconC=Workbench_Drawing.svg|IconR=Drawing_SpreadsheetView.png}}
+{{docnav/fr|[Vues orthogonales](Drawing_Orthoviews/fr.md)|[Vue d'une feuille de calcul](Drawing_SpreadsheetView/fr.md)|[Atelier Mise en plan](Drawing_Workbench/fr.md)|IconL=Drawing_Orthoviews.png|IconC=Workbench_Drawing.svg|IconR=Drawing_SpreadsheetView.png}}
 
 
 </div>

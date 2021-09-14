@@ -1,3 +1,5 @@
+# A2plus Workbench/zh-hans
+
  <img alt="A2plus workbench icon" src=images/A2p_workbench.svg  style="width:128px;">
 
 ## 简介
@@ -786,4 +788,4 @@ This is an A2plus-specific command. It solves the assembly constraints of the as
 
 
 
-[Category:Addons{{\#translation:}}](Category:Addons.md) [Category:External Workbenches{{\#translation:}}](Category:External_Workbenches.md)
+[Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)

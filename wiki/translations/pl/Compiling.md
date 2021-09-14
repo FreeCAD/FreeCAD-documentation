@@ -1,3 +1,5 @@
+# Compiling/pl
+
  Każdy system operacyjny ma swoją własną stronę wprowadzającą w proces kompilacji programu FreeCAD w [Spisie treści pomocy online](Online_Help_Toc/pl.md).
 
   ------------------------------------------------------------------------------ --------------------------------------------------------------- --------------------------------------------------------------- -------------------------------------------------------------------
@@ -18,4 +20,4 @@ Aby nauczyć się korzystać z systemu kontroli rewizji i kodu źródłowego, pr
 
 
 
-[Category:Developer\_Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Developer{{\#translation:}}](Category:Developer.md)
+[Category:Developer\_Documentation](Category:Developer_Documentation.md) [Category:Developer](Category:Developer.md)

@@ -1,4 +1,6 @@
-\_\_NOTOC\_\_ 
+# Artwork Spreadsheet/ru
+
+ 
 
 Эти иконки находятся в указанной исходной папке.
 
@@ -15,4 +17,4 @@
 
 }} 
 
-[Category:Spreadsheet{{\#translation:}}](Category:Spreadsheet.md)
+[Category:Spreadsheet](Category:Spreadsheet.md)

@@ -1,3 +1,5 @@
+# Sketcher Dialog/it
+
 
 
 
@@ -169,7 +171,7 @@ Questa sezione elenca i vincoli dello schizzo. Deselezionando un vincolo nell\'e
 | Name                                    | Description                                                                                                                                                                                                                                                                                                   |
 +=========================================+===============================================================================================================================================================================================================================================================================================================+
 |                          | You can select what constraint types will be listed. The types are                                                                                                                                                                                                                                            |
-| **Filter**                  | *All*: allnn constraints                                                                                                                                                                                                                                                                                      |
+| **Filter**                  | *All*: all constraints                                                                                                                                                                                                                                                                                        |
 |                                      | *Normal*: constraints to normal sketch elements                                                                                                                                                                                                                                                               |
 |                                         | *Datums*: dimensional constraints to [construction elements](Sketcher_ToggleConstruction.md)                                                                                                                                                                                                          |
 |                                         | *Named*: constraints with a name                                                                                                                                                                                                                                                                              |

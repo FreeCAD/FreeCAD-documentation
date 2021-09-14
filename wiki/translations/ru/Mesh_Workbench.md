@@ -1,3 +1,5 @@
+# Mesh Workbench/ru
+
 
 
 
@@ -165,4 +167,4 @@ Mesh Workbench preferences can be found in the following categories of the [Pref
 
 }} 
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

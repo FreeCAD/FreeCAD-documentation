@@ -1,3 +1,5 @@
+# Body
+
  
 
 ## Introduction
@@ -24,4 +26,4 @@ A Body is not required when using the [Part Workbench](Part_Workbench.md), as th
 
  {{PartDesign Tools navi}} {{Document objects navi}} 
 
-[Category:Glossary{{\#translation:}}](Category:Glossary.md)
+[Category:Glossary](Category:Glossary.md)

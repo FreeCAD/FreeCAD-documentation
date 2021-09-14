@@ -1,3 +1,5 @@
+# Manual:Generating 2D drawings/ru
+
 
 
 
@@ -77,7 +79,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Теперь поместим на нашем чертеже размеры и выноски. Есть два пути для указания в модели размерностей: одно - указание размерностей внутри модели, используя инструмент <img alt="" src=images/Draft_Dimension.svg  style="width:16px;"> [Размер](Draft_Dimension/ru.md) из [верстака Draft](Draft_Module/ru.md), и поместить вид этих размеров на нашем листе с помощью инструмента <img alt="" src=images/Techdraw-draft-view.svg  style="width:16px;"> [New Draft](TechDraw_NewDraft.md). По-другому мы можем делать это напрямую на чертёжном листе. Мы используем последний метод.
+Теперь поместим на нашем чертеже размеры и выноски. Есть два пути для указания в модели размерностей: одно - указание размерностей внутри модели, используя инструмент <img alt="" src=images/Draft_Dimension.svg  style="width:16px;"> [Размер](Draft_Dimension/ru.md) из [верстака Draft](Draft_Workbench/ru.md), и поместить вид этих размеров на нашем листе с помощью инструмента <img alt="" src=images/Techdraw-draft-view.svg  style="width:16px;"> [New Draft](TechDraw_NewDraft.md). По-другому мы можем делать это напрямую на чертёжном листе. Мы используем последний метод.
 
 
 </div>

@@ -1,3 +1,5 @@
+# Start Workbench/zh-tw
+
 
 
 
@@ -24,4 +26,4 @@ From this interface you can see useful information and jump to recently opened f
 
 
 
-[Category:User Documentation/zh-tw](Category:User_Documentation/zh-tw.md) [Category:Start{{\#translation:}}](Category:Start.md) [Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:User Documentation/zh-tw](Category:User_Documentation/zh-tw.md) [Category:Start](Category:Start.md) [Category:Workbenches](Category:Workbenches.md)

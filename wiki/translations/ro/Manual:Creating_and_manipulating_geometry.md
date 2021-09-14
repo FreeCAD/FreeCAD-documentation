@@ -1,3 +1,5 @@
+# Manual:Creating and manipulating geometry/ro
+
  
 
 
@@ -247,4 +249,4 @@ Toate cele de mai sus, și multe altele, sunt explicate în detaliu pe pagina [ 
 
 }} 
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Python Code{{\#translation:}}](Category:Python_Code.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)

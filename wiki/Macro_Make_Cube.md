@@ -1,3 +1,5 @@
+# Macro Make Cube
+
   {{Macro
 |Name=Make Cube
 |Icon=Macro_makeCube.png
@@ -15,9 +17,7 @@ This macro creates a cube by asking for 4 points
 
 ## Script
 
-
-
-ToolBar Icon ![](images/Macro_makeCube.png )
+ToolBar Icon  ![](images/Macro_makeCube.png )
 
 **Macro\_Make\_Cube.FCMacro**
 

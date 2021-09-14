@@ -7,27 +7,11 @@
    SeeAlso:[Part Primitives](Part_Primitives/fr.md)
 ---
 
-
-</div>
-
 ## Description
-
-
-<div class="mw-translate-fuzzy">
-
-## Description 
 
 Crée une sphère paramétrique simple avec des paramètres de position angle1, angle2, angle3 et rayon.
 
-
-</div>
-
 <img alt="" src=images/SimpleSphere.jpg  style="width:400px;">
-
-## Usage
-
-
-<div class="mw-translate-fuzzy">
 
 ## Utilisation
 
@@ -36,22 +20,13 @@ Crée une sphère paramétrique simple avec des paramètres de position angle1, 
     -   Appuyez sur le bouton **<img src="images/Part_Sphere.svg" width=16px> Crée un solide sphérique** dans la barre d\'outils.
     -   Sélectionnez **Pièce → Primitives → <img src="images/Part_Sphere.svg" width=16px> Sphère** dans la barre de menus.
 
-
-</div>
-
 **Résultat:** la sphère sera positionnée à l\'origine (point 0,0,0) à la création. Les paramètres d\'angle permettent de faire une partie de sphère au lieu d\'une sphère entière (ils sont réglés à 360° par défaut).
 
-
-<div class="mw-translate-fuzzy">
-
-Les propriétés de la sphère peuvent ensuite être modifiées, soit dans l\'éditeur de propriétés, soit en double-cliquant sur la boîte dans l\'arbre du modèle.
-
-
-</div>
+Les propriétés de l\'objet peuvent être modifiées, soit dans l\'[Éditeur de propriétés](Property_editor/fr.md), soit en double-cliquant sur l\'objet dans la [Vue en arborescence](Tree_view/fr.md).
 
 ## Propriétés
 
-### Data
+### Données
 
 
 {{TitleProperty|Sphere}}
@@ -69,13 +44,7 @@ Comme il est assez difficile d'expliquer la signification des paramètres angle 
 <img alt="" src=images/SphereCutThreeAngles.jpg  style="width:400px;">
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
  

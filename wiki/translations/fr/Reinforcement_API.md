@@ -1,3 +1,5 @@
+# Reinforcement API/fr
+
  {{VeryImportantMessage|(Novembre 2018) Le [Addon Reinforcement](Reinforcement_Addon/fr.md) est développé séparément de l'[atelier Arch](Arch_Workbench/fr.md). Son code et son API sont hébergés dans le dépôt [https://github.com/amrit3701/FreeCAD-Reinforcement FreeCAD-Reinforcement], distinct du dépôt principal FreeCAD.}}
 
 Voir aussi [Arch API](Arch_API/fr.md) pour les principales fonctions de l\'[atelier Arch](Arch_Workbench/fr.md).
@@ -15,4 +17,4 @@ import HelicalRebar
 
  
 
-[Category:API{{\#translation:}}](Category:API.md) [Category:Reinforcement{{\#translation:}}](Category:Reinforcement.md) [Category:Poweruser Documentation{{\#translation:}}](Category:Poweruser_Documentation.md)
+[Category:API](Category:API.md) [Category:Reinforcement](Category:Reinforcement.md) [Category:Poweruser Documentation](Category:Poweruser_Documentation.md)

@@ -35,4 +35,4 @@ When starting the tool, the mouse pointer changes to a white cross with a red el
 
 
 
- {{Sketcher Tools navi}}  
+ {{Sketcher Tools navi}} 

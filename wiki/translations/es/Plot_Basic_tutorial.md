@@ -1,3 +1,5 @@
+# Plot Basic tutorial/es
+
 
 
 
@@ -24,6 +26,11 @@ En este tutorial vamos a aprender a crear gráficos usando el módulo de grafica
 
 </div>
 
+<img alt="" src=images/Plot_Trigonometric_Example.png  style="width:600px;">
+
+
+<div class="mw-translate-fuzzy">
+
 <img alt="Ejemplo de gráfico" src=images/Plot_Trigonometric_Example.png  style="width:600px;">
 
 
@@ -33,6 +40,9 @@ Ejemplo de gráfico.
 
 
 </center>
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -51,9 +61,19 @@ En la imagen anterior puedes ver una muestra del gráfico que pretendemos genera
 
 </div>
 
+## Plotting data 
+
+
+<div class="mw-translate-fuzzy">
+
 ## Graficar
 
 El módulo de graficado no necesita de ningún documento de FreeCAD para poder comenzar a trabajar, simplemente despliega la consola de Python, o genera los [macros](Macros/es.md) oportunos y comienza a trabajar.
+
+
+</div>
+
+### Creating plot document 
 
 
 <div class="mw-translate-fuzzy">
@@ -68,15 +88,33 @@ Los gráficos son documentos especiales dentro de FreeCAD, y pueden ser creados 
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 Para crear un documento de gráfico nuevo simplemente lanza los siguientes comandos desde la terminal:
 
 
+</div>
+
+
 ```python
-import Plot
+try:
+    from FreeCAD.Plot import Plot
+except ImportError:
+    from freecad.plot import Plot
+
 Plot.figure("TrigonometricTest")
 ```
 
+
+<div class="mw-translate-fuzzy">
+
 Esto creará un nuevo documento llamado **TrigonometricTest**. Éste nuevo documento ya contiene unos ejes. Cada documento de gráfico debe tener al menos un set de ejes que no se podrá borrar a menos que se entre en profundidad en la interfaz matplotlib.
+
+
+</div>
+
+### Drawing functions 
 
 
 <div class="mw-translate-fuzzy">
@@ -105,7 +143,13 @@ Lo que creará tres vectores (con 101 puntos):
 -   *s* = Función seno.
 -   *c* = Función coseno.
 
+
+<div class="mw-translate-fuzzy">
+
 Para trazar las curvas correspondientes tan sólo será necesario lanzar los siguientes comandos:
+
+
+</div>
 
 
 ```python
@@ -113,13 +157,29 @@ Plot.plot(t,s)
 Plot.plot(t,c)
 ```
 
+
+<div class="mw-translate-fuzzy">
+
 Lo que graficará los datos. El comando **plot** admite que se le pase el título de la serie como tercer argumento, no obstante como vamos a editar manualmente esos datos optaremos por no emplear esta propiedad.
 
+
+</div>
+
 ## Configuración del gráfico 
+
+### Showing grid and legend 
+
+
+<div class="mw-translate-fuzzy">
 
 ### Mostrar la malla y la legenda 
 
 Cambie al [módulo de graficado](Plot_Module.md) mediante el menú Ver/Escenario. Cuando haya cargado el módulo podrá emplear la herramienta de mostrado/ocultado de la malla para mostrar la malla.
+
+
+</div>
+
+![](images/Plot_Grid.svg‎ )
 
 
 <div class="mw-translate-fuzzy">
@@ -137,7 +197,15 @@ Icono de la herramienta para mostrar/ocultar la malla.
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 Volviendo a presionar sobre el botón se vuelve a ocultar la malla. De la misma forma usted puede mostrar la legenda mediante la herramienta correspondiente.
+
+
+</div>
+
+![](images/Plot_Legend.svg )
 
 
 <div class="mw-translate-fuzzy">
@@ -163,9 +231,19 @@ Como observará la legenda está vacía debido a que las series no tienen asigna
 
 </div>
 
+### Setting series label 
+
+
+<div class="mw-translate-fuzzy">
+
 ### Establecer los títulos de las series 
 
 Con la herrameitna de edición de series usted puede editar algunos parámetros de las curvas trazadas.
+
+
+</div>
+
+![](images/Plot_Series.svg‎ )
 
 
 <div class="mw-translate-fuzzy">
@@ -183,27 +261,57 @@ Icono de la herramienta de edición de series.
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 Comenzaremos seleccionando la primera serie, para la cuál desmarcaremos la casilla **No label**, lo que hará que aparezca la serie en la legenda, y nos permitirá establecer el siguiente título:
+
+
+</div>
 
 
 ```python
 $y = \sin \left( 2 \pi t \right)$
 ```
 
+
+<div class="mw-translate-fuzzy">
+
 Al estar [LaTeX](http://www.latex-project.org) soportado por [matplotlib](http://matplotlib.org) usted siempre podrá establecer los titulos y etiqutas haciendo uso de él. Establezca el siguiente título para la función coseno:
+
+
+</div>
 
 
 ```python
 $y = \cos \left( 2 \pi t \right)$
 ```
 
+### Setting series style 
+
+
+<div class="mw-translate-fuzzy">
+
 ### Configurar la apariencia de las series 
 
 Usted puede, con la misma herramienta, cambiar algunas propiedades del aspecto visual de sus curvas. Intente configurarlas como las de la imagen de ejemplo cambiando el color y el estilo de la línea.
 
+
+</div>
+
+### Setting axes labels 
+
+
+<div class="mw-translate-fuzzy">
+
 ### Configurar los títulos de los ejes 
 
 Con la herramienta de configuración de títulos usted puede establecer las etiquetas asociadas con cada set de ejes.
+
+
+</div>
+
+![](images/Plot_Labels.svg‎ )
 
 
 <div class="mw-translate-fuzzy">
@@ -227,11 +335,27 @@ Establezca los siguientes títulos:
 -   X Label = \$t\$
 -   Y Label = \$y = \\mathrm{f} \\left( t \\right)\$
 
+
+<div class="mw-translate-fuzzy">
+
 Cambie también sus tamaños a 20.
+
+
+</div>
+
+## Saving plot 
+
+
+<div class="mw-translate-fuzzy">
 
 ## Guardando la imagen 
 
 Con la herramienta de salvado usted podrá guardar su trabajo en diferentes formatos.
+
+
+</div>
+
+![](images/Plot_Save.svg )
 
 
 <div class="mw-translate-fuzzy">
@@ -249,6 +373,25 @@ Icono de la herramienta de guardado.
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 Lo primero de todo seleccione el archivo donde desea guardar la imagen. Puede usted ayudarse del selector de archivo que se despliega cuando se presiona el botón a la derecha del editor de ruta.
 
-También puede seleccionar el tamaño de la imagen de salida en pulgadas, por ejemplo puede elegir 11.7x8.3 correspondiente a un **DIN A4**. El parámetro DPI (puntos por pulgada) permite controlar la resolución de la imagen, por ejemplo 100 dpi creará una imagen de 1170x830 pixels. {{Tutorials navi}} {{Plot Tools navi}} 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+También puede seleccionar el tamaño de la imagen de salida en pulgadas, por ejemplo puede elegir 11.7x8.3 correspondiente a un **DIN A4**. El parámetro DPI (puntos por pulgada) permite controlar la resolución de la imagen, por ejemplo 100 dpi creará una imagen de 1170x830 pixels.
+
+
+</div>
+
+
+{{Tutorials_navi
+
+}} {{Plot_Tools_navi}} 
+
+[Category:External\_Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)

@@ -1,3 +1,5 @@
+# Screenshots/pt-br
+
  {{TOCright}}
 
 Aqui estão algumas screenshots mostrando diferentes partes do FreeCAD. Elas não estão ordenadas por uma linha de tempo em particular, portanto as imagens podem diferir de sua versão atual. Veja mais screenshots enviados por usuários do FreeCAD no [screenshot forum thread](http://forum.freecadweb.org/viewtopic.php?f=8&t=4751) e no [\"Mostre seu projeto aqui!\" Users Showcase forum part](http://forum.freecadweb.org/viewforum.php?f=24).
@@ -185,7 +187,7 @@ Esta captura de tela mostra como o mesmo arquivo é exibido pelo FreeCAD e pelo 
 
 <div class="mw-translate-fuzzy">
 
-Freecad com o [módulo draft](Draft_Module/pt-br.md) carregado e um arquivo de desenho DXF importado.
+Freecad com o [módulo draft](Draft_Workbench/pt-br.md) carregado e um arquivo de desenho DXF importado.
 
 
 </div>

@@ -1,3 +1,5 @@
+# Manual:Preparing models for 3D printing/de
+
 
 
 
@@ -10,7 +12,7 @@ Einer der Haupteinsatzbereiche von FreeCAD ist die Herstellung von Objekten aus 
 
 Wenn du beim Modellieren vorsichtig warst, sind die meisten Schwierigkeiten, auf die du beim Drucken deines Modells in 3D stoßen könntest, bereits vermieden worden. Dies betrifft im Wesentlichen:
 
--   Stelle sicher, dass deine 3D Objekte **fest** sind. Objekte der realen Welt sind fest, das 3D Modell muss ebenfalls fest sein. Wir haben in früheren Kapiteln gesehen, dass FreeCAD dir in dieser Hinsicht sehr hilft und dass die [PartDesign Arbeitsbereich](PartDesign_Workbench/de.md) dich benachrichtigt, wenn du eine Operation durchführst, die verhindert, dass dein Modell fest bleibt. Der [Part Arbeitsbereich](Part_Workbench/de.md) enthält auch ein <img alt="" src=images/Part_CheckGeometry.svg  style="width:16px;"> [Check Geometry](Part_CheckGeometry/de.md) Werkzeug das praktisch ist zur weiteren Prüfung auf mögliche Fehler.
+-   Stelle sicher, dass deine 3D Objekte **fest** sind. Objekte der realen Welt sind fest, das 3D Modell muss ebenfalls fest sein. Wir haben in früheren Kapiteln gesehen, dass FreeCAD dir in dieser Hinsicht sehr hilft und dass die [PartDesign Arbeitsbereich](PartDesign_Workbench/de.md) dich benachrichtigt, wenn du eine Operation durchführst, die verhindert, dass dein Modell fest bleibt. Der [Part Arbeitsbereich](Part_Workbench/de.md) enthält auch ein <img alt="" src=images/Part_CheckGeometry.svg  style="width:16px;"> [Überprüfe Geometrie](Part_CheckGeometry/de.md) Werkzeug das praktisch ist zur weiteren Prüfung auf mögliche Fehler.
 -   vergewissere dich über die **Abmessungen** deiner Objekte. Ein Millimeter ist in der Praxis ein Millimeter. Jede Abmessung ist wichtig.
 -   Kontrolle der **Verringerung**. Kein 3D Druck- oder CNC Frässystem kann FreeCAD Dateien direkt übernehmen. Die meisten von ihnen verstehen nur eine Maschinensprache namens [G-Code](https://en.wikipedia.org/wiki/G-code). G-Code hat Dutzende von verschiedenen Dialekten, jede Maschine oder jeder Anbieter hat normalerweise seinen eigenen. Die Konvertierung deiner Modelle in G-Code kann einfach und automatisch erfolgen, aber du kannst sie auch manuell durchführen, wobei du die volle Kontrolle über die Ausgabe hast. In jedem Fall wird während des Prozesses unvermeidlich ein gewisser Qualitätsverlust Ihres Modells auftreten. Wenn du in 3D druckst, musst du immer sicherstellen, dass dieser Qualitätsverlust unter deinen Mindestanforderungen bleibt.
 
@@ -48,7 +50,7 @@ In den meisten Fällen werden die Standardwerte jedoch ein zufriedenstellendes E
 
 -   Wir können jetzt unser Netz in ein Netzformat exportieren, wie z.B. [STL](https://en.wikipedia.org/wiki/STL_%28file_format%29), das derzeit das am weitesten verbreitete Format beim 3D-Druck ist, indem wir das Menü **Datei → Export** benutzen und das STL-Dateiformat wählen.
 
-Wenn du keinen 3D Drucker besitzt, ist es normalerweise sehr einfach, kommerzielle Dienste zu finden, die die gedruckten Objekte drucken und dir per Post zusenden. Zu den berühmten gehören [Shapeways](http://www.shapeways.com/) und [Sculpteo](http://www.sculpteo.com/), aber du wirst in deiner eigenen Stadt normalerweise viele andere finden. In allen größeren Städten findest du heute [Fab Labore](https://en.wikipedia.org/wiki/Fab_lab), das sind Werkstätten, die mit einer Reihe von 3D Fertigungsmaschinen ausgestattet sind, fast immer mit mindestens einem 3D Drucker. Fab Labore sind in der Regel Gemeinschaftsräume, in denen du deren Maschinen je nach Fab Labor kostenpflichtig oder kostenlos nutzen kannst, in denen du aber auch lernst, sie zu benutzen, und in denen du andere Aktivitäten rund um die 3D Fertigung fördern kannst.
+Wenn du keinen 3D Drucker besitzt, ist es normalerweise sehr einfach, kommerzielle Dienste zu finden, die die gedruckten Objekte drucken und dir per Post zusenden. Zu den berühmten gehören [Shapeways](http://www.shapeways.com/) und [Sculpteo](http://www.sculpteo.com/), aber du wirst in deiner eigenen Stadt normalerweise viele andere finden. In allen größeren Städten findest du heutzutage [FabLabor](https://de.wikipedia.org/wiki/FabLab)e, das sind Werkstätten, die mit einer Reihe von 3D Fertigungsmaschinen ausgestattet sind, fast immer mit mindestens einem 3D Drucker. Fab Labore sind in der Regel Gemeinschaftsräume, in denen du deren Maschinen je nach Fab Labor kostenpflichtig oder kostenlos nutzen kannst, in denen du aber auch lernst, sie zu benutzen, und in denen du andere Aktivitäten rund um die 3D Fertigung fördern kannst.
 
 ### Verwendung von Slic3r 
 
@@ -137,4 +139,4 @@ Es gibt viele Anwendungen, um das reale Schneiden zu simulieren, eine davon, die
 
 
 
-[Category:Path{{\#translation:}}](Category:Path.md) [Category:Mesh{{\#translation:}}](Category:Mesh.md) [Category:Tutorials{{\#translation:}}](Category:Tutorials.md)
+[Category:Path](Category:Path.md) [Category:Mesh](Category:Mesh.md) [Category:Tutorials](Category:Tutorials.md)

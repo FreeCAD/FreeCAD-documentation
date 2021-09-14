@@ -6,9 +6,6 @@
    Workbenches:[Part](Part_Workbench/fr.md)
 ---
 
-
-</div>
-
 ## Description
 
 Cet outil bascule la visibilité de toutes les mesures dans la [vue 3D](3D_view/fr.md).

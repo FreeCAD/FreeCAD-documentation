@@ -9,7 +9,7 @@
 
 ## Beschreibung
 
-Das Ablaufplan-Werkzeug ermöglicht dir ein [Tabellenblatt](Spreadsheet_Workbench/de.md) zu erstellen und automatisch mit Inhalten aus dem Modell aufzufüllen.
+Das Ablaufplan Werkzeug erlaubt dir ein [Tabellenblatt](Spreadsheet_Workbench/de.md) zu erstellen und automatisch mit Inhalten aus dem Modell zu befüllen.
 
 
 **Hinweis**

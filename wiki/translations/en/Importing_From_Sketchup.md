@@ -1,3 +1,5 @@
+# Importing From Sketchup/en
+
  {{Fake heading|sub=4|< Back to [[FreeCAD Howto Import Export]]}}
 
 ## Best Method 
@@ -28,4 +30,4 @@ Both Collada (\*.dae) and STL are mesh formats. To use these files within FreeCA
 
 
 
-[Category:Common Questions{{\#translation:}}](Category:Common_Questions.md) [Category:File\_Formats{{\#translation:}}](Category:File_Formats.md)
+[Category:Common Questions](Category:Common_Questions.md) [Category:File\_Formats](Category:File_Formats.md)

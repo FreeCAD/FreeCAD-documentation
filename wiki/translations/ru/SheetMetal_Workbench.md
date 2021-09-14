@@ -1,9 +1,9 @@
+# SheetMetal Workbench/ru
 
 
 
-{{UnfinishedDocu
 
-}} <img alt="Sheet Metal External workbench icon" src=images/Sheetmetal_workbench_icon.svg  style="width:128px;">
+ <img alt="Sheet Metal External workbench icon" src=images/Sheetmetal_workbench_icon.svg  style="width:128px;">
 
 ## Обзор
 
@@ -194,4 +194,4 @@ The [external workbenches](external_workbenches.md) page has some information an
 
 New workbenches are in development, stay tuned!
 
-[Category:SheetMetal{{\#translation:}}](Category:SheetMetal.md) [Category:Addons{{\#translation:}}](Category:Addons.md) [Category:External Command Reference{{\#translation:}}](Category:External_Command_Reference.md)
+[Category:SheetMetal](Category:SheetMetal.md) [Category:Addons](Category:Addons.md) [Category:External Command Reference](Category:External_Command_Reference.md)

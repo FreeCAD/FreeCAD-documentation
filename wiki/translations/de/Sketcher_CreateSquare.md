@@ -18,9 +18,17 @@ Zeichnet ein Viereck, das in einem Kreis der Konstruktionsgeometrie eingeschrieb
 -   Nach dem Drücken der **<img src=images/Sketcher_CreateSquare.svg style="width:16px"> [Viereck erstellen](Sketcher_CreateSquare/de.md)** Taste, klicke einmal, um die Mitte einzustellen, bewege dann die Maus und klicke ein zweites Mal, um einen der Eckpunkte festzulegen.
 -   Durch Drücken von **Esc** oder Klicken mit der rechten Maustaste wird die Funktion abgebrochen.
 
+## Notes
+
+
+<div class="mw-translate-fuzzy">
+
 ## Hinweise
 
 Der umschriebene Kreis ist Konstruktionsgeometrie, die nur bei der Bearbeitung der Skizze sichtbar ist.
+
+
+</div>
 
 
 
@@ -28,4 +36,4 @@ Der umschriebene Kreis ist Konstruktionsgeometrie, die nur bei der Bearbeitung d
 
 {{Sketcher Tools navi
 
-}}  
+}} 

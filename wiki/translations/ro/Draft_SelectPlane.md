@@ -1,5 +1,12 @@
 ---
-- GuiCommand:/ro   Name:Draft SelectPlane   Name/ro:Draft SelectPlane   Workbenches:[Arch](Draft_Module/ro___Draft]],_[[Arch_Module/ro.md)|MenuLocation:Draft → Utilities → Select Plane   Shortcut:W P   SeeAlso:[[Draft SetWorkingPlaneProxy]]---
+- GuiCommand:/ro
+   Name:Draft SelectPlane
+   Name/ro:Draft SelectPlane
+   Workbenches:[Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
+   MenuLocation:Draft → Utilities → Select Plane
+   Shortcut:**W** **P**
+   SeeAlso:[[Draft SetWorkingPlaneProxy]]
+---
 
 
 </div>

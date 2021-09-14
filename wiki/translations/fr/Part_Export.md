@@ -7,9 +7,6 @@
    SeeAlso:[Part Importation](Part_Import/fr.md), [Std Exporter](Std_Export/fr.md), [Import Export](Import_Export/fr.md)
 ---
 
-
-</div>
-
 ## Description
 
 l\'outil **<img src="images/Part_Export.svg" width=16px> [Part Exportation](Part_Export/fr.md)** ouvre une boîte de dialogue vous permettant d'exporter des objets du document dans les formats de fichier CAO suivants : [.IGES](https://fr.wikipedia.org/wiki/Initial_Graphics_Exchange_Specification), [.STEP](https://fr.wikipedia.org/wiki/Standard_pour_l%27échange_de_données_de_produit) et [.BREP](https://fr.wikipedia.org/wiki/B-Rep).
@@ -22,13 +19,7 @@ l\'outil **<img src="images/Part_Export.svg" width=16px> [Part Exportation](Part
 4.  Sélectionnez le format de fichier et le répertoire de sortie.
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 

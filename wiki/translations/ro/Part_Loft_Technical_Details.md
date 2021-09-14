@@ -1,3 +1,5 @@
+# Part Loft Technical Details/ro
+
  Această pagină explică în detalii cum este creată o suprafață [Loft](Part_Loft.md). Aceasta este un caz particular de suprafața baleiată [Part Sweep](Part_Sweep.md) dar creată de-a lungul unei traiectorii drepte, dar sunt și alte diferențe.
 
 Informațiile furnizate sunt specifice implementării și se pot schimba. Starea actuală este relevantă pentru FreeCAD 0.15.4119, versiunea OCC: 6.7.0.
@@ -71,4 +73,4 @@ Rețineți că Loft are o proprietate \"Riglat\". Dacă este setat la adevărat,
 
  
 
-[Category:Tutorials{{\#translation:}}](Category:Tutorials.md)
+[Category:Tutorials](Category:Tutorials.md)

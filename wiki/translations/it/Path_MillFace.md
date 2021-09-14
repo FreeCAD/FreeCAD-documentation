@@ -47,7 +47,7 @@ Empty
 
 \'\'\' *Note* \'\'\': The names of some Properties in this list differ a little from the same settings used in the Task Window Editor.
 
-### Data Tab 
+### Data
 
 #### Base
 
@@ -193,7 +193,7 @@ Note: It is suggested that you do not edit the Placement property of path operat
 
 -    **Use Start Point**: Make True, if manually specifying a Start Point. Set the start point in the property data Start Point field.
 
-### View Tab 
+### View
 
 Empty
 

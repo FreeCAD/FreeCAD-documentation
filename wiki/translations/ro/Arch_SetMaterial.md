@@ -72,9 +72,9 @@ This roughly corresponds to [IfcMaterial](https://standards.buildingsmart.org/IF
 
 
 {{docnav/ro
-|[Arch CompSetMaterial/ro](Arch_CompSetMaterial/ro.md)
-|[Multi-Material/ro](Arch_MultiMaterial/ro.md)
-|[Arch](Arch_Module/ro.md)
+|[Arch CompSetMaterial](Arch_CompSetMaterial/ro.md)
+|[Multi-Material](Arch_MultiMaterial/ro.md)
+|[Arch](Arch_Workbench/ro.md)
 |IconL=Arch_CompSetMaterial.png 
 |IconC=Workbench_Arch.svg 
 |IconR=Arch_MultiMaterial.png

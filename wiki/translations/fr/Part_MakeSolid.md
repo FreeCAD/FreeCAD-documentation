@@ -6,9 +6,6 @@
    Workbenches:[Part](Part_Workbench/fr.md)
 ---
 
-
-</div>
-
 ## Description
 
 Cette commande crée un objet solide à partir d\'un objet forme.
@@ -25,13 +22,7 @@ Cette commande crée un objet solide à partir d\'un objet forme.
 -   Il est recommandé d\'utiliser [Part Affiner la forme](Part_RefineShape/fr.md) avant de convertir en solide.
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
   

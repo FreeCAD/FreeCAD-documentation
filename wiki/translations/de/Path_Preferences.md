@@ -1,3 +1,5 @@
+# Path Preferences/de
+
 
 
 
@@ -44,4 +46,4 @@ Es gibt drei Abschnitte: Allgemein, Nachbearbeiter und Einrichtung.
 
 }} 
 
-[Category:Preferences{{\#translation:}}](Category:Preferences.md)
+[Category:Preferences](Category:Preferences.md)

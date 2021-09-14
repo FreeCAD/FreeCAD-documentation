@@ -1,28 +1,22 @@
 ---
 - GuiCommand:/ru
-   Name:Sketcher External
-   Name/ru:Внешняя Геометрия
-   MenuLocation:Эскиз → Геометрия эскиза → Внешняя Геометрия
+   Name/ru:Внешняя геометрия
+   Name:Sketcher_External
+   MenuLocation:Sketch → Геометрия эскиза → Внешняя геометрия
    Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
    Shortcut:X
-   SeeAlso:[Вспомогательная Геометрия](Sketcher_ToggleConstruction/ru.md)
+   SeeAlso:[Переключить построительную геометрию](Sketcher_ToggleConstruction/ru.md)
 ---
 
 ## Описание
 
-
-<div class="mw-translate-fuzzy">
-
-Используйте инструмент **Внешняя Геометрия**, когда вам нужно применить ограничение между геометрией эскиза и чем-то вне эскиза. Это работает путем вставки связанной вспомогательной геометрии в эскиз. По умолчанию цвет связанной внешней геометрии пурпурный. Как и в случае стандартной несвязанной вспомогательной геометрии (синего цвета), связанная внешняя геометрия видна только тогда, когда эскиз находится в режиме редактирования, и напрямую не используется в последующих результатах использования эскиза другими инструментами. Оба типа вспомогательной геометрии могут использоваться в качестве ссылок для ограничений в эскизе.
-
-
-</div>
+Используйте инструмент **<img src="images/Sketcher_External.svg" width=16px> [Внешняя геометрия](Sketcher_External/ru.md)**, когда вам нужно применить ограничение между геометрией эскиза и чем-то вне эскиза. Это работает путем вставки связанной вспомогательной геометрии в эскиз. По умолчанию цвет связанной внешней геометрии пурпурный. Как и в случае стандартной несвязанной вспомогательной геометрии (синего цвета), связанная внешняя геометрия видна только тогда, когда эскиз находится в режиме редактирования, и напрямую не используется в последующих результатах использования эскиза другими инструментами. Оба типа вспомогательной геометрии могут использоваться в качестве ссылок для ограничений в эскизе.
 
 A note of caution, using this tool to link to generated (solid) geometry can lead to unexpected results due to [Topological Naming Problem](Topological_naming_problem.md). Also see [Advice for stable models](Feature_editing#Advice_for_creating_stable_models.md).
 
 <FILE:Sketcher_ExternalEsempio1.png>
 
-## Использование
+## Применение
 
 -   Создайте новый эскиз или откройте существующий эскиз.
 -   Нажмите кнопку \'Внешняя Геометрия\'.
@@ -96,13 +90,7 @@ A note of caution, using this tool to link to generated (solid) geometry can lea
 <FILE:Sketcher_ExternalEsempio3.png>
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Sketcher Tools navi

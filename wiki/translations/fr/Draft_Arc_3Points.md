@@ -72,7 +72,7 @@ arc = make_arc_3points(points, placement=None, face=False, support=None, map_mod
 
 :   Par exemple, support=[(obj, ("Face1"))]
 
--   Si `map_mode` est donné, il s\'agit d\'une chaîne définissant un type de mappage, par exemple, map_mode='FlatFace', map_mode='ThreePointsPlane' etc. Voir [Part Accrochage](Part_Attachment/fr.md) pour plus d\'informations.
+-   Si `map_mode` est donné, il s\'agit d\'une chaîne définissant un type de mappage, par exemple, map_mode='FlatFace', map_mode='ThreePointsPlane' etc. Voir [Part Ancrage](Part_EditAttachment/fr.md) pour plus d\'informations.
 -   Si `primitive` est `True`, l\'arc créé sera un simple [Part Fonctionnalité](Part_Feature/fr.md), non un objet Draft complexe.
 
 Exemple :

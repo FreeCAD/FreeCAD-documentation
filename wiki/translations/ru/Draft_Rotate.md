@@ -2,9 +2,9 @@
 - GuiCommand:/ru
    Name:Draft Rotate
    Name/ru:Draft Rotate
-   Workbenches:[Draft](Draft_Module/ru.md), [Arch](Arch_Module/ru.md)
    MenuLocation:Черчение -> Повернуть
-   Shortcut:R O
+   Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
+   Shortcut:**R** **O**
 ---
 
 
@@ -52,7 +52,7 @@ The single character keyboard shortcuts and the modifier key mentioned here can 
 
 ## Notes
 
--   An Object that is [attached](Part_Attachment.md) cannot be rotated with the Draft Rotate command. To rotate it either its **Support** object has to be rotated, or its **Attachment Offset** has to be changed.
+-   An Object that is [attached](Part_EditAttachment.md) cannot be rotated with the Draft Rotate command. To rotate it either its **Support** object has to be rotated, or its **Attachment Offset** has to be changed.
 
 ## Preferences
 

@@ -1,4 +1,6 @@
-\_\_NOTOC\_\_  Ikony te znajdują się we wskazanej ścieżce źródłowej.
+# Artwork Arch/pl
+
+  Ikony te znajdują się we wskazanej ścieżce źródłowej.
 
 Wszystkie ikonki widoczne na liście źródłowej, patrz [Grafika](Artwork/pl.md).
 
@@ -17,4 +19,4 @@ Wszystkie ikonki widoczne na liście źródłowej, patrz [Grafika](Artwork/pl.md
 
 }} 
 
-[Category:Arch{{\#translation:}}](Category:Arch.md)
+[Category:Arch](Category:Arch.md)

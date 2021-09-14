@@ -4,11 +4,8 @@
    MenuLocation:Part → Teilen → Boolesche Fragmente
    Workbenches:[Arbeitsbereich Part](Part_Workbench/de.md)
    Version:0.17.8053
-   SeeAlso:[Part Scheibe](Part_Slice/de.md), [Part XOR](Part_XOR/de.md), [Part Fügefunktionen](Part_CompJoinFeatures/de.md), [Part Boolesche](Part_Booleans/de.md)
+   SeeAlso:[Part Scheibe](Part_Slice/de.md), [Part XOR](Part_XOR/de.md), [Part Fügefunktionen](Part_CompJoin_Features/de.md), [Part Boolesche](Part_Boolean/de.md)
 ---
-
-
-</div>
 
 ## Beschreibung
 
@@ -91,13 +88,7 @@ Das Werkzeug selbst ist in Python implementiert, siehe /Mod/Part/BOPTools/SplitF
 Das Werkzeug wurde in FreeCAD v0.17.8053 eingeführt. FreeCAD muss mit OCC 6.9.0 oder höher kompiliert werden, da das Werkzeug sonst nicht verfügbar ist.
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
  

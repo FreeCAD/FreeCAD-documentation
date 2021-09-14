@@ -31,24 +31,17 @@ Une opération **Profile Edges** crée un tracé de contour simple à partir des
 
 ## Utilisation
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Il existe plusieurs façons d\'appeler la commande:
-    -   Appuyez sur le bouton **<img src="images/Path_Profile.svg" width=16px> [Profile](Path_Profile/fr.md)
-**
-    -   Utilisez l\'entrée **Path → Profile** dans le menu Path
-2.  Activez la section Géométrie de base en cliquant sur son onglet et sélectionnez des entités dans le modèle de tâche.
-    -   Si aucune caractéristique n\'est sélectionnée, l\'outil **<img src="images/Path_Profile.svg" width=16px> [Profile](Path_Profile/fr.md)** utilise par défaut une opération **Contour**, contourant l\'ensemble modèle.
+1.  Il existe plusieurs façons de lancer la commande :
+    -   Appuyez sur le bouton **<img src="images/Path_Profile.svg" width=16px> [Path Profilage](Path_Profile/fr.md)**.
+    -   Sélectionnez l\'option **Path → <img src="images/Path_Profile.svg" width=16px> Profilage** dans le menu.
+2.  Activez la section Géométrie de base en cliquant sur son onglet, et sélectionnez les caractéristiques du modèle de travail.
+    -   Si aucune caractéristique n\'est sélectionnée, la commande passe par défaut à une opération **Contour**, contournant le modèle entier.
     -   Si des faces sont sélectionnées, le résultat est une opération **Profile Face**.
-    -   Si les bords sont sélectionnés, le résultat est une opération **Profile Edges**.
-        **REMARQUE**: Cette opération a reçu des améliorations pour permettre la fonctionnalité sur certains bords ouverts (non loop) sélections. Reportez-vous à la section **Notes d\'utilisation** ci-dessous pour plus d\'informations sur les meilleures pratiques de profilage des bords ouverts.
-3.  Activez la section Opération en cliquant sur son onglet et ajustez les paramètres de l\'opération comme vous le souhaitez.
-4.  (*Facultatif*) Cliquez sur le bouton **Appliquer** pour prévisualiser l\'opération avec les paramètres actuels.
-5.  Cliquez sur les boutons **OK** ou **Annuler** pour créer ou annuler l\'opération.
-
-
-</div>
+    -   Si des arêtes sont sélectionnées, alors le résultat est une opération **Profile Edges**.
+        **REMARQUE** : Cette opération a reçu des améliorations pour permettre la fonctionnalité sur certaines sélections d\'arêtes ouvertes (non bouclées). Voir la section **Notes d\'utilisation** ci-dessous pour des informations supplémentaires sur les meilleures pratiques pour le profilage des arêtes ouvertes.
+3.  Activez la section Opération en cliquant sur son onglet, et ajustez les paramètres de l\'opération comme vous le souhaitez.
+4.  Appuyez éventuellement sur le bouton **Appliquer** pour prévisualiser l\'opération avec les paramètres actuels.
+5.  Cliquez sur le bouton **OK** ou sur le bouton **Annuler** pour créer ou annuler l\'opération.
 
 **Remarque importante: Path Profilage ne prend pas en charge les autres détails de l\'objet. Vous devez ajuster les propriétés, en particulier la profondeur finale, avec soin, une erreur pourrait endommager votre pièce**.
 
@@ -292,13 +285,7 @@ Exemple:
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Path_Tools_navi

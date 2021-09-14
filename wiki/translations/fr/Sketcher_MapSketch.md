@@ -54,4 +54,4 @@ Maintenant, nous sélectionnons la face de dessus de la protrusion (Pad) puis cl
 
 {{Sketcher Tools navi
 
-}}  
+}} 

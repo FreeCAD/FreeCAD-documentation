@@ -1,3 +1,5 @@
+# Manipulator Workbench/fr
+
 
 
 <img alt="Icône de l\'atelier externe Manipulator" src=images/Manipulator_workbench_icon.svg  style="width:128px;">
@@ -122,4 +124,4 @@ De nouveaux ateliers sont en développement, restez à l\'écoute !
 
  
 
-[Category:Addons{{\#translation:}}](Category:Addons.md) [Category:External Workbenches{{\#translation:}}](Category:External_Workbenches.md)
+[Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)

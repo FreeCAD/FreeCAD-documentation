@@ -1,13 +1,9 @@
-
-
-
-<div class="mw-translate-fuzzy">
+# OpenSCAD Workbench/de
 
 
 
 
 
-</div>
 
 <img alt="OpenSCAD Arbeitsbereichssymbol" src=images/Workbench_OpenSCAD.svg  style="width:128px;">
 
@@ -92,17 +88,11 @@ Wenn FreeCAD beim Import von CSG abstürzt, wird dringend empfohlen, \"Modell au
 -   [Dinge, die mit \"Openscad\" auf Thingiverse gekennzeichnet sind](http://www.thingiverse.com/tag:openscad)
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{OpenSCAD Tools navi
 
 }} 
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

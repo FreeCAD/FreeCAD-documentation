@@ -1,3 +1,5 @@
+# Animation Workbench/it
+
 
 {{Template:UnfinishedDocu
 
@@ -99,4 +101,4 @@ Other
 -   [Assembly2](http://www.freecadweb.org/wiki/index.php?title=Sandbox:Assembly2): Assembly workbench for FreeCAD with support for importing parts from external files.
 -   [External workbenches](External_workbenches.md)
 
-[Category:User Documentation{{\#translation:}}](Category:User_Documentation.md) [Category:Addons{{\#translation:}}](Category:Addons.md) [Category:External Workbenches{{\#translation:}}](Category:External_Workbenches.md)
+[Category:User Documentation](Category:User_Documentation.md) [Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)

@@ -1,7 +1,7 @@
 ---
 - GuiCommand:/ru
-   Name:Sketcher SwitchVirtualSpace
    Name/ru:Переключение виртуального пространства
+   Name:Sketcher_SwitchVirtualSpace
    MenuLocation:Sketch → Виртуальное пространство эскиза → Переключение виртуального пространства
    Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
    Version:0.17
@@ -11,7 +11,7 @@
 
 The FreeCAD Sketcher has two virtual spaces on which constraints can be set. Usually all constraints gets set on virtual space one. You can move some constraints to virtual space two. This can help to inspect only on a few constraints at a time.
 
-## Использование
+## Применение
 
 To move constraints to the other virtual space:
 

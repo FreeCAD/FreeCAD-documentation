@@ -1,4 +1,6 @@
- {{UnfinishedDocu}} <img alt="CurvedShapes External Workbench Icon" src=images/CurvedShapes_workbench_icon.svg  style="width:128px;"> {{TOCright}}
+# CurvedShapes Workbench/en
+
+ } <img alt="CurvedShapes External Workbench Icon" src=images/CurvedShapes_workbench_icon.svg  style="width:128px;"> {{TOCright}}
 
 ## Introduction
 
@@ -41,4 +43,4 @@ Recommended installation is through the FreeCAD <img alt="" src=images/AddonMana
 
 
 
-[Category:External Workbenches{{\#translation:}}](Category:External_Workbenches.md) [Category:Addons{{\#translation:}}](Category:Addons.md)
+[Category:External Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)

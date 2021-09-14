@@ -1,3 +1,5 @@
+# Start up and Configuration/it
+
 
 
 
@@ -514,4 +516,4 @@ Now double-click the batch file to start FreeCAD. ([see](https://forum.freecadwe
 
  
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md)

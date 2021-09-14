@@ -7,9 +7,6 @@
    SeeAlso:[Part Export](Part_Export/de.md), [Std Import](Std_Import/de.md), [Import Export](Import_Export/de.md)
 ---
 
-
-</div>
-
 ## Beschreibung
 
 Das **<img src="images/Part_Import.svg" width=16px> [Part Import](Part_Import/de.md)** Werkzeug öffnet einen Dialog, mit dem du die folgenden CAD Dateiformate: [IGES](http://en.wikipedia.org/wiki/IGES), [STEP](http://en.wikipedia.org/wiki/Step_file) und [BREP](http://en.wikipedia.org/wiki/BREP) in das aktuelle Dokument importieren kannst.
@@ -21,13 +18,7 @@ Das **<img src="images/Part_Import.svg" width=16px> [Part Import](Part_Import/de
 3.  Wähle die zu importierende Datei
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
   

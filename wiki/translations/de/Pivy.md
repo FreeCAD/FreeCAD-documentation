@@ -1,3 +1,5 @@
+# Pivy/de
+
 
 
 
@@ -10,7 +12,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Wenn in einen laufenden Python Interpreter importiert wird, erlaubt Pivy direkt mit jeder laufenden Coin zu kommunizieren [Szenengraph](Scenegraph/de.md), wie z.B. der [3D Ansicht](3D_view/de.md), oder sogar neue zu erstellen. Pivy ist nicht erforderlich, um FreeCAD zu kompilieren, aber es wird zur Laufzeit benötigt, wenn Python basierte Arbeitsbereiche ausgeführt werden, die Formen auf dem Bildschirm erstellen, wie [Entwurf Arbeitsbereich](Draft_Module/de.md) und [Architektur](Arch_Module/de.md). Aus diesem Grund wird Pivy normalerweise installiert, wenn eine Distribution von FreeCAD installiert wird.
+Wenn in einen laufenden Python Interpreter importiert wird, erlaubt Pivy direkt mit jeder laufenden Coin zu kommunizieren [Szenengraph](Scenegraph/de.md), wie z.B. der [3D Ansicht](3D_view/de.md), oder sogar neue zu erstellen. Pivy ist nicht erforderlich, um FreeCAD zu kompilieren, aber es wird zur Laufzeit benötigt, wenn Python basierte Arbeitsbereiche ausgeführt werden, die Formen auf dem Bildschirm erstellen, wie [Entwurf Arbeitsbereich](Draft_Workbench/de.md) und [Architektur](Arch_Workbench/de.md). Aus diesem Grund wird Pivy normalerweise installiert, wenn eine Distribution von FreeCAD installiert wird.
 
 
 </div>
@@ -178,4 +180,4 @@ These links provide reference documentation for Coin v3.x. The differences with 
 
 }} 
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Python Code{{\#translation:}}](Category:Python_Code.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)

@@ -1,3 +1,5 @@
+# Mouse navigation
+
  
 
 
@@ -234,6 +236,10 @@ FreeCAD also supports some [3D input devices](3D_input_devices.md).
 ## Mac OS X Issues 
 
 Recently we got reports [on the forum](http://forum.freecadweb.org/viewtopic.php?f=3&t=3592&start=0) from Mac users that those mouse button and key combination do not work as expected. Unfortunately, none of the developers owns a Mac, neither do the other regular contributors. We need your help to determine which mouse buttons and key combination work so we can update this wiki.
+
+## Developing a Custom Navigation option 
+
+The tutorial [Adding a new mouse navigation option to FreeCAD](Adding_a_new_mouse_navigation_option_to_FreeCAD.md) orients developers who have an interest to customize their own navigational mode. Familiarity with cplusplus syntax needed.
 
 
 

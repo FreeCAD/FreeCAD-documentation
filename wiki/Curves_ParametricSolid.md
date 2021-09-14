@@ -35,4 +35,4 @@ The <img alt="" src=images/Curves_ParametricSolid.svg  style="width:24px;"> [Cur
 
  {{Curves Tools navi}} 
 
-[Category:External Command Reference{{\#translation:}}](Category:External_Command_Reference.md)
+[Category:External Command Reference](Category:External_Command_Reference.md)

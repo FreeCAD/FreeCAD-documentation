@@ -54,4 +54,4 @@ Plot Saveツールはアクテイブなプロットを希望した位置に保�
 
 }} 
 
-[Category:External\_Workbenches{{\#translation:}}](Category:External_Workbenches.md) [Category:Addons{{\#translation:}}](Category:Addons.md)
+[Category:External\_Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)

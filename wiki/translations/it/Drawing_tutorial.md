@@ -1,3 +1,5 @@
+# Drawing tutorial/it
+
  {{VeryImportantMessage|Lo sviluppo del modulo Drawing è stato interrotto in FreeCAD 0.16 con il proposito di sostituirlo con il nuovo modulo [TechDraw](TechDraw_Workbench/it.md) che sarà introdotto nella versione 0.17. Nella versione 0.17 sono forniti entrambi i moduli, ma il modulo Drawing potrebbe essere rimosso nelle versioni future.}}
 
 
@@ -15,7 +17,7 @@
 
 ### Introduzione
 
-Questo tutorial ha lo scopo di introdurre il lettore al flusso di lavoro di base dell\'ambiente [Drawing](Drawing_Module/it.md), e alla maggior parte degli strumenti che sono a disposizione per creare la stampa delle viste.
+Questo tutorial ha lo scopo di introdurre il lettore al flusso di lavoro di base dell\'ambiente [Drawing](Drawing_Workbench/it.md), e alla maggior parte degli strumenti che sono a disposizione per creare la stampa delle viste.
 
 
 </div>
@@ -111,7 +113,7 @@ FreeCAD supporta l\'esportazione di file SVG e PDF basati su **Drawing**
 
 <div class="mw-translate-fuzzy">
 
-Il flusso di lavoro di base per l\'ambiente [Drawing](Drawing_Module/it.md) è concluso.
+Il flusso di lavoro di base per l\'ambiente [Drawing](Drawing_Workbench/it.md) è concluso.
 
 
 </div>
@@ -122,7 +124,7 @@ Il flusso di lavoro di base per l\'ambiente [Drawing](Drawing_Module/it.md) è c
 <div class="mw-translate-fuzzy">
 
 -   Per informazioni su come creare modelli personalizzati vedere [Creare modelli di squadrature](Drawing_Template_HowTo/it.md)
--   Per ulteriori informazioni sugli strumenti disponibili consultare la pagina [Modulo Drawing](Drawing_Module/it.md)
+-   Per ulteriori informazioni sugli strumenti disponibili consultare la pagina [Modulo Drawing](Drawing_Workbench/it.md)
 
 
 </div>

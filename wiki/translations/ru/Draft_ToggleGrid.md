@@ -3,7 +3,7 @@
    Name:Draft ToggleGrid
    Name/ru:Показывать сетку
    MenuLocation:Черчение → Вспомогательные → Показывать сетку
-   Workbenches:[Draft](Draft_Module/ru.md), [Arch](Arch_Module/ru.md)
+   Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
    Shortcut:**G** **R**
    SeeAlso:[Draft Snap](Draft_Snap/ru.md), [Draft ToggleSnap](Draft_Snap_Lock/ru.md)
 ---

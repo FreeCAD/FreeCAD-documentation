@@ -1,3 +1,5 @@
+# Manual:Traditional 2D drafting/ro
+
  
 
 
@@ -229,4 +231,4 @@ Pentru a arăta fluxul de lucru și posibilitățile Atelierului, vom trece prin
 
 </div>
 
-[Category:Tutorials/ro](Category:Tutorials/ro.md) [Category:Tutorials{{\#translation:}}](Category:Tutorials.md) [Category:Draft{{\#translation:}}](Category:Draft.md)
+[Category:Tutorials/ro](Category:Tutorials/ro.md) [Category:Tutorials](Category:Tutorials.md) [Category:Draft](Category:Draft.md)

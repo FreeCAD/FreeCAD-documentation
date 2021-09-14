@@ -1,4 +1,6 @@
-\_\_NOTOC\_\_ 
+# Main Page/zh-tw
+
+ 
 
 
 <div class="mw-translate-fuzzy">
@@ -76,4 +78,4 @@ Check the [Development roadmap](Development_roadmap.md) for news about what is b
 
 
 
-[Category:Documentation{{\#translation:}}](Category:Documentation.md)
+[Category:Documentation](Category:Documentation.md)

@@ -2,8 +2,8 @@
 - GuiCommand:/ru
    Name:Draft ToggleContinueMode
    Name/ru:Draft ToggleContinueMode
-   Workbenches:[Draft](Draft_Module/ru.md), [Arch](Arch_Module/ru.md)
    MenuLocation:Черчение -> Утилиты -> Переключить режим продолжения
+   Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
 ---
 
 

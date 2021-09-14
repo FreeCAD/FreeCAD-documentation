@@ -1,3 +1,5 @@
+# Sketch/it
+
 
 
 ## Introduzione
@@ -37,4 +39,4 @@ Tuttavia, uno schizzo può sempre essere creato da solo per qualsiasi altro scop
 
 }} {{Document objects navi}} 
 
-[Category:Glossary{{\#translation:}}](Category:Glossary.md)
+[Category:Glossary](Category:Glossary.md)

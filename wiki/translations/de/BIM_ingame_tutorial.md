@@ -1,9 +1,9 @@
+# BIM ingame tutorial/de
 
 
 
-{{UnfinishedDocu
 
-}} <img alt="" src=images/BIM_tutorial_screenshot.png  style="width:1024px;">
+ <img alt="" src=images/BIM_tutorial_screenshot.png  style="width:1024px;">
 
 
 {{BIMTutorialAction|descr=Dies ist das Imspiel Tutorium des [BIM Arbeitsbereichs](BIM_Workbench/de.md). Es ist nicht dafür gedacht, hier im Wiki gelesen zu werden, sondern es wird aus FreeCAD heraus, im BIM Arbeitsbereich, unter dem Menü '''Hilfe -> BIM Tutorium''' gestartet. Es enthält eine Reihe von Schritten, die vom Benutzer auszuführen sind. Jeder Schritt wird durch eine Instanz der [<nowiki>{{BIMTutorialAction|descr|goal1|test1|goal2|test2}}</nowiki>](Template:BIMTutorialAction.md) Vorlage abgeschlossen, die über die Bedingung informiert, die erfüllt werden muss. Bilder sollten 300px breit sein. Auf dieser Seite sollten keine SVG Bilder verwendet werden, da sie vom QTextBrowser Widget nicht unterstützt werden}}
@@ -509,4 +509,4 @@ FreeCAD ist eine freie Software, die von einer enthusiastischen Gemeinschaft von
 
 {{BIMTutorialAction|descr=Keine Aktion für diesen Schritt ausführen}}
 
-[Category:BIM{{\#translation:}}](Category:BIM.md) [Category:Tutorials{{\#translation:}}](Category:Tutorials.md)
+[Category:BIM](Category:BIM.md) [Category:Tutorials](Category:Tutorials.md)

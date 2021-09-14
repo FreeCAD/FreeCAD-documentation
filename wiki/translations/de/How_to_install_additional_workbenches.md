@@ -1,3 +1,5 @@
+# How to install additional workbenches/de
+
  {{TutorialInfo/de
 |Topic=Programmierung
 |Level=Mittelmäßiger Programmierer
@@ -168,4 +170,4 @@ Der Einfachheit halber für dieses Beispiel, sage du hast die [Arbeitsbereich Ku
 
  {{Powerdocnavi}}
 
-[Category:External Workbenches{{\#translation:}}](Category:External_Workbenches.md) [Category:Addons{{\#translation:}}](Category:Addons.md)
+[Category:External Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)

@@ -1,3 +1,5 @@
+# Git buildpackage/it
+
 
 
 Modern Debian development workflows involve [packaging with Git](https://wiki.debian.org/PackagingWithGit) and the primary tool for doing that is [git-buildpackage](http://honk.sigxcpu.org/projects/git-buildpackage/manual-html/gbp.html). git-buildpackage provides a gbp command with several options similar to the git command itself. Many of these commands are themselves just a wrapper of lower-level Debian tools, so the complexity to learning packaging can be quite high.
@@ -34,4 +36,4 @@ Location: ~/.quiltrc
 
  
 
-[Category:Packaging{{\#translation:}}](Category:Packaging.md) [Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md)
+[Category:Packaging](Category:Packaging.md) [Category:Developer Documentation](Category:Developer_Documentation.md)

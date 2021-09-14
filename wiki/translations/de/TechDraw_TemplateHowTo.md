@@ -1,3 +1,5 @@
+# TechDraw TemplateHowTo/de
+
 
 
 
@@ -108,7 +110,7 @@ Beachte, dass deine editierbaren Texte *nicht* funktionieren, wenn du \"<https:/
 
 ## Anmerkungen
 
-Verwende keine Lagen in Inkscape, bevor Du nicht Vorlagen ohne sie beherrscht. Lagen und Gruppen können unerwünschte Transformationen in der [SVG](SVG.md) Datei verursachen.
+Verwende keine Lagen in Inkscape, bevor Du nicht Vorlagen ohne sie beherrscht. Lagen und Gruppen können unerwünschte Transformationen in der [SVG](SVG/de.md)-Datei verursachen.
 
 Stelle als letzten Schritt vor der Verwendung deiner neuen Vorlage sicher, daß alle Umwandlungsklauseln aus dem Svg Code entfernt werden. Umwandlungsklauseln **werden Probleme verursachen**.
 

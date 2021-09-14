@@ -7,9 +7,6 @@
    SeeAlso:[Part Primitives](Part_Primitives/fr.md)
 ---
 
-
-</div>
-
 ## Description
 
 La primitive géométrique **<img src=images/Part_Helix.svg style="width:16px"> [Part Hélice](Part_Helix/fr.md)** crée une forme d\'hélice définie par un rayon, un pas et une hauteur totale.
@@ -18,23 +15,14 @@ Un usage courant de la primitive hélice est pour la <img src=images/PartDesign_
 
 ## Utilisation
 
-
-<div class="mw-translate-fuzzy">
-
 1.  Basculez vers l\'<img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [atelier Part](Part_Workbench/fr.md).
 2.  La boîte de dialogue Créer des primitives est accessible de plusieurs manières:
     -   En appuyant sur le bouton **<img src=images/Part_Primitives.svg style="width:16px"> [Création de primitives géométriques...](Part_Primitives/fr.md)** situé dans la barre d\'outils Pièce.
     -   Utilisation de l\'entrée **Pièce → <img src=images/Part_Primitives.svg style="width:16px"> [Créer des primitives...](Part_Primitives/fr.md) → Hélice** dans le menu Part.
 
-
-</div>
-
 ![](images/PartHelixPrimitivesOptions_en.png )
 
 #### Paramètres
-
-
-<div class="mw-translate-fuzzy">
 
 -    {{Parameter|Pitch:}}Le pas correspond à l\'espace entre deux \"tours\" consécutifs de l\'hélice mesuré le long de l\'axe principal de l\'hélice.
 
@@ -45,9 +33,6 @@ Un usage courant de la primitive hélice est pour la <img src=images/PartDesign_
 -    {{Parameter|Angle}}: Par défaut, l\'hélice est construite sur un cylindre imaginaire. Avec cette option, il est possible de construire l\'hélice sur un cône imaginay. Cet angle correspond à l\'angle du cône. La valeur doit être comprise entre 0 et +90 degrés.
 
 -    {{Parameter|Right-handed or Left-handed:}}Ce paramètre spécifie la [handeness (chiralité)](https://en.wikipedia.org/wiki/Screw_thread) de l\'hélice.
-
-
-</div>
 
 #### Location
 
@@ -78,13 +63,7 @@ Une fois l\'hélice créé vous avez la possibilité de modifier ses paramètres
 +----------------------------------------------------------+----------------------------------------------------------------------------------------------------------+
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
  

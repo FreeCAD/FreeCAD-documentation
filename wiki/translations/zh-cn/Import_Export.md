@@ -1,4 +1,6 @@
-\_\_NOTOC\_\_ 
+# Import Export/zh-cn
+
+ 
 
 
 
@@ -80,4 +82,4 @@ See the following pages for additional information:
 
 
 
-[Category:File\_Formats{{\#translation:}}](Category:File_Formats.md)
+[Category:File\_Formats](Category:File_Formats.md)

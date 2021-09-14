@@ -164,4 +164,4 @@ Puteți salva / exporta graficul de dependență afișat ca fișier imagine. În
 
 }}  
 
-[Category:3rd Party{{\#translation:}}](Category:3rd_Party.md)
+[Category:3rd Party](Category:3rd_Party.md)

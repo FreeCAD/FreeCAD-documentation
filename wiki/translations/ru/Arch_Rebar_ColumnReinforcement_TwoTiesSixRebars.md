@@ -24,7 +24,7 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 *TwoTiesSixRebars Column Reinforcement inside a Column [Arch Structure](Arch_Structure.md)*
 
-## Использование
+## Применение
 
 1\. Select any face of a previously created **<img src="images/Arch_Structure.svg" width=16px> [Arch Structure](Arch_Structure.md)** object.
 2. Then select **<img src="images/Arch_Rebar_ColumnReinforcement.svg" width=16px> [Column Reinforcement](Arch_Rebar_ColumnReinforcement.md)** from the rebar tools.
@@ -51,7 +51,7 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 8. Click **OK** or **Apply** to generate column reinforcement.
 9. Click **Cancel** to exit the dialog box.
 
-## Properties
+## Свойства
 
 **Ties:**
 
@@ -95,7 +95,7 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 -    **Diameter**: Diameter of the main rebars.
 
-## Scripting
+## Программирование
 
 
 **See also:**
@@ -165,7 +165,7 @@ RebarGroup = makeTwoTiesSixRebars(
 
 -    `ties_sequence`is the sequence of ties from top to bottom with respect to front view; it can be `("Tie1", "Tie2")` or `("Tie2", "Tie1")`.
 
-#### Example
+#### Пример
 
 
 ```python
@@ -301,7 +301,7 @@ rebar_group = editTwoTiesSixRebars(
 
 -    `structure`and `facename` may be omitted so that the rebar stays in the original structure.
 
-#### Пример
+#### Пример 
 
 
 ```python
@@ -345,4 +345,4 @@ rebar_group = TwoTiesSixRebars.editTwoTiesSixRebars(
 
  
 
-[Category:Reinforcement{{\#translation:}}](Category:Reinforcement.md)
+[Category:Reinforcement](Category:Reinforcement.md)

@@ -1,3 +1,5 @@
+# Customize Toolbars/it
+
  {{TutorialInfo/it|Topic=Configurazione|Level=Principiante|Time=5 minuti|Author=[Mario52](User:Mario52.md)|FCVersion=Tutte}}
 
 ## Introduzione
@@ -126,4 +128,4 @@ Vedere anche [Personalizzare l\'interfaccia](Interface_Customization/it.md)
 
 
 
-[Category:Preferences{{\#translation:}}](Category:Preferences.md)
+[Category:Preferences](Category:Preferences.md)

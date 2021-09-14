@@ -1,3 +1,5 @@
+# Macro Toggle Visibility/fr
+
  {{Macro/fr
 |Icon=Macro SelectVisible.png
 |Name=Toggle Visibility

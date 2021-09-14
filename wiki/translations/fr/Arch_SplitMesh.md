@@ -3,12 +3,9 @@
    Name:Arch SplitMesh
    Name/fr:Arch Séparer un objet Mesh
    MenuLocation:Arch → Utilitaires → Diviser une maille
-   Workbenches:[Atelier Arch](Arch_Module/fr.md)
+   Workbenches:[Arch](Arch_Workbench/fr.md)
    SeeAlso:[Arch Sélection de maillages non-manifold](Arch_SelectNonSolidMeshes/fr.md), [Arch Maillage vers un objet shape](Arch_MeshToShape/fr.md)
 ---
-
-
-</div>
 
 ## Description
 
@@ -60,13 +57,7 @@ new_list = Arch.splitMesh(mesh_obj)
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 

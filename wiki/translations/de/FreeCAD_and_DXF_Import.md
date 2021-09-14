@@ -1,3 +1,5 @@
+# FreeCAD and DXF Import/de
+
  {{TOCright}}
 
 ## Hintergrund
@@ -50,4 +52,4 @@ Du kannst auch versuchen:
 
 Für eine Übersicht über alle DXF bezogenen Voreinstellungen siehe [Import Export Einstellungen](Import_Export_Preferences/de#DXF.md).
 
-[Category:User\_Documentation{{\#translation:}}](Category:User_Documentation.md) [Category:File\_Formats{{\#translation:}}](Category:File_Formats.md)
+[Category:User\_Documentation](Category:User_Documentation.md) [Category:File\_Formats](Category:File_Formats.md)

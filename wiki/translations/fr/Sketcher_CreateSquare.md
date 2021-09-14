@@ -30,4 +30,4 @@ Le cercle circonscrit est la géométrie de construction, qui n\'est visible que
 
 {{Sketcher Tools navi
 
-}}  
+}} 

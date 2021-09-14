@@ -1,3 +1,5 @@
+# Workbenches/zh-cn
+
 
 
 
@@ -105,4 +107,4 @@ FreeCAD工作台很容易在[Python](http://www.python.org)中编程，所以很
 
 
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

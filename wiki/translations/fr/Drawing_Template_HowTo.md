@@ -1,3 +1,5 @@
+# Drawing Template HowTo/fr
+
 
 
 
@@ -119,9 +121,21 @@ viewBox="0 0 279 216"
 
 ### Working space et la balise Title block 
 
+
+<div class="mw-translate-fuzzy">
+
 Dans les lignes suivantes nous ajouterons un espace de travail et une balise pour le bloc de textes. Ces balises et leurs utilisations sont définis dans la feuille de dessin. Même si ces balises ne sont pas nécessaires, les versions plus récentes de l\'atelier Draw de FreeCAD les utilisent et n\'affectent pas les anciennes versions.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 La balise **Working space** est utilisée pour définir l\'espace dans lequel FreeCAD peut faire ses projections. Cela permet à FreeCAD de faire des projections automatiques dans le cadre et dans l\'espace défini sur la page.
+
+
+</div>
 
 La balise **Title block** est utilisée pour définir où le cartouche se situe dans l\'espace de travail. Cette information est utilisée par FreeCAD pour que cet espace de travail ne sois pas utilisé. Ceci peut être traduit comme \"espace réservé à ne pas utiliser\".
 
@@ -129,7 +143,13 @@ Si les deux balises sont utilisées, la balise **Working space** doit être plac
 
 #### La balise Working space 
 
+
+<div class="mw-translate-fuzzy">
+
 La première balise est la balise **Working space** et est formatée comme suit.
+
+
+</div>
 
  {.html}
 
@@ -203,7 +223,13 @@ C\'est terminé. Le document SVG peut maintenant être enregistré et utilisé a
 
 ## Exemple Complet de la feuille 
 
+
+<div class="mw-translate-fuzzy">
+
 Voici la feuille SVG finie. Elle est au format SVG, vous pouvez l\'enregistrer et l\'ouvrir dans votre éditeur de texte pour l\'examiner comme référence à ce tutoriel et la création de vos propres feuilles.
+
+
+</div>
 
 ![](images/TemplateExample.svg )
 

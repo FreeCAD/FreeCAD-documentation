@@ -7,9 +7,6 @@
    SeeAlso:[Part Convertir en solide](Part_MakeSolid/fr.md), [Part Affiner la forme](Part_RefineShape/fr.md), [Part Points à partir de maillage](Part_PointsFromMesh/fr.md)
 ---
 
-
-</div>
-
 ## Introduction
 
 Cette commande **<img src="images/Part_ShapeFromMesh.svg" width=16px> [Part Forme à partir du maillage](Part_ShapeFromMesh/fr.md)** crée une forme à partir d\'un [Maillage](Mesh/fr.md). Les objets maillés ont des capacités d\'édition limitées dans FreeCAD, les convertir en [shapes (formes)](Shape/fr.md) permettra leur utilisation avec de nombreux autres outils booléens et de modification.
@@ -57,13 +54,7 @@ doc.recompute()
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
   

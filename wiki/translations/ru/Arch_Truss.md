@@ -1,14 +1,11 @@
 ---
 - GuiCommand:/ru
-   Name:Arch Truss
-   Name/ru:Arch Truss
-   Workbenches:[Arch](Arch_Module/ru.md)
-   MenuLocation:Arch → Truss
+   Name/ru:Ферма
+   Name:Arch_Truss
+   MenuLocation:Arch → Ферма
+   Workbenches:[Arch](Arch_Workbench/ru.md)
    Version:0.19
 ---
-
-
-</div>
 
 ## Описание
 
@@ -16,7 +13,7 @@ The [Arch Truss](Arch_Truss.md) tool builds a [truss](https://en.wikipedia.org/w
 
 <img alt="" src=images/Arch_Truss_example.png  style="width:600px;">
 
-## Использование
+## Применение
 
 ### Creating from a selected object 
 
@@ -33,9 +30,9 @@ The [Arch Truss](Arch_Truss.md) tool builds a [truss](https://en.wikipedia.org/w
 4.  Click in the 3D view to define a second point, or manually enter X, Y and Z coordinates
 5.  Adjust the truss properties to your liking
 
-## Properties
+## Свойства
 
-### Data
+### Данные
 
 -    **TrussAngle**: The angle of the truss
 
@@ -67,7 +64,7 @@ The [Arch Truss](Arch_Truss.md) tool builds a [truss](https://en.wikipedia.org/w
 
 -    **RodMode**: How to draw the rods
 
-## Scripting
+## Программирование
 
 The Truss tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function:
 
@@ -76,7 +73,7 @@ The Truss tool can be used in [macros](Macros.md) and from the [Python](Python.m
 Truss = makeFence([baseobj])
 ```
 
-Example:
+Пример:
 
 
 ```python
@@ -94,20 +91,7 @@ truss.HeightEnd = 400
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-{{docnav/ru
-|[Frame](Arch_Frame/ru.md)
-|[Equipment](Arch_Equipment/ru.md)
-|[Arch](Arch_Module/ru.md)
-|IconL=Arch_Frame.svg
-|IconC=Workbench_Arch.svg
-|IconR=Arch_Equipment.svg
-}}
-
-
-</div>
 
 
  

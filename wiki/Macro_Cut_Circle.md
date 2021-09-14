@@ -1,3 +1,5 @@
+# Macro Cut Circle
+
   {{Macro
 |Name=Macro Cut Circle
 |Icon=Macro_Cut_Circle.png

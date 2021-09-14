@@ -4,12 +4,7 @@
    Name/fr:Path Stop
    MenuLocation:Path → Supplemental Commands → Arrêter
    Workbenches:[Path](Path_Workbench/fr.md)
-   Shortcut:
-   SeeAlso:
 ---
-
-
-</div>
 
 ## Description
 
@@ -19,12 +14,12 @@ Cet outil insère une commande d\'arrêt (M1). Cette commande suspendra le progr
 
 ## Utilisation
 
-1.  Pressez le bouton **<img src="images/Path_Stop.svg" width=16px> [Stop](Path_Stop/fr.md)
+1.  Pressez le bouton **<img src="images/Path_Stop.svg" width=16px> [Arrêter](Path_Stop/fr.md)
 **
 
 ## Propriétés
 
--    **Stop**: Définit si l\'arrêt est facultatif ou obligatoire.
+-    {{PropertyData/fr|Stop}}: Définit si l\'arrêt est facultatif ou obligatoire.
 
 
 

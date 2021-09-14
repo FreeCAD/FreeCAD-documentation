@@ -2,84 +2,84 @@
 - GuiCommand:/de
    Name:Arch Profile
    Name/de:Arch Profil
-   Workbenches:[Arch](Arch_Workbench/de.md)
    MenuLocation:Arch → Profil
+   Workbenches:[Arch](Arch_Workbench/de.md)
    Version:0.19
 ---
 
 ## Beschreibung
 
-The Profile tool builds a parametric 2D profile object. This object can then be used as a base in different other tools that perform extrusions, such as [Arch Frame](Arch_Frame.md), [Arch CurtainWall](Arch_CurtainWall.md) or [Part Extrude](Part_Extrude.md).
+Das Profil-Werkzeug erstellt ein parametrisches 2D-Profil-Objekt. Dieses Objekt kann dann als eine Basis in verschiedenen anderen Werkzeugen werden, die Extrusion durchführen, wie [Arch Rahmen](Arch_Frame/de.md), [Arch Vorhangfassade](Arch_CurtainWall/de.md) oder [Part Extrudieren](Part_Extrude/de.md).
 
-See the [list of available presets](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Arch/Presets/profiles.csv).
+Siehe die [Liste von verfügbaren Voreinstellungen](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Arch/Presets/profiles.csv).
 
-The profile tool is also integrated to the [Arch Structure](Arch_Structure.md) tool, all preset profiles are also available there.
+Das Profil-Werḱzeug ist auch im [Arch Struktur](Arch_Structure.md)-Werkzeug integriert, alle voreingestellten Profile sind auch dort verfügbar.
 
-## Usage
+## Anwendung
 
-1.  Press the **<img src="images/Arch_Profile.svg" width=16px> [Arch Profile](Arch_Profile.md)** button
-2.  Select a preset in the tool task panel
-3.  Click a point in the 3D view to place the profile
+1.  Drücke die **<img src="images/Arch_Profile.svg" width=16px> [Arch Profil](Arch_Profile/de.md)**-Schaltfläche
+2.  Wähle eine Voreinstellung im Werkzeug-Aufgaben-Reiter
+3.  Klicke einen Punkt in der [3D-Ansicht](3D_view/de.md), um das Profil zu platzieren
 
-## Properties
+## Eigenschaften
 
-### Data
+### Daten
 
--    **Height**: The overall height of the profile
+-    **Height**: Die (Gesamt)-Höhe des Profils
 
--    **Width**: The overall width of the profile
+-    **Width**: Die (Gesamt)-Breite des Profils
 
--    **Diameter**: The diameter of the profile (circular profiles only)
+-    **Diameter**: Der Durchmesser des Profils (nur Rundprofile)
 
--    **Thickness**: The thickness of the tube wall (circular and rectangular hollow profiles only)
+-    **Thickness**: Die Wandstärke (nur runde/rechteckige Hohlprofile)
 
--    **Web Thickness**: The thickness of the profile web (H and I profiles only)
+-    **Web Thickness**: Die Dicke der Profilbahnen (nur H- und I-Profile)
 
--    **Flange Thickness**: The thickness of the profile flange (H and I profiles only)
+-    **Flange Thickness**: Die Dicke des Flanschprofil (nur H- und I-Profile)
 
-## Adding custom profiles 
+## Hinzufügen von benutzerdefinierten Profilen 
 
-An additional CSV file can be created by the user, containing custom profile definitions. It must be named `profiles.csv`, and placed in 
+Eine zusätzliche CSV-Datei kann durch den Benutzer erstellt werden, die benutzerdefinierte Definitionen enthält. Sie muss {{FileName|profiles.csv}} heißen und in 
 ```python
 $FREECAD_USER_DIR/Arch/
 ```
 
-The `$FREECAD_USER_DIR` can be obtained from the [Python console](Python_console.md): 
+Der Wert für `$FREECAD_USER_DIR` kann über die [Python-Konsole](Python_console/de.md) ermittelt werden: 
 ```python
 FreeCAD.getUserAppDataDir()
 ```
 
-The contents of your custom `profiles.csv` file must be modeled upon the same rules as the [profiles.csv](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Arch/Presets/profiles.csv) in the source code.
+Der Inhalt deiner {{FileName|profiles.csv}}-Datei muss den gleichen Regeln wie die Datei [profiles.csv](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Arch/Presets/profiles.csv) im Quell-Code entsprechen.
 
-The CSV file must contain one line per available profile, formatted as follows:
+Die CSV-Datei muss eine Zeile für jedes verfügbare Profil enthalten, formatiert wie folgt:
 
--   For C profiles: Category, Name, Class, Diameter, Thickness
--   For H and U profiles: Category, Name, Class, Width, Height, Web thickness, Flange thickness
--   For R profiles: Category, Name, Class, Width, Height
--   For RH profiles: Category, Name, Class, Width, Height, Thickness
+-   Für C-Profile: Kategorie, Name, Klasse, Durchmesser, Dicke
+-   Für H- und U-Profile: Kategorie, Name, Klasse, Breite, Höhe, Stegdicke (/-breite), Flanschdicke (/-stärke)
+-   Für R-Profile: Kategorie, Name, Klasse, Breite, Höhe
+-   Für RH-Profile: Kategorie, Name, Klasse, Breite, Höhe, Dicke
 
-All measures must be in millimeters. Possible profile classes are:
+Alle Maße müssen in Millimetern angegeben werden. Mögliche Profilklassen sind:
 
--   C: Circular tube
--   H: H- or I-profile
--   R: Rectangular
--   RH: Rectangular hollow
--   U: U-profile
+-   C: Kreisförmiges Rohr
+-   H: H- oder I-Profil
+-   R: Rechteckig
+-   RH: Rechteckig hohl
+-   U: U-Profil
 
-Additional profile types can be created, but a corresponding class must first be defined in [ArchProfile.py](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Arch/ArchProfile.py).
+Zusätzliche Profiltypen können erstellt werden, aber eine entsprechende Klasse muss zuerst definiert werden in [ArchProfile.py](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Arch/ArchProfile.py).
 
-## Scripting
+## Skripten
 
-The Profile tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function:
+Das Profil-Werkzeug kann in [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus mit folgender Funktion verwendet werden:
 
 
 ```python
 profile = makeProfile(profile_list)
 ```
 
-Where profile\_list contains the different elements of a list in the CSV file.
+wobei {{Incode|profile_list}} die verschiedenen Elemente einer Liste in der CSV-Datei enthält.
 
-Example:
+Beispiel:
 
 
 ```python
@@ -87,7 +87,7 @@ import Arch
 Arch.makeProfile([0,'REC','REC100x100','R',100,100])
 ```
 
-Where the first element of the list is an order number that is not used yet.
+wobei das erste Element der Liste eine Bestellnummer (order number) ist, die bisher nicht verwendet wird.
 
 
 

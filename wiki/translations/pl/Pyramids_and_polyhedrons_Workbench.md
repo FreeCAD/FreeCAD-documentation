@@ -1,3 +1,5 @@
+# Pyramids and polyhedrons Workbench/pl
+
 
 
 ## Description
@@ -42,4 +44,4 @@ Please direct your feedback, ideas, thoughts about this workbench to the dedicat
 
 
 
-[Category:User Documentation{{\#translation:}}](Category:User_Documentation.md) [Category:Addons{{\#translation:}}](Category:Addons.md) [Category:External Workbenches{{\#translation:}}](Category:External_Workbenches.md)
+[Category:User Documentation](Category:User_Documentation.md) [Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)

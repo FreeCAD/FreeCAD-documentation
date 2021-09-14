@@ -3,7 +3,7 @@
    Name:Draft Clone
    Name/es:Borrador Clon
    MenuLocation:Modificación → Clon
-   Workbenches:[Borrador](Draft_Module/es.md), [Arquitectura](Arch_Module/es.md)
+   Workbenches:[Borrador](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
    Shortcut:**C** **L**
    SeeAlso:[Borrador Escalar](Draft_Scale/es.md)
 ---
@@ -24,7 +24,7 @@ El <img alt="" src=images/Draft_Clone.svg  style="width:24px;"> comando **Borrad
 
 <div class="mw-translate-fuzzy">
 
-El comando puede usarse en objetos 2D creados con el [Ambiente de Trabajo Borrador](Draft_Module/es.md) o [Ambiente de Trabajo Dibujante](Sketcher_Workbench/es.md), pero también en muchos objetos 3D como los creados con el [Ambiente de Trabajo Pieza](Part_Workbench/es.md), [Ambiente de Trabajo DiseñoPieza](PartDesign_Workbench/es.md) o [Ambiente de Trabajo Arquitectura](Arch_Workbench/es.md). Los clones de objetos 2D pueden utilizarse en [PartDesign Cuerpos](PartDesign_Body/es.md).
+El comando puede usarse en objetos 2D creados con el [Ambiente de Trabajo Borrador](Draft_Workbench/es.md) o [Ambiente de Trabajo Dibujante](Sketcher_Workbench/es.md), pero también en muchos objetos 3D como los creados con el [Ambiente de Trabajo Pieza](Part_Workbench/es.md), [Ambiente de Trabajo DiseñoPieza](PartDesign_Workbench/es.md) o [Ambiente de Trabajo Arquitectura](Arch_Workbench/es.md). Los clones de objetos 2D pueden utilizarse en [PartDesign Cuerpos](PartDesign_Body/es.md).
 
 
 </div>
@@ -76,7 +76,7 @@ cloned_object = make_clone(obj, delta=None, forcedraft=False)
 
 -    `delta`es el vector de desplazamiento que se aplicará al clon.
 
--   Si `forcedraft` es `False` y `obj` contiene un único [Objeto Arquitectura](Arch_Module/es.md) se crea un Arch Clone. Establezca `forcedraft` a `True` para crear un Clon de Borrador en su lugar.
+-   Si `forcedraft` es `False` y `obj` contiene un único [Objeto Arquitectura](Arch_Workbench/es.md) se crea un Arch Clone. Establezca `forcedraft` a `True` para crear un Clon de Borrador en su lugar.
 
 -    `cloned_object`se devuelve con el objeto clonado.
 

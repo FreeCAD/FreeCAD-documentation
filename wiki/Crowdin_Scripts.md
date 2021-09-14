@@ -1,3 +1,5 @@
+# Crowdin Scripts
+
  
 
 ## Managing Translations for FreeCAD 
@@ -90,4 +92,4 @@ The updatefromcrowdin.py script pulls changes from crowdin to your local FreeCAD
 
  
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Administration{{\#translation:}}](Category:Administration.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Administration](Category:Administration.md)

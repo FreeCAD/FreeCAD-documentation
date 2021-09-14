@@ -30,7 +30,13 @@ Allows you to detach a sketch from a face and attach it to one of the main plane
 -   As long as no sketch is selected, the command is greyed out.
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{Sketcher Tools navi

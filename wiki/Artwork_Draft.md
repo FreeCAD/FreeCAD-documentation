@@ -1,4 +1,6 @@
-\_\_NOTOC\_\_  
+# Artwork Draft
+
+  
 
 These icons are in the indicated source path.
 
@@ -19,4 +21,4 @@ For all icons in the source tree, see [Artwork](Artwork.md).
 
  
 
-[Category:Draft{{\#translation:}}](Category:Draft.md)
+[Category:Draft](Category:Draft.md)

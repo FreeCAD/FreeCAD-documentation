@@ -1,3 +1,5 @@
+# Tutorial custom placing of windows and doors/ru
+
  {{TutorialInfo/ru
 |Topic=Архитектура
 |Level=Средний
@@ -215,10 +217,16 @@ w = Draft.makeWire(p, closed=False)
 
 14\. В древе проектов выделите `Window` и нижележащий `Sketch002`. Затем выполните **Edit → Duplicate selection**, и при запросе ответьте **No** для дублирования невыбранных зависимостей. Новые `Window001` и `Sketch003` появятся там же, где оригинальные элементы.
 
+
+<div class="mw-translate-fuzzy">
+
 15\. Выделите новый `Sketch003`. Перейдите к параметру **Map Mode** и кликните на эллипсе возле значения `FlatFace`. В окне трёхмерного вида выделите левую сторону стены без каких-либо элементов; поверните [standard view](standard_view/ru.md) куда надо. Измените `Attachment offset` на \[-1 m, 0 m, 0 m\] для центрирования окна, и кликните **OK**. Эскиз и окно появятся на новой позиции.
 
 :   
     **Примечание:**[операция назначения](Part_Attachment.md) так же может быть выполнена переключением на [верстак Part](Part_Workbench/ru.md) и использованием меню **Part → Attachment**.
+
+
+</div>
 
 ![](images/13_T02_sketch_attachment_edit.png )
 

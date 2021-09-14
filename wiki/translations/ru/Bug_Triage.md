@@ -1,3 +1,5 @@
+# Bug Triage/ru
+
 
 
 
@@ -153,4 +155,4 @@ An important methodology to track tickets by a certain subject/theme/category. I
 
 
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Administration{{\#translation:}}](Category:Administration.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Administration](Category:Administration.md)

@@ -1,3 +1,5 @@
+# Placement API/pl
+
  {{VeryImportantMessage|''(Październik 2019)'' Nie edytuj tych stron. Informacje są niekompletne i nieaktualne. Najnowsze API można znaleźć w [https://www.freecadweb.org/api automatycznie generowana dokumentacja API], lub wygenerować dokumentację samodzielnie, śledząc dokument [Dokumentacja źródłowa](Source_documentation/pl.md).}}
 
 W FreeCAD, umiejscowienie definiuje pozycję i obrót obiektu. Koncepcja umiejscowienia jest szczegółowo wyjaśniona na tej stronie: [Umiejscowienie](Placement/pl.md).
@@ -37,4 +39,4 @@ myObj.Placement = pl
 
  
 
-[Category:API{{\#translation:}}](Category:API.md) [Category:Poweruser Documentation{{\#translation:}}](Category:Poweruser_Documentation.md)
+[Category:API](Category:API.md) [Category:Poweruser Documentation](Category:Poweruser_Documentation.md)

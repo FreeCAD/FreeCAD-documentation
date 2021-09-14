@@ -3,7 +3,7 @@
    Name:Drawing ProjectShape
    Name/fr:Drawing Projection de forme
    Empty:1
-   Workbenches:[Drawing](Drawing_Module/fr.md)
+   Workbenches:[Drawing](Drawing_Workbench/fr.md)
    MenuLocation:Mise en plan → Projeter la forme...
 ---
 

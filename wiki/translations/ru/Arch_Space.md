@@ -3,10 +3,10 @@
    Name:Arch Space
    Name/ru:Arch Space
    MenuLocation:Архитектура → Пространство
-   Workbenches:[Arch](Arch_Module/ru.md)
+   Workbenches:[Arch](Arch_Workbench/ru.md)
    Shortcut:**S** **P**
-   SeeAlso:[[Arch Wall/ru]], [[Arch Structure/ru]]
    Version:0.14
+   SeeAlso:[[Arch Wall/ru]], [[Arch Structure/ru]]
 ---
 
 
@@ -32,13 +32,7 @@
 
 </div>
 
-
-<div class="mw-translate-fuzzy">
-
-## Использование
-
-
-</div>
+## Применение
 
 
 <div class="mw-translate-fuzzy">
@@ -49,7 +43,7 @@
 
 </div>
 
-### Limitations
+### Ограничения
 
 -   The boundaries properties is currently not editable via GUI.
 -   See the [forum announcement](http://forum.freecadweb.org/viewtopic.php?f=9&t=4275).
@@ -91,13 +85,12 @@
 -   To create zones that group several spaces, use a [Arch BuildingPart](Arch_BuildingPart.md) and set its IFC type to \"Spatial Zone\"
 -   The space object has the same display modes as other Arch and Part objects, with one more, called **Footprint**, that displays only the bottom face of the space. <small>(v0.19)</small> 
 
-
-<div class="mw-translate-fuzzy">
-
-## Скриптование
+## Программирование
 
 
-</div>
+**Смотрите так же:**
+
+[Основы составления скриптов в FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 
 
 <div class="mw-translate-fuzzy">
@@ -152,13 +145,7 @@ Arch.removeSpaceBoundaries(Space, selection)
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-{{docnav/ru|[Roof](Arch_Roof.md)|[Stairs](Arch_Stairs.md)|[Arch](Arch_Workbench/ru.md)|IconL=Arch_Roof.svg |IconC=Workbench_Arch.svg |IconR=Arch_Stairs.svg}}
-
-
-</div>
 
 
  

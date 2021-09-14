@@ -1,3 +1,5 @@
+# Help FreeCAD/pt-br
+
 
 
 ## Introdução
@@ -85,4 +87,4 @@ Escrever código para o FreeCAD não é difícil e você não precisa de nenhuma
 
 
 
-[Category:Documentation{{\#translation:}}](Category:Documentation.md) [Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Common Questions{{\#translation:}}](Category:Common_Questions.md)
+[Category:Documentation](Category:Documentation.md) [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Common Questions](Category:Common_Questions.md)

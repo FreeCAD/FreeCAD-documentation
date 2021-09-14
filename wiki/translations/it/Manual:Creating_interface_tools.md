@@ -1,3 +1,5 @@
+# Manual:Creating interface tools/it
+
 
 
 
@@ -169,4 +171,4 @@ Infine, non dimenticate che c\'è molta altra documentazione sull\'utilizzo dei 
 
 }} 
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Python Code{{\#translation:}}](Category:Python_Code.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)

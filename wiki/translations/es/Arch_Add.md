@@ -1,5 +1,11 @@
 ---
-- GuiCommand:/es   Name:Arch Add   Name/es:Arch Add   Workbenches:[MenuLocation:Arquitectura → Adicción   SeeAlso:[[Arch Remove/es|Arch Suprimir](Arch_Module/es___Entorno_de_Arquitectura]].md)---
+- GuiCommand:/es
+   Name:Arch Add
+   Name/es:Arch Add
+   Workbenches:[Entorno de Arquitectura](Arch_Workbench/es.md)
+   MenuLocation:Arquitectura → Adicción
+   SeeAlso:[Arch Suprimir](Arch_Remove/es.md)
+---
 
 
 </div>

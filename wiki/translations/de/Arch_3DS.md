@@ -1,3 +1,5 @@
+# Arch 3DS/de
+
 
 
 
@@ -11,4 +13,4 @@ Der Arch-Arbeitsbereich unterstützt das Importieren von [3ds](https://de.wikibo
 
  
 
-[Category:User Documentation{{\#translation:}}](Category:User_Documentation.md) [Category:Arch{{\#translation:}}](Category:Arch.md) [Category:File Formats{{\#translation:}}](Category:File_Formats.md)
+[Category:User Documentation](Category:User_Documentation.md) [Category:Arch](Category:Arch.md) [Category:File Formats](Category:File_Formats.md)

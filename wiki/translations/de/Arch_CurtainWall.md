@@ -46,79 +46,85 @@ Du kannst das Vorhangwand Werkzeug auch ohne ein ausgewähltes Objekt verwenden.
 
 ## Optionen
 
--   Curtain walls share the common properties and behaviours of all [Arch Components](Arch_Component.md)
--   Curtain wall mullions can be made from an automatic square profile (set their **Mullion Size** properties) or from a custom profile (set their **Mullion Profile** property). The mullions can be centered over each edge, or placed relatively to the (0,0,0) point by turning off the **Center Profile** property. For example, if you want a profile to be placed slightly behind the panels, you would draw that profile slightly below the (0,0,0) origin point
--   Curtain walls support [Multi-materials](Arch_MultiMaterial.md). Inside the multi-material, the **Frame** layer will be used for the mullions, and the **Glass panel** layer for panels, or **Solid panel** if no Glass panel layer exists in the multi-material.
--   Curtain walls can be based on a linear object such as a line, arc or polyline. In that case, internally, a base surface will be built by extruding the linear object along the direction given by the **Vertical Direction** property, by the length given by the **Height** property.
+-   Fassaden teilen die gemeinsamen Eigenschaften und Verhaltensweisen aller [Arch Komponenten](Arch_Component/de.md)
+-   Fassadenriegel können aus einem automatischen Rechteckprofil (setze ihre **Mullion Size**-Eigenschaften) oder aus einem benutzerdefinierten Profil (setze die **Mullion Profile**-Eigenschaft) erstellt werden. Die Riegel können mittig über jeder Kante oder durch das Deaktivieren der **Center Profile**-Eigenschaft relativ zum Ursprungspunkt (0,0,0) platziert werden. Wenn du bspw. ein Profil geringfügig hinter den Paneelen platzieren möchtest, würdest du dieses Profil geringfügig unter den Ursprungspunkt (0,0,0) ziehen
+-   Fassaden unterstützen [Mehrfachmaterialien](Arch_MultiMaterial/de.md). Innerhalb des Mehrfachmaterials wird die **Frame**-Ebene für die Riegel verwendet und die **Glass panel**-Ebene für Glasscheiben oder **Solid panel**, falls keine Glasscheibenebene im Mehrfachmaterial existiert
+-   Fassaden können auf einem linearen Objekt wie einer Linie, einem Bogen oder einem Linienzug basieren. In diesem Fall wird - intern - eine Basisoberfläche durch extrudieren des linearen Objekts entlang der durch die **Vertical Direction**-Eigenschaft vorgegebenen Richtung erstellt, in der durch die **Height**-Eigenschaft vorgegebenen Länge.
 
 ## Eigenschaften
 
 Vorhangfassaden erben die Eigenschaften von [Arch Komponenten](Arch_Component/de.md) Objekten und habe ebenfalls die folgenden zusätzlichen Eigenschaften:
 
--    **Vertical Mullion Number**:The number of vertical mullions
+-    {{PropertyData/de|Vertical Mullion Number}}:Die Anzahl der vertikalen Pfosten
 
--    **Vertical Mullion Alignment**: If the profile of the vertical mullions get aligned with the surface or not
+-    {{PropertyData/de|Vertical Mullion Alignment}}: Ob das Profil der vertikalen Fenster-Riegel zur Oberfläche ausgerichtet wird
 
--    **Vertical Sections**: The number of vertical sections of this curtain wall
+-    {{PropertyData/de|Vertical Sections}}: Die Anzahl der vertikalen Teile dieser Vorhangfassade
 
--    **Vertical Mullion Height**: The height of the vertical mullions profile, if no profile is used
+-    {{PropertyData/de|Vertical Mullion Height}}: Die Höhe der vertikalen Fassaden-Riegel, falls kein Profil ausgewählt wird
 
--    **Vertical Mullion Width**: The width of the vertical mullions profile, if no profile is used
+-    {{PropertyData/de|Vertical Mullion Width}}: Die Breite der vertikalen Fassaden-Riegel, falls kein Profil ausgewählt wird
 
--    **Vertical Mullion Profile**: A profile for vertical mullions (disables vertical mullion size)
+-    {{PropertyData/de|Vertical Mullion Profile}}: Ein Profil für vertikale Fassaden-Riegel (deaktiviert vertikale Riegel-Abmessungen)
 
--    **Horizontal Mullion Number**: The number of horizontal mullions
+-    {{PropertyData/de|Horizontal Mullion Number}}: Die Anzahl der horizontalen Pfosten
 
--    **Horizontal Mullion Alignment**: If the profile of the horizontal mullions gets aligned with the surface or not
+-    {{PropertyData/de|Horizontal Mullion Alignment}}: Ob das Profil der horizontalen Fenster-Riegel zur Oberfläche ausgerichtet wird
 
--    **Horizontal Sections**: The number of horizontal sections of this curtain wall
+-    {{PropertyData/de|Horizontal Sections}}: Die Anzahl der horizontalen Teile dieser Vorhangfassade
 
--    **Horizontal Mullion Height**: The height of the horizontal mullions profile, if no profile is used
+-    {{PropertyData/de|Horizontal Mullion Height}}: Die Höhe der horizontalen Fassaden-Riegel, falls kein Profil ausgewählt wird
 
--    **Horizontal Mullion Width**: The width of the horizontal mullions profile, if no profile is used
+-    {{PropertyData/de|Horizontal Mullion Width}}: Die Breite der horizontalen Fassaden-Riegel, falls kein Profil ausgewählt wird
 
--    **Horizontal Mullion Profile**: A profile for horizontal mullions (disables horizontal mullion size)
+-    {{PropertyData/de|Horizontal Mullion Profile}}: Ein Profil für horizontale Fassaden-Riegel (deaktiviert horizontale Riegel-Abmessungen)
 
--    **Diagonal Mullion Number**: The number of diagonal mullions
+-    {{PropertyData/de|Diagonal Mullion Number}}: Die Anzahl der diagonalen Pfosten
 
--    **Diagonal Mullion Size**: The size of the diagonal mullions, if any, if no profile is used
+-    {{PropertyData/de|Diagonal Mullion Size}}: Die Größe der diagonalen Fassaden-Riegel, falls kein Profil ausgewählt wird
 
--    **Diagonal Mullion Profile**: A profile for diagonal mullions, if any (disables horizontal mullion size)
+-    {{PropertyData/de|Diagonal Mullion Profile}}: Ein Profil für diagonale Fassaden-Riegel (deaktiviert diagonale Riegel-Abmessungen)
 
--    **Panel Number**: The number of panels
+-    {{PropertyData/de|Panel Number}}: Die Anzahl der Paneele
 
--    **Panel Thickness**: The thickness of the panels
+-    {{PropertyData/de|Panel Thickness}}: Die Dicke der Paneele
 
--    **Swap Horizontal Vertical**: Swaps horizontal and vertical lines
+-    {{PropertyData/de|Swap Horizontal Vertical}}: Tauscht horizontale und vertikale Linien
 
--    **Refine**: Perform subtractions between components so none overlap
+-    {{PropertyData/de|Refine}}: Führt Subtraktionen zwischen Komponenten aus, so dass keine Überlappungen bestehen
 
--    **Center Profiles**: Centers the profile over the edges or not
+-    {{PropertyData/de|Center Profiles}}: Profil über Kanten zentrieren oder nicht
 
--    **Vertical Direction**: The vertical direction reference to be used by this object to deduce vertical/horizontal directions. Keep it close to the actual vertical direction of your curtain wall
+-    {{PropertyData/de|Vertical Direction}}: Die vom Objekt benutzte Referenz, um vertikale/horizontale Richtungen zu ermitteln. Halte es nah an der Richtung deiner Vorhangfassade
 
--    **Height**: The height of this curtain wall, in case it is based on a linear object
+-    {{PropertyData/de|Height}}: Die Höhe dieser Vorhangfassade, falls sie auf einem linearen Objekt basiert
 
--    **Host**: The host of this curtain wall. The curtain wall will appear embedded in its host object in the tree view (no other action is performed)
+-    {{PropertyData/de|Host}}: Das Ursprungsobjekt dieser Vorhangfassade. Die Vorhangfassade erscheint in der Baumansicht eingebettet im Ursprungsobjekt (keine andere Aktion wird durchgeführt)
 
-## Making frame walls 
+## Erstellen von Vorhangfassaden 
 
-Curtain walls are convenient to use in conjunction with [walls](Arch_Wall.md) to create frame walls (walls where an inner, structural layer is made of frames, usually wooden or metal, instead of an homogeneous material such as concrete of brick).
+
+<div class="mw-translate-fuzzy">
+
+Vorhangfassaden sind praktisch in Verbindung mit [Arch Wänden](Arch_Wall/de.md), um Fachwerkwände (Wände mit einer inneren strukturellen Ebene bestehend aus Rahmen, üblicherweise Holz oder Metall, anstelle eines homogenen Materials wie Beton oder Ziegeln) zu erstellen.
+
+
+</div>
 
 <img alt="" src=images/Frame_wall_example.png  style="width:780px;">
 
 Die nachfolgend beschriebene Prozedur erstellt eine Wand und eine Vorhangfassade basierend auf der gleichen Basislinie, gibt der Wand dann ein Mehrfachmaterial, das einen leeren Platz lässt, wo die Vorhangfassade platziert wird.
 
-1.  Create a normal [Arch Wall](Arch_Wall.md), either by clicking two points of from an existing linear object
-2.  Select the base object of the newly created arch wall
-3.  Press the **<img src="images/Arch_CurtainWall.svg" width=16px> [[Arch CurtainWall]]** button, or press the **C** then **W** keys to create a curtain wall from the same baseline as the wall
-4.  Make sure both the wall and curtain wall have the same **Height**
-5.  Set the number of **horizontal sections** of the curtain wall to zero if you wish only vertical frames
-6.  Set the desired **horizontal mullion width** and **horizontal mullion height** (or use a mullion profile)
-7.  Prepare two (or more) [materials](Arch_SetMaterial.md), one for the panels, one for the void where the frame will be
-8.  Make one [multi-material](Arch_MultiMaterial.md), using one layer of the panel material, one layer of the void material with a negative width value (which will make it not drawn) corresponding to the vertical mullion height of the curtain wall, and another layer of panel material
-9.  Attribute the multi-material to the wall
-10. Set the **Host** property of the curtain wall to the wall we created in first point
+1.  Erstelle eine normale [Arch Wand](Arch_Wall/de.md), z.B. durch anklicken zweier Punkte eines bestehenden linearen Objekts
+2.  Wähle das Basisobjekt der neu erstellten Arch Wand
+3.  Drücke die **<img src="images/Arch_CurtainWall.svg" width=16px> [Arch Vorhangfassade](Arch_CurtainWall/de.md)**-Schaltfläche oder drücke die **C**-, dann die **W**-Taste, um eine Vorhangfassade aus derselben Basislinie wie die Wand zu erstellen
+4.  Stelle sicher, dass sowohl die Wand als auch die Vorhangfassade die gleiche **Height** (Höhe) haben
+5.  Setze die Anzahl der **horizontal sections** (horizontalen Abschnitte) der Vorhangfassade auf Null, falls du nur vertikale Rahmen haben möchtest
+6.  Setze die gewünschte Werte für **horizontal mullion width** (horizontale Riegelbreite) und **horizontal mullion height** (horizontale Riegelhöhe) oder nutze ein **mullion profile** (Riegelprofil)
+7.  Bereite zwei (oder mehr) [Materialien](Arch_SetMaterial/de.md) vor, eins für die Paneele, und eins für die Lücken, in denen der Rahmen sein wird
+8.  Erstelle ein [Mehrfachmaterial](Arch_MultiMaterial/de.md) und nutze dabei eine Ebene des Paneel-Materials, eine mit dem Leermaterial mit einem negativen Breitenwert (der dafür sorgt, dass es nicht gezeichnet wird), der mit der vertikalen Riegelhöhe der Vorhangfassade übereinstimmt, und einer weiteren Ebene mit Paneel-Material
+9.  Füge das Mehrfachmaterial zur Wand hinzu
+10. Setze die **Host**-Eigenschaft der Vorhangfassade auf die Wand, die wir zuerst erstellt haben
 
 ## Skripten
 

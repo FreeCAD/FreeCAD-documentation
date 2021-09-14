@@ -55,4 +55,4 @@ Creates an array and resizes the items in the bounds of one or more hull curves.
 
 
 
-[Category:Name{{\#translation:}}](Category:Name.md) [Category:External Command Reference{{\#translation:}}](Category:External_Command_Reference.md)
+[Category:Name](Category:Name.md) [Category:External Command Reference](Category:External_Command_Reference.md)

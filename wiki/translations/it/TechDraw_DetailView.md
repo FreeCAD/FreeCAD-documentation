@@ -105,9 +105,17 @@ This is done by putting the Detail view into a [clip group](TechDraw_ClipGroup.m
 
 -   Per le viste di dettaglio con un contorno arrotondato, la posizione dell\'etichetta di riferimento nella vista di base può essere modificata tramite la proprietà **Highlight Adjust** della vista di base.
 
+## Notes
+
+
+<div class="mw-translate-fuzzy">
+
 ## Note
 
 -   [Una buona discussione sull\'impostazione dell\'ancoraggio](https://www.forum.freecadweb.org/viewtopic.php?f=35&t=34055#p285281)
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -121,4 +129,4 @@ This is done by putting the Detail view into a [clip group](TechDraw_ClipGroup.m
 
 {{TechDraw Tools navi
 
-}}  
+}} 

@@ -1,3 +1,5 @@
+# Drawing tutorial/fr
+
  {{VeryImportantMessage|Le développement de [atelier Drawing](Drawing_Workbench/fr.md) s'est arrêté dans FreeCAD 0.16, et le nouvel [atelier TechDraw](TechDraw_Workbench/fr.md) visant à le remplacer a été introduit en v0.17. Les deux ateliers sont toujours fournis dans la version 0.17, mais l'atelier de dessin peut être supprimé dans les versions ultérieures.}}
 
 
@@ -15,7 +17,7 @@
 
 ### Introduction
 
-Ce tutoriel est destiné à présenter au lecteur le travail de base de [ l\'atelier Dessin](Drawing_Module/fr.md), ainsi que la plupart des outils disponibles pour créer des plans.
+Ce tutoriel est destiné à présenter au lecteur le travail de base de [ l\'atelier Dessin](Drawing_Workbench/fr.md), ainsi que la plupart des outils disponibles pour créer des plans.
 
 
 </div>
@@ -111,7 +113,7 @@ FreeCAD prend en charge l\'exportation de fichiers SVG et PDF en fonction de vos
 
 <div class="mw-translate-fuzzy">
 
-Nous avons terminé le travail de base pour [Atelier de mise en plan ](Drawing_Module/fr.md).
+Nous avons terminé le travail de base pour [Atelier de mise en plan ](Drawing_Workbench/fr.md).
 
 
 </div>
@@ -122,7 +124,7 @@ Nous avons terminé le travail de base pour [Atelier de mise en plan ](Drawing_M
 <div class="mw-translate-fuzzy">
 
 -   Pour savoir comment créer des modèles personnalisés, voir [Modèle de dessin ](Drawing_Template_HowTo/fr.md)
--   Pour plus d\'informations sur les outils disponibles, consultez la page [Atelier Drawing](Drawing_Module/fr.md).
+-   Pour plus d\'informations sur les outils disponibles, consultez la page [Atelier Drawing](Drawing_Workbench/fr.md).
 
 
 </div>

@@ -1,3 +1,5 @@
+# Draft tutorial/de
+
 
 
 
@@ -14,13 +16,7 @@
 
 Dieses Tutorium wurde ursprünglich von Drei geschrieben, und es wurde von vocx neu geschrieben und illustriert.
 
-
-<div class="mw-translate-fuzzy">
-
-Dieses Tutorium soll den Leser in den grundlegenden Arbeitsablauf des <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Entwurf Arbeitsbereich](Draft_Module/de.md) einführen.
-
-
-</div>
+Dieses Tutorium soll den Leser in den grundlegenden Arbeitsablauf des <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Entwurf Arbeitsbereich](Draft_Workbench/de.md) einführen.
 
 Der Leser wird üben:
 
@@ -36,12 +32,9 @@ Dieses Tutorial verwendet die Schreibweise {{Value|(x, y, z)}}, um die zur Defin
 
 ## Einrichtung
 
-
-<div class="mw-translate-fuzzy">
-
 1\. Öffne FreeCAD, erstelle ein neues leeres Dokument mit **Datei → <img src=images/Std_New.svg style="width:16px"> [Neu](Std_New.md)**.
 
-:   1.1. Wechsle zum <img src=images/Workbench_Draft.svg style="width:Arbeitsbereich Entwurf](Draft_Module/de.md) über die [Arbeitsbereich Wähler](Std_Workbench/de.md) oder das Menü **Ansicht → Arbeitsbereich → [16px"> Entwurf**.
+:   1.1. Wechsle zum <img src=images/Workbench_Draft.svg style="width:Arbeitsbereich Entwurf](Draft_Workbench/de.md) über die [Arbeitsbereich Wähler](Std_Workbench/de.md) oder das Menü **Ansicht → Arbeitsbereich → [16px"> Entwurf**.
 :   1.2. Stelle sicher, dass du verstehst, wie der [Eigenschaftseditor](property_editor/de.md), insbesondere die **Daten** und **Ansichten** Reiter zum Ändern der Eigenschaften zu verwenden sind.
 
 Wenn Eigenschaften geändert werden, musst du eventuell eine **<img src="images/Std_Refresh.svg" width=16px> [Std Aktualisierung](Std_Refresh/de.md)**shandlung vornehmen, um das Ergebnis in der [3D Ansicht](3D_view/de.md) zu sehen.
@@ -49,21 +42,12 @@ Wenn Eigenschaften geändert werden, musst du eventuell eine **<img src="images/
 :   1.3. Da es sich bei den Entwurfsobjekten um ebene Formen handelt, sind sie von oben besser zu sehen. Verwende **<img src=images/Std_ViewTop.svg style="width:16px"> [Ansicht oben](Std_ViewTop/de.md)** zum setzen der [3D Ansicht](3D_view/de.md).
 :   1.4. Obwohl es in diesem Tutorium nicht verwendet wird, ist das Entwurfsgitter hilfreich, um geometrische Elemente zu positionieren. Verwende **<img src=images/Draft_SelectPlane.svg style="width:16px"> <img src=images/Draft_ToggleGrid.svg style="width:WähleEbene](Draft_SelectPlane/de.md)**, um sowohl die Arbeitsebene als auch das Gitter festzulegen, und dann das Gitter mit **[16px"> [Gitter umschalten](Draft_ToggleGrid/de.md)** anzuzeigen und auszublenden.
 
-
-</div>
-
 ## Fang Werkzeugleiste 
 
-
-<div class="mw-translate-fuzzy">
-
-2\. Die [Entwurf Fang](Draft_Snap/de.md) Werkzeugleiste wird normalerweise aktiviert, wenn du zum [Entwurf Arbeitsbereich](Draft_Module/de.md) wechselst.
+2\. Die [Entwurf Fang](Draft_Snap/de.md) Werkzeugleiste wird normalerweise aktiviert, wenn du zum [Entwurf Arbeitsbereich](Draft_Workbench/de.md) wechselst.
 
 :   2.1. Um sicherzustellen, dass sie immer vorhanden ist, gehe zu [Entwurf Einstellungen](Draft_Preferences/de.md), **Bearbeiten → Einstellungen → Entwurf → Gitter und Fang Reiter**.
 :   2.2. Stelle sicher, dass die **Werkzeugleiste Entwurfsfang anzeigen** aktiv ist.
-
-
-</div>
 
 Du kannst auch die Sichtbarkeit und die Eigenschaften des Entwurfsgitters im gleichen Fenster ändern.
 
@@ -110,16 +94,10 @@ Wir haben jetzt mehrere Objekte in der [Baumansicht](tree_view/de.md), die ein g
 
 :   6a.3 Dadurch werden die vier Objekte zu einem einzigen {{Value|Draht}} aufgewertet.
 
-
-<div class="mw-translate-fuzzy">
-
 6b. Wenn du die parametrische Natur der Objekte beibehalten möchtest, kannst du stattdessen einen Verbund erstellen.
 
 :   6b.1. Wechsle zum <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Arbeitsbereich Part](Part_Workbench/de.md).
 :   6b.2 Wenn diese Objekte ausgewählt sind, klicke auf **<img src=images/Part_Compound.svg style="width:16px"> [Part Verbund](Part_Compound/de.md)**.
-
-
-</div>
 
 ## Rechtecke, Kreise und Polygone 
 
@@ -147,13 +125,7 @@ Ein Rechteck wird erstellt. Gehe in den [Eigenschaftseditor](Property_editor/de.
 
 Auch hier kannst du die Eigenschaften {**Make Face**} und {{PropertyView/de|Anzeigemodus}} im [Eingenschaftseditor](property_editor/de.md) ändern, wenn du möchtest.
 
-
-<div class="mw-translate-fuzzy">
-
-Das Rechteck, der Kreis, das Polygon und die meisten anderen Objekte, die mit der [Entwurf Arbeitsbereich](Draft_Module/De.md) erstellt werden, haben viele gemeinsame Daten- und Ansichtseigenschaften, da sie von derselben Basisklasse [Part Teil2DObjekt](Part_Part2DObject/de.md) abgeleitet sind.
-
-
-</div>
+Das Rechteck, der Kreis, das Polygon und die meisten anderen Objekte, die mit der [Entwurf Arbeitsbereich](Draft_Workbench/De.md) erstellt werden, haben viele gemeinsame Daten- und Ansichtseigenschaften, da sie von derselben Basisklasse [Part Teil2DObjekt](Part_Part2DObject/de.md) abgeleitet sind.
 
 <img alt="" src=images/02_Dr01_Draft_Rectangle_circle_polygon.png  style="width:" height="400px;"> 
 *Rechteck, Kreis und Polygon hinzugefügt.*
@@ -247,21 +219,9 @@ Werkzeuge wie **<img src=images/TechDraw_ActiveView.svg style="width:16px"> <img
 
 ## Schlussbemerkungen
 
+Der [Entwurf Arbeitsbereich](Draft_Workbench/de.md) ähnelt in vielerlei Hinsicht dem [Entwurf Arbeitsbereich](Sketcher_Workbench/de.md), da beide zur Erzeugung von 2D Formen gedacht sind. Der Hauptunterschied besteht in der Art und Weise, wie jeder Arbeitsbereich Koordinatensysteme handhabt und wie die Objekte positioniert werden. Im Entwurf werden die Objekte frei im globalen Koordinatensystem positioniert, wobei ihre Punkte normalerweise an einem Gitter oder an anderen Objekten gefangen werden. Im Skizzierer definiert ein \"[Skizzenobjekt](Sketch/de.md)\" ein lokales Koordinatensystem, das als Referenz für alle geometrischen Elemente innerhalb dieser Skizze dient. Darüber hinaus stützt sich die Skizze auf \"Beschränkungen\", um die endgültige Position deiner Punkte zu definieren.
 
-<div class="mw-translate-fuzzy">
-
-Der [Entwurf Arbeitsbereich](Draft_Module/de.md) ähnelt in vielerlei Hinsicht dem [Entwurf Arbeitsbereich](Sketcher_Workbench/de.md), da beide zur Erzeugung von 2D Formen gedacht sind. Der Hauptunterschied besteht in der Art und Weise, wie jeder Arbeitsbereich Koordinatensysteme handhabt und wie die Objekte positioniert werden. Im Entwurf werden die Objekte frei im globalen Koordinatensystem positioniert, wobei ihre Punkte normalerweise an einem Gitter oder an anderen Objekten gefangen werden. Im Skizzierer definiert ein \"[Skizzenobjekt](Sketch/de.md)\" ein lokales Koordinatensystem, das als Referenz für alle geometrischen Elemente innerhalb dieser Skizze dient. Darüber hinaus stützt sich die Skizze auf \"Beschränkungen\", um die endgültige Position deiner Punkte zu definieren.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   Der [Entwurf Arbeitsbereich](Draft_Module/de.md) ist für 2D Zeichnungen vorgesehen, die sich zum Zeichnen auf einem Gitter eignen. Der [Architektur Arbeitsbereich](Arch_Module/de.md) baut meist auf den im [Entwurf Arbeitsbereich](Draft_Module/de.md) definierten Werkzeugen auf.
-
-
-</div>
+-   Der [Entwurf Arbeitsbereich](Draft_Workbench/de.md) ist für 2D Zeichnungen vorgesehen, die sich zum Zeichnen auf einem Gitter eignen. Der [Architektur Arbeitsbereich](Arch_Workbench/de.md) baut meist auf den im [Entwurf Arbeitsbereich](Draft_Workbench/de.md) definierten Werkzeugen auf.
 
 -   Der [Skizzierer Arbeitsbereich](Sketcher_Workbench/de.md) ist für 2D Zeichnungen gedacht, die präzise Beziehungen zwischen ihren Punkten erfordern. Sie stützt sich nicht auf ein Gitter, sondern auf Positionierungsregeln (Beschränkungen), um zu bestimmen, wo die Punkte und Kanten platziert werden sollen. Der [Skizzierer Arbeitsbereich](Sketcher_Workbench/de.md) wird meistens zusammen mit der [PartDesign Arbeitsbereich](PartDesign_Workbench/de.md) für die Erstellung von Volumenkörpern [Körper](Body/de.md) verwendet.
 

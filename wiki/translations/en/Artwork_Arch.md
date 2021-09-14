@@ -1,4 +1,6 @@
-\_\_NOTOC\_\_  These icons are in the indicated source path.
+# Artwork Arch/en
+
+  These icons are in the indicated source path.
 
 For all icons in the source tree, see [Artwork](Artwork.md).
 
@@ -17,4 +19,4 @@ For all icons in the source tree, see [Artwork](Artwork.md).
 
 }} 
 
-[Category:Arch{{\#translation:}}](Category:Arch.md)
+[Category:Arch](Category:Arch.md)

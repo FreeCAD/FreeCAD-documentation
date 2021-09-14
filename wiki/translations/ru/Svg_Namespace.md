@@ -1,3 +1,5 @@
+# Svg Namespace/ru
+
 
 
 
@@ -231,4 +233,4 @@ See [Drawing templates](Drawing_templates.md)
 
 }}
 
-[Category:Poweruser\_Documentation{{\#translation:}}](Category:Poweruser_Documentation.md) [Category:Developer{{\#translation:}}](Category:Developer.md) [Category:Python\_Code{{\#translation:}}](Category:Python_Code.md) [Category:Macros{{\#translation:}}](Category:Macros.md)
+[Category:Poweruser\_Documentation](Category:Poweruser_Documentation.md) [Category:Developer](Category:Developer.md) [Category:Python\_Code](Category:Python_Code.md) [Category:Macros](Category:Macros.md)

@@ -1,8 +1,9 @@
 ---
-- GuiCommand:
-   Name:Sketcher ViewSketch
-   MenuLocation:Sketch → View sketch
-   Workbenches:[Sketcher](Sketcher_Workbench.md), [PartDesign](PartDesign_Workbench.md)
+- GuiCommand:/zh-cn
+   Name/zh-cn:查看草图
+   Name:Sketcher_ViewSketch
+   MenuLocation:Sketch → 查看草图
+   Workbenches:[Sketcher](Sketcher_Workbench/zh-cn.md), [PartDesign](PartDesign_Workbench/zh-cn.md)
 ---
 
 ## 描述

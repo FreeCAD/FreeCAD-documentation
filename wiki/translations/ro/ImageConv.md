@@ -1,3 +1,5 @@
+# ImageConv/ro
+
 
 
 **ImageConv** este un program folosit pentru a converti imagini din diferite formate în format XPM, care pot fi utilizate și compilate în FreeCAD.
@@ -31,4 +33,4 @@ ImageConv este un instrument tip linie de comandă.
 
 </div>
 
-[Category:Developer{{\#translation:}}](Category:Developer.md)
+[Category:Developer](Category:Developer.md)

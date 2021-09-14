@@ -7,7 +7,7 @@
    SeeAlso:[Sketcher Constrain distance](Sketcher_ConstrainDistance/ru.md), [Sketcher Constrain horizontal distance](Sketcher_ConstrainDistanceX/ru.md), [Sketcher Constrain vertical distance](Sketcher_ConstrainDistanceY/ru.md)
 ---
 
-## Description
+## Описание
 
 This constraint constrains the value of the radius of a circle or arc to have a specific value. If more than one circle or arc is selected before launching the command :
 
@@ -24,7 +24,7 @@ NB : B-spline poles can\'t be mixed with other object type in the selection
 
 ![](images/Sketcher_ConstrainRadius_example.png )
 
-## Usage
+## Применение
 
 1.  Pick one or more circles or arcs.
 2.  Press the **<img src=images/Sketcher_ConstrainRadius.svg style="width:16px"> [Constrain radius](Sketcher_ConstrainRadius.md)** button.
@@ -33,7 +33,7 @@ NB : B-spline poles can\'t be mixed with other object type in the selection
 
 **Note:** the constraint tool can also be started with no prior selection. By default the command will be in continue mode to create new constraints; press the right mouse button or **Esc** once to quit the command.
 
-## Scripting
+## Программирование
 
 
 ```pythonSketch.addConstraint(Sketcher.Constraint('Radius', ArcOrCircle, App.Units.Quantity('123.0 mm')))```

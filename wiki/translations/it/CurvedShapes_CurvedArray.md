@@ -56,4 +56,4 @@ Crea un array e ridimensiona gli elementi all\'interno di una o più curve limit
 
 
 
-[Category:Name{{\#translation:}}](Category:Name.md) [Category:External Command Reference{{\#translation:}}](Category:External_Command_Reference.md)
+[Category:Name](Category:Name.md) [Category:External Command Reference](Category:External_Command_Reference.md)

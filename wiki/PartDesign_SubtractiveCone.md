@@ -18,7 +18,7 @@ Inserts a subtractive cone in the active Body. Its shape is subtracted from the 
 ## Usage
 
 1.  Press the **<img src="images/PartDesign_SubtractiveCone.svg" width=24px> '''Subtractive Cone'''** button. **Note**: the Subtractive Cone is part of an icon menu labelled *Create a subtractive primitive*. After launching FreeCAD, the Subtractive Box is the one displayed in the toolbar. To get to the Cone button, click on the down arrow besides the visible icon and select Subtractive Cone in the menu.
-2.  Set the Primitive parameters (for a complete cone, set one of the radii to zero) and the [Attachment](Part_Attachment.md).
+2.  Set the Primitive parameters (for a complete cone, set one of the radii to zero) and the [Attachment](Part_EditAttachment.md).
 3.  Click **OK**.
 4.  A Cone feature appears under the active Body.
 
@@ -31,7 +31,7 @@ The Cone can be edited after its creation in two ways:
 
 ## Properties
 
--    **Attachment**: defines the attachment mode as well as the Attachment Offset. See [Part Attachment](Part_Attachment.md).
+-    **Attachment**: defines the attachment mode as well as the Attachment Offset. See [Part EditAttachment](Part_EditAttachment.md).
 
 -    **Label**: label given to the Cone object. Change to suit your needs.
 

@@ -1,3 +1,5 @@
+# Arch SHP
+
   FreeCAD is able to import [shapefiles](https://en.wikipedia.org/wiki/Shapefile)
 
 The importer uses the shapefile.py library from <https://github.com/GeospatialPython/pyshp>, it is not found on your system on first run, the importer will propose to download and install it for you.
@@ -18,4 +20,4 @@ Note that all the question of georeferenced units, with hundreds of projection s
 
   
 
-[Category:File Formats{{\#translation:}}](Category:File_Formats.md)
+[Category:File Formats](Category:File_Formats.md)

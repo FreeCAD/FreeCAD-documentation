@@ -1,3 +1,5 @@
+# Std Tools Menu/de
+
 
 
 
@@ -72,4 +74,4 @@ Speichert ein Bildschirmfoto der aktiven [3D Ansicht](3D_view/de.md).
 
 }}  
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

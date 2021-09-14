@@ -1,10 +1,16 @@
+# Arch DAE/es
+
 
 
 
 <div class="mw-translate-fuzzy">
 
 
-{{docnav/es|[IFC](Arch_IFC/es.md)|[OBJ](Arch_OBJ/es.md)|[Arch Module](Arch_Module/es.md)}}
+{{docnav/es
+|[IFC](Arch_IFC/es.md)
+|[OBJ](Arch_OBJ/es.md)
+|[Arch Module](Arch_Workbench/es.md)
+}}
 
 
 </div>
@@ -41,7 +47,11 @@ La funcionalidad de importación de Collada en el módulo de Arquitectura depend
 <div class="mw-translate-fuzzy">
 
 
-{{docnav/es|[IFC](Arch_IFC/es.md)|[OBJ](Arch_OBJ/es.md)|[Arch Module](Arch_Module/es.md)}}
+{{docnav/es
+|[IFC](Arch_IFC/es.md)
+|[OBJ](Arch_OBJ/es.md)
+|[Arch Module](Arch_Workbench/es.md)
+}}
 
 
 </div>
@@ -49,4 +59,4 @@ La funcionalidad de importación de Collada en el módulo de Arquitectura depend
 
  
 
-[Category:File Formats{{\#translation:}}](Category:File_Formats.md)
+[Category:File Formats](Category:File_Formats.md)

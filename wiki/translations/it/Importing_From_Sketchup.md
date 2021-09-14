@@ -1,3 +1,5 @@
+# Importing From Sketchup/it
+
  {{Fake heading|sub=4|< Torna a [[FreeCAD Howto Import Export]]}}
 
 ## Il metodo migliore 
@@ -28,4 +30,4 @@ Sia Collada (\*.dae) che STL sono formati mesh. Per utilizzare questi file all\'
 
 
 
-[Category:Common Questions{{\#translation:}}](Category:Common_Questions.md) [Category:File\_Formats{{\#translation:}}](Category:File_Formats.md)
+[Category:Common Questions](Category:Common_Questions.md) [Category:File\_Formats](Category:File_Formats.md)

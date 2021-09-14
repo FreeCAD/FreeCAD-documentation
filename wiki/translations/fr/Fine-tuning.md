@@ -1,3 +1,5 @@
+# Fine-tuning/fr
+
 
 
 
@@ -75,4 +77,4 @@ Tous les autres caractères sont traités littéralement. Si le nom de fichier r
 
 
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md)

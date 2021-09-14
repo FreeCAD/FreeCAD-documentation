@@ -1,15 +1,12 @@
 ---
 - GuiCommand:/fr
    Name:TechDraw Dimension Horizontal Extent
-   Name/fr:TechDraw Dimension extension horizontale
-   MenuLocation:TechDraw → Insérer une dimension d'extention horizontale
+   Name/fr:TechDraw Extension horizontale
+   MenuLocation:TechDraw → Dimensions → Insérer une dimension d'extention horizontale
    Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
    Version:0.19
-   SeeAlso:[TechDraw Dimension longueur](TechDraw_Dimension_Length/fr.md), [TechDraw Dimension extension verticale](TechDraw_Dimension_Vertical_Extent/fr.md)
+   SeeAlso:[TechDraw Cote de longueur](TechDraw_Dimension_Length/fr.md), [TechDraw Extension verticale](TechDraw_Dimension_Vertical_Extent/fr.md)
 ---
-
-
-</div>
 
 ## Description
 
@@ -54,13 +51,7 @@ rc = page.addView(hExtentDim)
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{TechDraw Tools navi

@@ -36,4 +36,4 @@ Le gestionnaire de vues BIM affichera tous les niveaux (éléments de constructi
 
 }}
 
-[Category:External Command Reference{{\#translation:}}](Category:External_Command_Reference.md)
+[Category:External Command Reference](Category:External_Command_Reference.md)

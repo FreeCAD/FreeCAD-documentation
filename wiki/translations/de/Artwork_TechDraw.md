@@ -1,4 +1,6 @@
-\_\_NOTOC\_\_ 
+# Artwork TechDraw/de
+
+ 
 
 Diese Symbole befinden sich im angegebenen Quellpfad.
 
@@ -31,4 +33,4 @@ Der [TechDraw-Arbeitsbereich](TechDraw_Workbench/de.md) wird mit einer Reihe von
 
 }} 
 
-[Category:TechDraw{{\#translation:}}](Category:TechDraw.md)
+[Category:TechDraw](Category:TechDraw.md)

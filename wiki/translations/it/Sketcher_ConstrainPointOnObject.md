@@ -12,9 +12,17 @@
 
 </div>
 
+## Description
+
+
+<div class="mw-translate-fuzzy">
+
 ## Descrizione
 
 Appone un punto su un altro oggetto, ad esempio, su una linea, un arco o un asse dello schizzo.
+
+
+</div>
 
 ## Utilizzo
 
@@ -33,9 +41,17 @@ Appone un punto su un altro oggetto, ad esempio, su una linea, un arco o un asse
 
 **Nota:** l\'ordine di selezione della linea e del punto non è importante. Il punto viene sempre spostato sulla linea. La linea rimane fissa.
 
+## Scripting
+
+
+<div class="mw-translate-fuzzy">
+
 ## Script
 
 Il vincolo può essere creato con una macro e dalla console Python utilizzando il seguente comando:
+
+
+</div>
 
 
 `Sketch.addConstraint(Sketcher.Constraint('PointOnObject',LineMoving,PointOfLineMoving,LineFixed))`

@@ -1,3 +1,5 @@
+# Path Preferences
+
  
 
 
@@ -40,4 +42,4 @@ There are three sections: General, Post processor, and Setup.
 
  {{Path_Tools_navi}} 
 
-[Category:Preferences{{\#translation:}}](Category:Preferences.md)
+[Category:Preferences](Category:Preferences.md)

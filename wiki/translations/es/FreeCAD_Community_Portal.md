@@ -1,3 +1,5 @@
+# FreeCAD Community Portal/es
+
 
 
 ¡Este es el lugar para poner todo tipo de cosas relacionadas con FreeCAD! ¡Si trabajas en algo relacionado con FreeCAD, por favor inclúyelo aquí!
@@ -85,4 +87,4 @@ Estos son los ambientes de trabajo, scripts, macros y complementos desarrollados
 
 
 
-[Category:Documentation{{\#translation:}}](Category:Documentation.md)
+[Category:Documentation](Category:Documentation.md)

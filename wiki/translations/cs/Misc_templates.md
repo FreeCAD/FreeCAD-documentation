@@ -1,3 +1,5 @@
+# Misc templates/cs
+
 
 
 
@@ -89,4 +91,4 @@ CompassRose\_3D [CompassRose\_3D.FCStd](http://forum.freecadweb.org/download/fil
 
 
 
-[Category:Documentation{{\#translation:}}](Category:Documentation.md) [Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Drawing{{\#translation:}}](Category:Drawing.md)
+[Category:Documentation](Category:Documentation.md) [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Drawing](Category:Drawing.md)

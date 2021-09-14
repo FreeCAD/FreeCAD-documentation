@@ -2,7 +2,7 @@
 - GuiCommand:/es
    Name:Arch IfcExplorer
    Name/es:Arquitectura IfcExplorador
-   Workbenches:[Arquitectura](Arch_Module/es.md)
+   Workbenches:[Arquitectura](Arch_Workbench/es.md)
    MenuLocation:Arch → Utilities → Ifc Explorer
    SeeAlso:[Arch IFC](Arch_IFC/es.md)
 ---
@@ -40,4 +40,4 @@ El propósito de este explorador es simplemente permitirte comprobar lo que real
 
  
 
-[Category:BIM{{\#translation:}}](Category:BIM.md)
+[Category:BIM](Category:BIM.md)

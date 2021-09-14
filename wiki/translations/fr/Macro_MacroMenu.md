@@ -1,3 +1,5 @@
+# Macro MacroMenu/fr
+
  {{Macro/fr
 |Name=Macro MacroMenu
 |Icon=Macro_MacroMenu.png

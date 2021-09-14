@@ -1,8 +1,9 @@
 ---
-- GuiCommand:
-   Name:TechDraw CosmeticEraser
-   MenuLocation:TechDraw → Remove Cosmetic Object
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
+- GuiCommand:/ru
+   Name/ru:Удалить вспомогательный объект
+   Name:TechDraw_CosmeticEraser
+   MenuLocation:TechDraw → Удалить вспомогательный объект
+   Workbenches:[TechDraw](TechDraw_Workbench/ru.md)
    Version:0.19
 ---
 
@@ -27,12 +28,12 @@ The CosmeticEraser tool removes cosmetic objects from the page. Cosmetic objects
 
 The CosmeticEraser tool has no properties, as it is no document object.
 
-## Scripting
+## Программирование
 
 
-**See also:**
+**См. так же:**
 
-[TechDraw API](TechDraw_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+[TechDraw API](TechDraw_API/ru.md) и [Основы составления скриптов FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 
 CosmeticEraser is not accessible from [macros](Macros.md) or the [Python](Python.md) console at this time.
 

@@ -2,7 +2,7 @@
 - GuiCommand:/ru
    Name:Arch Floor
    Name/ru:Arch Floor
-   Workbenches:[Arch](Arch_Module/ru.md)
+   Workbenches:[Arch](Arch_Workbench/ru.md)
    MenuLocation:Архитектура → Этаж
    Shortcut:**F** **L**
    SeeAlso:[Здание](Arch_Building/ru.md),  [Место](Arch_BuildingPart]],_[[Arch_Site/ru.md)
@@ -11,13 +11,13 @@
 
 </div>
 
-## Description
+## Описание
 
 The [Arch Floor](Arch_Floor.md) is a special type of FreeCAD group object that has a couple of additional properties particularly suited for building floors. Particularly, they have a height property, that its children objects ([walls](Arch_Wall.md) and [structures](Arch_Structure.md)) can use to set their own height automatically. They are mostly used to organize your model.
 
 As of <small>(v0.18)</small>  the Arch Floor is derived entirely from the [Arch BuildingPart](Arch_BuildingPart.md) object, which is a general container to organize a building model not limited to floors or storeys. Older Floor objects can be converted to the new type by right clicking on them and choosing `Convert to BuildingPart`.
 
-## Usage
+## Применение
 
 1.  Optionally, select one or more objects to be included in your new floor.
 2.  Invoke the Arch Floor command several ways:
@@ -25,12 +25,12 @@ As of <small>(v0.18)</small>  the Arch Floor is derived entirely from the [Arch 
     -   Using the **L** then **V** keyboard keys.
     -   Using the **Arch → Floor** entry from the top menu.
 
-## Options
+## Опции
 
 -   After creating a floor, you can add more objects to it by drag and dropping them in the Tree View or by using the **<img src="images/Arch_Add.svg" width=16px> [Arch Add](Arch_Add.md)** tool.
 -   You can remove objects from a floor by drag and dropping them out of it the Tree View or by using the **<img src="images/Arch_Remove.svg" width=16px> [Arch Remove](Arch_Remove.md)** tool.
 
-## Properties
+## Свойства
 
 An Arch Floor object shares all properties from an [Arch BuildingPart](Arch_BuildingPart.md), with the **Ifc Type** set to `"Building Storey"`.
 
@@ -48,7 +48,7 @@ Floor = makeFloor(objectslist=None, baseobj=None, name="Floor")
 
 -   Creates a `Floor` object from `objectslist`, which is a list of objects.
 
-Example:
+Пример:
 
 
 ```python
@@ -74,7 +74,7 @@ FreeCAD.ActiveDocument.recompute()
 <div class="mw-translate-fuzzy">
 
 
-{{docnav|[Rebar](Arch_Rebar.md)|[Building Part](Arch_BuildingPart.md)|[Arch](Arch_Workbench/ru.md)|IconL=Arch_Rebar.svg |IconC=Workbench_Arch.svg |IconR=Arch_BuildingPart.svg}}
+
 
 
 </div>

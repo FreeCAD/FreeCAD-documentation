@@ -1,11 +1,13 @@
 ---
 - GuiCommand:/de
    Name:Draft Text
+   Name/de:Draft Text
    MenuLocation:Entwurf → Text
-   Workbenches:[Draft](Draft_Module/de.md), [Arch](Arch_Module/de.md)
-   Shortcut:T E
+   Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
+   Shortcut:**T** **E**
    SeeAlso:[Draft Label](Draft_Label/de.md), [Draft ShapeString](Draft_ShapeString/de.md)
-   Version:0.7---
+   Version:0.7
+---
 
 
 </div>

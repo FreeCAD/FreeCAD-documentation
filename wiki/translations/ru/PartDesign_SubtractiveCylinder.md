@@ -18,7 +18,7 @@
 ## Использование
 
 1.  Press the **<img src="images/PartDesign_SubtractiveCylinder.svg" width=24px> '''Subtractive Cylinder'''** button. **Note**: the Subtractive Cylinder is part of an icon menu labelled *Create an subtractive primitive*. After launching FreeCAD, the Subtractive Box is the one displayed in the toolbar. To get to the Cylinder button, click on the down arrow besides the visible icon and select Subtractive cylinder in the menu.
-2.  Set the Primitive parameters and [Attachment](Part_Attachment.md).
+2.  Set the Primitive parameters and [Attachment](Part_EditAttachment.md).
 3.  Click **OK**.
 4.  A Cylinder feature appears under the active Body.
 
@@ -33,7 +33,7 @@ The Cylinder can be edited after its creation in two ways:
 
 ## Свойства
 
--    **Attachment**: defines the attachment mode as well as the Attachment Offset. See [Part Attachment](Part_Attachment.md).
+-    **Attachment**: defines the attachment mode as well as the Attachment Offset. See [Part EditAttachment](Part_EditAttachment.md).
 
 -    **Label**: label given to the Cylinder object. Change to suit your needs.
 

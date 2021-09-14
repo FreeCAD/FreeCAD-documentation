@@ -1,3 +1,5 @@
+# FreeCAD Community Portal/de
+
 
 
 Dies ist der Ort, an dem du alle Arten von FreeCAD-bezogenen Sachen ablegen kannst! Wenn Du an etwas arbeitest, das mit FreeCAD zu tun hat, füge es bitte hier ein!
@@ -85,4 +87,4 @@ Dies sind von der FreeCAD Gemeinschaft entwickelte Arbeitsbereiche, Skripte, Mak
 
 
 
-[Category:Documentation{{\#translation:}}](Category:Documentation.md)
+[Category:Documentation](Category:Documentation.md)

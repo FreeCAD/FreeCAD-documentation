@@ -1,3 +1,5 @@
+# Points Workbench/ru
+
 
 
 
@@ -56,4 +58,4 @@ The <img alt="" src=images/Workbench_Points.svg  style="width:24px;"> [Points Wo
 
 }} 
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

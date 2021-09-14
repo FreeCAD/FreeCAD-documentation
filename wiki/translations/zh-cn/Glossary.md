@@ -1,3 +1,5 @@
+# Glossary/zh-cn
+
 
 
 
@@ -1132,4 +1134,4 @@ Jump to letter: {{CompactTOC|center=yes}}
 
 
 
-[Category:Wiki{{\#translation:}}](Category:Wiki.md) [Category:Glossary{{\#translation:}}](Category:Glossary.md)
+[Category:Wiki](Category:Wiki.md) [Category:Glossary](Category:Glossary.md)

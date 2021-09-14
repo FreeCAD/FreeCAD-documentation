@@ -1,3 +1,5 @@
+# Arch tutorial/fr
+
 
 
 
@@ -274,7 +276,7 @@ Maintenant nous pouvons regarder les choses vraiment intéressantes : Comment co
 
 ### Création fenêtres personnalisées 
 
-Comme je l\'ai expliqué auparavant, les objets [Fenêtres](Arch_Window/fr.md) sont créés à partir de représentations 2D, en éléments fermés (polylignes, cercles, rectangles, n\'importe quoi). Puisque les objets [Draft](Draft_Module/fr.md) ne peuvent pas détenir plus d\'un de ces éléments, l\'outil préféré pour dessiner les fenêtres est l\'atelier [Sketcher](Sketcher_Workbench/fr.md). Malheureusement, avec l\'atelier Sketcher, il n\'est pas possible de s\'aimanter à des objets externes comme avec l\'atelier Draft, ce qui serait utile ici, puisque nos élévations sont déjà établies. Heureusement, il existe un outil pour convertir les objets Draft en esquisses : L\'outil [Draft vers esquisse](Draft_Draft2Sketch/fr.md).
+Comme je l\'ai expliqué auparavant, les objets [Fenêtres](Arch_Window/fr.md) sont créés à partir de représentations 2D, en éléments fermés (polylignes, cercles, rectangles, n\'importe quoi). Puisque les objets [Draft](Draft_Workbench/fr.md) ne peuvent pas détenir plus d\'un de ces éléments, l\'outil préféré pour dessiner les fenêtres est l\'atelier [Sketcher](Sketcher_Workbench/fr.md). Malheureusement, avec l\'atelier Sketcher, il n\'est pas possible de s\'aimanter à des objets externes comme avec l\'atelier Draft, ce qui serait utile ici, puisque nos élévations sont déjà établies. Heureusement, il existe un outil pour convertir les objets Draft en esquisses : L\'outil [Draft vers esquisse](Draft_Draft2Sketch/fr.md).
 
 Alors, commençons par construire notre première disposition de fenêtre. Je l\'ai dessinée sur la façade, en utilisant plusieurs [rectangles](Draft_Rectangle/fr.md) : Un pour la ligne extérieure, et 4 pour les lignes intérieures. Je me suis arrêté avant la porte, parce que, rappelez-vous, notre porte a déjà un cadre là :
 

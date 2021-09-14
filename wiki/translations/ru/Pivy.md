@@ -1,3 +1,5 @@
+# Pivy/ru
+
 
 
 
@@ -8,7 +10,7 @@
 
 <div class="mw-translate-fuzzy">
 
-[Pivy](Pivy/ru.md) - это библиотека привязок [Python](Python/ru.md) для [Coin3D](https://github.com/coin3d), библиотеки 3D-рендеринга, используемой в FreeCAD для отображения вещей в [трёхмерный вид](3D_view/ru.md). При импорте в работающий интерпретатор Python Pivy позволяет напрямую взаимодействовать с любым работающим [графом сцен](Scenegraph/ru.md) Coin, таким, как [трёхмерный вид](3D_view/ru.md) FreeCAD, или даже создавать новые. Pivy не требуется для компиляции FreeCAD, но требуется во время выполнения при запуске основанных на Python верстаков, которые создают фигуры на экране, такие как [Draft](Draft_Module/ru.md) и [Arch](Arch_Module/ru.md). Из-за этого Pivy обычно устанавливается при установке дистрибутива FreeCAD.
+[Pivy](Pivy/ru.md) - это библиотека привязок [Python](Python/ru.md) для [Coin3D](https://github.com/coin3d), библиотеки 3D-рендеринга, используемой в FreeCAD для отображения вещей в [трёхмерный вид](3D_view/ru.md). При импорте в работающий интерпретатор Python Pivy позволяет напрямую взаимодействовать с любым работающим [графом сцен](Scenegraph/ru.md) Coin, таким, как [трёхмерный вид](3D_view/ru.md) FreeCAD, или даже создавать новые. Pivy не требуется для компиляции FreeCAD, но требуется во время выполнения при запуске основанных на Python верстаков, которые создают фигуры на экране, такие как [Draft](Draft_Workbench/ru.md) и [Arch](Arch_Workbench/ru.md). Из-за этого Pivy обычно устанавливается при установке дистрибутива FreeCAD.
 
 
 </div>
@@ -172,4 +174,4 @@ These links provide reference documentation for Coin v3.x. The differences with 
 
 }} 
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Python Code{{\#translation:}}](Category:Python_Code.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)

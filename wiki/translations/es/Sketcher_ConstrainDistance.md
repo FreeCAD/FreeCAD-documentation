@@ -11,9 +11,17 @@
 
 </div>
 
+## Description
+
+
+<div class="mw-translate-fuzzy">
+
 ## Descripción
 
 La Restricción de Distancia restringe la longitud de una línea, la distancia perpendicular entre un punto y una línea o la distancia entre dos puntos a un valor específico.
+
+
+</div>
 
 ![](images/Sketcher_ConstrainDistance_example.png )
 
@@ -50,10 +58,14 @@ Distance between two vertices:
 
 ```pythonSketch.addConstraint(Sketcher.Constraint('Distance', Edge1, PointOfEdge1, Edge2, PointOfEdge2, App.Units.Quantity('123.0 mm')))```
 
-Length of line (the GUI allows selecting the edge itself, but it is just a shorthand for using the two extremities of the same line: 
+Length of line (the GUI allows selecting the edge itself, but it is just a shorthand for using the two extremities of the same line):
+
+
 ```pythonSketch.addConstraint(Sketcher.Constraint('Distance', Line, 1, Line, 2, App.Units.Quantity('123.0 mm')))```
 
-Distance from point (`Edge, PointOfEdge`) to nearest point on line (`Line`): 
+Distance from point (`Edge, PointOfEdge`) to nearest point on line (`Line`):
+
+
 ```pythonSketch.addConstraint(Sketcher.Constraint('Distance', Edge, PointOfEdge, Line, App.Units.Quantity('123.0 mm')))```
 
 The [Sketcher scripting](Sketcher_scripting.md) page explains the values which can be used for `Edge1`, `Edge2`, `Edge`, ` PointOfEdge1`, ` PointOfEdge2`, `PointOfEdge` and `Line`, and contains further examples on how to create constraints from Python scripts.
@@ -64,4 +76,4 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 {{Sketcher Tools navi
 
-}}  
+}} 

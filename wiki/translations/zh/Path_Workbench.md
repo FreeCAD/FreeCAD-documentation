@@ -1,3 +1,5 @@
+# Path Workbench/zh
+
 
 
 
@@ -476,4 +478,4 @@ Manage tools, bits, and the Tool Library. Based on the ToolBit architecture. <sm
 
 }} 
 
-[类别:用户文档](Category:User_Documentation/zh.md) [Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[类别:用户文档](Category:User_Documentation/zh.md) [Category:Workbenches](Category:Workbenches.md)

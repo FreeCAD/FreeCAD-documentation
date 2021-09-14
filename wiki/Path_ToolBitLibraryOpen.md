@@ -25,9 +25,9 @@ From here the user can perform all task related to toolbit management :
 -   Save a library to a new name
 -   Export a library to the LinuxCNC tooltable (.tbl) format
 
-Only the creation of new toolshapes cannot be done from the toolbit library manager. This is an advanced topic. (see toolshape creation)
+Only the creation of new toolshapes cannot be done from the toolbit library manager. This is an advanced topic. (see [Path ToolShape](Path_ToolShape.md) creation).
 
-The left pane (1) shows a list of all libraries in the current working directory. The current library is highlighted
+The left pane (1) shows a list of all libraries in the current working directory. The current library is highlighted.
 
 The current working directory path is shown in the window title bar (2). A file selector (3) can be used to select a different working directory.
 
@@ -47,18 +47,18 @@ The close button (7) at bottom right will dismiss the tool library manager. Any 
 
 1.  There are several ways to open the Toolbit Library Manager:
     -   Select the **Path → <img src="images/Path_ToolBitLibraryOpen.svg" width=16px> ToolBit Library editor** option from the menu.
-    -   Open the Toolbit dock as described above and press the **<img src="images/Path_ToolBitLibraryOpen.svg" width=16px>** button to open the Library manager
-2.  Select a library from the list
-3.  Create/Add/Remove toolbits from the library
-4.  Double-click a row to edit the toolbit
-5.  Close the manager
-6.  The selected library will become the default library for the dock
+    -   Open the Toolbit dock as described above and press the **<img src="images/Path_ToolBitLibraryOpen.svg" width=16px>** button to open the Library manager.
+2.  Select a library from the list.
+3.  Create/Add/Remove toolbits from the library.
+4.  Double-click a row to edit the toolbit.
+5.  Close the manager.
+6.  The selected library will become the default library for the dock.
 
 ## Editing Toolbits 
 
 There are several ways to edit the toolbits and library:
 
-A. By clicking the column headers of the library you can sort the toolbit library. The library will retain the sort and use it in the dock
+A. By clicking the column headers of the library you can sort the toolbit library. The library will retain the sort and use it in the dock.
 
 :   ![](images/Librarysort.png )
 :   
@@ -72,7 +72,7 @@ B. By doubleclicking in the first column you can edit the toolbit number. This w
     *Double click first column to edit toolbit number*
     
 
-C. Double clicking anywhere else in the row will open the toolbit editing panel. From here you can edit other properties of the toolbit
+C. Double clicking anywhere else in the row will open the toolbit editing panel. From here you can edit other properties of the toolbit.
 
 :   ![](images/Editingpanel.png )
 

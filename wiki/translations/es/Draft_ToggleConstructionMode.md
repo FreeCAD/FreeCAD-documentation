@@ -1,5 +1,11 @@
 ---
-- GuiCommand:/es   Name:Draft ToggleConstructionMode   Workbenches:[Arquitectura](Draft_Module/es___Boceto]],_[[Arch_Module/es.md)|MenuLocation:Boceto → Utilidades → Alternar modo de construcción---
+- GuiCommand:/es
+   Name:Draft ToggleConstructionMode
+   Name/es:Draft ToggleConstructionMode
+   MenuLocation:Boceto → Utilidades → Alternar modo de construcción
+   Workbenches:[Boceto](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
+   Shortcut:**C** **M**
+---
 
 
 </div>

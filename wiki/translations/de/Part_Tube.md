@@ -8,9 +8,6 @@
    SeeAlso:[Part ErstelleGrundkörper](Part_CreatePrimitives/de.md)
 ---
 
-
-</div>
-
 ## Beschreibung
 
 Der Befehl Rohr fügt ein Rohr in das aktive Dokument ein. Das Rohr wird geometrisch als ein Schnitt eines kleineren Zylinders in einen größeren behandelt. Standardmäßig fügt der Befehl ein 10 mm hohes Rohr mit einem Außenradius von 5 mm und einem Innenradius von 2 mm ein. Diese Parameter können geändert werden, nachdem das Objekt hinzugefügt wurde.
@@ -41,13 +38,7 @@ Um das Rohr zu bearbeiten
     -   **Beschriftung:** Die Beschriftung ist der Name, der der Operation gegeben wird. Dieser Name kann nach Belieben geändert werden.
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
  

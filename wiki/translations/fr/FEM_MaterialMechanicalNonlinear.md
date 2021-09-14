@@ -17,7 +17,7 @@ Ajoute un modèle de matériau mécanique non linéaire. Actuellement, seule la 
     -   Ajoutez d\'abord le **<img src="images/Fem-add-material.svg" width=16px> [Materiau pour solide](FEM_MaterialSolid/fr.md)** et sélectionnez-le.
     -   Cliquez sur le bouton **<img src="images/FEM_MaterialMechanicalNonlinear.svg" width=16px> [FEM Matériau mécanique non linéaire](FEM_MaterialMechanicalNonlinear/fr.md)** ou choisissez l\'option **Model → Materials → <img src="images/FEM_MaterialMechanicalNonlinear.svg" width=16px> Matériau mécanique non linéaire** dans le menu.
 2.  Pour modifier un objet Matériau Fluide existant :
-    -   Cliquez dessus dans l\'arborescence [Vue en arborescence](Tree_view/fr.md).
+    -   Cliquez dessus dans la [Vue en arborescence](Tree_view/fr.md).
     -   Sélectionnez le modèle de matériau (actuellement, seul le durcissement simple est disponible).
     -   Définissez les limites d\'élasticité (contrainte vs déformation plastique). Le premier point doit avoir une déformation plastique nulle spécifiée. Actuellement, seuls 3 points d\'écoulement peuvent être définis.
 

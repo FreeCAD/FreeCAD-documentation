@@ -1,12 +1,8 @@
+# Release notes 0.14/fr
 
 
 
-<div class="mw-translate-fuzzy">
-
-FreeCAD 0.14 a été publié le 1er juillet 2014. Ceci est un résumé des changements les plus intéressants survenus dans FreeCAD depuis la dernière version. Voir [sur Mantis (en anglais)](http://www.freecadweb.org/tracker/changelog_page.php) pour la liste complète des changements. Versions plus anciennes : [0.13](Release_notes_013/fr.md) - [0.12](Release_notes_012/fr.md) - [0.11](Release_notes_011/fr.md)
-
-
-</div>
+FreeCAD 0.14 a été publié le 1er juillet 2014. Ceci est un résumé des changements les plus intéressants survenus dans FreeCAD depuis la dernière version. Voir [sur Mantis (en anglais)](http://www.freecadweb.org/tracker/changelog_page.php) pour la liste complète des changements. Versions plus anciennes : [0.13](Release_notes_0.13/fr.md) - [0.12](Release_notes_0.12/fr.md) - [0.11](Release_notes_0.11/fr.md)
 
 <img alt="" src=images/Freecad_jeep.png  style="width:1024px;">
 
@@ -86,41 +82,23 @@ L\'[atelier Part](Part_Workbench/fr.md) comprend maintenant un outil [Créer un 
 
 ### Primitives
 
-De nouvelles formes primitives ont été ajoutées à l\'outil [Création de primitives](Part_CreatePrimitives/fr.md) : des prismes, polygones réguliers et des spirales peuvent maintenant être créées facilement en saisissant quelques paramètres. En outre, plusieurs outils de l\'[atelier Draft](Draft_Module/fr.md) tirent parti de cette fonctionnalité et peuvent créer ces formes primitives en lieu et place des objets Draft correspondants, quand l\'option appropriée est sélectionnée dans les paramètres généraux de Draft.
+De nouvelles formes primitives ont été ajoutées à l\'outil [Création de primitives](Part_CreatePrimitives/fr.md) : des prismes, polygones réguliers et des spirales peuvent maintenant être créées facilement en saisissant quelques paramètres. En outre, plusieurs outils de l\'[atelier Draft](Draft_Workbench/fr.md) tirent parti de cette fonctionnalité et peuvent créer ces formes primitives en lieu et place des objets Draft correspondants, quand l\'option appropriée est sélectionnée dans les paramètres généraux de Draft.
 
 ![](images/Part_Create_Primitives1.jpeg )
 
 ### Outils de mesure 
 
-
-<div class="mw-translate-fuzzy">
-
 Un nouveau jeu d\'outils a été ajouté à l\'[atelier Part](Part_Workbench/fr.md). Vous pouvez sélectionner deux éléments (sommets, arêtes ou faces) pour afficher leur distance absolue et le long des axes X et Y.
-
-
-</div>
 
 ## Part Design & Sketcher 
 
 ### Validateur d\'esquisse 
 
-
-<div class="mw-translate-fuzzy">
-
 L\'atelier [Sketcher](Sketcher_Workbench/fr.md) offre un nouvel outil [Valider l\'esquisse](Sketcher_ValidateSketch/fr.md) pour vous aider à valider une esquisse en trouvant les contraintes manquantes ou redondantes. Il peut également ajouter automatiquement certaines contraintes manquantes, afin de rendre votre esquisse entièrement contrainte.
-
-
-</div>
 
 ### Générateur d\'engrenage 
 
-
-<div class="mw-translate-fuzzy">
-
 Un [générateur d\'engrenage à profil en développante de cercle](PartDesign_InvoluteGear/fr.md) a été ajouté à l\'[atelier PartDesign](PartDesign_Workbench/fr.md) pour créer rapidement des engrenages à partir de quelques paramètres.
-
-
-</div>
 
 ## Drawing (Mise en plan) 
 
@@ -132,7 +110,7 @@ L\'atelier Drawing (mise en plan) continue d\'être amélioré avec d\'excitante
 
 ### Symboles
 
-Un nouvel outil [symbole](Drawing_Symbol/fr.md) est maintenant disponible dans l\'atelier [Drawing (mise en plan)](Drawing_Module/fr.md), permettant de placer des objets SVG sur la feuille. Ces objets sont stockées dans le document FreeCAD, vous n\'avez donc pas à expédier le fichier SVG original si vous distribuez vos documents.
+Un nouvel outil [symbole](Drawing_Symbol/fr.md) est maintenant disponible dans l\'atelier [Drawing (mise en plan)](Drawing_Workbench/fr.md), permettant de placer des objets SVG sur la feuille. Ces objets sont stockées dans le document FreeCAD, vous n\'avez donc pas à expédier le fichier SVG original si vous distribuez vos documents.
 
 ## Lancer de rayons 
 
@@ -140,33 +118,15 @@ Un nouvel outil [symbole](Drawing_Symbol/fr.md) est maintenant disponible dans l
 
 <img alt="" src=images/Raytracing_example.jpg  style="width:1024px;">
 
+L\'atelier de [Raytracing (lancer de rayon)](Raytracing_Workbench/fr.md) a aussi reçu un peu d\'amour, et sa barre d\'outils a été retravaillée. Les anciens boutons qui produisaient manuellement des fichiers povray fragmentaires ont été enlevés (mais leurs outils correspondants se trouvent toujours dans le menu Lancer de rayon), et vous pouvez maintenant produire des rendus à peu près de la même façon que vous utilisez l\'atelier [Drawing](Drawing_Workbench/fr.md) : vous créez un nouveau projet, lui assignez un modèle, puis le remplissez avec des vues de vos objets. Quand vous avez terminé, cliquez simplement sur le bouton « Rendre » ou exportez le projet dans un fichier prêt à rendre dans une autre application.
 
-<div class="mw-translate-fuzzy">
-
-L\'atelier de [Raytracing (lancer de rayon)](Raytracing_workbench/fr.md) a aussi reçu un peu d\'amour, et sa barre d\'outils a été retravaillée. Les anciens boutons qui produisaient manuellement des fichiers povray fragmentaires ont été enlevés (mais leurs outils correspondants se trouvent toujours dans le menu Lancer de rayon), et vous pouvez maintenant produire des rendus à peu près de la même façon que vous utilisez l\'atelier [Drawing](Drawing_workbench/fr.md) : vous créez un nouveau projet, lui assignez un modèle, puis le remplissez avec des vues de vos objets. Quand vous avez terminé, cliquez simplement sur le bouton « Rendre » ou exportez le projet dans un fichier prêt à rendre dans une autre application.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Le système de[modèles Raytracing](Raytracing_workbench/fr#Modèles.md) a aussi été étendu, et les modèles sont maintenant plus facile à créer et manipuler.
-
-
-</div>
+Le système de[modèles Raytracing](Raytracing_Workbench/fr#Modèles.md) a aussi été étendu, et les modèles sont maintenant plus facile à créer et manipuler.
 
 Les scripts .pov produits par FreeCAD contiennent maintenant un ratio d\'aspect automatique. L\'utilisateur n\'a plus besoin de maintenir un ratio de 4:3 dans les réglages Raytracing ou d\'éditer manuellement la sortie pour modifier le ratio en vue d\'obtenir un rendu approprié. N\'importe quelles largeur et hauteur peuvent maintenant être saisies sans crainte que les objets rendus soient compressés ou étirés.
 
 ### Support de LuxRender 
 
-
-<div class="mw-translate-fuzzy">
-
-En même temps que le support pour [POV-Ray](http://fr.wikipedia.org/wiki/Pov-ray), l\'[atelier Raytracing workbench](Raytracing_workbench/fr.md) supporte maintenant aussi [LuxRender](http://fr.wikipedia.org/wiki/LuxRender). Alors que POV-Ray est un [moteur de lancer de rayon classique](http://fr.wikipedia.org/wiki/Lancer_de_rayon) qui lance des rayons depuis la caméra afin de trouver la couleur de chaque pixel d\'une image, LuxRender est un [moteur de rendu non biaisé](http://en.wikipedia.org/wiki/Unbiased_rendering). Les scènes prennent beaucoup plus de temps à rendre, mais produisent un éclairage bien plus réaliste.
-
-
-</div>
+En même temps que le support pour [POV-Ray](http://fr.wikipedia.org/wiki/Pov-ray), l\'[atelier Raytracing](Raytracing_Workbench/fr.md) supporte maintenant aussi [LuxRender](http://fr.wikipedia.org/wiki/LuxRender). Alors que POV-Ray est un [moteur de lancer de rayon classique](http://fr.wikipedia.org/wiki/Lancer_de_rayon) qui lance des rayons depuis la caméra afin de trouver la couleur de chaque pixel d\'une image, LuxRender est un [moteur de rendu non biaisé](http://en.wikipedia.org/wiki/Unbiased_rendering). Les scènes prennent beaucoup plus de temps à rendre, mais produisent un éclairage bien plus réaliste.
 
 ## Tableur
 
@@ -182,35 +142,17 @@ FreeCAD est maintenant capable d\'importer et d\'exporter le [format DWG](https:
 
 ### Draft vers Plan fonctionne avec les groupes 
 
-
-<div class="mw-translate-fuzzy">
-
-L\'outil [Draft vers Mise en plan](Draft_Drawing.md), qui sert à placer des objets de type Draft sur une [Mise en plan](Drawing_Module/fr.md), peut maintenant être appliqué sur des groupes, permettant de créer moins d\'objets Vue sur une mise en plan. Avec une gestion intelligente des groupes d\'objets Draft, vous avez une façon simple de contrôler l\'apparence de plusieurs objets sur votre page.
-
-
-</div>
+L\'outil [Draft vers Mise en plan](Draft_Drawing/fr.md), qui sert à placer des objets de type Draft sur une [Mise en plan](Drawing_Workbench/fr.md), peut maintenant être appliqué sur des groupes, permettant de créer moins d\'objets Vue sur une mise en plan. Avec une gestion intelligente des groupes d\'objets Draft, vous avez une façon simple de contrôler l\'apparence de plusieurs objets sur votre page.
 
 ### Cotations recodées 
 
-
-<div class="mw-translate-fuzzy">
-
-L\'outil [Cote](Draft_Dimension/fr.md) a été complètement recodé: les cotes se comportent maintenant beaucoup mieux et elles ont gagné quelques nouvelles propriétés permettant de mieux les affiner, comme de plus belles flèches à taille variable, plus de contrôle sur la position du texte et la direction de la cote, et surtout un meilleur support de l\'atelier [Drawing (mise en plan)](Drawing_Module/fr.md). Vous pouvez maintenant placer des cotes sur n\'importe quel plan dans l\'espace 3D, et vous attendre à des résultats corrects quand vous les projetez sur une feuille de mise en plan avec l\'outil [Dessin](Draft_Drawing/fr.md).
-
-
-</div>
+L\'outil [Cote](Draft_Dimension/fr.md) a été complètement recodé: les cotes se comportent maintenant beaucoup mieux et elles ont gagné quelques nouvelles propriétés permettant de mieux les affiner, comme de plus belles flèches à taille variable, plus de contrôle sur la position du texte et la direction de la cote, et surtout un meilleur support de l\'atelier [Drawing (mise en plan)](Drawing_Workbench/fr.md). Vous pouvez maintenant placer des cotes sur n\'importe quel plan dans l\'espace 3D, et vous attendre à des résultats corrects quand vous les projetez sur une feuille de mise en plan avec l\'outil [Dessin](Draft_Drawing/fr.md).
 
 <img alt="" src=images/Draft_dimensions_recode.jpg  style="width:1024px;">
 
 ### Hachures
 
-
-<div class="mw-translate-fuzzy">
-
-L\'[atelier Draft](Draft_Module/fr.md) propose aussi un nouveau « jouet » : les hachures. Sur des objets Draft spécifiques (ceux qui forment un profil fermé comme les polylignes fermées, les rectangles, les polygones réguliers et les cercles), il est maintenant possible d\'appliquer des hachures. À l\'heure actuelle, seulement quelques motifs de hachure par défaut sont disponibles, mais puisque ces motifs sont très facile à créer (il s\'agit de simples fichiers SVG) et que des motifs personnalisés peuvent déjà être ajouté par l\'utilisateur, la collection de base pourraît croître rapidement. Les objets Draft contenant un motif sont aussi pleinement supportés par l\'atelier [Drawing (mise en plan)](Drawing_Module/fr.md).
-
-
-</div>
+L\'[atelier Draft](Draft_Workbench/fr.md) propose aussi un nouveau « jouet » : les hachures. Sur des objets Draft spécifiques (ceux qui forment un profil fermé comme les polylignes fermées, les rectangles, les polygones réguliers et les cercles), il est maintenant possible d\'appliquer des hachures. À l\'heure actuelle, seulement quelques motifs de hachure par défaut sont disponibles, mais puisque ces motifs sont très facile à créer (il s\'agit de simples fichiers SVG) et que des motifs personnalisés peuvent déjà être ajouté par l\'utilisateur, la collection de base pourraît croître rapidement. Les objets Draft contenant un motif sont aussi pleinement supportés par l\'atelier [Drawing (mise en plan)](Drawing_Workbench/fr.md).
 
 <img alt="" src=images/Draft_hatches.jpg  style="width:1024px;">
 
@@ -220,7 +162,7 @@ Le support des [ellipses](Draft_Ellipse/fr.md) a été ajouté, l\'atelier Draft
 
 ### Chanfrein
 
-De la même façon que les congés qui sont apparus dans la [version 013](Release_notes_013/fr.md), les rectangles, les filaires et les polygones ont gagné une propriété chanfrein qui chanfreine leurs sommets. Le chanfrein est appliqué avec le congé, et les deux propriétés peuvent être utilisées simultanément, vous permettant de convertir un filaire simple en un objet complexe fait de plusieurs sections.
+De la même façon que les congés qui sont apparus dans la [version 013](Release_notes_0.13/fr.md), les rectangles, les filaires et les polygones ont gagné une propriété chanfrein qui chanfreine leurs sommets. Le chanfrein est appliqué avec le congé, et les deux propriétés peuvent être utilisées simultanément, vous permettant de convertir un filaire simple en un objet complexe fait de plusieurs sections.
 
 ### Outils Mise à niveau et Rétrograder recodés 
 
@@ -228,13 +170,7 @@ Les outils [Mise à niveau](Draft_Upgrade/fr.md) et [Rétrograder](Draft_Downgra
 
 ### Copie de face 
 
-
-<div class="mw-translate-fuzzy">
-
-Le nouvel outil [Facebinder](Draft_Facebinder/fr.md) effectue une opération très simple mais potentiellement très utile : il assemble un groupe de faces sélectionnées depuis différents objets, et créé un nouvel objet à partir de ces faces. Le nouvel objet conserve des liens avec les objets initiaux, donc tout changement de ceux-ci se reflète sur l\'objet Facebinder. Ceci devrait s\'avérer utile surtout pour les objets [architecturaux](Arch_Module/fr.md), en construisant de nouveaux objets à partir des faces de plusieurs autres objets.
-
-
-</div>
+Le nouvel outil [Facebinder](Draft_Facebinder/fr.md) effectue une opération très simple mais potentiellement très utile : il assemble un groupe de faces sélectionnées depuis différents objets, et créé un nouvel objet à partir de ces faces. Le nouvel objet conserve des liens avec les objets initiaux, donc tout changement de ceux-ci se reflète sur l\'objet Facebinder. Ceci devrait s\'avérer utile surtout pour les objets [architecturaux](Arch_Workbench/fr.md), en construisant de nouveaux objets à partir des faces de plusieurs autres objets.
 
 ### Texte surfacique 
 
@@ -242,13 +178,7 @@ L\'outil [Draft ShapeString](Draft_ShapeString/fr.md) créé des objets planaire
 
 ### Courbes de Bézier 
 
-
-<div class="mw-translate-fuzzy">
-
 Un nouveau type de courbe accompagne désormais les [arcs de cercle](Draft_Arc/fr.md) et les [courbes BSpline](Draft_BSpline/fr.md) : les [courbes de Bézier](Draft_BezCurve/fr.md). Elles peuvent être créées en cliquant des points de la même manière que les autres objets Draft, mais vous pouvez ensuite les [éditer](Draft_Edit/fr.md) et modifier leurs points de contrôle, obtenant ainsi un contrôle très précis sur la forme de la courbe.
-
-
-</div>
 
 ## Architecture
 
@@ -296,16 +226,10 @@ Un nouveau [tutoriel](Arch_tutorial.md) de 35 pages décrit l\'atelier Arch dans
 
 ### Import/export du format IFC 
 
-
-<div class="mw-translate-fuzzy">
-
-Beaucoup de travail a été accompli à la fois sur FreeCAD et [IfcOpenShell](http://www.ifcopenshell.org), qui est le logiciel gérant les fichiers IFC sous le module Arch. L\'utilisation d\'une [version de développement](http://github.com/aothms/IfcOpenShell) de IfcOpenShell, en plus de permettre un gain de performance spectaculaire lors de l\'importation de fichiers IFC de taille moyenne (enciron 50 Mo), permet également à FreeCAD d\'exporter des modèles au format IFC. Cette fonctionnalité, bien que toujours aux premiers stades de développement, peut déjà exporter des fichiers lisibles sans erreurs par les applications majeures supportant ce format.
-
-
-</div>
+Beaucoup de travail a été accompli à la fois sur FreeCAD et [IfcOpenShell](http://www.ifcopenshell.org), qui est le logiciel gérant les fichiers IFC sous l\'atelier Arch. L\'utilisation d\'une [version de développement](http://github.com/aothms/IfcOpenShell) de IfcOpenShell, en plus de permettre un gain de performance spectaculaire lors de l\'importation de fichiers IFC de taille moyenne (enciron 50 Mo), permet également à FreeCAD d\'exporter des modèles au format IFC. Cette fonctionnalité, bien que toujours aux premiers stades de développement, peut déjà exporter des fichiers lisibles sans erreurs par les applications majeures supportant ce format.
 
 ## Liste complète 
 
 La liste complète des corrections de bogues et des nouvelles fonctionnalités peut être consultée sur <http://freecadweb.org/tracker/changelog_page.php>
 
-[Category:News{{\#translation:}}](Category:News.md) [Category:Documentation{{\#translation:}}](Category:Documentation.md) [Category:Releases{{\#translation:}}](Category:Releases.md)
+[Category:News](Category:News.md) [Category:Documentation](Category:Documentation.md) [Category:Releases](Category:Releases.md)

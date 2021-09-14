@@ -1,3 +1,5 @@
+# Assembly/fr
+
 
 
 ## Introduction
@@ -51,4 +53,4 @@ Les ateliers d\'assemblage poursuivent leur développement et il est prévu qu\'
 
 }} {{Document objects navi}} 
 
-[Category:Glossary{{\#translation:}}](Category:Glossary.md)
+[Category:Glossary](Category:Glossary.md)

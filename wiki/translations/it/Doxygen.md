@@ -1,3 +1,5 @@
+# Doxygen/it
+
 
 
 ## Introduzione
@@ -897,4 +899,4 @@ See this answer in [Stackoverflow](https://stackoverflow.com/a/35377654) for oth
 -   [Source documentation](Source_documentation.md)
 -   [FreeCAD API website](https://www.freecadweb.org/api/)
 
-[Category:Developer\_Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Developer{{\#translation:}}](Category:Developer.md) [Category:3rd Party{{\#translation:}}](Category:3rd_Party.md)
+[Category:Developer\_Documentation](Category:Developer_Documentation.md) [Category:Developer](Category:Developer.md) [Category:3rd Party](Category:3rd_Party.md)

@@ -1,3 +1,5 @@
+# Mesh Scripting/pl
+
 
 
 
@@ -42,9 +44,7 @@ meshObject = Mesh.Mesh(triangles)
 Mesh.show(meshObject)
 ```
 
-Jądro Mesh zapewnia utworzenie topologicznie poprawnej struktury danych, poprzez sortowanie zbieżnych punktów i krawędzi.
-
-[na początek strony](#top.md)
+Jądro Mesh zapewnia utworzenie topologicznie poprawnej struktury danych, poprzez sortowanie zbieżnych punktów i krawędzi. {{Top}}
 
 ## Modelowanie
 
@@ -90,19 +90,13 @@ obj.Mesh = pipe
 doc.recompute()
 ```
 
-[na początek strony](#top.md)
+
+{{Top}}
 
 ## Uwagi
 
 Rozległym *(choć trudnym w użyciu)* źródłem skryptów związanych z siatkami są skrypty do testów jednostkowych Środowiska pracy `Mesh`. Podczas tych testów jednostkowych wywoływane są dosłownie wszystkie metody i wszystkie właściwości/atrybuty są udoskonalane. Więc jeśli jesteś wystarczająco odważny, spójrz na [Moduł testowy jednostek](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Mesh/App/MeshTestsApp.py).
 
-Zobacz również: [API dla Mesh](Mesh_API.md)
+Zobacz również: [API dla Mesh](Mesh_API.md) {{Top}} {{Powerdocnavi}} {{Mesh Tools navi}} 
 
-[na początek strony](#top.md)
-
-
-{{Powerdocnavi
-
-}} {{Mesh Tools navi}} 
-
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Python Code{{\#translation:}}](Category:Python_Code.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)

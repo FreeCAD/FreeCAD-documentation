@@ -1,3 +1,5 @@
+# Arch tutorial/es
+
 
 
 
@@ -23,7 +25,7 @@
 
 <div class="mw-translate-fuzzy">
 
-El objetivo de este tutorial es ofrecer los aspectos básicos del [Módulo de arquitectura](Arch_Module/es.md). Trataré de hacerlo lo más simple posible para que resulte útil a aquellos que no tengan experiencia previa con FreeCAD pero sí posean cierta experiencia con programas de 3D o [aplicaciones BIM](http://es.wikipedia.org/wiki/BIM). En cualquier caso, hay que estar preparados para buscar más información acerca de cómo funciona FreeCAD en la [Wiki de documentación de FreeCAD](Main_Page/es.md). Para quienes no posean experiencia previa en Freecad la página [Getting started/es](Getting_started/es.md) es esencial, así como también puede ser interesante visitar la sección de [ tutoriales](tutorials.md) y los tutoriales publicados en: [esta página de youtube](http://www.youtube.com/results?search_query=freecad)
+El objetivo de este tutorial es ofrecer los aspectos básicos del [Módulo de arquitectura](Arch_Workbench/es.md). Trataré de hacerlo lo más simple posible para que resulte útil a aquellos que no tengan experiencia previa con FreeCAD pero sí posean cierta experiencia con programas de 3D o [aplicaciones BIM](http://es.wikipedia.org/wiki/BIM). En cualquier caso, hay que estar preparados para buscar más información acerca de cómo funciona FreeCAD en la [Wiki de documentación de FreeCAD](Main_Page/es.md). Para quienes no posean experiencia previa en Freecad la página [Getting started/es](Getting_started/es.md) es esencial, así como también puede ser interesante visitar la sección de [ tutoriales](tutorials.md) y los tutoriales publicados en: [esta página de youtube](http://www.youtube.com/results?search_query=freecad)
 
 
 </div>
@@ -31,7 +33,7 @@ El objetivo de este tutorial es ofrecer los aspectos básicos del [Módulo de ar
 
 <div class="mw-translate-fuzzy">
 
-El objetivo del [Módulo de arquitectura](Arch_Module/es.md) es ofrecer un flujo de trabajo completo de BIM dentro de FreeCAD. Dado que todavía está en desarrollo, no es de esperar que tenga las mismas herramientas y nivel de acabado que alternativas comerciales maduras como [Revit](http://es.wikipedia.org/wiki/Revit) o [ArchiCAD](http://es.wikipedia.org/wiki/Archicad), sin embargo dado el mayor alcance de FreeCAD respecto a estas aplicaciones, el [Módulo de arquitectura](Arch_Module/es.md) se beneficia enormemente de las otras disciplinas a las que se orienta FreeCAD y a la vez ofrece características que son raras de ver en aplicaciones BIM tradicionales.
+El objetivo del [Módulo de arquitectura](Arch_Workbench/es.md) es ofrecer un flujo de trabajo completo de BIM dentro de FreeCAD. Dado que todavía está en desarrollo, no es de esperar que tenga las mismas herramientas y nivel de acabado que alternativas comerciales maduras como [Revit](http://es.wikipedia.org/wiki/Revit) o [ArchiCAD](http://es.wikipedia.org/wiki/Archicad), sin embargo dado el mayor alcance de FreeCAD respecto a estas aplicaciones, el [Módulo de arquitectura](Arch_Workbench/es.md) se beneficia enormemente de las otras disciplinas a las que se orienta FreeCAD y a la vez ofrece características que son raras de ver en aplicaciones BIM tradicionales.
 
 
 </div>
@@ -39,7 +41,7 @@ El objetivo del [Módulo de arquitectura](Arch_Module/es.md) es ofrecer un flujo
 
 <div class="mw-translate-fuzzy">
 
-Estos son unos ejemplos de características del [Módulo de arquitectura](Arch_Module/es.md) que difícilmente pueden encontrarse en otras aplicaciones BIM:
+Estos son unos ejemplos de características del [Módulo de arquitectura](Arch_Workbench/es.md) que difícilmente pueden encontrarse en otras aplicaciones BIM:
 
 
 </div>
@@ -51,7 +53,7 @@ Estos son unos ejemplos de características del [Módulo de arquitectura](Arch_M
 
 <div class="mw-translate-fuzzy">
 
--   Toda la potencia de FreeCAD en tus dedos. Puede diseñarse cualquier objeto arquitectónico con cualquier herramienta de FreeCAD, como el [PartDesign Workbench/es](PartDesign_Workbench/es.md), y una vez listos convertirlos en objetos arquitectónicos. Una vez transformados seguirán conservando todo el histórico de modelado y seguirán siendo totalmente editables. El [ módulo de arquitectura](Arch_Module/es.md) también hereda gran parte de las funcionalidades del [Draft Module/es](Draft_Module/es.md), como el [snapping](Draft_Snap/es.md) y los [planos de trabajo](Draft_SelectPlane/es.md).
+-   Toda la potencia de FreeCAD en tus dedos. Puede diseñarse cualquier objeto arquitectónico con cualquier herramienta de FreeCAD, como el [PartDesign Workbench/es](PartDesign_Workbench/es.md), y una vez listos convertirlos en objetos arquitectónicos. Una vez transformados seguirán conservando todo el histórico de modelado y seguirán siendo totalmente editables. El [ módulo de arquitectura](Arch_Workbench/es.md) también hereda gran parte de las funcionalidades del [Draft\_Workbench/es](Draft_Workbench/es.md), como el [snapping](Draft_Snap/es.md) y los [planos de trabajo](Draft_SelectPlane/es.md).
 
 
 </div>
@@ -67,7 +69,7 @@ Estos son unos ejemplos de características del [Módulo de arquitectura](Arch_M
 
 <div class="mw-translate-fuzzy">
 
-En el momento de escribir este tutorial, [Módulo de arquitectura](Arch_Module/es.md), al igual que el resto de FreeCAD, tiene ciertas limitaciones. Se está trabajando en la mayoría de ellas, con lo cual desaparecerán en el futuro. Algunas de las limitaciones a tener en cuenta son:
+En el momento de escribir este tutorial, [Módulo de arquitectura](Arch_Workbench/es.md), al igual que el resto de FreeCAD, tiene ciertas limitaciones. Se está trabajando en la mayoría de ellas, con lo cual desaparecerán en el futuro. Algunas de las limitaciones a tener en cuenta son:
 
 
 </div>
@@ -83,7 +85,7 @@ En el momento de escribir este tutorial, [Módulo de arquitectura](Arch_Module/e
 
 <div class="mw-translate-fuzzy">
 
--   No hay soporte para materiales. FreeCAD tendrá un sistema completo para [Materiales](Material/es.md), capaz de definir materiales complejos con todas las características que pueden esperarse (propiedades personalizadas, familias de materiales, renderizado\...) y el [Módulo de arquitectura](Arch_Module/es.md) lo usará cuando esté listo.
+-   No hay soporte para materiales. FreeCAD tendrá un sistema completo para [Materiales](Material/es.md), capaz de definir materiales complejos con todas las características que pueden esperarse (propiedades personalizadas, familias de materiales, renderizado\...) y el [Módulo de arquitectura](Arch_Workbench/es.md) lo usará cuando esté listo.
 
 
 </div>
@@ -95,7 +97,7 @@ En el momento de escribir este tutorial, [Módulo de arquitectura](Arch_Module/e
 
 <div class="mw-translate-fuzzy">
 
--   FreeCAD todavía no incorpora [Relaciones entre objetos](Assembly_project/es.md), con lo cual relaciones como las que existen entre una ventana y el muro al que pertenece están implementadas utilizando el [Módulo de arquitectura](Arch_Module/es.md) de forma temporal y presenta ciertas limitaciones. En el momento en que las relaciones estén implementadas habrá muchas nuevas posibilidades.
+-   FreeCAD todavía no incorpora [Relaciones entre objetos](Assembly_project/es.md), con lo cual relaciones como las que existen entre una ventana y el muro al que pertenece están implementadas utilizando el [Módulo de arquitectura](Arch_Workbench/es.md) de forma temporal y presenta ciertas limitaciones. En el momento en que las relaciones estén implementadas habrá muchas nuevas posibilidades.
 
 
 </div>
@@ -116,7 +118,7 @@ En el momento de escribir este tutorial, [Módulo de arquitectura](Arch_Module/e
 
 <div class="mw-translate-fuzzy">
 
-El [Módulo de arquitectura](Arch_Module/es.md) está pensado principalmente para dos tipos de flujos de trabajo:
+El [Módulo de arquitectura](Arch_Workbench/es.md) está pensado principalmente para dos tipos de flujos de trabajo:
 
 
 </div>

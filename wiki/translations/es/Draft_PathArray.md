@@ -1,5 +1,11 @@
 ---
-- GuiCommand:/es   Name:Draft PathArray   Workbenches:[Arch](Draft_Module/es___Draft]],_[[Arch_Module/es.md)|MenuLocation:Draft → PathArray   SeeAlso:[Draft Array](Draft_Array/es.md) ---
+- GuiCommand:/es
+   Name:Draft PathArray
+   Name/es:Draft PathArray
+   MenuLocation:Draft → PathArray
+   Workbenches:[Draft](Draft_Workbench/es.md), [Arch](Arch_Workbench/es.md)
+   SeeAlso:[Draft Array](Draft_Array/es.md)
+---
 
 
 </div>

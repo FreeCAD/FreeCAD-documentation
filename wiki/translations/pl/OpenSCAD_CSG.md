@@ -1,3 +1,5 @@
+# OpenSCAD CSG/pl
+
  {{TOCright}}
 
 ## Import
@@ -38,4 +40,4 @@ Every object derived from Part::Feature which is not (yet) supported will get me
 
  {{OpenSCAD Tools navi}}
 
-[Category:File\_Formats{{\#translation:}}](Category:File_Formats.md)
+[Category:File\_Formats](Category:File_Formats.md)

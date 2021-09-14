@@ -1,3 +1,5 @@
+# Arch tutorial/pt-br
+
 
 
 
@@ -51,7 +53,7 @@ Aqui estão, por exemplo, algumas características interessantes da [Bancada de 
 
 <div class="mw-translate-fuzzy">
 
--   Todo o poder do FreeCAD está ao seu alcance. Você pode criar objetos arquitetônicos com qualquer outra ferramenta do FreeCAD, como a [Bancada de design de peças](PartDesign_Workbench/pt-br.md), e quando estiverem prontos, convertê-los em objetos arquitetônicos. Eles ainda mantêm a sua história de modelagem completa e continuam totalmente editáveis. A [Bancada de arquitetura](Arch_Workbench/pt-br.md) também herda muitas das funcionalidades do [Bancada de traço](Draft_Module/pt-br.md), como [Snapping](Draft_Snap/pt-br.md) e [Selecionar planos de trabalho.](Draft_SelectPlane/pt-br.md)
+-   Todo o poder do FreeCAD está ao seu alcance. Você pode criar objetos arquitetônicos com qualquer outra ferramenta do FreeCAD, como a [Bancada de design de peças](PartDesign_Workbench/pt-br.md), e quando estiverem prontos, convertê-los em objetos arquitetônicos. Eles ainda mantêm a sua história de modelagem completa e continuam totalmente editáveis. A [Bancada de arquitetura](Arch_Workbench/pt-br.md) também herda muitas das funcionalidades do [Bancada de traço](Draft_Workbench/pt-br.md), como [Snapping](Draft_Snap/pt-br.md) e [Selecionar planos de trabalho.](Draft_SelectPlane/pt-br.md)
 
 
 </div>

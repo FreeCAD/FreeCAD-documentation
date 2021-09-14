@@ -7,9 +7,6 @@
    SeeAlso:[TechDraw Symbole SVG](TechDraw_Symbol/fr.md)
 ---
 
-
-</div>
-
 ## Description
 
 L\'outil Image insère une image [bitmap](bitmap/fr.md) (png, jpeg, jpg, bmp, etc.) à partir d\'un fichier dans la page en tant que vue.
@@ -46,13 +43,7 @@ dvi.Width  = 200
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{TechDraw Tools navi

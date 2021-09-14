@@ -1,3 +1,5 @@
+# Draft ShapeString tutorial/fr
+
  {{TutorialInfo/fr
 |Topic= Product design
 |Level= Débutant
@@ -170,7 +172,7 @@ Un processus similaire à celui décrit ci-dessus peut être effectué avec l\'[
 1.  Créez d\'abord le **<img src=images/Draft_ShapeString.svg style="width:16px"> [Draft Formes à partir texte](Draft_ShapeString/fr.md)**.
 2.  Créez un **<img src=images/PartDesign_Body_Tree.svg style="width:16px"> <img src=images/PartDesign_Pad.svg style="width:PartDesign Corps](PartDesign_Body/fr.md)**, rendez-le actif et ajoutez un solide de base en ajoutant des primitives ou en utilisant une esquisse et en l\'extrudant avec **[16px"> [PartDesign Protrusion](PartDesign_Pad/fr.md)**.
 3.  Déplacez l\'objet `ShapeString` dans le corps actif.
-4.  Attachez l\'objet `ShapeString` à l\'une des faces du solide ou à un **<img src=images/PartDesign_Plane.svg style="width:16px"> <img src=images/Part_Attachment.svg style="width:PartDesign Plan de référence](PartDesign_Plane/fr.md)**, en utilisant **[16px"> [Part Accrochage](Part_Attachment/fr.md)**.
+4.  Attachez l\'objet `ShapeString` à l\'une des faces du solide ou à un **<img src=images/PartDesign_Plane.svg style="width:16px"> <img src=images/Part_EditAttachment.svg style="width:PartDesign Plan de référence](PartDesign_Plane/fr.md)**, en utilisant **[16px"> [Part Accrochage](Part_EditAttachment/fr.md)**.
 5.  Créez maintenant un **<img src=images/PartDesign_Pad.svg style="width:16px"> <img src=images/PartDesign_Pocket.svg style="width:PartDesign Protrusion](PartDesign_Pad/fr.md)** ou un **[16px"> [PartDesign Cavité](PartDesign_Pocket/fr.md)** à partir de `ShapeString`, afin de produire un additif ou une soustraction [PartDesign Feature](PartDesign_Feature/fr.md) du corps de base, respectivement.
 
 Voir le fil du forum [How to use ShapeStrings in PartDesign](https://forum.freecadweb.org/viewtopic.php?f=3&t=36623).

@@ -1,3 +1,5 @@
+# Online Help Startpage/pt
+
  
 
 ![150](images/Crystal_Clear_app_tutorials.png )
@@ -44,4 +46,4 @@ Como já deve ter reparado, os programadores são muito maus a escrever document
 
 
 
-[Category:User\_Documentation{{\#translation:}}](Category:User_Documentation.md)
+[Category:User\_Documentation](Category:User_Documentation.md)

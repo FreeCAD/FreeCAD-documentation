@@ -1,3 +1,5 @@
+# Import from STL or OBJ/fr
+
  {{TutorialInfo/fr
 |Topic= Importation depuis STL ou OBJ
 |Level= Débutant
@@ -99,4 +101,4 @@ Une autre méthode de fermeture manuelle des trous dans votre objet maillé sera
 
  
 
-[Category:File\_Formats{{\#translation:}}](Category:File_Formats.md)
+[Category:File\_Formats](Category:File_Formats.md)

@@ -1,3 +1,5 @@
+# Robot API example/fr
+
 
 
 ## Introduction
@@ -191,4 +193,4 @@ for w in App.activeDocument().Trajectory.Trajectory.Waypoints:
 
 {{Userdocnavi/fr}}
 
-[Category:Robot API{{\#translation:}}](Category:Robot_API.md)
+[Category:Robot API](Category:Robot_API.md)

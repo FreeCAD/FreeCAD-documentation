@@ -1,39 +1,34 @@
 ---
 - GuiCommand:/fr
    Name:Path Waterline
-   Name/fr:Path Contour par lignes de niveau
-   Workbenches:[Path](Path_Workbench/fr.md)
+   Name/fr:Path Lignes de niveau
    MenuLocation:Path → Waterline
-   Shortcut:
-   Version:
-   SeeAlso:
+   Workbenches:[Path](Path_Workbench/fr.md)
+   Version:0.19
 ---
-
-
-</div>
 
 ## Description
 
-Cet outil crée une nouvelle opération Waterline. A partir de 0.19\_pre, l\'opération Waterline fonctionne sur l\'ensemble du modèle pour générer le G-Code de la tâche. Actuellement, dans les paramètres de l\'opération, il n\'y a pas de fonctionnalité pour sélectionner des zones, des faces ou des régions spécifiques du modèle.
+Cet outil crée une nouvelle opération Lignes de niveau. A partir de 0.19\_pre, l\'opération Lignes de niveau fonctionne sur l\'ensemble du modèle pour générer le G-code de la tâche. Actuellement, dans les paramètres de l\'opération, il n\'y a pas de fonctionnalité pour sélectionner des zones, des faces ou des régions spécifiques du modèle.
 
-L\'opération Waterline a deux algorithmes : OCL Drop Cutter et Experimental.
+L\'opération Lignes de niveau a deux algorithmes : OCL Drop Cutter et Experimental.
 
 -   L\'algorithme OCL Drop Cutter s\'interface avec OCL.pyd, un module Open Source tiers intitulé [OpenCamLib](OpenCamLib/fr.md) qui génère des chemins d\'outils à partir d\'un modèle 3D. OpenCamLib n\'est pas intégré directement dans FreeCAD.
 -   L\'algorithme expérimental utilise la classe intégrée Path.Area().
 
-**Remarque :** Pour utiliser l\'opération Waterline, vous devez :
+**Remarque :** Pour utiliser l\'opération Lignes de niveau, vous devez :
 
 1.  Installer correctement [OpenCamLib](OpenCamLib/fr.md).
-2.  Activez [Fonctions expérimentales Path](Path_experimental/fr.md) de l\'atelier Path.
+2.  Activez les [Fonctions expérimentales](Path_experimental/fr.md) de l\'atelier Path.
 3.  Vérifiez **Édition → Préférences... → Path → Advanced → Enable OCL dependent features**.
 
 ## Utilisation
 
-Les instructions d\'utilisation pour plusieurs variantes de [Path Waterline](Path_Waterline/fr.md) sont présentées ici.
+Les instructions d\'utilisation pour plusieurs variantes de [Path Lignes de niveau](Path_Waterline/fr.md) sont présentées ici.
 
 #### Opération de base 
 
-1.  Appuyez sur l\'icône **<img src="images/Path_Waterline.svg" width=24px> [Waterline](Path_Waterline/fr.md)** ou sélectionnez l\'outil [Waterline](Path_Waterline/fr.md) dans le **Path menu**.
+1.  Appuyez sur l\'icône **<img src="images/Path_Waterline.svg" width=24px> [Waterline](Path_Waterline/fr.md)** ou sélectionnez l\'outil [Waterline](Path_Waterline/fr.md) dans le menu **Path**.
 2.  Sélectionnez le contrôleur d\'outil pour l\'opération dans la fenêtre contextuelle de dialogue du contrôleur d\'outil.
 3.  Ajustez les profondeurs d\'opération selon les besoins dans l\'onglet Profondeurs : Profondeur de début, Profondeur de fin, Descente.
 4.  Effectuez des ajustements dans l\'onglet Heights si nécessaire.
@@ -61,14 +56,7 @@ Pour obtenir des effets différents ou plus complexes, définissez des propriét
 
 #### Formes d\'outils (de coupe) disponibles 
 
-=
-
-Lorsque vous utilisez l\'algorithme \'\'\' *OCL Dropcutter* \'\'\', l\'opération Waterline utilise OpenCamLib \[OCL\] pour extraire les chemins de la base de la pièce. En tant que tel, une traduction d\'outil est nécessaire entre le contrôleur d\'outil FreeCAD et OCL afin de terminer l\'analyse avec la forme d\'outil (cutter) choisie. Ces formes d\'outils sont (doivent être) respectées et disponibles pour le Dropcutter OCL tant que les formes d\'outils intégrées sont utilisées, qu\'il s\'agisse d\'outils Legacy ou ToolBit:
-
-
-<div class="mw-translate-fuzzy">
-
-(non spécialiste, la traduction est mauvaise, merci de la compléter)
+Lorsque vous utilisez l\'algorithme \'\'\' *OCL Dropcutter* \'\'\', l\'opération Lignes de niveau utilise OpenCamLib \[OCL\] pour extraire les chemins de la base de la pièce. En tant que tel, une traduction d\'outil est nécessaire entre le contrôleur d\'outil FreeCAD et OCL afin de terminer l\'analyse avec la forme d\'outil (cutter) choisie. Ces formes d\'outils sont (doivent être) respectées et disponibles pour le Dropcutter OCL tant que les formes d\'outils intégrées sont utilisées, qu\'il s\'agisse d\'outils Legacy ou ToolBit:
 
 -   Fraise en bout
 -   Fraise à boule
@@ -76,10 +64,7 @@ Lorsque vous utilisez l\'algorithme \'\'\' *OCL Dropcutter* \'\'\', l\'opératio
 -   Chanfrein
 -   Graveur
 
-
-</div>
-
-## Remarques additionnelles 
+#### Remarques additionnelles 
 
 -   Si vous choisissez d\'exécuter le simulateur de chemin, **<img src="images/_Path_Simulator.svg" width=16px> [Path Simulateur d'usinage](Path_Simulator/fr.md)** dans l\'atelier Path, vous pourriez ne pas voir d\'enlèvement de matière spécifique à la forme de l\'outil. Prudence donc. Un petit travail d\'essai utilisant de la mousse ou un autre matériau très peu dense est recommandé pour vérifier que les chemins sont corrects avec le contrôleur d\'outil sélectionné.
 -   À compter de mai 2020, seule la fraise en bout dispose de tout type de test pour déterminer l\'exactitude de la traduction des paramètres de l\'outil FreeCAD vers OCL. Veuillez publier tout commentaire concernant une utilisation non-finale dans la section [Path/CAM](https://forum.freecadweb.org/viewforum.php?f=15) des forums FreeCAD.
@@ -270,13 +255,7 @@ Remarque : il est conseillé de ne pas modifier la propriété Placement des op�
 -   simulateur G-code(tracé) : [CAMotics](https://www.camotics.org/)
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Path Tools navi

@@ -1,3 +1,5 @@
+# Interface Customization/pl
+
 
 
 
@@ -39,7 +41,8 @@ Na tej zakładce można przeglądać dostępne polecenia.
 3.  Najedź na polecenie: pojawi się podpowiedź.
 4.  Wybierz polecenie: tekst paska stanu jest wyświetlany poniżej dwóch paneli.
 
-[na początek strony](#top.md)
+
+{{Top}}
 
 ### Klawiatura
 
@@ -74,7 +77,8 @@ Na tej karcie można zdefiniować własne skróty klawiaturowe. W zakładce [Mak
 -   W wersji **0.19** jest problem z niektórymi poleceniami Środowiska Pracy Draft. Ich domyślne skróty nie działają i/lub nie można im przypisać własnych skrótów.
 -   Aby ponownie przypisać domyślny skrót, należy najpierw przypisać nowy skrót do jego oryginalnego polecenia.
 
-[na początek strony](#top.md)
+
+{{Top}}
 
 ### Środowiska pracy 
 
@@ -108,7 +112,8 @@ Na tej zakładce można zmienić listę [Wybór środowiska pracy](Std_Workbench
 
 1.  Naciśnij przycisk **<img src="images/Button_sort.svg" width=16px>**.
 
-[na początek strony](#top.md)
+
+{{Top}}
 
 ### Paski narzędzi 
 
@@ -173,7 +178,8 @@ Na tej karcie można tworzyć i modyfikować własne paski narzędzi.
 
 -   W V0.19 jest problem z niektórymi poleceniami draft. Po dodaniu ich do niestandardowego paska narzędzi i wyjściu z aplikacji FreeCAD plik {{FileName|user.cfg}} musi być ręcznie edytowany dla tych poleceń. Wyszukaj nazwę niestandardowego paska narzędzi i w tej sekcji zmień zawartość elementów `FCText`, które zaczynają się od `gui_` do `DraftTools`.
 
-[na początek strony](#top.md)
+
+{{Top}}
 
 ### Makrodefinicje
 
@@ -213,19 +219,16 @@ Jeśli chcesz korzystać z makrodefinicji pobranej z innego źródła, będziesz
 2.  Dokonaj wymaganych zmian. Zauważ, że nie można usunąć ikony, można ją tylko wymienić.
 3.  Naciśnij przycisk **Replace**.
 
-[na początek strony](#top.md)
+
+{{Top}}
 
 ### Spaceball ruchy 
 
-Ta karta jest pusta, jeśli nie wykryto tego typu manipulatora. Patrz: [urządzenia wejściowe 3Dconnexion](3Dconnexion_input_devices.md).
-
-[na początek strony](#top.md)
+Ta karta jest pusta, jeśli nie wykryto tego typu manipulatora. Patrz: [urządzenia wejściowe 3Dconnexion](3Dconnexion_input_devices.md). {{Top}}
 
 ### Spaceball przyciski 
 
-Ta karta jest pusta, jeśli nie wykryto tego typu manipulatora. Patrz: [urządzenia wejściowe 3Dconnexion](3Dconnexion_input_devices.md).
-
-[na początek strony](#top.md)
+Ta karta jest pusta, jeśli nie wykryto tego typu manipulatora. Patrz: [urządzenia wejściowe 3Dconnexion](3Dconnexion_input_devices.md). {{Top}}
 
 ## Motywy
 
@@ -239,9 +242,8 @@ Możesz również stworzyć własny motyw, jeśli nie odpowiada Ci motyw dołąc
 
 -    {{FileName|%APPDATA%/FreeCAD/Gui/Stylesheets}}*(Windows)*. Lokalizację folderu {{FileName|%APPDATA%}} można uzyskać poprzez wpisanie {{Incode|App.getUserAppDataDir()}} w [konsoli Python](Python_console/pl.md).
 
-Aby uzyskać więcej szczegółów na temat dostosowywania motywu, zobacz stronę [Motywy](Themes.md).
 
-[na początek strony](#top.md)
+{{Top}}
 
 ## Dodatki
 
@@ -275,7 +277,8 @@ Dodatki oferują jeszcze jeden sposób na dostosowanie interfejsu użytkownika. 
 
 -   repozytorium Github: <https://github.com/triplus/ShortCuts>
 
-[na początek strony](#top.md)
+
+{{Top}}
 
 
 

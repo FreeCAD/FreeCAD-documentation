@@ -6,9 +6,6 @@
    Workbenches:[Part](Part_Workbench/fr.md)
 ---
 
-
-</div>
-
 ## Description
 
 Cet outil affiche ou masque toutes les différences de mesures.

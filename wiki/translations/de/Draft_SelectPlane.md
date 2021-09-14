@@ -1,8 +1,9 @@
 ---
 - GuiCommand:/de
-   Name:Draft SelectPlane   Name/de:Entwirf WähleEbene
+   Name:Draft SelectPlane
+   Name/de:Entwirf WähleEbene
    MenuLocation:Entwurf → Hilfsprogramme → Wähle Ebene
-   Workbenches:[Entwurf](Draft_Module/de.md), [Architektur](Arch_Module/de.md)
+   Workbenches:[Entwurf](Draft_Workbench/de.md), [Architektur](Arch_Workbench/de.md)
    Shortcut:**W** **P**
    SeeAlso:[Entwurf ArbeitsEbeneProxy](Draft_WorkingPlaneProxy/de.md),[Entwurf GitterUmschalten](Draft_ToggleGrid/de.md)
 ---
@@ -15,7 +16,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Der <img alt="" src=images/Workbench_Draft.svg  style="width:24px;">[Entwurf Arbeitsbereich](Draft_Module/de.md) verfügt über ein Bearbeitungsebenensystem. Eine Ebene in der [3D Ansicht](3D_view/de.md) zeigt an, wo eine Entwurfsform erstellt wird. Es gibt mehrere Möglichkeiten, die Bearbeitungsebene zu definieren:
+Der <img alt="" src=images/Workbench_Draft.svg  style="width:24px;">[Entwurf Arbeitsbereich](Draft_Workbench/de.md) verfügt über ein Bearbeitungsebenensystem. Eine Ebene in der [3D Ansicht](3D_view/de.md) zeigt an, wo eine Entwurfsform erstellt wird. Es gibt mehrere Möglichkeiten, die Bearbeitungsebene zu definieren:
 
 -   Von einer ausgewählten Fläche.
 -   Von drei ausgewählten Knoten.

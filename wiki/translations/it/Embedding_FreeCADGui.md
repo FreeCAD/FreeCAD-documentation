@@ -1,3 +1,5 @@
+# Embedding FreeCADGui/it
+
 
 
 ## Introduction
@@ -486,4 +488,4 @@ Nel codice sorgente ci sono esempi di incorporamento di FreeCAD con vari toolkit
 
 }} 
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Python Code{{\#translation:}}](Category:Python_Code.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)

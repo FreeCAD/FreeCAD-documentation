@@ -1,3 +1,5 @@
+# Manual:Traditional modeling, the CSG way/de
+
  
 
 
@@ -5,13 +7,7 @@
 
 CSG steht für [Konstruktive Festkörpergeometrie](https://de.wikipedia.org/wiki/Constructive_Solid_Geometry) (engl.: Constructive Solid Geometry) und beschreibt den grundlegendsten Weg, mit 3D Volumenkörpergeometrie zu arbeiten, nämlich die Erstellung komplexer Objekte durch Hinzufügen und Entfernen von Teilen zu/von Volumenkörpern mit Hilfe boolescher Operationen wie Vereinigung, Subtraktion oder Schnittmenge.
 
-
-<div class="mw-translate-fuzzy">
-
 Wie wir bereits früher in diesem Handbuch gesehen haben, kann FreeCAD viele Arten von Geometrie handhaben, aber die bevorzugte und nützlichste Art für die Art von 3D Objekten, die wir mit FreeCAD entwerfen wollen, d.h. Objekte aus der realen Welt, ist zweifellos die Festkörpergeometrie [Boundary Representation BREP](https://de.wikipedia.org/wiki/Boundary_Representation), die hauptsächlich vom [Part Arbeitsbereich](Part_Workbench/de.md) gehandhabt wird. Im Gegensatz zu [Polygonnetze](https://en.wikipedia.org/wiki/Polygon_mesh), die nur aus Punkten und Dreiecken bestehen, sind die Flächen von BREP Objekten durch mathematische Kurven definiert, was eine absolute Präzision unabhängig vom Maßstab ermöglicht.
-
-
-</div>
 
 ![](images/Mesh_vs_brep.jpg )
 
@@ -128,15 +124,9 @@ Du könntest den Tisch ansehen und denken, dass das Design nicht gut ist. Die Ve
 
 **Lies mehr**
 
-
-<div class="mw-translate-fuzzy">
-
 -   [Der Part Arbeitsbereich](Part_Workbench/de.md)
 -   [Das FreeCAD Erweiterungs Repositorium](https://github.com/FreeCAD/FreeCAD-addons)
 -   [Der Verbindungselemente Arbeitsbereich](https://github.com/shaise/FreeCAD_FastenersWB)
-
-
-</div>
 
 
 

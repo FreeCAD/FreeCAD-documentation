@@ -1,3 +1,5 @@
+# Feature list/pl
+
  
 
 Jest to obszerną, ale nie kompletna lista funkcji, realizowanych przez program FreeCAD. Jeśli chcesz zobaczyć przyszłe wydarzenia, zobacz [\|Mapa rozwoju](Development_roadmap.md), aby szybko zorientować się, co będzie dalej. Ponadto, miłym miejscem jest galeria [Zrzutów ekranu](Screenshots.md).
@@ -7,9 +9,9 @@ Jest to obszerną, ale nie kompletna lista funkcji, realizowanych przez program 
 
 ## Informacje o wydaniu 
 
--   [Wydanie 0.11](Release_notes_011.md) - Marzec 2011
--   [Wydanie 0.12](Release_notes_012.md) - Grudzień 2011
--   [Wydanie 0.13](Release_notes_013.md) - January 2013
+-   [Wydanie 0.11](Release_notes_0.11.md) - Marzec 2011
+-   [Wydanie 0.12](Release_notes_0.12.md) - Grudzień 2011
+-   [Wydanie 0.13](Release_notes_0.13.md) - January 2013
 -   [Wydanie 0.14](Release_notes_0.14/pl.md) - Marzec 2014
 -   [Wydanie 0.15](Release_notes_0.15/pl.md) - Marzec 2015
 -   [Wydanie 0.16](Release_notes_0.16.md) - Kwiecień 2016
@@ -23,7 +25,7 @@ Jest to obszerną, ale nie kompletna lista funkcji, realizowanych przez program 
 -   ![](images/Feature1.jpg ) Kompletne **jądro geometrii** bazujące na [Open CASCADE Technology](http://en.wikipedia.org/wiki/Open_CASCADE) umożliwiający kompleksowe operacje 3D na złożonych typach kształtów, z natywnym wsparciem dla koncepcji takich jak [Boundary Representation](https://en.wikipedia.org/wiki/Boundary_representation) *(BREP)*, [Non-uniform rational basis spline](https://en.wikipedia.org/wiki/Non-uniform_rational_B-spline) *(NURBS)* krzywe i powierzchnie, szeroki zakres kształtów geometrycznych, operacje boolean [fillets](https://en.wikipedia.org/wiki/Fillet_(mechanics)), oraz wbudowana obsługa formatów [STEP](https://en.wikipedia.org/wiki/ISO_10303) i [IGES](https://en.wikipedia.org/wiki/IGES).
 -   ![](images/Feature3.jpg ) Pełny **model parametryczny**. Wszystkie obiekty FreeCAD są naturalnie parametryczne, co oznacza, że ich kształt może być oparty na [właściwości](Property/pl.md) lub nawet zależny od innych obiektów. Wszystkie zmiany są przeliczane na żądanie i rejestrowane przez stos cofnij/przywróć. Nowe typy obiektów mogą być dodawane w prosty sposób, a nawet mogą być [w pełni oprogramowane w środowisku Python](Scripted_objects/pl.md).
 -   ![](images/Feature4.jpg ) Architektura modułowa\", która umożliwia dodanie funkcjonalności rozszerzeń wtyczek *(modułów)* do podstawowej aplikacji. Rozszerzenie może być tak złożone, jak cała nowa aplikacja zaprogramowana w C++ lub tak proste, jak [skrypt Python](Power_users_hub/pl.md) lub samodzielnie nagrana [makrodefinicja](Macros/pl.md). Masz pełny dostęp do prawie każdej części FreeCAD z wbudowanego interpretera **Python**, makr lub zewnętrznych skryptów, bez względu na to, czy jest to [tworzenie i transformacja geometrii](Topological_data_scripting/pl.md), dwu- lub trójwymiarowa reprezentacja tej geometrii([scenegraph](scenegraph.md)) a nawet [interfejs FreeCAD](PySide/pl.md) 
--   ![](images/Feature5.jpg ) Import i eksport do **standardowych formatów**, takich jak [STEP](http://en.wikipedia.org/wiki/ISO_10303), [IGES](http://en.wikipedia.org/wiki/IGES), [OBJ](http://en.wikipedia.org/wiki/Obj), [STL](http://en.wikipedia.org/wiki/STL_%28file_format%29), [DXF](http://en.wikipedia.org/wiki/Dxf), [SVG](http://en.wikipedia.org/wiki/Svg), [STL](http://en.wikipedia.org/wiki/STL_(file_format)), [DAE](http://en.wikipedia.org/wiki/COLLADA), [IFC](http://en.wikipedia.org/wiki/Industry_Foundation_Classes) lub [OFF](http://people.sc.fsu.edu/~jburkardt/data/off/off.html), [NASTRAN](http://en.wikipedia.org/wiki/NASTRAN), [VRML](http://en.wikipedia.org/wiki/VRML) w dodatku do macierzystego formatu plików FreeCAD {{FileName|[FCStd](File_Format_FCStd.md)}}. Poziom kompatybilności pomiędzy FreeCAD i danym formatem pliku może się różnić, ponieważ zależy to od modułu, który ten format wdraża.
+-   ![](images/Feature5.jpg ) Import i eksport do **standardowych formatów**, takich jak [STEP](http://en.wikipedia.org/wiki/ISO_10303), [IGES](http://en.wikipedia.org/wiki/IGES), [OBJ](http://en.wikipedia.org/wiki/Obj), [STL](http://en.wikipedia.org/wiki/STL_%28file_format%29), [DXF](http://en.wikipedia.org/wiki/Dxf), [SVG](http://en.wikipedia.org/wiki/Svg), [DAE](http://en.wikipedia.org/wiki/COLLADA), [IFC](http://en.wikipedia.org/wiki/Industry_Foundation_Classes) lub [OFF](http://people.sc.fsu.edu/~jburkardt/data/off/off.html), [NASTRAN](http://en.wikipedia.org/wiki/NASTRAN), [VRML](http://en.wikipedia.org/wiki/VRML) w dodatku do macierzystego formatu plików FreeCAD {{FileName|[FCStd](File_Format_FCStd.md)}}. Poziom kompatybilności pomiędzy FreeCAD i danym formatem pliku może się różnić, ponieważ zależy to od modułu, który ten format wdraża.
 -   ![](images/Feature7.jpg ) [Szkicownik](Sketcher_Workbench/pl.md) ze zintegrowanym mechanizmem wiązań, umożliwiającym szkicowanie kształtów 2D o związanej geometrii. Zbudowane za pomocą programu Sketcher związane kształty 2D mogą być następnie wykorzystane jako podstawa do budowania innych obiektów w całym FreeCAD.
 -   ![](images/Feature9.jpg ) Środowisko pracy [Symulacja Robota](Robot_Workbench/pl.md), które pozwala na badanie ruchów robotów w środowisku graficznym.
 -   ![](images/Feature8.jpg ) Środowisko pracy [Rysunek Techniczny](TechDraw_Workbench/pl.md) z opcjami widoków szczegółowych, przekrojów, wymiarowania i innych, pozwalającymi na generowanie widoków 2D istniejących modeli 3D. Moduł następnie tworzy gotowe do eksportu pliki SVG lub PDF. Jest też starszy moduł [Kreślenie](Drawing_Workbench/pl.md) z nielicznymi poleceniami Gui, lecz posiada potężną funkcjonalność Pythona.
@@ -98,4 +100,4 @@ Power użytkownicy stworzyli różne niestandardowe [zewnętrzne środowiska pra
 
 
 
-[Category:User Documentation{{\#translation:}}](Category:User_Documentation.md)
+[Category:User Documentation](Category:User_Documentation.md)

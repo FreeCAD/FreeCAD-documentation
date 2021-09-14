@@ -1,18 +1,3 @@
----
-- GuiCommand:
-   Name:Std MacroStepInto
-   Empty:1
-   MenuLocation:Macro → Step into
-   Workbenches:All
-   Shortcut:**F11**
-   SeeAlso:[Std MacroStepOver](Std_MacroStepOver.md), [Std ToggleBreakpoint](Std_ToggleBreakpoint.md)
----
+# Std DebugInto
 
-## Description
-
-This command does not work at this time.
-
-
-
-
- {{Std Base navi}}  
+1.  REDIRECT [Std\_MacroStepInto](Std_MacroStepInto.md)

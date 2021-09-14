@@ -1,3 +1,5 @@
+# Spreadsheet Workbench/it
+
  
 
 <img alt="L\'icona dell\'ambiente Spreadsheet" src=images/Workbench_Spreadsheet.svg  style="width:128px;">
@@ -143,6 +145,9 @@ Sebbene sia possibile utilizzare il numero di riga e di colonna in un\'espressio
 
 La modifica di un foglio di calcolo attiverà un ricalcolo del modello 3D, anche se le modifiche non influiscono sul modello. Per un modello complesso un ricalcolo può richiedere molto tempo e dover attendere dopo ogni singola modifica è ovviamente piuttosto fastidioso.
 
+
+<div class="mw-translate-fuzzy">
+
 Ci sono tre soluzioni per affrontare questo problema:
 
 1.  Nella [Vista ad albero](Tree_view/it.md) fai clic con il tasto destro del mouse sul documento <img alt="" src=images/Document.svg  style="width:24px;"> che contiene il foglio di calcolo.
@@ -157,6 +162,9 @@ Ci sono tre soluzioni per affrontare questo problema:
     -   Il vantaggio di avere il foglio di calcolo in un altro file rispetto alla disattivazione dei ricalcoli è che il foglio di calcolo stesso viene ricalcolato.
     -   Lo svantaggio è che il modello non verrà ricalcolato automaticamente dopo le modifiche al foglio di calcolo.
     -   Nello scenario in cui apri prima il file \"foglio di calcolo\", modifichi uno o più valori e quindi apri il file \"modello\", non ci sarà alcuna indicazione che il modello debba essere ricalcolato. Tuttavia, se entrambi i file sono aperti, l\'icona [ Aggiorna](Std_Refresh/it.md) aggiornerà correttamente il file \"modello\" dopo le modifiche al file \"foglio di calcolo\".
+
+
+</div>
 
 ## Unità di misura 
 
@@ -218,4 +226,4 @@ sheet.get('Diameter')
 
 }} 
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

@@ -1,3 +1,5 @@
+# Datum
+
  
 
 ## Introduction
@@ -32,7 +34,7 @@ You can add other types of datums to be used with other sketches and features.
 
 ## Notes
 
-Since they appeared in v0.17, datum objects were intended to be used inside [PartDesign Bodies](PartDesign_Body.md). However, since they are useful \"reference\" objects with different [attachment methods](Part_Attachment.md), it has been proposed that they should be available outside of the [PartDesign Workbench](PartDesign_Workbench.md). In this way, they will be usable in all workbenches as supporting geometry, particularly in the context of creating [assemblies](Assembly.md).
+Since they appeared in v0.17, datum objects were intended to be used inside [PartDesign Bodies](PartDesign_Body.md). However, since they are useful \"reference\" objects with different [attachment methods](Part_EditAttachment.md), it has been proposed that they should be available outside of the [PartDesign Workbench](PartDesign_Workbench.md). In this way, they will be usable in all workbenches as supporting geometry, particularly in the context of creating [assemblies](Assembly.md).
 
 -   [Create and display local coordinate system](https://forum.freecadweb.org/viewtopic.php?f=10&t=2604)
 -   [Datum objects in App::Part](https://forum.freecadweb.org/viewtopic.php?f=22&t=33654)
@@ -41,4 +43,4 @@ Since they appeared in v0.17, datum objects were intended to be used inside [Par
 
  {{PartDesign Tools navi}} {{Document objects navi}} 
 
-[Category:Glossary{{\#translation:}}](Category:Glossary.md)
+[Category:Glossary](Category:Glossary.md)

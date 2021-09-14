@@ -1,3 +1,5 @@
+# Licence/en
+
 
 
 
@@ -59,4 +61,4 @@ Nevertheless this decision is made only for the core system of FreeCAD. Every wr
 
  
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md)

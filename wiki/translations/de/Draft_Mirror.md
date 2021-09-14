@@ -3,7 +3,7 @@
    Name:Draft Mirror
    Name/de:Entwurf Spiegeln
    MenuLocation:Änderung → Spiegeln
-   Workbenches:[Entwurf](Draft_Module/de.md), [Architektur](Arch_Module/de.md)
+   Workbenches:[Entwurf](Draft_Workbench/de.md), [Architektur](Arch_Workbench/de.md)
    Shortcut:**M** **I**
    SeeAlso:[Entwurf Klonen](Draft_Clone/de.md)
 ---
@@ -18,7 +18,7 @@ Der <img alt="" src=images/Draft_Mirror.svg  style="width:24px;"> **Entwurf Spie
 
 <div class="mw-translate-fuzzy">
 
-Der Befehl kann auf 2D Objekte angewendet werden, die mit dem [Entwurf Arbeitsbereich](Draft_Module/de.md) oder [Skizzierer Arbeitsbereich](Sketcher_Workbench/de.md), erstellt wurden, aber auch auf viele 3D Objekte, wie z.B. solche, die mit dem [Part Arbeitsbereich](Part_Workbench/de.md), [PartDesign Arbeitsbereich](PartDesign_Workbench/de.md) oder [Architektur Arbeitsbereich](Arch_Module/de.md) erstellt wurden.
+Der Befehl kann auf 2D Objekte angewendet werden, die mit dem [Entwurf Arbeitsbereich](Draft_Workbench/de.md) oder [Skizzierer Arbeitsbereich](Sketcher_Workbench/de.md), erstellt wurden, aber auch auf viele 3D Objekte, wie z.B. solche, die mit dem [Part Arbeitsbereich](Part_Workbench/de.md), [PartDesign Arbeitsbereich](PartDesign_Workbench/de.md) oder [Architektur Arbeitsbereich](Arch_Workbench/de.md) erstellt wurden.
 
 
 </div>

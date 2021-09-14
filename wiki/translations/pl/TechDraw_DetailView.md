@@ -87,4 +87,4 @@ This is done by putting the Detail view into a [clip group](TechDraw_ClipGroup.m
 
 {{TechDraw Tools navi
 
-}}  
+}} 

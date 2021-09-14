@@ -7,9 +7,6 @@
    SeeAlso:[Std Copie](Std_Copy/fr.md), [Std Dupliquer la Sélection](Std_DuplicateSelection/fr.md), [Part Copie transformée](Part_TransformedCopy/fr.md), [Part Copie de l’élément](Part_ElementCopy/fr.md), [Part Affiner la forme](Part_RefineShape/fr.md)
 ---
 
-
-</div>
-
 ## Description
 
 
@@ -47,13 +44,7 @@ La sélection peut être manuelle (en utilisant la souris) ou via la [Console Py
 Pour en savoir plus sur la sélection d\'objets de manière programmatique, reportez-vous à [Méthodes de sélection](Selection_methods/fr.md).
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
   

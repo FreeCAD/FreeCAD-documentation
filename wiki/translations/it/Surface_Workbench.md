@@ -1,3 +1,5 @@
+# Surface Workbench/it
+
 
 
 
@@ -70,4 +72,4 @@ Allo stato attuale di FreeCAD (v0.17) non è possibile posizionare le superfici 
 
 }} 
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

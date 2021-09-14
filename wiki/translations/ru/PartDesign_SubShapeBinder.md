@@ -1,10 +1,11 @@
 ---
-- GuiCommand:
-   Name:PartDesign SubShapeBinder
-   Workbenches:[PartDesign](PartDesign_Workbench.md)
+- GuiCommand:/ru
+   Name/ru:Создать новую под-объектную связующую форму
+   Name:PartDesign_SubShapeBinder
+   Workbenches:[PartDesign](PartDesign_Workbench/ru.md)
    MenuLocation:Part Design → Create a sub-object shape binder
    Version:0.19
-   SeeAlso:[PartDesign ShapeBinder](PartDesign_ShapeBinder.md), [PartDesign Clone](PartDesign_Clone.md)
+   SeeAlso:[Создать связующую форму](PartDesign_ShapeBinder/ru.md), [Создать клон](PartDesign_Clone/ru.md)
 ---
 
 ## Описание
@@ -35,10 +36,10 @@ It can also bind to objects that are nested inside [Std Parts](Std_Part.md), and
 
 The [SubShapeBinder](PartDesign_SubShapeBinder.md) is derived from [Part Feature](Part_Feature.md) (`Part::Feature` class). In addition to the properties listed in [Part Feature](Part_Feature.md), the following properties are available in the [property editor](property_editor.md).
 
-### Data
+### Данные
 
 
-{{TitleProperty|Base}}
+{{TitleProperty|Основные}}
 
 -    **Support|XLinkSubList|hidden**: support for the geometry.
 
@@ -65,7 +66,7 @@ The [SubShapeBinder](PartDesign_SubShapeBinder.md) is derived from [Part Feature
 
 -    **Body|Matrix|hidden**: unity matrix of this object.
 
-### View
+### Вид
 
 See [Part Feature](Part_Feature.md).
 
@@ -74,7 +75,13 @@ See [Part Feature](Part_Feature.md).
 -   [New Sublink Link Feature](https://forum.freecadweb.org/viewtopic.php?t=41450), usage explanation with video.
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{PartDesign Tools navi

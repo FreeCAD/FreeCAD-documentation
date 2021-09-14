@@ -1,3 +1,5 @@
+# Ship Workbench
+
  
 
 <img alt="Ship workbench icon" src=images/Workbench_Ship.svg  style="width:128px;">
@@ -43,4 +45,4 @@ The Ship Workbench was unmaintained since v0.17 but has been resurrected in v0.1
 
  {{Ship Tools navi}} 
 
-[Category:External Workbenches{{\#translation:}}](Category:External_Workbenches.md) [Category:Addons{{\#translation:}}](Category:Addons.md)
+[Category:External Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)

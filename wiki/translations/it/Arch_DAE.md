@@ -1,3 +1,5 @@
+# Arch DAE/it
+
 
 
 
@@ -51,4 +53,4 @@ La funzionalità di importazione di Collada nel modulo Architettura dipende da [
 
  
 
-[Category:File Formats{{\#translation:}}](Category:File_Formats.md)
+[Category:File Formats](Category:File_Formats.md)

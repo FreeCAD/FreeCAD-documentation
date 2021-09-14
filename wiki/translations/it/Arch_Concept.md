@@ -1,3 +1,5 @@
+# Arch Concept/it
+
 
 
 
@@ -195,4 +197,4 @@ Oggetti per catturare la conoscenza della costruzione:
 
 <img alt="Oggetti per catturare la conoscenza della costruzione" src=images/BldgComponents.png  style="width:800px;">
 
-[Category:Roadmap{{\#translation:}}](Category:Roadmap.md)
+[Category:Roadmap](Category:Roadmap.md)

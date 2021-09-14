@@ -1,3 +1,5 @@
+# Getting started/id
+
 
 
 
@@ -260,9 +262,9 @@ And finally, one of the most powerful features of FreeCAD is the [scripting](scr
 -   [Version 0.16 Release notes](Release_notes_0.16.md) : Lihat apa yang baru di rilis 0.16
 -   [Version 0.15 Release notes](Release_notes_0.15.md) : Lihat apa yang baru di rilis 0.15
 -   [Version 0.14 Release notes](Release_notes_0.14.md) : Lihat apa yang baru di rilis 0.14
--   [Version 0.13 Release notes](Release_notes_013.md) : Lihat apa yang baru di rilis 0.13
--   [Version 0.12 Release notes](Release_notes_012.md) : Lihat apa yang baru di rilis 0.12
--   [Version 0.11 Release notes](Release_notes_011.md) : Lihat apa yang baru di rilis 0.11
+-   [Version 0.13 Release notes](Release_notes_0.13.md) : Lihat apa yang baru di rilis 0.13
+-   [Version 0.12 Release notes](Release_notes_0.12.md) : Lihat apa yang baru di rilis 0.12
+-   [Version 0.11 Release notes](Release_notes_0.11.md) : Lihat apa yang baru di rilis 0.11
 
 
 </div>

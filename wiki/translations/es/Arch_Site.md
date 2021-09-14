@@ -3,7 +3,7 @@
    Name:Arch Site
    Name/es:Arquitectura Ubicación
    MenuLocation:Arquitectura → Ubicación
-   Workbenches:[Arquitectura](Arch_Module/es.md)
+   Workbenches:[Arquitectura](Arch_Workbench/es.md)
    Shortcut:**S** **I**
    SeeAlso:[Arquitectura Piso](Arch_Floor/es.md), [Arquitectura Edificio](Arch_Building/es.md)
 ---

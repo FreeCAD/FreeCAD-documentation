@@ -1,3 +1,5 @@
+# Macro VisibleAlls
+
   {{Macro
 |Name=Macro VisibleAlls
 |Icon=Macro_VisibleAlls.png
@@ -16,7 +18,7 @@ This macro display all objects in the document (Visibility True).
 
 ## Script
 
- ToolBar Icon <img alt="" src=images/Macro_VisibleAlls.png  style="width:64px;">
+ToolBar Icon  <img alt="" src=images/Macro_VisibleAlls.png  style="width:64px;">
 
 **Macro\_VisibleAlls.FCMacro**
 

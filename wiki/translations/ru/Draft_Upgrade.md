@@ -3,7 +3,7 @@
    Name:Draft Upgrade
    Name/ru:Draft Upgrade
    MenuLocation:Черчение → Обновить
-   Workbenches:[Draft](Draft_Module/ru.md), [Arch](Arch_Module/ru.md)
+   Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
    Shortcut:**U** **P**
    SeeAlso:[Draft Downgrade](Draft_Downgrade/ru.md), [Part Fuse](Part_Fuse/ru.md)
 ---

@@ -1,3 +1,5 @@
+# OpenSCAD Preferences/es
+
 
 
 
@@ -27,4 +29,4 @@ There is only one tab: General settings.
 
 }} 
 
-[Category:Preferences{{\#translation:}}](Category:Preferences.md)
+[Category:Preferences](Category:Preferences.md)

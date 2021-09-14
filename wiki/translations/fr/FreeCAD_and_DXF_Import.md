@@ -1,3 +1,5 @@
+# FreeCAD and DXF Import/fr
+
  {{TOCright}}
 
 ## Contexte
@@ -50,4 +52,4 @@ Vous pouvez également essayer:
 
 Pour un aperçu de toutes les préférences liées à DXF, voir les [Préférences d\'Import Export](Import_Export_Preferences/fr#DXF.md).
 
-[Category:User\_Documentation{{\#translation:}}](Category:User_Documentation.md) [Category:File\_Formats{{\#translation:}}](Category:File_Formats.md)
+[Category:User\_Documentation](Category:User_Documentation.md) [Category:File\_Formats](Category:File_Formats.md)

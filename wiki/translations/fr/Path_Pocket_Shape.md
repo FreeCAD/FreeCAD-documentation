@@ -4,12 +4,7 @@
    Name/fr:Path Poche
    MenuLocation:Path → Pocket Shape
    Workbenches:[Path](Path_Workbench/fr.md)
-   Shortcut:**P** **O**
-   SeeAlso:
 ---
-
-
-</div>
 
 ## Description
 
@@ -21,18 +16,11 @@ L\'objet forme de poche ou Path Pocket Shape est fait pour travailler avec <img 
 
 ## Utilisation
 
-
-<div class="mw-translate-fuzzy">
-
 1.  Sélectionnez le fond ou une face(s) d\'une poche. Alors qu\'il est généralement plus facile de sélectionner le fond, les faces doivent être sélectionnées lorsqu\'une poche est traversante.
-2.  Lancez la commande Pocket Shape à l\'aide de plusieurs méthodes:
-    -   En appuyant sur le bouton **<img src="images/Path_Pocket.svg" width=24px> [Pocket Shape](Path_Pocket_Shape/fr.md)** dans la barre d\'outils.
-    -   Utilisation du raccourci clavier **P** puis **O**.
-    -   Utilisation de la **Path** → **<img src="images/Path_Pocket.svg" width=24px> [Pocket Shape](Path_Pocket_Shape/fr.md)** dans le menu supérieur.
+2.  Il existe plusieurs façons de lancer la commande :
+    -   Appuyez sur le bouton **<img src="images/Path_Pocket_Shape.svg" width=16px> [Pocket Shape](Path_Pocket_Shape/fr.md)**.
+    -   Sélectionnez l\'option **Path → <img src="images/Path_Pocket_Shape.svg" width=16px> Forme de poche** dans le menu.
 3.  Ajustez les propriétés souhaitées.
-
-
-</div>
 
 ## Propriétés
 
@@ -40,15 +28,7 @@ L\'objet forme de poche ou Path Pocket Shape est fait pour travailler avec <img 
 
 #### Base
 
-
-<div class="mw-translate-fuzzy">
-
-#### Base 
-
 Remarque: il est conseillé de ne pas modifier la propriété Placement des opérations de chemin. Déplacez ou faites pivoter le modèle de tâche de chemin selon vos besoins.
-
-
-</div>
 
 -    {{PropertyData/fr|Placement}}: emplacement global \[position et rotation\] de l\'objet - par rapport à l\'origine (ou à l\'origine du conteneur de l\'objet parent).
 
@@ -113,15 +93,8 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 
 -    {{PropertyData/fr|Step Down}}: abaissement incrémental de l\'outil pendant l\'opération.
 
-<img alt="" src=images/Path-DepthsAndHeights.gif  style="width:500px;">
-
-
-<div class="mw-translate-fuzzy">
-
-![](images/Path-DepthsAndHeights.gif ) *Référence visuelle pour les propriétés de profondeur (paramètres)*
-
-
-</div>
+<img alt="" src=images/Path-DepthsAndHeights.gif  style="width:500px;"> 
+*Référence visuelle pour les propriétés de profondeur (paramètres)*
 
 #### Extension
 
@@ -179,17 +152,9 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 
 -    {{PropertyData/fr|Use Start Point}}: en position True, si vous spécifiez manuellement un point de départ, saisissez Points de départ dans le champ Points de départ des données de la propriété.
 
-## Tasks Window Editor Layout 
-
-
-<div class="mw-translate-fuzzy">
-
-## Disposition de l\'éditeur de fenêtre de tâches 
+## Présentation de l\'éditeur de fenêtre de tâches 
 
 *Les descriptions des paramètres sont fournies dans la liste des propriétés ci-dessus.* Cette section est simplement une représentation des paramètres de l'éditeur de fenêtres pour l'opération.
-
-
-</div>
 
 #### Géométrie de base 
 
@@ -248,20 +213,12 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 
 -    {{PropertyData/fr|Pass Extension}}: distance à laquelle l\'opération de surfaçage s\'étendra au-delà des bordes la forme (géométrie de base).
 
-## Scripting
-
-
-<div class="mw-translate-fuzzy">
-
 ## Script
 
 
 **Voir aussi:**
 
 [FreeCAD Script de base](FreeCAD_Scripting_Basics/fr.md).
-
-
-</div>
 
 
 ```python

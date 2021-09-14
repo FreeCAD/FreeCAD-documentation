@@ -1,6 +1,14 @@
+# Release notes 0.13/it
+
  Questo è un riassunto dei cambiamenti più interessanti avvenuti in FreeCAD con la versione più recente. Vedere [qui](http://www.freecadweb.org/tracker/changelog_page.php) per la lista completa delle modifiche.
 
-Versioni precedenti: ([0.11 en](Release_notes_011.md)) - [0.12](Release_notes_012/it.md)
+
+<div class="mw-translate-fuzzy">
+
+Versioni precedenti: ([0.11 en](Release_notes_0.11.md)) - [0.12](Release_notes_0.12/it.md)
+
+
+</div>
 
 ![800px](images/FreeCAD013.jpg)
 
@@ -94,16 +102,10 @@ Le geometrie (punti, linee e curve) possono essere selezionate trascinando il mo
 
 ![800px](images/013-arch-wall.jpg)
 
-
-<div class="mw-translate-fuzzy">
-
 -   **Nuovo strumento Tetto**: Ora nel modulo Architettura è disponibile un nuovo strumento [Tetto](Arch_Roof/it.md) che consente di creare rapidamente tetti inclinati partendo da una faccia selezionata.
 -   **Nuovo strumento Finestra**: Le [Finestre](Arch_Window/it.md) ora vengono create direttamente sopra una forma piana che contiene uno o più contorni, come, ad esempio, su un rettangolo o uno schizzo. Se tale forma è stata disegnata direttamente su una faccia di una parete, la finestra taglia la parete e produce automaticamente un\'apertura nel muro.
 -   **Nuovo metodo di sezione**: Ora è molto semplice creare piani 2D, sezioni e prospetti del modello. Basta inserire un oggetto [Piano di sezione](Arch_SectionPlane/it.md), orientarlo nel modo desiderato, modificarlo per includere gli oggetti che si devono vedere, ed è fatto!
--   **Nuovo renderizzatore solido**: Oltre al render di contorni 2D basato su OpenCasCADe, utilizzato attualmente dal modulo [Drawing](Drawing_Module/it.md), il modulo **Arch** offre ora un nuovo renderer 2D, che è in grado di rendere le facce piene su un foglio di disegno in formato .SVG, producendo delle viste 2D più gradevoli.
-
-
-</div>
+-   **Nuovo renderizzatore solido**: Oltre al render di contorni 2D basato su OpenCasCADe, utilizzato attualmente dal modulo [Drawing](Drawing_Workbench/it.md), il modulo **Arch** offre ora un nuovo renderer 2D, che è in grado di rendere le facce piene su un foglio di disegno in formato .SVG, producendo delle viste 2D più gradevoli.
 
 ![800px](images/013-arch-vrm.jpg)
 
@@ -142,17 +144,11 @@ Le geometrie (punti, linee e curve) possono essere selezionate trascinando il mo
 -   Alla versione per Windows è stato aggiunto il supporto per i mouse 3D (Spaceball, Space Navigator).
 -   Nella finestra di dialogo per la personalizzazione la nuova scheda **Motion Spaceball** permette di regolare la precisione del mouse 3D ai parametri che si desidera, direttamente da FreeCAD.
 
-
-<div class="mw-translate-fuzzy">
-
-## Modulo OpenSCAD 
+!!FUZZY!!== Modulo OpenSCAD ==
 
 -   Questo nuovo modulo (sperimentale) fornisce la capacità di importare file OpenSCAD in FreeCAD. Questo formato di file è molto popolare nella comunità RepRap e sul sito Thingiverse per condividere disegni digitali.
 
 -   Gli script di OpenSCAD possono essere eseguiti all\'interno di FreeCAD, da OpenSCAD (se è installato), e il risultato appare nel documento FreeCAD.
 -   Per ulteriori informazioni consultare la pagina [OpenSCAD](OpenSCAD_Workbench/it.md) nel wiki di FreeCAD.
 
-
-</div>
-
-[Category:News{{\#translation:}}](Category:News.md) [Category:Documentation{{\#translation:}}](Category:Documentation.md) [Category:Releases{{\#translation:}}](Category:Releases.md)
+[Category:News](Category:News.md) [Category:Documentation](Category:Documentation.md) [Category:Releases](Category:Releases.md)

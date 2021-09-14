@@ -61,7 +61,7 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 -    **Angle**: The angular distance between ties.
 
-## Scripting
+## Программирование
 
 
 **See also:**
@@ -108,7 +108,7 @@ RebarGroup = CircularColumn.makeReinforcement(
 
 -    `number_angle_value`specifies the number of main rebars, or the value of the angle between the main rebars, depending on `number_angle_check`.
 
-#### Example
+#### Пример
 
 
 ```python
@@ -167,7 +167,7 @@ rebar_group = editReinforcement(
 
 -    `structure`and `facename` may be omitted so that the rebar stays in the original structure.
 
-#### Example 
+#### Пример 
 
 
 ```python
@@ -192,6 +192,13 @@ rebar_group = CircularColumn.editReinforcement(
 ```
 
 
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
 
 
 
@@ -199,5 +206,4 @@ rebar_group = CircularColumn.editReinforcement(
 
 
 
-
-[Category:Reinforcement{{\#translation:}}](Category:Reinforcement.md)
+[Category:Reinforcement](Category:Reinforcement.md)

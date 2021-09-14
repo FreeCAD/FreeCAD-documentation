@@ -1,3 +1,5 @@
+# VRML Preparation for Robot Simulation/es
+
  {{TutorialInfo/es
 |Topic=Ambiente de trabajo Robot
 |Level=Intermedio
@@ -447,4 +449,4 @@ Aquí está un parche para conseguir el archivo VRML adecuado para la simulació
 
 
 
-[Category:Robot{{\#translation:}}](Category:Robot.md)
+[Category:Robot](Category:Robot.md)

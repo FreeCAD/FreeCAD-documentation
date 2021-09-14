@@ -1,3 +1,5 @@
+# Manual:Traditional 2D drafting/ru
+
  
 
 
@@ -6,7 +8,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Вы могли заинтересоваться FreeCAD, уже имея некоторый опыт технического черчения, например, с помощью программ вроде [AutoCAD](https://ru.wikipedia.org/wiki/AutoCAD). Или Вы уже знаете что-то о проектировании, либо Вы предпочитаете чертить вещи перед их изготовлением. В любом случае, FreeCAD предоставляет более традиционный верстак, чьи инструменты встречаются в большинстве двумерных САПР: [Верстак Draft](Draft_Module/ru.md).
+Вы могли заинтересоваться FreeCAD, уже имея некоторый опыт технического черчения, например, с помощью программ вроде [AutoCAD](https://ru.wikipedia.org/wiki/AutoCAD). Или Вы уже знаете что-то о проектировании, либо Вы предпочитаете чертить вещи перед их изготовлением. В любом случае, FreeCAD предоставляет более традиционный верстак, чьи инструменты встречаются в большинстве двумерных САПР: [Верстак Draft](Draft_Workbench/ru.md).
 
 
 </div>
@@ -126,7 +128,7 @@
 
 <div class="mw-translate-fuzzy">
 
--   [Верстак Draft](Draft_Module/ru.md)
+-   [Верстак Draft](Draft_Workbench/ru.md)
 -   [Привязка](Draft_Snap/ru.md)
 -   [Рабочая плоскость верстака Draft](Draft_SelectPlane/ru.md)
 
@@ -136,4 +138,4 @@
 
 
 
-[Category:Tutorials{{\#translation:}}](Category:Tutorials.md) [Category:Draft{{\#translation:}}](Category:Draft.md)
+[Category:Tutorials](Category:Tutorials.md) [Category:Draft](Category:Draft.md)

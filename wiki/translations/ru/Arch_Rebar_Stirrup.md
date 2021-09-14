@@ -34,13 +34,7 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 </div>
 
-
-<div class="mw-translate-fuzzy">
-
-## Использование
-
-
-</div>
+## Применение
 
 
 <div class="mw-translate-fuzzy">
@@ -126,7 +120,7 @@ Rebar = makeStirrup(l_cover, r_cover, t_cover, b_cover, f_cover,
 
 -    `amount_spacing_value`specifies the number of reinforcement loops, or the value of the separation between them, depending on `amount_spacing_check`.
 
-### Example
+### Пример
 
 
 ```python
@@ -179,4 +173,4 @@ Stirrup.editStirrup(Rebar, 20, 20, 20, 20, 50,
 
  
 
-[Category:Reinforcement{{\#translation:}}](Category:Reinforcement.md)
+[Category:Reinforcement](Category:Reinforcement.md)

@@ -1,3 +1,5 @@
+# Gui Command/de
+
  Der Gui Befehl ist eine der wichtigsten Funktionen von FreeCAD. im Hauptinteraktionspunkt des Benutzers. Jedes Mal, wenn der Benutzer einen Menüpunkt auswählt oder eine Schaltfläche in der Werkzeugleiste drückt , die einen Gui Befehl aktiviert. Einige der Attribute eines Gui Befehls sind:
 
 -   Definiert einen Namen

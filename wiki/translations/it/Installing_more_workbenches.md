@@ -1,3 +1,5 @@
+# Installing more workbenches/it
+
 
 
 ## Introduction
@@ -100,4 +102,4 @@ Vedere anche la pagina [Come installare ambienti aggiuntivi](How_to_install_addi
 
 }} 
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md)

@@ -1,3 +1,5 @@
+# Macro HighlightDifference/fr
+
  {{Macro/fr
 |Name=HighlightDifference
 |Description=Crée un objet(s) différence entre deux objets qui se chevauchent

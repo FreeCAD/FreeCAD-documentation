@@ -2,14 +2,9 @@
 - GuiCommand:/fr
    Name:Path Drilling
    Name/fr:Path Perçage
-   MenuLocation:Path → Drilling
+   MenuLocation:Path → Perçage
    Workbenches:[Path](Path_Workbench/fr.md)
-   Shortcut:**P** **D**
-   SeeAlso:
 ---
-
-
-</div>
 
 ## Description
 
@@ -20,27 +15,31 @@ La commande Perçage génère une opération de perçage durant l\'opération.
 
 ## Utilisation
 
+1.  Il existe plusieurs façons de lancer la commande :
+    -   Appuyez sur le Button **<img src="images/Path_Drilling.svg" width=16px> [Perçage](Path_Drilling/fr.md)**.
+    -   Sélectionnez l\'option **Path → <img src="images/Path_Drilling.svg" width=16px> Perçage** dans le menu.
+2.  Dans la section **Opération** :
+    -   Sélectionnez un **Contrôleur d'outil**.
+    -   Sélectionnez un **Mode de refroidissement**.
+    -   En option, activez et ajustez les éléments suivants :
+        -   
+            **Peck**
+            
+            définissez la **Depth**.
 
-<div class="mw-translate-fuzzy">
+        -   
+            **Dwell**
+            
+            définit le **Time** en secondes.
 
-1.  Lancez la commande Path Perçage par de plusieurs méthodes:
-    -   En appuyant sur le bouton **<img src="images/Path_Drilling.svg" width=24px> [Perçage](Path_Drilling/fr.md)** dans la barre d\'outils
-    -   Utilisation du raccourci clavier **P** **D**.
-    -   Utilisation de la **Path** → **<img src="images/Path_Drilling.svg" width=24px> [Perçage](Path_Drilling/fr.md)** dans le menu supérieur.
-2.  Choisissez un contrôleur d\'outils dans la fenêtre de dialogue de sélection et confirmez en appuyant sur **OK**
-3.  Les trous disponibles pour le traitement avec ce diamètre d\'outil rempliront la liste dans l\'onglet Géométrie de base. Confirmez que la liste correspond aux trous destinés au traitement et ajustez l\'ajout, l\'activation ou la désactivation, si nécessaire. Des trous peuvent être ajoutés en sélectionnant les faces des murs des trous.
-4.  Assurez-vous que les profondeurs et la profondeur finale sont correctes et ajustez-les dans le cas contraire.
-5.  Assurez-vous que les hauteurs, les hauteurs de sécurité et de dégagement sont correctes et ajustez-les dans le cas contraire.
-6.  Dans l\'onglet Opération:
-    -   Spécifiez la hauteur de rétraction
-        -   Activez et ajustez les éléments suivants au besoin
-            -   **Peck:** définir la profondeur Peck
-            -   **Dwell:** réglez le temps Dwell (période) en secondes
-            -   Utilisez **Tip Length**
-7.  Cliquez sur **OK** pour générer le(s) chemin(s) de perçage
-
-
-</div>
+        -   
+            **Extended Depth**
+            
+            .
+3.  Dans la section **Géométrie de base**, vérifiez que la liste correspond aux trous destinés à être traités, et ajustez l\'ajout, l\'activation ou la désactivation, si nécessaire. Les trous peuvent être ajoutés en sélectionnant les faces des murs des Trous.
+4.  Dans la section **Depths**, vérifiez et ajustez si nécessaire les **Start Depth** et **Final Depth**.
+5.  Dans la section **Heights**, vérifiez et, si nécessaire, ajustez les **Safe Height** et **Clearance Height**.
+6.  Appuyez sur le bouton **OK** pour générer le(s) chemin(s) de perçage.
 
 ## Remarques
 
@@ -118,8 +117,6 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 
 -    {{PropertyData/fr|Start Depth}}: profondeur de départ de l\'outil - *profondeur de la première coupe en Z*.
 
-#### Percer
-
 -    {{PropertyData/fr|Add Tip Length}}: calcule la longueur de la pointe et soustrait de la profondeur finale.
 
 -    {{PropertyData/fr|Dwell Enabled}}: activer le temps (? ndt).
@@ -134,9 +131,9 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 
 -    {{PropertyData/fr|Return Level}}: contrôle le retrait de l\'outil. Par défaut = G98.
 
-#### Tracé
+#### Trajectoire
 
--    {{PropertyData/fr|Active}}: rend False, pour empêcher l\'opération de générer du code.
+-    {{PropertyData/fr|Active}}: mis à False, pour empêcher l\'opération de générer du code.
 
 -    {{PropertyData/fr|Comment}}: commentaire facultatif pour cette opération.
 
@@ -144,7 +141,7 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 
 -    {{PropertyData/fr|Tool Controller}}: définit le contrôleur d\'outil utilisé dans l\'opération.
 
-#### Rotation (si disponible) 
+#### Rotation (*si disponible*) 
 
 -    {{PropertyData/fr|Attempt Inverse Angle}}: tente automatiquement l\'angle inverse si la rotation initiale est incorrecte.
 
@@ -166,7 +163,7 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 -   **Supprimer**: supprime le ou les éléments sélectionnés dans la liste géométrie de base.
 -   **Clear**: efface tous les éléments de la liste géométrie de base.
 
-#### Base Location 
+#### Emplacement de base 
 
 -   **Add**: ajoute un emplacement de coordonnées (X, Y) à l\'opération de forage en cours.
 -   **Remove**: supprime le ou les éléments d\'emplacement sélectionnés de la liste Emplacement de base.
@@ -211,11 +208,6 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 -    {{PropertyData/fr|Use Tip Length}}
     
 
-## Scripting
-
-
-<div class="mw-translate-fuzzy">
-
 ## Script
 
 
@@ -223,17 +215,7 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 
 [FreeCAD Script de base](FreeCAD_Scripting_Basics/fr.md).
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Exemple: 
-```python#Place code example here.```
-
-
-</div>
+Exemple :
 
 
 ```python
@@ -241,13 +223,7 @@ Exemple:
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Path_Tools_navi

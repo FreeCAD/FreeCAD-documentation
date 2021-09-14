@@ -1,3 +1,5 @@
+# PartDesign Workbench/pt-br
+
  
 
 <img alt="ícone da bancada de trabalho PartDesign" src=images/Workbench_PartDesign.svg  style="width:128px;">
@@ -210,4 +212,4 @@ Algumas funcionalidades adicionais encontradas no menu Design da peça:
 
  {{PartDesign Tools navi}}
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

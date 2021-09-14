@@ -1,3 +1,5 @@
+# Drawing Workbench/de
+
  
 
 
@@ -82,4 +84,4 @@ Einige Hinweise auf der Programmierseite des Zeichenmoduls werden auf der Seite 
 
 }} 
 
-[Category:Obsolete Workbenches{{\#translation:}}](Category:Obsolete_Workbenches.md)
+[Category:Obsolete Workbenches](Category:Obsolete_Workbenches.md)

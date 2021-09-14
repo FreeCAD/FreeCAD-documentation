@@ -1,3 +1,5 @@
+# Draft Preferences/it
+
 
 
 
@@ -61,4 +63,4 @@ Testi e quotature consente di impostare le proprietà predefinite per gli strume
 
  
 
-[Category:Preferences{{\#translation:}}](Category:Preferences.md)
+[Category:Preferences](Category:Preferences.md)

@@ -1,4 +1,6 @@
-\_\_NOTOC\_\_ 
+# Artwork TechDraw/fr
+
+ 
 
 Ces icônes se trouvent dans le chemin source indiqué.
 
@@ -31,4 +33,4 @@ L\'[atelier TechDraw](TechDraw_Workbench.md) est livré avec un certain nombre d
 
 }} 
 
-[Category:TechDraw{{\#translation:}}](Category:TechDraw.md)
+[Category:TechDraw](Category:TechDraw.md)

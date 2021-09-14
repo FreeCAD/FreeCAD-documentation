@@ -1,3 +1,5 @@
+# Packaging/de
+
 
 
 Diese Seite sammelt die Informationen über die Paketerstellung von FreeCAD auf verschiedenen Plattformen.
@@ -9,4 +11,4 @@ Diese Seite sammelt die Informationen über die Paketerstellung von FreeCAD auf 
 
  
 
-[Category:Packaging{{\#translation:}}](Category:Packaging.md) [Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md)
+[Category:Packaging](Category:Packaging.md) [Category:Developer Documentation](Category:Developer_Documentation.md)

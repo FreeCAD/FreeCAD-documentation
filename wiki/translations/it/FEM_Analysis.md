@@ -1,5 +1,12 @@
 ---
-- GuiCommand:/it   Name:FEM_Analysis   Name/it:Analisi FEM   MenuLocation:Modello → Contenitore analisi   |Workbenches:[Shortcut:**N** **A**   SeeAlso:[[FEM_tutorial/it|Tutorial FEM](FEM_Module/it___FEM]].md)---
+- GuiCommand:/it
+   Name:FEM_Analysis
+   Name/it:Analisi FEM
+   MenuLocation:Modello → Contenitore analisi
+   Workbenches:[FEM](FEM_Workbench/it.md)
+   Shortcut:**S** **A**
+   SeeAlso:[Tutorial FEM](FEM_tutorial/it.md)
+---
 
 
 </div>

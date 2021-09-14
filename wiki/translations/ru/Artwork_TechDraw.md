@@ -1,4 +1,6 @@
-\_\_NOTOC\_\_ 
+# Artwork TechDraw/ru
+
+ 
 
 Эти иконки находятся в указанной исходной папке.
 
@@ -31,4 +33,4 @@
 
 }} 
 
-[Category:TechDraw{{\#translation:}}](Category:TechDraw.md)
+[Category:TechDraw](Category:TechDraw.md)

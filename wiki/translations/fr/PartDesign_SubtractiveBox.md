@@ -17,7 +17,7 @@ Insérer un Cube soustractif dans le Corps actif. Sa forme est soustraite du sol
 ## Utilisation
 
 1.  Presser le bouton **<img src="images/PartDesign_SubtractiveBox.svg" width=24px> '''Cube Soustractif '''**. **Remarque**: le Cube soustractif fait partie du menu d\'icônes appelé *Créer une primitive soustractive*. Après le lancement de FreeCAD, le cube soustractif est affiché par défaut dans la barre d\'outils. Si une primitive différente s\'affiche, cliquez sur la flèche vers le bas à côté de l\'icône et sélectionnez Cube soustractive dans le menu.
-2.  Définir les paramètres primitifs et de l\'[ancrage](Part_Attachment/fr.md).
+2.  Définir les paramètres primitifs et de l\'[ancrage](Part_EditAttachment/fr.md).
 3.  Cliquer sur **OK**.
 4.  Un cube apparaît dans le Corps actif.
 
@@ -30,7 +30,7 @@ Le Cube peut être édité après sa création de deux façons :
 
 ## Propriétés
 
--    {{PropertyData/fr|Attachment}}: définit les modes d\'ancrage ainsi que le décalage d\'ancrage. Voir [Part Ancrage](Part_Attachment/fr.md).
+-    {{PropertyData/fr|Attachment}}: définit les modes d\'ancrage ainsi que le décalage d\'ancrage. Voir [Part Ancrage](Part_EditAttachment/fr.md).
 
 -    {{PropertyData/fr|Label}}: donne le nom du cube, changer si nécessaire.
 

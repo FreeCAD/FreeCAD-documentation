@@ -1,27 +1,21 @@
 ---
 - GuiCommand:/ru
-   Name:Sketcher Create a B-spline
-   Name/ru:Sketcher Нарисовать B-сплайн
+   Name/ru:Sketcher_Create_a_B-Spline
+   Name:Sketcher_Create_a_B-Spline
    Icon:Sketcher_CompCreateBSpline.png
-   MenuLocation:Нет (только на панели инструментов)
-   Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
+   MenuLocation:None (toolbar only)
+   Workbenches:[Sketches](Sketcher_Workbench/ru.md)
    Version:0.17
 ---
 
 ## Описание
 
-**Нарисовать B-сплайн** - это кнопка со значком на панели Геометрия эскизов в Sketcher, которая группирует инструменты для создания кривой B-сплайна. Нажмите на стрелку вниз справа от нее, чтобы развернуть значки под ней и выбрать инструмент.
+**Нарисовать B-Cплайн** - это кнопка со значком расположенная на панели Геометрия эскизов в Sketcher, которая включает в себя инструменты для создания кривой B-Cплайна. Нажмите на черную стрелку указывающую вниз, справа от кнопки, чтобы развернуть список инструментов для выбора под ней.
 
-## Типы B-сплайнов 
+## Типы B-Cплайнов 
 
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Sketcher_CreateBSpline.svg  style="width:32px;"> [B-сплайн](Sketcher_CreateBSpline/ru.md) : Рисует B-сплайн по его контрольным точкам.
--   <img alt="" src=images/Sketcher_Create_Periodic_BSpline.svg  style="width:32px;"> [Периодический B-сплайн](Sketcher_CreatePeriodicBSpline/ru.md) : Рисует периодическую (замкнутую) кривую B-сплайна по контрольными точкам.
-
-
-</div>
+-   <img alt="" src=images/Sketcher_CreateBSpline.svg  style="width:32px;"> [B-Cплайн](Sketcher_CreateBSpline/ru.md) : Рисует B-Cплайн по его контрольным точкам.
+-   <img alt="" src=images/Sketcher_CreatePeriodicBSpline.svg  style="width:32px;"> [Периодический B-Cплайн](Sketcher_CreatePeriodicBSpline/ru.md) : Рисует периодическую (замкнутую) кривую B-Cплайна по контрольными точкам.
 
 
 

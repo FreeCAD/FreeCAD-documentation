@@ -1,3 +1,5 @@
+# Mesh Scripting
+
  
 
  
@@ -43,7 +45,7 @@ Mesh.show(meshObject)
 
 The Mesh-Kernel takes care of creating a topologically correct data structure by sorting coincident points and edges.
 
-[top](#top.md)
+
 
 ## Modeling
 
@@ -89,7 +91,7 @@ obj.Mesh = pipe
 doc.recompute()
 ```
 
-[top](#top.md)
+
 
 ## Notes
 
@@ -97,8 +99,8 @@ An extensive, though hard to use, source of mesh related scripting are the unit 
 
 See also: [Mesh API](Mesh_API.md).
 
-[top](#top.md)
+
 
  {{Powerdocnavi}} {{Mesh Tools navi}} 
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Python Code{{\#translation:}}](Category:Python_Code.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)

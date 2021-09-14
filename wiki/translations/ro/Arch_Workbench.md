@@ -1,7 +1,14 @@
+# Arch Workbench/ro
 
 
 
-{{docnav/ro|[Workbenches/ro](Workbenches/ro.md)|[Draft Module/ro](Draft_Module/ro.md)|IconL=|IconR=Workbench_Draft.svg}}
+
+{{docnav/ro
+|[Workbenches](Workbenches/ro.md)
+|[Draft Module](Draft_Workbench/ro.md)
+|IconL=Freecad.svg
+|IconR=Workbench_Draft.svg
+}}
 
 <img alt="Arch workbench icon" src=images/Workbench_Arch.svg  style="width:128px;">
 
@@ -130,9 +137,13 @@ Modulul Arch poate fi folosit în scripturile [Python](Python.md) scripts și [m
 -   [Export to STL or OBJ](Export_to_STL_or_OBJ.md)
 
 
-{{docnav/ro|[Workbenches/ro](Workbenches/ro.md)|[Draft Module/ro](Draft_Module/ro.md)|IconL=|IconR=Workbench_Draft.svg}}
+{{docnav/ro
+|[Workbenches/ro](Workbenches/ro.md)
+|[Draft Module/ro](Draft_Workbench/ro.md)
+|IconL=|IconR=Workbench_Draft.svg
+}}
 
 
  
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

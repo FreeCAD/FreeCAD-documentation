@@ -73,4 +73,4 @@ Les calculs sont effectués en unités métriques, mais s\'affichent dans les un
 
 
 
-[Category:Addons{{\#translation:}}](Category:Addons.md) [Category:External Workbenches{{\#translation:}}](Category:External_Workbenches.md)
+[Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)

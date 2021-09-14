@@ -1,20 +1,21 @@
 ---
 - GuiCommand:/ru
-   Name/ru:Sketcher Move
-   MenuLocation:Sketch → Инструменты для эскиза → Move
+   Name/ru:Переместить
+   Name:Sketcher_Move
+   MenuLocation:Sketch → Инструменты для эскиза → Переместить
    Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
    Shortcut:**Ctrl** + **M**
    Version:0.18
-   SeeAlso:[Клонировать](Sketcher_Clone/ru.md), [Скопировать](Sketcher_Copy/ru.md)
+   SeeAlso:[Клонировать](Sketcher_Clone/ru.md), [Копировать](Sketcher_Copy/ru.md)
 ---
 
-## Description
+## Описание
 
 Moves the selected sketch elements from one point to another, using the last selected point as reference.
 
 ![](images/sketcher_move.png‎ ) *The sequence of clicks is indicated by yellow arrows with numbers. Select element '''A'''; see a vector line indicated by two red lines from pivot point '''A''' pointing to mouse position number '''2'''. Move the mouse pointer to the target location '''3''' and see the element now as '''B''' autoconstrained on point '''3'''.*
 
-## Usage
+## Применение
 
 1.  Select the sketch elements for the move operation.
 2.  There are several ways to invoke the command:

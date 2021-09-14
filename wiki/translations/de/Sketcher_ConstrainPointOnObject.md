@@ -25,7 +25,7 @@ Bringt einen Punkt auf einem anderen Objekt an, z.B. einer Linien-, Bogen- oder 
 
 ## Skripten
 
-Die Beschränkung kann von [Makros](macros/de.md) und von der Python Konsole durch einen der folgenden Pythonbefehle erzeugt werden:
+Die Beschränkung kann von [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole durch den folgenden Befehl erzeugt werden:
 
 
 `Sketch.addConstraint(Sketcher.Constraint('PointOnObject',LineMoving,PointOfLineMoving,LineFixed))`

@@ -1,4 +1,6 @@
-\_\_NOTOC\_\_ 
+# Artwork PartDesign/fr
+
+ 
 
 Ces icônes se trouvent dans le chemin source indiqué.
 
@@ -23,4 +25,4 @@ Pour toutes les icônes de l\'arborescence source, voir [Graphisme](Artwork/fr.m
 
 }} 
 
-[Category:PartDesign{{\#translation:}}](Category:PartDesign.md)
+[Category:PartDesign](Category:PartDesign.md)

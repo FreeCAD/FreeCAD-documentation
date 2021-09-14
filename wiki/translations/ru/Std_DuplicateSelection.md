@@ -1,14 +1,11 @@
 ---
 - GuiCommand:/ru
-   Name:Std DuplicateSelection
-   Name/ru:Std DuplicateSelection
+   Name/ru:Дублировать выбранное
+   Name:Std_DuplicateSelection
    MenuLocation:Правка → Дублировать выбранное
-   Workbenches:Все
-   SeeAlso:[Std Cut](Std_Cut.md), [Копировать](Std_Copy/ru.md), [Вставить](Std_Paste/ru.md)
+   Workbenches:All
+   SeeAlso:[Вырезать](Std_Cut/ru.md), [Копировать](Std_Copy/ru.md), [Вставить](Std_Paste/ru.md)
 ---
-
-
-</div>
 
 ## Описание
 
@@ -28,7 +25,7 @@ The **Std DuplicateSelection** command duplicates objects within the active docu
 
 -   Duplicate labels are allowed if **Tools → Edit parameters... → BaseApp → Preferences → Document → DuplicateLabels** is set to `True`. This setting can also be changed in the [Preferences Editor](Preferences_Editor#Document.md).
 
-## Scripting
+## Программирование
 
 The **Std DuplicateSelection** command can be applied after selecting one or more objects in the [Tree view](Tree_view.md):
 

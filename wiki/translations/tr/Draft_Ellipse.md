@@ -2,11 +2,11 @@
 - GuiCommand:/tr
    Name:Draft Ellipse
    Name/tr:Elips
-   Workbenches:[Taslak](Draft_Module/tr.md), [Mimari](Arch_Module/tr.md)
    MenuLocation:Taslak → Elips
-   Shortcut:E L
+   Workbenches:[Taslak](Draft_Workbench/tr.md), [Mimari](Arch_Workbench/tr.md)
+   Shortcut:**E** **L**
    SeeAlso:[Çember](Draft_Circle/tr.md), [Yay](Draft_Arc/tr.md)
-   Version:0.17
+   Version:0.7
 ---
 
 

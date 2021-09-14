@@ -1,3 +1,5 @@
+# Manual:Creating renderings/ru
+
  
 
 
@@ -108,4 +110,4 @@
 
 {{Raytracing Tools navi}} 
 
-[Category:Tutorials{{\#translation:}}](Category:Tutorials.md)
+[Category:Tutorials](Category:Tutorials.md)

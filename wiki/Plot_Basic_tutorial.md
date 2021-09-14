@@ -1,3 +1,5 @@
+# Plot Basic tutorial
+
  
 
 
@@ -6,19 +8,19 @@
 |Level=Beginner
 |Time=
 |Author=
-|FCVersion=
+|FCVersion=0.19
 |Files=
 }}
 
-In this tutorial we will learn how to perform a basic plot using [Plot Workbench](Plot_Workbench.md) and [Python console](Python_console.md).
+In this tutorial we will learn how to create a basic plot using the [Plot Workbench](Plot_Workbench.md) and the [Python console](Python_console.md).
 
  <img alt="" src=images/Plot_Trigonometric_Example.png  style="width:600px;">  
 *Basic plot example*
 
-In previous image you can see the result that we approximately will obtain. Following this tutorial you will learn:
+In the image you can see the result that we will approximately obtain. Following this tutorial you will learn:
 
--   How to create a Plot from [Python Console](Python_Console.md).
--   How to plot some data from [Python Console](Python_Console.md).
+-   How to create a Plot from the [Python console](Python_console.md).
+-   How to plot some data from the [Python console](Python_console.md).
 -   How to show the <img alt="" src=images/Plot_Grid.svg  style="width:24px;"> [grid lines](Plot_Grid.md).
 -   How to show the <img alt="" src=images/Plot_Legend.svg  style="width:24px;"> [legend](Plot_Legend.md).
 -   How to edit <img alt="" src=images/Plot_Series.svg  style="width:24px;"> [series labels](Plot_Series.md), introducing text in [LaTeX](http://www.latex-project.org).
@@ -28,16 +30,16 @@ In previous image you can see the result that we approximately will obtain. Foll
 
 ## Plotting data 
 
-In order to plot data you don\'t need to create a new FreeCAD document, simply show the Python console and start sending commands, or use [macros](Macros.md).
+To plot data you don\'t need a FreeCAD document, simply open the [Python console](Python_console.md) and start sending commands, or use [macros](Macros.md).
 
 ### Creating plot document 
 
-Plots are special documents that can be created manually in order to add data later, or allow the module creates one automatically when you start plotting data. Create your own plot documents have 2 advantages:
+Plots are special documents that can be created manually in order to add data later, or the module can create one automatically when you start plotting data. Creating your own plot document has two advantages:
 
 -   You can set the document window label.
--   You can control easily on which document you plot your data.
+-   You can control the document where you plot your data.
 
-In order to create new plot document simply launch following commands:
+To create a new plot document simply launch the following commands:
 
  
 ```python
@@ -45,14 +47,15 @@ try:
     from FreeCAD.Plot import Plot
 except ImportError:
     from freecad.plot import Plot
+
 Plot.figure("TrigonometricTest")
 ```
 
-In FreeCAD 0.19 it is required to install the <img alt="" src=images/Workbench_Plot.svg  style="width:24px;"> [Plot Workbench](Plot_Workbench.md) with the [Add-on manager](Std_AddonMgr.md), while from FreeCAD 0.20 onwards the external add-on is not required anymore to perform plots. The commands above will create a new tab on main windows called **TrigonometricTest**. The new created document already have a set of axes. Each plot document have at least one set of axes that can be removed without using fully matplotlib control.
+In FreeCAD version 0.19 it is required to install the <img alt="" src=images/Workbench_Plot.svg  style="width:24px;"> [Plot Workbench](Plot_Workbench.md) with the [Add-on manager](Std_AddonMgr.md), while from FreeCAD version 0.20 onward the external add-on is no longer required to perform plots. The commands above will create a new tab in the [Main view area](Main_view_area.md) called **TrigonometricTest**. The newly created document already has a set of axes. Each plot document has at least one set of axes.
 
 ### Drawing functions 
 
-You can start working here due to plot command will start a new document, but all plot commands that you execute will append series to created plot until you don\'t create a new document, so usually is better options control the opened plot documents. First thing that we need to do is create the data for sine and cosine functions that we want to plot:
+You can also start working from here because, as already explained, the plot command will create a new document if required. The next thing we need to do is create the data for the sine and cosine functions that we want to plot:
 
  
 ```python
@@ -69,7 +72,7 @@ That will create 3 arrays of data (with 101 points):
 -   *s* = Sine function.
 -   *c* = Cosine function.
 
-In order to plot both function we only need to launch next commands:
+In order to plot both functions we only need to launch the next commands:
 
  
 ```python
@@ -77,36 +80,36 @@ Plot.plot(t,s)
 Plot.plot(t,c)
 ```
 
-That will plot our functions. **plot** command allows the series label as argument, but since we will edit it later using Plot module tools we don\'t pass this data yet.
+The **plot** command allows the series label as an argument, but since we will edit it later using the Plot module tools, we don\'t pass this data yet.
 
 ## Configuring plot 
 
 ### Showing grid and legend 
 
-Change FreeCAD workbench to [Plot module](Plot_Module.md) in View/Workbench menu (you must install the add-on first with the [Add-on manager](Std_AddonMgr.md)). When module has been loaded use grid tool in order to show it.
+Change the FreeCAD workbench to the [Plot module](Plot_Module.md) with **View → Workbench → Plot** (you must install the add-on first with the [Add-on manager](Std_AddonMgr.md)). When the module has been loaded, use the [grid tool](Plot_Grid.md) to show the grid.
 
  ![](images/Plot_Grid.svg‎ )  *Show/hide grid tool icon*
 
-You can repeat the action in order to hide it. Also you can show the legend with the tool provided.
+You can repeat the action to hide the grid. Use the [legend tool](Plot_Legend.md) to show, or hide, the legend.
 
  ![](images/Plot_Legend.svg )  *Show/hide legend tool icon*
 
-As you can see, legend is empty because we have not set any series label yet. In [Plot module](Plot_Module.md) series without label are not represented at legend, in order to allow you to draw auxiliary lines.
+As you can see, the legend is very small and empty because we have not set any series label yet. In the [Plot module](Plot_Module.md) series without a label are not displayed in the legend.
 
-### Setting series labels 
+### Setting series label 
 
-With the series tool you can edit some series parameters.
+With the [series tool](Plot_Series.md) you can edit the parameters of each series.
 
  ![](images/Plot_Series.svg‎ )  *Series configuration tool icon*
 
-First for all select the line that you want to edit, for example we will start with the first one. Uncheck **No label** and set this label:
+Select the series you want to edit, we will start with the first one. Uncheck **No label** and set this label:
 
  
 ```python
 $y = \sin \left( 2 \pi t \right)$
 ```
 
-Since [matplotlib](http://matplotlib.org/) supports [LaTeX](http://www.latex-project.org) you can set all the labels or titles that you want using it. Set the following label to second serie:
+Since [matplotlib](http://matplotlib.org/) supports [LaTeX](http://www.latex-project.org) you can set all labels and titles using LaTeX. Set the following label for the second series:
 
  
 ```python
@@ -115,11 +118,11 @@ $y = \cos \left( 2 \pi t \right)$
 
 ### Setting series style 
 
-Series allows you to set a lot of series properties. Try to set the properties shown at the example image, changing series colors and drawing style of the second one.
+You can set many series properties. Try to set the properties shown in the example image, changing the colors and drawing style of the second series.
 
 ### Setting axes labels 
 
-With the labels tool you can set labels associated to all created axes.
+With the [labels tool](Plot_Labels.md) you can set the title and the labels for the axes.
 
  ![](images/Plot_Labels.svg‎ )  *Labels tool icon*
 
@@ -129,18 +132,18 @@ Set this data:
 -   X Label = \$t\$
 -   Y Label = \$y = \\mathrm{f} \\left( t \\right)\$
 
-Also change the size of all of them to 20.
+Also change the font size of the title and all labels to 20.
 
 ## Saving plot 
 
-With saving plot tool you can save your plot as image file in several formats.
+With the [save tool](Plot_Save.md) you can save your plot as an image file in several formats.
 
  ![](images/Plot_Save.svg )  *Save tool icon*
 
-First for all select the path of the output file. You can use file selection dialog using the button at right of the path edition line.
+First select the path and filename for the output file.
 
-You can set the output image size in inches, for example we can set 11.7x8.3 that is a **DIN A4** paper size. DPI (Dots per inch) will control the image resolution, for example using 100 dpi you will get an image of 1170x830 pixels.
+Set the output image size in inches, for example use 11.7x8.3 to get a **DIN A4** size. DPI (Dots per inch) will control the image resolution, for example use 100 dpi. In combination with the given dimensions this will result in an image of 1170x830 pixels.
 
  {{Tutorials_navi}} {{Plot_Tools_navi}} 
 
-[Category:External\_Workbenches{{\#translation:}}](Category:External_Workbenches.md) [Category:Addons{{\#translation:}}](Category:Addons.md)
+[Category:External\_Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)

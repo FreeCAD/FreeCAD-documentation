@@ -1,3 +1,5 @@
+# About FreeCAD/ro
+
  
 
 <img alt="" src=images/Freecad_default.jpg  style="width:1024px;">
@@ -74,4 +76,4 @@ FreeCAD este menținută și dezvoltată de o comunitate de dezvoltatori și uti
 
 
 
-[Category:User Documentation{{\#translation:}}](Category:User_Documentation.md)
+[Category:User Documentation](Category:User_Documentation.md)

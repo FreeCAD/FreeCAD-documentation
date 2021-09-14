@@ -1,3 +1,5 @@
+# Std Help Menu/pl
+
 
 
 
@@ -62,4 +64,4 @@ W tym menu dostępne są następujące narzędzia:
 
 }}  
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

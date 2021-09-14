@@ -1,25 +1,18 @@
+# Arch Concept/fr
+
 
 
 
 {{VeryImportantMessage|
-This roadmap is probably obsolete. For more information see [Development roadmap](Development_roadmap.md).<br>
-If you are not involved with the development discussed here:<br>
-!!! PLEASE DO NOT EDIT OR TRANSLATE !!!
+Ce plan de développement est probablement obsolète. Pour plus d'informations, voir [Plan de développement](Development_roadmap/fr.md).<br>
+Si vous n'êtes pas impliqué dans le développement discuté ici :<br>
+!!! S'IL VOUS PLAÎT, NE MODIFIEZ PAS ET NE TRADUISEZ PAS !!!
 }}
 
 
 {{TOCright}}
 
-
-<div class="mw-translate-fuzzy">
-
-
-{{VeryImportantMessage|[Voir la page originale en anglais](Arch_Concept.md).}}
-
-Cette page est une tentative de recueil d\'idées sur la conception paramétrique dans le domaine de l\'architecture, pour la construction du module **Arch**. Comme il est un peu différent de celui du domaine de l\'ingénierie mécanique, je tiens à définir un peu mieux les concepts, avant de penser à la façon de l\'appliquer \... N\'hésitez pas à ajouter vos idées !
-
-
-</div>
+Cette page est une tentative de recueil d\'idées sur la conception paramétrique dans le domaine de l\'architecture, pour la construction de l\'[atelier Arch](Arch_Workbench/fr.md). Comme il est un peu différent de celui du domaine de l\'ingénierie mécanique, je tiens à définir un peu mieux les concepts, avant de penser à la façon de l\'appliquer \... N\'hésitez pas à ajouter vos idées !
 
 ## Programmes similaire 
 
@@ -68,9 +61,6 @@ Cette page est une tentative de recueil d\'idées sur la conception paramétriqu
 
 -   Un mode d\'édition : on peut donc modifier la forme originale qui a généré l\'objet.
 
-
-<div class="mw-translate-fuzzy">
-
 ## Les archétypes 
 
 -   Tous les **Archétypes** doivent toujours se comporter comme des objets de programmation orientée objet. Vous pouvez faire une nouvelle classe basée sur une autre classe.
@@ -78,16 +68,13 @@ Cette page est une tentative de recueil d\'idées sur la conception paramétriqu
 -   Les murs doivent être définis par un simple fil (wire) (qui pourrait être extrudé horizontalement, puis verticalement), une forme plane (auquel serait tout simplement ajoutée une épaisseur) ou un solide (qui ne ferait rien). Le résultat serait toujours un solide. Ses paramètres ne varieraient donc, qu\'au moment de la création et en fonction de vos données.
 -   Les murs doivent se connecter en traversant/touchant les murs.
 -   Les murs pourraient être fait de différentes couches (de matériaux): Matériaux mêmes en relation entre eux.
--   Les murs n\'ont pas vraiment besoin d\'un outil de dessin : Vous les faites facilement par la conversion de quelque chose d\'autre. Mais dans ce cas, le module projet pourrait avoir une \"double ligne\" d\'outils.
+-   Les murs n\'ont pas vraiment besoin d\'un outil de dessin : Vous les faites facilement par la conversion de quelque chose d\'autre. Mais dans ce cas, l\'atelier projet pourrait avoir une \"double ligne\" d\'outils.
 -   Les portes et fenêtres sont des objets très simples, leurs paramètres ne concernent que leurs aspect interne. Mais ils doivent avoir une «boîte» qui crée des trous dans d\'autres objets.
 -   Les poutres et les dalles sont toutes aussi simples, mais en fonction de leurs matériaux, elles doivent être en mesure de se connecter à d\'autres dalles, poutres et murs.
 -   Les poutres et dalles peuvent également être assemblées en un seul élément \"structurel\". Il y a beaucoup de piliers, tous ont pu être définis de la même manière que les murs, par un fil (wire), une forme ou un solide. Ils pourraient même être basés sur la même base que les murs \...
 -   Les toits, sont un type spécial d\'objet, pas très intéressants de fait, mais utile, car il est délicat de calculer un toit manuellement. Fondamentalement, vous avez besoin de créer une forme basée sur un contour et une inclinaison. Cela devrait être facile à faire, et, étendu plus tard à d\'autres types de toits.
 -   Les Assemblages doivent être définis plus loin : Ils sont essentiellement constitués d\'autres pièces, qui pourraient être n\'importe quoi, des formes, des fenêtres, etc .. et, des propriétés personnalisées, telles que la répétition de tableau, la déformation (suivre une forme ?), etc\...
 -   Site Builder : est un ensemble d\'outils spéciaux qui doivent gérer la création du site et des mises à jour. Cette boîte à outils doit être compatible avec d\'autres grands terrains/sites modelers Open Source et les applications **GIS** (comme GRASS). SiteBuilder permettra la création d\'un site basé sur les courbes topographiques et la manipulation facile de mises à jour du site. Cela permettra de créer facilement : des trottoirs, des coupes de trottoirs, des bordures et des routes, l\'aménagement paysager, des parkings avec tout le nécessaire d'égouttage, systèmes d\'écoulement des eaux, etc . . . La base de données générée permettra d\'estimer les déblais et remblais ainsi que les autres informations nécessaires pour faire le site résidentiel. SiteBuilder sera également utile pour générer l\'excavation nécessaire à un projet.
-
-
-</div>
 
 ## Archetypes (types d\'objets) 
 
@@ -186,4 +173,4 @@ Le schéma suivant illustre la relation entre tous les objets décrits à ce jou
 
 <img alt="Objects for capturing building knowledge" src=images/BldgComponents.png  style="width:800px;">
 
-[Category:Roadmap{{\#translation:}}](Category:Roadmap.md)
+[Category:Roadmap](Category:Roadmap.md)

@@ -1,3 +1,5 @@
+# Glossary/es
+
 
 
 
@@ -1120,4 +1122,4 @@ Ir a la letra {{CompactTOC|center=yes}}
 
 
 
-[Category:Wiki{{\#translation:}}](Category:Wiki.md) [Category:Glossary{{\#translation:}}](Category:Glossary.md)
+[Category:Wiki](Category:Wiki.md) [Category:Glossary](Category:Glossary.md)

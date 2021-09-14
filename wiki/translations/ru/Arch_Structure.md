@@ -1,14 +1,12 @@
 ---
-- GuiCommand:
-   Name:Arch Structure
-   MenuLocation:Arch → Structure
+- GuiCommand:/ru
+   Name/ru:Структура
+   Name:Arch_Structure
+   MenuLocation:Arch → Структура
    Workbenches:[Arch](Arch_Workbench/ru.md)
    Shortcut:**S** **T**
-   SeeAlso:[Arch Wall](Arch_Wall/ru.md), [Arch Rebar](Arch_Rebar/ru.md)
+   SeeAlso:[Стена](Arch_Wall/ru.md), [Арматура](Arch_Rebar/ru.md)
 ---
-
-
-</div>
 
 ## Описание
 
@@ -30,7 +28,7 @@
 
 ![](images/Arch_Structure_example.jpg ) *Column based on a 2D base profile; a column and a beam defined by their height, length and width, without a base profile; a metallic structure based on a 2D face*На приведенном выше рисунке показана колонка, основанная на двумерном базовом профиле, колонке и балке на основе профиля (определяется их размерами высоты, длины и ширины) и металлическим профилем на основе 2D-контура (грань, провод или эскиз). Кроме того, определенное количество пресетов, доступных при создании объекта, позволяет быстро построить структурный элемент из предопределенного стандартного профиля.
 
-## Использование
+## Применение
 
 1.  Select a 2D shape (draft object, face or sketch) (optional).
 2.  Press the **<img src="images/Arch_Structure.svg" width=16px> [[Arch Structure]]** button, or press **S** then **T** keys.
@@ -49,7 +47,7 @@
 
 ## Свойства
 
-### Data
+### Данные
 
 -    **Tool**: an optional extrusion path, which can be any type of wire. If this property is empty, the extrusion will be straight, and happen in the direction given by the Normal property
 
@@ -65,7 +63,7 @@
 
 -    **Nodes Offset**: specifies an optional offset between the centerline and the nodes line.
 
-### 3D-просмотр 
+### Вид
 
 -    **Nodes Type**: The type of structural nodes of this object, linear or area.
 
@@ -101,12 +99,12 @@ Structural objects also have the ability to display structural nodes. Structural
     -   Make the node of this object and another one coincident
     -   Toggle the display of all nodes of all structural objects of the document on/off
 
-## Scripting
+## Программирование
 
 
-**See also:**
+**Смотрите так же:**
 
-[Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+[Arch API](Arch_API/ru.md) и [Основы составления скриптов в FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 
 The Structure tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function: 
 ```python
@@ -129,16 +127,7 @@ FreeCAD.ActiveDocument.recompute()
 Structure2 = Arch.makeStructure(None, length=500, width=1000, height=3000)
 Draft.move(Structure2, FreeCAD.Vector(2000, 0, 0))
 FreeCAD.ActiveDocument.recompute()
-```
-
-
-<div class="mw-translate-fuzzy">
-
-
-{{docnav/ru|[Wall/ru](Arch_Wall/ru.md)|[Arch CompRebarStraight/ru](Arch_CompRebarStraight/ru.md)|[Arch](Arch_Module/ru.md)|IconC=Workbench_Arch.svg|IconL=Arch_Wall.png|IconR=Arch CompRebarStraight.png}}
-
-
-</div>
+``` 
 
 
 

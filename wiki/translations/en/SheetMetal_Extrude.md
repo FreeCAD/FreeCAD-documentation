@@ -50,18 +50,44 @@ Alternatively you can generate a base plate with one of the following methods as
 
 ## Properties
 
+See also: [Property editor](Property_editor.md).
+
+A SheetMetal Extend object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
+
 ### Data
 
 
 {{Properties_Title|Base}}
 
--    **gap1**: Gap from the left side.
+-    **Label|String**: Default value: The user editable name of this object, it may be any arbitrary UTF8 string.
 
--    **gap2**: Gap from the right side.
+-    **Base Feature|Link|hidden**: Base Feature. Link to the parent feature.
 
--    **length**: Length of the wall.
-
-
+-    **_Body|LinkHidden|hidden**: Hidden link to the parent body.
 
 
-[Category:SheetMetal{{\#translation:}}](Category:SheetMetal.md) [Category:Addons{{\#translation:}}](Category:Addons.md) [Category:External Command Reference{{\#translation:}}](Category:External_Command_Reference.md)
+{{Properties_Title|Parameters}}
+
+-    **base Object|LinkSub**: \"Base object\". Link to the planar face to be extended.
+
+-    **gap1|Distance**: \"Gap from the left side\". Default: {{value|0,00 mm}}.
+
+-    **gap2|Distance**: \"Gap from the right side\". Default: {{value|0,00 mm}}.
+
+-    **length|Length**: \"Length of Wall\". Default: {{value|10,00 mm}}.
+
+
+{{Properties_Title|Parameters Ext.}}
+
+-    **Offset|Distance**: \"Offset for substraction\". Default: {{value|20,00 µm}}.
+
+-    **Refine|Bool**: \"Use Refine\". Default: `True`.
+
+-    **Sketch|Link**: \"Wall Sketch\".
+
+-    **Use Substraction|Bool**: \"Use Substraction\". Default: `False`
+
+
+
+
+[Category:SheetMetal](Category:SheetMetal.md) [Category:Addons](Category:Addons.md) [Category:External Command Reference](Category:External_Command_Reference.md)

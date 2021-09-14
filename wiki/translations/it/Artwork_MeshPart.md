@@ -1,4 +1,6 @@
-\_\_NOTOC\_\_ 
+# Artwork MeshPart/it
+
+ 
 
 Queste icone si trovano nel percorso origine indicato.
 

@@ -1,3 +1,5 @@
+# Scripted Parts: Ball Bearing - Part 1/fr
+
  {{TutorialInfo/fr
 |Topic= Part : écrire un script - Roulement à bille #1
 |Level= Débutant
@@ -140,4 +142,4 @@ Gui.SendMsgToActiveView("ViewFit")
 
 }} 
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Python Code{{\#translation:}}](Category:Python_Code.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)

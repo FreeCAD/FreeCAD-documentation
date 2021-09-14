@@ -1,4 +1,6 @@
-\_\_NOTOC\_\_ 
+# Artwork Fem/en
+
+ 
 
 These icons are in the indicated source path.
 
@@ -15,4 +17,4 @@ For all icons in the source tree, see [Artwork](Artwork.md).
 
 }} 
 
-[Category:FEM{{\#translation:}}](Category:FEM.md)
+[Category:FEM](Category:FEM.md)

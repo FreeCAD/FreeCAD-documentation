@@ -1,3 +1,5 @@
+# Sketcher project/it
+
 
 
 
@@ -181,4 +183,4 @@ Per la versione 0.12:
 
 }}  
 
-[Category:Roadmap{{\#translation:}}](Category:Roadmap.md)
+[Category:Roadmap](Category:Roadmap.md)

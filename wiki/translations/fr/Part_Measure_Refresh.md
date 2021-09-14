@@ -7,9 +7,6 @@
    SeeAlso:[Part Mesure linéaire](Part_Measure_Linear/fr.md), [Part Mesure angulaire](Part_Measure_Angular/fr.md)
 ---
 
-
-</div>
-
 ## Description
 
 [Part Rafraîchir les mesures](Part_Measure_Refresh/fr.md) met à jour la [Vue 3D](3D_view.md) pour afficher toutes les mesures créées avec <img alt="" src=images/Part_Measure_Linear.svg  style="width:16px;"> [Part Mesure linéaire](Part_Measure_Linear/fr.md) et <img alt="" src=images/Part_Measure_Angular.svg  style="width:16px;"> [Part Mesure angulaire](Part_Measure_Angular/fr.md).

@@ -1,3 +1,5 @@
+# Release notes 0.17/es
+
 
 
 
@@ -249,7 +251,13 @@ El nuevo entorno \"TechDraw\" tiene como objetivo reemplazar el entorno de traba
 
 -   Mejora: la herramienta [Part Revolve](Part_Revolve.md) ahora admite el enlace paramétrico al eje de revolución.
 
+
+<div class="mw-translate-fuzzy">
+
 -   La nueva utilidad [Part Attachment](Part_Attachment.md) accesible desde el menú \'\' Part → Attachment\... \'\' se puede usar para unir paramétricamente la mayoría de los tipos de objetos a otra geometría.
+
+
+</div>
 
 -   El nuevo [ Contenedor Part](Std_Part.md) se puede usar para agrupar la mayoría de los tipos de formas y moverlas como una unidad. También contiene planos y ejes estándar para adjuntar objetos. Servirá de base para el futuro Ambiente de trabajo Assembly al proporcionar una forma de mover partes. Está disponible en todos los bancos de trabajo desde una barra de herramientas junto con [ Group](Std_Group.md).
 
@@ -381,4 +389,4 @@ Algunos de los nuevos módulos de comunidad que se crearon.
 
 -   [Kicad StepUp Workbench](https://www.freecadweb.org/wiki/KicadStepUp_Workbench) está destinado a ayudar a los usuarios de KiCad y FreeCAD en la colaboración ECAD y MCAD.
 
-[Category:News{{\#translation:}}](Category:News.md) [Category:Documentation{{\#translation:}}](Category:Documentation.md) [Category:Releases{{\#translation:}}](Category:Releases.md)
+[Category:News](Category:News.md) [Category:Documentation](Category:Documentation.md) [Category:Releases](Category:Releases.md)

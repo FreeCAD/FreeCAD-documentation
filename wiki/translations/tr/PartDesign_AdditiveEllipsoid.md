@@ -16,7 +16,7 @@ Inserts a primitive ellipsoid in the active Body as the first feature, or fuses 
 ## Usage
 
 1.  Press the **<img src="images/PartDesign_AdditiveEllipsoid.svg" width=24px> '''Additive Ellipsoid'''** button. **Note**: the Additive Ellipsoid is part of an icon menu labelled *Create an additive primitive*. After launching FreeCAD, the Additive Box is the one displayed in the toolbar. To get to the Ellipsoid button, click on the down arrow besides the visible icon and select Additive Ellipsoid in the menu.
-2.  Set the Primitive parameters and [Attachment](Part_Attachment.md).
+2.  Set the Primitive parameters and [Attachment](Part_EditAttachment.md).
 3.  Click **OK**.
 4.  An Ellipsoid feature appears under the active Body.
 
@@ -29,7 +29,7 @@ The Ellipsoid can be edited after its creation in two ways:
 
 ## Properties
 
--    **Attachment**: defines the attachment mode as well as the Attachment Offset. See [Part Attachment](Part_Attachment.md).
+-    **Attachment**: defines the attachment mode as well as the Attachment Offset. See [Part EditAttachment](Part_EditAttachment.md).
 
 -    **Label**: label given to the Ellipsoid object. Change to suit your needs.
 

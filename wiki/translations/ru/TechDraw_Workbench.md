@@ -1,3 +1,5 @@
+# TechDraw Workbench/ru
+
 
 
 
@@ -7,13 +9,7 @@
 
 ## Введение
 
-
-<div class="mw-translate-fuzzy">
-
 Верстак [TechDraw](TechDraw_Workbench/ru.md) используется для создания базовых технических чертежей из 3D-моделей, созданных с помощью другого верстака, такого как [Part](Part_Workbench/ru.md), [PartDesign](PartDesign_Workbench/ru.md), или [Arch](Arch_Workbench.md), или импортированных моделей из других приложений. Каждый чертеж представляет собой страницу, которая может содержать различные виды рисуемых объектов, такие как Part::Features, PartDesign::Bodies, App::Part groups и группу Объектов Документа. Полученные чертежи можно использовать для таких вещей, как документация, производственные инструкции, контракты, разрешения и т. д.
-
-
-</div>
 
 Размеры, сечения, заштрихованные области, аннотации и [SVG](SVG/ru.md) символы могут быть добавлены на страницу, которую затем можно экспортировать в различные форматы, такие как [DXF](DXF/ru.md), [SVG](SVG/ru.md), и [PDF](PDF/ru.md).
 
@@ -28,23 +24,17 @@ FreeCAD - это, прежде всего, приложение для 3D-мод
 
 ## Страницы
 
-Это инструменты для создания объектов Page.
+Содержит инструменты для создания объектов Page.
 
--   <img alt="" src=images/techdraw-new-default.svg  style="width:32px;"> [Новый По Умолчанию](TechDraw_PageDefault/ru.md): добавляет новую страницу используя [шаблон](TechDraw_Templates/ru.md) по умолчанию.
+-   <img alt="" src=images/TechDraw_PageDefault.svg  style="width:32px;"> [Вставить страницу по умолчанию](TechDraw_PageDefault/ru.md): добавляет новую страницу используя [шаблон](TechDraw_Templates/ru.md) по умолчанию.
 
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/techdraw-new-pick.svg  style="width:32px;"> [Выбрать Новый](TechDraw_New_Pick/ru.md): добавляет новую страницу, используя выбранный [шаблон](TechDraw_Templates/ru.md).
-
-
-</div>
+-   <img alt="" src=images/TechDraw_PageTemplate.svg  style="width:32px;"> [Вставить страницу используя шаблон](TechDraw_PageTemplate/ru.md): добавляет новую страницу, используя выбранный [шаблон](TechDraw_Templates/ru.md).
 
 -   <img alt="" src=images/TechDraw_RedrawPage.svg  style="width:32px;"> [Redraw Page](TechDraw_RedrawPage.md): forces an update of the selected page. <small>(v0.19)</small> 
 
 ## Виды
 
-Это инструменты для создания Видов (Проекций).
+Содержит инструменты для создания Видов (Проекций).
 
 -   <img alt="" src=images/TechDraw_View.svg  style="width:32px;"> [Новый Вид](TechDraw_View/ru.md): добавляет 2D проекционный вид объекта.
 
@@ -52,49 +42,19 @@ FreeCAD - это, прежде всего, приложение для 3D-мод
 
 -   <img alt="" src=images/TechDraw_ProjectionGroup.svg  style="width:32px;"> [Новая Группа Проекций](TechDraw_NewProjGroup/ru.md): вызывает диалоговое окно для создания множества видов объекта с нескольких направлений.
 
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/techdraw-viewsection.svg  style="width:32px;"> [Новое Сечение](TechDraw_NewSection/ru.md): добавляет поперечное сечение существующего вида.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+-   <img alt="" src=images/TechDraw_SectionView.svg  style="width:32px;"> [Новое Сечение](TechDraw_SectionView/ru.md): добавляет вид поперечного сечения в существующий вида.
 
 -   <img alt="" src=images/techdraw-viewdetail.svg  style="width:32px;"> [Новый Детальный Вид](TechDraw_NewDetail/ru.md): добавляет подробный вид части существующего вида.
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
 -   <img alt="" src=images/techdraw-draft-view.svg  style="width:32px;"> [Новый Чертеж](TechDraw_NewDraft/ru.md): добавляет Вид объекта из верстака [Draft ](Draft_Workbench/ru.md).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/techdraw-arch-view.svg  style="width:32px;"> [Новый Архитектурный Вид](TechDraw_NewArch/ru.md): добавляет Вид объекта из верстака [Arch](Arch_Workbench/ru.md) или вид [Секущей Плоскости](Arch_SectionPlane/ru.md).
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
 -   <img alt="" src=images/techdraw-spreadsheet.svg  style="width:32px;"> [Таблица](TechDraw_Spreadsheet/ru.md): добавляет таблицу из верстака [Spreadsheet](Spreadsheet_Workbench/ru.md).
-
-
-</div>
 
 ## Группа Видов 
 
-Это инструменты для создания и управления группой Видов.
+Содержит инструменты для создания и управления группой Видов.
 
 -   <img alt="" src=images/TechDraw_ClipGroup.svg  style="width:32px;"> [Вставить группу срезов](TechDraw_ClipGroup/ru.md): Вставить группу срезов.
 
@@ -104,7 +64,7 @@ FreeCAD - это, прежде всего, приложение для 3D-мод
 
 ## Размеры
 
-Это инструменты для создания и работы с размерами.
+Содержит инструменты для создания и работы с размерами.
 
 Линейные размеры могут основываться на двух точках, на одной линии или на двух линиях.
 
@@ -134,7 +94,7 @@ FreeCAD - это, прежде всего, приложение для 3D-мод
 
 ## Импорт/Экспорт
 
-Это инструменты для экспорта страниц в другие приложения.
+Содержит инструменты для экспорта страниц в другие приложения.
 
 -   <img alt="" src=images/TechDraw_ExportPageSVG.svg  style="width:32px;"> [Экспорт страницы в SVG](TechDraw_ExportPageSVG/ru.md): Экспорт страницы в [SVG](SVG/ru.md) файл.
 
@@ -142,7 +102,7 @@ FreeCAD - это, прежде всего, приложение для 3D-мод
 
 ## Доработка
 
-Это инструменты для добавления недостающих элементов в чертеж или Вид:
+Содержит инструменты для добавления недостающих элементов в чертеж или Вид:
 
 -   <img alt="" src=images/TechDraw_Hatch.svg  style="width:32px;"> [Заштриховать грань, используя файл изображения](TechDraw_Hatch/ru.md): Штриховать грань, используя файл изображения.
 
@@ -150,128 +110,68 @@ FreeCAD - это, прежде всего, приложение для 3D-мод
 
 -   <img alt="" src=images/TechDraw_Symbol.svg  style="width:32px;"> [Вставить SVG Символ](TechDraw_Symbol/ru.md): Вставляет на страницу Символ из [SVG](SVG/ru.md) файла.
 
-
-<div class="mw-translate-fuzzy">
-
 -   <img alt="" src=images/Techdraw-image.svg  style="width:32px;"> [Вставить Рисунок](TechDraw_Image/ru.md): вставляет на страницу рисунок в формате [bitmap](bitmap/ru.md) PNG или JPG.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/techdraw-toggleframe.svg  style="width:32px;"> [Выключатель Рамки](TechDraw_Toggle/ru.md): включает и выключает рамки и метки, окружающие вид.
 
+## Вспомогательные инструменты 
 
-</div>
-
-## Аннотации
-
-Инструменты аннотаций предназначены для «разметки» чертежа дополнительной информацией.
+Вспомогательные инструменты предназначены для \"нанесения поверх чертежа\" дополнительной информации.
 
 -   <img alt="" src=images/TechDraw_Annotation.svg  style="width:32px;"> [Добавить Аннотацию](TechDraw_Annotation/ru.md): добавляет простой текстовый блок в качестве аннотации.
 
-
-<div class="mw-translate-fuzzy">
-
 -   <img alt="" src=images/TechDraw_LeaderLine.svg  style="width:24px;"> [Линия-выноска](TechDraw_LeaderLine/ru.md): добавляет линию-выноску к Виду. {{Version/ru|0.19}}
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/TechDraw_RichTextAnnotation.svg  style="width:24px;"> [Вставка форматированной аннотаци](TechDraw_RichTextAnnotation/ru.md): добавляет в Вид блок форматированного текста в качестве аннотации к линии-выноске. {{Version/ru|0.19}}
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
 -   <img alt="" src=images/TechDraw_CosmeticVertex.svg  style="width:24px;"> [Добавить Вспомогательную Вершину](TechDraw_CosmeticVertex/ru.md): добавляет вершину, которая не является частью исходной геометрии. {{Version/ru|0.19}}
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/TechDraw_Midpoints.svg  style="width:24px;"> [Добавить Средние Вершины](TechDraw_Midpoints/ru.md): добавляет вспомогательные вершины в центральные точки выбраных граней.
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
 -   <img alt="" src=images/TechDraw_Quadrants.svg  style="width:24px;"> [Четверть](TechDraw_Quadrants/ru.md): Инструмент Четверть добавляет вспомогательные вершины в окружность, деля ее на четверти. {{Version/ru|0.19}}
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/TechDraw_FaceCenterLine.svg  style="width:24px;"> [Осевая Линия](TechDraw_FaceCenterLine/ru.md): добавляет осевую линию к выбранной грани или граням. {{Version/ru|0.19}}
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
 -   <img alt="" src=images/TechDraw_2LineCenterLine.svg  style="width:24px;"> [Добавить Осевую линию между 2 Линиями](TechDraw_2LineCenterLine/ru.md): добавляет осевую линию между 2 линиями. {{Version/ru|0.19}}
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/TechDraw_2PointCenterLine.svg  style="width:24px;"> [Добавить Осевую линию между 2 точками](TechDraw_2PointCenterLine/ru.md): добавляет осевую линию между 2 точками. {{Version/ru|0.19}}
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
 -   <img alt="" src=images/TechDraw_2PointCosmeticLine.svg  style="width:24px;"> [Добавить косметическую линию](TechDraw_2PointCosmeticLine/ru.md): добавить вспомогательную линию соединяющую 2 точки. {{Version/ru|0.19}}
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
 -   <img alt="" src=images/TechDraw_CosmeticEraser.svg  style="width:24px;"> [Удалить вспомогательный объект](TechDraw_CosmeticEraser/ru.md): удаляет вспомогательные объекты с чертежа. {{Version/ru|0.19}}
-
-
-</div>
 
 -   <img alt="" src=images/TechDraw_DecorateLine.svg  style="width:32px;"> [Change Appearance of Lines](TechDraw_DecorateLine.md): changes the appearance of selected line(s). <small>(v0.19)</small> 
 
 -   <img alt="" src=images/TechDraw_ShowAll.svg  style="width:32px;"> [Show/Hide Invisible Edges](TechDraw_ShowAll.md): shows/hides invisible lines/edges in a view. <small>(v0.19)</small> 
 
-
-<div class="mw-translate-fuzzy">
-
 -   <img alt="" src=images/TechDraw_WeldSymbol.svg  style="width:24px;"> [Добавить информацию о сварке в Линию-выноску](TechDraw_WeldSymbol.md): добавляет символы сварки и другие параметры к существующей Линии-выноске. <small>(v0.19)</small> 
 
+## Extension Package 
 
-</div>
+The Extension Package includes many useful tools to improve your TechDraw drawings.
+
+
+**Some of these tools have yet to be released.**
+
+-   <img alt="" src=images/TechDraw_Extension_CircleCenterLines.svg  style="width:32px;"> [CircleCenterLines](TechDraw_Extension_CircleCenterLines.md): adds center lines to circles and arcs. <small>(v0.20)</small> 
+
+-   <img alt="" src=images/TechDraw_Extension_ThreadHoleSide.svg  style="width:32px;"> [ThreadHoleSide](TechDraw_Extension_ThreadHoleSide.md): adds a symbolic thread to the side view of a hole. <small>(v0.20)</small> 
+
+-   <img alt="" src=images/TechDraw_Extension_ThreadHoleBottom.svg  style="width:32px;"> [ThreadHoleBottom](TechDraw_Extension_ThreadHoleBottom.md): adds symbolic threads to the bottom view of holes. <small>(v0.20)</small> 
+
+-   <img alt="" src=images/TechDraw_Extension_ThreadBoltSide.svg  style="width:32px;"> [ThreadBoltSide](TechDraw_Extension_ThreadBoltSide.md): adds a symbolic thread to the side view of a bolt. <small>(v0.20)</small> 
+
+-   <img alt="" src=images/TechDraw_Extension_ThreadBoltBottom.svg  style="width:32px;"> [ThreadBoltBottom](TechDraw_Extension_ThreadBoltBottom.md): adds symbolic threads to the bottom view of bolts. <small>(v0.20)</small> 
 
 ## Дополнительные возможности 
 
 
 <div class="mw-translate-fuzzy">
 
--   [Штриховка](TechDraw_Hatching/ru.md): объяснение различных методов штриховки.
--   [Группы Линий](TechDraw_LineGroup/ru.md): можно назначить толщины по умолчанию различным типам линий.
+-   [Группы Линий](TechDraw_LineGroup/ru.md): позволяет назначить толщину различным типам линий по умолчанию.
 -   [Шаблоны](TechDraw_Templates/ru.md): шаблоны по умолчанию, определенные для страниц чертежей.
+-   [Штриховка](TechDraw_Hatching/ru.md): объяснение различных методов штриховки.
+-   [Geometric dimensioning and tolerancing](TechDraw_Geometric_dimensioning_and_tolerancing/ru.md): explanation on how to achieve geometric dimensioning and tolerancing.
 
 
 </div>
@@ -280,21 +180,12 @@ FreeCAD - это, прежде всего, приложение для 3D-мод
 
 -   <img alt="" src=images/Preferences-techdraw.svg  style="width:32px;"> [Настройки](TechDraw_Preferences/ru.md): настройки значений по умолчанию для страницы чертежа, такие как угол проекции, цвета, размеры текста и стили линий.
 
-
-<div class="mw-translate-fuzzy">
-
 ## Скриптинг
 
 Инструменты TechDraw можно использовать в [macros](macros/ru.md) и в консоли [Python](Python/ru.md) с помощью двух APIs.
 
 -   [TechDraw API](TechDraw_API/ru.md)
 -   [TechDrawGui API](TechDrawGui_API/ru.md)
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
 
 ## Ограничения
 
@@ -303,20 +194,11 @@ FreeCAD - это, прежде всего, приложение для 3D-мод
 -   Существуют небольшие различия в спецификации редактируемого текста в [SVG](SVG/ru.md) шаблонах по сравнению с модулем Drawing. В TechDraw масштабирование документа SVG влияет на положение редактируемых текстовых полей. Смотрите обсуждение на форуме [TechDraw templates scale](https://forum.freecadweb.org/viewtopic.php?f=3&t=24981&p=196271#p196271) для более детальной информации.
 -   Не вырезайте, не копируйте и не вставляйте объекты TechDraw в древовидном виде, так как это обычно не работает.
 
-
-</div>
-
 ## Уроки
-
-
-<div class="mw-translate-fuzzy">
 
 -   [Базовое руководство по TechDraw](Basic_TechDraw_Tutorial/ru.md): введение в создание чертежей с помощью Верстака TechDraw.
 -   [Создание нового шаблона](TechDraw_TemplateHowTo/ru.md): инструкции по созданию нового шаблона страницы в Inkscape для использования с Верстака TechDraw.
 -   [Measurement Of Angles On Holes](Measurement_Of_Angles_On_Holes/ru.md): инструкция по добавлению осевых линий и последующих угловых представлений на отверстиях.
-
-
-</div>
 
 Видео уроки by sliptonic
 
@@ -331,4 +213,4 @@ FreeCAD - это, прежде всего, приложение для 3D-мод
 
 }} 
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

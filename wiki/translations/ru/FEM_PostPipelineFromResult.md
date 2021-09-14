@@ -3,7 +3,7 @@
    Name:FEM PostPipelineFromResult
    Name/ru:FEM PostPipelineFromResult
    MenuLocation: Results → Post pipeline from result
-   Workbenches:[FEM](FEM_Module/ru.md)
+   Workbenches:[FEM](FEM_Workbench/ru.md)
    Version:0.17
    Shortcut:
    SeeAlso:[FEM tutorial](FEM_tutorial/ru.md)
@@ -19,7 +19,7 @@
 
 Конвейер - это результирующий объект, создающий новое графическое представление результатов анализа МКЭ на анализируемой детали. Он добавляет цветовую шкалу и дополнительные параметры отображения.
 
-## Использование
+## Применение
 
 -   Select the result object
 -   Click <img alt="" src=images/FEM_PostPipelineFromResult.svg  style="width:24px;"> button, or click on menu **Results** and item **Post Pipeline from results**. A new object called \"Pipeline\" will be added to your document; note if will appear outside of the Analysis container.

@@ -1,3 +1,5 @@
+# Standard Menu/pl
+
   {{TOCright}}
 
 ## Wprowadzenie

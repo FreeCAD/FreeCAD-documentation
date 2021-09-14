@@ -1,3 +1,5 @@
+# Import text and geometry from Inkscape/en
+
  {{TutorialInfo
 |Topic= Import text and geometry from Inkscape
 |Level= Beginner

@@ -1,3 +1,5 @@
+# Pyramids and polyhedrons Workbench/de
+
 
 
 ## Beschreibung
@@ -57,4 +59,4 @@ Bitte richte deine Rückmeldung, Ideen und Gedanken zu diesem Arbeitsbereich an 
 
 
 
-[Category:User Documentation{{\#translation:}}](Category:User_Documentation.md) [Category:Addons{{\#translation:}}](Category:Addons.md) [Category:External Workbenches{{\#translation:}}](Category:External_Workbenches.md)
+[Category:User Documentation](Category:User_Documentation.md) [Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)

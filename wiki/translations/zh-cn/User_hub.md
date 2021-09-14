@@ -1,8 +1,10 @@
+# User hub/zh-cn
+
  <img alt="" src=images/User_hub.png  style="width:64px;">
 
 ------------------------------------------------------------------------
 
-\_\_NOTOC\_\_
+
 
 这是 FreeCAD 为新手提供主要帮助的区域。
 
@@ -190,4 +192,4 @@ When many macros or functions are developed together, and are organized in toolb
 
 
 
-[Category:Hubs{{\#translation:}}](Category:Hubs.md)
+[Category:Hubs](Category:Hubs.md)

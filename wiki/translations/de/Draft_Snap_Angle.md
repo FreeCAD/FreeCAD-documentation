@@ -1,8 +1,9 @@
 ---
 - GuiCommand:/de
-   Name:Draft Angle   Name/de:Draft Angle
+   Name:Draft Angle
+   Name/de:Draft Angle
    MenuLocation:Entwurf → [Objektfang](Draft_Snap/de.md) → Winkel
-   Workbenches:[Draft](Draft_Module/de.md), [Arch](Arch_Module/de.md)
+   Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
    SeeAlso:[Objektfang](Draft_Snap/de.md), [Objektfang umschalten](Draft_ToggleSnap/de.md)
 ---
 

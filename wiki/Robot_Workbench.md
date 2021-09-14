@@ -1,3 +1,5 @@
+# Robot Workbench
+
  
 
 
@@ -74,4 +76,4 @@ See the [Robot API example](Robot_API_example.md) for a description of the funct
 
  {{Robot Tools navi}} 
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

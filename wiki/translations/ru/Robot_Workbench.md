@@ -1,3 +1,5 @@
+# Robot Workbench/ru
+
 
 
 
@@ -78,4 +80,4 @@ The reason this workbench is still in the master source code is because this wor
 
 }} 
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

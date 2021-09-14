@@ -1,4 +1,6 @@
-\_\_NOTOC\_\_ 
+# Artwork Fem/ru
+
+ 
 
 Эти иконки находятся в указанной исходной папке.
 
@@ -15,4 +17,4 @@
 
 }} 
 
-[Category:FEM{{\#translation:}}](Category:FEM.md)
+[Category:FEM](Category:FEM.md)

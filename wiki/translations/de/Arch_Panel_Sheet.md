@@ -35,33 +35,60 @@ Dieses Werkzeug ermöglicht eine 2D Zeichnung zu erstellen, einschließlich eine
 
 ### Data
 
--    **Height**: The height of the sheet
 
--    **Width**: The width of the sheet
+<div class="mw-translate-fuzzy">
 
--    **Fill Ratio**: The percentage of the sheet area that is filled by cuts (automatic)
+### Daten
 
--    **Tag Text**: The text to display
+-    {{PropertyData/de|Height}}: Die Höhe des Blattes
 
--    **Tag Size**: The size of the tag text
+-    {{PropertyData/de|Width}}: Die Breite des Blattes
 
--    **Tag Position**: The position of the tag text. Keep (0,0,0) for automatic center position
+-    {{PropertyData/de|Fill Ratio}}(v0.??): Der Prozentsatz des Blechs, der von Schnitten belegt wird (automatisch)
 
--    **Tag Rotation**: The rotation of the tag text
+-    {{PropertyData/de|Tag Text}}: Der anzuzeigende Kennzeichnungstext
 
--    **Font File**: The font of the tag text
+-    {{PropertyData/de|Tag Size}}: Die Größe des Kennzeichnungstextes
 
--    **Make Face**: If True, the panel is a Part Face, otherwise a Part Wire
+-    {{PropertyData/de|Tag Position}}: Die Position des Kennzeichnungstextes. Automatische Mittenposition bei (0,0,0)
 
--    **Grain Direction**: This allows you to inform the main direction of the panel fiber (clockwise direction, 0° means up)
+-    {{PropertyData/de|Tag Rotation}}: Die Drehung des Kennzeichnungstextes
+
+-    {{PropertyData/de|Font File}}: Die Schriftart des Kennzeichnungstextes
+
+-    {{PropertyData/de|Make Face}}: Falls True, ist das Blech eine Part Fläche, anderenfalls ein Part Linienzug
+
+-    {{PropertyData/de|Grain Direction}}: Gibt einen Winkel für die (Holz)-Maserung an (im Uhrzeigersinn, 0° bedeutet oben)
+
+-    {{PropertyData/de|Group}}(v0.??): Die verknüpften Paneel-Schnitte
+
+-    {{PropertyData/de|Rotations}}(v0.??): Eine Liste möglicher Rotationen für den Satz
+
+-    {{PropertyData/de|Scale}}(v0.??): Gibt die Skalierung an, die auf jede Panelansicht angewandt wird
+
+
+</div>
 
 ### View
 
--    **Margin**: A margin that can be displayed inside the panel border
 
--    **Show Margin**: Turns the display of the margin on/off
+<div class="mw-translate-fuzzy">
 
--    **Show Grain**: Shows a fiber texture (Make Face must be set to True)
+### Ansicht
+
+-    {{PropertyView/de|Margin}}: Ein Rand, der innerhalb der Grenze angezeigt werden kann
+
+-    {{PropertyView/de|Show Margin}}: Schaltet die Anzeige des Randes ein/aus
+
+-    {{PropertyView/de|Show Grain}}: Schaltet die Anzeige der (Holz)-Maserung ein/aus (Make Face muss auf \'true\' gesetzt sein)
+
+
+</div>
+
+## Scripting
+
+
+<div class="mw-translate-fuzzy">
 
 ## Skripten
 
@@ -70,14 +97,17 @@ Dieses Werkzeug ermöglicht eine 2D Zeichnung zu erstellen, einschließlich eine
 
 [Arch API](Arch_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-The Panel sheet tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function:
+
+</div>
+
+Das Tafelblechwerkzeug kann in [Makros](Macros/de.md) und aus der [Python](Python/de.md)-Konsole aus mit folgender Funktion verwendet werden:
 
 
 ```python
 Sheet = makePanelSheet(panels=[], name="PanelSheet")
 ```
 
--   Creates a `Sheet` object from `panels`, which is a list of [Arch Panel](Arch_Panel.md) objects.
+-   Erstellt ein `sheet`-Objekt aus `panels`, welches eine Liste von [Arch Panel](Arch_Panel.md)-Objekten ist.
 
 Beispiel:
 
@@ -111,7 +141,13 @@ Sheet = Arch.makePanelSheet([Cut1, Cut2, Cut3])
 
 ## Tutorien
 
+
+<div class="mw-translate-fuzzy">
+
 -   [Wikihouse Portierungs Tutorium](Wikihouse_porting_tutorial/de.md)
+
+
+</div>
 
 
 

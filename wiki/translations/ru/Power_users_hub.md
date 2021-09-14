@@ -1,8 +1,10 @@
+# Power users hub/ru
+
  <img alt="" src=images/Power_user_hub.png  style="width:64px;">
 
 ------------------------------------------------------------------------
 
-\_\_NOTOC\_\_
+
 
 Это место, куда можно прийти, если вы опытный пользователь и хотите узнать больше о настройке и расширении FreeCAD.
 
@@ -141,4 +143,4 @@ FreeCAD расширяем с помощью кода [Python](Python/ru.md), к
 
 }}
 
-[Category:Hubs{{\#translation:}}](Category:Hubs.md)
+[Category:Hubs](Category:Hubs.md)

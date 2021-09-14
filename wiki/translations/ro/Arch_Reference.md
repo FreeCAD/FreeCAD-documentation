@@ -1,5 +1,12 @@
 ---
-- GuiCommand:/ro   Name:Arch Reference   Name/ro:Arch Reference   Workbenches:[MenuLocation:Arch → Reference   Shortcut:   SeeAlso:[[Arch BuildingPart](Arch_Module/ro___Arch]].md)---
+- GuiCommand:/ro
+   Name:Arch Reference
+   Name/ro:Arch Reference
+   MenuLocation:Arch → Reference
+   Workbenches:[Arch](Arch_Workbench/ro.md)
+   Shortcut:
+   SeeAlso:[[Arch BuildingPart]]
+---
 
 
 </div>

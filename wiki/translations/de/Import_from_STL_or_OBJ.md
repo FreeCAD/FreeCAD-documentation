@@ -1,3 +1,5 @@
+# Import from STL or OBJ/de
+
  {{TutorialInfo/de
 |Topic= Import von STL oder OBJ
 |Level= Anfänger
@@ -96,4 +98,4 @@ Da der erzeugte Festkörper keine Historie und keine bearbeitbaren Formelemente 
 
  
 
-[Category:File\_Formats{{\#translation:}}](Category:File_Formats.md)
+[Category:File\_Formats](Category:File_Formats.md)

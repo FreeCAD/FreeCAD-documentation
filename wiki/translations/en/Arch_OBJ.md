@@ -1,3 +1,5 @@
+# Arch OBJ/en
+
 
 
 
@@ -51,4 +53,4 @@ mesh.write(Filename="new_example.obj", Material=face_colors, Format="obj")
 
  
 
-[Category:File Formats{{\#translation:}}](Category:File_Formats.md)
+[Category:File Formats](Category:File_Formats.md)

@@ -26,7 +26,7 @@ Questo comando consente di inserire e posizionare un riquadro rettangolare, deno
 <div class="mw-translate-fuzzy">
 
 
-{{docnav/it|[Annotazione](Drawing_Annotation/it.md)|[Apri Browser](Drawing_Openbrowser/it.md)|[Drawing](Drawing_Module/it.md)|IconL=Drawing_Annotation.png|IconC=Workbench_Drawing.svg|IconR=Drawing_Openbrowser.png}}
+{{docnav/it|[Annotazione](Drawing_Annotation/it.md)|[Apri Browser](Drawing_Openbrowser/it.md)|[Drawing](Drawing_Workbench/it.md)|IconL=Drawing_Annotation.png|IconC=Workbench_Drawing.svg|IconR=Drawing_Openbrowser.png}}
 
 
 </div>

@@ -1,3 +1,5 @@
+# Mesh Scripting/en
+
 
 
 
@@ -42,9 +44,7 @@ meshObject = Mesh.Mesh(triangles)
 Mesh.show(meshObject)
 ```
 
-The Mesh-Kernel takes care of creating a topologically correct data structure by sorting coincident points and edges.
-
-[top](#top.md)
+The Mesh-Kernel takes care of creating a topologically correct data structure by sorting coincident points and edges. {{Top}}
 
 ## Modeling
 
@@ -90,19 +90,13 @@ obj.Mesh = pipe
 doc.recompute()
 ```
 
-[top](#top.md)
+
+{{Top}}
 
 ## Notes
 
 An extensive, though hard to use, source of mesh related scripting are the unit test scripts of the `Mesh` module. In these unit tests literally all methods are called and all properties/attributes are tweaked. So if you are bold enough, take a look at the [Unit Test module](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Mesh/App/MeshTestsApp.py).
 
-See also: [Mesh API](Mesh_API.md).
+See also: [Mesh API](Mesh_API.md). {{Top}} {{Powerdocnavi}} {{Mesh Tools navi}} 
 
-[top](#top.md)
-
-
-{{Powerdocnavi
-
-}} {{Mesh Tools navi}} 
-
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Python Code{{\#translation:}}](Category:Python_Code.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)

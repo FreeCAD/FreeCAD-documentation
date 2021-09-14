@@ -1,3 +1,5 @@
+# Screenshots/es
+
  {{TOCright}}
 
 Aquí hay algunas capturas de pantalla mostrando diferentes parted de FreeCAD. No están ordenadas en alguna cronología específica, así que las imágenes pueden diferir de tu versión. Ve más capturas de pantalla enviadas por usuarios de FreeCAD en el [foro de capturas de pantalla](http://forum.freecadweb.org/viewtopic.php?f=8&t=4751) y en [la parte del foro de Users Showcase \"¡Muestra tu proyecto aquí!\"](http://forum.freecadweb.org/viewforum.php?f=24).
@@ -189,7 +191,7 @@ Una captura de pantalla mostrando un mismo archivo renderizado por FreeCAD e ink
 
 <div class="mw-translate-fuzzy">
 
-Freecad el [Módulo de Croquizado](Draft_Module/es.md) cargado y un dibujo DXF importado
+Freecad el [Módulo de Croquizado](Draft_Workbench/es.md) cargado y un dibujo DXF importado
 
 
 </div>

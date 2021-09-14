@@ -1,3 +1,5 @@
+# TechDraw Preferences/hr
+
 
 
 
@@ -211,4 +213,4 @@ Some preference settings are only accessible through the [Parameter editor](Std_
 
 }} 
 
-[Category:Preferences{{\#translation:}}](Category:Preferences.md)
+[Category:Preferences](Category:Preferences.md)

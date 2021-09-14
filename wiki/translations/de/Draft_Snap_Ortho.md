@@ -3,7 +3,7 @@
    Name:Draft Ortho
    Name/de:Entwurf Ortho
    MenuLocation:Entwurf → [Fang](Draft_Snap/de.md) → Ortho
-   Workbenches:[Entwurf](Draft_Module/de.md), [Arch](Arch_Module/de.md)
+   Workbenches:[Entwurf](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
    SeeAlso:[Entwurf Fang](Draft_Snap/de.md), [Entwurf UmschaltenFang](Draft_ToggleSnap/de.md)
 ---
 

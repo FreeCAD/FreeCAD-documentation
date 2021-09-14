@@ -1,9 +1,9 @@
 ---
 - GuiCommand:/ru
-   Name:Std OrthographicCamera
-   Name/ru:Std OrthographicCamera
-   MenuLocation:Вид → Параллельная проекция
-   Workbenches:All
+   Name/ru:Ортогональная проекция
+   Name:Std_OrthographicCamera
+   MenuLocation:Вид → Ортогональная проекция
+   Workbenches:Все
    Shortcut:**V** **O**
    SeeAlso:[Перспективная проекция](Std_PerspectiveCamera/ru.md)
 ---
@@ -28,7 +28,7 @@
 
 -   The camera type can be changed in the preferences: **Edit → Preferences... → Display → 3D View → Camera type**. The selected type will be used for all 3D views of all opened documents and also for new documents. See [Preferences Editor](Preferences_Editor#3D_View.md).
 
-## Scripting
+## Программирование
 
 
 **Смотрите так же:**

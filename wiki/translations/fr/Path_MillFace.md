@@ -4,45 +4,28 @@
    Name/fr:Path Surfaçage
    MenuLocation:Path → Face
    Workbenches:[Path](Path_Workbench/fr.md)
-   Shortcut:
-   SeeAlso:
 ---
-
-
-</div>
 
 ## Description
 
-
-<div class="mw-translate-fuzzy">
-
-L\'outil <img alt="" src=images/Path_Face.svg  style="width:24px;"> [Path Surfaçage](Path_MillFace/fr.md) crée une trajectoire pour effectuer une opération de surfaçage sur une surface horizontale. Cette opération est généralement utilisée :
+L\'outil <img alt="" src=images/Path_MillFace.svg  style="width:24px;"> [Path Surfaçage](Path_MillFace/fr.md) crée une trajectoire pour effectuer une opération de surfaçage sur une surface horizontale. Cette opération est généralement utilisée :
 
 -   pour lisser la surface d\'un brut,
 -   pour fraiser une ou plusieurs faces sélectionnées à la profondeur souhaitée en vue d\'effectuer des opérations de dégagement ultérieures dans les limites des régions concernées par cette opération,
 -   ou pour appliquer une surface de finition sur la ou les faces sélectionnées.
 
-Cette opération contient une propriété {{PropertyData/fr|BoundaryShape}} qui permet de modifier la zone de sélection en fonction de la ou des faces sélectionnées. <img alt="Exemple de l\'opération Surfaçage utilisée pour préparer la surface du stock pour une opération de dégagement ultérieure." src=images/MillFace_Sample.png  style="width:600px;">
+Cette opération contient une propriété {{PropertyData/fr|BoundaryShape}} qui permet de modifier la zone de sélection en fonction de la ou des faces sélectionnées.
 
-
-</div>
-
-<img alt="Sample image of Mill Face operation used to prepare stock surface for subsequent clearing operation." src=images/MillFace_Sample.png  style="width:600px;">
+<img alt="Exemple de l\'opération Surfaçage utilisée pour préparer la surface du stock pour une opération de dégagement ultérieure." src=images/MillFace_Sample.png  style="width:600px;">
 
 ## Utilisation
 
-
-<div class="mw-translate-fuzzy">
-
 1.  Sélectionnez une ou plusieurs faces à surfacer. **Remarque:** Si les faces sélectionnées ont des hauteurs différentes, elles seront toutes fraisées à la profondeur finale.
-2.  Lancez la commande **<img src="images/Path_Face.svg" width=24px> [Surfaçage](Path_MillFace/fr.md)** par plusieurs méthodes :
-    -   Appuyer sur la commande **<img src="images/Path_Face.svg" width=24px> [Create a Facing operation...](Path_MillFace/fr.md)** de la barre d\'outils.
-    -   Utilisation du **Path** → **<img src="images/Path_Face.svg" width=24px> [Face](Path_MillFace/fr.md)** dans la barre d\'outils.
-3.  Sélectionnez le bon paramètre {{PropertyData/fr|BoundaryShape}} pour modifier la zone de fraisage en fonction de la ou des faces sélectionnées comme géométrie de base.
+2.  Il existe plusieurs façons de lancer la commande :
+    -   Appuyez sur le bouton **<img src="images/Path_MillFace.svg" width=16px> [Face](Path_MillFace/fr.md)**.
+    -   Sélectionnez l\'option **Path → <img src="images/Path_MillFace.svg" width=16px> Face** dans le menu.
+3.  Sélectionnez le bon paramètre {{PropertyData/fr|BoundaryShape}} pour modifier la zone de fraisage en fonction de la ou des faces sélectionnées comme **Base Geometry**.
 4.  Ajustez les autres propriétés selon vos besoins. Elles sont énumérées ci-dessous.
-
-
-</div>
 
 ## Avertissements
 
@@ -55,45 +38,19 @@ Cette opération contient une propriété {{PropertyData/fr|BoundaryShape}} qui 
 -   Cet outil ne fonctionnera pas sur un **plan vertical** ou une surface verticale non plane. Les opérations verticales peuvent être réalisées en utilisant l\'outil de profil de face ou l\'outil de profil de bord. Ceux-ci nécessiteront la sélection d\'une face ou d\'une boucle fermée d\'arêtes \'\'incluant le bord supérieur ou inférieur de la surface verticale souhaitée \'\'. L\'étendue de la trajectoire peut alors être réduite à l\'aide de l\'outil *Boundary Dress-up* qui se trouve dans le menu *Path*. Avec l\'outil Dress-up, sélectionnez l\'option *Create Box* et réduisez la taille pour limiter la portée de la trajectoire du profil. Ces réglages ne permettent toutefois pas de déplacer l\'origine de la zone de contour. Cela doit être fait en ajustant les paramètres de placement dans la [vue en arborescence](Tree_view/fr.md).
 -   Cela fonctionnera sur des surfaces composées telles que plusieurs plans verticaux ou surfaces cylindriques assemblées reliées entre elles, à condition qu\'elles forment une surface continue.
 
-
-<div class="mw-translate-fuzzy">
-
 ## Options
 
-Empty
-
-
-</div>
-
-Empty
-
-## Properties
-
-
-<div class="mw-translate-fuzzy">
+Vide
 
 ## Propriétés
 
-\'\'\' *Remarque* \'\'\': Les noms de certaines propriétés de cette liste diffèrent quelque peu des mêmes paramètres utilisés dans l\'éditeur de fenêtre de tâches.
+\'\'\' *Remarque* \'\'\': les noms de certaines propriétés de cette liste diffèrent un peu des mêmes paramètres que ceux utilisés dans l\'éditeur de fenêtre de tâche.
 
-
-</div>
-
-### Data Tab 
+### Données
 
 #### Base
 
-
-<div class="mw-translate-fuzzy">
-
-### Onglet Données 
-
-#### Base 
-
-Remarque : Il est suggéré de ne pas modifier la propriété Placement des opérations de trajectoire. Déplacez ou faites plutôt pivoter le modèle d\'opération de trajectoire selon les besoins.
-
-
-</div>
+Remarque: il est conseillé de ne pas modifier la propriété Placement des opérations de chemin. Déplacez ou faites pivoter le modèle de tâche de chemin selon vos besoins.
 
 -    {{PropertyData/fr|Placement}}: Placement global \[position et rotation\] de l\'objet - par rapport à l\'origine (ou l\'origine du conteneur de l\'objet parent)
 
@@ -235,22 +192,9 @@ Remarque : Il est suggéré de ne pas modifier la propriété Placement des opé
 
 -    {{PropertyData/fr|Use Start Point}}: Mis à True, si vous spécifiez manuellement un point de départ. Définissez le point de départ dans le champ Point de départ des données de propriété.
 
-
-<div class="mw-translate-fuzzy">
-
-### Onglet Vue 
+### Vue
 
 Vide
-
-
-</div>
-
-Empty
-
-## Scripting
-
-
-<div class="mw-translate-fuzzy">
 
 ## Script
 
@@ -259,17 +203,7 @@ Empty
 
 [FreeCAD Script de base](FreeCAD_Scripting_Basics/fr.md).
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Example: 
-```python#Place code example here.```
-
-
-</div>
+Exemple :
 
 
 ```python
@@ -277,13 +211,7 @@ Example:
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Path_Tools_navi

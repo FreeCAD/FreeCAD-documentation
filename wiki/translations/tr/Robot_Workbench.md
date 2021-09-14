@@ -1,3 +1,5 @@
+# Robot Workbench/tr
+
 
 
 
@@ -127,4 +129,4 @@ Robot yer değiştirmelerini modellemek için kullanılan işlevlerin açıklama
 
 }} 
 
-[Category:Workbenches/tr](Category:Workbenches/tr.md) [Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches/tr](Category:Workbenches/tr.md) [Category:Workbenches](Category:Workbenches.md)

@@ -1,3 +1,5 @@
+# Manual:Installing/es
+
 
 
 
@@ -117,4 +119,4 @@ Si estás usando el sistema operativo Ubuntu, algunos de los complementos anteri
 
 </div>
 
-[Category:Poweruser Documentation{{\#translation:}}](Category:Poweruser_Documentation.md) [Category:Tutorials{{\#translation:}}](Category:Tutorials.md)
+[Category:Poweruser Documentation](Category:Poweruser_Documentation.md) [Category:Tutorials](Category:Tutorials.md)

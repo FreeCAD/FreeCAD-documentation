@@ -1,3 +1,5 @@
+# Macro Make Cube/cs
+
  {{Macro/cs
 |Name=Make Cube
 |Translate=Make Cube

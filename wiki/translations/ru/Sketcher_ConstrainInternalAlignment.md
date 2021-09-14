@@ -1,14 +1,15 @@
 ---
 - GuiCommand:/ru
-   Name:Sketcher ConstrainInternalAlignment
-   Name/ru:Sketcher ConstrainInternalAlignment
+   Name/ru:Привязать к внутренней геометрии
+   Name:Sketcher_ConstrainInternalAlignment
    MenuLocation:Sketch → Ограничения эскиза → Привязать к внутренней геометрии
    Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
    Shortcut:**Ctrl** + **A**
-   SeeAlso:[Показать/скрыть внутреннюю геометрию](Sketcher_RestoreInternalAlignmentGeometry/ru.md), [Sketcher Ellipse by Center](Sketcher_CreateEllipseByCenter/ru.md)
+   Version:0.15
+   SeeAlso:[Sketcher Show/Hide Internal Geometry](Sketcher_RestoreInternalAlignmentGeometry.md), [Создать эллипс от центра](Sketcher_CreateEllipseByCenter/ru.md)
 ---
 
-## Description
+## Описание
 
 The InternalAlignment constraint aligns lines and points to particular places of a complex sketcher element (there is just one \"complex\" element so far, the [Ellipse](Sketcher_CreateEllipseByCenter.md)).
 
@@ -30,7 +31,7 @@ Likewise, the first point is constrained to become the first unoccupied focus, a
 
 **Note:** By default new ellipses have an internal construction geometry. When this defines the ellipse already completely, you cannot directly use the InternalAlignment constraint. You first need to delete the construction geometry or parts of it. In case you don\'t see the construction geometry, select the ellipse and use the tool **<img src=images/Sketcher_RestoreInternalAlignmentGeometry.svg style="width:16px"> [Show/Hide internal geometry](Sketcher_RestoreInternalAlignmentGeometry.md)** to make it visible.
 
-## Scripting
+## Программирование
 
 
 ```python

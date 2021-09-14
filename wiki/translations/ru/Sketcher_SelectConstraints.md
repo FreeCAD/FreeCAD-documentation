@@ -1,18 +1,18 @@
 ---
 - GuiCommand:/ru
-   Name:Sketcher SelectConstraints
-   Name/ru:Sketcher SelectConstraints
-   MenuLocation:Sketch → Инструменты для эскиза → Выделить ограничения
-   |Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
+   Name/ru:Выделить связанные ограничения
+   Name:Sketcher_SelectConstraints
+   MenuLocation:Sketch → Инструменты для эскиза → Выделить связанные ограничения
+   Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
    Shortcut:**Shift**+**Ctrl**+**C**
    Version:0.15
 ---
 
-## Description
+## Описание
 
 Selects the constraints of a sketcher element.
 
-## Usage
+## Применение
 
 1.  Select sketcher element in the [task panel](Task_panel.md) or in the [3D view](3D_view.md).
 2.  Invoke the Select Constraints command several ways
@@ -21,7 +21,7 @@ Selects the constraints of a sketcher element.
     -   Use the **Shift**+**Ctrl**+**C** keyboard shortcut
 3.  The associated constraints will be highlighted in the [task panel](Task_panel.md).
 
-## Notes
+## Примечания
 
 -   Does not work with Point-on-Object constraints.
 

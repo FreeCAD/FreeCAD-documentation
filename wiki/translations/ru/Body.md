@@ -1,3 +1,5 @@
+# Body/ru
+
 
 
 ## Введение
@@ -6,7 +8,7 @@
 
 Для дальнейшей информации об этом типе объекта см. [PartDesign Body](PartDesign_Body/ru.md).
 
-## Использование
+## Применение
 
 1.  Переключитесь на [верстак PartDesign](PartDesign_Workbench/ru.md).
 2.  Нажмите **<img src=images/PartDesign_Body.svg style="width:16px"> [PartDesign Body](PartDesign_Body/ru.md)**.
@@ -27,4 +29,4 @@ Body не требуется при использовании [верстака
 
 }} {{Document objects navi}} 
 
-[Category:Glossary{{\#translation:}}](Category:Glossary.md)
+[Category:Glossary](Category:Glossary.md)

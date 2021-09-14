@@ -1,3 +1,5 @@
+# Topological naming problem/es
+
 
 
 ## Introducción
@@ -133,4 +135,4 @@ Los objetos Datum, [puntos](PartDesign_Point/es.md), [líneas](PartDesign_Line/e
 
  {{TechDraw Tools navi}} {{PartDesign Tools navi}} 
 
-[Category:Common Questions{{\#translation:}}](Category:Common_Questions.md)
+[Category:Common Questions](Category:Common_Questions.md)

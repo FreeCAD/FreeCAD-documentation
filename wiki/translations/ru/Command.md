@@ -1,3 +1,5 @@
+# Command/ru
+
 
 
 ## Вступление
@@ -105,4 +107,4 @@ FreeCADGui.addCommand('My_Command', MyCommand())
 
 }}
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Python Code{{\#translation:}}](Category:Python_Code.md) [Category:Glossary{{\#translation:}}](Category:Glossary.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md) [Category:Glossary](Category:Glossary.md)

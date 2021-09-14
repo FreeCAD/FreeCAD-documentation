@@ -1,3 +1,5 @@
+# Macro SplitPropEditor/en
+
  {{Macro
 |Name=SplitPropEditor
 |Icon=

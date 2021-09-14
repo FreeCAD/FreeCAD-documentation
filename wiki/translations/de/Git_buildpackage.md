@@ -1,3 +1,5 @@
+# Git buildpackage/de
+
 
 
 Moderne Debian Entwicklungs Arbeitsabläufe beinhalten [Paketerstellung mit Git](https://wiki.debian.org/PackagingWithGit) und das primäre Werkzeug dafür ist [git-buildpackage](http://honk.sigxcpu.org/projects/git-buildpackage/manual-html/gbp.html). git-buildpackage bietet einen Befehl gbp mit mehreren Optionen ähnlich dem Befehl git selbst. Viele dieser Befehle sind selbst nur ein Hülle von untergeordneten Debian Werkzeugen, so dass die Komplexität beim Erlernen von Paketerstellung ziemlich hoch sein kann.
@@ -34,4 +36,4 @@ Location: ~/.pbuilderrc
 
  
 
-[Category:Packaging{{\#translation:}}](Category:Packaging.md) [Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md)
+[Category:Packaging](Category:Packaging.md) [Category:Developer Documentation](Category:Developer_Documentation.md)

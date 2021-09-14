@@ -1,3 +1,5 @@
+# MIBA/fr
+
 
 
 ## Introduction
@@ -8,7 +10,7 @@ Un cahier des charges détaillé, vous pouvez trouver ici: [MIBA](http://miba.ju
 
 ## Miba dans FreeCAD 
 
-Si vous choisissez un format de fichier qui possède une fonction de commentaire (JPG et PNG), vous pouvez choisir d\'écrire un commentaire ou d\'insérer les informations MIBA dans les fichiers de commentaire (par défaut) :
+Si vous choisissez un format de fichier qui possède une capacité de commentaire (JPG et PNG), vous pouvez choisir d\'écrire un commentaire ou d\'insérer les informations MIBA dans les champs de commentaire (par défaut) :
 
 <img alt="" src=images/Save_picture.png  style="width:600px;">
 
@@ -37,4 +39,4 @@ for p in ["PerspectiveCamera", "OrthographicCamera"]:
 App.closeDocument(App.ActiveDocument.Name)
 ```
 
-[Category:User\_Documentation{{\#translation:}}](Category:User_Documentation.md)
+[Category:User\_Documentation](Category:User_Documentation.md)

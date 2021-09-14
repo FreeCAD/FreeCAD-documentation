@@ -19,10 +19,16 @@ Inserta una cuña primitiva en el Body (cuerpo) activo como primera operación, 
 
 ## Uso
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Presionar el botón **<img src="images/PartDesign_AdditiveWedge.svg" width=24px> '''Cuña aditiva'''** . **Nota**: La Cuña aditiva forma parte de un icono de herramientas llamado *Crear una primitiva aditiva*. Tras abrir FreeCad, el icono de Crear una primitiva aditiva es el único que se muestra en la barra de herramientas. Para obtener el botón de la Cuña, pinchar en la flecha que indica hacia abajo que está al lado del icono visible y seleccionar Cuña aditiva en el menú desplegable.
 2.  Seleccionar los parámetros de la primitiva y el [Attachment](Part_Attachment.md).
 3.  Aceptar **OK**.
 4.  Una operación de Cuña aparece dentro del Body (cuerpo) activo.
+
+
+</div>
 
 ## Opciones
 

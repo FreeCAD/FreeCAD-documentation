@@ -21,7 +21,7 @@ L\'oggetto <img src=images/Draft_Clone.svg style="width:App Link](App_Link/it.md
 
 <div class="mw-translate-fuzzy">
 
-Di per sé l\'oggetto <img src=images/Draft_OrthoArray.svg style="width:Link](App_Link/it.md) può comportarsi come un array, duplicando più volte il suo oggetto base; questo può essere fatto impostando la sua proprietà **Element Count** su {{Value|1}} o più grande. Questo oggetto \"[Link\_Array](Std_LinkMake/it#Link_Array.md)\" può essere creato anche con i diversi strumenti dell\'array <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Ambiente Draft](Draft_Module/it.md), per esempio, **[16px"> <img src=images/Draft_PolarArray.svg style="width:Draft Serie ortogonale](Draft_OrthoArray/it.md)**, **[16px"> <img src=images/Draft_CircularArray.svg style="width:Draft Serie polare](Draft_PolarArray/it.md)**, and **[16px"> [Draft Serie circolare](Draft_CircularArray/it.md)**.
+Di per sé l\'oggetto <img src=images/Draft_OrthoArray.svg style="width:Link](App_Link/it.md) può comportarsi come un array, duplicando più volte il suo oggetto base; questo può essere fatto impostando la sua proprietà **Element Count** su {{Value|1}} o più grande. Questo oggetto \"[Link\_Array](Std_LinkMake/it#Link_Array.md)\" può essere creato anche con i diversi strumenti dell\'array <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Ambiente Draft](Draft_Workbench/it.md), per esempio, **[16px"> <img src=images/Draft_PolarArray.svg style="width:Draft Serie ortogonale](Draft_OrthoArray/it.md)**, **[16px"> <img src=images/Draft_CircularArray.svg style="width:Draft Serie polare](Draft_PolarArray/it.md)**, and **[16px"> [Draft Serie circolare](Draft_CircularArray/it.md)**.
 
 
 </div>
@@ -153,7 +153,7 @@ Una volta che si è soddisfatti del posizionamento e delle proprietà degli elem
 
 <div class="mw-translate-fuzzy">
 
-Quando si crea questo tipo di array Link, è necessario posizionare manualmente ciascuno degli elementi; tuttavia, se si desidera utilizzare modelli specifici per posizionare le copie, è possibile utilizzare gli strumenti di array del <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> <img src=images/Draft_OrthoArray.svg style="width:Ambiente Draft](Draft_Module/it.md), come **[16px"> <img src=images/Draft_PolarArray.svg style="width:Draft: Serie ortogonale](Draft_OrthoArray/it.md)**, **[16px"> <img src=images/Draft_CircularArray.svg style="width:Draft: Serie Polare](Draft_PolarArray/it.md)**, e **[16px"> [Draft: Serie circolare](Draft_CircularArray/it.md)**; questi comandi possono creare copie normali o copie Link a seconda delle opzioni al momento della creazione.
+Quando si crea questo tipo di array Link, è necessario posizionare manualmente ciascuno degli elementi; tuttavia, se si desidera utilizzare modelli specifici per posizionare le copie, è possibile utilizzare gli strumenti di array del <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> <img src=images/Draft_OrthoArray.svg style="width:Ambiente Draft](Draft_Workbench/it.md), come **[16px"> <img src=images/Draft_PolarArray.svg style="width:Draft: Serie ortogonale](Draft_OrthoArray/it.md)**, **[16px"> <img src=images/Draft_CircularArray.svg style="width:Draft: Serie Polare](Draft_PolarArray/it.md)**, e **[16px"> [Draft: Serie circolare](Draft_CircularArray/it.md)**; questi comandi possono creare copie normali o copie Link a seconda delle opzioni al momento della creazione.
 
 
 </div>

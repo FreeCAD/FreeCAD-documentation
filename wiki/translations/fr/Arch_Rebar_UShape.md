@@ -143,15 +143,9 @@ UShapeRebar.editUShapeRebar(Rebar2, 70, 50, 20, 20,
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
  
 
-[Category:Reinforcement{{\#translation:}}](Category:Reinforcement.md)
+[Category:Reinforcement](Category:Reinforcement.md)

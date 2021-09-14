@@ -1,3 +1,5 @@
+# Draft DAT/it
+
 
 
 
@@ -7,7 +9,12 @@
 <div class="mw-translate-fuzzy">
 
 
-{{docnav/it|[Open Cad format .OCA](Draft_OCA/it.md)||[Draft](Draft_Module/it.md)|IconC=Workbench_Draft.svg}}
+{{docnav/it
+|[Open Cad format .OCA](Draft_OCA/it.md)
+|
+|[Draft](Draft_Workbench/it.md)
+|IconC=Workbench_Draft.svg
+}}
 
 
 </div>
@@ -20,7 +27,12 @@ Di questo formato esistono molti *dialetti*, questo modulo di importazione cerca
 <div class="mw-translate-fuzzy">
 
 
-{{docnav/it|[Open Cad format .OCA](Draft_OCA/it.md)||[Draft](Draft_Module/it.md)|IconC=Workbench_Draft.svg}}
+{{docnav/it
+|[Open Cad format .OCA](Draft_OCA/it.md)
+|
+|[Draft](Draft_Workbench/it.md)
+|IconC=Workbench_Draft.svg
+}}
 
 
 </div>
@@ -28,4 +40,4 @@ Di questo formato esistono molti *dialetti*, questo modulo di importazione cerca
 
  
 
-[Category:File Formats{{\#translation:}}](Category:File_Formats.md)
+[Category:File Formats](Category:File_Formats.md)

@@ -1,5 +1,12 @@
 ---
-- GuiCommand:/pt-br   Name:Draft SelectPlane   Name/pt-br:Draft SelectPlane   Workbenches:[Arch](Draft_Module/pt-br___Draft]],_[[Arch_Module/pt-br.md)|MenuLocation:Draft -> Utilities -> Select Plane---
+- GuiCommand:/pt-br
+   Name:Draft SelectPlane
+   Name/pt-br:Draft SelectPlane
+   MenuLocation:Draft -> Utilities -> Select Plane
+   Workbenches:[Draft](Draft_Workbench/pt-br.md), [Arch](Arch_Workbench/pt-br.md)
+   Shortcut:**W** **P**
+   SeeAlso:[Draft WorkingPlaneProxy](Draft_WorkingPlaneProxy.md)
+---
 
 
 </div>

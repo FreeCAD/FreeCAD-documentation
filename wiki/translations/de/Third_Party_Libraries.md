@@ -1,3 +1,5 @@
+# Third Party Libraries/de
+
 
 
 
@@ -278,4 +280,4 @@ Siehe die Ankündigung im Forum: [Neue Libpacks für Windows mit Qt5.12, OCC7.3 
 
  
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md)

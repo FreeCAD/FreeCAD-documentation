@@ -2,7 +2,7 @@
 - GuiCommand:/de
    Name:TechDraw Dimension Angle
    Name/de:TechDraw Winkelbemaßung
-   MenuLocation:TechDraw → Winkel bemaßen
+   MenuLocation:TechDraw → Bemaßungen → Winkelmaß einfügen
    Workbenches:[TechDraw](TechDraw_Workbench/de.md)
    SeeAlso:[TechDraw Bemaßung Winkel3Punkte](TechDraw_Dimension_Angle3Pt/de.md)
 ---

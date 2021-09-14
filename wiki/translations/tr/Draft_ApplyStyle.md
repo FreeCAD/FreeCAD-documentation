@@ -3,7 +3,7 @@
    Name:Draft Apply
    Name/tr:Stili uygula
    MenuLocation:Taslak→ Araçlar → Stili uygula
-   Workbenches:[Taslak](Draft_Module/tr.md), [Yapı](Arch_Module/tr.md)
+   Workbenches:[Taslak](Draft_Workbench/tr.md), [Yapı](Arch_Workbench/tr.md)
    SeeAlso:[Tepsi](Draft_Tray/tr.md)
 ---
 

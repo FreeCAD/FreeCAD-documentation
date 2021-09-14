@@ -1,3 +1,5 @@
+# Scientific literature/de
+
 
 
 ## Beschreibung
@@ -15,4 +17,4 @@ Die meisten dieser Artikel sind frei zugänglich.
 
 }}
 
-[Category:Hubs{{\#translation:}}](Category:Hubs.md)
+[Category:Hubs](Category:Hubs.md)

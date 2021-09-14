@@ -1,3 +1,5 @@
+# Macro Print SceneGraph/it
+
  {{Macro/it
 |Name=Macro_Print_SceneGraph
 |Translate=Stampa SceneGraph

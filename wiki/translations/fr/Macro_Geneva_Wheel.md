@@ -1,3 +1,5 @@
+# Macro Geneva Wheel/fr
+
  {{Macro/fr
 |Name=Geneva Wheel
 |Icon=GW_Dim.png

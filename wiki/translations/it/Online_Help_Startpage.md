@@ -1,3 +1,5 @@
+# Online Help Startpage/it
+
 
 
 
@@ -35,4 +37,4 @@ Come sicuramente vi sarà capitato di constatare, i programmatori sono pessimi s
 
 
 
-[Category:User\_Documentation{{\#translation:}}](Category:User_Documentation.md)
+[Category:User\_Documentation](Category:User_Documentation.md)

@@ -7,9 +7,6 @@
    SeeAlso:[Part Décalage](Part_Offset/fr.md)
 ---
 
-
-</div>
-
 ## Description
 
 L\'outil <img alt="" src=images/Part_Thickness.svg  style="width:24px;"> [Évidement](Part_Thickness/fr.md) travaille sur une forme solide et le transforme en un objet creux, donnant à chacune de ses parois une épaisseur définie. Sur certains solides, il vous permet d\'accélérer considérablement le travail et évite de faire des extrusions et des cavités.
@@ -75,13 +72,7 @@ Remarques:
 ![](images/ThicknessEsempio4.png )
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
   

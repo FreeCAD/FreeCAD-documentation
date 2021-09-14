@@ -1,3 +1,5 @@
+# Spreadsheet Workbench/pt-br
+
  
 
 <img alt="ícone da bancada de trabalho Spreadsheet" src=images/Workbench_Spreadsheet.svg  style="width:128px;">
@@ -143,6 +145,9 @@ While you may use the row and column number in an expression to reference a cell
 
 A edição de uma planilha irá desencadear uma recomputação do modelo 3D, mesmo que as mudanças não afetem o modelo. Para um modelo complexo, uma recomputação pode levar muito tempo, e ter que esperar após cada edição é, naturalmente, bastante irritante.
 
+
+<div class="mw-translate-fuzzy">
+
 Há três soluções para lidar com isso:
 
 1.  Pular temporariamente as recomputas:
@@ -158,6 +163,9 @@ Há três soluções para lidar com isso:
     -   A vantagem de ter a planilha em outro arquivo sobre o desligamento de recomputas é que a própria planilha é recalculada.
     -   A desvantagem é que o modelo não será recalculado automaticamente após alterações na planilha.
     -   No cenário onde você primeiro abre o arquivo \'planilha\', altera um ou mais valores e depois abre o arquivo \'modelo\', não haverá nenhuma indicação de que o modelo precisa ser recalculado. Mas se ambos os arquivos estiverem abertos, o ícone [Atualização](Std_Refresh/pt-br.md) será atualizado corretamente para o arquivo \'modelo\' após as mudanças no arquivo \'planilha\'.
+
+
+</div>
 
 ## Unidades
 
@@ -219,4 +227,4 @@ sheet.get('Diameter')
 
 }} 
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

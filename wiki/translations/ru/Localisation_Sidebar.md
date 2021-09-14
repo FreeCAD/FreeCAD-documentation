@@ -1,3 +1,5 @@
+# Localisation Sidebar/ru
+
  [Localisation](Localisation.md) is the process of providing software with a multiple language user interface. The documentation wiki can also be localized, as described in section [Translate the FreeCAD wiki](Localisation#Translate_the_FreeCAD_wiki.md).
 
 The sidebar is an important navigation tool in the wiki world, see [Manual:Interface/Sidebar](http://www.mediawiki.org/wiki/Manual:Interface/Sidebar) for more information.
@@ -30,4 +32,4 @@ Do not add the language codes \"/fr\", \"/de\", \"/es\", \"/ru\", etc., if the t
 
 
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Wiki{{\#translation:}}](Category:Wiki.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Wiki](Category:Wiki.md)

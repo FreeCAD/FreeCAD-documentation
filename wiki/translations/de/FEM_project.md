@@ -1,3 +1,5 @@
+# FEM project/de
+
 
 
 
@@ -37,19 +39,19 @@ Dies ist der Projektplan für die FreeCAD FEM Integration im Rahmen der [Develop
 
 ## Ideenfindung
 
-### Potential meshers 
+### Potentielle Vernetzer 
 
 <img alt="" src=images/Netgen.jpg  style="width:600px;">
 
-See [FEM Mesh](FEM_Mesh.md)
+Siehe [FEM Polygonnetz](FEM_Mesh/de.md)
 
-### Potential solvers 
+### Potentielle Löser 
 
-See [FEM Solver](FEM_Solver.md)
+Siehe [FEM Löser](FEM_Solver/de.md)
 
 
 {{FEM Tools navi
 
 }}  
 
-[Category:Roadmap{{\#translation:}}](Category:Roadmap.md)
+[Category:Roadmap](Category:Roadmap.md)

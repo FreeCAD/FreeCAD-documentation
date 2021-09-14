@@ -1,3 +1,5 @@
+# Crowdin Administration/ru
+
 
 
 ## Роли
@@ -39,4 +41,4 @@
 
 
 
-[Category:Administration{{\#translation:}}](Category:Administration.md)
+[Category:Administration](Category:Administration.md)

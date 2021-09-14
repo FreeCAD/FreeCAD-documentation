@@ -1,14 +1,11 @@
 ---
 - GuiCommand:/ru
-   Name:Sketcher CreatePentagon
    Name/ru:Пятиугольник
-   MenuLocation:Эскиз → Геометрия эскиза → Пятиугольник
+   Name:Sketcher_CreatePentagon
+   MenuLocation:Sketch → Геометрия эскиза → Создать пятиугольник
    Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
    Version:0.15
 ---
-
-
-</div>
 
 ## Описание
 
@@ -16,30 +13,14 @@
 
 ![](images/SketcherCreatePentagonExample.png‎ )
 
+## Применение
 
-<div class="mw-translate-fuzzy">
-
-## Как использовать 
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   После нажатия кнопки **<img src=images/Sketcher_CreatePentagon.png style="width:16px"> Пятиугольник**, нажмите первый раз, чтобы задать центр, затем переместите мышь и нажмите второй раз, чтобы задать одну из вершин.
+-   После нажатия кнопки **<img src=images/Sketcher_CreatePentagon.svg style="width:16px"> [Пятиугольник](Sketcher_CreatePentagon/ru.md)**, нажмите первый раз, чтобы задать центр, затем переместите мышь и нажмите второй раз, чтобы задать одну из вершин.
 -   Нажатие **Esc** или правой кнопки мыши закрывает функцию.
 
+## Примечания
 
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-При редактировании эскиза описанный круг виден, когда вы закрываете эскиз, он пропадает.
-
-
-</div>
+Видимая окружность является элементом вспомогательной геометрией, которая видна только при редактировании эскиза.
 
 
 
@@ -47,4 +28,4 @@
 
 {{Sketcher Tools navi
 
-}}  
+}} 

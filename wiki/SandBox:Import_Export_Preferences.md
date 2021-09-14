@@ -1,3 +1,5 @@
+# SandBox:Import Export Preferences
+
  
 
 
@@ -625,4 +627,4 @@ For the Mesh formats you can specify the following:
 
  
 
-[Category:Common Questions{{\#translation:}}](Category:Common_Questions.md) [Category:Preferences{{\#translation:}}](Category:Preferences.md) [Category:File\_Formats{{\#translation:}}](Category:File_Formats.md)
+[Category:Common Questions](Category:Common_Questions.md) [Category:Preferences](Category:Preferences.md) [Category:File\_Formats](Category:File_Formats.md)

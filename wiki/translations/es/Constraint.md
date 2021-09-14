@@ -1,3 +1,5 @@
+# Constraint/es
+
 
 
 ## Introducción
@@ -41,7 +43,7 @@ Vea la información en el <img alt="" src=images/Workbench_Sketcher.svg  style="
 <div class="mw-translate-fuzzy">
 
 -   Las restricciones son útiles para crear perfiles muy precisos que pueden ser convertidos en extrusiones sólidas usando el **<img src=images/PartDesign_Pad.svg style="width:16px"> <img src=images/Part_Extrude.svg style="width:PartDesign Pad](PartDesign_Pad/es.md)** o**[16px"> [Pieza extrusión](Part_Extrude/es.md)** operaciones.
--   Las restricciones sólo se utilizan dentro de [Sketches](Sketch/es.md); otros objetos 2D como los creados con el <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Ambiente de trabajo Borrador](Draft_Module/es.md) no entienden de restricciones; estas últimas simplemente se colocan en el espacio 3D, y sus propiedades definen su forma y posición.
+-   Las restricciones sólo se utilizan dentro de [Sketches](Sketch/es.md); otros objetos 2D como los creados con el <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Ambiente de trabajo Borrador](Draft_Workbench/es.md) no entienden de restricciones; estas últimas simplemente se colocan en el espacio 3D, y sus propiedades definen su forma y posición.
 
 
 </div>
@@ -51,4 +53,4 @@ Vea la información en el <img alt="" src=images/Workbench_Sketcher.svg  style="
 
 }} {{Document objects navi}} 
 
-[Category:Glossary{{\#translation:}}](Category:Glossary.md)
+[Category:Glossary](Category:Glossary.md)

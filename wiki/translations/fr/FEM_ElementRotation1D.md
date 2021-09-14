@@ -9,35 +9,26 @@
 
 ## Description
 
-
-<div class="mw-translate-fuzzy">
-
-## Description 
-
-
-</div>
-
-## Usage
-
-
-<div class="mw-translate-fuzzy">
+**Elément de rotation 1D** est utilisé pour faire tourner le profil du faisceau autour de l\'axe des éléments du faisceau.
 
 ## Utilisation
 
-
-</div>
+1.  Il existe plusieurs façons de lancer la commande :
+    -   Appuyez sur le bouton **<img src="images/FEM_ElementRotation1D.svg" width=16px> [FEM ElementRotation1D](FEM_ElementRotation1D/fr.md)**.
+    -   Sélectionnez l\'option **Modèle → Géométrie de l'élément → <img src="images/FEM_ElementRotation1D.svg" width=16px> Rotation de poutre** dans le menu.
+2.  Spécifiez l\'angle selon lequel le profilé de la poutre doit être tourné.
 
 ## Options
 
-## Properties
+## Propriétés
 
 ## Limitations
 
--   Currently multiple rotations are not supported (a single rotation is applied to all beams in the model).
+-   Actuellement, les rotations multiples ne sont pas prises en charge (une seule rotation est appliquée à toutes les poutres du modèle).
 
-## Notes
+## Remarques
 
--   To visualize the rotated cross-section it is necessary to set `Beam Shell Result Output 3D` in the [FEM SolverCalculixCxxtools](FEM_SolverCalculixCxxtools.md) to `True` and run the analysis.
+-   Pour visualiser la section transversale tournée, il est nécessaire de définir `Beam Shell Result Output 3D` dans le [FEM Solveur CalculiX standard](FEM_SolverCalculixCxxtools/fr.md) à `True` et exécuter l\'analyse.
 
 
 

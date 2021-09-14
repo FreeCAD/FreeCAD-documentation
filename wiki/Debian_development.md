@@ -1,3 +1,5 @@
+# Debian development
+
  
 
 Debian is the parent distribution from which many other Linux distributions are derived, such as Ubuntu, Linux Mint, and others. As such, it\'s worthwhile to focus specifically on Debian development since improvements in Debian will filter down through its descendants.
@@ -6,4 +8,4 @@ Debian is the parent distribution from which many other Linux distributions are 
 
  
 
-[Category:Packaging{{\#translation:}}](Category:Packaging.md) [Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md)
+[Category:Packaging](Category:Packaging.md) [Category:Developer Documentation](Category:Developer_Documentation.md)

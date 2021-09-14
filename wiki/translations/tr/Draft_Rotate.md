@@ -2,9 +2,9 @@
 - GuiCommand:/tr
    Name:Draft Rotate
    Name/tr:Döndür
-   Workbenches:[Taslak](Draft_Module/tr.md), [Mimari](Arch_Module/tr.md)
    MenuLocation:Taslak → Döndür
-   Shortcut:R O
+   Workbenches:[Taslak](Draft_Workbench/tr.md), [Mimari](Arch_Workbench/tr.md)
+   Shortcut:**R** **O**
    SeeAlso:[Taşı](Draft_Move/tr.md), [Dizi](Draft_Array/tr.md)
    Version:0.17
 ---
@@ -89,7 +89,7 @@ The single character keyboard shortcuts and the modifier key mentioned here can 
 
 ## Notes
 
--   An Object that is [attached](Part_Attachment.md) cannot be rotated with the Draft Rotate command. To rotate it either its **Support** object has to be rotated, or its **Attachment Offset** has to be changed.
+-   An Object that is [attached](Part_EditAttachment.md) cannot be rotated with the Draft Rotate command. To rotate it either its **Support** object has to be rotated, or its **Attachment Offset** has to be changed.
 
 ## Preferences
 

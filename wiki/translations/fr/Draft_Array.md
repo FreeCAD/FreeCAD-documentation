@@ -3,7 +3,7 @@
    Name:Draft Array
    Name/fr:Draft Réseau
    MenuLocation:Draft → Réseau
-   Workbenches:[Draft](Draft_Module/fr.md)
+   Workbenches:[Draft](Draft_Workbench/fr.md)
    SeeAlso:[Draft Réseau polaire](Draft_PolarArray/fr.md), [Draft Réseau circulaire](Draft_CircularArray/fr.md), [Draft Chemin pour série de copies](Draft_PathArray/fr.md), [Draft Matrice de points](Draft_PointArray/fr.md), [Draft Clone](Draft_Clone/fr.md)
 ---
 

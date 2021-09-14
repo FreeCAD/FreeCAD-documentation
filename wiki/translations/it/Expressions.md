@@ -1,3 +1,5 @@
+# Expressions/it
+
  {{TOCright}}
 
 ## Descrizione
@@ -736,4 +738,4 @@ Naturalmente, dopo spetta all\'utente il compito di caricare i documenti corrisp
 
 }} 
 
-[Category:Spreadsheet{{\#translation:}}](Category:Spreadsheet.md)
+[Category:Spreadsheet](Category:Spreadsheet.md)

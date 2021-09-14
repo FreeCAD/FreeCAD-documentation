@@ -1,3 +1,5 @@
+# Feature list/id
+
  
 
 
@@ -16,9 +18,9 @@ Ini luas, belum sepenuhnya lengkap, daftar implementasi dari fitur - fitur FreeC
 
 <div class="mw-translate-fuzzy">
 
--   [Rilis 0.11](Release_notes_011/id.md) - March 2011
--   [Rilis 0.12](Release_notes_012/id.md) - December 2011
--   [Rilis 0.13](Release_notes_013/id.md) - January 2013
+-   [Rilis 0.11](Release_notes_0.11/id.md) - March 2011
+-   [Rilis 0.12](Release_notes_0.12/id.md) - December 2011
+-   [Rilis 0.13](Release_notes_0.13/id.md) - January 2013
 
 
 </div>
@@ -275,4 +277,4 @@ Power users have created various custom [external workbenches](external_workbenc
 
 
 
-[Category:User Documentation{{\#translation:}}](Category:User_Documentation.md)
+[Category:User Documentation](Category:User_Documentation.md)

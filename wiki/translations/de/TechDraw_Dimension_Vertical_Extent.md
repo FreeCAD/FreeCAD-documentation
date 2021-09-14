@@ -2,7 +2,7 @@
 - GuiCommand:/de
    Name:TechDraw Dimension Vertical Extent
    Name/de:TechDraw Bemaßung Vertikale Ausdehnung
-   MenuLocation:TechDraw → Bemaßung Vertikale Ausdehnung
+   MenuLocation:TechDraw → Bemaßung → Maß für die vertikale Ausdehnung einfügen
    Workbenches:[TechDraw](TechDraw_Workbench/de.md)
    Version:0.19
    SeeAlso:[TechDraw Bemaßung Länge](TechDraw_Dimension_Length/de.md), [TechDraw Bemaßung Horizontale Ausdehnung](TechDraw_Dimension_Horizontal_Extent/de.md)

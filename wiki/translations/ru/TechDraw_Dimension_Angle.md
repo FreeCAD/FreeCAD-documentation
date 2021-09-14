@@ -1,8 +1,8 @@
 ---
 - GuiCommand:/ru
-   Name:TechDraw  Dimension Angle
-   Name/ru:TechDraw  Dimension Angle
-   MenuLocation:TechDraw → Dimension Angle
+   Name/ru:TechDraw_Dimension_Angle
+   Name:TechDraw_Dimension_Angle
+   MenuLocation:TechDraw → Размеры → Вставить Угловой размер
    Workbenches:[TechDraw](TechDraw_Workbench/ru.md)
    SeeAlso:[TechDraw Dimension Angle3Pt](TechDraw_Dimension_Angle3Pt/ru.md)
 ---
@@ -37,9 +37,9 @@ This object has the same properties as the [TechDraw Dimension Length](TechDraw_
 ## Программирование
 
 
-**See also:**
+**См. так же:**
 
-[TechDraw API](TechDraw_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+[TechDraw API](TechDraw_API/ru.md) и [Основы составления скриптов FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 
 The Dimension Angle tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following functions:
 
@@ -52,7 +52,13 @@ rc = page.addView(dim1)
 ```
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{TechDraw Tools navi

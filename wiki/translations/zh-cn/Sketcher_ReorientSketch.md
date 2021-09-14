@@ -1,9 +1,10 @@
 ---
-- GuiCommand:
-   Name:Sketcher ReorientSketch
+- GuiCommand:/zh-cn
+   Name/zh-cn:调整草图方向...
+   Name:Sketcher_ReorientSketch
    MenuLocation:Sketch → Reorient sketch
-   Workbenches:[Sketcher](Sketcher_Workbench.md), [PartDesign](PartDesign_Workbench.md)
-   SeeAlso:[Sketcher Map sketch](Sketcher_MapSketch.md), [Sketcher New Sketch](Sketcher_NewSketch.md)
+   Workbenches:[Sketcher](Sketcher_Workbench/zh-cn.md), [PartDesign](PartDesign_Workbench/zh-cn.md)
+   SeeAlso:[映射草图至面...](Sketcher_MapSketch/zh-cn.md), [创建草图](Sketcher_NewSketch/zh-cn.md)
 ---
 
 ## 描述
@@ -25,7 +26,13 @@
 -   如果没有选中任何草图，则此命令将呈灰色不可用状态。
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{Sketcher Tools navi

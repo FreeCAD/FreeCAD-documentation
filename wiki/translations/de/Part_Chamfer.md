@@ -7,20 +7,9 @@
    SeeAlso:[Part Verrundung](Part_Fillet/de.md)
 ---
 
-
-</div>
-
-## Description
-
-
-<div class="mw-translate-fuzzy">
-
 ## Beschreibung
 
 Anfasen der gewählten Kante(n) eines Objekts. Ein Dialog erlaubt die Auswahl, welche Kante(n) betroffen sind, sowie die Anpassung verschiedener Anfasungsparameter.
-
-
-</div>
 
 ![Anfasungsbeispiel](images/Chamfer-example.png )
 
@@ -40,11 +29,6 @@ Anfasen der gewählten Kante(n) eines Objekts. Ein Dialog erlaubt die Auswahl, w
 
 </div>
 
-## Options
-
-
-<div class="mw-translate-fuzzy">
-
 ## Optionen
 
 ![Dialog-chamfer](images/Dialog-chamfer.png )
@@ -54,29 +38,12 @@ Anfasen der gewählten Kante(n) eines Objekts. Ein Dialog erlaubt die Auswahl, w
     -   Eine Fase mit konstanter Länge erzeugt eine Fase mit Kanten, die in dem angegebenen Abstand gleich weit von der Originalkante entfernt sind.
     -   Eine Fase mit variabler Länge hat Kanten, die in unterschiedlichen Abständen von der ursprünglichen Kante eingestellt werden können, so dass du eine Fase in einem variablen Winkel erstellen kannst.
 
-
-</div>
-
-## Properties
-
-
-<div class="mw-translate-fuzzy">
-
 ## Eigenschaften
 
-![Part\_Faseneigenschaften](images/Part_Chamfer-Properties.png )
+![Part\_Faseneigenschaften](images/Part_Chamfer-Properties.png ) 
 
 
-</div>
-
-
-{{Properties_Title|Base}}
-
-
-<div class="mw-translate-fuzzy">
-
-
-{{Properties_Title|Basis}}
+{{Properties_Title/de|Basis}}
 
 -    {{PropertyData/de|Basis}}: Die Form, auf die die Fase aufgebracht werden soll.
 
@@ -87,40 +54,15 @@ Anfasen der gewählten Kante(n) eines Objekts. Ein Dialog erlaubt die Auswahl, w
 
 
 
-
-</div>
-
-## Limitations
-
-
-<div class="mw-translate-fuzzy">
-
-## Begrenzungen
+## Einschränkungen
 
 Die Fase könnte nichts ausrichten, wenn das Ergebnis die nächste angrenzende Kante berühren oder überqueren würde. Wenn du also nicht das erwartete Ergebnis erhälst, versuche es mit einem kleineren Wert. Dies gilt auch für <img alt="" src=images/Part_Fillet.svg  style="width:24px;"> [Part Verrundung](Part_Fillet/de.md).
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Beachte auch, dass die Fasenfunktion von dem [Topologischen Benennungsproblem](Topological_naming_problem/de.md) betroffen ist, wenn die Änderung in einem Modellierungsschritt vorgenommen wird, der früher in der Kette liegt und die Anzahl der Facetten oder Eckpunkte beeinflusst. Dies kann zu unvorhersehbaren Ergebnissen führen. Bis dies gelöst ist (möglicherweise mit V0.19), wird empfohlen, die Operationen Fase und <img alt="" src=images/Part_Fillet.svg  style="width:24px;"> [Part Verrundung](Part_Fillet/de.md) auf die letzten Schritte in der Kette anzuwenden.
-
-
-</div>
-
-## Scripting
-
-
-<div class="mw-translate-fuzzy">
+Beachte auch, dass die Fasenfunktion von dem [Topologischen Benennungsproblem](Topological_naming_problem/de.md) betroffen ist, wenn die Änderung in einem Modellierungsschritt vorgenommen wird, der früher in der Kette liegt und die Anzahl der Facetten oder Eckpunkte beeinflusst. Dies kann zu unvorhersehbaren Ergebnissen führen. Bis dies gelöst ist (möglicherweise mit V0.20), wird empfohlen, die Operationen Fase und <img alt="" src=images/Part_Fillet.svg  style="width:24px;"> [Part Verrundung](Part_Fillet/de.md) auf die letzten Schritte in der Kette anzuwenden.
 
 ## Skripten
 
-Das Fasenwerkzeug kann in [Makros](macros/de.md) und von der Python Konsole aus verwendet werden, indem dem Dokument ein Fasenobjekt hinzugefügt wird.
-
-
-</div>
+Das Fasenwerkzeug kann in [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus verwendet werden, indem dem Dokument ein Fasenobjekt hinzugefügt wird.
 
 **Beispiel Skript:**
 

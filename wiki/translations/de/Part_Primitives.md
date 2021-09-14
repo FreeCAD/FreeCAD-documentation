@@ -6,9 +6,6 @@
    SeeAlso:[Part Formgenerator](Part_Builder/de.md)
 ---
 
-
-</div>
-
 ## Beschreibung
 
 [Part Grundelemente](Part_Primitives/de.md) öffnet ein Dialogfeld zum Erstellen irgendeines der parametrischen geometrischen Grundelemente, die im <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part Arbeitsbereich](Part_Workbench/de.md) definiert sind.
@@ -92,13 +89,7 @@ freecad $INSTALL_DIR/Mod/Part/parttests/part_test_objects.py
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
  

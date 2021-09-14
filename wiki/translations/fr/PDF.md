@@ -1,3 +1,5 @@
+# PDF/fr
+
 
 
 
@@ -28,4 +30,4 @@ L\'option d\'exportation au format PDF est disponible dans le menu **Fichier →
 
 
 
-[Category:File\_Formats{{\#translation:}}](Category:File_Formats.md)
+[Category:File\_Formats](Category:File_Formats.md)

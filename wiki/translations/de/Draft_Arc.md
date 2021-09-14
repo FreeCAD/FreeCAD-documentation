@@ -3,7 +3,7 @@
    Name:Draft Arc
    Name/de:Entwurf Bogen
    MenuLocation:Entwurf → Bogen
-   Workbenches:[Entwurf](Draft_Module/de.md), [Arch](Arch_Module/de.md)
+   Workbenches:[Entwurf](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
    Version:0.7
    SeeAlso:[Entwurf Kreis](Draft_Circle/de.md), [Entwurf Ellipse](Draft_Ellipse/de.md)
    Shortcut:**A** **R**

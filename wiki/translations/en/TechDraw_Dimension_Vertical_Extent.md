@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:TechDraw Dimension Vertical Extent
-   MenuLocation:TechDraw → Dimension Vertical Extent
+   MenuLocation:TechDraw → Dimensions → Insert Vertical Extent Dimension 
    Workbenches:[TechDraw](TechDraw_Workbench.md)
    Version:0.19
    SeeAlso:[TechDraw Dimension Length](TechDraw_Dimension_Length.md), [TechDraw Dimension Horizontal Extent](TechDraw_Dimension_Horizontal_Extent.md)

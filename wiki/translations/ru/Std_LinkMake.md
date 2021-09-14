@@ -74,7 +74,7 @@ Dragging and dropping results in different actions depending on the modifier key
 
 For the **Ctrl** and **Alt** modifiers, dragging and dropping can also be done with a single document. That is, dragging an object and dropping it into the same document\'s name can be used to create multiple copies or multiple Links to it.
 
-## Groups
+## Группы
 
 
 **<img src=images/Std_LinkMake.svg style="width:16px"> [Std LinkMake](Std_LinkMake.md)**
@@ -176,7 +176,7 @@ An [App Link](App_Link.md) (`App::Link` class) is derived from the basic [App Do
 
 The following are the specific properties available in the [property editor](Property_editor.md). Hidden properties can be shown by using the **Show all** command in the context menu of the [property editor](Property_editor.md).
 
-### Data
+### Данные
 
 
 {{TitleProperty| Link}}
@@ -214,13 +214,13 @@ The following are the specific properties available in the [property editor](Pro
 -    **_ChildCache|LinkList|Hidden**:
 
 
-{{TitleProperty|Base}}
+{{TitleProperty|Основные}}
 
 -    **Proxy|PythonObject|Hidden**: a custom class associated with this object. This only exists for the [Python](Python.md) version. See [Scripting](Std_LinkMake#Scripting.md).
 
 The [App Link](App_Link.md) object will additionally show the properties of the original **Linked Object**, so the [property editor](property_editor.md) may have groups of properties like {{TitleProperty|Attachment}}, {{TitleProperty|Box}}, {{TitleProperty|Draft}}, etc.
 
-### View
+### Вид
 
 
 {{TitleProperty| Link}}
@@ -268,7 +268,7 @@ The [App Link](App_Link.md) object will additionally show the properties of the 
         , it defaults to {{Value|0.0}}.
 
 
-{{TitleProperty|Base}}
+{{TitleProperty|Основные}}
 
 -    **Child View Provider|PersistentObject|Hidden**:
 
@@ -305,7 +305,7 @@ It will additionally show the view properties of the original **Linked Object**.
 
 *Simplified diagram of the relationships between the core objects in the program. The `App::Link* object is a core component of the system, it does not depend on any workbench, but it can be used with most objects created in all workbenches.`
 
-## Scripting
+## Программирование
 
 
 **Смотрите так же:**

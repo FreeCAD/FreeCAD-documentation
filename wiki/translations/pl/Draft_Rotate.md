@@ -51,7 +51,7 @@ Wspomniane tutaj skróty klawiaturowe mogą być zmienione. Zobacz stronę [Rysu
 
 ## Uwagi
 
--   Obiekt, który jest [umocowany](Part_Attachment/pl.md) nie może być obracany za pomocą polecenia Obróć. Aby go obrócić, należy obrócić jego obiekt **podparcia** lub zmienić jego własciwość **przesunięcie umocowania**.
+-   Obiekt, który jest [mocowany](Part_EditAttachment/pl.md) nie może być obracany za pomocą polecenia Obróć. Aby go obrócić, należy obrócić jego obiekt {{PropertyData/pl|podparcia}} lub zmienić jego właściwość {{PropertyData/pl|przesunięcie umocowania}}.
 
 ## Ustawienia
 

@@ -1,3 +1,5 @@
+# Drawing Template HowTo/de
+
 
 
 
@@ -119,9 +121,9 @@ viewBox="0 0 279 216"
 
 ### Working space and Title block Tags 
 
-The next lines to add will be the Working space and Title block tag. These tags and their usage are defined on the Drawing Templates page. While these tags are not required, newer versions of the FreeCAD Drawing Workbench benefit from them and they will not affect older versions.
+The next lines to add will be the Working space and Title block tags. These tags and their usage are defined on the Drawing Templates page. While these tags are not required, newer versions of the FreeCAD Drawing Workbench benefit from them and they will not affect older versions.
 
-The Working space tag is used to define the space that FreeCAD may make projections into. This allows FreeCAD to make automatic projections on the drawing template and stay within the border that has be drawn, or withing any defined space on the page.
+The Working space tag is used to define the space that FreeCAD may make projections into. This allows FreeCAD to make automatic projections on the drawing template and stay within the border that has been drawn, or within any defined space on the page.
 
 The Title block tag is used to define where within the Working space it resides. This information is used by FreeCAD to avoid using that space within the Working space. This can be referred to as Title block avoidance.
 
@@ -129,7 +131,7 @@ If both tags are used, the Working space tag must appear first and be immediatel
 
 #### The Working space Tag 
 
-The first tag is the Working space tag and is formated as follows.
+The first tag is the Working space tag and is formatted as follows.
 
  {.html}
 
@@ -204,7 +206,7 @@ That\'s it. The SVG document can now be saved and used with FreeCAD.
 
 ## Complete Example Template 
 
-Below is the finished SVG template. Sense it is in SVG format, you can save and open it in your text editor for review as reference to this tutorial and the creation of your own templates.
+Below is the finished SVG template. Since it is in SVG format, you can save and open it in your text editor for review as reference to this tutorial and the creation of your own templates.
 
 ![](images/TemplateExample.svg )
 

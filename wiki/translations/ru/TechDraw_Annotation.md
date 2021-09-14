@@ -1,9 +1,10 @@
 ---
-- GuiCommand:
-   Name:TechDraw Annotation
-   MenuLocation:TechDraw → Annotations → Insert Annotation
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
-   SeeAlso:[Draft Text](Draft_Text.md), [Draft ShapeString](Draft_ShapeString.md)
+- GuiCommand:/ru
+   Name/ru:Вставить заметку
+   Name:TechDraw_Annotation
+   MenuLocation:TechDraw → Заметки → Вставить заметку
+   Workbenches:[TechDraw](TechDraw_Workbench/ru.md)
+   SeeAlso:[Текст](Draft_Text/ru.md), [Фигура из текста](Draft_ShapeString/ru.md)
 ---
 
 ## Описание
@@ -45,7 +46,7 @@ The Annotation inherits all applicable basic View properties except **Scale**. U
 
 -    **TextStyle**: \"Normal\", \"Bold\", \"Italic\", \"Bold-Italic\"
 
-## Scripting
+## Программирование
 
 
 **See also:**

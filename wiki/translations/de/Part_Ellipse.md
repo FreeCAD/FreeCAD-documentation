@@ -6,9 +6,6 @@
    SeeAlso:[Part Grundkörper](Part_Primitives/de.md)
 ---
 
-
-</div>
-
 ## Beschreibung
 
 Dieser Befehl erzeugt eine elliptisch gekrümmte Kante. Mit den Standardwerten wird die elliptisch gekrümmte Kante geschlossen sein und somit eine Ellipse darstellen. Wenn die Eigenschaften Winkel 1 oder Winkel 2 gegenüber ihren Standardwerten (0 und 360) geändert werden, wird die Kante eine offene Kurve sein.
@@ -25,13 +22,7 @@ Der Grundkörper erstellen Dialog kann über das [Grundkörper](Part_Primitives/
 -   **Winkel 2:** Ende der Kante der Ellipse oder elliptisch gekrümmten Kante, (Grad entgegen dem Uhrzeigersinn), der Vorgabewert ist 360
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
  

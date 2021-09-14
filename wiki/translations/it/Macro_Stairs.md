@@ -1,3 +1,5 @@
+# Macro Stairs/it
+
  {{Macro/it
 |Name=Macro Stairs
 |Translate=Scala a chiocciola

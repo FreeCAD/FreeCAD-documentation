@@ -1,3 +1,5 @@
+# Raytracing Workbench/pl
+
  
 
 
@@ -147,4 +149,4 @@ Strony te odnoszą się do zastępczego stołu warsztatowego, zaprogramowanego w
 
 }} 
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

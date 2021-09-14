@@ -1,3 +1,5 @@
+# Advanced TechDraw Tutorial/fr
+
 
 
 
@@ -22,7 +24,7 @@ Ce tutoriel présente à l\'utilisateur expérimenté une utilisation avancée d
 
 <div class="mw-translate-fuzzy">
 
-1.  L\'<img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [atelier Draft](Draft_Module/fr.md) (lignes, polylignes, circonférences, arcs, splines, béziers, etc.), en particulier les accrochages, pour créer sur l\'objet des \"points cosmétiques\" réellement précis qui pourront ensuite être utilisés pour le dimensionnement dans TechDraw.
+1.  L\'<img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [atelier Draft](Draft_Workbench/fr.md) (lignes, polylignes, circonférences, arcs, splines, béziers, etc.), en particulier les accrochages, pour créer sur l\'objet des \"points cosmétiques\" réellement précis qui pourront ensuite être utilisés pour le dimensionnement dans TechDraw.
 2.  Il est également possible d\'utiliser l\'<img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [atelier Sketcher](Sketcher_Workbench/fr.md) comme
     -   générateur de \"base-sketchTD\" (bases de croquis pour TechDraw) en 2D (par exemple, schéma de système, plans d\'étage, élévations, vues de pièces mécaniques ou d\'ensemble etc\...) ou en
     -   utilisant directement les croquis qui ont généré les modèles 3D, ou en

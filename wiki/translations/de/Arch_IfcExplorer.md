@@ -32,4 +32,4 @@ Der Zweck dieses Explorers besteht einfach darin, dir zu ermöglichen, zu überp
 
  
 
-[Category:BIM{{\#translation:}}](Category:BIM.md)
+[Category:BIM](Category:BIM.md)

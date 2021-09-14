@@ -1,5 +1,11 @@
 ---
-- GuiCommand:/es   Name:Arch CloseHoles   Name/es:Tapar agujeros   Workbenches:[MenuLocation:Arquitectura → Utilidades → Tapar agujeros   SeeAlso:[[Arch Check/es|Comprobar](Arch_Module/es___Arquitectura]].md)---
+- GuiCommand:/es
+   Name:Arch CloseHoles
+   Name/es:Tapar agujeros
+   MenuLocation:Arquitectura → Utilidades → Tapar agujeros
+   Workbenches:[Arquitectura](Arch_Workbench/es.md)
+   SeeAlso:[Comprobar](Arch_Check/es.md)
+---
 
 
 </div>

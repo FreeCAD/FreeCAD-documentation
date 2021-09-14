@@ -1,11 +1,11 @@
 ---
 - GuiCommand:/ru
-   Name:Sketcher CreateArcOfHyperbola
-   Name/ru:Sketcher Дуга по гиперболе
-   MenuLocation:Эскиз → Геометрия эскиза → Дуга по гиперболе
+   Name/ru:Создать дугу гиперболы
+   Name:Sketcher_CreateArcOfHyperbola
+   MenuLocation:Sketch → Геометрия эскиза → Создать дугу гиперболы
    Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
    Version:0.17
-   SeeAlso:[Sketcher Дуга по эллипсу](Sketcher_CreateArcOfEllipse.md), [Sketcher Дуга по параболе](Sketcher_CreateArcOfParabola.md)
+   SeeAlso:[Создать дугу эллипса](Sketcher_CreateArcOfEllipse/ru.md), [Создать дугу параболы](Sketcher_CreateArcOfParabola/ru.md)
 ---
 
 ## Описание
@@ -14,13 +14,7 @@
 
 ![](images/Sketcher_Arc_of_Hyperbola_01.png )
 
-
-<div class="mw-translate-fuzzy">
-
-## Как использовать 
-
-
-</div>
+## Применение
 
 
 <div class="mw-translate-fuzzy">

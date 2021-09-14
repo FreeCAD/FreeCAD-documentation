@@ -1,3 +1,5 @@
+# Manual:Creating and manipulating geometry/it
+
 
 
 
@@ -256,4 +258,4 @@ Tutto quanto detto sopra, e molto altro ancora, è spiegato in dettaglio nella p
 
 }} 
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Python Code{{\#translation:}}](Category:Python_Code.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)

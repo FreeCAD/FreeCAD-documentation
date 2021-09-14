@@ -1,3 +1,5 @@
+# STEP project/de
+
 
 
 
@@ -21,25 +23,13 @@ Dies ist ein Entwicklungsprojekt, um eine fortgeschrittenere STEP i/o in FreeCAD
 -   reading/writing complex STEP files into Assembly data definition (with color and all the additional information).
 -   \....
 
-
-<div class="mw-translate-fuzzy">
-
 ## Ideenfindung
 
-Zuerst müssen wir alle Informationen über die Angelegenheit zusammentragen
+Zuerst müssen wir alle Informationen über die Angelegenheit sammeln
 
+### STEP im Allgemeinen 
 
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-### allgemeines STEP 
-
-Die ISO 10303 (STEP) ist in diesem Bereich sehr wichtig. Sie ist die einzige gute standardisierte und breit diskutierte und anerkannte Definition der mir bekannten Produktstrukturen.
-
-
-</div>
+Die ISO 10303 (STEP) ist in diesem Bereich sehr wichtig. Sie ist die einzige gute standardisierte und weithin diskutierte und anerkannte Definition von Produktstrukturen, von der ich weiß.
 
 ![](images/Product_structure_modeling_Process-Data_diagram.gif ) 
 
@@ -110,4 +100,4 @@ Hier einige Verweise mit Informationen:
 
 
 
-[Category:Roadmap{{\#translation:}}](Category:Roadmap.md)
+[Category:Roadmap](Category:Roadmap.md)

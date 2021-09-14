@@ -1,3 +1,5 @@
+# Compile on Windows/ru
+
 
 
 
@@ -459,4 +461,4 @@ FreeCAD имеет функцию предварительного просмо�
 
 
 
-[Category:Developer\_Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Developer{{\#translation:}}](Category:Developer.md)
+[Category:Developer\_Documentation](Category:Developer_Documentation.md) [Category:Developer](Category:Developer.md)

@@ -4,12 +4,7 @@
    Name/fr:Path Personnaliser
    MenuLocation:Path → Supplemental Commands → Personnalisée
    Workbenches:[Path](Path_Workbench/fr.md)
-   Shortcut:
-   SeeAlso:
 ---
-
-
-</div>
 
 ## Description
 
@@ -31,20 +26,14 @@ Notez que les taux d'alimentation seront correctement générés par le post-pro
 
 1.  Pressez le bouton **<img src="images/Path_Custom.svg" width=16px>  [Personnalisée](Path_Custom/fr.md)
 **
-2.  Écrivez le G-Code adapté dans la propriété **G Code** de l\'objet nouvellement créé. Voyez la page [Path Programmer](Path_scripting/fr.md) pour les commandes G-Code acceptées.
+2.  Écrivez le G-Code adapté dans la propriété **G Code** de l\'objet nouvellement créé. Voyez la page [Path Ecrire un script](Path_scripting/fr.md) pour les commandes G-Code acceptées.
 
 ## Propriétés
 
--    **G Code**: Les commandes G-Code sur lequelles sont construites le chemin.
-
-
-<div class="mw-translate-fuzzy">
+-    {{PropertyData/fr|G Code}}: Les commandes G-Code personnalisées pour programmer le chemin.
 
 
 
-
-
-</div>
 
 
 {{Path_Tools_navi

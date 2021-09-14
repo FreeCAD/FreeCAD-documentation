@@ -1,3 +1,5 @@
+# Sketcher Workbench/it
+
 
 
 
@@ -20,22 +22,54 @@ Un solutore dei vincoli calcola la quantità di vincoli applicati alla geometria
 
 *Uno schizzo base, completamente vincolato‎.*
 
+## Basics of constraint sketching 
+
+
+<div class="mw-translate-fuzzy">
+
 ## Nozioni di base sugli schizzi vincolati 
 
 Per spiegare come funziona il modulo Sketcher, è utile fare un confronto con il **modo tradizionale** di disegnare.
+
+
+</div>
+
+#### Traditional Drafting 
+
+
+<div class="mw-translate-fuzzy">
 
 ##### Disegno tradizionale 
 
 Il modo tradizionale di disegno CAD è derivato dal vecchio [tavolo da disegno](http://en.wikipedia.org/wiki/Drawing_board).
 [Le viste ortogonali 2D](http://en.wikipedia.org/wiki/Multiview_orthographic_projection) sono disegnate manualmente e finalizzate alla produzione di disegni tecnici (noti anche come dettagli o particolari). Gli oggetti sono disegnati esattamente con le loro forme, misure o dimensioni previste. Per tracciare una linea orizzontale lunga 100 mm a partire dal punto (0,0), si attiva lo strumento linea, si fa clic sullo schermo o si inserisce le coordinate (0,0) per il primo punto, poi si fa un secondo clic o si inserisce il secondo punto di coordinate (100,0). Oppure, si costruisce una linea base senza riguardo alla sua posizione e in seguito la si sposta. Dopo aver disegnato le geometrie si aggiungono le dimensioni.
 
+
+</div>
+
+#### Constraint Sketching 
+
+
+<div class="mw-translate-fuzzy">
+
 ##### Schizzo vincolato 
 
 Lo strumento Sketcher si allontana da questa logica. Non è più necessario disegnare gli oggetti esattamente come sono desiderati, perché è possibile ridefinirli in seguito tramite i vincoli. È possibile disegnare liberamente gli oggetti e dopo, fintanto che non vengono vincolati, modificarli. Sostanzialmente, essi sono **flottanti**, quindi si possono spostare, allungare, scalare, e così via. Questo permette una grande flessibilità nel processo di progettazione.
 
+
+</div>
+
+#### What are constraints? 
+
+
+<div class="mw-translate-fuzzy">
+
 #### Cosa sono i vincoli? 
 
 Invece delle dimensioni, i vincoli vengono utilizzati per limitare i gradi di libertà di un oggetto. Ad esempio, una linea senza vincoli ha **4 gradi di libertà** (DOF Degrees Of Freedom): essa può essere spostata orizzontalmente o verticalmente, può essere allungata, e può essere ruotata.
+
+
+</div>
 
 Applicando a una linea un vincolo orizzontale o verticale, oppure un vincolo angolare (rispetto ad un\'altra linea o ad uno degli assi) si limita la sua capacità di ruotare, lasciandola quindi con solo 2 gradi di libertà. Bloccando uno dei suoi punti rispetto all\'origine si rimuove un ulteriore grado di libertà. Applicando un vincolo dimensionale si rimuove l\'ultimo grado di libertà. A questo punto, la linea è quindi considerata **completamente vincolata**.
 
@@ -45,15 +79,23 @@ Ci sono due tipi di vincoli: geometrici e dimensionali. Essi sono descritti nell
 
 I vincoli sono controllati dal [solutore](#Il_solutore_dei_vincoli.md)
 
+#### What the Sketcher is not good for 
+
+
+<div class="mw-translate-fuzzy">
+
 #### Uso corretto dell\'ambiente Sketcher 
 
 Il modulo Sketcher non è pensato per produrre disegni dettagliati in 2D.
 Dopo che gli schizzi sono stati utilizzati per generare una forma solida vengono automaticamente nascosti. I vincoli (la quotatura dei vincoli e i segni grafici di vincolo) sono visibili solo in modalità **Modifica sketch**.
 
 
+</div>
+
+
 <div class="mw-translate-fuzzy">
 
-Se serve solo produrre delle viste 2D per la stampa e non si intende creare dei modelli 3D, si può utilizzare l\'ambiente [Draft](Draft_Module/it.md). A differenza degli elementi di Sketcher, gli oggetti di Draft non usano i vincoli, ma sono forme semplici definite al momento della creazione. Sia Draft che Sketcher possono essere utilizzati per il disegno di geometrie 2D e la creazione di solidi 3D, sebbene il loro uso previsto sia diverso. Sketcher viene normalmente utilizzato insieme a [Part](Part_Workbench/it.md) e [PartDesign](PartDesign_Workbench/it.md) per creare solidi. Draft viene normalmente utilizzato per semplici disegni planari su una griglia, come quando si disegna una pianta architettonica, quindi Draft viene utilizzato principalmente con [Arch](Arch_Workbench/it.md). Lo strumento [Da Draft a Schizzo](Draft_Draft2Sketch/it.md) converte un oggetto Draft in un oggetto Sketch e viceversa. Molti strumenti che richiedono un elemento 2D come input funzionano con entrambi i tipi di oggetto poiché viene eseguita automaticamente una conversione interna.
+Se serve solo produrre delle viste 2D per la stampa e non si intende creare dei modelli 3D, si può utilizzare l\'ambiente [Draft](Draft_Workbench/it.md). A differenza degli elementi di Sketcher, gli oggetti di Draft non usano i vincoli, ma sono forme semplici definite al momento della creazione. Sia Draft che Sketcher possono essere utilizzati per il disegno di geometrie 2D e la creazione di solidi 3D, sebbene il loro uso previsto sia diverso. Sketcher viene normalmente utilizzato insieme a [Part](Part_Workbench/it.md) e [PartDesign](PartDesign_Workbench/it.md) per creare solidi. Draft viene normalmente utilizzato per semplici disegni planari su una griglia, come quando si disegna una pianta architettonica, quindi Draft viene utilizzato principalmente con [Arch](Arch_Workbench/it.md). Lo strumento [Da Draft a Schizzo](Draft_Draft2Sketch/it.md) converte un oggetto Draft in un oggetto Sketch e viceversa. Molti strumenti che richiedono un elemento 2D come input funzionano con entrambi i tipi di oggetto poiché viene eseguita automaticamente una conversione interna.
 
 
 </div>
@@ -74,9 +116,17 @@ Quando uno schizzo è completamente vincolato, le funzioni dello schizzo diventa
 
 </div>
 
+## The tools 
+
+
+<div class="mw-translate-fuzzy">
+
 ## Gli strumenti 
 
 Gli strumenti dell\'Ambiente Sketcher si trovano nel menu che appare quando si carica questo ambiente.
+
+
+</div>
 
 ### Generale
 
@@ -100,7 +150,13 @@ Gli strumenti dell\'Ambiente Sketcher si trovano nel menu che appare quando si c
 
 -   <img alt="" src=images/Sketcher_MirrorSketch.svg‎‎‎  style="width:32px;"> [Rifletti schizzo](Sketcher_MirrorSketch/it.md): Riflette uno schizzo rispetto all\'asse verticale, o all\'asse orizzontale e all\'origine.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_StopOperation.svg  style="width:32px;"> [Ferma operazione](Sketcher_StopOperation/it.md): quando è in modalità di modifica, ferma l\'operazione corrente, sia che si tratti di disegnare, impostare vincoli, ecc.
+
+
+</div>
 
 ### Geometrie
 
@@ -192,9 +248,17 @@ Gli strumenti per creare gli oggetti.
 
 I vincoli sono utilizzati per stabilire le relazioni tra gli elementi del disegno, e per bloccare il disegno lungo l\'asse verticale e l\'asse orizzontale. Alcuni vincoli richiedono dei [Vincoli di supporto](Sketcher_helper_constraint/it.md).
 
+#### Geometric constraints 
+
+
+<div class="mw-translate-fuzzy">
+
 #### Vincoli geometrici 
 
 Questi vincoli non sono associati a valori numerici.
+
+
+</div>
 
 -   <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width:32px;"> [Coincidente](Sketcher_ConstrainCoincident/it.md): Crea un vincolo di coincidenza (punto-con-punto) tra due punti selezionati.
 
@@ -216,11 +280,19 @@ Questi vincoli non sono associati a valori numerici.
 
 -   <img alt="" src=images/Sketcher_ConstrainBlock.svg  style="width:32px;"> [Fissa](Sketcher_ConstrainBlock/it.md): blocca il movimento di un bordo, ovvero impedisce ai suoi vertici di cambiare la loro posizione corrente. Dovrebbe essere particolarmente utile per fissare la posizione delle B-Splines. Vedere la [discussione su Block Constraint nel forum](https://forum.freecadweb.org/viewtopic.php?f=9&t=26572).
 
+#### Dimensional constraints 
+
+
+<div class="mw-translate-fuzzy">
+
 #### Vincoli dimensionali 
 
 Vincoli associati a dati. Per questi vincoli si possono usare le [espressioni](Expressions/it.md). I dati possono essere prelevati da un [foglio di calcolo](Spreadsheet_Workbench/it.md).
 
 Le icone blu di questi vincoli si riferiscono alle funzioni introdotte nella versione 0.16 di FreeCAD, attivabili con <img alt="" src=images/Sketcher_ToggleConstraint.png  style="width:16px;"> **Commuta vincoli**.
+
+
+</div>
 
 -   <img alt="" src=images/Sketcher_ConstrainLock.svg  style="width:32px;"> [Bloccato](Sketcher_ConstrainLock/it.md): Crea un vincolo che blocca l\'elemento selezionato fissando le sue dimensioni verticali e orizzontali rispetto all\'origine (le dimensioni si possono modificare in seguito).
 
@@ -240,15 +312,29 @@ Le icone blu di questi vincoli si riferiscono alle funzioni introdotte nella ver
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 #### Vincoli speciali 
+
+
+</div>
 
 -   <img alt="" src=images/Sketcher_ConstrainSnellsLaw.svg  style="width:32px;"> [Rifrazione](Sketcher_ConstrainSnellsLaw/it.md): Crea un vincolo di rifrazione tra due linee per simulare secondo la Legge di Snell un raggio di luce che attraversa un\'interfaccia.
 
 -   <img alt="" src=images/Sketcher_ConstrainInternalAlignment.svg  style="width:32px;"> [Allineamento interno](Sketcher_ConstrainInternalAlignment/it.md): Allinea gli elementi selezionati alla forma selezionata, ad esempio una linea da convertire in asse maggiore di una ellisse.
 
+#### Constraint tools 
+
+
+<div class="mw-translate-fuzzy">
+
 #### Strumenti per i vincoli 
 
 I seguenti strumenti possono essere utilizzati per cambiare l\'effetto dei vincoli:
+
+
+</div>
 
 -   <img alt="" src=images/Sketcher_ToggleDrivingConstraint.svg  style="width:32px;"> [Commuta vincoli](Sketcher_ToggleDrivingConstraint/it.md): Commuta una serie di vincoli, quelli associati a un valore numerico, da decisivi a indicatori e viceversa.
 
@@ -258,37 +344,115 @@ I seguenti strumenti possono essere utilizzati per cambiare l\'effetto dei vinco
 
 -   <img alt="" src=images/Sketcher_SelectElementsWithDoFs.svg  style="width:32px;"> [Seleziona il risolutore DOFs](Sketcher_SelectElementsWithDoFs/it.md): Evidenzia in verde la geometria con gradi di libertà (DOFs), cioè non completamente vincolata.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_CloseShape.svg‎  style="width:32px;"> [Chiudi Forma](Sketcher_CloseShape/it.md): Crea una forma chiusa applicando i vincoli di coincidenza ai punti finali.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Sketcher_ConnectLines.svg‎  style="width:32px;"> [Collega Segmenti](Sketcher_ConnectLines/it.md): Collega gli elementi dello schizzo applicando i vincoli di coincidenza ai punti finali.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_SelectConstraints.svg‎  style="width:32px;"> [Seleziona Vincoli](Sketcher_SelectConstraints/it.md): Seleziona i vincoli di un elemento dello schizzo.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Sketcher_SelectElementsAssociatedWithConstraints.svg‎  style="width:32px;"> [Seleziona gli elementi associati a vincoli](Sketcher_SelectElementsAssociatedWithConstraints/it.md): Evidenzia gli elementi dello schizzo associati ai vincoli selezionati.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_SelectRedundantConstraints.svg‎  style="width:32px;"> [Seleziona i vincoli ridondanti](Sketcher_SelectRedundantConstraints/it.md): Seleziona i vincoli ridondanti di uno schizzo.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Sketcher_SelectConflictingConstraints.svg‎  style="width:32px;"> [Seleziona i vincoli in conflitto](Sketcher_SelectConflictingConstraints/it.md): Seleziona i vincoli in conflitto di uno schizzo.
 
+
+</div>
+
 -   <img alt="" src=images/Sketcher_RestoreInternalAlignmentGeometry.svg‎  style="width:32px;"> [Mostra/Nascondi la geometria interna](Sketcher_RestoreInternalAlignmentGeometry/it.md): Ricrea la geometria interna mancante o eliminata non necessaria di un\'ellisse selezionata, o arco di ellisse o iperbole o parabola o B-spline.
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Sketcher_SelectOrigin.svg‎  style="width:32px;"> [Seleziona Origine](Sketcher_SelectOrigin/it.md): Seleziona l\'origine di uno schizzo.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_SelectVerticalAxis.svg‎  style="width:32px;"> [Seleziona Asse Y](Sketcher_SelectVerticalAxis/it.md): Seleziona l\'asse verticale di uno schizzo.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Sketcher_SelectHorizontalAxis.svg‎  style="width:32px;"> [Seleziona Asse X](Sketcher_SelectHorizontalAxis/it.md): Seleziona l\'asse orizzontale di uno schizzo.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_Symmetry.svg‎  style="width:32px;"> [Simmetria](Sketcher_Symmetry/it.md): Copia un elemento dello schizzo in modo simmetrico rispetto ad una linea a scelta.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Sketcher_Clone.svg‎  style="width:32px;"> [Clona](Sketcher_Clone/it.md): Clona un elemento dello schizzo.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_Copy.svg‎  style="width:32px;"> [Copia](Sketcher_Copy/it.md): Copia un elemento dello schizzo.
+
+
+</div>
 
 -   <img alt="" src=images/Sketcher_Move.svg  style="width:32px;"> [Sposta](Sketcher_Move/it.md): Sposta la geometria selezionata prendendo come riferimento l\'ultimo punto selezionato.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_RectangularArray.svg‎  style="width:32px;"> [Schiera lineare](Sketcher_RectangularArray/it.md): Crea una schiera con gli elementi dello schizzo selezionati.
 
--   <img alt="" src=images/Sketcher_RemoveAxesAlignment.svg  style="width:32px;"> [Remove Axes Alignment](Sketcher_RemoveAxesAlignment.md): Remove axes alignment while trying to preserve the constraint relationship of the selection <small>(v0.20)</small> 
+
+</div>
+
+-   <img alt="" src=images/Sketcher_RemoveAxesAlignment.svg  style="width:32px;"> [Remove Axes Alignment](Sketcher_RemoveAxesAlignment.md): Remove axes alignment while trying to preserve the constraint relationship of the selection. <small>(v0.20)</small> 
 
 -   <img alt="" src=images/Sketcher_DeleteAllGeometry.svg  style="width:32px;"> [Cancella tutta la geometria](Sketcher_DeleteAllGeometry/it.md): Elimina tutta la geometria dallo schizzo.
 
@@ -324,9 +488,17 @@ I seguenti strumenti possono essere utilizzati per cambiare l\'effetto dei vinco
 
 -   <img alt="" src=images/Preferences-general.svg  style="width:32px;"> [Preferences\...](Sketcher_Preferences/it.md): Preferenze disponibili per l\'ambiente Sketcher.
 
+## Best Practices 
+
+
+<div class="mw-translate-fuzzy">
+
 ## Migliori pratiche 
 
 Ogni utente CAD, nel corso del tempo, sviluppa un proprio modo di lavorare, ma ci sono alcuni criteri generali che è utile seguire.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -362,4 +534,4 @@ La pagina [scripting](Sketcher_scripting/it.md) contiene esempi su come creare v
 
 }} 
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

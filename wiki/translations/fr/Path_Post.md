@@ -5,56 +5,30 @@
    MenuLocation:Path → Post-traitement
    Workbenches:[Path](Path_Workbench/fr.md)
    Shortcut:**P** **P**
-   SeeAlso:
 ---
-
-
-</div>
 
 ## Description
 
-
-<div class="mw-translate-fuzzy">
-
-Le bouton **<img src="images/Path_PostProcess.svg" width=16px> [Post-traitement](Path_Post/fr.md)** exporte la **<img src="images/Path_Job.svg" width=16px> [Path Tâche](Path_Job/fr.md)** sélectionnée vers un fichier G-Code.
-
-
-</div>
+Le bouton **<img src="images/Path_Post.svg" width=16px> [Post-traitement](Path_Post/fr.md)** exporte la **<img src="images/Path_Job.svg" width=16px> [Path Tâche](Path_Job/fr.md)** sélectionnée vers un fichier G-code.
 
 **Chaque contrôleur CNC utilise un langage G-Code spécifique, nécessitant un Post-processeur correcteur de langage pour traduire la sortie finale du langage G-Code FreeCAD interne agnostique.**
 
-### Typical functions of the Postprocessor include 
-
-
-<div class="mw-translate-fuzzy">
-
-### Les fonctions typiques du postprocesseur incluent 
+### Fonctions typiques du post-processeur 
 
 Les fonctions typiques du Post-processeur incluent:
 
--   Utilisation d\'une extension de fichier G-Code de sortie de travail correcte.
--   Sélection des commandes G-Code. Les contrôleurs CNC prennent généralement en charge un sous-ensemble de commandes G-Code disponibles. Le super-ensemble de commandes G-Code contient des commandes puissantes et spécialisées qui, autrement, doivent être traitées en utilisant plusieurs commandes plus simples. Les post-processeurs sont écrits pour sélectionner le meilleur code G pour une opération, disponible sur la cible.
--   Formatage de la syntaxe G-Code en réorganisant les entrées Feed (avance), X, Y, Z, A et B et la précision.
+-   Utilisation d\'une extension de fichier G-code de sortie de travail correcte.
+-   Sélection des commandes G-code. Les contrôleurs CNC prennent généralement en charge un sous-ensemble de commandes G-code disponibles. Le super-ensemble de commandes G-code contient des commandes puissantes et spécialisées qui, autrement, doivent être traitées en utilisant plusieurs commandes plus simples. Les post-processeurs sont écrits pour sélectionner le meilleur G-code pour une opération, disponible sur la cible.
+-   Formatage de la syntaxe G-code en réorganisant les entrées Feed (avance), X, Y, Z, A et B et la précision.
 -   Insertion d\'un préambule pour régler les unités, le format des unités, le plan de travail, le système de coordonnées, etc \...
 -   Insérer un post-amble pour garer la machine, l\'arrêter, traiter tous les arguments.
 -   Insérer des changements d\'outil, ou les supprimer entre les opérations suivantes utilisant le même outil.
 -   Formatage des informations d\'avance et de vitesse en tours par minute ou par seconde.
 -   Fonction de mise en forme du nom d\'appel et appel.
 
+### Personnalisation du post-processeur 
 
-</div>
-
-### Postprocessor Customization 
-
-
-<div class="mw-translate-fuzzy">
-
-### Personnalisation du postprocessor 
-
-Si vous souhaitez écrire votre propre postprocesseur, consultez la page [Path Personnalisation du postprocesseur](Path_Postprocessor_Customization/fr.md).
-
-
-</div>
+Si vous souhaitez écrire votre propre postprocesseur, consultez la page [Path Personnalisation du post-processeur](Path_Postprocessor_Customization/fr.md).
 
 **Remarque:** plusieurs Post-processeurs fournis génèrent un code approprié pour de nombreux contrôleurs CNC, ou peuvent être utilisés comme modèles pour la modification
 
@@ -85,18 +59,12 @@ Si une seule machine CNC est utilisée ou si toutes les machines CNC partagent u
 
 ## Utilisation
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Sélectionnez le **<img src="images/Path_Job.svg" width=16px> [Path Tâche](Path_Job/fr.md)** que vous souhaitez exporter
-2.  Appelez la commande en utilisant plusieurs méthodes:
-    -   En appuyant sur le bouton **<img src="images/Path_PostProcess.svg" width=24px>** dans la barre d\'outils.
-    -   Utilisation du raccourci clavier **P** puis **P**.
-    -   Utilisation de l\'entrée **Path** → **<img src="images/Path_PostProcess.svg" width=24px> [Post-traitement](Path_Post/fr.md)** dans le menu supérieur.
-3.  Confirmez le nom et le répertoire **Fichier de sortie**
-
-
-</div>
+1.  Sélectionnez une <img alt="" src=images/Path_Job.svg  style="width:16px;"> [Path Tâche](Path_Job/fr.md) dans la [Vue en arborescence](Tree_view/fr.md).
+2.  Il existe plusieurs façons de lancer la commande :
+    -   Appuyez sur le bouton **<img src="images/Path_Post.svg" width=16px> [Post-traitement](Path_Post/fr.md)**.
+    -   Sélectionnez l\'option **Path → <img src="images/Path_Post.svg" width=16px> Post-traitement ** dans le menu.
+    -   Utilisez le raccourci clavier : **P** puis **P**.
+3.  Confirmez le nom et le répertoire de **Output File**.
 
 ## Options
 
@@ -141,24 +109,10 @@ Les post-processeurs inclus sont enregistrés dans le fichier **FreeCAD.Mod.Path
 
 ## Limitations
 
-
-<div class="mw-translate-fuzzy">
-
-## Limitations 
-
 N\'utilisez **pas** le menu **File** → **Export**\'\'\' pour exporter vers le G-code, cela produirait un G-code endommagé!
 
 
-</div>
 
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 {{Path_Tools_navi

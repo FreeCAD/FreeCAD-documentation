@@ -1,4 +1,6 @@
- {{UnfinishedDocu}}
+# Material/pt-br
+
+ }
 
 ## Overview
 
@@ -168,4 +170,4 @@ This section defines material-properties which are related to the visual appeara
 
  {{FEM Tools navi}} 
 
-[Category:Developer{{\#translation:}}](Category:Developer.md) [Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Roadmap{{\#translation:}}](Category:Roadmap.md) [Category:BIM{{\#translation:}}](Category:BIM.md) [Category:File\_Formats{{\#translation:}}](Category:File_Formats.md)
+[Category:Developer](Category:Developer.md) [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Roadmap](Category:Roadmap.md) [Category:BIM](Category:BIM.md) [Category:File\_Formats](Category:File_Formats.md)

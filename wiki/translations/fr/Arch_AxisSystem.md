@@ -3,12 +3,9 @@
    Name:Arch AxisSystem
    Name/fr:Arch Système d'axe
    MenuLocation:Arch → Outils de l'axe → Système d'axe
-   Workbenches:[Arch](Arch_Module/fr.md)
+   Workbenches:[Arch](Arch_Workbench/fr.md)
    SeeAlso:[Arch Axes](Arch_Axis/fr.md), [Arch Grille](Arch_Grid/fr.md)
 ---
-
-
-</div>
 
 ## Description
 
@@ -78,13 +75,7 @@ FreeCAD.ActiveDocument.recompute()
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
  

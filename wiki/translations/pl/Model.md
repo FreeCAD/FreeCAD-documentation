@@ -1,3 +1,5 @@
+# Model/pl
+
 
 
 ## Wprowadzenie
@@ -19,4 +21,4 @@ W nieformalnym użyciu, słowo \"[Rysunek](Drawing/pl.md)\" może być używane 
 
 }} 
 
-[Category:Glossary{{\#translation:}}](Category:Glossary.md)
+[Category:Glossary](Category:Glossary.md)

@@ -1,3 +1,5 @@
+# Macro Print SceneGraph
+
   {{Macro
 |Name=Macro_Print_SceneGraph
 |Icon=Macro_Print_SceneGraph.png
@@ -15,9 +17,7 @@ This macro traverses the SceneGraph and prints all the nodes and their fields in
 
 ## Script
 
-
-
-ToolBar Icon ![](images/Macro_Print_SceneGraph.png )
+ToolBar Icon  ![](images/Macro_Print_SceneGraph.png )
 
 **Macro\_Print\_SceneGraph.FCMacro**
 

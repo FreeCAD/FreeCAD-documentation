@@ -3,7 +3,7 @@
    Name:Draft Polygon
    Name/de:Entwurf Polygon
    MenuLocation:Entwurf → Polygon
-   Workbenches:[Entwurf](Draft_Module/de.md), [Arch](Arch_Module/de.md)
+   Workbenches:[Entwurf](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
    Shortcut:**P** **G**
    Version:0.7
    SeeAlso:[Entwurf Kreis](Draft_Circle/de.md), [Entwurf Muster](Draft_Pattern/de.md)

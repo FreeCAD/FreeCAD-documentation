@@ -1,3 +1,5 @@
+# Online Help Toc/uk
+
 
 
 
@@ -152,4 +154,4 @@ There is another table of contents for the [FreeCAD MANUAL](Manual:Introduction.
 
 
 
-[Category:Documentation/uk](Category:Documentation/uk.md) [Category:Documentation{{\#translation:}}](Category:Documentation.md)
+[Category:Documentation/uk](Category:Documentation/uk.md) [Category:Documentation](Category:Documentation.md)

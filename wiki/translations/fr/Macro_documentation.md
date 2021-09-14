@@ -1,3 +1,5 @@
+# Macro documentation/fr
+
 
 
 ## Description
@@ -198,4 +200,4 @@ Pour rendre une macro installable à partir du [Gestionnaire d\'Addon](Addon_Man
 
 Pour y inclure la macro, elle doit d'abord être examinée par la communauté FreeCAD du sous-forum [Python scripting and macros](https://forum.freecadweb.org/viewforum.php?f=22). Une fois que cela est fait, le dépôt des FreeCAD-macros doit être divisé, la nouvelle macro doit être incluse dans une branche, puis la branche doit être poussée et fusionnée dans le dépôt en amont.
 
-[Category:Macros{{\#translation:}}](Category:Macros.md) [Category:User Documentation{{\#translation:}}](Category:User_Documentation.md)
+[Category:Macros](Category:Macros.md) [Category:User Documentation](Category:User_Documentation.md)

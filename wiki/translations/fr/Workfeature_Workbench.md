@@ -1,16 +1,11 @@
+# Workfeature Workbench/fr
 
 
 
-<div class="mw-translate-fuzzy">
+<img alt="Icône de l\'atelier Workfeature" src=images/WF_wf.png  style="width:128px;">
 
 
-{{Note|Note|Merge with [Macro WorkFeatures](Macro_WorkFeatures/fr.md)??}}
-
-
-</div>
-
-
-{{Note|Note|Merge with [[Macro_WorkFeatures]]??}}
+{{Note|Note|Fusionner avec [Macro WorkFeatures](Macro_WorkFeatures/fr.md)??}}
 
 
 {{TOCright}}
@@ -34,31 +29,14 @@ Outil utilitaire pour créer
 
 ### Documentation
 
+-   Documentation sur les versions [ici](https://github.com/Rentlau/WorkFeature/blob/master/WorkFeature/Doc/WF_releasesDocumentation.pdf) et
+-   Documentation complète [ici](https://github.com/Rentlau/WorkFeature/blob/master/WorkFeature/Doc/WF_documentation.pdf)
 
-<div class="mw-translate-fuzzy">
-
-Documentation sur les versions [ici](https://github.com/Rentlau/WorkFeature/blob/master/WorkFeature/Doc/WF_releasesDocumentation.pdf) et démarrage de la documentation complète [ici](https://github.com/Rentlau/WorkFeature/blob/master/WorkFeature/Doc/WF_documentation.pdf)
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Barre d\'outils
-
-
-</div>
+### Barre d\'outils 
 
 ![](images/WorkFeature-menu-orizz.png )
 
-
-<div class="mw-translate-fuzzy">
-
-Menu déroulant
-
-
-</div>
+### Menu déroulant 
 
 ![](images/WorkFeature-dropdown_01.png )
 
@@ -100,4 +78,4 @@ Cet atelier peut être installé à partir du [Gestionnaire d\'Addon](Std_AddonM
 
 -   [Ateliers externes](External_workbenches/fr.md)
 
-[Category:Sandbox{{\#translation:}}](Category:Sandbox.md) [Category:User Documentation{{\#translation:}}](Category:User_Documentation.md) [Category:Addons{{\#translation:}}](Category:Addons.md) [Category:External Workbenches{{\#translation:}}](Category:External_Workbenches.md)
+[Category:Sandbox](Category:Sandbox.md) [Category:User Documentation](Category:User_Documentation.md) [Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)

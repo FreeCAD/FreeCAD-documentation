@@ -3,9 +3,9 @@
    Name:Draft PathArray
    Name/de:Entwurf PfadAnordnung
    MenuLocation:Modifikation → Anordnung Werkzeuge → Pfad Anordnung
-   Workbenches:[Entwurf](Draft_Module/de.md), [Arch](Arch_Module/de.md)
+   Workbenches:[Entwurf](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
+   Version:0.14
    SeeAlso:[Entwurf OrthoAnordnung](Draft_OrthoArray/de.md), [Entwurf PolarArray](Draft_PolarArray/de.md), [Entwurf CircularArray](Draft_CircularArray/de.md), [Entwurf PfadVerknüpfeAnordnung](Draft_PathLinkArray/de.md), [Entwurf PunktAnordnung](Draft_PointArray/de.md), [Entwurf Klonen](Draft_Clone/de.md)
-   Version:0.14 
 ---
 
 

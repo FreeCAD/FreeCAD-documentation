@@ -34,13 +34,7 @@
 -   В настоящее время продлены могут быть только дуги и линии.
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Sketcher Tools navi

@@ -3,12 +3,9 @@
    Name:Arch Truss
    Name/fr:Arch Ferme
    MenuLocation:Arch → Ferme
-   Workbenches:[Arch](Arch_Module/fr.md)
+   Workbenches:[Arch](Arch_Workbench/fr.md)
    Version:0.19
 ---
-
-
-</div>
 
 ## Description
 
@@ -96,13 +93,7 @@ truss.HeightEnd = 400
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
  

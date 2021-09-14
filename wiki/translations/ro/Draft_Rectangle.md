@@ -1,5 +1,14 @@
 ---
-- GuiCommand:/ro   Name:Draft Rectangle   Name/ro:Dreptunghi   Workbenches:[Arch](Draft_Module/ro___Draft]],_[[Arch_Module/ro.md)|MenuLocation:Draft → Rectangle   Shortcut:R E   SeeAlso:[Part Box](Part_Box/ro.md)---
+- GuiCommand:/ro
+   Name:Draft Rectangle
+   Name/ro:Dreptunghi
+   Workbenches:[Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
+   MenuLocation:Draft → Rectangle
+   Shortcut:R E
+   Shortcut:**R** **E**
+   Version:0.7
+   SeeAlso:[Part Box](Part_Box/ro.md)
+---
 
 
 </div>

@@ -1,5 +1,12 @@
 ---
-- GuiCommand:/tr   Name:Draft Downgrade   Name/tr:Düşür   Workbenches:[Arch](Draft_Module/tr___Draft]],_[[Arch_Module/tr.md)|MenuLocation:Draft → Downgrade   Shortcut:D N   SeeAlso:[Draft Upgrade](Draft_Upgrade/tr.md)---
+- GuiCommand:/tr
+   Name:Draft Downgrade
+   Name/tr:Düşür
+   MenuLocation:Draft → Downgrade
+   Workbenches:[Draft](Draft_Workbench/tr.md), [Arch](Arch_Workbench/tr.md)
+   Shortcut:**D** **N**
+   SeeAlso:[Draft Upgrade](Draft_Upgrade/tr.md)
+---
 
 
 </div>

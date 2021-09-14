@@ -1,3 +1,5 @@
+# Manual:Parametric objects/zh-cn
+
 
 
 
@@ -57,4 +59,4 @@ FreeCAD 中的参数对象实际上是一小段程序，只要其中一个参数
 
 
 
-[Category:Poweruser Documentation{{\#translation:}}](Category:Poweruser_Documentation.md) [Category:Tutorials{{\#translation:}}](Category:Tutorials.md)
+[Category:Poweruser Documentation](Category:Poweruser_Documentation.md) [Category:Tutorials](Category:Tutorials.md)

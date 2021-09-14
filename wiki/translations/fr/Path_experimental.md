@@ -1,3 +1,5 @@
+# Path experimental/fr
+
 
 
 
@@ -5,66 +7,38 @@
 
 ## Description
 
+L\'atelier Path contient un ensemble de commandes cachées. Elles sont cachées par défaut car elles sont expérimentales. Une commande peut être considérée comme expérimentale pour l\'une des raisons suivantes :
 
-<div class="mw-translate-fuzzy">
+-   Elle est incomplète.
+-   Elle présente des bogues.
+-   Elle est instable.
+-   Elle ne produit pas de chemins corrects, stables, sûrs.
+-   Il ne s\'agit pas d\'une commande standard, régulièrement utilisée dans le déroulement traditionnel de la FAO.
+-   Elle est mature mais n\'a pas encore été déplacée vers la liste d\'outils standard.
+-   \... d\'autres raisons.
 
-L\'atelier Path contient, par défaut, un ensemble de fonctionnalités cachées. Elles sont masqués par défaut car en développement ou expérimentales pour les raisons suivantes :
+## Activer les commandes expérimentales 
 
--   c\'est une fonctionnalité incomplète
--   c\'est installé avec un bug
--   c\'est instable
--   cela ne produit pas de chemins corrects, stables, sûrs
--   ce n\'est pas un outil standard utilisé régulièrement dans le flux de travail CAM traditionnel
--   c\'est un outil mature et prêt à l\'emploi qui n\'a pas été déplacé vers la liste d\'outils standard
--   \... autres raisons
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-## Activer les fonctionnalités expérimentales 
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Pour accéder aux fonctionnalités expérimentales masquées dans Path Workbench, l\'utilisateur doit les activer dans [Std Editeur des paramètres](Std_DlgParameter/fr.md).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Pour activer les fonctionnalités expérimentales:
+Pour accéder aux commandes expérimentales masquées dans de l\'atelier Path, l\'utilisateur doit les activer dans [Std Editeur des paramètres](Std_DlgParameter/fr.md).
 
 1.  Ouvrez le [Editeur des paramètres](Std_DlgParameter/fr.md) via **Outils → Editer Paramètres ...**
 2.  Une fois dans l\'éditeur, le chemin est **BaseApp → Preferences → Mod → Path**
-3.  Cliquez avec le bouton droit dans la zone de liste des paramètres pour obtenir le menu local des actions.
-4.  Créez un nouveau paramètre booléen.
-5.  Nommez le nouveau paramètre: `EnableExperimentalFeatures` (sensible à la casse).
-6.  Réglez-le sur: `True`.
-7.  Enregistrez les paramètres.
-8.  Redémarrez FreeCAD.
-
-
-</div>
+3.  Pour activer les commandes [Path Zone d\'usinage](Path_Area/fr.md) et [Path Zone de travail plane](Path_Area_Workplane/fr.md) :
+    -   Cliquez bouton droit de la souris dans la zone de liste des paramètres et sélectionnez **Nouveau → Nouvel article booléen** dans le menu contextuel.
+    -   Nommez le nouveau paramètre : `EnableAdvancedOCLFeatures`. (sensible à la casse).
+    -   Définissez-le à `True`.
+4.  Pour activer les autres commandes expérimentales :
+    -   Sélectionnez à nouveau **Nouveau → Nouvel article booléen** dans le menu contextuel.
+    -   Nommez le nouveau paramètre : `EnableExperimentalFeatures`. (sensible à la casse).
+    -   Définissez-le à `True`.
+5.  Enregistrez les paramètres.
+6.  Redémarrez FreeCAD.
 
 ## Information Supplémentaire 
 
-
-<div class="mw-translate-fuzzy">
-
-En savoir plus sur les fonctionnalités expérimentales spécifiques sur les [pages du wiki qui renvoient à celle-ci](https://www.freecadweb.org/wiki/Special:WhatLinksHere/Path_experimental) 
-
-
-</div>
+En savoir plus sur les commandes expérimentales spécifiques sur les [pages du wiki qui renvoient à celle-ci](https://www.freecadweb.org/wiki/Special:WhatLinksHere/Path_experimental).
 
 
  {{Path Tools navi}} 
 
-[Category:Poweruser Documentation{{\#translation:}}](Category:Poweruser_Documentation.md)
+[Category:Poweruser Documentation](Category:Poweruser_Documentation.md)

@@ -1,3 +1,5 @@
+# How to install additional workbenches/fr
+
  {{TutorialInfo/fr
 |Topic=Programmation
 |Level=Programmeur moyen
@@ -167,4 +169,4 @@ Pour cet exemple, supposons que vous ayez choisi l\'[Atelier Courbes](Curves_Wor
 
  {{Powerdocnavi}}
 
-[Category:External Workbenches{{\#translation:}}](Category:External_Workbenches.md) [Category:Addons{{\#translation:}}](Category:Addons.md)
+[Category:External Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)

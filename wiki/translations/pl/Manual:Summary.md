@@ -1,3 +1,5 @@
+# Manual:Summary/pl
+
 Jest to spis treści używany do automatycznego konstruowania **PODRĘCZNIKA FreeCAD**.
 
 Istnieje odrębny spis treści dla systemu [FreeCAD **Pomoc Online**](Online_Help_Toc/pl.md).
@@ -55,4 +57,4 @@ Istnieje odrębny spis treści dla systemu [FreeCAD **Pomoc Online**](Online_Hel
 
 
 
-[Category:Manual{{\#translation:}}](Category:Manual.md)
+[Category:Manual](Category:Manual.md)

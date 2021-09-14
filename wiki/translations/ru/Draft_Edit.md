@@ -2,8 +2,8 @@
 - GuiCommand:/ru
    Name:Draft Edit
    Name/ru:Draft Edit
-   Workbenches:[Draft](Draft_Module/ru.md), [Arch](Arch_Module/ru.md)
    MenuLocation:Черчение → Правка
+   Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
 ---
 
 
@@ -24,7 +24,6 @@ See also: [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
     -   If you have not yet selected an object: double-click an object in the [Tree view](Tree_view.md). This only work for supported Draft objects.
     -   Press the **<img src="images/Draft_Edit.svg" width=16px> [Draft Edit](Draft_Edit.md)** button.
     -   Select the **Modification → <img src="images/Draft_Edit.svg" width=16px> Edit** option from the menu.
-    -   Select the **Utilities → <img src="images/Draft_Edit.svg" width=16px> Edit** option from the menu.
     -   Use the keyboard shortcut: **D** then **E**.
 3.  If you have not yet selected an object: select an object in the [3D view](3D_view.md).
 4.  The selected objects are marked with temporary nodes, and the [Main task panel](#Main_task_panel.md) opens. See [Options](#Options.md) for more information.

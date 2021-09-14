@@ -15,7 +15,7 @@
 <img alt="" src=images/BIM_Library_screenshot.png  style="width:800px;"> 
 *Выше: Смотрите диалог '''Library browser''' [панели задач](Task_panel/ru.md) слева*
 
-## Использование
+## Применение
 
 1.  Нажмите кнопку **<img src="images/BIM_Library.png" width=16px> [BIM Library](BIM_Library/ru.md)
 **
@@ -35,4 +35,4 @@
 
  
 
-[Category:BIM{{\#translation:}}](Category:BIM.md)
+[Category:BIM](Category:BIM.md)

@@ -1,3 +1,5 @@
+# Std Base
+
  
 
 
@@ -61,4 +63,4 @@ The standard menu is composed of 7 sub-menus. Each sub-menu has a dedicated page
 
  {{Std Base navi}} 
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

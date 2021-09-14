@@ -1,3 +1,5 @@
+# Model/fr
+
 
 
 ## Introduction
@@ -19,4 +21,4 @@ Dans un usage informel, le mot \"[Drawing](Drawing/fr.md)\" peut être utilisé 
 
 }} 
 
-[Category:Glossary{{\#translation:}}](Category:Glossary.md)
+[Category:Glossary](Category:Glossary.md)

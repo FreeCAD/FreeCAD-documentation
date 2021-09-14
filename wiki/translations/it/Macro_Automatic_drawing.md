@@ -1,3 +1,5 @@
+# Macro Automatic drawing/it
+
  {{Macro/it
 |Name=Automatic drawing
 |Translate=Proiezioni Automatiche
@@ -15,7 +17,7 @@
 
 ## Descrizione
 
-Questo codice genera una pagina di [Drawing](Drawing_Module/it.md) ( Disegno) con tre viste ortogonali (frontale, dall\'alto e laterale destra) allineate, più una vista isometrica posto in alto a destra della pagina. Calcola la scala basandosi sulle dimensioni del modello e sullo spazio disponibile nel foglio. La vista iso viene ridimensionata a 2/3 delle altre.
+Questo codice genera una pagina di [Drawing](Drawing_Workbench/it.md) ( Disegno) con tre viste ortogonali (frontale, dall\'alto e laterale destra) allineate, più una vista isometrica posto in alto a destra della pagina. Calcola la scala basandosi sulle dimensioni del modello e sullo spazio disponibile nel foglio. La vista iso viene ridimensionata a 2/3 delle altre.
 
 Utilizza il [first-angle projection](http://en.wikipedia.org/wiki/Multiview_orthographic_projection#First-angle_projection) ovvero il [Sistema di rappresentazione europeo](http://en.wikipedia.org/wiki/Multiview_orthographic_projection#First-angle_projection).
 

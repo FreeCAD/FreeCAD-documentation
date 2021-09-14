@@ -1,10 +1,11 @@
 ---
-- GuiCommand:
-   Name:TechDraw 2LineCenterLine
-   MenuLocation:TechDraw → Add Lines → Add Centerline between 2 Lines
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
+- GuiCommand:/ru
+   Name/ru:Добавить осевую линию между 2 линиями
+   Name:TechDraw_2LineCenterLine
+   MenuLocation:TechDraw → Добавить Линии → Добавить осевую линию между 2 линиями
+   Workbenches:[TechDraw](TechDraw_Workbench/ru.md)
    Version:0.19
-   SeeAlso:[TechDraw Centerline to Face(s)](TechDraw_FaceCenterLine.md), [TechDraw Centerline between 2 Points](TechDraw_2PointCenterLine.md)
+   SeeAlso:[Добавить осевую линию к Граням](TechDraw_FaceCenterLine/ru.md), [Добавить осевую линию между 2 точками](TechDraw_2PointCenterLine/ru.md)
 ---
 
 ## Описание
@@ -55,12 +56,12 @@ Centerlines have no properties of their own, as they are no document objects. Th
 
 <img alt="Sketch how the centerline is constructed" src=images/TD-CenterLineFlip.png  style="width:350px;"> The centerline between 2 lines is drawn between the midpoints (m0 and m1) of the lines that connects the endpoints of the selected lines (p0 and p1), see the sketch. Depending on the point order there are 2 possibilities to draw the connecting lines. The attribute **Flip Ends** flips the way the connecting lines are drawn. In FreeCAD 0.20 the point order is automatically determined so that the **Flip Ends** attribute is no longer necessary.
 
-## Scripting
+## Программирование
 
 
-**See also:**
+**См. так же:**
 
-[TechDraw API](TechDraw_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+[TechDraw API](TechDraw_API/ru.md) и [Основы составления скриптов FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 
 Centerlines are not accessible from [macros](Macros.md) or the [Python](Python.md) console at this time.
 

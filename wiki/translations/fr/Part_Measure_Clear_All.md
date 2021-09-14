@@ -6,9 +6,6 @@
    Workbenches:[Part](Part_Workbench/fr.md)
 ---
 
-
-</div>
-
 ## Description
 
 Cet outil efface toutes les mesures de la vue 3D.

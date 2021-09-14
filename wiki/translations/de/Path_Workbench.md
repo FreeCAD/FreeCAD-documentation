@@ -1,3 +1,5 @@
+# Path Workbench/de
+
 
 
 
@@ -76,105 +78,42 @@ Pfad Untersuchen:
 
 1.  Wenn du das Werkzeug zum Untersuchen des Pfades benutzt, wird als Einheit \'mm/s\' benutzt, da der Postprozessor noch nicht angewendet wurde.
 
-## Heights and depths 
+## Höhen und Tiefen 
 
-
-<div class="mw-translate-fuzzy">
-
-## Pfad Befehle 
-
-Viele der Befehle haben unterschiedliche Höhen und Tiefen: <img alt="" src=images/Path-DepthsAndHeights.gif  style="width:500px;"> 
-*Sichtreferenz für Tiefeneigenschaften (Einstellungen)*
-
-
-</div>
+Viele der Befehle haben unterschiedliche Höhen und Tiefen:
 
 <img alt="" src=images/Path-DepthsAndHeights.gif  style="width:500px;"> 
-*Visual reference for Depth properties (settings)*
+*Sichtreferenz für Tiefeneigenschaften (Einstellungen)*
 
-## Commands
+## Befehle
 
 Some commands are experimental and not available by default. To enable them see [Path experimental](Path_experimental.md).
 
-### Project Commands 
+### Projektbefehle
 
+-   <img alt="" src=images/Path_Job.svg  style="width:32px;"> [Auftrag](Path_Job/de.md): Erstellt einen neuen CNC Auftrag.
 
-<div class="mw-translate-fuzzy">
+-   <img alt="" src=images/Path_PostProcess.svg  style="width:32px;"> [Nach Prozess](Path_Post/de.md): Exportiert ein Projekt in G-code.
 
--   <img alt="" src=images/Path_Job.svg  style="width:32px;"> [Auftrag](Path_Job/de.md): Erstellt einen neuen CNC Arbeitsauftrag
+-   <img alt="" src=images/Path_Sanity.svg  style="width:32px;"> [Überprüfen des Pfadauftrags auf allgemeine Fehler](Path_Sanity/de.md): Überprüft den gewählten Auftrag auf fehlende Werte. [/de**Experimentell**](Path_experimental.md). {{Version/de|0.19}}
 
+-   <img alt="" src=images/Path_ExportTemplate.svg  style="width:32px;"> [Export Vorlage](Path_ExportTemplate/de.md): Den aktuellen Auftrag als Vorlage exportieren.
 
-</div>
+### Werkzeugbefehle
 
+-   <img alt="" src=images/Path_Inspect.svg  style="width:32px;"> [G-Code untersuchen](Path_Inspect/de.md): Zeigt den G-code zur Überprüfung.
 
-<div class="mw-translate-fuzzy">
+-   <img alt="" src=images/Path_Simulator.svg  style="width:32px;"> [CAM Simulator](Path_Simulator/de.md): Zeigt die Fräsbearbeitung wie sie auf der Maschine durchgeführt wird.
 
--   <img alt="" src=images/Path_PostProcess.svg  style="width:32px;"> [Nach Prozess](Path_Post/de.md): Exportiert ein Projekt in G-code
+-   <img alt="" src=images/Path_SelectLoop.svg  style="width:32px;"> [Beenden der Auswahlschleife](Path_SelectLoop/de.md): Vervollständigt eine Schleife aus zwei ausgewählten Kanten.
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Path_Sanity.svg  style="width:32px;"> [Pfad Fehler](Path_Sanity.md): Überprüft den gewählten Auftrag auf fehlende Werte
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Path_ExportTemplate.svg  style="width:32px;"> [Export Vorlage](Path_ExportTemplate/de.md): Den aktuellen Auftrag als Vorlage exportieren
-
-
-</div>
-
-### Tool Commands 
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Path_Inspect.svg  style="width:32px;"> [G-Code Inspektor](Path_Inspect/de.md): Zeigt den G-code zur Überprüfung
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Path_Simulator.svg  style="width:32px;"> [Simulator](Path_Simulator/de.md): Zeigt die Fräsbearbeitung wie sie auf der Maschine durchgeführt wird
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Path_SelectLoop.svg  style="width:32px;"> [Schleife vervollständigen](Path_SelectLoop/de.md): Vervollständigt eine Schleife aus zwei ausgewählten Kanten
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Path_OpActive.svg  style="width:32px;"> [OP Aktiv](Path_OpActiveToggle/de.md): Wird zum Aktivieren oder Deaktivieren einer Pfadoperation verwendet
-
-
-</div>
+-   <img alt="" src=images/Path_OpActive.svg  style="width:32px;"> [Umschalten des aktiven Zustands der Bearbeitung](Path_OpActiveToggle/de.md): Aktiviert oder deaktiviert eine Pfadbearbeitung.
 
 -   <img alt="" src=images/Path_ToolBitLibraryOpen.svg  style="width:32px;"> [ToolBit Library editor](Path_ToolBitLibraryOpen.md): Opens an editor to manage ToolBit libraries. <small>(v0.19)</small> 
 
 -   <img alt="" src=images/Path_ToolBitDock.svg  style="width:32px;"> [ToolBit Dock](Path_ToolBitDock.md): Toggles the ToolBit Dock. <small>(v0.19)</small> 
 
-
-<div class="mw-translate-fuzzy">
-
-### Grundlegende Pfad Arbeitsabläufe 
-
-
-</div>
+### Grundlegende Bearbeitungen 
 
 
 <div class="mw-translate-fuzzy">
@@ -502,4 +441,4 @@ Siehe [Path scripting/de](Path_scripting/de.md) Seite.
 
 }} 
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

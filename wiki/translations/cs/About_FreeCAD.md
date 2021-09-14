@@ -1,3 +1,5 @@
+# About FreeCAD/cs
+
  
 
 <img alt="" src=images/Freecad_default.jpg  style="width:1024px;">
@@ -80,4 +82,4 @@ FreeCAD je udržován a vyvíjen komunitou nadšených vývojářů a uživatel�
 
 
 
-[Category:User Documentation{{\#translation:}}](Category:User_Documentation.md)
+[Category:User Documentation](Category:User_Documentation.md)

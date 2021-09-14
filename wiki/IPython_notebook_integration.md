@@ -1,3 +1,5 @@
+# IPython notebook integration
+
 This page is dedicated to the Google Summer of Code project regarding the interoperability between IPython and FreeCAD, mostly regarding visualisation.
 
 ## Outline

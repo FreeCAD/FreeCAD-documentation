@@ -1,59 +1,61 @@
- {{TutorialInfo/pl
-|Topic=Poradnik: Podstawy Środowiska pracy Plot
+# Plot Basic tutorial/pl
+
+
+
+
+{{TutorialInfo/pl
+|Topic=Poradnik: Podstawy środowiska pracy Wykres
 |Level=Początkujący
 |Time=
 |Author=
-|FCVersion=
+|FCVersion=-
 |Files=
 }}
 
-In this tutorial we will learn how to perform a basic plot using [Plot Workbench](Plot_Workbench.md) and [Python console](Python_console.md).
+W tym poradniku dowiemy się, jak wykonać podstawowy wykres przy użyciu środowiska pracy [Wykres](Plot_Workbench/pl.md) i konsoli [Python](Python_console/pl.md).
 
-<img alt="Basic plot example" src=images/Plot_Trigonometric_Example.png  style="width:600px;">
+<img alt="" src=images/Plot_Trigonometric_Example.png  style="width:600px;"> 
+*Przykład prostego wykresu*
 
+Na poprzednim obrazku możesz zobaczyć rezultat, jaki w przybliżeniu uzyskamy. Po tym poradniku nauczysz się:
 
-<center>
+-   Jak utworzyć wykres w konsoli [Python](Python_console/pl.md).
+-   Jak wykreślić kilka danych w konsoli [Python](Python_console/pl.md).
+-   Jak wyświetlić <img alt="" src=images/Plot_Grid.svg  style="width:24px;"> [linie siatki](Plot_Grid/pl.md).
+-   Jak wyświetlić <img alt="" src=images/Plot_Legend.svg  style="width:24px;"> [legendę](Plot_Legend/pl.md).
+-   Jak edytować <img alt="" src=images/Plot_Series.svg  style="width:24px;"> [etykiety serii](Plot_Series/pl.md), wprowadzając tekst w [LaTeX](http://www.latex-project.org).
+-   Jak edytować <img alt="" src=images/Plot_Labels.svg  style="width:24px;"> [etykiety osi](Plot_Labels/pl.md), wprowadzając tekst w edytorze [LaTeX](http://www.latex-project.org).
+-   Jak edytować style serii.
+-   Jak zapisać swój wykres.
 
-Basic plot example.
+## Wykreślanie danych 
 
+Aby wykreślić dane nie musisz tworzyć nowego dokumentu FreeCAD, wystarczy, że uruchomisz konsolę [Python](Python_console/pl.md) i zaczniesz wysyłać komendy, lub użyjesz [makrodefinicji](Macros/pl.md).
 
-</center>
+### Tworzenie dokumentu wykresu 
 
-In previous image you can see the result that we approximately will obtain. Following this tutorial you will learn:
+Wykresy są specjalnymi dokumentami, które można utworzyć ręcznie w celu późniejszego dodania danych, lub pozwolić, aby moduł utworzył je automatycznie w momencie rozpoczęcia wykreślania danych. Tworzenie własnych dokumentów wykresów ma dwie zalety:
 
--   How to create a Plot from [Python Console](Python_Console.md).
--   How to plot some data from [Python Console](Python_Console.md).
--   How to show the <img alt="" src=images/Plot_Grid.svg  style="width:24px;"> [grid lines](Plot_Grid.md).
--   How to show the <img alt="" src=images/Plot_Legend.svg  style="width:24px;"> [legend](Plot_Legend.md).
--   How to edit <img alt="" src=images/Plot_Series.svg  style="width:24px;"> [series labels](Plot_Series.md), introducing text in [LaTeX](http://www.latex-project.org).
--   How to edit <img alt="" src=images/Plot_Labels.svg  style="width:24px;"> [axes labels](Plot_Labels.md), introducing text in [LaTeX](http://www.latex-project.org).
--   How to edit series styles.
--   How to save your plot.
+-   Możesz ustawić etykietę okna dokumentu.
+-   Możesz łatwo kontrolować, na którym dokumencie wykreślać dane.
 
-## Plotting data 
-
-In order to plot data you don\'t need to create a new FreeCAD document, simply show the Python console and start sending commands, or use [macros](Macros.md).
-
-### Creating plot document 
-
-Plots are special documents that can be created manually in order to add data later, or allow the module creates one automatically when you start plotting data. Create your own plot documents have 2 advantages:
-
--   You can set the document window label.
--   You can control easily on which document you plot your data.
-
-In order to create new plot document simply launch following commands:
+Aby utworzyć nowy dokument działki wystarczy uruchomić następujące komendy:
 
 
 ```python
-import Plot
+try:
+    from FreeCAD.Plot import Plot
+except ImportError:
+    from freecad.plot import Plot
+
 Plot.figure("TrigonometricTest")
 ```
 
-That will create a new tab on main windows called **TrigonometricTest**. The new created document already have a set of axes. Each plot document have at least one set of axes that can be removed without using fully matplotlib control.
+W wersji FreeCAD 0.19 wymagane jest zainstalowanie środowiska pracy <img alt="" src=images/Workbench_Plot.svg  style="width:24px;"> [Wykres](Plot_Workbench/pl.md) za pomocą [Menadżera dodatków](Std_AddonMgr/pl.md), natomiast od wersji 0.20 FreeCAD nie wymaga już zewnętrznego dodatku do wykonywania wykresów. Powyższe polecenia utworzą nową zakładkę w [głównym oknie](Main_view_area/pl.md) o nazwie **TrigonometricTest**. Nowo utworzony dokument posiada już zestaw osi. Każdy dokument wykresu posiada co najmniej jeden zestaw osi.
 
-### Drawing functions 
+### Funkcje rysowania 
 
-You can start working here due to plot command will start a new document, but all plot commands that you execute will append series to created plot until you don\'t create a new document, so usually is better options control the opened plot documents. First thing that we need to do is create the data for sine and cosine functions that we want to plot:
+Można również rozpocząć pracę od tego miejsca, ponieważ, jak już wyjaśniono, polecenie plot utworzy w razie potrzeby nowy dokument. Następną rzeczą, którą musimy zrobić, jest utworzenie danych dla funkcji sinus i cosinus, które chcemy wykreślić:
 
 
 ```python
@@ -64,13 +66,13 @@ s = [math.sin(2.0*math.pi*tt) for tt in t]
 c = [math.cos(2.0*math.pi*tt) for tt in t]
 ```
 
-That will create 3 arrays of data (with 101 points):
+Spowoduje to utworzenie 3 tablic danych *(ze 101 punktami)*:
 
--   *t* = Time in seconds.
--   *s* = Sine function.
--   *c* = Cosine function.
+-   *t* = Czas w sekundach.
+-   *s* = Funkcja sinus.
+-   *c* = funkcja cosinus.
 
-In order to plot both function we only need to launch next commands:
+W celu wykreślenia obu funkcji wystarczy uruchomić kolejne komendy:
 
 
 ```python
@@ -78,106 +80,73 @@ Plot.plot(t,s)
 Plot.plot(t,c)
 ```
 
-That will plot our functions. **plot** command allows the series label as argument, but since we will edit it later using Plot module tools we don\'t pass this data yet.
+Spowoduje to wykreślenie naszych funkcji. Polecenie **plot**\' dopuszcza jako argument etykietę serii, ale ponieważ będziemy ją później edytować za pomocą narzędzi modułu Plot, nie przekazujemy jeszcze tych danych.
 
-## Configuring plot 
+## Konfiguracja wykresu 
 
-### Showing grid and legend 
+### Wyświetlanie siatki i legendy 
 
-Change FreeCAD workbench to [Plot module](Plot_Module.md) in View/Workbench menu. When module has been loaded use grid tool in order to show it.
+Zmień środowisko pracy FreeCAD na [Wykres](Plot_Module/pl.md) w menu **Widok → Środowiska pracy**. Po załadowaniu modułu użyj narzędzia [siatki](Plot_Grid/pl.md), aby ją wyświetlić.
 
-![Show/hide grid tool icon](images/Plot_Grid.svg‎ )
+![](images/Plot_Grid.svg‎ ) *Ikonka narzędzia Pokaż / ukryj siatkę*
 
+Możesz powtórzyć tę czynność, aby ukryć siatkę. Możesz również wyświetlić [legendę](Plot_Legend/pl.md) za pomocą dostarczonego narzędzia.
 
-<center>
+![](images/Plot_Legend.svg ) *Ikonka narzędzia Pokaż / ukryj legendę*
 
-Show/hide grid tool icon.
+Jak widzisz, legenda jest pusta, ponieważ nie ustawiliśmy jeszcze żadnej etykiety serii. W środowisku pracy [Wykres](Plot_Module/pl.md) serie bez etykiety nie są wyświetlane w legendzie.
 
+### Ustawianie etykiet serii 
 
-</center>
+Za pomocą narzędzia [serii](Plot_Series/pl.md) możesz edytować niektóre parametry serii.
 
-You can repeat the action in order to hide it. Also you can show the legend with the tool provided.
+![](images/Plot_Series.svg‎ ) *Ikonka narzędzia konfiguracji serii*
 
-![Show/hide legend tool icon](images/Plot_Legend.svg‎ )
-
-
-<center>
-
-Show/hide legend tool icon.
-
-
-</center>
-
-As you can see, legend is empty because we have not set any series label yet. In [Plot module](Plot_Module.md) series without label are not represented at legend, in order to allow you to draw auxiliary lines.
-
-### Setting series labels 
-
-With the series tool you can edit some series parameters.
-
-![Series configuration tool icon](images/Plot_Series.svg‎ )
-
-
-<center>
-
-Series configuration tool icon.
-
-
-</center>
-
-First for all select the line that you want to edit, for example we will start with the first one. Uncheck **No label** and set this label:
+Najpierw wybierz serię, którą chcesz edytować, na przykład zaczniemy od pierwszej. Odznacz opcje {{CheckBox|Brak etykiety}} i ustaw tę etykietę:
 
 
 ```python
 $y = \sin \left( 2 \pi t \right)$
 ```
 
-Since [matplotlib](http://matplotlib.org/) supports [LaTeX](http://www.latex-project.org) you can set all the labels or titles that you want using it. Set the following label to second serie:
+Ponieważ [matplotlib](http://matplotlib.org/) obsługuje [LaTeX](http://www.latex-project.org), możesz ustawić wszystkie etykiety i tytuły, które chcesz, za jego pomocą. Ustaw następującą etykietę na drugą serię:
 
 
 ```python
 $y = \cos \left( 2 \pi t \right)$
 ```
 
-### Setting series style 
+### Ustawianie stylu serii 
 
-Series allows you to set a lot of series properties. Try to set the properties shown at the example image, changing series colors and drawing style of the second one.
+Seria pozwala na ustawienie wielu różnych właściwości. Spróbuj ustawić właściwości pokazane na przykładowym obrazku, zmieniając kolory serii i styl rysowania drugiej serii.
 
-### Setting axes labels 
+### Ustawianie etykiet osi 
 
-With the labels tool you can set labels associated to all created axes.
+Za pomocą narzędzia [Etykiety](Plot_Labels/pl.md) można ustawić etykiety przypisane do wszystkich utworzonych osi.
 
-![Labels tool icon](images/Plot_Labels.svg‎ )
+![](images/Plot_Labels.svg‎ ) *Ikonka narzędzia Ustaw etykiety*
 
+Ustaw te dane:
 
-<center>
-
-Labels tool icon.
-
-
-</center>
-
-Set this data:
-
--   Title = Trigonometric functions example
+-   Title = Przykład funkcji trygonometrycznych
 -   X Label = \$t\$
 -   Y Label = \$y = \\mathrm{f} \\left( t \\right)\$
 
-Also change the size of all of them to 20.
+Zmień również rozmiar czcionki w tytule i wszystkich etykietach na {{Value|20}}.
 
-## Saving plot 
+## Zapisywanie wykresu 
 
-With saving plot tool you can save your plot as image file in several formats.
+Za pomocą narzędzia do [zapisywania](Plot_Save/pl.md) wykresu możesz zapisać swój wykres jako plik graficzny w kilku formatach.
 
-![Save tool icon](images/Plot_Save.svg‎ )
+![](images/Plot_Save.svg ) *Ikonka narzędzia Zapisz wykres*
+
+Najpierw należy wybrać ścieżkę dostępu do pliku wyjściowego.
+
+Możesz ustawić rozmiar obrazu wyjściowego w calach, na przykład możemy ustawić 11.7x8.3, który jest rozmiarem papieru **DIN A4**. DPI *(Dots per inch)* będzie kontrolować rozdzielczość obrazu, na przykład 100 dpi. W połączeniu z podanymi wymiarami da to obraz o wymiarach 1170x830 pikseli.
 
 
-<center>
+{{Tutorials_navi
 
-Save tool icon.
+}} {{Plot_Tools_navi}} 
 
-
-</center>
-
-First for all select the path of the output file. You can use file selection dialog using the button at right of the path edition line.
-
-You can set the output image size in inches, for example we can set 11.7x8.3 that is a **DIN A4** paper size. DPI (Dots per inch) will control the image resolution, for example using 100 dpi you will get an image of 1170x830 pixels. {{Tutorials navi}} {{Plot Tools navi}} 
+[Category:External\_Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)

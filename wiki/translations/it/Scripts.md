@@ -1,3 +1,5 @@
+# Scripts/it
+
  {{TutorialInfo/it
 |Topic=Scripting
 |Level=Base
@@ -346,4 +348,4 @@ Questo è il significato dell\'aggettivo \"delicato\" che ho usato precedentemen
 
 }} 
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Python Code{{\#translation:}}](Category:Python_Code.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)

@@ -1,5 +1,12 @@
 ---
-- GuiCommand:/es   Name:Arch 3Views   Workbenches:[[Arch Module/es   Arch]]|MenuLocation:Arch → Utilities → 3 Views from mesh   Shortcut:   SeeAlso:---
+- GuiCommand:/es
+   Name:Arch 3Views
+   Name/es:Arch 3Views
+   MenuLocation:Arch → Utilities → 3 Views from mesh
+   Workbenches:[Arch](Arch_Workbench/es.md)
+   Shortcut:
+   SeeAlso:
+---
 
 
 </div>

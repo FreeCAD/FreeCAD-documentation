@@ -1,11 +1,13 @@
+# Plot Module/pt-br
+
 
 
 <img alt="Plot workbench icon" src=images/Workbench_Plot.svg  style="width:128px;">
 
-## Introdução
-
 
 {{TOCright}}
+
+## Introdução
 
 FreeCAD is able to perform plots using the [matplotlib](https://matplotlib.org/) [Python](Python.md) library. A module is provided to this end, as an external add-on in version 0.19 and as a core component from version 0.20 on. Older versions of FreeCAD are not covered in this documentation.
 
@@ -13,7 +15,7 @@ The produced plots offer the standard [matplotlib](https://matplotlib.org/) tool
 
 ## Module
 
-The module can be invoked in a Python console or in a [macro](Macro.md). The first thing you must do is importing the module. In FreeCAD 0.19 you must first install the <img alt="" src=images/Workbench_Plot.svg  style="width:24px;"> [Plot Workbench](Plot_Workbench.md) using the [Add-on manager](Std_AddonMgr.md), and then you can import Plot typing
+The module can be invoked in a Python console or in a [macro](Macros.md). The first thing you must do is importing the module. In FreeCAD 0.19 you must first install the <img alt="" src=images/Workbench_Plot.svg  style="width:24px;"> [Plot Workbench](Plot_Workbench.md) using the [Add-on manager](Std_AddonMgr.md), and then you can import Plot by typing:
 
 
 ```python
@@ -60,10 +62,12 @@ If you decide to install the <img alt="" src=images/Workbench_Plot.svg  style="w
 
 </div>
 
+## Scripting
+
 
 <div class="mw-translate-fuzzy">
 
-## Scripting
+## Scripting 
 
 Como o Plot Workbench é uma camada sobre `matplotlib`, você está livre para usar qualquer função desta biblioteca em instâncias de plotagem. Veja [exemplos de scripting](Scripting_examples/pt-br.md) para exemplos.
 
@@ -72,12 +76,20 @@ Como o Plot Workbench é uma camada sobre `matplotlib`, você está livre para u
 
 ## Tutorial
 
+
+<div class="mw-translate-fuzzy">
+
+## Tutorial 
+
 -   [Plot Basic tutorial](Plot_Basic_tutorial/pt-br.md)
 -   [Plot MultiAxes tutorial](Plot_MultiAxes_tutorial/pt-br.md)
+
+
+</div>
 
 
 {{Plot_Tools_navi
 
 }} 
 
-[Category:External\_Workbenches{{\#translation:}}](Category:External_Workbenches.md) [Category:Addons{{\#translation:}}](Category:Addons.md)
+[Category:External\_Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)

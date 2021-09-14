@@ -1,3 +1,5 @@
+# Manual:Installing/pl
+
 
 
 
@@ -99,4 +101,4 @@ If you are using the Ubuntu operating system, some of the addons above are also 
 
 
 
-[Category:Poweruser Documentation{{\#translation:}}](Category:Poweruser_Documentation.md) [Category:Tutorials{{\#translation:}}](Category:Tutorials.md)
+[Category:Poweruser Documentation](Category:Poweruser_Documentation.md) [Category:Tutorials](Category:Tutorials.md)

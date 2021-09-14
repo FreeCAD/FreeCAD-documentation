@@ -24,7 +24,7 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 <img alt="" src=images/Arch_Rebar_Straight_example.png  style="width:400px;"> 
 *Two sets of straight reinforcement bars inside an [[Arch Structure]]*
 
-## Использование
+## Применение
 
 1.  Select any face of a previously created **<img src="images/Arch_Structure.svg" width=16px> [[Arch Structure]]** object.
 2.  Then select **<img src="images/Arch_Rebar_Straight.svg" width=16px> [Straight Rebar](Arch_Rebar_Straight.md)** from the rebar tools.
@@ -187,7 +187,7 @@ editStraightRebar(Rebar, f_cover, coverAlong, rt_cover, lb_cover,
 
 -    `structure`and `facename` may be omitted so that the rebar stays in the original structure.
 
-Example: 
+Пример: 
 ```python
 import StraightRebar
 
@@ -210,4 +210,4 @@ StraightRebar.editStraightRebar(Rebar4, 50, ("Right Side", 50), 100, 100,
 
  
 
-[Category:Reinforcement{{\#translation:}}](Category:Reinforcement.md)
+[Category:Reinforcement](Category:Reinforcement.md)

@@ -1,10 +1,12 @@
+# PartDesign project/fr
+
 
 
 
 {{VeryImportantMessage|
-This roadmap is probably obsolete. For more information see [Development roadmap](Development_roadmap.md).<br>
-If you are not involved with the development discussed here:<br>
-!!! PLEASE DO NOT EDIT OR TRANSLATE !!!
+Ce plan de développement est probablement obsolète. Pour plus d'informations, voir [Plan de développement](Development_roadmap/fr.md).<br>
+Si vous n'êtes pas impliqué dans le développement discuté ici :<br>
+!!! S'IL VOUS PLAÎT, NE MODIFIEZ PAS ET NE TRADUISEZ PAS !!!
 }}
 
 
@@ -163,4 +165,4 @@ Faire pivoter une esquisse sur un axe et un angle défini.
 
 
 
-[Category:Roadmap{{\#translation:}}](Category:Roadmap.md)
+[Category:Roadmap](Category:Roadmap.md)

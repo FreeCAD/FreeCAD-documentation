@@ -1,3 +1,5 @@
+# Manual:Generating 2D drawings/de
+
 
 
 
@@ -10,13 +12,7 @@ Wenn dein Modell nicht direkt von einer Maschine gedruckt oder gefräst werden k
 
 Typische Beispiele sind Ikea Anleitungen, [Architekturzeichnungen](https://en.wikipedia.org/wiki/Architectural_drawing) und [Blaupausen](https://en.wikipedia.org/wiki/Blueprint). Diese Zeichnungen enthalten in der Regel nicht nur die Zeichnung selbst, sondern auch viele Anmerkungen, wie Text, Maße, Zahlen und Symbole, die anderen Menschen helfen, zu verstehen, was und wie getan werden muss.
 
-
-<div class="mw-translate-fuzzy">
-
 In FreeCAD ist der Arbeitsbereich, der für die Erstellung solcher Zeichnungen verantwortlich ist, der <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [TechDraw Arbeitsbereich](TechDraw_Workbench/de.md).
-
-
-</div>
 
 Der TechDraw Arbeitsbereich ermöglicht es dir, Blätter zu erstellen, die leer sein können oder eine vorgefertigte [Vorlage](TechDraw_Templates/de.md) verwenden, um bereits eine Reihe von Elementen auf dem Blatt zu haben, wie z.B. Rahmen und einen Titel. Auf diesen Blättern kannst du dann Ansichten der 3D Objekte, die du zuvor modelliert hast, platzieren und konfigurieren, wie diese Ansichten auf dem Blatt erscheinen sollen. Du kannst auch alle Arten von Anmerkungen auf dem Blatt platzieren, wie z. B. Bemaßungen, Texte und andere in technischen Zeichnungen häufig verwendete Symbole.
 
@@ -29,9 +25,6 @@ In der folgenden Übung werden wir sehen, wie eine einfache Zeichnung eines Stuh
 -   Lade die IkeaÄhnlicherStuhl Datei aus der Bibliothek. Du kannst wählen zwischen der .[FCStd](File_Format_FCStd/de.md) Version, die die komplette Modellierungshistorie enthält, oder die .[step](STEP/de.md) Version, die nur ein Objekt ohne die Historie enthält. Da wir nicht weiter modellieren wollen, ist es das Beste, die .step Version zu wählen, da sie einfacher zu bearbeiten ist.
 
 ![](images/Parts_library.jpg )
-
-
-<div class="mw-translate-fuzzy">
 
 -   Wechsle zum <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [TechDraw Arbeitsbereich](TechDraw_Workbench/de.md)
 -   Drücke die <img alt="" src=images/TechDraw_PageTemplate.svg  style="width:16px;"> [SeitenVorlage](TechDraw_PageTemplate/de.md) Schaltfläche
@@ -51,9 +44,6 @@ In der folgenden Übung werden wir sehen, wie eine einfache Zeichnung eines Stuh
 
 ![](images/Exercise_drawing_02.jpg )
 
-
-</div>
-
 -   Lass uns diese Operation zweimal wiederholen, um zwei weitere Ansichten zu erstellen. Wir werden die X und Y Werte setzen, die die Position der Ansicht auf der Seite angibt, um sie getrennt von der Draufsicht anzuzeigen, und ihre Richtung, um verschiedene Ansichtsausrichtungen zu erstellen. Gib jeder neuen Ansicht die folgenden Eigenschaften:
     -   View001 (Frontansicht): X: 70, Y: 220, Maßstab: 0.1, Drehung: 0, Richtung: (0,-1,0)
     -   View002 (Seitenansicht): X: 150, Y: 220, Maßstab: 0.1, Drehung: 0, XRichtung: (1,0,0)
@@ -65,13 +55,7 @@ In der folgenden Übung werden wir sehen, wie eine einfache Zeichnung eines Stuh
 
 -   Wir können den Aspekt unserer Ansichten optimieren, wenn wir wollen, z.B. können wir ihre **Linienbreite** Eigenschaft (unter dem Ansichtsreiter in der Combo Ansicht) auf 0.5 ändern.
 
-
-<div class="mw-translate-fuzzy">
-
-Wir werden nun Bemaßungen und Hinweise auf unserer Zeichnung platzieren. Es gibt zwei Arten, Bemaßungen zu einem Modell hinzuzufügen: Eine ist, die Bemaßungen mit dem <img alt="" src=images/Draft_Dimension.svg  style="width:16px;"> [Abmessung](Draft_Dimension/de.md) Werkzeug des [Entwurf Arbeitsbereich](Draft_Module/de.md) im 3D-Modell zu platzieren und dann mit dem <img alt="" src=images/TechDraw_DraftView.svg  style="width:16px;"> [Entwurfsansicht](TechDraw_DraftView/de.md)-Werkzeug (das mit einer Bemaßung oder einer Gruppe, die Bemaßungen enthält, benutzt werden kann) eine Ansicht dieser Bemaßungen auf unsererem Blatt zu platzieren, oder wir können mit dem [Zeichnungsbemaßungs Arbeitsbereich](https://github.com/hamish2014/FreeCAD_drawing_dimensioning), der aus den [FreeCAD Erweiterungen](https://github.com/FreeCAD/FreeCAD-addons) installierbar ist, Dinge direkt auf dem Zeichenblatt tun. Wir werden hier die letztere Methode benutzen.
-
-
-</div>
+Wir werden nun Bemaßungen und Hinweise auf unserer Zeichnung platzieren. Es gibt zwei Arten, Bemaßungen zu einem Modell hinzuzufügen: Eine ist, die Bemaßungen mit dem <img alt="" src=images/Draft_Dimension.svg  style="width:16px;"> [Abmessung](Draft_Dimension/de.md) Werkzeug des [Entwurf Arbeitsbereich](Draft_Workbench/de.md) im 3D-Modell zu platzieren und dann mit dem <img alt="" src=images/TechDraw_DraftView.svg  style="width:16px;"> [Entwurfsansicht](TechDraw_DraftView/de.md)-Werkzeug (das mit einer Bemaßung oder einer Gruppe, die Bemaßungen enthält, benutzt werden kann) eine Ansicht dieser Bemaßungen auf unsererem Blatt zu platzieren, oder wir können mit dem [Zeichnungsbemaßungs Arbeitsbereich](https://github.com/hamish2014/FreeCAD_drawing_dimensioning), der aus den [FreeCAD Erweiterungen](https://github.com/FreeCAD/FreeCAD-addons) installierbar ist, Dinge direkt auf dem Zeichenblatt tun. Wir werden hier die letztere Methode benutzen.
 
 -   Drücke die <img alt="" src=images/Techdraw_Toggleframe.svg  style="width:16px;"> Umschalttaste zum Einschalten der Knoten.
 -   Verwende **Strg** + Linker Mausklick, um die beiden Knoten auszuwählen, zwischen denen du den Abstand messen möchtest.
@@ -110,17 +94,11 @@ Unsere Seite kann nun ins SVG für eine weitere Verarbeitung in grafischen Anwen
 
 **Mehr lesen**
 
-
-<div class="mw-translate-fuzzy">
-
 -   [Der TechDraw Arbeitsbereich](TechDraw_Workbench/de.md)
 -   [Benutzerdefinierte Vorlagen erstellen](TechDraw_TemplateHowTo/de.md)
 -   [Ein weiteres TechDraw Tutorium](Basic_TechDraw_Tutorial/de.md)
 -   [Die FreeCAD Bibliothek](https://github.com/FreeCAD/FreeCAD-library)
 -   [Inkscape](http://www.inkscape.org)
-
-
-</div>
 
 **Tutorials ansehen**
 

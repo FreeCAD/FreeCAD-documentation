@@ -1,30 +1,18 @@
 ---
 - GuiCommand:/ru
-   Name:Sketcher ConstrainEqual
-   Name/ru:Sketcher ConstrainEqual
-   MenuLocation:Sketch → Sketcher constraints → Constrain equal
+   Name/ru:Ограничение эквивалентностью
+   Name:Sketcher_ConstrainEqual
+   MenuLocation:Sketch → Ограничения эскиза → Ограничение эквивалентностью
    Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
    Shortcut:E
-   SeeAlso:[Sketcher Constrain radius](Sketcher_ConstrainRadius/ru.md)
+   SeeAlso:[Ограничить радиус или вес](Sketcher_ConstrainRadius/ru.md)
 ---
 
 ## Описание
 
-
-<div class="mw-translate-fuzzy">
-
-Ограничение Constrain Equal заставляет два или более отрезка в линии, ломаной линии или прямоугольнике иметь одинаковую длину. При применении к дугам или окружностям радиусы ограничены, чтобы быть равными. Его нельзя применять к геометрическим примитивам, которые не относятся к одному и тому же типу (например, отрезки и дуги).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+Ограничение эквивалентности делает равным длину указанных отрезков в линии, ломаной или прямоугольнике. При применении к дугам или окружностям их радиусы становятся равными. Данное ограничение нельзя применять к геометрическим примитивам, которые не относятся к одному и тому же типу (например, нельзя применить к отрезку и дуге).
 
 ## Oперация
-
-
-</div>
 
 The example sketch below contains a number of sketch primitives (line, poly-line, rectangle, arc and circle).
 
@@ -62,7 +50,7 @@ and apply **<img src=images/Sketcher_ConstrainEqual.svg style="width:16px"> [Con
 
 ![](images/EqualConstraint9.png )
 
-## Scripting
+## Программирование
 
 
 ```pythonSketch.addConstraint(Sketcher.Constraint('Equal', Edge1, Edge2))```

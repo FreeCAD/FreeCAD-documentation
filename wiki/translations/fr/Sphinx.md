@@ -1,3 +1,5 @@
+# Sphinx/fr
+
 
 
 ## Introduction
@@ -31,4 +33,4 @@ Résultats encourageants de David\_D:
 -   [Génération et hébergement automatiques de documentation](https://forum.freecadweb.org/viewtopic.php?f=8&t=47229)
 -   [Forum FreeCAD](https://forum.freecadweb.org/viewtopic.php?p=411563#p411563) - <https://github.com/DavidDaish/freecad_sphinx_docs>
 
-[Category:Developer\_Documentation{{\#translation:}}](Category:Developer_Documentation.md)
+[Category:Developer\_Documentation](Category:Developer_Documentation.md)

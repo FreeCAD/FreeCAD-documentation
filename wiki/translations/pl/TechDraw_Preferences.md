@@ -1,3 +1,5 @@
+# TechDraw Preferences/pl
+
 
 
 
@@ -199,4 +201,4 @@ Niektóre ustawienia preferencji są dostępne tylko poprzez [Edytor parametrów
 
 }} 
 
-[Category:Preferences{{\#translation:}}](Category:Preferences.md)
+[Category:Preferences](Category:Preferences.md)

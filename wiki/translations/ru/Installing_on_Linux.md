@@ -1,3 +1,5 @@
+# Installing on Linux/ru
+
 
 
 
@@ -387,4 +389,4 @@ The package name is case sensitive, so try \FreeCAD\ as well as \freecad\. If th
 
 
 
-[Category:Common Questions{{\#translation:}}](Category:Common_Questions.md) [Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md)
+[Category:Common Questions](Category:Common_Questions.md) [Category:Developer Documentation](Category:Developer_Documentation.md)

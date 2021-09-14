@@ -1,3 +1,5 @@
+# Draft Snap/de
+
 
 
 
@@ -17,7 +19,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Die <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Entwurf Arbeitsbereich](Draft_Module/de.md) Werkzeuge ermöglichen dir Punkte und Abstände zu greifen, durch klicken auf die [3D Ansicht](3D_view/de.md) mit dem Mauszeiger oder durch eingeben von Koordinaten im [Aufgabenbereich](Task_panel/de.md) des Werkzeugs.
+Die <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Entwurf Arbeitsbereich](Draft_Workbench/de.md) Werkzeuge ermöglichen dir Punkte und Abstände zu greifen, durch klicken auf die [3D Ansicht](3D_view/de.md) mit dem Mauszeiger oder durch eingeben von Koordinaten im [Aufgabenbereich](Task_panel/de.md) des Werkzeugs.
 
 
 </div>
@@ -25,7 +27,7 @@ Die <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Entwurf Ar
 
 <div class="mw-translate-fuzzy">
 
-Das Fangen ist mit den meisten <img src=images/Draft_ToggleSnap.svg style="width:Entwurf](Draft_Module/de.md) und [Architektur Arbeitsbereich](Arch_Module/de.md) Werkzeugen verfügbar und kann mit der **[16px">[Fang Umschalten](Draft_Snap_Lock/de.md)** Schaltfläche, die sich in der Fang Werkzeugleiste befindet: **Ansicht → Werkzeugleisten → Entwurf Fang** global aktiviert und deaktiviert werden.
+Das Fangen ist mit den meisten <img src=images/Draft_ToggleSnap.svg style="width:Entwurf](Draft_Workbench/de.md) und [Architektur Arbeitsbereich](Arch_Workbench/de.md) Werkzeugen verfügbar und kann mit der **[16px">[Fang Umschalten](Draft_Snap_Lock/de.md)** Schaltfläche, die sich in der Fang Werkzeugleiste befindet: **Ansicht → Werkzeugleisten → Entwurf Fang** global aktiviert und deaktiviert werden.
 
 
 </div>

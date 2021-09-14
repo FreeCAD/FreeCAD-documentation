@@ -1,3 +1,5 @@
+# Macro Toggle Panels Visibility/it
+
  {{Macro/it
 |Name=Macro Toggle Panels Visibility
 |Translate=Nascondi Pannelli

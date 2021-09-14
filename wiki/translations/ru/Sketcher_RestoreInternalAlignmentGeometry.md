@@ -1,25 +1,25 @@
 ---
 - GuiCommand:/ru
-   Name:Sketcher RestoreInternalAlignmentGeometry
-   Name/ru:Sketcher RestoreInternalAlignmentGeometry
+   Name/ru:Показать/скрыть внутреннюю геометрию
+   Name:Sketcher_RestoreInternalAlignmentGeometry
    MenuLocation:Sketch → Инструменты для эскиза → Показать/скрыть внутреннюю геометрию
-   Workbenches:[Sketcher](Sketcher_Workbench/ru.md), [PartDesign](PartDesign_Workbench/ru.md)
+   Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
    Shortcut:Ctrl+Shift+E
-   SeeAlso:[Sketcher Ellipse](Sketcher_CreateEllipseByCenter/ru.md), [Привязать к внутренней геометрии](Sketcher_ConstrainInternalAlignment/ru.md)
+   SeeAlso:[Создать эллипс от центра](Sketcher_CreateEllipseByCenter/ru.md), [Привязать к внутренней геометрии](Sketcher_ConstrainInternalAlignment/ru.md)
 ---
 
-## Description
+## Описание
 
 The command deletes unused elements aligned to internal geometry, or recreates the missing ones.
 
-## Usage
+## Применение
 
 -   Select an element of a sketch that supports internal alignment (currently only Ellipse/Arc and B-spline).
 -   Invoke the command by clicking **<img src=images/Sketcher_RestoreInternalAlignmentGeometry.svg style="width:16px"> <img src=images/Sketcher_RestoreInternalAlignmentGeometry.svg style="width:Show/Hide internal geometry](Sketcher_RestoreInternalAlignmentGeometry.md)** or choose **Sketch → Sketcher tools → [16px"> Show/Hide internal geometry** or using the keyboard shortcut.
 
 If there are free alignment places for the selected element, new construction geometry is created and aligned to the available places. If all alignment places are occupied, the unused internal geometry is deleted (the element is treated as unused if it is not constrained to anything else).
 
-## Example
+## Пример
 
 1.  Create a new ellipse. New ellipses are always fully-packed. You\'ll see an ellipse and a bunch of construction geometry: major diameter, minor diameter, foci.
 2.  Select minor diameter line and hit **Del**. The diameter is gone, but the ellipse remains. How do we get the diameter back?

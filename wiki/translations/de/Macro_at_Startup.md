@@ -1,3 +1,5 @@
+# Macro at Startup/de
+
 
 
 ## Einführung
@@ -147,4 +149,4 @@ Beachte, dass, wenn das Originalmakro über den Erweiterungsverwalter herunterge
 
 }}
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Python Code{{\#translation:}}](Category:Python_Code.md) [Category:Macros{{\#translation:}}](Category:Macros.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md) [Category:Macros](Category:Macros.md)

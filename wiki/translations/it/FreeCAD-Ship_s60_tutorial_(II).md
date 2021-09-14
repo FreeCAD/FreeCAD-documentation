@@ -1,3 +1,5 @@
+# FreeCAD-Ship s60 tutorial (II)/it
+
 
 
 
@@ -152,7 +154,7 @@ Geometria del serbatoio generato.
 
 Per costruire il serbatoio di babordo basta selezionare la geometria di dritta e eseguire lo strumento specchio, selezionando XZ come piano di riflessione.
 
-Per convertire la geometria dei serbatoi in una forma solida usuale, and recover our **s60\_IowaUniversity** geometry, caricare il [modulo Draft](Draft_Module/it.md), poi selezionare la geometria del serbatoio di dritta e eseguire Upgrade. Ripetere l\'operazione con la geometria del serbatoio di babordo. Si possono rinominare le geometrie con:
+Per convertire la geometria dei serbatoi in una forma solida usuale, and recover our **s60\_IowaUniversity** geometry, caricare il [modulo Draft](Draft_Workbench/it.md), poi selezionare la geometria del serbatoio di dritta e eseguire Upgrade. Ripetere l\'operazione con la geometria del serbatoio di babordo. Si possono rinominare le geometrie con:
 
 -   StarboardTankGeom
 -   PortTankGeom

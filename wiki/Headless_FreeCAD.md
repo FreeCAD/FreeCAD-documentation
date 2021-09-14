@@ -1,3 +1,5 @@
+# Headless FreeCAD
+
 ## Introduction
 
 This wiki page will document various aspect of running FreeCAD in the console without enabling the GUI (Graphical User Interface) or what is called \'headless\'.
@@ -76,6 +78,6 @@ view = Gui.subgraphFromObject(obj)
 -   [Embedding FreeCAD\#Using FreeCAD without GUI](Embedding_FreeCAD#Using_FreeCAD_without_GUI.md)
 -   [Start up and Configuration\#Running FreeCAD without GUI .28headless.29](Start_up_and_Configuration#Running_FreeCAD_without_GUI_.28headless.29.md)
 
-[Category:Developer Documentation{{\#translation:}}](Embedding_FreeCAD#Using_FreeCAD_without_GUI.md)
+[Category:Developer Documentation](Embedding_FreeCAD#Using_FreeCAD_without_GUI.md)
 
-[Category:Poweruser Documentation{{\#translation:}}](Category:Poweruser_Documentation.md)
+[Category:Poweruser Documentation](Category:Poweruser_Documentation.md)

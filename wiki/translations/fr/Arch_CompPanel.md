@@ -1,8 +1,8 @@
 ---
 - GuiCommand:/fr
    Name:Arch CompPanel
-   Name/fr:Arch Outils de panneau
-   MenuLocation:Arch → Outils de panneau
+   Name/fr:Arch Outils pour panneaux
+   MenuLocation:Arch → Outils pour panneaux
    Workbenches:[Arch](Arch_Workbench/fr.md), [BIM](BIM_Workbench/fr.md)
    Version:0.17
    SeeAlso:
@@ -10,7 +10,7 @@
 
 ## Description
 
-Regroupement de plusieurs outils en relation avec les panneaux.
+Groupement de plusieurs outils en relation avec les panneaux.
 
 ## Types
 
@@ -20,13 +20,7 @@ Regroupement de plusieurs outils en relation avec les panneaux.
 -   <img alt="" src=images/Arch_Nest.svg  style="width:32px;"> [Calepinage](Arch_Nest/fr.md): permet d\'imbriquer plusieurs objets plats dans une forme de conteneur. {{Version/fr|0.17}}
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
  

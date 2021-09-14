@@ -11,7 +11,7 @@
 
 Many Path users are hobbyists and DIYers. As such, they use their CNC machines to run G-code that they configured and generated themselves. That isn\'t the case for most professional/commercial users. In professional shops, different people are responsible for creating the G-code (CNC programmers) from those who run it on the machines (CNC operator).
 
-Hobbyists usually run the G-code just a few minutes after post-processing it and probably only once or twice. In a professional shop, proven gcode may be run many times for months or years after initially generated.
+Hobbyists usually run the G-code just a few minutes after post-processing it and probably only once or twice. In a professional shop, proven G-code may be run many times for months or years after initially generated.
 
 One issue that arises in a professional CNC shop is that there are many assumptions made by the programmer that are NOT communicated in the G-code itself. For example, the G-code can call for a tool \"T3\" but unless its commented, the G-code doesn\'t say what kind of tool \"T3\" refers to. It\'s just assumed that T3 in the CAM system is the same as T3 on the machine. There are many assumptions like this involving machine setup, tooling, material, part orientation, etc. Even if the G-code is perfect, if the operator doesn\'t set up the machine with the same assumptions, it can crash.
 
@@ -45,7 +45,7 @@ Gives details about where and when the G-code was post-processed. It also shows 
 
 ### Coolant
 
-Self-explanatory
+Self-explanatory.
 
 ### Fixtures and Work-holding 
 
@@ -62,7 +62,7 @@ Warnings and errors detected by [Path Sanity](Path_Sanity.md). These may or may 
     -   Press the **<img src="images/Path_Sanity.svg" width=16px> [Path Sanity](Path_Sanity.md)** button.
     -   Select the **Path → <img src="images/Path_Sanity.svg" width=16px> Check the path job for common errors** option from the menu.
     -   Use the keyboard shortcut: **P** then **S**.
-3.  The relevant information is collected into a python dictionary and then formatted into asciidoc format.
+3.  The relevant information is collected into a Python dictionary and then formatted into asciidoc format.
 4.  The asciidoc file is written to disk in the same location as the file that will be post-processed.
 5.  An external process calls asciidoctor to read the asciidoc and generate the .html.
 6.  This will auto-launch the system web browser to view the generated standalone HTML report.

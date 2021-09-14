@@ -1,3 +1,5 @@
+# Release notes 0.17/ro
+
 
 
 
@@ -273,7 +275,13 @@ Noul \'\'\'Atelier TechDraw \'\'\' își propune să înlocuiască atelierul Dra
 
 -   Enhancement: [Part Revolve](Part_Revolve.md) tool now supports parametric link to revolution axis.
 
+
+<div class="mw-translate-fuzzy">
+
 -   The new [Part Attachment](Part_Attachment.md) utility accessible from the *Part → Attachment...* menu can be used to attach most types of objects to other geometry parametrically.
+
+
+</div>
 
 -   The new [Part container](Std_Part.md) can be used to group most types of shapes and to move them as a unit. It also contains standard planes and axes to attach objects to. It will serve as basis for the future Assembly workbench by providing a way to move parts around. It is available in all workbenches from a toolbar along with [Group](Std_Group.md).
 
@@ -423,4 +431,4 @@ Câteva dintre noile module pe care comunitatea le-a creat.
 
 -   [Kicad StepUp Workbench](https://www.freecadweb.org/wiki/KicadStepUp_Workbench) is aimed to help KiCad and FreeCAD users in ECAD and MCAD collaboration.
 
-[Category:News{{\#translation:}}](Category:News.md) [Category:Documentation{{\#translation:}}](Category:Documentation.md) [Category:Releases{{\#translation:}}](Category:Releases.md)
+[Category:News](Category:News.md) [Category:Documentation](Category:Documentation.md) [Category:Releases](Category:Releases.md)

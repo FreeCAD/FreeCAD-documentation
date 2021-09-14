@@ -1,4 +1,6 @@
-\_\_NOTOC\_\_ 
+# Artwork Reinforcement/fr
+
+ 
 
 Ces icônes se trouvent dans le chemin source indiqué.
 

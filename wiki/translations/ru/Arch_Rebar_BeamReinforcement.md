@@ -24,7 +24,7 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 *Beam Reinforcement inside a Beam [Arch Structure](Arch_Structure.md)*
 
-## Использование
+## Применение
 
 1\. Select right face of a previously created beam **<img src="images/Arch_Structure.svg" width=16px> [Arch Structure](Arch_Structure.md)** object having length along x-axis. Or select front face of a previously created beam **<img src="images/Arch_Structure.svg" width=16px> [Arch Structure](Arch_Structure.md)** object having length along y-axis.
 
@@ -185,7 +185,7 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 -    **Rebar Spacing**: Clear spacing between consecutive reinforcement bars.
 
-## Scripting
+## Программирование
 
 
 **See also:**
@@ -375,4 +375,4 @@ RebarGroup = TwoLeggedBeam.makeReinforcement(
 
  
 
-[Category:Reinforcement{{\#translation:}}](Category:Reinforcement.md)
+[Category:Reinforcement](Category:Reinforcement.md)

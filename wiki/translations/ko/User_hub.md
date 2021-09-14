@@ -1,8 +1,10 @@
+# User hub/ko
+
  <img alt="" src=images/User_hub.png  style="width:64px;">
 
 ------------------------------------------------------------------------
 
-\_\_NOTOC\_\_
+
 
 이건 FreeCAD에 처음 온 사람을 위한 주요 도움 영역입니다.
 
@@ -155,4 +157,4 @@ This is the official FreeCAD online help. Please note that the whole online help
 
 
 
-[Category:Hubs{{\#translation:}}](Category:Hubs.md)
+[Category:Hubs](Category:Hubs.md)

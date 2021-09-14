@@ -2,13 +2,9 @@
 - GuiCommand:/fr
    Name:Part Measure Menu
    Name/fr:Part Menu des mesures
-   MenuLocation:-
    Workbenches:[Part](Part_Workbench/fr.md)
    SeeAlso:[Std Mesurer une distance](Std_MeasureDistance/fr.md), [Draft Cote](Draft_Dimension/fr.md), [Arch Prise de cotes](Arch_Survey/fr.md)
 ---
-
-
-</div>
 
 
 {{StdMenu|Mesure}}
@@ -33,15 +29,9 @@
 <img alt="" src=images/Part_Measure_Toggle_Delta.svg  style="width:32px;"> [Basculer Delta](Part_Measure_Toggle_Delta/fr.md) montre ou masque les mesures Delta
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
  
 
-[Category:Documentation{{\#translation:}}](Category:Documentation.md)
+[Category:Documentation](Category:Documentation.md)

@@ -1,3 +1,5 @@
+# Import from STL or OBJ/pl
+
  {{TutorialInfo/pl
 |Topic= Importowanie plików STL lub OBJ
 |Level= Początkujący
@@ -99,4 +101,4 @@ Ponieważ utworzona bryła nie posiada historii i żadnych edytowalnych funkcji 
 
  
 
-[Category:File\_Formats{{\#translation:}}](Category:File_Formats.md)
+[Category:File\_Formats](Category:File_Formats.md)

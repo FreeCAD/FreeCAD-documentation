@@ -1,3 +1,5 @@
+# Bug Triage/fr
+
 
 
 
@@ -153,4 +155,4 @@ Une méthodologie importante pour suivre les tickets par sujet/thème/catégorie
 
 
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Administration{{\#translation:}}](Category:Administration.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Administration](Category:Administration.md)

@@ -37,4 +37,4 @@ Cet outil crée une courbe B-spline à partir de ses points de contrôle. (Voir 
 
 {{Sketcher Tools navi
 
-}}  
+}} 

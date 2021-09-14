@@ -35,9 +35,9 @@ Die Eigenschaften können später in **Combo Ansicht → Daten** nach der Auswah
 
 </div>
 
-## Properties
+## Eigenschaften
 
-### Data
+### Daten
 
 
 {{TitleProperty|Base}}
@@ -59,7 +59,7 @@ Die Eigenschaften können später in **Combo Ansicht → Daten** nach der Auswah
 
 -    **Width**: Width is the size of the Y-axis The default value is 10 mm
 
-### View
+### Ansicht
 
 You have the standard properties view.
 

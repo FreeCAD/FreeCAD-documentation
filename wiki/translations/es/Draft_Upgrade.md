@@ -3,13 +3,10 @@
    Name:Draft Upgrade
    Name/es:Borrador Elevar
    MenuLocation:Modificación → Elevar
-   Workbenches:[Borrador](Draft_Module/es.md), [Arquitectura](Arch_Module/es.md)
+   Workbenches:[Borrador](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
    Shortcut:**U** **P**
    SeeAlso:[Borrador Rebajar](Draft_Downgrade/es.md)
 ---
-
-
-</div>
 
 ## Descripción
 
@@ -84,13 +81,7 @@ doc.recompute()
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
  

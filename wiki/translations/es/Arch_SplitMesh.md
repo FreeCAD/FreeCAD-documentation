@@ -1,5 +1,11 @@
 ---
-- GuiCommand:/es   Name:Arch SplitMesh   Name/es:Arch SplitMesh   Workbenches:[MenuLocation:Arquitectura → Utilidades → Dividir malla   SeeAlso:[[Arch SelectNonSolidMeshes/es|Seleccionar Mallas no sólidas](Arch_Module/es___Arquitectura]].md)---
+- GuiCommand:/es
+   Name:Arch SplitMesh
+   Name/es:Arch SplitMesh
+   MenuLocation:Arquitectura → Utilidades → Dividir malla
+   Workbenches:[Arquitectura](Arch_Workbench/es.md)
+   SeeAlso:[Seleccionar Mallas no sólidas](Arch_SelectNonSolidMeshes/es.md)
+---
 
 
 </div>

@@ -21,10 +21,16 @@ Inserta un Prisma sustractivo en el Body (cuerpo) activo. Su forma es sustraída
 
 ## Uso
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Presionar el botón **<img src="images/PartDesign_SubtractivePrism.svg" width=24px> '''Prisma Sustractivo'''** . **Nota**: El Prisma sustractivo forma parte de un icono de herramientas llamado *Crear una primitiva sustractiva*. Tras abrir FreeCAD, la Caja sustractiva es la única mostrada en la barra de herramientas. Para obtener el botón del Prisma, pinchar en la flecha que indica hacia abajo que está al lado del icono visible y seleccionar Prisma sustractivo en el menú desplegable.
 2.  Seleccionar los parámetros de la primitiva y el [Attachment](Part_Attachment.md).
 3.  Aceptar **OK**.
 4.  Una operación de Prisma aparece dentro del Body(cuerpo) activo.
+
+
+</div>
 
 ## Opciones
 
@@ -36,6 +42,9 @@ Tras su creación, el Prisma puede ser editado de dos maneras:
 -   Por medio del [Editor de propiedades](Property_editor/es.md).
 
 ## Propiedades
+
+
+<div class="mw-translate-fuzzy">
 
 -    {{PropertyData/es|Attachment}}: Define el modo de Attachment y la separación del archivo adjunto. Ver [Part Attachment](Part_Attachment.md).
 
@@ -50,6 +59,9 @@ Tras su creación, el Prisma puede ser editado de dos maneras:
 -    {{PropertyData/es|Primer Ángulo}}: Ángulo de la primera dirección. {{Version/es|0.19}}
 
 -    {{PropertyData/es|Segundo Ángulo}}: Ángulo de la segunda dirección. {{Version/es|0.19}}
+
+
+</div>
 
 
 

@@ -1,4 +1,6 @@
- {{UnfinishedDocu}}
+# Compile on Docker/fr
+
+ 
 
 
 
@@ -140,4 +142,4 @@ Vous pouvez trouver les répertoires joints dans le répertoire `/mnt`.
 
 
 
-[Category:Developer{{\#translation:}}](Category:Developer.md) [Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md)
+[Category:Developer](Category:Developer.md) [Category:Developer Documentation](Category:Developer_Documentation.md)

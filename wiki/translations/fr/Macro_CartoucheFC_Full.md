@@ -1,7 +1,9 @@
+# Macro CartoucheFC Full/fr
+
  {{Macro/fr
 |Name=Macro_CartoucheFC_Full
 |Icon=Macro_CartoucheFC_Full.png
-|Description=Cette macro est une application complète, elle permet de remplir le cartouche de la feuille de dessin avec tous les champs textéditables (Pour l'[atelier Drawing](Drawing_Module/fr.md)).
+|Description=Cette macro est une application complète, elle permet de remplir le cartouche de la feuille de dessin avec tous les champs textéditables (Pour l'[atelier Drawing](Drawing_Workbench/fr.md)).
 |Author=Mario52
 |Version=00.10
 |Date=2017-02-15

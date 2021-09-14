@@ -1,3 +1,5 @@
+# Drawing templates/fr
+
 
 
 
@@ -145,7 +147,7 @@ viewBox="0 0 xxx yyy"
 
 <div class="mw-translate-fuzzy">
 
-Depuis la version 0.15, FreeCAD peut exporter une page [Drawing](Drawing_Module/fr.md) au format DXF. Ce système utilise également des templates. Si un fichier DXF avec le même nom se trouve dans le même dossier que le modèle SVG utilisé pour une page, il sera utilisé pour l\'exportation. Si non, un modèle vide sera créé par défaut.
+Depuis la version 0.15, FreeCAD peut exporter une page [Drawing](Drawing_Workbench/fr.md) au format DXF. Ce système utilise également des templates. Si un fichier DXF avec le même nom se trouve dans le même dossier que le modèle SVG utilisé pour une page, il sera utilisé pour l\'exportation. Si non, un modèle vide sera créé par défaut.
 
 
 </div>
@@ -294,4 +296,4 @@ Les deux lignes que FreeCAD recherchera sont \"\$blocks\" et \"\$entities\". Ell
 
 }} 
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Documentation{{\#translation:}}](Category:Documentation.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Documentation](Category:Documentation.md)

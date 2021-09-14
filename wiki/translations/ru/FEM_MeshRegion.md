@@ -17,7 +17,7 @@ FEM MeshRegion enables the user to set a localized set of meshing parameters by 
 
 Refining the mesh has the advantage of enabling accurate simulation where needed, while allowing coarser mesh in the wider domain, thus drastically optimizing the computation time while maintaining meaningful solutions output.
 
-## Использование
+## Применение
 
 1.  To enable the function a mesh must be first provided <img alt="" src=images/FEM_MeshGmshFromShape.svg  style="width:32px;"> [FEM mesh from shape by Gmsh](FEM_MeshGmshFromShape.md).
     -   Select the Mesh object in the Model Tree and press the <img alt="" src=images/FEM_MeshRegion.svg  style="width:32px;"> button.

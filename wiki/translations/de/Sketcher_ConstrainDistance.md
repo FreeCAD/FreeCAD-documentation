@@ -8,9 +8,17 @@
    SeeAlso:[Horizontalen Abstand beschränken](Sketcher_ConstrainDistanceX/de.md), [Vertikalen Abstand beschränken](Sketcher_ConstrainDistanceY/de.md)
 ---
 
+## Description
+
+
+<div class="mw-translate-fuzzy">
+
 ## Beschreibung
 
 Die **Beschränke Abstand** beschränkt die Länge einer Linie, den senkrechten Abstand zwischen einem Punkt und einer Linie oder den Abstand zwischen zwei Punkten auf einen bestimmten Wert.
+
+
+</div>
 
 ![](images/Sketcher_ConstrainDistance_example.png )
 
@@ -41,10 +49,20 @@ Abstand zwischen zwei Endpunkten:
 
 ```pythonSketch.addConstraint(Sketcher.Constraint('Distance', Edge1, PointOfEdge1, Edge2, PointOfEdge2, App.Units.Quantity('123.0 mm')))```
 
-Length of line (the GUI allows selecting the edge itself, but it is just a shorthand for using the two extremities of the same line: 
+
+<div class="mw-translate-fuzzy">
+
+Länge der Linie (die GUI erlaubt die Auswahl der Kante, aber das ist nur eine Abkürzung für die Nutzung der beiden Endpunkte der gleichen Linie):
+
+
+</div>
+
+
 ```pythonSketch.addConstraint(Sketcher.Constraint('Distance', Line, 1, Line, 2, App.Units.Quantity('123.0 mm')))```
 
-Distanz von Punkt (`Edge, PointOfEdge`) zum nächsten Punk auf Linie (`Line`): 
+Distanz von Punkt (`Edge, PointOfEdge`) zum nächsten Punk auf Linie (`Line`):
+
+
 ```pythonSketch.addConstraint(Sketcher.Constraint('Distance', Edge, PointOfEdge, Line, App.Units.Quantity('123.0 mm')))```
 
 Die [Skizzierer Skripten](Sketcher_scripting.md)-Seite erklärt die Werte, die für `Edge1`, `Edge2`, `Edge`, `PointOfEdge1`, `PointOfEdge2`, `PointOfEdge` und `Line` verwendet werden können, und enthält weitere Beispiele, wie man Beschränkungen aus Python-Skripten erstellt.
@@ -55,4 +73,4 @@ Die [Skizzierer Skripten](Sketcher_scripting.md)-Seite erklärt die Werte, die f
 
 {{Sketcher Tools navi
 
-}}  
+}} 

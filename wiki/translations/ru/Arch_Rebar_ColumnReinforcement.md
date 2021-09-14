@@ -22,7 +22,7 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 <img alt="" src=images/Arch_Rebar_ColumnReinforcement_example.png  style="width:400px;"> 
 *Column Reinforcement inside a Column [Arch Structure](Arch_Structure.md)*
 
-## Использование
+## Применение
 
 1\. Select any face of a previously created **<img src="images/Arch_Structure.svg" width=16px> [Arch Structure](Arch_Structure.md)** object.
 2. Then select **<img src="images/Arch_Rebar_ColumnReinforcement.svg" width=16px> [Column Reinforcement](Arch_Rebar_ColumnReinforcement.md)** from the rebar tools.
@@ -50,7 +50,7 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 12. Click **OK** or **Apply** to generate column reinforcement.
 13. Click **Cancel** to exit the dialog box.
 
-## Properties
+## Свойства
 
 **Ties:**
 
@@ -124,7 +124,7 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 -    **Number#Diameter**: Number\#Diameter set of the y-direction rebars.
 
-## Scripting
+## Программирование
 
 
 **See also:**
@@ -572,4 +572,4 @@ rebar_group = SingleTieMultipleRebars.editSingleTieMultipleRebars(
 
  
 
-[Category:Reinforcement{{\#translation:}}](Category:Reinforcement.md)
+[Category:Reinforcement](Category:Reinforcement.md)

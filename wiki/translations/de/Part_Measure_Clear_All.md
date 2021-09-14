@@ -6,9 +6,6 @@
    Workbenches:[Part](Part_Workbench/de.md)
 ---
 
-
-</div>
-
 ## Beschreibung
 
 Dieses Werkzeug löscht alle Messungen in der 3D Ansicht.

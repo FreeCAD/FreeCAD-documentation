@@ -1,4 +1,12 @@
- {{Macro
+# Macro TreeToAscii/fr
+
+
+
+
+<div class="mw-translate-fuzzy">
+
+
+{{Macro
 |Name=TreeToAscii
 |Icon=
 |Description=Cette macro génère une représentation artistique ASCII de l'arbre d'objet(s) sélectionné(s)
@@ -10,17 +18,35 @@
 |SeeAlso=
 }}
 
+
+</div>
+
 ## Description
 
 ### Contexte
 
+
+<div class="mw-translate-fuzzy">
+
 Cette macro a été écrite dans le but principal de documenter la construction du modèle. Elle génère une représentation artistique ASCII de l\'arbre de construction d\'objet(s) sélectionné(s).
+
+
+</div>
 
 ### Utilisation
 
+
+<div class="mw-translate-fuzzy">
+
 Sélectionnez simplement le ou les objets dont vous souhaitez imprimer l\'arborescence et exécutez la macro. Il affichera l\'arborescence de chaque objet dans une boîte de dialogue. Tous les objets sélectionnés seront considérés comme étant au même niveau de hiérarchie en haut de l\'arborescence (même s\'ils ne sont pas dans le modèle réel). Une fois la boîte de dialogue ouverte, vous pouvez changer de style et / ou de motif et recréer l\'arborescence ASCII.
 
+
+</div>
+
 ![](images/FCTree2Ascii.png )
+
+
+<div class="mw-translate-fuzzy">
 
 Plusieurs styles sont fournis, pour l\'instant principalement pour prendre en charge les systèmes qui peuvent rencontrer des problèmes avec le codage Unicode:
 
@@ -29,6 +55,12 @@ Plusieurs styles sont fournis, pour l\'instant principalement pour prendre en ch
 -   ***ASCII*** : représentation ASCII pure des fourches et branches
 
 La création de votre propre style ne devrait pas être trop difficile en modifiant la macro et en changeant/ajoutant un style à la variable \'STYLES\'. Le choix du style sélectionné est enregistré dans les paramètres FreeCAD.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 Le motif de ligne peut être personnalisé. Il prend en charge différentes métadonnées définies:
 
@@ -41,6 +73,9 @@ Le motif de ligne peut être personnalisé. Il prend en charge différentes mét
 
 Le modèle par défaut est \'{LBL} ({SNAM})\', ce qui signifie par exemple. l\'objet \'Box001\' étiqueté \'myCube\' sera affiché comme \'myCube (Box001)\'. Notez que pratiquement tous les caractères sont autorisés. Si vous souhaitez imprimer des accolades, vous devez les doubler. Par exemple. avec le même objet d\'exemple, le modèle \'{LBL} (SNAME) {{{TYP}}} =\>\' affichera \'myCube (Box) {Part::Box} =\>\'. Les métadonnées disponibles sont disponibles dans l\'info-bulle du champ d\'édition de motif, vous n\'avez donc pas besoin de vous en souvenir. Le motif de ligne est enregistré dans les paramètres FreeCAD.
 
+
+</div>
+
 Une fois la boîte de dialogue ouverte, plusieurs actions sont disponibles:
 
 -   ***Copy to clipboard*** : copie tout l\'arbre dans votre presse-papiers
@@ -50,9 +85,21 @@ Une fois la boîte de dialogue ouverte, plusieurs actions sont disponibles:
 
 ### Installation
 
+
+<div class="mw-translate-fuzzy">
+
 La macro est disponible via le [gestionnaire d\'extensions](Std_AddonMgr/fr.md). Le code est fourni sur cette page pour plus de commodité au cas où votre système n\'ait pas git-python. Bien qu\'elle devrait être à jour, la dernière version de la macro est toujours disponible sur [FreeCAD-macro repository](https://github.com/FreeCAD/FreeCAD-macros/blob/master/Information/TreeToAscii.FCMacro)
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Pour des explications plus détaillées, consultez la page [Comment installer les macros](How_to_install_macros/fr.md).
+
+
+</div>
 
 ## Script
 

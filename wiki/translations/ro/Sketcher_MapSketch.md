@@ -4,9 +4,17 @@
 
 </div>
 
+## Description
+
+
+<div class="mw-translate-fuzzy">
+
 ## Descriere
 
 Acest instrument pune o schiță existentă pe fața unei forme. PartDesign features created from this sketch will be fused with the underlying solid for additive features (Pad, Revolution) or be subtracted from the underlying solid in case of subtractive features (Pocket, Groove).
+
+
+</div>
 
 Rețineți că acest instrument nu este utilizat pentru a crea schițe noi. It only maps, or remaps an existing sketch to the face of a solid or a PartDesign feature. Typical use cases are:
 
@@ -68,6 +76,6 @@ Acum, selectăm fața superioară a Plăcii și apoi selectăm instrumentul Map 
 
 {{Sketcher Tools navi
 
-}}  
+}} 
 
 [Category:Sketcher/ro](Category:Sketcher/ro.md)

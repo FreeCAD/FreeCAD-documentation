@@ -3,7 +3,7 @@
    Name:Draft Slope
    Name/de:Entwurf Neigung
    MenuLocation:Entwurf → Setze Neigung<br>Dienstprogramme → Setze Neigung
-   Workbenches:[Entwurf](Draft_Module/de.md), [Architektur](Arch_Module/de.md)
+   Workbenches:[Entwurf](Draft_Workbench/de.md), [Architektur](Arch_Workbench/de.md)
    Version:0.17
 ---
 
@@ -19,6 +19,9 @@ Der Befehl <img alt="" src=images/Draft_Slope.svg  style="width:24px;"> *\' Entw
 
 ## Anwendung
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Wähle eine oder mehrere [Entwurf Linie](Draft_Line/de.md) und/oder [Entwurf Draht](Draft_Wire/de.md).
 2.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
     -   Drücke die **<img src="images/Draft_Slope.svg" width=16px> [Entwurfsneigung](Draft_Slope/de.md)**.
@@ -26,6 +29,9 @@ Der Befehl <img alt="" src=images/Draft_Slope.svg  style="width:24px;"> *\' Entw
     -   Wähle die Option **Hilfsprogramme → <img src="images/Draft_Slope.svg" width=16px> Neigung einstellen** aus dem Menü.
 3.  Gib einen **Neigungs**wert ein. {{Value|0}} bedeutet, dass jedes Segment horizontal ist, {{Value|0,5}} bedeutet, dass die Delta Höhe für jedes Segment das {{Value|0,5}}-fache seiner Länge beträgt, usw. Der Wert kann auch negativ sein.
 4.  Drücke **Enter** oder die Taste {{button|OK}}, um den Befehl zu beenden.
+
+
+</div>
 
 ## Skripten
 

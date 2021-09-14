@@ -137,15 +137,9 @@ Stirrup.editStirrup(Rebar, 20, 20, 20, 20, 50,
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
  
 
-[Category:Reinforcement{{\#translation:}}](Category:Reinforcement.md)
+[Category:Reinforcement](Category:Reinforcement.md)

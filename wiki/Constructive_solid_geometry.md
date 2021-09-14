@@ -1,3 +1,5 @@
+# Constructive solid geometry
+
  
 
 ## Introduction
@@ -35,4 +37,4 @@ The [tutorials](tutorials.md) page provides some examples on creating solids wit
 
   
 
-[Category:Common Questions{{\#translation:}}](Category:Common_Questions.md)
+[Category:Common Questions](Category:Common_Questions.md)

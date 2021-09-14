@@ -1,3 +1,5 @@
+# Macro SuperWire/es
+
  {{Macro/es
 |Name=SuperWire
 |Translate=SuperWire

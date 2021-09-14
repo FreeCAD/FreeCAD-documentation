@@ -1,53 +1,41 @@
 ---
-- GuiCommand:/de   Name:Std Redo   Name/de:Std Wiederherstellen   MenuLocation:[|Workbenches:Alle   Shortcut:**Strg**+**Y**   SeeAlso:[[Std_Undo/de|Rückgängig](Std_Edit_Menu/de___Bearbeiten]]_→_Wiederherstellen‎.md)---
-
-
-</div>
-
-## Description
-
-
-<div class="mw-translate-fuzzy">
+- GuiCommand:/de
+   Name:Std Redo
+   Name/de:Std Wiederherstellen
+   MenuLocation:Bearbeiten → Wiederherstellen‎
+   Workbenches:Alle
+   Shortcut:**Strg**+**Y**
+   SeeAlso:[Rückgängig](Std_Undo/de.md)
+---
 
 ## Beschreibung
 
-Wendet den durch *Rückgängig* zurückgenommenen Befehl erneut wieder an.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+Der **Std Rückgängig**-Befehl nimmt die Aktion des [Wiederherstellen](Std_Undo/de.md)-Befehl zurück.
 
 ## Anwendung
 
-1.  Klicke auf <img alt="" src=images/Std_Redo.png  style="width:32px;"> oder wähle **Bearbeiten** → **<img src="images/Std_Redo.png" width=32px> Wiederherstellen** aus der Menüleiste.
+1.  Es gibt mehrere Wege, um den Befehl aufzurufen:
+    -   Drücke die **<img src="images/Std_Redo.svg" width=16px> [Std Wiederherstellen](Std_Redo/de.md)**-Schaltfläche.
+    -   Wähle die **Bearbeiten → <img src="images/Std_Redo.svg" width=16px> Wiederherstellen**-Option aus dem Menü.
+    -   Benutze das Tastaturkürzel **Strg**+**Y**.
+
+## Optionen
+
+-   Um mehrere Aktionen wiederherzustellen, klicke auf den schwarzen Pfeil-nach-unten rechts neben der **<img src="images/Std_Redo.svg" width=16px> [Std Wiederherstellen](Std_Redo/de.md)**-Schaltfläche und wähle aus der Liste aus.
+
+## Einstellungen
+
+-   Die Rückgängig/Wiederherstellen-Funktionalität kann deaktiviert werden, indem **Werkzeuge → Parameter bearbeiten... → BaseApp → Preferences → Document → UsingUndo** auf `False` gesetzt wird, aber dies wird nicht empfohlen. Diese Einstellung kann auch im [Voreinstellungseditor](Preferences_Editor/de#Document.md) geändert werden.
+-   Die maximale Anzahl von Rückgängig/Wiedererstellen-Schritten wird über **Werkzeuge → Parameter bearbeiten... → BaseApp → Preferences → Document → MaxUndoSize** definiert. Diese Einstellung kann auch im [Voreinstellungseditor](Preferences_Editor/de#Document.md) geändert werden.
+
+## Skripten
 
 
-</div>
+**Siehe auch:**
 
-1.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Std_Redo.svg" width=16px> [Std Redo](Std_Redo.md)** button.
-    -   Select the **Edit → <img src="images/Std_Redo.svg" width=16px> Redo** option from the menu.
-    -   Use the keyboard shortcut: **Ctrl**+**Y**.
+[FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-## Options
-
--   To redo multiple actions click on the black down arrow to the right of the **<img src="images/Std_Redo.svg" width=16px> [Std Redo](Std_Redo.md)** button and select from the list.
-
-## Preferences
-
--   The Undo/Redo functionality can be disabled by setting **Tools → Edit parameters... → BaseApp → Preferences → Document → UsingUndo** to `False`, but this is not recommended. This setting can also be changed in the [Preferences Editor](Preferences_Editor#Document.md).
--   The maximum number of Undo/Redo steps is controlled by **Tools → Edit parameters... → BaseApp → Preferences → Document → MaxUndoSize**. This setting can also be changed in the [Preferences Editor](Preferences_Editor#Document.md).
-
-## Scripting
-
-
-**See also:**
-
-[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
-
-To redo an action that has just been undone use the `redo` method of the document object.
+Zum Wiederherstellen einer Aktion, die gerade rückgängig gemacht wurde, benutze die `redo`-Methode des document-Objekts.
 
 
 ```python

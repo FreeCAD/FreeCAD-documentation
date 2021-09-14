@@ -1,5 +1,12 @@
 ---
-- GuiCommand:/tr   Name:Draft Scale   Name/tr:Ölçekle   Workbenches:[Arch](Draft_Module/tr___Draft]],_[[Arch_Module/tr.md)|MenuLocation:Draft → Scale   Shortcut:S C   SeeAlso:[Draft Clone](Draft_Clone/tr.md)---
+- GuiCommand:/tr
+   Name:Draft Scale
+   Name/tr:Ölçekle
+   MenuLocation:Draft → Scale
+   Workbenches:[Draft](Draft_Workbench/tr.md), [Arch](Arch_Workbench/tr.md)
+   Shortcut:**S** **C**
+   SeeAlso:[Draft Clone](Draft_Clone/tr.md)
+---
 
 
 </div>

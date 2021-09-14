@@ -1,13 +1,10 @@
 ---
 - GuiCommand:/ru
+   Name/ru:Граф зависимостей
    Name:Std DependencyGraph
-   Name/ru:Std DependencyGraph
    MenuLocation:Инструменты → Граф зависимостей...
-   Workbenches:All
+   Workbenches:Все
 ---
-
-
-</div>
 
 ## Описание
 
@@ -96,4 +93,4 @@ You can save a dependency graph:
 
 }}  
 
-[Category:3rd Party{{\#translation:}}](Category:3rd_Party.md)
+[Category:3rd Party](Category:3rd_Party.md)

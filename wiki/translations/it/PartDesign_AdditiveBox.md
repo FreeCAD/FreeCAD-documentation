@@ -45,6 +45,9 @@ Dopo la sua creazione il cubo può essere modificato in due modi:
 
 ## Proprietà
 
+
+<div class="mw-translate-fuzzy">
+
 -    {{PropertyData/it|Attachment}}: Definisce la modalità e l\'offset di associazione. Vedere [Associazione](Part_Attachment/it.md).
 
 -    {{PropertyData/it|Label}}: Etichetta data all\'oggetto Box. Modificabile secondo le proprie esigenze.
@@ -54,6 +57,9 @@ Dopo la sua creazione il cubo può essere modificato in due modi:
 -    {{PropertyData/it|Width}}: La dimensione del box nella direzione Y.
 
 -    {{PropertyData/it|Height}}: La dimensione del box nella direzione Z.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

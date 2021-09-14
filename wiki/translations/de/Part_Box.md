@@ -6,9 +6,6 @@
    SeeAlso:[Part Grundkörper](Part_Primitives/de.md)
 ---
 
-
-</div>
-
 ## Beschreibung
 
 Der Würfel-Befehl aus dem [Part-Arbeitsbereich](Part_Workbench/de.md) fügt einen parametrischen [Quader](https://de.wikipedia.org/wiki/Quader)förmigen geometrischen Grundkörper in das aktive Dokument ein. Als Standardvorgabe wird der Würfel-Befehl einen 10x10x10mm-Würfel am Ursprung mit der Bezeichnung \"Cube\" einfügen. Diese Parameter können nach dem Hinzufügen verändert werden.
@@ -22,13 +19,7 @@ Der Würfel-Befehl aus dem [Part-Arbeitsbereich](Part_Workbench/de.md) fügt ein
     -   Drücke die **<img src="images/Part_Box.svg" width=16px> Würfel**Schaltfläche in der Werkzeugleiste.
     -   Wähle den {{MenuCommand/de|Part → Grundkörper → <img src="images/Part_Box.svg" width=16px> Würfel}} in der Menüleiste.
 
-
-<div class="mw-translate-fuzzy">
-
 **Ergebnis:** Das Standardergebnis ist ein Würfel mit gleicher Länge, Breite und Höhe von 10mm. Er steht auf der xy-Ebene und hat eine gemeinsame Kante mit der z-Achse.
-
-
-</div>
 
 Die Würfeleigenschaften können später geändert werden, entweder im Eigenschaftseditor oder durch doppelklicken des Würfels in der Baumansicht.
 
@@ -75,13 +66,7 @@ FreeCAD.ActiveDocument.myBox.Placement = FreeCAD.Placement(FreeCAD.Vector(4, 6, 
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
  

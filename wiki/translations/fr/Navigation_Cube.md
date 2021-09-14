@@ -1,3 +1,5 @@
+# Navigation Cube/fr
+
 
 
 
@@ -78,4 +80,4 @@ Pour une configuration plus avancée, consultez l\'[atelier externe](External_wo
 
 
 
-[Category:User Documentation{{\#translation:}}](Category:User_Documentation.md)
+[Category:User Documentation](Category:User_Documentation.md)

@@ -4,7 +4,7 @@
    Name/de:Entwurf Raster
    Icon:Snap_Grid.svg
    MenuLocation:Entwurf → [Fangen](Draft_Snap/de.md) → Raster
-   Workbenches:[Draft](Draft_Module/de.md), [Arch](Arch_Module/de.md)
+   Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
    SeeAlso:[Entwurfsraster ein-/ausschalten](Draft_ToggleGrid/de.md), [Fangen](Draft_Snap/de.md)
 ---
 

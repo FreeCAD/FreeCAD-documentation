@@ -1,8 +1,8 @@
 ---
 - GuiCommand:/ru
-   Name:Spreadsheet AlignTop
    Name/ru:Выровнять по верхнему краю
-   MenuLocation:Spreadsheet → Alignment → Выровнять по верхнему краю
+   Name:Spreadsheet_AlignTop
+   MenuLocation:Электронная таблица → Alignment → Выровнять по верхнему краю
    Workbenches:[Spreadsheet](Spreadsheet_Workbench/ru.md)
    Version:0.17
 ---

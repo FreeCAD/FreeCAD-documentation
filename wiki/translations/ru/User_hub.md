@@ -1,8 +1,10 @@
+# User hub/ru
+
  <img alt="" src=images/User_hub.png  style="width:64px;">
 
 ------------------------------------------------------------------------
 
-\_\_NOTOC\_\_
+
 
 Это основная область помощи для новичков в FreeCAD.
 
@@ -156,4 +158,4 @@
 
 
 
-[Category:Hubs{{\#translation:}}](Category:Hubs.md)
+[Category:Hubs](Category:Hubs.md)

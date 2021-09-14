@@ -1,3 +1,5 @@
+# Draft Workbench/zh-cn
+
 
 
 
@@ -317,4 +319,4 @@ Where `$INSTALLDIR` is the toplevel directory where the software was installed; 
 
  
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

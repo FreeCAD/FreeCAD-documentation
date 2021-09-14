@@ -1,9 +1,10 @@
 ---
-- GuiCommand:
-   Name:Sketcher CreateCircle
-   MenuLocation:Sketch → Sketcher geometries → Create circle
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
-   SeeAlso:[Sketcher Arc](Sketcher_CompCreateArc.md)
+- GuiCommand:/zh-cn
+   Name/zh-cn:创建圆
+   Name:Sketcher_CreateCircle
+   MenuLocation:Sketch → 草图几何体 → 创建圆
+   Workbenches:[Sketcher](Sketcher_Workbench/zh-cn.md)
+   SeeAlso:[创建弧](Sketcher_CompCreateArc/zh-cn.md)
 ---
 
 ## 描述
@@ -24,7 +25,13 @@
 -   按**Esc**键或点击鼠标右键来退出此功能。
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{Sketcher Tools navi

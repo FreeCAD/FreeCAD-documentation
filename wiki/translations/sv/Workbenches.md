@@ -1,3 +1,5 @@
+# Workbenches/sv
+
 
 
 
@@ -110,4 +112,4 @@ Nya arbetsbänkar är under utveckling, håll utkik!
 
 
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

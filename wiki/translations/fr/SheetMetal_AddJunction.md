@@ -52,19 +52,35 @@ Pour ajouter une découpe au coin d\'un angle:
 
 ## Propriétés
 
+See also: [Property editor](Property_editor.md).
+
+A SheetMetal Junction object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties and its label has a default value:
+
 ### Données
 
 
 {{Properties_Title|Base}}
 
+
+<div class="mw-translate-fuzzy">
+
 -    {{PropertyData/fr|Label}}: Nom donné par l\'utilisateur à l\'objet dans la [vue en arborescence](tree_view/fr.md).
+
+
+</div>
 
 
 {{Properties_Title|Parameters}}
 
+
+<div class="mw-translate-fuzzy">
+
 -    {{PropertyData/fr|gap}}: Taille de l\'espace/jonction à ajouter.
 
 
+</div>
 
 
-[Category:SheetMetal{{\#translation:}}](Category:SheetMetal.md) [Category:Addons{{\#translation:}}](Category:Addons.md) [Category:External Command Reference{{\#translation:}}](Category:External_Command_Reference.md)
+
+
+[Category:SheetMetal](Category:SheetMetal.md) [Category:Addons](Category:Addons.md) [Category:External Command Reference](Category:External_Command_Reference.md)

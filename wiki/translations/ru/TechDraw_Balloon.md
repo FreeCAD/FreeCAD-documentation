@@ -1,19 +1,20 @@
 ---
-- GuiCommand:
-   Name:TechDraw Balloon
-   MenuLocation:TechDraw → Annotations → Insert Balloon Annotation
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
+- GuiCommand:/ru
+   Name/ru:Вставить примечание в выноску
+   Name:TechDraw_Balloon
+   MenuLocation:TechDraw → Заметки → Вставить примечание в выноску
+   Workbenches:[TechDraw](TechDraw_Workbench/ru.md)
    Version:0.19
-   SeeAlso:[TechDraw Annotation](TechDraw_Annotation.md)
+   SeeAlso:[Вставить заметку](TechDraw_Annotation/ru.md)
 ---
 
-## Description
+## Описание
 
 The Balloon tool can add balloons with leader line in a drawing.
 
 <img alt="" src=images/Techdraw_balloon.png  style="width:600px;">
 
-## Usage
+## Применение
 
 1.  Select the View to which the Balloon will be attached.
 2.  Press the **<img src="images/TechDraw_Balloon.svg" width=16px> [Balloon](TechDraw_Balloon.md)** button.
@@ -29,7 +30,7 @@ When using a rectangle shape, separators can be added using \"\|\" in the text. 
 
 <img alt="" src=images/balloon_separator.png  style="width:300px;">
 
-## Properties
+## Свойства
 
 ### Data
 
@@ -69,12 +70,12 @@ When using a rectangle shape, separators can be added using \"\|\" in the text. 
 
 -    **Line Width**: Balloon line width
 
-## Scripting
+## Программирование
 
 
-**See also:**
+**См. так же:**
 
-[TechDraw API](TechDraw_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+[TechDraw API](TechDraw_API/ru.md) и [Основы составления скриптов FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 
 The Balloon tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following functions:
 
@@ -85,7 +86,13 @@ rc = page.addView(bal1)
 ```
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{TechDraw Tools navi

@@ -3,7 +3,7 @@
    Name:Draft Wire
    Name/de:Entwurf Draht
    MenuLocation:Entwurf → Polylinie
-   Workbenches:[Entwurf](Draft_Module/de.md), [Architektur](Arch_Module/de.md)
+   Workbenches:[Entwurf](Draft_Workbench/de.md), [Architektur](Arch_Workbench/de.md)
    Shortcut:**P** **L**
    Version:0.7
    SeeAlso:[Entwurf Linie](Draft_Line/de.md), [Entwurf BSpline](Draft_BSpline/de.md)

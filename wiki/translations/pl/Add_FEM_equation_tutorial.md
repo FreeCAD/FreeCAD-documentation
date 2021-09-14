@@ -1,3 +1,5 @@
+# Add FEM equation tutorial/pl
+
 
 
 
@@ -183,4 +185,4 @@ We now finished the function part of the new equation. Next we\'ll connect the n
 
 We have just created a new equation class. To access it from the FEM GUI, we need to create a button and link it to the new equation class. Here is a tutorial: [Add button to FEM toolbar tutorial](Add_button_to_FEM_toolbar_tutorial.md).
 
-[Category:FEM{{\#translation:}}](Category:FEM.md) [Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md)
+[Category:FEM](Category:FEM.md) [Category:Developer Documentation](Category:Developer_Documentation.md)

@@ -1,3 +1,5 @@
+# Custom Spacing/es
+
 
 
 ## Descripción
@@ -29,4 +31,4 @@ La salida se genera mediante el cuadro de diálogo Distribución de barras de re
 
 
 
-[Category:User Documentation{{\#translation:}}](Category:User_Documentation.md) [Category:Reinforcement{{\#translation:}}](Category:Reinforcement.md)
+[Category:User Documentation](Category:User_Documentation.md) [Category:Reinforcement](Category:Reinforcement.md)

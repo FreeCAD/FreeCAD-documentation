@@ -6,20 +6,9 @@
    SeeAlso:[Part Grundkörper](Part_Primitives/de.md)
 ---
 
-
-</div>
-
-## Description
-
-
-<div class="mw-translate-fuzzy">
-
 ## Beschreibung
 
 Erstellt einen einfachen parametrischen Zylinder mit den Parametern Position, Winkel, Radius und Höhe.
-
-
-</div>
 
 ## Anwendung
 
@@ -46,15 +35,7 @@ The cylinder properties can later be edited, either in the [Property editor](Pro
 
 <img alt="ein Zylinder, der mit dem Werkzeug Zylinder erstellt wurde" src=images/cylinder.png  style="width:650px;">
 
-
-<div class="mw-translate-fuzzy">
-
-## Optionen
-
-Die Eigenschaften können später im Datenreiter für den Zylinder bearbeitet werden:
-
-
-</div>
+## Eigenschaften
 
 -    **Angle**: This is the rotation angle that permits the creation of a portion of cylinder (it is set to 360° by default)
 
@@ -67,13 +48,7 @@ Die Eigenschaften können später im Datenreiter für den Zylinder bearbeitet we
 -    **Second Angle**: Angle in second direction. <small>(v0.20)</small> 
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
  

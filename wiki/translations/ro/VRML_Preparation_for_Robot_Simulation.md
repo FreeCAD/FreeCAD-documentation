@@ -1,3 +1,5 @@
+# VRML Preparation for Robot Simulation/ro
+
 
 
 
@@ -442,4 +444,4 @@ Iată un patch pentru a obține fișierul vrml potrivit pentru simularea robotul
 
 
 
-[Category:Robot{{\#translation:}}](Category:Robot.md)
+[Category:Robot](Category:Robot.md)

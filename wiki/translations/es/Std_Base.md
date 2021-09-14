@@ -1,3 +1,5 @@
+# Std Base/es
+
 
 
 
@@ -77,4 +79,4 @@ El menú estándar se compone de 7 submenús. Cada submenú tiene una página de
 
 }} 
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

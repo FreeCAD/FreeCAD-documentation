@@ -1,3 +1,5 @@
+# Render project
+
   {{VeryImportantMessage|(2020) This page refers to an attempt to update the [Raytracing Workbench](Raytracing_Workbench.md), proposed around 2012. Its original author never completed the implementation so this information is outdated, and should not be considered current.
 
 
@@ -118,4 +120,4 @@ See also [Raytracing tutorial](Raytracing_tutorial.md)
 
   
 
-[Category:Addons{{\#translation:}}](Category:Addons.md) [Category:External Workbenches{{\#translation:}}](Category:External_Workbenches.md) [Category:Render{{\#translation:}}](Category:Render.md)
+[Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md) [Category:Render](Category:Render.md)

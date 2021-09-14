@@ -1,3 +1,5 @@
+# Rocket Workbench/fr
+
 
 
 <img alt="Icône de l\'atelier Rocket" src=images/RocketWorkbench.svg  style="width:128px;">
@@ -9,13 +11,7 @@
 
 L\'<img alt="" src=images/RocketWorkbench.svg  style="width:24px;"> [atelier Rocket](Rocket_Workbench/fr.md) est un ensemble d\'outils pour la conception de fusées et de composants de fusées. Le public visé est constitué des constructeurs de modèles réduits et de fusées amateurs de tous types et de toutes tailles.
 
-
-<div class="mw-translate-fuzzy">
-
 Actuellement, l\'outil est principalement utilisé pour créer des composants individuels plutôt que des fusées complètes. Sur la base de l\'[atelier Part](Part_Workbench/fr.md), les composants conçus peuvent ensuite être imprimés en 3D, fabriqués par CNC ou découpés au laser. Le développement futur permettra au modélisateur de construire des fusées complètes.
-
-
-</div>
 
 Les pièces sont créées en spécifiant des paramètres dans la boîte de dialogue des tâches. Aucun dessin n\'est requis.
 
@@ -34,13 +30,7 @@ A définir
 
 ## Outils
 
-
-<div class="mw-translate-fuzzy">
-
 Les composants créés à l\'aide de Rocket Workbench sont essentiellement des pièces similaires à ce que vous créeriez à l\'aide de l\'[atelier Part](Part_Workbench/fr.md). Ils peuvent être combinés avec d\'autres pièces ou modifiés à l\'aide de cet atelier. L\'avantage d\'utiliser Rocket Workbench est que les pièces peuvent être créées avec beaucoup moins d\'opérations.
-
-
-</div>
 
 -   <img alt="" src=images/Rocket_NoseCone.svg  style="width:32px;"> [Coiffe](Rocket_NoseCone/fr.md): Créer une coiffe
 -   <img alt="" src=images/Rocket_Transition.svg  style="width:32px;"> [Transition](Rocket_Transition/fr.md): Créer une transition
@@ -63,4 +53,4 @@ Les composants créés à l\'aide de Rocket Workbench sont essentiellement des p
 
 
 
-[Category:Addons{{\#translation:}}](Category:Addons.md) [Category:External Workbenches{{\#translation:}}](Category:External_Workbenches.md)
+[Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)

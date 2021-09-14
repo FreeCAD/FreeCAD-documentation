@@ -2,20 +2,15 @@
 - GuiCommand:/fr
    Name:Path Shape
    Name/fr:Path Parcours à partir de formes
-   MenuLocation:Path → Partial commands → From Shape
+   MenuLocation:Path → Supplemental Commands → A partir de la forme
    Workbenches:[Path](Path_Workbench/fr.md)
-   Shortcut:
-   SeeAlso:
 ---
-
-
-</div>
 
 ## Description
 
-Path Parcours à partir de formes (ou Path Shape) ne correspond pas au flux de travail Path actuel. Pour cette raison, il est déplacé vers les fonctionnalités expérimentales.
+Path Parcours à partir de formes (ou Path Shape) ne correspond pas au déroulement Path actuel. Pour cette raison, il est déplacé vers les fonctionnalités expérimentales.
 
-Cet outil génère des parcours d\'outils à partir des bords d\'un objet Parcours.
+Cet outil génère des parcours d\'outils à partir des bords d\'un objet Path.
 
 Les parcours d\'outils ne sont pas compensés pour le rayon d\'outil. Aucun contrôleur d\'outil n\'est associé aux parcours d\'outils générés.
 
@@ -25,16 +20,13 @@ Les parcours d\'outils ne sont pas compensés pour le rayon d\'outil. Aucun cont
 
 Toutes les arêtes associées à la sélection du modèle 3D seront incluses.
 
-1.  Sélectionnez les arêtes en sélectionnant l\'objet entier à partir de la [Vue 3D](3D_view/fr.md) ou de la [Vue en arborescence](Tree_view/fr.md) du document, ou en sélectionnant des arêtes individuelles, ou par Faces à partir de la [Vue 3D](3D_view/fr.md).
+1.  Sélectionnez les arêtes en sélectionnant l\'objet entier à partir de la [Vue 3D](3D_view/fr.md) ou de la [Vue en arborescence](Tree_view/fr.md) du document, ou en sélectionnant des arêtes individuelles, ou par les faces à partir de la [Vue 3D](3D_view/fr.md).
 2.  Appuyez sur le bouton **<img src="images/Path_Shape.svg" width=16px>[Parcours à partir de formes](Path_Shape/fr.md)
 **
 
 L\'outil Path de sortie est ajouté en dehors du travail de Path.
 
 ## Options
-
-
-<div class="mw-translate-fuzzy">
 
 Toutes les options fournies sont disponibles uniquement à partir de la vue FromShape.Property.Data et incluent:
 
@@ -44,39 +36,15 @@ Toutes les options fournies sont disponibles uniquement à partir de la vue From
 -   Vitesse d\'avance
 -   Vitesse d\'avance verticale
 
-
-</div>
-
 ## Propriétés
-
-
-<div class="mw-translate-fuzzy">
 
 ### Données
 
-Empty
-
-
-</div>
-
-Empty
-
-
-<div class="mw-translate-fuzzy">
+Vide
 
 ### Vue
 
-Empty
-
-
-</div>
-
-Empty
-
-## Scripting
-
-
-<div class="mw-translate-fuzzy">
+Vide
 
 ## Script
 
@@ -85,20 +53,9 @@ Empty
 
 [Débuter avec les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md).
 
-
-</div>
-
 #### DocString Info 
 
-
-<div class="mw-translate-fuzzy">
-
-#### DocString Info 
-
-Renvoie un objet Path à partir d\'une liste de formes
-
-
-</div>
+Renvoie un objet Path à partir d\'une liste de formes.
 
 -   shapes: liste d\'entrée des formes.
 
@@ -150,7 +107,7 @@ comme connecté. Vous souhaiterez peut-être définir ce paramètre sur le diam�
 
 -   deflection(0.01): déflexion pour la discrétisation de courbe non circulaire. Il est également utilisé pour discrétiser les fils circulaires lorsque vous «explosez» la forme pour les opérations sur les fils
 
-Example:
+Exemple :
 
 
 ```python

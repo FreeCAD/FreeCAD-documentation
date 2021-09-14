@@ -1,3 +1,5 @@
+# Python scripting tutorial/de
+
 
 
 
@@ -245,9 +247,9 @@ Beim erforschen der Inhalt von myshape, wirst Du viele interessante Unterkompone
 
 ## Entwurf
 
-FreeCAD bietet noch viele weitere Module, wie [Skizzierer](Sketcher_Workbench/de.md) und [Entwurf](Draft_Module/de.md), die ebenfalls Teilobjekte erzeugen. Diese Module fügen zusätzliche Parameter zu den erzeugten Objekten hinzu oder implementieren sogar eine völlig neue Art und Weise, die Teilegeometrie in ihnen zu handhaben. Unser obiges Box Beispiel ist ein perfektes Beispiel für ein parametrisches Objekt. Alles was Du zur Definition der Box benötigst, ist die Angabe der Parameter Höhe, Breite und Länge. Basierend auf diesen Parametern berechnet das Objekt automatisch seine Teileform. FreeCAD erlaubt es Dir [Erzeuge solche Objekte in Python](Scripted_objects/de.md).
+FreeCAD bietet noch viele weitere Module, wie [Skizzierer](Sketcher_Workbench/de.md) und [Entwurf](Draft_Workbench/de.md), die ebenfalls Teilobjekte erzeugen. Diese Module fügen zusätzliche Parameter zu den erzeugten Objekten hinzu oder implementieren sogar eine völlig neue Art und Weise, die Teilegeometrie in ihnen zu handhaben. Unser obiges Box Beispiel ist ein perfektes Beispiel für ein parametrisches Objekt. Alles was Du zur Definition der Box benötigst, ist die Angabe der Parameter Höhe, Breite und Länge. Basierend auf diesen Parametern berechnet das Objekt automatisch seine Teileform. FreeCAD erlaubt es Dir [Erzeuge solche Objekte in Python](Scripted_objects/de.md).
 
-Das [Entwurf](Draft_Module/de.md) Modul fügt parametrische 2D Objekttypen (die alle Part Objekte sind) wie Linien und Kreise hinzu und bietet auch einige grundlegende Funktionen, die nicht nur auf Entwurfsobjekte, sondern auf jedes Part Objekt wirken. Um zu erkunden, was verfügbar ist, mache einfach:
+Das [Entwurf](Draft_Workbench/de.md) Modul fügt parametrische 2D Objekttypen (die alle Part Objekte sind) wie Linien und Kreise hinzu und bietet auch einige grundlegende Funktionen, die nicht nur auf Entwurfsobjekte, sondern auf jedes Part Objekt wirken. Um zu erkunden, was verfügbar ist, mache einfach:
 
 
 ```python
@@ -291,4 +293,4 @@ Jetzt bist Du bereit für eine vertieftere FreeCAD Skripterstellung. Gehe weiter
 
 }} 
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Python Code{{\#translation:}}](Category:Python_Code.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)

@@ -56,7 +56,7 @@ The single character keyboard shortcuts mentioned here can be changed. See [Draf
 
 ## Notes
 
--   An Object that is [attached](Part_Attachment.md) cannot be moved with the Draft Move command. To move it either its **Support** object has to be moved, or its **Attachment Offset** has to be changed.
+-   An Object that is [attached](Part_EditAttachment.md) cannot be moved with the Draft Move command. To move it either its **Support** object has to be moved, or its **Attachment Offset** has to be changed.
 
 ## Preferences
 

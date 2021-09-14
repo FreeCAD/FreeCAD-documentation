@@ -1,3 +1,5 @@
+# Common Airfoil Data Import/fr
+
 
 
 ## Importation des données des profils aérodynamiques 
@@ -36,4 +38,4 @@ Il y a une macro disponible qui importera le profil avec une longueur de corde d
 
 
 
-[Category:User Documentation{{\#translation:}}](Category:User_Documentation.md)
+[Category:User Documentation](Category:User_Documentation.md)

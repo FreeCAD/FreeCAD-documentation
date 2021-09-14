@@ -1,3 +1,5 @@
+# Points Workbench/pt-br
+
 
 
 
@@ -49,4 +51,4 @@ Todas as ferramentas da Bancada de Trabalho Points podem ser acessadas do menu *
 
 }} 
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

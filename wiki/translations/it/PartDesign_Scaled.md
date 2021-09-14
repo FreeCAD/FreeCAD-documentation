@@ -1,3 +1,5 @@
+# PartDesign Scaled/it
+
  {{GuiCommand/it|Name=PartDesign Scaled|Name/it=Scala|Workbenches=[PartDesign](PartDesign_Workbench/it.md), Completo|MenuLocation=PartDesign → Multitrasformazione}}
 
 ## Descrizione

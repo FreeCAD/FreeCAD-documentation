@@ -1,3 +1,5 @@
+# Draft Snap/it
+
 
 
 
@@ -17,7 +19,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Gli [24px](Immagine:Workbench_Draft.svg.md)\] [Ambiente Bozza](Draft_Module/it.md) strumenti consentono di scegliere punti e distanze cliccando sulla [vista 3D](3D_view/it.md) con il puntatore, o inserendo le [Bozza coordinate](Draft_Coordinates/it.md) nel [pannelo azioni](task_panel/it.md) dello strumento.
+Gli [24px](Immagine:Workbench_Draft.svg.md) [Ambiente Bozza](Draft_Workbench/it.md) strumenti consentono di scegliere punti e distanze cliccando sulla [vista 3D](3D_view/it.md) con il puntatore, o inserendo le [Bozza coordinate](Draft_Coordinates/it.md) nel [pannelo azioni](Task_panel/it.md) dello strumento.
 
 
 </div>

@@ -9,9 +9,6 @@
    SeeAlso:[TechDraw Dimension horizontale](TechDraw_Dimension_Horizontal/fr.md), [TechDraw Dimension verticale](TechDraw_Dimension_Vertical/fr.md)
 ---
 
-
-</div>
-
 ## Description
 
 L\'outil Dimension de repère ajoute une cote linéaire à une vue. La cote est basée sur deux points **feature** (Draft.Point ou Part.Vertex) du modèle 3D. Remarquez que les points doivent être des objets **feature** qui apparaissent dans le modèle de la [vue en arborescence](Tree_view/fr.md). Les sommets aléatoires d\'une forme ne fonctionneront pas.
@@ -58,13 +55,7 @@ rc = page.addView(dim1)
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{TechDraw Tools navi

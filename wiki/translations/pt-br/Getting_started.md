@@ -1,3 +1,5 @@
+# Getting started/pt-br
+
 
 
 
@@ -194,7 +196,7 @@ A qualquer momento, você pode selecionar os esboços originais e modificá-los,
 
 <div class="mw-translate-fuzzy">
 
-O [Bancada de Trabalho Draft](Draft_Module/pt-br.md) e o [Bancada de Trabalho Arch](Arch_Module/pt-br.md) comportam-se de forma um pouco diferente dos outros bancos de trabalho acima, embora sigam as mesmas regras, que são comuns a todos os FreeCAD. Em resumo, enquanto o Sketcher e o PartDesign são feitos principalmente para desenhar peças únicas, o Draft e o Arch são feitos para facilitar seu trabalho quando se trabalha com vários objetos mais simples.
+O [Bancada de Trabalho Draft](Draft_Workbench/pt-br.md) e o [Bancada de Trabalho Arch](Arch_Workbench/pt-br.md) comportam-se de forma um pouco diferente dos outros bancos de trabalho acima, embora sigam as mesmas regras, que são comuns a todos os FreeCAD. Em resumo, enquanto o Sketcher e o PartDesign são feitos principalmente para desenhar peças únicas, o Draft e o Arch são feitos para facilitar seu trabalho quando se trabalha com vários objetos mais simples.
 
 
 </div>
@@ -202,7 +204,7 @@ O [Bancada de Trabalho Draft](Draft_Module/pt-br.md) e o [Bancada de Trabalho Ar
 
 <div class="mw-translate-fuzzy">
 
-A [bancada de trabalho Draft](Draft_Module/pt-br.md) oferece ferramentas 2D um pouco semelhantes ao que você pode encontrar em aplicações CAD 2D tradicionais, tais como [AutoCAD](https://en.wikipedia.org/wiki/AutoCAD). Entretanto, estando o esboço 2D longe do escopo do FreeCAD, não espere encontrar ali toda a gama de ferramentas que estas aplicações dedicadas oferecem. A maioria das ferramentas de rascunho funciona não apenas em um plano 2D, mas também em todo o espaço 3D, e se beneficia de sistemas de ajuda especiais como [Work planes](Draft_SelectPlane/pt-br.md) e [object snapping](Draft_Snap/pt-br.md).
+A [bancada de trabalho Draft](Draft_Workbench/pt-br.md) oferece ferramentas 2D um pouco semelhantes ao que você pode encontrar em aplicações CAD 2D tradicionais, tais como [AutoCAD](https://en.wikipedia.org/wiki/AutoCAD). Entretanto, estando o esboço 2D longe do escopo do FreeCAD, não espere encontrar ali toda a gama de ferramentas que estas aplicações dedicadas oferecem. A maioria das ferramentas de rascunho funciona não apenas em um plano 2D, mas também em todo o espaço 3D, e se beneficia de sistemas de ajuda especiais como [Work planes](Draft_SelectPlane/pt-br.md) e [object snapping](Draft_Snap/pt-br.md).
 
 
 </div>

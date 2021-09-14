@@ -20,4 +20,4 @@ La finestra di dialogo Gestione finestre BIM consente di sfogliare e modificare 
 
 }}
 
-[Category:External Command Reference{{\#translation:}}](Category:External_Command_Reference.md)
+[Category:External Command Reference](Category:External_Command_Reference.md)

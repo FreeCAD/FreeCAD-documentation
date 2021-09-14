@@ -1,3 +1,5 @@
+# Assembly3 Workbench/it
+
 
 
 <img alt="Assembly3 workbench icon" src=images/Assembly3_workbench_icon.svg  style="width:128px;">
@@ -726,4 +728,4 @@ Un modo per risolvere questo problema è quello di eliminare tutti i vincoli e g
 
 
 
-[Category:Addons{{\#translation:}}](Category:Addons.md) [Category:External Workbenches{{\#translation:}}](Category:External_Workbenches.md)
+[Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)

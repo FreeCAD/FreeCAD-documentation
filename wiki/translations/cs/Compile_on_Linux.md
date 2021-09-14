@@ -1,3 +1,5 @@
+# Compile on Linux/cs
+
 
 
 
@@ -1213,4 +1215,4 @@ To update FreeCAD to latest build just repeat from step 3. Update AUR repo when 
 
 
 
-[Category:Developer\_Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Developer{{\#translation:}}](Category:Developer.md)
+[Category:Developer\_Documentation](Category:Developer_Documentation.md) [Category:Developer](Category:Developer.md)

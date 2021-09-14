@@ -1,4 +1,6 @@
-\_\_NOTOC\_\_  
+# Artwork Web
+
+  
 
 These icons are in the indicated source path.
 
@@ -16,4 +18,4 @@ For all icons in the source tree, see [Artwork](Artwork.md).
 
  
 
-[Category:Web{{\#translation:}}](Category:Web.md)
+[Category:Web](Category:Web.md)

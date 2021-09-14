@@ -1,4 +1,6 @@
- {{UnfinishedDocu}}
+# Manipulator/de
+
+ }
 
 ## Beschreibung
 
@@ -15,4 +17,4 @@ Ein **Manipulator** kann benutzt werden, um Aussehen, die Form oder andere Param
 
 
 
-[Category:Glossary{{\#translation:}}](Category:Glossary.md)
+[Category:Glossary](Category:Glossary.md)

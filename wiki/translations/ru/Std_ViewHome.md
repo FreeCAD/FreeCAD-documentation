@@ -1,11 +1,12 @@
 ---
-- GuiCommand:
-   Name:Std ViewHome
-   MenuLocation:View → Standard views → Home
-   Workbenches:All
+- GuiCommand:/ru
+   Name/ru:Домой
+   Name:Std_ViewHome
+   MenuLocation:Вид → Стандартные виды‏‎ → Домой
+   Workbenches:Все
    Shortcut:**Home**
    Version:0.19
-   SeeAlso:[Std ViewFitAll](Std_ViewFitAll.md)
+   SeeAlso:[Уместить всё](Std_ViewFitAll/ru.md)
 ---
 
 ## Описание

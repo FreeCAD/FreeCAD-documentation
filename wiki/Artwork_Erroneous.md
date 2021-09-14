@@ -1,4 +1,6 @@
-\_\_NOTOC\_\_  
+# Artwork Erroneous
+
+  
 
 For all icons in the source tree, see [Artwork](Artwork.md).
 
@@ -21,4 +23,4 @@ For all icons in the source tree, see [Artwork](Artwork.md).
 
  {{Artwork}}
 
-[Category:Icon{{\#translation:}}](Category:Icon.md) [Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md)
+[Category:Icon](Category:Icon.md) [Category:Developer Documentation](Category:Developer_Documentation.md)

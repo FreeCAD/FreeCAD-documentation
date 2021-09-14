@@ -1,5 +1,12 @@
 ---
-- GuiCommand:/it   Name:FEM_ShowResult   Name/it:Mostra i risultati   MenuLocation:Risultati → Mostra i risultati   |Workbenches:[Shortcut:**S** **R**   SeeAlso:[[FEM_tutorial/it|FEM tutorial](FEM_Module/it___FEM]].md)---
+- GuiCommand:/it
+   Name:FEM_ShowResult
+   Name/it:Mostra i risultati
+   MenuLocation:Risultati → Mostra i risultati
+   Workbenches:[FEM](FEM_Workbench/it.md)
+   Shortcut:**R** **S**
+   SeeAlso:[FEM tutorial](FEM_tutorial/it.md)
+---
 
 
 </div>

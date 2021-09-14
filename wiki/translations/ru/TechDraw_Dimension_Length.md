@@ -63,43 +63,9 @@ The dimension dialog offers the following settings:
 
 -   **Drawing Style**: The standard (and its style) according to which the dimension is drawn. See the property [**Standard And Style**](#View.md) for details.
 
-
-<div class="mw-translate-fuzzy">
-
-## Properties
+## Свойства
 
 ### Data
-
--    **X**: Horizontal position of the dimension text relative to the View.
-
--    **Y**: Vertical position of the dimension text relative to the View.
-
--    **FormatSpec**: Allows additional text to be added to the dimension text. Dimension value will replace %.2f (or other valid [printf](https://en.wikipedia.org/wiki/Printf_format_string) format specifier).
-
--    **Type**: Length,radius,diameter, etc. Not normally manipulated by the end user.
-
--    **MeasureType**: \"True\" - based on 3D geometry or \"Projected\" - based on the drawing. Not normally manipulated directly by the end user.
-
--    **OverTolerance**: The amount by which the piece may larger than the Dimension shown.
-
--    **UnderTolerance**: The amount by which the piece may be smaller than the Dimension shown.
-
--    **Arbitrary**: \"True\" - ignore actual value and display FormatSpec as value. \"False\" - use actual value.
-
-### View
-
--    **Font**: The name of the font to use for the dimension text.
-
--    **Fontsize**: Dimension text size in mm.
-
--    **LineWidth**: Dimension line weight.
-
--    **Color**: Color for lines and text.
-
-
-</div>
-
-### Data 
 
 
 {{Properties_Title|Base}}
@@ -188,7 +154,7 @@ The dimension dialog offers the following settings:
 
 -    **Arbitrary Tolerances**: Like **Arbitrary**, but for the tolerance.
 
-### View 
+### View
 
 
 {{Properties_Title|Base}}
@@ -266,9 +232,9 @@ See [Landmark Dimensions](TechDraw_Dimension_Landmark.md) for another approach t
 ## Программирование
 
 
-**See also:**
+**См. так же:**
 
-[TechDraw API](TechDraw_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+[TechDraw API](TechDraw_API/ru.md) и [Основы составления скриптов FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 
 The Dimension Length tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following functions:
 
@@ -287,7 +253,13 @@ rc = page.addView(dim1)
 -   **Multiple objects**. Views may contain multiple 3D objects as Source. Dimensions may be applied to geometry from any object(s) in the View (ex from Object1.Vertex0 to Object2.Vertex3).
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{TechDraw Tools navi

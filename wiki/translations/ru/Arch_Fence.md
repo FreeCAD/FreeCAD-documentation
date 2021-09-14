@@ -1,8 +1,11 @@
 ---
-- GuiCommand:/ru   Name:Arch Fence   Workbenches:[[Arch_Workbench   Arch]]|MenuLocation:Arch → Fence   Version:0.19---
-
-
-</div>
+- GuiCommand:/ru
+   Name/ru:Ограждение
+   Name:Arch_Fence
+   MenuLocation:Arch → Ограждение
+   Workbenches:[Arch](Arch_Workbench/ru.md)
+   Version:0.19
+---
 
 ## Описание
 
@@ -10,13 +13,7 @@ The [Arch Fence](Arch_Fence.md) is a object that builds a fence by repeating a s
 
 <img alt="" src=images/Arch_Fence_description_example.png  style="width:600px;">
 
-
-<div class="mw-translate-fuzzy">
-
-## Использование
-
-
-</div>
+## Применение
 
 ### Creating from scratch 
 
@@ -35,7 +32,7 @@ For now the tool assumes the following
 
 ## Свойства
 
-### Data
+### Данные
 
 -    **Path**: The path the fence should follow
 
@@ -47,11 +44,11 @@ For now the tool assumes the following
 
 -    **Number Of Sections**: The total number of sections used to build the fence. This is calculated automatically.
 
-### View
+### Вид
 
 -    **Use Original Colors**: When set to `True` the fence will use the colors from the original section and post. Otherwise the ShapeColor of the fence will be used to colorize the fence.
 
-## Notes
+## Примечания
 
 -   Arch Fence was introduced in FC v0.19 by user furti.
 -   [Forum thread](https://forum.freecadweb.org/viewtopic.php?t=36149) discussing Arch Fence functionality
@@ -65,7 +62,7 @@ The Fence tool can be used in [macros](Macros.md) and from the [Python](Python.m
 Fence = buildFence(section, post, path)
 ```
 
-Example.
+Пример:
 
 
 ```python
@@ -99,13 +96,7 @@ Fence = Arch.buildFence(fence_section, post, sketch)
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-{{docnav/ru|[Frame](Arch_Frame.md)|[Equipment](Arch_Equipment.md)|[Arch](Arch_Workbench.md) | IconL=Arch_Frame.svg|IconC=Workbench_Arch.svg|IconR=Arch_Equipment.svg}}
-
-
-</div>
 
 
  

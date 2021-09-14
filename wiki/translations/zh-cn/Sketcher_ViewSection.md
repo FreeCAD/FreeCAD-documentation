@@ -1,8 +1,9 @@
 ---
-- GuiCommand:
-   Name:Sketcher ViewSection
-   MenuLocation:Sketch → View section
-   Workbenches:[Sketcher](Sketcher_Workbench.md), [PartDesign](PartDesign_Workbench.md) 
+- GuiCommand:/zh-cn
+   Name/zh-cn:查看截面
+   Name:Sketcher_ViewSection
+   MenuLocation:Sketch → 查看截面
+   Workbenches:[Sketcher](Sketcher_Workbench/zh-cn.md), [PartDesign](PartDesign_Workbench/zh-cn.md) 
    Version:0.18
 ---
 
@@ -30,7 +31,13 @@
 </div>
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{Sketcher Tools navi

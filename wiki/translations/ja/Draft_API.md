@@ -1,3 +1,5 @@
+# Draft API/ja
+
 
 
 
@@ -96,4 +98,4 @@ Draft.move(myrect, mydistance)
 
 
 
-[Category:API{{\#translation:}}](Category:API.md) [Category:Poweruser Documentation{{\#translation:}}](Category:Poweruser_Documentation.md)
+[Category:API](Category:API.md) [Category:Poweruser Documentation](Category:Poweruser_Documentation.md)

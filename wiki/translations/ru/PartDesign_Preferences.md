@@ -1,3 +1,5 @@
+# PartDesign Preferences/ru
+
 
 
 
@@ -120,4 +122,4 @@ Right click on **Mesh deviation** choose in the context menu **Change value**. S
 
 }} 
 
-[Category:Preferences{{\#translation:}}](Category:Preferences.md)
+[Category:Preferences](Category:Preferences.md)

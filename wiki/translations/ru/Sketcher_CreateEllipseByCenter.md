@@ -1,46 +1,28 @@
 ---
 - GuiCommand:/ru
-   Name:Sketcher CreateEllipseByCenter
-   Name/ru:Sketcher Эллипс по центральной точке
-   MenuLocation:Эскиз → Геометрия эскиза → Эллипс по центральной точке
+   Name/ru:Создать эллипс от центра
+   Name:Sketcher_CreateEllipseByCenter
+   MenuLocation:Sketch → Геометрия эскиза → Создать эллипс от центра
    Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
    Version:0.15
-   SeeAlso:[Sketcher Эллипс по 3 точкам](Sketcher_CreateEllipseBy3Points/ru.md), [Sketcher Круг](Sketcher_CreateCircle/ru.md), [Sketcher Дуга по эллипсу](Sketcher_CreateArcOfEllipse/ru.md)
+   SeeAlso:[Создать эллипс по трём точкам](Sketcher_CreateEllipseBy3Points/ru.md), [Создать окружность](Sketcher_CreateCircle/ru.md), [Создать дугу эллипса](Sketcher_CreateArcOfEllipse/ru.md)
 ---
 
 ## Описание
 
 Этот инструмент рисует эллипс, по трем указанным точкам: центральной, большому радиусу, малому радиусу. При запуске инструмента указатель мыши меняется на белый крест с красным значком эллипса. Кроме того, координаты отображаются в режиме реального времени.
 
-
-<div class="mw-translate-fuzzy">
-
-<img alt="Последовательность нажатий указана желтыми стрелками с цифрами. C это центр, a - большой диаметр, b - малый диаметр, F1, F2 фокусы." src=images/Sketcher_EllipseExample1.png‎  style="width:500px;">
+<img alt="" src=images/Sketcher_EllipseExample1.png‎  style="width:500px;">
 
 
-</div>
+*Желтые стрелки с цифрами указывают последовательность нажатий. C - это центр, a - большой диаметр, b - малый диаметр, F1, F2 фокусы.*
 
-
-*The sequence of clicks is indicated by yellow arrows with numbers. C is the center, a - major diameter, b - minor diameter, F1, F2 are foci.*
-
-
-<div class="mw-translate-fuzzy">
-
-## Как использовать 
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+## Применение
 
 -   Вызовите команду, нажав кнопку на панели инструментов, выбрав пункт меню или используя сочетание клавиш (сперва вы должны назначить их в [Настройках интерфейса](Interface_Customization/ru.md)).
 -   Сначала в 3D-виде нажатием задайте центр эллипса. Вторым нажатием задайте первый радиус и ориентацию эллипса. Третьим нажатием задайте другой радиус (расстояние от линии, определенной первыми двумя нажатиями, является вторым радиусом).
 -   После третьего нажатия создается эллипс вместе с набором вспомогательной геометрии, привязанной к нему (большой диаметр, малый диаметр, два фокуса). Вспомогательная геометрия может быть удалена вручную, если не нужна, и воссоздана позже. Смотрите [Выравнивание Внутренних Ограничений](Sketcher_ConstrainInternalAlignment/ru.md) и [Sketcher Показать Скрытую Внутреннюю Геометрию](Sketcher_RestoreInternalAlignmentGeometry/ru.md).
 -   Нажатие **ESC** или правой кнопки мыши отменяет функцию.
-
-
-</div>
 
 ## Особенности
 
@@ -54,4 +36,4 @@
 
 {{Sketcher Tools navi
 
-}}  
+}} 

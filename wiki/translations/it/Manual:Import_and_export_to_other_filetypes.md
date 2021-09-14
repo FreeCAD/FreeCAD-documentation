@@ -1,3 +1,5 @@
+# Manual:Import and export to other filetypes/it
+
 
 
 
@@ -68,4 +70,4 @@ Alcuni di questi formati di file hanno delle opzioni. Questi formati possono ess
 
 </div>
 
-[Category:Poweruser Documentation{{\#translation:}}](Category:Poweruser_Documentation.md) [Category:Tutorials{{\#translation:}}](Category:Tutorials.md)
+[Category:Poweruser Documentation](Category:Poweruser_Documentation.md) [Category:Tutorials](Category:Tutorials.md)

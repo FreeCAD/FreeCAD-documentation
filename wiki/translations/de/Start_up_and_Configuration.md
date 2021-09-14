@@ -1,3 +1,5 @@
+# Start up and Configuration/de
+
 
 
 
@@ -417,4 +419,4 @@ Doppelklicke nun auf die Stapelverarbeitungsdatei, um FreeCAD zu starten. ([sieh
 
  
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md)

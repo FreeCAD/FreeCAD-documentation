@@ -1,3 +1,5 @@
+# Artwork Splash screen/it
+
 
 
 Queste sono le schermate iniziali che sono state utilizzate per ogni versione del programma.

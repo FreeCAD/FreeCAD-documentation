@@ -1,3 +1,5 @@
+# Compile on MacOS/tr
+
 
 
 
@@ -192,4 +194,4 @@ FreeCAD can be built against the latest git master hosted on github, and launche
 
 
 
-[Category:Developer\_Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Developer{{\#translation:}}](Category:Developer.md)
+[Category:Developer\_Documentation](Category:Developer_Documentation.md) [Category:Developer](Category:Developer.md)

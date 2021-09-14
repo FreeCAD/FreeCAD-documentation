@@ -1,4 +1,6 @@
-\_\_NOTOC\_\_  Эти иконки находятся в указанной исходной папке.
+# Artwork Arch/ru
+
+  Эти иконки находятся в указанной исходной папке.
 
 Для всех иконок в исходнике смотри [Художественное оформление](Artwork/ru.md).
 
@@ -17,4 +19,4 @@
 
 }} 
 
-[Category:Arch{{\#translation:}}](Category:Arch.md)
+[Category:Arch](Category:Arch.md)

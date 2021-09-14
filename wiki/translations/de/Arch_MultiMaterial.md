@@ -15,16 +15,16 @@ Das Multi-Material Werkzeug definiert eine Liste von [Materialien](Material/de.m
 
 Nicht alle Arch Objekte können derzeit Multimaterialien verwenden, und die Verwendung von Multimaterialien ist unterschiedlich. Derzeit:
 
--   <img alt="" src=images/Arch_Wall.svg  style="width:24px;"> [Walls](Arch_Wall.md) with a MultiMaterial will use the material definitions and thicknesses to create a multi-layer wall
--   <img alt="" src=images/Arch_Window.svg  style="width:24px;"> [Windows](Arch_Window.md) with a MultiMaterial will attribute materials with a given name defined inside the MultiMaterial to window components with a same name or type (see below). Material thickness is not considered.
--   <img alt="" src=images/Arch_Panel.svg  style="width:24px;"> [Panels](Arch_Panel.md) with a MultiMaterial will use the material definitions and thicknesses to create a multi-layer panel
+-   <img alt="" src=images/Arch_Wall.svg  style="width:24px;"> [Wände](Arch_Wall/de.md) mit einem Mehrfachmaterial werden die Materialdefinitionen und -dicken verwenden, um eine mehrlagige Wand zu erstellen
+-   Bei <img alt="" src=images/Arch_Window.svg  style="width:24px;"> [Fenstern](Arch_Window/de.md) mit einem Mehrfachmaterial werden die Materialien mit einem Namen innerhalb dieses Mehrfachmaterials, der zu Fensterkomponenten mit gleichem Namen oder Typ (s.u.) passt, diesen Komponenten zugeordnet. Materialdicken werden nicht berücksichtigt.
+-   <img alt="" src=images/Arch_Panel.svg  style="width:24px;"> [Paneele](Arch_Panel/de.md) mit einem Mehrfachmaterial werden die Materialdefinitionen und -dicken verwenden, um ein mehrlagiges Paneel zu erstellen
 
 ## Anwendung
 
-1.  Create first a series of **<img src="images/Arch_SetMaterial.svg" width=16px> [Arch Materials](Arch_SetMaterial.md)** that you will need in your Multi-Material.
-2.  Optionally, select an Arch object you wish to attribute the new Multi-Material to.
-3.  Press the **<img src="images/Arch_MultiMaterial.svg" width=16px> [Multi-Material](Arch_MultiMaterial.md)** button.
-4.  Set the desired material layers.
+1.  Erstelle zuerst eine Reihe von **<img src="images/Arch_SetMaterial.svg" width=16px> [Arch Material](Arch_SetMaterial/de.md)**ien, die du in deinem Mehrfachmaterial benötigst.
+2.  Optional wähle ein Arch-Objekt, dem du das neue Mehrfachmaterial zuordnen möchtest.
+3.  Drücke die **<img src="images/Arch_MultiMaterial.svg" width=16px> [Mehrfachmaterial](Arch_MultiMaterial/de.md)**-Schaltfläche.
+4.  Setze die gewünschten Materialebenen.
 
 ## Optionen
 

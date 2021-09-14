@@ -1,8 +1,10 @@
+# Power users hub/ko
+
  <img alt="" src=images/Power_user_hub.png  style="width:64px;">
 
 ------------------------------------------------------------------------
 
-\_\_NOTOC\_\_
+
 
 
 <div class="mw-translate-fuzzy">
@@ -160,4 +162,4 @@ On the [Community portal](FreeCAD_Community_Portal.md), you can find other FreeC
 
 }}
 
-[Category:Hubs{{\#translation:}}](Category:Hubs.md)
+[Category:Hubs](Category:Hubs.md)

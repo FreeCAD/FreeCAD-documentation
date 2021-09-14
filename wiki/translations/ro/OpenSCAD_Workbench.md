@@ -1,3 +1,5 @@
+# OpenSCAD Workbench/ro
+
 
 
 
@@ -103,4 +105,4 @@ Dacă FreeCAD se blochează atunci când importați CSG, este recomandat să act
 
 }} 
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

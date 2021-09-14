@@ -1,9 +1,10 @@
 ---
-- GuiCommand:
-   Name:Sketcher EditSketch
-   MenuLocation:Sketch → Edit sketch
-   Workbenches:[Sketcher](Sketcher_Workbench.md), [PartDesign](PartDesign_Workbench.md)
-   SeeAlso:[Sketcher LeaveSketch](Sketcher_LeaveSketch.md)
+- GuiCommand:/zh-cn
+   Name/zh-cn:编辑草绘
+   Name:Sketcher_EditSketch
+   MenuLocation:Sketch → 编辑草绘
+   Workbenches:[Sketcher](Sketcher_Workbench/zh-cn.md), [PartDesign](PartDesign_Workbench/zh-cn.md)
+   SeeAlso:[离开草图](Sketcher_LeaveSketch/zh-cn.md)
 ---
 
 ## 描述

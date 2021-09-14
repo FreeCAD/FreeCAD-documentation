@@ -1,3 +1,5 @@
+# Part Module/pl
+
 
 
 
@@ -98,7 +100,7 @@ Są to narzędzia do tworzenia i modyfikacji istniejących obiektów.
 
 -   <img alt="" src=images/Part_ProjectionOnSurface.svg  style="width:32px;"> [Projekcja na powierzchni](Part_ProjectionOnSurface.md): Rzutuje logo, tekst lub dowolną ściankę, linie łamaną lub krawędź na powierzchnię. {{Version/pl|0.19}}
 
--   <img alt="" src=images/Part_Attachment.svg  style="width:32px;"> [Przymocuj obiekt](Part_Attachment.md): jest to narzędzie służące do dołączania obiektu do innego obiektu.
+-   <img alt="" src=images/Part_EditAttachment.svg  style="width:32px;"> [Edycja mocowania](Part_EditAttachment/pl.md): jest to narzędzie służące do dołączania obiektu do innego obiektu.
 
 #### Narzędzia do przeprowadzania operacji logicznych 
 
@@ -200,4 +202,4 @@ Zobacz również: [skrypty dla środowiska Część](Part_scripting/pl.md)
 
  
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

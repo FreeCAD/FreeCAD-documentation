@@ -1,4 +1,6 @@
-\_\_NOTOC\_\_ 
+# Main Page/ko
+
+ 
 
 
 <div class="mw-translate-fuzzy">
@@ -97,4 +99,4 @@ FreeCAD는 모든 플랫폼에서 [CMake](https://cmake.org/)를 사용하여 �
 
 
 
-[Category:Documentation{{\#translation:}}](Category:Documentation.md)
+[Category:Documentation](Category:Documentation.md)

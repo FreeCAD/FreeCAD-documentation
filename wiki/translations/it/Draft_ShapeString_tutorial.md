@@ -1,3 +1,5 @@
+# Draft ShapeString tutorial/it
+
  {{TutorialInfo/it
 |Topic= Product design
 |Level= Base
@@ -170,7 +172,7 @@ A similar process as described above can be done with the [PartDesign Workbench]
 1.  Create the **<img src=images/Draft_ShapeString.svg style="width:16px"> [Draft ShapeString](Draft_ShapeString.md)** first.
 2.  Create a **<img src=images/PartDesign_Body_Tree.svg style="width:16px"> <img src=images/PartDesign_Pad.svg style="width:PartDesign Body](PartDesign_Body.md)**, make it active, and add a base solid by adding primitives, or using a Sketch and extruding it with **[16px"> [PartDesign Pad](PartDesign_Pad.md)**.
 3.  Move the `ShapeString` object into the active body.
-4.  Attach the `ShapeString` object to one of the faces of the solid, or to a **<img src=images/PartDesign_Plane.svg style="width:16px"> <img src=images/Part_Attachment.svg style="width:PartDesign Plane](PartDesign_Plane.md)**, using **[16px"> [Part Attachment](Part_Attachment.md)**.
+4.  Attach the `ShapeString` object to one of the faces of the solid, or to a **<img src=images/PartDesign_Plane.svg style="width:16px"> <img src=images/Part_EditAttachment.svg style="width:PartDesign Plane](PartDesign_Plane.md)**, using **[16px"> [Part EditAttachment](Part_EditAttachment.md)**.
 5.  Now create a **<img src=images/PartDesign_Pad.svg style="width:16px"> <img src=images/PartDesign_Pocket.svg style="width:PartDesign Pad](PartDesign_Pad.md)** or a **[16px"> [PartDesign Pocket](PartDesign_Pocket.md)** from the `ShapeString`, in order to produce an additive or a subtractive [feature](PartDesign_Feature.md) of the base body, respectively.
 
 See the forum thread, [How to use ShapeStrings in PartDesign](https://forum.freecadweb.org/viewtopic.php?f=3&t=36623).

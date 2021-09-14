@@ -1,3 +1,5 @@
+# Macro Shake Sketch/fr
+
  {{Macro/fr
 |Name=Macro Shake Sketch
 |Icon=Macro_Shake_Sketch.png

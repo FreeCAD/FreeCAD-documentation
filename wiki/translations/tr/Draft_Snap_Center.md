@@ -2,7 +2,7 @@
 - GuiCommand:/tr
    Name:Draft Center
    Name/tr:Taslak Merkez
-   Workbenches:[Taslak](Draft_Module/tr.md), [Mimari](Arch_Module/tr.md)
+   Workbenches:[Taslak](Draft_Workbench/tr.md), [Mimari](Arch_Workbench/tr.md)
    MenuLocation:Taslak → [Yakalama](Draft_Snap/tr.md) → Merkez
    Shortcut:
    SeeAlso:[Taslak Yakalama](Draft_Snap/tr.md), [Taslak Geçiş yakalama](Draft_ToggleSnap/tr.md)

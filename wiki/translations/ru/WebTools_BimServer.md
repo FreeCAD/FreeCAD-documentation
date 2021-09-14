@@ -2,7 +2,7 @@
 - GuiCommand:/ru
    Name:Arch BimServer‏‎‏‎
    Name/ru:Arch BimServer‏‎‏‎
-   Workbenches:[Arch](Arch_Module/ru.md)
+   Workbenches:[Arch](Arch_Workbench/ru.md)
    MenuLocation:Архитектура → Утилиты → BIM server
    Shortcut:‏‎
    SeeAlso:
@@ -17,12 +17,12 @@
 
 ## Описание
 
-This command allows you to interact with a [BIMServer](http://www.bimserver.org) instance, open files stored on the Bim server, and save new revisions of those files. BIMServer is a free, open-source server system made to work with IFC files. In its current state, it allows to manage projects with multiple IFC files, and manage revisions. Its highly extensible database system and plugin architecture also allows to design advanced querying/validating tools and intelligent merging workflows.
+This command allows you to interact with a [BIMServer](http://www.bimserver.org) instance, open files stored on the BIM server, and save new revisions of those files. BIMServer is a free, open-source server system made to work with IFC files. In its current state, it allows to manage projects with multiple IFC files, and manage revisions. Its highly extensible database system and plugin architecture also allows to design advanced querying/validating tools and intelligent merging workflows.
 
 In order to use this command, the following conditions must be met:
 
 -   The **json** and **requests** Python modules must be installed on your system
--   You need to have access to a BimServer instance (read the [BIMServer documentation](https://github.com/opensourceBIM/BIMserver/wiki) to install a BIMServer locally), and have credentials (login and password) for that server. At the time of writing, the stable version of BIMServer is 1.4, but we recommend you to install one of the available beta 1.5.X versions, which installs a lot of plugins automatically (in version 1.4 you have to install plugins manually).
+-   You need to have access to a BIMServer instance (read the [BIMServer documentation](https://github.com/opensourceBIM/BIMserver/wiki) to install a BIMServer locally), and have credentials (login and password) for that server. At the time of writing, the stable version of BIMServer is 1.4, but we recommend you to install one of the available beta 1.5.X versions, which installs a lot of plugins automatically (in version 1.4 you have to install plugins manually).
 -   All the file transfers with the BIMServer are done with IFC files. Therefore, you need to know how to work with [IFC files](Arch_IFC.md).
 
 ## Usage

@@ -45,24 +45,24 @@ These are the properties available in the [property editor](property_editor.md).
 ### Данные
 
 
-{{TitleProperty|Base}}
+{{TitleProperty|Основные}}
 
 -    **Label|String**: the user editable name of this object, it is an arbitrary UTF8 string.
 
 -    **Group|LinkList**: a list of referenced objects. By default, it is empty {{value|[]}}.
 
-#### Hidden properties Data 
+#### Скрытые свойства Данных 
 
 -    **Proxy|PythonObject**: a custom class associated with this object. This only exists for the [Python](Python.md) version. See [Scripting](Std_Group#Scripting.md).
 
-### View
+### Вид
 
 
-{{TitleProperty|Base}}
+{{TitleProperty|Основные}}
 
 See [App FeaturePython](App_FeaturePython.md) for the basic view properties.
 
-#### Hidden properties View 
+#### Скрытые свойства Вида 
 
 -    **Proxy|PythonObject**: a custom view provider class associated with this object. This only exists for the [Python](Python.md) version. See [Scripting](Std_Group#Scripting.md).
 
@@ -75,7 +75,7 @@ A [Std Group](Std_Group.md) is formally an instance of the class `App::DocumentO
 
 *Simplified diagram of the relationships between the core objects in the program. The `App::DocumentObjectGroup* class is a simple container which uses the Group extension to be able to hold any type of object.`
 
-## Scripting
+## Программирование
 
 
 **See also:**
@@ -120,13 +120,7 @@ For example, a [FEM Analysis](FEM_Analysis.md) is an `App::DocumentObjectGroupPy
 -   [Organizing your model](http://www.freecadweb.org/wiki/index.php?title=Arch_tutorial#Organizing_your_model)
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Std Base navi

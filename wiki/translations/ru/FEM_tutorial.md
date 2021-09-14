@@ -1,3 +1,5 @@
+# FEM tutorial/ru
+
 
 
 
@@ -212,7 +214,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Теперь мы закончили с основными принципами работы [FEM Module](FEM_Module/ru.md).
+Теперь мы закончили с основными принципами работы [FEM Module](FEM_Workbench/ru.md).
 
 
 </div>

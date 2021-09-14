@@ -7,9 +7,6 @@
    SeeAlso:[TechDraw Page à partir d'un modèle](TechDraw_PageTemplate/fr.md), [TechDraw Modèles](TechDraw_Templates/fr.md)
 ---
 
-
-</div>
-
 ## Description
 
 L\'outil Nouvelle Page par défaut crée un nouvel objet Page à l\'aide du fichier de modèle spécifié dans les [TechDraw Préférences](TechDraw_Preferences/fr.md).
@@ -86,13 +83,7 @@ page.Template.EditableTexts = texts
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{TechDraw Tools navi

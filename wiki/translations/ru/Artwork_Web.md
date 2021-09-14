@@ -1,4 +1,6 @@
-\_\_NOTOC\_\_ 
+# Artwork Web/ru
+
+ 
 
 Эти иконки находятся в указанной исходной папке.
 
@@ -19,4 +21,4 @@
 
 }} 
 
-[Category:Web{{\#translation:}}](Category:Web.md)
+[Category:Web](Category:Web.md)

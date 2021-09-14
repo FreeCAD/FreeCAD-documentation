@@ -1,3 +1,5 @@
+# Macro FCInfo Alternate Linux/en
+
  {{Macro
 |Name=Macro FCInfo Alternate Linux
 |Icon=FCInfo.png

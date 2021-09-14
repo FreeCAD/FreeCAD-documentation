@@ -1,3 +1,5 @@
+# Manual:Parametric objects/it
+
 
 
 
@@ -51,4 +53,4 @@ Infine, vale la pena di notare che gli oggetti parametrici personalizzati sono [
 
 
 
-[Category:Poweruser Documentation{{\#translation:}}](Category:Poweruser_Documentation.md) [Category:Tutorials{{\#translation:}}](Category:Tutorials.md)
+[Category:Poweruser Documentation](Category:Poweruser_Documentation.md) [Category:Tutorials](Category:Tutorials.md)

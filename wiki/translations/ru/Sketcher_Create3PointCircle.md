@@ -1,8 +1,8 @@
 ---
 - GuiCommand:/ru
-   Name:Sketcher Create3PointCircle
-   Name/ru:Sketcher Круг по 3 точкам
-   MenuLocation:Эскиз → Геометрия эскиза → Круг по 3 точкам
+   Name/ru:Создать окружность по трём точкам
+   Name:Sketcher_Create3PointCircle
+   MenuLocation:Sketch → Геометрия эскиза → Создать окружность по трём точкам
    Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
    Shortcut:
    SeeAlso:
@@ -10,27 +10,15 @@
 
 ## Описание
 
+Этот <img alt="" src=images/Sketcher_Create3PointCircle.svg  style="width:16px;"> инструмент рисует круг, указывая три точки по контуру круга. При запуске инструмента указатель мыши меняется на белый крест с красным кружком. Кроме того, координаты отображаются в режиме реального времени.
 
-<div class="mw-translate-fuzzy">
-
-Этот <img alt="" src=images/Sketcher_CreateCircle3Point.png  style="width:32px;"> инструмент рисует круг, указывая три точки по контуру круга. При запуске инструмента указатель мыши меняется на белый крест с красным кружком. Кроме того, координаты отображаются в режиме реального времени.
-
-
-</div>
-
-## Использование
+## Применение
 
 -   Укажите точки на пустой области трехмерного вида, или на существующем объекте (авто ограничения в панели Задачи должны быть включены)
 -   Нажмите **Esc** или правую кнопку мыши для отмены функции.
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Sketcher Tools navi

@@ -1,3 +1,5 @@
+# Debian Unstable/en
+
 
 
 [Debian Unstable](https://wiki.debian.org/DebianUnstable) is a rolling distribution used for [Debian development](Debian_development.md) and recommended for advanced users in FreeCAD development and packaging. New packages are ready as soon as they are uploaded and built, unless the uploader has marked them for [Debian Experimental](https://wiki.debian.org/DebianExperimental) which requires explicit installation (after some setup to enable the extra distribution) via .
@@ -25,4 +27,4 @@ deb [http://deb.debian.org/debian](http://deb.debian.org/debian) experimental�
 
 
 
-[Category:Packaging{{\#translation:}}](Category:Packaging.md) [Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md)
+[Category:Packaging](Category:Packaging.md) [Category:Developer Documentation](Category:Developer_Documentation.md)

@@ -2,9 +2,9 @@
 - GuiCommand:/ru
    Name:Draft Wire
    Name/ru:Draft Wire
-   Workbenches:[Draft](Draft_Module/ru.md), [Arch](Arch_Module/ru.md)
-   Shortcut:W I
    MenuLocation:Черчение → DWire
+   Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
+   Shortcut:W I
    SeeAlso:[Линия](Draft_Line/ru.md), [B-сплайн](Draft_BSpline/ru.md)
 ---
 

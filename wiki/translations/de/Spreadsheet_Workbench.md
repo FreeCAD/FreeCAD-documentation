@@ -1,3 +1,5 @@
+# Spreadsheet Workbench/de
+
  
 
 <img alt="Tabellenkalkulation Arbeitsbereichssymbol" src=images/Workbench_Spreadsheet.svg  style="width:128px;">
@@ -143,6 +145,9 @@ Du kannst zwar die Zeilen- und Spaltennummer in einem Ausdruck verwenden, um auf
 
 Das Bearbeiten einer Kalkulationstabelle löst eine Neuberechnung des 3D Modells aus, auch wenn die Änderungen keine Auswirkungen auf das Modell haben. Bei einem komplexen Modell kann eine Neuberechnung sehr lange dauern, und nach jeder einzelnen Bearbeitung warten zu müssen, ist natürlich ziemlich lästig.
 
+
+<div class="mw-translate-fuzzy">
+
 Es gibt drei Lösungen, um dies zu beheben:
 
 \#\* Überspringe vorübergehend die Neuberechnungen:
@@ -166,6 +171,9 @@ Es gibt drei Lösungen, um dies zu beheben:
     -   Der Vorteil, das Tabellenblatt in einer anderen Datei zu haben, gegenüber dem Ausschalten der Neuberechnung ist, dass die Kalkulationstabelle selbst neu berechnet wird.
     -   Der Nachteil ist, dass das Modell nach Änderungen an der Tabelle nicht automatisch neu berechnet wird.
     -   In dem Szenario, in dem du zuerst die \'Kalkulationstabelle\' Datei öffnen, einen oder mehrere Werte ändern und dann die \'Modell\' Datei öffnen, wird es keinen Hinweis darauf geben, dass das Modell neu berechnet werden muss. Wenn jedoch beide Dateien geöffnet sind, wird das Symbol [Std Aktualisieren](Std_Refresh/de.md) für die \'Modell\' Datei nach Änderungen in der \'Kalkulationstabelle\' Datei korrekt aktualisiert.
+
+
+</div>
 
 ## Einheiten
 
@@ -227,4 +235,4 @@ sheet.get('Diameter')
 
 }} 
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

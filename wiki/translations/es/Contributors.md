@@ -1,3 +1,5 @@
+# Contributors/es
+
 
 
 
@@ -251,4 +253,4 @@ Desarrolladores de complementos de FreeCAD (recuperados de <https://github.com/F
 
 
 
-[Category:Developer{{\#translation:}}](Category:Developer.md)
+[Category:Developer](Category:Developer.md)

@@ -1,3 +1,5 @@
+# Localization Older Methods
+
  
 
 
@@ -153,4 +155,4 @@ and running pyrcc4 Draft.qrc -o qrc\_Draft.py creates a big Python containing al
 
   
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md)

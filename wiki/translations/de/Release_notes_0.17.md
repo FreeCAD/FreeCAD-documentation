@@ -1,3 +1,5 @@
+# Release notes 0.17/de
+
 
 
 
@@ -186,7 +188,13 @@ Der neue **Arbeitsbereich TechDraw** zielt darauf den Arbeitsbereich Drawing zu 
 
 -   Erweiterung: Das Werkzeug [Part Revolve](Part_Revolve/de.md) unterstützt nun eine parametrische Verbindung zur Rotationsachse (eigentlich in nur in PartDesign).
 
+
+<div class="mw-translate-fuzzy">
+
 -   Die neue Hilfsfunktion [Part Attachment](Part_Attachment/de.md) verfügbar über das Menü *Part → Attachment...* kann benutzt werden, um die meisten Typen von Objekten miteinander parametrisch zu verbinden.
+
+
+</div>
 
 -   Der neue [Part-Container](Std_Part/de.md) kann verwendet werden um die meisten Typen von [Shapes](Glossary/de#Shape.md) zu gruppieren und sie als Einheit zu bewegen. Er enthält auch die Standardebenen und -achsen, an denen ebenfalls Objekte angeheftet werden können. Er wird die Basis für den zukünftigen Arbeitsbereich Assembly bilden, um eine Möglichkeit zu haben, Baugruppen im Raum zu bewegen. Er steht in allen Arbeitsbereichen zusammen mit [Group](Std_Group/de.md) in der Werkzeugleiste zur Verfügung.
 
@@ -312,4 +320,4 @@ Einige der neuen Module, die von der FreeCAD-Gemeinschaft geschaffen wurden.
 
 -   [Kicad StepUp Workbench](https://www.freecadweb.org/wiki/KicadStepUp_Workbench) is aimed to help KiCad and FreeCAD users in ECAD and MCAD collaboration.
 
-[Category:News{{\#translation:}}](Category:News.md) [Category:Documentation{{\#translation:}}](Category:Documentation.md) [Category:Releases{{\#translation:}}](Category:Releases.md)
+[Category:News](Category:News.md) [Category:Documentation](Category:Documentation.md) [Category:Releases](Category:Releases.md)

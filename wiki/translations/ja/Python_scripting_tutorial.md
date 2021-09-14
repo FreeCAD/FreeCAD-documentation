@@ -1,3 +1,5 @@
+# Python scripting tutorial/ja
+
 
 
 
@@ -568,4 +570,4 @@ Now that you have a good understanding of the basics, where are we going to keep
 
 }} 
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Python Code{{\#translation:}}](Category:Python_Code.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)

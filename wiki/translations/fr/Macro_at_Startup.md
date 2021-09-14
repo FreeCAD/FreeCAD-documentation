@@ -1,3 +1,5 @@
+# Macro at Startup/fr
+
 
 
 ## Introduction
@@ -7,9 +9,6 @@
 
 Cette documentation explique comment configurer une macro pour qu\'elle s\'exécute automatiquement au démarrage de FreeCAD.
 
-
-<div class="mw-translate-fuzzy">
-
 Avant de commencer, les points suivants doivent être pris en compte:
 
 -   L\'exécution automatique d\'une macro au démarrage peut être considérée comme un risque pour la sécurité. Vous ne devez exécuter que des macros fiables et testées auparavant
@@ -17,22 +16,13 @@ Avant de commencer, les points suivants doivent être pris en compte:
 -   Lorsque les dossiers utilisateur (\'Mod\', \'Macro\', \...) sont mentionnés, ils se trouvent dans votre dossier utilisateur FreeCAD. Vous pouvez les localiser au démarrage et à la configuration → [Informations relatives à l\'utilisateur](Start_up_and_Configuration/fr#Informations_correspondant_.C3.A0_l.27utilisateur.md)
 -   Cela ne devrait pas être fait pour les macros traitant de la modélisation de pièces. Ceci est plutôt approprié pour les macros qui ajoutent des fonctionnalités en améliorant l\'interface utilisateur, \...
 
-
-</div>
-
 ## Comment
 
 ### Préparer la macro 
 
 Généralement, il arrivera qu\'une macro ne soit pas directement compatible avec un lancement au démarrage et devra être ajustée
 
-
-<div class="mw-translate-fuzzy">
-
 Considérez la macro ci-dessous que vous avez téléchargée quelque part et qui est stockée dans votre dossier \'Macro\' avec le nom \'MySuperMacro.FCMacro\':
-
-
-</div>
 
     ## Import section ##
     from PySide import QtGui
@@ -46,13 +36,7 @@ Considérez la macro ci-dessous que vous avez téléchargée quelque part et qui
     ## Main instruction section
     MyMsgBox()
 
-
-<div class="mw-translate-fuzzy">
-
 Toutes les macros présentent généralement une structure similaire avec une première section d\'importation, puis une section de définition et enfin une section d\'instruction principale. Nous allons nous concentrer sur ce dernier point car les instructions principales (elles sont assez faciles à repérer car elles commencent au début de la ligne) sont en réalité celles qui \"exécutent\" la macro. Pour une étape ultérieure, nous devrons importer la macro avec un programme puis l\'exécuter. Cela ne peut pas être fait avec la structure réelle de la macro. Pour pouvoir le faire, nous devons inclure les instructions principales dans une fonction - par exemple. run() - puis assurez-vous que cette fonction est toujours appelée lorsque la macro est exécutée manuellement par l\'utilisateur. Si vous n\'êtes pas totalement sûr de ce que vous faites, il est conseillé de travailler sur une copie de la macro (ou vous pouvez simplement vouloir conserver la macro d\'origine telle quelle). Le fichier d\'origine doit être modifié comme suit:
-
-
-</div>
 
     from PySide import QtGui
     ## The 2 below lines shall be added if not already present to ensure FreeCAD modules are imported
@@ -76,13 +60,7 @@ Bien sûr, si la fonction \"run()\" existe déjà dans la macro, vous pouvez cho
 
 ### Intégration au démarrage de FreeCAD 
 
-
-<div class="mw-translate-fuzzy">
-
 Commencez par créer un nouveau dossier dans votre dossier utilisateur \"Mod\" de appelé \"MacroStartup\". Copiez la macro modifiée dans ce dossier nouvellement créé et renommez-la avec une extension \".py\" si ce n\'est pas encore le cas (notez que si vous développez la macro vous-même, vous pouvez également la nommer avec l\'extension \".py\" dans le dossier \"Macro\" pour ne pas avoir à le renommer lors de la copie). Enfin, créez dans le même dossier un fichier appelé \"InitGui.py\" qui contient le code suivant:
-
-
-</div>
 
     def runStartupMacros(name):
         # Do not run when NoneWorkbench is activated because UI isn't yet completely there
@@ -108,20 +86,14 @@ Commencez par créer un nouveau dossier dans votre dossier utilisateur \"Mod\" d
 
 Notez que cela ne sera fait qu\'une fois. Si vous souhaitez exécuter plus d\'une macro, vous pouvez simplement ajouter les autres macros dans le même fichier (consultez les commentaires sur le code ci-dessus).
 
-
-<div class="mw-translate-fuzzy">
-
 Nous avons finis. Votre macro devrait s\'exécuter automatiquement au prochain lancement de FreeCAD.
-
-
-</div>
 
 Notez que si la macro originale a été téléchargée via le gestionnaire d'addon, elle sera écrasée lors de la mise à jour et vous devrez donc à nouveau suivre les étapes décrites ici.
 
-## General Notes 
+## Remarques générales 
 
--   In the example \'InitGui.py\' script above, the function named \'runStartupMacros()\' may be changed, so long as you also change the other four references to it, so they all match.
--   This script will be run prior to the auto loading of your desired startup workbench in the FreeCAD Preferences, [Preferences\_Editor\#General\_settings](Preferences_Editor#General_settings.md).
+-   Dans l\'exemple de script \'InitGui.py\' ci-dessus, la fonction nommée \'runStartupMacros()\' peut être modifiée, tant que vous modifiez également les quatre autres références à celle-ci, afin qu\'elles correspondent toutes.
+-   Ce script sera exécuté avant le chargement automatique de l\'atelier de démarrage de votre choix dans les préférences de FreeCAD, [Préférences générales](Preferences_Editor/fr#Pr.C3.A9f.C3.A9rences_g.C3.A9n.C3.A9rales.md).
 
 ### Linux
 
@@ -129,22 +101,16 @@ Notez que si la macro originale a été téléchargée via le gestionnaire d'add
 
 ### Windows
 
--   In the above example, you may place the \'MacroStartup\' folder within the \'Mod\' folder of your FreeCAD root directory (whether installed version or portable version), or you may create a \'Mod\' folder along side the \'Macro\' folder in \'%USERPROFILE%\\AppData\\Roaming\\FreeCAD\\\', and place the \'MacroStartup\' folder there.
--   From observation, the workbenches found within either \'Mod\' folder are loaded alphabetically. Those in the FreeCAD root \'Mod\' folder are loaded first, then FreeCAD scans the \'%USERPROFILE%\\AppData\\Roaming\\FreeCAD\\Mod\' folder for additional workbenches.
+-   Dans l\'exemple ci-dessus, vous pouvez placer le dossier \'MacroStartup\' dans le dossier \'Mod\' de votre répertoire racine FreeCAD (qu\'il s\'agisse de la version installée ou de la version portable), ou vous pouvez créer un dossier \'Mod\' à côté du dossier \'Macro\' dans \'%USERPROFILE%\\AppData\\Roaming\\FreeCAD\\\' et y placer le dossier \'MacroStartup\'.
+-   D\'après nos observations, les ateliers trouvés dans l\'un ou l\'autre des dossiers \'Mod\' sont chargés par ordre alphabétique. Ceux qui se trouvent dans le dossier \'Mod\' racine de FreeCAD sont chargés en premier, puis FreeCAD recherche dans le dossier \'%USERPROFILE%\\AppData\\Roaming\\FreeCAD\\Mod\' des ateliers supplémentaires.
 
 ## En relation 
 
-
-<div class="mw-translate-fuzzy">
-
-[Extra\_python\_modules/fr\#LazyLoader](Extra_python_modules/fr#LazyLoader.md) LazyLoader est un module Python qui permet un chargement différé,
-
-
-</div>
+[LazyLoader](Extra_python_modules/fr#LazyLoader.md) est un module Python qui permet un chargement différé.
 
 
 {{Powerdocnavi
 
 }}
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Python Code{{\#translation:}}](Category:Python_Code.md) [Category:Macros{{\#translation:}}](Category:Macros.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md) [Category:Macros](Category:Macros.md)

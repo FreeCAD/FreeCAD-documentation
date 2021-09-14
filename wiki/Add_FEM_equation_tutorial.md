@@ -1,3 +1,5 @@
+# Add FEM equation tutorial
+
  
 
 
@@ -192,4 +194,4 @@ We have just created a new equation class. To access it from the FEM GUI, we nee
 
 
 
-[Category:FEM{{\#translation:}}](Category:FEM.md) [Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md)
+[Category:FEM](Category:FEM.md) [Category:Developer Documentation](Category:Developer_Documentation.md)

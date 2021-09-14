@@ -21,10 +21,16 @@ Fügt einen abzuziehenden Zylinder in den aktiven Körper (Body) ein. Die Form w
 
 ## Anwendung
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Drücke die **<img src="images/PartDesign_SubtractiveCylinder.svg" width=24px> '''Abzuziehender Zylinder'''** Schaltfläche. **Anmerkung**: Abzuziehender Zylinder ist Teil des benannten Symbols *Erzeuge einen abzuziehenden Grundkörper*. Direkt nach dem Start von FreeCAD wird das Symbol von „Abzuziehender Quader" in der Werkzeugleiste angezeigt. Um zur Schaltfläche Zylinder zu gelangen, klicke auf den Abwärtspfeil neben dem sichtbaren Symbol und wähle im Menü Subtraktiver Zylinder.
 2.  Lege die Grundkörperparameter und [Attachment](Part_Attachment/de.md) fest.
 3.  Klicke **OK**.
 4.  Ein Zylinder erscheint unterhalb des aktiven Körpers.
+
+
+</div>
 
 ## Optionen
 

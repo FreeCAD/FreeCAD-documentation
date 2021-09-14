@@ -1,3 +1,5 @@
+# Macro Repro Wire/fr
+
  {{Macro/fr
 |Name=Macro Repro Wire
 |Icon= Macro_ReproWire.png

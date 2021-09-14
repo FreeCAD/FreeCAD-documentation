@@ -1,3 +1,5 @@
+# Macro Duplicate Selection/fr
+
  {{Macro/fr
 |Name=Macro_Duplicate_Selection
 |Description= Cette macro change le curseur de la souris en "ForbiddenCursor" si une sélection est dupliquée.

@@ -1,9 +1,10 @@
 ---
-- GuiCommand:
-   Name:TechDraw ClipGroupAdd
-   MenuLocation:TechDraw → Add View to Clip Group
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
-   SeeAlso:[TechDraw Clip Group](TechDraw_ClipGroup.md), [TechDraw Remove Clip Group](TechDraw_ClipGroupRemove.md)
+- GuiCommand:/ru
+   Name/ru:Добавить вид в группу сечений
+   Name:TechDraw_ClipGroupAdd
+   MenuLocation:TechDraw → Добавить вид в группу сечений
+   Workbenches:[TechDraw](TechDraw_Workbench/ru.md)
+   SeeAlso:[Вставить группу сечений](TechDraw_ClipGroup/ru.md), [Удалить вид из группы сечений](TechDraw_ClipGroupRemove/ru.md)
 ---
 
 ## Описание

@@ -35,4 +35,4 @@ Extrude doesn\'t work on 3D objects. This limitation is from the fact that many 
 
 }} 
 
-[Category:External Command Reference{{\#translation:}}](Category:External_Command_Reference.md)
+[Category:External Command Reference](Category:External_Command_Reference.md)

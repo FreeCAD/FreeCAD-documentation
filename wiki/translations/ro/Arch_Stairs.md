@@ -144,7 +144,14 @@ Stairs = Arch.makeStairs(length=5000, width=1200, height=3000, steps=14)
 <div class="mw-translate-fuzzy">
 
 
-{{docnav/ro|[Space/ro](Arch_Space/ro.md)|[Arch CompPanel/ro](Arch_CompPanel/ro.md)|[Arch](Arch_Module/ro.md)|IconL=Arch_Space.svg |IconC=Workbench_Arch.svg |IconR=Arch_CompPanel.png}}
+{{docnav/ro
+|[Space/ro](Arch_Space/ro.md)
+|[Arch CompPanel/ro](Arch_CompPanel/ro.md)
+|[Arch](Arch_Workbench/ro.md)
+|IconL=Arch_Space.svg
+|IconC=Workbench_Arch.svg
+|IconR=Arch_CompPanel.png
+}}
 
 
 </div>

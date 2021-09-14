@@ -1,9 +1,9 @@
 ---
 - GuiCommand:/pl
    Name:Plot Labels
-   Name/pl:Plot: Etykiety
-   MenuLocation:Plot → Ustaw etykiety
-   Workbenches:[Środowisko pracy Plot](Plot_Module/pl.md)
+   Name/pl:Wykres: Ustaw etykiety
+   MenuLocation:Wykres → Ustaw etykiety
+   Workbenches:[Wykres](Plot_Module/pl.md)
 ---
 
 ## Opis
@@ -35,4 +35,4 @@ Wybierz kartę powierzchni, którą chcesz edytować, i uruchom to narzędzie. W
 
 }} 
 
-[Category:External\_Workbenches{{\#translation:}}](Category:External_Workbenches.md) [Category:Addons{{\#translation:}}](Category:Addons.md)
+[Category:External\_Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)

@@ -1,5 +1,10 @@
 ---
-- GuiCommand:/tr   Name:Draft SelectPlane   Name/tr:Çalışma düzlemini ayarla   Workbenches:[Arch](Draft_Module/tr___Draft]],_[[Arch_Module/tr.md)|MenuLocation:Draft → Utilities → Select Plane---
+- GuiCommand:/tr
+   Name:Draft SelectPlane
+   Name/tr:Çalışma düzlemini ayarla
+   MenuLocation:Draft → Utilities → Select Plane
+   Workbenches:[Draft](Draft_Workbench/tr.md), [Arch](Arch_Workbench/tr.md)
+---
 
 
 </div>

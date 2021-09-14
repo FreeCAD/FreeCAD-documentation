@@ -1,14 +1,11 @@
 ---
 - GuiCommand:/fr
    Name:TechDraw Dimension Length
-   Name/fr:TechDraw Longueur
+   Name/fr:TechDraw Cote de longueur
    MenuLocation:TechDraw → Dimensions → Insérer une cote de longueur
    Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
-   SeeAlso:[TechDraw Cote horizontale](TechDraw_Dimension_Horizontal/fr.md), [TechDraw Cote Verticale](TechDraw_Dimension_Vertical/fr.md)
+   SeeAlso:[TechDraw Cote horizontale](TechDraw_Dimension_Horizontal/fr.md), [TechDraw Cote verticale](TechDraw_Dimension_Vertical/fr.md)
 ---
-
-
-</div>
 
 ## Description
 
@@ -258,13 +255,7 @@ rc = page.addView(dim1)
 -   **Plusieurs objets**. Les vues peuvent contenir plusieurs objets 3D comme source. Les cotes peuvent être appliquées à la géométrie à partir de n\'importe quel objet dans la vue (par exemple d\'Object1.Vertex0 à Object2.Vertex3).
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{TechDraw Tools navi

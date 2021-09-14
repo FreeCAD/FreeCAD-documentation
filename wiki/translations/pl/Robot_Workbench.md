@@ -1,3 +1,5 @@
+# Robot Workbench/pl
+
 
 
 
@@ -79,4 +81,4 @@ Aby uzyskać opis funkcji używanych do modelowania przemieszczeń robota, zobac
 
 }} 
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

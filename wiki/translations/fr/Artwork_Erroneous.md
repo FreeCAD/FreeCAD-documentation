@@ -1,4 +1,6 @@
-\_\_NOTOC\_\_ 
+# Artwork Erroneous/fr
+
+ 
 
 Pour toutes les icônes de l\'arborescence source, voir [Graphisme](Artwork/fr.md).
 
@@ -24,4 +26,4 @@ Pour toutes les icônes de l\'arborescence source, voir [Graphisme](Artwork/fr.m
 
 }}
 
-[Category:Icon{{\#translation:}}](Category:Icon.md) [Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md)
+[Category:Icon](Category:Icon.md) [Category:Developer Documentation](Category:Developer_Documentation.md)

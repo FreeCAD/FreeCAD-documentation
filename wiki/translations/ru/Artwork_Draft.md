@@ -1,4 +1,6 @@
-\_\_NOTOC\_\_ 
+# Artwork Draft/ru
+
+ 
 
 Эти иконки находятся в указанной исходной папке.
 
@@ -19,4 +21,4 @@
 
 
 
-[Category:Draft{{\#translation:}}](Category:Draft.md)
+[Category:Draft](Category:Draft.md)

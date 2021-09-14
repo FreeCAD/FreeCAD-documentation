@@ -69,4 +69,4 @@ Der Bibliotheken Reiter zeigt eine Liste der externen Bibliotheken, die vom Prog
 
 {{Std Base navi}}  
 
-[Category:Common Questions{{\#translation:}}](Category:Common_Questions.md)
+[Category:Common Questions](Category:Common_Questions.md)

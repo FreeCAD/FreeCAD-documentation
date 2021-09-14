@@ -17,7 +17,7 @@ FEM MeshGroup enables the user to create groups of Vertices, Edges, Surfaces and
 
 FEM MeshGroup therefore enables FreeCAD to be used with external solvers (or viewers such as ParaView) when they are not yet implemented with their own case-writing routine within FreeCAD.
 
-## Использование
+## Применение
 
 1.  To enable the function a mesh must be first provided <img alt="" src=images/FEM_MeshGmshFromShape.svg  style="width:24px;"> [FEM mesh from shape by Gmsh](FEM_MeshGmshFromShape.md)
 2.  Then select the Mesh object in the [Tree view](Tree_view.md) and either

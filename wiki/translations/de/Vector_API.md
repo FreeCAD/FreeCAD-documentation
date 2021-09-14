@@ -1,3 +1,5 @@
+# Vector API/de
+
  {{VeryImportantMessage|(Oktober 2019) Bearbeite diese Seiten nicht. Die Informationen sind unvollständig und veraltet. Die neueste API findest Du in der [https://www.freecadweb.org/api autogenerierten API-Dokumentation] oder generiere die Dokumentation selbst, siehe [Quelldokumentation](Source_documentation/de.md).}}
 
 Vektoren werden überall in FreeCAD benutzt.
@@ -66,4 +68,4 @@ print v3.Length
 
  
 
-[Category:API{{\#translation:}}](Category:API.md) [Category:Poweruser Documentation{{\#translation:}}](Category:Poweruser_Documentation.md)
+[Category:API](Category:API.md) [Category:Poweruser Documentation](Category:Poweruser_Documentation.md)

@@ -38,7 +38,7 @@ L\'oggetto ImagePlane risultante utilizza il rapporto 1 pixel = 1 millimetro; af
 
 <div class="mw-translate-fuzzy">
 
-Quando si importa l\'immagine, è possibile aggiungere un offset di `-0,1 mm` per posizionare l\'immagine leggermente dietro al piano di lavoro; questo rende più facile tracciare (disegnare sopra) l\'immagine con gli strumenti di [Draft](Draft_Module/it.md) o [Sketcher](Sketcher_Workbench/it.md).
+Quando si importa l\'immagine, è possibile aggiungere un offset di `-0,1 mm` per posizionare l\'immagine leggermente dietro al piano di lavoro; questo rende più facile tracciare (disegnare sopra) l\'immagine con gli strumenti di [Draft](Draft_Workbench/it.md) o [Sketcher](Sketcher_Workbench/it.md).
 
 
 </div>

@@ -1,3 +1,5 @@
+# SweetHome3D/en
+
  ![](images/SweetHome3DLogo.png )
 
 ## About
@@ -14,4 +16,4 @@
 
 
 
-[Category:3rd Party{{\#translation:}}](Category:3rd_Party.md) [Category:Arch{{\#translation:}}](Category:Arch.md)
+[Category:3rd Party](Category:3rd_Party.md) [Category:Arch](Category:Arch.md)

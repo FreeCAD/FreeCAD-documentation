@@ -1,5 +1,12 @@
 ---
-- GuiCommand:/it   Name:FEM_ConstraintForce   Name/it:Vincolo forza   MenuLocation:Modello → Vincoli meccanici → Vincolo forza   |Workbenches:[Shortcut:   SeeAlso:[[FEM_tutorial/it|Tutorial di FEM](FEM_Module/it___FEM]].md)---
+- GuiCommand:/it
+   Name:FEM_ConstraintForce
+   Name/it:Vincolo forza
+   MenuLocation:Modello → Vincoli meccanici → Vincolo forza
+   Workbenches:[FEM](FEM_Workbench/it.md)
+   Shortcut:
+   SeeAlso:[Tutorial di FEM](FEM_tutorial/it.md)
+---
 
 
 </div>

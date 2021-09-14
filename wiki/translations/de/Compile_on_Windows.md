@@ -1,3 +1,5 @@
+# Compile on Windows/de
+
 
 
 
@@ -451,7 +453,7 @@ Beispiel:
 CMAKE_INSTALL_PREFIX    C:/Users/JaneDoe/Work/FreeCAD_occt751-install/
 OpenCASCADE_DIR         C:/Users/JaneDoe/Work/opencascade-7.5.1-install/cmake/
 
-Once you have used CMake to generate the build files for FreeCAD, open it in Visual Studio, build it, and then run build on the INSTALL target.
+Sobald du CMake verwendet hast, um die Build-Datei für FreeCAD zu generieren, öffne sie in Visual Studio, starte sie und erzeuge das INSTALL-Target.
 
 ## Referenzen
 
@@ -466,4 +468,4 @@ Siehe auch
 
 
 
-[Category:Developer\_Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Developer{{\#translation:}}](Category:Developer.md)
+[Category:Developer\_Documentation](Category:Developer_Documentation.md) [Category:Developer](Category:Developer.md)

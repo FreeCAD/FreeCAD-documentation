@@ -1,3 +1,5 @@
+# Online Help Toc
+
  
 
 This is the table of contents used for the automatic building of the **Online Help** system in FreeCAD. A printable version of this manual is also available on the [releases page](https://github.com/FreeCAD/FreeCAD/releases). If you have any questions or need help with FreeCAD please consult the [help page](Help.md) including the forums and chat groups.
@@ -111,4 +113,4 @@ There is another table of contents for the [FreeCAD MANUAL](Manual:Introduction.
 
  
 
-[Category:Documentation{{\#translation:}}](Category:Documentation.md)
+[Category:Documentation](Category:Documentation.md)

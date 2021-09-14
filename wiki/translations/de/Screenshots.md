@@ -1,3 +1,5 @@
+# Screenshots/de
+
  {{TOCright}}
 
 Hier gibt es einige Bildschirmfotos, die verschiedene Teile von FreeCAD zeigen. Sie sind nicht in einer bestimmten Reihenfolge angeordnet, so dass die Bilder von Ihrer tatsächlichen Version abweichen können. Siehe weitere von FreeCAD Anwendern eingereichte Bildschirmfotos auf dem [Bildschirmfoto Forumsbeitrag](http://forum.freecadweb.org/viewtopic.php?f=8&t=4751) und auf dem [\"Zeige dein Projekt hier!\" Anwender Vorzeigeprojekt Part Forum](http://forum.freecadweb.org/viewforum.php?f=24)
@@ -66,23 +68,11 @@ Ein Geländewagen, modelliert von psicofil
 
 <img alt="" src=images/Rockn_house2.png  style="width:1024px;">
 
-
-<div class="mw-translate-fuzzy">
-
 Ein Haus, modelliert mit dem Arch Arbeitsbereich von rockn
-
-
-</div>
 
 <img alt="" src=images/Mesh_curvature_plot1.jpeg  style="width:1024px;">
 
-
-<div class="mw-translate-fuzzy">
-
 Netzkrümmungs Analyse, erzeugt mit dem Arbeitsbereich Polygonnetz
-
-
-</div>
 
 <img alt="" src=images/Cura_export.png  style="width:1024px;">
 
@@ -176,23 +166,11 @@ Ein Bildschirmfoto, das zeigt, wie eine gleiche Datei von FreeCAD und qCAD geren
 
 Ein Bildschirmfoto, das zeigt, wie eine gleiche Datei von FreeCAD und inkscape gerendert wird
 
-
-<div class="mw-translate-fuzzy">
-
 ### Arbeitsbereich Entwurf 
 
 ![](images/Screenshot_draft.jpg )
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-FreeCAD mit geladenem [Arbeitsbereich Entwurf](Draft_Module/de.md) und einer importierten dxf Zeichnung
-
-
-</div>
+FreeCAD mit geladenem [Arbeitsbereich Entwurf](Draft_Workbench/de.md) und einer importierten dxf Zeichnung
 
 ### Einstellungen
 

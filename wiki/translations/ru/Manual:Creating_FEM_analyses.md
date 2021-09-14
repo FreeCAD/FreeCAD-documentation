@@ -1,3 +1,5 @@
+# Manual:Creating FEM analyses/ru
+
 
 
 
@@ -63,7 +65,7 @@
 
 <div class="mw-translate-fuzzy">
 
--   Теперь мы готовы начать анализ по МКЭ. Переключимся на [верстак FEM](FEM_Module/ru.md)
+-   Теперь мы готовы начать анализ по МКЭ. Переключимся на [верстак FEM](FEM_Workbench/ru.md)
 -   Выделим объединённый объект
 -   Нажмём кнопку <img alt="" src=images/Fem_Analysis.png  style="width:16px;"> [New Analysis](FEM_Analysis/ru.md)
 -   Будет создан новый механический анализ и будет открыта панель установок. Здесь Вы сможете определить параметры создания полигональной сетки для МКЭ. Важнее всего для настройки отредактировать параметр **Max Size**, который определяет в миллиметрах максимальный размер каждого элемента сетки. Сейчас мы оставим значение по умолчанию, равное 1000:
@@ -150,7 +152,7 @@
 
 <div class="mw-translate-fuzzy">
 
--   [Верстак FEM (метода конечных элементов - МКЭ)](FEM_Module/ru.md)
+-   [Верстак FEM (метода конечных элементов - МКЭ)](FEM_Workbench/ru.md)
 -   [Установка требуемых компонентов МКЭ](FEM_Install/ru.md)
 -   [CalculiX](http://www.calculix.de)
 -   [NetGen](https://sourceforge.net/projects/netgen-mesher)

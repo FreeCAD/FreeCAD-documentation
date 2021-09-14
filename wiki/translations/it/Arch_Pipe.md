@@ -128,7 +128,14 @@ FreeCAD.ActiveDocument.recompute()
 <div class="mw-translate-fuzzy">
 
 
-{{docnav/it|[Tubazioni](Arch_CompPipe/it.md)|[Raccordo](Arch_PipeConnector/it.md)|[Arch](Arch_Module/it.md)|IconL=Arch_CompPipe.png |IconC=Workbench_Arch.svg |IconR=Arch_PipeConnector.svg}}
+{{docnav/it
+|[Tubazioni](Arch_CompPipe/it.md)
+|[Raccordo](Arch_PipeConnector/it.md)
+|[Arch](Arch_Workbench/it.md)
+|IconL=Arch_CompPipe.png
+|IconC=Workbench_Arch.svg
+|IconR=Arch_PipeConnector.svg
+}}
 
 
 </div>

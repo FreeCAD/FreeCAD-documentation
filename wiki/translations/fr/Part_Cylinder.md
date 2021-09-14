@@ -9,15 +9,7 @@
 
 ## Description
 
-
-<div class="mw-translate-fuzzy">
-
-## Description 
-
 Crée un simple cylindre paramétrique, avec sa position, son angle de remplissage, son rayon et sa hauteur.
-
-
-</div>
 
 ## Utilisation
 

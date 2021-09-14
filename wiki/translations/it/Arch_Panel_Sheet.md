@@ -37,6 +37,11 @@ Questo strumento permette di costruire un foglio 2D con un numero qualsiasi di o
 
 ## Proprietà
 
+### Data
+
+
+<div class="mw-translate-fuzzy">
+
 ### Dati
 
 -    {{PropertyData/it|Height}}: L\'altezza del foglio
@@ -59,6 +64,14 @@ Questo strumento permette di costruire un foglio 2D con un numero qualsiasi di o
 
 -    {{PropertyData/it|Grain Direction}}: Ciò consente di sapere la direzione principale della fibra del pannello (senso orario, 0 ° significa in alto)
 
+
+</div>
+
+### View
+
+
+<div class="mw-translate-fuzzy">
+
 ### Vista
 
 -    {{PropertyView/it|Margin}}: Un margine che può essere visualizzato all\'interno del bordo del pannello
@@ -67,12 +80,23 @@ Questo strumento permette di costruire un foglio 2D con un numero qualsiasi di o
 
 -    {{PropertyView/it|Show Grain}}: Mostra la struttura della fibra (Make Face deve essere impostata su True)
 
+
+</div>
+
+## Scripting
+
+
+<div class="mw-translate-fuzzy">
+
 ## Script
 
 
 **Vedere anche:**
 
 [Arch API](Arch_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
+
+
+</div>
 
 Lo strumento Foglio pannello può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione:
 
@@ -115,7 +139,13 @@ Sheet = Arch.makePanelSheet([Cut1, Cut2, Cut3])
 
 ## Tutorial
 
+
+<div class="mw-translate-fuzzy">
+
 -   [Tutorial Wikihouse portabile](Wikihouse_porting_tutorial/it.md)
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

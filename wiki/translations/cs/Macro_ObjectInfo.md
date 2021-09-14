@@ -1,3 +1,5 @@
+# Macro ObjectInfo/cs
+
  {{Macro/cs
 |Name=Macro ObjectInfo
 |Translate=Macro ObjectInfo

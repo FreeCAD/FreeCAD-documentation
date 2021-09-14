@@ -1,3 +1,5 @@
+# Manual:Summary/ro
+
 
 
 
@@ -67,4 +69,4 @@ There is another table of contents for the [FreeCAD **Online Help** system](Onli
 
 
 
-[Category:Manual{{\#translation:}}](Category:Manual.md)
+[Category:Manual](Category:Manual.md)

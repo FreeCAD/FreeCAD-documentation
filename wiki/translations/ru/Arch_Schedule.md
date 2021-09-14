@@ -2,8 +2,8 @@
 - GuiCommand:/ru
    Name:Arch Schedule
    Name/ru:Arch Schedule
-   Workbenches:[Arch](Arch_Module/ru.md)
    MenuLocation:Архитектура → Create schedule...
+   Workbenches:[Arch](Arch_Workbench/ru.md)
    Shortcut:
 ---
 

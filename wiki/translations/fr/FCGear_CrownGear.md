@@ -117,4 +117,4 @@ Aucune limitation n\'est connue.
 
 
 
-[Category:Addons{{\#translation:}}](Category:Addons.md) [Category:FCGear{{\#translation:}}](Category:FCGear.md) [Category:External Command Reference{{\#translation:}}](Category:External_Command_Reference.md)
+[Category:Addons](Category:Addons.md) [Category:FCGear](Category:FCGear.md) [Category:External Command Reference](Category:External_Command_Reference.md)

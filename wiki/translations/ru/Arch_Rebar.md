@@ -2,26 +2,10 @@
 - GuiCommand:/ru
    Name:Arch Rebar
    Name/ru:Arch Rebar
-   Workbenches:[Arch](Arch_Workbench/ru.md)
-   MenuLocation:Архитектура → Армирование
+   MenuLocation:Arch → Rebar
+   Workbenches:[Arch](Arch_Workbench.md)
    Shortcut:R B
-   SeeAlso:[Структура](Arch_Structure/ru.md)
----
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
----
-- GuiCommand:/ru
-   Name:Arch Rebar
-   Name/ru:Arch Rebar
-   Workbenches:[Arch](Arch_Workbench/ru.md)
-   MenuLocation:Архитектура → Армирование
-   Shortcut:R B
-   SeeAlso:[Структура](Arch_Structure/ru.md)
+   SeeAlso:[Arch Structure](Arch_Structure.md), [Reinforcement Addon](Reinforcement_Addon.md)
 ---
 
 
@@ -49,7 +33,7 @@ The Rebar tool is enhanced by the [Reinforcement Workbench](Reinforcement_Workbe
 -   <img alt="" src=images/Arch_Rebar_Stirrup.svg  style="width:32px;"> [Stirrup Rebar](Arch_Rebar_Stirrup.md)
 -   <img alt="" src=images/Arch_Rebar_Helical.svg  style="width:32px;"> [Helical Rebar](Arch_Rebar_Helical.md)
 
-## Usage
+## Применение
 
 1.  Switch to the <img alt="" src=images/Workbench_Arch.svg  style="width:16px;"> [Arch Workbench](Arch_Workbench.md)
 2.  Create an **<img src="images/Arch_Structure.svg" width=16px> [Arch Structure](Arch_Structure.md)** element.
@@ -65,7 +49,7 @@ The Rebar tool is enhanced by the [Reinforcement Workbench](Reinforcement_Workbe
 
 Although normally a rebar is used inside an Arch Structure, since FreeCAD 0.19 the rebar can be created outside of any host object. To host a rebar inside an object, you just need to set its **Host**.
 
-## Options
+## Опции
 
 -   Rebars share the common properties and behaviours of all [Arch Components](Arch_Component.md)
 -   The rounding value is expressed in times the diameter. If your bar has a diameter of 5mm, a rounding value of 3 will create rounding at angles with a radius of 15mm.
@@ -73,7 +57,7 @@ Although normally a rebar is used inside an Arch Structure, since FreeCAD 0.19 t
 -   If a direction vector is not specified, the direction and distance along which the bars will spread is calculated automatically from the host structural object, by taking the normal direction of the base sketch, and taking its intersection with the structural object. If you specify a direction vector, the length of that vector will also be taken into account.
 -   The spacing value is calculated from the current amount of bars, and represents the distance between the axes of each bar. You must therefore subtract the bar diameter to obtain the size of the free space between bars.
 
-## Properties
+## Свойства
 
 -    **Amount**: The amount of bars.
 
@@ -109,7 +93,7 @@ Rebar = makeRebar(baseobj=None, sketch=None, diameter=None, amount=1, offset=Non
 
     -   If no `diameter`, `amount`, or `offset` values are given, the default values from the [Arch Preferences](Arch_Preferences.md) are used.
 
-Example:
+Пример:
 
 
 ```python
@@ -137,9 +121,12 @@ FreeCAD.ActiveDocument.recompute()
 <div class="mw-translate-fuzzy">
 
 
+
+
+
 </div>
 
 
  
 
-[Category:Arch/ru](Category:Arch/ru.md) [Category:External Command Reference{{\#translation:}}](Category:External_Command_Reference.md) [Category:Reinforcement{{\#translation:}}](Category:Reinforcement.md)
+[Category:External Command Reference](Category:External_Command_Reference.md) [Category:Reinforcement](Category:Reinforcement.md)

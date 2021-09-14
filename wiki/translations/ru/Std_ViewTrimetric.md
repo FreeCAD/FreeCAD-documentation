@@ -1,15 +1,11 @@
 ---
 - GuiCommand:/ru
-   Name:Std ViewTrimetric
-   Name/ru:Std ViewTrimetric
-   Empty:1
-   MenuLocation:Вид → Стандартные виды → Axonometric → Триметрия
-   Workbenches:All
-   SeeAlso:[Std ViewIsometric](Std_ViewIsometric/ru.md), [Std ViewDimetric](Std_ViewDimetric/ru.md)
+   Name/ru:Триметрическая
+   Name:Std_ViewTrimetric
+   MenuLocation:Вид → Стандартные виды‏‎ → Axonometric → Триметрическая
+   Workbenches:Все
+   SeeAlso:[Изометрическая](Std_ViewIsometric/ru.md), [Диметрическая](Std_ViewDimetric/ru.md)
 ---
-
-
-</div>
 
 ## Описание
 
@@ -21,7 +17,7 @@ The **Std ViewTrimetric** command realigns the camera in the active [3D view](3D
 
 1.  Select the **View → Standard views → Axonometric → <img src="images/Std_ViewTrimetric.svg" width=16px> Trimetric** option from the menu.
 
-## Scripting
+## Программирование
 
 
 **Смотрите так же:**

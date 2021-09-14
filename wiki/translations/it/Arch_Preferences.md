@@ -1,3 +1,5 @@
+# Arch Preferences/it
+
 
 
 Le preferenze per l\'ambiente [Arch](Arch_Workbench/it.md) si trovano nel [Editor delle preferenze](Preferences_Editor/it.md), nel menu **Modifica → Preferenze → Arch**.
@@ -15,4 +17,4 @@ Sono disponibili due schede: Impostazioni generali e Defaults.
 
  
 
-[Category:Preferences{{\#translation:}}](Category:Preferences.md)
+[Category:Preferences](Category:Preferences.md)

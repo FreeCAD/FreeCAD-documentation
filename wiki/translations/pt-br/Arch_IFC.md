@@ -1,3 +1,5 @@
+# Arch IFC/pt-br
+
 
 
 
@@ -7,7 +9,7 @@
 {{docnav/pt-br
 |
 |[DAE](Arch_DAE/pt-br.md)
-|[Arch Module](Arch_Module/pt-br.md)
+|[Arch Module](Arch_Workbench/pt-br.md)
 }}
 
 
@@ -87,7 +89,7 @@ If the shape of exported objects is based on an extrusion or a boolean operation
 {{docnav/pt-br
 |
 |[DAE](Arch_DAE/pt-br.md)
-|[Arch Module](Arch_Module/pt-br.md)
+|[Arch Module](Arch_Workbench/pt-br.md)
 }}
 
 
@@ -96,4 +98,4 @@ If the shape of exported objects is based on an extrusion or a boolean operation
 
  
 
-[Category:File Formats{{\#translation:}}](Category:File_Formats.md)
+[Category:File Formats](Category:File_Formats.md)

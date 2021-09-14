@@ -1,3 +1,5 @@
+# Arch Workbench/tr
+
 
 
 
@@ -149,4 +151,4 @@ The Arch module can be used in [Python](Python.md) scripts and [macros](macros.m
 
  
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

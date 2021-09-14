@@ -1,5 +1,10 @@
 ---
-- GuiCommand:/es   Name:Draft Shape2DView   Name/es:Draft Shape2DView   Workbenches:[Arquitectura](Draft_Module/es___Boceto]],_[[Arch_Module/es.md)|MenuLocation:Boceto → Vista de forma 2D---
+- GuiCommand:/es
+   Name:Draft Shape2DView
+   Name/es:Draft Shape2DView
+   MenuLocation:Boceto → Vista de forma 2D
+   Workbenches:[Boceto](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
+---
 
 
 </div>

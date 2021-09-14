@@ -1,4 +1,6 @@
- {{UnfinishedDocu}}
+# Path Postprocessor Customization/fr
+
+ 
 
 
 
@@ -100,13 +102,7 @@ Vous verrez que les deux fonctions appellent également la fonction \"linenumber
 
 ## En relation 
 
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Path_PostProcess.svg  style="width:24px;"> [Path Post-processeur](Path_Post/fr.md)
-
-
-</div>
+-   <img alt="" src=images/Path_Post.svg  style="width:24px;"> [Path Post-processeur](Path_Post/fr.md)
 
 
 

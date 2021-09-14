@@ -1,3 +1,5 @@
+# Sandbox:HowTo
+
 Back to [FreeCADDocu:Sandbox](FreeCADDocu:Sandbox#HowTo_test.md)
 
 **FreeCAD Wiki HowTo Page**

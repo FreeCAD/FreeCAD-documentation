@@ -14,18 +14,18 @@
 
 ## Применение
 
-1.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Std_Paste.svg" width=16px> [Std Paste](Std_Paste.md)** button.
-    -   Select the **Edit → <img src="images/Std_Paste.svg" width=16px> Paste** option from the menu.
-    -   Select the **<img src="images/Std_Paste.svg" width=16px> Paste** option from the [Tree view](Tree_view.md) context menu. Note that this option is only available when an exiting object has been selected.
-    -   Use the keyboard shortcut: **Ctrl**+**V**.
+1.  Существует несколько способов для вызова данной команды:
+    -   Нажатием кнопки **<img src="images/Std_Paste.svg" width=16px> [Вставить](Std_Paste/ru.md)**.
+    -   Выбрав пункт основного меню **Правка → <img src="images/Std_Paste.svg" width=16px> Вставить**.
+    -   Выбрав пункт **<img src="images/Std_Paste.svg" width=16px> Вставить** в контекстном меню [Древовидной панели](Tree_view/ru.md).
+    -   Используя сочетания клавиш: **Ctrl**+**V**.
 
 ## Примечания
 
--   FreeCAD will automatically change the internal names and, depending on the preferences, labels of objects to avoid name conflicts.
--   A spreadsheet cell alias that already exists in the spreadsheet will not be pasted.
--   When you are working in a FreeCAD text window, an input box or a spreadsheet, the standard keyboard shortcut **Ctrl**+**V**, in almost all cases, does not call the **Std Paste** command but uses the Paste function from the OS instead.
--   It is not possible to copy-paste native objects between FreeCAD and other applications.
+-   FreeCAD автоматически изменяет внутренние имена, а так же в зависимости от настроек и метки объектов, чтобы избежать конфликтов имен.
+-   Псевдоним ячейки электронной таблицы, который уже существует в электронной таблице, не может быть вставлен данной командой.
+-   Когда вы работаете с такими элементами FreeCAD как: текстовые окна, поля ввода или электронными таблицами, стандартная комбинация клавиш **Ctrl**+**V**, почти во всех случаях не вызывает команду **Std\_Paste**, а вместо этого использует функцию \"вставить\" из операционной системы.
+-   Невозможно копировать и вставлять объекты между FreeCAD и другими приложениями.
 
 ## Настройки
 
@@ -33,7 +33,7 @@
 
 ## Программирование
 
-The **Std Paste** command can be applied only after running the **[Std Copy](Std_Copy.md)** command:
+Команда **Std\_Paste** можед быть прменена тлько после выполнения команды **[Std\_Copy](Std_Copy/ru.md)**:
 
 
 ```python

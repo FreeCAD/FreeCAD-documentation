@@ -60,7 +60,7 @@
 -   <img alt="" src=images/Part_Line.svg  style="width:32px;"> [Линия](Part_Line/ru.md): Создаёт линию (ребро).
 -   <img alt="" src=images/Part_RegularPolygon.svg  style="width:32px;"> [Правильный Многоугольник](Part_RegularPolygon/ru.md): Создаёт правильный многоугольник.
 
-## Написание сценариев 
+## Программирование
 
 
 **Смотри так же:**

@@ -1,3 +1,5 @@
+# Sketcher Preferences/ru
+
  
 
 
@@ -7,7 +9,7 @@ The preferences screen of the <img alt="" src=images/Workbench_Sketcher.svg  sty
 
 There are three tabs: General, Display, and Colors.
 
-## General
+## Основные
 
 In the *General* tab you can specify the following:
 
@@ -63,7 +65,7 @@ In the *General* tab you can specify the following:
 
 ![](images/FreeCAD-v0.19-Sketcher-Preferences-General.png )
 
-## Display
+## Отображение
 
 In the *Display* tab you can specify the following:
 
@@ -140,7 +142,7 @@ In the *Display* tab you can specify the following:
 
 ![](images/FreeCAD-v0.19-Sketcher-Preferences-Display.png )
 
-## Цвета
+## Выделение цветом 
 
 In the *Colors* tab you can specify the following:
 
@@ -244,4 +246,4 @@ In the *Colors* tab you can specify the following:
 
 }}  
 
-[Category:Preferences{{\#translation:}}](Category:Preferences.md)
+[Category:Preferences](Category:Preferences.md)

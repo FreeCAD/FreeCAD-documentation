@@ -2,8 +2,8 @@
 - GuiCommand:/ru
    Name:Draft PathArray
    Name/ru:Draft PathArray
-   Workbenches:[Draft](Draft_Module/ru.md), [Arch](Arch_Module/ru.md)
    MenuLocation:Черчение → Массив по направляющей
+   Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
    SeeAlso:[Массив](Draft_Array/ru.md) 
 ---
 

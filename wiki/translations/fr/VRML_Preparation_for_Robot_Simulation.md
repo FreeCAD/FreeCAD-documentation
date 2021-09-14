@@ -1,3 +1,5 @@
+# VRML Preparation for Robot Simulation/fr
+
 
 
 
@@ -455,4 +457,4 @@ Voici un **patch** pour obtenir un fichier **vrml** convenant à la simulation d
 
 
 
-[Category:Robot{{\#translation:}}](Category:Robot.md)
+[Category:Robot](Category:Robot.md)

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:/ru
-   Name:Std ViewTop
-   Name/ru:Std ViewTop
-   MenuLocation:Виды → Стандартные виды → Сверху
-   Workbenches:All
+   Name/ru:Сверху
+   Name:Std_ViewTop
+   MenuLocation:Вид → Стандартные виды‏‎ → Сверху
+   Workbenches:Все
    Shortcut:**2**
-   SeeAlso:[Std ViewFront](Std_ViewFront/ru.md), [Std ViewRight](Std_ViewRight/ru.md)
+   SeeAlso:[Спереди](Std_ViewFront/ru.md), [Справа](Std_ViewRight/ru.md)
 ---
 
 ## Описание
@@ -22,7 +22,7 @@ The **Std ViewTop** command points the camera in the active [3D view](3D_view.md
     -   Select the **Standard views → <img src="images/Std_ViewTop.svg" width=16px> Top** option from the [3D view](3D_view.md) context menu.
     -   Use the keyboard shortcut: **2**.
 
-## Scripting
+## Программирование
 
 
 **Смотрите так же:**

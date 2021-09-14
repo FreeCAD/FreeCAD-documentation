@@ -25,9 +25,6 @@ Le **Balayage soustractif** crée un solide soustractif dans le corps actif en b
 
 ## Options
 
-
-<div class="mw-translate-fuzzy">
-
 **Transformation de section** :
 
 -   Sélectionnez **Constant** pour utiliser un seul profil.
@@ -54,9 +51,6 @@ Le **Balayage soustractif** crée un solide soustractif dans le corps actif en b
 -   Transformé
 -   Coin droite
 -   Coin arrondi
-
-
-</div>
 
 ## Propriétés
 

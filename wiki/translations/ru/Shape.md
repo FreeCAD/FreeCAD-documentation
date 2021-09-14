@@ -1,3 +1,5 @@
+# Shape/ru
+
 
 
 ## Введение
@@ -34,4 +36,4 @@
 
  {{Document objects navi}} 
 
-[Category:Glossary{{\#translation:}}](Category:Glossary.md)
+[Category:Glossary](Category:Glossary.md)

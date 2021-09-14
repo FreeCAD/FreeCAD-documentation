@@ -1,3 +1,5 @@
+# Fasteners Workbench/pl
+
 
 
 <img alt="Ikonka FreeCAD dla środowiska Elementów złącznych" src=images/Fasteners_workbench_icon.svg  style="width:128px;">
@@ -66,17 +68,17 @@ Szczegółowy opis znajduje się na stronie [domowej](http://theseger.com/projec
 
 -   <img alt="" src=images/Fasteners_ChangeParameters.svg  style="width:32px;"> [Zmiana parametrów](Fasteners_ChangeParameters/pl.md): umożliwia dokonanie zmian parametrów wybranych elementów złącznych.
 
-### Elementy złączne PEM oraz PCB 
+### Samokontrujące elementy złączne i elementy złączne do PCB 
 
--   <img alt="" src=images/Fasteners_PEMPressNut.svg  style="width:32px;"> **PEM** Nakrętka metryczna samokontrująca.
+-   <img alt="" src=images/Fasteners_PEMPressNut.svg  style="width:32px;"> Nakrętka metryczna samokontrująca.
 
--   <img alt="" src=images/Fasteners_PEMTHStandoff.svg  style="width:32px;"> **PEM** Dystans metryczny samozaciskowy.
+-   <img alt="" src=images/Fasteners_PEMTHStandoff.svg  style="width:32px;"> Dystans metryczny samozaciskowy.
 
--   <img alt="" src=images/Fasteners_PEMStud.svg  style="width:32px;"> **PEM** Samozaciskowy kołek metryczny.
+-   <img alt="" src=images/Fasteners_PEMStud.svg  style="width:32px;"> Samozaciskowy kołek metryczny.
 
--   <img alt="" src=images/Fasteners_PCBStandoff.svg  style="width:32px;"> **PCB** Dystans metryczny.
+-   <img alt="" src=images/Fasteners_PCBStandoff.svg  style="width:32px;"> **PCB** Dystans metryczny męski/żeński.
 
--   <img alt="" src=images/Fasteners_PCBSpacer.svg  style="width:32px;"> **PCB** Przekładka metryczna.
+-   <img alt="" src=images/Fasteners_PCBSpacer.svg  style="width:32px;"> **PCB** Przekładka metryczna żeńska/żeńska.
 
 ### Elementy złączne DIN, EN oraz ISO 
 
@@ -243,4 +245,4 @@ Szczegółowy opis znajduje się na stronie [domowej](http://theseger.com/projec
 
 
 
-[Category:Addons{{\#translation:}}](Category:Addons.md) [Category:External Command Reference{{\#translation:}}](Category:External_Command_Reference.md) [Category:External Workbenches{{\#translation:}}](Category:External_Workbenches.md) [Category:Fasteners{{\#translation:}}](Category:Fasteners.md)
+[Category:Addons](Category:Addons.md) [Category:External Command Reference](Category:External_Command_Reference.md) [Category:External Workbenches](Category:External_Workbenches.md) [Category:Fasteners](Category:Fasteners.md)

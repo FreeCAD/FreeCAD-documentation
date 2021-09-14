@@ -1,3 +1,5 @@
+# Wood Frame Workbench/en
+
 
 
 
@@ -56,4 +58,4 @@ To install this external workbench from GitHub, go to the [Addon manager](Std_Ad
 
 Wood Frame is compatible with Freecad 0.19.
 
-[Category:User Documentation{{\#translation:}}](Category:User_Documentation.md) [Category:Addons{{\#translation:}}](Category:Addons.md) [Category:External Workbenches{{\#translation:}}](Category:External_Workbenches.md)
+[Category:User Documentation](Category:User_Documentation.md) [Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)

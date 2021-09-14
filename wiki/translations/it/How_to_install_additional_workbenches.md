@@ -1,3 +1,5 @@
+# How to install additional workbenches/it
+
  {{TutorialInfo/it|Topic=Programmazione|Level=Medio|Time=15 minuti|FCVersion=Tutte|Author=[r-frank](User:R-Frank.md)|Files=none}}
 
 ## Descrizione
@@ -161,4 +163,4 @@ Per questo esempio, supponiamo di aver scelto [Curves](Curves_Workbench/it.md) c
 
  {{Powerdocnavi}}
 
-[Category:External Workbenches{{\#translation:}}](Category:External_Workbenches.md) [Category:Addons{{\#translation:}}](Category:Addons.md)
+[Category:External Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)

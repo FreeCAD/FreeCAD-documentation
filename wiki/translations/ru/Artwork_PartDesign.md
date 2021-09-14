@@ -1,4 +1,6 @@
-\_\_NOTOC\_\_ 
+# Artwork PartDesign/ru
+
+ 
 
 Эти иконки находятся в указанной исходной папке.
 
@@ -23,4 +25,4 @@
 
 }} 
 
-[Category:PartDesign{{\#translation:}}](Category:PartDesign.md)
+[Category:PartDesign](Category:PartDesign.md)

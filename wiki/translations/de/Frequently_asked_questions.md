@@ -1,3 +1,5 @@
+# Frequently asked questions/de
+
 
 
 
@@ -277,4 +279,4 @@ Ja, du kannst die Kernteile von FreeCAD in anderen Anwendungen verwenden, solang
 
 
 
-[Category:Documentation{{\#translation:}}](Category:Documentation.md)
+[Category:Documentation](Category:Documentation.md)

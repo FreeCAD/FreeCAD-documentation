@@ -1,4 +1,6 @@
-\_\_NOTOC\_\_  
+# Artwork Mesh
+
+  
 
 These icons are in the indicated source path.
 
@@ -16,4 +18,4 @@ For all icons in the source tree, see [Artwork](Artwork.md).
 
  
 
-[Category:Mesh{{\#translation:}}](Category:Mesh.md)
+[Category:Mesh](Category:Mesh.md)

@@ -1,3 +1,5 @@
+# Path experimental/ru
+
 
 
 
@@ -39,4 +41,4 @@ Read more about the specific experimental commands on the [wiki pages that link 
 
  {{Path Tools navi}} 
 
-[Category:Poweruser Documentation{{\#translation:}}](Category:Poweruser_Documentation.md)
+[Category:Poweruser Documentation](Category:Poweruser_Documentation.md)

@@ -1,3 +1,5 @@
+# Macro FCInfoGlass/it
+
  {{Macro/it
 |Name=Macro FCInfoGlass
 |Translate=Info su fondo trasparente

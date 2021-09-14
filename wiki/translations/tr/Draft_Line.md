@@ -2,11 +2,11 @@
 - GuiCommand:/tr
    Name:Draft Line
    Name/tr:Çizgi
-   Workbenches:[Taslak](Draft_Module/tr.md), [Mimari](Arch_Module/tr.md)
    MenuLocation:Taslak → Çizgi
-   Shortcut:L I
+   Workbenches:[Taslak](Draft_Workbench/tr.md), [Mimari](Arch_Workbench/tr.md)
+   Shortcut:**L** **I**
+   Version:0.7
    SeeAlso:[Tel](Draft_Wire/tr.md),[Nokta](Draft_Point/tr.md)
-   Version:0.17
 ---
 
 

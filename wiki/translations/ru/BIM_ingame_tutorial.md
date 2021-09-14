@@ -1,9 +1,9 @@
+# BIM ingame tutorial/ru
 
 
 
-{{UnfinishedDocu
 
-}} <img alt="" src=images/BIM_tutorial_screenshot.png  style="width:1024px;">
+ <img alt="" src=images/BIM_tutorial_screenshot.png  style="width:1024px;">
 
 
 {{BIMTutorialAction
@@ -522,4 +522,4 @@ FreeCAD is free software, developed by an enthusiast community of users, some of
 
 {{BIMTutorialAction|descr=No action to perform for this step}}
 
-[Category:BIM{{\#translation:}}](Category:BIM.md) [Category:Tutorials{{\#translation:}}](Category:Tutorials.md)
+[Category:BIM](Category:BIM.md) [Category:Tutorials](Category:Tutorials.md)

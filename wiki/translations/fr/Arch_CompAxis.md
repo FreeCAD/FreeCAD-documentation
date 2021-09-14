@@ -19,13 +19,7 @@ Créer des axes.
 -   <img alt="" src=images/Arch_Grid.svg  style="width:32px;"> [Grille](Arch_Grid/fr.md) : Ajoute au document un objet de type grille.
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
  

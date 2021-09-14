@@ -1,3 +1,5 @@
+# Macro FlattenWire/es
+
  {{Macro/es
 |Name=FlattenWire
 |Translate=FlattenWire

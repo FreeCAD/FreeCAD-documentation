@@ -1,3 +1,5 @@
+# Assembly3 Workbench/fr
+
 
 
 <img alt="Assembly3 workbench icon" src=images/Assembly3_workbench_icon.svg  style="width:128px;">
@@ -596,4 +598,4 @@ Une façon de résoudre ce problème consiste simplement à supprimer toutes les
 
 
 
-[Category:Addons{{\#translation:}}](Category:Addons.md) [Category:External Workbenches{{\#translation:}}](Category:External_Workbenches.md)
+[Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)

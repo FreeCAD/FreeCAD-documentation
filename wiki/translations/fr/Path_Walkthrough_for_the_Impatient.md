@@ -1,3 +1,5 @@
+# Path Walkthrough for the Impatient/fr
+
 
 
 
@@ -140,15 +142,8 @@ Si vous souhaitez mettre fin à la simulation, cliquez sur le bouton **Annuler**
 
 La dernière étape pour générer le G-code pour la fraiseuse cible consiste à post-traiter la tâche. Cela envoie les G-codes dans un fichier pouvant être chargé sur le contrôleur de machine CNC cible. Pour appeler le post-processeur:
 
-
-<div class="mw-translate-fuzzy">
-
 -   Sélectionnez l\'objet Tâche dans la [Vue en arborescence](Tree_view/fr.md)
--   Sélectionnez l\'outil <img alt="" src=images/Path_PostProcess.svg  style="width:32px;"> [Path Post-traitement](Path_Post/fr.md) pour post-traiter le fichier. Cela ouvre une fenêtre de G-code permettant d\'inspecter le fichier de sortie final avant son enregistrement.
-
-
-</div>
-
+-   Sélectionnez l\'outil <img alt="" src=images/Path_Post.svg  style="width:32px;"> [Path Post-traitement](Path_Post/fr.md) pour post-traiter le fichier. Cela ouvre une fenêtre de G-code permettant d\'inspecter le fichier de sortie final avant son enregistrement.
 
 :   ![](images/Path-PostOutput.gif )
 :   

@@ -1,3 +1,5 @@
+# Draft DAT/pt-br
+
 
 
 
@@ -10,7 +12,7 @@
 {{docnav
 |[Open Cad format .OCA](Draft_OCA/pt-br.md)
 |
-|[Draft](Draft_Module/pt-br.md)
+|[Draft](Draft_Workbench/pt-br.md)
 |IconC=Workbench_Draft.svg
 }}
 
@@ -28,7 +30,7 @@ There are many different dialects of this format so this import module tries to 
 {{docnav
 |[Open Cad format .OCA](Draft_OCA/pt-br.md)
 |
-|[Draft Module](Draft_Module/pt-br.md)
+|[Draft Module](Draft_Workbench/pt-br.md)
 |IconC=Workbench_Draft.svg
 }}
 
@@ -38,4 +40,4 @@ There are many different dialects of this format so this import module tries to 
 
  
 
-[Category:File Formats{{\#translation:}}](Category:File_Formats.md)
+[Category:File Formats](Category:File_Formats.md)

@@ -1,3 +1,5 @@
+# OpenCASCADE/fr
+
 
 
 
@@ -86,4 +88,4 @@ Ainsi, à partir de formes, vous pouvez créer des pièces très complexes ou, i
 
 }} 
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md)

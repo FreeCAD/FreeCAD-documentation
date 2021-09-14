@@ -1,3 +1,5 @@
+# Manual:Preparing models for 3D printing/es
+
 
 
 
@@ -50,7 +52,7 @@ Sin embargo, en la mayoría de los casos, los valores por defecto darán un resu
 
 -   Ahora podemos exportar nuestra malla a un formato de malla, como [STL](https://es.wikipedia.org/wiki/STL), que es actualmente el formato más utilizado en la impresión 3D, utilizando el menú **Archivo → Exportar** y eligiendo el formato de archivo STL.
 
-Si no tienes una impresora 3D, suele ser muy fácil encontrar servicios comerciales que imprimen y te envían los objetos impresos por correo. Entre los más famosos están [Shapeways](http://www.shapeways.com/) y [Sculpteo](http://www.sculpteo.com/), pero normalmente encontrarás muchos otros en tu propia ciudad. En todas las ciudades importantes, hoy en día se encuentran [Fab labs](https://es.wikipedia.org/wiki/Fab_lab), que son talleres equipados con una serie de máquinas de fabricación en 3D, que casi siempre incluyen al menos una impresora 3D. Los Fab labs suelen ser espacios comunitarios, que te permitirán utilizar sus máquinas, de forma gratuita o de pago, dependiendo del Fab lab, pero también te enseñarán a utilizarlas y promoverán otras actividades en torno a la fabricación 3D.
+Si no tienes una impresora 3D, suele ser muy fácil encontrar servicios comerciales que imprimen y te envían los objetos impresos por correo. Entre los más famosos están [Shapeways](http://www.shapeways.com/) y [Sculpteo](http://www.sculpteo.com/), pero normalmente encontrarás muchos otros en tu propia ciudad. En todas las ciudades importantes, hoy en día se encuentran [Fablaboratorio](https://es.wikipedia.org/wiki/Fab_lab)s, que son talleres equipados con una serie de máquinas de fabricación en 3D, que casi siempre incluyen al menos una impresora 3D. Los Fab labs suelen ser espacios comunitarios, que te permitirán utilizar sus máquinas, de forma gratuita o de pago, dependiendo del Fab lab, pero también te enseñarán a utilizarlas y promoverán otras actividades en torno a la fabricación 3D.
 
 ### Usando Slic3r 
 
@@ -139,4 +141,4 @@ Hay muchas aplicaciones disponibles para simular el corte real, una de ellas que
 
 
 
-[Category:Path{{\#translation:}}](Category:Path.md) [Category:Mesh{{\#translation:}}](Category:Mesh.md) [Category:Tutorials{{\#translation:}}](Category:Tutorials.md)
+[Category:Path](Category:Path.md) [Category:Mesh](Category:Mesh.md) [Category:Tutorials](Category:Tutorials.md)

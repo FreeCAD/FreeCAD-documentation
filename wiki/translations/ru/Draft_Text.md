@@ -1,16 +1,13 @@
 ---
 - GuiCommand:/ru
-   Name:Draft Text
    Name/ru:Текст
-   MenuLocation:Черчение → Текст
-   Workbenches:[Черчение](Draft_Module/ru.md), [Архитектура](Arch_Module/ru.md)
+   Name:Draft_Text
+   MenuLocation:Annotation → Текст
+   Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
    Shortcut:**T** **E**
    Version:0.7
-   SeeAlso:[Draft Label](Draft_Label/ru.md), [Draft ShapeString](Draft_ShapeString/ru.md)
+   SeeAlso:[Метка](Draft_Label/ru.md), [Фигура из текста](Draft_ShapeString/ru.md)
 ---
-
-
-</div>
 
 ## Описание
 
@@ -40,8 +37,6 @@ See also: [Draft Tray](Draft_Tray.md) and [Draft Snap](Draft_Snap.md).
 
 <div class="mw-translate-fuzzy">
 
-## Использование 
-
 1.  Нажмите кнопку **<img src="images/Draft_Text.svg" width=16px> [Текст](Draft_Text/ru.md)
 **, или нажмите клавишу **T**, а затем**E**
 2.  Укажите точку на трёхмерном виде или задайте [координаты](Draft_Coordinates/ru.md) и нажмите кнопку **<img src="images/Draft_AddPoint.svg" width=16px> [add point](Draft_AddPoint/ru.md)**.
@@ -68,7 +63,7 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 </div>
 
-## Notes
+## Примечания
 
 -   Draft Texts created with [FreeCAD version 0.18](Release_notes_0.18.md) are not backward compatible.
 
@@ -78,28 +73,22 @@ See also: [Property editor](Property_editor.md).
 
 A Draft Text object is derived from an [App FeaturePython](App_FeaturePython.md) object and inherits all its properties. The following properties are additional unless otherwise stated.
 
-### Data
+### Данные
 
 
-{{TitleProperty|Base}}
+{{TitleProperty|Основные}}
 
 
 <div class="mw-translate-fuzzy">
 
-### Данные
-
--    **Текст**: указывает содержимое текстового блока как список строк, каждый элемент списка, разделённый запятыми, показывает новую строку
-
 -    **Положение**: указывает базовую точку первой линии текстового блока.
 
--    **Поворот**: указывает поворот базовой линии первой строки текстового блока.
-
--    **Ось поворота**: указывает ось, используемую для поворота.
+-    **Текст**: указывает содержимое текстового блока как список строк, каждый элемент списка, разделённый запятыми, показывает новую строку
 
 
 </div>
 
-### View
+### Вид
 
 
 {{TitleProperty|Annotation}}
@@ -126,8 +115,6 @@ A Draft Text object is derived from an [App FeaturePython](App_FeaturePython.md)
 
 <div class="mw-translate-fuzzy">
 
-### Вид
-
 -    **Режим отображения**: если это «3D текст», текст будет выровнен по осям сцены, изначально лежащим в плоскости XY; если это «2D-текст», текст всегда будет смотреть в камеру.
 
 -    **Шрифт**: указывает шрифт для отображения текста. Может быть название шрифта, например \"Arial\", название стиля, например, \"sans\", \"serif\" или \"mono\", название семейства, например, \"Arial,Helvetica,sans\", или название со стилем, например \"Arial:Bold\". Если указанный шрифт не найден в системе, то будет использован основной.
@@ -141,20 +128,12 @@ A Draft Text object is derived from an [App FeaturePython](App_FeaturePython.md)
 
 </div>
 
-## Scripting
-
-
-<div class="mw-translate-fuzzy">
-
-## Сценарии
+## Программирование
 
 
 **См. так же:**
 
-[Draft API](Draft_API/ru.md) и [Основы скриптов FreeCAD](FreeCAD_Scripting_Basics.md).
-
-
-</div>
+[Draft API](Draft_API/ru.md) и [Основы составления скриптов FreeCAD](FreeCAD_Scripting_Basics.md).
 
 
 <div class="mw-translate-fuzzy">
@@ -215,13 +194,7 @@ doc.recompute()
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
  

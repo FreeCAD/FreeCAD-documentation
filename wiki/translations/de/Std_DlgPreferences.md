@@ -2,53 +2,26 @@
 - GuiCommand:/de
    Name:Std DlgEinstellungen
    Name/de:Std DlgEinstellungen
-   MenuLocation:[Bearbeiten](Std_Edit_Menu/de.md) → Einstellungen
+   MenuLocation:Bearbeiten → Einstellungen...
    Workbenches:Alle
-   Shortcut:   SeeAlso:[Einstellungs Editor](Preferences_Editor/de.md)
+   SeeAlso:[Voreinstellungseditor](Preferences_Editor/de.md)
 ---
-
-
-</div>
 
 ## Beschreibung
 
-
-<div class="mw-translate-fuzzy">
-
-Erlaubt die Änderung der Einstellungen der verschiedenen Arbeitsbereiche.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+Der **Std DlgEinstellungen**-Befehl öffnet den [Voreinstellungseditor](Preferences_Editor/de.md).
 
 ## Anwendung
 
+1.  Wähle die **Bearbeiten → <img src="images/Std_DlgPreferences.svg" width=16px> Einstellungen...**-Option aus dem Menü.
 
-</div>
+## Hinweise
 
-
-<div class="mw-translate-fuzzy">
-
-Wähle {{MenuCommand/de|Bearbeiten →Einstellungen}} aus dem oberen Menü.
-
-
-</div>
-
-## Notes
-
--   For more information see [Preferences Editor](Preferences_Editor.md).
--   On MacOS this command may appear in the FreeCAD menu instead of the [Edit](Std_Edit_Menu.md) menu.
-
-
-<div class="mw-translate-fuzzy">
+-   Für mehr Informationen siehe [Voreinstellungseditor](Preferences_Editor/de.md).
+-   Unter MacOS kann dieser Befehl im FreeCAD-Menü anstatt im [Bearbeiten](Std_Edit_Menu/de.md)-Menü erscheinen.
 
 
 
-
-
-</div>
 
 
 {{Std Base navi

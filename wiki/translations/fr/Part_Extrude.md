@@ -4,11 +4,8 @@
    Name/fr:Part Extrusion
    MenuLocation:Pièce → Extrusion...
    Workbenches:[Part](Part_Workbench/fr.md)
-   SeeAlso:[Draft Trimex](Draft_Trimex/fr.md)
+   SeeAlso:[Draft Ajuster ou prolonger](Draft_Trimex/fr.md)
 ---
-
-
-</div>
 
 ![600px](images/Part_Extrude_demo.png)
 
@@ -116,13 +113,7 @@ Part Extrusion ne se soucie pas de savoir où il se trouve dans l\'arborescence 
 Part Extrude peut extruder n\'importe quel objet ayant une Geometrie Part (OCC shape), à l\'exception des solides et des solides composés. Et il ne peut pas extruder les faces individuelles d\'autres objets. PartDesign Pad n\'accepte qu\'une esquisse en tant que profil (et une petite sélection d\'autres types d\'objets) ou une face d\'un solide.
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
   

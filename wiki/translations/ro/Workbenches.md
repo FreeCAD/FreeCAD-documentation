@@ -1,3 +1,5 @@
+# Workbenches/ro
+
 
 
 
@@ -123,4 +125,4 @@ Noi ateliere sunt în curs de dezvoltare, fiți pe recepție!
 
 
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

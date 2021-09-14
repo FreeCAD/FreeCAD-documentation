@@ -1,3 +1,5 @@
+# Arch Workbench/es
+
 
 
 
@@ -10,7 +12,7 @@
 
 ## Introducción
 
-El <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Ambiente de trabajo Arquitectura](Arch_Module/es.md) proporciona un moderno entorno de trabajo [BIM](http://es.wikipedia.org/wiki/Modelado_de_informaci%C3%B3n_de_construcci%C3%B3n) para FreeCAD, con soporte para características como entidades arquitectónicas totalmente paramétricas como paredes, vigas, techos, ventanas, escaleras, tuberías y muebles. Soporta clases de cimientos de la industria ([IFC](Arch_IFC/es.md)) archivos, y la producción de planos de planta en 2D en combinación con el <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [Ambiente de trabajo TechDraw](TechDraw_Workbench/es.md).
+El <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Ambiente de trabajo Arquitectura](Arch_Workbench/es.md) proporciona un moderno entorno de trabajo [BIM](http://es.wikipedia.org/wiki/Modelado_de_informaci%C3%B3n_de_construcci%C3%B3n) para FreeCAD, con soporte para características como entidades arquitectónicas totalmente paramétricas como paredes, vigas, techos, ventanas, escaleras, tuberías y muebles. Soporta clases de cimientos de la industria ([IFC](Arch_IFC/es.md)) archivos, y la producción de planos de planta en 2D en combinación con el <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [Ambiente de trabajo TechDraw](TechDraw_Workbench/es.md).
 
 El Ambiente de trabajo Arquitectura importa todas las herramientas del <img alt="" src=images/Workbench_Draft.svg  style="width:24px;">[Ambiente de Trabajo borrador](Draft_Workbench/es.md), ya que utiliza sus objetos 2D para construir objetos arquitectónicos paramétricos 3D. Sin embargo, Arquitectura también puede usar formas sólidas creadas con otros Ambientes de trabajo como <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Pieza](Part_Workbench/es.md) y <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [DiseñoPiezas](PartDesign_Workbench/es.md).
 
@@ -143,4 +145,4 @@ El Módulo de arquitectura puede usarse en scripts de [Python](Python/es.md) y e
 
  
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

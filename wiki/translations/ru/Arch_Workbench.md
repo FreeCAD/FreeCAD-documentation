@@ -1,3 +1,5 @@
+# Arch Workbench/ru
+
 
 
 
@@ -10,7 +12,7 @@
 
 ## Введение
 
-<img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Архитектурный верстак](Arch_Module/ru.md) обеспечивает современный процесс [информационного моделирования здания](http://ru.wikipedia.org/wiki/BIM) (Building Information Modeling, BIM) внутри FreeCAD, c поддержкой таких функций как полностью параметрические архитектурные элементы вроде стен, балок, крыш, окон, лестниц, труб и фурнитуры. Он поддерживает Industry Foundation Classes ([IFC](Arch_IFC/ru.md)) данные, и создание двумерных планов строений совместно с [верстаком TechDraw](TechDraw_Workbench/ru.md).
+<img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Архитектурный верстак](Arch_Workbench/ru.md) обеспечивает современный процесс [информационного моделирования здания](http://ru.wikipedia.org/wiki/BIM) (Building Information Modeling, BIM) внутри FreeCAD, c поддержкой таких функций как полностью параметрические архитектурные элементы вроде стен, балок, крыш, окон, лестниц, труб и фурнитуры. Он поддерживает Industry Foundation Classes ([IFC](Arch_IFC/ru.md)) данные, и создание двумерных планов строений совместно с [верстаком TechDraw](TechDraw_Workbench/ru.md).
 
 Верстак Arch импортирует все инструменты из [верстака Draft](Draft_Workbench/ru.md), используя двумерные объекты для построения архитектурных объектов. В то же время Arch так же использует твердотельные объекты, созданные в других верстаках вроде [Part](Part_Workbench/ru.md) и [PartDesign](PartDesign_Workbench/ru.md).
 
@@ -143,4 +145,4 @@ The developers of Draft, Arch, and BIM also collaborate with the greater [OSArch
 
  
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

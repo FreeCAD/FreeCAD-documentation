@@ -15,10 +15,16 @@ Fügt einen abzuziehenden Torus in den aktiven Körper (Body) ein. Die Form wird
 
 ## Anwendung
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Auf die Schaltfläche **<img src="images/PartDesign_SubtractiveTorus.svg" width=24px> '''Abzuziehender Torus'''** klicken. **Anmerkung**: Abzuziehender Torus ist Teil des benannten Symbols *Erzeugen eines zusätzlichen geometrischen Körpers*. Direkt nach dem Start von FreeCAD wird das Symbol von „Abzuziehender Quader" in der Werkzeugleiste angezeigt. Wenn ein anderer Grundkörper zu sehen ist, kann durch Klicken auf den Pfeil neben dem Symbol der zu abzuziehende Torus in dem aufklappenden Menü ausgewählt werden.
 2.  Die Parameter des Grundkörpers und über [Attachment](Part_Attachment/de.md) den räumlichen Bezug einstellen.
 3.  Mit Klick auf **OK** bestätigen.
 4.  Ein Torus erscheint unterhalb des aktiven Körpers (Body).
+
+
+</div>
 
 ## Optionen
 
@@ -28,6 +34,9 @@ Der Torus kann auf zwei verschieden Wege bearbeitet werden:
 -   Mittels des [Eigenschafteneditors](Property_editor/de.md) im Reiter Daten.
 
 ## Eigenschaften
+
+
+<div class="mw-translate-fuzzy">
 
 -    {{PropertyData/de|Attachment}}: Bestimmt den Befestigungsmodus und den Befestigungsversatz. Siehe [Befestigung](Part_Attachment/de.md).
 
@@ -42,6 +51,9 @@ Der Torus kann auf zwei verschieden Wege bearbeitet werden:
 -    {{PropertyData/de|Angle2}}: (ohne Beschriftung in dem Dialog Parameter des Grundkörpers) Der Winkel des oberen Halbbogens des kreisförmigen Querschnittsprofils (180° in einem vollen Torus). Ein Fehler in der Programmierung verusacht unerwartete Ergebenisse bei Änderung von Angle2.
 
 -    {{PropertyData/de|Angle3}}: (mit *U-Parameter:* in dem Dialog Parameter des Grundkörpers bezeichnet) Rotationswinkel des kreisförmigen Profilquerschnitts (360° in einem vollen Torus).
+
+
+</div>
 
 
 

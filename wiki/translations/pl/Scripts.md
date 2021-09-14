@@ -1,3 +1,5 @@
+# Scripts/pl
+
  {{TutorialInfo
 |Topic=Scripting
 |Level=Base
@@ -310,4 +312,4 @@ This is the meaning of the word \"awkward\" that I\'ve used to define `Placement
 
 }} 
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Python Code{{\#translation:}}](Category:Python_Code.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)

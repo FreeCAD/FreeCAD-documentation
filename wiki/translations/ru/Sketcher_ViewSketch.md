@@ -1,8 +1,8 @@
 ---
 - GuiCommand:/ru
-   Name:Обзор эскиза
-   Name/ru:Обзор эскиза
-   MenuLocation:Sketch → Обзор эскиза
+   Name/ru:Просмотр эскиза
+   Name:Sketcher_ViewSketch
+   MenuLocation:Sketch → Просмотр эскиза
    Workbenches:[Sketcher](Sketcher_Workbench/ru.md), [PartDesign](PartDesign_Workbench/ru.md)
 ---
 
@@ -10,18 +10,12 @@
 
 Этот инструмент устанавливает вид модели перпендикулярно плоскости эскиза. Это полезно, когда пользователь изменил ориентацию вида модели, чтобы изучить другой аспект модели, и хочет вернуться к нормальному виду эскиза.
 
-## Использование
-
-
-<div class="mw-translate-fuzzy">
+## Применение
 
 В режиме редактирования эскиза
 
--   Нажмите на кнопку **[16px|View sketch icon](File:Sketcher_ViewSketch.png.md)'''Обзор эскиза'''** в панели инструментов Sketcher-а или Part Design-а, или
--   идите в меню **Sketcher → Обзор эскиза**.
-
-
-</div>
+-   Нажмите на кнопку **<img src=images/Sketcher_ViewSketch.svg style="width:16px"> [Просмотр эскиза](Sketcher_ViewSketch/ru.md)** в панели инструментов верстака Sketcher или Part Design, или
+-   выберите пункт меню **Sketch → <img src=images/Sketcher_ViewSketch.svg style="width:16px"> Просмотр эскиза**.
 
 
 

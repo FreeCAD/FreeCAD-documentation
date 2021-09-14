@@ -1,3 +1,5 @@
+# Robot Workbench/ro
+
 
 
 
@@ -127,4 +129,4 @@ A se vedea [Robot API example](Robot_API_example.md) pentru o descriere a funcț
 
 }} 
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

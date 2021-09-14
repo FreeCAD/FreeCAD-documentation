@@ -3,7 +3,7 @@
    Name:Arch Pipe
    Name/ru:Труба
    MenuLocation:Arch → Инструменты для труб → Труба
-   Workbenches:[Arch](Arch_Module/ru.md)
+   Workbenches:[Arch](Arch_Workbench/ru.md)
    Shortcut:**P** **I**
    SeeAlso:[Arch Соединитель труб](Arch_PipeConnector/ru.md), [[Arch Equipment/ru]]
    Version:0.17

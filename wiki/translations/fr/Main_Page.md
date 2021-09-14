@@ -1,8 +1,10 @@
-\_\_NOTOC\_\_ 
+# Main Page/fr
+
+ 
 
 ## Introduction
 
-Ceci est la documentation wiki de [FreeCAD](http://www.freecadweb.org/?lang=fr_FR). Il y a deux façons principales de parcourir la documentation : en explorant les documentations ou en suivant le manuel. Il s\'agit d\'un travail en cours, rédigé par la communauté des utilisateurs et des développeurs de FreeCAD. Si vous trouvez une information erronée ou manquante, veuillez [nous aider en contribuant](Help_FreeCAD/fr.md)! 
+Ceci est la documentation wiki de [FreeCAD](http://www.freecadweb.org/?lang=fr_FR). Il existe plusieurs façons d\'utiliser cette documentation : en explorant les hubs, en suivant le manuel, ou en utilisant les entrées du menu Aide depuis FreeCAD. Il s\'agit d\'un travail en cours, rédigé par la communauté des utilisateurs et des développeurs de FreeCAD. Si vous trouvez une information erronée ou manquante, merci [d\'aider FreeCAD](Special:MyLanguage/help_FreeCAD.md)! 
 
 
 ## Les documentations 
@@ -46,7 +48,7 @@ La table des matières suivante liste tous les articles de ce wiki qui constitue
 
 Il y a beaucoup de travail à faire dans le projet FreeCAD. Si vous êtes intéressé pour nous aider, il y a des tâches de programmation en C++ ou en Python pour les développeurs, mais il y a aussi des choses que vous pouvez faire même si vous ne savez pas programmer :
 
--   telles que la rédaction de la documentation et l\'[édition du wiki (en)](WikiPages.md),
+-   telles que la rédaction de la documentation et les [pages Wiki](WikiPages/fr.md),
 -   l\'aide aux nouveaux arrivants,
 -   la traduction de l\'interface de l\'application et de la documentation,
 -   la préparation d\'installeurs ou de paquets de la dernière version de FreeCAD pour votre système d\'exploitation favori
@@ -65,4 +67,4 @@ Consultez la [feuille de route du développement](Development_roadmap/fr.md) pou
 
 
 
-[Category:Documentation{{\#translation:}}](Category:Documentation.md)
+[Category:Documentation](Category:Documentation.md)

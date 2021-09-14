@@ -6,9 +6,6 @@
    SeeAlso:[Part Grundkörper Erstellen](Part_Primitives/de.md)
 ---
 
-
-</div>
-
 ## Beschreibung
 
 Der <img alt="" src=images/Part_Ellipsoid.svg  style="width:24px;"> [Part Ellipsoid](Part_Ellipsoid/de.md) Befehl erzeugt einen parametrischen Ellipsoid Festkörper.

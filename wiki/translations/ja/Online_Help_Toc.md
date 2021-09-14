@@ -1,3 +1,5 @@
+# Online Help Toc/ja
+
 
 
 
@@ -178,4 +180,4 @@ There is another table of contents for the [FreeCAD MANUAL](Manual:Introduction.
 
 
 
-[Category:Documentation/ja](Category:Documentation/ja.md) [Category:Documentation{{\#translation:}}](Category:Documentation.md)
+[Category:Documentation/ja](Category:Documentation/ja.md) [Category:Documentation](Category:Documentation.md)

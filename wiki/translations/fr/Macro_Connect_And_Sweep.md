@@ -1,3 +1,5 @@
+# Macro Connect And Sweep/fr
+
  {{Macro/fr
 |Name= Macro Connect And Sweep
 |Icon=Macro_Connect_And_Sweep.png

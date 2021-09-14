@@ -65,19 +65,25 @@ The algorithms behind Join tools are quite simple, and understanding them is imp
 
 ## Scripting
 
-The Join tools can by used in [macros](macros.md) and from the python console by using the following function:  
+The Join tools can by used in [macros](macros.md) and from the python console by using the following function:
+
+ 
 
 -   Creates an empty Embed feature (or other Join feature, depending on mode passed). The properties Base and Tool must be assigned explicitly, afterwards.
 -   Returns the newly created object.
 
-Example:  {{code|code=
+Example:
+
+ {{code|code=
 import JoinFeatures
 j = JoinFeatures.makePartJoinFeature(name = 'Embed', mode = 'Embed' )
 j.Base = FreeCADGui.Selection.getSelection()[0]
 j.Tool = FreeCADGui.Selection.getSelection()[1]
-}} The tool itself is implemented in Python, see {{FileName|/Mod/Part/JoinFeatures.py}} ([Github link](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Part/JoinFeatures.py)) under where FreeCAD is installed.
+}}
+
+The tool itself is implemented in Python, see {{FileName|/Mod/Part/JoinFeatures.py}} ([Github link](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Part/JoinFeatures.py)) under where FreeCAD is installed.
 
 
 
 
-   
+  

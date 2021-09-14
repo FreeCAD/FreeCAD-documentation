@@ -1,3 +1,5 @@
+# Resource framework project/it
+
 
 
 
@@ -123,4 +125,4 @@ Una classe di disegno per la struttura delle risorse.
 
 
 
-[Category:Roadmap{{\#translation:}}](Category:Roadmap.md)
+[Category:Roadmap](Category:Roadmap.md)

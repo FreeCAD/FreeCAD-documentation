@@ -3,7 +3,7 @@
    Name:Draft PointArray
    Name/de:Entwurf Punktanordnung
    MenuLocation:Änderung → Anordnungswerkzeuge → Punktanordnung
-   Workbenches:[Entwurf](Draft_Module/de.md), [Architektur](Arch_Module/de.md)
+   Workbenches:[Entwurf](Draft_Workbench/de.md), [Architektur](Arch_Workbench/de.md)
    Version:0.18
    SeeAlso:[Entwurf OrthoAnordnung](Draft_OrthoArray/de.md), [Entwurf PolarAnordnung](Draft_PolarArray/de.md), [Entwurf KreisAnordnung](Draft_CircularArray/de.md), [Entwurf PfadAnordnung](Draft_PathArray/de.md), [Entwurf PfadVerweisAnordnung](Draft_PathLinkArray/de.md), [Entwurf PunktVerweisAnordnung](Draft_PointLinkArray/de.md)
 ---
@@ -18,7 +18,7 @@ Der <img alt="" src=images/Draft_PointArray.svg  style="width:24px;"> **Entwurf 
 
 <div class="mw-translate-fuzzy">
 
-Beide Befehle können auf 2D Objekte angewendet werden, die mit dem [ Arbeitsbereich Entwurf](Draft_Module/de.md) oder [Skizzierer Arbeitsbereich](Sketcher_Workbench/de.md) erzeugt wurden, aber auch auf viele 3D-Objekte, wie sie mit dem [Part Arbeitsbereich](Part_Workbench/de.md), [PartDesign Arbeitsbereich](PartDesign_Workbench/de.md) oder [Arbeitsbereich Architektur](Arch_Workbench/de.md) erzeugt wurden.
+Beide Befehle können auf 2D Objekte angewendet werden, die mit dem [ Arbeitsbereich Entwurf](Draft_Workbench/de.md) oder [Skizzierer Arbeitsbereich](Sketcher_Workbench/de.md) erzeugt wurden, aber auch auf viele 3D-Objekte, wie sie mit dem [Part Arbeitsbereich](Part_Workbench/de.md), [PartDesign Arbeitsbereich](PartDesign_Workbench/de.md) oder [Arbeitsbereich Architektur](Arch_Workbench/de.md) erzeugt wurden.
 
 
 </div>

@@ -1,3 +1,5 @@
+# FEM Preferences/en
+
  {{TOCright}} The preferences screen of the [FEM Workbench](FEM_Workbench.md) are found in the [Preferences Editor](Preferences_Editor.md), **Edit → Preferences → FEM**.
 
 There are several tabs in the FEM workbench preferences, starting with the **General** configuration of the workbench. The rest of the tabs control how FEM interacts with supported external solvers.
@@ -34,4 +36,4 @@ The current supported external solvers are:
 
 }}  
 
-[Category:Preferences{{\#translation:}}](Category:Preferences.md)
+[Category:Preferences](Category:Preferences.md)

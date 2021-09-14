@@ -1,3 +1,5 @@
+# PartDesign project/it
+
 
 
 
@@ -264,4 +266,4 @@ Ruota uno schizzo lungo uno dei suoi assi e di un certo angolo.
 
 
 
-[Category:Roadmap{{\#translation:}}](Category:Roadmap.md)
+[Category:Roadmap](Category:Roadmap.md)

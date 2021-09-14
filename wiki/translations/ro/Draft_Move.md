@@ -1,5 +1,13 @@
 ---
-- GuiCommand:/ro   Name:Draft Move   Name/ro:Draft Move   Workbenches:[Arch](Draft_Module/ro___Draft]],_[[Arch_Module/ro.md)|MenuLocation:Draft → Move   Shortcut:M V---
+- GuiCommand:/ro
+   Name:Draft Move
+   Name/ro:Draft Move
+   MenuLocation:Draft → Move
+   Workbenches:[Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
+   Shortcut:**M** **V**
+   Version:0.7
+   SeeAlso:[Draft SubelementHighlight](Draft_SubelementHighlight.md)
+---
 
 
 </div>
@@ -55,7 +63,7 @@ The single character keyboard shortcuts mentioned here can be changed. See [Draf
 
 ## Notes
 
--   An Object that is [attached](Part_Attachment.md) cannot be moved with the Draft Move command. To move it either its **Support** object has to be moved, or its **Attachment Offset** has to be changed.
+-   An Object that is [attached](Part_EditAttachment.md) cannot be moved with the Draft Move command. To move it either its **Support** object has to be moved, or its **Attachment Offset** has to be changed.
 
 ## Preferences
 

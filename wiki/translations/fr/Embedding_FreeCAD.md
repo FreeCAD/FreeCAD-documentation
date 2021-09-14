@@ -1,3 +1,5 @@
+# Embedding FreeCAD/fr
+
 
 
 
@@ -136,4 +138,4 @@ Puisque le module Python de FreeCAD est compilé à partir de C ++ (plutôt que 
 
 }} 
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Python Code{{\#translation:}}](Category:Python_Code.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)

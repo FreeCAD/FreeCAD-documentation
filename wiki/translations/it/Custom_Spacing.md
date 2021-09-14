@@ -1,3 +1,5 @@
+# Custom Spacing/it
+
 
 
 ## Descrizione
@@ -17,4 +19,4 @@ L\'output della finestra di dialogo Distribuzione barre viene generato quando l\
 
 
 
-[Category:User Documentation{{\#translation:}}](Category:User_Documentation.md) [Category:Reinforcement{{\#translation:}}](Category:Reinforcement.md)
+[Category:User Documentation](Category:User_Documentation.md) [Category:Reinforcement](Category:Reinforcement.md)

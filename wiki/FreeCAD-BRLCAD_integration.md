@@ -1,3 +1,5 @@
+# FreeCAD-BRLCAD integration
+
 This page is dedicated to the description of the [Google Summer of Code 2019](Google_Summer_of_Code.md) project idea of integrating FreeCAD and BRL-CAD.
 
 ## Outline

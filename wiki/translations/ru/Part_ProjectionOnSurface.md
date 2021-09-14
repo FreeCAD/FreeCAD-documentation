@@ -91,7 +91,13 @@ If this happens:
 ## Примеры
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
   

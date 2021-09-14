@@ -1,5 +1,11 @@
 ---
-- GuiCommand:/es   Name:Arch Stairs   Name/es:Arch Stairs   Workbenches:[[Arch Module/es   Arch]]|MenuLocation:Arch → Stairs   Shortcut:S R---
+- GuiCommand:/es
+   Name:Arch Stairs
+   Name/es:Arch Stairs
+   Workbenches:[Arch](Arch_Workbench/es.md)
+   MenuLocation:Arch → Stairs
+   Shortcut:**S** **R**
+---
 
 
 </div>

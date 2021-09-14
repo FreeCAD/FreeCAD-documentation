@@ -1,3 +1,5 @@
+# Assembly/ru
+
 
 
 ## Введение
@@ -14,7 +16,7 @@
 
 *Слева: три отдельных смежных тела, каждое из которых моделируется как [тела PartDesign](PartDesign_Body/ru.md). Справа: три отдельных тела, собранных вместе внутри [Std Part](Std_Part/ru.md) для создания сборки.*
 
-## Использование
+## Применение
 
 ### Сборка вручную 
 
@@ -57,4 +59,4 @@
 
 }} {{Document objects navi}} 
 
-[Category:Glossary{{\#translation:}}](Category:Glossary.md)
+[Category:Glossary](Category:Glossary.md)

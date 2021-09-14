@@ -3,7 +3,7 @@
    Name:Arch CurtainWall
    Name/ru:Arch CurtainWall
    MenuLocation:Arch → Curtain Wall
-   Workbenches:[Arch](Arch_Module/ru.md)
+   Workbenches:[Arch](Arch_Workbench/ru.md)
    Shortcut:**C** **W**
    Version:0.19
    SeeAlso:[Arch Wall](Arch_Wall/ru.md), [Arch Grid](Arch_Grid/ru.md)
@@ -105,7 +105,7 @@ Curtain wall objects inherit the properties of [Arch Components](Arch_Component.
 
 ## Making frame walls 
 
-Curtain walls are convenient to use in conjunction with [walls](Arch_Wall.md) to create frame walls (walls where an inner, structural layer is made of frames, usually wooden or metal, instead of an homogeneous material such as concrete of brick).
+Curtain walls are convenient to use in conjunction with [walls](Arch_Wall.md) to create frame walls (walls where an inner, structural layer is made of frames, usually wooden or metal, instead of an homogeneous material such as concrete or brick).
 
 <img alt="" src=images/Frame_wall_example.png  style="width:780px;">
 

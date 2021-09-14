@@ -1,3 +1,5 @@
+# DXF/pl
+
  {{TOCright}}
 
 ## Background history 
@@ -41,4 +43,4 @@ In addition to the options under the Edit → Preferences, the [TechDraw Workben
 
 
 
-[Category:User Documentation{{\#translation:}}](Category:User_Documentation.md) [Category:Draft{{\#translation:}}](Category:Draft.md) [Category:TechDraw{{\#translation:}}](Category:TechDraw.md) [Category:File\_Formats{{\#translation:}}](Category:File_Formats.md)
+[Category:User Documentation](Category:User_Documentation.md) [Category:Draft](Category:Draft.md) [Category:TechDraw](Category:TechDraw.md) [Category:File\_Formats](Category:File_Formats.md)

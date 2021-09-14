@@ -1,9 +1,10 @@
 ---
-- GuiCommand:
-   Name:TechDraw ClipGroupRemove
-   MenuLocation:TechDraw → Remove View from Clip Group
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
-   SeeAlso:[TechDraw Clip Group](TechDraw_ClipGroup.md), [TechDraw Add Clip Group](TechDraw_ClipGroupAdd.md)
+- GuiCommand:/ru
+   Name/ru:Удалить вид из группы сечений
+   Name:TechDraw_ClipGroupRemove
+   MenuLocation:TechDraw → Удалить вид из группы сечений
+   Workbenches:[TechDraw](TechDraw_Workbench/ru.md)
+   SeeAlso:[Вставить группу сечений](TechDraw_ClipGroup/ru.md), [Добавить вид в группу сечений](TechDraw_ClipGroupAdd/ru.md)
 ---
 
 ## Описание

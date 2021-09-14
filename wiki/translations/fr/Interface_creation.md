@@ -1,3 +1,5 @@
+# Interface creation/fr
+
 
 
 ## Introduction
@@ -41,4 +43,4 @@ Pour des exemples sur cette méthode, voir [Création d\'interface complètement
 
 }} 
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Python Code{{\#translation:}}](Category:Python_Code.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)

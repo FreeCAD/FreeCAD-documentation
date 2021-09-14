@@ -1,3 +1,5 @@
+# Simple grid
+
 Simple configurable and toggleable grid for FreeCAD
 
 <img alt="" src=images/simple_grid.png  style="width:800px;">
@@ -32,4 +34,4 @@ In order to configure it you should open the macro and change the variables at y
 
 
 
-[Category:Macros{{\#translation:}}](Category:Macros.md)
+[Category:Macros](Category:Macros.md)

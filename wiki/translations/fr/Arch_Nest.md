@@ -2,13 +2,10 @@
 - GuiCommand:/fr
    Name:Arch Nest
    Name/fr:Arch Calepinage
-   MenuLocation:Arch → Outils de panneau → Calepinage
-   Workbenches:[Atelier Arch](Arch_Module/fr.md)
+   MenuLocation:Arch → Outils pour panneaux → Calepinage
+   Workbenches:[Atelier Arch](Arch_Workbench/fr.md)
    SeeAlso:[Arch Panneau](Arch_Panel/fr.md), [Arch Panneau feuille](Arch_Panel_Sheet/fr.md)
 ---
-
-
-</div>
 
 ## Description
 
@@ -43,13 +40,7 @@ L\'algorithme qui gère l\'outil Nest est en constante évolution et n\'est actu
 -   Le calcul peut prendre beaucoup de temps avec de nombreux objets. Cela sera optimisé dans le futur
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
  

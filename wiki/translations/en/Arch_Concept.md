@@ -1,3 +1,5 @@
+# Arch Concept/en
+
 
 
 
@@ -169,4 +171,4 @@ The following diagram illustrates the relationship between all objects described
 
 <img alt="Objects for capturing building knowledge" src=images/BldgComponents.png  style="width:800px;">
 
-[Category:Roadmap{{\#translation:}}](Category:Roadmap.md)
+[Category:Roadmap](Category:Roadmap.md)

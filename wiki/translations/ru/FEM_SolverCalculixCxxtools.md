@@ -3,8 +3,8 @@
    Name:FEM SolverCalculixCxxtools
    Name/ru:FEM Solver
    MenuLocation:Solve → Solver CalculiX Standard
-   Workbenches:[FEM](FEM_Module/ru.md)
-   Shortcut:
+   Workbenches:[FEM](FEM_Workbench/ru.md)
+   Shortcut:**S** **X**
    SeeAlso:[FEM tutorial](FEM_tutorial/ru.md)
 ---
 

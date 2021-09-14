@@ -11,9 +11,7 @@ The <img alt="" src=images/Draft_Heal.svg  style="width:24px;"> **Draft Heal** c
 ## Usage
 
 1.  Optionally select one or more problematic objects. If no objects are selected the entire document will be processed.
-2.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Draft_Heal.svg" width=16px> [Draft Heal](Draft_Heal.md)** button.
-    -   Select the **Utilities → <img src="images/Draft_Heal.svg" width=16px> Heal** option from the menu.
+2.  Select the **Utilities → <img src="images/Draft_Heal.svg" width=16px> Heal** option from the menu.
 3.  If no errors are found the command will do nothing.
 
 

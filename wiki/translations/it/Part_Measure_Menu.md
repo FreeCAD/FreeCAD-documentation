@@ -47,4 +47,4 @@ Non confondere questo menu con lo strumento <img alt="" src=images/Std_MeasureDi
 
  
 
-[Category:Documentation{{\#translation:}}](Category:Documentation.md)
+[Category:Documentation](Category:Documentation.md)

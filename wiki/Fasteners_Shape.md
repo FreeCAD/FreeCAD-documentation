@@ -48,4 +48,4 @@ Result: A copy of the select fastener will be created with a **\_Copy** suffix. 
 
  {{Fasteners Tools navi}} 
 
-[Category:External Command Reference{{\#translation:}}](Category:External_Command_Reference.md)
+[Category:External Command Reference](Category:External_Command_Reference.md)

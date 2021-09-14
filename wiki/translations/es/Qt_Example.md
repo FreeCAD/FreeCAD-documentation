@@ -1,3 +1,5 @@
+# Qt Example/es
+
  {{Macro/es
 |Name=Macro Qt Ejemplo
 |Icon=MEPlan.png
@@ -805,4 +807,4 @@ MainWindow.show()
 
 ¡Buen provecho!
 
-[Category:Poweruser Documentation{{\#translation:}}](Category:Poweruser_Documentation.md) [Category:Python Code{{\#translation:}}](Category:Python_Code.md)
+[Category:Poweruser Documentation](Category:Poweruser_Documentation.md) [Category:Python Code](Category:Python_Code.md)

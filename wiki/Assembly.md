@@ -1,3 +1,5 @@
+# Assembly
+
  
 
 ## Introduction
@@ -47,4 +49,4 @@ The assembly workbenches continue development, and it is expected that at some p
 
  {{Std Base navi}} {{Document objects navi}} 
 
-[Category:Glossary{{\#translation:}}](Category:Glossary.md)
+[Category:Glossary](Category:Glossary.md)

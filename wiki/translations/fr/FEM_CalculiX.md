@@ -1,3 +1,5 @@
+# FEM CalculiX/fr
+
  {{TOCright}}
 
 ## Introduction
@@ -70,4 +72,4 @@ Les forces de réaction se trouvent dans le fichier ccx\_dat\_file qui contient 
 
 }}
 
-[Category:Poweruser\_Documentation{{\#translation:}}](Category:Poweruser_Documentation.md) [Category:Developer{{\#translation:}}](Category:Developer.md)
+[Category:Poweruser\_Documentation](Category:Poweruser_Documentation.md) [Category:Developer](Category:Developer.md)

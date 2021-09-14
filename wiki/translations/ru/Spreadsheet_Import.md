@@ -1,27 +1,25 @@
 ---
 - GuiCommand:/ru
-   Name:Spreadsheet Import
    Name/ru:Импорт электронной таблицы
-   MenuLocation:Spreadsheet → Импорт электронной таблицы
+   Name:Spreadsheet_Import
+   MenuLocation:Электронная таблица → Импорт электронной таблицы
    Workbenches:[Spreadsheet](Spreadsheet_Workbench/ru.md)
    Version:0.17
+   SeeAlso:[Экспорт электронной таблицы](Spreadsheet_Export/ru.md)
 ---
-
-
-</div>
 
 ## Описание
 
-The **<img src=images/Spreadsheet_Import.svg style="width:16px"> [Spreadsheet Import](Spreadsheet_Import.md)** tool allows you to import a tab-separated values file (loosely denoted as CSV) into a spreadsheet so that it can be modified and used with [expressions](expressions.md).
+Инструмент **<img src=images/Spreadsheet_Import.svg style="width:16px"> [Импорт электронной таблицы](Spreadsheet_Import/ru.md)** позволяет вам импортировать файлы (называемые как CSV) у которых значения разделены символами табуляции, в верстак spreadsheet, чтобы эти данные можно было модифицировать и использовать с [выражениями](expressions/ru.md).
 
 ## Применение
 
-1.  Press the **<img src=images/Spreadsheet_Import.svg style="width:16px"> [Spreadsheet Import](Spreadsheet_Import.md)** button.
-2.  Choose the right CSV file.
+1.  Нажмите кнопку **<img src=images/Spreadsheet_Import.svg style="width:16px"> [Импорт электронной таблицы](Spreadsheet_Import/ru.md)**.
+2.  Выберите корректный CSV файл.
 
 ## Примечания
 
--   Use the [Std Import](Std_Import.md) command to import Excel {{FileName|*.xlsx}} files.
+-   Используйте команду [Импортировать\...](Std_Import/ru.md) для импорта Excel {{FileName|*.xlsx}} файлов.
 
 
 

@@ -3,7 +3,7 @@
    Name:Draft OrthoArray
    Name/de:Entwurf AnordnungRechtwinklig
    MenuLocation:Modifikation → Anordnung Werkzeuge → Anordnung
-   Workbenches:[Entwurf](Draft_Module/de.md)
+   Workbenches:[Entwurf](Draft_Workbench/de.md)
    Version:0.19
    SeeAlso:[Entwurf PolaresFeld](Draft_PolarArray/de.md), [Entwurf KreisAnordnung](Draft_CircularArray/de.md), [Entwurf PfadAnordnung](Draft_PathArray/de.md), [Entwurf Punktefeld](Draft_PointArray/de.md), [Entwurf Klonen](Draft_Clone/de.md)
 ---

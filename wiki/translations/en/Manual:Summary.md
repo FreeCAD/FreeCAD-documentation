@@ -1,3 +1,5 @@
+# Manual:Summary/en
+
 This is the table of contents used for the automatic construction of the **FreeCAD MANUAL**.
 
 There is another table of contents for the [FreeCAD **Online Help** system](Online_Help_Toc.md).
@@ -55,4 +57,4 @@ There is another table of contents for the [FreeCAD **Online Help** system](Onli
 
 
 
-[Category:Manual{{\#translation:}}](Category:Manual.md)
+[Category:Manual](Category:Manual.md)

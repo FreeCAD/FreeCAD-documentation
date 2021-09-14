@@ -1,3 +1,5 @@
+# FreeCAD vector math library/it
+
 
 
 ## Introduzione
@@ -5,7 +7,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Questo è un modulo [Python](Python/it.md) contenente un paio di funzioni utili per manipolare i vettori. Questa libreria è inclusa in [Draft](Draft_Module/it.md) ed è possibile accedervi in questo modo dall\'interprete Python:
+Questo è un modulo [Python](Python/it.md) contenente un paio di funzioni utili per manipolare i vettori. Questa libreria è inclusa in [Draft](Draft_Workbench/it.md) ed è possibile accedervi in questo modo dall\'interprete Python:
 
 
 </div>
@@ -93,4 +95,4 @@ def project(first, other):
 
 }} 
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Python Code{{\#translation:}}](Category:Python_Code.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)

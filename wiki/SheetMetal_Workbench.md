@@ -1,9 +1,9 @@
+# SheetMetal Workbench
 
 
 
-{{UnfinishedDocu
 
-}} <img alt=" Sheet Metal External workbench icon" src=images/Sheetmetal_workbench_icon.svg  style="width:128px;">
+ <img alt=" Sheet Metal External workbench icon" src=images/Sheetmetal_workbench_icon.svg  style="width:128px;">
 
 
 {{TOCright}}
@@ -111,6 +111,12 @@ Several tools of other workbenches could be used to add holes or to reshape edge
 To unfold a sheet metal object aktivate the <img alt="" src=images/SheetMetal_Unfold.svg  style="width:16px;"> [Unfold](SheetMetal_Unfold.md) or the <img alt="" src=images/SheetMetal_UnattendedUnfold.svg  style="width:16px;"> [Unattended Unfold](SheetMetal_UnattendedUnfold.md) tool.
 
 The result will be a 3D object with an optional outline sketch including bend lines.
+
+### Examples
+
+Until tutorial pages are available on this wiki here\'s an [Examples](SheetMetal_Examples.md) page.
+
+<img alt="" src=images/SheetMetal_Example-01.png  style="width:100px;"> <img alt="" src=images/SheetMetal_Example-02.png  style="width:100px;"> <img alt="" src=images/SheetMetal_Example-03.png  style="width:100px;"> <img alt="" src=images/SheetMetal_Example-04.png  style="width:100px;"> <img alt="" src=images/SheetMetal_Example-05.png  style="width:100px;">
 
 ## Limitations
 
@@ -273,4 +279,4 @@ New workbenches are in development, stay tuned!
 
 
 
-[Category:SheetMetal{{\#translation:}}](Category:SheetMetal.md) [Category:Addons{{\#translation:}}](Category:Addons.md) [Category:External Command Reference{{\#translation:}}](Category:External_Command_Reference.md)
+[Category:SheetMetal](Category:SheetMetal.md) [Category:Addons](Category:Addons.md) [Category:External Command Reference](Category:External_Command_Reference.md)

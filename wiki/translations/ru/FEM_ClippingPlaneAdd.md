@@ -3,7 +3,7 @@
    Name:FEM ClippingPlaneAdd
    Name/ru:FEM ClippingPlaneAdd
    MenuLocation: Utilities → Clipping Plane on Face
-   Workbenches:[FEM](FEM_Module/ru.md)
+   Workbenches:[FEM](FEM_Workbench/ru.md)
    SeeAlso:[FEM tutorial](FEM_tutorial/ru.md)
 ---
 
@@ -14,7 +14,7 @@
 
 ToDo
 
-## Использование
+## Применение
 
 
 <div class="mw-translate-fuzzy">

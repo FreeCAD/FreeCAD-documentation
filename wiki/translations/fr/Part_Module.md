@@ -1,13 +1,9 @@
-
-
-
-<div class="mw-translate-fuzzy">
+# Part Module/fr
 
 
 
 
 
-</div>
 
 <img alt="Icône de l\'Atelier Part" src=images/Workbench_Part.svg  style="width:128px;">
 
@@ -103,7 +99,7 @@ Il s\'agit d\'outils permettant de créer de nouveaux objets et de modifier des 
 
 -   <img alt="" src=images/Part_ProjectionOnSurface.svg  style="width:32px;"> [Projection sur une surface](Part_ProjectionOnSurface/fr.md): Projette un logo, un texte ou une face, un fil ou une arête sur une surface. {{Version/fr|0.19}}
 
--   <img alt="" src=images/Part_Attachment.svg  style="width:32px;"> [Ancrage](Part_Attachment/fr.md): Rattache un objet à un autre objet.
+-   <img alt="" src=images/Part_EditAttachment.svg  style="width:32px;"> [Ancrage](Part_EditAttachment/fr.md): Rattache un objet à un autre objet.
 
 ### Booléen
 
@@ -200,15 +196,9 @@ Voir [Part Ecrire un script](Part_scripting/fr.md)
 -   [Tutoriel balle Whiffle](Whiffle_Ball_tutorial/fr.md) : Comment utiliser l\'atelier Part
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
  
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

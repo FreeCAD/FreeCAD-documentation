@@ -1,25 +1,3 @@
----
-- GuiCommand:/it   Name:FEM PostCreateWarpVectorFilter   Name/it:FEM PostCreateWarpVectorFilter   MenuLocation: Risultati → Wrap vector filter    |Workbenches:[Shortcut:   SeeAlso:[[FEM_tutorial/it|Tutorial FEM](FEM_Workbench/it___FEM]].md)---
+# FEM PostCreateWarpVectorFilter/it
 
-
-</div>
-
-## Descrizione
-
-Da fare
-
-## Utilizzo
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
-
-
-{{FEM Tools navi
-
-}}  
+1.  REDIRECT [FEM\_PostFilterWarp/it](FEM_PostFilterWarp/it.md)

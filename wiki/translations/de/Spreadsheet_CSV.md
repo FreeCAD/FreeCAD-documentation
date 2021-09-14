@@ -1,3 +1,5 @@
+# Spreadsheet CSV/de
+
  Das [CSV-Format](https://de.wikipedia.org/wiki/CSV_(Dateiformat)) (Komma-separierte Werte) ist ein Klartext-Format zum Austausch von Tabellenkalkulationsdaten. Es kann normalerweise von jeder Tabellenkalkulation wie LibreOffice oder Microsoft Excel importiert oder exportiert werden. Das Lesen und Schreiben im CSV-Format wird vom eingebauten Python-[CSV-Modul](http://docs.python.org/2/library/csv.html) erledigt.
 
 ## Importieren
@@ -11,4 +13,4 @@ Das Exportieren eines <img alt="" src=images/Spreadsheet_CreateSheet.svg  style=
 
  
 
-[Category:User\_Documentation{{\#translation:}}](Category:User_Documentation.md) [Category:Spreadsheet{{\#translation:}}](Category:Spreadsheet.md) [Category:File\_Formats{{\#translation:}}](Category:File_Formats.md)
+[Category:User\_Documentation](Category:User_Documentation.md) [Category:Spreadsheet](Category:Spreadsheet.md) [Category:File\_Formats](Category:File_Formats.md)

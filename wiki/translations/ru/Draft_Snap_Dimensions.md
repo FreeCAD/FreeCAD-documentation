@@ -2,8 +2,8 @@
 - GuiCommand:/ru
    Name:Draft Dimensions
    Name/ru:Draft Dimensions
-   Workbenches:[Draft](Draft_Module/ru.md), [Arch](Arch_Module/ru.md)
    MenuLocation:Черчение→ [Привязка](Draft_Snap/ru.md) → Размеры
+   Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
    Shortcut:
    SeeAlso:---
 

@@ -1,3 +1,5 @@
+# Manual:Import and export to other filetypes/zh-cn
+
  
 
 
@@ -53,4 +55,4 @@ FreeCAD 可以导入和导出多种类型的文件。下表列出了最重要的
 
 
 
-[Category:Poweruser Documentation{{\#translation:}}](Category:Poweruser_Documentation.md) [Category:Tutorials{{\#translation:}}](Category:Tutorials.md)
+[Category:Poweruser Documentation](Category:Poweruser_Documentation.md) [Category:Tutorials](Category:Tutorials.md)

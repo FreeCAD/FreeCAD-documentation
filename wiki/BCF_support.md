@@ -1,3 +1,8 @@
+# BCF support
+
+
+{{VeryImportantMessage|This project was realized during [GSOC 2019](#GSOC_2019.md)}}
+
 This page is dedicated to the description of the [Google Summer of Code 2019](Google_Summer_of_Code.md) project idea of adding BCF support to FreeCAD.
 
 ## Outline
@@ -50,5 +55,13 @@ Medium
 ### Additional Information 
 
 -   Potential mentors: [Yorik](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=68)
+
+## GSOC 2019 
+
+This workbench was created during a GSOC 2019 by user \'podestplatz\'. Relevant links:
+
+-   [Dev logs](https://podestplatz.github.io/FreeCAD-blog/posts/dev-logs/)
+-   FreeCAD blog - BCF integration ([link](https://podestplatz.github.io/FreeCAD-blog/))
+-   [BCF git repo](https://github.com/podestplatz/BCF-Plugin-FreeCAD/)
 
 [Category:Google Summer of Code](Category:Google_Summer_of_Code.md)

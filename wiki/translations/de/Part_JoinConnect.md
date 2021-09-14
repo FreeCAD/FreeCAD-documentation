@@ -7,9 +7,6 @@
    SeeAlso:[Part FügeEinbetten](Part_JoinEmbed/de.md), [Part FügeAusschnitt](Part_JoinCutout.md), [Part Bool'sche Operationen](Part_Boolean/de.md), [Part Dicke](Part_Thickness/de.md)
 ---
 
-
-</div>
-
 ## Beschreibung
 
 Das Verbinden Werkzeug verbindet die Innenbereiche von zwei Hohlobjekten (z.B. Rohre). Es kann auch Schalen und Drähte verbinden.
@@ -93,13 +90,7 @@ Das Werkzeug wurde in FreeCAD v0.16.5069 eingeführt.
 Das Werkzeug wurde neu implementiert, um über generalFuse in FreeCAD v0.17.8053 zu arbeiten.
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
   

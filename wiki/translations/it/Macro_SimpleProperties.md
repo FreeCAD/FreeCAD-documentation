@@ -1,3 +1,5 @@
+# Macro SimpleProperties/it
+
  {{Macro/it
 |Name=SimpleProperties
 |Icon=Macro_SimpleProperties.png

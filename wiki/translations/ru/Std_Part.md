@@ -52,10 +52,10 @@ In addition to the properties described in [App GeoFeature](App_GeoFeature.md), 
 
 These are the properties available in the [property editor](property_editor.md). Hidden properties can be shown by using the **Show all** command in the context menu of the [property editor](property_editor.md).
 
-### Data
+### Данные
 
 
-{{TitleProperty|Base}}
+{{TitleProperty|Основные}}
 
 -    **Type|String**: a description for this object. By default, it is an empty string {{value|""}}.
 
@@ -88,7 +88,7 @@ These are the properties available in the [property editor](property_editor.md).
 
 -    **Group|LinkList**: a list of referenced objects. By default, it is empty {{value|[]}}.
 
-#### Hidden properties Data 
+#### Скрытые свойства Данных 
 
 -    **Material|Map**: map with material properties. By default, it is empty {}.
 
@@ -106,12 +106,12 @@ These are the properties available in the [property editor](property_editor.md).
 
 -    **_ Group Touched|Bool**: whether the group is touched or not.
 
-### View
+### Вид
 
 The App Part only has the five properties of the basic [App FeaturePython](App_FeaturePython.md), and it does not have hidden properties.
 
 
-{{TitleProperty|Base}}
+{{TitleProperty|Основные}}
 
 -    **Display Mode|Enumeration**: {{value|Group}}.
 
@@ -195,12 +195,12 @@ A [Std Part](Std_Part.md) is formally an instance of the class `App::Part`, whos
 
 *Simplified diagram of the relationships between the core objects in the program. The `App::Part* class is a simple container that has a position in 3D space, and has an Origin to control the placement of the objects grouped under it.`
 
-## Scripting
+## Программирование
 
 
-**See also:**
+**Смотрите так же:**
 
-[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md), and [scripted objects](scripted_objects.md).
+[Основы составления скриптов в FreeCAD](FreeCAD_Scripting_Basics/ru.md), и [скриптовые объекты](scripted_objects/ru.md).
 
 See [Part Feature](Part_Feature.md) for the general information on adding objects to the document.
 

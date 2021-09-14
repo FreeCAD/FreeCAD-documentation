@@ -1,3 +1,5 @@
+# TechDraw TemplateHowTo/fr
+
 
 
 
@@ -11,21 +13,9 @@
 
 ## Introduction
 
-
-<div class="mw-translate-fuzzy">
-
-Ce tutoriel explique comment créer un fichier [SVG](SVG/fr.md) pouvant être utilisé comme arrière-plan [modèle](TechDraw_Templates/fr.md) pour les pages de l\'[Atelier Techdraw](TechDraw_Workbench/fr.md).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+Ce tutoriel explique comment créer un fichier [SVG](SVG/fr.md) pouvant être utilisé comme [modèle](TechDraw_Templates/fr.md) d\'arrière-plan pour les pages de l\'[Atelier Techdraw](TechDraw_Workbench/fr.md).
 
 Ce tutoriel suppose que vous connaissez moyennement [Inkscape](https://fr.wikipedia.org/wiki/Inkscape) et [SVG](SVG/fr.md) ainsi que FreeCAD et l\'[atelier TechDraw](TechDraw_Workbench/fr.md).
-
-
-</div>
 
 Nous allons créer un modèle simple pour le papier de format Lettre US en orientation paysage.
 
@@ -116,13 +106,7 @@ Notez que vos textes modifiables *ne fonctionneront pas* si vous utilisez \"<htt
 
 20\. Enregistrez votre modèle. Lorsque vous utilisez Inkscape, enregistrez-le de préférence sous **SVG simple** car FreeCAD ne peut gérer que les fonctionnalités de la spécification SVG 1.1. **SVG simple** supprimera toutes les balises XML spécifiques à Inkscape.
 
-
-<div class="mw-translate-fuzzy">
-
 21\. Essayez-le dans FreeCAD et dans l\'[atelier TechDraw](TechDraw_Workbench/fr.md) avec [Nouvelle page selon modèle](TechDraw_PageTemplate/fr.md). ![](images/FCTemplateHow.png ) *align=center|FreeCAD: modèle fini avec un champ de texte modifiable en cours de modification* 
-
-
-</div>
 
 ## Remarques
 

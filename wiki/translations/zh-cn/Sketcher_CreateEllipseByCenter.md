@@ -41,6 +41,11 @@
 
 </div>
 
+## Peculiarities
+
+
+<div class="mw-translate-fuzzy">
+
 ## 特性
 
 -   长轴与短轴是严格界定的，调整椭圆时并不能交换两者。这是求解器参数化椭圆时所用的信息（中点(x,y)、焦点focus1(x,y)以及短半轴长度(b)），OpenCascade也严格遵循相同的行为。因此，必须通过旋转的方式来交换椭圆的两轴。
@@ -48,9 +53,12 @@
 -   通过拖动边来移动椭圆与移动椭圆的中点效果相同。
 
 
+</div>
+
+
 
 
 
 {{Sketcher Tools navi
 
-}}  
+}} 

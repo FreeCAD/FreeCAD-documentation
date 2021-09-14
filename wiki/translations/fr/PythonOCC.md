@@ -1,26 +1,16 @@
+# PythonOCC/fr
+
 
 
 ## Description
 
-
-<div class="mw-translate-fuzzy">
-
 [PythonOCC](PythonOCC/fr.md) est un projet qui vise à fournir toute la gamme des fonctions [OpenCASCADE Technology](OpenCASCADE/fr.md) (OCCT) via le module [Python](Python/fr.md) `OCC`. C\'est une approche différente de celle de FreeCAD, où seuls certains composants d\'OCCT sont exposés via l\'[atelier Part](Part_Workbench/fr.md).
-
-
-</div>
 
 PythonOCC, d\'autre part, donne accès à toutes les classes et fonctions OCCT, ce qui est complexe mais aussi très puissant. Par conséquent, lorsque vous êtes limité par la fonctionnalité OCCT de FreeCAD, l\'utilisation de `pythonOCC` est une bonne alternative.
 
 ## Utilisation
 
-
-<div class="mw-translate-fuzzy">
-
 l\'[Atelier Part](Part_Workbench/fr.md) a les méthodes `Part.__toPythonOCC__()` et `Part.__fromPythonOCC__()` pour échanger des entités `TopoDS_Shape` ([Part TopoShape](Part_TopoShape/fr.md)) vers et depuis PythonOCC. Ces méthodes nous permettent d\'utiliser toute la puissance d\'OCCT en Python, puis de remettre les formes résultantes dans des objets FreeCAD.
-
-
-</div>
 
 PythonOCC est utilisé en interne par le visualiseur [IFC](Arch_IFC/fr.md) inclus avec les bibliothèques [IfcOpenShell](IfcOpenShell/fr.md). IfcOpenShell est utilisé pour lire et écrire des documents [IFC](Arch_IFC/fr.md) avec FreeCAD. PythonOCC n\'est nécessaire que pour lancer le visualiseur intégré d\'IfcOpenShell, sinon il n\'est pas nécessaire.
 
@@ -55,4 +45,4 @@ Vous pouvez également compiler vous-même pythonOCC (voir [instructions](https:
 
 }} 
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Python Code{{\#translation:}}](Category:Python_Code.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)

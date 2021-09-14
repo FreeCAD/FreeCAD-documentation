@@ -1,3 +1,5 @@
+# Scripts/fr
+
  {{TutorialInfo/fr
 |Topic=Scripting
 |Level=Base
@@ -310,4 +312,4 @@ C\'est le sens du mot \"maladroit\" que j\'ai utilisé pour définir la proprié
 
 }} 
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Python Code{{\#translation:}}](Category:Python_Code.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)

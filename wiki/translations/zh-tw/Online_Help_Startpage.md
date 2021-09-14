@@ -1,3 +1,5 @@
+# Online Help Startpage/zh-tw
+
  
 
 ![150](images/Crystal_Clear_app_tutorials.png )
@@ -20,4 +22,4 @@ As you may have experienced sometimes, programmers are really bad help writers! 
 
 
 
-[Category:User\_Documentation{{\#translation:}}](Category:User_Documentation.md)
+[Category:User\_Documentation](Category:User_Documentation.md)

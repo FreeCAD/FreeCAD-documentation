@@ -1,4 +1,6 @@
-\_\_NOTOC\_\_ 
+# Artwork Mesh/pl
+
+ 
 
 Ikony te znajdują się we wskazanej ścieżce źródłowej.
 
@@ -19,4 +21,4 @@ Wszystkie ikonki widoczne na liście źródłowej, patrz [Grafika](Artwork/pl.md
 
 }} 
 
-[Category:Mesh{{\#translation:}}](Category:Mesh.md)
+[Category:Mesh](Category:Mesh.md)

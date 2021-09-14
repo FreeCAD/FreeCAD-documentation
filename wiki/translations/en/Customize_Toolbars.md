@@ -1,3 +1,5 @@
+# Customize Toolbars/en
+
  {{TutorialInfo|Topic=SampleTopic|Level=Beginner|Time=5 minutes|Author=[Mario52](User:Mario52.md)|FCVersion=All}}
 
 ## Synopsis
@@ -114,4 +116,4 @@ See also [Interface Customization](Interface_Customization.md).
 
 
 
-[Category:Preferences{{\#translation:}}](Category:Preferences.md)
+[Category:Preferences](Category:Preferences.md)

@@ -1,3 +1,5 @@
+# Reverse Engineering Workbench/pt-br
+
  
 
 <img alt="ícone da bancada de trabalho Reverse Engineering" src=images/Workbench_Reverse_Engineering.svg  style="width:128px;">
@@ -24,4 +26,4 @@ Link para os tópicos apropriados discutindo esta bancada de trabalho
 
  
 
-[Category:Reverse Engineering{{\#translation:}}](Category:Reverse_Engineering.md) [Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Reverse Engineering](Category:Reverse_Engineering.md) [Category:Workbenches](Category:Workbenches.md)

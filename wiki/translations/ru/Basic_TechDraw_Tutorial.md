@@ -1,3 +1,5 @@
+# Basic TechDraw Tutorial/ru
+
  {{TutorialInfo/ru
 |Topic=Modeling
 |Level=Beginner

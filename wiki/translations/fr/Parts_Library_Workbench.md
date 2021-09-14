@@ -1,3 +1,5 @@
+# Parts Library Workbench/fr
+
 
 
 ## Introduction
@@ -55,4 +57,4 @@ La bibliothèque est un simple conteneur pour les fichiers FreeCAD (.fcstd) et S
 
 
 
-[Category:User Documentation{{\#translation:}}](Category:User_Documentation.md) [Category:Addons{{\#translation:}}](Category:Addons.md) [Category:External Workbenches{{\#translation:}}](Category:External_Workbenches.md)
+[Category:User Documentation](Category:User_Documentation.md) [Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)

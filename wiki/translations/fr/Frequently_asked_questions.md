@@ -1,3 +1,5 @@
+# Frequently asked questions/fr
+
 
 
 
@@ -279,4 +281,4 @@ Oui, vous pouvez utiliser les composants essentiels de FreeCAD dans d'autres app
 
 
 
-[Category:Documentation{{\#translation:}}](Category:Documentation.md)
+[Category:Documentation](Category:Documentation.md)

@@ -1,5 +1,11 @@
 ---
-- GuiCommand:/es   Name:Arch CutPlane   Name/es:Arch CutPlane   Workbenches:[MenuLocation:Arch → Cut Plane   SeeAlso:[[Arch Remove/es|Arch Remove](Arch_Module/es___Arch]].md)---
+- GuiCommand:/es
+   Name:Arch CutPlane
+   Name/es:Arch CutPlane
+   MenuLocation:Arch → Cut Plane
+   Workbenches:[Arch](Arch_Workbench/es.md)
+   SeeAlso:[Arch Remove](Arch_Remove/es.md)
+---
 
 
 </div>

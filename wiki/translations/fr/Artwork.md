@@ -1,4 +1,6 @@
-\_\_NOTOC\_\_  Voici les icônes créés pour FreeCad. N\'hésitez pas à les utiliser dans vos applications. Si vous voulez contribuer en créant des icônes, veuillez lire les [directives de style graphique](Artwork_Guidelines.md).
+# Artwork/fr
+
+  Voici les icônes créés pour FreeCad. N\'hésitez pas à les utiliser dans vos applications. Si vous voulez contribuer en créant des icônes, veuillez lire les [directives de style graphique](Artwork_Guidelines.md).
 
 ## Icônes diverses 
 
@@ -155,4 +157,4 @@ Voir [Erreurs graphiques](Artwork_Erroneous/fr.md).
 
 }}
 
-[Category:Icon{{\#translation:}}](Category:Icon.md) [Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md)
+[Category:Icon](Category:Icon.md) [Category:Developer Documentation](Category:Developer_Documentation.md)

@@ -2,14 +2,11 @@
 - GuiCommand:/fr
    Name:TechDraw  Dimension Horizontal
    Name/fr:TechDraw Cote horizontale
-   MenuLocation:TechDraw → Dimensions → Insérer une cote horizontale
+   MenuLocation:TechDraw → Dimensions → Insérer une nouvelle cote horizontale
    Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
    Shortcut:**Maj** + **H**
-   SeeAlso:[TechDraw Longueur](TechDraw_Dimension_Length/fr.md), [TechDraw Cote verticale](TechDraw_Dimension_Vertical/fr.md)
+   SeeAlso:[TechDraw Cote de longueur](TechDraw_Dimension_Length/fr.md), [TechDraw Cote verticale](TechDraw_Dimension_Vertical/fr.md)
 ---
-
-
-</div>
 
 ## Description
 
@@ -55,13 +52,7 @@ rc = page.addView(dim1)
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{TechDraw Tools navi

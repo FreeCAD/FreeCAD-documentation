@@ -10,12 +10,12 @@
 
 </div>
 
-## Description
+## Beschreibung
 
 
 <div class="mw-translate-fuzzy">
 
-## Beschreibung
+## Beschreibung 
 
 Erstellt eine einfache parametrische Kugel mit den Parametern Position, Winkel1, Winkel2, Winkel3 und Radius.
 
@@ -24,12 +24,12 @@ Erstellt eine einfache parametrische Kugel mit den Parametern Position, Winkel1,
 
 <img alt="" src=images/SimpleSphere.jpg  style="width:400px;">
 
-## Usage
+## Anwendung
 
 
 <div class="mw-translate-fuzzy">
 
-## Anwendung
+## Anwendung 
 
 Klicke im Arbeitsbereich [Part](Part_Workbench/de.md) auf das Kugelsymbol <img alt="" src=images/Part_Sphere.svg  style="width:24px;">. Die Kugel wird bei der Erstellung am Ursprung (Punkt 0,0,0) positioniert. Die Winkelparameter erlauben es, einen Teil der Kugel statt einer Vollkugel zu erstellen (sie sind standardmäßig auf 360° eingestellt).
 
@@ -48,10 +48,10 @@ The properties of the object can be edited, either in the [Property editor](Prop
 
 </div>
 
-### Data
+### Daten
 
 
-{{TitleProperty|Sphere}}
+{{TitleProperty|Kugel}}
 
 -    **Radius:**Radius of the sphere
 

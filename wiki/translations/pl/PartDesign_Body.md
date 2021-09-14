@@ -230,7 +230,7 @@ Wiele [Szkiców](Sketch/pl.md) może być widocznych w tym samym czasie, ale tyl
 
 [Cecha Projektu części](PartDesign_Feature/pl.md), tak jak [obiekty planarne](Part_Part2DObject/pl.md), mogą być dołączone do różnych płaszczyzn, zazwyczaj standardowych płaszczyzn zdefiniowanych przez [Odniesienie położenia](PartDesign_Body/pl#Odniesienie_po.C5.82o.C5.BCenia.md), lub do niestandardowych [płaszczyzn Projektu części](PartDesign_Plane/pl.md).
 
-[Szkice](Sketch/pl.md) są zazwyczaj dołączane do płaszczyzny podczas ich tworzenia. W podobny sposób mogą być dołączane [bryły pierwotne](PartDesign_CompPrimitiveAdditive/pl.md). Przymocowanie tych obiektów do płaszczyzny pozwala na ich przemieszczanie w zawartości poprzez zmianę ich właściwości **Przesunięcie umocowania**. Więcej informacji na temat trybów dołączania można znaleźć na stronie [Część: umocowanie](Part_Attachment/pl.md).
+[Szkice](Sketch/pl.md) są zazwyczaj dołączane do płaszczyzny podczas ich tworzenia. W podobny sposób mogą być dołączane [bryły pierwotne](PartDesign_CompPrimitiveAdditive/pl.md). Przymocowanie tych obiektów do płaszczyzny pozwala na ich przemieszczanie w zawartości poprzez zmianę ich właściwości **Przesunięcie umocowania**. Więcej informacji na temat trybów dołączania można znaleźć na stronie [Część: Edytuj mocowanie](Part_EditAttachment/pl.md).
 
 Element [cecha Projektu części](PartDesign_Feature/pl.md), który nie jest dołączony będzie pokazany z czerwonym symbolem nakładki obok jego ikony w [widoku drzewa](Tree_view/pl.md).
 

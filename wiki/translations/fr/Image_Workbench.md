@@ -1,3 +1,5 @@
+# Image Workbench/fr
+
  
 
 <img alt="Icône de l\'atelier Image" src=images/Workbench_Image.svg  style="width:128px;">
@@ -37,4 +39,4 @@ Le décalage de l\'image peut être défini lors de l\'importation ou modifié u
 
 }} 
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

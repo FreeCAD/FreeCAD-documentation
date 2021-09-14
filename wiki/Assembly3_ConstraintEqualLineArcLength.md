@@ -13,9 +13,7 @@ It links the length of the 2D line with the length of an arc (2D or 3D?).
 
 The length value of the selected line equals the length of selected arc.
 
-Since I couldn't get this tool working here's the statement of the tool tip: 
-
-Add an \"EqualLineArcLength\" constraint to make a line of the same length as an arc.
+Since I couldn\'t get this tool working here\'s the statement of the tool tip: Add an \"EqualLineArcLength\" constraint to make a line of the same length as an arc.
 
 ## Usage
 

@@ -5,11 +5,7 @@
    MenuLocation:Path → Activer/désactiver l'état actif de l'opération
    Workbenches:[Path](Path_Workbench/fr.md)
    Shortcut:**P** **X **
-   SeeAlso:
 ---
-
-
-</div>
 
 ## Description
 
@@ -17,60 +13,36 @@ L\'outil **<img src="images/Path_OpActiveToggle.svg" width=24px> [Path Activatio
 
 ## Utilisation
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Sélectionnez une opération dans le groupe \"Opérations\" d\'un travail.
-2.  Cliquez sur l\'icône de la bascule **<img src="images/Path_OpActiveToggle.svg" width=16px> [Activer/désactiver l'état actif de l'opération](Path_OpActiveToggle/fr.md)**.
-3.  Lorsque vous désactivez une opération, vous remarquerez:
-    -   Le titre de l\'opération et l\'icône qui le précède deviennent gris clair.
-    -   L\'icône devant l\'étiquette de l\'opération sera remplacée par celle de l\'icône <img alt="" src=images/Path_OpActiveToggle.svg  style="width:16px;"> Activation d\'opération.
-    -   Les chemins générés à partir de l\'opération disparaîtront de la fenêtre.
-    -   Lors de l\'utilisation de l\'outil **<img src="images/Path_Inspect.svg" width=16px> [Path Inspecte le G-Code...](Path_Inspect/fr.md)** ou **<img src="images/Path_PostProcess.svg" width=16px> [Path Post-traitement...](Path_Post/fr.md)**, aucun G-Code ne sera fourni à partir de l\'opération désactivée.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+1.  Sélectionnez une opération dans le groupe **Opérations** appartenant à un travail. Une opération désactivée est reconnaissable à son étiquette et à son icône grisées.
+2.  Il existe plusieurs façons de lancer la commande :
+    -   Appuyez sur le bouton **<img src="images/Path_OpActiveToggle.svg" width=16px> [Activer/désactiver l'état actif de l'opération](Path_OpActiveToggle/fr.md)**.
+    -   Sélectionnez le bouton **Path → <img src="images/Path_OpActiveToggle.svg" width=16px> Activer/désactiver l'état actif de l'opération** dans le menu.
+    -   Utilisez le raccourci clavier : **P** puis **X**.
+3.  Le résultat dépend de l\'opération sélectionnée :
+    -   Si vous avez sélectionné une opération active, la commande la désactive :
+        -   L\'icône de l\'opération est remplacée par l\'icône de la commande : <img alt="" src=images/Path_OpActiveToggle.svg  style="width:16px;">.
+        -   L\'icône de l\'opération et le libellé sont grisés.
+        -   Les chemins générés par l\'opération disparaissent de la [Vue 3D](3D_view/fr.md).
+        -   Lorsque vous utilisez l\'outil <img alt="" src=images/Path_Inspect.svg  style="width:16px;"> [Path Inspecteur G-code](Path_Inspect/fr.md) ou de la commande <img alt="" src=images/Path_Post.svg  style="width:16px;"> [Path Post-traitement](Path_Post/fr.md), le code G de l\'opération n\'est pas fourni.
+    -   Si vous avez sélectionné une opération désactivée, la commande l\'active :
+        -   L\'icône de l\'opération est remplacée par celle appartenant à l\'opération.
+        -   L\'icône et le libellé de l\'opération ne sont plus grisés.
+        -   Les trajectoires générées par l\'opération sont recalculées et affichées dans la [Vue 3D](3D_view/fr.md).
+        -   Lorsque vous utilisez l\'outil <img alt="" src=images/Path_Inspect.svg  style="width:16px;"> [Path Inspecteur G-code](Path_Inspect/fr.md) ou de la commande <img alt="" src=images/Path_Post.svg  style="width:16px;"> [Path Post-traitement](Path_Post/fr.md), le G-code de l\'opération est fourni.
 
 ## Options
 
 Vide
 
-
-</div>
-
-Empty
-
 ## Propriétés
-
-
-<div class="mw-translate-fuzzy">
 
 ### Données
 
 Vide
 
-
-</div>
-
-Empty
-
-
-<div class="mw-translate-fuzzy">
-
 ### Vue
 
 Vide
-
-
-</div>
-
-Empty
-
-
-<div class="mw-translate-fuzzy">
 
 ## Script
 
@@ -79,22 +51,7 @@ Empty
 
 [FreeCAD Script de base](FreeCAD_Scripting_Basics/fr.md).
 
-
-</div>
-
-
-**See also:**
-
-[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
-
-
-<div class="mw-translate-fuzzy">
-
-Exemple: 
-```python#Place code example here.```
-
-
-</div>
+Exemple :
 
 
 ```python
@@ -102,13 +59,7 @@ Exemple:
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Path_Tools_navi

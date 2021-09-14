@@ -1,3 +1,5 @@
+# Contributors/pt
+
 
 
 
@@ -257,4 +259,4 @@ Desenvolvedores de Extras para FreeCAD (obtido a partir de <https://github.com/F
 
 
 
-[Category:Developer{{\#translation:}}](Category:Developer.md)
+[Category:Developer](Category:Developer.md)

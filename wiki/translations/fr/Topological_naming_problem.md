@@ -1,3 +1,5 @@
+# Topological naming problem/fr
+
 
 
 ## Introduction
@@ -127,4 +129,4 @@ Les objets de référence, [points](PartDesign_Point/fr.md), [lignes](PartDesign
 
  {{TechDraw Tools navi}} {{PartDesign Tools navi}} 
 
-[Category:Common Questions{{\#translation:}}](Category:Common_Questions.md)
+[Category:Common Questions](Category:Common_Questions.md)

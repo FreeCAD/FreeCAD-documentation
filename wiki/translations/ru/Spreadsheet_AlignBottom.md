@@ -1,8 +1,8 @@
 ---
 - GuiCommand:/ru
-   Name:Spreadsheet AlignTop
    Name/ru:Выровнять по нижнему краю
-   MenuLocation:Spreadsheet → Alignment → Выровнять по нижнему краю
+   Name:Spreadsheet_AlignBottom
+   MenuLocation:Электронная таблица → Alignment → Выровнять по нижнему краю
    Workbenches:[Spreadsheet](Spreadsheet_Workbench/ru.md)
    Version:0.17
 ---

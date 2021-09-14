@@ -1,33 +1,34 @@
 ---
 - GuiCommand:
    Name:Draft ToggleGrid
-   Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
+   Name/pl:Rysunek Roboczy: Przełącz widoczność siatki
+   Workbenches:[Rysunek Roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
    Shortcut:**G** **R**
-   SeeAlso:[Draft Snap](Draft_Snap.md), [Draft Snap Grid](Draft_Snap_Grid.md), [Draft SelectPlane](Draft_SelectPlane.md)
+   SeeAlso:[Przyciąganie](Draft_Snap/pl.md), [Przyciągnij do siatki](Draft_Snap_Grid/pl.md), [Wybór płaszczyzny roboczej](Draft_SelectPlane/pl.md)
 ---
 
-## Description
+## Opis
 
-The <img alt="" src=images/Draft_ToggleGrid.svg  style="width:24px;"> **Draft ToggleGrid** command switches the grid on or off. The grid can only be used if the **Use grid** preference is selected. See [Preferences](#Preferences.md).
+Polecenie <img alt="" src=images/Draft_ToggleGrid.svg  style="width:24px;"> **Przełącz widoczność siatki**\' włącza lub wyłącza siatkę. Siatka może być używana tylko wtedy, gdy preferencja **Użyj siatki** jest wybrana. Zobacz akapit [Ustawienia](Draft_ToggleGrid/pl#Ustawienia.md).
 
-In FreeCAD version 0.19 and 0.20 the grid is always displayed when a command becomes active and toggling the grid while a command is active does not work.
+W wersji 0.19 i 0.20 programu FreeCAD siatka jest zawsze wyświetlana, gdy polecenie staje się aktywne, a przełączanie widoczności siatki, gdy polecenie jest aktywne, nie działa.
 
-## Usage
+## Użycie
 
-For general information about snapping see [Draft Snap](Draft_Snap.md).
+Ogólne informacje na temat przyciągania można znaleźć na stronie [Przyciąganie](Draft_Snap/pl.md).
 
-1.  Optionally change the [working plane and/or the grid](Draft_SelectPlane.md).
-2.  To invoke **Draft ToggleGrid** do one of the following:
-    -   Press the **<img src="images/Draft_ToggleGrid.svg" width=16px>** button in the Draft Snap toolbar.
-    -   Press the **<img src="images/Draft_ToggleGrid.svg" width=16px>** button in the [Draft snap widget](Draft_snap_widget.md).
-    -   Use the keyboard shortcut: **G** then **R**. This shortcut cannot be used when a command is active.
+1.  Opcjonalnie zmień [płaszczyznę roboczą i / lub siatkę](Draft_SelectPlane/pl.md).
+2.  Aby wywołać opcję **Przełącz widoczność siatki** wykonaj jedną z poniższych czynności:
+    -   Naciśnij przycisk **<img src="images/Draft_ToggleGrid.svg" width=24px>** na pasku narzędzi Rysunek Roboczy- przyciąganie.
+    -   Naciśnij przycisk **<img src="images/Draft_ToggleGrid.svg" width=24px>** w [Widżecie przyciągania](Draft_snap_widget/pl.md).
+    -   Użyj skrótu klawiaturowego: **G** a następnie **R**. Tego skrótu nie można używać, gdy polecenie jest aktywne.
 
-## Preferences
+## Ustawienia
 
-See [Draft Snap](Draft_Snap#Preferences.md).
+Zobacz stronę [Przyciąganie](Draft_Snap/pl#Ustawienia.md).
 
--   To use the grid select: **Edit → Preferences... → Draft → Grid and snapping → Grid → Use grid**. After changing this preference you must restart FreeCAD.
--   Several other grid preferences are also available: **Edit → Preferences... → Draft → Grid and snapping → Grid**.
+-   Aby użyć siatki wybierz: **Edycja → Preferencje → Rysunek Roboczy → Siatka i przyciąganie → Siatka → Użyj siatki**. After changing this preference you must restart FreeCAD.
+-   Dostępnych jest również kilka innych preferencji dla siatki: **Edycja → Preferencje → Rysunek Roboczy → Siatka i przyciąganie → Siatka**.
 
 
 

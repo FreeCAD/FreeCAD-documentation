@@ -1,3 +1,5 @@
+# Tasks Placement/ro
+
 
 
 ## Descriere
@@ -146,4 +148,4 @@ Altă explicație este pe [Placement](Placement.md)
 
 
 
-[Category:Command\_Reference{{\#translation:}}](Category:Command_Reference.md)
+[Category:Command\_Reference](Category:Command_Reference.md)

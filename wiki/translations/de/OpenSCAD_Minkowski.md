@@ -2,13 +2,8 @@
 - GuiCommand:/de
    Name:OpenSCAD Minkowski
    MenuLocation:OpenSCAD → Minkowski
-‎   |Workbenches:[OpenSCAD](OpenSCAD_Workbench.md)
-   Shortcut:Keine
-   SeeAlso:---
+‎   |Workbenches:[OpenSCAD](OpenSCAD_Workbench/de.md)
 ---
-
-
-</div>
 
 ## Beschreibung
 

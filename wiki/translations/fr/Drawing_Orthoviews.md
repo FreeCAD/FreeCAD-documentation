@@ -70,7 +70,7 @@ A ajouter.
 {{docnav/fr
 |[Ouvrir sur le navigateur interne Drawing](Drawing_Openbrowser/fr.md)
 |[Symbole Drawing](Drawing_Symbol/fr.md)
-|[Module Drawing](Drawing_Module/fr.md)
+|[Module Drawing](Drawing_Workbench/fr.md)
 |IconL=Drawing_Openbrowser.png
 |IconC=Workbench_Drawing.svg
 |IconR=Drawing_Symbol.png

@@ -1,20 +1,17 @@
 ---
 - GuiCommand:/ru
-   Name:Sketcher MergeSketches
    Name/ru:Объединить эскизы
+   Name:Sketcher_MergeSketches
    MenuLocation:Sketch → Объединить эскизы
    Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
    Version:0.15
 ---
 
-
-</div>
-
 ## Описание
 
 Объединить два или более эскизов в один.
 
-## Использование
+## Применение
 
 
 <div class="mw-translate-fuzzy">

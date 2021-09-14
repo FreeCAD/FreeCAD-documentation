@@ -1,8 +1,9 @@
 ---
 - GuiCommand:/ru
    Name:Arch RemoveShape
-   Workbenches:[Arch](Arch_Module/ru.md)
+   Name/ru:Arch RemoveShape
    MenuLocation:Архитектура → Утилиты → Удалить форму из Архитектуры
+   Workbenches:[Arch](Arch_Workbench/ru.md)
    SeeAlso:[Сетка в фигуру](Arch_MeshToShape/ru.md)
 ---
 

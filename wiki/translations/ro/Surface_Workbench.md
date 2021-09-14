@@ -1,3 +1,5 @@
+# Surface Workbench/ro
+
 
 
 
@@ -73,4 +75,4 @@ creează o suprafață de la două, trei sau patru margini de graniță. Sunt di
 
 }} 
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

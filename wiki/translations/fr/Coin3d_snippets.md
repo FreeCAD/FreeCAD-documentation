@@ -1,3 +1,5 @@
+# Coin3d snippets/fr
+
 
 
 
@@ -101,4 +103,4 @@ Aucune installation n\'est nécessaire. Merci à l\'auteur du programme.
 
 }}
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md)

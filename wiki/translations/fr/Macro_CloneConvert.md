@@ -1,3 +1,5 @@
+# Macro CloneConvert/fr
+
  {{Macro/fr
 |Name=Macro CloneConvert
 |Icon=Macro_CloneConvert.png

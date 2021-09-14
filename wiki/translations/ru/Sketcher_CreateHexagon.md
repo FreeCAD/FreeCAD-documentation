@@ -1,14 +1,11 @@
 ---
 - GuiCommand:/ru
-   Name:Sketcher CreateHexagon
    Name/ru:Шестиугольник
+   Name:Sketcher_CreateHexagon
    MenuLocation:Эскиз → Геометрия эскиза → Шестиугольник
    Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
    Version:0.15
 ---
-
-
-</div>
 
 ## Описание
 
@@ -16,13 +13,7 @@
 
 ![](images/SketcherCreateHexagonExample.png‎ )
 
-
-<div class="mw-translate-fuzzy">
-
-## Как использовать 
-
-
-</div>
+## Применение
 
 
 <div class="mw-translate-fuzzy">
@@ -33,13 +24,9 @@
 
 </div>
 
+## Примечания
 
-<div class="mw-translate-fuzzy">
-
-При редактировании эскиза описанный круг виден, когда вы закрываете эскиз, он пропадает.
-
-
-</div>
+Видимая окружность является элементом вспомогательной геометрией, которая видна только при редактировании эскиза.
 
 
 
@@ -47,4 +34,4 @@
 
 {{Sketcher Tools navi
 
-}}  
+}} 

@@ -16,7 +16,7 @@
 
 ToDo
 
-## Использование
+## Применение
 
 
 <div class="mw-translate-fuzzy">

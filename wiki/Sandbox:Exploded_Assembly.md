@@ -1,3 +1,5 @@
+# Sandbox:Exploded Assembly
+
 ## Introduction
 
 FreeCAD workbench to create exploded views and animations of assemblies.

@@ -1,3 +1,5 @@
+# Manual:Parametric objects/de
+
 
 
 
@@ -39,4 +41,4 @@ Schließlich ist es erwähnenswert, dass benutzerdefinierte parametrische Objekt
 
 
 
-[Category:Poweruser Documentation{{\#translation:}}](Category:Poweruser_Documentation.md) [Category:Tutorials{{\#translation:}}](Category:Tutorials.md)
+[Category:Poweruser Documentation](Category:Poweruser_Documentation.md) [Category:Tutorials](Category:Tutorials.md)

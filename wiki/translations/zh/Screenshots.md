@@ -1,3 +1,5 @@
+# Screenshots/zh
+
  {{TOCright}}
 
 这里的截图展示了FreeCAD的不同部分。他们并为按照特定的时间线排序，因此这些图片也许与你的真实版本不同。在 [论坛截图跟帖](http://forum.freecadweb.org/viewtopic.php?f=8&t=4751)以及[论坛用户秀](http://forum.freecadweb.org/viewforum.php?f=24)查看更多的有FreeCAD用户提交的截图。

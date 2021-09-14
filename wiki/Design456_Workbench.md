@@ -1,3 +1,5 @@
+# Design456 Workbench
+
 
 {{VeryImportantMessage|This workbench is under heavy development}}
 
@@ -15,6 +17,16 @@ Traditionally, FreeCAD employs a Parametric Modeling methodology which is a powe
 
 Download the Design456 workbench via the <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Addon_Manager.md) 
 **Tools → Addon Manager**
+
+##### Note:
+
+If the above is not working for you please consider :
+
+-   Addon manager no longer works in FreeCAD 0.18 due to changes in Github use FreeCAD 0.19 instead.
+-   Invoke the Addon Manager - Tools \| Adddon manager.
+-   Select Configure..Into Custom repositories enter <https://github.com/MariwanJ/Design456>.
+-   Then OK.
+-   Restart FreeCAD.
 
 ## References
 
@@ -59,17 +71,33 @@ Download the Design456 workbench via the <img alt="" src=images/AddonManager.svg
 -   <img alt="" src=images/Design456_MoveObject.svg  style="width:32px;"> [Design456 Move Object](Design456_MoveObject.md): Move, rotate 3D Objects.
 -   <img alt="" src=images/Design456_MoveObjectDetails.svg  style="width:32px;"> [Design456 Move Object in details](Design456_MoveObjectDetails.md): Move, rotate 3D and 2D Objects.
 
-### Microelly2 Tools converted 
+### [FreeCAD Direct Modeling](FreeCAD_Direct_Modeling.md) 
 
--   Coming Soon!
+The main WB development is on this part at the moment. There are some (almost- finished) commands developed, and the development of this part is ongoing. The following are available ..
+
+-   smart Scale
+-   smart DirectScale
+-   smart Fillet
+-   samrt Chamfer
+-   smart Extrude
+
+##### Note: 
+
+Please notice that there is no version released yet for this workbench. Intensively development is ongoing and bug is expected on the tools. Don\'t use it on serious document yet.
 
 ### [FreeCAD GUI Widgets toolkit](FreeCAD_GUI_Widgets_toolkit.md) 
 
 Fr\_Widget system is a beginning work for the Coin3D and the QT drawing GUI toolkit. The toolkit will make it easy to make drawing and provides an interactive way to manipulate the objects. The simplicity of the toolkit should make it easy to use it. It will be well documented. Looking at the Devbranch at my github, you will find some widget that are already made. But it is just the beginning. More details will come after finishing the Nurbs tools. The toolkit will be a flavor of FLTK toolkit.
+
+### Microelly2 Tools converted 
+
+I did the conversion for the Nurbs and fixed many bugs. In the begning I added the project to my WB, but since the tools are not working well, I remove it. The work is huge and there were places where I didn\'t know how to solve the issues. More time required and more understanding of Microlley\'s work is required that is why the work on the project is suspended. Some good works are done and you can find the project at : <https://github.com/MariwanJ/nurbs>
+
+-   Tobe continued!
 
 
 {{Design456 Tools navi
 
 }} 
 
-[Category:External Workbenches{{\#translation:}}](Category:External_Workbenches.md) [Category:Addons{{\#translation:}}](Category:Addons.md)
+[Category:External Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)

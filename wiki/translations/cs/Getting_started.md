@@ -1,3 +1,5 @@
+# Getting started/cs
+
 
 
 
@@ -331,10 +333,10 @@ A nakonec jedna z nejmocnějších vlastností FreeCADu je prostředí pro [skri
 
 <div class="mw-translate-fuzzy">
 
--   [Verze 0.11 Release notes](Release_notes_011.md) : Co je nového ve verzi 0.11 FreeCADu
--   [Verze 0.12 Release notes](Release_notes_012.md) : Co je nového ve verzi 0.12 FreeCADu
--   [Verze 0.13 Release notes](Release_notes_013.md) : Co je nového ve verzi 0.13 FreeCADu
--   [Verze 0.14 Release notes](Release_notes_014.md) : Co je nového ve verzi 0.14 FreeCADu
+-   [Verze 0.11 Release notes](Release_notes_0.11.md) : Co je nového ve verzi 0.11 FreeCADu
+-   [Verze 0.12 Release notes](Release_notes_0.12.md) : Co je nového ve verzi 0.12 FreeCADu
+-   [Verze 0.13 Release notes](Release_notes_0.13.md) : Co je nového ve verzi 0.13 FreeCADu
+-   [Verze 0.14 Release notes](Release_notes_0.14.md) : Co je nového ve verzi 0.14 FreeCADu
 
 
 </div>

@@ -1,3 +1,5 @@
+# Start Preferences/fr
+
 
 
 L\'écran des préférences de l\'[Atelier Start](Start_Workbench.md) se trouve dans les [Préférences de l\'éditeur](Preferences_Editor/fr.md), **Édition → Préférences → Start**.
@@ -112,4 +114,4 @@ Dans l\'onglet \"Start\" vous pouvez spécifiez:
 
 }} 
 
-[Category:Preferences{{\#translation:}}](Category:Preferences.md)
+[Category:Preferences](Category:Preferences.md)

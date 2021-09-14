@@ -1,4 +1,6 @@
-\_\_NOTOC\_\_ 
+# Artwork Start/fr
+
+ 
 
 Ces icônes se trouvent dans le chemin source indiqué.
 
@@ -33,4 +35,4 @@ L\'image suivante a été redimensionnée à une largeur d\'affichage de 480 pix
 
 }} 
 
-[Category:Start{{\#translation:}}](Category:Start.md)
+[Category:Start](Category:Start.md)

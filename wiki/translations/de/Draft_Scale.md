@@ -2,7 +2,7 @@
 - GuiCommand:/de
    Name:Draft Scale   Name/de:Skalieren
    MenuLocation:Entwurf → Skalieren
-   Workbenches:[Draft](Draft_Module/de.md), [Arch](Arch_Module/de.md)
+   Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
    Shortcut:**S** **C**
    SeeAlso:[Klonen](Draft_Clone/de.md), [Versetzen](Draft_Offset/de.md)
 ---

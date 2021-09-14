@@ -2,7 +2,7 @@
 - GuiCommand:/ro
    Name:Arch Nest   Name/ro:Arch Nest
    MenuLocation:Arch → Panel tools → Nest
-   Workbenches:[Arch](Arch_Module/ro.md)
+   Workbenches:[Arch](Arch_Workbench/ro.md)
    SeeAlso:[[Arch Panel/ro]], [[Arch Panel Sheet/ro]]
 ---
 

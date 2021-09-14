@@ -1,3 +1,5 @@
+# Macro ForceRecompute
+
   {{Macro
 |Name=Macro Force Recompute
 |Icon=Force_Recompute.png

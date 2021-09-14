@@ -1,3 +1,5 @@
+# Macro Visibility Manager
+
   {{Macro
 |Name=Visibility_Manager
 |Icon=Macro_Visibility_Manager.png
@@ -16,9 +18,7 @@ Use this macro to manage visibility of document objects either by type or indivi
 
 ## Script
 
-
-
-ToolBar icon ![](images/Macro_Visibility_Manager.png )
+ToolBar icon  ![](images/Macro_Visibility_Manager.png )
 
 **Macro\_Visibility\_Manager.FCMacro**
 

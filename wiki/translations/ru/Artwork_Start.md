@@ -1,4 +1,6 @@
-\_\_NOTOC\_\_ 
+# Artwork Start/ru
+
+ 
 
 Эти иконки находятся в указанной исходной папке.
 
@@ -33,4 +35,4 @@
 
 }} 
 
-[Category:Start{{\#translation:}}](Category:Start.md)
+[Category:Start](Category:Start.md)

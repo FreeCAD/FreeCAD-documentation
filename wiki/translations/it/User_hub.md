@@ -1,8 +1,10 @@
+# User hub/it
+
  <img alt="" src=images/User_hub.png  style="width:64px;">
 
 ------------------------------------------------------------------------
 
-\_\_NOTOC\_\_
+
 
 Questa è l\'area principale di aiuto per i nuovi utenti di FreeCAD.
 
@@ -30,28 +32,16 @@ Vedi anche:
 
 ### Concetti base dell\'applicazione 
 
-
-<div class="mw-translate-fuzzy">
-
 -   [Interfaccia](Interface/it.md): l\'interfaccia di FreeCAD è composta da vari elementi grafici sullo schermo, inclusi la [vista 3D](3D_view/it.md), l\'[albero della struttura](Tree_view/it.md), l\'[editor delle proprietà](Property_editor/it.md), il [pannello delle azioni](Task_panel/it.md), e la [console Python](Python_console/it.md).
--   [Navigazione con il mouse](Mouse_Model/it.md): i diversi tipi di utilizzo del mouse o del trackpad per navigare nella vista 3D.
+-   [Navigazione con il mouse](Mouse_navigation/it.md): i diversi tipi di utilizzo del mouse o del trackpad per navigare nella vista 3D.
 -   [Metodi di selezione](Selection_methods/it.md): i diversi metodi di selezione degli oggetti nel software.
 -   [Nome dell\'oggetto](Object_name/it.md): tutti gli oggetti hanno un nome `Name` di sola lettura che li identifica in modo univoco e una etichetta `Label` che è modificabile dall\'utente.
 -   [Editor delle preferenze](Preferences_Editor/it.md): il sistema che consente di controllare molte proprietà del sistema di base e dei singoli ambienti di lavoro.
 -   [Formati di file](Import_Export/it.md): i diversi formati di file che FreeCAD può leggere e scrivere.
 
-
-</div>
-
 ### Ambienti di lavoro 
 
-
-<div class="mw-translate-fuzzy">
-
-Gli [ambienti di lavoro](Workbenches/it.md) sono raccolte di strumenti che vengono utilizzate per un\'attività relativa specifica. Questi sono gli ambienti di lavoro di base presenti fin da subito dopo ogni installazione di FreeCAD:
-
-
-</div>
+Gli [ambienti di lavoro](Workbenches/it.md) sono raccolte di strumenti che vengono utilizzate per specifiche attività. Questi sono gli ambienti di lavoro di base presenti fin da subito dopo ogni installazione di FreeCAD:
 
 -   <img alt="" src=images/Freecad.svg  style="width:32px;"> [Std Base](Std_Base.md). This is not really a workbench, but rather a category of \'standard\' commands and tools that can be used in all workbenches.
 
@@ -103,13 +93,7 @@ Le [macro](Macros/it.md) sono frammenti relativamente piccoli di codice [Python]
 
 Gli utenti esperti hanno anche scritto varie [macro](macros/it.md) per migliorare le capacità di FreeCAD.
 
-
-<div class="mw-translate-fuzzy">
-
-Da FreeCAD 0.17 molte macro possono essere installate usando [Addon Manager](Std_AddonMgr/it.md). Per un elenco delle macro fare riferimento alla pagina [Raccolta di macro](macros_recipes/it.md). Per installare manualmente le macro fare riferimento al tutorial [Come installare le macro](How_to_install_macros/it.md).
-
-
-</div>
+Da FreeCAD 0.17 molte macro possono essere installate usando [Addon Manager](Std_AddonMgr/it.md). Per un elenco delle macro fare riferimento alla pagina [Raccolta di macro](Macros_recipes/it.md). Per installare manualmente le macro fare riferimento al tutorial [Come installare le macro](How_to_install_macros/it.md).
 
 ### Ambienti esterni 
 
@@ -117,23 +101,11 @@ Quando molte macro o funzioni vengono sviluppate insieme e organizzate in barre 
 
 Gli [ambienti esterni](External_workbenches/it.md) sono raccolte di funzioni che non fanno parte del sistema FreeCAD di base, generalmente sviluppate da utenti esperti e che si rivolgono a un\'esigenza particolare.
 
-
-<div class="mw-translate-fuzzy">
-
 Da FreeCAD 0.17 molti ambienti possono essere installati usando [Addon Manager](Std_AddonMgr/it.md). Per l\'installazione manuale di questi ambienti fare riferimento al tutorial [Come installare ambienti aggiuntivi](How_to_install_additional_workbenches/it.md).
-
-
-</div>
 
 ## Riferimenti
 
-
-<div class="mw-translate-fuzzy">
-
 -   [Elenco dei comandi](List_of_Commands/it.md): Una lista completa dei comandi disponibili in FreeCAD.
-
-
-</div>
 
 ## Aiuto in linea 
 
@@ -143,17 +115,11 @@ Questa è la guida ufficiale di FreeCAD online. Si prega di notare che l\'intero
 
 ## Altro
 
-
-<div class="mw-translate-fuzzy">
-
 -   Il [Power users hub](Power_users_hub/it.md) è il riferimento per vedere un uso più avanzato di FreeCAD
 -   Il [Portale della comunità](FreeCAD_Community_Portal/it.md) elenca i progetti realizzati dai membri della comunità di FreeCAD.
 -   Non capite come viene usato un termine o una frase in FreeCAD? Provate a guardare la pagina [Glossario](Glossary/it.md).
 
 
-</div>
 
 
-
-
-[Category:Hubs{{\#translation:}}](Category:Hubs.md)
+[Category:Hubs](Category:Hubs.md)

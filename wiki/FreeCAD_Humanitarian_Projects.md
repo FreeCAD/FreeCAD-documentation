@@ -1,3 +1,5 @@
+# FreeCAD Humanitarian Projects
+
 ## About
 
 This wiki page is being used to track all Humanitarian based efforts reported and organized on the forum, that benefit from using FreeCAD as part of their projects.

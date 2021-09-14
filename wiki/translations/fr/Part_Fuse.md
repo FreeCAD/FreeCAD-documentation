@@ -7,9 +7,6 @@
    SeeAlso:[Part Opération booléenne](Part_Boolean/fr.md), [Part Soustraction](Part_Cut/fr.md), [Part Intersection](Part_Common/fr.md), 
 ---
 
-
-</div>
-
 ## Description
 
 L\'outil **![](images/)_[Union](Part_Fuse/fr.md)** fusionne les objets Part sélectionnés en un seul. Cette opération est entièrement paramétrique et les composants peuvent être modifiés et le résultat recalculé.
@@ -42,13 +39,7 @@ Les éléments peuvent être ajoutés et supprimés à partir de la fusion, en l
 Après que cette opération soit complète, il peut être nécessaire de nettoyer la forme avec <img alt="" src=images/Part_RefineShape.svg  style="width:24px;"> [Affiner la forme](Part_RefineShape/fr.md).
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
   

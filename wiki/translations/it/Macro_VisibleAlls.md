@@ -1,3 +1,5 @@
+# Macro VisibleAlls/it
+
  {{Macro/it
 |Name=Macro VisibleAlls
 |Icon=Macro_VisibleAlls.png

@@ -1,4 +1,6 @@
-\_\_NOTOC\_\_ 
+# Artwork Sketcher/it
+
+ 
 
 Queste icone si trovano nel percorso origine indicato.
 

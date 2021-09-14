@@ -4,14 +4,14 @@
    Icon: 
    MenuLocation:Menu → Submenu → Menu text for the command
    Workbenches:[Workbench](Workbench_Name.md)
-   Shortcut:**F** **C** 
+   Shortcut:**F** **C**
    SeeAlso: 
    Version:0.19
 ---
 
 ## Description
 
-While the page is under construction, add the [Template:UnfinishedDocu](Template:UnfinishedDocu.md) template at the top of the page by simply typing: **{{UnfinishedDocu}}**
+While the page is under construction, add the [Template:UnfinishedDocu](Template:UnfinishedDocu.md) template at the top of the page by simply typing: ****
 
 In this first paragraph give a short description of what the command does. The description can refer to other workbenches such as the <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Sketcher Workbench](Sketcher_Workbench.md). (*Editor note:* The image is 24px, not 16px)
 
@@ -92,7 +92,7 @@ Optional.
 
 
 <languages/>
-{{UnfinishedDocu}}
+
 <translate>
 
 
@@ -102,14 +102,14 @@ Optional.
 |Icon= 
 |MenuLocation=Menu → Submenu → Menu text for the command
 |Workbenches=[Workbench](Workbench_Name.md)
-|Shortcut=**F** **C** 
+|Shortcut=**F** **C**
 |SeeAlso= 
 |Version=0.19
 }}
 
 == Description ==
 
-While the page is under construction, add the [[Template:UnfinishedDocu]] template at the top of the page by simply typing: '''{{UnfinishedDocu}}'''
+While the page is under construction, add the [[Template:UnfinishedDocu]] template at the top of the page by simply typing: ''''''
 
 In this first paragraph give a short description of what the command does. The description can refer to other workbenches such as the <img src="images/Workbench_Sketcher.svg" width=24px> [Sketcher Workbench](Sketcher_Workbench.md). (''Editor note:'' The image is 24px, not 16px)
 

@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Draft Slope
-   MenuLocation:Modification → Set slope<br>Utilities → Set slope
+   MenuLocation:Modification → Set slope
    Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
    Version:0.17
 ---
@@ -19,7 +19,6 @@ The <img alt="" src=images/Draft_Slope.svg  style="width:24px;"> **Draft Slope**
 2.  There are several ways to invoke the command:
     -   Press the **<img src="images/Draft_Slope.svg" width=16px> [Draft Slope](Draft_Slope.md)** button.
     -   Select the **Modification → <img src="images/Draft_Slope.svg" width=16px> Set slope** option from the menu.
-    -   Select the **Utilities → <img src="images/Draft_Slope.svg" width=16px> Set slope** option from the menu.
 3.  Enter a **Slope** value. {{Value|0}} means each segment is horizontal, {{Value|0.5}} means the delta height for each segment is {{Value|0.5}} times its length, etc. The value can also be negative.
 4.  Press **Enter** or the {{button|OK}} button to finish the command.
 

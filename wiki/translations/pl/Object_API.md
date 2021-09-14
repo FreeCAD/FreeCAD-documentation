@@ -1,3 +1,5 @@
+# Object API/pl
+
  {{VeryImportantMessage|''(Październik 2019)'' Nie edytuj tych stron. Informacje są niekompletne i nieaktualne. Najnowsze API można znaleźć w [https://www.freecadweb.org/api automatycznie generowana dokumentacja API], lub wygenerować dokumentację samodzielnie, śledząc dokument [Dokumentacja źródłowa](Source_documentation/pl.md).}}
 
 Jako parametryczne, obiekty dokumentów FreeCAD mogą mieć wiele dodatkowych właściwości, ale te są podstawowe, obecne w każdym obiekcie dokumentu FreeCAD. Obiekty mogą być wyszukiwane po prostu przez ich nazwę. Przykład: 
@@ -57,4 +59,4 @@ print myObj.PropertiesList
 
  
 
-[Category:API{{\#translation:}}](Category:API.md) [Category:Poweruser Documentation{{\#translation:}}](Category:Poweruser_Documentation.md)
+[Category:API](Category:API.md) [Category:Poweruser Documentation](Category:Poweruser_Documentation.md)

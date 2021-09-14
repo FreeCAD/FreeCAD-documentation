@@ -1,3 +1,5 @@
+# Manual:Creating renderings/fr
+
  
 
 
@@ -84,4 +86,4 @@ Vous pouvez étendre considérablement les possibilités de rendu de FreeCAD en 
 
 {{Raytracing Tools navi}} 
 
-[Category:Tutorials{{\#translation:}}](Category:Tutorials.md)
+[Category:Tutorials](Category:Tutorials.md)

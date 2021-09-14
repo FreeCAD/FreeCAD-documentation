@@ -1,3 +1,5 @@
+# Manual:Traditional 2D drafting
+
   
 
 
@@ -114,4 +116,4 @@ Fundamentally, what the Draft Workbench does is to provide graphical ways to cre
 
 
 
-[Category:Tutorials{{\#translation:}}](Category:Tutorials.md) [Category:Draft{{\#translation:}}](Category:Draft.md)
+[Category:Tutorials](Category:Tutorials.md) [Category:Draft](Category:Draft.md)

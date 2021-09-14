@@ -7,14 +7,14 @@
    SeeAlso:[TechDraw Dimension Angle](TechDraw_Dimension_Angle.md)
 ---
 
-## Description
+## Описание
 
 The <img alt="" src=images/TechDraw_Dimension_Angle3Pt.svg  style="width:24px;"> Dimension Angle3Pt tool adds a angular dimension to a View. The dimension may be specified by selecting three Vertices on a View. **Note that the second of the three Vertices is the apex of the angle**. The Angle3Pt will initially be the projected angle (ie as shown on the drawing), but this may be changed to the actual 3D angle using the **<img src="images/TechDraw_Dimension_Link.svg" width=16px> [Link Dimension](TechDraw_Dimension_Link.md)** tool.
 
 <img alt="" src=images/TechDraw_Dimension_Angle3Pt_example.png  style="width:200px;"> 
 *Measuring the angle between two straight lines using three vertices; the second vertex should be the apex of the angle*
 
-## Usage
+## Применение
 
 1.  Select the points or edge which define your measurement.
 2.  Press the **<img src="images/TechDraw_Dimension_Angle3Pt.png" width=16px> [Dimension Angle3Pt](TechDraw_Dimension_Angle3Pt.md)** button
@@ -23,20 +23,20 @@ The <img alt="" src=images/TechDraw_Dimension_Angle3Pt.svg  style="width:24px;">
 
 To change the properties of a dimension object either double-clicking it in the drawing or in the [Tree view](Tree_view.md). This will open the [dimension dialog](TechDraw_Dimension_Length#Dimension_dialog.md).
 
-## Limitations
+## Ограничения
 
 Dimension objects are vulnerable to \"[topological naming](topological_naming_problem.md)\" issues. See the information in the <img alt="" src=images/TechDraw_Dimension_Length.svg  style="width:16px;"> [TechDraw Dimension Length](TechDraw_Dimension_Length.md) tool for more information.
 
-## Properties
+## Свойства
 
 This object has the same properties as the [TechDraw Dimension Length](TechDraw_Dimension_Length.md) tool. See that tool for details.
 
-## Scripting
+## Программирование
 
 
-**See also:**
+**См. так же:**
 
-[TechDraw API](TechDraw_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+[TechDraw API](TechDraw_API/ru.md) и [Основы составления скриптов FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 
 The Dimension Angle3Pt tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following functions:
 
@@ -49,7 +49,13 @@ rc = page.addView(dim1)
 ```
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{TechDraw Tools navi

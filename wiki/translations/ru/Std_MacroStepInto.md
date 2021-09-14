@@ -1,8 +1,13 @@
 ---
-- GuiCommand:/ru   Name:Std DebugInto   Name/ru:Std DebugInto   Workbenches:All   MenuLocation:[[Std Macro Menu/ru   Макро]] → Step into |Shortcut:F11   SeeAlso:---
-
-
-</div>
+- GuiCommand:/ru
+   Name:Std_MacroStepInto
+   Name/ru:Шаг с заходом
+   Empty:1
+   MenuLocation:Макросы → Шаг с заходом
+   Workbenches:Все
+   Shortcut:**F11**
+   SeeAlso:[Шаг с обходом](Std_MacroStepOver/ru.md), [Установить/снять точку останова](Std_ToggleBreakpoint/ru.md)
+---
 
 ## Описание
 

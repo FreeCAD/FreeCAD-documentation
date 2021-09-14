@@ -1,6 +1,14 @@
+# Release notes 0.13/es
+
  Este es un resumen de los cambios más interesantes realizados en FreeCAD desde la última versión. Mira [aquí](http://www.freecadweb.org/tracker/changelog_page.php) para ver una lista completa de los cambios.
 
-Versiones anteriores: [0.12](Release_notes_012/es.md) - [0.11](Release_notes_011/es.md)
+
+<div class="mw-translate-fuzzy">
+
+Versiones anteriores: [0.12](Release_notes_0.12/es.md) - [0.11](Release_notes_0.11/es.md)
+
+
+</div>
 
 ![800px](images/FreeCAD013.jpg)
 
@@ -65,9 +73,6 @@ Geometry (Points, Lines and Curves) may be selected by dragging on the backgroun
     -   When constructing geometry, tool tip with related information is shown next to cursor.
     -   **Sketch view** which sets the 3D view perpendicular to the sketch plane has now an icon in the Sketcher toolbar.
 
-
-<div class="mw-translate-fuzzy">
-
 ## Módulo de Boceto 
 
 -   El importador de DXF ahora soporta puntos y directrices
@@ -75,9 +80,6 @@ Geometry (Points, Lines and Curves) may be selected by dragging on the backgroun
 -   **Taskmode**: El modo Vista de tareas del módulo de Boceto está ahora por defecto. No te preocupes, si te gusta la barra de herramientas, aún está disponible en los parámetros de configuración del Boceto.
 -   **importador DXF**: El importador DXF ahora soporta puntos (traducidos como [puntos de Boceto](Draft_Point/es.md)) y directrices (traducidas como contornos de Boceto)
 -   **Nuevo sistema de ajuste**: El [sistema de ajuste](Draft_Snap/es.md) del módulo de Boceto se ha reescrito casi desde cero. Ahora es mucho más sencillo de extender y utilizar en otros archivos de guión y módulos. tiene ahora una nueva visualización con iconos de ajuste del cursor, y una barra de herramientas que permite activar y desactivar ubicaciones de ajuste o el sistema de ajuste por completo.
-
-
-</div>
 
 ![800px](images/013-draft-snap.jpg)
 
@@ -100,16 +102,11 @@ Geometry (Points, Lines and Curves) may be selected by dragging on the backgroun
 
 ![800px](images/013-arch-wall.jpg)
 
+!!FUZZY!!\* **Nueva herramienta tejado**: Una nueva herramienta [Tejado](Arch_Roof/es.md) está disponible en el módulo de Arquitectura, que te permite crear rápidamente tejados con pendiente a partir de una cara seleccionada.
 
-<div class="mw-translate-fuzzy">
-
--   **Nueva herramienta tejado**: Una nueva herramienta [Tejado](Arch_Roof/es.md) está disponible en el módulo de Arquitectura, que te permite crear rápidamente tejados con pendiente a partir de una cara seleccionada.
 -   **Nueva herramienta Ventana**: Las [Ventanas](Arch_Window/es.md) se crean ahora directamente en la parte superior de una forma plana que contiene uno o más contornos, como un rectángulo o un croquis. Si dicha forma fue dibujada directamente sobre una cara de un muro, la ventana cortará una abertura en el muro.
 -   **Nuevo sistema de secciones**: Ahora es muy simple crear planos 2D, secciones y elevaciones de tu modelo: Sitúa un objeto [plano de sección](Arch_SectionPlane/es.md), lo orientas del modo que desees, lo editas para incluir los objetos que se deben ver, y ya lo tienes!
 -   **Nuevo renderizador sólido**: En adición al renderizador alámbrico 2D basado en OpenCasCADe actualmente utilizado por el [módulo de dibujo](Drawing_Workbench/es.md), el módulo de Arquitectura ahora disponme de un nuevo renderizador 2D, que es capaz de renderizar caras rellenas a una hoja de dibujo SVG, ofreciendo vistas 2D mucho mejores.
-
-
-</div>
 
 ![800px](images/013-arch-vrm.jpg)
 
@@ -144,16 +141,10 @@ Geometry (Points, Lines and Curves) may be selected by dragging on the backgroun
 -   Se ha añadido soporte para ratones 3D (Spaceball, Space Navigator) en la versión de Windows.
 -   Una nueva pestaña **Spaceball Motion** en el letrero de diálogo de personalización permite una ajuste fino del ratón a los parámetros que desees, directamente desde FreeCAD.
 
-
-<div class="mw-translate-fuzzy">
-
 ## OpenSCAD module 
 
 -   Este nuevo módulo (experimental) proporciona capacidad de importar archivos OpenSCAD en FreeCAD. Este formato de archivo es muy popular en la comunidad RepRap y en el sitio de compartir diseños digitales Thingiverse.
 -   OpenSCAD script can be executed from within FreeCAD, by OpenSCAD (if installed on your computer), with the result appearing in your FreeCAD document.
 -   For more information see the [OpenSCAD Workbench](OpenSCAD_Workbench.md) page on the FreeCAD wiki
 
-
-</div>
-
-[Category:News{{\#translation:}}](Category:News.md) [Category:Documentation{{\#translation:}}](Category:Documentation.md) [Category:Releases{{\#translation:}}](Category:Releases.md)
+[Category:News](Category:News.md) [Category:Documentation](Category:Documentation.md) [Category:Releases](Category:Releases.md)

@@ -1,3 +1,5 @@
+# Std Windows Menu/ro
+
 
 
 
@@ -92,4 +94,4 @@ Ferestre\...
 
 }}  
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

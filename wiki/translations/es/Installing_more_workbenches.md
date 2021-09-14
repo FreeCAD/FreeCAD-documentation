@@ -1,3 +1,5 @@
+# Installing more workbenches/es
+
 
 
 ## Introducción
@@ -46,4 +48,4 @@ Consulta también una descripción detallada en la página [cómo instalar ambie
 
 }} 
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md)

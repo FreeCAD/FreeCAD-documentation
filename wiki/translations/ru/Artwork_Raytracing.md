@@ -1,4 +1,6 @@
-\_\_NOTOC\_\_ 
+# Artwork Raytracing/ru
+
+ 
 
 Эти иконки находятся в указанной исходной папке.
 
@@ -15,4 +17,4 @@
 
 }} 
 
-[Category:Raytracing{{\#translation:}}](Category:Raytracing.md)
+[Category:Raytracing](Category:Raytracing.md)

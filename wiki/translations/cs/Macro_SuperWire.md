@@ -1,3 +1,5 @@
+# Macro SuperWire/cs
+
  {{Macro/cs
 |Name=SuperWire
 |Translate=SuperWire

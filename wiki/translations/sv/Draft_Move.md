@@ -59,12 +59,13 @@ The single character keyboard shortcuts mentioned here can be changed. See [Draf
 -   Press **P** or click the **Copy** checkbox to toggle copy mode. If copy mode is on, the command will create moved copies instead of moving the original objects.
 -   Press **D** or click the **Modify subelements** checkbox to toggle subelement mode. If subelement mode is on, the command will use the selected subelements instead of the whole objects. The subelements must belong to [Draft Lines](Draft_Line.md) or [Draft Wires](Draft_Wire.md).
 -   If copy mode and subelement mode are both on, and edges of [Draft Wires](Draft_Wire.md) are selected, new wires will be created from those edges.
+-   Holding down **Alt** after picking the base point will also toggle copy mode. While **Alt** is held down multiple target points can be picked. Release **Alt** to finish the command and see the created copies. This option does not work in FreeCAD version 0.19.
 -   Press **S** to switch [Draft snapping](Draft_Snap.md) on or off.
 -   Press **Esc** or the **Close** button to abort the command.
 
 ## Notes
 
--   An Object that is [attached](Part_Attachment.md) cannot be moved with the Draft Move command. To move it either its **Support** object has to be moved, or its **Attachment Offset** has to be changed.
+-   An Object that is [attached](Part_EditAttachment.md) cannot be moved with the Draft Move command. To move it either its **Support** object has to be moved, or its **Attachment Offset** has to be changed.
 
 ## Preferences
 

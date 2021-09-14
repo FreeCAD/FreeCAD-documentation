@@ -1,3 +1,5 @@
+# Getting started/fr
+
 
 
 
@@ -95,7 +97,7 @@ Plusieurs vue prédéfinies (vue de dessus, vue de face, etc.) sont disponibles 
 
 L\'objectif de FreeCAD est de vous permettre de créer des modèles 3D de haute précision, de maintenir un contrôle serré de ces modèles (être capable de revenir en arrière dans l\'historique de la modélisation et de modifier les paramètres) et finalement de construire ces modèles (via l\'impression 3D, l\'usinage CNC ou même les chantiers de construction). Il est donc très différent des autres applications 3D conçues pour d\'autres fins, tels que le film d\'animation ou les jeux. Sa courbe d\'apprentissage peut être ardue, spécialement si c\'est votre premier contact avec la modélisation 3D. Si vous êtes bloqués à un moment donné, n\'oubliez pas que l\'amicale communauté des utilisateurs du [forum forum de FreeCAD](http://forum.freecadweb.org/index.php) pourrait être en mesure de vous sortir d'embarras sans délai.
 
-L\'atelier que vous utiliserez à l\'aide de FreeCAD dépend du type de travail à effectuer : Si vous travaillez sur des modèles mécaniques, ou plus généralement tous les petits objets, vous aurez probablement envie d\'essayer l\'[atelier PartDesign](PartDesign_Workbench/fr.md). Si vous voulez travailler en 2D, passez à l\'[atelier Draft](Draft_Module/fr.md) ou l\'[atelier Sketcher](Sketcher_Workbench/fr.md) si vous avez besoin de contraintes. Si vous voulez faire de la modélisation BIM, lancez l\'[atelier Arch](Arch_Module/fr.md). Et si vous venez du monde OpenSCAD, essayez l\'[atelier OpenSCAD](OpenSCAD_Workbench/fr.md). Il existe également de nombreux ateliers développés par la communauté, les [ateliers externes](External_workbenches/fr.md).
+L\'atelier que vous utiliserez à l\'aide de FreeCAD dépend du type de travail à effectuer : Si vous travaillez sur des modèles mécaniques, ou plus généralement tous les petits objets, vous aurez probablement envie d\'essayer l\'[atelier PartDesign](PartDesign_Workbench/fr.md). Si vous voulez travailler en 2D, passez à l\'[atelier Draft](Draft_Workbench/fr.md) ou l\'[atelier Sketcher](Sketcher_Workbench/fr.md) si vous avez besoin de contraintes. Si vous voulez faire de la modélisation BIM, lancez l\'[atelier Arch](Arch_Workbench/fr.md). Et si vous venez du monde OpenSCAD, essayez l\'[atelier OpenSCAD](OpenSCAD_Workbench/fr.md). Il existe également de nombreux ateliers développés par la communauté, les [ateliers externes](External_workbenches/fr.md).
 
 Vous pouvez changer d\'atelier à tout moment et aussi changer les [préférences](Interface_Customization/fr.md) de votre atelier favori pour ajouter des outils d\'autres ateliers.
 

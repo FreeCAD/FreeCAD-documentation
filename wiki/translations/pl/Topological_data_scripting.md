@@ -1,3 +1,5 @@
+# Topological data scripting/pl
+
 
 
 
@@ -18,44 +20,44 @@ To jest [Unified Modeling Language *(UML)*](http://en.wikipedia.org/wiki/Unified
 
 ### Geometria
 
-The geometric objects are the building blocks of all topological objects:
+Obiekty geometryczne są elementami składowymi wszystkich obiektów topologicznych:
 
--   **Geom** Base class of the geometric objects.
--   **Line** A straight line in 3D, defined by starting point and end point.
--   **Circle** Circle or circle segment defined by a center point and start and end point.
--   Etc.
-
-
-{{Top}}
-
-### Topology
-
-The following topological data types are available:
-
--   **Compound** A group of any type of topological objects.
--   **Compsolid** A composite solid is a set of solids connected by their faces. It expands the notions of WIRE and SHELL to solids.
--   **Solid** A part of space limited by shells. It is three dimensional.
--   **Shell** A set of faces connected by their edges. A shell can be open or closed.
--   **Face** In 2D it is part of a plane; in 3D it is part of a surface. Its geometry is constrained (trimmed) by contours. It is two dimensional.
--   **Wire** A set of edges connected by their vertices. It can be an open or closed contour depending on whether the edges are linked or not.
--   **Edge** A topological element corresponding to a restrained curve. An edge is generally limited by vertices. It has one dimension.
--   **Vertex** A topological element corresponding to a point. It has zero dimension.
--   **Shape** A generic term covering all of the above.
+-   **Geom** Klasa bazowa obiektów geometrycznych.
+-   **Linia** Linia prosta w przestrzeni 3D, zdefiniowana przez punkt początkowy i punkt końcowy.
+-   **Okrąg** Okrąg lub odcinek okręgu zdefiniowany przez punkt środkowy oraz punkt początkowy i końcowy.
+-   I tak dalej.
 
 
 {{Top}}
 
-## Example: Create simple topology 
+### Topologia
 
-![Wire](images/Wire.png )
+Dostępne są następujące typy danych topologicznych:
 
-We will now create a topology by constructing it out of simpler geometry. As a case study we will use a part as seen in the picture which consists of four vertices, two arcs and two lines. {{Top}}
+-   **Złożenie** Grupa obiektów topologicznych dowolnego typu.
+-   **Bryła złożona** Bryła złożona to zbiór brył połączonych ścianami. Rozszerza pojęcia WIRE i SHELL na bryły.
+-   **Bryła** Część przestrzeni ograniczona powłokami. Jest trójwymiarowa.
+-   **Powłoka** Zbiór ścian połączonych krawędziami. Powłoka może być otwarta lub zamknięta.
+-   **Ścina** W 2D jest częścią płaszczyzny, w 3D jest częścią powierzchni. Jego geometria jest ograniczona *(przycięta)* przez kontury. Jest dwuwymiarowa.
+-   **Linia łamana** *(polilinia)* Zbiór krawędzi połączonych wierzchołkami. Może to być kontur otwarty lub zamknięty, w zależności od tego, czy krawędzie są połączone, czy nie.
+-   **Krawędź** Element topologiczny odpowiadający krzywej ograniczonej. Krawędź jest na ogół ograniczona wierzchołkami. Ma jeden wymiar.
+-   **Wierzchołek** Element topologiczny odpowiadający punktowi. Ma zero wymiarów.
+-   **Kształt** Termin ogólny obejmujący wszystkie powyższe.
 
-### Create geometry 
 
-First we create the distinct geometric parts of this wire. Making sure that parts that have to be connected later share the same vertices.
+{{Top}}
 
-So we create the points first:
+## Przykład: Utwórz prostą topologię 
+
+![Linia łamana](images/Wire.png )
+
+Stworzymy teraz topologię poprzez skonstruowanie jej z prostszej geometrii. Jako studium przypadku użyjemy części widocznej na rysunku, która składa się z czterech wierzchołków, dwóch łuków i dwóch linii. {{Top}}
+
+### Tworzenie geometrii 
+
+Najpierw tworzymy odrębne części geometryczne tej linii łamanej. Upewniamy się, że części, które mają być później połączone, mają wspólne wierzchołki.
+
+Więc najpierw tworzymy punkty:
 
 
 ```python
@@ -70,11 +72,11 @@ V4 = Base.Vector(0, -10, 0)
 
 {{Top}}
 
-### Arc
+### Łuk
 
-![Circle](images/Circel.png )
+![Okrąg](images/Circel.png )
 
-For each arc we need a helper point:
+Dla każdego łuku potrzebujemy punktu pomocniczego:
 
 
 ```python
@@ -87,11 +89,11 @@ C2 = Part.Arc(V2, VC2, V3)
 
 {{Top}}
 
-### Line
+### Linia
 
-![Line](images/Line.png )
+![Linia](images/Line.png )
 
-The line segments can be created from two points:
+Odcinki linii można utworzyć z dwóch punktów:
 
 
 ```python
@@ -102,9 +104,9 @@ L2 = Part.LineSegment(V3, V4)
 
 {{Top}}
 
-### Put it all together 
+### Połącz wszystko w całość 
 
-The last step is to put the geometric base elements together and bake a topological shape:
+Ostatnim krokiem jest zestawienie geometrycznych elementów bazowych razem i uzyskanie kształtu topologicznego:
 
 
 ```python
@@ -114,9 +116,9 @@ S1 = Part.Shape([C1, L1, C2, L2])
 
 {{Top}}
 
-### Make a prism 
+### Utwórz graniastosłup 
 
-Now extrude the wire in a direction and make an actual 3D shape:
+Teraz wyciągnij linę łamaną w odpowiednim kierunku i stwórz rzeczywisty kształt 3D:
 
 
 ```python
@@ -127,7 +129,7 @@ P = W.extrude(Base.Vector(0, 0, 10))
 
 {{Top}}
 
-### Show it all 
+### Pokaż to wszystko 
 
 
 ```python
@@ -137,9 +139,9 @@ Part.show(P)
 
 {{Top}}
 
-## Create basic shapes 
+## Utwórz podstawowe kształty 
 
-You can easily create basic topological objects with the `make...()` methods from the Part module:
+Możesz łatwo tworzyć podstawowe obiekty topologiczne za pomocą metod `make...()` z modułu Część:
 
 
 ```python
@@ -147,31 +149,31 @@ b = Part.makeBox(100, 100, 100)
 Part.show(b)
 ```
 
-Some available `make...()` methods:
+Niektóre dostępne metody `make...()`:
 
--    `makeBox(l, w, h, [p, d])`Makes a box located in p and pointing into the direction d with the dimensions (l,w,h).
+-    `makeBox(l, w, h, [p, d])`Tworzy sześcian znajdujący się w punkcie p i skierowany w kierunku d o wymiarach *(l,w,h)*.
 
--    `makeCircle(radius)`Makes a circle with a given radius.
+-    `makeCircle(radius)`Tworzy okrąg o zadanym promieniu.
 
--    `makeCone(radius1, radius2, height)`Makes a cone with the given radii and height.
+-    `makeCone(radius1, radius2, height)`. Tworzy stożek o podanych promieniach i wysokościach.
 
--    `makeCylinder(radius, height)`Makes a cylinder with a given radius and height.
+-    `makeCylinder(radius, height)`. Tworzy walec o zadanym promieniu i wysokości.
 
--    `makeLine((x1, y1, z1), (x2, y2, z2))`Makes a line from two points.
+-    `makeLine((x1, y1, z1), (x2, y2, z2))`Tworzy prostą z dwóch punktów.
 
--    `makePlane(length, width)`Makes a plane with length and width.
+-    `makePlane(length, width)`Tworzy płaszczyznę o określonej długości i szerokości.
 
--    `makePolygon(list)`Makes a polygon from a list of points.
+-    `makePolygon(list)``makePolygon(list)` Tworzy wielokąt z listy punktów.
 
--    `makeSphere(radius)`Makes a sphere with a given radius.
+-    `makeSphere(radius)`Tworzy sferę o zadanym promieniu.
 
--    `makeTorus(radius1, radius2)`Makes a torus with the given radii.
+-    `makeTorus(radius1, radius2)`Tworzy torus o podanych promieniach.
 
-See the [Part API](Part_API.md) page for a complete list of available methods of the Part module. {{Top}}
+Zobacz stronę [skrypty środowiska Część](Part_API/pl.md) aby zobaczyć pełną listę dostępnych metod modułu Część. {{Top}}
 
-### Import modules 
+## Import modułów 
 
-First we need to import the Part module so we can use its contents in Python. We\'ll also import the Base module from inside the FreeCAD module:
+Najpierw musimy zaimportować moduł Część, abyśmy mogli korzystać z jego zawartości w środowisku Python. Zaimportujemy również moduł Base z wnętrza modułu FreeCAD:
 
 
 ```python
@@ -182,16 +184,16 @@ from FreeCAD import Base
 
 {{Top}}
 
-### Create a vector 
+### Utwórz wektor 
 
-[Vectors](http://en.wikipedia.org/wiki/Euclidean_vector) are one of the most important pieces of information when building shapes. They usually contain three numbers (but not necessarily always): the X, Y and Z cartesian coordinates. You create a vector like this:
+[Wektory](http://en.wikipedia.org/wiki/Euclidean_vector) są jedną z najważniejszych informacji przy tworzeniu kształtów. Zazwyczaj zawierają trzy liczby *(ale niekoniecznie zawsze)*: współrzędne kartezjańskie X, Y i Z. Tworzysz wektor w ten sposób:
 
 
 ```python
 myVector = Base.Vector(3, 2, 0)
 ```
 
-We just created a vector at coordinates X = 3, Y = 2, Z = 0. In the Part module, vectors are used everywhere. Part shapes also use another kind of point representation called Vertex which is simply a container for a vector. You access the vector of a vertex like this:
+Właśnie utworzyliśmy wektor o współrzędnych X = 3, Y = 2, Z = 0. W module Part, wektory są używane wszędzie. Kształty części używają również innego rodzaju reprezentacji punktów zwanej Vertex, która jest po prostu kontenerem dla wektora. Dostęp do wektora wierzchołka uzyskujesz w następujący sposób:
 
 
 ```python
@@ -203,9 +205,9 @@ print(myVertex.Point)
 
 {{Top}}
 
-### Create an edge 
+### Utwórz krawędź 
 
-An edge is nothing but a line with two vertices:
+Krawędź to nic innego jak linia z dwoma wierzchołkami:
 
 
 ```python
@@ -214,7 +216,7 @@ edge.Vertexes
 > [<Vertex object at 01877430>, <Vertex object at 014888E0>]
 ```
 
-Note: You can also create an edge by passing two vectors:
+Uwaga: Możesz również utworzyć krawędź poprzez przekazanie dwóch wektorów:
 
 
 ```python
@@ -224,7 +226,7 @@ line = Part.LineSegment(vec1, vec2)
 edge = line.toShape()
 ```
 
-You can find the length and center of an edge like this:
+Możesz znaleźć długość i środek krawędzi w ten sposób:
 
 
 ```python
@@ -237,20 +239,20 @@ edge.CenterOfMass
 
 {{Top}}
 
-### Put the shape on screen 
+### Wyświetl kształt na ekranie 
 
-So far we created an edge object, but it doesn\'t appear anywhere on the screen. This is because the FreeCAD 3D scene only displays what you tell it to display. To do that, we use this simple method:
+Do tej pory utworzyliśmy obiekt krawędziowy, ale nie pojawia się on nigdzie na ekranie. Dzieje się tak dlatego, że scena 3D FreeCAD wyświetla tylko to, co każesz jej wyświetlić. Aby to zrobić, użyjemy prostej metody:
 
 
 ```python
 Part.show(edge)
 ```
 
-The show function creates an object in our FreeCAD document and assigns our \"edge\" shape to it. Use this whenever it is time to display your creation on screen. {{Top}}
+Funkcja show tworzy obiekt w naszym dokumencie FreeCAD i przypisuje mu nasz kształt \"krawędzi\". Używaj jej zawsze wtedy, gdy chcesz wyświetlić swoje dzieło na ekranie. {{Top}}
 
-### Create a wire 
+### Utwórz linie łamaną 
 
-A wire is a multi-edge line and can be created from a list of edges or even a list of wires:
+Linia łamana jest linią o wielu krawędziach i może być utworzona z listy krawędzi lub nawet z listy linii łamanych:
 
 
 ```python
@@ -269,7 +271,7 @@ Part.show(wire3)
 
 `Part.show(wire3)`
 
-will display the 4 edges that compose our wire. Other useful information can be easily retrieved:
+wyświetli 4 krawędzie, z których składa się nasza linia łamana. Inne przydatne informacje mogą być łatwo pobrane:
 
 
 ```python
@@ -286,9 +288,9 @@ wire2.isClosed()
 
 {{Top}}
 
-### Create a face 
+### Utwórz ścianę 
 
-Only faces created from closed wires will be valid. In this example, wire3 is a closed wire but wire2 is not (see above):
+Tylko ściany utworzone z linii łamanych będą poprawne. W tym przykładzie linia łamana3 jest zamknięta, ale linia łamana2 nie jest *(patrz wyżej)*:
 
 
 ```python
@@ -306,11 +308,11 @@ sface.isValid()
 > False
 ```
 
-Only faces will have an area, wires and edges do not. {{Top}}
+Tylko twarze będą posiadać obszar, linie łamane i krawędzie nie. {{Top}}
 
-### Create a circle 
+### Utwórz okrąg 
 
-A circle can be created like this:
+Okrąg może być utworzony w ten sposób:
 
 
 ```python
@@ -319,7 +321,7 @@ circle.Curve
 > Circle (Radius : 10, Position : (0, 0, 0), Direction : (0, 0, 1))
 ```
 
-If you want to create it at a certain position and with a certain direction:
+Jeśli chcesz utworzyć go w określonej pozycji i z określonym kierunkiem:
 
 
 ```python
@@ -328,7 +330,7 @@ ccircle.Curve
 > Circle (Radius : 10, Position : (10, 0, 0), Direction : (1, 0, 0))
 ```
 
-ccircle will be created at distance 10 from the X origin and will be facing outwards along the X axis. Note: `makeCircle()` only accepts `Base.Vector()` for the position and normal parameters, not tuples. You can also create part of the circle by giving a start and an end angle:
+okrąg zostanie utworzony w odległości 10 od początku X i będzie skierowany na zewnątrz wzdłuż osi X. Uwaga: `makeCircle()` akceptuje tylko `Base.Vector()` dla parametrów position i parametry jako wektory normalne, a nie krotki. Możesz również utworzyć część okręgu przez podanie kąta początkowego i końcowego:
 
 
 ```python
@@ -337,7 +339,7 @@ arc1 = Part.makeCircle(10, Base.Vector(0, 0, 0), Base.Vector(0, 0, 1), 0, 180)
 arc2 = Part.makeCircle(10, Base.Vector(0, 0, 0), Base.Vector(0, 0, 1), 180, 360)
 ```
 
-Angles should be provided in degrees. If you have radians simply convert them using the formula: `degrees <nowiki>=</nowiki> radians * 180/pi` or by using Python\'s `math` module:
+Kąty powinny być podane w stopniach. Jeśli masz radiany, po prostu przekonwertuj je za pomocą wzoru: `degrees <nowiki>=</nowiki> radians * 180/pi` lub za pomocą modułu `math` Pythona:
 
 
 ```python
@@ -348,9 +350,9 @@ degrees = math.degrees(radians)
 
 {{Top}}
 
-### Create an arc along points 
+### Utwórz łuk wzdłuż punktów 
 
-Unfortunately there is no `makeArc()` function, but we have the `Part.Arc()` function to create an arc through three points. It creates an arc object joining the start point to the end point through the middle point. The arc object\'s `toShape()` function must be called to get an edge object, the same as when using `Part.LineSegment` instead of `Part.makeLine`.
+Niestety nie ma funkcji `makeArc()`, ale mamy funkcję `Part.Arc()` do tworzenia łuku przez trzy punkty. Tworzy ona obiekt łuku łączący punkt początkowy z punktem końcowym przez punkt środkowy. Funkcja `toShape()` obiektu arc musi zostać wywołana, aby otrzymać obiekt krawędzi, tak samo jak w przypadku użycia `Part.LineSegment` zamiast `Part.makeLine`.
 
 
 ```python
@@ -361,10 +363,7 @@ arc_edge = arc.toShape()
 Part.show(arc_edge)
 ```
 
-
-`Arc()`
-
-only accepts `Base.Vector()` for points and not tuples. You can also obtain an arc by using a portion of a circle:
+Funkcja `Arc()` akceptuje tylko `Base.Vector()` dla punktów, a nie dla krotek. Możesz również uzyskać łuk używając części okręgu:
 
 
 ```python
@@ -373,11 +372,11 @@ circle = Part.Circle(Base.Vector(0, 0, 0), Base.Vector(0, 0, 1), 10)
 arc = Part.Arc(circle,0,pi)
 ```
 
-Arcs are valid edges like lines, so they can be used in wires also. {{Top}}
+Łuki są poprawnymi krawędziami, tak jak linie, więc mogą być również używane w poliliniach. {{Top}}
 
-### Create a polygon 
+### Utwórz wielokąt 
 
-A polygon is simply a wire with multiple straight edges. The `makePolygon()` function takes a list of points and creates a wire through those points:
+Wielokąt jest po prostu polilinią o wielu prostych krawędziach. Funkcja `makePolygon()` przyjmuje listę punktów i tworzy polilinię przechodzącą przez te punkty:
 
 
 ```python
@@ -387,9 +386,9 @@ lshape_wire = Part.makePolygon([Base.Vector(0, 5, 0), Base.Vector(0, 0, 0), Base
 
 {{Top}}
 
-### Create a bézier curve 
+### Utwórz krzywą Béziera 
 
-Bézier curves are used to model smooth curves using a series of poles (points) and optional weights. The function below makes a `Part.BezierCurve()` from a series of `FreeCAD.Vector()` points. Note: when \"getting\" and \"setting\" a single pole or weight, indices start at 1, not 0.
+Krzywe Béziera są używane do modelowania gładkich krzywych przy użyciu serii biegunów *(punktów)* i opcjonalnych wag. Poniższa funkcja tworzy krzywą `Part.BezierCurve()` z serii punktów `FreeCAD.Vector()`. Uwaga: przy \"pobieraniu\" i \"ustawianiu\" pojedynczego bieguna lub wagi, indeksy zaczynają się od 1, a nie od 0.
 
 
 ```python
@@ -403,9 +402,9 @@ def makeBCurveEdge(Points):
 
 {{Top}}
 
-### Create a plane 
+### Utwórz płaszczyznę 
 
-A Plane is a flat rectangular surface. The method used to create one is `makePlane(length, width, [start_pnt, dir_normal])`. By default start\_pnt = Vector(0, 0, 0) and dir\_normal = Vector(0, 0, 1). Using dir\_normal = Vector(0, 0, 1) will create the plane facing in the positive Z axis direction, while dir\_normal = Vector(1, 0, 0) will create the plane facing in the positive X axis direction:
+Płaszczyzna jest płaską prostokątną powierzchnią. Metoda używana do jej utworzenia to `makePlane(length, width, [start_pnt, dir_normal])`. Domyślnie start\_pnt = Vector(0, 0, 0) i dir\_normal = Vector(0, 0, 1). Użycie dir\_normal = Vector(0, 0, 1) spowoduje utworzenie płaszczyzny zwróconej w dodatnim kierunku osi Z, natomiast dir\_normal = Vector(1, 0, 0) utworzy płaszczyznę zwróconą w dodatnim kierunku osi X:
 
 
 ```python
@@ -420,41 +419,41 @@ plane.BoundBox
 
 `BoundBox`
 
-is a cuboid enclosing the plane with a diagonal starting at (3, 0, 0) and ending at (5, 0, 2). Here the `BoundBox` thickness along the Y axis is zero, since our shape is totally flat.
+jest prostopadłościanem zamykającym płaszczyznę o przekątnej zaczynającej się w punkcie (3, 0, 0) i kończącej w punkcie (5, 0, 2). W tym przypadku grubość `BoundBox` wzdłuż osi Y wynosi zero, ponieważ nasz kształt jest całkowicie płaski.
 
-Note: `makePlane()` only accepts `Base.Vector()` for start\_pnt and dir\_normal and not tuples. {{Top}}
+Uwaga: `makePlane()` akceptuje tylko `Base.Vector()` dla start\_pnt i dir\_normal, a nie krotki. {{Top}}
 
-### Create an ellipse 
+### Utwórz elipsę 
 
-There are several ways to create an ellipse:
+Istnieje kilka sposobów na utworzenie elipsy:
 
 
 ```python
 Part.Ellipse()
 ```
 
-Creates an ellipse with major radius 2 and minor radius 1 with the center at (0, 0, 0).
+Tworzy elipsę o wartości promienia głównego 2 i promienia mniejszego 1, o środku w punkcie (0, 0, 0).
 
 
 ```python
 Part.Ellipse(Ellipse)
 ```
 
-Creates a copy of the given ellipse.
+Tworzy kopię podanej elipsy.
 
 
 ```python
 Part.Ellipse(S1, S2, Center)
 ```
 
-Creates an ellipse centered on the point Center, where the plane of the ellipse is defined by Center, S1 and S2, its major axis is defined by Center and S1, its major radius is the distance between Center and S1, and its minor radius is the distance between S2 and the major axis.
+Tworzy elipsę wyśrodkowaną w punkcie Center, gdzie płaszczyzna elipsy jest określona przez Center, S1 i S2, jej oś główna jest określona przez Center i S1, jej promień główny jest odległością pomiędzy Center i S1, a jej promień mniejszy jest odległością pomiędzy S2 i osią główną.
 
 
 ```python
 Part.Ellipse(Center, MajorRadius, MinorRadius)
 ```
 
-Creates an ellipse with major and minor radii MajorRadius and MinorRadius, located in the plane defined by Center and the normal (0, 0, 1)
+Tworzy elipsę o promieniach MajorRadius i MinorRadius, znajdującą się w płaszczyźnie zdefiniowanej przez środek i normalną (0, 0, 1).
 
 
 ```python
@@ -462,9 +461,9 @@ eli = Part.Ellipse(Base.Vector(10, 0, 0), Base.Vector(0, 5, 0), Base.Vector(0, 0
 Part.show(eli.toShape())
 ```
 
-In the above code we have passed S1, S2 and center. Similar to `Arc`, `Ellipse` creates an ellipse object not an edge, so we need to convert it into an edge using `toShape()` for display.
+W powyższym kodzie przekazaliśmy S1, S2 i środek. Podobnie jak `Arc`, `Ellipse` tworzy obiekt elipsy, a nie krawędzi, więc musimy go przekonwertować na krawędź używając `toShape()` do wyświetlenia.
 
-Note: `Ellipse()` only accepts `Base.Vector()` for points and not tuples.
+Uwaga: `Ellipse()` akceptuje tylko `Base.Vector()` dla punktów, a nie dla krotek.
 
 
 ```python
@@ -472,36 +471,36 @@ eli = Part.Ellipse(Base.Vector(0, 0, 0), 10, 5)
 Part.show(eli.toShape())
 ```
 
-For the above Ellipse constructor we have passed center, MajorRadius and MinorRadius. {{Top}}
+Dla powyższego konstruktora elipsy przekazaliśmy center, MajorRadius oraz MinorRadius. {{Top}}
 
-### Create a torus 
+### Utwórz torusa 
 
-Using `makeTorus(radius1, radius2, [pnt, dir, angle1, angle2, angle])`. By default pnt = Vector(0, 0, 0), dir = Vector(0, 0, 1), angle1 = 0, angle2 = 360 and angle = 360. Consider a torus as small circle sweeping along a big circle. Radius1 is the radius of the big circle, radius2 is the radius of the small circle, pnt is the center of the torus and dir is the normal direction. angle1 and angle2 are angles in degrees for the small circle; the last angle parameter is to make a section of the torus:
+Używając `makeTorus(radius1, radius2, [pnt, dir, angle1, angle2, angle])`. Domyślnie pnt = Vector(0, 0, 0), dir = Vector(0, 0, 1), angle1 = 0, angle2 = 360 i angle = 360. Rozważmy torus jako małe koło, które porusza się po dużym okręgu. Radius1 jest promieniem dużego okręgu, radius2 jest promieniem małego okręgu, pnt jest środkiem torusa, a dir jest kierunkiem normalnej. angle1 i angle2 są kątami w stopniach dla małego okręgu; ostatni parametr angle jest po to, by zrobić przekrój torusa:
 
 
 ```python
 torus = Part.makeTorus(10, 2)
 ```
 
-The above code will create a torus with diameter 20 (radius 10) and thickness 4 (small circle radius 2)
+Powyższy kod utworzy torus o średnicy {{Value|20}} *(promień 10)* i grubości {{Value|4}} *(promień małego okręgu 2)*
 
 
 ```python
 tor=Part.makeTorus(10, 5, Base.Vector(0, 0, 0), Base.Vector(0, 0, 1), 0, 180)
 ```
 
-The above code will create a slice of the torus.
+Powyższy kod utworzy wycinek torusa.
 
 
 ```python
 tor=Part.makeTorus(10, 5, Base.Vector(0, 0, 0), Base.Vector(0, 0, 1), 0, 360, 180)
 ```
 
-The above code will create a semi torus; only the last parameter is changed. i.e the remaining angles are defaults. Giving the angle 180 will create the torus from 0 to 180, that is, a half torus. {{Top}}
+Powyższy kod utworzy połowę torusa; tylko ostatni parametr jest zmieniony, tzn. pozostałe kąty są domyślne. Nadanie kąta 180 spowoduje utworzenie torusa od 0 do 180, czyli jego połowę. {{Top}}
 
-### Create a box or cuboid 
+### Utwórz sześcian lub prostopadłościan 
 
-Using `makeBox(length, width, height, [pnt, dir])`. By default pnt = Vector(0, 0, 0) and dir = Vector(0, 0, 1).
+Przy użyciu `makeBox(length, width, height, [pnt, dir])`. Domyślnie pnt = Vector(0, 0, 0) i dir = Vector(0, 0, 1).
 
 
 ```python
@@ -513,9 +512,9 @@ len(box.Vertexes)
 
 {{Top}}
 
-### Create a sphere 
+### Utwórz sferę 
 
-Using `makeSphere(radius, [pnt, dir, angle1, angle2, angle3])`. By default pnt = Vector(0, 0, 0), dir = Vector(0, 0, 1), angle1 = -90, angle2 = 90 and angle3 = 360. Angle1 and angle2 are the vertical minimum and maximum of the sphere, angle3 is the sphere diameter.
+Przy użyciu `makeSphere(radius, [pnt, dir, angle1, angle2, angle3])`. Domyślnie pnt = Vector(0, 0, 0), dir = Vector(0, 0, 1), angle1 = -90, angle2 = 90 i angle3 = 360. Kąt1 i kąt2 to pionowe minimum i maksimum sfery, kąt3 to średnica sfery.
 
 
 ```python
@@ -526,103 +525,103 @@ hemisphere = Part.makeSphere(10, Base.Vector(0, 0, 0), Base.Vector(0, 0, 1), -90
 
 {{Top}}
 
-### Create a cylinder 
+### Utwórz walec 
 
-Using `makeCylinder(radius, height, [pnt, dir, angle])`. By default pnt = Vector(0, 0, 0), dir = Vector(0, 0, 1) and angle = 360. 
+Przy użyciu `makeCylinder(radius, height, [pnt, dir, angle])`. Domyślnie pnt = Vector(0, 0, 0), dir = Vector(0, 0, 1) i angle = 360. 
 ```python
 cylinder = Part.makeCylinder(5, 20)
 partCylinder = Part.makeCylinder(5, 20, Base.Vector(20, 0, 0), Base.Vector(0, 0, 1), 180)
 ```{{Top}}
 
-### Create a cone 
+### Utwórz stożek 
 
-Using `makeCone(radius1, radius2, height, [pnt, dir, angle])`. By default pnt = Vector(0, 0, 0), dir = Vector(0, 0, 1) and angle = 360. 
+Przy użyciu `makeCone(radius1, radius2, height, [pnt, dir, angle])`. Domyślnie pnt = Vector(0, 0, 0), dir = Vector(0, 0, 1) i angle = 360. 
 ```python
 cone = Part.makeCone(10, 0, 20)
 semicone = Part.makeCone(10, 0, 20, Base.Vector(20, 0, 0), Base.Vector(0, 0, 1), 180)
 ```{{Top}}
 
-## Modify shapes 
+## Modyfikuj kształty 
 
-There are several ways to modify shapes. Some are simple transformation operations such as moving or rotating shapes, others are more complex, such as unioning and subtracting one shape from another. {{Top}}
+Kształty można modyfikować na kilka sposobów. Niektóre z nich to proste operacje przekształcania, takie jak przesuwanie lub obracanie kształtów, inne są bardziej złożone, np. łączenie i odejmowanie jednego kształtu od drugiego. {{Top}}
 
-## Transform operations 
+## Operacje przekształcenia 
 
-### Translate a shape 
+### Przekształcanie kształtu 
 
-Translating is the act of moving a shape from one place to another. Any shape (edge, face, cube, etc\...) can be translated the same way: 
+Przesunięcie to czynność polegająca na przeniesieniu kształtu z jednego miejsca w drugie. Każdy kształt *(krawędź, ściana, sześcian, itd\...)* może być przesunięty w ten sam sposób: 
 ```python
 myShape = Part.makeBox(2, 2, 2)
 myShape.translate(Base.Vector(2, 0, 0))
-``` This will move our shape \"myShape\" 2 units in the X direction. {{Top}}
+``` Spowoduje to przesunięcie naszego kształtu \"myShape\" o 2 jednostki w kierunku X. {{Top}}
 
-### Rotate a shape 
+### Obrót kształtu 
 
-To rotate a shape, you need to specify the rotation center, the axis, and the rotation angle: 
+Aby obrócić kształt, należy określić środek obrotu, oś i kąt obrotu: 
 ```python
 myShape.rotate(Base.Vector(0, 0, 0),Base.Vector(0, 0, 1), 180)
-``` The above code will rotate the shape 180 degrees around the Z Axis. {{Top}}
+``` Powyższy kod obróci kształt o 180 stopni wokół osi Z. {{Top}}
 
-### Matrix transformations 
+### Przekształcenia macierzowe 
 
-A matrix is a very convenient way to store transformations in the 3D world. In a single matrix, you can set translation, rotation and scaling values to be applied to an object. For example: 
+Macierz jest bardzo wygodnym sposobem przechowywania przekształceń w świecie 3D. W pojedynczej macierzy można ustawić wartości przesunięcia, obrotu i skalowania, które mają być zastosowane do obiektu. Na przykład: 
 ```python
 myMat = Base.Matrix()
 myMat.move(Base.Vector(2, 0, 0))
 myMat.rotateZ(math.pi/2)
-``` Note: FreeCAD matrixes work in radians. Also, almost all matrix operations that take a vector can also take three numbers, so these two lines do the same thing: 
+``` Uwaga: Macierze FreeCAD działają w radianach. Ponadto, prawie wszystkie operacje na macierzach, które przyjmują wektor, mogą również przyjmować trzy liczby, więc te dwie linie robią to samo: 
 ```python
 myMat.move(2, 0, 0)
 myMat.move(Base.Vector(2, 0, 0))
-``` Once our matrix is set, we can apply it to our shape. FreeCAD provides two methods for doing that: `transformShape()` and `transformGeometry()`. The difference is that with the first one, you are sure that no deformations will occur (see [Scaling a shape](#Scaling_a_shape.md) below). We can apply our transformation like this: 
+``` Kiedy nasza macierz jest już ustalona, możemy ją zastosować do naszego kształtu. FreeCAD udostępnia dwie metody, aby to zrobić: `transformShape()` oraz `transformGeometry()`. Różnica jest taka, że w przypadku pierwszej z nich mamy pewność, że nie wystąpią żadne deformacje *(patrz poniżej [Skalowanie kształtu](#Skalowanie_kszta.C5.82tu.md))*. Naszą transformację możemy zastosować w ten sposób: 
 ```python
 myShape.transformShape(myMat)
-``` or 
+``` lub 
 ```python
 myShape.transformGeometry(myMat)
 ```{{Top}}
 
-### Scale a shape 
+### Skalowanie kształtu 
 
-Scaling a shape is a more dangerous operation because, unlike translation or rotation, scaling non-uniformly (with different values for X, Y and Z) can modify the structure of the shape. For example, scaling a circle with a higher value horizontally than vertically will transform it into an ellipse, which behaves mathematically very differently. For scaling, we cannot use the `transformShape()`, we must use `transformGeometry()`: 
+Skalowanie kształtu jest bardziej niebezpieczną operacją, ponieważ w przeciwieństwie do przesunięcia czy obrotu, skalowanie nierównomierne *(z różnymi wartościami dla X, Y i Z)* może zmienić strukturę kształtu. Na przykład, skalowanie koła z większą wartością w poziomie niż w pionie przekształci je w elipsę, która zachowuje się matematycznie zupełnie inaczej. Do skalowania nie możemy użyć metody `transformShape()`, musimy użyć `transformGeometry()`: 
 ```python
 myMat = Base.Matrix()
 myMat.scale(2, 1, 1)
 myShape=myShape.transformGeometry(myMat)
 ```{{Top}}
 
-## Boolean operations 
+## Operacje logiczne 
 
-### Subtraction
+### Operacja odjęcia 
 
-Subtracting a shape from another one is called \"cut\" in FreeCAD and is done like this: 
+Odejmowanie kształtu od innego nazywane jest w FreeCAD \"cięciem\" i odbywa się w następujący sposób: 
 ```python
 cylinder = Part.makeCylinder(3, 10, Base.Vector(0, 0, 0), Base.Vector(1, 0, 0))
 sphere = Part.makeSphere(5, Base.Vector(5, 0, 0))
 diff = cylinder.cut(sphere)
 ```{{Top}}
 
-### Intersection
+### Przecięcie
 
-The same way, the intersection between two shapes is called \"common\" and is done this way: 
+W ten sam sposób przecięcie dwóch kształtów nazywane jest \"częścią wspólną\" i jest wykonywane w ten sposób: 
 ```python
 cylinder1 = Part.makeCylinder(3, 10, Base.Vector(0, 0, 0), Base.Vector(1, 0, 0))
 cylinder2 = Part.makeCylinder(3, 10, Base.Vector(5, 0, -5), Base.Vector(0, 0, 1))
 common = cylinder1.common(cylinder2)
 ```{{Top}}
 
-### Union
+### Połączenie
 
-Union is called \"fuse\" and works the same way: 
+Połączenie nazywa się \"scaleniem\" i działa w ten sam sposób: 
 ```python
 cylinder1 = Part.makeCylinder(3, 10, Base.Vector(0, 0, 0), Base.Vector(1, 0, 0))
 cylinder2 = Part.makeCylinder(3, 10, Base.Vector(5, 0, -5), Base.Vector(0, 0, 1))
 fuse = cylinder1.fuse(cylinder2)
 ```{{Top}}
 
-### Section
+### Przekrój
 
-A \"section\" is the intersection between a solid shape and a plane shape. It will return an intersection curve, a compound curve composed of edges. 
+\"Przekrój\" jest punktem przecięcia bryły z płaszczyzną. Zwraca krzywą przecięcia, krzywą złożoną utworzoną z krawędzi. 
 ```python
 cylinder1 = Part.makeCylinder(3, 10, Base.Vector(0, 0, 0), Base.Vector(1, 0, 0))
 cylinder2 = Part.makeCylinder(3, 10, Base.Vector(5, 0, -5), Base.Vector(0, 0, 1))
@@ -635,22 +634,22 @@ section.Edges
  <Edge object at 0D8F4BB0>]
 ```{{Top}}
 
-### Extrusion
+### Wyciąganie
 
-Extrusion is the act of \"pushing\" a flat shape in a certain direction, resulting in a solid body. Think of a circle becoming a tube by \"pushing it out\": 
+Wyciąganie to czynność \"wypychania\" płaskiego kształtu w określonym kierunku, w wyniku czego powstaje pełna bryła. Pomyśl o kole, które staje się rurką poprzez \"wypychanie\" go na zewnątrz: 
 ```python
 circle = Part.makeCircle(10)
 tube = circle.extrude(Base.Vector(0, 0, 2))
-``` If your circle is hollow, you will obtain a hollow tube. If your circle is actually a disc with a filled face, you will obtain a solid cylinder: 
+``` Jeśli twój okrąg jest pusty, otrzymasz pustą rurkę. Jeśli twój okrąg jest w rzeczywistości dyskiem z wypełnioną powierzchnią, otrzymasz pełny walec: 
 ```python
 wire = Part.Wire(circle)
 disc = Part.Face(wire)
 cylinder = disc.extrude(Base.Vector(0, 0, 2))
 ```{{Top}}
 
-## Explore shapes 
+## Badanie kształtów 
 
-You can easily explore the topological data structure: 
+Możesz łatwo zbadać topologiczną strukturę danych: 
 ```python
 import Part
 b = Part.makeBox(100, 100, 100)
@@ -665,17 +664,17 @@ e = w.Edges[0]
 e.Vertexes
 v = e.Vertexes[0]
 v.Point
-``` By typing the lines above in the Python interpreter, you will gain a good understanding of the structure of Part objects. Here, our `makeBox()` command created a solid shape. This solid, like all Part solids, contains faces. Faces always contain wires, which are lists of edges that border the face. Each face has at least one closed wire (it can have more if the face has a hole). In the wire, we can look at each edge separately, and inside each edge, we can see the vertices. Straight edges have only two vertices, obviously. {{Top}}
+``` Wpisując powyższe linie w interpreterze Python, uzyskasz dobre zrozumienie struktury obiektów Część. Tutaj, nasze polecenie `makeBox()` utworzyło bryłę. Ta bryła, jak wszystkie bryły typu Część, zawiera ściany. Ściany zawsze zawierają linie łamane *(polilinie)*, które są listą krawędzi ograniczających daną ścianę. Każda ściana ma co najmniej jedną zamkniętą linię łamaną *(może mieć ich więcej, jeśli posiada otwór)*. W liniach łamanych możemy oglądać każdą krawędź z osobna, a wewnątrz każdej krawędzi możemy zobaczyć wierzchołki. Proste krawędzie mają oczywiście tylko dwa wierzchołki. {{Top}}
 
-### Edge analysis 
+### Analiza krawędzi 
 
-In case of an edge, which is an arbitrary curve, it\'s most likely you want to do a discretization. In FreeCAD the edges are parametrized by their lengths. That means you can walk an edge/curve by its length: 
+W przypadku krawędzi, która jest arbitralną krzywą, najprawdopodobniej chcesz dokonać dyskretyzacji. W FreeCAD krawędzie są parametryzowane przez ich długości. Oznacza to, że możesz przejść po krawędzi/krzywej przez jej długość: 
 ```python
 import Part
 box = Part.makeBox(100, 100, 100)
 anEdge = box.Edges[0]
 print(anEdge.Length)
-``` Now you can access a lot of properties of the edge by using the length as a position. That means if the edge is 100mm long the start position is 0 and the end position 100. 
+``` Teraz możesz uzyskać dostęp do wielu właściwości krawędzi, używając długości jako pozycji. Oznacza to, że jeśli krawędź ma długość 100mm, to pozycja początkowa wynosi 0, a końcowa 100. 
 ```python
 anEdge.tangentAt(0.0)          # tangent direction at the beginning
 anEdge.valueAt(0.0)            # Point at the beginning
@@ -688,14 +687,14 @@ anEdge.curvatureAt(50.0)       # the curvature
 anEdge.normalAt(50)            # normal vector at that position (if defined)
 ```{{Top}}
 
-### Use a selection 
+### Użycie zaznaczenia 
 
-Here we see now how we can use a selection the user did in the viewer. First of all we create a box and show it in the viewer. 
+Tutaj widzimy teraz, jak możemy wykorzystać wybór, który użytkownik przeprowadził w przeglądarce. Najpierw tworzymy sześcian i pokazujemy go w przeglądarce. 
 ```python
 import Part
 Part.show(Part.makeBox(100, 100, 100))
 Gui.SendMsgToActiveView("ViewFit")
-``` Now select some faces or edges. With this script you can iterate over all selected objects and their sub elements: 
+``` Teraz wybierz kilka ścian lub krawędzi. Za pomocą tego skryptu możesz przejść po wszystkich zaznaczonych obiektach i ich elementach podrzędnych: 
 ```python
 for o in Gui.Selection.getSelectionEx():
     print(o.ObjectName)
@@ -703,7 +702,7 @@ for o in Gui.Selection.getSelectionEx():
         print("name: ", s)
         for s in o.SubObjects:
             print("object: ", s)
-``` Select some edges and this script will calculate the length: 
+``` Wybierz kilka krawędzi, a ten skrypt obliczy ich długość: 
 ```python
 length = 0.0
 for o in Gui.Selection.getSelectionEx():
@@ -713,9 +712,9 @@ for o in Gui.Selection.getSelectionEx():
 print("Length of the selected edges: ", length)
 ```{{Top}}
 
-## Example: The OCC bottle 
+## Przykład: Butelka OCC 
 
-A typical example found on the [OpenCasCade Technology website](https://www.opencascade.com/doc/occt-6.9.0/overview/html/occt__tutorial.html) is how to build a bottle. This is a good exercise for FreeCAD too. In fact, if you follow our example below and the OCC page simultaneously, you will see how well OCC structures are implemented in FreeCAD. The script is included in the FreeCAD installation (inside the {{FileName|Mod/Part}} folder) and can be called from the Python interpreter by typing: 
+Typowym przykładem, który można znaleźć na stronie [OpenCasCade Technology](https://www.opencascade.com/doc/occt-6.9.0/overview/html/occt__tutorial.html) jest sposób na zbudowanie butelki. Jest to dobre ćwiczenie również dla programu FreeCAD. W rzeczywistości, jeśli będziesz śledził nasz przykład poniżej i stronę OCC jednocześnie, zobaczysz jak dobrze struktury OCC są zaimplementowane w FreeCAD. Skrypt jest dołączony do instalacji FreeCAD *(w folderze {{FileName|Mod/Part}})* i może być wywołany z interpretera Python przez wpisanie: 
 ```python
 import Part
 import MakeBottle
@@ -723,9 +722,9 @@ bottle = MakeBottle.makeBottle()
 Part.show(bottle)
 ```{{Top}}
 
-### The script 
+### Skrypt
 
-For the purpose of this tutorial we will consider a reduced version of the script. In this version the bottle will not be hollowed out, and the neck of the bottle will not be threaded. 
+Na potrzeby tego poradnika rozważymy okrojoną wersję skryptu. W tej wersji butelka nie będzie wydrążona, a szyjka butelki nie będzie gwintowana. 
 ```python
 import Part, math
 from FreeCAD import Base
@@ -773,7 +772,7 @@ el = makeBottleTut()
 Part.show(el)
 ```{{Top}}
 
-### Detailed explanation 
+### Szczegółowe objaśnienia 
 
 
 ```python
@@ -781,7 +780,7 @@ import Part, math
 from FreeCAD import Base
 ```
 
-We will need, of course, the `Part` module, but also the `FreeCAD.Base` module, which contains basic FreeCAD structures like vectors and matrices.
+Potrzebny nam będzie oczywiście moduł `Part`, ale także moduł `FreeCAD.Base`, który zawiera podstawowe struktury FreeCAD, takie jak wektory i macierze.
 
 
 ```python
@@ -793,7 +792,7 @@ def makeBottleTut(myWidth = 50.0, myHeight = 70.0, myThickness = 30.0):
     aPnt5=Base.Vector(myWidth / 2., 0, 0)
 ```
 
-Here we define our `makeBottleTut` function. This function can be called without arguments, like we did above, in which case default values for width, height, and thickness will be used. Then, we define a couple of points that will be used for building our base profile.
+Tutaj definiujemy naszą funkcję `makeBottleTut`. Funkcja ta może być wywołana bez argumentów, tak jak zrobiliśmy to powyżej, w tym przypadku zostaną użyte domyślne wartości dla szerokości, wysokości i grubości. Następnie definiujemy kilka punktów, które zostaną użyte do budowy naszego profilu bazowego.
 
 
 ```python
@@ -803,7 +802,7 @@ Here we define our `makeBottleTut` function. This function can be called without
     aSegment2=Part.LineSegment(aPnt4, aPnt5)
 ```
 
-Here we define the geometry: an arc, made of three points, and two line segments, made of two points.
+Tutaj definiujemy geometrię: łuk, złożony z trzech punktów, oraz dwa odcinki linii, złożone z dwóch punktów.
 
 
 ```python
@@ -814,7 +813,7 @@ Here we define the geometry: an arc, made of three points, and two line segments
     aWire=Part.Wire([aEdge1, aEdge2, aEdge3])
 ```
 
-Remember the difference between geometry and shapes? Here we build shapes out of our construction geometry. Three edges (edges can be straight or curved), then a wire made of those three edges.
+Pamiętasz różnicę między geometrią a kształtami? Tutaj budujemy kształty z naszej geometrii konstrukcyjnej. Trzy krawędzie *(krawędzie mogą być proste lub zakrzywione)*, następnie linia łamana wykonana z tych trzech krawędzi.
 
 
 ```python
@@ -827,7 +826,7 @@ Remember the difference between geometry and shapes? Here we build shapes out of
     myWireProfile=Part.Wire([aWire, aMirroredWire])
 ```
 
-So far we have built only a half profile. Instead of building the whole profile the same way, we can just mirror what we did and glue both halves together. We first create a matrix. A matrix is a very common way to apply transformations to objects in the 3D world, since it can contain in one structure all basic transformations that 3D objects can undergo (move, rotate and scale). After we create the matrix we mirror it, then we create a copy of our wire and apply the transformation matrix to it. We now have two wires, and we can make a third wire out of them, since wires are actually lists of edges.
+Do tej pory zbudowaliśmy tylko połowę profilu. Zamiast budować cały profil w ten sam sposób, możemy po prostu zrobić lustrzane odbicie tego, co zrobiliśmy i skleić obie połówki. Najpierw utworzymy macierz. Macierz jest bardzo popularnym sposobem na zastosowanie transformacji do obiektów w świecie 3D, ponieważ może ona zawierać w jednej strukturze wszystkie podstawowe transformacje, jakim mogą podlegać obiekty 3D (przesuwanie, obracanie i skalowanie). Po utworzeniu macierzy odbijamy ją w lustrze, następnie tworzymy kopię naszej linii łamanej i nakładamy na nią macierz transformacji. Mamy teraz już dwie linie, z których możemy utworzyć trzecią, gdyż linie to tak naprawdę listy krawędzi.
 
 
 ```python
@@ -839,7 +838,7 @@ So far we have built only a half profile. Instead of building the whole profile 
     myBody=myBody.makeFillet(myThickness / 12.0, myBody.Edges)
 ```
 
-Now that we have a closed wire, it can be turned into a face. Once we have a face, we can extrude it. In doing so, we make a solid. Then we apply a nice little fillet to our object because we care about good design, don\'t we? 
+Teraz, gdy mamy już zamkniętą linię łamaną, można ją przekształcić w ścianę. Gdy mamy już ścianę, możemy ją wyciągnąć. W ten sposób tworzymy bryłę. Następnie nakładamy na nasz obiekt małe, ładne zaokrąglenie, ponieważ zależy nam na dobrym projekcie, prawda? 
 ```python
     ...
     neckLocation=Base.Vector(0, 0, myHeight)
@@ -848,25 +847,25 @@ Now that we have a closed wire, it can be turned into a face. Once we have a fac
     myNeckRadius = myThickness / 4.
     myNeckHeight = myHeight / 10.
     myNeck = Part.makeCylinder(myNeckRadius, myNeckHeight, neckLocation, neckNormal)
-``` At this point, the body of our bottle is made, but we still need to create a neck. So we make a new solid, with a cylinder. 
+``` W tym momencie korpus naszej butelki jest już gotowy, ale musimy jeszcze stworzyć szyjkę. Tworzymy więc nową bryłę, z walcem. 
 ```python
     ...
     myBody = myBody.fuse(myNeck)
-``` The fuse operation is very powerful. It will take care of gluing what needs to be glued and remove parts that need to be removed. 
+``` Obsługa operacji scalenia jest bardzo wydajna. Zajmie się sklejaniem tego, co trzeba skleić i usuwaniem części, które trzeba usunąć. 
 ```python
     ...
     return myBody
-``` Then, we return our Part solid as the result of our function. 
+``` Następnie zwracamy naszą bryłę typu Część jako wynik naszej funkcji. 
 ```python
 el = makeBottleTut()
 Part.show(el)
-``` Finally, we call the function to actually create the part, then make it visible. {{Top}}
+``` Na koniec wywołujemy funkcję, aby faktycznie utworzyć część, a następnie uczynić ją widoczną. {{Top}}
 
-## Example: Pierced box 
+## Przykład: Sześcian z otworami 
 
-Here is a complete example of building a pierced box.
+Oto kompletny przykład budowy sześcianu z otworami.
 
-The construction is done one side at a time. When the cube is finished, it is hollowed out by cutting a cylinder through it. 
+Konstrukcja jest wykonywana po jednym boku na raz. Kiedy kostka jest gotowa, zostaje wydrążona przez wycięcie w niej walca. 
 ```python
 import Part, math
 from FreeCAD import Base
@@ -914,21 +913,21 @@ cut_part = mySolid.cut(myCyl)
 Part.show(cut_part)
 ```{{Top}}
 
-## Loading and saving 
+## Wczytywanie i zapisywanie 
 
-There are several ways to save your work. You can of course save your FreeCAD document, but you can also save [Part](Part_Workbench.md) objects directly to common CAD formats, such as BREP, IGS, STEP and STL.
+Jest kilka sposobów na zapisanie swojej pracy. Możesz oczywiście zapisać swój dokument FreeCAD, ale możesz również zapisać obiekty typu [Część](Part_Workbench/pl.md) bezpośrednio do popularnych formatów CAD, takich jak BREP, IGS, STEP i STL.
 
-Saving a shape to a file is easy. There are `exportBrep()`, `exportIges()`, `exportStep()` and `exportStl()` methods available for all shape objects. So, doing: 
+Zapisywanie kształtu do pliku jest łatwe. Dla wszystkich obiektów kształtu dostępne są metody `exportBrep()`, `exportIges()`, `exportStep()` oraz `exportStl()`. Tak więc, wykonując: 
 ```python
 import Part
 s = Part.makeBox(10, 10, 10)
 s.exportStep("test.stp")
-``` will save our box into a STEP file. To load a BREP, IGES or STEP file: 
+``` zapisze naszą kostkę do pliku STEP. Aby wczytać plik BREP, IGES lub STEP: 
 ```python
 import Part
 s = Part.Shape()
 s.read("test.stp")
-``` To convert a STEP file to an IGS file: 
+``` Aby przekonwertować plik STEP na plik IGS: 
 ```python
  import Part
  s = Part.Shape()
@@ -936,4 +935,4 @@ s.read("test.stp")
  s.exportIges("file.igs") # outbound file igs
 ```{{Top}} {{Powerdocnavi}} 
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Python Code{{\#translation:}}](Category:Python_Code.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)

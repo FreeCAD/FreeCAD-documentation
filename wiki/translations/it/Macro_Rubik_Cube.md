@@ -1,3 +1,5 @@
+# Macro Rubik Cube/it
+
  {{Macro/it
 |Name=Macro_Rubik_Cube
 |Translate=Cubo di Rubik

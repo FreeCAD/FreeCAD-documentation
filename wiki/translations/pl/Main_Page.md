@@ -1,8 +1,10 @@
-\_\_NOTOC\_\_ 
+# Main Page/pl
+
+ 
 
 ## Wprowadzenie
 
-To jest dokumentacja Wiki programu [FreeCAD](https://www.freecadweb.org/?lang=pl). Są dwa sposoby przeglądania dokumentacji: przez wykorzystywanie centrów użytkownika *(ang. User hub)* lub przez czytanie podręcznika. Wiki jest w czasie rozwoju, pisana przez społeczność użytkowników i twórców programu FreeCAD. Jeśli znalazłeś nieprawdziwą lub brakującą informację, proszę [pomóż](Help_FreeCAD/pl.md)! 
+To jest dokumentacja Wiki programu [FreeCAD](https://www.freecadweb.org/?lang=pl). Istnieje kilka sposobów korzystania z tej dokumentacji: poprzez eksplorację centrów użytkownika, poprzez podążanie za podręcznikiem lub poprzez użycie pozycji menu Pomoc z poziomu FreeCAD. Wiki jest w czasie rozwoju, pisana przez społeczność użytkowników i twórców programu FreeCAD. Jeśli znalazłeś nieprawdziwą lub brakującą informację, proszę [pomóż](Help_FreeCAD/pl.md)! 
 
 
 ## Centrum użytkownika 
@@ -57,4 +59,4 @@ Sprawdź [Drogę rozwoju](Development_roadmap.md) by dowiedzieć się co jest pl
 
 
 
-[Category:Documentation{{\#translation:}}](Category:Documentation.md)
+[Category:Documentation](Category:Documentation.md)

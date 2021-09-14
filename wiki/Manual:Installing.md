@@ -1,3 +1,5 @@
+# Manual:Installing
+
  
 
 
@@ -94,11 +96,11 @@ If you are using the Ubuntu operating system, some of the addons above are also 
 -   [Compile FreeCAD yourself](Compiling.md)
 -   [FreeCAD translations](https://crowdin.com/project/freecad)
 -   [FreeCAD github page](https://github.com/FreeCAD)
--   [The FreeCAD addons manager](AddonManager.md)
+-   [The FreeCAD addons manager](Std_AddonMgr.md)
 
 
 
 
 
 
-[Category:Poweruser Documentation{{\#translation:}}](Category:Poweruser_Documentation.md) [Category:Tutorials{{\#translation:}}](Category:Tutorials.md)
+[Category:Poweruser Documentation](Category:Poweruser_Documentation.md) [Category:Tutorials](Category:Tutorials.md)

@@ -1,3 +1,5 @@
+# Part scripting/fr
+
 
 
 
@@ -154,4 +156,4 @@ Rendez-vous sur la page [Scripts pour création topologique](Topological_data_sc
 
 }}  
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Python Code{{\#translation:}}](Category:Python_Code.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)

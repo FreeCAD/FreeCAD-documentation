@@ -1,14 +1,12 @@
 ---
 - GuiCommand:/ru
-   Name:Sketcher CreateRectangle
-   Name/ru:Sketcher Прямоугольник
-   MenuLocation:Эскиз → Геометрия эскиза → Создать прямоугольник
+   Name/ru:Создать прямоугольник
+   Name:Sketcher_CreateRectangle
+   MenuLocation:Sketch → Геометрия эскиза → Создать прямоугольник
    Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
    Shortcut:**R**
-   SeeAlso:[Полилиния в Sketcher](Sketcher_CreatePolyline/ru.md)---
-
-
-</div>
+   SeeAlso:[Создать скругленный прямоугольник](Sketcher_CreateOblong/ru.md), [Создать полилинию](Sketcher_CreatePolyline/ru.md)
+---
 
 ## Описание
 
@@ -24,7 +22,7 @@ To define a rectangle via a center point and an edge point, use the [Centered re
 
 ![](images/SketcherCreateRectangleExample.png‎ )
 
-## Использование
+## Применение
 
 
 <div class="mw-translate-fuzzy">
@@ -36,13 +34,7 @@ To define a rectangle via a center point and an edge point, use the [Centered re
 </div>
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Sketcher Tools navi

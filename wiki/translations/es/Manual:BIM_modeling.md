@@ -1,4 +1,6 @@
- {{UnfinishedDocu}}
+# Manual:BIM modeling/es
+
+ }
 
 
 <div class="mw-translate-fuzzy">
@@ -17,7 +19,7 @@ El modelado de información de construcción significa (BIM, engl.: Building Inf
 
 <div class="mw-translate-fuzzy">
 
-El [Ambiente de trabajo Arquitectura](Arch_Module/es.md) de FreeCAD implementa una serie de herramientas y facilidades para el modelado BIM. Aunque tiene un propósito diferente, está hecho para trabajar en estrecha integración con el resto de FreeCAD: Cualquier cosa hecha con cualquier otro banco de trabajo de FreeCAD puede convertirse en un objeto Arch, o ser utilizado como base para un objeto Arch.
+El [Ambiente de trabajo Arquitectura](Arch_Workbench/es.md) de FreeCAD implementa una serie de herramientas y facilidades para el modelado BIM. Aunque tiene un propósito diferente, está hecho para trabajar en estrecha integración con el resto de FreeCAD: Cualquier cosa hecha con cualquier otro banco de trabajo de FreeCAD puede convertirse en un objeto Arch, o ser utilizado como base para un objeto Arch.
 
 
 </div>
@@ -27,7 +29,7 @@ Como en el [Ambiente de trabajo Disegno Piezas](PartDesign_Workbench/es.md), los
 
 <div class="mw-translate-fuzzy">
 
-El ambiente de trabajo Arquitectura también incluye todas las herramientas del [Ambiente de trabajo de Borrador](Draft_Module/es.md), y utiliza su sistema de rejilla y ajuste. Antes de empezar, siempre es una buena idea navegar a través de las páginas de preferencias tanto de Draft como de Arch y establecer la configuración por defecto a su gusto.
+El ambiente de trabajo Arquitectura también incluye todas las herramientas del [Ambiente de trabajo de Borrador](Draft_Workbench/es.md), y utiliza su sistema de rejilla y ajuste. Antes de empezar, siempre es una buena idea navegar a través de las páginas de preferencias tanto de Draft como de Arch y establecer la configuración por defecto a su gusto.
 
 
 </div>
@@ -43,7 +45,7 @@ y producir una vista en planta y en sección a partir de ella:
 
 <div class="mw-translate-fuzzy">
 
--   Crear un nuevo documento, y cambiar al [Ambiente de trabajo Arquitectura](Arch_Module/es.md).
+-   Crear un nuevo documento, y cambiar al [Ambiente de trabajo Arquitectura](Arch_Workbench/es.md).
 -   Abra el menú **Edición → Preferencias → Borrador → Rejilla y Ajuste** y establezca:
     -   **Líneas principales cada** `10`.
     -   **Espaciado de la cuadrícula** `1000mm` para tener una cuadrícula basada en un metro, lo cual es conveniente para el tamaño de nuestro edificio.
@@ -251,7 +253,7 @@ Our page is now ready, and we can export it to SVG or DXF formats, or print it. 
 <div class="mw-translate-fuzzy">
 
 -   [Ambiente de trabajo BIM ](BIM_Workbench/es.md)
--   [Ambiente de trabajo Arquitectura](Arch_Module/es.md)
+-   [Ambiente de trabajo Arquitectura](Arch_Workbench/es.md)
 -   [El Borrador plano de trabajo](Draft_SelectPlane/es.md)
 -   [Los ajustes Borrador Atrapar](Draft_Snap/es.md)
 -   [El sistema de expresiones](Expressions/es.md)
@@ -277,4 +279,4 @@ Our page is now ready, and we can export it to SVG or DXF formats, or print it. 
 
 }} 
 
-[Category:BIM{{\#translation:}}](Category:BIM.md)
+[Category:BIM](Category:BIM.md)

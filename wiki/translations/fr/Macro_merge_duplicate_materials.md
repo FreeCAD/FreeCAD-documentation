@@ -1,3 +1,5 @@
+# Macro merge duplicate materials/fr
+
  {{Macro/fr
 |Name=Macro merge duplicate materials
 |Icon=Macro_merge_duplicate_materials.png

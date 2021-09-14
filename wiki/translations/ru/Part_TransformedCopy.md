@@ -25,15 +25,15 @@ To produce other non-parametric copies use **<img src="images/Part_SimpleCopy.sv
 
 ## Свойства
 
-### Data
+### Данные
 
 The copy has a simple **Placement** property like any other [Part Feature](Part_Feature.md).
 
-### View
+### Вид
 
 The copy has simple view properties like any other [Part Feature](Part_Feature.md).
 
-## Scripting
+## Программирование
 
 The **Part TransformedCopy** command can be applied after selecting one or more objects in the [Tree view](Tree_view.md):
 

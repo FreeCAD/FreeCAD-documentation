@@ -3,7 +3,7 @@
    Name:Draft ToggleSnap
    Name/de:Entwurf FangUmschalten
    MenuLocation:Draft → Utilities → Toggle snap
-   Workbenches:[Entwurf](Draft_Module/de.md), [Arch](Arch_Module/de.md)
+   Workbenches:[Entwurf](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
    SeeAlso:[Entwurf Fang](Draft_Snap/de.md), [Entwurf Umschalten Gitter](Draft_ToggleGrid/de.md)
 ---
 

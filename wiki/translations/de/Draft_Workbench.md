@@ -1,3 +1,5 @@
+# Draft Workbench/de
+
 
 
 
@@ -10,7 +12,7 @@
 
 ## Einführung
 
-Der <img alt="" src=images/Workbench_Draft.svg  style="width:32px;"> [Arbeitsbereich Entwurf](Draft_Module/de.md) erlaubt dir das Zeichnen einfacher 2D Objekte und bietet verschiedene Werkzeuge, um sie anschließend zu ändern. Es bietet auch Werkzeuge zur Festlegung einer Bearbeitungsebene, eines Rasters und eines Objektfangsystems, um die Position deiner Geometrie präzise zu steuern.
+Der <img alt="" src=images/Workbench_Draft.svg  style="width:32px;"> [Arbeitsbereich Entwurf](Draft_Workbench/de.md) erlaubt dir das Zeichnen einfacher 2D Objekte und bietet verschiedene Werkzeuge, um sie anschließend zu ändern. Es bietet auch Werkzeuge zur Festlegung einer Bearbeitungsebene, eines Rasters und eines Objektfangsystems, um die Position deiner Geometrie präzise zu steuern.
 
 Die erzeugten 2D Objekte können ähnlich wie mit Inkscape oder Autocad für allgemeine Zeichnungserstellung verwendet werden. Diese 2D Formen können auch als Basiskomponenten von 3D Objekten verwendet werden, die mit anderen Arbeitsbereichen erstellt wurden, z.B. dem <img alt="" src=images/Workbench_Part.svg  style="width:32px;"> [Part](Part_Workbench/de.md) und <img alt="" src=images/Workbench_Arch.svg  style="width:32px;"> [Arch Arbeitsbereichen](Arch_Workbench/de.md). Konvertierung von Entwurfsobjekten nach <img alt="" src=images/Workbench_Sketcher.svg  style="width:32px;"> [Skizzen](Sketcher_Workbench/de.md) ist auch möglich, d.h. die Formen können auch mit der <img alt="" src=images/Workbench_PartDesign.svg  style="width:32px;"> [PartDesign Arbeitsbereich](PartDesign_Workbench/de.md) für die Erzeugung von Volumenkörpern verwendet werden.
 
@@ -307,4 +309,4 @@ Wobei `$INSTALLDIR` das Hauptverzeichnis ist, in dem die Software installiert wu
 
  
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

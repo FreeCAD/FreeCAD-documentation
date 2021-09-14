@@ -1,3 +1,5 @@
+# KicadStepUp Workbench/es
+
 
 
 
@@ -160,4 +162,4 @@ Nuevos ambientes de trabajo están en desarrollo, esté atento!
 
 
 
-[Category:Addons{{\#translation:}}](Category:Addons.md) [Category:External Workbenches{{\#translation:}}](Category:External_Workbenches.md)
+[Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)

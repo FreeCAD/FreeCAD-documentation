@@ -3,23 +3,14 @@
    Name:Arch SetMaterial
    Name/fr:Arch Matériaux
    MenuLocation:Arch → Outils matériaux → Matériau
-   Workbenches:[Arch](Arch_Module/fr.md), [BIM](BIM_Workbench/fr.md)
+   Workbenches:[Arch](Arch_Workbench/fr.md), [BIM](BIM_Workbench/fr.md)
    Shortcut:**M** **T**
    SeeAlso:[Arch Outils matériaux](Arch_CompSetMaterial/fr.md), [Arch Matériaux multiples](Arch_MultiMaterial/fr.md)
 ---
 
-
-</div>
-
 ## Description
 
-
-<div class="mw-translate-fuzzy">
-
-L\'outil Matériau permet d\'ajouter des [matériaux](Material/fr.md) dans le document actif, et attribue un matériau à un objet [ Arch](Arch_Module/fr.md). Les matériaux peuvent prendre toutes les propriétés d\'un certain matériel, et contrôler la couleur de l\'objet auquel il est attaché. Les données sont stockées dans le dossier **Matériaux** dans le document actif.
-
-
-</div>
+L\'outil Matériau permet d\'ajouter des [matériaux](Material/fr.md) dans le document actif et attribue un matériau à un objet [Arch](Arch_Workbench/fr.md). Les matériaux peuvent prendre toutes les propriétés d\'un certain matériel, et contrôler la couleur de l\'objet auquel il est attaché. Les données sont stockées dans le dossier **Matériaux** dans le document actif.
 
 ![](images/Arch_materials_01.jpg )
 
@@ -39,9 +30,6 @@ L\'outil Matériau permet d\'ajouter des [matériaux](Material/fr.md) dans le do
 
 ![](images/Arch_materials_02.jpg )
 
-
-<div class="mw-translate-fuzzy">
-
 -   **Choose preset**: Choisissez un matériau prédéfini, et utilisez le tel quel, adaptez le ou modifiez le
 -   **Name**: Donnez un nom au matériau.
 -   **Edit button**: Cela ouvre le matériau actuel dans l\'[Editeur de matériaux](Material_editor/fr.md) de FreeCAD qui vous permet de modifier de nombreuses propriétés supplémentaires et d\'ajouter vos propres propriétés personnalisées.
@@ -51,23 +39,14 @@ L\'outil Matériau permet d\'ajouter des [matériaux](Material/fr.md) dans le do
 -   **Code**: Un nom et un numéro de spécification déterminé dans le système [Masterformat](https://en.wikipedia.org/wiki/MasterFormat) ou [Omniclass](http://www.omniclass.org/).
 -   **Code browser button**: Pas encore implémenté - permettra d\'ouvrir la référence dans un navigateur Web.
 -   **URL**: Une URL pour connaître les informations du matériau utilisé.
--   **URL button**:Ouvre l\'URL dans un navigateur web.
-
-
-</div>
+-   **URL button**: Ouvre l\'URL dans un navigateur web.
 
 ## Relation avec IFC 
 
 Cela correspond à peu près à [IfcMaterial](https://standards.buildingsmart.org/IFC/DEV/IFC4_2/FINAL/HTML/link/ifcmaterial.htm).
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
  

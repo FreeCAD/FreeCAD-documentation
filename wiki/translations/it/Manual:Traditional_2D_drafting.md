@@ -1,3 +1,5 @@
+# Manual:Traditional 2D drafting/it
+
 
 
 
@@ -15,7 +17,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Si può essere interessati a FreeCAD perché si ha già una certa esperienza di disegno tecnico, ad esempio con un software come [AutoCAD](https://en.wikipedia.org/wiki/AutoCAD). Si conosce già qualcosa sulla progettazione, oppure si preferisce disegnare le cose prima di costruirle. In ogni caso, FreeCAD dispone di un ambiente di lavoro più tradizionale, con gli strumenti che si trovano nella maggior parte delle applicazioni CAD 2D: l\'ambiente [Draft](Draft_Module/it.md).
+Si può essere interessati a FreeCAD perché si ha già una certa esperienza di disegno tecnico, ad esempio con un software come [AutoCAD](https://en.wikipedia.org/wiki/AutoCAD). Si conosce già qualcosa sulla progettazione, oppure si preferisce disegnare le cose prima di costruirle. In ogni caso, FreeCAD dispone di un ambiente di lavoro più tradizionale, con gli strumenti che si trovano nella maggior parte delle applicazioni CAD 2D: l\'ambiente [Draft](Draft_Workbench/it.md).
 
 
 </div>
@@ -195,7 +197,7 @@ Fondamentalmente, l\'ambiente Draft fornisce un modo grafico per creare le opera
 
 <div class="mw-translate-fuzzy">
 
--   [L\'ambiente Draft](Draft_Module/it.md)
+-   [L\'ambiente Draft](Draft_Workbench/it.md)
 -   [Agganciare gli oggetti](Draft_Snap/it.md)
 -   [Il piano di lavoro di Draft](Draft_SelectPlane/it.md)
 
@@ -211,4 +213,4 @@ Fondamentalmente, l\'ambiente Draft fornisce un modo grafico per creare le opera
 
 </div>
 
-[Category:Tutorials{{\#translation:}}](Category:Tutorials.md) [Category:Draft{{\#translation:}}](Category:Draft.md)
+[Category:Tutorials](Category:Tutorials.md) [Category:Draft](Category:Draft.md)

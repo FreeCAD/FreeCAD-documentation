@@ -1,3 +1,5 @@
+# Contributors/pl
+
 
 
 
@@ -251,4 +253,4 @@ Programiści tworzący dodatki do FreeCAD *(dostępne na stronie <https://github
 
 
 
-[Category:Developer{{\#translation:}}](Category:Developer.md)
+[Category:Developer](Category:Developer.md)

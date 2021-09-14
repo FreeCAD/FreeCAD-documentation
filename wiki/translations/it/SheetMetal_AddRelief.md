@@ -73,17 +73,29 @@ Se si inizia con un corpo di PartDesign, è possibile combinare le funzioni di S
 
 ## Proprietà
 
+See also: [Property editor](Property_editor.md).
+
+A SheetMetal Relief object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties and its label has a default value:
+
 ### Dati
 
 
 {{Properties_Title|Base}}
 
+
+<div class="mw-translate-fuzzy">
+
 -    **Label**: Nome assegnato dall\'utente all\'oggetto nella [vista ad albero](Tree_view/it.md).
+
+
+</div>
 
 
 {{Properties_Title|Parameters}}
 
--    **relief**: Dimensione dello scarico da aggiungere.
+-    **base Object|LinkSub**: \"Base Object\". Links to the corner vertexes defining relief positions.
+
+-    **relief|Length**: \"Relief Size\". Default: {{value|2,00 mm}}.
 
 
 <div class="mw-translate-fuzzy">
@@ -94,4 +106,4 @@ Se si inizia con un corpo di PartDesign, è possibile combinare le funzioni di S
 
 </div>
 
-[Category:SheetMetal{{\#translation:}}](Category:SheetMetal.md) [Category:Addons{{\#translation:}}](Category:Addons.md) [Category:External Command Reference{{\#translation:}}](Category:External_Command_Reference.md)
+[Category:SheetMetal](Category:SheetMetal.md) [Category:Addons](Category:Addons.md) [Category:External Command Reference](Category:External_Command_Reference.md)

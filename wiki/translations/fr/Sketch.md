@@ -1,3 +1,5 @@
+# Sketch/fr
+
 
 
 ## Introduction
@@ -37,4 +39,4 @@ Néanmoins, une esquisse peut toujours être créée à toute autre fin. Elle ne
 
 }} {{Document objects navi}} 
 
-[Category:Glossary{{\#translation:}}](Category:Glossary.md)
+[Category:Glossary](Category:Glossary.md)

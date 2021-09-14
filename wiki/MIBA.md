@@ -1,3 +1,5 @@
+# MIBA
+
  
 
 ## Introduction
@@ -8,7 +10,7 @@ A detailed specification you can find here: <http://miba.juergen-riegel.net/>
 
 ## Miba in FreeCAD 
 
-If you choose a file format which has an comment ability ( JPG and PNG) you can choose to write a comment or insert the MIBA information in the comment fileds (default):
+If you choose a file format which has an comment ability ( JPG and PNG) you can choose to write a comment or insert the MIBA information in the comment fields (default):
 
  <img alt="" src=images/Save_picture.png  style="width:600px;"> 
 
@@ -39,4 +41,4 @@ App.closeDocument(App.ActiveDocument.Name)
 
 
 
-[Category:User\_Documentation{{\#translation:}}](Category:User_Documentation.md)
+[Category:User\_Documentation](Category:User_Documentation.md)

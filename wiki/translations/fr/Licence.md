@@ -1,3 +1,5 @@
+# Licence/fr
+
 
 
 
@@ -59,4 +61,4 @@ Néanmoins, cette décision est prise seulement pour le système de base de Free
 
  
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md)

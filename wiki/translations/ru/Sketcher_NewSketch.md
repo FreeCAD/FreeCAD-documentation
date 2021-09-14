@@ -1,14 +1,11 @@
 ---
 - GuiCommand:/ru
-   Name:Sketcher NewSketch
-   Name/ru:Новый эскиз
-   MenuLocation:Sketch → Новый эскиз
+   Name/ru:Создать эскиз
+   Name:Sketcher_NewSketch
+   MenuLocation:Sketch → Создать эскиз
    Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
-   SeeAlso:[Разместить эскиз на грани...](Sketcher_MapSketch/ru.md), [Переориентировать эскиз...](Sketcher_ReorientSketch/ru.md)
+   SeeAlso:[Создать эскиз](PartDesign_NewSketch/ru.md), [Разместить эскиз на грани...](Sketcher_MapSketch/ru.md), [Переориентировать эскиз...](Sketcher_ReorientSketch/ru.md)
 ---
-
-
-</div>
 
 ## Описание
 
@@ -16,7 +13,7 @@
 
 Обратите внимание на то, что <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Верстак PartDesign](PartDesign_Workbench/ru.md) имеет свой собственный инструмент [новый эскиз](PartDesign_NewSketch/ru.md), при работе с [телом из PartDesign](PartDesign_Body/ru.md) лучше использовать его.
 
-## Использование
+## Применение
 
 Если нажать на значок предварительно не выбрав грань, появится диалоговое окно с вопросом, в какой плоскости следует рисовать эскиз
 
@@ -28,7 +25,7 @@
 
 Нажатие на значок с (предварительно выбранной) гранью приведет к тому, что эскиз будет размещен на выбранной грани.
 
-## Примечание
+## Примечания
 
 Эскиз может быть перенесен на другую уже существующую грань, используя команду [Связать эскиз с гранью](Sketcher_MapSketch/ru.md).
 

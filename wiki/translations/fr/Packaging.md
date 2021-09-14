@@ -1,3 +1,5 @@
+# Packaging/fr
+
 
 
 Cette page recueille les informations sur le packaging de FreeCAD sur différentes plateformes.
@@ -9,4 +11,4 @@ Cette page recueille les informations sur le packaging de FreeCAD sur différent
 
  
 
-[Category:Packaging{{\#translation:}}](Category:Packaging.md) [Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md)
+[Category:Packaging](Category:Packaging.md) [Category:Developer Documentation](Category:Developer_Documentation.md)

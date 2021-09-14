@@ -1,3 +1,5 @@
+# Image Workbench/pt-br
+
  
 
 <img alt="Ícone da bancada de trabalho de imagem" src=images/Workbench_Image.svg  style="width:128px;">
@@ -37,4 +39,4 @@ O deslocamento da imagem pode ser configurado durante a importação ou alterada
 
 }} 
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

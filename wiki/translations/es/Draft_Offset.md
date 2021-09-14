@@ -1,5 +1,12 @@
 ---
-- GuiCommand:/es   Name:Draft Offset   Workbenches:[Arquitectura](Draft_Module/es___Croquis]],_[[Arch_Module/es.md)|MenuLocation:Croquis → Equidistancia   Shortcut:O S   SeeAlso:[Part 2D Offset](Part_Offset2D/es.md)---
+- GuiCommand:/es
+   Name:Draft Offset
+   Name/es:Draft Offset
+   MenuLocation:Croquis → Equidistancia
+   Workbenches:[Croquis](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
+   Shortcut:**O** **S**
+   SeeAlso:[Part 2D Offset](Part_Offset2D/es.md)
+---
 
 
 </div>

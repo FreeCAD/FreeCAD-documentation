@@ -1,11 +1,11 @@
 ---
 - GuiCommand:/ru
-   Name:Std PerspectiveCamera
-   Name/ru:Std PerspectiveCamera
+   Name/ru:Перспективная проекция
+   Name:Std_PerspectiveCamera
    MenuLocation:Вид → Перспективная проекция
-   Workbenches:All
+   Workbenches:Все
    Shortcut:**V** **P**
-   SeeAlso:[Параллельная проекция](Std_OrthographicCamera/ru.md)
+   SeeAlso:[Ортогональная проекция](Std_OrthographicCamera/ru.md)
 ---
 
 ## Описание
@@ -28,7 +28,7 @@
 
 -   The camera type can be changed in the preferences: **Edit → Preferences... → Display → 3D View → Camera type**. The selected type will be used for all 3D views of all opened documents and also for new documents. See [Preferences Editor](Preferences_Editor#3D_View.md).
 
-## Scripting
+## Программирование
 
 
 **Смотрите так же:**

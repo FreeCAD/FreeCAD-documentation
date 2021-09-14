@@ -1,3 +1,5 @@
+# Mesh Scripting/ro
+
 
 
 
@@ -74,7 +76,8 @@ Mesh-Kernel are grijă de o structură topologică corectă a datelor prin sorta
 
 </div>
 
-[top](#top.md)
+
+{{Top}}
 
 
 <div class="mw-translate-fuzzy">
@@ -140,7 +143,8 @@ obj.Mesh = pipe
 doc.recompute()
 ```
 
-[top](#top.md)
+
+{{Top}}
 
 
 <div class="mw-translate-fuzzy">
@@ -162,11 +166,12 @@ See also [Mesh API](Mesh_API.md)
 
 </div>
 
-[top](#top.md)
+
+{{Top}}
 
 
 {{Powerdocnavi
 
 }} {{Mesh Tools navi}} 
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Python Code{{\#translation:}}](Category:Python_Code.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)

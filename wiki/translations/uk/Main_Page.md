@@ -1,4 +1,6 @@
-\_\_NOTOC\_\_ 
+# Main Page/uk
+
+ 
 
 
 <div class="mw-translate-fuzzy">
@@ -96,4 +98,4 @@ FreeCAD може бути зібрано з використанням CMake. П
 
 
 
-[Category:Documentation{{\#translation:}}](Category:Documentation.md)
+[Category:Documentation](Category:Documentation.md)

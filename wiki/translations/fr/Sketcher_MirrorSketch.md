@@ -9,11 +9,11 @@
 
 ## Description
 
-Faire une esquisse en miroir le long de l\'axe des x, de l\'axe des y ou de l\'origine. Cette commande est invoquée lorsque vous *n\'éditez pas* une esquisse. Elle crée une nouvelle esquisse qui contient la géométrie réfléchie.
+Met en miroir une esquisse le long de l\'axe x, de l\'axe y ou de l\'origine. Cette commande est lancée lorsque vous n\'éditez pas d\'esquisse. Elle crée une nouvelle esquisse qui contient la géométrie réfléchie.
 
 ## Utilisation
 
-1.  Sélectionnez une esquisse à refléter. (généralement en cliquant dessus dans la [Vue en arborescence](Tree_view/fr.md)).
+1.  Sélectionner l\'esquisse à mettre en miroir (généralement en cliquant dessus dans la [Vue en arborescence](Tree_view/fr.md)).
 2.  Cliquez sur **<img src=images/Sketcher_MirrorSketch.svg style="width:16px"> <img src=images/Sketcher_MirrorSketch.svg style="width:Esquisse miroir](Sketcher_MirrorSketch/fr.md)** ou choisissez **Sketch → [16px"> [Esquisse miroir](Sketcher_MirrorSketch/fr.md)** dans le menu supérieur.
 3.  L\'esquisse résultante est créée en tant que nouvel objet séparé.
 

@@ -1,3 +1,5 @@
+# Macro Extract Wires from Mesh
+
   {{Macro
 |Name=Macro Extract Wires from Mesh
 |Icon=Macro_Extract_Wires_from_Mesh.png
@@ -15,9 +17,7 @@ Finds boundary wires in selected mesh objects. Boundary wires are formed from al
 
 ## Script
 
-
-
-ToolBar Icon ![](images/Macro_Extract_Wires_from_Mesh.png )
+ToolBar Icon  ![](images/Macro_Extract_Wires_from_Mesh.png )
 
 **Macro\_Extract\_Wires\_from\_Mesh.FCMacro**
 

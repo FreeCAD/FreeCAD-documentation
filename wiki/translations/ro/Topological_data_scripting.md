@@ -1,3 +1,5 @@
+# Topological data scripting/ro
+
 
 
 
@@ -1695,4 +1697,4 @@ Pentru a converti un fișier **.stp** în **.igs** este simplu :
 
 }} 
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Python Code{{\#translation:}}](Category:Python_Code.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)

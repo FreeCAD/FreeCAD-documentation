@@ -1,3 +1,5 @@
+# Installing on Linux/es
+
 
 
 
@@ -375,4 +377,4 @@ Una vez tengas instalado FreeCAD, es hora de [dar tus primeros pasos](Getting_st
 
 
 
-[Category:Common Questions{{\#translation:}}](Category:Common_Questions.md) [Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md)
+[Category:Common Questions](Category:Common_Questions.md) [Category:Developer Documentation](Category:Developer_Documentation.md)

@@ -1,3 +1,5 @@
+# Arch JSON/pt-br
+
 
 
 
@@ -41,4 +43,4 @@ Note that facets form triangles and their integer values reference points in the
 
  
 
-[Category:File Formats{{\#translation:}}](Category:File_Formats.md)
+[Category:File Formats](Category:File_Formats.md)

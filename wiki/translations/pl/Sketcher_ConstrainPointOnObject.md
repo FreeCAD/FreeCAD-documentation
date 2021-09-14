@@ -2,7 +2,7 @@
 - GuiCommand:/pl
    Name:Sketcher ConstrainPointOnObject
    Name/pl:Wiązanie punktu na obiekcie
-   MenuLocation:Sketch → Wiązania szkicownika → Wiązanie punktu na obiekcie
+   MenuLocation:Szkic → Wiązania szkicownika → Wiązanie punktu na obiekcie
    Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
    Shortcut:**Shift** + **O**
    SeeAlso:[Wiązanie spójności punktów](Sketcher_ConstrainCoincident/pl.md)
@@ -23,7 +23,7 @@ Przyłącza punkt do innego obiektu, takiego jak linia, łuk lub oś szkicu.
 
 **Uwaga:** Kolejność, w jakiej wybierasz linię i punkt, nie ma znaczenia. Punkt zawsze będzie przesuwał się do linii. Innymi słowy, linia pozostaje nieruchoma.
 
-### Ogólne zasady tworzenia skryptów 
+## Tworzenie skryptów 
 
 Wiązanie może być utworzone zarówno przez makrodefinicje jak i z konsoli Python za pomocą następującego polecenia:
 

@@ -1,3 +1,5 @@
+# Body/fr
+
 
 
 ## Introduction
@@ -27,4 +29,4 @@ Un corps n\'est pas requis lors de l\'utilisation de [l\'atelier Part](Part_Work
 
 }} {{Document objects navi}} 
 
-[Category:Glossary{{\#translation:}}](Category:Glossary.md)
+[Category:Glossary](Category:Glossary.md)

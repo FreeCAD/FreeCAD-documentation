@@ -1,5 +1,13 @@
 ---
-- GuiCommand:/es   Name:Draft Circle   Name/es:Draft Círculo   Workbenches:[Arquitectura](Draft_Module/es___Croquis]],_[[Arch_Module/es.md)|MenuLocation:Boceto → Circunferencia   Shortcut:C I   SeeAlso:[Arco](Draft_Arc/es.md)---
+- GuiCommand:/es
+   Name:Draft Circle
+   Name/es:Draft Círculo
+   Workbenches:[Croquis](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
+   MenuLocation:Boceto → Circunferencia
+   Shortcut:**C** **I**
+   Version:0.7
+   SeeAlso:[Arco](Draft_Arc/es.md)
+---
 
 
 </div>

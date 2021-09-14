@@ -6,9 +6,6 @@
    Workbenches:[Part](Part_Workbench/fr.md)
 ---
 
-
-</div>
-
 ## Description
 
 Inverse les normales de toutes les faces de l\'objet sélectionné.
@@ -35,13 +32,7 @@ Vous pouvez le vérifier en
 ## Script
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
   

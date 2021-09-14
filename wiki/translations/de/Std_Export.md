@@ -2,53 +2,44 @@
 - GuiCommand:/de
    Name:Std Export
    Name/de:Std Export
+   MenuLocation:Datei → Exportieren...
    Workbenches:Alle
-   MenuLocation:[Datei](Std_File_Menu/de.md) → Export
-   Shortcut:**Strg** + **E**
-   SeeAlso:[Import](Std_Import/de.md), [Öffnen](Std_Open/de.md)
----
-
-
-</div>
+   Shortcut:**Strg**+**E**
+   SeeAlso:[Std PrintPdf](Std_PrintPdf/de.md), [Export](Import_Export/de.md), [Import Export Einstellungen](Import_Export_Preferences/de.md)---
 
 ## Beschreibung
 
-
-<div class="mw-translate-fuzzy">
-
-Dies ist der Standardbefehl, um Objekte in einem FreeCAD-Dokument in andere Dateiformate zu exportieren. Vor Ausführung des Befehls muss eine Auswahl getroffen werden.
-
-
-</div>
+Der **Std Export**-Befehl exportiert ausgewählte Objekte in ein anderes Dateiformat. Viele Dateiformate werden unterstützt und für einige Formate existieren mehrere Exportoptionen. Siehe [Import/Export](Import_Export/de.md) für weitere Informationen.
 
 ## Anwendung
 
+1.  Wähle ein oder mehrere Objekte. Um das Exportieren von unsichtbaren oder doppelten Objekten zu vermeiden:
+    -   Sei vorsichtig, wenn du **Strg**+**A** zur Auswahl aller Objekte benutzt. Dies wird auch unsichtbare Objekte auswählen.
+    -   Selektiere einen [PartDesign Körper](PartDesign_Body/de.md) durch Auswahl nur des Körpers selbst oder des letzten Features.
+    -   Selektiere eine [Std Gruppe](Std_Group/de.md) oder ein [Std Teil](Std_Part/de.md) durch Auswahl nur des Eltern-Objekts selbst oder der darin verschachtelten Objekte.
+    -   Benutze nicht den [Std Alles Auswählen](Std_SelectAll/de.md)-Befehl, weil er auch Unterelemente von PartDesign-Körpern auswählt.
+    -   Aus dem gleichen Grund sollte der [Std Rechteckauswahl](Std_BoxSelection/de.md)-Befehl in FreeCAD-Version 0.18 und früher vermieden werden.
+2.  Es gibt mehrere Wege, den Befehl aufzurufen:
+    -   Wähle die **Datei → <img src="images/Std_Export.svg" width=16px> Exportieren...**-Option aus dem Menü.
+    -   Benutze das Tastaturkürzel: **Strg**+**E**.
+3.  Wähle das richtige Dateiformat in der Dialogbox.
+4.  Gib einen Dateinamen ein.
+5.  Drücke die **Speichern**-Schaltfläche.
 
-<div class="mw-translate-fuzzy">
+## Optionen
 
-1.  Wähle die zu exportierenden Objekte, entweder im Modellbaum oder in der 3D-Ansicht mit [Rechteckauswahl](Std_BoxSelection/de.md).
-2.  Gehe zu **Datei** → **Export**
-3.  Wähle den Dateityp aus
-4.  Tippe einen Namen
-5.  Drücke den **Speichern**-Button
+-   Drücke **Esc** oder die **Abbrechen**-Schaltfläche, um den Befehl abzubrechen.
 
+## Hinweise
 
-</div>
+-   Um ein [Polygonnetz-Objekt](Mesh_Workbench/de.md) in ein stabiles Dateiformat zu exportieren, muss es zuerst konvertiert werden. Siehe das [Importieren von STL oder OBJ](Import_from_STL_or_OBJ/de.md)-Tutorium.
+-   Einige Arbeitsbereiche haben zusätzliche Export-Befehle. Siehe: [Import/Export](Import_Export/de.md).
 
-## Options
+## Einstellungen
 
--   Press **Esc** or the **Cancel** button to abort the command.
-
-## Notes
-
--   To export a [mesh object](Mesh_Workbench.md) to a solid file format it must first be converted. See the [Import from STL or OBJ](Import_from_STL_or_OBJ.md) tutorial.
--   Some workbenches have additional export commands. See: [Import Export](Import_Export.md).
-
-## Preferences
-
--   See: [Import Export Preferences](Import_Export_Preferences.md).
--   The last used file location is stored: **Tools → Edit parameters... → BaseApp → Preferences → General → FileOpenSavePath**.
--   The last used export filter is stored: **Tools → Edit parameters... → BaseApp → Preferences → General → FileExportFilter**.
+-   Siehe: [Import Export Einstellungen](Import_Export_Preferences/de.md).
+-   Der zuletzt verwendete Dateiablageort wird gespeichert: **Werkzeuge → Parameter bearbeiten... → BaseApp → Preferences → General → FileOpenSavePath**.
+-   Der zuletzt verwendete Exportfilter wird gespeichert: **Werkzeuge → Parameter bearbeiten... → BaseApp → Preferences → General → FileExportFilter**.
 
 
 
@@ -58,4 +49,4 @@ Dies ist der Standardbefehl, um Objekte in einem FreeCAD-Dokument in andere Date
 
 }}  
 
-[Category:File\_Formats{{\#translation:}}](Category:File_Formats.md)
+[Category:File\_Formats](Category:File_Formats.md)

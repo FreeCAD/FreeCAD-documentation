@@ -4,11 +4,8 @@
    Name/fr:Path Languettes de maintien
    MenuLocation:Path → Path Dressup → Languettes de maintien
    Workbenches:[Path](Path_Workbench/fr.md)
-   SeeAlso:[Path Rampe d'entrée](Path_DressupRampEntry/fr.md), [Path Dégagement d'angles](Path_DressupDogbone/fr.md) , [Path Parcours de couteau](Path_DressupDragKnife/fr.md)
+   SeeAlso:[Path Rampe d'entrée](Path_DressupRampEntry/fr.md), [Path Dégagement d'angles](Path_DressupDogbone/fr.md) , [Path Habillage pour lame rotative](Path_DressupDragKnife/fr.md)
 ---
-
-
-</div>
 
 ## Description
 
@@ -23,28 +20,16 @@ Une explication vidéo de cette fonctionnalité est donnée à: <https://www.you
 
 ## Options
 
-
-<div class="mw-translate-fuzzy">
-
 -   Angle - Contrôle l\'angle de plongée et de remontée quand une attache est enclavée.
 -   Height - Contrôle la hauteur du haut de l\'attache à partir du bas de la coupe du profil.
 -   Radius - Le rayon du congé pour l\'attache.
 -   Segmentation Factor - Nombre de segments pour approximer une attache arrondie.
--   width - Largeur totale de l\'attache.
-
-
-</div>
+-   Width - Largeur totale de l\'attache.
 
 Les attaches sont automatiquement générées à intervalles réguliers le long du contour, en commençant par le bord le plus grand. Vous avez la possibilité de supprimer celles que vous n\'aimez pas ou de modifier leur emplacement afin qu\'elles apparaissent sur les parties convexes du travail où il sera plus facile de limer la matière en excès.
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Path_Tools_navi

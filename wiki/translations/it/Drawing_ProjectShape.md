@@ -1,5 +1,11 @@
 ---
-- GuiCommand:/it   Name:Drawing_ProjectShape   Name/it:Proietta le forme   Empty:1   Workbenches:[[Drawing Module/it   Drawing]], Completo|MenuLocation:Drawing → Proietta le forme---
+- GuiCommand:/it
+   Name:Drawing_ProjectShape
+   Name/it:Proietta le forme
+   Empty:1
+   Workbenches:[Drawing](Drawing_Workbench/it.md), Completo
+   MenuLocation:Drawing → Proietta le forme
+---
 
 
 </div>

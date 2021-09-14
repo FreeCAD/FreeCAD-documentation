@@ -1,4 +1,6 @@
-\_\_NOTOC\_\_ 
+# Main Page/bg
+
+ 
 
 
 <div class="mw-translate-fuzzy">
@@ -95,4 +97,4 @@ FreeCAD може да бъде компилиран на всички платф
 
 
 
-[Category:Documentation{{\#translation:}}](Category:Documentation.md)
+[Category:Documentation](Category:Documentation.md)

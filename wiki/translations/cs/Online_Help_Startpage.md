@@ -1,3 +1,5 @@
+# Online Help Startpage/cs
+
  
 
 ![150](images/Crystal_Clear_app_tutorials.png )
@@ -44,4 +46,4 @@ Jak už jste možná někdy zjistili, programátoři jsou skutečně špatní au
 
 
 
-[Category:User\_Documentation{{\#translation:}}](Category:User_Documentation.md)
+[Category:User\_Documentation](Category:User_Documentation.md)

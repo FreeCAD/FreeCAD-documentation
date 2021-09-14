@@ -50,4 +50,4 @@ La commande **Std Exporter** exporte les objets sélectionnés vers un format de
 
 }}  
 
-[Category:File\_Formats{{\#translation:}}](Category:File_Formats.md)
+[Category:File\_Formats](Category:File_Formats.md)

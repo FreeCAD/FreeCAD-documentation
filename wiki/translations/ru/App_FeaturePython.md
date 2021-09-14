@@ -1,3 +1,5 @@
+# App FeaturePython/ru
+
 
 
 ## Введение
@@ -30,7 +32,7 @@ These are the properties available in the [property editor](property_editor.md).
 ### Свойства объекта 
 
 
-{{TitleProperty|Base (Базовые)}}
+{{TitleProperty|Основные}}
 
 -    **Proxy|PythonObject|Hidden**: a custom class associated with this object.
 
@@ -47,7 +49,7 @@ These are the properties available in the [property editor](property_editor.md).
 These properties correspond to the basic properties of the base [viewprovider](viewprovider.md), `Gui::ViewProviderDocumentObject`, that is inherited by all viewproviders in the software.
 
 
-{{TitleProperty|Base (Базовые)}}
+{{TitleProperty|Основные}}
 
 -    **Proxy|PythonObject|Hidden**: a custom view provider class associated with this object. This property only exist for those classes that are able to assign a custom class.
 

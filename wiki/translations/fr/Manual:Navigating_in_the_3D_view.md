@@ -1,3 +1,5 @@
+# Manual:Navigating in the 3D view/fr
+
 
 
 

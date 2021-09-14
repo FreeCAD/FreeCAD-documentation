@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Sketcher BSplineKnotMultiplicity
-   MenuLocation:Sketch → Sketcher B-spline tools → Show/Hide B-spline knot multiplicity
+   MenuLocation:Sketch → Sketcher B-spline tools → Show/hide B-spline knot multiplicity
    Workbenches:[Sketcher](Sketcher_Workbench.md)
    Version:0.17
    SeeAlso:[Sketcher Create B-spline](Sketcher_CompCreateBSpline.md)

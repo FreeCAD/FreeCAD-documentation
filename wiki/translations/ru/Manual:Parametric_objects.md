@@ -1,3 +1,5 @@
+# Manual:Parametric objects/ru
+
 
 
 
@@ -51,4 +53,4 @@ FreeCAD спроектирован для параметрического мо�
 
 
 
-[Category:Poweruser Documentation{{\#translation:}}](Category:Poweruser_Documentation.md) [Category:Tutorials{{\#translation:}}](Category:Tutorials.md)
+[Category:Poweruser Documentation](Category:Poweruser_Documentation.md) [Category:Tutorials](Category:Tutorials.md)

@@ -3,7 +3,7 @@
    Name:Arch MergeWalls
    Name/ru:Arch MergeWalls
    MenuLocation:Архитектура → Утилиты → Объединить стенки
-   Workbenches:[Arch](Arch_Module/ru.md)
+   Workbenches:[Arch](Arch_Workbench/ru.md)
    SeeAlso:[[Arch Wall]]
 ---
 

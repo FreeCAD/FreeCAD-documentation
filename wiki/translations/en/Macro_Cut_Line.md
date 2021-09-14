@@ -1,3 +1,5 @@
+# Macro Cut Line/en
+
  {{Macro
 |Name=Macro Cut Line
 |Icon=Macro_Cut_Line.png

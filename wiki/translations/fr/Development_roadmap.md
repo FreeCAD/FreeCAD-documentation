@@ -1,3 +1,5 @@
+# Development roadmap/fr
+
  {{VeryImportantMessage|Important : nombre de ces feuilles de route ne sont pas à jour ou sont peut-être abandonnées. Cette page et les pages vers lesquelles elle renvoie contiennent très probablement des informations obsolètes. Une feuille de route "souple" se trouve sur le [http://www.freecadweb.org/tracker/roadmap_page.php bugtracker] mais il n'y a pas de feuille de route "dure" pour le moment. De nombreux efforts sont déployés simultanément.}}
 
 FreeCAD - bien qu\'utilisable dans de nombreuses applications - FreeCAD n\'est qu\'au début d\'un long voyage dans la [CAO](http://fr.wikipedia.org/wiki/Conception_assistée_par_ordinateur). Il y a encore beaucoup de travail à faire pour atteindre un stade où nous pourrons rivaliser avec les logiciels commerciaux.
@@ -45,4 +47,4 @@ Comme dans les plupart des projets [FLOSS](http://fr.wikipedia.org/wiki/Free/Lib
 
 
 
-[Category:Roadmap{{\#translation:}}](Category:Roadmap.md)
+[Category:Roadmap](Category:Roadmap.md)

@@ -1,15 +1,16 @@
 ---
-- GuiCommand:
-   Name:Std ArrangeIcons
+- GuiCommand:/ru
+   Name/ru:Упорядочить иконки
+   Name:Std_ArrangeIcons
    Empty:1
-   MenuLocation:Windows → Arrange Icons
-   Workbenches:All
-   SeeAlso:[Std TileWindows](Std_TileWindows.md)
+   MenuLocation:Окна → Упорядочить иконки
+   Workbenches:Все
+   SeeAlso:[Плиткой](Std_TileWindows/ru.md)
 ---
 
 ## Описание
 
-The **Std ArrangeIcons** command does not work properly. It has the same effect as the [Std TileWindows](Std_TileWindows.md) command. See there.
+Команда **Упорядочить иконки** не работает должным образом. Оказывает эффект аналогичный команде [Std\_TileWindows](Std_TileWindows/ru.md).
 
 
 

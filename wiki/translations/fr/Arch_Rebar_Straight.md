@@ -3,7 +3,7 @@
    Name:Arch Rebar Straight
    Name/fr:Arch Rebar Armature droite
    MenuLocation:Arch → Rebar tools → Straight Rebar ou 3D/BIM → Reinforcement → Straight Rebar
-   Workbenches:[Arch](Arch_Module/fr.md), [BIM](BIM_Workbench/fr.md)
+   Workbenches:[Arch](Arch_Workbench/fr.md), [BIM](BIM_Workbench/fr.md)
    SeeAlso:[Reinforcement](Reinforcement_Workbench/fr.md), [Arch Armature personnalisée](Arch_Rebar/fr.md), [Arch Rebar Nomenclature](Arch_Rebar_BOM/fr.md)
 ---
 
@@ -210,4 +210,4 @@ StraightRebar.editStraightRebar(Rebar4, 50, ("Right Side", 50), 100, 100,
 
  
 
-[Category:Reinforcement{{\#translation:}}](Category:Reinforcement.md)
+[Category:Reinforcement](Category:Reinforcement.md)

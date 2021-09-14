@@ -3,9 +3,10 @@
    Name:Arch_Rebar
    Name/it:Armatura
    MenuLocation:Arch → Strumenti armatura o 3D/BIM → Strumenti armatura
-   Workbenches:[Arch](Arch_Module/it.md), [BIM](BIM_Workbench/it.md)
+   Workbenches:[Arch](Arch_Workbench/it.md), [BIM](BIM_Workbench/it.md)
    Shortcut:**R** **B**
-   SeeAlso:[Struttura](Arch_Structure/it.md), [Ambiente Reinforcement](Reinforcement_Workbench/it.md)---
+   SeeAlso:[Struttura](Arch_Structure/it.md), [Ambiente Reinforcement](Reinforcement_Workbench/it.md)
+---
 
 
 </div>
@@ -128,4 +129,4 @@ FreeCAD.ActiveDocument.recompute()
 
  
 
-[Category:External Command Reference{{\#translation:}}](Category:External_Command_Reference.md) [Category:Reinforcement{{\#translation:}}](Category:Reinforcement.md)
+[Category:External Command Reference](Category:External_Command_Reference.md) [Category:Reinforcement](Category:Reinforcement.md)

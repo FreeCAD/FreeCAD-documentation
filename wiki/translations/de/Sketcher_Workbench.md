@@ -1,3 +1,5 @@
+# Sketcher Workbench/de
+
 
 
 
@@ -19,21 +21,53 @@ Der Arbeitsbereich Skizzierer bietet *Beschränkungen* (engl.: constraints), die
 
 *Eine vollständig beschränkte Skizze‎*
 
+## Basics of constraint sketching 
+
+
+<div class="mw-translate-fuzzy">
+
 ## Grundlagen des Skizzierens mit Beschränkungen 
 
 Um zu erklären, wie der Skizzierer arbeitet, ist es sinnvoll, das Vorgehen mit der traditionellen Art des Entwerfens zu vergleichen.
+
+
+</div>
+
+#### Traditional Drafting 
+
+
+<div class="mw-translate-fuzzy">
 
 #### Traditionelles Entwerfen 
 
 Die traditionelle Art des CAD Entwurfs entstammt dem alten Zeichnen auf dem Reißbrett [1](https://de.wikipedia.org/wiki/Rei%C3%9Fbrett). [2](https://de.wikipedia.org/wiki/Orthogonalprojektion). Orthogonale Ansichten (2D) werden von Hand gezeichnet, vorgesehen um technische Zeichnungen (auch als Blaupausen bekannt) zu erstellen. Objekte werden genau in der gewünschten Größe und der gewünschten Abmessung gezeichnet. Wenn du eine horizontale Linie von 100 mm Länge zeichnen möchtest, die bei (0,0) beginnt, aktiviere das Linienwerkzeug, klicke entweder auf den Bildschirm oder gib die (0,0) Koordinaten für den ersten Punkt ein, mache dann einen zweiten Klick oder gib die Koordinaten des zweiten Punktes bei (100,0) ein. Oder du zeichnest deine Linie ohne Rücksicht auf ihre Position und verschiebst sie danach. Wenn du deine Geometrien fertig gezeichnet hast, füge ihre Bemaßungen hinzu.
 
+
+</div>
+
+#### Constraint Sketching 
+
+
+<div class="mw-translate-fuzzy">
+
 #### Skizzieren mit Beschränkungen 
 
 Der **Skizierer** entfernt sich von dieser Logik. Objekte müssen nicht genau so gezeichnet werden, wie Du es beabsichtigst, weil diese später durch Beschränkungen festgelegt werden. Objekte können grob gezeichnet werden, und solange sie nicht beschränkt wurden, können diese verändert werden. Tatsächlich sind sie dabei *schwebend* und können verschoben, gestreckt, gedreht, skaliert, usw. werden. Das gibt dem Entwurfsprozess große Flexibilität.
 
+
+</div>
+
+#### What are constraints? 
+
+
+<div class="mw-translate-fuzzy">
+
 #### Was sind Beschränkungen? 
 
 An Stelle von Abmessungen werden Beschränkungen verwendet, um die Freiheitsgrade eines Objektes zu begrenzen. Beispielsweise besitzt eine Linie ohne Beschränkung 4 [Freiheitsgrade](#Degrees_Of_Freedom/de.md) (abgekürzt als \" DOF \")(engl. degrees of freedom): Sie kann horizontal oder vertikal verschoben, sie kann gestreckt, oder gedreht werden.
+
+
+</div>
 
 Anwenden einer horizontalen oder vertikalen Beschränkung oder einer Winkelbeschränkung (relativ zu einer anderen Linie oder zu einer der Achsen), schränkt seine Fähigkeit zu rotieren ein, so daß 3 Freiheitsgrade übrig bleiben. Das Festsetzen einer der Punkte mit Bezug zum Ursprung entfernt weitere 2 Freiheitsgrade. Und das Anwenden einer Maßbeschränkung entfernt den letzten Freiheitsgrad. Die Skizze ist dann **vollständig eingeschränkt**.
 
@@ -41,9 +75,17 @@ Mehrere Objekte können untereinander beschränkt werden. Zwei Linien können du
 
 Es gibt zwei Arten von Beschränkungen: geometrische und maßliche. Sie sind im Abschnitt [\'Die Werkzeuge\'](#Die_Werkzeuge.md) weiter unten ausführlich beschrieben.
 
+#### What the Sketcher is not good for 
+
+
+<div class="mw-translate-fuzzy">
+
 #### Wofür der Skizzierer nicht geeignet ist 
 
 Der Skizzierer ist nicht für die Herstellung von 2D Blaupausen vorgesehen. Sobald Skizzen verwendet werden, um eine Volumenkörpermerkmal zu erzeugen, werden sie automatisch verborgen. Beschränkungen sind nur im Bearbeitungsmodus Skizze sichtbar.
+
+
+</div>
 
 Falls du nur 2D Ansichten zum Ausdrucken erzeugen möchtest und keine 3D Modelle, dann schau dir den [Arbeitsbereich Entwurf](Draft_Workbench/de.md) an. Anders als Skizzierer Elemente, verwenden Entwurfsobjekte keine Beschränkungen; sie sind einfache Formen die im Augenblick der Erstellung definiert werden. Sowohl Draft und Skizzierer können zum zeichnen von 2D Geometrien und zum Erzeugen von 3D Volumenkörpern verwendet werden, obwohl ihre bevorzugte Verwendung unterschiedlich ist; der Skizzierer wird normalerweise mit dem [Part Arbeitsbereich](Part_Workbench/de.md) und [PartDesign Arbeitsbereich](PartDesign_Workbench/de.md) verwendet um Volumenkörper zu erzeugen; Entwurf wird normalerweise verwendet für einfache ebene Zeichnungen über einem Raster, so wie beim Zeichnen eines Architektur Grundrisses; in solchen Situationen werden Entwurfsobjekte hauptsächlich zusammen mit dem [Arch Arbeitsbereich](Arch_Workbench/de.md) verwendet. Das Werkzeug [EntwurfZuSkizze](Draft_Draft2Sketch/de.md) wandelt ein Entwurfsobjekt in ein Skizzenobjekt, und umgekehrt; Viele Werkzeuge, die ein 2D Element als Eingabe benötigen, arbeiten mit beiden Objekttypen, da eine interne Konversion automatisch erfolgt.
 
@@ -59,9 +101,17 @@ Die zum eigentlichen Zeichnen (Erstellen der zweidimensionalen geometrischen Gru
 
 Sobald eine Skizze vollständig beschränkt ist, wechselt die Skizzenmerkmale zu einem leuchtend hellen grün; Konstruktionsgeometrie hingegen bleibt blau. Normalerweise ist die Skizze an dieser Stelle \"fertig bearbeitet\" und für die Erstellung eines 3D Volumenkörpers geeignet. Sobald das Dialogfeld Skizze geschlossen ist, lohnt es sich jedoch möglicherweise, zum <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> <img src=images/Part_CheckGeometry.svg style="width:Part Arbeitsbereich](Part_Workbench/de.md) zu gehen und **[24px"> [Geometrie prüfen](Part_CheckGeometry/de.md)** auszuführen, um sicherzustellen, dass die Skizze keine Merkmale enthält, die zu späteren Problemen führen können.
 
+## The tools 
+
+
+<div class="mw-translate-fuzzy">
+
 ## Die Werkzeuge 
 
 Die Werkzeuge des Sketch-Arbeitsbereich sind alle im Sketch-Menü zu finden, das beim Laden des Arbeitsbereichs erscheint.
+
+
+</div>
 
 ### Allgemein
 
@@ -85,7 +135,13 @@ Die Werkzeuge des Sketch-Arbeitsbereich sind alle im Sketch-Menü zu finden, das
 
 -   <img alt="" src=images/Sketcher_MirrorSketch.svg‎  style="width:32px;"> [Skizze spiegeln](Sketcher_MirrorSketch/de.md): Spiegelt eine Skizze entlang der X-Achse, der Y-Achse oder dem Ursprung.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_StopOperation.svg  style="width:32px;"> [Vorgang anhalten](Sketcher_StopOperation/de.md): im Bearbeitungsmodus, hält den aktuellen Vorgang an, ob es sich um das Zeichnen, das Festlegen von Beschränkungen usw. handelt.
+
+
+</div>
 
 ### Skizziergeometrien
 
@@ -166,9 +222,17 @@ Zeichnet eine Linie aus mehreren Liniensegmenten. Drücken der M Taste während 
 
 Beschränkungen werden benutzt, um Längen zu definieren, Regeln zwischen Skizzenelementen aufzustellen und die Skizze entlang der vertikalen und horizontalen Achsen festzulegen. Einige Beschränkungen benötigen die Verwendung von [Hilfsbeschränkungen](Sketcher_helper_constraint/de.md).
 
+#### Geometric constraints 
+
+
+<div class="mw-translate-fuzzy">
+
 #### Gometrische Beschränkungen 
 
 Diese Beschränkungen sind nicht mit nummerischen Daten verknüpft.
+
+
+</div>
 
 -   <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width:32px;"> [Deckungsgleich](Sketcher_ConstrainCoincident/de.md):
 
@@ -194,9 +258,17 @@ Fügt einen Punkt einem anderen Objekt hinzu, z. B. einer Linie, einem Kreisboge
 
 -   <img alt="" src=images/Sketcher_ConstrainBlock.svg  style="width:32px;"> [Beschränkung blockieren](Sketcher_ConstrainBlock/de.md): Ermöglicht grundsätzlich das Blockieren eines geometrischen Elements mit einer einzigen Beschränkung. Es sollte besonders praktisch bei der Arbeit mit B-Splines sein. Siehe das [Block Beschränkung Forumsthema](https://forum.freecadweb.org/viewtopic.php?f=9&t=26572).
 
+#### Dimensional constraints 
+
+
+<div class="mw-translate-fuzzy">
+
 #### Dimensionale Beschränkungen 
 
 Dies sind Beschränkungen, die mit numerischen Daten verknüpft sind, für die du die [Ausdrücke ](Expressions/de.md) verwenden kannst. Die Daten können aus einer [Kalkulationstabelle](Spreadsheet_Workbench/de.md) entnommen werden.
+
+
+</div>
 
 -   <img alt="" src=images/Sketcher_ConstrainLock.svg  style="width:32px;"> [Sperren](Sketcher_ConstrainLock/de.md):
 
@@ -213,15 +285,29 @@ Beschränkt das ausgewählte Element, in dem vertikale und horizontale Abstände
 -   <img alt="" src=images/Sketcher_ConstrainRadiam.svg  style="width:32px;"> [Radiam](Sketcher_ConstrainRadiam/de.md): Definiert automatisch Radius/Durchmesser eines ausgewählten Bogens oder Kreises (Gewicht für einen B-Spline-Pol, Durchmesser für einen vollständigen Kreis, Radius für einen Bogen) {{Version/de|0.20}}
 -   <img alt="" src=images/Sketcher_ConstrainAngle.svg  style="width:32px;"> [Winkel](Sketcher_ConstrainAngle/de.md): Definiert den Innenwinkel zwischen zwei ausgewählten Linien.
 
+
+<div class="mw-translate-fuzzy">
+
 #### Besondere Beschränkungen 
+
+
+</div>
 
 -   <img alt="" src=images/Sketcher_ConstrainSnellsLaw.svg  style="width:32px;"> [Snelliussches Gesetz](Sketcher_ConstrainSnellsLaw/de.md): Beschränkt zwei Linien so, dass sie einem Brechungsgesetz unterliegen, um das durch eine Grenzfläche gehende Licht zu simulieren.
 
 -   <img alt="" src=images/Sketcher_ConstrainInternalAlignment.svg  style="width:32px;"> [Interne Ausrichtung](Sketcher_ConstrainInternalAlignment/de.md): Richtet ausgewählte Elemente an der ausgewählten Form aus (z. B. eine Linie, die zur Hauptachse einer Ellipse wird).
 
+#### Constraint tools 
+
+
+<div class="mw-translate-fuzzy">
+
 #### Beschränkungswerkzeuge
 
 Die folgenden Werkzeuge können verwendet werden, um die Wirkung von Beschränkungen zu ändern:
+
+
+</div>
 
 -   <img alt="" src=images/Sketcher_ToggleDrivingConstraint.svg  style="width:32px;"> [Umschalten Referenz/treibende Beschränkung](Sketcher_ToggleDrivingConstraint/de.md): Schaltet die Werkzeugleiste oder die ausgewählten Beschränkungen in/aus dem Referenzmodus um.
 
@@ -231,37 +317,121 @@ Die folgenden Werkzeuge können verwendet werden, um die Wirkung von Beschränku
 
 -   <img alt="" src=images/Sketcher_SelectElementsWithDoFs.svg  style="width:32px;"> [Löser Freiheitsgrade auswählen](Sketcher_SelectElementsWithDoFs/de.md): Hebt in grün die Geometrie mit Freiheitsgraden (DOFs), d.h. nicht vollständig beschränkt, hervor.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_CloseShape.svg  style="width:32px;"> [Form schließen](Sketcher_CloseShape/de.md): Erstellt eine geschlossene Form, durch Anwendung deckungsgleicher Beschränkungen auf Endpunkte.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Sketcher_ConnectLines.svg  style="width:32px;"> [Elemente verbinden](Sketcher_ConnectLines/de.md): Verbindet Skizzenelemente, durch Anwendung von Koinzidenzbeschränkungen auf Endpunkte.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_SelectConstraints.svg  style="width:32px;"> [Beschränkung wählen](Sketcher_SelectConstraints/de.md): Wahl der Beschränkungen eines Skizziererelements.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Sketcher_SelectElementsAssociatedWithConstraints.svg  style="width:32px;"> [Elemente verknüpfter Beschränkungen wählen](Sketcher_SelectElementsAssociatedWithConstraints/de.md): Wählt mit Skizzenelemente aus, die mit Beschränkungen verknüpft sind.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_SelectRedundantConstraints.svg  style="width:32px;"> [Redundante (überflüssige) Beschränkungen wählen](Sketcher_SelectRedundantConstraints/de.md): Wählt redundante Beschränkungen einer Skizze aus.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Sketcher_SelectConflictingConstraints.svg  style="width:32px;"> [Widersprüchliche Beschränkungen wählen](Sketcher_SelectConflictingConstraints/de.md): Wählt widersprüchliche Beschränkungen einer Skizze aus.
 
+
+</div>
+
 -   <img alt="" src=images/Sketcher_RestoreInternalAlignmentGeometry.svg  style="width:32px;"> [Show/Hide internal geometry](Sketcher_RestoreInternalAlignmentGeometry/de.md): Stellt fehlende oder löscht nicht benötigte interne Geometrie einer ausgewählten Ellipse, eines Ellipsen-/ Hyperbel-/ Parabel- oder B-Spline-Bogens.
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Sketcher_SelectOrigin.svg  style="width:32px;"> [Ursprung wählen](Sketcher_SelectOrigin/de.md): Wählt den Ursprung einer Skizze aus
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_SelectVerticalAxis.svg  style="width:32px;"> [Vertikale Achse wählen](Sketcher_SelectVerticalAxis/de.md): Wählt die vertikale Achse einer Skizze aus.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Sketcher_SelectHorizontalAxis.svg  style="width:32px;"> [Horizontale Achse wählen](Sketcher_SelectHorizontalAxis/de.md): Wählt die horizontale Achse einer Skizze aus
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_Symmetry.svg  style="width:32px;"> [Symmetrie](Sketcher_Symmetry/de.md): Kopiert ein Skizzierelement symmetrisch zu einer ausgewählten Linie.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Sketcher_Clone.svg  style="width:32px;"> [Klon](Sketcher_Clone/de.md): Klont ein Skizziererelement
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_Copy.svg  style="width:32px;"> [Kopieren](Sketcher_Copy/de.md): Kopiert ein Skizzenelement
+
+
+</div>
 
 -   <img alt="" src=images/Sketcher_Move.svg  style="width:32px;"> [Verschieben](Sketcher_Move/de.md): Verschiebt die ausgewählte Geometrie unter Bezug auf den zuletzt ausgewählten Punkt.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_RectangularArray.svg  style="width:32px;"> [Rechteckige Matrix](Sketcher_RectangularArray/de.md): Erstellt eine Anordnung ausgewählter Skizziererelemente
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_RemoveAxesAlignment.svg  style="width:32px;"> [Achsenausrichtung entfernen](Sketcher_RemoveAxesAlignment/de.md): Entfernen der Achsenausrichtung unter Beibehaltung der Beschränkungsbeziehung der Auswahl {{Version/de|0.20}}
+
+
+</div>
 
 -   <img alt="" src=images/Sketcher_DeleteAllGeometry.svg  style="width:32px;"> [Jede Geometrie löschen](Sketcher_DeleteAllGeometry/de.md): Löscht alle Geometrien aus der Skizze.
 
@@ -297,9 +467,17 @@ Die folgenden Werkzeuge können verwendet werden, um die Wirkung von Beschränku
 
 -   <img alt="" src=images/Std_DlgParameter.png  style="width:32px;"> [Einstellungen](Sketcher_Preferences/de.md): Einstellungen für den **Skizzierer** Arbeitsbereich.
 
+## Best Practices 
+
+
+<div class="mw-translate-fuzzy">
+
 ## Bewährte Vorgehensweisen 
 
 Jeder CAD Benutzer entwickelt im Laufe der Zeit seine eigene Arbeitsweise, aber es gibt einige nützliche allgemeine Grundsätze, die zu befolgen sind.
+
+
+</div>
 
 -   Eine Reihe einfacher Skizzen ist einfacher handzuhaben als eine komplexe einzelne Skizze. Beispielsweise kann eine erste Skizze für die grundlegenden 3D Funktionen (entweder ein aufpolstern oder ein drehen) erstellt werden, während eine zweite Skizze Löcher oder Ausschnitte (Taschen) enthalten kann. Einige Details können weggelassen werden, um später als 3D Funktionen realisiert zu werden. Sie können wählen, dass Verrundungen in Ihrer Skizze vermieden werden, wenn zu viele vorhanden sind, und diese als 3D Funktionen hinzugefügt werden.
 -   Erstelle immer ein geschlossenes Profil, da Deine Skizze keinen Volumenkörper, sondern eine Reihe offener Seitenflächen erzeugt. Wenn Du nicht möchtest, dass einige der Objekte in die Volumenkörpererstellung einbezogen werden, können sie mit dem Konstruktionsmodus Werkzeug in Konstruktionselemente umgewandelt werden.
@@ -329,4 +507,4 @@ Die [Skizzierer Skripten](Sketcher_scripting/de.md) Seite enthält Beispiele fü
 
 }} 
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

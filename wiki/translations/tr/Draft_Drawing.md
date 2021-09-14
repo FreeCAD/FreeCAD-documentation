@@ -1,5 +1,10 @@
 ---
-- GuiCommand:/tr   Name:Draft Drawing   Name/tr:Çizim   Workbenches:[Arch](Draft_Module/tr___Draft]],_[[Arch_Module/tr.md)|MenuLocation:Drafting → Drawing---
+- GuiCommand:/tr
+   Name:Draft Drawing
+   Name/tr:Çizim
+   MenuLocation:Drafting → Drawing
+   Workbenches:[Draft](Draft_Workbench/tr.md), [Arch](Arch_Workbench/tr.md)
+---
 
 
 </div>

@@ -1,3 +1,5 @@
+# Macro SuperWire
+
   {{Macro
 |Name=SuperWire
 |Icon=Macro_SuperWire.png
@@ -17,9 +19,7 @@ Attention, you need a recent version of FreeCAD for this to work
 
 ## Script
 
-
-
-ToolBar Icon ![](images/Macro_SuperWire.png )
+ToolBar Icon  ![](images/Macro_SuperWire.png )
 
 **Macro\_SuperWire.FCMacro**
 

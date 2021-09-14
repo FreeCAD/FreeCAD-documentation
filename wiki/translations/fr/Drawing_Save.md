@@ -1,5 +1,12 @@
 ---
-- GuiCommand:/fr   Name:Drawing Save   Name/fr:Exporter la page   Workbenches:[MenuLocation:Mise en plan → Exporter la page...   Raccourci:Aucun   SeeAlso:[[Drawing Open SVG/fr|Ouvrir SVG](Drawing_Module/fr___Mise_en_plan]],_Complet.md)---
+- GuiCommand:/fr
+   Name:Drawing Save
+   Name/fr:Exporter la page
+   MenuLocation:Mise en plan → Exporter la page...
+   Workbenches:[Mise en plan](Drawing_Workbench/fr.md), Complet
+   Raccourci:Aucun
+   SeeAlso:[Ouvrir SVG](Drawing_Open_SVG/fr.md)
+---
 
 Cet outil permet d\'exporter la feuille de dessin active au format de fichier vectoriel SVG (scalable vector graphics). Ce type de fichier peut être modifié avec un éditeur d\'images vectorielles tel qu\'[Inkscape](http://www.inkscape.org).
 
@@ -12,7 +19,7 @@ Les fichiers SVG sont très répandus et peuvent être visionnés dans la plupar
 {{docnav/fr
 |[Vue d'une feuille de calcul Drawing](Drawing_SpreadsheetView/fr.md)
 |
-|[Module Drawing](Drawing_Module/fr.md)
+|[Module Drawing](Drawing_Workbench/fr.md)
 |IconL=Drawing_SpreadsheetView.png
 |IconC=Workbench_Drawing.svg
 }}

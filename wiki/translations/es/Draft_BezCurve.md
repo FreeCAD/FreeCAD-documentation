@@ -3,7 +3,7 @@
    Name:Draft BezCurve
    Name/es:Borrador BezCurva
    MenuLocation:Borrador → Herramientas Bézier → Curva Bézier
-   Workbenches:[Borrador](Draft_Module/es.md), [Architectura](Arch_Module/es.md)
+   Workbenches:[Borrador](Draft_Workbench/es.md), [Architectura](Arch_Workbench/es.md)
    Version:0.14
    SeeAlso:[Borrador CubicBezCurva](Draft_CubicBezCurve/es.md), [Borrador BSpline](Draft_BSpline/es.md)
 ---

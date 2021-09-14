@@ -1,3 +1,5 @@
+# OpenSCAD Workbench/pt-br
+
 
 
 
@@ -106,4 +108,4 @@ Se o FreeCAD travar ao importar o CSG, é altamente recomendável que você ativ
 
 }} 
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

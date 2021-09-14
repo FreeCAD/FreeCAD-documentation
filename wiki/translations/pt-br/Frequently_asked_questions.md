@@ -1,3 +1,5 @@
+# Frequently asked questions/pt-br
+
 
 
 
@@ -321,4 +323,4 @@ Sim, você pode usar as partes principais do FreeCAD em outras aplicações, des
 
 
 
-[Category:Documentation{{\#translation:}}](Category:Documentation.md)
+[Category:Documentation](Category:Documentation.md)

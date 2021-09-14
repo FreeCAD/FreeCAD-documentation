@@ -1,3 +1,5 @@
+# FEM FrontISTR Workbench/en
+
 
 
 <img alt="FEM FrontISTR Workbench icon" src=images/FrontISTR.svg  style="width:128px;">
@@ -99,4 +101,4 @@ Under preparation.
 -   FrontISTR solver documentation: <https://manual.frontistr.com/en/>
 -   Report bugs: Please report bugs at [Github.com](https://github.com/FrontISTR/FEM_FrontISTR)
 
-[Category:Sandbox{{\#translation:}}](Category:Sandbox.md) [Category:User Documentation{{\#translation:}}](Category:User_Documentation.md) [Category:Addons{{\#translation:}}](Category:Addons.md) [Category:External Workbenches{{\#translation:}}](Category:External_Workbenches.md)
+[Category:Sandbox](Category:Sandbox.md) [Category:User Documentation](Category:User_Documentation.md) [Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)

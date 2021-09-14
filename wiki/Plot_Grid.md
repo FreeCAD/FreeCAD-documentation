@@ -22,4 +22,4 @@ This tool acts on the active set of axis. In case of multi-axes plots you can se
 
  {{Plot_Tools_navi}} 
 
-[Category:External\_Workbenches{{\#translation:}}](Category:External_Workbenches.md) [Category:Addons{{\#translation:}}](Category:Addons.md)
+[Category:External\_Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)

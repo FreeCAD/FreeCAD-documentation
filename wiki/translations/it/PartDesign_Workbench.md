@@ -1,3 +1,5 @@
+# PartDesign Workbench/it
+
  
 
 <img alt="L\'icona dell\'ambiente PartDesign" src=images/Workbench_PartDesign.svg  style="width:128px;">
@@ -198,4 +200,4 @@ Alcune funzionalità aggiuntive che si trovano nel menu di Part Design:
 
  {{PartDesign Tools navi}}
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

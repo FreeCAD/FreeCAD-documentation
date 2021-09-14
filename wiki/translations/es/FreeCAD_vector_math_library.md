@@ -1,3 +1,5 @@
+# FreeCAD vector math library/es
+
 
 
 ## Introduction
@@ -5,7 +7,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Este es un archivo de Python que contiene un par de funciones útiles para manejar los vectores de FreeCAD. Simplemente pega el siguiente código en un archivo de Python, e importa ese archivo en tu archivo de guión de Python para utilizarlo. Esta biblioteca está incluida en el [Módulo de croquizado](Draft_Module/es.md) y se puede acceder a ella desde el interprete de Python:
+Este es un archivo de Python que contiene un par de funciones útiles para manejar los vectores de FreeCAD. Simplemente pega el siguiente código en un archivo de Python, e importa ese archivo en tu archivo de guión de Python para utilizarlo. Esta biblioteca está incluida en el [Módulo de croquizado](Draft_Workbench/es.md) y se puede acceder a ella desde el interprete de Python:
 
 
 </div>
@@ -94,4 +96,4 @@ def project(first, other):
 
 }} 
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Python Code{{\#translation:}}](Category:Python_Code.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)

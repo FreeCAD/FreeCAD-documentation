@@ -1,3 +1,5 @@
+# API documentation/fr
+
 
 {{VeryImportantMessage|(Novembre 2018) Cette information peut être incomplète et obsolète. Pour la dernière API, voir la [https://www.freecadweb.org/api documentation API générée automatiquement].}}
 

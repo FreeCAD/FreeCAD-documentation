@@ -28,7 +28,7 @@ Das Teil Austragungswerkzeug ähnelt dem <img alt="" src=images/Part_Loft.svg  s
 4.  Definiere die Optionen [Volumenkörper](#Solid/de.md) und [Frenet](#Frenet/de.md).
 5.  Klicke **OK**
 
-### Accepted geometry 
+### Anerkannte Geometrie 
 
 
 <div class="mw-translate-fuzzy">
@@ -42,16 +42,16 @@ Das Teil Austragungswerkzeug ähnelt dem <img alt="" src=images/Part_Loft.svg  s
 
 -   **Pfad**: kann eine Linie (Kante) oder eine Reihe von Verbindungslinien, Draht oder verschiedene Part Arbeitsbereich Grundelementen, Entwurf Arbeitsbereich Formelemente oder eine Skizze sein. Der Pfad wird oft direkt aus dem Hauptmodellfenster ausgewählt, kann aber auch in der [Baumansicht](Tree_View/de.md) ausgewählt werden. (Reiter Modell von [Comboansicht](Combo_View.md)). Der Pfad kann entweder eine ganze geeignete Form oder eine geeignete Unterkomponente einer weiter fortgeschrittenen Form sein (z. B. eine Kante einer <img alt="" src=images/Part_Box.svg  style="width:24px;"> [Part Würfel](Part_Cube/de.md) ausgewählt werden als Pfad). Der Pfad kann entweder offen oder geschlossen sein und erzeugt somit entweder eine offene oder geschlossene Austragung. Ein geschlossener Pfad, wie z.B. ein Teilkreis, führt zu einer geschlossenen Austragung. Beispielsweise erzeugt die Austragung eines kleineren Kreises um eine Bahn mit einem größeren Kreis einen Torus.
 
-## Properties
+## Eigenschaften
 
-### Solid
+### Volumenkörper
 
 
 <div class="mw-translate-fuzzy">
 
-## Eigenschaften
+## Eigenschaften 
 
-### Volumenkörper
+### Volumenkörper 
 
 Wenn \" Volumenkörper \" auf \" wahr \" gesetzt ist, erstellt FreeCAD einen Volumenkörper, vorausgesetzt, die Profile haben eine geschlossene Geometrie; wenn sie auf \" falsch \" gesetzt sind, erzeugt FreeCAD eine Fläche oder (wenn mehr als eine Fläche vorhanden ist) eine Hülle für offene oder geschlossene Profile.
 
@@ -74,12 +74,12 @@ Wenn \" Volumenkörper \" auf \" wahr \" gesetzt ist, erstellt FreeCAD einen Vol
 
 Wenn \"Frenet\" \"wahr\" ist, wird die Ausrichtung des Profils basierend auf lokalen Krümmungs- und Tangentialvektoren des Pfades berechnet. Dadurch bleibt die Ausrichtung des Profils beim Austragen entlang einer Helix konstant (da der Krümmungsvektor einer geraden Helix immer auf ihre Achse zeigt). Wenn der Weg jedoch keine Helix ist, kann die resultierende Form manchmal seltsam aussehende Verdrehungen aufweisen. Weitere Informationen findest Du unter[Frenet Serret Formeln](http://en.wikipedia.org/wiki/Frenet%E2%80%93Serret_formulas).
 
-### Transition
+### Übergang
 
 
 <div class="mw-translate-fuzzy">
 
-### Übergang
+### Übergang 
 
 \"Übergang\" setzt den Übergangsstil der Austragung an einer Verbindung im Pfad, wenn der Pfad den Eckübergang nicht definiert (z.B. wenn der Pfad ein Draht ist). Die Eigenschaft wird im [Aufgabenpaneel](Task_panel/de.md) nicht angezeigt und befindet sich nach der Erstellung der Austragung in den Eigenschaften.
 
@@ -123,12 +123,12 @@ Wenn \"Frenet\" \"wahr\" ist, wird die Ausrichtung des Profils basierend auf lok
 
 </div>
 
-## Links
+## Verweise
 
 
 <div class="mw-translate-fuzzy">
 
-## Verweise
+## Verweise 
 
 -   Da Austragung häufig zum Erstellen von Gewinden für Schrauben verwendet wird, solltest Du [Gewinde für Schrauben Tutorium](Thread_for_Screw_Tutorial/de.md) anschauen.
 

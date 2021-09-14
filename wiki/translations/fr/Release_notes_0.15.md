@@ -1,6 +1,6 @@
- FreeCAD 0.15 a été publié le 8 avril 2015. Ceci est un résumé des changements les plus intéressants survenus dans FreeCAD depuis la dernière version. Voir [sur Mantis (en anglais)](http://www.freecadweb.org/tracker/changelog_page.php) pour la liste complète des changements.
+# Release notes 0.15/fr
 
-Les versions plus anciennes : [0.14](Release_notes_014/fr.md) - [0.13](Release_notes_013/fr.md) - [0.12](Release_notes_012/fr.md) - [0.11](Release_notes_011/fr.md)
+ FreeCAD 0.15 a été publié le 8 avril 2015. Ceci est un résumé des changements les plus intéressants survenus dans FreeCAD depuis la dernière version. Voir [sur Mantis (en anglais)](http://www.freecadweb.org/tracker/changelog_page.php) pour la liste complète des changements. Les versions plus anciennes : [0.14](Release_notes_0.14/fr.md) - [0.13](Release_notes_0.13/fr.md) - [0.12](Release_notes_0.12/fr.md) - [0.11](Release_notes_0.11/fr.md)
 
 <img alt="" src=images/Spark-Plug-Plane.jpg  style="width:1024px;">
 
@@ -22,7 +22,7 @@ La fenêtre de sélection permet aux utilisateurs de faire une recherche dans le
 
 ### Le support des unités est déployé 
 
-Le nouveau système [d\'unités](Quantity/fr.md) de FreeCAD, introduit dans la version 0.14, est maintenant utilisé dans pratiquement tous les modules de freeCAD, dont [Sketcher](Sketcher_Workbench/fr.md), [Draft](Draft_Module/fr.md) ou [Arch](Arch_Module/fr.md). Quelques zones ne l\'utilisent toujours pas mais en général vous pouvez maintenant compter sur le système d\'unité tout le long de votre processus de modélisation.
+Le nouveau système [d\'unités](Quantity/fr.md) de FreeCAD, introduit dans la version 0.14, est maintenant utilisé dans pratiquement tous les modules de freeCAD, dont [Sketcher](Sketcher_Workbench/fr.md), [Draft](Draft_Workbench/fr.md) ou [Arch](Arch_Workbench/fr.md). Quelques zones ne l\'utilisent toujours pas mais en général vous pouvez maintenant compter sur le système d\'unité tout le long de votre processus de modélisation.
 
 ### Améliorations mineures 
 
@@ -152,4 +152,4 @@ Les [fonctions de construction macro](https://github.com/Rentlau/WorkFeature) aj
 
 <img alt="" src=images/WF.png  style="width:640px;">
 
-[Category:News{{\#translation:}}](Category:News.md) [Category:Documentation{{\#translation:}}](Category:Documentation.md) [Category:Releases{{\#translation:}}](Category:Releases.md)
+[Category:News](Category:News.md) [Category:Documentation](Category:Documentation.md) [Category:Releases](Category:Releases.md)

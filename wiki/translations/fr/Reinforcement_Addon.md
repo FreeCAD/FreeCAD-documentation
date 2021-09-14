@@ -1,3 +1,5 @@
+# Reinforcement Addon/fr
+
 
 
 ## Introduction
@@ -41,4 +43,4 @@ De nouveaux ateliers sont en développement alors tenez vous au jus!
 
  
 
-[Category:Reinforcement{{\#translation:}}](Category:Reinforcement.md)
+[Category:Reinforcement](Category:Reinforcement.md)

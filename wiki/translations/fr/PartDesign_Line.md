@@ -27,7 +27,7 @@ Crée une **droite de référence** qui peut être utilisée comme référence p
 
 ## Options
 
-Double-cliquez sur l\'étiquette DatumLine dans l\'arborescence du modèle ou cliquez avec le bouton droit de la souris et sélectionnez **Modifier la référence** dans le menu contextuel pour éditer ses paramètres. Pour plus de détails sur le mode d\'ancrage et le décalage de l\'ancrage, voir [Part ancrage](Part_Attachment/fr.md).
+Double-cliquez sur l\'étiquette DatumLine dans l\'arborescence du modèle ou cliquez avec le bouton droit de la souris et sélectionnez **Modifier la référence** dans le menu contextuel pour éditer ses paramètres. Pour plus de détails sur le mode d\'ancrage et le décalage de l\'ancrage, voir [Part ancrage](Part_EditAttachment/fr.md).
 
 ## Propriétés
 

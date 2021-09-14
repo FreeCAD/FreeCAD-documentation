@@ -1,4 +1,6 @@
- {{UnfinishedDocu}}
+# Material/cs
+
+ }
 
 
 <div class="mw-translate-fuzzy">
@@ -241,4 +243,4 @@ Tento odstavec definuje materiálové vlastnosti, které se vztahují k vizuáln
 
  {{FEM Tools navi}} 
 
-[Category:Developer{{\#translation:}}](Category:Developer.md) [Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Roadmap{{\#translation:}}](Category:Roadmap.md) [Category:BIM{{\#translation:}}](Category:BIM.md) [Category:File\_Formats{{\#translation:}}](Category:File_Formats.md)
+[Category:Developer](Category:Developer.md) [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Roadmap](Category:Roadmap.md) [Category:BIM](Category:BIM.md) [Category:File\_Formats](Category:File_Formats.md)

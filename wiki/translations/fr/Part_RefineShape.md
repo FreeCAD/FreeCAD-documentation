@@ -7,9 +7,6 @@
    SeeAlso:[Part Copie simple](Part_SimpleCopy/fr.md), [Part Copie transformée](Part_TransformedCopy/fr.md), [Part Copie d'un élément](Part_ElementCopy/fr.md), [OpenSCAD Affinage de la forme](OpenSCAD_RefineShapeFeature/fr.md)
 ---
 
-
-</div>
-
 ## Description
 
 L\'outil **<img src="images/Part_RefineShape.svg" width=16px> [Part Affiner la forme](Part_RefineShape/fr.md)** produit une copie non paramétrique à la forme raffinée, c'est-à-dire que certains bords et certaines faces ont été nettoyés.
@@ -68,13 +65,7 @@ La sélection peut être manuelle (en utilisant la souris) ou via la [Console Py
 Pour en savoir plus sur la sélection d\'objets de manière programmatique, reportez-vous à [Méthodes de sélection](Selection_methods/fr.md).
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
  

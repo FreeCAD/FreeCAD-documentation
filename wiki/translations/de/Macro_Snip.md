@@ -1,3 +1,5 @@
+# Macro Snip/de
+
  {{Macro/de
 |Name=Schnitt
 |Icon=Snip.png

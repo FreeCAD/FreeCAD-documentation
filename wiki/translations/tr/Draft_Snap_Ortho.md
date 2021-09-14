@@ -1,9 +1,9 @@
 ---
 - GuiCommand:/tr
    Name:Draft Ortho
-   Name:Taslak Orto
-   Workbenches:[Taslak](Draft_Module/tr.md), [Mimari](Arch_Module/tr.md)
+   Name/tr:Taslak Orto
    MenuLocation:Taslak → [Yakalama](Draft_Snap/tr.md) → Orto
+   Workbenches:[Taslak](Draft_Workbench/tr.md), [Mimari](Arch_Workbench/tr.md)
    Shortcut:
    SeeAlso:
 ---

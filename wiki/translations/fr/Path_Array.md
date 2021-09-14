@@ -4,12 +4,7 @@
    Name/fr:Path Réseau
    MenuLocation:Path → Path Modification → Réseau
    Workbenches:[Path](Path_Workbench/fr.md)
-   Shortcut:
-   SeeAlso:
 ---
-
-
-</div>
 
 ## Description
 
@@ -42,14 +37,7 @@ Cette fonction ne fonctionne que sur les opérations de trajectoire réelles, et
 
 [FreeCAD Script de base](FreeCAD_Scripting_Basics/fr.md).
 
-
-<div class="mw-translate-fuzzy">
-
-Exemple: 
-```python#Place code example here.```
-
-
-</div>
+Exemple :
 
 
 ```python
@@ -57,13 +45,7 @@ Exemple:
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Path_Tools_navi

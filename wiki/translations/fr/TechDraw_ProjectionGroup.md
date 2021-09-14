@@ -7,9 +7,6 @@
    SeeAlso:[TechDraw Vue active](TechDraw_View/fr.md), [TechDraw Vue de coupe](TechDraw_SectionView/fr.md)
 ---
 
-
-</div>
-
 ## Description
 
 L\'outil <img alt="" src=images/TechDraw_ProjectionGroup.svg  style="width:24px;"> [Groupe de projection](TechDraw_ProjectionGroup/fr.md) crée une [projection multi-vue](https://en.wikipedia.org/wiki/Multiview_projection) d\'un ou plusieurs objets 3D. Les vues isométriques des 4 coins de devant peuvent également être incluses.
@@ -95,13 +92,7 @@ L\'outil NewProjGroup peut être utilisé dans des [macro](Macros/fr.md) et à p
 Remarque de programmation: le groupe de projection doit toujours être ajouté à la page (par exemple, page.addView(group) avant d\'ajouter des projections au groupe. Cela permet au groupe de projection d\'utiliser les valeurs de paramètre par défaut dérivées de la page parente.
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{TechDraw Tools navi

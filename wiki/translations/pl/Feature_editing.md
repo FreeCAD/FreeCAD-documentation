@@ -1,3 +1,5 @@
+# Feature editing/pl
+
  {{TOCright}}
 
 ## Wprowadzenie
@@ -94,7 +96,7 @@ Możliwe jest powiązanie elementów z jednej zawartości w innej zawartości po
 
 Narzędzie Dołączenie obiektów nie jest specyficznym narzędziem środowiska Projekt Części, ale raczej narzędziem środowiska Część wprowadzonym w v0.17, które można znaleźć w pasku menu Część. Jest ono bardzo często używane w środowisku Projekt Części, do dołączania szkiców i geometrii odniesienia, do standardowych płaszczyzn i osi Zawartości. Dostępne są bardzo rozbudowane sposoby tworzenia punktów bazowych, linii i płaszczyzn. Opcjonalne parametry przesunięcia mocowania sprawiają, że narzędzie to jest bardzo uniwersalne.
 
-Więcej informacji można znaleźć na stronie [Umocowanie](Part_Attachment/pl.md) i [Poradnik: Podstawy dołączania](Basic_Attachment_Tutorial/pl.md).
+Więcej informacji można znaleźć na stronie [Edytuj mocowanie](Part_EditAttachment/pl.md) i [Poradnik: Podstawy dołączania](Basic_Attachment_Tutorial/pl.md).
 
 ## Porady dotyczące tworzenia stabilnych modeli 
 
@@ -168,4 +170,4 @@ Strona [Poradniki](Tutorials/pl.md) zawiera kilka przykładów użycia metody [E
 
 }} 
 
-[Category:Common Questions{{\#translation:}}](Category:Common_Questions.md)
+[Category:Common Questions](Category:Common_Questions.md)

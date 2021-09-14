@@ -1,3 +1,5 @@
+# About FreeCAD/hr
+
  
 
 <img alt="" src=images/Freecad_default.jpg  style="width:1024px;">
@@ -38,4 +40,4 @@ FreeCAD je podržavan i razvijan od zajednice oduševljenih programera i korisni
 
 
 
-[Category:User Documentation{{\#translation:}}](Category:User_Documentation.md)
+[Category:User Documentation](Category:User_Documentation.md)

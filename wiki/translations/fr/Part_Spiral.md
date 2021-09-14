@@ -8,9 +8,6 @@
    SeeAlso:[Part Primitives](Part_Primitives/fr.md)
 ---
 
-
-</div>
-
 ## Description
 
 ## Utilisation
@@ -24,13 +21,7 @@ La boîte de dialogue [Primitives](Part_Primitives/fr.md) est accessible en cliq
 ![](images/Spiral_y45_it.png )
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
  

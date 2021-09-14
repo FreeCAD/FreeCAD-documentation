@@ -1,5 +1,10 @@
 ---
-- GuiCommand:/ro   Name:Draft WireToBSpline   Name/ro:Draft WireToBSpline   Workbenches:[Arch](Draft_Module/ro___Draft]],_[[Arch_Module/ro.md)|MenuLocation:Drafting →  Wire to BSpline---
+- GuiCommand:/ro
+   Name:Draft WireToBSpline
+   Name/ro:Draft WireToBSpline
+   MenuLocation:Drafting →  Wire to BSpline
+   Workbenches:[Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
+---
 
 
 </div>

@@ -1,3 +1,5 @@
+# Macro Rectellipse/fr
+
  {{Macro/fr
 |Name=Macro Rectellipse
 |Icon=Macro_Rectellipse.png

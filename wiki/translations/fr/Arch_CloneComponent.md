@@ -3,13 +3,10 @@
    Name:Arch cloneComponent‏‎‏‎
    Name/fr:Arch Composant de clone
    MenuLocation:Arch → Utilities → Composant de clone
-   Workbenches:[Arch](Arch_Module/fr.md)
+   Workbenches:[Arch](Arch_Workbench/fr.md)
    Shortcut:**C**, **C‏‎**
    SeeAlso:[Draft Clone](Draft_Clone/fr.md), [Arch Composant](Arch_Component/fr.md)
 ---
-
-
-</div>
 
 ## Description
 
@@ -30,13 +27,7 @@ Le composant clone aura simplement sa propriété {{PropertyData/fr|CloneOf}} d�
 ## Script
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
  

@@ -1,3 +1,5 @@
+# Compiling/de
+
  Jedes Betriebssystem hat seine eigene Seite für das Kompilieren von FreeCAD in der [Online Hilfe Dokumentation](Online_Help_Toc/de.md).
 
   --------------------------------------------------------------- ----------------------------------------------------------- ----------------------------------------------------------- ------------------------------------------------------------------------------
@@ -18,4 +20,4 @@ Zum Erlernen der Verwendung des Revisionskontrollsystems und des Beitragscodes s
 
 
 
-[Category:Developer\_Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Developer{{\#translation:}}](Category:Developer.md)
+[Category:Developer\_Documentation](Category:Developer_Documentation.md) [Category:Developer](Category:Developer.md)

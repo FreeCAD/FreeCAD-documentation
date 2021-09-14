@@ -3,7 +3,7 @@
    Name:Draft Endpoint
    Name/de:Entwurf Endpunkt
    MenuLocation:Entwurf → [Objektfang](Draft_Snap/de.md) → Endpunkt
-   Workbenches:[Draft](Draft_Module/de.md), [Arch](Arch_Module/de.md)
+   Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
    SeeAlso:[Objektfang](Draft_Snap/de.md), [Objektfang umschalten](Draft_ToggleSnap/de.md)
 ---
 

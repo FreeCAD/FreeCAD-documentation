@@ -3,8 +3,9 @@
    Name:Draft SubelementHighlight
    Name/it:Evidenzia i sottoelementi
    MenuLocation:Draft → Evidenzia i sottoelementi
+   Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
    Shortcut:**D** **E**
-   Workbenches:[Draft](Draft_Module/it.md), [Arch](Arch_Module/it.md)
+   Version:0.19
    SeeAlso:[Modifica](Draft_Edit/it.md)
 ---
 

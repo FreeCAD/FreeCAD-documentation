@@ -1,14 +1,11 @@
 ---
 - GuiCommand:/ru
-   Name:Sketcher CreateFillet
-   Name/ru:Фаска
-   MenuLocation:Эскиз → Геометрия эскиза → Фаска
+   Name/ru:Создать скругление
+   Name:Sketcher_CreateFillet
+   MenuLocation:Sketch → Геометрия эскиза → Создать скругление
    Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
    Shortcut:F
 ---
-
-
-</div>
 
 ## Описание
 
@@ -24,7 +21,7 @@
 
 ![](images/SketcherCreateFilletExample.png‎ )
 
-## Использование
+## Применение
 
 
 <div class="mw-translate-fuzzy">

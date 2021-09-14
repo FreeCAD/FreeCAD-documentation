@@ -1,3 +1,5 @@
+# Licence/es
+
 
 
 
@@ -130,4 +132,4 @@ No obstante, esta decisión se ha tomado sólo para el sistema básico de FreeCA
 
  
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md)

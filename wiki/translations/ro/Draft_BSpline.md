@@ -1,5 +1,12 @@
 ---
-- GuiCommand:/ro   Name:Draft BSpline   Name/ro:Funcții BSpline   Workbenches:[Arch](Draft_Module/ro___Draft]],_[[Arch_Module/ro.md)|MenuLocation:Draft → BSpline   Shortcut:B S   SeeAlso:[Draft Wire](Draft_Wire/ro.md)---
+- GuiCommand:/ro
+   Name:Draft BSpline
+   Name/ro:Funcții BSpline
+   Workbenches:[Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
+   MenuLocation:Draft → BSpline
+   Shortcut:**B** **S**
+   SeeAlso:[Draft Wire](Draft_Wire/ro.md)
+---
 
 
 </div>

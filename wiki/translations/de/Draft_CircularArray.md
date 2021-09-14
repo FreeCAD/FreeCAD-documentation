@@ -1,8 +1,9 @@
 ---
 - GuiCommand:/de
-   Name:Draft KreisAnordnung
+   Name:Draft CircularArray
+   Name/de:Draft KreisAnordnung
    MenuLocation:Entwurf → Kreis Anordnung
-   Workbenches:[Entwurf](Draft_Module/de.md)
+   Workbenches:[Entwurf](Draft_Workbench/de.md)
    Version:0.19
    SeeAlso:[Anordnung](Draft_Array/de.md), [PolarAnordnung](Draft_PolarArray/de.md), [PfadAnordnung](Draft_PathArray/de.md), [Punkt Anordnung](Draft_PointArray/de.md), [Klonen](Draft_Clone/de.md)
 ---

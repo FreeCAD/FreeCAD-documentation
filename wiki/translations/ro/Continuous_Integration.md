@@ -1,3 +1,5 @@
+# Continuous Integration/ro
+
 
 
 
@@ -44,4 +46,4 @@ Dacă adăugaţi [skip ci] sau [ci skip] pentru comiterea unui \"git\", aceasta 
 
  
 
-[Category:Developer\_Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Testing{{\#translation:}}](Category:Testing.md)
+[Category:Developer\_Documentation](Category:Developer_Documentation.md) [Category:Testing](Category:Testing.md)

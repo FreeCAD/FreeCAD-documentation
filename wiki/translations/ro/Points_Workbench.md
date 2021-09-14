@@ -1,3 +1,5 @@
+# Points Workbench/ro
+
 
 
 
@@ -61,4 +63,4 @@ Utilizarea metodei de ancorare [Endpoint](Draft_Endpoint.md) va asigura că inst
 
 }} 
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

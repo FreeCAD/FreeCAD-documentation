@@ -1,3 +1,5 @@
+# Tolerancing/de
+
 
 
 
@@ -81,4 +83,4 @@ Es gibt zwei Ansätze zur Angabe von Produkt- und Herstellungsinformationen (PMI
 -   [GD&T für Anfänger \| Schritt für Schritt Ansatz zur Durchführung von GD&T für mechanisches Zeichnen (Video)](https://www.youtube.com/watch?v=-3tN7KvDUjQ)
 -   [Straight To The Point Engineering (Video tutorials)](https://www.youtube.com/c/StraightToThePointEngineering/videos?view=0&sort=da&flow=grid)
 
-[Category:Roadmap{{\#translation:}}](Category:Roadmap.md) [Category:TechDraw{{\#translation:}}](Category:TechDraw.md)
+[Category:Roadmap](Category:Roadmap.md) [Category:TechDraw](Category:TechDraw.md)

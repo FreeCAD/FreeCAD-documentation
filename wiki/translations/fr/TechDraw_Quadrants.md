@@ -2,14 +2,11 @@
 - GuiCommand:/fr
    Name:TechDraw Quadrants
    Name/fr:TechDraw Sommets quadrants
-   MenuLocation:TechDraw → Add Vertices → Ajouter des sommets de quadrants
+   MenuLocation:TechDraw → Ajouter des sommets → Ajouter des sommets de quadrants
    Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
    Version:0.19
    SeeAlso:[TechDraw Point cosmétique](TechDraw_CosmeticVertex/fr.md), [TechDraw Point milieu](TechDraw_Midpoints/fr.md)
 ---
-
-
-</div>
 
 ## Description
 
@@ -49,13 +46,7 @@ Les points cosmétiques ne sont pas accessibles par [macros](Macros/fr.md) ni pa
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{TechDraw Tools navi

@@ -1,3 +1,5 @@
+# Feature/fr
+
 
 
 ## Introduction
@@ -30,4 +32,4 @@ Dans un sens plus spécifique, une \"entité\" est une étape de modélisation u
 
 }}  {{Document objects navi}} 
 
-[Category:Glossary{{\#translation:}}](Category:Glossary.md)
+[Category:Glossary](Category:Glossary.md)

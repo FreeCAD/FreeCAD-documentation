@@ -1,3 +1,5 @@
+# Web Workbench/fr
+
 
 
 
@@ -17,4 +19,4 @@ L\'[atelier Web](Web_Workbench/fr.md) n\'est pas vraiment un atelier de modélis
 
 
 
-[Category:Web{{\#translation:}}](Category:Web.md) [Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Web](Category:Web.md) [Category:Workbenches](Category:Workbenches.md)

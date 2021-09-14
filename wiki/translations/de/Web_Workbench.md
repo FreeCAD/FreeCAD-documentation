@@ -1,3 +1,5 @@
+# Web Workbench/de
+
 
 
 
@@ -17,4 +19,4 @@ Von hier aus kannst Du im Web navigieren, auf Verweise (Links) klicken, die Onli
 
 
 
-[Category:Web{{\#translation:}}](Category:Web.md) [Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Web](Category:Web.md) [Category:Workbenches](Category:Workbenches.md)

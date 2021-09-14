@@ -3,8 +3,8 @@
    Name:Draft SubelementHighlight
    Name/ru:Draft SubelementHighlight
    MenuLocation:Draft → Subelement highlight
+   Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
    Shortcut:**D** **E**
-   Workbenches:[Draft](Draft_Module/ru.md), [Arch](Arch_Module/ru.md)
    SeeAlso:[Draft Edit](Draft_Edit/ru.md)
 ---
 

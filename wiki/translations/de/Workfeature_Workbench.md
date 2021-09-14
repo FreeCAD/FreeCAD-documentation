@@ -1,3 +1,5 @@
+# Workfeature Workbench/de
+
 
 
 <img alt="Workfeature-Arbeitsbereich-Symbol" src=images/WF_wf.png  style="width:128px;">
@@ -77,4 +79,4 @@ Dieser Arbeitsbereich kann über den [Erweiterungsverwalter](Std_AddonMgr/de.md)
 
 -   [Externe Arbeitsbereiche](External_workbenches/de.md)
 
-[Category:Sandbox{{\#translation:}}](Category:Sandbox.md) [Category:User Documentation{{\#translation:}}](Category:User_Documentation.md) [Category:Addons{{\#translation:}}](Category:Addons.md) [Category:External Workbenches{{\#translation:}}](Category:External_Workbenches.md)
+[Category:Sandbox](Category:Sandbox.md) [Category:User Documentation](Category:User_Documentation.md) [Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)

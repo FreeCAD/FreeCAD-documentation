@@ -1,3 +1,5 @@
+# About FreeCAD/it
+
  
 
 <img alt="" src=images/Freecad_default.jpg  style="width:1024px;">
@@ -26,4 +28,4 @@ FreeCAD è mantenuto e sviluppato da una comunità di sviluppatori appassionati 
 
 
 
-[Category:User Documentation{{\#translation:}}](Category:User_Documentation.md)
+[Category:User Documentation](Category:User_Documentation.md)

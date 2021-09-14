@@ -1,4 +1,6 @@
-{{UnfinishedDocu}}
+# A Beginner's Questions about Working on the Wiki
+
+
 
 ## Purpose of this Page 
 
@@ -78,7 +80,7 @@ If you are here you probably have some question about how to contribute to this 
 
 
 
-     While the page is under construction, add the Template:UnfinishedDocu template at the top of the page by simply typing: {{UnfinishedDocu}}
+     While the page is under construction, add the Template:UnfinishedDocu template at the top of the page by simply typing: 
 
 -   and standard for
     -   in page toc place on right with show hide ??

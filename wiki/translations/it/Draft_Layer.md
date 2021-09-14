@@ -2,10 +2,10 @@
 - GuiCommand:/it
    Name:Draft Layer
    Name/it:Strato
-   Workbenches:[Draft](Draft_Module/it.md), [Arch](Arch_Module/it.md)
+   Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
    MenuLocation:Draft → Utilità → Strato
    Version:0.19
-   See also:[Draft VisGruppo](Draft_VisGroup/it.md) (deprecato)
+   See also:[Draft AutoGruppo](Draft_AutoGroup/it.md)
 ---
 
 

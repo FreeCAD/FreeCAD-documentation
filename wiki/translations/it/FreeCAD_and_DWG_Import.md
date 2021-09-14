@@ -1,3 +1,5 @@
+# FreeCAD and DWG Import/it
+
  {{TOCright}}
 
 
@@ -206,4 +208,4 @@ In development version as mentioned above you can switch from the proprietary OD
 
  
 
-[Category:File\_Formats{{\#translation:}}](Category:File_Formats.md) [Category:Common Questions{{\#translation:}}](Category:Common_Questions.md)
+[Category:File\_Formats](Category:File_Formats.md) [Category:Common Questions](Category:Common_Questions.md)

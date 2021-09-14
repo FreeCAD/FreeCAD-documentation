@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+- GuiCommand:/ru
    Name:Std_MacroStopRecord
    Name/ru:Запись макроса...
    MenuLocation:Макросы → Запись макроса...
-   Workbenches:All
+   Workbenches:Все
    SeeAlso:[Остановить запись макроса](Std_MacroStopRecord/ru.md)
 ---
 

@@ -2,11 +2,11 @@
 - GuiCommand:/tr
    Name:Draft Arc
    Name/tr:Yay
-   Workbenches:[Taslak](Draft_Module/tr.md), [Mimari](Arch_Module/tr.md)
+   Workbenches:[Taslak](Draft_Workbench/tr.md), [Mimari](Arch_Workbench/tr.md)
    MenuLocation:Taslak → Yay
    Shortcut:**A** **R**
-   SeeAlso:[Çember](Draft_Circle/tr.md),[Elips](Draft_Ellipse/tr.md)
    Version:0.17
+   SeeAlso:[Çember](Draft_Circle/tr.md),[Elips](Draft_Ellipse/tr.md)
 ---
 
 

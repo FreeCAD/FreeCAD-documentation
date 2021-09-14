@@ -2,13 +2,10 @@
 - GuiCommand:/fr
    Name:Arch MergeWalls
    Name/fr:Arch Fusionner des murs
-   MenuLocation:Arch → Utilities → Fusionner des murs
+   MenuLocation:Arch → Utilitaires → Fusionner des murs
    Workbenches:[Arch](Arch_Workbench/fr.md)
    SeeAlso:[Arch Murs](Arch_Wall/fr.md)
 ---
-
-
-</div>
 
 ## Description
 
@@ -52,13 +49,7 @@ base = Arch.joinWalls([Wall1, Wall2])
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
  

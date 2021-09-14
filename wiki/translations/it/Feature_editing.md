@@ -1,3 +1,5 @@
+# Feature editing/it
+
  {{TOCright}}
 
 ## Introduzione
@@ -168,4 +170,4 @@ La pagina [Tutorial](Tutorials/it.md) fornisce alcuni esempi di utilizzo del met
 
 }} 
 
-[Category:Common Questions{{\#translation:}}](Category:Common_Questions.md)
+[Category:Common Questions](Category:Common_Questions.md)

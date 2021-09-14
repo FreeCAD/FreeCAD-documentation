@@ -1,10 +1,11 @@
 ---
-- GuiCommand:
-   Name:TechDraw FaceCenterLine
-   MenuLocation:TechDraw → Add Lines → Add Centerline to Face(s)
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
+- GuiCommand:/ru
+   Name/ru:Добавить осевую линию к Граням
+   Name:TechDraw_FaceCenterLine
+   MenuLocation:TechDraw → Добавить Линии → Add Centerline to Face(s)
+   Workbenches:[TechDraw](TechDraw_Workbench/ru.md)
    Version:0.19
-   SeeAlso:[TechDraw Cosmetic Vertex](TechDraw_CosmeticVertex.md), [TechDraw Centerline between 2 Lines](TechDraw_2LineCenterLine.md), [TechDraw Centerline between 2 Points](TechDraw_2PointCenterLine.md), [TechDraw Cosmetic Eraser](TechDraw_CosmeticEraser.md)
+   SeeAlso:[Добавить Вспомогательную Вершину](TechDraw_CosmeticVertex/ru.md), [Добавить осевую линию между 2 линиями](TechDraw_2LineCenterLine/ru.md), [Добавить осевую линию между 2 точками](TechDraw_2PointCenterLine/ru.md), [Удалить Вспомогательный Объект](TechDraw_CosmeticEraser/ru.md)
 ---
 
 ## Описание
@@ -51,9 +52,9 @@ Centerlines have no properties of their own, as they are no document objects. Th
 ## Сценарии
 
 
-**See also:**
+**См. так же:**
 
-[TechDraw API](TechDraw_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+[TechDraw API](TechDraw_API/ru.md) и [Основы составления скриптов FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 
 Centerlines are not accessible from [macros](Macros.md) or the [Python](Python.md) console at this time.
 

@@ -1,4 +1,6 @@
-\_\_NOTOC\_\_ 
+# Artwork Erroneous/ru
+
+ 
 
 Для всех иконок в исходнике смотри [Художественное оформление](Artwork/ru.md).
 
@@ -24,4 +26,4 @@
 
 }}
 
-[Category:Icon{{\#translation:}}](Category:Icon.md) [Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md)
+[Category:Icon](Category:Icon.md) [Category:Developer Documentation](Category:Developer_Documentation.md)

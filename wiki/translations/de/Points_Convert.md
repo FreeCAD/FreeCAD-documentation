@@ -10,13 +10,7 @@
 
 Der **Punkte umwandeln** Befehl erzeugt Punktwolken aus Formobjekten oder Netzobjekten.
 
-
-<div class="mw-translate-fuzzy">
-
-Ein Formobjekt bezeichnet hier jedes Objekt mit einer **Form** Eigenschaft. Objekte, die mit dem [Part](Part_Workbench/de.md) und [PartDesign](PartDesign_Workbench/de.md) Arbeitsbereich erzeugt wurden, sind Formobjekte. Aber auch Objekte, die mit dem [Skizzierer](Sketcher_Workbench/de.md) und dem [Entwurf](Draft_Module/de.md) Arbeitsbereich erstellt wurden.
-
-
-</div>
+Ein Formobjekt bezeichnet hier jedes Objekt mit einer **Form** Eigenschaft. Objekte, die mit dem [Part](Part_Workbench/de.md) und [PartDesign](PartDesign_Workbench/de.md) Arbeitsbereich erzeugt wurden, sind Formobjekte. Aber auch Objekte, die mit dem [Skizzierer](Sketcher_Workbench/de.md) und dem [Entwurf](Draft_Workbench/de.md) Arbeitsbereich erstellt wurden.
 
 ## Anwendung
 

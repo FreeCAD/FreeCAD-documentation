@@ -1,3 +1,5 @@
+# Drawing API example
+
  
 
 ## Introduction
@@ -241,4 +243,4 @@ With those two, you can proceed as above for displaying them on the drawing page
 
  {{Powerdocnavi}} {{Drawing Tools navi}} 
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Python Code{{\#translation:}}](Category:Python_Code.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)

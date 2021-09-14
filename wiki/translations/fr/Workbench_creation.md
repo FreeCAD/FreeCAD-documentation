@@ -1,3 +1,5 @@
+# Workbench creation/fr
+
 
 
 
@@ -36,7 +38,7 @@ Dans ces fichiers, vous pouvez faire ce que vous voulez. Ils sont généralement
 
 -   Dans le fichier InitGui.py, vous définissez généralement un atelier, qui contient un nom, une icône et une série de commandes FreeCAD (voir ci-dessous). Cet fichier Python définit également les fonctions exécutées lors du chargement de FreeCAD (essayez d\'en faire le moins possible à ce niveau, afin de ne pas ralentir le démarrage). Un autre est exécuté lorsque l\'atelier est activé (c\'est là que vous ferez le plus du travail) et un troisième lorsque l\'atelier est désactivé (vous pouvez donc supprimer des éléments si nécessaire).
 
-The structure and file content for a workbench described here is the classic way of creating a new workbench. One can use a slight variation in the structure of files when making a new Python workbench, that alternative way is best described as a \"namespaced workbench\", opening up the possibility to use pip to install the workbench. Both structures work, so it is more a question of preference when creating a new workbench. The style and structure for workbenches presented here are available in the global namespace of FreeCAD, whereas for the alternative style and structure the workbench resides in a dedicated namespace. For further readings on the topic see [Related](Workbench_creation#Related.md).
+La structure et le contenu des fichiers d\'un atelier décrits ici constituent la manière classique de créer un nouvel atelier. Il est possible d\'utiliser une légère variation dans la structure des fichiers lors de la création d\'un nouvel atelier Python. Cette méthode alternative est mieux décrite comme un \"atelier à espacement de noms\", ouvrant la possibilité d\'utiliser pip pour installer l\'atelier. Les deux structures fonctionnent, il s\'agit donc plutôt d\'une question de préférence lors de la création d\'un nouvel atelier. Le style et la structure pour les ateliers présentés ici sont disponibles dans l\'espace de noms global de FreeCAD, alors que pour le style et la structure alternatifs, l\'atelier réside dans un espace de noms dédié. Pour plus d\'informations sur le sujet, voir [En relation](Workbench_creation/fr#En_relation.md).
 
 ### La structure d\'atelier en C++ 
 
@@ -105,13 +107,7 @@ print("I am executing some stuff here when FreeCAD starts!")
 
 Vous pouvez choisir la licence de votre choix pour votre atelier, mais sachez que si vous souhaitez que votre atelier soit intégré et distribué avec le code source de FreeCAD à un moment donné, il doit être LGPL2+, comme dans l\'exemple ci-dessus. Voir [Licence](Licence/fr.md).
 
-
-<div class="mw-translate-fuzzy">
-
 Les fonctions `FreeCAD.addImportType()` et `addEXportType()` vous permettent de fournir le nom et l\'extension d\'un type de fichier, ainsi qu\'un module Python responsable de son importation. Dans l\'exemple ci-dessus, un module `importOwn.py` gérera les fichiers `.own`. Voir [Extraits de codes](Code_snippets/fr.md) pour plus d\'exemples.
-
-
-</div>
 
 ### Ateliers en Python 
 
@@ -150,25 +146,11 @@ class MyWorkbench (Workbench):
         return "Gui::PythonWorkbench"
        
 Gui.addWorkbench(MyWorkbench())
-```
-
-
-<div class="mw-translate-fuzzy">
-
-En dehors de cela, vous pouvez faire ce que vous voulez : Vous pouvez insérer tout votre code d\'atelier dans le fichier InitGui.py si vous le souhaitez, mais il est généralement plus pratique de placer les différentes fonctions de votre atelier dans des fichiers séparés. Ainsi ces fichiers sont plus petits et plus faciles à lire. Ensuite, vous importerez ces fichiers dans votre fichier InitGui.py. Vous pouvez organiser ces fichiers comme bon vous semble, un bon exemple est en avoir un pour chaque commande FreeCAD que vous ajoutez.
-
-
-</div>
+``` En dehors de cela, vous pouvez faire ce que vous voulez : vous pouvez insérer tout votre code d\'atelier dans le fichier InitGui.py si vous le souhaitez, mais il est généralement plus pratique de placer les différentes fonctions de votre atelier dans des fichiers séparés. Ainsi ces fichiers sont plus petits et plus faciles à lire. Ensuite, vous importerez ces fichiers dans votre fichier InitGui.py. Vous pouvez organiser ces fichiers comme bon vous semble, un bon exemple est en avoir un pour chaque commande FreeCAD que vous ajoutez.
 
 #### Préférences
 
-
-<div class="mw-translate-fuzzy">
-
 Vous pouvez ajouter une page Préférences pour votre atelier Python. Les pages Préférences recherchent une icône de préférence avec un nom spécifique dans le système de ressources Qt. Si votre icône ne se trouve pas dans le système de ressources ou si son nom n\'est pas correct, votre icône n\'apparaîtra pas sur la page Préférences.
-
-
-</div>
 
 Ajouter votre icône d\'atelier :
 
@@ -180,20 +162,11 @@ Ajouter votre icône d\'atelier :
 
 Vous devrez refaire les étapes si vous ajoutez/modifiez des icônes.
 
-
-<div class="mw-translate-fuzzy">
-
 \@kbwbe a créé un joli script pour compiler des ressources pour l\'atelier A2Plus. Voir ci-dessous.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
 
 Ajouter votre/vos page(s) de préférence :
 
--   Vous devez compiler le plugin Qt Designer qui vous permet d'ajouter des paramètres de préférence avec [Qt Designer](Compile_on_Linux/Unix/fr#Plugin_Qt_designer.md)
+-   Vous devez compiler le plugin Qt Designer qui vous permet d'ajouter des paramètres de préférence avec [Qt Designer](Compile_on_Linux/fr#Plugin_Qt_designer.md)
 -   Créer un widget vide dans Qt Designer (sans boutons ni quoi que ce soit)
 -   Concevez votre page de préférences, de nombreux paramètres qui doivent être enregistrés (préférences) doivent être l'un des widgets Gui::Pref\* ajoutés par le plug-in)
 -   Dans ces cas-là, veillez à renseigner PrefName (le nom de votre valeur de préférence) et PrefPath (ex: Mod/MyWorkbenchName), qui sauvegardera votre valeur sous BaseApp/Preferences/Mod/MyWorkbenchName
@@ -201,39 +174,12 @@ Ajouter votre/vos page(s) de préférence :
 -   Dans votre atelier, par exemple dans le fichier InitGui, dans la méthode Initialize (mais tout autre endroit fonctionne également), ajoutez : FreeCADGui.addPreferencePage (\"/path/to/myUiFile.ui\", \"MyGroup\"), \"MyGroup\" étant l\'un des groupes de préférences de la gauche. FreeCAD recherchera automatiquement un fichier \"preferences-mygroup.svg\" dans ses emplacements connus (que vous pouvez étendre avec FreeCADGui.addIconPath())
 -   Assurez-vous que la méthode addPreferencePage() n'est appelée qu'une fois, sinon votre page de préférence sera ajoutée plusieurs fois
 
-
-</div>
-
 ### Ateliers en C++ 
 
+Si vous voulez coder votre atelier en C++, vous souhaiterez probablement coder aussi sa définition elle-même en C++ (bien que cela ne soit pas nécessaire : vous pouvez également coder uniquement les outils en C++, et laisser la définition de de l\'atelier en Python). Dans ce cas, le fichier InitGui.py devient très simple : il peut contenir une seule ligne : 
+```pythonimport MyModuleGui``` où MyModule est votre atelier C++ complet, incluant les commandes et la définition de l\'atelier.
 
-<div class="mw-translate-fuzzy">
-
-Si vous voulez coder votre atelier en C++, vous souhaiterez probablement coder aussi sa définition elle-même en C++ (bien que cela ne soit pas nécessaire : vous pouvez également coder uniquement les outils en C++, et laisser la définition de de l\'atelier en Python). Dans ce cas, le fichier InitGui.py devient très simple : il peut contenir une seule ligne :
-
-
-</div>
-
-
-```pythonimport MyModuleGui```
-
-
-<div class="mw-translate-fuzzy">
-
-où MyModule est votre atelier C++ complet, incluant les commandes et la définition de l\'atelier.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Le codage des ateliers C++ fonctionne de manière assez similaire. Il s\'agit d\'un fichier Workbench.cpp typique à inclure dans la partie interface graphique de votre module :
-
-
-</div>
-
-
+Le codage des ateliers C++ fonctionne de manière assez similaire. Il s\'agit d\'un fichier Workbench.cpp typique à inclure dans la partie interface graphique de votre module : 
 ```python
 namespace MyModuleGui {
     class MyModuleGuiExport Workbench : public Gui::StdWorkbench
@@ -256,23 +202,11 @@ namespace MyModuleGui {
 
 #### Préférences 
 
-
-<div class="mw-translate-fuzzy">
-
 Vous pouvez également ajouter une page de préférences pour les ateliers C++. Les étapes sont similaires à celles de Python.
-
-
-</div>
 
 ## Commandes FreeCAD 
 
-
-<div class="mw-translate-fuzzy">
-
 Les commandes FreeCAD constituent le bloc de construction de base de l\'interface FreeCAD. Ils peuvent apparaître sous la forme d\'un bouton dans les barres d\'outils et d\'une entrée de menu dans les menus. Mais c\'est la même commande. Une commande est une simple classe Python, qui doit contenir un couple attributs et fonctions prédéfinis, définissant le nom de la commande, son icône et l\'action à effectuer lorsque la commande est activée.
-
-
-</div>
 
 ### Définition des commandes Python 
 
@@ -404,13 +338,9 @@ os.remove(qrc_filename)
 
 ## En relation 
 
-
-<div class="mw-translate-fuzzy">
-
 -   [Traduction et ateliers externes](Translating_an_external_workbench/fr.md)
-
-
-</div>
+-   [Namespaced Workbenches - discussion](https://forum.freecadweb.org/viewtopic.php?t=47460)
+-   [freecad.workbench\_starterkit](https://github.com/FreeCAD/freecad.workbench_starterkit)
 
 
 
@@ -420,4 +350,4 @@ os.remove(qrc_filename)
 
 }} 
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Python Code{{\#translation:}}](Category:Python_Code.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)

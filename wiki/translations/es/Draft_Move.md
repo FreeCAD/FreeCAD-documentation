@@ -1,5 +1,11 @@
 ---
-- GuiCommand:/es   Name:Draft Move   Name/es:Draft Move   Workbenches:[[Draft Module/es   Croquis]]|MenuLocation:Croquis -> Mover   Shortcut:M V---
+- GuiCommand:/es
+   Name:Draft Move
+   Name/es:Draft Move
+   MenuLocation:Croquis -> Mover
+   Workbenches:[Croquis](Draft_Workbench/es.md)
+   Shortcut:**M** **V**
+---
 
 
 </div>
@@ -56,7 +62,7 @@ The single character keyboard shortcuts mentioned here can be changed. See [Draf
 
 ## Notes
 
--   An Object that is [attached](Part_Attachment.md) cannot be moved with the Draft Move command. To move it either its **Support** object has to be moved, or its **Attachment Offset** has to be changed.
+-   An Object that is [attached](Part_EditAttachment.md) cannot be moved with the Draft Move command. To move it either its **Support** object has to be moved, or its **Attachment Offset** has to be changed.
 
 ## Preferences
 

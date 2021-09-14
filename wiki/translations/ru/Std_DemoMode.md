@@ -1,18 +1,16 @@
 ---
 - GuiCommand:/ru
-   Name:Std DemoMode
-   MenuLocation:Инструменты → View turntable...
-   Workbenches:All
+   Name/ru:Поворотный просмотр
+   Name:Std_DemoMode
+   MenuLocation:Инструменты → Поворотный просмотр...
+   Workbenches:Все
 ---
-
-
-</div>
 
 ## Описание
 
-The **Std DemoMode** command will continuously rotate the camera in a [3D view](3D_view.md).
+Команда **Поворотный просмотр** вращает камеру в [3D виде](3D_view/ru.md).
 
-![](images/Std_DemoMode_dialog.png ) *The View Turntable dialog box*
+![](images/Std_DemoMode_dialog.png ) *Диалоговое окно "Повторный просмотр"*
 
 ## Применение
 
@@ -30,7 +28,7 @@ The **Std DemoMode** command will continuously rotate the camera in a [3D view](
 
 ## Примечания
 
--   For more information about fullscreen mode see the [Std ViewFullscreen](Std_ViewFullscreen.md) command.
+-   Более подробную информацию про полно экранный режим, смотрите в описании команды [Std ViewFullscreen](Std_ViewFullscreen/ru.md).
 
 
 

@@ -1,3 +1,5 @@
+# Online Help Startpage/hr
+
 
 
 
@@ -53,4 +55,4 @@ Kao što ste možda ponekad doživjeli, programeri su stvarno loši pisci pomoć
 
 
 
-[Category:User\_Documentation{{\#translation:}}](Category:User_Documentation.md)
+[Category:User\_Documentation](Category:User_Documentation.md)

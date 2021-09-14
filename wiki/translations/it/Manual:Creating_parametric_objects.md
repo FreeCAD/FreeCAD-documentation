@@ -1,3 +1,5 @@
+# Manual:Creating parametric objects/it
+
  
 
 
@@ -124,4 +126,4 @@ Ricordare che se si desidera distribuire a terzi i file creati con questo nuovo 
 
 }} 
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Python Code{{\#translation:}}](Category:Python_Code.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)

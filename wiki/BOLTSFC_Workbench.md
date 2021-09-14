@@ -1,3 +1,5 @@
+# BOLTSFC Workbench
+
   The FreeCAD BOLTS External Workbench Icon](images/BOLTSFC_workbench_icon.svg "fig: The FreeCAD BOLTS External Workbench Icon"){width="128"}
 
 
@@ -70,4 +72,4 @@ is required.
 
  
 
-[Category:External Workbenches{{\#translation:}}](Category:External_Workbenches.md) [Category:Addons{{\#translation:}}](Category:Addons.md)
+[Category:External Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)

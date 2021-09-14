@@ -1,3 +1,5 @@
+# PartDesign Preferences/it
+
 
 
 
@@ -194,4 +196,4 @@ Fare clic con il tasto destro del mouse su **Deviazione mesh** scegliere nel men
 
 }} 
 
-[Category:Preferences{{\#translation:}}](Category:Preferences.md)
+[Category:Preferences](Category:Preferences.md)

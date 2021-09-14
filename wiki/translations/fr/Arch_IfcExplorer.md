@@ -3,12 +3,9 @@
    Name:Arch IfcExplorer
    Name/fr:Arch Explorateur Ifc
    MenuLocation:Arch → Utilitaires → IfcExplorer
-   Workbenches:[Arch](Arch_Module/fr.md)
+   Workbenches:[Arch](Arch_Workbench/fr.md)
    SeeAlso:[Arch IFC](Arch_IFC/fr.md)
 ---
-
-
-</div>
 
 ## Description
 
@@ -29,15 +26,9 @@ Le but de cet explorateur est simplement de vous permettre de vérifier ce qui e
     -   Utilisation de l\'entrée **Arch → Utilitaires → IfcExplorer** dans le menu déroulant Arch.
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
  
 
-[Category:BIM{{\#translation:}}](Category:BIM.md)
+[Category:BIM](Category:BIM.md)

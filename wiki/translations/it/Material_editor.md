@@ -9,7 +9,7 @@
 
 <div class="mw-translate-fuzzy">
 
-L\'editor dei materiali consente di modificare e salvare le informazioni contenute in un [materiale](Material/it.md) di FreeCAD. Attualmente tali materiali sono utilizzati dagli ambienti [FEM](FEM_Module/it.md) e [Arch](Arch_Module/it.md).
+L\'editor dei materiali consente di modificare e salvare le informazioni contenute in un [materiale](Material/it.md) di FreeCAD. Attualmente tali materiali sono utilizzati dagli ambienti [FEM](FEM_Workbench/it.md) e [Arch](Arch_Workbench/it.md).
 
 
 </div>

@@ -8,9 +8,6 @@
    SeeAlso:[Part Décalage 3D](Part_Offset/fr.md), [Part Évidement](Part_Thickness/fr.md), [Draft Décalage](Draft_Offset/fr.md)
 ---
 
-
-</div>
-
 ## Description
 
 Part Décalage 2D génère un profil parallèle au profil d\'origine, à une distance définie de celui-ci. Il est également possible de d\'agrandir/réduire une face plane de la même façon.
@@ -119,13 +116,7 @@ Part.show(enlarged_circle)
 }}
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
   

@@ -56,4 +56,4 @@ Crée un réseau et redimensionne les objets dans les limites d\'une ou plusieur
 
 
 
-[Category:Name{{\#translation:}}](Category:Name.md) [Category:External Command Reference{{\#translation:}}](Category:External_Command_Reference.md)
+[Category:Name](Category:Name.md) [Category:External Command Reference](Category:External_Command_Reference.md)

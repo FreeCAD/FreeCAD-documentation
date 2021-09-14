@@ -4,13 +4,7 @@
    Name/fr:Path Zone d'usinage
    MenuLocation:Path → Area
    Workbenches:[Path](Path_Workbench/fr.md)
-   Shortcut:
-|SeeAlso
-   Version:
 ---
-
-
-</div>
 
 ## Description
 
@@ -25,13 +19,6 @@ Vide
 Vide
 
 ## Propriétés
-
-### Data
-
-#### Area
-
-
-<div class="mw-translate-fuzzy">
 
 ### Données
 
@@ -57,15 +44,7 @@ Vide
 
 -    {{PropertyData/fr|ClipFill}}: -
 
-
-</div>
-
 #### Base
-
-
-<div class="mw-translate-fuzzy">
-
-#### Base 
 
 -    {{PropertyData/fr|Sources}}: -
 
@@ -73,15 +52,7 @@ Vide
 
 -    {{PropertyData/fr|Label}}: -
 
-
-</div>
-
-#### Offset
-
-
-<div class="mw-translate-fuzzy">
-
-#### Offset 
+#### Décalage
 
 -    {{PropertyData/fr|Offset}}: -
 
@@ -99,15 +70,7 @@ Vide
 
 -    {{PropertyData/fr|RoundPrecision}}: -
 
-
-</div>
-
 #### Pocket
-
-
-<div class="mw-translate-fuzzy">
-
-#### Pocket 
 
 -    {{PropertyData/fr|PocketMode}}: -
 
@@ -129,15 +92,7 @@ Vide
 
 -    {{PropertyData/fr|Thicken}}: -
 
-
-</div>
-
 #### Section
-
-
-<div class="mw-translate-fuzzy">
-
-#### Section 
 
 -    {{PropertyData/fr|SectionCount}}: -
 
@@ -151,15 +106,7 @@ Vide
 
 -    {{PropertyData/fr|Project}}: -
 
-
-</div>
-
 #### libarea
-
-
-<div class="mw-translate-fuzzy">
-
-#### libarea 
 
 -    {{PropertyData/fr|Tolerance}}: -
 
@@ -179,15 +126,7 @@ Vide
 
 -    {{PropertyData/fr|ClipperScale}}: -
 
-
-</div>
-
-#### HIDDEN
-
-
-<div class="mw-translate-fuzzy">
-
-#### Hidden 
+#### Caché
 
 -    {{PropertyData/fr|ExpressionEngine}}: -
 
@@ -199,25 +138,9 @@ Vide
 
 -    {{PropertyData/fr|WorkPlane}}: -
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
 ### Vue
 
-Empty
-
-
-</div>
-
-Empty
-
-## Scripting
-
-
-<div class="mw-translate-fuzzy">
+Vide
 
 ## Script
 
@@ -225,9 +148,6 @@ Empty
 **Voir aussi:**
 
 [FreeCAD Script de base](FreeCAD_Scripting_Basics/fr.md).
-
-
-</div>
 
 Exemple:
 
@@ -237,13 +157,7 @@ Exemple:
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Path_Tools_navi

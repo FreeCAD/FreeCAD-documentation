@@ -1,3 +1,5 @@
+# Svg Namespace/it
+
 
 
 
@@ -9,7 +11,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Nei documenti [SVG](http://it.wikipedia.org/wiki/Scalable_Vector_Graphics) esportati dal [Modulo Disegno](Drawing_Module/it.md) di FreeCAD e utilizzati come [modelli di pagina](Drawing_templates/it.md) (squadrature), si possono utilizzare diversi [attributi](http://www.w3schools.com/xml/xml_attributes.asp) personalizzati, originariamente per uso interno di FreeCAD, ma che, in futuro, potrebbero essere utilizzati anche da altre applicazioni oltre a FreeCAD . Tutti questi attributi utilizzano il prefisso **freecad:** per il [namespace](http://www.w3schools.com/xml/xml_namespaces.asp). L\'URL del namespace definito in tali documenti SVG fa riferimento a questa pagina.
+Nei documenti [SVG](http://it.wikipedia.org/wiki/Scalable_Vector_Graphics) esportati dal [Modulo Disegno](Drawing_Workbench/it.md) di FreeCAD e utilizzati come [modelli di pagina](Drawing_templates/it.md) (squadrature), si possono utilizzare diversi [attributi](http://www.w3schools.com/xml/xml_attributes.asp) personalizzati, originariamente per uso interno di FreeCAD, ma che, in futuro, potrebbero essere utilizzati anche da altre applicazioni oltre a FreeCAD . Tutti questi attributi utilizzano il prefisso **freecad:** per il [namespace](http://www.w3schools.com/xml/xml_namespaces.asp). L\'URL del namespace definito in tali documenti SVG fa riferimento a questa pagina.
 
 
 </div>
@@ -259,4 +261,4 @@ Vedere la pagina dei [Modelli di squadrature](Drawing_templates/it.md)
 
 }}
 
-[Category:Poweruser\_Documentation{{\#translation:}}](Category:Poweruser_Documentation.md) [Category:Developer{{\#translation:}}](Category:Developer.md) [Category:Python\_Code{{\#translation:}}](Category:Python_Code.md) [Category:Macros{{\#translation:}}](Category:Macros.md)
+[Category:Poweruser\_Documentation](Category:Poweruser_Documentation.md) [Category:Developer](Category:Developer.md) [Category:Python\_Code](Category:Python_Code.md) [Category:Macros](Category:Macros.md)

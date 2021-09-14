@@ -2,11 +2,11 @@
 - GuiCommand:/tr
    Name:Draft Move
    Name/tr:Taşı
-   Workbenches:[Taslak](Draft_Module/tr.md), [Yapı](Arch_Module/tr.md)
    MenuLocation:Taslak → Taşı
+   Workbenches:[Taslak](Draft_Workbench/tr.md), [Yapı](Arch_Workbench/tr.md)
    Shortcut:**M** **V**
    SeeAlso:[Dizi](Draft_Array/tr.md), [Yol dizisi](Draft_PathArray/tr.md)
-   Version:0.17
+   Version:0.7
 ---
 
 
@@ -82,7 +82,7 @@ The single character keyboard shortcuts mentioned here can be changed. See [Draf
 
 ## Notes
 
--   An Object that is [attached](Part_Attachment.md) cannot be moved with the Draft Move command. To move it either its **Support** object has to be moved, or its **Attachment Offset** has to be changed.
+-   An Object that is [attached](Part_EditAttachment.md) cannot be moved with the Draft Move command. To move it either its **Support** object has to be moved, or its **Attachment Offset** has to be changed.
 
 ## Preferences
 

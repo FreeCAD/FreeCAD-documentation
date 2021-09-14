@@ -1,3 +1,5 @@
+# Key ASCII/it
+
  {{VeryImportantMessage|Pagina da finire}}
 
 <img alt="" src=images/Ascii_000.svg  style="width:24px;"> : type 
@@ -642,4 +644,4 @@
 
   
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Icon{{\#translation:}}](Category:Icon.md) [Category:Help{{\#translation:}}](Category:Help.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Icon](Category:Icon.md) [Category:Help](Category:Help.md)

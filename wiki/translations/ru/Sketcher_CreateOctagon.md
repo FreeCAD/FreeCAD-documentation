@@ -1,7 +1,7 @@
 ---
 - GuiCommand:/ru
-   Name:Sketcher CreateOctagon
    Name/ru:Восьмиугольник
+   Name:Sketcher_CreateOctagon
    MenuLocation:Эскиз → Геометрия эскиза → Восьмиугольник
    Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
    Version:0.15
@@ -13,13 +13,7 @@
 
 ![](images/SketcherCreateOctagonExample.png‎ )
 
-
-<div class="mw-translate-fuzzy">
-
-## Использование
-
-
-</div>
+## Применение
 
 
 <div class="mw-translate-fuzzy">
@@ -30,13 +24,9 @@
 
 </div>
 
+## Примечания
 
-<div class="mw-translate-fuzzy">
-
-При редактировании эскиза описанный круг виден, когда вы закрываете эскиз, он пропадает.
-
-
-</div>
+Видимая окружность является элементом вспомогательной геометрией, которая видна только при редактировании эскиза.
 
 
 
@@ -44,4 +34,4 @@
 
 {{Sketcher Tools navi
 
-}}  
+}} 

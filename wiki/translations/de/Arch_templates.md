@@ -1,3 +1,5 @@
+# Arch templates/de
+
  Dieses Seite zeigt die Vorlagen entsprechend dem American National Standards Institute [ANSI](https://de.wikipedia.org/wiki/American_National_Standards_Institute)-Standard
 
 ### Arch A 
@@ -90,4 +92,4 @@
 
 Die Vorlagen wurden erstellt durch [Quick61](User:Quick61.md) und aufgelistet in [FreeCAD-Drawing-Templates](https://github.com/quick61/FreeCAD-Drawing-Templates).
 
-[Category:Documentation{{\#translation:}}](Category:Documentation.md) [Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Drawing{{\#translation:}}](Category:Drawing.md)
+[Category:Documentation](Category:Documentation.md) [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Drawing](Category:Drawing.md)

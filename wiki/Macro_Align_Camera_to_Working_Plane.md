@@ -1,3 +1,5 @@
+# Macro Align Camera to Working Plane
+
  
 
 
@@ -24,7 +26,7 @@ This macro aligns the camera to the current [Draft Working Plane](Draft_SelectPl
 
 ## Script
 
- ToolBar Icon ![](images/Macro_Align_Camera_to_Working_Plane.png )
+ToolBar Icon  ![](images/Macro_Align_Camera_to_Working_Plane.png )
 
 **Macro\_Align\_Camera\_to\_Working\_Plane.FCMacro**
 

@@ -1,3 +1,5 @@
+# Valgrind
+
 
 {{TOCright}}
 
@@ -22,4 +24,4 @@
 
 -   [gcc address santizers](http://gavinchou.github.io/experience/summary/syntax/gcc-address-sanitizer/) are another option. Apparently the error message output is very clear.
 
-[Category:3rd Party{{\#translation:}}](Category:3rd_Party.md) [Category:Developer{{\#translation:}}](Category:Developer.md)
+[Category:3rd Party](Category:3rd_Party.md) [Category:Developer](Category:Developer.md)

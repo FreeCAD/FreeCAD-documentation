@@ -1,3 +1,5 @@
+# OpenSCAD CSG tested files/it
+
 
 
 ## Questo è un elenco di file OpenSCAD che non possono essere aperti in FreeCAD 
@@ -32,4 +34,4 @@
 
 {{OpenSCAD Tools navi}}
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:File\_Formats{{\#translation:}}](Category:File_Formats.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:File\_Formats](Category:File_Formats.md)

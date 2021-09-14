@@ -1,13 +1,9 @@
+# LuxRender/fr
 
 
-
-<div class="mw-translate-fuzzy">
 
 
 {{VeryImportantMessage|LuxRender n'est plus en développement car le projet a été redémarré sous le nom de [LuxCoreRender](LuxCoreRender/fr.md) avec une réécriture majeure du code et de nombreux changements de compatibilité. L'information ici est fournie parce que FreeCAD est toujours livré par défaut (à partir de la version 0.19-24276) avec l'[atelier Raytracing](Raytracing_Workbench/fr.md), qui ne supporte officiellement que LuxRender. Cependant, il semble également fonctionner avec [LuxCoreRender](LuxCoreRender/fr.md) donc pensez à l'essayer avant d'utiliser LuxRender.}}
-
-
-</div>
 
 # Description
 

@@ -31,7 +31,7 @@ Actualiser\]\] la vue si une vue de dessin n\'a pas été ouverte
 {{docnav/fr
 |[Annotation Drawing](Drawing_Annotation/fr.md)
 |[Ouvrir sur le navigateur interne Drawing](Drawing_Openbrowser/fr.md)
-|[Module Drawing](Drawing_Module/fr.md)
+|[Module Drawing](Drawing_Workbench/fr.md)
 |IconL=Drawing_Annotation.png
 |IconC=Workbench_Drawing.svg
 |IconR=Drawing_Openbrowser.png

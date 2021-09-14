@@ -39,6 +39,9 @@ Viene creato un oggetto Parte JoinFeature, con la modalità, Mode, impostata su 
 ## Proprietà
 
 
+{{TitleProperty|Base}}
+
+
 <div class="mw-translate-fuzzy">
 
 
@@ -101,7 +104,9 @@ Gli algoritmi sottostanti agli strumenti di Giunzione sono abbastanza semplici, 
 
 ## Script
 
-Lo strumento Giunzione può essere utilizzato nelle [macro](macros/it.md) e dalla [console di Python](FreeCAD_Scripting_Basics/it.md) tramite la seguente funzione: 
+Lo strumento Giunzione può essere utilizzato nelle [macro](macros/it.md) e dalla [console di Python](FreeCAD_Scripting_Basics/it.md) tramite la seguente funzione:
+
+
 ```pythonJoinFeatures.makePartJoinFeature(name = 'Cutout', mode = 'Cutout')```
 
 -   Crea una funzione Cutout vuota (o altra funzione Join, secondo la modalità passata). Le proprietà Base e Tool devono essere assegnate in modo esplicito, in seguito.
@@ -112,7 +117,9 @@ import JoinFeatures
 j = JoinFeatures.makePartJoinFeature(name = 'Cutout', mode = 'Cutout' )
 j.Base = FreeCADGui.Selection.getSelection()[0]
 j.Tool = FreeCADGui.Selection.getSelection()[1]
-}} Lo strumento è implementato in Python, vedere {{FileName|/Mod/Part/JoinFeatures.py}} ([Github link](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Part/JoinFeatures.py)) in cui è installato FreeCAD.
+}}
+
+Lo strumento è implementato in Python, vedere {{FileName|/Mod/Part/JoinFeatures.py}} ([Github link](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Part/JoinFeatures.py)) in cui è installato FreeCAD.
 
 
 <div class="mw-translate-fuzzy">
@@ -122,9 +129,6 @@ j.Tool = FreeCADGui.Selection.getSelection()[1]
 
 
 </div>
-
-
-
 
 
  

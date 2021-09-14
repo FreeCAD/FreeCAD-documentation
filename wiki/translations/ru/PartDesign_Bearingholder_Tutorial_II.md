@@ -1,3 +1,5 @@
+# PartDesign Bearingholder Tutorial II/ru
+
 
 
 
@@ -87,4 +89,4 @@ For the rest of the machining, create a new Body. The bottom of the holder will 
 
 
 
-[Category:Tutorials{{\#translation:}}](Category:Tutorials.md)
+[Category:Tutorials](Category:Tutorials.md)

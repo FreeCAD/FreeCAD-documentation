@@ -1,3 +1,5 @@
+# Localisation/es
+
 
 
 
@@ -192,4 +194,4 @@ Actualmente los mantenedores de FreeCAD utilizan la API de Crowdin a través de 
 
  
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Wiki{{\#translation:}}](Category:Wiki.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Wiki](Category:Wiki.md)

@@ -179,7 +179,14 @@ Stirrup.editStirrup(Rebar, 20, 20, 20, 20, 50,
 <div class="mw-translate-fuzzy">
 
 
-{{docnav/ro|[Bent Shape Rebar](Arch_Rebar_BentShape/ro.md)|[Helical Rebar](Arch_Rebar_Helical/ro.md)|[Arch](Arch_Module/ro.md)|IconL=Arch_Rebar_BentShape.svg |IconC=Workbench_Arch.svg |IconR=Arch_Rebar_Helical.svg}}
+{{docnav/ro
+|[Bent Shape Rebar](Arch_Rebar_BentShape/ro.md)
+|[Helical Rebar](Arch_Rebar_Helical/ro.md)
+|[Arch](Arch_Workbench/ro.md)
+|IconL=Arch_Rebar_BentShape.svg
+|IconC=Workbench_Arch.svg
+|IconR=Arch_Rebar_Helical.svg
+}}
 
 
 </div>
@@ -187,4 +194,4 @@ Stirrup.editStirrup(Rebar, 20, 20, 20, 20, 50,
 
  
 
-[Category:Reinforcement{{\#translation:}}](Category:Reinforcement.md)
+[Category:Reinforcement](Category:Reinforcement.md)

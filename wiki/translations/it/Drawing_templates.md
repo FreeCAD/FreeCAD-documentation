@@ -1,3 +1,5 @@
+# Drawing templates/it
+
 
 
 
@@ -11,7 +13,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Creare dei nuovi modelli di fogli per il modulo di disegno di proiezione [Drawing](Drawing_Module/it.md) è molto semplice. Oltre a questa pagina consultare anche il tutorial [Creare dei modelli](Drawing_Template_HowTo/it.md). I modelli sono dei file SVG creati con qualsiasi applicazione in grado di esportare file SVG, ad esempio [Inkscape](http://www.inkscape.org). Si devono seguire solo due regole:
+Creare dei nuovi modelli di fogli per il modulo di disegno di proiezione [Drawing](Drawing_Workbench/it.md) è molto semplice. Oltre a questa pagina consultare anche il tutorial [Creare dei modelli](Drawing_Template_HowTo/it.md). I modelli sono dei file SVG creati con qualsiasi applicazione in grado di esportare file SVG, ad esempio [Inkscape](http://www.inkscape.org). Si devono seguire solo due regole:
 
 
 </div>
@@ -147,7 +149,7 @@ viewBox="0 0 xxx yyy"
 
 <div class="mw-translate-fuzzy">
 
-Dalla versione 0.15, FreeCAD può esportare in modo affidabile una pagina [Drawing](Drawing_Module/it.md) nel formato DXF. Questo sistema utilizza anche i modelli. Se nella stessa cartella del modello SVG utilizzata per una pagina si trova anche un file dxf con lo stesso nome, esso viene utilizzato per l\'esportazione. In caso contrario, viene creato al volo un modello vuoto predefinito.
+Dalla versione 0.15, FreeCAD può esportare in modo affidabile una pagina [Drawing](Drawing_Workbench/it.md) nel formato DXF. Questo sistema utilizza anche i modelli. Se nella stessa cartella del modello SVG utilizzata per una pagina si trova anche un file dxf con lo stesso nome, esso viene utilizzato per l\'esportazione. In caso contrario, viene creato al volo un modello vuoto predefinito.
 
 
 </div>
@@ -296,4 +298,4 @@ Le due righe cercate da FreeCAD sono \"\$blocks\" e \"\$entities\". Esse devono 
 
 }} 
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Documentation{{\#translation:}}](Category:Documentation.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Documentation](Category:Documentation.md)

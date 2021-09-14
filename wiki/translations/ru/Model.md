@@ -1,3 +1,5 @@
+# Model/ru
+
 
 
 ## Введение
@@ -19,4 +21,4 @@ In informal usage, the word \"[Drawing](Drawing.md)\" may be used with the same 
 
 }} 
 
-[Category:Glossary{{\#translation:}}](Category:Glossary.md)
+[Category:Glossary](Category:Glossary.md)

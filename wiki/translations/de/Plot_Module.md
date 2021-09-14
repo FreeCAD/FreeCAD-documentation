@@ -1,19 +1,21 @@
+# Plot Module/de
+
 
 
 <img alt="Druck Arbeitsbereichsymbol" src=images/Workbench_Plot.svg  style="width:128px;">
 
-## Einführung
-
 
 {{TOCright}}
+
+## Einführung
 
 FreeCAD is able to perform plots using the [matplotlib](https://matplotlib.org/) [Python](Python.md) library. A module is provided to this end, as an external add-on in version 0.19 and as a core component from version 0.20 on. Older versions of FreeCAD are not covered in this documentation.
 
 The produced plots offer the standard [matplotlib](https://matplotlib.org/) tools to edit and save. On top of that, a <img alt="" src=images/Workbench_Plot.svg  style="width:24px;"> [Plot Workbench](Plot_Workbench.md) is provided as an external add-on offering more complete tools to edit the plot and save it. The add-on can be installed with the [Add-on manager](Std_AddonMgr.md).
 
-## Module
+## Modul
 
-The module can be invoked in a Python console or in a [macro](Macro.md). The first thing you must do is importing the module. In FreeCAD 0.19 you must first install the <img alt="" src=images/Workbench_Plot.svg  style="width:24px;"> [Plot Workbench](Plot_Workbench.md) using the [Add-on manager](Std_AddonMgr.md), and then you can import Plot typing
+The module can be invoked in a Python console or in a [macro](Macros.md). The first thing you must do is importing the module. In FreeCAD 0.19 you must first install the <img alt="" src=images/Workbench_Plot.svg  style="width:24px;"> [Plot Workbench](Plot_Workbench.md) using the [Add-on manager](Std_AddonMgr.md), and then you can import Plot by typing:
 
 
 ```python
@@ -36,13 +38,7 @@ Plot.plot([0, 1], [0, 2])
 
 You can find more complex examples in the [Plot Basic tutorial](Plot_Basic_tutorial.md) and the [Plot MultiAxes tutorial](Plot_MultiAxes_tutorial.md).
 
-
-<div class="mw-translate-fuzzy">
-
-## Werkzeuge
-
-
-</div>
+## Arbeitsbereichswerkzeuge
 
 If you decide to install the <img alt="" src=images/Workbench_Plot.svg  style="width:24px;"> [Plot Workbench](Plot_Workbench.md) using the [Add-on manager](Std_AddonMgr.md), you will have the following tools available to manage the plots created with the module:
 
@@ -54,9 +50,22 @@ If you decide to install the <img alt="" src=images/Workbench_Plot.svg  style="w
 -   <img alt="" src=images/Plot_Labels.svg  style="width:32px;"> [Labels](Plot_Labels.md): Edit labels.
 -   <img alt="" src=images/Plot_Positions.svg  style="width:32px;"> [Positions](Plot_Positions.md): Set elements positions.
 
+## Scripting
+
+
+<div class="mw-translate-fuzzy">
+
 ## Skripten
 
 Da der Plot Arbeitsbereich eine Schicht über der `matplotlib` ist, kannst du jede Funktion aus dieser Bibliothek auf Plot Instanzen verwenden. Siehe [Skripten und Makros](Scripting_and_macros/de.md) für Beispiele.
+
+
+</div>
+
+## Tutorial
+
+
+<div class="mw-translate-fuzzy">
 
 ## Tutorium
 
@@ -64,8 +73,11 @@ Da der Plot Arbeitsbereich eine Schicht über der `matplotlib` ist, kannst du je
 -   [Plot MultiAxes tutorial/de](Plot_MultiAxes_tutorial/de.md)
 
 
+</div>
+
+
 {{Plot_Tools_navi
 
 }} 
 
-[Category:External\_Workbenches{{\#translation:}}](Category:External_Workbenches.md) [Category:Addons{{\#translation:}}](Category:Addons.md)
+[Category:External\_Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)

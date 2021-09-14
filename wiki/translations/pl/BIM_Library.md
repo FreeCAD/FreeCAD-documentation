@@ -33,4 +33,4 @@ The BIM Library tool allows you to place, in the current model, an object from t
 
  
 
-[Category:BIM{{\#translation:}}](Category:BIM.md)
+[Category:BIM](Category:BIM.md)

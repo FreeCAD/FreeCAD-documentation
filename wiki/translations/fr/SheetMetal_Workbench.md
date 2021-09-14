@@ -1,9 +1,9 @@
+# SheetMetal Workbench/fr
 
 
 
-{{UnfinishedDocu
 
-}} <img alt="Icône de l\'atelier externe Sheet Metal" src=images/Sheetmetal_workbench_icon.svg  style="width:128px;">
+ <img alt="Icône de l\'atelier externe Sheet Metal" src=images/Sheetmetal_workbench_icon.svg  style="width:128px;">
 
 ## Vue d\'ensemble 
 
@@ -199,4 +199,4 @@ La page [ateliers externes](external_workbenches/fr.md) contient des information
 
 De nouveaux ateliers sont en développement, restez à l\'écoute !
 
-[Category:SheetMetal{{\#translation:}}](Category:SheetMetal.md) [Category:Addons{{\#translation:}}](Category:Addons.md) [Category:External Command Reference{{\#translation:}}](Category:External_Command_Reference.md)
+[Category:SheetMetal](Category:SheetMetal.md) [Category:Addons](Category:Addons.md) [Category:External Command Reference](Category:External_Command_Reference.md)

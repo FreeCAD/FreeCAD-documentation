@@ -16,4 +16,4 @@ The BIM windows manager dialog allows you to browse and modify all the [windows 
 
  {{BIM Tools navi}}
 
-[Category:External Command Reference{{\#translation:}}](Category:External_Command_Reference.md)
+[Category:External Command Reference](Category:External_Command_Reference.md)

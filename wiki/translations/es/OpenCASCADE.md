@@ -1,3 +1,5 @@
+# OpenCASCADE/es
+
 
 
 
@@ -86,4 +88,4 @@ As√≠, a partir de las formas se pueden construir piezas muy complejas o, al rev√
 
 }} 
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md)

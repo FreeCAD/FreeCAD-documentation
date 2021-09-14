@@ -1,3 +1,5 @@
+# Assembly3 Workbench/es
+
 
 
 <img alt="Assembly3 workbench icon" src=images/Assembly3_workbench_icon.svg  style="width:128px;">
@@ -630,4 +632,4 @@ One way to solve this is to just delete all invalid constraints and elements, im
 
 
 
-[Category:Addons{{\#translation:}}](Category:Addons.md) [Category:External Workbenches{{\#translation:}}](Category:External_Workbenches.md)
+[Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)

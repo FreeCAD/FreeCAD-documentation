@@ -1,3 +1,5 @@
+# Getting started/pt
+
 
 
 
@@ -335,9 +337,9 @@ E finalmente, um dos recursos mais poderoso do FreeCAD é o ambiente de [ progra
 0.15\]\] : Veja o que há de novo na versão 0.15 do FreeCAD
 
 -   [Notas de lançamento da versão 0.14](Release_notes_0.14.md) : Veja o que há de novo na versão 0.14 do FreeCAD
--   [Notas de lançamento da versão 0.13](Release_notes_013.md) : Veja o que há de novo na versão 0.13 do FreeCAD
--   [Notas de lançamento da versão 0.12](Release_notes_012.md) : Veja o que há de novo na versão 0.12 do FreeCAD
--   [Notas de lançamento da versão 0.11](Release_notes_011.md) : Veja o que há de novo na versão 0.11 do FreeCAD
+-   [Notas de lançamento da versão 0.13](Release_notes_0.13.md) : Veja o que há de novo na versão 0.13 do FreeCAD
+-   [Notas de lançamento da versão 0.12](Release_notes_0.12.md) : Veja o que há de novo na versão 0.12 do FreeCAD
+-   [Notas de lançamento da versão 0.11](Release_notes_0.11.md) : Veja o que há de novo na versão 0.11 do FreeCAD
 
 
 </div>

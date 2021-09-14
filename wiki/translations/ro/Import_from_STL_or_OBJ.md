@@ -1,3 +1,5 @@
+# Import from STL or OBJ/ro
+
  {{TutorialInfo/ro
 |Topic= Import from STL or OBJ
 |Level= Beginner
@@ -150,4 +152,4 @@ Deoarece solidul creat nu are istorie si nici funcții editabile (ca o copie sim
 
  
 
-[Category:File\_Formats{{\#translation:}}](Category:File_Formats.md)
+[Category:File\_Formats](Category:File_Formats.md)

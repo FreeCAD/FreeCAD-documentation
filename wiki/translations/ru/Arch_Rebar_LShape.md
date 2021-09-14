@@ -35,7 +35,7 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 </div>
 
-## Использование
+## Применение
 
 1.  Select any face of a previously created **<img src="images/Arch_Structure.svg" width=16px> [[Arch Structure]]** object.
 
@@ -111,7 +111,7 @@ Rebar = makeLShapeRebar(f_cover, b_cover, l_cover, r_cover,
 
 -    `orientation`specifies the orientation of the rebar; it can be `"Bottom Right"`, `"Bottom Left"`, `"Top Right"`, or `"Top Left"`.
 
-### Example
+### Пример
 
 
 ```python
@@ -171,4 +171,4 @@ LShapeRebar.editLShapeRebar(Rebar2, 50, 50, 20, 20,
 
 
 
-[Category:Reinforcement{{\#translation:}}](Category:Reinforcement.md)
+[Category:Reinforcement](Category:Reinforcement.md)

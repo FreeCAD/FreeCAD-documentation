@@ -1,3 +1,5 @@
+# Feature list/zh
+
  
 
 这是FreeCAD实现的广泛但不完整的功能列表。如果您想展望未来，请参阅[开发路线图](Development_roadmap.md)，快速了解接下来会发生什么。此外，[截图集锦是一个不错的去处](Screenshots.md)。
@@ -10,9 +12,9 @@
 
 <div class="mw-translate-fuzzy">
 
--   [0.11发布](Release_notes_011.md) - 2011年3月
--   [0.12发布](Release_notes_012.md) - 2011年12月
--   [0.13发布](Release_notes_013.md) - 2013年1月
+-   [0.11发布](Release_notes_0.11.md) - 2011年3月
+-   [0.12发布](Release_notes_0.12.md) - 2011年12月
+-   [0.13发布](Release_notes_0.13.md) - 2013年1月
 -   [0.14发布](Release_notes_0.14.md) - 2014年3月
 -   [0.15发布](Release_notes_0.15.md) - 2015年3月
 -   [0.16发布](Release_notes_0.16.md) - 2016年4月
@@ -127,4 +129,4 @@
 
 
 
-[Category:User Documentation{{\#translation:}}](Category:User_Documentation.md)
+[Category:User Documentation](Category:User_Documentation.md)

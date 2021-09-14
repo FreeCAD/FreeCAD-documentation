@@ -2,15 +2,12 @@
 - GuiCommand:/fr
    Name:Arch PipeConnector
    Name/fr:Arch Connecteur tuyau
-   MenuLocation:Arch → Outils tuyauterie → Connecteur
-   Workbenches:[Arch](Arch_Module/fr.md)
+   MenuLocation:Arch → Outils pour la tuyauterie → Connecteur
+   Workbenches:[Arch](Arch_Workbench/fr.md)
    Shortcut:**P** **C**
    Version:0.17
    SeeAlso:[Arch Tuyau](Arch_Pipe/fr.md), [Arch Equipement](Arch_Equipment/fr.md)
 ---
-
-
-</div>
 
 ## Description
 
@@ -78,13 +75,7 @@ FreeCAD.ActiveDocument.recompute()
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 

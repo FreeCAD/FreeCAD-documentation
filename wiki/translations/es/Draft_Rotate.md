@@ -1,5 +1,11 @@
 ---
-- GuiCommand:/es   Name:Draft Rotate   Workbenches:[Arquitectura](Draft_Module/es___Croquis]],_[[Arch_Module/es.md)|MenuLocation:Croquis → Girar   Shortcut:R O---
+- GuiCommand:/es
+   Name:Draft Rotate
+   Name/es:Draft Rotate
+   Workbenches:[Croquis](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
+   MenuLocation:Croquis → Girar
+   Shortcut:**R** **O**
+---
 
 
 </div>
@@ -62,7 +68,7 @@ The single character keyboard shortcuts and the modifier key mentioned here can 
 
 ## Notes
 
--   An Object that is [attached](Part_Attachment.md) cannot be rotated with the Draft Rotate command. To rotate it either its **Support** object has to be rotated, or its **Attachment Offset** has to be changed.
+-   An Object that is [attached](Part_EditAttachment.md) cannot be rotated with the Draft Rotate command. To rotate it either its **Support** object has to be rotated, or its **Attachment Offset** has to be changed.
 
 ## Preferences
 

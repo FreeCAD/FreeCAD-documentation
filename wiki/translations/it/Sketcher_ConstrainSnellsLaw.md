@@ -27,15 +27,7 @@ Vincola due linee a disporsi secondo la legge della rifrazione di un raggio di l
 
 ## Utilizzo
 
-
-<div class="mw-translate-fuzzy">
-
-<img alt="Le frecce gialle con i numeri indicano la sequenza dei punti da cliccare. n1 e n2 di questa immagine sono solo etichette che servono per mostrare dove si trovano gli indici di rifrazione." src=images/Sketcher_SnellsLaw_Example1.png  style="width:500px;">
-
-
-</div>
-
-
+<img alt="" src=images/Sketcher_SnellsLaw_Example1.png  style="width:500px;"> 
 *The sequence of clicks is indicated by yellow arrows with numbers. n1, n2 are only labels to show where the indices of refraction are.*
 
 
@@ -117,7 +109,9 @@ Dove:
 
 The [Sketcher scripting](Sketcher_scripting.md) page explains the values which can be used for `line1`, `pointpos1`, `line2`, `pointpos2` and `interface` and contains further examples on how to create constraints from Python scripts.
 
-Esempio: 
+Esempio:
+
+
 ```python
 import Sketcher
 import Part
@@ -155,4 +149,4 @@ App.ActiveDocument.recompute()
 
 {{Sketcher Tools navi
 
-}}  
+}} 

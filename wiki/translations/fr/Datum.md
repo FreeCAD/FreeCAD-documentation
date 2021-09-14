@@ -1,3 +1,5 @@
+# Datum/fr
+
 
 
 ## Introduction
@@ -32,7 +34,7 @@ Vous pouvez ajouter d\'autres types de références à utiliser avec d\'autres e
 
 ## Remarques
 
-Depuis leur apparition dans la v0.17, les objets de référence étaient destinés à être utilisés dans [PartDesign Corps](PartDesign_Body/fr.md). Cependant, comme ce sont des objets de \"référence\" utiles avec différentes méthodes d\'[Ancrage](Part_Attachment/fr.md), il a été proposé qu\'ils soient disponibles en dehors de l\'[atelier PartDesign](PartDesign_Workbench/fr.md). De cette façon, ils seront utilisables dans tous les établis comme support de géométrie, notamment dans le cadre de la création d\'[assemblages](Assembly/fr.md).
+Depuis leur apparition dans la v0.17, les objets de référence étaient destinés à être utilisés dans [PartDesign Corps](PartDesign_Body/fr.md). Cependant, comme ce sont des objets de \"référence\" utiles avec différentes méthodes d\'[Ancrage](Part_EditAttachment/fr.md), il a été proposé qu\'ils soient disponibles en dehors de l\'[atelier PartDesign](PartDesign_Workbench/fr.md). De cette façon, ils seront utilisables dans tous les établis comme support de géométrie, notamment dans le cadre de la création d\'[assemblages](Assembly/fr.md).
 
 -   [Create and display local coordinate system](https://forum.freecadweb.org/viewtopic.php?f=10&t=2604)
 -   [Datum objects in App::Part](https://forum.freecadweb.org/viewtopic.php?f=22&t=33654)
@@ -44,4 +46,4 @@ Depuis leur apparition dans la v0.17, les objets de référence étaient destin�
 
 }} {{Document objects navi}} 
 
-[Category:Glossary{{\#translation:}}](Category:Glossary.md)
+[Category:Glossary](Category:Glossary.md)

@@ -3,7 +3,7 @@
    Name:Arch Panel Cut
    Name/ru:Arch Panel Cut
    MenuLocation:Arch → Panel Tools → Нарезка панелей
-   Workbenches:[Arch](Arch_Module/ru.md), [Path](Path_Workbench/ru.md)
+   Workbenches:[Arch](Arch_Workbench/ru.md), [Path](Path_Workbench/ru.md)
    Shortcut:**P** **C**
    SeeAlso:[Arch Panel](Arch_Panel/ru.md), [Arch Panel Sheet](Arch_Panel_Sheet/ru.md), [Arch Nest](Arch_Nest/ru.md)
 ---

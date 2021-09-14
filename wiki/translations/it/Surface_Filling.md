@@ -17,7 +17,7 @@ La superficie può essere modificata aggiungendo bordi e vertici di vincolo attr
 
 <div class="mw-translate-fuzzy">
 
-1.  Assicurarsi di avere almeno tre bordi o curve nello spazio che formano un contorno chiuso. I bordi possono essere creati con gli strumenti di <img alt="" src=images/Workbench_Draft.svg  style="width:16px;"> [Draft](Draft_Module/it.md) o di <img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;"> [Sketcher](Sketcher_Workbench/it.md). L\'uso di tre bordi crea una superficie triangolare; quattro bordi una superficie quadrilatera.
+1.  Assicurarsi di avere almeno tre bordi o curve nello spazio che formano un contorno chiuso. I bordi possono essere creati con gli strumenti di <img alt="" src=images/Workbench_Draft.svg  style="width:16px;"> [Draft](Draft_Workbench/it.md) o di <img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;"> [Sketcher](Sketcher_Workbench/it.md). L\'uso di tre bordi crea una superficie triangolare; quattro bordi una superficie quadrilatera.
     -   Se è il caso, all\'interno del contorno chiuso possono essere disegnate delle curve. Non è necessario che tocchino i bordi. Queste curve possono essere utilizzate per controllare la curvatura della superficie risultante.
     -   Allo stesso modo, è possibile utilizzare un numero di vertici con lo stesso scopo per indicare dove deve passare la superficie.
 2.  Premere il pulsante **<img src=images/Surface_Filling.svg style="width:16px"> Surface filling**.

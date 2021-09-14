@@ -1,3 +1,5 @@
+# FreeCAD and Mesh Import/it
+
 
 
 
@@ -86,4 +88,4 @@ Il guscio (shell dell\'oggetto mesh) sembra avere degli errori, forse non è chi
 
 -   [FreeCAD Howto Import Export](FreeCAD_Howto_Import_Export.md)
 
-[Category:User\_Documentation{{\#translation:}}](Category:User_Documentation.md) [Category:File\_Formats{{\#translation:}}](Category:File_Formats.md)
+[Category:User\_Documentation](Category:User_Documentation.md) [Category:File\_Formats](Category:File_Formats.md)

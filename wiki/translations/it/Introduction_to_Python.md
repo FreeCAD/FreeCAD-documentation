@@ -1,17 +1,13 @@
+# Introduction to Python/it
+
 
 
 
 {{TOCright}}
 
-## Introduction
+## Introduzione
 
-
-<div class="mw-translate-fuzzy">
-
-Questo è una breve guida realizzata per chi si avvicina per la prima volta a Python. [Python](http://en.wikipedia.org/wiki/Python_%28programming_language%29) è un [linguaggio di programmazione](http://en.wikipedia.org/wiki/Programming_language) multi-piattaforma open-source. Python dispone di numerose funzionalità che lo rendono molto diverso dagli altri comuni linguaggi di programmazione, ed è facilmente accessibile ai nuovi utenti:
-
-
-</div>
+Questo è un breve tutorial per quelli nuovi di [Python](https://it.wikipedia.org/wiki/Python). Python è un [Linguaggio di programmazione](https://it.wikipedia.org/wiki/Linguaggio_di_programmazione) sorgente-aperto e multipiattaforma . Ha diverse caratteristiche che lo rendono diverso dagli altri linguaggi di programmazione, e molto accessibile ai nuovi utenti:
 
 
 <div class="mw-translate-fuzzy">
@@ -50,31 +46,11 @@ In Python, l\'intero processo, può essere eseguito in modo trasparente all\'int
 
 </div>
 
-![](images/FreeCAD_Python_console.png )
+![](images/FreeCAD_Python_console.png ) *La console di FreeCAD Python*
 
+Se non la vedi, clicca su **Vista → Pannelli → Console Python**. La console Python può essere ridimensionata e anche sganciata.
 
-<div class="mw-translate-fuzzy">
-
-![](images/Screenshot_pythoninterpreter.jpg )
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Se non è visibile, cliccare su Visualizza → Viste → Console Python.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-L\'interprete mostra la versione di Python, quindi il simbolo \>\>\>, che è il suo prompt dei comandi, cioè, dove si deve inserire il codice Python. Scrivere il codice nell\'interprete è semplice: ogni riga è una istruzione. Quando si preme Invio, la riga di codice viene eseguita (dopo essere stata istantaneamente e invisibilmente compilata). Ad esempio, provare a scrivere questo:
-
-
-</div>
+L\'interprete mostra la versione di Python, poi un simbolo `>>>` che è il prompt dei comandi. Scrivere codice nell\'interprete è semplice: una linea è un\'istruzione. Quando premete **Invio**, la vostra linea di codice verrà eseguita (dopo essere stata istantaneamente e invisibilmente compilata). Per esempio, provate a scrivere questo:
 
 
 ```python
@@ -82,33 +58,18 @@ print("hello")
 ```
 
 
-<div class="mw-translate-fuzzy">
+`print()`
 
-per Python print è una speciale parola chiave che, ovviamente, serve per stampare qualcosa sullo schermo. Quando si preme Invio, l\'operazione viene eseguita, e viene stampato il messaggio \"ciao\". Se si commette un errore, provare, per esempio, a scrivere:
-
-
-</div>
+è un comando Python che, ovviamente, stampa qualcosa sullo schermo. Quando si preme **Invio**, l\'operazione viene eseguita e viene stampato il messaggio `"hello"`. Se si commette un errore, per esempio scriviamo:
 
 
 ```python
 print(hello)
 ```
 
+Python ve lo dirà immediatamente. In questo caso Python non sa cosa sia `hello`. I caratteri `" "` specificano che il contenuto è una stringa, gergo di programmazione per un pezzo di testo. Senza questi il comando `print()` non riconosce `hello`. Premendo la freccia su si può tornare indietro all\'ultima linea di codice e correggerla.
 
-<div class="mw-translate-fuzzy">
-
-Python dice che non conosce ciao. I caratteri \" \" specificano che il contenuto è una stringa. In gergo tecnico, una stringa è semplicemente un pezzo di testo. Senza i segni \", la parola ciao viene vista come una specificazione del comando di stampa, cioè come una speciale parola chiave di Python, e non come un testo. Il fatto importante è che l\'errore viene immediatamente notificato. Premendo la freccia verso l\'alto (o, nell\'interprete di FreeCAD, CTRL + freccia su), si può tornare all\'ultimo comando scritto e correggerlo.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-L\'interprete Python possiede anche un sistema di aiuto incorporato. Provare a digitare:
-
-
-</div>
+L\'interprete Python ha anche un sistema di aiuto integrato. Diciamo che non capiamo cosa è andato storto con `print(hello)` e vogliamo informazioni specifiche sul comando:
 
 
 ```python
@@ -930,4 +891,4 @@ dir()
 
 }} 
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Python Code{{\#translation:}}](Category:Python_Code.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)

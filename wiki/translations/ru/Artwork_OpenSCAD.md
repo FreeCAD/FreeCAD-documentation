@@ -1,4 +1,6 @@
-\_\_NOTOC\_\_ 
+# Artwork OpenSCAD/ru
+
+ 
 
 Эти иконки находятся в указанной исходной папке.
 
@@ -15,4 +17,4 @@
 
 }} 
 
-[Category:OpenSCAD{{\#translation:}}](Category:OpenSCAD.md)
+[Category:OpenSCAD](Category:OpenSCAD.md)

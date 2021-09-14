@@ -1,3 +1,5 @@
+# Drawing Workbench/pl
+
  
 
 
@@ -82,4 +84,4 @@ Niektóre uwagi dotyczące programowania Środowiska pracy Drawing zostaną doda
 
 }} 
 
-[Category:Obsolete Workbenches{{\#translation:}}](Category:Obsolete_Workbenches.md)
+[Category:Obsolete Workbenches](Category:Obsolete_Workbenches.md)

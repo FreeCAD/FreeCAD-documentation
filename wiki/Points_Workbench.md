@@ -1,3 +1,5 @@
+# Points Workbench
+
  
 
 
@@ -40,4 +42,4 @@ All Points Workbench tools can be accessed from the **Points** menu. Some tools 
 
   {{Points Tools navi}} 
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

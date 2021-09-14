@@ -1,76 +1,44 @@
+# Path Workbench/fr
 
 
 
 
 
-<img alt="Icône de l\'Atelier Path" src=images/Workbench_Path.svg  style="width:128px;">
+
+<img alt="Icône de l\'atelier Path" src=images/Workbench_Path.svg  style="width:128px;">
 
 
 {{TOCright}}
 
 ## Introduction
 
-
-<div class="mw-translate-fuzzy">
-
-L\'<img alt="" src=images/Workbench_Path.svg  style="width:24px;"> [atelier Path](Path_Workbench/fr.md) est utilisé pour produire les instructions machine pour les machines CNC [à commande numérique](https://fr.wikipedia.org/wiki/Programmation_de_commande_numérique) à partir d\'un modèle 3D FreeCAD. Celui-ci produit des objets 3D réels sur des machines CNC telles que des fraiseuses, des tours, des découpeuses laser ou similaires. Généralement, les instructions sont en langage [G-Code](https://fr.wikipedia.org/wiki/Programmation_de_commande_num%C3%A9rique).
-
-
-</div>
+L\'<img alt="" src=images/Workbench_Path.svg  style="width:24px;"> [atelier Path](Path_Workbench/fr.md) est utilisé pour produire les instructions machine pour les machines CNC [à commande numérique](https://fr.wikipedia.org/wiki/Programmation_de_commande_numérique) à partir d\'un modèle 3D FreeCAD. Celui-ci produit des objets 3D réels sur des machines CNC telles que des fraiseuses, des tours, des découpeuses laser ou similaires. Généralement, les instructions sont en langage [G-code](https://fr.wikipedia.org/wiki/Programmation_de_commande_num%C3%A9rique#Fonctions_pr%C3%A9paratoires_G). Un [exemple général de simulation de séquence de parcours d\'outils CNC](https://www.ange-softs.com/SIMULCNCHTML/index.html) est présenté ici.
 
 <img alt="" src=images/pathwb.png  style="width:600px;">
 
-
-<div class="mw-translate-fuzzy">
-
 Le flux de travail de l\'atelier Path FreeCAD crée ces instructions machine comme suit :
 
--   Un modèle 3D est l\'objet de base, généralement créé à l\'aide d\'un ou plusieurs des ateliers [Part Design](PartDesign_Workbench/fr.md), [Part](Part_Workbench/fr.md) ou [Draft](Draft_Module/fr.md).
--   Un [Travail (Tâche)](Path_Job/fr.md) est créé dans l\'atelier Path. Celui-ci contient toutes les informations nécessaires pour générer le G-Code nécessaire pour traiter l\'usinage sur une fraiseuse CNC : il y a le brut de matière (le stock), le [magasin d\'outils](Path_ToolLibraryEdit/fr.md) et il suit certaines commandes contrôlant la vitesse et les mouvements (généralement en G-Code).
--   Les outils sont sélectionnés comme requis par les opérations d\'usinage.
--   Les parcours de l\'outil de fraisage sont créés en utilisant par ex. des opérations de [Contournage](Path_Profile/fr.md) et [Poche](Path_Pocket_3D/fr.md). Ces [objets Parcours d\'usinage](Path_objects/fr.md) utilisent le langage G-Code interne à FreeCAD, indépendant de la machine CNC.
--   Le travail est exporté en G-Code, correspondant à votre machine. Cette étape s\'appelle *post-traitement*. Il y a différents post-processeurs disponibles.
-
-
-</div>
-
-## General concepts 
-
-
-<div class="mw-translate-fuzzy">
+-   Un modèle 3D est l\'objet de base, généralement créé à l\'aide d\'un ou plusieurs des ateliers <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Part Design](PartDesign_Workbench/fr.md), <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part](Part_Workbench/fr.md) ou <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft](Draft_Workbench/fr.md).
+-   Un [Path Tâche](Path_Job/fr.md) est créée dans l\'atelier Path. Celui-ci contient toutes les informations nécessaires pour générer le G-code nécessaire pour traiter l\'usinage sur une fraiseuse CNC : il y a le brut de matière (le stock), le [magasin d\'outils](Path_ToolLibraryEdit/fr.md) et il suit certaines commandes contrôlant la vitesse et les mouvements (généralement en G-code).
+-   Les [Path Outils](Path_Tools/fr.md) sont sélectionnés comme requis par les opérations d\'usinage.
+-   Les parcours de l\'outil de fraisage sont créés en utilisant par ex. des opérations de [Contournage](Path_Profile/fr.md) et [Poche](Path_Pocket_3D/fr.md). Ces objets Path utilisent le langage G-code interne à FreeCAD, indépendant de la machine CNC.
+-   Le travail est exporté en G-code, correspondant à votre machine. Cette étape s\'appelle *post-traitement*. Il y a différents post-processeurs disponibles.
 
 ## Concepts généraux 
 
-L\'atelier Path génère le G-Code définissant les parcours d\'outils requis pour fabriquer le projet représenté par le modèle 3D sur la fraiseuse cible en [Format G-Code interne de FreeCAD](Path_scripting/fr#Le_Format_G-Code_interne_de_FreeCAD.md), qui est ensuite traduit dans le langage approprié pour le contrôleur CNC cible en sélectionnant le Post processeur approprié.
+L\'atelier Path génère le G-Code définissant les parcours d\'outils requis pour fabriquer le projet représenté par le modèle 3D sur la fraiseuse cible en [Format G-code interne de FreeCAD](Path_scripting/fr#Le_Format_G-code_interne_de_FreeCAD.md), qui est ensuite traduit dans le langage approprié pour le contrôleur CNC cible en sélectionnant le Post processeur approprié.
 
-Le G-Code est généré à partir des directives et des opérations contenues dans un Travail (Tâche) Path. Le Flux de travail des tâches les répertorie dans l\'ordre dans lequel elles seront exécutées. La liste est remplie en ajoutant des opérations Path, des optimisations Path, des commandes partielles Path, et des modifications Path à partir du menu Path, ou des boutons d\'interface graphique.
+Le G-code est généré à partir des directives et des opérations contenues dans un Path Tâche. Le déroulement des tâches les répertorie dans l\'ordre desquelles elles seront exécutées. La liste est complétée en ajoutant des opérations, des habillages, des commandes supplémentaires de chemins et des modifications à partir du menu Path ou par les boutons de l\'interface graphique.
 
-
-</div>
-
-The G-code is generated from directives and Operations contained in a Path Job. The Job Workflow lists these in the order they will be executed. The list is populated by adding Path Operations, Path Dressups, Path Supplemental Commands, and Path Modifications from the Path Menu, or GUI buttons.
-
-
-<div class="mw-translate-fuzzy">
-
-L\'atelier Path fournit des outils de gestion (bibliothèque, table d\'outils), d\'inspection de G-Code et de simulation. Il relie le Post processeur et permet d\'importer et d\'exporter des modèles de Tâches.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+L\'atelier Path fournit des outils de gestion (bibliothèque, table d\'outils), d\'inspection de G-code et de simulation. Il relie le Post processeur et permet d\'importer et d\'exporter des modèles de Tâches.
 
 L\'atelier Path possède des dépendances externes, notamment :
 
-1.  Les unités du modèle 3D FreeCAD sont définies dans les paramètres **Édition → Préférences → Général → Onglet Unités Réglage des unités**. La configuration du Post processeur définit les unités G-Code finales.
+1.  Les unités du modèle 3D FreeCAD sont définies dans les paramètres **Édition → Préférences → Général → Onglet Unités Réglage des unités**. La configuration du Post processeur définit les unités G-code finales.
 2.  Le chemin du fichier Macro et les tolérances géométriques sont définis dans l\'onglet **Édition → Préférences → Path → Job Préférences**.
 3.  Les couleurs sont définies dans l\'onglet **Édition → Préférences → Path → Couleurs de chemin**.
 4.  Les paramètres des éléments de maintien sont définis dans l\'onglet **Édition → Préférences → Path → Trajectoires additionnelles (Dressups)**.
 5.  Pour que la qualité du modèle 3D de base respecte les exigences de l\'atelier Path, utilisez Vérifier la géométrie.
-
-
-</div>
 
 ## Limitations
 
@@ -106,423 +74,148 @@ Path Inspection :
 
 1.  Si vous utilisez l\'outil Path Inspect pour regarder le g-code, vous le verrez en \'mm/s\' car il n\'est pas post-traité
 
-## Heights and depths 
+## Hauteurs et profondeurs 
 
-
-<div class="mw-translate-fuzzy">
-
-## Commandes Path 
-
-De nombreuses commandes ont différentes hauteurs et profondeurs : <img alt="" src=images/Path-DepthsAndHeights.gif  style="width:500px;"> 
-*Référence visuelle pour les propriétés de profondeur (paramètres)*
-
-
-</div>
+De nombreuses commandes ont différentes hauteurs et profondeurs :
 
 <img alt="" src=images/Path-DepthsAndHeights.gif  style="width:500px;"> 
-*Visual reference for Depth properties (settings)*
+*Référence visuelle pour les propriétés de profondeur (paramètres)*
 
-## Commands
+## Commandes
 
-Some commands are experimental and not available by default. To enable them see [Path experimental](Path_experimental.md).
+Certaines commandes sont expérimentales et ne sont pas disponibles par défaut. Pour les activer, voir [Path Fonctions expérimentales](Path_experimental/fr.md).
 
-### Project Commands 
+### Commandes du projet 
 
+-   <img alt="" src=images/Path_Job.svg  style="width:32px;"> [Tâche](Path_Job/fr.md) : Crée une nouvelle tâche CNC.
 
-<div class="mw-translate-fuzzy">
+-   <img alt="" src=images/Path_Post.svg  style="width:32px;"> [Post-traitement](Path_Post/fr.md) : Exporte un projet en G-code.
 
--   <img alt="" src=images/Path_Job.svg  style="width:32px;"> [Tâche](Path_Job/fr.md) : Crée une nouvelle tâche CNC
+-   <img alt="" src=images/Path_Sanity.svg  style="width:32px;"> [Rechercher des erreurs](Path_Sanity/fr.md) : Vérifie les valeurs manquantes dans la tâche sélectionnée. [**Fonctions expérimentales**](Path_experimental/fr.md). {{Version/fr|0.19}}
 
+-   <img alt="" src=images/Path_ExportTemplate.svg  style="width:32px;"> [Exporter comme modèle](Path_ExportTemplate/fr.md) : Exporte la tâche en cours en tant que modèle.
 
-</div>
+### Commandes d\'outils 
 
+-   <img alt="" src=images/Path_Inspect.svg  style="width:32px;"> [Inspecteur G-code](Path_Inspect/fr.md): Affiche le G-code pour vérification.
 
-<div class="mw-translate-fuzzy">
+-   <img alt="" src=images/Path_Simulator.svg  style="width:32px;"> [Simulateur d\'usinage](Path_Simulator/fr.md) : Montre l\'opération d\'usinage comme le ferait la machine.
 
--   <img alt="" src=images/Path_PostProcess.svg  style="width:32px;"> [Post Processeur](Path_Post/fr.md) : Exporte un projet en G-code
+-   <img alt="" src=images/Path_SelectLoop.svg  style="width:32px;"> [Terminer une boucle](Path_SelectLoop/fr.md) : Complète une boucle à partir de deux arêtes sélectionnées.
 
+-   <img alt="" src=images/Path_OpActiveToggle.svg  style="width:32px;"> [Activation de l\'opération](Path_OpActiveToggle/fr.md) : Utilisé pour activer ou désactiver une opération d\'usinage.
 
-</div>
+-   <img alt="" src=images/Path_ToolBitLibraryOpen.svg  style="width:32px;"> [Gestionnaire des outils](Path_ToolBitLibraryOpen/fr.md) : Ouvre un éditeur pour gérer les bibliothèques des outils. {{Version/fr|0.19}}
 
+-   <img alt="" src=images/Path_ToolBitDock.svg  style="width:32px;"> [Menu déroulant des outils](Path_ToolBitDock/fr.md) : Active le menu déroulant des outils. {{Version/fr|0.19}}
 
-<div class="mw-translate-fuzzy">
+### Opérations de base 
 
--   <img alt="" src=images/Path_Sanity.svg  style="width:32px;"> [Rechercher les erreurs](Path_Sanity/fr.md) : Vérifie le travail sélectionné pour les valeurs manquantes.
+-   <img alt="" src=images/Path_Profile.svg  style="width:32px;"> [Profilage](Path_Profile/fr.md) : crée une opération de profil de l\'ensemble du modèle ou à partir d\'une ou plusieurs faces ou arêtes sélectionnées. {{Version/fr|0.19}}
 
+-   <img alt="" src=images/Path_Pocket_Shape.svg  style="width:32px;"> [Poche](Path_Pocket_Shape/fr.md) : Crée une opération de poche à partir d\'une ou de plusieurs poches sélectionnées.
 
-</div>
+-   <img alt="" src=images/Path_Drilling.svg  style="width:32px;"> [Perçage](Path_Drilling/fr.md) : Effectue un cycle de perçage.
 
+-   <img alt="" src=images/Path_Face.svg  style="width:32px;"> [Surfaçage](Path_MillFace/fr.md) : Crée un parcours de surfaçage.
 
-<div class="mw-translate-fuzzy">
+-   <img alt="" src=images/Path_Helix.svg  style="width:32px;"> [Helix](Path_Helix/fr.md) : Crée un parcours hélicoïdal.
 
--   <img alt="" src=images/Path_ExportTemplate.svg  style="width:32px;"> [Exporte comme Modèle](Path_ExportTemplate/fr.md) : Exportez le travail en cours en tant que modèle
+-   <img alt="" src=images/Path_Adaptive.svg  style="width:32px;"> [Adaptation](Path_Adaptive/fr.md) : Crée une opération adaptatif de compensation et de profilage.
 
+-   <img alt="" src=images/Path_Slot.svg  style="width:32px;"> [Rainure](Path_Slot/fr.md) : crée une opération de rainurage à partir d\'entités sélectionnées ou de points personnalisés. [**Fonctions expérimentales**](Path_experimental/fr.md). {{Version/fr|0.19}}
 
-</div>
+-   <img alt="" src=images/Path_Engrave.svg  style="width:32px;"> [Gravure](Path_Engrave/fr.md) : Crée un parcours de gravure.
 
-### Tool Commands 
+-   <img alt="" src=images/Path_Vcarve.svg  style="width:32px;"> [Vcarve](Path_Vcarve/fr.md) : Crée un parcours d\'usinage en utilisant une forme d\'outil en V. {{Version/fr|0.19}}
 
+### Opérations 3D 
 
-<div class="mw-translate-fuzzy">
+-   <img alt="" src=images/Path_3DPocket.svg  style="width:32px;"> [Poche 3D](Path_Pocket_3D/fr.md) : Crée un parcours d\'usinage pour une poche 3D.
 
--   <img alt="" src=images/Path_Inspect.svg  style="width:32px;"> [Inspecteur de G-Code ](Path_Inspect/fr.md): Affiche le G-Code pour vérification
+-   <img alt="" src=images/Path_Surface.svg  style="width:32px;"> [Surface 3D](Path_Surface/fr.md) : Crée un parcours d\'usinage pour une surface 3D. [**Fonctions expérimentales**](Path_experimental/fr.md). {{Version/fr|0.19}}
 
+-   <img alt="" src=images/Path_Waterline.svg  style="width:32px;"> [Contour par lignes de niveau](Path_Waterline/fr.md) : Crée un tracé défini par lignes de niveau pour une surface 3D. [**Fonctions expérimentales**](Path_experimental/fr.md). {{Version/fr|0.19}}
 
-</div>
+### Habillage de parcours 
 
+-   <img alt="" src=images/Path_DressupPathBoundary.svg  style="width:32px;"> [Habillage des limites](Path_DressupPathBoundary/fr.md) : Ajoute une modification d\'habillage des limites à un parcours d\'usinage sélectionné.
 
-<div class="mw-translate-fuzzy">
+-   <img alt="" src=images/Path_DressupDogbone.svg  style="width:32px;"> [Dégagement des angles](Path_DressupDogbone/fr.md) : Ajoute une modification pour l\'usinage des coins à un parcours d\'usinage sélectionné.
 
--   <img alt="" src=images/Path_Simulator.svg  style="width:32px;"> [Simulateur d\'usinage](Path_Simulator/fr.md) : Montre l\'opération de fraisage comme sur la machine
+-   <img alt="" src=images/Path_DressupDragKnife.svg  style="width:32px;"> [Habillage pour lame rotative](Path_DressupDragKnife/fr.md) : Ajoute une habillage pour lame rotative à un parcours d\'usinage sélectionné.
 
+-   <img alt="" src=images/Path_DressupLeadInOut.svg  style="width:32px;"> [Point d\'entrée\_sortie](Path_DressupLeadInOut/fr.md) : Ajoute un point d\'entrée et/ou de sortie à un parcours d\'usinage sélectionné.
 
-</div>
+-   <img alt="" src=images/Path_DressupRampEntry.svg  style="width:32px;"> [Rampe d\'entrée](Path_DressupRampEntry/fr.md) : Ajoute une rampe d\'entrée d\'usinage à un parcours d\'usinage sélectionné.
 
+-   <img alt="" src=images/Path_DressupTag.svg  style="width:32px;"> [Languettes de maintien](Path_DressupTag/fr.md) : Ajoute une languette de maintien à un parcours d\'usinage sélectionné.
 
-<div class="mw-translate-fuzzy">
+### Commandes supplémentaires 
 
--   <img alt="" src=images/Path_SelectLoop.svg  style="width:32px;"> [Terminer une boucle](Path_SelectLoop/fr.md) : Complète une boucle à partir de deux arêtes sélectionnées
+-   <img alt="" src=images/Path_Fixture.svg  style="width:32px;"> [Point de fixation](Path_Fixture/fr.md) : Change la position du point de fixation.
 
+-   <img alt="" src=images/Path_Comment.svg  style="width:32px;"> [Commentaire](Path_Comment/fr.md) : Insère un commentaire dans le G-code d\'un parcours d\'outil.
 
-</div>
+-   <img alt="" src=images/Path_Stop.svg  style="width:32px;"> [Stop](Path_Stop/fr.md) : Insère un arrêt complet de la machine.
 
+-   <img alt="" src=images/Path_Custom.svg  style="width:32px;"> [Personnaliser](Path_Custom/fr.md) : Insère un G-code personnalisé.
 
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Path_OpActiveToggle.svg  style="width:32px;"> [Activation d\'opération](Path_OpActiveToggle/fr.md) : Utilisé pour activer ou désactiver une opération d\'usinage
-
-
-</div>
-
--   <img alt="" src=images/Path_ToolBitLibraryOpen.svg  style="width:32px;"> [ToolBit Library editor](Path_ToolBitLibraryOpen.md): Opens an editor to manage ToolBit libraries. <small>(v0.19)</small> 
-
--   <img alt="" src=images/Path_ToolBitDock.svg  style="width:32px;"> [ToolBit Dock](Path_ToolBitDock.md): Toggles the ToolBit Dock. <small>(v0.19)</small> 
-
-
-<div class="mw-translate-fuzzy">
-
-### Opérations de base de Path 
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Path_Profile.svg  style="width:32px;"> [Profile](Path_Profile/fr.md) (Nouveau dans la version 0.19) : crée une opération de profil de l\'ensemble du modèle, ou à partir d\'une ou plusieurs faces ou arêtes sélectionnées. Cette opération a combiné les opérations Contour, Faces de profil et Arêtes de profil préexistantes.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Path_Pocket.svg  style="width:32px;"> [Poche](Path_Pocket_Shape/fr.md) : Crée une opération de poche à partir d\'une ou de plusieurs poches sélectionnées
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Path_Drilling.svg  style="width:32px;"> [Perçage](Path_Drilling/fr.md) : Effectue un cycle de perçage
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Path_Face.svg  style="width:32px;"> [Surfaçage](Path_MillFace/fr.md) : Crée un parcours de surfaçage
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Path_Helix.svg  style="width:32px;"> [Helix](Path_Helix/fr.md) : Crée un parcours hélicoïdal
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Path_Adaptive.svg  style="width:32px;"> [Adaptation](Path_Adaptive/fr.md) : Crée une opération adaptative de compensation et de profilage
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Path_Slot.svg  style="width:32px;"> [Rainure](Path_Slot/fr.md) (Nouveau dans la version 0.19) : crée une opération de rainurage à partir d\'entités sélectionnées ou de points personnalisés.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Path_Engrave.svg  style="width:32px;"> [Gravure](Path_Engrave/fr.md) : Crée un parcours de gravure
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Path_Vcarve.svg  style="width:32px;"> [Vcarve](Path_Vcarve/fr.md) : Crée un parcours d\'usinage pour une poche 3D
-
-
-</div>
-
-### 3D Operations 
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Path_3DPocket.svg  style="width:32px;"> [Poche 3D](Path_Pocket_3D/fr.md) : Crée un parcours d\'usinage pour une poche 3D
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Path_3DSurface.svg  style="width:32px;"> [Surface 3D](Path_3DSurface/fr.md) : Crée un parcours d\'usinage pour une surface 3D (expérimental, 0.19).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Path_Waterline.svg  style="width:32px;"> [Contour par lignes de niveau](Path_Waterline/fr.md) : Crée un tracé défini par lignes de niveau pour une surface 3D (experimental, 0.19)
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-### Habillage Path 
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Path_DressupPathBoundary.svg  style="width:32px;"> [Habillage des limites](Path_DressupPathBoundary/fr.md) : Ajoute une modification d\'habillage des limites à un chemin sélectionné
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Path_DressupDogbone.svg  style="width:32px;"> [Usinage des coins](Path_DressupDogbone/fr.md) : Ajoute une modification pour l\'usinage des coins à un parcours d\'usinage sélectionné
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Path_DressupDragKnife.svg  style="width:32px;"> [Parcours de couteau](Path_DressupDragKnife/fr.md) : Ajoute une modification de parcours de couteau à un parcours d\'usinage sélectionné
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Path_DressupLeadInOut.svg  style="width:32px;"> [Point d\'entrée/sortie](Path_DressupLeadInOut/fr.md) : Ajoute un point d\'entrée et/ou de sortie à un parcours d\'usinage sélectionné
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Path_DressupRampEntry.svg  style="width:32px;"> [Rampe d\'entrée](Path_DressupRampEntry/fr.md) : Ajoute une rampe d\'entrée d\'usinage à un parcours d\'usinage sélectionné
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Path_DressupTag.svg  style="width:32px;"> [Balise d\'attache](Path_DressupTag/fr.md) : Ajoute une balise pour une attache de maintien à un parcours d\'usinage sélectionné
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-### Commandes particulières 
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Path_Fixture.svg  style="width:32px;"> [Point de fixation](Path_Fixture/fr.md) : Change la position du point de fixation
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Path_Comment.svg  style="width:32px;"> [Commentaire](Path_Comment/fr.md) : Insère un commentaire dans le G-code d\'un parcours d\'outil
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Path_Stop.svg  style="width:32px;"> [Stop](Path_Stop/fr.md) : Insère un arrêt complet de la machine
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Path_Custom.svg  style="width:32px;"> [Personnaliser](Path_Custom/fr.md) : Insère un G-code personnalisé
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Path_Shape.svg  style="width:32px;"> [G-code à partir d\'une forme](Path_Shape/fr.md) : Crée un objet parcours d\'usinage à partir d\'un objet Pièce sélectionné
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+-   <img alt="" src=images/Path_Shape.svg  style="width:32px;"> [Parcours à partir de formes](Path_Shape/fr.md) : Crée un objet parcours d\'usinage à partir d\'un objet Part sélectionné. [**Fonctions expérimentales**](Path_experimental/fr.md). {{Version/fr|0.19}}
 
 ### Modification du parcours d\'usinage 
 
+-   <img alt="" src=images/Path_Copy.svg  style="width:32px;"> [Copie opération](Path_Copy/fr.md) : Crée une copie paramétrique d\'un objet parcours sélectionné.
 
-</div>
+-   <img alt="" src=images/Path_Array.svg  style="width:32px;"> [Réseau](Path_Array/fr.md) : Crée une copie en réseau en dupliquant un parcours sélectionné.
 
+-   <img alt="" src=images/Path_SimpleCopy.svg  style="width:32px;"> [Copie simple](Path_SimpleCopy/fr.md) : Crée une copie non paramétrique d\'un objet parcours sélectionné.
 
-<div class="mw-translate-fuzzy">
+### Divers
 
--   <img alt="" src=images/Path_Copy.svg  style="width:32px;"> [Copier](Path_Copy/fr.md) : Crée une copie paramétrique d\'un objet parcours sélectionné
+-   <img alt="" src=images/Path_Area.svg  style="width:32px;"> [Zone d\'usinage](Path_Area/fr.md) : Crée une zone d\'usinage à partir d\'objets sélectionnés. [**Fonctions expérimentales**](Path_experimental/fr.md).
 
+-   <img alt="" src=images/Path_Area_Workplane.svg  style="width:32px;"> [Zone de travail plane](Path_Area_Workplane/fr.md) : Crée une zone d\'usinage plane. [**Fonctions expérimentales**](Path_experimental/fr.md).
 
-</div>
+### Obsolète
 
+-   <img alt="" src=images/Path_ToolLibraryEdit.svg  style="width:32px;"> [Gestionnaire d\'outils](Path_ToolLibraryEdit/fr.md) : Modifier le gestionnaire d\'outils. Système d\'outils \'historiques\'. {{VersionMinus/fr|0.18}}
 
-<div class="mw-translate-fuzzy">
+## Architecture ToolBit 
 
--   <img alt="" src=images/Path_Array.svg  style="width:32px;"> [Copie en réseau](Path_Array/fr.md) : Crée une copie en réseau en dupliquant un parcours sélectionné
+Gestion des outils, des forets et de la bibliothèque d\'outils. Basé sur l\'architecture ToolBit. {{Version/fr|0.19}}
 
+-   [Path Outils](Path_Tools/fr.md)
+-   [Path Forme de l\'outil](Path_ToolShape/fr.md)
+-   [Path Outil rapporté](Path_ToolBit/fr.md)
+-   [Path Bibliothèque outils rapportés](Path_ToolBit_Library/fr.md)
+-   [Path Contrôleur d\'outil](Path_ToolController/fr.md)
 
-</div>
+## Autre
 
+-   [Path FAQ](Path_FAQ/fr.md) : L\'atelier Path partage de nombreux concepts avec d\'autres logiciels de FAO mais possède ses propres particularités. Si quelque chose ne va pas, c\'est un bon point de départ.
+-   [Path Feuille de configuration](Path_SetupSheet/fr.md) : Vous pouvez utiliser une Feuille de configuration pour personnaliser la façon dont les diverses valeurs de propriété pour les opérations sont calculées.
+-   [Path Personnalisation du postprocesseur](Path_Postprocessor_Customization/fr.md) : Si vous avez une machine spéciale qui ne peut pas utiliser l\'un des post-processeurs disponibles, vous pouvez avoir besoin d\'écrire votre propre post-processeur.
+-   [Path Quatrième axe](Path_fourth_axis/fr.md) : Fraisage expérimental sur quatre axes.
+-   [Path Feuille de route du développement](Path_Development_Roadmap/fr.md) : Lisez cette page si vous êtes un développeur et que vous voulez contribuer à Path.
 
-<div class="mw-translate-fuzzy">
+## Préférences
 
--   <img alt="" src=images/Path_SimpleCopy.svg  style="width:32px;"> [Copie Simple](Path_SimpleCopy/fr.md) : Crée une copie non paramétrique d\'un objet parcours sélectionné
-
-
-</div>
-
-### Miscellaneous
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Path_Area.svg  style="width:32px;"> [Zone d\'usinage](Path_Area/fr.md) : Crée une zone d\'usinage à partir d\'objets sélectionnés. En cours.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Path_Area_Workplane.svg  style="width:32px;"> [Zone de travail plane](Path_Area_Workplane/fr.md) : Crée une zone d\'usinage plane. En cours.
-
-
-</div>
-
-### Obsolete
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Path_ToolLibraryEdit.svg  style="width:32px;"> [Gestionnaire d\'outils](Path_ToolLibraryEdit/fr.md) : Modifier le gestionnaire d\'outils
-
-
-</div>
-
-## ToolBit architecture 
-
-Manage tools, bits, and the Tool Library. Based on the ToolBit architecture. <small>(v0.19)</small> 
-
--   [Path Tools](Path_Tools.md)
--   [Path ToolShape](Path_ToolShape.md)
--   [Path ToolBit](Path_ToolBit.md)
--   [Path ToolBit Library](Path_ToolBit_Library.md)
--   [Path ToolController](Path_ToolController.md)
-
-## Other
-
-
-<div class="mw-translate-fuzzy">
-
-L\'atelier Path partage de nombreux concepts avec d\'autres progiciels de FAO, mais possède ses propres particularités. Si quelque chose ne va pas, c\'est peut-être un bon point de départ.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-### Préférences
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Std_DlgPreferences.svg  style="width:32px;"> [Préférences\...](Draft_Preferences/fr.md): Préférences disponibles dans Path Outils.
-
-
-</div>
+-   <img alt="" src=images/Preferences-path.svg  style="width:32px;"> [Préférences\...](Path_Preferences/fr.md): Préférences disponibles dans l\'atelier Path.
 
 ## Script
 
-
-<div class="mw-translate-fuzzy">
-
 Voir la page [Path Ecrire un script](Path_scripting/fr.md).
 
+## Tutoriels
 
-</div>
+-   [Tutoriel Path, pas à pas pour l\'impatient](Path_Walkthrough_for_the_Impatient/fr.md) : un tutoriel rapide pour se familiariser avec Path.
 
-## Tutorials
+## Vidéos
 
--   [Path Walkthrough for the Impatient](Path_Walkthrough_for_the_Impatient.md): a quick tutorial to get familiar with Path.
-
-## Videos
-
--   [FreeCAD Path: Custom paths with Python - Part 1 - 5](https://www.youtube.com/playlist?list=PLEuOia-QxyFKgzAeTyH62GKqWKVURiWJL): a playlist with a series of 5 videos in English by sliptonic. This series shows how to work with the [Path Workbench](Path_Workbench.md).
--   [FreeCAD CAM Path Workbench](https://www.youtube.com/playlist?list=PLUrr_kHPp4vhGdLlj6IemtF-OPUlRvSTC): a playlist with a series of 7 videos in English by CAD CAM Lessons.
--   [FreeCAD CAM CNC](https://www.youtube.com/playlist?list=PLUrr_kHPp4vh2n6DcIlegK4dEKIFjmISJ) a playlist with a series of 8 videos in English by CAD CAM Lessons.
+-   [FreeCAD Path : Custom paths with Python - Part 1 - 5](https://www.youtube.com/playlist?list=PLEuOia-QxyFKgzAeTyH62GKqWKVURiWJL) : une playlist avec une série de 5 vidéos en anglais par sliptonic. Cette série montre comment travailler avec l\'[atelier Path](Path_Workbench/fr.md).
+-   [FreeCAD CAM Path Workbench](https://www.youtube.com/playlist?list=PLUrr_kHPp4vhGdLlj6IemtF-OPUlRvSTC) : une playlist avec une série de 7 vidéos en anglais par CAD CAM Lessons.
+-   [FreeCAD CAM CNC](https://www.youtube.com/playlist?list=PLUrr_kHPp4vh2n6DcIlegK4dEKIFjmISJ) : une playlist avec une série de 8 vidéos en anglais par CAD CAM Lessons.
 
 
 
@@ -532,4 +225,4 @@ Voir la page [Path Ecrire un script](Path_scripting/fr.md).
 
 }} 
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

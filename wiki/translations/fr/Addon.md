@@ -1,3 +1,5 @@
+# Addon/fr
+
 
 
 ## Introduction
@@ -35,4 +37,4 @@ Cependant, une installation manuelle est toujours possible.
 
 
 
-[Category:Addons{{\#translation:}}](Category:Addons.md)
+[Category:Addons](Category:Addons.md)

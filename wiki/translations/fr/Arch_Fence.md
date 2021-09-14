@@ -18,7 +18,7 @@ L\'outil [Arch Clôture](Arch_Fence/fr.md) est un objet qui construit une clôtu
 ### Création à partir de zéro 
 
 1.  Utilisez un atelier de votre choix pour créer un seul poteau de clôture et une seule section.
-2.  Créez le chemin que la clôture doit suivre à l\'aide de l\'[atelier Sketcher](Sketcher_Workbench/fr.md) ou de l\'[atelier Draft](Draft_Module/fr.md).
+2.  Créez le chemin que la clôture doit suivre à l\'aide de l\'[atelier Sketcher](Sketcher_Workbench/fr.md) ou de l\'[atelier Draft](Draft_Workbench/fr.md).
 3.  Revenez à l\'[atelier Arch](Arch_Workbench/fr.md).
 4.  Sélectionnez la section, la publication et le chemin dans exactement cet ordre.
 5.  Appuyez sur le bouton **<img src="images/Arch_Fence.svg" width=16px>[Créer un objet clôture...](Arch_Fence/fr.md)**.
@@ -62,7 +62,7 @@ L\'outil Clôture peut être utilisé dans une [macro](Macros/fr.md) et à parti
 Fence = buildFence(section, post, path)
 ```
 
-Exemple.
+Exemple :
 
 
 ```python

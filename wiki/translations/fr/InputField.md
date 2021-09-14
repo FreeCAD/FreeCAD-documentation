@@ -1,4 +1,6 @@
- {{UnfinishedDocu}}
+# InputField/fr
+
+ }
 
 Il s\'agit de la documentation du widget **InputField** de FreeCAD qui est utilisé dans la plupart des boîtes de dialogues des paramètres pour les unités.
 
@@ -6,4 +8,4 @@ ToDo\...
 
 
 
-[Category:Developer{{\#translation:}}](Category:Developer.md)
+[Category:Developer](Category:Developer.md)

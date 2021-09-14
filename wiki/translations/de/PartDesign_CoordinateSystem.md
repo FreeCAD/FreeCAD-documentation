@@ -24,7 +24,13 @@ Erzeugt ein **lokales Koordinatensystem**, welches als Referenz für andere Bezu
 
 ## Optionen
 
+
+<div class="mw-translate-fuzzy">
+
 Mit einem Doppelklick auf den Eintrag DatumPlane in der Baumstruktur oder durch einen Rechtsklick und Auswählen von **Bezug ändern** in dem Kontextmenü können die Einstellungen der Bezugsebene geändert werden. Mehr Details zum Befestigungsmodus und dem Befestigungsversatz gibt es in [Attachment](Part_Attachment/de.md).
+
+
+</div>
 
 ## Eigenschaften
 

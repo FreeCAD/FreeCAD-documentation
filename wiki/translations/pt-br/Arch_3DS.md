@@ -1,3 +1,5 @@
+# Arch 3DS/pt-br
+
 
 
 
@@ -18,7 +20,7 @@ The Arch Workbench supports importing [3DS](https://en.wikipedia.org/wiki/.3ds) 
 {{docnav/pt-br
 |
 |[DAE](Arch_DAE/pt-br.md)
-|[Arch Module](Arch_Module/pt-br.md)
+|[Arch Module](Arch_Workbench/pt-br.md)
 }}
 
 
@@ -27,4 +29,4 @@ The Arch Workbench supports importing [3DS](https://en.wikipedia.org/wiki/.3ds) 
 
  
 
-[Category:User Documentation{{\#translation:}}](Category:User_Documentation.md) [Category:Arch{{\#translation:}}](Category:Arch.md) [Category:File Formats{{\#translation:}}](Category:File_Formats.md)
+[Category:User Documentation](Category:User_Documentation.md) [Category:Arch](Category:Arch.md) [Category:File Formats](Category:File_Formats.md)

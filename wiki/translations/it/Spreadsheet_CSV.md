@@ -1,3 +1,5 @@
+# Spreadsheet CSV/it
+
 
 
 
@@ -35,4 +37,4 @@ Esportando un oggetto [spreadsheet](Spreadsheet_Create/it.md) in un file .csv fi
 
  
 
-[Category:User\_Documentation{{\#translation:}}](Category:User_Documentation.md) [Category:Spreadsheet{{\#translation:}}](Category:Spreadsheet.md) [Category:File\_Formats{{\#translation:}}](Category:File_Formats.md)
+[Category:User\_Documentation](Category:User_Documentation.md) [Category:Spreadsheet](Category:Spreadsheet.md) [Category:File\_Formats](Category:File_Formats.md)

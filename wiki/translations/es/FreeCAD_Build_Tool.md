@@ -1,3 +1,5 @@
+# FreeCAD Build Tool/es
+
 
 
 
@@ -98,4 +100,4 @@ El comando \"CM\" [crea un nuevo módulo de aplicación](Module_Creation/es.md).
 
  
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md)

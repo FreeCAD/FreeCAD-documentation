@@ -1,5 +1,11 @@
 ---
-- GuiCommand:/es   Name:Draft_Text   Workbenches:[Arquitectura](Draft_Module/es___Croquis]],_[[Arch_Module/es.md)|MenuLocation:Croquis → Texto   Shortcut:T E---
+- GuiCommand:/es
+   Name:Draft_Text
+   Name/es:Draft_Text
+   MenuLocation:Croquis → Texto
+   Workbenches:[Croquis](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
+   Shortcut:**T** **E**
+---
 
 
 </div>

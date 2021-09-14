@@ -1,3 +1,5 @@
+# Dialog creation with various widgets/de
+
 
 
 ## Einführung
@@ -399,4 +401,4 @@ Die Code-Seite und die Piktogramme [Qt\_Beispiel](Qt_Example/de.md)
 
 }} 
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Python Code{{\#translation:}}](Category:Python_Code.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)

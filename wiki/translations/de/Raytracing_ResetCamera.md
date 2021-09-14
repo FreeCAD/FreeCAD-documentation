@@ -10,9 +10,19 @@
 
 </div>
 
+## Description
+
+
+<div class="mw-translate-fuzzy">
+
 ## Beschreibung
 
 Setzt die Kamera des ausgewählten Raytracingprojekts auf die aktuelle Ansicht.
+
+
+</div>
+
+## Usage
 
 
 <div class="mw-translate-fuzzy">
@@ -57,4 +67,4 @@ Setzt die Kamera des ausgewählten Raytracingprojekts auf die aktuelle Ansicht.
 
 {{Raytracing_Tools_navi
 
-}}  
+}} 

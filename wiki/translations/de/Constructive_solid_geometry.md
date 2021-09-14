@@ -1,3 +1,5 @@
+# Constructive solid geometry/de
+
  {{TOCright}}
 
 ## Einführung
@@ -35,4 +37,4 @@ Die [Tutorien](tutorials/de.md) Seite stellt einige Beispiele zur Erstellung von
 
  
 
-[Category:Common Questions{{\#translation:}}](Category:Common_Questions.md)
+[Category:Common Questions](Category:Common_Questions.md)

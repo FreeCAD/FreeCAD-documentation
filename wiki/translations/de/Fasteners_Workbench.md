@@ -1,3 +1,5 @@
+# Fasteners Workbench/de
+
 
 
 <img alt="Arbeitsbereichssymbol Verbindungselemente" src=images/Fasteners_workbench_icon.svg  style="width:128px;">
@@ -66,19 +68,19 @@ Für eine detaillierte Beschreibung siehe [1](http://theseger.com/projects/2015/
 
 -   <img alt="" src=images/Fasteners_ChangeParameters.svg  style="width:32px;"> [Parameter der Verbindungselemente ändern](Fasteners_ChangeParameters/de.md): Parameter der ausgewählten Verbindungselemente ändern.
 
-### Befestigungselemente PEM und Leiterplatte 
+### Einpresselemente und Verbindungselemente für Leiterplatten 
 
--   <img alt="" src=images/Fasteners_PEMPressNut.svg  style="width:32px;"> **PEM** Einpressmutter metrisch.
+-   <img alt="" src=images/Fasteners_PEMPressNut.svg  style="width:32px;"> Einpressmutter metrisch.
 
--   <img alt="" src=images/Fasteners_PEMTHStandoff.svg  style="width:32px;"> **PEM** Einpressbuchse mit Gewinde metrisch.
+-   <img alt="" src=images/Fasteners_PEMTHStandoff.svg  style="width:32px;"> Einpressbuchse mit Gewinde metrisch.
 
--   <img alt="" src=images/Fasteners_PEMStud.svg  style="width:32px;"> **PEM** Einpressgewindebolzen metrisch.
+-   <img alt="" src=images/Fasteners_PEMStud.svg  style="width:32px;"> Einpressgewindebolzen metrisch.
 
--   <img alt="" src=images/Fasteners_PCBStandoff.svg  style="width:32px;"> **Leiterplatte** Abstandshalter Außen/Innen Metrisch.
+-   <img alt="" src=images/Fasteners_PCBStandoff.svg  style="width:32px;"> **Leiterplatten** Abstandshalter Außen/Innen Metrisch.
 
--   <img alt="" src=images/Fasteners_PCBSpacer.svg  style="width:32px;"> **Leiterplatte** Abstandshalter Innen/Innen Metrisch.
+-   <img alt="" src=images/Fasteners_PCBSpacer.svg  style="width:32px;"> **Leiterplatten** Abstandshalter Innen/Innen Metrisch.
 
-### Verbindungselemente DIN, EN und ISO 
+### DIN, EN und ISO Verbindungselemente 
 
 -   <img alt="" src=images/Fasteners_ISO4017.svg  style="width:32px;"> 
 **ISO 4017** Sechskantschrauben. *Produktklassen A und B.*
@@ -177,7 +179,7 @@ Für eine detaillierte Beschreibung siehe [1](http://theseger.com/projects/2015/
 
 -   <img alt="" src=images/Fasteners_DIN985.svg  style="width:32px;"> **DIN 985** Sechskantsicherungsmuttern mit Kunststoffring.
 
-### Fasteners ASME 
+### ASME Verbindungselemente 
 
 -   <img alt="" src=images/Fasteners_ASMEB18.2.1.6.svg  style="width:32px;"> **ASME B18.2.1.6** UNC Hex head screw.
 
@@ -215,19 +217,19 @@ Für eine detaillierte Beschreibung siehe [1](http://theseger.com/projects/2015/
 
 -   <img alt="" src=images/Fasteners_ASMEB18.21.1.12C.svg  style="width:32px;"> **ASME B18.21.1.12C** UN washer, wide series.
 
-### Sonstige Befestigungselemente 
+### Verschiedenes
 
--   <img alt="" src=images/Fasteners_ScrewTap.svg  style="width:32px;"> Arbitrary length threaded rod for tapping holes (metric).
+-   <img alt="" src=images/Fasteners_ScrewTap.svg  style="width:32px;"> Gewindestange beliebiger Länge für das Gewindeschneiden von Bohrungen (metrisch).
 
--   <img alt="" src=images/Fasteners_ScrewTapInch.svg  style="width:32px;"> Arbitrary length threaded rod for tapping holes (inch).
+-   <img alt="" src=images/Fasteners_ScrewTapInch.svg  style="width:32px;"> Gewindestange beliebiger Länge für das Gewindeschneiden von Bohrungen (Zoll).
 
--   <img alt="" src=images/Fasteners_ScrewDie.svg  style="width:32px;"> Arbitrary length threaded tube for cutting external threads (metric).
+-   <img alt="" src=images/Fasteners_ScrewDie.svg  style="width:32px;"> Gewinderohr beliebiger Länge zum Schneiden von Außengewinden (metrisch).
 
--   <img alt="" src=images/Fasteners_ScrewDieInch.svg  style="width:32px;"> Arbitrary length threaded tube for cutting external threads (inch).
+-   <img alt="" src=images/Fasteners_ScrewDieInch.svg  style="width:32px;"> Gewinderohr beliebiger Länge zum Schneiden von Außengewinden (Zoll).
 
--   <img alt="" src=images/Fasteners_ThreadedRod.svg  style="width:32px;"> Arbitrary length **DIN 975** threaded rod (metric).
+-   <img alt="" src=images/Fasteners_ThreadedRod.svg  style="width:32px;"> Gewindestange **DIN 975** beliebiger Länge (metrisch).
 
--   <img alt="" src=images/Fasteners_ThreadedRodInch.svg  style="width:32px;"> Arbitrary length **UNC** threaded rod (inch).
+-   <img alt="" src=images/Fasteners_ThreadedRodInch.svg  style="width:32px;"> Gewindestange beliebiger Länge **UNC** (Zoll).
 
 ## Andere
 
@@ -255,4 +257,4 @@ Für eine detaillierte Beschreibung siehe [1](http://theseger.com/projects/2015/
 
 
 
-[Category:Addons{{\#translation:}}](Category:Addons.md) [Category:External Command Reference{{\#translation:}}](Category:External_Command_Reference.md) [Category:External Workbenches{{\#translation:}}](Category:External_Workbenches.md) [Category:Fasteners{{\#translation:}}](Category:Fasteners.md)
+[Category:Addons](Category:Addons.md) [Category:External Command Reference](Category:External_Command_Reference.md) [Category:External Workbenches](Category:External_Workbenches.md) [Category:Fasteners](Category:Fasteners.md)

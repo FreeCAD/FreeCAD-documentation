@@ -1,4 +1,6 @@
-\_\_NOTOC\_\_  
+# Artwork Assembly
+
+  
 
 These icons are in the indicated source path.
 
@@ -20,4 +22,4 @@ For all icons in the source tree, see [Artwork](Artwork.md).
 
  
 
-[Category:Assembly{{\#translation:}}](Category:Assembly.md)
+[Category:Assembly](Category:Assembly.md)

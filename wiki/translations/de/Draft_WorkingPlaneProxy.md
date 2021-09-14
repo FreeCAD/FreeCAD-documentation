@@ -3,7 +3,7 @@
    Name:Draft WorkingPlaneProxy
    Name/de:Entwurf ArbeitsEbeneProxy
    MenuLocation:Entwurf → Dienstprogramme → Erstelle Arbeitsebenen Proxy
-   Workbenches:[Entwurf](Draft_Module/de.md), [Architektur](Arch_Module/de.md)
+   Workbenches:[Entwurf](Draft_Workbench/de.md), [Architektur](Arch_Workbench/de.md)
    SeeAlso:[Entwurf WähleEbene](Draft_SelectPlane/de.md)
 ---
 

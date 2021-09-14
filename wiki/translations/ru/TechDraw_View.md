@@ -24,7 +24,7 @@ View will try to draw anything with a `Shape` property. You can select [Draft](D
 
 ## Свойства
 
-### Data
+### Данные
 
 
 {{TitleProperty|Base}}
@@ -112,9 +112,9 @@ View will try to draw anything with a `Shape` property. You can select [Draft](D
 ## Программирование
 
 
-**See also:**
+**См. так же:**
 
-[TechDraw API](TechDraw_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+[TechDraw API](TechDraw_API/ru.md) и [Основы составления скриптов FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 
 The New View tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following functions:
 

@@ -1,3 +1,5 @@
+# Scripting and macros/de
+
 
 
 
@@ -31,12 +33,9 @@
     -   [Strahlverfolgung Skripten](Raytracing_API_exampl/dee.md) (**Der Arbeitsbereich Strahlverfolgung ist veraltet**)
     -   [Skizzierer Skripten](Sketcher_scripting/de.md)
 
-
-<div class="mw-translate-fuzzy">
-
 -   FeaturePython Objekte (auch \'geskriptete Objekte\' genannt):
-    -   [Erstellen eines FeaturePython Objekt Teil I](FeaturePython_Objects/de.md)
-    -   [Erstellen eines FeaturePython Objekt Teil II](Creating_a_FeaturePython_Box,_Part_II/de.md)
+    -   [Erstellen eines FeaturePython Objekt Teil I](Create_a_FeaturePython_object_part_I/de.md)
+    -   [Erstellen eines FeaturePython Objekt Teil II](Create_a_FeaturePython_object_part_II/de.md)
     -   [Gescriptete Objekte](Scripted_objects/de.md)
     -   [Gescriptete Objekte, die Attribute speichern](Scripted_objects_saving_attributes/de.md)
     -   [Migration geskripteter Objekte](Scripted_objects_migration/de.md)
@@ -44,10 +43,8 @@
     -   [Ansichtsanbieter](Viewprovider/de.md)
     -   [Benutzerdefiniertes Symbol in der Baumansicht](Custom_icon_in_tree_view/de.md)
     -   [Eigenschaften](Property/de.md)
+    -   [PropertyLink: InList und OutList](PropertyLink:_InList_and_OutList/de.md)
     -   [Methoden](FeaturePython_methods/de.md)
-
-
-</div>
 
 -   [3D Ansicht](3D_view/de.md):
     -   [Der Coin Szenegraph](Scenegraph/de.md)
@@ -99,4 +96,4 @@
 
 }} 
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Python Code{{\#translation:}}](Category:Python_Code.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)

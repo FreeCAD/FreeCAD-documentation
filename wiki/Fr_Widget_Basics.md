@@ -1,3 +1,5 @@
+# Fr Widget Basics
+
 This chapter teaches you the basics of Fr\_Widget toolkit
 
 ## Writing your first Fr\_Widget program 
@@ -36,7 +38,7 @@ Lets start creating a new drawing widget. This widget will draw a line and has a
 
 #### Part1:
 
-The class declaration of our new object:
+The class declaration for our new object:
 
 ```python
 class Fr_Line_Widget(fr_widget.Fr_Widget):
@@ -173,6 +175,79 @@ It has a direct connection to the fr\_draw library that provides the primitive d
 
 ```
 
-The function checks if we have got two vectors since the line needs two vectors. And after that it chooses the desired color based on the widgets status. Every widget needs to save the node to the widget and to the switch the widget has. The SoSwitch is to hide the widget when that is required. When the widget needs to redraw the whole drawing, first it removes the SoSeparator from the COIN3D scene graph and it should remove it from the widget also. And then it will recreate the whole thing again. that function is called redraw. The label is also drawn here. But we will talk about the labels later. But you need to call the draw\_label here.
+The function checks if we have got two vectors since the line needs two vectors. And after that it chooses the desired color based on the widgets status. Every widget needs to save the node to the widget and to the switch the widget has. The SoSwitch is to hide the widget when that is required. When the widget needs to redraw the whole drawing, first it removes the SoSeparator from the COIN3D scene graph and it should remove it from the widget also. And then it will recreate the whole thing again. that function is called redraw. The label is also drawn here. But we will talk about the labels later. But you need to call the draw\_label here. COIN3D drawings will be discussed in a separate page. Something to remember, draw your coin3d objects in the same way you draw in FreeCAD. Always make the default position (0,0,1). .i.e. the object should be drawn towards +Z axis. This is useful since when you apply rotation of other FreeCAD object your COIN object will take that direction without any problem. This is why my arrows (2d or 3D) are all located on the Z axis by default if you don\'t change them
+
+#### Part5:
+
+Widgets Label: Labels are necessary for the widget toolkit. For example the label for line widget can be used to show the length of the side the line is drawn for. It has also the call back mechanism so you can interact with the text shown on the screen. For our widget (Fr\_Line\_Widget) the label is drawn near to the beginning of the line ..i.e. near to the first Vertex. At the moment there is no alignment mechanism but that is in the todo list. This part will be updated later when that is implemented. Label drawings are collect in the file fr\_label\_draw.py. The text drawn is only 2D. There might be the need of making 3D text .. but this will/must come to the todo list. 
+```python
+    def draw_label(self,usedColor):
+        LabelData = fr_widget.propertyValues()
+        LabelData.linewidth = self.w_lineWidth
+        LabelData.labelfont = self.w_font
+        LabelData.fontsize = self.w_fontsize
+        LabelData.labelcolor = usedColor
+        LabelData.vectors = self.w_vector
+        LabelData.alignment = FR_ALIGN.FR_ALIGN_LEFT_BOTTOM
+        lbl = fr_label_draw.draw_label(self.w_label, LabelData)
+        self.w_widgetlblSoNodes = lbl
+        return lbl
+``` PropertyValues is an object that is used to send the parameter to the drawing function. It simplifies the API interface for the label drawing. Many parameter must be defined for the label. For example (font name, font size, used color , position or the vector , alignment (which is not implemented yet), ..etc. All these are used to determine how the draw\_label will draw the actual text. The returned value from the draw\_label is an SoSeparator which should be added to the scene graph.
+
+#### Part6:
+
+This part is also relate to draw function. We need a mechanism to redraw the drawings. Normally you must remove the drawings and redraw the objects to get the coin3d objects changed. Fr\_Wdiget do the same. looking to the following code: 
+```python
+    def redraw(self):
+        """
+        After the widgets damages, this function should be called.        
+        """
+        if self.is_visible():
+            # Remove the SoSwitch from fr_coinwindo
+            self.w_parent.removeSoSwitchFromSeneGraph(self.w_wdgsoSwitch)
+
+            # Remove the node from the switch as a child
+            self.removeSoNodeFromSoSwitch()
+           
+            # Remove the seneNodes from the widget
+            self.removeSoNodes()
+            #Redraw label
+            
+            self.lblRedraw()
+            self.draw()def lblRedraw(self):
+        if(self.w_widgetlblSoNodes!=None):
+            self.w_widgetlblSoNodes.removeAllChildren()
+        
+    
+``` First function (redraw) will remove the drawings from the scene graph and remove the holder of the objects inside the widget. SoSepartor will be deleted since it will be recreated when draw function activates. But the SoSwitch object inside the widget doesn\'t need to be delete. It will not have any child/children. The same should happen to the label. That is why we have another function for redrawing the label (lblRedraw).
+
+#### Part7:
+
+We need also functions that will put the size of the object, resize it and move it. Bellow are the functions: 
+```python
+
+    def move(self, newVecPos):
+        """
+        Move the object to the new location referenced by the 
+        left-top corner of the object. Or the start of the line
+        if it is a line.
+        """
+        self.resize([newVecPos[0], newVecPos[1]])
+    def resize(self, vectors: List[App.Vector]):  # Width, height, thickness
+        """Resize the widget by using the new vectors"""
+        self.w_vector = vectors
+        self.redraw()
+
+    def size(self, vectors: List[App.Vector]):
+        """Resize the widget by using the new vectors"""
+        self.resize(vectors)
+
+    def label_move(self, newPos):
+        pass
+```}
+
+Label move is not implemented yet. But drawing move,size and resize in deed is the same function. There many ways to do this job but to make it simple, Fr\_Widget delete the original vector and simply redraw the whole object. Not so much to clarify .. It is clear how the function works.
+
+==== Part8: ====
 
 to be continued\...

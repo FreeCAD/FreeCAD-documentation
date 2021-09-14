@@ -58,4 +58,4 @@ Aceasta este comanda standard pentru a exporta obiecte din interiorul unui docum
 
 }}  
 
-[Category:File\_Formats{{\#translation:}}](Category:File_Formats.md)
+[Category:File\_Formats](Category:File_Formats.md)

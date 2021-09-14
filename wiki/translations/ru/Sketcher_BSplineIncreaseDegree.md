@@ -1,13 +1,14 @@
 ---
-- GuiCommand:
-   Name:Sketcher BSplineIncreaseDegree
-   MenuLocation:Sketch → Sketcher B-spline tools → Increase Degree of B-spline
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
+- GuiCommand:/ru
+   Name/ru:Увеличить степень B-сплайна
+   Name:Sketcher_BSplineIncreaseDegree
+   MenuLocation:Sketch → B-сплйан инструменты эскиза → Увеличить степень B-сплайна
+   Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
    Version:0.17
-   SeeAlso:[Sketcher Show/hide B-spline degree](Sketcher_BSplineDegree.md), [Sketcher Decrease B-spline degree](Sketcher_BSplineDecreaseDegree.md)
+   SeeAlso:[Показать/скрыть степень B-сплайна](Sketcher_BSplineDegree/ru.md), [Уменьшить степень B-сплайна](Sketcher_BSplineDecreaseDegree/ru.md)
 ---
 
-## Description
+## Описание
 
 Increases the degree (order) of a B-spline (see [this page](B-Splines.md) for more info about B-splines).
 
@@ -33,7 +34,7 @@ If you take this result and decrease the degree, you cannot get the initial stat
 
 You can see that now each segment has 2 control points and the knots are coincident with each a further control point. The knots have now *C*^0^ continuity so that the spline will get \"edges\" when you move a control point. So the information of a higher continuity is lost. (see [this page](Sketcher_BSplineDecreaseKnotMultiplicity#Description.md) to for an explanation of the continuity)
 
-## Usage
+## Применение
 
 1.  Select an edge from an existing B-spline, and press **<img src=images/Sketcher_BSplineIncreaseDegree.svg style="width:24px"> '''Increase B-spline degree'''**.
 

@@ -1,13 +1,9 @@
-
-
-
-<div class="mw-translate-fuzzy">
+# TechDraw Preferences/fr
 
 
 
 
 
-</div>
 
 
 {{TOCright}}
@@ -198,17 +194,11 @@ Certains paramètres de préférences ne sont accessibles que via [Std Editeur d
 -   **RadiusAligned**: rayon format de dimension 0-ISO(aligné) 1-ASME(uniforme)
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{TechDraw Tools navi
 
 }} 
 
-[Category:Preferences{{\#translation:}}](Category:Preferences.md)
+[Category:Preferences](Category:Preferences.md)

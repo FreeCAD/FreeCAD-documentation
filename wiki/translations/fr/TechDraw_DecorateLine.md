@@ -8,9 +8,6 @@
    SeeAlso:[TechDraw Ligne centrale à une face](TechDraw_FaceCenterLine/fr.md), [TechDraw Gomme](TechDraw_CosmeticEraser/fr.md)
 ---
 
-
-</div>
-
 ## Description
 
 L\'outil Apparence des lignes modifie l\'apparence des lignes (Edges).
@@ -45,13 +42,7 @@ L\'outil Apparence des lignes n\'a aucune propriété car il ne s\'agit pas d\'u
 DecorateLine n\'est pas accessible à partir de [macro](Macros/fr.md) ou de la console [Python](Python/fr.md) pour le moment.
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{TechDraw Tools navi

@@ -3,7 +3,7 @@
    Name:Arch BuildingPart
    Name/es:Arquitectura EdificioPieza
    MenuLocation:Arquitectura → EdificioPieza
-   Workbenches:[Arquitectura](Arch_Module/es.md)
+   Workbenches:[Arquitectura](Arch_Workbench/es.md)
    Version:0.18
    SeeAlso:[Arquitectura Edificio](Arch_Building/es.md), [Arquitectura Sitio](Arch_Site/es.md)
 ---

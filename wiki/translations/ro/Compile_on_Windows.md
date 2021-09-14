@@ -1,3 +1,5 @@
+# Compile on Windows/ro
+
 
 
 
@@ -559,4 +561,4 @@ A se vedea și
 
 
 
-[Category:Developer Documentation/ro](Category:Developer_Documentation/ro.md) [Category:Developer\_Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Developer{{\#translation:}}](Category:Developer.md)
+[Category:Developer Documentation/ro](Category:Developer_Documentation/ro.md) [Category:Developer\_Documentation](Category:Developer_Documentation.md) [Category:Developer](Category:Developer.md)

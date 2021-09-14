@@ -1,3 +1,5 @@
+# Draft Preferences/de
+
 
 
 
@@ -37,13 +39,7 @@ You can specify the space between each grid line, between each major line, and t
 
 ![](images/Preference_Draft_Tab_02.png )
 
-
-<div class="mw-translate-fuzzy">
-
 ## Visuelle Einstellungen 
-
-
-</div>
 
 Visual settings allows you to specify the default line color and width for new objects, and the color of the [Draft Snap](Draft_Snap.md) symbols. By clicking the \"Save current color and linewidth across sessions\" checkbox, changes made in the [Draft Tray](Draft_Tray.md) will be saved and restored the next time you open FreeCAD.
 
@@ -61,4 +57,4 @@ Texts and dimensions allows you to set default properties for the [Draft Text](D
 
  
 
-[Category:Preferences{{\#translation:}}](Category:Preferences.md)
+[Category:Preferences](Category:Preferences.md)

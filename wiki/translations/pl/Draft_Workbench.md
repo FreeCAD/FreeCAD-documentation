@@ -1,3 +1,5 @@
+# Draft Workbench/pl
+
 
 
 
@@ -308,4 +310,4 @@ Gdzie `$INSTALLDIR` jest katalogiem wyższego poziomu, w którym zainstalowano o
 
  
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

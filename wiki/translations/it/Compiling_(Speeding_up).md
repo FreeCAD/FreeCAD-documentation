@@ -1,3 +1,5 @@
+# Compiling (Speeding up)/it
+
 
 
 
@@ -74,4 +76,4 @@ Il programma `distcc` può essere utilizzato per eseguire compilazioni distribui
 
 
 
-[Category:Developer\_Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Developer{{\#translation:}}](Category:Developer.md)
+[Category:Developer\_Documentation](Category:Developer_Documentation.md) [Category:Developer](Category:Developer.md)

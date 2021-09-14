@@ -1,8 +1,8 @@
 ---
 - GuiCommand:/ru
-   Name/ru:Sketcher SelectElementsWithDoFs
-   Icon:Sketcher SelectElementsWithDoFs.svg
-   MenuLocation:Sketch → Инструменты для эскиза → Select solver DoFs
+   Name/ru:Выбрать геометрию имеющую неограниченные степени свободы
+   Name:Sketcher_SelectElementsWithDoFs
+   MenuLocation:Sketch → Инструменты для эскиза → Выбрать геометрию имеющую неограниченные степени свободы
    Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
    Version:0.18
 ---
@@ -11,7 +11,7 @@
 
 This tool is meant to aid in fully constraining a sketch by highlighting in green the sketch elements with remaining degrees of freedom (DoF).
 
-## Usage
+## Применение
 
 In the Solver messages box located at the top of the [Tasks tab](Task_panel.md), the following message(s) should be displayed:
 

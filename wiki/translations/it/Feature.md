@@ -1,3 +1,5 @@
+# Feature/it
+
 
 
 ## Introduzione
@@ -30,4 +32,4 @@ In a more specific sense, a \"Feature\" is a modelling step used inside a [PartD
 
 }}  {{Document objects navi}} 
 
-[Category:Glossary{{\#translation:}}](Category:Glossary.md)
+[Category:Glossary](Category:Glossary.md)

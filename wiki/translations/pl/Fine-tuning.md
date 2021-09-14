@@ -1,3 +1,5 @@
+# Fine-tuning/pl
+
 
 
 
@@ -82,4 +84,4 @@ Ustawienia ukryte\|Tech Draw: Preferencje\]\].
 
 
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md)

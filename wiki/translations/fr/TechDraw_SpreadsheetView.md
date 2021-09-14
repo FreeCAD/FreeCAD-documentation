@@ -6,18 +6,9 @@
    Workbenches:[TechDraw](TechDraw_Workbench/fr.md), [Spreadsheet](Spreadsheet_Workbench/fr.md)
 ---
 
-
-</div>
-
 ## Description
 
-
-<div class="mw-translate-fuzzy">
-
 Cet outil vous permet de placer une vue d\'une [feuille de calcul](Spreadsheet_Workbench/fr.md) sélectionnée dans une [page](TechDraw_Workbench/fr.md).
-
-
-</div>
 
 ![](images/TechDraw_Spreadsheetview.png ) *Elément de feuille de calcul inséré dans la page de dessin TechDraw*
 
@@ -44,13 +35,7 @@ Cet outil vous permet de placer une vue d\'une [feuille de calcul](Spreadsheet_W
 -    {{PropertyData/fr|Line Width}}: la largeur des lignes frontières de la cellule
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{TechDraw Tools navi

@@ -1,3 +1,5 @@
+# Arch IFC/pl
+
  
 
 
@@ -73,4 +75,4 @@ Jeśli kształt eksportowanych obiektów opiera się na wyciskaniu lub operacji 
 
  
 
-[Category:File Formats{{\#translation:}}](Category:File_Formats.md)
+[Category:File Formats](Category:File_Formats.md)

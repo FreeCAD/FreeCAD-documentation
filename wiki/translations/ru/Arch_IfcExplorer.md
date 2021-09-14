@@ -3,7 +3,7 @@
    Name:Arch IfcExplorer
    Name/ru:Arch IfcExplorer
    MenuLocation:Архитектура → Утилиты → Исследователь Ifc
-   Workbenches:[Arch](Arch_Module/ru.md)
+   Workbenches:[Arch](Arch_Workbench/ru.md)
    SeeAlso:[Arch IFC](Arch_IFC/ru.md)
 ---
 
@@ -52,4 +52,4 @@
 
  
 
-[Category:BIM{{\#translation:}}](Category:BIM.md)
+[Category:BIM](Category:BIM.md)

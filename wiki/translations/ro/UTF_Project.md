@@ -1,3 +1,5 @@
+# UTF Project/ro
+
 
 
 
@@ -36,4 +38,4 @@ Pentru a îmbunătăți capabilitățile multi limbaj în FreeCAD prin implement
 
 
 
-[Category:Roadmap{{\#translation:}}](Category:Roadmap.md)
+[Category:Roadmap](Category:Roadmap.md)

@@ -1,8 +1,9 @@
 ---
 - GuiCommand:/de
-   Name:Draft FlipDimension   Name/de:Draft FlipDimension
+   Name:Draft FlipDimension
+   Name/de:Draft FlipDimension
    MenuLocation:Entwurf → Dienstprogramme → Bemaßung umkehren
-   Workbenches:[Draft](Draft_Module/de.md), [Arch](Arch_Module/de.md)
+   Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
    SeeAlso:[Abmessung](Draft_Dimension/de.md)
 ---
 

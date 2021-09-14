@@ -3,22 +3,13 @@
    Name:Arch MultiMaterial
    Name/fr:Arch Matériaux multiples
    MenuLocation:Arch → Outils matériaux → Matériaux multiples
-   Workbenches:[Arch](Arch_Module/fr.md), [BIM](BIM_Workbench/fr.md)
+   Workbenches:[Arch](Arch_Workbench/fr.md), [BIM](BIM_Workbench/fr.md)
    SeeAlso:[Arch Matériau](Arch_SetMaterial/fr.md), [Arch Outils matériaux](Arch_CompSetMaterial/fr.md)
 ---
 
-
-</div>
-
 ## Description
 
-
-<div class="mw-translate-fuzzy">
-
-L\'outil Multi-matériaux définit une liste de [matériaux](Material/fr.md) avec, pour chaque matériau, un nom et une valeur d\'épaisseur. Cette liste multi-matériaux peut ensuite être ajoutée à un objet [Arch](Arch_Module/fr.md) à la place d\'un seul [Arch Matériau](Arch_SetMaterial/fr.md).
-
-
-</div>
+L\'outil Multi-matériaux définit une liste de [matériaux](Material/fr.md) avec, pour chaque matériau, un nom et une valeur d\'épaisseur. Cette liste multi-matériaux peut ensuite être ajoutée à un objet [Arch](Arch_Workbench/fr.md) à la place d\'un seul [Arch Matériau](Arch_SetMaterial/fr.md).
 
 ![](images/Arch_multimaterial_example.png )
 
@@ -59,13 +50,7 @@ Cela correspond à peu près à une combinaison de [IfcMaterialLayerSet](https:/
 ## Script
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
  

@@ -1,3 +1,5 @@
+# Localisation/de
+
 
 
 
@@ -122,7 +124,7 @@ Die Übersetzung der FreeCAD Webseite erfolgt nun über [Crowdin](https://crowdi
 
 Dieser Abschnitt ist für Entwickler, die ihrem Code eine Lokalisierung hinzufügen möchten.
 
-### Vorbereitung von FreeCAD-/Master Modulen für die Übersetzung 
+### Vorbereitung deiner FreeCAD/Master Module für die Übersetzung 
 
 Dies sind die Schritte für den FreeCAD Übersetzungsprozess:
 
@@ -142,7 +144,7 @@ Dies erzeugt eine leere Übersetzungsdatei. Sobald dies geschehen ist, muss sich
 
 Alles danach, soweit es einen Entwickler betrifft, wird automatisch durchgeführt. Der Administrator wird die Texte entnehmen, die Übersetzer werden sie übersetzen und der Administrator wird die Übersetzungen wieder entnehmen und FreeCAD/master aktualisieren.
 
-### Vorbereitung Ihres Drittanbieter Moduls oder Makros für die Übersetzung 
+### Vorbereitung deines Drittanbieter Moduls oder Makros für die Übersetzung 
 
 Drittanbietermodule oder Makros von werden in ähnlicher Weise übersetzt, nur daß du einen Teil der Arbeit selbst erledigen musst. Diese [Forumsdiskussion](https://www.forum.freecadweb.org/viewtopic.php?f=3&t=25180) beschreibt die Details.
 
@@ -167,4 +169,4 @@ Derzeit verwenden FreeCAD Betreuer die Crowdin API über [Crowdin Skripte](Crowd
 
  
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Wiki{{\#translation:}}](Category:Wiki.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Wiki](Category:Wiki.md)

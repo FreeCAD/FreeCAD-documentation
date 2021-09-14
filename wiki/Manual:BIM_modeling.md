@@ -1,3 +1,5 @@
+# Manual:BIM modeling
+
  
 
 
@@ -238,4 +240,4 @@ Our page is now ready, and we can export it to SVG or DXF formats, or print it. 
 
  {{Tutorials navi}} 
 
-[Category:BIM{{\#translation:}}](Category:BIM.md)
+[Category:BIM](Category:BIM.md)

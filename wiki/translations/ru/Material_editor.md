@@ -18,7 +18,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Редактор материалов позволяет редактировать и сохранять информацию в объекте [материала FreeCAD](Material/ru.md). Сейчас эти материалы используются в верстаках **<img src="images/Workbench_FEM.svg" width=24px> [FEM](FEM_Module/ru.md)** и **<img src="images/Workbench_Arch.svg" width=24px> [Arch](Arch_Module/ru.md)**.
+Редактор материалов позволяет редактировать и сохранять информацию в объекте [материала FreeCAD](Material/ru.md). Сейчас эти материалы используются в верстаках **<img src="images/Workbench_FEM.svg" width=24px> [FEM](FEM_Workbench/ru.md)** и **<img src="images/Workbench_Arch.svg" width=24px> [Arch](Arch_Workbench/ru.md)**.
 
 
 </div>

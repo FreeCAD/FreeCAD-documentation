@@ -1,3 +1,5 @@
+# Scripted Parts: Ball Bearing - Part 2
+
   {{TutorialInfo
 |Topic= Part Scripting - Ball Bearing #2
 |Level= Beginner
@@ -172,4 +174,4 @@ Gui.SendMsgToActiveView("ViewFit")
 
  {{Powerdocnavi}} 
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Python Code{{\#translation:}}](Category:Python_Code.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)

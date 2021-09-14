@@ -1,3 +1,5 @@
+# Compile on Windows/cs
+
 
 
 
@@ -469,4 +471,4 @@ See also
 
 
 
-[Category:Developer Documentation/cs](Category:Developer_Documentation/cs.md) [Category:Developer\_Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Developer{{\#translation:}}](Category:Developer.md)
+[Category:Developer Documentation/cs](Category:Developer_Documentation/cs.md) [Category:Developer\_Documentation](Category:Developer_Documentation.md) [Category:Developer](Category:Developer.md)

@@ -1,3 +1,5 @@
+# Spreadsheet Workbench/fr
+
  
 
 <img alt="Icône de l\'atelier Spreadsheet" src=images/Workbench_Spreadsheet.svg  style="width:128px;">
@@ -146,20 +148,15 @@ La modification d\'une feuille de calcul déclenchera un recalcul du modèle 3D,
 Il existe trois solutions pour y remédier:
 
 1.  Ignorer temporairement les recalculs:
-
-\#\* Dans la [Vue en arborescence](Tree_view/fr.md), clic droit sur le document <img alt="" src=images/Document.svg  style="width:24px;"> qui contient la feuille de calcul.
-
-\#\* Sélectionnez l\'option **Skip recomputes** dans le menu contextuel.
-
-\#\* Il y a un gros inconvénient à cette solution. Les nouvelles valeurs entrées dans la feuille de calcul ne seront pas affichées tant que le document n\'aura pas été recalculé. Au lieu de cela, `#PENDING` est affiché.
-
-\#\* Vous pouvez soit recalculer manuellement, en utilisant la commande [Std Rafraîchir](Std_Refresh/fr.md), soit désactiver **Skip recomputes** lorsque vous avez terminé l\'édition.
-
-1.  Utilisez une macro pour ignorer automatiquement les recalculs lors de la modification d\'une feuille de calcul:
+    -   Dans la [Vue en arborescence](Tree_view/fr.md), clic droit sur le document <img alt="" src=images/Document.svg  style="width:24px;"> qui contient la feuille de calcul.
+    -   Sélectionnez l\'option **Skip recomputes** dans le menu contextuel.
+    -   Il y a un gros inconvénient à cette solution. Les nouvelles valeurs entrées dans la feuille de calcul ne seront pas affichées tant que le document n\'aura pas été recalculé. Au lieu de cela, `#PENDING` est affiché.
+    -   Vous pouvez soit recalculer manuellement, en utilisant la commande [Std Rafraîchir](Std_Refresh/fr.md), soit désactiver **Skip recomputes** lorsque vous avez terminé l\'édition.
+2.  Utilisez une macro pour ignorer automatiquement les recalculs lors de la modification d\'une feuille de calcul:
     -   Téléchargez et exécutez [skipSheet.FCMacro](https://forum.freecadweb.org/viewtopic.php?f=8&t=48600#p419301).
     -   Cette solution économise quelques étapes par rapport à la première solution, mais présente également l\'inconvénient mentionné.
-2.  Mettez la feuille de calcul dans un fichier séparé:
-    -   Vous pouvez référencer des données de feuille de calcul à partir d\'un fichier externe avec cette syntaxe: `<nowiki>=NameOfFile#<<MySpreadsheet>>.MyAlias</nowiki>`.
+3.  Mettez la feuille de calcul dans un [fichier séparé](File_Format_FCStd/fr.md):
+    -   Vous pouvez référencer des données de feuille de calcul à partir d\'un fichier externe {{FileName|.FCStd}} avec cette syntaxe: `<nowiki>=NameOfFile#<<MySpreadsheet>>.MyAlias</nowiki>`.
     -   L\'avantage d\'avoir la feuille de calcul dans un autre fichier par rapport à la désactivation des recalculs est que la feuille de calcul elle-même est recalculée.
     -   L\'inconvénient est que le modèle ne recalculera pas automatiquement après les modifications apportées à la feuille de calcul.
     -   Dans le scénario où vous ouvrez d\'abord le fichier \'tableur\', changez une ou plusieurs valeurs puis ouvrez le fichier \'modèle\', il n\'y aura aucune indication que le modèle doit être recalculé. Mais si les deux fichiers sont ouverts, l\'icône [Std Rafraîchir](Std_Refresh/fr.md) se mettra à jour correctement pour le fichier \'modèle\' après les modifications apportées au fichier \'tableur\'.
@@ -224,4 +221,4 @@ sheet.get('Diameter')
 
 }} 
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

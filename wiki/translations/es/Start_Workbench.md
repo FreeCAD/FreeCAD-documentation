@@ -1,3 +1,5 @@
+# Start Workbench/es
+
 
 
 
@@ -33,4 +35,4 @@ Desde esta interfaz puedes ver información útil y saltar a los archivos abiert
 
 
 
-[Category:Start{{\#translation:}}](Category:Start.md) [Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Start](Category:Start.md) [Category:Workbenches](Category:Workbenches.md)

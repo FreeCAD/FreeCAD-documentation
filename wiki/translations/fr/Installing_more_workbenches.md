@@ -1,3 +1,5 @@
+# Installing more workbenches/fr
+
 
 
 ## Introduction
@@ -46,4 +48,4 @@ Voir aussi une description détaillée sur la page [Comment installer un atelier
 
 }} 
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md)

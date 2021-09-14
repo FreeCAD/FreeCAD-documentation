@@ -2,9 +2,9 @@
 - GuiCommand:/ru
    Name:Draft Polygon
    Name/ru:Draft Polygon
-   Workbenches:[Draft](Draft_Module/ru.md), [Arch](Arch_Module/ru.md)
    MenuLocation:Черчение -> Многоугольник
-   Shortcut:P G
+   Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
+   Shortcut:**P** **G**
 ---
 
 

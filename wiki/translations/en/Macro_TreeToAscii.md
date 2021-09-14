@@ -1,13 +1,12 @@
+# Macro TreeToAscii/en
+
  {{Macro
 |Name=TreeToAscii
-|Icon=
 |Description=This macro generates an ASCII art representation of the tree of selected object(s)
 |Author=OpenBrain
 |Date=2020-03-23
 |Version=0.6
-|FCVersion= 0.17+
-|Download=
-|SeeAlso=
+|FCVersion=0.17+
 }}
 
 ## Description

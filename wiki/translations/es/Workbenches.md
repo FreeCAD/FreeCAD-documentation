@@ -1,3 +1,5 @@
+# Workbenches/es
+
 
 
 
@@ -87,4 +89,4 @@ Los nuevos Ambientes de Trabajo están siempre en desarrollo, ¡manténganse en 
 
 
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

@@ -1,4 +1,6 @@
-\_\_NOTOC\_\_ 
+# Artwork Ship/en
+
+ 
 
 These icons are in the indicated source path.
 
@@ -15,4 +17,4 @@ For all icons in the source tree, see [Artwork](Artwork.md).
 
 }} 
 
-[Category:Ship{{\#translation:}}](Category:Ship.md)
+[Category:Ship](Category:Ship.md)

@@ -1,3 +1,5 @@
+# Macro Align Working Plane to Camera
+
   {{Macro
 |Name=Macro Align Working Plane to Camera
 |Icon=Macro_Align_Working_Plane_to_Camera.png
@@ -21,7 +23,7 @@ This macro moves the current [Draft Working Plane](Draft_SelectPlane.md) to the 
 
 ## Script
 
- ToolBar Icon ![](images/Macro_Align_Working_Plane_to_Camera.png )
+ToolBar Icon  ![](images/Macro_Align_Working_Plane_to_Camera.png )
 
 **Macro\_Align\_Working\_Plane\_to\_Camera.FCMacro**
 

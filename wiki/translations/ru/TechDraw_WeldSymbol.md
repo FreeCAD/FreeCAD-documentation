@@ -1,11 +1,12 @@
 ---
-- GuiCommand:
-   Name:TechDraw WeldingSymbol
+- GuiCommand:/ru
+   Name/ru:TechDraw_WeldingSymbol
+   Name:TechDraw_WeldingSymbol
    Icon:techdraw-weldsymbol.svg
-   MenuLocation:TechDraw → Add Welding Information to Leaderline
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
+   MenuLocation:TechDraw → Добавить информацию о сварке в указательную линию
+   Workbenches:[TechDraw](TechDraw_Workbench/ru.md)
    Version:0.19
-   SeeAlso:[TechDraw Leaderline](TechDraw_LeaderLine.md)
+   SeeAlso:[Добавить Линию-выноску в Вид](TechDraw_LeaderLine/ru.md)
 ---
 
 ## Описание
@@ -55,12 +56,12 @@ Each individual symbol (\"arrow side\" and \"other side\") is represented by a \
 
 -    **Right Text**: Text to be displayed to the right of the SVG symbol.
 
-## Scripting
+## Программирование
 
 
-**See also:**
+**См. так же:**
 
-[TechDraw API](TechDraw_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+[TechDraw API](TechDraw_API/ru.md) и [Основы составления скриптов FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 
 The WeldingSymbol tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following functions:
 
@@ -100,13 +101,19 @@ App.activeDocument().DrawTileWeld001.CenterText = "center text"
 -   The leader passes below symbols for the arrow side and above symbols for the \"other\" side.
 -   There is no particular naming standard other than to append \"Up/Down\" to the arrow/other side symbols.
 
-## Notes
+## Примечания
 
 -   You can edit your WeldingSymbol by double clicking on it in the tree view. Double clicking in the graphics area is not yet supported.
 -   There is a [preference parameter](TechDraw_Preferences.md) for the default welding symbol directory. You can add your own symbols in a personal directory.
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{TechDraw Tools navi

@@ -1,3 +1,5 @@
+# Workbenches/fr
+
 
 
 
@@ -104,4 +106,4 @@ Vous pouvez activer un atelier par le menu **Vue → Atelier**.
 
 
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

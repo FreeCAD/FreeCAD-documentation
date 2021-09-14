@@ -1,3 +1,5 @@
+# Base API/fr
+
  {{VeryImportantMessage | (octobre 2019) Ne pas éditer cette page. L'information est incomplète et obsolète. Pour la dernière API, voir la [https://www.freecadweb.org/api documentation de l'API générée automatiquement], ou générez la documentation vous-même, voir [Documentation source](Source_documentation/fr.md).}}
 
 Le module de base est contenu à l\'intérieur du module FreeCAD et contient les constructeurs pour différents types d\'objets largement utilisés dans FreeCAD.
@@ -16,4 +18,4 @@ Le module de base est contenu à l\'intérieur du module FreeCAD et contient les
 
  
 
-[Category:API{{\#translation:}}](Category:API.md) [Category:Poweruser Documentation{{\#translation:}}](Category:Poweruser_Documentation.md)
+[Category:API](Category:API.md) [Category:Poweruser Documentation](Category:Poweruser_Documentation.md)

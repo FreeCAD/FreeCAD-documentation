@@ -189,7 +189,14 @@ Arch.removeSpaceBoundaries(Space, selection)
 <div class="mw-translate-fuzzy">
 
 
-{{docnav/ro|[Roof/ro](Arch_Roof/ro.md)|[Stairs/ro](Arch_Stairs/ro.md)|[Arch/ro](Arch_Module/ro.md)|IconL=Arch_Roof.svg |IconC=Workbench_Arch.svg |IconR=Arch_Stairs.svg}}
+{{docnav/ro
+|[Roof/ro](Arch_Roof/ro.md)
+|[Stairs/ro](Arch_Stairs/ro.md)
+|[Arch/ro](Arch_Workbench/ro.md)
+|IconL=Arch_Roof.svg
+|IconC=Workbench_Arch.svg
+|IconR=Arch_Stairs.svg
+}}
 
 
 </div>

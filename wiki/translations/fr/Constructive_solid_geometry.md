@@ -1,3 +1,5 @@
+# Constructive solid geometry/fr
+
  {{TOCright}}
 
 ## Introduction
@@ -35,4 +37,4 @@ La page [Tutoriels](tutorials/fr.md) fournit des exemples de création de solide
 
  
 
-[Category:Common Questions{{\#translation:}}](Category:Common_Questions.md)
+[Category:Common Questions](Category:Common_Questions.md)

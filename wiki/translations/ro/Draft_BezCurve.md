@@ -1,5 +1,11 @@
 ---
-- GuiCommand:/ro   Name:Draft BezCurve   Name/ro:Draft BezCurve   Workbenches:[Arch](Draft_Module/ro___Draft]],_[[Arch_Module/ro.md)|MenuLocation:Draft → BezCurve   Shortcut:B Z---
+- GuiCommand:/ro
+   Name:Draft BezCurve
+   Name/ro:Draft BezCurve
+   MenuLocation:Draft → BezCurve
+   Workbenches:[Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
+   Shortcut:B Z
+---
 
 
 </div>

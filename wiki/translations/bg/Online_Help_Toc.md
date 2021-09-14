@@ -1,3 +1,5 @@
+# Online Help Toc/bg
+
 
 
 
@@ -141,4 +143,4 @@ There is another table of contents for the [FreeCAD MANUAL](Manual:Introduction.
 
 
 
-[Category:Documentation/bg](Category:Documentation/bg.md) [Category:Documentation{{\#translation:}}](Category:Documentation.md)
+[Category:Documentation/bg](Category:Documentation/bg.md) [Category:Documentation](Category:Documentation.md)

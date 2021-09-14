@@ -1,3 +1,5 @@
+# Licence/ro
+
 
 
 
@@ -91,4 +93,4 @@ Această decizie se face numai pentru nucleul sistemul FreeCAD. Fiecare scriitor
 
  
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md)

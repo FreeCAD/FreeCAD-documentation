@@ -1,3 +1,5 @@
+# TechDrawGui API/pl
+
  {{VeryImportantMessage|''(Listopad 2018)'' Te informacje mogą być niekompletne i nieaktualne. Najnowsze API można znaleźć na stronie [https://www.freecadweb.org/api autogenerowana dokumentacja API].}} Funkcje te są częścią środowiska pracy [Rysunek Roboczy](TechDraw_Workbench/pl.md) i mogą być używane w [makrodefinicjach](macros/pl.md) oraz z konsoli środowiska [Python](Python/pl.md) po zaimportowaniu modułu `TechDrawGui`.
 
 Zobacz stronę [API](TechDraw_API/pl.md) aby poznać więcej funkcji.
@@ -42,4 +44,4 @@ Opcje:
 
 }}  
 
-[Category:API{{\#translation:}}](Category:API.md) [Category:Poweruser Documentation{{\#translation:}}](Category:Poweruser_Documentation.md)
+[Category:API](Category:API.md) [Category:Poweruser Documentation](Category:Poweruser_Documentation.md)

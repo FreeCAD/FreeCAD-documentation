@@ -1,3 +1,5 @@
+# DraftStandardProperty/it
+
 \-\--Questa pagina è disponibile solo in italiano. Deve essere aggiornata, penso di farlo dopo il rilascio della v0.16\-\--
 
 ### Tipi di proprietà 

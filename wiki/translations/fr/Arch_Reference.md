@@ -7,9 +7,6 @@
    SeeAlso:[Arch Partie de bâtiment](Arch_BuildingPart/fr.md)
 ---
 
-
-</div>
-
 ## Description
 
 <img alt="" src=images/Arch_reference_screenshot.png  style="width:800px;">
@@ -55,13 +52,7 @@ Arch.makeReference("/path/to/some/file.FSCtd","myPart")
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
  

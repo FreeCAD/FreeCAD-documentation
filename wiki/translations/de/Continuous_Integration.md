@@ -1,3 +1,5 @@
+# Continuous Integration/de
+
 
 
 
@@ -32,4 +34,4 @@ Aktuell stößt das FreeCAD-Repository auf GitHub einen Build auf den beiden unt
 
  
 
-[Category:Developer\_Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Testing{{\#translation:}}](Category:Testing.md)
+[Category:Developer\_Documentation](Category:Developer_Documentation.md) [Category:Testing](Category:Testing.md)

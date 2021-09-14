@@ -1,18 +1,18 @@
 ---
 - GuiCommand:/ru
-   Name:Sketcher ConstrainPerpendicular
-   Name/ru:Sketcher ConstrainPerpendicular
-   MenuLocation:Sketch → Ограничения эскиза → Ограничения перпендикулярности
+   Name/ru:Ограничение перпендикулярности
+   Name:Sketcher_ConstrainPerpendicular
+   MenuLocation:Sketch → Ограничения эскиза → Ограничение перпендикулярности
    Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
    Shortcut:**N**
-   SeeAlso:[Ограничение угла](Sketcher_ConstrainAngle/ru.md)
+   SeeAlso:[Ограничить угол](Sketcher_ConstrainAngle/ru.md)
 ---
 
-## Description
+## Описание
 
 The Perpendicular Constraint makes two lines to be perpendicular (i.e. orthogonal) to each other, or two curves to be perpendicular at their intersection. Lines are treated infinite, and arcs are treated as full circles/ellipses. The constraint is also capable of connecting two curves, forcing them perpendicular at the joint, similarly to **<img src=images/Sketcher_ConstrainTangent.svg style="width:16px"> [Constraint tangent](Sketcher_ConstrainTangent.md)**.
 
-## Usage
+## Применение
 
 There are four different ways the constraint can be applied:
 
@@ -79,7 +79,7 @@ Compared to direct perpendicular, this constraint is slower, because there are m
 
 The placement of the point before the constraint is applied is a hint for the solver for where the perpendicularity should be.
 
-## Scripting
+## Программирование
 
 Perpendicular Constraint can be created from [macros](Macros.md) and from the python console by using the following: 
 ```python

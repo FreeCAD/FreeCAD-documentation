@@ -68,4 +68,4 @@ L\'onglet Bibliothèques affiche une liste des bibliothèques externes utilisée
 
 {{Std Base navi}}  
 
-[Category:Common Questions{{\#translation:}}](Category:Common_Questions.md)
+[Category:Common Questions](Category:Common_Questions.md)

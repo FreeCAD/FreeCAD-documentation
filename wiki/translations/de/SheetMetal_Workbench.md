@@ -1,9 +1,9 @@
+# SheetMetal Workbench/de
 
 
 
-{{UnfinishedDocu
 
-}} <img alt="Blech Externer Arbeitsbereich Symbol" src=images/Sheetmetal_workbench_icon.svg  style="width:128px;">
+ <img alt="Blech Externer Arbeitsbereich Symbol" src=images/Sheetmetal_workbench_icon.svg  style="width:128px;">
 
 ## Überblick
 
@@ -25,17 +25,17 @@ Dieser Arbeitsbereich kann über den [Erweiterungsverwalter](Std_AddonMgr/de.md)
 
 Eine detaillierte Beschreibung der Werkzeuge kann unter [Blog des Autors](http://theseger.com/projects/2015/06/sheet-metal-addon-for-freecad/) gefunden werden.
 
--   <img alt="" src=images/SheetMetal_AddBase.svg  style="width:32px;"> [Basisprofil erstellen](SheetMetal_AddBase/de.md): Erzeugt eine Blechwandung aus einer Skizze.
+-   <img alt="" src=images/SheetMetal_AddBase.svg  style="width:32px;"> [Basisprofil erstellen](SheetMetal_AddBase/de.md): Erzeugt ein Blechprofil aus einer Skizze.
 
--   <img alt="" src=images/SheetMetal_AddWall.svg  style="width:32px;"> [Kante hinzufügen](SheetMetal_AddWall/de.md): Erweitert eine Seitenfläche des Bleches um eine Kante (Flansch, (Blech-) Streifen).
+-   <img alt="" src=images/SheetMetal_AddWall.svg  style="width:32px;"> [Kante ansetzen](SheetMetal_AddWall/de.md): Setzt eine weitere Kante an eine gewählte Randfläche des Blechobjekts an.
 
--   <img alt="" src=images/SheetMetal_Extrude.svg  style="width:32px;"> [Kante verlängern](SheetMetal_Extrude/de.md): Erweitert eine Seitenfläche entlang der Flächennormalen.
+-   <img alt="" src=images/SheetMetal_Extrude.svg  style="width:32px;"> [Fläche erweitern](SheetMetal_Extrude/de.md): Erweitert eine Seitenfläche entlang der Flächennormalen.
 
 -   <img alt="" src=images/SheetMetal_AddFoldWall.svg  style="width:32px;"> [Abkanten](SheetMetal_AddFoldWall/de.md): Biegt eine Fläche entlang einer gewählten Linie mit vorgegebenem Radius.
 
 -   <img alt="" src=images/SheetMetal_Unfold.svg  style="width:32px;"> [Abwickeln](SheetMetal_Unfold/de.md): Ebnet ein gekantetes Blechobjekt und erzeugt einen Abwicklungskörper und eine Skizze (stellt ein Fenster zum Festlegen von Parametern bereit).
 
--   <img alt="" src=images/SheetMetal_UnattendedUnfold.svg  style="width:32px;"> [Unattended Abwickeln](SheetMetal_UnattendedUnfold/de.md): Ebnet ein gekantetes Blechobjekt und erzeugt einen Abwicklungskörper und eine Skizze (wenn die Parameter bereits festgelegt sind).
+-   <img alt="" src=images/SheetMetal_UnattendedUnfold.svg  style="width:32px;"> [Abwickeln ohne Eingaben](SheetMetal_UnattendedUnfold/de.md): Ebnet ein gekantetes Blechobjekt und erzeugt einen Abwicklungskörper und eine Skizze (wenn die Parameter bereits festgelegt sind).
 
 -   <img alt="" src=images/SheetMetal_AddCornerRelief.svg  style="width:32px;"> [Eckentlastung hinzufügen](SheetMetal_AddCornerRelief/de.md): Fügt einer Ecke einen Ausschnitt zur Eckentlastung hinzu.
 
@@ -43,11 +43,11 @@ Eine detaillierte Beschreibung der Werkzeuge kann unter [Blog des Autors](http:/
 
 -   <img alt="" src=images/SheetMetal_AddJunction.svg  style="width:32px;"> [Stoß hinzufügen](SheetMetal_AddJunction/de.md): Fügt einen Stoß mit Spalt auf der Kante zweier Wände ein.
 
--   <img alt="" src=images/SheetMetal_AddBend.svg  style="width:32px;"> [Biegung hinzufügen](SheetMetal_AddBend/de.md): Fügt eine Ausrundung an Stelle einer eckigen Kante ein.
+-   <img alt="" src=images/SheetMetal_AddBend.svg  style="width:32px;"> [Bogen einfügen](SheetMetal_AddBend/de.md): Fügt eine Ausrundung an Stelle einer eckigen Kante ein.
 
 -   <img alt="" src=images/SheetMetal_SketchOnSheet.svg  style="width:32px;"> [Skizze auf Blech](SheetMetal_SketchOnSheet/de.md): Schneidet ein Loch in ein Blechobjekt, auf Basis einer Skizze.
 
--   <img alt="" src=images/SheetMetal_Forming.svg  style="width:32px;"> [Wand einprägen](SheetMetal_Forming/de.md): Werkzeug fügt eine Einprägung hinzu.
+-   <img alt="" src=images/SheetMetal_Forming.svg  style="width:32px;"> [Prägen](SheetMetal_Forming/de.md): Werkzeug fügt eine Einprägung hinzu.
 
 ## Zwei sich gegenseitig ergänzende Werkzeuge 
 
@@ -194,4 +194,4 @@ Auf der Seite [external workbenches](external_workbenches.md) findest Du einige 
 
 Neue Arbeitsbereiche sind in der Entwicklung, bleib dran!
 
-[Category:SheetMetal{{\#translation:}}](Category:SheetMetal.md) [Category:Addons{{\#translation:}}](Category:Addons.md) [Category:External Command Reference{{\#translation:}}](Category:External_Command_Reference.md)
+[Category:SheetMetal](Category:SheetMetal.md) [Category:Addons](Category:Addons.md) [Category:External Command Reference](Category:External_Command_Reference.md)

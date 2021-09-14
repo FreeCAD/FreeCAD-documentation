@@ -1,3 +1,5 @@
+# PartDesign Workbench/hr
+
  
 
 <img alt="PartDesign workbench icon" src=images/Workbench_PartDesign.svg  style="width:128px;">
@@ -220,4 +222,4 @@ Some additional functionality found in the Part Design menu:
 
  {{PartDesign Tools navi}}
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

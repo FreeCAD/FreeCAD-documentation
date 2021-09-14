@@ -1,3 +1,5 @@
+# Release notes 0.11
+
 This is a summary of the most important changes and new features available in the 0.11 release of FreeCAD. The complete list can be found [here](http://www.freecadweb.org/tracker/changelog_page.php).
 
 <img alt="" src=images/FreeCAD011.png  style="width:800px;">
@@ -62,6 +64,6 @@ A screenshot of the 0.11 version
 -   The [FreeCAD manual](Online_Help_Toc.md) now has several well advanced translations. Check the main page!
 
 
-{{languages | {{de|Release_notes_011/de}} {{es|Release_notes_011/es}} {{fr|Release_notes_011/fr}} {{it|Release_notes_011/it}} {{pl|Release_notes_011/pl}} {{ru|Release_notes_011/ru}} }}
+{{languages | {{de|Release_notes_0.11/de}} {{es|Release_notes_0.11/es}} {{fr|Release_notes_0.11/fr}} {{it|Release_notes_0.11/it}} {{pl|Release_notes_0.11/pl}} {{ru|Release_notes_0.11/ru}} }}
 
-[Category:News{{\#translation:}}](Category:News.md) [Category:Documentation{{\#translation:}}](Category:Documentation.md) [Category:Releases{{\#translation:}}](Category:Releases.md)
+[Category:News](Category:News.md) [Category:Documentation](Category:Documentation.md) [Category:Releases](Category:Releases.md)

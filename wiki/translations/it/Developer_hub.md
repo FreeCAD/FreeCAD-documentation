@@ -1,3 +1,5 @@
+# Developer hub/it
+
 
 
 ![150](images/Crystal_Clear_app_tutorials.png )
@@ -178,4 +180,4 @@ Serve ancora molto lavoro prima che possa competere con i software commerciali.
 
 
 
-[Category:Hubs{{\#translation:}}](Category:Hubs.md) [Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md)
+[Category:Hubs](Category:Hubs.md) [Category:Developer Documentation](Category:Developer_Documentation.md)

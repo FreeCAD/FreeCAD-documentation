@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it   Name:Drawing SpreadsheetView   Name/it:Vista foglio di calcolo   Workbenches:[[Drawing Module/it   Drawing]]|MenuLocation:Drawing → Vista foglio di calcolo---
+- GuiCommand:/it   Name:Drawing SpreadsheetView   Name/it:Vista foglio di calcolo   Workbenches:[[Drawing Workbench/it   Drawing]]|MenuLocation:Drawing → Vista foglio di calcolo---
 
 
 </div>
@@ -9,7 +9,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Questo strumento consente di posizionare una vista di un [foglio di calcolo](Spreadsheet_Workbench/it.md) selezionato in unfoglio di disegno dell\'ambiente [Drawing](Drawing_Module/it.md).
+Questo strumento consente di posizionare una vista di un [foglio di calcolo](Spreadsheet_Workbench/it.md) selezionato in unfoglio di disegno dell\'ambiente [Drawing](Drawing_Workbench/it.md).
 
 
 </div>
@@ -40,7 +40,7 @@ Questo strumento consente di posizionare una vista di un [foglio di calcolo](Spr
 <div class="mw-translate-fuzzy">
 
 
-{{docnav/it|[Simbolo](Drawing_Symbol/it.md)|[Salvare o esportare il disegno](Drawing_Save/it.md)|[Drawing](Drawing_Module/it.md)|IconL=Drawing_Symbol.png|IconC=Workbench_Drawing.svg|IconR=Drawing_Save.png}}
+{{docnav/it|[Simbolo](Drawing_Symbol/it.md)|[Salvare o esportare il disegno](Drawing_Save/it.md)|[Drawing](Drawing_Workbench/it.md)|IconL=Drawing_Symbol.png|IconC=Workbench_Drawing.svg|IconR=Drawing_Save.png}}
 
 
 </div>

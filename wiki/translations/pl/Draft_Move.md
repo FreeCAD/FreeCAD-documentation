@@ -47,12 +47,13 @@ Wspomniane tutaj skróty klawiaturowe mogą być zmienione. Zobacz stronę [Rysu
 -   Naciśnij klawisz **P** lub kliknij pole wyboru **Kopiuj**, aby przełączyć tryb kopiowania. Jeśli tryb kopiowania jest włączony, polecenie utworzy przeniesione kopie zamiast przenoszenia oryginalnych obiektów.
 -   Naciśnij przycisk **D** lub kliknij pole wyboru **Modifikuj elementy podrzędne**, aby przełączyć tryb elementów podrzędnych. Jeśli tryb elementów podrzędnych jest włączony, polecenie będzie używać wybranych elementów podrzędnych zamiast całych obiektów. Elementy podrzędne muszą należeć do [Linii](Draft_Line/pl.md) lub [Polilinii](Draft_Wire/pl.md).
 -   Jeśli tryb kopiowania i tryb elementów podrzędnych są włączone, a krawędzie [Polilinii](Draft_Wire/pl.md) są zaznaczone, nowe linie zostaną utworzone z tych krawędzi.
+-   Przytrzymanie klawisza **Alt** po wybraniu punktu bazowego spowoduje również przełączenie trybu kopiowania. Gdy trzymasz klawisz **Alt** wciśnięty, możesz wybrać wiele punktów docelowych. Puść klawisz **Alt**, aby zakończyć polecenie i zobaczyć utworzone kopie. Ta opcja nie działa w FreeCAD w wersji 0.19.
 -   Naciśnij **S**, aby włączyć lub wyłączyć [przyciąganie](Draft_Snap/pl.md).
 -   Naciśnij klawisz **Esc** lub przycisk **Zamknij**, aby przerwać wykonywanie polecenia.
 
 ## Uwagi
 
--   Obiekt, który jest [umocowany](Part_Attachment/pl.md) nie może być przeniesiony za pomocą polecenia Przesuń. Aby go przesunąć, należy przesunąć jego obiekt **podparcia** lub zmienić jego **przesunięcie umocowania**.
+-   Obiekt, który jest [umocowany](Part_EditAttachment/pl.md) nie może być przeniesiony za pomocą polecenia Przesuń. Aby go przesunąć, należy przesunąć jego obiekt {{PropertyData/pl|podparcia}} lub zmienić jego {{PropertyData/pl|przesunięcie umocowania}}.
 
 ## Ustawienia
 

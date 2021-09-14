@@ -6,9 +6,6 @@
    Workbenches:[Part](Part_Workbench/fr.md)
 ---
 
-
-</div>
-
 ## Description
 
 Cet outil mesure la distance entre deux éléments de topologie sélectionnés (sommet, arête, face) et affiche la mesure dans la [vue 3D](3D_view/fr.md). La distance la plus courte entre les deux éléments est indiquée en rouge et les mesures delta (distances parallèles aux axes X, Y et Z standard) sont indiquées en vert.

@@ -1,3 +1,5 @@
+# Manual:Import and export to other filetypes/de
+
  
 
 
@@ -41,4 +43,4 @@ Einige dieser Dateiformate haben Optionen. Diese können über das Menü **Bearb
 
 
 
-[Category:Poweruser Documentation{{\#translation:}}](Category:Poweruser_Documentation.md) [Category:Tutorials{{\#translation:}}](Category:Tutorials.md)
+[Category:Poweruser Documentation](Category:Poweruser_Documentation.md) [Category:Tutorials](Category:Tutorials.md)

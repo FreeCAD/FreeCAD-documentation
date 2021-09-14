@@ -2,10 +2,10 @@
 - GuiCommand:/ru
    Name:Arch Panel   Name/ru:Arch Panel
    MenuLocation:Архитектура → Панель
-   Workbenches:[Arch](Arch_Module/ru.md)
+   Workbenches:[Arch](Arch_Workbench/ru.md)
    Shortcut:**P** **A**
-   SeeAlso:[Структура](Arch_Structure/ru.md), [Arch Panel Cut](Arch_Panel_Cut/ru.md), [Arch Panel Sheet](Arch_Panel_Sheet/ru.md)
    Version:0.15
+   SeeAlso:[Структура](Arch_Structure/ru.md), [Arch Panel Cut](Arch_Panel_Cut/ru.md), [Arch Panel Sheet](Arch_Panel_Sheet/ru.md)
 ---
 
 

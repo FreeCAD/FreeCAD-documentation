@@ -3,7 +3,7 @@
    Name:Draft SubelementHighlight
    Name/de:Entwurf UnterelementMarkieren
    MenuLocation:Änderung → Unterelement markieren
-   Workbenches:[Entwurf](Draft_Module/de.md), [Architektur](Arch_Module/de.md)
+   Workbenches:[Entwurf](Draft_Workbench/de.md), [Architektur](Arch_Workbench/de.md)
    Shortcut:**H** **S**
    Version:0.19
    SeeAlso:[Entwurf Bewegen](Draft_Move/de.md), [Entwurf Drehen](Draft_Rotate/de.md), [Entwurf Skalieren](Draft_Scale/de.md)

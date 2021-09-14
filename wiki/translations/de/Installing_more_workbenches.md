@@ -1,3 +1,5 @@
+# Installing more workbenches/de
+
 
 
 ## Einführung
@@ -46,4 +48,4 @@ Siehe auch eine detaillierte Beschreibung auf der Seite [Wie man zusätzliche Ar
 
 }} 
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md)

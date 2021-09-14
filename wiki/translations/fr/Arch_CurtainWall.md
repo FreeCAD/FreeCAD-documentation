@@ -2,15 +2,12 @@
 - GuiCommand:/fr
    Name:Arch CurtainWall
    Name/fr:Arch Mur-rideau
-   MenuLocation:Arch → Curtain Wall
-   Workbenches:[Arch](Arch_Module/fr.md)
+   MenuLocation:Arch → Mur-rideau
+   Workbenches:[Atelier Arch](Arch_Workbench/fr.md)
    Shortcut:**C** **W**
    Version:0.19
    SeeAlso:[Arch Mur](Arch_Wall/fr.md), [Arch Grille](Arch_Grid/fr.md)
 ---
-
-
-</div>
 
 ## Description
 
@@ -106,7 +103,7 @@ Les objets Mur-rideau héritent des propriétés des objets [Arch Composants](Ar
 
 ## Faire des murs à ossature 
 
-Les murs-rideaux sont pratiques à utiliser en conjonction avec des [Arch Murs](Arch_Wall/fr.md) pour créer des murs à ossature (murs où une couche structurelle intérieure est faite de cadres, généralement en bois ou en métal, au lieu d\'un matériau homogène comme le béton de brique) .
+Les murs-rideaux sont pratiques à utiliser en conjonction avec des [Arch Murs](Arch_Wall/fr.md) pour créer des murs à ossature (murs où une couche structurelle intérieure est faite de cadres, généralement en bois ou en métal, au lieu d\'un matériau homogène comme le béton ou la brique) .
 
 <img alt="" src=images/Frame_wall_example.png  style="width:780px;">
 

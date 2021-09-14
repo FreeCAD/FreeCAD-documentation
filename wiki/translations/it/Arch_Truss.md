@@ -2,7 +2,7 @@
 - GuiCommand:/it
    Name:Arch Truss
    Name/it:Arch Truss
-   Workbenches:[Arch](Arch_Module/it.md)
+   Workbenches:[Arch](Arch_Workbench/it.md)
    MenuLocation:Arch → Travatura
    Version:0.19
 ---

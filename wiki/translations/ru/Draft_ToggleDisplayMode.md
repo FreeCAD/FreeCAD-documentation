@@ -2,9 +2,10 @@
 - GuiCommand:/ru
    Name:Draft ToggleDisplayMode
    Name/ru:Draft ToggleDisplayMode
-   Workbenches:[Draft](Draft_Module/ru.md), [Arch](Arch_Module/ru.md)
    MenuLocation:Черчение -> Утилиты -> Переключить режим отображения
-   Shortcut:Shift + Space---
+   Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
+   Shortcut:**Shift**+**Space**
+---
 
 
 </div>

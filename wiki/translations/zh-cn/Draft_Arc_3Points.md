@@ -113,7 +113,7 @@ arc = make_arc_3points(points, placement=None, face=False, support=None, map_mod
 
 :   For example: support=[(obj, ("Face1"))].
 
--   If `map_mode` is given, it is a string defining a type of mapping, for example: map_mode='FlatFace', map_mode='ThreePointsPlane', etc. See [Part Attachment](Part_Attachment.md) for more information.
+-   If `map_mode` is given, it is a string defining a type of mapping, for example: map_mode='FlatFace', map_mode='ThreePointsPlane', etc. See [Part EditAttachment](Part_EditAttachment.md) for more information.
 -   If `primitive` is `True`, the arc created will be a simple [Part Feature](Part_Feature.md), not a complex Draft object.
 
 Example:

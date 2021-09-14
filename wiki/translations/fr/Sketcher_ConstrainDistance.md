@@ -41,10 +41,14 @@ Distance entre deux sommets :
 
 ```pythonSketch.addConstraint(Sketcher.Constraint('Distance', Edge1, PointOfEdge1, Edge2, PointOfEdge2, App.Units.Quantity('123.0 mm')))```
 
-Longueur de ligne (l\'interface graphique permet de sélectionner l\'arête elle-même, mais ce n\'est qu\'un raccourci pour utiliser les deux extrémités d\'une même ligne : 
+Longueur de ligne (l\'interface graphique permet de sélectionner l\'arête elle-même, mais ce n\'est qu\'un raccourci pour utiliser les deux extrémités d\'une même ligne) :
+
+
 ```pythonSketch.addConstraint(Sketcher.Constraint('Distance', Line, 1, Line, 2, App.Units.Quantity('123.0 mm')))```
 
-Distance du point (`Edge, PointOfEdge`) au point le plus proche sur la ligne (`Line`) : 
+Distance du point (`Edge, PointOfEdge`) au point le plus proche sur la ligne (`Line`) :
+
+
 ```pythonSketch.addConstraint(Sketcher.Constraint('Distance', Edge, PointOfEdge, Line, App.Units.Quantity('123.0 mm')))```
 
 La page [Sketcher : Écrire des scripts](Sketcher_scripting/fr.md) explique les valeurs qui peuvent être utilisées pour `Edge1`, `Edge2`, `Edge`, ` PointOfEdge1`, ` PointOfEdge2`, `PointOfEdge` et `Line` et contient d\'autres exemples sur la façon de créer des contraintes à partir de scripts Python.
@@ -55,4 +59,4 @@ La page [Sketcher : Écrire des scripts](Sketcher_scripting/fr.md) explique les 
 
 {{Sketcher Tools navi
 
-}}  
+}} 

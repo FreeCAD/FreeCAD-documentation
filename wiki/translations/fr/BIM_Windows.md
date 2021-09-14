@@ -20,4 +20,4 @@ La boîte de dialogue Gestionnaire de fenêtres BIM vous permet de parcourir et 
 
 }}
 
-[Category:External Command Reference{{\#translation:}}](Category:External_Command_Reference.md)
+[Category:External Command Reference](Category:External_Command_Reference.md)

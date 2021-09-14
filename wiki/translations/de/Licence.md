@@ -1,3 +1,5 @@
+# Licence/de
+
 
 
 
@@ -59,4 +61,4 @@ Gleichwohl betrifft diese Entscheidung lediglich das Core-System von FreeCAD. Je
 
  
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md)

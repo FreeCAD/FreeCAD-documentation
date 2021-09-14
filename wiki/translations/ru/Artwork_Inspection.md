@@ -1,4 +1,6 @@
-\_\_NOTOC\_\_ 
+# Artwork Inspection/ru
+
+ 
 
 Эти иконки находятся в указанной исходной папке.
 
@@ -15,4 +17,4 @@
 
 }} 
 
-[Category:Inspection{{\#translation:}}](Category:Inspection.md)
+[Category:Inspection](Category:Inspection.md)

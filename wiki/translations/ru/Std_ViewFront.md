@@ -1,11 +1,11 @@
 ---
 - GuiCommand:/ru
-   Name:Std ViewFront
-   Name/ru:Std ViewFront
-   MenuLocation:Виды → Стандартные виды → Спереди
-   Workbenches:All
+   Name/ru:Спереди
+   Name:Std_ViewFront
+   MenuLocation:Вид → Стандартные виды‏‎ → Спереди
+   Workbenches:Все
    Shortcut:**1**
-   SeeAlso:[Std ViewTop](Std_ViewTop/ru.md), [Std ViewRight](Std_ViewRight/ru.md)
+   SeeAlso:[Сверху](Std_ViewTop/ru.md), [Справа](Std_ViewRight/ru.md)
 ---
 
 ## Описание
@@ -22,7 +22,7 @@
     -   Select the **Standard views → <img src="images/Std_ViewFront.svg" width=16px> Front** option from the [3D view](3D_view.md) context menu.
     -   Use the keyboard shortcut: **1**.
 
-## Scripting
+## Программирование
 
 
 **Смотрите так же:**

@@ -1,10 +1,9 @@
 ---
 - GuiCommand:/de
-   Name:Draft Special
-   Nam/de:Entwurf Spezial
-   Icon:Snap_Special.svg
+   Name:Draft Snap Special
+   Name/de:Entwurf Spezial
    MenuLocation:Entwurf→ [Fang](Draft_Snap/de.md) → Spezial
-   Workbenches:[Draft](Draft_Module/de.md), [Arch](Arch_Module/de.md)
+   Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
    SeeAlso:[Fang](Draft_Snap/de.md), [Fang Umschalten](Draft_ToggleSnap/de.md)
    Version:0.17
 ---

@@ -3,9 +3,9 @@
    Name:Draft Fillet
    Name/it:Raccordo
    MenuLocation:Draft → Raccordo
-   Workbenches:[Draft](Draft_Module/it.md)
-   SeeAlso:[Linea](Draft_Line/it.md), [Polilinea](Draft_Wire/it.md)
+   Workbenches:[Draft](Draft_Workbench/it.md)
    Version:0.19
+   SeeAlso:[Linea](Draft_Line/it.md), [Polilinea](Draft_Wire/it.md)
 ---
 
 

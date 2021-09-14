@@ -1,4 +1,6 @@
-\_\_NOTOC\_\_ 
+# Artwork Points/fr
+
+ 
 
 Ces icônes se trouvent dans le chemin source indiqué.
 
@@ -15,4 +17,4 @@ Pour toutes les icônes de l\'arborescence source, voir [Graphisme](Artwork/fr.m
 
 }} 
 
-[Category:Points{{\#translation:}}](Category:Points.md)
+[Category:Points](Category:Points.md)

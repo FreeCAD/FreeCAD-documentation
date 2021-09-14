@@ -1,3 +1,5 @@
+# ViewObject API/pl
+
  {{VeryImportantMessage|''(Październik 2019)'' Nie edytuj tych stron. Informacje są niekompletne i nieaktualne. Najnowsze API można znaleźć w [https://www.freecadweb.org/api automatycznie generowana dokumentacja API], lub wygenerować dokumentację samodzielnie, śledząc dokument [Dokumentacja źródłowa](Source_documentation/pl.md).}}
 
 Kiedy GUI jest uruchomione, każdy obiekt w dokumencie FreeCAD ma powiązany obiekt widoku, który rezyduje w odpowiedniku dokumentu FreeCADGui. Obiekt widoku może zostać pobrany na dwa sposoby. Przykład: 
@@ -82,4 +84,4 @@ print myViewObj.IV
 
  
 
-[Category:API{{\#translation:}}](Category:API.md) [Category:Poweruser Documentation{{\#translation:}}](Category:Poweruser_Documentation.md)
+[Category:API](Category:API.md) [Category:Poweruser Documentation](Category:Poweruser_Documentation.md)

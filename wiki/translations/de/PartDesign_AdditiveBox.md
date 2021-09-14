@@ -17,7 +17,7 @@ Fügt einen einfachen Quader in den aktiven Körper (body) als Basisformelement 
 ## Anwendung
 
 1.  Drücke die **<img src="images/PartDesign_AdditiveBox.svg" width=24px> '''Additiver Quader'''** Schaltfläche. **Hinweis**: Der Additive Quader ist Teil eines Symbolmenüs mit der Bezeichnung *Erstellen eines additiven Grundelements*. Nach dem Start von FreeCAD wird der Additive Quader in der Werkzeugleiste angezeigt. Wenn ein anderes Grundelement angezeigt wird, klicke auf den Abwärtspfeil neben dem Symbol und wähle Additiver Quader im Menü.
-2.  Lege die Parameter für Grundelemente und [Anhang](Part_Attachment/de.md).
+2.  Lege die Parameter für Grundelemente und [Anhang](Part_EditAttachment/de.md).
 3.  Klicke **OK**.
 4.  Unter dem aktiven Körper erscheint eine Quaderfunktion.
 
@@ -30,6 +30,9 @@ Der Quader kann auf zwei verschiedene Weisen bearbeitet werden:
 
 ## Eigenschaften
 
+
+<div class="mw-translate-fuzzy">
+
 -    {{PropertyData/de|Attachment}}: Bestimmt den Befestigungsmodus und den Befestigungsversatz. Siehe [Befestigung](Part_Attachment/de.md).
 
 -    {{PropertyData/de|Label}}: Die vom Benutzer vergebene Bezeichung für das Quader-Objekt. Dies kann nach Bedarf geändert werden.
@@ -39,6 +42,9 @@ Der Quader kann auf zwei verschiedene Weisen bearbeitet werden:
 -    {{PropertyData/de|Width}}: Die Länge des Quaders in der Y-Richtung.
 
 -    {{PropertyData/de|Height}}: Die Länge des Quaders in der Z-Richtung.
+
+
+</div>
 
 
 

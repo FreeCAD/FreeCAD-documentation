@@ -1,4 +1,6 @@
-\_\_NOTOC\_\_  
+# Artwork PartDesign
+
+  
 
 These icons are in the indicated source path.
 
@@ -20,4 +22,4 @@ For all icons in the source tree, see [Artwork](Artwork.md).
 
  
 
-[Category:PartDesign{{\#translation:}}](Category:PartDesign.md)
+[Category:PartDesign](Category:PartDesign.md)

@@ -7,9 +7,6 @@
    SeeAlso:[Part Grundelemente](Part_Primitives/de.md)
 ---
 
-
-</div>
-
 ## Beschreibung
 
 ## Anwendung
@@ -91,13 +88,7 @@
 
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
  

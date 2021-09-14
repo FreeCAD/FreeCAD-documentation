@@ -66,4 +66,4 @@ La herramienta de biblioteca le permite colocar, en el modelo actual, un objeto 
 
  
 
-[Category:BIM{{\#translation:}}](Category:BIM.md)
+[Category:BIM](Category:BIM.md)

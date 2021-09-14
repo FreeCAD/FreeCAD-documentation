@@ -1,5 +1,11 @@
 ---
-- GuiCommand:/ro   Name:Draft Rotate   Name/ro:Draft Rotate   Workbenches:[Arch](Draft_Module/ro___Draft]],_[[Arch_Module/ro.md)|MenuLocation:Draft → Rotate   Shortcut:R O---
+- GuiCommand:/ro
+   Name:Draft Rotate
+   Name/ro:Draft Rotate
+   MenuLocation:Draft → Rotate
+   Workbenches:[Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
+   Shortcut:**R** **O**
+---
 
 
 </div>
@@ -61,7 +67,7 @@ The single character keyboard shortcuts and the modifier key mentioned here can 
 
 ## Notes
 
--   An Object that is [attached](Part_Attachment.md) cannot be rotated with the Draft Rotate command. To rotate it either its **Support** object has to be rotated, or its **Attachment Offset** has to be changed.
+-   An Object that is [attached](Part_EditAttachment.md) cannot be rotated with the Draft Rotate command. To rotate it either its **Support** object has to be rotated, or its **Attachment Offset** has to be changed.
 
 ## Preferences
 

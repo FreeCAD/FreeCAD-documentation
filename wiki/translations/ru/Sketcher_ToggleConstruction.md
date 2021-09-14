@@ -1,7 +1,7 @@
 ---
 - GuiCommand:/ru
-   Name:Sketcher ToggleConstruction
-   Name/ru:Вспомогательный режим
+   Name/ru:Переключить построительную геометрию
+   Name:Sketcher_ToggleConstruction
    MenuLocation:Sketch → Геометрия эскиза → Переключить построительную геометрию
    Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
 ---
@@ -20,17 +20,11 @@
 
 </div>
 
-
-<div class="mw-translate-fuzzy">
-
-Линии вспомогательной геометрии могут использоваться в качестве осей вращения с помощью функции [PartDesign Вращение](PartDesign_Revolution/ru.md).
-
-
-</div>
+Линии вспомогательной геометрии могут использоваться в качестве осей вращения с помощью функции **<img src=images/PartDesign_Revolution.svg style="width:16px"> [PartDesign Вращение](PartDesign_Revolution/ru.md)**.
 
 <img alt="" src=images/Sketcher_ConstructionMode_fr_01.png  style="width:480px;">
 
-## Использование
+## Применение
 
 
 <div class="mw-translate-fuzzy">
@@ -60,13 +54,7 @@
 <img alt="" src=images/Sketcher_ConstructionMode_fr_02.png  style="width:450px;">
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Sketcher Tools navi

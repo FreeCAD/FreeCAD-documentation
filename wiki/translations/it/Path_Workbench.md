@@ -1,3 +1,5 @@
+# Path Workbench/it
+
 
 
 
@@ -532,4 +534,4 @@ Vedere la pagina [Script di Path](Path_scripting/it.md).
 
 }} 
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

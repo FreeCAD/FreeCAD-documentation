@@ -1,4 +1,6 @@
-\_\_NOTOC\_\_  Ces icônes se trouvent dans le chemin source indiqué.
+# Artwork Arch/fr
+
+  Ces icônes se trouvent dans le chemin source indiqué.
 
 Pour toutes les icônes de l\'arborescence source, voir [Graphisme](Artwork/fr.md).
 
@@ -17,4 +19,4 @@ Pour toutes les icônes de l\'arborescence source, voir [Graphisme](Artwork/fr.m
 
 }} 
 
-[Category:Arch{{\#translation:}}](Category:Arch.md)
+[Category:Arch](Category:Arch.md)

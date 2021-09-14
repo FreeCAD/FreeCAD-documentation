@@ -1,22 +1,11 @@
 ---
 - GuiCommand:/ru
    Name:Arch Equipment
-   Name/ru:Arch Equipment
-   Workbenches:[Arch](Arch_Module/ru.md)
-   MenuLocation:Архитектура → Оборудование
-   Shortcut:E Q   SeeAlso:[3 views from mesh](Arch_3Views/ru.md)
----
-
-
-</div>
-
----
-- GuiCommand:/ru
-   Name:Arch Equipment
-   Name/ru:Arch Equipment
-   Workbenches:[Arch](Arch_Module/ru.md)
-   MenuLocation:Архитектура → Оборудование
-   Shortcut:E Q   SeeAlso:[3 views from mesh](Arch_3Views/ru.md)
+   Name/ru:Оборудование
+   MenuLocation:Arch → Оборудование
+   Workbenches:[Arch](Arch_Workbench/ru.md)
+   Shortcut:**E** **Q**
+   SeeAlso:[3 вида на основе полигональной сетки](Arch_3Views/ru.md)
 ---
 
 ## Описание
@@ -31,7 +20,7 @@ As of version 0.17, equipment objects also have a **HiRes** property where a [Me
 
 When using the Arch OBJ exporter, all equipment objects that are in mesh display mode will be exported as their mesh instead of their shape.
 
-## Usage
+## Применение
 
 1.  Select a [Part](Part_Workbench.md) shape, and optionally a [Mesh](Mesh_Workbench.md) object.
 2.  Press the **<img src="images/Arch_Equipment.svg" width=16px> [Arch Equipment](Arch_Equipment.md)** button, or press **E** then **Q** keys.
@@ -40,7 +29,7 @@ When using the Arch OBJ exporter, all equipment objects that are in mesh display
 
 -   Equipments share the common properties and behaviours of all [Arch Components](Arch_Component.md)
 
-## Properties
+## Свойства
 
 -    **Model**: A description of the model of this equipment.
 
@@ -48,12 +37,12 @@ When using the Arch OBJ exporter, all equipment objects that are in mesh display
 
 -    **Mesh**: A [Mesh](Mesh_Workbench.md) representation to use for this equipment. When set, the **Mesh** display mode becomes available.
 
-## Scripting
+## Программирование
 
 
-**See also:**
+**См. так же:**
 
-[Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+[Arch API](Arch_API/ru.md) и [Основы составления скриптов FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 
 The Equipment tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function: 
 ```python
@@ -78,13 +67,7 @@ FreeCAD.ActiveDocument.recompute()
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-{{docnav|[Fence](Arch_Fence.md)|[Arch CompPipe](Arch_CompPipe.md)|[Arch](Arch_Workbench.md)|IconL=Arch_Fence.svg |IconC=Workbench_Arch.svg |IconR=Arch_CompPipe.png}}
-
-
-</div>
 
 
 

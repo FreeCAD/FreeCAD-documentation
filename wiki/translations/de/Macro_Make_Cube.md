@@ -1,3 +1,5 @@
+# Macro Make Cube/de
+
  {{Macro/de
 |Name=Make Cube
 |Name/de=Make Cube

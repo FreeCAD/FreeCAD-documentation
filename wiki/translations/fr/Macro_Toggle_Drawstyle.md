@@ -1,3 +1,5 @@
+# Macro Toggle Drawstyle/fr
+
  {{Macro/fr
 |Name=Macro Toggle Drawstyle
 |Description=Cette macro permet de basculer style d'affichage de l'objet sélectionné.

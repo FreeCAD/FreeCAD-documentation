@@ -1,4 +1,6 @@
-\_\_NOTOC\_\_  
+# Artwork Robot
+
+  
 
 These icons are in the indicated source path.
 
@@ -12,4 +14,4 @@ For all icons in the source tree, see [Artwork](Artwork.md).
 
  
 
-[Category:Robot{{\#translation:}}](Category:Robot.md)
+[Category:Robot](Category:Robot.md)

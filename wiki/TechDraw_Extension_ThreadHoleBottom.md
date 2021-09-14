@@ -1,6 +1,6 @@
 ---
 - GuiCommand:
-   Name:TechDraw_ExtensionThreadHoleBottom
+   Name:TechDraw Extension ThreadHoleBottom
    MenuLocation:
    Workbenches:[TechDraw](TechDraw_Workbench.md)
    Shortcut:
@@ -10,15 +10,15 @@
 
 ## Description
 
-The <img alt="" src=images/TechDraw_ExtensionThreadHoleBottom.svg  style="width:24px;"> **Thread Hole Bottom** tool creates symbolic threads at holes.
+The <img alt="" src=images/TechDraw_Extension_ThreadHoleBottom.svg  style="width:24px;"> **Thread Hole Bottom** tool adds symbolic threads to the bottom view of holes.
 
  <img alt="" src=images/TechDraw_ExtensionThreadHoleBottomExample.png  style="width:200px;">  
-*On the right a symbolic thread*
+*On the right a hole with a symbolic thread*
 
 ## Usage
 
 1.  Select one or more circles representing holes.
-2.  Press the **<img src="images/TechDraw_ExtensionThreadHoleBottom.svg" width=16px> [Thread Hole Bottom](TechDraw_Dimension_Horizontal.md)** button.
+2.  Press the **<img src="images/TechDraw_Extension_ThreadHoleBottom.svg" width=16px> [Thread Hole Bottom](TechDraw_Extension_ThreadHoleBottom.md)** button.
 3.  Symbolic threads are added.
 
 

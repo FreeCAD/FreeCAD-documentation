@@ -1,3 +1,5 @@
+# Macro Guitar fretboard/it
+
  {{Macro/it
 |Name=Macro Guitar fretboard
 |Icon=Macro_Guitar_fretboard.png

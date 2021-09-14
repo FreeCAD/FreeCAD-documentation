@@ -1,5 +1,13 @@
 ---
-- GuiCommand:/es   Name:Draft Wire   Name/es:Draft Wire   Workbenches:[Arquitectura](Draft_Module/es___Croquis]],_[[Arch_Module/es.md)|Shortcut:W I   MenuLocation:Croquis -> Polilínea   Ver también:[Línea Boceto](Draft_Line/es.md), [BSpline Boceto](Draft_BSpline/es.md)---
+- GuiCommand:/es
+   Name:Draft Wire
+   Name/es:Draft Wire
+   MenuLocation:Croquis -> Polilínea
+   Workbenches:[Croquis](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
+   Shortcut:**P** **L**
+   Version:0.7
+   SeeAlso:[Línea Boceto](Draft_Line/es.md), [BSpline Boceto](Draft_BSpline/es.md)
+---
 
 
 </div>

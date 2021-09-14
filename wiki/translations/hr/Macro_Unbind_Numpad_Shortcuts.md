@@ -1,3 +1,5 @@
+# Macro Unbind Numpad Shortcuts/hr
+
  {{Macro/hr
 |Name=Macro Unbind Numpad Shortcuts
 |Translate=Makro Razdvoji Numpad prečace

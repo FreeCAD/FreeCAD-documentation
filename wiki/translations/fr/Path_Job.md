@@ -2,14 +2,10 @@
 - GuiCommand:/fr
    Name:Path Job
    Name/fr:Path Tâche
-   MenuLocation:Path → Job
+   MenuLocation:Path → Tâche
    Workbenches:[Path](Path_Workbench/fr.md)
-   Shortcut:**P** **F**
-   SeeAlso:
+   Shortcut:**P** **J**
 ---
-
-
-</div>
 
 ## Description
 
@@ -24,16 +20,10 @@ L\'outil Travail (Tâche) crée un nouvel objet Travail dans le document actif. 
 
 ## Usage
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Appelez la commande Tâche en utilisant plusieurs méthodes:
-    -   Appuyez sur le bouton **<img src="images/Path_Job.svg" width=16px> [Tâche](Path_Job/fr.md)** dans la barre d\'outils.
-    -   Utilisation du raccourci clavier **P** puis **F**.
-    -   Utilisation de l\'entrée **Path → Tâche** dans le menu supérieur.
-
-
-</div>
+1.  Il existe plusieurs façons de lancer la commande :
+    -   Appuyez sur le bouton **<img src="images/Path_Job.svg" width=16px> [Tâche](Path_Job/fr.md)**.
+    -   Sélectionnez l\'option **Path → <img src="images/Path_Job.svg" width=16px> Tâche** dans le menu.
+    -   Utilisez le raccourci clavier : **P** puis **J**.
 
 La boîte de dialogue GUI de la Tâche comporte cinq onglets alignés horizontalement: **General**, **Output**, **Setup**, **Tools** et **Workplan**. L\'utilisateur peut à tout moment utiliser les options **OK** ou **Cancel** dans la boîte de dialogue.
 
@@ -83,13 +73,7 @@ L\'outil par défaut que vous pouvez supprimer si vous avez ajouté un outil per
 Si vous avez une tâche qui implique plus d\'une opération d\'usinage, vous pouvez déterminer dans quel ordre les opérations doivent être effectuées. Pour réorganiser, sélectionnez une opération et appuyez sur le bouton haut ou bas.
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Path_Tools_navi

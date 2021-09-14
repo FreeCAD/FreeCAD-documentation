@@ -22,7 +22,7 @@ A datum plane, as of FreeCAD 0.18, can only be created inside of a <img alt="" s
 ## Usage
 
 1.  Press the **<img src="images/PartDesign_Plane.svg" width=16px> [Create a datum plane](PartDesign_Plane.md)** button.
-2.  Define Plane parameters. Select a first reference in the 3D view to filter the available [attachment](Part_Attachment.md) modes.
+2.  Define Plane parameters. Select a first reference in the 3D view to filter the available [attachment](Part_EditAttachment.md) modes.
 3.  Depending on the selected reference, there may be one or more attachment modes available in the the list. The most likely one will automatically be selected and shown in bold in the list. The text *Attached with mode* along with the attachment mode name will appear in green at the top of the Parameters panel.
 4.  To add an additional reference, press the next **Reference** button. Once pressed its label changes to *Selecting\...* until a selection is made.
 5.  Select an attachment mode in the list.
@@ -32,7 +32,7 @@ A datum plane, as of FreeCAD 0.18, can only be created inside of a <img alt="" s
 
 ## Options
 
-Double-click the DatumPlane label in the Model tree or right-click and select **Edit datum** in the contextual menu to edit its parameters. For more details about Attachment mode and Attachment offset, see [Attachment](Part_Attachment.md).
+Double-click the DatumPlane label in the Model tree or right-click and select **Edit datum** in the contextual menu to edit its parameters. For more details about Attachment mode and Attachment offset, see [Part EditAttachment](Part_EditAttachment.md).
 
 ## Properties
 

@@ -1,4 +1,6 @@
-\_\_NOTOC\_\_ 
+# Import Export/it
+
+ 
 
 
 
@@ -145,4 +147,4 @@ Per maggiori informazioni consultare queste pagine:
 
 
 
-[Category:File\_Formats{{\#translation:}}](Category:File_Formats.md)
+[Category:File\_Formats](Category:File_Formats.md)

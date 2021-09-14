@@ -1,3 +1,5 @@
+# Property/pl
+
 
 
 ## Wprowadzenie
@@ -113,4 +115,4 @@ Są one importowane i inicjowane w `[https://github.com/FreeCAD/FreeCAD/blob/9c2
 
 }} 
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Python Code{{\#translation:}}](Category:Python_Code.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)

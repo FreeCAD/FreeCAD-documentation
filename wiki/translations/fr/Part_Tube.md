@@ -8,9 +8,6 @@
    SeeAlso:[Part Primitives](Part_CreatePrimitives/fr.md)
 ---
 
-
-</div>
-
 ## Description
 
 La commande Tube permet d\'insérer un tube dans le document actif. Le tube est traité géométriquement comme la découpe d\'un petit cylindre en un plus grand. Par défaut, la commande insère un tube de 10 mm de hauteur avec un rayon extérieur de 5 mm et un rayon intérieur de 2 mm. Ces paramètres peuvent être modifiés après l\'ajout de l\'objet.
@@ -41,13 +38,7 @@ Pour éditer le tube
     -   **Label:** L\'étiquette est le nom donné à l\'opération. Ce nom peut être changé à votre convenance.
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
  

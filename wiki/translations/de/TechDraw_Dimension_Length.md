@@ -2,7 +2,7 @@
 - GuiCommand:/de
    Name:TechDraw Dimension Length
    Name/de:TechDraw Längenbemaßung
-   MenuLocation:TechDraw → Bemaßung Länge
+   MenuLocation:TechDraw → Bemaßungen → Längenmaß einfügen
    Workbenches:[TechDraw](TechDraw_Workbench/de.md)
    SeeAlso:[TechDraw Bemaßung Horizontal](TechDraw_Dimension_Horizontal/de.md), [TechDraw Bemaßung Vertikal](TechDraw_Dimension_Vertical/de.md)
 ---
@@ -33,11 +33,11 @@ Der Bemaßungsdialog bietet die folgenden Einstellungen:
 
 -   **Theoretisch genau**: Wenn diese Option aktiviert ist, wird das Maß als theoretisch genaues Maß angegeben. Als solches darf es keine Toleranzen aufweisen. Das Maß wird durch einen Rahmen um den Wert dargestellt: <img alt="" src=images/TechDraw_theoretically_exact.png  style="width:100px;">
 
--   **Gleiche Toleranz**: Falls aktiviert, sind Über- und Untertoleranz gleich und der negierte Wert der Übertroleranz wird als Untertoleranz benutzt. Die Anzeige zeigt <img alt="" src=images/TechDraw_equal-tolerance.png  style="width:100px;">, anderenfalls <img alt="" src=images/TechDraw_Non-equal-tolerance.png  style="width:80px;">.
+-   **Gleiche Toleranz**: Falls aktiviert, sind Über- und Untertoleranz gleich und der negierte Wert der Übertoleranz wird als Untertoleranz benutzt. Die Anzeige zeigt <img alt="" src=images/TechDraw_equal-tolerance.png  style="width:100px;">, anderenfalls <img alt="" src=images/TechDraw_Non-equal-tolerance.png  style="width:80px;">.
 
--   **Übertoleranz**: Der Wert, um den die Bemaßung größer sein kann.
+-   **Übertoleranz**: Der Wert, um den die Abmessung größer sein kann.
 
--   **Untertoleranz**: Der Wert, um den die Bemaßung kleiner sein kann.
+-   **Untertoleranz**: Der Wert, um den die Abmessung kleiner sein kann.
 
 ### Formatierung
 
@@ -59,12 +59,9 @@ Der Bemaßungsdialog bietet die folgenden Einstellungen:
 
 -   **Schrifthöhe**: Die Größe des Bemaßungstextes.
 
--   **Drawing Style**: The standard (and its style) according to which the dimension is drawn. See the property [**Standard And Style**](#View.md) for details.
+-   **Zeichnungsstil**: Gibt den Standard (und dessen Stil) an, nach dem die Bemaßung gezeichnet wird. Siehe die Eigenschaft [**Standard und Stil**](#View.md) für Einzelheiten.
 
 ## Eigenschaften
-
-
-<div class="mw-translate-fuzzy">
 
 ### Daten
 
@@ -77,7 +74,12 @@ Der Bemaßungsdialog bietet die folgenden Einstellungen:
 
 -    {{PropertyData/de|Typ}}: Länge, Radius, Durchmesser usw. Wird normalerweise vom Endanwender nicht geändert.
 
--    {{PropertyData/de|MessungsTyp}}: »True« - bezogen auf die 3D Geometrie, oder *Projiziert*- bezogen auf die Zeichnung. Normalerweise nicht direkt durch den Endbenutzer verändert.
+-    {{PropertyData/de|MessungsTyp}}: Wie die Messung durchgeführt wird. Wird normalerweise nicht direkt durch den Endbenutzer geändert.
+
+:   
+
+    :   *True* - basierend auf 3D-Geometrie
+    :   *Projected* - basierenf auf der Zeichung
 
 -    {{PropertyData/de|TheoretischExakt}}: Gibt eine theoretisch exakte (oder grundlegende) Abmessung an.
 
@@ -93,11 +95,25 @@ Der Bemaßungsdialog bietet die folgenden Einstellungen:
         
         \- ein theoretischer Wert. Als solcher darf er keine Toleranzen aufweisen. Der Wert ist durch einen Rahmen um den Wert gekennzeichnet.
 
--    {{PropertyData/de|ObereToleranz}}: Der Betrag, um den das Stück größer sein könnte als die angezeigte Bemaßung.
+-    {{PropertyData/de|GleicheToleranz}}: Falls obere- und untere Toleranz gleich sind. Dann wird der negative Wert der oberen Toleranz als untere Toleranz benutzt
 
--    {{PropertyData/de|UntereToleranz}}: Der Betrag, um den das Stück kleiner sein könnte als die angezeigte Bemaßung.
+:   
 
--    {{PropertyData/de|Umgekehrt}}: Hebt hervor, ob die Dimension einen üblichen oder einen invertierten Wert darstellt.
+    :   
+        `True`
+        
+        \- der negierte Wert von {{PropertyData/de|ObereToleranz}} wird als {{PropertyData/de|UntereToleranz}} benutzt. Die Anzeige zeigt <img alt="" src=images/TechDraw_equal-tolerance.png  style="width:100px;">
+
+    :   
+        `False`
+        
+        \- der Wert von {{PropertyData/de|UntereToleranz}} wird benutzt. Die Anzeige zeigt <img alt="" src=images/TechDraw_Non-equal-tolerance.png  style="width:80px;">
+
+-    {{PropertyData/de|ObereToleranz}}: Der Betrag, um den die Abmessung größer sein könnte.
+
+-    {{PropertyData/de|UntereToleranz}}: Der Betrag, um den Abmessung kleiner sein könnte.
+
+-    {{PropertyData/de|Umgekehrt}}: Hebt hervor, ob die Bemaßung einen üblichen oder einen invertierten Wert darstellt.
 
 :   
 
@@ -112,19 +128,13 @@ Der Bemaßungsdialog bietet die folgenden Einstellungen:
         \- der umgekehrte Wert wird verwendet. Für Länge eine negative Zahl, für Winkel der Reflexwert (180° - 360°).
 
 
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-
 {{Properties_Title/de|Format}}
 
--    {{PropertyData/de|FormatAngabe}}: Ermöglicht das Hinzufügen von zusätzlichem Text zum Bemaßungstext.
+-    {{PropertyData/de|FormatAngabe}}: Wie die Bemaßung formatiert sein wird. Als Standard ist der Spezifizierer *%.xf*, wobei *x* die Anzahl der Dezimalstellen ist. Für die Formatierungssyntax siehe [printf](https://en.wikipedia.org/wiki/Printf_format_string).
 
-:   
+-    {{PropertyData/de|FormatAngabeObereToleranz}}: Wie {{PropertyData/de|FormatAngabe}}, aber für Übertoleranzen.
 
-    :   Der Dimensionswert ersetzt den %.2f Teil des Textes (oder jeden anderen gültigen Formatangabe - siehe [printf](https://en.wikipedia.org/wiki/Printf_format_string)).
+-    {{PropertyData/de|FormatAngabeUntereToleranz}}: Wie {{PropertyData/de|FormatAngabe}}, aber für Untertoleranzen.
 
 -    {{PropertyData/de|frei wählbar}}: Gibt an, ob **FormatAngabe** als Vorlage oder als aktueller Text behandelt werden soll.
 
@@ -140,40 +150,38 @@ Der Bemaßungsdialog bietet die folgenden Einstellungen:
         
         \- ignoriere den Bemaßungwert und zeige genau **FormatAngabe** an.
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+-    {{PropertyData/de|frei wählbare Toleranzen}}: Wie {{PropertyData/de|frei wählbar}}, aber für die Toleranz.
 
 ### Ansicht
 
 
-{{Properties_Title|Base}}
+{{Properties_Title|Basis}}
 
--    **Visibility**: Setzt, ob die Dimension sichtbar ist. `True`: - sichtbar, `False` - versteckt.
+-    {{PropertyView/de|Sichtbarkeit}}: Setzt, ob die Dimension sichtbar ist. `True` - sichtbar, `False` - versteckt.
 
 
 {{Properties_Title|Dim Format}}
 
 -    {{PropertyView/de|Schriftart}}: Der Name der Schriftart, die für den Bemaßungstext verwendet werden soll.
 
--    {{PropertyView/de|Schriftgröße}}: Größe des Bemaßungstextes in mm.
+-    {{PropertyView/de|Schriftgröße}}: Größe des Bemaßungstextes.
 
 -    {{PropertyView/de|Linienbreite}}: Bemaßungslinienstärke.
 
 -    {{PropertyView/de|Farbe}}: Farbe für Linien und Text.
 
--    {{PropertyView/de|StandardUndStil}}: Gibt den Standard (und dessen Stil) an, nach dem die Bemaßung gezeichnet wird:
+-    {{PropertyView/de|Standard und Stil}}: Gibt den Standard (und dessen Stil) an, nach dem die Bemaßung gezeichnet wird:
+
+<img alt="Unterschiede zwischen den unterstützten Standards" src=images/TechDraw_Dimension_standardization.png  style="width:500px;">
 
 :   
 
-    :   ISO Orientiert - gezeichnet nach ISO 129.1 (Internationale Norm), Text wird so gedreht, dass er parallel zur Tangente der Bemaßungslinie liegt.
-    :   ISO Referenzierung - gezeichnet nach ISO-129.1, der Text ist immer horizontal, über der kürzest möglichen Referenzlinie.
-    :   ASME Innenliegend - gezeichnet nach ASME Y14.5M (US Norm), der Text ist horizontal, in einem Bruch innerhalb der Maßlinie oder des Bogens eingefügt.
-    :   ASME Referenzierung - gezeichnet nach ASME Y14.5M, der Text ist horizontal, eine kurze Referenzlinie ist an der vertikalen Mitte einer Seite angebracht.
+    :   ISO Orientiert - gezeichnet gemäß Standard ISO 129-1, Text wird so gedreht, dass er parallel zur Tangente der Bemaßungslinie liegt.
+    :   ISO Referenzierung - gezeichnet in Übereinstimmung mit ISO 129-1, der Text ist immer horizontal, über der kürzest möglichen Referenzlinie.
+    :   ASME Innenliegend - gezeichnet gemäß Standard ASME Y14.5M, der Text ist horizontal, in einem Bruch innerhalb der Maßlinie oder des Bogens eingefügt.
+    :   ASME Referenzierung - gezeichnet in Übereinstimmung mit ASME Y14.5M, der Text ist horizontal, eine kurze Referenzlinie ist an der vertikalen Mitte einer Seite angebracht.
 
--    {{PropertyView/de|RenderingExtent}}: Eher universelle Eigenschaft, die angibt, wie viel Platz die Maßzeichnung einnehmen darf:
+-    {{PropertyView/de|Rendering Extent}}: Eher universelle Eigenschaft, die angibt, wie viel Platz die Maßzeichnung einnehmen darf:
 
 :   
 
@@ -185,7 +193,7 @@ Der Bemaßungsdialog bietet die folgenden Einstellungen:
     :   Normal - der Standardwert. Für Längen und Winkel wird eine doppelseitige Linie (oder ein Bogen) gezeichnet, die die *Verlängerungslinien* des Start- und Endpunktes verbindet, die Verlängerungslinien selbst ebenfalls.
     :   Durchmesser werden als doppelseitige Linien gezeichnet, die den Mittelpunkt treffen und den nächsten und den entferntesten Punkt auf dem Kreis verbinden.
     :   Radien werden als einseitige Linie vom Mittelpunkt zum nächsten Kreisbogenpunkt gezeichnet.
-    :    Erweitert\>/code\> - Nur Durchmesser unterstützen diesen Wert, so dass sie horizontal oder vertikal längenähnlich dargestellt werden. Andere Bemaßungstypen werden wie bei Normal Ausdehnung dargestellt.
+    :   Erweitert - Nur Durchmesser unterstützen diesen Wert, so dass sie horizontal oder vertikal längenähnlich dargestellt werden. Andere Bemaßungstypen werden wie bei Normal Ausdehnung dargestellt.
 
 -    {{PropertyView/de|Pfeilspitzen kippen}}: Standardmäßig bedeutet der Wert *innerhalb* der Dimensionslinie/des Bogens die Pfeile, die *nach außen* zeigen. Wird der Wert *außerhalb* der Bemaßungslinie/des Bogens platziert, zeigen die Pfeile der Bemaßungslinie/des Bogens *nach innen*.
 
@@ -196,10 +204,10 @@ Der Bemaßungsdialog bietet die folgenden Einstellungen:
         
         \- Lasse die Richtung der Pfeile automatisch nach der obigen Regel wählen.
 
-    :   {`True`} - Außer Kraft setzen der automatisch gewählten Richtung und erzwingen der entgegengesetzte Richtung.
-
-
-</div>
+    :   
+        `True`
+        
+        \- Außer Kraft setzen der automatisch gewählten Richtung und erzwingen der entgegengesetzten Richtung.
 
 ## Begrenzungen
 

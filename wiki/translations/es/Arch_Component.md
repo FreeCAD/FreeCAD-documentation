@@ -1,5 +1,12 @@
 ---
-- GuiCommand:/es   Name:Arch Component‏‎‏‎   Name/es:Arch Componente‏‎‏‎   Workbenches:[[Arch Module/es   Arch]]|MenuLocation:Arch → Utilities → Component   Shortcut:C,M‏‎   SeeAlso:---
+- GuiCommand:/es
+   Name:Arch Component
+‏‎‏‎   Name/es:Arch Componente
+‏‎‏‎   MenuLocation:Arch → Utilities → Component
+   Workbenches:[Arch](Arch_Workbench/es.md)
+   Shortcut:**C** **M**
+   SeeAlso:
+---
 
 
 </div>

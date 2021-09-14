@@ -1,3 +1,5 @@
+# Basic Attachment Tutorial/en
+
 
 
 
@@ -12,7 +14,7 @@
 
 ![centre\|The finished model](images/Attachment_Model.png )
 
-This tutorial should serve as an introduction to [Part:Attachment](Part_Attachment.md), it is not comprehensive, but hopefully will help users experiment.
+This tutorial should serve as an introduction to [Part:Attachment](Part_EditAttachment.md), it is not comprehensive, but hopefully will help users experiment.
 
 Attachment is a utility to attach an object to another one. This links the two objects\' placement properties, the attached object will then follow the original(if its placement is changed.) The focus is on Part Design workbench and attaching sketches to other sketches, this being a recommended method for making [*stable*](Feature_editing#Advice_for_creating_stable_models.md) models. Written for V0.19, but should be valid for any version 0.17 and later. However, things may differ in some details. The original model was designed by Md. Aminul Islam and downloaded from here:-https://grabcad.com/library/50-cad-exercise-drawing-1
 
@@ -170,7 +172,7 @@ If you chose the wrong line, change it now. If the triangle is pointing the wron
 
 The RightAngleTriangleSketch is now in a position that will give us the correct Geometry after a pocket operation, however we can get a little inventive here, and position the sketch so that it makes it easier for us to attach further geometry later on. We are going to shift our sketch to the middle of the line so that it provides us with a vertex at the top of the corner chamfer.
 
-In the attachment dialogue, we are going to change the attachment mode from \"Normal To Edge\" to \"Inertia 2-3\". This will change the position to the centre of the line, it\'s beyond the scope of this tutorial to describe all the attachment modes, their descriptions can be found at <img alt="" src=images/Part_Attachment.svg  style="width:24px;"> [Part Attachment](Part_Attachment.md). Suffice to say inertia 2-3 uses the centre of mass and does the job here.
+In the attachment dialogue, we are going to change the attachment mode from \"Normal To Edge\" to \"Inertia 2-3\". This will change the position to the centre of the line, it\'s beyond the scope of this tutorial to describe all the attachment modes, their descriptions can be found at <img alt="" src=images/Part_Attachment.svg  style="width:24px;"> [Part EditAttachment](Part_EditAttachment.md). Suffice to say inertia 2-3 uses the centre of mass and does the job here.
 
 ![centre\|Attachment Dialogue Inertia 2-3 mode](images/ADInertia.png )
 

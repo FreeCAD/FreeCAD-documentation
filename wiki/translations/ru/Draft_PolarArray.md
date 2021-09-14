@@ -3,7 +3,7 @@
    Name:Draft PolarArray
    Name/ru:Draft PolarArray
    MenuLocation:Draft → Polar array
-   Workbenches:[Draft](Draft_Module/ru.md)
+   Workbenches:[Draft](Draft_Workbench/ru.md)
    Version:0.19
    SeeAlso:[Array](Draft_Array/ru.md), [CircularArray](Draft_CircularArray/ru.md), [PathArray](Draft_PathArray/ru.md), [PointArray](Draft_PointArray/ru.md), [Clone](Draft_Clone/ru.md)
 ---

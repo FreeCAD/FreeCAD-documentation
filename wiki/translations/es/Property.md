@@ -1,3 +1,5 @@
+# Property/es
+
 
 
 ## Introduction
@@ -120,4 +122,4 @@ They are imported and initialized in `[https://github.com/FreeCAD/FreeCAD/blob/9
 
 }} 
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Python Code{{\#translation:}}](Category:Python_Code.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)

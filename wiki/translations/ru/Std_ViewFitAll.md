@@ -1,9 +1,9 @@
 ---
 - GuiCommand:/ru
-   Name:Std ViewFitAll
-   Name/ru:Std ViewFitAll
-   MenuLocation:Вид →Стандартные виды‏‎ → Уместить всё
-   Workbenches:All
+   Name/ru:Уместить всё
+   Name:Std_ViewFitAll
+   MenuLocation:Вид → Стандартные виды‏‎ → Уместить всё
+   Workbenches:Все
    Shortcut:**V** **F**
    SeeAlso:[Уместить выделенное](Std_ViewFitSelection/ru.md)
 ---
@@ -24,7 +24,7 @@ The **Std ViewFitAll** command zooms and pans the camera so that all visible obj
 
 -   It is also possible to zoom to \'fit all\' via the Mini-cube menu of the [Navigation Cube](Navigation_Cube.md).
 
-## Scripting
+## Программирование
 
 
 **Смотрите так же:**

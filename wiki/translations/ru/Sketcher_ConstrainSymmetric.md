@@ -1,7 +1,7 @@
 ---
 - GuiCommand:/ru
-   Name:Sketcher ConstrainSymmetric
-   Name/ru:Sketcher ConstrainSymmetric
+   Name/ru:Ограничение симметричности
+   Name:Sketcher_ConstrainSymmetric
    MenuLocation:Sketch → Ограничения эскиза → Ограничение симметричности
    Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
    Shortcut:S
@@ -10,15 +10,9 @@
 
 ## Описание
 
+**Ограничение симметричности** требует от двух выделенных точек быть симметричными относительно данной линии, то есть от обеих точек требуется лежать на нормали к линии через обе точки на одинаковом расстоянии от линии. Альтернативно, она может наложить ограничение на две точки быть симметричными относительно третьей.
 
-<div class="mw-translate-fuzzy">
-
-Ограничение симметричности требует от двух выделенных точек быть симметричными относительно данной линии, то есть от обеих точек требуется лежать на нормали к линии через обе точки на одинаковом расстоянии от линии. Альтернативно, она может наложить ограничение на две точки быть симметричными относительно третьей.
-
-
-</div>
-
-## Использование
+## Применение
 
 <img alt="" src=images/SymmetricConstraint1.png  style="width:500px;">
 
@@ -48,7 +42,7 @@ Before Version 0.19 (see fix [1](https://github.com/FreeCAD/FreeCAD/pull/3746)),
 
 See the tracker [issue \#4144](https://freecadweb.org/tracker/view.php?id=4144), and [forum thread](https://forum.freecadweb.org/viewtopic.php?f=3&t=39611).
 
-## Scripting
+## Программирование
 
 Two points and a symmetry line:
 
@@ -68,13 +62,7 @@ A line and a symmetry point (In the GUI one can select a line and a point, but i
 The [Sketcher scripting](Sketcher_scripting.md) page explains the values which can be used for `Line1`, `Line2`, `LineS`, `Line`, `PointOfLine1`, `PointOfLine2` and `PointOfLineS`, and contains further examples on how to create constraints from Python scripts.
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Sketcher Tools navi

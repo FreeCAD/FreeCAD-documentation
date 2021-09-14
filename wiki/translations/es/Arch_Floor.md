@@ -2,7 +2,7 @@
 - GuiCommand:/es
    Name:Arch Floor
    Name/es:Arch Floor
-   Workbenches:[Entorno de Arquitectura](Arch_Module/es.md)
+   Workbenches:[Entorno de Arquitectura](Arch_Workbench/es.md)
    MenuLocation:Arquitectura → Piso
    Shortcut:**F** **L**
    SeeAlso:[ Arch Celda](Arch_Cell/es.md)

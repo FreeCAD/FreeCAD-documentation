@@ -1,4 +1,6 @@
-\_\_NOTOC\_\_ 
+# Artwork Sketcher/fr
+
+ 
 
 Ces icônes se trouvent dans le chemin source indiqué.
 

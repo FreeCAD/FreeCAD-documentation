@@ -1,3 +1,5 @@
+# Arch Workbench/de
+
 
 
 
@@ -145,4 +147,4 @@ Der Arch-Arbeitsbereich kann mit den [Arch Python API](http://www.freecadweb.org
 
  
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

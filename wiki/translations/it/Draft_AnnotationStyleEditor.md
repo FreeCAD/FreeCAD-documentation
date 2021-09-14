@@ -3,7 +3,7 @@
    Name:Draft AnnotationStyleEditor
    Name/it:Draft AnnotationStyleEditor
    MenuLocation:Annotazioni → Stile delle annotazioni...
-   Workbenches:[Draft](Draft_Module/it.md)
+   Workbenches:[Draft](Draft_Workbench/it.md)
    Shortcut:
    SeeAlso:[Testo](Draft_Text/it.md), [Quota](Draft_Dimension/it.md), [Etichetta](Draft_Label/it.md)
    Version:0.19

@@ -60,7 +60,7 @@ Da fare
 <div class="mw-translate-fuzzy">
 
 
-{{docnav/it|[Apri Browser](Drawing_Openbrowser/it.md)|[Simbolo](Drawing_Symbol/it.md)|[Drawing](Drawing_Module/it.md)|IconL=Drawing_Openbrowser.png|IconC=Workbench_Drawing.svg|IconR=Drawing_Symbol.png}}
+{{docnav/it|[Apri Browser](Drawing_Openbrowser/it.md)|[Simbolo](Drawing_Symbol/it.md)|[Drawing](Drawing_Workbench/it.md)|IconL=Drawing_Openbrowser.png|IconC=Workbench_Drawing.svg|IconR=Drawing_Symbol.png}}
 
 
 </div>

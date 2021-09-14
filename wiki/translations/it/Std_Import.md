@@ -67,4 +67,4 @@ Il comando **Importa** importa la geometria da un diverso formato di file nel do
 
 }}  
 
-[Category:File\_Formats{{\#translation:}}](Category:File_Formats.md)
+[Category:File\_Formats](Category:File_Formats.md)

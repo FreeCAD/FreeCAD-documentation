@@ -1,4 +1,6 @@
- {{UnfinishedDocu}}
+# OpenCascade/en
+
+ }
 
 Redirect this page to [OpenCASCADE](OpenCASCADE.md).
 
@@ -13,4 +15,4 @@ Redirect this page to [OpenCASCADE](OpenCASCADE.md).
 
 
 
-[Category:3rd Party{{\#translation:}}](Category:3rd_Party.md)
+[Category:3rd Party](Category:3rd_Party.md)

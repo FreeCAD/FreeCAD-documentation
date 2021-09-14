@@ -1,3 +1,5 @@
+# B-Splines/pl
+
  {{TOCright}}
 
 Ta strona opisuje jak używać krzywych złożonych w programie FreeCAD. Podaje również podstawowe informacje czym są krzywe złożone i do jakich zastosowań są przydatne.

@@ -1,3 +1,5 @@
+# TechDraw Workbench/it
+
 
 
 
@@ -118,109 +120,48 @@ Gli strumenti di annotazione servono per \"commentare\" un disegno con informazi
 
 -   <img alt="" src=images/TechDraw_Annotation.svg  style="width:32px;"> [Annotazione](TechDraw_Annotation/it.md): aggiunge un blocco di testo normale da utilizzare come annotazione.
 
-
-<div class="mw-translate-fuzzy">
-
 -   <img alt="" src=images/TechDraw_LeaderLine.svg  style="width:24px;"> [Linea guida](TechDraw_LeaderLine/it.md): aggiunge una linea di annotazione a una vista. {{Version/it|0.19}}
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/TechDraw_RichTextAnnotation.svg  style="width:24px;"> [Blocco di testo](TechDraw_RichTextAnnotation/it.md): aggiunge un blocco di annotazione rich text a una [Linea guida](TechDraw_LeaderLine/it.md) o una vista. {{Version/it|0.19}}
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
 -   <img alt="" src=images/TechDraw_CosmeticVertex.svg  style="width:24px;"> [Vertice cosmetico](TechDraw_CosmeticVertex/it.md): Lo strumento Vertice cosmetico aggiunge un vertice che non fa parte della geometria originale. {{Version/it|0.19}}
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/TechDraw_Midpoints.svg  style="width:24px;"> [Punti mediani](TechDraw_Midpoints/it.md): Lo strumento Punti mediani aggiunge dei Vertici cosmetici nei punti medi di uno o più bordi. {{Version/it|0.19}}
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
 -   <img alt="" src=images/TechDraw_Quadrants.svg  style="width:24px;"> [Quadrante](TechDraw_Quadrants/it.md): Lo strumento Quadrante aggiunge dei Vertici cosmetici nei punti quarti di uno o più bordi circolari. {{Version/it|0.19}}
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/TechDraw_FaceCenterLine.svg  style="width:24px;"> [Linea a centro faccia](TechDraw_FaceCenterLine/it.md): Lo strumento Linea a centro faccia aggiunge una linea centrale alle facce selezionate. {{Version/it|0.19}}
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
 -   <img alt="" src=images/TechDraw_2LineCenterLine.svg  style="width:24px;"> [Linea centrale a 2 linee](TechDraw_2LineCenterLine/it.md): Lo strumento Linea a centro linee aggiunge una linea centrale tra 2 bordi. {{Version/it|0.19}}
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/TechDraw_2PointCenterLine.svg  style="width:24px;"> [Linea centrale a 2 punti](TechDraw_2PointCenterLine/it.md): Lo strumento Linea a centro punti aggiunge una linea centrale tra 2 punti. {{Version/it|0.19}}
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
 -   <img alt="" src=images/TechDraw_2PointCosmeticLine.svg  style="width:24px;"> [Linea tra due punti](TechDraw_2PointCosmeticLine/it.md): aggiunge una linea cosmetica che collega 2 vertici. {{Version/it|0.19}}
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/TechDraw_CosmeticEraser.svg  style="width:24px;"> [Rimuovi oggetto cosmetico](TechDraw_CosmeticEraser/it.md): Lo strumento Rimuovi oggetto cosmetico rimuove gli oggetti cosmetici da una pagina. {{Version/it|0.19}}
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
 -   <img alt="" src=images/TechDraw_DecorateLine.svg  style="width:24px;"> [Aspetto delle linee](TechDraw_DecorateLine/it.md): Lo strumento DecorateLine modifica l\'aspetto dei bordi. {{Version/it|0.19}}
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/TechDraw_ShowAll.svg  style="width:24px;"> [Mostra/nascondi i bordi invisibili](TechDraw_ShowAll/it.md): Lo strumento mostra o nasconde i bordi impostati invisibili in una vista. {{Version/it|0.19}}
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
 -   <img alt="" src=images/TechDraw_WeldSymbol.svg  style="width:24px;"> [Informazioni di saldatura](TechDraw_WeldSymbol/it.md): Lo strumento Informazioni di saldatura aggiunge le specifiche di saldatura a una linea guida esistente. {{Version/it|0.19}}
 
+## Extension Package 
 
-</div>
+The Extension Package includes many useful tools to improve your TechDraw drawings.
+
+
+**Some of these tools have yet to be released.**
+
+-   <img alt="" src=images/TechDraw_Extension_CircleCenterLines.svg  style="width:32px;"> [CircleCenterLines](TechDraw_Extension_CircleCenterLines.md): adds center lines to circles and arcs. <small>(v0.20)</small> 
+
+-   <img alt="" src=images/TechDraw_Extension_ThreadHoleSide.svg  style="width:32px;"> [ThreadHoleSide](TechDraw_Extension_ThreadHoleSide.md): adds a symbolic thread to the side view of a hole. <small>(v0.20)</small> 
+
+-   <img alt="" src=images/TechDraw_Extension_ThreadHoleBottom.svg  style="width:32px;"> [ThreadHoleBottom](TechDraw_Extension_ThreadHoleBottom.md): adds symbolic threads to the bottom view of holes. <small>(v0.20)</small> 
+
+-   <img alt="" src=images/TechDraw_Extension_ThreadBoltSide.svg  style="width:32px;"> [ThreadBoltSide](TechDraw_Extension_ThreadBoltSide.md): adds a symbolic thread to the side view of a bolt. <small>(v0.20)</small> 
+
+-   <img alt="" src=images/TechDraw_Extension_ThreadBoltBottom.svg  style="width:32px;"> [ThreadBoltBottom](TechDraw_Extension_ThreadBoltBottom.md): adds symbolic threads to the bottom view of bolts. <small>(v0.20)</small> 
 
 ## Ulteriori funzioni 
 
@@ -269,4 +210,4 @@ Video tutorial di sliptonic
 
 }} 
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

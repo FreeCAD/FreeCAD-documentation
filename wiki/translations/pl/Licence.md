@@ -1,3 +1,5 @@
+# Licence/pl
+
 
 
 
@@ -59,4 +61,4 @@ Niemniej jednak decyzja ta jest podejmowana tylko w odniesieniu do podstawowego 
 
  
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md)

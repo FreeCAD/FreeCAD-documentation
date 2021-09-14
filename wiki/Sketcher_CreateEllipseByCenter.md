@@ -32,4 +32,4 @@ This tool draws an ellipse by picking three points: the center, the end of major
 
 
 
- {{Sketcher Tools navi}}  
+ {{Sketcher Tools navi}} 

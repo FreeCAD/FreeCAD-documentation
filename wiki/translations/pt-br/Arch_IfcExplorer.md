@@ -36,4 +36,4 @@ The purpose of this explorer is simply to allow you to check what is really writ
 
  
 
-[Category:BIM{{\#translation:}}](Category:BIM.md)
+[Category:BIM](Category:BIM.md)

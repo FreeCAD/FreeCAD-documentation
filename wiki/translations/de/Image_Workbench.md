@@ -1,3 +1,5 @@
+# Image Workbench/de
+
  
 
 <img alt="Bild Arbeitsbereichssymbol" src=images/Workbench_Image.svg  style="width:128px;">
@@ -37,4 +39,4 @@ Der Versatz des Bildes kann beim Import eingestellt oder später über seine Eig
 
 }} 
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

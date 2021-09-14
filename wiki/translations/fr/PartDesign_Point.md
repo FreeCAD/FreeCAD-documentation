@@ -26,7 +26,7 @@ Crée un **point de référence** qui peut être utilisé comme référence pour
 
 ## Options
 
-Double-cliquez sur l\'étiquette Point de référence dans l\'arborescence du modèle ou cliquez avec le bouton droit de la souris et sélectionnez **Modifier la référence** dans le menu contextuel pour éditer ses paramètres. Pour plus de détails sur le mode de référencement et le décalage de la référence, voir [Part Ancrage](Part_Attachment/fr.md).
+Double-cliquez sur l\'étiquette Point de référence dans l\'arborescence du modèle ou cliquez avec le bouton droit de la souris et sélectionnez **Modifier la référence** dans le menu contextuel pour éditer ses paramètres. Pour plus de détails sur le mode de référencement et le décalage de la référence, voir [Part Ancrage](Part_EditAttachment/fr.md).
 
 ## Propriétés
 

@@ -1,5 +1,12 @@
 ---
-- GuiCommand:/ro   Name:Draft Stretch   Name/ro:Draft Stretch   Workbenches:[Arch](Draft_Module/ro___Draft]],_[[Arch_Module/ro.md)|MenuLocation:Draft → Stretch   SeeAlso:[Draft Offset](Draft_Offset/ro.md)---
+- GuiCommand:/ro
+   Name:Draft Stretch
+   Name/ro:Draft Stretch
+   MenuLocation:Draft → Stretch
+   Workbenches:[Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
+   Shortcut:**S** **H**
+   SeeAlso:[Draft Offset](Draft_Offset/ro.md)
+---
 
 
 </div>

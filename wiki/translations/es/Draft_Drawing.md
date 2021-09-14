@@ -1,5 +1,10 @@
 ---
-- GuiCommand:/es   Name:Draft_Drawing   Name/es:Dibujo   Workbenches:[Arquitectura](Draft_Module/es___Croquis]],_[[Arch_Module/es.md)|MenuLocation:Croquis → Dibujo---
+- GuiCommand:/es
+   Name:Draft_Drawing
+   Name/es:Dibujo
+   MenuLocation:Croquis → Dibujo
+   Workbenches:[Croquis](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
+---
 
 
 </div>

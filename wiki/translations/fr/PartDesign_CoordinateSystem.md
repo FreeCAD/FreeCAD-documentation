@@ -24,7 +24,7 @@ Crée un **système de coordonnées local** qui peut être utilisé comme réfé
 
 ## Options
 
-Double-cliquez sur l\'étiquette **Local\_CS** dans l\'arborescence du modèle ou cliquez avec le bouton droit de la souris et sélectionnez **Modifier la référence** dans le menu contextuel pour modifier ses paramètres. Pour plus de détails sur le mode Ancrage et le décalage dans Ancrage, voir [Part Ancrage](Part_Attachment/fr.md).
+Double-cliquez sur l\'étiquette **Local\_CS** dans l\'arborescence du modèle ou cliquez avec le bouton droit de la souris et sélectionnez **Modifier la référence** dans le menu contextuel pour modifier ses paramètres. Pour plus de détails sur le mode Ancrage et le décalage dans Ancrage, voir [Part Ancrage](Part_EditAttachment/fr.md).
 
 ## Propriétés
 

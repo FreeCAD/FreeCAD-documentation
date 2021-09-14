@@ -1,3 +1,5 @@
+# Macro DeepCopy/fr
+
  {{Macro/fr
 |Name=Macro DeepCopy
 |Icon=Macro_DeepCopy.png

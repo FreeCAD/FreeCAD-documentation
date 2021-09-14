@@ -1,3 +1,5 @@
+# Scripted objects/fr
+
 
 
 
@@ -313,15 +315,9 @@ Les types de propriétés pouvant être définis au dernier paramètre de la fon
 
 Vous pouvez trouver ces différents types de propriétés définis dans [source code C++ header for PropertyContainer](https://github.com/FreeCAD/FreeCAD/blob/master/src/App/PropertyContainer.h)
 
-
-<div class="mw-translate-fuzzy">
-
 ## Autres exemples plus complexes 
 
-Cet exemple utilise le module [Atelier Part](Part_Workbench/fr.md) pour créer un [octaèdre](http://fr.wikipedia.org/wiki/Octaèdre), puis crée sa représentation **[coin](http://www.coin3d.org/) avec pivy**
-
-
-</div>
+Cet exemple utilise l\'[Atelier Part](Part_Workbench/fr.md) pour créer un [octaèdre](http://fr.wikipedia.org/wiki/Octaèdre), puis crée sa représentation **[coin](http://www.coin3d.org/) avec pivy**
 
 En premier, c\'est **l\'objet document** lui-même:
 
@@ -900,4 +896,4 @@ En plus de ces exemples, vous pouvez voir dans le code source de FreeCAD [src/Mo
 
 }} 
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Python Code{{\#translation:}}](Category:Python_Code.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)

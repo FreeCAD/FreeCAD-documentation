@@ -1,3 +1,5 @@
+# STEP project/ro
+
 
 
 
@@ -113,4 +115,4 @@ Aici sunt câteva link uri cu informații:
 
 
 
-[Category:Roadmap{{\#translation:}}](Category:Roadmap.md)
+[Category:Roadmap](Category:Roadmap.md)

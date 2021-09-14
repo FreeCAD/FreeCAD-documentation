@@ -1,3 +1,5 @@
+# ANSI templates/fr
+
  Cette page répertorie les modèles selon le standard American National Standards Institute [ANSI](http://en.wikipedia.org/wiki/American_National_Standards_Institute)
 
 ### ANSI A 
@@ -60,4 +62,4 @@
 
 Les modèles sont dessinés par [Quick61](User:Quick61.md) et répertoriés [FreeCAD-Drawing-Templates](https://github.com/quick61/FreeCAD-Drawing-Templates)
 
-[Category:Documentation{{\#translation:}}](Category:Documentation.md) [Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Drawing{{\#translation:}}](Category:Drawing.md)
+[Category:Documentation](Category:Documentation.md) [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Drawing](Category:Drawing.md)

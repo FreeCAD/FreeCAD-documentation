@@ -29,7 +29,7 @@ Creates a **datum point** which can be used as reference for sketches or other d
 
 ## Options
 
-Double-click the DatumPoint label in the Model tree or right-click and select **Edit datum** in the contextual menu to edit its parameters. For more details about Attachment mode and Attachment offset, see [Attachment](Part_Attachment.md).
+Double-click the DatumPoint label in the Model tree or right-click and select **Edit datum** in the contextual menu to edit its parameters. For more details about Attachment mode and Attachment offset, see [Part EditAttachment](Part_EditAttachment.md).
 
 ## Properties
 

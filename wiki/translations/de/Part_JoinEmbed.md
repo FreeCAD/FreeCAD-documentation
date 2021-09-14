@@ -37,6 +37,11 @@ A Part JoinFeature object is created, with Mode set to \'Embed\'. Original objec
 
 -    **Refine**: Sets whether to apply [Refine](Part_RefineShape.md) operation or not, to the final shape. The default value is determined by a \'Automatically refine shape after boolean operation\' checkbox in PartDesign preferences. When Mode property is \'bypass\', Refine is ignored (never applied).
 
+## Example
+
+
+<div class="mw-translate-fuzzy">
+
 ## Beispiel
 
 1.  Erstelle ein Rohr durch anwenden einer [Dicke](Part_Thickness/de.md) auf einen [Zylinder](Part_Cylinder/de.md):
@@ -48,9 +53,20 @@ A Part JoinFeature object is created, with Mode set to \'Embed\'. Original objec
 4.  Benutze ein Querschnitt-Werkzeug ([Std Schnittebene](Std_ToggleClipPlane/de.md), [Arch Schnittebene](Arch_SectionPlane/de.md), [Arch SchneideEbene](Arch_CutPlane/de.md)), um Schnitte darzustellen. Auf dem folgenden Bild wurde Arch Schnittebene benutzt.
     ![320px](images/JoinFeatures_Example_step4_Embed.png)
 
+
+</div>
+
+## Algorithm
+
+
+<div class="mw-translate-fuzzy">
+
 ## Algorithmus
 
 Die Algorithmen hinter den Verbindungswerkzeugen sind ziemlich einfach und es ist wichtig, sie zu verstehen, um die Werkzeuge richtig einzusetzen.
+
+
+</div>
 
 1\. Basisobjekt ist [boolesches Schneiden](Part_Cut/de.md) mit einem Tool-Objekt. Die entstandene Form ist ein Satz ([Verbund](Part_Compound/de.md)) von nicht überschneidenden Volumenkörpern (typischerweise zwei).
 
@@ -61,6 +77,11 @@ Die Algorithmen hinter den Verbindungswerkzeugen sind ziemlich einfach und es is
 3\. Falls {{DataProperty|Refine}} den Wert `True` hat, ist die entstandene Form [verfeinert](Part_RefineShape/de.md).
 ![800px](images/JoinFeatures-Algo-Embed.png)
 
+### Notes
+
+
+<div class="mw-translate-fuzzy">
+
 ### Hinweise
 
 -   Falls das Objekt nach Schritt 1 ein Stück bliebt, ist das Ergebnis des Ausschnitts äquivalent zu [booleschem Schneiden](Part_Cut/de.md) der Basis mit dem Werkzeug.
@@ -69,20 +90,30 @@ Die Algorithmen hinter den Verbindungswerkzeugen sind ziemlich einfach und es is
 
 Because the largest piece is determined by comparing volumes of pieces, the tool can only work with solids. Dies könnte sich in der Zukunft ändern.
 
+
+</div>
+
 ## Skripten
 
-Die Verbinden-Werkzeuge können in [macros/de](macros/de.md) und von der Python-Konsole aus mit der folgenden Funktion verwendet werden: 
+Die Verbinden-Werkzeuge können in [macros/de](macros/de.md) und von der Python-Konsole aus mit der folgenden Funktion verwendet werden:
+
+
 ```pythonJoinFeatures.makePartJoinFeature(name = 'Embed', mode = 'Embed')```
 
 -   Creates an empty Embed feature (or other Join feature, depending on mode passed). The properties Base and Tool must be assigned explicitly, afterwards.
 -   Returns the newly created object.
 
-Beispiel: {{code|code=
+Beispiel:
+
+
+{{code|code=
 import JoinFeatures
 j = JoinFeatures.makePartJoinFeature(name = 'Embed', mode = 'Embed' )
 j.Base = FreeCADGui.Selection.getSelection()[0]
 j.Tool = FreeCADGui.Selection.getSelection()[1]
-}} Das Werkzeug selbst ist in Python implementiert, siehe {{FileName|/Mod/Part/JoinFeatures.py}} ([GitHub link](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Part/JoinFeatures.py)) innerhalb des FreeCAD-Installationsverzeichnisses.
+}}
+
+Das Werkzeug selbst ist in Python implementiert, siehe {{FileName|/Mod/Part/JoinFeatures.py}} ([GitHub link](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Part/JoinFeatures.py)) innerhalb des FreeCAD-Installationsverzeichnisses.
 
 
 <div class="mw-translate-fuzzy">
@@ -94,4 +125,4 @@ j.Tool = FreeCADGui.Selection.getSelection()[1]
 </div>
 
 
-  
+ 

@@ -3,13 +3,10 @@
    Name:Arch_Rebar
    Name/fr:Arch Armature personnalisée
    MenuLocation:Arch → Outils pour armatures ou 3D/BIM → Reinforcement
-   Workbenches:[Arch](Arch_Module/fr.md), [BIM](BIM_Workbench.md)
+   Workbenches:[Arch](Arch_Workbench/fr.md), [BIM](BIM_Workbench/fr.md)
    Shortcut:**R** **B**
    SeeAlso:[Arch Structure](Arch_Structure/fr.md), [Atelier Reinforcement](Reinforcement_Workbench/fr.md)
 ---
-
-
-</div>
 
 ## Description
 
@@ -17,7 +14,7 @@ L\'outil [Armature](Arch_Rebar/fr.md) vous permet de placer des [barres d\'armat
 
 L\'outil [Arch Rebar](Arch_Rebar/fr.md) est également intégré dans l\'[atelier BIM](BIM_Workbench/fr.md).
 
-Les objets Armatures sont basés sur des profils 2D comme les [esquisses](Sketcher_Workbench/fr.md) ou [les objets dessin](Draft_Module/fr.md), qui doivent être dessinés sur une face d\'un objet Structure. Vous pouvez ensuite ajuster la configuration de l\'armature comme le nombre et le diamètre des barres ou la distance de décalage entre les deux extrémités de l\'élément structurel.
+Les objets Armatures sont basés sur des profils 2D comme les [esquisses](Sketcher_Workbench/fr.md) ou [les objets dessin](Draft_Workbench/fr.md), qui doivent être dessinés sur une face d\'un objet Structure. Vous pouvez ensuite ajuster la configuration de l\'armature comme le nombre et le diamètre des barres ou la distance de décalage entre les deux extrémités de l\'élément structurel.
 
 <img alt="" src=images/Arch_Rebar_example.jpg  style="width:400px;"> 
 *L'image ci dessus montre un objet structurel, sur lequel deux esquisses sont dessinées, qui définissent le chemin des barre de fer. Ces deux esquisses sont ensuite transformées en objet Armature.*
@@ -120,15 +117,9 @@ FreeCAD.ActiveDocument.recompute()
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
  
 
-[Category:External Command Reference{{\#translation:}}](Category:External_Command_Reference.md) [Category:Reinforcement{{\#translation:}}](Category:Reinforcement.md)
+[Category:External Command Reference](Category:External_Command_Reference.md) [Category:Reinforcement](Category:Reinforcement.md)

@@ -2,7 +2,7 @@
 - GuiCommand:/es
    Name:Arch Structure
    Name/es:Arch Estructura
-   Workbenches:[Arquitectura](Arch_Module/es.md)
+   Workbenches:[Arquitectura](Arch_Workbench/es.md)
    MenuLocation:Arquitectura → Estructura
    Shortcut:**S** **T**
    SeeAlso:[Arquitectura Muro](Arch_Wall/es.md), [Arquitectura Barra de refuerzo](Arch_Rebar/es.md)

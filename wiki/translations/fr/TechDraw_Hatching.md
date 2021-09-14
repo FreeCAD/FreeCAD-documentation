@@ -1,13 +1,9 @@
-
-
-
-<div class="mw-translate-fuzzy">
+# TechDraw Hatching/fr
 
 
 
 
 
-</div>
 
 
 {{TOCright}}
@@ -78,13 +74,7 @@ Le fichier `FCPAT.pat` peut être trouvé à l\'emplacement suivant :
     -   *freecad-daily PPA* : `/usr/share/freecad-daily/Mod/TechDraw/PAT/`
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{TechDraw Tools navi

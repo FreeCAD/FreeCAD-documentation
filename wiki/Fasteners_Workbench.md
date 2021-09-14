@@ -1,3 +1,5 @@
+# Fasteners Workbench
+
  
 
 <img alt="Fasteners Workbench icon" src=images/Fasteners_workbench_icon.svg  style="width:128px;">
@@ -65,7 +67,7 @@ For a detailed description see <http://theseger.com/projects/2015/06/fasteners-w
 
 -   <img alt="" src=images/Fasteners_ChangeParameters.svg  style="width:32px;"> [Change fastener parameters](Fasteners_ChangeParameters.md): change parameters of selected fasteners.
 
-### Self-clinching Fasteners and Fasteners for PCB 
+### Self-clinching fasteners and fasteners for PCB 
 
 -   <img alt="" src=images/Fasteners_PEMPressNut.svg  style="width:32px;"> Self-clinching metric nut.
 
@@ -77,7 +79,7 @@ For a detailed description see <http://theseger.com/projects/2015/06/fasteners-w
 
 -   <img alt="" src=images/Fasteners_PCBSpacer.svg  style="width:32px;"> **PCB** Metric spacer Female/Female.
 
-### Fasteners DIN, EN and ISO 
+### DIN, EN and ISO fasteners 
 
 -   <img alt="" src=images/Fasteners_ISO4017.svg  style="width:32px;"> 
 **ISO 4017** Hexagon head screw. *Product grades A and B.*
@@ -176,7 +178,7 @@ For a detailed description see <http://theseger.com/projects/2015/06/fasteners-w
 
 -   <img alt="" src=images/Fasteners_DIN985.svg  style="width:32px;"> **DIN 985** Nyloc nut.
 
-### Fasteners ASME 
+### ASME fasteners 
 
 -   <img alt="" src=images/Fasteners_ASMEB18.2.1.6.svg  style="width:32px;"> **ASME B18.2.1.6** UNC Hex head screw.
 
@@ -214,7 +216,7 @@ For a detailed description see <http://theseger.com/projects/2015/06/fasteners-w
 
 -   <img alt="" src=images/Fasteners_ASMEB18.21.1.12C.svg  style="width:32px;"> **ASME B18.21.1.12C** UN washer, wide series.
 
-### Fasteners miscellaneous 
+### Miscellaneous
 
 -   <img alt="" src=images/Fasteners_ScrewTap.svg  style="width:32px;"> Arbitrary length threaded rod for tapping holes (metric).
 
@@ -255,4 +257,4 @@ For a detailed description see <http://theseger.com/projects/2015/06/fasteners-w
 
  
 
-[Category:Addons{{\#translation:}}](Category:Addons.md) [Category:External Command Reference{{\#translation:}}](Category:External_Command_Reference.md) [Category:External Workbenches{{\#translation:}}](Category:External_Workbenches.md) [Category:Fasteners{{\#translation:}}](Category:Fasteners.md)
+[Category:Addons](Category:Addons.md) [Category:External Command Reference](Category:External_Command_Reference.md) [Category:External Workbenches](Category:External_Workbenches.md) [Category:Fasteners](Category:Fasteners.md)

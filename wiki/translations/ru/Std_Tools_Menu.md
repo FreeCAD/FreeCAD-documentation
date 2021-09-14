@@ -1,3 +1,5 @@
+# Std Tools Menu/ru
+
 
 
 
@@ -78,4 +80,4 @@ The Tools menu provides tools for debugging models, customizing FreeCAD\'s behav
 
 }}  
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

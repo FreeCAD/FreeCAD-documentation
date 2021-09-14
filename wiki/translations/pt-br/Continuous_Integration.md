@@ -1,3 +1,5 @@
+# Continuous Integration/pt-br
+
 
 
 
@@ -32,4 +34,4 @@ Currently the FreeCAD repository on GitHub will trigger a build on the below two
 
  
 
-[Category:Developer\_Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Testing{{\#translation:}}](Category:Testing.md)
+[Category:Developer\_Documentation](Category:Developer_Documentation.md) [Category:Testing](Category:Testing.md)

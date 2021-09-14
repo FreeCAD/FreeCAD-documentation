@@ -1,3 +1,5 @@
+# Std Macro Menu/de
+
 
 
 
@@ -68,4 +70,4 @@ Führt das Makro aus, das sich derzeit im Python Editor befindet.
 
 }}  
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

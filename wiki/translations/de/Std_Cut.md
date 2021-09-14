@@ -9,30 +9,20 @@
 
 ## Beschreibung
 
+Der **Ausschneiden**-Befehl ist eingeschränkt: Er kann nur für [Tabellenkalkulation](Spreadsheet_Workbench/de.md)-Zellen benutzt werden. Der Befehl kopiert Inhalt und Eigenschaften von Zellen in die Zwischenablage und löscht sie dann.
 
-<div class="mw-translate-fuzzy">
-
-Der Ausschneiden-Befehl kopiert die aktuell ausgewählten Objekte in die *Zwischenablage* für die spätere Verwendung durch den [Einfügen](Std_Paste/de.md)-Befehl und löscht diese im aktuellen Dokument. Objekte können zwischen Dokumenten kopiert werden.
-
-
-</div>
-
-To cut other objects you can use the [Std Copy](Std_Copy.md) command followed by a delete operation.
+Um andere Objekte auszuschneiden, kannst du den [Std Kopieren](Std_Copy/de.md)-Befehl benutzen, gefolgt von einer Lösch-Operation.
 
 ## Anwendung
 
+1.  Wähle ein oder mehrere Zellen in der Tabellenkalkulation.
+2.  Es gibt mehrere Wege, um den Befehl aufzurufen:
+    -   Drücke die **<img src="images/Std_Cut.svg" width=16px> [Std Ausschneiden](Std_Cut/de.md)**-Schaltfläche.
+    -   Wähle die **Bearbeiten → <img src="images/Std_Cut.svg" width=16px> Ausschneiden**-Option aus dem Menü.
 
-<div class="mw-translate-fuzzy">
+## Hinweise
 
-1.  Wähle die auszuschneidenden Objekte.
-2.  Drücke das **[16px|Ausschneiden](File:Std_Cut.png.md)**-Piktogramm, die **Strg** + **X**-Tasten oder aus der Menüleiste **Bearbeiten** → **Ausschneiden**.
-
-
-</div>
-
-## Notes
-
--   The standard keyboard shortcut **Ctrl**+**X** does not call the **Std Cut** command but uses the Cut function from the OS instead. You can use this shortcut in most FreeCAD text windows and input boxes, it also works for spreadsheet cells.
+-   Das Standard-Tastaturkürzel **Strg**+**X** ruft nicht den **Std Ausschneiden**-Befehl auf, sondern benutzt stattdessen die Ausschneiden-Funktion des Betriebssystems. Du kannst dieses Tastaturkürzel in den meisten FreeCAD-Textfenstern und Eingabefelders verwenden, es funktioniert auch für Tabellenkalkulationszellen.
 
 
 

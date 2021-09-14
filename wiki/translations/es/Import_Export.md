@@ -1,4 +1,6 @@
-\_\_NOTOC\_\_ 
+# Import Export/es
+
+ 
 
 
 
@@ -73,4 +75,4 @@ Ver las siguientes páginas para obtener información adicional:
 
 
 
-[Category:File\_Formats{{\#translation:}}](Category:File_Formats.md)
+[Category:File\_Formats](Category:File_Formats.md)

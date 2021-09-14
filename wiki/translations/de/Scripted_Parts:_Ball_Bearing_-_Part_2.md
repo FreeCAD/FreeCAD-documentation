@@ -1,3 +1,5 @@
+# Scripted Parts: Ball Bearing - Part 2/de
+
  {{TutorialInfo/de
 |Topic= Part Scripting - Ball Bearing #2
 |Level= Beginner
@@ -65,21 +67,12 @@ Der korrekte skizzen-basierende Ablauf um die Kugeln einzufügen wäre wie folgt
 Dies ist nicht sehr effektiv, es ist der schnellere Weg, Grundkörper einzufügen und diese zu positionieren
 Also benutzen wir dieselbe Methode wie in Teil 1.
 
-
-<div class="mw-translate-fuzzy">
-
 ### Links
 
-[Scripted objects](Scripted_objects.md): Diese Wiki-Seite erklärt die Grundlagen für part scripting
-[Topological data scripting](Topological_data_scripting.md): Ein Tutorial für die Grundlagen des part scriptings
-[Scripted Parts: Ball Bearing - Part 1/de](Scripted_Parts:_Ball_Bearing_-_Part_1/de.md): Erstellen des Modelles mittels Grundkörpern
+[Skriptgenerierte Objekte](Scripted_objects/de.md): Diese Wiki-Seite erklärt die Grundlagen für part scripting
+[Topologisches Datenskripten](Topological_data_scripting/de.md): Ein Tutorial für die Grundlagen des part scriptings
+[Skriptgenerierte Teile: Kugellager - Teil 1](Scripted_Parts:_Ball_Bearing_-_Part_1/de.md): Erstellen des Modelles mittels Grundkörpern
 [Bearings from scripted sketches](http://linuxforanengineer.blogspot.de/2013/12/bearings-from-scripted-sketches.html): Basis für dieses Tutorial, vielen Dank an JMG \...
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
 
 ### Code
 
@@ -122,8 +115,6 @@ PBall=TH/2
 #Erstelle neues Dokument
 App.newDocument("Unnamed")
 App.setActiveDocument("Unnamed")
-App.ActiveDocument=App.getDocument("Unnamed")
-Gui.ActiveDocument=Gui.getDocument("Unnamed")
 #
 #Linien fuer die Grundform des aeusseren Ringes
 L1o=Part.makeLine((R4,0,TH-RR),(R4,0,RR))
@@ -176,17 +167,14 @@ for i in range(NBall):
   Part.show(Ball)
 #
 #Alles huebsch machen ...#
-App.activeDocument().recompute()
-Gui.activeDocument().activeView().viewAxometric()
+App.ActiveDocument.recompute()
+Gui.ActiveDocument.ActiveView.viewAxometric()
 Gui.SendMsgToActiveView("ViewFit")
 ```
-
-
-</div>
 
 
 {{Powerdocnavi
 
 }} 
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Python Code{{\#translation:}}](Category:Python_Code.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)

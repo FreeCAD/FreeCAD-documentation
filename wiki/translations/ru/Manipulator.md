@@ -1,4 +1,6 @@
- {{UnfinishedDocu}}
+# Manipulator/ru
+
+ }
 
 
 <div class="mw-translate-fuzzy">
@@ -15,4 +17,4 @@
 
 
 
-[Category:Glossary{{\#translation:}}](Category:Glossary.md)
+[Category:Glossary](Category:Glossary.md)

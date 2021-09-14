@@ -2,9 +2,9 @@
 - GuiCommand:/ru
    Name:Draft Downgrade
    Name/ru:Draft Downgrade
-   Workbenches:[Draft](Draft_Module/ru.md), [Arch](Arch_Module/ru.md)
    MenuLocation:Черчение -> Перестроить
-   Shortcut:D N
+   Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
+   Shortcut:**D** **N**
    SeeAlso:[Обновить](Draft_Upgrade/ru.md)
 ---
 

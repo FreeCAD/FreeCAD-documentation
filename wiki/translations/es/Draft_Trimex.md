@@ -1,5 +1,12 @@
 ---
-- GuiCommand:/es   Name:Draft Trimex   Workbenches:[Arquitectura](Draft_Module/es___Croquis]],_[[Arch_Module/es.md)|MenuLocation:Croquis -> Recortar/Extender   Shortcut:T R   SeeAlso:[Extrusión](Part_Extrude/es.md)---
+- GuiCommand:/es
+   Name:Draft Trimex
+   Name/es:Draft Trimex
+   MenuLocation:Croquis -> Recortar/Extender
+   Workbenches:[Croquis](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
+   Shortcut:**T** **R**
+   SeeAlso:[Extrusión](Part_Extrude/es.md)
+---
 
 
 </div>

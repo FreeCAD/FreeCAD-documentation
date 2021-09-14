@@ -1,3 +1,5 @@
+# Basic Attachment Tutorial/fr
+
 
 
 
@@ -12,7 +14,7 @@
 
 ![centre\|Le modèle terminé](images/Attachment_Model.png )
 
-Ce tutoriel devrait servir d\'introduction à [Part Ancrage](Part_Attachment/fr.md). Il n\'est pas exhaustif mais nous espérons qu\'il aidera les utilisateurs à se familiariser avec.
+Ce tutoriel devrait servir d\'introduction à [Part Ancrage](Part_EditAttachment/fr.md). Il n\'est pas exhaustif mais nous espérons qu\'il aidera les utilisateurs à se familiariser avec.
 
 Ancrage est un utilitaire pour attacher un objet à un autre. Cela lie les propriétés de placement des deux objets, l\'objet ancré suivra alors l\'original (si son placement est modifié.) L\'accent est mis sur l\'atelier Part Design et l\'ancrage d\'esquisses à d\'autres esquisses. Il s\'agit d\'une méthode recommandée pour créer des modèles [*stables*](Feature_editing/fr#Conseils_pour_la_cr.C3.A9ation_de_mod.C3.A8les_robustes.md). Écrit pour la V0.19, mais devrait être valide pour toute version V0.17 et ultérieure. Cependant, les choses peuvent différer dans certains détails. Le modèle original a été conçu par Md. Aminul Islam et téléchargé à partir d\'ici : <https://grabcad.com/library/50-cad-exercise-drawing-1>
 
@@ -170,7 +172,7 @@ Si vous avez choisi la mauvaise ligne, changez-la maintenant. Si le triangle poi
 
 Le RightAngleTriangleSketch est maintenant dans une position qui nous donnera la bonne géométrie après une opération de pocket, mais nous pouvons être un peu inventifs ici et positionner l\'esquisse de manière à ce qu\'il nous soit plus facile d\'attacher plus tard la géométrie. Nous allons déplacer notre esquisse au milieu de la ligne afin qu\'elle nous fournisse un sommet en haut du chanfrein d\'angle.
 
-Dans la boîte de dialogue d\'attachement, nous allons changer le mode d\'ancrage de \"Normal To Edge\" à \"Inertia 2-3\". Cela changera la position au centre de la ligne, cela dépasse le cadre de ce tutoriel pour décrire tous les modes d\'ancrage, leurs descriptions peuvent être trouvées à la page <img alt="" src=images/Part_Attachment.svg  style="width:24px;"> [Part Ancrage](Part_Attachment/fr.md). Il est clair qu\'inertia 2-3 utilise le centre de masse et fait l\'affaire ici.
+Dans la boîte de dialogue d\'attachement, nous allons changer le mode d\'ancrage de \"Normal To Edge\" à \"Inertia 2-3\". Cela changera la position au centre de la ligne, cela dépasse le cadre de ce tutoriel pour décrire tous les modes d\'ancrage, leurs descriptions peuvent être trouvées à la page <img alt="" src=images/Part_Attachment.svg  style="width:24px;"> [Part Ancrage](Part_EditAttachment/fr.md). Il est clair qu\'inertia 2-3 utilise le centre de masse et fait l\'affaire ici.
 
 ![centre\|Boîte de dialogue Attachment en mode Inertia 2-3](images/ADInertia.png )
 

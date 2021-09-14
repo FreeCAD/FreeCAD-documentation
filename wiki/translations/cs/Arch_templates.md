@@ -1,3 +1,5 @@
+# Arch templates/cs
+
 
 
 
@@ -98,4 +100,4 @@ Na této stránce je seznam šablon podle standardů American National Standards
 
 Šablony jsou nakresleny uživatelem [Quick61](User:Quick61.md) a jejich seznam je na [FreeCAD-Drawing-Templates](https://github.com/quick61/FreeCAD-Drawing-Templates).
 
-[Category:Documentation{{\#translation:}}](Category:Documentation.md) [Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Drawing{{\#translation:}}](Category:Drawing.md)
+[Category:Documentation](Category:Documentation.md) [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Drawing](Category:Drawing.md)

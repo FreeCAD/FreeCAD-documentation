@@ -1,3 +1,5 @@
+# Points Workbench/fr
+
 
 
 
@@ -49,4 +51,4 @@ Tous les outils de l\'atelier Points sont accessibles depuis le menu **Points**.
 
 }} 
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

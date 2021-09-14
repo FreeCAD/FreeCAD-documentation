@@ -1,3 +1,5 @@
+# Mesh Workbench/pt-br
+
 
 
 
@@ -121,4 +123,4 @@ As preferências da Bancada de Trabalho Mesh podem ser encontradas nas seguintes
 
 }} 
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

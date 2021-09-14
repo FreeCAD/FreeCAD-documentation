@@ -1,3 +1,5 @@
+# Getting started/bg
+
 
 
 
@@ -335,9 +337,9 @@ There are two types of addons:
 -   [Version 0.16 Release notes](Release_notes_0.16.md) : Вижте какво ново в версия 0.16 на FreeCAD
 -   [Version 0.15 Release notes](Release_notes_0.15.md) : Вижте какво ново в версия 0.15 на FreeCAD
 -   [Version 0.14 Release notes](Release_notes_0.14.md) : Вижте какво ново в версия 0.14 на FreeCAD
--   [Version 0.13 Release notes](Release_notes_013.md) : Вижте какво ново в версия 0.13 на FreeCAD
--   [Version 0.12 Release notes](Release_notes_012.md) : Вижте какво ново в версия 0.12 на FreeCAD
--   [Version 0.11 Release notes](Release_notes_011.md) : Вижте какво ново в версия 0.11 на FreeCAD
+-   [Version 0.13 Release notes](Release_notes_0.13.md) : Вижте какво ново в версия 0.13 на FreeCAD
+-   [Version 0.12 Release notes](Release_notes_0.12.md) : Вижте какво ново в версия 0.12 на FreeCAD
+-   [Version 0.11 Release notes](Release_notes_0.11.md) : Вижте какво ново в версия 0.11 на FreeCAD
 
 
 </div>

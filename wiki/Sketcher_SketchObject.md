@@ -1,3 +1,5 @@
+# Sketcher SketchObject
+
  
 
 ## Introduction
@@ -46,7 +48,7 @@ In addition to the properties described in [Part Part2DObject](Part_Part2DObject
 
 {{TitleProperty|Attachment}}
 
--    **Map Mode**, **Map Reversed**, **Attachment Offset**: same as [Part Part2DObject](Part_Part2DObject.md). See [Part Attachment](Part_Attachment.md) for more information on all attachment mapping modes.
+-    **Map Mode**, **Map Reversed**, **Attachment Offset**: same as [Part Part2DObject](Part_Part2DObject.md). See [Part EditAttachment](Part_EditAttachment.md) for more information on all attachment mapping modes.
 
 
 {{TitleProperty|Sketch}}

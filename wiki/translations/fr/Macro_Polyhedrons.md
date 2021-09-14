@@ -1,3 +1,5 @@
+# Macro Polyhedrons/fr
+
  {{Macro/fr
 |Name=Macro Polyhedrons
 |Name/fr=Macro Polyhedrons

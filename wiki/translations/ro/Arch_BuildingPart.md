@@ -1,5 +1,12 @@
 ---
-- GuiCommand:/ro   Name:Arch BuildingPart   Name/ro:Arch BuildingPart   Workbenches:[MenuLocation:Arch → BuildingPart   Shortcut:   SeeAlso:[[Arch Building](Arch_Module/ro___Arch]].md), [[Arch Floor]]---
+- GuiCommand:/ro
+   Name:Arch BuildingPart
+   Name/ro:Arch BuildingPart
+   MenuLocation:Arch → BuildingPart
+   Workbenches:[Arch](Arch_Workbench/ro.md)
+   Shortcut:
+   SeeAlso:[[Arch Building]], [[Arch Floor]]
+---
 
 
 </div>

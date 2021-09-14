@@ -1,4 +1,6 @@
-\_\_NOTOC\_\_ 
+# Artwork Complete/pl
+
+ 
 
 Ikony te znajdują się we wskazanej ścieżce źródłowej.
 

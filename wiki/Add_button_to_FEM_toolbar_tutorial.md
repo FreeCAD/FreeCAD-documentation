@@ -1,3 +1,5 @@
+# Add button to FEM toolbar tutorial
+
 
 {{Page_in_progress}}
 
@@ -106,4 +108,4 @@ To add the command to the **solve** menu of the FEM workbench, search for the fo
 
 
 
-[Category:FEM{{\#translation:}}](Category:FEM.md) [Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md)
+[Category:FEM](Category:FEM.md) [Category:Developer Documentation](Category:Developer_Documentation.md)

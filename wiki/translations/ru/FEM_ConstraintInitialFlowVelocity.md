@@ -16,7 +16,7 @@
 
 Создает ограничение начальной скорости потока для анализа потока жидкости.
 
-## Использование
+## Применение
 
 1.  There are several ways to invoke the command:
     -   Press the **<img src="images/FEM_ConstraintInitialFlowVelocity.svg" width=16px> [FEM ConstraintInitialFlowVelocity](FEM_ConstraintInitialFlowVelocity.md)** button.

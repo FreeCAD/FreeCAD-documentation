@@ -1,5 +1,11 @@
 ---
-- GuiCommand:/de   Name:Draft ToggleDisplayMode   Name/de:Anzeige-Modus unschalten   Workbenches:[Arch](Draft_Module/de___Draft]],_[[Arch_Module/de.md)|MenuLocation:Draft → Utilities → Anzeige-Modus unschalten   Shortcut:Shift + Space---
+- GuiCommand:/de
+   Name:Draft ToggleDisplayMode
+   Name/de:Anzeige-Modus unschalten
+   MenuLocation:Draft → Utilities → Anzeige-Modus unschalten
+   Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
+   Shortcut:**Shift**+**Space**
+---
 
 
 </div>

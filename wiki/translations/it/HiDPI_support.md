@@ -1,3 +1,5 @@
+# HiDPI support/it
+
 
 
 
@@ -243,4 +245,4 @@ Qt doesn\'t provide the functionality to retrieve that value. So we have to eith
 
 
 
-[Category:Roadmap{{\#translation:}}](Category:Roadmap.md)
+[Category:Roadmap](Category:Roadmap.md)

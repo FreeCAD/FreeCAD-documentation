@@ -1,3 +1,5 @@
+# Robot Workbench/sv
+
 
 
 
@@ -111,4 +113,4 @@ See the [Robot API example](Robot_API_example.md) for a description of the funct
 
 }} 
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

@@ -1,3 +1,5 @@
+# Arch JSON/pl
+
 
 
 
@@ -29,4 +31,4 @@ Należy zauważyć, że ścianki tworzą trójkąty, a ich wartości całkowite 
 
  
 
-[Category:File Formats{{\#translation:}}](Category:File_Formats.md)
+[Category:File Formats](Category:File_Formats.md)

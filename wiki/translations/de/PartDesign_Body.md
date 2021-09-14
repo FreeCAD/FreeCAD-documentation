@@ -223,7 +223,7 @@ In der [Baumansicht](tree_view/de.md) wird die Spitze des Körpers durch das [Pa
 
 <div class="mw-translate-fuzzy">
 
-Standardmäßig sind Objekte unter einem Körper auswählbar, was natürlich erforderlich ist, um Merkmale in PartDesign zu bearbeiten und hinzuzufügen. Die Auswahl der Funktionen eines Körpers zur Erstellung von Operationen aus anderen Arbeitsbereichen (wie [Part](Part_Workbench/de.md) oder [Draft](Draft_Module/de.md)) wird jedoch nicht empfohlen, da die Ergebnisse unerwartet sein können; in allen Fällen wird im Ausgabefenster ein Fehler gekennzeichnet mit *Links go out of the allowed scope* angezeigt.
+Standardmäßig sind Objekte unter einem Körper auswählbar, was natürlich erforderlich ist, um Merkmale in PartDesign zu bearbeiten und hinzuzufügen. Die Auswahl der Funktionen eines Körpers zur Erstellung von Operationen aus anderen Arbeitsbereichen (wie [Part](Part_Workbench/de.md) oder [Draft](Draft_Workbench/de.md)) wird jedoch nicht empfohlen, da die Ergebnisse unerwartet sein können; in allen Fällen wird im Ausgabefenster ein Fehler gekennzeichnet mit *Links go out of the allowed scope* angezeigt.
 
 
 </div>
@@ -249,7 +249,13 @@ Mehrfache [Skizzen](Sketch/de.md) können gleichzeitig sichtbar sein, aber nur e
 
 [PartDesign Formelemente](PartDesign_Feature/de.md), genau wie [Ebene Objekte](Part_Part2DObject/de.md), können an unterschiedliche Ebenen angehängt werden, normalerweise an die Standardebenen, die durch die [Ursprung](PartDesign_Body#Origin/de.md) des Körpers definiert sind, oder an benutzerdefinierte [PartDesign Ebenen](PartDesign_Plane/de.md).
 
+
+<div class="mw-translate-fuzzy">
+
 [Skizzen](Sketch/de.md) werden normalerweise bei ihrer Erstellung an eine Ebene angehängt. Auf ähnliche Weise können auch [Grundformelemente](PartDesign_CompPrimitiveAdditive/de.md) angehängt werden. Das Anhängen dieser Objekte an eine Ebene ermöglicht es, sie innerhalb des Körpers zu bewegen, indem ihre Eigenschaft {{PropertyData/de|Anfügung Versatz}} geändert wird. Weitere Informationen zu den Anfügemodi findest Du unter [Part Anfügung](Part_Attachment/de.md).
+
+
+</div>
 
 Ein [PartDesign Formelement](PartDesign_Feature/de.md), das nicht angehängt ist, wird mit einem roten Überlagerungssymbol neben seinem Symbol in der [Baumansicht](tree_view/de.md) angezeigt.
 

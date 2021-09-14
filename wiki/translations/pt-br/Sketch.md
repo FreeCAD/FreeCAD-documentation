@@ -1,3 +1,5 @@
+# Sketch/pt-br
+
 
 
 ## Introdução
@@ -37,4 +39,4 @@ Nevertheless, a Sketch can always be created by itself for any other purpose; it
 
 }} {{Document objects navi}} 
 
-[Category:Glossary{{\#translation:}}](Category:Glossary.md)
+[Category:Glossary](Category:Glossary.md)

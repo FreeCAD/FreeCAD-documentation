@@ -1,3 +1,5 @@
+# Compile on MacOS/fr
+
 
 
 
@@ -192,4 +194,4 @@ FreeCAD peut être construit à partir du dernier master git hébergé sur githu
 
 
 
-[Category:Developer\_Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Developer{{\#translation:}}](Category:Developer.md)
+[Category:Developer\_Documentation](Category:Developer_Documentation.md) [Category:Developer](Category:Developer.md)

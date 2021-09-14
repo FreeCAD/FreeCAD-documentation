@@ -1,3 +1,5 @@
+# FreeCAD API/ru
+
  {{VeryImportantMessage|(Октябрь 2019) Не редактируйте эту страницу. Информация является неполной и устаревшей. Для получения последней версии API см.[https://www.freecadweb.org/api автосгенерированную API документацию], или вы можете сгенерировать документацию самостоятельно, смотрите [Исходня документация](Source_documentation.md).}}
 
 This is the principal (root) module of FreeCAD. It can also be called by \"App\" from the FreeCAD interpreter. It contains everything that is needed to manipulate documents and their contents (objects).
@@ -60,4 +62,4 @@ mydoc = FreeCAD.activeDocument()
 
  
 
-[Category:API{{\#translation:}}](Category:API.md) [Category:Poweruser Documentation{{\#translation:}}](Category:Poweruser_Documentation.md)
+[Category:API](Category:API.md) [Category:Poweruser Documentation](Category:Poweruser_Documentation.md)

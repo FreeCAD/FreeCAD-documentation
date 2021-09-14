@@ -1,8 +1,9 @@
 ---
 - GuiCommand:/de
-   Name:Draft Dimensions   Name/de:Draft Abmessung
+   Name:Draft Dimensions
+   Name/de:Draft Abmessung
    MenuLocation:Entwurf → [Objektfang](Draft_Snap/de.md) → Bemaßungen
-   Workbenches:[Draft](Draft_Module/de.md), [Arch](Arch_Module/de.md)
+   Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
 ---
 
 

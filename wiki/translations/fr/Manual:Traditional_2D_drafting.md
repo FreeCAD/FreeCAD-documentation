@@ -1,3 +1,5 @@
+# Manual:Traditional 2D drafting/fr
+
  
 
 
@@ -112,4 +114,4 @@ Fondamentalement, ce que fait l'atelier Draft, c\'est fournir des moyens graphiq
 
 
 
-[Category:Tutorials{{\#translation:}}](Category:Tutorials.md) [Category:Draft{{\#translation:}}](Category:Draft.md)
+[Category:Tutorials](Category:Tutorials.md) [Category:Draft](Category:Draft.md)

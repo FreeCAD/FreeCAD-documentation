@@ -2,8 +2,9 @@
 - GuiCommand:/de
    Name:TechDraw Dimension Horizontal Extent
    Name/de:TechDraw Bemaßung Horizontale Ausdehnung
-   MenuLocation:TechDraw → Abmessung Horizontale Ausdehnung
+   MenuLocation:TechDraw → Bemaßungen → Maß für die horizontale Ausdehnung einfügen
    Workbenches:[TechDraw](TechDraw_Workbench/de.md)
+   Version:0.19
    SeeAlso:[TechDraw Abmessung Länge](TechDraw_Dimension_Length/de.md), [TechDraw Abmessung Vertikale Ausdehnung](TechDraw_Dimension_Vertical_Extent/de.md)
 ---
 

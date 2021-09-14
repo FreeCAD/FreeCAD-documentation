@@ -1,8 +1,10 @@
+# Power users hub/cs
+
  <img alt="" src=images/Power_user_hub.png  style="width:64px;">
 
 ------------------------------------------------------------------------
 
-\_\_NOTOC\_\_
+
 
 
 <div class="mw-translate-fuzzy">
@@ -242,4 +244,4 @@ Na [komunitním portalu](FreeCAD_Community_Portal.md) najdete další projekty z
 
 }}
 
-[Category:Hubs{{\#translation:}}](Category:Hubs.md)
+[Category:Hubs](Category:Hubs.md)

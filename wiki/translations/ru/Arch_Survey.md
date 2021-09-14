@@ -2,8 +2,8 @@
 - GuiCommand:/ru
    Name:Arch Survey
    Name/ru:Arch Survey
-   Workbenches:[Arch](Arch_Module/ru.md)
    MenuLocation:Архитектура → Опрос/анкетирование
+   Workbenches:[Arch](Arch_Workbench/ru.md)
    SeeAlso:[FCInfo (macro)](Macro_FCInfo/ru.md)
 ---
 

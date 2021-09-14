@@ -2,52 +2,30 @@
 - GuiCommand:/fr
    Name:Path SelectLoop
    Name/fr:Path Terminer une Boucle
-   MenuLocation:Path → Finish Selecting Loop
+   MenuLocation:Path → Termine la boucle de sélection
    Workbenches:[Path](Path_Workbench/fr.md)
    Shortcut:**P** **L**
-   SeeAlso:
 ---
 
 ## Description
 
-
-<div class="mw-translate-fuzzy">
-
-## Description 
-
-La commande **<img src="images/Path_SelectLoop.svg" width=16px> [Path Finish Selecting Loop](Path_SelectLoop/fr.md)** complète une sélection d\'arêtes formant une boucle.
-
-
-</div>
+La commande **<img src="images/Path_SelectLoop.svg" width=16px> [Terminer une boucle](Path_SelectLoop/fr.md)** complète une sélection d\'arêtes formant une boucle.
 
 ## Utilisation
 
+1.  Sélectionnez deux arêtes qui partagent un sommet commun.
+2.  Il y a plusieurs façons de lancer cette commande :
+    -   Appuyez sur le bouton **<img src="images/Path_SelectLoop.svg" width=16px> [Termine la boucle de sélection](Path_SelectLoop/fr.md)**.
+    -   Sélectionnez la commande **Path → <img src="images/Path_SelectLoop.svg" width=16px> Termine la boucle de sélection** dans le menu.
+    -   Utilisez le raccourci clavier : **P** puis **L**.
+3.  Les bords restants de la boucle sont ajoutés à la sélection.
 
-<div class="mw-translate-fuzzy">
+## Remarques
 
-1.  Sélectionnez deux arêtes partageant un sommet commun.
-2.  Appelez la commande Select Loop en utilisant plusieurs méthodes:
-3.  \* Appuyez sur le bouton **<img src="images/Path_SelectLoop.svg" width=24px>**.
-4.  \* Utilisation du raccourci clavier **P** puis **L**.
-5.  \* Utilisation de l\'entrée **Path  →  **<img src="images/Path_SelectLoop.svg" width=24px> [Finish Selecting Loop](Path_SelectLoop/fr.md)**** dans le menu Path.
-
-**RÉSULTAT:** Les arêtes restantes qui forment la boucle seront automatiquement sélectionnées. **Remarque: Cette fonction est également très utile dans d\'autres établis**.
-
-
-</div>
-
-## Notes
-
--   This command can also be very useful in other workbenches.
-
-
-<div class="mw-translate-fuzzy">
+-   Cette commande peut également être très utile dans d\'autres ateliers.
 
 
 
-
-
-</div>
 
 
 {{Path_Tools_navi

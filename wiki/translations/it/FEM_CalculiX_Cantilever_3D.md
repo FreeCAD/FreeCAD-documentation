@@ -1,3 +1,5 @@
+# FEM CalculiX Cantilever 3D/it
+
 
 
 
@@ -23,7 +25,7 @@
 
 ## Introduzione
 
-Questo esempio ha lo scopo di mostrare come appare una semplice analisi degli elementi finiti (FEA) e in che modo i risultati possono essere visualizzati nel [modulo FEM](FEM_Module/it.md) di FreeCAD. Viene mostrato come attivare una FEA e come modificare il valore e la direzione del carico. Inoltre, poiché il file di esempio è fornito con tutte le installazioni di FreeCAD, è facile verificare se il modulo FEM è impostato correttamente.
+Questo esempio ha lo scopo di mostrare come appare una semplice analisi degli elementi finiti (FEA) e in che modo i risultati possono essere visualizzati nel [modulo FEM](FEM_Workbench/it.md) di FreeCAD. Viene mostrato come attivare una FEA e come modificare il valore e la direzione del carico. Inoltre, poiché il file di esempio è fornito con tutte le installazioni di FreeCAD, è facile verificare se il modulo FEM è impostato correttamente.
 
 
 </div>
@@ -224,7 +226,7 @@ Questo esempio ha lo scopo di mostrare come appare una semplice analisi degli el
 
 ## Cos\'altro ?
 
--   Il flusso di lavoro di base per l\'ambiente [FEM](FEM_Module/it.md) è finito.
+-   Il flusso di lavoro di base per l\'ambiente [FEM](FEM_Workbench/it.md) è finito.
 -   Ora si è pronti per eseguire il secondo [Tutorial di FEM](FEM_tutorial/it.md).
 -   Creeremo da soli un Calculix di una trave a sbalzo e confronteremo i risultati con la teoria delle travi.
 

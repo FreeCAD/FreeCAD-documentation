@@ -1,3 +1,5 @@
+# Macro Global Variable Watcher/it
+
  {{Macro/it
 |Name=Macro Global Variable Watcher
 |Translate=Global Variable Watcher

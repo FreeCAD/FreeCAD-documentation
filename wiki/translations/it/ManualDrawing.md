@@ -1,3 +1,5 @@
+# ManualDrawing/it
+
 
 <H1 align="center">
 
@@ -6,14 +8,14 @@ Guida ai comandi di FreeCAD
 
 </H1>
 
-\_\_NOTOC\_\_ Questa è la guida ai comandi di FreeCAD. Comprende le pagine del [Wiki della documentazione di FreeCAD](Main_Page/it.md) che si riferiscono ai comandi. Questa versione è stata creata principalmente per essere stampata come un unico grande documento o per consentire una panoramica veloce sulle pagine dei comandi. Se si sta leggendo questo online, si consiglia di andare direttamente alla [Guida in linea](Online_Help_Toc/it.md), che è più facile da esplorare.
+ Questa è la guida ai comandi di FreeCAD. Comprende le pagine del [Wiki della documentazione di FreeCAD](Main_Page/it.md) che si riferiscono ai comandi. Questa versione è stata creata principalmente per essere stampata come un unico grande documento o per consentire una panoramica veloce sulle pagine dei comandi. Se si sta leggendo questo online, si consiglia di andare direttamente alla [Guida in linea](Online_Help_Toc/it.md), che è più facile da esplorare.
 
--   Parte prima: [Ambiente Drawing](ManualDrawing/it#Drawing_Module/it.md)
+-   Parte prima: [Ambiente Drawing](ManualDrawing/it#Drawing_Workbench/it.md)
 -   Parte seconda: [Ambiente Drawing: Strumenti dell\'interfaccia grafica](ManualDrawing/it#Ambiente_Drawing:_Strumenti_dell'interfaccia_grafica.md)
 -   Parte terza: [Ambiente Drawing: Altri strumenti e strumenti non documentati](ManualDrawing/it#Ambiente_Drawing:_Altri_strumenti_e_strumenti_non_documentati.md)
 
 
-{{:Drawing_Module/it}}
+{{:Drawing_Workbench/it}}
 
 
 

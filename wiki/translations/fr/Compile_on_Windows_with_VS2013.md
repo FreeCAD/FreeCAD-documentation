@@ -1,3 +1,5 @@
+# Compile on Windows with VS2013/fr
+
 
 
 
@@ -122,4 +124,4 @@ If you don\'t get any errors your done. Exit Visual Studio and start FreeCAD by 
 
 
 
-[Category:Developer\_Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Developer{{\#translation:}}](Category:Developer.md)
+[Category:Developer\_Documentation](Category:Developer_Documentation.md) [Category:Developer](Category:Developer.md)

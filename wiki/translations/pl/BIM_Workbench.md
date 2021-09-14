@@ -1,7 +1,7 @@
+# BIM Workbench/pl
 
-{{UnfinishedDocu
 
-}} 
+ 
 
 <img alt="Ikonka FreeCAD dla zewnętrznego Środowiska pracy BIM" src=images/IFC.svg  style="width:128px;">
 
@@ -187,4 +187,4 @@ Nowe środowiska pracy są w czasie tworzenia, bądź cierpliwy!
 
 
 
-[Category:Addons{{\#translation:}}](Category:Addons.md) [Category:External Workbenches{{\#translation:}}](Category:External_Workbenches.md) [Category:BIM{{\#translation:}}](Category:BIM.md)
+[Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md) [Category:BIM](Category:BIM.md)

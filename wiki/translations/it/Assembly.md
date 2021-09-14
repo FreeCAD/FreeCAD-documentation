@@ -1,3 +1,5 @@
+# Assembly/it
+
 
 
 ## Introduzione
@@ -57,4 +59,4 @@ Gli ambienti di assemblaggio continuano ad essere sviluppati, e ci si aspetta ch
 
 }} {{Document objects navi}} 
 
-[Category:Glossary{{\#translation:}}](Category:Glossary.md)
+[Category:Glossary](Category:Glossary.md)

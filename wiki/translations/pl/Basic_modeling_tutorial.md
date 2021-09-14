@@ -1,3 +1,5 @@
+# Basic modeling tutorial/pl
+
  {{TutorialInfo/pl
 |Topic= Wprowadzenie do modelowania
 |Level= Początkujący
@@ -15,41 +17,41 @@ Ten Podstawowy Samouczek Modelowania pokaże Ci jak modelować żelazny kształt
 
 Pamiętaj, że FreeCAD jest wciąż we wczesnej fazie rozwoju, więc możesz nie być tak wydajny jak w przypadku innych aplikacji CAD i z pewnością napotkasz błędy lub doświadczysz awarii. FreeCAD ma teraz możliwość zapisywania plików kopii zapasowych. Liczba tych plików może być określona w oknie dialogowym preferencji. Nie wahaj się pozwolić na dwa lub trzy pliki zapasowe, dopóki nie poznasz dobrze zasad działania programu FreeCAD.
 
-Save your work often, from time to time save your work under a different name, so you have a \"safe\" copy to fall back to, and be prepared to the possibility that some commands might not give you the expected results.
+Często zapisuj swoją pracę, od czasu do czasu zapisz ją pod inną nazwą, abyś miał \"bezpieczną\" kopię, do której możesz wrócić, i bądź przygotowany na to, że niektóre polecenia mogą nie dać Ci oczekiwanych rezultatów.
 
-## Modeling Techniques Intro 
+## Techniki modelowania Intro 
 
-The first (and basic) technique of solid modeling is [Constructive Solid Geometry (CSG)](http://en.wikipedia.org/wiki/Constructive_solid_geometry). There is also a detailed explanation (in the context of FreeCAD) of [Constructive\_solid\_geometry](Constructive_solid_geometry.md) on the wiki. You work with primitive shapes like cubes, cylinders, spheres and cones to construct your geometry by combining them, subtracting one shape from the other, or intersecting them. These tools are part of the [Part Workbench](Part_Workbench.md). You can also apply transformations on shapes, like applying rounds or chamfers on edges. These tools are also in the [Part Workbench](Part_Workbench.md).
+Pierwszą *(i podstawową)* techniką modelowania bryłowego jest [Constructive Solid Geometry *(CSG)*](http://en.wikipedia.org/wiki/Constructive_solid_geometry). Istnieje również szczegółowe wyjaśnienie *(w kontekście FreeCAD)* [Konstrukcyjna geometria bryły](Constructive_solid_geometry/pl.md) na wiki. Pracujesz z kształtami typu bryły pierwotne, takimi jak sześciany, walce, kule i stożki, aby skonstruować geometrię poprzez łączenie ich, odejmowanie jednego kształtu od drugiego lub przecinanie ich. Narzędzia te są częścią środowiska pracy [Część](Part_Workbench/pl.md). Możesz również stosować przekształcenia na kształtach, jak np. zaokrąglenia lub sfazowania na krawędziach. Te narzędzia również znajdują się w środowisku pracy [Część](Part_Workbench/pl.md).
 
-Then there are more advanced tools. You start by drawing a 2D profile which you\'ll either extrude or revolve.
+Dostępne są też bardziej zaawansowane narzędzia. Zaczynasz od narysowania dwuwymiarowego profilu, który będziesz albo wyciągać, albo obracać.
 
-So let\'s start by trying to do some iron feet for a table with these 2 methods.
+Zacznijmy więc od próby zrobienia kilku żelaznych nóg do stołu za pomocą tych 2 metod.
 
-## 1st Method - By Constructive Solid Geometry 
+## Pierwsza metoda - Konstrukcyjna geometria bryły 
 
-1.  Start with the [Part Workbench](Part_Workbench.md) ![](images/Switch_PartWorkbench.JPG ).
-2.  If you haven\'t opened a new FreeCAD document (most of the FreeCAD window looks greyed-out), from the pull-down menu click **File → New** or click the <img alt="" src=images/Document-new.png  style="width:32px;"> **Create a new empty document** icon.
-3.  Click on the <img alt="" src=images/Part_Box.svg  style="width:32px;"> [Box](Part_Box.md) button to create a box
-4.  Change its dimensions by selecting it either in the 3D space, or by clicking it in the Project tab to the left, then
-5.  Click on the Data tab at the bottom, and change values for Length, Width and Height to 50mm, 50 and 750 *(see Fig. 1.1)* **Note**: *back when these captures were taken, the properties were ordered differently, with Height being first*.
-6.  The box now fills most of the 3D view. Click on <img alt="" src=images/Std_ViewFitAll.svg  style="width:32px;"> [Fit All](Std_ViewFitAll.md) to fit the view to the newly created box.
-7.  Create a second box the same way, but with values L=40, W=40 and H=750mm. By default this box will be superimposed on the first one. *(see Fig. 1.2)*
-8.  You\'ll now subtract the second box from the first. Select the first shape first (named Box), then the second one (named Box001), the selection order is important! (Make sure that both shapes are selected in the Project tree. **One thing to remember:** in Inventor navigation mode, **Ctrl** + click does not work for multiple selection. Switch [Mouse navigation](Mouse_navigation.md) to either CAD or Blender selection.)
-9.  On the Part Workbench toolbar, click on the <img alt="" src=images/Part_Cut.svg  style="width:32px;"> [Cut](Part_Cut.md) tool.
+1.  Zacznij od środowiska pracy [Część](Part_Workbench/pl.md) ![](images/Switch_PartWorkbench.JPG ).
+2.  Jeśli nie otworzyłeś nowego dokumentu FreeCAD *(większość okna FreeCAD wygląda na nieaktywną)*, z rozwijanego menu kliknij **Plik → Nowy** lub kliknij przycisk <img alt="" src=images/Document-new.png  style="width:32px;">. **Utwórz nowy, pusty dokument**.
+3.  Kliknij na przycisk <img alt="" src=images/Part_Box.svg  style="width:32px;"> [Sześcian](Part_Box/pl.md), aby utworzyć sześcian.
+4.  Zmień jego wymiary wybierając go w przestrzeni 3D lub klikając na zakładce Projekt po lewej stronie, a następnie,
+5.  Kliknij na zakładkę Dane na dole i zmień wartości dla Długość, Szerokość i Wysokość na 50mm, 50 i 750 *(patrz rys. 1.1)* **Uwaga**: *w czasie, gdy te rysunki były wykonywane, właściwości były uporządkowane inaczej, wysokość była pierwsza*\'.
+6.  Sześcian wypełnia teraz większą część widoku 3D. Kliknij na przycisk <img alt="" src=images/Std_ViewFitAll.svg  style="width:32px;"> [Dopasuj wszystko](Std_ViewFitAll/pl.md), aby dopasować widok do nowo utworzonego sześcianu.
+7.  Utwórz następny sześcian w ten sam sposób, ale z wartościami L=40, W=40 i H=750mm. Domyślnie będzie on nałożony na pierwszy. *(patrz rys. 1.2)*
+8.  Odejmij teraz drugi sześcian od pierwszego. Wybierz najpierw pierwszy kształt *(o nazwie Sześcian)*, a następnie drugi *(o nazwie Sześcian001)*, kolejność wyboru jest ważna! *(Upewnij się, że oba kształty są zaznaczone w drzewie projektu. **Jedna rzecz do zapamiętania:** w trybie nawigacji Inventora, **Ctrl** + kliknięcie nie działa w przypadku wielokrotnego zaznaczania. Przełącz [Profil nawigacji myszką](Mouse_navigation/pl.md) na wybór CAD lub Blender)*.
+9.  Na pasku narzędzi środowiska pracy Część, kliknij na przycisk narzędzia <img alt="" src=images/Part_Cut.svg  style="width:32px;"> [Wytnij](Part_Cut/pl.md).
 
-![Fig. 1.1 The first box](images/Tutorial-normand01.jpg )
+![Rys. 1.1 Pierwszy sześcian](images/Tutorial-normand01.jpg )
 
-![Fig. 1.2 The second box on top of the first one, ready to be subtracted](images/Tutorial-normand02.jpg )
+![Rys. 1.2 Drugi sześcian nałożony na pierwszy, gotowy do przeprowadzenia operacji odjęcia](images/Tutorial-normand02.jpg )
 
-![Fig. 1.3 After the subtraction](images/Tutorial-normand03.jpg )
+![Rys. 1.3 Po odjęciu](images/Tutorial-normand03.jpg )
 
 You now have your first iron angle *(Fig. 1.3)*. You\'ll notice that, in the Project tab on the left, both boxes have been replaced by a \"Cut\" object. Actually, they\'re not disappeared, but rather grouped under the Cut object. Click on the **+** in front of it, and you\'ll see that both boxes are still there, but greyed out *(Fig. 1.4)*. If you click on either of them and hit the **Space bar**, it will show up. The space bar toggles [visibility](Std_ToggleVisibility.md) of selected objects. *(Fig. 1.5)*
 
 Don\'t want the angle oriented that way? You just need to change the placement of the Box001 shape. Select it, unhide it, and in the Data tab, click on the **+** in front of Placement, then expand the Position parameter, and change its X and Y coordinates. Hit **Enter**, hide the Box001 shape again, and your angle orientation is now different. *(Fig. 1.5)* You can even change either of your shapes dimensions, and the Cut object will be updated.
 
-![Fig. 1.4 The cut operation retains its original objects (the boxes)](images/Tutorial-normand04.jpg )
+![Rys. 1.4 Operacja wycięcia zachowuje swoje oryginalne obiekty *(sześciany)*](images/Tutorial-normand04.jpg )
 
-![Fig. 1.5 You can still make the original boxes visible](images/Tutorial-normand05.jpg )
+![Rys. 1.5 Oryginalne sześciany mogą być nadal widoczne.](images/Tutorial-normand05.jpg )
 
 By the way, we can add rounds to the angle so it is more realistic, using the <img alt="" src=images/Part_Fillet.svg  style="width:32px;"> [Fillet](Part_Fillet.md) tool. 
 *(Fig. 1.6)*

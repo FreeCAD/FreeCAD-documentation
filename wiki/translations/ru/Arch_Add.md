@@ -2,8 +2,8 @@
 - GuiCommand:/ru
    Name:Arch Add
    Name/ru:Arch Add
-   Workbenches:[Arch](Arch_Module/ru.md)
    MenuLocation:Архитектура → Добавить компонент
+   Workbenches:[Arch](Arch_Workbench/ru.md)
    SeeAlso:[Удалить компонент](Arch_Remove/ru.md)
 ---
 

@@ -3,13 +3,10 @@
    Name:TechDraw CosmeticVertex
    Name/fr:TechDraw Point cosmétique
    MenuLocation:TechDraw → Add Vertices → Ajouter un sommet cosmétique
-   Workbenches:[Atelier TechDraw](TechDraw_Workbench/fr.md)
+   Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
    Version:0.19
    SeeAlso:[TechDraw Point milieu](TechDraw_Midpoints/fr.md), [TechDraw Sommets quadrants](TechDraw_Quadrants/fr.md)
 ---
-
-
-</div>
 
 ## Description
 
@@ -58,13 +55,7 @@ dvp.makeCosmeticLine(start,end,style, weight, pyGreen)
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{TechDraw Tools navi

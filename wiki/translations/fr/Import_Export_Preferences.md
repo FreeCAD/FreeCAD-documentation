@@ -1,3 +1,5 @@
+# Import Export Preferences/fr
+
 
 
 
@@ -79,6 +81,8 @@ Pour le format DAE, vous pouvez spécifier les éléments suivants :
 |                                        |                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 +-------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
+![](images/Preferences_Import_Export_Tab_DAE.png )
+
 ### DWG
 
 DWG (à partir d\'un dessin) est un format de fichier binaire propriétaire et à source fermée utilisé pour stocker des données et des métadonnées de conception bidimensionnelles et tridimensionnelles. FreeCAD nécessite le [Convertisseur de fichiers ODA externe](FreeCAD_and_DWG_Import/fr.md) pour traiter les fichiers DWG.
@@ -92,6 +96,8 @@ Pour le format DWG, vous pouvez uniquement spécifier le chemin d\'accès à ODA
 | **Chemin d'accès du convertisseur de fichier ODA** |                                                             |
 |                                                             |                                                             |
 +----------------------------------------------------------------+-------------------------------------------------------------+
+
+![](images/Preferences_Import_Export_Tab_DWG.png )
 
 ### DXF
 
@@ -185,6 +191,8 @@ Pour le format DXF, vous pouvez spécifier les éléments suivants :
 |                                                                                                     |                                                                                                                                                                                                                                                                                     |
 +--------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
+![](images/Preferences_Import_Export_Tab_DXF.png )
+
 ### IGES
 
 Le format de fichier [Initial Graphics Exchange Specification](https://fr.wikipedia.org/wiki/Initial_Graphics_Exchange_Specification) (IGES) est un format de fichier qui permet l\'échange numérique d\'informations entre les systèmes de CAO. Après la publication du format de fichier [STEP](Preferences_Editor/fr#_STEP.md), le développement IGES a été arrêté en 1996, mais il est toujours pris en charge par de nombreux programmes de CAO. Les fichiers IGES ont l\'extension {{FileName|.iges}} ou {{FileName|.igs}} .
@@ -222,6 +230,8 @@ Pour le format IGES vous pouvez spécifier ce qui suit:
 | **Produit**                                  |                                                                                                                                                                                                                                                                                                                                                           |
 |                                                       |                                                                                                                                                                                                                                                                                                                                                           |
 +----------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+![](images/Preferences_Import_Export_Tab_IGES.png )
 
 ### IFC
 
@@ -309,6 +319,8 @@ Pour l\'importation du format IFC, vous pouvez spécifier les éléments suivant
 |                                                                                      |                                                                                                                                                                                                                                                                                               |
 +-----------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
+![](images/Preferences_Import_Export_Tab_IFC_import.png )
+
 #### Exportation IFC 
 
 Pour l\'exportation du format IFC, vous pouvez spécifier les éléments suivants :
@@ -383,6 +395,8 @@ Pour l\'exportation du format IFC, vous pouvez spécifier les éléments suivant
 |                                                                                                     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 +--------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
+![](images/Preferences_Import_Export_Tab_IFC_export.png )
+
 ### INP
 
 INP est le format de fichier d'entrée pour le logiciel FEM [Abaqus](wikipedia:fr:.md). Il est utilisé pour le solveur [CalculiX](FEM_CalculiX/fr.md) dans l\'[atelier FEM](FEM_Workbench/fr.md).
@@ -406,6 +420,8 @@ Pour le format INP vous pouvez spécifier ce qui suit :
 | **Exporter les données du groupe**      |                                                                                                                                                                                                                                                        |
 |                                                  |                                                                                                                                                                                                                                                        |
 +-----------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+![](images/Preferences_Import_Export_Tab_INP.png )
 
 ### Formats de maillage 
 
@@ -435,6 +451,8 @@ Pour les formats Mesh vous pouvez spécifier ce qui suit:
 |                                                                    |                                                                                                        |
 +-----------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------+
 
+![](images/Preferences_Import_Export_Tab_Mesh_Formats.png )
+
 ### OCA
 
 Le format de fichier [OCA](http://groups.google.com/group/open_cad_format) est un projet communautaire visant à créer un format de fichier CAO libre, simple et ouvert. OCA est largement basé sur le format de fichier GCAD généré par [gCAD3D](http://www.gcad3d.org/). Ces deux formats peuvent être importés dans FreeCAD et les fichiers OCA exportés par FreeCAD peuvent être ouverts dans gCAD3D.
@@ -448,6 +466,8 @@ Pour le format OCA vous pouvez spécifier ce qui suit:
 | **Importer les aires OCA** |                                                          |
 |                                     |                                                          |
 +----------------------------------------+----------------------------------------------------------+
+
+![](images/Preferences_Import_Export_Tab_OCA.png )
 
 ### STEP
 
@@ -535,6 +555,8 @@ Pour le format STEP vous pouvez spécifier ce qui suit:
 |                                                                            |                                                                                                                                                                                                                                                                                                                        |
 +-------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
+![](images/Preferences_Import_Export_Tab_STEP.png )
+
 ### SVG
 
 [SVG (Graphiques vectoriels évolutifs)](SVG/fr.md) est un format d\'[image vectorielle](https://fr.wikipedia.org/wiki/Image_vectorielle) pour les graphiques en deux dimensions. Une image vectorielle peut être mise à l\'échelle à n\'importe quelle taille sans perdre sa forme ou ses détails. Une image SVG peut être convertie en formats bitmap comme PNG ou JPEG pour l\'impression.
@@ -571,6 +593,8 @@ Pour le format SVG vous pouvez spécifier ce qui suit:
 |                                                                   |                                                                                                                                                                                                                                                                          |
 +----------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
+![](images/Preferences_Import_Export_Tab_SVG.png )
+
 ### VTK
 
 [VTK (Visualization Toolkit)](https://fr.wikipedia.org/wiki/VTK) est un système logiciel libre et gratuit pour l\'infographie 3D, traitement et visualisation d\'images. Les fichiers VTK sont utilisés par l\'<img alt="" src=images/Workbench_FEM.svg  style="width:24px;"> [atelier FEM](FEM_Workbench/fr.md) pour le [post-traitement](FEM_Post_Processing_based_on_VTK/fr.md) des résultats de simulation.
@@ -591,10 +615,12 @@ Pour le format VTK vous pouvez spécifier ce qui suit:
 |                                             | Si **FreeCAD result object** est sélectionné, les données importées seront converties en objet Résultat FreeCAD FEM. **Remarque:** ce paramètre a besoin des noms de composants de résultat exacts et donc il ne fonctionne correctement qu\'avec les fichiers VTK exportés depuis FreeCAD. |
 +---------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
+![](images/Preferences_Import_Export_Tab_VTK.png )
 
 
 
 
 
 
-[Category:Common Questions{{\#translation:}}](Category:Common_Questions.md) [Category:Preferences{{\#translation:}}](Category:Preferences.md) [Category:File\_Formats{{\#translation:}}](Category:File_Formats.md)
+
+[Category:Common Questions](Category:Common_Questions.md) [Category:Preferences](Category:Preferences.md) [Category:File\_Formats](Category:File_Formats.md)

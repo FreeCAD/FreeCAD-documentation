@@ -1,3 +1,5 @@
+# Licence/ru
+
 
 
 
@@ -86,4 +88,4 @@ FreeCAD это смесь из библиотек и приложений, та�
 
  
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md)

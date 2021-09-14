@@ -1,3 +1,5 @@
+# Macro SuperWire/fr
+
  {{Macro/fr
 |Name=SuperWire
 |Icon=Macro_SuperWire.png

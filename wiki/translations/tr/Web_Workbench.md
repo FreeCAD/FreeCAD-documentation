@@ -1,3 +1,5 @@
+# Web Workbench/tr
+
 
 
 
@@ -17,4 +19,4 @@ From this browser you are able to navigate the web, click on links, read the onl
 
 
 
-[Category:Web{{\#translation:}}](Category:Web.md) [Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Web](Category:Web.md) [Category:Workbenches](Category:Workbenches.md)

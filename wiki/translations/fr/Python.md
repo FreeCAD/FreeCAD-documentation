@@ -1,4 +1,6 @@
- {{VeryImportantMessage|(Janvier 2020) FreeCAD a été initialement conçu pour fonctionner avec Python 2. Étant donné que Python 2 est en fin de vie, son développement futur se fera exclusivement avec Python 3 et la compatibilité en amont ne sera pas prise en charge.}}
+# Python/fr
+
+ {{VeryImportantMessage|FreeCAD a été conçu à l'origine pour fonctionner avec Python 2.x. Cette série s'est terminée avec la version 2.7.18 du 20 avril 2020 et a été remplacée par Python 3. Le développement futur de FreeCAD se fera exclusivement avec Python 3, et la rétrocompatibilité ne sera pas supportée.}}
 
 ## Description
 
@@ -125,4 +127,4 @@ Structure = Arch.make_structure(Wire, name="Big pillar")
 
 }}
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:API Documentation{{\#translation:}}](Category:API_Documentation.md) [Category:Python Code{{\#translation:}}](Category:Python_Code.md) [Category:Glossary{{\#translation:}}](Category:Glossary.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:API Documentation](Category:API_Documentation.md) [Category:Python Code](Category:Python_Code.md) [Category:Glossary](Category:Glossary.md)

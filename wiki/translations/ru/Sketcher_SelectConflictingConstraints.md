@@ -1,18 +1,18 @@
 ---
 - GuiCommand:/ru
-   Name:Sketcher SelectConflictingConstraints
-   Name/ru:Sketcher SelectConflictingConstraints
+   Name/ru:Выделить конфликтующие ограничения
+   Name:Sketcher_SelectConflictingConstraints
    MenuLocation:Sketch → Инструменты для эскиза → Выделить конфликтующие ограничения
    Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
    Shortcut:Shift+Ctrl+E
    Version:0.15
 ---
 
-## Description
+## Описание
 
 Selects the conflicting constraints of a sketch.
 
-## Usage
+## Применение
 
 1.  Enter edit mode of sketch.
 2.  Choose **Sketch → Sketcher tools → <img src=images/Sketcher_SelectConflictingConstraints.svg style="width:16px"> Select Conflicting Constraints** from the top menu.

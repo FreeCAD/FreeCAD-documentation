@@ -3,7 +3,7 @@
    Name:Draft Slope
    Name/es:Borrador Pendiente
    MenuLocation:Modificación → Fijar pendiente<br>Utilidades → Fijar pendiente
-   Workbenches:[Borrador](Draft_Module/es.md), [Arquitectura](Arch_Module/es.md)
+   Workbenches:[Borrador](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
    Version:0.17
 ---
 
@@ -19,6 +19,9 @@ El comando <img alt="" src=images/Draft_Slope.svg  style="width:24px;"> **Borrad
 
 ## Utilización
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Seleccione una o más [Borrador Líneas ](Draft_Line/es.md) y/o [Borrador Hilos](Draft_Wire/es.md).
 2.  Hay varias formas de invocar el comando:
     -   Pulsar el **<img src="images/Draft_Slope.svg" width=16px> [Borrador Pendiente](Draft_Slope/es.md)**.
@@ -26,6 +29,9 @@ El comando <img alt="" src=images/Draft_Slope.svg  style="width:24px;"> **Borrad
     -   Seleccione la opción **Utilidades → <img src="images/Draft_Slope.svg" width=16px> Fijar pendiente** opción del menú.
 3.  Introduzca un valor de **Indice**. {{Value|0}} significa que cada segmento es horizontal, {{Value|0,5}} significa que la altura delta de cada segmento es {{Value|0,5}} veces su longitud, etc. El valor también puede ser negativo.
 4.  Pulse **Enter** o el botón {{button|OK}} para finalizar el comando.
+
+
+</div>
 
 ## Guión
 

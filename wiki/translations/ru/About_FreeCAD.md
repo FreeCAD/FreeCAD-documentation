@@ -1,3 +1,5 @@
+# About FreeCAD/ru
+
  
 
 <img alt="" src=images/Freecad_default.jpg  style="width:1024px;">
@@ -26,4 +28,4 @@ FreeCAD поддерживается и проектируется сообще�
 
 
 
-[Category:User Documentation{{\#translation:}}](Category:User_Documentation.md)
+[Category:User Documentation](Category:User_Documentation.md)

@@ -1,5 +1,12 @@
 ---
-- GuiCommand:/it   Name:FEM_ElementGeometry2D   Name/it:FEM ElementGeometry2D   MenuLocation:Model → Spessore di una lastra   |Workbenches:[Shortcut:**C** **S**   SeeAlso:[[FEM_tutorial/it|FEM tutorial](FEM_Module/it___FEM]].md)---
+- GuiCommand:/it
+   Name:FEM_ElementGeometry2D
+   Name/it:FEM ElementGeometry2D
+   MenuLocation:Model → Spessore di una lastra
+   Workbenches:[FEM](FEM_Workbench/it.md)
+   Shortcut:**C** **S**
+   SeeAlso:[FEM tutorial](FEM_tutorial/it.md)
+---
 
 
 </div>

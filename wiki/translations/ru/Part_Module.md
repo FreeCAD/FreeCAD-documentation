@@ -1,3 +1,5 @@
+# Part Module/ru
+
 
 
 
@@ -97,7 +99,13 @@
 
 -   <img alt="" src=images/Part_ProjectionOnSurface.svg  style="width:32px;"> [Проекция на поверхность](Part_ProjectionOnSurface/ru.md): Проецирует логотип, текст или любую поверхность, контур или ребро на поверхность. {{Version/ru|0.19}}
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Part_Attachment.svg  style="width:32px;"> [Attachment (Прикрепить)](Part_Attachment/ru.md): Прикрепляет расположение одного объекта относительно другого.
+
+
+</div>
 
 ### Булевы операции 
 
@@ -183,7 +191,7 @@
 -   <img alt="" src=images/Preferences-import-export.svg  style="width:32px;"> [Import Export Preferences](Import_Export_Preferences/ru.md): Настройки, доступные для импорта и экспорта в различные форматы файлов.
 -   [Fine-tuning](Fine-tuning/ru.md): Некоторые дополнительные параметры для тонкой настройки поведения модуля Part.
 
-## Написание сценариев 
+## Программирование
 
 Смотри [Создание сценариев (скриптов) модуля Part](Part_scripting/ru.md)
 
@@ -199,4 +207,4 @@
 
  
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

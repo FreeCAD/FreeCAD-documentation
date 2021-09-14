@@ -1,4 +1,6 @@
-\_\_NOTOC\_\_ 
+# Artwork PartDesign/de
+
+ 
 
 Diese Symbole befinden sich im angegebenen Quellpfad.
 
@@ -23,4 +25,4 @@ Für alle Symbole im Quellbaum, siehe [Grafik](Artwork/de.md).
 
 }} 
 
-[Category:PartDesign{{\#translation:}}](Category:PartDesign.md)
+[Category:PartDesign](Category:PartDesign.md)

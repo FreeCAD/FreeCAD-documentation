@@ -1,4 +1,6 @@
-\_\_NOTOC\_\_ 
+# Main Page/ro
+
+ 
 
 
 <div class="mw-translate-fuzzy">
@@ -106,4 +108,4 @@ Verificați foaia de parcurs [Development roadmap](Development_roadmap.md) pentr
 
 
 
-[Category:Documentation{{\#translation:}}](Category:Documentation.md)
+[Category:Documentation](Category:Documentation.md)

@@ -1,3 +1,5 @@
- {{UnfinishedDocu/ru}}
+# Windows packaging/ru
+
+ 
 
 [Category:Packaging](Category:Packaging.md) [Category:Developer Documentation](Category:Developer_Documentation.md)

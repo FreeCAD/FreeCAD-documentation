@@ -1,3 +1,5 @@
+# Mesh Scripting/it
+
 
 
 
@@ -72,7 +74,8 @@ Il Kernel Mesh si occupa di creare una corretta struttura topologica dei dati in
 
 </div>
 
-[top](#top.md)
+
+{{Top}}
 
 
 <div class="mw-translate-fuzzy">
@@ -140,7 +143,8 @@ obj.Mesh = pipe
 doc.recompute()
 ```
 
-[top](#top.md)
+
+{{Top}}
 
 
 <div class="mw-translate-fuzzy">
@@ -162,11 +166,12 @@ Vedere anche [Mesh API](Mesh_API/it.md)
 
 </div>
 
-[top](#top.md)
+
+{{Top}}
 
 
 {{Powerdocnavi
 
 }} {{Mesh Tools navi}} 
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Python Code{{\#translation:}}](Category:Python_Code.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)

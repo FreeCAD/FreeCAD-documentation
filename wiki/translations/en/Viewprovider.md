@@ -1,3 +1,5 @@
+# Viewprovider/en
+
 
 
 ## Introduction
@@ -138,4 +140,4 @@ See various examples in [Custom icon in tree view](Custom_icon_in_tree_view.md).
 
 }} 
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Python Code{{\#translation:}}](Category:Python_Code.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)

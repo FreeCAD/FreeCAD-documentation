@@ -1,3 +1,5 @@
+# Path experimental/it
+
 
 
 
@@ -45,4 +47,4 @@ Maggiori informazioni sulle specifiche funzionalità sperimentali nelle [pagine 
 
  {{Path Tools navi}} 
 
-[Category:Poweruser Documentation{{\#translation:}}](Category:Poweruser_Documentation.md)
+[Category:Poweruser Documentation](Category:Poweruser_Documentation.md)

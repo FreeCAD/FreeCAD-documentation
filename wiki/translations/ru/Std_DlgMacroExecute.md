@@ -1,8 +1,11 @@
 ---
-- GuiCommand:/ru   Name:Std DlgMacroExecute   Name/ru:Std DlgMacroExecute   MenuLocation:[Shortcut:CTRL+F6   Workbenches:All   SeeAlso:[[Std_DlgMacroExecuteDirect/ru|Execute Direct](Macros/ru___Макрос]]_→_Выполнить_макрос.md)---
-
-
-</div>
+- GuiCommand:/ru
+   Name/ru:Макрос
+   Name:Std_DlgMacroExecute
+   MenuLocation:Макрос → Макросs...
+   Workbenches:Все
+   SeeAlso:[Выполнить макрос](Std_DlgMacroExecuteDirect/ru.md)
+---
 
 ## Описание
 
@@ -44,7 +47,7 @@ The **Std DlgMacroExecute** command opens the Execute macro dialog box. From thi
 
 ### Закрыть
 
-1.  Press **Esc** or the **Close** button to close the dialog box.
+1.  Нажмите **Esc** или кнопку **Закрыть**, чтобы закрыть диалоговое окно.
 
 ### Создать
 

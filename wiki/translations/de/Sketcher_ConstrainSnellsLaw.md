@@ -7,6 +7,9 @@
    Version:0.15
 ---
 
+
+</div>
+
 ## Beschreibung
 
 Beschränkt zwei Linien, um dem Gesetz der Lichtbrechung zu folgen, wenn es durch eine Grenzfläche dringt, in der sich zwei Materialien mit unterschiedlichen Brechungsindizes treffen. Siehe [1](https://de.wikipedia.org/wiki/Snelliussches_Brechungsgesetz) auf Wikipedia für weitere Informationen.
@@ -18,13 +21,11 @@ Beschränkt zwei Linien, um dem Gesetz der Lichtbrechung zu folgen, wenn es durc
 
 ## Anwendung
 
-<img alt="" src=images/Sketcher_SnellsLaw_Example1.png  style="width:500px;">
-
-
+<img alt="" src=images/Sketcher_SnellsLaw_Example1.png  style="width:500px;"> 
 *Die Reihenfolge der Klicks wird durch gelbe Pfeile mit Zahlen angezeigt. n1, n2 sind nur Bezeichnungen, die zeigen, wo sich die Brechungsindizes befinden.*
 
 -   Du brauchst zwei Linien, die einem Lichtstrahl folgen sollen, und eine Kurve, die als Schnittfläche dient. Die Linien sollten sich auf verschiedenen Seiten der Schnittfläche befinden.
--   Wählen den Endpunkt einer Linie, einen Endpunkt einer anderen Linie und die Schnittflächenkante. Die Schnittfläche kann eine [Linie](Sketcher_CreateLine/de.md), ein [Bogen](Sketcher_CompCreateArc/de.md), ein [Kreis](Sketcher_CompCreateCircle/de.md) oder ein [Kegel](Sketcher_CompCreateConic/de.md).
+-   Wähle den Endpunkt einer Linie, einen Endpunkt einer anderen Linie und die Schnittflächenkante. Die Schnittfläche kann eine [Linie](Sketcher_CreateLine/de.md), ein [Bogen](Sketcher_CompCreateArc/de.md), ein [Kreis](Sketcher_CompCreateCircle/de.md) oder ein [Kegel](Sketcher_CompCreateConic/de.md).
 
 sein. Beachte die Reihenfolge, in der du die Endpunkte ausgewählt hast.
 
@@ -46,30 +47,30 @@ Durch Verwenden der **<img src=images/Sketcher_CreatePolyline.svg style="width:1
 
 ## Skripten
 
-Die Beschränkungen können aus [Makros](Macros/de.md) und aus der [Python](Python/de.md) Konsole durch folgende Funktion verwendet werden: 
+Die Beschränkungen können aus [Makros](Macros/de.md) und aus der [Python](Python/de.md) Konsole durch folgende Funktion verwendet werden:
+
+
 ```python
 Sketch.addConstraint(Sketcher.Constraint('SnellsLaw',line1,pointpos1,line2,pointpos2,interface,n2byn1))
 ```
 
+wobei:
 
-<div class="mw-translate-fuzzy">
+:\* {{Incode|Sketch}} ist ein Skizzenobjekt
 
-where:
+:\* {{Incode|line1}} und {{Incode|pointpos1}} sind zwei ganze Zahlen, die den Endpunkt der Linie im Medium mit dem Brechungsindex von *n1* identifizieren. {{Incode|line1}} ist der Index der Linie in der Skizze (der Wert, der von Sketch.addGeometry zurückgegeben wird), und {{Incode|pointpos1}} sollte 1 für Startpunkt und 2 für Endpunkt sein.
 
-:\* Sketch ist ein Skizzenobjekt
+:\* {{Incode|line2}} und {{Incode|pointpos2}} sind die Indizes, die den Endpunkt der zweiten Zeile angeben (in Medium *n2*)
 
-:\* Linie1 und Punktpos1 sind zwei ganze Zahlen, die den Endpunkt der Linie im Medium mit dem Brechungsindex von *n1*\' identifizieren. Linie1 ist der Index der Linie in der Skizze (der Wert, der von Sketch.addGeometry zurückgegeben wird), und Punktpos1 sollte 1 für Startpunkt und 2 für Endpunkt sein.
+:\* `interface` ist der Index, der die Linie angibt, die auf die Position des Interface zwischen Medium *n1* und Medium *n2* hinweist
 
-:\* Linie2 und Punktpos2 sind die Indizes, die den Endpunkt der zweiten Zeile angeben (in Medium *n2*\').
-
-:\* n2byn1 ist eine Gleitkommazahl, die dem Verhältnis der Brechungsindizes *n2*/*n1* entspricht.
-
-
-</div>
+:\* {{Incode|n2byn1}} ist eine Gleitkommazahl, die dem Verhältnis der Brechungsindizes *n2*/*n1* entspricht
 
 Die [Skizzierer Skripten](Sketcher_scripting/de.md)-Seite erklärt die Werte, die für `iline1`, `iline2`, `pointpos2` und `interface` verwendet werden können und enthält weitere Beispiele, wie man Beschränkungen aus Python-Skripten erstellt.
 
-Beispiel: 
+Beispiel:
+
+
 ```python
 import Sketcher
 import Part
@@ -101,4 +102,4 @@ App.ActiveDocument.recompute()
 
 {{Sketcher Tools navi
 
-}}  
+}} 

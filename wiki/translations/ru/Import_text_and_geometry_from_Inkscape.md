@@ -1,3 +1,5 @@
+# Import text and geometry from Inkscape/ru
+
  {{TutorialInfo/ru
 |Topic= Import text and geometry from Inkscape
 |Level= Beginner

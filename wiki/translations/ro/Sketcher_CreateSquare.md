@@ -27,6 +27,8 @@ Draws a square inscribed in a construction geometry circle. When starting the to
 
 </div>
 
+## Notes
+
 
 <div class="mw-translate-fuzzy">
 
@@ -41,4 +43,4 @@ Când este definită schița obiectului geometric cercul circumscris este vizibi
 
 {{Sketcher Tools navi
 
-}}  
+}} 

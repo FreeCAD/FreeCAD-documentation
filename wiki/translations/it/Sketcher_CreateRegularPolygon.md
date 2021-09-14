@@ -26,6 +26,8 @@ Disegna un poligono regolare inscritto in una circonferenza di costruzione. Quan
 
 </div>
 
+## Notes
+
 
 <div class="mw-translate-fuzzy">
 
@@ -46,4 +48,4 @@ Quando si edita lo schizzo il cerchio circoscritto è visibile, quando si chiude
 
 {{Sketcher Tools navi
 
-}}  
+}} 

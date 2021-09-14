@@ -24,6 +24,14 @@ Lo strumento Incastra incorpora un oggetto vuoto internamente in un altro oggett
 
 Viene creato un oggetto Parte JoinFeature, con la modalità, Mode, impostata su \'Embed\'. Nella vista 3D viene mostrato il risultato dell\'incastro, e gli oggetti originali sono nascosti.
 
+## Properties
+
+
+{{TitleProperty|Base}}
+
+
+<div class="mw-translate-fuzzy">
+
 ## Proprietà
 
 
@@ -37,6 +45,14 @@ Viene creato un oggetto Parte JoinFeature, con la modalità, Mode, impostata su 
 
 -    **Refine**: Stabilisce se alla forma finale deve essere applicata l\'operazione [Affina](Part_RefineShape/it.md), oppure no. Il valore di default è stabilito dalla casella di controllo \'Affina automaticamente la forma dopo l\'operazione booleana\' nelle preferenze di PartDesign. Quando la proprietà Mode è impostata su \'bypass\', Affina viene ignorato (Refine non è mai applicato).
 
+
+</div>
+
+## Example
+
+
+<div class="mw-translate-fuzzy">
+
 ## Esempio
 
 1.  Creare un tubo applicando uno [Spessore](Part_Thickness/it.md) a un [cilindro](Part_Cylinder/it.md):
@@ -48,9 +64,20 @@ Viene creato un oggetto Parte JoinFeature, con la modalità, Mode, impostata su 
 4.  Per visualizzare gli interni, utilizzare uno degli strumenti di sezione: [Piano di taglio](Std_ToggleClipPlane/it.md) del menu Visualizza, [Piano di sezione](Arch_SectionPlane/it.md) di Arch, o [Piano di taglio](Arch_CutPlane/it.md) di Arch. Nell\'immagine seguente, è stato utilizzato il Piano di sezione di Arch.
     ![320px](images/JoinFeatures_Example_step4_Embed.png)
 
+
+</div>
+
+## Algorithm
+
+
+<div class="mw-translate-fuzzy">
+
 ## Algoritmo
 
 Gli algoritmi sottostanti agli strumenti di Giunzione sono abbastanza semplici, ed è importante comprenderli per utilizzarli correttamente.
+
+
+</div>
 
 1\. L\'oggetto Base viene [tagliato](Part_Cut/it.md) dall\'oggetto Tool con una operazione booleana. La forma risultante è un [composto](Part_Compound/it.md), cioè un insieme di solidi non intersecanti (tipicamente, due).
 
@@ -67,6 +94,8 @@ Gli algoritmi sottostanti agli strumenti di Giunzione sono abbastanza semplici, 
 4\. Se la proprietà Refine è impostata su true, la forma risultante viene [affinata](Part_RefineShape/it.md).
 ![800px](images/JoinFeatures-Algo-Embed.png)
 
+### Notes
+
 
 <div class="mw-translate-fuzzy">
 
@@ -81,18 +110,25 @@ Gli algoritmi sottostanti agli strumenti di Giunzione sono abbastanza semplici, 
 
 ## Script
 
-Lo strumento Giunzione può essere utilizzato nelle [macro](macros/it.md) e dalla [console di Python](FreeCAD_Scripting_Basics/it.md) tramite la seguente funzione: 
+Lo strumento Giunzione può essere utilizzato nelle [macro](macros/it.md) e dalla [console di Python](FreeCAD_Scripting_Basics/it.md) tramite la seguente funzione:
+
+
 ```pythonJoinFeatures.makePartJoinFeature(name = 'Embed', mode = 'Embed')```
 
 -   Crea una funzione Embed vuota (o altra funzione Join, secondo la modalità passata). Le proprietà Base e Tool devono essere assegnate in modo esplicito, in seguito.
 -   Restituisce l\'oggetto appena creato.
 
-Esempio: {{code|code=
+Esempio:
+
+
+{{code|code=
 import JoinFeatures
 j = JoinFeatures.makePartJoinFeature(name = 'Embed', mode = 'Embed' )
 j.Base = FreeCADGui.Selection.getSelection()[0]
 j.Tool = FreeCADGui.Selection.getSelection()[1]
-}} Lo strumento è implementato in Python, vedere {{FileName|/Mod/Part/JoinFeatures.py}} ([Github link](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Part/JoinFeatures.py)) in cui è installato FreeCAD.
+}}
+
+Lo strumento è implementato in Python, vedere {{FileName|/Mod/Part/JoinFeatures.py}} ([Github link](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Part/JoinFeatures.py)) in cui è installato FreeCAD.
 
 
 <div class="mw-translate-fuzzy">
@@ -104,4 +140,4 @@ j.Tool = FreeCADGui.Selection.getSelection()[1]
 </div>
 
 
-  
+ 

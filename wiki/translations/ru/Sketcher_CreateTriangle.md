@@ -1,8 +1,8 @@
 ---
 - GuiCommand:/ru
-   Name:Sketcher CreateTriangle
    Name/ru:Треугольник
-   MenuLocation:Эскиз → Геометрия эскиза → Создать равносторонний треугольник
+   Name:Sketcher_CreateTriangle
+   MenuLocation:Sketch → Геометрия эскиза → Создать равносторонний треугольник
    Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
    Version:0.15
 ---
@@ -13,32 +13,16 @@
 
 ![](images/SketcherCreateTriangleExample.png‎ )
 
+## Применение
 
-<div class="mw-translate-fuzzy">
+1.  Нажмите кнопку **<img src=images/Sketcher_CreateTriangle.svg style="width:16px"> [Треугольник](Sketcher_CreateTriangle/ru.md)**.
+2.  Нажмите первый раз, чтобы задать центр.
+3.  Переместите мышь и нажмите второй раз, чтобы задать одну из вершин.
+4.  Нажатие **Esc** или правой кнопки мыши закрывает функцию.
 
-## Использование
+## Примечания
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   Нажмите кнопку **<img src=images/Sketcher_CreateTriangle.svg style="width:16px"> Треугольник**,
--   Нажмите первый раз, чтобы задать центр,
--   Переместите мышь и нажмите второй раз, чтобы задать одну из вершин.
--   Нажатие **Esc** или правой кнопки мыши закрывает функцию.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-При редактировании эскиза описанный круг виден, когда вы закрываете эскиз, он пропадает.
-
-
-</div>
+Видимая окружность является элементом вспомогательной геометрией, она видна только при редактировании эскиза.
 
 
 
@@ -46,4 +30,4 @@
 
 {{Sketcher Tools navi
 
-}}  
+}} 

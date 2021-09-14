@@ -1,3 +1,5 @@
+# Interface Customization/es
+
 
 
 
@@ -39,7 +41,8 @@ En esta pestaña puede examinar los comandos disponibles.
 3.  Pase el ratón por un comando: aparece su información sobre la herramienta.
 4.  Seleccione un comando: el texto de su barra de estado se muestra debajo de los dos paneles.
 
-[inicio](#top.md)
+
+{{Top}}
 
 ### Teclado
 
@@ -74,7 +77,8 @@ En esta pestaña se pueden definir atajos de teclado personalizados. Los atajos 
 -   In V0.19 there is an issue with some Draft commands. Their default shortcuts do not work and/or custom shortcuts cannot be assigned to them.
 -   To reassign a default shortcut a new shortcut has to be assigned to its original command first.
 
-[inicio](#top.md)
+
+{{Top}}
 
 ### Ambientes de trabajo 
 
@@ -108,7 +112,8 @@ On this tab the [Workbench selector](Std_Workbench.md) list can be changed. The 
 
 1.  Press the **<img src="images/Button_sort.svg" width=16px>** button.
 
-[inicio](#top.md)
+
+{{Top}}
 
 ### Barras Herramientas 
 
@@ -173,7 +178,8 @@ En esta pestaña se pueden crear y modificar barras de herramientas personalizad
 
 -   In V0.19 there is an issue with some Draft commands. After adding them to a custom toolbar and exiting the FreeCAD application the {{FileName|user.cfg}} file must be manually edited for these commands. Search for the name of the custom toolbar and in that section change the content of the `FCText` items that start with `gui_` to `DraftTools`.
 
-[inicio](#top.md)
+
+{{Top}}
 
 ### Macros
 
@@ -213,19 +219,16 @@ If you want to use a macro downloaded from a different source you will have to i
 2.  Make the required changes. Note that you cannot remove the icon, you can only replace it.
 3.  Press the **Replace** button.
 
-[inicio](#top.md)
+
+{{Top}}
 
 ### Movimiento Bola Espacial 
 
-This tab is blank if no Spaceball is detected. See: [3Dconnexion input devices](3Dconnexion_input_devices.md).
-
-[inicio](#top.md)
+This tab is blank if no Spaceball is detected. See: [3Dconnexion input devices](3Dconnexion_input_devices.md). {{Top}}
 
 ### Botones Bola Espacial 
 
-This is tab is blank if no Spaceball is detected. See: [3Dconnexion input devices](3Dconnexion_input_devices.md).
-
-[inicio](#top.md)
+This is tab is blank if no Spaceball is detected. See: [3Dconnexion input devices](3Dconnexion_input_devices.md). {{Top}}
 
 ## Temas
 
@@ -239,9 +242,8 @@ You can also create your own theme if you are not satisfied with the themes that
 
 -    {{FileName|$HOME/Library/Preferences/FreeCAD/Gui/Stylesheets}}(on MacOS).
 
-For more details on how to customize a theme, see [Themes](Themes.md)
 
-[inicio](#top.md)
+{{Top}}
 
 ## Complementos
 
@@ -275,7 +277,8 @@ Los complementos ofrecen otra forma de personalizar la interfaz de uso. A contin
 
 -   Repositorio de Github: <https://github.com/triplus/ShortCuts>
 
-[inicio](#top.md)
+
+{{Top}}
 
 
 

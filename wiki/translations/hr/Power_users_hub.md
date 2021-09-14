@@ -1,8 +1,10 @@
+# Power users hub/hr
+
  <img alt="" src=images/Power_user_hub.png  style="width:64px;">
 
 ------------------------------------------------------------------------
 
-\_\_NOTOC\_\_
+
 
 This is the place to come if you are an experienced user and want to learn more about customizing and extending FreeCAD.
 
@@ -133,4 +135,4 @@ On the [Community portal](FreeCAD_Community_Portal.md), you can find other FreeC
 
 }}
 
-[Category:Hubs{{\#translation:}}](Category:Hubs.md)
+[Category:Hubs](Category:Hubs.md)

@@ -1,3 +1,5 @@
+# PartDesign Workbench/fr
+
  
 
 <img alt="Icône de l\'Atelier PartDesign" src=images/Workbench_PartDesign.svg  style="width:128px;">
@@ -7,23 +9,11 @@
 
 ## Introduction
 
-
-<div class="mw-translate-fuzzy">
-
 L\'[atelier PartDesign](PartDesign_Workbench/fr.md) <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> fournit des outils avancés pour la modélisation de pièces complexes et solides. Il est principalement axé sur la création de pièces mécaniques pouvant être fabriquées et assemblées dans un produit fini. Néanmoins, les solides créés peuvent en général être utilisés à d\'autres fins, tels que la [conception architecturale](Arch_Workbench/fr.md), l\'[analyse par éléments finis](FEM_Workbench/fr.md) ou l\'[usinage et l\'impression 3D](Path_Workbench/fr.md).
-
-
-</div>
 
 L\'atelier PartDesign est étroitement lié à l\'[atelier Sketcher (Esquisse)](Sketcher_Workbench/fr.md). L\'utilisateur crée normalement une esquisse, puis utilise l\'outil [PartDesign Protrusion](PartDesign_Pad/fr.md) pour l\'extruder et créer un solide de base, ensuite ce solide peut être à nouveau modifié.
 
-
-<div class="mw-translate-fuzzy">
-
 Alors que l\'<img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [atelier Part](Part_Workbench/fr.md) est basé sur la méthodologie de [géométrie de construction de solides](constructive_solid_geometry/fr.md) (CSG en anglais: \"Constructive Solid Geometry\") pour la construction de formes, l\'atelier PartDesign utilise une méthodologie paramétrique d\'édition de fonctions, ce qui signifie qu\'un solide de base est transformé de manière séquentielle en lui ajoutant des fonctions jusqu\'à l\'obtention de la forme finale. Voir la page [édition de fonctions](feature_editing/fr.md) pour une explication plus complète de ce processus, puis voir [Créer une pièce simple avec PartDesign](Creating_a_simple_part_with_PartDesign/fr.md) pour commencer à créer des solides.
-
-
-</div>
 
 Une discussion plus détaillée de l\'atelier Part par rapport à l\'atelier Part Design peut être trouvée ici: [Part et Part Design](Part_and_PartDesign/fr.md).
 
@@ -210,4 +200,4 @@ Des fonctionnalités supplémentaires se trouvent dans le menu Part Design :
 
  {{PartDesign Tools navi}}
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

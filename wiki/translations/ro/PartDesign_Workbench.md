@@ -1,3 +1,5 @@
+# PartDesign Workbench/ro
+
  
 
 <img alt="PartDesign workbench icon" src=images/Workbench_PartDesign.svg  style="width:128px;">
@@ -564,4 +566,4 @@ Unele funcționalități suplimentare găsite în meniul PartDesign:
 
  {{PartDesign Tools navi}}
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

@@ -1,14 +1,11 @@
 ---
 - GuiCommand:/fr
    Name:TechDraw Dimension Radius
-   Name/fr:TechDraw Dimension de rayon
+   Name/fr:TechDraw Cote de rayon
    MenuLocation:TechDraw → Dimensions → Insérer une nouvelle cote de rayon
    Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
-   SeeAlso:[TechDraw Dimension de diamètre](TechDraw_Dimension_Diameter/fr.md)
+   SeeAlso:[TechDraw Cote de diamètre](TechDraw_Dimension_Diameter/fr.md)
 ---
-
-
-</div>
 
 ## Description
 
@@ -53,13 +50,7 @@ rc = page.addView(dim1)
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{TechDraw Tools navi

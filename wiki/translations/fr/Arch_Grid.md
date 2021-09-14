@@ -2,19 +2,16 @@
 - GuiCommand:/fr
    Name:Arch Grid
    Name/fr:Arch Grille
-   MenuLocation:Arch → Outils de l'axe →  Grille
-   Workbenches:[Arch](Arch_Module/fr.md)
+   MenuLocation:Arch → Outils de l'axe → Grille
+   Workbenches:[Arch](Arch_Workbench/fr.md)
    SeeAlso:[Arch Axes](Arch_Axis/fr.md), [Arch Système d'axes](Arch_AxisSystem/fr.md)
 ---
-
-
-</div>
 
 ## Description
 
 L\'outil **<img src="images/Arch_Grid.svg" width=16px> [Arch Grille](Arch_Grid/fr.md)** vous permet de placer un objet de type grille dans le document. Cet objet est destiné à servir de base pour construire des objets Arch nécessitant un cadre régulier mais complexe, comme des fenêtres, des murs-rideaux, des grilles de colonnes, des garde-corps, etc. L\'objet Grille est modifiable comme une feuille de calcul où vous pouvez ajouter ou supprimer colonnes et lignes, définissent leur taille et fusionnent les cellules.
 
-La grille est un objet 2D et peut donc être utilisée partout où une forme 2D, tel qu\'un [Dessin](Draft_Module/fr.md) ou une [Esquisse](Sketcher_Workbench/fr.md) sont nécessaires, mais elle peut aussi se comporter comme un [Arch Système d\'axes](Arch_AxisSystem/fr.md) et être utilisée pour propager le placement d\'autres objets Arch.
+La grille est un objet 2D et peut donc être utilisée partout où une forme 2D, tel qu\'un [Dessin](Draft_Workbench/fr.md) ou une [Esquisse](Sketcher_Workbench/fr.md) sont nécessaires, mais elle peut aussi se comporter comme un [Arch Système d\'axes](Arch_AxisSystem/fr.md) et être utilisée pour propager le placement d\'autres objets Arch.
 
 <img alt="" src=images/Arch_Grid_example.jpg  style="width:600px;"> 
 *Un tableau de colonnes, un système de garde-corps et une fenêtre, chacun basé sur un objet [Grille](Arch_Grid/fr.md).*
@@ -94,13 +91,7 @@ FreeCAD.ActiveDocument.recompute()
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
  

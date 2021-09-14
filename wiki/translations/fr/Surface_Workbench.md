@@ -1,3 +1,5 @@
+# Surface Workbench/fr
+
 
 
 
@@ -55,4 +57,4 @@ La surface générée ne peut pas être placée dans un **<img src=images/PartDe
 
 }} 
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

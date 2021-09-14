@@ -1,3 +1,5 @@
+# Debian development/it
+
 
 
 Debian è la distribuzione genitore da cui derivano molte altre distribuzioni Linux, come Ubuntu, Linux Mint e altre. Pertanto, vale la pena concentrarsi specificamente sullo sviluppo di Debian poiché i miglioramenti in Debian si riflettono sui suoi discendenti.
@@ -7,4 +9,4 @@ Debian è la distribuzione genitore da cui derivano molte altre distribuzioni Li
 
 
 
-[Category:Packaging{{\#translation:}}](Category:Packaging.md) [Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md)
+[Category:Packaging](Category:Packaging.md) [Category:Developer Documentation](Category:Developer_Documentation.md)

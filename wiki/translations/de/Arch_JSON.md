@@ -1,3 +1,5 @@
+# Arch JSON/de
+
 
 
 
@@ -29,4 +31,4 @@ Beachte, dass Facetten Dreiecke bilden und ihre Integer-Werte sich auf Punkte im
 
  
 
-[Category:File Formats{{\#translation:}}](Category:File_Formats.md)
+[Category:File Formats](Category:File_Formats.md)

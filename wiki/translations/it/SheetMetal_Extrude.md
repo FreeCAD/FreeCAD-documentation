@@ -68,16 +68,46 @@ Per estendere la faccia:
 
 ## Proprietà
 
+See also: [Property editor](Property_editor.md).
+
+A SheetMetal Extend object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
+
 ### Dati
 
 
 {{Properties_Title|Base}}
+
+-    **Label|String**: Default value: The user editable name of this object, it may be any arbitrary UTF8 string.
+
+-    **Base Feature|Link|hidden**: Base Feature. Link to the parent feature.
+
+-    **_Body|LinkHidden|hidden**: Hidden link to the parent body.
+
+
+{{Properties_Title|Parameters}}
+
+
+<div class="mw-translate-fuzzy">
 
 -    **gap1**: Distanza dal lato sinistro.
 
 -    **gap2**: Distanza dal lato destro.
 
 -    **length**: Lunghezza.
+
+
+</div>
+
+
+{{Properties_Title|Parameters Ext.}}
+
+-    **Offset|Distance**: \"Offset for substraction\". Default: {{value|20,00 µm}}.
+
+-    **Refine|Bool**: \"Use Refine\". Default: `True`.
+
+-    **Sketch|Link**: \"Wall Sketch\".
+
+-    **Use Substraction|Bool**: \"Use Substraction\". Default: `False`
 
 
 <div class="mw-translate-fuzzy">
@@ -88,4 +118,4 @@ Per estendere la faccia:
 
 </div>
 
-[Category:SheetMetal{{\#translation:}}](Category:SheetMetal.md) [Category:Addons{{\#translation:}}](Category:Addons.md) [Category:External Command Reference{{\#translation:}}](Category:External_Command_Reference.md)
+[Category:SheetMetal](Category:SheetMetal.md) [Category:Addons](Category:Addons.md) [Category:External Command Reference](Category:External_Command_Reference.md)

@@ -1,3 +1,5 @@
+# Macro SimpleProperties/de
+
  {{Macro
 |Name=SimplProperties
 |Name/de=EinfacheEigenschaften

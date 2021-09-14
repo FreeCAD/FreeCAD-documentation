@@ -1,5 +1,11 @@
 ---
-- GuiCommand:/es   Name:Draft Polygon   Workbenches:[Arquitectura](Draft_Module/es___Croquis]],_[[Arch_Module/es.md)|MenuLocation:Croquis → Polígono    Shortcut:P G---
+- GuiCommand:/es
+   Name:Draft Polygon
+   Name/es:Draft Polygon
+   MenuLocation:Croquis → Polígono
+   Workbenches:[Croquis](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
+   Shortcut:**P** **G**
+---
 
 
 </div>

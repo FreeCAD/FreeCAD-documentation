@@ -1,3 +1,5 @@
+# Gui Command/fr
+
  Une GuiCommand, est l\'une des fonctions les plus importantes du point de vue interaction entre l\'utilisateur et FreeCAD. Chaque fois que l\'utilisateur sélectionne un élément du menu, ou appuie sur un **bouton** de la barre d\'outils, il active une GuiCommand. Voici quelques-uns des attributs d\'une GuiCommand :
 
 -   Définir un nom

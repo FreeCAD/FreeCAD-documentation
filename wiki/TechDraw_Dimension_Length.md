@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:TechDraw  Dimension Length
-   MenuLocation:TechDraw → Dimension Length
+   MenuLocation:TechDraw → Dimensions → Insert Length Dimension
    Workbenches:[TechDraw](TechDraw_Workbench.md)
    SeeAlso:[TechDraw Dimension Horizontal](TechDraw_Dimension_Horizontal.md), [TechDraw Dimension Vertical](TechDraw_Dimension_Vertical.md)
 ---

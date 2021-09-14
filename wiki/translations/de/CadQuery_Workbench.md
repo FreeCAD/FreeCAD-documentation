@@ -1,3 +1,5 @@
+# CadQuery Workbench/de
+
  <img alt="CadAbfrage Arbeitsbereichssymbol" src=images/Cadquery_module_workbench_icon.svg  style="width:128px;">
 
 
@@ -56,4 +58,4 @@ Die neueste Version von CadAbfrage nutzt nicht mehr FreeCAD und ist nicht mit de
 
 
 
-[Category:Sandbox{{\#translation:}}](Category:Sandbox.md) [Category:User Documentation{{\#translation:}}](Category:User_Documentation.md) [Category:Addons{{\#translation:}}](Category:Addons.md) [Category:External Workbenches{{\#translation:}}](Category:External_Workbenches.md)
+[Category:Sandbox](Category:Sandbox.md) [Category:User Documentation](Category:User_Documentation.md) [Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)

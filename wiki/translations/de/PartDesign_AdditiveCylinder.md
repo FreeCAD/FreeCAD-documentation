@@ -19,10 +19,16 @@ Fügt einen einfachen Zylinder in den aktiven Körper (Body) als Basisformelemen
 
 ## Anwendung
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Drücke die **<img src="images/PartDesign_AdditiveCylinder.svg" width=24px> '''Additiver Zylinder'''** Schaltfläche. **Hinweis**: der Additive Zylinder ist Teil eines Symbolmenüs mit der Bezeichnung *Erstellen eines additiven Grundelements*. Nach dem Start von FreeCAD wird der Additiv Quader in der Werkzeugleiste angezeigt. Um zur Schaltfläche Zylinder zu gelangen, klicke auf den Abwärtspfeil neben dem sichtbaren Symbol und wähle Additiv Zylinder im Menü.
 2.  Stelle die Grundelement Parameter und [Anhang](Part_Attachment/de.md) ein.
 3.  Klicke **OK**.
 4.  Eine Zylinderfunktion wird unter dem aktiven Körper angezeigt.
+
+
+</div>
 
 ## Optionen
 

@@ -19,7 +19,7 @@ Un plan de référence, à partir de FreeCAD 0.18, ne peut être créé qu'à l'
 ## Utilisation
 
 1.  Appuyez sur le bouton **<img src="images/PartDesign_Plane.svg" width=16px> [Créer un nouveau plan de référence](PartDesign_Plane/fr.md)**.
-2.  Définissez les paramètres du plan. Sélectionnez une première référence dans la vue 3D pour filtrer les modes [Part Ancrage](Part_Attachment/fr.md) disponibles.
+2.  Définissez les paramètres du plan. Sélectionnez une première référence dans la vue 3D pour filtrer les modes [Part Ancrage](Part_EditAttachment/fr.md) disponibles.
 3.  En fonction de la référence sélectionnée, un ou plusieurs modes d\'ancrage de pièces peuvent être disponibles dans la liste. Le plus probable sera automatiquement sélectionné et affiché en gras dans la liste. Le texte *Ancré avec le mode* ainsi que le nom du mode d\'ancrage de la pièce apparaissent en vert en haut du panneau Paramètres.
 4.  Pour ajouter une référence supplémentaire, appuyez sur le bouton **Référence** suivant. Une fois appuyé, son étiquette devient *Sélection en cours\...* jusqu\'à ce qu\'une sélection soit faite.
 5.  Sélectionnez un mode d\'ancrage de la pièce dans la liste.
@@ -29,7 +29,7 @@ Un plan de référence, à partir de FreeCAD 0.18, ne peut être créé qu'à l'
 
 ## Options
 
-Double-cliquez sur l\'étiquette DatumPlane dans l\'arborescence du modèle ou cliquez avec le bouton droit de la souris et sélectionnez **Modifier la référence** dans le menu contextuel pour modifier ses paramètres. Pour plus de détails sur le mode d\'ancrage et le décalage de l\'ancrage, voir [Part Ancrage](Part_Attachment/fr.md).
+Double-cliquez sur l\'étiquette DatumPlane dans l\'arborescence du modèle ou cliquez avec le bouton droit de la souris et sélectionnez **Modifier la référence** dans le menu contextuel pour modifier ses paramètres. Pour plus de détails sur le mode d\'ancrage et le décalage de l\'ancrage, voir [Part Ancrage](Part_EditAttachment/fr.md).
 
 ## Propriétés
 

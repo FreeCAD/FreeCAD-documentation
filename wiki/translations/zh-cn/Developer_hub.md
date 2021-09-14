@@ -1,3 +1,5 @@
+# Developer hub/zh-cn
+
 
 
 ![150](images/Crystal_Clear_app_tutorials.png )
@@ -191,4 +193,4 @@ FreeCAD虽然在特定领域已经可用了，但是在跨入主流CAD的路途�
 
 
 
-[Category:Hubs{{\#translation:}}](Category:Hubs.md) [Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md)
+[Category:Hubs](Category:Hubs.md) [Category:Developer Documentation](Category:Developer_Documentation.md)

@@ -1,3 +1,5 @@
+# Scientific literature/pl
+
 
 
 ## Opis
@@ -15,4 +17,4 @@ Większość z tych artykułów ma nieograniczony dostęp.
 
 }}
 
-[Category:Hubs{{\#translation:}}](Category:Hubs.md)
+[Category:Hubs](Category:Hubs.md)

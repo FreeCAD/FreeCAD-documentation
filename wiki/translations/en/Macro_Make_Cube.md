@@ -1,3 +1,5 @@
+# Macro Make Cube/en
+
  {{Macro
 |Name=Make Cube
 |Icon=Macro_makeCube.png

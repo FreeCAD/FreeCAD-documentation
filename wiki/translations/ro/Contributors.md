@@ -1,3 +1,5 @@
+# Contributors/ro
+
 
 
 
@@ -257,4 +259,4 @@ Dezvoltatori ai FreeCAD addons (preluat din <https://github.com/FreeCAD/FreeCAD-
 
 
 
-[Category:Developer{{\#translation:}}](Category:Developer.md)
+[Category:Developer](Category:Developer.md)

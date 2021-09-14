@@ -38,4 +38,4 @@ A 3D comb will be created for 3D curves. Sample and scale can be changed. This t
 
  {{Curves Tools navi}} 
 
-[Category:External Command Reference{{\#translation:}}](Category:External_Command_Reference.md)
+[Category:External Command Reference](Category:External_Command_Reference.md)

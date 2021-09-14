@@ -1,3 +1,5 @@
+# Sketcher Workbench/pl
+
 
 
 
@@ -19,7 +21,7 @@ FreeCAD <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Śr
 
 *W pełni związany szkic.*
 
-## Podstawy tworzenia wiązań 
+## Podstawy szkicowania z wiązaniami 
 
 Aby wyjaśnić, jak działa Szkicownik, przydatne może być porównanie go z \"tradycyjnym\" sposobem sporządzania projektu.
 
@@ -84,7 +86,7 @@ Wszystkie narzędzia Środowiska prascy Szkicownik znajdują się w menu główn
 
 -   <img alt="" src=images/Sketcher_MirrorSketch.svg  style="width:32px;"> [Odbicie lustrzane](Sketcher_MirrorSketch.md): Odbicie szkicu wzdłuż osi x, osi y, lub punktu początku układu współrzędnych.
 
--   <img alt="" src=images/Sketcher_StopOperation.svg  style="width:32px;"> [Przerwij działanie](Sketcher_StopOperation.md): w trybie edycji przerywa bieżącą operację, niezależnie od tego, czy jest to rysowanie, ustawianie wiązań, itp.
+-   <img alt="" src=images/Sketcher_StopOperation.svg  style="width:32px;"> [Przerwij operację](Sketcher_StopOperation/pl.md): w trybie edycji przerywa bieżącą operację, niezależnie od tego, czy jest to rysowanie, ustawianie wiązań, itp.
 
 ### Geometria w szkicowniku 
 
@@ -222,35 +224,35 @@ Następujące narzędzia mogą być wykorzystane do zmiany działania wiązań:
 
 -   <img alt="" src=images/Sketcher_SelectElementsWithDoFs.svg  style="width:32px;"> [Wybierz nie związane DOFs](Sketcher_SelectElementsWithDoFs.md): Podświetla na zielono geometrię z stopniami swobody *(DOFs)*, tzn. nie w pełni związaną.
 
--   <img alt="" src=images/Sketcher_CloseShape.svg  style="width:32px;"> [Zamknij kształt](Sketcher_CloseShape.md): Tworzy zamknięty kształt, stosując wiązania zgodności względem punktów końcowych.
+-   <img alt="" src=images/Sketcher_CloseShape.svg  style="width:32px;"> [Zamknij kształt](Sketcher_CloseShape/pl.md): Tworzy zamknięty kształt, stosując wiązania zgodności względem punktów końcowych.
 
--   <img alt="" src=images/Sketcher_ConnectLines.svg  style="width:32px;"> [Połącz krawędzie](Sketcher_ConnectLines.md): Połącz elementy szkicownika poprzez zastosowanie zbieżnych ograniczeń do punktów końcowych.
+-   <img alt="" src=images/Sketcher_ConnectLines.svg  style="width:32px;"> [Połącz krawędzie](Sketcher_ConnectLines/pl.md): Połącz elementy szkicownika poprzez zastosowanie zbieżnych ograniczeń do punktów końcowych.
 
--   <img alt="" src=images/Sketcher_SelectConstraints.svg  style="width:32px;"> [Zaznacz wiązania](Sketcher_SelectConstraints.md): Wybiera wiązania elementu rysunku w szkicowniku.
+-   <img alt="" src=images/Sketcher_SelectConstraints.svg  style="width:32px;"> [Zaznacz wiązania](Sketcher_SelectConstraints/pl.md): Wybiera wiązania elementu rysunku w szkicowniku.
 
--   <img alt="" src=images/Sketcher_SelectElementsAssociatedWithConstraints.svg  style="width:32px;"> [Zaznacz elementy skojarzone z wiązaniami](Sketcher_SelectElementsAssociatedWithConstraints.md): Wskaż elementy rysunku powiązane z wiązaniami.
+-   <img alt="" src=images/Sketcher_SelectElementsAssociatedWithConstraints.svg  style="width:32px;"> [Zaznacz elementy skojarzone z wiązaniami](Sketcher_SelectElementsAssociatedWithConstraints/pl.md): Wskaż elementy rysunku powiązane z wiązaniami.
 
--   <img alt="" src=images/Sketcher_SelectRedundantConstraints.svg  style="width:32px;"> [Zaznacz nadmiarowe wiązania](Sketcher_SelectRedundantConstraints.md): Wybiera zbędne wiązania w szkicu.
+-   <img alt="" src=images/Sketcher_SelectRedundantConstraints.svg  style="width:32px;"> [Zaznacz nadmiarowe wiązania](Sketcher_SelectRedundantConstraints/pl.md): Wybiera zbędne wiązania w szkicu.
 
--   <img alt="" src=images/Sketcher_SelectConflictingConstraints.svg  style="width:32px;"> [Zaznacz sprzeczne wiązania](Sketcher_SelectConflictingConstraints.md): Wybiera kolidujące ze sobą wiązania szkicu.
+-   <img alt="" src=images/Sketcher_SelectConflictingConstraints.svg  style="width:32px;"> [Zaznacz sprzeczne wiązania](Sketcher_SelectConflictingConstraints/pl.md): Wybiera kolidujące ze sobą wiązania szkicu.
 
 -   <img alt="" src=images/Sketcher_RestoreInternalAlignmentGeometry.svg  style="width:32px;"> [Pokaż geometrię wewnętrzną \...](Sketcher_RestoreInternalAlignmentGeometry.md): Umożliwia odtworzenie brakującej lub usunięcie niepotrzebnej geometrii wewnętrznej wybranej elipsy, łuku elipsy, hiperboli, paraboli lub B-spline.
 
--   <img alt="" src=images/Sketcher_SelectOrigin.svg  style="width:32px;"> [Zaznacz początek](Sketcher_SelectOrigin.md): Wybiera punkt początkowy szkicu.
+-   <img alt="" src=images/Sketcher_SelectOrigin.svg  style="width:32px;"> [Zaznacz początek](Sketcher_SelectOrigin/pl.md): Wybiera punkt początkowy szkicu.
 
--   <img alt="" src=images/Sketcher_SelectVerticalAxis.svg  style="width:32px;"> [Wybierz oś pionową](Sketcher_SelectVerticalAxis.md): Wybór osi pionowej szkicu.
+-   <img alt="" src=images/Sketcher_SelectVerticalAxis.svg  style="width:32px;"> [Wybierz oś pionową](Sketcher_SelectVerticalAxis/pl.md): Wybór osi pionowej szkicu.
 
--   <img alt="" src=images/Sketcher_SelectHorizontalAxis.svg  style="width:32px;"> [Wybierz oś poziomą](Sketcher_SelectHorizontalAxis.md): Zaznacza poziomą oś szkicu.
+-   <img alt="" src=images/Sketcher_SelectHorizontalAxis.svg  style="width:32px;"> [Wybierz oś poziomą](Sketcher_SelectHorizontalAxis/pl.md): Zaznacza poziomą oś szkicu.
 
--   <img alt="" src=images/Sketcher_Symmetry.svg  style="width:32px;"> [Tworzy symetryczna geometrię \...](Sketcher_Symmetry.md): Tworzy kopię wybranego elementu, symetrycznie względem wybranej linii.
+-   <img alt="" src=images/Sketcher_Symmetry.svg  style="width:32px;"> [Tworzy symetryczna geometrię \...](Sketcher_Symmetry/pl.md): Tworzy kopię wybranego elementu, symetrycznie względem wybranej linii.
 
--   <img alt="" src=images/Sketcher_Clone.svg  style="width:32px;"> [Tworzy proste kopie elementu \...](Sketcher_Clone.md): Klonuje wybrany element w szkicowniku.
+-   <img alt="" src=images/Sketcher_Clone.svg  style="width:32px;"> [Tworzy proste kopie elementu \...](Sketcher_Clone/pl.md): Klonuje wybrany element w szkicowniku.
 
--   <img alt="" src=images/Sketcher_Copy.svg  style="width:32px;"> [Kopia](Sketcher_Copy.md): Kopiuje element szkicownika.
+-   <img alt="" src=images/Sketcher_Copy.svg  style="width:32px;"> [Kopia](Sketcher_Copy/pl.md): Kopiuje element szkicownika.
 
 -   <img alt="" src=images/Sketcher_Move.svg  style="width:32px;"> [Przesuń](Sketcher_Move.md): Przesuwa wybraną geometrię, biorąc za punkt odniesienia ostatni wybrany punkt.
 
--   <img alt="" src=images/Sketcher_RectangularArray.svg  style="width:32px;"> [Tworzy prostokątny wzór macierzy reometrii \...](Sketcher_RectangularArray.md): Tworzy tablicę wybranych elementów szkicownika.
+-   <img alt="" src=images/Sketcher_RectangularArray.svg  style="width:32px;"> [Tworzy prostokątny wzór macierzy reometrii \...](Sketcher_RectangularArray/pl.md): Tworzy tablicę wybranych elementów szkicownika.
 
 -   <img alt="" src=images/Sketcher_RemoveAxesAlignment.svg  style="width:32px;"> [Usuń wyrównanie osi](Sketcher_RemoveAxesAlignment/pl.md): Usuń wyrównanie osi, próbując jednocześnie zachować relację wiązań zaznaczenia {{Version/pl|0.20}}.
 
@@ -323,4 +325,4 @@ Strona [skrypty szkicownika](Sketcher_scripting.md) zawiera przykłady tworzenia
 
 }} 
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

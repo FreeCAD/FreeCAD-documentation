@@ -1,8 +1,8 @@
 ---
 - GuiCommand:/ru
-   Name:Sketcher SelectRedundantConstraints
-   Name/ru:Sketcher SelectRedundantConstraints
-   MenuLocation:Sketch → Инструменты для эскиза → Select Redundant Constraints
+   Name/ru:Выделить избыточные ограничения
+   Name:Sketcher_SelectRedundantConstraints
+   MenuLocation:Sketch → Инструменты для эскиза → Выделить избыточные ограничения
    Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
    Shortcut:Shift+Ctrl+R
    Version:0.15
@@ -12,7 +12,7 @@
 
 Selects the redundant constraints of a sketch.
 
-## Usage
+## Применение
 
 1.  Enter edit mode of sketch.
 2.  Choose **Sketch → Sketcher tools → <img src=images/Sketcher_SelectRedundantConstraints.svg style="width:16px"> Select Redundant Constraints** from the top menu.

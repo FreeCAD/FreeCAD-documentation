@@ -1,3 +1,5 @@
+# Compile on Windows
+
  
 
 
@@ -482,4 +484,4 @@ See also
 
  
 
-[Category:Developer\_Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Developer{{\#translation:}}](Category:Developer.md)
+[Category:Developer\_Documentation](Category:Developer_Documentation.md) [Category:Developer](Category:Developer.md)

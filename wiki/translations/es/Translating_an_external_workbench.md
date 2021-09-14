@@ -1,3 +1,5 @@
+# Translating an external workbench/es
+
 
 
 En las siguientes notas, `"contexto"` debe ser el mismo nombre de tu complemento o banco de trabajo, por ejemplo, `"MiSuperComplemento"` o `"DraftPlus"`, o el que sea. Este contexto hace que todas esas traducciones de tu código sean reunidas bajo el mismo nombre, para que sean mas fácilmente identificables por los traductores. Esto es, ellos sabrán exactamente a cual complemento o banco de trabajo una cadena de texto pertenece.
@@ -222,4 +224,4 @@ Result: This should give you the German translation. If this works ok, then the 
 
  
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md)

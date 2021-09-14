@@ -1,3 +1,5 @@
+# OpenCASCADE/pl
+
 
 
 
@@ -86,4 +88,4 @@ Thus, out of shapes you can build very complex parts or, the other way round, ex
 
 }} 
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md)

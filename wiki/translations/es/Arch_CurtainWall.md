@@ -3,7 +3,7 @@
    Name:Arch CurtainWall
    Name/es:Arquitectura  Muro Cortina
    MenuLocation:Arquitectura → MuroCortina
-   Workbenches:[Arquitectura](Arch_Module/es.md)
+   Workbenches:[Arquitectura](Arch_Workbench/es.md)
    Shortcut:**C** **W**
    Version:0.19
    SeeAlso:[Arquitectura Muro](Arch_Wall/es.md), [Arquitecturah Rejilla](Arch_Grid/es.md)
@@ -105,7 +105,7 @@ Curtain wall objects inherit the properties of [Arch Components](Arch_Component.
 
 ## Hacer paredes con marco 
 
-Curtain walls are convenient to use in conjunction with [walls](Arch_Wall.md) to create frame walls (walls where an inner, structural layer is made of frames, usually wooden or metal, instead of an homogeneous material such as concrete of brick).
+Curtain walls are convenient to use in conjunction with [walls](Arch_Wall.md) to create frame walls (walls where an inner, structural layer is made of frames, usually wooden or metal, instead of an homogeneous material such as concrete or brick).
 
 <img alt="" src=images/Frame_wall_example.png  style="width:780px;">
 

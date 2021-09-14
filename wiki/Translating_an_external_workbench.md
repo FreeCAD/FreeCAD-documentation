@@ -1,3 +1,5 @@
+# Translating an external workbench
+
  
 
 In the following notes, `"context"` should be your addon\'s or workbench\'s name, for example, `"MySuperAddon"` or `"DraftPlus"`, or whatever. This context makes it so that all translation of your code will be gathered under the same name, to be more easily identified by translators. That is, they will know exactly to which addon or workbench a particular string belongs.
@@ -215,4 +217,4 @@ Result: This should give you the German translation. If this works ok, then the 
 
   
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md)

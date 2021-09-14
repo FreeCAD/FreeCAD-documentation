@@ -1,3 +1,5 @@
+# Start Workbench/tr
+
 
 
 
@@ -21,4 +23,4 @@ From this interface you can see useful information and jump to recently opened f
 
 
 
-[Category:Start{{\#translation:}}](Category:Start.md) [Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Start](Category:Start.md) [Category:Workbenches](Category:Workbenches.md)

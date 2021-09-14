@@ -3,7 +3,7 @@
    Name:Arch CurtainWall
    Name/it:Facciata continua
    MenuLocation:Arch → Facciata continua
-   Workbenches:[Arch](Arch_Module/it.md)
+   Workbenches:[Arch](Arch_Workbench/it.md)
    Shortcut:**C** **W**
    Version:0.19
    SeeAlso:[Muro](Arch_Wall/it.md), [Griglia](Arch_Grid/it.md)
@@ -119,7 +119,7 @@ Gli oggetti di facciata continua ereditano le proprietà dei [Componenti](Arch_C
 
 ## Making frame walls 
 
-Curtain walls are convenient to use in conjunction with [walls](Arch_Wall.md) to create frame walls (walls where an inner, structural layer is made of frames, usually wooden or metal, instead of an homogeneous material such as concrete of brick).
+Curtain walls are convenient to use in conjunction with [walls](Arch_Wall.md) to create frame walls (walls where an inner, structural layer is made of frames, usually wooden or metal, instead of an homogeneous material such as concrete or brick).
 
 <img alt="" src=images/Frame_wall_example.png  style="width:780px;">
 

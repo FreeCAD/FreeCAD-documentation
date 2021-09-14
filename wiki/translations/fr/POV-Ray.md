@@ -1,3 +1,5 @@
+# POV-Ray/fr
+
  {{VeryImportantMessage|Le développement de POV-Ray semble être arrêté. La dernière version stable est 3.7.0.8 (2018-05-27), la dernière version de développement est 3.8.0-x (2019-02-19), le [https://github.com/POV-Ray/povray/ official project on GitHub] a été édité la dernière fois le 2019-03-08. Veuillez supprimer cet avertissement si la situation change}}
 
 # Description

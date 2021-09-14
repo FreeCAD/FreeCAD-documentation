@@ -1,3 +1,5 @@
+# Compile on Cygwin/de
+
  {{VeryImportantMessage|(2019) The contents of this page are obsolete. Please help us to keep it updated!<br/> Meanwhile, try other [compilation options](Compiling.md).}}
 
 ## How to build and run FreeCAD under Cygwin 
@@ -72,4 +74,4 @@ Once you have built the sources successfully using \'make\' with \'make install\
 
 
 
-[Category:Developer\_Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Developer{{\#translation:}}](Category:Developer.md)
+[Category:Developer\_Documentation](Category:Developer_Documentation.md) [Category:Developer](Category:Developer.md)

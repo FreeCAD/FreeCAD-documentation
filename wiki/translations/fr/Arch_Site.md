@@ -3,13 +3,10 @@
    Name:Arch Site
    Name/fr:Arch Site
    MenuLocation:Arch → Site
-   Workbenches:[Arch](Arch_Module/fr.md)
+   Workbenches:[Arch](Arch_Workbench/fr.md)
    Shortcut:**S** **I**
    SeeAlso:[Arch Niveaux](Arch_Floor/fr.md), [Arch Bâtiment](Arch_Building/fr.md)
 ---
-
-
-</div>
 
 ## Description
 
@@ -168,13 +165,7 @@ FreeCAD.Gui.ActiveDocument.ActiveView.getSceneGraph().addChild(Node)
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
  

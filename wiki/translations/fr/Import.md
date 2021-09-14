@@ -1,3 +1,5 @@
+# Import/Export IFC - compiling IfcOpenShell/fr
+
  {{TutorialInfo/fr
 |Topic=Atelier Arch
 |Level=Avancé
@@ -128,4 +130,4 @@ Tchao!
 
 
 
-[Category:BIM{{\#translation:}}](Category:BIM.md) [Category:Arch{{\#translation:}}](Category:Arch.md) [Category:3rd Party{{\#translation:}}](Category:3rd_Party.md) [Category:File\_Formats{{\#translation:}}](Category:File_Formats.md)
+[Category:BIM](Category:BIM.md) [Category:Arch](Category:Arch.md) [Category:3rd Party](Category:3rd_Party.md) [Category:File\_Formats](Category:File_Formats.md)

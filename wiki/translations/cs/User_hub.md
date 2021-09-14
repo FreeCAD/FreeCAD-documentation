@@ -1,8 +1,10 @@
+# User hub/cs
+
  <img alt="" src=images/User_hub.png  style="width:64px;">
 
 ------------------------------------------------------------------------
 
-\_\_NOTOC\_\_
+
 
 
 <div class="mw-translate-fuzzy">
@@ -27,7 +29,7 @@ If you would like to know how FreeCAD started years ago visit the [History](Hist
 
 <div class="mw-translate-fuzzy">
 
-A máte-li nějaké poznatky, které byste rádi viděli i zde, není důvod abyste nepřispěli a nepomohli nám tento manuál vylepšit. Přejděte na stránku [Nápověda FreeCADu](Help_FreeCAD/cs.md) , která Vám s tím pomůže začít. \_\_NOTOC\_\_
+A máte-li nějaké poznatky, které byste rádi viděli i zde, není důvod abyste nepřispěli a nepomohli nám tento manuál vylepšit. Přejděte na stránku [Nápověda FreeCADu](Help_FreeCAD/cs.md) , která Vám s tím pomůže začít. 
 
 ## Použití FreeCADu 
 
@@ -187,4 +189,4 @@ Toto je oficiální online nápověda FreeCADu. Mějte prosím na paměti, že c
 
 
 
-[Category:Hubs{{\#translation:}}](Category:Hubs.md)
+[Category:Hubs](Category:Hubs.md)

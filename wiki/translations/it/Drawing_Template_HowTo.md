@@ -1,3 +1,5 @@
+# Drawing Template HowTo/it
+
 
 
 
@@ -138,9 +140,21 @@ viewBox="0 0 279 216"
 
 ### I tag Working space e Title block 
 
+
+<div class="mw-translate-fuzzy">
+
 Le altre righe da aggiungere sono i tag Working space (area di lavoro) e Title block (cartiglio). Questi tag e il loro utilizzo sono definiti nella pagina dei Modelli di disegno. Anche se questi tag non sono indispensabili, le versioni più recenti del Modulo Drawing di FreeCAD li usano e non influenzano le versioni precedenti.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Il tag Working space viene utilizzato per definire lo spazio in cui FreeCAD può effettuare le proiezioni. Questo permette a FreeCAD di creare delle proiezioni automatiche nel modello di foglio rimanendo entro i bordi in cui può disegnare, o all\'interno di qualsiasi zona definita nella pagina.
+
+
+</div>
 
 Il tag Title block è usato per definire la posizione del cartiglio nell\'area di lavoro. Queste informazioni vengono usate da FreeCAD per evitare di utilizzare questo spazio come area di lavoro. L\'area del cartiglio può essere definita come \"area riservata\".
 
@@ -148,7 +162,13 @@ Se si utilizzano entrambi i tag, il tag Working space deve apparire per primo e 
 
 #### Il tag Working space 
 
+
+<div class="mw-translate-fuzzy">
+
 Il primo tag è il tag Working space ed è formattato in questo modo:
+
+
+</div>
 
  {.html}
 
@@ -224,7 +244,13 @@ Tutto qui. Ora il documento SVG può essere salvato e utilizzato con FreeCAD.
 
 ## Esempio di modello completo 
 
+
+<div class="mw-translate-fuzzy">
+
 Sotto è riportato il modello SVG finito. Siccome è in formato SVG, è possibile salvarlo e aprirlo con il proprio editor di testo per la revisione come riferimento per questa esercitazione o per creare dei propri modelli.
+
+
+</div>
 
 ![](images/TemplateExample.svg )
 

@@ -1,3 +1,5 @@
+# Points Workbench/de
+
 
 
 
@@ -32,17 +34,11 @@ Alle Werkzeuge des Punkte Arbeitsbereichs sind aus dem **Punkte** Menü erreichb
 
 ## Hinweise
 
-
-<div class="mw-translate-fuzzy">
-
--   [Entwurfsbefehle](Draft_Module/de.md), wie <img alt="" src=images/Draft_Line.svg  style="width:24px;"> [Entwurf Linien](Draft_Line/de.md) und <img alt="" src=images/Draft_BSpline.svg  style="width:24px;"> [Draft BSpline](Draft_BSpline/de.md) können verwendet werden, um die Punkte in einer Punktwolke zu verbinden. Verwende <img alt="" src=images/Draft_Snap_Endpoint.svg  style="width:24px;"> [Entwurf Fang Endpunkt](Draft_Snap_Endpoint/de.md) um Punkte zu fangen.
+-   [Entwurfsbefehle](Draft_Workbench/de.md), wie <img alt="" src=images/Draft_Line.svg  style="width:24px;"> [Entwurf Linien](Draft_Line/de.md) und <img alt="" src=images/Draft_BSpline.svg  style="width:24px;"> [Draft BSpline](Draft_BSpline/de.md) können verwendet werden, um die Punkte in einer Punktwolke zu verbinden. Verwende <img alt="" src=images/Draft_Snap_Endpoint.svg  style="width:24px;"> [Entwurf Fang Endpunkt](Draft_Snap_Endpoint/de.md) um Punkte zu fangen.
 -   [Python](Python/de.md) kann zur Analyse und Verarbeitung von Punktwolken verwendet werden. Siehe die folgenden Forumsdiskussionen:
     -   [Inspecting Point cloud](http://forum.freecadweb.org/viewtopic.php?f=3&t=16098).
     -   [Fläche aus Messwerten](http://forum.freecadweb.org/viewtopic.php?f=13&t=15988) (Deutsch)
     -   [Schnitte durch Flächen aus Messwerten](http://forum.freecadweb.org/viewtopic.php?f=13&t=16103) (Deutsch)
-
-
-</div>
 
 
 
@@ -55,4 +51,4 @@ Alle Werkzeuge des Punkte Arbeitsbereichs sind aus dem **Punkte** Menü erreichb
 
 }} 
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

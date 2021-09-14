@@ -8,9 +8,6 @@
    SeeAlso:[Part Fragments booléens](Part_BooleanFragments/fr.md), [Part OU exclusif](Part_XOR/fr.md), [Part Jointure](Part_CompJoinFeatures/fr.md), [Part Opérations booléennes](Part_Boolean/fr.md)
 ---
 
-
-</div>
-
 ## Description
 
 L\'outil <img alt="" src=images/Part_Slice.svg  style="width:24px;"> [Part Scinder](Part_Slice/fr.md) aussi connue sous **Slice to compound** est utilisé pour diviser des formes par intersection avec d\'autres formes. Par exemple, pour une boîte et un plan, un composé de deux solides est créé.
@@ -76,9 +73,6 @@ Le tranchage est créé et chaque morceau est uni dans un composé.
 
 ### Créer un puzzle 
 
-
-<div class="mw-translate-fuzzy">
-
 1.  Basculez vers l\'<img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [atelier Sketcher](Sketcher_Workbench/fr.md)
     -   Créez un nouveau croquis.
     -   Dessinez un rectangle qui délimitera la forme générale du puzzle.
@@ -97,9 +91,6 @@ Le tranchage est créé et chaque morceau est uni dans un composé.
 5.  Sélectionnez la face rectangulaire et les BooleanFragments of splitter sketch et appliquez <img alt="" src=images/Part_Slice.svg  style="width:24px;"> Part Slice.
     ![320px](images/slice_example_step5.png)
 6.  Utilisez <img alt="" src=images/Part_ExplodeCompound.svg  style="width:24px;"> [Part Éclater le composé](Part_ExplodeCompound/fr.md) sur la face tranchée, pour séparer le composé fabriqué par Part Slice en morceaux individuels.
-
-
-</div>
 
 **Remarques :** les étapes 5 et 6 peuvent être effectuées en un seul clic en utilisant <img alt="" src=images/Part_SliceApart.svg  style="width:24px;"> [Part Séparer/exploser](Part_SliceApart/fr.md)
 
@@ -137,13 +128,7 @@ L\'outil lui-même est implémenté en Python, voir {{FileName|/Mod/Part/BOPTool
 -   [FreeCAD Slice und Slice Apart und andere Tricks](https://www.youtube.com/watch?v=JJAL5JmqqKQ) (en allemand), auteur : Ha Gei
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
  

@@ -3,7 +3,7 @@
    Name:Draft Snap Extension
    Name/de:Entwurf Fang Erweiterung
    MenuLocation:Entwurf → [Fangen](Draft_Snap/de.md) → Erweiterung
-   Workbenches:[Entwurf](Draft_Module/de.md), [Arch](Arch_Module/de.md)
+   Workbenches:[Entwurf](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
    SeeAlso:[Entwurf Fang](Draft_Snap/de.md), [Entwurf UmschaltenFang](Draft_Snap_Lock/de.md)
 ---
 

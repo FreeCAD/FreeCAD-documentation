@@ -76,7 +76,7 @@ Dies wird erreicht, indem die Detailansicht in eine [Klipgruppe](TechDraw_ClipGr
 
 -   Bei Detailansichten mit einem runden Umriss kann die Position der Bezugskennzeichnung in der Basisansicht über die Basisansichtseigenschaft {{PropertyView/de|Einstellung Hervorheben}} geändert werden.
 
-## Anmerkungen
+## Hinweise
 
 -   [Eine gute Aussprache über das Setzen des Ankers](https://www.forum.freecadweb.org/viewtopic.php?f=35&t=34055#p285281)
 
@@ -86,4 +86,4 @@ Dies wird erreicht, indem die Detailansicht in eine [Klipgruppe](TechDraw_ClipGr
 
 {{TechDraw Tools navi
 
-}}  
+}} 

@@ -29,7 +29,13 @@ Lo strumento Offset 3D di Parte crea delle copie parallele di una forma selezion
 2.  Option ː Self Intersection ː ( todo )
 3.  Option ː Fill Offset ː Quando la forma è bidimensionale, lo spazio tra le 2 forme viene riempito. Il riempimento ora è un solido, ma la forma sorgente non è un solido. Quindi le operazioni booleane possono portare a risultati strani. (vedi esempio).
 
+
+<div class="mw-translate-fuzzy">
+
 ## Esempio
+
+
+</div>
 
 Oggetto con angoli sfalsati e arrotondati (arco).
 

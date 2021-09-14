@@ -1,3 +1,5 @@
+# AppImage/it
+
  {{VeryImportantMessage|A partire dal 7 luglio 2019, la comunità di FreeCAD ha segnalato che il download di AppImages da Github sembra terminare prima del completamento. Non sappiamo perché accade questo. In questo caso, provare a scaricare di nuovo. Ci vogliono alcuni tentativi. Una pratica consigliata è quella di utilizzare la [https://wiki.freecadweb.org/AppImage/it#Aggiornamento_automatico funzione di aggiornamento automatico] di AppImage, che ripristina il download dal punto in cui si è interrotto.
 }}
 
@@ -181,4 +183,4 @@ The repository for these scripts is at [realthunder/FreeCADMakeImage](https://gi
 
 
 
-[Category:Packaging{{\#translation:}}](Category:Packaging.md) [Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Testing{{\#translation:}}](Category:Testing.md)
+[Category:Packaging](Category:Packaging.md) [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Testing](Category:Testing.md)

@@ -1,3 +1,5 @@
+# History/it
+
  \_\_FORCETOC\_\_
 
 
@@ -82,7 +84,7 @@ Con il tempo, il progetto ha guadagnato trazione, e si sono aggiunti dei nuovi c
 
 <div class="mw-translate-fuzzy">
 
-[Yorik van Havre](User:Yorik.md) ha aderito al progetto nel 2008 e avviato i lavori sul [Modulo Draft](Draft_Module/it.md). Prima non c\'era modo di creare la geometria 2D attraverso la [GUI](Glossary#GUI.md). Questo modulo è stato programmato interamente in Python, anziché in C++ che era il linguaggio di programmazione di base utilizzato in FreeCAD. L\'integrazione di Python è stata un successo e ha dimostrato che poteva essere utilizzato per estendere o personalizzare le funzionalità di FreeCAD. Oltre al suo lavoro sul modulo Draft, Yorik ha lavorato sull\'espansione della documentazione di FreeCAD, ed è diventato *de facto* \"Art director\" di FreeCAD, creando molte icone per la GUI e [definendo lo stile](Artwork/it.md) di FreeCAD.
+[Yorik van Havre](User:Yorik.md) ha aderito al progetto nel 2008 e avviato i lavori sul [Modulo Draft](Draft_Workbench/it.md). Prima non c\'era modo di creare la geometria 2D attraverso la [GUI](Glossary#GUI.md). Questo modulo è stato programmato interamente in Python, anziché in C++ che era il linguaggio di programmazione di base utilizzato in FreeCAD. L\'integrazione di Python è stata un successo e ha dimostrato che poteva essere utilizzato per estendere o personalizzare le funzionalità di FreeCAD. Oltre al suo lavoro sul modulo Draft, Yorik ha lavorato sull\'espansione della documentazione di FreeCAD, ed è diventato *de facto* \"Art director\" di FreeCAD, creando molte icone per la GUI e [definendo lo stile](Artwork/it.md) di FreeCAD.
 
 
 </div>
@@ -133,9 +135,9 @@ In April 2019 the team of core developers was expanded: Jürgen, Werner and Yori
   0.16      2016-04-18         [Note di rilascio della versione 0.16](Release_notes_0.16/it.md)
   0.15      2015-04-08         [Note di rilascio della versione 0.15](Release_notes_0.15/it.md)
   0.14      2014-07-01         [Note di rilascio della versione 0.14](Release_notes_0.14/it.md)
-  0.13      2013-01-29         [Note di rilascio della versione 0.13](Release_notes_013/it.md)
-  0.12      2011-12-20         [Note di rilascio della versione 0.12](Release_notes_012/it.md)
-  0.11      2011-05-03         [Note di rilascio della versione 0.11](Release_notes_011/it.md)
+  0.13      2013-01-29         [Note di rilascio della versione 0.13](Release_notes_0.13/it.md)
+  0.12      2011-12-20         [Note di rilascio della versione 0.12](Release_notes_0.12/it.md)
+  0.11      2011-05-03         [Note di rilascio della versione 0.11](Release_notes_0.11/it.md)
   0.10      2010-07-24         
   0.9       2010-01-16         
   0.8       2009-07-10         
@@ -151,6 +153,50 @@ In April 2019 the team of core developers was expanded: Jürgen, Werner and Yori
 
 
 </div>
+
+\|- \| style=\"background-color: \#C1E6F5;\"\| 0.20 \| ? \| in development \| [Release notes 0.20](Release_notes_0.20.md) \| [head master](https://github.com/FreeCAD/FreeCAD/commits/master) \|
+
+\|- \| style=\"background-color: \#D4F4B4;\"\| 0.19 \| - \| 2021-03-20 \| [Release notes 0.19](Release_notes_0.19.md) \| [release commit 0.19](https://github.com/FreeCAD/FreeCAD/commits/releases/FreeCAD-0-19) \| [branch bugfixes 0.19](https://github.com/FreeCAD/FreeCAD/tree/releases/FreeCAD-0-19)
+
+\|- \| style=\"background-color: \#FDB3AB;\"\| 0.18 \| - \| 2019-03-12 \| [Release notes 0.18](Release_notes_0.18.md) \| [release commit 0.18](https://github.com/FreeCAD/FreeCAD/commits/releases/FreeCAD-0-18) \| [branch bugfixes 0.18](https://github.com/FreeCAD/FreeCAD/tree/releases/FreeCAD-0-18)
+
+\|- \| style=\"background-color: \#FDB3AB;\"\| 0.17 \| Roland \| 2018-04-06 \| [Release notes 0.17](Release_notes_0.17.md) \| [release commit 0.17](https://github.com/FreeCAD/FreeCAD/commits/releases/FreeCAD-0-17) \| [branch bugfixes 0.17](https://github.com/FreeCAD/FreeCAD/tree/releases/FreeCAD-0-17)
+
+\|- \| style=\"background-color: \#FDB3AB;\"\| 0.16 \| - \| 2016-04-18 \| [Release notes 0.16](Release_notes_0.16.md) \| [release commit 0.16](https://github.com/FreeCAD/FreeCAD/commits/releases/FreeCAD-0-16) \| [branch bugfixes 0.16](https://github.com/FreeCAD/FreeCAD/tree/releases/FreeCAD-0-16)
+
+\|- \| style=\"background-color: \#FDB3AB;\"\| 0.15 \| - \| 2015-04-08 \| [Release notes 0.15](Release_notes_0.15.md) \| [release commit 0.15](https://github.com/FreeCAD/FreeCAD/commits/releases/FreeCAD-0-15) \| [branch bugfixes 0.15](https://github.com/FreeCAD/FreeCAD/tree/releases/FreeCAD-0-15)
+
+\|- \| style=\"background-color: \#FDB3AB;\"\| 0.14 \| - \| 2014-07-01 \| [Release notes 0.14](Release_notes_0.14.md) \| [release commit 0.14](https://github.com/FreeCAD/FreeCAD/commits/releases/FreeCAD-0-14) \| [branch bugfixes 0.14](https://github.com/FreeCAD/FreeCAD/tree/releases/FreeCAD-0-14)
+
+\|- \| style=\"background-color: \#FDB3AB;\"\| 0.13 \| - \| 2013-01-29 \| [Release notes 0.13](Release_notes_0.13.md) \| [release commit 0.13](https://github.com/FreeCAD/FreeCAD/commits/releases/FreeCAD-0-13) \| [branch bugfixes 0.13](https://github.com/FreeCAD/FreeCAD/tree/releases/FreeCAD-0-13)
+
+\|- \| style=\"background-color: \#FDB3AB;\"\| 0.12 \| - \| 2011-12-20 \| [Release notes 0.12](Release_notes_0.12.md) \| \|
+
+\|- \| style=\"background-color: \#FDB3AB;\"\| 0.11 \| - \| 2011-05-03 \| [Release notes 0.11](Release_notes_0.11.md) \| \|
+
+\|- \| style=\"background-color: \#FDB3AB;\"\| 0.10 \| - \| 2010-07-24 \| \| \|
+
+\|- \| style=\"background-color: \#FDB3AB;\"\| 0.9 \| - \| 2010-01-16 \| \| \|
+
+\|- \| style=\"background-color: \#FDB3AB;\"\| 0.8 \| - \| 2009-07-10 \| \| \|
+
+\|- \| style=\"background-color: \#FDB3AB;\"\| 0.7 \| - \| 2009-04-24 \| \| \|
+
+\|- \| style=\"background-color: \#FDB3AB;\"\| 0.6 \| - \| 2007-02-27 \| \| \|
+
+\|- \| style=\"background-color: \#FDB3AB;\"\| 0.5 \| - \| 2006-10-05 \| \| \|
+
+\|- \| style=\"background-color: \#FDB3AB;\"\| 0.4 \| - \| 2006-01-15 \| \| \|
+
+\|- \| style=\"background-color: \#FDB3AB;\"\| 0.3 \| - \| 2005-10-31 \| \| \|
+
+\|- \| style=\"background-color: \#FDB3AB;\"\| 0.2 \| - \| 2005-08-09 \| \| \|
+
+\|- \| style=\"background-color: \#FDB3AB;\"\| 0.1 \| - \| 2003-01-27 \| \| \|
+
+\|- \| style=\"background-color: \#FDB3AB;\"\| 0.0.1 \| - \| 2002-10-29 \| Initial Upload of a version \| \|
+
+\|}
 
 
 <div class="mw-translate-fuzzy">
@@ -182,6 +228,4 @@ In April 2019 the team of core developers was expanded: Jürgen, Werner and Yori
 
 </div>
 
-
-
-[Category:News{{\#translation:}}](Category:News.md)
+[Category:News](Category:News.md)

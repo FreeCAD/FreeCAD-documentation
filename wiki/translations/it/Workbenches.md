@@ -1,3 +1,5 @@
+# Workbenches/it
+
 
 
 
@@ -102,4 +104,4 @@ Sono in fase di sviluppo ulteriori nuovi ambienti, mantenetevi aggiornati.
 
 
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

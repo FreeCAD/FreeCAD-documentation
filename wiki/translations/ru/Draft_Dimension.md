@@ -2,9 +2,9 @@
 - GuiCommand:/ru
    Name:Draft Dimension
    Name/ru:Draft Dimension
-   Workbenches:[Draft](Draft_Module/ru.md), [Arch](Arch_Module/ru.md)
    MenuLocation:Черчение → Размер
-   Shortcut:D I
+   Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
+   Shortcut:**D** **I**
    SeeAlso:[Перевернуть размер](Draft_FlipDimension/ru.md)
 ---
 
@@ -65,7 +65,7 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
     -   Use the keyboard shortcut: **D** then **I**.
 3.  The **Dimension** task panel opens. See [Options](#Options.md) for more information.
 4.  If you have not yet selected an edge do one of the following:
-    -   Press **E** or the **<img src="images/view-select.svg" width=16px> select edge** button and select a circular edge in the [3D view](3D_view.md).
+    -   Press **E** or the **<img src="images/view-select.svg" width=16px> Select edge** button and select a circular edge in the [3D view](3D_view.md).
     -   Hold down the **Alt** key, select a circular edge in the [3D view](3D_view.md) and release the **Alt** key.
 5.  To position the dimension line do one of the following:
     -   For a diameter dimension:

@@ -1,3 +1,5 @@
+# Python scripting tutorial/es
+
 
 
 
@@ -246,9 +248,9 @@ Al explorar el contenido de myshape, notarás muchos subcomponentes interesantes
 
 ## Borrador
 
-FreeCAD proporciona varios módulos, como el [Croquizador](Sketcher_Workbench/es.md) o [Borrador](Draft_Module/es.md), que también crean objetos de piezas, pero le añade parámetros, o incluso un nuevo modo de manejar la geometría de las piezas. Nuestro cubo de ejemplo de arriba, es un perfecto ejemplo de objeto paramétrico. Todo lo que necesitas, para definir el cubo, es especificar un conjunto de parámetros, como las altura, ancho y longitud. Basados en los cuales, el objeto calculará automáticamente su forma de Pieza. FreeCAD te permite [crear dichos objetos en Python](Scripted_objects/es.md).
+FreeCAD proporciona varios módulos, como el [Croquizador](Sketcher_Workbench/es.md) o [Borrador](Draft_Workbench/es.md), que también crean objetos de piezas, pero le añade parámetros, o incluso un nuevo modo de manejar la geometría de las piezas. Nuestro cubo de ejemplo de arriba, es un perfecto ejemplo de objeto paramétrico. Todo lo que necesitas, para definir el cubo, es especificar un conjunto de parámetros, como las altura, ancho y longitud. Basados en los cuales, el objeto calculará automáticamente su forma de Pieza. FreeCAD te permite [crear dichos objetos en Python](Scripted_objects/es.md).
 
-El [Borrador](Draft_Module/es.md) Módulo añade tipos de objetos paramétricos 2D (que son todos objetos Pieza) como líneas y círculos, y también proporciona algunas funciones genéricas que no sólo funcionan con objetos Borrador, sino con cualquier objeto Pieza. Para explorar lo que está disponible, simplemente haga:
+El [Borrador](Draft_Workbench/es.md) Módulo añade tipos de objetos paramétricos 2D (que son todos objetos Pieza) como líneas y círculos, y también proporciona algunas funciones genéricas que no sólo funcionan con objetos Borrador, sino con cualquier objeto Pieza. Para explorar lo que está disponible, simplemente haga:
 
 
 ```python
@@ -292,4 +294,4 @@ Ahora estas listo para ver más en profundidad los archivos de guión en FreeCAD
 
 }} 
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Python Code{{\#translation:}}](Category:Python_Code.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)

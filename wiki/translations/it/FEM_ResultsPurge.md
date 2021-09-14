@@ -1,5 +1,12 @@
 ---
-- GuiCommand:/it   Name:FEM_PurgeResults   Name/it:Azzera risultati   MenuLocation:Risultati → Azzera risultati   |Workbenches:[Shortcut:**S** **S**   SeeAlso:[[FEM_tutorial/it|Tutorial FEM](FEM_Module/it___FEM]].md)---
+- GuiCommand:/it
+   Name:FEM_PurgeResults
+   Name/it:Azzera risultati
+   MenuLocation:Risultati → Azzera risultati
+   Workbenches:[FEM](FEM_Workbench/it.md)
+   Shortcut:**R** **P**
+   SeeAlso:[Tutorial FEM](FEM_tutorial/it.md)
+---
 
 
 </div>

@@ -1,3 +1,5 @@
+# Basic Part Design Tutorial/it
+
 
 
 
@@ -24,7 +26,7 @@ Il video dell\'intera costruzione è disponibile in: <https://youtu.be/geIrH1cOC
 
 ## Lo scopo 
 
-In questa esercitazione, si prevede di utilizzare l\'ambiente Part Design per creare un modello solido 3D della parte mostrata nel [Disegno](Drawing_Module/it.md) sottostante. Sono fornite tutte le dimensioni necessarie per portare a termine questo compito. Si inizierà creando il nucleo della forma da uno schizzo di base e poi si costruirà sulla forma aggiungendo ad essa ciò che è conosciuto come funzioni (Features). Le funzioni aggiungono del materiale, o rimuovono del materiale dal pieno mediante l\'uso di disegni supplementari accompagnati dalle operazioni delle funzioni. Questo tutorial non utilizza tutte le funzioni e gli strumenti disponibili nell\'ambiente Part Design, ma ne utilizza a sufficienza per dare agli utenti di questo tutorial le basi su cui costruire le loro conoscenze e competenze.
+In questa esercitazione, si prevede di utilizzare l\'ambiente Part Design per creare un modello solido 3D della parte mostrata nel [Disegno](Drawing_Workbench/it.md) sottostante. Sono fornite tutte le dimensioni necessarie per portare a termine questo compito. Si inizierà creando il nucleo della forma da uno schizzo di base e poi si costruirà sulla forma aggiungendo ad essa ciò che è conosciuto come funzioni (Features). Le funzioni aggiungono del materiale, o rimuovono del materiale dal pieno mediante l\'uso di disegni supplementari accompagnati dalle operazioni delle funzioni. Questo tutorial non utilizza tutte le funzioni e gli strumenti disponibili nell\'ambiente Part Design, ma ne utilizza a sufficienza per dare agli utenti di questo tutorial le basi su cui costruire le loro conoscenze e competenze.
 
 
 </div>

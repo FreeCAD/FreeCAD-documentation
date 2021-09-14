@@ -45,11 +45,19 @@ Acest instrument desenează o elipsă prin alegerea a 3 puncte: centrul, sfârș
 
 </div>
 
+## Peculiarities
+
+
+<div class="mw-translate-fuzzy">
+
 ## Particularități
 
 -   Axele majore și minore ale elipsei sunt stricte și nu pot fi schimbate prin redimensionarea elipselor. Aceasta este o consecință a parametrizării rezolvitorului utilizat (centrul (x, y), focus1 (x, y) și lungimea razei minore (b)) și același comportament strict ca al OpenCascade. Elipsa trebuie rotită pentru a se schimba axele.
 -   Elipsa poate funcționa ca un cerc atunci când semiaxele sale majoră și minoră sunt șterse, iar unul dintre focare este constrâns să coincidă cu centrul. Dar constrângerea razei nu va funcționa pe un astfel de cerc.
 -   Deplasarea/Mișcarea elipsei prinsă de margine are același rezulta cu mișcarea elipsei având selectat centrul.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -63,4 +71,4 @@ Acest instrument desenează o elipsă prin alegerea a 3 puncte: centrul, sfârș
 
 {{Sketcher Tools navi
 
-}}  
+}} 

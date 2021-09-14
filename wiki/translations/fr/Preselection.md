@@ -1,3 +1,5 @@
+# Preselection/fr
+
 La **[présélection](Draft_Select/fr.md)** est une option spéciale, colorant les objets lorsque le curseur de la souris passe sur eux.
 
 Cela vous aide à trouver le bon objet pour votre prochaine opération, ou permet l\'affichage facile des informations sur l\'objet dans la ligne d\'état.

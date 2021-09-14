@@ -1,3 +1,5 @@
+# Online Help Startpage/sv
+
  
 
 ![150](images/Crystal_Clear_app_tutorials.png )
@@ -44,4 +46,4 @@ Som du kanske märkt tidigare, så är programmerare riktigt dåliga manualskriv
 
 
 
-[Category:User\_Documentation{{\#translation:}}](Category:User_Documentation.md)
+[Category:User\_Documentation](Category:User_Documentation.md)

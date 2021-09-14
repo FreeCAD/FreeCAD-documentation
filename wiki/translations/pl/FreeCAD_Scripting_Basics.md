@@ -1,3 +1,5 @@
+# FreeCAD Scripting Basics/pl
+
 
 
 
@@ -209,4 +211,4 @@ Teraz naprawdę możesz zacząć zabawę z FreeCAD! Pełna lista dostępnych mod
 
 }} 
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Python Code{{\#translation:}}](Category:Python_Code.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)

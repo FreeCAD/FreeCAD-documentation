@@ -7,9 +7,6 @@
    SeeAlso:[Part Lissage](Part_Loft/fr.md)
 ---
 
-
-</div>
-
 ## Description
 
 L\'outil <img alt="" src=images/Part_Sweep.svg  style="width:24px;"> [Part Balayage](Part_Sweep/fr.md) est utilisé pour créer une face, une enveloppe ou une forme solide à partir d\'un ou plusieurs profils (coupes) projetés le long d\'un chemin.
@@ -28,26 +25,11 @@ L\'outil de balayage est similaire à l\'outil <img alt="" src=images/Part_Loft.
 4.  Définir les options [Solide](#Solide.md) et [Frenet](#Frenet.md).
 5.  Cliquer sur **OK**.
 
-### Accepted geometry 
+### Géométrie acceptée 
 
-
-<div class="mw-translate-fuzzy">
-
-### Géométries acceptées 
-
--   **Profils** : peuvent être un point (sommet), ligne (Arête), filaire ou une face. Arêtes et filaires peuvent être soit ouverts ou fermés. Il existe différentes [Limitations et complications du profil](Part_Sweep/fr#Profil:_Limitations_et_complications.md), voir ci-dessous, les profils peuvent provenir des primitives de l\'atelier Part, d\'une représentation de l\'atelier Draft (planche à dessin) et d\'un Sketch (Esquisse).
-
-
-</div>
+-   **Profils** : peuvent être un point (sommet), ligne (Arête), filaire ou une face. Arêtes et filaires peuvent être soit ouverts ou fermés. Il existe différentes [Limitations et complications du profil](Part_Sweep/fr#Profil:_Limitations_et_complications.md), voir ci-dessous. Cependant, les profils peuvent provenir des primitives de l\'atelier Part, de fonctions de l\'atelier Draft et d\'esquisses.
 
 -   **Chemin** : peut être une ligne (Arête) ou une série de lignes de connexion, filaire ou différentes primitives de l\'atelier Part (Pièce), une représentation de l\'atelier Draft (planche à dessin) ou un Sketch(esquisse). Le chemin est souvent sélectionné directement depuis la fenêtre du modèle principal, mais il peut aussi être choisi parmi la [vue en arborescence](tree_view/fr.md) (onglet Modèle de la [Vue Combinée](Combo_view/fr.md)). Le chemin peut être soit une forme entière appropriée ou une sous-composante appropriée d\'une forme plus avancée (par exemple, une arête d\'un <img alt="" src=images/Part_Box.svg  style="width:24px;"> [Part Cube](Part_Box/fr.md) pourrait être choisi comme chemin). Le chemin peut être ouvert ou fermé et créer ainsi un balayage soit ouvert ou fermée. Un chemin fermé tel que la partie d\'un cercle se traduira par un balayage fermé. Par exemple, un balayage d\'un petit cercle autour d\'un chemin d\'un cercle plus large va créer un tore.
-
-## Properties
-
-### Solid
-
-
-<div class="mw-translate-fuzzy">
 
 ## Propriétés
 
@@ -55,41 +37,17 @@ L\'outil de balayage est similaire à l\'outil <img alt="" src=images/Part_Loft.
 
 Si \"Solide\" est défini à \"true\" (vrai), FreeCAD crée un solide, pourvu que les profils forment une géométrie fermée; si défini à \"false\" (faux), FreeCAD crée une face ou (si plus d\'une face) crée une coque pour les profils ouverts ou fermés.
 
-
-</div>
-
 ### Frenet
 
 <img alt="" src=images/Sweep-frenet-comp.png  style="width:500px;">
 
-
-<div class="mw-translate-fuzzy">
-
-### Frenet 
-
-<img alt="Sweep Frenet" src=images/Sweep-frenet-comp.png  style="width:500px;"> Les propriétés \"Frenet\" contrôlent la façon dont l\'orientation du profil change quand il suit la trajectoire de balayage. Si \"Frenet\" est \"false\" (faux), l\'orientation du profil est maintenu cohérent point à point. La déformation minimum a la torsion. Non intuitivement, lorsqu\'un profil est balayé le long d\'une hélice, il en résulte une orientation du profil glissant lentement (en rotation), quand il suit l\'hélice. Régler \"Frenet\" a \"true\", on évite ce genre de dérive.
-
-
-</div>
+Les propriétés \"Frenet\" contrôlent la façon dont l\'orientation du profil change quand il suit la trajectoire de balayage. Si \"Frenet\" est \"false\" (faux), l\'orientation du profil est maintenu cohérent point à point. La déformation minimum a la torsion. Non intuitivement, lorsqu\'un profil est balayé le long d\'une hélice, il en résulte une orientation du profil glissant lentement (en rotation), quand il suit l\'hélice. Régler \"Frenet\" a \"true\", on évite ce genre de dérive.
 
 Si \"Frenet\" est à \"true\", l\'orientation du profil est calculée à partir de la courbure et des vecteurs tangents du chemin. Cela permet de maintenir l\'orientation du profil uniforme lors du balayage le long d\'une hélice (parce que vecteur de courbure d\'une hélice droite pointe toujours vers son axe). Toutefois, lorsque le chemin n\'est pas une hélice, la forme obtenue peut parfois avoir d\'étranges torsions. Pour plus d\'informations, voir [Repère de Frenet](https://fr.wikipedia.org/wiki/Rep%C3%A8re_de_Frenet).
 
 ### Transition
 
-
-<div class="mw-translate-fuzzy">
-
-### Transition 
-
 \"Transition\" définit le style de transition du Balayage joint dans le chemin, si le chemin ne définit pas la transition d\'angle (par exemple, lorsque le chemin est un fil). La propriété n\'est pas indiquée dans le [Panneau des tâches](Task_panel/fr.md) et peut être trouvée dans les propriétés après que le Balayage a été créé.
-
-
-</div>
-
-## Profile limitations and complications 
-
-
-<div class="mw-translate-fuzzy">
 
 ## Profil: Limitations et complications 
 
@@ -121,29 +79,12 @@ Si \"Frenet\" est à \"true\", l\'orientation du profil est calculée à partir 
             -   Polygone régulier
             -   Plan (Face)
 
-
-</div>
-
-## Links
-
-
-<div class="mw-translate-fuzzy">
-
-## Links 
+## Liens
 
 -   Puisque la fonction Balayage est souvent utilisée pour créer des filets de vis, nous vous suggérons la lecture du [Tutoriel création de vis](Thread_for_Screw_Tutorial/fr.md).
 
 
-</div>
 
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
  

@@ -1,3 +1,5 @@
+# Release notes 0.17/fr
+
 
 
 
@@ -175,7 +177,7 @@ Quelques images <img alt="" src=images/bridge-all.png  style="width:640px;"> <im
 
 -   Amélioration: L\'outil [Solide par révolution](Part_Revolve/fr.md) supporte maintenant le lien paramétrique à l\'axe de révolution.
 
--   Le nouvel utilitaire [Ancrage](Part_Attachment/fr.md) accessible depuis le menu \'\'Pièce → Attachement \... \'\' peut être utilisé pour ancrer paramétriquement la plupart des types d\'objets à une autre géométrie.
+-   Le nouvel utilitaire [Ancrage](Part_EditAttachment/fr.md) accessible depuis le menu \'\'Pièce → Attachement \... \'\' peut être utilisé pour ancrer paramétriquement la plupart des types d\'objets à une autre géométrie.
 
 -   Le nouveau [conteneur Part](Std_Part/fr.md) peut être utilisé pour regrouper la plupart des types de formes et pour les déplacer comme une unité. Il contient également des plans et des axes standard auxquels attacher des objets. Il servira de base pour le futur atelier d\'assemblage en fournissant un moyen de déplacer les pièces. Il est disponible dans tous les ateliers à partir d\'une barre d\'outils avec [Groupe](Std_Group/fr.md).
 
@@ -263,13 +265,7 @@ L\'atelier Path a été massivement révisé en version 0.17. La révision a vu 
 
 ## Atelier TechDraw (Mise en plan) 
 
-
-<div class="mw-translate-fuzzy">
-
 [TechDraw](TechDraw_Workbench/fr.md) est un nouvel atelier de création de dessins techniques qui vise à remplacer l\'atelier de dessin vieillissant Drawing. FreeCAD v0.17 est toujours livré avec l\'atelier de dessin Drawing afin que vous puissiez toujours ouvrir et modifier vos fichiers contenant des pages de Drawing, mais Drawing sera supprimé progressivement dans une prochaine version. Quelques-unes des nouveautés passionnantes apportées par TechDraw:
-
-
-</div>
 
 -   La plupart des outils de l\'atelier Drawing ont une contrepartie TechDraw.
 -   Création et manipulation de vue plus faciles. Les vues peuvent être saisies par leur bordure avec la souris et déplacées sur la page. L\'alignement des vues orthogonales peut être verrouillé.
@@ -301,4 +297,4 @@ Certains des nouveaux modules de la communauté qui ont été créés.
 
 -   [Kicad StepUp Workbench](https://www.freecadweb.org/wiki/KicadStepUp_Workbench) est destiné à aider les utilisateurs de KiCad et FreeCAD dans la collaboration ECAD et MCAD.
 
-[Category:News{{\#translation:}}](Category:News.md) [Category:Documentation{{\#translation:}}](Category:Documentation.md) [Category:Releases{{\#translation:}}](Category:Releases.md)
+[Category:News](Category:News.md) [Category:Documentation](Category:Documentation.md) [Category:Releases](Category:Releases.md)

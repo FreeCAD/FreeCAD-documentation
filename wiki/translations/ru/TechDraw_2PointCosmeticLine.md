@@ -1,10 +1,11 @@
 ---
-- GuiCommand:
-   Name:TechDraw 2PointCosmeticLine
-   MenuLocation:TechDraw → Add Lines → Add Cosmetic Line between 2 points
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
+- GuiCommand:/ru
+   Name/ru:Добавить вспомогательную линию между 2-мя точками
+   Name:TechDraw_2PointCosmeticLine
+   MenuLocation:TechDraw → Добавить Линии → Add Cosmetic Line between 2 points
+   Workbenches:[TechDraw](TechDraw_Workbench/ru.md)
    Version:0.19
-   SeeAlso:[TechDraw Centerline to Face(s)](TechDraw_FaceCenterLine.md), [TechDraw Centerline between 2 Lines](TechDraw_2LineCenterLine.md)
+   SeeAlso:[Добавить осевую линию к Граням](TechDraw_FaceCenterLine/ru.md), [Добавить осевую линию между 2 линиями](TechDraw_2LineCenterLine/ru.md)
 ---
 
 ## Описание
@@ -41,12 +42,12 @@ To change the appearance of a cosmetic line, use [Remove Cosmetic Object](TechDr
 
 Cosmetic lines have no properties of their own, as they are not document objects.
 
-## Scripting
+## Программирование
 
 
-**See also:**
+**См. так же:**
 
-[TechDraw API](TechDraw_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+[TechDraw API](TechDraw_API/ru.md) и [Основы составления скриптов FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 
 Cosmetic lines can be created using the makeCosmeticLine(v1, v2) or makeCosmeticLine3d(v1, v2) methods of DrawViewPart.
 

@@ -1,4 +1,6 @@
-\_\_NOTOC\_\_ 
+# Artwork Erroneous/pl
+
+ 
 
 Wszystkie ikonki widoczne na liście źródłowej, patrz [Grafika](Artwork/pl.md).
 
@@ -24,4 +26,4 @@ Wszystkie ikonki widoczne na liście źródłowej, patrz [Grafika](Artwork/pl.md
 
 }}
 
-[Category:Icon{{\#translation:}}](Category:Icon.md) [Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md)
+[Category:Icon](Category:Icon.md) [Category:Developer Documentation](Category:Developer_Documentation.md)

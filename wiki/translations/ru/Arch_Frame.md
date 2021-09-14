@@ -31,19 +31,19 @@
 
 </div>
 
-## Usage
+## Применение
 
 1.  Create a layout object and a profile object, for example with the [Draft Workbench](Draft_Workbench.md) or the [Sketcher Workbench](Sketcher_Workbench.md).
 2.  Select the layout object first, then, with **Ctrl** pressed, select the profile object.
 3.  Press the **<img src="images/Arch_Frame.svg" width=16px> [Arch Frame](Arch_Frame.md)** button, or press **F** then **R** keys.
 
-## Options
+## Опции
 
 -   Frames share the common properties and behaviours of all [Arch Components](Arch_Component.md)
 -   The frame object can be placed at a certain distance from the layout object, by setting its Offset property
 -   The profile will be copied at the base of each edge of the layout object, then extruded along it. You can control how the profile is placed at the base of each edge with the Align and Rotation properties.
 
-## Properties
+## Свойства
 
 -    **Base**: The layout this frame is based on.
 
@@ -55,12 +55,12 @@
 
 -    **Rotation**: The rotation of the profile around its extrusion axis.
 
-## Scripting
+## Программирование
 
 
-**See also:**
+**См. так же:**
 
-[Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+[Arch API](Arch_API/ru.md) и [Основы составления скриптов FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 
 The Frame tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function: 
 ```python
@@ -94,7 +94,7 @@ FreeCAD.ActiveDocument.recompute()
 <div class="mw-translate-fuzzy">
 
 
-{{docnav/ru|[Nest](Arch_Nest.md)|[Fence](Arch_Fence.md)|[Arch](Arch_Workbench.md)|IconL=Arch_Nest.svg |IconC=Workbench_Arch.svg |IconR=Arch_Fence.svg}}
+
 
 
 </div>

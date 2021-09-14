@@ -1,3 +1,5 @@
+# LGTM
+
  
 
 ## Overview
@@ -62,4 +64,4 @@ Also, some classifications (like \'template\' and \'test\') are used by LGTM for
 
 
 
-[Category:Developer{{\#translation:}}](Category:Developer.md) [Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Testing{{\#translation:}}](Category:Testing.md)
+[Category:Developer](Category:Developer.md) [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Testing](Category:Testing.md)

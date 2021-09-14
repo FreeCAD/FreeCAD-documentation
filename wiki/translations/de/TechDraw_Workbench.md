@@ -1,3 +1,5 @@
+# TechDraw Workbench/de
+
 
 
 
@@ -7,11 +9,11 @@
 
 ## Einführung
 
-Der <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;">[TechDraw Arbeitsbereich](TechDraw_Workbench/de.md) dient zur Erstellung grundlegender technischer Zeichnungen aus 3D-Modellen, die mit einem anderen Arbeitsbereich erstellt wurden, wie z.B. [Part](Part_Workbench.md)-, [PartDesign](PartDesign_Workbench.md)-, [Arch](Arch_Workbench.md)-Workbench, oder die aus anderen Anwendungen importiert wurden. Jede Zeichnung ist eine Seite, die verschiedene Ansichten von zeichnungsfähigen Objekten wie Part::Features, PartDesign::Bodies, App::Part groups und Document Object Groups enthalten kann. Die daraus entstandenen Zeichnungen können für Dinge wie Dokumentation, Fertigungsanweisungen, Verträge, Genehmigungen usw. verwendet werden.
+Der <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;">[TechDraw Arbeitsbereich](TechDraw_Workbench/de.md) dient zur Erstellung grundlegender technischer Zeichnungen aus 3D-Modellen, die mit einem anderen Arbeitsbereich erstellt wurden, wie z.B. [Part](Part_Workbench/de.md)-, [PartDesign](PartDesign_Workbench/de.md)-, [Arch](Arch_Workbench/de.md)-Arbeitsbereich oder die aus anderen Anwendungen importiert wurden. Jede Zeichnung ist eine Seite, die verschiedene Ansichten von zeichnungsfähigen Objekten wie Part::Features, PartDesign::Bodies, App::Part groups und Document Object Groups enthalten kann. Die daraus entstandenen Zeichnungen können für Dinge wie Dokumentation, Fertigungsanweisungen, Verträge, Genehmigungen usw. verwendet werden.
 
 Bemaßungen, Abschnitte, schraffierte Bereiche, Anmerkungen und Symbole im Dateiformat[SVG](SVG/de.md) können der Seite hinzugefügt werden. Die Seite / Zeichnung kann später in verschiedene Formate wie [DXF](DXF/de.md), [SVG](SVG/de.md) und [PDF](PDF/de.md) exportiert werden.
 
-TechDraw wurde ab Version 0.17 offiziell in FreeCAD aufgenommen; es soll den nicht mehr unterstützten [Drawing-Arbeitsbereich](Drawing_Workbench/de.md) ersetzen. Beide Arbeitsbereiche sind in v0.17 noch vorhanden, aber die Drawing-Arbeitsbereich kann in zukünftigen Releases entfernt werden. Um mit den Plänen und Entwicklungen von TechDraw Schritt zu halten, besuchen Sie die [TechDraw-Planung](TechDraw_Roadmap/de.md).
+TechDraw wurde ab Version 0.17 offiziell in FreeCAD aufgenommen; es soll den nicht mehr unterstützten [Drawing-Arbeitsbereich](Drawing_Workbench/de.md) ersetzen. Beide Arbeitsbereiche sind in v0.17 noch vorhanden, aber der Drawing-Arbeitsbereich kann in zukünftigen Releases entfernt werden. Um mit den Plänen und Entwicklungen von TechDraw Schritt zu halten, besuchen Sie die [TechDraw-Planung](TechDraw_Roadmap/de.md).
 
 FreeCAD ist in erster Linie eine 3D-Modellierungsanwendung und verfügt daher nicht über viele 2D-Zeichenwerkzeuge, die in den Programmen [Draft](Draft_Workbench/de.md) und [Sketcher](Sketcher_Workbench/de.md) enthalten sind. Wenn Ihr Hauptziel die Erstellung komplexer 2D-Zeichnungen und [DXF](DXF/de.md)-Dateien ist und Sie keine 3D-Modellierung benötigen, können Sie ein spezielles Softwareprogramm für die technischen Zeichnungen in Betracht ziehen, wie z.B. [LibreCAD](https://de.wikipedia.org/wiki/LibreCAD), [QCad](https://de.wikipedia.org/wiki/QCad), TurboCad und andere.
 
@@ -28,7 +30,7 @@ Diese Werkzeuge sind zum Erstellen von Seiten.
 
 -   <img alt="" src=images/TechDraw_PageTemplate.svg  style="width:32px;"> [Seite mittels Vorlage einfügen](TechDraw_PageTemplate/de.md): Fügt eine neue Seite mit einer ausgewählten [Vorlage](TechDraw_Templates/de.md) hinzu, die nicht die Standardvorlage ist.
 
--   <img alt="" src=images/TechDraw_RedrawPage.svg  style="width:32px;"> [Seite neu zeichnen](TechDraw_RedrawPage/de.md): Erzwingt eine Aktualisierung der ausgewählten Seite. <small>(v0.19)</small> 
+-   <img alt="" src=images/TechDraw_RedrawPage.svg  style="width:32px;"> [Seite neu zeichnen](TechDraw_RedrawPage/de.md): Erzwingt eine Aktualisierung der ausgewählten Seite. {{Version/de|0.19}}
 
 ## Ansichten
 
@@ -36,17 +38,17 @@ Dies sind Werkzeuge zum Erstellen von Ansichtsobjekten.
 
 -   <img alt="" src=images/TechDraw_View.svg  style="width:32px;"> [Ansicht einfügen](TechDraw_View/de.md): Fügt eine ausgewählte Ansicht eines 3D-Objekts ein.
 
--   <img alt="" src=images/TechDraw_ActiveView.svg  style="width:32px;"> [Aktive Ansicht einfügen](TechDraw_ActiveView/de.md): Fügt eine Ansicht des aktiven 3D-Fensters ein. <small>(v0.19)</small> 
+-   <img alt="" src=images/TechDraw_ActiveView.svg  style="width:32px;"> [Aktive Ansicht einfügen](TechDraw_ActiveView/de.md): Fügt eine Ansicht des aktiven 3D-Fensters ein. {{Version/de|0.19}}
 
 -   <img alt="" src=images/TechDraw_ProjectionGroup.svg  style="width:32px;"> [Projektionsgruppe einfügen](TechDraw_ProjectionGroup/de.md): Ruft einen Dialog auf, um eine Projektionsansicht eines 3D-Objekts zu erstellen, aus der weitere Ansichten abgeleitet werden können (Seitenansicht, Draufsicht usw.).
 
 -   <img alt="" src=images/TechDraw_SectionView.svg  style="width:32px;"> [Schnittansicht einfügen](TechDraw_SectionView/de.md): Fügt eine Schnittsansicht einer vorhandenen Ansicht ein.
 
--   <img alt="" src=images/TechDraw_DetailView.svg  style="width:32px;"> [Detailansicht einfügen](TechDraw_DetailView/de.md): Fügt eine Detailansicht einer vorhandenen Ansicht ein.
+-   <img alt="" src=images/TechDraw_DetailView.svg  style="width:32px;"> [Detailansicht einfügen](TechDraw_DetailView/de.md): Fügt eine Detailansicht eines Teils einer vorhandenen Ansicht ein.
 
--   <img alt="" src=images/TechDraw_DraftView.svg  style="width:32px;"> [Entwurf Arbeitsbereich Objekt einfügen](TechDraw_DraftView/de.md): Fügt eine Ansicht eines [Entwurf Arbeitsbereichs](Draft_Workbench/de.md) Objekts ein.
+-   <img alt="" src=images/TechDraw_DraftView.svg  style="width:32px;"> [Entwurf Arbeitsbereich Objekt einfügen](TechDraw_DraftView/de.md): Fügt eine Ansicht eines [Entwurf Arbeitsbereichs](Draft_Workbench/de.md)-Objekts ein.
 
--   <img alt="" src=images/TechDraw_ArchView.svg  style="width:32px;"> [Arch Arbeitsbereichsobjekt einfügen](TechDraw_ArchView/de.md): Fügt eine Ansicht eines [Arch Arbeitsbereichs](Arch_Workbench/de.md) [Schnittebenen](Arch_SectionPlane/de.md) Objekt ein.
+-   <img alt="" src=images/TechDraw_ArchView.svg  style="width:32px;"> [Arch Arbeitsbereichsobjekt einfügen](TechDraw_ArchView/de.md): Fügt eine Ansicht eines [Arch Arbeitsbereichs](Arch_Workbench/de.md) [Schnittebenen](Arch_SectionPlane/de.md)-Objekts ein.
 
 -   <img alt="" src=images/TechDraw_SpreadsheetView.svg  style="width:32px;"> [Tabellenkalkulationsansicht einfügen](TechDraw_SpreadsheetView/de.md): Fügt die Ansicht eines [Tabellenkalkulation Arbeitsbereichsblatts](Spreadsheet_Workbench/de.md) hinzu.
 
@@ -144,18 +146,22 @@ Die Anmerkungswerkzeuge dienen dazu, eine Zeichnung mit zusätzlichen Informatio
 
 -   <img alt="" src=images/TechDraw_WeldSymbol.svg  style="width:32px;"> [Schweißinformationen zu Führungslinie hinzufügen](TechDraw_WeldSymbol/de.md): fügt Schweißspezifikationen zu einer vorhandenen Führungslinie hinzu. {{Version/de|0.19}}
 
-## Extension Package 
+## Erweiterungspaket
 
-The Extension Package includes many useful tools to improve your TechDraw drawings.
+Das Erweiterungspaket enthält viele nützliche Werkzeuge, um deine TechDraw-Zeichnungen zu verfeinern.
 
 
-**Some of these tools have yet to be released.**
+**Einige dieser Werkzeuge müssen noch freigegeben werden.**
 
--   <img alt="" src=images/TechDraw_ToolCircleCenterLines.svg  style="width:32px;"> [CircleCenterLines](TechDraw_Extension_CircleCenterLines.md): adds center lines to circles. <small>(v0.20)</small> 
--   <img alt="" src=images/TechDraw_ExtensionThreadHoleSide.svg  style="width:32px;"> [ThreadHoleSide](TechDraw_Extension_ThreadHoleSide.md): adds a symbolic thread at a side seen hole. <small>(v0.20)</small> 
--   <img alt="" src=images/TechDraw_ExtensionThreadHoleBottom.svg  style="width:32px;"> [ThreadHoleBottom](TechDraw_Extension_ThreadHoleBottom.md): adds a symbolic thread at a bottom seen hole. <small>(v0.20)</small> 
--   <img alt="" src=images/TechDraw_ExtensionThreadBoltSide.svg  style="width:32px;"> [ThreadBoltSide](TechDraw_Extension_ThreadBoltSide.md): adds a symbolic thread at a side seen bolt. <small>(v0.20)</small> 
--   <img alt="" src=images/TechDraw_ExtensionThreadBoltBottom.svg  style="width:32px;"> [ThreadBoltBottom](TechDraw_Extension_ThreadBoltBottom.md): adds a symbolic thread at a bottom seen bolt. <small>(v0.20)</small> 
+-   <img alt="" src=images/TechDraw_Extension_CircleCenterLines.svg  style="width:32px;"> [CircleCenterLines](TechDraw_Extension_CircleCenterLines.md): adds center lines to circles and arcs. <small>(v0.20)</small> 
+
+-   <img alt="" src=images/TechDraw_Extension_ThreadHoleSide.svg  style="width:32px;"> [ThreadHoleSide](TechDraw_Extension_ThreadHoleSide.md): adds a symbolic thread to the side view of a hole. <small>(v0.20)</small> 
+
+-   <img alt="" src=images/TechDraw_Extension_ThreadHoleBottom.svg  style="width:32px;"> [ThreadHoleBottom](TechDraw_Extension_ThreadHoleBottom.md): adds symbolic threads to the bottom view of holes. <small>(v0.20)</small> 
+
+-   <img alt="" src=images/TechDraw_Extension_ThreadBoltSide.svg  style="width:32px;"> [ThreadBoltSide](TechDraw_Extension_ThreadBoltSide.md): adds a symbolic thread to the side view of a bolt. <small>(v0.20)</small> 
+
+-   <img alt="" src=images/TechDraw_Extension_ThreadBoltBottom.svg  style="width:32px;"> [ThreadBoltBottom](TechDraw_Extension_ThreadBoltBottom.md): adds symbolic threads to the bottom view of bolts. <small>(v0.20)</small> 
 
 ## Zusatzfunktionen
 
@@ -204,4 +210,4 @@ Video Tutorien von sliptonic
 
 }} 
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

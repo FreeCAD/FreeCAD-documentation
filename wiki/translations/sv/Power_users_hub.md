@@ -1,8 +1,10 @@
+# Power users hub/sv
+
  <img alt="" src=images/Power_user_hub.png  style="width:64px;">
 
 ------------------------------------------------------------------------
 
-\_\_NOTOC\_\_
+
 
 
 <div class="mw-translate-fuzzy">
@@ -243,4 +245,4 @@ På [Grupportalen](free-cad:Community_Portal/sv.md), så kan du hitta andra Free
 
 }}
 
-[Category:Hubs{{\#translation:}}](Category:Hubs.md)
+[Category:Hubs](Category:Hubs.md)

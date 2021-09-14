@@ -1,3 +1,5 @@
+# FreeCAD Build Tool/de
+
 
 
 
@@ -70,4 +72,4 @@ Der \"CM\" Befehl [erzeugt ein neues Anwendungsmodul (Arbeitsbereich)](Workbench
 
  
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md)

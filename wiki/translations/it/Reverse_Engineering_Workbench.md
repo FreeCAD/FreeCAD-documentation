@@ -1,3 +1,5 @@
+# Reverse Engineering Workbench/it
+
  
 
 <img alt="L\'icona di Reverse Engineering" src=images/Workbench_Reverse_Engineering.svg  style="width:128px;">
@@ -24,4 +26,4 @@ Link a thread appropriati che discutono di questo ambiente
 
  
 
-[Category:Reverse Engineering{{\#translation:}}](Category:Reverse_Engineering.md) [Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Reverse Engineering](Category:Reverse_Engineering.md) [Category:Workbenches](Category:Workbenches.md)

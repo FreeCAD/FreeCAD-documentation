@@ -1,3 +1,5 @@
+# Image Workbench
+
   
 
 <img alt="Image workbench icon" src=images/Workbench_Image.svg  style="width:128px;">
@@ -33,4 +35,4 @@ The offset of the image can be set during import, or changed later through its p
 
  {{Image Tools navi}} 
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

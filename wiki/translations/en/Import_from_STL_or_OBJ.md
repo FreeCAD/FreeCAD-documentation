@@ -1,3 +1,5 @@
+# Import from STL or OBJ/en
+
  {{TutorialInfo
 |Topic= Import from STL or OBJ
 |Level= Beginner
@@ -99,4 +101,4 @@ Since the created solid has no history and no editable features (like a simple c
 
  
 
-[Category:File\_Formats{{\#translation:}}](Category:File_Formats.md)
+[Category:File\_Formats](Category:File_Formats.md)

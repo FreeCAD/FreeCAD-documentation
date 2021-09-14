@@ -1,7 +1,7 @@
+# BIM application compatibility table/de
 
-{{UnfinishedDocu
 
-}}  Diese Seite gibt einen allgemeinen Überblick darüber, wie die verschiedenen Werkzeuge und Konzepte, die in anderen gängigen BIM Anwendungen zu finden sind, im Vergleich zu FreeCAD, speziell der [BIM Arbeitsbereich](BIM_Workbench/de.md), aussehen.
+  Diese Seite gibt einen allgemeinen Überblick darüber, wie die verschiedenen Werkzeuge und Konzepte, die in anderen gängigen BIM Anwendungen zu finden sind, im Vergleich zu FreeCAD, speziell der [BIM Arbeitsbereich](BIM_Workbench/de.md), aussehen.
 
 **ZUTUN:** Andere BIM Apps hinzufügen: Allplan, Tekla, Vectorworks, BricsCAD, was noch?
 
@@ -16,4 +16,4 @@
   **Gruppierung von Objekten in wiederverwendbare Komponenten**   FreeCAD Gruppen können nicht instanziiert werden (unabhängige Kopien), aber Objekte, die in [Verbünde](Part_Compound/de.md) oder [Gebäudeteile](Arch_BuildingPart/de.md) gruppiert sind, können geklont (abhängige Kopien) oder kopiert (unabhängige Kopien) werden.                                                                                                                                                                                                                                                                                                                                                                                            Revit Gruppen können instanziiert werden (abhängige Kopien).                                                                                                                                                                                                       ArchiCAD Gruppen können nicht instanziiert werden (unabhängige Kopien).
   **Standard BIM Elemente**                                       Wände, Strukturen (Balken, Säulen und Decken), Fenster (Türen und Fenster), Dächer, Treppen, Rahmen (Geländer), Bauteile (Möbel, Geräte, etc.)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  Wände, Balken, Säulen, Böden, Decken, Fenster, Türen, Dächer, Treppen, Geländer, Bauteile (Möbel, Geräte, etc.)                                                                                                                                                    Wände, Balken, Säulen, Decken, Fenster, Türen, Dächer, Treppen, Geländer, Vorhangfassaden, Objekte (Möbel, Geräte, etc.)
 
-[Category:BIM{{\#translation:}}](Category:BIM.md)
+[Category:BIM](Category:BIM.md)

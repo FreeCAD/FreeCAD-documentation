@@ -1,14 +1,11 @@
 ---
 - GuiCommand:/ru
-   Name:Std Alignment
-   Name/ru:Std Alignment
+   Name/ru:Выравнивание...
+   Name:Std_Alignment
    MenuLocation:Правка → Выравнивание...
-   Workbenches:All
-   SeeAlso:[Placement](Std_Placement/ru.md)
+   Workbenches:Все
+   SeeAlso:[Расположение...](Std_Placement/ru.md)
 ---
-
-
-</div>
 
 ## Описание
 

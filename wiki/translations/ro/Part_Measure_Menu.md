@@ -45,4 +45,4 @@ A nu se confunda acest meniu cu instrumentul <img alt="" src=images/Std_MeasureD
 
  
 
-[Category:Documentation{{\#translation:}}](Category:Documentation.md)
+[Category:Documentation](Category:Documentation.md)

@@ -1,3 +1,5 @@
+# Manual:Modeling for product design/de
+
  
 
 
@@ -17,13 +19,7 @@ Wir werden jetzt ausschließlich die [Sketcher](Sketcher_Workbench.md)- und [Par
 
 PartDesign-Objekte basieren vollständig auf **Skizzen**. Eine Skizze ist ein 2D-Objekt, bestehend aus linearen Abschnitten (Linien, Kreisbögen oder Ellipsen) und Beschränkungen. Diese Beschränkungen können entweder auf lineare Abschnitte oder ihre Endpunkte oder Mittelpunkte angewandt werden, und zwingen die Geometrie, gewissen Regeln zu folgen. Sie können beispielsweise eine vertikale Beschränkung auf einen Linienabschnitt anwenden, damit dieser vertikal bleibt, oder eine Positions-(Blockierungs)-Beschränkung auf einen Endpunkt legen, damit verhindert wird, dass er sich bewegt. Wenn eine Skizze eine genaue Anzahl von Beschränkungen hat, die für jeden Punkt der Skizze verhindert, dass er sich bewegen kann, dann sprechen wir von einer vollständig eingeschränkten Skizze. Wenn es redundante Beschränkungen gibt, die entfernt werden können, ohne dass die Geometrie bewegt werden kann, dann wird dies überbeschränkt genannt. Dies sollte verhindert werden, und FreeCAD wird Sie informieren, wenn solch ein Fall eintritt.
 
-
-<div class="mw-translate-fuzzy">
-
-Skizzen haben einen Editiermodus, in dem die Geometrie und Beschränkungen verändert werden können. Wenn Sie mit dem Editieren fertig sind und den Editiermodus verlassen, verhalten sich Skizzen wie jedes andere FreeCAD-Objekt, und können als Bausteine für alle PartDesign-Werkzeuge, aber auch in anderen Workbenches, wie [Part](Part_Workbench/de.md) oder [Arch](Arch_Workbench/de.md) benutzt werden. Die [Draft workbench](Draft_Workbench/de.md) hat ebenfalls ein Werkzeug, das Draft-Objekte in Skizzen konvertiert, und umgekehrt.
-
-
-</div>
+Skizzen haben einen Editiermodus, in dem die Geometrie und Beschränkungen verändert werden können. Wenn Sie mit dem Editieren fertig sind und den Editiermodus verlassen, verhalten sich Skizzen wie jedes andere FreeCAD-Objekt, und können als Bausteine für alle PartDesign-Werkzeuge, aber auch in anderen Arbeitsbereichen, wie [Part](Part_Workbench/de.md) oder [Arch](Arch_Workbench/de.md) benutzt werden. Der [Draft Arbeitsbereich](Draft_Workbench/de.md) hat ebenfalls ein Werkzeug, das Draft-Objekte in Skizzen konvertiert, und umgekehrt.
 
 -   Lasse uns mit der Modellierung eines kubischen Formteils beginnen, das die Grundlage für unseren Lego Stein wird. Später werden wir die Innenseiten schneiden und die acht Punkte auf der Oberseite hinzufügen. Starten wir also mit einer rechteckigen Skizze, die wir dann extrudieren:
 -   Wechsle zur [PartDesign Arbeitsbereich](PartDesign_Workbench/de.md)
@@ -133,13 +129,7 @@ Sie werden feststellen, dass unsere Modellhistorie (die in der Baumansicht ersch
 
 Aber wir könnten auch die Historie loswerden wollen, zum Beispiel wenn wir eine Burg mit diesem Baustein modellieren wollen, und wir diese ganze Historie nicht 500 Mal in unserer Datei haben möchten.
 
-
-<div class="mw-translate-fuzzy">
-
-Es gibt zwei einfache Wege, um die Historie loszuwerden, einer ist die Nutzung des [Erstelle einfache Kopie](Part_SimpleCopy/de.md)-Werkzeugs aus der [Part Workbench](Part_Workbench/de.md), die eine Kopie unseres Teils erstellt, die nicht mehr von der Historie abhängt (Sie können die ganze Historie später löschen), der andere Weg ist das Exportieren des Teils als STEP-Datei und Reimportieren dieser Datei.
-
-
-</div>
+Es gibt zwei einfache Wege, um die Historie loszuwerden, einer ist die Nutzung des [Erstelle einfache Kopie](Part_SimpleCopy/de.md)-Werkzeugs aus dem [Part Arbeitsbereich](Part_Workbench/de.md), der eine Kopie unseres Teils erstellt, die nicht mehr von der Historie abhängt (Sie können die ganze Historie später löschen), der andere Weg ist das Exportieren des Teils als STEP-Datei und Reimportieren dieser Datei.
 
 **Zusammenbauen**
 

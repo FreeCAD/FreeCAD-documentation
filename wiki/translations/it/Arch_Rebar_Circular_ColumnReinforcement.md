@@ -204,7 +204,14 @@ rebar_group = CircularColumn.editReinforcement(
 <div class="mw-translate-fuzzy">
 
 
-{{docnav/it|[Armatura elicoidale](Arch_Rebar_Helical/it.md)|[Armatura di pilastro](Arch_Rebar_ColumnReinforcement/it.md)|[Arch](Arch_Module/it.md)|IconL=Arch_Rebar_Helical.svg|IconC=Workbench_Arch.svg|IconR=Arch_Rebar_ColumnReinforcement.svg}}
+{{docnav/it
+|[Armatura elicoidale](Arch_Rebar_Helical/it.md)
+|[Armatura di pilastro](Arch_Rebar_ColumnReinforcement/it.md)
+|[Arch](Arch_Workbench/it.md)
+|IconL=Arch_Rebar_Helical.svg
+|IconC=Workbench_Arch.svg
+|IconR=Arch_Rebar_ColumnReinforcement.svg
+}}
 
 
 </div>
@@ -215,4 +222,4 @@ rebar_group = CircularColumn.editReinforcement(
 
 
 
-[Category:Reinforcement{{\#translation:}}](Category:Reinforcement.md)
+[Category:Reinforcement](Category:Reinforcement.md)

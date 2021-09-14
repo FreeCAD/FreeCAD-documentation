@@ -1,3 +1,5 @@
+# Arch Workbench/pt
+
 
 
 
@@ -133,4 +135,4 @@ O módulo Arch (Arquitetura) pode ser usado em scripts python e [ macros](macros
 
  
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

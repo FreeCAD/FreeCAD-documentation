@@ -1,10 +1,10 @@
 ---
 - GuiCommand:/ru
-   Name:Sketcher CreateCircle
-   Name/ru:Sketcher Круг
-   MenuLocation:Эскиз → Геометрия эскиза → Круг
+   Name/ru:Создать окружность
+   Name:Sketcher_CreateCircle
+   MenuLocation:Sketch → Геометрия эскиза → Создать окружность
    Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
-   SeeAlso:[Sketcher Arc](Sketcher_CompCreateArc/ru.md)
+   SeeAlso:[Создать дугу от центра](Sketcher_CompCreateArc/ru.md)
 ---
 
 ## Описание
@@ -13,13 +13,7 @@
 
 ![](images/Sketcher_CircleExample1.png‎ )
 
-
-<div class="mw-translate-fuzzy">
-
-## Как использовать 
-
-
-</div>
+## Применение
 
 -   Укажите точки на пустой области трехмерного вида, или на существующем объекте (авто ограничения в панели Задачи должны быть включены).
 -   Нажмите **Esc** или правую кнопку мыши для отмены функции.

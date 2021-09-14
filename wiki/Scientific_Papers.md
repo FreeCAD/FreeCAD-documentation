@@ -1,3 +1,5 @@
+# Scientific Papers
+
 ## Background
 
 List of scientific papers that reference FreeCAD

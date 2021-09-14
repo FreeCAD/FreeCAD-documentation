@@ -1,7 +1,7 @@
+# BIM application compatibility table/pl
 
-{{UnfinishedDocu
 
-}}  This page gives a general overview of how the different tools and concepts found in other mainstream BIM applications compare to FreeCAD, specifically its [BIM Workbench](BIM_Workbench.md).
+  This page gives a general overview of how the different tools and concepts found in other mainstream BIM applications compare to FreeCAD, specifically its [BIM Workbench](BIM_Workbench.md).
 
 **TODO:** Add other BIM apps: Allplan, Tekla, Vectorworks, BricsCAD, what else?
 
@@ -16,4 +16,4 @@
   **Grouping objects into reusable components**   FreeCAD groups cannot be instantiated (independent copies), but objects grouped into [compounds](Part_Compound.md) or [building parts](Arch_BuildingPart.md) can be cloned (dependent copies) or copied (independent copies).                                                                                                                                                                                                                                                                                                                                                     Revit groups can be instantiated (dependent copies).                                                                                                                                                            ArchiCAD groups cannot be instantiated (independent copies).
   **Standard BIM elements**                       Walls, structures (beams, columns and slabs), windows (doors and windows), roofs, stairs, frames (railings), equipment (furniture, appliances, etc)                                                                                                                                                                                                                                                                                                                                                                                                                                               Walls, beams, columns, floors, ceilings, windows, doors, roofs, stairs, railings, components (furniture, appliances, etc)                                                                                       Walls, beams, columns, slabs, windows, doors, roofs, stairs, railings, curtain walls, objects (furniture, appliances, etc)
 
-[Category:BIM{{\#translation:}}](Category:BIM.md)
+[Category:BIM](Category:BIM.md)

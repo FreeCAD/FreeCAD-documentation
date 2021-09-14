@@ -1,4 +1,6 @@
-\_\_NOTOC\_\_ 
+# Artwork Points/pl
+
+ 
 
 Ikony te znajdują się we wskazanej ścieżce źródłowej.
 
@@ -15,4 +17,4 @@ Wszystkie ikonki widoczne na liście źródłowej, patrz [Grafika](Artwork/pl.md
 
 }} 
 
-[Category:Points{{\#translation:}}](Category:Points.md)
+[Category:Points](Category:Points.md)

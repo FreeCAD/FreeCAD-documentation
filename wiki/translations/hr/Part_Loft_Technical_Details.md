@@ -1,3 +1,5 @@
+# Part Loft Technical Details/hr
+
  This page explains the details of how the [Loft](Part_Loft.md) surface is created. This is also relevant to [Part Sweep](Part_Sweep.md) done along a straight path, although there are differences.
 
 The information provided is implementation specific, and may change. Current state is relevant to FreeCAD 0.15.4119, OCC version: 6.7.0.
@@ -71,4 +73,4 @@ Note that Loft has a \"Ruled\" property. If it is set to true, ruled surfaces ar
 
  
 
-[Category:Tutorials{{\#translation:}}](Category:Tutorials.md)
+[Category:Tutorials](Category:Tutorials.md)

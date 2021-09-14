@@ -1,18 +1,18 @@
 ---
 - GuiCommand:/ru
-   Name:Constraint InternalAngle
-   Name/ru:Constraint InternalAngle
-   MenuLocation:Sketch → Ограничения эскиза → Ограничение угла
+   Name/ru:Ограничить угол
+   Name:Sketcher_ConstrainAngle
+   MenuLocation:Sketch → Ограничения эскиза → Ограничить угол
    Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
    Shortcut:**A**
-   SeeAlso:[Ограничения расстояния](Sketcher_ConstrainDistance/ru.md), [Ограничения перпендикулярности](Sketcher_ConstrainPerpendicular/ru.md)
+   SeeAlso:[Ограничить расстояние](Sketcher_ConstrainDistance/ru.md), [Ограничить перпендикулярность](Sketcher_ConstrainPerpendicular/ru.md)
 ---
 
-## Description
+## Описание
 
 Angle constraint is a [datum constraint](Sketcher_Workbench#Sketcher_Constraints.md) intended to fix angles in sketch. It is capable of setting slopes of individual lines, angles between lines, angles of intersections of curves, and angle spans of circular arcs.
 
-## Usage
+## Применение
 
 There are four different ways the constraint can be applied:
 
@@ -70,7 +70,7 @@ In this mode, angle between two curves is constrained at the point of their inte
 
 For the constraint to work correctly, the point must be on both curves. So, as the constraint is invoked, the point will be automatically constrained onto both curves ([helper constraints](Sketcher_helper_constraint.md) will be added, if necessary), and the angle between curves will be constrained at the point. These [helper constraints](Sketcher_helper_constraint.md) are plain regular constraints. They can be added manually, or deleted. There are no helper constraints on the example picture above, because the point selected is already the intersection of curves.
 
-## Scripting
+## Программирование
 
 Angle Constraint can be created from [macros](Macros.md) and from the python console by using the following: 
 ```python

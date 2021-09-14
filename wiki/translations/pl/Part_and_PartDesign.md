@@ -1,3 +1,5 @@
+# Part and PartDesign/pl
+
  {{TOCright}}
 
 ## Informacje ogólne 

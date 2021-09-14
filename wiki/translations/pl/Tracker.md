@@ -1,3 +1,5 @@
+# Tracker/pl
+
 
 
 
@@ -184,4 +186,4 @@ Dla dociekliwych: mamy tu zastosowanie wyrażenia regularnego MantisBT do tej op
 
 
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Administration{{\#translation:}}](Category:Administration.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Administration](Category:Administration.md)

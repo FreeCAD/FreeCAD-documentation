@@ -1,11 +1,11 @@
 ---
 - GuiCommand:/ru
-   Name:Part JoinEmbed
-   Name/ru:Part JoinEmbed
-   MenuLocation:Деталь → Join → Embed Object
+   Name/ru:Встроить объект
+   Name:Part_JoinEmbed
+   MenuLocation:Part → Соединить → Встроить объект
    Workbenches:[Part](Part_Workbench/ru.md)
-   Version:0.16.5069
-   SeeAlso:[Connect](Part_JoinConnect/ru.md), [Cutout](Part_JoinCutout/ru.md), [Part Boolean](Part_Boolean/ru.md), [Part Thickness](Part_Thickness/ru.md)
+   Version:0.16
+   SeeAlso:[Соединить объекты](Part_JoinConnect/ru.md), [Вырез объекта](Part_JoinCutout/ru.md), [Булевы операции](Part_Boolean/ru.md), [Толщина](Part_Thickness/ru.md)
 ---
 
 ## Описание
@@ -21,10 +21,10 @@ Embed tool embeds a walled object (e.g., a pipe) into another walled object.
 
 A Part JoinFeature object is created, with Mode set to \'Embed\'. Original objects are hidden, and the result of embedding is shown in 3D view.
 
-## Properties
+## Свойства
 
 
-{{TitleProperty|Base}}
+{{TitleProperty|Основные}}
 
 -    **Base**: Reference to base object (the one the other object is to be embedded into). The object should be a single solid.
 
@@ -34,7 +34,7 @@ A Part JoinFeature object is created, with Mode set to \'Embed\'. Original objec
 
 -    **Refine**: Sets whether to apply [Refine](Part_RefineShape.md) operation or not, to the final shape. The default value is determined by a \'Automatically refine shape after boolean operation\' checkbox in PartDesign preferences. When Mode property is \'bypass\', Refine is ignored (never applied).
 
-## Example
+## Пример
 
 1.  Create a pipe by applying [thickness](Part_Thickness.md) to a [cylinder](Part_Cylinder.md):
     <img alt="" src=images/JoinFeatures_Example_step1.png  style="width:320px;">
@@ -45,7 +45,7 @@ A Part JoinFeature object is created, with Mode set to \'Embed\'. Original objec
 4.  Use some cross-section tool ([Clipping plane](Std_ToggleClipPlane.md), [Arch Section Plane](Arch_SectionPlane.md), [Arch Cut Plane](Arch_CutPlane.md)) to reveal internals. On the picture below, Arch Section Plane is used.
     ![320px](images/JoinFeatures_Example_step4_Embed.png)
 
-## Algorithm
+## Алгоритм
 
 The algorithms behind Join tools are quite simple, and understanding them is important to use the tools correctly.
 
@@ -58,7 +58,7 @@ The algorithms behind Join tools are quite simple, and understanding them is imp
 4\. If Refine property is true, the resulting shape is [refined](Part_RefineShape.md).
 ![800px](images/JoinFeatures-Algo-Embed.png)
 
-### Notes
+### Примечания
 
 -   If after step 1, the object remains in one piece, the result of Embed will be equivalent to [union](Part_Fuse.md) of Base and Tool, but taking longer to compute.
 -   Now, the tool will produce unexpected result, if a compound is supplied as Base. This may be changed in the future.
@@ -66,21 +66,28 @@ The algorithms behind Join tools are quite simple, and understanding them is imp
 
 ## Программирование
 
-The Join tools can by used in [macros](macros.md) and from the python console by using the following function: 
+The Join tools can by used in [macros](macros.md) and from the python console by using the following function:
+
+
 ```pythonJoinFeatures.makePartJoinFeature(name = 'Embed', mode = 'Embed')```
 
 -   Creates an empty Embed feature (or other Join feature, depending on mode passed). The properties Base and Tool must be assigned explicitly, afterwards.
 -   Returns the newly created object.
 
-Пример: {{code|code=
+Пример:
+
+
+{{code|code=
 import JoinFeatures
 j = JoinFeatures.makePartJoinFeature(name = 'Embed', mode = 'Embed' )
 j.Base = FreeCADGui.Selection.getSelection()[0]
 j.Tool = FreeCADGui.Selection.getSelection()[1]
-}} The tool itself is implemented in Python, see {{FileName|/Mod/Part/JoinFeatures.py}} ([Github link](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Part/JoinFeatures.py)) under where FreeCAD is installed.
+}}
+
+The tool itself is implemented in Python, see {{FileName|/Mod/Part/JoinFeatures.py}} ([Github link](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Part/JoinFeatures.py)) under where FreeCAD is installed.
 
 
 
 
 
-  
+ 

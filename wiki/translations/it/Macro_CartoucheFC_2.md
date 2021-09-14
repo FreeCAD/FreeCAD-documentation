@@ -1,3 +1,5 @@
+# Macro CartoucheFC 2/it
+
 
 
 
@@ -8,7 +10,7 @@
 |Name=Macro CartoucheFC 2
 |Icon=Macro_CartoucheFC_2.png
 |Translate=Cartiglio 2
-|Description=Questa macro è una applicazione completa che permette di compilare il cartiglio del foglio modello 2 (Per [Drawing](Drawing_Module/it.md)).
+|Description=Questa macro è una applicazione completa che permette di compilare il cartiglio del foglio modello 2 (Per [Drawing](Drawing_Workbench/it.md)).
 |Author=Mario52
 |Version=5.0
 |Date=2014-08-08

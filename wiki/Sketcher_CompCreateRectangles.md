@@ -1,6 +1,6 @@
 ---
 - GuiCommand:
-   Name:Sketcher Create Rectangles
+   Name:Sketcher_CompCreateRectangles
    Icon:Sketcher_CompCreateRectangles.png
    MenuLocation:None (toolbar only)
    Workbenches:[Sketcher](Sketcher_Workbench.md)

@@ -1,3 +1,5 @@
+# Assembly3 Workbench/de
+
 
 
 <img alt="Assembly3 workbench icon" src=images/Assembly3_workbench_icon.svg  style="width:128px;">
@@ -583,4 +585,4 @@ Ein Weg, dieses zu lösen ist, einfach alle ungültigen Beschränkungen und Elem
 
 
 
-[Category:Addons{{\#translation:}}](Category:Addons.md) [Category:External Workbenches{{\#translation:}}](Category:External_Workbenches.md)
+[Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)

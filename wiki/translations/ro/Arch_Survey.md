@@ -1,5 +1,11 @@
 ---
-- GuiCommand:/ro   Name:Arch Survey   Name/ro:Arch Survey   Workbenches:[MenuLocation:Arch → Survey   SeeAlso:[[Macro FCInfo/ro|FCInfo (macro)](Arch_Module/ro___Arch]].md)---
+- GuiCommand:/ro
+   Name:Arch Survey
+   Name/ro:Arch Survey
+   MenuLocation:Arch → Survey
+   Workbenches:[Arch](Arch_Workbench/ro.md)
+   SeeAlso:[FCInfo (macro)](Macro_FCInfo/ro.md)
+---
 
 
 </div>

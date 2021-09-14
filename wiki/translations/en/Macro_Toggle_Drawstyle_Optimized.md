@@ -1,3 +1,5 @@
+# Macro Toggle Drawstyle Optimized/en
+
  {{Macro
 |Name=Macro Toggle Drawstyle Optimized
 |Description=Script optimized for all languages and to object selected or all objects.<br/>When working with FreeCAD there are times when you want to quickly change the Drawstyle of the object you are working with. This is available through the Drawstyle pull-down menu where any Drawstyle may be selected. This macro makes 2 of the Drawstyles available as a clickable button on a toolbar which the user may click to toggle back and forth between the two Drawstyles.<br/>See also:<br/>Toggle global display mode: [https://www.freecadweb.org/wiki/Macro_Toggle_Drawstyle_Optimized#Script_2 Macro_Toggle_Drawstyle_Optimized_2.FCMacro]<br/>Toggle selected object(s) display mode (changes visible only in global As is (located on View toolbar) display mode): [https://www.freecadweb.org/wiki/Macro_Toggle_Drawstyle_Optimized#Script_3 Macro_Toggle_Drawstyle_Optimized_3.FCMacro]

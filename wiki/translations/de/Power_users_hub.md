@@ -1,8 +1,10 @@
+# Power users hub/de
+
  <img alt="" src=images/Power_user_hub.png  style="width:64px;">
 
 ------------------------------------------------------------------------
 
-\_\_NOTOC\_\_
+
 
 Dies ist der richtige Ort, wenn du ein erfahrener Benutzer bist und mehr über die Anpassung und Erweiterung von FreeCAD erfahren möchtest.
 
@@ -75,7 +77,7 @@ Die Funktionalität von FreeCAD ist in Module unterteilt, die sich mit spezielle
 -   [Linienzeichnungsfunktion](Line_drawing_function/de.md): Wie man ein einfaches Werkzeug zum Zeichnen von Linien baut
 -   [Dialogerstellung](Dialog_creation/de.md): Wie man Dialoge mit dem Qt Designer erstellt und in FreeCAD verwendet.
 -   [FreeCAD einbinden](Embedding_FreeCAD/de.md): Wie man FreeCAD als Python Modul in andere Anwendungen importiert
--   Der [Arbeitsbereich Entwurf](Draft_Module/de.md) fügt FreeCAD grundlegende 2D Zeichenfunktionen hinzu. Es ist vollständig in Python geschrieben, so dass es ein gutes Beispiel sein kann, wenn man eigene Module schreiben will.
+-   Der [Arbeitsbereich Entwurf](Draft_Workbench/de.md) fügt FreeCAD grundlegende 2D Zeichenfunktionen hinzu. Es ist vollständig in Python geschrieben, so dass es ein gutes Beispiel sein kann, wenn man eigene Module schreiben will.
 -   [FreeCAD Vektor Mathematische Bibliothek](FreeCAD_vector_math_library/de.md) : Einige praktische Funktionen zur Manipulation von FreeCAD Vektoren. Diese Bibliothek ist auch im Draft Modul enthalten.
 
 ## API Funktionen 
@@ -133,4 +135,4 @@ Auf dem [Gemeinschaftsportal](FreeCAD_Community_Portal/de.md), findet man weiter
 
 }}
 
-[Category:Hubs{{\#translation:}}](Category:Hubs.md)
+[Category:Hubs](Category:Hubs.md)

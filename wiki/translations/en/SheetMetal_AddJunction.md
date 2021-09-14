@@ -51,19 +51,29 @@ To add junction to corner of corner:
 
 ## Properties
 
+See also: [Property editor](Property_editor.md).
+
+A SheetMetal Junction object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties and its label has a default value:
+
 ### Data
 
 
 {{Properties_Title|Base}}
 
--    **Label**: User name of the object in the [Tree view](Tree_view.md).
+-    **Label|String**: Default value: The user editable name of this object, it may be any arbitrary UTF8 string.
+
+-    **Base Feature|Link|hidden**: Base Feature. Link to the parent feature.
+
+-    **_Body|LinkHidden|hidden**: Hidden link to the parent body.
 
 
 {{Properties_Title|Parameters}}
 
--    **gap**: Size of gap/junction to be added.
+-    **base Object|LinkSub**: \"Base Object\". Links to the edges defining gap/junction positions.
+
+-    **gap|Length**: \"Junction Gap\". Default: {{value|2,00 mm}}.Size of gap/junction to be added.
 
 
 
 
-[Category:SheetMetal{{\#translation:}}](Category:SheetMetal.md) [Category:Addons{{\#translation:}}](Category:Addons.md) [Category:External Command Reference{{\#translation:}}](Category:External_Command_Reference.md)
+[Category:SheetMetal](Category:SheetMetal.md) [Category:Addons](Category:Addons.md) [Category:External Command Reference](Category:External_Command_Reference.md)

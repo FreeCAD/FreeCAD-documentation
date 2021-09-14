@@ -1,3 +1,5 @@
+# PartDesign Workbench/es
+
  
 
 <img alt="El icono del Ambiente de trabajo PartDesign " src=images/Workbench_PartDesign.svg  style="width:128px;">
@@ -7,23 +9,11 @@
 
 ## Introducción
 
-
-<div class="mw-translate-fuzzy">
-
 El <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Ambiente de trabajo de diseño de piezas](PartDesign_Workbench/es.md) proporciona herramientas avanzadas para modelar piezas sólidas complejas. Se centra principalmente en la creación de piezas mecánicas que pueden ser fabricadas y ensambladas en un producto terminado. Sin embargo, los sólidos creados pueden ser utilizados en general para cualquier otro propósito como [diseño arquitectónico](Arch_Workbench/es.md), [análisis de elementos finitos](FEM_Workbench/es.md), o [mecanizado e impresión 3D](Path_Workbench/es.md).
-
-
-</div>
 
 El Ambiente de trabajo DiseñoPiezas está intrínsecamente relacionado con el [Ambiente de trabajo Croquizador](Sketcher_Workbench/es.md). El usuario normalmente crea un Sketch, luego utiliza la herramienta [Almohadilla DiseñoPiezas](PartDesign_Pad/es.md) para extruirlo y crear un sólido básico, y luego este sólido se modifica aún más.
 
-
-<div class="mw-translate-fuzzy">
-
-Mientras que el <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Ambiente de trabajo Piezas](Part_Workbench/es.md) se basa en una metodología de [geometría sólida constructiva](constructive_solid_geometry/es.md) (CSG) para la construcción de formas, el Ambiente de trabajo DisegnoPiezas utiliza una metodología paramétrica, de edición de características, lo que significa que un sólido básico se transforma secuencialmente añadiendo características encima hasta obtener la forma final. Consulte la página [edición de características](feature_editing/es.md) para obtener una explicación más completa de este proceso y, a continuación, consulte [Creación de una pieza sencilla con DisegnoPiezas](Creating_a_simple_part_with_PartDesign/es.md) para empezar a crear sólidos.
-
-
-</div>
+Mientras que el <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Ambiente de trabajo Pieza](Part_Workbench/es.md) se basa en una metodología de [geometría sólida constructiva](constructive_solid_geometry/es.md) (CSG) para la construcción de formas, el Ambiente de trabajo DisegnoPiezas utiliza una metodología paramétrica, de edición de características, lo que significa que un sólido básico se transforma secuencialmente añadiendo características encima hasta obtener la forma final. Consulte la página [edición de características](feature_editing/es.md) para obtener una explicación más completa de este proceso y, a continuación, consulte [Creación de una pieza sencilla con DisegnoPiezas](Creating_a_simple_part_with_PartDesign/es.md) para empezar a crear sólidos.
 
 Una discusión más detallada sobre el ambiente de trabajo Piezas frente al ambiente de trabajo de DiseñoPiezas se puede encontrar aquí: [ Piezas y DiseñoPiezas](Part_and_Part_Design/es.md).
 
@@ -212,4 +202,4 @@ Otras funcionalidades adicionales disponibles en el menú de diseño de piezas:
 
  {{PartDesign Tools navi}}
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

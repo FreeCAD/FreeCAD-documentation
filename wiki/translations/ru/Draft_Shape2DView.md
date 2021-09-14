@@ -2,8 +2,8 @@
 - GuiCommand:/ru
    Name:Draft Shape2DView
    Name/ru:Draft Shape2DView
-   Workbenches:[Draft](Draft_Module/ru.md), [Arch](Arch_Module/ru.md)
    MenuLocation:Черчение → 2D вид фигуры
+   Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
 ---
 
 

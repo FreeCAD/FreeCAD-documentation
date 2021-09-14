@@ -30,7 +30,7 @@ A Part JoinFeature object is created, with Mode set to \'Cutout\'. Original obje
 ## Свойства
 
 
-{{TitleProperty|Base}}
+{{TitleProperty|Основные}}
 
 -    **Base**: Reference to base object (the one to make the cutout in). The object should be a single solid.
 
@@ -60,7 +60,7 @@ The algorithms behind Join tools are quite simple, and understanding them is imp
 3\. If Refine property is true, the resulting shape is [refined](Part_RefineShape.md).
 ![800px](images/JoinFeatures-Algo-Cutout.png)
 
-### Notes
+### Примечания
 
 -   If after step 1, the object remains in one piece, the result of Cutout will be equivalent to [boolean cut](Part_Cut.md) of Base with Tool.
 -   Now, the tool will produce unexpected result, if a compound is supplied as Base. This may be changed in the future.
@@ -68,7 +68,9 @@ The algorithms behind Join tools are quite simple, and understanding them is imp
 
 ## Программирование
 
-The Join tools can by used in [macros](macros.md) and from the python console by using the following function: 
+The Join tools can by used in [macros](macros.md) and from the python console by using the following function:
+
+
 ```pythonJoinFeatures.makePartJoinFeature(name = 'Cutout', mode = 'Cutout')```
 
 -   Creates an empty Cutout feature (or other Join feature, depending on mode passed). The properties Base and Tool must be assigned explicitly, afterwards.
@@ -79,10 +81,9 @@ import JoinFeatures
 j = JoinFeatures.makePartJoinFeature(name = 'Cutout', mode = 'Cutout' )
 j.Base = FreeCADGui.Selection.getSelection()[0]
 j.Tool = FreeCADGui.Selection.getSelection()[1]
-}} The tool itself is implemented in Python, see {{FileName|/Mod/Part/JoinFeatures.py}} ([Github link](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Part/JoinFeatures.py)) under where FreeCAD is installed.
+}}
 
-
-
+The tool itself is implemented in Python, see {{FileName|/Mod/Part/JoinFeatures.py}} ([Github link](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Part/JoinFeatures.py)) under where FreeCAD is installed.
 
 
 

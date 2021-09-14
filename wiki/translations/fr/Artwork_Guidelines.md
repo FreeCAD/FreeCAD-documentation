@@ -1,3 +1,5 @@
+# Artwork Guidelines/fr
+
 
 
 ## Introduction
@@ -171,4 +173,4 @@ Une image en niveaux de gris vous permet d\'identifier plus facilement les probl
 
 {{Artwork}}
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md)

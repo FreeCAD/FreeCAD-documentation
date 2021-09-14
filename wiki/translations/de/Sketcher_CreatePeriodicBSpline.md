@@ -10,13 +10,7 @@
 
 ## Beschreibung
 
-
-<div class="mw-translate-fuzzy">
-
-Dieses Werkzeug zeichnet von seinen Kontrollpunkten aus eine periodische (geschlossene) B-Spline Kurve auf.
-
-
-</div>
+Dieses Werkzeug zeichnet von seinen Kontrollpunkten aus eine periodische (geschlossene) B-Spline-Kurve auf. (Siehe [diese Seite](B-Splines/de.md) für mehr Informationen über B-Splines).
 
 ![](images/Sketcher_Periodic_B-spline_example01.png )
 
@@ -25,14 +19,14 @@ Dieses Werkzeug zeichnet von seinen Kontrollpunkten aus eine periodische (geschl
 
 ## Anwendung
 
-1.  Press the **<img src=images/Sketcher_CreatePeriodicBSpline.svg style="width:16px"> [Periodic B-spline](Sketcher_CreatePeriodicBSpline.md)** button.
-2.  Create a series of points by clicking in the 3D view. While the command is active, the created points are connected with straight lines, and a construction circle is created centred on each point.
-3.  Pick the first curve point, or right-click to terminate the input and generate the curve.
-4.  Depending on preferences, the tool may remain active to trace a new curve. Right-click again to exit the command.
+1.  Drücke die **<img src=images/Sketcher_CreatePeriodicBSpline.svg style="width:16px"> [Erstellen von periodischer B-Spline](Sketcher_CreatePeriodicBSpline/de.md)**-Schaltfläche.
+2.  Erstelle eine Reihe von Punkte durch Klicken in der 3D-Ansicht. Während der Befehl aktiv ist, werden die erstellten Punkte durch gerade Linien verbunden und um jeden Punkt ein Konstruktionskreis erstellt.
+3.  Wähle den ersten Kurvenpunkt oder rechtsklicke, um die Eingabe zu beenden und die Kurve zu generieren.
+4.  Abhängig von den Voreinstellungen könnte das Werkzeug aktiv bleiben, um eine neue Kurve zu zeichnen. Rechtsklicke erneut, um den Befehl zu verlassen.
 
--   It is possible to define the weight of the control points by changing the radii of the weight circles. The equality constraints on the circles need to be deleted first. The radius constraint is arbitrary, the weight of the control points will be defined by the relative radii of the circles. It works similar to gravity: the bigger a circle is in relation to the others, the more the curve will be attracted to the control point.
--   The visibility of the control polygon, the curvature comb, the degree and the knot multiplicity can be toggled on/off from the [B-spline tools](Sketcher_Workbench#Sketcher_B-spline_tools.md) toolbar.
--   Check out the other tools in the [B-spline tools](Sketcher_Workbench#Sketcher_B-spline_tools.md) toolbar for more B-spline editing tools.
+-   Es ist möglich, die Gewichtung der Kontrollpunkte zu definieren, indem die Radien der Gewichtskreise geändert werden. Die Gleichheitsbeschränkungen der Kreise müssen zuerst gelöscht werden. Die Radiusbeschränkung ist frei wählbar, das Gewicht der Kontrollpunkte wird durch die relativen Radien der Kreise definiert. Es funktioniert ähnlich wie Schwerkraft: je größer die Kreise im Vergleich zu anderen sind, um so mehr wird die Kurve vom Kontrollpunkt angezogen.
+-   Die Sichtbarkeit des Kontrollpolygons, des Krümmungskamms, der Grad und die Knotenvielzahl können über die [B-Spline Werkzeuge](Sketcher_Workbench/de#Sketcher_B-spline_tools.md)-Werkzeugleiste ein-/ausgeschaltet werden.
+-   Wirf einen Blick auf die anderen Werkzeuge in der [B-Spline Werkzeuge](Sketcher_Workbench/de#Sketcher_B-spline_tools.md)-Werkzeugleiste.
 
 ## Begrenzungen
 

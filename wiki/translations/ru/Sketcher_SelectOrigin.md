@@ -1,20 +1,18 @@
 ---
 - GuiCommand:/ru
-   Name:Sketcher SelectOrigin
-   Name/ru:Sketcher SelectOrigin
+   Name/ru:Выбрать начало координат
+   Name:Sketcher_SelectOrigin
+   MenuLocation:Sketch → Инструменты для эскиза → Выбрать начало координат
    Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
-   MenuLocation:Sketch → Инструменты для эскиза → Выделить начало координат
-   Shortcut:Shift+Ctrl+O
-   Version:0.15---
+   Shortcut:**Shift**+**Ctrl**+**O**
+   Version:0.15
+---
 
-
-</div>
-
-## Description
+## Описание
 
 Selects the origin of a sketch.
 
-## Usage
+## Применение
 
 1.  Enter edit mode of sketch.
 2.  Choose **Sketch → Sketcher tools → <img src=images/Sketcher_SelectOrigin.svg style="width:16px"> Select origin** from the top menu.

@@ -1,4 +1,12 @@
- {{Macro/it
+# Macro TreeToAscii/it
+
+
+
+
+<div class="mw-translate-fuzzy">
+
+
+{{Macro/it
 |Name=TreeToAscii
 |Icon=
 |Description=Questa macro genera una rappresentazione in stile ASCII dell'albero degli oggetti selezionati
@@ -10,11 +18,20 @@
 |SeeAlso=
 }}
 
+
+</div>
+
 ## Descrizione
 
 ### Contesto
 
+
+<div class="mw-translate-fuzzy">
+
 Questa macro è stata scritta principalmente per documentare la costruzione del modello. Genera una rappresentazione in stile ASCII dell\'albero di costruzione degli oggetti selezionati.
+
+
+</div>
 
 ### Utilizzo
 

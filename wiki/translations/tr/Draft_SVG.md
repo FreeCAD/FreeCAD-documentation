@@ -1,3 +1,5 @@
+# Draft SVG/tr
+
 
 
 
@@ -87,4 +89,4 @@ importSVG.export(objects, "/home/user/Pictures/myfile.svg")
 
  
 
-[Category:File Formats{{\#translation:}}](Category:File_Formats.md)
+[Category:File Formats](Category:File_Formats.md)

@@ -22,4 +22,4 @@ Remember that the styles and labels of the data series can be edited with the [d
 
  {{Plot_Tools_navi}} 
 
-[Category:External\_Workbenches{{\#translation:}}](Category:External_Workbenches.md) [Category:Addons{{\#translation:}}](Category:Addons.md)
+[Category:External\_Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)

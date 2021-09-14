@@ -1,3 +1,5 @@
+# Packaging/it
+
 
 
 Questa pagina raccoglie le informazioni sulla costruzione dei pacchetti di FreeCAD per le diverse piattaforme.
@@ -9,4 +11,4 @@ Questa pagina raccoglie le informazioni sulla costruzione dei pacchetti di FreeC
 
  
 
-[Category:Packaging{{\#translation:}}](Category:Packaging.md) [Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md)
+[Category:Packaging](Category:Packaging.md) [Category:Developer Documentation](Category:Developer_Documentation.md)

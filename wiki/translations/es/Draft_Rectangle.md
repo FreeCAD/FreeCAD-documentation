@@ -1,5 +1,13 @@
 ---
-- GuiCommand:/es   Name:Draft Rectangle   Name/es:Draft Rectangle   Workbenches:[Arquitectura](Draft_Module/es___Croquis]],_[[Arch_Module/es.md)|MenuLocation:Croquis →  Rectángulo   Shortcut:R E   SeeAlso:[Cubo](Part_Box/es.md)---
+- GuiCommand:/es
+   Name:Draft Rectangle
+   Name/es:Draft Rectangle
+   MenuLocation:Croquis →  Rectángulo
+   Workbenches:[Croquis](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
+   Shortcut:**R** **E**
+   Version:0.7
+   SeeAlso:[Cubo](Part_Box/es.md)
+---
 
 
 </div>

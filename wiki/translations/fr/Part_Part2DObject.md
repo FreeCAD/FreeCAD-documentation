@@ -1,3 +1,5 @@
+# Part Part2DObject/fr
+
 
 
 ## Introduction
@@ -37,9 +39,9 @@ Outre les propriétés décrites dans [Part Feature](Part_Feature/fr.md), le cor
 
 {{TitleProperty|Attachment}}
 
--    {{PropertyData/fr|Map Mode|Enumeration}}: {{value|Deactivated}} \"Désactivé\" par défaut. Cette propriété détermine un plan que l\'objet utilisera comme référence pour la géométrie 2D. En cliquant sur l\'ellipse **...**, à droite du champ de saisie, s\'ouvre le [Panneau des tâches](Task_panel/fr.md) de [Part Ancrage](Part_Attachment/fr.md) qui permet de sélectionner le plan de support en sélectionnant différents éléments dans le panneau de tâches [Vue 3D](3D_view/fr.md). Les différents modes sont: {{value|Deactivated}}, {{value|Translate origin}}, {{value|Object's XY}}, {{value|Object's XZ}}, {{value|Object's YZ}}, {{value|Plane face}}, {{value|Tangent to surface}}, {{value|Normal to edge}}, {{value|Frenet NB}}, {{value|Frenet TN}}, {{value|Frenet TB}}, {{value|Concentric}}, {{value|Revolution section}}, {{value|Plane by 3 points}}, {{value|Normal to 3 points}}, {{value|Folding}}, {{value|Inertia 2-3}}, {{value|Align O-N-X}}, {{value|Align O-N-Y}}, {{value|Align O-X-Y}}, {{value|Align O-X-N}}, {{value|Align O-Y-N}}, {{value|Align O-Y-X}}.
+-    {{PropertyData/fr|Map Mode|Enumeration}}: {{value|Deactivated}} \"Désactivé\" par défaut. Cette propriété détermine un plan que l\'objet utilisera comme référence pour la géométrie 2D. En cliquant sur l\'ellipse **...**, à droite du champ de saisie, s\'ouvre le [Panneau des tâches](Task_panel/fr.md) de [Part Ancrage](Part_EditAttachment/fr.md) qui permet de sélectionner le plan de support en sélectionnant différents éléments dans le panneau de tâches [Vue 3D](3D_view/fr.md). Les différents modes sont: {{value|Deactivated}}, {{value|Translate origin}}, {{value|Object's XY}}, {{value|Object's XZ}}, {{value|Object's YZ}}, {{value|Plane face}}, {{value|Tangent to surface}}, {{value|Normal to edge}}, {{value|Frenet NB}}, {{value|Frenet TN}}, {{value|Frenet TB}}, {{value|Concentric}}, {{value|Revolution section}}, {{value|Plane by 3 points}}, {{value|Normal to 3 points}}, {{value|Folding}}, {{value|Inertia 2-3}}, {{value|Align O-N-X}}, {{value|Align O-N-Y}}, {{value|Align O-X-Y}}, {{value|Align O-X-N}}, {{value|Align O-Y-N}}, {{value|Align O-Y-X}}.
 
-Voir [Part Ancrage](Part_Attachment/fr.md) pour plus d\'informations sur tous les modes de mappage.
+Voir [Part Ancrage](Part_EditAttachment/fr.md) pour plus d\'informations sur tous les modes de mappage.
 
 Les deux propriétés suivantes sont normalement masquées. Ils deviennent visibles une fois que {{PropertyData/fr|Map Mode}} est autre chose que {{value|Deactivated}}.
 

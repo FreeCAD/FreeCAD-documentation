@@ -1,5 +1,12 @@
 ---
-- GuiCommand:/it   Name:Draft ToggleDisplayMode   Name/it:Aspetto   Workbenches:[Architettura](Draft_Module/it___Draft]],_[[Arch_Workbench/it.md)|MenuLocation:Draft → Utilità → Cambia la visualizzazione   Shortcut:**Maiusc** + **Spazio**   SeeAlso:[Gestire la visibilità](Std_ToggleVisibility/it.md)---
+- GuiCommand:/it
+   Name:Draft ToggleDisplayMode
+   Name/it:Aspetto
+   Workbenches:[Draft](Draft_Workbench/it.md), [Architettura](Arch_Workbench/it.md)
+   MenuLocation:Draft → Utilità → Cambia la visualizzazione
+   Shortcut:**Maiusc** + **Spazio**
+   SeeAlso:[Gestire la visibilità](Std_ToggleVisibility/it.md)
+---
 
 
 </div>

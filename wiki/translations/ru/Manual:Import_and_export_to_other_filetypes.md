@@ -1,3 +1,5 @@
+# Manual:Import and export to other filetypes/ru
+
  
 
 
@@ -41,4 +43,4 @@ FreeCAD может импортировать и экспортировать в
 
 
 
-[Category:Poweruser Documentation{{\#translation:}}](Category:Poweruser_Documentation.md) [Category:Tutorials{{\#translation:}}](Category:Tutorials.md)
+[Category:Poweruser Documentation](Category:Poweruser_Documentation.md) [Category:Tutorials](Category:Tutorials.md)

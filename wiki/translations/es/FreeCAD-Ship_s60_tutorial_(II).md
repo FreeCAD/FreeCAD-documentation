@@ -1,3 +1,5 @@
+# FreeCAD-Ship s60 tutorial (II)/es
+
 
 
 
@@ -152,7 +154,7 @@ Geometría del tanque generada.
 
 Para generar la geometría del tanque de babor simplemente seleccionamos nuestro tanque a estribor y ejecutamos la herramienta de simetría, tomando XZ como plano de simetría.
 
-Para convertir las geometrías en el tipo convencional simplemente cargamos el [módulo de esbozado](Draft_Module/es.md), y ejecutamos promocionar sobre cada una de las geometrías generadas. Podemos renombrar las geometrías como:
+Para convertir las geometrías en el tipo convencional simplemente cargamos el [módulo de esbozado](Draft_Workbench/es.md), y ejecutamos promocionar sobre cada una de las geometrías generadas. Podemos renombrar las geometrías como:
 
 -   StarboardTankGeom
 -   BoardTankGeom

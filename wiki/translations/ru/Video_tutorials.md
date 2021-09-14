@@ -1,3 +1,5 @@
+# Video tutorials/ru
+
  {{VeryImportantMessage|Обратите внимание на версию FreeCAD, используемую в руководстве. Если в учебнике используется более старая версия программы, общий процесс моделирования может по-прежнему работать, но некоторые инструменты могут быть изменены в более новых версиях. Не добавляйте видео, снятые в версии 0.16 или более ранней, так как эти выпуски считаются устаревшими.}}
 
 На этой странице представлена подборка видеоуроков, созданных пользователями и разработчиками FreeCAD. Посетите подфорум [Учебники и видео](https://forum.freecadweb.org/viewforum.php?f=36) для получения дополнительных ссылок. Полезный источник видеоуроков - [YouTube](https://YouTube.com).
@@ -88,4 +90,4 @@ For more see [Video tutorials obsolete](Video_tutorials_obsolete.md).
 
 }} 
 
-[Category:Common Questions{{\#translation:}}](Category:Common_Questions.md)
+[Category:Common Questions](Category:Common_Questions.md)

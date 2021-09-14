@@ -3,12 +3,9 @@
    Name:Part ShapeFromMesh‏‎
    Name/de:Part FormAusNetz
    MenuLocation:Part → Erzeuge Form aus Netz...
-   Workbenches:[Part](Part_Modulede.md)
+   Workbenches:[Part](Part_Workbench/de.md)
    SeeAlso:[Part UmwandelnInFestkörper](Part_MakeSolid/de.md), [Part FormVerfeinern](Part_RefineShape/de.md), [Part PunkteAusNetz](Part_PointsFromMesh/de.md)
 ---
-
-
-</div>
 
 ## Einführung
 
@@ -57,13 +54,7 @@ doc.recompute()
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
   

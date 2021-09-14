@@ -1,3 +1,5 @@
+# Python console/it
+
  {{VeryImportantMessage|(Gennaio 2020) FreeCAD è stato originariamente progettato per funzionare con Python 2. Poiché Python 2 ha raggiunto la fine del suo ciclo di vita nel 2020, lo sviluppo futuro di FreeCAD sarà realizzato esclusivamente con Python 3 e la compatibilità con le versioni precedenti non sarà supportata.}}
 
 ## Introduzione

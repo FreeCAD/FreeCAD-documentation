@@ -1,3 +1,5 @@
+# About FreeCAD/zh-cn
+
  
 
 <img alt="" src=images/Freecad_default.jpg  style="width:1024px;">
@@ -74,4 +76,4 @@ FreeCAD由整个社区热心开发人员及用户开发及维护（请看[贡献
 
 
 
-[Category:User Documentation{{\#translation:}}](Category:User_Documentation.md)
+[Category:User Documentation](Category:User_Documentation.md)

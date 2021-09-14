@@ -3,7 +3,7 @@
    Name:Draft Circle
    Name/de:Entwurf Kreis
    MenuLocation:Entwurf → Kreis
-   Workbenches:[Draft](Draft_Module/de.md), [Arch](Arch_Module/de.md)
+   Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
    Shortcut:**C** **I**
    Version:0.7
    SeeAlso:[Entwurf Bogen](Draft_Arc/de.md), [Entwurf Ellipse](Draft_Ellipse/de.md), [Makro KreisPlus](Macro_CirclePlus/de.md)

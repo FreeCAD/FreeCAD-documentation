@@ -21,7 +21,13 @@
 
 ## Descrizione
 
+
+<div class="mw-translate-fuzzy">
+
 Questo comando consente di interagire con una istanza [BIMServer](http://www.bimserver.org), aprire i file memorizzati sul BIMServer, e salvare nuove revisioni di tali file. BIMServer è un sistema server free, open-source realizzato per lavorare con i file IFC. Allo stato attuale, permette di gestire i progetti con più file IFC, e gestire le revisioni. La sua architettura di sistema di database e di plugin altamente estensibile permette anche di progettare avanzati strumenti di convalida e di interrogazione, e intelligenti flussi di lavoro incorporati.
+
+
+</div>
 
 Per poter utilizzare questo comando, devono essere soddisfatte le seguenti condizioni:
 

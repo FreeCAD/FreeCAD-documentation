@@ -1,3 +1,5 @@
+# Part Loft Technical Details/de
+
  Diese Seite erklärt die Details, wie die [Ausformungsoberfläche](Part_Loft/de.md) des Werkzeugs erzeugt wird. Dies ist ebenfalls relevant für [Part Austragung](Part_Sweep.md), die entlang eines geraden Pfades erfolgen, auch wenn es Unterschiede gibt.
 
 Die angegebenen Informationen sind implementierungsspezifisch und können sich ändern. Der aktuelle Stand ist relevant für FreeCAD 0.15.4119, OCC Version: 6.7.0.
@@ -71,4 +73,4 @@ Beachte, dass Ausformung eine \"Ruled\"-Eigenschaft hat. Wenn sie auf \"true\" g
 
  
 
-[Category:Tutorials{{\#translation:}}](Category:Tutorials.md)
+[Category:Tutorials](Category:Tutorials.md)

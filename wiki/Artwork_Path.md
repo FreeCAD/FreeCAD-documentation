@@ -1,4 +1,6 @@
-\_\_NOTOC\_\_  
+# Artwork Path
+
+  
 
 These icons are in the indicated source path.
 
@@ -12,4 +14,4 @@ For all icons in the source tree, see [Artwork](Artwork.md).
 
  
 
-[Category:Path{{\#translation:}}](Category:Path.md)
+[Category:Path](Category:Path.md)

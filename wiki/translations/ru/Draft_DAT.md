@@ -1,3 +1,5 @@
+# Draft DAT/ru
+
 
 
 
@@ -9,7 +11,7 @@
 
 {{docnav/ru|
 [Формат Open Cad .OCA](Draft_OCA/ru.md)
-||[Модуль Draft](Draft_Module/ru.md)
+||[Модуль Draft](Draft_Workbench/ru.md)
 |IconC=Workbench_Draft.svg}}
 
 
@@ -25,7 +27,7 @@ There are many different dialects of this format so this import module tries to 
 
 {{docnav/ru|
 [Формат Open Cad .OCA](Draft_OCA/ru.md)
-||[Модуль Draft](Draft_Module/ru.md)
+||[Модуль Draft](Draft_Workbench/ru.md)
 |IconC=Workbench_Draft.svg}}
 
 
@@ -34,4 +36,4 @@ There are many different dialects of this format so this import module tries to 
 
  
 
-[Category:File Formats{{\#translation:}}](Category:File_Formats.md)
+[Category:File Formats](Category:File_Formats.md)

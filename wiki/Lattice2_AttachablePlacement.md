@@ -35,4 +35,4 @@ The <img alt="" src=images/Lattice2_AttachablePlacement.svg  style="width:24px;"
 
 
 
-[Category:External Command Reference{{\#translation:}}](Category:External_Command_Reference.md) [Category:Lattice2{{\#translation:}}](Category:Lattice2.md)
+[Category:External Command Reference](Category:External_Command_Reference.md) [Category:Lattice2](Category:Lattice2.md)

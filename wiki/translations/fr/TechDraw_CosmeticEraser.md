@@ -7,9 +7,6 @@
    Version:0.19
 ---
 
-
-</div>
-
 ## Description
 
 L\'outil Gomme efface les objets cosmétiques de la page. Les objets cosmétiques sont:
@@ -41,13 +38,7 @@ L\'outil Gomme n\'a pas de propriétés car il ne s\'agit pas d\'un objet docume
 Gomme n\'est pas accessible à partir de [macro](Macros/fr.md) ou de la console [Python](Python/fr.md) pour le moment.
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{TechDraw Tools navi

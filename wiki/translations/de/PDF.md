@@ -1,3 +1,5 @@
+# PDF/de
+
 
 
 
@@ -9,15 +11,15 @@
 
 PDF basiert auf der PostScript Sprache, die ein vektorbasiertes Format zur Beschreibung von Seiten ist. In diesem Sinne ähnelt es [SVG](SVG/de.md), da es die Skalierung einer Zeichnung auf jede beliebige Größe ermöglicht, ohne dass sie ihre Form oder Menge an Details verliert.
 
-Nevertheless, a PDF can contain many things, including text, fonts, vector graphics, and [bitmap](bitmap.md) images. PDF was standardized as an open format in 2008, as ISO 32000.
+Trotzdem kann ein PDF viele Dinge enthalten, u.a. Text, Schriftarten, Vektorgrafiken und [Bitmap](bitmap/de.md)-Bilder. PDF wurde 2008 als ein offenes Format als ISO32000 standardisiert.
 
-PDF is commonly used as a sharing format, that is, to share documents, text, or images, that will display and print exactly as the author intended.
+PDF wird allgemein als ein Austauschformat verwendet, d.h. zum Austausch von Dokumenten, Text oder Bildern, die genauso angezeigt und ausgedruckt werden, wie es der Autor beabsichtigt hat.
 
 ## Anwendung
 
-As FreeCAD is based on the Qt graphical toolkit, it can export the [3D view](3D_view.md) natively to PDF. This can be useful to export carefully created drawings that other users don\'t need to modify. For example, pages created with the [TechDraw Workbench](TechDraw_Workbench.md) can be [exported](Std_Export.md) in this way for sharing or printing. In many cases it is also possible to perform two way conversion between PDF and [SVG](SVG.md).
+Weil FreeCAD auf dem Qt-Grafik-Toolkit besteht, kann es die [3D-Ansicht](3D-View/de.md) nativ nach PDF exportieren. Dies kann nützlich sein, um sorgfältig erstellte Zeichnungen zu exportieren, die andere Benutzer nicht verändern müssen. Mit dem [TechDraw-Arbeitsbereich](TechDraw_Workbench/de.md) erstellte Seiten können bspw. auf diese Weise [exportiert](Std_Export/de.md) werden, um sie zu verteilen oder zu drucken. In vielen Fällen ist es auch möglich, eine Zwei-Wege-Konvertierung zwischen PDF und [SVG](SVG/de.md) durchzuführen.
 
-The option to export to PDF is available in the **File → [Export PDF](Std_Export.md)** menu.
+Die Option, nach PDF zu exportieren, ist im Menü unter **Datei → [PDF exportieren](Std_Export.md)** verfügbar.
 
 ## Verwandt
 
@@ -28,4 +30,4 @@ The option to export to PDF is available in the **File → [Export PDF](Std_Expo
 
 
 
-[Category:File\_Formats{{\#translation:}}](Category:File_Formats.md)
+[Category:File\_Formats](Category:File_Formats.md)

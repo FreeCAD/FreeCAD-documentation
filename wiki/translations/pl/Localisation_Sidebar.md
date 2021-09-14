@@ -1,3 +1,5 @@
+# Localisation Sidebar/pl
+
  [Lokalizacja](Localisation/pl.md) to proces dostarczania oprogramowania z wielojęzycznym interfejsem użytkownika. Dokumentacja Wiki może być również zlokalizowana, jak opisano w sekcji [Tłumaczenie Wiki FreeCAD](Localisation/pl#Tłumaczenie_dokumentacji_Wiki_dla_FreeCAD.md).
 
 Pasek boczny jest ważnym narzędziem nawigacyjnym w świecie wiki, zobacz [Podręcznik:Interfejs/Sidebar](http://www.mediawiki.org/wiki/Manual:Interface/Sidebar) aby uzyskać więcej informacji.
@@ -30,4 +32,4 @@ Nie dodawaj kodów językowych \"/fr\", \"/de\", \"/es\", \"/ru\", itp., jeśli 
 
 
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Wiki{{\#translation:}}](Category:Wiki.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Wiki](Category:Wiki.md)

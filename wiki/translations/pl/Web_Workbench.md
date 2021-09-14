@@ -1,3 +1,5 @@
+# Web Workbench/pl
+
 
 
 
@@ -17,4 +19,4 @@ Za pomocą tej przeglądarki można poruszać się w sieci, klikać na linki, cz
 
 
 
-[Category:Web{{\#translation:}}](Category:Web.md) [Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Web](Category:Web.md) [Category:Workbenches](Category:Workbenches.md)

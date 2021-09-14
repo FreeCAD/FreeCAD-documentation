@@ -1,3 +1,5 @@
+# Manual:Preparing models for 3D printing/en
+
 
 
 
@@ -137,4 +139,4 @@ There are many applications available to simulate the real cutting, one of them 
 
 
 
-[Category:Path{{\#translation:}}](Category:Path.md) [Category:Mesh{{\#translation:}}](Category:Mesh.md) [Category:Tutorials{{\#translation:}}](Category:Tutorials.md)
+[Category:Path](Category:Path.md) [Category:Mesh](Category:Mesh.md) [Category:Tutorials](Category:Tutorials.md)

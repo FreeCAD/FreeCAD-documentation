@@ -1,5 +1,12 @@
 ---
-- GuiCommand:/it   Name:FEM ConstraintContact   Name/it:Vincolo contatto   MenuLocation:Modello → Vincoli meccanici → Vincolo contatto   |Workbenches:[Shortcut:   SeeAlso:[[FEM_tutorial/it|Tutorial di FEM](FEM_Module/it___FEM]].md)---
+- GuiCommand:/it
+   Name:FEM ConstraintContact
+   Name/it:Vincolo contatto
+   MenuLocation:Modello → Vincoli meccanici → Vincolo contatto
+   Workbenches:[FEM](FEM_Workbench/it.md)
+   Shortcut:
+   SeeAlso:[Tutorial di FEM](FEM_tutorial/it.md)
+---
 
 
 </div>

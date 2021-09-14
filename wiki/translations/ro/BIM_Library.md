@@ -65,4 +65,4 @@ Instrumentul Bibliotecă vă permite să plasați, în modelul curent, un obiect
 
  
 
-[Category:BIM{{\#translation:}}](Category:BIM.md)
+[Category:BIM](Category:BIM.md)

@@ -1,3 +1,5 @@
+# Online Help Startpage/de
+
  
 
 ![150](images/Crystal_Clear_app_tutorials.png )
@@ -20,4 +22,4 @@ Wie Sie vielleicht mitbekommen haben, sind Programmierer schlechte Autoren für 
 
 
 
-[Category:User\_Documentation{{\#translation:}}](Category:User_Documentation.md)
+[Category:User\_Documentation](Category:User_Documentation.md)

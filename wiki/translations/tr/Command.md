@@ -1,3 +1,5 @@
+# Command/tr
+
 
 
 ## Introduction
@@ -137,4 +139,4 @@ See [Line drawing function](Line_drawing_function.md).
 
 }}
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Python Code{{\#translation:}}](Category:Python_Code.md) [Category:Glossary{{\#translation:}}](Category:Glossary.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md) [Category:Glossary](Category:Glossary.md)

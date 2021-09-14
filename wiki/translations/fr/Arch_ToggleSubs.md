@@ -3,23 +3,14 @@
    Name:Arch ToggleSubcomponentDisplay‏‎
    Name/fr:Arch Bascule des sous composants
    MenuLocation:Arch → Utilitaires → Activer/désactiver sous composants
-   Workbenches:[Arch](Arch_Module/fr.md)
+   Workbenches:[Arch](Arch_Workbench/fr.md)
    Shortcut:‏‎Ctrl + Espace
    SeeAlso:[Arch Composants](Arch_Component/fr.md)
 ---
 
-
-</div>
-
 ## Description
 
-
-<div class="mw-translate-fuzzy">
-
-Cet outil commande la visibilité Afficher/Cacher de toutes les soustraction d\'un objet [Arch](Arch_Module/fr.md).
-
-
-</div>
+Cet outil permet de faire basculer la visibilité de toutes les soustractions d\'un objet [Arch](Arch_Workbench/fr.md) entre visible et caché.
 
 Normalement, si un objet Arch, comme un [Arch Mur](Arch_Wall/fr.md), est sélectionné et que vous appuyez sur la touche **Espace**, seul le mur externe sera masqué ou rendu visible, mais pas les objets internes.
 
@@ -38,13 +29,7 @@ La couleur d\'un élément de soustraction peut suivre le style des éléments [
 Le style de [Draft Basculer en mode construction](Draft_ToggleConstructionMode/fr.md) peut être défini dans les [Draft Préférences](Draft_Preferences/fr.md) dans le menu **Préférences → Draft → Paramètres généraux**.
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
  

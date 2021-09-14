@@ -1,3 +1,5 @@
+# Draft DAT/pl
+
 
 
 
@@ -16,4 +18,4 @@ Istnieje wiele różnych dialektów tego formatu, więc ten moduł importujący 
 
  
 
-[Category:File Formats{{\#translation:}}](Category:File_Formats.md)
+[Category:File Formats](Category:File_Formats.md)

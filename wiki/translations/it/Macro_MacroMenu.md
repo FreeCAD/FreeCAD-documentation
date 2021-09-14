@@ -1,3 +1,5 @@
+# Macro MacroMenu/it
+
  {{Macro/it
 |Name=Macro MacroMenu
 |Icon=Macro_MacroMenu.png
@@ -15,7 +17,7 @@
 
 ## Description
 
-Questo codice era compreso nel [Modulo Draft](Draft_Module/it.md), ma è stato tolto, vedere [issue \#490](http://freecadweb.org/tracker/view.php?id=490).
+Questo codice era compreso nel [Modulo Draft](Draft_Workbench/it.md), ma è stato tolto, vedere [issue \#490](http://freecadweb.org/tracker/view.php?id=490).
 
 
 </div>

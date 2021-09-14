@@ -1,3 +1,5 @@
+# Manual:Summary/it
+
 Questo è il sommario utilizzato per la costruzione automatica del **Manuale di FreeCAD**.
 
 C\'è un altro indice per il [Sommario della **Guida in linea**](Online_Help_Toc/it.md).
@@ -57,4 +59,4 @@ C\'è un altro indice per il [Sommario della **Guida in linea**](Online_Help_Toc
 
 
 
-[Category:Manual{{\#translation:}}](Category:Manual.md)
+[Category:Manual](Category:Manual.md)

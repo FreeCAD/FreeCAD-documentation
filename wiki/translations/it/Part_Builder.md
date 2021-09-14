@@ -120,7 +120,7 @@ Un possibile flusso di lavoro potrebbe essere:
 -   Creare un \"Shell da facce\"
 -   Creare un \"Solido da shell\"
 
-Nell\'ambiente [Draft](Draft_Module/it.md) sono disponibili gli strumenti **<img src="images/Draft_Upgrade.png" width=16px> [Promuovi](Draft_Upgrade/it.md)** e **<img src="images/Draft_Downgrade.png" width=16px> [Declassa](Draft_Downgrade/it.md)** che permettono di lavorare sulla composizione e scomposizione delle forme.
+Nell\'ambiente [Draft](Draft_Workbench/it.md) sono disponibili gli strumenti **<img src="images/Draft_Upgrade.png" width=16px> [Promuovi](Draft_Upgrade/it.md)** e **<img src="images/Draft_Downgrade.png" width=16px> [Declassa](Draft_Downgrade/it.md)** che permettono di lavorare sulla composizione e scomposizione delle forme.
 
 
 </div>

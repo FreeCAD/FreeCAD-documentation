@@ -1,3 +1,5 @@
+# Macro HiddenAlls
+
   {{Macro
 |Name=Macro HiddenAlls
 |Icon=Macro_HiddenAlls.png
@@ -16,7 +18,7 @@ This macro hidden all objects in the document (Visibility False).
 
 ## Script
 
- ToolBar Icon <img alt="" src=images/Macro_HiddenAlls.png  style="width:64px;">
+ToolBar Icon  <img alt="" src=images/Macro_HiddenAlls.png  style="width:64px;">
 
 **Macro\_HidenAlls.FCMacro**
 

@@ -1,3 +1,5 @@
+# Release process
+
 
 {{VeryImportantMessage|'''<big>NOTE: 
 1) THIS PAGE NEEDS TO BE ADAPTED TO FREECAD <br/>

@@ -3,7 +3,7 @@
    Name:Draft ShapeString
    Name/de:Entwurf FormZeichenfolge
    MenuLocation:Entwurf → Form aus Text ...
-   Workbenches:[Entwurf](Draft_Module/de.md), [Architektur](Arch_Module/de.md)
+   Workbenches:[Entwurf](Draft_Workbench/de.md), [Architektur](Arch_Workbench/de.md)
    Shortcut:**S** **S**
    Version:0.14
    SeeAlso:[Entwurf Text](Draft_Text/de.md), [Part Extrudieren](Part_Extrude/de.md),

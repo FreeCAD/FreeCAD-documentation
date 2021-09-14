@@ -1,3 +1,5 @@
+# Path scripting/fr
+
 
 
 
@@ -212,17 +214,9 @@ Path contient aussi une propriété de Placement. Changer la valeur de ce placem
 
 Néanmoins, Path Compounds peut utiliser le Placement de ses enfants (voir ci-dessous).
 
-
-<div class="mw-translate-fuzzy">
-
 ## Objets Tool et Tooltable 
 
 **REMARQUE :** Ce type d\'utilisation des outils est déprécié à partir de la version officielle 0.19. Dans la version 0.19, le nouveau système d\'outils ToolBit a été mis en place pour remplacer cet ancien système. Par conséquent, le codage a changé par rapport à ce qui est représenté ci-dessous. Veuillez consulter la page [Path Outils](Path_Tools/fr.md) pour plus d\'informations.
-
-
-</div>
-
-**NOTE:** This type of tool usage is depreciated as of the 0.19 official release. In 0.19 the new ToolBit tool system was implemented to supersede this older, Legacy, system. Therefore, coding has changed from what is represented below. Please visit [Path Tools](Path_Tools.md) page for more information.
 
 ===Script \<= 0.18===
 
@@ -423,13 +417,7 @@ Les pré- et post-traitements travaillent exactement de la même manière. Ils f
 
 Cet exemple est basé sur une [discussion sur le forum germanophone](https://forum.freecadweb.org/viewtopic.php?f=13&t=33310&p=279991#p279959).
 
-
-<div class="mw-translate-fuzzy">
-
 ### Prérequis
-
-
-</div>
 
 -   Créer un solide avec ShapeString comme Cutout
 -   Créer un travail en utilisant ce solide comme son BaseObject
@@ -459,4 +447,4 @@ doc.recompute()
 
 }} {{Powerdocnavi}}
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Python Code{{\#translation:}}](Category:Python_Code.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)

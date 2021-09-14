@@ -1,3 +1,5 @@
+# Macro Align Object to View/en
+
  {{Macro
 |Name=Macro Align Object to View
 |Icon=Macro_Align_Object_to_View.png

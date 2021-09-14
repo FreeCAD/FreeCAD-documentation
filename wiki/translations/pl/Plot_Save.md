@@ -1,27 +1,28 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Plot Save
-   MenuLocation:Plot → Save plot
-   Workbenches:[Plot](Plot_Module.md)
+   Name/pl:Wykres: Zapisz wykres
+   MenuLocation:Wykres → Zapisz wykres
+   Workbenches:[Wykres](Plot_Module/pl.md)
 ---
 
-## Description
+## Opis
 
-The standard plot module already provides a minimum tool to save plots <img alt="" src=images/Matplotlib_save_button.png  style="width:24px;">. But if you install the <img alt="" src=images/Workbench_Plot.svg  style="width:24px;"> [Plot Workbench](Plot_Workbench.md) using the [Add-on manager](Std_AddonMgr.md), a more complete tool to save the active plot will be available. With this tool you can also select the size and resolution of the output image.
+Standardowy moduł do tworzenia wykresów dostarcza już podstawowe narzędzie do zapisywania wykresów <img alt="" src=images/Matplotlib_save_button.png  style="width:24px;">. Ale jeśli zainstalujesz środowisko pracy <img alt="" src=images/Workbench_Plot.svg  style="width:24px;"> [Wykres](Plot_Workbench/pl.md) używając [Menadżera dodatków](Std_AddonMgr/pl.md), dostępne będzie bardziej kompletne narzędzie do zapisywania aktywnego wykresu. Za pomocą tego narzędzia można również wybrać rozmiar i rozdzielczość obrazu wyjściowego.
 
 <img alt="" src=images/Plot_Trigonometric_Example.png  style="width:600px;">
 
-## Usage
+## Użycie
 
-Select the plot tab that you want to save, and run this tool. Use the path selector button to show a file dialog where you can choose the file location and format.
+Wybierz kartę powierzchni, którą chcesz zapisać, i uruchom to narzędzie. Użyj przycisku wyboru ścieżki, aby wyświetlić okno dialogowe pliku, w którym można wybrać lokalizację i format pliku.
 
-![Path selection button](images/Plot_Save_Path.png‎ ) *Path selection button*
+![Path selection button](images/Plot_Save_Path.png‎ ) *Przycisk wyboru ścieżki*
 
-## Options
+## Opcje
 
--   **File path**: You can set the output image path (including format extension) inserting it at text line too.
--   **Size**: You can specify output image width and height (inches).
--   **dpi**: You can set the image resolution (Dots Per Inch). Final resolution (in pixels) will be the multiplication of width and height by dpi.
+-   **Ścieżka pliku**: Możesz ustawić ścieżkę do obrazu wyjściowego *(łącznie z rozszerzeniem dla określenia formatu)*, wstawiając ją również w linii tekstowej.
+-   **Rozmiar**: Możesz określić szerokość i wysokość obrazu wyjściowego *(w calach)*.
+-   **dpi**: Możesz ustawić rozdzielczość obrazu *(Dots Per Inch)*. Wyjściowa rozdzielczość *(w pikselach)* będzie wynikiem mnożenia szerokości i wysokości przez dpi.
 
 
 
@@ -31,4 +32,4 @@ Select the plot tab that you want to save, and run this tool. Use the path selec
 
 }} 
 
-[Category:External\_Workbenches{{\#translation:}}](Category:External_Workbenches.md) [Category:Addons{{\#translation:}}](Category:Addons.md)
+[Category:External\_Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)

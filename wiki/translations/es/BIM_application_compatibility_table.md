@@ -1,7 +1,7 @@
+# BIM application compatibility table/es
 
-{{UnfinishedDocu
 
-}}  Esta página da una visión general de cómo las diferentes herramientas y conceptos que se encuentran en otras aplicaciones BIM convencionales se comparan con FreeCAD, específicamente su [BIM ambiente de trabajo](BIM_Workbench/es.md).
+  Esta página da una visión general de cómo las diferentes herramientas y conceptos que se encuentran en otras aplicaciones BIM convencionales se comparan con FreeCAD, específicamente su [BIM ambiente de trabajo](BIM_Workbench/es.md).
 
 **HACER:** Añadir otras aplicaciones BIM: Allplan, Tekla, Vectorworks, BricsCAD, ¿qué más?
 
@@ -16,4 +16,4 @@
   **Agrupación de objetos en componentes reutilizables**   Los grupos de FreeCAD no pueden ser instanciados (copias independientes), pero los objetos agrupados en [compuestos](Part_Compound/es.md) o [partes de edificios](Arch_BuildingPart.md) pueden ser clonados (copias dependientes) o copiados (copias independientes).                                                                                                                                                                                                                                                                                                                                                  Los grupos de Revit pueden ser instanciados (copias dependientes).                                                                                                                                                                 Los grupos de ArchiCAD no pueden ser instanciados (copias independientes).
   **Elementos BIM estándar**                               Paredes, estructuras (vigas, columnas y forjados), ventanas (puertas y ventanas), techos, escaleras, armazones (barandillas), componentes (muebles, aparatos, etc.)                                                                                                                                                                                                                                                                                                                                                                                                                                                                    Paredes, vigas, columnas, pisos, techos, ventanas, puertas, techos, escaleras, barandas, componentes (muebles, aparatos, etc)                                                                                                      Paredes, vigas, columnas, forjados, ventanas, puertas, techos, escaleras, barandillas, muros cortina, objetos (muebles, electrodomésticos, etc)
 
-[Category:BIM{{\#translation:}}](Category:BIM.md)
+[Category:BIM](Category:BIM.md)

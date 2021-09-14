@@ -1,3 +1,5 @@
+# Draft DXF/ru
+
 
 
 
@@ -140,4 +142,4 @@ importDXF.export(objects, "/home/user/Pictures/myfile.dxf")
 
  
 
-[Category:User Documentation/ru](Category:User_Documentation/ru.md) [Category:File Formats{{\#translation:}}](Category:File_Formats.md)
+[Category:User Documentation/ru](Category:User_Documentation/ru.md) [Category:File Formats](Category:File_Formats.md)

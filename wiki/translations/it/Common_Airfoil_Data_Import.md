@@ -1,3 +1,5 @@
+# Common Airfoil Data Import/it
+
 
 
 ## Importare Dati Airfoil 
@@ -36,4 +38,4 @@ AG35
 
 
 
-[Category:User Documentation{{\#translation:}}](Category:User_Documentation.md)
+[Category:User Documentation](Category:User_Documentation.md)

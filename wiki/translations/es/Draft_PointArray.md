@@ -3,7 +3,7 @@
    Name:Draft PointArray
    Name/es:Borrador ArregloPunto
    MenuLocation:Modificación → Herramientas de  Arreglo → Arreglo Punto
-   Workbenches:[Borrador](Draft_Module/es.md), [Arquitectura](Arch_Module/es.md)
+   Workbenches:[Borrador](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
    Version:0.18
    SeeAlso:[Borrador OrthoArray](Draft_OrthoArray/es.md), [Borrador ArregloPolar](Draft_PolarArray/es.md), 
 [Borrador ArregloCircular](Draft_CircularArray/es.md), [Borrador ArregloRuta](Draft_PathArray/es.md), [Borrador ArregloEnlaceRuta](Draft_PathLinkArray/es.md), [Borrador ArregloEnlacePunto](Draft_PointLinkArray/es.md)
@@ -21,7 +21,7 @@ El comando <img alt="" src=images/Draft_PointArray.svg  style="width:24px;"> El 
 
 Ambos comandos pueden utilizarse en objetos 2D
 
-creados con el [Ambiente de Trabajo Borrador](Draft_Module/es.md) o [Ambiente de Trabajo Dibujo](Sketcher_Workbench/es.md), pero también en muchos objetos 3D como los creados con el [Ambiente de Trabajo Pieza](Part_Workbench/es.md), [Ambiente de Trabajo DiseñoPieza](PartDesign_Workbench/es.md) o [Ambiente de Trabajo Arquitectura](Arch_Workbench/es.md).
+creados con el [Ambiente de Trabajo Borrador](Draft_Workbench/es.md) o [Ambiente de Trabajo Dibujo](Sketcher_Workbench/es.md), pero también en muchos objetos 3D como los creados con el [Ambiente de Trabajo Pieza](Part_Workbench/es.md), [Ambiente de Trabajo DiseñoPieza](PartDesign_Workbench/es.md) o [Ambiente de Trabajo Arquitectura](Arch_Workbench/es.md).
 
 
 </div>

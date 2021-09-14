@@ -22,7 +22,7 @@ Si la page ne s\'affiche pas, cliquer sur l\'icône Rafraîchir <img alt="" src=
 {{docnav/fr
 |[Ouvrir un fichier SVG Drawing](Drawing_Open_SVG/fr.md)
 |[Insérer une vue dans la page Drawing](Drawing_View/fr.md)
-|[Module Drawing](Drawing_Module/fr.md)
+|[Module Drawing](Drawing_Workbench/fr.md)
 |IconL=Drawing_Open_SVG.png
 |IconC=Workbench_Drawing.svg
 |IconR=Drawing_View.png

@@ -1,3 +1,5 @@
+# Compiling/pt-br
+
  Cada sistema operacional tem sua própria página para a compilação do FreeCAD na [Documentação de ajuda on-line](Online_Help_Toc/pt-br.md).
 
   ------------------------------------------------------------ -------------------------------------------------------- -------------------------------------------------------- --------------------------------------------------------------------
@@ -48,4 +50,4 @@ Para aprender a usar o sistema de controle de revisão e contribuir com o códig
 
 
 
-[Category:Developer\_Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Developer{{\#translation:}}](Category:Developer.md)
+[Category:Developer\_Documentation](Category:Developer_Documentation.md) [Category:Developer](Category:Developer.md)

@@ -1,3 +1,5 @@
+# PartDesign Scaled/fr
+
  {{GuiCommand/fr
 |Name=PartDesign_Scaled
 |Name/fr=PartDesign Mise à l'échelle

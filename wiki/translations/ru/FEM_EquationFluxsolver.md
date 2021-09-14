@@ -1,33 +1,3 @@
----
-- GuiCommand:/ru
-   Name:FEM EquationFluxsolver
-   Name/ru:FEM EquationFluxsolver
-   Icon:Fem-equation-fluxsolver.svg
-   MenuLocation: Solve → Equation fluxsolver
-   Workbenches:[FEM](FEM_Workbench/ru.md)
-   Shortcut:
-   SeeAlso:[FEM tutorial](FEM_tutorial/ru.md)
----
+# FEM EquationFluxsolver/ru
 
-
-</div>
-
-## Описание
-
-ToDo
-
-## Использование
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
-
-
-{{FEM Tools navi
-
-}}  
+1.  REDIRECT [FEM\_EquationFlux/ru](FEM_EquationFlux/ru.md)

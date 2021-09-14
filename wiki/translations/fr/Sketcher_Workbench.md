@@ -1,3 +1,5 @@
+# Sketcher Workbench/fr
+
 
 
 
@@ -25,7 +27,7 @@ Pour décrire comment fonctionne l\'atelier Sketcher, il est utile de le compare
 
 #### Dessin traditionnel 
 
-La méthode traditionnelle de la [DAO](:wikipedia:fr:Dessin_assisté_par_ordinateur.md) hérite de la technique de la [planche à dessin](:wikipedia:fr:Planche_à_dessin.md). Des [vues orthogonales](:wikipedia:fr:Dessin_technique.md) sont dessinées manuellement afin de produire des dessins techniques (aussi appelés plans). Les éléments sont dessinées précisément à leur taille réelle (ou à l\'échelle). Si vous voulez dessiner une ligne horizontale de 100mm de longueur débutant aux coordonnées (0,0), il faut activer l\'outil ligne, cliquer à l\'écran ou saisir au clavier les coordonnées du premier point, puis faire une second clic ou saisir les coordonnées du second point, soit (0,100). Ou encore, vous pouvez dessiner la ligne sans vous soucier de sa position, pour la déplacer ensuite. Lorsque vous avez terminé votre dessin, vous ajoutez les cotes.
+La méthode traditionnelle de la DAO hérite de la technique de la [planche à dessin](https://fr.wikipedia.org/wiki/Planche_%C3%A0_dessin.md). Des [vues orthogonales](https://en.wikipedia.org/wiki/Multiview_orthographic_projection.md) sont dessinées manuellement afin de produire des dessins techniques (aussi appelés plans). Les éléments sont dessinées précisément à leur taille réelle (ou à l\'échelle). Si vous voulez dessiner une ligne horizontale de 100mm de longueur débutant aux coordonnées (0,0), il faut activer l\'outil ligne, cliquer à l\'écran ou saisir au clavier les coordonnées du premier point, puis faire une second clic ou saisir les coordonnées du second point, soit (0,100). Ou encore, vous pouvez dessiner la ligne sans vous soucier de sa position, pour la déplacer ensuite. Lorsque vous avez terminé votre dessin, vous ajoutez les cotes.
 
 #### L\'esquisse contrainte 
 
@@ -33,7 +35,7 @@ Le **Sketcher** s\'éloigne de cette logique. Les objets n\'ont pas à être des
 
 #### Que sont les contraintes ? 
 
-Les contraintes sont utilisées pour limiter les degrés de liberté d\'un objet. Par exemple, une ligne sans contrainte a 4 [degrés de liberté](#Degrees_Of_Freedom.md) (abréviation française \"DDL\" et anglaise \"DOF\") : elle peut être déplacée horizontalement ou verticalement, étirée, subir une rotation.
+Les contraintes sont utilisées pour limiter les degrés de liberté d\'un objet. Par exemple, une ligne sans contrainte a 4 degrés de liberté (abréviation française \"DDL\" et anglaise \"DOF\") : elle peut être déplacée horizontalement ou verticalement, étirée, subir une rotation.
 
 L\'application d\'une contrainte horizontale ou verticale, ou une contrainte d\'angle (par rapport à une autre ligne ou à l\'un des axes), limite la capacité de rotation, la laissant ainsi avec 3 degrés de liberté.
 Le verrouillage d\'un de ses points par rapport à l\'origine va encore supprimer 2 degrés de liberté.
@@ -43,7 +45,7 @@ De nombreux objets peuvent être contraints entre eux. Deux lignes peuvent être
 
 Il existe deux types de contraintes : **géométriques** et **dimensionnelles**. Elles sont détaillées dans la section [\'Les outils\'](#Les_outils.md) ci-dessous.
 
-#### L\'usage approprié du Sketcher 
+#### Ce pour quoi le Sketcher n\'est pas bon 
 
 Le **Sketcher** n\'est pas destiné à la réalisation de plans 2D. Une fois que le croquis a été utilisé pour générer un solide, il est automatiquement caché. Les contraintes sont uniquement visibles en mode édition.
 
@@ -253,7 +255,7 @@ Les outils suivants peuvent être utilisés pour modifier l\'effet des contraint
 
 -   <img alt="" src=images/Sketcher_RectangularArray.svg  style="width:32px;"> [Matrice rectangulaire](Sketcher_RectangularArray/fr.md) : crée une matrice à partir des éléments sélectionnés.
 
--   <img alt="" src=images/Sketcher_RemoveAxesAlignment.svg  style="width:32px;"> [Supprimer l\'alignement des axes](Sketcher_RemoveAxesAlignment/fr.md) : supprime l\'alignement des axes tout en essayant de préserver la relation de contrainte de la sélection {{Version/fr|0.20}}.
+-   <img alt="" src=images/Sketcher_RemoveAxesAlignment.svg  style="width:32px;"> [Supprimer l\'alignement des axes](Sketcher_RemoveAxesAlignment/fr.md) : supprime l\'alignement des axes tout en essayant de préserver la relation de contrainte de la sélection. {{Version/fr|0.20}}.
 
 -   <img alt="" src=images/Sketcher_DeleteAllGeometry.svg  style="width:32px;"> [Supprimer toute la géométrie](Sketcher_DeleteAllGeometry/fr.md): Supprime toute la géométrie de l\'esquisse.
 
@@ -291,7 +293,7 @@ Les outils suivants peuvent être utilisés pour modifier l\'effet des contraint
 
 ## Bonnes pratiques 
 
-Chaque utilisateur de **CAO** développe sa propre philosophie au cours de son travail, mais il y a quelques principes généraux utiles à suivre.
+Chaque utilisateur de **DAO** développe sa propre philosophie au cours de son travail, mais il y a quelques principes généraux utiles à suivre.
 
 -   Une série d\'esquisses simples est plus facile à gérer qu\'une seule esquisse complexe. Par exemple, la première esquisse peut être créée pour la fonction de base 3D (soit une extrusion ou une révolution), tandis que la seconde peut contenir des découpes ou des cavités (poches). Certains détails peuvent être laissés de côté pour être réalisés plus tard avec des fonctions 3D. Vous pouvez aussi éviter les congés dans votre croquis, s\'il y en a un trop grand nombre et les ajouter plus tard en tant que fonctions 3D.
 
@@ -329,4 +331,4 @@ La page [Sketcher : Ecrire des scripts](Sketcher_scripting/fr.md) contient des e
 
 }} 
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

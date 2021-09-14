@@ -1,3 +1,5 @@
+# Navigation Cube/hr
+
 
 
 
@@ -90,4 +92,4 @@ For more advanced configuration, refer to the [CubeMenu](Interface_Customization
 
 
 
-[Category:User Documentation{{\#translation:}}](Category:User_Documentation.md)
+[Category:User Documentation](Category:User_Documentation.md)

@@ -207,13 +207,7 @@ Dans la [Vue en arborescence](Tree_view/fr.md), le Tip du Corps est reconnue par
 
 ### Interaction avec d\'autres ateliers 
 
-
-<div class="mw-translate-fuzzy">
-
-Par défaut, des [PartDesign Fonctions](PartDesign_Feature/fr.md) à l\'intérieur d\'un Corps sont sélectionnables dans le but de modifier et d\'ajouter d\'autres fonctions avec les outils de l\'[atelier PartDesign](PartDesign_Workbench/fr.md). Néanmoins, il n\'est pas conseillé de sélectionner les fonctions individuelles pour les utiliser avec des outils d\'autres ateliers, tels que l\'[atelier Part](Part_Workbench/fr.md) et [atelier Draft](Draft_Workbench/fr.md), des résultats inattendus peuvent apparaitre. Si cela est fait, dans la [Vue rapport](Report_view/fr.md), un message d\'erreur peut apparaître, **Links go out of the allowed scope** (Les liens sortent du champ d\'application autorisé).
-
-
-</div>
+Par défaut, des [PartDesign Fonctions](PartDesign_Feature/fr.md) à l\'intérieur d\'un Corps sont sélectionnables dans le but de modifier et d\'ajouter d\'autres fonctions avec les outils de l\'[atelier PartDesign](PartDesign_Workbench/fr.md). Néanmoins, il n\'est pas conseillé de sélectionner les fonctions individuelles pour les utiliser avec des outils d\'autres ateliers, tels que l\'[atelier Part](Part_Workbench/fr.md) et l\'[atelier Draft](Draft_Workbench/fr.md), des résultats inattendus peuvent apparaitre. Si cela est fait, dans la [Vue rapport](Report_view/fr.md), un message d\'erreur peut apparaître, **Links go out of the allowed scope** (Les liens sortent du champ d\'application autorisé).
 
 Par conséquent, pour les interactions avec d\'autres ateliers, seul le Corps lui-même doit être sélectionné dans la [Vue en arborescence](Tree_view/fr.md). Dans les cas où il est nécessaire de sélectionner des sous-éléments spécifiques du Corps (sommets, arêtes et faces), la propriété {{PropertyView/fr|Display Mode Body}} du Corps doit être basculée sur `Tip`. Lorsque ce mode est activé, l\'accès aux objets sous le Corps ([PartDesign Fonctions](PartDesign_Feature/fr.md), les références (datum), [esquisses](Sketch/fr.md)) sont désactivées et tout sauf le [Tip](PartDesign_Body/fr#Tip_.28fonction_r.C3.A9sultante.29.md) du Corps sera caché dans la [Vue 3D](3D_view/fr.md).
 
@@ -236,7 +230,7 @@ Plusieurs [Esquisses](Sketch/fr.md) peuvent être visibles à la fois mais une s
 
 Les [PartDesign Fonctions](PartDesign_Feature.md), tout comme les [objets planaires](Part_Part2DObject/fr.md), peuvent être ancrées à différents plans, généralement les plans standard définis par l\'[Origine](PartDesign_Body/fr#Origine.md) du Corps ou à des [PartDesign Plans de référence](PartDesign_Plane/fr.md) personnalisés.
 
-Les [esquisses](Sketch/fr.md) sont normalement ancrées à un plan lors de leur création. De la même manière, les [PartDesign Primitives additives](PartDesign_CompPrimitiveAdditive/fr.md) peuvent également être ancrées. Ancrer ces objets à un plan permet de les déplacer dans le Corps en modifiant leur propriété {{PropertyData/fr|Attachment Offset}}. Pour plus d\'informations sur les modes d\'ancrage, voir [Part Ancrage](Part_Attachment/fr.md).
+Les [esquisses](Sketch/fr.md) sont normalement ancrées à un plan lors de leur création. De la même manière, les [PartDesign Primitives additives](PartDesign_CompPrimitiveAdditive/fr.md) peuvent également être ancrées. Ancrer ces objets à un plan permet de les déplacer dans le Corps en modifiant leur propriété {{PropertyData/fr|Attachment Offset}}. Pour plus d\'informations sur les modes d\'ancrage, voir [Part Ancrage](Part_EditAttachment/fr.md).
 
 Une [PartDesign Fonctionnalité (feature)](PartDesign_Feature/fr.md) qui n\'est pas ancrée sera affichée avec un symbole de superposition rouge à côté de son icône dans la [Vue en arborescence](Tree_view/fr.md).
 

@@ -1,3 +1,5 @@
+# Draft SVG/pt-br
+
 
 
 
@@ -10,7 +12,7 @@
 {{docnav
 |[Autodesk .DXF .DWG](Draft_DXF/pt-br.md)
 |[Open Cad formato .OCA](Draft_OCA/pt-br.md)
-|[Draft Module](Draft_Module/pt-br.md)
+|[Draft Module](Draft_Workbench/pt-br.md)
 |IconC=Workbench_Draft.svg
 }}
 
@@ -99,7 +101,7 @@ importSVG.export(objects, "/home/user/Pictures/myfile.svg")
 {{docnav
 |[Autodesk .DXF .DWG](Draft_DXF/pt-br.md)
 |[Open Cad formato .OCA](Draft_OCA/pt-br.md)
-|[Draft Module](Draft_Module/pt-br.md)
+|[Draft Module](Draft_Workbench/pt-br.md)
 |IconC=Workbench_Draft.svg
 }}
 
@@ -109,4 +111,4 @@ importSVG.export(objects, "/home/user/Pictures/myfile.svg")
 
  
 
-[Category:File Formats{{\#translation:}}](Category:File_Formats.md)
+[Category:File Formats](Category:File_Formats.md)

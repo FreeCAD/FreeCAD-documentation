@@ -1,8 +1,8 @@
 ---
 - GuiCommand:/ru
-   Name:Spreadsheet StyleItalic
    Name/ru:Курсивный текст
-   MenuLocation:Spreadsheet → Styles → Курсивный текст
+   Name:Spreadsheet_StyleItalic
+   MenuLocation:Электронная таблица → Styles → Курсивный текст
    Workbenches:[Spreadsheet](Spreadsheet_Workbench/ru.md)
    Version:0.17
 ---

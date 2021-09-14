@@ -1,3 +1,5 @@
+# Macro If Selected Stay If Not Then Delete/fr
+
  {{Macro/fr
 |Name=Macro If Selected Stay If Not Then Delete
 |Icon=Macro_If_Selected_Stay_If_Not_Then_Delete.png

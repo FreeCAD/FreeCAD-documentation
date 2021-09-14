@@ -1,5 +1,12 @@
 ---
-- GuiCommand:/ro   Name:Arch ToggleIfcBrepFlag   Name/ro:Arch ToggleIfcBrepFlag   Workbenches:[[Arch Module/ro   Arch]]|MenuLocation:Arch → Utilities → Toggle Ifc Brep flag   Shortcut:   SeeAlso:---
+- GuiCommand:/ro
+   Name:Arch ToggleIfcBrepFlag
+   Name/ro:Arch ToggleIfcBrepFlag
+   MenuLocation:Arch → Utilities → Toggle Ifc Brep flag
+   Workbenches:[Arch](Arch_Workbench/ro.md)
+   Shortcut:
+   SeeAlso:
+---
 
 
 </div>

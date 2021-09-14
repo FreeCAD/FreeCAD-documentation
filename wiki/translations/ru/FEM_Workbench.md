@@ -1,3 +1,5 @@
+# FEM Workbench/ru
+
 
 
 
@@ -10,13 +12,7 @@
 
 ## Введение
 
-
-<div class="mw-translate-fuzzy">
-
-[Верстак FEM](FEM_Module/ru.md) предоставляет современный набор инструментов для анализа [Методом Конечных Элементов](https://en.wikipedia.org/wiki/Метод_конечных_элементов) (finite element analysis, FEA) в FreeCAD. В основном это означает, что все инструменты для проведения анализа объединены в один графический интерфейс пользователя (GUI).
-
-
-</div>
+[Верстак FEM](FEM_Workbench/ru.md) предоставляет современный набор инструментов для анализа [Методом Конечных Элементов](https://en.wikipedia.org/wiki/Метод_конечных_элементов) (finite element analysis, FEA) в FreeCAD. В основном это означает, что все инструменты для проведения анализа объединены в один графический интерфейс пользователя (GUI).
 
 <img alt="" src=images/FemWorkbench.jpg  style="width:300px;">
 
@@ -283,4 +279,4 @@ Many video tutorials: [anisim Open Source Engineering Software](https://www.yout
 
 }} 
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

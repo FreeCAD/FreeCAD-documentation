@@ -48,4 +48,4 @@ Cuando se carga, el fichero es **incorporado** al proyecto actual (que debe esta
 
 }}  
 
-[Category:File\_Formats{{\#translation:}}](Category:File_Formats.md)
+[Category:File\_Formats](Category:File_Formats.md)

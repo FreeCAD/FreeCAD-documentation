@@ -1,78 +1,80 @@
-  {{UnfinishedDocu}}
+# POV-Ray-Rendering Workbench
 
-<img alt="POV-Ray-Rendering External workbench icon" src=images/POV-Ray-Rendering_workbench_icon.svg  style="width:128px;">
+ 
+
+<img alt="POV-Ray-Rendering Workbench icon" src=images/POV-Ray-Rendering_workbench_icon.svg  style="width:128px;">
+
+ 
 
 ## Introduction
 
+The POV-Ray-Rendering Workbench is an [external workbench](External_workbenches.md) built to make rendering easy but it also offers options for advanced users. The workbench uses the [POV-Ray](http://www.povray.org/) renderer.
 
-{{TOCright}}
-
-The POV-Ray-Rendering Workbench is an [external workbench](external_workbenches.md) which is built to create renderings easily but also offering advanced options for advanced users.
-
-![](images/POV-Ray-Rendering_Example.png )
+ <img alt="" src=images/POV-Ray-Rendering_Example.png  style="width:600px;"> 
 
 ## Features
 
-### Applying Textures 
+### Applying textures 
 
-There are more than 100 predefined textures you can apply easily or define your own materials.
+There are more than 100 predefined textures you can apply, but you can also define your own textures.
 
-![](images/POV-Ray-Rendering_Textures.png )
+ <img alt="" src=images/POV-Ray-Rendering_Textures.png  style="width:600px;"> 
 
-#### Thumbnails and Live Preview 
+#### Thumbnails and live preview 
 
-You can check the appearance of the material/texture with the pre-rendered thumbnails of the textures. If you want to see the impact of changed options of the texture, you can use the live preview that renders the chosen texture and the options to fine tune the material.
+To see the impact of the selected texture options you can check the pre-rendered thumbnail or use the live preview to render the texture.
 
-### Lightning
+### Lighting
 
-With the three light types area light, point light, spot light and their different options, you can create advanced lightnings to create the convenient atmosphere of the picture.
+With the three light types: area light, point light and spot light, and their different options, you can create advanced lighting.
 
-![](images/POV-Ray-Rendering_Lights.png )
+ <img alt="" src=images/POV-Ray-Rendering_Lights.png  style="width:600px;"> 
 
-#### Indirect Lightning (GI) 
+#### Indirect lighting (GI) 
 
-The workbench has the option to enable indirect lightning to create more realistic images.
+The workbench has the option to enable indirect lighting to create more realistic images.
 
-![](images/POV-Ray-Rendering_IndirectLightning.png )
+ <img alt="" src=images/POV-Ray-Rendering_IndirectLighting.png  style="width:600px;"> 
 
-### HDRI Environments 
+### HDRI environments 
 
-With the support for HDRI environments, beautiful environments are simple to use:
+With support for HDRI environments, beautiful environments are simple to use.
 
-![](images/POV-Ray-Rendering_HDRI.png )
+ <img alt="" src=images/POV-Ray-Rendering_HDRI.png  style="width:600px;"> 
 
-### User Inc File 
+### User inc file 
 
-The user has the option to use an extra file what offers the option to use *all* options of the renderer. For more details, checkout our wiki: [Power User](https://gitlab.com/usbhub/exporttopovray/-/blob/master/doc/PowerUser.md)
+Power users who want access to *all* options of the [POV-Ray](http://www.povray.org/) renderer can do so by creating a special file. For more details see the [Power User](https://gitlab.com/usbhub/exporttopovray/-/blob/master/doc/PowerUser.md) page on our Wiki.
 
 ## Usage
 
-It\'s a lot easier to watch this simple demo of the workbench instead of describing it:
+Here is a simple demonstration of the workbench:
 
-![](images/POV-Ray-Rendering_Demo.gif )
+ ![](images/POV-Ray-Rendering_Demo.gif ) 
 
-There are many more options in the other tabs you can explore by yourself, or look into our wiki: [Workbench Wiki](https://gitlab.com/usbhub/exporttopovray/-/tree/master/doc)
+There are many more options on the other tabs, please explore them yourself, or you can visit our Wiki: [Workbench Wiki](https://gitlab.com/usbhub/exporttopovray/-/tree/master/doc)
 
 ## Installation
 
-This workbench can be easily installed and updated from the <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Addon_Manager.md) available in <small>(v0/17)</small> . This workbench is part of FreeCAD\'s [External workbenches](External_workbenches.md). After the workbench is installed, the renderer in the background, POV-Ray, must be installed. How to do this is described here: <http://wiki.povray.org/content/HowTo:Install_POV>
+This workbench can be installed and updated from the <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md). The [POV-Ray](http://www.povray.org/) renderer used by the workbench has to be installed separately. See [Install POV](http://wiki.povray.org/content/HowTo:Install_POV).
 
-Finally the path to the POV-Ray installation has to be defined in the workbench settings:
+To complete the installation the path to the POV-Ray executable has to be defined in the workbench preferences:
 
-![](images/POV-Ray-Rendering_ExePath.png )
+ <img alt="" src=images/POV-Ray-Rendering_ExePath.png  style="width:600px;"> 
 
 ## Tools
 
-Almost every setting, except the settings of the light objects, is done in the dialog, so there are not many commands:
+-   <img alt="" src=images/POV-Ray-Rendering_OpenDialog.svg  style="width:32px;"> OpenDialog: Opens the dialog where most of the work is done. Here you can apply textures, add HDRI environments, etc. and start the rendering.
 
--   <img alt="" src=images/POV-Ray-Rendering_OpenDialog.svg  style="width:32px;"> [OpenDialog](POV-Ray-Rendering_Dialog.md): Open the Dialog where you can apply textures, add HDRI environments, etc. and start the rendering
--   <img alt="" src=images/POV-Ray-Rendering_PointLight.svg  style="width:32px;"> [Point Light](POV-Ray-Rendering_Dialog.md): Insert a Point Light
--   <img alt="" src=images/POV-Ray-Rendering_AreaLight.svg  style="width:32px;"> [Area Light](POV-Ray-Rendering_Dialog.md): Insert an Area Light
--   <img alt="" src=images/POV-Ray-Rendering_SpotLight.svg  style="width:32px;"> [Spot Light](POV-Ray-Rendering_Dialog.md): Insert a Spot Light
+-   <img alt="" src=images/POV-Ray-Rendering_PointLight.svg  style="width:32px;"> Point Light: Inserts a Point Light.
+
+-   <img alt="" src=images/POV-Ray-Rendering_AreaLight.svg  style="width:32px;"> Area Light: Inserts an Area Light.
+
+-   <img alt="" src=images/POV-Ray-Rendering_SpotLight.svg  style="width:32px;"> Spot Light: Inserts a Spot Light.
 
 ## References
 
--   Authors
+-   Authors:
     -   Usb Hub: <https://gitlab.com/usbhub>
     -   DerUhrmacher: <https://gitlab.com/DerUhrmacher>
 -   Source code on GitHub: <https://github.com/TheRaytracers/freecad-povray-render>
@@ -80,14 +82,13 @@ Almost every setting, except the settings of the light objects, is done in the d
 ## Links to POV-Ray Workbench 
 
 -   Workbench Wiki: <https://gitlab.com/usbhub/exporttopovray/-/tree/master/doc>
--   FreeCAD Wiki: XXX
 -   FreeCAD Forum: <https://forum.freecadweb.org/viewtopic.php?f=9&t=48629>
--   Report bugs: Please report bugs at GitHub or FreeCAD Forum
+-   Report bugs: Please report bugs at GitHub or the FreeCAD Forum
 
 ## Other useful links 
 
 -   [External workbenches](External_workbenches.md)
 
+ 
 
-
-[Category:Addons](Category:Addons.md)
+[Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)

@@ -1,3 +1,5 @@
+# Manual:Creating renderings/it
+
  
 
 
@@ -44,7 +46,7 @@ Per la produrre il rendering con PovRay e LuxRender useremo il tavolo che abbiam
 <div class="mw-translate-fuzzy">
 
 -   Il nuovo progetto ha adottato il punto di vista della vista 3D come era al momento in cui abbiamo premuto il pulsante. Possiamo cambiare la vista in qualsiasi momento, e aggiornare la posizione della vista memorizzata nel progetto Povray, premendo il pulsante <img alt="" src=images/Raytracing_ResetCamera.png  style="width:16px;"> [Reset camera](Raytracing_ResetCamera/it.md).
--   L\'ambiente Raytracing funziona nello stesso modo dell\'ambiente [Disegno](Drawing_Module/it.md): dopo aver creato una cartella di progetto, bisogna aggiungere ad essa delle **Viste** degli oggetti. Ora possiamo farlo selezionando tutti gli oggetti che compongono il tavolo, e premendo il pulsante <img alt="" src=images/Raytracing_InsertPart.png  style="width:16px;"> [Inserisci parte](Raytracing_InsertPart/it.md):
+-   L\'ambiente Raytracing funziona nello stesso modo dell\'ambiente [Disegno](Drawing_Workbench/it.md): dopo aver creato una cartella di progetto, bisogna aggiungere ad essa delle **Viste** degli oggetti. Ora possiamo farlo selezionando tutti gli oggetti che compongono il tavolo, e premendo il pulsante <img alt="" src=images/Raytracing_InsertPart.png  style="width:16px;"> [Inserisci parte](Raytracing_InsertPart/it.md):
 
 
 </div>
@@ -127,4 +129,4 @@ Per la produrre il rendering con PovRay e LuxRender useremo il tavolo che abbiam
 
 {{Raytracing Tools navi}} 
 
-[Category:Tutorials{{\#translation:}}](Category:Tutorials.md)
+[Category:Tutorials](Category:Tutorials.md)

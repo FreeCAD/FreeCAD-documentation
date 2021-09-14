@@ -1,65 +1,51 @@
 ---
 - GuiCommand:/es
-   Name/es:Arch BimServer‏‎‏‎
-   Workbenches:[Arch](Arch_Workbench/es.md)
-   MenuLocation:Arch → Utilities → BIM server
-   Shortcut:‏‎
-   SeeAlso:
+   Name:WebTools BimServer
+   Name/es:HerramientasWeb BimServer
+   MenuLocation:Herramientas Web → BIM server
+   Workbenches:[HerramientasWeb](WebTools_Workbench/es.md)
 ---
 
 
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-**Nota:** A partir de FreeCAD v0.17, esta herramienta se eliminó de Arch Workbench y ahora forma parte del [WebTools Workbench](WebTools_Workbench.md) externo que puede instalar a través del menú Herramientas → Administrador de complementos.
-
-
-</div>
+{{VeryImportantMessage|A partir de FreeCAD v0.17, esta herramienta se ha eliminado del Ambiente de trabajos Arquitectura y ahora forma parte del [Ambiente de trabajos HerramientasWeb](WebTools_Workbench/es.md) externo que puedes instalar a través del menú Herramientas → <img src="images/AddonManager.svg" width=24px>. [Administrador de complementos](Addon_manager/es.md).
+}}
 
 ## Descripción
 
-Este comando le permite interactuar con una instancia de [BIMServer](http://www.bimserver.org), abrir archivos almacenados en el servidor de Bim y guardar nuevas revisiones de esos archivos. BIMServer es un sistema de servidor de código abierto y gratuito creado para trabajar con archivos IFC. En su estado actual, permite administrar proyectos con múltiples archivos IFC y administrar revisiones. Su sistema de base de datos altamente extensible y su arquitectura de complementos también permiten diseñar herramientas avanzadas de consulta / validación y flujos de trabajo de fusión inteligente.
+Este comando permite interactuar con una instancia de [BIMServer](http://www.bimserver.org), abrir archivos almacenados en el servidor BIM y guardar nuevas revisiones de esos archivos. BIMServer es un sistema de servidor gratuito y de código abierto hecho para trabajar con archivos IFC. En su estado actual, permite gestionar proyectos con múltiples archivos IFC y gestionar las revisiones. Su sistema de base de datos altamente extensible y su arquitectura de plugins también permiten diseñar herramientas avanzadas de consulta/validación y flujos de trabajo de fusión inteligentes.
 
 Para utilizar este comando, se deben cumplir las siguientes condiciones:
 
+-   Los módulos Python **json** y **requests** deben estar instalados en tu sistema
+-   Necesitas tener acceso a una instancia de BIMServer (lee la [BIMServer documentation](https://github.com/opensourceBIM/BIMserver/wiki) para instalar un BIMServer localmente), y tener credenciales (login y contraseña) para ese servidor. En el momento de escribir esto, la versión estable de BIMServer es la 1.4, pero te recomendamos que instales una de las versiones beta 1.5.X disponibles, que instala muchos plugins automáticamente (en la versión 1.4 tienes que instalar los plugins manualmente).
+-   Todas las transferencias de archivos con el BIMServer se hacen con archivos IFC. Por lo tanto, es necesario saber trabajar con [Archivos IFC](Arch_IFC/es.md).
 
-<div class="mw-translate-fuzzy">
+## Utilización
 
--   Los módulos **json** y **requests** deben estar instalados en su sistema.
--   Debe tener acceso a una instancia de BimServer (lea la [documentación de BIMServer](https://github.com/opensourceBIM/BIMserver/wiki) para instalar un BIMServer localmente) y tener credenciales (nombre de usuario y contraseña) para ese servidor. Al momento de escribir, la versión estable de BIMServer es 1.4, pero le recomendamos que instale una de las versiones beta 1.5.X disponibles, que instala muchos complementos automáticamente (en la versión 1.4 tiene que instalar los complementos manualmente).
--   Todas las transferencias de archivos con BIMServer se realizan con archivos IFC. Por lo tanto, necesita saber cómo trabajar con [ IFC files](Arch_IFC.md).
-
-
-</div>
-
-## Usage
-
-1.  Make sure the above requirements are met, and you have access to a running BIMServer instance.
-2.  Select menu **Web Tools → <img src="images/WebTools_BimServer.svg" width=16px> [BIM Server](WebTools_BimServer.md)
+1.  Asegúrate de que se cumplen los requisitos anteriores y de que tienes acceso a una instancia de BIMServer en funcionamiento.
+2.  Selecciona el menú **Herramientas Web → <img src="images/WebTools_BimServer.svg" width=16px> [BIM Server](WebTools_BimServer/es.md)
 **
-3.  Press the **Connect** button and fill in your credential details
-4.  Once the connection to the BIMServer has been made, choose a project to work with from the **Project** drop-down box
+3.  Pulse el botón **Conectar** y rellene los datos de sus credenciales.
+4.  Una vez realizada la conexión con el BIMServer, elige un proyecto con el que trabajar en el cuadro desplegable **Proyecto**
 
-## Options
+## Opciones
 
 ![](images/Arch_Bimserver_panel.jpg )
 
--   If this is the first time you are connecting to a BIMServer from FreeCAD, press the **Connect** button, and fill in the server URL, your login (which is always an email address) and your password in the dialog box that will pop up. If you wish to log in automatically the next time you will use the BimServer command, check the **save credentials** option (your login and password are not saved by FreeCAD, only a session cookie).
--   Once FreeCAD has successfully connected to a BIMServer instance, the **Connect** button will turn to **Connected**. Click the button again to disconnect. This will also erase the stored session cookie, so you will need to enter your credentials again next time.
--   In order to delete the session cookie manually and reset everything, you can simply delete the BIMServer URL stored in **Edit → Preferences → Arch → BimServer**.
--   The **Open in browser** button will open the web interface of the BIMServer either in FreeCAD\'s internal web browser, or, if you marked that option in **Edit → Preferences → Arch → BimServer**, in an external web browser. This allows for example to create new projects, or analyze the contents stored on the BIMServer.
+-   Si es la primera vez que te conectas a un BIMServer desde FreeCAD, pulsa el botón **Conectar**\', y rellena la URL del servidor, tu login (que siempre es una dirección de correo electrónico) y tu contraseña en el cuadro de diálogo que aparecerá. Si deseas conectarte automáticamente la próxima vez que utilices el comando BimServer, marca la opción **guardar credenciales** (tu nombre de usuario y contraseña no son guardados por FreeCAD, sólo una cookie de sesión).
+-   Una vez que FreeCAD se ha conectado con éxito a una instancia de BIMServer, el botón **Conectar**\' se convertirá en **Conectado**\'. Haga clic en el botón de nuevo para desconectarse. Esto también borrará la cookie de sesión almacenada, por lo que tendrá que introducir sus credenciales de nuevo la próxima vez.
+-   Para borrar la cookie de sesión manualmente y restablecer todo, puedes simplemente borrar la URL de BIMServer almacenada en **Edición → Preferencias → Arquitectura → BimServer**.
+-   El botón **Abrir en el navegador** abrirá la interfaz web de BIMServer bien en el navegador web interno de FreeCAD, o, si has marcado esa opción en **Edición → Preferencias → Arquitectura → BimServer**, en un navegador web externo. Esto permite, por ejemplo, crear nuevos proyectos, o analizar los contenidos almacenados en el BIMServer.
 
-### Downloading revisions 
+### Descarga revisiones 
 
--   The **Project** drop-down box will show the available projects stored on the BIMServer. Choose one to see the available revisions for that project.
--   Select one revision and click **Open** to download and open the IFC file corresponding to that revision in FreeCAD.
--   When pressing the **Open** button, a dialog box will open to allow you to save the downloaded IFC file at a location of your choice before opening it. If you press **Cancel**, the file will be saved under a temporary name in the system\'s temporary directory instead.
+-   El cuadro desplegable **Proyecto** mostrará los proyectos disponibles almacenados en el BIMServer. Elija uno para ver las revisiones disponibles para ese proyecto.
+-   Selecciona una revisión y haz clic en **Abrir** para descargar y abrir el archivo IFC correspondiente a esa revisión en FreeCAD.
+-   Al pulsar el botón **Abrir**, se abrirá un cuadro de diálogo que te permitirá guardar el archivo IFC descargado en una ubicación de tu elección antes de abrirlo. Si pulsas **Cancelar**, el archivo se guardará con un nombre temporal en el directorio temporal del sistema.
 
-### Uploading revisions 
+### Carga revisiones 
 
--   If you wish to upload a new revision, make sure the right project has been selected in the **Project** drop-down box
--   Choose the **Root object** you wish to upload. It must be either an [Arch Site](Arch_Site.md) or an [Arch Building](Arch_Building.md). Only objects belonging to that root object will be uploaded.
--   Write a **Comment**, that will be the description (name) of the revision.
--   Press the **Upload** button. A dialog box will open to allow you to save the produced IFC file at a location of your choice before uploading it. If you press **Cancel**, the file will be saved under a temporary name in the system\'s temporary directory instead.
+-   Si desea cargar una nueva revisión, asegúrese de que se ha seleccionado el proyecto correcto en el cuadro desplegable **Proyecto**.
+-   Elija el **Objeto raíz**\' que desea cargar. Debe ser un [Arquitectura Site](Arch_Site/es.md) o un [Arquitectura Edificio](Arch_Building/es.md). Sólo se subirán los objetos que pertenezcan a ese objeto raíz.
+-   Escribe un **Comentario**\', que será la descripción (nombre) de la revisión.
+-   Pulse el botón **Subir**. Se abrirá un cuadro de diálogo que le permitirá guardar el archivo IFC producido en una ubicación de su elección antes de cargarlo. Si pulsa **Cancelar**, el archivo se guardará con un nombre temporal en el directorio temporal del sistema.

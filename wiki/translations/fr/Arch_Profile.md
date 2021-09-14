@@ -2,13 +2,10 @@
 - GuiCommand:/fr
    Name:Arch Profile
    Name/fr:Arch Profilé
-   Workbenches:[Arch](Arch_Module/fr.md)
    MenuLocation:Arch → Profilé
+   Workbenches:[Arch](Arch_Workbench/fr.md)
    Version:0.19
 ---
-
-
-</div>
 
 ## Description
 
@@ -94,13 +91,7 @@ Arch.makeProfile([0,'REC','REC100x100','R',100,100])
 Lorsque le premier élément de la liste est un numéro ordonné pas encore utilisé.
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
  

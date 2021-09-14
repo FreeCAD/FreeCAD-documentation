@@ -1,3 +1,5 @@
+# Bitmap/fr
+
 
 
 ## Description
@@ -15,4 +17,4 @@ FreeCAD peut importer des images bitmap à l\'aide de [l\'atelier Image](Image_W
 
 
 
-[Category:User Documentation{{\#translation:}}](Category:User_Documentation.md) [Category:TechDraw{{\#translation:}}](Category:TechDraw.md) [Category:Image{{\#translation:}}](Category:Image.md)
+[Category:User Documentation](Category:User_Documentation.md) [Category:TechDraw](Category:TechDraw.md) [Category:Image](Category:Image.md)

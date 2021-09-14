@@ -15,7 +15,7 @@
 
 Adds nonlinear mechanical material model. Currently only plasticity with simple hardening is available.
 
-## Использование
+## Применение
 
 1.  To define nonlinear mechanical material model do the following:
     -   Add the **<img src="images/Fem-add-material.svg" width=16px> [MaterialSolid](FEM_MaterialSolid.md)** first and select it.

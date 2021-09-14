@@ -29,10 +29,10 @@ The **Std MeasureDistance** command creates a distance object that measures and 
 
 ## Свойства
 
-### Data
+### Данные
 
 
-{{TitleProperty|Base}}
+{{TitleProperty|Основные}}
 
 -    **Label**: by default the label contains the measured distance, but this distance is not updated when P1 or P2 are later changed.
 
@@ -45,10 +45,10 @@ The **Std MeasureDistance** command creates a distance object that measures and 
 
 -    **Distance**: (read-only) the measured distance between P1 and P2.
 
-### View
+### Вид
 
 
-{{TitleProperty|Base}}
+{{TitleProperty|Основные}}
 
 -    **Dist Factor**: this factor, multiplied by the measured distance, determines the dimension line offset.
 

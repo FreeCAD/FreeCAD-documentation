@@ -1,3 +1,5 @@
+# Online Help Toc/ru
+
 
 
 Эта страница содержания используется для автоматического построения системы **онлайн справки** FreeCAD. Версия для печати данного руководства так же доступна на [странице релизов FreeCAD](https://github.com/FreeCAD/FreeCAD/releases). Если у Вас есть вопросы или нужна помощь с FreeCAD, пожалуйста, обратитесь к [странице помощи](Help/ru.md), включая форумы и чат-группы.
@@ -111,4 +113,4 @@
 
 
 
-[Category:Documentation{{\#translation:}}](Category:Documentation.md)
+[Category:Documentation](Category:Documentation.md)

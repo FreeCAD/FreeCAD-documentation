@@ -1,3 +1,5 @@
+# Macro Compound Plus/fr
+
  {{Macro/fr
 |Name=Macro Compound Plus
 |Description = {{ColoredText|#ff0000|#ffffff|Nouvelle interface graphique modifiée pour le HD dpi (QGridLayout) exécutez uniquement la version FC 0.19 et plus (PySide2 Qt5)}}<br/><br/> Pour la version précédente, voir [https://gist.github.com/mario52a/7be361a8c489deec918f664fdcfc4394/11ae1a55229c84d9aab4e9a36099d90f52909958 Macro_Compound_Plus 00.02] et installez-le manuellement.<br/><br/>

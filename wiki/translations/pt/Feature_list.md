@@ -1,3 +1,5 @@
+# Feature list/pt
+
  
 
 
@@ -16,10 +18,10 @@ Esta é uma lista extensiva, ainda que incompleta dos recursos que o FreeCAD dis
 
 <div class="mw-translate-fuzzy">
 
--   [Versão 0.11](Release_notes_011.md) - março 2011
--   [Versão 0.12](Release_notes_012.md) - dezembro 2011
--   [Versão 0.13](Release_notes_013.md) - janeiro 2013
--   [Versão 0.14](Release_notes_014.md) - março 2014
+-   [Versão 0.11](Release_notes_0.11.md) - março 2011
+-   [Versão 0.12](Release_notes_0.12.md) - dezembro 2011
+-   [Versão 0.13](Release_notes_0.13.md) - janeiro 2013
+-   [Versão 0.14](Release_notes_0.14.md) - março 2014
 -   [Versão 0.15](Release_notes_0.15/pt.md) - março 2015
 -   [Versão 0.16](Release_notes_0.16/pt.md) - abril 2016
 -   [Versão 0.17](Release_notes_0.17/pt.md) - abril 2018
@@ -285,4 +287,4 @@ Utilizadores avançados criaram várias [Bancadas de trabalho externas](external
 
 
 
-[Category:User Documentation{{\#translation:}}](Category:User_Documentation.md)
+[Category:User Documentation](Category:User_Documentation.md)

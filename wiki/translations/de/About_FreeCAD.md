@@ -1,3 +1,5 @@
+# About FreeCAD/de
+
  
 
 <img alt="" src=images/Freecad_default.jpg  style="width:1024px;">
@@ -8,7 +10,7 @@ FreeCAD unterstützt Werkzeuge, die mit denen von [Catia](http://de.wikipedia.or
 
 Wie bei vielen CAD Modellierern verfügt es über viele 2D Komponenten, um ebene Formen zu skizzieren oder Fertigungszeichnungen zu erstellen. Allerdings steht nicht die direkte 2D Zeichnung (wie bei [Inkscape](https://inkscape.org/) oder [AutoCAD LT](https://de.wikipedia.org/wiki/AutoCAD#AutoCAD_LT)) im Vordergrund, sondern die Animation oder das Editieren von Netzen (wie bei [Blender](https://www.blender.org/), [Maya](https://de.wikipedia.org/wiki/Maya_(Software)), [3ds Max](https://de.wikipedia.org/wiki/3ds_Max) oder [Cinema 4D](https://de.wikipedia.org/wiki/Cinema_4D)). Dank seiner großen Anpassungsfähigkeit kann FreeCAD jedoch in einem viel breiteren Bereich als dem aktuellen Fokus eingesetzt werden.
 
-FreeCAD macht umfangreichen Gebrauch von Open-Source-Bibliotheken, die im Bereich von [wissenschaftlichem Rechnen](http://de.wikipedia.org/wiki/Wissenschaftliches_Rechnen) existieren. Darunter befindet sich [Open Cascade Technology (OCCT)](http://OpenCascade.org), ein leistungsfähiger CAD-Kernel; [Coin3D](https://github.com/coin3d/coin/wiki), ein Werkzeugkasten für graphische 3D-Entwicklung kompatibel zu [OpenInventor](http://de.wikipedia.org/wiki/Open_Inventor); [Qt](http://www.qt.io/), das weltberühmte UI Framework; und [Python](http://www.python.org), eine moderne Skriptsprache. FreeCAD selbst kann auch als Bibliothek von anderen Programmen benutzt werden.
+FreeCAD macht umfangreichen Gebrauch von Open-Source-Bibliotheken, die im Bereich von [wissenschaftlichem Rechnen](http://de.wikipedia.org/wiki/Wissenschaftliches_Rechnen) existieren. Darunter befindet sich [Open Cascade Technology (OCCT)](http://OpenCascade.org), ein leistungsfähiger CAD-Kernel; [Coin3D](https://github.com/coin3d/coin/wiki), ein Werkzeugkasten für graphische 3D Entwicklung kompatibel zu [OpenInventor](http://de.wikipedia.org/wiki/Open_Inventor); [Qt](http://www.qt.io/), das weltberühmte UI Rahmenwerk; und [Python](http://www.python.org), eine moderne Skriptsprache. FreeCAD selbst kann auch als Bibliothek von anderen Programmen benutzt werden.
 
 FreeCAD ist außerdem vollständig [plattformunabhängig](http://de.wikipedia.org/wiki/Plattformunabhängigkeit), und läuft aktuell auf Linux/Unix, Windows und Mac OSX Systemen, mit gleicher Oberfläche und gleichen Funktionalitäten auf allen Plattformen.
 
@@ -26,4 +28,4 @@ FreeCAD wird von einer Gemeinschaft enthusiastischer Entwickler und Nutzer gewar
 
 
 
-[Category:User Documentation{{\#translation:}}](Category:User_Documentation.md)
+[Category:User Documentation](Category:User_Documentation.md)

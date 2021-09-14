@@ -1,3 +1,5 @@
+# Drawing
+
  
 
 ## Introduction
@@ -26,4 +28,4 @@ However, when more precision is required, the distinction must be made.
 
  {{TechDraw Tools navi}} {{Document objects navi}} 
 
-[Category:Glossary{{\#translation:}}](Category:Glossary.md)
+[Category:Glossary](Category:Glossary.md)

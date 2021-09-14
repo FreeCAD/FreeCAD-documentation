@@ -1,3 +1,5 @@
+# Feature list/zh-cn
+
  
 
 
@@ -285,4 +287,4 @@
 
 
 
-[Category:User Documentation{{\#translation:}}](Category:User_Documentation.md)
+[Category:User Documentation](Category:User_Documentation.md)

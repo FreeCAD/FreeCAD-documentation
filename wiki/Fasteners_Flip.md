@@ -44,4 +44,4 @@ Result: object will invert/flip
 
 }} 
 
-[Category:External Command Reference{{\#translation:}}](Category:External_Command_Reference.md)
+[Category:External Command Reference](Category:External_Command_Reference.md)

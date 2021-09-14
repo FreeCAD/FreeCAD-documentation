@@ -1,3 +1,5 @@
+# Reinforcement Addon
+
  
 
 ## Introduction
@@ -40,4 +42,4 @@ New workbenches are in development, stay tuned!
 
   
 
-[Category:Reinforcement{{\#translation:}}](Category:Reinforcement.md)
+[Category:Reinforcement](Category:Reinforcement.md)

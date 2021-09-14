@@ -1,3 +1,5 @@
+# Sketcher Preferences/de
+
  
 
 
@@ -250,4 +252,4 @@ In the *Colors* tab you can specify the following:
 
 }}  
 
-[Category:Preferences{{\#translation:}}](Category:Preferences.md)
+[Category:Preferences](Category:Preferences.md)

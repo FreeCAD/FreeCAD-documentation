@@ -1,3 +1,5 @@
+# Online Help Toc/zh
+
 
 
 
@@ -172,4 +174,4 @@ There is another table of contents for the [FreeCAD MANUAL](Manual:Introduction.
 
 
 
-[Category:Documentation/zh](Category:Documentation/zh.md) [Category:Documentation{{\#translation:}}](Category:Documentation.md)
+[Category:Documentation/zh](Category:Documentation/zh.md) [Category:Documentation](Category:Documentation.md)

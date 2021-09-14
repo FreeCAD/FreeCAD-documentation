@@ -1,3 +1,5 @@
+# Macro SelectVisible/it
+
  {{Macro/it
 |Name=Macro SelectVisible
 |Translate=Seleziona oggetti visibili|Description=Seleziona tutti gli oggetti visibili.

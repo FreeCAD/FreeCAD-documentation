@@ -1,9 +1,9 @@
 ---
 - GuiCommand:/pl
    Name:Plot Legend
-   Name/pl:Plot: Legenda
-   MenuLocation:Plot → Pokaz / ukryj legendę
-   Workbenches:[Plot](Plot_Module/pl.md)
+   Name/pl:Wykres: Pokaz / ukryj legendę
+   MenuLocation:Wykres → Pokaz / ukryj legendę
+   Workbenches:[Wykres](Plot_Module/pl.md)
 ---
 
 ## Opis
@@ -26,4 +26,4 @@ Pamiętaj, że style i etykiety serii danych mogą być edytowane za pomocą [na
 
 }} 
 
-[Category:External\_Workbenches{{\#translation:}}](Category:External_Workbenches.md) [Category:Addons{{\#translation:}}](Category:Addons.md)
+[Category:External\_Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)

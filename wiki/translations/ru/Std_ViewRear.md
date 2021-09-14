@@ -1,11 +1,11 @@
 ---
 - GuiCommand:/ru
-   Name:Std ViewRear
-   Name/ru:Std ViewRear
-   MenuLocation:Виды → Стандартные виды → Сзади
-   Workbenches:All
+   Name/ru:Сзади
+   Name:Std_ViewRear
+   MenuLocation:Вид → Стандартные виды‏‎ → Сзади
+   Workbenches:Все
    Shortcut:**4**
-   SeeAlso:[Std ViewBottom](Std_ViewBottom/ru.md), [Std ViewLeft](Std_ViewLeft/ru.md)
+   SeeAlso:[Снизу](Std_ViewBottom/ru.md), [Слева](Std_ViewLeft/ru.md)
 ---
 
 ## Описание
@@ -22,7 +22,7 @@ The **Std ViewRear** command points the camera in the active [3D view](3D_view.m
     -   Select the **Standard views → <img src="images/Std_ViewRear.svg" width=16px> Rear** option from the [3D view](3D_view.md) context menu.
     -   Use the keyboard shortcut: **4**.
 
-## Scripting
+## Программирование
 
 
 **Смотрите так же:**

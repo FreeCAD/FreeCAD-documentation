@@ -1,3 +1,5 @@
+# Reinforcement Addon/de
+
 
 
 ## Einleitung
@@ -41,4 +43,4 @@ Neue Arbeitsbereiche sind in Entwicklung, bleib dran!
 
  
 
-[Category:Reinforcement{{\#translation:}}](Category:Reinforcement.md)
+[Category:Reinforcement](Category:Reinforcement.md)

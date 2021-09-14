@@ -5,10 +5,8 @@
    MenuLocation: → Skizze → Skizzierer Werkzeuge → Symmetrie
    Workbenches:[Skizzierer](Sketcher_Workbench/de.md)
    Version:0.16
+   SeeAlso:[Sketcher SkizzeSpiegeln](Sketcher_MirrorSketch/de.md)
 ---
-
-
-</div>
 
 ## Beschreibung
 
@@ -23,13 +21,7 @@ Spiegelt eine Skizzen Geometrie in Bezug zu einer ausgewählten Linie oder Skizz
 Beachte, dass keine zusätzliche Symmetriebeschränkung hinzugefügt wird.
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Sketcher Tools navi

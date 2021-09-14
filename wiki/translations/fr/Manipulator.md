@@ -1,4 +1,6 @@
- {{UnfinishedDocu}}
+# Manipulator/fr
+
+ }
 
 ## Description
 
@@ -11,4 +13,4 @@ Un **manipulateur** est une poignée qui peut être utilisée pour modifier l\'a
 
 
 
-[Category:Glossary{{\#translation:}}](Category:Glossary.md)
+[Category:Glossary](Category:Glossary.md)

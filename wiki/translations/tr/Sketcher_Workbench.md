@@ -1,3 +1,5 @@
+# Sketcher Workbench/tr
+
 
 
 
@@ -32,21 +34,53 @@ Eskiz tezgahı, 2D şekillerin kesin geometrik tanımları izlemesine izin veren
 *
 Tamamen kısıtlanmış bir eskiz*
 
+## Basics of constraint sketching 
+
+
+<div class="mw-translate-fuzzy">
+
 ## Kısıtlı eskizin temelleri 
 
 Eskizin nasıl çalıştığını anlamak için, onu \"geleneksel\" taslak ile karşılaştırmak faydalı olabilir.
+
+
+</div>
+
+#### Traditional Drafting 
+
+
+<div class="mw-translate-fuzzy">
 
 #### Geleneksel Taslak 
 
 CAD taslağının geleneksel yolu eski [çizim tahtasından](http://en.wikipedia.org/wiki/Drawing_board) miras kalmıştır. [Ortogonal (2D) görünümler](http://en.wikipedia.org/wiki/Multiview_orthographic_projection) elle çizilir, teknik çizimler (aynı zamanda planlar olarak da bilinir) üretmek için tasarlanmıştır. Nesneler tam olarak istenen boyuta veya ölçülere çekilir. (0,0) \'dan başlayarak 100mm uzunluğunda yatay bir çizgi çizmek istiyorsanız, çizgi aracını etkinleştirin, ekrana tıklayın veya ilk nokta için (0,0) koordinatlarını girin, ardından ikinci bir tıklama yapın ikinci nokta koordinatlarını (100,0) girin. Veya çizginizi konumuna bakmadan çizer ve daha sonra hareket ettirirsiniz. Geometrilerinizi çizmeyi tamamladığınızda, onları ölçülendirirsiniz..
 
+
+</div>
+
+#### Constraint Sketching 
+
+
+<div class="mw-translate-fuzzy">
+
 #### Kısıtlı Eskiz 
 
 **Eskiz** bu mantıktan uzaktır. Nesnelerin tam olarak istediğiniz gibi çizilmesi gerekmez, çünkü bunlar daha sonra kısıtlamalar ile tanımlanacaktır. Nesneler gelişigüzel bir şekilde çizilebilir ve kısıtlanmadıkları sürece değiştirilebilir. \"Yüzer\" durumunda ve hareket ettirilebilir, gerilebilir, döndürülebilir, ölçeklendirilebilir vb. Bu, tasarım sürecinde büyük esneklik sağlar.
 
+
+</div>
+
+#### What are constraints? 
+
+
+<div class="mw-translate-fuzzy">
+
 #### Kısıtlama nedir 
 
 Boyutlar yerine, kısıtlamalar bir nesnenin serbestlik derecesini sınırlamak için kullanılır. Örneğin, kısıtlamaları olmayan bir çizgi 4 [Serbestlik Derecesine](#Degrees_Of_Freedom.md) (\" DOF \" olarak kısaltılır) sahiptir: yatay ya da dikey olarak hareket ettirilebilir, uzatılabilir ve döndürülebilir.
+
+
+</div>
 
 Yatay veya dikey bir sınırlama veya bir açı sınırlaması (başka bir çizgiye veya eksenlerden birine göre) uygulamak, dönme kapasitesini sınırlar ve böylece 3 serbestlik derecesine sahip olur. Çizginin herhangi bir noktasını, Orijin ile ilişkilendirmek 2 serbestlik derecesini ortadan kaldırır. Bir boyut sınırlaması uygulamak son serbestlik derecesini ortadan kaldıracaktır. Çizgi daha sonra **tamamen kısıtlı** olarak kabul edilir .
 
@@ -60,14 +94,22 @@ Birden fazla nesne aralarında sınırlandırılabilir. İki çizgi, noktaları 
 
 İki tür kısıtlama vardır: geometrik ve boyutsal. Bunlar aşağıdaki [\'Araçlar\'](#The_tools.md) bölümünde ayrıntılı olarak açıklanmaktadır .
 
+#### What the Sketcher is not good for 
+
+
+<div class="mw-translate-fuzzy">
+
 #### Eskiz nerelerde kullanılmaz 
 
 Eskiz, 2D planlar üretmek için tasarlanmamıştır. Eskizler, katı bir özellik oluşturmak için kullanıldığında, otomatik olarak gizlenir. Kısıtlamalar yalnızca Eskiz düzenleme modunda görülebilir.
 
 
+</div>
+
+
 <div class="mw-translate-fuzzy">
 
-Çıktı almak için yalnızca 2D görünümler oluşturmanız gerekiyorsa ve 3D modeller oluşturmak istemiyorsanız, [Taslak tezgahını](Draft_Module/tr.md) inceleyin.
+Çıktı almak için yalnızca 2D görünümler oluşturmanız gerekiyorsa ve 3D modeller oluşturmak istemiyorsanız, [Taslak tezgahını](Draft_Workbench/tr.md) inceleyin.
 
 
 </div>
@@ -96,9 +138,17 @@ Kapalı alanda daha küçük,alanla örtüşmeyen alanlara sahip olabiliriz. Bun
 
 Once a Sketch is fully constrained, the Sketch features will turn green; Construction Geometry will remain blue. It is usually \"finished\" at this point and suitable for use in creating a 3D solid. However, once the Sketch dialog is closed it may be worthwhile going to <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> <img src=images/Part_CheckGeometry.svg style="width:Part Workbench](Part_Workbench.md) and running **[16px"> [Check geometry](Part_CheckGeometry.md)** to ensure there are no features in the Sketch which may cause later problems.
 
+## The tools 
+
+
+<div class="mw-translate-fuzzy">
+
 ## Araçlar
 
 Eskiz Tezgahı araçlarının tümü, Eskiz Tezgahını yüklediğinizde görünen Eskiz menüsünde bulunur.
+
+
+</div>
 
 ### General
 
@@ -182,7 +232,7 @@ Eskiz Tezgahı araçlarının tümü, Eskiz Tezgahını yüklediğinizde görün
 
 </div>
 
--   <img alt="" src=images/Sketcher_StopOperation.svg  style="width:32px;"> [Stop operation](Sketcher_StopOperation.md): when in edit mode, stop the current operation, whether that is drawing, setting constraints, etc.
+-   <img alt="" src=images/Sketcher_StopOperation.svg  style="width:32px;"> [Stop operation](Sketcher_StopOperation.md): When in edit mode, stop the current operation, whether that is drawing, setting constraints, etc.
 
 ### Eskiz Geometrileri 
 
@@ -399,9 +449,17 @@ Bunlar nesne oluşturma araçlarıdır.
 
 Kısıtlamalar, uzunlukları tanımlamak, Eskiz öğeleri arasında kuralları belirlemek ve eskizleri dikey ve yatay eksenler boyunca kilitlemek için kullanılır. Bazı kısıtlamalar, [Yardımcı kısıtlamaların](Sketcher_helper_constraint.md) kullanılmasını gerektirir .
 
+#### Geometric constraints 
+
+
+<div class="mw-translate-fuzzy">
+
 #### Geometrik kısıtlamalar 
 
 Bu kısıtlamalar sayısal verilerle ilişkili değildir.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -483,7 +541,15 @@ Bu kısıtlamalar sayısal verilerle ilişkili değildir.
 
 </div>
 
+#### Dimensional constraints 
+
+
+<div class="mw-translate-fuzzy">
+
 #### Boyutsal kısıtlamalar 
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -690,7 +756,7 @@ Kenarları Bağla\]\]: Uç noktalarını çakıştırarak eskiz elemanlarını b
 
 </div>
 
--   <img alt="" src=images/Sketcher_RemoveAxesAlignment.svg  style="width:32px;"> [Remove Axes Alignment](Sketcher_RemoveAxesAlignment.md): Remove axes alignment while trying to preserve the constraint relationship of the selection <small>(v0.20)</small> 
+-   <img alt="" src=images/Sketcher_RemoveAxesAlignment.svg  style="width:32px;"> [Remove Axes Alignment](Sketcher_RemoveAxesAlignment.md): Remove axes alignment while trying to preserve the constraint relationship of the selection. <small>(v0.20)</small> 
 
 
 <div class="mw-translate-fuzzy">
@@ -786,9 +852,17 @@ Kenarları Bağla\]\]: Uç noktalarını çakıştırarak eskiz elemanlarını b
 
 </div>
 
+## Best Practices 
+
+
+<div class="mw-translate-fuzzy">
+
 ## Öneriler
 
 Her CAD kullanıcısı zaman içinde kendi çalışma tarzını geliştirir, ancak takip edilmesi gereken bazı genel prensipler vardır.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -839,4 +913,4 @@ The [Sketcher scripting](Sketcher_scripting.md) page contains examples on how to
 
 }} 
 
-[Category:Sketcher/tr](Category:Sketcher/tr.md) [Category:Workbenches/tr](Category:Workbenches/tr.md) [Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Sketcher/tr](Category:Sketcher/tr.md) [Category:Workbenches/tr](Category:Workbenches/tr.md) [Category:Workbenches](Category:Workbenches.md)

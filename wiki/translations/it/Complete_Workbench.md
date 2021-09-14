@@ -1,3 +1,5 @@
+# Complete Workbench/it
+
 
 
 
@@ -12,4 +14,4 @@ Se si vuole adattare FreeCAD alle proprie esigenze si può [personalizzare FreeC
 
 
 
-[Category:Complete{{\#translation:}}](Category:Complete.md) [Category:Obsolete Workbenches{{\#translation:}}](Category:Obsolete_Workbenches.md)
+[Category:Complete](Category:Complete.md) [Category:Obsolete Workbenches](Category:Obsolete_Workbenches.md)

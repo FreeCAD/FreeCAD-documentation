@@ -1,3 +1,5 @@
+# Path Workbench/zh-cn
+
 
 
 
@@ -210,7 +212,7 @@ Some commands are experimental and not available by default. To enable them see 
 
 -   <img alt="" src=images/Path_Slot.svg  style="width:32px;"> [Slot](Path_Slot.md): Creates a slotting operation from selected features or custom points. [**Experimental**](Path_experimental.md). <small>(v0.19)</small> 
 
--   <img alt="" src=images/Path_Engrave.svg  style="width:32px;"> [Engrave](Path_Engrave.md): Creates a engraving path.
+-   <img alt="" src=images/Path_Engrave.svg  style="width:32px;"> [Engrave](Path_Engrave.md): Creates an engraving path.
 
 
 <div class="mw-translate-fuzzy">
@@ -411,4 +413,4 @@ See [Path scripting](Path_scripting.md).
 
 }} 
 
-[分类:用户文档](Category:User_Documentation/zh-cn.md) [Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[分类:用户文档](Category:User_Documentation/zh-cn.md) [Category:Workbenches](Category:Workbenches.md)

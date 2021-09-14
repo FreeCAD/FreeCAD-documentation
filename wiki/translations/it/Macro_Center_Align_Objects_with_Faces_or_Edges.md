@@ -1,3 +1,5 @@
+# Macro Center Align Objects with Faces or Edges/it
+
  {{VeryImportantMessage|Ora questi strumenti sono inclusi nell'ambiente [Manipulator](Manipulator_Workbench/it.md). Installare questo workbench per gli ultimi aggiornamenti su questi strumenti.}}
 
 

@@ -1,3 +1,5 @@
+# TopoShape API/pl
+
  {{VeryImportantMessage/pl
 |''(listopad 2018 r.)'' Informacje te mogą być niekompletne i nieaktualne. Najnowsze API - patrz [https://www.freecadweb.org/api dokumentacja API generowana automatycznie].}}
 
@@ -228,4 +230,4 @@ Niektóre atrybuty i metody mają zastosowanie tylko do określonych Kształtów
 
  
 
-[Category:API{{\#translation:}}](Category:API.md) [Category:Poweruser Documentation{{\#translation:}}](Category:Poweruser_Documentation.md)
+[Category:API](Category:API.md) [Category:Poweruser Documentation](Category:Poweruser_Documentation.md)

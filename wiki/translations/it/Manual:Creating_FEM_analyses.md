@@ -1,3 +1,5 @@
+# Manual:Creating FEM analyses/it
+
 
 
 
@@ -17,7 +19,7 @@ FEM sta per [Finite Element Method](https://en.wikipedia.org/wiki/Finite_element
 
 <div class="mw-translate-fuzzy">
 
-In FreeCAD tale simulazione è fatta con l\'ambiente [FEM](FEM_Module/it.md). Si tratta di diverse fasi: preparare la geometria, impostare il suo materiale, eseguire la meshing, dividere in parti più piccole, come abbiamo fatto nel capitolo [Preparare gli oggetti per la stampa 3D](Manual:Preparing_models_for_3D_printing/it.md), ed infine calcolare la simulazione.
+In FreeCAD tale simulazione è fatta con l\'ambiente [FEM](FEM_Workbench/it.md). Si tratta di diverse fasi: preparare la geometria, impostare il suo materiale, eseguire la meshing, dividere in parti più piccole, come abbiamo fatto nel capitolo [Preparare gli oggetti per la stampa 3D](Manual:Preparing_models_for_3D_printing/it.md), ed infine calcolare la simulazione.
 
 
 </div>
@@ -80,7 +82,7 @@ Utilizzeremo la casa modellata nel capitolo [Modellazione BIM](Manual:BIM_modeli
 
 <div class="mw-translate-fuzzy">
 
--   Ora siamo pronti per iniziare una analisi FEM. Passare all\'ambiente [FEM](FEM_Module/it.md)
+-   Ora siamo pronti per iniziare una analisi FEM. Passare all\'ambiente [FEM](FEM_Workbench/it.md)
 -   Selezionare l\'oggetto fuso
 -   Premere il pulsante <img alt="" src=images/FEM_Analysis.png  style="width:16px;"> [Nuova analisi](FEM_Analysis/it.md)
 -   Viene creata una nuova analisi e si apre un pannello per le impostazioni. Qui è possibile definire i parametri di meshing da utilizzare per produrre la mesh FEM. L\'impostazione principale da modificare è il **Max Size** che definisce la dimensione massima (in millimetri) di ciascuna parte della mesh. Per ora, possiamo lasciare il valore predefinito di 1000:
@@ -203,7 +205,7 @@ Naturalmente, i risultati visualizzati attualmente dall\'ambiente FEM non sono s
 
 <div class="mw-translate-fuzzy">
 
--   [L\'ambiente FEM](FEM_Module/it.md)
+-   [L\'ambiente FEM](FEM_Workbench/it.md)
 -   [Installazione dei componenti richiesti da FEM](FEM_Install/it.md)
 -   [CalculiX](http://www.calculix.de)
 -   [NetGen](https://sourceforge.net/projects/netgen-mesher)

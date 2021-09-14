@@ -1,3 +1,5 @@
+# Branding/ro
+
 
 
 
@@ -146,4 +148,4 @@ Toate etichetele enumerate sunt opționale.
 
 
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md)

@@ -1,5 +1,12 @@
 ---
-- GuiCommand:/it   Name:FEM_ControlSolver   Name/it:Imposta il risolutore   MenuLocation:Soluzione → Imposta il risolutore   |Workbenches:[Shortcut:**S** **C**   SeeAlso:[[FEM_tutorial/it|Tutorial FEM](FEM_Module/it___FEM]].md)---
+- GuiCommand:/it
+   Name:FEM_ControlSolver
+   Name/it:Imposta il risolutore
+   MenuLocation:Soluzione → Imposta il risolutore
+   Workbenches:[FEM](FEM_Workbench/it.md)
+   Shortcut:**S** **C**
+   SeeAlso:[Tutorial FEM](FEM_tutorial/it.md)
+---
 
 
 </div>

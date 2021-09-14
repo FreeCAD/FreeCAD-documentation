@@ -3,13 +3,10 @@
    Name:Arch_IfcSpreadsheet
    Name/fr:Arch Tableur Ifc
    MenuLocation:Arch → Utilitaires → Créer une feuille de calcul Ifc
-   Workbenches:[Arch](Arch_Module/fr.md)
+   Workbenches:[Arch](Arch_Workbench/fr.md)
    Shortcut:**I** **P**
    SeeAlso:[Arch IFC](Arch_IFC/fr.md), [Arch Explorateur Ifc](Arch_IfcExplorer/fr.md)
 ---
-
-
-</div>
 
 ## Description
 
@@ -49,13 +46,7 @@ spreadsheet = Arch.makeIfcSpreadsheet(Wall)
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
  

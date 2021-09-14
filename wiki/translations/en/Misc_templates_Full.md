@@ -1,3 +1,5 @@
+# Misc templates Full/en
+
  These templates are completely empty cartridge (22 fields to fill) and dedicated to the macro [Macro\_CartoucheFC\_Full](Macro_CartoucheFC_Full.md)
 
 The same work can be done directly in FreeCAD
@@ -29,4 +31,4 @@ for Linux : \"\"
 
  
 
-[Category:Macros{{\#translation:}}](Category:Macros.md)
+[Category:Macros](Category:Macros.md)

@@ -1,3 +1,5 @@
+# Manual:Summary/ru
+
 Это оглавление используется для автоматического построения \"РУКОВОДСТВА FreeCAD\".
 
 Существует еще одно оглавление для [**онлайн-справочной системы** FreeCAD](Online_Help_Toc/ru.md).
@@ -55,4 +57,4 @@
 
 
 
-[Category:Manual{{\#translation:}}](Category:Manual.md)
+[Category:Manual](Category:Manual.md)

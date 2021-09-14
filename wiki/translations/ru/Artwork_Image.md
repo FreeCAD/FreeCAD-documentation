@@ -1,4 +1,6 @@
-\_\_NOTOC\_\_ 
+# Artwork Image/ru
+
+ 
 
 Эти иконки находятся в указанной исходной папке.
 
@@ -15,4 +17,4 @@
 
 }} 
 
-[Category:Image{{\#translation:}}](Category:Image.md)
+[Category:Image](Category:Image.md)

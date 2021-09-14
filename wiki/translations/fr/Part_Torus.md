@@ -7,20 +7,9 @@
    SeeAlso:[Part Primitives](Part_Primitives/fr.md)
 ---
 
-
-</div>
-
 ## Description
 
-
-<div class="mw-translate-fuzzy">
-
-## Description 
-
 Crée un tore paramétrique simple avec les paramètres position angle1, angle2, angle3, rayon1 et rayon2.
-
-
-</div>
 
 <img alt="" src=images/SimpleTorus.jpg  style="width:400px;">
 
@@ -65,13 +54,7 @@ ainsi que l\'ensemble standard de paramètres de placement. Les images ci-dessou
 ![](images/TorusExampleAngle3.jpg ) Le paramètre Angle3 a une valeur de 90°. 
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
  

@@ -1,5 +1,10 @@
 ---
-- GuiCommand:/es   Name:Draft_WireToBSpline   Workbenches:[Arquitectura](Draft_Module/es___Boceto]],_[[Arch_Module/es.md)|MenuLocation:Boceto → Contorno a BSpline---
+- GuiCommand:/es
+   Name:Draft_WireToBSpline
+   Name:Draft_WireToBSpline
+   MenuLocation:Boceto → Contorno a BSpline
+   Workbenches:[Boceto](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
+---
 
 
 </div>

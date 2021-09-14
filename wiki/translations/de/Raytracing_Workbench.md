@@ -1,3 +1,5 @@
+# Raytracing Workbench/de
+
  
 
 
@@ -153,4 +155,4 @@ Diese Seiten beziehen sich auf einen in C++ programmierten Ersatzarbeitsbereich,
 
 }} 
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

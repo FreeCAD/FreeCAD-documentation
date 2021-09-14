@@ -4,12 +4,7 @@
    Name/fr:Path Commentaire
    MenuLocation:Path → Supplemental commands → Commentaire
    Workbenches:[Path](Path_Workbench/fr.md)
-   Shortcut:**P** **C**
-   SeeAlso:
 ---
-
-
-</div>
 
 ## Description
 
@@ -24,11 +19,6 @@ Cet outil insère un commentaire. Lors de l\'export d\'un projet en G-Code, le c
 
 -    {{PropertyData/fr|Comment}}: Le texte de votre commentaire
 
-## Scripting
-
-
-<div class="mw-translate-fuzzy">
-
 ## Script
 
 
@@ -36,19 +26,7 @@ Cet outil insère un commentaire. Lors de l\'export d\'un projet en G-Code, le c
 
 [FreeCAD Script de base](FreeCAD_Scripting_Basics/fr.md).
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Exemple: 
-```python
-#Place code example here.
-```
-
-
-</div>
+Exemple :
 
 
 ```python

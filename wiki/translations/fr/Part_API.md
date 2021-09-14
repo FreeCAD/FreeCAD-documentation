@@ -1,3 +1,5 @@
+# Part API/fr
+
  {{VeryImportantMessage|(Novembre 2018) Ces informations peuvent être incomplètes et obsolètes. Pour la dernière API, voir l'[https://www.freecadweb.org/api auto-génération de la documentation de l'API].}}
 
 Le module **Part** <img alt="" src=images/Workbench_Part.png  style="width:16px;"> est une connexion directe entre **FreeCAD** et le noyau **OpenCasCade**. Il fournit principalement des [TopoShapes](TopoShape_API/fr.md) qui sont les types d\'objets principaux utilisés par OpenCascade. Le module **Part** contient également une variété de fonctions utiles pour créer et manipuler des **topoShapes**. Exemple : 
@@ -91,4 +93,4 @@ Part.show(mycube)
 
  
 
-[Category:API{{\#translation:}}](Category:API.md) [Category:Poweruser Documentation{{\#translation:}}](Category:Poweruser_Documentation.md)
+[Category:API](Category:API.md) [Category:Poweruser Documentation](Category:Poweruser_Documentation.md)

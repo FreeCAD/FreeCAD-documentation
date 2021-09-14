@@ -2,10 +2,11 @@
 - GuiCommand:/tr
    Name:Draft Trimex
    Name/tr:Kırp/Uzat (Trimex)
-   Workbenches:[Draft](Draft_Module/tr.md), [Arch](Arch_Module/tr.md)
    MenuLocation:Draft → Trim/Extend
-   Shortcut:T R
-   SeeAlso:[Part Extrude](Part_Extrude/tr.md)---
+   Workbenches:[Draft](Draft_Workbench/tr.md), [Arch](Arch_Workbench/tr.md)
+   Shortcut:**T** **R**
+   SeeAlso:[Part Extrude](Part_Extrude/tr.md)
+---
 
 
 </div>

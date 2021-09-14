@@ -1,3 +1,5 @@
+# Addon/ru
+
 
 
 ## Введение
@@ -35,4 +37,4 @@ $HOME/.FreeCAD/Mod/
 
 
 
-[Category:Addons{{\#translation:}}](Category:Addons.md)
+[Category:Addons](Category:Addons.md)

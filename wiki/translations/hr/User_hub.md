@@ -1,8 +1,10 @@
+# User hub/hr
+
  <img alt="" src=images/User_hub.png  style="width:64px;">
 
 ------------------------------------------------------------------------
 
-\_\_NOTOC\_\_
+
 
 Ovo je osnovno područje pomoći za novo pridošle korisnike FreeCAD programa.
 
@@ -131,4 +133,4 @@ This is the official FreeCAD online help. Please note that the whole online help
 
 
 
-[Category:Hubs{{\#translation:}}](Category:Hubs.md)
+[Category:Hubs](Category:Hubs.md)

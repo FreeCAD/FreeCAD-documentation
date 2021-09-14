@@ -1,3 +1,5 @@
+# Part Module/zh-cn
+
 
 
 
@@ -190,7 +192,7 @@ A more detailed discussion of Part workbench versus Part Design workbench can be
 
 </div>
 
--   <img alt="" src=images/Part_Attachment.svg  style="width:32px;"> [Attachment](Part_Attachment.md): Attaches an object to another object.
+-   <img alt="" src=images/Part_EditAttachment.svg  style="width:32px;"> [Attachment](Part_EditAttachment.md): Attaches an object to another object.
 
 ### Boolean
 
@@ -345,4 +347,4 @@ These tools perform boolean operations.
 
  
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

@@ -1,6 +1,6 @@
 ---
 - GuiCommand:
-   Name:TechDraw_ExtensionThreadBoltSide
+   Name:TechDraw Extension ThreadBoltSide
    MenuLocation:
    Workbenches:[TechDraw](TechDraw_Workbench.md)
    Shortcut:
@@ -10,15 +10,15 @@
 
 ## Description
 
-The <img alt="" src=images/TechDraw_ExtensionThreadBoltSide.svg  style="width:24px;"> **Thread Bolt Side** tool creates a symbolic thread at a bolt.
+The <img alt="" src=images/TechDraw_Extension_ThreadBoltSide.svg  style="width:24px;"> **Thread Bolt Side** tool adds a symbolic thread to the side view of a bolt.
 
- <img alt="" src=images/TechDraw_ExtensionThreadBoltSideExample.png  style="width:600px;">  
-*On the right a symbolic thread*
+ <img alt="" src=images/TechDraw_ExtensionThreadBoltSideExample.png  style="width:400px;">  
+*On the right a bolt with a symbolic thread*
 
 ## Usage
 
 1.  Select the two parallel lines of a bolt.
-2.  Press the **<img src="images/TechDraw_ExtensionThreadBoltSide.svg" width=16px> [Thread Bolt Side](TechDraw_Dimension_Horizontal.md)** button.
+2.  Press the **<img src="images/TechDraw_Extension_ThreadBoltSide.svg" width=16px> [Thread Bolt Side](TechDraw_Extension_ThreadBoltSide.md)** button.
 3.  A symbolic thread is added.
 
 

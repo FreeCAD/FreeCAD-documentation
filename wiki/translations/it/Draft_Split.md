@@ -3,7 +3,7 @@
    Name:Draft Split
    Name/it:Dividi
    MenuLocation:Draft → Dividi
-   Workbenches:[Draft](Draft_Module/it.md)
+   Workbenches:[Draft](Draft_Workbench/it.md)
    Shortcut:**S** **P**
    Version:0.18
    SeeAlso:[Unisci](Draft_Join/it.md)

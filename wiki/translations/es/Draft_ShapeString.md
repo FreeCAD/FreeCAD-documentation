@@ -1,5 +1,12 @@
 ---
-- GuiCommand:/es   Name:Bosquejar forma de cadena   Name/es:Draft ShapeString/es   Workbenches:[Arquitectura](Draft_Module/es___Borrador]],_[[Arch_Module/es.md)|MenuLocation:Borrador -> Bosquejar forma de cadena   Shortcut:S S   SeeAlso:[Draft Text](Draft_Text/es.md), [Part Extrude](Part_Extrude/es.md)---
+- GuiCommand:/es
+   Name:Draft ShapeString
+   Name/es:Bosquejar forma de cadena
+   MenuLocation:Borrador -> Bosquejar forma de cadena
+   Workbenches:[Borrador](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
+   Shortcut:**S** **S**
+   SeeAlso:[Draft Text](Draft_Text/es.md), [Part Extrude](Part_Extrude/es.md)
+---
 
 
 </div>

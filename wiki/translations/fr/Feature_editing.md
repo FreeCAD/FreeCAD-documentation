@@ -1,3 +1,5 @@
+# Feature editing/fr
+
  {{TOCright}}
 
 ## Introduction
@@ -94,7 +96,7 @@ Il est possible de référencer des éléments d\'un corps à un autre à traver
 
 L\'ancrage d\'objets n\'est pas un outil spécifique à PartDesign, mais plutôt un outil de l\'atelier Part introduit dans la version 0.17 et qui se trouve dans le menu Pièce. Il est fortement utilisé dans l\'atelier PartDesign pour ancrer des esquisses et des géométries de référence à des plans et axes standards du Corps. Des moyens très complets de création de points de référence, de droites et de plans sont disponibles. Les paramètres de décalage d\'ancrage rendent cet outil très polyvalent.
 
-Consulter la page [Part Ancrage](Part_Attachment/fr.md) pour plus d\'informations et [Tutoriel La base pour l\'ancrage](Basic_Attachment_Tutorial/fr.md).
+Consulter la page [Part Ancrage](Part_EditAttachment/fr.md) pour plus d\'informations et [Tutoriel La base pour l\'ancrage](Basic_Attachment_Tutorial/fr.md).
 
 ## Conseils pour la création de modèles robustes 
 
@@ -167,4 +169,4 @@ La page des [tutoriels](Tutorials/fr.md) fournit des exemples d\'utilisation de 
 
 }} 
 
-[Category:Common Questions{{\#translation:}}](Category:Common_Questions.md)
+[Category:Common Questions](Category:Common_Questions.md)

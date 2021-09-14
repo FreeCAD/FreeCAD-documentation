@@ -1,3 +1,5 @@
+# Path Workbench
+
  
 
 
@@ -122,9 +124,9 @@ Some commands are experimental and not available by default. To enable them see 
 
 -   <img alt="" src=images/Path_Slot.svg  style="width:32px;"> [Slot](Path_Slot.md): Creates a slotting operation from selected features or custom points. [**Experimental**](Path_experimental.md). <small>(v0.19)</small> 
 
--   <img alt="" src=images/Path_Engrave.svg  style="width:32px;"> [Engrave](Path_Engrave.md): Creates a engraving path.
+-   <img alt="" src=images/Path_Engrave.svg  style="width:32px;"> [Engrave](Path_Engrave.md): Creates an engraving path.
 
--   <img alt="" src=images/Path_Vcarve.svg  style="width:32px;"> [Vcarve](Path_Vcarve.md): Creates a path for a 3D pocket. <small>(v0.19)</small> 
+-   <img alt="" src=images/Path_Vcarve.svg  style="width:32px;"> [Vcarve](Path_Vcarve.md): Creates an engraving path using a V tool shape. <small>(v0.19)</small> 
 
 ### 3D Operations 
 
@@ -219,4 +221,4 @@ See [Path scripting](Path_scripting.md).
 
  {{Path_Tools_navi}} 
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

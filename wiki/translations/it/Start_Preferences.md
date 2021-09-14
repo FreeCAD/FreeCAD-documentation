@@ -1,3 +1,5 @@
+# Start Preferences/it
+
 
 
 The preferences screen of the [Start Workbench](Start_Workbench.md) is found in the [Preferences Editor](Preferences_Editor.md), **Edit → Preferences → Start**.
@@ -112,4 +114,4 @@ In the *Start page* tab you can specify the following:
 
 }} 
 
-[Category:Preferences{{\#translation:}}](Category:Preferences.md)
+[Category:Preferences](Category:Preferences.md)

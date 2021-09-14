@@ -1,3 +1,5 @@
+# Macro FCInfo/ru
+
  {{Macro/ru
 |Name=Macro FCInfo
 |Translate=Macro FCInfo

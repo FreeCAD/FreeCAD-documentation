@@ -3,13 +3,10 @@
    Name:Draft Upgrade
    Name/de:Entwurf Hochstufen
    MenuLocation:Entwurf → Hochstufen
-   Workbenches:[Entwurf](Draft_Module/de.md), [Architektur](Arch_Module/de.md)
+   Workbenches:[Entwurf](Draft_Workbench/de.md), [Architektur](Arch_Workbench/de.md)
    Shortcut:**U** **P**
    SeeAlso:[Entwurf Herabstufen](Draft_Downgrade/de.md)
 ---
-
-
-</div>
 
 ## Beschreibung
 
@@ -84,13 +81,7 @@ doc.recompute()
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
  

@@ -26,12 +26,12 @@ To delete a Midpoint, select it and use the toolbar button **<img src="images/Te
 
 Cosmetic Vertices have no properties of their own, as they are not Document Objects. They share color and size settings with regular geometry vertices.
 
-## Scripting
+## Программирование
 
 
-**See also:**
+**См. так же:**
 
-[TechDraw API](TechDraw_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+[TechDraw API](TechDraw_API/ru.md) и [Основы составления скриптов FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 
 Cosmetic Vertices are not accessible from [macros](Macros.md) or the [Python](Python.md) console at this time. This snippet will remove all Cosmetic Vertices from the View.
 

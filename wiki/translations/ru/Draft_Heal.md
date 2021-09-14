@@ -2,8 +2,8 @@
 - GuiCommand:/ru
    Name:Draft Heal
    Name/ru:Draft Heal
-   Workbenches:[Draft](Draft_Module/ru.md), [Arch](Arch_Module/ru.md)
    MenuLocation:Черчение → Утилиты → Лечить
+   Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
 ---
 
 

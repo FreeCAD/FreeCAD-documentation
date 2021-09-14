@@ -1,3 +1,5 @@
+# Flamingo Workbench/fr
+
   {{VeryImportantMessage|L'atelier Flamingo (Python2/Qt4) a été remplacé par l'atelier Dodo (Python3/Qt5).
 Cette page wiki mettra en évidence les différences entre ces deux ateliers.}}
 
@@ -519,4 +521,4 @@ De nouveaux ateliers sont en développement, tenez vous au courant!
 
 
 
-[Category:Addons{{\#translation:}}](Category:Addons.md) [Category:External Workbenches{{\#translation:}}](Category:External_Workbenches.md)
+[Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)

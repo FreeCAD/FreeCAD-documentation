@@ -1,3 +1,5 @@
+# Macro SelectVisible/de
+
  {{Macro/de
 |Name=Macro SelectVisible
 |Translate=Macro SelectVisible

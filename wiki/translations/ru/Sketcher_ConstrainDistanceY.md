@@ -1,20 +1,20 @@
 ---
 - GuiCommand:/ru
-   Name:Sketcher ConstrainDistanceY
-   Name/ru:Sketcher ConstrainDistanceY
-   MenuLocation:Sketch → Ограничения эскиза → Ограничения расстояния по вертикали
+   Name/ru:Ограничение расстояния по вертикали
+   Name:Sketcher_ConstrainDistanceY
+   MenuLocation:Sketch → Ограничения эскиза → Ограничение расстояния по вертикали
    Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
    Shortcut:**Shift** + **V**
-   SeeAlso:[Ограничения расстояния по горизонтали](Sketcher_ConstrainDistanceX/ru.md), [Ограничения расстояния](Sketcher_ConstrainDistance/ru.md)
+   SeeAlso:[Ограничение расстояния по горизонтали](Sketcher_ConstrainDistanceX/ru.md), [Ограничить расстояние](Sketcher_ConstrainDistance/ru.md)
 ---
 
-## Description
+## Описание
 
 Fixes the vertical distance between 2 points or line ends. If only one point is selected, the distance is set to the sketch origin.
 
 ![](images/Sketcher_ConstraintDistanceY_example.png )
 
-## Usage
+## Применение
 
 1.  Pick one or two points or one line.
 2.  Invoke the command several ways:
@@ -25,14 +25,14 @@ Fixes the vertical distance between 2 points or line ends. If only one point is 
 
 **Note:** the constraint tool can also be started with no prior selection, but will require selection of two points or one line. To set the distance to the origin, the sketch origin point needs to be selected as well. By default the command will be in continue mode to create new constraints; press the right mouse button or **Esc** once to quit the command.
 
-## Scripting
+## Программирование
 
 Distance from origin:
 
 
 ```pythonSketch.addConstraint(Sketcher.Constraint('DistanceY', Edge, PointOfEdge, App.Units.Quantity('123.0 mm')))```
 
-Distance between two vertices:
+Дистанция между двумя вершинами:
 
 
 ```pythonSketch.addConstraint(Sketcher.Constraint('DistanceY', Edge1, PointOfEdge1, Edge2, PointOfEdge2, App.Units.Quantity('123.0 mm')))```

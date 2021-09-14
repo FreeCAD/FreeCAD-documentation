@@ -1,3 +1,5 @@
+# Video tutorials/ro
+
 
 
 
@@ -152,4 +154,4 @@ For more see [Video tutorials obsolete](Video_tutorials_obsolete.md).
 
 }} 
 
-[Category:Common Questions{{\#translation:}}](Category:Common_Questions.md)
+[Category:Common Questions](Category:Common_Questions.md)

@@ -1,3 +1,5 @@
+# Drawing Workbench/fr
+
  
 
 
@@ -42,7 +44,7 @@ Ces outils permettent de créer, configurer et exporter des mises en plan 2D
 
 -   [Project Shape](Drawing_ProjectShape/fr.md): Crée une projection de l\'objet sélectionné (Source) dans la vue 3D.
 
--    **Note:**L\'atelier [Draft](Draft_Module/fr.md) a son propre [atelier de dessin](Draft_Drawing/fr.md) qui place les objets du projet sur papier. Il a quelques fonctionnalités supplémentaires sur les outils de dessin standards et prend en charge les objets spécifiques tels que [les dimensions](Draft_Dimension/fr.md).
+-    **Note:**L\'atelier [Draft](Draft_Workbench/fr.md) a son propre [atelier de dessin](Draft_Drawing/fr.md) qui place les objets du projet sur papier. Il a quelques fonctionnalités supplémentaires sur les outils de dessin standards et prend en charge les objets spécifiques tels que [les dimensions](Draft_Dimension/fr.md).
 
 ## Flux de travail 
 
@@ -82,4 +84,4 @@ Quelques notes sur le module de dessin sont ajoutés à la page [Documentation s
 
 }} 
 
-[Category:Obsolete Workbenches{{\#translation:}}](Category:Obsolete_Workbenches.md)
+[Category:Obsolete Workbenches](Category:Obsolete_Workbenches.md)

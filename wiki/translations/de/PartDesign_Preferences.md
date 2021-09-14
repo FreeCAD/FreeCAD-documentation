@@ -1,3 +1,5 @@
+# PartDesign Preferences/de
+
 
 
 
@@ -194,4 +196,4 @@ Rechtsklick auf **Netzabweichung** und wähle im Kontextmenü **Wert ändern**. 
 
 }} 
 
-[Category:Preferences{{\#translation:}}](Category:Preferences.md)
+[Category:Preferences](Category:Preferences.md)

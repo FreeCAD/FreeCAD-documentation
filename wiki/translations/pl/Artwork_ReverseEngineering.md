@@ -1,4 +1,6 @@
-\_\_NOTOC\_\_ 
+# Artwork ReverseEngineering/pl
+
+ 
 
 Ikony te znajdują się we wskazanej ścieżce źródłowej.
 
@@ -19,4 +21,4 @@ Wszystkie ikonki widoczne na liście źródłowej, patrz [Grafika](Artwork/pl.md
 
 }} 
 
-[Category:Reverse Engineering{{\#translation:}}](Category:Reverse_Engineering.md)
+[Category:Reverse Engineering](Category:Reverse_Engineering.md)

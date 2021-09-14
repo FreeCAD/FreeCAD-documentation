@@ -1,28 +1,3 @@
----
-- GuiCommand:/it   Name:FEM_PostCreateScalarClipFilter   Name/it:FEM PostCreateScalarClipFilter   MenuLocation: Risultati → scalar clip filter    |Workbenches:[Shortcut:   SeeAlso:[[FEM_tutorial/it|Tutorial FEM](FEM_Workbench/it___FEM]].md)---
+# FEM PostCreateScalarClipFilter/it
 
-
-</div>
-
-
-{{FEM Tools navi/it}}
-
-Da fare
-
-
-{{Userdocnavi/it}}
-
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
-
-
-{{FEM Tools navi
-
-}}  
+1.  REDIRECT [FEM\_PostFilterClipScalar/it](FEM_PostFilterClipScalar/it.md)

@@ -3,7 +3,7 @@
    Name:Draft ToggleSnap
    Name/ro:Draft ToggleSnap
    MenuLocation:Draft → [Snapping](Draft_Snap/ro.md) → Toggle snap
-   Workbenches:[Draft](Draft_Module/ro.md), [Arch](Arch_Module/ro.md)
+   Workbenches:[Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
    SeeAlso:[[Draft Snap/ro]], [[Draft ToggleGrid/ro]]
 ---
 

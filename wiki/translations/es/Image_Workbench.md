@@ -1,3 +1,5 @@
+# Image Workbench/es
+
  
 
 <img alt="El icono del Ambiente de trabajo Imagen" src=images/Workbench_Image.svg  style="width:128px;">
@@ -37,4 +39,4 @@ El relleno de la imagen puede establecerse durante la importación, o modificars
 
 }} 
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

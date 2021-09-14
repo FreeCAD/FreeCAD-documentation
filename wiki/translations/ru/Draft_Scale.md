@@ -2,9 +2,9 @@
 - GuiCommand:/ru
    Name:Draft Scale
    Name/ru:Draft Scale
-   Workbenches:[Draft](Draft_Module/ru.md), [Arch](Arch_Module/ru.md)
    MenuLocation:Черчение → Масштаб
-   Shortcut:S C
+   Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
+   Shortcut:**S** **C**
    SeeAlso:[Draft Clone](Draft_Clone/ru.md)
 ---
 

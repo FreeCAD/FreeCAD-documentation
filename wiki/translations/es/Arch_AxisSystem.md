@@ -1,5 +1,11 @@
 ---
-- GuiCommand:/es   Name:Arch AxisSystem   Name/es:Arch AxisSystem   Workbenches:[MenuLocation:Arch → Axis System   SeeAlso:[[Arch Axis/es|Arch Axis](Arch_Module/es___Arch]].md), [Grid](Arch_Grid/es.md)---
+- GuiCommand:/es
+   Name:Arch AxisSystem
+   Name/es:Arch AxisSystem
+   MenuLocation:Arch → Axis System
+   Workbenches:[Arch](Arch_Workbench/es.md)
+   SeeAlso:[Arch Axis](Arch_Axis/es.md), [Grid](Arch_Grid/es.md)
+---
 
 
 </div>

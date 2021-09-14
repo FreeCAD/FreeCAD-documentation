@@ -1,3 +1,5 @@
+# Macro Rubik Cube
+
   {{Macro
 |Name=Macro Rubik Cube
 |Icon=Macro_Rubik_Cube.png

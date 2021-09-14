@@ -21,10 +21,16 @@ Inserta un Cono sustractivo en el Body (cuerpo) activo. Su forma es sustraída d
 
 ## Uso
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Presionar el botón **<img src="images/PartDesign_SubtractiveCone.svg" width=24px> '''Cono sustractivo'''** . **Nota**: El Cono sustractivo forma parte de un icono de herramientas llamado *Crear una primitiva sustractiva*. Tras abrir FreeCAD, la Caja sustractiva es la única mostrada en la barra de herramientas. Para obtener el botón del Cono, pinchar en la flecha que indica hacia abajo que está al lado del icono visible y seleccionar Cono sustractivo en el menú desplegable.
 2.  Seleccionar los parámetros de la primitiva (para un cono completo, poner 0 como el valor de uno de sus radios) y el [Attachment](Part_Attachment.md).
 3.  Aceptar **OK**.
 4.  Una operación de Cono aparece dentro del Body(cuerpo) activo.
+
+
+</div>
 
 ## Opciones
 
@@ -34,6 +40,9 @@ Tras su creación, el Cono puede ser editado de dos maneras:
 -   Por medio del [Editor de propiedades](Property_editor/es.md).
 
 ## Propiedades
+
+
+<div class="mw-translate-fuzzy">
 
 -    {{PropertyData/es|Attachment}}: Define el modo de Attachment y la separación del archivo adjunto. Ver [Part Attachment](Part_Attachment.md).
 
@@ -46,6 +55,9 @@ Tras su creación, el Cono puede ser editado de dos maneras:
 -    {{PropertyData/es|Altura}}: La altura del cono a lo largo de su eje.
 
 -    {{PropertyData/es|Ángulo}}: Ángulo de rotación del corte de la sección (360 grados forma un cono completo).
+
+
+</div>
 
 
 

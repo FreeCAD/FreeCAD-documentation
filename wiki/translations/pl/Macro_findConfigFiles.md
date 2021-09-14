@@ -1,3 +1,5 @@
+# Macro findConfigFiles/pl
+
  {{Macro
 |Name=findConfigFiles
 |Icon=Macro_findConfigFiles.png

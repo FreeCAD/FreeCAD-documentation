@@ -1,3 +1,5 @@
+# Online Help Toc/id
+
 
 
 
@@ -162,4 +164,4 @@ There is another table of contents for the [FreeCAD MANUAL](Manual:Introduction.
 
 
 
-[Category:Documentation/id](Category:Documentation/id.md) [Category:Documentation{{\#translation:}}](Category:Documentation.md)
+[Category:Documentation/id](Category:Documentation/id.md) [Category:Documentation](Category:Documentation.md)

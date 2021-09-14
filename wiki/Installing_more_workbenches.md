@@ -1,3 +1,5 @@
+# Installing more workbenches
+
  
 
 ## Introduction
@@ -43,4 +45,4 @@ See also a detailed description in the page [how to install additional workbench
 
  {{Powerdocnavi}} 
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md)

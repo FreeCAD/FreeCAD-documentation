@@ -1,9 +1,10 @@
 ---
 - GuiCommand:/ru
-   Name:Sketcher Constraint Parallel
    Name/ru:Ограничение параллельности
+   Name:Sketcher_ConstrainParallel
    MenuLocation:Sketch → Ограничения эскиза → Ограничение параллельности
    Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
+   Shortcut:**Shift** + **P**
    SeeAlso:[Ограничение вертикальности](Sketcher_ConstrainVertical/ru.md), [Ограничение горизонтальности](Sketcher_ConstrainHorizontal/ru.md)
 ---
 
@@ -11,7 +12,7 @@
 
 The Constrain Parallel constraint forces two selected straight lines or edges to be parallel to each other.
 
-## Operation
+## Oперация
 
 The sketch contains two randomly oriented lines.
 
@@ -33,7 +34,7 @@ Apply the Constrain Parallel constraint by either:
 
 *Result: The selected lines are forced to be parallel to each other. Changing the orientation of one line will change the orientation of the other to be the same.*
 
-## Scripting
+## Программирование
 
 
 ```pythonSketch.addConstraint(Sketcher.Constraint('Parallel', Line1, Line2))```
@@ -41,13 +42,7 @@ Apply the Constrain Parallel constraint by either:
 The [Sketcher scripting](Sketcher_scripting.md) page explains the values which can be used for `Line1` and `Line2` and contains further examples on how to create constraints from Python scripts.
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Sketcher Tools navi

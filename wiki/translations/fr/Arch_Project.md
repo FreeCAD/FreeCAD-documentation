@@ -3,13 +3,10 @@
    Name:Arch Project
    Name/fr:Arch Projet
    MenuLocation:Arch → Projet
-   Workbenches:[Arch](Arch_Module/fr.md)
+   Workbenches:[Arch](Arch_Workbench/fr.md)
    Shortcut:**P** **O**
-   SeeAlso:[Arch Site](Arch_Site/fr.md), [Arch Building](Arch_Building/fr.md)
+   SeeAlso:[Arch Site](Arch_Site/fr.md), [Arch Bâtiment](Arch_Building/fr.md)
 ---
-
-
-</div>
 
 ## Description
 
@@ -25,13 +22,7 @@ Remarquez que, bien que tout autre objet BIM puisse être ajouté à un projet, 
 2.  Ajoutez n\'importe quel objet à votre projet en les faisant glisser sur la [Vue en arborescence](Tree_view/fr.md).
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
  

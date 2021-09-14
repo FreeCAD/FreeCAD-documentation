@@ -1,3 +1,5 @@
+# Macro Loft/fr
+
  {{Macro/fr
 |Name=Macro Loft
 |Icon=FCCreaLoft.png

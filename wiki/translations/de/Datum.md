@@ -1,3 +1,5 @@
+# Datum/de
+
 
 
 ## Einführung
@@ -32,7 +34,7 @@ Du kannst andere Arten von Bezugspunkten hinzufügen, die mit anderen Skizzen un
 
 ## Hinweise
 
-Seit ihrem Erscheinen in v0.17 waren Bezugsobjekte für die Verwendung innerhalb von [PartDesign Körper](PartDesign_Body/de.md) vorgesehen. Da es sich jedoch um nützliche \"Referenz\" Objekte mit verschiedenen [Anbindungsmethoden](Part_Attachment/de.md) handelt, wurde vorgeschlagen, dass sie außerhalb der [PartDesign Arbeitsbereich](PartDesign_Workbench/de.md) verfügbar sein sollten. Auf diese Weise werden sie in allen Arbeitsbereichen als tragende Geometrie verwendbar sein, insbesondere im Zusammenhang mit der Erstellung von [Baugruppen](Assembly/de.md).
+Seit ihrem Erscheinen in v0.17 waren Bezugsobjekte für die Verwendung innerhalb von [PartDesign Körper](PartDesign_Body/de.md) vorgesehen. Da es sich jedoch um nützliche \"Referenz\" Objekte mit verschiedenen [Anhangmethoden](Part_EditAttachment/de.md) handelt, wurde vorgeschlagen, dass sie außerhalb der [PartDesign Arbeitsbereich](PartDesign_Workbench/de.md) verfügbar sein sollten. Auf diese Weise werden sie in allen Arbeitsbereichen als tragende Geometrie verwendbar sein, insbesondere im Zusammenhang mit der Erstellung von [Baugruppen](Assembly/de.md).
 
 -   [Lokales Koordinatensystem erstellen und anzeigen](https://forum.freecadweb.org/viewtopic.php?f=10&t=2604)
 -   [Datumsobjekte in App::Part](https://forum.freecadweb.org/viewtopic.php?f=22&t=33654)
@@ -44,4 +46,4 @@ Seit ihrem Erscheinen in v0.17 waren Bezugsobjekte für die Verwendung innerhalb
 
 }} {{Document objects navi}} 
 
-[Category:Glossary{{\#translation:}}](Category:Glossary.md)
+[Category:Glossary](Category:Glossary.md)

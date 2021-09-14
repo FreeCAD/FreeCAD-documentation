@@ -1,3 +1,5 @@
+# Compile on Windows/hr
+
 
 
 
@@ -475,4 +477,4 @@ See also
 
 
 
-[Category:Developer Documentation/hr](Category:Developer_Documentation/hr.md) [Category:Developer\_Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Developer{{\#translation:}}](Category:Developer.md)
+[Category:Developer Documentation/hr](Category:Developer_Documentation/hr.md) [Category:Developer\_Documentation](Category:Developer_Documentation.md) [Category:Developer](Category:Developer.md)

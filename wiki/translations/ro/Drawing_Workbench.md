@@ -1,3 +1,5 @@
+# Drawing Workbench/ro
+
  
 
 
@@ -83,4 +85,4 @@ Unele note despre partea de programare a modulului de desen vor fi adăugate la 
 
 }} 
 
-[Category:Obsolete Workbenches](Category:Obsolete_Workbenches.md) [Category:Obsolete Workbenches{{\#translation:}}](Category:Obsolete_Workbenches.md)
+[Category:Obsolete Workbenches](Category:Obsolete_Workbenches.md) [Category:Obsolete Workbenches](Category:Obsolete_Workbenches.md)

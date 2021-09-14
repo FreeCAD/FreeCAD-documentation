@@ -1,3 +1,5 @@
+# Localisation/ru
+
 
 
 
@@ -186,4 +188,4 @@ Update: see [Translating an external workbench](Translating_an_external_workbenc
 
  
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Wiki{{\#translation:}}](Category:Wiki.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Wiki](Category:Wiki.md)

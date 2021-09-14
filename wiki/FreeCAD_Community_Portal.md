@@ -1,3 +1,5 @@
+# FreeCAD Community Portal
+
  
 
 This is the place to put all kind of FreeCAD-related stuff! If you work on something FreeCAD-related, please include it here!
@@ -94,4 +96,4 @@ These are FreeCAD community developed workbenches, scripts, macros, and addons f
 
  
 
-[Category:Documentation{{\#translation:}}](Category:Documentation.md)
+[Category:Documentation](Category:Documentation.md)

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:/ru
-   Name:Sketcher ConstrainDistance
-   Name/ru:Sketcher ConstrainDistance
-   MenuLocation:Sketch → Ограничения эскиза → Ограничения расстояния
+   Name/ru:Ограничить расстояние
+   Name:Sketcher_ConstrainDistance
+   MenuLocation:Sketch → Ограничения эскиза → Ограничить расстояние
    Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
    Shortcut:**Shift** + **D**
-   SeeAlso:[Ограничения расстояния по горизонтали](Sketcher_ConstrainDistanceX/ru.md), [Ограничения расстояния по вертикали](Sketcher_ConstrainDistanceY/ru.md)
+   SeeAlso:[Ограничение расстояния по горизонтали](Sketcher_ConstrainDistanceX/ru.md), [Ограничение расстояния по вертикали](Sketcher_ConstrainDistanceY/ru.md)
 ---
 
 ## Description
@@ -14,7 +14,7 @@
 
 ![](images/Sketcher_ConstrainDistance_example.png )
 
-## Usage
+## Применение
 
 1.  Pick two points or one line or one point and one line.
 2.  Invoke the command several ways:
@@ -29,22 +29,26 @@
 
 If applicable please consider using the **<img src=images/Sketcher_ConstrainDistanceX.svg style="width:16px"> <img src=images/Sketcher_ConstrainDistanceY.svg style="width:Horizontal distance](Sketcher_ConstrainDistanceX.md)** or **[16px"> [Vertical distance](Sketcher_ConstrainDistanceY.md)** constraints instead. These constraints are more robust and faster to calculate than the **ConstrainDistance** tool.
 
-## Scripting
+## Программирование
 
 Distance from origin:
 
 
 ```pythonSketch.addConstraint(Sketcher.Constraint('DistanceX', Edge, PointOfEdge, App.Units.Quantity('123.0 mm')))```
 
-Distance between two vertices:
+Дистанция между двумя вершинами:
 
 
 ```pythonSketch.addConstraint(Sketcher.Constraint('Distance', Edge1, PointOfEdge1, Edge2, PointOfEdge2, App.Units.Quantity('123.0 mm')))```
 
-Length of line (the GUI allows selecting the edge itself, but it is just a shorthand for using the two extremities of the same line: 
+Length of line (the GUI allows selecting the edge itself, but it is just a shorthand for using the two extremities of the same line):
+
+
 ```pythonSketch.addConstraint(Sketcher.Constraint('Distance', Line, 1, Line, 2, App.Units.Quantity('123.0 mm')))```
 
-Distance from point (`Edge, PointOfEdge`) to nearest point on line (`Line`): 
+Distance from point (`Edge, PointOfEdge`) to nearest point on line (`Line`):
+
+
 ```pythonSketch.addConstraint(Sketcher.Constraint('Distance', Edge, PointOfEdge, Line, App.Units.Quantity('123.0 mm')))```
 
 The [Sketcher scripting](Sketcher_scripting.md) page explains the values which can be used for `Edge1`, `Edge2`, `Edge`, ` PointOfEdge1`, ` PointOfEdge2`, `PointOfEdge` and `Line`, and contains further examples on how to create constraints from Python scripts.
@@ -55,4 +59,4 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 {{Sketcher Tools navi
 
-}}  
+}} 

@@ -1,3 +1,5 @@
+# Draft tutorial/ru
+
 
 
 
@@ -17,7 +19,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Урок знакомит пользователя с основами рабочего процесса <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Верстака Draft](Draft_Module/ru.md).
+Урок знакомит пользователя с основами рабочего процесса <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Верстака Draft](Draft_Workbench/ru.md).
 
 
 </div>
@@ -41,7 +43,7 @@
 
 1\. Запустите FreeCAD, создайте новый пустой документ из меню **Файл → <img src=images/Std_New.svg style="width:16px"> [Создать](Std_New/ru.md)**.
 
-:   1.1. Переключитесь на <img src=images/Workbench_Draft.svg style="width:верстак Draft](Draft_Module/ru.md) из [списка верстаков](Std_Workbench/ru.md) или из меню **Вид → Рабочее окружение → [16px"> Draft**.
+:   1.1. Переключитесь на <img src=images/Workbench_Draft.svg style="width:верстак Draft](Draft_Workbench/ru.md) из [списка верстаков](Std_Workbench/ru.md) или из меню **Вид → Рабочее окружение → [16px"> Draft**.
 :   1.2. Убедитесь, что вы понимаете как использовать [редактор свойств](property_editor/ru.md), а в особенности вкладки **Данные** и **Вид** для изменения свойств. При изменении свойств, вы можете **<img src="images/Std_Refresh.svg" width=16px> [Обновлять](Std_Refresh/ru.md)** [3D-вид view](3D_view/ru.md) для отображения результата.
 :   1.3. Так как объекты Draft это плоские фигуры, их лучше отображать видом сверху. Используйте кнопку **<img src=images/Std_ViewTop.svg style="width:16px"> [Вид сверху](Std_ViewTop/ru.md)** для [3D-вида](3D_view.md).
 :   1.4. Хотя в этом уроке и не используется сетка в верстаке Draft, она полезна для размещения геометрических элементов. Используйте **<img src=images/Draft_SelectPlane.svg style="width:16px"> <img src=images/Draft_ToggleGrid.svg style="width:Выбор плоскости](Draft_SelectPlane/ru.md)** для установки рабочей плоскости и сетки, затем включайте или выключайте сетку при помощи **[16px"> [Показывать сетку](Draft_ToggleGrid/ru.md)**.
@@ -54,7 +56,7 @@
 
 <div class="mw-translate-fuzzy">
 
-2\. [Панель привязки Draft](Draft_Snap/ru.md) обычно активирована, если вы переключаетесь на [верстак Draft](Draft_Module/ru.md).
+2\. [Панель привязки Draft](Draft_Snap/ru.md) обычно активирована, если вы переключаетесь на [верстак Draft](Draft_Workbench/ru.md).
 
 :   2.1. Чтобы убедиться, в её активности перейдите в [Настройки Draft](Draft_Preferences/ru.md), **Правка → Настройки → Draft → Сетка и привязка**.
 :   2.2. Проверьте, что активно **Показать панель инструментов привязки**.

@@ -26,7 +26,7 @@ The properties of the object can be edited, either in the [Property editor](Prop
 
 ## Свойства
 
-### Data
+### Данные
 
 
 {{TitleProperty|Sphere}}

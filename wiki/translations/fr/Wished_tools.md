@@ -1,3 +1,5 @@
+# Wished tools/fr
+
  Je commence cette page pour tenter de recueillir les souhaits des utilisateurs finaux sur les outils spécifiques qu\'ils aimeraient trouver dans FreeCAD. Plusieurs utilisateurs de CAO ont déjà discuté avec moi des outils de CAO, de ce qu\'ils utilisent le plus, de ce qu\'ils aimeraient voir dans FreeCAD, de ce dont ils ne pourraient pas se passer, etc\... Bien que FreeCAD ne soit pas destiné à remplacer spécifiquement tout autre logiciel de CAO célèbre (en particulier celui qui commence par Auto et se termine par la CAO), je pense que cela peut devenir une bonne référence pour connaître les attentes des utilisateurs finaux, et peut-être pour donner la priorité à certaines choses par rapport à d\'autres dans le développement.
 
 Si vous êtes un utilisateur de CAO et que vous souhaitez ajouter des éléments ici, n\'hésitez pas à les éditer, nous serions heureux d\'avoir votre avis ici.
@@ -77,4 +79,4 @@ Si vous êtes un utilisateur de CAO et que vous souhaitez ajouter des éléments
 -   Roof
 -   Assemblies
 
-[Category:Hubs{{\#translation:}}](Category:Hubs.md) [Category:Roadmap{{\#translation:}}](Category:Roadmap.md) [Category:Developer{{\#translation:}}](Category:Developer.md)
+[Category:Hubs](Category:Hubs.md) [Category:Roadmap](Category:Roadmap.md) [Category:Developer](Category:Developer.md)

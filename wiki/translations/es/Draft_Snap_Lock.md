@@ -1,5 +1,10 @@
 ---
-- GuiCommand:/es   Name:Draft ToggleSnap   Name/es:Draft ToggleSnap   Workbenches:[Arch](Draft_Module/es___Draft]],_[[Arch_Module/es.md)|MenuLocation:Draft → Utilities → Toggle snap---
+- GuiCommand:/es
+   Name:Draft ToggleSnap
+   Name/es:Draft ToggleSnap
+   MenuLocation:Draft → Utilities → Toggle snap
+   Workbenches:[Draft](Draft_Workbench/es.md), [Arch](Arch_Workbench/es.md)
+---
 
 
 </div>

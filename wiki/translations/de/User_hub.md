@@ -1,8 +1,10 @@
+# User hub/de
+
  <img alt="" src=images/User_hub.png  style="width:64px;">
 
 ------------------------------------------------------------------------
 
-\_\_NOTOC\_\_
+
 
 Dies ist der wichtigste Hilfebereich für FreeCAD Neueinsteiger.
 
@@ -55,7 +57,7 @@ Siehe auch:
 
 -   <img alt="" src=images/Workbench_Mesh.svg  style="width:32px;"> Der [Polygonnetz Arbeitsbereich](Mesh_Workbench/de.md) für die Arbeit mit triangulierten Polygonnetzen.
 
--   <img alt="" src=images/Workbench_OpenSCAD.svg  style="width:32px;"> Der [OpenSCAD Arbeitsbereich](OpenSCAD_Workbench/de.md) für das Zusammenspiel mit OpenSCAD und die Reparatur der [Konstruktiver Festkörpergeometrie](constructive_solid_geometry/de.md) (CSG) Modellhistorie.
+-   <img alt="" src=images/Workbench_OpenSCAD.svg  style="width:32px;"> Der [OpenSCAD Arbeitsbereich](OpenSCAD_Workbench/de.md) für das Zusammenspiel mit OpenSCAD und die Reparatur der [Konstruktiver Festkörpergeometrie](Constructive_solid_geometry/de.md) (CSG) Modellhistorie.
 
 -   <img alt="" src=images/Workbench_Image.svg  style="width:32px;"> Der [Part Arbeitsbereich](Image_Workbench/de.md) für die Arbeit mit CAD Teilen.
 
@@ -121,4 +123,4 @@ Dies ist die offizielle FreeCAD Online Hilfe. Bitte beachte, dass das gesamte On
 
 
 
-[Category:Hubs{{\#translation:}}](Category:Hubs.md)
+[Category:Hubs](Category:Hubs.md)

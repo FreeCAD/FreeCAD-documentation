@@ -1,3 +1,5 @@
+# TechDraw Workbench/pl
+
 
 
 
@@ -144,6 +146,23 @@ Narzędzia do nanoszenia adnotacji służą do \" oznaczania \" rysunku dodatkow
 
 -   <img alt="" src=images/TechDraw_WeldSymbol.svg  style="width:32px;"> [Dodaj informacje spawalnicze](TechDraw_WeldSymbol/pl.md): Narzędzie dodaje specyfikacje dotyczące spawania do istniejącej linii odniesienia. {{Version/pl|0.19}}
 
+## Pakiet rozszerzeń 
+
+Pakiet rozszerzeń zawiera wiele przydatnych narzędzi do ulepszenia Twoich rysunków technicznych.
+
+
+**Niektóre z tych narzędzi nie zostały jeszcze wydane.**
+
+-   <img alt="" src=images/TechDraw_Extension_CircleCenterLines.svg  style="width:32px;">. [Oś otworu](TechDraw_Extension_CircleCenterLines/pl.md): dodaje linie środkowe do okręgów i łuków. {{Version/pl|0.20}}
+
+-   <img alt="" src=images/TechDraw_Extension_ThreadHoleSide.svg  style="width:32px;"> [Oś otworu, widok z boku](TechDraw_Extension_ThreadHoleSide/pl.md): dodaje symboliczną linię do bocznego widoku otworu. {{Version/pl|0.20}}
+
+-   <img alt="" src=images/TechDraw_Extension_ThreadHoleBottom.svg  style="width:32px;">. [Otwór gwintowany, widok od dołu](TechDraw_Extension_ThreadHoleBottom/pl.md): dodaje symboliczny gwint do widoku otworów od dołu. {{Version/pl|0.20}}
+
+-   <img alt="" src=images/TechDraw_Extension_ThreadBoltSide.svg  style="width:32px;">. [Symbol gwintu, widoku boczny śruby](TechDraw_Extension_ThreadBoltSide/pl.md): dodaje symbole gwintu do widoku bocznego śruby. {{Version/pl|0.20}}
+
+-   <img alt="" src=images/TechDraw_Extension_ThreadBoltBottom.svg  style="width:32px;">. [Symbol gwintu, widoku śruby od od dołu](TechDraw_Extension_ThreadBoltBottom/pl.md): dodaje symbol gwintu do widoku śruby od dołu. {{Version/pl|0.20}}
+
 ## Dodatkowe właściwości 
 
 -   [Grupy linii](TechDraw_LineGroup/pl.md): domyślne wagi można przypisać do różnych typów linii.
@@ -191,4 +210,4 @@ Wideo poradniki przygotowane przez użytkownika sliptonic
 
 }} 
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

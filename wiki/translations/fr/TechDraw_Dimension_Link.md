@@ -7,9 +7,6 @@
    SeeAlso:[TechDraw Vue](TechDraw_View/fr.md), [TechDraw Groupe de projection](TechDraw_ProjectionGroup/fr.md)
 ---
 
-
-</div>
-
 ## Description
 
 L\'outil Dimension Link crée un lien entre la géométrie 3D et une ou plusieurs dimensions projetées existantes sur une page. Ce lien permet à la dimension d\'utiliser des valeurs 3D réelles au lieu de valeurs projetées 2D.
@@ -20,9 +17,9 @@ Dimension Link demande à la dimension de calculer sa valeur directement à part
 
 ## Utilisation
 
-1.  Créez une cote appropriée sur la page de dessin en utilisant l\'un des outils [Longueur](TechDraw_Dimension_Length/fr.md), [Cote horizontale](TechDraw_Dimension_Horizontal/fr.md), etc. Cette cote sera au bon endroit sur la page mais affichera la dimension de la valeur projetée.
+1.  Créez une cote appropriée sur la page de dessin en utilisant l\'un des outils [TechDraw Cote de longueur](TechDraw_Dimension_Length/fr.md), [TechDraw Cote horizontale](TechDraw_Dimension_Horizontal/fr.md), etc. Cette cote sera au bon endroit sur la page mais affichera la dimension de la valeur projetée.
 2.  Sélectionnez la géométrie dans la vue 3D, par exemple une arête, qui correspond à la géométrie projetée de votre cote.
-3.  Appuyez sur le bouton**<img src="images/TechDraw_Dimension_Link.svg" width=16px> [Lier une cote à une géométrie 3D](TechDraw_Dimension_Link/fr.md)
+3.  Appuyez sur le bouton**<img src="images/TechDraw_Dimension_Link.svg" width=16px> [TechDraw Lier une cote à une géométrie 3D](TechDraw_Dimension_Link/fr.md)
 **
 4.  Une boîte de dialogue va s\'ouvrir. Sélectionnez 1 ou plusieurs dimensions à associer à la géométrie 3D sélectionnée.
 5.  Appuyer sur **OK**.
@@ -31,7 +28,7 @@ Une fois l\'opération de liaison terminée, la propriété {{PropertyData/fr|Me
 
 ## Limitations
 
-1.  Les liens de dimension sont très sensibles au problème de \"nommage topologique\". Consultez les informations de l\'outil [TechDraw Dimension Longueur](TechDraw_Dimension_Length/fr.md) pour plus d\'informations. Il est recommandé que les dimensions liées constituent l\'une des dernières étapes de votre processus de dessin.
+1.  Les liens de dimension sont très sensibles au problème de \"nommage topologique\". Consultez les informations de l\'outil [TechDraw Cote de longueur](TechDraw_Dimension_Length/fr.md) pour plus d\'informations. Il est recommandé que les dimensions liées constituent l\'une des dernières étapes de votre processus de dessin.
 
 
 
@@ -64,13 +61,7 @@ to be defined
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{TechDraw Tools navi

@@ -44,7 +44,13 @@ Scopul acestui explorator este pur și simplu să vă permită să verificați c
 <div class="mw-translate-fuzzy">
 
 
-{{docnav/ro|[Check](Arch_Check/ro.md)|[Toggle IFC Brep flag](Arch_ToggleIfcBrepFlag/ro.md)|[Arch](Arch_Module/ro.md)|IconL=Arch_Check.svg |IconC=Workbench_Arch.svg |IconR=Arch_ToggleIfcBrepFlag.svg}}
+{{docnav/ro
+|[Check](Arch_Check/ro.md)|[Toggle IFC Brep flag](Arch_ToggleIfcBrepFlag/ro.md)
+|[Arch](Arch_Workbench/ro.md)
+|IconL=Arch_Check.svg
+|IconC=Workbench_Arch.svg
+|IconR=Arch_ToggleIfcBrepFlag.svg
+}}
 
 
 </div>
@@ -52,4 +58,4 @@ Scopul acestui explorator este pur și simplu să vă permită să verificați c
 
  
 
-[Category:BIM{{\#translation:}}](Category:BIM.md)
+[Category:BIM](Category:BIM.md)

@@ -1,3 +1,5 @@
+# Macro CartoucheFC Full/it
+
 
 
 
@@ -8,7 +10,7 @@
 |Name=Macro_CartoucheFC_Full
 |Icon=Macro_CartoucheFC_Full.png
 |Translate=Cartiglio completo
-|Description=Questa macro è una applicazione completa che permette di compilare tutti i campi della tabella del foglio di disegno (Per il modulo [Drawing](Drawing_Module/it.md)).
+|Description=Questa macro è una applicazione completa che permette di compilare tutti i campi della tabella del foglio di disegno (Per il modulo [Drawing](Drawing_Workbench/it.md)).
 |Author=Mario52
 |Version=00.10
 |Date=2017-02-15

@@ -1,3 +1,5 @@
+# Direct modeling tools
+
 
 {{VeryImportantMessage|An effort to implement direct modelling methodologies is currently being explored at https://github.com/MariwanJ/Design456}}
 
@@ -49,4 +51,4 @@ Medium
 -   Ticket [\#3353: Direct modeling tools](https://tracker.freecadweb.org/view.php?id=3353) tracking efforts to implement this feature
 -   Ticket [\#1367: Extend Draft Edit mode to work with 3D shapes](https://tracker.freecadweb.org/view.php?id=1367)
 
-[Category:Google Summer of Code{{\#translation:}}](Category:Google_Summer_of_Code.md)
+[Category:Google Summer of Code](Category:Google_Summer_of_Code.md)

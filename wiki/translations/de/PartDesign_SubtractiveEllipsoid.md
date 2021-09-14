@@ -19,10 +19,16 @@ Fügt ein abzuziehendes Ellipsoid in den aktiven Körper (Body) ein. Die Form wi
 
 ## Anwendung
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Auf die Schaltfläche **<img src="images/PartDesign_SubtractiveEllipsoid.svg" width=24px> '''Abzuziehendes Ellipsoid'''** klicken. **Anmerkung**: Abzuziehendes Ellipsoid ist Teil des benannten Symbols *Erzeuge einen abzuziehenden Grundkörper*. Direkt nach dem Start von FreeCAD wird das Symbol von „Abzuziehender Quader" in der Werkzeugleiste angezeigt. Wenn ein anderer Grundkörper zu sehen ist, kann durch Klicken auf den Pfeil neben dem Symbol das abzuziehende Ellipsoid in dem aufklappenden Menü ausgewählt werden.
 2.  Die Parameter des Grundkörpers und über [Attachment](Part_Attachment/de.md) den räumlichen Bezug einstellen.
 3.  Mit Klick auf **OK** bestätigen.
 4.  Das Feature (Formelement) Ellipsoid erscheint unterhalb des aktiven Körpers (Body).
+
+
+</div>
 
 ## Optionen
 
@@ -32,6 +38,9 @@ Das Ellipsoid kann auf zwei verschieden Wege bearbeitet werden:
 -   Mittels des [Eigenschafteneditors](Property_editor/de.md) im Reiter Daten.
 
 ## Eigenschaften
+
+
+<div class="mw-translate-fuzzy">
 
 -    {{PropertyData/de|Attachment}}: Bestimmt den Befestigungsmodus und den Befestigungsversatz. Siehe [Befestigung](Part_Attachment/de.md).
 
@@ -48,6 +57,9 @@ Das Ellipsoid kann auf zwei verschieden Wege bearbeitet werden:
 -    {{PropertyData/de|Angle2}}: (ohne Beschriftung in dem Dialog Parameter des Grundkörpers) Die obere Verkürzung des Ellipsoids, normal zur Z-Achse (90° in einem vollen Rotationsellipsoid).
 
 -    {{PropertyData/de|Angle3}}: (mit *U-Parameter:* in dem Dialog Parameter des Grundkörpers bezeichnet) Rotationswinkel des halben elliptischen Querschnitts (360° in einem vollen Rotationsellipsoid).
+
+
+</div>
 
 
 

@@ -1,5 +1,12 @@
 ---
-- GuiCommand:/tr   Name:Bezier eğrisi   Name/tr:Bezier eğrisi   Workbenches:[Yapı](Draft_Module/tr___Taslak]],_[[Arch_Module/tr.md)|MenuLocation:Taslak → Bezier eğrisi   Shortcut:B Z---
+- GuiCommand:/tr
+   Name:Bezier eğrisi
+   Name/tr:Bezier eğrisi
+   MenuLocation:Taslak → Bezier eğrisi
+   Workbenches:[Taslak](Draft_Workbench/tr.md), [Yapı](Arch_Workbench/tr.md)
+   Shortcut:B Z
+   Version:0.14
+---
 
 
 </div>

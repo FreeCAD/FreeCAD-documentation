@@ -1,26 +1,27 @@
 ---
-- GuiCommand:
-   Name:Sketcher ConstrainBlock
-   MenuLocation:Sketch → Sketcher constraints → Constrain Block
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
+- GuiCommand:/ru
+   Name/ru:Ограничение перемещения
+   Name:Sketcher_ConstrainBlock
+   MenuLocation:Sketch → Ограничения эскиза → Constrain Block
+   Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
    Version:0.17
-   SeeAlso:[Sketcher Constrain Lock](Sketcher_ConstrainLock.md)
+   SeeAlso:[Ограничение положения](Sketcher_ConstrainLock/ru.md)
 ---
 
-## Description
+## Описание
 
-**Constrain Block** blocks a geometric element in place with a single constraint.
+**Блокирующее ограничение** фиксирует геометрический элемент в указанном месте, одним нажатием.
 
 It is mainly intended to be used with **<img src=images/Sketcher_CreateBSpline.svg style="width:16px"> [B-Splines](Sketcher_CreateBSpline.md)**, which can be difficult to fully constrain otherwise.
 
-## Usage
+## Применение
 
-1.  Select an element to constrain.
-2.  Press the **<img src=images/Sketcher_ConstrainBlock.svg style="width:16px"> [Constrain Block](Sketcher_ConstrainBlock.md)** button.
+1.  Выберите элемент, степень свободы которого вы хотите ограничить.
+2.  Нажмите на кнопку **<img src=images/Sketcher_ConstrainBlock.svg style="width:16px"> [Ограничение (Привязка)](Sketcher_ConstrainBlock/ru.md)**.
 
-Or press the button first, and then select the elements.
+Или наоборот в начале нажмите кнопку, а потом выберите элемент.
 
-## Scripting
+## Программирование
 
 
 ```pythonSketch.addConstraint(Sketcher.Constraint('Block', Edge))```

@@ -1,3 +1,5 @@
+# French Translation
+
 Ce guide de **traduction en français** est destiné à conseiller sur le choix des meilleurs termes dans notre langue, lorsque ceux-ci peuvent porter à confusion ou dispersion, etc. Le but est de faire la synthèse des recommandations d\'harmonisation débattues sur le forum ou *applicables de fait* par la généralisation de leur pratique.
 
 Chaque recommandation devrait être validée sur le forum en français : **[documentation collaborative (wiki FreeCAD)](https://forum.freecadweb.org/viewtopic.php?p=339497#p339383)** qui est le lieu adapté pour les échanges. Le lien entre le post de validation et cette page est à faire (ex: [toujours traduire Workbench par « **Atelier** »](https://forum.freecadweb.org/viewtopic.php?f=12&t=26755&hilit=convention+documentation&start=50#p214529)).

@@ -1,3 +1,5 @@
+# Macro merge duplicate materials
+
   {{Macro
 |Name=Macro merge duplicate materials
 |Icon=Macro_merge_duplicate_materials.png
@@ -15,9 +17,7 @@ Merges materials that have the same base name (with different numeral endings li
 
 ## Script
 
-
-
-ToolBar Icon ![](images/Macro_merge_duplicate_materials.png )
+ToolBar Icon  ![](images/Macro_merge_duplicate_materials.png )
 
 **Merge duplicate materials.FCMacro**
 

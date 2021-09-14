@@ -1,3 +1,5 @@
+# Contributors/zh-cn
+
 
 
 
@@ -251,4 +253,4 @@ Developers of FreeCAD addons (retrieved from <https://github.com/FreeCAD/FreeCAD
 
 
 
-[Category:Developer{{\#translation:}}](Category:Developer.md)
+[Category:Developer](Category:Developer.md)

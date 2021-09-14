@@ -1,3 +1,5 @@
+# Sketcher Workbench/pt-br
+
 
 
 
@@ -19,21 +21,53 @@ A bancada do Sketcher apresenta restrições (\"constraints\"), permitindo que f
 
 *''Um esboço básico totalmente restrito''*
 
+## Basics of constraint sketching 
+
+
+<div class="mw-translate-fuzzy">
+
 ## Noções Básicas de Esboçagem por Restrições 
 
 Para explicar como o Sketcher funciona, pode ser útil compará-lo com a forma \"tradicional\" de desenho.
+
+
+</div>
+
+#### Traditional Drafting 
+
+
+<div class="mw-translate-fuzzy">
 
 #### Desenho Tradicional 
 
 A forma tradicional de elaboração do CAD é herdada da antiga [prancheta de desenho](http://en.wikipedia.org/wiki/Drawing_board). As [vistas ortogonais (2D)](http://en.wikipedia.org/wiki/Multiview_orthographic_projection) são desenhadas manualmente e destinadas à produção de desenhos técnicos (também conhecidos como plantas). Os objetos são desenhados precisamente no tamanho ou dimensão/cota pretendidos. Se você deseja desenhar uma linha horizontal de 100 mm de comprimento começando em (0,0), ative a ferramenta de linha, clique na tela ou insira as coordenadas (0,0) para o primeiro ponto e, em seguida, dê um segundo clique ou insira as coordenadas do segundo ponto em (100,0). Você também pode traçar sua linha em uma posição qualquer e movê-la depois. Quando terminar de desenhar as geometrias, basta adicionar as cotas.
 
+
+</div>
+
+#### Constraint Sketching 
+
+
+<div class="mw-translate-fuzzy">
+
 #### Esboçagem por Restrições 
 
 O **Sketcher** afasta-se dessa lógica. Os objetos não precisam ser desenhados exatamente como se pretende, porque eles serão definidos posteriormente por restrições. Os objetos podem ser desenhados livremente e, desde que ainda não tenham restrições, podem ser modificados. Na verdade, eles estão \"flutuando\" e podem ser movidos, esticados, girados, redimensionados e assim por diante. Isso proporciona grande flexibilidade no processo de design.
 
+
+</div>
+
+#### What are constraints? 
+
+
+<div class="mw-translate-fuzzy">
+
 #### O Que São Restrições? 
 
 Em vez de cotas, restrições são usadas para limitar os graus de liberdade de um objeto. Por exemplo, uma linha sem restrições tem 4 graus de liberdade - (em inglês, [Degrees Of Freedom](#Degrees_Of_Freedom.md) - abreviado como \" DOF \"): ela pode ser movida horizontal e verticalmente, pode ser estendida/encurtada, e pode ser rotacionada.
+
+
+</div>
 
 Aplicar uma restrição horizontal ou vertical, ou uma restrição angular (em relação a outra linha ou a um dos eixos), limitará sua capacidade de rotação, deixando-a com 3 graus de liberdade. Travar um de seus pontos em relação à origem removerá outros 2 graus de liberdade, e a aplicação de uma restrição de tamanho (dimensão) removerá o último grau de liberdade. A linha é então considerada **totalmente restrita**.
 
@@ -41,14 +75,22 @@ Vários objetos podem ser restringidos entre si. Duas linhas podem ser unidas po
 
 Existem dois tipos de restrições: geométricas e dimensionais. Eles são detalhados na seção [\'As Ferramentas\'](#As_Ferramentas/pt-br.md) abaixo.
 
+#### What the Sketcher is not good for 
+
+
+<div class="mw-translate-fuzzy">
+
 #### Para que o Sketcher não Serve 
 
 O Sketcher não se destina à produção de plantas 2D. Depois que os esboços são usados para gerar um sólido, eles são automaticamente ocultados. As restrições são visíveis apenas no modo de edição de esboço.
 
 
+</div>
+
+
 <div class="mw-translate-fuzzy">
 
-Se você só precisa produzir visualizações 2D para impressão e não deseja criar modelos 3D, verifique a [Draft workbench](Draft_Module/pt-br.md). Ao contrário dos elementos do Sketcher, os objetos Draft não usam restrições; estes são formas simples definidas no momento da sua criação. Tanto o Draft quanto o Sketcher podem ser usados para desenho de geometria 2D e criação de sólidos 3D, embora suas preferências de uso sejam diferentes; o Sketcher é normalmente usado junto com as bancadas [Part](Part_Workbench/pt-br.md) e [PartDesign](PartDesign_Workbench/pt-br.md) para criar sólidos; Draft é normalmente usado para desenhos planos simples sobre uma grade, como ao desenhar uma planta baixa arquitetônica; nessas situações, o Draft é usado principalmente em conjunto com a [bancada de trabalho Arch](Arch_Workbench/pt-br.md). A ferramenta [Draft2Sketch](Draft_Draft2Sketch/pt-br.md) converte um objeto Draft em um objeto Sketch e vice-versa; muitas ferramentas que requerem um elemento 2D como entrada funcionam com qualquer desses objetos, já que uma conversão interna é feita automaticamente.
+Se você só precisa produzir visualizações 2D para impressão e não deseja criar modelos 3D, verifique a [Draft workbench](Draft_Workbench/pt-br.md). Ao contrário dos elementos do Sketcher, os objetos Draft não usam restrições; estes são formas simples definidas no momento da sua criação. Tanto o Draft quanto o Sketcher podem ser usados para desenho de geometria 2D e criação de sólidos 3D, embora suas preferências de uso sejam diferentes; o Sketcher é normalmente usado junto com as bancadas [Part](Part_Workbench/pt-br.md) e [PartDesign](PartDesign_Workbench/pt-br.md) para criar sólidos; Draft é normalmente usado para desenhos planos simples sobre uma grade, como ao desenhar uma planta baixa arquitetônica; nessas situações, o Draft é usado principalmente em conjunto com a [bancada de trabalho Arch](Arch_Workbench/pt-br.md). A ferramenta [Draft2Sketch](Draft_Draft2Sketch/pt-br.md) converte um objeto Draft em um objeto Sketch e vice-versa; muitas ferramentas que requerem um elemento 2D como entrada funcionam com qualquer desses objetos, já que uma conversão interna é feita automaticamente.
 
 
 </div>
@@ -69,9 +111,17 @@ Depois que um esboço está totalmente restrito, seu contorno ficará verde; a g
 
 </div>
 
+## The tools 
+
+
+<div class="mw-translate-fuzzy">
+
 ## As Ferramentas 
 
 As ferramentas da bancada Sketcher estão todas localizadas no menu Sketch que aparece quando você carrega a bancada.
+
+
+</div>
 
 ### Gerais
 
@@ -95,7 +145,13 @@ As ferramentas da bancada Sketcher estão todas localizadas no menu Sketch que a
 
 -   <img alt="" src=images/Sketcher_MirrorSketch.svg  style="width:32px;"> [Espelhar](Sketcher_MirrorSketch/pt-br.md): Espelha um esboço em relação ao eixo x, ao eixo y ou à origem.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_StopOperation.svg  style="width:32px;"> [Parar a operação](Sketcher_StopOperation/pt-br.md): Quando no modo de edição, para a operação atual, seja desenho, configuração de restrições, etc.
+
+
+</div>
 
 ### Geometrias do Sketcher 
 
@@ -174,9 +230,17 @@ Estas são ferramentas para criar objetos.
 
 As restrições são usadas para definir comprimentos, definir regras entre os elementos do esboço e para bloquear o esboço ao longo dos eixos vertical e horizontal. Algumas restrições requerem o uso de [Restrições de ajuda](Sketcher_helper_constraint/pt-br.md).
 
+#### Geometric constraints 
+
+
+<div class="mw-translate-fuzzy">
+
 #### Restrições Geométricas 
 
 Tais restrições não estão associadas a dados numéricos.
+
+
+</div>
 
 -   <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width:32px;"> [Coincidente](Sketcher_ConstrainCoincident/pt-br.md): Afixa um ponto em (coincidente com) um ou mais outros pontos.
 
@@ -198,9 +262,17 @@ Tais restrições não estão associadas a dados numéricos.
 
 -   <img alt="" src=images/Sketcher_ConstrainBlock.svg  style="width:32px;"> [Bloquear](Sketcher_ConstrainBlock/pt-br.md): Impede que uma aresta se mova, ou seja, impede que seus vértices mudem suas posições atuais. Deve ser particularmente útil para corrigir a posição de B-Splines. Veja o tópico [Block Constraint](https://forum.freecadweb.org/viewtopic.php?f=9&t=26572) no fórum.
 
+#### Dimensional constraints 
+
+
+<div class="mw-translate-fuzzy">
+
 #### Restrições Dimensionais 
 
 Estas são restrições associadas a dados numéricos, para os quais você pode usar [expressões](Expressions/pt-br.md). Os dados podem ser retirados de uma [planilha](Spreadsheet_Workbench/pt-br.md).
+
+
+</div>
 
 -   <img alt="" src=images/Sketcher_ConstrainLock.svg  style="width:32px;"> [Restringir](Sketcher_ConstrainLock/pt-br.md): Restringe o item selecionado definindo distâncias verticais e horizontais em relação à origem, travando assim a localização desse item. Essas distâncias podem ser editadas posteriormente.
 
@@ -215,15 +287,29 @@ Estas são restrições associadas a dados numéricos, para os quais você pode 
 -   <img alt="" src=images/Sketcher_ConstrainRadiam.svg  style="width:32px;"> [Radiano](Sketcher_ConstrainRadiam/pt-br.md): Define automaticamente o raio/diâmetro de um arco ou círculo selecionado (peso para um pólo de eixo B, diâmetro para um círculo completo, raio para um arco) <small>(v0.20)</small> 
 -   <img alt="" src=images/Sketcher_ConstrainAngle.svg  style="width:32px;"> [Angulo](Sketcher_ConstrainAngle/pt-br.md): Define o ângulo interno entre duas linhas selecionadas.
 
+
+<div class="mw-translate-fuzzy">
+
 #### Restrições Especiais 
+
+
+</div>
 
 -   <img alt="" src=images/Sketcher_ConstrainSnellsLaw.svg  style="width:32px;"> [A Lei de Snell](Sketcher_ConstrainSnellsLaw/pt-br.md): Restringe duas linhas à obediência a uma lei de refração, para simular a luz que passa por uma interface.
 
 -   <img alt="" src=images/Sketcher_ConstrainInternalAlignment.svg  style="width:32px;"> [Alinhamento interno](Sketcher_ConstrainInternalAlignment/pt-br.md): Alinha os elementos selecionados com a forma selecionada (por exemplo, uma linha, para torná-la o eixo principal de uma elipse).
 
+#### Constraint tools 
+
+
+<div class="mw-translate-fuzzy">
+
 #### Ferramentas de Restrição 
 
 As seguintes ferramentas podem ser usadas para modificar o efeito das restrições:
+
+
+</div>
 
 -   <img alt="" src=images/Sketcher_ToggleDrivingConstraint.svg  style="width:32px;"> [Alternar restrição de direção/referência](Sketcher_ToggleDrivingConstraint/pt-br.md): Alterna a barra de ferramentas ou as restrições selecionadas de/para o modo de referência.
 
@@ -233,37 +319,121 @@ As seguintes ferramentas podem ser usadas para modificar o efeito das restriçõ
 
 -   <img alt="" src=images/Sketcher_SelectElementsWithDoFs.svg  style="width:32px;"> [ Exibindo os graus de liberdade](Sketcher_SelectElementsWithDoFs/pt-br.md): Destaca em verde a geometria com graus de liberdade (GDLs), isto é, não toalmente restrita.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_CloseShape.svg  style="width:32px;"> [Forma fechada](Sketcher_CloseShape/pt-br.md): Cria uma forma fechada aplicando restrições coincidentes a exremidades.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Sketcher_ConnectLines.svg  style="width:32px;"> [Conectar bordas](Sketcher_ConnectLines/pt-br.md): Conecta elementos do Sketcher aplicando restrições de coincidência nas extremidades.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_SelectConstraints.svg  style="width:32px;"> [Selecione Restrições](Sketcher_SelectConstraints/pt-br.md): Seleciona as restrições de um elemento do Sketcher.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Sketcher_SelectElementsAssociatedWithConstraints.svg  style="width:32px;"> [Selecione Elementos Associados a Restrições](Sketcher_SelectElementsAssociatedWithConstraints/pt-br.md): Seleciona elementos do Sketcher associados com restrições.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_SelectRedundantConstraints.svg  style="width:32px;"> [Selecione Restrições Redundantes](Sketcher_SelectRedundantConstraints/pt-br.md): Seleciona restrições redundantes de um esboço.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Sketcher_SelectConflictingConstraints.svg  style="width:32px;"> [Selecione Restrições Conflitantes](Sketcher_SelectConflictingConstraints/pt-br.md): Seleciona restrições conflitantes de um esboço.
 
+
+</div>
+
 -   <img alt="" src=images/Sketcher_RestoreInternalAlignmentGeometry.svg  style="width:32px;"> [Mostrar/ocultar geometria interna](Sketcher_RestoreInternalAlignmentGeometry/pt-br.md): Recria o que falta ou deleta geometria interna desnecessária em uma elipse, arco de elipse, hipérbole, parábola ou B-spline.
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Sketcher_SelectOrigin.svg  style="width:32px;"> [Selecionar Origem](Sketcher_SelectOrigin/pt-br.md): Seleciona a origem de um esboço.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_SelectVerticalAxis.svg  style="width:32px;"> [Selecionar Eixo Vertical](Sketcher_SelectVerticalAxis/pt-br.md): Seleciona o eixo vertical de um esboço.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Sketcher_SelectHorizontalAxis.svg  style="width:32px;"> [Selecionar Eixo Horizontal](Sketcher_SelectHorizontalAxis/pt-br.md): Seleciona o eixo horizontal de um esboço.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_Symmetry.svg  style="width:32px;"> [Simetria](Sketcher_Symmetry/pt-br.md): Copia um elemento do sketcher simétrico a uma linha escolhida.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Sketcher_Clone.svg  style="width:32px;"> [Clonar](Sketcher_Clone/pt-br.md): Clona um elemento do Sketcher.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_Copy.svg  style="width:32px;"> [Copiar](Sketcher_Copy/pt-br.md): Copia um elemento do Sketcher.
+
+
+</div>
 
 -   <img alt="" src=images/Sketcher_Move.svg  style="width:32px;"> [Mover](Sketcher_Move/pt-br.md): Move a geometria selecionada tomando como referência o último ponto selecionado.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_RectangularArray.svg  style="width:32px;"> [Matriz Retangular](Sketcher_RectangularArray/pt-br.md): Cria uma matriz de elementos do Sketcher selecionados.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_RemoveAxesAlignment.svg  style="width:32px;"> [Retirar o alinhamento dos eixos](Sketcher_RemoveAxesAlignment/pt-br.md): Remover o alinhamento dos eixos enquanto tenta preservar a relação de restrição da seleção <small>(v0.20)</small> 
+
+
+</div>
 
 -   <img alt="" src=images/Sketcher_DeleteAllGeometry.svg  style="width:32px;"> [Eliminar toda a geometria](Sketcher_DeleteAllGeometry/pt-br.md): Deleta todas as geometrias do esboço.
 
@@ -299,9 +469,17 @@ As seguintes ferramentas podem ser usadas para modificar o efeito das restriçõ
 
 -   <img alt="" src=images/Preferences-general.svg  style="width:32px;"> [Preferências](Sketcher_Preferences/pt-br.md): Preferências para a bancada de trabalho **Sketcher**.
 
+## Best Practices 
+
+
+<div class="mw-translate-fuzzy">
+
 ## Melhores Práticas 
 
 Cada usuário CAD desenvolve sua própria maneira de trabalhar ao longo do tempo, mas existem alguns princípios gerais úteis a seguir.
+
+
+</div>
 
 -   Uma série de esboços simples é mais fácil de gerenciar do que um único e complexo. Por exemplo, um primeiro esboço pode ser criado para o recurso 3D base (um "pad" ou um "revolve"), enquanto um segundo pode conter furos ou recortes ("pockets"). Alguns detalhes podem ser omitidos, para serem adicionados posteriormente como elementos 3D. Você pode escolher evitar filetes em seu esboço se houver muitos e adicioná-los como um elemento 3D.
 -   Sempre crie um perfil fechado, ou seu esboço não produzirá um sólido, mas sim um conjunto de faces abertas. Se você não quiser que alguns dos objetos sejam incluídos na criação do sólido, transforme-os em elementos de construção com a ferramenta Construction Mode.
@@ -331,4 +509,4 @@ A página [Sketcher scripting](Sketcher_scripting/pt-br.md) contém exemplos de 
 
 }} 
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

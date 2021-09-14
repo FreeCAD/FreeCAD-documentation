@@ -1,5 +1,12 @@
 ---
-- GuiCommand:/pt-br   Name:Draft Clone   Name/pt-br:Draft Clone   Workbenches:[Arch](Draft_Module/pt-br___Draft]],_[[Arch_Module/pt-br.md)|MenuLocation:Draft → Clone   SeeAlso:[Draft Scale](Draft_Scale/pt-br.md)---
+- GuiCommand:/pt-br
+   Name:Draft Clone
+   Name/pt-br:Draft Clone
+   MenuLocation:Draft → Clone
+   Workbenches:[Draft](Draft_Workbench/pt-br.md), [Arch](Arch_Workbench/pt-br.md)
+   Shortcut:**C** **L**
+   SeeAlso:[Draft Scale](Draft_Scale/pt-br.md)
+---
 
 
 </div>

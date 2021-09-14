@@ -1,3 +1,5 @@
+# Material data model/ro
+
 
 
 
@@ -235,4 +237,4 @@ codul CSI/MasterFormat (întrucât există mai multe sisteme utilizate în indus
 
 
 
-[Category:Roadmap{{\#translation:}}](Category:Roadmap.md)
+[Category:Roadmap](Category:Roadmap.md)

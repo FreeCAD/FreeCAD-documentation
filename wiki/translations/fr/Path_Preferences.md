@@ -1,3 +1,5 @@
+# Path Preferences/fr
+
 
 
 
@@ -44,4 +46,4 @@ Il y a trois sections: Général, Post-processeur et Configuration.
 
 }} 
 
-[Category:Preferences{{\#translation:}}](Category:Preferences.md)
+[Category:Preferences](Category:Preferences.md)

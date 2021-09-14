@@ -1,18 +1,3 @@
----
-- GuiCommand:
-   Name:FEM PostFilterClipScalar
-   MenuLocation:Results → Scalar clip filter
-   Workbenches:[FEM](FEM_Workbench.md)
-   SeeAlso:[FEM tutorial](FEM_tutorial.md)
----
+# FEM PostCreateScalarClipFilter
 
-## Description
-
-ToDo
-
-## Usage
-
-
-
-
- {{FEM Tools navi}}  
+1.  REDIRECT [FEM\_PostFilterClipScalar](FEM_PostFilterClipScalar.md)

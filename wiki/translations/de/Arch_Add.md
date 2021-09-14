@@ -2,9 +2,9 @@
 - GuiCommand:/de
    Name:Arch Add
    Name/de:Arch hinzufügen
-   MenuLocation:Architektur → Hinzufügen
+   MenuLocation:Arch → Komponente hinzufügen
    Workbenches:[Arch](Arch_Workbench/de.md)
-   SeeAlso:[Arch Entfernen](Arch_Remove/de.md)
+   SeeAlso:[Arch Komponente entfernen](Arch_Remove/de.md)
 ---
 
 ## Beschreibung

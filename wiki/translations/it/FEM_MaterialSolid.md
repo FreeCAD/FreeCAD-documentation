@@ -1,5 +1,12 @@
 ---
-- GuiCommand:/it   Name:FEM_MaterialSolid   Name/it:FEM Materiale per solidi   MenuLocation:Modello → Materiale solido   Workbenches:[Shortcut:**M** **M**   SeeAlso:[[FEM_tutorial/it|FEM tutorial](FEM_Module/it___FEM]].md)---
+- GuiCommand:/it
+   Name:FEM_MaterialSolid
+   Name/it:FEM Materiale per solidi
+   MenuLocation:Modello → Materiale solido
+   Workbenches:[FEM](FEM_Workbench/it.md)
+   Shortcut:**M** **M**
+   SeeAlso:[FEM tutorial](FEM_tutorial/it.md)
+---
 
 
 </div>

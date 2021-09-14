@@ -1,3 +1,5 @@
+# Drawing API example/fr
+
 
 
 ## Introduction
@@ -244,4 +246,4 @@ Vous pouvez procéder comme ci-dessus pour afficher les dimensions sur la page d
 
 }} {{Drawing Tools navi}} 
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Python Code{{\#translation:}}](Category:Python_Code.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)

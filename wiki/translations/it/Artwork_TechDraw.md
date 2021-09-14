@@ -1,4 +1,6 @@
-\_\_NOTOC\_\_ 
+# Artwork TechDraw/it
+
+ 
 
 These icons are in the indicated source path.
 
@@ -31,4 +33,4 @@ The [TechDraw Workbench](TechDraw_Workbench.md) comes with a number of default t
 
 }} 
 
-[Category:TechDraw{{\#translation:}}](Category:TechDraw.md)
+[Category:TechDraw](Category:TechDraw.md)

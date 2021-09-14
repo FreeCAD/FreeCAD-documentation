@@ -8,9 +8,6 @@
    SeeAlso:[Part Balayage](Part_Sweep/fr.md)
 ---
 
-
-</div>
-
 ## Présentation
 
 L\'outil Lissage est utilisé pour créer une face, une coquille ou une forme solide à partir de deux ou plusieurs profils. Les profils peuvent être un point (sommet), ligne (Arête), un fil ou une face. Arêtes et fils peuvent être soit ouverts ou fermés. Il existe différents [limites et complications](Part_Loft/fr#Limitations_et_complications.md), voir ci-dessous, mais les profils peuvent provenir des primitives de l\'atelier Part, de fonctions de l\'atelier Draft et d\'une esquisse.
@@ -107,13 +104,7 @@ Si vous souhaitez modifier la sélection des sections après la création du lof
 La séquence des sections dépend de la séquence des clics dans la liste. Si vous souhaitez apporter des modifications substantielles, il est recommandé de tout désélectionner en premier puis de recommencer la sélection dans le bon ordre.
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
   

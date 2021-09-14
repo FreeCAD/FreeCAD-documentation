@@ -1,3 +1,5 @@
+# Draft Workbench/es
+
 
 
 
@@ -10,7 +12,7 @@
 
 ## Introducción
 
-El <img alt="" src=images/Workbench_Draft.svg  style="width:32px;"> [Ambiente de trabajo borrador](Draft_Module/es.md) permite dibujar objetos 2D simples, y ofrecer diversas herramientas para poderlas modificar después. También proporciona herramientas para definir un plano de trabajo, una cuadrícula y un sistema de enganche para controlar con precisión la posición de su geometría.
+El <img alt="" src=images/Workbench_Draft.svg  style="width:32px;"> [Ambiente de trabajo borrador](Draft_Workbench/es.md) permite dibujar objetos 2D simples, y ofrecer diversas herramientas para poderlas modificar después. También proporciona herramientas para definir un plano de trabajo, una cuadrícula y un sistema de enganche para controlar con precisión la posición de su geometría.
 
 Los objetos 2D creados pueden utilizarse para el dibujo general de forma similar a como se hace con Inkscape o Autocad. Estas formas 2D también pueden utilizarse como componentes base de objetos 3D creados con otros Ambientes de trabajo, por ejemplo, el <img alt="" src=images/Workbench_Part.svg  style="width:32px;"> [Pieza](Part_Workbench/es.md) y <img alt="" src=images/Workbench_Arch.svg  style="width:32px;"> [Ambiente de trabajo Arquitectura](Arch_Workbench/es.md). Conversión de objetos de Borrador a <img alt="" src=images/Workbench_Sketcher.svg  style="width:32px;"> [Bocetos](Sketcher_Workbench/es.md) también es posible, lo que significa que las formas también se pueden utilizar con el <img alt="" src=images/Workbench_PartDesign.svg  style="width:32px;"> [Ambiente de trabajo Diseño Piezas](PartDesign_Workbench/es.md) para la creación de cuerpos sólidos.
 
@@ -309,4 +311,4 @@ Donde `$INSTALLDIR` es el directorio de nivel superior donde se instaló el soft
 
  
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

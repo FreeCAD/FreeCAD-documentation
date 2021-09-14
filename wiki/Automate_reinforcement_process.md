@@ -1,3 +1,5 @@
+# Automate reinforcement process
+
 This page is dedicated to the description of the Google Summer of Code project idea regarding automate reinforcement process of Rebar Addon. The linked wiki page can also serve as a starting point to get into this project.
 
 ## Project detail 

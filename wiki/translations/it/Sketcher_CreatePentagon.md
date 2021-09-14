@@ -23,6 +23,8 @@ Disegna un pentagono inscritto nella circonferenza che costituisce la sua geomet
 
 </div>
 
+## Notes
+
 
 <div class="mw-translate-fuzzy">
 
@@ -43,4 +45,4 @@ Quando si edita lo schizzo il cerchio circoscritto è visibile, quando si chiude
 
 {{Sketcher Tools navi
 
-}}  
+}} 

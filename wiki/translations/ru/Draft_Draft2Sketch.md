@@ -3,7 +3,7 @@
    Name:Draft Draft2Sketch
    Name/ru:Draft Draft2Sketch
    MenuLocation:Черчение → Преобразовать в эскиз
-   Workbenches:[Draft](Draft_Module/ru.md), [Arch](Arch_Module/ru.md)
+   Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
    SeeAlso:[Sketcher](Sketcher_Workbench/ru.md), [PartDesign](PartDesign_Workbench/ru.md)
 ---
 

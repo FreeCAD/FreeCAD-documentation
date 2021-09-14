@@ -1,3 +1,5 @@
+# Compile on Linux/fr
+
 
 
 
@@ -1213,4 +1215,4 @@ Pour mettre à jour FreeCAD vers la dernière version, recommencez à partir de 
 
 
 
-[Category:Developer\_Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Developer{{\#translation:}}](Category:Developer.md)
+[Category:Developer\_Documentation](Category:Developer_Documentation.md) [Category:Developer](Category:Developer.md)

@@ -1,3 +1,5 @@
+# Macro Python Assistant Window
+
   {{Macro
 |Name=Macro Python Assistant Window
 |Description=This macro provides a cut/copy/paste workspace for Python code, it is segmented so different sections can be selected and it is persistent between FreeCAD sessions.

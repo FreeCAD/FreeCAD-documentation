@@ -1,3 +1,5 @@
+# Plot Basic tutorial/it
+
 
 
 
@@ -24,6 +26,11 @@ In questo tutorial impareremo come creare un grafico di base utilizzando il modu
 
 </div>
 
+<img alt="" src=images/Plot_Trigonometric_Example.png  style="width:600px;">
+
+
+<div class="mw-translate-fuzzy">
+
 <img alt="Esempio di grafico" src=images/Plot_Trigonometric_Example.png  style="width:600px;">
 
 
@@ -33,6 +40,9 @@ Esempio di grafico.
 
 
 </center>
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -51,9 +61,19 @@ Nell\'immagine precedente si può vedere il risultato che si intende ottenere. Q
 
 </div>
 
+## Plotting data 
+
+
+<div class="mw-translate-fuzzy">
+
 ## Tracciare i dati 
 
 Per tracciare i dati non è necessario creare un nuovo documento di FreeCAD, è sufficiente visualizzare la console Python e iniziare a inviare i comandi, o usare le [macro](Macros/it.md).
+
+
+</div>
+
+### Creating plot document 
 
 
 <div class="mw-translate-fuzzy">
@@ -69,16 +89,34 @@ Creare un documento personale per il grafico dà 2 vantaggi:
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 Per creare un nuovo documento grafico lanciare semplicemente i seguenti comandi nel terminale Python:
 
 
+</div>
+
+
 ```python
-import Plot
+try:
+    from FreeCAD.Plot import Plot
+except ImportError:
+    from freecad.plot import Plot
+
 Plot.figure("TrigonometricTest")
 ```
 
+
+<div class="mw-translate-fuzzy">
+
 Questi comandi creano un nuovo documento nella finestra principale chiamato **TrigonometricTest**.
 Il nuovo documento appena creato possiede già di un sistema di assi. Ogni documento di Grafico deve avere almeno una serie di assi che non possono essere rimossi senza il completo controllo di matplotlib.
+
+
+</div>
+
+### Drawing functions 
 
 
 <div class="mw-translate-fuzzy">
@@ -108,7 +146,13 @@ Questo crea 3 array di dati (con 101 punti):
 -   *s* = Funzione seno.
 -   *c* = Funzione coseno.
 
+
+<div class="mw-translate-fuzzy">
+
 Per tracciare entrambe le funzioni basta lanciare i seguenti comandi:
+
+
+</div>
 
 
 ```python
@@ -116,13 +160,29 @@ Plot.plot(t,s)
 Plot.plot(t,c)
 ```
 
+
+<div class="mw-translate-fuzzy">
+
 Questi comandi tracciano le funzioni. Il comando **plot** ammette anche l\'etichetta della serie come terzo argomento, ma dato che si intende modificare questi dati in un momento successivo, utilizzando gli strumenti del modulo Grafico, non li passiamo ancora.
 
+
+</div>
+
 ## Configurazione del grafico 
+
+### Showing grid and legend 
+
+
+<div class="mw-translate-fuzzy">
 
 ### Mostrare la griglia e la legenda 
 
 Avviare l\'ambiente di lavoro [Grafico](Plot_Module/it.md) di FreeCAD nel menu Visualizza / Ambiente /. Quando il modulo è stato caricato, utilizzare lo strumento **Griglia** per mostrarla.
+
+
+</div>
+
+![](images/Plot_Grid.svg‎ )
 
 
 <div class="mw-translate-fuzzy">
@@ -140,9 +200,17 @@ Icona dello strumento per mostrare o nascondere la griglia.
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 È possibile ripetere l\'azione per nasconderla.
 
 Nello stesso modo è possibile visualizzare la **Legenda** con lo strumento corrispondente.
+
+
+</div>
+
+![](images/Plot_Legend.svg )
 
 
 <div class="mw-translate-fuzzy">
@@ -169,9 +237,19 @@ Nel modulo [Grafico](Plot_Module/it.md) le serie senza una etichetta assegnata n
 
 </div>
 
+### Setting series label 
+
+
+<div class="mw-translate-fuzzy">
+
 ### Impostare l\'etichetta della serie 
 
 Con lo strumento **Serie** è possibile modificare alcuni parametri della serie.
+
+
+</div>
+
+![](images/Plot_Series.svg‎ )
 
 
 <div class="mw-translate-fuzzy">
@@ -189,30 +267,60 @@ Icona dello strumento per editare la serie.
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 In primo luogo selezionare la linea che si desidera modificare, ad esempio, si può iniziare con la prima.
 Deselezionare la casella **No label** (Nessuna etichetta) e impostare questa etichetta:
+
+
+</div>
 
 
 ```python
 $y = \sin \left( 2 \pi t \right)$
 ```
 
+
+<div class="mw-translate-fuzzy">
+
 Poiché [LaTeX](http://www.latex-project.org) è supportato da [matplotlib](http://matplotlib.org) è possibile utilizzarlo per impostare tutte le etichette o i titoli che si desidera.
 Impostare la seguente etichetta per la seconda serie:
+
+
+</div>
 
 
 ```python
 $y = \cos \left( 2 \pi t \right)$
 ```
 
+### Setting series style 
+
+
+<div class="mw-translate-fuzzy">
+
 ### Impostare lo stile della serie 
 
 Lo strumento **Serie** consente di impostare diverse proprietà della serie.
 Provare a impostare le proprietà di visualizzazione per ottenere delle curve come quelle dell\'esempio, cambiare i colori della serie e lo stile di disegno della seconda curva.
 
+
+</div>
+
+### Setting axes labels 
+
+
+<div class="mw-translate-fuzzy">
+
 ### Impostare le etichette degli assi 
 
 Con lo strumento **Etichette** è possibile impostare le etichette associate a ogni asse creato.
+
+
+</div>
+
+![](images/Plot_Labels.svg‎ )
 
 
 <div class="mw-translate-fuzzy">
@@ -236,11 +344,27 @@ Impostare i seguenti titoli:
 -   X Label = \$t\$
 -   Y Label = \$y = \\mathrm{f} \\left( t \\right)\$
 
+
+<div class="mw-translate-fuzzy">
+
 Inoltre impostare le dimensioni di tutti i titoli a 20.
+
+
+</div>
+
+## Saving plot 
+
+
+<div class="mw-translate-fuzzy">
 
 ## Salvare il grafico 
 
 Con lo strumento **Salva grafico** è possibile salvare il grafico come file di immagine in diversi formati.
+
+
+</div>
+
+![](images/Plot_Save.svg )
 
 
 <div class="mw-translate-fuzzy">
@@ -258,8 +382,27 @@ Icona dello strumento Salva grafico.
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 Iniziare con la selezione del percorso di output del file.
 È possibile utilizzare la finestra di selezione file usando il pulsante a destra della riga di edizione del percorso.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 È possibile impostare le dimensioni dell\'immagine di uscita in pollici, ad esempio, si può impostare 11.7x8.3 corrispondente al formato DIN A4.
-Dpi (punti per pollice) controlla la risoluzione delle immagini, ad esempio utilizzando 100 dpi si ottiene un\'immagine di 1170x830 pixel. {{Tutorials navi}} {{Plot Tools navi}} 
+Dpi (punti per pollice) controlla la risoluzione delle immagini, ad esempio utilizzando 100 dpi si ottiene un\'immagine di 1170x830 pixel.
+
+
+</div>
+
+
+{{Tutorials_navi
+
+}} {{Plot_Tools_navi}} 
+
+[Category:External\_Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)

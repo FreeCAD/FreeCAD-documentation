@@ -1,54 +1,41 @@
 ---
-- GuiCommand:/de   Name:Std Undo   Name/de:Std Rückgängig   MenuLocation:[Workbenches:Alle   Shortcut:**Strg**+**Z**   SeeAlso:[[Std Redo/de|Wiederherstellen](Std_Edit_Menu/de___Bearbeiten]]_→_Rückgängig.md)---
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+- GuiCommand:/de
+   Name:Std Undo
+   Name/de:Std Rückgängig
+   MenuLocation:Bearbeiten → Rückgängig
+   Workbenches:Alle
+   Shortcut:**Strg**+**Z**
+   SeeAlso:[Wiederherstellen](Std_Redo/de.md)
+---
 
 ## Beschreibung
 
-Macht genau eine Aktion rückgängig.
-
-
-</div>
-
-The **Std Undo** command undoes the last action.
-
-
-<div class="mw-translate-fuzzy">
+Der **Std Rückgängig**-Befehl macht die letzte Aktion rückgängig.
 
 ## Anwendung
 
-Klicke auf <img alt="" src=images/Std_Undo.png  style="width:32px;"> oder wähle **Bearbeiten** → **<img src="images/Std_Undo.png" width=32px> Rückgängig** aus der Menüleiste.
-Klicke auf den schwarzen Pfeil-nach-unten rechts neben <img alt="" src=images/Std_Undo.png  style="width:32px;">, um aus einer Liste der maximal zwölf letzten Aktionen auswählen zu können.
+1.  Es gibt mehrere Wege, den Befehl aufzurufen:
+    -   Drücke die **<img src="images/Std_Undo.svg" width=16px> [Std Rückgängig](Std_Undo/de.md)**-Schaltfläche.
+2.  Wähle die **Bearbeiten → <img src="images/Std_Undo.svg" width=16px> Rückgängig**-Option aus dem Menü
+    -   Benutze das Tastaturkürzel: **Strg**+**Z**.
+
+## Optionen
+
+-   Um mehrere Aktionen rückgängig zu machen, klicke auf den schwarzen Pfeil-nach-unten rechts neben der **<img src="images/Std_Undo.svg" width=16px> [Std Rückgängig](Std_ReUn/de.md)**-Schaltfläche und wähle aus der Liste aus.
+
+## Einstellungen
+
+-   Die Rückgängig/Wiederherstellen-Funktionalität kann deaktiviert werden, indem **Werkzeuge → Parameter bearbeiten... → BaseApp → Preferences → Document → UsingUndo** auf `False` gesetzt wird, aber dies wird nicht empfohlen. Diese Einstellung kann auch im [Voreinstellungseditor](Preferences_Editor/de#Document.md) geändert werden.
+-   Die maximale Anzahl von Rückgängig/Wiedererstellen-Schritten wird über **Werkzeuge → Parameter bearbeiten... → BaseApp → Preferences → Document → MaxUndoSize** definiert. Diese Einstellung kann auch im [Voreinstellungseditor](Preferences_Editor/de#Document.md) geändert werden.
+
+## Skripten
 
 
-</div>
+**Siehe auch:**
 
-1.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Std_Undo.svg" width=16px> [Std Undo](Std_Undo.md)** button.
-    -   Select the **Edit → <img src="images/Std_Undo.svg" width=16px> Undo** option from the menu.
-    -   Use the keyboard shortcut: **Ctrl**+**Z**.
+[FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-## Options
-
--   To undo multiple actions click on the small black down arrow to the right of the **<img src="images/Std_Undo.svg" width=16px> [Std Undo](Std_Undo.md)** button and select from the list.
-
-## Preferences
-
--   The Undo/Redo functionality can be disabled by setting **Tools → Edit parameters... → BaseApp → Preferences → Document → UsingUndo** to `False`, but this is not recommended. This setting can also be changed in the [Preferences Editor](Preferences_Editor#Document.md).
--   The maximum number of Undo/Redo steps is controlled by **Tools → Edit parameters... → BaseApp → Preferences → Document → MaxUndoSize**. This setting can also be changed in the [Preferences Editor](Preferences_Editor#Document.md).
-
-## Scripting
-
-
-**See also:**
-
-[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
-
-To undo the last action use the `undo` method of the document object.
+Um die letzte Aktion rückgängig zu machen, benutze die `undo`-Methode des document-Objekts.
 
 
 ```python

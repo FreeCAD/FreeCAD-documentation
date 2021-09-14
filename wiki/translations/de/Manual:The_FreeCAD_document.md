@@ -1,3 +1,5 @@
+# Manual:The FreeCAD document/de
+
 
 
 
@@ -14,13 +16,7 @@ Innerhalb des Dokuments können die Objekte in Gruppen verschoben werden und hab
 
 ![](images/Freecad-document-02.jpg )
 
-
-<div class="mw-translate-fuzzy">
-
 Die Objekte in einem FreeCAD Dokument können von unterschiedlichem Typ sein. Jeder Arbeitsbereich kann seine eigenen Objekttypen hinzufügen, zum Beispiel fügt der [Netz Arbeitsbereich](Mesh_Workbench/de.md) Netzobjekte, der [Part Arbeitsbereich](Part_Workbench/de.md) fügt Teilobjekte hinzu, usw.
-
-
-</div>
 
 Wenn in FreeCAD mindestens ein Dokument geöffnet ist, gibt es immer nur ein und nur ein aktives Dokument. Das ist das Dokument, das in der aktuellen 3D Ansicht erscheint, das Dokument, an dem du gerade arbeitest. Wenn du den Reiter zu einem anderen Dokument wechselst, wird dieses zum aktiven Dokument. Die meisten Vorgänge arbeiten immer auf dem aktiven Dokument.
 

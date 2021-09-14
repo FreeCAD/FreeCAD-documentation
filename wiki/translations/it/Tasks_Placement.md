@@ -1,3 +1,5 @@
+# Tasks Placement/it
+
 
 
 ## Descrizione
@@ -126,4 +128,4 @@ Ulteriori informazioni si trovano nella pagina [Posizionamento](Placement/it.md)
 
 
 
-[Category:Command\_Reference{{\#translation:}}](Category:Command_Reference.md)
+[Category:Command\_Reference](Category:Command_Reference.md)

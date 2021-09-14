@@ -1,3 +1,5 @@
+# Gui Command/ru
+
 
 
 
@@ -89,13 +91,7 @@ GuiCommand именуются определенным образом: *ИмяМ
 
 </div>
 
-
-<div class="mw-translate-fuzzy">
-
-**диаграмма цветового кодирования иконок**
-
-
-</div>
+### Диаграмма цветового кодирования иконок 
 
 <img alt="" src=images/Colorchart.png  style="width:200px;">
 

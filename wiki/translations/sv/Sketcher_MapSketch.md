@@ -1,8 +1,23 @@
----
-- GuiCommand:/sv   Name:Sketcher MapSketch   Name/sv:Sketcher MapSketch   Create a sketch on a face|Workbenches:[PartDesign](Sketcher_Workbench/sv___Sketcher]],_[[PartDesign_Workbench/sv.md)|MenuLocation:Part design → Create a sketch on a face   SeeAlso:[Create a sketch](Sketcher_NewSketch/sv.md)---
+# Sketcher MapSketch/sv
+
+
+
+
+<div class="mw-translate-fuzzy">
+
+
+
 
 
 </div>
+
+Translations:Sketcher MapSketch/1 {{GuiCommand/sv
+|Name/sv=Kartera skiss till ytan
+|Name=Sketcher_MapSketch
+|MenuLocation=Part Design/Sketch → Kartera skiss till ytan
+|Workbenches=[Sketcher](Sketcher_Workbench/sv.md), [PartDesign](PartDesign_Workbench/sv.md)
+|SeeAlso=[Skapa skiss](Sketcher_NewSketch/sv.md)
+}}
 
 ## Description
 
@@ -49,11 +64,12 @@ Now we select the top face of Pad and then select the Map A Sketch To A Face too
 <div class="mw-translate-fuzzy">
 
 
+
+
+
 </div>
 
 
 {{Sketcher Tools navi
 
-}}  
-
-[Category:Sketcher/sv](Category:Sketcher/sv.md)
+}} 

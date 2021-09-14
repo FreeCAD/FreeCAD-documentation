@@ -1,3 +1,5 @@
+# Assembly4 Workbench/pl
+
 
 
 <img alt="External workbench icon" src=images/Assembly4_workbench_icon.svg  style="width:128px;">
@@ -38,4 +40,4 @@ Assembly4 was inspired by <img alt="" src=images/A2p_workbench.svg  style="width
 
 
 
-[Category:Addons{{\#translation:}}](Category:Addons.md) [Category:External Workbenches{{\#translation:}}](Category:External_Workbenches.md)
+[Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)

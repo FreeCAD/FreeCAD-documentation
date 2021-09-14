@@ -147,22 +147,9 @@ BentShapeRebar.editBentShapeRebar(Rebar2, 50, 35, 20, 20,
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-{{docnav/fr
-|[Armature en L](Arch_Rebar_LShape/fr.md)
-|[Armature en étrier](Arch_Rebar_Stirrup/fr.md)
-|[Atelier Arch](Arch_Module/fr.md)
-|IconL=Arch_Rebar_LShape.svg
-|IconR=Arch_Rebar_Stirrup.svg
-|IconC=Workbench_Arch.svg
-}}
-
-
-</div>
 
 
  
 
-[Category:Reinforcement{{\#translation:}}](Category:Reinforcement.md)
+[Category:Reinforcement](Category:Reinforcement.md)

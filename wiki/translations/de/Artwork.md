@@ -1,4 +1,6 @@
-\_\_NOTOC\_\_  Hier sind die für FreeCAD erstellte Grafiken. Du kannst sie gerne in anderen Anwendungen wiederverwenden. Wenn Du mit Symbolen beitragen möchtest, lies bitte die [Richtlinen Grafiken](Artwork_Guidelines.md).
+# Artwork/de
+
+  Hier sind die für FreeCAD erstellte Grafiken. Du kannst sie gerne in anderen Anwendungen wiederverwenden. Wenn Du mit Symbolen beitragen möchtest, lies bitte die [Richtlinen Grafiken](Artwork_Guidelines.md).
 
 ## Verschiedene Symbole 
 
@@ -155,4 +157,4 @@ Siehe [Grafik Fehlerhaft](Artwork_Erroneous/de.md).
 
 }}
 
-[Category:Icon{{\#translation:}}](Category:Icon.md) [Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md)
+[Category:Icon](Category:Icon.md) [Category:Developer Documentation](Category:Developer_Documentation.md)

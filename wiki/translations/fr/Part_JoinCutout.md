@@ -8,9 +8,6 @@
    SeeAlso:[Part Connecter](Part_JoinConnect/fr.md), [Part Intégrer](Part_JoinEmbed/fr.md), [Part Opération booléenne](Part_Boolean/fr.md), [Part Évidement](Part_Thickness/fr.md)
 ---
 
-
-</div>
-
 ## Description
 
 L\'outil <img alt="" src=images/Part_JoinCutout.svg  style="width:24px;"> [Part Découpe](Part_JoinCutout/fr.md) crée une découpe dans un objet muré (par exemple, un tuyau) pour s\'adapter à un autre objet à paroi.
@@ -68,7 +65,9 @@ Les algorithmes derrière les outils Joindre sont assez simples et leur compréh
 
 ## Script
 
-L\'outil Joindre peut être utilisé dans des [macros](macros/fr.md) à partir de la console Python en utilisant la fonction suivante : 
+L\'outil Joindre peut être utilisé dans des [macros](macros/fr.md) à partir de la console Python en utilisant la fonction suivante :
+
+
 ```pythonJoinFeatures.makePartJoinFeature(name = 'Cutout', mode = 'Cutout')```
 
 -   Crée une fonction Cutout (découpe) vide (ou une autre fonction Joindre, selon le mode sélectionné). Les propriétés Base et Tool (empreinte) doivent ensuite être attribuées explicitement.
@@ -79,16 +78,9 @@ import JoinFeatures
 j = JoinFeatures.makePartJoinFeature(name = 'Cutout', mode = 'Cutout' )
 j.Base = FreeCADGui.Selection.getSelection()[0]
 j.Tool = FreeCADGui.Selection.getSelection()[1]
-}} L\'outil lui-même est implémenté en Python, voir {{FileName|/Mod/Part/JoinFeatures.py}} ([Github link](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Part/JoinFeatures.py)) là où FreeCAD est installé.
+}}
 
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
+L\'outil lui-même est implémenté en Python, voir {{FileName|/Mod/Part/JoinFeatures.py}} ([Github link](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Part/JoinFeatures.py)) là où FreeCAD est installé.
 
 
 

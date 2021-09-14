@@ -1,3 +1,5 @@
+# Manual:Installing/fr
+
 
 
 
@@ -96,4 +98,4 @@ Si vous utilisez Ubuntu, certains des greffons cités au-dessus sont disponibles
 
 
 
-[Category:Poweruser Documentation{{\#translation:}}](Category:Poweruser_Documentation.md) [Category:Tutorials{{\#translation:}}](Category:Tutorials.md)
+[Category:Poweruser Documentation](Category:Poweruser_Documentation.md) [Category:Tutorials](Category:Tutorials.md)

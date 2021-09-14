@@ -1,5 +1,10 @@
 ---
-- GuiCommand:/de   Name:Draft ToggleContinueMode   Name/de:Draft ToggleContinueMode   Workbenches:[Arch](Draft_Module/de___Draft]],_[[Arch_Module/de.md)|MenuLocation:Enwurf → Dienstprogramme → In den Fortsetzungsmodus umschalten---
+- GuiCommand:/de
+   Name:Draft ToggleContinueMode
+   Name/de:Draft ToggleContinueMode
+   Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
+   MenuLocation:Enwurf → Dienstprogramme → In den Fortsetzungsmodus umschalten
+---
 
 
 </div>

@@ -1,3 +1,5 @@
+# Workbenches/de
+
 
 
 
@@ -81,4 +83,4 @@ Neue Arbeitsbereiche sind immer in der Entwicklung, bleib\' dran!
 
 
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

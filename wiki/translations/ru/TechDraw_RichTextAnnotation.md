@@ -1,11 +1,15 @@
 ---
-- GuiCommand:
-   Name:TechDraw RichTextAnnotation
-   MenuLocation:TechDraw → Annotations → Insert Rich Text Annotations
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
+- GuiCommand:/ru
+   Name/ru:Вставка аннотаций форматированным текстом
+   Name:TechDraw_RichTextAnnotation
+   MenuLocation:TechDraw → Заметки → Вставка аннотаций форматированным текстомs
+   Workbenches:[TechDraw](TechDraw_Workbench/ru.md)
    Version:0.19
-   SeeAlso:[TechDraw Templates](TechDraw_Templates.md), [Draft SVG](Draft_SVG.md), [TechDraw Leaderline](TechDraw_LeaderLine.md)
+   SeeAlso:[TechDraw Templates](TechDraw_Templates/ru.md), [Draft SVG](Draft_SVG/ru.md), [Добавить Линию-выноску в Вид](TechDraw_LeaderLine/ru.md)
 ---
+
+
+</div>
 
 ## Описание
 
@@ -32,12 +36,12 @@ The RichTextBlock tool adds a formatted annotation block to a [Leaderline](TechD
 
 -    **AnnoText**: The HTML text of the block.
 
-## Scripting
+## Программирование
 
 
-**See also:**
+**См. так же:**
 
-[TechDraw API](TechDraw_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+[TechDraw API](TechDraw_API/ru.md) и [Основы составления скриптов FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 
 The RichTextBlock tool can be used in [macros](Macros.md) and from the [Python](Python.md) console. 
 ```python

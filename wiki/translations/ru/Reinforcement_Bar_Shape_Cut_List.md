@@ -79,7 +79,7 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 -    **Helical Rebar Dimension Label Format**: The format of the helical rebar dimension label. e.g. \"%L,r=%R,pitch=%P\" where %L -\> Length of helical rebar, %R -\> Helix radius of helical rebar, %P -\> Helix pitch of helical rebar.
 
-## Scripting
+## Программирование
 
 
 **See also:**
@@ -159,7 +159,7 @@ getRebarShapeSVG(
 
 -    `horizontal_shape`specifies if the rebar shape is to be made horizontal by rotating the max length edge of the rebar shape.
 
-#### Example
+#### Пример
 
 
 ```python
@@ -292,7 +292,7 @@ getRebarShapeCutList(
 
 -    `output_file`specifies the output file to write generated rebar shape cut list SVG.
 
-#### Example 
+#### Пример 
 
 
 ```python
@@ -396,6 +396,12 @@ RebarShapeCutListfunc.getRebarShapeCutList(
 ```
 
 
+<div class="mw-translate-fuzzy">
 
 
-[Category:External Command Reference{{\#translation:}}](Category:External_Command_Reference.md) [Category:Reinforcement{{\#translation:}}](Category:Reinforcement.md)
+
+
+
+</div>
+
+[Category:External Command Reference](Category:External_Command_Reference.md) [Category:Reinforcement](Category:Reinforcement.md)

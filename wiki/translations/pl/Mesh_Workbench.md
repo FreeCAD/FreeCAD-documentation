@@ -1,3 +1,5 @@
+# Mesh Workbench/pl
+
 
 
 
@@ -111,4 +113,4 @@ Preferencje Środowiska pracy Mesh można znaleźć w następujących kategoriac
 
 }} 
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

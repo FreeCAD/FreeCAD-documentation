@@ -1,3 +1,5 @@
+# Scripts/de
+
  {{TutorialInfo/de
 |Topic=Skripten
 |Level=Basis
@@ -80,15 +82,9 @@ EPS_C = EPS * -0.5
 
 Der obige Code enthält einige Tricks:
 
+-    `import FreeCAD`Diese Zeile importiert FreeCAD in den FreeCAD Python Interpreter, es mag überflüssig erscheinen, ist es aber nicht.
 
-<div class="mw-translate-fuzzy">
-
--    `import FreeCAD`Diese Zeile importiert FreeCAD in den FreeCAD Python Interpreter, es mag überflüssig erscheinen, ist es aber nicht
-
--    `von der FreeCAD Importbasis, Vektor`Basis und Vektor sind in FreeCAD Skipten weit verbreitet. Wenn du sie auf diese Weise importierst, ersparst du dir den Aufruf mit `FreeCAD.Vector` oder `FreeCAD.Base` anstelle von `Basis` oder `Vektor`, dies erspart viele Tastatureingaben und macht Codezeilen viel kleiner.
-
-
-</div>
+-    `von der FreeCAD Importbasis, Vektor`Basis und Vektor sind in FreeCAD-Skripten weit verbreitet. Wenn du sie auf diese Weise importierst, ersparst du dir den Aufruf mit `FreeCAD.Vector` oder `FreeCAD.Base` anstelle von `Basis` oder `Vektor`, dies erspart viele Tastatureingaben und macht Codezeilen viel kleiner.
 
 Lasse uns mit einem kleinen Skript anfangen, das eine sehr kleine Arbeit leistet, aber die Kraft dieses Ansatzes zeigt.
 
@@ -136,16 +132,10 @@ def base_cyl(nome, ang, rad, alt ):
 
 Auch hier nichts allzu Aufregendes. Aber bitte beachte einige Besonderheiten:
 
-
-<div class="mw-translate-fuzzy">
-
 -   Das Fehlen des üblichen Verweises auf die `App.`, die in vielen Dokumentations Codeschnipseln vorhanden ist, ist beabsichtigt, dieser Code könnte sogar beim Aufruf von FreeCAD als Modul in einem externen Python Interpreter verwendet werden, die Sache ist mit einem AppImage nicht einfach zu bewerkstelligen, aber mit etwas Vorsicht wäre es machbar. Und in dem Standard Motto von Python, dass \"besser explizit als implizit\" `App.` in einer sehr \" dürftigen\" Weise erklärt, woher die Dinge kommen.
--   beachte die Verwendung des dem aktiven Dokument zugewiesenen \"konstanten\" Namens in `DOC` = `FreeCAD. activeDocument()`; activeDocument ist keine \"Konstante\" im strengen Sinne, aber in einer \"semantischen\" Weise ist unser \"aktives Dokument\", das für unseren Gebrauch eine richtige \"Konstante\" ist, so dass die Python Konvention, den \"ALL CAPS\" Namen für \"Konstanten\" zu verwenden, ganz zu schweigen davon, dass `DOC` viel kürzer ist als `FreeCAD.activeDocument()`.
--   jede Methode gibt eine Geometrie zurück, dies wurde in der Fortsetzung der Seite deutlich.
+-   Beachte die Verwendung des dem aktiven Dokument zugewiesenen \"konstanten\" Namens in `DOC` = `FreeCAD. activeDocument()`; activeDocument ist keine \"Konstante\" im strengen Sinne, aber in einer \"semantischen\" Weise ist unser \"aktives Dokument\", das für unseren Gebrauch eine richtige \"Konstante\" ist, so dass die Python Konvention, den \"ALL CAPS\" Namen für \"Konstanten\" zu verwenden, ganz zu schweigen davon, dass `DOC` viel kürzer ist als `FreeCAD.activeDocument()`.
+-   Jede Methode gibt eine Geometrie zurück, dies wird in der Fortsetzung der Seite deutlich.
 -   Geometrie hatte nicht die Eigenschaft `Placement`, wenn die einfachen Geometrien verwendet werden, um komplexere Geometrie zu erstellen, ist die Verwaltung von `Placement` eine umständliche Sache.
-
-
-</div>
 
 Was ist nun mit diesen Geometrien zu tun?
 
@@ -273,16 +263,10 @@ setview()
 
 Lasse uns etwas im Code erklären:
 
-
-<div class="mw-translate-fuzzy">
-
 -   Wir haben eine Methode verwendet, um eine Kugel zu definieren, wobei wir die einfachste Definition verwendet haben und nur den Radius verwendet haben.
--   Wir haben eine zweite Schreibweise für die **Vereingung** oder **Verschmelzung** eingeführt, die mehrere Objekte verwendet, nicht weiter entfernt von dem üblichen **Part::Fuse** es verwendet **Part:Multifuse** und verwendet nur eine Eigenschaft `Formen`, wir haben ein **Tupel** als Argumente übergeben, aber es akzeptiert auch eine **Liste**.
+-   Wir haben eine zweite Schreibweise für die **Vereingung** oder **Verschmelzung** eingeführt, die mehrere Objekte verwendet, nicht weiter entfernt von dem üblichen **Part::Fuse** es verwendet **Part:Multifuse**. Wir verwenden nur eine Eigenschaft `Formen`. Wir haben ein **Tupel** als Argumente übergeben, aber es akzeptiert auch eine **Liste**.
 -   Wir haben ein komplexes Objekt **aeroplano**\' definiert. (italienisches Wort für Flugzeug), aber wir haben es auf eine **\"parametrische\"** Art und Weise getan, indem wir einige Parameter definiert und andere Parameter durch einige Berechnungen auf der Grundlage der Hauptparameter abgeleitet haben.
 -   Wir haben einige Platzierungs `Platzierung` Eigenschaften in der Methode verwendet, und bevor wir die endgültigen Geometrien zurückgeben, haben wir eine `Rotation` Eigenschaft mit der *Gieren-Stampfen-Rollen* Schreibweise verwendet. Beachte die letzten `Vector(0,0, pos_ali)`, die ein **Rotationszentrum** der gesamten Geometrie definieren.
-
-
-</div>
 
   ----------------------------------------------------- ---------------------------------------------- ----------------------------------------------------
   ![aeroplane example](images/Aereo.png )   ![aereo rotated](images/Aereo2.png )   ![Prop Placement](images/Aereo-prop.png )
@@ -328,4 +312,4 @@ Dies ist die Bedeutung des Wortes \"umständlich\", das ich zur Definition der `
 
 }} 
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Python Code{{\#translation:}}](Category:Python_Code.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)

@@ -1,7 +1,7 @@
+# BIM Workbench
 
-{{UnfinishedDocu
 
-}}  
+  
 
 <img alt="BIM External Workbench icon" src=images/IFC.svg  style="width:128px;">
 
@@ -185,4 +185,4 @@ New workbenches are in development, stay tuned!
 
  
 
-[Category:Addons{{\#translation:}}](Category:Addons.md) [Category:External Workbenches{{\#translation:}}](Category:External_Workbenches.md) [Category:BIM{{\#translation:}}](Category:BIM.md)
+[Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md) [Category:BIM](Category:BIM.md)

@@ -1,3 +1,5 @@
+# File Format FCStd/it
+
  {{TOCright}}
 
 ## Overview
@@ -138,7 +140,7 @@ Queste sono le forme [B-rep](wikipedia:Boundary_representation.md) di tutti gli 
 
 <div class="mw-translate-fuzzy">
 
-Nella cartella Templates vengono memorizzati i file dei modelli svg utilizzati nelle pagine di [Disegno tecnico](Drawing_Module/it.md).
+Nella cartella Templates vengono memorizzati i file dei modelli svg utilizzati nelle pagine di [Disegno tecnico](Drawing_Workbench/it.md).
 
 
 </div>
@@ -197,4 +199,4 @@ Un utile programma convertitore: [ImageConv](ImageConv/it.md).
 
  
 
-[Category:Developer{{\#translation:}}](Category:Developer.md) [Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:File\_Formats{{\#translation:}}](Category:File_Formats.md)
+[Category:Developer](Category:Developer.md) [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:File\_Formats](Category:File_Formats.md)

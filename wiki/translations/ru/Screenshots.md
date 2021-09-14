@@ -1,3 +1,5 @@
+# Screenshots/ru
+
  {{TOCright}}
 
 Здесь находятся несколько скриншотов, показывающих различные части FreeCAD. Они не упорядочены по времени, так что изображения могут отличаться от вашей реальной версии. Смотрите другие скриншоты, присылаемые пользователями FreeCAD, в [теме скриншотов форума](http://forum.freecadweb.org/viewtopic.php?f=8&t=4751) и на[\"Show your project here!\" Users Showcase forum part](http://forum.freecadweb.org/viewforum.php?f=24).

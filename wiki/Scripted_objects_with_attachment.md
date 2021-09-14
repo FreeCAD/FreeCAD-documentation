@@ -1,8 +1,10 @@
+# Scripted objects with attachment
+
  
 
 ## Introduction
 
-The purpose of this page is to show a minimal example of [Part Attachment](Part_Attachment.md) feature using [Scripted objects](Scripted_objects.md) in Python.
+The purpose of this page is to show a minimal example of [Part EditAttachment](Part_EditAttachment.md) feature using [Scripted objects](Scripted_objects.md) in Python.
 
 See [full and complete minimal example](#Full_and_Complete_Minimal_Example.md) below.
 
@@ -125,7 +127,7 @@ document.recompute()
 
 ## References
 
--   [Part Attachment](Part_Attachment.md)
+-   [Part EditAttachment](Part_EditAttachment.md)
 -   [FreeCAD Forum - Parametric attachment of scripted object](https://forum.freecadweb.org/viewtopic.php?f=22&t=24794)
 -   [FreeCAD Forum - Port attachment to be an extension](https://forum.freecadweb.org/viewtopic.php?f=10&t=18978&start=10)
 -   [GitHub - freecad-part-attachment-python-example](https://github.com/gbroques/freecad-part-attachment-python-example)
@@ -156,4 +158,4 @@ Note: For FreeCAD 0.19 this tutorial needs a minor update:
 
  {{Powerdocnavi}} 
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Python Code{{\#translation:}}](Category:Python_Code.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)

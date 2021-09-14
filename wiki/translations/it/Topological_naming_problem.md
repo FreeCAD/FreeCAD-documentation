@@ -1,3 +1,5 @@
+# Topological naming problem/it
+
 
 
 ## Introduzione
@@ -5,46 +7,22 @@
 
 {{TOCright}}
 
+Il [problema di denominazione topologica](topological_naming_problem/it.md) in FreeCAD si riferisce al problema di una forma che cambia il suo nome interno dopo l\'esecuzione di un\'operazione di modellazione (pad, taglio, unione, smusso, raccordo, ecc.). Questo si riflette sulle altre funzioni parametriche che dipendono da quella forma e ha come conseguenze che le interrompe o le calcola in modo errato. Questo problema interessa tutti gli oggetti di FreeCAD, ma è particolarmente importante quando si costruiscono solidi con <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench/it.md) e quando si dimensionano questi solidi con <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [TechDraw](TechDraw_Workbench/it.md).
 
-<div class="mw-translate-fuzzy">
+-   In <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench/it.md), se una funzione è supportata su una faccia (o bordo o vertice), la funzione può interrompersi se il solido sottostante cambia dimensione o orientamento, in quanto la faccia originale (o il bordo o vertice) può essere rinominata internamente.
+-   In <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [TechDraw](TechDraw_Workbench/it.md), se una dimensione misura la lunghezza di un bordo proiettato, la dimensione potrebbe interrompersi se il modello 3D viene modificato, poiché modificando il bordo misurato i vertici possono essere rinominati.
 
-Il [problema di denominazione topologica](topological_naming_problem/it.md) in FreeCAD si riferisce al problema di una forma che cambia il suo nome interno dopo l\'esecuzione di un\'operazione di modellazione (pad, taglio, unione, smusso, raccordo, ecc.). Questo si riflette sulle altre funzioni parametriche che dipendono da quella forma e ha come conseguenze che le interrompe o le calcola in modo errato. Questo problema interessa tutti gli oggetti di FreeCAD, ma è particolarmente importante quando si costruiscono solidi con [PartDesign](PartDesign_Workbench/it.md) e quando si dimensionano questi solidi con [TechDraw](TechDraw_Workbench/it.md).
-
--   In PartDesign, se una funzione è supportata su una faccia (o bordo o vertice), la funzione può interrompersi se il solido sottostante cambia dimensione o orientamento, in quanto la faccia originale (o il bordo o vertice) può essere rinominata internamente.
--   In TechDraw, se una dimensione misura la lunghezza di un bordo proiettato, la dimensione potrebbe interrompersi se il modello 3D viene modificato, poiché modificando il bordo misurato i vertici possono essere rinominati.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Il problema di denominazione topologica è un problema complesso nella modellazione CAD che deriva dal modo in cui le routine interne di FreeCAD gestiscono gli aggiornamenti delle forme geometriche create con il kernel OCCT. A partire da FreeCAD 0.18 ci sono sforzi in corso per migliorare la gestione di base delle forme al fine di ridurre o eliminare tali problemi.
-
-
-</div>
+Il problema di denominazione topologica è un problema complesso nella modellazione CAD che deriva dal modo in cui le routine interne di FreeCAD gestiscono gli aggiornamenti delle forme geometriche create con il [kernel OCCT](OpenCASCADE/it.md). A partire da FreeCAD 0.18 ci sono sforzi in corso per migliorare la gestione di base delle forme al fine di ridurre o eliminare tali problemi.
 
 Il problema di denominazione topologica influisce molto spesso e confonde i nuovi utenti di FreeCAD. In PartDesign, l\'utente è invitato a seguire le migliori pratiche discusse nella pagina [Editazione delle funzioni](feature_editing/it.md). Si consiglia vivamente l\'uso di oggetti di riferimento come i [piani](PartDesign_Plane/it.md) ed i [sistemi di coordinate locali](PartDesign_CoordinateSystem/it.md) per produrre modelli che non sono facilmente soggetti a tali errori topologici. In TechDraw, si consiglia all\'utente di aggiungere le quote solo quando il modello 3D è completo e non sarà ulteriormente modificato.
 
 ## Esempio
 
-
-<div class="mw-translate-fuzzy">
-
-1\. In [PartDesign](PartDesign_Workbench/it.md), creare un [Corpo](PartDesign_Body/it.md), poi usare [Nuovo schizzo](PartDesign_NewSketch/it.md) e selezionare il piano XY per disegnare lo schizzo di base; quindi eseguire un [Pad](PartDesign_Pad/it.md) per creare un primo solido.
-
-
-</div>
+1\. In <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench/it.md), creare un <img alt="" src=images/PartDesign_Body.svg  style="width:24px;"> [Corpo](PartDesign_Body/it.md), poi usare <img alt="" src=images/PartDesign_NewSketch.svg  style="width:24px;"> [Nuovo schizzo](PartDesign_NewSketch/it.md) e selezionare il piano XY per disegnare lo schizzo di base; quindi eseguire un <img alt="" src=images/PartDesign_Pad.svg  style="width:24px;"> [Pad](PartDesign_Pad/it.md) per creare un primo solido.
 
 <img alt="" src=images/FreeCAD_topological_problem_01_solid.png  style="width:" height="400px;">
 
-
-<div class="mw-translate-fuzzy">
-
-2\. Selezionare la faccia superiore del solido precedente, quindi usare [Nuovo schizzo](PartDesign_NewSketch/it.md) per disegnare un altro schizzo; quindi eseguire un secondo pad.
-
-
-</div>
+2\. Selezionare la faccia superiore del solido precedente, quindi usare <img alt="" src=images/PartDesign_NewSketch.svg  style="width:24px;"> [Nuovo schizzo](PartDesign_NewSketch/it.md) per disegnare un altro schizzo; quindi eseguire un secondo pad.
 
   ----------------------------------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------
   <img alt="" src=images/FreeCAD_topological_problem_02_solid_sketch_2.png  style="width:" height="400px;">   <img alt="" src=images/FreeCAD_topological_problem_03_solid_2.png  style="width:" height="400px;">
@@ -62,13 +40,7 @@ Il problema di denominazione topologica influisce molto spesso e confonde i nuov
 
 <img alt="" src=images/FreeCAD_topological_problem_07_solid_3.png  style="width:" height="400px;">
 
-
-<div class="mw-translate-fuzzy">
-
-5\. A questo punto, fare nuovamente doppio clic sul secondo schizzo e regolarne i punti in modo che una parte di esso sia fuori dai limiti definiti dal primo pad. In questo modo, il secondo pad viene ricalcolato correttamente, tuttavia, guardando nella vista ad albero, nel terzo pad viene indicato un errore.
-
-
-</div>
+5\. A questo punto, fare nuovamente doppio clic sul secondo schizzo e regolarne i punti in modo che una parte di esso sia fuori dai limiti definiti dal primo pad. In questo modo, il secondo pad viene ricalcolato correttamente, tuttavia, guardando nella [vista ad albero](vista_ad_albero.md), nel terzo pad viene indicato un errore.
 
   ----------------------------------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------
   <img alt="" src=images/FreeCAD_topological_problem_08_solid_sketch_2.png  style="width:" height="400px;">   <img alt="" src=images/FreeCAD_topological_problem_09_solid_2.png  style="width:" height="400px;">
@@ -76,13 +48,7 @@ Il problema di denominazione topologica influisce molto spesso e confonde i nuov
 
 ![](images/FreeCAD_topological_problem_12_broken_tree.png )
 
-
-<div class="mw-translate-fuzzy">
-
-6\. Rendendo visibile il terzo schizzo e pad, è chiaro che il calcolo del nuovo solido non è stato eseguito correttamente. Il terzo schizzo, invece di essere supportato dalla faccia superiore del secondo pad, appare in un posto strano, con la sua normale orientata verso la direzione X. Ciò si traduce in un pad non valido, in quanto questo pad sarebbe scollegato dal resto del [Corpo](PartDesign_Body/it.md), che non è consentito.
-
-
-</div>
+6\. Rendendo visibile il terzo schizzo e pad, è chiaro che il calcolo del nuovo solido non è stato eseguito correttamente. Il terzo schizzo, invece di essere supportato dalla faccia superiore del secondo pad, appare in un posto strano, con la sua normale orientata verso la direzione X. Ciò si traduce in un pad non valido, in quanto questo pad sarebbe scollegato dal resto del <img alt="" src=images/PartDesign_Body.svg  style="width:24px;"> [Corpo](PartDesign_Body/it.md), che non è consentito.
 
 Il problema sembra essere che quando il secondo schizzo è stato modificato, la faccia superiore del secondo pad è stata rinominata da `Face13` a `Face14`. Il terzo schizzo è collegato a `Face13` come era in origine, ma poiché questa faccia è ora sul lato (e non più in alto), lo schizzo segue il suo orientamento e ora è posizionato in modo errato.
 
@@ -102,21 +68,9 @@ La rimappatura di uno schizzo in questo modo può essere eseguita ogni volta che
 
 ## Soluzione
 
-
-<div class="mw-translate-fuzzy">
-
 ![](images/FreeCAD_topological_problem_16_dependency_graph.png )
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
 Il [Grafico delle dipendenze](Std_DependencyGraph/it.md) è uno strumento utile per osservare le relazioni tra i diversi corpi nel documento. L\'utilizzo del flusso di lavoro di modellazione originale rivela la relazione diretta esistente tra gli schizzi e i pad. Come una catena, è facile vedere che questa dipendenza diretta è soggetta a problemi di denominazione topologica se uno qualsiasi dei collegamenti nella sequenza cambia.
-
-
-</div>
 
 Come spiegato nella pagina [Editazione delle funzioni](feature_editing/it.md), una soluzione a questo problema consiste nel supportare gli schizzi non sulle facce ma sui piani di riferimento che sono sfalsati rispetto ai piani principali di Origine del [Corpo](PartDesign_Body/it.md) di PartDesign
 
@@ -159,25 +113,24 @@ Gli oggetti di riferimento, [punti](PartDesign_Point/it.md), [linee](PartDesign_
 
 ## Link
 
+-   [PartDesign Raccordo - Denominazione topologica](PartDesign_Fillet#Topological_naming/it.md)
+-   [Denominazione topologica, il mio punto di vista](https://forum.freecadweb.org/viewtopic.php?t=27278): una possibile soluzione, di realthunder.
+-   [Progetto Denominazione](Naming_project/it.md): sviluppo e progettazione per implementare un sistema di denominazione topologica robusta (persistente e coerente) in FreeCAD.
+-   \[\[Topological\_Naming\_Project/it\|Progetto di denominazione topologica
 
-<div class="mw-translate-fuzzy">
+\]\]: idea per risolvere il problema, di ickby.
 
-[Progetto Denominazione](Naming_project/it.md): sviluppo e progettazione per implementare un sistema di denominazione topologica robusta (persistente e coerente) in FreeCAD.
+-   [Script di dati topologici](Topological_data_scripting/it.md)
+-   \[\[Feature\_editing/it\|Editazione delle funzioni
 
-
-</div>
+\]\]: consigli alternativi per tecniche di modellazione stabili.
 
 ## Video
 
-
-<div class="mw-translate-fuzzy">
-
 -   [Perché i miei modelli FreeCAD si rompono? - \"Problema di denominazione topologica\"](https://youtu.be/6p2vqEEmWq4): Una spiegazione video dei problemi sottostanti al [Problema di denominazione topologica](Topological_naming_problem/it.md)
-
-
-</div>
+-   [FreeCAD è sostanzialmente danneggiato! - E adesso\... Aiutami a decidere\...](https://www.youtube.com/watch?v=QSsVFu929jo): Un video di Maker Tales
 
 
  {{TechDraw Tools navi}} {{PartDesign Tools navi}} 
 
-[Category:Common Questions{{\#translation:}}](Category:Common_Questions.md)
+[Category:Common Questions](Category:Common_Questions.md)

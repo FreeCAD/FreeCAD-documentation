@@ -1,3 +1,5 @@
+# PySide usage snippets
+
  
 
 ## Introduction
@@ -129,4 +131,4 @@ print(unicode(uniteSs, 'iso8859'))
 
  {{Powerdocnavi}} 
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Python Code{{\#translation:}}](Category:Python_Code.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)

@@ -1,3 +1,5 @@
+# Online Help Startpage/pl
+
  
 
 ![150](images/Crystal_Clear_app_tutorials.png )
@@ -23,4 +25,4 @@ Jak może doświadczyłeś czasem, programiści są naprawdę złymi twórcami d
 
 
 
-[Category:User\_Documentation{{\#translation:}}](Category:User_Documentation.md)
+[Category:User\_Documentation](Category:User_Documentation.md)

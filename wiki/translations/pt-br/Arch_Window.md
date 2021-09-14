@@ -1,5 +1,12 @@
 ---
-- GuiCommand:/pt-br   Name:Arch Window   Name/pt-br:Arch Window   Workbenches:[MenuLocation:Arch → Window   Shortcut:W I   SeeAlso:[[Arch Wall/pt-br|Arch Wall](Arch_Module/pt-br___Arch]].md)---
+- GuiCommand:/pt-br
+   Name:Arch Window
+   Name/pt-br:Arch Window
+   MenuLocation:Arch → Window
+   Workbenches:[Arch](Arch_Workbench/pt-br.md)
+   Shortcut:**W** **I**
+   SeeAlso:[Arch Wall](Arch_Wall/pt-br.md)
+---
 
 
 </div>

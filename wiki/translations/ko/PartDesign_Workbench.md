@@ -1,3 +1,5 @@
+# PartDesign Workbench/ko
+
 
 
 
@@ -227,4 +229,4 @@ Some additional functionality found in the Part Design menu:
 
  {{PartDesign Tools navi}}
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

@@ -1,3 +1,5 @@
+# Tracker/ja
+
 
 
 
@@ -194,4 +196,4 @@ For the inquisitive here is the regex MantisBT uses for this operation:
 
 
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Administration{{\#translation:}}](Category:Administration.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Administration](Category:Administration.md)

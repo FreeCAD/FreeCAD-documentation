@@ -1,4 +1,6 @@
- {{UnfinishedDocu}}
+# Manual:BIM modeling/ro
+
+ }
 
 
 
@@ -338,4 +340,4 @@ Our page is now ready, and we can export it to SVG or DXF formats, or print it. 
 
 }} 
 
-[Category:BIM{{\#translation:}}](Category:BIM.md)
+[Category:BIM](Category:BIM.md)

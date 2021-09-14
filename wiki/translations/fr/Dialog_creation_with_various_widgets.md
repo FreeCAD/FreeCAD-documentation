@@ -1,3 +1,5 @@
+# Dialog creation with various widgets/fr
+
 
 
 ## Introduction
@@ -399,4 +401,4 @@ La page de code et les icônes [Qt Exemples](Qt_Example/fr.md)
 
 }} 
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Python Code{{\#translation:}}](Category:Python_Code.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)

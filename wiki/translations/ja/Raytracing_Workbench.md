@@ -1,3 +1,5 @@
+# Raytracing Workbench/ja
+
  
 
 
@@ -182,4 +184,4 @@ These pages refer to a replacement workbench, programmed in C++, proposed around
 
 }} 
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

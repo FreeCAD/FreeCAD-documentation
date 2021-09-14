@@ -4,7 +4,7 @@
    Name/ru:Arch Component‏‎‏‎
    Icon:Arch_Component.svg
    MenuLocation:Arch → Вспомогательные → Компонент
-   Workbenches:[Arch](Arch_Module/ru.md)
+   Workbenches:[Arch](Arch_Workbench/ru.md)
    Shortcut:**C** **M**
    SeeAlso:
 ---
@@ -22,7 +22,7 @@
 
 </div>
 
-## Использование
+## Применение
 
 
 <div class="mw-translate-fuzzy">

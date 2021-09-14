@@ -17,7 +17,7 @@ Insère une Pyramide tronquée soustractive dans le Corps actif. Sa forme est so
 ## Utilisation
 
 1.  Pressez le bouton **<img src="images/PartDesign_SubtractiveWedge.svg" width=24px> '''Pyramide tronquée soustractive'''**. **Remarque**: la pyramide tronquée soustractive fait partie du menu d\'icônes appelé *Créer une primitive soustractive*. Après le lancement de FreeCAD, le Cube soustractif est affiché par défaut dans la barre d\'outils. Pour obtenir la pyramide tronquée soustractive, cliquez sur la flèche vers le bas et choisissez pyramide tronquée soustractive dans le menu.
-2.  Définissez les paramètres de la Primitive et de l\'[ancrage](Part_Attachment/fr.md).
+2.  Définissez les paramètres de la Primitive et de l\'[ancrage](Part_EditAttachment/fr.md).
 3.  Cliquez sur **OK**.
 4.  Une Pyramide tronquée apparaît dans le Corps actif.
 

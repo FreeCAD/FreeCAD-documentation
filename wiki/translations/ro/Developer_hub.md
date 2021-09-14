@@ -1,3 +1,5 @@
+# Developer hub/ro
+
 
 
 ![150](images/Crystal_Clear_app_tutorials.png )
@@ -191,4 +193,4 @@ FreeCAD, deși utilizabilă în anumite domenii, este la începutul unei lungi d
 
 
 
-[Category:Hubs{{\#translation:}}](Category:Hubs.md) [Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md)
+[Category:Hubs](Category:Hubs.md) [Category:Developer Documentation](Category:Developer_Documentation.md)

@@ -1,3 +1,5 @@
+# Workbenches/tr
+
 
 
 
@@ -125,4 +127,4 @@ Yeni tezgahlar geliştiriliyor, bizi izlemeye devam edin!
 
 
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

@@ -1,3 +1,5 @@
+# Interface Customization/de
+
 
 
 
@@ -39,7 +41,8 @@ Auf diesem Reiter kannst Du die verfügbaren Befehle durchsuchen.
 3.  Bewege den Mauszeiger über einen Befehl: Seine Werkzeugspitze wird angezeigt.
 4.  Wähle einen Befehl aus: Sein Statusleistentext wird unterhalb der beiden Paneele angezeigt.
 
-[Anfang](#top.md)
+
+{{Top}}
 
 ### Tastatur
 
@@ -74,7 +77,8 @@ Auf diesem Reiter können benutzerdefinierte Tastaturkürzel definiert werden. T
 -   In V0.19 gibt es ein Problem mit einigen Entwurf Befehlen. Ihre Standard Tastenkürzel funktionieren nicht und/oder ihnen können keine benutzerdefinierten Tastenkürzel zugewiesen werden.
 -   Um eine Standard Tastenkürzel neu zuzuweisen, muss zuerst ein neues Tastenkürzel dem ursprünglichen Befehl zugewiesen werden.
 
-[Anfang](#top.md)
+
+{{Top}}
 
 ### Arbeitsbereiche
 
@@ -108,7 +112,8 @@ Auf diesem Reiter kann die [Arbeitsbereichswählerliste](Std_Workbench/de.md) ge
 
 1.  Drücke die **<img src="images/Button_sort.svg" width=16px>** Schaltfläche.
 
-[Anfang](#top.md)
+
+{{Top}}
 
 ### Werkzeugleisten
 
@@ -174,7 +179,8 @@ Eine inaktive Werkzeugleiste wird im FreeCAD Userinterface nicht angezeigt.
 
 -   In der version 0.19 gibt es ein Problem mit manchen neuen (\'Draft\') Kommandos. Nachdem sie zu einer Werkzeugleiste hinzugefügt wurden müssen sie noch manuell im File {{FileName|user.cfg}} bearbeitet werden. Dazu muss man zunächst das Programm schließen. Suche dann in dem File die entsprechende Werkzeugleiste und ändere in diesem Abschnitt den Inhalt der `FCText`-Elemente, die mit `gui_` beginnen, auf `DraftTools`.
 
-[Anfang](#top.md)
+
+{{Top}}
 
 ### Makros
 
@@ -214,19 +220,16 @@ Wenn du Makros aus einer anderen Quelle verwenden willst, musst du sie manuell i
 2.  Mach die erforderlichen Änderungen. Beachte, daß du Symbole nicht entfernen kannst. Du kannst sie nur ersetzen.
 3.  Drücke die **Ersetzen** Taste.
 
-[Anfang](#top.md)
+
+{{Top}}
 
 ### Spaceball Bewegung 
 
-Wenn kein Spaceball erkannt wurde ist dieser Reiter leer. Siehe: [3DVerbindung Eingabegeräte](3Dconnexion_input_devices/de.md).
-
-[Anfang](#top.md)
+Wenn kein Spaceball erkannt wurde ist dieser Reiter leer. Siehe: [3DVerbindung Eingabegeräte](3Dconnexion_input_devices/de.md). {{Top}}
 
 ### Spaceball Tasten 
 
-Wenn kein Spaceball erkannt wurde ist dieser Tab leer. Siehe: [3Dconnexion input devices](3Dconnexion_input_devices.md).
-
-[Anfang](#top.md)
+Wenn kein Spaceball erkannt wurde ist dieser Tab leer. Siehe: [3Dconnexion input devices](3Dconnexion_input_devices.md). {{Top}}
 
 ## Themen
 
@@ -241,14 +244,7 @@ Du kannst auch ein eigenes Thema erstellen, wenn du mit den Themen, die mit Free
 -    {{Dateiname|$HOME/Library/Preferences/FreeCAD/Gui/Stylesheets}}(unter MacOS).
 
 
-<div class="mw-translate-fuzzy">
-
-Für mehr Details, wie eine Thema zu anzupassen ist, siehe [Themen](Themes/de.md)
-
-
-</div>
-
-[Anfang](#top.md)
+{{Top}}
 
 ## Erweiterungen
 
@@ -282,7 +278,8 @@ Erweiterungen bieten eine weitere Möglichkeit, die Benutzeroberfläche anzupass
 
 -   Github Repositorium: <https://github.com/triplus/ShortCuts>.
 
-[Anfang](#top.md)
+
+{{Top}}
 
 
 

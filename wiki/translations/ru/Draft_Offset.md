@@ -2,9 +2,9 @@
 - GuiCommand:/ru
    Name:Draft Offset
    Name/ru:Draft Offset
-   Workbenches:[Draft](Draft_Module/ru.md), [Arch](Arch_Module/ru.md)
+   Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
    MenuLocation:Черчение → Смещение
-   Shortcut:O S
+   Shortcut:**O** **S**
    SeeAlso:[Part 2D Offset](Part_Offset2D/ru.md)
 ---
 

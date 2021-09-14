@@ -1,3 +1,5 @@
+# Release notes 0.20/pl
+
 
 
 
@@ -60,6 +62,10 @@ Inne wiadomości dotyczące rozwoju:
   ![](images/Improved_tooltips_relnotes_0.20.gif )   Tooltipy wyświetlają teraz nazwę polecenia w tytule, ułatwiając nowym użytkownikom szukanie pomocy. Na końcu podpowiedzi, pomiędzy nawiasami, użytkownik może również przeczytać *(Std\_WhatsThis)*, które dokładnie odpowiadają nazwie strony wiki. [dyskusja na Forum](https://forum.freecadweb.org/viewtopic.php?f=34&t=58747), [pull request \#4502](https://github.com/FreeCAD/FreeCAD/pull/4978).
   -------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+  ------------------------------------------------------------------------------ --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  ![](images/Std_UserEditMode_relnotes_0.20.gif )   Nowe polecenie [Std UserEditMode](Std_UserEditMode/pl.md) pozwala użytkownikowi wybrać tryb edycji, który będzie używany, gdy obiekt zostanie dwukrotnie kliknięty w [Widoku drzewa](Tree_view/pl.md). Jeśli wybrany tryb edycji nie ma zastosowania, zostanie użyty domyślny tryb edycji obiektu.
+  ------------------------------------------------------------------------------ --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ### Dalsze ulepszenia interfejsu użytkownika 
 
 -   Możliwe jest teraz przesuwanie widoku [dependency graph](Std_DependencyGraph.md) za pomocą myszy. [dyskusja na forum](https://forum.freecadweb.org/viewtopic.php?f=3&t=34791), [pull request \#4638](https://github.com/FreeCAD/FreeCAD/pull/4638).
@@ -68,6 +74,10 @@ Inne wiadomości dotyczące rozwoju:
 ## Aplikacja::Łączenie i montaż 
 
 ## System podstawowy, App, baza i przestrzenie nazw GUI 
+
+  ------------------------------------------------------------------------------ --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  ![](images/Object_selection_relnotes_0.20.png )   When using **Edit → Copy** or **Edit → Duplicate selection** for an object with dependencies there is a new **Use Original Selections** button in the object selection dialog. Click this button to copy/duplicate only the objects you originally selected prior to opening the dialog, ignoring dependencies and ignoring any actions you might have taken while the dialog was open, such as checking or unchecking some of the checkboxes. The effect is the same as if you had unchecked all the checkboxes next to the objects you did not originally select and pressed OK. Note: special care should be taken when copying/duplicating TechDraw Pages. It is recommended to also copy/duplicate all of the children of the Page (Templates, Views, Dimensions, etc.). Otherwise changes to one of the Pages will also impact the other page, for example, deleting one of the Views in one Page also removes it from the other Page. Deleting one of the pages will also remove all the content from the other Page if copies of the content are not also made.
+  ------------------------------------------------------------------------------ --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Menadżer dodatków 
 
@@ -105,6 +115,15 @@ Inne wiadomości dotyczące rozwoju:
 ## Środowisko pracy OpenSCAD 
 
 Ulepszono współdziałanie z OpenSCAD, dodając obsługę kilku operacji, których brakowało we wcześniejszych wersjach (wyciągnięcia liniowe z obrotem, wyciągnięcia obrotowe). Kilka operacji zostało zmodyfikowanych, aby zapewnić ulepszone odpowiedniki obiektów FreeCAD, szczególnie w przypadku skręconych wyciągnięć. Zmodyfikowano generowanie powierzchni z danych dyskretnych, aby uzyskać wyniki bardziej podobne do OpenSCAD, niż powierzchnie wielowypustowe.
+
+**Add OpenSCAD element** - now has additional options
+
+Load    - load a scad file
+Save    - save a scad file
+Refresh - Update FreeCAD view
+Clear   - Clear text input
+
+There is also a text box for feedback of OpenSCAD errors.
 
 ## Środowisko pracy Część 
 
@@ -144,6 +163,8 @@ Ulepszono współdziałanie z OpenSCAD, dodając obsługę kilku operacji, któr
 -   Zachowanie funkcji <img alt="" src=images/Sketcher_CreateSlot.svg  style="width:24px;"> [rowek](Sketcher_CreateSlot/pl.md) uległo zmianie. Rowki mogą być teraz tworzone poprzez zdefiniowanie środka obu półokręgów. [Pull request](https://github.com/FreeCAD/FreeCAD/pull/4843) [dyskusja na forum](https://forum.freecadweb.org/viewtopic.php?f=17&t=59243&p=508658#p508658)
 -   Automatyzacja widoczności pozwala na otwarcie Szkicownika w [trybie przekroju](Sketcher_ViewSection/pl.md) po wejściu do trybu edycji. [Pull request](https://github.com/FreeCAD/FreeCAD/pull/4742) [dyskusja na forum](https://forum.freecadweb.org/viewtopic.php?f=3&t=57056)
 -   Automatyzacja widoczności pozwala na wymuszenie pracy ujęcia widoku w [trybie ortogonalnym](Std_OrthographicCamera/pl.md) przy wejściu w tryb edycji. [Pull request](https://github.com/FreeCAD/FreeCAD/pull/4778) [dyskusja na forum](https://forum.freecadweb.org/viewtopic.php?f=22&t=44747)
+-   Opcja wyświetlania nazwy wiązania wymiarowego i użycia dla niej niestandardowego formatu. [Pull request](https://github.com/FreeCAD/FreeCAD/pull/4966) [Dyskusja na forum](https://forum.freecadweb.org/viewtopic.php?t=61153)
+-   Podczas szkicowania [3-punktowego łuku](Sketcher_Create3PointArc/pl.md) z włączoną opcją automatycznego wiązania, [wiązanie stycznej](Sketcher_ConstrainTangent/pl.md) jest proponowane dla wszystkich 3 punktów podczas najechania na linię/krzywą. [Pull request](https://github.com/FreeCAD/FreeCAD/pull/4945) [dyskusja na forum](https://forum.freecadweb.org/viewtopic.php?f=3&t=60596&p=520217#p520209).
 
 ### Poprawki błędów 
 
@@ -191,4 +212,4 @@ Ulepszono współdziałanie z OpenSCAD, dodając obsługę kilku operacji, któr
 
 ### Trails PyTrails, Turns oraz pivy\_trackers i Geomatics 
 
-[Category:News{{\#translation:}}](Category:News.md) [Category:Documentation{{\#translation:}}](Category:Documentation.md) [Category:Releases{{\#translation:}}](Category:Releases.md)
+[Category:News](Category:News.md) [Category:Documentation](Category:Documentation.md) [Category:Releases](Category:Releases.md)

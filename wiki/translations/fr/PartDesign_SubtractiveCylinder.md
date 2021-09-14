@@ -19,7 +19,7 @@ Insère un cylindre primitif soustractif dans le Corps actif. Sa forme est soust
 ## Utilisation
 
 1.  Presser le bouton **<img src="images/PartDesign_SubtractiveCylinder.svg" width=24px> '''Cylindre soustractif'''**. **Remarque** : le Cylindre soustractif fait partie du menu d\'icônes appelé *Créer une primitive soustractive*. Après le lancement de FreeCAD, le cube soustractif est affiché par défaut dans la barre d\'outils. Pour obtenir le Cylindre soustractif, cliquer sur la flèche vers le bas et choisissez Cylindre soustractif dans le menu.
-2.  Définir les paramètres primitifs et de l\'[ancrage](Part_Attachment/fr.md).
+2.  Définir les paramètres primitifs et de l\'[ancrage](Part_EditAttachment/fr.md).
 3.  Cliquer sur **OK**.
 4.  Un cylindre apparaît dans le Corps actif.
 
@@ -34,7 +34,7 @@ Le Cylindre peut être édité après sa création de deux façons :
 
 ## Propriétés
 
--    {{PropertyData/fr|Attachment}}: définit les modes d\'ancrage ainsi que le décalage d\'ancrage. Voir [Part Ancrage](Part_Attachment/fr.md).
+-    {{PropertyData/fr|Attachment}}: définit les modes d\'ancrage ainsi que le décalage d\'ancrage. Voir [Part Ancrage](Part_EditAttachment/fr.md).
 
 -    {{PropertyData/fr|Label}}: donne le nom du cylindre, changer si nécessaire.
 

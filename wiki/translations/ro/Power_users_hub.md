@@ -1,8 +1,10 @@
+# Power users hub/ro
+
  <img alt="" src=images/Power_user_hub.png  style="width:64px;">
 
 ------------------------------------------------------------------------
 
-\_\_NOTOC\_\_
+
 
 
 <div class="mw-translate-fuzzy">
@@ -257,4 +259,4 @@ Pe pagina [Community portal](FreeCAD_Community_Portal.md), puteți căuta alte p
 
 }}
 
-[Category:Hubs{{\#translation:}}](Category:Hubs.md)
+[Category:Hubs](Category:Hubs.md)

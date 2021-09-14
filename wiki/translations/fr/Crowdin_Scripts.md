@@ -1,3 +1,5 @@
+# Crowdin Scripts/fr
+
  {{TOCright}}
 
 ## Gérer les traductions de FreeCAD 
@@ -89,4 +91,4 @@ Le script updatefromcrowdin.py extrait les modifications de crowdin vers votre r
 
 
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Administration{{\#translation:}}](Category:Administration.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Administration](Category:Administration.md)

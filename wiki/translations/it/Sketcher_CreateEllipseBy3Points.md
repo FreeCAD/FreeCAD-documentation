@@ -55,11 +55,19 @@ Premere il pulsante **<img src=images/Sketcher_CreateEllipse_3points.png style="
 
 </div>
 
+## Peculiarities
+
+
+<div class="mw-translate-fuzzy">
+
 ## Peculiarità
 
 -   Gli assi maggiore e minore dell\'ellisse sono tassativi e non possono essere scambiati ridimensionando l\'ellisse. Questo a causa della solutozione parametrica utilizzata (centro (x,y), fuoco1 (x,y), lunghezza del raggio minore (b)) e lo stesso comportamento fiscale di OpenCascade. Per scambiare gli assi l\'ellisse deve essere ruotata.
 -   Ellisse può funzionare come un cerchio quando le sue linee diametro maggiore e minore vengono eliminate e uno dei fuochi è vincolato a coincidere con il centro. Ma su tale cerchio il vincolo raggio non funziona.
 -   Spostare l\'ellisse dal bordo equivale a spostare il suo centro.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -73,4 +81,4 @@ Premere il pulsante **<img src=images/Sketcher_CreateEllipse_3points.png style="
 
 {{Sketcher Tools navi
 
-}}  
+}} 

@@ -1,3 +1,5 @@
+# FEM Tutorial Python/it
+
 
 
 
@@ -15,7 +17,7 @@
 
 ## Introduzione
 
-Questo tutorial ha lo scopo di mostrare come tramite Python è possibile eseguire una semplice Analisi agli elementi finiti **FEA** nell\'ambiente <img alt="" src=images/Workbench_FEM.svg  style="width:32px;"> [FEM](FEM_Module/it.md) di FreeCAD. Per questo esempio il modello è preso dal tutorial [FEM CalculiX Trave a sbalzo 3D](FEM_CalculiX_Cantilever_3D/it.md).
+Questo tutorial ha lo scopo di mostrare come tramite Python è possibile eseguire una semplice Analisi agli elementi finiti **FEA** nell\'ambiente <img alt="" src=images/Workbench_FEM.svg  style="width:32px;"> [FEM](FEM_Workbench/it.md) di FreeCAD. Per questo esempio il modello è preso dal tutorial [FEM CalculiX Trave a sbalzo 3D](FEM_CalculiX_Cantilever_3D/it.md).
 
 
 </div>
@@ -624,4 +626,4 @@ Divertitevi! Inoltre, se avete commenti o miglioramenti, non esitate a partecipa
 
 }} {{FEM Tools navi}}  
 
-[Category:Python Code{{\#translation:}}](Category:Python_Code.md)
+[Category:Python Code](Category:Python_Code.md)

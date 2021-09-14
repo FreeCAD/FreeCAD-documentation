@@ -2,7 +2,7 @@
 - GuiCommand:/de
    Name:Entwurf Versetzen
    MenuLocation:Entwurf → Versetzen
-   Workbenches:[Entwurf](Draft_Module/de.md), [Arch](Arch_Module/de.md)
+   Workbenches:[Entwurf](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
    Shortcut:**O** **S**
    SeeAlso:[Part 2D Versatz](Part_Offset2D/de.md)
 ---

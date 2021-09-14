@@ -1,3 +1,5 @@
+# Donate/ru
+
 
 
 
@@ -22,7 +24,7 @@ Quick donation: <img alt="" src=images/Liberapay_logo.svg  style="width:24px;"> 
 <div class="mw-translate-fuzzy">
 
 -   Некоторые разработчики будут выполнять определенную задачу за деньги или могут быть спонсированы, чтобы потратить время на работу над FreeCAD. В прошлом было несколько успешных экспериментов, таких как [Верстак Path](Path_Workbench/ru.md) или [эксперимент по финансированию Ian Rees\'s](https://opendeveloperfunding.wordpress.com/). На данный момент спонсорами могут быть следующие разработчики:
-    -   [Yorik](User:Yorik.md) через <img alt="yorikvanhavre\|link=<https://www.patreon.com/yorikvanhavre>" src=images/patreonporange.png  style="width:20px;"> [Patreon](https://www.patreon.com/yorikvanhavre) или <img alt="" src=images/Liberapay_logo.svg  style="width:24px;"> [Liberapay](https://liberapay.com/yorik) ([Модуль Draft](Draft_Module/ru.md), [Модуль Arch](Arch_Module/ru.md), [Верстак BIM](BIM_Workbench/ru.md), IFC)
+    -   [Yorik](User:Yorik.md) через <img alt="yorikvanhavre\|link=<https://www.patreon.com/yorikvanhavre>" src=images/patreonporange.png  style="width:20px;"> [Patreon](https://www.patreon.com/yorikvanhavre) или <img alt="" src=images/Liberapay_logo.svg  style="width:24px;"> [Liberapay](https://liberapay.com/yorik) ([Модуль Draft](Draft_Workbench/ru.md), [Модуль Arch](Arch_Workbench/ru.md), [Верстак BIM](BIM_Workbench/ru.md), IFC)
     -   [Kurt Kremitzki](User:Kkremitzki.md) через <img alt="kkremitzki\|link=<https://www.patreon.com/kkremitzki>" src=images/patreonporange.png  style="width:20px;"> [Patreon](https://www.patreon.com/kkremitzki) или <img alt="" src=images/Liberapay_logo.svg  style="width:24px;"> [Liberapay](https://liberapay.com/kkremitzki) (инфраструктура, серверы, упаковка, Debian/Ubuntu)
     -   Lei Zheng aka [Realthunder](https://github.com/realthunder) через [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2SM8GY3U2UUJN), <img alt="" src=images/Liberapay_logo.svg  style="width:24px;"> [Liberapay](https://liberapay.com/realthunder/) или <img alt="Patreon" src=images/patreonporange.png  style="width:20px;"> [Patreon](https://www.patreon.com/thundereal) ([App Link](App_Link.md), [Assembly3](Assembly3.md))
     -   Lorenz aka looooo через <img alt="" src=images/Liberapay_logo.svg  style="width:24px;"> [Liberapay](https://liberapay.com/looooo/donate) ([Верстак FCGears](https://github.com/looooo/freecad.gears), [Conda](Conda/ru.md) пакет)

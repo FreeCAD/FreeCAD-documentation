@@ -1,3 +1,5 @@
+# About FreeCAD/ko
+
 
 
 
@@ -53,4 +55,4 @@ FreeCAD는 열정적인 개발자와 사용자 커뮤니티가 유지하고 개�
 
 
 
-[Category:User Documentation{{\#translation:}}](Category:User_Documentation.md)
+[Category:User Documentation](Category:User_Documentation.md)

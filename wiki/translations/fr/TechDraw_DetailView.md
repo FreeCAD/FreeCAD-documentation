@@ -8,9 +8,6 @@
    SeeAlso:[TechDraw Vue](TechDraw_View/fr.md), [TechDraw Groupe de projection](TechDraw_ProjectionGroup/fr.md)
 ---
 
-
-</div>
-
 ## Description
 
 L\'outil Détail crée une vue d\'une petite zone d\'une vue existante.
@@ -87,15 +84,9 @@ Pour ce faire, placez la vue Détails dans une [Fenêtre de rognage](TechDraw_Cl
 -   [Une bonne discussion sur la configuration de Anchor](https://www.forum.freecadweb.org/viewtopic.php?f=35&t=34055#p285281)
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{TechDraw Tools navi
 
-}}  
+}} 

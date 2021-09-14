@@ -1,33 +1,3 @@
----
-- GuiCommand:/ru
-   Name:FEM PostCreateDataAtPointFilter
-   Name/ru:FEM PostCreateDataAtPointFilter
-   Icon:Fem-post-filter-data-at-point.png
-   MenuLocation: Results → Data at point filter
-   Workbenches:[FEM](FEM_Workbench/ru.md)
-   Shortcut:
-   SeeAlso:[FEM tutorial](FEM_tutorial/ru.md)
----
+# FEM PostCreateDataAtPointFilter/ru
 
-
-</div>
-
-## Описание
-
-ToDo
-
-## Использование
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
-
-
-{{FEM Tools navi
-
-}}  
+1.  REDIRECT [FEM\_PostFilterDataAtPoint/ru](FEM_PostFilterDataAtPoint/ru.md)

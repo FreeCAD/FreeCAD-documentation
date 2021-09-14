@@ -37,7 +37,7 @@ Lo strumento <img alt="" src=images/Arch_Frame.svg  style="width:16px;"> Carpent
 
 <div class="mw-translate-fuzzy">
 
-1.  Creare un oggetto tracciato e un oggetto profilo, ad esempio con [Draft](Draft_Module/it.md) o con [Schizzo](Sketcher_Workbench/it.md).
+1.  Creare un oggetto tracciato e un oggetto profilo, ad esempio con [Draft](Draft_Workbench/it.md) o con [Schizzo](Sketcher_Workbench/it.md).
 2.  Selezionare l\'oggetto tracciato, poi, con **Ctrl** premuto, selezionare l\'oggetto profilo.
 3.  Premere il pulsante **<img src="images/Arch_Frame.svg" width=16px> Carpenteria**, o premere i tasti **F** poi **R**.
 

@@ -1,8 +1,10 @@
+# Power users hub/zh-cn
+
  <img alt="" src=images/Power_user_hub.png  style="width:64px;">
 
 ------------------------------------------------------------------------
 
-\_\_NOTOC\_\_
+
 
 
 <div class="mw-translate-fuzzy">
@@ -256,4 +258,4 @@ Related: [Exposing C++ to Python](Exposing_C%2B%2B_to_Python.md)
 
 }}
 
-[Category:Hubs{{\#translation:}}](Category:Hubs.md)
+[Category:Hubs](Category:Hubs.md)

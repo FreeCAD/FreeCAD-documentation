@@ -1,3 +1,5 @@
+# Draft Workbench/tr
+
 
 
 
@@ -326,7 +328,9 @@ Where `$INSTALLDIR` is the toplevel directory where the software was installed; 
 Şekil dizesi kılavuzu\]\]
 
 
-{{docnav/tr|[Görüntü Tezgahı](Image_Workbench/tr.md)|[Mimari Tezgah](Arch_Workbench/tr.md)}}
+{{docnav/tr
+|[Görüntü Tezgahı](Image_Workbench/tr.md)
+|[Mimari Tezgah](Arch_Workbench/tr.md)}}
 
 
 {{Draft Tools navi/tr}}
@@ -337,4 +341,4 @@ Where `$INSTALLDIR` is the toplevel directory where the software was installed; 
 
  
 
-[Category:Workbenches/tr](Category:Workbenches/tr.md) [Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches/tr](Category:Workbenches/tr.md) [Category:Workbenches](Category:Workbenches.md)

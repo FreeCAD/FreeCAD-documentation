@@ -17,7 +17,7 @@ Questo strumento posiziona nel documento corrente un attrezzo **Piano di sezione
 
 <div class="mw-translate-fuzzy">
 
-Il solo Piano di sezione non crea alcuna vista degli oggetti. Per ottenere le viste, è necessario creare un [Disegno](Draft_Drawing/it.md) per creare una vista in una [Pagina di disegno ](Drawing_Module/it.md), e una [Vista 2D](Draft_Shape2DView/it.md) per creare una vista nel documento 3D stesso, o una [Vista TechDraw di Arch](TechDraw_NewArch/it.md) per creare una vista in una [Pagina di TechDraw](TechDraw_Workbench/it.md).
+Il solo Piano di sezione non crea alcuna vista degli oggetti. Per ottenere le viste, è necessario creare un [Disegno](Draft_Drawing/it.md) per creare una vista in una [Pagina di disegno ](Drawing_Workbench/it.md), e una [Vista 2D](Draft_Shape2DView/it.md) per creare una vista nel documento 3D stesso, o una [Vista TechDraw di Arch](TechDraw_NewArch/it.md) per creare una vista in una [Pagina di TechDraw](TechDraw_Workbench/it.md).
 
 
 </div>

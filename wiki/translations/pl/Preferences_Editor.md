@@ -1,3 +1,5 @@
+# Preferences Editor/pl
+
 
 
 
@@ -349,7 +351,7 @@ W zakładce **Jednostki** możesz ustawić następujące parametry:
 | Nazwa                                     | Opis                                                                                                                                                                             |
 +===========================================+==================================================================================================================================================================================+
 |                            | Wybór systemu jednostek, który powinien być używany dla wszystkich części programu FreeCAD.                                                                                      |
-| **System użytkownika**        |                                                                                                                                                                                  |
+| **System jednostek**          |                                                                                                                                                                                  |
 |                                        |                                                                                                                                                                                  |
 +-------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 |                            | Liczba miejsc po przecinku, która powinna być wyświetlana dla liczb i wymiarów w programie FreeCAD.                                                                              |
@@ -589,7 +591,11 @@ Ta sekcja preferencji ma jedną kartę: Niezaładowane środowiska pracy.
 
 Aby ograniczyć zużycie zasobów, FreeCAD nie ładuje automatycznie wszystkich dostępnych środowisk pracy. I tylko wtedy, gdy środowisko pracy zostało załadowane, jego preferencje, jeśli takowe istnieją, pojawiają się w edytorze Preferencji.
 
-Zakładka **Niezaładowane środowiska pracy** wyświetla listę zainstalowanych środowisk pracy, które nie zostały jeszcze załadowane. Aby załadować jedno lub więcej środowisk, należy zaznaczyć je na liście i nacisnąć przycisk **Załaduj wybrane**. Jeśli nowo załadowane środowisko ma dedykowane preferencje, pojawią się one w nowej sekcji w edytorze Preferencji. Niektóre z nich zapewniają wsparcie dla dodatkowych formatów importu i eksportu. Jeśli są jakieś powiązane preferencje, pojawią się one na jednej lub kilku nowych zakładkach w sekcji edytora Preferencji [Ustawienia importu i eksportu](#Konfiguracja_dla_importu_i_eksportu.md).
+W wersji FreeCAD 0.19 zakładka **Niezaładowane środowiska pracy** wyświetla listę zainstalowanych środowisk pracy, które nie zostały jeszcze załadowane. Aby załadować jedno lub więcej środowisk, należy zaznaczyć je na liście i nacisnąć przycisk **Załaduj wybrane**.
+
+W wersji FreeCAD 0.20 zakładka **Niezaładowane środowiska pracy** wyświetla listę wszystkich zainstalowanych środowisk pracy. Aby załadować środowisko pracy należy nacisnąć jego indywidualny przycisk **Wczytaj teraz**. Jeśli zaznaczysz pole wyboru {{CheckBox|TRUE|Wczytaj automatycznie}} dla danego środowiska pracy, będzie ono automatycznie ładowane podczas uruchamiania programu FreeCAD. Ładowanie większej ilości środowisk pracy spowolni uruchamianie, ale przełączanie się pomiędzy tymi, które zostały już załadowane jest szybsze.
+
+Jeśli nowo załadowane środowisko pracy posiada dedykowane preferencje, pojawią się one w nowej sekcji w edytorze Preferencji. Niektóre środowiska pracy dodają wsparcie dla dodatkowych formatów importu i eksportu. Jeśli istnieją jakieś powiązane preferencje, pojawią się one na jednej lub więcej nowych zakładkach w sekcji [konfiguracji Importu-Eksportu](#Konfiguracja_dla_importu_i_eksportu.md) edytora Preferencji.
 
 Aby zapoznać się z listą preferencji Środowiska pracy, zobacz [Preferencje Środowiska pracy](#Preferencje_Środowiska_pracy.md)
 
@@ -667,4 +673,4 @@ Modyfikowanie preferencji innych części programu FreeCAD jest raczej złym pom
 
 
 
-[Category:Preferences{{\#translation:}}](Category:Preferences.md)
+[Category:Preferences](Category:Preferences.md)

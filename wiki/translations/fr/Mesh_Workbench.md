@@ -1,3 +1,5 @@
+# Mesh Workbench/fr
+
 
 
 
@@ -110,4 +112,4 @@ Les préférences de l\'atelier Mesh se trouvent dans les catégories suivantes 
 
 }} 
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

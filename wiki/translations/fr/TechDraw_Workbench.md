@@ -1,3 +1,5 @@
+# TechDraw Workbench/fr
+
 
 
 
@@ -7,11 +9,11 @@
 
 ## Introduction
 
-L\'atelier <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [TechDraw](TechDraw_Module/fr.md) est utilisé pour produire des dessins techniques de base à partir de modèles 3D créés avec un autre atelier, tels que [Part](Part_Workbench/fr.md), [PartDesign](PartDesign_Workbench/fr.md) ou [Arch](Arch_Module/fr.md), ou importés à partir d\'autres applications. Chaque dessin est une page pouvant contenir diverses vues d\'objets pouvant être dessinés, telles que Part::Features, PartDesign::Bodies, App::Part groups et des groupes Object Document. Les dessins résultants peuvent être utilisés pour des éléments tels que la documentation, les instructions de fabrication, les contrats, les permis, etc.
+L\'atelier <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [TechDraw](TechDraw_Workbench/fr.md) est utilisé pour produire des dessins techniques de base à partir de modèles 3D créés avec un autre atelier, tels que [Part](Part_Workbench/fr.md), [PartDesign](PartDesign_Workbench/fr.md) ou [Arch](Arch_Workbench/fr.md), ou importés à partir d\'autres applications. Chaque dessin est une page pouvant contenir diverses vues d\'objets pouvant être dessinés, telles que Part::Features, PartDesign::Bodies, App::Part groups et des groupes Object Document. Les dessins résultants peuvent être utilisés pour des éléments tels que la documentation, les instructions de fabrication, les contrats, les permis, etc.
 
 Des dimensions, des sections, des zones hachurées, des annotations et des symboles [SVG](SVG/fr.md) peuvent être ajoutés à la page, qui peuvent ensuite être exportés vers différents formats tels que [DXF](DXF/fr.md), [SVG](SVG/fr.md) et [PDF](PDF/fr.md).
 
-TechDraw a été officiellement inclus dans FreeCAD à partir de la version 0.17; il est destiné à remplacer l\'atelier [Drawing](Drawing_Module/fr.md) non pris en charge. Les deux ateliers sont toujours fournis dans la v0.17, mais l\'atelier Drawing pourrait être supprimé dans les versions ultérieures. Pour suivre les plans et les développements de TechDraw, visitez la [Feuille de route TechDraw](TechDraw_Roadmap/fr.md).
+TechDraw a été officiellement inclus dans FreeCAD à partir de la version 0.17; il est destiné à remplacer l\'atelier [Drawing](Drawing_Workbench/fr.md) non pris en charge. Les deux ateliers sont toujours fournis dans la v0.17, mais l\'atelier Drawing pourrait être supprimé dans les versions ultérieures. Pour suivre les plans et les développements de TechDraw, visitez la [Feuille de route TechDraw](TechDraw_Roadmap/fr.md).
 
 FreeCAD est principalement une application de modélisation 3D et ne dispose donc pas de nombreux outils de dessin 2D, qui sont pour la plupart inclus dans les ateliers [Draft](Draft_Workbench/fr.md) et [Sketcher](Sketcher_Workbench/fr.md). Si votre objectif principal est la production de dessins 2D complexes et de fichiers [DXF](DXF/fr.md), et que vous n\'avez pas besoin de modélisation 3D, vous pouvez envisager un logiciel dédié à la rédaction technique, tel que [LibreCAD](https://fr.wikipedia.org/wiki/LibreCAD), [QCad](https://fr.wikipedia.org/wiki/QCad), TurboCad et autres.
 
@@ -46,7 +48,7 @@ Ce sont les outils pour créer des objets Vues.
 
 -   <img alt="" src=images/TechDraw_DraftView.svg  style="width:32px;"> [Nouvelle vue d\'un objet Draft](TechDraw_DraftView/fr.md) : ajoute une vue d\'un objet [Draft](Draft_Workbench/fr.md).
 
--   <img alt="" src=images/TechDraw_ArchView.svg  style="width:32px;"> [Nouvelle vue d\'un objet Arch](TechDraw_ArchView/fr.md): ajoute une vue d\'un objet [Arch Plan de section](Arch_SectionPlane/fr.md) de l\'[Atelier Arch](Arch_Module/fr.md).
+-   <img alt="" src=images/TechDraw_ArchView.svg  style="width:32px;"> [Nouvelle vue d\'un objet Arch](TechDraw_ArchView/fr.md): ajoute une vue d\'un objet [Arch Plan de section](Arch_SectionPlane/fr.md) de l\'[Atelier Arch](Arch_Workbench/fr.md).
 
 -   <img alt="" src=images/TechDraw_SpreadsheetView.svg  style="width:32px;"> [Vue d\'un tableur](TechDraw_SpreadsheetView/fr.md): insère une vue d\'une feuille de calcul de l\'[atelier Spreadsheet](Spreadsheet_Workbench/fr.md).
 
@@ -66,7 +68,7 @@ Ce sont les outils pour créer et travailler avec des objets Dimension.
 
 Les cotes linéaires peuvent être basées sur deux points, sur une ligne ou sur deux lignes.
 
--   <img alt="" src=images/TechDraw_Dimension_Length.svg  style="width:32px;"> [Nouvelle longueur](TechDraw_Dimension_Length/fr.md) : ajoute une cote de longueur.
+-   <img alt="" src=images/TechDraw_Dimension_Length.svg  style="width:32px;"> [Nouvelle cote de longueur](TechDraw_Dimension_Length/fr.md) : ajoute une cote de longueur.
 
 -   <img alt="" src=images/TechDraw_Dimension_Horizontal.svg  style="width:32px;"> [Nouvelle cote horizontale](TechDraw_Dimension_Horizontal/fr.md) : ajoute une cote de longueur horizontale.
 
@@ -118,124 +120,50 @@ Les outils d\'annotation permettent de \"marquer\" un dessin avec des informatio
 
 -   <img alt="" src=images/TechDraw_Annotation.svg  style="width:32px;"> [Insérer une annotation](TechDraw_Annotation/fr.md) : ajoute un bloc de texte pour servir d\'annotation.
 
+-   <img alt="" src=images/TechDraw_LeaderLine.svg  style="width:32px;"> [Ajout d\'une ligne de rappel](TechDraw_LeaderLine/fr.md) : ajoute une ligne de rappel à une vue. {{Version/fr|0.19}}
 
-<div class="mw-translate-fuzzy">
+-   <img alt="" src=images/TechDraw_RichTextAnnotation.svg  style="width:32px;"> [Annotation texte enrichi](TechDraw_RichTextAnnotation/fr.md) : ajoute un bloc d'annotation en texte enrichi à une [Ligne de référence](TechDraw_LeaderLine/fr.md) ou à une vue. {{Version/fr|0.19}}
 
--   <img alt="" src=images/TechDraw_LeaderLine.svg  style="width:24px;"> [Ajout d\'une ligne de rappel](TechDraw_LeaderLine/fr.md) : ajoute une ligne d\'annotation à une vue. {{Version/fr|0.19}}
+-   <img alt="" src=images/TechDraw_CosmeticVertex.svg  style="width:32px;"> [Ajout point cosmétique](TechDraw_CosmeticVertex/fr.md) : ajoute un sommet qui ne fait pas partie de la géométrie principale. {{Version/fr|0.19}}
 
+-   <img alt="" src=images/TechDraw_Midpoints.svg  style="width:32px;"> [Points médians](TechDraw_Midpoints/fr.md) : ajoute des points cosmétiques aux points médians d\'une ou de plusieurs arêtes sélectionnées. {{Version/fr|0.19}}
 
-</div>
+-   <img alt="" src=images/TechDraw_Quadrants.svg  style="width:32px;"> [Quadrant](TechDraw_Quadrants/fr.md) : ajoute des points cosmétiques tous les quarts de points d\'un ou de plusieurs bords sélectionnés (circulaires). {{Version/fr|0.19}}
 
+-   <img alt="" src=images/TechDraw_FaceCenterLine.svg  style="width:32px;"> [Ligne centrale à une face](TechDraw_FaceCenterLine/fr.md) : ajoute une ligne centrale aux face(s) sélectionnée(s). {{Version/fr|0.19}}
 
-<div class="mw-translate-fuzzy">
+-   <img alt="" src=images/TechDraw_2LineCenterLine.svg  style="width:32px;"> [Ligne centrale entre 2 lignes](TechDraw_2LineCenterLine/fr.md) : ajoute une ligne centrale entre 2 arêtes. {{Version/fr|0.19}}
 
--   <img alt="" src=images/TechDraw_RichTextAnnotation.svg  style="width:24px;"> [Annotation texte enrichi](TechDraw_RichTextAnnotation/fr.md) : ajoute un bloc d'annotation en texte enrichi à une [Ligne de référence](TechDraw_LeaderLine/fr.md) ou à une vue. {{Version/fr|0.19}}
+-   <img alt="" src=images/TechDraw_2PointCenterLine.svg  style="width:32px;"> [Ligne centrale entre 2 points](TechDraw_2PointCenterLine/fr.md) : ajoute une ligne centrale entre 2 points. {{Version/fr|0.19}}
 
+-   <img alt="" src=images/TechDraw-line2points.svg  style="width:32px;"> [Ligne cosmétique](TechDraw_2PointCosmeticLine/fr.md): ajoute une ligne cosmétique reliant 2 sommets. {{Version/fr|0.19}}
 
-</div>
+-   <img alt="" src=images/TechDraw_CosmeticEraser.svg  style="width:32px;"> [Gomme](TechDraw_CosmeticEraser/fr.md) : supprime les objets cosmétiques d\'une page. {{Version/fr|0.19}}
 
+-   <img alt="" src=images/TechDraw_DecorateLine.svg  style="width:32px;"> [Apparence des lignes](TechDraw_DecorateLine/fr.md) : modifie l\'apparence des lignes. {{Version/fr|0.19}}
 
-<div class="mw-translate-fuzzy">
+-   <img alt="" src=images/TechDraw_ShowAll.svg  style="width:32px;"> [Montrer tout](TechDraw_ShowAll/fr.md) : affiche/masque les bords invisibles dans une vue. {{Version/fr|0.19}}
 
--   <img alt="" src=images/TechDraw_CosmeticVertex.svg  style="width:24px;"> [Ajout point cosmétique](TechDraw_CosmeticVertex/fr.md) : ajoute un sommet qui ne fait pas partie de la géométrie principale. {{Version/fr|0.19}}
+-   <img alt="" src=images/TechDraw_WeldSymbol.svg  style="width:32px;"> [Symbole de soudure](TechDraw_WeldSymbol/fr.md) : ajoute des spécifications de soudage à une Ligne de référence existante. {{Version/fr|0.19}}
 
+## Pack d\'extension 
 
-</div>
+Le pack d\'extension comprend de nombreux outils utiles pour améliorer vos dessins TechDraw.
 
 
-<div class="mw-translate-fuzzy">
+**Certains de ces outils ne sont pas encore disponibles.**
 
--   <img alt="" src=images/TechDraw_Midpoints.svg  style="width:24px;"> [Points médians](TechDraw_Midpoints/fr.md) : ajoute des points cosmétiques aux points médians d\'une ou de plusieurs arêtes sélectionnées. {{Version/fr|0.19}}
+-   <img alt="" src=images/TechDraw_Extension_CircleCenterLines.svg  style="width:32px;"> [Lignes centrales aux cercles](TechDraw_Extension_CircleCenterLines/fr.md) : ajoute des lignes centrales aux cercles et aux arcs. {{Version/fr|0.20}}
 
+-   <img alt="" src=images/TechDraw_Extension_ThreadHoleSide.svg  style="width:32px;"> [Filetage face trou](TechDraw_Extension_ThreadHoleSide/fr.md) : ajoute un filetage symbolique à la vue latérale d\'un trou. {{Version/fr|0.20}}
 
-</div>
+-   <img alt="" src=images/TechDraw_Extension_ThreadHoleBottom.svg  style="width:32px;"> [Filetage dessous trou](TechDraw_Extension_ThreadHoleBottom/fr.md) : ajoute des filetages symboliques à la vue inférieure des trous. {{Version/fr|0.20}}
 
+-   <img alt="" src=images/TechDraw_Extension_ThreadBoltSide.svg  style="width:32px;"> [Filetage face boulon](TechDraw_Extension_ThreadBoltSide/fr.md) : ajoute un filetage symbolique à la vue latérale d\'un boulon. {{Version/fr|0.20}}
 
-<div class="mw-translate-fuzzy">
+-   <img alt="" src=images/TechDraw_Extension_ThreadBoltBottom.svg  style="width:32px;"> [Filetage dessous boulon](TechDraw_Extension_ThreadBoltBottom/fr.md) : ajoute des filetages symboliques à la vue inférieure des boulons. {{Version/fr|0.20}}
 
--   <img alt="" src=images/TechDraw_Quadrants.svg  style="width:24px;"> [Quadrant](TechDraw_Quadrants/fr.md) : ajoute des points cosmétiques tous les quarts de points d\'un ou de plusieurs bords sélectionnés (circulaires). {{Version/fr|0.19}}
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/TechDraw_FaceCenterLine.svg  style="width:24px;"> [Ligne centrale à une face](TechDraw_FaceCenterLine/fr.md) : ajoute une ligne centrale aux face(s) sélectionnée(s). {{Version/fr|0.19}}
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/TechDraw_2LineCenterLine.svg  style="width:24px;"> [Ligne centrale entre 2 lignes](TechDraw_2LineCenterLine/fr.md) : ajoute une ligne centrale entre 2 arêtes. {{Version/fr|0.19}}
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/TechDraw_2PointCenterLine.svg  style="width:24px;"> [Ligne centrale entre 2 points](TechDraw_2PointCenterLine/fr.md) : ajoute une ligne centrale entre 2 points. {{Version/fr|0.19}}
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/TechDraw-line2points.svg  style="width:24px;"> [Ligne cosmétique](TechDraw_2PointCosmeticLine/fr.md): ajoute une ligne cosmétique reliant 2 sommets. {{Version/fr|0.19}}
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/TechDraw_CosmeticEraser.svg  style="width:24px;"> [Gomme](TechDraw_CosmeticEraser/fr.md) : supprime les objets cosmétiques d\'une page. {{Version/fr|0.19}}
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/TechDraw_DecorateLine.svg  style="width:24px;"> [Apparence des lignes](TechDraw_DecorateLine/fr.md) : modifie l\'apparence des lignes. {{Version/fr|0.19}}
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/TechDraw_ShowAll.svg  style="width:24px;"> [Montrer tout](TechDraw_ShowAll/fr.md) : affiche/masque les bords invisibles dans une vue. {{Version/fr|0.19}}
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/TechDraw_WeldSymbol.svg  style="width:24px;"> [Symbole de soudure](TechDraw_WeldSymbol/fr.md) : ajoute des spécifications de soudage à une Ligne de référence existante. {{Version/fr|0.19}}
-
-
-</div>
-
-## Extension Package 
-
-The Extension Package includes many useful tools to improve your TechDraw drawings.
-
-
-**Some of these tools have yet to be released.**
-
--   <img alt="" src=images/TechDraw_ToolCircleCenterLines.svg  style="width:32px;"> [CircleCenterLines](TechDraw_Extension_CircleCenterLines.md): adds center lines to circles. <small>(v0.20)</small> 
--   <img alt="" src=images/TechDraw_ExtensionThreadHoleSide.svg  style="width:32px;"> [ThreadHoleSide](TechDraw_Extension_ThreadHoleSide.md): adds a symbolic thread at a side seen hole. <small>(v0.20)</small> 
--   <img alt="" src=images/TechDraw_ExtensionThreadHoleBottom.svg  style="width:32px;"> [ThreadHoleBottom](TechDraw_Extension_ThreadHoleBottom.md): adds a symbolic thread at a bottom seen hole. <small>(v0.20)</small> 
--   <img alt="" src=images/TechDraw_ExtensionThreadBoltSide.svg  style="width:32px;"> [ThreadBoltSide](TechDraw_Extension_ThreadBoltSide.md): adds a symbolic thread at a side seen bolt. <small>(v0.20)</small> 
--   <img alt="" src=images/TechDraw_ExtensionThreadBoltBottom.svg  style="width:32px;"> [ThreadBoltBottom](TechDraw_Extension_ThreadBoltBottom.md): adds a symbolic thread at a bottom seen bolt. <small>(v0.20)</small> 
-
-## Fonctions additionnelles 
+## Fonctions supplémentaires 
 
 -   [Groupes de lignes](TechDraw_LineGroup/fr.md) : pour contrôler l\'apparence de divers types de lignes.
 -   [Modèles](TechDraw_Templates/fr.md) : modèles par défaut définis pour les pages de dessin.
@@ -281,4 +209,4 @@ Tutoriels video par sliptonic
 
 }} 
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

@@ -7,9 +7,6 @@
    SeeAlso:[Part Grundkörper](Part_Primitives/de.md)
 ---
 
-
-</div>
-
 ## Beschreibung
 
 Ein Werkzeug zur Erstellung von komplexeren Formen aus verschiedenen parametrischen geometrischen Grundkörpern.
@@ -74,13 +71,7 @@ Ein möglicher Arbeitsablauf könnte sein:
 -   Erzeuge einen \"Festkörper aus Hülle\"
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
  

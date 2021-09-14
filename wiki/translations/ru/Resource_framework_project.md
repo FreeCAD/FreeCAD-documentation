@@ -1,3 +1,5 @@
+# Resource framework project/ru
+
 
 
 
@@ -127,4 +129,4 @@ fraganaut01 дает на способ подключить другую сис�
 
 
 
-[Category:Roadmap{{\#translation:}}](Category:Roadmap.md)
+[Category:Roadmap](Category:Roadmap.md)

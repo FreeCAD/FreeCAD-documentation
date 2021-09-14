@@ -1,3 +1,5 @@
+# Release notes 0.18/zh-cn
+
 
 
 FreeCAD 0.18发布于2019年3月12日，您可从此[下载页获得它](Download.md)。本文为此版本中最有趣的一些变化的总结。而完整的变更列表可从[MantisBT bug追踪程序记录的FC 0.18版变更日志](https://www.freecadweb.org/tracker/changelog_page.php?version_id=78)处找到。
@@ -218,4 +220,4 @@ Some of the new community modules that were actively developed during the 0.18 d
 
 -   [Defeaturing Workbench](Defeaturing_Workbench.md) is intended for editing imported STEP models, removal of the selected features from the model.
 
-[Category:News{{\#translation:}}](Category:News.md) [Category:Documentation{{\#translation:}}](Category:Documentation.md) [Category:Releases{{\#translation:}}](Category:Releases.md)
+[Category:News](Category:News.md) [Category:Documentation](Category:Documentation.md) [Category:Releases](Category:Releases.md)

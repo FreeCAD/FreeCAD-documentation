@@ -1,3 +1,5 @@
+# Macro HilbertCurve/fr
+
  {{Macro
 |Name=HilbertCurve
 |Description=Cette macro crée un fil courbe de Hilbert en 2 ou 3 dimensions avec de nombreuses itérations. 

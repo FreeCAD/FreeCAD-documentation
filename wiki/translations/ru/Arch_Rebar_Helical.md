@@ -2,7 +2,7 @@
 - GuiCommand:Addon/ru
    Name:Arch Rebar Helical   Name/ru:Arch Rebar Helical
    MenuLocation:Arch → Rebar tools
-   Workbenches:[Arch](Arch_Module/ru.md), [BIM](BIM_Workbench/ru.md)
+   Workbenches:[Arch](Arch_Workbench/ru.md), [BIM](BIM_Workbench/ru.md)
    Addon:Reinforcement
    Shortcut:None
    SeeAlso:[Arch Rebar](Arch_Rebar/ru.md), [Stirrup Rebar](Arch_Rebar_Stirrup/ru.md), [Column Reinforcement](Arch_Rebar_ColumnReinforcement/ru.md)
@@ -36,13 +36,7 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 </div>
 
-
-<div class="mw-translate-fuzzy">
-
-## Использование
-
-
-</div>
+## Применение
 
 1.  Select any face of a previously created **<img src="images/Arch_Structure.svg" width=16px> [Arch Structure](Arch_Structure.md)** object.
 
@@ -105,7 +99,7 @@ Rebar = makeHelicalRebar(s_cover, b_cover, diameter, t_cover, pitch, structure=N
 
 -    `pitch`is the parameter that determines how close or far apart each spiral loop is to each other.
 
-### Example
+### Пример
 
 
 ```python
@@ -153,4 +147,4 @@ HelicalRebar.editHelicalRebar(Rebar, 20, 100, 20, 20, 100)
 
  
 
-[Category:Reinforcement{{\#translation:}}](Category:Reinforcement.md)
+[Category:Reinforcement](Category:Reinforcement.md)

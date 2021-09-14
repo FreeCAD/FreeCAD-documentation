@@ -27,6 +27,11 @@ Al iniciar la herramienta, el puntero del ratón cambia a una cruz blanca con un
 -   Después del tercer clic, se crea la elipse, junto con un conjunto de geometría de construcción alineada con ella (diámetro mayor, diámetro menor, dos focos). La geometría de construcción puede eliminarse manualmente si no se necesita, y volver a crearse más tarde. Ver [Restricción de alineación interna](Sketcher_ConstrainInternalAlignment/es.md) y [Croquizador Mostrar Ocultar Geometría Interna](Sketcher_RestoreInternalAlignmentGeometry/es.md).
 -   Pulsar **ESC** o hacer clic con el botón derecho del ratón cancela la función.
 
+## Peculiarities
+
+
+<div class="mw-translate-fuzzy">
+
 ## Peculiaridades
 
 -   Los ejes mayor y menor de las elipses son estrictos y no se pueden intercambiar cambiando el tamaño de la elipse. Esto es una consecuencia de la parametrización del solver utilizada (centro (x,y), foco1 (x,y) y longitud de radio menor (b)) y del mismo comportamiento estricto de OpenCascade. La elipse debe ser girada para intercambiar los ejes.
@@ -34,9 +39,12 @@ Al iniciar la herramienta, el puntero del ratón cambia a una cruz blanca con un
 -   Mover la elipse por el borde es lo mismo que mover el centro de la elipse.
 
 
+</div>
+
+
 
 
 
 {{Sketcher Tools navi
 
-}}  
+}} 

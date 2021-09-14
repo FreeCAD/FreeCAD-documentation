@@ -1,3 +1,5 @@
+# Interface Customization/ru
+
 
 
 
@@ -39,7 +41,8 @@ On this tab you can browse the available commands.
 3.  Hover a command: its tooltip appears.
 4.  Select a command: its status bar text is displayed below the two panels.
 
-[top](#top.md)
+
+{{Top}}
 
 ### Клавиатура
 
@@ -74,7 +77,8 @@ On this tab custom keyboard shortcuts can be defined. Shortcuts for macro comman
 -   In V0.19 there is an issue with some Draft commands. Their default shortcuts do not work and/or custom shortcuts cannot be assigned to them.
 -   To reassign a default shortcut a new shortcut has to be assigned to its original command first.
 
-[наверх](#top.md)
+
+{{Top}}
 
 ### Верстаки
 
@@ -108,7 +112,8 @@ On this tab the [Workbench selector](Std_Workbench.md) list can be changed. The 
 
 1.  Press the **<img src="images/Button_sort.svg" width=16px>** button.
 
-[наверх](#top.md)
+
+{{Top}}
 
 ### Панели инструментов 
 
@@ -173,7 +178,8 @@ On this tab the [Workbench selector](Std_Workbench.md) list can be changed. The 
 
 -   In V0.19 there is an issue with some Draft commands. After adding them to a custom toolbar and exiting the FreeCAD application the {{FileName|user.cfg}} file must be manually edited for these commands. Search for the name of the custom toolbar and in that section change the content of the `FCText` items that start with `gui_` to `DraftTools`.
 
-[наверх](#top.md)
+
+{{Top}}
 
 ### Macros
 
@@ -213,19 +219,16 @@ If you want to use a macro downloaded from a different source you will have to i
 2.  Make the required changes. Note that you cannot remove the icon, you can only replace it.
 3.  Press the **Replace** button.
 
-[наверх](#top.md)
+
+{{Top}}
 
 ### Spaceball Motion 
 
-This tab is blank if no Spaceball is detected. See: [3Dconnexion input devices](3Dconnexion_input_devices.md).
-
-[наверх](#top.md)
+This tab is blank if no Spaceball is detected. See: [3Dconnexion input devices](3Dconnexion_input_devices.md). {{Top}}
 
 ### Spaceball Buttons 
 
-This is tab is blank if no Spaceball is detected. See: [3Dconnexion input devices](3Dconnexion_input_devices.md).
-
-[наверх](#top.md)
+This is tab is blank if no Spaceball is detected. See: [3Dconnexion input devices](3Dconnexion_input_devices.md). {{Top}}
 
 ## Темы
 
@@ -239,9 +242,8 @@ You can also create your own theme if you are not satisfied with the themes that
 
 -    {{FileName|$HOME/Library/Preferences/FreeCAD/Gui/Stylesheets}}(on MacOS).
 
-For more details on how to customize a theme, see [Themes](Themes.md)
 
-[наверх](#top.md)
+{{Top}}
 
 ## Дополнения
 
@@ -275,7 +277,8 @@ Addons offer yet another way to customize the use interface. Below are some addo
 
 -   Github repository: <https://github.com/triplus/ShortCuts>
 
-[наверх](#top.md)
+
+{{Top}}
 
 
 

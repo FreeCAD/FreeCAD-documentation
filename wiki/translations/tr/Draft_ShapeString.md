@@ -2,11 +2,11 @@
 - GuiCommand:/tr
    Name:Draft ShapeString
    Name/tr:Şekil dizesi
-   Workbenches:[Taslak](Draft_Module/tr.md), [Yapı](Arch_Module/tr.md)
    MenuLocation:Taslak → Şekil dizesi
-   Shortcut:S S
-   SeeAlso:[Metin](Draft_Text/tr.md), [Parça çıkarma](Part_Extrude/tr.md),<br /> [Macro Fonts Win10 PYMP](Macro_Fonts_Win10_PYMP/tr.md) <img src="images/Macro_Fonts_Win10_PYMP.png" width=24px>
+   Workbenches:[Taslak](Draft_Workbench/tr.md), [Yapı](Arch_Workbench/tr.md)
+   Shortcut:**S** **S**
    Version:0.14
+   SeeAlso:[Metin](Draft_Text/tr.md), [Parça çıkarma](Part_Extrude/tr.md),<br /> [Macro Fonts Win10 PYMP](Macro_Fonts_Win10_PYMP/tr.md) <img src="images/Macro_Fonts_Win10_PYMP.png" width=24px>
 ---
 
 

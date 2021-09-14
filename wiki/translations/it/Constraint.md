@@ -1,3 +1,5 @@
+# Constraint/it
+
 
 
 ## Introduzione
@@ -44,4 +46,4 @@ Per un elenco di tutti i vincoli che possono essere applicati vedere le informaz
 
 }} {{Document objects navi}} 
 
-[Category:Glossary{{\#translation:}}](Category:Glossary.md)
+[Category:Glossary](Category:Glossary.md)

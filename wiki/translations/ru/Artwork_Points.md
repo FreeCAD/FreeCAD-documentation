@@ -1,4 +1,6 @@
-\_\_NOTOC\_\_ 
+# Artwork Points/ru
+
+ 
 
 Эти иконки находятся в указанной исходной папке.
 
@@ -15,4 +17,4 @@
 
 }} 
 
-[Category:Points{{\#translation:}}](Category:Points.md)
+[Category:Points](Category:Points.md)

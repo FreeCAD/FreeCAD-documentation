@@ -1,3 +1,5 @@
+# Draft Workbench/fr
+
 
 
 
@@ -305,4 +307,4 @@ Où `$INSTALLDIR` est le répertoire de niveau supérieur où le logiciel a ét�
 
  
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

@@ -1,3 +1,5 @@
+# Std File Menu/de
+
 
 
 
@@ -80,4 +82,4 @@ Die folgenden Werkzeuge sind in diesem Menü verfügbar:
 
 }}  
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

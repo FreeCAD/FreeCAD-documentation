@@ -1,13 +1,14 @@
 ---
 - GuiCommand:/ru
-   Name/ru:Sketcher BSplineComb
-   MenuLocation:Sketch → Sketcher B-spline tools → Show/Hide B-spline curvature comb
+   Name/ru:Показать/скрыть гребень кривизны B-сплайна
+   Name:Sketcher_BSplineComb
+   MenuLocation:Sketch → B-сплйан инструменты эскиза → Показать/скрыть гребень кривизны B-сплайна
    Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
    Version:0.17
-   SeeAlso:[Sketcher Create B-spline](Sketcher_CompCreateBSpline.md)
+   SeeAlso:[Создать B-сплайн](Sketcher_CompCreateBSpline/ru.md)
 ---
 
-## Description
+## Описание
 
 Shows or hides the display of the Curvature Comb of a B-spline (see [this page](B-Splines.md) for more info about B-splines).
 

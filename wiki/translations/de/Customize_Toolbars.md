@@ -1,3 +1,5 @@
+# Customize Toolbars/de
+
  {{TutorialInfo/de
 |Topic=Beispielthema
 |Level=Anfänger
@@ -120,4 +122,4 @@ Siehe auch [Anpassung der Oberfläche](Interface_Customization/de.md).
 
 
 
-[Category:Preferences{{\#translation:}}](Category:Preferences.md)
+[Category:Preferences](Category:Preferences.md)

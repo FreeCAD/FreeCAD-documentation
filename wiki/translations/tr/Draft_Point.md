@@ -2,8 +2,8 @@
 - GuiCommand:/tr
    Name:Draft Point
    Name/tr:Nokta
-   Workbenches:[Taslak](Draft_Module/tr.md), [Yapı](Arch_Module/tr.md)
    MenuLocation:Taslak → Nokta
+   Workbenches:[Taslak](Draft_Workbench/tr.md), [Yapı](Arch_Workbench/tr.md)
    Shortcut:P T
    SeeAlso:[Çizgi](Draft_Line/tr.md), [Tel](Draft_Wire/tr.md)
    Version:0.17

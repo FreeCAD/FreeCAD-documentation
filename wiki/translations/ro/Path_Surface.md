@@ -80,7 +80,7 @@ If a model contains invalid geometry the scanning time can increase significantl
 To run the tool:
 
 1.  Switch to the <img alt="" src=images/Workbench_Part.svg  style="width:24px;">**Part Workbench** and select the model to check
-2.  Click on the **<img src="images/Part_CheckGeometry.svg" width=16px>** button available in the Part workbench toolbar OR use the **Part → <img src="images/Part_CheckGeometry.svg" width=16px> Check geometry** entry from the top menu.
+2.  Click on the **<img src="images/Part_CheckGeometry.svg" width=16px> [Part CheckGeometry](Part_CheckGeometry.md)** button available in the Part workbench toolbar OR use the **Part → <img src="images/Part_CheckGeometry.svg" width=16px> Check geometry** entry from the top menu.
 3.  Click the **Run Check** button and review the results.
 
 If the results includes items like *BOPAlgo SelfIntersect* then the geometry is invalid and should be corrected by adjusting the model.
@@ -88,7 +88,7 @@ If the results includes items like *BOPAlgo SelfIntersect* then the geometry is 
 
 #### Available Tool (Cutter) Shapes 
 
-This 3D Surface op currently uses [OpenCamLib](OpenCamLib.md) \[OCL\|OCL\] to extract paths from the part base. As such, a tool setting translation is required between the FreeCAD tool controller and OCL in order to complete the scan with your chosen tool(cutter) shape.
+This 3D Surface op currently uses [OpenCamLib](OpenCamLib.md) to extract paths from the part base. As such, a tool setting translation is required between the FreeCAD tool controller and OCL in order to complete the scan with your chosen tool(cutter) shape.
 
 These tool shapes are respected and available for this 3D Surface operation:
 

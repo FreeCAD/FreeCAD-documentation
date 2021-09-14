@@ -1,3 +1,5 @@
+# Tutorial custom placing of windows and doors/de
+
  {{TutorialInfo/de
 |Topic=Architektur
 |Level=fortgeschrittener Anfänger
@@ -197,10 +199,16 @@ w = Draft.makeWire(p, closed=False)
 
 14\. Wähle `Window` und den zugrundeliegenden `Sketch002` im Modellbaum aus. Gehe dann zu **Bearbeiten → Auswahl duplizieren** und beantworte die Frage, ob nicht ausgewählte Abhängigkeiten dupliziert werden sollen, mit **No**. Ein neues `Window001` mit `Sketch003` wird an derselben Stelle wie die Original-Elemente erscheinen.
 
+
+<div class="mw-translate-fuzzy">
+
 15\. Wähle den neuen `Sketch003` aus. Gehe zur Eigenschaft **Map Mode** und klicke auf das Erweiterungsfeld rechts neben dem Wert `FlatFace`. Wähle in der 3D-Ansicht den Wandabschnitt auf der linken Seite aus, welcher noch kein Element hat. Verdrehe die [Ansicht](Std_View_Menu/de.md) soweit wie nötig. Verändere `Attachment offset` zu \[-1 m, 0 m, 0 m\], um das Fenster zu zentrieren und klicke **OK**. Die Skizze und das Fenster sollten dann an der neuen Positionen erscheinen.
 
 :   
     **Hinweis:**die [Attachment Operation](Part_Attachment/de.md) kann auch mit dem [Part Arbeitsbereich](Part_Workbench/de.md) ausgeführt werden durch Benutzung des Menü-Kommandos **Formteil → Attachment**.
+
+
+</div>
 
 ![](images/13_T02_sketch_attachment_edit.png )
 

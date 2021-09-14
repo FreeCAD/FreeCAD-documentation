@@ -1,13 +1,9 @@
-
-
-
-<div class="mw-translate-fuzzy">
+# TechDraw LineGroup/fr
 
 
 
 
 
-</div>
 
 
 {{TOCright}}
@@ -79,13 +75,7 @@ Remarque: une nouvelle préférence a été ajoutée pour vous permettre d\'util
 -   La largeur de trait dans TechDraw est toujours en mm, même lorsque vous utilisez d\'autres systèmes d\'unités.
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{TechDraw Tools navi

@@ -1,3 +1,5 @@
+# Help FreeCAD/es
+
 
 
 ## Introducción
@@ -13,7 +15,7 @@ Ayúdanos a construir, corregir y extender esta documentación. Corrige errores,
 
 Algunas áreas en las que será bienvenido tu trabajo:
 
--   La página lista y documenta todos los FreeCAD [comandos](command/es.md). La mayoría de ellos contienen poca o ninguna información. Por favor, consulta [WikiPáginas](WikiPages/es.md) para ver buenos ejemplos de cómo deberían ser las páginas de documentación de comandos.
+-   La página [:Category:Command\_Reference](:Category:Command_Reference.md) lista y documenta todos los FreeCAD [comandos](command/es.md). La mayoría de ellos contienen poca o ninguna información. Por favor, consulta [WikiPáginas](WikiPages/es.md) para ver buenos ejemplos de cómo deberían ser las páginas de documentación de comandos.
 -   La sección [Tutorials](Tutorials/es.md) necesita ejemplos sobre cómo usar los ambientes de trabajo. Si desarrollaste algo genial con FreeCAD, ¿por qué no documentar cómo lo hiciste para la posteridad?
 -   Hay tickets abiertos en el [bugtracker](bugtracker/es.md) de FreeCAD etiquetados como [\"documentation\"](https://freecadweb.org/tracker/search.php?tag_string=documentation) que podrían necesitar algo de amor.
 
@@ -92,4 +94,4 @@ Escribir código para FreeCAD no es difícil, y no necesitas ningún tipo de per
 
 
 
-[Category:Command Reference](Category:Command_Reference.md) [Category:Documentation{{\#translation:}}](Category:Documentation.md) [Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Common Questions{{\#translation:}}](Category:Common_Questions.md)
+[Category:Documentation](Category:Documentation.md) [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Common Questions](Category:Common_Questions.md)

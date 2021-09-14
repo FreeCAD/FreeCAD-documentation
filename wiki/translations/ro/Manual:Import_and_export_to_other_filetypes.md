@@ -1,3 +1,5 @@
+# Manual:Import and export to other filetypes/ro
+
  
 
 
@@ -53,4 +55,4 @@ Unele dintre aceste formate de fișiere au opțiuni. Acestea pot fi configurate 
 
 
 
-[Category:Poweruser Documentation{{\#translation:}}](Category:Poweruser_Documentation.md) [Category:Tutorials{{\#translation:}}](Category:Tutorials.md)
+[Category:Poweruser Documentation](Category:Poweruser_Documentation.md) [Category:Tutorials](Category:Tutorials.md)

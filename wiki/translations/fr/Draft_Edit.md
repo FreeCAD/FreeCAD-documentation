@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Draft Edit
    Name/fr:Draft Édition
-   MenuLocation:Modification → Éditer<br>Utilities → Éditer
+   MenuLocation:Modification → Éditer
    Workbenches:[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
    Shortcut:**D** **E**
    SeeAlso:[Std Mode édition](Std_Edit/fr.md)
@@ -23,7 +23,6 @@ Voir aussi : [Draft Accrochage](Draft_Snap/fr.md) et [Draft Contrainte](Draft_Co
     -   Si vous n\'avez pas encore sélectionné d\'objet : double-cliquez sur un objet dans la [Vue en arborescence](Tree_view/fr.md). Cela ne fonctionne que pour les objets Draft pris en charge.
     -   Appuyez sur le bouton **<img src="images/Draft_Edit.svg" width=16px> [Edite l'objet actif](Draft_Edit/fr.md)**.
     -   Sélectionnez l\'option **Modification → <img src="images/Draft_Edit.svg" width=16px> Editer** dans le menu.
-    -   Sélectionnez l\'option **Utilitaires → <img src="images/Draft_Edit.svg" width=16px> Editer** dans le menu.
     -   Utilisez le raccourci clavier : **D** puis **E**.
 3.  Si vous n\'avez pas encore sélectionné d\'objet : sélectionnez un objet dans la [Vue 3D](3D_view/fr.md).
 4.  Les objets sélectionnés sont marqués par des nœuds temporaires et le [Panneau principal des tâches](#Panneau_principal_des_t.C3.A2ches.md) s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.

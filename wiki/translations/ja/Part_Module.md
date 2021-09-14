@@ -1,3 +1,5 @@
+# Part Module/ja
+
 
 
 
@@ -115,7 +117,7 @@ These are tools for creating new and modifying existing objects.
 
 -   <img alt="" src=images/Part_ProjectionOnSurface.svg  style="width:32px;"> [Projection on surface](Part_ProjectionOnSurface.md): Projects a logo, text or any face, wire or edge onto a surface. <small>(v0.19)</small> 
 
--   <img alt="" src=images/Part_Attachment.svg  style="width:32px;"> [Attachment](Part_Attachment.md): Attaches an object to another object.
+-   <img alt="" src=images/Part_EditAttachment.svg  style="width:32px;"> [Attachment](Part_EditAttachment.md): Attaches an object to another object.
 
 ### Boolean
 
@@ -239,4 +241,4 @@ See [Part scripting](Part_scripting.md).
 
  
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

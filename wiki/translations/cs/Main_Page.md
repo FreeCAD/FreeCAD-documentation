@@ -1,4 +1,6 @@
-\_\_NOTOC\_\_ 
+# Main Page/cs
+
+ 
 
 
 <div class="mw-translate-fuzzy">
@@ -94,4 +96,4 @@ Podívejte se na [Vývojovou mapu](Development_roadmap/cs.md) na novinky, které
 
 
 
-[Category:Documentation{{\#translation:}}](Category:Documentation.md)
+[Category:Documentation](Category:Documentation.md)

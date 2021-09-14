@@ -1,3 +1,5 @@
+# Workbenches/ru
+
 
 
 
@@ -87,4 +89,4 @@ The following workbenches are still included in the base installation for compat
 
 
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

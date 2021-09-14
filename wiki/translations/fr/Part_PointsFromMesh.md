@@ -8,9 +8,6 @@
    SeeAlso:[Part Forme à partir du maillage](Part_ShapeFromMesh/fr.md), [Part Convertir en solide](Part_MakeSolid/fr.md), [Part Affiner la forme](Part_RefineShape/fr.md)
 ---
 
-
-</div>
-
 ## Description
 
 L\'outil **<img src="images/Part_PointsFromMesh.svg" width=16px> [Part Points à partir de maillage](Part_PointsFromMesh/fr.md)** crée une forme à partir d\'un [objet mesh](Glossary/fr#Mesh.md) importé ou produit à partir de l\'**<img src="images/Workbench_Mesh.svg" width=16px> [atelier Mesh](Mesh_Workbench/fr.md)**.
@@ -34,13 +31,7 @@ Il n\'y aura pas d\'analyse ou de validation de l\'objet maillé. L\'analyse et 
 ## Script
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
  

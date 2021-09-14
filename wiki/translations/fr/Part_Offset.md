@@ -7,9 +7,6 @@
    SeeAlso:[Part Évidement](Part_Thickness/fr.md), [Part Décalage 2D](Part_Offset2D/fr.md)
 ---
 
-
-</div>
-
 ## Description
 
 L\'outil Décalage 3D de la pièce crée des copies parallèles d\'une forme sélectionnée à une certaine distance de la forme de base, créant ainsi un nouvel objet.
@@ -35,7 +32,7 @@ L\'outil Décalage 3D de la pièce crée des copies parallèles d\'une forme sé
 2.  Optionː auto intersection (à faire).
 3.  Optionː décalage de remplissageː lorsque la forme était bidimensionnelle, l\'espace entre les 2 formes est comblé. Le remplissage est maintenant un solide, donc la forme source n\'est pas un solide. Ainsi, les opérations booléennes peuvent conduire à des résultats étranges. (voir exemple ci-dessous).
 
-## Exemple
+## Exemples
 
 Objet avec petits coins décalés et arrondis (arc).
 
@@ -62,13 +59,7 @@ Décalage *rempli* avec 2 cylindres créant des coupes booléennes. Le cylindre 
 <img alt="" src=images/PartOffset6.png  style="width:400" height="200px;"> 
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
   

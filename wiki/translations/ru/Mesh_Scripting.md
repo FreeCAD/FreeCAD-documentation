@@ -1,3 +1,5 @@
+# Mesh Scripting/ru
+
 
 
 
@@ -42,9 +44,7 @@ meshObject = Mesh.Mesh(triangles)
 Mesh.show(meshObject)
 ```
 
-Ядро Mesh заботится о создании топологического правильной структуры данных, сортируя совпадающие точки и края.
-
-[наверх](#top.md)
+Ядро Mesh заботится о создании топологического правильной структуры данных, сортируя совпадающие точки и края. {{Top}}
 
 ## Моделирование
 
@@ -90,19 +90,13 @@ obj.Mesh = pipe
 doc.recompute()
 ```
 
-[наверх](#top.md)
+
+{{Top}}
 
 ## Примечания
 
 Широко применяемый, хотя и трудный в использовании, источник скриптов обработки полигональных сеток - это тестовые скрипты в модуле `Mesh`. В этих тестах модуля буквально все методы вызываются и все свойства/атрибуты перебираются. Так что если вы достаточно смелы, взгляните на [Unit Test module](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Mesh/App/MeshTestsApp.py).
 
-Смотрите так же: [Mesh API](Mesh_API/ru.md).
+Смотрите так же: [Mesh API](Mesh_API/ru.md). {{Top}} {{Powerdocnavi}} {{Mesh Tools navi}} 
 
-[наверх](#top.md)
-
-
-{{Powerdocnavi
-
-}} {{Mesh Tools navi}} 
-
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Python Code{{\#translation:}}](Category:Python_Code.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)

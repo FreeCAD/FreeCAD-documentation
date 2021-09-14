@@ -1,8 +1,10 @@
-\_\_NOTOC\_\_ 
+# Main Page/sv
+
+ 
 
 ## Introduction
 
-This is the documentation wiki of [FreeCAD](http://www.freecadweb.org). There are two main ways to browse the documentation: by exploring the hubs, or by following the manual. This is a work in progress, written by the community of users and developers of FreeCAD. If you find information that is wrong or missing, please [help FreeCAD](Special:MyLanguage/help_FreeCAD.md)! 
+This is the documentation wiki of [FreeCAD](http://www.freecadweb.org). There are several ways to use this documentation: by exploring the hubs, by following the manual, or by using the Help menu entries from within FreeCAD. This is a work in progress, written by the community of users and developers of FreeCAD. If you find information that is wrong or missing, please [help FreeCAD](Special:MyLanguage/help_FreeCAD.md)! 
 
 
 ## The hubs 
@@ -83,4 +85,4 @@ Titta på [Development roadmap](Development_roadmap.md) för nyheter om vad som 
 
 
 
-[Category:Documentation{{\#translation:}}](Category:Documentation.md)
+[Category:Documentation](Category:Documentation.md)

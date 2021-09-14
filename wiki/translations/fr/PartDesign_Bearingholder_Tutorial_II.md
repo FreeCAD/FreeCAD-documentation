@@ -1,3 +1,5 @@
+# PartDesign Bearingholder Tutorial II/fr
+
 
 
 
@@ -90,4 +92,4 @@ Pour le reste de l\'usinage, créer un nouveau corps. Le fond du support sera us
 
 
 
-[Category:Tutorials{{\#translation:}}](Category:Tutorials.md)
+[Category:Tutorials](Category:Tutorials.md)

@@ -1,5 +1,11 @@
 ---
-- GuiCommand:/it   Name:Drawing Landscape A3   Name/it:Nuovo disegno A3   Workbenches:[[Drawing Module/it   Disegno]], Completo|MenuLocation:Disegno → Nuovo disegno → A3 Orizzontale   Shortcut:Nessuno---
+- GuiCommand:/it
+   Name:Drawing Landscape A3
+   Name/it:Nuovo disegno A3
+   Workbenches:[Disegno](Drawing_Workbench/it.md), Completo
+   MenuLocation:Disegno → Nuovo disegno → A3 Orizzontale
+   Shortcut:Nessuno
+---
 
 Questo strumento crea un nuovo foglio di disegno utilizzando modelli di squadrature già installati.
 
@@ -77,7 +83,7 @@ Se la pagina non viene visualizzata, fare clic sull\'icona Aggiorna <img alt="" 
 <div class="mw-translate-fuzzy">
 
 
-{{docnav/it|[Aprire un file SVG](Drawing_Open_SVG/it.md)|[Inserire una vista nel foglio di disegno](Drawing_View/it.md)|[Drawing](Drawing_Module/it.md)|IconL=Drawing_Open_SVG.png|IconC=Workbench_Drawing.svg|IconR=Drawing_View.png}}
+{{docnav/it|[Aprire un file SVG](Drawing_Open_SVG/it.md)|[Inserire una vista nel foglio di disegno](Drawing_View/it.md)|[Drawing](Drawing_Workbench/it.md)|IconL=Drawing_Open_SVG.png|IconC=Workbench_Drawing.svg|IconR=Drawing_View.png}}
 
 
 </div>

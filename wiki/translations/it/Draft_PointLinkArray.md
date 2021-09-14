@@ -3,7 +3,7 @@
    Name:Draft_PointLinkArray
    Name/it:Serie di link su punti
    MenuLocation:Modifiche → Strumenti serie → Serie di link su punti
-   Workbenches:[Draft](Draft_Module/it.md), [Arch](Arch_Module/it.md)
+   Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
    SeeAlso:[Serie ortognale](Draft_OrthoArray/it.md), [Serie polare](Draft_PolarArray/it.md), [Serie circolare](Draft_CircularArray/it.md), [Serie su tracciato](Draft_PathArray/it.md), [Serie su punti](Draft_PointArray/it.md)
    Version:0.19
 ---

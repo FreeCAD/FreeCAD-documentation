@@ -1,3 +1,5 @@
+# Embedding FreeCADGui/de
+
 
 
 ## Introduction
@@ -486,4 +488,4 @@ In the source code there are examples of embedding FreeCAD with various graphica
 
 }} 
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Python Code{{\#translation:}}](Category:Python_Code.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)

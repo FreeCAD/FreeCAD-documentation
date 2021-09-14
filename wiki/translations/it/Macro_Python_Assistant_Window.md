@@ -1,3 +1,5 @@
+# Macro Python Assistant Window/it
+
  {{Macro/it
 |Name=Macro Python Assistant Window
 |Translate=Python Assistant Window

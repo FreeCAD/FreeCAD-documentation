@@ -1,4 +1,6 @@
-\_\_NOTOC\_\_ 
+# Artwork Assembly3/pl
+
+ 
 
 Ikony te znajdują się we wskazanej ścieżce źródłowej gałęzi Realthundera:
 
@@ -33,4 +35,4 @@ Ikony te znajdują się we wskazanej ścieżce źródłowej gałęzi Realthunder
 
 }} 
 
-[Category:Assembly{{\#translation:}}](Category:Assembly.md)
+[Category:Assembly](Category:Assembly.md)

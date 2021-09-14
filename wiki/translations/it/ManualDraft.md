@@ -1,3 +1,5 @@
+# ManualDraft/it
+
 =
 
 
@@ -18,16 +20,16 @@ Ambiente Draft
 
 </div>
 
-== \_\_NOTOC\_\_ Questo è la guida ai comandi di FreeCAD. Comprende le pagine del [Wiki della documentazione di FreeCAD](Main_Page/it.md) che si riferiscono ai comandi. Questa versione è stata creata principalmente per essere stampata come un unico grande documento o per consentire una panoramica veloce sulle pagine dei comandi. Se si sta leggendo questo online, si consiglia di andare direttamente alla [Guida in linea](Online_Help_Toc/it.md), che è più facile da esplorare.
+==  Questo è la guida ai comandi di FreeCAD. Comprende le pagine del [Wiki della documentazione di FreeCAD](Main_Page/it.md) che si riferiscono ai comandi. Questa versione è stata creata principalmente per essere stampata come un unico grande documento o per consentire una panoramica veloce sulle pagine dei comandi. Se si sta leggendo questo online, si consiglia di andare direttamente alla [Guida in linea](Online_Help_Toc/it.md), che è più facile da esplorare.
 
--   Parte prima: [Ambiente Draft](ManualDraft/it#Draft_Module/it.md)
+-   Parte prima: [Ambiente Draft](ManualDraft/it#Draft_Workbench/it.md)
 -   Parte seconda: [Ambiente Draft: Strumenti per disegnare gli oggetti](ManualDraft/it#Ambiente_Draft:_Strumenti_per_disegnare_gli_oggetti.md)
 -   Parte terza: [Ambiente Draft: Strumenti per modificare gli oggetti](ManualDraft/it#Ambiente_Draft:_Strumenti_per_modificare_gli_oggetti.md)
 -   Parte quarta: [Ambiente Draft: Strumenti di utilità](ManualDraft/it#Ambiente_Draft:_Strumenti_di_utilità.md)
 -   Parte quinta: [Ambiente Draft: Altri strumenti e strumenti non documentati](ManualDraft/it#Ambiente_Draft:_Altri_strumenti_e_strumenti_non_documentati.md)
 
 
-{{:Draft_Module/it}}
+{{:Draft_Workbench/it}}
 
 
 

@@ -1,3 +1,5 @@
+# Screenshots/pt
+
  {{TOCright}}
 
 Aqui estão algumas capturas de ecrã mostrando diferentes partes do FreeCAD. Não estão ordenadas de forma cronológica, as imagens apresentadas podem divergir da versão atual. Veja maos capturas de ecrã submetidas por utilizadores em [screenshot forum thread](http://forum.freecadweb.org/viewtopic.php?f=8&t=4751) e em [\"Show your project here!\" Users Showcase forum part](http://forum.freecadweb.org/viewforum.php?f=24).

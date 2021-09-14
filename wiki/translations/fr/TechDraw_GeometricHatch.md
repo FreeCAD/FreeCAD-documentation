@@ -7,9 +7,6 @@
    SeeAlso:[TechDraw Hachures par motifs](TechDraw_Hatch/fr.md), [TechDraw Hachures](TechDraw_Hatching/fr.md)
 ---
 
-
-</div>
-
 ## Description
 
 L\'outil Hachures géométriques remplit une région fermée dans une vue avec un motif basé sur une spécification de hachures AutoDesk PAT. **Alternativement**, l\'outil [TechDraw Hachures par motifs](TechDraw_Hatch/fr.md) utilise un fichier [SVG](SVG/fr.md) ou [bitmap](bitmap/fr.md) comme motif de hachures, voir [TechDraw Hachures](TechDraw_Hatching/fr.md) pour plus de détails.
@@ -91,13 +88,7 @@ Part.show(hatch)
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{TechDraw Tools navi

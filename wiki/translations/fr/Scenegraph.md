@@ -1,3 +1,5 @@
+# Scenegraph/fr
+
 
 
 
@@ -75,4 +77,4 @@ Voir les [Coin3d snippets](Coin3d_snippets/fr.md) grâce aux recherches de Mariw
 
 }} 
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md)

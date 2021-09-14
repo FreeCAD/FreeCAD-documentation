@@ -1,13 +1,9 @@
-
-
-
-<div class="mw-translate-fuzzy">
+# Installing on Linux/it
 
 
 
 
 
-</div>
 
 ## Descrizione
 
@@ -29,13 +25,7 @@ Molte distribuzioni Linux sono basate su Ubuntu e condividono i suoi repository.
 
 <div class="mw-collapsible-content">
 
-
-<div class="mw-translate-fuzzy">
-
-### Repository ufficiale di Ubuntu 
-
-
-</div>
+### Versione ufficiale 
 
 FreeCAD è disponibile nel repository ufficiale di Ubuntu e può essere installato tramite **Software Center** o dal terminale:
 
@@ -49,38 +39,16 @@ sudo apt install freecad
 
 il pacchetto del repository di Ubuntu potrebbe essere obsoleto rispetto all\'ultimo codice sorgente stabile. In questo caso, si consiglia di installare il pacchetto dal PPA `-stable` sottostante. Inoltre, l\'installazione del pacchetto `-daily` può essere eseguita per testare il ramo di sviluppo.
 
-
-<div class="mw-translate-fuzzy">
-
-### PPA stabile 
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+### Versione PPA stabile 
 
 Il Personal Package Archive (PPA) per la versione stabile di FreeCAD è mantenuto dalla comunità di FreeCAD su Launchpad. Il repository Launchpad viene chiamato [FreeCAD Stable Releases](https://launchpad.net/~freecad-maintainers/+archive/freecad-stable) .
-
-
-</div>
 
 #### Interfaccia grafica 
 
 Installare il PPA stabile tramite l\'interfaccia utente grafica (GUI):
 
-
-<div class="mw-translate-fuzzy">
-
-
 :   1\. Navigare verso **Software per Ubuntu → Software e Aggiornamenti → Codice sorgente → Altro Software**
 :   2\. Cliccare su **Aggiungi**, quindi copiare e incollare la riga seguente
-
-
-</div>
-
-
-:   
 
     :   
         
@@ -393,13 +361,7 @@ zypper install freecad
 
 The package name is case sensitive, so try \FreeCAD\ as well as \freecad\. If that does not work for you, either because your package manager does not have a precompiled FreeCAD version available, or because the available version is too old for your needs, you can try downloading one of the [.AppImage](https://github.com/FreeCAD/FreeCAD/releases/) releases from the github repository. These tend to work on most 64 bit Linux distributions, without any special installation. Just make sure the downloaded file is marked as executable, then run it.
 
-
-<div class="mw-translate-fuzzy">
-
-Se ciò non basta, e non è possibile individuare un\'altra fonte di un pacchetto precompilato per la propria situazione, è necessario [compilare FreeCAD](Compile_on_Linux/Unix/it.md) da soli.
-
-
-</div>
+Se ciò non basta, e non è possibile individuare un\'altra fonte di un pacchetto precompilato per la propria situazione, è necessario [compilare FreeCAD](Compile_on_Linux/it.md) da soli.
 
 ### Installing Windows Version on Linux 
 
@@ -410,15 +372,9 @@ See the [Installing on Windows](Installing_on_Windows.md) page.
 Appena terminata l\'installazione di FreeCAD, è ora di [iniziare](Getting_started/it.md)!
 
 
-<div class="mw-translate-fuzzy">
 
 
 
 
 
-</div>
-
-
-
-
-[Category:Common Questions{{\#translation:}}](Category:Common_Questions.md) [Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md)
+[Category:Common Questions](Category:Common_Questions.md) [Category:Developer Documentation](Category:Developer_Documentation.md)

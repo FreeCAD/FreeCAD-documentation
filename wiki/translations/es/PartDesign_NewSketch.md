@@ -52,7 +52,7 @@ To reference any items in the <img src=images/Sketcher_CarbonCopy.svg style="wid
 
 ## Properties
 
--    **Map Mode**: mode of attachment of the sketch to another object, usually a plane or a face but can be other types of objects. Click once in the field to reveal a **...** button and press it to open the [Attachment](Part_Attachment.md) dialog. If set to Deactivated, the Placement property is enabled.
+-    **Map Mode**: mode of attachment of the sketch to another object, usually a plane or a face but can be other types of objects. Click once in the field to reveal a **...** button and press it to open the [Attachment](Part_EditAttachment.md) dialog. If set to Deactivated, the Placement property is enabled.
 
 -    **Placement**: controls the orientation of the sketch in the 3D space; see [placement](Std_Placement.md). Disabled if the sketch is attached through the Map Mode property.
 

@@ -1,18 +1,3 @@
----
-- GuiCommand:
-   Name:FEM PostFilterLinearizedStresses
-   MenuLocation: Results → Stress linearization plot
-   Workbenches:[FEM](FEM_Workbench.md)
-   SeeAlso:[FEM tutorial](FEM_tutorial.md)
----
+# FEM PostCreateLinearizedStressesFilter
 
-## Description
-
-ToDo
-
-## Usage
-
-
-
-
- {{FEM Tools navi}}  
+1.  REDIRECT [FEM\_PostFilterLinearizedStresses](FEM_PostFilterLinearizedStresses.md)

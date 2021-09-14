@@ -1,3 +1,5 @@
+# Macro Dump Objects/it
+
  {{Macro/it
 |Name=Macro Dump Objects
 |Translate=Elenca oggetti

@@ -1,3 +1,5 @@
+# Macro Easy cutouts for Enclosure Design/fr
+
  {{Macro/fr
 |Name=Easy cutouts for Enclosure Design
 |Icon=Macro_Easy_cutouts_for_Enclosure_Design_icon.png

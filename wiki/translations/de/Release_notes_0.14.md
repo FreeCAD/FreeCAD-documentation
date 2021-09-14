@@ -1,3 +1,5 @@
+# Release notes 0.14/de
+
 
 
 FreeCAD 0.14 wurde am 1. Juli 2014 veröffentlicht. Diese Release notes sind eine Zusammenfassung der wichtigsten Entwicklungen in FreeCAD seit der letzten Version 0.13. Für eine vollständige Liste aller Änderungen siehe [den Mantis Changelog](http://www.freecadweb.org/tracker/changelog_page.php). Alte Versionen: [0.13](Release_notes_0.13/de.md) - [0.12](Release_notes_0.12.md) - [0.11](Release_notes_0.11/de.md)
@@ -64,7 +66,7 @@ Die Kantenglättung für die 3D Ansicht von FreeCAD hat neue Optionen erhalten, 
 
 ### Freiformfläche und Sweepen 
 
-Die Funktionen [Part Loft](Part_Loft.md) (Menü Formteil \--\> Freiformfläche) and [Part Sweep/de](Part_Sweep/de.md) (Menü Formteil \--\> Sweepen) wurden verbessert und können nun Objekte, die mit dem [Arbeitsbereich Entwurf](Draft_Module/de.md) erstellt wurden, als Profile verwenden.
+Die Funktionen [Part Loft](Part_Loft.md) (Menü Formteil \--\> Freiformfläche) and [Part Sweep/de](Part_Sweep/de.md) (Menü Formteil \--\> Sweepen) wurden verbessert und können nun Objekte, die mit dem [Arbeitsbereich Entwurf](Draft_Workbench/de.md) erstellt wurden, als Profile verwenden.
 
 ### Versetzen
 
@@ -80,7 +82,7 @@ Der [Arbeitsbereich Partverfügt](Part_Workbench/de.md) jetzt über ein [Verbund
 
 ### Part Grundkörper 
 
-Neue Körper wurden zu den [Grundkörpern](Part_CreatePrimitives/de.md) (Menü Formteil \--\> Grundkörper erstellen) hinzugefügt. Prisma, Reguläre Polygone und Spiralen können jetzt sehr einfach durch Eingabe einiger Parameter erstellt werden. Weiterhin können einige Funktionen des [Arbeitsbereichs Entwurf](Draft_Module/de.md) auch Nutzen aus der neuen Funktion ziehen und erstellen Grundörper anstatt normale Draftobjekte, wenn die dazugehörige Option in den Einstellungen aktiviert wurde.
+Neue Körper wurden zu den [Grundkörpern](Part_CreatePrimitives/de.md) (Menü Formteil \--\> Grundkörper erstellen) hinzugefügt. Prisma, Reguläre Polygone und Spiralen können jetzt sehr einfach durch Eingabe einiger Parameter erstellt werden. Weiterhin können einige Funktionen des [Arbeitsbereichs Entwurf](Draft_Workbench/de.md) auch Nutzen aus der neuen Funktion ziehen und erstellen Grundörper anstatt normale Draftobjekte, wenn die dazugehörige Option in den Einstellungen aktiviert wurde.
 
 ![](images/Part_Create_Primitives1.jpeg )
 
@@ -160,7 +162,7 @@ Unterstützung für [Ellipsen](Draft_Ellipse.md) wurde hinzugefügt. Der Arbeits
 
 ### Fasen
 
-Ähnlich wie Abrundung, die in [Version 0.13](Release_notes_013/de.md) eingeführt wurden, erhalten Rechtecke, Kantenzüge und Polygone nun eine Faseneigenschaft. Die Fase wirkt vor der Abrundung und beide Eigenschaften können gleichzeitig verwendet werden um einen einfachen Kantenzug schnell in ein komplexes Objekt zu verwandeln, das aus vielen Abschnitten besteht.
+Ähnlich wie Abrundung, die in [Version 0.13](Release_notes_0.13/de.md) eingeführt wurden, erhalten Rechtecke, Kantenzüge und Polygone nun eine Faseneigenschaft. Die Fase wirkt vor der Abrundung und beide Eigenschaften können gleichzeitig verwendet werden um einen einfachen Kantenzug schnell in ein komplexes Objekt zu verwandeln, das aus vielen Abschnitten besteht.
 
 ### Überarbeitetes Herauf- und Herabstufen 
 
@@ -220,7 +222,7 @@ Ein einfaches aber nützliches neues Tool des Architekturarbeitsbereiches ist de
 
 ### Tutorial
 
-Ein neues 35 Seiten umfassendes [Tutorial](Arch_tutorial/de.md) bechreibt den [Arbeitsbereich Architektur](Arch_Module/de.md) sehr detailliert an Hand eines vollständigen Beispiels.
+Ein neues 35 Seiten umfassendes [Tutorial](Arch_tutorial/de.md) bechreibt den [Arbeitsbereich Architektur](Arch_Workbench/de.md) sehr detailliert an Hand eines vollständigen Beispiels.
 
 ### Im- und Export von Ifc-Dateien 
 
@@ -230,4 +232,4 @@ Viel Zeit wurde in die Arbeit an FreeCAD und der Arbeit an [IfcOpenShell](http:/
 
 Die vollständige Liste aller Bugfixes und Neuen Funtionen kann [hier](http://freecadweb.org/tracker/changelog_page.php) nachgelesen werden.
 
-[Category:News{{\#translation:}}](Category:News.md) [Category:Documentation{{\#translation:}}](Category:Documentation.md) [Category:Releases{{\#translation:}}](Category:Releases.md)
+[Category:News](Category:News.md) [Category:Documentation](Category:Documentation.md) [Category:Releases](Category:Releases.md)

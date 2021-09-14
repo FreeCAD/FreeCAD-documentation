@@ -1,3 +1,5 @@
+# Artwork Guidelines/ru
+
 
 
 ## Введение
@@ -177,4 +179,4 @@ Inkscape имеет удобный инструмент для проверки 
 
 {{Artwork}}
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md)

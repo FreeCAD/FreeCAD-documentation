@@ -1,3 +1,5 @@
+# Std Macro Menu/ru
+
 
 
 
@@ -67,4 +69,4 @@
 
 }}  
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

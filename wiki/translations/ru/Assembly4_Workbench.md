@@ -1,3 +1,5 @@
+# Assembly4 Workbench/ru
+
 
 
 <img alt="External workbench icon" src=images/Assembly4_workbench_icon.svg  style="width:128px;">
@@ -45,4 +47,4 @@ Assembly4 создавался под влиянием верстаков <img a
 
 
 
-[Category:Addons{{\#translation:}}](Category:Addons.md) [Category:External Workbenches{{\#translation:}}](Category:External_Workbenches.md)
+[Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)

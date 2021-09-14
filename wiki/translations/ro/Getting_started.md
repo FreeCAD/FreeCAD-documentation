@@ -1,3 +1,5 @@
+# Getting started/ro
+
 
 
 
@@ -323,9 +325,9 @@ Iar, la sfârşit, să remarcăm că una dintre cele mai puternice caracteristic
 -   [Version 0.16 Release notes](Release_notes_0.16.md) : Verificați ce este nou în varianta 0.16 de FreeCAD
 -   [Version 0.15 Release notes](Release_notes_0.15.md) : Verificați ce este nou în varianta 0.15 de FreeCAD
 -   [Version 0.14 Release notes](Release_notes_0.14.md) : Verificați ce este nou în varianta 0.14 de FreeCAD
--   [Version 0.13 Release notes](Release_notes_013.md) : Verificați ce este nou în varianta 0.13 de FreeCAD
--   [Version 0.12 Release notes](Release_notes_012.md) : Verificați ce este nou în varianta 0.12 de FreeCAD
--   [Version 0.11 Release notes](Release_notes_011.md) : Verificați ce este nou în varianta 0.11 de FreeCAD
+-   [Version 0.13 Release notes](Release_notes_0.13.md) : Verificați ce este nou în varianta 0.13 de FreeCAD
+-   [Version 0.12 Release notes](Release_notes_0.12.md) : Verificați ce este nou în varianta 0.12 de FreeCAD
+-   [Version 0.11 Release notes](Release_notes_0.11.md) : Verificați ce este nou în varianta 0.11 de FreeCAD
 
 
 </div>

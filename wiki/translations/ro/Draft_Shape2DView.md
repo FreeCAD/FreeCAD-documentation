@@ -1,5 +1,10 @@
 ---
-- GuiCommand:/ro   Name:Draft Shape2DView   Name/ro:Draft Shape2DView   Workbenches:[Arch](Draft_Module/ro___Draft]],_[[Arch_Module/ro.md)|MenuLocation:Draft -> Shape 2D View---
+- GuiCommand:/ro
+   Name:Draft Shape2DView
+   Name/ro:Draft Shape2DView
+   MenuLocation:Draft -> Shape 2D View
+   Workbenches:[Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
+---
 
 
 </div>

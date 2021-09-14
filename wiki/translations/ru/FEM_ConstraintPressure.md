@@ -14,7 +14,7 @@
 
 Applies a pressure constraint to a face.
 
-## Использование
+## Применение
 
 1.  There are several ways to invoke the command:
     -   Press the **<img src="images/FEM_ConstraintPressure.svg" width=16px> [FEM ConstraintPressure](FEM_ConstraintPressure.md)** button.

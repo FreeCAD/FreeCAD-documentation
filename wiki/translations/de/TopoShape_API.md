@@ -1,3 +1,5 @@
+# TopoShape API/de
+
  {{VeryImportantMessage|(November 2018) Diese Information kann unvollständig und veraltet sein. Für die letzte API siehe die (engl.) [https://www.freecadweb.org/api autogenerierte API-Dokumentation].}}
 
 The TopoShape is the mother object of the Part Module. All shape types (wire, face, solid, etc\...) of the Part module are TopoShapes, and share the following attributes and methods. Example: 
@@ -227,4 +229,4 @@ Some attributes and methods apply only to certain TopoShapes. These items apply 
 
  
 
-[Category:API{{\#translation:}}](Category:API.md) [Category:Poweruser Documentation{{\#translation:}}](Category:Poweruser_Documentation.md)
+[Category:API](Category:API.md) [Category:Poweruser Documentation](Category:Poweruser_Documentation.md)

@@ -18,9 +18,7 @@ Powoduje związanie dwóch linii do przestrzegania prawa załamania światła, k
 
 ## Użycie
 
-<img alt="" src=images/Sketcher_SnellsLaw_Example1.png  style="width:500px;">
-
-
+<img alt="" src=images/Sketcher_SnellsLaw_Example1.png  style="width:500px;"> 
 *Sekwencja kliknięć jest oznaczona żółtymi strzałkami z numerami. n1, n2 to tylko etykiety, wskazujące gdzie znajdują się wskaźniki załamania.*
 
 -   Będziesz potrzebował dwóch linii, które mają podążać za promieniem światła, oraz krzywej, która będzie działać jako powierzchnia kontaktowa. Linie te powinny znajdować się po różnych stronach tej powierzchni.
@@ -43,10 +41,14 @@ Za pomocą przyboru **<img src=images/Sketcher_CreatePolyline.svg style="width:1
 
 ## Tworzenie skryptów 
 
-Wiązanie może być utworzone przez [makropolecenie](Macros/pl.md) i z konsoli [Pyton](Python.md) za pomocą następującej funkcji: 
+Wiązanie może być utworzone przez [makropolecenie](Macros/pl.md) i z konsoli [Pyton](Python.md) za pomocą następującej funkcji:
+
+
 ```python
 Sketch.addConstraint(Sketcher.Constraint('SnellsLaw',line1,pointpos1,line2,pointpos2,interface,n2byn1))
-``` gdzie:
+```
+
+gdzie:
 
 :\* `Sketch` jest obiektem typu szkic
 
@@ -58,7 +60,9 @@ Sketch.addConstraint(Sketcher.Constraint('SnellsLaw',line1,pointpos1,line2,point
 
 Strona [Skrypty szkicownika](Sketcher_scripting/pl.md) wyjaśnia wartości, których można użyć dla `line1`, `pointpos1`, `line2`, `pointpos2` and `interface` oraz zawiera dalsze przykłady tworzenia wiązań przy użyciu skryptów języka Python.
 
-Przykład: 
+Przykład:
+
+
 ```python
 import Sketcher
 import Part
@@ -90,4 +94,4 @@ App.ActiveDocument.recompute()
 
 {{Sketcher Tools navi
 
-}}  
+}} 

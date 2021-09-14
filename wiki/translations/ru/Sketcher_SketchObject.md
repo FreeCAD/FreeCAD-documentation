@@ -1,3 +1,5 @@
+# Sketcher SketchObject/ru
+
 
 
 ## Введение
@@ -13,7 +15,7 @@ The `Sketcher::SketchObject` is derived from [Part Part2DObject](Part_Part2DObje
 
 *Simplified diagram of the relationships between the core objects in FreeCAD. The `Sketcher::SketchObject* class is specialized for 2D shapes, and additionally it includes an extension to handle geometrical constraints of its elements.`
 
-## Использование
+## Применение
 
 1.  Switch to the [Sketcher Workbench](Sketcher_Workbench.md).
 2.  Press **<img src=images/Sketcher_NewSketch.svg style="width:16px"> [Sketcher NewSketch](Sketcher_NewSketch.md)**.
@@ -46,19 +48,19 @@ In addition to the properties described in [Part Part2DObject](Part_Part2DObject
 
 {{TitleProperty|Attachment}}
 
--    **Map Mode**, **Map Reversed**, **Attachment Offset**: same as [Part Part2DObject](Part_Part2DObject.md). See [Part Attachment](Part_Attachment.md) for more information on all attachment mapping modes.
+-    **Map Mode**, **Map Reversed**, **Attachment Offset**: same as [Part Part2DObject](Part_Part2DObject.md). See [Part EditAttachment](Part_EditAttachment.md) for more information on all attachment mapping modes.
 
 
 {{TitleProperty|Sketch}}
 
 -    **Constraints|**: named constraints, if they exist; otherwise it is an empty list `[]`.
 
-#### Hidden properties Data 
+#### Скрытые свойства Данных 
 
 See [Part Part2DObject](Part_Part2DObject.md) for the rest of the hidden properties.
 
 
-{{TitleProperty|Base}}
+{{TitleProperty|Основные}}
 
 -    **Proxy|PythonObject**: a custom class associated with this object. This only exists for the [Python](Python.md) version. See [Scripting](Sketcher_SketchObject#Scripting.md).
 
@@ -69,7 +71,7 @@ See [Part Part2DObject](Part_Part2DObject.md) for the rest of the hidden propert
 
 -    **External Geometry|LinkSubList**: a list of Part geometries outside this Sketch that are used for reference.
 
-### View
+### Вид
 
 
 {{TitleProperty|Auto Constraints}}
@@ -89,10 +91,10 @@ See [Part Part2DObject](Part_Part2DObject.md) for the rest of the hidden propert
 
 -    **Show Support|Bool**: if `True` all objects this sketch is attached to are shown when opening the sketch.
 
-#### Hidden properties View 
+#### Скрытые свойства Вид 
 
 
-{{TitleProperty|Base}}
+{{TitleProperty|Основные}}
 
 -    **Proxy|PythonObject**: a custom view provider class associated with this object. This only exists for the [Python](Python.md) version. See [Scripting](Sketcher_SketchObject#Scripting.md).
 
@@ -103,7 +105,7 @@ See [Part Part2DObject](Part_Part2DObject.md) for the rest of the hidden propert
 
 All other view properties, including hidden properties, are those of the base [Part Feature](Part_Feature.md) object.
 
-## Написание сценариев 
+## Программирование
 
 
 **See also:**

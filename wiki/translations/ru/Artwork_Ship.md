@@ -1,4 +1,6 @@
-\_\_NOTOC\_\_ 
+# Artwork Ship/ru
+
+ 
 
 Эти иконки находятся в указанной исходной папке.
 
@@ -15,4 +17,4 @@
 
 }} 
 
-[Category:Ship{{\#translation:}}](Category:Ship.md)
+[Category:Ship](Category:Ship.md)

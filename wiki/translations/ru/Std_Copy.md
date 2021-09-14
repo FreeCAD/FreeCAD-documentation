@@ -14,18 +14,18 @@
 
 ## Применение
 
-1.  Select one or more objects.
-2.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Std_Copy.svg" width=16px> [Std Copy](Std_Copy.md)** button.
-    -   Select the **Edit → <img src="images/Std_Copy.svg" width=16px> Copy** option from the menu.
-    -   Select the **<img src="images/Std_Copy.svg" width=16px> Copy** option from the [Tree view](Tree_view.md) context menu.
-    -   Use the keyboard shortcut: **Ctrl**+**C**.
-3.  If the objects have dependencies that have not been selected, a dialog box will prompt you to specify which should be included.
+1.  Перед вызовом команды выберите один или несколько объектов.
+2.  Команду можно вызвать несколькими способами:
+    -   Нажатием кнопки **<img src="images/Std_Copy.svg" width=16px> [Копировать](Std_Copy/ru.md)**.
+    -   Выбрав пункт основного меню **Правка → <img src="images/Std_Copy.svg" width=16px> Копировать**.
+    -   Выбрав пункт **<img src="images/Std_Copy.svg" width=16px> Копировать** в контекстном меню [Древовидной панели](Tree_view/ru.md).
+    -   Используя сочетания клавиш: **Ctrl**+**C**.
+3.  Если у объектов есть зависимости, которые не были обозначены, то в диалоговом окне вам будет предложено указать, какие из них следует включить в действие.
 
 ## Примечания
 
--   When you are working in a FreeCAD text window, an input box or a spreadsheet, the standard keyboard shortcut **Ctrl**+**C**, in almost all cases, does not call the **Std Copy** command but uses the Copy function from the OS instead.
--   It is not possible to copy-paste native objects between FreeCAD and other applications.
+-   Когда вы работаете с такими элементами FreeCAD как: текстовые окна, поля ввода или электронными таблицами, стандартная комбинация клавиш **Ctrl**+**C**, почти во всех случаях не вызывает команду **Std\_Copy**, а вместо этого использует функцию копирования операционной системы.
+-   Невозможно копировать и вставлять объекты между FreeCAD и другими приложениями.
 
 ## Программирование
 

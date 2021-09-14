@@ -3,13 +3,10 @@
    Name:Arch Floor
    Name/fr:Arch Niveaux
    MenuLocation:Arch → Niveau
-   Workbenches:[Arch](Arch_Module/fr.md)
+   Workbenches:[Arch](Arch_Workbench/fr.md)
    Shortcut:**L** **V**
    SeeAlso:[Arch Bâtiment](Arch_Building/fr.md), [Arch Partie de bâtiment](Arch_BuildingPart/fr.md), [Arch Site](Arch_Site/fr.md)
 ---
-
-
-</div>
 
 ## Description
 
@@ -71,13 +68,7 @@ FreeCAD.ActiveDocument.recompute()
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 

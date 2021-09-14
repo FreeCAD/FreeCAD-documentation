@@ -1,3 +1,5 @@
+# Import OpenSCAD code/ro
+
 
 
 
@@ -92,4 +94,4 @@ Aici vom folosi exemplu005.scad-fișierul din exemplele (vechi) OpenSCAD, dar nu
 -   [FreeCAD Howto Import Export](FreeCAD_Howto_Import_Export.md)
 -   [Import Export Preferences](Import_Export_Preferences.md)
 
-[Category:OpenSCAD{{\#translation:}}](Category:OpenSCAD.md)
+[Category:OpenSCAD](Category:OpenSCAD.md)

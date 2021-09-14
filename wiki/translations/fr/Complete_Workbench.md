@@ -1,3 +1,5 @@
+# Complete Workbench/fr
+
 
 
 
@@ -12,4 +14,4 @@ Voir [Personnalisation de l\'interface](Interface_Customization/fr.md) si vous s
 
 
 
-[Category:Complete{{\#translation:}}](Category:Complete.md) [Category:Obsolete Workbenches{{\#translation:}}](Category:Obsolete_Workbenches.md)
+[Category:Complete](Category:Complete.md) [Category:Obsolete Workbenches](Category:Obsolete_Workbenches.md)

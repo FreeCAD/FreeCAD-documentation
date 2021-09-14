@@ -1,4 +1,6 @@
-\_\_NOTOC\_\_ 
+# Artwork Image/fr
+
+ 
 
 Ces icônes se trouvent dans le chemin source indiqué.
 
@@ -15,4 +17,4 @@ Pour toutes les icônes de l\'arborescence source, voir [Graphisme](Artwork/fr.m
 
 }} 
 
-[Category:Image{{\#translation:}}](Category:Image.md)
+[Category:Image](Category:Image.md)

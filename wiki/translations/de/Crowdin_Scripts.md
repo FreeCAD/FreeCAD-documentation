@@ -1,3 +1,5 @@
+# Crowdin Scripts/de
+
  {{TOCright}}
 
 ## Verwalten von Übersetzungen für FreeCAD 
@@ -89,4 +91,4 @@ Das updatefromcrowdin.py Skript schiebt Änderungen aus crowdin auf Dein lokales
 
 
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Administration{{\#translation:}}](Category:Administration.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Administration](Category:Administration.md)

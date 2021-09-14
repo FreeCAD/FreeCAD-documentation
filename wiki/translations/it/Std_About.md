@@ -144,4 +144,4 @@ Mostra un elenco delle librerie esterne utilizzate dal programma e il sito Web p
 
 {{Std Base navi}}  
 
-[Category:Common Questions{{\#translation:}}](Category:Common_Questions.md)
+[Category:Common Questions](Category:Common_Questions.md)

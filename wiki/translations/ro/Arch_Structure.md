@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Arch Structure   |Name/ro:Arch Structure
    MenuLocation:Arch → Structure
-   Workbenches:[Arch](Arch_Module/ro.md)
+   Workbenches:[Arch](Arch_Workbench/ro.md)
    Shortcut:**S** **T**
    SeeAlso:[Arch Wall/ro](Arch_Wall/ro.md), [Arch Rebar/ro](Arch_Rebar/ro.md)
 ---
@@ -149,7 +149,14 @@ FreeCAD.ActiveDocument.recompute()
 <div class="mw-translate-fuzzy">
 
 
-{{docnav/ro|[Wall/ro](Arch_Wall/ro.md)|[Arch CompRebarStraight/ro](Arch_CompRebarStraight/ro.md)|[Arch](Arch_Module/ro.md)|IconC=Workbench_Arch.svg|IconL=Arch_Wall.png|IconR=Arch CompRebarStraight.png}}
+{{docnav/ro
+|[Wall/ro](Arch_Wall/ro.md)
+|[Arch CompRebarStraight/ro](Arch_CompRebarStraight/ro.md)
+|[Arch](Arch_Workbench/ro.md)
+|IconC=Workbench_Arch.svg
+|IconL=Arch_Wall.png
+|IconR=Arch CompRebarStraight.png
+}}
 
 
 </div>

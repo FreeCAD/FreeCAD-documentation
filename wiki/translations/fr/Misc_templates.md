@@ -1,3 +1,5 @@
+# Misc templates/fr
+
 
 
 Cette page répertorie quelques modèles mixtes.
@@ -84,4 +86,4 @@ CompassRose\_3D [Rose\_des\_vents\_3D.FCStd](http://forum.freecadweb.org/downloa
 
 
 
-[Category:Documentation{{\#translation:}}](Category:Documentation.md) [Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Drawing{{\#translation:}}](Category:Drawing.md)
+[Category:Documentation](Category:Documentation.md) [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Drawing](Category:Drawing.md)

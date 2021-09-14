@@ -1,3 +1,5 @@
+# Spreadsheet Workbench/ro
+
  
 
 <img alt="Spreadsheet workbench icon" src=images/Workbench_Spreadsheet.svg  style="width:128px;">
@@ -211,8 +213,8 @@ There are three solutions to deal with this:
 2.  Use a macro to automatically skip recomputes while editing a spreadsheet:
     -   Download and run [skipSheet.FCMacro](https://forum.freecadweb.org/viewtopic.php?f=8&t=48600#p419301).
     -   This solution saves a few steps compared to the first solution, but also has the mentioned disadvantage.
-3.  Put the spreadsheet in a separate file:
-    -   You can reference spreadsheet data from an external file with this syntax: `<nowiki>=NameOfFile#<<MySpreadsheet>>.MyAlias</nowiki>`.
+3.  Put the spreadsheet in a separate [FreeCAD file](File_Format_FCStd.md):
+    -   You can reference spreadsheet data from an external {{FileName|.FCStd}} file with this syntax: `<nowiki>=NameOfFile#<<MySpreadsheet>>.MyAlias</nowiki>`.
     -   The advantage of having the spreadsheet in another file over switching off recomputes is that the spreadsheet itself does get recomputed.
     -   The disadvantage is that the model won\'t automatically recompute after changes to the spreadsheet.
     -   In the scenario where you first open the \'spreadsheet\' file, change one or more values and then open the \'model\' file, there won\'t be any indication that the model needs to be recomputed. But if both files are open the [Std Refresh](Std_Refresh.md) icon will update correctly for the \'model\' file after changes to the \'spreadsheet\' file.
@@ -355,4 +357,4 @@ sheet.get('Diameter')
 
 }} 
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

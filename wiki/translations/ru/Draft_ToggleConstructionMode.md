@@ -2,8 +2,8 @@
 - GuiCommand:/ru
    Name:Draft ToggleConstructionMode
    Name/ru:Draft ToggleConstructionMode
-   Workbenches:[Draft](Draft_Module/ru.md), [Arch](Arch_Module/ru.md)
    MenuLocation:Черчение -> Утилиты -> Переключить режим конструирования
+   Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
 ---
 
 

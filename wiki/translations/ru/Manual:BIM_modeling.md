@@ -1,4 +1,6 @@
- {{UnfinishedDocu}}
+# Manual:BIM modeling/ru
+
+ }
 
 
 <div class="mw-translate-fuzzy">
@@ -17,7 +19,7 @@ BIM расшифровывается как [Building Information Modeling (Ин
 
 <div class="mw-translate-fuzzy">
 
-Верстак FreeCAD [Arch](Arch_Module/ru.md) предоставляет набор инструментов и возможностей для создания моделей BIM. Хотя он имеет другое применение, он сделан для работы в тесной интеграции с остальной частью FreeCAD: всё, что создано любым из прочих верстаков FreeCAD может превратиться в объект Arch, или послужить базой для объекта Arch.
+Верстак FreeCAD [Arch](Arch_Workbench/ru.md) предоставляет набор инструментов и возможностей для создания моделей BIM. Хотя он имеет другое применение, он сделан для работы в тесной интеграции с остальной частью FreeCAD: всё, что создано любым из прочих верстаков FreeCAD может превратиться в объект Arch, или послужить базой для объекта Arch.
 
 
 </div>
@@ -27,7 +29,7 @@ BIM расшифровывается как [Building Information Modeling (Ин
 
 <div class="mw-translate-fuzzy">
 
-Верстак Arch так же включает все инструменты из [верстака Draft](Draft_Module/ru.md), и использует его систему сеток и привязки. Перед началом желательно просмотреть страницу настроек верстаков Draft и Arch и установить желательные значения по умолчанию.
+Верстак Arch так же включает все инструменты из [верстака Draft](Draft_Workbench/ru.md), и использует его систему сеток и привязки. Перед началом желательно просмотреть страницу настроек верстаков Draft и Arch и установить желательные значения по умолчанию.
 
 
 </div>
@@ -43,7 +45,7 @@ BIM расшифровывается как [Building Information Modeling (Ин
 
 <div class="mw-translate-fuzzy">
 
--   Создадим новый документ, и переключимся на [верстак Arch](Arch_Module/ru.md).
+-   Создадим новый документ, и переключимся на [верстак Arch](Arch_Workbench/ru.md).
 -   Откроем меню **Правка → Параметры → Draft → Сетка и привязка** и установим:
     -   **Основные линии каждые** `10`.
     -   **Шаг сетки** в `1000 mm` мм, так что у нас будет метровая сетка, соответствующая размеру нашего строения.
@@ -51,7 +53,7 @@ BIM расшифровывается как [Building Information Modeling (Ин
 -   На **панели привязок** убедимся, что кнопка <img alt="" src=images/Snap_Grid.svg  style="width:16px;"> [Сетка](Draft_ToggleGrid/ru.md) включена, так что мы можем использовать сетку насколько можно.
 -   Если вы не видите оси, нажмите кнопку <img alt="" src=images/Draft_Snap_Grid.svg  style="width:16px;"> [toggle draft grid](Draft_Snap_Grid.md).
 -   Установим [Выбор плоскости](Draft_SelectPlane/ru.md) на **XY**
--   Уменьшите масштаб и панорамируйте, чтобы вы могли видеть область от (0,0) до (4,3). Смотрите подсказку в разделе [модель мыши](Mouse_Model/ru.md).
+-   Уменьшите масштаб и панорамируйте, чтобы вы могли видеть область от (0,0) до (4,3). Смотрите подсказку в разделе [модель мыши](Mouse_navigation/ru.md).
 -   Нарисуем четыре линии инструментом <img alt="" src=images/Draft_Line.svg  style="width:16px;"> [Линия](Draft_Line/ru.md). Координаты можно вводить вручную, или указывать точке в сетке с помощью мыши:
     -   От точки (0,0) к точке (0,3)
     -   От точки (0,3) к точке (4,3)
@@ -263,7 +265,7 @@ BIM расшифровывается как [Building Information Modeling (Ин
 <div class="mw-translate-fuzzy">
 
 -   [Верстак BIM](BIM_Workbench/ru.md)
--   [Верстак Arch](Arch_Module/ru.md)
+-   [Верстак Arch](Arch_Workbench/ru.md)
 -   [Рабочая плоскость верстака Draft](Draft_SelectPlane/ru.md)
 -   [Установка привязки в верстаке Draft](Draft_Snap.md)
 -   [The expressions system](Expressions.md)
@@ -289,4 +291,4 @@ BIM расшифровывается как [Building Information Modeling (Ин
 
 }} 
 
-[Category:BIM{{\#translation:}}](Category:BIM.md)
+[Category:BIM](Category:BIM.md)

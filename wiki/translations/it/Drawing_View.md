@@ -1,5 +1,12 @@
 ---
-- GuiCommand:/it   Name:Drawing View   Name/it:Inserisci vista   Workbenches:[MenuLocation:Disegno → Inserisci Vista   Shortcut:Nessuno   SeeAlso:[[Drawing Landscape A3/it|Disegno A3](Drawing_Module/it___Disegno]],_Completo.md)---
+- GuiCommand:/it
+   Name:Drawing View
+   Name/it:Inserisci vista
+   Workbenches:[Disegno](Drawing_Workbench/it.md), Completo
+   MenuLocation:Disegno → Inserisci Vista
+   Shortcut:Nessuno
+   SeeAlso:[Disegno A3](Drawing_Landscape_A3/it.md)
+---
 
 Questo strumento crea una nuova vista dell\'oggetto selezionato e la posiziona nel foglio di disegno attivo.
 
@@ -40,7 +47,7 @@ Per commutare la vista 3D tra ortogonale e prospettica selezionare [Vista in pro
 <div class="mw-translate-fuzzy">
 
 
-{{docnav/it|[Nuovo disegno A3 orizzontale](Drawing_Landscape_A3/it.md)|[Annotazione](Drawing_Annotation/it.md)|[Drawing](Drawing_Module/it.md)|IconL=Drawing_Landscape_A3.png|IconC=Workbench_Drawing.svg|IconR=Drawing_Annotation.png}}
+{{docnav/it|[Nuovo disegno A3 orizzontale](Drawing_Landscape_A3/it.md)|[Annotazione](Drawing_Annotation/it.md)|[Drawing](Drawing_Workbench/it.md)|IconL=Drawing_Landscape_A3.png|IconC=Workbench_Drawing.svg|IconR=Drawing_Annotation.png}}
 
 
 </div>

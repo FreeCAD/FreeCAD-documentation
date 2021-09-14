@@ -128,4 +128,4 @@ FreeCAD.ActiveDocument.recompute()
 
  
 
-[Category:Arch/cs](Category:Arch/cs.md) [Category:External Command Reference{{\#translation:}}](Category:External_Command_Reference.md) [Category:Reinforcement{{\#translation:}}](Category:Reinforcement.md)
+[Category:Arch/cs](Category:Arch/cs.md) [Category:External Command Reference](Category:External_Command_Reference.md) [Category:Reinforcement](Category:Reinforcement.md)

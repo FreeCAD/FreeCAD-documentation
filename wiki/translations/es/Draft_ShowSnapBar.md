@@ -1,5 +1,10 @@
 ---
-- GuiCommand:/es   Name:Draft ShowSnapBar   Name/es:Draft ShowSnapBar   Workbenches:[Arch](Draft_Module/es___Draft]],_[[Arch_Module/es.md)|MenuLocation:Draft → Utilities → Show Snap Bar---
+- GuiCommand:/es
+   Name:Draft ShowSnapBar
+   Name/es:Draft ShowSnapBar
+   MenuLocation:Draft → Utilities → Show Snap Bar
+   Workbenches:[Draft](Draft_Workbench/es.md), [Arch](Arch_Workbench/es.md)
+---
 
 
 </div>

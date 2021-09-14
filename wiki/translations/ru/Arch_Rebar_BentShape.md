@@ -1,11 +1,11 @@
 ---
-- GuiCommand:Addon/ru   Name:Arch Rebar BentShape   Name/ru:Arch Rebar BentShape   Workbenches:[Addon:Reinforcement   MenuLocation:Arch → Rebar tools   Shortcut:None   SeeAlso:[[Arch_Rebar_Stirrup/ru|Stirrup](Arch_Module/ru___Arch]].md)---
-
-
-</div>
-
+- GuiCommand:
+   Name:Arch Rebar BentShape
+   MenuLocation:Arch → Rebar tools → Bent-Shape Rebar or 3D/BIM → Reinforcement → Bent-Shape Rebar
+   Workbenches:[Arch](Arch_Workbench.md), [BIM](BIM_Workbench.md)
+   Version:0.17
+   SeeAlso:[Reinforcement](Reinforcement_Workbench.md), [Arch Rebar](Arch_Rebar.md), [Arch Rebar Stirrup](Arch_Rebar_Stirrup.md)
 ---
-- GuiCommand:Addon/ru   Name:Arch Rebar BentShape   Name/ru:Arch Rebar BentShape   Workbenches:[Addon:Reinforcement   MenuLocation:Arch → Rebar tools   Shortcut:None   SeeAlso:[[Arch_Rebar_Stirrup/ru|Stirrup](Arch_Module/ru___Arch]].md)---
 
 ## Описание
 
@@ -31,7 +31,7 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 </div>
 
-## Использование
+## Применение
 
 1.  Select any face of a previously created **<img src="images/Arch_Structure.svg" width=16px> [Arch Structure](Arch_Structure.md)** object.
 
@@ -120,7 +120,7 @@ Rebar = makeBentShapeRebar(f_cover, b_cover, l_cover, r_cover,
 
 -    `orientation`specifies the orientation of the rebar; it can be `"Bottom"`, `"Top"`, `"Left"`, or `"Right"`.
 
-### Example
+### Пример
 
 
 ```python
@@ -171,9 +171,12 @@ BentShapeRebar.editBentShapeRebar(Rebar2, 50, 35, 20, 20,
 <div class="mw-translate-fuzzy">
 
 
+
+
+
 </div>
 
 
  
 
-[Category:Arch/ru](Category:Arch/ru.md) [Category:Reinforcement{{\#translation:}}](Category:Reinforcement.md)
+[Category:Reinforcement](Category:Reinforcement.md)

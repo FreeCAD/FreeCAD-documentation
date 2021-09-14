@@ -4,13 +4,8 @@
    Name/fr:Path Surface 3D
    MenuLocation:Path → 3D Surface
    Workbenches:[Path](Path_Workbench/fr.md)
-   Shortcut:
    Version:0.19
-   SeeAlso:
 ---
-
-
-</div>
 
 ## Description
 
@@ -73,11 +68,6 @@ Pour obtenir des effets différents ou plus complexes, définissez des propriét
 5.  Cliquez sur l\'icône **<img src=images/_View-refresh.svg style="width:16px"> Recompute** dans la barre d\'outils.
 6.  Attendez les résultats \...
 
-##### Notes About Rotational Scans 
-
-
-<div class="mw-translate-fuzzy">
-
 ##### Remarques sur les balayages rotationnels 
 
 -   Les balayages **Rotationnels** nécessitent beaucoup plus de temps et de traitement que les balayages **Planaires**. Les facteurs ayant une incidence sur le temps de traitement comprennent: l\'intervalle d\'échantillonnage, l\'interpolation, le diamètre de l\'outil et la taille du modèle. Encore une fois, les analyses en rotation peuvent prendre beaucoup de temps. Certains peuvent prendre 3, 5 ou 10 minutes ou plus.
@@ -88,49 +78,40 @@ Pour obtenir des effets différents ou plus complexes, définissez des propriét
 -   Le **<img src="images/Path_Simulator.svg" width=16px> [Path Simulateur d'usinage](Path_Simulator/fr.md)** intégré ne prend pas en charge la simulation du 4ème axe. Vous devrez utiliser un simulateur tiers pour inspecter ou vérifier visuellement les chemins. Voir la section [Ressources](#Ressources.md) ci-dessous pour des suggestions.
 -   Vous verrez probablement des lignes de rotation rouges autour de votre modèle dans la fenêtre. C\'est normal dans FreeCAD pour le moment.
 
-#### Outils de découpe disponibles 
+##### Remarques sur les scans de modèles complexes 
 
-Cette opération 3D Surface utilise actuellement \[OCL/fr\|OCL\] de [OpenCamLib](OpenCamLib/fr.md) pour extraire les chemins de la base de la pièce. En tant que tel, une traduction des paramètres d'outil est nécessaire entre le contrôleur d'outil FreeCAD et OCL afin de compléter l'analyse avec la forme de l'outil (outil de coupe) choisi.
+Des temps de traitement excessivement longs (plus de 10 minutes) peuvent se produire lors du traitement de grands modèles complexes. En plus des facteurs déjà mentionnés, les étapes suivantes peuvent aider à identifier les causes et les solutions potentielles.
 
+***Mémoire insuffisante***
+Vérifiez la quantité de mémoire disponible pendant l\'exécution du scan à l\'aide d\'un outil tel que le **Gestionnaire des tâches, onglet Mémoire** de Windows. Si plus de 90 % de la mémoire est constamment utilisée, alors un petit paramètre **Déflexion linéaire** pourrait générer un maillage trop important pour la mémoire disponible.
+Pour confirmer cela \...
 
-</div>
+1.  Créez une nouvelle **<img src="images/Path_3DSurface.svg" width=24px> [3D Surface](Path_3DSurface/fr.md)** opération.
+2.  Passez à l\'onglet Modèle et augmentez la valeur de {{PropertyData/fr|Linear Deflection}}. Par exemple, passez de 2,5 um à 20 um.
+3.  Revenez à l\'onglet Tâches pour terminer la configuration de l\'opération.
+4.  Cliquez sur le bouton **OK** pour confirmer et générer les trajectoires.
 
-##### Notes About Scans of complex models 
+Pour faire de cette valeur la valeur par défaut pour toutes les nouvelles **<img src="images/Path_3DSurface.svg" width=24px> [3D Surface](Path_3DSurface/fr.md)** opérations, modifiez le paramètre **GeometryTolerance**.
+**Outils → Editer paramètres... → Préférences → Mod → Path → GeometryTolerance **.
+Notez qu\'à partir de la version 0.19, la {{PropertyData/fr|Linear Deflection}} par défaut = GeometryTolerance / 4.
 
-Excessively long processing times (longer than 10 minutes) can occur when processing large complex models. In addition to the factors already mentioned the following steps could help identify potential causes and solutions.
+***Géométrie non valide***
+Si un modèle contient une géométrie invalide, le temps de numérisation peut augmenter considérablement. Un modèle peut être vérifié à l\'aide de la fonction **Check Geometry** dans l\'<img alt="" src=images/Workbench_Part.svg  style="width:24px;">**atelier Part**.
+Pour exécuter l\'outil :
 
-***Low Memory***
-Check how much memory is available while the scan is running using a tool such as the Windows **Task Manager, Memory tab**. If more than 90% of memory is consistently being used then a small **Linear Deflection** parameter could be generating a mesh that is too large for the available memory.
-To confirm this \...
+1.  Passez dans l\'<img alt="" src=images/Workbench_Part.svg  style="width:24px;">**atelier Part** et sélectionnez le modèle à vérifier.
+2.  Cliquez sur le bouton **<img src="images/Part_CheckGeometry.svg" width=16px> [Part Vérifier la géométrie](Part_CheckGeometry/fr.md)** disponible dans la barre d\'outils de l\'atelier de pièce OU utilisez l\'entrée **Part → <img src="images/Part_CheckGeometry.svg" width=16px> Vérifier la géométrie** dans le menu supérieur.
+3.  Cliquez sur le bouton **Exécuter la vérification** et examinez les résultats.
 
-1.  Create a new **<img src="images/Path_3DSurface.svg" width=24px> [3D Surface](Path_3DSurface.md)** operation.
-2.  Switch to the Model tab and increase the **Linear Deflection** value. For example change from 2.5um to 20um
-3.  Switch back to the Tasks tab to complete setting up the operation.
-4.  Click **OK** button to confirm and generate paths.
+Si les résultats comprennent des éléments comme *BOPAlgo SelfIntersect*, alors la géométrie n\'est pas valide et doit être corrigée en ajustant le modèle.
+(Conseil : les opérations booléennes et les commandes Loft peuvent parfois introduire des *Self Intersections*)
+.
 
-To make this value the default for all new **<img src="images/Path_3DSurface.svg" width=24px> [3D Surface](Path_3DSurface.md)** operations, change the **GeometryTolerance** parameter.
-**Tools → Edit Parameters ... → Preferences → Mod → Path → GeometryTolerance **.
-Note as of version 0.19 the **Linear Deflection** default = GeometryTolerance / 4
+#### Formes d\'outils (de coupe) disponibles 
 
-***Invalid Geometry***
-If a model contains invalid geometry the scanning time can increase significantly. A model can be checked using the **Check Geometry** function in <img alt="" src=images/Workbench_Part.svg  style="width:24px;">**Part Workbench**.
-To run the tool:
-
-1.  Switch to the <img alt="" src=images/Workbench_Part.svg  style="width:24px;">**Part Workbench** and select the model to check
-2.  Click on the **<img src="images/Part_CheckGeometry.svg" width=16px>** button available in the Part workbench toolbar OR use the **Part → <img src="images/Part_CheckGeometry.svg" width=16px> Check geometry** entry from the top menu.
-3.  Click the **Run Check** button and review the results.
-
-If the results includes items like *BOPAlgo SelfIntersect* then the geometry is invalid and should be corrected by adjusting the model.
-(Hint: Boolean operations and Loft commands can sometimes introduce *Self Intersections*)
-
-#### Available Tool (Cutter) Shapes 
-
-This 3D Surface op currently uses [OpenCamLib](OpenCamLib.md) \[OCL\|OCL\] to extract paths from the part base. As such, a tool setting translation is required between the FreeCAD tool controller and OCL in order to complete the scan with your chosen tool(cutter) shape.
+Cette opération 3D Surface utilise actuellement [OpenCamLib](OpenCamLib/fr.md) pour extraire les trajectoires de la base de la pièce. En tant que tel, une traduction des paramètres de l\'outil est nécessaire entre le contrôleur d\'outil de FreeCAD et OCL afin de compléter le balayage avec la forme de votre outil (cutter).
 
 Ces formes d'outils sont respectées et disponibles pour cette opération 3D Surface:
-
-
-<div class="mw-translate-fuzzy">
 
 -   Fraise à queue
 -   Fraise hémisphérique
@@ -138,20 +119,9 @@ Ces formes d'outils sont respectées et disponibles pour cette opération 3D Sur
 -   Fraise à chanfreiner
 -   Graveur
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
 Si vous choisissez d\'exécuter le simulateur de trajectoire dans l\'atelier Path, il utilise uniquement la fraise de bout standard pour simuler des trajectoires. Par conséquent, vous ne verrez pas l'enlèvement de matière spécifique à une forme d'outil. L\'enlèvement de matière est illustré à l\'aide de la forme de la fraise.
 
 REMARQUE: à compter de mai 2019, seule la fraise en bout dispose d\'un type de test permettant de déterminer l\'exactitude de la traduction des paramètres de l\'outil FreeCAD-OCL. Veuillez poster tout commentaire concernant une utilisation autre que l'usine finale dans la section [Path/CAM](https://forum.freecadweb.org/viewforum.php?f=15) des forums FreeCAD.
-
-
-</div>
-
-NOTE: As of May 2019, only the End Mill has any type of testing to determine accuracy of the FreeCAD-to-OCL tool settings translation. Please post any feedback for non-end-mill usage to the [Path/CAM](https://forum.freecadweb.org/viewforum.php?f=15) section in the FreeCAD forums.
 
 ## Propriétés: Version 0.19 
 
@@ -248,15 +218,9 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 
 #### Conversion en maillage 
 
-
-<div class="mw-translate-fuzzy">
-
 -    {{PropertyData/fr|Angular Deflection}}: des valeurs plus petites donnent un maillage plus fin et plus précis. Des valeurs plus petites augmentent beaucoup le temps de traitement
 
--    {{PropertyData/fr|Linear Deflection}}: des valeurs plus petites donnent un maillage plus fin et plus précis. Des valeurs plus petites n\'augmentent pas beaucoup le temps de traitement
-
-
-</div>
+-    {{PropertyData/fr|Linear Deflection}}: des valeurs plus petites donnent un maillage plus fin et plus précis. Des valeurs plus petites n\'augmentent pas beaucoup le temps de traitement mais peuvent augmenter la consommation de mémoire.
 
 #### Optimisation
 
@@ -364,17 +328,9 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 
 -    {{PropertyData/fr|Release From Waste}}: coupe les déchets jusqu\'à la profondeur sur le bord du modèle, ce qui libère le modèle.
 
-## Tasks Window Editor Layout 
-
-
-<div class="mw-translate-fuzzy">
-
 ## Disposition de l\'éditeur de fenêtre de tâches 
 
 *Les descriptions des paramètres sont fournies dans la liste des propriétés ci-dessus.* Cette section est simplement une représentation des paramètres de l'éditeur de fenêtres pour l'opération.
-
-
-</div>
 
 ##### Localisation de la base 
 
@@ -457,13 +413,7 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 -   simulateur G-code(tracé): [CAMotics](https://www.camotics.org/)
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Path Tools navi

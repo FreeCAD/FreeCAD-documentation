@@ -8,21 +8,9 @@
 
 ## Beschreibung
 
+Der Befehl **Netz\_AusTeilForm** erzeugt nicht-parametrische [Polygonnetz](Mesh/de.md) Objekte ([Polygonnetz Formelemente](Mesh_Feature/de.md)) aus [Form](shape/de.md) Objekten ([Part Formelemente](Part_Feature/de.md)).
 
-<div class="mw-translate-fuzzy">
-
-Dieser Befehl erzeugt ein Netz aus einem Formobjekt.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Die Umkehroperation ist **<img src=images/Part_ShapeFromMesh.svg style="width:16px"> [Part FormAusNetz](Part_ShapeFromMesh/de.md)** aus dem <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part Arbeitsbereich](Part_Workbench/de.md).
-
-
-</div>
+Die Umkehrbearbeitung ist [Part FormAusNetz](Part_ShapeFromMesh/de.md) aus dem <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part Arbeitsbereich](Part_Workbench/de.md).
 
 ## Anwendung
 
@@ -42,13 +30,15 @@ Dies sind die verfügbaren Vernetzer und ihre Einstellungen:
 
 ### Standard Vernetzer 
 
+-    **Oberflächenabweichung**: die maximale [lineare Abweichung](https://www.opencascade.com/doc/occt-7.3.0/overview/html/occt_user_guides__modeling_algos.html#occt_modalg_11_2) eines Polygonnetzabschnitts von der Oberfläche des Objekts.
 
-<div class="mw-translate-fuzzy">
+-    **Winkelabweichung**: die maximale [Winkelabweichung](https://www.opencascade.com/doc/occt-7.3.0/overview/html/occt_user_guides__modeling_algos.html#occt_modalg_11_2) von einem Polygonnetzabschnitt zum nächsten. Diese Einstellung wird beim Vernetzen von gekrümmten Oberflächen verwendet.
 
-Du kannst diese Einstellungen ändern:
+-    **Relative Oberflächenabweichung**: wenn aktiviert, entspricht die maximale lineare Abweichung eines Polygonnetzabschnitt der angegebenen **Oberflächenabweichung** multipliziert mit der Länge des aktuellen Polygonnetzabschnitt (Kante).
 
+-    **Flächenfarben auf das Netz anwenden**: wenn markiert, erhält das Netz die Flächenfarben des Objekts.
 
-</div>
+-    **Segmente nach Flächenfarben definieren**: wenn markiert, werden die Polygonnetzabschnitt nach den Farben der Flächen des Objekts gruppiert. Diese Gruppen werden für Polygonnetz Ausgabeformate exportiert, die diese Funktion unterstützen (zum Beispiel das [OBJ](https://en.wikipedia.org/wiki/Wavefront_.obj_file) Format).
 
 ### Mefisto Vernetzer 
 

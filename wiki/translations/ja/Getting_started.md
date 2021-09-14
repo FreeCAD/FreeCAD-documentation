@@ -1,3 +1,5 @@
+# Getting started/ja
+
 
 
 
@@ -317,10 +319,10 @@ There are two types of addons:
 -   [Version 0.16 Release notes](Release_notes_0.16.md) : Check what\'s new in the 0.16 release of FreeCAD
 -   [Version 0.15 Release notes](Release_notes_0.15.md) : Check what\'s new in the 0.15 release of FreeCAD
 -   [Version 0.14 Release notes](Release_notes_0.14.md) : Check what\'s new in the 0.14 release of FreeCAD
--   [Version 0.13 Release notes](Release_notes_013.md) : Check what\'s new in the 0.13 release of FreeCAD
--   [Version 0.12 Release notes](Release_notes_012.md) : Check what\'s new in the 0.12 release of FreeCAD
--   [バージョン0.12リリースノート](Release_notes_012/jp.md) ： FreeCAD リリース 0.12 の新着情報をチェックしてください。
--   [Version 0.11 Release notes](Release_notes_011.md) : Check what\'s new in the 0.11 release of FreeCAD
+-   [Version 0.13 Release notes](Release_notes_0.13.md) : Check what\'s new in the 0.13 release of FreeCAD
+-   [Version 0.12 Release notes](Release_notes_0.12.md) : Check what\'s new in the 0.12 release of FreeCAD
+-   [バージョン0.12リリースノート](Release_notes_0.12/jp.md) ： FreeCAD リリース 0.12 の新着情報をチェックしてください。
+-   [Version 0.11 Release notes](Release_notes_0.11.md) : Check what\'s new in the 0.11 release of FreeCAD
 
 
 </div>

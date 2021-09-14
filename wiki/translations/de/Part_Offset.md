@@ -3,11 +3,8 @@
    Name/de:Part Versatz
    MenuLocation:Part → 3D Versatz
    Workbenches:[Part](Part_Workbench/de.md)
-   SeeAlso:[Dicke](Part_Thickness/de.md), [Part 2D Versatz](Part_Offset2D/de.md)
+   SeeAlso:[Dicke](Part_Thickness/de.md), [Part 2D-Versatz](Part_Offset2D/de.md)
 ---
-
-
-</div>
 
 ## Beschreibung
 
@@ -33,7 +30,7 @@ Das Werkzeug Teil 3D Versatz erzeugt parallele Kopien einer ausgewählten Form i
 2.  Option ː Selbstüberschneidung ː ( todo )
 3.  Option ː Fülle Versatz ː Wenn die Form 2 dimensional war, wird die Lücke zwischen den beiden Formen gefüllt. Die Füllung ist jetzt ein Festkörper, daher ist die Ausgangsform kein Festkörper, so dass boolesche Operationen zu seltsamen Ergebnissen führen können. (siehe Beispiel unten) .
 
-## Beispiel
+## Beispiele
 
 Objekt mit kleinem Versatz und abgerundeten ( Bogen ) Ecken.
 
@@ -60,13 +57,7 @@ dieselbe Form mit einem 3D Versatz als SKIN und *gefülltem* Versatz
 <img alt="" src=images/PartOffset6.png  style="width:400" height="200px;"> 
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
   

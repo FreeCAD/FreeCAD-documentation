@@ -9,7 +9,7 @@
 
 ## Описание
 
-The **Std Delete** command deletes selected objects.
+Команда **Удалить**, удаляет выбранные объекты.
 
 ## Применение
 
@@ -19,14 +19,14 @@ The **Std Delete** command deletes selected objects.
     -   Select the **<img src="images/Std_Delete.svg" width=16px> Delete** option from the [Tree view](Tree_view.md) context menu or [3D view](3D_view.md) context menu.
     -   Use the keyboard shortcut: **Del**.
 
-## Scripting
+## Программирование
 
 
 **Смотрите так же:**
 
 [Основы составления скриптов в FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 
-To delete an object use the `removeObject` method of the document object.
+Для удаления объекта используйте метод `removeObject` объекта document.
 
 
 ```python

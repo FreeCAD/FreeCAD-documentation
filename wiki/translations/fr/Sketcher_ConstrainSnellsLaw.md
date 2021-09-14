@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Sketcher ConstrainSnellsLaw
    Name/fr:Sketcher Contrainte de réfraction
-   MenuLocation:Sketch → Sketcher Contraintes → Contrainte la réfraction (Loi de Snell)
+   MenuLocation:Sketch → Contraintes d'esquisse → Contraint la réfraction (Loi de Snell)
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
    Version:0.15
 ---
@@ -18,9 +18,7 @@ Contraint deux lignes à suivre la loi de la réfraction de la lumière qui pén
 
 ## Utilisation
 
-<img alt="" src=images/Sketcher_SnellsLaw_Example1.png  style="width:500px;">
-
-
+<img alt="" src=images/Sketcher_SnellsLaw_Example1.png  style="width:500px;"> 
 *La séquence des clics est indiquée par des flèches jaunes avec des chiffres. n1, n2 ne sont que des indications pour montrer où se trouvent les indices de réfraction.*
 
 -   Vous aurez besoin de deux lignes qui vont suivre un faisceau de lumière, et une courbe pour agir comme une interface. Les lignes doivent être sur des côtés différents de l\'interface.
@@ -43,10 +41,14 @@ En utilisant l\'outil **<img src=images/Sketcher_CreatePolyline.svg style="width
 
 ## Script
 
-Les contraintes peuvent être créées à partir de [macros](Macros/fr.md) et de la console [Python](Python/fr.md) en utilisant la fonction suivante: 
+Les contraintes peuvent être créées à partir de [macros](Macros/fr.md) et de la console [Python](Python/fr.md) en utilisant la fonction suivante:
+
+
 ```python
 Sketch.addConstraint(Sketcher.Constraint('SnellsLaw',line1,pointpos1,line2,pointpos2,interface,n2byn1))
-``` où:
+```
+
+où:
 
 :\* `Sketch` est un objet d\'esquisse
 
@@ -60,7 +62,9 @@ Sketch.addConstraint(Sketcher.Constraint('SnellsLaw',line1,pointpos1,line2,point
 
 La page [Sketcher Scripts](Sketcher_scripting/fr.md) explique les valeurs qui peuvent être utilisées pour `line1`, `pointpos1`, `line2`, `pointpos2` et `interface` et contient d\'autres exemples sur la façon de créer des contraintes à partir de scripts Python.
 
-Exemple: 
+Exemple:
+
+
 ```python
 import Sketcher
 import Part
@@ -92,4 +96,4 @@ App.ActiveDocument.recompute()
 
 {{Sketcher Tools navi
 
-}}  
+}} 

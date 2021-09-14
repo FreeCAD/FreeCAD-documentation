@@ -1,5 +1,12 @@
 ---
-- GuiCommand:/it   Name:FEM_RunSolver   Name/it:Avvia il solutore   MenuLocation:Soluzione → Avvia il solutore   |Workbenches:[Shortcut:**R** **C**   SeeAlso:[[FEM_tutorial/it|Tutorial di FEM](FEM_Module/it___FEM]].md)---
+- GuiCommand:/it
+   Name:FEM_RunSolver
+   Name/it:Avvia il solutore
+   MenuLocation:Soluzione → Avvia il solutore
+   Workbenches:[FEM](FEM_Workbench/it.md)
+   Shortcut:**R** **C**
+   SeeAlso:[Tutorial di FEM](FEM_tutorial/it.md)
+---
 
 
 </div>

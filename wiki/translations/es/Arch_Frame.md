@@ -3,8 +3,8 @@
    Name:Arch Frame
    Name/es:Arch Frame
    MenuLocation:Arch → Frame
-   Workbenches:[Arch](Arch_Module/es.md)
-   Shortcut:F R
+   Workbenches:[Arch](Arch_Workbench/es.md)
+   Shortcut:**F** **R**
    SeeAlso:[[Arch Wall/es]], [[Arch Structure/es]]
 ---
 

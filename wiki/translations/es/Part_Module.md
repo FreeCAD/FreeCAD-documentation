@@ -1,3 +1,5 @@
+# Part Module/es
+
 
 
 
@@ -103,7 +105,13 @@ Estas son herramientas para crear nuevos objetos y modificar los existentes.
 
 -   <img alt="" src=images/Part_ProjectionOnSurface.svg  style="width:32px;"> [Proyección sobre superficie](Part_ProjectionOnSurface/es.md): Proyecta un logo, texto o cualquier cara, cable, borde a una superficie. <small>(v0.19)</small> 
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Part_Attachment.svg  style="width:32px;"> [Adjuntar](Part_Attachment/es.md): Adjunta un objeto a otro objeto.
+
+
+</div>
 
 ### Booleano
 
@@ -213,4 +221,4 @@ Ver [Guiones Pieza](Part_scripting/es.md).
 
  
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

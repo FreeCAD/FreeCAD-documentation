@@ -1,13 +1,9 @@
-
-
-
-<div class="mw-translate-fuzzy">
+# TechDraw Geometric dimensioning and tolerancing/fr
 
 
 
 
 
-</div>
 
 
 {{TOCright}}
@@ -36,13 +32,7 @@ Les possibilités de TechDraws pour répondre aux normes GD&T courantes sont lim
 
 ## Cotations
 
-
-<div class="mw-translate-fuzzy">
-
 TechDraw fournit plusieurs outils pour créer différents types de cotations. Veuillez consulter les [differentes cotations](TechDraw_Workbench/fr#Cotations.md) pour savoir comment les créer et les modifier.
-
-
-</div>
 
 ### Mise en forme 
 
@@ -74,16 +64,10 @@ Avec les propriétés {{PropertyData/fr|X}} et {{PropertyData/fr|Y}}, vous pouve
 
 #### Création
 
-
-<div class="mw-translate-fuzzy">
-
 1.  Créez une [cotation](TechDraw_Workbench/fr#Cotations.md) dans votre dessin
 2.  Double-cliquez sur la cote dans le dessin ou sur l\'objet cote dans l\'arbre du modèle
 3.  Dans la boîte de dialogue de dimension qui apparaît, spécifiez comme **Overtolerance** la valeur de laquelle la dimension peut être dépassée. Cela entraînera une tolérance égale comme celle-ci: <img alt="" src=images/TechDraw_equal-tolerance.png  style="width:100px;">
 4.  Si vous avez des tolérances inégales, spécifiez **Undertolerance** la valeur de laquelle la dimension peut être plus petite et décochez l\'option **Equal Tolerance**. Cela entraînera une tolérance inégale comme ceci: <img alt="" src=images/TechDraw_Non-equal-tolerance.png  style="width:80px;">
-
-
-</div>
 
 #### Suppression
 
@@ -353,13 +337,7 @@ Les points de référence au sens de la GD&T sont des surfaces auxquelles votre 
 : Symboles utilisés dans le cadre de contrôle d\'entités pour spécifier la description, la tolérance, le modificateur et les références d\'une fonction
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{TechDraw Tools navi

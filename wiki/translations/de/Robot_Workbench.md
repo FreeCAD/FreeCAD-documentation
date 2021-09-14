@@ -1,3 +1,5 @@
+# Robot Workbench/de
+
 
 
 
@@ -79,4 +81,4 @@ Siehe das [Roboter API Beispiel](Robot_API_example/de.md) für eine Beschreibung
 
 }} 
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

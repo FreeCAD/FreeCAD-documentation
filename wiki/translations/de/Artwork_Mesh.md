@@ -1,4 +1,6 @@
-\_\_NOTOC\_\_ 
+# Artwork Mesh/de
+
+ 
 
 Diese Symbole befinden sich im angegebenen Quellpfad.
 
@@ -19,4 +21,4 @@ Für alle Symbole im Quellbaum siehe [Illustration](Artwork/de.md).
 
 }} 
 
-[Category:Mesh{{\#translation:}}](Category:Mesh.md)
+[Category:Mesh](Category:Mesh.md)

@@ -1,3 +1,5 @@
+# Part Module/pt-br
+
 
 
 
@@ -103,7 +105,13 @@ Estas são ferramentas para criar novos objetos e modificar os existentes.
 
 -   <img alt="" src=images/Part_ProjectionOnSurface.svg  style="width:32px;"> [Projeção na superfície](Part_ProjectionOnSurface/pt-br.md): Projeta um logotipo, texto ou qualquer face, fio ou borda em uma superfície. <small>(v0.19)</small> 
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Part_Attachment.svg  style="width:32px;"> [Anexo](Part_Attachment/pt-br.md): Prende um objeto a outro objeto.
+
+
+</div>
 
 ### Booleano
 
@@ -211,4 +219,4 @@ Veja [Script(roteiro) da peça](Part_scripting/pt-br.md).
 
  
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

@@ -2,14 +2,11 @@
 - GuiCommand:/fr
    Name:Arch Axis
    Name/fr:Arch Axes
-   MenuLocation:Arch → Axis
-   Workbenches:[Arch](Arch_Module/fr.md)
+   MenuLocation:Arch → Outils de l'axe → Axe
+   Workbenches:[Arch](Arch_Workbench/fr.md)
    Shortcut:**A** **X**
    SeeAlso:[Arch Système d'axes](Arch_AxisSystem/fr.md), [Arch Grille](Arch_Grid/fr.md)
 ---
-
-
-</div>
 
 ## Description
 
@@ -94,13 +91,7 @@ FreeCAD.ActiveDocument.recompute()
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
  

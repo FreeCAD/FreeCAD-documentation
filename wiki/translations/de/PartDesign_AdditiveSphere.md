@@ -16,10 +16,16 @@ Fügt den Grundkörper Kugel in den aktiven Körper (Body) als Basisformelement 
 
 ## Anwendung
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Auf die Schaltfläche **<img src="images/PartDesign_AdditiveSphere.svg" width=24px> '''Zu addierende Kugel'''** klicken. **Anmerkung**: Zu addierende Kugel ist Teil des benannten Symbols *Erzeugen eines zusätzlichen geometrischen Körpers*. Direkt nach dem Start von FreeCAD wird das Symbol von „zu addierender Quader" in der Werkzeugleiste angezeigt. Wenn ein anderer Grundkörper zu sehen ist, kann durch Klicken auf den Pfeil neben dem Symbol der zu addierenden Kugel in dem aufklappenden Menü ausgewählt werden.
 2.  Die Parameter des Grundkörpers und über [Attachment](Part_Attachment/de.md) den räumlichen Bezug einstellen.
 3.  Mit Klick auf **OK** bestätigen.
 4.  Das Feature (Formelement) Kugel (Sphere) erscheint unterhalb des aktiven Körpers (Body).
+
+
+</div>
 
 ## Optionen
 
@@ -29,6 +35,9 @@ Die Kugel kann auf zwei verschieden Wege bearbeitet werden:
 -   Mittels des [Eigenschafteneditors](Property_editor/de.md) im Reiter Daten.
 
 ## Eigenschaften
+
+
+<div class="mw-translate-fuzzy">
 
 -    {{PropertyData/de|Attachment}}: Bestimmt den Befestigungsmodus und den Befestigungsversatz. Siehe [Befestigung](Part_Attachment/de.md).
 
@@ -41,6 +50,9 @@ Die Kugel kann auf zwei verschieden Wege bearbeitet werden:
 -    {{PropertyData/de|Angle2}}: (ohne Beschriftung in dem Dialog Parameter des Grundkörpers) Die obere Verkürzung der Kugel, normal zur Z-Achse (90° in einer vollen Kugel).
 
 -    {{PropertyData/de|Angle3}}: (mit *U-Parameter:* in dem Dialog Parameter des Grundkörpers bezeichnet) Rotationswinkel des halben Kugelquerschnitts (360° in einer vollen Kugel).
+
+
+</div>
 
 
 

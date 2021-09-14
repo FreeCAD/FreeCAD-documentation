@@ -1,3 +1,5 @@
+# Draft DAT/tr
+
 
 
 
@@ -31,4 +33,4 @@ Bu formata farklı lehçeler var, bu yüzden bu içe aktarma modülü neredeyse 
 
  
 
-[Category:User Documentation/tr](Category:User_Documentation/tr.md) [Category:File Formats{{\#translation:}}](Category:File_Formats.md)
+[Category:User Documentation/tr](Category:User_Documentation/tr.md) [Category:File Formats](Category:File_Formats.md)

@@ -1,8 +1,10 @@
+# Power users hub/pl
+
  <img alt="" src=images/Power_user_hub.png  style="width:64px;">
 
 ------------------------------------------------------------------------
 
-\_\_NOTOC\_\_
+
 
 To jest miejsce, do którego możesz przyjść, jeśli jesteś doświadczonym użytkownikiem i chcesz dowiedzieć się więcej o dostosowywaniu i rozszerzaniu funkcjonalności programu FreeCAD.
 
@@ -133,4 +135,4 @@ Na [Portalu Społeczności](FreeCAD_Community_Portal.md) możesz znaleźć inne 
 
 }}
 
-[Category:Hubs{{\#translation:}}](Category:Hubs.md)
+[Category:Hubs](Category:Hubs.md)

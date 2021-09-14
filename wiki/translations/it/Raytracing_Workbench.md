@@ -1,3 +1,5 @@
+# Raytracing Workbench/it
+
  
 
 
@@ -153,4 +155,4 @@ Queste pagine si riferiscono all\'ambiente in sostituzione, programmato in C++, 
 
 }} 
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

@@ -1,5 +1,12 @@
 ---
-- GuiCommand:/tr   Name:Draft Upgrade   Name/tr:Yükselt   Workbenches:[Arch](Draft_Module/tr___Draft]],_[[Arch_Module/tr.md)|MenuLocation:Draft → Upgrade   Shortcut:U P   SeeAlso:[Draft Downgrade](Draft_Downgrade/tr.md)---
+- GuiCommand:/tr
+   Name:Draft Upgrade
+   Name/tr:Yükselt
+   Workbenches:[Draft](Draft_Workbench/tr.md), [Arch](Arch_Workbench/tr.md)
+   MenuLocation:Draft → Upgrade
+   Shortcut:**U** **P**
+   SeeAlso:[Draft Downgrade](Draft_Downgrade/tr.md)
+---
 
 
 </div>

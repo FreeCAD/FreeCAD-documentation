@@ -1,3 +1,5 @@
+# SandBox:Preferences Editor
+
  
 
 
@@ -689,4 +691,4 @@ It is likely a bad idea to modify the preferences of other parts of FreeCAD unle
 
  
 
-[Category:Preferences{{\#translation:}}](Category:Preferences.md)
+[Category:Preferences](Category:Preferences.md)

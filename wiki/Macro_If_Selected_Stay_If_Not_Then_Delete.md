@@ -1,3 +1,5 @@
+# Macro If Selected Stay If Not Then Delete
+
   {{Macro
 |Name=Macro If Selected Stay If Not Then Delete
 |Icon=Macro_If_Selected_Stay_If_Not_Then_Delete.png
@@ -16,7 +18,7 @@ This macro delete all objects not selected !!.
 
 ## Script
 
- ToolBar Icon <img alt="" src=images/Macro_If_Selected_Stay_If_Not_Then_Delete.png  style="width:64px;">
+ToolBar Icon  <img alt="" src=images/Macro_If_Selected_Stay_If_Not_Then_Delete.png  style="width:64px;">
 
 **Macro\_If\_Selected\_Stay\_If\_Not\_Then\_Delete.FCMacro**
 

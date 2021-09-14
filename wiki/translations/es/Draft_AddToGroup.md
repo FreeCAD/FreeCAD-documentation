@@ -1,8 +1,9 @@
 ---
 - GuiCommand:/es
-   Name:Draft_AddToGroup   Name/es:Draft_AddToGroup
+   Name:Draft_AddToGroup
+   Name/es:Draft_AddToGroup
    MenuLocation:Boceto -> Opciones de visualización -> Añadir a grupo
-   Workbenches:[Boceto](Draft_Module/es.md), [Arquitectura](Arch_Module/es.md)
+   Workbenches:[Boceto](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
    SeeAlso:[Draft SelectGroup](Draft_SelectGroup.md), [Std Group](Std_Group.md)
 ---
 

@@ -16,7 +16,7 @@ Inserts a subtractive torus in the active Body. Its shape is subtracted from the
 ## Usage
 
 1.  Press the **<img src="images/PartDesign_SubtractiveTorus.svg" width=24px> '''Subtractive Torus'''** button. **Note**: the Subtractive Torus is part of an icon menu labelled *Create an additive primitive*. After launching FreeCAD, the Subtractive Box is the one displayed in the toolbar. To get the Torus, click on the down arrow besides the visible icon and select Subtractive Torus in the menu.
-2.  Set the Primitive parameters and [Attachment](Part_Attachment.md).
+2.  Set the Primitive parameters and [Attachment](Part_EditAttachment.md).
 3.  Click **OK**.
 4.  A Torus feature appears under the active Body.
 
@@ -29,7 +29,7 @@ The Torus can be edited after its creation in two ways:
 
 ## Properties
 
--    **Attachment**: defines the attachment mode as well as the Attachment Offset. See [Part Attachment](Part_Attachment.md).
+-    **Attachment**: defines the attachment mode as well as the Attachment Offset. See [Part EditAttachment](Part_EditAttachment.md).
 
 -    **Label**: Label given to the Torus object. Change to suit your needs.
 

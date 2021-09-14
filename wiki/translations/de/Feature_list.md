@@ -1,3 +1,5 @@
+# Feature list/de
+
  
 
 Dies ist eine umfangreiche, aber nicht vollständige Liste von Funktionen, die FreeCAD einführt. Wenn du einen Blick in die Zukunft werfen willst, schau dir den [Entwicklungsfahrplan](Development_roadmap/de.md) an, um einen schnellen Überblick über das zu bekommen, was als nächstes kommt. Auch die [Bildschirmfotos](Screenshots/de.md) sind eine nette Anlaufstelle.
@@ -36,7 +38,7 @@ Dies ist eine umfangreiche, aber nicht vollständige Liste von Funktionen, die F
 
 -   **Multiplattform**. FreeCAD läuft und verhält sich auf Windows, Linux, macOS und anderen Plattformen genau gleich.
 
--   **Vollständige GUI Anwendung**. FreeCAD hat eine komplette grafische Benutzeroberfläche basierend auf dem [Qt](http://www.qt.io/) Framework, mit einem 3D Betrachter basierend auf [Open Inventor](https://de.wikipedia.org/wiki/Open_Inventor); die ein schnelles Rendern von 3D Szenen und eine sehr zugängliche Darstellung von Szenegraphen erlaubt.
+-   **Vollständige GUI Anwendung**. FreeCAD hat eine komplette grafische Benutzeroberfläche basierend auf dem [Qt](http://www.qt.io/) Rahmenwerk, mit einem 3D Betrachter basierend auf [Open Inventor](https://de.wikipedia.org/wiki/Open_Inventor); die ein schnelles Rendern von 3D Szenen und eine sehr zugängliche Darstellung von Szenegraphen erlaubt.
 
 -   **läuft auch als Kommandozeilen Anwendung**. Im Kommandozeilenmodus läuft FreeCAD ohne seine Oberfläche, aber mit all seinen Geometriewerkzeugen. In diesem Modus hat es einen relativ geringen Speicherplatzbedarf und kann zum Beispiel als Server verwendet werden, um Inhalte für andere Anwendungen zu produzieren.
 
@@ -44,7 +46,7 @@ Dies ist eine umfangreiche, aber nicht vollständige Liste von Funktionen, die F
 
 -   **Arbeitsbereich Konzept**. In der FreeCAD Oberfläche, sind Werkzeuge in [Arbeitsbereichen](Workbenches/de.md) gruppiert. Dies erlaubt dir nur die Werkzeuge anzeigen, die für eine bestimmte Aufgabe benötigt werden, wodurch der Arbeitsbereich übersichtlich und reaktionsschnell bleibt und die Anwendung schnell geladen werden kann.
 
--   **Zusatzprogramm/Modul Framework für spätes Laden von Funktionen/Daten-Typen**. FreeCAD ist unterteilt in eine Kernanwendung mit Modulen, die nur bei Bedarf geladen werden. Fast alle Werkzeuge und Geometrietypen sind in Modulen hinterlegt. Module verhalten sich wie Zusatzprogramme; zusätzlich zum verzögerten Laden können einzelne Module zu einer bestehenden FreeCAD Installation hinzugefügt oder von ihr entfernt werden.
+-   **Zusatzprogramm/Modul Rahmenwerk für spätes Laden von Funktionen/Daten-Typen**. FreeCAD ist unterteilt in eine Kernanwendung mit Modulen, die nur bei Bedarf geladen werden. Fast alle Werkzeuge und Geometrietypen sind in Modulen hinterlegt. Module verhalten sich wie Zusatzprogramme; zusätzlich zum verzögerten Laden können einzelne Module zu einer bestehenden FreeCAD Installation hinzugefügt oder von ihr entfernt werden.
 
 -   **parametrisch assoziative Dokumentobjekte**. Alle Objekte in einem FreeCAD Dokument können durch Parameter festgelegt werden. Diese Parameter können jederzeit geändert und neu berechnet werden. Da Objektbeziehungen gewahrt werden, wirkt sich die Änderung eines Objekts automatisch auf alle abhängigen Objekte aus.
 
@@ -64,11 +66,11 @@ Dies ist eine umfangreiche, aber nicht vollständige Liste von Funktionen, die F
 
 -   **Anmerkungen**. FreeCAD kann Anmerkungen für Text oder Bemaßungen einfügen.
 
--   **Rückgängig/Wiederherstellen Rahmenstruktur**. Alles in FreeCAD ist rückgängig zu machen/wiederherstellbar, mit Benutzerzugriff auf den Rückgängig Stapel. Mehrere Schritte können gleichzeitig rückgängig gemacht werden.
+-   **Rückgängig/Wiederherstellen Rahmenwerk**. Alles in FreeCAD ist rückgängig zu machen/wiederherstellbar, mit Benutzerzugriff auf den Rückgängig Stapel. Mehrere Schritte können gleichzeitig rückgängig gemacht werden.
 
 -   **Transaktionsorientiert**. Der Rückgängig/Wiederherstellen Stapel bevorratet Dokumenttransaktionen und nicht einzelne Aktionen, jedem Werkzeug erlaubend, genau festzulegen, was rückgängig gemacht oder wiederhergestellt werden muss.
 
--   **Einbau [Skripterstellung](Scripting/de.md) Rahmenstruktur**. FreeCAD verfügt über einen eingebauten [Python](http://www.python.org/) Interpreter mit einer API, die fast jeden Teil der Anwendung, die Oberflächee, die Geometrie und die Darstellung dieser Geometrie im 3D Betrachter abdeckt. Der Interpreter kann sowohl komplexe Skripte als auch einzelne Befehle ausführen; ganze Module können vollständig in Python programmiert werden.
+-   **Einbau [Skripterstellung](Scripting/de.md) Rahmenwerk**. FreeCAD verfügt über einen eingebauten [Python](http://www.python.org/) Interpreter mit einer API, die fast jeden Teil der Anwendung, die Oberflächee, die Geometrie und die Darstellung dieser Geometrie im 3D Betrachter abdeckt. Der Interpreter kann sowohl komplexe Skripte als auch einzelne Befehle ausführen; ganze Module können vollständig in Python programmiert werden.
 
 -   **eingebaute Python Konsole**. Der Python Interpreter schließt eine Konsole mit Syntaxhervorhebung, Autovervollständigung und einen Klassenbrowser ein. Python Befehle können direkt in FreeCAD ausgegeben werden und geben sofort Ergebnisse zurück, erlaubt es Skriptschreibern, Funktionalität im laufenden Betrieb zu testen, den Inhalt von FreeCADs Modulen zu erforschen und auf einfache Weise mehr über FreeCAD Interna zu erfahren.
 
@@ -78,7 +80,7 @@ Dies ist eine umfangreiche, aber nicht vollständige Liste von Funktionen, die F
 
 -   **Verbund (ZIP basiertes) Dokument Speicherformat**. FreeCAD Dokumente werden mit der {{FileName|.[FCStd](File_Format_FCStd/de.md)}} Erweiterung gespeichert. Das Dokument kann viele verschiedene Arten von Informationen wie Geometrie, Skripte oder Miniaturansichtssymbole enthalten. Die {{FileName|.FCStd}} Datei ist selbst ein zip Behälter; eine gespeicherte FreeCAD Datei ist bereits komprimiert.
 
--   **vollständig anpassbare/skriptfähige grafische Benutzeroberfläche**. Die [Qt](https://www.qt.io)-basierte Oberfläche von FreeCAD ist über den Python Interpreter vollständig zugänglich. Neben einfachen Funktionen, die FreeCAD selbst Arbeitsbereichen zur Verfügung stellt, ist das gesamte Qt Framework zugänglich. Der Benutzer kann jede beliebige Operation auf der GUI ausführen, wie z.B. das Erstellen, Hinzufügen, Andocken, Ändern oder Entfernen von Widgets und Werkzeugleisten.
+-   **vollständig anpassbare/skriptfähige grafische Benutzeroberfläche**. Die [Qt](https://www.qt.io)-basierte Oberfläche von FreeCAD ist über den Python Interpreter vollständig zugänglich. Neben einfachen Funktionen, die FreeCAD selbst Arbeitsbereichen zur Verfügung stellt, ist das gesamte Qt Rahmenwerk zugänglich. Der Benutzer kann jede beliebige Operation auf der GUI ausführen, wie z.B. das Erstellen, Hinzufügen, Andocken, Ändern oder Entfernen von Widgets und Werkzeugleisten.
 
 -   **Vorschaubildner** (derzeit nur Linux Systeme) FreeCAD Dokumentensymbole zeigen den Inhalt der Datei in den meisten Dateimanager Anwendungen wie Gnomes Nautilus an.
 
@@ -98,4 +100,4 @@ Erfahrene Nutzer haben verschiedene [externe Arbeitsbereiche](external_workbench
 
 
 
-[Category:User Documentation{{\#translation:}}](Category:User_Documentation.md)
+[Category:User Documentation](Category:User_Documentation.md)

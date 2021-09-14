@@ -10,7 +10,7 @@
 
 ## Opis
 
-Eksport aktualnych właściwości kamery do pliku typu .pov do wykorzystania w projekcie POV-Ray.
+Eksport aktualnego ujęcia widoku do pliku typu .pov do wykorzystania w projekcie POV-Ray.
 
 ## Użycie
 

@@ -1,3 +1,5 @@
+# ManualArch/it
+
 =
 
 
@@ -18,7 +20,7 @@ Architettura
 
 </div>
 
-== \_\_NOTOC\_\_ Questa è la guida ai comandi di FreeCAD. Comprende le pagine del [Wiki della documentazione di FreeCAD](Main_Page/it.md) che si riferiscono ai comandi. Questa versione è stata creata principalmente per essere stampata come un unico grande documento o per consentire una panoramica veloce sulle pagine dei comandi. Se si sta leggendo questo online, si consiglia di andare direttamente alla [Guida in linea](Online_Help_Toc/it.md), che è più facile da esplorare.
+==  Questa è la guida ai comandi di FreeCAD. Comprende le pagine del [Wiki della documentazione di FreeCAD](Main_Page/it.md) che si riferiscono ai comandi. Questa versione è stata creata principalmente per essere stampata come un unico grande documento o per consentire una panoramica veloce sulle pagine dei comandi. Se si sta leggendo questo online, si consiglia di andare direttamente alla [Guida in linea](Online_Help_Toc/it.md), che è più facile da esplorare.
 
 -   Parte prima: [Ambiente Architettura](ManualArch/it#Ambiente_Arch/it.md)
 

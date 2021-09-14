@@ -1,3 +1,5 @@
+# Online Help Toc/pt-br
+
 
 
 
@@ -151,4 +153,4 @@ There is another table of contents for the [FreeCAD MANUAL](Manual:Introduction.
 
 
 
-[Category:Documentation/pt-br](Category:Documentation/pt-br.md) [Category:Documentation{{\#translation:}}](Category:Documentation.md)
+[Category:Documentation/pt-br](Category:Documentation/pt-br.md) [Category:Documentation](Category:Documentation.md)

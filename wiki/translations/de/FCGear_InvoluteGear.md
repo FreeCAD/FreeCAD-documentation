@@ -1,11 +1,12 @@
 ---
-- GuiCommand:
+- GuiCommand:/de
    Name:FCGear InvoluteGear
-   MenuLocation:FCGear → Create an Involute gear
-   Workbenches:[FCGear](FCGear_Workbench.md)
-   Shortcut:None
+   Name/de:FCZahnrad EvolventenZahnrad
+   MenuLocation:FCZahnrad → Erstelle ein Evolventen Zahnrad
+   Workbenches:[FCZahnrad](FCGear_Workbench/de.md)
+   Shortcut:Kein
    Version:v0.16
-   SeeAlso:[[FCGear CycloideGear]]
+   SeeAlso:[[FCGear CycloideGear/de]]
 ---
 
 ## Beschreibung
@@ -14,7 +15,7 @@ Due to the favourable meshing ratio and the relatively simple production, involu
 
 :   ![](images/Involute-Gear_example.png )
 :   
-    *From left to right: Spur gearing, helical gearing, double helical gearing
+    *Von links nach rechts: Stirnradverzahnung, Schrägverzahnung, Doppelschrägverzahnung
     *
     
 
@@ -235,4 +236,4 @@ App.ActiveDocument.recompute()
 Gui.SendMsgToActiveView("ViewFit")
 ``` 
 
-[Category:Addons{{\#translation:}}](Category:Addons.md) [Category:FCGear{{\#translation:}}](Category:FCGear.md) [Category:External Command Reference{{\#translation:}}](Category:External_Command_Reference.md)
+[Category:Addons](Category:Addons.md) [Category:FCGear](Category:FCGear.md) [Category:External Command Reference](Category:External_Command_Reference.md)

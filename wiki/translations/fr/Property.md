@@ -1,3 +1,5 @@
+# Property/fr
+
 
 
 ## Introduction
@@ -113,4 +115,4 @@ Ils sont importés et initialisés dans `[https://github.com/FreeCAD/FreeCAD/blo
 
 }} 
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Python Code{{\#translation:}}](Category:Python_Code.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)

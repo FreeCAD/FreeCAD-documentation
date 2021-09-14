@@ -21,7 +21,7 @@ Questo comando consente di visualizzare una [pagina di disegno](Drawing_Landscap
 <div class="mw-translate-fuzzy">
 
 
-{{docnav/it|[Ritaglio](Drawing_Clip/it.md)|[Viste ortogonali](Drawing_Orthoviews/it.md)|[Drawing](Drawing_Module/it.md)|IconL=Drawing_Clip.png|IconC=Workbench_Drawing.svg|IconR=Drawing_Orthoviews.png}}
+{{docnav/it|[Ritaglio](Drawing_Clip/it.md)|[Viste ortogonali](Drawing_Orthoviews/it.md)|[Drawing](Drawing_Workbench/it.md)|IconL=Drawing_Clip.png|IconC=Workbench_Drawing.svg|IconR=Drawing_Orthoviews.png}}
 
 
 </div>

@@ -16,6 +16,9 @@ Fügt den Grundkörper Torus in den aktiven Körper (Body) als Basisformelement 
 
 ## Anwendung
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Auf die Schaltfläche **<img src="images/PartDesign_AdditiveTorus.svg" width=24px> '''Additiver Torus'''** klicken. **Hinweis**: der Additive Torus ist Teil eines Symbolmenüs mit der Bezeichnung **Additives Grundelement erstellen**.
 
 Nach dem Start von FreeCAD ist der Additive Quader derjenige, der in der Werkzeugleiste angezeigt wird. Um den Torus zu erhalten, klicke auf den Abwärtspfeil neben dem sichtbaren Symbol und wähle im Menü Additiver Torus.
@@ -23,6 +26,9 @@ Nach dem Start von FreeCAD ist der Additive Quader derjenige, der in der Werkzeu
 1.  Setze die Grundelementparameter und [Anhang](Part_Attachment/de.md).
 2.  Klicke auf **OK**.
 3.  Ein Torus Formelement erscheint unter dem aktiven Körper.
+
+
+</div>
 
 ## Optionen
 
@@ -32,6 +38,9 @@ Der Torus kann auf zwei verschiedene Weisen bearbeitet werden:
 -   Mittels des [Eigenschafteneditors](Property_editor/de.md) im Reiter Daten.
 
 ## Eigenschaften
+
+
+<div class="mw-translate-fuzzy">
 
 -    {{PropertyData/de|Attachment}}: Bestimmt den Befestigungsmodus und den Befestigungsversatz. Siehe [Befestigung](Part_Attachment/de.md).
 
@@ -46,6 +55,9 @@ Der Torus kann auf zwei verschiedene Weisen bearbeitet werden:
 -    {{PropertyData/de|Angle2}}: (ohne Beschriftung in dem Dialog Parameter des Grundkörpers) Der Winkel des oberen Halbbogens des kreisförmigen Querschnittsprofils (180° in einem vollen Torus). Ein Fehler in der Programmierung verusacht unerwartete Ergebnisse bei Änderung von Angle2.
 
 -    {{PropertyData/de|Angle3}}: (mit *U-Parameter:* in dem Dialog Parameter des Grundkörpers bezeichnet) Rotationswinkel des kreisförmigen Profilquerschnitts (360° in einem vollen Torus).
+
+
+</div>
 
 
 

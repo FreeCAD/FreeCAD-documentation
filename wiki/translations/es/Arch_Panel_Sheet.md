@@ -1,8 +1,8 @@
 ---
 - GuiCommand:/es
    Name:Arch Panel Sheet   Name/es:Arch Panel Sheet
-   Workbenches:[Arch](Arch_Module/es.md)
    MenuLocation:Arch → Panel tools → Panel Sheet
+   Workbenches:[Arch](Arch_Workbench/es.md)
    Shortcut:**P** **S**
    SeeAlso:[Arch Panel](Arch_Panel/es.md)
 ---
@@ -43,6 +43,8 @@ Esta herramienta permite construir una lámina 2D, incluyendo cualquier número 
 
 ## Propiedades
 
+### Data
+
 
 <div class="mw-translate-fuzzy">
 
@@ -82,6 +84,8 @@ Esta herramienta permite construir una lámina 2D, incluyendo cualquier número 
 -    **Show Margin**: Turns the display of the margin on/off
 
 -    **Show Grain**: Shows a fiber texture (Make Face must be set to True)
+
+## Scripting
 
 
 <div class="mw-translate-fuzzy">

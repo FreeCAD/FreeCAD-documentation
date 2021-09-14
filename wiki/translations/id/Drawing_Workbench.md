@@ -1,3 +1,5 @@
+# Drawing Workbench/id
+
  
 
 
@@ -82,4 +84,4 @@ Some notes on the programming side of the drawing module will be added to the [D
 
 }} 
 
-[Category:Obsolete Workbenches{{\#translation:}}](Category:Obsolete_Workbenches.md)
+[Category:Obsolete Workbenches](Category:Obsolete_Workbenches.md)

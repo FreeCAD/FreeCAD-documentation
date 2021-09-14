@@ -1,3 +1,5 @@
+# Constructive solid geometry/pl
+
  {{TOCright}}
 
 ## Wprowadzenie
@@ -36,4 +38,4 @@ Strona [Poradniki](Tutorials/pl.md) zawiera kilka przykładów tworzenia brył z
 
  
 
-[Category:Common Questions{{\#translation:}}](Category:Common_Questions.md)
+[Category:Common Questions](Category:Common_Questions.md)

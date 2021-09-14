@@ -1,3 +1,5 @@
+# FreeCAD GUI Widgets toolkit
+
 ## Background
 
 Design456 is an external workbench that aims to provide a Direct Modeling solution within FreeCAD.
@@ -26,6 +28,22 @@ root = d.draw_circle()
 sg.addChild(root)
 ```
 
+##### Another example 
+
+
+```python
+from pivy import coin
+import math
+import fr_draw as d 
+import time
+from PySide import QtCore,QtGui
+sg = FreeCADGui.ActiveDocument.ActiveView.getSceneGraph()
+      #draw_DoubleSidedArrow(_Points=[], _color=FR_COLOR.FR_BLACK, _ArrSize=1.0, _rotation=[0.0, 0.0, 1.0, 0.0]):
+root=d.draw_DoubleSidedArrow(App.Vector(0,0,0),(0,1,1),1,[1.0, 0.0, 0.0, 180])
+sg.addChild(root)
+
+```
+
 ### Installing the GUI toolkit 
 
 The [Design456 Workbench](Design456_Workbench.md) is a prerequisite to be able to use this widget system. There is an option to specifically import the toolkit via python code, but Design456 Workbench is still required
@@ -33,3 +51,7 @@ The [Design456 Workbench](Design456_Workbench.md) is a prerequisite to be able t
 ### [Fr\_Widget Basics](Fr_Widget_Basics.md) 
 
 ### [Fr\_Widget Common Widgets](Fr_Widget_Common_Widgets.md) 
+
+There are some basic drawings written at the moment. Later I will list down them. But you can look at fr\_draw.py to find them. Some are used for developing direct modeling commands.
+
+To be continued ..

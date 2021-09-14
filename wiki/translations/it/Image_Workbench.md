@@ -1,3 +1,5 @@
+# Image Workbench/it
+
  
 
 <img alt="L\'icona dell\'ambiente Image" src=images/Workbench_Image.svg  style="width:128px;">
@@ -37,4 +39,4 @@ L\'offset dell\'immagine può essere impostato durante l\'importazione o modific
 
 }} 
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

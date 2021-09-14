@@ -1,4 +1,6 @@
-\_\_NOTOC\_\_ 
+# Artwork Plot/ru
+
+ 
 
 Эти иконки находятся в указанной исходной папке.
 
@@ -15,4 +17,4 @@
 
 }} 
 
-[Category:Plot{{\#translation:}}](Category:Plot.md)
+[Category:Plot](Category:Plot.md)

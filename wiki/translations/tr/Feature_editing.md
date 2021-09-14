@@ -1,3 +1,5 @@
+# Feature editing/tr
+
  {{TOCright}}
 
 ## Giriş
@@ -94,7 +96,7 @@ It is possible to cross-reference elements from a body in another body via datum
 
 Object attachment is not a specific PartDesign tool, but rather a Part utility introduced in v0.17 that can be found in the Part menu. It is heavily used in the PartDesign workbench to attach sketches and reference geometry to the standard planes and axes of the Body. Very extensive ways of creating datum points, lines and planes are available. Optional attachment offset parameters make this tool very versatile.
 
-More info can be found in the [Attachment](Part_Attachment.md) page and the [Basic Attachment Tutorial](Basic_Attachment_Tutorial.md).
+More info can be found in the [Attachment](Part_EditAttachment.md) page and the [Basic Attachment Tutorial](Basic_Attachment_Tutorial.md).
 
 ## Advice for creating stable models 
 
@@ -168,4 +170,4 @@ The [tutorials](Tutorials.md) page provides some examples of using the [feature 
 
 }} 
 
-[Category:Common Questions{{\#translation:}}](Category:Common_Questions.md)
+[Category:Common Questions](Category:Common_Questions.md)

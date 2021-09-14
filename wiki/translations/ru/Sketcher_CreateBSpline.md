@@ -1,16 +1,12 @@
 ---
 - GuiCommand:/ru
-   Name:Sketcher CreateBSpline
-   Name/ru:Sketcher B-сплайн
-   Icon:Sketcher CreateBSpline.svg
-   MenuLocation:Эскиз → Геометрия эскиза → Нарисовать B-сплайн
-   Workbenches: [Sketcher](Sketcher_Workbench/ru.md)
+   Name/ru:Создать B-сплайн
+   Name:Sketcher_CreateBSpline
+   MenuLocation: Sketch → Геометрия эскиза → Create B-Spline
+   Workbenches: [Верстак "Sketcher"](Sketcher_Workbench/ru.md)
    Version:0.17
-   SeeAlso:[Sketcher Периодический B-сплайн](Sketcher_CreatePeriodicBSpline/ru.md)
+   SeeAlso:[Создать периодический B-сплайн](Sketcher_CreatePeriodicBSpline/ru.md)
 ---
-
-
-</div>
 
 ## Описание
 
@@ -32,13 +28,7 @@
 
 </div>
 
-
-<div class="mw-translate-fuzzy">
-
-## Как использовать 
-
-
-</div>
+## Применение
 
 
 <div class="mw-translate-fuzzy">
@@ -62,15 +52,9 @@
 -   Форма кривой B-сплайна может быть отредактирована только путем перетаскивания одной из контрольных точек. Узлы, лежащие на кривой, не могут быть выбраны.
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Sketcher Tools navi
 
-}}  
+}} 

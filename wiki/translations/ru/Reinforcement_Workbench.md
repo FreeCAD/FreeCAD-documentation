@@ -1,3 +1,5 @@
+# Reinforcement Workbench/ru
+
 
 
 <img alt="Иконка верстака Reinforcement" src=images/Reinforcement_Workbench.svg  style="width:128px;">
@@ -64,4 +66,4 @@ The Reinforcement workbench is not bundled with the default FreeCAD package, but
 
 
 
-[Category:Addons{{\#translation:}}](Category:Addons.md) [Category:External Workbenches{{\#translation:}}](Category:External_Workbenches.md) [Category:Reinforcement{{\#translation:}}](Category:Reinforcement.md)
+[Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md) [Category:Reinforcement](Category:Reinforcement.md)

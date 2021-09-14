@@ -1,13 +1,9 @@
-
-
-
-<div class="mw-translate-fuzzy">
+# Arch JSON/fr
 
 
 
 
 
-</div>
 
 L\'objectif principal de ce format d\'exportation est de faciliter le traitement des données du modèle FreeCAD à partir de langages de programmation. Le format [JSON](http://json.org/) est le suivant:
 
@@ -30,15 +26,9 @@ L\'objectif principal de ce format d\'exportation est de faciliter le traitement
 Notez que les facettes forment des triangles et leurs valeurs entières référencent des points dans le tableau **vertices**. Les normales des facettes sont trouvées à la position correspondante dans le tableau **normals**, **description**, **color** et **wires** sont tous optionnels. Ce format pourrait facilement être étendu pour inclure des données de modèles supplémentaires.
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
  
 
-[Category:File Formats{{\#translation:}}](Category:File_Formats.md)
+[Category:File Formats](Category:File_Formats.md)

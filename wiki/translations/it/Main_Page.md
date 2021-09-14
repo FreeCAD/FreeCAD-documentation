@@ -1,25 +1,12 @@
-\_\_NOTOC\_\_ 
+# Main Page/it
 
-
-<div class="mw-translate-fuzzy">
+ 
 
 ## Introduzione
 
-Questo è il wiki della documentazione di [FreeCAD](http://www.freecadweb.org). Ci sono due modi principali per navigare attraverso la documentazione: esplorare gli hub utenti, o seguire il manuale. Si tratta di un lavoro in evoluzione, scritto dalla comunità degli utenti e dagli sviluppatori di FreeCAD. Chi trova delle informazioni sbagliate o lacunose è pregato di dare un [contributo](Help_FreeCAD/it.md)!
+Questo è il wiki della documentazione di [FreeCAD](http://www.freecadweb.org). Ci sono diversi modi per utilizzare questa documentazione: esplorare gli hub utenti, seguire il manuale o utilizzare le voci del menu Aiuto all\'interno di FreeCAD. Si tratta di un lavoro in evoluzione, scritto dalla comunità degli utenti e dagli sviluppatori di FreeCAD. Chi trova delle informazioni sbagliate o lacunose è pregato di dare un [contributo](Help_FreeCAD/it.md)!
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-## Hub utenti 
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+## Gli hub 
 
 <img alt="Crystal_Clear_app_display.png" src=images/Crystal_Clear_app_display.png  style="width:64px;"> [Hub utenti](User_hub/it.md): Questa pagina contiene la documentazione utile per gli utenti di FreeCAD in generale: un elenco di tutti gli ambienti di lavoro, le istruzioni dettagliate su come installare e utilizzare l'applicazione FreeCAD, alcune esercitazioni e tutto ciò che serve per iniziare.
 
@@ -28,22 +15,16 @@ Questo è il wiki della documentazione di [FreeCAD](http://www.freecadweb.org). 
 
 
 <img alt="" src=images/Crystal_Clear_app_terminal.png  style="width:64px;"> [Hub utenti esperti](Power_users_hub/it.md): Questa pagina raccoglie la documentazione per gli utenti avanzati e per chi è interessato a scrivere script Python. Si trova anche un repository di macro, le istruzioni su come installarle e utilizzarle, e ulteriori informazioni sulla personalizzazione di FreeCAD per specifiche esigenze. 
- <img alt="" src=images/Crystal_Clear_app_tutorials.png  style="width:64px;"> [Hub sviluppatori](Developer_hub/it.md): Questa sezione contiene del materiale per gli sviluppatori: come compilare FreeCAD, come è strutturato il codice sorgente di FreeCAD e come navigare in esso, e come sviluppare nuovi ambienti di lavoro, o incorporare FreeCAD nella propria applicazione. 
+ <img alt="" src=images/Crystal_Clear_app_tutorials.png  style="width:64px;"> [Hub sviluppatori](Developer_hub/it.md): Questa sezione contiene del materiale per gli sviluppatori: come compilare FreeCAD, come è strutturato il codice sorgente di FreeCAD, come navigare nel codice sorgente, come sviluppare nuovi ambienti di lavoro, e incorporare FreeCAD nella propria applicazione. 
 
-
-
-</div>
 
 ## Manuale
 
-
-<div class="mw-translate-fuzzy">
-
-<img alt="" src=images/Crystal_Clear_manual.png  style="width:64px;"> [Il manuale di FreeCAD](Manual:Introduction/it.md) Il manuale di FreeCAD è un modo diverso, più lineare, per presentare gli articoli contenuti in questo wiki. È fatto per essere letto come un libro, e presentare gradualmente tante altre pagine degli hub di cui sopra. È anche disponibile una [versione ebook](https://www.gitbook.com/book/yorikvanhavre/a-freecad-manual/details). 
+<img alt="Crystal_Clear_manual.png" src=images/Crystal_Clear_manual.png  style="width:64px;"> [Il manuale di FreeCAD](Manual:Introduction/it.md) è un modo diverso, più lineare, per presentare gli articoli contenuti in questo wiki. È pensato per essere letto come un libro, e presentare gradualmente tante altre pagine degli hub di cui sopra.  È anche disponibile una [versione ebook](https://www.gitbook.com/book/yorikvanhavre/a-freecad-manual/details) così come [un paio di traduzioni in formato pdf](https://www.freecadweb.org/manual/).
 
 
 
-</div>
+
 
 ## Sommario
 
@@ -76,13 +57,7 @@ La pagina [Contribuire](help_FreeCAD/it.md) descrive questo aspetto con maggiori
 
 ### Codice sorgente 
 
-
-<div class="mw-translate-fuzzy">
-
-FreeCAD può essere compilato su tutte le piattaforme utilizzando [CMake](https://cmake.org/). Il codice sorgente è distribuito con la licenza [LGPL](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License) e ospitato su [GitHub](https://github.com/FreeCAD/FreeCAD) e in mirror su [GitLab](https://gitlab.com/freecad/FreeCAD) e [CodeBerg](https://codeberg.org/FreeCAD/FreeCAD). Contiene le istruzioni di compilazione per [Windows](Compile_on_Windows/it.md), [Unix/Linux](Compile_on_Linux/it.md) e [MacOSX](Compile_on_MacOS/it.md). La documentazione del codice sorgente, generata con [Doxygen](Doxygen.md), si trova in <http://www.freecadweb.org/api/> ed è [documentata nel wiki](Source_documentation/it.md).
-
-
-</div>
+FreeCAD può essere compilato su tutte le piattaforme utilizzando [CMake](https://cmake.org/). Il codice sorgente è distribuito con la licenza [LGPL](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License) e ospitato su [GitHub](https://github.com/FreeCAD/FreeCAD) e in mirror su [GitLab](https://gitlab.com/freecad/FreeCAD) e [CodeBerg](https://codeberg.org/FreeCAD/FreeCAD). Contiene le istruzioni di compilazione per [Windows](Compile_on_Windows/it.md), [Linux](Compile_on_Linux/it.md) e [MacOS](Compile_on_MacOS/it.md). La documentazione del codice sorgente, generata con [Doxygen](Doxygen.md), si trova in <http://www.freecadweb.org/api/> ed è [documentata nel wiki](Source_documentation/it.md).
 
 ### Sviluppo
 
@@ -91,4 +66,4 @@ Leggete il [Piano di sviluppo](Development_roadmap/it.md) per sapere cosa è pia
 
 
 
-[Category:Documentation{{\#translation:}}](Category:Documentation.md)
+[Category:Documentation](Category:Documentation.md)

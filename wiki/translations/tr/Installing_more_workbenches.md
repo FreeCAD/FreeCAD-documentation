@@ -1,3 +1,5 @@
+# Installing more workbenches/tr
+
 
 
 ## Introduction
@@ -46,4 +48,4 @@ See also a detailed description in the page [how to install additional workbench
 
 }} 
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md)

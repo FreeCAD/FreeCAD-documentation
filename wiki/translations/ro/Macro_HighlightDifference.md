@@ -1,3 +1,5 @@
+# Macro HighlightDifference/ro
+
  {{Macro
 |Name=HighlightDifference
 |Descriere = Calculați diferența dintre două forme. Adăugările sunt marcate cu roșu, iar mișcările sunt marcate verde. Ambele părți originale vor fi pe jumătate transparente. Volumul completărilor și eliminărilor este imprimat în consolă.

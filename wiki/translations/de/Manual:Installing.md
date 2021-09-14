@@ -1,3 +1,5 @@
+# Manual:Installing/de
+
 
 
 
@@ -99,4 +101,4 @@ Wenn du das Ubuntu Betriebssystem benutzt, sind einige der oben genannten Addons
 
 
 
-[Category:Poweruser Documentation{{\#translation:}}](Category:Poweruser_Documentation.md) [Category:Tutorials{{\#translation:}}](Category:Tutorials.md)
+[Category:Poweruser Documentation](Category:Poweruser_Documentation.md) [Category:Tutorials](Category:Tutorials.md)

@@ -6,9 +6,6 @@
    Workbenches:[Part](Part_Workbench/fr.md)
 ---
 
-
-</div>
-
 ## Description
 
 Cet outil mesure l\'angle entre deux arêtes droites, deux faces planes ou une arête droite et une face plane, puis affiche la mesure dans la [vue 3D](3D_view/fr.md).

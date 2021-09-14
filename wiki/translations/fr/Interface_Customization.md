@@ -1,3 +1,5 @@
+# Interface Customization/fr
+
 
 
 
@@ -39,7 +41,8 @@ Avec cet onglet, vous pouvez parcourir les commandes disponibles.
 3.  Survolez une commande: son info-bulle apparaît.
 4.  Sélectionnez une commande: son texte dans la barre d\'état s\'affiche sous les deux panneaux.
 
-[En haut](#top.md)
+
+{{Top}}
 
 ### Clavier
 
@@ -74,7 +77,8 @@ Dans cet onglet, des raccourcis clavier personnalisés peuvent être définis. L
 -   Dans V0.19 il y a un problème avec certaines commandes Draft. Leurs raccourcis par défaut ne fonctionnent pas et/ou des raccourcis personnalisés ne peuvent pas leur être attribués.
 -   Pour réaffecter un raccourci par défaut, un nouveau raccourci doit d\'abord être affecté à sa commande d\'origine.
 
-[En haut](#top.md)
+
+{{Top}}
 
 ### Ateliers
 
@@ -108,7 +112,8 @@ Dans cet onglet, la liste des [Ateliers](Std_Workbench/fr.md) peut être modifi�
 
 1.  Appuyez sur le bouton **<img src="images/Button_sort.svg" width=16px>**.
 
-[En haut](#top.md)
+
+{{Top}}
 
 ### Barre d\'outils 
 
@@ -173,7 +178,8 @@ Dans cet onglet, des barres d\'outils personnalisées peuvent être créées et 
 
 -   Dans V0.19 il y a un problème avec certaines commandes Draft. Après les avoir ajoutés à une barre d\'outils personnalisée et quitté l\'application FreeCAD, le fichier {{FileName|user.cfg}} doit être modifié manuellement pour ces commandes. Recherchez le nom de la barre d\'outils personnalisée et dans cette section, changez le contenu des éléments `FCText` qui commencent par `gui_` en `DraftTools`.
 
-[En haut](#top.md)
+
+{{Top}}
 
 ### Macros
 
@@ -213,19 +219,16 @@ Si vous souhaitez utiliser une macro téléchargée à partir d\'une autre sourc
 2.  Apportez les modifications requises. Notez que vous ne pouvez pas supprimer l\'icône, vous pouvez uniquement la remplacer.
 3.  Appuyez sur le bouton **Remplacer**.
 
-[En haut](#top.md)
+
+{{Top}}
 
 ### Mouvement de la Spaceball 
 
-Cet onglet est vide si aucune souris 3D n\'est détecté. Voir: [Périphériques d\'entrée de connexion 3D](3Dconnexion_input_devices/fr.md).
-
-[En haut](#top.md)
+Cet onglet est vide si aucune souris 3D n\'est détecté. Voir: [Périphériques d\'entrée de connexion 3D](3Dconnexion_input_devices/fr.md). {{Top}}
 
 ### Boutons de la souris 3D 
 
-Cet onglet est vide si aucune souris 3D n\'est détecté. Voir: [Périphériques d\'entrée de connexion 3D](3Dconnexion_input_devices/fr.md).
-
-[En haut](#top.md)
+Cet onglet est vide si aucune souris 3D n\'est détecté. Voir: [Périphériques d\'entrée de connexion 3D](3Dconnexion_input_devices/fr.md). {{Top}}
 
 ## Thèmes
 
@@ -239,9 +242,8 @@ Vous pouvez également créer votre propre thème si vous n\'êtes pas satisfait
 
 -    {{FileName|$HOME/Library/Preferences/FreeCAD/Gui/Stylesheets}}(sous MacOS).
 
-Pour plus de détails sur la façon de personnaliser un thème, voir [Thèmes](Themes/fr.md).
 
-[En haut](#top.md)
+{{Top}}
 
 ## Addons
 
@@ -275,7 +277,8 @@ Les modules complémentaires offrent une autre façon de personnaliser l\'interf
 
 -   Dépôt Github: <https://github.com/triplus/ShortCuts>
 
-[En haut](#top.md)
+
+{{Top}}
 
 
 

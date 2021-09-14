@@ -1,3 +1,5 @@
+# Complete Workbench/pt-br
+
 
 
 
@@ -12,4 +14,4 @@ See [Interface Customization](Interface_Customization.md) if you\'d like to adap
 
 
 
-[Category:Complete{{\#translation:}}](Category:Complete.md) [Category:Obsolete Workbenches{{\#translation:}}](Category:Obsolete_Workbenches.md)
+[Category:Complete](Category:Complete.md) [Category:Obsolete Workbenches](Category:Obsolete_Workbenches.md)

@@ -1,3 +1,5 @@
+# Video tutorials obsolete/fr
+
  {{VeryImportantMessage|Dans FreeCAD 0.17, l'[atelier PartDesign](PartDesign_Workbench/fr.md) a reçu des mises à jour importantes qui modifient la façon dont les solides sont créés par rapport aux versions précédentes. Les nouveaux utilisateurs doivent regarder des vidéos pour les versions 0.17 et supérieures pour comprendre le concept de travail avec un [PartDesign Corps](PartDesign_Body/fr.md) et des objets de référence.}} {{VeryImportantMessage|Ces vidéos sont considérées comme obsolètes car elles utilisent la v0.16 ou des versions antérieures du programme.}}
 
 ## Introduction

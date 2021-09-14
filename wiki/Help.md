@@ -1,3 +1,5 @@
+# Help
+
  
 
 ## Forum
@@ -32,4 +34,4 @@ We have an [official dedicated FreeCAD Discord server](https://discord.gg/NpMefp
 
   
 
-[Category:Help{{\#translation:}}](Category:Help.md)
+[Category:Help](Category:Help.md)

@@ -2,10 +2,10 @@
 - GuiCommand:/es
    Name:Arch Space   Name/es:Arch Espacio
    MenuLocation:Arch → Space
-   Workbenches:[Arch](Arch_Module/es.md)
+   Workbenches:[Arch](Arch_Workbench/es.md)
    Shortcut:**S** **P**
-   SeeAlso:[[Arch Wall/es]], [[Arch Structure/es]]
    Version:0.14
+   SeeAlso:[[Arch Wall/es]], [[Arch Structure/es]]
 ---
 
 
@@ -188,7 +188,14 @@ Arch.removeSpaceBoundaries(Space, selection)
 <div class="mw-translate-fuzzy">
 
 
-{{docnav/es|[Roof](Arch_Roof/es.md)|[Stairs](Arch_Stairs/es.md)|[Arch](Arch_Module/es.md)|IconL=Arch_Roof.svg |IconC=Workbench_Arch.svg |IconR=Arch_Stairs.svg}}
+{{docnav/es
+|[Roof](Arch_Roof/es.md)
+|[Stairs](Arch_Stairs/es.md)
+|[Arch](Arch_Workbench/es.md)
+|IconL=Arch_Roof.svg
+|IconC=Workbench_Arch.svg
+|IconR=Arch_Stairs.svg
+}}
 
 
 </div>

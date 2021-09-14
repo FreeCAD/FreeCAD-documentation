@@ -3,7 +3,7 @@
    Name:Draft CubicBezCurve
    Name/ru:Draft CubicBezCurve
    MenuLocation:Draft → Bezier tools → CubicBezCurve
-   Workbenches:[Draft](Draft_Module/ru.md), [Arch](Arch_Module/ru.md)
+   Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
    Version:0.19
    SeeAlso:[Draft Wire](Draft_Wire/ru.md), [Draft BSpline](Draft_BSpline/ru.md), [Draft BezCurve](Draft_BezCurve/ru.md)
 ---

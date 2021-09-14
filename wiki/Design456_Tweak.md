@@ -42,4 +42,4 @@ The tool is actually quite limited:
 
 }} 
 
-[Category:External Command Reference{{\#translation:}}](Category:External_Command_Reference.md)
+[Category:External Command Reference](Category:External_Command_Reference.md)

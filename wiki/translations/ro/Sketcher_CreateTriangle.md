@@ -29,6 +29,8 @@ Desenează un triunghi echilateral înscris într-un cerc . La pornirea instrume
 
 </div>
 
+## Notes
+
 
 <div class="mw-translate-fuzzy">
 
@@ -43,4 +45,4 @@ Când este definită schița obiectului geometric cercul circumscris este vizibi
 
 {{Sketcher Tools navi
 
-}}  
+}} 

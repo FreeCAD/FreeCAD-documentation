@@ -1,4 +1,6 @@
-\_\_NOTOC\_\_ 
+# Artwork ReverseEngineering/ru
+
+ 
 
 Эти иконки находятся в указанной исходной папке.
 
@@ -19,4 +21,4 @@
 
 }} 
 
-[Category:Reverse Engineering{{\#translation:}}](Category:Reverse_Engineering.md)
+[Category:Reverse Engineering](Category:Reverse_Engineering.md)

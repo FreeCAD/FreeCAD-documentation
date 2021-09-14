@@ -1,3 +1,5 @@
+# Tolerancing
+
  
 
 
@@ -76,4 +78,4 @@ There are two approaches to specifying Product and Manufacturing Information (PM
 
 
 
-[Category:Roadmap{{\#translation:}}](Category:Roadmap.md) [Category:TechDraw{{\#translation:}}](Category:TechDraw.md)
+[Category:Roadmap](Category:Roadmap.md) [Category:TechDraw](Category:TechDraw.md)

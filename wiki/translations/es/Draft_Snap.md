@@ -1,3 +1,5 @@
+# Draft Snap/es
+
 
 
 
@@ -17,7 +19,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Las <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Ambiente de Trabajo Borrador](Draft_Module/es.md) herramientas permiten elegir puntos y distancias haciendo clic en la [Vista 3D](3D_view/es.md) con el puntero, o introduciendo Coordenadas en el [panel de tareas](Task_panel/es.md) de la herramienta.
+Las <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Ambiente de Trabajo Borrador](Draft_Workbench/es.md) herramientas permiten elegir puntos y distancias haciendo clic en la [Vista 3D](3D_view/es.md) con el puntero, o introduciendo Coordenadas en el [panel de tareas](Task_panel/es.md) de la herramienta.
 
 
 </div>
@@ -25,7 +27,7 @@ Las <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Ambiente d
 
 <div class="mw-translate-fuzzy">
 
-El encaje está disponible con la mayoría de las herramientas <img src=images/Draft_ToggleSnap.svg style="width:Borrador](Draft_Module/es.md) y [Ambiente de trabajo Arquitectura](Arch_Module/rs.md), y puede activarse y desactivarse globalmente con el **[16px"> [Alternar atrapar](Draft_Snap_Lock/es.md)**, situado en la barra de herramientas de atrapar: **Ver → Barras de herramientas → Borrador Atrapar**.
+El encaje está disponible con la mayoría de las herramientas <img src=images/Draft_ToggleSnap.svg style="width:Borrador](Draft_Workbench/es.md) y [Ambiente de trabajo Arquitectura](Arch_Workbench/es.md), y puede activarse y desactivarse globalmente con el **[16px"> [Alternar atrapar](Draft_Snap_Lock/es.md)**, situado en la barra de herramientas de atrapar: **Ver → Barras de herramientas → Borrador Atrapar**.
 
 
 </div>

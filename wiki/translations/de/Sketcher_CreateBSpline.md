@@ -2,34 +2,17 @@
 - GuiCommand:/de
    Name:Sketcher CreateBSpline
    Name/de:Skizzierer ErstelleBSpline
-   MenuLocation: Skizze → Skizzierergeometrien → Erstelle B-spline
+   MenuLocation: Skizze → Skizzierergeometrien → Erstelle B-Spline
    Workbenches: [Skizzierer](Sketcher_Workbench/de.md)
    Version:0.17
-   SeeAlso:[Skizzierer periodischer B-spline](Sketcher_CreatePeriodicBSpline/de.md)
+   SeeAlso:[Skizzierer periodischer B-Spline](Sketcher_CreatePeriodicBSpline/de.md)
 ---
 
 ## Beschreibung
 
+Dieses Werkzeug zeichnet von seinen Kontrollpunkten aus eine offene B-Splinekurve auf. (Siehe [diese Seite](B-Splines/de.md) für weitere Informationen über B-Splines).
 
-<div class="mw-translate-fuzzy">
-
-Dieses Werkzeug zeichnet von seinen Kontrollpunkten aus eine offene B-Splinekurve auf.
-
-
-</div>
-
-![](images/Sketcher_B-spline_example01.png )
-
-
-<div class="mw-translate-fuzzy">
-
-
-*Eine B-Splinekurve, die aus 4 Punkten (in Weiß) besteht. Dargestellt sind das Kontrollpolygon in grün (die Geraden verbinden die roten Punkte), die Gewichtskreise in blau und der Krümmungskamm in grün. Die (3) Ziffer in der Mitte bezieht sich auf den  
-[Grad](Sketcher_BSplineIncreaseDegree/de#Beschreibung.md) der B-Splines, und die (4) Ziffern an den Enden der Kurve beziehen sich auf ihre 
-[Knotenvielfalto](Sketcher_BSplineDecreaseKnotMultiplicity/de#Beschreibung.md).''*
-
-
-</div>
+![](images/Sketcher_B-spline_example01.png ) *Eine B-Spline Kurve (in weiß), definiert durch 4 Kontrollpunkte. Abgebildet sind das Kontrollpolygon in Grün (die Geraden, die die Kontrollpunkte verbinden) und die Gewichtskreise in Dunkelgelb. Die grüne Ziffer "3" in der Mitte bezieht sich auf den [Grad](Sketcher_BSplineIncreaseDegree/de#Beschreibung.md) des B-Splines und die Ziffern "(4)" an den Enden des B-Splines beziehen sich auf dessen [Knotenvielfalt](Sketcher_BSplineDecreaseKnotMultiplicity/de#Beschreibung.md). Die rote Ziffer "3" steht für das Kontrollpunktgewicht, das als Radiusbindung an den Kontrollpunktkreis definiert ist.*
 
 ## Anwendung
 
@@ -42,8 +25,8 @@ Dieses Werkzeug zeichnet von seinen Kontrollpunkten aus eine offene B-Splinekurv
 4.  Abhängig von den Einstellungen kann das Werkzeug aktiv bleiben, um eine neue Kurve zu verfolgen. Klicke erneut mit der rechten Maustaste, um den Befehl zu beenden.
 
 -   Es ist möglich, das Gewicht der Kontrollpunkte zu definieren, indem man die Radien der Gewichtskreise ändert. Die Gleichheitsbeschränkungen für die Kreise müssen zuerst gelöscht werden. Die Radiusbeschränkung ist willkürlich, das Gewicht der Kontrollpunkte wird durch die relativen Radien der Kreise definiert. Es funktioniert ähnlich wie die Schwerkraft: Je größer ein Kreis im Verhältnis zu den anderen ist, desto mehr wird die Kurve zum Kontrollpunkt gezogen.
--   Die Sichtbarkeit des Kontrollpolygons, des Krümmungskamms, des Grades und der Knotenvielfalt kann über die Symbolleiste [B-spline Werkzeuge](Sketcher_Workbench#Skizzierer_B-spline_Werkzeuge.md) ein- und ausgeschaltet werden.
--   Schaue Dir die anderen Werkzeuge in der Werkzeugleiste von [B-spline Werkzeuge](Sketcher_Workbench/de#Skizzierer_B-spline_Werkzeuge.md) an, für weitere B-spline Bearbeitungswerkzeuge.
+-   Die Sichtbarkeit des Kontrollpolygons, des Krümmungskamms, des Grades und der Knotenvielfalt kann über die Symbolleiste [B-Spline Werkzeuge](Sketcher_Workbench/de#Skizzierer_B-Spline_Werkzeuge.md) ein- und ausgeschaltet werden.
+-   Schaue Dir die anderen Werkzeuge in der Werkzeugleiste von [B-Spline Werkzeuge](Sketcher_Workbench/de#Skizzierer_B-Spline_Werkzeuge.md) an, für weitere B-spline Bearbeitungswerkzeuge.
 
 
 </div>
@@ -55,15 +38,9 @@ Dieses Werkzeug zeichnet von seinen Kontrollpunkten aus eine offene B-Splinekurv
 -   Die Form einer B-Splinekurve kann nur durch Ziehen eines der Kontrollpunkte bearbeitet werden. Die auf der Kurve liegenden Knoten können nicht ausgewählt werden.
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Sketcher Tools navi
 
-}}  
+}} 

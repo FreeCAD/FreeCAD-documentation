@@ -1,10 +1,11 @@
 ---
 - GuiCommand:/de
    Name:Draft Layer
-   Workbenches:[Draft Arbeitsbereich](Draft_Module/de.md), [Arch](Arch_Module/de.md)
+   Name/de:Draft Layer
+   Workbenches:[Draft Arbeitsbereich](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
    MenuLocation:Draft → Utilities → Layer
    Version:0.19
-   Siehe auch:[Draft VisGroup](Draft_VisGroup/de.md) (veraltet)
+   SeeAlso:[Draft VisGroup](Draft_VisGroup/de.md) (veraltet)
 ---
 
 

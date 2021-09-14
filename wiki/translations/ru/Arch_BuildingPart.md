@@ -1,22 +1,14 @@
 ---
 - GuiCommand:/ru
-   Name/ru:Arch: BuildingPart/Строительная деталь
+   Name:Arch_BuildingPart
+   Name/ru:Строительная деталь
    MenuLocation:Arch → BuildingPart
-   Workbenches:[Arch](Arch_Workbench.md)
-   SeeAlso:[Arch Building](Arch_Building.md), [Arch Site](Arch_Site.md)
+   Workbenches:[Arch](Arch_Workbench/ru.md)
    Version:0.18
+   SeeAlso:[Arch_Building](Arch_Building/ru.md), [Arch_Site](Arch_Site/ru.md)
 ---
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
 ## Описание
-
-
-</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -26,24 +18,18 @@ BuildingPart нацелен на замену [Arch Floor](Arch_Floor.md) бол
 
 </div>
 
-
-<div class="mw-translate-fuzzy">
-
-## Использование
-
-
-</div>
+## Применение
 
 1.  Optionally, select one or more objects to be included in your new Building Part.
 2.  Press the **<img src="images/Arch_BuildingPart.svg" width=16px> [Arch BuildingPart](Arch_BuildingPart.md)** button.
 
-### Notes
+### Примечания
 
 BuildingParts have a built-in, implicit [Arch SectionPlane](Arch_SectionPlane.md). <small>(v0.19)</small> 
 
 This plane is always parallel to the BuildingPart\'s base plane, but you can specify the offset between them. So all tools that work with a section plane, such as [Draft Shape2DView](Draft_Shape2DView.md) and [TechDraw ArchView](TechDraw_ArchView.md) also work with BuildingParts.
 
-## Options
+## Опции
 
 -   After creating a BuildingPart, you can add more objects to it by dragging and dropping them in the Tree View or by using the **<img src="images/Arch_Add.svg" width=16px> [Arch Add](Arch_Add.md)** tool.
 -   You can remove objects from a BuildingPart by dragging and dropping them out of the Tree View or by using the **<img src="images/Arch_Remove.svg" width=16px> [Arch Remove](Arch_Remove.md)** tool.
@@ -53,7 +39,7 @@ This plane is always parallel to the BuildingPart\'s base plane, but you can spe
 -   Building Parts can be [Draft Cloned](Draft_Clone.md).
 -   Building Parts can take any IFC type. Its **IFC Type** property determines its use. If you set it to **Building Storey** it will behave as a level. If you set it to **Building** it behaves as a building, and if you set it to **Element Assembly** it behaves as an assembly. Its icon will change to reflect this setting, but other than that it has no other impact in FreeCAD. However, being exported to IFC as one or another type can have an impact in other BIM applications.
 
-## Properties
+## Свойства
 
 ### Data
 
@@ -126,7 +112,7 @@ BuildingPart = makeBuildingPart(objectslist=None)
 
 -   Creates a `BuildingPart` object from `objectslist`, which is a list of objects.
 
-Example: 
+Пример: 
 ```python
 import FreeCAD, Draft, Arch
 
@@ -148,13 +134,7 @@ FreeCAD.ActiveDocument.recompute()
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
  

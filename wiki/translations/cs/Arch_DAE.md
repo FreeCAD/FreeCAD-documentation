@@ -1,3 +1,5 @@
+# Arch DAE/cs
+
 
 
 
@@ -49,4 +51,4 @@ Importní funkcionalita Collady v modulu Architektura závisí na [pycollada](ht
 
  
 
-[Category:File Formats{{\#translation:}}](Category:File_Formats.md)
+[Category:File Formats](Category:File_Formats.md)

@@ -32,7 +32,7 @@ Narzędzie **Część Odsunięcie 3D** tworzy równoległe kopie wybranego kszta
 2.  Opcja ː Samodzielne przecięcie ː *(do zrobienia)*
 3.  Opcja ː Wypełnianie odsunięcia ː Jeśli kształt był dwuwymiarowy, luka pomiędzy dwoma kształtami zostanie wypełniona. Wypełnienie jest teraz bryłą, stąd kształt źródłowy nie jest bryłą. Tak więc operacje logiczne mogą prowadzić do dziwnych rezultatów *(patrz przykład poniżej)*.
 
-## Przykład
+## Przykłady
 
 Obiekt z niewielkim odsunięciem i zaokrąglonymi rogami *(łuk)*.
 

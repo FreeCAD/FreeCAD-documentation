@@ -1,14 +1,11 @@
 ---
 - GuiCommand:/fr
    Name:TechDraw Dimension Vertical Extent
-   Name/fr:TechDraw Dimension extension verticale
+   Name/fr:TechDraw Extension verticale
    MenuLocation:TechDraw → Dimensions → Insérer une dimension d'extension verticale
    Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
-   SeeAlso:[TechDraw Dimension longueur](TechDraw_Dimension_Length/fr.md), [TechDraw Dimension extension horizontale](TechDraw_Dimension_Horizontal_Extent/fr.md)
+   SeeAlso:[TechDraw Cote de longueur](TechDraw_Dimension_Length/fr.md), [TechDraw Extension horizontale](TechDraw_Dimension_Horizontal_Extent/fr.md)
 ---
-
-
-</div>
 
 ## Description
 
@@ -25,11 +22,11 @@ L\'outil Dimension extension verticale ajoute une dimension linéaire à une vue
 
 ## Limitations
 
-Les objets de dimension sont vulnérables aux problèmes de \"[nommage topologique](topological_naming_problem/fr.md)\". Consultez les informations de l\'outil **<img src="images/TechDraw_Dimension_Length.svg" width=16px> [TechDraw Longueur](TechDraw_Dimension_Length/fr.md)** pour plus d\'informations.
+Les objets de dimension sont vulnérables aux problèmes de \"[nommage topologique](topological_naming_problem/fr.md)\". Consultez les informations de l\'outil **<img src="images/TechDraw_Dimension_Length.svg" width=16px> [TechDraw Cote de longueur](TechDraw_Dimension_Length/fr.md)** pour plus d\'informations.
 
-## Propriétiés
+## Propriétés
 
-Cet objet a les mêmes propriétés que l\'outil [TechDraw Dimension Longueur](TechDraw_Dimension_Length/fr.md). Voir cet outil pour plus de détails. Les exceptions notées.
+Cet objet a les mêmes propriétés que l\'outil [TechDraw Cote de longueur](TechDraw_Dimension_Length/fr.md). Voir cet outil pour plus de détails. Les exceptions notées.
 
 ### Données
 
@@ -52,13 +49,7 @@ rc = page.addView(hExtentDim)
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{TechDraw Tools navi

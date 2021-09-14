@@ -1,3 +1,5 @@
+# Licence/sv
+
 
 
 
@@ -140,4 +142,4 @@ Detta beslut är ändå bara gjort för FreeCAD\'s kärnsystem. Var och en som s
 
  
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md)

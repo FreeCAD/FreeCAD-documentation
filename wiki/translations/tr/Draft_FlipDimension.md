@@ -1,5 +1,11 @@
 ---
-- GuiCommand:/tr   Name:Draft FlipDimension   Name/tr:Boyutu çevir   Workbenches:[Arch](Draft_Module/tr___Draft]],_[[Arch_Module/tr.md)|MenuLocation:Draft → Utilities → Flip Dimension   SeeAlso:[Dimension](Draft_Dimension/tr.md)---
+- GuiCommand:/tr
+   Name:Draft FlipDimension
+   Name/tr:Boyutu çevir
+   MenuLocation:Draft → Utilities → Flip Dimension
+   Workbenches:[Draft](Draft_Workbench/tr.md), [Arch](Arch_Workbench/tr.md)
+   SeeAlso:[Dimension](Draft_Dimension/tr.md)
+---
 
 
 </div>
@@ -14,7 +20,6 @@ The <img alt="" src=images/Draft_FlipDimension.svg  style="width:24px;"> **Draft
 2.  There are several ways to invoke the command:
     -   Press the **<img src="images/Draft_FlipDimension.svg" width=16px> [Draft FlipDimension](Draft_FlipDimension.md)** button.
     -   Select the **Modification → <img src="images/Draft_FlipDimension.svg" width=16px> Flip dimension** option from the menu.
-    -   Select the **Utilities → <img src="images/Draft_FlipDimension.svg" width=16px> Flip dimension** option from the menu.
 
 ## Notes
 

@@ -44,4 +44,4 @@ Lo scopo di questo explorer è semplicemente quello di permettere di controllare
 
  
 
-[Category:BIM{{\#translation:}}](Category:BIM.md)
+[Category:BIM](Category:BIM.md)

@@ -1,3 +1,5 @@
+# Manual:Creating renderings/ro
+
  
 
 
@@ -128,4 +130,4 @@ Puteți extinde foarte mult posibilitățile de randare ale FreeCAD, creând noi
 
 {{Raytracing Tools navi}} 
 
-[Category:Tutorials{{\#translation:}}](Category:Tutorials.md)
+[Category:Tutorials](Category:Tutorials.md)

@@ -1,3 +1,5 @@
+# Body/it
+
 
 
 ## Introduzione
@@ -27,4 +29,4 @@ Non è necessario un Corpo quando si utilizza [Part](Part_Workbench/it.md), poic
 
 }} {{Document objects navi}} 
 
-[Category:Glossary{{\#translation:}}](Category:Glossary.md)
+[Category:Glossary](Category:Glossary.md)

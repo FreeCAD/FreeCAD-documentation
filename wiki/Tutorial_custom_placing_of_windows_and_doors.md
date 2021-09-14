@@ -1,3 +1,5 @@
+# Tutorial custom placing of windows and doors
+
   {{TutorialInfo
 |Topic=Architecture
 |Level=Intermediate
@@ -202,7 +204,7 @@ w = Draft.makeWire(p, closed=False)
 15\. Select the new `Sketch003`. Go to the **Map Mode** property, and click on the ellipsis next to the `FlatFace` value. In the 3D viewport select the left side of the wall which doesn\'t have any element; rotate the [standard view](standard_view.md) as necessary. Change the `Attachment offset` to \[-1 m, 0 m, 0 m\] to center the window, and click **OK**. The sketch and the window should appear in a new position.
 
 :   
-    **Note:**the [attachment operation](Part_Attachment.md) can also be performed by changing to the [Part Workbench](Part_Workbench.md), and then using the menu **Part → Attachment**.
+    **Note:**the [attachment operation](Part_EditAttachment.md) can also be performed by changing to the [Part Workbench](Part_Workbench.md), and then using the menu **Part → Attachment**.
 
  ![](images/13_T02_sketch_attachment_edit.png ) 
 

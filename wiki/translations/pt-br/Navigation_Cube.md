@@ -1,3 +1,5 @@
+# Navigation Cube/pt-br
+
 
 
 
@@ -84,4 +86,4 @@ Para uma configuração mais avançada, consulte o **CubeMenu** [Bancadas de tra
 
 
 
-[Category:User Documentation{{\#translation:}}](Category:User_Documentation.md)
+[Category:User Documentation](Category:User_Documentation.md)

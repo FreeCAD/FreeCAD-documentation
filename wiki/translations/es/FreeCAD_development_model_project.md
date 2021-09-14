@@ -1,3 +1,5 @@
+# FreeCAD development model project/es
+
 
 
 
@@ -72,4 +74,4 @@ Las reglas decididas y la información va al documento [Modelo de desarrollo de 
 
 
 
-[Category:Roadmap{{\#translation:}}](Category:Roadmap.md)
+[Category:Roadmap](Category:Roadmap.md)

@@ -1,12 +1,12 @@
 ---
 - GuiCommand:Addon/es
    Name:Arch Rebar LShape   Name/es:Arch Barra de Refuerzo en forma de L
-   Workbenches:[Arch](Arch_Module/es.md), [BIM](BIM_Workbench/es.md)
-   Addon:Reinforcement
    MenuLocation:Arch → Rebar tools
+   Workbenches:[Arch](Arch_Workbench/es.md), [BIM](BIM_Workbench/es.md)
    Shortcut:None
    SeeAlso:[Barra de refuerzo doblada](Arch_Rebar_BentShape/es.md), [[Arch Rebar/es]]
    Version:0.17
+   Addon:Reinforcement
 ---
 
 
@@ -170,7 +170,14 @@ LShapeRebar.editLShapeRebar(Rebar2, 50, 50, 20, 20,
 <div class="mw-translate-fuzzy">
 
 
-{{docnav/es|[UShape Rebar](Arch_Rebar_UShape/es.md)|[Bent Shape Rebar](Arch_Rebar_BentShape/es.md)|[Arch](Arch_Module/es.md)|IconL=Arch_Rebar_UShape.svg |IconC=Workbench_Arch.svg |IconR=Arch_Rebar_BentShape.svg}}
+{{docnav/es
+|[UShape Rebar](Arch_Rebar_UShape/es.md)
+|[Bent Shape Rebar](Arch_Rebar_BentShape/es.md)
+|[Arch](Arch_Workbench/es.md)
+|IconL=Arch_Rebar_UShape.svg
+|IconC=Workbench_Arch.svg
+|IconR=Arch_Rebar_BentShape.svg
+}}
 
 
 </div>
@@ -181,4 +188,4 @@ LShapeRebar.editLShapeRebar(Rebar2, 50, 50, 20, 20,
 
 
 
-[Category:Reinforcement{{\#translation:}}](Category:Reinforcement.md)
+[Category:Reinforcement](Category:Reinforcement.md)

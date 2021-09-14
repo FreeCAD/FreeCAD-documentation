@@ -1,3 +1,5 @@
+# Feature list/it
+
  
 
 Questa è una lista estesa, ma non completa, delle funzioni (feature) già implementate in FreeCAD. Se siete interessati a conoscere gli sviluppi futuri è possibile consultare il [Piano di sviluppo](Development_roadmap/it.md). Per un approccio sommario alle caratteristiche sono anche disponibili gli [screenshot](Screenshots/it.md).
@@ -7,8 +9,8 @@ Questa è una lista estesa, ma non completa, delle funzioni (feature) già imple
 
 ## Note di rilascio 
 
--   [Note di rilascio della versione 0.11](Release_notes_011/it.md) - Marzo 2011
--   [Note di rilascio della versione 0.12](Release_notes_012/it.md) - Dicembre 2011
+-   [Note di rilascio della versione 0.11](Release_notes_0.11/it.md) - Marzo 2011
+-   [Note di rilascio della versione 0.12](Release_notes_0.12/it.md) - Dicembre 2011
 -   [Note di rilascio della versione 0.13](Release_notes_0.13/it.md) - Gennaio 2013
 -   [Note di rilascio della versione 0.14](Release_notes_0.14/it.md) - Marzo 2014
 -   [Note di rilascio della versione 0.15](Release_notes_0.15/it.md) - Marzo 2015
@@ -20,41 +22,29 @@ Questa è una lista estesa, ma non completa, delle funzioni (feature) già imple
 
 ## Funzioni principali 
 
+-   ![](images/Feature1.jpg ) Un **kernel geometrico** (nucleo) basato su [OpenCasCade](http://it.wikipedia.org/wiki/Open_CASCADE_Technology) permette operazioni complesse su profili di varia natura, anche molto articolati. È presente il supporto nativo al [BREP](http://it.wikipedia.org/wiki/B-Rep), alle curve e alle superfici [NURBS](http://it.wikipedia.org/wiki/NURBS), una vasta gamma di entità geometriche, di operazioni booleane e [raccordi](https://en.wikipedia.org/wiki/Fillet_(mechanics)), e il supporto interno per i file [STEP](https://it.wikipedia.org/wiki/ISO_10303) e [IGES](https://it.wikipedia.org/wiki/IGES). 
 
-<div class="mw-translate-fuzzy">
+-   ![](images/Feature3.jpg ) Un **modellatore interamente parametrico**. Tutti gli oggetti di FreeCAD sono nativamente parametrici, il che significa che la loro forma può essere basata sulle [proprietà](Property/it.md) o anche dipendere da altri oggetti. Tutte le modifiche possono essere ricalcolate a richiesta, e registrate dall\'albero delle operazioni annulla o ripeti. Possono essere aggiunti facilmente nuovi tipi di oggetti, e possono anche essere [completamente programmati in Python](Scripted_objects/it.md)
 
--   ![](images/Feature1.jpg ) Un **kernel geometrico** (nucleo) basato su [OpenCasCade](http://it.wikipedia.org/wiki/Open_CASCADE_Technology) permette operazioni complesse su profili di varia natura, anche molto articolati. È presente il supporto nativo al [BREP](http://it.wikipedia.org/wiki/B-Rep), alle curve e alle superfici [NURBS](http://it.wikipedia.org/wiki/NURBS), una vasta gamma di entità geometriche, di operazioni booleane e raccordi, e il supporto interno per i file STEP e IGES. 
+-   ![](images/Feature4.jpg ) Una **architettura modulare** permette di estendere le funzioni del programma attraverso l\'utilizzo dei plugins. Un\'estensione può essere complessa, come un\'intera nuova applicazione programmata in C++ o essere semplice, come uno [script Python](Power_users_hub/it.md) o una [macro](macros/it.md) auto-registrata. Attraverso l\'utilizzo della riga di comando integrata nella GUI, è possibile accedere praticamente a tutte le funzionalità del software per mezzo di semplici comandi **Python**. Si possono [creare e/o modificare oggetti geometrici](Topological_data_scripting/it.md), interagire con [l\'ambiente di lavoro](scenegraph/it.md) o addirittura [personalizzare l\'interfaccia grafica](PySide/it.md) del programma. 
 
--   ![](images/Feature3.jpg ) Un **modellatore interamente parametrico**. Tutti gli oggetti di FreeCAD sono nativamente parametrici, il che significa che la loro forma può essere basata sulle [proprietà](Property/it.md) e, quando dipendono da altri oggetti, se subiscono delle modifiche possono essere ricalcolati a richiesta, e registrati dall\'albero delle operazioni annulla o ripeti. Possono essere aggiunti facilmente nuovi tipi di oggetti, anche quelli [completamente programmati in Python](Scripted_objects/it.md)
-
--   ![](images/Feature4.jpg ) Una **architettura modulare** permette di estendere le funzioni del programma attraverso l\'utilizzo dei plugins. Queste estensioni possono essere complesse, come sono le intere nuove applicazioni programmate in C++ o essere semplici, come gli [script Python](Power_users_hub/it.md) o le [macro](macros/it.md) auto-registrate. Attraverso l\'utilizzo della riga di comando integrata nella GUI, è possibile accedere praticamente a tutte le funzionalità del software per mezzo di semplici comandi **Python**. Si possono [creare e/o modificare oggetti geometrici](Topological_data_scripting/it.md), interagire con [l\'ambiente di lavoro](scenegraph/it.md) o addirittura [personalizzare l\'interfaccia grafica](PySide/it.md) del programma. 
-
--   ![](images/Feature5.jpg ) È possibile importare ed esportare molti dei **formati standard** di rappresentazione 3D, come ad esempio: [STEP](http://en.wikipedia.org/wiki/ISO_10303), [IGES](http://en.wikipedia.org/wiki/IGES), [OBJ](http://en.wikipedia.org/wiki/Obj), [STL](http://en.wikipedia.org/wiki/STL_%28file_format%29), [DXF](http://en.wikipedia.org/wiki/Dxf), [SVG](http://en.wikipedia.org/wiki/Svg), [STL](http://en.wikipedia.org/wiki/STL_(file_format)), [DAE](http://en.wikipedia.org/wiki/COLLADA), [IFC](http://en.wikipedia.org/wiki/Industry_Foundation_Classes) oppure [OFF](http://people.sc.fsu.edu/~jburkardt/data/off/off.html), [NASTRAN](http://en.wikipedia.org/wiki/NASTRAN), [VRML](http://en.wikipedia.org/wiki/VRML), oltre al formato nativo di FreeCAD [Fcstd](Fcstd_file_format/it.md). Il livello di compatibilità tra FreeCAD e un formato di file specifico è variabile, dipende dal modulo che lo implementa.
+-   ![](images/Feature5.jpg ) È possibile importare ed esportare molti dei **formati standard** di rappresentazione 3D, come ad esempio: [STEP](https://it.wikipedia.org/wiki/ISO_10303), [IGES](https://it.wikipedia.org/wiki/IGES), [OBJ](https://en.wikipedia.org/wiki/Obj), [STL](https://it.wikipedia.org/wiki/STL_(formato_di_file)), [DXF](https://it.wikipedia.org/wiki/AutoCAD_DXF), [SVG](https://it.wikipedia.org/wiki/Scalable_Vector_Graphics), [DAE](https://it.wikipedia.org/wiki/COLLADA), [IFC](https://en.wikipedia.org/wiki/Industry_Foundation_Classes) oppure [OFF](http://people.sc.fsu.edu/~jburkardt/data/off/off.html), [NASTRAN](https://it.wikipedia.org/wiki/Nastran), [VRML](https://it.wikipedia.org/wiki/VRML), oltre al formato nativo di FreeCAD {{FileName|[FCStd](File_Format_FCStd.md)}}. Il livello di compatibilità tra FreeCAD e un formato di file specifico è variabile, dipende dal modulo che lo implementa.
 
 -   ![](images/Feature7.jpg ) Un ambiente di [sketch](Sketcher_Workbench/it.md) dotato di strumenti per disegnare sagome in 2D vincolate. Questa funzionalità permette di vincolare in diversi modi le geometrie tracciate e poi di utilizzarle come base per la costruzione delle forme 3D.
 
--   ![](images/Feature9.jpg ) Un modulo di [simulazione robotica](Robot_Workbench/it.md) con il quale studiare i movimenti e le traiettorie del manipolatore. È disponibile una interfaccia grafica di questo modulo che permette di manovrare i vari elementi del modello 3D in modo semplice e intuitivo.
+-   ![](images/Feature9.jpg ) Un modulo di [simulazione robotica](Robot_Workbench/it.md) con il quale studiare i movimenti del manipolatore in un ambiente grafico.
 
--   ![](images/Feature8.jpg ) Un nuovo modulo comodo per creare [fogli di disegno tradizionali](TechDraw_Workbench/it.md) con opzioni come viste di dettagli, sezioni trasversali, quotatura e altre, che consente di inserire delle viste 2D dei modelli 3D su un foglio. Questo modulo produce quindi fogli SVG o PDF pronti per l\'esportazione. Esiste ancora il vecchio modulo [Drawing](Drawing_Workbench/it.md) con i suoi scarni comandi Gui, ma una potente funzionalità Python.
+-   ![](images/Feature8.jpg ) Un nuovo modulo comodo per creare [fogli di disegno tradizionali](TechDraw_Workbench/it.md) con opzioni per viste di dettaglo, sezioni trasversali, quotatura e altre, che consente di inserire delle viste 2D dei modelli 3D su un foglio. Questo modulo produce quindi fogli SVG o PDF pronti per l\'esportazione. Esiste ancora il vecchio modulo [Drawing](Drawing_Workbench/it.md) con i suoi scarni comandi Gui, ma una potente funzionalità Python.
 
 -   ![](images/Feature-raytracing.jpg ) Un modulo dedicato al [rendering](Raytracing_Workbench/it.md) per mezzo del quale si possono esportare i modelli 3D ed effettuare renderizzazioni con software di terze parti. Al momento è pienamente supportato solo [POV-Ray](http://it.wikipedia.org/wiki/POV-Ray).
 
--   ![](images/Feature-arch.jpg ) Inoltre, è stato avviato lo sviluppo di un modulo di [architettura](Arch_Workbench/it.md) compatibile con il modello [BIM](http://it.wikipedia.org/wiki/Building_Information_Modeling) e compatibile con l\'[IFC](http://en.wikipedia.org/wiki/Industry_Foundation_Classes). Le caratteristiche di questo modulo sono ancora in via di definizione e sono discusse dalla comunità in [questa pagina](http://forum.freecadweb.org/viewtopic.php?f=10&t=821) del forum.
+-   ![](images/Feature-arch.jpg ) Un modulo di [architettura](Arch_Workbench/it.md) compatibile con il modello [BIM](http://it.wikipedia.org/wiki/Building_Information_Modeling) e con l\'[IFC](http://en.wikipedia.org/wiki/Industry_Foundation_Classes).
 
--   ![](images/Feature-CAM.jpg ) Un [modulo Path](Path_Workbench/it.md) dedicato alle lavorazioni meccaniche, come la fresatura (CAM), in grado di produrre, visualizzare e modificare il [Codice G](http://en.wikipedia.org/wiki/G-code). 
+-   ![](images/Feature-CAM.jpg ) Un [modulo Path](Path_Workbench/it.md) dedicato alle lavorazioni meccaniche e al [Computer Aided Manufacturing](https://it.wikipedia.org/wiki/Computer-aided_manufacturing) (CAM). Il modulo path è in grado di produrre, visualizzare e modificare il [Codice G](https://it.wikipedia.org/wiki/Codice_G) utilizzato per controllare la macchina di destinazione.
 
--   ![](images/Feature_spreadsheet.png ) Il [foglio di calcolo integrato](Spreadsheet_Workbench/it.md) e un [parser delle espressioni](Expressions/it.md) per guidare i modelli basati su formule o recuperare dati dai modelli.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+-   ![](images/Feature_spreadsheet.png ) Un [foglio di calcolo integrato](Spreadsheet_Workbench/it.md) e un [parser delle espressioni](Expressions/it.md) per creare modelli basati su formule e organizzare i dati del modello in una posizione centrale.
 
 ## Funzioni Generali 
-
-
-</div>
 
 -   **multipiattaforma**. FreeCAD funziona esattamente allo stesso modo su piattaforme Microsoft Windows®, Linux e macOS®.
 
@@ -62,13 +52,7 @@ Questa è una lista estesa, ma non completa, delle funzioni (feature) già imple
 
 -   **funziona tramite riga di comando**. In modalità riga di comando, FreeCAD viene eseguito senza la sua interfaccia ma con tutti i suoi strumenti di geometria. In questa modalità ha un ingombro di memoria relativamente basso e può essere utilizzato, ad esempio, come server per produrre contenuti per altre applicazioni.
 
-
-<div class="mw-translate-fuzzy">
-
 -   **può essere importato come un [modulo Python](Embedding_FreeCAD/it.md)**. FreeCAD può essere importato in qualsiasi applicazione in grado di eseguire script Python. Come in modalità riga di comando, la parte di interfaccia di FreeCAD non è disponibile, ma tutti gli strumenti di geometria sono accessibili.
-
-
-</div>
 
 -   **concepito in Ambienti**. Nell\'interfaccia di FreeCAD gli strumenti sono raggruppati all\'interno di [workbenches](workbenches/it.md) (ambienti di lavoro). Questo permette che vengano visualizzati soltanto gli strumenti necessari all\'azione specifica che si deve compiere, ottenendo un\'area di lavoro pulita, facile da gestire e veloce da caricare.
 
@@ -82,13 +66,7 @@ Questa è una lista estesa, ma non completa, delle funzioni (feature) già imple
 
 -   **[constructive solid geometry](http://en.wikipedia.org/wiki/Constructive_solid_geometry) (operazioni booleane)**. FreeCAD può eseguire operazioni di geometria solida costruttiva (unione, differenza, intersezione).
 
-
-<div class="mw-translate-fuzzy">
-
--   **creazione grafica di geometrie piane**. Linee, spezzate, rettangoli, b-spline e archi circolari o ellittici possono essere creati graficamente in qualsiasi piano dello spazio 3D
-
-
-</div>
+-   **creazione grafica di geometrie piane**. Linee, spezzate, rettangoli, B-spline e archi circolari o ellittici possono essere creati graficamente in qualsiasi piano dello spazio 3D
 
 -   **modellazione lineare o rivolutiva** di **estrusioni**, **sezioni** e **raccordi**.
 
@@ -134,4 +112,4 @@ Alcuni utenti esperti hanno creato vari [ambienti complementari](external_workbe
 
 
 
-[Category:User Documentation{{\#translation:}}](Category:User_Documentation.md)
+[Category:User Documentation](Category:User_Documentation.md)

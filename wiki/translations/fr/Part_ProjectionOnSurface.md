@@ -7,9 +7,6 @@
    Version:0.19
 ---
 
-
-</div>
-
 ## Description
 
 
@@ -95,13 +92,7 @@ Si ça arrive:
 ## Exemples
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
   

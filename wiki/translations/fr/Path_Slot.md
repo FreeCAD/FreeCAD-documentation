@@ -2,15 +2,10 @@
 - GuiCommand:/fr
    Name:Path Slot
    Name/fr:Path Rainure
+   MenuLocation:Path → Rainure
    Workbenches:[Path](Path_Workbench/fr.md)
-   MenuLocation:Path → Slot
-   Shortcut:
    Version:0.19
-   SeeAlso:
 ---
-
-
-</div>
 
 ## Description
 
@@ -24,34 +19,16 @@ L\'objet Path Rainure est conçu pour faire partie d\'une <img alt="" src=images
 
 ## Utilisation
 
-1.  Select the reference geometry on the model:.
-    -   one or more faces or edges.
-    -   two vertices.
-    -   \'\'\' *nothing* \'\'\' to use two custom points entered in the Property View of the Data tab: Custom Point1 and Custom Point2.
-2.  Invoke the Slot command using several methods:
-    -   Pressing the **<img src="images/Path_Slot.svg" width=24px> [Slot](Path_Slot.md)** button in the toolbar.
-
-\#\* Using the ** Path** → **<img src="images/Path_Slot.svg" width=24px> [Slot](Path_Slot.md)** entry from the top menu.
-
-1.  Adjust the desired properties. Descriptions of available properties are found below.
-
-#### Usage Notes 
-
-
-<div class="mw-translate-fuzzy">
-
-1.  Sélectionnez la géométrie de référence sur le modèle:.
+1.  Sélectionner la géométrie de référence sur le modèle :.
     -   une ou plusieurs faces ou arêtes.
     -   deux sommets.
-    -   \'\'\' *rien* \'\'\' pour utiliser deux points personnalisés entrés dans la vue des propriétés de l\'onglet Données: Point1 personnalisé et Point2 personnalisé.
-2.  Appelez la commande Slot en utilisant plusieurs méthodes:
-    -   En appuyant sur le bouton **<img src="images/Path_Slot.svg" width=24px> [Slot](Path_Slot/fr.md)** dans la barre d\'outils.
+    -   \'\'\' \'\' rien \'\' \'\' pour utiliser deux points personnalisés saisis dans la vue Propriété de l\'onglet Données : Custom Point1 et Custom Point2.
+2.  Lancez la commande Rainure en utilisant plusieurs méthodes :
+    -   En appuyant sur la touche **<img src="images/Path_Slot.svg" width=24px> [Rainure](Path_Slot/fr.md)** dans la barre d\'outils.
+    -   En utilisatant **P** → **<img src="images/Path_Slot.svg" width=24px> [Rainure](Path_Slot/fr.md)** dans le menu supérieur.
+3.  Ajustez les propriétés souhaitées. Les descriptions des propriétés disponibles se trouvent ci-dessous.
 
-\#\* En utilisant la ** Path** → **<img src="images/Path_Slot.svg" width=24px> [Slot](Path_Slot/fr.md)** dans le menu supérieur.
-
-1.  Ajustez les propriétés souhaitées. Les descriptions des propriétés disponibles se trouvent ci-dessous.
-
-#### Notes d\'utilisation 
+### Remarques d\'utilisation 
 
 -   Tous les emplacements:
     -   Le début et la fin d\'un chemin d\'emplacement peuvent être étendus ou raccourcis. Utilisez les propriétés \Extend Path Start\ et \Extend Path End\.
@@ -69,9 +46,6 @@ L\'objet Path Rainure est conçu pour faire partie d\'une <img alt="" src=images
         3.  Recalculez l\'opération.
         4.  Gardez à l\'esprit que si le diamètre de la fraise n\'est pas égal à la largeur de la fente, le chemin ***ne sera pas*** au bon endroit. Dans ce cas, ajustez la valeur de la propriété \Extend Radius\ mentionnée ci-dessus.
     -   Actuellement, les utilisateurs ne peuvent pas créer un arc/chemin circulaire personnalisé. Une troisième propriété \Custom Center\ devra être ajoutée, ainsi que des modifications supplémentaires à la base de code.
-
-
-</div>
 
 ## Propriétés
 
@@ -274,13 +248,7 @@ Exemple:
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Path_Tools_navi

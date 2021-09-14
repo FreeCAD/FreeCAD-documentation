@@ -1,3 +1,5 @@
+# Macro SpreadsheetTools/pl
+
  {{Macro/pl
 |Name=Macro SpreadsheetTools
 |Name/pl=Makrodefinicjaq Narzędzia arkusza kalkulacyjnego

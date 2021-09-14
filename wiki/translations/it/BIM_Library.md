@@ -35,4 +35,4 @@ Lo strumento Libreria BIM consente di posizionare nel modello corrente un oggett
 
  
 
-[Category:BIM{{\#translation:}}](Category:BIM.md)
+[Category:BIM](Category:BIM.md)

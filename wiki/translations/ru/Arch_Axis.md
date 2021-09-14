@@ -3,7 +3,7 @@
    Name:Arch Axis
    Name/ru:Arch Axis
    MenuLocation:Arch → Axis
-   Workbenches:[Arch](Arch_Module/ru.md)
+   Workbenches:[Arch](Arch_Workbench/ru.md)
    Shortcut:**A** **X**
    SeeAlso:[Axis System](Arch_AxisSystem/ru.md), [Arch Grid](Arch_Grid/ru.md)
 ---
@@ -18,7 +18,7 @@
 <img alt="" src=images/Arch_Axis_example.jpg  style="width:600px;"> 
 *Два разных объекта осей расположены перпендикулярно друг другу для создания сетки*
 
-## Использование
+## Применение
 
 1.  Нажмите кнопку **<img src="images/Arch_Axis.svg" width=16px> [Arch Axis](Arch_Axis/ru.md)
 **, или сочетание клавиш **A**, затем **X**
@@ -72,7 +72,7 @@ Axes = makeAxis(num=5, size=1000, name="Axes")
 
 -   Creates an `Axes` object from the given number (`num`) of axes, and `size`, the interval between each axis.
 
-Example:
+Пример:
 
 
 ```python

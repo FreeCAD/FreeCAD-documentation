@@ -1,3 +1,5 @@
+# Std View Menu/ru
+
 
 
 
@@ -78,51 +80,27 @@
 
 -   <img alt="" src=images/Std_SelBoundingBox.svg  style="width:32px;"> [Bounding box](Std_SelBoundingBox.md): Toggles the bounding box highlighting mode. <small>(v0.19)</small> 
 
-
-<div class="mw-translate-fuzzy">
-
 -   Стерео
-    -   <img alt="" src=images/Std_ViewIvStereoRedGreen.svg  style="width:32px;"> [Стерео красный/голубой](Std_ViewIvStereoRedGreen/ru.md)
-    -   <img alt="" src=images/Std_ViewIvStereoQuadBuff.svg  style="width:32px;"> [Четверная буферизация стерео](Std_ViewIvStereoQuadBuff/ru.md)
-    -   <img alt="" src=images/Std_ViewIvStereoInterleavedRows.svg  style="width:32px;"> [Стерео с чередованием строк](Std_ViewIvStereoInterleavedRows/ru.md)
-    -   <img alt="" src=images/Std_ViewIvStereoInterleavedColumns.svg  style="width:32px;"> [Стерео с чередованием столбцов](Std_ViewIvStereoInterleavedColumns/ru.md)
-    -   <img alt="" src=images/Std_ViewIvStereoOff.svg  style="width:32px;"> [Выключить стерео](Std_ViewIvStereoOff/ru.md)
-    -   <img alt="" src=images/Std_ViewIvIssueCamPos.svg  style="width:32px;"> [Выводить положение камеры](Std_ViewIvIssueCamPos/ru.md)
-
-
-</div>
+    -   <img alt="" src=images/Std_ViewIvStereoRedGreen.svg  style="width:32px;"> [Стерео красный/голубой](Std_ViewIvStereoRedGreen/ru.md): Переключить режим стерео в красного/голубой режим.
+    -   <img alt="" src=images/Std_ViewIvStereoQuadBuff.svg  style="width:32px;"> [Четверная буферизация стерео](Std_ViewIvStereoQuadBuff/ru.md): Переключить стерео в режим quad буффера.
+    -   <img alt="" src=images/Std_ViewIvStereoInterleavedRows.svg  style="width:32px;"> [Стерео с чередованием строк](Std_ViewIvStereoInterleavedRows/ru.md): Переключить стерео в режим чередования строк.
+    -   <img alt="" src=images/Std_ViewIvStereoInterleavedColumns.svg  style="width:32px;"> [Стерео с чередованием столбцов](Std_ViewIvStereoInterleavedColumns/ru.md): Переключить стерео в режим чередования столбцов.
+    -   <img alt="" src=images/Std_ViewIvStereoOff.svg  style="width:32px;"> [Выключить стерео](Std_ViewIvStereoOff/ru.md): Выключить стерео режим.
+    -   <img alt="" src=images/Std_ViewIvIssueCamPos.svg  style="width:32px;"> [Выводить положение камеры](Std_ViewIvIssueCamPos/ru.md): вывести настройки камеры в [отчёт](Report_view/ru.md) и в [Python консоль](Python_console/ru.md).
 
 -   Масштаб
     -   <img alt="" src=images/Std_ViewZoomIn.svg  style="width:32px;"> [Увеличить](Std_ViewZoomIn/ru.md): Увеличивает масштаб изображения вида.
     -   <img alt="" src=images/Std_ViewZoomOut.svg  style="width:32px;"> [Уменьшить](Std_ViewZoomOut/ru.md):Уменьшает масштаб изображения вида.
     -   <img alt="" src=images/Std_ViewBoxZoom.svg  style="width:32px;"> [Увеличить область](Std_ViewBoxZoom/ru.md): Масштабирует вид под размер прямоугольной области.
 
-
-<div class="mw-translate-fuzzy">
-
 -   Окно документа
-    -   [Встроенное](Std_ViewDockUndockFullscreen/ru.md)
-    -   [Отдельное](Std_ViewDockUndockFullscreen/ru.md)
-    -   <img alt="" src=images/Std_ViewFullscreen.svg  style="width:32px;"> [На весь экран](Std_ViewFullscreen/ru.md)
+    -   [Закрепленное](Std_ViewDockUndockFullscreen/ru#Docked.md): Встраивает 3D вид открепленный от основного окна приложения, обратно в приложение.
+    -   [Откреплённое](Std_ViewDockUndockFullscreen/ru#Undocked.md): Отсоединяет 3D вид от основного окна приложения в виде отдельного окна.
+    -   <img alt="" src=images/Std_ViewFullscreen.svg  style="width:32px;"> [На весь экран](Std_ViewFullscreen/ru.md): Переключает 3D вид в полноэкранный режим.
 
+-   <img alt="" src=images/Std_AxisCross.svg  style="width:32px;"> [Показать/скрыть оси координат](Std_AxisCross/ru.md): Переключает видимость осей координат.
 
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   [Показать/скрыть оси координат](Std_AxisCross/ru.md)
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   [Плоскость сечения](Std_ToggleClipPlane/ru.md)
-
-
-</div>
+-   <img alt="" src=images/Std_ToggleClipPlane.svg  style="width:32px;"> [Плоскость сечения](Std_ToggleClipPlane/ru.md): Позволяет просмотреть объект в разрезе.
 
 
 <div class="mw-translate-fuzzy">
@@ -132,23 +110,17 @@
 
 </div>
 
-
-<div class="mw-translate-fuzzy">
-
 -   Видимость
-    -   [Скрыть/показать выделенное](Std_ToggleVisibility/ru.md)
-    -   [Показать выделенное](Std_ShowSelection/ru.md)
-    -   [Скрыть выделенное](Std_HideSelection/ru.md)
-    -   [Выбрать видимые объекты](Std_SelectVisibleObjects/ru.md)
-    -   [Инвертировать все видимости](Std_ToggleObjects/ru.md)
-    -   [Показать все объекты](Std_ShowObjects/ru.md)
-    -   [Скрыть все объекты](Std_HideObjects/ru.md)
-    -   <img alt="" src=images/Std_ToggleSelectability.svg  style="width:32px;"> [Откл/вкл выделяемость](Std_ToggleSelectability/ru.md)
-    -   <img alt="" src=images/View_Measure_Toggle_All.svg  style="width:32px;"> [Скрыть/показать всё (Toggle measurement)](View_Measure_Toggle_All/ru.md)
-    -   <img alt="" src=images/View_Measure_Clear_All.svg  style="width:32px;"> [Стереть измерение](View_Measure_Clear_All/ru.md)
-
-
-</div>
+    -   <img alt="" src=images/Std_ToggleVisibility.svg  style="width:32px;"> [Скрыть/показать выделенное](Std_ToggleVisibility/ru.md): Переключает видимость выбранных объектов.
+    -   <img alt="" src=images/Std_ShowSelection.svg  style="width:32px;"> [Показать выделенное](Std_ShowSelection/ru.md): Показывает выбранные объекты.
+    -   <img alt="" src=images/Std_HideSelection.svg  style="width:32px;"> [Скрыть выделенное](Std_HideSelection/ru.md): Скрывает выбранные объекты.
+    -   <img alt="" src=images/Std_SelectVisibleObjects.svg  style="width:32px;"> [Выбрать видимые объекты](Std_SelectVisibleObjects/ru.md): Выбрать все видимые объекты.
+    -   <img alt="" src=images/Std_ToggleObjects.svg  style="width:32px;"> [Инвертировать все видимости](Std_ToggleObjects/ru.md): Изменить видимость всех объектов на противоположную.
+    -   <img alt="" src=images/Std_ShowObjects.svg  style="width:32px;"> [Показать все объекты](Std_ShowObjects/ru.md): Делает все объекты видимыми.
+    -   <img alt="" src=images/Std_HideObjects.svg  style="width:32px;"> [Скрыть все объекты](Std_HideObjects/ru.md): Скрывает все объекты.
+    -   <img alt="" src=images/Std_ToggleSelectability.svg  style="width:32px;"> [Откл/вкл выделяемость](Std_ToggleSelectability/ru.md): Откл/вкл возможность выбирать объекты.
+    -   <img alt="" src=images/View_Measure_Toggle_All.svg  style="width:32px;"> [Скрыть/показать всё измерения](View_Measure_Toggle_All/ru.md): Откл/вкл отображение измерений деталей.
+    -   <img alt="" src=images/View_Measure_Clear_All.svg  style="width:32px;"> [Удалить все измерения](View_Measure_Clear_All/ru.md): Удаляет все измерения детали.
 
 
 <div class="mw-translate-fuzzy">
@@ -174,13 +146,7 @@
 
 </div>
 
-
-<div class="mw-translate-fuzzy">
-
--   [Случайный цвет](Std_RandomColor/ru.md)
-
-
-</div>
+-   <img alt="" src=images/Std_RandomColor.svg  style="width:32px;"> [Случайный цвет](Std_RandomColor/ru.md): Устанавливает цвет фигуры случайным образом.
 
 
 <div class="mw-translate-fuzzy">
@@ -190,18 +156,12 @@
 
 </div>
 
-
-<div class="mw-translate-fuzzy">
-
--   Toolbars **Каждая панель инструментов может быть включена или выключена в подменю. Некоторые верстаки добавляют свои собственные панели инструментов.**
-    -   File
+-   Панели инструментов **-- Каждая панель инструментов может быть включена или выключена в подменю. Некоторые верстаки добавляют свои собственные панели инструментов.**
+    -   Файл
     -   Workbench
-    -   Macro
-    -   View
+    -   Макрос
+    -   Вид
     -   Structure
-
-
-</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -246,4 +206,4 @@
 
 }}  
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

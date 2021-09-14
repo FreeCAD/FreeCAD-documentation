@@ -1,3 +1,5 @@
+# Drawing templates/ru
+
 
 
 
@@ -252,4 +254,4 @@ The two lines that FreeCAD will be looking for are \"\$blocks\" and \"\$entities
 
 }} 
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Documentation{{\#translation:}}](Category:Documentation.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Documentation](Category:Documentation.md)

@@ -1,3 +1,5 @@
+# Land Survey Workbench Blueprint/de
+
 
 
 
@@ -61,4 +63,4 @@ Note: the information in this page is based on a shallow understanding of FreeCA
 
 
 
-[Category:Roadmap{{\#translation:}}](Category:Roadmap.md) [Category:Developer{{\#translation:}}](Category:Developer.md)
+[Category:Roadmap](Category:Roadmap.md) [Category:Developer](Category:Developer.md)

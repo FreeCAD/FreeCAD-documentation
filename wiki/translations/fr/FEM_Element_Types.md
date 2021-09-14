@@ -1,3 +1,5 @@
+# FEM Element Types/fr
+
  {{TOCright}}
 
 ## Introduction
@@ -271,4 +273,4 @@ Cette description est basée sur le format MED décrit dans \[<https://hammi.ext
 
 }}  
 
-[Category:Developer{{\#translation:}}](Category:Developer.md) [Category:Poweruser\_Documentation{{\#translation:}}](Category:Poweruser_Documentation.md)
+[Category:Developer](Category:Developer.md) [Category:Poweruser\_Documentation](Category:Poweruser_Documentation.md)

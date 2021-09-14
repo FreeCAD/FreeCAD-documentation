@@ -7,9 +7,6 @@
    SeeAlso:[TechDraw Page par défaut](TechDraw_PageDefault/fr.md), [TechDraw Modèles](TechDraw_Templates/fr.md)
 ---
 
-
-</div>
-
 ## Description
 
 L\'outil Page à partir d\'un modèle crée un nouvel objet Page à l\'aide du fichier de modèle sélectionné dans une boîte de dialogue.
@@ -62,13 +59,7 @@ page.Template = FreeCAD.ActiveDocument.Template
 Voir les informations dans [TechDraw Nouvelle page par défaut](TechDraw_New_Default/fr.md) pour modifier manuellement les champs de texte modifiables dans le code de la feuille.
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{TechDraw Tools navi

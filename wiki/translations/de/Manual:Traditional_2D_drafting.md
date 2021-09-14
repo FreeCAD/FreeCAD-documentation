@@ -1,15 +1,11 @@
+# Manual:Traditional 2D drafting/de
+
  
 
 
 {{Manual:TOC/de}}
 
-
-<div class="mw-translate-fuzzy">
-
-Möglicherweise bist du an FreeCAD interessiert, weil du bereits einige Erfahrung beim technischen Zeichnen hast, zum Beispiel mit Software wie [AutoCAD](https://de.wikipedia.org/wiki/AutoCAD). Oder du weist schon etwas über Design oder ziehst es vor, Dinge zu zeichnen, bevor du diese baust. In jedem Fall bietet FreeCAD einen eher herkömmlichen Arbeitsbereich, mit Werkzeugen, die in den meisten 2D CAD Anwendungen zu finden sind: Der [Entwurf Arbeitsbereich](Draft_Module/de.md).
-
-
-</div>
+Möglicherweise bist du an FreeCAD interessiert, weil du bereits einige Erfahrung beim technischen Zeichnen hast, zum Beispiel mit Software wie [AutoCAD](https://de.wikipedia.org/wiki/AutoCAD). Oder du weist schon etwas über Design oder ziehst es vor, Dinge zu zeichnen, bevor du diese baust. In jedem Fall bietet FreeCAD einen eher herkömmlichen Arbeitsbereich, mit Werkzeugen, die in den meisten 2D CAD Anwendungen zu finden sind: Der [Entwurf Arbeitsbereich](Draft_Workbench/de.md).
 
 Obwohl der Entwurf Arbeitsbereich Abläufe aus der herkömmlichen 2D CAD Welt übernimmt, ist er überhaupt nicht darauf beschränkt. All seine Werkzeuge funktionieren im gesamten 3D Bereich und viele der Entwurf Werkzeuge, z.B. <img alt="" src=images/Draft_Move.svg  style="width:16px;"> [Verschieben](Draft_Move/de.md) oder <img alt="" src=images/Draft_Rotate.svg  style="width:16px;"> [Drehen](Draft_Rotate/de.md), sind allgemein überall in FreeCAD verfügbar, weil sie oftmals viel intuitiver sind, als wenn die Einstellungen manuell geändert werden müssten.
 
@@ -93,14 +89,8 @@ Um den Arbeitsablauf und die Möglichkeiten des Entwurf Arbeitsbereichs zu präs
 
 ![](images/Exercise_cabin_12.jpg )
 
-
-<div class="mw-translate-fuzzy">
-
 -   Das Wichtigste am Entwurf Arbeitsbereich ist jedoch, dass die Geometrie, die du mit ihr erstellst, als Basis verwendet oder einfach in 3D Objekte extrudiert werden kann, indem du einfach das <img alt="" src=images/Part_Extrude.svg  style="width:16px;"> [Part\_Extrude](Part_Extrude.md) Werkzeug aus dem [Part Arbeitsbereich](Part_Workbench/de.md) oder, um im Entwurf zu bleiben, das <img alt="" src=images/Draft_Trimex.svg  style="width:16px;"> [Trimex](Draft_Trimex/de.md) (Trimmen/Strecken/Extrudieren) (engl.: Trim/Extend/Extrude) Werkzeug, das unter der Haube eine Teileextrusion durchführt, diese aber \"nach Entwurfsart\", d.h. es ermöglicht dir die Extrusionslänge grafisch anzeigen und fangen zu lassen. Experimentiere mit dem Extrudieren unserer Wände wie unten gezeigt.
 -   Durch Drücken der <img alt="" src=images/Draft_SelectPlane.svg  style="width:16px;"> [Arbeitsebene](Draft_SelectPlane/de.md) Schaltfläche kannst du nach der Auswahl einer Fläche eines Objekts auch die Arbeitsebene irgendwo platzieren und somit Entwurfsobjekte in verschiedenen Ebenen zeichnen, z.B. oben auf die Wände. Diese können dann extrudiert werden, um andere 3D Festkörper zu bilden. Experimentiere damit die Arbeitsebene auf eine der Oberseiten der Wände zu setzen, zeichne dann einige Rechtecke dort oben.
-
-
-</div>
 
 ![](images/Exercise_cabin_13.jpg )
 
@@ -117,17 +107,11 @@ Im Wesentlichen bietet der Entwurf Arbeitsbereich grafische Möglichkeiten, um e
 
 ## Verwandt
 
-
-<div class="mw-translate-fuzzy">
-
--   [Der Entwurf Arbeitsbereich](Draft_Module/de.md)
+-   [Der Entwurf Arbeitsbereich](Draft_Workbench/de.md)
 -   [Fang](Draft_Snap/de.md)
 -   [Die Entwurf Arbeitsebene](Draft_SelectPlane/de.md)
 
 
-</div>
 
 
-
-
-[Category:Tutorials{{\#translation:}}](Category:Tutorials.md) [Category:Draft{{\#translation:}}](Category:Draft.md)
+[Category:Tutorials](Category:Tutorials.md) [Category:Draft](Category:Draft.md)

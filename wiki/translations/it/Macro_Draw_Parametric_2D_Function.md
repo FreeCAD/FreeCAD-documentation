@@ -1,3 +1,5 @@
+# Macro Draw Parametric 2D Function/it
+
  {{Macro/it
 |Name=Macro Draw Parametric 2D Function
 |Icon=Macro_Draw_Parametric_2D_Function.png

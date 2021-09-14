@@ -1,3 +1,5 @@
+# Help FreeCAD/de
+
 
 
 ## Einführung
@@ -57,7 +59,7 @@ Dann gehe zu [WikiSeiten](WikiPages/de.md), um sich mit dem in diesem Wiki verwe
 
 ![](images/Bugreport-workflow.png )
 
-Obwohl der Ort, an dem du bestätigte Fehler melden und neue Funktionen vorschlagen kannst, letztendlich der **[FreeCAD Tracker](tracker.md)** ist, bitte immer zuerst Fehlerberichte und Funktionsanfragen an das Hilfeforum bekannt geben. Um Entwicklern Zeit zu sparen (das Ausprobieren und Handhaben schwer zu verstehender Fehler kann sehr zeitaufwendig sein) und Frustrationen zu vermeiden, weil dein Problem nicht so behandelt wurde, wie du es dir wünschst, lies bitte das Folgende:
+Obwohl der Ort, an dem du bestätigte Fehler melden und neue Funktionen vorschlagen kannst, letztendlich der **[FreeCAD Tracker](tracker/de.md)** ist, bitte immer zuerst Fehlerberichte und Funktionsanfragen an das Hilfeforum bekannt geben. Um Entwicklern Zeit zu sparen (das Ausprobieren und Handhaben schwer zu verstehender Fehler kann sehr zeitaufwendig sein) und Frustrationen zu vermeiden, weil dein Problem nicht so behandelt wurde, wie du es dir wünschst, lies bitte das Folgende:
 
 -   Fehler und Funktions Anfragen werden im gleichen Tracker behandelt. Markiere einfach dein Problem als \"Bug\" (etwas, das nicht so funktioniert, wie es sollte) oder \"Feature\" (etwas, das nicht da ist, aber du denkst, dass es gut wäre, es zu haben).
 -   Obwohl du ursprünglich Probleme anonym einreichen konntest, musste dies leider wegen Spam abgebrochen werden. Wenn du nun Tickets erstellen/ bearbeiten möchtest, musst du ein Konto erstellen. Du wirst dann standardmäßig benachrichtigt, wenn jemand Notizen zu dem Problem hinzufügt. In vielen Fällen wird die Person, die den Fehler bearbeiten wird, weitere Informationen von Dir benötigen.
@@ -77,7 +79,7 @@ Das Schreiben von Code für FreeCAD ist nicht schwer, und Du brauchst keine Erla
 
 -   FreeCAD geht in seinem eigenen Tempo und hat ein sehr kleines Team von Entwicklern. Wir haben nicht so viel Zeit, wie wir uns FreeCAD widmen möchten, und die Dinge sind nicht im Voraus geplant; sie sind erledigt, wenn einige Entwickler es für richtig halten und wenn er Zeit findet, es zu tun. Deshalb führen wir keine Liste der zu erledigenden Aufgaben. Es liegt an Dir, etwas zu finden, was Du tun möchtest, z.B. einen Fehler, den Du korrigieren möchtest, oder ein kleines Feature, von dem Du denkst, dass es fehlt. Der [Tracker](http://www.freecadweb.org/tracker) enthält auch einige Elemente, die noch niemandem zugeordnet sind.
 -   Bevor du mit der Programmierung für FreeCAD beginnst, musst du genau wissen, wie FreeCAD funktioniert. Das scheint offensichtlich zu sein, aber wenn Du nicht weißt, wie es funktionieren soll, wirst Du nicht wissen, was Du intern tun sollst oder wie Du es tun sollst.
--   Fast alles kann entweder in Python oder C++ gemacht werden. Die Internas funktionieren in beiden Sprachen fast gleich. Wir empfehlen Dir, die Seiten [Verteiler für Intensivnutzer](Power_users_hub/de.md) durchzulesen, auch wenn Du in C++ programmieren wirst, da es Dir einen guten Überblick über die Internas gibt.
+-   Fast alles kann entweder in Python oder C++ gemacht werden. Die Internas funktionieren in beiden Sprachen fast gleich. Wir empfehlen Dir, die Seiten [Hauptanwenderzentrum](Power_users_hub/de.md) durchzulesen, auch wenn Du in C++ programmieren wirst, da es Dir einen guten Überblick über die Internas gibt.
 -   Wenn Du in C++ arbeiten möchtest, stelle sicher, dass Du FreeCAD ohne Probleme kompilieren kannst.
 -   Präsentiere dich anderen Entwicklern. FreeCAD ist vor allem ein soziales Projekt, wir diskutieren viele Dinge im [Forum](http://forum.freecadweb.org), bevor wir es implementieren, und es ist immer das Beste, wenn du deine Ideen diskutierst und den Leuten sagst, was du vorhast zu tun, bevor du es tatsächlich machst. Wir haben auch einen [IRC-Kanal](irc://chat.freenode.net/freecad), der mit unserem [gitter](https://gitter.im/FreeCAD/FreeCAD)-Kanal synchronisiert ist, aber das Forum ist der einzige Ort, an dem man alle Entwickler treffen kann.
 -   Seit 2016 nimmt FreeCAD auch am [Google Summer of Code 2020](Google_Summer_of_Code_2020.md) teil. Schau dir dort unsere Ideen an, wenn du an einer Teilnahme an der nächsten Ausgabe interessiert bist.
@@ -85,4 +87,4 @@ Das Schreiben von Code für FreeCAD ist nicht schwer, und Du brauchst keine Erla
 
 
 
-[Category:Documentation{{\#translation:}}](Category:Documentation.md) [Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Common Questions{{\#translation:}}](Category:Common_Questions.md)
+[Category:Documentation](Category:Documentation.md) [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Common Questions](Category:Common_Questions.md)

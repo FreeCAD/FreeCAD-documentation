@@ -3,7 +3,7 @@
    Name:Draft Drawing
    Name/fr:Draft Dessin
    MenuLocation:Draft → Dessin
-   Workbenches:[Draft](Draft_Module/fr.md), [Arch](Arch_Module/fr.md)
+   Workbenches:[Drawing](Drawing_Workbench.md), [Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
    SeeAlso:[Atelier TechDraw](TechDraw_Workbench/fr.md), [Draft Vue 2D d'une forme](Draft_Shape2DView/fr.md)
 ---
 

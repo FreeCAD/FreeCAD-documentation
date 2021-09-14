@@ -1,3 +1,5 @@
+# Reverse Engineering Workbench/es
+
  
 
 <img alt="El icono del Ambiente de trabajo Ingeniería inversa" src=images/Workbench_Reverse_Engineering.svg  style="width:128px;">
@@ -24,4 +26,4 @@ Enlace a los hilos apropiados en los que se habla de este ambiente de trabajo
 
  
 
-[Category:Reverse Engineering{{\#translation:}}](Category:Reverse_Engineering.md) [Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Reverse Engineering](Category:Reverse_Engineering.md) [Category:Workbenches](Category:Workbenches.md)

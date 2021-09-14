@@ -3,7 +3,7 @@
    Name:Draft Label
    Name/de:Entwurf Etikett
    MenuLocation:Entwurf → Etikett
-   Workbenches:[Entwurf](Draft_Module/de.md), [Arch](Arch_Module/de.md)
+   Workbenches:[Entwurf](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
    Shortcut:**D** **L**
    SeeAlso:[Entwurf Text](Draft_Text/de.md), [Entwurf FormZeichenfolge](Draft_ShapeString/de.md)
    Version:0.17

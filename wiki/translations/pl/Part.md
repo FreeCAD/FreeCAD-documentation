@@ -1,3 +1,5 @@
+# Part/pl
+
 
 
 ## Wprowadzenie
@@ -32,4 +34,4 @@ Jednakże, gdy wymagana jest większa precyzja, należy dokonać rozróżnienia.
 
 }} {{Document objects navi}} 
 
-[Category:Glossary{{\#translation:}}](Category:Glossary.md)
+[Category:Glossary](Category:Glossary.md)

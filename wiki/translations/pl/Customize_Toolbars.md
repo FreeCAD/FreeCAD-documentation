@@ -1,3 +1,5 @@
+# Customize Toolbars/pl
+
  {{TutorialInfo/pl
 |Topic=Przykład
 |Level=początkujący
@@ -120,4 +122,4 @@ Zobacz również [Dostosowywanie interfejsu użytkownika do własnych potrzeb](I
 
 
 
-[Category:Preferences{{\#translation:}}](Category:Preferences.md)
+[Category:Preferences](Category:Preferences.md)

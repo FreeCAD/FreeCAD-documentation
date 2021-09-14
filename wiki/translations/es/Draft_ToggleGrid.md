@@ -1,5 +1,11 @@
 ---
-- GuiCommand:/es   Name:Draft ToggleGrid   Name/es:Draft ToggleGrid   Workbenches:[Arch](Draft_Module/es___Draft]],_[[Arch_Module/es.md)|MenuLocation:Draft → Utilities → Toggle grid---
+- GuiCommand:/es
+   Name:Draft ToggleGrid
+   Name/es:Draft ToggleGrid
+   MenuLocation:Draft → Utilities → Toggle grid
+   Workbenches:[Draft](Draft_Workbench/es.md), [Arch](Arch_Workbench/es.md)
+   Shortcut:**G** **R**
+---
 
 
 </div>

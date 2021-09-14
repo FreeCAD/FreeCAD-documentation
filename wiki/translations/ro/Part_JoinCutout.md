@@ -49,6 +49,9 @@ A Part JoinFeature object is created, with Mode set to \'Cutout\'. Original obje
 ## Properties
 
 
+{{TitleProperty|Base}}
+
+
 <div class="mw-translate-fuzzy">
 
 ## Properties 
@@ -131,7 +134,9 @@ Algoritmii din spatele instrumentelor de conectare sunt destul de simple, iar î
 
 ## Programare-Script 
 
-Instrumentul Join poate fi utilizat în [macros](macros.md) și de la consola python utilizând umătoarea funcție: 
+Instrumentul Join poate fi utilizat în [macros](macros.md) și de la consola python utilizând umătoarea funcție:
+
+
 ```pythonJoinFeatures.makePartJoinFeature(name = 'Cutout', mode = 'Cutout')```
 
 -   Creates an empty Cutout feature (or other Join feature, depending on mode passed). The properties Base and Tool must be assigned explicitly, afterwards.
@@ -151,9 +156,6 @@ Instrumentul propriu-zis este implementat în Python, vezi /Mod/Part/JoinFeature
 
 
 </div>
-
-
-
 
 
 

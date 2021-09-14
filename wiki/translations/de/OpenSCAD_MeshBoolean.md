@@ -3,12 +3,7 @@
    Name:OpenSCAD MeshBoolean
    MenuLocation:OpenSCAD → Mesh Boolean...
 ‏‎   Workbenches:[OpenSCAD](OpenSCAD_Workbench/de.md)
-   Shortcut:Keine
-   SeeAlso:---
 ---
-
-
-</div>
 
 ## Beschreibung
 

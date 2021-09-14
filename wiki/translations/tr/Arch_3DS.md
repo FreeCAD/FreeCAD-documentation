@@ -1,3 +1,5 @@
+# Arch 3DS/tr
+
 
 
 
@@ -17,4 +19,4 @@ Yapı tezgahı [3DS](https://en.wikipedia.org/wiki/.3ds) dosyalarının alınmas
 
  
 
-[Category:User Documentation{{\#translation:}}](Category:User_Documentation.md) [Category:Arch{{\#translation:}}](Category:Arch.md) [Category:File Formats{{\#translation:}}](Category:File_Formats.md)
+[Category:User Documentation](Category:User_Documentation.md) [Category:Arch](Category:Arch.md) [Category:File Formats](Category:File_Formats.md)

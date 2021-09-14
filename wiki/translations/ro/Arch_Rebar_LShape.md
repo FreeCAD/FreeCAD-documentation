@@ -169,7 +169,14 @@ LShapeRebar.editLShapeRebar(Rebar2, 50, 50, 20, 20,
 <div class="mw-translate-fuzzy">
 
 
-{{docnav/ro|[UShape Rebar](Arch_Rebar_UShape/ro.md)|[Bent Shape Rebar](Arch_Rebar_BentShape/ro.md)|[Arch](Arch_Module/ro.md)|IconL=Arch_Rebar_UShape.svg |IconC=Workbench_Arch.svg |IconR=Arch_Rebar_BentShape.svg}}
+{{docnav/ro
+|[UShape Rebar](Arch_Rebar_UShape/ro.md)
+|[Bent Shape Rebar](Arch_Rebar_BentShape/ro.md)
+|[Arch](Arch_Workbench/ro.md)
+|IconL=Arch_Rebar_UShape.svg
+|IconC=Workbench_Arch.svg
+|IconR=Arch_Rebar_BentShape.svg
+}}
 
 
 </div>
@@ -180,4 +187,4 @@ LShapeRebar.editLShapeRebar(Rebar2, 50, 50, 20, 20,
 
 
 
-[Category:Reinforcement{{\#translation:}}](Category:Reinforcement.md)
+[Category:Reinforcement](Category:Reinforcement.md)

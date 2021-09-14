@@ -1,3 +1,5 @@
+# Arch IFC/de
+
  
 
 
@@ -73,4 +75,4 @@ Wenn die Form der exportierten Objekte auf einer Extrusion oder einer booleschen
 
  
 
-[Category:File Formats{{\#translation:}}](Category:File_Formats.md)
+[Category:File Formats](Category:File_Formats.md)

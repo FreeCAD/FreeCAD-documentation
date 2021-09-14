@@ -1,3 +1,5 @@
+# Path Workbench/ro
+
 
 
 
@@ -485,4 +487,4 @@ A se vedea pagina [Path scripting](Path_scripting/ro.md).
 
 }} 
 
-[Category:Path/ro](Category:Path/ro.md) [Category:Workbenches/ro](Category:Workbenches/ro.md) [Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Path/ro](Category:Path/ro.md) [Category:Workbenches/ro](Category:Workbenches/ro.md) [Category:Workbenches](Category:Workbenches.md)

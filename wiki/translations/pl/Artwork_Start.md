@@ -1,4 +1,6 @@
-\_\_NOTOC\_\_ 
+# Artwork Start/pl
+
+ 
 
 These icons are in the indicated source path.
 
@@ -33,4 +35,4 @@ The following image has been re-sized to a display width of 480 pixels:
 
 }} 
 
-[Category:Start{{\#translation:}}](Category:Start.md)
+[Category:Start](Category:Start.md)

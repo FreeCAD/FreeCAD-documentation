@@ -1,3 +1,5 @@
+# Custom Spacing/de
+
 
 
 ## Beschreibung
@@ -17,4 +19,4 @@ Ausgabe produziert vom Bewehrungsstab-Abstandsdialog nach dem Drücken der Schal
 
 
 
-[Category:User Documentation{{\#translation:}}](Category:User_Documentation.md) [Category:Reinforcement{{\#translation:}}](Category:Reinforcement.md)
+[Category:User Documentation](Category:User_Documentation.md) [Category:Reinforcement](Category:Reinforcement.md)

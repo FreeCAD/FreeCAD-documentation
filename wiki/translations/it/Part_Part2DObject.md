@@ -1,3 +1,5 @@
+# Part Part2DObject/it
+
 
 
 ## Introduzione
@@ -38,11 +40,23 @@ Oltre alle proprietà descritte in [Part Feature](Part_Feature/it.md), Part Part
 ### Dati
 
 
+<div class="mw-translate-fuzzy">
+
+
 {{TitleProperty|Attachment}}
 
 -    **Map Mode|Enumeration**: {{value|Deactivated}} di default. Questa proprietà definisce il piano che l\'oggetto utilizza come riferimento per la geometria 2D. Facendo clic sui puntini di sospensione **...** (tre puntini), a destra del campo di immissione si apre il pannello [Part Attachment](Part_Attachment/it.md) della [scheda azioni](task_panel/it.md) che consente di selezionare il piano di supporto selezionando diversi elementi nella [vista 3D](3D_view/it.md). Le diverse modalità sono: {{value|Deactivated}}, {{value|Translate origin}}, {{value|Object's XY}}, {{value|Object's XZ}}, {{value|Object's YZ}}, {{value|Plane face}}, {{value|Tangent to surface}}, {{value|Normal to edge}}, {{value|Frenet NB}}, {{value|Frenet TN}}, {{value|Frenet TB}}, {{value|Concentric}}, {{value|Revolution section}}, {{value|Plane by 3 points}}, {{value|Normal to 3 points}}, {{value|Folding}}, {{value|Inertia 2-3}}, {{value|Align O-N-X}}, {{value|Align O-N-Y}}, {{value|Align O-X-Y}}, {{value|Align O-X-N}}, {{value|Align O-Y-N}}, {{value|Align O-Y-X}}.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Vedere [Part Attachment](Part_Attachment/it.md) per ulteriori informazioni su tutte le modalità di associazione.
+
+
+</div>
 
 Le seguenti due proprietà sono normalmente nascoste. Diventano visibili una volta che **Map Mode** è qualcosa di diverso da {{value|Deactivated}}.
 

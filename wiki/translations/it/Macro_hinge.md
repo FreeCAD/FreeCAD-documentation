@@ -1,3 +1,5 @@
+# Macro hinge/it
+
  {{Macro/it
 |Name=Hinge Simul
 |Icon=Macro hinge.png

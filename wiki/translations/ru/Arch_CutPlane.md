@@ -2,8 +2,8 @@
 - GuiCommand:/ru
    Name:Arch CutPlane
    Name/ru:Arch CutPlane
-   Workbenches:[Arch](Arch_Module/ru.md)
    MenuLocation:Архитектура → Срезать по плоскости образца
+   Workbenches:[Arch](Arch_Workbench/ru.md)
    SeeAlso:[Удалить компонент](Arch_Remove/ru.md)
 ---
 

@@ -1,3 +1,5 @@
+# Feature list/cs
+
  
 
 
@@ -16,9 +18,9 @@ Toto je obsáhlý, i když ne kompletní, seznam charakteristických vlastností
 
 <div class="mw-translate-fuzzy">
 
--   [Release 0.11](Release_notes_011.md) - Březen 2011
--   [Release 0.12](Release_notes_012.md) - Prosinec 2011
--   [Release 0.13](Release_notes_013.md) - Leden 2013
+-   [Release 0.11](Release_notes_0.11.md) - Březen 2011
+-   [Release 0.12](Release_notes_0.12.md) - Prosinec 2011
+-   [Release 0.13](Release_notes_0.13.md) - Leden 2013
 
 
 </div>
@@ -275,4 +277,4 @@ Power users have created various custom [external workbenches](external_workbenc
 
 
 
-[Category:User Documentation{{\#translation:}}](Category:User_Documentation.md)
+[Category:User Documentation](Category:User_Documentation.md)

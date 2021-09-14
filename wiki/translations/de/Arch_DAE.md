@@ -1,3 +1,5 @@
+# Arch DAE/de
+
  
 
 Das [Collada (DAE)](https://en.wikipedia.org/wiki/COLLADA)-Format ist ein Standarddateiformat für den Austausch von Netz-Daten. Der [Arch-Arbeitsbereich](Arch_Workbench/de.md) kann Netze aus .dae-Dateien importieren und Arch- und andere [Shape](Part_Workbench/de.md)-basierte Objekte ins .dae-Format exportieren.
@@ -16,4 +18,4 @@ Die Collada-Importfunktionalität im Arch-Arbeitsbereich hängt von [pycollada](
 
  
 
-[Category:File Formats{{\#translation:}}](Category:File_Formats.md)
+[Category:File Formats](Category:File_Formats.md)

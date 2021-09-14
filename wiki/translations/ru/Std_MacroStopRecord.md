@@ -1,14 +1,11 @@
 ---
 - GuiCommand:/ru
-   Name:Std MacroStopRecord
-   Name/ru:Std MacroStopRecord
-   MenuLocation:{{StdMenu|[Макрос](Macros/ru.md)}} → Остановить запись макроса
-   Workbenches:All
-   SeeAlso:[Macro Start](Std_DlgMacroRecord/ru.md), [Execute macro](Std_DlgMacroExecuteDirect/ru.md)
+   Name:Std_MacroStopRecord
+   Name/ru:Остановить запись макроса
+   MenuLocation:Макросы → Остановить запись макроса
+   Workbenches:Все
+   SeeAlso:[Запись макроса](Std_DlgMacroRecord/ru.md)
 ---
-
-
-</div>
 
 ## Описание
 

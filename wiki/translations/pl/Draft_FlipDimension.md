@@ -15,9 +15,8 @@ Narzędzie <img alt="" src=images/Draft_FlipDimension.svg  style="width:24px;"> 
 
 1.  Wybierz jeden lub więcej [wymiarów](Draft_Dimension/pl.md).
 2.  Istnieje kilka sposobów, aby wywołać to polecenie:
-    -   Naciśnij przycisk **<img src="images/Draft_FlipDimension.svg" width=16px> [Odwróć wymiar](Draft_FlipDimension/pl.md)**.
-    -   Wybierz z menu opcję **Modyfikacja → <img src="images/Draft_FlipDimension.svg" width=16px> Odwróć wymiar**.
-    -   Wybierz z menu opcję **Przybory → <img src="images/Draft_FlipDimension.svg" width=16px> Odwróć wymiar**.
+    -   Naciśnij przycisk **<img src="images/Draft_FlipDimension.svg" width=24px> [Odwróć wymiar](Draft_FlipDimension/pl.md)**.
+    -   Wybierz z menu opcję **Modyfikacja → <img src="images/Draft_FlipDimension.svg" width=24px> Odwróć wymiar**.
 
 ## Uwagi
 

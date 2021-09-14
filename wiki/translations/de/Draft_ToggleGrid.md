@@ -3,7 +3,7 @@
    Name:Draft ToggleGrid
    Name/de:Entwurf UmschaltenGitter
    MenuLocation:Entwurf → Dienstprogramme → Umschalten Gitter
-   Workbenches:[Entwurf](Draft_Module/de.md), [Arch](Arch_Module/de.md)
+   Workbenches:[Entwurf](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
    Shortcut:**G** **R**
    SeeAlso:[Entwurf Fang](Draft_Snap/de.md), [Entwurf UmschaltenFang](Draft_ToggleSnap/de.md)
 ---

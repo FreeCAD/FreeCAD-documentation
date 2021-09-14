@@ -3,17 +3,14 @@
    Name:Arch Panel Sheet
    Name/fr:Arch Panneau de feuille
    MenuLocation:Arch → Outils pour panneaux → Panneau de feuille
-   Workbenches:[Arch](Arch_Module/fr.md)
+   Workbenches:[Arch](Arch_Workbench/fr.md)
    Shortcut:**P** **S**
    SeeAlso:[Arch Panneau](Arch_Panel/fr.md), [Arch Découpe de panneaux](Arch_Panel_Cut/fr.md), [Arch Calepinage](Arch_Nest/fr.md)
 ---
 
-
-</div>
-
 ## Description
 
-Cet outil permet de construire une feuille en 2D, y compris n\'importe quel nombre d\'objets [Panneaux coupés](Arch_Panel_Cut/fr.md), ou tout autre objet 2D tel que ceux réalisés par le [l\'atelier Draft](Draft_Module/fr.md) et [atelier Sketcher](Sketcher_Workbench/fr.md). Le panneau est typiquement fait pour mettre en page des coupes destinées à être exécutées sur une machine à commande numérique par ordinateur. Ces feuilles peuvent ensuite être exportées vers un fichier [DXF](Draft_DXF/fr.md).
+Cet outil permet de construire une feuille en 2D, y compris n\'importe quel nombre d\'objets [Panneaux coupés](Arch_Panel_Cut/fr.md), ou tout autre objet 2D tel que ceux réalisés par le [l\'atelier Draft](Draft_Workbench/fr.md) et [atelier Sketcher](Sketcher_Workbench/fr.md). Le panneau est typiquement fait pour mettre en page des coupes destinées à être exécutées sur une machine à commande numérique par ordinateur. Ces feuilles peuvent ensuite être exportées vers un fichier [DXF](Draft_DXF/fr.md).
 
 <img alt="" src=images/Arch_Wikihouse_03.jpg  style="width:1024px;">
 
@@ -38,7 +35,7 @@ Cet outil permet de construire une feuille en 2D, y compris n\'importe quel nomb
 
 ## Propriétés
 
-### Propriétés 
+### Données
 
 -    {{PropertyData/fr|Height}}: La hauteur de la feuille
 
@@ -73,7 +70,7 @@ Cet outil permet de construire une feuille en 2D, y compris n\'importe quel nomb
 
 **Voir aussi:**
 
-[API](Arch_API/fr.md) and [Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md).
+[Arch API](Arch_API.md) et [FreeCAD Script de Base](FreeCAD_Scripting_Basics/fr.md).
 
 L\'outil panneau peut être utilisé dans une [macro](macros/fr.md) et depuis la console [Python](Python/fr.md) en utilisant la fonction suivante:
 
@@ -119,13 +116,7 @@ Sheet = Arch.makePanelSheet([Cut1, Cut2, Cut3])
 -   [Tutoriel de portage Wikihouse](Wikihouse_porting_tutorial/fr.md)
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
  

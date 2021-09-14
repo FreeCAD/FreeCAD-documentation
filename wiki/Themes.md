@@ -1,3 +1,5 @@
+# Themes
+
  
 
 
@@ -39,4 +41,4 @@ If one chooses to tweak a preexisting theme or create their own, all that needs 
 
  {{Interface navi}} 
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md)

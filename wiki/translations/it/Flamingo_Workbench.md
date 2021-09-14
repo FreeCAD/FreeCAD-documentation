@@ -1,3 +1,5 @@
+# Flamingo Workbench/it
+
   {{VeryImportantMessage|Flamingo Workbench (Python2/Qt4) è stato sostituito da Dodo Workbench (Python3/Qt5). Questa pagina wiki evidenzia le differenze tra questi due ambienti. I link indicati qui si riferiscono all'attuale [Dodo](Dodo_Workbench/it.md).}}
 
 ## Introduzione
@@ -566,4 +568,4 @@ Sono in fase di sviluppo ulteriori nuovi ambienti.
 
 
 
-[Category:Addons{{\#translation:}}](Category:Addons.md) [Category:External Workbenches{{\#translation:}}](Category:External_Workbenches.md)
+[Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)

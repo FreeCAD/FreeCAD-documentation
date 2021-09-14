@@ -1,3 +1,5 @@
+# Macro Dump Objects/fr
+
  {{Macro/fr
 |Name=Macro Dump Objects
 |Description=Cette macro génère une liste de tous les objets du document courant, la liste peut être affichée dans une fenêtre ou dans la vue Rapport..

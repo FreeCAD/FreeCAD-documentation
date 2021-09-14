@@ -1,3 +1,5 @@
+# Reinforcement Addon/it
+
 
 
 ## Introduzione
@@ -41,4 +43,4 @@ Sono in fase di sviluppo ulteriori nuovi ambienti.
 
  
 
-[Category:Reinforcement{{\#translation:}}](Category:Reinforcement.md)
+[Category:Reinforcement](Category:Reinforcement.md)

@@ -1,3 +1,5 @@
+# 3Dconnexion input devices/fr
+
  <img alt="3Dconnexion SpaceNavigator" src=images/SpaceNavigator.jpg  style="width:200px;"> {{TOCright}}
 
 ## Installation des drivers 
@@ -276,4 +278,4 @@ Pour connecter certaines commandes à un bouton, sélectionnez le bouton sur le 
 -   Fil de discussion du forum [spacenav dans Windows](https://forum.freecadweb.org/viewtopic.php?f=3&t=51023)
 -   Fil de discussion du forum [Confusion de l\'axe de la spacenav](https://forum.freecadweb.org/viewtopic.php?f=8&t=57188).
 
-[Category:User Documentation{{\#translation:}}](Category:User_Documentation.md) [Category:3rd Party{{\#translation:}}](Category:3rd_Party.md)
+[Category:User Documentation](Category:User_Documentation.md) [Category:3rd Party](Category:3rd_Party.md)

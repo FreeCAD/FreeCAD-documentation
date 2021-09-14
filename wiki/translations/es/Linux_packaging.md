@@ -1,3 +1,5 @@
+# Linux packaging/es
+
 
 
 Linux permite empaquetar de diferentes maneras dependiendo de la distribución específica utilizada. Los formatos más populares son los paquetes de Debian `.deb`, los paquetes de openSuse y Fedora `.rpm` y el formato casi universal `.AppImage`.
@@ -15,4 +17,4 @@ para Windows y MacOS, ver [Empaquetado](Packaging/es.md).
 
 
 
-[Category:Packaging{{\#translation:}}](Category:Packaging.md) [Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md)
+[Category:Packaging](Category:Packaging.md) [Category:Developer Documentation](Category:Developer_Documentation.md)

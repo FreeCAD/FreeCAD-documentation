@@ -1,3 +1,5 @@
+# Scientific literature
+
  
 
 ## Description
@@ -12,4 +14,4 @@ Most of these articles are open-access.
 
  {{Powerdocnavi}}
 
-[Category:Hubs{{\#translation:}}](Category:Hubs.md)
+[Category:Hubs](Category:Hubs.md)

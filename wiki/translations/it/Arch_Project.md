@@ -1,5 +1,12 @@
 ---
-- GuiCommand:/it   Name:Arch Project   Name/it:Progetto   Workbenches:[MenuLocation:Arch → Progetto   Shortcut:**P** **O**   SeeAlso:[[Arch Site/it|Sito](Arch_Module/it___Arch]].md), [Edificio](Arch_Building/it.md)---
+- GuiCommand:/it
+   Name:Arch Project
+   Name/it:Progetto
+   MenuLocation:Arch → Progetto
+   Workbenches:[Arch](Arch_Workbench/it.md)
+   Shortcut:**P** **O**
+   SeeAlso:[Sito](Arch_Site/it.md), [Edificio](Arch_Building/it.md)
+---
 
 
 </div>

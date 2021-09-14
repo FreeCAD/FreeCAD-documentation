@@ -41,4 +41,4 @@ The **Std Import** command imports geometry from a different file format into th
 
  {{Std Base navi}}  
 
-[Category:File\_Formats{{\#translation:}}](Category:File_Formats.md)
+[Category:File\_Formats](Category:File_Formats.md)

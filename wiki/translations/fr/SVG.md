@@ -1,3 +1,5 @@
+# SVG/fr
+
  {{TOCright}}
 
 ## Description
@@ -22,4 +24,4 @@ FreeCAD est principalement une application de modélisation 3D et ne dispose don
 
 
 
-[Category:Draft{{\#translation:}}](Category:Draft.md) [Category:TechDraw{{\#translation:}}](Category:TechDraw.md) [Category:File\_Formats{{\#translation:}}](Category:File_Formats.md)
+[Category:Draft](Category:Draft.md) [Category:TechDraw](Category:TechDraw.md) [Category:File\_Formats](Category:File_Formats.md)

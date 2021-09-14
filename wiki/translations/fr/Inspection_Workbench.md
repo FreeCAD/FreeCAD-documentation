@@ -1,3 +1,5 @@
+# Inspection Workbench/fr
+
  
 
 <img alt="Icône de l\'atelier Inspection" src=images/Workbench_Inspection.svg  style="width:128px;">
@@ -25,4 +27,4 @@ Alternativement, vous pouvez aussi utiliser la macro <img alt="" src=images/High
 
 
 
-[Category:Inspection{{\#translation:}}](Category:Inspection.md) [Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Inspection](Category:Inspection.md) [Category:Workbenches](Category:Workbenches.md)

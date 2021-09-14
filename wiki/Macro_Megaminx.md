@@ -1,3 +1,5 @@
+# Macro Megaminx
+
   {{Macro
 |Name=Macro_Megaminx
 |Icon=Macro_Megaminx.png

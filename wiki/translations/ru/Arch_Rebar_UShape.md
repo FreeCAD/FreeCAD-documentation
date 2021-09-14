@@ -1,5 +1,13 @@
 ---
-- GuiCommand:Addon/ru   Name:Arch Rebar UShape   Name/ru:Arch Rebar LShape   Workbenches:[Addon:Reinforcement   MenuLocation:Arch → Rebar tools   Shortcut:None   SeeAlso:[[Arch_Rebar_BentShape/ru|Bent UShape Rebar](Arch_Module/ru___Arch]].md)---
+- GuiCommand:Addon/ru
+   Name:Arch Rebar UShape
+   Name/ru:Arch Rebar LShape
+   MenuLocation:Arch → Rebar tools
+   Workbenches:[Arch](Arch_Workbench/ru.md)
+   Addon:Reinforcement
+   Shortcut:None
+   SeeAlso:[Bent UShape Rebar](Arch_Rebar_BentShape/ru.md)
+---
 
 
 </div>
@@ -28,7 +36,7 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 </div>
 
-## Использование
+## Применение
 
 1.  Select any face of a previously created **<img src="images/Arch_Structure.svg" width=16px> [[Arch Structure]]** object.
 
@@ -113,13 +121,7 @@ Rebar = makeUShapeRebar(f_cover, b_cover, r_cover, l_cover,
 
 -    `orientation`specifies the orientation of the rebar; it can be `"Bottom"`, `"Top"`, `"Right"`, or `"Left"`.
 
-
-<div class="mw-translate-fuzzy">
-
-Пример: Создание U Shaped арматуры.
-
-
-</div>
+### Пример
 
 
 ```python
@@ -182,4 +184,4 @@ UShapeRebar.editUShapeRebar(Rebar2, 70, 50, 20, 20,
 
  
 
-[Category:Reinforcement{{\#translation:}}](Category:Reinforcement.md)
+[Category:Reinforcement](Category:Reinforcement.md)

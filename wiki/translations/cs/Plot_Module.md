@@ -1,11 +1,13 @@
+# Plot Module/cs
+
 
 
 <img alt="Plot workbench icon" src=images/Workbench_Plot.svg  style="width:128px;">
 
-## Introduction
-
 
 {{TOCright}}
+
+## Introduction
 
 FreeCAD is able to perform plots using the [matplotlib](https://matplotlib.org/) [Python](Python.md) library. A module is provided to this end, as an external add-on in version 0.19 and as a core component from version 0.20 on. Older versions of FreeCAD are not covered in this documentation.
 
@@ -13,7 +15,7 @@ The produced plots offer the standard [matplotlib](https://matplotlib.org/) tool
 
 ## Module
 
-The module can be invoked in a Python console or in a [macro](Macro.md). The first thing you must do is importing the module. In FreeCAD 0.19 you must first install the <img alt="" src=images/Workbench_Plot.svg  style="width:24px;"> [Plot Workbench](Plot_Workbench.md) using the [Add-on manager](Std_AddonMgr.md), and then you can import Plot typing
+The module can be invoked in a Python console or in a [macro](Macros.md). The first thing you must do is importing the module. In FreeCAD 0.19 you must first install the <img alt="" src=images/Workbench_Plot.svg  style="width:24px;"> [Plot Workbench](Plot_Workbench.md) using the [Add-on manager](Std_AddonMgr.md), and then you can import Plot by typing:
 
 
 ```python
@@ -48,10 +50,12 @@ If you decide to install the <img alt="" src=images/Workbench_Plot.svg  style="w
 -   <img alt="" src=images/Plot_Labels.svg  style="width:32px;"> [Labels](Plot_Labels.md): Edit labels.
 -   <img alt="" src=images/Plot_Positions.svg  style="width:32px;"> [Positions](Plot_Positions.md): Set elements positions.
 
+## Scripting
+
 
 <div class="mw-translate-fuzzy">
 
-## Scripting
+## Scripting 
 
 Since Plot module is a layer over matplotlib, you are free to use all matplotlib commands over plot instances. See [scripting examples](Scripting_examples/cs.md) section to see examples.
 
@@ -68,4 +72,4 @@ Since Plot module is a layer over matplotlib, you are free to use all matplotlib
 
 }} 
 
-[Category:External\_Workbenches{{\#translation:}}](Category:External_Workbenches.md) [Category:Addons{{\#translation:}}](Category:Addons.md)
+[Category:External\_Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)

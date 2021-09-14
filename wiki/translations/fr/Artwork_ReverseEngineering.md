@@ -1,4 +1,6 @@
-\_\_NOTOC\_\_ 
+# Artwork ReverseEngineering/fr
+
+ 
 
 Ces icônes se trouvent dans le chemin source indiqué.
 
@@ -19,4 +21,4 @@ Pour toutes les icônes de l\'arborescence source, voir [Graphisme](Artwork/fr.m
 
 }} 
 
-[Category:Reverse Engineering{{\#translation:}}](Category:Reverse_Engineering.md)
+[Category:Reverse Engineering](Category:Reverse_Engineering.md)

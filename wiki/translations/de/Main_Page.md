@@ -1,8 +1,10 @@
-\_\_NOTOC\_\_ 
+# Main Page/de
 
-## Einleitung
+ 
 
-Dies ist das Dokumentations-Wiki von [FreeCAD](http://www.freecadweb.org). Es gibt zwei Hauptwege, um durch die Dokumentation zu blättern: durch das Durchsuchen der Zentren oder durch das Befolgen des Handbuchs. Dies ist eine laufende Arbeit, geschrieben von der Gemeinschaft der Anwender und Entwickler von FreeCAD. Wenn Du Informationen findest, die falsch sind oder fehlen, bitte [Hilf FreeCAD](Special:MyLanguage/help_FreeCAD.md)! 
+## Einführung
+
+Dies ist das Dokumentations Wiki von [FreeCAD](http://www.freecadweb.org). Es gibt mehrere Möglichkeiten, diese Dokumentation zu nutzen: durch das Erforschen der Zentren, durch das Befolgen des Handbuchs oder durch das Benutzen der Hilfe Menüeinträge innerhalb von FreeCAD. Diese Dokumentation wird von der Gemeinschaft der Benutzer und Entwickler von FreeCAD geschrieben und befindet sich in Bearbeitung. Wenn du Informationen findest, die falsch sind oder fehlen, bitte [Hilf FreeCAD](Special:MyLanguage/help_FreeCAD.md)! 
 
 
 ## Die Zentren 
@@ -65,4 +67,4 @@ Prüfe den [Entwicklungsfahrplan](Development_roadmap/de.md) für Neuigkeiten ü
 
 
 
-[Category:Documentation{{\#translation:}}](Category:Documentation.md)
+[Category:Documentation](Category:Documentation.md)

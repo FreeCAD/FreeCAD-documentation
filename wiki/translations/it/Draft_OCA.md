@@ -1,3 +1,5 @@
+# Draft OCA/it
+
 
 
 
@@ -7,7 +9,12 @@
 <div class="mw-translate-fuzzy">
 
 
-{{docnav/it|[SVG](Draft_SVG/it.md)|[Airfoil Data Format .DAT](Draft_DAT/it.md)|[Draft](Draft_Module/it.md)|IconC=Workbench_Draft.svg}}
+{{docnav/it
+|[SVG](Draft_SVG/it.md)
+|[Airfoil Data Format .DAT](Draft_DAT/it.md)
+|[Draft](Draft_Workbench/it.md)
+|IconC=Workbench_Draft.svg
+}}
 
 
 </div>
@@ -80,7 +87,12 @@ importOCA.export(objects, "/home/user/Pictures/myfile.oca")
 <div class="mw-translate-fuzzy">
 
 
-{{docnav/it|[SVG](Draft_SVG/it.md)|[Airfoil Data Format .DAT](Draft_DAT/it.md)|[Draft](Draft_Module/it.md)|IconC=Workbench_Draft.svg}}
+{{docnav/it
+|[SVG](Draft_SVG/it.md)
+|[Airfoil Data Format .DAT](Draft_DAT/it.md)
+|[Draft](Draft_Workbench/it.md)
+|IconC=Workbench_Draft.svg
+}}
 
 
 </div>
@@ -88,4 +100,4 @@ importOCA.export(objects, "/home/user/Pictures/myfile.oca")
 
  
 
-[Category:File Formats{{\#translation:}}](Category:File_Formats.md)
+[Category:File Formats](Category:File_Formats.md)

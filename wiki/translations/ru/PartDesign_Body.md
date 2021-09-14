@@ -1,11 +1,11 @@
 ---
 - GuiCommand:/ru
-   Name:PartDesign Body
-   Name/ru:PartDesign Body
+   Name/ru:Создать тело
+   Name:PartDesign_Body
+   MenuLocation:Part Design → Создать тело
    Workbenches:[PartDesign](PartDesign_Workbench/ru.md)
-   MenuLocation:Part Design → Create body
    Version:0.17
-   SeeAlso:[Std Part](Std_Part/ru.md), [feature editing](feature_editing/ru.md)
+   SeeAlso:[Создать деталь](Std_Part/ru.md), [Feature editing](Feature_editing/ru.md)
 ---
 
 
@@ -21,7 +21,7 @@ Do not confuse the <img alt="" src=images/PartDesign_Body.svg  style="width:24px
 
 ![](images/PartDesign_Body_tree.png ) ![](images/PartDesign_Body_example.png ) *Left: the tree view showing the features that sequentially produce the final shape of the object. Right: the final object visible in the [3D view](3D_view.md).*
 
-## Использование
+## Применение
 
 If no previous solid is selected:
 
@@ -47,7 +47,7 @@ In addition to the properties described in [Part Feature](Part_Feature.md), the 
 ### Данные
 
 
-{{TitleProperty|Base}}
+{{TitleProperty|Основные}}
 
 -    **Tip|Link**: the [PartDesign Feature](PartDesign_Feature.md) defined as \"Tip\", which is usually the last feature created in the Body. The Tip indicates the final shape of the Body, which is shown in the [3D view](3D_view.md) when **Display Mode Body** is set to `Tip`. See [Tip](PartDesign_Body#Tip.md) for more information.
 
@@ -57,7 +57,7 @@ In addition to the properties described in [Part Feature](Part_Feature.md), the 
 
 -    **Group|LinkList**: a list with the [PartDesign Features](PartDesign_Feature.md) in the Body.
 
-#### Hidden properties Data 
+#### Скрытые свойства Данных 
 
 -    **Origin|Link**: the [App Origin](App_Origin.md) object that is the positional reference for all elements listed in **Group**.
 
@@ -65,10 +65,10 @@ In addition to the properties described in [Part Feature](Part_Feature.md), the 
 
 Also the hidden properties described in [Part Feature](Part_Feature.md).
 
-### View
+### Свойства отображения 
 
 
-{{TitleProperty|Base}}
+{{TitleProperty|Основные}}
 
 -    **Display Mode Body|Enumeration**: sets the display mode specifically for the Body with one of two types.
 
@@ -233,7 +233,7 @@ Multiple [Sketches](Sketch.md) may be visible at one time, but only one [PartDes
 
 [PartDesign Features](PartDesign_Feature.md), just like [planar objects](Part_Part2DObject.md), can be attached to different planes, usually the standard planes defined by the Body\'s [Origin](PartDesign_Body#Origin.md), or to custom [PartDesign Planes](PartDesign_Plane.md).
 
-[Sketches](Sketch.md) are normally attached to a plane when they are created. In similar way, [primitive features](PartDesign_CompPrimitiveAdditive.md) can also be attached. Attaching these objects to a plane allows them to be moved within the Body by changing their **Attachment Offset** property. For more information on the attachment modes see [Part Attachment](Part_Attachment.md).
+[Sketches](Sketch.md) are normally attached to a plane when they are created. In similar way, [primitive features](PartDesign_CompPrimitiveAdditive.md) can also be attached. Attaching these objects to a plane allows them to be moved within the Body by changing their **Attachment Offset** property. For more information on the attachment modes see [Part EditAttachment](Part_EditAttachment.md).
 
 A [PartDesign Feature](PartDesign_Feature.md) that is not attached will be shown with a red overlay symbol next to their icon in the [tree view](tree_view.md).
 
@@ -248,7 +248,7 @@ A [PartDesign Body](PartDesign_Body.md) is formally an instance of the class `Pa
 
 *Simplified diagram of the relationships between the core objects in the program. The `PartDesign::Body* object is intended to build parametric 3D solids, and thus is derived from the basic {{incode|Part::Feature` object, and has an Origin to control the placement of the features used inside of it.}}
 
-## Scripting
+## Скрипты
 
 
 **See also:**

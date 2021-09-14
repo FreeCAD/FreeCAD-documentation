@@ -1,3 +1,5 @@
+# Draft Preferences/es
+
 
 
 
@@ -73,4 +75,4 @@ Texts and dimensions allows you to set default properties for the [Draft Text](D
 
  
 
-[Category:Preferences{{\#translation:}}](Category:Preferences.md)
+[Category:Preferences](Category:Preferences.md)

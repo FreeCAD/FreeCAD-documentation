@@ -30,7 +30,7 @@ Creates a **datum line** which can be used as reference for sketches, other datu
 
 ## Options
 
-Double-click the DatumLine label in the Model tree or right-click and select **Edit datum** in the contextual menu to edit its parameters. For more details about Attachment mode and Attachment offset, see [Attachment](Part_Attachment.md).
+Double-click the DatumLine label in the Model tree or right-click and select **Edit datum** in the contextual menu to edit its parameters. For more details about Attachment mode and Attachment offset, see [Part EditAttachment](Part_EditAttachment.md).
 
 ## Properties
 

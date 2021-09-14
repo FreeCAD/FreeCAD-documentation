@@ -1,3 +1,5 @@
+# WebTools Workbench
+
   <img alt="WebTools workbench icon" src=images/WebTools_workbench_icon.svg  style="width:128px;">
 
 ## Overview
@@ -20,4 +22,4 @@ This workbench can be installed from the [Addon Manager](Std_AddonMgr.md). For m
 
   
 
-[Category:Addons{{\#translation:}}](Category:Addons.md) [Category:External Workbenches{{\#translation:}}](Category:External_Workbenches.md) [Category:User Documentation{{\#translation:}}](Category:User_Documentation.md)
+[Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md) [Category:User Documentation](Category:User_Documentation.md)

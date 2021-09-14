@@ -1,3 +1,5 @@
+# Macro documentation
+
  
 
 ## Description
@@ -219,4 +221,4 @@ In order to include the macro there, first it must be reviewed by the FreeCAD co
 
 
 
-[Category:Macros{{\#translation:}}](Category:Macros.md) [Category:User Documentation{{\#translation:}}](Category:User_Documentation.md)
+[Category:Macros](Category:Macros.md) [Category:User Documentation](Category:User_Documentation.md)

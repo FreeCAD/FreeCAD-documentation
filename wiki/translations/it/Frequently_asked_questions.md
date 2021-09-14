@@ -1,3 +1,5 @@
+# Frequently asked questions/it
+
 
 
 
@@ -283,4 +285,4 @@ Yes, you can use the core parts of FreeCAD in other applications as long as you 
 
 
 
-[Category:Documentation{{\#translation:}}](Category:Documentation.md)
+[Category:Documentation](Category:Documentation.md)

@@ -16,10 +16,16 @@ Inserta un toro primitivo en el Cuerpo activo como primera característica, o lo
 
 ## Uso
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Presionar el botón **<img src="images/PartDesign_AdditiveTorus.svg" width=24px> '''Toro aditivo'''** . **Nota**: El Toro aditivo forma parte de un icono de herramientas llamado *Crear una primitiva aditiva*. Tras abrir Freecad, el Cubo aditivo es la única primitiva mostrada en la barra de herramientas. Para obtener el botón del Toro, pinchar en la flecha que indica hacia abajo, que está al lado del icono visible y seleccionar Toro aditivo en el menú desplegable.
 2.  Establece los parámetros de Primitiva y [Adjunto](Part_Attachment/es.md).
 3.  Aceptar **OK**.
 4.  Una operación de Toro aparece dentro del Cuerpo activo.
+
+
+</div>
 
 ## Opciones
 
@@ -29,6 +35,9 @@ Tras su creación, el Toro puede ser editado de dos maneras:
 -   Por medio del [Editor de propiedades](Property_editor/es.md).
 
 ## Propiedades
+
+
+<div class="mw-translate-fuzzy">
 
 -    {{PropertyData/es|Attachment}}: Define el modo de Attachment y la separación del archivo adjunto. Ver [Part Attachment](Part_Attachment.md).
 
@@ -43,6 +52,9 @@ Tras su creación, el Toro puede ser editado de dos maneras:
 -    {{PropertyData/es|Ángulo2}}: (Sin nombre en los parámetros de la primitiva) Truncamiento superior del Toro, paralelo al corte de la sección circular (180 grados en un Toro completo). Al cambiar el Ángulo 2, un error en los originales puede causar resultados impredecibles.
 
 -    {{PropertyData/es|Ángulo3}}: (Llamado parámetro *U* en los parámetros de la primitiva) Ángulo de rotación del corte de la sección circular (360 grados en un Toro completo).
+
+
+</div>
 
 
 

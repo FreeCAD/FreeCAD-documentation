@@ -1,3 +1,5 @@
+# Macro FCInfoGlass/en
+
  {{Macro
 |Name=Macro FCInfoGlass
 |Description=Gives a series of information on the form display in the 3D view.

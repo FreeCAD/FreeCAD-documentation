@@ -3,12 +3,7 @@
    Name:OpenSCAD Hull
    MenuLocation:OpenSCAD → Hull‏‎
    Workbenches:[OpenSCAD](OpenSCAD_Workbench/de.md)
-   Shortcut:Keine
-   SeeAlso:---
 ---
-
-
-</div>
 
 ## Beschreibung
 
@@ -30,13 +25,7 @@ OpenSCAD muss installiert und konfiguriert sein in **Bearbeiten** → **Einstell
 ## Hinweise
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{OpenSCAD_Tools_navi

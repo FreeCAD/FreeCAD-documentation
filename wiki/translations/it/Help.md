@@ -1,3 +1,5 @@
+# Help/it
+
 
 
 ## Forum
@@ -52,4 +54,4 @@ Esistono diversi subforum per gli sviluppatori e gli utenti di FreeCAD. Prima di
 
  
 
-[Category:Help{{\#translation:}}](Category:Help.md)
+[Category:Help](Category:Help.md)

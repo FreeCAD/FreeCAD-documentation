@@ -1,3 +1,5 @@
+# Codespell
+
 codespell ([website](https://github.com/codespell-project/codespell)) is a CLI application that checks source code for misspellings.
 
 It\'s important to run it from time to time on the FreeCAD codebase.

@@ -1,7 +1,7 @@
 ---
 - GuiCommand:/de
    Name:TechDraw  Dimension Landmark   Name/de:TechDraw Leitbemaßung
-   MenuLocation:TechDraw → Leitbemaßung
+   MenuLocation:TechDraw → Bemaßungen → Leitmaß einfügen
    Workbenches:[TechDraw](TechDraw_Workbench/de.md)
    Version:0.19
    SeeAlso:[TechDraw Horizontalbemaßung](TechDraw_Dimension_Horizontal/de.md), [TechDraw Vertikalbemaßung](TechDraw_Dimension_Vertical/de.md)

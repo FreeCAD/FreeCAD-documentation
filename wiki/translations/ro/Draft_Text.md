@@ -1,5 +1,12 @@
 ---
-- GuiCommand:/ro   Name:Draft Text   Name/ro:Draft Text   Workbenches:[Arch](Draft_Module/ro___Draft]],_[[Arch_Module/ro.md)|MenuLocation:Draft → Text   Shortcut:T E---
+- GuiCommand:/ro
+   Name:Draft Text
+   Name/ro:Draft Text
+   Workbenches:[Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
+   MenuLocation:Draft → Text
+   Shortcut:**T** **E**
+   SeeAlso:[Draft Label](Draft_Label.md), [Draft ShapeString](Draft_ShapeString.md)
+---
 
 
 </div>

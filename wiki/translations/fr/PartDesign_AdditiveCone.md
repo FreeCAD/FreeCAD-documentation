@@ -17,7 +17,7 @@ Insere un Cône primitif dans un corps actif comme première fonction, ou le fus
 ## Utilisation
 
 1.  Pressez le bouton **<img src="images/PartDesign_AdditiveCone.svg" width=24px> '''Cône additif'''**. **Remarque**: le Cône additif fait partie du menu d\'icônes appelé *Créer une primitive additive*. Après le lancement de FreeCAD, le cube additif est affiché par défaut dans la barre d\'outils. Pour obtenir le Cône additif, cliquer sur la flèche vers le bas et choisissez <img alt="" src=images/PartDesign_AdditiveCone.png  style="width:24px;"> Cône additif dans le menu.
-2.  Définissez les paramètres de la primitive (pour un cône complet, mettez un des rayons à zéro) et de l\'[Part ancrage](Part_Attachment/fr.md).
+2.  Définissez les paramètres de la primitive (pour un cône complet, mettez un des rayons à zéro) et de l\'[Part ancrage](Part_EditAttachment/fr.md).
 3.  Cliquez sur **OK**.
 4.  Un cône apparaît dans le corps actif.
 
@@ -30,7 +30,7 @@ Le Cône peut être éditée après sa création de deux façons:
 
 ## Propriétés
 
--    {{PropertyData/fr|Attachment}}: définit les modes d\'ancrage ainsi que le décalage d\'ancrage. Voir [Part Ancrage](Part_Attachment/fr.md).
+-    {{PropertyData/fr|Attachment}}: définit les modes d\'ancrage ainsi que le décalage d\'ancrage. Voir [Part Ancrage](Part_EditAttachment/fr.md).
 
 -    {{PropertyData/fr|Label}}: donne le nom du cône, changer si nécessaire.
 

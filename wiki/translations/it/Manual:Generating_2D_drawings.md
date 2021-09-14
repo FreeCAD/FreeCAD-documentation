@@ -1,3 +1,5 @@
+# Manual:Generating 2D drawings/it
+
 
 
 
@@ -31,7 +33,7 @@ Esempi tipici sono [architectural drawings](https://en.wikipedia.org/wiki/Archit
 
 <div class="mw-translate-fuzzy">
 
-In FreeCAD, l\'ambiente di lavoro responsabile della produzione di tali disegni è [Drawing](Drawing_Module/it.md).
+In FreeCAD, l\'ambiente di lavoro responsabile della produzione di tali disegni è [TechDraw](TechDraw_Workbench/it.md).
 
 
 </div>
@@ -75,7 +77,7 @@ Nel seguente esercizio, vedremo come creare un semplice disegno di un modello di
 
 <div class="mw-translate-fuzzy">
 
--   Passare nell\'ambiente [Drawing](Drawing_Module/it.md)
+-   Passare nell\'ambiente [Drawing](Drawing_Workbench/it.md)
 -   Premere il pulsante a forma di piccola freccia accanto a <img alt="" src=images/Drawing_Landscape_A3.png  style="width:16px;"> [Nuovo disegno](Drawing_Landscape_A3/it.md).
 -   Selezionare il modello **A4 Portrait / ISO7200**. Nella finestra FreeCAD si apre una nuova scheda, che mostra la nuova pagina.
 -   Nella vista ad albero (o nella scheda modello), selezionare il modello di sedia.
@@ -118,7 +120,7 @@ Nel seguente esercizio, vedremo come creare un semplice disegno di un modello di
 
 <div class="mw-translate-fuzzy">
 
-Ora posizioniamo le quote e le indicazioni sul disegno. Ci sono due modi per aggiungere le dimensioni ad un modello, uno consiste nel mettere le dimensioni all\'interno del modello 3D, utilizzando lo strumento <img alt="" src=images/Draft_Dimension.png  style="width:16px;"> [Dimensione](Draft_Dimension/it.md) dell\'ambiente [Draft](Draft_Module/it.md), e poi posizionare una vista di queste dimensioni nel foglio con lo strumento <img alt="" src=images/Drawing_DraftView.png  style="width:16px;"> [Vista Draft](Drawing_DraftView/it.md) (che può essere utilizzato su una sola dimensione o su un intero gruppo contenente le dimensioni), oppure si può fare la stessa cosa direttamente sul foglio di disegno, utilizzando l\'ambiente [Drawing Dimensioning](https://github.com/hamish2014/FreeCAD_drawing_dimensioning), che è installabile da [FreeCAD addons](https://github.com/FreeCAD/FreeCAD-addons). Qui useremo quest\'ultimo metodo.
+Ora posizioniamo le quote e le indicazioni sul disegno. Ci sono due modi per aggiungere le dimensioni ad un modello, uno consiste nel mettere le dimensioni all\'interno del modello 3D, utilizzando lo strumento <img alt="" src=images/Draft_Dimension.png  style="width:16px;"> [Dimensione](Draft_Dimension/it.md) dell\'ambiente [Draft](Draft_Workbench/it.md), e poi posizionare una vista di queste dimensioni nel foglio con lo strumento <img alt="" src=images/Drawing_DraftView.png  style="width:16px;"> [Vista Draft](Drawing_DraftView/it.md) (che può essere utilizzato su una sola dimensione o su un intero gruppo contenente le dimensioni), oppure si può fare la stessa cosa direttamente sul foglio di disegno, utilizzando l\'ambiente [Drawing Dimensioning](https://github.com/hamish2014/FreeCAD_drawing_dimensioning), che è installabile da [FreeCAD addons](https://github.com/FreeCAD/FreeCAD-addons). Qui useremo quest\'ultimo metodo.
 
 
 </div>
@@ -184,7 +186,7 @@ La pagina può essere esportato in formato SVG per essere ulteriormente lavorata
 
 <div class="mw-translate-fuzzy">
 
--   [L\'ambiente Drawing](Drawing_Module/it.md)
+-   [L\'ambiente Drawing](Drawing_Workbench/it.md)
 -   [L\'ambiente Drawing Dimensioning](https://github.com/hamish2014/FreeCAD_drawing_dimensioning)
 -   [La libreria di FreeCAD](https://github.com/FreeCAD/FreeCAD-library)
 -   [Inkscape](http://www.inkscape.org)

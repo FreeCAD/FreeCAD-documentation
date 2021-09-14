@@ -1,23 +1,13 @@
-
-
-
-<div class="mw-translate-fuzzy">
+# Arch OBJ/fr
 
 
 
 
 
-</div>
 
 ## Description
 
-
-<div class="mw-translate-fuzzy">
-
-En plus de l\'exportateur standard FreeCAD **[.OBJ](http://fr.wikipedia.org/wiki/Objet_3D_(format_de_fichier))**, l\'[atelier Arch](Arch_Module/fr.md) dispose d\'une solution alternative d\'exportation qui exporte les faces coplanaires comme des faces OBJ entières, au lieu de trianguler les objets basés sur les [Shape](Shape/fr.md), comme le fait l\'exportateur standard.
-
-
-</div>
+En plus de l\'exportateur standard **[.OBJ](https://fr.wikipedia.org/wiki/Objet_3D_(format_de_fichier))** de FreeCAD, l\'[atelier Arch](Arch_Workbench/fr.md) dispose d\'une solution alternative d\'exportation qui exporte les faces coplanaires comme des faces OBJ entières, au lieu de trianguler les objets basés sur les [Shape](Shape/fr.md), comme le fait l\'exportateur standard.
 
 ## Exporter sans GUI 
 
@@ -58,15 +48,9 @@ mesh.write(Filename="new_example.obj", Material=face_colors, Format="obj")
 -   [Exporte un fichier STL ou OBJ](Export_to_STL_or_OBJ/fr.md)
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
  
 
-[Category:File Formats{{\#translation:}}](Category:File_Formats.md)
+[Category:File Formats](Category:File_Formats.md)

@@ -27,6 +27,8 @@ Desenează un octogon înscris geometric într-un cerc. Când pornește instrume
 
 </div>
 
+## Notes
+
 
 <div class="mw-translate-fuzzy">
 
@@ -41,4 +43,4 @@ Când este definită schița obiectului geometric cercul circumscris este vizibi
 
 {{Sketcher Tools navi
 
-}}  
+}} 

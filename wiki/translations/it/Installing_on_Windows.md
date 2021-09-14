@@ -1,18 +1,14 @@
+# Installing on Windows/it
 
 
-
-<div class="mw-translate-fuzzy">
 
 
 {{docnav/it
-|[Installazione](Installing/it.md)
-|[Installazione su Linux](Install_on_Linux/it.md)
+|[Funzionalità](Feature_list/it.md)
+|[Installare in Linux](Installing_on_Linux/it.md)
 }}
 
-
-</div>
-
-Potete installare FreeCAD su Windows è quello di scaricare uno degli installatori.
+Si può installare FreeCAD su Windows scaricando uno degli installer seguenti:
 
 
 {{DownloadWindowsStable}}
@@ -70,18 +66,11 @@ msiexec /i FreeCAD-2.5.msi TARGETDIR=R:\FreeCAD25
 
 Il livello di interfaccia visualizzabile dall\'installatore può essere impostato con le opzioni /q
 
-
-<div class="mw-translate-fuzzy">
-
 -   /qn - Senza interfaccia
 -   /qb - Interfaccia di base - visualizza solo una finestra di dialogo di avanzamento con il pulsante Annulla
 -   /qb! - Come /qb, ma nasconde il pulsante Annulla
 -   /qr - Interfaccia ridotta - visualizza tutte le finestre di dialogo che non richiedono interazione da parte dell\'utente (salta tutte le finestre modali)
 -   /qn+ - Come /qn, ma visualizza la finestra \"Completed\" alla fine
--   /qb+ - Come /qb, ma visualizza la finestra \"Completed\" alla fine
-
-
-</div>
 
 ### Directory di destinazione 
 
@@ -225,16 +214,10 @@ msiexec /i Y:\\software\\FreeCAD<version>.msi
 FreeCAD viene eseguito, ma è stato riferito che OpenGL non funziona, come succede con altri programmi che girano sotto [http://es.wikipedia.org/wiki/Wine Wine](http://es.wikipedia.org/wiki/Wine_Wine.md), quali ad esempio [Google SketchUp](http://es.wikipedia.org/wiki/Google_SketchUp.md).
 
 
-<div class="mw-translate-fuzzy">
-
-
 {{docnav/it
-|[Installazione](Installing/it.md)
-|[Installazione su Linux](Install_on_Linux/it.md)
+|[Funzionalità](Feature_list/it.md)
+|[Installare in Linux](Installing_on_Linux/it.md)
 }}
-
-
-</div>
 
 
 

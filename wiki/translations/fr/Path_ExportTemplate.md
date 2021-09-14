@@ -15,81 +15,37 @@ L\'onglet **Édition → Préférences... → Path → Job Preferences, Defaults
 
 ## Usage
 
-
-<div class="mw-translate-fuzzy">
-
-Créez un modèle
-
-1.  Depuis une tâche de configuration, appelez la commande <img alt="" src=images/Path_ExportTemplate.svg  style="width:16px;"> [Exporter le modèle](Path_ExportTemplate/fr.md) à partir du menu **Path** ou en cliquant avec le bouton droit de la souris sur le nœud tâche dans la [Vue Combinée](Combo_view/fr.md)
-2.  Sélectionnez les éléments à inclure dans la boîte de dialogue Configuration du **modèle exportation**.
-3.  Cliquez sur ***.json**. Lorsque le panneau de sélection s\'affiche, le préfixe **job\_** et l\'extension ne sont pas affichés. L\'accès à l\'atelier Path requiert la sauvegarde des modèles dans le répertoire Macro ou dans le répertoire Path, qui est configuré dans les [Path Préférences](Path_Preferences/fr.md).
-
-
-</div>
+1.  Sélectionnez l\'option **Path → <img src="images/Path_ExportTemplate.svg" width=16px> Export Template** dans le menu.
+2.  Sélectionnez les éléments à inclure dans la boîte de dialogue de configuration **Export Template**.
+3.  Le modèle doit être enregistré dans le répertoire Macro ou le répertoire Path, tel que configuré dans les [Path Préférences](Path_Preferences/fr.md).
+4.  Le nom du modèle doit suivre le modèle {{FileName|job_<template name>.json}}. Dans la liste déroulante de sélection, le préfixe {{FileName|job_}} et l\'extension sont omis.
+5.  Appuyez sur le bouton **OK** et enregistrez le modèle.
 
 ## Options
 
-## Post Processing 
+## Post-traitement 
 
-
-<div class="mw-translate-fuzzy">
-
-## Post Processeur 
-
--   Postprocessor sélection
--   Postprocessor arguments
+-   Sélection du post-processeur
+-   Paramètres du post-processeur
 -   Nom du fichier de sortie
 
-
-</div>
-
-## Stock
-
-
-<div class="mw-translate-fuzzy">
-
-## Brut (matière) 
+## Brut
 
 -   Extent: Dimensions du brut
 -   Placement: Position du brut
-
-
-</div>
-
-## Setup Sheet 
-
-
-<div class="mw-translate-fuzzy">
 
 ## Feuille de calcul conditions de démarrage 
 
 -   Profondeur d\'usinage
 -   Profondeurs de passe
--   Vitesses de déplacement rapide de l\'outil
-
-
-</div>
-
-## Tool controllers 
-
-
-<div class="mw-translate-fuzzy">
+-   Vitesses de déplacement de l\'outil
 
 ## Contrôleurs d\'outils 
 
 -   Contrôleurs d\'outils sélectionnés.
 
 
-</div>
 
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 {{Path_Tools_navi

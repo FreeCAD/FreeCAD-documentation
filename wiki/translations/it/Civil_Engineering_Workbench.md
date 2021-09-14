@@ -1,3 +1,5 @@
+# Civil Engineering Workbench/it
+
 
 
 ## Descrizione
@@ -31,4 +33,4 @@ Gli strumenti Armatura attualmente sono parte dell\'ambiente [Architettura](Arch
 
 
 
-[Category:Documentation{{\#translation:}}](Category:Documentation.md) [Category:User Documentation{{\#translation:}}](Category:User_Documentation.md) [Category:Addons{{\#translation:}}](Category:Addons.md)
+[Category:Documentation](Category:Documentation.md) [Category:User Documentation](Category:User_Documentation.md) [Category:Addons](Category:Addons.md)

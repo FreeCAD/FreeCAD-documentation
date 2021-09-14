@@ -1,10 +1,10 @@
 ---
 - GuiCommand:/tr
+   Name:Draft Snap Grid
    Name/tr:Taslak Izgara
    MenuLocation:Taslak → [Snapping](Draft_Snap/tr.md) → Izgara
-   Workbenches:[Taslak](Draft_Module/tr.md), [Mimari](Arch_Module/tr.md)
+   Workbenches:[Taslak](Draft_Workbench/tr.md), [Mimari](Arch_Workbench/tr.md)
    SeeAlso:[IzgaraYakala](Draft_ToggleGrid/tr.md), [Snap](Draft_Snap/tr.md)
-   Icon:Snap_Grid.svg
 ---
 
 

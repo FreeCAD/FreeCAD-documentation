@@ -1,3 +1,5 @@
+# Raytracing Workbench/es
+
  
 
 
@@ -145,11 +147,11 @@ These pages refer to a replacement workbench, programmed in C++, proposed around
 -   [Render project](Render_project.md)
 
 
-{{docnav/es|Robot_Workbench/es|Draft Module/es}}
+{{docnav/es|Robot_Workbench/es|Draft_Workbench/es}}
 
 
 {{Raytracing Tools navi
 
 }} 
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

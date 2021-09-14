@@ -1,3 +1,5 @@
+# Feature list/tr
+
  
 
 
@@ -16,9 +18,9 @@ FreeCAD\'in uyguladığı özelliklerin kapsamlı bir listesidir, dolayısıyla 
 
 <div class="mw-translate-fuzzy">
 
--   [Sürüm 0.11](Release_notes_011.md) - Mart 2011
--   [Sürüm 0.12](Release_notes_012.md) - Aralık 2011
--   [Sürüm 0.13](Release_notes_013.md) - Ocak 2013
+-   [Sürüm 0.11](Release_notes_0.11.md) - Mart 2011
+-   [Sürüm 0.12](Release_notes_0.12.md) - Aralık 2011
+-   [Sürüm 0.13](Release_notes_0.13.md) - Ocak 2013
 -   [Sürüm 0.14](Release_notes_0.14.md) - Mart 2014
 -   [Sürüm 0.15](Release_notes_0.15.md) - Mart 2015
 -   [Sürüm 0.16](Release_notes_0.16.md) - Nisan 2016
@@ -289,4 +291,4 @@ Uzman kullanıcılar, çeşitli özel [dış tezgahlar](external_workbenches.md)
 
 
 
-[Category:User Documentation{{\#translation:}}](Category:User_Documentation.md)
+[Category:User Documentation](Category:User_Documentation.md)

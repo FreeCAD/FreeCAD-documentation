@@ -1,5 +1,12 @@
 ---
-- GuiCommand:/ro   Name:Draft Circle   Name/ro:Cerc   Workbenches:[Arch](Draft_Module/ro___Draft]],_[[Arch_Module/ro.md)|MenuLocation:Draft → Circle   Shortcut:C I   SeeAlso:[Draft Arc](Draft_Arc/ro.md)---
+- GuiCommand:/ro
+   Name:Draft Circle
+   Name/ro:Cerc
+   MenuLocation:Draft → Circle
+   Workbenches:[Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
+   Shortcut:**C** **I**
+   SeeAlso:[Draft Arc](Draft_Arc/ro.md)
+---
 
 
 </div>

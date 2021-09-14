@@ -1,3 +1,5 @@
+# Macro Shake Sketch
+
   {{Macro
 |Name=Macro Shake Sketch
 |Icon=Macro_Shake_Sketch.png
@@ -17,9 +19,7 @@ Shake a sketch in order to discover its unconstrained parts. Enter edit mode for
 
 ## Script
 
-
-
-ToolBar Icon ![](images/Macro_Shake_Sketch.png )
+ToolBar Icon  ![](images/Macro_Shake_Sketch.png )
 
 **Macro Shake\_Sketch.py**
 

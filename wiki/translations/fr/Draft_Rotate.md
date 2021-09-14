@@ -51,7 +51,7 @@ Le raccourci clavier à caractère unique et les touches de modification mention
 
 ## Remarques
 
--   Un objet qui est [accroché](Part_Attachment/fr.md) ne peut pas être pivoté avec la commande Draft Rotation. Pour le faire pivoter, il faut soit faire pivoter sa {{PropertyData/fr|Support}}, soit modifier sa {{PropertyData/fr|Attachment Offset}}.
+-   Un objet [accroché](Part_EditAttachment/fr.md) ne peut pas être pivoté avec la commande Draft Rotation. Pour le faire pivoter, il faut soit faire pivoter sa {{PropertyData/fr|Support}}, soit modifier sa {{PropertyData/fr|Attachment Offset}}.
 
 ## Préférences
 

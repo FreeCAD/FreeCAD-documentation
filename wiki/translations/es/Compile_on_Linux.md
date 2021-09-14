@@ -1,3 +1,5 @@
+# Compile on Linux/es
+
 
 
 
@@ -653,7 +655,7 @@ FreeCAD requiere una versión del compilador GNU g++ igual o superior a la 3.0.0
 
 <div class="mw-translate-fuzzy">
 
-[Pivy](Pivy/es.md) (envoltorios de Python para Coin3d) no es necesario para construir FreeCAD o para iniciarlo, pero es necesario como una dependencia en tiempo de ejecución por el [Ambiente de Trabajo Borrador](Draft_Module/es.md). Si no vas a utilizar este ambiente de trabajo, no necesitarás Pivy. Sin embargo, ten en cuenta que el Ambiente de Trabajo Borrador es utilizado internamente por otros ambientes de trabajo, como [Arquitectura](Arch_Workbench/es.md) y [BIM](BIM_Workbench/es.md), por lo que Pivy necesita ser instalado para utilizar estos ambientes de trabajo también.
+[Pivy](Pivy/es.md) (envoltorios de Python para Coin3d) no es necesario para construir FreeCAD o para iniciarlo, pero es necesario como una dependencia en tiempo de ejecución por el [Ambiente de Trabajo Borrador](Draft_Workbench/es.md). Si no vas a utilizar este ambiente de trabajo, no necesitarás Pivy. Sin embargo, ten en cuenta que el Ambiente de Trabajo Borrador es utilizado internamente por otros ambientes de trabajo, como [Arquitectura](Arch_Workbench/es.md) y [BIM](BIM_Workbench/es.md), por lo que Pivy necesita ser instalado para utilizar estos ambientes de trabajo también.
 
 
 </div>
@@ -1231,4 +1233,4 @@ Para actualizar FreeCAD a la última compilación simplemente repite el paso 3.A
 
 
 
-[Category:Developer\_Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Developer{{\#translation:}}](Category:Developer.md)
+[Category:Developer\_Documentation](Category:Developer_Documentation.md) [Category:Developer](Category:Developer.md)

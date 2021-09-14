@@ -1,26 +1,27 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Plot Positions
-   MenuLocation:Plot → Set positions and sizes
-   Workbenches:[Plot](Plot_Module.md)
+   Name/pl:Wykres: Ustaw pozycje i rozmiary
+   MenuLocation:Wykres → Ustaw pozycje i rozmiary
+   Workbenches:[Wykres](Plot_Module/pl.md)
 ---
 
-## Description
+## Opis
 
-This tool allows the user to edit the position of some items like titles, axes labels and legend.
+Narzędzie to pozwala na edycję położenia niektórych elementów, takich jak tytuły, etykiety osi i legendy.
 
 <img alt="" src=images/Plot_MultiAxes_Example.png  style="width:600px;">
 
-## Usage
+## Użycie
 
-Select the plot tab that you want to edit, and run this tool. Then you can select the item you want to edit in the selector
+Wybierz kartę wykresu, który chcesz edytować, i uruchom to narzędzie. Następnie w selektorze możesz wybrać element, który chcesz edytować.
 
-![Items position selector](images/Plot_Position_Item_Selector.png ) *Selector for the item to de edited*
+![Items position selector](images/Plot_Position_Item_Selector.png ) *Pole wyboru elementu do edycji*
 
-## Options
+## Opcje
 
--   **Position**: x and y coordinates of the item. The axes labels can only moved along its own axis
--   **Font size**: The font size considered for the item.
+-   **Pozycja**: współrzędne x i y elementu. Etykiety osi mogą być przesuwane tylko wzdłuż własnej osi.
+-   **Rozmiar czcionki**: Rozmiar czcionki uwzględniony dla danego elementu.
 
 
 
@@ -30,4 +31,4 @@ Select the plot tab that you want to edit, and run this tool. Then you can selec
 
 }} 
 
-[Category:External\_Workbenches{{\#translation:}}](Category:External_Workbenches.md) [Category:Addons{{\#translation:}}](Category:Addons.md)
+[Category:External\_Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)

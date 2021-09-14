@@ -1,3 +1,5 @@
+# Macro hinge/en
+
  {{Macro
 |Name=Simulates hinge movement
 |Icon=Macro hinge.png

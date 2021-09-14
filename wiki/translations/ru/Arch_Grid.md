@@ -3,7 +3,7 @@
    Name:Arch Grid
    Name/ru:Arch Grid
    MenuLocation:Arch → Axis tools → Grid
-   Workbenches:[Arch](Arch_Module/ru.md)
+   Workbenches:[Arch](Arch_Workbench/ru.md)
    SeeAlso:[[Arch Axis/ru]], [[Arch AxisSystem/ru]]
 ---
 
@@ -19,13 +19,7 @@ The Grid is a 2D object, and can therefore be used anywhere a 2D shape such as a
 <img alt="" src=images/Arch_Grid_example.jpg  style="width:600px;"> 
 *An array of columns, a railing system, and a window, each based on an [Arch Grid](Arch_Grid.md) object.*
 
-
-<div class="mw-translate-fuzzy">
-
-## Использование
-
-
-</div>
+## Применение
 
 1.  Press the **<img src="images/Arch_Grid.svg" width=16px> [Arch Grid](Arch_Grid.md)** button.
 2.  Set the **Width** and **Height** of the grid in the properties.
@@ -64,12 +58,12 @@ The Grid is a 2D object, and can therefore be used anywhere a 2D shape such as a
 
 -    **Hidden Faces**: The indices of faces to hide
 
-## Scripting
+## Программирование
 
 
-**See also:**
+**См. так же:**
 
-[Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+[Arch API](Arch_API/ru.md) и [Основы составления скриптов FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 
 The Grid tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function: 
 ```python

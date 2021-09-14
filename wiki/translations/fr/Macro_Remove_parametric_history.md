@@ -1,3 +1,5 @@
+# Macro Remove parametric history/fr
+
  {{Macro/fr
 |Name=Remove parametric history
 |Icon=Macro_Remove_parametric_history.png

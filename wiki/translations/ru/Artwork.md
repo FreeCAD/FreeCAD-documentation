@@ -1,4 +1,6 @@
-\_\_NOTOC\_\_  Здесь представлены художественные работы созданные для FreeCAD. Не стесняйтесь повторно использовать их в других приложениях. Если вы хотите внести свой вклад с помощью иконок, пожалуйста, прочитайте [руководство по художественному оформлению](Artwork_Guidelines/ru.md).
+# Artwork/ru
+
+  Здесь представлены художественные работы созданные для FreeCAD. Не стесняйтесь повторно использовать их в других приложениях. Если вы хотите внести свой вклад с помощью иконок, пожалуйста, прочитайте [руководство по художественному оформлению](Artwork_Guidelines/ru.md).
 
 ## Различные иконки (пиктограммы) 
 
@@ -155,4 +157,4 @@
 
 }}
 
-[Category:Icon{{\#translation:}}](Category:Icon.md) [Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md)
+[Category:Icon](Category:Icon.md) [Category:Developer Documentation](Category:Developer_Documentation.md)

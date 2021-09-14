@@ -1,3 +1,5 @@
+# Macro FCCamGroover/fr
+
  {{Macro/fr
 |Name=FCCamGroover
 |Icon=Cam-groover-icon-32x32.png

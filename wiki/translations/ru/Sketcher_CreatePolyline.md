@@ -1,10 +1,10 @@
 ---
 - GuiCommand:/ru
-   Name:Sketcher CreatePolyline
-   Name/ru:Sketcher Полилиния
-   MenuLocation:Эскиз → Геометрия эскиза → Создать полилинию
+   Name/ru:Создать полилинию
+   Name:Sketcher_CreatePolyline
+   MenuLocation:Sketch → Геометрия эскиза → Создать полилинию
    Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
-   SeeAlso:[Sketcher Line](Sketcher_CreateLine/ru.md)
+   SeeAlso:[Создать линию](Sketcher_CreateLine/ru.md)
 ---
 
 ## Описание
@@ -21,7 +21,7 @@
 
 </div>
 
-## Использование
+## Применение
 
 Полилиния всегда начинается с отрезка прямой линии: нажмите - переместите мышь - нажмите. Переместите мышь снова. После размещения первого сегмента линии инструмент Sketcher-а полилиния имеет несколько режимов, которые можно переключать с помощью клавиши **M**. Например, вы можете нарисовать касательные или перпендикулярные дуги, следующие за линией или сегментом дуги. Повторное нажатие клавиши **M** переключает следующие режимы:
 
@@ -44,13 +44,7 @@
 </div>
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Sketcher Tools navi

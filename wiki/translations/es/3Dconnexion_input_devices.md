@@ -1,3 +1,5 @@
+# 3Dconnexion input devices/es
+
  <img alt="3Dconnexion SpaceNavigator" src=images/SpaceNavigator.jpg  style="width:200px;"> {{TOCright}}
 
 ## Instalación de controladores 
@@ -279,4 +281,4 @@ Para conectar un determinado comando con un botón, selecciona el botón en la i
 
 </div>
 
-[Category:User Documentation{{\#translation:}}](Category:User_Documentation.md) [Category:3rd Party{{\#translation:}}](Category:3rd_Party.md)
+[Category:User Documentation](Category:User_Documentation.md) [Category:3rd Party](Category:3rd_Party.md)

@@ -1,3 +1,5 @@
+# Developer hub/fr
+
 
 
 ![150](images/Crystal_Clear_app_tutorials.png )
@@ -124,4 +126,4 @@ FreeCAD, bien qu\'utilisable dans certains domaines, n\'est qu\'au début d\'un 
 
 
 
-[Category:Hubs{{\#translation:}}](Category:Hubs.md) [Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md)
+[Category:Hubs](Category:Hubs.md) [Category:Developer Documentation](Category:Developer_Documentation.md)

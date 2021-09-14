@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr   Name:Drawing SpreadsheetView   Name/fr:Drawing SpreadsheetView   Workbenches:[[Drawing Module/fr   Drawing]]|MenuLocation:Drawing → Spreadsheet View---
+- GuiCommand:/fr   Name:Drawing SpreadsheetView   Name/fr:Drawing SpreadsheetView   Workbenches:[[Drawing_Workbench/fr   Drawing]]|MenuLocation:Drawing → Spreadsheet View---
 
 
 </div>
@@ -42,7 +42,7 @@ Cet outil vous permet de placer une vue d\'une [feuille de calcul](Spreadsheet_W
 {{docnav/fr
 |[Symbole Drawing](Drawing_Symbol/fr.md)
 |[Sauvegarde/Exportation Drawing](Drawing_Save/fr.md)
-|[Module Drawing](Drawing_Module/fr.md)
+|[Module Drawing](Drawing_Workbench/fr.md)
 |IconL=Drawing_Symbol.png
 |IconC=Workbench_Drawing.svg
 |IconR=Drawing_Save.png

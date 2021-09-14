@@ -1,13 +1,9 @@
+# LuxCoreRender/fr
 
 
 
-<div class="mw-translate-fuzzy">
 
-
-{{VeryImportantMessage|LuxCoreRender n'est pas officiellement pris en charge par l'[atelier Raytracing](Raytracing_Workbench.md) mais par le nouvel [https://github.com/FreeCAD/FreeCAD-render atelier Render], qui est destiné à le remplacer. Il ne doit pas être confondu avec le [Projet Render](Render_project/fr.md), arrêté et dépassé. L'atelier Render peut être installé via le [Gestionnaire d'Addon](Std_AddonMgr/fr.md).}}
-
-
-</div>
+{{VeryImportantMessage|LuxCoreRender n'est pas officiellement pris en charge par l'[atelier Raytracing](Raytracing_Workbench/fr.md) mais par le nouvel [https://github.com/FreeCAD/FreeCAD-render atelier Render], qui est destiné à le remplacer. Il ne doit pas être confondu avec le [Projet Render](Render_project/fr.md), arrêté et dépassé. L'atelier Render peut être installé via le [Gestionnaire d'Addon](Std_AddonMgr/fr.md).}}
 
 
 <div class="mw-translate-fuzzy">

@@ -1,4 +1,6 @@
-\_\_NOTOC\_\_ 
+# Main Page/hr
+
+ 
 
 
 <div class="mw-translate-fuzzy">
@@ -91,4 +93,4 @@ Provjerite [Development roadmap](Development_roadmap.md) za vijesti o onom što 
 
 
 
-[Category:Documentation{{\#translation:}}](Category:Documentation.md)
+[Category:Documentation](Category:Documentation.md)

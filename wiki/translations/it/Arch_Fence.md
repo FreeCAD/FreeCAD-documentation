@@ -1,5 +1,11 @@
 ---
-- GuiCommand:/it   Name:Arch Fence   Name/it:Recinzione   Workbenches:[[Arch Module/it   Arch]]|MenuLocation:Arch → Recinzione   Version:0.19---
+- GuiCommand:/it
+   Name:Arch Fence
+   Name/it:Recinzione
+   MenuLocation:Arch → Recinzione
+   Workbenches:[Arch](Arch_Workbench/it.md)
+   Version:0.19
+---
 
 
 </div>
@@ -41,6 +47,11 @@ Per ora lo strumento assume quanto segue.
 
 ## Proprietà
 
+### Data
+
+
+<div class="mw-translate-fuzzy">
+
 ### Dati
 
 -    **Path**: il percorso che la recinzione deve seguire
@@ -53,9 +64,20 @@ Per ora lo strumento assume quanto segue.
 
 -    **Number Of Sections**: il numero totale di campate utilizzate per costruire la recinzione. Questo è calcolato automaticamente.
 
+
+</div>
+
+### View
+
+
+<div class="mw-translate-fuzzy">
+
 ### Vista
 
 -    **Use Original Colors**: Quando impostata su `True` la recinzione utilizza i colori della sezione e del piantone originale. Altrimenti utilizza il ShapeColor della recinzione.
+
+
+</div>
 
 ## Notes
 
@@ -77,7 +99,13 @@ Lo strumento Recinzione può essere utilizzato nelle [macro](macros/it.md) e dal
 Fence = buildFence(section, post, path)
 ```
 
+
+<div class="mw-translate-fuzzy">
+
 Esempio.
+
+
+</div>
 
 
 ```python

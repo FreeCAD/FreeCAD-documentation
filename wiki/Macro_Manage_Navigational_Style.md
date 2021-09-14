@@ -1,3 +1,5 @@
+# Macro Manage Navigational Style
+
   {{Macro
 |Name=Macro Manage Navigational Styles
 |Icon=Macro_Manage_Navigational_Styles1.png

@@ -1,19 +1,3 @@
----
-- GuiCommand:   Name:FEM EquationFluxsolver   MenuLocation: Solve → Equation fluxsolver   |Workbenches:[Shortcut:   SeeAlso:[[FEM_tutorial|FEM tutorial](FEM_Workbench___FEM]].md)---
+# FEM EquationFluxsolver/ro
 
-
-</div>
-
-## Description
-
-De completat
-
-## Usage
-
-
-
-
-
-{{FEM Tools navi
-
-}}  
+1.  REDIRECT [FEM\_EquationFlux/ro](FEM_EquationFlux/ro.md)

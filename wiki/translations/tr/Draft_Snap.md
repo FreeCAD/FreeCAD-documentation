@@ -1,3 +1,5 @@
+# Draft Snap/tr
+
 
 
 
@@ -11,7 +13,7 @@
 
 <div class="mw-translate-fuzzy">
 
-[Taslak tezgahı](Draft_Module/tr.md) araçları, imleçle 3D görünümü tıklatarak noktaları, mesafeleri, yarıçapları ve açıları grafiksel olarak seçmenize olanak sağlar.
+[Taslak tezgahı](Draft_Workbench/tr.md) araçları, imleçle 3D görünümü tıklatarak noktaları, mesafeleri, yarıçapları ve açıları grafiksel olarak seçmenize olanak sağlar.
 
 
 </div>
@@ -19,7 +21,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Yakalama çoğu [ Taslak tezgahı](Draft_Module/tr.md) ve [ Mimari Tezgah](Arch_Module/tr.md) araçlarıyla kullanılabilir ve {{Button | <img src="images/_Snap_Lock.svg_" width= 16px> [Yakalama aç/kapa](Draft_ToggleSnap/tr.md)}} düğmesi, yakalama araç çubuğunda bulunur ve bu düğmeye tıklayarak global olarak etkinleştirilebilir veya devre dışı bırakılabilir. {{MenuCommand | Görünüm → Araç Çubukları → Taslak Yakalama}} menüsü ile aktif hale getirilebilir. Her bir yakalama yöntemi, araç çubuğundaki ilgili düğmeye tıklayarak ayrı ayrı etkinleştirilebilir veya devre dışı bırakılabilir.
+Yakalama çoğu [ Taslak tezgahı](Draft_Workbench/tr.md) ve [ Mimari Tezgah](Arch_Workbench/tr.md) araçlarıyla kullanılabilir ve {{Button | <img src="images/_Snap_Lock.svg_" width= 16px> [Yakalama aç/kapa](Draft_ToggleSnap/tr.md)}} düğmesi, yakalama araç çubuğunda bulunur ve bu düğmeye tıklayarak global olarak etkinleştirilebilir veya devre dışı bırakılabilir. {{MenuCommand | Görünüm → Araç Çubukları → Taslak Yakalama}} menüsü ile aktif hale getirilebilir. Her bir yakalama yöntemi, araç çubuğundaki ilgili düğmeye tıklayarak ayrı ayrı etkinleştirilebilir veya devre dışı bırakılabilir.
 
 
 </div>

@@ -1,4 +1,6 @@
- {{UnfinishedDocu}}
+# Manipulator/it
+
+ }
 
 
 <div class="mw-translate-fuzzy">
@@ -17,4 +19,4 @@ Un **manipolatore** può essere usato per modificare l\'aspetto, la forma o altr
 
 
 
-[Category:Glossary{{\#translation:}}](Category:Glossary.md)
+[Category:Glossary](Category:Glossary.md)

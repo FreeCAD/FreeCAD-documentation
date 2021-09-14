@@ -1,15 +1,12 @@
 ---
 - GuiCommand:/ru
-   Name:Sketcher ConstrainCoincident
    Name/ru:Ограничение коинциндентности
+   Name:Sketcher_ConstrainCoincident
    MenuLocation:Sketch → Ограничения эскиза → Ограничение коинциндентности
    Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
    Shortcut:**C**
    SeeAlso:[Ограничение положения](Sketcher_ConstrainLock/ru.md), [Зафиксировать точку на объекте](Sketcher_ConstrainPointOnObject/ru.md)
 ---
-
-
-</div>
 
 ## Описание
 
@@ -19,7 +16,7 @@ This constraint tool takes two points as its argument and serves to make the two
 
 In practical terms this constraint tool is useful when there is a break in a profile for example - where two lines end near each other and need to be joined - a coincident constraint on their end-points will close the gap.
 
-## Использование
+## Применение
 
 As stated above, this tool takes two arguments - both are points.
 
@@ -54,7 +51,7 @@ The two constrained items of a [Coincident](Sketcher_ConstrainCoincident.md) con
 -   Two edges can be made identical by using two <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width:24px;"> [Coincident](Sketcher_ConstrainCoincident.md) constraints, one for each pair of extremities.
 -   Two circles can be made identical by using a <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width:24px;"> [Coincident](Sketcher_ConstrainCoincident.md) constraint to merge the centers, and applying an <img alt="" src=images/Sketcher_ConstrainEqual.svg  style="width:24px;"> [Equal](Sketcher_ConstrainEqual.md) constraint to their edges. For arcs, this will ensure both arcs are part of the same circle, while allowing them to have different start and end points.
 
-## Scripting
+## Программирование
 
 The constraint can be created from [macros](Macros.md) and from the [Python](Python.md) console by using the following command:
 

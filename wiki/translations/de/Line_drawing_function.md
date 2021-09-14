@@ -1,3 +1,5 @@
+# Line drawing function/de
+
 
 
 
@@ -267,4 +269,4 @@ Wenn Dir diese Übung gefallen hat, warum versuchst Du nicht, dieses kleine Werk
 
 Zögere nicht, deine Fragen oder Ideen im [Forum](http://forum.freecadweb.org/) zu teilen! {{Top}} {{Powerdocnavi}} 
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Python Code{{\#translation:}}](Category:Python_Code.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)

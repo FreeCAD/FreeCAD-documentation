@@ -3,13 +3,10 @@
    Name:Arch Structure
    Name/fr:Arch Structure
    MenuLocation:Arch → Structure
-   Workbenches:[Arch](Arch_Module/fr.md)
+   Workbenches:[Arch](Arch_Workbench/fr.md)
    Shortcut:**S** **T**
    SeeAlso:[Arch Mur](Arch_Wall/fr.md), [Arch Armature personnalisée](Arch_Rebar/fr.md)
 ---
-
-
-</div>
 
 ## Description
 
@@ -122,16 +119,7 @@ FreeCAD.ActiveDocument.recompute()
 Structure2 = Arch.makeStructure(None, length=500, width=1000, height=3000)
 Draft.move(Structure2, FreeCAD.Vector(2000, 0, 0))
 FreeCAD.ActiveDocument.recompute()
-```
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
+``` 
 
 
 

@@ -1,4 +1,6 @@
- {{UnfinishedDocu}}
+# Manual:BIM modeling/de
+
+ }
 
 
 
@@ -8,23 +10,11 @@
 
 BIM steht für [Bauwerksdatenmodellierung](https://de.wikipedia.org/wiki/Building_Information_Modeling). Die exakte Definition, was damit gemeint ist, variiert, aber vereinfacht gesagt handelt es sich darum, wie Gebäude und andere große Strukturen wie Brücken, Tunnel, etc. heutzutage modelliert werden. BIM-Modelle basieren normalerweise auf 3D-Modellen und enthalten auch eine Reihe von zusätzlichen Informationsschichten, wie Materialinformationen, Beziehungen zu anderen Objekten oder Modellen oder speziellen Anweisungen für Gebäude oder Wartung. Diese zusätzlichen Informationen erlauben alle Arten von erweiterten Analysen des Modells, wie struktureller Widerstand (structural resistance), Kosten und geschätzte Bauzeit oder Berechnungen des Energieverbrauchs.
 
-
-<div class="mw-translate-fuzzy">
-
-Der FreeCAD [Arch-Arbeitsbereich](Arch_Module/de.md) enthält eine Reihe von Werkzeugen und Möglichkeiten für die BIM-Modellierung. Obwohl es einem anderen Zweck dient, arbeitet es in enger Integration mit dem Rest von FreeCAD: Alles, was mit einem anderen Arbeitsbereich erstellt wurde, kann zu einem Arch-Objekt oder Grundlage für ein Arch-Objekt werden.
-
-
-</div>
+Der [Architektur Arbeitsbereich](Arch_Workbench/de.md) von FreeCAD enthält eine Reihe von Werkzeugen und Einrichtungen für die BIM Modellierung. Obwohl es einem anderen Zweck dient, arbeitet es in enger Integration mit dem Rest von FreeCAD: Alles, was mit einem anderen Arbeitsbereich erstellt wurde, kann zu einem Architektur Objekt oder Grundlage für ein Architektur Objekt werden.
 
 Wie im [PartDesign-Arbeitsbereich](PartDesign_Workbench/de.md) sind mit dem Arch-Arbeitsbereich erstellte Objekte für die reale Welt gedacht. Daher müssen sie **solide** (solid) sein. Die Arch-Werkzeuge achten normalerweise automatisch darauf und bieten auch Hilfswerkzeuge zur Prüfung der Gültigkeit von Objekten.
 
-
-<div class="mw-translate-fuzzy">
-
-Der Arch-Arbeitsbereich enthält auch alle Werkzeuge des [Draft-Arbeitsbereichs](Draft_Module/de.md) und verwendet das Raster und das Einrastsystem. Bevor wir anfangen, sollten wir vorher die Einstellungen von Arch und Draft ansehen und die Standardvorgaben an unsere Wünsche anpassen.
-
-
-</div>
+Der Architektur Arbeitsbereich schließt auch alle Werkzeuge des [Entwurf Arbeitsbereichs](Draft_Workbench/de.md) ein und verwendet sein Gitter und Fangsystem. Vor dem Anfangen, ist es immer eine gute Idee, die Einstellungsseiten von Entwurf und Architektur zu durchstöbern und die Standardeinstellungen nach Ihren Wünschen festzulegen.
 
 In diesem Kapitel werden wir sehen, wie dieses kleine Gebäude modelliert wird:
 
@@ -34,10 +24,7 @@ und einen Plan und eine Schnittansicht davon erstellen:
 
 ![](images/Exercise_arch_02.jpg )
 
-
-<div class="mw-translate-fuzzy">
-
--   Erstelle ein neues Dokument und wechsle zum [Architektur Arbeitsbereich](Arch_Module/de.md).
+-   Erstelle ein neues Dokument und wechsle zum [Architektur Arbeitsbereich](Arch_Workbench/de.md).
 -   Öffne das Menü **Bearbeiten → Einstellungen → Entwurf → Gitter und Fang** und setze:
     -   **Hauptlinien alle** `10`.
     -   **Gitterabstand** `1000mm`, um ein auf einem Meter basierendes Raster zu haben, das für die Größe unseres Gebäudes geeignet ist.
@@ -53,9 +40,6 @@ und einen Plan und eine Schnittansicht davon erstellen:
     -   Vom Punkt (4,0) zum Punkt (0,0)
 
 HINWEIS: Aufgrund eines Fehlers in Version 0.18 müssen Sie sicherstellen, dass Sie die Linien in dieser Reihenfolge und in dieser Richtung ausführen.
-
-
-</div>
 
 ![](images/Exercise_arch_03.jpg )
 
@@ -192,14 +176,11 @@ Wir werden nun einen Satz von Ansichten unseres Modells vorbereiten, die auf ein
 ![](images/Exercise_arch_21.jpg )
 
 
-<div class="mw-translate-fuzzy">
+{{VeryImportantMessage|Die Entwicklung des [Zeichnung Arbeitsbereich](Drawing_Workbench/de.md)es wurde in FreeCAD 0.16 beendet, als Ersatz wurde in Version 0.17 der [TechDraw Arbeitsbereich](TechDraw_Workbench/de.md) eingeführt. Der Drawing Arbeitsbereich könnte in zukünftigen FreeCAD Versionen entfallen. Benutze statt dessen den TechDraw Arbeitsbereich.}}
 
-
-{{VeryImportantMessage|Die Weiterentwicklung des [Drawing Arbeitsbereiches](Drawing_Workbench/de.md) wurde in FreeCAD 0.16 beendet, als Ersatz wurde in Version 0.17 der [TechDraw Arbeitsbereich](TechDraw_Workbench/de.md) eingeführt. Der Drawing Arbeitsbereich könnte in zukünftigen FreeCAD-Versionen entfallen. Benutze statt dessen den TechDraw Arbeitsbereich.}}
-
--   Jetzt haben wir alles Nötige und können unsere Zeichnungsseite erstellen. Wechsle zum [Drawing-Arbeitsbereich](Drawing_Workbench/de.md) und erzeuge eine neue <img alt="" src=images/Drawing_Landscape_A3.png  style="width:16px;"> [DIN A3-Seite](Drawing_Landscape_A3.md) (oder wähle eine andere Vorlage, falls gewünscht).
--   Wähle die erste Schnittebene, die für den Lageplan benutzt wird
--   Drücken den <img alt="" src=images/Drawing_DraftView.png  style="width:16px;"> [DraftView](Drawing_DraftView.md)-Button. Dieses Werkzeug bietet eine Reihe von zusätzlichen Möglichkeiten gegenüber dem Standard-[Entwurfsansicht](Drawing_View/de.md)-Werkzeug und unterstützt die Schnittebenen des Arch-Arbeitsbereichs.
+-   Jetzt haben wir alles notwendige und wir können unsere Zeichnungsseite erstellen. Beginne mit dem Wechsel zum [Arbeitsbereich Zeichnung](Drawing_Workbench/de.md) und erzeuge eine neue Standard<img alt="" src=images/Drawing_Landscape_A3.png  style="width:16px;"> [DIN A3 Seite](Drawing_Landscape_A3/de.md) (oder wähle eine andere Vorlage, wenn du möchtest).
+-   Wähle die erste Abschnittsebene, die für den Lageplan benutzt wird
+-   Drücke die <img alt="" src=images/Drawing_DraftView.png  style="width:16px;"> [DraftView](Drawing_DraftView.md) Taste. Dieses Werkzeug bietet eine Reihe von zusätzlichen Möglichkeiten gegenüber dem Standard [Entwurf Ansicht](Drawing_View/de.md) Werkzeug und unterstützt die Abschnittsebenen des Architektur Arbeitsbereichs.
 -   Gib der neuen Ansicht folgende Eigenschaften:
     -   X: 50
     -   Y: 140
@@ -207,14 +188,11 @@ Wir werden nun einen Satz von Ansichten unseres Modells vorbereiten, die auf ein
     -   Line width: 0.15
     -   Show Cut True
     -   Show Fill: True
--   Wähle die andere Schnittebene und erstelle eine neue Draft-Ansicht mit den folgenden Eigenschaften:
+-   Wähle die andere Schnittebene und erstelle eine neue Entwurf Ansicht mit den folgenden Eigenschaften:
     -   X: 250
     -   Y: 150
     -   Scale: 0.03
     -   Rendering: Solid
-
-
-</div>
 
 ![](images/Exercise_arch_22.jpg )
 
@@ -247,11 +225,8 @@ Unsere Seite ist nun fertig und wir können sie im SVG- oder DXF-Format ausgeben
 
 ## Verwandtes
 
-
-<div class="mw-translate-fuzzy">
-
 -   [BIM Arbeitsbereich](BIM_Workbench/de.md)
--   [Der Arch Arbeitsbereich](Arch_Module/de.md)
+-   [Der Arch Arbeitsbereich](Arch_Workbench/de.md)
 -   [Die Entwurf Arbeitsebene](Draft_SelectPlane/de.md)
 -   [Die Entwurf Fang Einstellungen](Draft_Snap/de.md)
 -   [Das Ausdrücke System](Expressions/de.md)
@@ -261,9 +236,6 @@ Unsere Seite ist nun fertig und wir können sie im SVG- oder DXF-Format ausgeben
 -   [Inkscape](http://www.inkscape.org)
 
 
-</div>
-
-
 
 
 
@@ -271,4 +243,4 @@ Unsere Seite ist nun fertig und wir können sie im SVG- oder DXF-Format ausgeben
 
 }} 
 
-[Category:BIM{{\#translation:}}](Category:BIM.md)
+[Category:BIM](Category:BIM.md)

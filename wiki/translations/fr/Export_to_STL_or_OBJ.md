@@ -1,3 +1,5 @@
+# Export to STL or OBJ/fr
+
 
 
 
@@ -59,4 +61,4 @@ La méthode 2 doit être préférée. Parmi les raisons:
 
 
 
-[Category:File\_Formats{{\#translation:}}](Category:File_Formats.md)
+[Category:File\_Formats](Category:File_Formats.md)

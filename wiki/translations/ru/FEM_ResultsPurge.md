@@ -17,7 +17,7 @@ Deletes all the result objects from the active analysis container in [Tree view]
 
 TODO: Add Before and After screenshot
 
-## Использование
+## Применение
 
 1.  There are several ways to invoke the command:
     -   Press the **<img src="images/FEM_ResultsPurge.svg" width=16px> [FEM ResultsPurge](FEM_ResultsPurge.md)** button.

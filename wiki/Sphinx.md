@@ -1,3 +1,5 @@
+# Sphinx
+
  
 
 ## Introduction
@@ -33,4 +35,4 @@ Encouraging results from David\_D:
 
 
 
-[Category:Developer\_Documentation{{\#translation:}}](Category:Developer_Documentation.md)
+[Category:Developer\_Documentation](Category:Developer_Documentation.md)

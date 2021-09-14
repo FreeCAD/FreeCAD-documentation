@@ -1,3 +1,5 @@
+# Manual:Summary/es
+
 Esta es la tabla de contenidos utilizada para la construcción automática del **Manual de FreeCAD**\'.
 
 Hay otra tabla de contenidos para el sistema [FreeCAD **Ayuda en línea**](Online_Help_Toc/es.md).
@@ -55,4 +57,4 @@ Hay otra tabla de contenidos para el sistema [FreeCAD **Ayuda en línea**](Onlin
 
 
 
-[Category:Manual{{\#translation:}}](Category:Manual.md)
+[Category:Manual](Category:Manual.md)

@@ -1,4 +1,6 @@
- {{UnfinishedDocu}}
+# Curves Workbench/de
+
+ }
 
 ## Einführung
 
@@ -52,4 +54,4 @@ Lade den Arbeitsbereich Kurven über den <img alt="" src=images/AddonManager.svg
 
 }} 
 
-[Category:External Workbenches{{\#translation:}}](Category:External_Workbenches.md) [Category:Addons{{\#translation:}}](Category:Addons.md)
+[Category:External Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)

@@ -52,4 +52,4 @@ Důvod pro použití tohoto prohlížeče je jednoduše v tom, že si můžete z
 
  
 
-[Category:BIM{{\#translation:}}](Category:BIM.md)
+[Category:BIM](Category:BIM.md)

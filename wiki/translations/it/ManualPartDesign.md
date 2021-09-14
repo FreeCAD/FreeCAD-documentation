@@ -1,3 +1,5 @@
+# ManualPartDesign/it
+
 
 <H1 align="center">
 
@@ -6,7 +8,7 @@ Guida ai comandi di FreeCAD
 
 </H1>
 
-\_\_NOTOC\_\_ Questo è la guida ai comandi di FreeCAD. Comprende le pagine del [Wiki della documentazione di FreeCAD](Main_Page/it.md) che si riferiscono ai comandi. Questa versione è stata creata principalmente per essere stampata come un unico grande documento o per consentire una panoramica veloce sulle pagine dei comandi. Se si sta leggendo questo online, si consiglia di andare direttamente alla [Guida in linea](Online_Help_Toc/it.md), che è più facile da esplorare.
+ Questo è la guida ai comandi di FreeCAD. Comprende le pagine del [Wiki della documentazione di FreeCAD](Main_Page/it.md) che si riferiscono ai comandi. Questa versione è stata creata principalmente per essere stampata come un unico grande documento o per consentire una panoramica veloce sulle pagine dei comandi. Se si sta leggendo questo online, si consiglia di andare direttamente alla [Guida in linea](Online_Help_Toc/it.md), che è più facile da esplorare.
 
 -   Parte prima: [Ambiente Part Design](ManualDrawing/it#PartDesign_Workbench//it.md)
 -   Parte seconda: [Ambiente PartDesign: Strumenti di costruzione](ManualPartDesign/it#Ambiente_PartDesign:_Strumenti_di_costruzione.md)

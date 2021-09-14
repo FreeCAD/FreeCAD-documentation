@@ -1,5 +1,11 @@
 ---
-- GuiCommand:/es   Name:Arch Roof   Name/es:Arch Techo   Workbenches:[[Arch Module/es   Arquitectura]]|MenuLocation:Arquitectura → Techo   Shortcut:R F---
+- GuiCommand:/es
+   Name:Arch Roof
+   Name/es:Arch Techo
+   MenuLocation:Arquitectura → Techo
+   Workbenches:[Arquitectura](Arch_Workbench/es.md)
+   Shortcut:**R** **F**
+---
 
 
 </div>

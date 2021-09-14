@@ -1,8 +1,9 @@
 ---
 - GuiCommand:/de
-   Name:Draft Center   Name/de:Draft Mittelpunkt
+   Name:Draft Center
+   Name/de:Draft Mittelpunkt
    MenuLocation:Entwurf → [Objektfang](Draft_Snap/de.md) → Mittelpunkt
-   Workbenches:[Draft](Draft_Module/de.md), [Arch](Arch_Module/de.md)
+   Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
    SeeAlso:[Objektfang](Draft_Snap/de.md), [Objektfang umschalten](Draft_ToggleSnap/de.md)
 ---
 

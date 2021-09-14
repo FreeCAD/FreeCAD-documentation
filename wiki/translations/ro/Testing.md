@@ -1,3 +1,5 @@
+# Testing/ro
+
 
 
 
@@ -284,4 +286,4 @@ r.run(suite)
 
 
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Test Framework{{\#translation:}}](Category:Test_Framework.md) [Category:Workbenches{{\#translation:}}](Category:Workbenches.md) [Category:Testing{{\#translation:}}](Category:Testing.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Test Framework](Category:Test_Framework.md) [Category:Workbenches](Category:Workbenches.md) [Category:Testing](Category:Testing.md)

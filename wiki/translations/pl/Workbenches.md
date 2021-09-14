@@ -1,3 +1,5 @@
+# Workbenches/pl
+
 
 
 
@@ -81,4 +83,4 @@ Wciąż powstają kolejne środowiska pacy, obserwuj zmiany i bądź na bieżąc
 
 
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

@@ -34,19 +34,19 @@ Vorerst geht das Werkzeug von folgenden Voraussetzungen aus
 
 ### Daten
 
--    **Pfad**: Der Pfad, dem der Zaun folgen sollte
+-    {{PropertyData/de|Pfad}}: Der Pfad, dem der Zaun folgen sollte
 
--    **Pfahl**: Ein einziger Zaunpfahl zur Wiederholung
+-    {{PropertyData/de|Pfahl}}: Ein einziger Zaunpfahl zur Wiederholung
 
--    **Abschnitt**: Ein einziger Abschnitt zum Wiederholen
+-    {{PropertyData/de|Abschnitt}}: Ein einziger Abschnitt zum Wiederholen
 
--    **Anzahl der Pfähle**: Die Gesamtzahl der Pfähle, die für den Bau des Zauns verwendet wurden. Diese wird automatisch berechnet.
+-    {{PropertyData/de|Anzahl der Pfähle}}: Die Gesamtzahl der Pfähle, die für den Bau des Zauns verwendet wurden. Diese wird automatisch berechnet.
 
--    **Anzahl der Abschnitte**: Die Gesamtzahl der Abschnitte, die zum Bau des Zauns verwendet wurden. Diese wird automatisch berechnet.
+-    {{PropertyData/de|Anzahl der Abschnitte}}: Die Gesamtzahl der Abschnitte, die zum Bau des Zauns verwendet wurden. Diese wird automatisch berechnet.
 
 ### Ansicht
 
--    **Ursprungsfarben verwenden**}: Wenn auf {`True` gesetzt, verwendet der Zaun die Farben aus dem Originalabschnitt und -pfahl. Andernfalls wird die FormFarbe des Zauns verwendet, um den Zaun einzufärben.
+-    {{PropertyView/de|Ursprungsfarben verwenden}}}: Wenn auf {`True` gesetzt, verwendet der Zaun die Farben aus dem Originalabschnitt und -pfahl. Andernfalls wird die FormFarbe des Zauns verwendet, um den Zaun einzufärben.
 
 ## Hinweise
 
@@ -62,7 +62,7 @@ Das Zaunwerkzeug kann in [Makros](Macros/de.md) und aus der [Python](Python/de.m
 Fence = buildFence(section, post, path)
 ```
 
-Beispiel.
+Beispiel:
 
 
 ```python

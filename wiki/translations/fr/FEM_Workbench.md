@@ -1,3 +1,5 @@
+# FEM Workbench/fr
+
 
 
 
@@ -276,4 +278,4 @@ Un guide du développeur a été rédigé pour aider les utilisateurs expérimen
 
 }} 
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

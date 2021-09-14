@@ -1,11 +1,11 @@
 ---
 - GuiCommand:/ru
-   Name:Std ViewIsometric
-   Name/ru:Std ViewIsometric
-   MenuLocation:Вид → Стандартные виды → Axonometric → Изометрия
-   Workbenches:All
+   Name/ru:Изометрическая
+   Name:Std_ViewIsometric
+   MenuLocation:Вид → Стандартные виды‏‎ → Axonometric → Изометрическая
+   Workbenches:Все
    Shortcut:**0**
-   SeeAlso:[Std ViewDimetric](Std_ViewDimetric/ru.md), [Std ViewTrimetric](Std_ViewTrimetric/ru.md)
+   SeeAlso:[Диметрическая](Std_ViewDimetric/ru.md), [Триметрическая](Std_ViewTrimetric/ru.md)
 ---
 
 ## Описание
@@ -26,7 +26,7 @@
 
 -   It is also possible to switch to isometric view via the Mini-cube menu of the [Navigation Cube](Navigation_Cube.md).
 
-## Scripting
+## Программирование
 
 
 **Смотрите так же:**

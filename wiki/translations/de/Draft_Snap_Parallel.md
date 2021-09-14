@@ -2,7 +2,7 @@
 - GuiCommand:/de
    Name:Draft Parallel
    Name/de:Entwurf Parallel
-   Workbenches:[Entwurf](Draft_Module/de.md), [Arch](Arch_Module/de.md)
+   Workbenches:[Entwurf](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
    MenuLocation:Entwurf → [Fangen](Draft_Snap/de.md) → Parallel
    Shortcut:-
    SeeAlso:[Fangen](Draft_Snap/de.md), [Fangen ein/aus](Draft_ToggleSnap/de.md)

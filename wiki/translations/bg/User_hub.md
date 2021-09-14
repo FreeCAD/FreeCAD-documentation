@@ -1,8 +1,10 @@
+# User hub/bg
+
  <img alt="" src=images/User_hub.png  style="width:64px;">
 
 ------------------------------------------------------------------------
 
-\_\_NOTOC\_\_
+
 
 
 <div class="mw-translate-fuzzy">
@@ -39,7 +41,7 @@
 
 <div class="mw-translate-fuzzy">
 
-\_\_NOTOC\_\_
+
 
 ## Упътване за FreeCAD 
 
@@ -217,4 +219,4 @@ Since FreeCAD 0.17, many workbenches can be installed using the [Addon Manager](
 
 
 
-[Category:Hubs{{\#translation:}}](Category:Hubs.md)
+[Category:Hubs](Category:Hubs.md)

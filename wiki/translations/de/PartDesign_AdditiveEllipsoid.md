@@ -16,10 +16,16 @@ Fügt den Grundkörper Ellipsoid in den aktiven Körper (Body) als Basisformelem
 
 ## Anwendung
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Drücke die **<img src="images/PartDesign_AdditiveEllipsoid.svg" width=24px>  '''Additiver Ellipsoid'''** Schaltfläche. **Hinweis**: der Additive Ellipsoid ist Teil eines Symbolmenüs mit der Bezeichnung *Erstellen eines additiven Grundelements*. Nach dem Start von FreeCAD wird der Additiv Quader in der Werkzeugleiste angezeigt. Um zur Schaltfläche Ellipsoid zu gelangen, klicke auf den Abwärtspfeil neben dem sichtbaren Symbol und wähle Additiv Zylinder im Menü.
 2.  Stelle die Grundelement Parameter und [Anhang](Part_Attachment/de.md) ein.
 3.  Klicke **OK**.
 4.  Eine Ellipsoidfunktion wird unter dem aktiven Körper angezeigt.
+
+
+</div>
 
 ## Optionen
 
@@ -29,6 +35,9 @@ Das Ellipsoid kann auf zwei verschieden Wege bearbeitet werden:
 -   Mittels des [Eigenschafteneditors](Property_editor/de.md) im Reiter Daten.
 
 ## Eigenschaften
+
+
+<div class="mw-translate-fuzzy">
 
 -    {{PropertyDataAttachment}}: Bestimmt den Befestigungsmodus und den Befestigungsversatz. Siehe [Befestigung](Part_Attachment/de.md).
 
@@ -45,6 +54,9 @@ Das Ellipsoid kann auf zwei verschieden Wege bearbeitet werden:
 -    **Angle2**: (ohne Beschriftung in dem Dialog Parameter des Grundkörpers) Die obere Verkürzung des Ellipsoids, normal zur Z-Achse (90° in einem vollen Rotationsellipsoid).
 
 -    **Angle3**: (mit *U-Parameter:* in dem Dialog Parameter des Grundkörpers bezeichnet) Rotationswinkel des halben elliptischen Querschnitts (360° in einem vollen Rotationsellipsoid).
+
+
+</div>
 
 
 

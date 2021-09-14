@@ -1,3 +1,5 @@
+# Workbenches/ja
+
 
 
 
@@ -118,4 +120,4 @@ The [external workbenches](external_workbenches.md) page lists all that are know
 
 
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

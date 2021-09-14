@@ -1,8 +1,10 @@
+# Power users hub/fr
+
  <img alt="" src=images/Power_user_hub.png  style="width:64px;">
 
 ------------------------------------------------------------------------
 
-\_\_NOTOC\_\_
+
 
 C\'est l\'endroit à venir si vous êtes un utilisateur expérimenté et que vous voulez en savoir plus sur la personnalisation et l\'extension de FreeCAD.
 
@@ -25,22 +27,14 @@ Si vous souhaitez contribuer au contenu de ces pages, demandez un compte wiki av
 
 ## Scripts dans FreeCAD 
 
-### General
-
-
-<div class="mw-translate-fuzzy">
-
 ### Général
 
--   [Introduction à python](Introduction_to_Python/fr.md) : Allez voir aussi les autres tutoriels pour Python en liens en bas de cette page.
+-   [Introduction à Python](Introduction_to_Python/fr.md) : Allez voir aussi les autres tutoriels pour Python en liens en bas de cette page.
 -   [Tutoriel sur les scripts Python](Python_scripting_tutorial/fr.md) : Une vue générale des scripts Python dans FreeCAD.
 -   [Scripts de base](FreeCAD_Scripting_Basics/fr.md) : Les bases des scripts en Python\...
 -   [Interface et commandes](Gui_Command/fr.md) : Ajouter des commandes personnalisées dans l\'interface de FreeCAD.
 -   Utiliser des [Unités](Units/fr.md) variées dans FreeCAD.
 -   [Profilage](Profiling/fr.md) du code Python.
-
-
-</div>
 
 ### Modules
 
@@ -49,58 +43,26 @@ Le fonctionnement de FreeCAD est séparé en modules qui traitent de types de do
 -   Les [modules intégrés](Builtin_modules/fr.md) sont les principaux modules de FreeCAD. Ils contiennent les outils pour manipuler les configurations générales de FreeCAD, les documents et leur contenu.
 -   [Création d\'Ateliers](Workbench_creation/fr.md) vous montre comment créer votre propre atelier.
 
-#### Working with Meshes 
+#### Travailler avec les maillages 
 
+-   [Mesh Scripts](Mesh_Scripting/fr.md): comment interagir avec l\'[atelier Mesh](Mesh_Workbench/fr.md)
 
-<div class="mw-translate-fuzzy">
+#### Travailler avec les objets Parts 
 
-#### Travailler avec les maillages \"Mesh\" 
+-   [Atelier Part](Part_Workbench.md) : comment les outils et la structure de [Open CASCADE Technology](https://fr.wikipedia.org/wiki/Open_CASCADE_Technology) sont utilisés dans FreeCAD.
+-   Les [Scripts pour création topologique](Topological_data_scripting/fr.md) : interaction avec l\'atelier Part.
+-   [PythonOCC](PythonOCC/fr.md) :comment utiliser toute la puissance du moteur Open CASCADE.
+-   [Conversion objet Mesh en Part](Mesh_to_Part/fr.md) : conversion entre les types d\'objets.
 
--   [Les scripts de maillage](Mesh_Scripting/fr.md) sont interactifs avec le [module maillage](Mesh_Workbench/fr.md)
+#### Accéder aux graphes de scène de Coin 
 
-
-</div>
-
-#### Working with Parts 
-
-
-<div class="mw-translate-fuzzy">
-
-#### Travailler avec les géométries \"Parts\" 
-
--   Comment le [module géométrie \" Part \"](Part_Workbench/fr.md) utilise les outils et structures [Open CASCADE Technology](http://fr.wikipedia.org/wiki/Open_CASCADE) dans FreeCAD
--   Les [scripts de données topologiques](Topological_data_scripting/fr.md) sont interactifs avec \" Part \"
--   [PythonOCC](PythonOCC/fr.md) peut utiliser toute la puissance du moteur Open CASCADE
--   [Maillage vers géométrie](Mesh_to_Part/fr.md) ou comment convertir les types d\'objets différents \" Mesh \" et \" Part \"
-
-
-</div>
-
-#### Accessing the Coin scenegraph 
-
-
-<div class="mw-translate-fuzzy">
-
-#### Accéder aux Scènes graphiques avec Coin 
-
--   [Scènes graphiques et Coin/Inventor](Scenegraph/fr.md) : Vous pouvez avec FreeCad représenter des scènes de travail grâce à [Coin3D](http://fr.wikipedia.org/wiki/Open_CASCADE_Technology)
--   [Pivy](Pivy/fr.md) : permet d\'accéder et modifier la scène graphique (passerelle d\'accès à Coin)
-
-
-</div>
-
-### Controlling the Qt interface 
-
-
-<div class="mw-translate-fuzzy">
+-   [Graphe de scène](Scenegraph/fr.md) : Comment fonctionne la représentation de la scène FreeCAD.
+-   [Pivy](Pivy/fr.md) : Comment accéder et modifier le graphe de scène
 
 ### Contrôler l\'interface avec Qt 
 
--   [PySide](PySide/fr.md) dispose des outils nécessaires pour construire, accéder et modifier le contenu d\'une interface utilisateur
--   [Utilisez les modules graphiques FreeCAD](Embedding_FreeCADGui/fr.md) dans d\'autres applications Qt avec l\'aide de PyQt
-
-
-</div>
+-   [PySide](PySide/fr.md) : comment accéder à l\'interface et modifier son contenu.
+-   [Utilisez les modules graphiques FreeCAD](Embedding_FreeCADGui/fr.md) : dans d\'autres applications Qt avec l\'aide de PyQt.
 
 ### Travailler avec des objets paramétriques 
 
@@ -109,22 +71,14 @@ Le fonctionnement de FreeCAD est séparé en modules qui traitent de types de do
     -   [Scripted objects saving attributes](Scripted_objects_saving_attributes.md) : comment sauvegarder et restaurer les attributs de la classe proxy avec `__getstate__` et `__setstate__`.
     -   [Scripted objects migration](Scripted_objects_migration.md) : comment migrer d\'anciens objets créés par script vers une nouvelle classe.
 
-### Examples
-
-
-<div class="mw-translate-fuzzy">
-
 ### Exemples
 
--   Collection d\'[Extraits de code](Code_snippets/fr.md) Python qui peuvent servir de base à vos scripts.
--   [Dessiner une ligne](Line_drawing_function/fr.md) : Toute l\'écriture d\'un simple outil qui va dessiner une ligne.
--   Comment [créer une boîte de dialogue](Dialog_creation/fr.md) avec Qt designer, et l\'utiliser dans FreeCAD.
--   Faire l\'[intégration de FreeCAD](Embedding_FreeCAD/fr.md) comme module Python dans une application externe.
--   Ajouter avec le [module Ébauche](Draft_Module/fr.md) des fonctions de dessin 2D dans FreeCAD. Entièrement écrit en Python, c\'est un bon exemple si vous voulez écrire vos propres modules.
--   [Bibliothèque mathématique de vecteurs](FreeCAD_vector_math_library/fr.md) : Quelques fonctions pratiques pour manipuler les vecteurs FreeCAD. Cette bibliothèque est aussi incluse dans le module Draft.
-
-
-</div>
+-   [Code snippets](Code_snippets/fr.md) : une collection de morceaux de code Python de FreeCAD, pour servir d\'ingrédients dans vos scripts\...
+-   [Fonction - tracer une ligne](Line_drawing_function/fr.md) : comment construire un outil simple pour dessiner des lignes.
+-   [Création d\'une boite de dialogue](Dialog_creation/fr.md) : comment construire des dialogues avec Qt designer et les utiliser dans FreeCAD.
+-   [Intégrer FreeCAD](Embedding_FreeCAD/fr.md) : comment importer FreeCAD en tant que module Python dans d\'autres applications.
+-   L\'[atelier Draft](Draft_Workbench/fr.md) ajoute des fonctions de dessin 2D de base à FreeCAD. Il est entièrement écrit en Python, donc il peut être un bon exemple si vous voulez écrire vos propres modules.
+-   [Bibliothèque mathématique vectorielle de FreeCAD](FreeCAD_vector_math_library/fr.md) : Quelques fonctions pratiques pour manipuler les vecteurs FreeCAD. Cette bibliothèque est également incluse dans le module Draft.
 
 ## Fonctions API 
 
@@ -144,17 +98,11 @@ En rapport : [Exposing C++ to Python](Exposing_C%2B%2B_to_Python.md)
 
 Voici une compilation de très bons tutoriels, pas forcement liés à FreeCAD, mais très intéressants si vous êtes totalement débutants en Python.
 
-
-<div class="mw-translate-fuzzy">
-
 **Python**
 
--   [Official python tutorial](http://docs.python.org/tut/tut.html) - Un tutoriel très complet pour découvrir Python
--   [Non-programmer tutorial for python](http://en.wikibooks.org/wiki/Non-Programmer%27s_Tutorial_for_Python) - un excellent livre au format Wiki
+-   [Official python tutorial](https://docs.python.org/3/tutorial/index.html) - Un tutoriel très complet pour découvrir Python
+-   [Non-programmer tutorial for python](https://en.wikibooks.org/wiki/Non-Programmer%27s_Tutorial_for_Python_3) - un excellent livre au format Wiki
 -   [Python for newbies](http://npt.cc.rsu.ru/user/wanderer/ODP/Python_for_Newbies.htm) - un grand tutoriel couvrant tous les grands principes de base.
-
-
-</div>
 
 **PySide** - Comment créer et gérer l\'UI Qt de FreeCAD à partir de Python
 
@@ -187,4 +135,4 @@ Sur le [Portail communautaire FreeCAD](FreeCAD_Community_Portal/fr.md), vous pou
 
 }}
 
-[Category:Hubs{{\#translation:}}](Category:Hubs.md)
+[Category:Hubs](Category:Hubs.md)

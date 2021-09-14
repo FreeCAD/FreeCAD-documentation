@@ -1,3 +1,5 @@
+# Debian development/pl
+
 
 
 Debian jest dystrybucją macierzystą, z której pochodzi wiele innych dystrybucji Linuksa, takich jak Ubuntu, Linux Mint i inne. W związku z tym warto skupić się szczególnie na rozwoju Debiana, ponieważ ulepszenia w Debianie będą przenoszone przez jego potomków.
@@ -7,4 +9,4 @@ Debian jest dystrybucją macierzystą, z której pochodzi wiele innych dystrybuc
 
 
 
-[Category:Packaging{{\#translation:}}](Category:Packaging.md) [Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md)
+[Category:Packaging](Category:Packaging.md) [Category:Developer Documentation](Category:Developer_Documentation.md)

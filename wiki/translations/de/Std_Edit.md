@@ -1,32 +1,27 @@
 ---
 - GuiCommand:/de
-   Name:Std Bearbeiten
+   Name:Std Edit
+   Name/de:Std Bearbeiten
    MenuLocation:Bearbeiten → Umschalten Bearbeitungsmodus
    Workbenches:Alle
 ---
 
 ## Beschreibung
 
-
-<div class="mw-translate-fuzzy">
-
-Dieser Befehl erlaubt es Dir, den Bearbeitungsmodus eines ausgewählten Objekts aufzurufen oder zu verlassen. Ein Objekt muss entweder ausgewählt (dann wechselt es in den Bearbeitungsmodus) oder im Bearbeitungsmodus (dann verlässt es den Bearbeitungsmodus) sein, damit dieser Befehl funktioniert.
-
-
-</div>
+Der **Std Bearbeiten**-Befehl aktiviert oder deaktiviert den Bearbeitungsmodus eines Objekts.
 
 ## Anwendung
 
-1.  If no object is in edit mode: select a single object.
-2.  Select the **Edit → <img src="images/Std_Edit.svg" width=16px> Toggle Edit mode** option from the menu.
-3.  Either the edit mode of the selected object is activated or the existing edit mode deactivated.
+1.  Falls kein Objekt im Bearbeitungsmodus ist: wähle ein einzelnes Objekt.
+2.  Wähle die **Bearbeiten → <img src="images/Std_Edit.svg" width=16px> Bearbeitungsmodus umschalten**-Option aus dem Menü.
+3.  Entweder wird der Bearbeitungsmodus des gewählten Objekts aktiviert oder der bestehende Bearbeitungsmodus wird deaktiviert.
 
 ## Hinweise
 
--   Some tools will be disabled (greyed-out) in the user interface while an object\'s edit mode is active.
--   Not all object types have an edit mode.
--   The functionality available in edit mode depends on the object type.
--   Edit mode can also be activated by double-clicking an object in the [Tree view](Tree_view.md).
+-   Einige Werkzeuge sind in der Benutzeroberfläche deaktiviert (ausgegraut), während der Bearbeitungsmodus eines Objekts aktiviert ist.
+-   Nicht alles Objekttypen haben einen Bearbeitungsmodus.
+-   Die verfügbare Funktionalität im Bearbeitungsmodus hängt vom Objekttyp ab.
+-   Der Bearbeitungsmodus kann auch durch doppelklicken eines Objekts in der [Baumansicht](Tree_view/de.md) aktiviert werden.
 
 ## Skripten
 
@@ -35,13 +30,7 @@ Dieser Befehl erlaubt es Dir, den Bearbeitungsmodus eines ausgewählten Objekts 
 
 [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-
-<div class="mw-translate-fuzzy">
-
-Dies öffnet den Bearbeitungsmodus eines bestimmten Objekts:
-
-
-</div>
+Zur Aktivierung des Bearbeitungsmodus eines Objekts benutze die `setEdit`-Methode des document-Objekts. Diese Methode ist nicht verfügbar, wenn sich FreeCAD im Konsolenmodus befindet.
 
 
 ```python
@@ -50,20 +39,14 @@ import FreeCADGui
 FreeCADGui.ActiveDocument.setEdit("myObjectName",0)
 ```
 
-The second argument is the EditMode. The following options are available:
+Das zweite Argument ist der EditMode. Die folgenden Optionen sind verfügbar:
 
 0 = Default
 1 = Transform
 2 = Cutting
 3 = Color
 
-
-<div class="mw-translate-fuzzy">
-
-Dies beendet den Bearbeitungsmodus:
-
-
-</div>
+Zur Deaktivierung des Bearbeitungsmodus eines Objekts benutze die `resetEdit`-Methode des document-Objekts.
 
 
 ```python

@@ -1,3 +1,5 @@
+# Macro Duplicate Selection/it
+
  {{Macro/it
 |Name=Macro Duplicate Selection
 |Translate=Duplica selezione

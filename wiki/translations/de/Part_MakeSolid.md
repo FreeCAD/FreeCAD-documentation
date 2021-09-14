@@ -4,11 +4,7 @@
    Name/de:Part UmwandelnFestkörper
    MenuLocation:Formteil → Umwandeln in Festkörper
    Workbenches:[Part Arbeitsbereich](Part_Workbench/de.md)
-   SeeAlso:
 ---
-
-
-</div>
 
 ## Beschreibung
 
@@ -38,13 +34,7 @@ Es wird empfohlen, ** Part** → ** Form verfeinern** vor der Konvertierung in e
 </div>
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
   

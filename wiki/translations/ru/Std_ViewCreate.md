@@ -3,7 +3,7 @@
    Name:Std ViewCreate
    Name/ru:Создать новый вид
    MenuLocation:Вид → Создать новый вид
-   Workbenches:All
+   Workbenches:Все
    SeeAlso:[Std ViewDockUndockFullscreen](Std_ViewDockUndockFullscreen/ru.md), [Std ViewFullscreen](Std_ViewFullscreen/ru.md)
 ---
 

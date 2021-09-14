@@ -2,8 +2,8 @@
 - GuiCommand:/tr
    Name:Draft Parallel
    Name/tr:Taslak Paralel
-   Workbenches:[Taslak](Draft_Module/tr.md), [Mimari](Arch_Module/tr.md)
    MenuLocation:Taslak → [Yakalama](Draft_Snap/tr.md) → Paralel
+   Workbenches:[Taslak](Draft_Workbench/tr.md), [Mimari](Arch_Workbench/tr.md)
    Shortcut:
    SeeAlso:
 ---

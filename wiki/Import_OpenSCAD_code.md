@@ -1,3 +1,5 @@
+# Import OpenSCAD code
+
  
 
 
@@ -50,4 +52,4 @@ Here we will use the example005.scad file from the (old) OpenSCAD examples, but 
 
 
 
-[Category:OpenSCAD{{\#translation:}}](Category:OpenSCAD.md)
+[Category:OpenSCAD](Category:OpenSCAD.md)

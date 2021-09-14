@@ -3,7 +3,7 @@
    Name:Draft CubicBezCurve
    Name/it:Curva di Bézier cubica
    MenuLocation:Draft → Strumenti Bezier → Curva di Bézier cubica
-   Workbenches:[Draft](Draft_Module/it.md), [Arch](Arch_Module/it.md)
+   Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
    Version/it:0.19
    SeeAlso:[Polilinea](Draft_Wire/it.md), [B-spline](Draft_BSpline/it.md), [Curva di Bézier](Draft_BezCurve/it.md)
 ---

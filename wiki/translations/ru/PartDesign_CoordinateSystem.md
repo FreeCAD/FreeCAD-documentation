@@ -1,11 +1,15 @@
 ---
-- GuiCommand:
-   Name:PartDesign CoordinateSystem
-   MenuLocation:PartDesign → Create a local coordinate system
-   Workbenches:[PartDesign](PartDesign_Workbench.md)
+- GuiCommand:/ru
+   Name/ru:PartDesign_CoordinateSystem
+   Name:PartDesign_CoordinateSystem
+   MenuLocation:PartDesign → Создать локальную систему координат
+   Workbenches:[PartDesign](PartDesign_Workbench/ru.md)
    Version:0.18
-   SeeAlso:[PartDesign Datum point](PartDesign_Point.md), [PartDesign Datum line](PartDesign_Line.md), [PartDesign Datum plane](PartDesign_Plane.md)
+   SeeAlso:[Создать опорную точку](PartDesign_Point/ru.md), [Создать опорную линию](PartDesign_Line/ru.md), [Создать опорную плоскость](PartDesign_Plane/ru.md)
 ---
+
+
+</div>
 
 ## Описание
 
@@ -23,11 +27,11 @@ Creates a **local coordinate system** which can be used as reference for other d
 
 ## Опции
 
-Double-click the **Local\_CS** label in the Model tree or right-click and select **Edit datum** in the contextual menu to edit its parameters. For more details about Attachment mode and Attachment offset, see [Attachment](Part_Attachment.md).
+Double-click the **Local\_CS** label in the Model tree or right-click and select **Edit datum** in the contextual menu to edit its parameters. For more details about Attachment mode and Attachment offset, see [Attachment](Part_EditAttachment.md).
 
 ## Свойства
 
-### Data
+### Данные
 
 -    **MapMode**: lists the attachment mode used.
 

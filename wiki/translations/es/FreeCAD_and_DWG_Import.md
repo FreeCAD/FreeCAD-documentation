@@ -1,3 +1,5 @@
+# FreeCAD and DWG Import/es
+
  {{TOCright}}
 
 
@@ -144,4 +146,4 @@ En la versión de desarrollo, como se mencionó anteriormente, se puede cambiar 
 
  
 
-[Category:File\_Formats{{\#translation:}}](Category:File_Formats.md) [Category:Common Questions{{\#translation:}}](Category:Common_Questions.md)
+[Category:File\_Formats](Category:File_Formats.md) [Category:Common Questions](Category:Common_Questions.md)

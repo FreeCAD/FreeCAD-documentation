@@ -1,4 +1,15 @@
- O FreeCAD 0.16 foi lançado a 18 abril, 2016 descarregue aqui [Download](Download.md). Este é o sumário das alterações mais interessantes. A lista completa de alterações pode ser encontrada na [Histórico de alterações](http://www.freecadweb.org/tracker/changelog_page.php). Versões antigas em: [0.15](Release_notes_0.15/pt.md) - [0.14](Release_notes_0.14.md) - [0.13](Release_notes_013.md) - [0.12](Release_notes_012.md) - [0.11](Release_notes_011.md)
+# Release notes 0.16/pt
+
+
+
+
+<div class="mw-translate-fuzzy">
+
+O FreeCAD 0.16 foi lançado a 18 abril, 2016 descarregue aqui [Download](Download.md). Este é o sumário das alterações mais interessantes. A lista completa de alterações pode ser encontrada na [Histórico de alterações](http://www.freecadweb.org/tracker/changelog_page.php). Versões antigas em: [0.15](Release_notes_0.15/pt.md) - [0.14](Release_notes_0.14.md) - [0.13](Release_notes_0.13.md) - [0.12](Release_notes_0.12.md) - [0.11](Release_notes_0.11.md)
+
+
+</div>
+
 <img alt="" src=images/Satnogs_Rotator_FreeCAD.jpg  style="width:1024px;">
 
 
@@ -131,4 +142,4 @@ A couple of new [addons workbenches](https://github.com/FreeCAD/FreeCAD-addons) 
 
 ![](images/Macro_installer_02.jpg )
 
-[Category:News{{\#translation:}}](Category:News.md) [Category:Documentation{{\#translation:}}](Category:Documentation.md) [Category:Releases{{\#translation:}}](Category:Releases.md)
+[Category:News](Category:News.md) [Category:Documentation](Category:Documentation.md) [Category:Releases](Category:Releases.md)

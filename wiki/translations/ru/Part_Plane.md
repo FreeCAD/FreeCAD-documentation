@@ -27,10 +27,10 @@
 
 ## Свойства
 
-### Data
+### Данные
 
 
-{{TitleProperty|Base}}
+{{TitleProperty|Основные}}
 
 -    **Label**: String name of the object, defaults to \'Plane\'. User may rename it.
 
@@ -49,7 +49,7 @@
 
 -    **Width**: Width is the size of the Y-axis The default value is 10 mm
 
-### View
+### Вид
 
 You have the standard properties view.
 

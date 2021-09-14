@@ -13,8 +13,6 @@ Dessine un triangle équilatéral inscrit dans un cercle.
 
 Lors de la sélection de l\'outil, le pointeur de la souris se transforme en une croix blanche avec une icône de rectangle rouge. Les coordonnées du pointeur sont indiqués en bleu en temps réel.
 
-Par défaut un coté est contraint horizontal
-
 ![](images/SketcherCreateTriangleExample.png‎ )
 
 ## Utilisation
@@ -34,4 +32,4 @@ Le cercle circonscrit est la géométrie de construction, qui n\'est visible que
 
 {{Sketcher Tools navi
 
-}}  
+}} 

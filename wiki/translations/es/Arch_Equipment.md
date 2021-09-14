@@ -1,11 +1,25 @@
 ---
-- GuiCommand:/es   Name:Arch Equipment   Name/es:Arch Equipment   Workbenches:[MenuLocation:Arch → Equipment   Shortcut:E Q   SeeAlso:[[Arch_3Views/es|3 views from mesh](Arch_Module/es___Arch]].md)---
+- GuiCommand:/es
+   Name:Arch Equipment
+   Name/es:Arch Equipment
+   Workbenches:[Arch](Arch_Workbench/es.md)
+   MenuLocation:Arch → Equipment
+   Shortcut:E Q
+   SeeAlso:[3 views from mesh](Arch_3Views/es.md)
+---
 
 
 </div>
 
 ---
-- GuiCommand:/es   Name:Arch Equipment   Name/es:Arch Equipment   Workbenches:[MenuLocation:Arch → Equipment   Shortcut:E Q   SeeAlso:[[Arch_3Views/es|3 views from mesh](Arch_Module/es___Arch]].md)---
+- GuiCommand:/es
+   Name:Arch Equipment
+   Name/es:Arch Equipment
+   Workbenches:[Arch](Arch_Workbench/es.md)
+   MenuLocation:Arch → Equipment
+   Shortcut:E Q
+   SeeAlso:[3 views from mesh](Arch_3Views/es.md)
+---
 
 ## Descripción
 

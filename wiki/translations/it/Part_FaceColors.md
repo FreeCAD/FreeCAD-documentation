@@ -57,4 +57,4 @@ Per ripristinare il colore di tutte le facce
 
  
 
-[Category:User Documentation{{\#translation:}}](Category:User_Documentation.md) [Category:Command\_Reference{{\#translation:}}](Category:Command_Reference.md)
+[Category:User Documentation](Category:User_Documentation.md) [Category:Command\_Reference](Category:Command_Reference.md)

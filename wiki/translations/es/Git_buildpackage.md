@@ -1,3 +1,5 @@
+# Git buildpackage/es
+
 
 
 Los flujos de trabajo de desarrollo de Debian modernos implican [empaquetar con Git](https://wiki.debian.org/PackagingWithGit) y la herramienta principal para hacerlo es [git-buildpackage](http://honk.sigxcpu.org/projects/git-buildpackage/manual-html/gbp.html). git-buildpackage proporciona un comando gbp con varias opciones similares al propio comando git. Muchos de estos comandos son en sí mismos sólo una envoltura de herramientas de Debian de nivel inferior, por lo que la complejidad para aprender a empaquetar puede ser bastante alta.
@@ -34,4 +36,4 @@ Ubicación: ~/.quiltrc
 
  
 
-[Category:Packaging{{\#translation:}}](Category:Packaging.md) [Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md)
+[Category:Packaging](Category:Packaging.md) [Category:Developer Documentation](Category:Developer_Documentation.md)

@@ -1,3 +1,5 @@
+# Macro HealArcs
+
   {{Macro
 |Name=HealArcs
 |Icon=Macro_HealArcs.png

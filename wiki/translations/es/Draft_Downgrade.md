@@ -3,13 +3,10 @@
    Name:Draft Downgrade
    Name/es:Borrador Rebajar
    MenuLocation:Modificación → Rebajar
-   Workbenches:[Borrador](Draft_Module/es.md), [Arquitectura](Arch_Module/es.md)
+   Workbenches:[Borrador](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
    Shortcut:**D** **N**
    SeeAlso:[Borrador Elevar](Draft_Upgrade/es.md), [Pieza Cortar](Part_Cut/es.md)
 ---
-
-
-</div>
 
 ## Descripción
 
@@ -77,13 +74,7 @@ doc.recompute()
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
  

@@ -1,5 +1,12 @@
 ---
-- GuiCommand:/ro   Name:Draft Line   Name/ro:Draft Line   Workbenches:[Arch](Draft_Module/ro___Draft]],_[[Arch_Module/ro.md)|MenuLocation:Draft → Line   Shortcut:L I   SeeAlso:[Draft Wire](Draft_Wire/ro.md)---
+- GuiCommand:/ro
+   Name:Draft Line
+   Name/ro:Draft Line
+   MenuLocation:Draft → Line
+   Workbenches:[Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
+   Shortcut:**L** **I**
+   SeeAlso:[Draft Wire](Draft_Wire/ro.md)
+---
 
 
 </div>

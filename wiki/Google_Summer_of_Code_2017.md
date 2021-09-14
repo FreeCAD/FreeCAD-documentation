@@ -1,3 +1,5 @@
+# Google Summer of Code 2017
+
 This is the **2017** GSoC page.
 
 **The 2018 Google Summer of Code page is located [here](Google_Summer_of_Code_2018.md).**

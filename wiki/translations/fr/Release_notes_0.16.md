@@ -1,6 +1,6 @@
- FreeCAD 0.16 a été publié le 18 avril 2016, obtenez la depuis la page [Github](https://github.com/FreeCAD/FreeCAD/releases). Ceci est un résumé des changements les plus intéressants. La liste complète des changements peut être trouvée dans [sur Mantis (en anglais)](http://www.freecadweb.org/tracker/changelog_page.php).
+# Release notes 0.16/fr
 
-Les versions plus anciennes : [0.15](Release_notes_0.15/fr.md) - [0.14](Release_notes_0.14/fr.md) - [0.13](Release_notes_013/fr.md) - [0.12](Release_notes_012/fr.md) - [0.11](Release_notes_011/fr.md)
+ FreeCAD 0.16 a été publié le 18 avril 2016, obtenez la depuis la page [Github](https://github.com/FreeCAD/FreeCAD/releases). Ceci est un résumé des changements les plus intéressants. La liste complète des changements peut être trouvée dans [sur Mantis (en anglais)](http://www.freecadweb.org/tracker/changelog_page.php). Les versions plus anciennes : [0.15](Release_notes_0.15/fr.md) - [0.14](Release_notes_0.14/fr.md) - [0.13](Release_notes_0.13/fr.md) - [0.12](Release_notes_0.12/fr.md) - [0.11](Release_notes_0.11/fr.md)
 <img alt="" src=images/Satnogs_Rotator_FreeCAD.jpg  style="width:1024px;">
 
 
@@ -64,15 +64,9 @@ FreeCAD supporte maintenant de nouveaux styles de navigation dont un tactile. Ce
 
 <img alt="" src=images/Draft_subdivisions.jpg  style="width:1024px;">
 
-
-<div class="mw-translate-fuzzy">
-
 ## Atelier Drawing 
 
 -   Un nouvel objet **[Vue tableur](Drawing_SpreadsheetView/fr.md)** permet de placer une région de cellules d\'un [tableur](Spreadsheet_Workbench/fr.md) dans une page de dessin.
-
-
-</div>
 
 <img alt="" src=images/Drawing_spreadsheetview.jpg  style="width:1024px;">
 
@@ -114,13 +108,7 @@ FreeCAD supporte maintenant de nouveaux styles de navigation dont un tactile. Ce
 
 Un nouvel [Atelier Path](Path_Workbench/fr.md) a été ajouté à FreeCAD. Cet atelier bien qu\'encore en développement implémente déjà quelques opérations CNC et permet d\'exporter le fichier [G-code](https://en.wikipedia.org/wiki/G-code) vers diverse variété de machines CNC.
 
-
-<div class="mw-translate-fuzzy">
-
-Dans son état actuel, l\'atelier permet de créer des profiles et des poches autour d\'objets basés sur [Part](Part_Workbench/fr.md), de créer des chemin complexe en joignant plusieurs partie de chemin, inspecter et éditer le G-code de chaque chemin, gérer la banque d\'outils et choisir entre différents scripts pre-post-processing lors de l\'import et l\'export de G-code. Il propose aussi une [API python](Path_scripting.md) complète.
-
-
-</div>
+Dans son état actuel, l\'atelier permet de créer des profiles et des poches autour d\'objets basés sur [Part](Part_Workbench/fr.md), de créer des chemin complexe en joignant plusieurs partie de chemin, inspecter et éditer le G-code de chaque chemin, gérer la banque d\'outils et choisir entre différents scripts pre-post-processing lors de l\'import et l\'export de G-code. Il propose aussi une [API Python](Path_scripting/fr.md) complète.
 
 ## Modules Additionnels 
 
@@ -133,4 +121,4 @@ Plusieurs nouveaux [ateliers complémentaires](https://github.com/FreeCAD/FreeCA
 
 ![](images/Macro_installer_02.jpg )
 
-[Category:News{{\#translation:}}](Category:News.md) [Category:Documentation{{\#translation:}}](Category:Documentation.md) [Category:Releases{{\#translation:}}](Category:Releases.md)
+[Category:News](Category:News.md) [Category:Documentation](Category:Documentation.md) [Category:Releases](Category:Releases.md)

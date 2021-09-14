@@ -1,3 +1,5 @@
+# Macro EdgesToArc/de
+
  {{Macro/de
 |Name=EdgesToArc
 |Translate=EdgesToArc

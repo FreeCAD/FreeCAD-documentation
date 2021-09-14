@@ -1,7 +1,7 @@
 ---
 - GuiCommand:/ru
-   Name:Spreadsheet SetAlias
-   Name/ru:Установить псевдоним для выбранной ячейки
+   Name/ru:Установить псевдоним
+   Name:Spreadsheet_SetAlias
    MenuLocation:-
    Workbenches:[Spreadsheet](Spreadsheet_Workbench/ru.md)
    Version:0.17
@@ -13,16 +13,10 @@
 
 ## Применение
 
-
-<div class="mw-translate-fuzzy">
-
 1.  Убедитесь, что имеется активная открытая **<img src=images/Spreadsheet_CreateSheet.svg style="width:16px"> [электронная таблица](Spreadsheet_CreateSheet/ru.md)**, чтобы кнопка была активна.
 2.  Выберите ячейку.
 3.  Нажмите кнопку **<img src=images/Spreadsheet_SetAlias.svg style="width:16px"> [Spreadsheet SetAlias](Spreadsheet_SetAlias/ru.md)**.
-4.  Введите псевдоним, который должен состоять из простых буквенно-цифровых латинских символов `[A-Za-z_]`, без пробелов и специальных символов.
-
-
-</div>
+4.  Введите псевдоним. В названии допускаются только буквы, цифры и символ подчеркивания: (`A` - `Z`, `a` - `z`, `0` - `9` и `_`).
 
 
 

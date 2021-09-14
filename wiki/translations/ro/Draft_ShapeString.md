@@ -1,5 +1,12 @@
 ---
-- GuiCommand:/ro   Name:Draft ShapeString   Name/ro:Draft ShapeString   Workbenches:[Arch](Draft_Module/ro___Draft]],_[[Arch_Module/ro.md)|MenuLocation:Draft → Shape from text ...   Shortcut:S S   SeeAlso:[Draft Text](Draft_Text/ro.md), [Part Extrude](Part_Extrude/ro.md)---
+- GuiCommand:/ro
+   Name:Draft ShapeString
+   Name/ro:Draft ShapeString
+   MenuLocation:Draft → Shape from text ...
+   Workbenches:[Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
+   Shortcut:**S** **S**
+   SeeAlso:[Draft Text](Draft_Text/ro.md), [Part Extrude](Part_Extrude/ro.md)
+---
 
 
 </div>

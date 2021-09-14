@@ -1,3 +1,5 @@
+# Std File Menu/ko
+
 
 
 
@@ -94,4 +96,4 @@
 
 }}  
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

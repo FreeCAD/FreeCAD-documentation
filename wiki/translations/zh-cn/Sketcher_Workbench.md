@@ -1,3 +1,5 @@
+# Sketcher Workbench/zh-cn
+
 
 
 
@@ -25,21 +27,53 @@
 
 *一个全约束草图*
 
+## Basics of constraint sketching 
+
+
+<div class="mw-translate-fuzzy">
+
 ## 约束草图的基础
 
 为了解释草图编辑器的工作原理，将其与"传统的"起草方式进行比较可能是有用的。
+
+
+</div>
+
+#### Traditional Drafting 
+
+
+<div class="mw-translate-fuzzy">
 
 #### 传统起草
 
 CAD绘图的传统方式继承于旧的[绘图板](http://en.wikipedia.org/wiki/Drawing_board). [正交（2D）视图](http://en.wikipedia.org/wiki/Multiview_orthographic_projection) 手动绘制，用于生产技术图纸（也称为蓝图）。对象被精确地绘制到预期的尺寸或尺寸上。如果要从（0,0）开始绘制长度为100mm的水平线，您可以激活线条工具，点击屏幕或输入第一个点的（0,0）坐标，然后再次点击或在（100,0）处输入第二点坐标。或者你会画你的线，而不考虑它的位置，然后移动它。绘制几何图形后，可以向其添加尺寸。
 
+
+</div>
+
+#### Constraint Sketching 
+
+
+<div class="mw-translate-fuzzy">
+
 #### 约束草图
 
 **草图**远离这个逻辑。对象不需要完全按照您的意图进行绘制，因为它们将在稍后被约束定义。对象可以松散绘制，只要不受约束，就可以进行修改。它们实际上是"浮动"，可以移动，拉伸，旋转，缩放等等。这在设计过程中给予了很大的灵活性。
 
+
+</div>
+
+#### What are constraints? 
+
+
+<div class="mw-translate-fuzzy">
+
 #### 什么是约束？
 
 使用约束来限制对象的自由度。例如，没有约束的线条具有4 [自由度](#Degrees_Of_Freedom.md)（简写为"DOF"）：可以水平或垂直移动，可以被拉伸，并且可以旋转。
+
+
+</div>
 
 应用水平或垂直约束或角度约束（相对于另一条线或与其中一条轴）将限制其旋转能力，从而使其具有3个自由度。锁定其原点之一的点将消除另外2个自由度。并且应用维度约束将消除最后的自由度。然后，该行被认为是"完全受限制的"。
 
@@ -53,9 +87,17 @@ CAD绘图的传统方式继承于旧的[绘图板](http://en.wikipedia.org/wiki/
 
 有两种约束：几何和尺寸。它们在下面的[\'工具\'部分中详细介绍](#The_tools.md)。
 
+#### What the Sketcher is not good for 
+
+
+<div class="mw-translate-fuzzy">
+
 ## 草图编辑器不擅长于
 
 草图编辑器不打算制作2D蓝图。草图一旦用于生成实体特征后，会自动隐藏。约束仅在草图编辑模式下可见。
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -77,69 +119,47 @@ CAD绘图的传统方式继承于旧的[绘图板](http://en.wikipedia.org/wiki/
 
 Once a Sketch is fully constrained, the Sketch features will turn green; Construction Geometry will remain blue. It is usually \"finished\" at this point and suitable for use in creating a 3D solid. However, once the Sketch dialog is closed it may be worthwhile going to <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> <img src=images/Part_CheckGeometry.svg style="width:Part Workbench](Part_Workbench.md) and running **[16px"> [Check geometry](Part_CheckGeometry.md)** to ensure there are no features in the Sketch which may cause later problems.
 
+## The tools 
+
+
+<div class="mw-translate-fuzzy">
+
 ## 工具
 
 草图工作台工具都位于加载草图工作台时出现的草图菜单中。
 
+
+</div>
+
 ### General
 
--   <img alt="" src=images/Sketcher_NewSketch.png‎‎  style="width:32px;"> [New sketch](Sketcher_NewSketch.md): 在所选的面或平面上创建新的草图。如果在执行此工具时未选择任何面, 则系统将提示用户从弹出窗口中选择一个平面。
+-   <img alt="" src=images/Sketcher_NewSketch.svg‎‎  style="width:32px;"> [创建草图](Sketcher_NewSketch/zh-cn.md): 在所选的面或平面上创建新的草图。如果在执行此工具时未选择任何面, 则系统将提示用户从弹出窗口中选择一个平面。
 
--   <img alt="" src=images/Sketcher_EditSketch.png  style="width:32px;"> [Edit sketch](Sketcher_EditSketch.md): 编辑已选择的草图。这会开启[草图对话框](Sketcher_Dialog.md)。
+-   <img alt="" src=images/Sketcher_EditSketch.svg  style="width:32px;"> [编辑草绘](Sketcher_EditSketch/zh-cn.md): 编辑已选择的草图。这会开启[草图对话框](Sketcher_Dialog.md)。
 
--   <img alt="" src=images/Sketcher_LeaveSketch.png  style="width:32px;"> [Leave sketch](Sketcher_LeaveSketch.md): 离开草图编辑模式。
+-   <img alt="" src=images/Sketcher_LeaveSketch.svg  style="width:32px;"> [离开草图](Sketcher_LeaveSketch/zh-cn.md): 离开草图编辑模式。
 
--   <img alt="" src=images/Sketcher_ViewSketch.png‎  style="width:32px;"> [View sketch](Sketcher_ViewSketch.md): 设置垂直于草图平面的模型视图。
+-   <img alt="" src=images/Sketcher_ViewSketch.svg  style="width:32px;"> [查看草图](Sketcher_ViewSketch/zh-cn.md): 设置垂直于草图平面的模型视图。
 
+-   <img alt="" src=images/Sketcher_ViewSection.svg  style="width:32px;"> [查看截面](Sketcher_ViewSection/zh-cn.md): 创建一个截面，并暂时隐藏此草图平面前侧的所有内容。
 
-<div class="mw-translate-fuzzy">
+-   <img alt="" src=images/Sketcher_MapSketch.svg  style="width:32px;"> [映射草图至面](Sketcher_MapSketch/zh-cn.md): 将草图映射到以前选定的实心面。
 
--   <img alt="" src=images/Sketcher_ViewSection.png  style="width:32px;"> [View section](Sketcher_ViewSection.md): 创建一个截面，并暂时隐藏此草图平面前侧的所有内容。<small>(v0.18)</small> 
+-   <img alt="" src=images/Sketcher_ReorientSketch.svg  style="width:32px;"> [调整草图方向](Sketcher_ReorientSketch/zh-cn.md): 允许您更改草图的位置
 
+-   <img alt="" src=images/Sketcher_ValidateSketch.svg  style="width:32px;"> [校验草图...](Sketcher_ValidateSketch/zh-cn.md): 它允许你检查是否有不同点的公差和匹配。
 
-</div>
+-   <img alt="" src=images/Sketcher_MergeSketches.svg  style="width:32px;"> [合并草图](Sketcher_MergeSketches/zh-cn.md): 合并两个或多个草图。
 
--   <img alt="" src=images/Sketcher_MapSketch.png‎  style="width:32px;"> [Map sketch to face](Sketcher_MapSketch.md): 将草图映射到以前选定的实心面。
+-   <img alt="" src=images/Sketcher_MirrorSketch.svg  style="width:32px;"> [镜像草图](Sketcher_MirrorSketch/zh-cn.md): 沿 x 轴、y轴或原点镜像草图。
 
--   [Reorient sketch ](Sketcher_Reorient.md): 允许您更改草图的位置
-
-
-<div class="mw-translate-fuzzy">
-
--   [Validate sketch](Sketcher_ValidateSketch.md): 它允许你检查是否有不同点的公差和匹配。
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Sketcher_MergeSketch.png‎  style="width:32px;"> [Merge sketches](Sketcher_MergeSketches.md): 合并两个或多个草图。<small>(v0.15)</small> 
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Sketcher_MirrorSketch.png‎  style="width:32px;"> [Mirror sketch](Sketcher_MirrorSketch.md): 沿 x 轴、y轴或原点镜像草图。<small>(v0.16)</small> 
-
-
-</div>
-
--   <img alt="" src=images/Sketcher_StopOperation.svg  style="width:32px;"> [Stop operation](Sketcher_StopOperation.md): when in edit mode, stop the current operation, whether that is drawing, setting constraints, etc.
+-   <img alt="" src=images/Sketcher_StopOperation.svg  style="width:32px;"> [Stop operation](Sketcher_StopOperation.md): When in edit mode, stop the current operation, whether that is drawing, setting constraints, etc.
 
 #### 草图编辑器几何工具
 
 这是创建对象的工具。
 
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Sketcher_CreatePoint.png  style="width:32px;"> [Point](Sketcher_CreatePoint.md): 绘制一个点.
-
-
-</div>
+-   <img alt="" src=images/Sketcher_CreatePoint.svg  style="width:32px;"> [Point](Sketcher_CreatePoint.md): 绘制一个点.
 
 
 <div class="mw-translate-fuzzy">
@@ -151,13 +171,7 @@ Once a Sketch is fully constrained, the Sketch features will turn green; Constru
 
 -   <img alt="" src=images/Sketcher_CompCreateArc.png  style="width:48px;"> [Create an arc](Sketcher_CompCreateArc.md): 这是一个位于草图工作台中的图标菜单，其中列有下列命令：
 
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Sketcher_Arc.png  style="width:32px;"> [Arc](Sketcher_CreateArc.md): 从中心，半径，起始角度和最终角度绘制弧段。
-
-
-</div>
+:\* <img alt="" src=images/Sketcher_CreateArc.svg  style="width:32px;"> [Arc](Sketcher_CreateArc.md): 从中心，半径，起始角度和最终角度绘制弧段。
 
 
 <div class="mw-translate-fuzzy">
@@ -169,21 +183,9 @@ Once a Sketch is fully constrained, the Sketch features will turn green; Constru
 
 -   <img alt="" src=images/Sketcher_CompCreateCircle.png  style="width:48px;"> [Create a circle](Sketcher_CompCreateCircle.md): 这是一个位于草图工具栏中的图标菜单，其中列有下列命令：
 
+:\* <img alt="" src=images/Sketcher_CreateCircle.svg  style="width:32px;"> [Circle](Sketcher_CreateCircle.md): 从中心和半径画一个圆。
 
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Sketcher_Circle.png  style="width:32px;"> [Circle](Sketcher_CreateCircle.md): 从中心和半径画一个圆。
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Sketcher_CreateCircle3Point.png  style="width:32px;"> [Circle by 3 Point](Sketcher_Create3PointCircle.md) : 从圆周上的三个点画一个圆。
-
-
-</div>
+:\* <img alt="" src=images/Sketcher_Create3PointCircle.svg  style="width:32px;"> [Circle by 3 point](Sketcher_Create3PointCircle.md) : 从圆周上的三个点画一个圆。
 
 
 <div class="mw-translate-fuzzy">
@@ -232,77 +234,23 @@ Once a Sketch is fully constrained, the Sketch features will turn green; Constru
 
 -   <img alt="" src=images/Sketcher_CompCreateRegularPolygon.png  style="width:48px;"> [Create regular polygon](Sketcher_CompCreateRegularPolygon.md): 这是一个位于草图工具栏中的图标菜单，其中列有下列命令：
 
+-   <img alt="" src=images/Sketcher_CreateTriangle.png  style="width:32px;"> [Triangle](Sketcher_CreateTriangle.md): 在几何圆草图中绘制一个正三角形。
 
-<div class="mw-translate-fuzzy">
+-   <img alt="" src=images/Sketcher_CreateSquare.png  style="width:32px;"> [Square](Sketcher_CreateSquare.md): 在几何圆草图中绘制一个正方形。
 
--   <img alt="" src=images/Sketcher_CreateTriangle.png  style="width:32px;"> [Triangle](Sketcher_CreateTriangle.md): 在几何圆草图中绘制一个正三角形。 <small>(v0.15)</small> 
+-   <img alt="" src=images/Sketcher_CreatePentagon.png  style="width:32px;"> [Pentagon](Sketcher_CreatePentagon.md): 在几何圆草图中绘制一个正五面。
 
+-   <img alt="" src=images/Sketcher_CreateHexagon.png  style="width:32px;"> [Hexagon](Sketcher_CreateHexagon.md): 在几何圆草图中绘制一个正六边形。
 
-</div>
+-   <img alt="" src=images/Sketcher_CreateHeptagon.png  style="width:32px;"> [Heptagon](Sketcher_CreateHeptagon.md): 在几何圆草图中绘制一个正七边形。
 
+-   <img alt="" src=images/Sketcher_CreateOctagon.png  style="width:32px;"> [Octagon](Sketcher_CreateOctagon.md): 在几何圆草图中绘制一个正八边形。
 
-<div class="mw-translate-fuzzy">
+:\* <img alt="" src=images/Sketcher_CreateRegularPolygon.svg  style="width:32px;"> [Create Regular Polygon](Sketcher_CreateRegularPolygon.md) : 根据指定的边数与拾取的两个点：中点与一个角点来绘制一个正多边形。
 
--   <img alt="" src=images/Sketcher_CreateSquare.png  style="width:32px;"> [Square](Sketcher_CreateSquare.md): 在几何圆草图中绘制一个正方形。 <small>(v0.15)</small> 
+-   <img alt="" src=images/Sketcher_CreateSlot.svg  style="width:32px;"> [Slot](Sketcher_CreateSlot.md): 通过选择一个半圆的中心和另一个半圆的终点绘制椭圆。
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Sketcher_CreatePentagon.png  style="width:32px;"> [Pentagon](Sketcher_CreatePentagon.md): 在几何圆草图中绘制一个正五面。 <small>(v0.15)</small> 
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Sketcher_CreateHexagon.png  style="width:32px;"> [Hexagon](Sketcher_CreateHexagon.md): 在几何圆草图中绘制一个正六边形。 <small>(v0.15)</small> 
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Sketcher_CreateHeptagon.png  style="width:32px;"> [Heptagon](Sketcher_CreateHeptagon.md): 在几何圆草图中绘制一个正七边形。 <small>(v0.15)</small> 
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Sketcher_CreateOctagon.png  style="width:32px;"> [Octagon](Sketcher_CreateOctagon.md): 在几何圆草图中绘制一个正八边形。 <small>(v0.15)</small> 
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-:\* <img alt="" src=images/Sketcher_CreateRegularPolygon.png  style="width:32px;"> [Create Regular Polygon](Sketcher_CreateRegularPolygon.md) : 根据指定的边数与拾取的两个点：中点与一个角点来绘制一个正多边形。
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Sketcher_CreateSlot.png  style="width:32px;"> [Slot](Sketcher_CreateSlot.md): 通过选择一个半圆的中心和另一个半圆的终点绘制椭圆。
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Sketcher_CreateFillet.png  style="width:32px;"> [Fillet](Sketcher_CreateFillet.md): 在一条线之间加入两条线之间的圆角。选择两行或单击角点，然后激活该工具。
-
-
-</div>
+-   <img alt="" src=images/Sketcher_CreateFillet.svg  style="width:32px;"> [Fillet](Sketcher_CreateFillet.md): 在一条线之间加入两条线之间的圆角。选择两行或单击角点，然后激活该工具。
 
 
 <div class="mw-translate-fuzzy">
@@ -345,9 +293,17 @@ Once a Sketch is fully constrained, the Sketch features will turn green; Constru
 
 约束用于定义长度、在草图元素之间设置规则以及沿垂直和水平轴锁定草图。某些约束要求 [辅助约束](Sketcher_helper_constraint.md)
 
+#### Geometric constraints 
+
+
+<div class="mw-translate-fuzzy">
+
 #### 几何约束
 
 不与数值数据关联
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -423,11 +379,19 @@ Once a Sketch is fully constrained, the Sketch features will turn green; Constru
 
 -   <img alt="" src=images/Sketcher_ConstrainBlock.svg  style="width:32px;"> [Block](Sketcher_ConstrainBlock.md): it blocks an edge from moving, that is, it prevents its vertices from changing their current positions. It should be particularly useful to fix the position of B-Splines. See the [Block Constraint forum topic](https://forum.freecadweb.org/viewtopic.php?f=9&t=26572).
 
+#### Dimensional constraints 
+
+
+<div class="mw-translate-fuzzy">
+
 #### 尺寸約束
 
 **与数值数据关联**
 
 对于这些约束, 可以使用[表达式](Expressions/zh-cn.md)。数据可能取自 [电子表格](Spreadsheet_Workbench/zh-cn.md)
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -574,17 +538,17 @@ The following tools can be used the change the effect of constraints:
 
 </div>
 
--   <img alt="" src=images/Sketcher_Symmetry.svg  style="width:32px;"> [Symmetry](Sketcher_Symmetry.md): Copies a sketcher element symmetrical to a chosen line
+-   <img alt="" src=images/Sketcher_Symmetry.svg  style="width:32px;"> [Symmetry](Sketcher_Symmetry.md): Copies a sketcher element symmetrical to a chosen line.
 
--   <img alt="" src=images/Sketcher_Clone.svg  style="width:32px;"> [Clone](Sketcher_Clone.md): Clones a sketcher element
+-   <img alt="" src=images/Sketcher_Clone.svg  style="width:32px;"> [Clone](Sketcher_Clone.md): Clones a sketcher element.
 
--   <img alt="" src=images/Sketcher_Copy.svg  style="width:32px;"> [Copy](Sketcher_Copy.md): Copies a sketcher element
+-   <img alt="" src=images/Sketcher_Copy.svg  style="width:32px;"> [Copy](Sketcher_Copy.md): Copies a sketcher element.
 
 -   <img alt="" src=images/Sketcher_Move.svg  style="width:32px;"> [Move](Sketcher_Move.md): Moves the selected geometry taking as reference the last selected point.
 
--   <img alt="" src=images/Sketcher_RectangularArray.svg  style="width:32px;"> [Rectangular Array](Sketcher_RectangularArray.md): Creates an array of selected sketcher elements
+-   <img alt="" src=images/Sketcher_RectangularArray.svg  style="width:32px;"> [Rectangular Array](Sketcher_RectangularArray.md): Creates an array of selected sketcher elements.
 
--   <img alt="" src=images/Sketcher_RemoveAxesAlignment.svg  style="width:32px;"> [Remove Axes Alignment](Sketcher_RemoveAxesAlignment.md): Remove axes alignment while trying to preserve the constraint relationship of the selection <small>(v0.20)</small> 
+-   <img alt="" src=images/Sketcher_RemoveAxesAlignment.svg  style="width:32px;"> [Remove Axes Alignment](Sketcher_RemoveAxesAlignment.md): Remove axes alignment while trying to preserve the constraint relationship of the selection. <small>(v0.20)</small> 
 
 -   <img alt="" src=images/Sketcher_DeleteAllGeometry.svg  style="width:32px;"> [Delete All Geometry](Sketcher_DeleteAllGeometry.md): Deletes all geometry from the sketch.
 
@@ -620,9 +584,17 @@ The following tools can be used the change the effect of constraints:
 
 -   <img alt="" src=images/Preferences-general.svg  style="width:32px;"> [Preferences](Sketcher_Preferences.md): Preferences for the **Sketcher** workbench.
 
+## Best Practices 
+
+
+<div class="mw-translate-fuzzy">
+
 ## 最佳做法
 
 每个CAD用户随着时间的推移发展自己的工作方式，但跟随一些有用的一般原则。
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -670,4 +642,4 @@ The [Sketcher scripting](Sketcher_scripting.md) page contains examples on how to
 
 }} 
 
-[分类:用户文档](Category:User_Documentation/zh-cn.md) [Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[分类:用户文档](Category:User_Documentation/zh-cn.md) [Category:Workbenches](Category:Workbenches.md)

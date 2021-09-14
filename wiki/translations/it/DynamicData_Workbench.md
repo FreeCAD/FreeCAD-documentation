@@ -1,3 +1,5 @@
+# DynamicData Workbench/it
+
  <img alt="" src=images/DynamicData_workbench_icon.svg  style="width:240px;"> 
 *align=center|L'icona dell'ambiente aggiuntivo DynamicData*
 
@@ -42,4 +44,4 @@ Sono in fase di sviluppo ulteriori nuovi ambienti.
 
 
 
-[Category:Addons{{\#translation:}}](Category:Addons.md) [Category:External Workbenches{{\#translation:}}](Category:External_Workbenches.md)
+[Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)

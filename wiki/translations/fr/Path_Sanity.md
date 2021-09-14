@@ -2,52 +2,23 @@
 - GuiCommand:/fr
    Name:Path Sanity
    Name/fr:Path Rechercher des erreurs
-   MenuLocation:
+   MenuLocation:Path → Vérifier le travail path pour les erreurs courantes
    Workbenches:[Path](Path_Workbench/fr.md)
+   Shortcut:**P** **S**
    Version:0.19
-   SeeAlso:
 ---
-
-
-</div>
 
 ## Description
 
+De nombreux utilisateurs de Path sont des amateurs et des bricoleurs. En tant que tels, ils utilisent leurs machines CNC pour exécuter le G-code qu\'ils ont configuré et généré eux-mêmes. Ce n\'est pas le cas de la plupart des utilisateurs professionnels/commerciaux. Dans les ateliers professionnels, les personnes chargées de créer le G-code (programmeurs CNC) et celles qui l\'exécutent sur les machines (opérateurs CNC) sont différentes.
 
-<div class="mw-translate-fuzzy">
+Les amateurs exécutent généralement le G-code quelques minutes après le post-traitement et probablement seulement une ou deux fois. Chez un professionnel, un G-code éprouvé peut être exécuté plusieurs fois pendant des mois ou des années après sa création initiale.
 
-## Description 
-
-De nombreux utilisateurs de Path sont des amateurs et des bricoleurs. En tant que tels, ils utilisent leurs machines CNC pour exécuter [gcode](gcode.md) qu\'ils ont configuré et généré eux-mêmes. Ce n\'est pas le cas pour la plupart des utilisateurs professionnels/commerciaux. Dans les ateliers professionnels, différentes personnes sont responsables de la création du gcode (programmeurs CNC) à partir de ceux qui l\'exécutent sur les machines (opérateur CNC).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Les amateurs exécutent généralement le gcode quelques minutes après le post-traitement et probablement seulement une ou deux fois. Chez un professionnel, un gcode éprouvé peut être exécuté plusieurs fois pendant des mois ou des années après sa création initiale.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Un problème qui se pose dans un atelier CNC professionnel est qu\'il existe de nombreuses hypothèses faites par le programmeur qui ne sont PAS communiquées dans le gcode lui-même. Par exemple, le gcode peut appeler un outil \"T3\" mais à moins qu\'il ne soit commenté, le gcode ne dit pas à quel type d\'outil \"T3\" se réfère. On suppose simplement que T3 dans le système CAM est le même que T3 sur la machine. Il existe de nombreuses hypothèses comme celle-ci concernant la configuration de la machine, l\'outillage, le matériau, l\'orientation des pièces, etc. Même si le gcode est parfait, si l\'opérateur ne configure pas la machine avec les mêmes hypothèses, il peut planter.
-
-
-</div>
+Un problème qui se pose dans un atelier CNC professionnel est qu\'il existe de nombreuses hypothèses faites par le programmeur qui ne sont PAS communiquées dans le G-code lui-même. Par exemple, le G-code peut appeler un outil \"T3\" mais à moins qu\'il ne soit commenté, le G-code ne dit pas à quel type d\'outil \"T3\" se réfère. On suppose simplement que T3 dans le système CAM est le même que T3 sur la machine. Il existe de nombreuses hypothèses comme celle-ci concernant la configuration de la machine, l\'outillage, le matériau, l\'orientation des pièces, etc. Même si le G-code est parfait, si l\'opérateur ne configure pas la machine avec les mêmes hypothèses, il peut planter.
 
 Les ateliers commerciaux créent souvent un \'manuel d\'installation\' qui documente toutes ces hypothèses et donne aux opérateurs ce dont ils ont besoin pour configurer la machine et produire une pièce.
 
-
-<div class="mw-translate-fuzzy">
-
-[Path Sanity](Path_Sanity/fr.md) est l\'outil de l\'atelier Path pour générer ce type d\'informations. La sortie de la commande Path Sanity est un fichier html autonome avec des images intégrées. <img alt="Ci-dessus: exemple de rapport généré par Path Sanity" src=images/Sanity.jpg  style="width:400" height="600px;">
-
-
-</div>
+[Path Rechercher des erreurs](Path_Sanity/fr.md) est l\'outil de l\'atelier Path pour générer ce type d\'informations. La sortie de la commande Path Sanity est un fichier .html autonome avec des images intégrées. <img alt="Ci-dessus: exemple de rapport généré par Path Rechercher des erreurs" src=images/Sanity.jpg  style="width:400" height="600px;">
 
 ## À propos du rapport 
 
@@ -67,27 +38,15 @@ Détaille l\'objet Stock de la Tâche (Job). C\'est un domaine dans lequel Path 
 
 ### Tool Data 
 
-
-<div class="mw-translate-fuzzy">
-
-Contient des sous-sections pour chaque numéro d\'outil utilisé dans le travail. Il détaille ce que le programmeur suppose que l\'outil est et quelles opérations l\'utilisent. Cette section ne fonctionne qu\'avec le nouveau système de toolbit. C\'est un autre domaine où Path doit être amélioré. Plus précisément, les Toolbits ont besoin d\'attributs supplémentaires sur l\'outil comme le fabricant/l\'url/le numéro de pièce.
-
-
-</div>
+Comporte des sous-sections pour chaque numéro d\'outil utilisé dans la tâche. Elle détaille ce que le programmeur suppose être l\'outil et quelles opérations l\'utilisent. Cette section ne fonctionne qu\'avec le nouveau système Toolbit. Il s\'agit d\'un autre domaine dans lequel Path doit être amélioré. Plus précisément, les Toolbits ont besoin d\'attributs supplémentaires concernant l\'outil, comme le fabricant, l\'adresse et le numéro de pièce.
 
 ### Output
 
-
-<div class="mw-translate-fuzzy">
-
-Donne des détails sur où et quand le gcode a été post-traité. Il indique également si le travail comporte des arrêts facultatifs/obligatoires afin que l\'opérateur sache s\'il peut s\'éloigner de la machine en toute sécurité pendant une course.
-
-
-</div>
+Donne des détails sur où et quand le G-code a été post-traité. Il indique également si le travail comporte des arrêts facultatifs/obligatoires afin que l\'opérateur sache s\'il peut s\'éloigner de la machine en toute sécurité pendant une course.
 
 ### Coolant
 
-Liquide de refroidissement
+Liquide de refroidissement.
 
 ### Fixtures and Work-holding 
 
@@ -99,18 +58,15 @@ Avertissements et erreurs détectés par [Path Rechercher des erreurs](Path_Sani
 
 ## Utilisation
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Sélectionne un travail de chemin dans la [vue arborescente](Tree_view/fr.md)
-2.  Appuyez sur le bouton <img alt="" src=images/Path_Sanity.svg  style="width:24px;"> [Path Sanity](Path_Sanity/fr.md).
-    -   Les informations pertinentes sont collectées dans un dictionnaire python puis formatées au format asciidoc.
-    -   Le fichier asciidoc est écrit sur le disque au même emplacement que le fichier qui sera post-traité.
-    -   Un processus externe appelle asciidoctor pour lire l\'asciidoc et générer le html.
-    -   Cela lancera automatiquement le navigateur Web du système pour afficher le rapport HTML autonome généré.
-
-
-</div>
+1.  Sélectionnez un <img alt="" src=images/Path_Job.svg  style="width:16px;"> [Path Tâche](Path_Job/fr.md) dans la [Vue en arborescence](Tree_view/fr.md).
+2.  Il existe plusieurs façons de lancer la commande :
+    -   Appuyez sur le bouton **<img src="images/Path_Sanity.svg" width=16px> [Vérifier le travail path pour les erreurs courantes](Path_Sanity/fr.md)**.
+    -   Sélectionnez **Path → <img src="images/Path_Sanity.svg" width=16px> Vérifier le travail path pour les erreurs courantes** dans le menu.
+    -   Utilisez le raccourci clavier : **P** puis **S**.
+3.  Les informations pertinentes sont rassemblées dans un dictionnaire Python puis formatées au format asciidoc.
+4.  Le fichier asciidoc est écrit sur le disque au même endroit que le fichier qui sera post-traité.
+5.  Un processus externe appelle asciidoctor pour lire le fichier asciidoc et générer le fichier .html.
+6.  Ceci lancera automatiquement le navigateur web du système pour visualiser le rapport HTML autonome généré.
 
 ## Notez un ASCIIDOC et un Asciidoctor 
 
@@ -119,13 +75,7 @@ Asciidoc est un format de balisage léger pour la création de notes, d\'article
 Asciidoctor est un processeur de texte open-source rapide pour la conversion d\'asciidoc en HTML, PDF ou d\'autres formats. Il est disponible pour Linux, Windows et MacOS. Asciidoctor n\'est pas installé avec FreeCAD. Si vous utilisez Path Sanity sans installer Asciidoctor, le fichier source asciidoc sera généré mais le HTML résultant ne sera pas produit. [Site Asciidoctor](https://asciidoctor.org/)
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Path_Tools_navi

@@ -10,17 +10,9 @@
 
 </div>
 
-## Description
+## Beschreibung
 
-
-<div class="mw-translate-fuzzy">
-
-## Zusammenfassung
-
-Erstellt wird ein parametrisierter Torus: Parameter sind der mittlere Ring-Radius dieses \"Schwimmringes\" und der Radius seines Querschnitts.
-
-
-</div>
+Erzeugt einen einfachen parametrischen Torus mit Position, Winkel1, Winkel2, Winkel3, Radius1 und Radius2 als Parameter.
 
 <img alt="" src=images/SimpleTorus.jpg  style="width:400px;">
 

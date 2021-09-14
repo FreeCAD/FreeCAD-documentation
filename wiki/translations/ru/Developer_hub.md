@@ -1,3 +1,5 @@
+# Developer hub/ru
+
 
 
 ![150](images/Crystal_Clear_app_tutorials.png )
@@ -136,4 +138,4 @@ FreeCAD, though usable in certain areas, is at the beginning of a long way into 
 
 
 
-[Category:Hubs{{\#translation:}}](Category:Hubs.md) [Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md)
+[Category:Hubs](Category:Hubs.md) [Category:Developer Documentation](Category:Developer_Documentation.md)

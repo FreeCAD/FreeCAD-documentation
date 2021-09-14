@@ -1,3 +1,5 @@
+# Macro FlattenWire3Points
+
   {{Macro
 |Name=FlattenWire3Points
 |Icon=Macro_FlattenWire3Points.png

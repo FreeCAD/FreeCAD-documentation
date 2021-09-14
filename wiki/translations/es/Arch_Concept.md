@@ -1,3 +1,5 @@
+# Arch Concept/es
+
 
 
 
@@ -13,7 +15,7 @@ If you are not involved with the development discussed here:<br>
 
 <div class="mw-translate-fuzzy">
 
-Esta página es un intento de recoger ideas sobre el diseño paramétrico en el campo de arquitectura para construir el [Módulo de Arquitectura](Arch_Module/es.md). Ya que es un poco diferente que el campo de la mecánica, quiero definir conceptos un poco mejor antes de pensar en como comenzar a ponerlo en práctica\... ¡ Siéntete libre de añadir sus ideas!
+Esta página es un intento de recoger ideas sobre el diseño paramétrico en el campo de arquitectura para construir el [Módulo de Arquitectura](Arch_Workbench/es.md). Ya que es un poco diferente que el campo de la mecánica, quiero definir conceptos un poco mejor antes de pensar en como comenzar a ponerlo en práctica\... ¡ Siéntete libre de añadir sus ideas!
 
 
 </div>
@@ -212,4 +214,4 @@ El siguiente diagrama ilustra las relaciones entre todos los objetos descritos h
 
 <img alt="Objetos para capturar el conocimiento de la construcción" src=images/BldgComponents.png  style="width:800px;">
 
-[Category:Roadmap{{\#translation:}}](Category:Roadmap.md)
+[Category:Roadmap](Category:Roadmap.md)

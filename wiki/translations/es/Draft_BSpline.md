@@ -3,7 +3,7 @@
    Name:Draft BSpline
    Name/es:Borrador BSpline
    MenuLocation:Borrador → B-Spline 
-   Workbenches:[Borrador](Draft_Module/es.md), [Arquitectura](Arch_Module/es.md)
+   Workbenches:[Borrador](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
    Shortcut:**B** **S**
    Version:0.7
    SeeAlso:[Borrador Hilo](Draft_Wire/es.md), [Borrador CúbicaBezCurva](Draft_CubicBezCurve/es.md), [Borrador BezCurva](Draft_BezCurve/es.md)

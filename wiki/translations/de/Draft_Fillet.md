@@ -3,7 +3,7 @@
    Name:Draft Fillet
    Name/de:Entwurf Verrundung
    MenuLocation:Entwurf → Verrundung
-   Workbenches:[Arbeitsbereich Entwurf](Draft_Module/de.md)
+   Workbenches:[Arbeitsbereich Entwurf](Draft_Workbench/de.md)
    Version:0.19
    SeeAlso:[Entwurf Linie](Draft_Line/de.md), [Entwurf Draht](Draft_Wire/de.md)
 ---

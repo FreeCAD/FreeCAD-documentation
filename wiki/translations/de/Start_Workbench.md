@@ -1,3 +1,5 @@
+# Start Workbench/de
+
 
 
 
@@ -21,4 +23,4 @@ Von dieser Oberfläche aus kannst Du nützliche Informationen einsehen und zu de
 
 
 
-[Category:Start{{\#translation:}}](Category:Start.md) [Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Start](Category:Start.md) [Category:Workbenches](Category:Workbenches.md)

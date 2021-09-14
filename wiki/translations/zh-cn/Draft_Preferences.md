@@ -1,3 +1,5 @@
+# Draft Preferences/zh-cn
+
 
 
 
@@ -67,4 +69,4 @@
 
  
 
-[Category:Preferences{{\#translation:}}](Category:Preferences.md)
+[Category:Preferences](Category:Preferences.md)

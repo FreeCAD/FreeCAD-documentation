@@ -1,3 +1,5 @@
+# Macro Unbind Numpad Shortcuts/fr
+
  {{Macro/fr
 |Name=Macro Unbind Numpad Shortcuts
 |Icon=Macro_Unbind_Numpad_Shortcuts.png

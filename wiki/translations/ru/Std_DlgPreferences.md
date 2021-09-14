@@ -3,7 +3,7 @@
    Name:Std_DlgPreferences
    Name/ru:Настройки...
    MenuLocation:Правка → Настройки...
-   Workbenches:All
+   Workbenches:Все
    SeeAlso:[Редактор настроек](Preferences_Editor/ru.md)
 ---
 

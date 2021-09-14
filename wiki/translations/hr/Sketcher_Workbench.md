@@ -1,3 +1,5 @@
+# Sketcher Workbench/hr
+
 
 
 
@@ -83,7 +85,7 @@ The Sketcher Workbench tools are all located in the Sketch menu that appears whe
 
 -   <img alt="" src=images/Sketcher_MirrorSketch.svg  style="width:32px;"> [Mirror sketch](Sketcher_MirrorSketch.md): Mirror a sketch along the x-axis, the y-axis or the origin.
 
--   <img alt="" src=images/Sketcher_StopOperation.svg  style="width:32px;"> [Stop operation](Sketcher_StopOperation.md): when in edit mode, stop the current operation, whether that is drawing, setting constraints, etc.
+-   <img alt="" src=images/Sketcher_StopOperation.svg  style="width:32px;"> [Stop operation](Sketcher_StopOperation.md): When in edit mode, stop the current operation, whether that is drawing, setting constraints, etc.
 
 ### Geometrije skice 
 
@@ -162,9 +164,17 @@ These are tools for creating objects.
 
 Constraints are used to define lengths, set rules between sketch elements, and to lock the sketch along the vertical and horizontal axes. Some constraints require use of [Helper constraints](Sketcher_helper_constraint.md).
 
+#### Geometric constraints 
+
+
+<div class="mw-translate-fuzzy">
+
 #### Geometrijska ograničenja 
 
 Ova ograničenja nisu povezana sa numeričkim podacima.
+
+
+</div>
 
 -   <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width:32px;"> [Coincident](Sketcher_ConstrainCoincident.md): Affixes a point onto (coincident with) one or more other points.
 
@@ -221,37 +231,37 @@ The following tools can be used the change the effect of constraints:
 
 -   <img alt="" src=images/Sketcher_SelectElementsWithDoFs.svg  style="width:32px;"> [Select solver DOFs](Sketcher_SelectElementsWithDoFs.md): Highlights in green the geometry with degrees of freedom (DOFs), i.e. not fully constrained.
 
--   <img alt="" src=images/Sketcher_CloseShape.svg  style="width:32px;"> [Close Shape](Sketcher_CloseShape.md): Creates a closed shape by applying coincident constraints to endpoints
+-   <img alt="" src=images/Sketcher_CloseShape.svg  style="width:32px;"> [Close Shape](Sketcher_CloseShape.md): Creates a closed shape by applying coincident constraints to endpoints.
 
--   <img alt="" src=images/Sketcher_ConnectLines.svg  style="width:32px;"> [Connect Edges](Sketcher_ConnectLines.md): Connect sketcher elements by applying coincident constraints to endpoints
+-   <img alt="" src=images/Sketcher_ConnectLines.svg  style="width:32px;"> [Connect Edges](Sketcher_ConnectLines.md): Connect sketcher elements by applying coincident constraints to endpoints.
 
--   <img alt="" src=images/Sketcher_SelectConstraints.svg  style="width:32px;"> [Select Constraints](Sketcher_SelectConstraints.md): Selects the constraints of a sketcher element
+-   <img alt="" src=images/Sketcher_SelectConstraints.svg  style="width:32px;"> [Select Constraints](Sketcher_SelectConstraints.md): Selects the constraints of a sketcher element.
 
--   <img alt="" src=images/Sketcher_SelectElementsAssociatedWithConstraints.svg  style="width:32px;"> [Select Elements Associated with constraints](Sketcher_SelectElementsAssociatedWithConstraints.md): Select sketcher elements associated with constraints
+-   <img alt="" src=images/Sketcher_SelectElementsAssociatedWithConstraints.svg  style="width:32px;"> [Select Elements Associated with constraints](Sketcher_SelectElementsAssociatedWithConstraints.md): Select sketcher elements associated with constraints.
 
--   <img alt="" src=images/Sketcher_SelectRedundantConstraints.svg  style="width:32px;"> [Select Redundant Constraints](Sketcher_SelectRedundantConstraints.md): Selects redundant constraints of a sketch
+-   <img alt="" src=images/Sketcher_SelectRedundantConstraints.svg  style="width:32px;"> [Select Redundant Constraints](Sketcher_SelectRedundantConstraints.md): Selects redundant constraints of a sketch.
 
--   <img alt="" src=images/Sketcher_SelectConflictingConstraints.svg  style="width:32px;"> [Select Conflicting Constraints](Sketcher_SelectConflictingConstraints.md): Selects conflicting constraints of a sketch
+-   <img alt="" src=images/Sketcher_SelectConflictingConstraints.svg  style="width:32px;"> [Select Conflicting Constraints](Sketcher_SelectConflictingConstraints.md): Selects conflicting constraints of a sketch.
 
 -   <img alt="" src=images/Sketcher_RestoreInternalAlignmentGeometry.svg  style="width:32px;"> [Show/Hide internal geometry](Sketcher_RestoreInternalAlignmentGeometry.md): Recreates missing/deletes unneeded internal geometry of a selected ellipse, arc of ellipse/hyperbola/parabola or B-spline.
 
--   <img alt="" src=images/Sketcher_SelectOrigin.svg  style="width:32px;"> [Select Origin](Sketcher_SelectOrigin.md): Selects the origin of a sketch
+-   <img alt="" src=images/Sketcher_SelectOrigin.svg  style="width:32px;"> [Select Origin](Sketcher_SelectOrigin.md): Selects the origin of a sketch.
 
--   <img alt="" src=images/Sketcher_SelectVerticalAxis.svg  style="width:32px;"> [Select Vertical Axis](Sketcher_SelectVerticalAxis.md): Selects the vertical axis of a sketch
+-   <img alt="" src=images/Sketcher_SelectVerticalAxis.svg  style="width:32px;"> [Select Vertical Axis](Sketcher_SelectVerticalAxis.md): Selects the vertical axis of a sketch.
 
--   <img alt="" src=images/Sketcher_SelectHorizontalAxis.svg  style="width:32px;"> [Select Horizontal Axis](Sketcher_SelectHorizontalAxis.md): Selects the horizontal axis of a sketch
+-   <img alt="" src=images/Sketcher_SelectHorizontalAxis.svg  style="width:32px;"> [Select Horizontal Axis](Sketcher_SelectHorizontalAxis.md): Selects the horizontal axis of a sketch.
 
--   <img alt="" src=images/Sketcher_Symmetry.svg  style="width:32px;"> [Symmetry](Sketcher_Symmetry.md): Copies a sketcher element symmetrical to a chosen line
+-   <img alt="" src=images/Sketcher_Symmetry.svg  style="width:32px;"> [Symmetry](Sketcher_Symmetry.md): Copies a sketcher element symmetrical to a chosen line.
 
--   <img alt="" src=images/Sketcher_Clone.svg  style="width:32px;"> [Clone](Sketcher_Clone.md): Clones a sketcher element
+-   <img alt="" src=images/Sketcher_Clone.svg  style="width:32px;"> [Clone](Sketcher_Clone.md): Clones a sketcher element.
 
--   <img alt="" src=images/Sketcher_Copy.svg  style="width:32px;"> [Copy](Sketcher_Copy.md): Copies a sketcher element
+-   <img alt="" src=images/Sketcher_Copy.svg  style="width:32px;"> [Copy](Sketcher_Copy.md): Copies a sketcher element.
 
 -   <img alt="" src=images/Sketcher_Move.svg  style="width:32px;"> [Move](Sketcher_Move.md): Moves the selected geometry taking as reference the last selected point.
 
--   <img alt="" src=images/Sketcher_RectangularArray.svg  style="width:32px;"> [Rectangular Array](Sketcher_RectangularArray.md): Creates an array of selected sketcher elements
+-   <img alt="" src=images/Sketcher_RectangularArray.svg  style="width:32px;"> [Rectangular Array](Sketcher_RectangularArray.md): Creates an array of selected sketcher elements.
 
--   <img alt="" src=images/Sketcher_RemoveAxesAlignment.svg  style="width:32px;"> [Remove Axes Alignment](Sketcher_RemoveAxesAlignment.md): Remove axes alignment while trying to preserve the constraint relationship of the selection <small>(v0.20)</small> 
+-   <img alt="" src=images/Sketcher_RemoveAxesAlignment.svg  style="width:32px;"> [Remove Axes Alignment](Sketcher_RemoveAxesAlignment.md): Remove axes alignment while trying to preserve the constraint relationship of the selection. <small>(v0.20)</small> 
 
 -   <img alt="" src=images/Sketcher_DeleteAllGeometry.svg  style="width:32px;"> [Delete All Geometry](Sketcher_DeleteAllGeometry.md): Deletes all geometry from the sketch.
 
@@ -325,4 +335,4 @@ The [Sketcher scripting](Sketcher_scripting.md) page contains examples on how to
 
 }} 
 
-[Category:Sketcher/hr](Category:Sketcher/hr.md) [Category:Workbenches/hr](Category:Workbenches/hr.md) [Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Sketcher/hr](Category:Sketcher/hr.md) [Category:Workbenches/hr](Category:Workbenches/hr.md) [Category:Workbenches](Category:Workbenches.md)

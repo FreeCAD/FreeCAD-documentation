@@ -1,5 +1,13 @@
 ---
-- GuiCommand:Addon/ro   Name:Arch Rebar UShape   Name/ro:Arch Rebar UShape   Workbenches:[Addon:Reinforcement   MenuLocation:Arch → Rebar tools   Shortcut:None   SeeAlso:[[Arch_Rebar_LShape/ro|LShape Rebar](Arch_Module/ro___Arch]].md)---
+- GuiCommand:Addon/ro
+   Name:Arch Rebar UShape
+   Name/ro:Arch Rebar UShape
+   MenuLocation:Arch → Rebar tools
+   Workbenches:[Arch](Arch_Workbench/ro.md)
+   Shortcut:None
+   SeeAlso:[LShape Rebar](Arch_Rebar_LShape/ro.md)
+   Addon:Reinforcement
+---
 
 
 </div>
@@ -178,4 +186,4 @@ UShapeRebar.editUShapeRebar(Rebar2, 70, 50, 20, 20,
 
  
 
-[Category:Arch/ro](Category:Arch/ro.md) [Category:Reinforcement{{\#translation:}}](Category:Reinforcement.md)
+[Category:Arch/ro](Category:Arch/ro.md) [Category:Reinforcement](Category:Reinforcement.md)

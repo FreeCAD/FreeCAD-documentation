@@ -1,4 +1,6 @@
- {{UnfinishedDocu}}
+# Manual:BIM modeling/it
+
+ }
 
 
 <div class="mw-translate-fuzzy">
@@ -27,7 +29,7 @@ Come nell\'ambiente [PartDesign](PartDesign_Workbench/it.md), gli oggetti prodot
 
 <div class="mw-translate-fuzzy">
 
-L\'ambiente Arch comprende anche tutti gli strumenti di [Draft](Draft_Module/it.md), e usa la sua griglia e il sistema di aggancio. Prima di iniziare, è sempre una buona idea sfogliare le pagine delle preferenze di entrambi, Draft e Arch, e definire le impostazioni di default secondo i vostri gusti.
+L\'ambiente Arch comprende anche tutti gli strumenti di [Draft](Draft_Workbench/it.md), e usa la sua griglia e il sistema di aggancio. Prima di iniziare, è sempre una buona idea sfogliare le pagine delle preferenze di entrambi, Draft e Arch, e definire le impostazioni di default secondo i vostri gusti.
 
 
 </div>
@@ -261,7 +263,7 @@ Ora prepariamo una serie di viste del modello, per posizionarle in una pagina di
 
 <div class="mw-translate-fuzzy">
 
--   Ora abbiamo tutto quello che serve, e possiamo creare la pagina di disegno. Iniziare passando all\'ambiente [Drawing](Drawing_Module/it.md), e creare una nuova<img alt="" src=images/Drawing_Landscape_A3.png  style="width:16px;"> [pagina A3](Drawing_Landscape_A3/it.md) predefinita (o selezionare un altro modello se lo si desidera).
+-   Ora abbiamo tutto quello che serve, e possiamo creare la pagina di disegno. Iniziare passando all\'ambiente [Drawing](Drawing_Workbench/it.md), e creare una nuova<img alt="" src=images/Drawing_Landscape_A3.png  style="width:16px;"> [pagina A3](Drawing_Landscape_A3/it.md) predefinita (o selezionare un altro modello se lo si desidera).
 -   Selezionare il primo piano di sezione, utilizzato per la vista in pianta
 -   Premere il pulsante <img alt="" src=images/Drawing_DraftView.png  style="width:16px;"> [Vista Draft](Drawing_DraftView/it.md). Questo strumento offre un paio di funzionalità aggiuntive rispetto allo strumento standard [Vista Drawing](Drawing_View/it.md), e supporta i Piani di sezione dall\'ambiente Arch.
 -   Dare la nuova vista le seguenti proprietà:
@@ -353,4 +355,4 @@ Ora la pagina è pronta, e può essere esportata nel formato SVG o DXF, o stampa
 
 }} 
 
-[Category:BIM{{\#translation:}}](Category:BIM.md)
+[Category:BIM](Category:BIM.md)

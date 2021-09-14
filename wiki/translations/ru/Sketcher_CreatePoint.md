@@ -12,7 +12,7 @@
 
 [480px\|Point in the sketcher](IMAGE:Sketcher_Point_fr_01.png.md) 
 
-## Использование
+## Применение
 
 -   Нажмите на кнопку **<img src="images/Sketcher_CreatePoint.svg" width=24px> Создать точку**, что бы активировать функцию.
 -   Нажатие на эскизе создает точку.

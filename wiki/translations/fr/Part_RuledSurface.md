@@ -7,9 +7,6 @@
    SeeAlso:[Part Créer une face](Part_MakeFace/fr.md)
 ---
 
-
-</div>
-
 ## Description
 
 Crée une surface réglée.
@@ -23,13 +20,7 @@ Crée une surface réglée.
     -   Utilisez l\'entrée **Pièce → Créer un surface réglée** dans le menu Part
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
   

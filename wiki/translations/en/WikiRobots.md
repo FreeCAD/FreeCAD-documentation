@@ -1,3 +1,5 @@
+# WikiRobots/en
+
  {{VeryImportantMessage|Robots are intrinsically dangerous as they can automatically do a lot of damage. Use with extreme care!}}
 
 ## Overview
@@ -152,4 +154,4 @@ Replace a string in all the pages listed in the Arch category (a/k/a )
 
 {{SystemInput|python3 pwb.py replace.py -cat:Arch}}
 
-[Category:Arch](Category:Arch.md) [Category:Administration{{\#translation:}}](Category:Administration.md) [Category:Developer{{\#translation:}}](Category:Developer.md)
+[Category:Arch](Category:Arch.md) [Category:Administration](Category:Administration.md) [Category:Developer](Category:Developer.md)

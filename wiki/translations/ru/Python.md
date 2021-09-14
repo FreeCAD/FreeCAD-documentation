@@ -1,4 +1,15 @@
- {{VeryImportantMessage|(Январь 2020) FreeCAD изначально был разработан для работы с Python 2. Поскольку срок службы Python 2 истек в 2020 году, дальнейшая разработка FreeCAD будет осуществляться исключительно с использованием Python 3, и обратная совместимость поддерживаться не будет.}}
+# Python/ru
+
+
+
+
+<div class="mw-translate-fuzzy">
+
+
+{{VeryImportantMessage|(Январь 2020) FreeCAD изначально был разработан для работы с Python 2. Поскольку срок службы Python 2 истек в 2020 году, дальнейшая разработка FreeCAD будет осуществляться исключительно с использованием Python 3, и обратная совместимость поддерживаться не будет.}}
+
+
+</div>
 
 ## Описание
 
@@ -125,4 +136,4 @@ Structure = Arch.make_structure(Wire, name="Big pillar")
 
 }}
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:API Documentation{{\#translation:}}](Category:API_Documentation.md) [Category:Python Code{{\#translation:}}](Category:Python_Code.md) [Category:Glossary{{\#translation:}}](Category:Glossary.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:API Documentation](Category:API_Documentation.md) [Category:Python Code](Category:Python_Code.md) [Category:Glossary](Category:Glossary.md)

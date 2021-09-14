@@ -1,3 +1,5 @@
+# Arch DAE/ru
+
  
 
 
@@ -40,4 +42,4 @@
 
  
 
-[Category:File Formats{{\#translation:}}](Category:File_Formats.md)
+[Category:File Formats](Category:File_Formats.md)

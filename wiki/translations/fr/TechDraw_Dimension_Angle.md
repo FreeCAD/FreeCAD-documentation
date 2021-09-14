@@ -1,14 +1,11 @@
 ---
 - GuiCommand:/fr
    Name:TechDraw Dimension Angle
-   Name/fr:TechDraw  Dimension d'Angle
-   MenuLocation:TechDraw → Dimension d'Angle
+   Name/fr:TechDraw Cote angulaire
+   MenuLocation:TechDraw → Dimensions → Insérer une cote d'angulaire
    Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
-   SeeAlso:[TechDraw Mesure d'angle par 3 pts](TechDraw_Dimension_Angle3Pt/fr.md)
+   SeeAlso:[TechDraw Cote angulaire par 3 pts](TechDraw_Dimension_Angle3Pt/fr.md)
 ---
-
-
-</div>
 
 ## Description
 
@@ -54,13 +51,7 @@ rc = page.addView(dim1)
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{TechDraw Tools navi

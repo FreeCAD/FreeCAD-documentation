@@ -61,7 +61,7 @@ The Fence tool can be used in [macros](Macros.md) and from the [Python](Python.m
 Fence = buildFence(section, post, path)
 ```
 
-Example.
+Example:
 
 
 ```python

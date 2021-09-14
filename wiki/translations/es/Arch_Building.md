@@ -1,5 +1,12 @@
 ---
-- GuiCommand:/es   Name:Arch Building   Name/es:Arch Building   Workbenches:[MenuLocation:Arch → Building   Shortcut:B U   SeeAlso:[[Arch Floor/es|Piso](Arch_Module/es___Entorno_de_Arquitectura]].md), [Ubicación](Arch_Site/es.md)---
+- GuiCommand:/es
+   Name:Arch Building
+   Name/es:Arch Building
+   MenuLocation:Arch → Building
+   Workbenches:[Entorno de Arquitectura](Arch_Workbench/es.md)
+   Shortcut:**B** **U**
+   SeeAlso:[Piso](Arch_Floor/es.md), [Ubicación](Arch_Site/es.md)
+---
 
 
 </div>

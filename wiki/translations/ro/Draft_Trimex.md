@@ -1,5 +1,12 @@
 ---
-- GuiCommand:/ro   Name:Draft Trimex   Name/ro:Draft Trimex   Workbenches:[Arch](Draft_Module/ro___Draft]],_[[Arch_Module/ro.md)|MenuLocation:Draft  → Trim/Extend   Shortcut:T R   SeeAlso:[Part Extrude](Part_Extrude/ro.md)---
+- GuiCommand:/ro
+   Name:Draft Trimex
+   Name/ro:Draft Trimex
+   MenuLocation:Draft  → Trim/Extend
+   Workbenches:[Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
+   Shortcut:**T** **R**
+   SeeAlso:[Part Extrude](Part_Extrude/ro.md)
+---
 
 
 </div>

@@ -1,3 +1,5 @@
+# PartDesign Bearingholder Tutorial I/de
+
 
 
 
@@ -112,4 +114,4 @@ Wir haben die Oberseite des Lagergehäuses mit den Abmessungen modelliert, die e
 
 
 
-[Category:Tutorials{{\#translation:}}](Category:Tutorials.md)
+[Category:Tutorials](Category:Tutorials.md)

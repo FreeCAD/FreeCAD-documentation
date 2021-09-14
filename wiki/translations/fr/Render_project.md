@@ -1,3 +1,5 @@
+# Render project/fr
+
 
 
 
@@ -134,4 +136,4 @@ Voir aussi [Tutoriel Raytracing](Raytracing_tutorial/fr.md)
 
  
 
-[Category:Addons{{\#translation:}}](Category:Addons.md) [Category:External Workbenches{{\#translation:}}](Category:External_Workbenches.md) [Category:Render{{\#translation:}}](Category:Render.md)
+[Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md) [Category:Render](Category:Render.md)

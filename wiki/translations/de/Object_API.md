@@ -1,13 +1,6 @@
+# Object API/de
 
-
-
-<div class="mw-translate-fuzzy">
-
-
-{{VeryImportantMessage|(November 2018) Diese Information kann unvollständig und veraltet sein. Für die letzte API siehe die (engl.) [https://www.freecadweb.org/api autogenerierte API-Dokumentation].}}
-
-
-</div>
+ {{VeryImportantMessage|(Oktober 2019) Bearbeite diese Seiten nicht. Die Informationen sind unvollständig und veraltet. Die neueste API findest Du in der [https://www.freecadweb.org/api autogenerierten API-Dokumentation] oder generiere die Dokumentation selbst, siehe [Quelldokumentation](Source_documentation/de.md).}}
 
 Being parametric, document objects in FreeCAD can have a lot of additional properties, but these are the basic ones, present in every FreeCAD Document Object. Objects can be retrieved simply by their name. Example: 
 ```python
@@ -66,4 +59,4 @@ print myObj.PropertiesList
 
  
 
-[Category:API{{\#translation:}}](Category:API.md) [Category:Poweruser Documentation{{\#translation:}}](Category:Poweruser_Documentation.md)
+[Category:API](Category:API.md) [Category:Poweruser Documentation](Category:Poweruser_Documentation.md)

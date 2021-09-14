@@ -1,9 +1,10 @@
 ---
-- GuiCommand:
-   Name:TechDraw PageDefault
-   MenuLocation:TechDraw → Insert Default Page
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
-   SeeAlso:[TechDraw Page Template](TechDraw_PageTemplate.md), [TechDraw Templates](TechDraw_Templates.md)
+- GuiCommand:/ru
+   Name/ru:Вставить страницу по умолчанию
+   Name:TechDraw_PageDefault
+   MenuLocation:TechDraw → Вставить страницу по умолчанию
+   Workbenches:[TechDraw](TechDraw_Workbench/ru.md)
+   SeeAlso:[Вставить страницу используя шаблон](TechDraw_PageTemplate/ru.md), [Шаблоны TechDraw](TechDraw_Templates/ru.md)
 ---
 
 ## Описание
@@ -43,12 +44,12 @@ Where `$INSTALL_DIR` is the directory where FreeCAD was installed, for example
 
 -    **Scale**: Default scale for Views in this Page.
 
-## Scripting
+## Программирование
 
 
-**See also:**
+**См. так же:**
 
-[TechDraw API](TechDraw_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+[TechDraw API](TechDraw_API/ru.md) и [Основы составления скриптов FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 
 The New Default tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following functions: 
 ```python

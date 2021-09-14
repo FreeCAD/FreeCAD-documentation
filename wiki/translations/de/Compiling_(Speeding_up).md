@@ -1,3 +1,5 @@
+# Compiling (Speeding up)/de
+
 
 
 
@@ -62,4 +64,4 @@ Das Programm `distcc` kann verwendet werden, um eine verteilte Kompilierung von 
 
 
 
-[Category:Developer\_Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Developer{{\#translation:}}](Category:Developer.md)
+[Category:Developer\_Documentation](Category:Developer_Documentation.md) [Category:Developer](Category:Developer.md)

@@ -21,6 +21,9 @@ El <img alt="" src=images/Draft_Edit.svg  style="width:24px;"> comando **Borrado
 
 Ver también: [Borrador Atrapar](Draft_Snap/es.md) y [Borrador Restringir](Draft_Constrain/es.md).
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Opcionalmente, seleccione uno o más objetos. Tenga en cuenta que aunque varios objetos pueden estar en modo de edición de borrador, los objetos sólo pueden editarse de uno en uno.
 2.  Hay varias formas de invocar el comando:
     -   Si aún no ha seleccionado un objeto: haga doble clic en un objeto en la [Vista de árbol](Tree_view.md). Esto sólo funciona para los objetos de borrador compatibles.
@@ -46,6 +49,9 @@ Ver también: [Borrador Atrapar](Draft_Snap/es.md) y [Borrador Restringir](Draft
     -   Elige un punto en la [Vista 3D](3D_view/es.md), o escribe las coordenadas y pulsa el **<img src="images/Draft_AddPoint.svg" width=16px> Introducir punto** botón.
     -   El resultado depende del objeto y del nodo seleccionado.
 7.  Presiona **Esc** o el botón **Close** para finalizar el comando
+
+
+</div>
 
 ## Opciones
 

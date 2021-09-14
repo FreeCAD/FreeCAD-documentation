@@ -2,72 +2,31 @@
 - GuiCommand:/fr
    Name:Path Area Workplane
    Name/fr:Path Zone de travail plane
-   MenuLocation:Path → Area workplane
+   MenuLocation:Path → Zone de travail plane
    Workbenches:[Path](Path_Workbench/fr.md)
-   Shortcut:
-   Version:
-   SeeAlso:
 ---
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
 
 ## Description
 
-
-</div>
-
-Empty
-
-
-<div class="mw-translate-fuzzy">
+Vide
 
 ## Utilisation
 
-
-</div>
-
-Empty
-
-
-<div class="mw-translate-fuzzy">
+Vide
 
 ## Options
 
-
-</div>
-
-Empty
+Vide
 
 ## Propriétés
 
-
-<div class="mw-translate-fuzzy">
-
 ### Données
 
-
-</div>
-
-Empty
-
-
-<div class="mw-translate-fuzzy">
+Vide
 
 ### Vue
 
-
-</div>
-
-Empty
-
-## Scripting
-
-
-<div class="mw-translate-fuzzy">
+Vide
 
 ## Script
 
@@ -75,9 +34,6 @@ Empty
 **Voir aussi:**
 
 [FreeCAD Script de base](FreeCAD_Scripting_Basics/fr.md).
-
-
-</div>
 
 Exemple:
 
@@ -87,13 +43,7 @@ Exemple:
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Path_Tools_navi

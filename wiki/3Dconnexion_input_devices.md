@@ -1,3 +1,5 @@
+# 3Dconnexion input devices
+
  <img alt="3Dconnexion SpaceNavigator" src=images/SpaceNavigator.jpg  style="width:200px;"> 
 
 ## Driver installation 
@@ -279,4 +281,4 @@ To connect certain command with a button, select button on the left side, and it
 
 
 
-[Category:User Documentation{{\#translation:}}](Category:User_Documentation.md) [Category:3rd Party{{\#translation:}}](Category:3rd_Party.md)
+[Category:User Documentation](Category:User_Documentation.md) [Category:3rd Party](Category:3rd_Party.md)

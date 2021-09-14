@@ -1,3 +1,5 @@
+# Contributors/fr
+
 
 
 
@@ -251,4 +253,4 @@ Développeurs d\'ateliers supplémentaires pour FreeCAD (extrait de <https://git
 
 
 
-[Category:Developer{{\#translation:}}](Category:Developer.md)
+[Category:Developer](Category:Developer.md)

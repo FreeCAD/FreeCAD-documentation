@@ -20,10 +20,10 @@ Falls OpenSCAD erfolgreich zurückkehrt, werden die Meldungen als Warnungen im R
 include <../examples/example001.scad>;
 ``` würde die ersten Beispiele einbinden, auch als das OpenSCAD-Symbol bekannt
 
-## Setup OpenSCAD within FreeCAD 
+## Installation von OpenSCAD innerhalb von FreeCAD 
 
-**Note:** OpenSCAD needs to be installed on your computer before FreeCAD will have this functionality
-Install OpenSCAD in the appropriate manner for your operating system. See [the OpenSCAD web site](https://www.openscad.org/) for more information
+**Hinweis:** OpenSCAD muss auf deinem Computer installiert sein, damit FreeCAD diese Funktionalität nutzen kann
+Installiere OpenSCAD in der für dein Betriebssystem entsprechenden Weise. Siehe [the OpenSCAD web site](https://www.openscad.org/) für mehr Informationen
 
 FreeCAD needs to be told where to find the OpenSCAD executable
 

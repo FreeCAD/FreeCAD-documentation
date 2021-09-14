@@ -1,3 +1,5 @@
+# Arch JSON/it
+
 
 
 
@@ -41,4 +43,4 @@ Nota che le faccette formano triangoli e i loro valori di riferimento delle valo
 
  
 
-[Category:File Formats{{\#translation:}}](Category:File_Formats.md)
+[Category:File Formats](Category:File_Formats.md)

@@ -1,3 +1,5 @@
+# Inspection Workbench/de
+
  
 
 <img alt="Inspektion Arbeitsbereichssymbol" src=images/Workbench_Inspection.svg  style="width:128px;">
@@ -25,4 +27,4 @@ Verwende alternativ das Makro <img alt="" src=images/HighlightDifference.png  st
 
 
 
-[Category:Inspection{{\#translation:}}](Category:Inspection.md) [Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Inspection](Category:Inspection.md) [Category:Workbenches](Category:Workbenches.md)

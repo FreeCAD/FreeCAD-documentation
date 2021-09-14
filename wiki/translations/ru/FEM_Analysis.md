@@ -3,7 +3,7 @@
    Name:FEM Analysis
    Name/ru:FEM Analysis
    MenuLocation:Model → Блок анализа
-   Workbenches:[FEM](FEM_Module/ru.md)
+   Workbenches:[FEM](FEM_Workbench/ru.md)
    Shortcut:**N** **A**
    SeeAlso:[FEM tutorial](FEM_tutorial/ru.md)
 ---

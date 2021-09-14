@@ -3,10 +3,10 @@
    Name:Arch Stairs
    Name/ru:Arch Stairs
    MenuLocation:Архитектура → Лестницы
-   Workbenches:[Arch](Arch_Module/ru.md)
+   Workbenches:[Arch](Arch_Workbench/ru.md)
    Shortcut:**S** **R**
-   SeeAlso:[[Arch Structure/ru]], [[Arch Equipment/ru]]
    Version:0.14
+   SeeAlso:[[Arch Structure/ru]], [[Arch Equipment/ru]]
 ---
 
 
@@ -117,7 +117,7 @@ Stairs = makeStairs(baseobj=None, length=None, width=None, height=None, steps=No
 -   Creates a `Stairs` object from the given `baseobj`.
 -   If `baseobj` is not given, it will use `length`, `width`, `height`, and `steps`, to build a solid object.
 
-Example: 
+Пример: 
 ```python
 import Arch
 
@@ -128,7 +128,7 @@ Stairs = Arch.makeStairs(length=5000, width=1200, height=3000, steps=14)
 <div class="mw-translate-fuzzy">
 
 
-{{docnav/ru|[Space/ru](Arch_Space/ru.md)|[Arch CompPanel/ru](Arch_CompPanel/ru.md)|[Arch](Arch_Module/ru.md)|IconL=Arch_Space.svg |IconC=Workbench_Arch.svg |IconR=Arch_CompPanel.png}}
+
 
 
 </div>

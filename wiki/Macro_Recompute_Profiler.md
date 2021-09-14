@@ -1,3 +1,5 @@
+# Macro Recompute Profiler
+
   {{Macro
 |Name=Macro Recompute Profiler
 |icone=Macro_Recompute_Profiler.png

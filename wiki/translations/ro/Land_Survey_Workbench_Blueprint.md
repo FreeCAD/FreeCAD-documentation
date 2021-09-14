@@ -1,3 +1,5 @@
+# Land Survey Workbench Blueprint/ro
+
 
 
 
@@ -61,4 +63,4 @@ Notă: informațiile din această pagină se bazează pe o înțelegere superfic
 
 
 
-[Category:Roadmap{{\#translation:}}](Category:Roadmap.md) [Category:Developer{{\#translation:}}](Category:Developer.md)
+[Category:Roadmap](Category:Roadmap.md) [Category:Developer](Category:Developer.md)

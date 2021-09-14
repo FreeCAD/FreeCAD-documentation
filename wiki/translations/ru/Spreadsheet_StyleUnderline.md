@@ -1,8 +1,8 @@
 ---
 - GuiCommand:/ru
-   Name:Spreadsheet StyleUnderline
-   Name/ru:Подчёркнутый текст
-   MenuLocation:Spreadsheet → Styles → Underline text
+   Name/ru:Подчеркивание текста
+   Name:Spreadsheet_StyleUnderline
+   MenuLocation:Электронная таблица → Styles → Подчеркивание текста
    Workbenches:[Spreadsheet](Spreadsheet_Workbench/ru.md)
    Version:0.17
 ---

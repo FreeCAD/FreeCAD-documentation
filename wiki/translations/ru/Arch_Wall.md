@@ -1,14 +1,11 @@
 ---
 - GuiCommand:/ru
-   Name:Arch Wall
-   Name/ru:Arch Wall
-   Workbenches:[Arch](Arch_Module/ru.md)
+   Name:Arch_Wall
+   Name/ru:Стена
+   Workbenches:[Arch](Arch_Workbench/ru.md)
    MenuLocation:Архитектура → Стена
    Shortcut:**W** **A**
    SeeAlso:[Структура](Arch_Structure/ru.md)---
-
-
-</div>
 
 ## Описание
 
@@ -32,20 +29,13 @@ Walls can also have additions or subtractions. Additions are other objects whose
 
 When several walls should intersect, you need to place them into a [floor](Arch_Floor.md) to have their geometry intersected.
 
-## Использование
+## Применение
 
 ### Рисование стены с нуля 
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Нажмите кнопку **<img src="images/Arch_Wall.svg" width=16px> [Arch Wall](Arch_Wall/ru.md)
-**, или нажмите **W**, затем **A**
-2.  Щелкните первую точку на трехмерном изображении или введите первую [координату](Draft_Coordinates/ru.md)
-3.  Нажмите вторую точку на трехмерном представлении или введите вторую [координату](Draft_Coordinates/ru.md)
-
-
-</div>
+1.  Нажмите кнопку **<img src="images/Arch_Wall.svg" width=16px> [Arch Wall](Arch_Wall/ru.md)**, или нажмите **W**, затем **A**.
+2.  Щелкните первую точку на трехмерном изображении или введите первую координату.
+3.  Нажмите вторую точку на трехмерном представлении или введите вторую координату.
 
 ### Drawing a wall on top of a selected object 
 
@@ -68,9 +58,9 @@ When several walls should intersect, you need to place them into a [floor](Arch_
 -   Walls can also make use of [Multi-Materials](Arch_MultiMaterial.md). When using a multi-material, the wall will become multi-layer, using the thicknesses specified by the multi-material. Any layer with a thickness of zero will have its thickness defined automatically by the remaining space defined by the Wall\'s Width value, after subtracting the other layers.
 -   Walls can be made to display blocks, instead of one single solid, by turning their **Make Blocks** property on. The size and offset of blocks can be configured with different properties, and the amount of blocks is automatically calculated. <small>(v0.18)</small> 
 
-## Snapping
+## Привязки
 
-Snapping works a bit differently with Arch walls than other Arch and Draft objects. If a wall has a baseline object, snapping will anchor to the base object, instead of the wall geometry, allowing to easily align walls by their baseline. If, however, you specifically want to snap to the wall geometry, pressing **Ctrl** will switch snapping to the wall object.
+Привязка к стенам Arch работает немного иначе, чем с другими объектами Arch и Draft. Если стена имеет базовый объект, привязка будет привязана к базовому объекту, а не к геометрии стены, что позволит легко выровнять стены по их базовой линии. Однако, если вы специально хотите привязаться к геометрии стены, нажатие **Ctrl** переключит привязку на объект стены.
 
 <img alt="" src=images/Arch_wall_snap.jpg  style="width:780px;"> 
 *Second wall snapping perpendicularly to the first one*
@@ -98,7 +88,7 @@ Wall objects inherit the properties of [Part](Part_Workbench.md) objects, and al
 -    **Offset**: This specifies the distance between the wall and its baseline. Works only if the Align property is set to Right or Left.
 
 
-<small>(v0.18)</small> 
+{{Version/ru|0.18}}
 
 -    **Make Blocks**: Enable this to make the wall generate blocks
 
@@ -116,7 +106,7 @@ Wall objects inherit the properties of [Part](Part_Workbench.md) objects, and al
 
 -    **Count Broken**: The number of broken blocks (read-only)
 
-## Сценарии
+## Программирование
 
 
 **См. так же:**
@@ -136,7 +126,7 @@ Wall = makeWall(baseobj=None, length=None, width=None, height=None, align="Cente
 
 -   It returns `None` if the operation fails.
 
-Example:
+Пример:
 
 
 ```python
@@ -154,13 +144,7 @@ FreeCAD.ActiveDocument.recompute()
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 

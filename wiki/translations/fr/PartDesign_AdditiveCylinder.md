@@ -17,7 +17,7 @@ Insère un Cylindre primitif dans un corps actif comme première fonction, ou le
 ## Utilisation
 
 1.  Presser le bouton **<img src="images/PartDesign_AdditiveCylinder.svg" width=24px> '''Cylindre Additif'''**. **Remarque** : Le Cylindre additif fait partie d\'un menu déroulant d\'icônes appelé \"Créer une primitive additive\". Après démarrage de FreeCAD , le cylindre additif est le second affiché dans la barre d\'outils. Pour atteindre le bouton Cylindre, cliquer sur le bouton flèche vers le bas et choisissez le cylindre additif dans le menu.
-2.  Renseigner les paramètres de la primitive et de l\'[ancrage](Part_Attachment/fr.md).
+2.  Renseigner les paramètres de la primitive et de l\'[ancrage](Part_EditAttachment/fr.md).
 3.  Clic **OK**.
 4.  Un cylindre apparaît dans le corps actif.
 
@@ -33,7 +33,7 @@ Le Cylindre peut être édité après sa création de deux façons :
 
 ## Propriétés
 
--    {{PropertyData/fr|Attachment}}: définit les modes d\'ancrage ainsi que le décalage d\'ancrage. Voir [Part Ancrage](Part_Attachment/fr.md).
+-    {{PropertyData/fr|Attachment}}: définit les modes d\'ancrage ainsi que le décalage d\'ancrage. Voir [Part Ancrage](Part_EditAttachment/fr.md).
 
 -    {{PropertyData/fr|Label}}: donne le nom du cylindre, changer si nécessaire.
 

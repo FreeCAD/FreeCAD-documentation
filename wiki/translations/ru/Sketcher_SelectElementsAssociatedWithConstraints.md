@@ -1,17 +1,18 @@
 ---
 - GuiCommand:/ru
-   Name:Sketcher SelectElementsAssociatedWithConstraints
-   Name/ru:Sketcher SelectElementsAssociatedWithConstraints
-   MenuLocation:Sketch → Инструменты для эскиза → Выделить элементы связанные выделенными ограничениями
+   Name/ru:Выделить связанную геометрию
+   Name:Sketcher_SelectElementsAssociatedWithConstraints
+   MenuLocation:Sketch → Инструменты для эскиза → Выделить связанную геометрию
    Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
    Shortcut:Shift+Ctrl+E
-   Version:0.15---
+   Version:0.15
+---
 
-## Description
+## Описание
 
 Select sketcher Elements associated with constraints.
 
-## Usage
+## Применение
 
 1.  Select constraint in the [task panel](Task_panel.md) or in the [3D view](3D_view.md).
 2.  Click on **<img src=images/Sketcher_SelectElementsAssociatedWithConstraints.svg style="width:16px"> <img src=images/Sketcher_SelectElementsAssociatedWithConstraints.svg style="width:Select Elements Associated With Constraints](Sketcher_SelectElementsAssociatedWithConstraints.md)** or choose **Sketch → Sketcher tools → [16px"> Select elements associated with constraints** from the top menu.

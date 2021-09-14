@@ -1,3 +1,5 @@
+# Sketcher SketchObject/fr
+
 
 
 ## Introduction
@@ -49,7 +51,7 @@ Outre les propriétés décrites dans [Part Part2DObject](Part_Part2DObject/fr.m
 
 {{TitleProperty|Attachment}}
 
--    {{PropertyData/fr|Map Mode}}, {{PropertyData/fr|Map Reversed}}, {{PropertyData/fr|Attachment Offset}} comme [Part Part2DObject](Part_Part2DObject/fr.md). Voir [Part Ancrage](Part_Attachment/fr.md) pour plus d\'informations sur tous les modes d\'ancrage.
+-    {{PropertyData/fr|Map Mode}}, {{PropertyData/fr|Map Reversed}}, {{PropertyData/fr|Attachment Offset}} comme [Part Part2DObject](Part_Part2DObject/fr.md). Voir [Part Ancrage](Part_EditAttachment/fr.md) pour plus d\'informations sur tous les modes d\'ancrage.
 
 
 {{TitleProperty|Sketch}}

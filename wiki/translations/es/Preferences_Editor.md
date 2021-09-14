@@ -1,3 +1,5 @@
+# Preferences Editor/es
+
 
 
 
@@ -369,7 +371,7 @@ On the *Units* tab you can specify the following:
 | Name                                    | Description                                                                                                                                    |
 +=========================================+================================================================================================================================================+
 |                          | Selection of the unit system to be used for all parts of FreeCAD                                                                               |
-| **User system**             |                                                                                                                                                |
+| **Unit system**             |                                                                                                                                                |
 |                                      |                                                                                                                                                |
 +-----------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------+
 |                          | The number of decimals that should be shown for numbers and dimensions                                                                         |
@@ -610,13 +612,23 @@ On the *Mesh view* tab you can specify the following:
 
 ## Ambientes de trabajo 
 
-This preferences section has a single tab: Unloaded Workbenches.
+This preferences section has a single tab: Available Workbenches.
+
+
+<div class="mw-translate-fuzzy">
 
 ### Ambiente de trabajo descarga 
 
+
+</div>
+
 To preserve resources, FreeCAD does not automatically load all available workbenches. And only if a workbench has been loaded will its preferences, if any, appear in the Preferences editor.
 
-The *Unloaded Workbenches* tab displays a list of installed workbenches that have not yet been loaded. To load one or more workbenches select them in the list and then press the **Load Selected** button. If a newly loaded workbench has dedicated preference they will appear in a new section in the Preferences editor. Some workbenches add support for additional import and export formats. If there are any related preferences they will appear on one or more new tabs in the [Import-Export settings](#Import-Export_settings.md) section of the Preferences editor.
+In FreeCAD version 0.19 the tab has a different label: *Unloaded Workbenches*, and the tab displays a list of installed workbenches that have not yet been loaded. To load one or more workbenches select them in the list and then press the **Load Selected** button.
+
+In FreeCAD version 0.20 the *Available Workbenches* tab displays a list of all installed workbenches. To load a workbench press its **Load now** button. If you check a workbench\'s **Autoload** checkbox it will autoload when FreeCAD starts up. Loading more workbenches will make the startup slower, but switching between workbenches that have already been loaded is faster.
+
+If a newly loaded workbench has dedicated preference they will appear in a new section in the Preferences editor. Some workbenches add support for additional import and export formats. If there are any related preferences they will appear on one or more new tabs in the [Import-Export settings](#Import-Export_settings.md) section of the Preferences editor.
 
 For a list of workbench preferences see [Workbench preferences](#Workbench_preferences.md)
 
@@ -679,4 +691,4 @@ It is likely a bad idea to modify the preferences of other parts of FreeCAD unle
 
 
 
-[Category:Preferences{{\#translation:}}](Category:Preferences.md)
+[Category:Preferences](Category:Preferences.md)

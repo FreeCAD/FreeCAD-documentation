@@ -1,15 +1,12 @@
 ---
 - GuiCommand:/ru
-   Name:Draft Layer
-   Name/ru:Draft Layer
-   Workbenches:[Draft](Draft_Module/ru.md), [Arch](Arch_Module/ru.md)
-   MenuLocation:Draft → Utilities → Layer
+   Name/ru:Слой
+   Name:Draft_Layer
+   MenuLocation:Utilities → Слой
+   Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
    Version:0.19
-   See also:[Draft VisGroup](Draft_VisGroup/ru.md) (deprecated)
+   SeeAlso:[Автогруппировка](Draft_AutoGroup/ru.md)
 ---
-
-
-</div>
 
 ## Описание
 
@@ -47,25 +44,25 @@ For a Draft Layer these additional options are available in the [Tree view](Tree
 
 -    **<img src="images/Draft_SelectGroup.svg" width=16px> [Select layer contents](Draft_SelectGroup.md)**: selects the objects inside the selected layer.
 
-## Notes
+## Примечания
 
 -   A new layer can also be created with the [Draft AutoGroup](Draft_AutoGroup.md) command.
 -   The [BIM Workbench](BIM_Workbench.md) offers a complete [layer manager tool](BIM_Layers.md) which will eventually be included in the [Draft Workbench](Draft_Workbench.md).
 
-## Properties
+## Свойства
 
 See also: [Property editor](Property_editor.md).
 
 A Draft Layer object is derived from an [App FeaturePython](App_FeaturePython.md) object and inherits all its properties. It also has the following additional properties:
 
-### Data
+### Данные
 
 
 {{TitleProperty|Layer}}
 
 -    **Group|LinkList**: specifies the objects that are inside the layer.
 
-### View
+### Вид
 
 
 {{TitleProperty|Layer}}
@@ -93,7 +90,7 @@ The properties in this section are applied to objects that are put inside the la
 
 -    **Use Print Color|Bool**: specifies if the **Line Print Color|** of the layer is used when a [TechDraw DraftView](TechDraw_DraftView.md) is created from the objects inside the layer.
 
-## Scripting
+## Программирование
 
 
 <div class="mw-translate-fuzzy">

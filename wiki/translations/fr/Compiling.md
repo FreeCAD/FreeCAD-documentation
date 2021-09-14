@@ -1,3 +1,5 @@
+# Compiling/fr
+
  Chaque système d\'exploitation dispose de sa page spécifique pour compiler FreeCAD dans la [Documentation d\'aide en ligne](Online_Help_Toc/fr.md).
 
   ----------------------------------------------------------- ------------------------------------------------------- ----------------------------------------------------- ---------------------------------------------------------
@@ -18,4 +20,4 @@ Pour apprendre à utiliser le système de contrôle des révisions et contribuer
 
 
 
-[Category:Developer\_Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Developer{{\#translation:}}](Category:Developer.md)
+[Category:Developer\_Documentation](Category:Developer_Documentation.md) [Category:Developer](Category:Developer.md)

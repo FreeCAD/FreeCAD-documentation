@@ -16,10 +16,16 @@ Inserta un Elipsoide primitiva en el Cuerpo activo como primera característica,
 
 ## Uso
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Presionar el botón **<img src="images/PartDesign_AdditiveEllipsoid.svg" width=24px> '''Elipsoide aditivo'''** . **Nota**: El Elipsoide aditivo forma parte de un icono de herramientas llamado *Crear una primitiva aditiva*. Tras abrir Freecad, el Cubo aditivo es la única primitiva mostrada en la barra de herramientas. Para obtener el botón del Elipsoide, pinchar en la flecha que indica hacia abajo, que está al lado del icono visible y seleccionar Elipsoide aditivo en el menú desplegable.
 2.  Seleccionar los parámetros de la primitiva y [Attachment](Part_Attachment.md).
 3.  Aceptar **OK**.
 4.  Una operación de Elipsoide aparece dentro del Body (cuerpo) activo.
+
+
+</div>
 
 ## Opciones
 
@@ -29,6 +35,9 @@ Tras su creación, el Elipsoide puede ser editado de dos maneras:
 -   Por medio del [Editor de propiedades](Property_editor/es.md).
 
 ## Propiedades
+
+
+<div class="mw-translate-fuzzy">
 
 -    {{PropertyData/es|Attachment}}: Define el modo de Attachment y la separación del archivo adjunto. Ver [Part Attachment](Part_Attachment.md).
 
@@ -45,6 +54,9 @@ Tras su creación, el Elipsoide puede ser editado de dos maneras:
 -    {{PropertyData/es|Ángulo2}}: (Sin nombre en los parámetros de la primitiva) Truncamiento superior del elipsoide, paralelo al corte de la sección circular (90 grados en un esferoide completo).
 
 -    {{PropertyData/es|Ángulo3}}: (Llamado parámetro *U* en los parámetros de la primitiva) Ángulo de rotación del corte de la sección elíptica (360 grados en un esferoide completo).
+
+
+</div>
 
 
 

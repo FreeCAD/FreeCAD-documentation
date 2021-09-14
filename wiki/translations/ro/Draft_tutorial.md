@@ -1,3 +1,5 @@
+# Draft tutorial/ro
+
 
 
 
@@ -21,7 +23,7 @@
 
 ### Introducere
 
-Acest îndrumător este menit să deprindă utilizatorul cu elementele de bază ale unui flux de operaţii bazat pe [Panoul Ciornă (Draft)](Draft_Module/ro.md), printre care se numără crearea de profile, folosirea planurilor active, crearea dimensiunilor de cotare, textelor şi notelor. Acest îndrumător foloseşte notarea **(X, Y, Z)** pentru desemnarea coordonatelor necesare pentru definirea diferitelor puncte într-un obiect.
+Acest îndrumător este menit să deprindă utilizatorul cu elementele de bază ale unui flux de operaţii bazat pe [Panoul Ciornă (Draft)](Draft_Workbench/ro.md), printre care se numără crearea de profile, folosirea planurilor active, crearea dimensiunilor de cotare, textelor şi notelor. Acest îndrumător foloseşte notarea **(X, Y, Z)** pentru desemnarea coordonatelor necesare pentru definirea diferitelor puncte într-un obiect.
 
 
 </div>
@@ -381,7 +383,7 @@ Tools like **<img src=images/TechDraw_ActiveView.svg style="width:16px"> <img sr
 
 <div class="mw-translate-fuzzy">
 
-Aici se termină şirul de operaţii elementare ce pot fi realizate cu [panoul Ciornă (Draft)](Draft_Module/ro.md).
+Aici se termină şirul de operaţii elementare ce pot fi realizate cu [panoul Ciornă (Draft)](Draft_Workbench/ro.md).
 
 
 </div>

@@ -1,4 +1,6 @@
-\_\_NOTOC\_\_ 
+# Main Page/pt
+
+ 
 
 
 <div class="mw-translate-fuzzy">
@@ -105,4 +107,4 @@ Visite o [ Mapa de desenvolvimento](Development_roadmap/en.md) para ver notícia
 
 
 
-[Category:Documentation{{\#translation:}}](Category:Documentation.md)
+[Category:Documentation](Category:Documentation.md)

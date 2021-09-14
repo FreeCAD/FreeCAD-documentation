@@ -1,5 +1,12 @@
 ---
-- GuiCommand:/it   Name:FEM_ConstraintPlaneRotation   Name/it:Vincolo piano di rotazione   MenuLocation:Modello → Vincoli meccanici → Vincolo piano di rotazione   |Workbenches:[Shortcut:   SeeAlso:[[FEM_tutorial/it|FEM tutorial](FEM_Module/it___FEM]].md)---
+- GuiCommand:/it
+   Name:FEM_ConstraintPlaneRotation
+   Name/it:Vincolo piano di rotazione
+   MenuLocation:Modello → Vincoli meccanici → Vincolo piano di rotazione
+   Workbenches:[FEM](FEM_Workbench/it.md)
+   Shortcut:
+   SeeAlso:[FEM tutorial](FEM_tutorial/it.md)
+---
 
 
 </div>

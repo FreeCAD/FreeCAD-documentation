@@ -1,4 +1,6 @@
- {{UnfinishedDocu}}
+# Manipulator/es
+
+ }
 
 
 <div class="mw-translate-fuzzy">
@@ -15,4 +17,4 @@ Un **manipulador** es una utilidad que puede utilizarse para modificar la aparie
 
 
 
-[Category:Glossary{{\#translation:}}](Category:Glossary.md)
+[Category:Glossary](Category:Glossary.md)

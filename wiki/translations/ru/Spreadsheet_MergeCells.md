@@ -9,13 +9,13 @@
 
 ## Описание
 
-The **<img src=images/Spreadsheet_MergeCells.svg style="width:16px"> [Spreadsheet MergeCells](Spreadsheet_MergeCells.md)** tool merges at least two selected cells in an existing spreadsheet in the active document.
+Инструмент **<img src=images/Spreadsheet_MergeCells.svg style="width:16px"> [Объединить ячейки](Spreadsheet_MergeCells/ru.md)** объединяет не менее чем две выделенные ячейки в существующей электронной таблице в активном документе.
 
 ## Применение
 
-1.  Make sure there is an active **<img src=images/Spreadsheet_CreateSheet.svg style="width:16px"> [Spreadsheet](Spreadsheet_CreateSheet.md)** open so that the button is enabled.
-2.  Select at least two contiguous cells.
-3.  Press the **<img src=images/Spreadsheet_MergeCells.svg style="width:16px"> [Spreadsheet MergeCells](Spreadsheet_MergeCells.md)** button.
+1.  Убедитесь, что есть **<img src=images/Spreadsheet_CreateSheet.svg style="width:16px"> [электронная таблица](Spreadsheet_CreateSheet/ru.md)** открыта и активна, чтобы кнопка была доступна.
+2.  Выберите не менее чем две ячейки.
+3.  Нажмите кнопку **<img src=images/Spreadsheet_MergeCells.svg style="width:16px"> [Объединить ячейки](Spreadsheet_MergeCells/ru.md)**.
 
 
 

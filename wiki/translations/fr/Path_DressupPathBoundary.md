@@ -2,13 +2,10 @@
 - GuiCommand:/fr
    Name:Path DressupPathBoundary
    Name/fr:Path Limitation de zones
-   MenuLocation:Path → Path Dressup → Boundary Dress-up
+   MenuLocation:Path → Path Dressup → Habillage de la limite
    Workbenches:[Path](Path_Workbench/fr.md)
    SeeAlso:[Path Saut de trajectoire](Path_DressupTag/fr.md), [Path Rampe d'entrée](Path_DressupRampEntry.md)
 ---
-
-
-</div>
 
 ## Description
 
@@ -17,7 +14,7 @@ La limitation de zones permet de restreindre l\'étendue d\'un chemin à une plu
 ## Utilisation
 
 1.  Sélectionnez un chemin tel que contour, profil ou opération de poche
-2.  cliquez sur l\'icône du menu <img alt="" src=images/Path_DressupPathBoundary.svg  style="width:16px;"> [Boundary Dress-up](Path_DressupPathBoundary.md)
+2.  cliquez sur l\'icône du menu <img alt="" src=images/Path_DressupPathBoundary.svg  style="width:16px;"> [Habillage de la limite](Path_DressupPathBoundary/fr.md)
 
 ## Options
 
@@ -28,16 +25,10 @@ La limitation de zones permet de restreindre l\'étendue d\'un chemin à une plu
 
 ## Limitations
 
--   L\'option *Créer une boîte* (*Create Box*) ne définit que les dimensions de la boîte, pas son origine. Pour modifier son origine, il est nécessaire d\'ajuster son «placement» dans la [vue en arborescence](Tree_view/fr.md).
-
-
-<div class="mw-translate-fuzzy">
+-   L\'option *Créer une boîte* (*Create Box*) ne définit que les dimensions de la boîte, pas son origine. Pour modifier son origine, il est nécessaire d\'ajuster sa *position* dans la [vue en arborescence](Tree_view/fr.md).
 
 
 
-
-
-</div>
 
 
 {{Path_Tools_navi

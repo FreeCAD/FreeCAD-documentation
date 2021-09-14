@@ -1,3 +1,5 @@
+# About FreeCAD/ja
+
  
 
 <img alt="" src=images/Freecad_default.jpg  style="width:1024px;">
@@ -74,4 +76,4 @@ FreeCAD is maintained and developed by a community of enthusiastic developers an
 
 
 
-[Category:User Documentation{{\#translation:}}](Category:User_Documentation.md)
+[Category:User Documentation](Category:User_Documentation.md)

@@ -1,3 +1,5 @@
+# Migrating to FreeCAD from Fusion360/fr
+
  {{TOCright}}
 
 ## Contexte
@@ -19,8 +21,7 @@ Reportez-vous à la page [glossaire](Glossary/fr.md) en général. Ici une court
 
 -   Contrainte de tangence - Forme FreeCAD de **Contrainte colinéaire**. Voir <img alt="" src=images/Sketcher_ConstrainTangent.svg  style="width:24px;"> [Sketch Contrainte tangente](Sketcher_ConstrainTangent/fr#Entre_deux_lignes_.28colin.C3.A9aire.29.md).
 -   Extrusion - La fonction **extruder** dans FreeCAD. Lisez la documentation <img alt="" src=images/PartDesign_Pad.svg  style="width:24px;"> [PartDesign Protrusion](PartDesign_Pad/fr.md) pour en savoir plus.
--   Toponimie - Abréviation de [Problème de dénomination topologique](Topological_naming_problem/fr.md). Très bien couvert dans les [vidéos youtube de Brodie Fairhall](https://www.youtube.com/watch?v=6p2vqEEmWq4)\].
---   
+-   Toponymie - Abréviation de [Problème de dénomination topologique](Topological_naming_problem/fr.md). Très bien couvert dans les [vidéos youtube de Brodie Fairhall](https://www.youtube.com/watch?v=6p2vqEEmWq4)\].
 
 ## FAQ
 
@@ -33,7 +34,7 @@ Reportez-vous à la page [glossaire](Glossary/fr.md) en général. Ici une court
 
 ## Astuces
 
--   \@MPetrika ([twitter](https://twitter.com/MPetrikas/status/1362051484704264198)) recommande d\'installer [ModernUI Workbench](ModernUI_Workbench/fr.md) de HakanSeven12
+-   \@MPetrika ([twitter](https://twitter.com/MPetrikas/status/1362051484704264198)) recommande d\'installer [Atelier ModernUI](ModernUI_Workbench/fr.md) de HakanSeven12
 
 ## Ressources de formation 
 

@@ -1,6 +1,8 @@
+# Release notes 0.12
+
 This is a summary of the most interesting changes occured in FreeCAD since latest version. See [here](http://www.freecadweb.org/tracker/changelog_page.php) for the complete list of changes.
 
-Older versions: [0.11](Release_notes_011.md)
+Older versions: [0.11](Release_notes_0.11.md)
 
 ### Welcome!
 
@@ -43,6 +45,6 @@ Older versions: [0.11](Release_notes_011.md)
 -   The Draft module is now able to import Bézier curves from SVG files.
 
 
-{{languages | {{es|Release_notes_012/es}} {{fr|Release_notes_012/fr}} {{it|Release_notes_012/it}}  {{pl|Release_notes_012/pl}} {{ru|Release_notes_012/ru}} }}
+{{languages | {{es|Release_notes_0.12/es}} {{fr|Release_notes_0.12/fr}} {{it|Release_notes_0.12/it}}  {{pl|Release_notes_0.12/pl}} {{ru|Release_notes_0.12/ru}} }}
 
-[Category:News{{\#translation:}}](Category:News.md) [Category:Documentation{{\#translation:}}](Category:Documentation.md) [Category:Releases{{\#translation:}}](Category:Releases.md)
+[Category:News](Category:News.md) [Category:Documentation](Category:Documentation.md) [Category:Releases](Category:Releases.md)

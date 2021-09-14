@@ -1,4 +1,6 @@
-\_\_NOTOC\_\_
+# Rename Module to Workbench
+
+
 
 ## Tracking page for wiki-renaming Module to Workbench - 2021 effort 
 
@@ -40,16 +42,16 @@
 +------------------------------------------------------------------------+----------------------------------------------------+
 | **[Surface](Special:WhatLinksHere/Surface_Module.md)**         | <img alt="" src=images/Edit_OK.svg  style="width:16px;">         |
 +------------------------------------------------------------------------+----------------------------------------------------+
-| **[TechDraw](Special:WhatLinksHere/TechDraw_Module.md)**       | <img alt="" src=images/Edit_Cancel.svg  style="width:16px;"> |
+| **[TechDraw](Special:WhatLinksHere/TechDraw_Module.md)**       | <img alt="" src=images/Edit_OK.svg  style="width:16px;">         |
 +------------------------------------------------------------------------+----------------------------------------------------+
 
 ## Plot\_Module on hold 
 
 The Plot\_Module is on hold for the moment.
 
-## Renaming pages currently not possible 
+## Renaming Part\_Module currently not possible 
 
-For some reason it is currently not possible to rename (move) pages. That is why the Part\_Module and the TechDraw\_Module pages still remain.
+For some reason it is currently not possible to rename the Part\_Module page.
 
 ## Under construction 
 

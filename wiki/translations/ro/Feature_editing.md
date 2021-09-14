@@ -1,3 +1,5 @@
+# Feature editing/ro
+
  {{TOCright}}
 
 ## Introducere
@@ -214,4 +216,4 @@ The [tutorials](Tutorials.md) page provides some examples of using the [feature 
 
 }} 
 
-[Category:Common Questions{{\#translation:}}](Category:Common_Questions.md)
+[Category:Common Questions](Category:Common_Questions.md)

@@ -1,3 +1,5 @@
+# Branding/de
+
 
 
 
@@ -101,4 +103,4 @@ Alle aufgeführten Tags sind optional.
 
 
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md)

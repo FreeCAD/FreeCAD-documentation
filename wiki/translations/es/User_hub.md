@@ -1,8 +1,10 @@
+# User hub/es
+
  <img alt="" src=images/User_hub.png  style="width:64px;">
 
 ------------------------------------------------------------------------
 
-\_\_NOTOC\_\_
+
 
 Esta área es el área de ayuda principal para los nuevos usuarios de FreeCAD.
 
@@ -120,4 +122,4 @@ Esta es la ayuda en línea oficial de FreeCAD. Por favor ten en cuenta que el si
 
 
 
-[Category:Hubs{{\#translation:}}](Category:Hubs.md)
+[Category:Hubs](Category:Hubs.md)

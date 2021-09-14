@@ -52,4 +52,4 @@ The <img alt="" src=images/Fasteners_BOM.svg  style="width:24px;"> [Fasteners BO
 
  {{Fasteners Tools navi}} 
 
-[Category:External Command Reference{{\#translation:}}](Category:External_Command_Reference.md)
+[Category:External Command Reference](Category:External_Command_Reference.md)

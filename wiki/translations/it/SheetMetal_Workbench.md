@@ -1,9 +1,9 @@
+# SheetMetal Workbench/it
 
 
 
-{{UnfinishedDocu
 
-}} <img alt="Icona dell\'ambiente esterno SheetMetal" src=images/Sheetmetal_workbench_icon.svg  style="width:128px;">
+ <img alt="Icona dell\'ambiente esterno SheetMetal" src=images/Sheetmetal_workbench_icon.svg  style="width:128px;">
 
 ## Descrizione
 
@@ -199,4 +199,4 @@ La pagina [Ambienti complementari](external_workbenches/it.md) contiene alcune i
 
 Sono in fase di sviluppo ulteriori nuovi ambienti.
 
-[Category:SheetMetal{{\#translation:}}](Category:SheetMetal.md) [Category:Addons{{\#translation:}}](Category:Addons.md) [Category:External Command Reference{{\#translation:}}](Category:External_Command_Reference.md)
+[Category:SheetMetal](Category:SheetMetal.md) [Category:Addons](Category:Addons.md) [Category:External Command Reference](Category:External_Command_Reference.md)

@@ -1,3 +1,5 @@
+# Image Workbench/zh-cn
+
  
 
 <img alt="Image workbench icon" src=images/Workbench_Image.svg  style="width:128px;">
@@ -40,4 +42,4 @@
 
 }} 
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

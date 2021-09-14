@@ -1,3 +1,5 @@
+# WebTools Workbench/zh-cn
+
  <img alt="WebTools workbench icon" src=images/WebTools_workbench_icon.svg  style="width:128px;">
 
 
@@ -37,4 +39,4 @@ This workbench can be easily installed and updated from the [Addon Manager](Addo
 
  
 
-[Category:Addons{{\#translation:}}](Category:Addons.md) [Category:External Workbenches{{\#translation:}}](Category:External_Workbenches.md) [Category:User Documentation{{\#translation:}}](Category:User_Documentation.md)
+[Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md) [Category:User Documentation](Category:User_Documentation.md)

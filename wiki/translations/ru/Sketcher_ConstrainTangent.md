@@ -1,11 +1,11 @@
 ---
 - GuiCommand:/ru
-   Name:Sketcher ConstrainTangent
-   Name/ru:Sketcher ConstrainTangent
+   Name/ru:Ограничение касательности
+   Name:Sketcher_ConstrainTangent
    MenuLocation:Sketch → Ограничения эскиза → Ограничение касательности
    Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
    Shortcut:**T**
-   SeeAlso:[Constraint point on object](Sketcher_ConstrainPointOnObject/ru.md)
+   SeeAlso:[Зафиксировать точку на объекте](Sketcher_ConstrainPointOnObject/ru.md)
 ---
 
 ## Описание
@@ -14,20 +14,15 @@
 
 Tangent Constraint can also be used with two lines to make them colinear.
 
-## Использование
+## Применение
 
-
-<div class="mw-translate-fuzzy">
-
-Возможно четыре варианта назначения ограничения:
+Возможны пять вариантов применения данного ограничения:
 
 1.  между двумя кривыми (доступно не для всех кривых)
 2.  между двумя конечными точками кривой, делая гладкое соединение
 3.  между кривой и конечной точкой другой кривой
 4.  между двумя кривыми в точке, определённой пользователем
-
-
-</div>
+5.  между двумя линиями для создания условия коллинеарности
 
 Для назначения ограничения касательности следует:
 
@@ -87,13 +82,7 @@ Tangent Constraint can also be used with two lines to make them colinear.
 
 \"Любая точка\" может быть отдельной точкой, или точкой чего-либо, например, центр окружности, конечная точка дуги, начальная точка.
 
-
-<div class="mw-translate-fuzzy">
-
 Чтобы ограничение работало правильно, точка должна быть на обоих кривых. Поэтому как только ограничение вызвано, точка будет автоматически ограничена на двух кривых (если нужно, будет добавлено [вспомогательное ограничение](Sketcher_helper_constraint/ru.md)), и кривые станут касательными в этой точке. Эти [вспомогательные ограничения](Sketcher_helper_constraint/ru.md) - простые регулярные ограничения. Они могут быть добавлены вручную, или удалены.
-
-
-</div>
 
 В сравнении с прямой касательностью, это ограничение медленнее, поскольку привлекается большее число степеней свободы, но если нужна точка касания, это рекомендованный режим, поскольку он предлагает лучшую сходимость в сравнении к прямому касанию + точке на двух кривых.
 
@@ -107,17 +96,9 @@ Tangent Constraint can also be used with two lines to make them colinear.
 
 -   any line/vertex + any line/vertex
 
-## Scripting
+## Программирование
 
-
-<div class="mw-translate-fuzzy">
-
-Ограничение касательности может создаваться из [макросов](macros/ru.md) и из консоли python следующим образом:
-
-
-</div>
-
-
+Ограничение касательности может создаваться из [макросов](Macros/ru.md) и из консоли [Python](Python/ru.md) следующим образом: 
 ```python
 # direct tangency
 Sketch.addConstraint(Sketcher.Constraint('Tangent',icurve1,icurve2))
@@ -130,9 +111,7 @@ Sketch.addConstraint(Sketcher.Constraint('Tangent',icurve1,pointpos1,icurve2))
 
 # tangent-via-point (plain constraint, helpers are not added automatically)
 Sketch.addConstraint(Sketcher.Constraint('TangentViaPoint',icurve1,icurve2,geoidpoint,pointpos)) 
-```
-
-Где:
+``` Где:
 
 :\* `Sketch` это объект эскиза
 
@@ -145,13 +124,7 @@ Sketch.addConstraint(Sketcher.Constraint('TangentViaPoint',icurve1,icurve2,geoid
 The [Sketcher scripting](Sketcher_scripting.md) page explains the values which can be used for `incurve1`, `incurve2`, `pointpos1`, `pointpos2`, `geoidpoint` and `pointpos` and contains further examples on how to create constraints from Python scripts.
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Sketcher Tools navi

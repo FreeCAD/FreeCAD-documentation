@@ -1,3 +1,5 @@
+# Drawing Workbench/cs
+
  
 
 
@@ -80,4 +82,4 @@ Některé poznámky k programovací stránce vykreslovacího modulu budou přid�
 
 }} 
 
-[Category:Obsolete Workbenches{{\#translation:}}](Category:Obsolete_Workbenches.md)
+[Category:Obsolete Workbenches](Category:Obsolete_Workbenches.md)

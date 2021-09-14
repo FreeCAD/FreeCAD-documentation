@@ -1,3 +1,5 @@
+# Manual:Parametric objects/fr
+
 
 
 
@@ -39,4 +41,4 @@ Enfin, il convient de noter que les objets paramétriques personnalisés sont fa
 
 
 
-[Category:Poweruser Documentation{{\#translation:}}](Category:Poweruser_Documentation.md) [Category:Tutorials{{\#translation:}}](Category:Tutorials.md)
+[Category:Poweruser Documentation](Category:Poweruser_Documentation.md) [Category:Tutorials](Category:Tutorials.md)

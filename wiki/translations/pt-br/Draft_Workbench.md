@@ -1,3 +1,5 @@
+# Draft Workbench/pt-br
+
 
 
 
@@ -10,7 +12,7 @@
 
 ## Introdução
 
-A <img alt="" src=images/Workbench_Draft.svg  style="width:32px;"> [bancada de trabalho Draft](Draft_Module/pt-br.md) permite desenhar objetos 2D simples, e oferece várias ferramentas para modificá-los posteriormente. Ele também fornece ferramentas para definir um plano de trabalho, uma grade e um sistema de disparo para controlar com precisão a posição de sua geometria.
+A <img alt="" src=images/Workbench_Draft.svg  style="width:32px;"> [bancada de trabalho Draft](Draft_Workbench/pt-br.md) permite desenhar objetos 2D simples, e oferece várias ferramentas para modificá-los posteriormente. Ele também fornece ferramentas para definir um plano de trabalho, uma grade e um sistema de disparo para controlar com precisão a posição de sua geometria.
 
 Os objetos 2D criados podem ser usados para esboço geral de uma forma semelhante à do Inkscape ou do Autocad. Estas formas 2D também podem ser usadas como componentes base de objetos 3D criados com outras bancadas de trabalho, por exemplo, a <img alt="" src=images/Workbench_Part.svg  style="width:32px;"> [bancada de trabalho Part](Part_Workbench/pt-br.md) e [Arch](Arch_Workbench/pt-br.md). A conversão de objetos de Draft para <img alt="" src=images/Workbench_Sketcher.svg  style="width:32px;"> [Sketches](Sketcher_Workbench/pt-br.md) também é possível, o que significa que as formas também podem ser usadas com a <img alt="" src=images/Workbench_PartDesign.svg  style="width:32px;"> [bancada de trabalho PartDesign](PartDesign_Workbench/pt-br.md) para a criação de corpos sólidos.
 
@@ -305,4 +307,4 @@ Where `$INSTALLDIR` is the toplevel directory where the software was installed; 
 
  
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

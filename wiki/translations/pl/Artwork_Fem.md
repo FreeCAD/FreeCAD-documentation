@@ -1,4 +1,6 @@
-\_\_NOTOC\_\_ 
+# Artwork Fem/pl
+
+ 
 
 Ikony te znajdują się we wskazanej ścieżce źródłowej.
 
@@ -15,4 +17,4 @@ Wszystkie ikonki widoczne na liście źródłowej, patrz [Grafika](Artwork/pl.md
 
 }} 
 
-[Category:FEM{{\#translation:}}](Category:FEM.md)
+[Category:FEM](Category:FEM.md)

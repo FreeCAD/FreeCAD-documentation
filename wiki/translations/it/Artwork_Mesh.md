@@ -1,4 +1,6 @@
-\_\_NOTOC\_\_ 
+# Artwork Mesh/it
+
+ 
 
 Queste icone si trovano nel percorso origine indicato.
 
@@ -19,4 +21,4 @@ Per tutte le icone nell\'albero del codice sorgente, vedere [Oggetti grafici](Ar
 
 }} 
 
-[Category:Mesh{{\#translation:}}](Category:Mesh.md)
+[Category:Mesh](Category:Mesh.md)

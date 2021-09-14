@@ -1,3 +1,5 @@
+# Part Module/it
+
 
 
 
@@ -103,7 +105,13 @@ Questi sono strumenti per creare nuovi oggetti e modificare quelli esistenti.
 
 -   <img alt="" src=images/Part_ProjectionOnSurface.svg  style="width:32px;"> [Proiezione su superficie](Part_ProjectionOnSurface/it.md): Proietta un logo, un testo o qualsiasi faccia, polilinea o bordo su una superficie. {{Version/it|0.19}}
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Part_Attachment.svg  style="width:32px;"> [Allegato](Part_Attachment/it.md): Allega un oggetto ad un altro oggetto.
+
+
+</div>
 
 ### Boolean
 
@@ -211,4 +219,4 @@ Vedere [Script di Part](Part_scripting/it.md)
 
  
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

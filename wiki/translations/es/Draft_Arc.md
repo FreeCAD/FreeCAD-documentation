@@ -1,5 +1,12 @@
 ---
-- GuiCommand:/es   Name:Draft Arc   Name/es:Draft Arc   Workbenches:[Arquitectura](Draft_Module/es___Croquis]],_[[Arch_Module/es.md)|MenuLocation:Croquis → Arco   Shortcut:A R   SeeAlso:[Circunferencia](Draft_Circle/es.md)---
+- GuiCommand:/es
+   Name:Draft Arc
+   Name/es:Draft Arc
+   MenuLocation:Croquis → Arco
+   Workbenches:[Croquis](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
+   Shortcut:A R
+   SeeAlso:[Circunferencia](Draft_Circle/es.md)
+---
 
 
 </div>

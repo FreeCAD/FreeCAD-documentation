@@ -1,14 +1,11 @@
 ---
 - GuiCommand:/ru
-   Name:Sketcher CreateHeptagon
    Name/ru:Семиугольник
+   Name:Sketcher_CreateHeptagon
    MenuLocation:Эскиз → Геометрия эскиза → Семиугольник
    Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
    Version:0.15
 ---
-
-
-</div>
 
 ## Описание
 
@@ -16,13 +13,7 @@
 
 ![](images/SketcherCreateHeptagonExample.png‎ )
 
-
-<div class="mw-translate-fuzzy">
-
-## Использование
-
-
-</div>
+## Применение
 
 
 <div class="mw-translate-fuzzy">
@@ -33,13 +24,9 @@
 
 </div>
 
+## Примечания
 
-<div class="mw-translate-fuzzy">
-
-При редактировании эскиза описанный круг виден, когда вы закрываете эскиз, он пропадает.
-
-
-</div>
+Видимая окружность является элементом вспомогательной геометрией, которая видна только при редактировании эскиза.
 
 
 
@@ -47,4 +34,4 @@
 
 {{Sketcher Tools navi
 
-}}  
+}} 

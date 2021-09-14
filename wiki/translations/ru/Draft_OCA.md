@@ -1,3 +1,5 @@
+# Draft OCA/ru
+
 
 
 
@@ -82,4 +84,4 @@ importOCA.export(objects, "/home/user/Pictures/myfile.oca")
 
  
 
-[Category:File Formats{{\#translation:}}](Category:File_Formats.md)
+[Category:File Formats](Category:File_Formats.md)

@@ -20,7 +20,13 @@
 
 ## Descriere
 
+
+<div class="mw-translate-fuzzy">
+
 Această comandă vă permite să interacționați cu o instanță [BIMServer](http://www.bimserver.org), să deschideți fișierele stocate pe serverul Bim și să salvați noi revizii ale acestor fișiere. BIMServer este un sistem gratuit de server open source, creat pentru a lucra cu fișierele IFC. În starea sa actuală, permite gestionarea proiectelor cu mai multe fișiere IFC și gestionarea reviziilor. Sistemul de baze de date extrem de extensibil și arhitectura plugin-ului permit, de asemenea, proiectarea unor instrumente avansate de interogare / validare și a fluxurilor de lucru fuzibile inteligente.
+
+
+</div>
 
 Pentru a utiliza această comandă, trebuie îndeplinite următoarele condiții:
 

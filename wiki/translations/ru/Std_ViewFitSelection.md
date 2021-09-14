@@ -1,11 +1,11 @@
 ---
 - GuiCommand:/ru
-   Name:Std ViewFitSelection
-   Name/ru:Std ViewFitSelection
-   MenuLocation:Вид → Стандартные виды → Уместить выделенное
-   Workbenches:All
+   Name/ru:Уместить выделенное
+   Name:Std_ViewFitSelection
+   MenuLocation:Вид → Стандартные виды‏‎ → Уместить выделенное
+   Workbenches:Все
    Shortcut:**V** **S**
-   SeeAlso:[Std ViewFitAll](Std_ViewFitAll.md)
+   SeeAlso:[Уместить всё](Std_ViewFitAll/ru.md)
 ---
 
 ## Описание
@@ -21,7 +21,7 @@ The **Std ViewFitSelection** command zooms and pans the camera so that all selec
     -   Select the **<img src="images/Std_ViewFitSelection.svg" width=16px> Fit selection** option from the [3D view](3D_view.md) context menu.
     -   Use the keyboard shortcut: **V** then **S**.
 
-## Scripting
+## Программирование
 
 
 **Смотрите так же:**

@@ -1,4 +1,6 @@
-\_\_NOTOC\_\_ 
+# Artwork Material/it
+
+ 
 
 These icons are in the indicated source path.
 

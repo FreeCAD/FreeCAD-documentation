@@ -1,19 +1,19 @@
 ---
 - GuiCommand:/ru
-   Name:Sketcher ConnectLines
-   Name/ru:Sketcher ConnectLines
-   MenuLocation:Sketch → Инструменты для эскиза → Соединить элементы
+   Name/ru:Соединить края
+   Name:Sketcher_ConnectLines
+   MenuLocation:Sketch → Инструменты для эскиза → Соединить края
    Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
    Shortcut:**Ctrl**+**Shift**+**K**
    Version:0.15
-   SeeAlso:[Sketcher ConstrainCoincident](Sketcher_ConstrainCoincident/ru.md)
+   SeeAlso:[Ограничить совпадение](Sketcher_ConstrainCoincident/ru.md)
 ---
 
-## Description
+## Описание
 
 Applies [Coincident constraints](Sketcher_ConstrainCoincident.md) to endpoints with the same coordinates of the selected elements.
 
-## Usage
+## Применение
 
 1.  Select the elements in the [3D view](3D_view.md) or in the [Task panel](Task_panel.md) on the left side of the screen
 2.  Invoke the command using several methods:
@@ -21,7 +21,7 @@ Applies [Coincident constraints](Sketcher_ConstrainCoincident.md) to endpoints w
     -   Use the **Ctrl** + **Shift** + **K** keyboard shortcut.
     -   Use the **Sketch → Sketcher tools → <img src=images/Sketcher_ConnectLines.svg style="width:16px"> Connect Edges** entry from the top menu.
 
-## Notes
+## Примечания
 
 Before using this command make sure that obvious constraints (horizontal, vertical, tangential) are already applied to the elements. Selecting the elements in a counter-clock-wise order seems to produce better results.
 

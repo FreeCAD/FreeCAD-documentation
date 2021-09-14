@@ -1,3 +1,5 @@
+# Draft ShapeString tutorial/de
+
  {{TutorialInfo/de
 |Topic=Produktgestaltung
 |Level=Anfänger
@@ -172,11 +174,17 @@ Nun zeichnen wir eine einfache Skizze, die als Hilfsgeometrie zur Positionierung
 
 Ein ähnlicher Ablauf wie oben beschrieben kann mit der [PartDesign Arbeitsbereich](PartDesign_Workbench/de.md) durchgeführt werden.
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Erstelle die **<img src=images/Draft_ShapeString.svg style="width:16px"> [Entwurf FormZeichenfolge](Draft_ShapeString/de.md)** zuerst
 2.  Erstelle einen **<img src=images/PartDesign_Body_Tree.svg style="width:16px"> <img src=images/PartDesign_Pad.svg style="width:PartDesign Körper](PartDesign_Body/de.md)**, aktiviere ihn und füge einen Basis-Volumenkörper hinzu, indem du Primitive hinzufügst, oder verwende eine Skizze und extrudiere sie mit **[16px"> [PartDesign Polster](PartDesign_Pad/de.md)**.
 3.  Bewege das `FormZeichenfolge` Objekt in den aktiven Körper.
 4.  Hänge das `FormZeichenfolge` Objekt an eine der Flächen des Volumenkörpers oder an ein **<img src=images/PartDesign_Plane.svg style="width:16px"> <img src=images/Part_Attachment.svg style="width:PartDesign Ebene](PartDesign_Plane/de.md)**, unter Verwendung **[16px"> [/de|Part Bindung](Part_Attachment.md)**.
 5.  Erstelle jetzt ein **<img src=images/PartDesign_Pad.svg style="width:16px"> [PartDesign Polster](PartDesign_Pad/de.md)** oder ein **[16px](Datei:PartDesign_Pocket.svg.md) [PartDesign Tasche](PartDesign_Pocket/de.md)** aus der `Formzeichenfolge`, um eine additive bzw. subtraktive [Grundelement](PartDesign_Feature/de.md) des Grundkörpers zu erzeugen.
+
+
+</div>
 
 Siehe den Forumsbeitrag, [Wie man FormZeichenfolgen in PartDesign verwendet](https://forum.freecadweb.org/viewtopic.php?f=3&t=36623).
 

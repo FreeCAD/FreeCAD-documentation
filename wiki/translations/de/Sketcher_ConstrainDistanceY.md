@@ -37,7 +37,7 @@ Abstand zwischen zwei Endpunkten:
 
 ```pythonSketch.addConstraint(Sketcher.Constraint('DistanceY', Edge1, PointOfEdge1, Edge2, PointOfEdge2, App.Units.Quantity('123.0 mm')))```
 
-Vertical span of line (the GUI allows selecting the edge itself, but it is just a shorthand for using the two extremities of the same line):
+Vertikaler Abstand der Linie (die GUI erlaubt die Auswahl der Kante, aber das ist nur eine Abkürzung für die Nutzung der beiden Endpunkte der gleichen Linie):
 
 
 ```pythonSketch.addConstraint(Sketcher.Constraint('DistanceY', Line, 1, Line, 2, App.Units.Quantity('123.0 mm')))```

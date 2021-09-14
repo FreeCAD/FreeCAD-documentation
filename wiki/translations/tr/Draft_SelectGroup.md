@@ -1,6 +1,12 @@
 ---
-- GuiCommand:/tr   Name:Draft SelectGroup   Name/tr:Grup içeriğini seç   Workbenches:[Arch](Draft_Module/tr___Draft]],_[[Arch_Module/tr.md)|MenuLocation:Draft → Utilities → Select group
-   Shortcut:   SeeAlso:[Draft AddToGroup](Draft_AddToGroup/tr.md), [Std CreateGroup](Std_Group/tr.md)---
+- GuiCommand:/tr
+   Name:Draft SelectGroup
+   Name/tr:Grup içeriğini seç
+   MenuLocation:Draft → Utilities → Select group
+   Workbenches:[Draft](Draft_Workbench/tr.md), [Arch](Arch_Workbench/tr.md)
+   Shortcut:
+   SeeAlso:[Draft AddToGroup](Draft_AddToGroup/tr.md), [Std CreateGroup](Std_Group/tr.md)
+---
 
 
 </div>

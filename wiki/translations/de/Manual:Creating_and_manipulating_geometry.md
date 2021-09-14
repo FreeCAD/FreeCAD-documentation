@@ -1,3 +1,5 @@
+# Manual:Creating and manipulating geometry/de
+
  
 
 
@@ -5,13 +7,7 @@
 
 In den vorangegangenen Kapiteln haben wir die verschiedenen Arbeitsbereiche von FreeCAD kennengelernt, und wie jede von ihnen ihre eigenen Werkzeuge und Geometrietypen implementiert. Das gleiche Konzept gilt für die Arbeit mit Python Code.
 
-
-<div class="mw-translate-fuzzy">
-
-Wir haben auch gesehen, dass die große Mehrheit der FreeCAD Arbeitsbereiche von einem sehr grundlegenden Arbeitsbereich abhängt: dem [Part Arbeitsbereich](Part_Workbench/de.md). Tatsächlich tun viele andere Arbeitsbereiche, wie z.B. [Entwurf](Draft_Module/de.md) und [Architektur](Arch_Module/de.md), genau das, was wir in diesem Kapitel tun werden: Python Code verwenden, um Part Geometrie zu erstellen und handzuhaben.
-
-
-</div>
+Wir haben auch gesehen, dass die große Mehrheit der FreeCAD Arbeitsbereiche von einem sehr grundlegenden Arbeitsbereich abhängt: dem [Part Arbeitsbereich](Part_Workbench/de.md). Tatsächlich tun viele andere Arbeitsbereiche, wie z.B. [Entwurf](Draft_Workbench/de.md) und [Architektur](Arch_Workbench/de.md), genau das, was wir in diesem Kapitel tun werden: Python Code verwenden, um Part Geometrie zu erstellen und handzuhaben.
 
 Das erste, was wir tun müssen, um mit der Formteil Geometrie zu arbeiten, ist das Python Äquivalent zum Wechsel zum Part Arbeitsbereich: Importiere das Part Modul:
 
@@ -235,4 +231,4 @@ All dies und noch viel mehr wird auf der Seite [Teil Skripten](Topological_data_
 
 }} 
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Python Code{{\#translation:}}](Category:Python_Code.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)

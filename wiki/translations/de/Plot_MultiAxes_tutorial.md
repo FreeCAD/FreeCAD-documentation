@@ -1,4 +1,12 @@
- {{TutorialInfo/de
+# Plot MultiAxes tutorial/de
+
+
+
+
+<div class="mw-translate-fuzzy">
+
+
+{{TutorialInfo/de
 |Topic=Plot workbench
 |Level=Intermediate
 |Time=
@@ -7,32 +15,28 @@
 |Files=
 }}
 
-Ensure to visit [basic tutorial](Plot_Basic_tutorial.md) before starting with this tutorial. In this tutorial we will learn how to create and edit a multiaxes plot. You can learn more about [Plot module here](Plot_Module.md).
 
-<img alt="Multiaxes plot example" src=images/Plot_MultiAxes_Example.png  style="width:600px;">
+</div>
 
+Please complete the [basic tutorial](Plot_Basic_tutorial.md) before starting with this tutorial. In this tutorial we will learn how to create and edit a multiaxes plot. You can learn more about the [Plot module here](Plot_Module.md).
 
-<center>
+<img alt="" src=images/Plot_MultiAxes_Example.png  style="width:600px;"> 
+*Multiaxes plot example*
 
-Multiaxes plot example.
+In the image you can see the result that we will approximately obtain. Following this tutorial you will learn:
 
-
-</center>
-
-In previous image you can see the result that we aproximately will obtain. Following this tutorial you will learn:
-
--   How to create a multiaxes Plot from Python Console.
+-   How to create a multiaxes Plot from the [Python console](Python_console.md).
 -   How to edit axes properties.
--   How to control grid/legend when several axes is present.
--   How to edit labels, titles and legend positions.
+-   How to control the grid and the legend when several axes sets are present.
+-   How to edit the position of labels, titles and legends.
 
 ## Plotting data 
 
-As we did in [previous tutorial](Plot_Basic_tutorial.md) we will use the Python console or [macros](Macros.md) in order to plot the data, with the difference that in this case we will plot the data in two different axes.
+As we did in the [previous tutorial](Plot_Basic_tutorial.md) we will use the [Python console](Python_console.md) or [macros](Macros.md) to plot the data, but in this case we will plot the data using two axes sets.
 
 ### Creating plot data 
 
-In this example we will plot 3 functions, the two ones used in [previous tutorial](Plot_Basic_tutorial.md), and another polynomial one. The fact is that the polynomial one will need new axes due to the variation range is different from all others. Next commands will create data arrays for us:
+In this example we will plot 3 functions, the two used in the [previous tutorial](Plot_Basic_tutorial.md), and a new polynomial one. The range of the polynomial function is different from the other functions therefore new axes are required. The next commands will create the data arrays for us:
 
 
 ```python
@@ -45,96 +49,91 @@ s = [math.sin(math.pi*2.0*tt) for tt in t]
 c = [math.cos(math.pi*2.0*tt) for tt in t]
 ```
 
-As *x* moves from 0 to 2, *y* function has a maximum value of 4, so if we try to plot this function with trigonometrical ones, at least one function will be truncated or bad scaled, then we need a multiaxes plot. Multiaxes plot in FreeCAD is oriented to get a plot with multiple axes, not to get multiple plots in same document.
+As *x* moves from 0 to 2, the *y* function has a maximum value of 4, so if we try to plot this function with the trigonometrical ones, at least one function will be truncated or badly scaled, therefore we we need a multiaxes plot. A multiaxes plot in FreeCAD is intended to get a plot with multiple axes, not to get multiple plots in the same document.
 
 ### Drawing functions, adding new axes 
 
-We will draw polynomial function at main axes. If all your axes will have same size then is not relevant what function is ploted in what axes, but if your plot has axes with other size (as in this example), main axes must be the biggest one (because this axes have the white background). In order to do it we only need to launch a command
+We will plot the trigonometrical functions using the main axes. If all your axes have the same size it is not relevant which function is plotted first. But if this is not the case the function that uses the biggest axes, in our case the polynomial function, should be plotted last. The legend will be attached to the last axes system and it is more convenient if this is the biggest. To plot the trigonometrical functions we only need to launch some commands.
 
 
 ```python
-import Plot
-Plot.plot(x,y,r"$x^2$")
-```
+try:
+    from FreeCAD.Plot import Plot
+except ImportError:
+    from freecad.plot import Plot
 
-In this example we pass directly the series label for the legend. Note that the label string has the *r* prefix in order to avoid Python try to interpret special characters (*\\* symbol is used frecuently in [LaTeX](http://www.latex-project.org) syntax).
-
-Now we can plot trigonometrical functions, creating new axes before. In [FreeCAD Plot module](Plot_Module.md) when you create new axes this axes are selected as active ones, so new plots will be associated to this axes.
-
-
-```python
-Plot.addNewAxes()
 Plot.plot(t,s,r"$\sin\left( 2 \pi t \right)$")
 Plot.plot(t,c,r"$\cos\left( 2 \pi t \right)$")
 ```
 
-As you can see you plot has gone crazy, with axes ticks overlaped, curves of same color, etc. Now we needs to use [FreeCAD Plot module](Plot_Module.md) to fix this graph.
+In this example we pass the series labels for the legend directly. Note that the label strings have the *r* prefix in order to prevent Python from trying to interpret special characters (the *\\* symbol is used frequently in [LaTeX](http://www.latex-project.org) syntax).
+
+Before we can plot the polynomial function, we need to create new axes. In the [Plot module](Plot_Module.md) new axes are automatically selected as the active ones, and new plots will be associated with these axes.
+
+
+```python
+Plot.addNewAxes()
+Plot.plot(x,y,r"$x^2$")
+```
+
+As you can see your plot has gone crazy, with axes ticks overlapping, curves of the same color, etc. Now we need to use the [Plot module](Plot_Module.md) to fix this graph.
 
 ## Configuring plot 
 
 ### Configuring axes 
 
-[FreeCAD Plot module](Plot_Module.md) provides a tool in order to modify the properties of each axes.
+The [Plot module](Plot_Module.md) provides a tool to modify the properties of axes.
 
-![Axes configuration tool icon](images/Plot_Axes.svg‎ )
+![](images/Plot_Axes.svg‎ ) *Axes configuration tool icon*
 
+With the [axes tool](Plot_Axes.md) you can add or remove axes, and set the active axes, which are then used if you plot more data.
 
-<center>
-
-Axes configuration tool icon.
-
-
-</center>
-
-The first thing that you can find in axes tool is the active axes selector. Since the active axes are the last one, active axes is placed at one. The axes tool, as labels tool, allows to set the active axes, allowing you to plot more data in the axes that you want (including add/remove axes). For the moment we will work over the selected axes, that are the associated to trigonometrical functions.
-
-In the dimensions sliders, we will move left horizontal and bottom vertical sliders (try to emulate example) in order to reduce axes size. Then we can set the axes alignement, changing it to top and right, and setting and small offset of two units.
+To change the size of the first axes set, associated with the trigonometrical functions, it has to be activated first by changing the active axes from 1 to 0. We can then move the horizontal and vertical dimension sliders to reduce its size (try to emulate the example). We also need to change the alignment of the axes: select top and right respectively.
 
 ### Configuring series 
 
-Set series properties as we did in [previous tutorial](Plot_Basic_tutorial.md).
+Set the series properties as we did in the [previous tutorial](Plot_Basic_tutorial.md).
 
 ### Showing grid and legend 
 
-Grid and legend is shown and hide with the same tools that used in [previous tutorial](Plot_Basic_tutorial.md), but in this case the behaviour is a little bit different due to the presence of two different axes.
+The [grid](Plot_Grid.md) and [legend](Plot_Legend.md) can be shown, and hidden, with the tools already described in the [previous tutorial](Plot_Basic_tutorial.md), but in this case the behavior is a little different because there are two axes sets.
 
-Regarding grid lines, you can show lines for each axes set, for example, if you try to show grid now you will show only the grid of the trigonometrical functions, so in order to show the grid of polynomial function plot you needs to change active axes to 0 (using axes configuration tool) before using grid tool another time (Is possible that you need to press two times the tool).
+Grid lines are added to the active axes set. To add lines to the second axes set in our example, it has to be activated first by changing the active axes from 0 to 1 in the [axes tool](Plot_Axes.md).
 
-Regarding legend, the legend will be the same for both axes, so you can choose the axes that you want in order to show the legend, but is strongly recommended to use the biggest ones (0 in this example) because position will be refered to this axes coordinates. If you show the legend you can see that is really bad placed, we will fix this problem later.
+As already mentioned the legend will be positioned relative last axes set. If you show the legend now you will see that it is really badly placed, but we will fix that later.
 
 ### Setting axes labels 
 
-You can set axes labels with same tool used in [previous tutorial](Plot_Basic_tutorial.md), with the difference that now you have more axes. Since axes labels is ussually set as one per axis, is not a significant difference, but [FreeCAD Plot module](Plot_Module.md) allow you to set a title by axes too. In this case we only wants to set title to main axes, so set:
+When it comes to setting the axes [labels](Plot_Labels.md) we again have to deal with our two axes sets. But since labels are usually set for all axes, the procedure is the same as described in the [previous tutorial](Plot_Basic_tutorial.md). The [Plot module](Plot_Module.md) allows you to set a title per axes set. In this case we only want to set a title for the last, the biggest, axes set.
 
 **Axes 0:**
+
+-   X Label = \$t\$
+-   Y Label = \$\\mathrm{f} \\left( t \\right)\$
+
+**Axes 1:**
 
 -   Title = Multiaxes example
 -   X Label = \$x\$
 -   Y Label = \$\\mathrm{f} \\left( x \\right)\$
 
-**Axes 1:**
-
--   X Label = \$t\$
--   Y Label = \$\\mathrm{f} \\left( t \\right)\$
-
-Set also 20 to fontsize for all but title, that uses a fontsize of 24. As happens with legend, title is bad placed, interseting with second axes set, so we need to solve both problems.
+Change the font size of all labels to 20, and the font size of the title to 24. Again there is an element, the title, that is badly placed.
 
 ### Setting elements position 
 
-[FreeCAD Plot module](Plot_Module.md) provides a tool in order to set the position of several plot elements, as titles, labels or legend.
+The [Plot module](Plot_Module.md) provides a tool to change the position of several plot elements, such as as titles, labels and legends.
 
-![Position editor icon](images/Plot_Positions.svg‎ )
+![](images/Plot_Positions.svg ) *Position editor icon*
 
-
-<center>
-
-Position editor icon.
-
-
-</center>
-
-When you run the tool you see a list with all the editable elements. Title elements, as well as legend, can be moved in both directions, since axes labels can be moved only on the axes direction. Select title of axes 0 and move it to (0.24,1.01), then select legend and move it to a better position. You can increase legend labels fontsize too.
+When you run the tool you will see a list of all editable elements. Titles and legends can be moved in both directions, but axis labels can only be moved along the axis they belong to. Select the title of axes 1 and move it to (0.24,1.01), then select the legend and move it to a better position. You can increase the font size of the legend labels as well.
 
 ## Saving plot 
 
-Now you can save your work. See [previous tutorial](Plot_Basic_tutorial.md) if you don\'t remember how to do it. {{Tutorials navi}} {{Plot Tools navi}} 
+Now you can save your work. See the [previous tutorial](Plot_Basic_tutorial.md) if you don\'t remember how to do it.
+
+
+{{Tutorials_navi
+
+}} {{Plot_Tools_navi}} 
+
+[Category:External\_Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)

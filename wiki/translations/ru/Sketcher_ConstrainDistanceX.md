@@ -1,22 +1,20 @@
 ---
 - GuiCommand:/ru
-   Name:Sketcher ConstrainDistanceX
-   Name/ru:Sketcher ConstrainDistanceX
-   MenuLocation:Sketch → Ограничения эскиза → Ограничения расстояния по горизонтали
+   Name/ru:Ограничение расстояния по горизонтали
+   Name:Sketcher_ConstrainDistanceX
+   MenuLocation:Sketch → Ограничения эскиза → Ограничение расстояния по горизонтали
    Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
-   SeeAlso:[Sketcher Constrain Length](Sketcher_ConstrainDistance/ru.md), [Sketcher Constrain Vertical Distance](Sketcher_ConstrainDistanceY/ru.md)
+   Shortcut:**Shift** + **H**
+   SeeAlso:[Ограничить расстояние](Sketcher_ConstrainDistance/ru.md), [Ограничение расстояния по вертикали](Sketcher_ConstrainDistanceY/ru.md)
 ---
 
-
-</div>
-
-## Description
+## Описание
 
 Fixes the horizontal distance between 2 points or line ends. If only one point is selected, the distance is set to the sketch origin.
 
 ![](images/Constraint_H_Distance.png )
 
-## Usage
+## Применение
 
 1.  Pick one or two points or one line.
 2.  Invoke the tool several ways:
@@ -27,14 +25,14 @@ Fixes the horizontal distance between 2 points or line ends. If only one point i
 
 **Note:** the constraint tool can also be started with no prior selection, but will require selection of two points or one line. To set the distance to the origin, the sketch origin point needs to be selected as well. By default the command will be in continue mode to create new constraints; press the right mouse button or **Esc** once to quit the command.
 
-## Scripting
+## Программирование
 
 Distance from origin:
 
 
 ```pythonSketch.addConstraint(Sketcher.Constraint('DistanceX', Edge, PointOfEdge, App.Units.Quantity('123.0 mm')))```
 
-Distance between two vertices:
+Дистанция между двумя вершинами:
 
 
 ```pythonSketch.addConstraint(Sketcher.Constraint('DistanceX', Edge1, PointOfEdge1, Edge2, PointOfEdge2, App.Units.Quantity('123.0 mm')))```

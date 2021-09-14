@@ -1,4 +1,6 @@
- {{UnfinishedDocu}}
+# Manipulator/pl
+
+ }
 
 ## Opis
 
@@ -11,4 +13,4 @@
 
 
 
-[Category:Glossary{{\#translation:}}](Category:Glossary.md)
+[Category:Glossary](Category:Glossary.md)

@@ -1,3 +1,5 @@
+# Getting started/es
+
 
 
 
@@ -22,26 +24,12 @@ Ver también:
 
 ## Instalación
 
-
-<div class="mw-translate-fuzzy">
-
-En primer lugar, descargue e instale FreeCAD. Consulte la página [Descargar](Download/es.md) para obtener información sobre las versiones y actualizaciones actuales, y la página [Instalar](Installing/es.md) para obtener instrucciones de instalación. Hay paquetes de instalación listos para Windows (.msi), Debian y Ubuntu (.deb), openSUSE (.rpm), y Mac OSX. FreeCAD está disponible en los gestores de paquetes de muchas otras distribuciones de Linux. También está disponible un ejecutable [AppImage](AppImage/es.md) independiente, que se ejecutará en los sistemas Linux de 64 bits más recientes. Como FreeCAD es de código abierto, también puede tomar el código fuente y [compilar](Compiling/es.md) usted mismo.
-
-
-</div>
+En primer lugar, descarga e instala FreeCAD. Consulte la página [Descargar](Download/es.md) para obtener información sobre las versiones y actualizaciones actuales, y las instrucciones de instalación para tu sistema operativo ([Windows](Installing_on_Windows/es.md), [Linux](Installing_on_Linux/es.md) o [Mac](Installing_on_Mac/es.md)). Hay paquetes de instalación listos para Windows (.msi), Debian y Ubuntu (.deb), openSUSE (.rpm), y Mac OSX. FreeCAD está disponible en los gestores de paquetes de muchas otras distribuciones de Linux. También está disponible un ejecutable [AppImage](AppImage/es.md) independiente, que se ejecutará en los sistemas Linux de 64 bits más recientes. Como FreeCAD es de código abierto, también puedes obtener el código fuente y [compilar](Compiling/es.md) por ti mismo.
 
 ## Explorando la interfaz 
 
-<img alt="" src=images/FreeCAD_interface_base_divisions.svg  style="width:1024px;">
-
-
-<div class="mw-translate-fuzzy">
-
 <img alt="" src=images/FreeCAD_interface_base_divisions.svg  style="width:1024px;"> 
 *Interfaz estándar de FreeCAD en 0.19.*
-
-
-</div>
 
 
 **Vea una explicación completa en [Interfaz](Interface/es.md).**
@@ -86,24 +74,24 @@ FreeCAD tiene tres diferentes [Modos de navegación](Mouse_navigation/es.md) dis
 |Shift=**Shift**
 |Select_text=Press the left mouse button over an object you want to select.
 
-Holding down **Ctrl** allows the selection of multiple objects.
-|Pan_text=Hold the middle mouse button, then move the pointer.
-|Pan_mode_text=Pan mode: hold the **Ctrl** key, press the right mouse button once, then move the pointer. <small>(v0.17)</small> 
-|Zoom_text=Use the mouse wheel to zoom in and out.
+Mantener pulsado **Ctrl** permite la selección de múltiples objetos.
+|Pan_text=Mantener pulsado el botón central del ratón, luego mover el puntero.
+|Pan_mode_text=Modo Pan: mantener pulsada la tecla **Ctrl**, pulsar el botón derecho del ratón una vez, y luego mover el puntero. {{Version/es|0.17}}
+|Zoom_text=Utiliza la rueda del ratón para acercar y alejar la imagen.
 
-Clicking the middle mouse button re-centers the view on the location of the cursor.
-|Zoom_mode_text=Zoom mode: hold the **Ctrl** and **Shift** keys, press the right mouse button once, then move the pointer. <small>(v0.17)</small> 
-|Rotate_view_text=Hold the middle mouse button, then press and hold the left mouse button, then move the pointer.
+Si se pulsa el botón central del ratón, se vuelve a centrar la vista en la ubicación del cursor.
+|Zoom_mode_text=Modo de zoom: mantener pulsadas las teclas **Ctrl** y **Shift**, pulsar una vez el botón derecho del ratón y mover el puntero. {{Version/es|0.17}}
+|Rotate_view_text=Mantenga pulsado el botón central del ratón, pulse y mantenga pulsado el botón izquierdo del ratón, luego mueva el puntero.
 
-The cursor location when the middle mouse button is pressed determines the center of rotation. Rotation works like spinning a ball which rotates around its center. If the buttons are released before you stop the mouse motion, the view continues [spinning](spinning.md), if this is enabled.
+La ubicación del cursor cuando se pulsa el botón central del ratón determina el centro de rotación. La rotación funciona como hacer girar una pelota que gira alrededor de su centro. Si se sueltan los botones antes de que se detenga el movimiento del ratón, la vista continúa [girando](spinning/es.md), si esto está habilitado.
 
-A double click with the middle mouse button sets a new center of rotation.
-|Rotate_view_mode_text=Rotate mode: hold the **Shift** key, press the right mouse button once, then move the pointer. <small>(v0.17)</small> 
-|Rotate_view_alt_text=Hold the middle mouse button, then press and hold the right mouse button, then move the pointer.
+Un doble clic con el botón central del ratón establece un nuevo centro de rotación.
+|Rotate_view_mode_text=Modo de rotación: mantén la tecla **Shift**, pulsa el botón derecho del ratón una vez, luego mueve el puntero. {{Version/es|0.17}}
+|Rotate_view_alt_text=Mantener pulsado el botón central del ratón, pulsar una vez el botón derecho del ratón y mover el puntero.
 
-With this method the middle mouse button may be released after the right mouse button is held pressed.
+Con este método se puede soltar el botón central del ratón después de mantener pulsado el botón derecho.
 
-Users who use the mouse with their right hand may find this method easier than the first method.
+Los usuarios que utilizan el ratón con la mano derecha pueden encontrar este método más fácil que el primero.
 }}
 
 También tiene varias vistas preconfiguradas (vista superior, vista frontal, etc.) disponibles en el menú Ver, en la barra de herramientas Ver, y, por atajos numéricos (**1**, **2**, etc\...). Dado clic derecho sobre un objeto o sobre un area vacia de la vista 3D, tienes acceso directo a algunas operaciones comunes, tal como configurar una vista particular, o ubicar un objeto en la vista de árbol.
@@ -168,12 +156,12 @@ Más en la [Tutorialespágina](Tutorials/es.md).
 
 Freecad, como software de código abierto, ofrece la posibilidad de complementar sus ambiente de trabajo con complementos.
 
-The [Addon](Addon.md) principle is based on the development of a workbench complement. Any user can develop a function that he or she deems to be missing for her/his own needs or, ultimately, for the community. With the forum, the user can request an opinion, help on the forum. It can share, or not, the object of its development according to copyright rules to define. Free to her/him. To develop, the user has available [scripting](scripting.md) functions.
+El principio de [Complementos](Addon/es.md) se basa en el desarrollo de un complemento del ambiente de trabajo. Cualquier usuario puede desarrollar una función que considere que falta para sus propias necesidades o, en última instancia, para la comunidad. Con el foro, el usuario puede solicitar una opinión, una ayuda en el foro. Puede compartir, o no, el objeto de su desarrollo según las normas de derechos de autor a definir. Libre para ella/él. Para desarrollar, el usuario dispone de funciones de [guiones](scripting/es.md).
 
-There are two types of addons:
+Hay dos tipos de complementos:
 
-1.  [Macros](Macros.md): short snippets of Python code that provide a new tool or functionality. Macros usually start as a way to simplify or automate the task of drawing or editing a particular object. If many of these macros are collected inside a directory, the entire directory may be distributed as a new workbench.
-2.  [External workbenches](External_workbenches.md): collections of tools programmed in Python or C++ that extend FreeCAD in an important way. If a workbench is sufficiently developed and is well documented, it may be included as one of the base workbenches in FreeCAD. Under [External workbenches](External_workbenches.md), you\'ll find the principle and a list of existing library.
+1.  [Macros](Macros/es.md): breves fragmentos de código Python que proporcionan una nueva herramienta o funcionalidad. Las macros suelen empezar como una forma de simplificar o automatizar la tarea de dibujar o editar un objeto concreto. Si muchas de estas macros se reúnen dentro de un directorio, todo el directorio puede ser distribuido como un nuevo ambiente de trabajo.
+2.  [Ambientes de trabajo externos](External_workbenches/es.md): colecciones de herramientas programadas en Python o C++ que extienden FreeCAD de forma importante. Si un ambiente de trabajo está suficientemente desarrollado y está bien documentado, puede ser incluido como uno de los ambientes de trabajo base en FreeCAD. En [Ambientes de trabajo externos](External_workbenches/es.md), encontrarás el principio y una lista de las bibliotecas existentes.
 
 ## Guión
 

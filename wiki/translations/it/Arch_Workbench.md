@@ -1,3 +1,5 @@
+# Arch Workbench/it
+
 
 
 
@@ -143,4 +145,4 @@ Il Modulo Arch può essere usato negli [Python](Python/it.md) e [macro](macros/i
 
  
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

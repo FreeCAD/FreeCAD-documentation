@@ -1,13 +1,14 @@
 ---
-- GuiCommand:
-   Name:Sketcher BSplineDecreaseKnotMultiplicity
-   MenuLocation:Sketch → Sketcher B-spline tools → Decrease knot multiplicity
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
+- GuiCommand:/ru
+   Name/ru:Уменьшение кратности узлов
+   Name:Sketcher_BSplineDecreaseKnotMultiplicity
+   MenuLocation:Sketch → B-сплйан инструменты эскиза → Уменьшение кратности узлов
+   Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
    Version:0.17
-   SeeAlso:[Sketcher Show/hide B-spline knot multiplicity](Sketcher_BSplineKnotMultiplicity.md), [Sketcher BSpline Increase knot multiplicity](Sketcher_BSplineIncreaseKnotMultiplicity.md)
+   SeeAlso:[Показать/скрыть кратность узлов B-сплайна](Sketcher_BSplineKnotMultiplicity/ru.md), [Увеличение кратности узлов](Sketcher_BSplineIncreaseKnotMultiplicity/ru.md)
 ---
 
-## Description
+## Описание
 
 Decreases the multiplicity of a B-spline knot. (See [this page](B-Splines.md) for more info about B-splines).
 
@@ -31,7 +32,7 @@ One can see that the spline with knot multiplicity 1 is completely changed while
 
 **Note:** If you decrease the multiplicity, the knot vanishes, because mathematically it appears then zero times in the knot vector, meaning there is no longer a basis function. Understanding this, requires some math, but it will also be clear when you look at the multiplicity: For example degree = 3 then multiplicity = 0 means that at the position of the knot two Bézier pieces are connected with *C*^3^ continuity. So the third derivative should be equal on both sides of the knot. However for a cubic Bézier curve (that is a polynom with degree 3) , this means both sides must be part of the same curve. So there is then actually no longer a knot connecting 2 different Bézier curves, the former knot is then simply a point onto one Bézier curve.
 
-## Usage
+## Применение
 
 1.  Select a B-spline knot, either:
     -   Press the button **<img src=images/Sketcher_BSplineDecreaseKnotMultiplicity.svg style="width:24px"> [B-spline decrease knot multiplicity](Sketcher_BSplineDecreaseKnotMultiplicity.md)**.

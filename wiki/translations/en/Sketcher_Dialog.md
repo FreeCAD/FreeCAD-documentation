@@ -1,3 +1,5 @@
+# Sketcher Dialog/en
+
 
 
 
@@ -163,7 +165,7 @@ You can set the following options:
 | Name                                    | Description                                                                                                                                                                                                                                                                                                   |
 +=========================================+===============================================================================================================================================================================================================================================================================================================+
 |                          | You can select what constraint types will be listed. The types are                                                                                                                                                                                                                                            |
-| **Filter**                  | *All*: allnn constraints                                                                                                                                                                                                                                                                                      |
+| **Filter**                  | *All*: all constraints                                                                                                                                                                                                                                                                                        |
 |                                      | *Normal*: constraints to normal sketch elements                                                                                                                                                                                                                                                               |
 |                                         | *Datums*: dimensional constraints to [construction elements](Sketcher_ToggleConstruction.md)                                                                                                                                                                                                          |
 |                                         | *Named*: constraints with a name                                                                                                                                                                                                                                                                              |

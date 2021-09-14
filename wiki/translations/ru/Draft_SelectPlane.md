@@ -3,7 +3,7 @@
    Name:Draft SelectPlane
    Name/ru:Draft SelectPlane
    MenuLocation:Draft → Utilities → Select Plane
-   Workbenches:[Draft](Draft_Module/ru.md), [Arch](Arch_Module/ru.md)
+   Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
    Shortcut:**W** **P**
    SeeAlso:[Draft SetWorkingPlaneProxy](Draft_SetWorkingPlaneProxy/ru.md), [Draft ToggleGrid](Draft_ToggleGrid/ru.md)
 ---

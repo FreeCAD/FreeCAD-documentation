@@ -7,9 +7,6 @@
    SeeAlso:[TechDraw Fenêtre de rognage](TechDraw_ClipGroup/fr.md), [TechDraw Suppression vue à une fenêtre de rognage](TechDraw_ClipGroupRemove/fr.md)
 ---
 
-
-</div>
-
 ## Description
 
 Cet outil ajoute une vue à une fenêtre de rognage existante.
@@ -21,13 +18,7 @@ Cet outil ajoute une vue à une fenêtre de rognage existante.
 1.  Sélectionnez une fenêtre de rognage et une vue et appuyez sur le bouton **<img src="images/TechDraw_ClipGroupAdd.svg" width=16px> [Ajouter une vue à la fenêtre de rognage](TechDraw_ClipGroupAdd/fr.md)** pour ajouter la vue.
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{TechDraw Tools navi

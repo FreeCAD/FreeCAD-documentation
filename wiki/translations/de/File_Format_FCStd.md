@@ -1,3 +1,5 @@
+# File Format FCStd/de
+
  {{TOCright}}
 
 ## Übersicht
@@ -165,4 +167,4 @@ Siehe den Forumsbeitrag, [PDF innerhalb des Projekts](https://forum.freecadweb.o
 
  
 
-[Category:Developer{{\#translation:}}](Category:Developer.md) [Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:File\_Formats{{\#translation:}}](Category:File_Formats.md)
+[Category:Developer](Category:Developer.md) [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:File\_Formats](Category:File_Formats.md)

@@ -1,38 +1,40 @@
+# Constructive solid geometry/es
+
  {{TOCright}}
 
 ## Introducción
 
 [Geometría sólida constructiva](https://en.wikipedia.org/wiki/Constructive_solid_geometry) (**CSG**) es un paradigma de modelización que se utiliza en muchos sistemas tradicionales de CAD. Consiste esencialmente en utilizar objetos sólidos primitivos y hacer operaciones booleanas con ellos, como la fusión, la sustracción y la intersección, para crear una forma final.
 
-In FreeCAD, this method is mostly utilized with the <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part Workbench](Part_Workbench.md), which has the ability of creating primitive objects like <img alt="" src=images/Part_Box.svg  style="width:24px;"> [boxes](Part_Box.md), <img alt="" src=images/Part_Cylinder.svg  style="width:24px;"> [cylinders](Part_Cylinder.md), and <img alt="" src=images/Part_Sphere.svg  style="width:24px;"> [spheres](Part_Sphere.md) and fuse them together, or use them to cut other objects with tools like **<img src="images/Part_Cut.svg" width=24px> [Part Cut](Part_Cut.md)**.
+En FreeCAD, este método se utiliza principalmente con el <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Ambiente de trabajo de pieza](Part_Workbench/es.md), que tiene la capacidad de crear objetos primitivos como <img alt="" src=images/Part_Box.svg  style="width:24px;"> [cajas](Part_Box/es.md), <img alt="" src=images/Part_Cylinder.svg  style="width:24px;"> [cilindros](Part_Cylinder/es.md), y <img alt="" src=images/Part_Sphere.svg  style="width:24px;"> [esferas](Part_Sphere/es.md) y fusionarlos, o utilizarlos para cortar otros objetos con herramientas como **<img src="images/Part_Cut.svg" width=24px> [Corte Pieza](Part_Cut/es.md)**.
 
 <img alt="" src=images/Part_Constructive_Solid_Geometry_workflow.svg  style="width:800px;">
 
 
-*Constructive solid geometry (CSG) workflow; any number of operations can be done on solid primitives to create other solid objects, and then fuse or cut them until the final shape is produced.*
+*Flujo de trabajo de geometría sólida constructiva (CSG); se puede realizar cualquier número de operaciones sobre primitivos sólidos para crear otros objetos sólidos, y luego fusionarlos o cortarlos hasta producir la forma final.*
 
-Alternatively, the <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign Workbench](PartDesign_Workbench.md) uses a more modern approach than simple CSG; this method is called [feature editing](feature_editing.md), which means creating a base solid, and then adding sequential parametric transformations to obtain a final body.
+Alternativamente, el <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Ambiente de trabajo DiseñoPieza](PartDesign_Workbench/es.md) utiliza un enfoque más moderno que el simple CSG; este método se llama [edición de características](feature_editing/es.md), lo que significa crear un sólido base, y luego añadir transformaciones paramétricas secuenciales para obtener un cuerpo final.
 
 
-**Note:**
+**Nota:**
 
-A [PartDesign Body](PartDesign_Body.md) created with the [PartDesign Workbench](PartDesign_Workbench.md) can also be used in a boolean operation with other objects.
+Un [Cuerpo DiseñoPieza](PartDesign_Body/es.md) creado con el [Ambiente de trabajo DiseñoPiezas](PartDesign_Workbench/es.md) también puede utilizarse en una operación booleana con otros objetos.
 
 ## Ejemplo
 
 <img alt="" src=images/Part_CGS_workflow_example.svg  style="width:600px;">
 
 
-*Example of constructive solid geometry (CSG) workflow: primitive parts are fused (union); the intersection of two other primitive parts is calculated (common); the difference (cut) of the two previous shapes is obtained.*
+*Ejemplo de flujo de trabajo de geometría sólida constructiva (CSG): se fusionan partes primitivas (unión); se calcula la intersección de otras dos partes primitivas (común); se obtiene la diferencia (corte) de las dos formas anteriores.*
 
 ## Tutoriales
 
-The [tutorials](tutorials.md) page provides some examples on creating solids with the <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part Workbench](Part_Workbench.md) that use the **CSG** method.
+La página de [tutoriales](tutorials/es.md) proporciona algunos ejemplos sobre la creación de sólidos con el <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Ambiente de trabajo Pieza](Part_Workbench/es.md) que utilizan el método **CSG**.
 
--   [Traditional modeling, the CSG way](Manual:Traditional_modeling,_the_CSG_way.md)
--   [Wiffle ball tutorial](Whiffle_Ball_tutorial.md)
--   [Basic modeling tutorial](Basic_modeling_tutorial.md)
+-   [Modelado tradicional, el método CSG](Manual:Traditional_modeling,_the_CSG_way/es.md)
+-   [Tutorial de pelota de béisbol](Whiffle_Ball_tutorial/es.md)
+-   [Tutorial de modelado básico](Basic_modeling_tutorial/es.md)
 
  
 
-[Category:Common Questions{{\#translation:}}](Category:Common_Questions.md)
+[Category:Common Questions](Category:Common_Questions.md)

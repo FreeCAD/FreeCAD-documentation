@@ -8,9 +8,6 @@
    SeeAlso:[Part Copie simple](Part_SimpleCopy/fr.md), [Part Copie élément](Part_ElementCopy/fr.md), [Part Affiner la forme](Part_RefineShape/fr.md)
 ---
 
-
-</div>
-
 ## Description
 
 [Part Copie transformée](Part_TransformedCopy/fr.md) produit une copie non paramétrique d\'un objet qui a été déplacé de sa position d\'origine.
@@ -45,13 +42,7 @@ La sélection peut être manuelle (en utilisant la souris) ou via la [Console Py
 Pour en savoir plus sur la sélection d\'objets de manière programmatique, reportez-vous à [Méthodes de sélection](Selection_methods/fr.md).
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
  

@@ -1,3 +1,5 @@
+# Macro Wiring And Hoses/fr
+
  {{Macro/fr
 |Name=Macro Wiring And Hoses
 |Description=Cette macro crée des câbles et des tubes.

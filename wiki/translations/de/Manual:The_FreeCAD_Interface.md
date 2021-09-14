@@ -1,3 +1,5 @@
+# Manual:The FreeCAD Interface/de
+
 
 
 
@@ -6,7 +8,7 @@
 
 {{Manual:TOC/de}}
 
-FreeCAD benutzt das [Qt framework](https://en.wikipedia.org/wiki/Qt_(software)) um seine Oberfläche zu holen und zu verwalten. Dieses Programmiergerüst wird in einer Vielzahl von Anwendungen verwendet, so dass die FreeCAD Oberfläche sehr klassisch ist und keine besondere Schwierigkeit darstellt, sie zu verstehen. Die meisten Schaltflächen sind Standard und werden dort angezeigt, wo du sie erwartest {{MenuCommand/de|Datei → Öffnen, Bearbeiten → Einfügen, usw}}. Hier ist das Aussehen von FreeCAD, wenn du es zum ersten Mal öffnest, gleich nach der Installation, und zeigt dir das Startzentrum:
+FreeCAD benutzt das [Qt Rahmenwerk](https://de.wikipedia.org/wiki/Qt_(Bibliothek)) um seine Oberfläche zu holen und zu verwalten. Dieses Rahmenwerk wird in einer Vielzahl von Anwendungen verwendet, so dass die FreeCAD Oberfläche sehr klassisch ist und keine besondere Schwierigkeit darstellt, sie zu verstehen. Die meisten Schaltflächen sind Standard und werden dort angezeigt, wo du sie erwartest **Datei → Öffnen, Bearbeiten → Einfügen, usw**. Hier ist das Aussehen von FreeCAD, wenn du es zum ersten Mal öffnest, gleich nach der Installation, und zeigt dir das Startzentrum:
 
 ![](images/FreeCAD-v0-18-FirstStart.png )
 

@@ -1,3 +1,5 @@
+# FreeCAD Configuration Management Project
+
 This page is describes a potential 2018 Google Summer of Code project regarding configuration management for the FreeCAD CAE application.
 
 ## Outline

@@ -1,3 +1,5 @@
+# Macro FlattenWire/fr
+
  {{Macro/fr
 |Name=FlattenWire
 |Icon=Macro_FlattenWire.png

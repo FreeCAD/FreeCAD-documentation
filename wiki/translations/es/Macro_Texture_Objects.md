@@ -1,3 +1,5 @@
+# Macro Texture Objects/es
+
  {{Macro/es
 |Name=Texture Objects
 |Icon=Macro_Texture_Objects.png

@@ -1,6 +1,8 @@
+# Builtin modules/de
+
  {{VeryImportantMessage|(Oktober 2019) Bearbeite diese Seiten nicht. Die Informationen sind unvollständig und veraltet. Die neueste API findest Du in der [https://www.freecadweb.org/api autogenerierten API-Dokumentation] oder generiere die Dokumentation selbst, siehe [Quelldokumentation](Source_documentation/de.md).}}
 
-Auf dieser Seite findest Du weiterführende Informationen über die eingebauten FreeCAD Module und welche Funktionen und Eigenschaften Dir zur Verfügung stehen. Diese Seite ist keine vollständige Liste aller Inhalte dieser Module, und aufgrund der schnellen Entwicklung von FreeCAD sind die hier vorgestellten Informationen vielleicht etwas veraltet, aber sie sollten Dir einen guten Überblick über die Möglichkeiten geben. Für eine vollständige Liste der Modulinhalte verwende die Funktion dir(module) im Interpreter. \_\_NOTOC\_\_
+Auf dieser Seite findest Du weiterführende Informationen über die eingebauten FreeCAD Module und welche Funktionen und Eigenschaften Dir zur Verfügung stehen. Diese Seite ist keine vollständige Liste aller Inhalte dieser Module, und aufgrund der schnellen Entwicklung von FreeCAD sind die hier vorgestellten Informationen vielleicht etwas veraltet, aber sie sollten Dir einen guten Überblick über die Möglichkeiten geben. Für eine vollständige Liste der Modulinhalte verwende die Funktion dir(module) im Interpreter. 
 
 ## Nicht grafisch 
 
@@ -23,4 +25,4 @@ Auf dieser Seite findest Du weiterführende Informationen über die eingebauten 
 
 }} 
 
-[Category:API{{\#translation:}}](Category:API.md)
+[Category:API](Category:API.md)

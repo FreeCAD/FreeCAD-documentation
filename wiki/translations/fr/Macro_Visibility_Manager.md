@@ -1,3 +1,5 @@
+# Macro Visibility Manager/fr
+
  {{Macro/fr
 |Name=Visibility_Manager
 |Icon=Macro_Visibility_Manager.png

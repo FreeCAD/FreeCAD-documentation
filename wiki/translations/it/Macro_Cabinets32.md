@@ -1,3 +1,5 @@
+# Macro Cabinets32/it
+
  {{Macro/it
 |Name=Cabinets32
 |Icon=Macro_Cabinets32.png

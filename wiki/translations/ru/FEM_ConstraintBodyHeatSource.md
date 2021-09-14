@@ -16,7 +16,7 @@
 
 Defines an internally generated body heat given in W/kg (not J/m³).
 
-## Использование
+## Применение
 
 1.  There are several ways to invoke the command:
     -   Press the **<img src="images/FEM_ConstraintBodyHeatSource.svg" width=16px> [FEM ConstraintBodyHeatSource](FEM_ConstraintBodyHeatSource.md)** button.

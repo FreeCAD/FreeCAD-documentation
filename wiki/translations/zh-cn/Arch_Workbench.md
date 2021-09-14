@@ -1,3 +1,5 @@
+# Arch Workbench/zh-cn
+
 
 
 
@@ -140,4 +142,4 @@ The developers of Draft, Arch, and BIM also collaborate with the greater [OSArch
 
  
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

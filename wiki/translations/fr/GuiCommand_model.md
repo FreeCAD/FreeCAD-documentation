@@ -5,14 +5,14 @@
    Icon:
    MenuLocation:Menu → Sousmenu → Texte de menu pour la commande 
    Workbenches:[Nom de l'atelier](Workbench_Name/fr.md)
-   Shortcut:**F** **C** 
+   Shortcut:**F** **C**
    SeeAlso:
    Version:0.19
 ---
 
 ## Description
 
-tant que la page est en construction, ajouter le template [Template:UnfinishedDocu](Template:UnfinishedDocu.md) en haut de la page le modèle en mettant le code **{{UnfinishedDocu}}**.
+tant que la page est en construction, ajouter le template [Template:UnfinishedDocu](Template:UnfinishedDocu.md) en haut de la page le modèle en mettant le code ****.
 
 Dans ce premier paragraphe, donnez une brève description de ce que fait la commande. La description peut faire référence à d\'autres ateliers tels que <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Atelier Sketcher ](Sketcher_Workbench/fr.md). (*Note de l\'éditeur:* L\'image fait 24px, pas 16px)
 
@@ -93,7 +93,7 @@ Optionnel.
 
 
 <languages/>
-{{UnfinishedDocu}}
+
 <translate>
 
 
@@ -103,14 +103,14 @@ Optionnel.
 |Icon= 
 |MenuLocation=Menu → Submenu → Menu text for the command
 |Workbenches=[Workbench](Workbench_Name.md)
-|Shortcut=**F** **C** 
+|Shortcut=**F** **C**
 |SeeAlso= 
 |Version=0.19
 }}
 
 == Description ==
 
-While the page is under construction, add the [[Template:UnfinishedDocu]] template at the top of the page by simply typing: '''{{UnfinishedDocu}}'''
+While the page is under construction, add the [[Template:UnfinishedDocu]] template at the top of the page by simply typing: ''''''
 
 In this first paragraph give a short description of what the command does. The description can refer to other workbenches such as the <img src="images/Workbench_Sketcher.svg" width=24px> [Sketcher Workbench](Sketcher_Workbench.md). (''Editor note:'' The image is 24px, not 16px)
 

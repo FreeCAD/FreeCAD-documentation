@@ -1,3 +1,5 @@
+# TechDraw TemplateHowTo/pl
+
 
 
 
@@ -11,7 +13,7 @@
 
 ## Wprowadzenie
 
-Poradnik ten pokazuje jak stworzyć plik [SVG](SVG/pl.md), który może być użyty jako [szablon](TechDraw_Templates/pl.md) tła dla stron Środowiska pracy [Rysunek techniczny](TechDraw_Workbench/pl.md).
+Poradnik ten pokazuje jak stworzyć plik [SVG](SVG/pl.md), który może być użyty jako [szablon](TechDraw_Templates/pl.md) tła dla stron Środowiska pracy [Rysunek Techniczny](TechDraw_Workbench/pl.md).
 
 W poradniku tym założono, że znasz umiarkowanie dobrze [Inkscape](https://en.wikipedia.org/wiki/Inkscape) i [SVG](SVG/pl.md), jak również FreeCAD i środowisko pracy [Rysunek techniczny](TechDraw_Workbench/pl.md).
 

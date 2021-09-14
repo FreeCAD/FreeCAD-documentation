@@ -1,3 +1,5 @@
+# OpenSCAD CSG/fr
+
  {{TOCright}}
 
 ## Importation
@@ -38,4 +40,4 @@ Les objets dérivés de **Part::Feature** ne sont pas (encore) pris en charge, l
 
  {{OpenSCAD Tools navi}}
 
-[Category:File\_Formats{{\#translation:}}](Category:File_Formats.md)
+[Category:File\_Formats](Category:File_Formats.md)

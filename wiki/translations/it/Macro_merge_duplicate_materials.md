@@ -1,3 +1,5 @@
+# Macro merge duplicate materials/it
+
  {{Macro/it
 |Name=Macro merge duplicate materials
 |Translate=Unisci materiali duplicati

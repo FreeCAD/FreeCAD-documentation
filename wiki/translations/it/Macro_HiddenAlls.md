@@ -1,3 +1,5 @@
+# Macro HiddenAlls/it
+
  {{Macro/it
 |Name=Macro HiddenAlls
 |Icon=Macro_HiddenAlls.png

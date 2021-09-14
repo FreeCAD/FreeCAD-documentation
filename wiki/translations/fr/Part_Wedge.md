@@ -7,9 +7,6 @@
    SeeAlso:[Part Primitives](Part_Primitives/fr.md)
 ---
 
-
-</div>
-
 ## Description
 
 Crée un objet Pyramide tronquée paramétrique. Par défaut, cette pyramide tronquée a une base carrée plus grande et un carré plus petit en sommet.
@@ -72,13 +69,7 @@ Crée un objet Pyramide tronquée paramétrique. Par défaut, cette pyramide tro
 ![](images/Wedge_examples.png )
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
  

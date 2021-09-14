@@ -1,3 +1,5 @@
+# Macro HealArcs/de
+
  {{Macro/de
 |Name=HealArcs
 |Translate=HealArcs

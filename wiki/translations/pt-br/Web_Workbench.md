@@ -1,3 +1,5 @@
+# Web Workbench/pt-br
+
 
 
 
@@ -29,4 +31,4 @@ A partir desse navegador você é capaz de navegar na web, clicar em links, ler 
 
 
 
-[Category:Web{{\#translation:}}](Category:Web.md) [Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Web](Category:Web.md) [Category:Workbenches](Category:Workbenches.md)

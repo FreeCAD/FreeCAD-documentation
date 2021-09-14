@@ -1,3 +1,5 @@
+# Installing on Linux/zh-cn
+
 
 
 
@@ -387,4 +389,4 @@ Once you\'ve got FreeCAD installed, it\'s time to [get started](Getting_started.
 
 
 
-[Category:Common Questions{{\#translation:}}](Category:Common_Questions.md) [Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md)
+[Category:Common Questions](Category:Common_Questions.md) [Category:Developer Documentation](Category:Developer_Documentation.md)

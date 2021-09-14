@@ -8,9 +8,6 @@
    SeeAlso:[TechDraw Apparence des lignes](TechDraw_DecorateLine/fr.md)
 ---
 
-
-</div>
-
 ## Description
 
 L\'outil Montrer tout affiche ou masque les lignes invisibles dans une vue. Notez que \"invisible\" est un état esthétique, à ne pas confondre avec les lignes cachées qui sont des constructions géométriques.
@@ -41,13 +38,7 @@ Les effets de l\'outil Montrer tout peut être dupliqué dans la [macro](Macros/
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{TechDraw Tools navi

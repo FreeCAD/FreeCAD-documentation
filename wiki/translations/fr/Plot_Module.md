@@ -1,53 +1,49 @@
+# Plot Module/fr
+
 
 
 <img alt="Icône de l\'atelier Plot" src=images/Workbench_Plot.svg  style="width:128px;">
 
-## Introduction
-
 
 {{TOCright}}
 
-FreeCAD is able to perform plots using the [matplotlib](https://matplotlib.org/) [Python](Python.md) library. A module is provided to this end, as an external add-on in version 0.19 and as a core component from version 0.20 on. Older versions of FreeCAD are not covered in this documentation.
+## Introduction
 
-The produced plots offer the standard [matplotlib](https://matplotlib.org/) tools to edit and save. On top of that, a <img alt="" src=images/Workbench_Plot.svg  style="width:24px;"> [Plot Workbench](Plot_Workbench.md) is provided as an external add-on offering more complete tools to edit the plot and save it. The add-on can be installed with the [Add-on manager](Std_AddonMgr.md).
+FreeCAD est capable d\'effectuer des tracés en utilisant la bibliothèque [matplotlib](https://matplotlib.org/) de [Python](Python/fr.md). Un module est fourni à cette fin, en tant qu\'extension externe dans la version 0.19 et en tant que composant principal à partir de la version 0.20. Les anciennes versions de FreeCAD ne sont pas couvertes par cette documentation.
+
+Les graphiques produits offrent les outils standard [matplotlib](https://matplotlib.org/) pour l\'édition et la sauvegarde. En plus de cela, un <img alt="" src=images/Workbench_Plot.svg  style="width:24px;"> [atelier Plot](Plot_Workbench/fr.md) est fourni en tant que module complémentaire externe offrant des outils plus complets pour modifier le tracé et le sauvegarder. L\'add-on peut être installé avec le [Gestionnaire d\'Addon](Std_AddonMgr/fr.md).
 
 ## Module
 
-The module can be invoked in a Python console or in a [macro](Macro.md). The first thing you must do is importing the module. In FreeCAD 0.19 you must first install the <img alt="" src=images/Workbench_Plot.svg  style="width:24px;"> [Plot Workbench](Plot_Workbench.md) using the [Add-on manager](Std_AddonMgr.md), and then you can import Plot typing
+Le module peut être invoqué dans une console Python ou dans une [macro](Macros/fr.md). La première chose que vous devez faire est d\'importer le module. Dans FreeCAD 0.19 vous devez d\'abord installer le module <img alt="" src=images/Workbench_Plot.svg  style="width:24px;"> [atelier Plot](Plot_Workbench/fr.md) à l\'aide du [Gestionnaire d\'Addon](Std_AddonMgr/fr.md) et ensuite vous pouvez importer le graphique en écrivant:
 
 
 ```python
 from freecad.plot import Plot
 ```
 
-From FreeCAD 0.20 on plot module is already packaged within the program, so you don\'t need to install any add-on, but just type
+A partir de FreeCAD 0.20, le module de traçage est déjà intégré au programme, vous n\'avez donc pas besoin d\'installer de module complémentaire, il suffit de taper
 
 
 ```python
 from FreeCAD.Plot import Plot
 ```
 
-After that, you can plot a straight line from (0,0) to (1,2) just simply typing
+Après cela, vous pouvez tracer une ligne droite de (0,0) à (1,2) en tapant tout simplement
 
 
 ```python
 Plot.plot([0, 1], [0, 2])
 ```
 
-You can find more complex examples in the [Plot Basic tutorial](Plot_Basic_tutorial.md) and the [Plot MultiAxes tutorial](Plot_MultiAxes_tutorial.md).
+Vous pouvez trouver des exemples plus complexes dans le [Tutoriel de base](Plot_Basic_tutorial/fr.md) et le [Tutoriel graphique à plusieurs axes](Plot_MultiAxes_tutorial/fr.md).
 
+## Outils de l\'atelier 
 
-<div class="mw-translate-fuzzy">
-
-## Outils
-
-
-</div>
-
-If you decide to install the <img alt="" src=images/Workbench_Plot.svg  style="width:24px;"> [Plot Workbench](Plot_Workbench.md) using the [Add-on manager](Std_AddonMgr.md), you will have the following tools available to manage the plots created with the module:
+Si vous décidez d\'installer le module <img alt="" src=images/Workbench_Plot.svg  style="width:24px;"> [atelier Plot](Plot_Workbench/fr.md) en utilisant le [Gestionnaire d\'Addon](Std_AddonMgr/fr.md), vous disposerez des outils suivants pour gérer les tracés créés avec le module :
 
 -   <img alt="" src=images/Plot_Save.svg  style="width:32px;"> [Suavegarde](Plot_Save/fr.md): Enregistrer sous plusieurs formats. Vous pouvez sélectionner la taille de sortie et la résolution.
--   <img alt="" src=images/Plot_Axes.svg  style="width:32px;"> [Axes](Plot_Axes/fr.md): Ajouter, effacer ou editer les **axes Plot**.
+-   <img alt="" src=images/Plot_Axes.svg  style="width:32px;"> [Axes](Plot_Axes/fr.md): Ajouter, effacer ou éditer les axes du graphique.
 -   <img alt="" src=images/Plot_Series.svg  style="width:32px;"> [Séries](Plot_Series/fr.md): Editer les séries titres et style.
 -   <img alt="" src=images/Plot_Grid.svg  style="width:32px;"> [Grille](Plot_Grid/fr.md): Afficher/Cacher la grille.
 -   <img alt="" src=images/Plot_Legend.svg  style="width:32px;"> [Légende](Plot_Legend/fr.md): Afficher/Cacher les légendes.
@@ -60,13 +56,12 @@ Puisque l\'atelier Plot est une couche sur `matplotlib`, vous êtes libre d\'uti
 
 ## Tutoriels
 
-[Tutoriel de base](Plot_Basic_tutorial/fr.md)
-
-[Tutoriel multi Axes](Plot_MultiAxes_tutorial/fr.md)
+-   [Tutoriel de base](Plot_Basic_tutorial/fr.md)
+-   [Tutoriel graphique à plusieurs axes](Plot_MultiAxes_tutorial/fr.md).
 
 
 {{Plot_Tools_navi
 
 }} 
 
-[Category:External\_Workbenches{{\#translation:}}](Category:External_Workbenches.md) [Category:Addons{{\#translation:}}](Category:Addons.md)
+[Category:External\_Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)

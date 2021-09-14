@@ -1,3 +1,5 @@
+# PartDesign Workbench/pl
+
  
 
 <img alt="Ikonka FreeCAD dla Środowiska pracy PartDesign" src=images/Workbench_PartDesign.svg  style="width:128px;">
@@ -198,4 +200,4 @@ Kilka dodatkowych funkcji, które można znaleźć w menu Part Design:
 
  {{PartDesign Tools navi}}
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

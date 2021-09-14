@@ -1,5 +1,11 @@
 ---
-- GuiCommand:/es   Name:Draft Mirror   Workbenches:[Arch](Draft_Module/es___Draft]],_[[Arch_Module/es.md)|MenuLocation:Draft → Mirror   SeeAlso:[Draft Scale](Draft_Scale/es.md)---
+- GuiCommand:/es
+   Name:Draft Mirror
+   Name/es:Draft Mirror
+   MenuLocation:Draft → Mirror
+   Workbenches:[Draft](Draft_Workbench/es.md), [Arch](Arch_Workbench/es.md)
+   SeeAlso:[Draft Scale](Draft_Scale/es.md)
+---
 
 
 </div>

@@ -1,3 +1,5 @@
+# Macro MessageBox/ru
+
  {{Macro
 |Name=MessageBox
 |Icon=Macro MessageBox.png

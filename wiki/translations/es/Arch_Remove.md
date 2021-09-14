@@ -3,7 +3,7 @@
    Name:Arch Remove
    Name/es:Sustraer
    MenuLocation:Arquitectura → Sustraer
-   Workbenches:[Entorno de Arquitectura](Arch_Module/es.md)
+   Workbenches:[Entorno de Arquitectura](Arch_Workbench/es.md)
    SeeAlso:[Añadir](Arch_Add/es.md)
 ---
 

@@ -1,3 +1,5 @@
+# TechDraw TemplateHowTo/it
+
 
 
 
@@ -156,9 +158,15 @@ Dove `$INSTALL_DIR` è la directory in cui è stato installato FreeCAD, per esem
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 ## Note
 
 Non utilizzare i livelli in Inkscape prima di aver imparato a creare il modello senza di essi. Livelli (e gruppi) possono inserire automaticamente trasformazioni indesiderate nel file [SVG](SVG/it.md) risultante.
+
+
+</div>
 
 Come ultimo passo prima di utilizzare il nuovo modello, assicursi di rimuovere eventuali clausole di trasformazione dal codice Svg. Le clausole di trasformazione **causano problemi**.
 

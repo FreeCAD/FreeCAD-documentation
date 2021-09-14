@@ -1,3 +1,5 @@
+# Raytracing Workbench/fr
+
  
 
 
@@ -153,4 +155,4 @@ Ces pages font référence à un plan de travail de remplacement, programmé en 
 
 }} 
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

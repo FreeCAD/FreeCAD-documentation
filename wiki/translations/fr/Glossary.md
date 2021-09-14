@@ -1,3 +1,5 @@
+# Glossary/fr
+
 
 
 
@@ -1021,7 +1023,7 @@ Aller à la lettre : {{CompactTOC|center=yes}}
 {{term|Upgrade|content=[Upgrade](Draft_Upgrade/fr.md)}}
 
 
-{{defn|defn=Un outil de l'atelier ([workbench](#Workbench.md)) ([Draft](Draft_Module/fr.md)).}}
+{{defn|defn=Un outil de l'atelier ([workbench](#Workbench.md)) ([Draft](Draft_Workbench/fr.md)).}}
 
 
 {{glossend}}
@@ -1076,7 +1078,7 @@ Aller à la lettre : {{CompactTOC|center=yes}}
 {{defn|no=1|Fil. Une succession d'arêtes ([edges](#Edge.md)) connectées par des vertex ([vertex](#Vertex.md)). Le terme est utilisé en ce sens principalement par la technologie Open Cascade [[https://dev.opencascade.org/doc/overview/html/occt__tutorial.html#OCCT_TUTORIAL_SUB2_3]] on l'utilise donc aussi dans FreeCAD.}}
 
 
-{{defn|no=2|Une commande de l'atelier ([workbench](#Workbench.md)) ([Draft](Draft_Module/fr.md)) qui crée un "fil" paramétrique.}}
+{{defn|no=2|Une commande de l'atelier ([workbench](#Workbench.md)) ([Draft](Draft_Workbench/fr.md)) qui crée un "fil" paramétrique.}}
 
 
 {{term|term=Workbench}}
@@ -1135,4 +1137,4 @@ Aller à la lettre : {{CompactTOC|center=yes}}
 
 
 
-[Category:Wiki{{\#translation:}}](Category:Wiki.md) [Category:Glossary{{\#translation:}}](Category:Glossary.md)
+[Category:Wiki](Category:Wiki.md) [Category:Glossary](Category:Glossary.md)

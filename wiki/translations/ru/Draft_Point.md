@@ -2,8 +2,8 @@
 - GuiCommand:/ru
    Name:Draft Point
    Name/ru:Draft Point
-   Workbenches:[Draft](Draft_Module/ru.md), [Arch](Arch_Module/ru.md)
    MenuLocation:Черчение -> Точка
+   Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
    Shortcut:P T
 ---
 

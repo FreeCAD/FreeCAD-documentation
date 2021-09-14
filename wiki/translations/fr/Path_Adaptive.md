@@ -2,14 +2,9 @@
 - GuiCommand:/fr
    Name:Path Adaptive
    Name/fr:Path Adaptation
-   MenuLocation:Path → Adaptive
+   MenuLocation:Path → Adaptatif
    Workbenches:[Path](Path_Workbench/fr.md)
-   Shortcut:
-   SeeAlso:
 ---
-
-
-</div>
 
 ## Description
 
@@ -138,18 +133,7 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 
 #### Tracé
 
--    **Active**: make False, to prevent operation from generating code
-
--    **Comment**: An optional comment for this Operation
-
--    **Tool Controller**: Defines the Tool controller used in the Operation
-
--    **User Label**: User assigned label
-
-
-<div class="mw-translate-fuzzy">
-
--    {{PropertyData/fr|Active}}: rend False, pour empêcher l\'opération de générer du code
+-    {{PropertyData/fr|Active}}: mis à False, pour empêcher l\'opération de générer du code
 
 -    {{PropertyData/fr|Comment}}: commentaire facultatif pour cette opération.
 
@@ -157,8 +141,7 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 
 -    {{PropertyData/fr|User Label}}: étiquette attribuée par l\'utilisateur
 
-
-</div>
+## Présentation de l\'éditeur de fenêtre de tâches 
 
 *Les descriptions de ces paramètres sont fournies dans la liste des propriétés ci-dessus.* Cette section est simplement une représentation des paramètres de l'éditeur de fenêtres pour l'opération.
 
@@ -234,13 +217,7 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 -   Sujet actif dans les forums FreeCAD pour l\'opération Adaptive de chemin: [Adaptive Path/CAM Operation](https://forum.freecadweb.org/viewtopic.php?f=15&t=30127).
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Path_Tools_navi

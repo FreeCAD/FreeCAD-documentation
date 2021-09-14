@@ -1,5 +1,10 @@
 ---
-- GuiCommand:/tr   Name:Draft Draft2Sketch   Name/tr:Taslak/Eskiz çevir   Workbenches:[Arch](Draft_Module/tr___Draft]],_[[Arch_Module/tr.md)|MenuLocation:Drafting → Draft to Sketch---
+- GuiCommand:/tr
+   Name:Draft Draft2Sketch
+   Name/tr:Taslak/Eskiz çevir
+   MenuLocation:Drafting → Draft to Sketch
+   Workbenches:[Draft](Draft_Workbench/tr.md), [Arch](Arch_Workbench/tr.md)
+---
 
 
 </div>

@@ -8,17 +8,11 @@
    SeeAlso:[Part Primitives](Part_Primitives/fr.md)
 ---
 
-
-</div>
-
 ## Description
 
 Crée une primitive géométrique polygone régulier.
 
 ## Utilisation
-
-
-<div class="mw-translate-fuzzy">
 
 Le Polygone régulier est disponible à partir de la boîte de dialogue Créer des primitives dans l\'atelier Part.
 
@@ -27,22 +21,13 @@ Le Polygone régulier est disponible à partir de la boîte de dialogue Créer d
     -   La boîte de dialogue Créer des primitives via l\'icône <img alt="" src=images/Part_Primitives.svg  style="width:24px;"> [Création de primitives géométriques\...](Part_Primitives/fr.md) située dans la barre d\'outils Part
     -   Utilisation de **Pièce → [Créer des primitives](Part_Primitives/fr.md) → Polygone régulier**
 
-
-</div>
-
 ## Paramètres
 
 -   Polygone - Le nombre de faces du polygone
 -   Rayon circonscrit - Le rayon de la circonférence du polygone en partant du centre jusqu'à l\'extrémité du vertex.
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
   

@@ -1,15 +1,12 @@
 ---
 - GuiCommand:/ru
-   Name:Arch Window
-   Name/ru:Arch Window
+   Name:Arch_Window
+   Name/ru:Окно
    MenuLocation:Архитектура → Окно
-   Workbenches:[Arch](Arch_Module/ru.md)
+   Workbenches:[Arch](Arch_Workbench/ru.md)
    Shortcut:**W** **I**
-   SeeAlso:[Стена](Arch_Wall/ru.md), [Arch Add](Arch_Add/ru.md)
+   SeeAlso:[Стена](Arch_Wall/ru.md), [Добавить компонент](Arch_Add/ru.md)
 ---
-
-
-</div>
 
 ## Описание
 
@@ -27,9 +24,9 @@
 <img alt="" src=images/Arch_Window_example2.jpg  style="width:600px;"> 
 *Более сложное окно, созданное на базе [эскиза](Sketcher_Workbench.md). При входе в режим редактирования окна, Вы можете создать различные компоненты, установить их толщину, и выделить и назначить многоугольники из эскиза для них.*
 
-## Использование
+## Применение
 
-### Использование предустановок 
+### Применение предустановок 
 
 1.  Нажмите кнопку **<img src="images/Arch_Window.svg" width=16px> [Окно](Arch_Window/ru.md)
 **, или нажмите клавиши **W**, затем **I**
@@ -65,7 +62,7 @@ The `$ROOT_DIR` is the user\'s directory where FreeCAD configuration, macros, an
 3.  Создайте новый эскиз
 4.  Нарисуйте одну или более замкнутых ломаных (петель)
 5.  Закройте эскиз
-6.  Переключитесь обратно на [верстак Arch](Arch_Module/ru.md)
+6.  Переключитесь обратно на [верстак Arch](Arch_Workbench/ru.md)
 7.  Нажмите кнопку **<img src="images/Arch_Window.svg" width=16px> [Arch Window](Arch_Window/ru.md)
 **, или нажмите клавиши **W**, затем **I**
 8.  Чтобы настроить компоненты окна и различные свойства, войдите в окно [панели задач](task_panel/ru.md), дважды щелкнув созданный объект в [древе проекта](tree_view/ru.md).
@@ -114,7 +111,13 @@ Image:ParametersDoorGlass.svg\|Glass door (стеклянная дверь) Imag
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 ## Openings
+
+
+</div>
 
 
 **See also:**
@@ -239,13 +242,7 @@ Door = Arch.makeWindowPreset("Simple door",
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 

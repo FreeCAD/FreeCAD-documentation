@@ -8,18 +8,9 @@
    SeeAlso:[TechDraw Vue Arch](TechDraw_ArchView/fr.md)
 ---
 
-
-</div>
-
 ## Description
 
-
-<div class="mw-translate-fuzzy">
-
 L\'outil <img alt="" src=images/TechDraw_DraftView.svg  style="width:24px;"> [Vue Draft](TechDraw_DraftView/fr.md) insère une vue d\'un objet basé sur [Part](Part_Workbench/fr.md) ou Groupe sélectionné dans une page de dessin. Contrairement à l\'outil <img alt="" src=images/TechDraw_View.svg  style="width:24px;"> [Vue](TechDraw_View/fr.md), les vues créées avec cet outil sont gérées par <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [atelier Draft](Draft_Workbench/fr.md) et spécialement conçues pour montrer des objets 2D. Voir Remarques.
-
-
-</div>
 
 ![](images/TechDraw_DraftView_example.png ) *Éléments Draft tels que des cercles et des réseaux importés dans une page de dessin TechDraw*
 
@@ -33,7 +24,7 @@ L\'outil <img alt="" src=images/TechDraw_DraftView.svg  style="width:24px;"> [Vu
 
 ### Limitations
 
-Vue Draft est rendu dans l\'atelier [Draft](Draft_Module/fr.md). TechDraw a donc un contrôle limité sur son apparence. Vous devrez peut-être apporter des modifications dans Draft pour obtenir la représentation souhaitée.
+Vue Draft est rendu dans l\'atelier [Draft](Draft_Workbench/fr.md). TechDraw a donc un contrôle limité sur son apparence. Vous devrez peut-être apporter des modifications dans Draft pour obtenir la représentation souhaitée.
 
 ## Options
 
@@ -78,13 +69,7 @@ rc = page.addView(dv)
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{TechDraw Tools navi

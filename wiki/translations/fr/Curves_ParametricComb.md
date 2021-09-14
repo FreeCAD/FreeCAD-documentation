@@ -42,4 +42,4 @@ Un peigne 3D sera créé pour les courbes 3D. L\'échantillonnage et l\'échelle
 
 }} 
 
-[Category:External Command Reference{{\#translation:}}](Category:External_Command_Reference.md)
+[Category:External Command Reference](Category:External_Command_Reference.md)

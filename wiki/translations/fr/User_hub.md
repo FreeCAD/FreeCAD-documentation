@@ -1,8 +1,10 @@
+# User hub/fr
+
  <img alt="" src=images/User_hub.png  style="width:64px;">
 
 ------------------------------------------------------------------------
 
-\_\_NOTOC\_\_
+
 
 Cette zone est la source d\'aide principale pour les nouveaux utilisateurs de FreeCAD.
 
@@ -41,49 +43,49 @@ Voir aussi :
 
 Les [ateliers](Workbenches/fr.md) sont des ensembles d'outils utilisés pour des tâches spécifiques. Voici les ateliers de base fournis avec chaque installation de FreeCAD :
 
--   <img alt="" src=images/Freecad.svg  style="width:32px;"> [Std Base](Std_Base.md). This is not really a workbench, but rather a category of \'standard\' commands and tools that can be used in all workbenches.
+-   <img alt="" src=images/Freecad.svg  style="width:32px;"> [Std Base](Std_Base/fr.md). Ce n\'est pas vraiment un atelier mais plutôt une catégorie de commandes et d\'outils \'standards\' qui peuvent être utilisés dans tous les ateliers.
 
--   <img alt="" src=images/Workbench_Arch.svg  style="width:32px;"> The [Arch Workbench](Arch_Workbench.md) for working with architectural elements.
+-   <img alt="" src=images/Workbench_Arch.svg  style="width:32px;"> L\'[atelier Arch](Arch_Workbench/fr.md) pour travailler avec des éléments architecturaux.
 
--   <img alt="" src=images/Workbench_Draft.svg  style="width:32px;"> The [Draft Workbench](Draft_Workbench.md) contains 2D tools and basic 2D and 3D CAD operations.
+-   <img alt="" src=images/Workbench_Draft.svg  style="width:32px;"> L\'[atelier Draft](Draft_Workbench/fr.md) contient des outils 2D et des opérations de CAO 2D et 3D de base.
 
--   <img alt="" src=images/Workbench_FEM.svg  style="width:32px;"> The [FEM Workbench](FEM_Workbench.md) provides Finite Element Analysis (FEA) workflow.
+-   <img alt="" src=images/Workbench_FEM.svg  style="width:32px;"> L\'[atelier FEM](FEM_Workbench/fr.md) fournit un flux de travail d\'analyse par éléments finis (FEA).
 
--   <img alt="" src=images/Workbench_Image.svg  style="width:32px;"> The [Image Workbench](Image_Workbench.md) for working with bitmap images.
+-   <img alt="" src=images/Workbench_Image.svg  style="width:32px;"> L\'[atelier Image](Image_Workbench/fr.md) pour travailler avec des images bitmap.
 
--   <img alt="" src=images/Workbench_Inspection.svg  style="width:32px;"> The [Inspection Workbench](Inspection_Workbench.md) is made to give you specific tools for examination of shapes. It is still under development.
+-   <img alt="" src=images/Workbench_Inspection.svg  style="width:32px;"> L\'[atelier Inspection](Inspection_Workbench/fr.md) est fait pour vous donner des outils spécifiques pour l\'examen des formes. Il est toujours en cours de développement.
 
--   <img alt="" src=images/Workbench_Mesh.svg  style="width:32px;"> The [Mesh Workbench](Mesh_Workbench.md) for working with triangulated meshes.
+-   <img alt="" src=images/Workbench_Mesh.svg  style="width:32px;"> L\'[atelier Mesh](Mesh_Workbench/fr.md) pour travailler avec des maillages triangulés.
 
--   <img alt="" src=images/Workbench_OpenSCAD.svg  style="width:32px;"> The [OpenSCAD Workbench](OpenSCAD_Workbench.md) for interoperability with OpenSCAD and repairing [constructive solid geometry](constructive_solid_geometry.md) (CSG) model history.
+-   <img alt="" src=images/Workbench_OpenSCAD.svg  style="width:32px;"> L\'[atelier OpenSCAD](OpenSCAD_Workbench/fr.md) pour l\'interopérabilité avec OpenSCAD et la réparation de [Géométrie Solide Constructive](Constructive_solid_geometry/fr.md) (CSG).
 
--   <img alt="" src=images/Workbench_Part.svg  style="width:32px;"> The [Part Workbench](Part_Workbench.md) for working with CAD parts.
+-   <img alt="" src=images/Workbench_Part.svg  style="width:32px;"> L\'[atelier Part](Part_Workbench/fr.md) pour travailler avec des pièces de CAO.
 
--   <img alt="" src=images/Workbench_PartDesign.svg  style="width:32px;"> The [Part Design Workbench](PartDesign_Workbench.md) for building Part shapes from sketches.
+-   <img alt="" src=images/Workbench_PartDesign.svg  style="width:32px;"> L\'[atelier Part Design](PartDesign_Workbench/fr.md) pour créer des formes de pièces à partir de dessins.
 
--   <img alt="" src=images/Workbench_Path.svg  style="width:32px;"> The [Path Workbench](Path_Workbench.md) is used to produce G-Code instructions. It is still under development.
+-   <img alt="" src=images/Workbench_Path.svg  style="width:32px;"> L\'[atelier Path](Path_Workbench/fr.md) est utilisé pour produire des instructions en G-code. Il est toujours en cours de développement.
 
--   <img alt="" src=images/Workbench_Points.svg  style="width:32px;"> The [Points Workbench](Points_Workbench.md) for working with point clouds.
+-   <img alt="" src=images/Workbench_Points.svg  style="width:32px;"> L\'[atelier Points](Points_Workbench/fr.md) pour travailler avec des nuages de points.
 
--   <img alt="" src=images/Workbench_Raytracing.svg  style="width:32px;"> The [Raytracing Workbench](Raytracing_Workbench.md) for working with ray-tracing (rendering).
+-   <img alt="" src=images/Workbench_Raytracing.svg  style="width:32px;"> Le [atelier Raytracing](Raytracing_Workbench/fr.md) pour travailler avec le lancer de rayons (rendu).
 
--   <img alt="" src=images/Workbench_Reverse_Engineering.svg  style="width:32px;"> The [Reverse Engineering Workbench](Reverse_Engineering_Workbench.md) is intended to provide specific tools to convert shapes/solids/meshes into parametric FreeCAD-compatible features. It is still under development.
+-   <img alt="" src=images/Workbench_Reverse_Engineering.svg  style="width:32px;"> L\'[atelier Reverse Engineering](Reverse_Engineering_Workbench/fr.md) est destiné à fournir des outils spécifiques pour convertir des formes/solides/mailles en fonctionnalités paramétriques compatibles avec FreeCAD. Il est toujours en cours de développement.
 
--   <img alt="" src=images/Workbench_Robot.svg  style="width:32px;"> The [Robot Workbench](Robot_Workbench.md) for studying robot movements.
+-   <img alt="" src=images/Workbench_Robot.svg  style="width:32px;"> L\'[atelier Robot](Robot_Workbench/fr.md) pour étudier les mouvements des robots.
 
--   <img alt="" src=images/Workbench_Sketcher.svg  style="width:32px;"> The [Sketcher Workbench](Sketcher_Workbench.md) for working with geometry-constrained sketches.
+-   <img alt="" src=images/Workbench_Sketcher.svg  style="width:32px;"> L\'[atelier Sketcher](Sketcher_Workbench/fr.md) pour travailler avec des esquisses à géométrie contrainte.
 
--   <img alt="" src=images/Workbench_Spreadsheet.svg  style="width:32px;"> The [Spreadsheet Workbench](Spreadsheet_Workbench.md) for creating and manipulating spreadsheet data.
+-   <img alt="" src=images/Workbench_Spreadsheet.svg  style="width:32px;"> L\'[atelier Spreadsheet](Spreadsheet_Workbench/fr.md) pour créer et manipuler des données de feuilles de calcul.
 
--   <img alt="" src=images/Workbench_Start.svg  style="width:32px;"> The [Start Center Workbench](Start_Workbench.md) allows you to quickly jump to one of the most common workbenches.
+-   <img alt="" src=images/Workbench_Start.svg  style="width:32px;"> L\'[Atelier Start](Start_Workbench/fr.md) vous permet de passer rapidement à l\'un des ateliers les plus courants.
 
--   <img alt="" src=images/Workbench_Surface.svg  style="width:32px;"> The [Surface Workbench](Surface_Workbench.md) provides tools to create and modify surfaces. It is similar to the [Part Builder](Part_Builder.md) Face from edges option.
+-   <img alt="" src=images/Workbench_Surface.svg  style="width:32px;"> Le [atelier Surface](Surface_Workbench/fr.md) fournit des outils pour créer et modifier des surfaces. Il est similaire à l\'outil [Part Générateur de formes](Part_Builder/fr.md) à partir des bords.
 
--   <img alt="" src=images/Workbench_TechDraw.svg  style="width:32px;"> The [TechDraw Workbench](TechDraw_Workbench.md) for producing technical drawings from 3D models. It is the successor of the [Drawing Workbench](Drawing_Workbench.md).
+-   <img alt="" src=images/Workbench_TechDraw.svg  style="width:32px;"> L\'[atelier TechDraw](TechDraw_Workbench/fr.md) pour produire des dessins techniques à partir de modèles 3D. C\'est le successeur de l\'[atelier Drawing](Drawing_Workbench/fr.md).
 
--   <img alt="" src=images/Workbench_Test.svg  style="width:32px;"> The [Test Framework Workbench](Testing.md) is for debugging FreeCAD.
+-   <img alt="" src=images/Workbench_Test.svg  style="width:32px;"> L\'[atelier Test](Testing/fr.md) est destiné au débogage de FreeCAD.
 
--   <img alt="" src=images/Workbench_Web.svg  style="width:32px;"> The [Web Workbench](Web_Workbench.md) provides you with a browser window instead of the [3D view](3D_view.md) within FreeCAD.
+-   <img alt="" src=images/Workbench_Web.svg  style="width:32px;"> L\'[atelier Web](Web_Workbench/fr.md) vous fournit une fenêtre de navigateur au lieu de la [3D view](3D_view/fr.md) dans FreeCAD.
 
 ### Macros
 
@@ -120,4 +122,4 @@ Il s\'agit de l\'aide en ligne officielle de FreeCAD. Veuillez noter que l\'ense
 
 
 
-[Category:Hubs{{\#translation:}}](Category:Hubs.md)
+[Category:Hubs](Category:Hubs.md)

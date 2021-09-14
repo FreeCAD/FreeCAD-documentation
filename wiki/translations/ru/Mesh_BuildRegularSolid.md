@@ -1,18 +1,16 @@
 ---
 - GuiCommand:/ru
-   Name:Mesh BuildRegularSolid
-   Name/ru:Mesh RegularSolid
+   Name/ru:Правильное геометрическое тело
+   Name:Mesh_BuildRegularSolid
+   MenuLocation:Полигональные Сетки → Правильное геометрическое тело...
    Workbenches:[Mesh](Mesh_Workbench/ru.md)
-   MenuLocation:Сетки → Правильное геометрическое тело...
-   Shortcut:
-   SeeAlso:
 ---
 
-## Description
+## Описание
 
 The **Mesh BuildRegularSolid** command creates a regular parametric solid mesh object.
 
-## Usage
+## Применение
 
 1.  There are several ways to invoke the command:
     -   Press the **<img src="images/Mesh_BuildRegularSolid.svg" width=16px> [Mesh BuildRegularSolid](Mesh_BuildRegularSolid.md)** button.
@@ -54,17 +52,17 @@ The **Mesh BuildRegularSolid** command creates a regular parametric solid mesh o
 7.  Optionally create more mesh objects.
 8.  Press the {{button|Close}} button to close the dialog box and finish the command.
 
-## Notes
+## Примечания
 
 -   Mesh objects created with this command are parametric. Whenever they are recomputed, for example after changing one of their parameters, their mesh is reconstructed. This means that manipulating them with commands such as [Mesh RemeshGmsh](Mesh_RemeshGmsh.md), [Mesh Scale](Mesh_Scale.md) etc. usually does not make sense.
 
-## Properties
+## Свойства
 
 Mesh objects created with this command inherit all [Mesh Feature](Mesh_Feature.md) properties. In addition each mesh object type has a number of properties to control its parametric behavior:
 
-### <img alt="" src=images/Mesh_Cube.svg  style="width:32px;"> Cube 
+### <img alt="" src=images/Mesh_Cube.svg  style="width:32px;"> Куб 
 
-#### Data
+#### Данные
 
 
 {{TitleProperty|Cube}}
@@ -75,12 +73,12 @@ Mesh objects created with this command inherit all [Mesh Feature](Mesh_Feature.m
 
 -    **Width|FloatConstraint**: the width of the cube.
 
-### <img alt="" src=images/Mesh_Cylinder.svg  style="width:32px;"> Cylinder 
+### <img alt="" src=images/Mesh_Cylinder.svg  style="width:32px;"> Цилиндр 
 
-#### Data 
+#### Данные 
 
 
-{{TitleProperty|Base}}
+{{TitleProperty|Основные}}
 
 -    **Closed|Bool**: if set to `False`, the planar ends of the cylinder are left open.
 
@@ -92,12 +90,12 @@ Mesh objects created with this command inherit all [Mesh Feature](Mesh_Feature.m
 
 -    **Sampling|IntegerConstraint**: the number of faces along the curved surface.
 
-### <img alt="" src=images/Mesh_Cone.svg  style="width:32px;"> Cone 
+### <img alt="" src=images/Mesh_Cone.svg  style="width:32px;"> Конус 
 
-#### Data 
+#### Данные 
 
 
-{{TitleProperty|Base}}
+{{TitleProperty|Основные}}
 
 -    **Closed|Bool**: if set to `False`, the planar end(s) of the cone are left open.
 
@@ -111,23 +109,23 @@ Mesh objects created with this command inherit all [Mesh Feature](Mesh_Feature.m
 
 -    **Sampling|IntegerConstraint**: the number of faces along the curved surface.
 
-### <img alt="" src=images/Mesh_Sphere.svg  style="width:32px;"> Sphere 
+### <img alt="" src=images/Mesh_Sphere.svg  style="width:32px;"> Сфера 
 
-#### Data 
+#### Данные 
 
 
-{{TitleProperty|Base}}
+{{TitleProperty|Основные}}
 
 -    **Radius|FloatConstraint**: the radius of the sphere.
 
 -    **Sampling|IntegerConstraint**: the number of faces along both directions of the curved surface.
 
-### <img alt="" src=images/Mesh_Ellipsoid.svg  style="width:32px;"> Ellipsoid 
+### <img alt="" src=images/Mesh_Ellipsoid.svg  style="width:32px;"> Эллипсоид 
 
-#### Data 
+#### Данные 
 
 
-{{TitleProperty|Base}}
+{{TitleProperty|Основные}}
 
 -    **Radius 1|FloatConstraint**: the first radius of the ellipsoid.
 
@@ -135,12 +133,12 @@ Mesh objects created with this command inherit all [Mesh Feature](Mesh_Feature.m
 
 -    **Sampling|IntegerConstraint**: the number of faces along both directions of the curved surface.
 
-### <img alt="" src=images/Mesh_Torus.svg  style="width:32px;"> Torus 
+### <img alt="" src=images/Mesh_Torus.svg  style="width:32px;"> Тор 
 
-#### Data 
+#### Данные 
 
 
-{{TitleProperty|Base}}
+{{TitleProperty|Основные}}
 
 -    **Radius 1|FloatConstraint**: the first (main) radius the torus.
 

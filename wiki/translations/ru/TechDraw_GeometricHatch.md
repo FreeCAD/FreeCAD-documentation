@@ -1,10 +1,10 @@
 ---
 - GuiCommand:/ru
-   Name:TechDraw GeometricHatch
-   Name/ru:TechDraw GeometricHatch
-   MenuLocation:TechDraw → Применить геометрическую штриховку грани
+   Name/ru:Применить геометрическую штриховку к грани
+   Name:TechDraw_GeometricHatch
+   MenuLocation:TechDraw → Применить геометрическую штриховку к грани
    Workbenches:[TechDraw](TechDraw_Workbench/ru.md)
-   SeeAlso:[TechDraw Hatch Face using Image File](TechDraw_Hatch/ru.md), [TechDraw Hatching](TechDraw_Hatching/ru.md)
+   SeeAlso:[Штриховать грань, используя файл изображения](TechDraw_Hatch/ru.md), [TechDraw Hatching](TechDraw_Hatching/ru.md)
 ---
 
 
@@ -58,12 +58,12 @@ is the directory where FreeCAD was installed, for example
 
 -    **Color Pattern**: The color for the pattern lines.
 
-## Scripting
+## Программирование
 
 
-**See also:**
+**См. так же:**
 
-[TechDraw API](TechDraw_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+[TechDraw API](TechDraw_API/ru.md) и [Основы составления скриптов FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 
 The GeometricHatch tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following functions:
 

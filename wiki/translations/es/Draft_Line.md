@@ -3,7 +3,7 @@
    Name:Draft Line
    Name/es:Borrador Linea
    MenuLocation:Borrador → Línea
-   Workbenches:[Borrador](Draft_Module/es.md), [Arquitectura](Arch_Module/es.md)
+   Workbenches:[Borrador](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
    Shortcut:**L** **I**
    Version:0.7
    SeeAlso:[Borrador Hilo](Draft_Wire/es.md), [Borrador Punto](Draft_Point/es.md)

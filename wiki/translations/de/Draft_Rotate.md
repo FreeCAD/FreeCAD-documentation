@@ -3,7 +3,7 @@
    Name:Draft Rotate
    Name/de:Entwurf Drehen
    MenuLocation:Entwurf → Drehen
-   Workbenches:[Entwurf](Draft_Module/de.md), [Arch](Arch_Module/de.md)
+   Workbenches:[Entwurf](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
    Shortcut:**R****O**
    Version:0.7
    SeeAlso:[Draft Verschieben](Draft_Move/de.md), [Draft Anordnung](Draft_Array/de.md)
@@ -85,7 +85,7 @@ The single character keyboard shortcuts and the modifier key mentioned here can 
 
 ## Notes
 
--   An Object that is [attached](Part_Attachment.md) cannot be rotated with the Draft Rotate command. To rotate it either its **Support** object has to be rotated, or its **Attachment Offset** has to be changed.
+-   An Object that is [attached](Part_EditAttachment.md) cannot be rotated with the Draft Rotate command. To rotate it either its **Support** object has to be rotated, or its **Attachment Offset** has to be changed.
 
 ## Preferences
 

@@ -1,3 +1,5 @@
+# Workbenches/cs
+
 
 
 
@@ -116,4 +118,4 @@ Nové plochy jsou ve vývoji a ladění!
 
 
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

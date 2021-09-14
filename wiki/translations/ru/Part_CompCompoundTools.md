@@ -21,7 +21,13 @@
 -   <img alt="" src=images/Part_Compound‏‎Filter.svg  style="width:32px;"> [Фильтр соединений](Part_Compound‏‎Filter/ru.md): Фильтр соединений может использоваться для выделения отдельных частей.
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
  

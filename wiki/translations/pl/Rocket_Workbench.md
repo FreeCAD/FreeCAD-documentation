@@ -1,3 +1,5 @@
+# Rocket Workbench/pl
+
 
 
 <img alt="Rocket Workbench icon" src=images/RocketWorkbench.svg  style="width:128px;">
@@ -51,4 +53,4 @@ Components created using the Rocket Workbench are essentially parts similar to w
 
 
 
-[Category:Addons{{\#translation:}}](Category:Addons.md) [Category:External Workbenches{{\#translation:}}](Category:External_Workbenches.md)
+[Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)

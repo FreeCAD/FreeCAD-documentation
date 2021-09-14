@@ -3,7 +3,7 @@
    Name:Arch PipeConnector
    Name/ru:Arch PipeConnector
    MenuLocation:Архитектура → Pipe Tools → Pipe Connector
-   Workbenches:[Arch](Arch_Module/ru.md)
+   Workbenches:[Arch](Arch_Workbench/ru.md)
    Shortcut:**P** **C**
    SeeAlso:[[Arch Pipe/ru]], [[Arch Equipment/ru]]
    Version:0.17

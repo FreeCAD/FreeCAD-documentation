@@ -1,11 +1,12 @@
 ---
 - GuiCommand:/ru
-   Name:Sketcher CreateArcOfEllipse
-   Name/ru:Sketcher Дуга по эллипсу
-   MenuLocation:Эскиз → Геометрия эскиза → Дуга по эллипсу
+   Name/ru:Создать дугу эллипса
+   Name:Sketcher_CreateArcOfEllipse
+   MenuLocation:Sketch → Геометрия эскиза → Создать дугу эллипса
    Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
    Version:0.15
-   SeeAlso:[Sketcher Эллипс по центральной точке](Sketcher_CreateEllipseByCenter/ru.md), [Sketcher Дуга](Sketcher_CompCreateArc/ru.md)---
+   SeeAlso:[Создать эллипс от центра](Sketcher_CreateEllipseByCenter/ru.md), [Создать дугу от центра](Sketcher_CompCreateArc/ru.md)
+---
 
 ## Описание
 
@@ -14,13 +15,7 @@
 <img alt="" src=images/Sketcher_ArcOfEllipseExample1.png‎  style="width:500px;"> 
 *Последовательность нажатий указана желтыми стрелками с цифрами. C это центр, a - большой диаметр, b - малый диаметр, F1, F2 фокусы.*
 
-
-<div class="mw-translate-fuzzy">
-
-## Как использовать 
-
-
-</div>
+## Применение
 
 
 <div class="mw-translate-fuzzy">
@@ -40,13 +35,7 @@
 -   Перемещение эллипса за ребро - это то же самое, что перемещение эллипса за центр.
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Sketcher Tools navi

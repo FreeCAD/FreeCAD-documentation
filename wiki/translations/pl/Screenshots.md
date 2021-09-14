@@ -1,3 +1,5 @@
+# Screenshots/pl
+
  {{TOCright}}
 
 Oto kilka zrzutów ekranu pokazujących różne części FreeCAD. Nie są uporządkowane w żadnej konkretnej linii czasu, więc mogą one różnić się od rzeczywistej wersji programu. Zobacz więcej zrzutów ekranu nadesłanych przez użytkowników FreeCAD na [wątek z zrzutami ekranu na forum](http://forum.freecadweb.org/viewtopic.php?f=8&t=4751) oraz na [\"Pokaż swój projekt tutaj! Users Showcase forum part](http://forum.freecadweb.org/viewforum.php?f=24).

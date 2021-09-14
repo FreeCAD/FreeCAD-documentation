@@ -2,7 +2,7 @@
 - GuiCommand:/de
    Name:Draft Trimex   Name/de:Draft Trimex
    MenuLocation:Entwurf → Stutzen/Strecken
-   Workbenches:[Entwurf](Draft_Module/de.md), [Arch](Arch_Module/de.md)
+   Workbenches:[Entwurf](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
    Shortcut:**T** **R**
    SeeAlso:[Part Extrudieren](Part_Extrude/de.md)
 ---

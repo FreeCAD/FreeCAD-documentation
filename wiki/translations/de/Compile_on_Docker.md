@@ -1,4 +1,6 @@
- {{UnfinishedDocu}}
+# Compile on Docker/de
+
+ 
 
 
 
@@ -140,4 +142,4 @@ Du kannst die angehängten Verzeichnisse im `/mnt` Verzeichnis finden.
 
 
 
-[Category:Developer{{\#translation:}}](Category:Developer.md) [Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md)
+[Category:Developer](Category:Developer.md) [Category:Developer Documentation](Category:Developer_Documentation.md)

@@ -1,3 +1,5 @@
+# Start Workbench/zh-cn
+
 
 
 
@@ -57,4 +59,4 @@
 
 
 
-[Category:User Documentation/zh-cn](Category:User_Documentation/zh-cn.md) [Category:Start{{\#translation:}}](Category:Start.md) [Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:User Documentation/zh-cn](Category:User_Documentation/zh-cn.md) [Category:Start](Category:Start.md) [Category:Workbenches](Category:Workbenches.md)

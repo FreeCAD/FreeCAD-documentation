@@ -69,4 +69,4 @@ The Libraries tab shows a list of the external libraries used by the program, an
 
 {{Std Base navi}}  
 
-[Category:Common Questions{{\#translation:}}](Category:Common_Questions.md)
+[Category:Common Questions](Category:Common_Questions.md)

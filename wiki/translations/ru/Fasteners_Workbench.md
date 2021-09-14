@@ -1,3 +1,5 @@
+# Fasteners Workbench/ru
+
 
 
 <img alt="Иконка верстака Fasteners" src=images/Fasteners_workbench_icon.svg  style="width:128px;">
@@ -66,19 +68,31 @@ The Fasteners Workbench has two toolbars. The **FS Screws** toolbar contains man
 
 -   <img alt="" src=images/Fasteners_ChangeParameters.svg  style="width:32px;"> [Change fastener parameters](Fasteners_ChangeParameters.md): change parameters of selected fasteners.
 
+
+<div class="mw-translate-fuzzy">
+
 ### PEM крепежные изделия и крепежные изделия для Печатных Плат 
 
--   <img alt="" src=images/Fasteners_PEMPressNut.svg  style="width:32px;"> **PEM** Self clinching metric nut.
 
--   <img alt="" src=images/Fasteners_PEMTHStandoff.svg  style="width:32px;"> **PEM** Self clinching metric standoff.
+</div>
 
--   <img alt="" src=images/Fasteners_PEMStud.svg  style="width:32px;"> **PEM** Self clinching metric stud.
+-   <img alt="" src=images/Fasteners_PEMPressNut.svg  style="width:32px;"> Self-clinching metric nut.
 
--   <img alt="" src=images/Fasteners_PCBStandoff.svg  style="width:32px;"> **PCB** Metric standoff.
+-   <img alt="" src=images/Fasteners_PEMTHStandoff.svg  style="width:32px;"> Self-clinching metric standoff.
 
--   <img alt="" src=images/Fasteners_PCBSpacer.svg  style="width:32px;"> **PCB** Metric spacer.
+-   <img alt="" src=images/Fasteners_PEMStud.svg  style="width:32px;"> Self-clinching metric stud.
+
+-   <img alt="" src=images/Fasteners_PCBStandoff.svg  style="width:32px;"> **PCB** Metric standoff Female/Male.
+
+-   <img alt="" src=images/Fasteners_PCBSpacer.svg  style="width:32px;"> **PCB** Metric spacer Female/Female.
+
+
+<div class="mw-translate-fuzzy">
 
 ### Крепежные изделия DIN, EN и ISO 
+
+
+</div>
 
 -   <img alt="" src=images/Fasteners_ISO4017.svg  style="width:32px;"> 
 **ISO 4017** Hexagon head screw. *Product grades A and B.*
@@ -177,7 +191,13 @@ The Fasteners Workbench has two toolbars. The **FS Screws** toolbar contains man
 
 -   <img alt="" src=images/Fasteners_DIN985.svg  style="width:32px;"> **DIN 985** Nyloc nut.
 
+
+<div class="mw-translate-fuzzy">
+
 ### ASME Крепежные изделия 
+
+
+</div>
 
 -   <img alt="" src=images/Fasteners_ASMEB18.2.1.6.svg  style="width:32px;"> **ASME B18.2.1.6** UNC Hex head screw.
 
@@ -215,7 +235,13 @@ The Fasteners Workbench has two toolbars. The **FS Screws** toolbar contains man
 
 -   <img alt="" src=images/Fasteners_ASMEB18.21.1.12C.svg  style="width:32px;"> **ASME B18.21.1.12C** UN washer, wide series.
 
+
+<div class="mw-translate-fuzzy">
+
 ### Другие крепежные изделия 
+
+
+</div>
 
 -   <img alt="" src=images/Fasteners_ScrewTap.svg  style="width:32px;"> Arbitrary length threaded rod for tapping holes (metric).
 
@@ -256,4 +282,4 @@ The Fasteners Workbench has two toolbars. The **FS Screws** toolbar contains man
 
 
 
-[Category:Addons{{\#translation:}}](Category:Addons.md) [Category:External Command Reference{{\#translation:}}](Category:External_Command_Reference.md) [Category:External Workbenches{{\#translation:}}](Category:External_Workbenches.md) [Category:Fasteners{{\#translation:}}](Category:Fasteners.md)
+[Category:Addons](Category:Addons.md) [Category:External Command Reference](Category:External_Command_Reference.md) [Category:External Workbenches](Category:External_Workbenches.md) [Category:Fasteners](Category:Fasteners.md)

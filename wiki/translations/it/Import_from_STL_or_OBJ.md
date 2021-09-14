@@ -1,3 +1,5 @@
+# Import from STL or OBJ/it
+
  {{TutorialInfo/it
 |Topic= Importare da STL o OBJ
 |Level= Base
@@ -147,4 +149,4 @@ Dato che il solido creato in questo modo non ha cronologia e non ha funzioni mod
 
  
 
-[Category:File\_Formats{{\#translation:}}](Category:File_Formats.md)
+[Category:File\_Formats](Category:File_Formats.md)

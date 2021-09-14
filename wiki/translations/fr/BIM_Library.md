@@ -36,4 +36,4 @@ L\'outil Bibliothèque BIM vous permet de placer dans le modèle en cours un obj
 
  
 
-[Category:BIM{{\#translation:}}](Category:BIM.md)
+[Category:BIM](Category:BIM.md)

@@ -1,3 +1,5 @@
+# Online Help Toc/pl
+
 
 
 Jest to spis treści używany do automatycznego budowania systemu pomocy online w programie FreeCAD. Wersja podręcznika do druku jest również dostępna na stronie [wydania](https://github.com/FreeCAD/FreeCAD/releases). Jeśli masz jakiekolwiek pytania lub potrzebujesz pomocy w programie FreeCAD, zapoznaj się ze [Stroną pomocy](Help/pl.md), w tym z forum i czatem grupy dyskusyjnej.
@@ -109,4 +111,4 @@ Jest jeszcze jeden spis treści dla [podręcznika FreeCAD](Manual:Introduction/p
 
 
 
-[Category:Documentation{{\#translation:}}](Category:Documentation.md)
+[Category:Documentation](Category:Documentation.md)

@@ -1,3 +1,5 @@
+# Navigation Cube/pl
+
 
 
 
@@ -78,4 +80,4 @@ Bardziej zaawansowana konfiguracja jest dostępna w tabeli - pozycja:**CubeMenu*
 
 
 
-[Category:User Documentation{{\#translation:}}](Category:User_Documentation.md)
+[Category:User Documentation](Category:User_Documentation.md)

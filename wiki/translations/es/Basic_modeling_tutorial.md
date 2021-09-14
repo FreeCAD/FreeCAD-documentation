@@ -1,57 +1,43 @@
+# Basic modeling tutorial/es
+
  {{TutorialInfo/es
-|Topic= Introduction to modelling
-|Level= Beginner
-|Time= 15 minutes
-|Author=
-|FCVersion=
-|Files=
+|Topic= Introducción a la modelización
+|Level= Principiante
+|Time= 15 minutos
+|Author=[NormandC](User:Normandc.md)
+|FCVersion=cualquier
+|Files=ninguno
 }}
 
-## Introduction
+## Introducción
 
-
-<div class="mw-translate-fuzzy">
-
-Este Tutorial de Modelado Básico te mostrará cómo modelar un ángulo de hierro. Una cosa que deberías saber es que FreeCAD es modular según el diseño, y como muchos otros programas de CAD, siempre hay más de un modo de hacer las cosas. Exploraremos dos métodos aquí.
-
-
-</div>
+Este Tutorial de Modelado Básico te mostrará cómo modelar un ángulo de hierro. Una cosa que hay que saber es que FreeCAD es modular por diseño, y como para muchos otros programas de CAD, siempre hay más de una manera de hacer las cosas. Exploraremos dos métodos aquí.
 
 ## Antes de empezar 
 
-Recuerda que FreeCAD aún está en un estado inicial de desarrollo, así que posiblemente no seas tan productivo como con otras aplicaciones de CAD, y encontrarás algunos errores, o experimentes algunos cuelgues de la aplicación. FreeCAD ahora dispone de la opción de realizar copias de respaldo. El numero de archivos de respaldo se puede especificar en el letrero de diálogo de Preferencias. No dudes en permitir 2 o 3 archivos de respaldo hasta que conozcas bien como trabajar con FreeCAD.
+Ten en cuenta que FreeCAD está todavía en una fase temprana de desarrollo, por lo que puede que no seas tan productivo como con otra aplicación de CAD, y seguramente te encontrarás con errores, o experimentarás cuelgues. FreeCAD tiene ahora la capacidad de guardar archivos de copia de seguridad. El número de esos archivos de copia de seguridad puede ser especificado en el diálogo de preferencias. No dudes en permitir 2 o 3 archivos de copia de seguridad hasta que sepas bien cómo manejar FreeCAD.
 
-Guarda tu trabajo frecuentemente, de vez en cuando guarda tu trabajo con un nombre diferente, así tendrás una copia \"a salvo\" a la que puedas volver, y prepárate para la posibilidad de que algunos comandos pudieran no ofrecer los resultados que esperabas.
-
-
-<div class="mw-translate-fuzzy">
+Guarde su trabajo a menudo, de vez en cuando guarde su trabajo con un nombre diferente, para tener una copia \"segura\" a la que recurrir, y esté preparado para la posibilidad de que algunos comandos no le den los resultados esperados.
 
 ## Introducción a las técnicas de modelado 
 
-La primera (y básica) técnica de modelado sólido es la [Geometría constructiva de sólidos (CSG)](http://es.wikipedia.org/wiki/Geometr%C3%ADa_constructiva_de_s%C3%B3lidos). Trabajas principalmente con formas primitivas como cubos, cilindros, esferas y conos para construir tu geometría combinándolos, eliminando una forma de otra, o intersecándolas. Estas herramientas son parte del [Entorno de Pieza](Part_Workbench/es.md). También puedes aplicar transformaciones a las formas, como aplicar redondeos o chaflanes en las aristas. Estas herramientas pertenecen también al tools are also in the [Entorno de Pieza](Part_Workbench/es.md).
-
-
-</div>
+La primera (y básica) técnica de modelado de sólidos es [Geometría constructiva de sólidos (CSG)](http://es.wikipedia.org/wiki/Geometr%C3%ADa_constructiva_de_s%C3%B3lidos). También hay una explicación detallada (en el contexto de FreeCAD) de [Geometría constructiva de sólidos](Constructive_solid_geometry/es.md) en el wiki. Trabajas con formas primitivas como cubos, cilindros, esferas y conos para construir tu geometría combinándolas, restando una forma de la otra, o intersectándolas. Estas herramientas forman parte del [Ambiente de trabajo Pieza](Part_Workbench/es.md). También puedes aplicar transformaciones en las formas, como aplicar redondeos o chaflanes en las aristas. Estas herramientas también están en el [Ambiente de trabajo Pieza](Part_Workbench/es.md).
 
 Luego existen otras herramientas más avanzadas. Tu empiezas dibujando un perfil 2D que puedas extruir o revolucionar.
 
 Así que vamos a comenzar tratando de hacer un pie de hierro para una mesa con estos 2 métodos.
 
+## 1er Método - Por Geometría Sólida Constructiva 
 
-<div class="mw-translate-fuzzy">
-
-## Primer Método - Por Geometría constructiva de sólidos 
-
--   Empieza con el [Entorno de Pieza](Part_Workbench/es.md) (Menú **Vista \> Entorno \> Pieza**)
--   Clic en el botón <img alt="" src=images/Part_Box.png  style="width:32px;"> [Cubo](Part_Box.md) para crear un Cubo
--   Cambia sus dimensiones seleccionándolas en el espacio 3D, o pulsando la pestaña Proyecto a la izquierda, luego
--   Pulsa en la pestaña Datos en la parte inferior, y cambia los valores de Alto, largo y ancho a 750mm, 50 y 50 *(ver Fig. 1.1)*
--   Crea un segundo cubo del mismo modo, pero con los valores 750, 40 y 40mm. Por defecto este cubo se superpondrá al primero. *(ver Fig. 1.2)*
--   Ahora resta el segundo cubo al primero. Selecciona el primer cubo primero (denominado Box), luego el segundo cubo (denominado Box001), el orden de la selección es importante! (Asegúrate de que ambas formas están seleccionadas en el árbol de Proyectos. Recuerda: en el modo de navegación de Inventor, Ctrl + click no funciona para la selección múltiple. [Cambia](Mouse_Model/es.md) al modo de navegación CAD o para seleccionar.)
--   En la barra de herramientas del entorno de Pieza, pulsa sobre la herramienta <img alt="" src=images/Part_Cut.png  style="width:32px;"> [Cortar](Part_Cut.md).
-
-
-</div>
+1.  Comienza con el [Ambiente de trabajo Pieza](Part_Workbench/es.md) ![](images/Switch_PartWorkbench.JPG ).
+2.  Si no has abierto un nuevo documento de FreeCAD (la mayor parte de la ventana de FreeCAD aparece en gris), desde el menú desplegable haz clic en **Archivo → Nuevo** o haz clic en el <img alt="" src=images/Document-new.png  style="width:32px;"> **Crear un nuevo documento vacío**\' icono.
+3.  Haga clic en el <img alt="" src=images/Part_Box.svg  style="width:32px;"> [Caja](Part_Box/es.md) para crear una caja
+4.  Cambia sus dimensiones seleccionándola en el espacio 3D, o haciendo clic en la pestaña Proyecto de la izquierda, y luego
+5.  Haz clic en la pestaña Datos de la parte inferior, y cambia los valores de Longitud, Anchura y Altura a 50mm, 50 y 750 *(ver Fig. 1.1)* *Nota*: *cuando se tomaron estas capturas, las propiedades estaban ordenadas de forma diferente, siendo la Altura la primera*.
+6.  La caja ahora llena la mayor parte de la vista 3D. Haga clic en <img alt="" src=images/Std_ViewFitAll.svg  style="width:32px;"> [Encajar todo](Std_ViewFitAll/es.md) para ajustar la vista a la caja recién creada.
+7.  Crea una segunda caja de la misma manera, pero con los valores L=40, W=40 y H=750mm. Por defecto esta caja se superpondrá a la primera. *(ver Fig. 1.2)*
+8.  Ahora restaremos la segunda caja a la primera. Seleccione primero la primera forma (llamada Box), luego la segunda (llamada Box001), ¡el orden de selección es importante! (Asegúrate de que ambas formas están seleccionadas en el árbol del proyecto. Una cosa para recordar:\'\'\' en el modo de navegación de Inventor, **Ctrl** + clic no funciona para la selección múltiple. Cambie [Navegación con ratón](Mouse_navigation/es.md) a la selección de CAD o Blender).
+9.  En la barra de herramientas del ambiente de trabajo de piezas, haga clic en el <img alt="" src=images/Part_Cut.svg  style="width:32px;"> [Cortar](Part_Cut/es.md).
 
 ![Fig. 1.1 El primer cubo](images/Tutorial-normand01.jpg )
 
@@ -95,7 +81,7 @@ Por cierto, podemos añadir redondeos al ángulo para que parezca más real, uti
 
 ## Segundo método - Extruyendo un croquis 
 
-Este método requiere que comiences dibujando un perfil 2D. Necesitas activar el [Módulo de croquizado 2D](Draft_Module/es.md) (Menú **Vista \> Entorno \> Croquizado 2d**).
+Este método requiere que comiences dibujando un perfil 2D. Necesitas activar el [Módulo de croquizado 2D](Draft_Workbench/es.md) (Menú **Vista \> Entorno \> Croquizado 2d**).
 
 
 </div>

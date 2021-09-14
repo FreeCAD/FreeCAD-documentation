@@ -28,7 +28,7 @@ The Part 3D Offset tool creates parallel copies of a selected shape at a certain
 2.  Option ː Self Intersection ː ( todo )
 3.  Option ː Fill Offset ː When the shape was 2 dimensional , the gap inbetween the 2 shapes gets filled. The fill is now a solid, hence the source shape is not a solid . Thus boolean operations may lead to strange results. (see example below) .
 
-## Example
+## Examples
 
 Object with small offset and rounded ( arc ) corners.
 

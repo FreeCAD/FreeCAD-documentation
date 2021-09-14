@@ -1,3 +1,5 @@
+# Manual:Import and export to other filetypes/en
+
  
 
 
@@ -41,4 +43,4 @@ Some of these file formats have options. These can be configured from menu **Edi
 
 
 
-[Category:Poweruser Documentation{{\#translation:}}](Category:Poweruser_Documentation.md) [Category:Tutorials{{\#translation:}}](Category:Tutorials.md)
+[Category:Poweruser Documentation](Category:Poweruser_Documentation.md) [Category:Tutorials](Category:Tutorials.md)

@@ -43,4 +43,4 @@ At the moment, the command extend only at the end. This must be improved to do l
 
 }} 
 
-[Category:External Command Reference{{\#translation:}}](Category:External_Command_Reference.md)
+[Category:External Command Reference](Category:External_Command_Reference.md)

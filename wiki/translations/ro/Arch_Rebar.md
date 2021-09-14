@@ -1,5 +1,12 @@
 ---
-- GuiCommand:/ro   Name:Arch Rebar   Name/ro:Arch Rebar   Workbenches:[MenuLocation:Arch → Rebar   Shortcut:R B   SeeAlso:[[Arch Structure/ro|Arch Structure](Arch_Module/ro___Arch]].md)---
+- GuiCommand:/ro
+   Name:Arch Rebar
+   Name/ro:Arch Rebar
+   Workbenches:[Arch](Arch_Workbench/ro.md)
+   MenuLocation:Arch → Rebar
+   Shortcut:R B
+   SeeAlso:[Arch Structure](Arch_Structure/ro.md)
+---
 
 
 </div>
@@ -8,7 +15,14 @@
 <div class="mw-translate-fuzzy">
 
 ---
-- GuiCommand:/ro   Name:Arch Rebar   Name/ro:Arch Rebar   Workbenches:[MenuLocation:Arch → Rebar   Shortcut:R B   SeeAlso:[[Arch Structure/ro|Arch Structure](Arch_Module/ro___Arch]].md)---
+- GuiCommand:/ro
+   Name:Arch Rebar
+   Name/ro:Arch Rebar
+   Workbenches:[Arch](Arch_Workbench/ro.md)
+   MenuLocation:Arch → Rebar
+   Shortcut:R B
+   SeeAlso:[Arch Structure](Arch_Structure/ro.md)
+---
 
 
 </div>
@@ -162,4 +176,4 @@ FreeCAD.ActiveDocument.recompute()
 
  
 
-[Category:Arch/ro](Category:Arch/ro.md) [Category:External Command Reference{{\#translation:}}](Category:External_Command_Reference.md) [Category:Reinforcement{{\#translation:}}](Category:Reinforcement.md)
+[Category:Arch/ro](Category:Arch/ro.md) [Category:External Command Reference](Category:External_Command_Reference.md) [Category:Reinforcement](Category:Reinforcement.md)

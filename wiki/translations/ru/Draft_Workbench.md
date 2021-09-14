@@ -1,3 +1,5 @@
+# Draft Workbench/ru
+
 
 
 
@@ -10,7 +12,7 @@
 
 ## Введение
 
-<img alt="" src=images/Workbench_Draft.svg  style="width:32px;"> [Верстак Draft Workbench](Draft_Module/ru.md) позволяет начертить простые двумерные объекты и предлагает некоторые инструменты для их последующей модификации. Он так же предоставляет инструменты для указания рабочей плоскости, сетки и привязки для точного управления расположением геометрии.
+<img alt="" src=images/Workbench_Draft.svg  style="width:32px;"> [Верстак Draft Workbench](Draft_Workbench/ru.md) позволяет начертить простые двумерные объекты и предлагает некоторые инструменты для их последующей модификации. Он так же предоставляет инструменты для указания рабочей плоскости, сетки и привязки для точного управления расположением геометрии.
 
 Создаваемые плоские объекты могут использоваться для общего черчения как в программах Inkscape или Autocad. Эти плоские фигуры могут так же использоваться как базовые компоненты трёхмерных объектов, создаваемых другими верстаками, например, <img alt="" src=images/Workbench_Part.svg  style="width:32px;"> [Part](Part_Workbench/ru.md) и <img alt="" src=images/Workbench_Arch.svg  style="width:32px;"> [Arch](Arch_Workbench/ru.md). Так же возможно преобразование объектов Draft в объекты <img alt="" src=images/Workbench_Sketcher.svg  style="width:32px;"> [Sketch](Sketcher_Workbench/ru.md), это значит, что фигуры могут так же использоваться в <img alt="" src=images/Workbench_PartDesign.svg  style="width:32px;"> [верстаке PartDesign](PartDesign_Workbench/ru.md) для создания твёрдых тел.
 
@@ -304,4 +306,4 @@ $INSTALLDIR/Mod/Draft/drafttests/draft_test_objects.py
 
  
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

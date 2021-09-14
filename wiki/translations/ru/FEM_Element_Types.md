@@ -1,3 +1,5 @@
+# FEM Element Types/ru
+
  {{TOCright}}
 
 ## Введение
@@ -271,4 +273,4 @@
 
 }}  
 
-[Category:Developer{{\#translation:}}](Category:Developer.md) [Category:Poweruser\_Documentation{{\#translation:}}](Category:Poweruser_Documentation.md)
+[Category:Developer](Category:Developer.md) [Category:Poweruser\_Documentation](Category:Poweruser_Documentation.md)

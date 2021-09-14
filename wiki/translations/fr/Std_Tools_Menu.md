@@ -1,3 +1,5 @@
+# Std Tools Menu/fr
+
 
 
 
@@ -66,4 +68,4 @@ Les outils suivants sont disponibles dans ce menu :
 
 }}  
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

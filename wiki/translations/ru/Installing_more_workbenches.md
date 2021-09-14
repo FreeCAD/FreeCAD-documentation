@@ -1,3 +1,5 @@
+# Installing more workbenches/ru
+
 
 
 ## Введение
@@ -46,4 +48,4 @@ Copy the workbench folder into `$USER_DIR/Mod/`, where `$USER_DIR` is the FreeCA
 
 }} 
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md)

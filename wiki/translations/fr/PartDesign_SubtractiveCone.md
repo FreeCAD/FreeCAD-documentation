@@ -19,7 +19,7 @@ Insère un Cône primitif soustractif dans le Corps actif. Sa forme est soustrai
 ## Utilisation
 
 1.  Pressez le bouton **<img src="images/PartDesign_AdditiveCone.svg" width=24px> '''Cône Soustractif'''**. **Remarque** : le Cône soustractif fait partie du menu d\'icônes appelé *Créer une primitive soustractive*. Après le lancement de FreeCAD, le cube soustractif est affiché par défaut dans la barre d\'outils. Pour obtenir le Cône soustractif, cliquer sur la flèche vers le bas et choisissez Cône soustractif dans le menu.
-2.  Définissez les paramètres de la primitive (pour un cône complet, mettez un des rayons à zéro) et l\'[Ancrage](Part_Attachment/fr.md).
+2.  Définissez les paramètres de la primitive (pour un cône complet, mettez un des rayons à zéro) et l\'[Ancrage](Part_EditAttachment/fr.md).
 3.  Cliquez sur **OK**.
 4.  Un cône apparaît dans le corps actif.
 
@@ -32,7 +32,7 @@ Le Cône peut être édité après sa création de deux façons :
 
 ## Propriétés
 
--    {{PropertyData/fr|Attachment}}: définit les modes d\'ancrage ainsi que le décalage d\'ancrage. Voir [Part Ancrage](Part_Attachment/fr.md).
+-    {{PropertyData/fr|Attachment}}: définit les modes d\'ancrage ainsi que le décalage d\'ancrage. Voir [Part Ancrage](Part_EditAttachment/fr.md).
 
 -    {{PropertyData/fr|Label}}: donne le nom du cône, changer si nécessaire.
 

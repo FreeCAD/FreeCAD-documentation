@@ -53,7 +53,7 @@ Si vous recherchez un basculement orthogonal en perspective dans la vue 3D, vér
 {{docnav/fr
 |[Dessin A3 Paysage](Drawing_Landscape_A3/fr.md)
 |[Annotation Mise en plan](Drawing_Annotation/fr.md)
-|[Atelier Mise en plan](Drawing_Module/fr.md)
+|[Atelier Mise en plan](Drawing_Workbench/fr.md)
 |IconL=Drawing_Landscape_A3.png
 |IconC=Workbench_Drawing.svg
 |IconR=Drawing_Annotation.png

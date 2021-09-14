@@ -1,3 +1,5 @@
+# Compile on Docker
+
  
 
 
@@ -130,4 +132,4 @@ You can find the attached directories in the `/mnt` directory.
 
  
 
-[Category:Developer{{\#translation:}}](Category:Developer.md) [Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md)
+[Category:Developer](Category:Developer.md) [Category:Developer Documentation](Category:Developer_Documentation.md)

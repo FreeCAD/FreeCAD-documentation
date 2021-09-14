@@ -2,7 +2,7 @@
 - GuiCommand:/ro
    Name:Arch Panel Cut   Name/ro:Arch Panel Cut
    MenuLocation:Arch → Panel Tools → Panel Cut
-   Workbenches:[Arch](Arch_Module/ro.md)
+   Workbenches:[Arch](Arch_Workbench/ro.md)
    Shortcut:**P** **C**
    SeeAlso:[[Arch Panel/ro]], [[Arch Panel Sheet/ro]], [[Arch Nest/ro]], [[Path Workbench/ro]]
 ---

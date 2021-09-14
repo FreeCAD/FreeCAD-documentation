@@ -7,9 +7,6 @@
    SeeAlso:[TechDraw Vue](TechDraw_View/fr.md), [TechDraw Groupe de projection](TechDraw_ProjectionGroup/fr.md)
 ---
 
-
-</div>
-
 ## Description
 
 L\'outil Coupe crée une vue en coupe en fonction d\'une vue existante d\'une pièce.
@@ -115,13 +112,7 @@ section.SectionOrigin = (5.0,5.0,5.0)
 -   **FuseBeforeCut**: l\'opération de section échoue parfois à couper les formes source. Si FuseBeforeCut a la valeur true, les formes sources sont fusionnées en une seule forme avant que l\'opération de section ne soit tentée. Si vous rencontrez des problèmes avec l\'opération de section, essayez de retourner cette valeur.
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{TechDraw Tools navi

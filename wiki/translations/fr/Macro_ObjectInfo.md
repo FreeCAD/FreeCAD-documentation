@@ -1,3 +1,5 @@
+# Macro ObjectInfo/fr
+
  {{Macro/fr
 |Name=Macro ObjectInfo
 |Description=Cet atelier vous permet de connaître la surface, le volume, le centre de masse et le moment d’inertie de l’objet sélectionné.

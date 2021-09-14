@@ -1,3 +1,5 @@
+# Manual:Creating interface tools
+
   
 
 
@@ -128,4 +130,4 @@ Finally, don\'t forget there is much more documentation about using Qt widgets o
 
  {{Powerdocnavi}} 
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Python Code{{\#translation:}}](Category:Python_Code.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)

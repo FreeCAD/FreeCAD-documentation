@@ -1,3 +1,5 @@
+# Macro CartoucheFC/it
+
 
 
 
@@ -8,7 +10,7 @@
 |Name=Macro CartoucheFC
 |Translate=Cartiglio
 |Icon=Macro_CartoucheFC.png
-|Description=Questa macro è una applicazione completa che permette di compilare la tabella del foglio di disegno fornito con FreeCAD. (Per il modulo [Drawing](Drawing_Module/it.md)).
+|Description=Questa macro è una applicazione completa che permette di compilare la tabella del foglio di disegno fornito con FreeCAD. (Per il modulo [Drawing](Drawing_Workbench/it.md)).
 |Author=Mario52
 |Version= 0.3
 |Date=2014-07-02

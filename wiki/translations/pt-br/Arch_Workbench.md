@@ -1,3 +1,5 @@
+# Arch Workbench/pt-br
+
 
 
 
@@ -143,4 +145,4 @@ A bancada (módulo) Arch pode ser usado em scripts [Python](Python/pt-br.md) e [
 
  
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

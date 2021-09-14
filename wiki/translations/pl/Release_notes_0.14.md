@@ -1,3 +1,5 @@
+# Release notes 0.14/pl
+
 
 
 FreeCAD **0.14** został wydany 1 lipca 2014 roku. Stanowi podsumowanie najciekawszych rozwiązań. Pełna lista zmian znajduje się w [dzienniku zmian Mantis](http://www.freecadweb.org/tracker/changelog_page.php). Starsze wersje można znaleźć na stronie: [0.13](Release_notes_0.13.md) - [0.12](Release_notes_0.12.md) - [0.11](Release_notes_0.11.md)
@@ -160,7 +162,7 @@ Została dodana obsługa [elips](Draft_Ellipse/pl.md), warsztat Draft pozwala te
 
 ### Faza
 
-Jak przy zaokrągleniach, które pojawiły się w [wydaniu 0.13](Release_notes_013.md), prostokąty Draft, przewody i wielokąty zyskały teraz nową właściwość, która fazuje ich kąt. Faza jest stosowana przed zaokrągleniem i obie właściwości mogą być używane razem, pozwalając ci przekształcać prosty przewód w skomplikowany obiekt o złożony z wielu sekcji.
+Jak przy zaokrągleniach, które pojawiły się w [wydaniu 0.13](Release_notes_0.13.md), prostokąty Draft, przewody i wielokąty zyskały teraz nową właściwość, która fazuje ich kąt. Faza jest stosowana przed zaokrągleniem i obie właściwości mogą być używane razem, pozwalając ci przekształcać prosty przewód w skomplikowany obiekt o złożony z wielu sekcji.
 
 ### Upgrade i downgrade zostały przepisane 
 
@@ -230,4 +232,4 @@ Wiele pracy wykonano zarówno na FreeCAD jak i [IfcOpenShell](http://www.ifcopen
 
 Pełna lista poprawek błędów i nowych funkcji znajduje się na stronie <http://freecadweb.org/tracker/changelog_page.php>
 
-[Category:News{{\#translation:}}](Category:News.md) [Category:Documentation{{\#translation:}}](Category:Documentation.md) [Category:Releases{{\#translation:}}](Category:Releases.md)
+[Category:News](Category:News.md) [Category:Documentation](Category:Documentation.md) [Category:Releases](Category:Releases.md)

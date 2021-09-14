@@ -25,7 +25,9 @@ The added **Assembly** object with all visible containers looks like this (0.20.
 
 ## Usage
 
-1.  Create an empty assembly container by pressing  or use the keyboard shortcut: **A** then **N**
+1.  Create an empty assembly container by pressing **<img src="images/Assembly_New_Assembly.svg‎‎" width=16px> [Create assembly](Assembly3_CreateAssembly.md)
+**
+    or use the keyboard shortcut: **A** then **N**
 
 
 

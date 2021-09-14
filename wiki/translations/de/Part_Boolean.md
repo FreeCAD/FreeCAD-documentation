@@ -7,9 +7,6 @@
    SeeAlso:[Part Schneiden](Part_Cut/de.md), [Part Verschmelzen](Part_Fuse/de.md), [Part Schnittmenge](Part_Common/de.md), und [Part Abschnitt](Part_Section/de.md)
 ---
 
-
-</div>
-
 ## Beschreibung
 
 
@@ -67,13 +64,7 @@ In Fällen von Koplanarität können, selbst wenn die erste boolesche Operation 
 *Links: Formen, die eine gemeinsame Fläche haben, eine boolesche Vereinigung kann zu falschen Ergebnissen führen. Rechts: Formen, die sich deutlich überschneiden, wird die boolesche Vereinigung in den meisten Fällen erfolgreich sein.*
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
  

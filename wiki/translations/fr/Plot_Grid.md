@@ -2,24 +2,21 @@
 - GuiCommand:/fr
    Name:Plot Grid
    Name/fr:Plot Grille
-   MenuLocation:Plot → Grid‏‎
+   MenuLocation:Plot → Afficher/masquer la grille‏‎
    Workbenches:[Plot](Plot_Module/fr.md)
 ---
 
-
-</div>
-
 ## Description
 
-This tool allows the user to enable/disable the grid lines on a specific plot.
+Cet outil permet à l\'utilisateur d\'activer/désactiver les lignes de grille sur un graphique spécifique.
 
 <img alt="" src=images/Plot_Trigonometric_Example.png  style="width:600px;">
 
-## Usage
+## Utilisation
 
-Select the plot tab that you want to edit, and run this tool to change the state of the grid lines, i.e. enable them if they are disabled, disable them otherwise.
+Sélectionnez l\'onglet du graphique que vous voulez modifier et lancez cet outil pour changer l\'état des lignes de la grille, c\'est-à-dire les activer si elles sont désactivées, les désactiver sinon.
 
-This tool acts on the active set of axis. In case of multi-axes plots you can select the active set of axes with the [axes configuration tool](Plot_Axes.md).
+Cet outil agit sur le jeu d\'axes actif. Dans le cas de tracés multi-axes, vous pouvez sélectionner le jeu d\'axes actif avec l\'[outil de configuration des axes](Plot_Axes/fr.md).
 
 
 
@@ -29,4 +26,4 @@ This tool acts on the active set of axis. In case of multi-axes plots you can se
 
 }} 
 
-[Category:External\_Workbenches{{\#translation:}}](Category:External_Workbenches.md) [Category:Addons{{\#translation:}}](Category:Addons.md)
+[Category:External\_Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)

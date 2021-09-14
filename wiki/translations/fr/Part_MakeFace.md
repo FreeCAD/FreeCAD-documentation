@@ -8,9 +8,6 @@
    SeeAlso:[Part Créer une surface réglée](Part_RuledSurface/fr.md)
 ---
 
-
-</div>
-
 ## Description
 
 Part Créer une face crée un [Part Plan](Part_Plane/fr.md) dans une forme personnalisée. La forme est définie par un contour d\'esquisse fermé.
@@ -28,13 +25,7 @@ Il est possible d\'imbriquer des contours fermés, par exemple pour avoir des ce
 2.  Appuyez sur le bouton <img alt="" src=images/Part_MakeFace.svg  style="width:24px;"> [Créer une face à partir de fils](Part_MakeFace/fr.md).
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
  

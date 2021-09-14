@@ -45,9 +45,9 @@ Note that if the Dimension to be linked is based on two vertices, you should sel
 ## Программирование
 
 
-**See also:**
+**См. так же:**
 
-[TechDraw API](TechDraw_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+[TechDraw API](TechDraw_API/ru.md) и [Основы составления скриптов FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 
 The Dimension Link tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following functions:
 
@@ -57,7 +57,13 @@ to be defined
 ```
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{TechDraw Tools navi

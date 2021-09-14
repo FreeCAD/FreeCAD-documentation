@@ -2,8 +2,8 @@
 - GuiCommand:/ru
    Name:Draft Arc
    Name/ru:Draft Arc
-   Workbenches:[Draft](Draft_Module/ru.md), [Arch](Arch_Module/ru.md)
    MenuLocation:Черчение → Дуга
+   Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
    Shortcut:A R
    SeeAlso:[Draft Circle](Draft_Circle/ru.md)
 ---

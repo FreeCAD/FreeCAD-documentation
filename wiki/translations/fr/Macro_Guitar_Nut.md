@@ -1,3 +1,5 @@
+# Macro Guitar Nut/fr
+
  {{Macro/fr
 |Name=Macro Guitar Nut
 |Name/fr=Macro Guitar Nut

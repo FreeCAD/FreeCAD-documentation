@@ -1,4 +1,6 @@
- {{UnfinishedDocu}}
+# Curves Workbench/fr
+
+ }
 
 ## Introduction
 
@@ -49,4 +51,4 @@ Télécharger l\'atelier externe via le [Gestionnaire d\'Addon](Std_AddonMgr/fr.
 
 }} 
 
-[Category:External Workbenches{{\#translation:}}](Category:External_Workbenches.md) [Category:Addons{{\#translation:}}](Category:Addons.md)
+[Category:External Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)

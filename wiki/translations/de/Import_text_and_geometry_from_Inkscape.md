@@ -1,3 +1,5 @@
+# Import text and geometry from Inkscape/de
+
  {{TutorialInfo/de
 |Topic= Import von Text und Geometrie aus Inkscape
 |Level= Anfänger

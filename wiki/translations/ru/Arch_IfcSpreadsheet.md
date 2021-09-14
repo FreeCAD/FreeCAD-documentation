@@ -3,7 +3,7 @@
    Name:Arch MakeIfcSpreadsheet
    Name/ru:Arch MakeIfcSpreadsheet
    MenuLocation:Arch → Utilities → Создать IFC таблицу
-   Workbenches:[Arch](Arch_Module/ru.md)
+   Workbenches:[Arch](Arch_Workbench/ru.md)
    Shortcut:**I** **P**
    SeeAlso:[Arch IFC](Arch_IFC/ru.md), [Arch IfcExplorer](Arch_IfcExplorer/ru.md)
 ---

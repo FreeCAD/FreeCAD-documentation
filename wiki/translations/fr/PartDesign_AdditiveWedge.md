@@ -17,7 +17,7 @@ Insère une pyramide tronquée primitive dans un Corps actif comme fonction de b
 ## Utilisation
 
 1.  Presser le bouton **<img src="images/PartDesign_AdditiveWedge.svg" width=24px> '''Pyramide tronquée additive'''**. **Remarque** : La pyramide tronquée additive fait partie d\'un menu d\'icônes appelé *Créer une primitive additive*. Après démarrage de FreeCAD, le cube additif est la primitive affichée par défaut dans la barre d\'outils. Pour obtenir la pyramide tronquée, cliquer sur la flèche vers le bas et choisir <img alt="" src=images/PartDesign_AdditiveWedge.png  style="width:24px;"> Pyramide tronquée additive dans le menu.
-2.  Définir les paramètres de la Primitive et de l\'[ancrage](Part_Attachment/fr.md).
+2.  Définir les paramètres de la Primitive et de l\'[ancrage](Part_EditAttachment/fr.md).
 3.  Cliquer sur **OK**.
 4.  Une pyramide tronquée apparaît dans le Corps actif.
 

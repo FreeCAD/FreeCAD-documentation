@@ -1,7 +1,7 @@
 ---
 - GuiCommand:/de
    Name/de:TechDraw Radiusbemaßung
-   MenuLocation:TechDraw → Radius bemaßen
+   MenuLocation:TechDraw → Bemaßungen → Radius bemaßen
    Workbenches:[TechDraw](TechDraw_Workbench/de.md)
    SeeAlso:[TechDraw Durchmesserbemaßung](TechDraw_Dimension_Diameter/de.md)
 ---

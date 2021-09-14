@@ -1,5 +1,10 @@
 ---
-- GuiCommand:/ro   Name:Draft Drawing   Name/ro:Draft Drawing   Workbenches:[Arch](Draft_Module/ro___Draft]],_[[Arch_Module/ro.md)|MenuLocation:Drafting → Drawing---
+- GuiCommand:/ro
+   Name:Draft Drawing
+   Name/ro:Draft Drawing
+   MenuLocation:Drafting → Drawing
+   Workbenches:[Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
+---
 
 
 </div>

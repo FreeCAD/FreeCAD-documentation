@@ -2,9 +2,9 @@
 - GuiCommand:/ru
    Name:Draft Trimex
    Name/ru:Draft Trimex
-   Workbenches:[Draft](Draft_Module/ru.md), [Arch](Arch_Module/ru.md)
+   Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
    MenuLocation:Черчение -> Trimex
-   Shortcut:T R
+   Shortcut:**T** **R**
    SeeAlso:[Part Extrude](Part_Extrude/ru.md)
 ---
 

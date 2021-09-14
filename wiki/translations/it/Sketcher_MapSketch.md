@@ -4,9 +4,17 @@
 
 </div>
 
+## Description
+
+
+<div class="mw-translate-fuzzy">
+
 ## Descrizione
 
 Mappa uno **Schizzo già esistente nel progetto** su una faccia planare selezionata in una forma. Permette di utilizzare uno schizzo realizzato in precedenza, di modificarlo e, inoltre, di riposizionarlo sul piano definito dalla faccia selezionata. Le funzioni PartDesign create da questo disegno saranno fuse con il solido di base per le funzionalità additive (PAD, Rivoluzione) o sottratte dal solido di base nel caso di funzioni sottrattive (Scavo, Scanalatura).
+
+
+</div>
 
 Notare che questo strumento non serve per creare i nuovi disegni. Mappa o rimappa uno schizzo esistente alla faccia di un solido o di una funzione PartDesign. Casi d\'uso tipici sono:
 
@@ -68,4 +76,4 @@ Ora selezioniamo la faccia superiore di Pad e quindi selezioniamo lo strumento M
 
 {{Sketcher Tools navi
 
-}}  
+}} 

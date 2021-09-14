@@ -1,3 +1,5 @@
+# PartDesign Workbench/ru
+
  
 
 <img alt="Иконка верстака PartDesign" src=images/Workbench_PartDesign.svg  style="width:128px;">
@@ -10,7 +12,7 @@
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;">[Верстак PartDesign](PartDesign_Workbench/ru.md) предоставляет расширенные инструменты для моделирования сложных твердых деталей. Он в основном сосредоточен на создании механических деталей, которые можно изготовить и собрать в готовый продукт. Тем не менее, созданные тела могут быть использованы в целом для любых других целей, таких как [архитектурный дизайн](Arch_Module/ru.md), [анализ методом конечных элементов](FEM_Module/ru.md) или [механической обработки и 3D-печати](Path_Workbench/ru.md).
+<img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;">[Верстак PartDesign](PartDesign_Workbench/ru.md) предоставляет расширенные инструменты для моделирования сложных твердых деталей. Он в основном сосредоточен на создании механических деталей, которые можно изготовить и собрать в готовый продукт. Тем не менее, созданные тела могут быть использованы в целом для любых других целей, таких как [архитектурный дизайн](Arch_Workbench/ru.md), [анализ методом конечных элементов](FEM_Workbench/ru.md) или [механической обработки и 3D-печати](Path_Workbench/ru.md).
 
 
 </div>
@@ -210,4 +212,4 @@ These tools apply a treatment to the selected edges or faces.
 
  {{PartDesign Tools navi}}
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

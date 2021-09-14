@@ -50,7 +50,7 @@ Pour référencer des éléments dans l\'<img src=images/Sketcher_CarbonCopy.svg
 
 ## Propriétés
 
--    {{PropertyData/fr|Map Mode}}: mode de liaison de l\'esquisse à un autre objet, généralement un plan ou une face, mais pouvant être constitué d\'autres types d\'objets. Cliquez une fois dans le champ pour afficher un bouton **...** et appuyez sur le bouton pour ouvrir la boîte de dialogue [Ancrage](Part_Attachment/fr.md). Si défini sur Ddésactivé, la propriété Placement est activée.
+-    {{PropertyData/fr|Map Mode}}: mode de liaison de l\'esquisse à un autre objet, généralement un plan ou une face, mais pouvant être constitué d\'autres types d\'objets. Cliquez une fois dans le champ pour afficher un bouton **...** et appuyez sur le bouton pour ouvrir la boîte de dialogue [Ancrage](Part_EditAttachment/fr.md). Si défini sur Ddésactivé, la propriété Placement est activée.
 
 -    {{PropertyData/fr|Placement}}: contrôle l\'orientation de l\'esquisse dans l\'espace 3D; voir [placement](Std_Placement/fr.md). Désactivé si l\'esquisse est liée via la propriété Map Mode.
 

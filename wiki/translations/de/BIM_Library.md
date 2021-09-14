@@ -34,4 +34,4 @@ Mit dem BIM Bibliothek Werkzeug kannst du im aktuellen Modell ein Objekt aus der
 
  
 
-[Category:BIM{{\#translation:}}](Category:BIM.md)
+[Category:BIM](Category:BIM.md)

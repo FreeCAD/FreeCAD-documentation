@@ -1,3 +1,5 @@
+# Std Base/de
+
 
 
 
@@ -65,4 +67,4 @@ Das Standardmenü setzt sich aus 7 Untermenüs zusammen. Jedes Untermenü hat ei
 
 }} 
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

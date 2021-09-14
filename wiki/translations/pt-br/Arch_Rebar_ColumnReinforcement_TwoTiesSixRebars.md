@@ -341,4 +341,4 @@ rebar_group = TwoTiesSixRebars.editTwoTiesSixRebars(
 
  
 
-[Category:Reinforcement{{\#translation:}}](Category:Reinforcement.md)
+[Category:Reinforcement](Category:Reinforcement.md)

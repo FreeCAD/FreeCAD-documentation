@@ -1,23 +1,19 @@
+# Mouse navigation/it
+
 
 
 
 {{docnav/it
 |[Per iniziare](Getting_started/it.md)
-|[Cubo di navigazione](Navigation_Cube/it.md)
+|[Metodi di selezione](Selection_methods/it.md)
 }}
 
 
 {{TOCright}}
 
-
-<div class="mw-translate-fuzzy">
-
 ## Introduzione
 
-La funzione **Navigazione 3D - Tipo di mouse** di FreeCAD comprende i comandi utilizzati per navigare visivamente lo spazio 3D e per interagire con gli oggetti visualizzati. Attualmente FreeCAD offre diversi stili di navigazione con il mouse. Lo stile di navigazione predefinito, denominato \"Navigazione CAD​​\", è molto semplice e pratico, ma si può anche usare uno stile alternativo, secondo le proprie preferenze.
-
-
-</div>
+La funzione **Navigare col mouse** di FreeCAD comprende i comandi utilizzati per navigare visivamente lo spazio 3D e per interagire con gli oggetti visualizzati. Attualmente FreeCAD offre diversi stili di navigazione con il mouse. Lo stile di navigazione predefinito, denominato \"Navigazione CAD​​\", è molto semplice e pratico, ma si può anche usare uno stile alternativo, secondo le proprie preferenze.
 
 ## Navigazione
 
@@ -154,10 +150,7 @@ In v0.18 questo metodo è disabilitato per impostazione predefinita. Per abilita
 
 ### Navigazione Maya-Gesture 
 
-
-<div class="mw-translate-fuzzy">
-
-Nella navigazione Maya-Gesture, traslazione, zoom e rotazione della vista richiedono il tasto **Alt** insieme al pulsante del mouse; pertanto, è richiesto un mouse a tre pulsanti. È anche possibile usare i gesti poiché questa modalità è stata sviluppata sulla modalità [Navigazione gestuale](Mouse_Model/it#Navigazione_Gesture.md). {{MayaGesture Navigation
+Nella navigazione Maya-Gesture, traslazione, zoom e rotazione della vista richiedono il tasto **Alt** insieme al pulsante del mouse; pertanto, è richiesto un mouse a tre pulsanti. È anche possibile usare i gesti poiché questa modalità è stata sviluppata sulla modalità [Navigazione Gesture](#Navigazione_Gesture.md). {{MayaGesture Navigation
 |Select_name=Selezione
 |Pan_name=Traslazione
 |Zoom_name=Zoom
@@ -166,7 +159,6 @@ Nella navigazione Maya-Gesture, traslazione, zoom e rotazione della vista richie
 |Select_text=Premere il tasto sinistro del mouse su un oggetto che si desidera selezionare.
 |Pan_text=Tenere premuto **Alt** e il pulsante centrale del mouse, quindi spostare il puntatore.
 |Zoom_text=Tenere premuto **Alt** e il tasto destro del mouse, quindi spostare il puntatore.
-</div>
 
 In alternativa, utilizzare la rotellina del mouse per ingrandire e ridurre.
 |Rotate_view_text=Tenere premuto **Alt** e il tasto sinistro del mouse, quindi spostare il puntatore.
@@ -238,7 +230,7 @@ Recentemente abbiamo ricevuto segnalazioni [nel forum](http://forum.freecadweb.o
 
 {{docnav/it
 |[Per iniziare](Getting_started/it.md)
-|[Cubo di navigazione](Navigation_Cube/it.md)
+|[Metodi di selezione](Selection_methods/it.md)
 }}
 
 

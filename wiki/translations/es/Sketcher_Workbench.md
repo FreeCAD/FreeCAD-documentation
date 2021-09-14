@@ -1,3 +1,5 @@
+# Sketcher Workbench/es
+
 
 
 
@@ -19,21 +21,53 @@ El ambiente de trabajo Croquizador presenta \"restricciones\", que permiten que 
 
 *Un croquis completamente restringido‎*
 
+## Basics of constraint sketching 
+
+
+<div class="mw-translate-fuzzy">
+
 ## Bases de croquizado con restricciones 
 
 Para explicar como funciona el Croquizador, puede ser útil compararlo con el sistema de dibujo \"tradicional\".
+
+
+</div>
+
+#### Traditional Drafting 
+
+
+<div class="mw-translate-fuzzy">
 
 #### Dibujo tradicional 
 
 El modo de dibujo tradicional es inherente a las antiguos [mesas de dibujo](http://es.wikipedia.org/wiki/Mesa_de_dibujo). [Las vistas (2D) ortogonales](http://es.wikipedia.org/wiki/Sistema_di%C3%A9drico) eran dibujadas manualmente y previstas para producir dibujos técnicos (también conocidos como planos detallados). Los objectos se dibujaban precisamente al tamaño o dimensión pretendida. Si querías dibujar una línea horizontal de longitud 100mm que comience en el (0,0), activabas la herramienta línea, pulsabas en la pantalla o introducías las coordenadas (0,0) para el primer punto, luego hacías un segundo clic o introducías las coordenadas del segundo punto en (100,0). O dibujabas la línea sin preocuparse de su posición, y la movías después. Cuando terminabas de dibujar geometría, le añadías cotas.
 
+
+</div>
+
+#### Constraint Sketching 
+
+
+<div class="mw-translate-fuzzy">
+
 #### Croquizar con restricciones 
 
 El **módulo de croquizado** se aleja de esta lógica. Los objetos no tienen porque dibujarse exactamente como se pretenden, porque serán definidos después por restricciones geométricas y dimensionales. Los objetos se pueden dibujar sin excesivo rigor, y mientras estén sin restringir se pueden modificar. Están en realidad \"flotando\" y se pueden mover, estirar, girar, escalar, etc. Esto ofrece una gran flexibilidad en el proceso de diseño.
 
+
+</div>
+
+#### What are constraints? 
+
+
+<div class="mw-translate-fuzzy">
+
 #### ¿Qué son las restricciones? 
 
 Las restricciones se utilizan para limitar los grados de libertad de un objeto. Por ejemplo, una línea tiene 4 [grados de libertad](#Degrees_Of_Freedom.md) (en inglés Degrees Of Freedom, generalmente abreviado como \" DOF \"): Se puede mover horizontal o verticalmente, se puede estirar, y puede girarse.
+
+
+</div>
 
 Aplicando una restricción horizontal o vertical, o una restricción angular (relativa a otra línea o a uno de los ejes), se limitará su capacidad de girar, aunque seguirá con 3 grados de libertad. Bloqueando uno de sus extremos en relación con el origen eliminará otros 2 grados de libertad. Y aplicando una restricción dimensional se eliminará el último grado de libertad. La línea se considerará que está entonces **completamente restringida**.
 
@@ -41,14 +75,22 @@ Múltiples objetos pueden ser restringidos con respecto a otro. Dos líneas se p
 
 Existen dos tipos de restricciones: geométricas y dimensionales. Ambas son explicadas en la sección [\#Las herramientas](#Las_herramientas.md) más abajo.
 
+#### What the Sketcher is not good for 
+
+
+<div class="mw-translate-fuzzy">
+
 #### ¿Para qué no es bueno el entorno de croquizado? 
 
 El Croquizador no está pensado para producir planos detallados en 2D. Una vez que los croquis se utilizan para generar un sólido, son automáticamente ocultados. Las cotas son sólo visibles en el modo de edición del croquis.
 
 
+</div>
+
+
 <div class="mw-translate-fuzzy">
 
-Si sólo necesitas producir vistas 2D para imprimir, y no quieres crear modelos 3D, mira el [Ambiente de Trabajo Croquiz](Draft_Module/es.md). A diferencia de los elementos de Croquiz, los objetos de Borrador no usan restricciones; son formas simples definidas en el momento de la creación. Tanto el Borrador como el Croquiz pueden utilizarse para el dibujo de geometría 2D, y la creación de sólidos 3D, aunque su uso preferido es diferente; el Croquiz se utiliza normalmente junto con [Pieza](Part_Workbench/es.md) y [DiseñoPiezas](PartDesign_Workbench/es.md) para crear sólidos; el Borrador se utiliza normalmente para dibujos planos simples sobre una cuadrícula, como cuando se dibuja un plano de arquitectura; en estas situaciones el Draft se utiliza principalmente junto con el [Ambiente de Trabajo Arquitectura](Arch_Workbench/es.md). La herramienta [BorradorACroquiz](Draft_Draft2Sketch/es.md) convierte un objeto Borrador en un objeto Croquiz, y viceversa; muchas herramientas que requieren un elemento 2D como entrada trabajan con cualquier tipo de objeto ya que una conversión interna se realiza automáticamente
+Si sólo necesitas producir vistas 2D para imprimir, y no quieres crear modelos 3D, mira el [Ambiente de Trabajo Croquiz](Draft_Workbench/es.md). A diferencia de los elementos de Croquiz, los objetos de Borrador no usan restricciones; son formas simples definidas en el momento de la creación. Tanto el Borrador como el Croquiz pueden utilizarse para el dibujo de geometría 2D, y la creación de sólidos 3D, aunque su uso preferido es diferente; el Croquiz se utiliza normalmente junto con [Pieza](Part_Workbench/es.md) y [DiseñoPiezas](PartDesign_Workbench/es.md) para crear sólidos; el Borrador se utiliza normalmente para dibujos planos simples sobre una cuadrícula, como cuando se dibuja un plano de arquitectura; en estas situaciones el Draft se utiliza principalmente junto con el [Ambiente de Trabajo Arquitectura](Arch_Workbench/es.md). La herramienta [BorradorACroquiz](Draft_Draft2Sketch/es.md) convierte un objeto Borrador en un objeto Croquiz, y viceversa; muchas herramientas que requieren un elemento 2D como entrada trabajan con cualquier tipo de objeto ya que una conversión interna se realiza automáticamente
 
 
 </div>
@@ -69,9 +111,17 @@ Una vez que un Bosquejo está totalmente restringido, las características del B
 
 </div>
 
+## The tools 
+
+
+<div class="mw-translate-fuzzy">
+
 ## Las herramientas 
 
 Todas las herramientas del Ambiente de Trabajo Croquiz se encuentran en el menú Boceto que aparece al cargar el Ambiente de Trabajo Croquiz.
+
+
+</div>
 
 ### General
 
@@ -97,7 +147,13 @@ Todas las herramientas del Ambiente de Trabajo Croquiz se encuentran en el menú
 
 Reflejar un boceto a lo largo del eje X, el eje Y o el origen.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_StopOperation.svg  style="width:32px;"> [Detener la operación](Sketcher_StopOperation/es.md): cuando esté en el modo de edición, detenga la operación actual, ya sea el dibujo, la configuración de restricciones, etc.
+
+
+</div>
 
 ### Geometrías de croquis 
 
@@ -179,9 +235,17 @@ A diferencia de las líneas B, pueden utilizarse con todo tipo de restricciones 
 
 Las restricciones son utilizadas para establecer reglas entre los elementos del croquis, y para bloquear el croquis a lo largo de los ejes verticales y horizontales. Algunas restricciones crean restricciones auxiliares adicionales [Restricciones auxiliares](Sketcher_helper_constraint/es.md)
 
+#### Geometric constraints 
+
+
+<div class="mw-translate-fuzzy">
+
 #### Restricciones geométricas 
 
 Estas restricciones no están asociadas con datos numéricos.
+
+
+</div>
 
 -   <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width:32px;"> [Coincidente](Sketcher_ConstrainCoincident/es.md): Pone un punto en (coincidente con) uno o más puntos.
 
@@ -203,9 +267,17 @@ Estas restricciones no están asociadas con datos numéricos.
 
 -   <img alt="" src=images/Sketcher_ConstrainBlock.svg  style="width:32px;"> [Bloqueo](Sketcher_ConstrainBlock/es.md): bloquea el movimiento de un borde, es decir, impide que sus vértices cambien su posición actual. Debería ser particularmente útil para fijar la posición de las Líneas B. Ver el [Tema de foro Bloqueo de restricción](https://forum.freecadweb.org/viewtopic.php?f=9&t=26572).
 
+#### Dimensional constraints 
+
+
+<div class="mw-translate-fuzzy">
+
 #### Restricciones dimensionales 
 
 Se trata de restricciones asociadas a los datos numéricos, para los cuales se pueden utilizar las [expresiones](Expressions/es.md). Los datos pueden ser tomados de una [hoja de cálculo](Spreadsheet_Workbench/es.md).
+
+
+</div>
 
 -   <img alt="" src=images/Sketcher_ConstrainLock.svg  style="width:32px;"> [Bloquear](Sketcher_ConstrainLock/es.md): Restringe el artículo seleccionado estableciendo distancias verticales y horizontales relativas al origen, bloqueando así la ubicación de ese artículo. Estas distancias de restricción pueden ser editadas más tarde.
 
@@ -220,15 +292,29 @@ Se trata de restricciones asociadas a los datos numéricos, para los cuales se p
 -   <img alt="" src=images/Sketcher_ConstrainRadiam.svg  style="width:32px;"> [Radiam](Sketcher_ConstrainRadiam/es.md): Define automáticamente el radio/diámetro de un arco o círculo seleccionado (peso para un polo B-spline, diámetro para un círculo completo, radio para un arco) {{Version/es|0.20}}
 -   <img alt="" src=images/Sketcher_ConstrainAngle.svg  style="width:32px;"> [Ángulo](Sketcher_ConstrainAngle/es.md): Define el ángulo interno entre dos líneas seleccionadas.
 
+
+<div class="mw-translate-fuzzy">
+
 #### Restricciones especiales 
+
+
+</div>
 
 -   <img alt="" src=images/Sketcher_ConstrainSnellsLaw.svg  style="width:32px;"> [Ley de Snell](Sketcher_ConstrainSnellsLaw/es.md): restringe dos líneas para obedecer una ley de refracción para simular la luz que pasa a través de una interfaz.
 
 -   <img alt="" src=images/Sketcher_ConstrainInternalAlignment.svg  style="width:32px;"> [Alineación interna](Sketcher_ConstrainInternalAlignment/es.md): Alinea los elementos seleccionados con la forma seleccionada (por ejemplo, una línea para convertirse en el eje principal de una elipse).
 
+#### Constraint tools 
+
+
+<div class="mw-translate-fuzzy">
+
 #### Herramientas para las restricciones 
 
 Las siguientes herramientas pueden utilizarse para cambiar el efecto de las restricciones:
+
+
+</div>
 
 -   <img alt="" src=images/Sketcher_ToggleDrivingConstraint.svg  style="width:32px;"> [Cambiar la conducción/restricción de referencia](Sketcher_ToggleDrivingConstraint/es.md): Conmuta la barra de herramientas o las restricciones seleccionadas a/desde el modo de referencia.
 
@@ -238,37 +324,121 @@ Las siguientes herramientas pueden utilizarse para cambiar el efecto de las rest
 
 -   <img alt="" src=images/Sketcher_SelectElementsWithDoFs.svg  style="width:32px;"> [Selecciona los DOF del solucionador](Sketcher_SelectElementsWithDoFs/es.md): Resalta en verde la geometría con grados de libertad (DOFs), es decir, no totalmente restringida.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_CloseShape.svg  style="width:32px;"> [Forma cercana](Sketcher_CloseShape/es.md): Crea una forma cerrada aplicando restricciones coincidentes a los puntos finales
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Sketcher_ConnectLines.svg  style="width:32px;"> [Conecta los bordes](Sketcher_ConnectLines/es.md): Conectar los elementos del esbozo aplicando restricciones coincidentes a los puntos finales
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_SelectConstraints.svg  style="width:32px;"> [Seleccione Restricciones](Sketcher_SelectConstraints/es.md): Selecciona las restricciones de un elemento de dibujo
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Sketcher_SelectElementsAssociatedWithConstraints.svg  style="width:32px;"> [Seleccionar elementos asociados con restricciones](Sketcher_SelectElementsAssociatedWithConstraints/es.md): Seleccionar los elementos de bosquejo asociados a las restricciones
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_SelectRedundantConstraints.svg  style="width:32px;"> [Seleccionar restricciones redundantes](Sketcher_SelectRedundantConstraints/es.md): Selecciona las restricciones redundantes del croquis
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Sketcher_SelectConflictingConstraints.svg  style="width:32px;"> [Seleccionar restricciones conflictivas](Sketcher_SelectConflictingConstraints/es.md): Selecciona las restricciones conflictivas del croquis
 
+
+</div>
+
 -   <img alt="" src=images/Sketcher_RestoreInternalAlignmentGeometry.svg  style="width:32px;"> [Mostrar/Ocultar geometría interna](Sketcher_RestoreInternalAlignmentGeometry/es.md): Recrea la geometría interna que falta/elimina la innecesaria de una elipse, arco de elipse/hiperbola/parábola o B-spline seleccionados.
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Sketcher_SelectOrigin.svg  style="width:32px;"> [Seleccionar el origen](Sketcher_SelectOrigin/es.md): Selecciona el origen del croquis
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_SelectVerticalAxis.svg  style="width:32px;"> [Seleccionar el eje vertical](Sketcher_SelectVerticalAxis/es.md): Selecciona el eje vertical del croquis
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Sketcher_SelectHorizontalAxis.svg  style="width:32px;"> [Seleccionar el eje horizontal](Sketcher_SelectHorizontalAxis/es.md): Selecciona el eje horizontal del croquis
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_Symmetry.svg  style="width:32px;"> [Symmetría](Sketcher_Symmetry/es.md): Copia un elemento del croquis manteniéndolo simétrico a una línea seleccionada
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Sketcher_Clone.svg  style="width:32px;"> [Clonar](Sketcher_Clone/es.md): Clona un elemento del croquis
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_Copy.svg  style="width:32px;"> [Copiar](Sketcher_Copy/es.md): Copia un elemento del croquis
+
+
+</div>
 
 -   <img alt="" src=images/Sketcher_Move.svg  style="width:32px;"> [Muévete](Sketcher_Move/es.md): Mueve la geometría seleccionada tomando como referencia el último punto seleccionado.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_RectangularArray.svg  style="width:32px;"> [ordenación rectangular](Sketcher_RectangularArray/es.md): Crea un conjunto de elementos seleccionados de croquis
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_RemoveAxesAlignment.svg  style="width:32px;"> [Eliminar la alineación de los ejes](Sketcher_RemoveAxesAlignment/es.md): Elimina la alineación de los ejes intentando conservar la relación de restricción de la selección {{Version/es|0.20}}
+
+
+</div>
 
 -   <img alt="" src=images/Sketcher_DeleteAllGeometry.svg  style="width:32px;"> [Eliminar toda la geometría](Sketcher_DeleteAllGeometry/es.md): Elimina toda la geometría del boceto.
 
@@ -304,9 +474,17 @@ Las siguientes herramientas pueden utilizarse para cambiar el efecto de las rest
 
 -   <img alt="" src=images/Preferences-general.svg  style="width:32px;"> [Preferencias](Sketcher_Preferences/es.md): Preferencias para el ambiente de trabajo *Croquis*.
 
+## Best Practices 
+
+
+<div class="mw-translate-fuzzy">
+
 ## Buenas practicas 
 
 Cada usuario de CAD desarrolla su propia forma de trabajar a lo largo del tiempo, pero hay algunos principios generales útiles a seguir.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -349,4 +527,4 @@ La página [Croquizador Guión](Sketcher_scripting/es.md) contiene ejemplos sobr
 
 }} 
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

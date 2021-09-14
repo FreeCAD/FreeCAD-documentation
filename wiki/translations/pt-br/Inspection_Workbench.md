@@ -1,3 +1,5 @@
+# Inspection Workbench/pt-br
+
  
 
 <img alt="Inspection workbench icon" src=images/Workbench_Inspection.svg  style="width:128px;">
@@ -43,4 +45,4 @@ Alternativamente, use a macro <img alt="" src=images/HighlightDifference.png  st
 
 
 
-[Category:Inspection{{\#translation:}}](Category:Inspection.md) [Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Inspection](Category:Inspection.md) [Category:Workbenches](Category:Workbenches.md)

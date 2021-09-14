@@ -14,7 +14,7 @@
 
 Grouping of several Panel related tools.
 
-## Types
+## Типы
 
 -   <img alt="" src=images/Arch_Panel.svg  style="width:32px;"> [Panel](Arch_Panel.md): Creates a panel object from a selected 2D object <small>(v0.15)</small> 
 -   <img alt="" src=images/Arch_Panel_Cut.svg  style="width:32px;"> [Panel Cut](Arch_Panel_Cut.md): Creates a 2D cut view from an [Arch Panel](Arch_Panel.md) <small>(v0.17)</small> 

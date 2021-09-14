@@ -1,3 +1,5 @@
+# Std Edit Menu
+
  
 
 
@@ -67,7 +69,9 @@ The following tools are available in this menu:
 
 -   <img alt="" src=images/Std_Edit.svg  style="width:32px;"> [Toggle Edit mode](Std_Edit.md): Activates or deactivates an object\'s edit mode.
 
--   <img alt="" src=images/Std_DlgPreferences.svg  style="width:32px;"> [Preferences\...](Std_DlgPreferences.md): Opens the \[Preferences\_Editor\|Preferences Editor\]\]. 
+-   <img alt="" src=images/Std_UserEditMode.svg  style="width:32px;"> [Edit mode](Std_UserEditMode.md): Defines the edit mode to be used when an object is double-clicked in the [Tree view](Tree_view.md). <small>(v0.20)</small> 
+
+-   <img alt="" src=images/Std_DlgPreferences.svg  style="width:32px;"> [Preferences\...](Std_DlgPreferences.md): Opens the [Preferences Editor](Preferences_Editor.md). 
 **-- On MacOS this menu option may be located in the FreeCAD menu instead of the Edit menu.**
 
 
@@ -75,4 +79,4 @@ The following tools are available in this menu:
 
  {{Std Base navi}}  
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

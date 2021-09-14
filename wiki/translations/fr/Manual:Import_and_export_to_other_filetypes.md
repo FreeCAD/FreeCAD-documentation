@@ -1,3 +1,5 @@
+# Manual:Import and export to other filetypes/fr
+
  
 
 
@@ -39,4 +41,4 @@ Certains de ces formats de fichiers ont des options. Celles-ci peuvent être con
 
 
 
-[Category:Poweruser Documentation{{\#translation:}}](Category:Poweruser_Documentation.md) [Category:Tutorials{{\#translation:}}](Category:Tutorials.md)
+[Category:Poweruser Documentation](Category:Poweruser_Documentation.md) [Category:Tutorials](Category:Tutorials.md)

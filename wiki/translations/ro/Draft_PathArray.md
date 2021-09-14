@@ -1,5 +1,12 @@
 ---
-- GuiCommand:/ro   Name:Draft PathArray   Name/ro:Draft PathArray   Workbenches:[Arch](Draft_Module/ro___Draft]],_[[Arch_Module/ro.md)|MenuLocation:Draft → PathArray   SeeAlso:[Draft Array](Draft_Array/ro.md) ---
+- GuiCommand:/ro
+   Name:Draft PathArray
+   Name/ro:Draft PathArray
+   MenuLocation:Draft → PathArray
+   Workbenches:[Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
+   Version:0.14
+   SeeAlso:[Draft Array](Draft_Array/ro.md)
+---
 
 
 </div>

@@ -6,9 +6,6 @@
    Workbenches:[Part](Part_Workbench/de.md)
 ---
 
-
-</div>
-
 ## Beschreibung
 
 Dieses Werkzeug misst den Winkel zwischen zwei geraden Kanten, zwei ebenen Flächen oder einer geraden Kante und einer ebenen Fläche und zeigt die Messung in der [3D-Ansicht](3D_view/de.md).

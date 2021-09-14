@@ -1,3 +1,5 @@
+# FEM Preferences/ru
+
  {{TOCright}}
 
 
@@ -48,4 +50,4 @@ The current supported external solvers are:
 
 }}  
 
-[Category:Preferences{{\#translation:}}](Category:Preferences.md)
+[Category:Preferences](Category:Preferences.md)

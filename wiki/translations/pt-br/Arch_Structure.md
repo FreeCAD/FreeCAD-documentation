@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Arch Structure
    MenuLocation:Arch → Elemento estrutural
-   Workbenches:[Arch](Arch_Module/pt-br.md)
+   Workbenches:[Arch](Arch_Workbench/pt-br.md)
    Shortcut:**S** **T**
    SeeAlso:[Parede](Arch_Wall/pt-br.md), [Vergalhões](Arch_Rebar/pt-br.md)
 ---

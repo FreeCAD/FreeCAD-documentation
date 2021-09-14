@@ -46,4 +46,4 @@ The **Std Export** command exports selected objects to a different file format. 
 
  {{Std Base navi}}  
 
-[Category:File\_Formats{{\#translation:}}](Category:File_Formats.md)
+[Category:File\_Formats](Category:File_Formats.md)

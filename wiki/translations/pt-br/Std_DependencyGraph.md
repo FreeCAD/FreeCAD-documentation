@@ -92,4 +92,4 @@ You can save a dependency graph:
 
 }}  
 
-[Category:3rd Party{{\#translation:}}](Category:3rd_Party.md)
+[Category:3rd Party](Category:3rd_Party.md)

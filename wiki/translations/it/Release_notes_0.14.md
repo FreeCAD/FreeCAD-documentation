@@ -1,9 +1,11 @@
+# Release notes 0.14/it
+
 
 
 
 <div class="mw-translate-fuzzy">
 
-FreeCAD 0.14 è stato rilasciato il 1 Luglio 2014. Questo è un riassunto dei cambiamenti più interessanti. L\'elenco completo delle modifiche è disponibile in [Mantis changelog](http://www.freecadweb.org/tracker/changelog_page.php). Versioni precedenti in: [0.13](Release_notes_013/it.md) - [0.12](Release_notes_012/it.md) - [0.11](Release_notes_011.md)
+FreeCAD 0.14 è stato rilasciato il 1 Luglio 2014. Questo è un riassunto dei cambiamenti più interessanti. L\'elenco completo delle modifiche è disponibile in [Mantis changelog](http://www.freecadweb.org/tracker/changelog_page.php). Versioni precedenti in: [0.13](Release_notes_0.13/it.md) - [0.12](Release_notes_0.12/it.md) - [0.11](Release_notes_0.11.md)
 
 
 </div>
@@ -149,7 +151,7 @@ Nell\'ambiente [Drawing](Drawing_Workbench/it.md) è disponibile un nuovo strume
 
 <div class="mw-translate-fuzzy">
 
-Anche l\'ambiente [Raytracing](Raytracing_Workbench/it.md) ha ricevuto qualche attenzione, e la sua barra degli strumenti è stata rielaborata. I \"vecchi\" pulsanti che producevano manualmente i file Povray parziali sono stati rimossi (sono ancora presenti nel menu Raytracing), e ora si può produrre un rendering più o meno allo stesso modo come si usa l\'ambiente [Drawing](Drawing_Module/it.md): Si crea un nuovo progetto, si assegna ad esso un modello, poi lo si riempie con la vista degli oggetti. Quando si ha finito, basta premere il pulsante di rendering, o esportarlo in un file pronto per il rendering esterno a FreeCAD.
+Anche l\'ambiente [Raytracing](Raytracing_Workbench/it.md) ha ricevuto qualche attenzione, e la sua barra degli strumenti è stata rielaborata. I \"vecchi\" pulsanti che producevano manualmente i file Povray parziali sono stati rimossi (sono ancora presenti nel menu Raytracing), e ora si può produrre un rendering più o meno allo stesso modo come si usa l\'ambiente [Drawing](Drawing_Workbench/it.md): Si crea un nuovo progetto, si assegna ad esso un modello, poi lo si riempie con la vista degli oggetti. Quando si ha finito, basta premere il pulsante di rendering, o esportarlo in un file pronto per il rendering esterno a FreeCAD.
 
 
 </div>
@@ -197,7 +199,7 @@ Ora FreeCAD è in grado di importare ed esportare verso il [formato DWG](http://
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento [Draft to Drawing](Draft_Drawing/it.md), utilizzato per posizionare oggetti di Draft in un foglio di disegno [Drawing](Drawing_Module/it.md), ora può essere applicato ai gruppi, e permette di creare un numero inferiore di Viste di oggetti nel foglio di disegno. Combinando in modo razionale gli oggetti Draft in gruppi, si dispone di un modo rapido per controllare l\'aspetto di molti oggetti nella pagina.
+Lo strumento [Draft to Drawing](Draft_Drawing/it.md), utilizzato per posizionare oggetti di Draft in un foglio di disegno [Drawing](Drawing_Workbench/it.md), ora può essere applicato ai gruppi, e permette di creare un numero inferiore di Viste di oggetti nel foglio di disegno. Combinando in modo razionale gli oggetti Draft in gruppi, si dispone di un modo rapido per controllare l\'aspetto di molti oggetti nella pagina.
 
 
 </div>
@@ -207,7 +209,7 @@ Lo strumento [Draft to Drawing](Draft_Drawing/it.md), utilizzato per posizionare
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento [Dimensioni](Draft_Dimension/it.md) è stato completamente ricodificato, e gli oggetti Dimensione ora si comportano molto meglio, hanno acquisito alcune nuove proprietà, come frecce più belle e scalabili, un maggiore controllo sulla posizione del testo e sulla direzione della dimensione , e soprattutto un migliore supporto per l\'ambiente [Drawing](Drawing_Module/it.md). Ora è possibile inserire le dimensioni in qualsiasi piano dello spazio 3D, e ottenere risultati corretti quando si metteno su un foglio di disegno con lo strumento [Drawing](Draft_Drawing/it.md).
+Lo strumento [Dimensioni](Draft_Dimension/it.md) è stato completamente ricodificato, e gli oggetti Dimensione ora si comportano molto meglio, hanno acquisito alcune nuove proprietà, come frecce più belle e scalabili, un maggiore controllo sulla posizione del testo e sulla direzione della dimensione , e soprattutto un migliore supporto per l\'ambiente [Drawing](Drawing_Workbench/it.md). Ora è possibile inserire le dimensioni in qualsiasi piano dello spazio 3D, e ottenere risultati corretti quando si metteno su un foglio di disegno con lo strumento [Drawing](Draft_Drawing/it.md).
 
 
 </div>
@@ -219,7 +221,7 @@ Lo strumento [Dimensioni](Draft_Dimension/it.md) è stato completamente ricodifi
 
 <div class="mw-translate-fuzzy">
 
-L\'ambiente [Draft](Draft_Module/it.md) dispone anche di un nuovo \"giocattolo\": tratteggio. Sul specifici oggetti Draft (quelli che formano una forma chiusa come polilinee chiuse, rettangoli, poligoni regolari o cerchi), ora è possibile applicare un tratteggio. Attualmente, sono disponibili di default solo un paio di modelli di tratteggio, ma poiché tali modelli sono molto facili da creare (sono semplici file SVG), e possono già essere aggiunti dall\'utente dei modelli personalizzati, la collezione di default potrebbe crescere rapidamente. Gli oggetti Draft con i riempimenti sono anche supportati fedelmente dall\'ambiente [Drawing](Drawing_Module/it.md).
+L\'ambiente [Draft](Draft_Workbench/it.md) dispone anche di un nuovo \"giocattolo\": tratteggio. Sul specifici oggetti Draft (quelli che formano una forma chiusa come polilinee chiuse, rettangoli, poligoni regolari o cerchi), ora è possibile applicare un tratteggio. Attualmente, sono disponibili di default solo un paio di modelli di tratteggio, ma poiché tali modelli sono molto facili da creare (sono semplici file SVG), e possono già essere aggiunti dall\'utente dei modelli personalizzati, la collezione di default potrebbe crescere rapidamente. Gli oggetti Draft con i riempimenti sono anche supportati fedelmente dall\'ambiente [Drawing](Drawing_Workbench/it.md).
 
 
 </div>
@@ -232,7 +234,13 @@ L\'ambiente [Draft](Draft_Module/it.md) dispone anche di un nuovo \"giocattolo\"
 
 ### Smussi
 
-Allo stesso modo dei raccordi, che erano apparsi nella [versione 0.13](Release_notes_013/it.md), ora i rettangoli, contorni e poligoni di Draft hanno una proprietà smusso, che smussa i loro angolo. Lo smusso viene applicato prima del raccordo, e entrambe le proprietà possono essere utilizzate insieme, questo consente di trasformare rapidamente un contorno molto semplice in un oggetto complesso fatto di molte sezioni.
+
+<div class="mw-translate-fuzzy">
+
+Allo stesso modo dei raccordi, che erano apparsi nella [versione 0.13](Release_notes_0.13/it.md), ora i rettangoli, contorni e poligoni di Draft hanno una proprietà smusso, che smussa i loro angolo. Lo smusso viene applicato prima del raccordo, e entrambe le proprietà possono essere utilizzate insieme, questo consente di trasformare rapidamente un contorno molto semplice in un oggetto complesso fatto di molte sezioni.
+
+
+</div>
 
 ### Upgrade e Downgrade ricodificati 
 
@@ -326,4 +334,4 @@ Un nuovo [tutorial](Arch_tutorial/it.md) di 35 pagine descrive l\'ambiente Arch 
 
 L\'elenco completo delle correzioni e delle nuove funzionalità può essere letto suhttp://freecadweb.org/tracker/changelog\_page.php
 
-[Category:News{{\#translation:}}](Category:News.md) [Category:Documentation{{\#translation:}}](Category:Documentation.md) [Category:Releases{{\#translation:}}](Category:Releases.md)
+[Category:News](Category:News.md) [Category:Documentation](Category:Documentation.md) [Category:Releases](Category:Releases.md)

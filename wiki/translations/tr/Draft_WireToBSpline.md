@@ -1,5 +1,10 @@
 ---
-- GuiCommand:/tr   Name:Draft WireToBSpline   Name/tr:Telden BSpline çevir   Workbenches:[Arch](Draft_Module/tr___Draft]],_[[Arch_Module/tr.md)|MenuLocation:Drafting → Wire to BSpline---
+- GuiCommand:/tr
+   Name:Draft WireToBSpline
+   Name/tr:Telden BSpline çevir
+   MenuLocation:Drafting → Wire to BSpline
+   Workbenches:[Draft](Draft_Workbench/tr.md), [Arch](Arch_Workbench/tr.md)
+---
 
 
 </div>

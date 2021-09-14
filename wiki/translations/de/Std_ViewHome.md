@@ -1,27 +1,28 @@
 ---
-- GuiCommand:
+- GuiCommand:/de
    Name:Std ViewHome
-   MenuLocation:View → Standard views → Home
-   Workbenches:All
-   Shortcut:**Home**
+   Name/de:Std ViewHome
+   MenuLocation:Ansicht → Standardansichten → Home
+   Workbenches:Alle
+   Shortcut:**Pos1**
    Version:0.19
-   SeeAlso:[Std ViewFitAll](Std_ViewFitAll.md)
+   SeeAlso:[Std AnsichtEinpassenAlles](Std_ViewFitAll/de.md)
 ---
 
 ## Beschreibung
 
-The **Std ViewHome** command changes the camera in the active [3D view](3D_view.md) to the default camera orientation. And then zooms and pans the camera so that all visible objects fit inside the view.
+Der **Std ViewHome**-Befehl ändert die Kamera in der aktiven [3D-Ansicht](3D_view/de.md) zur Standardkameraausrichtung. Dann zoomt und schenkt die Kamera, so dass alle sichtbaren Objeke in die Ansicht passen.
 
 ## Anwendung
 
-1.  There are several ways to invoke the command:
-    -   Select the **View → Standard views → <img src="images/Std_ViewHome.svg" width=16px> Home** option from the menu.
-    -   Select the **Standard views → <img src="images/Std_ViewHome.svg" width=16px> Home** option from the [3D view](3D_view.md) context menu.
-    -   Use the keyboard shortcut: **Home**.
+1.  Es gibt verschiedene Wege, den Befehl aufzurufen:
+    -   Wähle die **Ansicht → Standardansichten → <img src="images/Std_ViewHome.svg" width=16px> Home**-Option aus dem Menü.
+    -   Wähle die **Standardansichten → <img src="images/Std_ViewHome.svg" width=16px> Home**-Option aus dem [3D Ansicht](3D_view/de.md)-Kontextmenü.
+    -   Verwende das Tastenkürzel: **Pos1**.
 
-## Preferences
+## Einstellungen
 
--   The default camera orientation can be customized in the preferences: **Edit → Preferences... → Display → Navigation → Default camera orientation**. See [Preferences Editor](Preferences_Editor#Navigation.md).
+-   Die Standardkameraausrichtung kann in den Einstellungen angepasst werden: **Bearbeiten → Einstellungen... → Anzeige → Navigation → Standard-Kameraausrichtung**. Siehe [Voreinstellungseditor](Preferences_Editor/de#Navigation.md).
 
 
 

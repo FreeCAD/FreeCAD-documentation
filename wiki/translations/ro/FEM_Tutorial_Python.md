@@ -1,3 +1,5 @@
+# FEM Tutorial Python/ro
+
 
 
 
@@ -665,4 +667,4 @@ Distracție plăcută!
 
 }} {{FEM Tools navi}}  
 
-[Category:Python Code{{\#translation:}}](Category:Python_Code.md)
+[Category:Python Code](Category:Python_Code.md)

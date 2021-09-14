@@ -1,3 +1,5 @@
+# Arch JSON/ru
+
 
 
 
@@ -7,7 +9,7 @@
 {{docnav/ru
 |[OBJ](Arch_OBJ/ru.md)
 |[3DS](Arch_3DS/ru.md)
-|[Модуль Arch](Arch_Module/ru.md)
+|[Модуль Arch](Arch_Workbench/ru.md)
 }}
 
 
@@ -40,7 +42,7 @@ Note that facets form triangles and their integer values reference points in the
 {{docnav/ru
 |[OBJ](Arch_OBJ/ru.md)
 |[3DS](Arch_3DS/ru.md)
-|[Модуль Arch](Arch_Module/ru.md)
+|[Модуль Arch](Arch_Workbench/ru.md)
 }}
 
 
@@ -49,4 +51,4 @@ Note that facets form triangles and their integer values reference points in the
 
  
 
-[Category:File Formats{{\#translation:}}](Category:File_Formats.md)
+[Category:File Formats](Category:File_Formats.md)

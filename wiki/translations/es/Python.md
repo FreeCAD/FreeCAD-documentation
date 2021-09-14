@@ -1,37 +1,39 @@
- {{VeryImportantMessage|(January 2020) FreeCAD was originally designed to work with Python 2. Since Python 2 reached end of life in 2020, future development of FreeCAD will be done exclusively with Python 3, and backwards compatibility will not be supported.}}
+# Python/es
 
-## Description
+ {{VeryImportantMessage|FreeCAD fue originalmente diseñado para trabajar con Python 2.x. Esta serie terminó con la versión 2.7.18 del 20 de abril de 2020 y es sucedida por Python 3. El desarrollo posterior de FreeCAD se hará exclusivamente con Python 3, y no se apoyará la compatibilidad hacia atrás.}}
+
+## Descripción
 
 
 {{TOCright}}
 
-[Python](https://www.python.org) is a general purpose, high level programming language that is very commonly used in large applications to automate some tasks by creating scripts or [macros](macros.md).
+[Python](https://www.python.org) es un lenguaje de programación de propósito general y de alto nivel que se utiliza muy comúnmente en grandes aplicaciones para automatizar algunas tareas mediante la creación de scripts o [macros](macros/es.md).
 
-In FreeCAD, Python code can be used to create various elements programmatically, without needing to click on the graphical user interface. Additionally, many tools and workbenches of FreeCAD are programmed in Python.
+En FreeCAD, el código Python se puede utilizar para crear varios elementos de forma programada, sin necesidad de hacer clic en la interfaz gráfica de usuario. Además, muchas herramientas y ambientes de trabajo de FreeCAD están programados en Python.
 
-See [Introduction to Python](Introduction_to_Python.md) to learn about the Python programming language, and then [Python scripting tutorial](Python_scripting_tutorial.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md) to start scripting in FreeCAD.
+Ver [Introducción a Python](Introduction_to_Python/es.md) para aprender sobre el lenguaje de programación Python, y luego [Python Tutorial de guión](Python_scripting_tutorial/es.md) y [Fundamentos de FreeCAD Guión](FreeCAD_Scripting_Basics/es.md) para empezar a hacer scripts en FreeCAD.
 
-## Readability
+## Legibilidad
 
-Readability of Python code is one of the most important aspects of this language. Using a clear and consistent style within the Python community facilitates contributions by different developers, as most experienced Python programmers expect the code to be formatted in a certain way and to follow certain rules. When writing Python code, it is advisable to follow [PEP8: Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/) and [PEP257: Docstring Conventions](https://www.python.org/dev/peps/pep-0257/).
+La legibilidad del código Python es uno de los aspectos más importantes de este lenguaje. El uso de un estilo claro y consistente dentro de la comunidad Python facilita las contribuciones de los diferentes desarrolladores, ya que la mayoría de los programadores experimentados de Python esperan que el código tenga un formato determinado y siga ciertas reglas. Al escribir código Python, es aconsejable seguir [PEP8: Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/) y [PEP257: Docstring Conventions](https://www.python.org/dev/peps/pep-0257/).
 
-These documents present explanations in a more user-friendly way:
+Estos documentos presentan las explicaciones de una manera más fácil de usar:
 
--   [How to Write Beautiful Python Code With PEP 8](https://realpython.com/python-pep8/)
--   [Documenting Python Code: A Complete Guide](https://realpython.com/documenting-python-code/).
+-   [Cómo escribir un hermoso código Python con PEP 8](https://realpython.com/python-pep8/)
+-   [Documenting Python Code: Una Guía Completa](https://realpython.com/documenting-python-code/).
 
-## Conventions
+## Convenciones
 
-In this documentation, some conventions for Python examples should be followed.
+En esta documentación deben seguirse algunas convenciones para los ejemplos de Python.
 
-This is a typical function signature
+Esta es una signatura de función típica
 
 
 ```python
 Wire = make_wire(pointslist, closed=False, placement=None, face=None, support=None)
 ```
 
--   Arguments with key-value pairs are optional, with the default value indicated in the signature. This means that the following calls are equivalent:
+-   Los argumentos con pares clave-valor son opcionales, con el valor por defecto indicado en la firma. Esto significa que las siguientes llamadas son equivalentes:
 
 
 ```python
@@ -43,9 +45,9 @@ Wire = make_wire(pointslist)
 ```
 
 
-:   In this example the first argument doesn\'t have a default value so it should always be included.
+:   En este ejemplo, el primer argumento no tiene un valor por defecto, por lo que debe incluirse siempre.
 
--   When the arguments are given with the explicit key, the optional arguments can be given in any order. This means that the following calls are equivalent:
+-   Cuando los argumentos se dan con la clave explícita, los argumentos opcionales pueden darse en cualquier orden. Esto significa que las siguientes llamadas son equivalentes:
 
 
 ```python
@@ -55,7 +57,7 @@ Wire = make_wire(pointslist, placement=None, closed=False, face=None)
 Wire = make_wire(pointslist, support=None, closed=False, placement=None, face=None)
 ```
 
--   Python\'s guidelines stress readability of code; in particular, parentheses should immediately follow the function name, and a space should follow a comma.
+-   Las directrices de Python hacen hincapié en la legibilidad del código; en particular, los paréntesis deben seguir inmediatamente al nombre de la función, y un espacio debe seguir a una coma.
 
 
 ```python
@@ -65,7 +67,7 @@ p3 = Vector(2, 0, 0)
 Wire = make_wire([p1, p2, p3], closed=True)
 ```
 
--   If code needs to be broken over several lines, this should be done at a comma inside brackets or parentheses; the second line should be aligned with the previous one.
+-   Si es necesario dividir el código en varias líneas, debe hacerse con una coma dentro de paréntesis o corchetes; la segunda línea debe alinearse con la anterior.
 
 
 ```python
@@ -77,7 +79,7 @@ Wire = make_wire(pointslist,
                 None, None)
 ```
 
--   Functions may return an object that can be used as the base of another drawing function.
+-   Las funciones pueden devolver un objeto que puede ser utilizado como base de otra función de dibujo.
 
 
 ```python
@@ -85,13 +87,13 @@ Wire = make_wire(pointslist, closed=True, face=True)
 Window = make_window(Wire, name="Big window")
 ```
 
-## Imports
+## Importaciones
 
-Python functions are stored in files called modules. Before using any function in that module, the module must be included in the document with the `import` instruction.
+Funciones de Python se almacenan en archivos llamados módulos. Antes de utilizar cualquier función en ese módulo, el módulo debe ser incluido en el documento con la instrucción `import`.
 
-This creates prefixed functions, that is, `module.function()`. This system prevents name clashes with functions that are named the same but that come from different modules. For example, the two functions `Arch.make_window()` and `myModule.make_window()` may coexist without problem.
+Esto crea funciones prefijadas, es decir, `module.function()`. Este sistema evita los choques de nombres con funciones que se llaman igual pero que provienen de módulos diferentes. Por ejemplo, las dos funciones `Arch.make_window()` y `myModule.make_window()` pueden coexistir sin problema.
 
-Full examples should include the necessary imports and the prefixed functions.
+Ejemplos completos deben incluir las importaciones necesarias y las funciones prefijadas.
 
 
 ```python
@@ -125,4 +127,4 @@ Structure = Arch.make_structure(Wire, name="Big pillar")
 
 }}
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:API Documentation{{\#translation:}}](Category:API_Documentation.md) [Category:Python Code{{\#translation:}}](Category:Python_Code.md) [Category:Glossary{{\#translation:}}](Category:Glossary.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:API Documentation](Category:API_Documentation.md) [Category:Python Code](Category:Python_Code.md) [Category:Glossary](Category:Glossary.md)

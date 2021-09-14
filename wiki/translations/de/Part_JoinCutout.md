@@ -69,7 +69,9 @@ Because the largest piece is determined by comparing volumes of pieces, the tool
 
 ## Skripten
 
-Die Verbinden-Werkzeuge können in [macros/de](macros/de.md) und von der Python-Konsole aus mit der folgenden Funktion verwendet werden: 
+Die Verbinden-Werkzeuge können in [macros/de](macros/de.md) und von der Python-Konsole aus mit der folgenden Funktion verwendet werden:
+
+
 ```pythonJoinFeatures.makePartJoinFeature(name = 'Cutout', mode = 'Cutout')```
 
 -   Creates an empty Cutout feature (or other Join feature, depending on mode passed). The properties Base and Tool must be assigned explicitly, afterwards.
@@ -80,7 +82,9 @@ import JoinFeatures
 j = JoinFeatures.makePartJoinFeature(name = 'Cutout', mode = 'Cutout' )
 j.Base = FreeCADGui.Selection.getSelection()[0]
 j.Tool = FreeCADGui.Selection.getSelection()[1]
-}} Das Werkzeug selbst ist in Python implementiert, siehe {{FileName|/Mod/Part/JoinFeatures.py}} ([GitHub link](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Part/JoinFeatures.py)) innerhalb des FreeCAD-Installationsverzeichnisses.
+}}
+
+Das Werkzeug selbst ist in Python implementiert, siehe {{FileName|/Mod/Part/JoinFeatures.py}} ([GitHub link](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Part/JoinFeatures.py)) innerhalb des FreeCAD-Installationsverzeichnisses.
 
 
 <div class="mw-translate-fuzzy">
@@ -90,9 +94,6 @@ j.Tool = FreeCADGui.Selection.getSelection()[1]
 
 
 </div>
-
-
-
 
 
  

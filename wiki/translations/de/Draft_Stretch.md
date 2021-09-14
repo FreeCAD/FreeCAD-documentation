@@ -3,7 +3,8 @@
    Name:Draft Stretch
    Name/de:Entwurf Strecken
    MenuLocation:Entwurf → Strecken
-   Workbenches:[Entwurf](Draft_Module/de.md), [Arch](Arch_Module/de.md)
+   Workbenches:[Entwurf](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
+   Shortcut:**S** **H**
    SeeAlso:[Versatz](Draft_Offset/de.md), [Skalieren](Draft_Scale/de.md)
    Version:0.17
 ---

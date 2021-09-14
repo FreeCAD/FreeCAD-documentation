@@ -45,4 +45,4 @@ La commande **Std Importer** importe la géométrie d\'un format de fichier diff
 
 }}  
 
-[Category:File\_Formats{{\#translation:}}](Category:File_Formats.md)
+[Category:File\_Formats](Category:File_Formats.md)

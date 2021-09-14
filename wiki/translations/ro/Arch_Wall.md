@@ -1,5 +1,12 @@
 ---
-- GuiCommand:/ro   Name:Arch Wall   Name/ro:Arch Wall   Workbenches:[MenuLocation:Arch → Wall   Shortcut:W A   SeeAlso:[[Arch Structure/ro|Arch Structure](Arch_Module/ro___Arch]].md)---
+- GuiCommand:/ro
+   Name:Arch Wall
+   Name/ro:Arch Wall
+   MenuLocation:Arch → Wall
+   Workbenches:[Arch](Arch_Workbench/ro.md)
+   Shortcut:**W** **A**
+   SeeAlso:[Arch Structure](Arch_Structure/ro.md)
+---
 
 
 </div>

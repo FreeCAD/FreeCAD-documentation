@@ -1,61 +1,40 @@
 ---
 - GuiCommand:/de
-   Name:Draft Apply   Name/de:Aktuellen Style anwenden
-   MenuLocation:Entwurf → Dienstprogramme → Aktuellen Style anwenden
-   Workbenches:[Draft](Draft_Module/de.md), [Arch](Arch_Module/de.md)
-   SeeAlso:[Draft Ablage](Draft_Tray/de.md)
+   Name:Draft ApplyStyle
+   Name/de:AktuellenStilAnwenden
+   MenuLocation:Draft → Utilities → Aktuellen Stil anwenden
+   Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
+   SeeAlso:[Draft StilFestlegen](Draft_SetStyle/de.md)
 ---
-
-
-</div>
 
 ## Beschreibung
 
-Der <img alt="" src=images/Draft_ApplyStyle.svg  style="width:24px;"> **Aktuellen Style anwenden**-Befehl wendet die aktuellen Linien-, Oberflächenfarben und Linienstile auf die ausgewählten Objekte an.
+Der <img alt="" src=images/Draft_ApplyStyle.svg  style="width:24px;"> **Aktuellen Stil anwenden**-Befehl wendet die aktuellen Stileinstellungen auf die ausgewählten Objekte an.
 
-This command currently handles only five of the settings the [Draft SetStyle](Draft_SetStyle.md) command offers:
+Dieser Befehl behandelt aktuell nur fünf der Einstellungen, die der [Draft Stil festlegen](Draft_SetStyle/de.md)-Befehl anbietet:
 
--    **Line color**
-    
+-    **Linienfarbe**(Line color)
 
--    **Line width**
-    
+-    **Linienbreite**(Line width)
 
--    **Shape color**
-    
+-    **Formfarbe**(Shape color)
 
--    **Text size**
-    
+-    **Textgröße**(Text size)
 
--    **Text color**
-    
+-    **Textfarbe**(Text color)
 
 ## Anwendung
 
-
-<div class="mw-translate-fuzzy">
-
-## Anwendung 
-
-1.  Setze die gewünschte Farbe und Linienbreite in der [Draft Ablage](Draft_Tray/de.md).
-2.  Wähle eine oder mehrere Objekte
-3.  Drücke den **<img src="images/Draft_Apply.png" width=16px> [Aktuellen Style anwenden](Draft_Apply/de.md)**-Button oder rechtsklicke und wähle **Entwurf → Dienstprogramme → <img src="images/Draft_Apply.svg" width=16px> [Aktuellen Style anwenden](Draft_Apply/de.md)**.
-
-
-</div>
+1.  Ändere optional die Stileinstellungen mit dem [Draft Stil festlegen](Draft_SetStyle/de.md)-Befehl.
+2.  Wähle eine oder mehrere Objekte.
+3.  Wähle die **Utilities → <img src="images/Draft_ApplyStyle.svg" width=16px> Aktuellen Stil anwenden**-Option aus dem Menü.
 
 ## Hinweise
 
--   In FreeCAD v0.20 kann der [Draft Aktuellen Style anwenden](Draft_SetStyle/de.md)-Befehl auch die Einstellungen anwenden.
-
-
-<div class="mw-translate-fuzzy">
+-   In FreeCAD version 0.20 kann der [Draft Aktuellen Style anwenden](Draft_SetStyle/de.md)-Befehl auch die Einstellungen anwenden.
 
 
 
-
-
-</div>
 
 
  

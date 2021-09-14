@@ -1,7 +1,9 @@
+# Macro CartoucheFC 2/fr
+
  {{Macro/fr
 |Name=Macro_CartoucheFC_2
 |Icon=Macro_CartoucheFC_2.png
-|Description=Cette macro est une application complète, il permet de remplir le cartouche de la feuille de dessin avec texteditable (Seulement pour l'[atelier Drawing](Drawing_Module/fr.md)).
+|Description=Cette macro est une application complète, il permet de remplir le cartouche de la feuille de dessin avec texteditable (Seulement pour l'[atelier Drawing](Drawing_Workbench/fr.md)).
 |Author=Mario52
 |Version=5.0
 |Date=2014-08-08

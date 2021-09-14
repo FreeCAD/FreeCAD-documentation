@@ -1,4 +1,6 @@
- {{UnfinishedDocu}}
+# Manual:BIM modeling/fr
+
+ }
 
 
 
@@ -241,4 +243,4 @@ Notre page est maintenant prête, et nous pouvons l\'exporter vers les formats S
 
 }} 
 
-[Category:BIM{{\#translation:}}](Category:BIM.md)
+[Category:BIM](Category:BIM.md)

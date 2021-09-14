@@ -1,3 +1,5 @@
+# Online Help Startpage/id
+
  
 
 ![150](images/Crystal_Clear_app_tutorials.png )
@@ -44,4 +46,4 @@ Mungkin kamu mempunyai beberapa pengalaman, para programer sungguh tidak sempat 
 
 
 
-[Category:User\_Documentation{{\#translation:}}](Category:User_Documentation.md)
+[Category:User\_Documentation](Category:User_Documentation.md)

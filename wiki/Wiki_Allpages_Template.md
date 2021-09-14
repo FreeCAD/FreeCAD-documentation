@@ -1,3 +1,5 @@
+# Wiki Allpages Template
+
 
 {{Special:Allpages/Template:}}
 

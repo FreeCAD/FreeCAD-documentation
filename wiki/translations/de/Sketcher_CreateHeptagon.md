@@ -13,21 +13,19 @@ Zeichnet ein Siebeneck, das in einem Kreis der Konstruktionsgeometrie eingeschri
 
 ![](images/SketcherCreateHeptagonExample.png‎ )
 
-
-<div class="mw-translate-fuzzy">
-
 ## Anwendung
-
-
-</div>
 
 -   Nach Drücken der **<img src=images/Sketcher_CreateHeptagon.svg style="width:16px"> [Siebeneck erstellen](Sketcher_CreateHeptagon/de.md)**, klicke einmal, um das Zentrum zu setzen, bewege dann die Maus und klicke ein zweites Mal, um einen der Knoten zu setzen.
 -   Drücken von **Esc** oder Klicken mit der rechten Maustaste bricht die Funktion ab.
 
+## Notes
+
 
 <div class="mw-translate-fuzzy">
 
-Beim Bearbeiten der Skizze ist der umschriebene Kreis sichtbar, beim Schließen der Skizze ist er ausgeblendet.
+## Hinweise
+
+Der umschriebene Kreis ist Konstruktionsgeometrie, die nur bei der Bearbeitung der Skizze sichtbar ist.
 
 
 </div>
@@ -38,4 +36,4 @@ Beim Bearbeiten der Skizze ist der umschriebene Kreis sichtbar, beim Schließen 
 
 {{Sketcher Tools navi
 
-}}  
+}} 

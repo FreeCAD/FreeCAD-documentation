@@ -1,3 +1,5 @@
+# Draft Preferences/pl
+
 
 
 
@@ -51,4 +53,4 @@ Teksty i wymiary pozwala ustawić domyślne właściwości narzędzi [Adnotacja 
 
  
 
-[Category:Preferences{{\#translation:}}](Category:Preferences.md)
+[Category:Preferences](Category:Preferences.md)

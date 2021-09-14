@@ -1,3 +1,5 @@
+# Std Base/pl
+
 
 
 
@@ -65,4 +67,4 @@ Istnieje 7 standardowych pod-menu. Każde podmenu ma dedykowaną stronę. Wystar
 
 }} 
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

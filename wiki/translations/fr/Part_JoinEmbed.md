@@ -8,9 +8,6 @@
    SeeAlso:[Part Connecter un objet](Part_JoinConnect/fr.md), [Part Découpe](Part_JoinCutout/fr.md), [Part Opération booléenne](Part_Boolean/fr.md), [Part Évidement](Part_Thickness/fr.md)
 ---
 
-
-</div>
-
 ## Description
 
 L\'outil Intégrer un objet incorpore un objet à paroi (un tuyau, par exemple) dans un autre objet à paroi.
@@ -61,35 +58,36 @@ Les algorithmes derrière les outils Joindre sont assez simples et leur compréh
 4\. Si la propriété Affiner est vraie, la forme résultante est [affinée](Part_RefineShape/fr.md).
 ![800px](images/_JoinFeatures-Algo-Embed.png)
 
-### Notes
+### Remarques
 
--   Si après l'étape 1, l'objet reste en un seul morceau, le résultat de l'intégration sera équivalent à une [union](Part_Fuse/fr.md) de Base et de Tool, mais dont le calcul prendra plus de temps.
+-   Si après l'étape 1, l'objet reste en un seul morceau, le résultat de l'intégration sera équivalent à une [Part union](Part_Fuse/fr.md) de Base et de Tool, mais dont le calcul prendra plus de temps.
 -   Actuellement, l\'outil produira un résultat inattendu si un composé est fourni comme Base. Cela pourra être changé dans le futur.
 -   Étant donné que la plus grande pièce est déterminée en comparant les volumes des pièces, l\'outil ne peut fonctionner qu\'avec des solides. Cela pourra être changé dans le futur.
 
 ## Script
 
-L\'outil Joindre peut être utilisé dans des [macros](macros/fr.md) à partir de la console Python en utilisant la fonction suivante : 
+L\'outil Joindre peut être utilisé dans des [macros](macros/fr.md) à partir de la console Python en utilisant la fonction suivante :
+
+
 ```pythonJoinFeatures.makePartJoinFeature(name = 'Embed', mode = 'Embed')```
 
 -   Crée une fonction Intégration vide (ou une autre fonction de jointure, selon le mode transmis). Les propriétés Base et Insert doivent être affectées explicitement, après.
 -   Renvoie l\'objet nouvellement créé.
 
-Exemple : {{code|code=
+Exemple :
+
+
+{{code|code=
 import JoinFeatures
 j = JoinFeatures.makePartJoinFeature(name = 'Embed', mode = 'Embed' )
 j.Base = FreeCADGui.Selection.getSelection()[0]
 j.Tool = FreeCADGui.Selection.getSelection()[1]
-}} L\'outil lui-même est implémenté en Python, voir {{FileName|/Mod/Part/JoinFeatures.py}} ([Github link](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Part/JoinFeatures.py)) là où FreeCAD est installé.
+}}
 
-
-<div class="mw-translate-fuzzy">
-
-
+L\'outil lui-même est implémenté en Python, voir {{FileName|/Mod/Part/JoinFeatures.py}} ([Github link](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Part/JoinFeatures.py)) là où FreeCAD est installé.
 
 
 
-</div>
 
 
-  
+ 

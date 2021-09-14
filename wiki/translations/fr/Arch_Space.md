@@ -3,14 +3,11 @@
    Name:Arch Space
    Name/fr:Arch Espace
    MenuLocation:Arch → Espace
-   Workbenches:[Arch](Arch_Module/fr.md)
+   Workbenches:[Arch](Arch_Workbench/fr.md)
    Shortcut:**S** **P**
    Version:0.14
    SeeAlso:[Arch Mur](Arch_Wall/fr.md), [Arch Structure](Arch_Structure/fr.md)
 ---
-
-
-</div>
 
 ## Description
 
@@ -141,13 +138,7 @@ Arch.removeSpaceBoundaries(Space, selection)
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
  

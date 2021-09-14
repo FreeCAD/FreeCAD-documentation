@@ -1,3 +1,5 @@
+# Arch Preferences/ru
+
 
 
 The preferences for the [Arch Workbench](Arch_Workbench.md) are found in the [Preferences Editor](Preferences_Editor.md), in the menu **Edit → Preferences → Arch**.
@@ -25,4 +27,4 @@ There are two tabs: General settings, and Defaults.
 
  
 
-[Category:Preferences{{\#translation:}}](Category:Preferences.md)
+[Category:Preferences](Category:Preferences.md)

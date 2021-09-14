@@ -8,9 +8,6 @@
    SeeAlso:[TechDraw Point cosmétique](TechDraw_CosmeticVertex/fr.md), [TechDrawAdd Ligne centrale entre 2 lignes](TechDraw_2LineCenterLine/fr.md), [TechDraw Ligne centrale entre 2 sommets](TechDraw_2PointCenterLine/fr.md), [TechDraw Gomme](TechDraw_CosmeticEraser/fr.md)
 ---
 
-
-</div>
-
 ## Description
 
 L\'outil FaceCenterLine ajoute une ligne médiane à une ou plusieurs faces.
@@ -75,13 +72,7 @@ Les lignes centrales ne sont pas accessibles à partir de [macro](Macros/fr.md) 
         : affiche un trait d\'axe vertical dans la vue.
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{TechDraw Tools navi

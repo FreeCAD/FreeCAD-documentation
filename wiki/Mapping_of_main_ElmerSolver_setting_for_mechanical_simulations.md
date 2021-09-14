@@ -1,3 +1,5 @@
+# Mapping of main ElmerSolver setting for mechanical simulations
+
 This page is dedicated to the description of the [Google Summer of Code 2017](GSoC2017.md) project idea regarding completely setting up mechanical simulations from within FreeCAD while using ElmerFEM as external solver.
 
 ## Outline

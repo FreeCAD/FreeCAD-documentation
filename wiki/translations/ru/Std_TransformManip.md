@@ -1,10 +1,11 @@
 ---
-- GuiCommand:
-   Name:Std TransformManip
-   MenuLocation:Right-click on an object in the tree view → Transform
-Edit → Transform
-   Workbenches:All
-   SeeAlso:[Std Base](Std_Base.md)
+- GuiCommand:/ru
+   Name/ru:Преобразовать
+   Name:Std_TransformManip
+   MenuLocation:В контекстном меню древовидного обзора проекта → Преобразовать
+Правка → Преобразовать
+   Workbenches:Все
+   SeeAlso:[Стандартные команды и инструменты](Std_Base/ru.md)
 ---
 
 ## Описание

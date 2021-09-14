@@ -4,12 +4,7 @@
    Name/de:OpenSCAD SprengeGruppe
    MenuLocation:OpenSCAD → Sprenge Gruppe‏‎
    Workbenches:[OpenSCAD](OpenSCAD_Workbench/de.md)
-   Shortcut:Keine
-   SeeAlso:---
 ---
-
-
-</div>
 
 ## Beschreibung
 
@@ -38,13 +33,7 @@ Die Funktion funktioniert **NICHT** bei
 Um Anordnungen des Entwurf Arbeitsbereich aufzulösen, benutze das [Entwurf Herabstufen](Draft_Downgrade/de.md)-Werkzeug des Entwurf-Arbeitsbereichs.
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{OpenSCAD_Tools_navi

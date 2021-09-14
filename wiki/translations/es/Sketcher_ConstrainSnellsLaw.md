@@ -20,9 +20,7 @@ Constrains two lines to follow the law of refraction of light as it penetrates t
 
 ## Usage
 
-<img alt="" src=images/Sketcher_SnellsLaw_Example1.png  style="width:500px;">
-
-
+<img alt="" src=images/Sketcher_SnellsLaw_Example1.png  style="width:500px;"> 
 *The sequence of clicks is indicated by yellow arrows with numbers. n1, n2 are only labels to show where the indices of refraction are.*
 
 -   You will need two lines that are to follow a beam of light, and a curve to act as an interface. The lines should be on different sides of the interface.
@@ -45,10 +43,14 @@ Using the **<img src=images/Sketcher_CreatePolyline.svg style="width:16px"> [Pol
 
 ## Scripting
 
-The constraints can be created from [macros](Macros.md) and from the [Python](Python.md) console by using the following function: 
+The constraints can be created from [macros](Macros.md) and from the [Python](Python.md) console by using the following function:
+
+
 ```python
 Sketch.addConstraint(Sketcher.Constraint('SnellsLaw',line1,pointpos1,line2,pointpos2,interface,n2byn1))
-``` where:
+```
+
+where:
 
 :\* `Sketch` is a sketch object
 
@@ -62,7 +64,9 @@ Sketch.addConstraint(Sketcher.Constraint('SnellsLaw',line1,pointpos1,line2,point
 
 The [Sketcher scripting](Sketcher_scripting.md) page explains the values which can be used for `line1`, `pointpos1`, `line2`, `pointpos2` and `interface` and contains further examples on how to create constraints from Python scripts.
 
-Example: 
+Example:
+
+
 ```python
 import Sketcher
 import Part
@@ -94,4 +98,4 @@ App.ActiveDocument.recompute()
 
 {{Sketcher Tools navi
 
-}}  
+}} 

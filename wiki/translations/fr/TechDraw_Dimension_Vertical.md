@@ -5,11 +5,8 @@
    MenuLocation:TechDraw → Dimensions → Insérer une cote verticale
    Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
    Shortcut:**Maj** + **V**
-   SeeAlso:[TechDraw Longueur](TechDraw_Dimension_Length/fr.md), [TechDraw Cote horizontale](TechDraw_Dimension_Horizontal/fr.md)
+   SeeAlso:[TechDraw Cote de longueur](TechDraw_Dimension_Length/fr.md), [TechDraw Cote horizontale](TechDraw_Dimension_Horizontal/fr.md)
 ---
-
-
-</div>
 
 ## Description
 
@@ -54,13 +51,7 @@ rc = page.addView(dim1)
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{TechDraw Tools navi

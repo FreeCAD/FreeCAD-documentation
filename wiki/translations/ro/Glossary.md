@@ -1,3 +1,5 @@
+# Glossary/ro
+
 
 
 
@@ -1150,4 +1152,4 @@ Salt la literă: {{CompactTOC|center=yes}}
 
 
 
-[Category:Wiki{{\#translation:}}](Category:Wiki.md) [Category:Glossary{{\#translation:}}](Category:Glossary.md)
+[Category:Wiki](Category:Wiki.md) [Category:Glossary](Category:Glossary.md)

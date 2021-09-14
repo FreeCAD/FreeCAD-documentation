@@ -7,9 +7,6 @@
    SeeAlso:[Part Basculer Delta](Part_Measure_Toggle_Delta/fr.md)
 ---
 
-
-</div>
-
 ## Description
 
 Cet outil bascule la visibilité des mesures linéaires (rouge) et angulaires (bleu).

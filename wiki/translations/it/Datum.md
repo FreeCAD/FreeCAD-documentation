@@ -1,3 +1,5 @@
+# Datum/it
+
 
 
 ## Introduzione
@@ -32,6 +34,9 @@ Ora si può spostare e ruotare il piano di riferimento come si desidera, modific
 
 ## Note
 
+
+<div class="mw-translate-fuzzy">
+
 Quando sono apparsi nella v0.17, gli oggetti di riferimento erano destinati ad essere utilizzati all\'interno dei [Corpi](PartDesign_Body/it.md) di PartDesign. Tuttavia, poiché sono utili oggetti \"di riferimento\" con diversi [metodi di associazione](Part_Attachment/it.md), è stato proposto che siano disponibili al di fuori di [PartDesign](PartDesign_Workbench/it.md). In questo modo, saranno utilizzabili in gli ambienti di lavoro come geometria di supporto, in particolare nel contesto della creazione di [assemblaggi](Assembly/it.md).
 
 -   [Create and display local coordinate system](https://forum.freecadweb.org/viewtopic.php?f=10&t=2604)
@@ -40,8 +45,11 @@ Quando sono apparsi nella v0.17, gli oggetti di riferimento erano destinati ad e
 -   [Local CS cannot be used in Part Wb?](https://forum.freecadweb.org/viewtopic.php?f=3&t=42960)
 
 
+</div>
+
+
 {{PartDesign Tools navi
 
 }} {{Document objects navi}} 
 
-[Category:Glossary{{\#translation:}}](Category:Glossary.md)
+[Category:Glossary](Category:Glossary.md)

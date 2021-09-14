@@ -1,4 +1,6 @@
- {{UnfinishedDocu}} <img alt="L\'icône de l\'atelier externe BOLTS FreeCAD" src=images/BOLTSFC_workbench_icon.svg  style="width:128px;">
+# BOLTSFC Workbench/fr
+
+ } <img alt="L\'icône de l\'atelier externe BOLTS FreeCAD" src=images/BOLTSFC_workbench_icon.svg  style="width:128px;">
 
 ## Introduction
 
@@ -12,7 +14,7 @@ BOLTS est une bibliothèque ouverte pour les spécifications techniques.
 -   Auteur: jreinhardt Johannes Reinhardt
 -   Responsable: \@bernd
 -   Page d\'accueil: [BOLTS](http://www.bolts-library.org/en/index.html)
--   Code source sur github: <https://github.com/jreinhardt/BOLTS>
+-   Code source sur github: <https://github.com/boltsparts/BOLTSFC>
 
 ## Outils
 
@@ -30,14 +32,14 @@ Cet atelier peut être installé à partir du [Gestionnaire d\'Addon](Std_AddonM
 
 ### Depuis GitHub 
 
-Comment [ici](http://www.bolts-library.org/en/docs/0.3/freecad/installation.html)
+Comment [ici](https://github.com/boltsparts/BOLTSFC#readme)
 
 ## Prérequis
 
 Pour utiliser BOLTS for FreeCAD
 
 -   FreeCAD (http://freecadweb.org/)
--   python 2.6 ou 2.7
+-   Python 3.x
 -   pyyaml (http://pyyaml.org/)
 -   importlib (https://pypi.python.org/pypi/importlib/1.0.2) (uniquement pour python 2.6)
 
@@ -70,4 +72,4 @@ est requis.
 
 
 
-[Category:External Workbenches{{\#translation:}}](Category:External_Workbenches.md) [Category:Addons{{\#translation:}}](Category:Addons.md)
+[Category:External Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)

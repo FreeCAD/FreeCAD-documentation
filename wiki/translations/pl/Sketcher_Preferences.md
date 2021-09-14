@@ -1,3 +1,5 @@
+# Sketcher Preferences/pl
+
  
 
 
@@ -244,4 +246,4 @@ W zakładce *Kolory* można określić następujące elementy:
 
 }}  
 
-[Category:Preferences{{\#translation:}}](Category:Preferences.md)
+[Category:Preferences](Category:Preferences.md)

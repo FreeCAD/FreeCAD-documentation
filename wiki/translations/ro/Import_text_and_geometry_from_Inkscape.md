@@ -1,3 +1,5 @@
+# Import text and geometry from Inkscape/ro
+
  {{TutorialInfo/ro
 |Topic= Importaţi text şi forme geometrice create cu InkScape
 |Nivel= Începător

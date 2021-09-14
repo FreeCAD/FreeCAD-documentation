@@ -1,3 +1,5 @@
+# Sketch/de
+
 
 
 ## Einleitung
@@ -37,4 +39,4 @@ Dennoch kann eine Skizze immer für jeden anderen Zweck durch sich selbst erstel
 
 }} {{Document objects navi}} 
 
-[Category:Glossary{{\#translation:}}](Category:Glossary.md)
+[Category:Glossary](Category:Glossary.md)

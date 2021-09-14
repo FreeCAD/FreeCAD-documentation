@@ -2,9 +2,9 @@
 - GuiCommand:/ru
    Name:Draft Ellipse
    Name/ru:Draft Ellipse
-   Workbenches:[Draft](Draft_Module/ru.md), [Arch](Arch_Module/ru.md)
    MenuLocation:Черчение -> Эллипс
-   Shortcut:E L
+   Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
+   Shortcut:**E** **L**
    SeeAlso:[Окружность](Draft_Circle/ru.md)
 ---
 

@@ -1,3 +1,5 @@
+# Mesh Scripting/de
+
 
 
 
@@ -42,9 +44,7 @@ meshObject = Mesh.Mesh(triangles)
 Mesh.show(meshObject)
 ```
 
-Der Netz-Kernel kümmert sich um die Schaffung einer topologisch richtigen Datenstruktur, durch Sortieren deckungsgleicher Punkte und Kanten.
-
-[Anfang](#top.md)
+Der Netz-Kernel kümmert sich um die Schaffung einer topologisch richtigen Datenstruktur, durch Sortieren deckungsgleicher Punkte und Kanten. {{Top}}
 
 ## Modellieren
 
@@ -90,19 +90,13 @@ obj.Mesh = pipe
 doc.recompute()
 ```
 
-[Anfang](#top.md)
+
+{{Top}}
 
 ## Hinweise
 
 Eine umfangreiche, wenn auch schwer zu bedienende Quelle für auf Mesh bezogenes Skripten sind die Einheitstestkripte des `Mesh` Moduls. In diesen Komponententests werden buchstäblich alle Methoden aufgerufen und alle Eigenschaften/Attribute optimiert. Wenn Du also kühn genug bist, schau Dir das [Komponententestmodul](http://free-cad.svn.sourceforge.net/viewvc/free-cad/trunk/src/Mod/Mesh/App/MeshTestsApp.py?view=markup) an.
 
-Siehe auch: [Mesh API](Mesh_API/de.md)
+Siehe auch: [Mesh API](Mesh_API/de.md) {{Top}} {{Powerdocnavi}} {{Mesh Tools navi}} 
 
-[Anfang](#top.md)
-
-
-{{Powerdocnavi
-
-}} {{Mesh Tools navi}} 
-
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Python Code{{\#translation:}}](Category:Python_Code.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)

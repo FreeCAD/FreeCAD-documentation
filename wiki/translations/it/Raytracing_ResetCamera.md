@@ -4,9 +4,19 @@
 
 </div>
 
+## Description
+
+
+<div class="mw-translate-fuzzy">
+
 ## Descrizione
 
 Imposta la fotocamera del progetto raytracing selezionato secondo la vista corrente.
+
+
+</div>
+
+## Usage
 
 
 <div class="mw-translate-fuzzy">
@@ -51,4 +61,4 @@ Imposta la fotocamera del progetto raytracing selezionato secondo la vista corre
 
 {{Raytracing_Tools_navi
 
-}}  
+}} 

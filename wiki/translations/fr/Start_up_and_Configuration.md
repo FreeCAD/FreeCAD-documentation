@@ -1,3 +1,5 @@
+# Start up and Configuration/fr
+
 
 
 
@@ -419,4 +421,4 @@ Maintenant, double-cliquez sur le fichier de commandes pour démarrer FreeCAD. (
 
  
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md)

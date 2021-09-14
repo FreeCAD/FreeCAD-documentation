@@ -1,3 +1,5 @@
+# Task panel/pl
+
  {{TOCright}}
 
 ## Wprowadzenie

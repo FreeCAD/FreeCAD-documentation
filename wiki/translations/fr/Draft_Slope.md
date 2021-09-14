@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Draft Slope
    Name/fr:Draft Pente
-   MenuLocation:Modification → Définir la valeur de la pente<br>Utilities → Définir la valeur de la pente
+   MenuLocation:Modification → Définir la valeur de la pente
    Workbenches:[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
    Version:0.17
 ---
@@ -20,9 +20,8 @@ La commande <img alt="" src=images/Draft_Slope.svg  style="width:24px;"> **Draft
 2.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Draft_Slope.svg" width=16px> [Définit la pente de la ligne sélectionnée...](Draft_Slope.md)**.
     -   Sélectionnez l\'option **Modification → <img src="images/Draft_Slope.svg" width=16px> Définir la valeur de la pente** dans le menu.
-    -   Sélectionnez l\'option **Utilitaires → <img src="images/Draft_Slope.svg" width=16px> Définir la valeur de la pente** dans le menu.
 3.  Saisissez une valeur de **Pente**. {{Value|0}} signifie que chaque segment est horizontal, {{Value|0.5}} signifie que la hauteur delta de chaque segment est {{Value|0.5}} fois sa longueur, etc. La valeur peut également être négative.
-4.  Appuyez sur **Entrée** ou sur le bouton {{button|OK}} pour terminer la commande.
+4.  Appuyez sur **Entrée** ou sur le bouton **OK** pour terminer la commande.
 
 ## Script
 

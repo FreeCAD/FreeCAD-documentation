@@ -3,7 +3,7 @@
    Name:Arch Grid
    Name/es:Arch Grid
    MenuLocation:Arch → Axis tools → Grid
-   Workbenches:[Arch](Arch_Module/es.md)
+   Workbenches:[Arch](Arch_Workbench/es.md)
    SeeAlso:[[Arch Axis/es]], [[Arch AxisSystem/es]]
 ---
 
@@ -142,7 +142,14 @@ FreeCAD.ActiveDocument.recompute()
 <div class="mw-translate-fuzzy">
 
 
-{{docnav/es|[Axes system](Arch_AxisSystem/es.md)|[Roof](Arch_Roof/es.md)|[Arch](Arch_Module/es.md)|IconL=Arch_AxisSystem.png |IconC=Workbench_Arch.svg |IconR=Arch_Roof.svg}}
+{{docnav/es
+|[Axes system](Arch_AxisSystem/es.md)
+|[Roof](Arch_Roof/es.md)
+|[Arch](Arch_Workbench/es.md)
+|IconL=Arch_AxisSystem.png
+|IconC=Workbench_Arch.svg
+|IconR=Arch_Roof.svg
+}}
 
 
 </div>

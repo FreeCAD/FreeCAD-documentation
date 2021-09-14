@@ -1,3 +1,5 @@
+# Online Help Startpage/fr
+
  
 
 ![150](images/Crystal_Clear_app_tutorials.png )
@@ -20,4 +22,4 @@ Comme vous avez pu le constater parfois, les programmeurs sont de très mauvais 
 
 
 
-[Category:User\_Documentation{{\#translation:}}](Category:User_Documentation.md)
+[Category:User\_Documentation](Category:User_Documentation.md)

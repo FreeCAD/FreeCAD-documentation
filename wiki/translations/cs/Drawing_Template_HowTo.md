@@ -1,3 +1,5 @@
+# Drawing Template HowTo/cs
+
 
 
 
@@ -132,9 +134,21 @@ viewBox="0 0 279 216"
 
 ### Značky Pracovního prostoru (Working space) a Popisového pole (Title Block) 
 
+
+<div class="mw-translate-fuzzy">
+
 Další řádky, které přidáte budou značky pro Pracovní prostory (Working space) a Popisové pole (Title block). Tyto značky a jejich použití je definováno ve stránce Kreslení Šablony. Zatím nejsou tyto značky požadovány, ale novější verze pracovní plochy Výkres ve FreeCADu z nich bude mít prospěch a na starší verze FreeCADu nebudou mít vliv.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Značka Working space pro pracovní prostor je použita pro definici prostoru do kterého může FreeCAD zobrazovat. To umožní FreeCADu vytvářet automatické zobrazení na výkresové šabloně tak aby zůstalo uvnitř nakresleného rámečku nebo uvnitř definovaného prostoru na stránce.
+
+
+</div>
 
 Značka Title block pro popisové pole je použita pro definování místa v Pracovním prostoru, kde toto pole leží. Tato informace je FreeCADem využita k tomu, aby se vyhnul místu s popisovým polem. Může to být označeno jako vyhnutí se popisovému poli.
 
@@ -142,7 +156,13 @@ Jsou-li použity obě tyto značky, musí se značka Working space objevit jako 
 
 #### Značka Working space 
 
+
+<div class="mw-translate-fuzzy">
+
 První značka je Working space a je utvořena následovně.
+
+
+</div>
 
  {.html}
 
@@ -221,7 +241,13 @@ A je to. SVG dokument nyní může být uložen a používán s FreeCADem.
 
 ## Dokončení příkladu šablony 
 
+
+<div class="mw-translate-fuzzy">
+
 Dále je doončená SVG šablona. Když víte, že je v SVG formátu, můžete ji otevírat a ukládat ve Vašem textovém editoru jako názorný příklad pro vytváření Vašich vlastních šablon.
+
+
+</div>
 
 ![](images/TemplateExample.svg )
 

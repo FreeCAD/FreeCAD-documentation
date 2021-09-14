@@ -1,3 +1,5 @@
+# Resource framework project/de
+
 
 
 
@@ -10,7 +12,7 @@ If you are not involved with the development discussed here:<br>
 
 {{TOCright}}
 
-Dies ist der Projektplan für die FreeCAD Ressourcen Rahmenprojekt als Teil der [ Entwicklungsfahrplan](Development_roadmap/de.md).
+Dies ist der Projektplan für das FreeCAD Ressourcen Rahmenwerk Projekt als Teil der [Entwicklungsfahrplans](Development_roadmap/de.md).
 
 ## Zweck und Prinzipien 
 
@@ -121,4 +123,4 @@ A class design for the Resource framwork.
 
 
 
-[Category:Roadmap{{\#translation:}}](Category:Roadmap.md)
+[Category:Roadmap](Category:Roadmap.md)

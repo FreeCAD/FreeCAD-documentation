@@ -6,9 +6,6 @@
    Workbenches:[Part](Part_Workbench/fr.md)
 ---
 
-
-</div>
-
 ## Description
 
 Fait pivoter l\'objet sélectionné autour d\'un axe donné. Les types de forme suivants sont autorisés et mènent aux formes de sortie énumérées ([Voir Remarques pour les exceptions](#Remarques.md)):
@@ -35,13 +32,7 @@ Si vous sélectionnez un axe défini par l\'utilisateur, les nombres définissen
 -   Si la révolution est effectuée à l\'aide d\'un axe qui coupe la face à pivoter et que vous souhaitez créer un solide, le résultat peut être invalide. Cela peut se produire pour diverses raisons, auto-intersection, direction, etc.
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
   

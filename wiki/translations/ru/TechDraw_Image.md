@@ -1,33 +1,34 @@
 ---
-- GuiCommand:
-   Name:TechDraw Image
-   MenuLocation:TechDraw → Insert Bitmap Image
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
-   SeeAlso:[TechDraw SVG Symbol](TechDraw_Symbol.md)
+- GuiCommand:/ru
+   Name/ru:Вставить растровое изображение
+   Name:TechDraw_Image
+   MenuLocation:TechDraw → Вставить растровое изображение
+   Workbenches:[TechDraw](TechDraw_Workbench/ru.md)
+   SeeAlso:[Вставить SVG знак](TechDraw_Symbol/ru.md)
 ---
 
-## Description
+## Описание
 
 The Image tool inserts a [bitmap](bitmap.md) image (PNG, TIFF, JPEG, etc.) from a file into the page as a view.
 
 ![](images/TechDraw_Image_example.png ) *Image inserted in the drawing page*
 
-## Usage
+## Применение
 
 1.  Press the **<img src="images/TechDraw_Image.svg" width=16px> [Insert Bitmap Image](TechDraw_Image.md)** button
 2.  A file dialog will open. Select a location and file name.
 
-## Properties
+## Свойства
 
 -   Use the Scale property to adjust the size of the image.
 -   Use the Width and Height properties to clip the image.
 
-## Scripting
+## Программирование
 
 
-**See also:**
+**См. так же:**
 
-[TechDraw API](TechDraw_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+[TechDraw API](TechDraw_API/ru.md) и [Основы составления скриптов FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 
 The Image tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following functions:
 

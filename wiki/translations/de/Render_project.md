@@ -1,3 +1,5 @@
+# Render project/de
+
  {{VeryImportantMessage|(2020) DDiese Seite bezieht sich auf einen Versuch, die [Arbeitsbereich Strahlenverfolgung](Raytracing_Workbench/de.md) zu aktualisieren, der um 2012 vorgeschlagen wurde. Der ursprüngliche Autor hat die Implementierung nie abgeschlossen, daher sind diese Informationen veraltet und sollten nicht als aktuell betrachtet werden.
 
 Neue Entwicklungen finden in der [https://github.com/FreeCAD/FreeCAD-render Render Arbeitsbereich] statt, einem vollständigen Python Ersatz für die [Arbeitsbereich Strahlenverfolgung](Raytracing_Workbench/de.md).
@@ -119,4 +121,4 @@ See also [Raytracing tutorial](Raytracing_tutorial/de.md)
 
  
 
-[Category:Addons{{\#translation:}}](Category:Addons.md) [Category:External Workbenches{{\#translation:}}](Category:External_Workbenches.md) [Category:Render{{\#translation:}}](Category:Render.md)
+[Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md) [Category:Render](Category:Render.md)

@@ -1,3 +1,5 @@
+# Arch Workbench/pl
+
 
 
 
@@ -142,4 +144,4 @@ Moduł Arch może być używany w skryptach [Python](Python.md) i [makrodefiniac
 
  
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

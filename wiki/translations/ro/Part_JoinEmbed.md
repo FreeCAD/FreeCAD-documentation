@@ -29,10 +29,15 @@ Instrumentul de încorporare încorporează un obiect cu pereți (de exemplu, o 
 
 A Part JoinFeature object is created, with Mode set to \'Embed\'. Original objects are hidden, and the result of embedding is shown in 3D view.
 
+## Properties
+
+
+{{TitleProperty|Base}}
+
 
 <div class="mw-translate-fuzzy">
 
-## Properties
+## Properties 
 
 
 {{TitleProperty|Base}}
@@ -50,6 +55,11 @@ A Part JoinFeature object is created, with Mode set to \'Embed\'. Original objec
 
 ## Example
 
+
+<div class="mw-translate-fuzzy">
+
+## Example 
+
 1.  Create a pipe by applying [thickness](Part_Thickness.md) to a [cylinder](Part_Cylinder.md):
     <img alt="" src=images/JoinFeatures_Example_step1.png  style="width:320px;">
 2.  Create another, smaller diameter pipe, and [place](Placement.md) it so that it pierces the wall of the first pipe:
@@ -59,9 +69,20 @@ A Part JoinFeature object is created, with Mode set to \'Embed\'. Original objec
 4.  Use some cross-section tool ([Clipping plane](Std_ToggleClipPlane.md), [Arch Section Plane](Arch_SectionPlane.md), [Arch Cut Plane](Arch_CutPlane.md)) to reveal internals. On the picture below, Arch Section Plane is used.
     ![320px](images/JoinFeatures_Example_step4_Embed.png)
 
+
+</div>
+
 ## Algorithm
 
+
+<div class="mw-translate-fuzzy">
+
+## Algorithm 
+
 The algorithms behind Join tools are quite simple, and understanding them is important to use the tools correctly.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -84,10 +105,12 @@ The algorithms behind Join tools are quite simple, and understanding them is imp
 4\. If Refine property is true, the resulting shape is [refined](Part_RefineShape.md).
 ![800px](images/JoinFeatures-Algo-Embed.png)
 
+### Notes
+
 
 <div class="mw-translate-fuzzy">
 
-### Notes
+### Notes 
 
 -   If after step 1, the object remains in one piece, the result of Embed will be equivalent to [union](Part_Union.md) of Base and Tool, but taking longer to compute.
 -   Now, the tool will produce unexpected result, if a compound is supplied as Base. This may be changed in the future.
@@ -98,13 +121,18 @@ The algorithms behind Join tools are quite simple, and understanding them is imp
 
 ## Script
 
-The Join tools can by used in [macros](macros.md) and from the python console by using the following function: 
+The Join tools can by used in [macros](macros.md) and from the python console by using the following function:
+
+
 ```pythonJoinFeatures.makePartJoinFeature(name = 'Embed', mode = 'Embed')```
 
 -   Creates an empty Embed feature (or other Join feature, depending on mode passed). The properties Base and Tool must be assigned explicitly, afterwards.
 -   Returns the newly created object.
 
-Exempluː {{code|code=
+Exempluː
+
+
+{{code|code=
 import JoinFeatures
 j = JoinFeatures.makePartJoinFeature(name = 'Embed', mode = 'Embed' )
 j.Base = FreeCADGui.Selection.getSelection()[0]
@@ -123,4 +151,4 @@ The tool itself is implemented in Python, see /Mod/Part/JoinFeatures.py under wh
 
 
 
-  
+ 

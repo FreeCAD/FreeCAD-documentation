@@ -1,3 +1,5 @@
+# Std Base/fr
+
 
 
 
@@ -65,4 +67,4 @@ Le menu standard est composé de 7 sous-menus. Chaque sous-menu a une page dédi
 
 }} 
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

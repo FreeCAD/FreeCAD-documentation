@@ -1,4 +1,6 @@
- {{UnfinishedDocu}} <img alt="" src=images/Lattice2_Lattice2.svg  style="width:240px;"> 
+# Lattice2 Workbench/fr
+
+ } <img alt="" src=images/Lattice2_Lattice2.svg  style="width:240px;"> 
 *align=center|L'icône de l'atelier externe Lattice2 FreeCAD*
 
 ## Préambule
@@ -154,4 +156,4 @@ Après avoir installé l\'atelier, il devrait apparaître en bas de la liste du 
 
 
 
-[Category:Addons{{\#translation:}}](Category:Addons.md) [Category:External Workbenches{{\#translation:}}](Category:External_Workbenches.md)
+[Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)

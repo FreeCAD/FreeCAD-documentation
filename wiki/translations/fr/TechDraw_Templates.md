@@ -1,13 +1,9 @@
-
-
-
-<div class="mw-translate-fuzzy">
+# TechDraw Templates/fr
 
 
 
 
 
-</div>
 
 
 {{TOCright}}
@@ -77,13 +73,7 @@ Voir aussi [Comment créer un modèle TechDraw personnalisé](TechDraw_TemplateH
 -   Les modèles fonctionnent mieux lorsqu\'ils ne contiennent aucun code SVG superflu (appelé par certains \"SVG garbage\"). Il y a un bon article sur [removing garbage from SVG here](https://freecad-gost.ru/news/gost-templates-techdraw-09-01-2020/). L\'article est en russe.
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{TechDraw Tools navi

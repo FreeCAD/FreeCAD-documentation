@@ -4,9 +4,17 @@
 
 </div>
 
+## Description
+
+
+<div class="mw-translate-fuzzy">
+
 ## Tanım
 
 Bu araç, mevcut bir eskizi şeklin yüzüne eşler. Bu eskizden oluşturulan parça tasarım özellikleri, ilave özellikler (kalınlık ver, Döndürerek) için alttaki katı ile kaynaşacak veya çıkarma özellikleri durumunda (Oyuk, Oluk) temeldeki katıdan çıkarılacaktır.
+
+
+</div>
 
 Lütfen bu aracın yeni eskizler oluşturmak için kullanılmadığını unutmayın. Yalnızca mevcut bir eskizi Bir katının yüzüne veya bir Parça tasarım özelliği ile eşleştirir veya yeniden eşler. Tipik kullanım durumları:
 
@@ -71,6 +79,6 @@ Modeli onarmak için önce katıların görünürlüğünü değiştiriyoruz. Pa
 
 {{Sketcher Tools navi
 
-}}  
+}} 
 
 [Category:Sketcher/tr](Category:Sketcher/tr.md)

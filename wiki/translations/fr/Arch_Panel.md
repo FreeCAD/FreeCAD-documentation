@@ -2,15 +2,12 @@
 - GuiCommand:/fr
    Name:Arch Panel
    Name/fr:Arch Panneau
-   MenuLocation:Arch → Pannels tools → Panneau
-   Workbenches:[Arch](Arch_Module/fr.md)
+   MenuLocation:Arch → Outils pour panneaux → Panneau
+   Workbenches:[Arch](Arch_Workbench/fr.md)
    Shortcut:**P** **A**
    Version:0.15
    SeeAlso:[Arch Découpe de panneaux](Arch_Panel_Cut/fr.md), [Arch Panneau feuille](Arch_Panel_Sheet/fr.md)
 ---
-
-
-</div>
 
 ## Description
 
@@ -95,13 +92,7 @@ Panel = Arch.makePanel(Rect, thickness=36)
 -   [Wikihouse porting tutorial](Wikihouse_porting_tutorial/fr.md)
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
  

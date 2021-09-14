@@ -1,3 +1,5 @@
+# Arch IFC/es
+
 
 
 
@@ -94,4 +96,4 @@ Si la forma de los objetos exportados se basa en una extrusión o en una operaci
 
  
 
-[Category:File Formats{{\#translation:}}](Category:File_Formats.md)
+[Category:File Formats](Category:File_Formats.md)

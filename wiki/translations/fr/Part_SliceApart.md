@@ -8,9 +8,6 @@
    SeeAlso:[Part Scinder](Part_Slice/fr.md), [Part Éclater le composé](Part_ExplodeCompound/fr.md)
 ---
 
-
-</div>
-
 ## Description
 
 Outil pour diviser des formes par intersection avec d\'autres formes. Par exemple, pour une boîte et un plan, deux solides sont créés. ![600px](images/Part_Slice_Demo.png)
@@ -70,13 +67,7 @@ Séparer/exploser a été introduit dans FreeCAD v0.18.15506. FreeCAD doit être
 -   <https://www.youtube.com/watch?v=JJAL5JmqqKQ> : FreeCAD Slice und Slice Apart und andere Tricks (en allemand), auteur: Ha Gei
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
  

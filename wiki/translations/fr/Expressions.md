@@ -1,3 +1,5 @@
+# Expressions/fr
+
  {{TOCright}}
 
 ## Vue d\'ensemble 
@@ -527,4 +529,4 @@ Bien sûr, vous pouvez charger les documents correspondants à tout moment pour 
 
 }} 
 
-[Category:Spreadsheet{{\#translation:}}](Category:Spreadsheet.md)
+[Category:Spreadsheet](Category:Spreadsheet.md)

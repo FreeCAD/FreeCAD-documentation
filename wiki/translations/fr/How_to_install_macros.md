@@ -1,3 +1,5 @@
+# How to install macros/fr
+
  {{TutorialInfo/fr
 |Topic=Programmation
 |Level=Programmeur moyen
@@ -472,4 +474,4 @@ et validez en cliquant sur le bouton **OK**.
 
 }} 
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Python Code{{\#translation:}}](Category:Python_Code.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)

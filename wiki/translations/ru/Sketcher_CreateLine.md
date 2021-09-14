@@ -1,11 +1,11 @@
 ---
 - GuiCommand:/ru
-   Name:Sketcher CreateLine
-   Name/ru:Sketcher CreateLine
-   MenuLocation:Эскиз → Геометрия эскиза → Создать линию
+   Name/ru:Создать линию
+   Name:Sketcher_CreateLine
+   MenuLocation:Sketch → Геометрия эскиза → Создать линию
    Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
    Shortcut:L
-   SeeAlso:[Sketcher Polyline](Sketcher_CreatePolyline/ru.md)
+   SeeAlso:[Создать полилинию](Sketcher_CreatePolyline/ru.md)
 ---
 
 ## Описание
@@ -22,7 +22,7 @@
 
 </div>
 
-## Использование
+## Применение
 
 -   Укажите точки на пустой области трехмерного вида, или на существующем объекте (авто ограничения в панели Задачи должны быть включены).
 -   Нажмите **Esc** или правую кнопку мыши для отмены функции.

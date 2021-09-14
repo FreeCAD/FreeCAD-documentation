@@ -1,5 +1,12 @@
 ---
-- GuiCommand:/tr   Name:Draft Mirror   Name/tr:Yansıt   Workbenches:[Arch](Draft_Module/tr___Draft]],_[[Arch_Module/tr.md)|MenuLocation:Draft → Mirror   SeeAlso:[Draft Scale](Draft_Scale/tr.md)---
+- GuiCommand:/tr
+   Name:Draft Mirror
+   Name/tr:Yansıt
+   MenuLocation:Draft → Mirror
+   Workbenches:[Draft](Draft_Workbench/tr.md), [Arch](Arch_Workbench/tr.md)
+   Shortcut:**M** **I**
+   SeeAlso:[Draft Scale](Draft_Scale/tr.md)
+---
 
 
 </div>

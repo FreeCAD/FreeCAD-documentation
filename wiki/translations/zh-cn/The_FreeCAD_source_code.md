@@ -1,3 +1,5 @@
+# The FreeCAD source code/zh-cn
+
  [FreeCAD的源代码](https://github.com/FreeCAD/FreeCAD)通过Git管理，是公开的，是开放的，是可获得的，声明于[LGPL许可协议](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License)之下。任何人都可以复制、下载、阅读、分析、分发和改动。如果你改了代码，还想看到它被吸收进官方代码里，我们要给你提个醒，你的改动需要被FreeCAD开发者认可。所以，聪明的做法是，先到[论坛](http://forum.freecadweb.org)上去发帖，跟大家讨论一下，说说你的初衷和想法。免得到头来，出乎你的意料，你的改动被拒绝。
 
 如果你有兴趣，深入探索FreeCAD源代码，下面就是一些提醒，一点信息，帮助你走上正轨。
@@ -66,4 +68,4 @@
 
 </div>
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md)

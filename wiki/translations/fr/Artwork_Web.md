@@ -1,4 +1,6 @@
-\_\_NOTOC\_\_ 
+# Artwork Web/fr
+
+ 
 
 Ces icônes se trouvent dans le chemin source indiqué.
 
@@ -19,4 +21,4 @@ Pour toutes les icônes de l\'arborescence source, voir [Graphisme](Artwork/fr.m
 
 }} 
 
-[Category:Web{{\#translation:}}](Category:Web.md)
+[Category:Web](Category:Web.md)

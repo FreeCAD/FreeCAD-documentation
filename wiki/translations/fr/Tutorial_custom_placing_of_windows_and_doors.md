@@ -1,3 +1,5 @@
+# Tutorial custom placing of windows and doors/fr
+
  {{TutorialInfo/fr
 |Topic=Architecture
 |Level=Intermédiaire
@@ -200,7 +202,7 @@ w = Draft.makeWire(p, closed=False)
 15\. Sélectionnez le nouveau `Sketch003`. Accédez à la propriété {{PropertyData/fr|Map Mode}} et cliquez sur les points de suspension à côté de la valeur `FlatFace`. Dans la fenêtre 3D, sélectionnez le côté gauche du mur qui n\'a aucun élément; faites pivoter la [vue standard](Std_View_Menu/fr.md) si nécessaire. Modifiez `Attachment offset` en \[-1 m, 0 m, 0 m\] pour centrer la fenêtre, puis cliquez sur **OK**. L\'esquisse et la fenêtre doivent apparaître dans une nouvelle position.
 
 :   
-    **Note:**[Part Accrochage](Part_Attachment/fr.md) peut également être effectuée en passant à [atelier Part](Part_Workbench/fr.md), puis en utilisant le menu **Pièce → Attachment**.
+    **Note:**[Part Accrochage](Part_EditAttachment/fr.md) peut également être effectuée en passant à [atelier Part](Part_Workbench/fr.md), puis en utilisant le menu **Pièce → Attachment**.
 
 ![](images/13_T02_sketch_attachment_edit.png )
 

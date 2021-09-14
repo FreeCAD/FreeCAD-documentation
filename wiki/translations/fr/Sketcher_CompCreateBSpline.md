@@ -3,7 +3,7 @@
    Name:Sketcher Create a B-spline
    Name/fr:Sketcher Créer une B-spline
    Icon:Sketcher_CompCreateBSpline.png
-   MenuLocation:barre d'outils seulement
+   MenuLocation:Barre d'outils seulement
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
    Version:0.17
 ---

@@ -1,5 +1,11 @@
 ---
-- GuiCommand:/es   Name:Arch Axis   Name/es:Ejes de arquitectura   Workbenches:[[Arch Module/es   Arquitectura]]|MenuLocation:Arquitectura → Ejes   Shortcut:A X---
+- GuiCommand:/es
+   Name:Arch Axis
+   Name/es:Ejes de arquitectura
+   MenuLocation:Arquitectura → Ejes
+   Workbenches:[Arquitectura](Arch_Workbench/es.md)
+   Shortcut:**A** **X**
+---
 
 
 </div>

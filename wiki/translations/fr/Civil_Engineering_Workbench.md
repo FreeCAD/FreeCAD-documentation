@@ -1,3 +1,5 @@
+# Civil Engineering Workbench/fr
+
 
 
 ## Description
@@ -31,4 +33,4 @@ Les outils Armatures font actuellement partie de l\'[atelier Arch (Architecture)
 
 
 
-[Category:Documentation{{\#translation:}}](Category:Documentation.md) [Category:User Documentation{{\#translation:}}](Category:User_Documentation.md) [Category:Addons{{\#translation:}}](Category:Addons.md)
+[Category:Documentation](Category:Documentation.md) [Category:User Documentation](Category:User_Documentation.md) [Category:Addons](Category:Addons.md)

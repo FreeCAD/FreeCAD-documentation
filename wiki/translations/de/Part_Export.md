@@ -6,9 +6,6 @@
    SeeAlso:[Part Import](Part_Import/de.md), [Std Export](Std_Export/de.md), [Import Export](Import_Export/de.md)
 ---
 
-
-</div>
-
 ## Beschreibung
 
 Das **<img src="images/Part_Export.svg" width=16px> [Part Export](Part_Export/de.md)** Werkzeug öffnet ein Dialogfeld, das dir erlaubt Objekte im Dokument in die folgenden CAD Dateiformate zu exportieren: [IGES](http://en.wikipedia.org/wiki/IGES), [STEP](http://en.wikipedia.org/wiki/Step_file) und [BREP](http://en.wikipedia.org/wiki/BREP).
@@ -21,13 +18,7 @@ Das **<img src="images/Part_Export.svg" width=16px> [Part Export](Part_Export/de
 4.  Wähle das Dateiformat und den Ausgabepfad.
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 

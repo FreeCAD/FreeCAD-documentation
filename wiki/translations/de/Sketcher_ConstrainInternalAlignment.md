@@ -41,16 +41,14 @@ Sketch.addConstraint(Sketcher.Constraint('InternalAlignment:EllipseFocus1', inde
 Sketch.addConstraint(Sketcher.Constraint('InternalAlignment:EllipseFocus2', index_of_point, 1, index_of_ellipse))
 ```
 
-
-<div class="mw-translate-fuzzy">
-
 Anmerkungen:
 
-:   Skizze ist ein Skizzenobjekt.
-:   Zahl 1 in den Schwerpunktsetzungen steht für den Startpunkt eines Punktelements (er wird ignoriert).
+:   
+    {{Incode|Skizze}}ist ein Skizzenobjekt.
 
+:   Zahl {{Incode|1}} in den Schwerpunktsetzungen steht für den Startpunkt eines Punktelements (er wird ignoriert).
 
-</div>
+:   Das {{Incode|index_of_point}}-Argument muss ein Punkt sein, es kann nicht genutzt werden, um z.B. auf einen Endpunkt einer Kante zu weisen.
 
 Die [Skizzierer Skripten](Sketcher_scripting/de.md)-Seite erklärt die Werte, die für `inde_of_line`, `inde_of_point` und `index_of_ellipse` verwendet werden können und enthält weitere Beispiele, wie man Beschränkungen aus Python-Skripten erstellt.
 

@@ -1,8 +1,8 @@
 ---
 - GuiCommand:/ru
-   Name:Spreadsheet StyleBold
    Name/ru:Полужирный текст
-   MenuLocation:Spreadsheet → Styles → Полужирный текст
+   Name:Spreadsheet_StyleBold
+   MenuLocation:Электронная таблица → Styles → Полужирный текст
    Workbenches:[Spreadsheet](Spreadsheet_Workbench/ru.md)
    Version:0.17
 ---

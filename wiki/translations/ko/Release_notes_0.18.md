@@ -1,3 +1,5 @@
+# Release notes 0.18/ko
+
 
 
 FreeCAD 0.18은 2019년 3월 12일 나왔습니다. [Download](Download.md) 페이지에서 받으세요. 이것은 가장 흥미로운 변화의 요약입니다. 변화의 완전한 목록은 [MantisBT bugtracker FC 0.18 changelog](https://www.freecadweb.org/tracker/changelog_page.php?version_id=78). 옛 FreeCAD 릴리스 노트는 [Feature list에](Feature_list#Release_notes.md) 있습니다.
@@ -216,4 +218,4 @@ Some of the new community modules that were actively developed during the 0.18 d
 
 -   [Defeaturing Workbench](Defeaturing_Workbench.md) is intended for editing imported STEP models, removal of the selected features from the model.
 
-[Category:News{{\#translation:}}](Category:News.md) [Category:Documentation{{\#translation:}}](Category:Documentation.md) [Category:Releases{{\#translation:}}](Category:Releases.md)
+[Category:News](Category:News.md) [Category:Documentation](Category:Documentation.md) [Category:Releases](Category:Releases.md)

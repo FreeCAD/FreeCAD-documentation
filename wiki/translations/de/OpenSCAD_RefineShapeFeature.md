@@ -1,27 +1,16 @@
 ---
-- GuiCommand:/de   Name:OpenSCAD RefineShapeFeature   Name/de:OpenSCAD RefineShapeFeature   MenuLocation:OpenSCAD → Form Feature verfeinern   Workbenches:[[OpenSCAD_Workbench/de   OpenSCAD]]|SeeAlso:------
-
-
-</div>
-
-## Description
-
-
-<div class="mw-translate-fuzzy">
+- GuiCommand:/de
+   Name:OpenSCAD RefineShapeFeature
+   Name/de:OpenSCAD RefineShapeFeature
+   MenuLocation:OpenSCAD → Form Feature verfeinern
+   Workbenches:[OpenSCAD](OpenSCAD_Workbench/de.md)
+---
 
 ## Beschreibung
 
 Entfernt unnötige Linien. Nach einer Booleschen Operation bleiben einige Linien sichtbar, die zur vorigen Form gehören. Dieses Werkzeug erstellt eine Kopie des bereinigten Körpers.
 
-
-</div>
-
 ![](images/PartRefineShape_it.png )
-
-## Usage
-
-
-<div class="mw-translate-fuzzy">
 
 ## Anwendung
 
@@ -30,10 +19,7 @@ Entfernt unnötige Linien. Nach einer Booleschen Operation bleiben einige Linien
 
 -   Ein Eltern-Objekt wird erstellt und komplett bereinigt, das Original-Objekt wird verborgen gerendert.
 
-
-</div>
-
-## Limitations
+## Einschränkungen
 
 
 <div class="mw-translate-fuzzy">
@@ -46,20 +32,12 @@ Entfernt unnötige Linien. Nach einer Booleschen Operation bleiben einige Linien
 
 </div>
 
-## Notes
-
-
-<div class="mw-translate-fuzzy">
-
-## Anmerkungen
+## Hinweise
 
 -   die Funktion wird nicht die existierende Form verändern, sondern eine neue Form erstellen
 -   die Funktion wird normalerweise als letzter Schritt in der Modellierungshistorie verwendet
 -   die Funktion kann helfen, schwierige Rundungen zu erstellen
 -   die Funktion ist gedacht, um bei 3D-Druckern das Drucken unerwünschte Kanten zu vermeiden
-
-
-</div>
 
 
 

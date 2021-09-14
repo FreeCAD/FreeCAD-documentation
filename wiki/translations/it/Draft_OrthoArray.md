@@ -3,7 +3,7 @@
    Name:Draft OrthoArray
    Name/it:Draft OrthoArray
    MenuLocation:Modifiche → Strumenti serie → Serie
-   Workbenches:[Draft](Draft_Module/it.md)
+   Workbenches:[Draft](Draft_Workbench/it.md)
    Version:0.19
    SeeAlso:[Serie polare](Draft_PolarArray/it.md), [Serie circolare](Draft_CircularArray/it.md), [Serie su tracciato](Draft_PathArray/it.md), [Serie di link su tracciato](Draft_PathLinkArray/it.md), [Serie su punti](Draft_PointArray/it.md), [Clone](Draft_Clone/it.md)
 ---

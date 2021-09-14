@@ -16,10 +16,16 @@ Inserta un cubo primitivo en el Cuerpo activo como primera característica, o lo
 
 ## Uso
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Presionar el botón **<img src="images/PartDesign_AdditiveBox.svg" width=24px> '''Cubo aditivo'''** . **Nota**: El Cubo aditivo forma parte de un icono de herramientas llamado *Crear una primitiva aditiva*. Tras abrir Freecad, el Cubo aditivo es la única primitiva mostrada en la barra de herramientas. Si se muestra una primitiva diferente, pinchar en la flecha que indica hacia abajo, que está al lado del icono visible y seleccionar Cubo aditivo en el menú desplegable.
 2.  Seleccionar los parámetros de la primitiva y [Attachment](Part_Attachment.md).
 3.  Aceptar **OK**.
 4.  Una operación de Cubo aparece dentro del Body (cuerpo) activo.
+
+
+</div>
 
 ## Opciones
 
@@ -30,6 +36,9 @@ Tras su creación, el Cubo puede ser editado de dos maneras:
 
 ## Propiedades
 
+
+<div class="mw-translate-fuzzy">
+
 -    {{PropertyData/es|Attachment}}: Define el modo de Attachment y la separación del archivo adjunto. Ver [Part Attachment](Part_Attachment.md).
 
 -    {{PropertyData/es|Label}}: Nombre dado al objeto Cubo. Se puede cambiar para adaptarlo a sus necesidades.
@@ -39,6 +48,9 @@ Tras su creación, el Cubo puede ser editado de dos maneras:
 -    {{PropertyData/es|Anchura}}: Dimensiones del Cubo en la dirección del eje Y.
 
 -    {{PropertyData/es|Altura}}: Dimensiones del Cubo en la dirección del eje Z.
+
+
+</div>
 
 
 

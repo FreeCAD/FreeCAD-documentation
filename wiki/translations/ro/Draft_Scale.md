@@ -1,5 +1,12 @@
 ---
-- GuiCommand:/ro   Name:Draft Scale   Name/ro:Draft Scale   Workbenches:[Arch](Draft_Module/ro___Draft]],_[[Arch_Module/ro.md)|MenuLocation:Draft → Scale   Shortcut:S C   SeeAlso:[Draft Clone](Draft_Clone/ro.md)---
+- GuiCommand:/ro
+   Name:Draft Scale
+   Name/ro:Draft Scale
+   MenuLocation:Draft → Scale
+   Workbenches:[Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
+   Shortcut:**S** **C**
+   SeeAlso:[Draft Clone](Draft_Clone/ro.md)
+---
 
 
 </div>

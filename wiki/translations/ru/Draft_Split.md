@@ -3,7 +3,7 @@
    Name:Draft Split
    Name/ru:Draft Split
    MenuLocation:Draft → Split
-   Workbenches:[Draft](Draft_Module/ru.md)
+   Workbenches:[Draft](Draft_Workbench/ru.md)
    Shortcut:**S** **P**
    Version:0.18
    SeeAlso:[Draft Join](Draft_Join/ru.md)

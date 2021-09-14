@@ -1,3 +1,5 @@
+# Localization Older Methods/fr
+
 
 
 
@@ -154,4 +156,4 @@ et exécutant pyrcc4 Draft.qrc -o qrc\_Draft.py crée un grand fichier Python co
 
  
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md)

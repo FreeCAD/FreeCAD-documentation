@@ -1,3 +1,5 @@
+# Feature list/ro
+
  
 
 
@@ -16,9 +18,9 @@ Aceasta pagina prezinta o mare parte dintre funcționalitățile FreeCAD. Daca d
 
 <div class="mw-translate-fuzzy">
 
--   [Versiunea 0.11](Release_notes_011.md) -March 2011
--   [Versiunea 0.12](Release_notes_012.md)- December 2011
--   [Versiunea 0.13](Release_notes_013.md)- January 2013
+-   [Versiunea 0.11](Release_notes_0.11.md) -March 2011
+-   [Versiunea 0.12](Release_notes_0.12.md)- December 2011
+-   [Versiunea 0.13](Release_notes_0.13.md)- January 2013
 -   [Versiunea 0.14](Release_notes_0.14.md) - March 2014
 -   [Versiunea 0.15](Release_notes_0.15.md) - March 2015
 -   [Versiunea 0.16](Release_notes_0.16.md) - April 2016
@@ -291,4 +293,4 @@ Power users have created various custom [external workbenches](external_workbenc
 
 
 
-[Category:User Documentation{{\#translation:}}](Category:User_Documentation.md)
+[Category:User Documentation](Category:User_Documentation.md)

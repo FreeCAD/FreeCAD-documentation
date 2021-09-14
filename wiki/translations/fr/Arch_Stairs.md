@@ -3,14 +3,11 @@
    Name:Arch Stairs
    Name/fr:Arch Escalier
    MenuLocation:Arch → Escalier
-   Workbenches:[Arch](Arch_Module/fr.md)
+   Workbenches:[Arch](Arch_Workbench/fr.md)
    Shortcut:**S** **R**
    Version:0.14
    SeeAlso:[Arch Structure](Arch_Structure/fr.md), [Arch Equipement](Arch_Equipment/fr.md)
 ---
-
-
-</div>
 
 ## Description
 
@@ -102,13 +99,7 @@ Stairs = Arch.makeStairs(length=5000, width=1200, height=3000, steps=14)
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
  

@@ -1,3 +1,5 @@
+# Draft SVG/sv
+
 
 
 
@@ -134,4 +136,4 @@ importSVG.export(objects, "/home/user/Pictures/myfile.svg")
 
  
 
-[Category:User Documentation/sv](Category:User_Documentation/sv.md) [Category:File Formats{{\#translation:}}](Category:File_Formats.md)
+[Category:User Documentation/sv](Category:User_Documentation/sv.md) [Category:File Formats](Category:File_Formats.md)

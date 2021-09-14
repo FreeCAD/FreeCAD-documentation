@@ -1,3 +1,5 @@
+# PythonOCC
+
  
 
 ## Description
@@ -40,4 +42,4 @@ You can also self compile pythonOCC (see [instructions](https://github.com/tpavi
 
  {{Powerdocnavi}} 
 
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Python Code{{\#translation:}}](Category:Python_Code.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)

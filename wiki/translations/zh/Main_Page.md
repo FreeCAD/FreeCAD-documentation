@@ -1,4 +1,6 @@
-\_\_NOTOC\_\_ 
+# Main Page/zh
+
+ 
 
 
 <div class="mw-translate-fuzzy">
@@ -101,7 +103,7 @@ FreeCAD 会[受益于你的帮助](Help_FreeCAD.md), 可以参与测试与[Bug �
 
 </div>
 
-\_\_NOTOC\_\_
+
 
 This is the documentation wiki of [FreeCAD](http://www.freecadweb.org). The information contained here is what forms the offline documentation shipped with FreeCAD itself. You have two main ways to browse through the documentation: by exploring user hubs, or by following the manual. It is a work in progress, written by the community of users and developers of FreeCAD. If you find information that is wrong or missing, please [help](Help_FreeCAD.md)!
 
@@ -168,4 +170,4 @@ Check the [Development roadmap](Development_roadmap.md) for news about what is b
 
 
 
-[Category:Documentation{{\#translation:}}](Category:Documentation.md)
+[Category:Documentation](Category:Documentation.md)

@@ -1,5 +1,12 @@
 ---
-- GuiCommand:/it   Name:FEM_Solver   Name/it:FEM Solver   MenuLocation:Solve → Solutore CalculiX Standard   |Workbenches:[Shortcut:   SeeAlso:[[FEM_tutorial/it|FEM tutorial](FEM_Module/it___FEM]].md)---
+- GuiCommand:/it
+   Name:FEM_Solver
+   Name/it:FEM Solver
+   MenuLocation:Solve → Solutore CalculiX Standard
+   Workbenches:[FEM](FEM_Workbench/it.md)
+   Shortcut:
+   SeeAlso:[FEM tutorial](FEM_tutorial/it.md)
+---
 
 
 </div>

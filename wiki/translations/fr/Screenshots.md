@@ -1,3 +1,5 @@
+# Screenshots/fr
+
  {{TOCright}}
 
 Vous trouverez ici des vues d\'écran montrant différentes parties de FreeCAD. Elles n\'ont pas d\'ordre particulier, donc les images peuvent être différentes de votre version actuelle. Voir d\'autre vues d\'écrans proposées par des utilisateurs de FreeCAD sur le [sujet call for screenshot](http://forum.freecadweb.org/viewtopic.php?f=8&t=4751) et sur le sujet [\"Show your project here!\" de la partie Users Showcase du forum](http://forum.freecadweb.org/viewforum.php?f=24).
@@ -66,23 +68,11 @@ Une jeep modélisée par psicofil
 
 <img alt="" src=images/Rockn_house2.png  style="width:1024px;">
 
-
-<div class="mw-translate-fuzzy">
-
-Une maison faites par rockn avec l\'atelier Arch.
-
-
-</div>
+Une maison faite par rockn avec l\'atelier Arch.
 
 <img alt="" src=images/Mesh_curvature_plot1.jpeg  style="width:1024px;">
 
-
-<div class="mw-translate-fuzzy">
-
-Analyse de la courbure du maillage avec l\'atelier Maillage.
-
-
-</div>
+Analyse de la courbure du maillage avec l\'atelier Mesh.
 
 <img alt="" src=images/Cura_export.png  style="width:1024px;">
 
@@ -176,23 +166,11 @@ Cette capture d\'écran montre comment le même fichier est affiché par FreeCAD
 
 Cette capture d\'écran montre comment le même fichier est affiché par FreeCAD et Inkscape.
 
-
-<div class="mw-translate-fuzzy">
-
-### Mise en plan 
+### Atelier Draft 
 
 ![](images/Screenshot_draft.jpg )
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Freecad avec le [module de mise en plan](Draft_Module/fr.md) chargé et un fichier de dessin DXF importé.
-
-
-</div>
+Freecad avec l\'[atelier Draft](Draft_Workbench/fr.md) chargé et un fichier de dessin DXF importé.
 
 ### Préférences
 

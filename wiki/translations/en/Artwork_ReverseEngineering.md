@@ -1,4 +1,6 @@
-\_\_NOTOC\_\_ 
+# Artwork ReverseEngineering/en
+
+ 
 
 These icons are in the indicated source path.
 
@@ -19,4 +21,4 @@ For all icons in the source tree, see [Artwork](Artwork.md).
 
 }} 
 
-[Category:Reverse Engineering{{\#translation:}}](Category:Reverse_Engineering.md)
+[Category:Reverse Engineering](Category:Reverse_Engineering.md)

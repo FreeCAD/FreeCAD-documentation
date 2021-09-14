@@ -4,11 +4,8 @@
    Name/fr:Path Rampe d'entrée
    MenuLocation:Path → Path Dressup → Rampe d'entrée
    Workbenches:[Path](Path_Workbench/fr.md)
-   SeeAlso:[Path Balise d'attache](Path_DressupTag/fr.md), [Path Dégagement d'angles](Path_DressupDogbone/fr.md), [Path Parcours de couteau](Path_DressupDragKnife/fr.md)
+   SeeAlso:[Path Languettes de maintien](Path_DressupTag/fr.md), [Path Dégagement d'angles](Path_DressupDogbone/fr.md), [Path Lame rotative](Path_DressupDragKnife/fr.md)
 ---
-
-
-</div>
 
 ## Description
 
@@ -32,13 +29,7 @@ Cet outil ajoute au tracé existant une rampe d\'entrée à l\'usinage
 -   **UseStartDepth** indique que la rampe ne commence pas au-dessus du niveau des stocks. Si elle n\'est pas définie sur true, la première rampe peut être plus raide que prévue.
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Path_Tools_navi

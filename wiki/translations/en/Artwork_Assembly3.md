@@ -1,4 +1,6 @@
-\_\_NOTOC\_\_ 
+# Artwork Assembly3/en
+
+ 
 
 These icons are in the indicated source path of Realthunder\'s Link Branch:
 
@@ -33,4 +35,4 @@ These icons are in the indicated source path of Realthunder\'s Link Branch:
 
 }} 
 
-[Category:Assembly{{\#translation:}}](Category:Assembly.md)
+[Category:Assembly](Category:Assembly.md)

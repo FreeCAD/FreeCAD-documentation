@@ -1,9 +1,9 @@
 ---
 - GuiCommand:/ru
+   Name/ru:Обновить
    Name:Std_Refresh
-   Name/ru:Std_Refresh
-   MenuLocation:[Правка](Std_Edit_Menu/ru.md) → Обновить
-   Workbenches:All
+   MenuLocation:Правка → Обновить
+   Workbenches:Все
    Shortcut:**F5**
 ---
 
@@ -27,14 +27,14 @@ The **Std Refresh** command recomputes the active document. The command is disab
 
 -   For a macro that will recompute the active document see: [Macro ForceRecompute](Macro_ForceRecompute.md).
 
-## Scripting
+## Программирование
 
 
 **Смотрите так же:**
 
 [Основы составления скриптов в FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 
-To recompute a document use the `recompute` method of the document object.
+Для обновления документа используйте метод `recompute` объекта document.
 
 
 ```python

@@ -1,3 +1,5 @@
+# Arch Workbench/cs
+
 
 
 
@@ -119,4 +121,4 @@ Modul Architektura může být použit v pythonovských skriptech a [makrech](ma
 
  
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

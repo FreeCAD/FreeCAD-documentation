@@ -1,14 +1,11 @@
 ---
 - GuiCommand:/ru
-   Name:Sketcher ViewSection
-   Name/ru:Обзор сечения
-   Workbenches:[Sketcher](Sketcher_Workbench/ru.md), [PartDesign](PartDesign_Workbench/ru.md)
-   MenuLocation:Sketch → Обзор сечения
+   Name/ru:Просмотр сечения
+   Name:Sketcher_ViewSection
+   MenuLocation:Sketch → Просмотр сечения
+   Workbenches:[Sketcher](Sketcher_Workbench/ru.md), [PartDesign](PartDesign_Workbench/ru.md) 
    Version:0.18
 ---
-
-
-</div>
 
 ## Описание
 
@@ -17,7 +14,7 @@
 <img alt="" src=images/Sketcher_ViewSection1.png  style="width:300px;"> <img alt="" src=images/Sketcher_ViewSection2.png  style="width:320px;"> 
 *Частично скрытый эскиз и полностью видимый эскиз*
 
-## Использование
+## Применение
 
 
 <div class="mw-translate-fuzzy">

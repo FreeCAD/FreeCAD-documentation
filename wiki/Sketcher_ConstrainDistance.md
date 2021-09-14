@@ -38,13 +38,17 @@ Distance between two vertices:
 
  
 
-Length of line (the GUI allows selecting the edge itself, but it is just a shorthand for using the two extremities of the same line:  
+Length of line (the GUI allows selecting the edge itself, but it is just a shorthand for using the two extremities of the same line):
 
-Distance from point ( 
+ 
+
+Distance from point (`Edge, PointOfEdge`) to nearest point on line (`Line`):
+
+ 
 
 The [Sketcher scripting](Sketcher_scripting.md) page explains the values which can be used for `Edge1`, `Edge2`, `Edge`, ` PointOfEdge1`, ` PointOfEdge2`, `PointOfEdge` and `Line`, and contains further examples on how to create constraints from Python scripts.
 
 
 
 
- {{Sketcher Tools navi}}  
+ {{Sketcher Tools navi}} 

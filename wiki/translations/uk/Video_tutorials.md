@@ -1,3 +1,5 @@
+# Video tutorials/uk
+
  {{VeryImportantMessage|Please pay attention to the version of FreeCAD used in the tutorial. If a tutorial uses an older version of the program, the general modelling process may still work but some tools may have changed in newer releases. Do not add videos made with version 0.16 or older, as these releases are considered obsolete.}}
 
 This page presents a selection of video tutorials made by FreeCAD users and developers. Visit the [Tutorials and videos](https://forum.freecadweb.org/viewforum.php?f=36) subforum for more links. A useful source of video tutorials is [YouTube](https://YouTube.com).
@@ -88,4 +90,4 @@ For more see [Video tutorials obsolete](Video_tutorials_obsolete.md).
 
 }} 
 
-[Category:Common Questions{{\#translation:}}](Category:Common_Questions.md)
+[Category:Common Questions](Category:Common_Questions.md)

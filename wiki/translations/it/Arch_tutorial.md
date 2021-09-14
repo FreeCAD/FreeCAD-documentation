@@ -1,3 +1,5 @@
+# Arch tutorial/it
+
 
 
 
@@ -602,7 +604,7 @@ Notare che alcune funzioni non sono ancora supportati dal [DXF/DWG exporter](Dra
 
 <div class="mw-translate-fuzzy">
 
-L\'altro tipo di output che può essere prodotto dal [piano di sezione](Arch_SectionPlane/it.md) è una [vista Drawing](Drawing_Module/it.md). Questi oggetti sono prodotti utilizzando lo strumento [Drawing](Draft_Drawing/it.md) con un piano di sezione selezionato. Questo metodo ha una grande limitazione rispetto al precedente: le possibilità di modificare i risultati sono molto limitate, e al momento, operazioni come il dimensionamento o il tratteggio non sono ancora supportate nativamente.
+L\'altro tipo di output che può essere prodotto dal [piano di sezione](Arch_SectionPlane/it.md) è una [vista Drawing](Drawing_Workbench/it.md). Questi oggetti sono prodotti utilizzando lo strumento [Drawing](Draft_Drawing/it.md) con un piano di sezione selezionato. Questo metodo ha una grande limitazione rispetto al precedente: le possibilità di modificare i risultati sono molto limitate, e al momento, operazioni come il dimensionamento o il tratteggio non sono ancora supportate nativamente.
 
 
 </div>

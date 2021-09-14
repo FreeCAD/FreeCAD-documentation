@@ -21,7 +21,7 @@ Lo strumento <img alt="" src=images/Surface_Sections.svg  style="width:16px;"> [
 
 <div class="mw-translate-fuzzy">
 
-1.  Assicurarsii di avere almeno due bordi o curve nello spazio. Questi bordi possono essere creati con gli strumenti di <img alt="" src=images/Workbench_Draft.svg  style="width:16px;"> [Draft](Draft_Module/it.md) o di <img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;"> [Sketcher](Sketcher_Workbench/it.md).
+1.  Assicurarsii di avere almeno due bordi o curve nello spazio. Questi bordi possono essere creati con gli strumenti di <img alt="" src=images/Workbench_Draft.svg  style="width:16px;"> [Draft](Draft_Workbench/it.md) o di <img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;"> [Sketcher](Sketcher_Workbench/it.md).
 2.  Premere il pulsante **<img src=images/Surface_Sections.svg style="width:16px"> [Surface sections](Surface_Sections/it.md)**.
 3.  Premere **Add edge**.
 4.  Usare il puntatore per selezionare i bordi desiderati nella [vista 3D](3D_view/it.md); verrà visualizzata un\'anteprima della forma finale dopo aver selezionato due bordi validi.

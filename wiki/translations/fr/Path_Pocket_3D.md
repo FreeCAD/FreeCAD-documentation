@@ -40,21 +40,11 @@ Cette commande insère un chemin <img alt="" src=images/Path_3DPocket.svg  style
 
 ## Propriétés
 
-### Data Tab 
+### Onglet Données 
 
 #### Base
 
-
-<div class="mw-translate-fuzzy">
-
-### Onglet Données 
-
-#### Base 
-
 Remarque : Il est suggéré de ne pas modifier la propriété Placement des opérations de trajectoire. Déplacez ou faites plutôt pivoter le modèle d\'opération de trajectoire selon les besoins.
-
-
-</div>
 
 -    {{PropertyData/fr|Placement}}: Placement global \[position et rotation\] de l\'objet - par rapport à l\'origine (ou l\'origine du conteneur de l\'objet parent)
 
@@ -165,19 +155,9 @@ Remarque : Il est suggéré de ne pas modifier la propriété Placement des opé
 
 #### Rotation
 
-
-<div class="mw-translate-fuzzy">
-
-#### Rotation 
-
 Remarque : la rotation n\'est pas disponible pour 3D Pocket à partir de la version 0.19.
 
 -    {{PropertyData/fr|Enable Rotation}}: Active la rotation pour accéder aux poches ou aux zones non normales à l\'axe Z.
-
-
-</div>
-
--    **Enable Rotation**: Enable rotation to gain access to pockets or areas not normal to Z axis.
 
 #### Point de départ 
 
@@ -200,22 +180,9 @@ Remarque : la rotation n\'est pas disponible pour 3D Pocket à partir de la vers
 
 -    {{PropertyData/fr|Use Start Point}}: Mis à True, si vous spécifiez manuellement un point de départ. Définissez le point de départ dans le champ Point de départ des données de propriété.
 
-
-<div class="mw-translate-fuzzy">
-
 ### Vue
 
 Vide
-
-
-</div>
-
-Empty
-
-## Scripting
-
-
-<div class="mw-translate-fuzzy">
 
 ## Script
 
@@ -224,17 +191,7 @@ Empty
 
 [FreeCAD Script de base](FreeCAD_Scripting_Basics/fr.md).
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Exemple: 
-```python#Place code example here.```
-
-
-</div>
+Exemple :
 
 
 ```python
@@ -242,13 +199,7 @@ Exemple:
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Path_Tools_navi

@@ -1,3 +1,5 @@
+# Release notes 0.14/ru
+
 
 
 FreeCAD 0.14 was released on July 1, 2014. This is a summary of the most interesting changes. The complete list of changes can be found in the [Mantis changelog](http://www.freecadweb.org/tracker/changelog_page.php). Older versions at: [0.13](Release_notes_0.13.md) - [0.12](Release_notes_0.12.md) - [0.11](Release_notes_0.11.md)
@@ -160,7 +162,7 @@ Support for [ellipses](Draft_Ellipse.md) has been added, the Draft workbench now
 
 ### Chamfer
 
-In the same fashion as fillets, that had appeared in [release 013](Release_notes_013.md), Draft rectangles, wires and polygons now gained a chamfer property, which chamfers their angle. The chamfer is applied before the fillet,and both properties can be used together, allowing you to quickly turn a very simple wire into a complex object made of many sections.
+In the same fashion as fillets, that had appeared in [release 0.13](Release_notes_0.13.md), Draft rectangles, wires and polygons now gained a chamfer property, which chamfers their angle. The chamfer is applied before the fillet,and both properties can be used together, allowing you to quickly turn a very simple wire into a complex object made of many sections.
 
 ### Upgrade and downgrade recoded 
 
@@ -230,4 +232,4 @@ Much work has been done on both FreeCAD and [IfcOpenShell](http://www.ifcopenshe
 
 The full list of bugfixes and new features can be read on <http://freecadweb.org/tracker/changelog_page.php>
 
-[Category:News{{\#translation:}}](Category:News.md) [Category:Documentation{{\#translation:}}](Category:Documentation.md) [Category:Releases{{\#translation:}}](Category:Releases.md)
+[Category:News](Category:News.md) [Category:Documentation](Category:Documentation.md) [Category:Releases](Category:Releases.md)

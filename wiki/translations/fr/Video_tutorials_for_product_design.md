@@ -1,3 +1,5 @@
+# Video tutorials for product design/fr
+
  {{VeryImportantMessage|Faites attention à la version de FreeCAD utilisée dans le tutoriel. Si un tutoriel utilise une version plus ancienne du programme, le processus de modélisation général peut toujours fonctionner mais certains outils peuvent avoir changé dans les nouvelles versions. N'ajoutez pas de vidéos créées avec la version 0.16 ou antérieure, ces versions étant considérées comme obsolètes.}}
 
 ## Introduction

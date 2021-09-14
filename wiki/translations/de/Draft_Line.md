@@ -3,7 +3,7 @@
    Name:Draft Line
    Name/de:Entwurf Linie
    MenuLocation:Entwurf → Linie
-   Workbenches:[Entwurf](Draft_Module/de.md), [Arch Arbeitsbereich](Arch_Module/de.md)
+   Workbenches:[Entwurf](Draft_Workbench/de.md), [Arch Arbeitsbereich](Arch_Workbench/de.md)
    Shortcut:**L** **I**
    Version:0.7
    SeeAlso:[Entwurf Draht](Draft_Wire/de.md), [Entwurf Punkt](Draft_Point/de.md)

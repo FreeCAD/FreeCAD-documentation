@@ -38,4 +38,4 @@ Works on 3D objects and might fail sometimes. To be more tested and find out the
 
 }} 
 
-[Category:External Command Reference{{\#translation:}}](Category:External_Command_Reference.md)
+[Category:External Command Reference](Category:External_Command_Reference.md)

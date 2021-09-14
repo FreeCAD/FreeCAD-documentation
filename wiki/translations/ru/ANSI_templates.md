@@ -1,3 +1,5 @@
+# ANSI templates/ru
+
  Эта страница перечисляет шаблоны, соответствующие стандартам Америка́нского национа́льного институ́та станда́ртов [ANSI](https://ru.wikipedia.org/wiki/Американский_национальный_институт_стандартов)
 
 ### ANSI A 
@@ -60,4 +62,4 @@
 
 Шаблоны созданы [Quick61](User:Quick61.md) и записаны в [FreeCAD-Drawing-Templates](https://github.com/quick61/FreeCAD-Drawing-Templates).
 
-[Category:Documentation{{\#translation:}}](Category:Documentation.md) [Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Drawing{{\#translation:}}](Category:Drawing.md)
+[Category:Documentation](Category:Documentation.md) [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Drawing](Category:Drawing.md)

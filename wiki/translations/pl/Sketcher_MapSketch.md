@@ -52,4 +52,4 @@ Teraz wybieramy górną powierzchnię wyciągnięcia *(Pad)*, kolejnie wybieramy
 
 {{Sketcher Tools navi
 
-}}  
+}} 

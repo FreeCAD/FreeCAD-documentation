@@ -1,45 +1,40 @@
 ---
-- GuiCommand:
+- GuiCommand:/de
    Name:Std SaveAll
-   MenuLocation:File → Save All
-   Workbenches:All
-   SeeAlso:[Std Save](Std_Save.md)
+   Name/de:Std AllesSpeichern
+   MenuLocation:Datei → Alles speichern
+   Workbenches:Alle
+   SeeAlso:[Std Speichern](Std_Save/de.md)
 ---
 
 ## Beschreibung
 
-The **Std SaveAll** command saves all open documents.
+Der **Std AllesSpeichern**-Befehl speichert alle offenen Dokumente.
 
 ## Anwendung
 
-1.  Select the **File → <img src="images/Std_SaveAll.svg" width=16px> Save All** option from the menu.
-2.  For new documents: enter a filename in the dialog box and press the **Save** button.
+1.  Wähle die **Datei → <img src="images/Std_SaveAll.svg" width=16px> Alles speichern**-Option aus dem Menü.
+2.  Für neue Dokumente: gib einen Dateinamen in die Dialog-Box ein und drücke die **Speichern**-Schaltfläche.
 
 ## Optionen
 
--   For new documents: press **Esc** or the **Cancel** button to abort the command.
+-   Für neue Dokumente: Drücke **Esc** oder die **Abbrechen**-Schaltfläche, um den Befehl abzubrechen.
 
 ## Einstellungen
 
--   The last used file location is stored: **Tools → Edit parameters... → BaseApp → Preferences → General → FileOpenSavePath**.
+-   Der zuletzt verwendete Dateispeicherort wird gespeichert: **Werkzeuge → Parameter bearbeiten... → BaseApp (BasisAnwendung) → Preferences (Einstellungen) → General (Allgemein) → FileOpenSavePath**.
 
 ## Skripten
 
 
-**See also:**
+**Siehe auch:**
 
-[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+[FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-To save a document use the `save` method of the document object. A new document must first be saved with the `saveAs` method of the document object. For a scripting example see [Std New](Std_New.md).
-
-
-<div class="mw-translate-fuzzy">
+Um ein Dokument zu speichern, benutze die `save`-Methode des Dokument-Objekts. Ein neues Dokument muss zuerst mit der `saveAs`-Methode des Dokument-Objekts gespeichert werden. Für ein Skript-Beispiel siehe [Std Neu](Std_New/de.md).
 
 
 
-
-
-</div>
 
 
 {{Std Base navi

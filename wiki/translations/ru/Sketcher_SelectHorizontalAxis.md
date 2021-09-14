@@ -1,20 +1,18 @@
 ---
 - GuiCommand:/ru
-   Name:Sketcher SelectHorizontalAxis
-   Name/ru:Sketcher SelectHorizontalAxis
+   Name/ru:Выбрать горизонтальную ось
+   Name:Sketcher_SelectHorizontalAxis
+   MenuLocation:Sketch → Инструменты для эскиза → Выбрать горизонтальную ось
    Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
-   MenuLocation:Sketch → Инструменты для эскиза → Выделить горизонтальную ось
    Shortcut:Shift+Ctrl+H
-   Version:0.15---
+   Version:0.15
+---
 
-
-</div>
-
-## Description
+## Описание
 
 Selects the horizontal axis of a sketch.
 
-## Usage
+## Применение
 
 1.  Enter edit mode of sketch.
 2.  Choose **Sketch → Sketcher tools → <img src=images/Sketcher_SelectHorizontalAxis.svg style="width:16px"> Select Horizontal Axis** from the top menu.

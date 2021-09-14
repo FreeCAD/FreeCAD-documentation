@@ -1,3 +1,5 @@
+# Draft Preferences/fr
+
 
 
 
@@ -37,13 +39,7 @@ Vous pouvez spécifier l\'espace entre chaque ligne de la grille, entre chaque l
 
 ![](images/Preference_Draft_Tab_02.png )
 
-
-<div class="mw-translate-fuzzy">
-
 ## Paramètres visuels 
-
-
-</div>
 
 Les paramètres visuels vous permettent de spécifier la couleur et la largeur de trait par défaut pour les nouveaux objets, ainsi que la couleur des symboles [Accrochage Draft](Draft_Snap/fr.md). En cochant la case \"Enregistrer la couleur et la largeur de trait actuelles d\'une session à l\'autre\", les modifications apportées dans [La barre Draft](Draft_Tray/fr.md) seront enregistrées et restaurées à la prochaine ouverture de FreeCAD.
 
@@ -61,4 +57,4 @@ Les textes et les dimensions vous permettent de définir les propriétés par d�
 
  
 
-[Category:Preferences{{\#translation:}}](Category:Preferences.md)
+[Category:Preferences](Category:Preferences.md)

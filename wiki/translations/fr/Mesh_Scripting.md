@@ -1,3 +1,5 @@
+# Mesh Scripting/fr
+
 
 
 
@@ -42,9 +44,7 @@ meshObject = Mesh.Mesh(triangles)
 Mesh.show(meshObject)
 ```
 
-Le Mesh-Kernel prend soin de créer une structure de données topologiquement correcte en triant les points et les bords coïncidents.
-
-[En haut](#top.md)
+Le Mesh-Kernel prend soin de créer une structure de données topologiquement correcte en triant les points et les bords coïncidents. {{Top}}
 
 ## Modélisation
 
@@ -90,19 +90,13 @@ obj.Mesh = pipe
 doc.recompute()
 ```
 
-[En haut](#top.md)
+
+{{Top}}
 
 ## Remarques
 
 Les scripts, bien que difficile à utiliser, de test unitaire du module `Mesh` constituent une source étendue de scripts liés au maillage. Dans ces tests unitaires, toutes les méthodes sont appelées et toutes les propriétés / attributs sont modifiés. Donc, si vous êtes assez audacieux, jetez un œil au [module de test unitaire](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Mesh/App/MeshTestsApp.py).
 
-Voir aussi: [Mesh API](Mesh_API/fr.md).
+Voir aussi: [Mesh API](Mesh_API/fr.md). {{Top}} {{Powerdocnavi}} {{Mesh Tools navi}} 
 
-[En haut](#top.md)
-
-
-{{Powerdocnavi
-
-}} {{Mesh Tools navi}} 
-
-[Category:Developer Documentation{{\#translation:}}](Category:Developer_Documentation.md) [Category:Python Code{{\#translation:}}](Category:Python_Code.md)
+[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)

@@ -1,13 +1,14 @@
 ---
-- GuiCommand:
-   Name:Sketcher BSplineIncreaseKnotMultiplicity
-   MenuLocation:Sketch → Sketcher B-spline tools → Increase knot multiplicity
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
+- GuiCommand:/ru
+   Name/ru:Увеличение кратности узлов
+   Name:Sketcher_BSplineIncreaseKnotMultiplicity
+   MenuLocation:Sketch → B-сплйан инструменты эскиза → Увеличение кратности узлов
+   Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
    Version:0.17
-   SeeAlso:[Sketcher Show/hide B-spline knot multiplicity](Sketcher_BSplineKnotMultiplicity.md), [Sketcher Decrease knot multiplicity](Sketcher_BSplineDecreaseKnotMultiplicity.md)
+   SeeAlso:[Показать/скрыть кратность узлов B-сплайна](Sketcher_BSplineKnotMultiplicity/ru.md), [Уменьшение кратности узлов](Sketcher_BSplineDecreaseKnotMultiplicity/ru.md)
 ---
 
-## Description
+## Описание
 
 Increases the multiplicity of a B-spline knot. (See [this page](B-Splines.md) for more info about B-splines).
 
@@ -29,7 +30,7 @@ A consequence of a higher multiplicity is that for the price of loosing continui
 
 One can see that the spline with knot multiplicity 1 is completely changed while the one with multiplicity 2 kept its form at its left side.
 
-## Usage
+## Применение
 
 1.  Select a B-spline knot, either:
     -   Press the button **<img src=images/Sketcher_BSplineIncreaseKnotMultiplicity.svg style="width:24px"> [B-spline increase knot multiplicity](Sketcher_BSplineIncreaseKnotMultiplicity.md)**.

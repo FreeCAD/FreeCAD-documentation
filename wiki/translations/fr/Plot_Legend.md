@@ -2,24 +2,21 @@
 - GuiCommand:/fr
    Name:Plot Legend
    Name/fr:Plot Légende
-   MenuLocation:Plot → Legend
+   MenuLocation:Plot → Afficher/Masquer la légende
    Workbenches:[Plot](Plot_Module/fr.md)
 ---
 
-
-</div>
-
 ## Description
 
-This tool allows the user to enable/disable the data series legend on a specific plot.
+Cet outil permet à l\'utilisateur d\'activer/désactiver la légende des séries de données sur un graphique spécifique.
 
 <img alt="" src=images/Plot_Trigonometric_Example.png  style="width:600px;">
 
-## Usage
+## Utilisation
 
-Select the plot tab that you want to edit, and run this tool to change the state of the legend, i.e. show it if it was hidden, hide it otherwise.
+Sélectionnez l\'onglet du graphique que vous voulez modifier, et exécutez cet outil pour changer l\'état de la légende, c\'est-à-dire l\'afficher si elle était cachée, la cacher sinon.
 
-Remember that the styles and labels of the data series can be edited with the [data series configuration tool](Plot_Series.md).
+N\'oubliez pas que les styles et les étiquettes des séries de données peuvent être modifiés avec l\'outil de configuration de [série de données](Plot_Series/fr.md).
 
 
 
@@ -29,4 +26,4 @@ Remember that the styles and labels of the data series can be edited with the [d
 
 }} 
 
-[Category:External\_Workbenches{{\#translation:}}](Category:External_Workbenches.md) [Category:Addons{{\#translation:}}](Category:Addons.md)
+[Category:External\_Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)

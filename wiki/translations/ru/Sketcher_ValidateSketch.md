@@ -1,9 +1,10 @@
 ---
 - GuiCommand:/ru
-   Name:Sketcher Validate
    Name/ru:Проверить эскиз
-   MenuLocation:Sketch/Part Design → Проверить эскиз...
+   Name:Sketcher_ValidateSketch
+   MenuLocation:Sketch → Проверить эскиз
    Workbenches:[Sketcher](Sketcher_Workbench/ru.md), [PartDesign](PartDesign_Workbench/ru.md)
+   SeeAlso:[Ограничить совпадение](Sketcher_ConstrainCoincident/ru.md), [Topological naming problem](Topological_naming_problem/ru.md)
 ---
 
 
@@ -21,7 +22,7 @@
 
 ![](images/Sketcher_ValidateSketch_taskpanel.png ) *The Sketcher validation task panel*
 
-## Использование
+## Применение
 
 
 <div class="mw-translate-fuzzy">
@@ -52,17 +53,9 @@ This tolerance is also used by the **Find**/**Fix** process.
 
 Установите флажок \"Игнорировать вспомогательную геометрию\", чтобы игнорировать вспомогательную геометрию при анализе.
 
-### Invalid constraints 
-
-
-<div class="mw-translate-fuzzy">
-
 ### Неверные ограничения 
 
 Проверяет наличие некорректных ограничений.
-
-
-</div>
 
 For example, if there is a Circle-Line-Tangent constraint, but it references two lines, it is considered invalid.
 
@@ -78,31 +71,15 @@ For instance, if a line is forced to shorten to become almost a point.
 
 Other examples: a zero length line or zero radius circle/arc.
 
-### Reversed external geometry 
-
-
-<div class="mw-translate-fuzzy">
-
 ### Перевернутая внешняя геометрия 
 
 Перевернутая внешняя геометрия может произойти из-за того, что обработка перевернутой геометрии была изменена около версии 0.15.
 
-
-</div>
-
 This process might be helpful if sketches with external-geometry fail to solve because of these changes.
-
-### Constraint orientation locking 
-
-
-<div class="mw-translate-fuzzy">
 
 ### Блокировка ориентации ограничений 
 
 Реализованы касательные и перпендикулярные ограничения (через точку).
-
-
-</div>
 
 Internally they work by constraining the angle between tangent vectors. With tangent constraint for example, the angle can be 0 or 180 degrees (co-directed or opposed vectors). The actual angle is remembered in the constraint data (\"constraint orientation is locked\"), it guards against flipping. But the angle can be erased (\"constraint orientation unlock\") or updated; these tools do exactly that.
 

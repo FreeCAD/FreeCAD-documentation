@@ -1,4 +1,6 @@
-\_\_NOTOC\_\_ 
+# Artwork Sketcher/en
+
+ 
 
 These icons are in the indicated source path.
 

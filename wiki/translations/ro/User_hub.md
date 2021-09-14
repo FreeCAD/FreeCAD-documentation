@@ -1,8 +1,10 @@
+# User hub/ro
+
  <img alt="" src=images/User_hub.png  style="width:64px;">
 
 ------------------------------------------------------------------------
 
-\_\_NOTOC\_\_
+
 
 Aceasta este zona principală de ajutor pentru noii veniți la FreeCAD.
 
@@ -27,7 +29,7 @@ Dacă doriți să știți cum a început dezvoltarea FreeCAD cu ani în urmă vi
 
 <div class="mw-translate-fuzzy">
 
-\_\_NOTOC\_\_
+
 
 ## Utilizare FreeCAD 
 
@@ -200,4 +202,4 @@ Acesta este ajutorul online oficial al FreeCAD. Rețineți că întregul sistem 
 
 
 
-[Category:Hubs{{\#translation:}}](Category:Hubs.md)
+[Category:Hubs](Category:Hubs.md)

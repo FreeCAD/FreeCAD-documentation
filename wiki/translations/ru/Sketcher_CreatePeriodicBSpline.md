@@ -1,16 +1,12 @@
 ---
 - GuiCommand:/ru
-   Name:Sketcher CreatePeriodicBSpline
-   Name/ru:Sketcher Нарисовать периодический B-сплайн
-   Icon:Sketcher Create Periodic BSpline.svg
-   MenuLocation:Эскиз → Геометрия эскиза → Нарисовать периодический B-сплайн
-   Workbenches: [Sketcher](Sketcher_Workbench/ru.md)
+   Name/ru:Создать периодический B-сплайн
+   Name:Sketcher_CreatePeriodicBSpline
+   MenuLocation: Sketch → Геометрия эскиза → Создать периодический B-сплайн
+   Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
    Version:0.17
-   SeeAlso:[Sketcher B-spline](Sketcher_CreateBSpline.md)
+   SeeAlso:[Создать B-сплайн](Sketcher_CreateBSpline/ru.md)
 ---
-
-
-</div>
 
 ## Описание
 
@@ -32,7 +28,7 @@
 
 </div>
 
-## Использование
+## Применение
 
 1.  Нажмите кнопку **<img src=images/Sketcher_CreatePeriodicBSpline.svg style="width:16px"> [Нарисовать периодический B-сплайн](Sketcher_CreatePeriodicBSpline/ru.md)**.
 2.  Создайте серию точек, нажимая в 3D-виде. Пока команда активна, созданные точки соединяются прямыми линиями, и вокруг каждой точки создается круг вспомогательной геометрии.

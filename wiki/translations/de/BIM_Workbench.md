@@ -1,7 +1,7 @@
+# BIM Workbench/de
 
-{{UnfinishedDocu
 
-}} 
+ 
 
 <img alt="BIM Externes Arbeitsbereichssymbol" src=images/IFC.svg  style="width:128px;">
 
@@ -187,4 +187,4 @@ Neue Arbeitsbereiche sind in der Entwicklung, bleib\' dran!
 
 
 
-[Category:Addons{{\#translation:}}](Category:Addons.md) [Category:External Workbenches{{\#translation:}}](Category:External_Workbenches.md) [Category:BIM{{\#translation:}}](Category:BIM.md)
+[Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md) [Category:BIM](Category:BIM.md)

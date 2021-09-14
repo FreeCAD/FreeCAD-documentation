@@ -2,11 +2,11 @@
 - GuiCommand:/tr
    Name:Draft Wire
    Name/tr:Tel
-   Workbenches:[Taslak](Draft_Module/tr.md), [Yapı](Arch_Module/tr.md)
-   Shortcut:W I
    MenuLocation:Taslak → Tel
-   SeeAlso:[Çizgi](Draft_Line/tr.md), [BSpline](Draft_BSpline/tr.md)
+   Workbenches:[Taslak](Draft_Workbench/tr.md), [Yapı](Arch_Workbench/tr.md)
+   Shortcut:**P** **L**
    Version:0.17
+   SeeAlso:[Çizgi](Draft_Line/tr.md), [BSpline](Draft_BSpline/tr.md)
 ---
 
 

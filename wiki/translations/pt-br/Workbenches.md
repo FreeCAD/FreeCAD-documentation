@@ -1,3 +1,5 @@
+# Workbenches/pt-br
+
 
 
 
@@ -102,4 +104,4 @@ Novas bancadas de trabalho estão sempre em desenvolvimento. Fique atento!
 
 
 
-[Category:Workbenches{{\#translation:}}](Category:Workbenches.md)
+[Category:Workbenches](Category:Workbenches.md)

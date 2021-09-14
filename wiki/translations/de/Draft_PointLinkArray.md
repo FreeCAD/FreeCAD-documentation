@@ -3,7 +3,7 @@
    Name:Draft PointLinkArray
    Name/de:Entwurf PunktVerknüpfeAnordnung
    MenuLocation:Änderung → Anordnungswerkzeuge → Punkt Verknüpfe Anordnung
-   Workbenches:[Entwurf](Draft_Module/de.md), [Arch](Arch_Module/de.md)
+   Workbenches:[Entwurf](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
    SeeAlso:[OrthoAnordnung](Draft_OrthoArray/de.md), [PolarAnordnung](Draft_PolarArray/de.md), [KreisAnordnung](Draft_CircularArray/de.md), [PfadAnordnung](Draft_PathArray/de.md), [PunktAnordnung](Draft_PointArray/de.md)
    Version:0.19
 ---

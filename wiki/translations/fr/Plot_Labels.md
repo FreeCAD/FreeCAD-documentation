@@ -2,33 +2,30 @@
 - GuiCommand:/fr
    Name:Plot Labels
    Name/fr:Plot Etiquettes
-   MenuLocation:Plot → Labels‏‎
+   MenuLocation:Plot → Définir les étiquettes
    Workbenches:[Plot](Plot_Module/fr.md)
 ---
 
-
-</div>
-
 ## Description
 
-This tool allows the user to edit the title and axes labels, as well as their font sizes.
+Cet outil permet à l\'utilisateur de modifier les étiquettes du titre et des axes, ainsi que leur taille de police.
 
 <img alt="" src=images/Plot_MultiAxes_Example.png  style="width:600px;">
 
-## Usage
+## Utilisation
 
-Select the plot tab that you want to edit, and run this tool. In case of multi-axes plots you can select the set of axes to be edited
+Sélectionnez l\'onglet du tracé que vous souhaitez modifier, puis exécutez cet outil. Dans le cas de tracés multi-axes, vous pouvez sélectionner l\'ensemble des axes à modifier.
 
-![Plot axes selector](images/Plot_Axes_Active.png ) *Selector for the set of axes to de edited*
+![Plot axes selector](images/Plot_Axes_Active.png ) *Sélecteur pour l'ensemble des axes à éditer*.
 
 ## Options
 
--   **Title**: The plot general title. Leave it empty to don\'t show a title at all.
--   **Title font size**: The font size considered for the title.
--   **X label**: The title of the x axis. Leave it empty to don\'t show a title at all.
--   **X label font size**: The font size considered for the x axis.
--   **Y label**: The title of the y axis. Leave it empty to don\'t show a title at all.
--   **Y label font size**: The font size considered for the y axis.
+-   **Titre** : titre général de la parcelle. Laissez-le vide pour ne pas afficher de titre du tout.
+-   **Title font size** : taille de la police considérée pour le titre.
+-   **X label** : titre de l\'axe des x. Laissez-le vide pour ne pas afficher de titre. Laissez-le vide pour ne pas afficher de titre du tout.
+-   **X label font size** : taille de la police considérée pour l\'axe des x.
+-   **Y label** : titre de l\'axe des ordonnées. Laissez-le vide pour ne pas afficher de titre du tout.
+-   **Y label font size** : taille de la police considérée pour l\'axe des y.
 
 
 
@@ -38,4 +35,4 @@ Select the plot tab that you want to edit, and run this tool. In case of multi-a
 
 }} 
 
-[Category:External\_Workbenches{{\#translation:}}](Category:External_Workbenches.md) [Category:Addons{{\#translation:}}](Category:Addons.md)
+[Category:External\_Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)

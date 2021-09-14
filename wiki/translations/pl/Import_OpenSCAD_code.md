@@ -1,3 +1,5 @@
+# Import OpenSCAD code/pl
+
 
 
 
@@ -48,4 +50,4 @@ Tutaj użyjemy pliku example005.scad ze starych przykładów OpenSCAD, ale może
 -   [FreeCAD jak Importować, Eksportować](FreeCAD_Howto_Import_Export.md)
 -   [Import i Eksport preferencji](Import_Export_Preferences/pl.md)
 
-[Category:OpenSCAD{{\#translation:}}](Category:OpenSCAD.md)
+[Category:OpenSCAD](Category:OpenSCAD.md)

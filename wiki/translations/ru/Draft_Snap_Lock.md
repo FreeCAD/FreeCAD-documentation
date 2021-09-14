@@ -2,8 +2,8 @@
 - GuiCommand:/ru
    Name:Draft ToggleSnap
    Name/ru:Draft ToggleSnap
-   Workbenches:[Draft](Draft_Module/ru.md), [Arch](Arch_Module/ru.md)
    MenuLocation:Черчение → Утилиты → Toggle snap
+   Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
 ---
 
 

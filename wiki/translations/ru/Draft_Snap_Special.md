@@ -2,10 +2,11 @@
 - GuiCommand:/ru
    Name:Draft Special
    Name/ru:Draft Special
-   Workbenches:[Draft](Draft_Module/ru.md), [Arch](Arch_Module/ru.md)
    MenuLocation:Черчение → [Привязка](Draft_Snap/ru.md) → Special
+   Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
    Shortcut:
-   SeeAlso:---
+   SeeAlso:
+---
 
 
 </div>

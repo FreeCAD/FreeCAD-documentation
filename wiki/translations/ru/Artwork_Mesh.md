@@ -1,4 +1,6 @@
-\_\_NOTOC\_\_ 
+# Artwork Mesh/ru
+
+ 
 
 Эти иконки находятся в указанной исходной папке.
 
@@ -19,4 +21,4 @@
 
 }} 
 
-[Category:Mesh{{\#translation:}}](Category:Mesh.md)
+[Category:Mesh](Category:Mesh.md)

@@ -3,7 +3,7 @@
    Name:Draft PolarArray
    Name/it:Serie polare
    MenuLocation:Draft → Serie polare
-   Workbenches:[Draft](Draft_Module/it.md)
+   Workbenches:[Draft](Draft_Workbench/it.md)
    Version:0.19
    SeeAlso:[Serie](Draft_Array/it.md), [Serie circolare](Draft_CircularArray/it.md), [Serie su tracciato](Draft_PathArray/it.md), [Serie su punti](Draft_PointArray/it.md), [Clone](Draft_Clone/it.md)
 ---

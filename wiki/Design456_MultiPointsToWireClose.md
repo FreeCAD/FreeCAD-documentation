@@ -35,4 +35,4 @@ When you select the points in the object lists, the points aren\'t green. That c
 
 }} 
 
-[Category:External Command Reference{{\#translation:}}](Category:External_Command_Reference.md)
+[Category:External Command Reference](Category:External_Command_Reference.md)

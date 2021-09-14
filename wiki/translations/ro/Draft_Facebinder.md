@@ -1,5 +1,11 @@
 ---
-- GuiCommand:/ro   Name:Draft Facebinder   Name/ro:Draft Facebinder   Workbenches:[Arch](Draft_Module/ro___Draft]],_[[Arch_Module/ro.md)|MenuLocation:Draft → Facebinder   Shortcut:F F---
+- GuiCommand:/ro
+   Name:Draft Facebinder
+   Name/ro:Draft Facebinder
+   MenuLocation:Draft → Facebinder
+   Workbenches:[Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
+   Shortcut:**F** **F**
+---
 
 
 </div>

@@ -6,15 +6,12 @@
    Workbenches:[Part](Part_Workbench/de.md)
 ---
 
-
-</div>
-
-## Description
+## Beschreibung
 
 
 <div class="mw-translate-fuzzy">
 
-## Beschreibung
+## Beschreibung 
 
 Das **<img src="images/Part_CheckGeometry.svg" width=16px> [Part GeometriePrüfen](Part_CheckGeometry.md)** Werkzeug führt eine Überprüfung durch und meldet, ob die Geometrie ein gültiger Körper ist.
 
