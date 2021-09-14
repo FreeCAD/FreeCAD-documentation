@@ -68,6 +68,7 @@ import re
 import json
 import datetime
 import pypandoc
+from PySide2 import QtCore
 
 unhandledTemplates = [] # holder for unhandled templates
 
@@ -91,7 +92,8 @@ class MediaWiki:
         self.readCache()
         self.imagecount = 0
         self.images = {}
-        self.output = os.path.join(os.path.dirname(__file__),"wiki")
+        self.wikifolder = "wiki"
+        self.output = os.path.join(os.path.dirname(__file__),self.wikifolder)
         if not os.path.exists(self.output):
             os.mkdir(self.output)
         self.imagefolder = "images"
@@ -242,6 +244,7 @@ class MediaWiki:
             overwrite = False
             if not self.pagenames:
                 self.getPageNames()
+                self.getCategories()
             pageset = self.pagenames
         count = 1
         for page in pageset:
@@ -259,6 +262,9 @@ class MediaWiki:
             os.remove(revfile)
         self.writeRevisions(revisions)
         return revisions
+
+
+    ### CATEGORIES
 
 
     def getCategories(self):
@@ -332,6 +338,19 @@ class MediaWiki:
                 break
         return members
 
+    def getPageCategory(self,page):
+        
+        """getPageCategory(self,page):
+        Returns the first category a page belongs to, or None"""
+        
+        if page in self.pagecontents:
+            content = self.pagecontents[page]
+            cats = re.findall("Category:(.*?)[{}\[]",content)
+            if cats:
+                return cats[0]
+            if re.findall("Arch Tools navi",content):
+                return "Arch"
+        return None
 
 
     ### IMAGE OPERATIONS
@@ -500,7 +519,7 @@ class MediaWiki:
             jsonfiles = [f for f in files if (f.endswith(".json") and f.startswith("revision"))]
             jsonfiles.sort(key=os.path.getmtime, reverse=True)
             filename = os.path.join(os.path.dirname(__file__),jsonfiles[0])
-            print("Opening",filename)
+            print("Opening",os.path.basename(filename))
         if os.path.exists(filename):
             with open(filename) as jfile:
                 data = json.load(jfile)
@@ -518,7 +537,9 @@ class MediaWiki:
                 if oldrevision[page] == revid:
                     continue
             pageset.append(page)
+        print(len(pageset),"pages (",int((len(pageset)/len(self.pagenames))*100),"% ) to update...")
         self.getAllPages(pageset)
+        return pageset
 
 
     ### MARKDOWN OPERATIONS
@@ -728,13 +749,55 @@ class MediaWiki:
                 errors.append(r)
             count += 1
         self.printProgress()
+        print("All done!\n")
+        print("SUMMARY:\n")
         if unhandledTemplates:
             print("unhandled templates: ",unhandledTemplates)
+            print("\n")
+        if errors:
+            print("page with write errors: ",errors)
         return errors
 
 
+    def updateReadme(self):
+        
+        """updateReadme():
+        Updates the main page with a list of available translations"""
+        
+        mainpage = os.path.join(os.path.dirname(__file__),"README.md")
+        tfolder = os.path.join(self.output,self.translationfolder)
+        column = 1
+        output = ""
+        for lcode in os.listdir(tfolder):
+            lfolder = os.path.join(tfolder,lcode)
+            if (lcode != "en") and os.path.isdir(lfolder) and ("Main_Page.md" in os.listdir(lfolder)):
+                l = QtCore.QLocale(lcode)
+                lname = l.languageToString(l.language())
+                if ("-" in lcode) or ("_" in lcode):
+                    lname += " ("+l.country().name.decode("utf8")+")"
+                ltr = l.nativeLanguageName()
+                print(lname)
+                output += "| ![Flag "+lcode+"]("+self.wikifolder+"/"+self.imagefolder
+                output += "/Flag-"+lcode+".jpg) ["+lname+" / "+ltr+"]("+self.wikifolder+"/"
+                output += self.translationfolder+"/"+lcode+"/Main_Page.md) "
+                if column == 3:
+                    output += "|\n"
+                    column = 1
+                else:
+                    column += 1
+        output += "\n\n\n\n## Get involved"
+        f = open(mainpage,"r")
+        b = f.read()
+        f.close()
+        #b = b.replace("## Get involved",output)
+        b = re.sub("\|\ \!\[Flag.*?\#\# Get involved",output,b,flags=re.DOTALL|re.MULTILINE)
+        f = open(mainpage,"w")
+        f.write(b)
+        f.close()
 
-### GENERAL FUNCTIONS
+
+
+### GENERAL FUNCTIONS (USABLE THROUGH COMMAND-LINE)
 
 
 
@@ -758,10 +821,23 @@ def update():
     if not wiki.pagecontents:
         wiki.getAllPages()
     newrevisions = wiki.getRevisions()
-    wiki.updateRevisions(oldrevisions,newrevisions)
+    pageset = wiki.updateRevisions(oldrevisions,newrevisions)
+    print("Writing",len(pageset),"pages...")
+    errors = []
+    count = 1
+    for page in pageset:
+        wiki.printProgress(count,len(pageset),"Saving page "+page+"...")
+        r = wiki.writeMarkdown(page,overwrite=True)
+        if r:
+            errors.append(r)
+        count += 1
+    self.printProgress()
     wiki.writeAllPages()
     wiki.getAllImages()
-    print("All done!")
+    wiki.updateReadme()
+    print("All done!\n")
+    if errors:
+        print("page with write errors: ",errors)
 
 
 def test():
@@ -798,6 +874,14 @@ def writeimages():
     wiki = MediaWiki()
     #wiki.update()
     wiki.getAllImages()
+
+
+def updatereadme():
+    
+    """updates the README.md with the list of translations"""
+    
+    wiki = MediaWiki()
+    wiki.updateReadme()
 
 
 
