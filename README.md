@@ -27,7 +27,7 @@ This section contains material for developers: How to compile FreeCAD yourself, 
 
 ## Manual
 
-####<img alt="" src=wiki/images/Crystal_Clear_manual.png  style="width:32px;"> [The FreeCAD manual](wiki/Manual:Introduction.md)
+#### <img alt="" src=wiki/images/Crystal_Clear_manual.png  style="width:32px;"> [The FreeCAD manual](wiki/Manual:Introduction.md)
 
 The manual is another, more linear way to present the information contained in this wiki. It is designed to be read like a book, and will gently introduce you to many other pages from the hubs above. [ebook versions](https://www.gitbook.com/book/yorikvanhavre/a-freecad-manual/details) are also available, as well as [a couple of translations in pdf format](https://www.freecadweb.org/manual/). 
 
