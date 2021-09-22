@@ -1,14 +1,10 @@
 # The FreeCAD documentation
 
-**Note**: This repository contains an automatic conversion of the FreeCAD wiki located at https://wiki.freecadweb.org to [markdown format](https://en.wikipedia.org/wiki/Markdown). The conversion is done automatically through the [migrate.py](./migrate.py) script located within this repository. The script downloads the wiki contents in XML format using the MediaWiki API and uses [pandoc](https://pandoc.org/) to convert between mediawiki and markdown formats. Chech the [TODO](TODO.md) file for more explanation.
-
-
+**Note**: This repository contains an automatic conversion of the FreeCAD wiki located at https://wiki.freecadweb.org to the [markdown format](https://en.wikipedia.org/wiki/Markdown). The conversion is done automatically through the [migrate.py](./migrate.py) script located within this repository. The script downloads the wiki contents in XML format using the MediaWiki API and uses [pandoc](https://pandoc.org/) to convert between mediawiki and markdown formats. This is a work in progress towards a more usable version of the documentation. Check the [TODO](TODO.md) file for more explanation.
 
 ## Introduction
 
-This is the documentation wiki of [FreeCAD](http://www.freecadweb.org). There are several ways to use this documentation: by exploring the **hubs**, by following the **manual**, or by using the **Help menu** entries from within FreeCAD. This is a work in progress, written by the community of users and developers of FreeCAD. If you find information that is wrong or missing, please [help FreeCAD](Special:MyLanguage/help_FreeCAD.md)! 
-
-
+This is the documentation wiki of [FreeCAD](http://www.freecadweb.org). There are several ways to use this documentation: by exploring the **hubs**, by following the **manual**, or by **searching** for a specific page. The **Help menu** entries from within FreeCAD also allow you to browse this documentation, online or offline. This documentation is a work in progress, written by the community of users and developers of FreeCAD. If you find information that is wrong or missing, please [help](Special:MyLanguage/help_FreeCAD.md)! 
 
 ## The hubs 
 
@@ -23,15 +19,11 @@ This page gathers documentation for advanced users and people interested in writ
 
 This section contains material for developers: How to compile FreeCAD yourself, how the FreeCAD source code is structured, how to navigate the source code, how to develop new workbenches, and embed FreeCAD in your own application. 
 
-
-
 ## Manual
 
 #### <img alt="" src=wiki/images/Crystal_Clear_manual.png  style="width:32px;"> [The FreeCAD manual](wiki/Manual:Introduction.md)
 
 The manual is another, more linear way to present the information contained in this wiki. It is designed to be read like a book, and will gently introduce you to many other pages from the hubs above. [ebook versions](https://www.gitbook.com/book/yorikvanhavre/a-freecad-manual/details) are also available, as well as [a couple of translations in pdf format](https://www.freecadweb.org/manual/). 
-
-
 
 ## Translations
 
@@ -46,8 +38,6 @@ This documentation is fully translatable by users to other languages, and is in 
 | ![Flag fr](wiki/images/Flag-fr.jpg) [French / français](wiki/translations/fr/Main_Page.md) | ![Flag zh](wiki/images/Flag-zh.jpg) [Chinese / 简体中文](wiki/translations/zh/Main_Page.md) | ![Flag it](wiki/images/Flag-it.jpg) [Italian / italiano](wiki/translations/it/Main_Page.md) |
 | ![Flag sv](wiki/images/Flag-sv.jpg) [Swedish / svenska](wiki/translations/sv/Main_Page.md) | ![Flag de](wiki/images/Flag-de.jpg) [German / Deutsch](wiki/translations/de/Main_Page.md) | ![Flag zh-tw](wiki/images/Flag-zh-tw.jpg) [Chinese (Taiwan) / 繁體中文](wiki/translations/zh-tw/Main_Page.md) |
 | ![Flag ru](wiki/images/Flag-ru.jpg) [Russian / русский](wiki/translations/ru/Main_Page.md) | ![Flag pt-br](wiki/images/Flag-pt-br.jpg) [Portuguese (Brazil) / português](wiki/translations/pt-br/Main_Page.md) 
-
-
 
 ## Get involved 
 

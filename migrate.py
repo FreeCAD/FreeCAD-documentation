@@ -223,7 +223,7 @@ class MediaWiki:
         if name.startswith("Category:"):
             # add list of pages
             cpages = self.getCategoryContents(name)
-            cpages = ["[["+p+"]], " for p in cpages]
+            cpages = " , ".join(["[["+p+"]]" for p in cpages])
             cpages = "\n\n===Contents:===\n\n" + cpages
             wikitext += cpages
         self.pagecontents[name] = wikitext
@@ -299,6 +299,7 @@ class MediaWiki:
             else:
                 break
         self.pagenames.extend(categories)
+        self.writeCache()
         return categories
 
 
@@ -545,12 +546,13 @@ class MediaWiki:
     ### MARKDOWN OPERATIONS
 
 
-    def getMarkdown(self,page,wikitext,clean=True):
+    def getMarkdown(self,page,clean=True):
 
         """getMarkdown(page,wikitext,[clean]):
         Returns a markdown version of a text in wiki format.
         If clean is false, raw pandoc output is returned"""
 
+        wikitext = self.pagecontents[page]
         xargs = ['--atx-headers'] # pandoc arguments
         try:
             fmt = 'markdown+hard_line_breaks'
@@ -558,7 +560,14 @@ class MediaWiki:
         except:
             return None
         else:
-            result = "# "+page.replace("_"," ")+"\n\n"+result
+            if result.startswith("<img"):
+                # insert page icon into title
+                result = result.split("\n")
+                result[0] = "# "+ result[0].replace("128","64") + " " + page.replace("_"," ")
+                result = "\n".join(result)
+            else:
+                # insert title
+                result = "# "+page.replace("_"," ")+"\n"+result
             if clean:
                 return self.cleanMarkdown(result)
             else:
@@ -605,6 +614,7 @@ class MediaWiki:
         result = re.sub("{{PropertyData\|(.*?)}}",r"**\1**",result,flags=flags)
         result = re.sub("{{PropertyView\|(.*?)}}",r"**\1**",result,flags=flags)
         result = re.sub("{{Emphasis\|(.*?)}}",r"**\1**",result,flags=flags)
+        result = re.sub("{{VeryImportantMessage\|(.*?)}}",r"**\1**",result,flags=flags)
 
         # templates that get turned into <small> text
         result = re.sub("{{Version\|(.*?)}}",r"<small>(v\1)</small> ",result,flags=flags)
@@ -695,7 +705,7 @@ class MediaWiki:
         if not os.path.exists(basepath):
             print("base path",basepath,"does not exist")
             return page
-        result = self.getMarkdown(page,self.pagecontents[page],clean)
+        result = self.getMarkdown(page,clean)
         if not result:
             print("Error writing page:",page)
             return page
@@ -706,7 +716,7 @@ class MediaWiki:
             if not truepage[0].strip() in self.pagecontents:
                 print("Error:redirecting to",truepage[0].strip())
                 return page
-            result = self.getMarkdown(self.pagecontents[truepage[0].strip()],clean)
+            result = self.getMarkdown(truepage[0].strip(),clean)
         if not result:
             print("Error writing page:",page)
             return page
@@ -818,6 +828,7 @@ def update():
     wiki = MediaWiki()
     oldrevisions = wiki.readRevisions()
     wiki.getPageNames()
+    wiki.getCategories()
     if not wiki.pagecontents:
         wiki.getAllPages()
     newrevisions = wiki.getRevisions()
@@ -832,7 +843,6 @@ def update():
             errors.append(r)
         count += 1
     self.printProgress()
-    wiki.writeAllPages()
     wiki.getAllImages()
     wiki.updateReadme()
     print("All done!\n")

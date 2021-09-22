@@ -1,10 +1,4 @@
-# User hub
-
- <img alt="" src=images/User_hub.png  style="width:64px;">
-
-------------------------------------------------------------------------
-
- 
+# <img alt="" src=images/User_hub.png  style="width:64px;"> User hub
 
 This is the main help area for newcomers to FreeCAD.
 
