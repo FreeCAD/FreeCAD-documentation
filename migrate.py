@@ -319,6 +319,14 @@ class MediaWiki:
                    "cmtitle": name,
                    "cmlimit": "5000",
                  }
+
+        # perfomr only one big query (cmcontinue is bugged)
+        result = self.session.get(url=self.url, params=params)
+        data = result.json()
+        members.extend([m["title"] for m in data["query"]["categorymembers"]])
+        return members
+
+        # cmcontinue is apparently bugged in categorymembers...
         while True:
             if cmfrom:
                 params["cmfrom"] = cmfrom
@@ -330,7 +338,7 @@ class MediaWiki:
             members.extend([m["title"] for m in data["query"]["categorymembers"]])
             cmfrom = None
             if "continue" in data:
-                print(data["continue"])
+                #print(data["continue"])
                 if "cmcontinue" in data["continue"]:
                     if data["continue"]["cmcontinue"]:
                         cmfrom = data["continue"]["cmcontinue"]
@@ -786,7 +794,7 @@ class MediaWiki:
                 if ("-" in lcode) or ("_" in lcode):
                     lname += " ("+l.country().name.decode("utf8")+")"
                 ltr = l.nativeLanguageName()
-                print(lname)
+                #print(lname)
                 output += "| ![Flag "+lcode+"]("+self.wikifolder+"/"+self.imagefolder
                 output += "/Flag-"+lcode+".jpg) ["+lname+" / "+ltr+"]("+self.wikifolder+"/"
                 output += self.translationfolder+"/"+lcode+"/Main_Page.md) "
@@ -817,6 +825,7 @@ def init():
 
     wiki = MediaWiki()
     wiki.getPageNames()
+    wiki.getCategories()
     wiki.getAllPages()
     print("All done!")
 
@@ -842,7 +851,7 @@ def update():
         if r:
             errors.append(r)
         count += 1
-    self.printProgress()
+    wiki.printProgress()
     wiki.getAllImages()
     wiki.updateReadme()
     print("All done!\n")
