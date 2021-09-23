@@ -1,3 +1,4 @@
+# Part Line/it
 ---
 - GuiCommand:/it   Name:Part_Line   Name/it:Linea   MenuLocation:Parte → [Workbenches:[[Part_Workbench/it   Parte](Part_CreatePrimitives/it___Crea_primitive]]_→_Linea.md), [OpenSCAD](OpenSCAD_Workbench/it.md)|SeeAlso:[Crea primitive](Part_CreatePrimitives/it.md)---
 
@@ -89,8 +90,5 @@ Utilizzare il menu {{KEY/it|<img src="images/Part_CreatePrimitives.png" width=16
 |                                                        |     : (di default è 1).                                                                           |
 +--------------------------------------------------------+---------------------------------------------------------------------------------------------------+
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Line/it

@@ -1,5 +1,5 @@
 # Macro BoundingBox Tracing
-  {{Macro
+{{Macro
 |Name=Macro BoundingBox Tracing
 |Icon=BoundBoxTracing.png
 |Description=Creates a red outline of the BoundingBox (6 Faces with 6 rectangles) of an object, display the dimension of the rectangle, create volume of boundBox.
@@ -466,4 +466,5 @@ ver 0.5 le 08/05/2017 : upgrade now accept the \"mesh\" and \"Points\" thanks wm
 
 ver 0.4 le 04/06/2016 : test if value = 0 then not create boundbox (ex: object Draft)
 
-
+---
+[documentation index](../README.md) > Macro BoundingBox Tracing

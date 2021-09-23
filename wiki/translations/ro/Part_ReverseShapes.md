@@ -1,3 +1,4 @@
+# Part ReverseShapes/ro
 ---
 - GuiCommand:   Name:Part ReverseShapes‏‎   MenuLocation:Part → Reverse Shapes   Workbenches:[[Part Workbench   Part]]|SeeAlso:---
 
@@ -61,8 +62,5 @@ You can verify this by
 
 ## Scripting
 
-
-
-
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part ReverseShapes/ro

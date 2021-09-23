@@ -4,3 +4,6 @@ This category gathers the meeting points of the 3 broad categories of users of F
 ### Contents:
 
 [Category:Categories/cz](Category:Categories/cz.md)
+
+---
+[documentation index](../README.md) > Category:Hubs/cz

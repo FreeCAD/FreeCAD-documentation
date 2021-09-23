@@ -8,6 +8,8 @@
    SeeAlso:[Sketcher Supprimer tous les éléments de géométrie](Sketcher_DeleteAllGeometry/fr.md)
 ---
 
+# Sketcher DeleteAllConstraints/fr
+
 ## Description
 
 Cet outil supprime toutes les contraintes de l\'esquisse en cours d\'édition, et laisse intacts les éléments de géométrie.
@@ -23,4 +25,7 @@ Cet outil supprime toutes les contraintes de l\'esquisse en cours d\'édition, e
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher DeleteAllConstraints/fr

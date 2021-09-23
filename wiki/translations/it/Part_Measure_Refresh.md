@@ -7,6 +7,8 @@
    SeeAlso:[Misura lineare](Part_Measure_Linear/it.md), [Misura angolare](Part_Measure_Angular/it.md)
 ---
 
+# Part Measure Refresh/it
+
 
 </div>
 
@@ -40,5 +42,5 @@
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Refresh/it

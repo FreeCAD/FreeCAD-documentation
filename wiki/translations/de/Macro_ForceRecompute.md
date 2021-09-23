@@ -1,5 +1,5 @@
 # Macro ForceRecompute/de
- {{Macro/de
+{{Macro/de
 |Name=Macro Force Recompute
 |Icon=Force_Recompute.png
 |Description=Dieses kleine Makro erzwingt eine manuelle Neuberechnung des Modells.
@@ -42,6 +42,5 @@ FreeCAD.ActiveDocument.recompute()
 
 }}
 
-
-
-
+---
+[documentation index](../README.md) > Macro ForceRecompute/de

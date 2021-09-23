@@ -6,6 +6,8 @@
    Workbenches:[Curves](Curves_Workbench/fr.md)
 ---
 
+# Curves Discretize/fr
+
 ## Description
 
 La commande <img alt="" src=images/Curves_Discretize.svg  style="width:24px;"> [Curves Discrétiser](Curves_Discretize/fr.md) permet de discrétiser une arête ou un fil. Cet outil fait partie des [ateliers externes](External_workbenches/fr.md) appelé [Curves](Curves_Workbench/fr.md).
@@ -31,4 +33,7 @@ La commande <img alt="" src=images/Curves_Discretize.svg  style="width:24px;"> [
 
 {{Curves Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > Curves Discretize/fr

@@ -1,7 +1,4 @@
 # Macro Align Camera to Working Plane/en
-
-
-
 {{Macro
 |Name=Macro Align Camera to Working Plane
 |Icon=Macro_Align_Camera_to_Working_Plane.png
@@ -37,6 +34,5 @@ r = FreeCAD.DraftWorkingPlane.getRotation().Rotation.Q
 c.orientation.setValue(r)
 ```
 
-
-
-
+---
+[documentation index](../README.md) > Macro Align Camera to Working Plane/en

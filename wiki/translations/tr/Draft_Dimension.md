@@ -9,6 +9,8 @@
    SeeAlso:[FlipDimension](Draft_FlipDimension/tr.md),[Teknik resim](TechDraw_Workbench/tr.md)
 ---
 
+# Draft Dimension/tr
+
 
 </div>
 
@@ -430,5 +432,5 @@ doc.recompute()
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Dimension/tr

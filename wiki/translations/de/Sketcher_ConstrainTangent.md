@@ -8,6 +8,8 @@
    SeeAlso:[Skizzierer Beschränkung Punkt auf Objekt](Sketcher_ConstrainPointOnObject/de.md)
 ---
 
+# Sketcher ConstrainTangent/de
+
 ## Beschreibung
 
 Die Tangentenbeschränkung bewirkt, dass sich zwei Kurven berühren (sind tangential). Linien werden unendlich behandelt, und Bögen werden als Vollkreise/Ellipsen behandelt. Die Beschränkung ist auch in der Lage, zwei Kurven miteinander zu verbinden, so dass sie an der Verbindung tangential aneinanderstoßen, wodurch die Verbindung glatt wird.
@@ -123,4 +125,7 @@ Die [Skizzierer Skripten](Sketcher_scripting/de.md) Seite erklärt die Werte, di
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainTangent/de

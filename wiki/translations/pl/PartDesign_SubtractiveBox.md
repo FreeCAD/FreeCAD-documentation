@@ -7,6 +7,8 @@
    SeeAlso:[PartDesign CompPrimitiveSubtractive](PartDesign_CompPrimitiveSubtractive.md)
 ---
 
+# PartDesign SubtractiveBox/pl
+
 ## Description
 
 Inserts a subtractive box in the active Body. Its shape is subtracted from the existing solid.
@@ -45,4 +47,7 @@ The Box can be edited after its creation in two ways:
 
 {{PartDesign Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveBox/pl

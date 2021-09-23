@@ -1,3 +1,4 @@
+# FEM ConstraintPulley/ro
 ---
 - GuiCommand:   Name:FEM ConstraintPulley   MenuLocation:Model → Mechanical Constraints → Constraint pulley   |Workbenches:[Shortcut:   SeeAlso:[[FEM_tutorial|FEM tutorial](FEM_Workbench___FEM]].md)---
 
@@ -22,4 +23,7 @@ Nu este suportată de către CalculiX Interface!
 
 {{FEM Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > FEM ConstraintPulley/ro

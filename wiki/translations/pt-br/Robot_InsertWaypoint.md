@@ -7,6 +7,8 @@
    SeeAlso:
 ---
 
+# Robot InsertWaypoint/pt-br
+
 ## Description
 
 Insert a way-point from the current robot (tool) position into a trajectory.
@@ -33,4 +35,7 @@ Moving a robot is done by
 
 {{Robot_Tools_navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot InsertWaypoint/pt-br

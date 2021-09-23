@@ -59,3 +59,6 @@ C\'è un altro indice per il [Sommario della **Guida in linea**](Online_Help_Toc
 
 
 [Category:Manual](Category:Manual.md)
+
+---
+[documentation index](../README.md) > [Manual](Category:Manual.md) > Manual:Summary/it

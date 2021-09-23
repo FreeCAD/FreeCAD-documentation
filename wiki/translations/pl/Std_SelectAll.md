@@ -7,6 +7,8 @@
    SeeAlso:[Std BoxSelection](Std_BoxSelection.md), [Std BoxElementSelection](Std_BoxElementSelection.md)
 ---
 
+# Std SelectAll/pl
+
 ## Opis
 
 Polecenie **Std: Zaznacz wszystko** wybiera wszystkie obiekty w oknie [Widoku drzewa](Tree_view/pl.md).
@@ -25,4 +27,7 @@ Polecenie **Std: Zaznacz wszystko** wybiera wszystkie obiekty w oknie [Widoku dr
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std SelectAll/pl

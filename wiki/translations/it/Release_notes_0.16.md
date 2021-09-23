@@ -1,7 +1,4 @@
 # Release notes 0.16/it
-
-
-
 <div class="mw-translate-fuzzy">
 
 FreeCAD 0.16 è stato rilasciato il 18 aprile 2016, ed è scaricabile da [Github](https://github.com/FreeCAD/FreeCAD/releases). Questo è un riassunto dei cambiamenti più interessanti. L\'elenco completo delle modifiche è disponibile in [Mantis changelog](http://www.freecadweb.org/tracker/changelog_page.php). Versioni precedenti in: [0.15](Release_notes_0.15/it.md) - [0.14](Release_notes_0.14/it.md) - [0.13](Release_notes_0.13/it.md) - [0.12](Release_notes_0.12/it.md) - [0.11](Release_notes_0.11.md)
@@ -142,3 +139,6 @@ I membri della comunità hanno creato alcuni [ambienti aggiuntivi](https://githu
 ![](images/Macro_installer_02.jpg )
 
 [Category:News](Category:News.md) [Category:Documentation](Category:Documentation.md) [Category:Releases](Category:Releases.md)
+
+---
+[documentation index](../README.md) > [News](Category:News.md) > Release notes 0.16/it

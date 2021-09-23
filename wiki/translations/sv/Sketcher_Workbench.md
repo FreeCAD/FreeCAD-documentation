@@ -1,10 +1,4 @@
-# Sketcher Workbench/sv
-
-
-
-
-
-<img alt="Sketcher workbench icon" src=images/Workbench_Sketcher.svg  style="width:128px;">
+# <img alt="Sketcher workbench icon" src=images/Workbench_Sketcher.svg  style="width:64px;"> Sketcher Workbench/sv
 
 
 {{TOCright}}
@@ -329,3 +323,6 @@ The [Sketcher scripting](Sketcher_scripting.md) page contains examples on how to
 }} 
 
 [Category:User Documentation/sv](Category:User_Documentation/sv.md) [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Sketcher Workbench/sv

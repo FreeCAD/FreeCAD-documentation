@@ -9,6 +9,8 @@
    SeeAlso:[Bent UShape Rebar](Arch_Rebar_BentShape/ru.md)
 ---
 
+# Arch Rebar UShape/ru
+
 
 </div>
 
@@ -185,3 +187,6 @@ UShapeRebar.editUShapeRebar(Rebar2, 70, 50, 20, 20,
  
 
 [Category:Reinforcement](Category:Reinforcement.md)
+
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Rebar UShape/ru

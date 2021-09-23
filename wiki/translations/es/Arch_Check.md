@@ -7,6 +7,8 @@
    SeeAlso:[Tapar agujeros](Arch_CloseHoles/es.md)
 ---
 
+# Arch Check/es
+
 
 </div>
 
@@ -88,11 +90,5 @@ list_bad = Arch.check([Wall1, Wall2, Circle, Wire], includehidden=True)
 print(list_bad)
 ```
 
-
-
-
-
-
-
-
-
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Check/es

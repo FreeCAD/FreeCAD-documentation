@@ -1,3 +1,4 @@
+# PartDesign Draft/ro
 ---
 - GuiCommand:   Name:PartDesign Draft   MenuLocation:Part Design → Draft   Workbenches:[[PartDesign_Workbench   Part Design]]|Shortcut:None   SeeAlso:None---
 
@@ -93,4 +94,7 @@ Acest instrument creează o pantă unghiulară (înclinarea fațetelor) pe fațe
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Draft/ro

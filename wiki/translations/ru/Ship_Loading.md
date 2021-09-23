@@ -1,3 +1,4 @@
+# Ship Loading/ru
 ---
 - GuiCommand:/ru
    Name:Ship Loading
@@ -21,9 +22,5 @@ TODO
 
 {{Ship_Tools_navi/ru}}
 
-
-
-
-
-
-
+---
+[documentation index](../README.md) > Ship Loading/ru

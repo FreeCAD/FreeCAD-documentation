@@ -7,6 +7,8 @@
    SeeAlso:[Указать угловой размер по 3 точкам](TechDraw_3PtAngleDimension/ru.md)
 ---
 
+# TechDraw AngleDimension/ru
+
 ## Описание
 
 The Angle Dimension tool adds a angular dimension to a View. The dimension may be the interior angle between any two straight line edges. The angle will initially be the projected angle (ie as shown on the drawing), but this may be changed to the actual 3D distance using the **<img src="images/TechDraw_LinkDimension.svg" width=16px> [TechDraw LinkDimension](TechDraw_LinkDimension.md)** tool.
@@ -54,4 +56,7 @@ rc = page.addView(dim1)
 
 {{TechDraw Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw AngleDimension/ru

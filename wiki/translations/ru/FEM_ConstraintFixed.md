@@ -8,6 +8,8 @@
    SeeAlso:[FEM tutorial](FEM_tutorial/ru.md)
 ---
 
+# FEM ConstraintFixed/ru
+
 
 </div>
 
@@ -34,4 +36,7 @@ You cannot mix object-types within the same constraint. Use one fixed constraint
 
 {{FEM Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > FEM ConstraintFixed/ru

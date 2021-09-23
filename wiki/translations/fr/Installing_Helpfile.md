@@ -1,6 +1,4 @@
 # Installing Helpfile/fr
-
-
 ## Fichiers d\'aide FreeCAD 
 
 La documentation hors-ligne de FreeCAD est générée à l\'aide de scripts à partir du wiki FreeCAD. Elle a actuellement atteint une taille dépassant les 220 MB. Ces gros fichiers ne font pas partie des installateurs et exécutables de FreeCAD, mais peuvent être installé séparément selon les explications qui suivent.
@@ -45,5 +43,5 @@ Des difficultés peuvent survenir lors de la tentative d\'installation des packa
 -   Vous pouvez également obtenir les versions de développement des fichiers d\'aide {{FileName|freecad.qhc}} et {{FileName|freecad.qch}} à partir de [GitHub](https://github.com/FreeCAD/FreeCAD/tree/master/src/Doc). Vous devrez [concaténer](http://man7.org/linux/man-pages/man1/cat.1.html) les fichiers .part ensemble : `cat freecad.qch.part00 freecad.qch.part01 freecad.qch.part02 freecad.qch.part03 > freecad.qch`.
 -   Avec les privilèges d\'administrateur (par exemple, `sudo`), copiez ou déplacez {{FileName|freecad.qhc}} et {{FileName|freecad.qch}} vers {{FileName|/usr/share/doc/freecad-doc/}}. Si vous utilisez `freecad-daily`, ce sera {{FileName|/usr/share/doc/freecad-daily-doc/}} à la place.
 
-
-
+---
+[documentation index](../README.md) > Installing Helpfile/fr

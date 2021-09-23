@@ -5,6 +5,8 @@
 ‎   Workbenches:All
 ---
 
+# Std FreeCADWebsite/ro
+
 
 </div>
 
@@ -40,4 +42,7 @@ Currently the command points to [<https://www.freecadweb.org>](https://www.freec
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std FreeCADWebsite/ro

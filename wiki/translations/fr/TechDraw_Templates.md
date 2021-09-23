@@ -1,10 +1,4 @@
 # TechDraw Templates/fr
-
-
-
-
-
-
 {{TOCright}}
 
 ## Vue d\'ensemble 
@@ -77,4 +71,7 @@ Voir aussi [Comment créer un modèle TechDraw personnalisé](TechDraw_TemplateH
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Templates/fr

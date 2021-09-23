@@ -1,10 +1,4 @@
 # Tutorials/it
-
-
-
-
-
-
 {{TOCright}}
 
 
@@ -335,3 +329,6 @@ Qui sono elencati tutti i tutorial che non sono nel manuale **indipendentemente 
 
 
 [Category:Tutorials](Category:Tutorials.md)
+
+---
+[documentation index](../README.md) > [Tutorials/it]],  uno elenco completo e ordinabile si trova  nella ](Category:Tutorials/it]],  uno elenco completo e ordinabile si trova  nella .md) > Tutorials/it

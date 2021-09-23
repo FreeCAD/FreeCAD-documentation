@@ -6,6 +6,8 @@
    Workbenches:[Curves](Curves_Workbench/fr.md)
 ---
 
+# Curves ReflectLines/fr
+
 ## Description
 
 <img alt="" src=images/Curves_ReflectLines.svg  style="width:24px;"> [Curves Ligne réfléchie](Curves_ReflectLines/fr.md) crée les lignes de réflexion sur une forme, selon une direction de vue. Cet outil fait partie des [ateliers externes](External_workbenches/fr.md) appelé [Curves](Curves_Workbench/fr.md).
@@ -31,4 +33,7 @@
 
 {{Curves Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > Curves ReflectLines/fr

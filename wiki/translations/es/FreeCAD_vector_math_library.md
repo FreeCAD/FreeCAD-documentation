@@ -1,6 +1,4 @@
 # FreeCAD vector math library/es
-
-
 ## Introduction
 
 
@@ -96,3 +94,6 @@ def project(first, other):
 }} 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > FreeCAD vector math library/es

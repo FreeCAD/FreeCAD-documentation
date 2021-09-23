@@ -1,5 +1,5 @@
 # Download/ko
- {{TOCright}}
+{{TOCright}}
 
 
 <div class="mw-translate-fuzzy">
@@ -61,5 +61,5 @@ FreeCAD\'s development is active.
 
 The FreeCAD community provides many additional modules and macros. Since 0.17 they can be easily installed from within FreeCAD using the [Addon manager](Addon_Manager.md) <img alt="" src=images/AddonManager.svg  style="width:22px;">.
 
-
-
+---
+[documentation index](../README.md) > Download/ko

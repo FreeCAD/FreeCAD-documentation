@@ -7,6 +7,8 @@
    Version:0.17
 ---
 
+# Part CompoundFilter/it
+
 
 </div>
 
@@ -82,8 +84,5 @@ Se c\'è un solo figlio nel risultato, l\'output è il figlio. Se è presente pi
 
 -    **items**: Elenco o intervallo di elementi da selezionare se Filter Type è \"specific items\".
 
-
-
-
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompoundFilter/it

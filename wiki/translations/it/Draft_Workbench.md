@@ -1,10 +1,4 @@
-# Draft Workbench/it
-
-
-
-
-
-<img alt="L\'icona di Draft" src=images/Workbench_Draft.svg  style="width:128px;">
+# <img alt="L\'icona di Draft" src=images/Workbench_Draft.svg  style="width:64px;"> Draft Workbench/it
 
 
 {{TOCright}}
@@ -465,3 +459,6 @@ Ispezionare il codice di questo modulo è utile per capire come utilizzare l\'in
  
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Draft Workbench/it

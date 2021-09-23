@@ -1,6 +1,4 @@
 # Part Part2DObject
- 
-
 ## Introduction
 
  <img alt="" src=images/Tree_Part2D.svg  style="width:32px;"> 
@@ -118,4 +116,5 @@ obj.Label = "Custom label"
 
 For example, most tools from the [Draft Workbench](Draft_Workbench.md), like [Draft Line](Draft_Line.md), [Draft Rectangle](Draft_Rectangle.md), [Draft Polygon](Draft_Polygon.md), etc., are `Part::Part2DObjectPython` objects with a custom icon and additional properties.
 
-   
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Part2DObject

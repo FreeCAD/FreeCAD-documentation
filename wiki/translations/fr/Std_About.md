@@ -6,6 +6,8 @@
    MenuLocation:Aide → À propos de FreeCAD
 ---
 
+# Std About/fr
+
 ## Description
 
 La commande **A propos** ouvre une boîte de dialogue qui affiche des informations sur le programme FreeCAD.
@@ -69,3 +71,6 @@ L\'onglet Bibliothèques affiche une liste des bibliothèques externes utilisée
 {{Std Base navi}}  
 
 [Category:Common Questions](Category:Common_Questions.md)
+
+---
+[documentation index](../README.md) > [Common Questions](Category:Common Questions.md) > Std About/fr

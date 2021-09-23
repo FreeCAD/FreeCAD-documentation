@@ -7,6 +7,8 @@
    Version:0.17
 ---
 
+# Sketcher CarbonCopy/pt
+
 
 </div>
 
@@ -41,4 +43,7 @@ Dimensional constraints which exist before the copy function remain linked to th
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CarbonCopy/pt

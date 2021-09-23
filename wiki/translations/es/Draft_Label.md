@@ -7,6 +7,8 @@
    Shortcut:D L
 ---
 
+# Draft Label/es
+
 
 </div>
 
@@ -229,8 +231,5 @@ label3.ViewObject.TextSize = 200
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Label/es

@@ -6,3 +6,6 @@ This category contains articles and categories about wiki administrative subject
 [Changelog/ko](Changelog/ko.md) ,
 
 [Category:Categories/ko](Category:Categories/ko.md) [Category:Wiki/ko](Category:Wiki/ko.md)
+
+---
+[documentation index](../README.md) > Category:Administration/ko

@@ -6,6 +6,8 @@
    MenuLocation:Plot → Сохранить диаграмму
 ---
 
+# Plot Save/ru
+
 
 </div>
 
@@ -52,3 +54,6 @@
 }} 
 
 [Category:External\_Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)
+
+---
+[documentation index](../README.md) > [External_Workbenches](Category:External_Workbenches.md) > Plot Save/ru

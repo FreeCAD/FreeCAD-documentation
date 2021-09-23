@@ -1,6 +1,4 @@
 # Constraint/de
-
-
 ## Einführung
 
 
@@ -47,3 +45,6 @@ Siehe die Informationen in der <img alt="" src=images/Workbench_Sketcher.svg  st
 }} {{Document objects navi}} 
 
 [Category:Glossary](Category:Glossary.md)
+
+---
+[documentation index](../README.md) > [Glossary](Category:Glossary.md) > Constraint/de

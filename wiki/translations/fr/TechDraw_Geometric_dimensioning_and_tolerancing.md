@@ -1,10 +1,4 @@
 # TechDraw Geometric dimensioning and tolerancing/fr
-
-
-
-
-
-
 {{TOCright}}
 
 ## Concept
@@ -341,4 +335,7 @@ Les points de référence au sens de la GD&T sont des surfaces auxquelles votre 
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Geometric dimensioning and tolerancing/fr

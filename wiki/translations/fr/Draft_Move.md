@@ -9,6 +9,8 @@
    SeeAlso:[Draft Surligner les sous éléments](Draft_SubelementHighlight/fr.md)
 ---
 
+# Draft Move/fr
+
 ## Description
 
 La commande <img alt="" src=images/Draft_Move.svg  style="width:24px;"> **Draft Déplacer** déplace ou copie les objets sélectionnés d\'un point à un autre. En mode sous-élément, la commande déplace les points et les bords sélectionnés ou copie les bords sélectionnés, des [Draft Lignes](Draft_Line/fr.md) et [Draft Polylignes](Draft_Wire/fr.md).
@@ -110,8 +112,5 @@ list3 = Draft.move(list1, -2*vector, copy=True)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Move/fr

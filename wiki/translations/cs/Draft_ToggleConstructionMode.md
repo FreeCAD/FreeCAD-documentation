@@ -1,3 +1,4 @@
+# Draft ToggleConstructionMode/cs
 ---
 - GuiCommand:/cs   Name:Draft ToggleConstructionMode   Name/cs:DKreslení Přepnutí do konstrukčního módu   Workbenches:[Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation:Kreslení -> Utility -> Přepnutí do konstrukčního módu---
 
@@ -47,8 +48,5 @@ In FreeCAD version 0.19 this command and the [Draft AddConstruction](Draft_AddCo
 -   To change the label (<small>(v0.20)</small> ) of the construction group: **Edit → Preferences... → Draft → General settings → Construction Geometry → Construction group name**.
 -   To change the color that is used: **Edit → Preferences... → Draft → General settings → Construction Geometry → Construction geometry color**.
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ToggleConstructionMode/cs

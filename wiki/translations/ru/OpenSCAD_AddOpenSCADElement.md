@@ -6,6 +6,8 @@
    MenuLocation:OpenSCAD -> Add OpenSCAD Element
 ---
 
+# OpenSCAD AddOpenSCADElement/ru
+
 
 </div>
 
@@ -61,4 +63,7 @@ Note: It is also possible to add another optional Parameter which controls the m
 
 {{OpenSCAD_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD AddOpenSCADElement/ru

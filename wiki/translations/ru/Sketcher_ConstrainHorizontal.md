@@ -8,6 +8,8 @@
    SeeAlso:[Ограничение вертикальности](Sketcher_ConstrainVertical/ru.md)
 ---
 
+# Sketcher ConstrainHorizontal/ru
+
 ## Описание
 
 Горизонтальное ограничение заставляет выбранную линию или линии в эскизе быть параллельными горизонтальной оси эскиза.
@@ -48,4 +50,7 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainHorizontal/ru

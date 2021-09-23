@@ -8,6 +8,8 @@
    SeeAlso:[Tutoriel FEM](FEM_tutorial/fr.md)
 ---
 
+# FEM MaterialSolid/fr
+
 ## Description
 
 Ajoute des propriétés matériau à une pièce.
@@ -38,4 +40,7 @@ Ajoute des propriétés matériau à une pièce.
 
 {{FEM Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > FEM MaterialSolid/fr

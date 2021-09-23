@@ -1,3 +1,4 @@
+# Sketcher ConstrainPointOnObject/cs
 ---
 - GuiCommand:/cs   Name:Constraint PointOnObject   Name/cs:Constraint PointOnObject   Workbenches:[Návrh dílu](Sketcher_Workbench/cs___Náčrt]],_[[PartDesign_Workbench/cs.md)|MenuLocation:Sketch → Sketcher constraints → Constrain point onto object   SeeAlso:[Vazba totožnosti](Constraint_PointOnPoint/cs.md)---
 
@@ -54,4 +55,7 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains how to identify th
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainPointOnObject/cs

@@ -1,6 +1,4 @@
 # Translating an external workbench/fr
-
-
 Dans les notes suivantes, `"context"` doit être le nom de votre addon ou de votre atelier, par exemple, `"MySuperAddon"` ou `"DraftPlus"`, etc. Ce contexte permet de regrouper toutes les traductions de votre code sous le même nom, afin qu\'elles soient plus facilement identifiables par les traducteurs. C\'est-à-dire qu\'ils sauront exactement à quel addon ou atelier une chaîne particulière appartient.
 
 **Remarque** : Voici un script tout-en-un qui automatise la procédure complète mentionnée ci-dessous (il est tout de même conseillé de lire la procédure pour savoir ce que le script doit faire) : <https://github.com/yorikvanhavre/BIM_Workbench/blob/master/utils/updateTranslations.py>.
@@ -222,3 +220,6 @@ Yorik maintient un script pratique pour l\'atelier BIM, qui peut rassembler, cha
  
 
 [Category:Developer Documentation](Category:Developer_Documentation.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Translating an external workbench/fr

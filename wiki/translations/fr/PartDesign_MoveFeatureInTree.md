@@ -8,6 +8,8 @@
    SeeAlso:[PartDesign Désigner comme fonction résultante](PartDesign_MoveTip/fr.md), [PartDesign Déplacer vers un autre corps de pièce](PartDesign_MoveFeature/fr.md)
 ---
 
+# PartDesign MoveFeatureInTree/fr
+
 ## Description
 
 <img alt="" src=images/PartDesign_MoveFeatureInTree.svg  style="width:24px;"> [Déplacer après un autre objet](PartDesign_MoveFeatureInTree/fr.md), comme cette commande est étiquetée dans le menu contextuel, elle permet de réorganiser les objets sous un Corps. Les esquisses, la géométrie de référence et les fonctionnalités sont prises en charge.
@@ -31,4 +33,7 @@ Les trois images ci-dessous montrent le même modèle avec une cavité définie 
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign MoveFeatureInTree/fr

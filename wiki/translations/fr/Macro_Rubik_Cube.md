@@ -1,5 +1,5 @@
 # Macro Rubik Cube/fr
- {{Macro/fr
+{{Macro/fr
 |Name=Macro Rubik Cube
 |Icon=Macro_Rubik_Cube.png
 |Description=Macro qui affiche un Rubik cube permet faire interactivement des rotations de ses tranches.
@@ -1674,3 +1674,6 @@ ToolBar Icon <img alt="" src=images/Macro_Rubik_Cube.png  style="width:64px;">
         FreeCAD.Console.PrintLog("fix_reload() done\n")
 
     restoreCursor()
+
+---
+[documentation index](../README.md) > Macro Rubik Cube/fr

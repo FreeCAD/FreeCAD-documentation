@@ -1,5 +1,4 @@
 # Animation Workbench/fr
-
 {{Template:UnfinishedDocu
 
 }} 
@@ -101,3 +100,6 @@ Autre
 -   [Ateliers externes](External_workbenches/fr.md)
 
 [Category:User Documentation](Category:User_Documentation.md) [Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+
+---
+[documentation index](../README.md) > Animation Workbench/fr

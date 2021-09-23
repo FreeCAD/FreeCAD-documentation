@@ -1,5 +1,5 @@
 # Macro HighlightDifference/it
- {{Macro/it
+{{Macro/it
 |Name=HighlightDifference
 |Translate=Evidenzia differenze
 |Description=Calcola le differenze tra due forme
@@ -39,3 +39,6 @@ Il codice è visibile in Github: [Utility/HighlightDifference.FCMacro](https://g
 
 -   Vedere la macro complementare: [Macro\_HighlightCommon](Macro_HighlightCommon/it.md)
 -   La discussione nel forum: [\"collision detection\", overlapping](http://forum.freecadweb.org/viewtopic.php?f=22&t=12426)
+
+---
+[documentation index](../README.md) > Macro HighlightDifference/it

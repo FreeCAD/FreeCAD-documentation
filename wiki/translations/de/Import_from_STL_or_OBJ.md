@@ -1,5 +1,5 @@
 # Import from STL or OBJ/de
- {{TutorialInfo/de
+{{TutorialInfo/de
 |Topic= Import von STL oder OBJ
 |Level= Anfänger
 |Time= 30 Minuten
@@ -98,3 +98,6 @@ Da der erzeugte Festkörper keine Historie und keine bearbeitbaren Formelemente 
  
 
 [Category:File\_Formats](Category:File_Formats.md)
+
+---
+[documentation index](../README.md) > [Import](Import_Workbench.md) > Import from STL or OBJ/de

@@ -8,6 +8,8 @@
    SeeAlso:[Std Ouvrir](Std_Open/fr.md), [Std Importer](Std_Import/fr.md)
 ---
 
+# Std New/fr
+
 ## Description
 
 La commande **Std Nouveau** crée un nouveau document vide et en fait le document actif.
@@ -97,4 +99,7 @@ FreeCAD.closeDocument(doc.Name)
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std New/fr

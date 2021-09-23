@@ -7,6 +7,8 @@
    Shortcut:**C** **B**
 ---
 
+# SheetMetal AddBase/fr
+
 ## Description
 
 La commande <img alt="" src=images/SheetMetal_AddBase.svg  style="width:24px;"> *SheetMetal AddBase* crée une paroi en tôle à partir d\'une esquisse.
@@ -58,3 +60,6 @@ Un objet SheetMetal Tôle de base est dérivé d\'un objet [Part Feature](Part_F
 
 
 [Category:SheetMetal](Category:SheetMetal.md) [Category:Addons](Category:Addons.md) [Category:External Command Reference](Category:External_Command_Reference.md)
+
+---
+[documentation index](../README.md) > [SheetMetal](Category:SheetMetal.md) > SheetMetal AddBase/fr

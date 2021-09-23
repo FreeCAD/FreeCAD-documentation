@@ -8,6 +8,8 @@
    SeeAlso:[PartDesign CompAdditivesGrundelement](PartDesign_CompPrimitiveAdditive/de.md)
 ---
 
+# PartDesign AdditiveCone/de
+
 
 </div>
 
@@ -57,4 +59,7 @@ Der Kegel kann auf zwei verschiedene Wege bearbeitet werden:
 
 {{PartDesign Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveCone/de

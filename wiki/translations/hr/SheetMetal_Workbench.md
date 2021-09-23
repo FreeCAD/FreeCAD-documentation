@@ -1,8 +1,4 @@
-# SheetMetal Workbench/hr
-
- 
-
-<img alt="Sheet Metal External workbench icon" src=images/Sheetmetal_workbench_icon.svg  style="width:128px;">
+# <img alt="Sheet Metal External workbench icon" src=images/Sheetmetal_workbench_icon.svg  style="width:64px;"> SheetMetal Workbench/hr
 
 
 {{TOCright}}
@@ -249,3 +245,6 @@ How to do ?
 -   Source code on github: <https://github.com/shaise/FreeCAD_SheetMetal>
 
 [Category:SheetMetal](Category:SheetMetal.md) [Category:Addons](Category:Addons.md) [Category:External Command Reference](Category:External_Command_Reference.md)
+
+---
+[documentation index](../README.md) > SheetMetal Workbench/hr

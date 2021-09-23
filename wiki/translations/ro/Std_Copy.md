@@ -1,3 +1,4 @@
+# Std Copy/ro
 ---
 - GuiCommand:   Name:Std Copy   MenuLocation:[Shortcut:Ctrl+C   Workbenches:All   SeeAlso:[[Std_Paste|Paste](Std_Edit_Menu___Edit]]_→_Copy.md), [Duplicate Selection](Std_DuplicateSelection.md)---
 
@@ -40,4 +41,7 @@ Comanda **[16px|text-top=Std Copy|link=Std Copy/fr](File:Std_Copy.png.md) [copie
 
 {{Std Base navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > Std Copy/ro

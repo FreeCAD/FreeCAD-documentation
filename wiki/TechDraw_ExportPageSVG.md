@@ -6,6 +6,8 @@
    SeeAlso:[TechDraw Templates](TechDraw_Templates.md), [Draft SVG](Draft_SVG.md)
 ---
 
+# TechDraw ExportPageSVG
+
 ## Description
 
 The ExportPageSVG tool saves the current drawing page as an [SVG](SVG.md) file.
@@ -37,4 +39,7 @@ TechDrawGui.exportPageAsSvg(DrawPageObject,FilePath)
 
 
 
- {{TechDraw Tools navi}} 
+ {{TechDraw Tools navi}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExportPageSVG

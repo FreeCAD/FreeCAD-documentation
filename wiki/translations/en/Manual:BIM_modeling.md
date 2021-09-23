@@ -1,5 +1,5 @@
 # Manual:BIM modeling/en
- }
+}
 
 
 
@@ -243,3 +243,6 @@ Our page is now ready, and we can export it to SVG or DXF formats, or print it. 
 }} 
 
 [Category:BIM](Category:BIM.md)
+
+---
+[documentation index](../README.md) > [BIM](Category:BIM.md) > Manual:BIM modeling/en

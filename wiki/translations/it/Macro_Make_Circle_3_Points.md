@@ -1,5 +1,5 @@
 # Macro Make Circle 3 Points/it
- {{Macro/it
+{{Macro/it
 |Name=Macro Make Circle 3 Points
 |Icon=Macro_Make_Circle_3_Points.png
 |Translate=Cerchio da 3 punti
@@ -642,3 +642,6 @@ La formula è presa da [cercle\_3pts.pdf](http://www-obs.univ-lyon1.fr/labo/fc/A
 Altre macro si trovano in:
 \* [Macro Draft Circle 3 Points](Macro_Draft_Circle_3_Points.md)
 \* [Macro Draft Circle 3 Points 3D](Macro_Draft_Circle_3_Points_3D.md)
+
+---
+[documentation index](../README.md) > Macro Make Circle 3 Points/it

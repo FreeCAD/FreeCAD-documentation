@@ -7,6 +7,8 @@
    Version:0.15
 ---
 
+# Sketcher ConstrainSnellsLaw/pl
+
 ## Opis
 
 Powoduje związanie dwóch linii do przestrzegania prawa załamania światła, które przenika przez powierzchnię, gdzie spotykają się dwa materiały o różnych współczynnikach załamania. Zobacz [Prawo Snell\'a](http://en.wikipedia.org/wiki/Snell%27s_law) na Wikipedii, aby uzyskać więcej informacji.
@@ -94,4 +96,7 @@ App.ActiveDocument.recompute()
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainSnellsLaw/pl

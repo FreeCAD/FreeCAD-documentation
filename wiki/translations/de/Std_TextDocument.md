@@ -7,6 +7,8 @@
    SeeAlso:[Draft ShapeString](Draft_ShapeString.md), [Draft Text](Draft_Text.md)
 ---
 
+# Std TextDocument/de
+
 
 <div class="mw-translate-fuzzy">
 
@@ -100,4 +102,7 @@ App.ActiveDocument.recompute()
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std TextDocument/de

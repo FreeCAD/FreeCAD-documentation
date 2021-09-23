@@ -9,6 +9,8 @@
    Icon:Arch_Window.svg
 ---
 
+# Arch Door/it
+
 
 </div>
 
@@ -27,5 +29,5 @@ Tutte le proprietà sono descritte nello strumento [Finestra](Arch_Window/it.md)
 <img alt="Door" src=images/Arch_door.jpg  style="width:600px;"> 
 *Porta costruita da uno [Schizzo](Sketcher_Workbench/it.md)*
 
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Door/it

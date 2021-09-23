@@ -8,6 +8,8 @@
    SeeAlso:[Créer une primitive d'addition](PartDesign_CompPrimitiveAdditive/fr.md), [Cylindre soustractif](PartDesign_SubtractiveCylinder/fr.md)
 ---
 
+# PartDesign AdditiveCylinder/fr
+
 ## Description
 
 Insère un Cylindre primitif dans un corps actif comme première fonction, ou le fusionne aux autres fonctions existantes.
@@ -53,4 +55,7 @@ Le Cylindre peut être édité après sa création de deux façons :
 
 {{PartDesign Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveCylinder/fr

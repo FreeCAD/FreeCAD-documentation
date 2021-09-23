@@ -1,7 +1,4 @@
 # Dxf Importer Install/ro
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -185,3 +182,6 @@ Utilizare Teigha. Teigha este un program complet și poate fi folosit fără Fre
 ### Links
 
 Video tutorial [FreeCAD Tutorial 24 - DXF/DWG Import](https://www.youtube.com/watch?v=wHxTWuDhc3M)
+
+---
+[documentation index](../README.md) > Dxf Importer Install/ro

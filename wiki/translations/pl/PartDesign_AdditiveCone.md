@@ -7,6 +7,8 @@
    SeeAlso:[PartDesign Create an additive primitive](PartDesign_CompPrimitiveAdditive.md), [PartDesign Subtractive Cone](PartDesign_SubtractiveCone.md)
 ---
 
+# PartDesign AdditiveCone/pl
+
 ## Description
 
 Inserts a primitive cone in the active Body as the first feature, or fuses it to the existing feature(s).
@@ -47,4 +49,7 @@ The Cone can be edited after its creation in two ways:
 
 {{PartDesign Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveCone/pl

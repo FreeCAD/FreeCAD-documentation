@@ -7,6 +7,8 @@
    Shortcut:**A** **E**
 ---
 
+# Assembly3 CreateElement/de
+
 ## Beschreibung
 
 Der Befehl <img alt="" src=images/Assembly_New_Element.svg‎‎  style="width:24px;"> [Element anlegen](Assembly3_CreateElement/de.md) legt neue Elemente von ausgewählten Objekten an.
@@ -21,8 +23,5 @@ Er kann benutzt werden, um **Elemente** vorzubereiten, bevor Festlegungen angewe
 2.  Schaltfläche  oder Tastenkürzel **A** dann **E** benutzen
 3.  (optional aber empfohlen) Umbenennen der Elemente durch editieren ihrer Eigenschaft **Label**.
 
-
-
-
-
-
+---
+[documentation index](../README.md) > Assembly3 CreateElement/de

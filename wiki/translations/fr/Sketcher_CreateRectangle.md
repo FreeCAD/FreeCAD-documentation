@@ -8,6 +8,8 @@
    SeeAlso:[Sketcher Rectangle arrondi](Sketcher_CreateOblong.md), [Sketcher Polyligne](Sketcher_CreatePolyline/fr.md)
 ---
 
+# Sketcher CreateRectangle/fr
+
 ## Description
 
 Cet outil dessine un rectangle en choisissant deux points opposés. Au démarrage de l\'outil, le pointeur de la souris se transforme en une croix blanche avec une icône de rectangle rouge. Les coordonnées du pointeur sont affichées à côté en bleu en temps réel.
@@ -27,4 +29,7 @@ Pour définir un rectangle à l\'aide d\'un point central et d\'un point du bord
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateRectangle/fr

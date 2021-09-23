@@ -1,7 +1,4 @@
 # Macro Overlap/it
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -222,3 +219,5 @@ def run():
         mb.exec_()
 }}
 
+---
+[documentation index](../README.md) > Macro Overlap/it

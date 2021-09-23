@@ -1,7 +1,4 @@
 # Manual:Using spreadsheets/ro
- 
-
-
 {{Manual:TOC/ro}}
 
 
@@ -131,3 +128,6 @@ Puteți, de asemenea, să dați aliasuri constrângerilor dimensionale (orizonta
 
 
 [Category:Tutorials/ro](Category:Tutorials/ro.md)
+
+---
+[documentation index](../README.md) > Manual:Using spreadsheets/ro

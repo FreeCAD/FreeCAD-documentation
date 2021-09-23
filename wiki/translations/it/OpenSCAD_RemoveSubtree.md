@@ -1,3 +1,4 @@
+# OpenSCAD RemoveSubtree/it
 ---
 - GuiCommand:/it   Name:OpenSCAD RemoveSubtree   Name/it:Remove Subtree   MenuLocation:OpenSCAD → RemoveSubtree‏‎   |Workbenches:[[OpenSCAD_Workbench/it   OpenSCAD]]|Shortcut:   SeeAlso:---
 
@@ -57,4 +58,7 @@ Rimuove gli oggetti selezionati e tutti i loro figli che non hanno dei riferimen
 
 {{OpenSCAD_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD RemoveSubtree/it

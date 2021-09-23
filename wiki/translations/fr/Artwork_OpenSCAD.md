@@ -1,6 +1,4 @@
 # Artwork OpenSCAD/fr
- 
-
 Ces icônes se trouvent dans le chemin source indiqué.
 
 Pour toutes les icônes de l\'arborescence source, voir [Graphisme](Artwork/fr.md).
@@ -17,3 +15,6 @@ Pour toutes les icônes de l\'arborescence source, voir [Graphisme](Artwork/fr.m
 }} 
 
 [Category:OpenSCAD](Category:OpenSCAD.md)
+
+---
+[documentation index](../README.md) > [OpenSCAD](Category:OpenSCAD.md) > Artwork OpenSCAD/fr

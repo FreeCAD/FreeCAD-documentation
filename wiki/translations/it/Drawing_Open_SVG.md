@@ -8,6 +8,8 @@
    SeeAlso:[Salva SVG](Drawing_Save/it.md)
 ---
 
+# Drawing Open SVG/it
+
 
 </div>
 
@@ -34,4 +36,7 @@ Questo strumento apre un foglio di disegno salvato in precedenza come file SVG (
 
 {{Drawing Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Open SVG/it

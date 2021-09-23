@@ -1,5 +1,5 @@
 # Compile on MinGW/en
- **(2019) The contents of this page are obsolete. Please help us to keep it updated!<br/> Meanwhile, try other [compilation options](Compiling.md).** {{TOCright}}
+**(2019) The contents of this page are obsolete. Please help us to keep it updated!<br/> Meanwhile, try other [compilation options](Compiling.md).** {{TOCright}}
 
 ## How to build and run FreeCAD under MSYS/MinGW 
 
@@ -256,3 +256,6 @@ Have fun!
 
 
 [Category:Developer\_Documentation](Category:Developer_Documentation.md) [Category:Developer](Category:Developer.md)
+
+---
+[documentation index](../README.md) > [Developer_Documentation](Category:Developer_Documentation.md) > Compile on MinGW/en

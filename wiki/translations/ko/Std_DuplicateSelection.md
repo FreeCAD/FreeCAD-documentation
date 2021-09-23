@@ -7,6 +7,8 @@
    SeeAlso:[표준 잘라내기](Std_Cut/ko.md), [표준 복사](Std_Copy/ko.md), [표준 붙여넣기](Std_Paste/ko.md)
 ---
 
+# Std DuplicateSelection/ko
+
 
 </div>
 
@@ -40,4 +42,7 @@
 
 {{Std Base navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > Std DuplicateSelection/ko

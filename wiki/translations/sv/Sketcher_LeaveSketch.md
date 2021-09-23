@@ -1,3 +1,4 @@
+# Sketcher LeaveSketch/sv
 ---
 - GuiCommand:/sv   Name:Sketcher LeaveSketch   Name/sv:Sketcher LeaveSketch   Workbenches:[PartDesign](Sketcher_Workbench/sv___Sketcher]],_[[PartDesign_Workbench/sv.md)|MenuLocation:Sketch → Leave sketch|---
 
@@ -26,3 +27,6 @@ The **Leave sketch** command exits the sketch editing mode and frees up the [Tas
 }}  
 
 [Category:Sketcher/sv](Category:Sketcher/sv.md)
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher LeaveSketch/sv

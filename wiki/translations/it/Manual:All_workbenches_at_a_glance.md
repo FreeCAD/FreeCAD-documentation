@@ -1,7 +1,4 @@
 # Manual:All workbenches at a glance/it
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -223,3 +220,5 @@ Esistono anche numerosi altri ambienti molto utili, prodotti dai membri della co
 
 </div>
 
+---
+[documentation index](../README.md) > Manual:All workbenches at a glance/it

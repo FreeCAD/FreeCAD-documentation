@@ -1,10 +1,4 @@
 # Mouse navigation/pt
-
-
-
-
-
-
 {{TOCright}}
 
 ## Overview
@@ -376,5 +370,5 @@ The tutorial [Adding a new mouse navigation option to FreeCAD](Adding_a_new_mous
 
 {{docnav/pt|Getting started/pt|Document structure/pt}}
 
-
-
+---
+[documentation index](../README.md) > Mouse navigation/pt

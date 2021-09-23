@@ -7,6 +7,8 @@
    SeeAlso:[Stampa](Std_Print/it.md)
 ---
 
+# Std PrintPreview/it
+
 ## Descrizione
 
 Il comando **Anteprima di stampa** mostra un\'anteprima del risultato del comando [Stampa](Std_Print/it.md). Si può anche stampare direttamente dalla finestra di dialogo di anteprima.
@@ -40,4 +42,7 @@ Il comando **Anteprima di stampa** mostra un\'anteprima del risultato del comand
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std PrintPreview/it

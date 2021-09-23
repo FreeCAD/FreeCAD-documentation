@@ -8,6 +8,8 @@
    SeeAlso:[Sketcher Nouvelle esquisse](Sketcher_NewSketch/fr.md)
 ---
 
+# PartDesign NewSketch/fr
+
 ## Description
 
 Cet outil crée une nouvelle esquisse. Il crée un nouveau [PartDesign Corps](PartDesign_Body/fr.md) destiné à contenir l\'esquisse s\'il n\'en existe aucun et ouvre automatiquement l\'[atelier Sketcher](Sketcher_Workbench/fr.md) après sa création.
@@ -63,4 +65,7 @@ Pour référencer des éléments dans l\'<img src=images/Sketcher_CarbonCopy.svg
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign NewSketch/fr

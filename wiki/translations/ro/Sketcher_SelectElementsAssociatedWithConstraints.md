@@ -1,3 +1,4 @@
+# Sketcher SelectElementsAssociatedWithConstraints/ro
 ---
 - GuiCommand:/ro   Name:Sketcher SelectElementsAssociatedWithConstraints   Name/ro:Sketcher SelectElementsAssociatedWithConstraints   Workbenches:[[Sketcher Workbench/ro   Sketcher]]|MenuLocation:Sketch → Sketcher tools → Select Elements Associated with constraints   Shortcut:Shift+Ctrl+E   SeeAlso:   Version:0.15---
 
@@ -32,4 +33,7 @@ Selectați Elementele schiței asociate cu constrângerile.
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectElementsAssociatedWithConstraints/ro

@@ -1,11 +1,4 @@
 # Path ToolBit
- 
-
-
-
-
- 
-
 ## Description
 
 Toolbits are the foundation of the [Path Tools](Path_Tools.md) system. They represent a specific tool that can be used in a Path Job to generate a toolpath. Each toolbit is stored as a JSON file. JSON is structured data that can be easily parsed by macros or python scripts but remains human readable. Describing toolbits with JSON allows for the possibility of automatically creating large collections of accurate toolbits automatically or with a script.
@@ -51,4 +44,7 @@ Within the FreeCAD GUI the Path toolbit library manager provides a mechanism to 
 
 
 
- {{Path_Tools_navi}} 
+ {{Path_Tools_navi}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path ToolBit

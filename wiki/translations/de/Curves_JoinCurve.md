@@ -7,6 +7,8 @@
    SeeAlso:
 ---
 
+# Curves JoinCurve/de
+
 
 </div>
 
@@ -58,4 +60,7 @@ Das <img alt="" src=images/Curves_JoinCurve.svg  style="width:24px;"> [Kurven Ve
 
 {{Curves Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > Curves JoinCurve/de

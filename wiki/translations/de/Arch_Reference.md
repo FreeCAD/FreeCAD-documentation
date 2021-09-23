@@ -8,6 +8,8 @@
    SeeAlso:[Arch GebäudeTeil](Arch_BuildingPart/de.md)
 ---
 
+# Arch Reference/de
+
 ## Beschreibung
 
 <img alt="" src=images/Arch_reference_screenshot.png  style="width:800px;">
@@ -63,5 +65,5 @@ Arch.makeReference("/path/to/some/file.FSCtd","myPart")
 |IconC=Workbench_Arch.svg
 }}
 
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Reference/de

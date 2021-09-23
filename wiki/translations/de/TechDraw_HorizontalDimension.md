@@ -8,6 +8,8 @@
    SeeAlso:[TechDraw Längenbemaßung](TechDraw_Dimension_Length/de.md), [TechDraw Vertikale Bemaßung](TechDraw_Dimension_Vertical/de.md)
 ---
 
+# TechDraw HorizontalDimension/de
+
 
 </div>
 
@@ -100,4 +102,7 @@ rc = page.addView(dim1)
 
 {{TechDraw Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw HorizontalDimension/de

@@ -8,6 +8,8 @@
    SeeAlso:Keine
 ---
 
+# PartDesign Draft/de
+
 
 </div>
 
@@ -100,4 +102,7 @@ Dieses Werkzeug erzeugt einen Winkelentwurf auf den ausgewählten Flächen eines
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Draft/de

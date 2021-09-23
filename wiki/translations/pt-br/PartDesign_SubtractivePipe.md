@@ -7,6 +7,8 @@
    SeeAlso:[PartDesign Additive pipe](PartDesign_AdditivePipe.md), [PartDesign Subtractive loft](PartDesign_SubtractiveLoft.md)
 ---
 
+# PartDesign SubtractivePipe/pt-br
+
 ## Description
 
 **Subtractive Pipe** creates a subtractive solid in the active Body by sweeping one or more sketches (also referred to as cross-sections) along an open or closed path. Its shape is then subtracted from the existing solid. SubtractivePipe is often used in connection with [Part Helix](Part_Helix.md) and [PartDesign ShapeBinder](PartDesign_ShapeBinder.md) to create a thread; see the [Thread for Screw Tutorial](Thread_for_Screw_Tutorial.md) for details.
@@ -86,4 +88,7 @@
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractivePipe/pt-br

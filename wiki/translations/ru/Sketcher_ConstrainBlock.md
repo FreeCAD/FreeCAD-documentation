@@ -8,6 +8,8 @@
    SeeAlso:[Ограничение положения](Sketcher_ConstrainLock/ru.md)
 ---
 
+# Sketcher ConstrainBlock/ru
+
 ## Описание
 
 **Блокирующее ограничение** фиксирует геометрический элемент в указанном месте, одним нажатием.
@@ -34,4 +36,7 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainBlock/ru

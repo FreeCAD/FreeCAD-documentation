@@ -8,6 +8,8 @@
    SeeAlso:[FEM Tutoriel](FEM_tutorial/fr.md)
 ---
 
+# FEM PostPipelineFromResult/fr
+
 **\* Vous avez besoin d\'un objet résultat valide dans le **<img src="images/FEM_Analysis.svg" width=24px> [FEM Conteneur d'analyse](FEM_Analysis/fr.md)
 **, tel que **CalculiX static results**.**
 
@@ -48,4 +50,7 @@ A nouveau, notez que la représentation des résultats (appelée VTK) par le pip
 
 {{FEM Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > FEM PostPipelineFromResult/fr

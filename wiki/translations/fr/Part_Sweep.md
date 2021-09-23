@@ -7,6 +7,8 @@
    SeeAlso:[Part Lissage](Part_Loft/fr.md)
 ---
 
+# Part Sweep/fr
+
 ## Description
 
 L\'outil <img alt="" src=images/Part_Sweep.svg  style="width:24px;"> [Part Balayage](Part_Sweep/fr.md) est utilisé pour créer une face, une enveloppe ou une forme solide à partir d\'un ou plusieurs profils (coupes) projetés le long d\'un chemin.
@@ -83,8 +85,5 @@ Si \"Frenet\" est à \"true\", l\'orientation du profil est calculée à partir 
 
 -   Puisque la fonction Balayage est souvent utilisée pour créer des filets de vis, nous vous suggérons la lecture du [Tutoriel création de vis](Thread_for_Screw_Tutorial/fr.md).
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Sweep/fr

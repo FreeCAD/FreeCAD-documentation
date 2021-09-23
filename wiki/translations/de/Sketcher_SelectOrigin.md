@@ -8,6 +8,8 @@
    Version:0.15
 ---
 
+# Sketcher SelectOrigin/de
+
 ## Beschreibung
 
 Wählt den Ursprung einer Skizze aus.
@@ -24,4 +26,7 @@ Wählt den Ursprung einer Skizze aus.
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectOrigin/de

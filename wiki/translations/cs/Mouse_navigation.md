@@ -1,10 +1,4 @@
 # Mouse navigation/cs
-
-
-
-
-
-
 {{TOCright}}
 
 ## Overview
@@ -381,5 +375,5 @@ The tutorial [Adding a new mouse navigation option to FreeCAD](Adding_a_new_mous
 
 {{docnav/cs|[Zacínáme](Getting_started/cs.md)|[Struktura dokumentu](Document_structure/cs.md)}}
 
-
-
+---
+[documentation index](../README.md) > Mouse navigation/cs

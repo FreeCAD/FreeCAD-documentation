@@ -7,6 +7,8 @@
    SeeAlso:[Path Inspect](Path_Inspect.md)
 ---
 
+# Path Simulator
+
 ## Description
 
 This tool allows Simulation of the Path Job by sweeping 3D Models of the Tools used in each Operation, along the G-Code paths, subtracting material from the Stock, where the stock and tool overlap, providing visualization of the Job. This allows detection and isolation of errors prior to running the Job on a mill.
@@ -43,4 +45,7 @@ This tool allows Simulation of the Path Job by sweeping 3D Models of the Tools u
 
 
 
- {{Path_Tools_navi}} 
+ {{Path_Tools_navi}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Simulator

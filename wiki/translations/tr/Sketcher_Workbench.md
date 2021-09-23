@@ -1,10 +1,4 @@
-# Sketcher Workbench/tr
-
-
-
-
-
-<img alt="Sketcher workbench icon" src=images/Workbench_Sketcher.svg  style="width:128px;">
+# <img alt="Sketcher workbench icon" src=images/Workbench_Sketcher.svg  style="width:64px;"> Sketcher Workbench/tr
 
 
 {{TOCright}}
@@ -910,3 +904,6 @@ The [Sketcher scripting](Sketcher_scripting.md) page contains examples on how to
 }} 
 
 [Category:Sketcher/tr](Category:Sketcher/tr.md) [Category:Workbenches/tr](Category:Workbenches/tr.md) [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Sketcher Workbench/tr

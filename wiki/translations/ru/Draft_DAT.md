@@ -1,7 +1,4 @@
 # Draft DAT/ru
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -33,3 +30,6 @@ There are many different dialects of this format so this import module tries to 
  
 
 [Category:File Formats](Category:File_Formats.md)
+
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft DAT/ru

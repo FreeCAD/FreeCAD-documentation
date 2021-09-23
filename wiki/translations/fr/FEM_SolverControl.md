@@ -8,6 +8,8 @@
    SeeAlso:[FEM Résolution](FEM_SolverRun/fr.md)
 ---
 
+# FEM SolverControl/fr
+
 ## Description
 
 ## Utilisation
@@ -18,4 +20,7 @@
 
 {{FEM Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > FEM SolverControl/fr

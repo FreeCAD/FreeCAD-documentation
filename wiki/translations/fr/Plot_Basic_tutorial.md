@@ -1,7 +1,4 @@
 # Plot Basic tutorial/fr
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -398,3 +395,6 @@ Vous pouvez définir la taille de l\'image de sortie en pouces (inches), par exe
 }} {{Plot_Tools_navi}} 
 
 [Category:External\_Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)
+
+---
+[documentation index](../README.md) > [External_Workbenches](Category:External_Workbenches.md) > Plot Basic tutorial/fr

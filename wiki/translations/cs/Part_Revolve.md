@@ -1,3 +1,4 @@
+# Part Revolve/cs
 ---
 - GuiCommand:/cs   Name:Part Revolve   Name/cs:Díl Obtáčení   MenuLocation:Díl -> Obtáčení   Workbenches:[[Part_Workbench/cs   Díl]], Kompletace|SeeAlso:---
 
@@ -57,8 +58,5 @@ Jestli je vybrána uživetelsky definována osa, čísla definují směr obtáč
 -   If your version of FreeCAD has a check box for Solid in the Revolve dialog, you can make Solids from closed Wires and Edges.
 -   If Revolve is performed using an axis that intersects the face to rotate, and you want to create a solid, the result might be invalid. This can happen for various reasons, self-intersection, direction, etc.
 
-
-
-
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Revolve/cs

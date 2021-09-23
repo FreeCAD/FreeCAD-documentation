@@ -1,3 +1,4 @@
+# Sketcher ConstrainParallel/it
 ---
 - GuiCommand:/it   Name:Sketcher ConstrainParallel   Name/it:Parallela   Icon:Constraint Parallel.svg   Workbenches:[MenuLocation:PartDesign → Schizzo → Parallela   Shortcut:**Shift** + **P**   SeeAlso:[[Sketcher ConstrainVertical/it|Verticale](Sketcher_Workbench/it___Schizzo]].md), [Orizzontale](Sketcher_ConstrainHorizontal/it.md)---
 
@@ -83,4 +84,7 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainParallel/it

@@ -1,7 +1,4 @@
-# PartDesign Workbench/ru
- 
-
-<img alt="Логотип верстака PartDesign" src=images/Workbench_PartDesign.svg  style="width:128px;">
+# <img alt="Логотип верстака PartDesign" src=images/Workbench_PartDesign.svg  style="width:64px;"> PartDesign Workbench/ru
 
 
 {{TOCright}}
@@ -200,3 +197,6 @@ PartDesign Workbench неразрывно связан с [верстаком Sk
  {{PartDesign Tools navi}}
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > PartDesign Workbench/ru

@@ -8,6 +8,8 @@
    SeeAlso:[Sketcher Clone](Sketcher_Clone/fr.md), [Sketcher Déplacer](Sketcher_Move/fr.md)
 ---
 
+# Sketcher Copy/fr
+
 ## Description
 
 Copie les éléments d'esquisse sélectionnés d'un point à un autre, en utilisant le dernier point sélectionné comme référence. Lorsqu\'une copie est faite, aucun lien n\'est établi entre la copie et l\'original, voir **<img src=images/Sketcher_Clone.svg style="width:16px"> [Sketcher Clone](Sketcher_Clone/fr.md)**.
@@ -26,4 +28,7 @@ Aucune contrainte supplémentaire n\'est ajoutée.
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Copy/fr

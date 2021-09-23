@@ -1,7 +1,4 @@
 # Mesh Scripting/pl
-
-
-
 {{TOCright}}
 
 ## Wprowadzenie
@@ -99,3 +96,6 @@ Rozległym *(choć trudnym w użyciu)* źródłem skryptów związanych z siatka
 Zobacz również: [API dla Mesh](Mesh_API.md) {{Top}} {{Powerdocnavi}} {{Mesh Tools navi}} 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Scripting/pl

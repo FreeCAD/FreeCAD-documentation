@@ -8,6 +8,8 @@
    SeeAlso:[Ограничить расстояние](Sketcher_ConstrainDistance/ru.md), [Ограничить перпендикулярность](Sketcher_ConstrainPerpendicular/ru.md)
 ---
 
+# Sketcher ConstrainAngle/ru
+
 ## Описание
 
 Angle constraint is a [datum constraint](Sketcher_Workbench#Sketcher_Constraints.md) intended to fix angles in sketch. It is capable of setting slopes of individual lines, angles between lines, angles of intersections of curves, and angle spans of circular arcs.
@@ -105,4 +107,7 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainAngle/ru

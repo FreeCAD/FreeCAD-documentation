@@ -1,5 +1,5 @@
 # Macro Mouse over cb/hr
- {{Macro
+{{Macro
 |Name=Macro Mouse over cb
 |Icon=Macro_Mouse_over_cb.png
 |Translate=Makro Miš iznad cb
@@ -65,3 +65,6 @@ mouse_over = view.addEventCallbackPivy( coin.SoLocation2Event.getClassTypeId(), 
 Rasprava na forumu [finding/selecting all elements below cursor](https://forum.freecadweb.org/viewtopic.php?f=10&t=19072)
 
 Drugi slični makro [Selecting internal faces of a pressure vessel](https://forum.freecadweb.org/viewtopic.php?f=18&t=12381&p=151950#p151950) (preuzmite datoteku [FC\_element\_selector\_v1p1p1.py](https://forum.freecadweb.org/download/file.php?id=31041))
+
+---
+[documentation index](../README.md) > Macro Mouse over cb/hr

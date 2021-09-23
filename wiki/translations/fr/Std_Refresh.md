@@ -7,6 +7,8 @@
    Shortcut:**F5**
 ---
 
+# Std Refresh/fr
+
 ## Description
 
 La commande **Std Rafraîchir** recalcule le document actif. La commande est désactivée si le document ne nécessite pas de recalcul.
@@ -50,4 +52,7 @@ doc.recompute()
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std Refresh/fr

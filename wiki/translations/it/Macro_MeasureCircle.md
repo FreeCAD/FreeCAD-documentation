@@ -1,5 +1,5 @@
 # Macro MeasureCircle/it
- {{Macro/it
+{{Macro/it
 |Name=Macro MeasureCircle
 |Icon=Macro_MeasureCircle.png
 |Translate=Misura cerchio
@@ -34,6 +34,5 @@ ToolBar Icon ![](images/Macro_MeasureCircle.png )
 
 **Macro\_MeasureCircle.FCMacro**
 
-
-
-
+---
+[documentation index](../README.md) > Macro MeasureCircle/it

@@ -8,6 +8,8 @@
    SeeAlso:[Part Section](Part_Section/fr.md)
 ---
 
+# Part CrossSections/fr
+
 ## Description
 
 L\'outil **Coupes** créé une ou plusieurs coupes à travers la forme sélectionnée.
@@ -36,8 +38,5 @@ L\'outil **Coupes** créé une ou plusieurs coupes à travers la forme sélectio
 
 ![Résultat](images/SectionCross3.png )
 
-
-
-
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part CrossSections/fr

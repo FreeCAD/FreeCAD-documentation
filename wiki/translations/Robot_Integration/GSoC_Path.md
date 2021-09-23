@@ -45,3 +45,6 @@ Medium
 ### Additional Information 
 
 [Category:Google Summer of Code](Category:Google_Summer_of_Code.md) [Category:Path](Category:Path.md) [Category:Robot](Category:Robot.md)
+
+---
+[documentation index](../README.md) > GSoC Path/Robot Integration

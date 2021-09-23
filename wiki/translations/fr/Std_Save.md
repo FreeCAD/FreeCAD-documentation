@@ -8,6 +8,8 @@
    SeeAlso:[Std Enregistrer sous](Std_SaveAs/fr.md), [Std Enregistrer une copie](Std_SaveCopy.md), [Std Tout enregistrer](Std_SaveAll.md)
 ---
 
+# Std Save/fr
+
 ## Description
 
 La commande **Std Enregistrer** enregistre le document actif.
@@ -47,4 +49,7 @@ Pour enregistrer un document, utilisez la méthode `save` de l\'objet document. 
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std Save/fr

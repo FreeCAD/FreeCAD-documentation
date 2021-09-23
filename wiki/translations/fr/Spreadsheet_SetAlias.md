@@ -7,6 +7,8 @@
    Version:0.17
 ---
 
+# Spreadsheet SetAlias/fr
+
 ## Description
 
 L\'outil **<img src=images/Spreadsheet_SetAlias.svg style="width:16px"> [Spreadsheet Alias](Spreadsheet_SetAlias/fr.md)** ouvre une boîte de dialogue pour configurer un alias pour une cellule. Au lieu d\'utiliser le nom de cellule exact comme A2, B3 ou C4, un nom personnalisé peut être utilisé.
@@ -24,4 +26,7 @@ L\'outil **<img src=images/Spreadsheet_SetAlias.svg style="width:16px"> [Spreads
 
 {{Spreadsheet_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet SetAlias/fr

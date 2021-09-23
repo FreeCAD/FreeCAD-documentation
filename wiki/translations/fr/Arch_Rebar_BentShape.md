@@ -8,6 +8,8 @@
    SeeAlso:[Reinforcement](Reinforcement_Workbench.md), [Arch Armature personnalisée](Arch_Rebar/fr.md), [Arch Armature en étrier](Arch_Rebar_Stirrup/fr.md), 
 ---
 
+# Arch Rebar BentShape/fr
+
 ## Description
 
 L\'outil [Rebar Armature cintrée](Arch_Rebar_BentShape/fr.md) permet à l\'utilisateur de créer un ensemble de barres d\'armature pliées à l\'intérieur d\'un objet [Structure](Arch_Structure/fr.md).
@@ -153,3 +155,6 @@ BentShapeRebar.editBentShapeRebar(Rebar2, 50, 35, 20, 20,
  
 
 [Category:Reinforcement](Category:Reinforcement.md)
+
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Rebar BentShape/fr

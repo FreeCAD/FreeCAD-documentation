@@ -1,7 +1,4 @@
 # Arch 3DS/it
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -25,3 +22,6 @@ L\'ambiente Arch supporta l\'importazione dei file [3DS](https://en.wikipedia.or
  
 
 [Category:User Documentation](Category:User_Documentation.md) [Category:Arch](Category:Arch.md) [Category:File Formats](Category:File_Formats.md)
+
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch 3DS/it

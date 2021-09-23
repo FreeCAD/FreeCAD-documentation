@@ -1,3 +1,4 @@
+# Robot CreateTrajectory/ru
 ---
 - GuiCommand:/ru
    Name:Robot CreateTrajectory
@@ -36,4 +37,7 @@
 
 {{Robot_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot CreateTrajectory/ru

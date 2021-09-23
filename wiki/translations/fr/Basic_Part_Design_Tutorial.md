@@ -1,5 +1,5 @@
 # Basic Part Design Tutorial/fr
- {{TutorialInfo/fr
+{{TutorialInfo/fr
 |Topic=Modélisation
 |Level=Débutant
 |Author=Mark Stephen ([Quick61](User:Quick61.md)) et HarryGeier ([HarryGeier](User:HarryGeier.md))
@@ -148,4 +148,7 @@ Ce tutoriel ainsi que votre modèle sont terminés.
 
 {{Tutorials navi
 
-}} {{PartDesign Tools navi}} {{Sketcher Tools navi}} 
+}} {{PartDesign Tools navi}} {{Sketcher Tools navi}}
+
+---
+[documentation index](../README.md) > Basic Part Design Tutorial/fr

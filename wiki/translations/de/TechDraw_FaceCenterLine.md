@@ -8,6 +8,8 @@
    SeeAlso:[TechDraw Kosmetikknoten](TechDraw_CosmeticVertex/de.md), [TechDraw Mittellinie zwischen 2 Linien](TechDraw_2LineCenterLine/de.md), [TechDraw Mittellinie zwischen 2 Punkten](TechDraw_2PointCenterLine/de.md), [TechDraw Kosmetikradierer](TechDraw_CosmeticEraser/de.md)
 ---
 
+# TechDraw FaceCenterLine/de
+
 ## Beschreibung
 
 Das Werkzeug fügt einer Fläche eine Mittellinie durch ihren Mittelpunkt zu.
@@ -77,4 +79,7 @@ Mittellinien sind zur Zeit noch nicht zugänglich über [Makros](Macros/de.md) u
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw FaceCenterLine/de

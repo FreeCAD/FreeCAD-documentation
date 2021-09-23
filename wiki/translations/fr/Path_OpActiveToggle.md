@@ -7,6 +7,8 @@
    Shortcut:**P** **X **
 ---
 
+# Path OpActiveToggle/fr
+
 ## Description
 
 L\'outil **<img src="images/Path_OpActiveToggle.svg" width=24px> [Path Activation de l'opération](Path_OpActiveToggle/fr.md)** dans l\'[Atelier Path](Path_Workbench/fr.md) est utilisé pour basculer l\'état actif d\'une opération de chemin existante. Cet outil n\'est pas disponible, icône gris clair, tant que vous n\'avez pas créé une ou plusieurs opérations de chemin. Une fois que votre <img alt="" src=images/Path_Job.svg  style="width:24px;"> [Path Tâche](Path_Job/fr.md) a au moins une opération de chemin, l\'icône passe colorée indiquant qu\'elle est disponible pour utilisation.
@@ -64,4 +66,7 @@ Exemple :
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path OpActiveToggle/fr

@@ -1,7 +1,4 @@
 # Placement/zh-cn
-
-
-
 <div class="mw-translate-fuzzy">
 
 ## 概述
@@ -286,5 +283,5 @@ To make the placement of \"Sketch\" equal to that of \"Cylinder\", you would ent
 
 -   This tutorial: [Aeroplane](Aeroplane.md) covers the mechanics of changing an object\'s Placement extensively.
 
-
-
+---
+[documentation index](../README.md) > Placement/zh-cn

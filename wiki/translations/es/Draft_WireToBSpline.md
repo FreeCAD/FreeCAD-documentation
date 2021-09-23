@@ -6,6 +6,8 @@
    Workbenches:[Boceto](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
 ---
 
+# Draft WireToBSpline/es
+
 
 </div>
 
@@ -94,8 +96,5 @@ wire_from_spline = Draft.make_wire(points2)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft WireToBSpline/es

@@ -7,6 +7,8 @@
    SeeAlso:[Arch IFC](Arch_IFC.md), [Arch IfcExplorer](Arch_IfcExplorer.md)
 ---
 
+# Arch IfcSpreadsheet
+
 ## Description
 
 This tool creates a spreadsheet to store [IFC](Arch_IFC.md) properties of an object.
@@ -44,7 +46,5 @@ FreeCAD.ActiveDocument.recompute()
 spreadsheet = Arch.makeIfcSpreadsheet(Wall)
 ```
 
-
-
-
-  
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch IfcSpreadsheet

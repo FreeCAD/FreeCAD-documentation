@@ -1,5 +1,5 @@
 # Development roadmap/sv
- **Important: many of these roadmaps are not up to date or perhaps abandoned. This page and the pages it links to most likely contain obsolete info. A 'soft' roadmap can be found on the [http://www.freecadweb.org/tracker/roadmap_page.php bugtracker] but for now there isn't a 'hard' roadmap. There are many efforts going on simultaneously.**
+**Important: many of these roadmaps are not up to date or perhaps abandoned. This page and the pages it links to most likely contain obsolete info. A 'soft' roadmap can be found on the [http://www.freecadweb.org/tracker/roadmap_page.php bugtracker] but for now there isn't a 'hard' roadmap. There are many efforts going on simultaneously.**
 
 FreeCAD, är, fastän det redan är användbart inom vissa områden, i början av en lång väg till huvudvägen inom CAD. Det finns fortfarande mycket att göra för att nå en status där vi kan tävla med kommersiell mjukvara.
 
@@ -44,3 +44,6 @@ Som i de flesta [FLOSS](http://en.wikipedia.org/wiki/FLOSS) projekt så är slä
 
 
 [Category:Roadmap](Category:Roadmap.md)
+
+---
+[documentation index](../README.md) > [Roadmap](Category:Roadmap.md) > Development roadmap/sv

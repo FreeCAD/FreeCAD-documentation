@@ -1,3 +1,4 @@
+# Path Custom/it
 ---
 - GuiCommand:/it   Name:Path Custom   Name/it:Personalizza   Workbenches:[[Path Workbench/it   Path]]|MenuLocation:Path → Comandi parziali → Personalizza   Shortcut:   SeeAlso:---
 
@@ -42,4 +43,7 @@ Notare che le velocità di avanzamento sono generate correttamente dal postproce
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Custom/it

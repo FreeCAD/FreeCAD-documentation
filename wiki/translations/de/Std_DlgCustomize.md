@@ -7,6 +7,8 @@
    SeeAlso:[Oberflächenanpassung](Interface_Customization/de.md)
 ---
 
+# Std DlgCustomize/de
+
 ## Beschreibung
 
 Der **Std DlgAnpassen** Befehl öffnet das Dialogfeld Anpassen, das Zugriff auf mehrere Anpassungsoptionen bietet.
@@ -32,4 +34,7 @@ Der **Std DlgAnpassen** Befehl öffnet das Dialogfeld Anpassen, das Zugriff auf 
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std DlgCustomize/de

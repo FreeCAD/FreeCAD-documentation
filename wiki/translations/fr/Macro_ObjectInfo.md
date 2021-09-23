@@ -1,5 +1,5 @@
 # Macro ObjectInfo/fr
- {{Macro/fr
+{{Macro/fr
 |Name=Macro ObjectInfo
 |Description=Cet atelier vous permet de connaître la surface, le volume, le centre de masse et le moment d’inertie de l’objet sélectionné.
 |Author=keithsloan52
@@ -47,6 +47,5 @@ Un utilisateur FreeCAD créé un module convivial \"Info\" que vous pouvez obten
 
 Sur le Forum [Info Workbench - Help with icons please.](http://forum.freecadweb.org/viewtopic.php?f=10&t=3185)
 
-
-
-
+---
+[documentation index](../README.md) > Macro ObjectInfo/fr

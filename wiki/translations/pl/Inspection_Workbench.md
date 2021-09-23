@@ -1,7 +1,4 @@
-# Inspection Workbench/pl
- 
-
-<img alt="Ikonka FreeCAD dla Środowiska pracy Inspekcja" src=images/Workbench_Inspection.svg  style="width:128px;">
+# <img alt="Ikonka FreeCAD dla Środowiska pracy Inspekcja" src=images/Workbench_Inspection.svg  style="width:64px;"> Inspection Workbench/pl
 
 ## Wprowadzenie
 
@@ -27,3 +24,6 @@ Alternatywnie, użyj makra ![ 24px](images/_HighlightDifference.png ) [Highlight
 
 
 [Category:Inspection](Category:Inspection.md) [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Inspection Workbench/pl

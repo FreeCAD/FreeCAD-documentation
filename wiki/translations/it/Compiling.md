@@ -1,7 +1,4 @@
 # Compiling/it
-
-
-
 <div class="mw-translate-fuzzy">
 
 Ogni sistema operativo ha la sua pagina per la compilazione di FreeCAD nella [documentazione online](Online_Help_Toc/it.md).
@@ -52,3 +49,6 @@ Per imparare a usare il sistema di controllo di revisione e contribuire con il c
 
 
 [Category:Developer\_Documentation](Category:Developer_Documentation.md) [Category:Developer](Category:Developer.md)
+
+---
+[documentation index](../README.md) > [Developer_Documentation](Category:Developer_Documentation.md) > Compiling/it

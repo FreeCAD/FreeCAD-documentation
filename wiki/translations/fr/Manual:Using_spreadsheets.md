@@ -1,7 +1,4 @@
 # Manual:Using spreadsheets/fr
- 
-
-
 {{Manual:TOC/fr}}
 
 FreeCAD dispose d\'un autre atelier intéressant à explorer : l'atelier Feuilles de calcul ([Spreadsheet Workbench](Spreadsheet_Workbench/fr.md)). Cet atelier permet de créer des feuilles de calcul ([spreadsheets](https://en.wikipedia.org/wiki/Spreadsheet)) telles que celles réalisées avec [Excel](https://en.wikipedia.org/wiki/Microsoft_Excel) ou [LibreOffice](https://en.wikipedia.org/wiki/OpenOffice.org_Calc) directement dans FreeCAD. Ces feuilles de calcul peuvent ensuite être remplies avec des données extraites de votre modèle et peuvent également effectuer une série de calculs entre les valeurs. Les feuilles de calcul peuvent être exportées sous forme de fichiers CSV, qui peuvent être importés dans n\'importe quelle autre application de tableur.
@@ -87,3 +84,6 @@ Vous pouvez également donner des alias aux contraintes dimensionnelles (horizon
 
 
 [Catégorie:Tutoriels](Category:Tutorials/fr.md)
+
+---
+[documentation index](../README.md) > Manual:Using spreadsheets/fr

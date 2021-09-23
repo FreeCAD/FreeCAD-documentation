@@ -8,6 +8,8 @@
    SeeAlso:[Sketcher Arc de elipsă](Sketcher_CreateArcOfEllipse/ro.md), [Sketcher Arc de parabolă](Sketcher_CreateArcOfParabola/ro.md)
 ---
 
+# Sketcher CreateArcOfHyperbola/ro
+
 
 </div>
 
@@ -40,4 +42,7 @@ Acest instrument creează un arc de hiperbola definit prin centru, rază majoră
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateArcOfHyperbola/ro

@@ -8,6 +8,8 @@
    SeeAlso:[Part Fragments booléens](Part_BooleanFragments/fr.md), [Part OU exclusif](Part_XOR/fr.md), [Part Jointure](Part_CompJoinFeatures/fr.md), [Part Opérations booléennes](Part_Boolean/fr.md)
 ---
 
+# Part Slice/fr
+
 ## Description
 
 L\'outil <img alt="" src=images/Part_Slice.svg  style="width:24px;"> [Part Scinder](Part_Slice/fr.md) aussi connue sous **Slice to compound** est utilisé pour diviser des formes par intersection avec d\'autres formes. Par exemple, pour une boîte et un plan, un composé de deux solides est créé.
@@ -127,8 +129,5 @@ L\'outil lui-même est implémenté en Python, voir {{FileName|/Mod/Part/BOPTool
 
 -   [FreeCAD Slice und Slice Apart und andere Tricks](https://www.youtube.com/watch?v=JJAL5JmqqKQ) (en allemand), auteur : Ha Gei
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Slice/fr

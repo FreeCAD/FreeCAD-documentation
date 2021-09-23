@@ -1,6 +1,4 @@
 # Part/it
-
-
 ## Introduzione
 
 
@@ -46,3 +44,6 @@ Tuttavia, quando è richiesta maggiore precisione, vanno fatte le dovute distinz
 }} {{Document objects navi}} 
 
 [Category:Glossary](Category:Glossary.md)
+
+---
+[documentation index](../README.md) > [Glossary](Category:Glossary.md) > Part/it

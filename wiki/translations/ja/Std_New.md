@@ -1,3 +1,4 @@
+# Std New/ja
 ---
 - GuiCommand:/jp   Name:Std_New   MenuLocation:File -> New   Workbenches:All   SeeAlso:[[Std_Open]],[[Std_Import]]---
 
@@ -100,4 +101,7 @@ FreeCAD.closeDocument(doc.Name)
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std New/ja

@@ -7,6 +7,8 @@
    SeeAlso:[Arch Wall/tr](Arch_Wall/tr.md), [Arch Rebar/tr](Arch_Rebar/tr.md)
 ---
 
+# Arch Structure/tr
+
 
 </div>
 
@@ -135,8 +137,5 @@ FreeCAD.ActiveDocument.recompute()
 
 </div>
 
-
-
-
-
-
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Structure/tr

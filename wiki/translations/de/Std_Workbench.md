@@ -7,6 +7,8 @@
    SeeAlso:[Arbeitsbereiche](Workbenches/de.md)
 ---
 
+# Std Workbench/de
+
 ## Beschreibung
 
 Der **Std Arbeitsbereich** aktiviert einen ausgewählten [Arbetsbereich](Workbenches/de.md) einschließlich ihrer grafischen Benutzeroberfläche (GUI).
@@ -50,4 +52,7 @@ FreeCADGui.activateWorkbench("PartDesignWorkbench")
 
 {{Std Base navi
 
-}}  {{Interface navi}} 
+}}  {{Interface navi}}
+
+---
+[documentation index](../README.md) > Std Workbench/de

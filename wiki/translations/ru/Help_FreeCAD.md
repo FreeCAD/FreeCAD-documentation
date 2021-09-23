@@ -1,6 +1,4 @@
 # Help FreeCAD/ru
-
-
 ## Вступление
 
 
@@ -85,3 +83,6 @@
 
 
 [Category:Documentation](Category:Documentation.md) [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Common Questions](Category:Common_Questions.md)
+
+---
+[documentation index](../README.md) > [Command Reference]] перечислены и документированы все ](Category:Command Reference]] перечислены и документированы все .md) > Help FreeCAD/ru

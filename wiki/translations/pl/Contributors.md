@@ -1,10 +1,4 @@
 # Contributors/pl
-
-
-
-
-
-
 {{TOCright}}
 
 <img alt="" src=images/FreeCAD_Users_Contributors.svg  style="width:64px;">
@@ -253,3 +247,6 @@ Programiści tworzący dodatki do FreeCAD *(dostępne na stronie <https://github
 
 
 [Category:Developer](Category:Developer.md)
+
+---
+[documentation index](../README.md) > [Developer](Category:Developer.md) > Contributors/pl

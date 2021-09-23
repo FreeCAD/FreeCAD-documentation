@@ -1,6 +1,4 @@
 # Artwork Draft/pl
- 
-
 These icons are in the indicated source path.
 
 For all icons in the source tree, see [Artwork](Artwork.md).
@@ -21,3 +19,6 @@ For all icons in the source tree, see [Artwork](Artwork.md).
 
 
 [Category:Draft](Category:Draft.md)
+
+---
+[documentation index](../README.md) > [Draft](Category:Draft.md) > Artwork Draft/pl

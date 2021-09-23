@@ -6,6 +6,8 @@
    Version:0.18
 ---
 
+# Sketcher ViewSection/it
+
 
 </div>
 
@@ -38,4 +40,7 @@ Lo strumento **Vista sezione** crea un piano di sezione che nasconde temporaneam
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ViewSection/it

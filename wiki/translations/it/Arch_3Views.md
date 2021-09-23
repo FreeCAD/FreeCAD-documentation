@@ -7,6 +7,8 @@
    SeeAlso:[Dividi Mesh](Arch_SplitMesh/it.md), [Da Mesh a Forma](Arch_MeshToShape/it.md)
 ---
 
+# Arch 3Views/it
+
 
 </div>
 
@@ -106,8 +108,5 @@ mesh_obj.ViewObject.Visibility = False
 
 </div>
 
-
-
-
-
-
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch 3Views/it

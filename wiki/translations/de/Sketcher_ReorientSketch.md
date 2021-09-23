@@ -7,6 +7,8 @@
    SeeAlso:[Skizzierer Skizze zuordnen](Sketcher_MapSketch/de.md), [Skizzierer Neue Skizze](Sketcher_NewSketch/de.md)
 ---
 
+# Sketcher ReorientSketch/de
+
 ## Beschreibung
 
 Ermöglicht es dir, eine Skizze von einer Fläche zu lösen und sie an einer der Hauptebenen (mit einem Versatz) anzuheften.
@@ -31,4 +33,7 @@ Ermöglicht es dir, eine Skizze von einer Fläche zu lösen und sie an einer der
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ReorientSketch/de

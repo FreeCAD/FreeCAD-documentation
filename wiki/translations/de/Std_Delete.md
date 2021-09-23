@@ -6,6 +6,8 @@
    Shortcut:**Del**
 ---
 
+# Std Delete/de
+
 ## Beschreibung
 
 Der **Std Löschen** Befehl löscht die ausgewählten Objekte.
@@ -43,4 +45,7 @@ FreeCAD.ActiveDocument.removeObject("myObjectName")
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std Delete/de

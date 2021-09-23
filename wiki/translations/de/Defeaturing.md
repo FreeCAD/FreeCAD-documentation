@@ -1,6 +1,4 @@
 # Defeaturing/de
-
-
 ## Einführung
 
 3D Modell Vereinfachung wurde mit Open CASCADE 7.3 [1](https://dev.opencascade.org/index.php?q=node/1211) hinzugefügt und kann zur Bearbeitung von STEP Modellen verwendet werden, indem die Formelemente aus dem Modell entfernt werden.
@@ -29,3 +27,6 @@ Part.show(box4) #show defeatured shape
  
 
 [Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+
+---
+[documentation index](../README.md) > [Addons](Category:Addons.md) > Defeaturing/de

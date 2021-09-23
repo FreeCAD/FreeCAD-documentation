@@ -1,3 +1,4 @@
+# Drawing Symbol
 ---
 - GuiCommand:   Name:Drawing Symbol   Workbenches:[[Drawing Workbench   Drawing]], Complete|MenuLocation:Drawing → Symbol   Shortcut:none---
 
@@ -19,4 +20,7 @@ This command allows you to add the contents of a SVG image on a selected [Drawin
 
 {{docnav|[Ortho Views](Drawing_Orthoviews.md)|[Spreadsheet View](Drawing_SpreadsheetView.md)|[Drawing Workbench](Drawing_Workbench.md)|IconL=Drawing_Orthoviews.png|IconC=Workbench_Drawing.svg|IconR=Drawing_SpreadsheetView.png}}
 
- {{Drawing Tools navi}} 
+ {{Drawing Tools navi}}
+
+---
+[documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Symbol

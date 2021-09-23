@@ -7,6 +7,8 @@
    Version:0.17
 ---
 
+# Spreadsheet StyleItalic/fr
+
 ## Description
 
 L\'outil **<img src=images/Spreadsheet_StyleItalic.svg style="width:16px"> [Spreadsheet Texte en italique](Spreadsheet_StyleItalic/fr.md)** fait que le texte à l\'intérieur de la cellule adopte le style *italique*.
@@ -23,4 +25,7 @@ L\'outil **<img src=images/Spreadsheet_StyleItalic.svg style="width:16px"> [Spre
 
 {{Spreadsheet_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet StyleItalic/fr

@@ -1,7 +1,4 @@
 # Manual:Creating interface tools/ru
- 
-
-
 {{Manual:TOC/ru}}
 
 В последних двух главах мы видели как [создать геометрию Part](Manual:Creating_and_manipulating_geometry/ru.md) и [создавать параметрический объекты](Manual:Creating_parametric_objects/ru.md). Чтобы получить полный контроль за FreeCAD, осталось одно: создание инструментов, взаимодействующими с пользователем.
@@ -132,3 +129,6 @@ w.BoxHeight.value()
 }} 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Manual:Creating interface tools/ru

@@ -1,10 +1,4 @@
-# Start Workbench/ro
-
-
-
-
-
-<img alt="Start workbench icon" src=images/Workbench_Start.svg  style="width:128px;">
+# <img alt="Start workbench icon" src=images/Workbench_Start.svg  style="width:64px;"> Start Workbench/ro
 
 
 <div class="mw-translate-fuzzy">
@@ -62,3 +56,6 @@ Din această interfață puteți vedea informații utile și puteți să accesa�
 
 
 [Category:Start](Category:Start.md) [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Start Workbench/ro

@@ -6,6 +6,8 @@
    SeeAlso:[Path DressupTag](Path_DressupTag.md), [Path DressupDogbone](Path_DressupDogbone.md), [Path DressupDragKnife](Path_DressupDragKnife.md)
 ---
 
+# Path DressupRampEntry
+
 ## Description
 
 This tool dresses up an existing path to add a ramp entry
@@ -30,4 +32,7 @@ This tool dresses up an existing path to add a ramp entry
 
 
 
- {{Path_Tools_navi}} 
+ {{Path_Tools_navi}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path DressupRampEntry

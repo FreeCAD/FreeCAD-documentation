@@ -1,5 +1,5 @@
 # Macro cross section/fr
- {{Macro/fr
+{{Macro/fr
 |Name=Cross_section
 |Icon=Macro_cross_section.png
 |Description=Affiche de manière interactive une section transversale avec l'aide d'une barre coulissante.
@@ -663,3 +663,6 @@ ver 00.07 17/09/2017 : upgrade multiple objets avec différentes couleurs par Gi
 ver 00.06 06/09/2017 : upgrade par Gift see [Optischer Schnitt durch Baugruppe, z.B. für Ventilgehäuse](https://www.forum.freecadweb.org/viewtopic.php?f=13&t=24130) accepte multiple objets avec différentes couleurs
 
 ver 00.05 17/08/2017 : upgrade pour la version 0.17 FreeCAD version par Sam voir [Sezione Dinamica](https://forum.freecadweb.org/viewtopic.php?f=28&t=15084&start=10#p187030)
+
+---
+[documentation index](../README.md) > Macro cross section/fr

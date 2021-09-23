@@ -1,10 +1,4 @@
-# Arch Workbench/es
-
-
-
-
-
-<img alt="El icono del Ambiente de trabajo Arquitectura" src=images/Workbench_Arch.svg  style="width:128px;">
+# <img alt="El icono del Ambiente de trabajo Arquitectura" src=images/Workbench_Arch.svg  style="width:64px;"> Arch Workbench/es
 
 
 {{TOCright}}
@@ -145,3 +139,6 @@ El Módulo de arquitectura puede usarse en scripts de [Python](Python/es.md) y e
  
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Arch Workbench/es

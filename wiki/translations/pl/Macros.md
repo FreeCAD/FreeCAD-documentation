@@ -1,7 +1,4 @@
 # Macros/pl
-
-
-
 {{TOCright}}
 
 ## Wprowadzenie
@@ -69,3 +66,6 @@ Możesz ręcznie instalować rozszerzenia, jednak znacznie prostsze jest użycie
 }} 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md) [Category:Macros](Category:Macros.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Macros/pl

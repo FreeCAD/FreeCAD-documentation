@@ -7,6 +7,8 @@
    SeeAlso:[Path Balise d'attache](Path_DressupTag/fr.md), [Path Rampe d'entrée](Path_DressupRampEntry/fr.md), [Path Habillage pour lame rotative](Path_DressupDragKnife/fr.md)
 ---
 
+# Path DressupDogbone/fr
+
 ## Description
 
 Cet outil permet de rajouter des sur-découpes dans le cas d\'angles intérieurs d\'un profil ou pour la decoupe de coins. Une fraise cylindrique ne peut pas usiner un coin aigu sans entrer en collision avec le modèle. Dans certains cas, il peut être préférable de violer le modèle et de s\'assurer que le matériau du coin est enlevé. Ceci est particulièrement nécessaire si les pièces se croisent/s\'imbriquent les unes avec les autres.
@@ -34,4 +36,7 @@ Pour déterminer le tracé de correction des coins, il faut un segment droit (G1
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path DressupDogbone/fr

@@ -7,6 +7,8 @@
    Shortcut:F
 ---
 
+# Sketcher CreateFillet/de
+
 ## Beschreibung
 
 Dieses Werkzeug erzeugt eine Verrundung zwischen zwei an einem Punkt verbundenen Linien. Aktiviere das Werkzeug, wähle dann beide Linien aus oder klicke auf den Eckpunkt.
@@ -27,4 +29,7 @@ Beim Starten des Werkzeugs werden Auswahlen gelöscht und der Mauszeiger ändert
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateFillet/de

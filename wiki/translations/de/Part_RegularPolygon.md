@@ -7,6 +7,8 @@
    SeeAlso:
 ---
 
+# Part RegularPolygon/de
+
 
 </div>
 
@@ -50,8 +52,5 @@ The RegularPolygon is available from the Create Primitives dialogue in the Part 
 
 </div>
 
-
-
-
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part RegularPolygon/de

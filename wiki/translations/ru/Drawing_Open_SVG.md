@@ -8,6 +8,8 @@
    SeeAlso:[Экспортировать страницу](Drawing_Save/ru.md)
 ---
 
+# Drawing Open SVG/ru
+
 
 </div>
 
@@ -22,4 +24,7 @@
 
 {{Drawing Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Open SVG/ru

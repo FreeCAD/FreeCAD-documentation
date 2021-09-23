@@ -8,6 +8,8 @@
    SeeAlso:[Wiązanie równoległości](Sketcher_ConstrainParallel/pl.md)
 ---
 
+# Sketcher ConstrainSymmetric/pl
+
 ## Opis
 
 **Wiązanie symetrii** nadaje dwóm wybranym punktom symetrię wokół danej prostej, tzn. oba wybrane punkty muszą leżeć na normalnej do prostej przechodzącej przez oba punkty i muszą być jednakowo odległe od tej prostej. Alternatywnie funkcja ta może wymuszać, aby dwa punkty były symetryczne względem trzeciego.
@@ -61,4 +63,7 @@ Strona [Skrypty szkicownika](Sketcher_scripting/pl.md) wyjaśnia wartości, któ
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainSymmetric/pl

@@ -6,6 +6,8 @@
    Version:0.19
 ---
 
+# Part ProjectionOnSurface/ru
+
 ## Описание
 
 
@@ -99,5 +101,5 @@ If this happens:
 
 </div>
 
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part ProjectionOnSurface/ru

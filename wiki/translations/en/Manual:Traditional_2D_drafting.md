@@ -1,7 +1,4 @@
 # Manual:Traditional 2D drafting/en
- 
-
-
 {{Manual:TOC}}
 
 You might be interested by FreeCAD because you already have some technical drawing experience, for example with software like [AutoCAD](https://en.wikipedia.org/wiki/AutoCAD). Or you already know something about design, or you prefer to draw things before building them. In any case, FreeCAD features a more traditional workbench, with tools found in most 2D CAD applications: The [Draft Workbench](Draft_Workbench.md).
@@ -114,3 +111,6 @@ Fundamentally, what the Draft Workbench does is to provide graphical ways to cre
 
 
 [Category:Tutorials](Category:Tutorials.md) [Category:Draft](Category:Draft.md)
+
+---
+[documentation index](../README.md) > [Tutorials](Category:Tutorials.md) > Manual:Traditional 2D drafting/en

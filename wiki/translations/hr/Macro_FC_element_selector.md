@@ -1,5 +1,5 @@
 # Macro FC element selector/hr
- {{Macro
+{{Macro
 |Name=Macro FC element selector
 |Icon=Macro_FC_element_selector.png
 |Translate=Odabir elementa za makro FC
@@ -212,3 +212,6 @@ element_selector()
 Rasprava na forumu [Selecting internal faces of a pressure vessel](https://forum.freecadweb.org/viewtopic.php?f=18&t=12381&p=151950#p151950)
 
 Drugi slični makro [Macro Mouse over cb](Macro_Mouse_over_cb/hr.md)
+
+---
+[documentation index](../README.md) > Macro FC element selector/hr

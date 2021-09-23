@@ -1,3 +1,4 @@
+# Draft Point/sv
 ---
 - GuiCommand:/sv   Name:Draft Point   Name/sv:Draft Point   Workbenches:[Arch](Draft_Workbench/sv___Draft]],_[[Arch_Workbench/sv.md)|MenuLocation:Draft -> Point   Shortcut:P T---
 
@@ -147,8 +148,5 @@ for i in range(N):
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Point/sv

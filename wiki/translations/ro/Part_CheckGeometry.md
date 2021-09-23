@@ -1,3 +1,4 @@
+# Part CheckGeometry/ro
 ---
 - GuiCommand:   Name:Part CheckGeometry‏‎   MenuLocation:Part → Check geometry   Workbenches:[[Part Workbench   Part]]|SeeAlso:---
 
@@ -48,10 +49,7 @@ Dacă doriți să activați verificările extra BOP (BOP = Operații booleene), 
 
 ### Log errors 
 
-If ticked, any errors found are also logged in the [report view](Report_view.md). <small>(v0.19)</small> 
+If ticked, any errors found are also logged in the [report view](Report_view.md). <small>(v0.19)</small>
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part CheckGeometry/ro

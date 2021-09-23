@@ -8,6 +8,8 @@
    SeeAlso:[Additive Ausformung](PartDesign_AdditiveLoft/de.md), [Abziehbares Rohr](PartDesign_SubtractivePipe/de.md)
 ---
 
+# PartDesign SubtractiveLoft/de
+
 
 </div>
 
@@ -81,4 +83,7 @@
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveLoft/de

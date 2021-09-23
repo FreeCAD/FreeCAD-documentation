@@ -1,7 +1,4 @@
 # FreeCAD Scripting Basics/ru
-
-
-
 {{TOCright}}
 
 ## Написание сценариев Python в FreeCAD 
@@ -217,3 +214,6 @@ print(myObj.isDerivedFrom("Part::Feature"))
 }} 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > FreeCAD Scripting Basics/ru

@@ -1,5 +1,5 @@
 # Macro Assemblage Imprimante 3D/en
- {{Macro
+{{Macro
 |Name=Macro_Assemblage_Imprimante_3D
 |Icon=Macro_Assemblage_Imprimante_3D.png
 |Description=Simulates the motion of a 3D printer in the Z axis.<br />The script author is Javier Martínez García (JMG) and has been adapted for this project.
@@ -111,4 +111,7 @@ animation = Animation()
 
 The forum discussion page: [Je galere pour tourner une piece](http://forum.freecadweb.org/viewtopic.php?f=12&t=11782)
 
-The Youtube channel of the macro author [FreeCAD: Gear Animation Tutorial](https://www.youtube.com/watch?v=KynMmsLJXV0) and its [blog](http://linuxforanengineer.blogspot.com.es/p/me.html) 
+The Youtube channel of the macro author [FreeCAD: Gear Animation Tutorial](https://www.youtube.com/watch?v=KynMmsLJXV0) and its [blog](http://linuxforanengineer.blogspot.com.es/p/me.html)
+
+---
+[documentation index](../README.md) > Macro Assemblage Imprimante 3D/en

@@ -7,6 +7,8 @@
    SeeAlso:[TechDraw Ansicht](TechDraw_View/de.md), [TechDraw ProjektionsGruppe](TechDraw_ProjectionGroup/de.md)
 ---
 
+# TechDraw LinkDimension/de
+
 
 </div>
 
@@ -104,4 +106,7 @@ to be defined
 
 {{TechDraw Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw LinkDimension/de

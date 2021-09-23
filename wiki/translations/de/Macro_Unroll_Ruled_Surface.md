@@ -1,5 +1,5 @@
 # Macro Unroll Ruled Surface/de
- {{Macro/de
+{{Macro/de
 |Name=Macro Unroll Ruled Surface
 |Translate=Makro Abwickeln Regelfläche
 |Description=Das Makro ermöglicht das Abrollen von Regelflächen und das Zeichnen auf einer Seite.
@@ -746,6 +746,5 @@ DialogBox.show()
 
 }}
 
-
-
-
+---
+[documentation index](../README.md) > Macro Unroll Ruled Surface/de

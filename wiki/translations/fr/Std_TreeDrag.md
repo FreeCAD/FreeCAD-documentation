@@ -8,6 +8,8 @@
    Version:0.19
 ---
 
+# Std TreeDrag/fr
+
 ## Description
 
 La commande **Std Commencer un déplacement** lance une opération de glissement pour les objets sélectionnés dans la [vue en arborescence](tree_view/fr.md). Cette commande est utile lorsque les objets, que vous souhaitez faire glisser et déposer, et le conteneur cible ne sont pas visibles en même temps dans l\'arborescence.
@@ -28,4 +30,7 @@ La commande **Std Commencer un déplacement** lance une opération de glissement
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std TreeDrag/fr

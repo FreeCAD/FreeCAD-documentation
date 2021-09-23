@@ -1,3 +1,4 @@
+# Drawing Symbol/it
 ---
 - GuiCommand:/it   Name:Drawing Symbol   Name/it:Simbolo   Workbenches:[[Drawing Workbench/it   Drawing]], Completo|MenuLocation:Drawing → Simbolo   Shortcut: ---
 
@@ -29,4 +30,7 @@ Questo comando consente di aggiungere il contenuto di un\'immagine SVG in una [p
 
 {{Drawing Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Symbol/it

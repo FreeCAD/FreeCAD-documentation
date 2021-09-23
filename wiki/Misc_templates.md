@@ -1,6 +1,4 @@
 # Misc templates
- 
-
 This page lists some mixed templates.
 All models are in SVG format directly downloadable and usable with or without modification.
 All the templates and cartridges are equipped with editable texts in FreeCAD.
@@ -85,3 +83,6 @@ CompassRose\_3D [CompassRose\_3D.FCStd](http://forum.freecadweb.org/download/fil
  
 
 [Category:Documentation](Category:Documentation.md) [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Drawing](Category:Drawing.md)
+
+---
+[documentation index](../README.md) > [Documentation](Category:Documentation.md) > Misc templates

@@ -1,6 +1,4 @@
 # Spreadsheet/de
-
-
 ## Beschreibung
 
 Eine [Kalkulationstabelle](spreadsheet/de.md) ist eine Seite, die Zeilen und Spalten enthält, die es dir ermöglicht, beliebigen Text in Zellen zu speichern. Noch wichtiger ist, dass du die Zellen mit [Ausdrücke](Expressions/de.md) verwenden kannst, um Werte zu berechnen, die von zuvor eingegebenen Werten abhängen; dies können Längen, Winkel, Flächen, Volumen und andere Typen sein.
@@ -12,5 +10,5 @@ Eine [Kalkulationstabelle](spreadsheet/de.md) ist eine Seite, die Zeilen und Spa
 3.  Den Inhalt der Zellen bearbeiten.
 4.  Schließe den Tabellenblattreiter, wenn du fertig bist. Die Werte werden automatisch gespeichert, wenn du sie eingibst.
 
-
-
+---
+[documentation index](../README.md) > Spreadsheet/de

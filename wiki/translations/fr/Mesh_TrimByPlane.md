@@ -7,6 +7,8 @@
    SeeAlso:[Mesh Couper le maillage](Mesh_PolyCut/fr.md), [Mesh Découper](Mesh_PolyTrim/fr.md)
 ---
 
+# Mesh TrimByPlane/fr
+
 ## Description
 
 La commande **Mesh Créer une section** permet de découper les faces et parties de faces d\'un côté d\'un plan à partir d\'un objet maillé.
@@ -44,4 +46,7 @@ La commande **Mesh Créer une section** permet de découper les faces et parties
 
 {{Mesh Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh TrimByPlane/fr

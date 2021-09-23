@@ -9,6 +9,8 @@
    SeeAlso:
 ---
 
+# Ship Outline/de
+
 ## Beschreibung
 
 Plottet die Konturzeichnung des Schiffsrumpfes
@@ -107,4 +109,7 @@ Umrisszeichnungsplot.
 
 {{Ship_Tools_navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Ship Outline/de

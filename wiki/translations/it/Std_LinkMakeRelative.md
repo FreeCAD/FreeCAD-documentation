@@ -8,6 +8,8 @@
    SeeAlso:[Parte](Std_Part/it.md), [Gruppo](Std_Group/it.md), [Crea un link](Std_LinkMake/it.md)
 ---
 
+# Std LinkMakeRelative/it
+
 ## Descrizione
 
 Lo strumento <img alt="" src=images/Std_LinkMakeRelative.svg  style="width:16px;"> [Crea un link relativo](Std_LinkMakeRelative/it.md) crea un [App Link](App_Link/it.md) (classe `App::Link`), così come fa <img alt="" src=images/Std_LinkMake.svg  style="width:16px;"> [Crea un link](Std_LinkMake/it.md), ma opera prima sui sottoelementi selezionati e imposta **Link Transform** su `True`.
@@ -61,4 +63,7 @@ App.ActiveDocument.recompute()
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std LinkMakeRelative/it

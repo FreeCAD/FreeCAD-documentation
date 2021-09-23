@@ -1,7 +1,4 @@
-# Assembly4 Workbench/it
-
-
-<img alt="External workbench icon" src=images/Assembly4_workbench_icon.svg  style="width:128px;">
+# <img alt="External workbench icon" src=images/Assembly4_workbench_icon.svg  style="width:64px;"> Assembly4 Workbench/it
 
 ## Introduzione
 
@@ -47,3 +44,6 @@ Il montaggio4 è stato ispirato da <img alt="" src=images/A2p_workbench.svg  sty
 
 
 [Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+
+---
+[documentation index](../README.md) > Assembly4 Workbench/it

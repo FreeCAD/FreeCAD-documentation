@@ -5,6 +5,8 @@
    Workbenches:[Mesh](Mesh_Workbench.md)
 ---
 
+# Mesh Decimating/pl
+
 ## Description
 
 The **Mesh Decimating** command reduces the number of faces in mesh objects.
@@ -30,4 +32,7 @@ The **Mesh Decimating** command reduces the number of faces in mesh objects.
 
 {{Mesh Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Decimating/pl

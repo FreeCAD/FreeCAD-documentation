@@ -1,6 +1,5 @@
 # BIM application compatibility table/de
-
-  Diese Seite gibt einen allgemeinen Überblick darüber, wie die verschiedenen Werkzeuge und Konzepte, die in anderen gängigen BIM Anwendungen zu finden sind, im Vergleich zu FreeCAD, speziell der [BIM Arbeitsbereich](BIM_Workbench/de.md), aussehen.
+Diese Seite gibt einen allgemeinen Überblick darüber, wie die verschiedenen Werkzeuge und Konzepte, die in anderen gängigen BIM Anwendungen zu finden sind, im Vergleich zu FreeCAD, speziell der [BIM Arbeitsbereich](BIM_Workbench/de.md), aussehen.
 
 **ZUTUN:** Andere BIM Apps hinzufügen: Allplan, Tekla, Vectorworks, BricsCAD, was noch?
 
@@ -16,3 +15,6 @@
   **Standard BIM Elemente**                                       Wände, Strukturen (Balken, Säulen und Decken), Fenster (Türen und Fenster), Dächer, Treppen, Rahmen (Geländer), Bauteile (Möbel, Geräte, etc.)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  Wände, Balken, Säulen, Böden, Decken, Fenster, Türen, Dächer, Treppen, Geländer, Bauteile (Möbel, Geräte, etc.)                                                                                                                                                    Wände, Balken, Säulen, Decken, Fenster, Türen, Dächer, Treppen, Geländer, Vorhangfassaden, Objekte (Möbel, Geräte, etc.)
 
 [Category:BIM](Category:BIM.md)
+
+---
+[documentation index](../README.md) > [BIM](Category:BIM.md) > BIM application compatibility table/de

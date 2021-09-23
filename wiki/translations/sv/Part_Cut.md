@@ -1,3 +1,4 @@
+# Part Cut/sv
 ---
 - GuiCommand:/sv   Name:Part_Cut   Name/sv:Part Cut   MenuLocation:Part → Cut   Workbenches:[Komplett](Part_Workbench/sv___Del]],[[Complete_Workbench/sv.md)|SeeAlso:[Union](Part_Union/sv.md), [Common](Part_Common/sv.md)---
 
@@ -29,8 +30,5 @@ Cuts (subtracts) selected Part objects, the last one being subtracted from the f
 
 Input objects must be [OpenCascade](OpenCascade.md) shapes. Examples: stuff made with Part, PartDesign, Sketcher workbenches. Not meshes (unless those were converted to shapes) - for meshes, there are specific Boolean tools in MeshDesign workbench.
 
-
-
-
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Cut/sv

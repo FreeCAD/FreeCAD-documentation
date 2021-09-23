@@ -7,6 +7,8 @@
    Version:0.19
 ---
 
+# Path Vcarve/fr
+
 ## Description
 
 L\'outil <img alt="" src=images/Path_Vcarve.svg  style="width:24px;"> [Path Gravure en V](Path_Vcarve/fr.md) est principalement destiné à la gravure de la ligne centrale d\'une <img alt="" src=images/Draft_ShapeString.svg  style="width:24px;"> [Draft Formes à partir texte](Draft_ShapeString/fr.md) sur une pièce. Cependant, cela peut être utile pour d\'autres types de 2D.
@@ -154,4 +156,7 @@ Exemple :
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Vcarve/fr

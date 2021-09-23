@@ -1,5 +1,5 @@
 # Macro BoundingBox Tracing/it
- {{Macro/it
+{{Macro/it
 |Name=Macro BoundingBox Tracing
 |Translate=Traccia contenitore
 |Icon=BoundBoxTracing.png
@@ -454,3 +454,6 @@ ver 0.6 le 08/08/2017: aggiunto testo info dimensioni , contener per retangoli, 
 ver 0.5 le 08/05/2017 : upgrade adesso acceta gli elementi \"mesh\" e \"Points\" grazie wmayer [Makro Bounding-Box für STL importierte Teile und für Punktewolken](http://forum.freecadweb.org/viewtopic.php?f=13&t=22331)
 
 ver 0.4 il 04/06/2016 : testo se value = 0 allora non crea il boundbox (esempio: obietto Draft)
+
+---
+[documentation index](../README.md) > Macro BoundingBox Tracing/it

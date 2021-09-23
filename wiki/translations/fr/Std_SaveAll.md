@@ -7,6 +7,8 @@
    SeeAlso:[Std Enregistrer](Std_Save/fr.md)
 ---
 
+# Std SaveAll/fr
+
 ## Description
 
 La commande **Std Tout enregistrer** enregistre tous les documents actifs.
@@ -39,4 +41,7 @@ Pour enregistrer un document, utilisez la méthode `save` de l\'objet document. 
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std SaveAll/fr

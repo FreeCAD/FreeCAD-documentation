@@ -1,5 +1,5 @@
 # Macro Cabinets32/en
- {{Macro
+{{Macro
 |Name=Cabinets32
 |Icon=Macro_Cabinets32.png
 |Description=This macro creates Top/Bottom and sidewalls for a cabinet with System32 specification.
@@ -551,6 +551,5 @@ if guiok:
 
 -   [Macro\_PartsLibrary](Macro_PartsLibrary.md) FreeCAD Library
 
-
-
-
+---
+[documentation index](../README.md) > Macro Cabinets32/en

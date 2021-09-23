@@ -6,6 +6,8 @@
    Shortcut:**E**
 ---
 
+# SheetMetal Extrude
+
 ## Description
 
 The <img alt="" src=images/SheetMetal_Extrude.svg  style="width:24px;"> **SheetMetal Extrude** command extends a sheet metal face.
@@ -93,3 +95,6 @@ A SheetMetal Extend object is derived from a [Part Feature](Part_Feature.md) obj
 
 
 [Category:SheetMetal](Category:SheetMetal.md) [Category:Addons](Category:Addons.md) [Category:External Command Reference](Category:External_Command_Reference.md)
+
+---
+[documentation index](../README.md) > [SheetMetal](Category:SheetMetal.md) > SheetMetal Extrude

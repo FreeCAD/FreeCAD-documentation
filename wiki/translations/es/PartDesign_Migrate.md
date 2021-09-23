@@ -7,6 +7,8 @@
    Version:0.17
 ---
 
+# PartDesign Migrate/es
+
 ## Descripción
 
 El ambiente de trabajo de DiseñoPiezas en FreeCAD v0.17 introduce nuevas herramientas y elementos que no son reconocidos por las versiones anteriores de FreeCAD (0.16 y anteriores). Los documentos de FreeCAD creados en versiones anteriores pueden seguir siendo abiertos y editados. Para beneficiarse de las nuevas características, deben ser migrados a través del menú DiseñoPiezas → Migrar.
@@ -39,4 +41,7 @@ El ambiente de trabajo de DiseñoPiezas en FreeCAD v0.17 introduce nuevas herram
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Migrate/es

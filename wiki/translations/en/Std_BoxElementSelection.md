@@ -7,6 +7,8 @@
    SeeAlso:[Std BoxSelection](Std_BoxSelection.md), [Std SelectAll](Std_SelectAll.md)
 ---
 
+# Std BoxElementSelection/en
+
 ## Description
 
 The **Std BoxElementSelection** command selects faces from a user defined rectangular area, a box, in the [3D view](3D_view.md).
@@ -30,4 +32,7 @@ The **Std BoxElementSelection** command selects faces from a user defined rectan
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std BoxElementSelection/en

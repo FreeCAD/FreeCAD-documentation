@@ -9,6 +9,8 @@
    Version:0.17
 ---
 
+# EM FHNode/fr
+
 ## Description
 
 L\'outil FHNode insère un objet de nœud FastHenry.
@@ -117,4 +119,7 @@ fhnode = EM.makeFHNode(X=1.0,Y=2.0,Z=0.0)
 
 {{EM Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > EM FHNode/fr

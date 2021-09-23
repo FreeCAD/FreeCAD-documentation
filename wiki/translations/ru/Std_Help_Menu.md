@@ -1,10 +1,4 @@
-# Std Help Menu/ru
-
-
-
-
-
-<img alt="Иконка стандартных инструментов" src=images/Freecad.svg  style="width:128px;">
+# <img alt="Иконка стандартных инструментов" src=images/Freecad.svg  style="width:64px;"> Std Help Menu/ru
 
 
 {{TOCright}}
@@ -64,3 +58,6 @@ The Help menu provides access to the help system and links to the FreeCAD websit
 }}  
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > [Workbenches](Category:Workbenches.md) > Std Help Menu/ru

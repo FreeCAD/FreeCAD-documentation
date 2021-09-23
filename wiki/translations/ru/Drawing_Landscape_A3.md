@@ -7,6 +7,8 @@
    Shortcut:none
 ---
 
+# Drawing Landscape A3/ru
+
 This tool creates a new drawing sheet from already installed templates. Currently, even though the menu and the toolbar allow for A0 to A4 landscape formats, only an A3 Landscape template is available.
 
 A **Page** object will be added to the Project tree, taking the form of a folder icon. Views that will be created afterward will be placed underneath this folder.
@@ -27,4 +29,7 @@ If the page does not display, click on the <img alt="" src=images/view-refresh.p
 
 {{Drawing Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Landscape A3/ru

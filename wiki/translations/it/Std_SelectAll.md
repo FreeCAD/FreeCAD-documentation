@@ -7,6 +7,8 @@
    SeeAlso:[Box di selezione](Std_BoxSelection/it.md), [Selezione di elementi](Std_BoxElementSelection/it.md), [Box di selezione di Part](Part_BoxSelection/it.md)
 ---
 
+# Std SelectAll/it
+
 ## Descrizione
 
 Il comando **Seleziona tutto** permette di selezionare tutti gli elementi di un documento attivo con una sola azione.
@@ -31,4 +33,7 @@ Il comando **Seleziona tutto** permette di selezionare tutti gli elementi di un 
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std SelectAll/it

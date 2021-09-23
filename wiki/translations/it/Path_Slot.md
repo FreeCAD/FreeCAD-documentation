@@ -9,6 +9,8 @@
    SeeAlso:
 ---
 
+# Path Slot/it
+
 
 </div>
 
@@ -260,4 +262,7 @@ Example:
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Slot/it

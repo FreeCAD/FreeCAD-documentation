@@ -7,6 +7,8 @@
    Version:0.17
 ---
 
+# Spreadsheet SplitCell/it
+
 ## Descrizione
 
 Lo strumento <img alt="" src=images/Spreadsheet_SplitCell.svg  style="width:16px;"> **Dividi la cella** divide una cella che è stata precedentemente unita in una in un foglio di calcolo esistente nel documento attivo.
@@ -23,4 +25,7 @@ Lo strumento <img alt="" src=images/Spreadsheet_SplitCell.svg  style="width:16px
 
 {{Spreadsheet_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet SplitCell/it

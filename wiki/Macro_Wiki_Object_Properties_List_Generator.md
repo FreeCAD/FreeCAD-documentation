@@ -1,7 +1,4 @@
 # Macro Wiki Object Properties List Generator
- 
-
-
 {{Macro
 |Name=Macro Wiki Object Properties List Generator
 |Description=This macro generates lists of properties of the selected object of the selected object in different forms in Wiki format. 
@@ -575,4 +572,5 @@ Only Unique Properties - print only unique properties of selected object.
 
 The discussion on the forum: <https://forum.freecadweb.org/viewtopic.php?f=21&t=61998>
 
-
+---
+[documentation index](../README.md) > Macro Wiki Object Properties List Generator

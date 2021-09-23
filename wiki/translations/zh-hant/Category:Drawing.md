@@ -6,3 +6,6 @@ This category lists pages related to the [Drawing Workbench/zh-hant](Drawing_Wor
 [Template:Drawing Tools navi/zh-hant](Template:Drawing_Tools_navi/zh-hant.md)
 
 [Category:Obsolete Workbenches/zh-hant](Category:Obsolete_Workbenches/zh-hant.md)
+
+---
+[documentation index](../README.md) > Category:Drawing/zh-hant

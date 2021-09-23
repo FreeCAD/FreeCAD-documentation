@@ -1,6 +1,4 @@
 # Parts Library Workbench/pl
-
-
 ## Introduction
 
 
@@ -57,3 +55,6 @@ The library is a simple container for FreeCAD (.fcstd) and STEP (.stp) files. Yo
 
 
 [Category:User Documentation](Category:User_Documentation.md) [Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+
+---
+[documentation index](../README.md) > Parts Library Workbench/pl

@@ -7,6 +7,8 @@
    Version:0.17
 ---
 
+# Spreadsheet AlignRight/it
+
 ## Descrizione
 
 Lo strumento <img alt="" src=images/Spreadsheet_AlignRight.svg  style="width:16px;"> **Allinea a destra** allinea a destra il testo della cella.
@@ -23,4 +25,7 @@ Lo strumento <img alt="" src=images/Spreadsheet_AlignRight.svg  style="width:16p
 
 {{Spreadsheet_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet AlignRight/it

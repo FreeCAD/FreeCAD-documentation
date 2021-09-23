@@ -5,6 +5,8 @@
    Workbenches:[Sketcher](Sketcher_Workbench.md)
 ---
 
+# Sketcher ToggleConstruction
+
 ## Description
 
 This tool toggles sketch geometry from/to construction mode. It can be used on any type of geometry: line, arc or circle.
@@ -43,4 +45,7 @@ and once you **<img src=images/Sketcher_LeaveSketch.svg style="width:16px"> [lea
 
 
 
- {{Sketcher Tools navi}}  
+ {{Sketcher Tools navi}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ToggleConstruction

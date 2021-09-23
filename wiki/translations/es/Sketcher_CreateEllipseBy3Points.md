@@ -8,6 +8,8 @@ Name/es=Croquizador CrearElipsePor3Puntos
    SeeAlso:[Croquizador Elipse por el Central](Sketcher_CreateEllipseByCenter/es.md), [Croquizador Círculo](Sketcher_CreateCircle/es.md), [Croquizador Arco de Elipse](Sketcher_CreateArcOfEllipse/es.md)
 ---
 
+# Sketcher CreateEllipseBy3Points/es
+
 ## Descripción
 
 Esta herramienta dibuja una elipse eligiendo tres puntos : (1) la periapsis (primer cruce del diámetro mayor con la elipse), (2) la apoapsis (segundo cruce del diámetro mayor con la elipse), (3) un punto en un lado del diámetro mayor (a) que define el radio menor (b). (c) es el centro resultante y (f) son los puntos focales.
@@ -47,4 +49,7 @@ Al iniciar la herramienta, el puntero del ratón cambia a una cruz blanca con un
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateEllipseBy3Points/es

@@ -1,7 +1,4 @@
 # FEM Example Capacitance Two Balls/ru
-
-
-
 {{TutorialInfo/ru
 |Topic= Анализ конечных элементов
 |Level=Начинающие
@@ -121,4 +118,7 @@ This case presents the solution of the capacitance of perfectly conducting balls
 
 {{Tutorials navi
 
-}} {{FEM Tools navi}}  
+}} {{FEM Tools navi}}
+
+---
+[documentation index](../README.md) > FEM Example Capacitance Two Balls/ru

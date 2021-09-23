@@ -1,7 +1,4 @@
 # Interface Customization/it
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -307,4 +304,7 @@ I componenti aggiuntivi offrono ancora un altro modo per personalizzare l\'inter
 
 {{Std Base navi
 
-}} {{Interface navi}} 
+}} {{Interface navi}}
+
+---
+[documentation index](../README.md) > Interface Customization/it

@@ -6,6 +6,8 @@
    Shortcut:**Del**
 ---
 
+# Std Delete/pl
+
 ## Description
 
 The **Std Delete** command deletes selected objects.
@@ -40,4 +42,7 @@ FreeCAD.ActiveDocument.removeObject("myObjectName")
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std Delete/pl

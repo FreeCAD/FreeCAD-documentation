@@ -1,6 +1,4 @@
 # Sketcher Sketch/pl
-
-
 Powinien on zawierać opis narzędzia Sketch, które jest częścią [Środowisko pracy Sketcher](Sketcher_Workbench/pl.md) i [Środowisko pracy Part Design](PartDesign_Workbench/pl.md).
 
 Ten dokument jest w trakcie tworzenia. Tymczasem skonsultuj się:
@@ -11,4 +9,7 @@ Ten dokument jest w trakcie tworzenia. Tymczasem skonsultuj się:
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Sketch/pl

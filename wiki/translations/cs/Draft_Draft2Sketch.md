@@ -1,3 +1,4 @@
+# Draft Draft2Sketch/cs
 ---
 - GuiCommand:/cs   Name:Draft_Draft2Sketch   Name/cs:Kreslení Kreslení2Náčrt   Workbenches:[Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation:Kreslení -> Nákres do Náčrtu---
 
@@ -120,8 +121,5 @@ draft_from_sketch = Draft.draftify(sketch_from_draft, delete=False)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Draft2Sketch/cs

@@ -1,7 +1,4 @@
 # Topological data scripting/es
-
-
-
 {{TOCright}}
 
 ## Introducción
@@ -1467,3 +1464,6 @@ To convert a STEP file to an IGS file:
 ```{{Top}} {{Powerdocnavi}} 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Topological data scripting/es

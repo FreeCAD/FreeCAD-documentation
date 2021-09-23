@@ -1,3 +1,4 @@
+# OpenSCAD AddOpenSCADElement/ja
 ---
 - GuiCommand:/jp   Name:OpenSCAD_AddOpenSCADElement   Name/jp:OpenSCAD_AddOpenSCADElement   Workbenches:[[OpenSCAD Module   OpenSCAD]]|MenuLocation:OpenSCAD -> Add OpenSCAD Element---
 
@@ -85,4 +86,7 @@ FreeCADバージョン0.14以降、上記の設定が空の場合、FreeCADはOp
 
 {{OpenSCAD_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD AddOpenSCADElement/ja

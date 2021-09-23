@@ -1,10 +1,4 @@
-# Testing
- 
-
-
-
-
-<img alt="Test workbench icon" src=images/Workbench_Test.svg  style="width:128px;">
+# <img alt="Test workbench icon" src=images/Workbench_Test.svg  style="width:64px;"> Testing
 
  
 
@@ -160,3 +154,6 @@ r.run(suite)
  
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Test Framework](Category:Test_Framework.md) [Category:Workbenches](Category:Workbenches.md) [Category:Testing](Category:Testing.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Testing

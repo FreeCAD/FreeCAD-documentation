@@ -1,3 +1,4 @@
+# Sketcher ConstrainLock/pt-br
 ---
 - GuiCommand:/pt-br   Name:Sketcher ConstrainLock   Name/pt-br:Sketcher ConstrainLock   Workbenches:[PartDesign](Sketcher_Workbench/pt-br___Sketcher]],_[[PartDesign_Workbench/pt-br.md)|MenuLocation:Sketch → Sketcher constraints → Constrain lock   SeeAlso:[Constraint Coincident](Constraint_PointOnPoint/pt-br.md)---
 
@@ -26,4 +27,7 @@ The <img alt="" src=images/Sketcher_ConstrainLock.svg  style="width:24px;"> [Loc
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainLock/pt-br

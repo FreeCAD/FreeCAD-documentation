@@ -1,7 +1,4 @@
 # Manual:Creating renderings/ro
- 
-
-
 {{Manual:TOC/ro}}
 
 In limbajul computerului, cuvântul [rendering](https://en.wikipedia.org/wiki/Rendering_%28computer_graphics%29) este utilizat pentru a descrie o imagine frumoasă produsă de către un model 3D. Desigur, am putea spune că ceea ce vedem într-o vizualizarea 3D FreeCAD este deja ceva plăcut. Cu toate acestea, oricine a văzut un film recent de la Hollywood, știe că este posibil să se producă imagini cu un computer aproape că nu pot fi deosebite de o fotografie.
@@ -130,3 +127,6 @@ Puteți extinde foarte mult posibilitățile de randare ale FreeCAD, creând noi
 {{Raytracing Tools navi}} 
 
 [Category:Tutorials](Category:Tutorials.md)
+
+---
+[documentation index](../README.md) > [Tutorials](Category:Tutorials.md) > Manual:Creating renderings/ro

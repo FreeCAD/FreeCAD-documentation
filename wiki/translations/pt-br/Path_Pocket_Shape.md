@@ -1,3 +1,4 @@
+# Path Pocket Shape/pt-br
 ---
 - GuiCommand:/pt   Name:Path Pocket   Name/pt:Path Pocket   Workbenches:[[Path Workbench/pt   Path]]|MenuLocation:Path → Pocket Shape → Cavidade   Shortcut:P,O   SeeAlso:---
 
@@ -228,4 +229,7 @@ Note: It is suggested that you do not edit the Placement property of path operat
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Pocket Shape/pt-br

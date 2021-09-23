@@ -8,6 +8,8 @@
    SeeAlso:[Crear una primitiva aditiva](PartDesign_CompPrimitiveAdditive/es.md), [Cono Sustractivo](PartDesign_SubtractiveCone/es.md)
 ---
 
+# PartDesign AdditiveCone/es
+
 
 </div>
 
@@ -63,4 +65,7 @@ Tras su creación, el Cono puede ser editado de dos maneras:
 
 {{PartDesign Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveCone/es

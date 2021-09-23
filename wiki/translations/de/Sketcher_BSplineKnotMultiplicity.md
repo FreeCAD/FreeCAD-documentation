@@ -8,6 +8,8 @@
    SeeAlso:[Erstelle B-spline](Sketcher_CompCreateBSpline/de.md)
 ---
 
+# Sketcher BSplineKnotMultiplicity/de
+
 
 </div>
 
@@ -28,4 +30,7 @@ Zeigt oder verbirgt die Anzeige der Knotenvielfalt einer B-Spline. Siehe [diese 
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineKnotMultiplicity/de

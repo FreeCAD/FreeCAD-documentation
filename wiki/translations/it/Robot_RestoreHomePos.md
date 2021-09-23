@@ -1,3 +1,4 @@
+# Robot RestoreHomePos/it
 ---
 - GuiCommand:/it   Name:Robot RestoreHomePos   Name/it:Sposta alla posizione di partenza   Workbenches:[[Robot_Workbench/it   Robot]]|MenuLocation:Robot → Sposta alla posizione di partenza---
 
@@ -49,4 +50,7 @@ Se non è stata specificata nessuna posizione home tramite [Imposta la posizione
 
 {{Robot_Tools_navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot RestoreHomePos/it

@@ -1,3 +1,4 @@
+# Plot Grid/tr
 ---
 - GuiCommand:/tr
    Name/tr:Izgara
@@ -30,3 +31,6 @@ This tool acts on the active set of axis. In case of multi-axes plots you can se
 }} 
 
 [Category:External\_Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)
+
+---
+[documentation index](../README.md) > [External_Workbenches](Category:External_Workbenches.md) > Plot Grid/tr

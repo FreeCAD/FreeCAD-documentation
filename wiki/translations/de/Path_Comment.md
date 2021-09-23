@@ -1,3 +1,4 @@
+# Path Comment/de
 ---
 - GuiCommand:/de   Name:Path Comment   Workbenches:[[Path Workbench   Path]]|MenuLocation:Path → Partial Commands → Comment   Shortcut:P,C   SeeAlso:---
 
@@ -37,4 +38,7 @@ Example:
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Comment/de

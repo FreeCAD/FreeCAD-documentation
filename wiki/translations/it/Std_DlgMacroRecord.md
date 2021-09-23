@@ -7,6 +7,8 @@
    SeeAlso:[Interrompi la registrazione](Std_MacroStopRecord/it.md)
 ---
 
+# Std DlgMacroRecord/it
+
 ## Descrizione
 
 Il comando **Registra una macro** avvia una sessione di registrazione della [macro](Macros/it.md) durante la quale le azioni dell\'utente vengono memorizzate in una macro di FreeCAD, un file con estensione {{FileName|.FCMacro}}. Una macro può essere successivamente riprodotta, eseguita, per ripetere le azioni registrate.
@@ -51,4 +53,7 @@ La funzione è accessibile tramite **Macro → Registra macro ...**, oppure tram
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std DlgMacroRecord/it

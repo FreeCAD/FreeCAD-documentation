@@ -8,6 +8,8 @@
    SeeAlso:[FEM tutorial](FEM_tutorial/ru.md)
 ---
 
+# FEM ResultsPurge/ru
+
 
 </div>
 
@@ -36,4 +38,7 @@ TODO: Add Before and After screenshot
 
 {{FEM Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > FEM ResultsPurge/ru

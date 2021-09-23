@@ -9,6 +9,8 @@
    Icon:Arch_Window.svg
 ---
 
+# Arch Door/fr
+
 ## Description
 
 [Arch Porte](Arch_Door/fr.md) est créé avec l\'outil [Arch Fenêtre](Arch_Window/fr.md).
@@ -24,5 +26,5 @@ Toutes les propriétés sont accessibles dans l\'outil [Arch Fenêtre](Arch_Wind
 <img alt="Door" src=images/Arch_door.jpg  style="width:600px;"> 
 *Les portes doivent être construites avec l'atelier [Esquisse](Sketcher_Workbench/fr.md)*
 
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Door/fr

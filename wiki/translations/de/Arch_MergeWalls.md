@@ -7,6 +7,8 @@
    SeeAlso:[Arch Wand](Arch_Wall/de.md)
 ---
 
+# Arch MergeWalls/de
+
 ## Beschreibung
 
 Das [Wände zusammenführen](Arch_MergeWalls/de.md) Werkzeug verschmilzt zwei oder mehr ausgewählte **<img src="images/_Arch_Wall.svg" width=16px>[Arch Wände](Arch_Wall/de.md)**.
@@ -48,8 +50,5 @@ FreeCAD.ActiveDocument.recompute()
 base = Arch.joinWalls([Wall1, Wall2])
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch MergeWalls/de

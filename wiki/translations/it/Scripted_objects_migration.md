@@ -1,6 +1,4 @@
 # Scripted objects migration/it
-
-
 ## Introduzione
 
 Gli [oggetti creati con script](Scripted_objects/it.md) vengono ricostruiti ogni volta che viene aperto un documento FCStd. Per fare ciò il documento mantiene un riferimento al modulo e alla classe Python che sono stati usati per creare l\'oggetto, insieme alle sue proprietà.
@@ -555,3 +553,6 @@ Preferably avoid the following:
 }} 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Scripted objects migration/it

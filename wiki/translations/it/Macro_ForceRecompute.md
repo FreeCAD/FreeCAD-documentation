@@ -1,7 +1,4 @@
 # Macro ForceRecompute/it
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -67,6 +64,5 @@ FreeCAD.ActiveDocument.recompute()
 
 }}
 
-
-
-
+---
+[documentation index](../README.md) > Macro ForceRecompute/it

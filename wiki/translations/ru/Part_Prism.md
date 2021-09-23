@@ -7,6 +7,8 @@
    SeeAlso:[Примитивы](Part_Primitives/ru.md), [Куб](Part_Box/ru.md)
 ---
 
+# Part Prism/ru
+
 
 </div>
 
@@ -28,8 +30,5 @@ The prism properties can later be edited, either in the [Property editor](Proper
 -   Circumradius - радиус описанной окружности(circumradius) - это расстояние от центра многоугольника до его вершины.
 -   Height - высота Призмы.
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Prism/ru

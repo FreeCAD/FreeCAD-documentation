@@ -8,6 +8,8 @@
    SeeAlso:[Sketcher Multiplicité des nœuds d'une B-spline](Sketcher_BSplineKnotMultiplicity/fr.md), [Sketcher Moins de nœuds d'une B-spline](Sketcher_BSplineDecreaseKnotMultiplicity/fr.md)
 ---
 
+# Sketcher BSplineIncreaseKnotMultiplicity/fr
+
 ## Description
 
 Augmente la multiplicité de nœud d\'un nœud de courbe B-spline (voir [cette page](B-Splines/fr.md) pour plus d\'informations sur les B-splines).
@@ -42,4 +44,7 @@ On peut voir que la spline de multiplicité de nœud 1 est complètement modifi�
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineIncreaseKnotMultiplicity/fr

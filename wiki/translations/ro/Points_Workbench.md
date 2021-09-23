@@ -1,10 +1,4 @@
-# Points Workbench/ro
-
-
-
-
-
-<img alt="Points workbench icon" src=images/Workbench_Points.svg  style="width:128px;">
+# <img alt="Points workbench icon" src=images/Workbench_Points.svg  style="width:64px;"> Points Workbench/ro
 
 ## Introducere
 
@@ -63,3 +57,6 @@ Utilizarea metodei de ancorare [Endpoint](Draft_Endpoint.md) va asigura că inst
 }} 
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Points Workbench/ro

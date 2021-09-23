@@ -1,6 +1,4 @@
 # Sketcher helper constraint/fr
-
-
 ## Présentation
 
 <img alt="Exemple d\'une contrainte d\'aide (Contrainte5 - point sur le cercle) pour une contrainte de tangence (Contrainte6 ; en mode tangent-via-point). Une seule contrainte d\'aide est utilisée dans ce cas, puisque le point de tangence est le point d\'extrémité du diamètre principal de l\'ellipse, qui se trouve par nature sur l\'ellipse." src=images/Sketcher_helper_constraint_example1.png  style="width:500px;">
@@ -39,4 +37,7 @@ Les Aides pour contraindre ont été introduites en v0.15.4387
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher helper constraint/fr

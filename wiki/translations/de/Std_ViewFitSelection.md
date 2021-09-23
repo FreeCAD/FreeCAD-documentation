@@ -7,6 +7,8 @@
    SeeAlso:[Std AnsichtAlleseinpassen](Std_ViewFitAll/de.md)
 ---
 
+# Std ViewFitSelection/de
+
 ## Beschreibung
 
 Der **Std AnsichtEinpassenAuswahl**-Befehl zoomt und schwenkt, so dass alle ausgewählten Objekte in die aktive [3D-Ansicht](3D_view/de.md) passen.
@@ -42,4 +44,7 @@ FreeCADGui.SendMsgToActiveView('ViewSelection')
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ViewFitSelection/de

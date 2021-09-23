@@ -1,10 +1,4 @@
 # Third Party Tools/es
-
-
-
-
-
-
 {{TOCright}}
 
 ## Tool Page 
@@ -161,3 +155,6 @@ PENDIENTE
  
 
 [Category:Developer Documentation](Category:Developer_Documentation.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Third Party Tools/es

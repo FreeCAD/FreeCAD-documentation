@@ -5,6 +5,8 @@
    Workbenches:[Mesh](Mesh_Workbench.md)
 ---
 
+# Mesh Scale
+
 ## Description
 
 The **Mesh Scale** command scales mesh objects.
@@ -22,4 +24,7 @@ The **Mesh Scale** command scales mesh objects.
 
 
 
- {{Mesh Tools navi}}  
+ {{Mesh Tools navi}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Scale

@@ -5,6 +5,8 @@
    Workbenches:[Part](Part_Workbench.md)
 ---
 
+# Part Measure Angular/en
+
 ## Description
 
 This tool measures the angle between two straight edges, two planar faces or one straight edge and a planar face and displays the measurement in the [3D view](3D_view.md).
@@ -20,11 +22,5 @@ This tool measures the angle between two straight edges, two planar faces or one
 3.  Alternatively the command can be launched without prior selection. A selection dialog then opens in the [Task panel](Task_panel.md). A Control widget also provides buttons to reset the selection, toggle the measurement display in the [3D view](3D_view.md), and clear all measurements.
 4.  Measurements are automatically discarded when closing the document.
 
-
-
-
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Angular/en

@@ -8,6 +8,8 @@
    SeeAlso:[Wiązanie odległości](Sketcher_ConstrainDistance/pl.md), [Wiązanie odległości pionowej](Sketcher_ConstrainDistanceY/pl.md)
 ---
 
+# Sketcher ConstrainDistanceX/pl
+
 ## Opis
 
 Ustala poziomą odległość pomiędzy 2 punktami lub końcami linii. Jeśli wybrany jest tylko jeden punkt, odległość jest ustalana względem punktu początku szkicu.
@@ -50,4 +52,7 @@ Strona [Skrypty szkicownika](Sketcher_scripting/pl.md) wyjaśnia wartości, któ
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainDistanceX/pl

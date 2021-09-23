@@ -8,6 +8,8 @@
    SeeAlso:[Skizzierer Beschränke Radius](Sketcher_ConstrainRadius/de.md)
 ---
 
+# Sketcher ConstrainEqual/de
+
 ## Beschreibung
 
 Die Beschränkung Gleich erzwingt, dass zwei oder mehr Liniensegmente in einer Linie, einer Polylinie oder einem Rechteck die gleiche Länge haben. Wenn sie auf Bögen oder Kreise angewendet wird, werden die Radien auf Gleichheit beschränkt. Sie kann nicht auf Geometrie Grundelemente angewendet werden, die nicht vom gleichen Typ sind (z. B. Liniensegmente und Bögen).
@@ -63,4 +65,7 @@ Die [Skizzierer Skripten](Sketcher_scripting/de.md)-Seite erklärt die Werte, di
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainEqual/de

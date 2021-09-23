@@ -1,10 +1,4 @@
 # Draft OCA/es
-
-
-
-
-
-
 {{TOCright}}
 
 ## Description
@@ -111,3 +105,6 @@ importOCA.export(objects, "/home/user/Pictures/myfile.oca")
  
 
 [Category:User Documentation/es](Category:User_Documentation/es.md) [Category:File Formats](Category:File_Formats.md)
+
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft OCA/es

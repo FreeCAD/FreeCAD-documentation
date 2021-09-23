@@ -1,7 +1,4 @@
 # Drawing Workbench/hr
- 
-
-
 **Development of the [[Drawing Workbench]] stopped in FreeCAD 0.16, and the new [[TechDraw Workbench]] aiming to replace it was introduced in v0.17. Both workbenches are still provided in v0.17, but the Drawing Workbench may be removed in future releases.**
 
 <img alt="Drawing workbench icon" src=images/Workbench_Drawing.svg  style="width:128px;">
@@ -84,3 +81,6 @@ Some notes on the programming side of the drawing module will be added to the [D
 }} 
 
 [Category:Obsolete Workbenches](Category:Obsolete_Workbenches.md)
+
+---
+[documentation index](../README.md) > Drawing Workbench/hr

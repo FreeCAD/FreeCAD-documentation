@@ -8,6 +8,8 @@
    SeeAlso:
 ---
 
+# Ship New/en
+
 ## Description
 
 Create a New Ship or new Ship Instance.
@@ -50,4 +52,7 @@ Note: From here onward, you must have **Ship** selected before you execute any S
 
 {{Ship_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > Ship New/en

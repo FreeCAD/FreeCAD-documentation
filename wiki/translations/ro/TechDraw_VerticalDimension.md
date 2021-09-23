@@ -8,6 +8,8 @@
    SeeAlso:[TechDraw Dimension Length](TechDraw_Dimension_Length.md), [TechDraw Dimension Horizontal](TechDraw_Dimension_Horizontal.md)
 ---
 
+# TechDraw VerticalDimension/ro
+
 
 </div>
 
@@ -78,4 +80,7 @@ rc = page.addView(dim1)
 
 {{TechDraw Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw VerticalDimension/ro

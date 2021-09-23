@@ -8,6 +8,8 @@
    SeeAlso:
 ---
 
+# Path ToolLibraryEdit/fr
+
 ## Description
 
 Le **<img src="images/Path_ToolLibraryEdit.svg" width=16px> [gestionnaire du magasin d'outils](Path_ToolLibraryEdit/fr.md)** permet d\'éditer les différents outils de la collection contenue dans l\'objet machine d\'une **<img src="images/Path_Job.svg" width=16px> [Tâche](Path_Job/fr.md)**. Ce magasin d\'outils est utilisé par les différentes opérations contenues dans le projet pour obtenir les informations nécessaires sur l\'outil actuel.
@@ -50,4 +52,7 @@ La manipulation est simple:
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path ToolLibraryEdit/fr

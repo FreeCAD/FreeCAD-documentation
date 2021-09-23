@@ -6,6 +6,8 @@
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
 ---
 
+# Sketcher CreateSlot/fr
+
 ## Description
 
 Dessine une rainure en sélectionnant le centre de deux demi-cercles. (Dans les anciennes versions de FreeCAD, en sélectionnant le centre d\'un demi-cercle et une extrémité de l\'autre demi-cercle).
@@ -25,4 +27,7 @@ Au démarrage de l\'outil, le pointeur de la souris se transforme en une croix b
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateSlot/fr

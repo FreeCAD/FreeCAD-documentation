@@ -9,6 +9,8 @@
    SeeAlso:
 ---
 
+# FCGear TimingGear/it
+
 ## Descrizione
 
 Lo scopo degli ingranaggi di distribuzione è quello di consentire all\'albero a camme e all\'albero motore di far ruotare la catena di distribuzione. L\'albero motore gira per muovere i pistoni su e giù all\'interno dei cilindri. L\'albero a camme ruota per consentire l\'apertura e la chiusura delle valvole di aspirazione e di scarico sui cilindri. Questi componenti sono importanti per la corretta sincronizzazione del motore.
@@ -89,3 +91,6 @@ Limitations are not known yet.
 
 
 [Category:Addons](Category:Addons.md) [Category:FCGear](Category:FCGear.md) [Category:External Command Reference](Category:External_Command_Reference.md)
+
+---
+[documentation index](../README.md) > [Addons](Category:Addons.md) > FCGear TimingGear/it

@@ -1,3 +1,4 @@
+# PartDesign Mirrored/it
 ---
 - GuiCommand:/it   Name:PartDesign Mirrored   Name/it:Simmetria   Workbenches:[[PartDesign Workbench/it   PartDesign]]|MenuLocation:PartDesign → Simmetria---
 
@@ -121,4 +122,7 @@ Il risultato della funzione di simmetria può essere visualizzato in tempo reale
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Mirrored/it

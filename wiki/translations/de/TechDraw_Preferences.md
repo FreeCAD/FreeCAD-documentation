@@ -1,10 +1,4 @@
 # TechDraw Preferences/de
-
-
-
-
-
-
 {{TOCright}}
 
 ## Einführung
@@ -213,3 +207,6 @@ Einige Einrichtungseinstellungen sind nur über den [Parametereditor](Std_DlgPar
 }} 
 
 [Category:Preferences](Category:Preferences.md)
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Preferences/de

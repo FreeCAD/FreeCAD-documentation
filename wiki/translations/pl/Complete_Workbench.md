@@ -1,7 +1,4 @@
 # Complete Workbench/pl
-
-
-
 **Środowisko pracy [Complete](Complete_Workbench.md) jest przestarzałe.**
 
 <img alt="" src=images/Workbench_Complete.svg  style="width:64px;">
@@ -14,3 +11,6 @@ Zobacz temat [dostosowywanie interfejsu użytkownika do własnych potrzeb](Inter
 
 
 [Category:Complete](Category:Complete.md) [Category:Obsolete Workbenches](Category:Obsolete_Workbenches.md)
+
+---
+[documentation index](../README.md) > Complete Workbench/pl

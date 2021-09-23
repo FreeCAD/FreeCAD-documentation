@@ -6,3 +6,6 @@ This category lists pages related to the [Complete Workbench/it](Complete_Workbe
 [Complete Workbench/it](Complete_Workbench/it.md)
 
 [Category:Obsolete Workbenches/it](Category:Obsolete_Workbenches/it.md)
+
+---
+[documentation index](../README.md) > Category:Complete/it

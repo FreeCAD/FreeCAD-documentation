@@ -7,6 +7,8 @@
    SeeAlso:[Tutoriel FEM](FEM_tutorial/fr.md)
 ---
 
+# FEM MeshGroup/fr
+
 ## Description
 
 Groupe de type maillage MEF permet à l\'utilisateur de créer des groupes de sommets, arêtes, surfaces et éléments. Il est utile en cas d\'utilisation de FreeCAD comme pré-processeur pour exporter un maillage organisé et étiqueté. Le maillage est alors utilisable par des codes de résolution externes où les groupes de maillage peuvent être utilisés plus facilement pour définir les conditions aux limites et attribuer les propriétés liées au solveur. Il est possible d\'utiliser le nom d\'objet du groupe de maillage FreeCAD ou l\'étiquette comme nom de groupe lors de l\'exportation du maillage. Si l\'étiquette est choisie, l\'utilisateur doit faire attention à l\'utilisation de caractères spéciaux. Si le format d\'exportation du maillage n\'autorise pas l\'utilisation de caractères spéciaux, la solution de repli consiste à utiliser le nom de l\'objet du groupe de maillage.
@@ -41,4 +43,7 @@ Groupe de type maillage MEF permet donc à FreeCAD d\'être utilisé avec des so
 
 {{FEM Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > FEM MeshGroup/fr

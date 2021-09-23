@@ -7,6 +7,8 @@
    SeeAlso:
 ---
 
+# Path SelectLoop
+
 ## Description
 
 The **<img src="images/Path_SelectLoop.svg" width=16px> [Path SelectLoop](Path_SelectLoop.md)** command completes a selection of edges that form a loop.
@@ -27,4 +29,7 @@ The **<img src="images/Path_SelectLoop.svg" width=16px> [Path SelectLoop](Path_S
 
 
 
- {{Path_Tools_navi}} 
+ {{Path_Tools_navi}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path SelectLoop

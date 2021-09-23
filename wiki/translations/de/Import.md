@@ -1,5 +1,5 @@
 # Import/Export IFC - compiling IfcOpenShell/de
- {{TutorialInfo/de
+{{TutorialInfo/de
 |Topic=Architektur Arbeitsbereich
 |Level=Fortgeschritten
 |Time=120 Minuten
@@ -137,3 +137,6 @@ Tschüss
 
 
 [Category:BIM](Category:BIM.md) [Category:Arch](Category:Arch.md) [Category:3rd Party](Category:3rd_Party.md) [Category:File\_Formats](Category:File_Formats.md)
+
+---
+[documentation index](../README.md) > [BIM](Category:BIM.md) > Import/Export IFC - compiling IfcOpenShell/de

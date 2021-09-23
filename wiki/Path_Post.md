@@ -6,6 +6,8 @@
    Shortcut:**P** **P**
 ---
 
+# Path Post
+
 ## Description
 
 The **<img src="images/Path_Post.svg" width=16px> [Post](Path_Post.md)** command exports the selected **<img src="images/Path_Job.svg" width=16px> [Path Job](Path_Job.md)** to a G-code file.
@@ -111,4 +113,7 @@ Included Postprocessors are saved in the **FreeCAD.Mod.Path.Pathscripts.Post** b
 
 
 
- {{Path_Tools_navi}} 
+ {{Path_Tools_navi}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Post

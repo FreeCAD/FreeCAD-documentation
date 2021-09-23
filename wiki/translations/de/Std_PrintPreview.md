@@ -1,3 +1,4 @@
+# Std PrintPreview/de
 ---
 - GuiCommand:/de   Name/de:Std PrintPreview   Workbenches:Alle   MenuLocation:[Shortcut:Strg+P   SeeAlso:[[Std Print/de|Drucken](Std_File_Menu/de___Datei]]_→_Druckvorschau_.md), [PDF exportieren](Std_PrintPdf/de.md)---
 
@@ -31,4 +32,7 @@
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std PrintPreview/de

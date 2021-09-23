@@ -1,7 +1,4 @@
 # Macro Align Face Object to View/it
-
-
-
 {{Macro/it
 |Name=Macro Align Face Object to View
 |Icon=Macro_Align_Face_Object_to_View.png
@@ -71,6 +68,5 @@ except Exception:
 
 Original macro by wmayer [Looking for some helpful GUI-commands](http://forum.freecadweb.org/viewtopic.php?f=3&t=7029&p=56735&hilit=Shape.Face4#p56735)
 
-
-
-
+---
+[documentation index](../README.md) > Macro Align Face Object to View/it

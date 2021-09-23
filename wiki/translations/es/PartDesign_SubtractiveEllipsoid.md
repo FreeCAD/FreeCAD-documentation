@@ -8,6 +8,8 @@
    SeeAlso:[Crear una Primitiva sustractiva](PartDesign_CompPrimitiveSubtractive/es.md)
 ---
 
+# PartDesign SubtractiveEllipsoid/es
+
 ## Descripción
 
 Inserta un Elipsoide sustractivo en el Body (cuerpo) activo. Su forma es sustraída del sólido existente.
@@ -66,4 +68,7 @@ Tras su creación, el Elipsoide puede ser editado de dos maneras:
 
 {{PartDesign Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveEllipsoid/es

@@ -1,3 +1,4 @@
+# PartDesign LinearPattern/cs
 ---
 - GuiCommand:/cs   Name:PartDesign_LinearPattern   Name/cs:PartDesign LinearPattern   Workbenches:[[PartDesign Workbench/cs   Návrh dílu]], Complete|MenuLocation:PartDesign -> LinearPattern---
 
@@ -126,4 +127,7 @@ Select one of the Body Origin\'s standard axis (X, Y or Z) as direction.
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign LinearPattern/cs

@@ -1,6 +1,4 @@
 # Artwork MeshPart/it
- 
-
 Queste icone si trovano nel percorso origine indicato.
 
 Per tutte le icone nell\'albero del codice sorgente, vedere [Oggetti grafici](Artwork/it.md)
@@ -31,3 +29,6 @@ Per tutte le icone nell\'albero del codice sorgente, vedere [Oggetti grafici](Ar
 {{Artwork
 
 }} {{Mesh Tools navi}}
+
+---
+[documentation index](../README.md) > Artwork MeshPart/it

@@ -1,5 +1,5 @@
 # Macro MessageBox/it
- {{Macro/it
+{{Macro/it
 |Name=MessageBox
 |Icon=Macro MessageBox.png
 |Translate=Finestre di messaggi
@@ -66,6 +66,5 @@ Example :
  "+str(z)+"\nRayon\t     : "+str(r))
 }}
 
-
-
-
+---
+[documentation index](../README.md) > Macro MessageBox/it

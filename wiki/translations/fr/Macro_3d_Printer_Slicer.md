@@ -1,5 +1,5 @@
 # Macro 3d Printer Slicer/fr
- {{Macro/fr
+{{Macro/fr
 |Name=Macro_3d_Printer_Slicer
 |Icon=Macro_3d_Printer_Slicer.png
 |Description=Exporter le projet dans un logiciel de tranchage pour utilisation dans une imprimantes 3D. Exporte le fichier stl dans le même répertoire que fichier original, puis l'ouvre dans le logiciel de tranchage.
@@ -83,4 +83,7 @@ subprocess.Popen([SLICER + "KISSlicer", stlFile])
 
 ## Credits
 
-Merci à [Wmayer](http://forum.freecadweb.org/viewtopic.php?f=10&t=4686) pour son aide dans la rédaction de ce script. 
+Merci à [Wmayer](http://forum.freecadweb.org/viewtopic.php?f=10&t=4686) pour son aide dans la rédaction de ce script.
+
+---
+[documentation index](../README.md) > Macro 3d Printer Slicer/fr

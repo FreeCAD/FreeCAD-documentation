@@ -7,6 +7,8 @@
    SeeAlso:
 ---
 
+# Path MillFace/tr
+
 
 </div>
 
@@ -18,6 +20,8 @@
 |Shortcut
    SeeAlso:
 ---
+
+# Path MillFace/tr
 
 ## Description
 
@@ -229,4 +233,7 @@ Example:
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path MillFace/tr

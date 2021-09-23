@@ -6,6 +6,8 @@
    Workbenches:[TechDraw](TechDraw_Workbench/fr.md), [Spreadsheet](Spreadsheet_Workbench/fr.md)
 ---
 
+# TechDraw SpreadsheetView/fr
+
 ## Description
 
 Cet outil vous permet de placer une vue d\'une [feuille de calcul](Spreadsheet_Workbench/fr.md) sélectionnée dans une [page](TechDraw_Workbench/fr.md).
@@ -40,4 +42,7 @@ Cet outil vous permet de placer une vue d\'une [feuille de calcul](Spreadsheet_W
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw SpreadsheetView/fr

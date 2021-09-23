@@ -7,6 +7,8 @@
    SeeAlso:[Sketcher Constraint Vertical](Sketcher_ConstrainVertical.md)
 ---
 
+# Sketcher ConstrainHorizontal
+
 ## Description
 
 The Horizontal Constraint forces a selected line or lines in the sketch to be parallel to the horizontal axis of the sketch.
@@ -37,4 +39,7 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 
 
- {{Sketcher Tools navi}}  
+ {{Sketcher Tools navi}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainHorizontal

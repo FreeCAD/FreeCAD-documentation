@@ -7,6 +7,8 @@
    SeeAlso:[Reinforcement](Reinforcement_Workbench.md), [Arch Rebar](Arch_Rebar.md), [Arch Rebar Helical](Arch_Rebar_Helical.md)
 ---
 
+# Arch Rebar Stirrup/pl
+
 ## Description
 
 The [Stirrup Rebar](Arch_Rebar_Stirrup.md) tool allows the user to create a set of stirrup reinforcing bars inside an [Arch Structure](Arch_Structure.md) object.
@@ -142,3 +144,6 @@ Stirrup.editStirrup(Rebar, 20, 20, 20, 20, 50,
  
 
 [Category:Reinforcement](Category:Reinforcement.md)
+
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Rebar Stirrup/pl

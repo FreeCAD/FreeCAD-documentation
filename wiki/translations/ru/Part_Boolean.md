@@ -7,6 +7,8 @@
    SeeAlso:[Объединение](Part_Union/ru.md), [Пересечение](Part_Common/ru.md), [Обрезать](Part_Cut/ru.md) и [Part Section](Part_Section/ru.md)
 ---
 
+# Part Boolean/ru
+
 ## Описание
 
 
@@ -78,8 +80,5 @@ In cases of coplanarity, even if the first boolean operation succeeds, subsequen
 
 *Left: shapes that share a face, a boolean union may produce incorrect results. Right: shapes that intersect each other clearly, the boolean union will be successful in most cases.*
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Boolean/ru

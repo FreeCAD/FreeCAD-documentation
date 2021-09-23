@@ -8,6 +8,8 @@
    SeeAlso:[Std Vue en perspective](Std_PerspectiveCamera/fr.md)
 ---
 
+# Std OrthographicCamera/fr
+
 ## Description
 
 La commande **Std Vue orthographique** fait passer la vision du mode actif [vue 3D](3D_view/fr.md) en mode de vue orthographique. Dans ce mode, les objets qui sont plus éloignés de l\'appareil photo n\'apparaissent pas plus petits que ceux qui sont plus proches.
@@ -51,4 +53,7 @@ FreeCADGui.ActiveDocument.ActiveView.getCameraType()
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std OrthographicCamera/fr

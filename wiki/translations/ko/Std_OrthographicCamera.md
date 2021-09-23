@@ -8,6 +8,8 @@
    SeeAlso:[표준 원근투영 카메라](Std_PerspectiveCamera/ko.md)
 ---
 
+# Std OrthographicCamera/ko
+
 ## 설명
 
 **표준 직교투영 카메라(Std OrthographicCamera)** 명령은 활성 [3D 보기의](3D_view/ko.md) 카메라를 직교투영 보기 모드로 전환합니다. 이 모드에서는 카메라에서 먼 개체가 가까운 개체보다 작게 보이지 않습니다.
@@ -51,4 +53,7 @@ FreeCADGui.ActiveDocument.ActiveView.getCameraType()
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std OrthographicCamera/ko

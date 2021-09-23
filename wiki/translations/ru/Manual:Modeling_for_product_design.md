@@ -1,7 +1,4 @@
 # Manual:Modeling for product design/ru
- 
-
-
 {{Manual:TOC/ru}}
 
 [Проектирование продукта](https://en.wikipedia.org/wiki/Product_design) изначально было коммерческим термином, но в мире 3D это обычно означает моделирование чего-то, что будет напечатано с помощью [3D-принтера](https://ru.wikipedia.org/wiki/3D_принтер), или, в более общем случае, произведено с помощью машины, будь это объёмный принтера или [станок с ЧПУ](https://ru.wikipedia.org/wiki/Числовое_программное_управление).
@@ -155,3 +152,6 @@ If you have trouble to select features hiding part of the model can help. To hid
 
 
 [Category:Tutorials/ru](Category:Tutorials/ru.md)
+
+---
+[documentation index](../README.md) > Manual:Modeling for product design/ru

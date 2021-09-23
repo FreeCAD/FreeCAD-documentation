@@ -1,6 +1,4 @@
 # 3D view/en
-
-
 ## Introduction
 
 
@@ -87,4 +85,7 @@ For more information see the power user documentation:
 
 {{Interface navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > 3D view/en

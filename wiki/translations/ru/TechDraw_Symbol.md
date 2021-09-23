@@ -7,6 +7,8 @@
    SeeAlso:[Шаблоны](TechDraw_Templates/ru.md), [Draft SVG](Draft_SVG/ru.md)
 ---
 
+# TechDraw Symbol/ru
+
 ## Описание
 
 The Symbol tool inserts an [SVG](SVG.md) file into the page. This symbol can be anything that helps annotating your drawing, and that doesn\'t need to be further modified.
@@ -53,4 +55,7 @@ rc = page.addView(sym)
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Symbol/ru

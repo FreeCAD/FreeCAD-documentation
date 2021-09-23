@@ -1,5 +1,5 @@
 # Macro GMSH
-  {{Macro
+{{Macro
 |Name=GMSH Macro
 |Icon=Macro_GMSH.png
 |Description=Create FEM Meshes by GMSH Mesh Generator. It is possible to create linear or bilinear (quadratic) Beam-, Shell- and Volumeelements in
@@ -40,4 +40,7 @@ GMSH has to be installed. See [gmsh.info](http://gmsh.info/). The macro is inten
 
 The page discussion [GMSH macro](http://forum.freecadweb.org/viewtopic.php?t=11182)
 
-[See the how to use the macro on YouTube.](https://www.youtube.com/watch?v=ZcG5EEUe3yc)  
+[See the how to use the macro on YouTube.](https://www.youtube.com/watch?v=ZcG5EEUe3yc)
+
+---
+[documentation index](../README.md) > Macro GMSH

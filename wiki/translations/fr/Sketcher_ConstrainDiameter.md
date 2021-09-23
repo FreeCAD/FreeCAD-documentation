@@ -8,6 +8,8 @@
    Version:0.18
 ---
 
+# Sketcher ConstrainDiameter/fr
+
 ## Description
 
 Cette contrainte contraint la valeur du diamètre d\'un cercle ou d\'un arc à avoir une valeur spécifique. Si plus d\'un cercle ou d\'un arc est sélectionné avant de lancer la commande :
@@ -41,4 +43,7 @@ La page [Sketcher : Écrire des scripts](Sketcher_scripting/fr.md) explique les 
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainDiameter/fr

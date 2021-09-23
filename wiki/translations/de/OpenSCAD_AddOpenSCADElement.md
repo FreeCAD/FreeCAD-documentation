@@ -7,6 +7,8 @@
    Workbenches:[OpenSCAD](OpenSCAD_Workbench/de.md)
 ---
 
+# OpenSCAD AddOpenSCADElement/de
+
 ## Beschreibung
 
 Füge ein OpenSCAD Element hinzu, indem du OpenSCAD Code in das Aufgabenfeld eingibst und die OpenSCAD Binärdatei ausführst (erfordert OpenSCAD).
@@ -47,4 +49,7 @@ Beginnend mit <small>(v0.14)</small>  sucht FreeCAD nach der OpenSCAD ausführba
 
 {{OpenSCAD_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD AddOpenSCADElement/de

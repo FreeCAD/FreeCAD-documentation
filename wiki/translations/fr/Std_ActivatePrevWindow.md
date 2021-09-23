@@ -8,6 +8,8 @@
    SeeAlso:[Std Suivante](Std_ActivateNextWindow/fr.md), [Std Fenêtre](Std_Windows/fr.md)
 ---
 
+# Std ActivatePrevWindow/fr
+
 ## Description
 
 La commande **Std Précédente** ne fonctionne pas correctement [1](https://forum.freecadweb.org/viewtopic.php?f=3&t=45157).
@@ -29,4 +31,7 @@ La commande **Std Précédente** ne fonctionne pas correctement [1](https://foru
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ActivatePrevWindow/fr

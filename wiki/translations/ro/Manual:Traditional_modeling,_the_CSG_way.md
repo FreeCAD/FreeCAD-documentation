@@ -1,7 +1,4 @@
 # Manual:Traditional modeling, the CSG way/ro
- 
-
-
 {{Manual:TOC/ro}}
 
 CSG înseamnă Constructive Solid Geometry [Constructive Solid Geometry](https://en.wikipedia.org/wiki/Constructive_solid_geometry)și descrie maniera cea mai simplă de a lucra cu geometria 3D solidă, care creează obiecte complexe prin adăugarea/eliminarea unor elemente de volum prin utilizarea operațiilor booleene cum ar fi unirea, scăderea sau intersecția solidelor.
@@ -174,3 +171,6 @@ S-ar putea să vă uitați la masa de mai sus și să vă gândiți că designul
 
 
 [Category:Tutorials/ro](Category:Tutorials/ro.md)
+
+---
+[documentation index](../README.md) > Manual:Traditional modeling, the CSG way/ro

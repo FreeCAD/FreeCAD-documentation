@@ -7,6 +7,8 @@
    SeeAlso:[Part Copie simple](Part_SimpleCopy/fr.md), [Part Copie transformée](Part_TransformedCopy/fr.md), [Part Copie d'un élément](Part_ElementCopy/fr.md), [OpenSCAD Affinage de la forme](OpenSCAD_RefineShapeFeature/fr.md)
 ---
 
+# Part RefineShape/fr
+
 ## Description
 
 L\'outil **<img src="images/Part_RefineShape.svg" width=16px> [Part Affiner la forme](Part_RefineShape/fr.md)** produit une copie non paramétrique à la forme raffinée, c'est-à-dire que certains bords et certaines faces ont été nettoyés.
@@ -54,8 +56,5 @@ La commande Python pour affiner une forme est la suivante:
 shape.removeSplitter()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part RefineShape/fr

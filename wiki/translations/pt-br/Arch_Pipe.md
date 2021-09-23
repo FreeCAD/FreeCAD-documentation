@@ -8,6 +8,8 @@
    SeeAlso:[Arch PipeConnector](Arch_PipeConnector.md), [Arch Equipment](Arch_Equipment.md)
 ---
 
+# Arch Pipe/pt-br
+
 ## Descrição
 
 This tool allows to create pipes from scratch, or from selected objects. The selected objects must be Part-based (Draft, Sketch, etc..) and contain one and only one open Wire.
@@ -117,5 +119,5 @@ FreeCAD.ActiveDocument.recompute()
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Pipe/pt-br

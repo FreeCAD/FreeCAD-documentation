@@ -6,6 +6,8 @@
    SeeAlso:[Trimex](Draft_Trimex/de.md)
 ---
 
+# Part Extrude/de
+
 
 </div>
 
@@ -170,5 +172,5 @@ Part Extrudieren kann jedes Objekt mit Part Geometrie (OCC Form) extrudieren, au
 
 </div>
 
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Extrude/de

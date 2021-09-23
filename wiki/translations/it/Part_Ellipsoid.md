@@ -1,3 +1,4 @@
+# Part Ellipsoid/it
 ---
 - GuiCommand:/it   Name:Part Ellipsoid   Name/it:Ellissoide   MenuLocation:Parte → [Workbenches:[[Part_Workbench/it   Parte](Part_CreatePrimitives/it___Crea_primitive]]_→_Ellissoide.md),  [OpenSCAD](OpenSCAD_Workbench/it.md)|SeeAlso:[Crea Primitive](Part_CreatePrimitives/it.md)---
 
@@ -45,8 +46,5 @@ La primitiva geometrica Ellissoide è disponibile dalla finestra di dialogo Crea
 
 ![](images/Part_Ellipsoid_screenshot.jpg )
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Ellipsoid/it

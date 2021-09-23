@@ -7,6 +7,8 @@
    SeeAlso:[Objektfang](Draft_Snap/de.md), [Objektfang umschalten](Draft_ToggleSnap/de.md)
 ---
 
+# Draft Snap Angle/de
+
 
 </div>
 
@@ -75,5 +77,5 @@ See [Draft Snap](Draft_Snap#Preferences.md).
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Angle/de

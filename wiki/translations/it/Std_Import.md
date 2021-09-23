@@ -9,6 +9,8 @@
    SeeAlso:[Apri](Std_Open/it.md), [Importazione e Esportazione](Import_Export/it.md), [Preferenze di Importa/Esporta](Import_Export_Preferences/it.md)
 ---
 
+# Std Import/it
+
 
 </div>
 
@@ -68,3 +70,6 @@ Il comando **Importa** importa la geometria da un diverso formato di file nel do
 }}  
 
 [Category:File\_Formats](Category:File_Formats.md)
+
+---
+[documentation index](../README.md) > [File_Formats](Category:File_Formats.md) > Std Import/it

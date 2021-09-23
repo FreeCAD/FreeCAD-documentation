@@ -7,6 +7,8 @@
    Shortcut:
 ---
 
+# Drawing Annotation/ru
+
 
 </div>
 
@@ -43,4 +45,7 @@
 
 {{Drawing Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Annotation/ru

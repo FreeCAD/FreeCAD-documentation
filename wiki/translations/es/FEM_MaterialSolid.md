@@ -1,3 +1,4 @@
+# FEM MaterialSolid/es
 ---
 - GuiCommand:   Name:FEM MaterialSolid    MenuLocation:Model → FEM material for solid   |Workbenches:[Shortcut:M,M   SeeAlso:[[FEM_tutorial|FEM tutorial](FEM_Workbench___FEM]].md)---
 
@@ -52,4 +53,7 @@ Agrega propiedades de material a una parte.
 
 {{FEM Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > FEM MaterialSolid/es

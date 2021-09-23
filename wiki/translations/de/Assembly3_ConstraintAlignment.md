@@ -6,6 +6,8 @@
    Workbenches:[Assembly3](Assembly3_Workbench/de.md)
 ---
 
+# Assembly3 ConstraintAlignment/de
+
 ## Beschreibung
 
 Dieses Werkzeug verbindet zwei oder mehr Objekte eines Zusammenbaus und gleicht ihre Ausrichtungen an. Die gewählten Elemente der einzelnen Objekte oder präziser ihre lokalen Koordinatensysteme (LKS) werden genutzt, um ein oder mehrere Objekte im Verhältnis zu einem anderen Objekt zu positionieren.
@@ -20,8 +22,5 @@ Der Abstand ihrer Z-Achsen und die Winkel zwischen ihren X-Achsen (und genauso i
 2.  Je ein planeres Flächenelement pro Objekt auswählen.
 3.  Schaltfläche**<img src="images/Assembly_ConstraintAlignment.svg" width=16px> [Ebenen ausrichten](Assembly3_ConstraintAlignment/de.md)** drücken.
 
-
-
-
-
-
+---
+[documentation index](../README.md) > Assembly3 ConstraintAlignment/de

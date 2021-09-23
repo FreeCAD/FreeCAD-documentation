@@ -1,5 +1,5 @@
 # Macro Toggle Panels Visibility/it
- {{Macro/it
+{{Macro/it
 |Name=Macro Toggle Panels Visibility
 |Translate=Nascondi Pannelli
 |Icon=Macro_Toggle_Views_Visibility.png
@@ -62,6 +62,5 @@ else:
 
 }}
 
-
-
-
+---
+[documentation index](../README.md) > Macro Toggle Panels Visibility/it

@@ -1,10 +1,4 @@
 # Installing on Mac/ja
-
-
-
-
-
-
 <div class="mw-translate-fuzzy">
 
 インストーラーを使って1ステップでFreeCADをMac OS Xにインストールすることができます。
@@ -75,5 +69,5 @@ The FreeCAD installer is provided as a app package (.app) enclosed in a disk ima
 
 </div>
 
-
-
+---
+[documentation index](../README.md) > Installing on Mac/ja

@@ -1,10 +1,4 @@
 # Licence/fr
-
-
-
-
-
-
 {{TOCright}}
 
 ## Licences utilisées 
@@ -61,3 +55,6 @@ Néanmoins, cette décision est prise seulement pour le système de base de Free
  
 
 [Category:Developer Documentation](Category:Developer_Documentation.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Licence/fr

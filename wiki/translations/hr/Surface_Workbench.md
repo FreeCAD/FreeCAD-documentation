@@ -1,10 +1,4 @@
-# Surface Workbench/hr
-
-
-
-
-
-<img alt="Surface workbench icon" src=images/Workbench_Surface.svg  style="width:128px;">
+# <img alt="Surface workbench icon" src=images/Workbench_Surface.svg  style="width:64px;"> Surface Workbench/hr
 
 
 {{TOCright}}
@@ -60,3 +54,6 @@ The generated surface cannot be placed inside a **<img src=images/PartDesign_Bod
 }} 
 
 [Category:User Documentation/hr](Category:User_Documentation/hr.md) [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Surface Workbench/hr

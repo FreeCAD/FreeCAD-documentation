@@ -1,5 +1,5 @@
 # Macro Draw 2D Function/fr
- {{Macro/fr
+{{Macro/fr
 |Name=Draw 2D Function
 |Icon=Macro_Draw_2D_Function.png
 |Description=Trace une fonction décrite par une équation [z=F(x)] (Z-X plan)
@@ -82,3 +82,5 @@ Part.show(WWire)
 
 }}
 
+---
+[documentation index](../README.md) > Macro Draw 2D Function/fr

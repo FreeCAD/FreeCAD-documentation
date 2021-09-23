@@ -6,6 +6,8 @@
    Workbenches:[Assembly3](Assembly3_Workbench/de.md)
 ---
 
+# Assembly3 ConstraintLengthDifference/de
+
 ## Beschreibung
 
 Dieses Werkzeug legt die Länge einer nicht unterteilten 2D-Linie fest, die in der Draft-Arbeitsumgebung in Zusammenhang mit einer Arbeitsebene erzeugt wurde.
@@ -27,8 +29,5 @@ Der Längenwert der zuerst gewählten Linie ist gleich dem Längenwert der zweit
 
     :   (wenn **<img src="images/Assembly_AutoRecompute.svg" width=16px> [Automatische Berechnung](Assembly3_AutoRecompute/de.md)** und **<img src="images/Assembly_SmartRecompute.svg" width=16px> [Smarte Berechnung](Assembly3_SmartRecompute/de.md)** nicht aktiviert wurden).
 
-
-
-
-
-
+---
+[documentation index](../README.md) > Assembly3 ConstraintLengthDifference/de

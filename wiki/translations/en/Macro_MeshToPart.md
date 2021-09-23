@@ -1,5 +1,5 @@
 # Macro MeshToPart/en
- {{Macro
+{{Macro
 |Name=MeshToPart
 |Icon=Macro_MeshToPart.png
 |Description=This macro converts selected meshes to parts. It has a broad tolerance, so use it only with objects that have no curves otherwise you'll get weird results
@@ -64,3 +64,6 @@ for obj in FreeCADGui.Selection.getSelection():
 ## Link
 
 The discussion on the forum [Convert mesh to solid?](http://forum.freecadweb.org/viewtopic.php?f=3&t=253&hilit=getPlanarSegments)
+
+---
+[documentation index](../README.md) > Macro MeshToPart/en

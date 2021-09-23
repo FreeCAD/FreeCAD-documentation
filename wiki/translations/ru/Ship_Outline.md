@@ -1,3 +1,4 @@
+# Ship Outline/ru
 ---
 - GuiCommand:/ru
    Name:Ship Outline
@@ -107,4 +108,7 @@ Outline draw plot.
 
 {{Ship_Tools_navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Ship Outline/ru

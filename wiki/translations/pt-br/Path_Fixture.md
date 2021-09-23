@@ -5,6 +5,8 @@
    Workbenches:[Path](Path_Workbench.md)
 ---
 
+# Path Fixture/pt-br
+
 ## Description
 
 This tool sets the Work Offset Coordinate Fixture of the machine CNC controller.
@@ -40,4 +42,7 @@ The G59 Fixture is used to expand available fixtures. The degree of expansion im
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Fixture/pt-br

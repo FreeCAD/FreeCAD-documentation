@@ -1,7 +1,4 @@
 # LuxRender/ru
-
-
-
 **LuxRender is no longer in development as the project has been rebooted as [LuxCoreRender](LuxCoreRender.md) with a major code rewriting and a lot of compatibility breaking changes. The information here is provided because by default FreeCAD is still shipped (as of 0.19-24276) with the [Raytracing Workbench](Raytracing_Workbench.md), that officially only supports LuxRender. Anyway it also seem to work with [LuxCoreRender](LuxCoreRender.md), so consider giving it a try before using LuxRender**
 
 # Description
@@ -58,3 +55,6 @@ There is no development version of LuxRender, as development has been halted in 
 ## Render Workbench 
 
 The [Render Workbench](https://github.com/FreeCAD/FreeCAD-render) has dropped support for LuxRender, as it is outdated. It supports instead the modern reboot [LuxCoreRender](LuxCoreRender.md).
+
+---
+[documentation index](../README.md) > LuxRender/ru

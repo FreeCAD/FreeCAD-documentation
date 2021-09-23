@@ -7,6 +7,8 @@
    SeeAlso:[Tutoriel FEM](FEM_tutorial/fr.md)
 ---
 
+# FEM MeshDisplayInfo/fr
+
 ## Description
 
 Affiche les statistiques de base du maillage existant - nombre de nœuds et d\'éléments de chaque type. En particulier, le nombre total des éléments suivants est affiché :
@@ -88,4 +90,7 @@ donnera le résultat suivant :
 
 {{FEM Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > FEM MeshDisplayInfo/fr

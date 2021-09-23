@@ -7,6 +7,8 @@
    Version:0.19
 ---
 
+# TechDraw CosmeticEraser/fr
+
 ## Description
 
 L\'outil Gomme efface les objets cosmétiques de la page. Les objets cosmétiques sont:
@@ -43,4 +45,7 @@ Gomme n\'est pas accessible à partir de [macro](Macros/fr.md) ou de la console 
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw CosmeticEraser/fr

@@ -1,5 +1,5 @@
 # Video tutorials for product design/es
- **Por favor, presten atención a la versión de FreeCAD utilizada en el tutorial. Si un tutorial utiliza una versión anterior del programa, el proceso de modelado general puede seguir funcionando, pero algunas herramientas pueden haber cambiado en versiones más recientes. No añada vídeos hechos con la versión 0.16 o anterior, ya que estas versiones se consideran obsoletas.**
+**Por favor, presten atención a la versión de FreeCAD utilizada en el tutorial. Si un tutorial utiliza una versión anterior del programa, el proceso de modelado general puede seguir funcionando, pero algunas herramientas pueden haber cambiado en versiones más recientes. No añada vídeos hechos con la versión 0.16 o anterior, ya que estas versiones se consideran obsoletas.**
 
 ## Introducción
 
@@ -77,4 +77,7 @@ Aunque esta lista se centra en el contenido alemán, muchos de estos canales tam
 
 {{Tutorials navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > Video tutorials for product design/es

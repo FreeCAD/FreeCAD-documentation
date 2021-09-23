@@ -8,6 +8,8 @@
    SeeAlso:[Уменьшить](Std_ViewZoomOut/ru.md), [Увеличить область](Std_ViewBoxZoom/ru.md)
 ---
 
+# Std ViewZoomIn/ru
+
 ## Описание
 
 The **Std ViewZoomIn** command zooms in in the active [3D view](3D_view.md).
@@ -48,4 +50,7 @@ FreeCADGui.ActiveDocument.ActiveView.zoomIn()
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ViewZoomIn/ru

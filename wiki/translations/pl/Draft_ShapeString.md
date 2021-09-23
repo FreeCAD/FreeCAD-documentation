@@ -9,6 +9,8 @@
    SeeAlso:[Tekst](Draft_Text/pl.md), [Etykieta](Draft_Label/pl.md), [Wyciągnij](Part_Extrude/pl.md)
 ---
 
+# Draft ShapeString/pl
+
 ## Description
 
 The <img alt="" src=images/Draft_ShapeString.svg  style="width:24px;"> **Draft ShapeString** command creates a compound shape that represents a text string. This shape can be used to create 3D letters with the [Part Extrude](Part_Extrude.md) command.
@@ -133,8 +135,5 @@ S3.Placement.Rotation = App.Rotation(zaxis, 180)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ShapeString/pl

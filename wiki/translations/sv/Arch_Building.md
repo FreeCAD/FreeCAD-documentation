@@ -1,3 +1,4 @@
+# Arch Building/sv
 ---
 - GuiCommand:/sv   Name:Arch Building   Name/sv:Arch Building   Workbenches:[MenuLocation:Arch → Building   Shortcut:B U   SeeAlso:[[Arch Cell/sv](Arch_Workbench/sv___Arch]].md)---
 
@@ -67,5 +68,5 @@ FreeCAD.ActiveDocument.recompute()
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Building/sv

@@ -7,6 +7,8 @@
    SeeAlso:Formteil → Primitives → [Box](Part_Box/de.md)
 ---
 
+# Part Prism/de
+
 
 </div>
 
@@ -54,10 +56,7 @@ The prism properties can later be edited, either in the [Property editor](Proper
 
 -    **First Angle**: Angle in first direction. <small>(v0.19)</small> 
 
--    **Second Angle**: Angle in second direction. <small>(v0.19)</small> 
+-    **Second Angle**: Angle in second direction. <small>(v0.19)</small>
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Prism/de

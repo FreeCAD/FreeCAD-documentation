@@ -7,6 +7,8 @@
    SeeAlso:[TechDraw Projektionsgruppe einfügen](TechDraw_ProjectionGroup/de.md), [TechDraw Abschnittssansicht einfügen](TechDraw_SectionView/de.md)
 ---
 
+# TechDraw View/de
+
 ## Beschreibung
 
 Das Werkzeug Ansicht fügt eine Darstellung eines oder mehrerer Objekte einer Zeichnungsseite hinzu. Dies ist der Grundbaustein des TechDraw-Arbeitsbereichs. Die meisten anderen Ansichten sind in irgendeiner Weise von NeueAnsicht abgeleitet.
@@ -131,4 +133,7 @@ FreeCAD.ActiveDocument.View.Direction = (0.0,0.0,1.0)
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw View/de

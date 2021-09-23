@@ -8,6 +8,8 @@
    Version:0.14
 ---
 
+# Draft BezCurve/tr
+
 
 </div>
 
@@ -218,8 +220,5 @@ bezcurve3 = Draft.make_bezcurve([1.7*p3, 1.5*p4, 2.1*p2, p1], closed=True)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft BezCurve/tr

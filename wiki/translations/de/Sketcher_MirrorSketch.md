@@ -7,6 +7,8 @@
    Version:0.16
 ---
 
+# Sketcher MirrorSketch/de
+
 ## Beschreibung
 
 Spiegelt eine Skizze entlang der X Achse, der Y Achse oder dem Ursprung. Dieser Befehl wird aufgerufen, während eine Skizze *nicht* bearbeitet wird. Er erzeugt eine neue Skizze, die die gespiegelte Geometrie enthält.
@@ -27,4 +29,7 @@ Hinweise:
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher MirrorSketch/de

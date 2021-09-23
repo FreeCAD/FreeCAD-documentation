@@ -8,6 +8,8 @@ Löser Freiheitsgrade
    Version:0.18
 ---
 
+# Sketcher SelectElementsWithDoFs/de
+
 ## Beschreibung
 
 Dieses Werkzeug soll dabei helfen, eine Skizze vollständig zu beschränken, indem es die Skizzenelemente mit den verbleibenden Freiheitsgraden (engl.: Degrees of Freedom)(DoF) in grün hervorhebt.
@@ -35,4 +37,7 @@ wobei \"X\" für die Anzahl der in der Skizze verbleibenden Freiheitsgrade steht
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectElementsWithDoFs/de

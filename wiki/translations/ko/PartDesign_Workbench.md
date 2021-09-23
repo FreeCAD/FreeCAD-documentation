@@ -1,7 +1,4 @@
 # PartDesign Workbench/ko
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -229,3 +226,6 @@ Some additional functionality found in the Part Design menu:
  {{PartDesign Tools navi}}
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > PartDesign Workbench/ko

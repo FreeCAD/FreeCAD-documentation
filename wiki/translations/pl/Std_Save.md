@@ -7,6 +7,8 @@
    SeeAlso:[Std SaveAs](Std_SaveAs.md), [Std SaveCopy](Std_SaveCopy.md), [Std SaveAll](Std_SaveAll.md)
 ---
 
+# Std Save/pl
+
 ## Description
 
 The **Std Save** command saves the active document.
@@ -46,4 +48,7 @@ To save a document use the `save` method of the document object. A new document 
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std Save/pl

@@ -1,5 +1,5 @@
 # Macro Toggle Visibility
-  {{Macro
+{{Macro
 |Name=Toggle Visibility
 |Icon=Macro SelectVisible.png
 |Description=Flip/Flop Hidden/Display all objects not selected.<br />objects that are selected in a document are made visible while objects that are not selected are made invisible<br />if no objects are selected then all objects are hidden<br />if all objects are selected then all objects are made visible
@@ -81,4 +81,5 @@ The discussion on the forum [Proposal: select one or more pieces, hide the other
 
 ver 00.02 12/11/2015 **macro Macro\_SelectVisible** : hidden the objects not selected, if not object selected displayed all objects, hidden all objects. This version include the tree macro in one
 
-
+---
+[documentation index](../README.md) > Macro Toggle Visibility

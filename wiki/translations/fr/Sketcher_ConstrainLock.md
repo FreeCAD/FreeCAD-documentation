@@ -7,6 +7,8 @@
    SeeAlso:[Sketcher Contrainte de blocage](Sketcher_ConstrainBlock/fr.md)
 ---
 
+# Sketcher ConstrainLock/fr
+
 ## Description
 
 La **Contrainte fixe** applique des contraintes **<img src=images/Sketcher_ConstrainDistanceX.svg style="width:16px"> <img src=images/Sketcher_ConstrainDistanceY.svg style="width:distance horizontale](Sketcher_ConstrainDistanceX/fr.md)** et **[16px"> [distance verticale](Sketcher_ConstrainDistanceY/fr.md)** aux sommets (points) sélectionnés dans l\'esquisse. Si un seul sommet est sélectionné, les contraintes de distance horizontale et verticale se référeront au point d\'origine de l\'esquisse. Si deux points ou plus sont sélectionnés, des contraintes de distance horizontale et verticale seront ajoutées pour chaque paire de points. Il n\'y a pas d\'invite automatique pour modifier les valeurs des contraintes, elles doivent être modifiées manuellement.
@@ -29,4 +31,7 @@ La <img alt="" src=images/Sketcher_ConstrainLock.svg  style="width:24px;"> [Cont
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainLock/fr

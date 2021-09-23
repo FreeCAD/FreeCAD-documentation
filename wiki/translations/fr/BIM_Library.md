@@ -9,6 +9,8 @@
    SeeAlso:[Arch Equipement](Arch_Equipment/fr.md)
 ---
 
+# BIM Library/fr
+
 ## Description
 
 L\'outil Bibliothèque BIM vous permet de placer dans le modèle en cours un objet de la [Bibliothèque de pièces](Parts_Library/fr.md). Il doit être installé via le [Addon Manager](Addon_Manager/fr.md) pour que cet outil soit disponible.
@@ -37,3 +39,6 @@ L\'outil Bibliothèque BIM vous permet de placer dans le modèle en cours un obj
  
 
 [Category:BIM](Category:BIM.md)
+
+---
+[documentation index](../README.md) > [BIM](Category:BIM.md) > BIM Library/fr

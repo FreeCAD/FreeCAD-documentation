@@ -8,6 +8,8 @@
    Version:0.7
 ---
 
+# Draft Rectangle/pl
+
 ## Opis
 
 Polecenie <img alt="" src=images/Draft_Rectangle.svg  style="width:24px;"> **Prostokąt** tworzy prostokąt w bieżącej [płaszczyźnie roboczej](Draft_SelectPlane/pl.md) przy uzyciu dwóch punktów.
@@ -125,8 +127,5 @@ rectangle3 = Draft.make_rectangle(3500, 250, placement=place3)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Rectangle/pl

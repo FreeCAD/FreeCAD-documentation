@@ -8,6 +8,8 @@
    SeeAlso:[Chiudi](Std_Close/it.md)
 ---
 
+# Std Quit/it
+
 
 </div>
 
@@ -45,4 +47,7 @@ Il comando **Esci** chiude l\'applicazione FreeCAD e facoltativamente salva i do
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std Quit/it

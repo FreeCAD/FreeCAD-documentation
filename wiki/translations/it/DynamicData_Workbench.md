@@ -1,7 +1,4 @@
 # DynamicData Workbench/it
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -52,3 +49,6 @@ Sono in fase di sviluppo ulteriori nuovi ambienti.
 
 
 [Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+
+---
+[documentation index](../README.md) > DynamicData Workbench/it

@@ -39,3 +39,6 @@ Medium
 [FreeCAD Civil Engineering Thread](https://forum.freecadweb.org/viewtopic.php?f=8&t=22277&start=250)
 
 [Category:Google Summer of Code](Category:Google_Summer_of_Code.md)
+
+---
+[documentation index](../README.md) > Swept-path Analysis GSoC Project

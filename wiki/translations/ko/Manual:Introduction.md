@@ -1,7 +1,4 @@
 # Manual:Introduction/ko
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -34,3 +31,5 @@ The contents of this manual are published under the [Creative Commons 4.0](http:
 
 </div>
 
+---
+[documentation index](../README.md) > Manual:Introduction/ko

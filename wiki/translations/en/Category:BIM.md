@@ -6,3 +6,6 @@ This category is for pages related to Building Information Management (BIM). The
 [Arch IfcExplorer/en](Arch_IfcExplorer/en.md) , [BIM application compatibility table/en](BIM_application_compatibility_table/en.md) , [BIM ingame tutorial/en](BIM_ingame_tutorial/en.md) , [BIM Library/en](BIM_Library/en.md) , [BIM Workbench/en](BIM_Workbench/en.md) , [IfcOpenShell/en](IfcOpenShell/en.md) , [Import/Export IFC - compiling IfcOpenShell/en](Import/Export_IFC_-_compiling_IfcOpenShell/en.md) , [Manual:BIM modeling/en](Manual:BIM_modeling/en.md) , [Material/en](Material/en.md) ,
 
 [Category:User Documentation/en](Category:User_Documentation/en.md) [Category:External Workbenches](Category:External_Workbenches.md) [Category:Arch/en](Category:Arch/en.md)
+
+---
+[documentation index](../README.md) > Category:BIM/en

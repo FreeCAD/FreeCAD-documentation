@@ -9,6 +9,8 @@
    SeeAlso:[Offset](Draft_Offset/it.md), [Scala](Draft_Scale/it.md)
 ---
 
+# Draft Stretch/it
+
 
 </div>
 
@@ -108,5 +110,5 @@ Per lo strumento Stira non esiste un\'interfaccia di programmazione disponibile.
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Stretch/it

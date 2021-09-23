@@ -6,6 +6,8 @@
    Workbenches:[OpenSCAD](OpenSCAD_Workbench/de.md)
 ---
 
+# OpenSCAD RefineShapeFeature/de
+
 ## Beschreibung
 
 Entfernt unnötige Linien. Nach einer Booleschen Operation bleiben einige Linien sichtbar, die zur vorigen Form gehören. Dieses Werkzeug erstellt eine Kopie des bereinigten Körpers.
@@ -45,4 +47,7 @@ Entfernt unnötige Linien. Nach einer Booleschen Operation bleiben einige Linien
 
 {{OpenSCAD_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD RefineShapeFeature/de

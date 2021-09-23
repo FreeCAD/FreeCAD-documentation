@@ -6,6 +6,8 @@
    Workbenches:[PartDesign](PartDesign_Workbench/fr.md)
 ---
 
+# PartDesign MultiTransform/fr
+
 ## Description
 
 \'Créer un motif à partir de combinaisons de transformations\' - L\'outil **![](images/)_[Transformation_multiple](PartDesign_MultiTransform/fr.md)** prend une partie (ou un ensemble de) \'fonctionnalités\' en entrée et permet à l\'utilisateur d\'appliquer progressivement plusieurs transformations à cette fonctionnalité (ou à cet ensemble de fonctionnalités), en séquence, créant ainsi une transformation combinée ou composée.
@@ -147,4 +149,7 @@ Une fois lancé et complété de cette façon, **![](images/)_[Transformation_m
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign MultiTransform/fr

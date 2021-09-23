@@ -1,3 +1,4 @@
+# Std SaveCopy/de
 ---
 - GuiCommand:/de   Name:Std SaveaCopy   Name/de:Std SaveaCopy   MenuLocation:[Workbenches:Alle   Shortcut:**C**   SeeAlso:[[Std_Save/de|Speichern](Std_File_Menu___Datei]]_→_Speichern_einer_Kopie....md), [Speichern unter...](Std_SaveAs/de.md) ---
 
@@ -57,4 +58,7 @@ doc.saveCopy(fnm)
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std SaveCopy/de

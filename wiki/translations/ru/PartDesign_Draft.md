@@ -6,6 +6,8 @@
    Workbenches:[Part Design](PartDesign_Workbench/ru.md)
 ---
 
+# PartDesign Draft/ru
+
 ### Description
 
 This tool creates angular draft on the selected faces of an object. A new separate Draft entry (followed by a sequential number if there are already existing drafts in the document) is created in the Project tree.
@@ -51,4 +53,7 @@ This tool creates angular draft on the selected faces of an object. A new separa
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Draft/ru

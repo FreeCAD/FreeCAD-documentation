@@ -1,10 +1,4 @@
 # Document structure/pl
-
-
-
-
-
-
 {{TOCright}}
 
 ![](images/Screenshot_treeview.jpg ) Dokument FreeCADa zawiera wszystkie obiekty twojej sceny. Może zawierać grupy i obiekty wykonane w dowolnym Środowisku pracy. Dlatego możesz przełączać się między nimi, ciągle pracując z tym samym dokumentem. Dokument jest tym co zostaje zapisane na dysku kiedy zachowujesz swoją pracę. Możesz także uruchomić kilka dokumentów jednocześnie i kilka widoków tego samego dokumentu.
@@ -43,8 +37,5 @@ FreeCADGui.ActiveDocument.Blob
 FreeCADGui.ActiveDocument.ActiveView
 ``` Zwróci aktualny widok
 
-
-
-
-
-
+---
+[documentation index](../README.md) > Document structure/pl

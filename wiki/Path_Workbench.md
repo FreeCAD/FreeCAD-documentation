@@ -1,10 +1,4 @@
-# Path Workbench
- 
-
-
-
-
-<img alt="Path workbench icon" src=images/Workbench_Path.svg  style="width:128px;">
+# <img alt="Path workbench icon" src=images/Workbench_Path.svg  style="width:64px;"> Path Workbench
 
  
 
@@ -221,3 +215,6 @@ See [Path scripting](Path_scripting.md).
  {{Path_Tools_navi}} 
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Path Workbench

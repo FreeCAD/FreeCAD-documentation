@@ -7,6 +7,8 @@
    SeeAlso:[Sketcher Appliquer une esquisse sur une face](Sketcher_MapSketch/fr.md), [Sketcher Créer une esquisse](Sketcher_NewSketch/fr.md)
 ---
 
+# Sketcher ReorientSketch/fr
+
 ## Description
 
 Vous permet de détacher une esquisse d'une face et de la lier à l'un des plans principaux (avec un décalage).
@@ -31,4 +33,7 @@ Vous permet de détacher une esquisse d'une face et de la lier à l'un des plans
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ReorientSketch/fr

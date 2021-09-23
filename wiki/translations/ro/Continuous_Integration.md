@@ -1,10 +1,4 @@
 # Continuous Integration/ro
-
-
-
-
-
-
 {{TOCright}}
 
 
@@ -46,3 +40,6 @@ Dacă adăugaţi [skip ci] sau [ci skip] pentru comiterea unui \"git\", aceasta 
  
 
 [Category:Developer\_Documentation](Category:Developer_Documentation.md) [Category:Testing](Category:Testing.md)
+
+---
+[documentation index](../README.md) > [Developer_Documentation](Category:Developer_Documentation.md) > Continuous Integration/ro

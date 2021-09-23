@@ -8,6 +8,8 @@
    SeeAlso:[Entwurf Herabstufen](Draft_Downgrade/de.md)
 ---
 
+# Draft Upgrade/de
+
 ## Beschreibung
 
 
@@ -86,8 +88,5 @@ add_list5, delete_list5 = Draft.upgrade(face, delete=False)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Upgrade/de

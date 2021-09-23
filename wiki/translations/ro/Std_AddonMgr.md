@@ -9,6 +9,8 @@
    Version:0.17
 ---
 
+# Std AddonMgr/ro
+
 
 </div>
 
@@ -130,4 +132,7 @@ Dacă dezvoltați un aelier de lucru în C ++, acesta nu poate fi rulat direct d
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std AddonMgr/ro

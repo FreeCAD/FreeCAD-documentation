@@ -7,6 +7,8 @@
    SeeAlso:[Sketcher periodic B-Spline](Sketcher_CreatePeriodicBSpline.md)
 ---
 
+# Sketcher CreateBSpline/pl
+
 ## Description
 
 This tool creates B-Spline curve from its control points. (See [this page](B-Splines.md) for more info about B-Splines.)
@@ -36,4 +38,7 @@ This tool creates B-Spline curve from its control points. (See [this page](B-Spl
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateBSpline/pl

@@ -7,6 +7,8 @@
    SeeAlso:[Arch IFC](Arch_IFC/ru.md)
 ---
 
+# Arch IfcExplorer/ru
+
 
 </div>
 
@@ -53,3 +55,6 @@
  
 
 [Category:BIM](Category:BIM.md)
+
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch IfcExplorer/ru

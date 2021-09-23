@@ -8,6 +8,8 @@
    SeeAlso:---
 ---
 
+# OpenSCAD ExpandPlacements/ru
+
 
 </div>
 
@@ -44,4 +46,7 @@ Works with:
 
 {{OpenSCAD_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD ExpandPlacements/ru

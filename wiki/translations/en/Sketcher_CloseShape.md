@@ -7,6 +7,8 @@
    Version:0.15
 ---
 
+# Sketcher CloseShape/en
+
 ## Description
 
 This tool can be used to make a selected contour in sketcher closed by making an endpoint of a sketcher element coincident with the endpoint of the sketcher element selected next.
@@ -29,4 +31,7 @@ The tool will connect the elements in the order of their selection, so make sure
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CloseShape/en

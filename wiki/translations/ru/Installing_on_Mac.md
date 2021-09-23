@@ -1,9 +1,4 @@
 # Installing on Mac/ru
-
-
-
-
-
 FreeCAD можно установить на macOS из пакета .dmg, который вы можете просто перетащить в вашу папку приложений:
 
 
@@ -52,8 +47,5 @@ brew install freecad
 
 Если вы установили FreeCAD вместе с homebrew, просто используйте команду `brew uninstall freecad`. Это все, что требуется.
 
-
-
-
-
-
+---
+[documentation index](../README.md) > Installing on Mac/ru

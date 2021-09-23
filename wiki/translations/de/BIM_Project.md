@@ -6,6 +6,8 @@
    MenuLocation:Verwalten → Projekt verwalten...
 ---
 
+# BIM Project/de
+
 ## Beschreibung
 
 <img alt="" src=images/BIM_project_screenshot.png  style="width:1024px;">
@@ -26,3 +28,6 @@ Der Projekteinstellungsdialog kann erstellt werden:
 Das Projektwerkzeug unterstützt zwei Arten von Vorlagen: Nachdem du die verschiedenen Optionen ausgefüllt hast, kann der Inhalt des BIM Projekteinstellungsassistenten als Vorlage **gespeichert** werden. Diese Vorlagen können **wiederhergestellt** und zu einem späteren Zeitpunkt angepasst werden. Die Projektvorlagen werden als einfache Textdateien in deinem FreeCAD Benutzerordner gespeichert.
 
 Alternativ kannst du auch den Inhalt des aktuellen Dokuments als Vorlage speichern. Dadurch wird das aktuell geöffnete Dokument als Standarddatei **.FCStd** gespeichert, enthält aber auch zusätzliche BIM Einstellungen wie die aktuelle Arbeitsebene oder die aktuellen Einheiten. Wenn du die Option **Wiederherstellen** jederzeit verwendest, wird der Inhalt dieser Vorlagendatei mit dem aktiven Dokument zusammengeführt und alle darin gefundenen Einstellungen werden angewendet.
+
+---
+[documentation index](../README.md) > BIM Project/de

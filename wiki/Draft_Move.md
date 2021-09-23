@@ -8,6 +8,8 @@
    SeeAlso:[Draft SubelementHighlight](Draft_SubelementHighlight.md)
 ---
 
+# Draft Move
+
 ## Description
 
 The <img alt="" src=images/Draft_Move.svg  style="width:24px;"> **Draft Move** command moves or copies selected objects from one point to another. In subelement mode the command moves selected points and edges, or copies selected edges, of [Draft Lines](Draft_Line.md) and [Draft Wires](Draft_Wire.md).
@@ -109,7 +111,5 @@ list3 = Draft.move(list1, -2*vector, copy=True)
 doc.recompute()
 ```
 
-
-
-
-  
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Move

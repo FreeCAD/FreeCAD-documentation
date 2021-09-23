@@ -6,6 +6,8 @@
    MenuLocation:Robot → Passer à la position de départ
 ---
 
+# Robot RestoreHomePos/fr
+
 
 </div>
 
@@ -54,4 +56,7 @@ Si aucune position d\'origine n\'a été spécifiée via [Robot Position de dép
 
 {{Robot_Tools_navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot RestoreHomePos/fr

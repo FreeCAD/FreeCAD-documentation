@@ -7,6 +7,8 @@
    Version:0.17
 ---
 
+# Spreadsheet SplitCell/fr
+
 ## Description
 
 L\'outil **<img src=images/Spreadsheet_SplitCell.svg style="width:16px"> [Spreadsheet Diviser une cellule](Spreadsheet_SplitCell/fr.md)** sépare une cellule qui a été fusionnée en une seule dans une feuille de calcul existante du document actif.
@@ -23,4 +25,7 @@ L\'outil **<img src=images/Spreadsheet_SplitCell.svg style="width:16px"> [Spread
 
 {{Spreadsheet_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet SplitCell/fr

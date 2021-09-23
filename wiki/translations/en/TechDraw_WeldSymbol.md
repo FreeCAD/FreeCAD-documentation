@@ -8,6 +8,8 @@
    SeeAlso:[TechDraw Leaderline](TechDraw_LeaderLine.md)
 ---
 
+# TechDraw WeldSymbol/en
+
 ## Description
 
 The WeldingSymbol tool adds welding specifications to an existing leader line.
@@ -110,4 +112,7 @@ Individual symbols are formed by 64x64 pixel SVG files. Additional symbols can b
 
 {{TechDraw Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw WeldSymbol/en

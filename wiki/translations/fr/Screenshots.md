@@ -1,5 +1,5 @@
 # Screenshots/fr
- {{TOCright}}
+{{TOCright}}
 
 Vous trouverez ici des vues d\'écran montrant différentes parties de FreeCAD. Elles n\'ont pas d\'ordre particulier, donc les images peuvent être différentes de votre version actuelle. Voir d\'autre vues d\'écrans proposées par des utilisateurs de FreeCAD sur le [sujet call for screenshot](http://forum.freecadweb.org/viewtopic.php?f=8&t=4751) et sur le sujet [\"Show your project here!\" de la partie Users Showcase du forum](http://forum.freecadweb.org/viewforum.php?f=24).
 
@@ -202,3 +202,6 @@ FreeCAD s\'exécutant en mode console (sans interface graphique)
 La boîte de dialogue pour sauvegarder une image avec des dimensions personnalisées.
 
 [Category:User Documentation/fr](Category:User_Documentation/fr.md) [Category:Screenshots/fr](Category:Screenshots/fr.md)
+
+---
+[documentation index](../README.md) > Screenshots/fr

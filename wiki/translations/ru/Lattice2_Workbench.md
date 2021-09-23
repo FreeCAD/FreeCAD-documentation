@@ -1,5 +1,5 @@
 # Lattice2 Workbench/ru
- } <img alt="" src=images/Lattice2_Lattice2.svg  style="width:240px;"> 
+} <img alt="" src=images/Lattice2_Lattice2.svg  style="width:240px;"> 
 *align=center|Иконка внешнего верстака FreeCAD Lattice2*
 
 ## Введение
@@ -155,3 +155,6 @@ After you install the workbench, it should appear at the bottom of list of workb
 
 
 [Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+
+---
+[documentation index](../README.md) > Lattice2 Workbench/ru

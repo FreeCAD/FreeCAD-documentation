@@ -1,3 +1,4 @@
+# Path DressupDogbone/ro
 ---
 - GuiCommand:   Name:Path DressupTag   Workbenches:[MenuLocation:Path → Path Dressup → Dogbone Dress-up   SeeAlso:[[Path_DressupTag|Path_DressupTag](Path_Workbench___Path]].md), [Path_DressupRampEntry](Path_DressupRampEntry.md), [Path_DressupDragKnife](Path_DressupDragKnife.md) ---
 
@@ -50,4 +51,7 @@ Pentru a îmbrăca traiectoria de corecție a colțurilor, este nevoie de un seg
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path DressupDogbone/ro

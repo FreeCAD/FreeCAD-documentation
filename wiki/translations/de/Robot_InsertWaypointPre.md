@@ -6,6 +6,8 @@
    Shortcut:**W**
 ---
 
+# Robot InsertWaypointPre/de
+
 
 </div>
 
@@ -52,4 +54,7 @@ Selektierbare Objekte sind
 
 {{Robot_Tools_navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot InsertWaypointPre/de

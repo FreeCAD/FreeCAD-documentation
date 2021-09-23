@@ -7,6 +7,8 @@
    SeeAlso:[Tratteggio da modello](TechDraw_Hatch/it.md), [Tipi di tratteggio](TechDraw_Hatching/it.md)
 ---
 
+# TechDraw GeometricHatch/it
+
 
 </div>
 
@@ -117,4 +119,7 @@ Part.show(hatch)
 
 {{TechDraw Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw GeometricHatch/it

@@ -1,10 +1,4 @@
 # Installing on Mac/bg
-
-
-
-
-
-
 <div class="mw-translate-fuzzy">
 
 FreeCAD може да бъде инсталиран на Mac OS X само с една стъпка използвайки инсталаторът по-долу.
@@ -73,5 +67,5 @@ The FreeCAD installer is provided as a app package (.app) enclosed in a disk ima
 
 </div>
 
-
-
+---
+[documentation index](../README.md) > Installing on Mac/bg

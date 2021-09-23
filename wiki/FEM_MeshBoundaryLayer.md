@@ -6,6 +6,8 @@
    SeeAlso:[FEM tutorial](FEM_tutorial.md)
 ---
 
+# FEM MeshBoundaryLayer
+
 ## Description
 
 FEM MeshBoundaryLayer enables the user to set a localized set of meshing parameters by selecting a set of elements (Vertex, Edge, Face) and applying the parameters to it. It is especially useful for refining meshes close to edges or surfaces in flow simulations. For example, it can be used to refine the mesh in the vicinity of an air foil or obstacle in a flow.
@@ -48,4 +50,7 @@ You can create as many different mesh boundary layers as needed.
 
 
 
- {{FEM Tools navi}}  
+ {{FEM Tools navi}}
+
+---
+[documentation index](../README.md) > FEM MeshBoundaryLayer

@@ -7,6 +7,8 @@
    SeeAlso:[Arch Structure](Arch_Structure.md)
 ---
 
+# Arch Wall/en
+
 ## Description
 
 This tool builds a Wall object from scratch or on top of any other [shape](Part_Workbench.md)-based or [mesh](Mesh_Workbench.md)-based object. A wall can be built without any base object, in which case it behaves as a cubic volume, using length, width and height properties. When built on top of an existing shape, a wall can be based on:
@@ -137,11 +139,5 @@ Draft.move(Wall2, FreeCAD.Vector(0, -1000, 0))
 FreeCAD.ActiveDocument.recompute()
 ```
 
-
-
-
-
-
-
-
-
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Wall/en

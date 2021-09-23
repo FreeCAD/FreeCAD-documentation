@@ -8,6 +8,8 @@
    SeeAlso:[FEM tutorial](FEM_tutorial/ru.md)
 ---
 
+# FEM ConstraintDisplacement/ru
+
 
 </div>
 
@@ -33,4 +35,7 @@ Creates a FEM constraint for a prescribed displacement of a selected object for 
 
 {{FEM Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > FEM ConstraintDisplacement/ru

@@ -8,6 +8,8 @@
    SeeAlso:[Part Copie simple](Part_SimpleCopy/fr.md), [Part Copie élément](Part_ElementCopy/fr.md), [Part Affiner la forme](Part_RefineShape/fr.md)
 ---
 
+# Part TransformedCopy/fr
+
 ## Description
 
 [Part Copie transformée](Part_TransformedCopy/fr.md) produit une copie non paramétrique d\'un objet qui a été déplacé de sa position d\'origine.
@@ -29,8 +31,5 @@ La copie a une simple propriété {{PropertyData/fr|Placement}} comme n\'importe
 
 La copie a des propriétés de vue simples comme toutes les autres [Part Feature](Part_Feature/fr.md).
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part TransformedCopy/fr

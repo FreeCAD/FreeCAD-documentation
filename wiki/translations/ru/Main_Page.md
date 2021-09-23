@@ -1,7 +1,4 @@
 # Main Page/ru
- 
-
-
 <div class="mw-translate-fuzzy">
 
 ## Введение
@@ -67,3 +64,6 @@ FreeCAD может быть собран на всех платформах с �
 
 
 [Category:Documentation](Category:Documentation.md)
+
+---
+[documentation index](../README.md) > [Documentation](Category:Documentation.md) > Main Page/ru

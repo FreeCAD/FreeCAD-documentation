@@ -7,6 +7,8 @@
    SeeAlso:[Arch Site](Arch_Site.md), [Arch Building](Arch_Building.md)
 ---
 
+# Arch Project
+
 ## Description
 
 The Arch Project is a special object suitable to add better compatibility with [IFC](Arch_IFC.md) files. Every IFC file is required to contain an [IfcProject](https://standards.buildingsmart.org/IFC/RELEASE/IFC4_1/FINAL/HTML/schema/ifckernel/lexical/ifcproject.htm) entity. The IfcProject is mostly used to define general project settings such as projection systems, for GIS compatibility, or units systems.
@@ -20,7 +22,5 @@ Note that, although any other BIM object can be added to a Project, which the IF
 1.  Press the **<img src="images/Arch_Project.svg" width=16px> [Arch Project](Arch_Project.md)** button, or press the **P** then **O** keys.
 2.  Add any object to your project by drag-and-dropping them onto the Project in the [Tree view](Tree_view.md).
 
-
-
-
-  
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Project

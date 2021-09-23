@@ -1,5 +1,5 @@
 # Macro Replace Part in Assembly/fr
- {{Macro/fr
+{{Macro/fr
 |Name=Macro Replace Part in Assembly
 |Icon=Replace_Part.png
 |Description=Remplace une pièce dans un assemblage par une autre.
@@ -615,6 +615,5 @@ class replace():
 
 }}
 
-
-
-
+---
+[documentation index](../README.md) > Macro Replace Part in Assembly/fr

@@ -1,6 +1,4 @@
 # Artwork TechDraw/de
- 
-
 Diese Symbole befinden sich im angegebenen Quellpfad.
 
 Für alle Symbole im Quellbaum, siehe [Grafik](Artwork/de.md).
@@ -33,3 +31,6 @@ Der [TechDraw-Arbeitsbereich](TechDraw_Workbench/de.md) wird mit einer Reihe von
 }} 
 
 [Category:TechDraw](Category:TechDraw.md)
+
+---
+[documentation index](../README.md) > [TechDraw](Category:TechDraw.md) > Artwork TechDraw/de

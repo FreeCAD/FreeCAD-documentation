@@ -7,6 +7,8 @@
    SeeAlso:[Sketcher Constrain Lock](Sketcher_ConstrainLock.md)
 ---
 
+# Sketcher ConstrainBlock/pt-br
+
 ## Description
 
 **Constrain Block** blocks a geometric element in place with a single constraint.
@@ -33,4 +35,7 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainBlock/pt-br

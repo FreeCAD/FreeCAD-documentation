@@ -1,3 +1,4 @@
+# OpenSCAD Minkowski/it
 ---
 - GuiCommand:/it   Name:OpenSCAD Minkowski   Name/it:Minkowski   MenuLocation:OpenSCAD → Minkowski‏‎   |Workbenches:[[OpenSCAD_Workbench/it   OpenSCAD]]|Shortcut:   SeeAlso:---
 
@@ -82,4 +83,7 @@ La funzione richiede che OpenSCAD sia installato e configurato nelle **Modifica*
 
 {{OpenSCAD_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD Minkowski/it

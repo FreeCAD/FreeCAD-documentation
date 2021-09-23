@@ -1,3 +1,4 @@
+# Ship TankNew/fr
 ---
 - GuiCommand:/fr   Name:Ship TankNew   Name/fr:Ship TankNew   MenuLocation:Weights → Create a new tank   |Workbenches:[[Ship Workbench/fr   Ship]]|Shortcut:   SeeAlso:---
 
@@ -16,9 +17,5 @@ TODO
 
 {{Ship_Tools_navi}}
 
-
-
-
-
-
-
+---
+[documentation index](../README.md) > Ship TankNew/fr

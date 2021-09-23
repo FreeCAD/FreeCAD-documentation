@@ -1,6 +1,4 @@
 # Online Help Startpage/uk
- 
-
 ![150](images/Crystal_Clear_app_tutorials.png )
 
 ## Welcome to the FreeCAD on-line help 
@@ -22,3 +20,6 @@ As you may have experienced sometimes, programmers are really bad help writers! 
 
 
 [Category:User\_Documentation](Category:User_Documentation.md)
+
+---
+[documentation index](../README.md) > [User_Documentation](Category:User_Documentation.md) > Online Help Startpage/uk

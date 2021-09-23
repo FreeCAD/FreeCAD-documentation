@@ -1,6 +1,4 @@
 # Profiling/de
-
-
 ## Beschreibung
 
 Die Profilerstellung im Code von FreeCAD hilft, Flaschenhälse in den Algorithmen zu finden, die zur Erstellung oder Manipulation von Objekten verwendet werden.
@@ -41,3 +39,6 @@ kcachegrind /tmp/callgrind.out
 }} 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Profiling/de

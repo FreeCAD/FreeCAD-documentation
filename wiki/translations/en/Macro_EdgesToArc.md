@@ -1,5 +1,5 @@
 # Macro EdgesToArc/en
- {{Macro
+{{Macro
 |Name=EdgesToArc
 |Icon=Macro_EdgesToArc.png
 |Description=Replaces the selected Edges by a circular Arc if possible. Useful for restoring discretized arcs.
@@ -95,6 +95,5 @@ if circular:
             FreeCAD.ActiveDocument.removeObject(shape.Name)
 }}
 
-
-
-
+---
+[documentation index](../README.md) > Macro EdgesToArc/en

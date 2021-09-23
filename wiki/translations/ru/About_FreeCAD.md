@@ -1,7 +1,4 @@
-# About FreeCAD/ru
- 
-
-<img alt="" src=images/Freecad_default.jpg  style="width:1024px;">
+# <img alt="" src=images/Freecad_default.jpg  style="width:1024px;"> About FreeCAD/ru
 
 **FreeCAD** это универсальная параметрическая 3D [**САПР**](https://ru.wikipedia.org/wiki/%D0%A1%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0_%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D0%B7%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D0%BE%D0%B3%D0%BE_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F) , чья разработка полностью базируется на принципах [открытого исходного кода](http://en.wikipedia.org/wiki/Open_source) ([LGPL License](https://www.gnu.org/licenses/lgpl-3.0.en.html)). FreeCAD непосредственно направлен на разработку в сферах [машиностроения](http://en.wikipedia.org/wiki/Mechanical_engineering) и [дизайна объектов](http://en.wikipedia.org/wiki/Product_design), но также подходит для более широкого круга применений в инженерных задачах, таких как архитектура, анализ методом конечных элементов, 3D печать, и других.
 
@@ -28,3 +25,6 @@ FreeCAD поддерживается и проектируется сообще�
 
 
 [Category:User Documentation](Category:User_Documentation.md)
+
+---
+[documentation index](../README.md) > [User Documentation](Category:User Documentation.md) > About FreeCAD/ru

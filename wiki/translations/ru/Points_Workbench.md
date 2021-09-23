@@ -1,10 +1,4 @@
-# Points Workbench/ru
-
-
-
-
-
-<img alt="Логотип верстака Points" src=images/Workbench_Points.svg  style="width:128px;">
+# <img alt="Логотип верстака Points" src=images/Workbench_Points.svg  style="width:64px;"> Points Workbench/ru
 
 ## Введение
 
@@ -58,3 +52,6 @@ The <img alt="" src=images/Workbench_Points.svg  style="width:24px;"> [Points Wo
 }} 
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Points Workbench/ru

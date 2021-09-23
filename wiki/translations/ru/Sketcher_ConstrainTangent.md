@@ -8,6 +8,8 @@
    SeeAlso:[Зафиксировать точку на объекте](Sketcher_ConstrainPointOnObject/ru.md)
 ---
 
+# Sketcher ConstrainTangent/ru
+
 ## Описание
 
 Ограничение касательности делает две кривые касающимися друг друга. Линии полагаются бесконечными, а дуги как полные окружности или эллипсы. Ограничение так же может соединять две кривые, заставляя их идти по касательной в точке соединения, делая переход гладким.
@@ -129,4 +131,7 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainTangent/ru

@@ -1,7 +1,4 @@
 # Mesh Workbench/ro
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -187,3 +184,6 @@ Mesh Workbench preferences can be found in the following categories of the [Pref
 }} 
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Mesh Workbench/ro

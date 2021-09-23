@@ -1,3 +1,4 @@
+# Sketcher CreatePoint/cs
 ---
 - GuiCommand:/cs   Name:Sketcher CreatePoint   Name/cs: Skicář Bod   Workbenches:[[Sketcher Workbench/cs   Skicář]]|MenuLocation:Náčrt → Skicář Konstrukce →  Vytvořit bod   SeeAlso:---
 
@@ -43,4 +44,7 @@ The created point is not available outside of the sketch. In case a point is nee
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreatePoint/cs

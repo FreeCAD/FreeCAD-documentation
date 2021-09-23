@@ -1,5 +1,4 @@
-# FCGear Workbench/it
- <img alt="L\'icona dell\'ambiente esterno FCGear." src=images/FCGear_workbench_icon.svg  style="width:128px;">
+# <img alt="L\'icona dell\'ambiente esterno FCGear." src=images/FCGear_workbench_icon.svg  style="width:64px;"> FCGear Workbench/it
 
 ## Introduzione
 
@@ -175,3 +174,6 @@ Vedere sopra le istruzioni per Linux
 
 
 [Category:External Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md) [Category:FCGear](Category:FCGear.md)
+
+---
+[documentation index](../README.md) > FCGear Workbench/it

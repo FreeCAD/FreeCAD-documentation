@@ -14,3 +14,6 @@ FreeCAD dev \'etrombly\' has published a short explanation on [how to install di
 -   [ccache](ccache.md)
 
 [Category: Developer Documentation](Category:_Developer_Documentation.md) [Category: 3rd Party](Category:_3rd_Party.md)
+
+---
+[documentation index](../README.md) > [ Developer Documentation](Category: Developer Documentation.md) > Distcc

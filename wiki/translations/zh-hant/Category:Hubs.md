@@ -6,3 +6,6 @@ This category gathers the meeting points of the 3 broad categories of users of F
 [User hub/zh-hant](User_hub/zh-hant.md)
 
 [Category:Categories/zh-hant](Category:Categories/zh-hant.md)
+
+---
+[documentation index](../README.md) > Category:Hubs/zh-hant

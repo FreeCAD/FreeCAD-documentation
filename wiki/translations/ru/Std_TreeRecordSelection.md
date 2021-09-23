@@ -7,6 +7,8 @@
    Shortcut:**T** **5**
 ---
 
+# Std TreeRecordSelection/ru
+
 
 </div>
 
@@ -31,4 +33,7 @@ The Tree view RecordSelection mode can also be set in the [Preferences editor](P
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std TreeRecordSelection/ru

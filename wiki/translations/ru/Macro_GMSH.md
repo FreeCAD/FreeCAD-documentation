@@ -1,7 +1,4 @@
 # Macro GMSH/ru
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -44,4 +41,7 @@ ToolBar Icon ![](images/Macro_GMSH.png )
 
 Страница обсуждения [макроса GMSH](http://forum.freecadweb.org/viewtopic.php?t=11182)
 
-[Смотрите использование макроса на YouTube (англ).](https://www.youtube.com/watch?v=ZcG5EEUe3yc) 
+[Смотрите использование макроса на YouTube (англ).](https://www.youtube.com/watch?v=ZcG5EEUe3yc)
+
+---
+[documentation index](../README.md) > Macro GMSH/ru

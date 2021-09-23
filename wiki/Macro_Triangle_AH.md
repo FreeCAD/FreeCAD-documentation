@@ -1,5 +1,5 @@
 # Macro Triangle AH
-  {{Macro
+{{Macro
 |Name=Macro Triangle AH
 |Icon=Macro_Triangle_AH.png
 |Description=This macro create one triangle creates a triangle by giving the head angle and the height of the triangle. The new triangle is created in the real coordinate.<br/>{{ColoredText|(Command line, paste this complete macro in the Python console)}}.
@@ -105,4 +105,5 @@ ver 00.02 03/05/2015 : adding \"base=0.0\", \"hypo=0.0\" and print data of trian
 
 ver 00.01 20/03/2015 :
 
-
+---
+[documentation index](../README.md) > Macro Triangle AH

@@ -8,6 +8,8 @@
    Version:0.19
 ---
 
+# Arch Rebar BeamReinforcement/ru
+
 
 </div>
 
@@ -376,3 +378,6 @@ RebarGroup = TwoLeggedBeam.makeReinforcement(
  
 
 [Category:Reinforcement](Category:Reinforcement.md)
+
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Rebar BeamReinforcement/ru

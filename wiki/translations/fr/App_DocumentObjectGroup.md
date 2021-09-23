@@ -1,6 +1,4 @@
 # App DocumentObjectGroup/fr
-
-
 ## Introduction
 
 <img alt="" src=images/Folder.svg  style="width:32px;">
@@ -31,4 +29,7 @@ Voir les propriétés dans la page [Std Group](Std_Part/fr.md).
 
 {{Std Base navi
 
-}} {{Document objects navi}} 
+}} {{Document objects navi}}
+
+---
+[documentation index](../README.md) > App DocumentObjectGroup/fr

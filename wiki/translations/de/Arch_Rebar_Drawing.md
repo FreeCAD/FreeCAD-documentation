@@ -7,6 +7,8 @@
    Version:0.19
 ---
 
+# Arch Rebar Drawing/de
+
 Bitte beachte: Die folgende Arbeit ist im Entwicklungszweig des Arbeitsbereichs Bewehrung vorhanden [hier](https://github.com/amrit3701/FreeCAD-Reinforcement/tree/develop)
 
 ## Beschreibung
@@ -385,3 +387,6 @@ for drawing_view in ("Front", "Rear", "Left", "Right", "Top", "Bottom"):
 
 
 [Category:External Command Reference](Category:External_Command_Reference.md) [Category:Reinforcement](Category:Reinforcement.md)
+
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Rebar Drawing/de

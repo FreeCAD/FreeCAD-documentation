@@ -7,6 +7,8 @@
    SeeAlso:[Editor delle preferenze](Preferences_Editor/it.md)
 ---
 
+# Std DlgParameter/it
+
 ## Descrizione
 
 Il comando **Modifica parametri** apre l\'editor dei parametri. Nell\'editor dei parametri i parametri che controllano il comportamento di FreeCAD e dei suoi ambienti di lavoro possono essere ispezionati e facoltativamente rimossi, aggiunti o modificati. I parametri sono memorizzati in un file chiamato {{FileName|user.cfg}}, la posizione di questo file dipende dal sistema operativo.
@@ -182,4 +184,7 @@ It is likely a bad idea to modify the preferences of other parts of FreeCAD unle
 
 {{Std Base navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > Std DlgParameter/it

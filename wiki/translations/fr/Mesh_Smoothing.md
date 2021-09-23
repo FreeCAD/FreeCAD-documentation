@@ -6,6 +6,8 @@
    Workbenches:[Mesh](Mesh_Workbench/fr.md)
 ---
 
+# Mesh Smoothing/fr
+
 ## Description
 
 La commande **Mesh Lissage** lisse les objets maillés en modifiant la position de leurs sommets.
@@ -66,4 +68,7 @@ La commande **Mesh Lissage** lisse les objets maillés en modifiant la position 
 
 {{Mesh Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Smoothing/fr

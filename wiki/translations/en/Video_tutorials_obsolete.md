@@ -1,5 +1,5 @@
 # Video tutorials obsolete/en
- **In FreeCAD 0.17 the [PartDesign Workbench](PartDesign_Workbench.md) received important updates that change the way solids are created with respect to previous versions. New users should watch videos for versions 0.17 and above to understand the concept of working with a [PartDesign Body](PartDesign_Body.md) and datum objects.** **These videos are considered obsolete because they use v0.16 or earlier versions of the program.**
+**In FreeCAD 0.17 the [PartDesign Workbench](PartDesign_Workbench.md) received important updates that change the way solids are created with respect to previous versions. New users should watch videos for versions 0.17 and above to understand the concept of working with a [PartDesign Body](PartDesign_Body.md) and datum objects.** **These videos are considered obsolete because they use v0.16 or earlier versions of the program.**
 
 ## Introduction
 
@@ -56,4 +56,7 @@ For up-to-date videos on different topics, see the [video tutorials](video_tutor
 
 {{Tutorials navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > Video tutorials obsolete/en

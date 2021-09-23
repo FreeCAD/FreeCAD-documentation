@@ -1,5 +1,5 @@
 # Macro HighlightDifference/fr
- {{Macro/fr
+{{Macro/fr
 |Name=HighlightDifference
 |Description=Crée un objet(s) différence entre deux objets qui se chevauchent
 |Author=Gaël Ecorchard
@@ -40,3 +40,6 @@ Le code est visible sur Github: [Utility/HighlightDifference.FCMacro](https://gi
 
 -   Voir la macro complémentaire [Macro\_HighlightCommon](Macro_HighlightCommon/fr.md)
 -   La discussion sur le forum [\"collision detection\", overlapping](http://forum.freecadweb.org/viewtopic.php?f=22&t=12426)
+
+---
+[documentation index](../README.md) > Macro HighlightDifference/fr

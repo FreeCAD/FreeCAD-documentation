@@ -8,6 +8,8 @@
    SeeAlso:[Lunghezza](Sketcher_ConstrainDistance/it.md), [Perpendicolare](Sketcher_ConstrainPerpendicular/it.md)
 ---
 
+# Sketcher ConstrainAngle/it
+
 
 </div>
 
@@ -136,4 +138,7 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainAngle/it

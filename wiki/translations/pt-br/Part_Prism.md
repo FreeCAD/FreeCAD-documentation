@@ -7,6 +7,8 @@
    SeeAlso:[Part Primitives](Part_Primitives.md), [Part Box/Cube](Part_Box.md)
 ---
 
+# Part Prism/pt-br
+
 ## Description
 
 A Part Prism is a solid defined by a regular polygon cross section and a height.
@@ -29,10 +31,7 @@ The prism properties can later be edited, either in the [Property editor](Proper
 
 -    **First Angle**: Angle in first direction. <small>(v0.19)</small> 
 
--    **Second Angle**: Angle in second direction. <small>(v0.19)</small> 
+-    **Second Angle**: Angle in second direction. <small>(v0.19)</small>
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Prism/pt-br

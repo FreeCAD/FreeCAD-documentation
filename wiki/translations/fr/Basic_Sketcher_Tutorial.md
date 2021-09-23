@@ -1,7 +1,4 @@
 # Basic Sketcher Tutorial/fr
-
-
-
 {{TutorialInfo/fr
 |Topic= Esquisse
 |Level= Débutant
@@ -293,3 +290,6 @@ Contraindre une esquisse peut se faire de différentes manières. En général, 
 }} {{Sketcher Tools navi}} 
 
 [Category:Sketcher/fr](Category:Sketcher/fr.md)
+
+---
+[documentation index](../README.md) > Basic Sketcher Tutorial/fr

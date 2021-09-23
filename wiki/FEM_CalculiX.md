@@ -1,6 +1,4 @@
 # FEM CalculiX
- 
-
 ## Introduction
 
 This page collects information on the [CalculiX](http://www.calculix.de/) finite element solver, the default solver in the **<img src="images/Workbench_FEM.svg" width=24px> [FEM Workbench](FEM_Workbench.md)** for structural and thermo-mechanical analysis as of FreeCAD 0.17. Depending on the operating system you are working with, you\'ll need to install CalculiX before running your first simulation. Please see [FEM Install](FEM_Install.md).
@@ -69,3 +67,6 @@ Reaction forces can be found in ccx\_dat\_file which contains reaction force com
  {{FEM Tools navi}}
 
 [Category:Poweruser\_Documentation](Category:Poweruser_Documentation.md) [Category:Developer](Category:Developer.md)
+
+---
+[documentation index](../README.md) > [Poweruser_Documentation](Category:Poweruser_Documentation.md) > FEM CalculiX

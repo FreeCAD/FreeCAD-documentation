@@ -1,7 +1,4 @@
 # Licence/it
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -73,3 +70,6 @@ Nevertheless this decision is made only for the core system of FreeCAD. Every wr
  
 
 [Category:Developer Documentation](Category:Developer_Documentation.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Licence/it

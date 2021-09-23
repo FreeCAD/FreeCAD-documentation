@@ -1,7 +1,4 @@
 # Arch Workbench/ro
-
-
-
 {{docnav/ro
 |[Workbenches](Workbenches/ro.md)
 |[Draft Module](Draft_Workbench/ro.md)
@@ -151,3 +148,6 @@ Modulul Arch poate fi folosit în scripturile [Python](Python.md) scripts și [m
  
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Arch Workbench/ro

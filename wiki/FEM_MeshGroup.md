@@ -7,6 +7,8 @@
    SeeAlso:[FEM tutorial](FEM_tutorial.md)
 ---
 
+# FEM MeshGroup
+
 ## Description
 
 FEM MeshGroup enables the user to create groups of Vertices, Edges, Surfaces and elements. It is useful in case of using FreeCAD as a pre-processor to export an organized and labeled mesh. The mesh is then usable by external solver codes, where mesh groups can be used more readily to set boundary conditions and attribute solver related properties. It is possible to use the FreeCAD mesh group object name or the label as the group name on export of the mesh. If the label is chosen, the user has to be mindful if special characters are used. If the mesh export format does not allow special character its fallback is to use the mesh group object name.
@@ -38,4 +40,7 @@ FEM MeshGroup therefore enables FreeCAD to be used with external solvers (or vie
 
 
 
- {{FEM Tools navi}}  
+ {{FEM Tools navi}}
+
+---
+[documentation index](../README.md) > FEM MeshGroup

@@ -6,6 +6,8 @@
    SeeAlso:[Sketcher ConstrainCoincident](Sketcher_ConstrainCoincident.md), [Topological naming problem](Topological_naming_problem.md)
 ---
 
+# Sketcher ValidateSketch/en
+
 ## Description
 
 The **Validate sketch** utility can be used to analyze and repair a sketch that is no longer editable or has invalid constraints, or to add missing [coincident constraints](Sketcher_ConstrainCoincident.md) to a sketch created from imported geometry such as DXF files. It can also be useful to locate a missing coincidence in a native sketch that generates a \"can\'t validate broken face\" error when trying to apply a PartDesign feature.
@@ -77,4 +79,7 @@ The locking mechanism typically works well and this tool should not be needed. *
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ValidateSketch/en

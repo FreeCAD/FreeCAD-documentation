@@ -8,6 +8,8 @@
    SeeAlso:
 ---
 
+# Path Stop/ru
+
 
 </div>
 
@@ -31,4 +33,7 @@ This tool inserts a Stop command (M1). This command will Pause a running program
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Stop/ru

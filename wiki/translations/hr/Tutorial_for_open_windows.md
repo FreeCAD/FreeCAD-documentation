@@ -1,7 +1,4 @@
 # Tutorial for open windows/hr
-
-
-
 {{TutorialInfo/hr
 |Topic=Architecture
 |Level=Beginner
@@ -246,4 +243,7 @@ A closer interaction between the workbenches is planed for future versions of Fr
 
 {{Tutorials navi
 
-}}   {{TechDraw Tools navi}} 
+}}   {{TechDraw Tools navi}}
+
+---
+[documentation index](../README.md) > [Arch](Category:Arch.md) > Tutorial for open windows/hr

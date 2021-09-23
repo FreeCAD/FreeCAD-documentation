@@ -1,10 +1,4 @@
 # PartDesign Bearingholder Tutorial I
-
-
-
-
-
-
 {{TutorialInfo
 |Topic=Modeling
 |Level=Experienced User
@@ -118,3 +112,6 @@ We have modelled the bearing holder top with the dimensions it will have after c
  
 
 [Category:Tutorials](Category:Tutorials.md)
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Bearingholder Tutorial I

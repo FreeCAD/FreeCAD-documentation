@@ -1,5 +1,5 @@
 # Macro CirclePlus
-  {{Macro
+{{Macro
 |Name=Macro CirclePlus
 |Icon=Macro_CirclePlus.png
 |Description=Creates circle or arc giving radius, diameter, circumference, area, startangle, endangle, arc, anglecenter, cord, arrow, center (point), placemObject on choice (With GUI)
@@ -88,3 +88,6 @@ ver 0.0 , 2018-07-10 :
 
 
 [Category:Macros Needing Review](Category:Macros_Needing_Review.md)
+
+---
+[documentation index](../README.md) > Macro CirclePlus

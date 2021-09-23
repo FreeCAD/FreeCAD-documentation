@@ -1,5 +1,5 @@
 # Macro TreeToAscii/fr
- {{Macro
+{{Macro
 |Name=TreeToAscii
 |Description=Cette macro génère une représentation graphique ASCII de l'arbre du ou des objets sélectionnés.
 |Author=OpenBrain
@@ -249,3 +249,5 @@ dlg.exec_()
 </nowiki>
 }}
 
+---
+[documentation index](../README.md) > Macro TreeToAscii/fr

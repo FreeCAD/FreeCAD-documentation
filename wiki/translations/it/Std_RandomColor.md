@@ -7,6 +7,8 @@
    Workbenches:Tutti
 ---
 
+# Std RandomColor/it
+
 
 </div>
 
@@ -37,4 +39,7 @@ The **Std RandomColor** command applies a random **Shape Color** to selected obj
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std RandomColor/it

@@ -8,6 +8,8 @@
    SeeAlso:
 ---
 
+# Curves Line/de
+
 
 </div>
 
@@ -48,4 +50,7 @@ Die <img alt="" src=images/Curves_Line.svg  style="width:24px;"> [Kurven Linie](
 
 {{Curves Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > Curves Line/de

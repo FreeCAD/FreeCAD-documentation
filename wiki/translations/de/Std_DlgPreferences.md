@@ -7,6 +7,8 @@
    SeeAlso:[Voreinstellungseditor](Preferences_Editor/de.md)
 ---
 
+# Std DlgPreferences/de
+
 ## Beschreibung
 
 Der **Std DlgEinstellungen**-Befehl öffnet den [Voreinstellungseditor](Preferences_Editor/de.md).
@@ -26,4 +28,7 @@ Der **Std DlgEinstellungen**-Befehl öffnet den [Voreinstellungseditor](Preferen
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std DlgPreferences/de

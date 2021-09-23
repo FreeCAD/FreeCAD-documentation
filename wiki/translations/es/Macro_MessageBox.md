@@ -1,5 +1,5 @@
 # Macro MessageBox/es
- {{Macro/es
+{{Macro/es
 |Name=MessageBox
 |Translate=MessageBox
 |Icon=Macro MessageBox.png
@@ -66,6 +66,5 @@ Ejemplo:
  "+str(z)+"\nRayon\t     : "+str(r))
 }}
 
-
-
-
+---
+[documentation index](../README.md) > Macro MessageBox/es

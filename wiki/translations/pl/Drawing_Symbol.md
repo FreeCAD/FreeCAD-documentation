@@ -7,6 +7,8 @@
    Shortcut:brak
 ---
 
+# Drawing Symbol/pl
+
 ## Opis
 
 To polecenie pozwala na dodanie zawartości obrazu SVG na wybranej stronie [stronie rysunku](Drawing_Landscape_A3/pl.md). Zawartość ta może być następnie przeniesiona i przeskalowana na stronie. Zawartość obrazu SVG jest kopiowana do dokumentu FreeCAD, więc jest ona niezależna od oryginalnego pliku i będzie wyświetlana w ten sam sposób na innym komputerze, który nie posiada oryginalnego pliku SVG.
@@ -28,4 +30,7 @@ To polecenie pozwala na dodanie zawartości obrazu SVG na wybranej stronie [stro
 
 {{Drawing Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Symbol/pl

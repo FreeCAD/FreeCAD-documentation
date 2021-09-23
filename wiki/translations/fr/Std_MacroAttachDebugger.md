@@ -7,6 +7,8 @@
    Workbenches:Tous
 ---
 
+# Std MacroAttachDebugger/fr
+
 ## Description
 
 A faire.
@@ -21,4 +23,7 @@ A faire.
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std MacroAttachDebugger/fr

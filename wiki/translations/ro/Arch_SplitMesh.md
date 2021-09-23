@@ -7,6 +7,8 @@
    SeeAlso:[[Arch SelectNonSolidMeshes]], [[Arch MeshToShape]]
 ---
 
+# Arch SplitMesh/ro
+
 
 </div>
 
@@ -86,11 +88,5 @@ mesh_obj.ViewObject.DisplayMode = "Flat Lines"
 new_list = Arch.splitMesh(mesh_obj)
 ```
 
-
-
-
-
-
-
-
-
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SplitMesh/ro

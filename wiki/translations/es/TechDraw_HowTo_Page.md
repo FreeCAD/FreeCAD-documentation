@@ -1,5 +1,5 @@
 # TechDraw HowTo Page/es
- Back to [TechDraw Tutorials](TechDraw_Workbench#Tutorials.md)
+Back to [TechDraw Tutorials](TechDraw_Workbench#Tutorials.md)
 
 
 {{TutorialInfo/es
@@ -50,4 +50,7 @@ See also [Measurement Of Angles On Holes](Measurement_Of_Angles_On_Holes.md)
 
 {{TechDraw Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw HowTo Page/es

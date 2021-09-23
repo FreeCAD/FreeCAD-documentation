@@ -1,3 +1,4 @@
+# Arch Add/ja
 ---
 - GuiCommand:/jp   Name:Arch Add   Workbenches:[MenuLocation:Arch -> Add   SeeAlso:[[Arch Remove/jp|Arch Remove](Arch_Module/jp___建築]].md)---
 
@@ -105,11 +106,5 @@ Arch.addComponents(Wall2, Wall)
 FreeCAD.ActiveDocument.recompute()
 ```
 
-
-
-
-
-
-
-
-
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Add/ja

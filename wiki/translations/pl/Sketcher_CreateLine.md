@@ -8,6 +8,8 @@
    SeeAlso:[Polilinia](Sketcher_CreatePolyline/pl.md)
 ---
 
+# Sketcher CreateLine/pl
+
 ## Opis
 
 Narzędzie to rysuje linię, wybierając dwa punkty w widoku 3D. Po uruchomieniu narzędzia kursor myszki zmienia się w biały krzyż z czerwoną ikoną linii. Poza tym wyświetlane są współrzędne w czasie rzeczywistym.
@@ -27,4 +29,7 @@ Utworzony obiekt linii zaczyna się i kończy w podanych punktach, ale linia jes
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateLine/pl

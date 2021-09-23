@@ -1,6 +1,4 @@
 # Viewprovider
- 
-
 ## Introduction
 
 [Viewproviders](Viewprovider.md) are classes that define the way objects will look like in the [tree view](tree_view.md) and the [3D view](3D_view.md), and how they will interact with certain graphical actions such as [selection](selection.md).
@@ -137,3 +135,6 @@ See various examples in [Custom icon in tree view](Custom_icon_in_tree_view.md).
  {{Powerdocnavi}} 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Viewprovider

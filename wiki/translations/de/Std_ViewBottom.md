@@ -8,6 +8,8 @@
    SeeAlso:[Rückansicht](Std_ViewRear/de.md), [Ansicht von links](Std_ViewLeft/de.md)
 ---
 
+# Std ViewBottom/de
+
 ## Beschreibung
 
 Der Befehl **Std Bodenansicht** wendet die Kamerasicht der aktiven [3D Ansicht](3D_view/de.md) in die Richtung der positiven Z Achse.
@@ -45,4 +47,7 @@ FreeCADGui.ActiveDocument.ActiveView.getViewDirection()
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ViewBottom/de

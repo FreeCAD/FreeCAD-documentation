@@ -1,5 +1,4 @@
-# WebTools Workbench/fr
- <img alt="Icône de l\'atelier externe WebTools" src=images/WebTools_workbench_icon.svg  style="width:128px;">
+# <img alt="Icône de l\'atelier externe WebTools" src=images/WebTools_workbench_icon.svg  style="width:64px;"> WebTools Workbench/fr
 
 ## Vue d\'ensemble 
 
@@ -23,3 +22,6 @@ Cet atelier peut être installé à partir du [Gestionnaire d\'Addon](Std_AddonM
  
 
 [Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md) [Category:User Documentation](Category:User_Documentation.md)
+
+---
+[documentation index](../README.md) > WebTools Workbench/fr

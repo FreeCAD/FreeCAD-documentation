@@ -7,6 +7,8 @@
    SeeAlso:[Curves Enveloppe de tube](Curves_Pipeshell/fr.md)
 ---
 
+# Curves PipeshellProfile/fr
+
 ## Description
 
 <img alt="" src=images/Curves_PipeshellProfile.svg  style="width:24px;"> [Curves Profil de l\'enveloppe du tube](Curves_PipeshellProfile/fr.md) crée un objet des profils à partir de l\'Enveloppe d\'un tube. Cet outil fait partie des [ateliers externes](External_workbenches/fr.md) appelé [Curves](Curves_Workbench/fr.md).
@@ -32,4 +34,7 @@
 
 {{Curves Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > Curves PipeshellProfile/fr

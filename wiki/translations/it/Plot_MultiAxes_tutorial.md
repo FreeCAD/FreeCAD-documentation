@@ -1,7 +1,4 @@
 # Plot MultiAxes tutorial/it
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -339,3 +336,6 @@ Now you can save your work. See the [previous tutorial](Plot_Basic_tutorial.md) 
 }} {{Plot_Tools_navi}} 
 
 [Category:External\_Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)
+
+---
+[documentation index](../README.md) > [External_Workbenches](Category:External_Workbenches.md) > Plot MultiAxes tutorial/it

@@ -1,5 +1,5 @@
 # Basic modeling tutorial/fr
- {{TutorialInfo/fr
+{{TutorialInfo/fr
 |Topic= Introduction à la modélisation
 |Level= Débutant
 |Time= 15 minutes
@@ -124,4 +124,7 @@ Les instructions ci-dessus fonctionneront, quelle que soit l\'étiquette sur le 
 
 {{Tutorials navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Basic modeling tutorial/fr

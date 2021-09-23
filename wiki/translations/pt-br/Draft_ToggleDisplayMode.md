@@ -7,6 +7,8 @@
    SeeAlso:[Std ToggleVisibility](Std_ToggleVisibility.md)
 ---
 
+# Draft ToggleDisplayMode/pt-br
+
 ## Descrição
 
 The <img alt="" src=images/Draft_ToggleDisplayMode.svg  style="width:24px;"> **Draft ToggleDisplayMode** command switches the **Display Mode** property of selected objects between {{Value|Flat Lines}} and {{Value|Wireframe}}. When this property of is set to {{Value|Wireframe}} only the vertices and edges of an object are visible making it possible to view and select objects behind it.
@@ -32,5 +34,5 @@ The <img alt="" src=images/Draft_ToggleDisplayMode.svg  style="width:24px;"> **D
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ToggleDisplayMode/pt-br

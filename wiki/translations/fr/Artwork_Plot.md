@@ -1,6 +1,4 @@
 # Artwork Plot/fr
- 
-
 Ces icônes se trouvent dans le chemin source indiqué.
 
 Pour toutes les icônes de l\'arborescence source, voir [Graphisme](Artwork/fr.md).
@@ -29,3 +27,6 @@ Pour toutes les icônes de l\'arborescence source, voir [Graphisme](Artwork/fr.m
 }} 
 
 [Category:Plot](Category:Plot.md)
+
+---
+[documentation index](../README.md) > [Plot](Category:Plot.md) > Artwork Plot/fr

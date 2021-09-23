@@ -1,5 +1,5 @@
 # Macro ArrayCopy/pl
- {{Macro/pl
+{{Macro/pl
 |Name=ArrayCopy
 |Icon=Macro_ArrayCopy.png
 |Description=Makro kopiuje zaznaczony obiekt kilka razy, na siatce tablicy Możesz zdefiniować liczbę wierszy i kolumn oraz odległość między nimi.
@@ -83,3 +83,5 @@ dialog.show()
 
 }}
 
+---
+[documentation index](../README.md) > Macro ArrayCopy/pl

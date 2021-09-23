@@ -1,6 +1,4 @@
 # Bitmap/pl
-
-
 ## Opis
 
 [Mapy bitowe](https://en.wikipedia.org/wiki/Bitmap) lub [grafika rastrowa](http://en.wikipedia.org/wiki/Raster_graphics) to obrazy 2D, które są kolekcjami różnobarwnych pikseli. Razem tysiące lub miliony tych pikseli są w stanie przedstawić ludzkiemu oku obraz lub obraz kolorowy.
@@ -17,3 +15,6 @@ FreeCAD może importować obrazy bitmap za pomocą Środowiska pracy [Image](Ima
 
 
 [Category:User Documentation](Category:User_Documentation.md) [Category:TechDraw](Category:TechDraw.md) [Category:Image](Category:Image.md)
+
+---
+[documentation index](../README.md) > [User Documentation](Category:User Documentation.md) > Bitmap/pl

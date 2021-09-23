@@ -1,3 +1,4 @@
+# Ship Geometries Examples/ru
 ---
 - GuiCommand:/ru
    Name:Ship Load‏‎ Example 
@@ -49,4 +50,7 @@ In order to help new users, Ship includes a geometries examples loader, with the
 
 {{Ship_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > Ship Geometries Examples/ru

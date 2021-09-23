@@ -7,6 +7,8 @@
    MenuLocation:Manage → Views
 ---
 
+# BIM Views/fr
+
 ## Description
 
 Le gestionnaire de vues et de niveaux BIM est une fenêtre ancrable qui s\'ouvre sous l\'arborescence normale. Il contient tous les [Parties de bâtiment (niveaux)](Arch_BuildingPart/fr.md) et [Proxy de plan de travail](Draft_WorkingPlaneProxy/fr.md) de votre modèle.
@@ -37,3 +39,6 @@ Le gestionnaire de vues BIM affichera tous les niveaux (éléments de constructi
 }}
 
 [Category:External Command Reference](Category:External_Command_Reference.md)
+
+---
+[documentation index](../README.md) > [External Command Reference](Category:External Command Reference.md) > BIM Views/fr

@@ -1,6 +1,4 @@
 # Artwork TechDraw/fr
- 
-
 Ces icônes se trouvent dans le chemin source indiqué.
 
 Pour toutes les icônes de l\'arborescence source, voir [Graphisme](Artwork/fr.md).
@@ -33,3 +31,6 @@ L\'[atelier TechDraw](TechDraw_Workbench.md) est livré avec un certain nombre d
 }} 
 
 [Category:TechDraw](Category:TechDraw.md)
+
+---
+[documentation index](../README.md) > [TechDraw](Category:TechDraw.md) > Artwork TechDraw/fr

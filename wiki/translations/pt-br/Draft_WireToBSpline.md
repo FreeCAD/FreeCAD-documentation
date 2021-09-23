@@ -6,6 +6,8 @@
    SeeAlso:[Draft Wire](Draft_Wire.md), [Draft BSpline](Draft_BSpline.md)
 ---
 
+# Draft WireToBSpline/pt-br
+
 ## Descrição
 
 The <img alt="" src=images/Draft_WireToBSpline.svg  style="width:24px;"> **Draft WireToBSpline** command converts [Draft Wires](Draft_Wire.md) to [Draft BSplines](Draft_BSpline.md) and vice versa.
@@ -66,5 +68,5 @@ doc.recompute()
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft WireToBSpline/pt-br

@@ -1,7 +1,4 @@
 # Feature list/sv
- 
-
-
 <div class="mw-translate-fuzzy">
 
 Detta är en extensiv, fast inte komplett, lista på de funktioner som FreeCAD har. Om du vill se in i framtiden, se [utvecklingskartan](Development_roadmap/sv.md) för en snabb överblick så är [Skärmdumpar](Screenshots/sv.md) en bra plats att gå till.
@@ -281,3 +278,6 @@ Power users have created various custom [external workbenches](external_workbenc
 
 
 [Category:User Documentation](Category:User_Documentation.md)
+
+---
+[documentation index](../README.md) > [User Documentation](Category:User Documentation.md) > Feature list/sv

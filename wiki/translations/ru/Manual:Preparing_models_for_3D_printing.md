@@ -1,7 +1,4 @@
 # Manual:Preparing models for 3D printing/ru
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -232,3 +229,6 @@ FreeCAD так же предлагает более продвинутый пу�
 </div>
 
 [Category:Path](Category:Path.md) [Category:Mesh](Category:Mesh.md) [Category:Tutorials](Category:Tutorials.md)
+
+---
+[documentation index](../README.md) > [Path](Category:Path.md) > Manual:Preparing models for 3D printing/ru

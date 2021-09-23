@@ -8,6 +8,8 @@
 SeeAlso=[Crea B-spline](Sketcher_CompCreateBSpline/it.md)
 ---
 
+# Sketcher BSplineKnotMultiplicity/it
+
 
 </div>
 
@@ -46,4 +48,7 @@ Mostra o nasconde la visualizzazione della molteplicità di nodi di una curva B-
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineKnotMultiplicity/it

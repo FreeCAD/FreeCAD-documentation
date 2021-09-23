@@ -6,6 +6,8 @@
    Workbenches:Alle
 ---
 
+# Std Edit/de
+
 ## Beschreibung
 
 Der **Std Bearbeiten**-Befehl aktiviert oder deaktiviert den Bearbeitungsmodus eines Objekts.
@@ -61,4 +63,7 @@ FreeCADGui.ActiveDocument.resetEdit()
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std Edit/de

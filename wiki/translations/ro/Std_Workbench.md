@@ -1,3 +1,4 @@
+# Std Workbench/ro
 ---
 - GuiCommand:   Name:Std Workbench   MenuLocation:[[Std View Menu   View]] → Workbench|Workbenches:All   Shortcut:...   SeeAlso:...---
 
@@ -53,4 +54,7 @@ FreeCADGui.activateWorkbench("PartDesignWorkbench")
 
 {{Std Base navi
 
-}}  {{Interface navi}} 
+}}  {{Interface navi}}
+
+---
+[documentation index](../README.md) > Std Workbench/ro

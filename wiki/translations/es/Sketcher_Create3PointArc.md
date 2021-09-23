@@ -8,6 +8,8 @@
    SeeAlso:
 ---
 
+# Sketcher Create3PointArc/es
+
 ## Descripción
 
 Esta herramienta dibuja un arco eligiendo tres puntos: el punto inicial, el punto final y un punto del arco.
@@ -25,4 +27,7 @@ Al iniciar la herramienta, el puntero del ratón cambia a una cruz blanca con un
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Create3PointArc/es

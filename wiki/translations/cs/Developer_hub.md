@@ -1,6 +1,4 @@
 # Developer hub/cs
-
-
 ![150](images/Crystal_Clear_app_tutorials.png )
 
 Toto je místo kam jít, jestliže se chcete zúčastnit vývoje software FreeCADu.
@@ -179,3 +177,6 @@ FreeCAD, ačkoli už je použitelný v určité oblasti, je na začátku dlouhé
 
 
 [Category:Hubs](Category:Hubs.md) [Category:Developer Documentation](Category:Developer_Documentation.md)
+
+---
+[documentation index](../README.md) > [Hubs](Category:Hubs.md) > Developer hub/cs

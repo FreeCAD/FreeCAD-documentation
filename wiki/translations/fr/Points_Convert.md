@@ -6,6 +6,8 @@
    Workbenches:[Points](Points_Workbench/fr.md)
 ---
 
+# Points Convert/fr
+
 ## Description
 
 La commande **Points Conversion** crée des nuages de points à partir d\'objets de forme ou d\'objets maillés.
@@ -55,4 +57,7 @@ Les objets nuage de points sont des objets [App GeoFeature](App_GeoFeature/fr.md
 
 {{Points Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Points](Points_Workbench.md) > Points Convert/fr

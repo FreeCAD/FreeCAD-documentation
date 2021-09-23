@@ -1,5 +1,5 @@
 # Macro Connect And Sweep/fr
- {{Macro/fr
+{{Macro/fr
 |Name= Macro Connect And Sweep
 |Icon=Macro_Connect_And_Sweep.png
 |Description={{ColoredText|#ff0000|#ffffff|Nouvelle version de l'interface graphique modifiée pour le dpi HD (QGridLayout) exécutez uniquement la version FC 0.18 et plus (PySide2 Qt5)}} <br/> <br/> Cette macro crée facilement une connexion entre deux objets. Une fonction discretize permet de créer de point suivant le nombre de coupes du fil ou par dimension déterminée.<br/>Une fonction de discrétisation est disponible pour créer des points marqueurs configurables pour couper des lignes en coupe ou une coupe avec une cote sur le point est créée pour toutes les coordonnées.<br/>Une fonction de face ou de fil dupliquée à utiliser avec l'opération de balayage et de lissage <br/>Opération de balayage et de lissage directement avec la macro.<br/>Centrage de la poutrelle sur les faces
@@ -197,6 +197,5 @@ Cette macro est basée sur le code de microelly2 voir sur le forum [Looking for 
 
 Autre discussion sur le forum [Macro\_Connect\_And\_Sweep](https://forum.freecadweb.org/viewtopic.php?f=22&t=35432)
 
-
-
-
+---
+[documentation index](../README.md) > Macro Connect And Sweep/fr

@@ -7,6 +7,8 @@
    SeeAlso:[Sketcher Trim edge](Sketcher_Trimming.md)
 ---
 
+# Sketcher Extend
+
 ## Description
 
 The **extend edge** tool extends an edge to an arbitrary location in the sketch, or to another edge.
@@ -30,4 +32,7 @@ The **extend edge** tool extends an edge to an arbitrary location in the sketch,
 
 
 
- {{Sketcher Tools navi}}  
+ {{Sketcher Tools navi}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Extend

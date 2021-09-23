@@ -8,6 +8,8 @@
    SeeAlso:[Создать аддитивный примитив](PartDesign_CompPrimitiveAdditive/ru.md)
 ---
 
+# PartDesign CompPrimitiveSubtractive/ru
+
 ## Описание
 
 Создает субтрактивный примитив в активном теле, примитив вычитающий форму из существующего твердого тела.
@@ -29,4 +31,7 @@
 
 {{PartDesign Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign CompPrimitiveSubtractive/ru

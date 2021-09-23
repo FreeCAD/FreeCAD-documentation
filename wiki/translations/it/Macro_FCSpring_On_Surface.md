@@ -1,5 +1,5 @@
 # Macro FCSpring On Surface/it
- {{Macro/it
+{{Macro/it
 |Name=Macro FCSpring On Surface
 |Icon=FCSpring_On_Surface.png
 |Description=Questa macro crea un'elica (o molla) attorno a un oggetto solido qualunque sia la sua forma, l'elica segue l'intera superficie dell'oggetto (è richiesta Python2) <br /> Scarica il [https://www.freecadweb.org/wiki/images/3/38/FCSpring_On_Surface.png toolBar icon]
@@ -626,3 +626,6 @@ MainWindow.show()
 The Genesis [Zwei Helix - ein Sweep](https://forum.freecadweb.org/viewtopic.php?f=13&t=41627)
 
 The original code [How to intersect a line with a part](https://www.forum.freecadweb.org/viewtopic.php?f=22&t=5456#p44194) by wandererfan
+
+---
+[documentation index](../README.md) > Macro FCSpring On Surface/it

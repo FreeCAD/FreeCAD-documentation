@@ -8,6 +8,8 @@
    Version:0.20
 ---
 
+# TechDraw Extension ThreadHoleBottom
+
 ## Description
 
 The <img alt="" src=images/TechDraw_Extension_ThreadHoleBottom.svg  style="width:24px;"> **Thread Hole Bottom** tool adds symbolic threads to the bottom view of holes.
@@ -24,4 +26,7 @@ The <img alt="" src=images/TechDraw_Extension_ThreadHoleBottom.svg  style="width
 
 
 
- {{TechDraw_Tools_navi}} 
+ {{TechDraw_Tools_navi}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Extension ThreadHoleBottom

@@ -1,5 +1,5 @@
 # Part and PartDesign/pl
- {{TOCright}}
+{{TOCright}}
 
 ## Informacje ogólne 
 
@@ -172,4 +172,7 @@ Porównaj drzewa konstrukcji w obu środowiskach pracy, jak również ich organi
 
 {{Tutorials navi
 
-}}  {{PartDesign Tools navi}} {{Sketcher Tools navi}} 
+}}  {{PartDesign Tools navi}} {{Sketcher Tools navi}}
+
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part and PartDesign/pl

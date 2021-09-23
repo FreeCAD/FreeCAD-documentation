@@ -9,6 +9,8 @@
    Version:0.17
 ---
 
+# Std AddonMgr/pt-br
+
 
 </div>
 
@@ -82,4 +84,7 @@ If you develop a workbench in C++, it cannot be run directly by users and must b
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std AddonMgr/pt-br

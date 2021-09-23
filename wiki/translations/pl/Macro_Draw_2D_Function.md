@@ -1,5 +1,5 @@
 # Macro Draw 2D Function/pl
- {{Macro/pl
+{{Macro/pl
 |Name=Draw 2D Function
 |Icon=Macro_Draw_2D_Function.png
 |Description=Użyj go do narysowania funkcji opisanej ''równaniem [z=F(x)] (płaszczyzna Z-X)''
@@ -62,3 +62,5 @@ Part.show(WWire)
 
 }}
 
+---
+[documentation index](../README.md) > Macro Draw 2D Function/pl

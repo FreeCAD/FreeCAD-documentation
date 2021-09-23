@@ -1,6 +1,4 @@
 # Bitmap/de
-
-
 ## Beschreibung
 
 [Bitmap](https://de.wikipedia.org/wiki/Bitmap) oder [Rastergrafik](https://de.wikipedia.org/wiki/Rastergrafik) sind 2D-Bilder, die Sammlungen von Pixeln in verschiedenen Farbschattierungen enthalten. Zusammen präsentieren Tausende oder Millionen von Pixeln dem Betrachter eine Abbildung oder eine Farbaufnahme.
@@ -17,3 +15,6 @@ FreeCAD kann über den [Image-Arbeitsbereich](Image_Workbench/de.md) Bitmap-Bild
 
 
 [Category:User Documentation](Category:User_Documentation.md) [Category:TechDraw](Category:TechDraw.md) [Category:Image](Category:Image.md)
+
+---
+[documentation index](../README.md) > [User Documentation](Category:User Documentation.md) > Bitmap/de

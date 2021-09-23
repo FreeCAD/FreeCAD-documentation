@@ -7,6 +7,8 @@
    SeeAlso:[Comprobar](Arch_Check/es.md)
 ---
 
+# Arch CloseHoles/es
+
 
 </div>
 
@@ -88,11 +90,5 @@ FreeCAD.ActiveDocument.recompute()
 solid = Arch.closeHole(Wall.Shape)
 ```
 
-
-
-
-
-
-
-
-
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CloseHoles/es

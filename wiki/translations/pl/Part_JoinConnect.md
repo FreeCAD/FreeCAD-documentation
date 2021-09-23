@@ -7,6 +7,8 @@
    SeeAlso:[Part JoinEmbed](Part_JoinEmbed.md), [Part JoinCutout](Part_JoinCutout.md), [Part Boolean](Part_Boolean.md), [Part Thickness](Part_Thickness.md)
 ---
 
+# Part JoinConnect/pl
+
 ## Description
 
 Connect tool connects interiors of two walled objects (e.g., pipes). It can also join shells and wires.
@@ -89,8 +91,5 @@ j.Objects = FreeCADGui.Selection.getSelection()
 
 -   The tool was re-implemented to work via generalFuse in FreeCAD v0.17.8053
 
-
-
-
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part JoinConnect/pl

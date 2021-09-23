@@ -1,6 +1,4 @@
 # Help FreeCAD/sv
-
-
 ## Introduction
 
 
@@ -137,3 +135,6 @@ Writing code for FreeCAD is not hard, and you don\'t need any permission, you ca
 
 
 [Category:Documentation](Category:Documentation.md) [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Common Questions](Category:Common_Questions.md)
+
+---
+[documentation index](../README.md) > [Documentation](Category:Documentation.md) > Help FreeCAD/sv

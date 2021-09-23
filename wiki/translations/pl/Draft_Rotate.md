@@ -9,6 +9,8 @@
    Version:0.7
 ---
 
+# Draft Rotate/pl
+
 ## Opis
 
 Polecenie <img alt="" src=images/Draft_Rotate.svg  style="width:24px;"> **Obróć** - obraca lub kopiuje wybrane obiekty wokół punktu środkowego o zadany kąt. W trybie elementu podrzędnego polecenie obraca wybrane punkty i krawędzie lub kopiuje wybrane krawędzie [Linii](Draft_Line/pl.md) i [Polilinii](Draft_Wire/pl.md).
@@ -120,8 +122,5 @@ rot_list4 = Draft.rotate(list2, 4*angle2, center=cen, copy=True)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Rotate/pl

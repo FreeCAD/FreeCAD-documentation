@@ -1,3 +1,4 @@
+# FEM ClippingPlaneAdd/it
 ---
 - GuiCommand:/it   Name:FEM ClippingPlaneAdd   Name/it:Piano di taglio sulla faccia   Icon:Fem-clipping-plane-add.svg   MenuLocation: Utilità → Piano di taglio sulla faccia   |Workbenches:[Shortcut:   SeeAlso:[[FEM_tutorial/it|Tutorial FEM](FEM_Workbench/it___FEM]].md)---
 
@@ -22,4 +23,7 @@ Da fare
 
 {{FEM Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > FEM ClippingPlaneAdd/it

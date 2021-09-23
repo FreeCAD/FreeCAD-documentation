@@ -1,7 +1,4 @@
 # Transient FEM analysis
- 
-
-
 {{TutorialInfo
 |Topic= Transient FEM analysis
 |Level= 
@@ -92,4 +89,7 @@ Within FreeCAD, we can use <img alt="" src=images/FEM_PostPipelineFromResult.svg
 from femexamples.thermomech_bimetall import setup
 setup()
 
- {{Tutorials navi}} {{FEM Tools navi}} 
+ {{Tutorials navi}} {{FEM Tools navi}}
+
+---
+[documentation index](../README.md) > Transient FEM analysis

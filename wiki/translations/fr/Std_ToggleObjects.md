@@ -7,6 +7,8 @@
    SeeAlso:[Std Basculer visibilité](Std_ToggleVisibility/fr.md), [Std Afficher la sélection](Std_ShowSelection/fr.md), [Std Masquer la sélection](Std_HideSelection/fr.md), [Std Afficher tous les objets](Std_ShowObjects/fr.md), [Std Masquer tous les objets](Std_HideObjects/fr.md)
 ---
 
+# Std ToggleObjects/fr
+
 ## Description
 
 La commande **Std Basculer tous les objets** bascule la visibilité de tous les objets appartenant au document actif dans la [vue 3D](3D_view/fr.md). Soyez prudent lorsque vous utilisez cette commande car elle affichera également des sous-éléments du [PartDesign Corps](PartDesign_Body/fr.md) et des objets utilisés par les [Part Opérations booléennes](Part_Boolean/fr.md). Dans la plupart des cas, ceux-ci doivent rester invisibles.
@@ -38,4 +40,7 @@ Pour un exemple de script, voir [Std Basculer la visibilité](Std_ToggleVisibili
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ToggleObjects/fr

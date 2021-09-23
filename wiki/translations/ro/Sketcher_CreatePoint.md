@@ -1,3 +1,4 @@
+# Sketcher CreatePoint/ro
 ---
 - GuiCommand:/ro   Name:Sketcher CreatePoint   Workbenches:[[Sketcher Workbench/ro   Sketcher]]|MenuLocation:Sketch → Sketcher geometries → Create point---
 
@@ -42,4 +43,7 @@ Punctul creat nu este disponibil în afara schiței. În cazul în care este nec
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreatePoint/ro

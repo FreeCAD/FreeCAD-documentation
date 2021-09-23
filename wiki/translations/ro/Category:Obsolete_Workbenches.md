@@ -6,3 +6,6 @@ This category lists pages related to the [Drawing Workbench/ro](Drawing_Workbenc
 [Complete Workbench/ro](Complete_Workbench/ro.md) , [Drawing Workbench/ro](Drawing_Workbench/ro.md) , ,
 
 [Category:Obsolete Workbenches/ro](Category:Obsolete_Workbenches/ro.md) [Category:Drawing/ro](Category:Drawing/ro.md) [Category:Obsolete Workbenches/ro](Category:Obsolete_Workbenches/ro.md)
+
+---
+[documentation index](../README.md) > Category:Obsolete Workbenches/ro

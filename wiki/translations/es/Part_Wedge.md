@@ -1,3 +1,4 @@
+# Part Wedge/es
 ---
 - GuiCommand:/es   Name:Part Wedge   Name/es:Part Wedge   MenuLocation:Part -> [|Workbenches:[[Part_Workbench/es   Part](Part_CreatePrimitives/es___Part_CreatePrimitives]]_->_Cuña.md)|SeeAlso:[Part CreatePrimitives](Part_CreatePrimitives/es.md)---
 
@@ -65,8 +66,5 @@ Crea un objeto paramétrico Cuña. Esta Cuña se predetermina a un cuadrado más
 
 ![](images/Wedge_examples.png )
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Wedge/es

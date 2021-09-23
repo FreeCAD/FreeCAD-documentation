@@ -8,6 +8,8 @@
    SeeAlso:[Wiązanie punktu na obiekcie](Sketcher_ConstrainPointOnObject/pl.md)
 ---
 
+# Sketcher ConstrainTangent/pl
+
 ## Opis
 
 Wiązanie styczności tworzy dwie krzywe, które dotykają się wzajemnie *(są styczne)*. Linie są traktowane jako nieskończone, a łuki są traktowane jako pełne koła/elipsy. Wiązanie jest również w stanie połączyć dwie krzywe, zmuszając je do zetknięcia się ze sobą po stycznej, co sprawia, że połączenie jest gładkie.
@@ -123,4 +125,7 @@ Strona [Skrypty szkicownika](Sketcher_scripting/pl.md) wyjaśnia wartości, któ
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainTangent/pl

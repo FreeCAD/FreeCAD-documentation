@@ -1,7 +1,4 @@
-# Inspection Workbench/fr
- 
-
-<img alt="Icône de l\'atelier Inspection" src=images/Workbench_Inspection.svg  style="width:128px;">
+# <img alt="Icône de l\'atelier Inspection" src=images/Workbench_Inspection.svg  style="width:64px;"> Inspection Workbench/fr
 
 ## Introduction
 
@@ -27,3 +24,6 @@ Alternativement, vous pouvez aussi utiliser la macro <img alt="" src=images/High
 
 
 [Category:Inspection](Category:Inspection.md) [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Inspection Workbench/fr

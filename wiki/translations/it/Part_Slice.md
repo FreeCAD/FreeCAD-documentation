@@ -1,3 +1,4 @@
+# Part Slice/it
 ---
 - GuiCommand:/it   Name:Part Slice   Name/it:Affetta in composto   MenuLocation:Part → Dividi → Affetta in composto   Workbenches:[SeeAlso:[[Part_BooleanFragments/it|Frammenti Booleani](Part_Workbench/it___Part]].md), [Part XOR](Part_XOR/it.md), [Giunzione](Part_CompJoinFeatures/it.md), [Operazioni booleane](Part_Boolean/it.md)---
 
@@ -197,5 +198,5 @@ Lo strumento è implementato in Python, vedere see {{FileName|/Mod/Part/BOPTools
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Slice/it

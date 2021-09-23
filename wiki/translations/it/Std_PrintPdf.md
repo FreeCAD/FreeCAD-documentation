@@ -8,6 +8,8 @@
    SeeAlso:[Stampa](Std_Print/it.md), [Esporta](Std_Export/it.md), [Cattura Schermata](Std_ViewScreenShot/it.md)
 ---
 
+# Std PrintPdf/it
+
 
 </div>
 
@@ -59,4 +61,7 @@ Il comando **Esporta PDF** ha principalmente lo scopo di creare dei file [PDF](P
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std PrintPdf/it

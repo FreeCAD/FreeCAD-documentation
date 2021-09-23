@@ -6,6 +6,8 @@
    SeeAlso:[Curves JoinCurves](Curves_JoinCurve.md)
 ---
 
+# Curves IsoCurve
+
 ## Description
 
 The <img alt="" src=images/Curves_IsoCurve.svg  style="width:24px;"> [Curves IsoCurve](Curves_IsoCurve.md) tool applies a UV oriented lattice on to a selected surface. This tool is part of the [external workbench](External_workbenches.md) called [Curves](Curves_Workbench.md).
@@ -36,4 +38,7 @@ The <img alt="" src=images/Curves_IsoCurve.svg  style="width:24px;"> [Curves Iso
 
 
 
- {{Curves Tools navi}} 
+ {{Curves Tools navi}}
+
+---
+[documentation index](../README.md) > Curves IsoCurve

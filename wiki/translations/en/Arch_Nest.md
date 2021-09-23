@@ -6,6 +6,8 @@
    SeeAlso:[Arch Panel](Arch_Panel.md), [Arch Panel Sheet](Arch_Panel_Sheet.md)
 ---
 
+# Arch Nest/en
+
 ## Description
 
 The **<img src="images/Arch_Nest.svg" width=16px> [Arch Nest](Arch_Nest.md)** tool allows to select a flat shape to be a container, and a series of other flat shapes to be organized inside the space defined by the container shape. This is typically needed for CNC operations, where you want to cut a series of pieces out of a base panel, and need to organize those pieces in the best possible compact way so they occupy less space on the panel.
@@ -38,8 +40,5 @@ The algorithm behind the Nest tool is in constant evolution, and is currently no
 -   At the moment, margin / spacing between the pieces is not implemented yet
 -   The calculation can take a lot of time with many objects. That will be optimized in the future
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Nest/en

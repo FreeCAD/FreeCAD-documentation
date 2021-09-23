@@ -1,5 +1,5 @@
 # Macro Toggle Drawstyle/it
- {{Macro/it
+{{Macro/it
 |Name=Macro Toggle Drawstyle
 |Translate=Stile di disegno
 |Description=Cambia lo Stile di disegno dell'oggetto selezionato.
@@ -128,6 +128,5 @@ else:
 
 La discussione sul foro [Keyboard shortcut, View toolbar - Wireframe](https://forum.freecadweb.org/viewtopic.php?f=3&t=14336)
 
-
-
-
+---
+[documentation index](../README.md) > Macro Toggle Drawstyle/it

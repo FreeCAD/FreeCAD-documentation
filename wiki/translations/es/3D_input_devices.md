@@ -1,5 +1,5 @@
 # 3D input devices/es
- FreeCAD soporta algunos dispositivos de entrada especializados, tales como ratones 3D. Estos permiten al usuario rotar, mover y hacer zoom a objetos en tres dimensiones.
+FreeCAD soporta algunos dispositivos de entrada especializados, tales como ratones 3D. Estos permiten al usuario rotar, mover y hacer zoom a objetos en tres dimensiones.
 
 ## Hardware soportado 
 
@@ -13,3 +13,6 @@
 </div>
 
 [category:Documentation](category:Documentation.md)
+
+---
+[documentation index](../README.md) > 3D input devices/es

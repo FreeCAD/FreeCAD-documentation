@@ -1,11 +1,4 @@
 # Property editor
- 
-
-
-
-
- 
-
 ## Introduction
 
 The [property editor](property_editor.md) appears when the **Model** tab of the [combo view](combo_view.md) is active in the [interface](interface.md); it allows managing the publicly exposed properties of the objects in the document.
@@ -240,4 +233,7 @@ print(obj.ViewObject.PropertiesList)
 
 
 
- {{Interface navi}} {{Std Base navi}} 
+ {{Interface navi}} {{Std Base navi}}
+
+---
+[documentation index](../README.md) > Property editor

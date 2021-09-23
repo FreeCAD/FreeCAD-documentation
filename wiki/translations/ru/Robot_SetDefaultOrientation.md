@@ -6,6 +6,8 @@
    MenuLocation:Робот→ Установить ориентацию по умолчанию
 ---
 
+# Robot SetDefaultOrientation/ru
+
 
 </div>
 
@@ -31,4 +33,7 @@
 
 {{Robot_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot SetDefaultOrientation/ru

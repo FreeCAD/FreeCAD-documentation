@@ -6,6 +6,8 @@
    SeeAlso:[Part Grundkörper](Part_Primitives/de.md)
 ---
 
+# Part Point/de
+
 
 </div>
 
@@ -103,4 +105,7 @@ Ein Punkt (Knoten) geometrischer Grundkörper.
 
 {{Part_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Point/de

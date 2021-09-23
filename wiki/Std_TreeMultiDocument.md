@@ -7,6 +7,8 @@
    SeeAlso:[Std TreeSingleDocument](Std_TreeSingleDocument.md), [Std TreeCollapseDocument](Std_TreeCollapseDocument.md)
 ---
 
+# Std TreeMultiDocument
+
 ## Description
 
 The **Std TreeMultiDocument** command switches the [Tree view](Tree_view.md) DocumentMode to MultiDocument. In this mode all documents are visible in the Tree view and multiple documents can be expanded. The other modes are [SingleDocument](Std_TreeSingleDocument.md) and [CollapseDocument](Std_TreeCollapseDocument.md).
@@ -24,4 +26,7 @@ The Tree view DocumentMode mode is stored: **Tools → Edit parameters... → Ba
 
 
 
- {{Std Base navi}}  
+ {{Std Base navi}}
+
+---
+[documentation index](../README.md) > Std TreeMultiDocument

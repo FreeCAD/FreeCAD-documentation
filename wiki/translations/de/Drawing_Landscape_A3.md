@@ -7,6 +7,8 @@
    Shortcut:none
 ---
 
+# Drawing Landscape A3/de
+
 
 **Die Entwicklung des Drawing-Arbeitsbereich wurde gestoppt und ein neuer in v0.17 eingeführter [TechDraw-Arbeitsbereich](TechDraw_Workbench/de.md) zielt darauf, es zu setzen. Beide Module stehen in v0.17 zur Verfügung, aber das Drawing-Arbeitsbereich könnte in zukünftigen Ausgaben entfernt werden.**
 
@@ -37,4 +39,7 @@ Wenn die Seite nicht angezeigt wird, klicke auf das <img alt="" src=images/view-
 
 {{Drawing Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Landscape A3/de

@@ -1,10 +1,4 @@
 # Manual:Parametric objects/de
-
-
-
-
-
-
 {{Manual:TOC/de}}
 
 FreeCAD ist für die parametrische Modellierung konzipiert. Das bedeutet, dass die Geometrie, die du erstellst, nicht frei modellierbar ist, sondern durch Regeln und Parameter erzeugt wird. Zum Beispiel kann ein Zylinder aus einem Radius und einer Höhe erzeugt werden. Mit diesen beiden Parametern hat das Programm genügend Informationen, um den Zylinder zu bauen.
@@ -41,3 +35,6 @@ Schließlich ist es erwähnenswert, dass benutzerdefinierte parametrische Objekt
 
 
 [Category:Poweruser Documentation](Category:Poweruser_Documentation.md) [Category:Tutorials](Category:Tutorials.md)
+
+---
+[documentation index](../README.md) > [Poweruser Documentation](Category:Poweruser Documentation.md) > Manual:Parametric objects/de

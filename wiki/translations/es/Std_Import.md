@@ -1,3 +1,4 @@
+# Std Import/es
 ---
 - GuiCommand:/es   Name:Std_Import   Name/es:Std_Import   Workbenches:Todos   MenuLocation:Archivo → Importar   Shortcut:CTRL+I   SeeAlso:[Std Open](Std_Open/es.md), [Std_Save](Std_Save/es.md)...---
 
@@ -49,3 +50,6 @@ Cuando se carga, el fichero es **incorporado** al proyecto actual (que debe esta
 }}  
 
 [Category:File\_Formats](Category:File_Formats.md)
+
+---
+[documentation index](../README.md) > [File_Formats](Category:File_Formats.md) > Std Import/es

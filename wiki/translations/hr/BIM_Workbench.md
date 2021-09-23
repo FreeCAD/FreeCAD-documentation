@@ -1,8 +1,4 @@
-# BIM Workbench/hr
-
- 
-
-<img alt="BIM External Workbench icon" src=images/IFC.svg  style="width:128px;">
+# <img alt="BIM External Workbench icon" src=images/IFC.svg  style="width:64px;"> BIM Workbench/hr
 
 
 {{TOCright}}
@@ -187,3 +183,6 @@ New workbenches are in development, stay tuned!
 
 
 [Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md) [Category:BIM](Category:BIM.md)
+
+---
+[documentation index](../README.md) > BIM Workbench/hr

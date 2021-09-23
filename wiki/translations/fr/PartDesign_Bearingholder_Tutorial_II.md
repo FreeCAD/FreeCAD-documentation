@@ -1,8 +1,4 @@
 # PartDesign Bearingholder Tutorial II/fr
-
-
-
-
 {{TutorialInfo
 |Topic=Modélisation
 |Level=Utilisateur expérimenté
@@ -92,3 +88,6 @@ Pour le reste de l\'usinage, créer un nouveau corps. Le fond du support sera us
 
 
 [Category:Tutorials](Category:Tutorials.md)
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Bearingholder Tutorial II/fr

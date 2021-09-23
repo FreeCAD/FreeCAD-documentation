@@ -1,5 +1,5 @@
 # Macro HealArcs/fr
- {{Macro/fr
+{{Macro/fr
 |Name=HealArcs
 |Icon=Macro_HealArcs.png
 |Description=Parfois les arcs sont transformés en BSplines, par exemple, lorsqu'une opération d'échelle leurs ont été appliquées. Cette macro recrée des arcs valides. Utile avant l'exportation vers un fichier .dxf
@@ -44,6 +44,5 @@ else:
         FreeCAD.ActiveDocument.removeObject(n)
 }}
 
-
-
-
+---
+[documentation index](../README.md) > Macro HealArcs/fr

@@ -1,7 +1,4 @@
 # Macro Screen Wiki/en
-
-
-
 {{Macro
 |Name=Macro Screen Wiki
 |Icon=Macro_Screen_Wiki.png
@@ -277,3 +274,6 @@ Version=0.03: 2020/10/30 : create a tool bar for the image and new button for un
 Version=0.02: 2020/05/04 : correct bug color button (self.PB\_01\_Color obsolete)
 
 Version=0.01: 2020/03/21
+
+---
+[documentation index](../README.md) > Macro Screen Wiki/en

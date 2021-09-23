@@ -10,6 +10,8 @@
    Version:0.17
 ---
 
+# Draft Snap Special/it
+
 
 </div>
 
@@ -69,5 +71,5 @@ See [Draft Snap](Draft_Snap#Preferences.md).
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Special/it

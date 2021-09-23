@@ -8,6 +8,8 @@
    SeeAlso:[FEM tutorial](FEM_tutorial/ru.md)
 ---
 
+# FEM Analysis/ru
+
 
 </div>
 
@@ -86,4 +88,7 @@ App.ActiveDocument.MechanicalAnalysis.Member = member
 
 {{FEM Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > FEM Analysis/ru

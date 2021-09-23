@@ -9,6 +9,8 @@
    Empty:1
 ---
 
+# Std ViewDimetric/it
+
 
 </div>
 
@@ -57,4 +59,7 @@ FreeCADGui.ActiveDocument.ActiveView.getViewDirection()
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ViewDimetric/it

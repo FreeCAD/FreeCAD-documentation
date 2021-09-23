@@ -8,6 +8,8 @@
    SeeAlso:[Draft Move](Draft_Move.md), [Draft Rotate](Draft_Rotate.md), [Draft Scale](Draft_Scale.md)
 ---
 
+# Draft SubelementHighlight/pl
+
 ## Description
 
 The <img alt="" src=images/Draft_SubelementHighlight.svg  style="width:24px;"> **Draft SubelementHighlight** command temporarily highlights selected objects, or the base objects of selected objects. It is intended to be used in conjunction with the subelement mode of the [Draft Move](Draft_Move.md) command, the [Draft Rotate](Draft_Rotate.md) command or the [Draft Scale](Draft_Scale.md) command. Currently subelement mode only works properly for [Draft Lines](Draft_Line.md) and [Draft Wires](Draft_Wire.md).
@@ -35,8 +37,5 @@ The <img alt="" src=images/Draft_SubelementHighlight.svg  style="width:24px;"> *
 -   If objects have been highlighted with this command the temporary visual changes should be reverted before saving and reopening the file.
 -   Highlighted objects should not be copied if subelement mode is off. The temporary visual changes cannot be reverted for copies created in this manner.
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft SubelementHighlight/pl

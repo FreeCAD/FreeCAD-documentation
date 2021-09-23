@@ -1,7 +1,4 @@
 # Arch tutorial/de
-
-
-
 {{TutorialInfo/de
 |Topic=Modellierung
 |Level=Fortgeschrittener Anfänger
@@ -476,4 +473,7 @@ Die in diesem Tutorial erzeugten Dateien finden Sie [hier](http://yorik.uncreate
 
 {{Tutorials navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch tutorial/de

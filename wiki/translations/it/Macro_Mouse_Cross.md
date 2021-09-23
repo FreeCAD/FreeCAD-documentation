@@ -1,5 +1,5 @@
 # Macro Mouse Cross/it
- {{Macro/it
+{{Macro/it
 |Name=Macro_Mouse_Cross
 |Icon=Macro_Mouse_Cross.png
 |Translate=Mouse di precisione
@@ -211,3 +211,6 @@ ArrowCursor, UpArrowCursor, CrossCursor, WaitCursor, IBeamCursor, SizeVerCursor,
 Il cursore può cambiare aspetto a seconda dell\'ambiente di lavoro usato, quindi ripetere l\'operazione.
 Il cursore può essere sostituito con altri cursori (es: durante l\'espansione di una finestra, gli angoli\...).
 La griglia resta permanante.
+
+---
+[documentation index](../README.md) > Macro Mouse Cross/it

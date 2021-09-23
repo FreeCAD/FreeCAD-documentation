@@ -1,6 +1,4 @@
 # Artwork Surface/pl
- 
-
 Ikony te znajdują się we wskazanej ścieżce źródłowej.
 
 Wszystkie ikonki widoczne na liście źródłowej, patrz [Grafika](Artwork/pl.md).
@@ -15,3 +13,6 @@ Wszystkie ikonki widoczne na liście źródłowej, patrz [Grafika](Artwork/pl.md
 {{Surface Tools navi
 
 }} {{Artwork}}
+
+---
+[documentation index](../README.md) > Artwork Surface/pl

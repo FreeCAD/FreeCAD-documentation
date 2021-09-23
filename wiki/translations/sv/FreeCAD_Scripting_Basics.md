@@ -1,7 +1,4 @@
 # FreeCAD Scripting Basics/sv
-
-
-
 {{TOCright}}
 
 
@@ -349,3 +346,6 @@ Now you can really start playing with FreeCAD! For a complete list of available 
 }} 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > FreeCAD Scripting Basics/sv

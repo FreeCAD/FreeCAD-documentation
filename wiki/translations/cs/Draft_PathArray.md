@@ -1,3 +1,4 @@
+# Draft PathArray/cs
 ---
 - GuiCommand:/cs   Name:Draft PathArray   Name/cs:Kreslení TrasovéPole   Workbenches:[Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation:Draft → PathArray   SeeAlso:[Draft Array](Draft_Array/cs.md) ---
 
@@ -272,8 +273,5 @@ path_array2 = Draft.make_path_array(obj, wire, count=3, extra=App.Vector(0, -500
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft PathArray/cs

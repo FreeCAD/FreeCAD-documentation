@@ -1,6 +1,4 @@
 # Sketcher reference/fr
-
-
 ## Introduction
 
 L\'utilisateur **chrisb** a rédigé un long manuel de référence de 70 pages pour l\'[atelier Sketcher](Sketcher_Workbench/fr.md) qui couvre de nombreux sujets relatifs à l\'utilisation de cet atelier. Pour les utilisateurs inexpérimentés, il s\'agit d\'une introduction qui couvre l\'utilisation de base de Sketcher, puis aborde de nombreux détails concernant la création d\'éléments géométriques et l\'utilisation de chaque type de contrainte.
@@ -64,4 +62,7 @@ La structure générale du manuel est la suivante :
 
 {{Tutorials navi
 
-}} {{Sketcher Tools navi}} 
+}} {{Sketcher Tools navi}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher reference/fr

@@ -1,3 +1,4 @@
+# Draft Wire/sv
 ---
 - GuiCommand:/sv   Name:Draft Wire   Name/sv:Draft Wire   Workbenches:[Arch](Draft_Workbench/sv___Draft]],_[[Arch_Workbench/sv.md)|Shortcut:W I   MenuLocation:Draft → Wire   SeeAlso:[Draft Line](Draft_Line/sv.md), [Draft BSpline](Draft_BSpline/sv.md)---
 
@@ -200,8 +201,5 @@ wire3 = Draft.make_wire([1.3*p3, p1, -1.7*p2], closed=True)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Wire/sv

@@ -1,6 +1,4 @@
 # Online Help Startpage/ru
- 
-
 ![150](images/Crystal_Clear_app_tutorials.png )
 
 ## Добро пожаловать на страницу помощи FreeCAD 
@@ -28,3 +26,6 @@
 
 
 [Category:User\_Documentation](Category:User_Documentation.md)
+
+---
+[documentation index](../README.md) > [User_Documentation](Category:User_Documentation.md) > Online Help Startpage/ru

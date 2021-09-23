@@ -5,6 +5,8 @@
    Workbenches:[Netze](Mesh_Workbench/de.md)
 ---
 
+# Mesh RemoveComponents/de
+
 
 </div>
 
@@ -57,4 +59,7 @@ Entfernt Komponenten aus Netzen.
 
 {{Mesh Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh RemoveComponents/de

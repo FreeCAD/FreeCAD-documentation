@@ -7,6 +7,8 @@
    SeeAlso:
 ---
 
+# Fasteners Flip
+
 ## Description
 
 The <img alt="" src=images/Fasteners_Flip.svg  style="width:24px;"> [Fasteners Flip](Fasteners_Flip.md) re-orientates the selection to a different direction (in case it was added inverted in some way). This tool is part of the [external workbench](external_workbenches.md) called [Fasteners](Fasteners_Workbench.md).
@@ -45,3 +47,6 @@ Result: object will invert/flip
 }} 
 
 [Category:External Command Reference](Category:External_Command_Reference.md)
+
+---
+[documentation index](../README.md) > [External Command Reference](Category:External Command Reference.md) > Fasteners Flip

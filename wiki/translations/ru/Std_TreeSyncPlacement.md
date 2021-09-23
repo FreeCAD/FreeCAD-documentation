@@ -8,6 +8,8 @@
    Version:0.19
 ---
 
+# Std TreeSyncPlacement/ru
+
 ## Описание
 
 Команда **Std TreeSyncPlacement** переключает режим SyncPlacement [древа проекта](Tree_view/ru.md). Если этот режим включен, параметр **Placement** объектов автоматически корректируется, когда они перетаскиваются из одного контейнера в другой с другой системой координат, сохраняя их расположение относительно глобальной системы координат.
@@ -29,4 +31,7 @@ The Tree view SyncPlacement mode is stored: **Tools → Edit parameters... → B
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std TreeSyncPlacement/ru

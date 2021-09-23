@@ -8,6 +8,8 @@
    SeeAlso:[Ambientes de trabajo externos](External_workbenches/es.md), [Macros](Macros/es.md)
 ---
 
+# Std AddonMgr/es
+
 ## Descripción
 
 El comando **Std GestorComplementos** abre el gestor de complementos. Con el gestor de complementos puedes instalar y gestionar [Ambientes de trabajo externos](external_workbenches/es.md) y [Macros](macros/es.md) proporcionados por la comunidad de FreeCAD. Las Ambientes de trabajo y macros disponibles se toman de dos repositorios, [FreeCAD-addons](https://github.com/FreeCAD/FreeCAD-addons/) y [FreeCAD-macros](https://github.com/FreeCAD/FreeCAD-macros/), y de la página [Recetas de macros](Macros_recipes/es.md).
@@ -78,4 +80,7 @@ Si desarrollas un ambiente de trabajo en C++, no puede ser ejecutado directament
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std AddonMgr/es

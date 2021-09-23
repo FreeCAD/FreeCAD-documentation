@@ -5,6 +5,8 @@
 ‏‎   Workbenches:[Plot](Plot_Module.md)
 ---
 
+# Plot Series/en
+
 ## Description
 
 The standard plot module already provides a tool to edit the plot series style <img alt="" src=images/Matplotlib_edit_subplot.png  style="width:24px;">. But if you install the <img alt="" src=images/Workbench_Plot.svg  style="width:24px;"> [Plot Workbench](Plot_Workbench.md) using the [Add-on manager](Std_AddonMgr.md), a more complete and straigthforward tool will be available.
@@ -36,3 +38,6 @@ Select the plot tab that you want to edit, and run this tool. Then select the se
 }} 
 
 [Category:External\_Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)
+
+---
+[documentation index](../README.md) > [External_Workbenches](Category:External_Workbenches.md) > Plot Series/en

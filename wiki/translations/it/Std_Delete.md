@@ -7,6 +7,8 @@
    Shortcut:**Canc**
 ---
 
+# Std Delete/it
+
 ## Descrizione
 
 Il comando **Elimina** elimina gli oggetti selezionati.
@@ -47,4 +49,7 @@ FreeCAD.ActiveDocument.removeObject("myObjectName")
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std Delete/it

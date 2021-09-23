@@ -8,6 +8,8 @@
    SeeAlso:[Std Arborescence Document unique](Std_TreeSingleDocument/fr.md), [Std Arborescence Réduire développer](Std_TreeCollapseDocument/fr.md)
 ---
 
+# Std TreeMultiDocument/fr
+
 ## Description
 
 La commande **Std Document multiple** bascule la [vue en arborescence](tree_view/fr.md) du mode Document (DocumentMode) au mode Document multiple (MultiDocument). Dans ce mode, tous les documents sont visibles dans l\'arborescence et plusieurs documents peuvent être développés. Les autres modes sont [Document unique](Std_TreeSingleDocument/fr.md) et [Réduire développer](Std_TreeCollapseDocument/fr.md).
@@ -28,4 +30,7 @@ Le mode de l\'arborescence est enregistré: **Outils → Editer paramètres... �
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std TreeMultiDocument/fr

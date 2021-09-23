@@ -1,3 +1,4 @@
+# Draft Dimension/cs
 ---
 - GuiCommand:/cs   Name:Draft Dimension   Name/cs:Draft Dimension   Workbenches:[Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation:Draft → Dimension   Shortcut:D I   SeeAlso:[FlipDimension](Draft_FlipDimension/cs.md)---
 
@@ -362,8 +363,5 @@ dimension4.ViewObject.FontSize = 200
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Dimension/cs

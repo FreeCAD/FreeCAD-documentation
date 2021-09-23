@@ -1,3 +1,4 @@
+# Draft ToggleDisplayMode/ro
 ---
 - GuiCommand:   Name:Draft ToggleDisplayMode   Workbenches:[Arch](Draft_Workbench___Draft]],_[[Arch_Workbench.md)|MenuLocation:Draft → Utilities → Toggle display mode   Shortcut:Shift + Space---
 
@@ -33,8 +34,5 @@ Acest instrument comută afișarea obiectelor selectate între Wireframe și Fla
 
 </div>
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ToggleDisplayMode/ro

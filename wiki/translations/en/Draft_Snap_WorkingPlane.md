@@ -5,6 +5,8 @@
    SeeAlso:[Draft Snap](Draft_Snap.md), [Draft Snap Lock](Draft_Snap_Lock.md), [Draft SelectPlane](Draft_SelectPlane.md)
 ---
 
+# Draft Snap WorkingPlane/en
+
 ## Description
 
 The <img alt="" src=images/Draft_Snap_WorkingPlane.svg  style="width:24px;"> **Draft Snap WorkingPlane** option projects the snap point onto the current [working plane](Draft_SelectPlane.md). It can only be used in combination with another snap option.
@@ -32,8 +34,5 @@ For general information about snapping see [Draft Snap](Draft_Snap.md).
 
 See [Draft Snap](Draft_Snap#Preferences.md).
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap WorkingPlane/en

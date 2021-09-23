@@ -7,6 +7,8 @@
    SeeAlso:[DiseñoPieza Nuevo croquis](PartDesign_NewSketch/es.md), [Croquizador MapearCroquis](Sketcher_MapSketch/es.md), [Croquizador Reorientar](Sketcher_ReorientSketch/es.md)
 ---
 
+# Sketcher NewSketch/es
+
 ## Descripción
 
 Esto creará un nuevo [Croquis](Sketcher_Workbench/es.md).
@@ -37,4 +39,7 @@ El croquis puede ser movido en la [Vista 3D](3D_view/es.md) usando [Colocación]
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher NewSketch/es

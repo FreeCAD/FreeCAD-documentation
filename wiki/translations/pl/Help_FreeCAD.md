@@ -1,6 +1,4 @@
 # Help FreeCAD/pl
-
-
 ## Wprowadzenie
 
 
@@ -87,3 +85,6 @@ Pisanie kodu dla FreeCAD nie jest trudne i nie potrzebujesz niczyjej zgody, moż
 
 
 [Category:Documentation](Category:Documentation.md) [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Common Questions](Category:Common_Questions.md)
+
+---
+[documentation index](../README.md) > [Command Reference]] wyszczególnia i dokumentuje wszystkie  ](Category:Command Reference]] wyszczególnia i dokumentuje wszystkie  .md) > Help FreeCAD/pl

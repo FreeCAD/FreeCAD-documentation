@@ -1,6 +1,4 @@
 # Contributors hub/de
-
-
 ## Einführung
 
 Wenn Du etwas zu FreeCAD beitragen und Deine Energie einsetzen möchtest, um dieses Projekt voranzubringen, dann gibt es viele Wege zu helfen. Nachfolgend findest Du verschiedene Rollen, die Du einnehmen kannst.
@@ -23,4 +21,7 @@ Außerdem kannst du anderen Benutzern auf der [FreeCAD Unterstützungsseite](htt
 
 ## FreeCAD Entwickler 
 
-## Web Entwickler oder Administrator 
+## Web Entwickler oder Administrator
+
+---
+[documentation index](../README.md) > Contributors hub/de

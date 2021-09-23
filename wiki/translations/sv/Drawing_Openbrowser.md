@@ -1,3 +1,4 @@
+# Drawing Openbrowser/sv
 ---
 - GuiCommand:/sv   Name:Drawing Openbrowser   Name/sv:Drawing Openbrowser   Workbenches:[[Drawing Workbench/sv   Drawing]], Complete|MenuLocation:Drawing → Open Browser   Shortcut:none---
 
@@ -28,4 +29,7 @@ This command allows you to display a selected [Drawing page](Drawing_Landscape_A
 
 {{Drawing Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Openbrowser/sv

@@ -8,6 +8,8 @@
    SeeAlso:[Показать/скрыть кратность узлов B-сплайна](Sketcher_BSplineKnotMultiplicity/ru.md), [Увеличение кратности узлов](Sketcher_BSplineIncreaseKnotMultiplicity/ru.md)
 ---
 
+# Sketcher BSplineDecreaseKnotMultiplicity/ru
+
 ## Описание
 
 Decreases the multiplicity of a B-spline knot. (See [this page](B-Splines.md) for more info about B-splines).
@@ -46,4 +48,7 @@ One can see that the spline with knot multiplicity 1 is completely changed while
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineDecreaseKnotMultiplicity/ru

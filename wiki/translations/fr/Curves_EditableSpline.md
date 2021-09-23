@@ -6,6 +6,8 @@
    Workbenches:[Curves](Curves_Workbench/fr.md)
 ---
 
+# Curves EditableSpline/fr
+
 ## Description
 
 <img alt="" src=images/Curves_EditableSpline.svg  style="width:24px;"> [Curves Modifier une B-spline](Curves_EditableSpline/fr.md) crée une courbe B-Spline à main levée. Cet outil fait partie des [ateliers externes](External_workbenches/fr.md) appelé [Curves](Curves_Workbench/fr.md).
@@ -31,4 +33,7 @@
 
 {{Curves Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > Curves EditableSpline/fr

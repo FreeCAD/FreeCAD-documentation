@@ -7,6 +7,8 @@
    Version:0.17
 ---
 
+# Spreadsheet AlignCenter/fr
+
 ## Description
 
 L\'outil **<img src=images/Spreadsheet_AlignCenter.svg style="width:16px"> [Spreadsheet Alignement au centre](Spreadsheet_AlignCenter/fr.md)** aligne le texte à l\'intérieur de la cellule au centre.
@@ -23,4 +25,7 @@ L\'outil **<img src=images/Spreadsheet_AlignCenter.svg style="width:16px"> [Spre
 
 {{Spreadsheet_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet AlignCenter/fr

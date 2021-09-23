@@ -7,6 +7,8 @@
    SeeAlso:[Part Primitives](Part_Primitives/fr.md)
 ---
 
+# Part Cylinder/fr
+
 ## Description
 
 Crée un simple cylindre paramétrique, avec sa position, son angle de remplissage, son rayon et sa hauteur.
@@ -36,8 +38,5 @@ Les propriétés du cylindre peuvent être éditées ultérieurement, soit dans 
 
 -    {{PropertyData/fr|Second Angle}}: angle dans la seconde direction. {{Version/fr|0.20}}
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Cylinder/fr

@@ -8,6 +8,8 @@
    SeeAlso:[Dodaj linię środkową do ściany](TechDraw_FaceCenterLine/pl.md), [Dodaj linię środkową pomiędzy dwoma liniami](TechDraw_2LineCenterLine/pl.md)
 ---
 
+# TechDraw 2PointCosmeticLine/pl
+
 ## Opis
 
 Narzędzie 2PointCosmeticLine dodaje linię kosmetyczną pomiędzy dwoma wierzchołkami (punktami). Wierzchołki mogą być rozmieszczone zarówno w przestrzeni 2D jak i 3D. Wynikowa linia może być użyta do wymiarowania. Obecność linii może być modyfikowana za pomocą narzędzia [Usuń obiekt kosmetyczny](TechDraw_CosmeticEraser/pl.md).
@@ -57,4 +59,7 @@ Linie kosmetyczne można tworzyć za pomocą metod makeCosmeticLine(v1, v2) lub 
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw 2PointCosmeticLine/pl

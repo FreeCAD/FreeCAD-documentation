@@ -6,6 +6,8 @@
    Workbenches:[Arbeitsbereich WebWerkzeuge](WebTools_Workbench/de.md)
 ---
 
+# WebTools BimServer/de
+
 
 **Beginnend mit FreeCAD v0.17 wurde dieses Werkzeug aus dem Architektur Arbeitsbereich entfernt und ist nun Teil des externen [WebWerkzeuge Arbeitsbereich](WebTools_Workbench/de.md)s, den du über das Menü Werkzeuge → <img src="images/AddonManager.svg" width=24px> [Erweiterungsverwalter](Addon_manager/de.md) installieren kannst.
 **
@@ -49,3 +51,6 @@ Um diesen Befehl zu verwenden, müssen die folgenden Bedingungen erfüllt sein:
 -   Wähle das **Wurzelobjekt**, das du hochladen möchtest. Es muss entweder ein [Arch Site](Arch_Site/de.md) oder ein [Arch Building](Arch_Building/de.md) sein. Nur Objekte, die zu diesem Stammobjekt gehören, werden hochgeladen.
 -   Schreibe einen **Kommentar**, der die Beschreibung (Name) der Überarbeitung sein wird.
 -   Drücke die Schaltfläche **Hochladen**. Es öffnet sich ein Dialogfeld, das dir erlaubt die erstellte IFC Datei an einem Ort deiner Wahl speichern zu können, bevor du sie hochlädst. Wenn du auf **Abbrechen** drückst, wird die Datei stattdessen unter einem temporären Namen im temporären Verzeichnis des Systems gespeichert.
+
+---
+[documentation index](../README.md) > WebTools BimServer/de

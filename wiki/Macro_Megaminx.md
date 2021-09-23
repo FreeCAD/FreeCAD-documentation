@@ -1,5 +1,5 @@
 # Macro Megaminx
-  {{Macro
+{{Macro
 |Name=Macro_Megaminx
 |Icon=Macro_Megaminx.png
 |Description=This macro creates a FreeCAD document containing a virtual Megaminx
@@ -48,4 +48,7 @@ ToolBar icon <img alt="" src=images/Macro_Megaminx.png  style="width:64px;">
 
 ## Use
 
-Download the code from <https://github.com/rparkins999/Megaminx> into your macro directory. Run the macro to create a Megaminx document. Then you can play with it. The history functions can be used to construct and save operators (aka algorithms) which do useful transformations on the Megaminx. A suitable set of these will give you a complete solution. The step\_history function can be used to help you play back an operator onto a real Megaminx. 
+Download the code from <https://github.com/rparkins999/Megaminx> into your macro directory. Run the macro to create a Megaminx document. Then you can play with it. The history functions can be used to construct and save operators (aka algorithms) which do useful transformations on the Megaminx. A suitable set of these will give you a complete solution. The step\_history function can be used to help you play back an operator onto a real Megaminx.
+
+---
+[documentation index](../README.md) > Macro Megaminx

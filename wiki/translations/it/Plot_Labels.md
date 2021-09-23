@@ -1,3 +1,4 @@
+# Plot Labels/it
 ---
 - GuiCommand:/it   Name:Plot Labels   Name/it:Etichette   MenuLocation:Plot → Imposta etichette‏‎   |Workbenches:[[Plot Module/it   Plot]]|Shortcut:   SeeAlso:---
 
@@ -40,3 +41,6 @@ Select the plot tab that you want to edit, and run this tool. In case of multi-a
 }} 
 
 [Category:External\_Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)
+
+---
+[documentation index](../README.md) > [External_Workbenches](Category:External_Workbenches.md) > Plot Labels/it

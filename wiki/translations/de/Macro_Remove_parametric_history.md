@@ -1,5 +1,5 @@
 # Macro Remove parametric history/de
- {{Macro/de
+{{Macro/de
 |Name=Remove parametric history
 |Icon=Macro_Remove_parametric_history.png
 |Description=Dadurch wird die gesamte parametrische Assoziativität eines Objekts entfernt und bleibt als "dumme" Form erhalten
@@ -38,6 +38,5 @@ newObject.Shape = newShape
 
 }}
 
-
-
-
+---
+[documentation index](../README.md) > Macro Remove parametric history/de

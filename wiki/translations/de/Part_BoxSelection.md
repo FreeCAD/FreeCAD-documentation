@@ -7,6 +7,8 @@
    SeeAlso:[Std BoxSelection](Std_BoxSelection/de.md), [Std BoxElementSelection](Std_BoxElementSelection/de.md), [Std SelectAll](Std_SelectAll/de.md)
 ---
 
+# Part BoxSelection/de
+
 ## Beschreibung
 
 Das **<img src="images/Part_BoxSelection.svg" width=16px> [Part RechteckAuswahl](Part_BoxSelection/de.md)** Werkzeug ermöglicht es dir, die Flächen der Objekte auf dem Bildschirm auszuwählen, die von der rechteckigen Auswahl berührt werden.
@@ -26,8 +28,5 @@ Das **<img src="images/Part_BoxSelection.svg" width=16px> [Part RechteckAuswahl]
 
 ## Skripten
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part BoxSelection/de

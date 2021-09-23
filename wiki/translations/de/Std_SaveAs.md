@@ -1,3 +1,4 @@
+# Std SaveAs/de
 ---
 - GuiCommand:/de   Name:Std SaveAs   Name/de:Std Speichern als   MenuLocation:[Workbenches:Alle   Shortcut:**Shift**+**Strg**+**S**   SeeAlso:[[Std_Save/de|Speichern](Std_File_Menu/de___Datei]]_→_Speichern_als....md)---
 
@@ -58,4 +59,7 @@ To save a document under a new name use the `saveAs` method of the document obje
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std SaveAs/de

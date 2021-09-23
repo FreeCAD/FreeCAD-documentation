@@ -1,3 +1,4 @@
+# Drawing Open SVG/sv
 ---
 - GuiCommand:/sv   Name:Drawing Open SVG   Name/sv:Drawing Open SVG   Workbenches:[MenuLocation:Drawing → Open SVG...   Shortcut:none   SeeAlso:[[Drawing Save/sv|Drawing Save](Drawing_Workbench/sv___Drawing]],_Complete.md)---
 
@@ -15,4 +16,7 @@ This tool opens a drawing sheet previously saved as an SVG (scalable vector grap
 
 {{Drawing Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Open SVG/sv

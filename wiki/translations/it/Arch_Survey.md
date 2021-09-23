@@ -7,6 +7,8 @@
    SeeAlso:<img src=images/FCInfo.png style="width:FCInfo|24px"> [FCInfo (macro)](Macro_FCInfo/it.md)<br />[Macro SimpleProperties (macro)](Macro_SimpleProperties.md)
 ---
 
+# Arch Survey/it
+
 
 </div>
 
@@ -100,5 +102,5 @@ for obj in selection:
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Survey/it

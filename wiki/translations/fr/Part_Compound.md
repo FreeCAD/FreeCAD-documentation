@@ -8,6 +8,8 @@
    SeeAlso:[Part Union](Part_Fuse/fr.md), [Part Filtre composé](Part_CompoundFilter/fr.md), [Part Éclater le composé](Part_ExplodeCompound/fr.md)
 ---
 
+# Part Compound/fr
+
 ## Description
 
 Cette commande crée un composé de toutes formes topologiques. Celles-ci peuvent être des solides des mailles ou tout autre type de forme topologique.
@@ -25,8 +27,5 @@ Un composé contenant des pièces qui se croisent ou qui se touchent est **inval
 
 Pour activer cette vérification, allez sur **Outils → Éditer Paramètres... → Préférences → Mod → Part → CheckGeometry → RunBOPCheck** et réglez le paramètre sur `true`.
 
-
-
-
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Compound/fr

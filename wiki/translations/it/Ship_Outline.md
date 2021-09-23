@@ -1,3 +1,4 @@
+# Ship Outline/it
 ---
 - GuiCommand:/it   Name:Ship Outline   Name/it:Contorno   MenuLocation:Ship design → Disegno del contorno   |Workbenches:[[Ship Workbench/it   Ship]]|Shortcut:   SeeAlso:---
 
@@ -142,4 +143,7 @@ La lettura di queste guide permette di conoscere il funzionamento di questo modu
 
 {{Ship_Tools_navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Ship Outline/it

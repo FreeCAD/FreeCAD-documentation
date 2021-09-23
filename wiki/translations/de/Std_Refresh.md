@@ -6,6 +6,8 @@
    Shortcut:**F5** or **Ctrl+R**
 ---
 
+# Std Refresh/de
+
 
 </div>
 
@@ -93,4 +95,7 @@ doc.recompute()
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std Refresh/de

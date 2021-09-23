@@ -1,11 +1,4 @@
 # Licence
- 
-
-
-
-
- 
-
 ## Licences used in FreeCAD 
 
 FreeCAD uses two different licenses, one for the application itself, and one for the documentation:
@@ -59,3 +52,6 @@ Nevertheless this decision is made only for the core system of FreeCAD. Every wr
   
 
 [Category:Developer Documentation](Category:Developer_Documentation.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Licence

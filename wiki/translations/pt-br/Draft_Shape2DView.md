@@ -5,6 +5,8 @@
    Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
 ---
 
+# Draft Shape2DView/pt-br
+
 ## Descrição
 
 The <img alt="" src=images/Draft_Shape2DView.svg  style="width:24px;"> **Draft Shape2DView** command creates 2D projections from selected objects, usually 3D solids or [Arch SectionPlanes](Arch_SectionPlane.md). The projections are placed in the [3D view](3D_view.md).
@@ -150,5 +152,5 @@ doc.recompute()
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Shape2DView/pt-br

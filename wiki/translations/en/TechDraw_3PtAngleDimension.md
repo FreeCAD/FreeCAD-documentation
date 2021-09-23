@@ -7,6 +7,8 @@
    SeeAlso:[TechDraw AngleDimension](TechDraw_AngleDimension.md)
 ---
 
+# TechDraw 3PtAngleDimension/en
+
 ## Description
 
 The 3-Point Angle Dimension tool adds a angular dimension to a View. The dimension may be specified by selecting three Vertices on a View. **Note that the second of the three Vertices is the apex of the angle**. The Angle3Pt will initially be the projected angle (ie as shown on the drawing), but this may be changed to the actual 3D distance using the **<img src="images/TechDraw_LinkDimension.svg" width=16px> [TechDraw LinkDimension](TechDraw_LinkDimension.md)** tool.
@@ -54,4 +56,7 @@ rc = page.addView(dim1)
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw 3PtAngleDimension/en

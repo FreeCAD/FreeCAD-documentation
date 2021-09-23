@@ -1,11 +1,4 @@
 # Compiling (Speeding up)
- 
-
-
-
-
- 
-
 ## Overview
 
 FreeCAD is a large application that may take from 10 minutes to one hour to compile completely from source. This depends primarily on the CPU that you have, and the number of cores that are used in the compilation process. Here are some tips to shorten that process and make build times shorter.
@@ -60,3 +53,6 @@ The `distcc` program can be used to perform distributed compilation of C and C++
  
 
 [Category:Developer\_Documentation](Category:Developer_Documentation.md) [Category:Developer](Category:Developer.md)
+
+---
+[documentation index](../README.md) > [Developer_Documentation](Category:Developer_Documentation.md) > Compiling (Speeding up)

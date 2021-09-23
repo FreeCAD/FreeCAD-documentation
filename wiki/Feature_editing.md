@@ -1,6 +1,4 @@
 # Feature editing
- 
-
 ## Introduction
 
 This page explains the way the <img alt="" src=images/Workbench_PartDesign.svg  style="width:32px;"> [PartDesign Workbench](PartDesign_Workbench.md) is intended to be used starting with FreeCAD 0.17.
@@ -167,3 +165,6 @@ The [tutorials](Tutorials.md) page provides some examples of using the [feature 
  {{PartDesign Tools navi}} 
 
 [Category:Common Questions](Category:Common_Questions.md)
+
+---
+[documentation index](../README.md) > [Common Questions](Category:Common Questions.md) > Feature editing

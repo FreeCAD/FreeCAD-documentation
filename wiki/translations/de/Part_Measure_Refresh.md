@@ -7,6 +7,8 @@
    SeeAlso:[Messen Linear](Part_Measure_Linear/de.md), [Messen Winkel](Part_Measure_Angular/de.md)
 ---
 
+# Part Measure Refresh/de
+
 
 </div>
 
@@ -41,5 +43,5 @@
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Refresh/de

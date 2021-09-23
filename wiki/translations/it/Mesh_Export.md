@@ -7,6 +7,8 @@
    SeeAlso:[Esporta](Std_Export/it.md), [Importazione e Esportazione](Import_Export/it.md)
 ---
 
+# Mesh Export/it
+
 ## Descrizione
 
 Il comando **Esporta mesh** esporta un oggetto mesh in un formato file mesh. Sono supportati diversi formati di file.
@@ -58,4 +60,7 @@ Mesh.export([doc.Cone, doc.Cylinder], 'D:/testfiles/mymodel.stl')
 
 {{Mesh Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Export/it

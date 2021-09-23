@@ -1,7 +1,4 @@
 # TechDraw pitch circle tutorial/pl
-
-
-
 {{TutorialInfo/pl
 |Topic=Rysunek Techniczny
 |Level=Początkujący
@@ -44,4 +41,7 @@ Ten poradnik wyjaśnia jak dodać okrąg podziałowy do widoku <img alt="" src=i
 
 {{TechDraw Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw pitch circle tutorial/pl

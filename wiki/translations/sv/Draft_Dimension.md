@@ -1,3 +1,4 @@
+# Draft Dimension/sv
 ---
 - GuiCommand:/sv   Name:Draft Dimension   Workbenches:[MenuLocation:Draft → Dimension   Shortcut:D I   SeeAlso:[[Draft FlipDimension/sv|FlipDimension](Draft_Workbench/sv___Skiss]].md)---
 
@@ -293,8 +294,5 @@ dimension4.ViewObject.FontSize = 200
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Dimension/sv

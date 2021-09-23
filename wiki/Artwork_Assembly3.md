@@ -1,6 +1,4 @@
 # Artwork Assembly3
-  
-
 These icons are in the indicated source path of Realthunder\'s Link Branch:
 
 ## \.../Mod/asm3
@@ -32,3 +30,6 @@ These icons are in the indicated source path of Realthunder\'s Link Branch:
  
 
 [Category:Assembly](Category:Assembly.md)
+
+---
+[documentation index](../README.md) > [Assembly](Category:Assembly.md) > Artwork Assembly3

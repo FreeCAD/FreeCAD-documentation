@@ -1,3 +1,4 @@
+# Path Array/it
 ---
 - GuiCommand:/it   Name:Path Array   Name/it:Schiera   Workbenches:[[Path Workbench/it   Path]]|MenuLocation:Path → Modifica percorso → Schiera   Shortcut:   SeeAlso:---
 
@@ -67,4 +68,7 @@ Example:
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Array/it

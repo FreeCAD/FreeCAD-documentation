@@ -1,7 +1,4 @@
 # Getting started/hr
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -301,3 +298,6 @@ I na kraju, jedna od najmoćnijih značajki FreeCAD-a je [skriptiranje](scriptin
 {{Userdocnavi/hr}}
 
 [Category:User Documentation/hr](Category:User_Documentation/hr.md)
+
+---
+[documentation index](../README.md) > Getting started/hr

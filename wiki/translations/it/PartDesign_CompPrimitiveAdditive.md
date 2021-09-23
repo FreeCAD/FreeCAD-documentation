@@ -8,6 +8,8 @@
    SeeAlso:[Primitive sottrattive](PartDesign_CompPrimitiveSubtractive/it.md)
 ---
 
+# PartDesign CompPrimitiveAdditive/it
+
 
 </div>
 
@@ -44,4 +46,7 @@ Crea una primitiva additiva nel corpo attivo come prima caratteristica o la fond
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign CompPrimitiveAdditive/it

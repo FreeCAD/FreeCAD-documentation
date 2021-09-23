@@ -1,5 +1,5 @@
 # Manual:BIM modeling/it
- }
+}
 
 
 <div class="mw-translate-fuzzy">
@@ -355,3 +355,6 @@ Ora la pagina è pronta, e può essere esportata nel formato SVG o DXF, o stampa
 }} 
 
 [Category:BIM](Category:BIM.md)
+
+---
+[documentation index](../README.md) > [BIM](Category:BIM.md) > Manual:BIM modeling/it

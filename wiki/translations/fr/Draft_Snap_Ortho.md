@@ -6,6 +6,8 @@
    SeeAlso:[Draft Aimantation](Draft_Snap/fr.md), [Draft Aimantation Verrouiller](Draft_Snap_Lock/fr.md)
 ---
 
+# Draft Snap Ortho/fr
+
 ## Description
 
 L\'option <img alt="" src=images/Draft_Snap_Ortho.svg  style="width:24px;"> **Draft Aimantation Orthogonal** permet de s\'aimanter sur des lignes imaginaires qui croisent le point précédent à 0°, 45°, 90° et 135°. Les lignes et les angles sont relatifs au plan XY du système de coordonnées du [plan de travail](Draft_SelectPlane/fr.md).
@@ -31,8 +33,5 @@ Pour des informations générales sur l\'aimantation voir [Draft Aimantation](Dr
 
 Voir [Draft Préférences](Draft_Snap/fr#Pr.C3.A9f.C3.A9rences.md)
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Ortho/fr

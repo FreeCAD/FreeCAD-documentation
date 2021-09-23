@@ -1,3 +1,4 @@
+# Drawing SpreadsheetView/it
 ---
 - GuiCommand:/it   Name:Drawing SpreadsheetView   Name/it:Vista foglio di calcolo   Workbenches:[[Drawing Workbench/it   Drawing]]|MenuLocation:Drawing → Vista foglio di calcolo---
 
@@ -48,4 +49,7 @@ Questo strumento consente di posizionare una vista di un [foglio di calcolo](Spr
 
 {{Drawing Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing SpreadsheetView/it

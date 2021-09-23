@@ -9,6 +9,8 @@
    SeeAlso:[Draft Texte](Draft_Text/fr.md), [Draft Etiquette](Draft_Label/fr.md), [Part Extrusion](Part_Extrude/fr.md)
 ---
 
+# Draft ShapeString/fr
+
 ## Description
 
 La commande <img alt="" src=images/Draft_ShapeString.svg  style="width:24px;"> **Draft Formes à partir de texte** crée une forme composée qui représente une chaîne de texte. Cette forme peut être utilisée pour créer des lettres en 3D avec la commande [Part Extrusion](Part_Extrude/fr.md).
@@ -133,8 +135,5 @@ S3.Placement.Rotation = App.Rotation(zaxis, 180)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ShapeString/fr

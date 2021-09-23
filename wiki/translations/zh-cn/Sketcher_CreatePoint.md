@@ -5,6 +5,8 @@
    Workbenches:[Sketcher](Sketcher_Workbench.md)
 ---
 
+# Sketcher CreatePoint/zh-cn
+
 ## 描述
 
 通过此点工具可在当前的草图中创建一个点，而所创建的点可作为构造几何图形的元素。创建的点将一直作为构造要素，且不会在3D视图中显示出来。
@@ -37,4 +39,7 @@
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreatePoint/zh-cn

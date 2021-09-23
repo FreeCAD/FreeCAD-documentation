@@ -8,6 +8,8 @@
    SeeAlso:[PartDesign Point de référence](PartDesign_Point/fr.md), [Plan de référence](PartDesign_Plane/fr.md)
 ---
 
+# PartDesign Line/fr
+
 ## Description
 
 Crée une **droite de référence** qui peut être utilisée comme référence pour les esquisses, les autres géométries de référence ou les fonctions. Par exemple, elle peut être utilisée comme axe de révolution pour les fonctions Révolution et Rainure circulaire.
@@ -43,4 +45,7 @@ Double-cliquez sur l\'étiquette DatumLine dans l\'arborescence du modèle ou cl
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Line/fr

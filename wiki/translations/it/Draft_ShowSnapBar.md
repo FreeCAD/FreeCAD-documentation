@@ -7,6 +7,8 @@
    SeeAlso:[Agganciare](Draft_Snap/it.md), [Attiva/disattiva Aggancio](Draft_ToggleSnap/it.md)
 ---
 
+# Draft ShowSnapBar/it
+
 
 </div>
 
@@ -47,5 +49,5 @@ Questo comando mostra la barra [Snap](Draft_Snap/it.md), che contiene i pulsanti
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ShowSnapBar/it

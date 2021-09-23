@@ -1,3 +1,4 @@
+# Path Drilling/ro
 ---
 - GuiCommand:   Name:Path Drilling   Workbenches:[[Path Workbench   Path]]|MenuLocation:Path → Drilling   Shortcut:P,D   SeeAlso:---
 
@@ -214,4 +215,7 @@ Example:
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Drilling/ro

@@ -1,7 +1,4 @@
 # Sketcher Dialog/it
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -229,4 +226,7 @@ Se si tiene premuto il tasto **Ctrl** è possibile selezionare più elementi con
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Dialog/it

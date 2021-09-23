@@ -8,6 +8,8 @@
    SeeAlso:[Sketcher Vincolo Punto su oggetto](Sketcher_ConstrainPointOnObject/it.md)
 ---
 
+# Sketcher ConstrainTangent/it
+
 ## Descrizione
 
 Il vincolo Tangente costringe due curve ad essere tangenti. Le linee sono trattate come infinite, e gli archi sono trattati come cerchi o ellissi completi. Il vincolo è anche in grado di collegare due curve costringendole ad essere tangenti nella giunzione, e quindi rende levigata la loro congiunzione.
@@ -139,4 +141,7 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainTangent/it

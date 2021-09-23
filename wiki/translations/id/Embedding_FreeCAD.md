@@ -1,7 +1,4 @@
 # Embedding FreeCAD/id
-
-
-
 {{TOCright}}
 
 ## Introduction
@@ -134,3 +131,6 @@ Since the FreeCAD Python module is compiled from C++ (rather than being a pure P
 }} 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Embedding FreeCAD/id

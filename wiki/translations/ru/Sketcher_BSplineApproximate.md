@@ -8,6 +8,8 @@
    SeeAlso:[Создать B-сплайн](Sketcher_CompCreateBSpline/ru.md)
 ---
 
+# Sketcher BSplineApproximate/ru
+
 ## Описание
 
 Converts compatible geometry, edges and curves, into a B-spline (see [this page](B-Splines.md) for more info about B-splines).
@@ -30,4 +32,7 @@ Make sure to have either the spline [degree](Sketcher_BSplineDegree.md), [polygo
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineApproximate/ru

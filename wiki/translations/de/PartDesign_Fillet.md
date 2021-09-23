@@ -7,6 +7,8 @@
    SeeAlso:[Fase](PartDesign_Chamfer.md), [Part Verrundung](Part_Fillet/de.md)
 ---
 
+# PartDesign Fillet/de
+
 
 </div>
 
@@ -122,4 +124,7 @@ Part.show(Box)
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Fillet/de

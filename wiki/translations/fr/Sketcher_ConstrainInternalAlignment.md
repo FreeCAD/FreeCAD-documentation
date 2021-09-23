@@ -9,6 +9,8 @@
    SeeAlso:[Sketcher Basculer géométrie interne](Sketcher_RestoreInternalAlignmentGeometry/fr.md), [Sketcher Ellipse](Sketcher_CreateEllipseByCenter/fr.md)
 ---
 
+# Sketcher ConstrainInternalAlignment/fr
+
 ## Description
 
 Cette **Contrainte d\'alignement interne** aligne les lignes et les points à des endroits particuliers d\'un élément complexe d\'esquisse (il y a juste un élément \"complexe\" jusqu\'à présent, l\'[Ellipse](Sketcher_CreateEllipseByCenter/fr.md)).
@@ -58,4 +60,7 @@ La page [Sketcher : Ecrire un script](Sketcher_scripting/fr.md) explique les val
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainInternalAlignment/fr

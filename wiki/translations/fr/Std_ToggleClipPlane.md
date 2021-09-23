@@ -6,6 +6,8 @@
    Workbenches:Tous
 ---
 
+# Std ToggleClipPlane/fr
+
 ## Description
 
 La commande **Std Basculer le plan de coupe** masque temporairement les objets et parties d\'objets sur un côté de trois plans virtuels maximum dans la [vue 3D](3D_view/fr.md) active.
@@ -40,4 +42,7 @@ La commande **Std Basculer le plan de coupe** masque temporairement les objets e
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ToggleClipPlane/fr

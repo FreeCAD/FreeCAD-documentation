@@ -8,6 +8,8 @@
    SeeAlso:[Перевернуть размер](Draft_FlipDimension/ru.md)
 ---
 
+# Draft Dimension/ru
+
 
 </div>
 
@@ -323,8 +325,5 @@ dimension4.ViewObject.FontSize = 200
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Dimension/ru

@@ -5,6 +5,8 @@
    MenuLocation:Drawing → Bemerkung   Shortcut:none
 ---
 
+# Drawing Annotation/de
+
 
 **Die Entwicklung des Drawing-Moduls wurde gestoppt und ein neuer in v0.17 eingeführter [TechDraw-Arbeitsbereich](TechDraw_Workbench/de.md) zielt darauf, es zu setzen. Beide Module stehen in v0.17 zur Verfügung, aber das Drawing-Modul könnte in zukünftigen Ausgaben entfernt werden.**
 
@@ -32,4 +34,7 @@ Dieser Befehl erlaubt, einen Textblock auf einer [Zeichnungsseite](Drawing_Lands
 
 {{Drawing Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Annotation/de

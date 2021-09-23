@@ -1,11 +1,4 @@
 # Tracker
- 
-
-
-
-
- 
-
 ![](images/Mantis_logo_262x90.png )
 
 The [FreeCAD BugTracker](https://www.freecadweb.org/tracker) is the place toː report bugs, submit feature requests, patches, or request to merge your branch if you developed something using Git. The tracker is divided into \'Workbenches\', so please be specific and file your request in the appropriate subsection. In case of doubt, leave it in the \"FreeCAD\" section.
@@ -181,3 +174,6 @@ For the inquisitive here is the regex MantisBT uses for this operation:
  
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Administration](Category:Administration.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Tracker

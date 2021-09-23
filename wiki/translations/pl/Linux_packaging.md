@@ -1,6 +1,4 @@
 # Linux packaging/pl
-
-
 Linux pozwala na różnego rodzaju pakiety w zależności od użytej dystrybucji. Popularne formaty to pakiety Debiana `.deb`, openSuse, Fedory `.rpm` i częściowo-wszechstronny format `.AppImage`.
 
 
@@ -17,3 +15,6 @@ dla systemów Windows i MacOS, zobacz dokument [Pakiety oprogramowania](Packagin
 
 
 [Category:Packaging](Category:Packaging.md) [Category:Developer Documentation](Category:Developer_Documentation.md)
+
+---
+[documentation index](../README.md) > [Packaging](Category:Packaging.md) > Linux packaging/pl

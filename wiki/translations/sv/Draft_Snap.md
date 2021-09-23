@@ -1,10 +1,4 @@
 # Draft Snap/sv
-
-
-
-
-
-
 {{TOCright}}
 
 ## Description
@@ -119,3 +113,6 @@ I verktyg som stöder både snäppning och begränsning, så kan kombinationen a
  
 
 [Category:User Documentation/sv](Category:User_Documentation/sv.md)
+
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap/sv

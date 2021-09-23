@@ -1,10 +1,4 @@
 # FreeCAD Build Tool/sv
-
-
-
-
-
-
 {{TOCright}}
 
 
@@ -100,3 +94,6 @@ Kommandot \"CM\" [skapar en ny applikationsmodul](Module_Creation/sv.md).
  
 
 [Category:Developer Documentation](Category:Developer_Documentation.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > FreeCAD Build Tool/sv

@@ -1,5 +1,5 @@
 # Release notes 0.13/ru
- Это обзор самых интересных изменений произошедших в последней версии FreeCAD. Смотри [полный список](http://www.freecadweb.org/tracker/changelog_page.php) для получения подробной информации об изменениях.
+Это обзор самых интересных изменений произошедших в последней версии FreeCAD. Смотри [полный список](http://www.freecadweb.org/tracker/changelog_page.php) для получения подробной информации об изменениях.
 
 
 <div class="mw-translate-fuzzy">
@@ -152,3 +152,6 @@ Geometry (Points, Lines and Curves) may be selected by dragging on the backgroun
 -   For more information see the [OpenSCAD Workbench](OpenSCAD_Workbench.md) page on the FreeCAD wiki
 
 [Category:News](Category:News.md) [Category:Documentation](Category:Documentation.md) [Category:Releases](Category:Releases.md)
+
+---
+[documentation index](../README.md) > [News](Category:News.md) > Release notes 0.13/ru

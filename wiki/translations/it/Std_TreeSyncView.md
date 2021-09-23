@@ -7,6 +7,8 @@
    Shortcut:**T** **1**
 ---
 
+# Std TreeSyncView/it
+
 
 </div>
 
@@ -43,4 +45,7 @@ La modalità Sincronizza la vista SyncView è memorizzata in: **Strumenti → Mo
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std TreeSyncView/it

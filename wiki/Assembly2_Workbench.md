@@ -1,7 +1,4 @@
 # Assembly2 Workbench
- 
-
-
 **The Assembly2 workbench is obsolete. Its author no longer maintains it, so it may not work with FreeCAD versions 0.17 and above. The information in this page is not maintained; it is just kept for historical purposes.**
 
 
@@ -146,3 +143,6 @@ To update to the latest version, delete the assembly2 folder and redownload the 
  
 
 [Category:User Documentation](Category:User_Documentation.md) [Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+
+---
+[documentation index](../README.md) > Assembly2 Workbench

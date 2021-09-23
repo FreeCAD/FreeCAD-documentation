@@ -9,6 +9,8 @@
    SeeAlso:[Metin](Draft_Text/tr.md), [Parça çıkarma](Part_Extrude/tr.md),<br /> [Macro Fonts Win10 PYMP](Macro_Fonts_Win10_PYMP/tr.md) <img src="images/Macro_Fonts_Win10_PYMP.png" width=24px>
 ---
 
+# Draft ShapeString/tr
+
 
 </div>
 
@@ -230,5 +232,5 @@ doc.recompute()
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ShapeString/tr

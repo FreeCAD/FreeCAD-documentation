@@ -7,6 +7,8 @@
    Version:0.17
 ---
 
+# Spreadsheet MergeCells/fr
+
 ## Description
 
 L\'outil **<img src=images/Spreadsheet_MergeCells.svg style="width:16px"> [Fusionner les cellules sélectionnées](Spreadsheet_MergeCells/fr.md)** fusionne au moins deux cellules sélectionnées dans une feuille de calcul existante dans le document actif.
@@ -23,4 +25,7 @@ L\'outil **<img src=images/Spreadsheet_MergeCells.svg style="width:16px"> [Fusio
 
 {{Spreadsheet_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet MergeCells/fr

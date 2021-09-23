@@ -8,6 +8,8 @@
    SeeAlso:[Спереди](Std_ViewFront/ru.md), [Справа](Std_ViewRight/ru.md)
 ---
 
+# Std ViewTop/ru
+
 ## Описание
 
 The **Std ViewTop** command points the camera in the active [3D view](3D_view.md) in the direction of the negative Z axis.
@@ -45,4 +47,7 @@ FreeCADGui.ActiveDocument.ActiveView.getViewDirection()
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ViewTop/ru

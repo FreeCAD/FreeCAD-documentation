@@ -8,6 +8,8 @@
    SeeAlso:[Tryb konstrukcji](Sketcher_ToggleConstruction/pl.md)
 ---
 
+# Sketcher External/pl
+
 ## Opis
 
 Użyj narzędzia**<img src="images/Sketcher_External.svg" width=16px> [Geometria zewnętrzna](Sketcher_External/pl.md)** kiedy musisz zastosować wiązanie pomiędzy geometrią szkicu a czymś na zewnątrz szkicu. To działa przez wstawienie do szkicu połączonej geometrii konstrukcyjnej. Domyślny kolor połączonych zewnętrznych krawędzi to magenta. Tak samo jak w przypadku standardowych, niepołączonej geometrii konstrukcyjnej *(niebieska)*, zewnętrznie połączona geometria jest widoczna tylko gdy szkic jest w trybie edycji i nie jest bezpośrednio wykorzystywana w późniejszym użyciu gotowego szkicu w innym narzędziu. Oba typy geometrii konstrukcyjnej mogą być używane jako odniesienie dla wiązań w szkicu.
@@ -77,4 +79,7 @@ Gdy edycja szkicu jest zamknięta, zewnętrzne linie Geometrii nie są widoczne.
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher External/pl

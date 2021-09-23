@@ -7,6 +7,8 @@
    Version:0.17
 ---
 
+# Spreadsheet StyleBold/fr
+
 ## Description
 
 L\'outil **<img src=images/Spreadsheet_StyleBold.svg style="width:16px"> [Spreadsheet Texte en gras](Spreadsheet_StyleBold/fr.md)** fait que le texte à l\'intérieur de la cellule adopte le style **gras**.
@@ -23,4 +25,7 @@ L\'outil **<img src=images/Spreadsheet_StyleBold.svg style="width:16px"> [Spread
 
 {{Spreadsheet_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet StyleBold/fr

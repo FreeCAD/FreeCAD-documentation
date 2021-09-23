@@ -9,6 +9,8 @@
    SeeAlso:[Path Copy](Path_Copy/ru.md)
 ---
 
+# Path SimpleCopy/ru
+
 
 </div>
 
@@ -31,4 +33,7 @@ This tool creates a non-parametric copy of a given path.
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path SimpleCopy/ru

@@ -7,6 +7,8 @@
    SeeAlso:[Nuovo disegno da modello](TechDraw_PageTemplate/it.md), [Modelli di squadrature](TechDraw_Templates/it.md)
 ---
 
+# TechDraw PageDefault/it
+
 
 </div>
 
@@ -143,4 +145,7 @@ page.Template.EditableTexts = texts
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw PageDefault/it

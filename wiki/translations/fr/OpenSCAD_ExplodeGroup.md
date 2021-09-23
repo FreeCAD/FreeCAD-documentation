@@ -6,6 +6,8 @@
 ‏‎   Workbenches:[OpenSCAD](OpenSCAD_Workbench.md)
 ---
 
+# OpenSCAD ExplodeGroup/fr
+
 ## Description
 
 Cette outil fait décompose une fusion ou un composé et le convertit en objets uniques en appliquant des couleurs aléatoires à ces objets.
@@ -38,4 +40,7 @@ Pour les réseaux de l\'atelier de Draft, utilisez l\'outil [Draft Rétrograder]
 
 {{OpenSCAD_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD ExplodeGroup/fr

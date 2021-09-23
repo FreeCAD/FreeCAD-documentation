@@ -1,7 +1,4 @@
 # Manual:Traditional modeling, the CSG way/it
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -189,3 +186,6 @@ Si può guardare il tavolo di cui sopra, e pensare il suo design non è buono. I
 </div>
 
 [Category:Tutorials/it](Category:Tutorials/it.md)
+
+---
+[documentation index](../README.md) > Manual:Traditional modeling, the CSG way/it

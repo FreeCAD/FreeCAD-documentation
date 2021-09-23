@@ -6,6 +6,8 @@
    SeeAlso:[Reinforcement](Reinforcement_Workbench.md), [Arch Rebar](Arch_Rebar.md), [Arch Helical Rebar](Arch_Rebar_Helical.md)
 ---
 
+# Arch Rebar Slab Reinforcement/fr
+
 ## Description
 
 The [Slab Reinforcement](Arch_Rebar_Slab_Reinforcement.md) tool allows the user to create reinforcing bars inside a Slab [Arch Structure](Arch_Structure.md) object.
@@ -317,3 +319,6 @@ slabReinforcementGroup = editSlabReinforcement(
  
 
 [Category:Reinforcement](Category:Reinforcement.md)
+
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Rebar Slab Reinforcement/fr

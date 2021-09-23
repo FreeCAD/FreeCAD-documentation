@@ -1,7 +1,4 @@
 # Placement/it
-
-
-
 <div class="mw-translate-fuzzy">
 
 ## Descrizione
@@ -337,5 +334,5 @@ Pertanto, il posizionamento di un solido creato in PartDesign da uno schizzo pu√
 
 </div>
 
-
-
+---
+[documentation index](../README.md) > Placement/it

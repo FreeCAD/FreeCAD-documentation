@@ -6,6 +6,8 @@
    SeeAlso:[Arch Check](Arch_Check.md)
 ---
 
+# Arch CloseHoles/pl
+
 ## Description
 
 This tool identifies holes (circular sequence of open edges) in a [Shape](Part_Workbench.md) object and attempts to close it by adding it a new face made from that edges sequence. You must still verify yourself that the result is a solid, though.
@@ -51,11 +53,5 @@ FreeCAD.ActiveDocument.recompute()
 solid = Arch.closeHole(Wall.Shape)
 ```
 
-
-
-
-
-
-
-
-
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CloseHoles/pl

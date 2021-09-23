@@ -1,3 +1,4 @@
+# Raytracing New/ro
 ---
 - GuiCommand:/ro   Name:Raytracing New   Name/ro:Raytracing New   MenuLocation:Raytracing → New‏‎   |Workbenches:[[Raytracing Workbench/ro   Raytracing]]|Shortcut:   SeeAlso:---
 
@@ -56,4 +57,7 @@ Setările suplimentare de proiect ar necesita definirea unor șabloane supliment
 
 {{Raytracing_Tools_navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing New/ro

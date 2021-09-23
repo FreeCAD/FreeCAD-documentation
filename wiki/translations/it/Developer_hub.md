@@ -1,6 +1,4 @@
 # Developer hub/it
-
-
 ![150](images/Crystal_Clear_app_tutorials.png )
 
 Questo è il posto giusto per contribuire allo sviluppo del software di FreeCAD.
@@ -180,3 +178,6 @@ Serve ancora molto lavoro prima che possa competere con i software commerciali.
 
 
 [Category:Hubs](Category:Hubs.md) [Category:Developer Documentation](Category:Developer_Documentation.md)
+
+---
+[documentation index](../README.md) > [Hubs](Category:Hubs.md) > Developer hub/it

@@ -8,6 +8,8 @@
    SeeAlso:[Создать B-сплайн](Sketcher_CompCreateBSpline/ru.md)
 ---
 
+# Sketcher BSplineComb/ru
+
 ## Описание
 
 Позволяет отобразить или скрыть гребень кривизны B-сплайна (см. [данную страницу](B-Splines/ru.md) для получения дополнительной информации о B-сплайнах).
@@ -27,4 +29,7 @@
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineComb/ru

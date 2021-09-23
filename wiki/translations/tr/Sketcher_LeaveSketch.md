@@ -5,6 +5,8 @@
    MenuLocation:Eskiz → Eskizi kapat
 ---
 
+# Sketcher LeaveSketch/tr
+
 
 </div>
 
@@ -38,3 +40,6 @@ The **Leave sketch** command exits the sketch editing mode and frees up the [Tas
 }}  
 
 [Category:Sketcher/tr](Category:Sketcher/tr.md)
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher LeaveSketch/tr

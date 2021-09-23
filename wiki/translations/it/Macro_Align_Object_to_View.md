@@ -1,5 +1,5 @@
 # Macro Align Object to View/it
- {{Macro/it
+{{Macro/it
 |Name=Macro Align Object to View
 |Icon=Macro_Align_Object_to_View.png
 |Translate=Alinea l'obietto su la vista
@@ -81,6 +81,5 @@ Image:Macro Align Object to View 03.png\|Selezionare l\'oggetto ed eseguire la m
 
 Grazie a rentlau\_64 per il codice semplificato
 
-
-
-
+---
+[documentation index](../README.md) > Macro Align Object to View/it

@@ -1,7 +1,4 @@
 # Thread for Screw Tutorial/ro
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -331,4 +328,7 @@ ISO and other threads have relieved, ie flat, inner and outer edges rather than 
 
 ![761PX](images/Threadform.PNG )
 
-Această metodă produce solide fiabile, care sunt boolean în mod corespunzător. În timp ce nu produce șuruburi \"parametrice\" în dimensiuni standard, în sensul de a avea un acces simplu la forma prin mărimea șurubului, este o modalitate ușoară de a produce o bibliotecă precisă pentru reutilizare și modele de forme specializate cum ar fi ACME sau șuruburi Archimedian , sunt, de asemenea, necomplicate ca excepții. {{Tutorials navi}}  {{PartDesign Tools navi}} {{Sketcher Tools navi}} 
+Această metodă produce solide fiabile, care sunt boolean în mod corespunzător. În timp ce nu produce șuruburi \"parametrice\" în dimensiuni standard, în sensul de a avea un acces simplu la forma prin mărimea șurubului, este o modalitate ușoară de a produce o bibliotecă precisă pentru reutilizare și modele de forme specializate cum ar fi ACME sau șuruburi Archimedian , sunt, de asemenea, necomplicate ca excepții. {{Tutorials navi}}  {{PartDesign Tools navi}} {{Sketcher Tools navi}}
+
+---
+[documentation index](../README.md) > Thread for Screw Tutorial/ro

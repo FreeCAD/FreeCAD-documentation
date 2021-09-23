@@ -7,6 +7,8 @@
    SeeAlso:[TechDraw Ansicht](TechDraw_View/de.md), [TechDraw Projektionsgruppe](TechDraw_ProjectionGroup/de.md)
 ---
 
+# TechDraw ToggleFrame/de
+
 ## Beschreibung
 
 Das Werkzeug schaltet die Umrandungen in den Ansichten und Anmerkungen, sowie die Anzeige der Fangpunkte usw. ein oder aus.
@@ -44,4 +46,7 @@ Das Umschaltwerkzeug verfügt derzeit nicht über eine Programmierschnittstelle.
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ToggleFrame/de

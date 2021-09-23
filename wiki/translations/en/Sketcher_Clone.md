@@ -7,6 +7,8 @@
    SeeAlso:[Sketcher Copy](Sketcher_Copy.md), [Sketcher Move](Sketcher_Move.md)
 ---
 
+# Sketcher Clone/en
+
 ## Description
 
 Clones the selected sketch elements from one point to another, using the last selected point as reference. If any constraints are part of the source elements, then the new constraints are linked to the source constraints; if the constraints in the source are changed, the constraints in the clone are also changed. To avoid this linking see **<img src=images/Sketcher_Copy.svg style="width:16px"> [Sketcher Copy](Sketcher_Copy.md)**.
@@ -27,4 +29,7 @@ No extra constraints for clone-behaviour are added.
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Clone/en

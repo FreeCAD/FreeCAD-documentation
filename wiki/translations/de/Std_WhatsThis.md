@@ -7,6 +7,8 @@
    SeeAlso:[Hilfe](Std_OnlineHelp/de.md)
 ---
 
+# Std WhatsThis/de
+
 ## Beschreibung
 
 Der **Std Direkthilfe**-Befehl öffnet die Hilfedokumentation für einen angegebenen Befehl.
@@ -36,4 +38,7 @@ Lies diesen Beitrag, um zu verstehen, wie die Befehle im Code benannt werden mü
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std WhatsThis/de

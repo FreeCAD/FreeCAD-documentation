@@ -8,6 +8,8 @@
    SeeAlso:[Architektur IFC](Arch_IFC/de.md)
 ---
 
+# Arch IfcExplorer/de
+
 ## Beschreibung
 
 Der [IFC explorer](Arch_IfcExplorer/de.md) ist ein einfaches Hilfsmittel, um die Inhalte einer [IFC](Arch_IFC/de.md) Datei zu untersuchen. IFC Dateien sind Textdateien, die daher mit einem Texteditor lesbar sind, aber die Informationen sind verdichtet und schwer durchzublättern. Dieses Hilfsprogramm zeigt dem Anwender genau den gleichen Inhalt, aber angezeigt in einem geordneten und lesbaren Verfahren. Die *[IfcOpenShell](IfcOpenShell/de.md)* Softwarebibliothek muss installiert sein, damit dieses Dienstprogramm funktioniert.
@@ -33,3 +35,6 @@ Der Zweck dieses Explorers besteht einfach darin, dir zu ermöglichen, zu überp
  
 
 [Category:BIM](Category:BIM.md)
+
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch IfcExplorer/de

@@ -4,3 +4,6 @@ This category lists pages that describe the general FreeCAD program, not tied to
 ### Contents:
 
 [Category:User Documentation/zh](Category:User_Documentation/zh.md)
+
+---
+[documentation index](../README.md) > Category:Base/zh

@@ -7,6 +7,8 @@
    SeeAlso:[Testo Draft](Draft_Text/it.md), [Forma da testo di Draft](Draft_ShapeString/it.md)
 ---
 
+# TechDraw Annotation/it
+
 
 </div>
 
@@ -92,4 +94,7 @@ rc = page.addView(anno)
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Annotation/it

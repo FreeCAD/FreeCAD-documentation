@@ -1,7 +1,4 @@
 # Line drawing function/en
-
-
-
 {{TOCright}}
 
 ## Introduction
@@ -269,3 +266,6 @@ If you liked this exercise, why not try to improve this little tool? There are m
 Don\'t hesitate to ask questions or share ideas on the [forum](https://forum.freecadweb.org/)! {{Top}} {{Powerdocnavi}} 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Line drawing function/en

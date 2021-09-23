@@ -10,3 +10,6 @@ La couleur de l\'objet présélectionné peut être choisie à partir du menu **
 
 
 [Category:User Documentation/fr](Category:User_Documentation/fr.md)
+
+---
+[documentation index](../README.md) > Preselection/fr

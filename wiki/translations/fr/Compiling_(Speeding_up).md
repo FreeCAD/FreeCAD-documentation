@@ -1,10 +1,4 @@
 # Compiling (Speeding up)/fr
-
-
-
-
-
-
 {{TOCright}}
 
 ## Présentation
@@ -64,3 +58,6 @@ Le programme `distcc` peut être utilisé pour effectuer une compilation distrib
 
 
 [Category:Developer\_Documentation](Category:Developer_Documentation.md) [Category:Developer](Category:Developer.md)
+
+---
+[documentation index](../README.md) > [Developer_Documentation](Category:Developer_Documentation.md) > Compiling (Speeding up)/fr

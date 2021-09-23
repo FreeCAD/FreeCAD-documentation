@@ -1,7 +1,4 @@
 # Macro Print SceneGraph/en
-
-
-
 {{Macro
 |Name=Macro_Print_SceneGraph
 |Icon=Macro_Print_SceneGraph.png
@@ -118,3 +115,5 @@ else:
     QtGui.QApplication.restoreOverrideCursor()
 ```
 
+---
+[documentation index](../README.md) > Macro Print SceneGraph/en

@@ -1,5 +1,5 @@
 # FreeCADGui API/pl
- **''(Październik 2019)'' Nie edytuj tych stron. Informacje są niekompletne i nieaktualne. Najnowsze API można znaleźć w [https://www.freecadweb.org/api automatycznie generowana dokumentacja API], lub wygenerować dokumentację samodzielnie, śledząc dokument [Dokumentacja źródłowa](Source_documentation/pl.md).**
+**''(Październik 2019)'' Nie edytuj tych stron. Informacje są niekompletne i nieaktualne. Najnowsze API można znaleźć w [https://www.freecadweb.org/api automatycznie generowana dokumentacja API], lub wygenerować dokumentację samodzielnie, śledząc dokument [Dokumentacja źródłowa](Source_documentation/pl.md).**
 
 Moduł ten jest odpowiednikiem modułu FreeCAD. Zawiera wszystko co jest związane z interfejsem użytkownika i widokami 3D. Przykład: 
 ```python
@@ -70,3 +70,6 @@ gui_doc.activateWorkbench("myWorkbench")
  
 
 [Category:API](Category:API.md) [Category:Poweruser Documentation](Category:Poweruser_Documentation.md)
+
+---
+[documentation index](../README.md) > [API](Category:API.md) > FreeCADGui API/pl

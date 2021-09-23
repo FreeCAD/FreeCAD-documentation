@@ -7,6 +7,8 @@
    Version:0.16
 ---
 
+# Sketcher Symmetry/es
+
 
 </div>
 
@@ -34,4 +36,7 @@ Tenga en cuenta que no se añadirá ninguna restricción de simetría adicional.
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Symmetry/es

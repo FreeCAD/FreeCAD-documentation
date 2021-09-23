@@ -7,6 +7,8 @@
    Shortcut:**W**
 ---
 
+# SheetMetal AddWall/de
+
 ## Beschreibung
 
 Der Befehl <img alt="" src=images/SheetMetal_AddWall.svg  style="width:24px;"> [Kante ansetzen](SheetMetal_AddWall/de.md) erzeugt am gewählten Flächenrand eine Kante (Umbug).
@@ -186,3 +188,6 @@ Fertig!
 
 
 [Category:SheetMetal](Category:SheetMetal.md) [Category:Addons](Category:Addons.md) [Category:External Command Reference](Category:External_Command_Reference.md)
+
+---
+[documentation index](../README.md) > [SheetMetal](Category:SheetMetal.md) > SheetMetal AddWall/de

@@ -1,7 +1,4 @@
 # Path Walkthrough for the Impatient/ro
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -325,4 +322,7 @@ Ultimul pas în generarea Codului G pentru mașina de frezare țintă este post-
 
 {{Tutorials navi
 
-}} {{Path Tools navi}} 
+}} {{Path Tools navi}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Walkthrough for the Impatient/ro

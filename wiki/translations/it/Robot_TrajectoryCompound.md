@@ -1,3 +1,4 @@
+# Robot TrajectoryCompound/it
 ---
 - GuiCommand:/it   Name:Robot TrajectoryCompound   Name/it:Raggruppa traiettorie   Workbenches:[[Robot_Workbench/it   Robot]]|MenuLocation:Robot → Raggruppa traiettorie---
 
@@ -48,4 +49,7 @@ Crea un composto di diverse singole traiettorie.
 
 {{Robot_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot TrajectoryCompound/it

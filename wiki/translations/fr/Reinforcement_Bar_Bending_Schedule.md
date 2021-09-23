@@ -8,6 +8,8 @@
    SeeAlso:[Reinforcement](Reinforcement_Workbench/fr.md), [Arch Rebar Nomenclature](Arch_Rebar_BOM/fr.md), [Arch Rebar Dessins](Arch_Rebar_Drawing_Dimensioning/fr.md)
 ---
 
+# Reinforcement Bar Bending Schedule/fr
+
 ## Description
 
 L\'outil [Tableau des armatures](Reinforcement_Bar_Bending_Schedule/fr.md) permet à l\'utilisateur de créer la nomenclature de pliage des barres d\'armature.
@@ -357,3 +359,6 @@ BBSfunc.getBarBendingSchedule(
 
 
 [Category:External Command Reference](Category:External_Command_Reference.md) [Category:Reinforcement](Category:Reinforcement.md)
+
+---
+[documentation index](../README.md) > [External Command Reference](Category:External Command Reference.md) > Reinforcement Bar Bending Schedule/fr

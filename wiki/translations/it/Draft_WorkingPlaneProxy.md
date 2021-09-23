@@ -7,6 +7,8 @@
    SeeAlso:[Seleziona piano](Draft_SelectPlane/it.md)
 ---
 
+# Draft WorkingPlaneProxy/it
+
 
 </div>
 
@@ -201,5 +203,5 @@ doc.recompute()
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft WorkingPlaneProxy/it

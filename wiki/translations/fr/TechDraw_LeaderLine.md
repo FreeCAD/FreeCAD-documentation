@@ -8,6 +8,8 @@
    SeeAlso:[TechDraw Annotation en texte enrichi](TechDraw_RichTextAnnotation/fr.md), [TechDraw Symbole de soudure](TechDraw_WeldSymbol/fr.md), [TechDraw Groupes de lignes](TechDraw_LineGroup/fr.md)
 ---
 
+# TechDraw LeaderLine/fr
+
 ## Description
 
 L\'outil Ligne de référence ajoute une ligne à une vue. D\'autres objets d\'annotation (tels que [Annotation par texte enrichi](TechDraw_RichTextAnnotation/fr.md)) peuvent être connectés à Ligne de référence pour former des annotations complexes.
@@ -92,4 +94,7 @@ leaderObj.Y = 5
 
 {{TechDraw Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw LeaderLine/fr

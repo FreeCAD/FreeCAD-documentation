@@ -8,6 +8,8 @@
    SeeAlso:[Std DruckVorschau](Std_PrintPreview/de.md) [Std DruckenPdf](Std_PrintPdf/de.md), [Std Export](Std_Export/de.md), [Std Ansicht BildschirmFoto](Std_ViewScreenShot/de.md)
 ---
 
+# Std Print/de
+
 ## Beschreibung
 
 Der **Std Print**-Befehl ist in erster Linie zum Drucken von [TechDraw Arbeitsbereich](TechDraw_Workbench/de.md) Seiten gedacht, kann aber auch verwendet werden, um zu drucken, was gerade in der [3D Ansicht](3D_View/de.md) sichtbar ist.
@@ -31,4 +33,7 @@ Der **Std Print**-Befehl ist in erster Linie zum Drucken von [TechDraw Arbeitsbe
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std Print/de

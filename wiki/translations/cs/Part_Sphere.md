@@ -1,3 +1,4 @@
+# Part Sphere/cs
 ---
 - GuiCommand:/cs   Name:Part Sphere   Name/cs:Díl Koule   MenuLocation:Díl -> Koule   |Workbenches:[SeeAlso:[[Part_CreatePrimitives/cs|Díl Vytváření zákl.geom.tvarů](Part_Workbench/cs___Modul_Díl]],_Kompletace.md)---
 
@@ -57,8 +58,5 @@ Because it is quite difficult to explain the meaning of the parameters angle 1, 
 
 <img alt="" src=images/SphereCutThreeAngles.jpg  style="width:400px;">
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Sphere/cs

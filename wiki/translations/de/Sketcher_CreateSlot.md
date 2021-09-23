@@ -6,6 +6,8 @@
    Workbenches:[Skizzierer](Sketcher_Workbench/de.md)
 ---
 
+# Sketcher CreateSlot/de
+
 ## Beschreibung
 
 Zeichnet eine Nut durch Auswahl des Mittelpunktes von zwei Halbkreisen. (In älteren FreeCAD Versionen durch Auswahl des Mittelpunkts eines Halbkreises und eines Endpunkts des anderen Halbkreises).
@@ -25,4 +27,7 @@ Beim Starten des Werkzeugs ändert sich der Mauszeiger in ein weißes Kreuz mit 
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateSlot/de

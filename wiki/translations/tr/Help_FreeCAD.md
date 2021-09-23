@@ -1,6 +1,4 @@
 # Help FreeCAD/tr
-
-
 ## Introduction
 
 
@@ -212,3 +210,6 @@ Writing code for FreeCAD is not hard, and you don\'t need any permission, you ca
 
 
 [Category:Documentation](Category:Documentation.md) [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Common Questions](Category:Common_Questions.md)
+
+---
+[documentation index](../README.md) > [Command_Reference/tr|Komut Referans]] sayfası, FreeCAD ](Category:Command_Reference/tr|Komut Referans]] sayfası, FreeCAD .md) > Help FreeCAD/tr

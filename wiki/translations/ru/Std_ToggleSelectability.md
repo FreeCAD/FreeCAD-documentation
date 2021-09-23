@@ -6,6 +6,8 @@
    Workbenches:All
 ---
 
+# Std ToggleSelectability/ru
+
 ## Описание
 
 The **Std ToggleSelectability** command toggles the selectability of objects in [3D views](3D_view.md).
@@ -49,4 +51,7 @@ else:
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ToggleSelectability/ru

@@ -6,6 +6,8 @@
    Workbenches:[Wykres](Plot_Module/pl.md)
 ---
 
+# Plot Labels/pl
+
 ## Opis
 
 Narzędzie to pozwala na edycję etykiet tytułu i osi oraz rozmiarów czcionek.
@@ -36,3 +38,6 @@ Wybierz kartę powierzchni, którą chcesz edytować, i uruchom to narzędzie. W
 }} 
 
 [Category:External\_Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)
+
+---
+[documentation index](../README.md) > [External_Workbenches](Category:External_Workbenches.md) > Plot Labels/pl

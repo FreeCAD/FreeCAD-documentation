@@ -7,6 +7,8 @@
    SeeAlso:[Part Fuse](Part_Fuse.md), [Part CompoundFilter](Part_CompoundFilter.md), [Part ExplodeCompound](Part_ExplodeCompound.md)
 ---
 
+# Part Compound/pt-br
+
 ## Description
 
 This command creates a compound of any kind of topological shapes. These can be solids or meshes or any other kind of topological shapes.
@@ -24,8 +26,5 @@ A compound containing pieces that intersect or touch is **invalid** for Boolean 
 
 To turn this check on go to **Tools → Edit Parameters → Preferences... → Mod → Part → CheckGeometry → RunBOPCheck** and set the parameter to `true`.
 
-
-
-
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Compound/pt-br

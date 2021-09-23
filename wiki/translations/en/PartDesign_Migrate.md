@@ -6,6 +6,8 @@
    Version:0.17
 ---
 
+# PartDesign Migrate/en
+
 ## Description
 
 The PartDesign workbench in FreeCAD v0.17 introduces new tools and elements that are not recognized by older FreeCAD versions (0.16 and older). FreeCAD documents created in older versions can still be opened and edited. To benefit from the new features, they must be migrated via the menu PartDesign → Migrate.
@@ -32,4 +34,7 @@ The PartDesign workbench in FreeCAD v0.17 introduces new tools and elements that
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Migrate/en

@@ -1,5 +1,4 @@
-# EM Workbench/it
- <img alt="" src=images/EMWorkbench.svg  style="width:240px;"> 
+# <img alt="" src=images/EMWorkbench.svg  style="width:240px;">  EM Workbench/it
 *align=center|The FreeCAD ElectroMagnetic External Workbench Icon*
 
 ## Introduzione
@@ -79,3 +78,6 @@ New workbenches are in development, stay tuned!
 }}  
 
 [Category:External Workbenches](Category:External_Workbenches.md)
+
+---
+[documentation index](../README.md) > EM Workbench/it

@@ -7,6 +7,8 @@
    SeeAlso:[Std New](Std_New/ru.md)
 ---
 
+# Std ProjectInfo/ru
+
 ## Описание
 
 The **Std ProjectInfo** command shows a dialog box with project information belonging to the active document. Some of this information can be edited.
@@ -42,4 +44,7 @@ The **Std ProjectInfo** command shows a dialog box with project information belo
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ProjectInfo/ru

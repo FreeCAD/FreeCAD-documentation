@@ -1,7 +1,4 @@
 # Draft API/ja
-
-
-
 <div class="mw-translate-fuzzy">
 
 これらの関数はDraftモジュールの一部であり、Draftモジュールをインポートすることでスクリプト、マクロ、Pythonインタプリタから使用することができます。
@@ -98,3 +95,6 @@ Draft.move(myrect, mydistance)
 
 
 [Category:API](Category:API.md) [Category:Poweruser Documentation](Category:Poweruser_Documentation.md)
+
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft API/ja

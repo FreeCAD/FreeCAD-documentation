@@ -8,6 +8,8 @@
    SeeAlso:[Draft Rétrograder](Draft_Downgrade/fr.md)
 ---
 
+# Draft Upgrade/fr
+
 ## Description
 
 La commande <img alt="" src=images/Draft_Upgrade.svg  style="width:24px;"> **Draft Mettre à niveau** met à niveau les objets sélectionnés. Le résultat dépend du nombre d\'objets sélectionnés et de leur type. La commande peut par exemple fusionner des éléments et créer des faces. Il vaut la peine d\'essayer d\'améliorer une sélection plusieurs fois pour voir si un meilleur résultat peut être obtenu. Voir l\'exemple dans l\'image. Notez que tous les objets ne peuvent pas être mis à jour. Cette commande est le pendant de la commande [Draft Rétrograder](Draft_Downgrade/fr.md).
@@ -80,8 +82,5 @@ add_list5, delete_list5 = Draft.upgrade(face, delete=False)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Upgrade/fr

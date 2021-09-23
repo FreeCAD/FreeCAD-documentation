@@ -1,7 +1,4 @@
 # FEM tutorial/ro
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -227,4 +224,7 @@ Am terminat acum cu fluxul de lucru de bază pentru [FEM Workbench](FEM_Workbenc
 
 {{Tutorials navi
 
-}} {{FEM Tools navi}} 
+}} {{FEM Tools navi}}
+
+---
+[documentation index](../README.md) > FEM tutorial/ro

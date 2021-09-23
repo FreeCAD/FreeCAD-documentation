@@ -1,3 +1,4 @@
+# PartDesign Thickness/ro
 ---
 - GuiCommand:   Name:PartDesign Thickness   Workbenches:[MenuLocation:Part Design → Thickness   Shortcut:None   SeeAlso:[[Part_Thickness|Part Thickness](PartDesign_Workbench___PartDesign]].md)---
 
@@ -97,4 +98,7 @@ Resultat: ![](images/Brga-spessore.png )
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Thickness/ro

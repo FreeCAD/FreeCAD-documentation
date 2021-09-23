@@ -1,3 +1,4 @@
+# Std Export/de
 ---
 - GuiCommand:/de
    Name:Std Export
@@ -50,3 +51,6 @@ Der **Std Export**-Befehl exportiert ausgewählte Objekte in ein anderes Dateifo
 }}  
 
 [Category:File\_Formats](Category:File_Formats.md)
+
+---
+[documentation index](../README.md) > [File_Formats](Category:File_Formats.md) > Std Export/de

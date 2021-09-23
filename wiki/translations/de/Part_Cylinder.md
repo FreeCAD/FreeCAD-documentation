@@ -6,6 +6,8 @@
    SeeAlso:[Part Grundkörper](Part_Primitives/de.md)
 ---
 
+# Part Cylinder/de
+
 ## Beschreibung
 
 Erstellt einen einfachen parametrischen Zylinder mit den Parametern Position, Winkel, Radius und Höhe.
@@ -45,10 +47,7 @@ The cylinder properties can later be edited, either in the [Property editor](Pro
 
 -    **First Angle**: Angle in first direction. <small>(v0.20)</small> 
 
--    **Second Angle**: Angle in second direction. <small>(v0.20)</small> 
+-    **Second Angle**: Angle in second direction. <small>(v0.20)</small>
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Cylinder/de

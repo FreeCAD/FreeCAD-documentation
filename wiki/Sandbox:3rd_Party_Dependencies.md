@@ -1,5 +1,5 @@
 # Sandbox:3rd Party Dependencies
-  qt5                                                      qt5-base
+qt5                                                      qt5-base
   -------------------------------------------------------- -------------------------------------------------------------
   <https://repology.org/badge/vertical-allrepos/qt5.svg>   <https://repology.org/badge/vertical-allrepos/qt5-base.svg>
 
@@ -74,3 +74,6 @@
 \[!\[Packaging status\](https://repology.org/badge/vertical-allrepos/graphviz.svg)\](https://repology.org/metapackage/graphviz-addons/versions)
 
 [Category:Sandbox](Category:Sandbox.md)
+
+---
+[documentation index](../README.md) > Sandbox:3rd Party Dependencies

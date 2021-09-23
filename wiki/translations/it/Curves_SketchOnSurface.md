@@ -5,6 +5,8 @@
    Workbenches:[Curves](Curves_Workbench.md)
 ---
 
+# Curves SketchOnSurface/it
+
 ## Descrizione
 
 This tool maps a sketch onto a face, like a label on a bottle. The sketch must be actually attached to a face (see Sketch.Support). The `Map` mode of the sketch has no effect on the result.
@@ -62,4 +64,7 @@ The blue construction lines of the sketch are part of the sketch even if they ar
 
 {{Curves Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > Curves SketchOnSurface/it

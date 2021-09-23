@@ -6,6 +6,8 @@
    Shortcut:**S** **B**
 ---
 
+# SheetMetal AddBend/en
+
 ## Description
 
 The <img alt="" src=images/SheetMetal_AddBend.svg  style="width:24px;"> **SheetMetal AddBend** command folds a wall at a chosen line.
@@ -42,3 +44,6 @@ A SheetMetal SolidBend object is derived from a [Part Feature](Part_Feature.md) 
 
 
 [Category:SheetMetal](Category:SheetMetal.md) [Category:Addons](Category:Addons.md) [Category:External Command Reference](Category:External_Command_Reference.md)
+
+---
+[documentation index](../README.md) > [SheetMetal](Category:SheetMetal.md) > SheetMetal AddBend/en

@@ -1,7 +1,4 @@
 # Washers
-
-
-
 ## Some way to create a washer 
 
 Comparison of some workflows to create a simple washer with FreeCAD. You can create many other workflows.
@@ -20,3 +17,6 @@ Using Draft ![](images/washerDraft1a.png )
 ![washer6a.png](images/washer6a.png )
 
 [Category:Tutorials](Category:Tutorials.md)
+
+---
+[documentation index](../README.md) > Washers

@@ -8,6 +8,8 @@
    SeeAlso:[TechDraw Ligne centrale à une surface](TechDraw_FaceCenterLine/fr.md), [TechDraw Ligne centrale entre 2 sommets](TechDraw_2PointCenterLine.md)
 ---
 
+# TechDraw 2LineCenterLine/fr
+
 ## Description
 
 L\'outil Ligne centrale entre 2 lignes ajoute une ligne centrale entre deux arêtes.
@@ -71,4 +73,7 @@ Les lignes centrales ne sont pas accessibles à partir des [macros](Macros/fr.md
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw 2LineCenterLine/fr

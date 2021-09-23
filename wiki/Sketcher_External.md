@@ -7,6 +7,8 @@
    SeeAlso:[Sketcher ConstructionMode](Sketcher_ToggleConstruction.md)
 ---
 
+# Sketcher External
+
 ## Description
 
 Use the **<img src="images/Sketcher_External.svg" width=16px> [External Geometry](Sketcher_External.md)** tool when you need to apply a constraint between sketch geometry and something outside of the sketch. It works by inserting a linked construction geometry into the sketch. The default colour of externally linked edges is magenta. As with standard non-linked construction geometry (blue), the externally linked geometry is only visible when the sketch is in edit mode and is not directly used in the subsequent result from use of the sketch in another tool. Both types of construction geometry may be used as a reference for constraints within the sketch.
@@ -73,4 +75,7 @@ When the sketch edit mode is closed, external Geometry lines are not visible.
 
 
 
- {{Sketcher Tools navi}}  
+ {{Sketcher Tools navi}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher External

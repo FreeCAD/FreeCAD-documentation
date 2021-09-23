@@ -1,10 +1,4 @@
-# FEM Workbench/ru
-
-
-
-
-
-<img alt="Логотип верстака FEM" src=images/Workbench_FEM.svg  style="width:128px;">
+# <img alt="Логотип верстака FEM" src=images/Workbench_FEM.svg  style="width:64px;"> FEM Workbench/ru
 
 
 {{TOCright}}
@@ -279,3 +273,6 @@ Many video tutorials: [anisim Open Source Engineering Software](https://www.yout
 }} 
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > FEM Workbench/ru

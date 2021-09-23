@@ -7,6 +7,8 @@
    SeeAlso:[Sezioni](Mesh_CrossSections/it.md)
 ---
 
+# Mesh SectionByPlane/it
+
 ## Descrizione
 
 Il comando **Sezione da mesh e piano** crea una sezione trasversale attraverso un oggetto mesh. La sezione trasversale è una [Part Feature](Part_Feature/it.md).
@@ -38,4 +40,7 @@ Vedere: [Funzioni Part](Part_Feature/it.md).
 
 {{Mesh Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh SectionByPlane/it

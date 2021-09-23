@@ -7,6 +7,8 @@
    SeeAlso:[Std Imprimer](Std_Print/fr.md)
 ---
 
+# Std PrintPreview/fr
+
 ## Description
 
 La commande **Std Aperçu avant impression** affichera un aperçu du résultat de la commande [Std Imprimer](Std_Print/fr.md). Vous pouvez également imprimer directement à partir de la boîte de dialogue d\'aperçu.
@@ -28,4 +30,7 @@ La commande **Std Aperçu avant impression** affichera un aperçu du résultat d
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std PrintPreview/fr

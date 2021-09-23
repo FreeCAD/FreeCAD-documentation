@@ -1,10 +1,4 @@
 # Create a FeaturePython object part I/fr
-
-
-
-
-
-
 {{TOCright}}
 
 ## Introduction
@@ -389,3 +383,6 @@ class box():
 }} 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Create a FeaturePython object part I/fr

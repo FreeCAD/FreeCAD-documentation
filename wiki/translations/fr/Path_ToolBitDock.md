@@ -9,6 +9,8 @@
    SeeAlso:[Path Gestionnaire d'outils](Path_ToolBitLibraryOpen/fr.md), [Path Tools](Path_Tools/fr.md), [Path ToolBit](Path_ToolBit/fr.md)
 ---
 
+# Path ToolBitDock/fr
+
 ## Description
 
 ![](images/Toolbit_Dock.png )
@@ -45,4 +47,7 @@ Un bouton de gestion en haut à droite (4) permet à l\'utilisateur de lancer le
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path ToolBitDock/fr

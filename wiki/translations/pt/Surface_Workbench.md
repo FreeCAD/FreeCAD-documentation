@@ -1,10 +1,4 @@
-# Surface Workbench/pt
-
-
-
-
-
-<img alt="Surface workbench icon" src=images/Workbench_Surface.svg  style="width:128px;">
+# <img alt="Surface workbench icon" src=images/Workbench_Surface.svg  style="width:64px;"> Surface Workbench/pt
 
 
 {{TOCright}}
@@ -57,3 +51,6 @@ The generated surface cannot be placed inside a **<img src=images/PartDesign_Bod
 }} 
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Surface Workbench/pt

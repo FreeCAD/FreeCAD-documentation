@@ -1,5 +1,5 @@
 # Macro BoundingBox Tracing/ru
- {{Macro
+{{Macro
 |Name=Macro BoundingBox Tracing
 |Icon=BoundBoxTracing.png
 |Description=Creates a red outline of the BoundingBox (6 Faces with 6 rectangles) of an object, display the dimension of the rectangle, create volume of boundBox.
@@ -461,3 +461,6 @@ ver 0.6 le 08/08/2017: add text info dimension , contener for rectangles, info r
 ver 0.5 le 08/05/2017 : upgrade now accept the \"mesh\" and \"Points\" thanks wmayer [Makro Bounding-Box für STL importierte Teile und für Punktewolken](http://forum.freecadweb.org/viewtopic.php?f=13&t=22331)
 
 ver 0.4 le 04/06/2016 : test if value = 0 then not create boundbox (ex: object Draft)
+
+---
+[documentation index](../README.md) > Macro BoundingBox Tracing/ru

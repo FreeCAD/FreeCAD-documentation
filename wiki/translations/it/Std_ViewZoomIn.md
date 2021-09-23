@@ -8,6 +8,8 @@
    SeeAlso:[Riduci](Std_ViewZoomOut/it.md), [Finestra di ingrandimento](Std_ViewBoxZoom/it.md)
 ---
 
+# Std ViewZoomIn/it
+
 ## Descrizione
 
 Il comando **Std ViewZoomIn** ingrandisce la [vista 3D](3D_view/it.md) attiva.
@@ -61,4 +63,7 @@ FreeCADGui.ActiveDocument.ActiveView.zoomIn()
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ViewZoomIn/it

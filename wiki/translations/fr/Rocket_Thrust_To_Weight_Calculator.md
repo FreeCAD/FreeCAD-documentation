@@ -8,6 +8,8 @@
    Version:0.19
 ---
 
+# Rocket Thrust To Weight Calculator/fr
+
 ## Description
 
 Ce simple calculateur détermine la poussée moyenne minimale requise pour maintenir un rapport poussée/poids de 5:1.
@@ -46,3 +48,6 @@ Les calculs sont effectués en unités métriques, mais s\'affichent dans les un
 
 
 [Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+
+---
+[documentation index](../README.md) > [Addons](Category:Addons.md) > Rocket Thrust To Weight Calculator/fr

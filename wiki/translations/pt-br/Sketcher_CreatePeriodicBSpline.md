@@ -7,6 +7,8 @@
    SeeAlso:[Sketcher B-spline](Sketcher_CreateBSpline.md)
 ---
 
+# Sketcher CreatePeriodicBSpline/pt-br
+
 ## Description
 
 This tool traces a periodic (closed) B-spline curve from its control points. (See [this page](B-Splines.md) for more info about B-splines.)
@@ -39,4 +41,7 @@ This tool traces a periodic (closed) B-spline curve from its control points. (Se
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreatePeriodicBSpline/pt-br

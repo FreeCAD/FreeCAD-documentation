@@ -7,6 +7,8 @@
    SeeAlso:[Std Positionnement](Std_Placement/fr.md)
 ---
 
+# Std Alignment/fr
+
 ## Description
 
 La commande **Std Alignement** aligne un objet par rapport à un objet de référence fixe en utilisant une ou plusieurs paires de points.
@@ -37,4 +39,7 @@ Les options supplémentaires suivantes sont disponibles dans le menu contextuel 
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std Alignment/fr

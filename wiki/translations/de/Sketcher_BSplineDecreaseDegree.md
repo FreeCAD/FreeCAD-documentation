@@ -8,6 +8,8 @@
    SeeAlso:[Skizzierer B-Spline-Grad ein-/ausblenden](Sketcher_BSplineDegree/de.md), [Skizzierer B-Spline Grad erhöhen](Sketcher_BSplineIncreaseDegree/de.md)
 ---
 
+# Sketcher BSplineDecreaseDegree/de
+
 
 </div>
 
@@ -45,4 +47,7 @@ If you take this result and increase the degree, you cannot get the initial stat
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineDecreaseDegree/de

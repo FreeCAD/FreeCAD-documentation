@@ -1,5 +1,5 @@
 # Combo view/de
- {{TOCright}}
+{{TOCright}}
 
 ## Einführung
 
@@ -54,4 +54,7 @@ Aktiviere dann die Ansicht über das Menü {{MenuCommand/de|Ansicht → Paneele 
 
 {{Std Base navi
 
-}} {{Interface navi}} 
+}} {{Interface navi}}
+
+---
+[documentation index](../README.md) > Combo view/de

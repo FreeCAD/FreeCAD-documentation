@@ -8,6 +8,8 @@
    SeeAlso:[Part Trancher](Part_Slice/fr.md), [Part OU exclusif](Part_XOR/fr.md), [Part Joindre](Part_CompJoinFeatures/fr.md), [Part Opérations booléennes](Part_Boolean/fr.md)
 ---
 
+# Part BooleanFragments/fr
+
 ## Description
 
 Outil permettant de calculer tous les fragments pouvant résulter de l\'application d\'opérations booléennes entre des formes d\'entrée. Par exemple, pour deux sphères entrecroisées, trois solides non chevauchants mais touchants sont générés.
@@ -86,8 +88,5 @@ L\'outil lui-même est implémenté en Python, voir /Mod/Part/BOPTools/SplitFeat
 
 L\'outil a été introduit dans FreeCAD v0.17.8053. FreeCAD doit être compilé avec OCC 6.9.0 ou version ultérieure, sinon l\'outil n\'est pas disponible.
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part BooleanFragments/fr

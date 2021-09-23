@@ -1,3 +1,4 @@
+# Ship Area/ru
 ---
 - GuiCommand:/ru
    Name:Ship Area
@@ -29,4 +30,7 @@ Plot the transversal areas curve
 
 {{Ship_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > Ship Area/ru

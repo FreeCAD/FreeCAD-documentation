@@ -6,6 +6,8 @@
    SeeAlso:[Part Primitives](Part_Primitives.md)
 ---
 
+# Part Helix/pl
+
 ## Description
 
 The **<img src=images/Part_Helix.svg style="width:16px"> [Part Helix](Part_Helix.md)** geometric primitive creates a helix shape, defined by a radius, a pitch, and a total height.
@@ -61,8 +63,5 @@ Once you have created the helix you have the possibility to edit its parameters.
 |                                                          |                                                                               |
 +----------------------------------------------------------+----------------------------------------------------------------------------------+
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Helix/pl

@@ -6,6 +6,8 @@
    SeeAlso:[Sketcher Map sketch](Sketcher_MapSketch.md), [Sketcher New Sketch](Sketcher_NewSketch.md)
 ---
 
+# Sketcher ReorientSketch
+
 ## Description
 
 Allows you to detach a sketch from a face and attach it to one of the main planes (with an offset).
@@ -27,4 +29,7 @@ Allows you to detach a sketch from a face and attach it to one of the main plane
 
 
 
- {{Sketcher Tools navi}}  
+ {{Sketcher Tools navi}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ReorientSketch

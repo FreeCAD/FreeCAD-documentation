@@ -1,5 +1,5 @@
 # The FreeCAD source code/fr
- Le [FreeCAD source code](https://github.com/FreeCAD/FreeCAD) est géré avec git et est public, ouvert et disponible sous la [licence LGPL](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License). Il peut être copié, téléchargé, lu, analysé, redistribué et modifié par n\'importe qui. Si vous prévoyez d\'apporter des modifications que vous souhaitez voir incluses dans le code officiel lui-même, n\'oubliez pas que vos modifications devront être approuvées par les développeurs de FreeCAD, il est donc sage de discuter d\'abord de vos intentions et de vos idées sur le [forum](http://forum.freecadweb.org), pour éviter le risque de voir vos modifications rejetées pour une raison que vous n\'aviez pas prévue.
+Le [FreeCAD source code](https://github.com/FreeCAD/FreeCAD) est géré avec git et est public, ouvert et disponible sous la [licence LGPL](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License). Il peut être copié, téléchargé, lu, analysé, redistribué et modifié par n\'importe qui. Si vous prévoyez d\'apporter des modifications que vous souhaitez voir incluses dans le code officiel lui-même, n\'oubliez pas que vos modifications devront être approuvées par les développeurs de FreeCAD, il est donc sage de discuter d\'abord de vos intentions et de vos idées sur le [forum](http://forum.freecadweb.org), pour éviter le risque de voir vos modifications rejetées pour une raison que vous n\'aviez pas prévue.
 
 Vous trouverez ci-dessous quelques indices et informations utiles pour vous mettre sur les rails si vous souhaitez explorer le code FreeCAD.
 
@@ -33,3 +33,6 @@ Vous trouverez ci-dessous quelques indices et informations utiles pour vous mett
 -   [FCStd](File_Format_FCStd/fr.md) - le format de fichier FreeCAD
 
 [Category:Developer Documentation](Category:Developer_Documentation.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > The FreeCAD source code/fr

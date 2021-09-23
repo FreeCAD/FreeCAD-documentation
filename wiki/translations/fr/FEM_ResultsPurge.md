@@ -8,6 +8,8 @@
    SeeAlso:[Tutoriel FEM](FEM_tutorial/fr.md)
 ---
 
+# FEM ResultsPurge/fr
+
 ## Description
 
 Supprime tous les objets résultats du conteneur d\'analyse actif dans la [Vue en arborescence](Tree_view/fr.md).
@@ -27,4 +29,7 @@ A faire : Ajouter une capture d\'écran avant et après
 
 {{FEM Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > FEM ResultsPurge/fr

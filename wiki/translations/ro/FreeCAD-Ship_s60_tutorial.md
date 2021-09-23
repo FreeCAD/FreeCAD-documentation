@@ -1,7 +1,4 @@
 # FreeCAD-Ship s60 tutorial/ro
-
-
-
 {{TutorialInfo/ro
 |Topic=Ship Workbench
 |Level=Beginner
@@ -466,3 +463,6 @@ The [FreeCAD Ship s60 tutorial (II)](FreeCAD-Ship_s60_tutorial_(II).md) is the s
 {{Ship Tools navi
 
 }}
+
+---
+[documentation index](../README.md) > FreeCAD-Ship s60 tutorial/ro

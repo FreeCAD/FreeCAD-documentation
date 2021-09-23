@@ -8,6 +8,8 @@
    SeeAlso:["Создать деталь"](Std_Part/ru.md), ["Создать группу"](Std_Group/ru.md), ["PartDesign Body"](PartDesign_Body/ru.md)
 ---
 
+# Std LinkMake/ru
+
 ## Описание
 
 
@@ -380,4 +382,7 @@ Other miscellaneous \"links\" about Link include:
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std LinkMake/ru

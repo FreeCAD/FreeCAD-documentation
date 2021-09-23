@@ -8,6 +8,8 @@
    SeeAlso:[Kieszeń](PartDesign_Pocket/pl.md)
 ---
 
+# PartDesign Hole/pl
+
 ## Opis
 
 Funkcja **Otwór** tworzy jeden lub więcej otworów z okręgów wybranego szkicu. Jeśli są obecne łuki, muszą one być częścią zamkniętych konturów. Wszystkie elementy nie będące łukami/kolami są ignorowane, ale nadal muszą tworzyć zamknięte kontury. Można ustawić wiele parametrów, takich jak gwintowanie i rozmiar, pasowanie, typ otworu *(pogłębienie stożkowe, pogłębienie walcowe, lub bez pogłębiania)* i inne.
@@ -108,4 +110,7 @@ Przykład: {{Code|lang=json|code=
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Hole/pl

@@ -7,6 +7,8 @@
    SeeAlso:[PartDesign Congé](PartDesign_Fillet/fr.md), [Part Chanfrein](Part_Chamfer/fr.md)
 ---
 
+# PartDesign Chamfer/fr
+
 ## Description
 
 Cet outil crée des chanfreins sur les arêtes sélectionnées d\'un objet. Une nouvelle entrée distincte de chanfrein (suivie d\'un numéro consécutif s\'il existe déjà des chanfreins dans le document) est créée dans l\'arborescence du projet.
@@ -36,4 +38,7 @@ Cet outil crée des chanfreins sur les arêtes sélectionnées d\'un objet. Une 
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Chamfer/fr

@@ -8,6 +8,8 @@
    SeeAlso:[Reinforcement](Reinforcement_Workbench.md), [Arch Armature personnalisée](Arch_Rebar/fr.md), [Arch Rebar Armature en étrier](Arch_Rebar_Stirrup/fr.md), [Arch Rebar Armature en colonnes](Arch_Rebar_ColumnReinforcement/fr.md)
 ---
 
+# Arch Rebar Helical/fr
+
 ## Description
 
 L\'outil [Armature hélicoïdale](Arch_Rebar_Helical/fr.md) permet à l\'utilisateur de créer une armature hélicoïdale continue dans l\'élément structurel [Arch Structure](Arch_Structure/fr.md).
@@ -126,3 +128,6 @@ HelicalRebar.editHelicalRebar(Rebar, 20, 100, 20, 20, 100)
  
 
 [Category:Reinforcement](Category:Reinforcement.md)
+
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Rebar Helical/fr

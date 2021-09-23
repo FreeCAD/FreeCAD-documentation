@@ -7,6 +7,8 @@
    Shortcut:   SeeAlso:[Draft AddToGroup](Draft_AddToGroup/cs.md), [Std CreateGroup](Std_Group/cs.md)
 ---
 
+# Draft SelectGroup/cs
+
 
 </div>
 
@@ -42,8 +44,5 @@ The command currently does not work well with layers and can produce confusing r
 
 -   For more information about organizing your model see [Document structure](Document_structure.md) and [Arch tutorial](Arch_tutorial#Organizing_your_model.md).
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft SelectGroup/cs

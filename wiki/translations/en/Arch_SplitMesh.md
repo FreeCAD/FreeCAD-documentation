@@ -6,6 +6,8 @@
    SeeAlso:[Arch SelectNonSolidMeshes](Arch_SelectNonSolidMeshes.md), [Arch MeshToShape](Arch_MeshToShape.md)
 ---
 
+# Arch SplitMesh/en
+
 ## Description
 
 This tool splits a selected [Mesh](Mesh_Workbench.md) object into its separate components
@@ -55,11 +57,5 @@ mesh_obj.ViewObject.DisplayMode = "Flat Lines"
 new_list = Arch.splitMesh(mesh_obj)
 ```
 
-
-
-
-
-
-
-
-
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SplitMesh/en

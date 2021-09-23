@@ -6,6 +6,8 @@
    SeeAlso:
 ---
 
+# Robot CreateTrajectory/en
+
 ## Description
 
 Inserts a new empty trajectory-object into the scene.
@@ -22,4 +24,7 @@ Click on <img alt="" src=images/Robot_CreateTrajectory.svg  style="width:32px;">
 
 {{Robot_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot CreateTrajectory/en

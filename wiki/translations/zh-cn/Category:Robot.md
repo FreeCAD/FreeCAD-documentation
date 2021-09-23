@@ -6,3 +6,6 @@ This category lists pages related to the [Robot Workbench/zh-cn](Robot_Workbench
 [Template:Robot Tools navi/zh-cn](Template:Robot_Tools_navi/zh-cn.md) , [Robot Workbench/zh-cn](Robot_Workbench/zh-cn.md)
 
 [Category:Workbenches/zh-cn](Category:Workbenches/zh-cn.md)
+
+---
+[documentation index](../README.md) > Category:Robot/zh-cn

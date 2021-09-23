@@ -8,6 +8,8 @@
    SeeAlso:[Part Extrusion](Part_Extrude/fr.md)
 ---
 
+# Draft Trimex/fr
+
 ## Description
 
 La commande <img alt="" src=images/Draft_Trimex.svg  style="width:24px;"> **Draft Ajuster ou prolonger** [Ajuste ou prolonge](#Ajuste_ou_prolonge.md) un objet sélectionné. Les intersections avec le bord d\'un autre objet peuvent être utilisées pour déterminer de nouveaux points d\'extrémité. La commande peut également être utilisée pour une [extrusion](#Extrusion.md) d\'une face, auquel cas elle crée un objet [Part Extrusion](Part_Extrude/fr.md).
@@ -118,8 +120,5 @@ solid = Draft.extrude(rectangle, vector, solid=True)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Trimex/fr

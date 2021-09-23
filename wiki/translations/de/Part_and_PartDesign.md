@@ -1,5 +1,5 @@
 # Part and PartDesign/de
- {{TOCright}}
+{{TOCright}}
 
 ## Übersicht
 
@@ -172,4 +172,7 @@ Die Arbeitsbereiche Part und PartDesign können mit etwas Vorsicht zusammen verw
 
 {{Tutorials navi
 
-}}  {{PartDesign Tools navi}} {{Sketcher Tools navi}} 
+}}  {{PartDesign Tools navi}} {{Sketcher Tools navi}}
+
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part and PartDesign/de

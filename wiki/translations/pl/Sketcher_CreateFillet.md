@@ -7,6 +7,8 @@
    Shortcut:**F**
 ---
 
+# Sketcher CreateFillet/pl
+
 ## Opis
 
 To narzędzie tworzy zaokrąglenie pomiędzy dwoma liniami połączonymi w jednym punkcie. Aktywuj narzędzie, a następnie wybierz obie linie lub kliknij na punkt narożny.
@@ -27,4 +29,7 @@ Po uruchomieniu narzędzia zaznaczenia są usuwane, a kursor myszki zmienia się
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateFillet/pl

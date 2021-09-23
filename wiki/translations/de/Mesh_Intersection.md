@@ -1,3 +1,4 @@
+# Mesh Intersection/de
 ---
 - GuiCommand:/de   Name:Mesh Intersection‏‎   MenuLocation:Meshes → Boolean → Intersection   Workbenches:[[Mesh Workbench   Mesh]]|Shortcut:   SeeAlso:---
 
@@ -57,4 +58,7 @@ See: [Mesh Feature](Mesh_Feature.md).
 
 {{Mesh Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Intersection/de

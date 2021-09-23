@@ -1,10 +1,4 @@
 # Getting started/cs
-
-
-
-
-
-
 {{TOCright}}
 
 ## Předmluva
@@ -345,3 +339,6 @@ A nakonec jedna z nejmocnějších vlastností FreeCADu je prostředí pro [skri
 
 
 [Category:User Documentation/cs](Category:User_Documentation/cs.md)
+
+---
+[documentation index](../README.md) > Getting started/cs

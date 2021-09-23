@@ -7,6 +7,8 @@
    SeeAlso:[Std ShowSelection](Std_ShowSelection.md), [Std HideSelection](Std_HideSelection.md), [Std ToggleObjects](Std_ToggleObjects.md), [Std ShowObjects](Std_ShowObjects.md), [Std HideObjects](Std_HideObjects.md)
 ---
 
+# Std ToggleVisibility/pl
+
 ## Description
 
 The **Std ToggleVisibility** command toggles the visibility of selected objects in [3D views](3D_view.md).
@@ -59,4 +61,7 @@ else:
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ToggleVisibility/pl

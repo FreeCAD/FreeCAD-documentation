@@ -1,10 +1,4 @@
 # Interface Customization/es
-
-
-
-
-
-
 {{TOCright}}
 
 ## Introducción
@@ -285,4 +279,7 @@ Los complementos ofrecen otra forma de personalizar la interfaz de uso. A contin
 
 {{Std Base navi
 
-}} {{Interface navi}} 
+}} {{Interface navi}}
+
+---
+[documentation index](../README.md) > Interface Customization/es

@@ -7,6 +7,8 @@
    SeeAlso:[Sketcher Constrain horizontal distance](Sketcher_ConstrainDistanceX.md), [Sketcher Constrain vertical distance](Sketcher_ConstrainDistanceY.md)
 ---
 
+# Sketcher ConstrainDistance
+
 ## Description
 
 **Constrain distance** constrains the length of a line, the perpendicular distance between a point and a line or the distance between two points to have a specified value.
@@ -51,4 +53,7 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 
 
- {{Sketcher Tools navi}} 
+ {{Sketcher Tools navi}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainDistance

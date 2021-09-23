@@ -8,6 +8,8 @@
    SeeAlso:[Sketcher Продлить](Sketcher_Extend/ru.md)
 ---
 
+# Sketcher Trimming/ru
+
 ## Описание
 
 Этот инструмент обрезает ребро до ближайшего пересечения с другим ребром.
@@ -37,4 +39,7 @@
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Trimming/ru

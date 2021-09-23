@@ -1,7 +1,4 @@
 # Path Walkthrough for the Impatient/it
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -323,4 +320,7 @@ Il passaggio finale per generare il G-Code per la fresatura è di postelaborare 
 
 {{Tutorials navi
 
-}} {{Path Tools navi}} 
+}} {{Path Tools navi}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Walkthrough for the Impatient/it

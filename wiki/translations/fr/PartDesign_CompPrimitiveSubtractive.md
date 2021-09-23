@@ -8,6 +8,8 @@
    SeeAlso:[PartDesign Primitives additives](PartDesign_CompPrimitiveAdditive/fr.md)
 ---
 
+# PartDesign CompPrimitiveSubtractive/fr
+
 ## Description
 
 Crée une primitive soustractive dans le corps actif, en soustrayant sa forme du solide existant.
@@ -29,4 +31,7 @@ Crée une primitive soustractive dans le corps actif, en soustrayant sa forme du
 
 {{PartDesign Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign CompPrimitiveSubtractive/fr

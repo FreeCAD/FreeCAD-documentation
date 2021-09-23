@@ -1,7 +1,4 @@
 # Arch IFC/pl
- 
-
-
 {{TOCright}}
 
 ## Opis
@@ -75,3 +72,6 @@ Jeśli kształt eksportowanych obiektów opiera się na wyciskaniu lub operacji 
  
 
 [Category:File Formats](Category:File_Formats.md)
+
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch IFC/pl

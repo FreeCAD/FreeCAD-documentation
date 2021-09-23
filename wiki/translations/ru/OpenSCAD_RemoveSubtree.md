@@ -8,6 +8,8 @@
    SeeAlso:---
 ---
 
+# OpenSCAD RemoveSubtree/ru
+
 
 </div>
 
@@ -30,4 +32,7 @@ Removes the selected objects and all children that are not referenced from other
 
 {{OpenSCAD_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD RemoveSubtree/ru

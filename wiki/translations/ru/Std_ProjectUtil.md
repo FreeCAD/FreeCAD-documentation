@@ -5,6 +5,8 @@
    Workbenches:All
 ---
 
+# Std ProjectUtil/ru
+
 ## Описание
 
 With the **Std ProjectUtil** command you can extract files from a FreeCAD project file ({{FileName|*.FCStd}}), which is in fact a [ZIP](https://en.wikipedia.org/wiki/Zip_(file_format)) file, and, after manual edits, create a new project file from them.
@@ -51,4 +53,7 @@ It is important to realize that the files inside a FreeCAD project file are inte
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ProjectUtil/ru

@@ -8,6 +8,8 @@
    SeeAlso:[Изменить внешний вид линий](TechDraw_DecorateLine/ru.md)
 ---
 
+# TechDraw ShowAll/ru
+
 ## Описание
 
 The ShowAll tool shows or hide invisible lines in a View. Note that \"invisible\" is a cosmetic state, not to be confused with hidden lines which are geometric constructs.
@@ -43,4 +45,7 @@ The effect of the ShowAll tool can be duplicated in [macros](Macros.md) or the [
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ShowAll/ru

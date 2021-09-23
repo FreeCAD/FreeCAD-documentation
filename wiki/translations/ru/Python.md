@@ -1,7 +1,4 @@
 # Python/ru
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -136,3 +133,6 @@ Structure = Arch.make_structure(Wire, name="Big pillar")
 }}
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:API Documentation](Category:API_Documentation.md) [Category:Python Code](Category:Python_Code.md) [Category:Glossary](Category:Glossary.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Python/ru

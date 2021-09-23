@@ -1,10 +1,4 @@
 # PartDesign Preferences/ru
-
-
-
-
-
-
 {{TOCright}}
 
 ## Введение
@@ -122,3 +116,6 @@ Right click on **Mesh deviation** choose in the context menu **Change value**. S
 }} 
 
 [Category:Preferences](Category:Preferences.md)
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Preferences/ru

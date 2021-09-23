@@ -8,6 +8,8 @@
 SeeAlso=
 ---
 
+# Ship Hydrostatics/de
+
 
 <div class="mw-translate-fuzzy">
 
@@ -41,4 +43,7 @@ When the Hydrostatics tool is executed, a task dialog is shown. Usually Hydrosta
 
 {{Ship_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > Ship Hydrostatics/de

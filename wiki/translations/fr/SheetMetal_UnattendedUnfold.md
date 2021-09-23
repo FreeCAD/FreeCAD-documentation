@@ -8,6 +8,8 @@
    SeeAlso:[SheetMetal Déplier](SheetMetal_Unfold/fr.md)
 ---
 
+# SheetMetal UnattendedUnfold/fr
+
 ## Description
 
 La commande <img alt="" src=images/SheetMetal_UnattendedUnfold.svg  style="width:24px;"> [Unattended Unfold](SheetMetal_UnattendedUnfold/fr.md) déplie un objet en tôle.
@@ -53,3 +55,6 @@ Voir <img alt="" src=images/SheetMetal_Unfold.svg  style="width:16px;"> [Déplie
 
 
 [Category:SheetMetal](Category:SheetMetal.md) [Category:Addons](Category:Addons.md) [Category:External Command Reference](Category:External_Command_Reference.md)
+
+---
+[documentation index](../README.md) > [SheetMetal](Category:SheetMetal.md) > SheetMetal UnattendedUnfold/fr

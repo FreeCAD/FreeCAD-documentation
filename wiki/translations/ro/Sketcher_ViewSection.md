@@ -7,6 +7,8 @@
    Version:0.18
 ---
 
+# Sketcher ViewSection/ro
+
 
 </div>
 
@@ -39,4 +41,7 @@ Instrumentul **View section** creează un plan de secțiune care ascunde tempora
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ViewSection/ro

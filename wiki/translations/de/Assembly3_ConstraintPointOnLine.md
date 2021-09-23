@@ -6,6 +6,8 @@
    Workbenches:[Assembly3](Assembly3_Workbench/de.md)
 ---
 
+# Assembly3 ConstraintPointOnLine/de
+
 ## Beschreibung
 
 Dieses Werkzeug stellt eine Verbindung zwischen zwei Objekten eines Zusammenbaus her und fixiert den Abstand zwischen ihnen sowie ihre Ausrichtung zueinander. Die Gewählten Elemente beider Objekte oder präziser ihre lokalen Koordinatensysteme (LKS) werden genutzt, um ein Objekt zum anderen zu positionieren.
@@ -22,8 +24,5 @@ Im Bezug auf das erste Element, kann sich das folgende Objekt noch entlang der Z
 2.  Ein Punktelement des einen und ein gerades Kantenelement des anderen Objekts auswählen.
 3.  Schaltfläche**<img src="images/Assembly_ConstraintPointOnLine.svg" width=16px> [Punkt auf Line](Assembly3_ConstraintPointOnLine/de.md)** drücken.
 
-
-
-
-
-
+---
+[documentation index](../README.md) > Assembly3 ConstraintPointOnLine/de

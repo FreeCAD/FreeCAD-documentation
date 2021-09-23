@@ -1,5 +1,5 @@
 # Macro Build Utility/fr
- {{Macro/fr
+{{Macro/fr
 |Name=Macro Build Utility
 |Description=Cette macro fournit un utilitaire de compilation permettant d'assembler plusieurs fichiers projets en un seul.
 |Author=Piffpoof
@@ -278,6 +278,5 @@ metal```
 ./externalModules/red/level3/yellow
 ```
 
-
-
-
+---
+[documentation index](../README.md) > Macro Build Utility/fr

@@ -6,6 +6,8 @@
    MenuLocation:Dibujo → Detener Operación
 ---
 
+# Sketcher StopOperation/es
+
 ## Descripción
 
 
@@ -25,4 +27,7 @@ Esto es similar a pulsar la tecla **Esc**.
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher StopOperation/es

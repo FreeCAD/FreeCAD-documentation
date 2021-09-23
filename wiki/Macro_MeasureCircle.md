@@ -1,5 +1,5 @@
 # Macro MeasureCircle
-  {{Macro
+{{Macro
 |Name=Macro MeasureCircle
 |Icon=Macro_MeasureCircle.png
 |Description=This macro will report the computed radius and center of a circle given 3 vertices or a circular edge.
@@ -33,6 +33,5 @@ ToolBar Icon ![](images/Macro_MeasureCircle.png )
 
 **Macro\_MeasureCircle.FCMacro**
 
-
-
-
+---
+[documentation index](../README.md) > Macro MeasureCircle

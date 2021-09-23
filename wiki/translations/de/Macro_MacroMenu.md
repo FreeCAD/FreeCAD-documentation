@@ -1,5 +1,5 @@
 # Macro MacroMenu/de
- {{Macro/de
+{{Macro/de
 |Name=Macro MacroMenu
 |Translate=Macro MacroMenu
 |Icon=Macro_MacroMenu.png
@@ -55,6 +55,5 @@ if macroPath and os.path.isdir(macroPath):
 
 }}
 
-
-
-
+---
+[documentation index](../README.md) > Macro MacroMenu/de

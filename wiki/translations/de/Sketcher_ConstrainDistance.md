@@ -8,6 +8,8 @@
    SeeAlso:[Horizontalen Abstand beschränken](Sketcher_ConstrainDistanceX/de.md), [Vertikalen Abstand beschränken](Sketcher_ConstrainDistanceY/de.md)
 ---
 
+# Sketcher ConstrainDistance/de
+
 ## Description
 
 
@@ -73,4 +75,7 @@ Die [Skizzierer Skripten](Sketcher_scripting.md)-Seite erklärt die Werte, die f
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainDistance/de

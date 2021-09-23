@@ -7,6 +7,8 @@
    SeeAlso:[[Arch Equipment]]
 ---
 
+# BIM Library/ro
+
 
 </div>
 
@@ -66,3 +68,6 @@ Instrumentul Bibliotecă vă permite să plasați, în modelul curent, un obiect
  
 
 [Category:BIM](Category:BIM.md)
+
+---
+[documentation index](../README.md) > [BIM](Category:BIM.md) > BIM Library/ro

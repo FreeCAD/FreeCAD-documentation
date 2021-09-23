@@ -8,6 +8,8 @@
    SeeAlso:[Dividi mesh](Arch_SplitMesh/it.md),[Da mesh a forma](Arch_MeshToShape/it.md)
 ---
 
+# Arch SelectNonSolidMeshes/it
+
 
 </div>
 
@@ -35,5 +37,5 @@ Questo strumento identifica e seleziona i mesh non-solido, non-[manifold](http:/
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SelectNonSolidMeshes/it

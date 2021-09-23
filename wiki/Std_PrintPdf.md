@@ -6,6 +6,8 @@
    SeeAlso:[Std Print](Std_Print.md), [Std Export](Std_Export.md), [Std ViewScreenShot](Std_ViewScreenShot.md)
 ---
 
+# Std PrintPdf
+
 ## Description
 
 The **Std PrintPdf** command is primarily intended to create [PDF](PDF.md) files from [TechDraw Workbench](TechDraw_Workbench.md) pages, but can also be used to create a PDF from what is currently visible in the [3D view](3D_View.md).
@@ -33,4 +35,7 @@ The **Std PrintPdf** command is primarily intended to create [PDF](PDF.md) files
 
 
 
- {{Std Base navi}}  
+ {{Std Base navi}}
+
+---
+[documentation index](../README.md) > Std PrintPdf

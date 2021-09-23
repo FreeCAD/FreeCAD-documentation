@@ -1,7 +1,4 @@
 # Path Walkthrough for the Impatient
- 
-
-
 {{TutorialInfo
 |Topic=Path Workbench
 |Level=Beginner/Moderate
@@ -159,4 +156,7 @@ The final step to generate G-Code for the target mill is to postprocess the Job.
 
 {{Tutorials navi
 
-}} {{Path Tools navi}} 
+}} {{Path Tools navi}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Walkthrough for the Impatient

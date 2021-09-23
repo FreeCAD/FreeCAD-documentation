@@ -1,7 +1,4 @@
 # FEM CalculiX Cantilever 3D/it
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -235,4 +232,7 @@ Questo esempio ha lo scopo di mostrare come appare una semplice analisi degli el
 
 {{Tutorials navi
 
-}} {{FEM Tools navi}} 
+}} {{FEM Tools navi}}
+
+---
+[documentation index](../README.md) > FEM CalculiX Cantilever 3D/it

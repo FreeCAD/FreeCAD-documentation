@@ -1,3 +1,4 @@
+# TechDraw Image/it
 ---
 - GuiCommand:/it   Name:TechDraw Image   Name/it:Immagine bitmap   Workbenches:[MenuLocation:TechDraw → Immagine bitmap   Shortcut:   SeeAlso:[[TechDraw Symbol/it|Simbolo SVG](TechDraw_Workbench/it___TechDraw]].md)---
 
@@ -68,4 +69,7 @@ dvi.Width  = 200
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Image/it

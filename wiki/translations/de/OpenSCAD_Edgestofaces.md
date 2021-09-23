@@ -6,6 +6,8 @@
    SeeAlso:[Draft Hochstufen](Draft_Upgrade/de.md)
 ---
 
+# OpenSCAD Edgestofaces/de
+
 ## Beschreibung
 
 Wandelt Kanten in Flächen um. Nützlich, um importierte DXF-Geometrien für die Extrusion vorzubereiten.
@@ -27,4 +29,7 @@ Lies auch <img alt="Draft\_Upgrade" src=images/Draft_Upgrade.svg  style="width:2
 
 {{OpenSCAD_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD Edgestofaces/de

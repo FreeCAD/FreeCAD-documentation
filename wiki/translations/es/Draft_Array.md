@@ -8,6 +8,8 @@
 ]], [Borrador ArregloCircular](Draft_CircularArray/es.md), [Borrador ArregloTrayectorias](Draft_PathArray/es.md), [Borrador ArregloPuntos](Draft_PointArray/es.md), [Borrador Clon](Draft_Clone/es.md)
 ---
 
+# Draft Array/es
+
 
 </div>
 
@@ -56,5 +58,5 @@ See [Draft OrthoArray](Draft_OrthoArray#Scripting.md).
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Array/es

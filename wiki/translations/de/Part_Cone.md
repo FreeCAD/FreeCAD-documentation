@@ -7,6 +7,8 @@
    SeeAlso:[Part Grundkörper](Part_Primitives/de.md)
 ---
 
+# Part Cone/de
+
 ## Beschreibung
 
 Ein parametrischer abgeschnittener Part Kegelgrundkörper ist im Part Arbeitsbereich über die Part Werkzeugleiste, das Part Menü (Untermenü Grundkörper) und das Grundkörper erstellen Dialogfeld verfügbar.
@@ -35,8 +37,5 @@ Die Kegeleigenschaften können später geändert werden, entweder im [Eigenschaf
 
 -    **Winkel**: die Anzahl der Grad des Bogens oder der Kreise, die die obere und untere Fläche des Kegelstumpfes definieren. Der Standardwert 360 erzeugt kreisförmige Flächen, ein niedrigerer Wert erzeugt einen Teil eines Kegels, der durch obere und untere Flächen definiert ist, deren Kanten jeweils durch einen Bogen mit der Anzahl der Grad und zwei Radien definiert sind.
 
-
-
-
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Cone/de

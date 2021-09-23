@@ -1,5 +1,5 @@
 # Macro SketchUnmap
-  {{Macro
+{{Macro
 |Name=SketchUnmap
 |Description=This macro resets a sketch placement to an absolute one, eventually creating a datum plane.<br />This macro has been written mainly to circumvent Topological Naming Issue that can break a model when a sketch has been directly or indirectly attached to a face or any other topological item.<br />
 To prevent breakage, macro shall be applied when the model is still right. It can't "repair" a broken model. If you just break your model, undo the last change(s) back to a good situation, apply the macro to the unstable sketch(es) then redo the previous operation. 
@@ -200,4 +200,5 @@ else:
 
 For any feedback (bug, feature request, comments, \...), please use this forum thread : [(FR) macro to remap sketch to different reference](https://forum.freecadweb.org/viewtopic.php?f=22&t=36078)
 
- 
+---
+[documentation index](../README.md) > Macro SketchUnmap

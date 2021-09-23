@@ -1,3 +1,4 @@
+# OpenSCAD AddOpenSCADElement/es
 ---
 - GuiCommand:/es   Name:OpenSCAD AddOpenSCADElement   Name/es:Añadir un elemento OpenSCAD   Workbenches:[[OpenSCAD_Workbench/es   OpenSCAD]]|MenuLocation:OpenSCAD -> Añadir un elemento OpenSCAD---
 
@@ -62,4 +63,7 @@ Starting from <small>(v0.14)</small>  FreeCAD will search for the OpenSCAD execu
 
 {{OpenSCAD_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD AddOpenSCADElement/es

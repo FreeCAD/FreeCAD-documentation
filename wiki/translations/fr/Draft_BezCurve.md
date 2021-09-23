@@ -8,6 +8,8 @@
    SeeAlso:[Draft Courbe de Bézier cubique](Draft_CubicBezCurve/fr.md), [Draft B-spline](Draft_BSpline/fr.md)
 ---
 
+# Draft BezCurve/fr
+
 ## Description
 
 La commande <img alt="" src=images/Draft_BezCurve.svg  style="width:24px;"> **Draft Courbe de Bézier** crée une [courbe de Bézier](http://fr.wikipedia.org/wiki/Courbe_de_B%C3%A9zier) à partir de plusieurs points.
@@ -140,8 +142,5 @@ bezcurve3 = Draft.make_bezcurve([1.7*p3, 1.5*p4, 2.1*p2, p1], closed=True)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft BezCurve/fr

@@ -1,3 +1,4 @@
+# Part Chamfer/es
 ---
 - GuiCommand:/es   Name:Part_Chamfer   MenuLocation:Pieza → Chaflán   Workbenches:Pieza,Completo---
 
@@ -154,8 +155,5 @@ FreeCAD.ActiveDocument.recompute()
 
 -   Recomputes all altered components on the screen and refreshes the display.
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Chamfer/es

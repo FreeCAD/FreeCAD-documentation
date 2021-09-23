@@ -1,5 +1,5 @@
 # Draft ShapeString tutorial/fr
- {{TutorialInfo/fr
+{{TutorialInfo/fr
 |Topic= Product design
 |Level= Débutant
 |Time=30 minutes
@@ -184,4 +184,7 @@ Voir le fil du forum [How to use ShapeStrings in PartDesign](https://forum.freec
 
 {{Tutorials navi
 
-}}  {{PartDesign Tools navi}} {{Sketcher Tools navi}} 
+}}  {{PartDesign Tools navi}} {{Sketcher Tools navi}}
+
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ShapeString tutorial/fr

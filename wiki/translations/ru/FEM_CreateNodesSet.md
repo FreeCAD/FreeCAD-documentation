@@ -7,6 +7,8 @@
    Shortcut:   SeeAlso:[FEM tutorial](FEM_tutorial/ru.md)
 ---
 
+# FEM CreateNodesSet/ru
+
 
 </div>
 
@@ -30,4 +32,7 @@
 
 {{FEM Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > FEM CreateNodesSet/ru

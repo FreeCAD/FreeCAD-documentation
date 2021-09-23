@@ -8,6 +8,8 @@
    SeeAlso:[Std Open](Std_Open/ru.md), [Import Export](Import_Export/ru.md), [Import Export Preferences](Import_Export_Preferences/ru.md)
 ---
 
+# Std Import/ru
+
 
 </div>
 
@@ -49,3 +51,6 @@ The **Std Import** command imports geometry from a different file format into th
 }}  
 
 [Category:File\_Formats](Category:File_Formats.md)
+
+---
+[documentation index](../README.md) > [File_Formats](Category:File_Formats.md) > Std Import/ru

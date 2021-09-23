@@ -8,6 +8,8 @@
    SeeAlso:[Добавить вспомогательную вершину](TechDraw_CosmeticVertex/ru.md), [Добавить осевую линию между 2 линиями](TechDraw_2LineCenterLine/ru.md), [Добавить осевую линию между 2 точками](TechDraw_2PointCenterLine/ru.md), [Удалить вспомогательный объект](TechDraw_CosmeticEraser/ru.md)
 ---
 
+# TechDraw FaceCenterLine/ru
+
 ## Описание
 
 The FaceCenterLine tool adds a centerline to selected faces.
@@ -77,4 +79,7 @@ Centerlines are not accessible from [macros](Macros.md) or the [Python](Python.m
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw FaceCenterLine/ru

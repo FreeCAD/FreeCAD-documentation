@@ -7,6 +7,8 @@
    SeeAlso:[Std DrawStyle](Std_DrawStyle/ru.md)
 ---
 
+# Std SelBoundingBox/ru
+
 
 </div>
 
@@ -52,4 +54,7 @@ FreeCADGui.updateCommands()
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std SelBoundingBox/ru

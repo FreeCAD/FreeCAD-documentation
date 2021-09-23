@@ -7,6 +7,8 @@
    SeeAlso:[Draft Mettre à niveau](Draft_Upgrade/fr.md)
 ---
 
+# OpenSCAD Edgestofaces/fr
+
 ## Description
 
 Converti les bords en faces. Utile pour préparer la géométrie DXF importée pour pouvoir l\'extruder.
@@ -28,4 +30,7 @@ Voir aussi [Draft Mettre à niveau](Draft_Upgrade/fr.md) pour une solution alter
 
 {{OpenSCAD_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD Edgestofaces/fr

@@ -8,6 +8,8 @@
    SeeAlso:[Sketcher Créer une B-spline](Sketcher_CompCreateBSpline/fr.md)
 ---
 
+# Sketcher BSplineDegree/fr
+
 ## Description
 
 Montre ou masque l\'affichage du **degré** d\'une courbe B-spline (voir [cette page](B-Splines/fr.md) pour plus d\'informations sur les B-splines).
@@ -24,4 +26,7 @@ Montre ou masque l\'affichage du **degré** d\'une courbe B-spline (voir [cette 
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineDegree/fr

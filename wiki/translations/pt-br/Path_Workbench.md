@@ -1,10 +1,4 @@
-# Path Workbench/pt-br
-
-
-
-
-
-<img alt="ícone da bancada de trabalho Path" src=images/Workbench_Path.svg  style="width:128px;">
+# <img alt="ícone da bancada de trabalho Path" src=images/Workbench_Path.svg  style="width:64px;"> Path Workbench/pt-br
 
 
 {{TOCright}}
@@ -533,3 +527,6 @@ Confira a página [Path scripting](Path_scripting.md).
 }} 
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Path Workbench/pt-br

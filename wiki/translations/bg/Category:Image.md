@@ -4,3 +4,6 @@ This category lists pages related to the [Image Workbench/bg](Image_Workbench/bg
 ### Contents:
 
 [Category:Workbenches/bg](Category:Workbenches/bg.md)
+
+---
+[documentation index](../README.md) > Category:Image/bg

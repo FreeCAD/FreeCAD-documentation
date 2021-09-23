@@ -1,9 +1,4 @@
 # Glossary/zh-cn
-
-
-
-
-
 本页内容为FreeCAD常用术语与定义的术语表。
 
 Jump to letter: {{CompactTOC|center=yes}}
@@ -1134,3 +1129,6 @@ Jump to letter: {{CompactTOC|center=yes}}
 
 
 [Category:Wiki](Category:Wiki.md) [Category:Glossary](Category:Glossary.md)
+
+---
+[documentation index](../README.md) > [Wiki](Category:Wiki.md) > Glossary/zh-cn

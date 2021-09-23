@@ -7,6 +7,8 @@
    SeeAlso:[PartDesign Create an additive primitive](PartDesign_CompPrimitiveAdditive.md), [PartDesign Subtractive Wedge](PartDesign_SubtractiveWedge.md)
 ---
 
+# PartDesign AdditiveWedge/pt-br
+
 ## Description
 
 Inserts a primitive wedge in the active Body as the first feature, or fuses it to the existing feature(s).
@@ -51,4 +53,7 @@ Wedges can be used to create pyramids by setting **X2 min/max** and **Z2 min/max
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveWedge/pt-br

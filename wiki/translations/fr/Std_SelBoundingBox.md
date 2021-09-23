@@ -8,6 +8,8 @@
    SeeAlso:[Std Style de représentation](Std_DrawStyle/fr.md)
 ---
 
+# Std SelBoundingBox/fr
+
 ## Description
 
 La commande **Std Boîte de délimitation** bascule le mode de surbrillance du cadre de sélection global. Si ce mode est activé, les objets sélectionnés sont marqués dans une [vue 3D](3D_view/fr.md) avec un cadre de sélection en surbrillance même si leur **Selection Style** est défini sur \'Shape\' (Forme).
@@ -50,4 +52,7 @@ FreeCADGui.updateCommands()
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std SelBoundingBox/fr

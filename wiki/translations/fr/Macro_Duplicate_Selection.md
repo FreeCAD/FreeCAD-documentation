@@ -1,5 +1,5 @@
 # Macro Duplicate Selection/fr
- {{Macro/fr
+{{Macro/fr
 |Name=Macro_Duplicate_Selection
 |Description= Cette macro change le curseur de la souris en "ForbiddenCursor" si une sélection est dupliquée.
 |Author=Mario52
@@ -87,6 +87,5 @@ FreeCADGui.Selection.addObserver(s)    # installe la fonction en mode resident
 
 La discussion sur le forum [Duplicate Objects when more than one face selected](http://forum.freecadweb.org/viewtopic.php?f=3&t=15994)
 
-
-
-
+---
+[documentation index](../README.md) > Macro Duplicate Selection/fr

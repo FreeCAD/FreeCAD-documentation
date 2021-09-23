@@ -9,6 +9,8 @@
 [Borrador ArregloCircular](Draft_CircularArray/es.md), [Borrador ArregloRuta](Draft_PathArray/es.md), [Borrador ArregloEnlaceRuta](Draft_PathLinkArray/es.md), [Borrador ArregloEnlacePunto](Draft_PointLinkArray/es.md)
 ---
 
+# Draft PointArray/es
+
 
 </div>
 
@@ -229,5 +231,5 @@ doc.recompute()
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft PointArray/es

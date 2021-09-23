@@ -6,6 +6,8 @@
    Workbenches:[Wykres](Plot_Module/pl.md)
 ---
 
+# Plot Save/pl
+
 ## Opis
 
 Standardowy moduł do tworzenia wykresów dostarcza już podstawowe narzędzie do zapisywania wykresów <img alt="" src=images/Matplotlib_save_button.png  style="width:24px;">. Ale jeśli zainstalujesz środowisko pracy <img alt="" src=images/Workbench_Plot.svg  style="width:24px;"> [Wykres](Plot_Workbench/pl.md) używając [Menadżera dodatków](Std_AddonMgr/pl.md), dostępne będzie bardziej kompletne narzędzie do zapisywania aktywnego wykresu. Za pomocą tego narzędzia można również wybrać rozmiar i rozdzielczość obrazu wyjściowego.
@@ -33,3 +35,6 @@ Wybierz kartę powierzchni, którą chcesz zapisać, i uruchom to narzędzie. U�
 }} 
 
 [Category:External\_Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)
+
+---
+[documentation index](../README.md) > [External_Workbenches](Category:External_Workbenches.md) > Plot Save/pl

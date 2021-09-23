@@ -1,5 +1,5 @@
 # Macro WireXYZ
-  {{Macro
+{{Macro
 |Name=WireXYZ
 |Icon=Macro_WireXYZ.png
 |Description=This macro creates a wire (or points) with the coordinates extracted from a file. The coordinates X Y Z are separated by a space.<br/>{{ColoredText|(Command line, paste this complete macro in the Python console)}}.
@@ -141,4 +141,5 @@ The discussion [How do I transform a point cloud to a line?](http://forum.freeca
 
 00.01 21/02/2015
 
-
+---
+[documentation index](../README.md) > Macro WireXYZ

@@ -8,6 +8,8 @@
    SeeAlso:[Arch CompSetMaterial](Arch_CompSetMaterial/de.md), [Arch MultiMaterial](Arch_MultiMaterial/de.md)
 ---
 
+# Arch SetMaterial/de
+
 ## Beschreibung
 
 Die Material Werkzeuge erlauben dir [Materialien](Material/de.md) zum aktiven Dokument hinzuzufügen und ein Material einem [Arch](Arch_Workbench/de.md)-Objekt zuzuweisen. Materialien können alle Eigenschaften eines bestimmten Materials aufweisen und die Farbe des Objekts steuern, an das es angehängt wird. Materialien werden in einem **Materialien** Ordner im aktiven Dokument gespeichert.
@@ -48,8 +50,5 @@ Die Material Werkzeuge erlauben dir [Materialien](Material/de.md) zum aktiven Do
 
 Dies entspricht in etwa [IfcMaterial](https://standards.buildingsmart.org/IFC/DEV/IFC4_2/FINAL/HTML/link/ifcmaterial.htm).
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SetMaterial/de

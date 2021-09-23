@@ -8,6 +8,8 @@
    SeeAlso:[Menu standard di base](Std_Base/it.md)
 ---
 
+# Std TransformManip/it
+
 
 </div>
 
@@ -47,4 +49,7 @@ Non appena si ruota o si sposta l\'oggetto nella vista 3D, vengono applicate le 
 
 {{Std Base navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > Std TransformManip/it

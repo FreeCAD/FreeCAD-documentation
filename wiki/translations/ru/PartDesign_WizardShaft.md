@@ -6,6 +6,8 @@
    Workbenches:[PartDesign](PartDesign_Workbench/ru.md), Complete
 ---
 
+# PartDesign WizardShaft/ru
+
 
 </div>
 
@@ -76,4 +78,7 @@ To add a new shaft segment, right-click into the empty space to the right of the
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign WizardShaft/ru

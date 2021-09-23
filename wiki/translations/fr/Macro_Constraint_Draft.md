@@ -1,5 +1,5 @@
 # Macro Constraint Draft/fr
- {{Macro/fr
+{{Macro/fr
 |Name=Constraint Draft
 |Icon=Macro_Constraint_Draft.png
 |Description=Crée une simulation en utilisant les [expressions](Expressions/fr.md) qui servent à lier les objets entre eux (La macro fonctionne avec FreeCAD version 16).
@@ -72,3 +72,6 @@ else:
 ## Lien
 
 Discussion sur le forum [Sketch Feature to create linkage mechanism simulator](https://www.forum.freecadweb.org/viewtopic.php?f=22&t=21778&sid=28247565010ecdef0aa4f5c69e58f672)
+
+---
+[documentation index](../README.md) > Macro Constraint Draft/fr

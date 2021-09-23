@@ -1,5 +1,5 @@
 # Macro Make Circle 3 Points/fr
- {{Macro/fr
+{{Macro/fr
 |Name=Macro Make Circle 3 Points
 |Icon=Macro_Make_Circle_3_Points.png
 |Description=Crée un cercle à partir de 3 points ou trois objets sélectionnés.
@@ -636,3 +636,6 @@ Les programmes séparés se trouvent ici,
 [Macro\_Draft\_Circle\_3\_Points](Macro_Draft_Circle_3_Points/fr.md)
 
 [Macro\_Draft\_Circle\_3\_Points\_3D](Macro_Draft_Circle_3_Points_3D/fr.md)
+
+---
+[documentation index](../README.md) > Macro Make Circle 3 Points/fr

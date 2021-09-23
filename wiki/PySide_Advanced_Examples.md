@@ -1,8 +1,4 @@
 # PySide Advanced Examples
- 
-
- 
-
 ## Introduction
 
 The purpose of this page is to cover advanced level examples of the [PySide](PySide.md) GUI manager (there are accompanying pages [PySide Beginner Examples](PySide_Beginner_Examples.md) and [PySide Intermediate Examples](PySide_Intermediate_Examples.md)).
@@ -102,3 +98,6 @@ self.dialog = FreeCADGui.PySideUic.loadUi(os.path.join(os.path.dirname(__file__)
  {{Powerdocnavi}} 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > PySide Advanced Examples

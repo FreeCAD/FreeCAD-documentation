@@ -6,6 +6,8 @@
    SeeAlso:[Draft SelectPlane](Draft_SelectPlane.md)
 ---
 
+# Draft WorkingPlaneProxy/pt-br
+
 ## Descrição
 
 The <img alt="" src=images/Draft_WorkingPlaneProxy.svg  style="width:24px;"> **Draft WorkingPlaneProxy** command creates a working plane proxy to save the current [Draft working plane](Draft_SelectPlane.md). A working plane proxy can be used to quickly restore a working plane. The camera position and visibility of the objects in the [3D view](3D_view.md) are also saved in the working plane proxy and can, [optionally](#Properties.md), be restored as well.
@@ -125,5 +127,5 @@ doc.recompute()
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft WorkingPlaneProxy/pt-br

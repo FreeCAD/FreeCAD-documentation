@@ -1,7 +1,4 @@
 # Arch Workbench/uk
-
-
-
 {{docnav/uk|[Workbenches/uk](Workbenches/uk.md)|[Draft Workbench/uk](Draft_Workbench/uk.md)|IconL=|IconR=Workbench_Draft.svg}}
 
 <img alt="Arch workbench icon" src=images/Workbench_Arch.svg  style="width:128px;">
@@ -142,3 +139,6 @@ These are additional tools to help you in specific tasks.
  
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Arch Workbench/uk

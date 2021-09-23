@@ -6,6 +6,8 @@
    SeeAlso:[Part Primitives](Part_Primitives.md)
 ---
 
+# Part Torus/pt-br
+
 ## Description
 
 Creates a simple parametric torus, with position, angle1, angle2, angle3, radius1 and radius2 as parameters.
@@ -50,10 +52,7 @@ as well as the standard set of placement parameters. The pictures below give a v
 
 ![](images/TorusExampleAngle2.jpg ) The parameter Angle2 has a value of 90°.
 
-![](images/TorusExampleAngle3.jpg ) The parameter Angle3 has a value of 90°. 
+![](images/TorusExampleAngle3.jpg ) The parameter Angle3 has a value of 90°.
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Torus/pt-br

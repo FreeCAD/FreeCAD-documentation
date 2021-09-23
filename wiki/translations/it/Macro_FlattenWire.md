@@ -1,5 +1,5 @@
 # Macro FlattenWire/it
- {{Macro/it
+{{Macro/it
 |Name=FlattenWire
 |Translate=Wire appiattita su piano mediano
 |Description=Questa macro appiattisce i contorni che non sono su un unico piano al valore mediano della loro coordinata Z
@@ -34,6 +34,5 @@ obj.Points = newppoints
 
 }}
 
-
-
-
+---
+[documentation index](../README.md) > Macro FlattenWire/it

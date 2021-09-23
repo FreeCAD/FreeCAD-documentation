@@ -1,7 +1,4 @@
 # Draft API/tr
-
-
-
 <div class="mw-translate-fuzzy">
 
 Bu işlevler Taslak modülünün bir parçasıdır ve Taslak modülü alındıktan sonra komut dosyalarında ve makrolarda veya python yorumlayıcısında kullanılabilir.
@@ -53,3 +50,6 @@ Draft.move(myrect, mydistance)
 
 
 [Category:API](Category:API.md) [Category:Poweruser Documentation](Category:Poweruser_Documentation.md)
+
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft API/tr

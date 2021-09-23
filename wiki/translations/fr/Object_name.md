@@ -1,6 +1,4 @@
 # Object name/fr
-
-
 ## Introduction
 
 
@@ -123,3 +121,6 @@ La fonction `addObject` a deux arguments de chaîne de base.
         Étant donné que `Label` n'est en général pas unique, la méthode `getObjectsByLabel` renvoie une liste avec tous les objets trouvés avec cette `Label`. Cependant, si `Label` est unique dans le document, le premier élément de cette liste doit être l'objet souhaité.
 
         {{Userdocnavi}}
+
+---
+[documentation index](../README.md) > Object name/fr

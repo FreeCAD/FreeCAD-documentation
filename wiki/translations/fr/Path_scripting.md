@@ -1,10 +1,4 @@
 # Path scripting/fr
-
-
-
-
-
-
 {{TOCright}}
 
 ## Introduction
@@ -447,3 +441,6 @@ doc.recompute()
 }} {{Powerdocnavi}}
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path scripting/fr

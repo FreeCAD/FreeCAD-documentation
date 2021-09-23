@@ -6,6 +6,8 @@
    Workbenches:Все
 ---
 
+# Std TextureMapping/ru
+
 ## Описание
 
 The **Std TextureMapping** command temporarily maps a texture onto all objects in a [3D view](3D_view.md).
@@ -26,4 +28,7 @@ The **Std TextureMapping** command temporarily maps a texture onto all objects i
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std TextureMapping/ru

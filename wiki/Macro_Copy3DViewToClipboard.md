@@ -1,5 +1,5 @@
 # Macro Copy3DViewToClipboard
-  {{Macro
+{{Macro
 |Name=Macro Copy3DViewToClipboard
 |Icon=Macro_Copy3DViewToClipboard.png
 |Description=Macro will copy the contents of the 3D view to the clipboard in image bitmap (BMP).<br/>The copy in Gimp is not possible Gimp use his model in memory.
@@ -102,6 +102,5 @@ c = v.addEventCallback("SoKeyboardEvent",o.logPosition)
 
 }}
 
-
-
-
+---
+[documentation index](../README.md) > Macro Copy3DViewToClipboard

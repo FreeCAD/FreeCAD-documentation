@@ -1,3 +1,4 @@
+# Part Chamfer/sv
 ---
 - GuiCommand:/sv   Name:Part Chamfer   Name/sv:Part Chamfer   MenuLocation:Part → Chamfer   Workbenches:[[Part_Workbench/sv   Part]], Complete|SeeAlso:---
 
@@ -148,8 +149,5 @@ FreeCAD.ActiveDocument.recompute()
 
 -   Recomputes all altered components on the screen and refreshes the display.
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Chamfer/sv

@@ -8,6 +8,8 @@
    Version:0.14
 ---
 
+# Draft Facebinder/pl
+
 ## Opis
 
 Polecenie <img alt="" src=images/Draft_Facebinder.svg  style="width:24px;"> **Łącznik kształtów** tworzy obiekt powierzchniowy z wybranych ścian. Łącznik kształtów jest parametryczny, będzie się aktualizował jeśli zmodyfikujesz jego obiekt źródłowy *(lub obiekty źródłowe)*.
@@ -117,8 +119,5 @@ facebinder.ViewObject.ShapeColor = (0.99, 0.99, 0.4)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Facebinder/pl

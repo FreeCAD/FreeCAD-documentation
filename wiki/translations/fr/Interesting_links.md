@@ -1,7 +1,4 @@
 # Interesting links/fr
-
-
-
 {{TOCright}}
 
 Cette page contient des liens relatifs à FreeCAD et à d\'autres projets FLOSS.
@@ -60,3 +57,6 @@ Cette page contient des liens relatifs à FreeCAD et à d\'autres projets FLOSS.
 
 
 [Category:Documentation](Category:Documentation.md)
+
+---
+[documentation index](../README.md) > [Documentation](Category:Documentation.md) > Interesting links/fr

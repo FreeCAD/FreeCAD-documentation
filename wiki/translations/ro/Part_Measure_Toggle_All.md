@@ -1,3 +1,4 @@
+# Part Measure Toggle All/ro
 ---
 - GuiCommand:   Name:Std MeasureToggleAll   MenuLocation:[|Workbenches:[[Part_Workbench   Part](Std_Measure_Menu___Measure]]_→_Toggle_All‏‎.md)|Shortcut:   SeeAlso:---
 
@@ -24,11 +25,5 @@
 
 </div>
 
-
-
-
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Toggle All/ro

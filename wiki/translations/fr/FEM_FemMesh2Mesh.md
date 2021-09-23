@@ -7,6 +7,8 @@
    SeeAlso:[FEM Tutoriel](FEM_tutorial/fr.md)
 ---
 
+# FEM FemMesh2Mesh/fr
+
 ## Description
 
 Cet outil converti une surface un élément 3D ou un élément FEM maille sélectionné en un élément maille . En interne, l\'élément FEM maille choisi est unique (non partagé entre deux éléments) et l\'utilise pour créer une face ou un élément maille. Optionnellement il permet de créer un maillage déformé causé par les forces établies . Ceci est fait par ajout du déplacement de FEM résultant des nœuds du maillage.
@@ -70,4 +72,7 @@ Mesh.show(obj)
 
 {{FEM Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > FEM FemMesh2Mesh/fr

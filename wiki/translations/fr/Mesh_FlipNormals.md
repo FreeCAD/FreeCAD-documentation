@@ -7,6 +7,8 @@
    SeeAlso:[Mesh Harmoniser les normales](Mesh_HarmonizeNormals/fr.md)
 ---
 
+# Mesh FlipNormals/fr
+
 ## Description
 
 La commande **Mesh Inverser les normales‏‎** inverse, retourne, les normales des objets maillés.
@@ -29,4 +31,7 @@ Pour une indication plus précise de l\'orientation des faces des objets maillé
 
 {{Mesh Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh FlipNormals/fr

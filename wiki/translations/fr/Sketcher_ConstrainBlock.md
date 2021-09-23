@@ -8,6 +8,8 @@
    SeeAlso:[Sketcher Contrainte fixe](Sketcher_ConstrainLock/fr.md)
 ---
 
+# Sketcher ConstrainBlock/fr
+
 ## Description
 
 La **Contrainte de blocage** permet de bloquer un élément en place à l\'aide d\'une seule contrainte.
@@ -34,4 +36,7 @@ La page [Sketcher : Écrire des scripts](Sketcher_scripting/fr.md) explique les 
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainBlock/fr

@@ -7,6 +7,8 @@
    Version:0.19
 ---
 
+# TechDraw CosmeticEraser/ru
+
 ## Описание
 
 The CosmeticEraser tool removes cosmetic objects from the page. Cosmetic objects are
@@ -43,4 +45,7 @@ CosmeticEraser is not accessible from [macros](Macros.md) or the [Python](Python
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw CosmeticEraser/ru

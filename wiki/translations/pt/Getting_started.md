@@ -1,10 +1,4 @@
 # Getting started/pt
-
-
-
-
-
-
 {{TOCright}}
 
 ## Introdução
@@ -348,3 +342,6 @@ E finalmente, um dos recursos mais poderoso do FreeCAD é o ambiente de [ progra
 
 
 [Category:User Documentation/pt](Category:User_Documentation/pt.md)
+
+---
+[documentation index](../README.md) > Getting started/pt

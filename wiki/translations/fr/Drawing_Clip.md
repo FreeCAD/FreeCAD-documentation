@@ -1,3 +1,4 @@
+# Drawing Clip/fr
 ---
 - GuiCommand:/fr   Name:Drawing Clip   Name/fr:Masque   Workbenches:[[Drawing Workbench/fr   Mise en plan]], Complet|MenuLocation :Mise en plan → Masque   Raccourci : aucun---
 
@@ -43,4 +44,7 @@ Actualiser\]\] la vue si une vue de dessin n\'a pas été ouverte
 
 {{Drawing Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Clip/fr

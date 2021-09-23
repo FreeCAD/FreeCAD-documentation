@@ -7,6 +7,8 @@
    SeeAlso:[TechDraw Ansicht einfügen](TechDraw_View/de.md), [TechDraw Schnitt Ansicht einfügen](TechDraw_SectionView/de.md)
 ---
 
+# TechDraw ProjectionGroup/de
+
 ## Beschreibung
 
 Das <img alt="" src=images/TechDraw_ProjectionGroup.svg  style="width:24px;"> [ProjektionsGruppe](TechDraw_ProjectionGroup/de.md) Werkzeug erstellt eine [Mehrfachansichtsprojektion](https://en.wikipedia.org/wiki/Multiview_projection) einer oder mehrerer 3D Objekte. Die isometrischen Ansichten der vier Frontecken können ebenfalls eingeschlossen werden.
@@ -96,4 +98,7 @@ Programmierhinweis: Die Projektionsgruppe sollte immer zur Seite hinzugefügt we
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ProjectionGroup/de

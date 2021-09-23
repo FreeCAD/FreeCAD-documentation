@@ -7,6 +7,8 @@
    SeeAlso:[Редактор настроек](Preferences_Editor/ru.md)
 ---
 
+# Std DlgPreferences/ru
+
 ## Описание
 
 Команда **Настройки\...** открывает [Редактор настроек](Preferences_Editor/ru.md).
@@ -26,4 +28,7 @@
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std DlgPreferences/ru

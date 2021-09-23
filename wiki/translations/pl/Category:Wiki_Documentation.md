@@ -6,3 +6,6 @@ Ta kategoria zawiera listę stron, które odnoszą się do efektywnego korzystan
 [WikiPages/pl](WikiPages/pl.md)
 
 [Category:Documentation](Category:Documentation.md)
+
+---
+[documentation index](../README.md) > Category:Wiki Documentation/pl

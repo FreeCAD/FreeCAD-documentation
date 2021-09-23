@@ -7,6 +7,8 @@
    SeeAlso:[TechDraw Fenêtre de rognage](TechDraw_ClipGroup/fr.md), [TechDraw Ajout vue dans une fenêtre de rognage](TechDraw_ClipGroupAdd/fr.md)
 ---
 
+# TechDraw ClipGroupRemove/fr
+
 ## Description
 
 Cet outil supprime une vue d\'un fenêtre de rognage existante et la renvoie dans la zone Page.
@@ -23,4 +25,7 @@ Cet outil supprime une vue d\'un fenêtre de rognage existante et la renvoie dan
 
 {{TechDraw Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ClipGroupRemove/fr

@@ -7,6 +7,8 @@
    SeeAlso:[Создать окружность](Sketcher_CompCreateCircle/ru.md)
 ---
 
+# Sketcher CreateArc/ru
+
 ## Описание
 
 Этот инструмент рисует дугу, по трем точкам: центральной, и углу между точками радиуса.
@@ -26,4 +28,7 @@
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateArc/ru

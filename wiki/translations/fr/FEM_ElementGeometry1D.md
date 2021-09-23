@@ -8,6 +8,8 @@
    SeeAlso:[Tutoriel FEM](FEM_tutorial/fr.md)
 ---
 
+# FEM ElementGeometry1D/fr
+
 ## Description
 
 Elément de géométries 1D est utilisé pour définir les sections transversales des éléments de poutre. Actuellement, les types de sections transversales suivants sont disponibles : rectangulaire, circulaire et tube.
@@ -41,4 +43,7 @@ Elément de géométries 1D est utilisé pour définir les sections transversale
 
 {{FEM Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > FEM ElementGeometry1D/fr

@@ -8,6 +8,8 @@
    SeeAlso:[Std Ouvrir](Std_Open/fr.md), [Import Export](Import_Export/fr.md), [Préférences d'Import Export](Import_Export_Preferences/fr.md)
 ---
 
+# Std Import/fr
+
 ## Description
 
 La commande **Std Importer** importe la géométrie d\'un format de fichier différent dans le document actif. De nombreux formats de fichiers sont pris en charge et pour certains formats, plusieurs options d\'importation existent. Voir [Import Export](Import_Export/fr.md) pour plus d\'informations.
@@ -46,3 +48,6 @@ La commande **Std Importer** importe la géométrie d\'un format de fichier diff
 }}  
 
 [Category:File\_Formats](Category:File_Formats.md)
+
+---
+[documentation index](../README.md) > [File_Formats](Category:File_Formats.md) > Std Import/fr

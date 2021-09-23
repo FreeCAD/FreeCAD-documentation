@@ -14,6 +14,8 @@
    SeeAlso:[Sketcher Copiere](Sketcher_Copy/ro.md), [Sketcher Move](Sketcher_Move/ro.md)
 ---
 
+# Sketcher Clone/ro
+
 
 </div>
 
@@ -57,4 +59,7 @@ Nu sunt adăugate extra constrâgeri pentru compartamentul clonei.
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Clone/ro

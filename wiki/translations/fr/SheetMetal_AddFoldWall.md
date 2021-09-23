@@ -7,6 +7,8 @@
    Shortcut:**C** **F**
 ---
 
+# SheetMetal AddFoldWall/fr
+
 ## Description
 
 La commande <img alt="" src=images/SheetMetal_AddFoldWall.svg  style="width:24px;"> **SheetMetal AddFoldWall** permet de plier une tôle selon une ligne choisie avec un rayon de courbure spécifié.
@@ -120,3 +122,6 @@ Remarque : dans la vie réelle, le pliage vers le haut doit être effectué avan
 
 
 [Category:SheetMetal](Category:SheetMetal.md) [Category:Addons](Category:Addons.md) [Category:External Command Reference](Category:External_Command_Reference.md)
+
+---
+[documentation index](../README.md) > [SheetMetal](Category:SheetMetal.md) > SheetMetal AddFoldWall/fr

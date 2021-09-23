@@ -8,6 +8,8 @@
    SeeAlso:[Sauvegarder Mise en Plan](Drawing_Save/fr.md)
 ---
 
+# Drawing Open SVG/fr
+
 
 </div>
 
@@ -28,4 +30,7 @@ Cette commande ouvre une feuille de dessin précédemment sauvegardée au format
 
 {{Drawing Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Open SVG/fr

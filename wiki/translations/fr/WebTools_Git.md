@@ -7,6 +7,8 @@
    Version:0.17
 ---
 
+# WebTools Git/fr
+
 
 **A partir de FreeCAD v0.17, cet outil a été enlevé de l'atelier Arch et fait maintenant partie de l'[atelier externe WebTools](WebTools_Workbench/fr.md) qui peut être installé depuis le menu Outils → <img src="images/AddonManager.svg" width=24px> [Gestionnaire d'Addons](Addon_Manager/fr.md).
 **
@@ -120,3 +122,6 @@ Alternativement, si vous souhaitez invoquer fcinfo avec des arguments (par exemp
 
 [diff "fcinfo"]
 textconv = sh -c '/path/to/fcinfo --gui "$0"'
+
+---
+[documentation index](../README.md) > WebTools Git/fr

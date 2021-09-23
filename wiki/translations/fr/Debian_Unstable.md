@@ -1,6 +1,4 @@
 # Debian Unstable/fr
-
-
 [Debian Unstable](https://wiki.debian.org/DebianUnstable) est une distribution continue utilisée pour [Développement de Debian](Debian_development/fr.md) et recommandée pour les utilisateurs avancés dans le développement et l\'empaquetage FreeCAD. Les nouveaux paquets sont prêts dès qu\'ils sont téléchargés et construits, à moins que le téléchargeur ne les ait marqués pour [Debian Experimental](https://wiki.debian.org/DebianExperimental) ce qui nécessite une installation explicite (après une configuration pour activer la distribution supplémentaire) via .
 
 Souvent, les personnes utilisant les Debian Testing devraient en fait utiliser Debian Unstable; Les Debian Testing ne devraient être considérés que comme une «entrée/sortie de Questions/réponses», car, même s\'il peut sembler plus stable que l\'Unstable, il y a en fait un inconvénient. Les nouveaux paquets sont téléchargés sur Debian Unstable et migrent vers Testing après un certain temps, ainsi les correctifs de sécurité et les modifications importantes de l\'empaquetage peuvent être retardés de manière inappropriée.
@@ -27,3 +25,6 @@ deb [http://deb.debian.org/debian](http://deb.debian.org/debian) experimental�
 
 
 [Category:Packaging](Category:Packaging.md) [Category:Developer Documentation](Category:Developer_Documentation.md)
+
+---
+[documentation index](../README.md) > [Packaging](Category:Packaging.md) > Debian Unstable/fr

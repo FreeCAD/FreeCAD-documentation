@@ -7,6 +7,8 @@
    SeeAlso:[Path Rampe d'entrée](Path_DressupRampEntry/fr.md), [Path Dégagement d'angles](Path_DressupDogbone/fr.md) , [Path Habillage pour lame rotative](Path_DressupDragKnife/fr.md)
 ---
 
+# Path DressupTag/fr
+
 ## Description
 
 Cet outil ajoute au tracé existant (généralement un tracé de découpe de contour 2D) un certains nombres d\'attaches qui maintiennent la pièce en place. Sans elles, une partie (qui n\'est pas fixée à la base) risque de s\'envoler de manière incontrôlable lors de la coupe finale. Les attaches sont destinées à être cassées à la main (ou à l'aide d'un ciseau) puis ébarbées à la lime.
@@ -34,4 +36,7 @@ Les attaches sont automatiquement générées à intervalles réguliers le long 
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path DressupTag/fr

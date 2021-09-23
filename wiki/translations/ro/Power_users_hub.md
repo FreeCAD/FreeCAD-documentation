@@ -1,5 +1,4 @@
-# Power users hub/ro
- <img alt="" src=images/Power_user_hub.png  style="width:64px;">
+# <img alt="" src=images/Power_user_hub.png  style="width:64px;"> Power users hub/ro
 
 ------------------------------------------------------------------------
 
@@ -259,3 +258,6 @@ Pe pagina [Community portal](FreeCAD_Community_Portal.md), puteți căuta alte p
 }}
 
 [Category:Hubs](Category:Hubs.md)
+
+---
+[documentation index](../README.md) > [Hubs](Category:Hubs.md) > Power users hub/ro

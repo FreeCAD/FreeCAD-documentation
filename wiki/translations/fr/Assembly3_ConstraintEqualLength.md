@@ -6,6 +6,8 @@
    Workbenches:[Assembly3](Assembly3_Workbench/fr.md)
 ---
 
+# Assembly3 ConstraintEqualLength/fr
+
 ## Description
 
 Cet outil contraint la longueur d\'une ligne 2D comme un segment non fractionné réalisé avec l\'établi Draft par rapport à un plan de travail.
@@ -24,8 +26,5 @@ La valeur de la longueur de la première ligne sélectionnée est égale à la v
 
     :   (si **<img src="images/Assembly_AutoRecompute.svg" width=16px> [Auto recompute](Assembly3_AutoRecompute/fr.md)** et **<img src="images/Assembly_SmartRecompute.svg" width=16px> [Smart recompute](Assembly3_SmartRecompute/fr.md)** sont désactivés).
 
-
-
-
-
-
+---
+[documentation index](../README.md) > Assembly3 ConstraintEqualLength/fr

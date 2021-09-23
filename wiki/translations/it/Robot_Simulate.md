@@ -1,3 +1,4 @@
+# Robot Simulate/it
 ---
 - GuiCommand:/it   Name:Robot Simulate   Name/it:Simula una traiettoria   Workbenches:[[Robot_Workbench/it   Robot]]|MenuLocation:Robot → Simula una traiettoria---
 
@@ -60,4 +61,7 @@ I pulsanti da sinistra a destra.
 
 {{Robot_Tools_navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot Simulate/it

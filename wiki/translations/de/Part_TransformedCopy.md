@@ -7,6 +7,8 @@
    SeeAlso:[SimpleCopy](Part_SimpleCopy.md), [ElementKopie](Part_ElementCopy/de.md), [Form Verfeinern](Part_RefineShape/de.md)
 ---
 
+# Part TransformedCopy/de
+
 
 </div>
 
@@ -43,8 +45,5 @@ Die Kopie hat eine einfache {{PropertyData/de|Positionierung}} Eigenschaft wie j
 
 Die Kopie hat einfache Ansichtseigenschaften wie jede andere [Teilfunktion](Part_Feature/de.md).
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part TransformedCopy/de

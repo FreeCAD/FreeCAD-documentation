@@ -7,6 +7,8 @@
    SeeAlso:[Attiva o Disattiva le misure Delta](Part_Measure_Toggle_Delta/it.md)
 ---
 
+# Part Measure Toggle 3d/it
+
 
 </div>
 
@@ -43,5 +45,5 @@ Attiva o Disattiva le misure 3D in corso.
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Toggle 3d/it

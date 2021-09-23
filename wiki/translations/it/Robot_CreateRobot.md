@@ -1,3 +1,4 @@
+# Robot CreateRobot/it
 ---
 - GuiCommand:/it   Name:Robot CreateRobot   Name/it:Inserisci un robot   Workbenches:[[Robot_Workbench/it   Robot]]|MenuLocation:Robot → Inserisci un robot---
 
@@ -68,4 +69,7 @@ I robot predefiniti sono
 
 {{Robot_Tools_navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot CreateRobot/it

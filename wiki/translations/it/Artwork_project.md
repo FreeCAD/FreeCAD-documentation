@@ -1,7 +1,4 @@
 # Artwork project/it
-
-
-
 **
 This roadmap is probably obsolete. For more information see [Development roadmap](Development_roadmap.md).<br>
 If you are not involved with the development discussed here:<br>
@@ -101,3 +98,6 @@ The current color palette is captured in google drive: <https://drive.google.com
 -   [Std Alignment](https://forum.freecadweb.org/viewtopic.php?f=34&t=50688)
 
 [Category:Roadmap](Category:Roadmap.md)
+
+---
+[documentation index](../README.md) > [Roadmap](Category:Roadmap.md) > Artwork project/it

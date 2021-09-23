@@ -1,5 +1,5 @@
 # Macro Automatic drawing/cs
- {{Macro/cs
+{{Macro/cs
 |Name=Automatic drawing
 |Translate=Makro Automatický výkres
 |Icon=Macro_Automatic_drawing.png
@@ -123,3 +123,6 @@ App.activeDocument().AutoDrawing.addObject(App.activeDocument().IsoView)
 ## Odkaz
 
 Diskuse na fóru [Automatic drawing](https://forum.freecadweb.org/viewtopic.php?f=8&t=3361)
+
+---
+[documentation index](../README.md) > Macro Automatic drawing/cs

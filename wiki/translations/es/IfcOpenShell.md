@@ -1,6 +1,4 @@
 # IfcOpenShell/es
-
-
 ## Descripción
 
 
@@ -451,3 +449,6 @@ The IfcOpenShell project has also developed \"IFC Pipeline\", a self-hosted IFC 
  {{FEM Tools navi}} 
 
 [Category:BIM](Category:BIM.md) [Category:3rd Party](Category:3rd_Party.md)
+
+---
+[documentation index](../README.md) > [BIM](Category:BIM.md) > IfcOpenShell/es

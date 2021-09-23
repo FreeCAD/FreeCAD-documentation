@@ -8,6 +8,8 @@
    SeeAlso:[Skizzierer Kante verlängern](Sketcher_Extend/de.md)
 ---
 
+# Sketcher Trimming/de
+
 ## Beschreibung
 
 Dieses Werkzeug stutzt eine Kante bis zur nächsten überlappenden Kante.
@@ -31,4 +33,7 @@ Dieses Werkzeug stutzt eine Kante bis zur nächsten überlappenden Kante.
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Trimming/de

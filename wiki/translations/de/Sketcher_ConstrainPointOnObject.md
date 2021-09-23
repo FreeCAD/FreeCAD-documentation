@@ -8,6 +8,8 @@
    SeeAlso:[Skizzierer Beschränke Deckungsgleich](Sketcher_ConstrainCoincident/de.md)
 ---
 
+# Sketcher ConstrainPointOnObject/de
+
 ## Beschreibung
 
 Bringt einen Punkt auf einem anderen Objekt an, z.B. einer Linien-, Bogen- oder Skizzenachse.
@@ -46,4 +48,7 @@ Die [Skizzierer Skripten](Sketcher_scripting/de.md) Seite erklärt, wie man die 
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainPointOnObject/de

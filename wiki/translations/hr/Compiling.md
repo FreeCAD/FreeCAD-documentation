@@ -1,7 +1,4 @@
 # Compiling/hr
-
-
-
 <div class="mw-translate-fuzzy">
 
 Svaki operacijski sistem ima svoju stranicu za kompiliranje FreeCAD programa [Online Help Documentacija](Online_Help_Toc/hr.md).
@@ -34,3 +31,6 @@ To learn to use revision control system and contribute code see [Source code man
 
 
 [Category:Developer\_Documentation](Category:Developer_Documentation.md) [Category:Developer](Category:Developer.md)
+
+---
+[documentation index](../README.md) > [Developer_Documentation](Category:Developer_Documentation.md) > Compiling/hr

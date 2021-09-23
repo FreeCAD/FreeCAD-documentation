@@ -1,10 +1,4 @@
-# Mesh Workbench/fr
-
-
-
-
-
-<img alt="Icône de l\'atelier Mesh" src=images/Workbench_Mesh.svg  style="width:128px;">
+# <img alt="Icône de l\'atelier Mesh" src=images/Workbench_Mesh.svg  style="width:64px;"> Mesh Workbench/fr
 
 
 {{TOCright}}
@@ -112,3 +106,6 @@ Les préférences de l\'atelier Mesh se trouvent dans les catégories suivantes 
 }} 
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Mesh Workbench/fr

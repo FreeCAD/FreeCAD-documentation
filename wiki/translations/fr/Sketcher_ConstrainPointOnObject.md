@@ -8,6 +8,8 @@
    SeeAlso:[Sketcher Constraint Coincident](Sketcher_ConstrainCoincident/fr.md)
 ---
 
+# Sketcher ConstrainPointOnObject/fr
+
 ## Description
 
 Appose un point sur un autre objet tel qu\'une ligne, un arc ou un axe d\'esquisse.
@@ -46,4 +48,7 @@ La page [Sketcher : Écrire des scripts](Sketcher_scripting/fr.md) explique comm
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainPointOnObject/fr

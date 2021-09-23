@@ -1,10 +1,4 @@
 # Draft Pattern/fr
-
-
-
-
-
-
 {{TOCright}}
 
 ## Description
@@ -43,8 +37,5 @@ Voir aussi : [Réglage des préférences](Preferences_Editor/fr.md) et [Draft Pr
 -   La fenêtre **Edition → Préférences... → Draft → Paramètres visuels → Résolution des motifs de hachures** préférence n\'est pas utilisée.
 -   Pour modifier la taille du motif {{PropertyView/fr|Pattern Size}} utilisée pour les nouveaux objets : **Edition → Préférences... → Draft → Paramètres visuels → Taille par défaut du motif des hachures**.
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Pattern/fr

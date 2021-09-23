@@ -6,6 +6,8 @@
    Workbenches:[Curves](Curves_Workbench/fr.md)
 ---
 
+# Curves ZebraTool/fr
+
 ## Description
 
 L\'<img alt="" src=images/Curves_ZebraTool.svg  style="width:24px;"> [Outil Zebra](Curves_ZebraTool/fr.md) crée une texture Zebra pour l\'inspection de surface. Cet outil fait partie des [ateliers externes](External_workbenches/fr.md) appelé [Curves](Curves_Workbench/fr.md).
@@ -41,4 +43,7 @@ L\'<img alt="" src=images/Curves_ZebraTool.svg  style="width:24px;"> [Outil Zebr
 
 {{Curves Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > Curves ZebraTool/fr

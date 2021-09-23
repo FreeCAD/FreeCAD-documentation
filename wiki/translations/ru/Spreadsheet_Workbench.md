@@ -1,5 +1,4 @@
 # Spreadsheet Workbench/ru
-
 {{Page_in_progress}}
 
 
@@ -247,3 +246,6 @@ sheet.get('Diameter')
 }} 
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Spreadsheet Workbench/ru

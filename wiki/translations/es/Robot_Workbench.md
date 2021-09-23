@@ -1,10 +1,4 @@
 # Robot Workbench/es
-
-
-
-
-
-
 **El Ambiente de trabajo Robot no se mantiene. Si tienes experiencia en el tema y estás interesado en mantenerlo, por favor declara tu intención en la sección de desarrolladores del [https://forum.freecadweb.org/index.php Foro de FreeCAD].
 
 La razón por la que este ambiente de trabajo está todavía en el código fuente maestro es porque este ambiente de trabajo está programado en C++. Si este ambiente de trabajo pudiera ser programado en Python, entonces podría convertirse en un [Ambiente de trabajo externo](external_workbenches/es.md) y podría ser movido a un repositorio separado.
@@ -81,3 +75,6 @@ Ver el [Ejemplo de la API del Robot](Robot_API_example/es.md) para ver una descr
 }} 
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Robot Workbench/es

@@ -6,3 +6,6 @@ This category lists pages related to the [PartDesign Workbench/ja](PartDesign_Wo
 [Template:Path Tools navi/ja](Template:Path_Tools_navi/ja.md)
 
 [Category:Workbenches/ja](Category:Workbenches/ja.md)
+
+---
+[documentation index](../README.md) > Category:Path/ja

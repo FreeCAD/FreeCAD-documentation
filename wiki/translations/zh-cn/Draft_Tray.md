@@ -1,10 +1,4 @@
 # Draft Tray/zh-cn
-
-
-
-
-
-
 {{TOCright}}
 
 ## Description
@@ -29,8 +23,5 @@
 
 -   ![](images/Draft_tray_button_layer.png ) [AutoGroup](Draft_AutoGroup.md): changes the active [Draft Layer](Draft_Layer.md) or, optionally, the active [Std Group](Std_Group.md) or group-like [Arch](Arch_Workbench.md) object.
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Tray/zh-cn

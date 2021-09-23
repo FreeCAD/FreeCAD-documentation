@@ -1,5 +1,5 @@
 # Macro Manage Navigational Style/it
- {{Macro/it
+{{Macro/it
 |Name=Macro Manage Navigational Styles
 |Icon=Macro_Manage_Navigational_Styles1.png
 |Translate=Stile di navigazione 1
@@ -48,6 +48,5 @@ p=App.ParamGet("User parameter:BaseApp/Preferences/View")
 p.SetString("NavigationStyle","Gui::CADNavigationStyle")
 }}
 
-
-
-
+---
+[documentation index](../README.md) > Macro Manage Navigational Style/it

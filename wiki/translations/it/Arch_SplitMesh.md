@@ -7,6 +7,8 @@
    SeeAlso:[Seleziona mesh non solidi](Arch_SelectNonSolidMeshes/it.md), [Da Mesh a Forma](Arch_MeshToShape/it.md)
 ---
 
+# Arch SplitMesh/it
+
 
 </div>
 
@@ -86,8 +88,5 @@ new_list = Arch.splitMesh(mesh_obj)
 
 </div>
 
-
-
-
-
-
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SplitMesh/it

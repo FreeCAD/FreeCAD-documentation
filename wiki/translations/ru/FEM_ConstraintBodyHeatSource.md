@@ -9,6 +9,8 @@
    SeeAlso:[FEM tutorial](FEM_tutorial/ru.md)
 ---
 
+# FEM ConstraintBodyHeatSource/ru
+
 
 </div>
 
@@ -41,4 +43,7 @@ Defines an internally generated body heat given in W/kg (not J/m³).
 
 {{FEM Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > FEM ConstraintBodyHeatSource/ru

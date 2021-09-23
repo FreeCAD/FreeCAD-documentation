@@ -1,5 +1,5 @@
 # Import from STL or OBJ/ko
- {{TutorialInfo
+{{TutorialInfo
 |Topic= Import from STL or OBJ
 |Level= Beginner
 |Time= 30 minutes
@@ -101,3 +101,6 @@ Since the created solid has no history and no editable features (like a simple c
  
 
 [Category:File\_Formats](Category:File_Formats.md)
+
+---
+[documentation index](../README.md) > [Import](Import_Workbench.md) > Import from STL or OBJ/ko

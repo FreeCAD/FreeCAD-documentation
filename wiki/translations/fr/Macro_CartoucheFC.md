@@ -1,5 +1,5 @@
 # Macro CartoucheFC/fr
- {{Macro/fr
+{{Macro/fr
 |Name=Macro CartoucheFC
 |Icon=Macro_CartoucheFC.png
 |Description=Cette macro est une application complète, elle permet de remplir le cartouche de la feuille de dessin livrée avec FreeCAD (Seulement pour l'[atelier Drawing](Drawing_Workbench/fr.md)).
@@ -953,6 +953,5 @@ Ce module travaille avec la feuille de mise en plan incluse dans FreeCAD cette f
 
 ver 0.3 le 02/07/2014 conversion pour utilisation avec **PyQt4** et **PySide**
 
-
-
-
+---
+[documentation index](../README.md) > Macro CartoucheFC/fr

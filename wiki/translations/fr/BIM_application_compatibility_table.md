@@ -1,6 +1,5 @@
 # BIM application compatibility table/fr
-
-  Cette page donne un aperçu général de la façon dont les différents outils et concepts utilisés dans d\'autres applications BIM sont comparables à FreeCAD, plus précisément à l\'[atelier BIM](BIM_Workbench/fr.md).
+Cette page donne un aperçu général de la façon dont les différents outils et concepts utilisés dans d\'autres applications BIM sont comparables à FreeCAD, plus précisément à l\'[atelier BIM](BIM_Workbench/fr.md).
 
 **A FAIRE :** Ajouter d\'autres applications BIM : Allplan, Tekla, Vectorworks, BricsCAD, et quoi d\'autre ?
 
@@ -16,3 +15,6 @@
   **Éléments standard BIM**                            Murs, structures (poutres, colonnes et dalles), fenêtres (portes et fenêtres), toits, escaliers, cadres (balustrades), équipements (meubles, appareils ménagers, etc.)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 Murs, poutres, colonnes, sols, plafonds, fenêtres, portes, toits, escaliers, balustrades, composants (meubles, appareils ménagers, etc.)                                                                                               Murs, poutres, colonnes, dalles, fenêtres, portes, toits, escaliers, balustrades, murs rideaux, objets (meubles, appareils ménagers, etc.)
 
 [Category:BIM](Category:BIM.md)
+
+---
+[documentation index](../README.md) > [BIM](Category:BIM.md) > BIM application compatibility table/fr

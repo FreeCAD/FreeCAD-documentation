@@ -1,10 +1,4 @@
-# Part Module/fr
-
-
-
-
-
-<img alt="Icône de l\'Atelier Part" src=images/Workbench_Part.svg  style="width:128px;">
+# <img alt="Icône de l\'Atelier Part" src=images/Workbench_Part.svg  style="width:64px;"> Part Module/fr
 
 
 {{TOCright}}
@@ -201,3 +195,6 @@ Voir [Part Ecrire un script](Part_scripting/fr.md)
  
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Module/fr

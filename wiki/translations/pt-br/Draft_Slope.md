@@ -6,6 +6,8 @@
    Version:0.17
 ---
 
+# Draft Slope/pt-br
+
 ## Descrição
 
 The <img alt="" src=images/Draft_Slope.svg  style="width:24px;"> **Draft Slope** command slopes selected [Draft Lines](Draft_Line.md) or [Draft Wires](Draft_Wire.md) by increasing, or decreasing, the Z coordinate of all points after the first one. It can also be used to flatten [Draft Wires](Draft_Wire.md). Note that the slope is relative to the XY plane defined by the **Placement** of the objects.
@@ -37,5 +39,5 @@ There is no Python method to slope objects. To emulate the results of the Draft 
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Slope/pt-br

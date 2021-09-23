@@ -1,3 +1,4 @@
+# Sketcher SelectConstraints/es
 ---
 - GuiCommand:/es   Name:Sketcher SelectConstraints   Workbenches:[[Sketcher Workbench/es   Sketcher]]|MenuLocation:Sketch → Sketcher tools → Select Constraints   Shortcut:Shift+Ctrl+C   SeeAlso:   Version:0.15---
 
@@ -27,4 +28,7 @@ Selects the constraints of a sketcher element.
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectConstraints/es

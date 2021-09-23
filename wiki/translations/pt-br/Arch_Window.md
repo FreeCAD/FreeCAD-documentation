@@ -8,6 +8,8 @@
    SeeAlso:[Arch Wall](Arch_Wall/pt-br.md)
 ---
 
+# Arch Window/pt-br
+
 
 </div>
 
@@ -233,8 +235,5 @@ Door = Arch.makeWindowPreset("Simple door",
 
 </div>
 
-
-
-
-
-
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Window/pt-br

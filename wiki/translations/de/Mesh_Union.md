@@ -1,3 +1,4 @@
+# Mesh Union/de
 ---
 - GuiCommand:/de   Name:Mesh Union‏‎   MenuLocation:Netze → Boolsche Verknüpfung → Vereinigung   Workbenches:[Shortcut:   SeeAlso:[[Mesh_Merge|Merge](Mesh_Workbench/de___Netz]].md)---
 
@@ -63,4 +64,7 @@ See: [Mesh Feature](Mesh_Feature.md).
 
 {{Mesh Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Union/de

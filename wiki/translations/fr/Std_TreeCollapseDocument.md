@@ -8,6 +8,8 @@
    SeeAlso:[Std Arborescence Document unique](Std_TreeSingleDocument/fr.md), [Std Arborescence Document multiple](Std_TreeMultiDocument/fr.md)
 ---
 
+# Std TreeCollapseDocument/fr
+
 ## Description
 
 La commande **Std Réduire développer** bascule la [vue en arborescence](tree_view/fr.md) du mode document (DocumentMode) au mode réduction document (CollapseDocument). Dans ce mode, l\'activation de la [vue 3D](3D_view/fr.md) d\'un document développera automatiquement ce document dans l\'arborescence et réduira tous les autres documents. Les autres modes sont [Un seul document arborescence](Std_TreeSingleDocument/fr.md) et [Plusieurs documents arborescence](Std_TreeMultiDocument/fr.md).
@@ -28,4 +30,7 @@ Le mode de l\'arborescence est enregistré: **Outils → Editer paramètres... �
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std TreeCollapseDocument/fr

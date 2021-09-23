@@ -7,6 +7,8 @@
    SeeAlso:[Part Basculer Delta](Part_Measure_Toggle_Delta/fr.md)
 ---
 
+# Part Measure Toggle 3d/fr
+
 ## Description
 
 Cet outil bascule la visibilité des mesures linéaires (rouge) et angulaires (bleu).
@@ -17,8 +19,5 @@ Cet outil bascule la visibilité des mesures linéaires (rouge) et angulaires (b
     -   Appuyez sur le bouton **<img src=images/Part_Measure_Toggle_3d.svg style="width:16px"> '''Basculer 3D‏‎'''**.
     -   Utilisez la **Mesure → Basculer 3D‏‎**
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Toggle 3d/fr

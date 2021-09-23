@@ -1,5 +1,5 @@
 # Macro 3D Parametric Curve/it
- {{Macro/it
+{{Macro/it
 |Name=Macro 3D Parametric Curve
 |Icon=Macro_3D_Parametric_Curve.png
 |Translate=Macro 3D Parametric Curve
@@ -209,6 +209,5 @@ ParamCurv()
 
 }}
 
-
-
-
+---
+[documentation index](../README.md) > Macro 3D Parametric Curve/it

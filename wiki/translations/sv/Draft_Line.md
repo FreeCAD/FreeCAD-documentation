@@ -1,3 +1,4 @@
+# Draft Line/sv
 ---
 - GuiCommand:/sv   Name:Draft Line   Workbenches:[MenuLocation:Draft → Line   Shortcut:L I   SeeAlso:[[Draft Wire/sv|Draft Wire](Draft_Workbench/sv___Skiss]].md)---
 
@@ -129,8 +130,5 @@ line2 = Draft.make_line(p3, p4)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Line/sv

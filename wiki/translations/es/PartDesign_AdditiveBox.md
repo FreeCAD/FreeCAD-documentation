@@ -8,6 +8,8 @@
    SeeAlso:[DiseñoPiezas Primitiva aditiva](PartDesign_CompPrimitiveAdditive/es.md)
 ---
 
+# PartDesign AdditiveBox/es
+
 ## Descripción
 
 Inserta un cubo primitivo en el Cuerpo activo como primera característica, o lo fusiona con la(s) característica(s) existente(s).
@@ -58,4 +60,7 @@ Tras su creación, el Cubo puede ser editado de dos maneras:
 
 {{PartDesign Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveBox/es

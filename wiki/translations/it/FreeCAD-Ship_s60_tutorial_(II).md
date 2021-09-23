@@ -1,7 +1,4 @@
 # FreeCAD-Ship s60 tutorial (II)/it
-
-
-
 {{TutorialInfo/it
 |Topic=Ambiente Navale
 |Level= Base
@@ -316,3 +313,6 @@ Naturalmente questo esempio non è realistico (anche perché i serbatoi del carb
 {{Ship Tools navi
 
 }}
+
+---
+[documentation index](../README.md) > FreeCAD-Ship s60 tutorial (II)/it

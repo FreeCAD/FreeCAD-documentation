@@ -7,6 +7,8 @@
    SeeAlso:[Rifila con un poligono](Mesh_PolyTrim/it.md), [Rifila con un piano](Mesh_TrimByPlane/it.md)
 ---
 
+# Mesh PolyCut/it
+
 ## Descrizione
 
 Il comando **Taglia la mesh** taglia intere facce da oggetti mesh.
@@ -52,4 +54,7 @@ Il comando **Taglia la mesh** taglia intere facce da oggetti mesh.
 
 {{Mesh Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh PolyCut/it

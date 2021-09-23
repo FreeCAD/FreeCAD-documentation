@@ -9,6 +9,8 @@
    SeeAlso:[Sketcher Contrainte de coïncidence](Sketcher_ConstrainCoincident/fr.md)
 ---
 
+# Sketcher ConnectLines/fr
+
 ## Description
 
 Applique des [Contraintes de coïncidence](Sketcher_ConstrainCoincident/fr.md) aux points de terminaison avec les mêmes coordonnées que les éléments sélectionnés.
@@ -31,4 +33,7 @@ Avant d\'utiliser cette commande, assurez-vous que des contraintes évidentes (h
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConnectLines/fr

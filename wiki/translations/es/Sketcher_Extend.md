@@ -8,6 +8,8 @@
    SeeAlso:[Croquizador Recortar borde](Sketcher_Trimming/es.md)
 ---
 
+# Sketcher Extend/es
+
 ## Descripción
 
 La herramienta **extender borde** extiende una borde a una ubicación arbitraria en el croquis, o a otra borde.
@@ -33,4 +35,7 @@ La herramienta **extender borde** extiende una borde a una ubicación arbitraria
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Extend/es

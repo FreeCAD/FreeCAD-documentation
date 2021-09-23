@@ -1,3 +1,4 @@
+# Ship TankCapacity/ru
 ---
 - GuiCommand:/ru
    Name:Ship TankCapacity
@@ -21,9 +22,5 @@ TODO
 
 {{Ship_Tools_navi}}
 
-
-
-
-
-
-
+---
+[documentation index](../README.md) > Ship TankCapacity/ru

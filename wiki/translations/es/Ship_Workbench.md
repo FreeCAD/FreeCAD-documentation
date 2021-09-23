@@ -1,7 +1,4 @@
-# Ship Workbench/es
-
-
-<img alt="Icono del ambiente de trabajo Nave" src=images/Workbench_Ship.svg  style="width:128px;">
+# <img alt="Icono del ambiente de trabajo Nave" src=images/Workbench_Ship.svg  style="width:64px;"> Ship Workbench/es
 
 
 {{TOCright}}
@@ -67,3 +64,6 @@ The Ship Workbench was unmaintained since v0.17 but has been resurrected in v0.1
 }} 
 
 [Category:External Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)
+
+---
+[documentation index](../README.md) > Ship Workbench/es

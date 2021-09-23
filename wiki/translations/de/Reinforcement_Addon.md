@@ -1,6 +1,4 @@
 # Reinforcement Addon/de
-
-
 ## Einleitung
 
 Das [Armierung Erweiterung](Reinforcement_Addon/de.md) ergänzt die [Arch Arbeitsbereich](Arch_Workbench/de.md) durch neue Schnittstellen und Voreinstellungen für die Erstellung gängiger Bewehrungsarten zur Verwendung mit [Arch Strukturen](Arch_Structure/de.md).
@@ -43,3 +41,6 @@ Neue Arbeitsbereiche sind in Entwicklung, bleib dran!
  
 
 [Category:Reinforcement](Category:Reinforcement.md)
+
+---
+[documentation index](../README.md) > [Reinforcement](Category:Reinforcement.md) > Reinforcement Addon/de

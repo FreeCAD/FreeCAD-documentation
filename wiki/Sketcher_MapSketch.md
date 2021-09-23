@@ -6,6 +6,8 @@
    SeeAlso:[Sketcher New sketch](Sketcher_NewSketch.md)
 ---
 
+# Sketcher MapSketch
+
 ## Description
 
 This tool maps an existing sketch onto the face of a shape. PartDesign features created from this sketch will be fused with the underlying solid for additive features (Pad, Revolution) or be subtracted from the underlying solid in case of subtractive features (Pocket, Groove).
@@ -50,4 +52,7 @@ Now we select the top face of Pad and then select the Map A Sketch To A Face too
 
 
 
- {{Sketcher Tools navi}} 
+ {{Sketcher Tools navi}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher MapSketch

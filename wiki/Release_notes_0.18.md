@@ -1,7 +1,5 @@
 # Release notes 0.18
-
-
- FreeCAD 0.18 was released on 12 March, 2019, get it from the [Download](Download.md) page. This is a summary of the most interesting changes. The complete list of changes can be found in the [MantisBT bugtracker FC 0.18 changelog](https://www.freecadweb.org/tracker/changelog_page.php?version_id=78).
+FreeCAD 0.18 was released on 12 March, 2019, get it from the [Download](Download.md) page. This is a summary of the most interesting changes. The complete list of changes can be found in the [MantisBT bugtracker FC 0.18 changelog](https://www.freecadweb.org/tracker/changelog_page.php?version_id=78).
 
 Older FreeCAD release notes can be found in [Feature list](Feature_list#Release_notes.md).
 
@@ -222,3 +220,6 @@ Some of the new community modules that were actively developed during the 0.18 d
 
 
 [Category:News](Category:News.md) [Category:Documentation](Category:Documentation.md) [Category:Releases](Category:Releases.md)
+
+---
+[documentation index](../README.md) > [News](Category:News.md) > Release notes 0.18

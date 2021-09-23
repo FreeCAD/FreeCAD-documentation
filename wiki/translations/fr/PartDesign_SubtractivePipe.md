@@ -8,6 +8,8 @@
    SeeAlso:[PartDesign Balayage additif](PartDesign_AdditivePipe/fr.md), [PartDesign Lissage soustractif](PartDesign_SubtractiveLoft/fr.md)
 ---
 
+# PartDesign SubtractivePipe/fr
+
 ## Description
 
 Le **Balayage soustractif** crée un solide soustractif dans le corps actif en balayant une ou plusieurs esquisses (également appelées coupes transversales) le long d\'un chemin ouvert ou fermé. Sa forme est ensuite soustraite du solide existant. Le balayage soustractif est souvent utilisé avec l\'[Part Hélice](Part_Helix/fr.md) et la [Part Forme liée](PartDesign_ShapeBinder/fr.md) pour créer un filetage. Voir le [Tutoriel Création de vis](Thread_for_Screw_Tutorial/fr.md) pour plus de détails.
@@ -87,4 +89,7 @@ Le **Balayage soustractif** crée un solide soustractif dans le corps actif en b
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractivePipe/fr

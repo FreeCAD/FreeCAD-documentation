@@ -7,6 +7,8 @@
    SeeAlso:[PartDesign CompPrimitiveSubtractive](PartDesign_CompPrimitiveSubtractive.md)
 ---
 
+# PartDesign CompPrimitiveAdditive/ru
+
 ## Описание
 
 Создаёт аддитивный примитив в активном Body (теле), как первичный элемент(ы). Если Body не найдено в документе, оно будет автоматически создано.
@@ -28,4 +30,7 @@
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign CompPrimitiveAdditive/ru

@@ -7,6 +7,8 @@
    SeeAlso:[Arch Remove](Arch_Remove/es.md)
 ---
 
+# Arch CutPlane/es
+
 
 </div>
 
@@ -125,8 +127,5 @@ cutObj2 = Arch.cutComponentwithPlane(main_object2, cut_face2, 1)
 FreeCAD.ActiveDocument.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CutPlane/es

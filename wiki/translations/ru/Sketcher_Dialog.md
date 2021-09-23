@@ -1,10 +1,4 @@
 # Sketcher Dialog/ru
-
-
-
-
-
-
 <div style="float:right; clean:both; margin-left:0.5em;">
 
 \_\_TOC\_\_
@@ -217,4 +211,7 @@ If you keep the **Ctrl** key pressed you can select several elements at once. If
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Dialog/ru

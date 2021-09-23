@@ -8,6 +8,8 @@
    SeeAlso:[PartDesign Lissage additif](PartDesign_AdditiveLoft/fr.md), [PartDesign Balayage soustractif](PartDesign_SubtractivePipe/fr.md)
 ---
 
+# PartDesign SubtractiveLoft/fr
+
 ## Description
 
 Le **Lissage soustractif** crée un solide soustractif dans le corps actif en effectuant une transition entre deux esquisses ou plus (également appelés coupes transversales). Sa forme est ensuite soustraite du solide existant.
@@ -72,4 +74,7 @@ Le **Lissage soustractif** crée un solide soustractif dans le corps actif en ef
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveLoft/fr

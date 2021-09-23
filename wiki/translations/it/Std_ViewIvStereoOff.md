@@ -7,6 +7,8 @@
    SeeAlso:[Stereo rosso/ciano](Std_ViewIvStereoRedGreen/it.md), [Stereo quad buffer](Std_ViewIvStereoQuadBuff/it.md),  [Stereo a righe interlacciate](Std_ViewIvStereoInterleavedRows/it.md), [Stereo a colonne interlacciate](Std_ViewIvStereoInterleavedColumns/it.md)
 ---
 
+# Std ViewIvStereoOff/it
+
 ## Descrizione
 
 The **Std ViewIvStereoOff** command switches off stereo mode in the active [3D view](3D_view.md).
@@ -44,4 +46,7 @@ FreeCADGui.ActiveDocument.ActiveView.getStereoType()
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ViewIvStereoOff/it

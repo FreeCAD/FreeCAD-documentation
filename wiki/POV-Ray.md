@@ -1,5 +1,5 @@
 # POV-Ray
-  **The development of POV-Ray seems to be halted. The latest stable version is 3.7.0.8 (2018-05-27), the latest development version is 3.8.0-x (2019-02-19), the [https://github.com/POV-Ray/povray/ official project on GitHub] has been edited the last time on 2019-03-08. Please remove this warning if the situation changes**
+**The development of POV-Ray seems to be halted. The latest stable version is 3.7.0.8 (2018-05-27), the latest development version is 3.8.0-x (2019-02-19), the [https://github.com/POV-Ray/povray/ official project on GitHub] has been edited the last time on 2019-03-08. Please remove this warning if the situation changes**
 
 # Description
 
@@ -96,4 +96,7 @@ After installing the Render Workbench and POV-Ray, launch FreeCAD, open the [Pre
 
 Set the POV-Ray executable path to point to your installation of POV-Ray, usually it is *C:/Program Files/POV-Ray/v3.7/bin/pvengine64.exe*, and apply.
 
-Then, before trying to render something, start POV-Ray separately and [set I/O restrictions according to POV-Ray documentation](https://wiki.povray.org/content/Documentation:Windows_Section_2.1), otherwise rendering will not work properly (or will not work at all). 
+Then, before trying to render something, start POV-Ray separately and [set I/O restrictions according to POV-Ray documentation](https://wiki.povray.org/content/Documentation:Windows_Section_2.1), otherwise rendering will not work properly (or will not work at all).
+
+---
+[documentation index](../README.md) > POV-Ray

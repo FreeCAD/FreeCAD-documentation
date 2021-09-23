@@ -1,7 +1,4 @@
 # OpenCASCADE/de
-
-
-
 {{TOCright}}
 
 ## Beschreibung
@@ -88,3 +85,6 @@ So kannst du aus Formen sehr komplexe Teile bauen oder umgekehrt alle Unterforme
 }} 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > OpenCASCADE/de

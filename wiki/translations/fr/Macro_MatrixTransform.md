@@ -1,5 +1,5 @@
 # Macro MatrixTransform/fr
- {{Macro/fr
+{{Macro/fr
 |Name=MatrixTransform
 |Icon=Macro_MatrixTransform.png
 |Description=Transforme unobjet en modifiant la matrice 3x3 (parametrique).<br/> {{ColoredText|#ff0000|#ffff00|Cette macro est composée de 2 macro: '''MatrixTransform.FCMacro''' (lanceur) et '''MatrixTransform.py''' (exécuteur).}} <br/> Le '''.FCMacro''' est installé avec AddonManager vous devez installer la macro '''.py''' manuellement. <br/> Lien des deux macros: <br/> [https://github.com/DeepSOIC/FreeCAD-Macros/raw/master/MatrixTransform/MatrixTransform.FCMacro MatrixTransform.FCMacro] (lanceur) <br/> [https://github.com/DeepSOIC/FreeCAD-Macros/raw/master/MatrixTransform/MatrixTransform.py MatrixTransform.py] (exécuteur)
@@ -306,3 +306,6 @@ MatrixTransform.FCMacro:
 import MatrixTransform
 MatrixTransform.run()
 ```
+
+---
+[documentation index](../README.md) > Macro MatrixTransform/fr

@@ -1,7 +1,4 @@
 # Path Walkthrough for the Impatient/fr
-
-
-
 {{TutorialInfo/fr
 |Topic=Atelier Path
 |Level=Débutant/modéré
@@ -152,4 +149,7 @@ La dernière étape pour générer le G-code pour la fraiseuse cible consiste à
 
 {{Tutorials navi
 
-}} {{Path Tools navi}} 
+}} {{Path Tools navi}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Walkthrough for the Impatient/fr

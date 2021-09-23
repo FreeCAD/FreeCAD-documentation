@@ -1,5 +1,5 @@
 # Sketcher scripting/de
- {{TOCright}}
+{{TOCright}}
 
 ## Erstellen einer Beschränkung mit Python 
 
@@ -200,4 +200,7 @@ Der Befehl `Sketch.addConstraint(Sketcher.Constraint('Coincident',0,2,2,2))` erg
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher scripting/de

@@ -1,5 +1,5 @@
 # Macro cross section/de
- {{Macro/de
+{{Macro/de
 |Name=Cross_section
 |Icon=Macro_cross_section.png
 |Translate=Cross_section
@@ -673,3 +673,6 @@ ver 00.07 17/09/2017 : Aktualisieren Sie mehrere Objekte mit verschiedenen Farbe
 ver 00.06 06/09/2017 : Upgrade von Gift siehe [Optischer Schnitt durch Baugruppe, z.B. für Ventilgehäuse](https://www.forum.freecadweb.org/viewtopic.php?f=13&t=24130) Akzeptieren Sie mehrere Objekte mit unterschiedlichen Farben
 
 ver 00.05 17/08/2017 : upgrade for 0.17 FreeCAD version by Sam see [Sezione Dinamica](https://forum.freecadweb.org/viewtopic.php?f=28&t=15084&start=10#p187030)
+
+---
+[documentation index](../README.md) > Macro cross section/de

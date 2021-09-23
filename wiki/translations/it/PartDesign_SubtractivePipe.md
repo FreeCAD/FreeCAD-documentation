@@ -1,3 +1,4 @@
+# PartDesign SubtractivePipe/it
 ---
 - GuiCommand:/it   Name:PartDesign SubtractivePipe   Name/it:Sweep sottrattivo   Workbenches:[MenuLocation:Part Design → Sweep sottrattivo   Shortcut:None   Version:0.17   SeeAlso:[[PartDesign AdditivePipe/it|Sweep additivo](PartDesign_Workbench/it___PartDesign]].md), [Loft sottrattivo](PartDesign_SubtractiveLoft/it.md)---
 
@@ -107,4 +108,7 @@
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractivePipe/it

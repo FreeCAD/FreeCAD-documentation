@@ -7,6 +7,8 @@
    SeeAlso:[Part Soustraction](Part_Cut.md), [Part Union](Part_Fuse/fr.md), [Part Intersection](Part_Common/fr.md), [Part Section](Part_Section/fr.md)
 ---
 
+# Part Boolean/fr
+
 ## Description
 
 
@@ -63,8 +65,5 @@ En cas de coplanarité, même si la première opération booléenne réussit, le
 
 *À gauche : formes qui partagent un visage, une union booléenne peut produire des résultats incorrects. À droite : des formes qui se croisent clairement, l'union booléenne réussira dans la plupart des cas.*
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Boolean/fr

@@ -6,6 +6,8 @@
    Version:0.17
 ---
 
+# Spreadsheet MergeCells
+
 ## Description
 
 The **<img src=images/Spreadsheet_MergeCells.svg style="width:16px"> [Spreadsheet MergeCells](Spreadsheet_MergeCells.md)** tool merges at least two selected cells in an existing spreadsheet in the active document.
@@ -19,4 +21,7 @@ The **<img src=images/Spreadsheet_MergeCells.svg style="width:16px"> [Spreadshee
 
 
 
- {{Spreadsheet_Tools_navi}} 
+ {{Spreadsheet_Tools_navi}}
+
+---
+[documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet MergeCells

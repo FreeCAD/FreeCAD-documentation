@@ -8,6 +8,8 @@
    SeeAlso:[Part Boolesche Bruchstücke](Part_BooleanFragments/de.md), [Part XOR](Part_XOR/de.md), [Part Grundelemente verbinden](Part_CompJoinFeatures/de.md), [Part Boolesche](Part_Boolean/de.md)
 ---
 
+# Part Slice/de
+
 
 </div>
 
@@ -194,5 +196,5 @@ Das Werkzeug selbst ist in Python implementiert, siehe {{FileName|/Mod/Part/BOPT
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Slice/de

@@ -1,6 +1,4 @@
 # Sketcher reference/it
-
-
 ## Introduzione
 
 
@@ -76,4 +74,7 @@ The general structure of the manual is:
 
 {{Tutorials navi
 
-}} {{Sketcher Tools navi}} 
+}} {{Sketcher Tools navi}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher reference/it

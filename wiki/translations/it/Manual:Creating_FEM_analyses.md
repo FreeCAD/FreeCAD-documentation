@@ -1,7 +1,4 @@
 # Manual:Creating FEM analyses/it
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -225,3 +222,6 @@ Naturalmente, i risultati visualizzati attualmente dall\'ambiente FEM non sono s
 {{Tutorials navi
 
 }}
+
+---
+[documentation index](../README.md) > Manual:Creating FEM analyses/it

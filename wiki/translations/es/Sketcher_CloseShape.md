@@ -8,6 +8,8 @@
    Version:0.15
 ---
 
+# Sketcher CloseShape/es
+
 
 </div>
 
@@ -33,4 +35,7 @@ The tool will connect the elements in the order of their selection, so make sure
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CloseShape/es

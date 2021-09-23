@@ -11,3 +11,6 @@ To jest **główna kategoria**\', która zawiera główne kategorie FreeCAD wiki
 , , , , , , , , , , , , , , ,
 
 [Category:Categories/pl](Category:Categories/pl.md) [Category:Addons/pl](Category:Addons/pl.md) [Category:Administration/pl](Category:Administration/pl.md) [Category:API/pl](Category:API/pl.md) [Category:Categories/pl](Category:Categories/pl.md) [Category:Command Reference/pl](Category:Command_Reference/pl.md) [Category:Developer/pl](Category:Developer/pl.md) [Category:Documentation/pl](Category:Documentation/pl.md) [Category:Help/pl](Category:Help/pl.md) [Category:Hubs/pl](Category:Hubs/pl.md) [Category:Macros/pl](Category:Macros/pl.md) [Category:News/pl](Category:News/pl.md) [Category:Python Code/pl](Category:Python_Code/pl.md) [Category:Template/pl](Category:Template/pl.md) [Category:Tutorials/pl](Category:Tutorials/pl.md) [Category:UnfinishedDocu/pl](Category:UnfinishedDocu/pl.md) [Category:Wiki/pl](Category:Wiki/pl.md)
+
+---
+[documentation index](../README.md) > Category:Categories/pl

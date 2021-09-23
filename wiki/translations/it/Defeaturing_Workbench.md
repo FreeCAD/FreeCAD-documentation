@@ -1,5 +1,4 @@
-# Defeaturing Workbench/it
- <img alt="Defeaturing workbench icon" src=images/Defeaturing_workbench_icon.svg  style="width:128px;">
+# <img alt="Defeaturing workbench icon" src=images/Defeaturing_workbench_icon.svg  style="width:64px;"> Defeaturing Workbench/it
 
 ## Introduzione
 
@@ -125,3 +124,6 @@ Sono in fase di sviluppo ulteriori nuovi ambienti.
  
 
 [Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+
+---
+[documentation index](../README.md) > Defeaturing Workbench/it

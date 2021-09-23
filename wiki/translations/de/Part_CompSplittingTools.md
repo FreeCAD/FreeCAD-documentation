@@ -6,6 +6,8 @@
    SeeAlso:
 ---
 
+# Part CompSplittingTools/de
+
 
 </div>
 
@@ -35,5 +37,5 @@ Eine Sammlung von Aufteilungswerkzeugen.
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompSplittingTools/de

@@ -6,6 +6,8 @@
    SeeAlso:[[Arch Panel/ro]], [[Arch Panel Sheet/ro]]
 ---
 
+# Arch Nest/ro
+
 
 </div>
 
@@ -68,5 +70,5 @@ Algoritmul din spatele instrumentului Nest (Economizor) este în evoluție const
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Nest/ro

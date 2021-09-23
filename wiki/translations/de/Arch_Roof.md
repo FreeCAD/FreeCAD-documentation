@@ -8,6 +8,8 @@
    SeeAlso:[Arch Struktur](Arch_Structure/de.md), [Arch Wand](Arch_Wall/de.md)
 ---
 
+# Arch Roof/de
+
 ## Beschreibung
 
 Das **<img src="images/Arch_Roof.svg" width=16px> [Arch Dach](Arch_Roof.md)** Werkzeug erlaubt die Erstellung eines geneigten Daches aus einem ausgewählten Linienzug. Das erstellte Dach Objekt ist parametrisch und behält seine Verbindung zum Basisobjekt. Das Prinzip ist, dass jeder Kante ein Dachprofil (Neigung, Breite, Überhang, Dicke) zugewiesen wird.
@@ -104,8 +106,5 @@ roof1 = Arch.makeRoof(wire)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Roof/de

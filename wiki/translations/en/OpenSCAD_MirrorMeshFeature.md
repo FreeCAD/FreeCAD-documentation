@@ -6,6 +6,8 @@
    SeeAlso:[Part Mirror](Part_Mirror.md)
 ---
 
+# OpenSCAD MirrorMeshFeature/en
+
 ## Description
 
 Creates a new mirrored mesh object, mirrored about the selected axis.
@@ -43,4 +45,7 @@ Mesh.show(mirrored_mesh)
 
 {{OpenSCAD_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD MirrorMeshFeature/en

@@ -1,7 +1,4 @@
-# POV-Ray-Rendering Workbench/en
- 
-
-<img alt="POV-Ray-Rendering Workbench icon" src=images/POV-Ray-Rendering_workbench_icon.svg  style="width:128px;">
+# <img alt="POV-Ray-Rendering Workbench icon" src=images/POV-Ray-Rendering_workbench_icon.svg  style="width:64px;"> POV-Ray-Rendering Workbench/en
 
 
 {{TOCright}}
@@ -93,3 +90,6 @@ To complete the installation the path to the POV-Ray executable has to be define
 
 
 [Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+
+---
+[documentation index](../README.md) > POV-Ray-Rendering Workbench/en

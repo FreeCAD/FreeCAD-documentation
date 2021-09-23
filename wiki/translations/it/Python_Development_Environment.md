@@ -1,5 +1,5 @@
 # Python Development Environment/it
- {{TOCright}}
+{{TOCright}}
 
 ## Un semplicistico Ambiente di sviluppo per Python all\'interno di FreeCAD 
 
@@ -552,3 +552,6 @@ Alcuni altri link che riguardano le IDE per Python e che possono essere interess
  
 
 [Category:Poweruser Documentation](Category:Poweruser_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+
+---
+[documentation index](../README.md) > [Poweruser Documentation](Category:Poweruser Documentation.md) > Python Development Environment/it

@@ -5,6 +5,8 @@
    Workbenches:[Path](Path_Workbench.md)
 ---
 
+# Path Shape
+
 ## Description
 
 Path Shape doesn\'t match the current Path workflow. For that reason it\'s moved to the experimental features.
@@ -116,4 +118,7 @@ Path.fromShapes(shapes, start=Vector(), return_end=False arc_plane=1, sort_mode=
 
 
 
- {{Path_Tools_navi}} 
+ {{Path_Tools_navi}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Shape

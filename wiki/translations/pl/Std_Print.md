@@ -7,6 +7,8 @@
    SeeAlso:[Std PrintPreview](Std_PrintPreview.md), [Std PrintPdf](Std_PrintPdf.md), [Std Export](Std_Export.md), [Std ViewScreenShot](Std_ViewScreenShot.md)
 ---
 
+# Std Print/pl
+
 ## Description
 
 The **Std Print** command is primarily intended to print [TechDraw Workbench](TechDraw_Workbench.md) pages, but can also be used to print what is currently visible in the [3D view](3D_View.md).
@@ -30,4 +32,7 @@ The **Std Print** command is primarily intended to print [TechDraw Workbench](Te
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std Print/pl

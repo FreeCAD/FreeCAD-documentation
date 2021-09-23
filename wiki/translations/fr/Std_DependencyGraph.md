@@ -6,6 +6,8 @@
    Workbenches:Tous
 ---
 
+# Std DependencyGraph/fr
+
 ## Description
 
 La commande **Std Graphique de dépendances** affiche les dépendances entre les objets du document actif dans un\' graphique de dépendance \'. Contrairement à la [Vue en arborescence](Tree_view/fr.md), les objets sont répertoriés dans l\'ordre chronologique inverse, avec le premier objet créé en bas.
@@ -94,3 +96,6 @@ Vous pouvez enregistrer un graphique de dépendance :
 }}  
 
 [Category:3rd Party](Category:3rd_Party.md)
+
+---
+[documentation index](../README.md) > [3rd Party](Category:3rd Party.md) > Std DependencyGraph/fr

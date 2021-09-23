@@ -1,10 +1,4 @@
 # Manual:The FreeCAD Interface/ro
-
-
-
-
-
-
 {{Manual:TOC}}
 
 
@@ -147,6 +141,5 @@ Aceste opțiuni avansate de personalizare sunt disponibile de la **Tools -> Cust
 -   [Workbenches](Workbenches.md)
 -   [More about Python](https://www.python.org)
 
-
-
-
+---
+[documentation index](../README.md) > Manual:The FreeCAD Interface/ro

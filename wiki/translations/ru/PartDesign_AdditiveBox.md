@@ -8,6 +8,8 @@
    SeeAlso:[PartDesign Primitive additive](PartDesign_CompPrimitiveAdditive/ru.md)
 ---
 
+# PartDesign AdditiveBox/ru
+
 
 </div>
 
@@ -49,4 +51,7 @@ The Box can be edited after its creation in two ways:
 
 {{PartDesign Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveBox/ru

@@ -8,6 +8,8 @@
    Version:0.15
 ---
 
+# Sketcher SelectOrigin/fr
+
 ## Description
 
 Sélectionne l\'origine d\'une esquisse.
@@ -24,4 +26,7 @@ Sélectionne l\'origine d\'une esquisse.
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectOrigin/fr

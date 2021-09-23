@@ -1,3 +1,4 @@
+# Draft Offset/sv
 ---
 - GuiCommand:/sv   Name:Draft_Offset   Workbenches:[MenuLocation:Draft → Offset   SeeAlso:[[Part_Offset2D/sv|Part 2D Offset](Draft_Workbench/sv___Skiss]].md)---
 
@@ -124,8 +125,5 @@ offset5 = Draft.offset(wire, 1.5*vector, copy=True, occ=True)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Offset/sv

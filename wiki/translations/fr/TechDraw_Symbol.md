@@ -7,6 +7,8 @@
    SeeAlso:[TechDraw Modèles](TechDraw_Templates/fr.md), [Draft SVG](Draft_SVG/fr.md)
 ---
 
+# TechDraw Symbol/fr
+
 ## Description
 
 L\'outil Symbole insère un fichier [SVG](SVG/fr.md) dans la page. Ce symbole peut être tout ce qui peut aider à annoter votre dessin et ne nécessite aucune modification supplémentaire.
@@ -54,4 +56,7 @@ rc = page.addView(sym)
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Symbol/fr

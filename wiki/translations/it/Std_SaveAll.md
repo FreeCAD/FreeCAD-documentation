@@ -8,6 +8,8 @@
    SeeAlso:[Salva](Std_Save/it.md)
 ---
 
+# Std SaveAll/it
+
 
 </div>
 
@@ -55,4 +57,7 @@ Per salvare un documento, utilizzare il metodo `save` dell\'oggetto documento. U
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std SaveAll/it

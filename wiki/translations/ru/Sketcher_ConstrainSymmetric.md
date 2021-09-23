@@ -8,6 +8,8 @@
    SeeAlso:[Ограничение параллельности](Sketcher_ConstrainParallel/ru.md)
 ---
 
+# Sketcher ConstrainSymmetric/ru
+
 ## Описание
 
 **Ограничение симметричности** требует от двух выделенных точек быть симметричными относительно данной линии, то есть от обеих точек требуется лежать на нормали к линии через обе точки на одинаковом расстоянии от линии. Альтернативно, она может наложить ограничение на две точки быть симметричными относительно третьей.
@@ -67,4 +69,7 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainSymmetric/ru

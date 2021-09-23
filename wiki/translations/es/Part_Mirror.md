@@ -1,3 +1,4 @@
+# Part Mirror/es
 ---
 - GuiCommand:/es   Name:Part_Mirror   MenuLocation:Pieza -> Simetría   Workbenches:Pieza,Completo---
 
@@ -42,8 +43,5 @@ The **Base point** boxes can be used to move the mirror plane parallel to the se
 
 -   Arbitrary mirror planes (ie not parallel to a standard plane) are not supported.
 
-
-
-
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Mirror/es

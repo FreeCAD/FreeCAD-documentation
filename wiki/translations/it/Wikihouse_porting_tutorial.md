@@ -1,7 +1,4 @@
 # Wikihouse porting tutorial/it
-
-
-
 {{TutorialInfo/it
 |Topic= Wikihouse porting tutorial
 |Level= Intermediate/Advanced
@@ -165,3 +162,6 @@ L\'ultimo passo è semplicemente quello di selezionare tutti i fogli, poi esport
 ![](images/Arch_Wikihouse_04.jpg )
 
 Questi file sono pronti per essere inviati ai laboratori che faranno il taglio vero e proprio. Sarebbe anche possibile generare il codice G da inviare alla macchina CNC direttamente da FreeCAD, ma questo è materia per un altro tutorial.
+
+---
+[documentation index](../README.md) > Wikihouse porting tutorial/it

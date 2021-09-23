@@ -1,5 +1,5 @@
 # Macro MacroMenu/fr
- {{Macro/fr
+{{Macro/fr
 |Name=Macro MacroMenu
 |Icon=Macro_MacroMenu.png
 |Description=Ajoute les macros trouvées dans le dossier macros au menu Macros FreeCAD
@@ -54,6 +54,5 @@ if macroPath and os.path.isdir(macroPath):
 
 }}
 
-
-
-
+---
+[documentation index](../README.md) > Macro MacroMenu/fr

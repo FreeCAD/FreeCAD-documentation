@@ -1,10 +1,4 @@
 # Draft annotation scale widget/en
-
-
-
-
-
-
 {{TOCright}}
 
 ## Description
@@ -36,8 +30,5 @@ See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Dr
 
 -   See also: [Draft SetStyle](Draft_SetStyle.md) and [Draft ApplyStyle](Draft_ApplyStyle.md).
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft annotation scale widget/en

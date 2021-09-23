@@ -1,3 +1,4 @@
+# Sketcher ViewSketch/cs
 ---
 - GuiCommand:/cs   Name:Sketcher ViewSketch   Name/cs:Skicář Pohled náčrtu   Workbenches:[Návrh dílu](Sketcher_Workbench/cs___Skicář]],_[[PartDesign_Workbench/cs.md)|MenuLocation:Náčrt → Pohled náčrtu---
 
@@ -33,4 +34,7 @@ Když je náčrt v editačním módu, buď
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ViewSketch/cs

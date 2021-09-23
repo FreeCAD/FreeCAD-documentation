@@ -5,6 +5,8 @@
    Workbenches:[Robot](Robot_Workbench.md)
 ---
 
+# Robot TrajectoryDressUp
+
 ## Description
 
 Lets you override one or more properties of a trajectory.
@@ -27,4 +29,7 @@ Resulting in the ability to change values for:
 
 
 
- {{Robot_Tools_navi}}  
+ {{Robot_Tools_navi}}
+
+---
+[documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot TrajectoryDressUp

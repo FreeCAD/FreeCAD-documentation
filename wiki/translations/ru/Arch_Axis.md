@@ -8,6 +8,8 @@
    SeeAlso:[Axis System](Arch_AxisSystem/ru.md), [Arch Grid](Arch_Grid/ru.md)
 ---
 
+# Arch Axis/ru
+
 
 </div>
 
@@ -107,5 +109,5 @@ FreeCAD.ActiveDocument.recompute()
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Axis/ru

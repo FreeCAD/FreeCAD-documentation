@@ -1,3 +1,4 @@
+# Sketcher SelectRedundantConstraints/ro
 ---
 - GuiCommand:/ro   Name:Sketcher SelectRedundantConstraints   Name/ro:Sketcher SelectRedundantConstraints   Workbenches:[[Sketcher Workbench/ro   Sketcher]]|MenuLocation:Sketch → Sketcher tools → Select Redundant Constraints   Shortcut:Shift+Ctrl+R   Version:0.15---
 
@@ -40,4 +41,7 @@ Selectează constrângerile redundante dintr-o schiță.
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectRedundantConstraints/ro

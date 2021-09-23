@@ -1,3 +1,4 @@
+# Std Open/es
 ---
 - GuiCommand:/es   Name:Std Open   MenuLocation:[Workbenches:Todos   SeeAlso:[[Std_Save/es](Std_File_Menu___File]]_→_Open.md),[[Std_Import/es]]---
 
@@ -51,4 +52,7 @@ For a scripting example see [Std New](Std_New#Scripting.md).
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std Open/es

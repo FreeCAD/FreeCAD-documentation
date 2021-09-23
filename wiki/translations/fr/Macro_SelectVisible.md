@@ -1,5 +1,5 @@
 # Macro SelectVisible/fr
- {{Macro/fr
+{{Macro/fr
 |Icon=SelectVisible.png
 |Name=Macro SelectVisible
 |Description=Sélectionne tous les objets visibles.
@@ -53,4 +53,7 @@ else:
     for o in doc.Objects:
         if o.ViewObject.Visibility:
             Gui.Selection.addSelection(o)
-}} 
+}}
+
+---
+[documentation index](../README.md) > Macro SelectVisible/fr

@@ -1,5 +1,5 @@
 # PartDesign Scaled/de
- {{GuiCommand/de
+{{GuiCommand/de
 |Name=PartDesign Scaled
 |Name/de=PartDesign Skalieren
 |Workbenches=[PartDesign](PartDesign_Workbench/de.md), Complete
@@ -41,4 +41,7 @@ Seit FreeCAD 0.15 ist diese Funktion nicht mehr direkt verfügbar, aber als Komp
 
 ![c\|center\|800px](images/mt_example2.png ) The smallest pad was first patterned three times in X direction and then scaled to factor two (so the three occurrences have scaling factor 1.0, 1.5 and 2.0). Then a polar pattern was applied with 8 occurrences.
 
-Since the scaling is done with respect to the center of gravity, in the case of a pad, it is necessary that the pad penetrate also in the main body, otherwise the scaled objects are floating, detached from the body. To have a pad that intersects the main body can be used \"two dimensions\" type or \"simmetric to plane\" option. 
+Since the scaling is done with respect to the center of gravity, in the case of a pad, it is necessary that the pad penetrate also in the main body, otherwise the scaled objects are floating, detached from the body. To have a pad that intersects the main body can be used \"two dimensions\" type or \"simmetric to plane\" option.
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Scaled/de

@@ -6,6 +6,8 @@
    Workbenches:[Curves](Curves_Workbench/fr.md)
 ---
 
+# Curves JoinCurve/fr
+
 ## Description
 
 <img alt="" src=images/Curves_JoinCurve.svg  style="width:24px;"> [Joindre courbe](Curves_JoinCurve/fr.md) joint les arêtes sélectionnées aux courbes BSpline. Cet outil fait partie des [ateliers externes](External_workbenches/fr.md) appelé [Curves](Curves_Workbench/fr.md).
@@ -36,4 +38,7 @@
 
 {{Curves Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > Curves JoinCurve/fr

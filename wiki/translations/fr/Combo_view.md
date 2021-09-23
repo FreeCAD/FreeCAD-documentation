@@ -1,5 +1,5 @@
 # Combo view/fr
- {{TOCright}}
+{{TOCright}}
 
 ## Introduction
 
@@ -54,4 +54,7 @@ Activez ensuite la vue à l\'aide du menu, **Affichage → Panneaux → Vue arbo
 
 {{Std Base navi
 
-}} {{Interface navi}} 
+}} {{Interface navi}}
+
+---
+[documentation index](../README.md) > Combo view/fr

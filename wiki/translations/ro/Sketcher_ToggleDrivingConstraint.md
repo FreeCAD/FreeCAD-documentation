@@ -6,6 +6,8 @@
    SeeAlso:[Toggle Construction](Sketcher_ToggleConstruction.md)
 ---
 
+# Sketcher ToggleDrivingConstraint/ro
+
 
 </div>
 
@@ -64,4 +66,7 @@ Iconița **Toggle Constraint** comută constrângerile dimensionale (bloc, dista
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ToggleDrivingConstraint/ro

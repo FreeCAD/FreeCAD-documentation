@@ -1,3 +1,4 @@
+# Ship Weight/it
 ---
 - GuiCommand:/it   Name:Ship Weight   Name/it:Peso   MenuLocation:Weights → Create a new ship weight   |Workbenches:[[Ship Workbench/it   Ship]]|Shortcut:   SeeAlso:---
 
@@ -16,9 +17,5 @@ Da fare
 
 {{Ship_Tools_navi}}
 
-
-
-
-
-
-
+---
+[documentation index](../README.md) > Ship Weight/it

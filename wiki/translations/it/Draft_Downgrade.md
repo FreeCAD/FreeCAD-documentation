@@ -8,6 +8,8 @@
    SeeAlso:[Promuovi](Draft_Upgrade/it.md), [Taglio di Part](Part_Cut/it.md)
 ---
 
+# Draft Downgrade/it
+
 
 </div>
 
@@ -122,5 +124,5 @@ doc.recompute()
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Downgrade/it

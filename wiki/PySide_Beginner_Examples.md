@@ -1,6 +1,4 @@
 # PySide Beginner Examples
- 
-
 ## Introduction
 
 The purpose of this page is to cover beginner level examples of the [PySide](PySide.md) GUI manager (there are accompanying pages [Intermediate PySide Examples](PySide_Intermediate_Examples.md) and [Advanced PySide Examples](PySide_Advanced_Examples.md)).
@@ -168,3 +166,6 @@ buttonBox = QtGui.QDialogButtonBox(QtCore.Qt.Vertical)
  {{Powerdocnavi}} 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > PySide Beginner Examples

@@ -9,6 +9,8 @@
    SeeAlso:[Tubo](Arch_Pipe/it.md), [Arredo](Arch_Equipment/it.md)
 ---
 
+# Arch PipeConnector/it
+
 
 </div>
 
@@ -99,8 +101,5 @@ FreeCAD.ActiveDocument.recompute()
 
 </div>
 
-
-
-
-
-
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch PipeConnector/it

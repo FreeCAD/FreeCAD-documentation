@@ -8,6 +8,8 @@
    SeeAlso:[Создать B-сплайн](Sketcher_CompCreateBSpline/ru.md)
 ---
 
+# Sketcher BSplineDegree/ru
+
 
 </div>
 
@@ -27,4 +29,7 @@ Shows or hides the display of the **degree** of a B-spline (see [this page](B-Sp
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineDegree/ru

@@ -6,3 +6,6 @@ This category lists templates that produce text boxes used for documenting comma
 [Template:Macro/sv](Template:Macro/sv.md)
 
 [Category:Template/sv](Category:Template/sv.md)
+
+---
+[documentation index](../README.md) > Category:Template:Doc/sv

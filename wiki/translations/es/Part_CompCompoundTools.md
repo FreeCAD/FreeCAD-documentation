@@ -7,6 +7,8 @@
    SeeAlso:
 ---
 
+# Part CompCompoundTools/es
+
 
 </div>
 
@@ -29,5 +31,5 @@ Un conjunto de varias herramientas compuestas.
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompCompoundTools/es

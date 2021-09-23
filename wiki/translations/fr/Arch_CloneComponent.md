@@ -8,6 +8,8 @@
    SeeAlso:[Draft Clone](Draft_Clone/fr.md), [Arch Composant](Arch_Component/fr.md)
 ---
 
+# Arch CloneComponent/fr
+
 ## Description
 
 
@@ -26,8 +28,5 @@ Le composant clone aura simplement sa propriété {{PropertyData/fr|CloneOf}} d�
 
 ## Script
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CloneComponent/fr

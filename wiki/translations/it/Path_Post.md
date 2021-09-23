@@ -1,3 +1,4 @@
+# Path Post/it
 ---
 - GuiCommand:/it   Name:Path PostProcess   Name/it:Post elaborazione   Workbenches:[[Path Workbench/it   Path]]|MenuLocation:Path → Post-elaborazione   Shortcut:P,P   SeeAlso:---
 
@@ -123,4 +124,7 @@ Included Postprocessors are saved in the **FreeCAD.Mod.Path.Pathscripts.Post** b
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Post/it

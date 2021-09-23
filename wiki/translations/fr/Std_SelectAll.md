@@ -7,6 +7,8 @@
    SeeAlso:[Sélection par boîte](Std_BoxSelection/fr.md), [Sélection d'éléments](Std_BoxElementSelection/fr.md)
 ---
 
+# Std SelectAll/fr
+
 ## Description
 
 La commande **Std Tout Sélectionner** sélectionne tous les objets dans la [vue en arborescence](tree_view/fr.md).
@@ -25,4 +27,7 @@ La commande **Std Tout Sélectionner** sélectionne tous les objets dans la [vue
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std SelectAll/fr

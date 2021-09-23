@@ -7,6 +7,8 @@
    SeeAlso:[Part FaceColors](Part_FaceColors.md)
 ---
 
+# Std SetAppearance
+
 ## Description
 
 The **Std SetAppearance** command shows the Display properties [task panel](Task_panel.md) for selected objects.
@@ -50,4 +52,7 @@ The **Std SetAppearance** command shows the Display properties [task panel](Task
 
 
 
- {{Std Base navi}}  
+ {{Std Base navi}}
+
+---
+[documentation index](../README.md) > Std SetAppearance

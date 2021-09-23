@@ -1,7 +1,4 @@
 # Macro Spreadsheet2html
- 
-
-
 {{Macro
 |Name=Spreadsheet2html
 |Description=Exports a fc spreadsheet as html.
@@ -404,3 +401,6 @@ print('Exported spreadsheet as html.')
 ## Version
 
 v0.1 2021-08-09 : first release
+
+---
+[documentation index](../README.md) > Macro Spreadsheet2html

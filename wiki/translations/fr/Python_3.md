@@ -1,7 +1,4 @@
 # Python 3/fr
-
-
-
 **
 This roadmap is probably obsolete. For more information see [Development roadmap](Development_roadmap.md).<br>
 If you are not involved with the development discussed here:<br>
@@ -154,3 +151,6 @@ conda build . --python=3.6 --dirty
 
 
 [Category:User Documentation](Category:User_Documentation.md) [Category:Administration](Category:Administration.md)
+
+---
+[documentation index](../README.md) > [User Documentation](Category:User Documentation.md) > Python 3/fr

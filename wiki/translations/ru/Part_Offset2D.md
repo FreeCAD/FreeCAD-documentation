@@ -8,6 +8,8 @@
    SeeAlso:[Part Offset 3D](Part_Offset/ru.md), [Part Thickness](Part_Thickness/ru.md), [Draft Offset](Draft_Offset/ru.md)
 ---
 
+# Part Offset2D/ru
+
 
 </div>
 
@@ -118,8 +120,5 @@ Part.show(enlarged_circle)
 # structure follows that of source shape.
 }}
 
-
-
-
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Offset2D/ru

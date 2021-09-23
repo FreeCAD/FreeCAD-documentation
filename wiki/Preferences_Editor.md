@@ -1,11 +1,4 @@
 # Preferences Editor
- 
-
-
-
-
- 
-
 ## Introduction
 
 To start the **Preferences editor** select the **Edit → Preferences...** option from the menu. On the Mac OS the **Preferences...** option appears in the **FreeCAD** menu instead (this is the default place for preferences on the Mac).
@@ -690,3 +683,6 @@ For a scripting example see [Std DlgParameter](Std_DlgParameter.md).
  
 
 [Category:Preferences](Category:Preferences.md)
+
+---
+[documentation index](../README.md) > [Preferences](Category:Preferences.md) > Preferences Editor

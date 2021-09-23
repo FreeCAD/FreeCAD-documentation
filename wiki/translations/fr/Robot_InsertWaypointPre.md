@@ -8,6 +8,8 @@
    SeeAlso:---
 ---
 
+# Robot InsertWaypointPre/fr
+
 
 </div>
 
@@ -60,4 +62,7 @@ Les objets sélectionnables sont:
 
 {{Robot_Tools_navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot InsertWaypointPre/fr

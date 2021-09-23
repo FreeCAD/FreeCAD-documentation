@@ -1,5 +1,5 @@
 # Macro Unfold Box/fr
- {{Macro/fr
+{{Macro/fr
 |Name=Macro Unfold Box
 |Icon=Macro_Unfold_Box.png
 |Description=La macro permet de déplier les surfaces d'un objet de n'importe quelle forme et la dessiner sur une page.<br/>
@@ -601,3 +601,5 @@ DialogBox.show()
 </nowiki>
 }}
 
+---
+[documentation index](../README.md) > Macro Unfold Box/fr

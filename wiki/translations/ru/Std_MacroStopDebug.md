@@ -8,6 +8,8 @@
    SeeAlso:[Отладка макросов](Std_MacroStartDebug/ru.md)
 ---
 
+# Std MacroStopDebug/ru
+
 ## Описание
 
 Эта команда не работает в настоящее время.
@@ -18,4 +20,7 @@
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std MacroStopDebug/ru

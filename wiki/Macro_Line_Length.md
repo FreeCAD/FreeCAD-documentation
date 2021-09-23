@@ -1,5 +1,5 @@
 # Macro Line Length
-  {{Macro
+{{Macro
 |Name=Macro Line Length
 |Icon=Macro_Line_Length.png
 |Description=Create a line giving as an argument the XYZ coordinates, length, and angle. The new line is created in the real coordinate of object, not in the coordinate of the Body.<br/>{{ColoredText|(Command line, paste this complete macro in the Python console)}}.
@@ -79,3 +79,5 @@ or choice
 >>> line_length(length = 50, angle = 45)
 ```
 
+---
+[documentation index](../README.md) > Macro Line Length

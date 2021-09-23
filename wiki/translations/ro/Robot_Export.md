@@ -1,3 +1,4 @@
+# Robot Export/ro
 ---
 - GuiCommand:   Name:Robot Export   Workbenches:[[Robot_Workbench   Robot]]|MenuLocation:Robot → Export trajectory---
 
@@ -58,4 +59,7 @@ Un fișier KRL cu extensia (\*.src) va fi creat.
 
 {{Robot_Tools_navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot Export/ro

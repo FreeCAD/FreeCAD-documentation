@@ -1,3 +1,4 @@
+# Std DuplicateSelection/de
 ---
 - GuiCommand:/de   Name:Std DuplicateSelection   Name/de:Std Auswahl duplizieren   MenuLocation:Bearbeiten → Auswahl duplizieren   Shortcut:    Workbenches:Alle   SeeAlso:[Kopieren](Std_Copy/de.md), [Einfügen](Std_Paste/de.md)---
 
@@ -51,4 +52,7 @@ Mehr Einzelheiten zum Replizieren von Objekten gibt es auf der [Objekte kopieren
 
 {{Std Base navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > Std DuplicateSelection/de

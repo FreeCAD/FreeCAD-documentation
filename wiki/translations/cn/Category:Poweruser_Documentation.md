@@ -4,3 +4,6 @@ This category shows documentation articles dealing with python scripting, which 
 ### Contents:
 
 [Category:Documentation/cn](Category:Documentation/cn.md)
+
+---
+[documentation index](../README.md) > Category:Poweruser Documentation/cn

@@ -1,6 +1,4 @@
 # Artwork ReverseEngineering/fr
- 
-
 Ces icônes se trouvent dans le chemin source indiqué.
 
 Pour toutes les icônes de l\'arborescence source, voir [Graphisme](Artwork/fr.md).
@@ -21,3 +19,6 @@ Pour toutes les icônes de l\'arborescence source, voir [Graphisme](Artwork/fr.m
 }} 
 
 [Category:Reverse Engineering](Category:Reverse_Engineering.md)
+
+---
+[documentation index](../README.md) > [Reverse Engineering](Category:Reverse Engineering.md) > Artwork ReverseEngineering/fr

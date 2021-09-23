@@ -6,6 +6,8 @@
    Workbenches:[Path](Path_Workbench/fr.md)
 ---
 
+# Path Engrave/fr
+
 ## Description
 
 L\'outil <img alt="" src=images/Path_Engrave.svg  style="width:24px;"> [Path Gravure](Path_Engrave/fr.md) sert principalement à graver une <img alt="" src=images/Draft_ShapeString.svg  style="width:24px;">[Draft Forme à partir d\'un texte](Draft_ShapeString/fr.md) sur une pièce, il peut être utile pour d\'autres types de 2D.
@@ -98,4 +100,7 @@ Exemple :
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Engrave/fr

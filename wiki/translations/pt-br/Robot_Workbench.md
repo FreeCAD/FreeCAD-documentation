@@ -1,10 +1,4 @@
 # Robot Workbench/pt-br
-
-
-
-
-
-
 **O Robot Workbench não está em manutenção. Se você tem experiência com o tópico e está interessado em mantê-lo, por favor, declare sua intenção na seção de desenvolvedores no  [https://forum.freecadweb.org/index.php forum FreeCAD].
 
 A razão pela qual esta bancada de trabalho ainda está no código-fonte mestre é porque esta bancada de trabalho está programada em C++. Se esta bancada de trabalho pudesse ser programada em Python, então ela poderia ser feita em uma  [bancada de trabalho externa](external_workbenches/pt-br.md) e poderia ser movida para um repositório separado.
@@ -81,3 +75,6 @@ Veja o exemplo [Robot API](Robot_API_example/pt-br.md) para obter uma descriçã
 }} 
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Robot Workbench/pt-br

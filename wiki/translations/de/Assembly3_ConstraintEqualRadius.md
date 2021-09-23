@@ -6,6 +6,8 @@
    Workbenches:[Assembly3](Assembly3_Workbench/de.md)
 ---
 
+# Assembly3 ConstraintEqualRadius/de
+
 ## Beschreibung
 
 Der Befehl <img alt="" src=images/Assembly_ConstraintEqualRadius.svg  style="width:16px;"> [Gleicher Radius](Assembly3_ConstraintEqualRadius/de.md) legt den Radius eines 2D-Kreises oder Bogens fest, der mit Werkzeugen der <img alt="" src=images/Workbench_Draft.svg  style="width:16px;"> [Draft](Draft_Workbench/de.md)-Arbeitsumgebung in Verbindung mit einer <img alt="" src=images/Assembly_Workplane.svg  style="width:16px;"> Arbeitsebene erstellt wurde.
@@ -26,8 +28,5 @@ Der Radius des ersten Kreises oder Bogens ist gleich dem Radius des zweiten Krei
 
     :   (Wenn **<img src="images/Assembly_AutoRecompute.svg" width=16px> [Automatische Berechnung](Assembly3_AutoRecompute/de.md)** und **<img src="images/Assembly_SmartRecompute.svg" width=16px> [Smarte Berechnung](Assembly3_SmartRecompute/de.md)** nicht aktiviert wurden).
 
-
-
-
-
-
+---
+[documentation index](../README.md) > Assembly3 ConstraintEqualRadius/de

@@ -8,6 +8,8 @@
    SeeAlso:[Part Intégrer des objets](Part_JoinEmbed/fr.md), [Part Découpe](Part_JoinCutout/fr.md), [Part Opération booléenne](Part_Boolean/fr.md), [Part Évidement](Part_Thickness/fr.md)
 ---
 
+# Part JoinConnect/fr
+
 ## Description
 
 Outil de connexion pour joindre deux objets creux (par exemple deux tuyaux). Peut aussi joindre des coques et des fils.
@@ -90,8 +92,5 @@ j.Objects = FreeCADGui.Selection.getSelection()
 
 -   L\'outil a été ré-implémenté pour fonctionner via generalFuse dans FreeCAD V0.17.8053
 
-
-
-
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part JoinConnect/fr

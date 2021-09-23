@@ -9,6 +9,8 @@
    Version:0.17
 ---
 
+# EM FHPlaneAddRemoveNodeHole/it
+
 ## Descrizione
 
 The FHPlaneAddRemoveNodeHole tool inserts or removes FHNodes or FHPlaneHoles from a FHPlane object.
@@ -43,4 +45,7 @@ To add or remove FHNode or FHPlaneHole objects from a FHPlane via Python scripti
 
 {{EM Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > EM FHPlaneAddRemoveNodeHole/it

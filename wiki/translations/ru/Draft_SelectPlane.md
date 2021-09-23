@@ -8,6 +8,8 @@
    SeeAlso:[Draft SetWorkingPlaneProxy](Draft_SetWorkingPlaneProxy/ru.md), [Draft ToggleGrid](Draft_ToggleGrid/ru.md)
 ---
 
+# Draft SelectPlane/ru
+
 
 </div>
 
@@ -145,5 +147,5 @@ print(projection)
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft SelectPlane/ru

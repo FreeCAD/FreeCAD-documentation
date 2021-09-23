@@ -1,7 +1,4 @@
 # Online Help Toc/sv
-
-
-
 <div class="mw-translate-fuzzy">
 
 Här är innehållslistan för On-line Hjälpsystemet i FreeCAD. De artiklar som refereras här inkluderas automatiskt i FreeCAD.chm filen med verktyget wiki2chm.py. Du hittar det verktyget under src/Tools/wiki2chm.py. En [utskrivningsbar version](Manual/sv.md) av denna manual finns också.
@@ -168,3 +165,6 @@ There is another table of contents for the [FreeCAD MANUAL](Manual:Introduction.
 
 
 [Category:Documentation/sv](Category:Documentation/sv.md) [Category:Documentation](Category:Documentation.md)
+
+---
+[documentation index](../README.md) > [Documentation](Category:Documentation.md) > Online Help Toc/sv

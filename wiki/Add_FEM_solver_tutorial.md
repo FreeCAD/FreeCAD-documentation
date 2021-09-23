@@ -1,10 +1,4 @@
 # Add FEM solver tutorial
-
-
-
- 
-
-
 {{TutorialInfo
 |Topic= Add FEM Solver
 |Level= 
@@ -31,3 +25,6 @@ The task can be split into seven parts:
 
 
 [Category:FEM](Category:FEM.md)
+
+---
+[documentation index](../README.md) > [FEM](Category:FEM.md) > Add FEM solver tutorial

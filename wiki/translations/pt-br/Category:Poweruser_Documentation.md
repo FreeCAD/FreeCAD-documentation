@@ -6,3 +6,6 @@ This category shows documentation articles dealing with python scripting, which 
 [Path experimental/pt-br](Path_experimental/pt-br.md)
 
 [Category:Documentation/pt-br](Category:Documentation/pt-br.md)
+
+---
+[documentation index](../README.md) > Category:Poweruser Documentation/pt-br

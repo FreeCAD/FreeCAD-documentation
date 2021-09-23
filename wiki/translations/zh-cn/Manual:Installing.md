@@ -1,7 +1,4 @@
 # Manual:Installing/zh-cn
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -132,3 +129,6 @@ FreeCAD 在 Windows，Mac OS 和 Linux 上行为一致。但是，平台不同�
 </div>
 
 [Category:Poweruser Documentation](Category:Poweruser_Documentation.md) [Category:Tutorials](Category:Tutorials.md)
+
+---
+[documentation index](../README.md) > [Poweruser Documentation](Category:Poweruser Documentation.md) > Manual:Installing/zh-cn

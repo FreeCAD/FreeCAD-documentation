@@ -7,6 +7,8 @@
    MenuLocation:Nessuno (solo sulla barra degli strumenti)
 ---
 
+# Sketcher CompCreateArc/it
+
 
 </div>
 
@@ -31,4 +33,7 @@
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CompCreateArc/it

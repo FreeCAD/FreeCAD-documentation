@@ -1,3 +1,4 @@
+# PartDesign Chamfer/it
 ---
 - GuiCommand:/it   Name:PartDesign Chamfer
    Name/it:Smusso
@@ -58,4 +59,7 @@ Questo strumento applica degli smussi ai bordi di un oggetto selezionato. All\'a
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Chamfer/it

@@ -8,6 +8,8 @@
    SeeAlso:[Draft Text](Draft_Text/es.md), [Part Extrude](Part_Extrude/es.md)
 ---
 
+# Draft ShapeString/es
+
 
 </div>
 
@@ -185,8 +187,5 @@ S3.Placement.Rotation = App.Rotation(zaxis, 180)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ShapeString/es

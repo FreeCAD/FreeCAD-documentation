@@ -1,5 +1,5 @@
 # Matrix API/pl
- **''(Październik 2019)'' Nie edytuj tych stron. Informacje są niekompletne i nieaktualne. Najnowsze API można znaleźć w [https://www.freecadweb.org/api automatycznie generowana dokumentacja API], lub wygenerować dokumentację samodzielnie, śledząc dokument [Dokumentacja źródłowa](Source_documentation/pl.md).**
+**''(Październik 2019)'' Nie edytuj tych stron. Informacje są niekompletne i nieaktualne. Najnowsze API można znaleźć w [https://www.freecadweb.org/api automatycznie generowana dokumentacja API], lub wygenerować dokumentację samodzielnie, śledząc dokument [Dokumentacja źródłowa](Source_documentation/pl.md).**
 
 Macierze 4x4 są używane we wszystkich miejscach programu FreeCAD i mogą być tworzone w jeden z następujących sposobów: 
 ```python
@@ -96,3 +96,6 @@ print m.A21()               # print m[1][0]
  
 
 [Category:API](Category:API.md) [Category:Poweruser Documentation](Category:Poweruser_Documentation.md)
+
+---
+[documentation index](../README.md) > [API](Category:API.md) > Matrix API/pl

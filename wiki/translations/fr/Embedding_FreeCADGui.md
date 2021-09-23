@@ -1,6 +1,4 @@
 # Embedding FreeCADGui/fr
-
-
 ## Introduction
 
 Il est possible d\'[importer le module FreeCAD](Embedding_FreeCAD/fr.md) dans une application [Python](Python/fr.md) et d\'utiliser tous les outils de l\'application hôte. Mais l\'interface graphique pour utilisateur FreeCAD (GUI) peut également être importée en tant que module Python. Normalement, vous pouvez importer l\'interface complète dans son ensemble, et non pas des portions de celui-ci. C\'est parce que le système d\'interface FreeCAD n\'est pas seulement faite de widgets indépendants et de barres d\'outils mais est une construction complexe où plusieurs composants invisibles (tels que le système de sélection, etc.) sont nécessaires pour que la [vue 3D](3D_view/fr.md) puisse fonctionner.
@@ -490,3 +488,6 @@ Dans le code source, il existe des exemples d\'intégration de FreeCAD avec dive
 }} 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Embedding FreeCADGui/fr

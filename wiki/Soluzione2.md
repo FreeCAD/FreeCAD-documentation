@@ -1,5 +1,4 @@
 # Soluzione2
-
 **pagina in costruzione**
 
 ## Costruzione di contorno completamente vincolato 
@@ -90,3 +89,6 @@ Torna a [Esercitazioni](Esercitazioni.md)
 {{languages/it | }}
 
 [Category:Documentation/it](Category:Documentation/it.md) [Category:Tutorials/it](Category:Tutorials/it.md)
+
+---
+[documentation index](../README.md) > Soluzione2

@@ -7,6 +7,8 @@
    Version:0.7
 ---
 
+# Draft Point/fr
+
 ## Description
 
 La commande <img alt="" src=images/Draft_Point.svg  style="width:24px;"> **Draft Point** crée un point simple. Les Draft Points peuvent être utiles comme référence pour placer des lignes, des fils ou d\'autres objets.
@@ -138,8 +140,5 @@ for i in range(N):
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Point/fr

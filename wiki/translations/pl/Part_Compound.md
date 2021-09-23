@@ -8,6 +8,8 @@
    SeeAlso:[Suma](Part_Fuse/pl.md), [Filtr złożeń](Part_CompoundFilter/pl.md), [Rozbij złożenie](Part_ExplodeCompound/pl.md)
 ---
 
+# Part Compound/pl
+
 ## Wprowadzenie
 
 To polecenie tworzy połączenie dowolnego rodzaju kształtów topologicznych. Mogą to być bryły, siatki lub każdy inny rodzaj kształtów powierzchni.
@@ -25,8 +27,5 @@ Złożenie zawierające elementy, które przecinają się lub dotykają, jest **
 
 Aby uaktywnić tę kontrolę, przejdź do **Narzędzia → Edycja Parametrów → Preferences... → Mod → Part → CheckGeometry → RunBOPCheck** i ustaw parametr na `true`.
 
-
-
-
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Compound/pl

@@ -7,6 +7,8 @@
    SeeAlso:[TechDraw ArchAnsicht](TechDraw_ArchView/de.md)
 ---
 
+# TechDraw DraftView/de
+
 ## Beschreibung
 
 Das <img alt="" src=images/TechDraw_DraftView.svg  style="width:24px;"> [EntwurfAnsicht](TechDraw_DraftView/de.md) Werkzeug fügt eine Ansicht eines ausgewählten [Part](Part_Workbench/de.md)-basierten oder Gruppenobjekts in ein Zeichenblatt ein. Im Gegensatz zum Standard <img alt="" src=images/TechDraw_View.svg  style="width:24px;"> [Ansicht](TechDraw_View/de.md) Werkzeug, werden die mit diesem Werkzeug erstellten Ansichten mit dem <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Entwurf Arbeitsbereich](Draft_Workbench/de.md) bearbeitet und speziell für die Darstellung von 2D-Objekten entwickelt. Siehe Anmerkungen.
@@ -72,4 +74,7 @@ rc = page.addView(dv)
 
 {{TechDraw Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw DraftView/de

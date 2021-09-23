@@ -7,6 +7,8 @@
    SeeAlso:[[BIM IfcProperties]],[[BIM IfcQuantities]]
 ---
 
+# BIM IfcElements
+
 ## Description
 
 <img alt="" src=images/BIM_ifcelements_screenshot.png  style="width:1024px;">
@@ -20,4 +22,5 @@ With it, you can:
 -   Change their IFC type either by clicking an individual type or, if more than one is selected, using the \"change type to:\" drop-down menu
 -   Change their material either by clicking an individual material or, if more than one is selected, using the \"change material to:\" drop-down menu
 
-
+---
+[documentation index](../README.md) > BIM IfcElements

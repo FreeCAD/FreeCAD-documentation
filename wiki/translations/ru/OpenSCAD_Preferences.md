@@ -1,7 +1,4 @@
 # OpenSCAD Preferences/ru
-
-
-
 <div class="mw-translate-fuzzy">
 
 Экран настроек OpenScad находится в окне «Настройки» (Редактирование меню → Настройки → OpenSCAD).
@@ -29,3 +26,6 @@ There is only one tab: General settings.
 }} 
 
 [Category:Preferences](Category:Preferences.md)
+
+---
+[documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD Preferences/ru

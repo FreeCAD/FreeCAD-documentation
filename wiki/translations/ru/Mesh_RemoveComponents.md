@@ -8,6 +8,8 @@
    SeeAlso:
 ---
 
+# Mesh RemoveComponents/ru
+
 
 </div>
 
@@ -42,4 +44,7 @@ The **Mesh RemoveComponents** command removes faces from mesh objects.
 
 {{Mesh Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh RemoveComponents/ru

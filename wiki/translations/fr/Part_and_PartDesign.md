@@ -1,5 +1,5 @@
 # Part and PartDesign/fr
- {{TOCright}}
+{{TOCright}}
 
 ## Présentation
 
@@ -172,4 +172,7 @@ Les ateliers Part et PartDesign peuvent être utilisés ensemble, avec un peu de
 
 {{Tutorials navi
 
-}}  {{PartDesign Tools navi}} {{Sketcher Tools navi}} 
+}}  {{PartDesign Tools navi}} {{Sketcher Tools navi}}
+
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part and PartDesign/fr

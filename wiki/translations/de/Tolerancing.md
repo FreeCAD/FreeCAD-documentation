@@ -1,7 +1,4 @@
 # Tolerancing/de
-
-
-
 **
 This roadmap is probably obsolete. For more information see [Development roadmap](Development_roadmap.md).<br>
 If you are not involved with the development discussed here:<br>
@@ -83,3 +80,6 @@ Es gibt zwei Ansätze zur Angabe von Produkt- und Herstellungsinformationen (PMI
 -   [Straight To The Point Engineering (Video tutorials)](https://www.youtube.com/c/StraightToThePointEngineering/videos?view=0&sort=da&flow=grid)
 
 [Category:Roadmap](Category:Roadmap.md) [Category:TechDraw](Category:TechDraw.md)
+
+---
+[documentation index](../README.md) > [Roadmap](Category:Roadmap.md) > Tolerancing/de

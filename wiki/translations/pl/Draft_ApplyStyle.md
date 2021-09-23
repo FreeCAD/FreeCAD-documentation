@@ -7,6 +7,8 @@
    SeeAlso:[Ustaw styl](Draft_SetStyle/pl.md)
 ---
 
+# Draft ApplyStyle/pl
+
 ## Opis
 
 Polecenie środowiska Rysunek Roboczy <img alt="" src=images/Draft_ApplyStyle.svg  style="width:24px;"> **Zastosuj bieżący styl** stosuje bieżące ustawienia stylu do wybranych obiektów.
@@ -38,8 +40,5 @@ To polecenie obsługuje obecnie tylko pięć ustawień:
 
 -   W wersji FreeCAD v0.20 polecenie [Ustaw styl](Draft_SetStyle/pl.md) może również zastosować te ustawienia.
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ApplyStyle/pl

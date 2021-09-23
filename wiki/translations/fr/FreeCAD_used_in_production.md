@@ -1,9 +1,4 @@
 # FreeCAD used in production/fr
-
-
-
-
-
 ## Aperçu
 
 
@@ -87,3 +82,6 @@ Afin d\'ajouter quoi que ce soit à cette liste, cela doit être approuvé par l
 
 
 [Category:Common Questions](Category:Common_Questions.md)
+
+---
+[documentation index](../README.md) > [Common Questions](Category:Common Questions.md) > FreeCAD used in production/fr

@@ -1,3 +1,4 @@
+# Part Torus/it
 ---
 - GuiCommand:/it   Name:Part Torus   Name/it:Toro   MenuLocation:Parte → Primitive → Toro   Workbenches:[SeeAlso: [[Part_CreatePrimitives/it|Crea primitive](Part_Workbench/it___Parte]].md)---
 
@@ -79,5 +80,5 @@ nonché la serie standard di parametri di posizionamento. Le immagini sottostant
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Torus/it

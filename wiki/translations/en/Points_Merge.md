@@ -5,6 +5,8 @@
    Workbenches:[Points](Points_Workbench.md)
 ---
 
+# Points Merge/en
+
 ## Description
 
 The **Points Merge** command creates a point cloud by combining the points of two or more point clouds.
@@ -24,4 +26,7 @@ See [Points Convert](Points_Convert.md).
 
 {{Points Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Points](Points_Workbench.md) > Points Merge/en

@@ -1,5 +1,5 @@
 # History/zh-cn
- \_\_FORCETOC\_\_
+\_\_FORCETOC\_\_
 
 
 <div class="mw-translate-fuzzy">
@@ -178,3 +178,6 @@ In April 2019 the team of core developers was expanded: Jürgen, Werner and Yori
 -   [Announcing FreeCAD Project](http://www.opencascade.org/org/forum/thread_6572/?forum=11) on the OpenCascade forum
 
 [Category:News](Category:News.md)
+
+---
+[documentation index](../README.md) > [News](Category:News.md) > History/zh-cn

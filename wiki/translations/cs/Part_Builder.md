@@ -1,3 +1,4 @@
+# Part Builder/cs
 ---
 - GuiCommand:/cs   Name:Part Shapebuilder   Name/cs:Part Shapebuilder   MenuLocation:Part -> Shapebuilder...   |Workbenches:[SeeAlso:[[Part_CreatePrimitives/cs|Part CreatePrimitives](Part_Workbench/cs___Part]].md)---
 
@@ -67,8 +68,5 @@ A possible workflow could be:
 -   Create a \"shell from faces\"
 -   Create a \"solid from shell\"
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Builder/cs

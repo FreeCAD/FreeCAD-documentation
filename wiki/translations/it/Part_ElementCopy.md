@@ -8,6 +8,8 @@
    SeeAlso:[Copia semplice](Part_SimpleCopy/it.md), [Copia modificata](Part_TransformedCopy/it.md), [Affina forma](Part_RefineShape/it.md)
 ---
 
+# Part ElementCopy/it
+
 
 </div>
 
@@ -50,8 +52,5 @@ La copia ha una semplice proprietà vista come qualsiasi altra [Part Feature](Pa
 
 </div>
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part ElementCopy/it

@@ -7,6 +7,8 @@
    Shortcut:**Echap**
 ---
 
+# Std ToggleNavigation/fr
+
 ## Description
 
 La commande **Std Bascule en mode navigation** est destinée à certaines opérations d\'inspection et à certaines opérations d\'édition de maillage interactif. Ces opérations sont assez «coûteuses» et reposent donc sur un mode d\'édition au cours duquel la plupart des options de navigation sont désactivées. Avec cette commande, il est possible de passer temporairement du mode édition au mode navigation et après avoir changé la [vue 3D](3D_view/fr.md) de revenir en mode édition.
@@ -49,4 +51,7 @@ Ne confondez pas cette commande avec la commande [Std Mode édition](Std_Edit/fr
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ToggleNavigation/fr

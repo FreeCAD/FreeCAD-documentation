@@ -8,3 +8,6 @@ Special pages are [Offsite tutorials](Offsite_tutorials.md) and [Video tutorials
 [Tutorials/bg](Tutorials/bg.md)
 
 [Category:Categories/bg](Category:Categories/bg.md)
+
+---
+[documentation index](../README.md) > Category:Tutorials/bg

@@ -7,6 +7,8 @@
    SeeAlso:[Arch Soustraire](Arch_Remove/fr.md)
 ---
 
+# Arch Add/fr
+
 ## Description
 
 L\'outil Ajouter vous permet de faire 4 types d\'opérations :
@@ -75,11 +77,5 @@ Arch.addComponents(Wall2, Wall)
 FreeCAD.ActiveDocument.recompute()
 ```
 
-
-
-
-
-
-
-
-
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Add/fr

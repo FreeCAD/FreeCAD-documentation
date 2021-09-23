@@ -7,6 +7,8 @@
    Version:0.17
 ---
 
+# Spreadsheet MergeCells/ru
+
 ## Описание
 
 Инструмент **<img src=images/Spreadsheet_MergeCells.svg style="width:16px"> [Объединить ячейки](Spreadsheet_MergeCells/ru.md)** объединяет не менее чем две выделенные ячейки в существующей электронной таблице в активном документе.
@@ -23,4 +25,7 @@
 
 {{Spreadsheet_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet MergeCells/ru

@@ -1,10 +1,4 @@
 # Workbench creation/zh-tw
-
-
-
-
-
-
 {{TOCright}}
 
 ## Introduction
@@ -398,3 +392,6 @@ os.remove(qrc_filename)
 }} 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+
+---
+[documentation index](../README.md) > Workbench creation/zh-tw

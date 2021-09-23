@@ -1,10 +1,4 @@
 # Debugging/fr
-
-
-
-
-
-
 {{TOCright}}
 
 ## Premier test 
@@ -335,3 +329,6 @@ Pour les développeurs qui ont besoin d\'approfondir le noyau d\'OpenCasCade, l\
 }} 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Debugging/fr

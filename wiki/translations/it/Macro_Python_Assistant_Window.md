@@ -1,5 +1,5 @@
 # Macro Python Assistant Window/it
- {{Macro/it
+{{Macro/it
 |Name=Macro Python Assistant Window
 |Translate=Python Assistant Window
 |Description=Questa macro fornisce un ambiente di lavoro per tagliare/copiare/incollare del codice Python, segmentato in modo che possono essere selezionate differenti sezioni ed è persistente tra le sessioni di FreeCAD.
@@ -640,6 +640,5 @@ ToolBar Icon ![](images/Macro_Python_Assistant_Window.png )
     #
     #thus ends the macro...
 
-
-
-
+---
+[documentation index](../README.md) > Macro Python Assistant Window/it

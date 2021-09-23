@@ -8,6 +8,8 @@
    SeeAlso:[Структура](Arch_Structure/ru.md), [Arch Panel Cut](Arch_Panel_Cut/ru.md), [Arch Panel Sheet](Arch_Panel_Sheet/ru.md)
 ---
 
+# Arch Panel/ru
+
 
 </div>
 
@@ -121,5 +123,5 @@ Panel = Arch.makePanel(Rect, thickness=36)
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Panel/ru

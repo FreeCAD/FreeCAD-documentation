@@ -1,7 +1,4 @@
 # Python scripting tutorial/fr
-
-
-
 {{TOCright}}
 
 ## Introduction
@@ -292,3 +289,6 @@ Vous êtes maintenant prêt pour des scripts FreeCAD plus approfondis. Alors ren
 }} 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Python scripting tutorial/fr

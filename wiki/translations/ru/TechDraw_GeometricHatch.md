@@ -7,6 +7,8 @@
    SeeAlso:[Штриховать грань, используя файл изображения](TechDraw_Hatch/ru.md), [Штриховка](TechDraw_Hatching/ru.md)
 ---
 
+# TechDraw GeometricHatch/ru
+
 ## Описание
 
 Инструмент GeometricHatch заполняет замкнутый регион внутри вида шаблоном, базирующимся на спецификации AutoDesk PAT hatching. **В качестве альтернативы**, инструмент [Hatch](TechDraw_Hatch/ru.md) использует качестве рисунка штриховки файл в формате [SVG](SVG/ru.md) или [растровый](bitmap/ru.md), подробности см. в [Hatching](TechDraw_Hatching/ru.md).
@@ -92,4 +94,7 @@ Part.show(hatch)
 
 {{TechDraw Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw GeometricHatch/ru

@@ -1,3 +1,4 @@
+# TechDraw HorizontalDimension/ro
 ---
 - GuiCommand:   Name:TechDraw  Dimension Horizontal   Workbenches:[[TechDraw_Workbench   TechDraw]]|MenuLocation:TechDraw → Dimension Horizontal   Shortcut:   SeeAlso:---
 
@@ -65,4 +66,7 @@ rc = page.addView(dim1)
 
 {{TechDraw Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw HorizontalDimension/ro

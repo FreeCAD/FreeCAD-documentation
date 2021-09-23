@@ -8,6 +8,8 @@
    SeeAlso:[Edificio](Arch_Building/it.md), [Sito](Arch_Site/it.md)
 ---
 
+# Arch Floor/it
+
 
 </div>
 
@@ -85,8 +87,5 @@ FreeCAD.ActiveDocument.recompute()
 
 </div>
 
-
-
-
-
-
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Floor/it

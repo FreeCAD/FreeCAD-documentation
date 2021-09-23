@@ -8,6 +8,8 @@
    SeeAlso:[Создать полилинию](Sketcher_CreatePolyline/ru.md)
 ---
 
+# Sketcher CreateLine/ru
+
 ## Описание
 
 Этот инструмент рисует линию, в качестве основы выбирая две точки в 3D-виде. При запуске инструмента указатель мыши меняется на белый крест с иконкой красной линии. Кроме того, координаты отображаются в режиме реального времени.
@@ -33,4 +35,7 @@
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateLine/ru

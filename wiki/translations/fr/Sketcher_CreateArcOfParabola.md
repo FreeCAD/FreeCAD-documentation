@@ -8,6 +8,8 @@
    SeeAlso:[Sketcher Arc d'ellipse](Sketcher_CreateArcOfEllipse/fr.md), [Sketcher Arc d'hyperbole](Sketcher_CreateArcOfHyperbola.md)
 ---
 
+# Sketcher CreateArcOfParabola/fr
+
 ## Description
 
 Cet outil créé un arc de parabole par le foyer, le vertex et les points d\'extrémités.
@@ -28,4 +30,7 @@ Cet outil créé un arc de parabole par le foyer, le vertex et les points d\'ext
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateArcOfParabola/fr

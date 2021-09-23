@@ -7,6 +7,8 @@
    SeeAlso:[Nuova pagina standard](TechDraw_PageDefault/it.md), [Modelli di squadrature](TechDraw_Templates/it.md)
 ---
 
+# TechDraw PageTemplate/it
+
 
 </div>
 
@@ -105,4 +107,7 @@ Per modificare a livello di programmazione i campi di testo editabili in un mode
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw PageTemplate/it

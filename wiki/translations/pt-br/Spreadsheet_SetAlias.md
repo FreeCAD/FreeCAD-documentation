@@ -6,6 +6,8 @@
    Version:0.17
 ---
 
+# Spreadsheet SetAlias/pt-br
+
 ## Description
 
 The **<img src=images/Spreadsheet_SetAlias.svg style="width:16px"> [Spreadsheet SetAlias](Spreadsheet_SetAlias.md)** tool opens a dialog to set up an alias for a cell. Instead of using the exact cell name like A2, B3, or C4, a custom name can be used.
@@ -23,4 +25,7 @@ The **<img src=images/Spreadsheet_SetAlias.svg style="width:16px"> [Spreadsheet 
 
 {{Spreadsheet_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet SetAlias/pt-br

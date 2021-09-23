@@ -6,6 +6,8 @@
    SeeAlso:
 ---
 
+# Part Circle/en
+
 ## Description
 
 This command will create a circular curved edge. With the default values, the circular curved edge will be closed and therefore will be a circle. If the properties Angle 0 or Angle 1 are changed from their default values (0 and 360) the edge will be an open curve, an arc.
@@ -29,8 +31,5 @@ A Circle geometric primitive is available from the Create Primitives dialogue in
 
 -    {{Parameter|Angle 1}}: end of the curved edge, (degrees anti-clockwise), the default value is 360
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Circle/en

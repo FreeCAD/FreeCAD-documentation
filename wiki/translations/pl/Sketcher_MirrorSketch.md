@@ -7,6 +7,8 @@
    Version:0.16
 ---
 
+# Sketcher MirrorSketch/pl
+
 ## Opis
 
 Odbicie lustrzane szkicu wzdłuż osi x, osi y lub punktu początku układu współrzędnych. To polecenie jest wywoływane gdy szkic **nie jest** edytowany. Tworzy ono nowy szkic, który zawiera lustrzaną geometrię.
@@ -27,4 +29,7 @@ Uwagi:
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher MirrorSketch/pl

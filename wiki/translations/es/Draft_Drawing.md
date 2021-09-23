@@ -6,6 +6,8 @@
    Workbenches:[Croquis](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
 ---
 
+# Draft Drawing/es
+
 
 </div>
 
@@ -44,8 +46,5 @@ This command is now obsolete. Use the [TechDraw Workbench](TechDraw_Workbench.md
 
 </div>
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Drawing/es

@@ -9,6 +9,8 @@
    SeeAlso:[Draft Texte](Draft_Text/fr.md), [Draft Formes à partir texte](Draft_ShapeString/fr.md)
 ---
 
+# Draft Label/fr
+
 ## Description
 
 La commande <img alt="" src=images/Draft_Label.svg  style="width:24px;"> **Draft Étiquette** crée un texte de plusieurs lignes avec une ligne de tête à deux segments et une flèche.
@@ -214,8 +216,5 @@ label3.ViewObject.TextSize = 200
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Label/fr

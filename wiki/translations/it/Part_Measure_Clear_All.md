@@ -6,6 +6,8 @@
    Workbenches:[Part](Part_Workbench/it.md)
 ---
 
+# Part Measure Clear All/it
+
 
 </div>
 
@@ -32,8 +34,5 @@ Premere il pulsante **<img src=images/Part_Measure_Clear_All.svg style="width:24
 
 </div>
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Clear All/it

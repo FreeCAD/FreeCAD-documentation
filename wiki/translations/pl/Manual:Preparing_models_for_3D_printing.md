@@ -1,10 +1,4 @@
 # Manual:Preparing models for 3D printing/pl
-
-
-
-
-
-
 {{Manual:TOC/pl}}
 
 Jednym z głównych zastosowań programu FreeCAD jest produkcja rzeczywistych obiektów. Mogą one być zaprojektowane w FreeCAD, a następnie urzeczywistnione na różne sposoby, takie jak przekazanie ich innym ludziom, którzy następnie je zbudują, lub, coraz częściej, przesłanie ich bezpośrednio do [drukarki 3D](https://en.wikipedia.org/wiki/3D_printing) lub [frezarki CNC](https://en.wikipedia.org/wiki/Milling_%28machining%29). W tym rozdziale dowiesz się, jak przygotować swoje modele do przesłania do tych maszyn.
@@ -139,3 +133,6 @@ Istnieje wiele aplikacji do symulacji realnej obróbki skrawaniem, jedną z nich
 
 
 [Category:Path](Category:Path.md) [Category:Mesh](Category:Mesh.md) [Category:Tutorials](Category:Tutorials.md)
+
+---
+[documentation index](../README.md) > [Path](Category:Path.md) > Manual:Preparing models for 3D printing/pl

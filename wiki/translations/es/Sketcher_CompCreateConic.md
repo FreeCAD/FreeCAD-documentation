@@ -7,6 +7,8 @@
    Workbenches:[Croquizador](Sketcher_Workbench/es.md)
 ---
 
+# Sketcher CompCreateConic/es
+
 ## Descripción
 
 **Crear un cónico** es un botón de icono <img alt="" src=images/Sketcher_CompCreateConic.png  style="width:64px;"> en la barra de herramientas de geometrías de croquizador que agrupa herramientas para crear curvas basadas en una sección de un cono. Haz clic en la flecha hacia abajo a su derecha para expandir los iconos que se encuentran debajo y selecciona una herramienta.
@@ -31,4 +33,7 @@
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CompCreateConic/es

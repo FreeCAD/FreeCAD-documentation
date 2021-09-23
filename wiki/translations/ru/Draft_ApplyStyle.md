@@ -6,6 +6,8 @@
    Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
 ---
 
+# Draft ApplyStyle/ru
+
 
 </div>
 
@@ -57,8 +59,5 @@ This command currently handles only five of the settings the [Draft SetStyle](Dr
 
 -   In FreeCAD version 0.20 the [Draft SetStyle](Draft_SetStyle.md) command can also apply the settings.
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ApplyStyle/ru

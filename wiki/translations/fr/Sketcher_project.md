@@ -1,7 +1,4 @@
 # Sketcher project/fr
-
-
-
 **
 Ce plan de développement est probablement obsolète. Pour plus d'informations, voir [Plan de développement](Development_roadmap/fr.md).<br>
 Si vous n'êtes pas impliqué dans le développement discuté ici :<br>
@@ -177,3 +174,6 @@ Interface utilisateur :
 }}  
 
 [Category:Roadmap](Category:Roadmap.md)
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher project/fr

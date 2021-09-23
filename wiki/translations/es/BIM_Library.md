@@ -8,6 +8,8 @@
    SeeAlso:[Arch Equipment](Arch_Equipment/es.md)
 ---
 
+# BIM Library/es
+
 
 </div>
 
@@ -67,3 +69,6 @@ La herramienta de biblioteca le permite colocar, en el modelo actual, un objeto 
  
 
 [Category:BIM](Category:BIM.md)
+
+---
+[documentation index](../README.md) > [BIM](Category:BIM.md) > BIM Library/es

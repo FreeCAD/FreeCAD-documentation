@@ -6,6 +6,8 @@
    Workbenches:[Part](Part_Workbench/it.md)
 ---
 
+# Part Measure Toggle All/it
+
 
 </div>
 
@@ -40,8 +42,5 @@ Questo strumento attiva o disattiva la visibilità di tutte le misurazioni nella
 
 </div>
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Toggle All/it

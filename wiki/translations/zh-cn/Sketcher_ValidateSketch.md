@@ -6,6 +6,8 @@
    SeeAlso:[Sketcher ConstrainCoincident](Sketcher_ConstrainCoincident.md), [Topological naming problem](Topological_naming_problem.md)
 ---
 
+# Sketcher ValidateSketch/zh-cn
+
 ## 描述
 
 
@@ -107,4 +109,7 @@ The locking mechanism typically works well and this tool should not be needed. *
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ValidateSketch/zh-cn

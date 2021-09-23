@@ -5,6 +5,8 @@
    Workbenches:[Curves](Curves_Workbench.md)
 ---
 
+# Curves ParametricComb/en
+
 ## Description
 
 The <img alt="" src=images/Curves_ParametricComb.svg  style="width:24px;"> [Curves ParametricComb](Curves_ParametricComb.md) can help to visualize the regularity or smoothness of a curve as well as the continuity between two curves. Note: A comb is only for visualization.
@@ -42,3 +44,6 @@ A 3D comb will be created for 3D curves. Sample and scale can be changed. This t
 }} 
 
 [Category:External Command Reference](Category:External_Command_Reference.md)
+
+---
+[documentation index](../README.md) > [External Command Reference](Category:External Command Reference.md) > Curves ParametricComb/en

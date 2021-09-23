@@ -7,6 +7,8 @@
    SeeAlso:[Draft OrthoArray](Draft_OrthoArray.md), [Draft PolarArray](Draft_PolarArray.md), [Draft CircularArray](Draft_CircularArray.md), [Draft PathLinkArray](Draft_PathLinkArray.md), [Draft PointArray](Draft_PointArray.md), [Draft PointLinkArray](Draft_PointLinkArray.md)
 ---
 
+# Draft PathArray/pt-br
+
 ## Descrição
 
 The <img alt="" src=images/Draft_PathArray.svg  style="width:24px;"> **Draft PathArray** command creates a regular array from a selected object by placing copies along a path. Use the [Draft PathLinkArray](Draft_PathLinkArray.md) command to create a more efficient [Link](App_Link.md) array instead. Except for the type of array that is created, Link array or regular array, the [Draft PathLinkArray](Draft_PathLinkArray.md) command is identical to this command.
@@ -263,5 +265,5 @@ doc.recompute()
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft PathArray/pt-br

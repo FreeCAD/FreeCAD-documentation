@@ -1,3 +1,4 @@
+# Mesh HarmonizeNormals/hu
 ---
 - GuiCommand:   Name:Mesh HarmonizeNormals‏‎   MenuLocation:Hálók → Normálisok kiegyenlítése   Workbenches:[[Mesh Workbench/hu   Háló]]|Shortcut:   SeeAlso:---
 
@@ -46,4 +47,7 @@ A kijelölt hálók normálisainak kiegyenlítése.
 
 {{Mesh Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh HarmonizeNormals/hu

@@ -1,6 +1,4 @@
 # PartDesign Feature/it
-
-
 ## Introduzione
 
 Per [PartDesign Feature](PartDesign_Feature/it.md) (funzione di PartDesign) si intende a un \"passaggio\" nel processo di modellazione che si verifica all\'interno di un [Corpo di PartDesign](PartDesign_Body/it.md). Ad esempio, ogni volta che si aggiunge un cubo solido con [Cubo additivo](PartDesign_AdditiveBox/it.md), si aggiunge una funzione; quando si aggiunge uno smusso a un bordo con [Smusso di PartDesign](PartDesign_Chamfer/it.md), si aggiunge un\'altra funzione; quando si intaglia un foro usando uno [schizzo](Sketch/it.md) per creare una [Tasca](PartDesign_Pocket/it.md), si aggiunge un\'altra funzione.
@@ -81,4 +79,7 @@ App.ActiveDocument.recompute()
 
 {{PartDesign Tools navi
 
-}} {{Document objects navi}} 
+}} {{Document objects navi}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Feature/it

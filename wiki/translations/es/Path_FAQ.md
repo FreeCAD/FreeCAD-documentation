@@ -1,9 +1,4 @@
 # Path FAQ/es
-
-
-
-
-
 ## ¿Cuántos ejes puede manejar Ambiente de trabajo Trayectoria? 
 
 At the moment, Version 0.18, Path Workbench can handle up to 3 axis milling. Currently, 4th-axis capabilities are under development for the next official release, with some Path Workbench operations already upgraded to basic 4th-axis status.
@@ -231,4 +226,7 @@ This is only a matter of displaying the path. You can change this in the prefere
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path FAQ/es

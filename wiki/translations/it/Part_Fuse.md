@@ -8,6 +8,8 @@
    SeeAlso:[Sottrazione](Part_Cut/it.md), [Intersezione](Part_Common/it.md), [Operazione booleana](Part_Boolean.md)
 ---
 
+# Part Fuse/it
+
 
 </div>
 
@@ -58,5 +60,5 @@ oppure per ottenere subito una forma pulita e non dover ricorrere a questo coman
 
 </div>
 
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Fuse/it

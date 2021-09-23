@@ -8,6 +8,8 @@
    SeeAlso:[PartDesign FormBinder](PartDesign_ShapeBinder/de.md), [PartDesign Klon](PartDesign_Clone/de.md)
 ---
 
+# PartDesign SubShapeBinder/de
+
 ## Beschreibung
 
 Ein [PartDesign UnterFormBinder](PartDesign_SubShapeBinder/de.md) importiert ein Element aus einem anderen Körper in den aktiven [Körper](PartDesign_Body/de.md). Es kann die [Form](Shape/de.md) eines anderen Objekts übernehmen oder an ein oder mehrere Objekte oder Unterelemente (Kanten oder Flächen) eines anderen Objekts \"gebunden\" werden.
@@ -86,4 +88,7 @@ Siehe [Part Formelement](Part_Feature/de.md).
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubShapeBinder/de

@@ -9,6 +9,8 @@
    Version:0.17
 ---
 
+# Draft Stretch/de
+
 
 </div>
 
@@ -83,5 +85,5 @@ There is no Python method to stretch objects. To emulate the results of the Draf
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Stretch/de

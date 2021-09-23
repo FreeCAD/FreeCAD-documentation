@@ -7,6 +7,8 @@
    SeeAlso:[Std OnlineHelp](Std_OnlineHelp.md)
 ---
 
+# Std WhatsThis/hr
+
 ## Description
 
 The **Std WhatsThis** command opens the help documentation for a specified command.
@@ -36,4 +38,7 @@ Read this post to understand how the commands must be named in the code to match
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std WhatsThis/hr

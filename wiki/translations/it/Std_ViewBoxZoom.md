@@ -1,3 +1,4 @@
+# Std ViewBoxZoom/it
 ---
 - GuiCommand:/it   Name:Std ViewBoxZoom   Name/it:Zoom finestra   MenuLocation:[Workbenches:Tutti   Shortcut:**Ctrl**+**B**   SeeAlso:[[Std ViewZoomIn/it|Ingrandisci](Std_View_Menu/it___Visualizza]]_→_Zoom_→_Finestra_di_ingrandimento_.md), [Riduci](Std_ViewZoomOut/it.md)---
 
@@ -24,4 +25,7 @@ Consente di ingrandire l\'area di una casella rettangolare nella [vista 3D](3D_v
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ViewBoxZoom/it

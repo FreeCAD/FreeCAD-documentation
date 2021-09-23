@@ -1,7 +1,4 @@
 # Wikihouse porting tutorial/ro
-
-
-
 {{TutorialInfo/ro
 |Topic= Wikihouse porting tutorial
 |Level= Intermediate/Advanced
@@ -165,3 +162,6 @@ The last step is simply to select all the sheets, then export them to DXF from m
 ![](images/Arch_Wikihouse_04.jpg )
 
 Aceste fișiere sunt gata pentru a fi trimise la atelierele care vor efectua așchierea propriu-zisă. Este posibil de generat codul G-Code și de trimis direct la mașina CNC de la FreeCAD de asemenea, dar aceasta este materia pentru un alt tutorial.
+
+---
+[documentation index](../README.md) > Wikihouse porting tutorial/ro

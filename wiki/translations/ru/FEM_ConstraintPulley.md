@@ -7,6 +7,8 @@
    SeeAlso:[FEM Constraint bearing](FEM_ConstraintBearing/ru.md), [FEM Constraint gear](FEM_ConstraintGear/ru.md)
 ---
 
+# FEM ConstraintPulley/ru
+
 
 </div>
 
@@ -28,4 +30,7 @@
 
 {{FEM Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > FEM ConstraintPulley/ru

@@ -1,10 +1,4 @@
 # Licence/zh-cn
-
-
-
-
-
-
 {{TOCright}}
 
 ## FreeCAD 中使用的许可证 
@@ -85,3 +79,6 @@ FreeCAD是一个库和一个应用的混合体，所以要求GPL协议就显得�
  
 
 [Category:Developer Documentation](Category:Developer_Documentation.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Licence/zh-cn

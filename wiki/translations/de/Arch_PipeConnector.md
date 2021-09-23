@@ -9,6 +9,8 @@
    SeeAlso:[Arch Rohr](Arch_Pipe/de.md), [Arch Ausstattung](Arch_Equipment/de.md)
 ---
 
+# Arch PipeConnector/de
+
 ## Beschreibung
 
 Dieses Werkzeug ermöglicht eine Eck- oder T-Stück Verbindung zwischen zwei oder drei ausgewählten [Arch Rohre](Arch_Pipe/de.md) erstellen.
@@ -74,11 +76,5 @@ Conn3 = Arch.makePipeConnector([Pipe4, Pipe5], radius=400)
 FreeCAD.ActiveDocument.recompute()
 ```
 
-
-
-
-
-
-
-
-
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch PipeConnector/de

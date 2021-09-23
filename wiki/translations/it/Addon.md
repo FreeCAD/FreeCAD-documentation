@@ -1,6 +1,4 @@
 # Addon/it
-
-
 ## Introduzione
 
 In FreeCAD e in questa documentazione, un addon è un componente che non fa parte dell\'installazione di base di FreeCAD, ma che può essere aggiunto al sistema con determinati metodi.
@@ -37,3 +35,6 @@ L\'installazione manuale è ancora possibile.
 
 
 [Category:Addons](Category:Addons.md)
+
+---
+[documentation index](../README.md) > [Addons](Category:Addons.md) > Addon/it

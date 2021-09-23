@@ -8,6 +8,8 @@
    Version:0.19
 ---
 
+# Arch Rebar Drawing Dimensioning/it
+
 
 </div>
 
@@ -1104,3 +1106,6 @@ for visible_rebar in visible_rebars:
 
 
 [Category:External Command Reference](Category:External_Command_Reference.md) [Category:Reinforcement](Category:Reinforcement.md)
+
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Rebar Drawing Dimensioning/it

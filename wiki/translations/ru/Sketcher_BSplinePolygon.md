@@ -8,6 +8,8 @@
    SeeAlso:[Создать B-сплайн](Sketcher_CompCreateBSpline/ru.md)
 ---
 
+# Sketcher BSplinePolygon/ru
+
 
 </div>
 
@@ -27,4 +29,7 @@ Shows or hides the display of the defininig Polygon of a B-spline (see [this pag
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplinePolygon/ru

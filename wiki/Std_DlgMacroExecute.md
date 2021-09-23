@@ -6,6 +6,8 @@
    SeeAlso:[Std DlgMacroExecuteDirect](Std_DlgMacroExecuteDirect.md)
 ---
 
+# Std DlgMacroExecute
+
 ## Description
 
 The **Std DlgMacroExecute** command opens the Execute macro dialog box. From this dialog box macros can be executed, edited and managed.
@@ -104,4 +106,7 @@ The **Std DlgMacroExecute** command opens the Execute macro dialog box. From thi
 
 
 
- {{Std Base navi}}  
+ {{Std Base navi}}
+
+---
+[documentation index](../README.md) > Std DlgMacroExecute

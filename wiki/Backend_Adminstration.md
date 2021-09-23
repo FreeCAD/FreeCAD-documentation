@@ -19,3 +19,6 @@ Update pywikibot:
  git pull --recurse-submodules
 
 [Category:Administration](Category:Administration.md)
+
+---
+[documentation index](../README.md) > Backend Adminstration

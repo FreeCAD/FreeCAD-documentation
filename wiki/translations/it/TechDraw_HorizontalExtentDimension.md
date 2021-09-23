@@ -7,6 +7,8 @@
    SeeAlso:[Lunghezza](TechDraw_Dimension_Length/it.md), [Estensione verticale](TechDraw_Dimension_Vertical_Extent/it.md)
 ---
 
+# TechDraw HorizontalExtentDimension/it
+
 
 </div>
 
@@ -93,4 +95,7 @@ rc = page.addView(hExtentDim)
 
 {{TechDraw Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw HorizontalExtentDimension/it

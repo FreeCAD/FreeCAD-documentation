@@ -1,3 +1,4 @@
+# Raytracing WritePart/it
 ---
 - GuiCommand:/it   Name:Raytracing Part‏‎   Name/it:Part‏‎   MenuLocation:Raytracing → Utilità → Esporta la parte in POV-Ray‏‎   |Workbenches:[[Raytracing_Workbench/it   Raytracing]]|Shortcut:   SeeAlso:---
 
@@ -35,4 +36,7 @@ Esporta la parte selezionata in un file POV da usare in un progetto POV-Ray.
 
 {{Raytracing_Tools_navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing WritePart/it

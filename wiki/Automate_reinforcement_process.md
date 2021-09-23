@@ -34,3 +34,6 @@ Don\'t forget to see <https://www.freecadweb.org/wiki/Extended_functionality_of_
 <https://forum.freecadweb.org/viewtopic.php?f=8&t=22760>
 
 [Category:Google Summer of Code](Category:Google_Summer_of_Code.md)
+
+---
+[documentation index](../README.md) > Automate reinforcement process

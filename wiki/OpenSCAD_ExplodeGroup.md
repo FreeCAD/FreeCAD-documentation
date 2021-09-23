@@ -5,6 +5,8 @@
    Workbenches:[OpenSCAD](OpenSCAD_Workbench.md)
 ---
 
+# OpenSCAD ExplodeGroup
+
 ## Description
 
 This feature explodes a fusion or a compound back to single parts applying random colours to these parts.
@@ -34,4 +36,7 @@ For dissolving arrays from draft workbench use the [Draft Downgrade](Draft_Downg
 
 
 
- {{OpenSCAD_Tools_navi}} 
+ {{OpenSCAD_Tools_navi}}
+
+---
+[documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD ExplodeGroup

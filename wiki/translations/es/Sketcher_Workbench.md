@@ -1,10 +1,4 @@
-# Sketcher Workbench/es
-
-
-
-
-
-<img alt="El icono del Ambiente de trabajo Croquizador" src=images/Workbench_Sketcher.svg  style="width:128px;">
+# <img alt="El icono del Ambiente de trabajo Croquizador" src=images/Workbench_Sketcher.svg  style="width:64px;"> Sketcher Workbench/es
 
 
 {{TOCright}}
@@ -525,3 +519,6 @@ La página [Croquizador Guión](Sketcher_scripting/es.md) contiene ejemplos sobr
 }} 
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Sketcher Workbench/es

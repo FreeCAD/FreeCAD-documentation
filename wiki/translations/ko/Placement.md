@@ -1,6 +1,4 @@
 # Placement/ko
-
-
 ## Overview
 
 **Placement** is how FreeCAD specifies the location and attitude (orientation) of an object in space. Placement can be specified in multiple forms and manipulated via [scripting](Python_scripting_tutorial#Vectors_and_placements.md), the [property editor](Property_editor.md) or selecting **Edit → Placement...** to open the [Placement task panel](Std_Placement.md).
@@ -236,5 +234,5 @@ To make the placement of \"Sketch\" equal to that of \"Cylinder\", you would ent
 
 -   This tutorial: [Aeroplane](Aeroplane.md) covers the mechanics of changing an object\'s Placement extensively.
 
-
-
+---
+[documentation index](../README.md) > Placement/ko

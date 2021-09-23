@@ -1,10 +1,4 @@
 # Manual:Introduction/it
-
-
-
-
-
-
 {{Manual:TOC/it}}
 
 ![150\|center](images/Crystal_Clear_manual.png )
@@ -19,6 +13,5 @@ Questo manuale è stato scritto per la nuova versione stabile di FreeCAD, la ver
 
 Il contenuto di questo manuale è pubblicato sotto licenza [Creative Commons 4.0](http://creativecommons.org/licenses/by/4.0/), e può essere liberamente utilizzato, scaricato, copiato, e modificato. I file originali di questo manuale sono ospitati su questo [wiki](Main_Page/it.md), e sull\'account [github](https://github.com/yorikvanhavre/FreeCAD-manual) originale usato per scrivere la prima versione di questo libro. Le versioni HTML, PDF, MOBI e EPUB, più facili da leggere, sono disponibili su [GitBook](https://www.gitbook.com/book/yorikvanhavre/a-freecad-manual/details). È in preparazione una versione stampata.
 
-
-
-
+---
+[documentation index](../README.md) > Manual:Introduction/it

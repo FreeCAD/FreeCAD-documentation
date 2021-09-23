@@ -8,6 +8,8 @@
    SeeAlso:[Part Définir les couleurs](Part_FaceColors/fr.md)
 ---
 
+# Std SetAppearance/fr
+
 ## Description
 
 La commande **Std Apparence** affiche les propriétés d\'affichage du [Panneau des tâches](Task_Panel/fr.md) pour les objets sélectionnés.
@@ -54,4 +56,7 @@ La commande **Std Apparence** affiche les propriétés d\'affichage du [Panneau 
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std SetAppearance/fr

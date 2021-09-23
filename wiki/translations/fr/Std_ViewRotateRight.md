@@ -8,6 +8,8 @@
    SeeAlso:[Std Rotation à gauche](Std_ViewRotateLeft/fr.md)
 ---
 
+# Std ViewRotateRight/fr
+
 ## Description
 
 La commande **Std Rotation à droite** fait pivoter la caméra dans la [vue 3D](3D_view/fr.md) active dans la direction de la vue par incréments de 90 degrés vers la droite (dans le sens horaire).
@@ -42,4 +44,7 @@ FreeCADGui.ActiveDocument.ActiveView.getCameraOrientation()
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ViewRotateRight/fr

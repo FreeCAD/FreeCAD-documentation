@@ -1,10 +1,4 @@
 # Path SetupSheet/en
-
-
-
-
-
-
 {{TOCright}}
 
 ## Description
@@ -65,4 +59,7 @@ Other values in the SetupSheet can be referenced directly:
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path SetupSheet/en

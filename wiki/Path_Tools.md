@@ -1,11 +1,4 @@
 # Path Tools
- 
-
-
-
-
- 
-
 ## Description
 
 This page describes the ToolBit architecture used in the [Path Workbench](Path_Workbench.md) which became the default for FreeCAD v 0.19. For the older \'Legacy\' tool system see [Path ToolLibraryEdit](Path_ToolLibraryEdit.md). Tools in the Path workbench are handled differently than in other CAM packages.
@@ -131,4 +124,7 @@ Once the desired tool shape(profile) exists, you need to create a [tool bit](Pat
 
 
 
- {{Path_Tools_navi}} 
+ {{Path_Tools_navi}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Tools

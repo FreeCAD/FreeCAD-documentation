@@ -1,6 +1,4 @@
 # Mesh/fr
-
-
 ## Introduction
 
 Dans FreeCAD, le mot \"[Mesh](Mesh/fr.md)\" est normalement utilisé pour désigner un [Mesh Object](Mesh_MeshObject/fr.md) (`Mesh::MeshObject` class), un type d\'objet qui définit les données 3D mais n\'est pas un solide \"[Shape](Shape/fr.md)\".
@@ -42,3 +40,6 @@ Pour plus d\'informations, voir [Atelier FEM](FEM_Workbench/fr.md) et [FEM Mesh]
 }} {{FEM Tools navi}} {{Document objects navi}} 
 
 [Category:Glossary](Category:Glossary.md)
+
+---
+[documentation index](../README.md) > [Glossary](Category:Glossary.md) > Mesh/fr

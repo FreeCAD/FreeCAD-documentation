@@ -7,6 +7,8 @@
    SeeAlso:[PartDesign Chanfrein](PartDesign_Chamfer/fr.md), [Part Congé](Part_Fillet/fr.md)
 ---
 
+# PartDesign Fillet/fr
+
 ## Description
 
 Cet outil crée des congés (arrondis) sur les bords sélectionnés d\'un objet. Une nouvelle entrée de congé séparée (suivie d\'un numéro séquentiel s\'il existe déjà des congés dans le document) est créée dans l\'arborescence du projet.
@@ -100,4 +102,7 @@ Part.show(Box)
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Fillet/fr

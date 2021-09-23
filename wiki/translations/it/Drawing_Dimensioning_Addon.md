@@ -1,5 +1,5 @@
 # Drawing Dimensioning Addon/it
- **In FreeCAD 0.17 [Drawing](Drawing_Workbench/it.md) è stato sostituito da [TechDraw](TechDraw_Workbench/it.md). Sebbene entrambi gli ambienti siano inclusi in v0.17, Drawing non viene più gestito e potrebbe essere rimosso nelle future versioni di FreeCAD. Si consiglia quindi agli utenti di passare a [TechDraw](TechDraw_Workbench/it.md) che include anche gli strumenti di quotatura e annotazione.**
+**In FreeCAD 0.17 [Drawing](Drawing_Workbench/it.md) è stato sostituito da [TechDraw](TechDraw_Workbench/it.md). Sebbene entrambi gli ambienti siano inclusi in v0.17, Drawing non viene più gestito e potrebbe essere rimosso nelle future versioni di FreeCAD. Si consiglia quindi agli utenti di passare a [TechDraw](TechDraw_Workbench/it.md) che include anche gli strumenti di quotatura e annotazione.**
 
 ## Introduzione
 
@@ -217,3 +217,6 @@ Tipps:
 -   [Macros recipes](Macros_recipes.md)
 
 [Category:User Documentation](Category:User_Documentation.md) [Category:Addons](Category:Addons.md) [Category:Drawing](Category:Drawing.md)
+
+---
+[documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Dimensioning Addon/it

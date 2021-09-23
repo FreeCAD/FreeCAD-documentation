@@ -1,6 +1,4 @@
 # Artwork Splash screen/ru
-
-
 Это заставки, которые использовались для каждой версии программы.
 
 ![](images/Splashscreen09.png )
@@ -27,3 +25,6 @@
 {{Artwork
 
 }}
+
+---
+[documentation index](../README.md) > Artwork Splash screen/ru

@@ -1,7 +1,4 @@
 # PartDesign Preferences/de
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -196,3 +193,6 @@ Rechtsklick auf **Netzabweichung** und wähle im Kontextmenü **Wert ändern**. 
 }} 
 
 [Category:Preferences](Category:Preferences.md)
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Preferences/de

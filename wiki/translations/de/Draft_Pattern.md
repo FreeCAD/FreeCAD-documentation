@@ -1,10 +1,4 @@
 # Draft Pattern/de
-
-
-
-
-
-
 {{TOCright}}
 
 ## Beschreibung
@@ -43,8 +37,5 @@ Siehe auch: [Einstellungseditor](Preferences_Editor/de.md) und [Entwurf Einstell
 -   Der **Bearbeiten → Voreinstellungen... → Entwurf → Sichtbare Einstellungen →  Schraffurmuster Auflösung** wird nicht verwendet.
 -   um die **Mustergröße**, die für neue Objekte verwendet wird zu ändern: **Bearbeiten → Einstellungen... → Entwurf → Sichtbare Einstellungen → Schraffurmuster Standardgröße**.
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Pattern/de

@@ -1,10 +1,4 @@
-# Web Workbench/ro
-
-
-
-
-
-<img alt="Web workbench icon" src=images/Workbench_Web.svg  style="width:128px;">
+# <img alt="Web workbench icon" src=images/Workbench_Web.svg  style="width:64px;"> Web Workbench/ro
 
 ## Introduction
 
@@ -25,3 +19,6 @@ Pornind de aici, puteţi parcurge întregul Internet, să vă autentifi
 
 
 [Category:Web](Category:Web.md) [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Web Workbench/ro

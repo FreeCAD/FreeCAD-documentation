@@ -1,7 +1,4 @@
 # Macro TreeToAscii/it
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -267,3 +264,5 @@ dlg.exec_()
 </nowiki>
 }}
 
+---
+[documentation index](../README.md) > Macro TreeToAscii/it

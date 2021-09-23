@@ -1,3 +1,4 @@
+# Arch Wall/sv
 ---
 - GuiCommand:/sv   Name:Arch Wall   Name/sv:Arch Wall   Workbenches:[MenuLocation:Arch → Wall   Shortcut:W A   SeeAlso:[[Arch Structure/sv|Arch Structure](Arch_Workbench/sv___Arch]].md)---
 
@@ -154,3 +155,6 @@ FreeCAD.ActiveDocument.recompute()
 
 
 [Category:Arch/sv](Category:Arch/sv.md)
+
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Wall/sv

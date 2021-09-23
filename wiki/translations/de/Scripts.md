@@ -1,5 +1,5 @@
 # Scripts/de
- {{TutorialInfo/de
+{{TutorialInfo/de
 |Topic=Skripten
 |Level=Basis
 |Time=
@@ -312,3 +312,6 @@ Dies ist die Bedeutung des Wortes \"umständlich\", das ich zur Definition der `
 }} 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Scripts/de

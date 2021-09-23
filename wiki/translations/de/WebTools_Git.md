@@ -7,6 +7,8 @@
    Version:0.17
 ---
 
+# WebTools Git/de
+
 
 **Beginnend mit FreeCAD v0.17 wurde dieses Werkzeug aus dem Architektur Arbeitsbereich entfernt und ist nun Teil des externen [WebWerkzeuge Arbeitsbereich](WebTools_Workbench/de.md)s, der über das Menü Werkzeuge → <img src="images/AddonManager.svg" width=24px> [Erweiterungsverwalter](Addon_manager/de.md) installiert werden kann.
 **
@@ -112,3 +114,6 @@ Zur Aktivierung der Nutzung von fcinfo (nur Linux und Mac - ToDo: Windows Anweis
  *.FCStd diff=fcinfo
 
 Füge die folgenden Zeilen zur .gitconfig-Datei in deinem home Verzeichnis hinzu: \[diff \"fcinfo\"\] textconv = /Pfad/zu/fcinfo Alternativ kannst du fcinfo mit Argumenten ausführen (z.B. --gui), benutze diesen Herangehensweise \[<https://stackoverflow.com/questions/55601430/how-to-pass-a-filename-> argument-gitconfig-diff-textconv\]: \[diff \"fcinfo\"\] textconv = sh -c \'/path/to/fcinfo \--gui \"\$0\"\'
+
+---
+[documentation index](../README.md) > WebTools Git/de

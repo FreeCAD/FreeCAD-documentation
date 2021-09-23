@@ -1,6 +1,4 @@
 # Drawing/it
-
-
 ## Introduzione
 
 In FreeCAD la parola \"[Drawing](Drawing/it.md)\" (Disegno tecnico) viene normalmente utilizzata per fare riferimento a una proiezione 2D di un [modello 3D](model/it.md). Generalmente viene creato con l\'ambiente [TechDraw ](TechDraw_Workbench/it.md).
@@ -37,3 +35,6 @@ Tuttavia, quando è richiesta maggiore precisione, è necessario fare distinzion
 }} {{Document objects navi}} 
 
 [Category:Glossary](Category:Glossary.md)
+
+---
+[documentation index](../README.md) > [Glossary](Category:Glossary.md) > Drawing/it

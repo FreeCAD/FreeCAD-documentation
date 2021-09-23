@@ -1,3 +1,4 @@
+# Drawing Annotation/ro
 ---
 - GuiCommand:   Name:Drawing Annotation   Workbenches:[[Drawing Workbench   Drawing]], Complete|MenuLocation:Drawing → Annotation   Shortcut:none---
 
@@ -44,4 +45,7 @@ Această comandă vă permite să plasați un bloc de text pe un [Drawing page](
 
 {{Drawing Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Annotation/ro

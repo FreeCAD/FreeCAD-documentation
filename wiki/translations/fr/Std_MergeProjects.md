@@ -6,6 +6,8 @@
    Workbenches:Tous
 ---
 
+# Std MergeProjects/fr
+
 ## Description
 
 La commande **Std Fusion de projets** ajoute le contenu d\'un fichier FreeCAD dans le document actif.
@@ -36,4 +38,7 @@ La commande **Std Fusion de projets** ajoute le contenu d\'un fichier FreeCAD da
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std MergeProjects/fr

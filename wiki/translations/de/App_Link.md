@@ -1,5 +1,5 @@
 # App Link/de
- {{TOCright}}
+{{TOCright}}
 
 ## Einführung
 
@@ -28,4 +28,7 @@ Siehe die vollständige Liste der Eigenschaften auf der [Std VerknüpfungHerstel
 
 {{Std Base navi
 
-}} {{Document objects navi}} 
+}} {{Document objects navi}}
+
+---
+[documentation index](../README.md) > App Link/de

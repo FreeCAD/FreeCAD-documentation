@@ -1,7 +1,4 @@
-# DynamicData Workbench/fr
-
-
-<img alt="Icône atelier externe FreeCAD Données dynamiques" src=images/DynamicData_workbench_icon.svg  style="width:128px;">
+# <img alt="Icône atelier externe FreeCAD Données dynamiques" src=images/DynamicData_workbench_icon.svg  style="width:64px;"> DynamicData Workbench/fr
 
 
 {{TOCright}}
@@ -39,3 +36,6 @@ De nouveaux ateliers sont en développement, restez à l\'écoute !
 
 
 [Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+
+---
+[documentation index](../README.md) > DynamicData Workbench/fr

@@ -1,7 +1,4 @@
 # Scenegraph/fr
-
-
-
 {{TOCright}}
 
 ## Introduction
@@ -77,3 +74,6 @@ Voir les [Coin3d snippets](Coin3d_snippets/fr.md) grâce aux recherches de Mariw
 }} 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Scenegraph/fr

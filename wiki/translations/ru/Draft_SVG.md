@@ -1,10 +1,4 @@
 # Draft SVG/ru
-
-
-
-
-
-
 {{TOCright}}
 
 ## Description
@@ -97,3 +91,6 @@ importSVG.export(objects, "/home/user/Pictures/myfile.svg")
  
 
 [Category:User Documentation/ru](Category:User_Documentation/ru.md) [Category:File Formats](Category:File_Formats.md)
+
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft SVG/ru

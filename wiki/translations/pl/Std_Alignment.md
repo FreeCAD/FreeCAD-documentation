@@ -6,6 +6,8 @@
    SeeAlso:[Std Placement](Std_Placement.md)
 ---
 
+# Std Alignment/pl
+
 ## Description
 
 The **Std Alignment** command aligns an object in relation to a fixed reference object using one or more point pairs.
@@ -36,4 +38,7 @@ The following additional options are available in the context menu:
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std Alignment/pl

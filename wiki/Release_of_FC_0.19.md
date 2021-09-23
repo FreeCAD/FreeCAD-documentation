@@ -52,3 +52,6 @@ Document the new features listed [here](Release_notes_0.19.md) and updating exis
 Maintainer(s): [Uwestoehr](User:Uwestoehr.md)
 
 Contributors:
+
+---
+[documentation index](../README.md) > Release of FC 0.19

@@ -1,7 +1,4 @@
 # Manual:The Community/pl
- 
-
-
 {{Manual:TOC}}
 
 No manual dealing with free and open source software would be complete without a chapter about the community. As the vast majority of free and open source software projects, FreeCAD is made by a community, and maintained by that community. Instead of the opaque, unknown, impersonal and inaccessable firm that is more than often found behind commercial software, free and open source software communities are open spaces, where you as a user are welcome, and where you can get answers very fast, and even have your say in the development of the software itself. You are also more than welcome to help, there are tasks for everybody.
@@ -38,6 +35,5 @@ Hopefully, we managed to give you a good taste of FreeCAD in this manual, and yo
 -   [Translating FreeCAD on crowdin](https://crowdin.com/project/freecad)
 -   [The FreeCAD bug tracker](http://www.freecadweb.org/tracker)
 
-
-
-
+---
+[documentation index](../README.md) > Manual:The Community/pl

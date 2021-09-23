@@ -8,6 +8,8 @@
    SeeAlso:[Array](Draft_Array/ru.md), [PolarArray](Draft_PolarArray/ru.md), [PathArray](Draft_PathArray/ru.md), [PointArray](Draft_PointArray/ru.md), [Clone](Draft_Clone/ru.md)
 ---
 
+# Draft CircularArray/ru
+
 
 </div>
 
@@ -126,5 +128,5 @@ doc.recompute()
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft CircularArray/ru

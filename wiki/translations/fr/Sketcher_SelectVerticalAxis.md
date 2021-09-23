@@ -8,6 +8,8 @@
    Version:0.15
 ---
 
+# Sketcher SelectVerticalAxis/fr
+
 ## Description
 
 Sélectionne l\'axe vertical d\'une esquisse.
@@ -24,4 +26,7 @@ Sélectionne l\'axe vertical d\'une esquisse.
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectVerticalAxis/fr

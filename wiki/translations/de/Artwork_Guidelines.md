@@ -1,6 +1,4 @@
 # Artwork Guidelines/de
-
-
 ## Einführung
 
 
@@ -173,3 +171,6 @@ Ein Graustufenbild erlaubt dir Kontrastprobleme leichter zu erkennen, da nur ein
 {{Artwork/de}}
 
 [Category:Developer Documentation](Category:Developer_Documentation.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Artwork Guidelines/de

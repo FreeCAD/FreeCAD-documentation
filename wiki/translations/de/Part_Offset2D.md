@@ -7,6 +7,8 @@
    SeeAlso:[Part 3D Versatz](Part_Offset/de.md), [Part Thickness](Part_Thickness/de.md), [Entwurf Versatz](Draft_Offset/de.md)
 ---
 
+# Part Offset2D/de
+
 ## Beschreibung
 
 Teil 2D Versatz konstruiert einen Draht, parallel zum ursprünglichen Draht, in einem bestimmten Abstand von diesem. Oder vergrößert/schrumpft gleichzeitig eine ebene Fläche.
@@ -114,8 +116,5 @@ Part.show(enlarged_circle)
 # structure follows that of source shape.
 }}
 
-
-
-
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Offset2D/de

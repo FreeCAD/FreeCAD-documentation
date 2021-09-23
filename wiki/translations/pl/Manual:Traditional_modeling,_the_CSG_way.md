@@ -1,7 +1,4 @@
 # Manual:Traditional modeling, the CSG way/pl
- 
-
-
 {{Manual:TOC}}
 
 CSG stands for [Constructive Solid Geometry](https://en.wikipedia.org/wiki/Constructive_solid_geometry) and describes the most basic way to work with solid 3D geometry, which is creating complex objects by adding and removing pieces to/from solids by using Boolean operations such as union, subtraction or intersection.
@@ -131,3 +128,6 @@ You might look at the table above, and think its design is not good. The tighten
 
 
 [Category:Tutorials/pl](Category:Tutorials/pl.md)
+
+---
+[documentation index](../README.md) > Manual:Traditional modeling, the CSG way/pl

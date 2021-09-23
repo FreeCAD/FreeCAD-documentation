@@ -1,3 +1,4 @@
+# Path Stop/it
 ---
 - GuiCommand:/it   Name:Path Stop   Name/it:Stop   Workbenches:[[Path Workbench/it   Path]]|MenuLocation:Path → Comandi parziali → Stop   Shortcut:   SeeAlso:---
 
@@ -37,4 +38,7 @@ Nota che questo comando non ferma il mandrino.
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Stop/it

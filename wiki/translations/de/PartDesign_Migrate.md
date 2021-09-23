@@ -7,6 +7,8 @@
    Version:0.17
 ---
 
+# PartDesign Migrate/de
+
 ## Beschreibung
 
 Der PartDesign Arbeitsbereich in FreeCAD v0.17 enthält neue Werkzeuge und Elemente, die von älteren FreeCAD-Versionen (0.16 und älter) nicht erkannt werden. FreeCAD Dokumente, die in älteren Versionen erstellt wurden, können weiterhin geöffnet und bearbeitet werden. Um von den neuen Funktionen zu profitieren, müssen sie über das Menü PartDesign → Migrieren migriert werden.
@@ -39,4 +41,7 @@ Der PartDesign Arbeitsbereich in FreeCAD v0.17 enthält neue Werkzeuge und Eleme
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Migrate/de

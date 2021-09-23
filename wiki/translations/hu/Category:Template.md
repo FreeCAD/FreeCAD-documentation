@@ -6,3 +6,6 @@ See also [UncategorizedTemplates](Special:UncategorizedTemplates/hu.md).
 ### Contents:
 
 [Category:Categories/hu](Category:Categories/hu.md) [Category:Template:Navigation/hu](Category:Template:Navigation/hu.md)
+
+---
+[documentation index](../README.md) > Category:Template/hu

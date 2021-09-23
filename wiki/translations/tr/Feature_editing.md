@@ -1,5 +1,5 @@
 # Feature editing/tr
- {{TOCright}}
+{{TOCright}}
 
 ## Giriş
 
@@ -170,3 +170,6 @@ The [tutorials](Tutorials.md) page provides some examples of using the [feature 
 }} 
 
 [Category:Common Questions](Category:Common_Questions.md)
+
+---
+[documentation index](../README.md) > [Common Questions](Category:Common Questions.md) > Feature editing/tr

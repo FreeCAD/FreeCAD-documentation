@@ -7,6 +7,8 @@
    SeeAlso:[Aiuto](Std_OnlineHelp/it.md)
 ---
 
+# Std FreeCADUserHub/it
+
 
 </div>
 
@@ -42,4 +44,7 @@ Currently the command points to [<https://www.freecadweb.org/wiki/User_hub>](htt
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std FreeCADUserHub/it

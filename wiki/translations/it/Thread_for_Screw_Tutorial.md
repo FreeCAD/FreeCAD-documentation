@@ -1,7 +1,4 @@
 # Thread for Screw Tutorial/it
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -458,4 +455,7 @@ ISO e altri thread hanno alleviato, cioè bordi piatti, interni ed esterni piutt
 
 ![761PX](images/Threadform.PNG )
 
-Questo metodo produce solidi affidabili che booleano correttamente. Sebbene non produca filettature \"parametriche\" in dimensioni standard nel senso di avere un accesso semplice alla forma in base alle dimensioni del dispositivo di fissaggio, è un modo semplice di produrre una libreria accurata per il riutilizzo e modelli di forme specializzate come ACME o viti Archimedian , sono anche semplici come one-offs. {{Tutorials navi}}  {{PartDesign Tools navi}} {{Sketcher Tools navi}} 
+Questo metodo produce solidi affidabili che booleano correttamente. Sebbene non produca filettature \"parametriche\" in dimensioni standard nel senso di avere un accesso semplice alla forma in base alle dimensioni del dispositivo di fissaggio, è un modo semplice di produrre una libreria accurata per il riutilizzo e modelli di forme specializzate come ACME o viti Archimedian , sono anche semplici come one-offs. {{Tutorials navi}}  {{PartDesign Tools navi}} {{Sketcher Tools navi}}
+
+---
+[documentation index](../README.md) > Thread for Screw Tutorial/it

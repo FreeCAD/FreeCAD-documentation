@@ -9,6 +9,8 @@
    SeeAlso:[TechDraw Ligne de référence](TechDraw_LeaderLine/fr.md)
 ---
 
+# TechDraw WeldSymbol/fr
+
 ## Description
 
 L\'outil Symbole de soudure ajoute les spécifications de soudage à une ligne directrice existante.
@@ -113,4 +115,7 @@ Les symboles particuliers sont formés par des fichiers SVG de 64x64 pixels. Des
 
 {{TechDraw Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw WeldSymbol/fr

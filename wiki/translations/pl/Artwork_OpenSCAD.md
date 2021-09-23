@@ -1,6 +1,4 @@
 # Artwork OpenSCAD/pl
- 
-
 Ikony te znajdują się we wskazanej ścieżce źródłowej.
 
 Wszystkie ikonki widoczne na liście źródłowej, patrz [Grafika](Artwork/pl.md).
@@ -17,3 +15,6 @@ Wszystkie ikonki widoczne na liście źródłowej, patrz [Grafika](Artwork/pl.md
 }} 
 
 [Category:OpenSCAD](Category:OpenSCAD.md)
+
+---
+[documentation index](../README.md) > [OpenSCAD](Category:OpenSCAD.md) > Artwork OpenSCAD/pl

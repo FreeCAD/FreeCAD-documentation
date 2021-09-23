@@ -1,7 +1,4 @@
 # Feature list/ko
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -137,3 +134,6 @@ Power users have created various custom [external workbenches](external_workbenc
 
 
 [Category:User Documentation](Category:User_Documentation.md)
+
+---
+[documentation index](../README.md) > [User Documentation](Category:User Documentation.md) > Feature list/ko

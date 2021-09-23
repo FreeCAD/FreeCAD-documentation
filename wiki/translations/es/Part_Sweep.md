@@ -7,6 +7,8 @@
    SeeAlso:[Part Loft](Part_Loft.md)
 ---
 
+# Part Sweep/es
+
 
 </div>
 
@@ -149,5 +151,5 @@ Si \"Frenet\" es \"true\" la orientación del perfil se computa en base a la cur
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Sweep/es

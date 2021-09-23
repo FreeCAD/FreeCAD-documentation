@@ -5,6 +5,8 @@
    Workbenches:[Mesh](Mesh_Workbench.md)
 ---
 
+# Mesh FromPartShape
+
 ## Description
 
 The **Mesh\_FromPartShape** command creates non-parametric [mesh](mesh.md) objects ([Mesh Features](Mesh_Feature.md)) from [shape](shape.md) objects ([Part Features](Part_Feature.md)).
@@ -187,4 +189,7 @@ msh.ViewObject.DisplayMode = "Flat Lines"
 
 
 
- {{Mesh Tools navi}}  
+ {{Mesh Tools navi}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh FromPartShape

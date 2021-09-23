@@ -6,6 +6,8 @@
    SeeAlso:[Arch Wall](Arch_Wall.md)
 ---
 
+# Arch MergeWalls
+
 ## Description
 
 The [MergeWalls](Arch_MergeWalls.md) tool fuses two or more selected **<img src="images/_Arch_Wall.svg" width=16px> [Arch Walls](Arch_Wall.md)**.
@@ -47,7 +49,5 @@ FreeCAD.ActiveDocument.recompute()
 base = Arch.joinWalls([Wall1, Wall2])
 ```
 
-
-
-
-  
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch MergeWalls

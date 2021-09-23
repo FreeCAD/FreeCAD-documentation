@@ -5,6 +5,8 @@
    MenuLocation:Sketch → Edit sketch
 ---
 
+# Sketcher EditSketch/ro
+
 
 </div>
 
@@ -51,3 +53,6 @@ Această comandă permite editarea unei schițe deja existente.
 }}  
 
 [Category:Sketcher/ro](Category:Sketcher/ro.md)
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher EditSketch/ro

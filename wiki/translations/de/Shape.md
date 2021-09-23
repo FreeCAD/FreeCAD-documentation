@@ -1,6 +1,4 @@
 # Shape/de
-
-
 ## Einleitung
 
 In FreeCAD wird das Wort \"[Form](Shape/de.md)\" normalerweise verwendet, um sich auf eine [Part TopoForm](Part_TopoShape/de.md) (`Part::TopoShape` Klasse) zu beziehen , ein Objekttyp, der einem Element seine 3D geometrische und parametrische Darstellung gibt (Würfel, Pyramide, Kugel, Zylinder, Vereinigung usw.).
@@ -36,3 +34,6 @@ Wenn jedoch mehr Präzision erforderlich ist, muss eine Unterscheidung getroffen
  {{Document objects navi}} 
 
 [Category:Glossary](Category:Glossary.md)
+
+---
+[documentation index](../README.md) > [Glossary](Category:Glossary.md) > Shape/de

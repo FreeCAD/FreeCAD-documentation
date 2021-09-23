@@ -9,6 +9,8 @@
    SeeAlso:[Arch Tuyau](Arch_Pipe/fr.md), [Arch Equipement](Arch_Equipment/fr.md)
 ---
 
+# Arch PipeConnector/fr
+
 ## Description
 
 Cet outil vous permet de créer des raccords entre deux ou plusieurs [Tuyaux](Arch_Pipe/fr.md) sélectionnés.
@@ -74,11 +76,5 @@ Conn3 = Arch.makePipeConnector([Pipe4, Pipe5], radius=400)
 FreeCAD.ActiveDocument.recompute()
 ```
 
-
-
-
-
-
-
-
-
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch PipeConnector/fr

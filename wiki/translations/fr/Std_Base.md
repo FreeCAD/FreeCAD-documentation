@@ -1,10 +1,4 @@
-# Std Base/fr
-
-
-
-
-
-<img alt="Icône de Std Base" src=images/Freecad.svg  style="width:128px;">
+# <img alt="Icône de Std Base" src=images/Freecad.svg  style="width:64px;"> Std Base/fr
 
 
 {{TOCright}}
@@ -67,3 +61,6 @@ Le menu standard est composé de 7 sous-menus. Chaque sous-menu a une page dédi
 }} 
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > [Workbenches](Category:Workbenches.md) > Std Base/fr

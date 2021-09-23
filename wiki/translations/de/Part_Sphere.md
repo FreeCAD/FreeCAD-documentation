@@ -7,6 +7,8 @@
    SeeAlso:[Part Grundkörper](Part_Primitives/de.md)
 ---
 
+# Part Sphere/de
+
 
 </div>
 
@@ -74,5 +76,5 @@ Da es recht schwierig ist, die Bedeutung der Parameter Winkel 1, Winkel 2, Winke
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Sphere/de

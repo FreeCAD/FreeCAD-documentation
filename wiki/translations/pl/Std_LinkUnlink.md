@@ -7,6 +7,8 @@
    SeeAlso:[Std LinkMake](Std_LinkMake.md), [Std LinkMakeRelative](Std_LinkMakeRelative.md), [Std LinkReplace](Std_LinkReplace.md)
 ---
 
+# Std LinkUnlink/pl
+
 ## Description
 
 
@@ -40,4 +42,7 @@ The original <img alt="" src=images/Tree_Part_Sphere_Parametric.svg  style="widt
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std LinkUnlink/pl

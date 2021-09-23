@@ -6,6 +6,8 @@
    SeeAlso:[Arch SplitMesh](Arch_SplitMesh.md), [Arch RemoveShape](Arch_RemoveShape.md)
 ---
 
+# Arch MeshToShape/pt-br
+
 ## Descrição
 
 [Arch MeshToShape](Arch_MeshToShape.md) converts a selected [Mesh](Mesh.md) ([Mesh Feature](Mesh_Feature.md)) object into a [Shape](Shape.md) ([Part Feature](Part_Feature.md)) object.
@@ -67,5 +69,5 @@ new_obj = Arch.meshToShape(Box)
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch MeshToShape/pt-br

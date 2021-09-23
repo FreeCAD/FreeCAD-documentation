@@ -8,6 +8,8 @@
    SeeAlso:[Mesh Tesselation](Mesh_FromPartShape/fr.md)
 ---
 
+# Mesh RemeshGmsh/fr
+
 ## Description
 
 La commande **Mesh Affinage** remet à nouveau un objet maillé en utilisant le mailleur [Gmsh](https://gmsh.info/). Le nouveau maillage peut être plus fin ou plus grossier.
@@ -39,4 +41,7 @@ Voir: [Mesh Feature](Mesh_Feature/fr.md).
 
 {{Mesh Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh RemeshGmsh/fr

@@ -6,6 +6,8 @@
    SeeAlso:[FEM tutorial](FEM_tutorial.md)
 ---
 
+# FEM FemMesh2Mesh/en
+
 ## Description
 
 This tool converts surfaces of 3D elements of a selected FEM mesh to mesh. Internally it picks FEM mesh element faces which are unique (not shared by two elements) and uses them to create faces of a mesh. Optionally it allows to create a deformed mesh caused by the action of the defined forces. This is done by adding the displacement of the FEM results to the mesh nodes.
@@ -69,4 +71,7 @@ Mesh.show(obj)
 
 {{FEM Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > FEM FemMesh2Mesh/en

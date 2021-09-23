@@ -7,6 +7,8 @@
    SeeAlso:[Arch Panel](Arch_Panel.md), [Arch Panel Sheet](Arch_Panel_Sheet.md), [Arch Nest](Arch_Nest.md)
 ---
 
+# Arch Panel Cut/pl
+
 ## Description
 
 This tool creates, in the 3D document, a flat, 2D view of an [Arch Panel](Arch_Panel.md), to be included in an [Arch Panel Sheet](Arch_Panel_Sheet.md) or directly exported to [DXF](Draft_DXF.md). The Panel Cut objects are also supported by the [Path Workbench](Path_Workbench.md).
@@ -95,8 +97,5 @@ FreeCAD.ActiveDocument.recompute()
 
 -   [Wikihouse porting tutorial](Wikihouse_porting_tutorial.md)
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Panel Cut/pl

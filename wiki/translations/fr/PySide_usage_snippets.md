@@ -1,6 +1,4 @@
 # PySide usage snippets/fr
-
-
 ## Introduction
 
 Ce sont des extraits de code utiles lors de [création d\'interfaces](Dialog_creation/fr.md) avec [PySide](PySide/fr.md).
@@ -132,3 +130,6 @@ print(unicode(uniteSs, 'iso8859'))
 }} 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > PySide usage snippets/fr

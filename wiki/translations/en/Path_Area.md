@@ -5,6 +5,8 @@
    Workbenches:[Path](Path_Workbench.md)
 ---
 
+# Path Area/en
+
 ## Description
 
 Empty
@@ -161,4 +163,7 @@ Example:
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Area/en

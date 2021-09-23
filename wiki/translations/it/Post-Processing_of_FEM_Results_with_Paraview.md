@@ -1,5 +1,5 @@
 # Post-Processing of FEM Results with Paraview/it
- {{TutorialInfo/it
+{{TutorialInfo/it
 |Topic= Post-elaborazione dei risultati FEM con Paraview
 |Level= Intermedio
 |Time= 120 minuti
@@ -351,4 +351,7 @@ The final result shows the major and minor principal stress vectors superimposed
 
 ## Export of Graphical Results 
 
-To export a RenderView window highlight the window and use menu option **File > Save Screenshot** {{Tutorials navi}} {{FEM Tools navi}} 
+To export a RenderView window highlight the window and use menu option **File > Save Screenshot** {{Tutorials navi}} {{FEM Tools navi}}
+
+---
+[documentation index](../README.md) > Post-Processing of FEM Results with Paraview/it

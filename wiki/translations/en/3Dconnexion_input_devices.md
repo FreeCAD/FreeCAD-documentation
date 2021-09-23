@@ -1,5 +1,4 @@
-# 3Dconnexion input devices/en
- <img alt="3Dconnexion SpaceNavigator" src=images/SpaceNavigator.jpg  style="width:200px;"> {{TOCright}}
+# <img alt="3Dconnexion SpaceNavigator" src=images/SpaceNavigator.jpg  style="width:200px;"> {{TOCright}} 3Dconnexion input devices/en
 
 ## Driver installation 
 
@@ -276,3 +275,6 @@ To connect certain command with a button, select button on the left side, and it
 -   Forum thread [Space navigator axis confusion](https://forum.freecadweb.org/viewtopic.php?f=8&t=57188)
 
 [Category:User Documentation](Category:User_Documentation.md) [Category:3rd Party](Category:3rd_Party.md)
+
+---
+[documentation index](../README.md) > [User Documentation](Category:User Documentation.md) > 3Dconnexion input devices/en

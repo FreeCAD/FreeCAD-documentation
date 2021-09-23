@@ -1,7 +1,4 @@
 # Third Party Tools/it
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -183,3 +180,6 @@ Da Fare
  
 
 [Category:Developer Documentation](Category:Developer_Documentation.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Third Party Tools/it

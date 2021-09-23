@@ -1,6 +1,4 @@
 # File Format FCStd
- 
-
 ## Overview
 
 The **FreeCAD Standard file format** ({{FileName|.FCStd}}) is FreeCAD\'s main file format. It is a compound format, supports compression and embedding of different kinds of data.
@@ -169,3 +167,6 @@ See the forum thread, [PDF inside the project](https://forum.freecadweb.org/view
   
 
 [Category:Developer](Category:Developer.md) [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:File\_Formats](Category:File_Formats.md)
+
+---
+[documentation index](../README.md) > [Developer](Category:Developer.md) > File Format FCStd

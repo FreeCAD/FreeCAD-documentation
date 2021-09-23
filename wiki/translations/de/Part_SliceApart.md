@@ -8,6 +8,8 @@
    SeeAlso:[Part Kappen zu Verbund](Part_Slice/de.md), [Part Verbund Sprengen](Part_ExplodeCompound/de.md)
 ---
 
+# Part SliceApart/de
+
 
 </div>
 
@@ -78,5 +80,5 @@ Auseinander Schneiden wurde in FreeCAD v0.18.15506 eingeführt. FreeCAD muss mit
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part SliceApart/de

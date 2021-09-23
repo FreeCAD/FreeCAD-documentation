@@ -1,5 +1,5 @@
 # Macro Cabinets32/fr
- {{Macro/fr
+{{Macro/fr
 |Name=Cabinets32
 |Icon=Macro_Cabinets32.png
 |Description=Cette macro crée le Haut/Bas et les parois latérales d'une armoire avec la spécification System32.
@@ -550,6 +550,5 @@ if guiok:
 
 -   [Macro\_PartsLibrary](Macro_PartsLibrary.md) FreeCAD Library
 
-
-
-
+---
+[documentation index](../README.md) > Macro Cabinets32/fr

@@ -1,3 +1,4 @@
+# Mesh BuildRegularSolid/hu
 ---
 - GuiCommand:   Name:Mesh BuildRegularSolid   Workbenches:[[Mesh Workbench/hu   Háló]]|MenuLocation:Hálók → Szabályos tömör test…   Shortcut:   SeeAlso:---
 
@@ -136,4 +137,7 @@ Mesh objects created with this command inherit all [Mesh Feature](Mesh_Feature.m
 
 {{Mesh Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh BuildRegularSolid/hu

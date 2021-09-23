@@ -6,6 +6,8 @@
    Workbenches:[PartDesign](PartDesign_Workbench/es.md)
 ---
 
+# PartDesign Mirrored/es
+
 ## Descripción
 
 
@@ -108,4 +110,7 @@ La simetría resultante puede ser vista de forma predeterminada en tiempo real a
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Mirrored/es

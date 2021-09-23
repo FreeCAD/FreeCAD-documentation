@@ -1,11 +1,4 @@
 # Sandbox:TechDraw TemplateHelper
-
-
-
-
-
-
-
 {{TOCright}}
 
 ## Introduction
@@ -3155,3 +3148,6 @@ main()
 This is a sandbox / Dies ist eine Sandbox
 
 [Category:Sandbox](Category:Sandbox.md)
+
+---
+[documentation index](../README.md) > Sandbox:TechDraw TemplateHelper

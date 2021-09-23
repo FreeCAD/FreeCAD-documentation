@@ -8,6 +8,8 @@
    SeeAlso:[Draft Éditeur de styles d'annotations](Draft_AnnotationStyleEditor/fr.md), [Draft Appliquer le style](Draft_ApplyStyle/fr.md)
 ---
 
+# Draft SetStyle/fr
+
 ## Description
 
 La commande <img alt="" src=images/Draft_SetStyle.svg  style="width:24px;"> **Draft Définir le style** définit le style par défaut des nouveaux objets.
@@ -139,8 +141,5 @@ Les préférences suivantes sont en jeu :
 -   Afficher les unités : **Edition → Préférences... → Draft → Textes et dimensions → Paramètres de cotation → Afficher le suffixe de l'unité aux dimensions**.
 -   Remplacement de l\'unité : **Edition → Préférences... → Draft → Textes et dimensions → Paramètres de cotation → Remplacer l'unité**.
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft SetStyle/fr

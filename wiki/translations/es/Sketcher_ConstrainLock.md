@@ -1,3 +1,4 @@
+# Sketcher ConstrainLock/es
 ---
 - GuiCommand:/es   Name:Sketcher ConstrainLock   Name/es:Sketcher ConstrainLock   Workbenches:[Diseño de Piezas](Sketcher_Workbench/es___Croquizador]],_[[PartDesign_Workbench/es.md)|MenuLocation:Croquizador → Restricciones del Croquizador  → Bloquear   SeeAlso:[Restricción Coincidente](Constraint_PointOnPoint/es.md)---
 
@@ -59,4 +60,7 @@ The <img alt="" src=images/Sketcher_ConstrainLock.svg  style="width:24px;"> [Loc
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainLock/es

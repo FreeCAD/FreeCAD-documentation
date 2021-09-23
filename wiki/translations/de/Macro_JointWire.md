@@ -1,5 +1,5 @@
 # Macro JointWire/de
- **!!! Dieses Makro muss korrigiert werden. !!!**
+**!!! Dieses Makro muss korrigiert werden. !!!**
 
 
 {{Macro/de
@@ -90,6 +90,5 @@ Werkzeugleistensymbol ![](images/Macro_JointWire.png )
 
 }}
 
-
-
-
+---
+[documentation index](../README.md) > Macro JointWire/de

@@ -8,6 +8,8 @@
    SeeAlso:[Wygląd zewnętrzny](Std_SetAppearance/pl.md)
 ---
 
+# Part FaceColors/pl
+
 ## Zmiana koloru ścian 
 
 Funkcja ta pozwala na zdefiniowanie koloru dla każdej powierzchni lub ściany obiektu. ![Start function](images/Std_SetColors1_it.png ) W widoku z drzewa:
@@ -56,3 +58,6 @@ Aby zresetować wszystkie kolory powierzchni:
  
 
 [Category:User Documentation](Category:User_Documentation.md) [Category:Command\_Reference](Category:Command_Reference.md)
+
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part FaceColors/pl

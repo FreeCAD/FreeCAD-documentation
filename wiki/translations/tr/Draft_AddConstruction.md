@@ -7,6 +7,8 @@
    Version:0.17
 ---
 
+# Draft AddConstruction/tr
+
 
 </div>
 
@@ -60,5 +62,5 @@ Nesneleri [Grup](Std_Group/tr.md) veya [Draft VisGroup](Draft_VisGroup.md) \'a e
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft AddConstruction/tr

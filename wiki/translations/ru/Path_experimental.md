@@ -1,7 +1,4 @@
 # Path experimental/ru
-
-
-
 {{TOCright}}
 
 ## Описание
@@ -41,3 +38,6 @@ Read more about the specific experimental commands on the [wiki pages that link 
  {{Path Tools navi}} 
 
 [Category:Poweruser Documentation](Category:Poweruser_Documentation.md)
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path experimental/ru

@@ -1,3 +1,4 @@
+# TechDraw AngleDimension/ro
 ---
 - GuiCommand:   Name:TechDraw  Dimension Angle   Workbenches:[[TechDraw_Workbench   TechDraw]]|MenuLocation:TechDraw → Dimension Angle   Shortcut:   SeeAlso:---
 
@@ -65,4 +66,7 @@ rc = page.addView(dim1)
 
 {{TechDraw Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw AngleDimension/ro

@@ -1,6 +1,4 @@
 # Sphinx/fr
-
-
 ## Introduction
 
 [Sphinx](Sphinx/fr.md) est un système de documentation similaire à [Doxygen](Doxygen/fr.md), conçu principalement pour documenter le code [Python](Python/fr.md). Avec l\'utilisation de [\"Breathe\"](https://github.com/michaeljones/breathe), il peut également être utilisé pour analyser du code C++, afin qu\'il puisse être utilisé dans des projets qui mélangent C++ et Python.
@@ -33,3 +31,6 @@ Résultats encourageants de David\_D:
 -   [Forum FreeCAD](https://forum.freecadweb.org/viewtopic.php?p=411563#p411563) - <https://github.com/DavidDaish/freecad_sphinx_docs>
 
 [Category:Developer\_Documentation](Category:Developer_Documentation.md)
+
+---
+[documentation index](../README.md) > [Developer_Documentation](Category:Developer_Documentation.md) > Sphinx/fr

@@ -1,7 +1,4 @@
-# Inspection Workbench/ro
- 
-
-<img alt="Inspection workbench icon" src=images/Workbench_Inspection.svg  style="width:128px;">
+# <img alt="Inspection workbench icon" src=images/Workbench_Inspection.svg  style="width:64px;"> Inspection Workbench/ro
 
 
 <div class="mw-translate-fuzzy">
@@ -56,3 +53,6 @@ Ca alternativă, puteţi folosi macro-comanda [HighlightDifference](Macro_Highli
 
 
 [Category:Inspection](Category:Inspection.md) [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Inspection Workbench/ro

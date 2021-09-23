@@ -6,3 +6,6 @@ This category lists pages related to the [Plot Workbench/hu](Plot_Workbench/hu.m
 [Plot Module/hu](Plot_Module/hu.md) , [Template:Plot Tools navi/hu](Template:Plot_Tools_navi/hu.md)
 
 [Category:Workbenches/hu](Category:Workbenches/hu.md)
+
+---
+[documentation index](../README.md) > Category:Plot/hu

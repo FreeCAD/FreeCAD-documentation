@@ -7,6 +7,8 @@ Edit → Transform
    SeeAlso:[Std Base](Std_Base.md)
 ---
 
+# Std TransformManip
+
 ## Description
 
 This tool allows you to apply rotation increments or translation increments to an object.
@@ -31,4 +33,7 @@ This tool allows you to apply rotation increments or translation increments to a
 
 
 
- {{Std Base navi}} 
+ {{Std Base navi}}
+
+---
+[documentation index](../README.md) > Std TransformManip

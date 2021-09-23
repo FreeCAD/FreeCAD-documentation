@@ -1,10 +1,4 @@
 # Source documentation/tr
-
-
-
-
-
-
 {{TOCright}}
 
 ## Overview
@@ -131,3 +125,6 @@ void removeTaskWatcher(void);
  
 
 [Category:Developer Documentation](Category:Developer_Documentation.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Source documentation/tr

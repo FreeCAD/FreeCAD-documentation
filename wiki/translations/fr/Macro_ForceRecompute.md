@@ -1,5 +1,5 @@
 # Macro ForceRecompute/fr
- {{Macro/fr
+{{Macro/fr
 |Name=Macro Force Recompute
 |Icon=Force_Recompute.png
 |Description=Cette petite macro force un recalcul manuel du modèle. <br> Parfois, l'utilisateur applique des modifications au modèle dans FreeCAD. <br> Mais FreeCAD ne semble pas les reconnaître. <br> (À partir de {{Version/fr|0.17}} l'effet de cette macro peut être obtenu via l'interface graphique. Cliquez avec le bouton droit sur le projet dans l'arborescence du modèle et choisissez "Marquer pour recalculer" dans le menu contextuel. Ensuite, appuyez sur le bouton Recalculer.)
@@ -39,6 +39,5 @@ FreeCAD.ActiveDocument.recompute()
 
 }}
 
-
-
-
+---
+[documentation index](../README.md) > Macro ForceRecompute/fr

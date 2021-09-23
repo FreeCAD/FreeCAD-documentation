@@ -1,7 +1,4 @@
 # Arch DAE/cs
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -51,3 +48,6 @@ Importní funkcionalita Collady v modulu Architektura závisí na [pycollada](ht
  
 
 [Category:File Formats](Category:File_Formats.md)
+
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch DAE/cs

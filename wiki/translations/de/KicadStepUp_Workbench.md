@@ -1,7 +1,4 @@
 # KicadStepUp Workbench/de
-
-
-
 <div class="mw-translate-fuzzy">
 
 Symbol Externer Arbeitsbereich KicadStepUp
@@ -166,3 +163,6 @@ Neue Arbeitsbereiche sind in der Entwicklung, bleib dran!
 
 
 [Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+
+---
+[documentation index](../README.md) > KicadStepUp Workbench/de

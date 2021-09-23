@@ -8,6 +8,8 @@
    Version:0.15
 ---
 
+# Sketcher SelectVerticalAxis/de
+
 ## Beschreibung
 
 Wählt die vertikale Achse einer Skizze aus.
@@ -24,4 +26,7 @@ Wählt die vertikale Achse einer Skizze aus.
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectVerticalAxis/de

@@ -7,6 +7,8 @@
    SeeAlso:[Arch SchließeLöcher](Arch_CloseHoles/de.md)
 ---
 
+# Arch Check/de
+
 ## Beschreibung
 
 Dieses Werkzeug prüft das aktuelle Dokument oder die ausgewählten Objekte auf Nicht-Volumenkörper **<img src="images/_Workbench_Part.svg" width=16px> [Part](Part_Workbench/de.md)**- oder **<img src="images/_Workbench_Arch.svg" width=16px> [Arch](Arch_Workbench.md)**-Objekte, die Probleme bereiten könnten, da die meisten Operationen des Arch-Arbeitsbereichs Volumenkörper erfordern.
@@ -54,11 +56,5 @@ list_bad = Arch.check([Wall1, Wall2, Circle, Wire], includehidden=True)
 print(list_bad)
 ```
 
-
-
-
-
-
-
-
-
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Check/de

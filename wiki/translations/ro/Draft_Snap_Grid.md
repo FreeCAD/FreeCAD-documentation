@@ -7,6 +7,8 @@
    SeeAlso:[[Draft ToggleGrid/ro]], [[Draft Snap/ro]]
 ---
 
+# Draft Snap Grid/ro
+
 
 </div>
 
@@ -50,5 +52,5 @@ See [Draft Snap](Draft_Snap#Preferences.md).
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Grid/ro

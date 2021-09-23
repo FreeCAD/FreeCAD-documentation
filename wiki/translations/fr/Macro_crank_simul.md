@@ -1,5 +1,5 @@
 # Macro crank simul/fr
- {{Macro/fr
+{{Macro/fr
 |Name=Crank Simul
 |Description=Simulation de mouvement d'un vilebrequin.
 |Author=kwahoo
@@ -79,6 +79,5 @@ La discussion sur le forum (en anglais) [Inline-four engine animation](http://fo
 
 Le blogue [freecad-tutorial.blogspot](http://freecad-tutorial.blogspot.be/)
 
-
-
-
+---
+[documentation index](../README.md) > Macro crank simul/fr

@@ -6,6 +6,8 @@
    Version:0.17
 ---
 
+# PartDesign Boolean/pt-br
+
 ## Description
 
 **PartDesign Boolean** imports one or more [PartDesign Bodies](PartDesign_Body.md) or [PartDesign Clones](PartDesign_Clone.md) (designated as \"tool bodies\") into the active PartDesign Body and applies a Boolean operation (fuse, cut or common).
@@ -61,4 +63,7 @@ Alternatively, one or more Bodies can be selected prior to pressing the Boolean 
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Boolean/pt-br

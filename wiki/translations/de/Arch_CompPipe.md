@@ -8,15 +8,14 @@
    Version:0.17
 ---
 
+# Arch CompPipe/de
+
 ## Beschreibung
 
 ## Typen von 
 
 -   <img alt="" src=images/Arch_Pipe.svg  style="width:32px;"> [Rohr](Arch_Pipe/de.md): Erzeugt ein Rohr <small>(v0.17)</small> 
--   <img alt="" src=images/Arch_PipeConnector.svg  style="width:32px;"> [Rohrverbindungsstück](Arch_PipeConnector/de.md): Erzeugt eine Eck- oder T-Stück Verbindung zwischen 2 oder 3 ausgewählten Rohren <small>(v0.17)</small> 
+-   <img alt="" src=images/Arch_PipeConnector.svg  style="width:32px;"> [Rohrverbindungsstück](Arch_PipeConnector/de.md): Erzeugt eine Eck- oder T-Stück Verbindung zwischen 2 oder 3 ausgewählten Rohren <small>(v0.17)</small>
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CompPipe/de

@@ -6,3 +6,6 @@ This category contains icon images, and buttons, which can be placed in document
 [Artwork](Artwork.md) , [Artwork Erroneous](Artwork_Erroneous.md) , [Key ASCII](Key_ASCII.md)
 
 [Category:Artwork](Category:Artwork.md)
+
+---
+[documentation index](../README.md) > Category:Icon

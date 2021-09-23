@@ -1,5 +1,5 @@
 # Macro Unroll Ruled Surface/fr
- {{Macro/fr
+{{Macro/fr
 |Name=Macro Unroll Ruled Surface
 |Description=La macro permet de dérouler la surface d'une forme et la placer dans une page.
 |Author=Hervé B.
@@ -745,6 +745,5 @@ DialogBox.show()
 
 }}
 
-
-
-
+---
+[documentation index](../README.md) > Macro Unroll Ruled Surface/fr

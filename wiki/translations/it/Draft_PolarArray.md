@@ -8,6 +8,8 @@
    SeeAlso:[Serie](Draft_Array/it.md), [Serie circolare](Draft_CircularArray/it.md), [Serie su tracciato](Draft_PathArray/it.md), [Serie su punti](Draft_PointArray/it.md), [Clone](Draft_Clone/it.md)
 ---
 
+# Draft PolarArray/it
+
 
 </div>
 
@@ -210,5 +212,5 @@ doc.recompute()
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft PolarArray/it

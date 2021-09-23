@@ -1,3 +1,4 @@
+# Std OnlineHelp/ru
 ---
 - GuiCommand:/ru   Name:Std OnlineHelp   Name/ru:Std OnlineHelp   MenuLocation:[[Std Help/ru   Help]] → FreeCAD Website‏‎||Workbenches:All   Shortcut:   SeeAlso:---
 
@@ -27,4 +28,7 @@ The **Std OnlineHelp** command opens the help documentation. To open the documen
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std OnlineHelp/ru

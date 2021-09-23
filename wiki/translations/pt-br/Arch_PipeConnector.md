@@ -8,6 +8,8 @@
    SeeAlso:[Arch Pipe](Arch_Pipe.md), [Arch Equipment](Arch_Equipment.md)
 ---
 
+# Arch PipeConnector/pt-br
+
 ## Descrição
 
 This tool allows to create corner or tee connection between two or three selected [Arch Pipes](Arch_Pipe.md).
@@ -82,8 +84,5 @@ FreeCAD.ActiveDocument.recompute()
 
 </div>
 
-
-
-
-
-
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch PipeConnector/pt-br

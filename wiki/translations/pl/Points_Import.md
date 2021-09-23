@@ -6,6 +6,8 @@
    SeeAlso:[Import Export](Import_Export.md)
 ---
 
+# Points Import/pl
+
 ## Description
 
 The **Points Import** command imports a point cloud from a file.
@@ -43,4 +45,7 @@ For testing you can use [this file](https://raw.githubusercontent.com/FreeCAD/Ex
 
 {{Points Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Points](Points_Workbench.md) > Points Import/pl

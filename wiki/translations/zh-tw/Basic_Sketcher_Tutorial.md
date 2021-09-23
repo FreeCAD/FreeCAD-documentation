@@ -1,7 +1,4 @@
 # Basic Sketcher Tutorial/zh-tw
-
-
-
 {{TutorialInfo/zh-tw
 |Topic=草圖
 |Level=初學者
@@ -295,4 +292,7 @@ Constraining a sketch can be done in many different ways. In general, it is reco
 
 {{Tutorials navi
 
-}} {{Sketcher Tools navi}} 
+}} {{Sketcher Tools navi}}
+
+---
+[documentation index](../README.md) > Basic Sketcher Tutorial/zh-tw

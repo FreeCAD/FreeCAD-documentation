@@ -1,3 +1,4 @@
+# Drawing Orthoviews
 ---
 - GuiCommand:   Name:Drawing Orthoviews   Workbenches:[MenuLocation:Drawing → Insert orthographic views   Shortcut:none   SeeAlso:[[Drawing Landscape A3|Drawing Landscape A3](Drawing_Workbench___Drawing]],_Complete.md)---
 
@@ -53,4 +54,7 @@ To be added
 
 {{docnav|[Open Browser](Drawing_Openbrowser.md)|[Symbol](Drawing_Symbol.md)|[Drawing Workbench](Drawing_Workbench.md)|IconL=Drawing_Openbrowser.png|IconC=Workbench_Drawing.svg|IconR=Drawing_Symbol.png}}
 
- {{Drawing Tools navi}} 
+ {{Drawing Tools navi}}
+
+---
+[documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Orthoviews

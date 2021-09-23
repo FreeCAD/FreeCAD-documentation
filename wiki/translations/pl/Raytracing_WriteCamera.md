@@ -8,6 +8,8 @@
    SeeAlso:-
 ---
 
+# Raytracing WriteCamera/pl
+
 ## Opis
 
 Eksport aktualnego ujęcia widoku do pliku typu .pov do wykorzystania w projekcie POV-Ray.
@@ -27,4 +29,7 @@ Eksport aktualnego ujęcia widoku do pliku typu .pov do wykorzystania w projekci
 
 {{Raytracing_Tools_navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing WriteCamera/pl

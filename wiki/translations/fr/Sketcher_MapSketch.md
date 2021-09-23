@@ -7,6 +7,8 @@
    SeeAlso:[Sketcher Créer une esquisse](Sketcher_NewSketch/fr.md)
 ---
 
+# Sketcher MapSketch/fr
+
 ## Description
 
 Cet outil applique une esquisse existante sur la face d\'une forme. Les fonctions PartDesign créées à partir de l\'esquisse seront fusionnées au solide sous-jacent dans le case de fonctions d\'ajout de matière (Protrusion, Révolution) ou seront soustraites du solide sous-jacent dans le cas de fonctions d\'enlèvement de matière (Cavité, Enlèvement de matière par révolution).
@@ -54,4 +56,7 @@ Maintenant, nous sélectionnons la face de dessus de la protrusion (Pad) puis cl
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher MapSketch/fr

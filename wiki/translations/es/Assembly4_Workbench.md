@@ -1,7 +1,4 @@
-# Assembly4 Workbench/es
-
-
-<img alt="Icono del ambiente de trabajo externo" src=images/Assembly4_workbench_icon.svg  style="width:128px;">
+# <img alt="Icono del ambiente de trabajo externo" src=images/Assembly4_workbench_icon.svg  style="width:64px;"> Assembly4 Workbench/es
 
 ## Introducción
 
@@ -40,3 +37,6 @@ Assembly4 se inspiró en <img alt="" src=images/A2p_workbench.svg  style="width:
 
 
 [Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+
+---
+[documentation index](../README.md) > Assembly4 Workbench/es

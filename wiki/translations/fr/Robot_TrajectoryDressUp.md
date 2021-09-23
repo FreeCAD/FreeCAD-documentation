@@ -6,6 +6,8 @@
    MenuLocation:-
 ---
 
+# Robot TrajectoryDressUp/fr
+
 
 </div>
 
@@ -64,4 +66,7 @@ Vous pouvez alors changer les valeurs pour
 
 {{Robot_Tools_navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot TrajectoryDressUp/fr

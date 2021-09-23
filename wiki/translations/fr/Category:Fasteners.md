@@ -6,3 +6,6 @@ This page collects the documentation pages for the [Fasteners Workbench](Fastene
 [Fasteners Workbench/fr](Fasteners_Workbench/fr.md)
 
 [Category:External Workbenches](Category:External_Workbenches.md)
+
+---
+[documentation index](../README.md) > Category:Fasteners/fr

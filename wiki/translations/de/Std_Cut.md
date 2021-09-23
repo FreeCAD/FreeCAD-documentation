@@ -1,3 +1,4 @@
+# Std Cut/de
 ---
 - GuiCommand:/de
    Name:Std Cut
@@ -30,4 +31,7 @@ Um andere Objekte auszuschneiden, kannst du den [Std Kopieren](Std_Copy/de.md)-B
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std Cut/de

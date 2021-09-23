@@ -1,7 +1,4 @@
 # Arch panel tutorial/ro
-
-
-
 {{TutorialInfo/ro
 |Topic= Modeling an architectural panel
 |Level= Beginner
@@ -198,4 +195,7 @@ Atât instrumentele Draft Rotire cât și Move utilizează sistemul de ancorare 
 
 {{Tutorials navi
 
-}}   {{Sketcher Tools navi}} 
+}}   {{Sketcher Tools navi}}
+
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch panel tutorial/ro

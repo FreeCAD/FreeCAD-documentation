@@ -8,6 +8,8 @@
    Version:0.19
 ---
 
+# TechDraw DecorateLine/it
+
 
 </div>
 
@@ -69,4 +71,7 @@ In questo momento Decora linea non è accessibile dalle [macro](macros/it.md) o 
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw DecorateLine/it

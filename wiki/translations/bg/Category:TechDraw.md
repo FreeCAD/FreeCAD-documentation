@@ -6,3 +6,6 @@ This category lists pages related to the [TechDraw Workbench/bg](TechDraw_Workbe
 [TechDraw Workbench/bg](TechDraw_Workbench/bg.md)
 
 [Category:Workbenches/bg](Category:Workbenches/bg.md)
+
+---
+[documentation index](../README.md) > Category:TechDraw/bg

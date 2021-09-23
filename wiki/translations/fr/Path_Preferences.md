@@ -1,10 +1,4 @@
 # Path Preferences/fr
-
-
-
-
-
-
 {{TOCright}}
 
 ## Vue d\'ensemble 
@@ -46,3 +40,6 @@ Il y a trois sections: Général, Post-processeur et Configuration.
 }} 
 
 [Category:Preferences](Category:Preferences.md)
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Preferences/fr

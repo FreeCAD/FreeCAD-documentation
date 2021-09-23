@@ -1,3 +1,4 @@
+# Ship TankNew/ru
 ---
 - GuiCommand:/ru
    Name:Ship TankNew
@@ -21,9 +22,5 @@ TODO
 
 {{Ship_Tools_navi}}
 
-
-
-
-
-
-
+---
+[documentation index](../README.md) > Ship TankNew/ru

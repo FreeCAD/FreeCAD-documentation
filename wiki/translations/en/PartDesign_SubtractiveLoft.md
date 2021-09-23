@@ -7,6 +7,8 @@
    SeeAlso:[PartDesign Additive loft](PartDesign_AdditiveLoft.md), [PartDesign Subtractive pipe](PartDesign_SubtractivePipe.md)
 ---
 
+# PartDesign SubtractiveLoft/en
+
 ## Description
 
 **Subtractive Loft** creates a subtractive solid in the active Body by making a transition between two or more sketches (also referred to as cross-sections). Its shape is then subtracted from the existing solid.
@@ -71,4 +73,7 @@
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveLoft/en

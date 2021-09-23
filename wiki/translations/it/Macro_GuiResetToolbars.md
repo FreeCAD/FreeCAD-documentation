@@ -1,7 +1,4 @@
 # Macro GuiResetToolbars/it
-
-
-
 {{Macro/it
 |Name=GuiResetToolbars
 |Name/it=Gui Reset Tool bars
@@ -81,3 +78,6 @@ for i in tb:
 ## Link
 
 La discussione sul forum [Reset toolbar position](https://forum.freecadweb.org/viewtopic.php?f=3&t=45452&p=390034#p389404)
+
+---
+[documentation index](../README.md) > Macro GuiResetToolbars/it

@@ -7,6 +7,8 @@
    SeeAlso:[Skizzierer SkizzeBearbeiten](Sketcher_EditSketch.md)
 ---
 
+# Sketcher LeaveSketch/de
+
 
 </div>
 
@@ -44,4 +46,7 @@ Der **Skizze verlassen** Befehl verlässt den Skizzenbearbeitungsmodus und gibt 
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher LeaveSketch/de

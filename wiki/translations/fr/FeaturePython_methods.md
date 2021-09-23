@@ -1,7 +1,4 @@
 # FeaturePython methods/fr
-
-
-
 {{TOCright}}
 
 ## Introduction
@@ -73,3 +70,6 @@ Remarquez que getPyObject() et init() sont des cas particuliers et ne suivent pa
 }} 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > FeaturePython methods/fr

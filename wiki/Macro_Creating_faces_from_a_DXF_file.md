@@ -1,5 +1,5 @@
 # Macro Creating faces from a DXF file
-  {{Macro
+{{Macro
 |Name=Macro Creating faces from a DXF file
 |Icon=Macro_Creating_faces_from_a_DXF_file.png
 |Description=This macro create face from a DXF file, the "Layer" are recognized separate and trained in groups.
@@ -52,4 +52,7 @@ for group in doc.findObjects('App::DocumentObjectGroup'):
 
 Forum [Creating faces from a DXF file](http://forum.freecadweb.org/viewtopic.php?f=3&t=8144)
 
-Here an example [Generate 3D solid from intersection of three imported 2D](http://forum.freecadweb.org/viewtopic.php?f=3&t=8280&p=67863#p67840)  
+Here an example [Generate 3D solid from intersection of three imported 2D](http://forum.freecadweb.org/viewtopic.php?f=3&t=8280&p=67863#p67840)
+
+---
+[documentation index](../README.md) > Macro Creating faces from a DXF file

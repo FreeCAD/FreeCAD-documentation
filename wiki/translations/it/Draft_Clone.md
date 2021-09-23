@@ -8,6 +8,8 @@
    SeeAlso:[Sposta](Draft_Move/it.md), [Scala](Draft_Scale/it.md)
 ---
 
+# Draft Clone/it
+
 
 </div>
 
@@ -145,5 +147,5 @@ doc.recompute()
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Clone/it

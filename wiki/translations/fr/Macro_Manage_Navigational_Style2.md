@@ -1,5 +1,5 @@
 # Macro Manage Navigational Style2/fr
- {{Macro/fr
+{{Macro/fr
 |Name=Macro Manage Navigational Styles2
 |Icon=Macro_Manage_Navigational_Styles2.png
 |Description=Cette macro vous permet de modifier le style de navigation Inventor lors de l'utilisation de l'esquisse. <br/> Lors de l'utilisation de l'esquisse, le menu du bouton droit est redéfini pour contenir les options pertinentes pour l'esquisse. Par conséquent, l'option permettant de modifier le style de navigation, qui est disponible en dehors de l'esquisse, n'est pas disponible dans l'esquisse.
@@ -45,6 +45,5 @@ p=App.ParamGet("User parameter:BaseApp/Preferences/View")
 p.SetString("NavigationStyle","Gui::InventorNavigationStyle")
 }}
 
-
-
-
+---
+[documentation index](../README.md) > Macro Manage Navigational Style2/fr

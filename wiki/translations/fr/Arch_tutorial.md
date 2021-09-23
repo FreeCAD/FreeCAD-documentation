@@ -1,7 +1,4 @@
 # Arch tutorial/fr
-
-
-
 {{TutorialInfo/fr
 |Topic=Modélisation
 |Level=Intermédiaire
@@ -479,4 +476,7 @@ Le fichier créé durant ce tutoriel peut être téléchargé [ici](http://yorik
 
 {{Tutorials navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch tutorial/fr

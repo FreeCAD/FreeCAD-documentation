@@ -1,5 +1,5 @@
 # Macro MeasureCircle/fr
- {{Macro/fr
+{{Macro/fr
 |Name=Macro MeasureCircle
 |Icon=Macro_MeasureCircle.png
 |Description=Calcule le rayon d'un cercle sur 3 points ou une ligne circulaire
@@ -33,6 +33,5 @@ ToolBar Icon ![](images/Macro_MeasureCircle.png )
 
 **Macro\_MeasureCircle.FCMacro**
 
-
-
-
+---
+[documentation index](../README.md) > Macro MeasureCircle/fr

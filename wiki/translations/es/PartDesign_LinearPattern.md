@@ -6,6 +6,8 @@
    Workbenches:[DiseñoPieza](PartDesign_Workbench/es.md)
 ---
 
+# PartDesign LinearPattern/es
+
 ## Descripción
 
 La herramienta **<img src=images/PartDesign_LinearPattern.svg style="width:24px"> '''PatrónLineal'''** crea copias de una operación a una misma distancia en dirección lineal. A partir de la v0.17 la herramienta de patrón lineal puede repetir múltiples operaciones. {{VersionPlus/es|0.17}}
@@ -93,4 +95,7 @@ Seleccionar uno de los ejes estándar de Origen del Body (cuerpo) (X, Y o Z) com
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign LinearPattern/es

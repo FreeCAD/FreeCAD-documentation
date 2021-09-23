@@ -8,6 +8,8 @@
    SeeAlso:[Arch Wall](Arch_Wall.md), [Arch Grid](Arch_Grid.md)
 ---
 
+# Arch CurtainWall/pt-br
+
 ## Descrição
 
 This tool creates a [curtain wall](https://en.wikipedia.org/wiki/Curtain_wall_(architecture)) by subdividing a base face into quadrangular faces, then creating vertical mullion on the vertical edges, horizontal mullions on the horizontal edges, and filling the spaces between mullions with panels.
@@ -148,8 +150,5 @@ curtainWall.VerticalSections = 6
 FreeCAD.ActiveDocument.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CurtainWall/pt-br

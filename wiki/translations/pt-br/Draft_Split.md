@@ -8,6 +8,8 @@
    SeeAlso:[Draft Join](Draft_Join.md)
 ---
 
+# Draft Split/pt-br
+
 ## Descrição
 
 The <img alt="" src=images/Draft_Split.svg  style="width:24px;"> **Draft Split** command splits a [Draft Line](Draft_Line.md) or [Draft Wire](Draft_Wire.md) at a specified point or edge. This command is the counterpart of the [Draft Join](Draft_Join.md) command.
@@ -78,5 +80,5 @@ doc.recompute()
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Split/pt-br

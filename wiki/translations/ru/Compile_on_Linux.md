@@ -1,10 +1,4 @@
 # Compile on Linux/ru
-
-
-
-
-
-
 **Существует экспериментальный контейнер FreeCAD Docker, который протестирован для разработки FreeCAD. Подробнее на странице [Компиляция в Docker](Compile_on_Docker/ru.md)**
 
 
@@ -1230,3 +1224,6 @@ make -j$(nproc)
 
 
 [Category:Developer\_Documentation](Category:Developer_Documentation.md) [Category:Developer](Category:Developer.md)
+
+---
+[documentation index](../README.md) > [Developer_Documentation](Category:Developer_Documentation.md) > Compile on Linux/ru

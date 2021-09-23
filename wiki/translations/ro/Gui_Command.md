@@ -1,7 +1,4 @@
 # Gui Command/ro
-
-
-
 <div class="mw-translate-fuzzy">
 
 GuiCommand este una dintre cele mai importante funcții ale FreeCAD în principalul punct de interacțiune al utilizatorului. De fiecare dată când utilizatorul selectează un element de meniu sau apasă butonul unei bare de instrumente pe care îl activează a GuiCommand. Unele dintre atributele unui GuiCommand sunt:
@@ -139,4 +136,7 @@ Sperăm că acest lucru devine adevărat pentru toți GuiCommands din[List of Co
 
 {{Powerdocnavi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > Gui Command/ro

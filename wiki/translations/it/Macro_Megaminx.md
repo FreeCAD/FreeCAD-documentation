@@ -1,5 +1,5 @@
 # Macro Megaminx/it
- {{Macro/it
+{{Macro/it
 |Name=Macro_Megaminx
 |Name/it=Macro Megaminx
 |Icon=Macro_Megaminx.png
@@ -34,3 +34,6 @@ ToolBar icon <img alt="" src=images/Macro_Megaminx.png  style="width:64px;">
 ## Utilizzo
 
 Scarica il codice da <https://github.com/rparkins999/Megaminx> nella tua macro directory. Esegui la macro su creare un documento Megaminx. Quindi puoi giocarci. È possibile utilizzare le funzioni della cronologia costruire e salvare operatori (ovvero algoritmi) che apportano utili trasformazioni su Megaminx. Un set adatto di questi ti darà una soluzione completa. Step\_history La funzione può essere utilizzata per aiutarti a riprodurre un operatore su un vero Megaminx.
+
+---
+[documentation index](../README.md) > Macro Megaminx/it

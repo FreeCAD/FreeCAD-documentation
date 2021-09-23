@@ -1,10 +1,4 @@
-# Reverse Engineering Workbench/fr
-
-
-
-
-
-<img alt="Icône de l\'atelier Ingénierie inverse" src=images/Workbench_Reverse_Engineering.svg  style="width:128px;">
+# <img alt="Icône de l\'atelier Ingénierie inverse" src=images/Workbench_Reverse_Engineering.svg  style="width:64px;"> Reverse Engineering Workbench/fr
 
 ## Introduction
 
@@ -37,3 +31,6 @@ Lien vers les fils de discussion appropriés sur cet atelier
 
 
 [Category:Reverse Engineering](Category:Reverse_Engineering.md) [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Reverse Engineering Workbench/fr

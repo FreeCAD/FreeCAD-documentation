@@ -8,6 +8,8 @@
    SeeAlso:[Sketcher Copia](Sketcher_Copy/it.md), [Sketcher Sposta](Sketcher_Move/it.md)
 ---
 
+# Sketcher Clone/it
+
 
 </div>
 
@@ -37,4 +39,7 @@ Per il clone non vengono aggiunti vincoli specifici.
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Clone/it

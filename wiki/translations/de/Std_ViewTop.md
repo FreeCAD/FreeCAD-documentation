@@ -8,6 +8,8 @@
    SeeAlso:[Std Vorderansicht](Std_ViewFront/de.md), [Std Ansicht von rechts](Std_ViewRight.md)
 ---
 
+# Std ViewTop/de
+
 ## Beschreibung
 
 Der Befehl **Std Draufsicht** wendet die Kamerasicht der aktiven [3D-Ansicht](3D_view/de.md) in die Richtung der negativen Z-Achse.
@@ -45,4 +47,7 @@ FreeCADGui.ActiveDocument.ActiveView.getViewDirection()
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ViewTop/de

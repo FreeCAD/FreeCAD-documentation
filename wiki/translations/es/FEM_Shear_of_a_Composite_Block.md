@@ -1,7 +1,4 @@
 # FEM Shear of a Composite Block/es
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -121,4 +118,7 @@ The FC file for this tutorial is attached below as a starting point.
 
 <https://forum.freecadweb.org/viewtopic.php?f=18&t=26517&start=20>
 
-Que te diviertas ! {{Tutorials navi}} {{FEM Tools navi}} 
+Que te diviertas ! {{Tutorials navi}} {{FEM Tools navi}}
+
+---
+[documentation index](../README.md) > FEM Shear of a Composite Block/es

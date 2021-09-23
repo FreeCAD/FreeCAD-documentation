@@ -1,6 +1,4 @@
 # Artwork Reinforcement/de
- 
-
 Diese Symbole befinden sich im angegebenen Quellpfad.
 
 Für alle Symbole im Quellbaum, siehe [Grafik](Artwork/de.md).
@@ -14,3 +12,5 @@ Für alle Symbole im Quellbaum, siehe [Grafik](Artwork/de.md).
 
 {{Artwork/de}}
 
+---
+[documentation index](../README.md) > Artwork Reinforcement/de

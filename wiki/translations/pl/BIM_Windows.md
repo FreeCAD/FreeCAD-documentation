@@ -7,6 +7,8 @@
    MenuLocation:Manage → Zarządzaj drzwiami i oknami
 ---
 
+# BIM Windows/pl
+
 ## Opis
 
 Okienko dialogowe menadżera okien BIM pozwala na przeglądanie i modyfikowanie wszystkich [okien i drzwi](Arch_Window/pl.md) projektu razem. Jest to często wygodniejsze niż edytowanie ich pojedynczo i pozwala upewnić się, że wszystkie mają poprawnie ustawione wymagane parametry, takie jak znacznik, wymiary, opis czy materiał.
@@ -21,3 +23,6 @@ Okienko dialogowe menadżera okien BIM pozwala na przeglądanie i modyfikowanie 
 }}
 
 [Category:External Command Reference](Category:External_Command_Reference.md)
+
+---
+[documentation index](../README.md) > [External Command Reference](Category:External Command Reference.md) > BIM Windows/pl

@@ -8,6 +8,8 @@
    SeeAlso:[Uruchom solver](FEM_SolverRun/pl.md)
 ---
 
+# FEM SolverControl/pl
+
 ## Opis
 
 ## Użycie
@@ -18,4 +20,7 @@
 
 {{FEM Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > FEM SolverControl/pl

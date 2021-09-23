@@ -9,6 +9,8 @@
    SeeAlso:[Std ViewFullscreen](Std_ViewFullscreen.md), [Std MainFullscreen](Std_MainFullscreen.md)
 ---
 
+# Std ViewDockUndockFullscreen
+
 ## Introduction
 
 [3D views](3D_view.md) can be undocked from the main [FreeCAD interface](Interface.md) and moved to a different display for example.
@@ -51,4 +53,7 @@ The **Undocked** menu option undocks the active [3D view](3D_view.md) from the m
 
 
 
- {{Std Base navi}}  
+ {{Std Base navi}}
+
+---
+[documentation index](../README.md) > Std ViewDockUndockFullscreen

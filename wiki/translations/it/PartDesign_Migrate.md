@@ -8,6 +8,8 @@
    Version:0.17
 ---
 
+# PartDesign Migrate/it
+
 
 </div>
 
@@ -49,4 +51,7 @@ PartDesign in FreeCAD v0.17 introduce nuovi strumenti ed elementi che non sono r
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Migrate/it

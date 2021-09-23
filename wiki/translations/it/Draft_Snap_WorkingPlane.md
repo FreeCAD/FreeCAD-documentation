@@ -9,6 +9,8 @@
    SeeAlso:[Agganciare](Draft_Snap/it.md), [Selezione del piano](Draft_SelectPlane/it.md)
 ---
 
+# Draft Snap WorkingPlane/it
+
 
 </div>
 
@@ -57,8 +59,5 @@ Questo metodo posiziona sempre un nuovo punto sull\'attuale [piano di lavoro](Dr
 
 See [Draft Snap](Draft_Snap#Preferences.md).
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap WorkingPlane/it

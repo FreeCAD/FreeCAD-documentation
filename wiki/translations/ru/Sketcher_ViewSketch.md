@@ -6,6 +6,8 @@
    Workbenches:[Sketcher](Sketcher_Workbench/ru.md), [PartDesign](PartDesign_Workbench/ru.md)
 ---
 
+# Sketcher ViewSketch/ru
+
 ## Описание
 
 Этот инструмент устанавливает вид модели перпендикулярно плоскости эскиза. Это полезно, когда пользователь изменил ориентацию вида модели, чтобы изучить другой аспект модели, и хочет вернуться к нормальному виду эскиза.
@@ -23,4 +25,7 @@
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ViewSketch/ru

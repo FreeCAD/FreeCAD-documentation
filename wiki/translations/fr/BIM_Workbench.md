@@ -1,8 +1,4 @@
-# BIM Workbench/fr
-
- 
-
-<img alt="Icône de l\'atelier externe BIM" src=images/IFC.svg  style="width:128px;">
+# <img alt="Icône de l\'atelier externe BIM" src=images/IFC.svg  style="width:64px;"> BIM Workbench/fr
 
 
 {{TOCright}}
@@ -187,3 +183,6 @@ De nouveaux ateliers sont en développement, restez à l\'écoute !
 
 
 [Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md) [Category:BIM](Category:BIM.md)
+
+---
+[documentation index](../README.md) > BIM Workbench/fr

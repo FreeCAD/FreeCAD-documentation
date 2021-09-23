@@ -1,7 +1,4 @@
 # Workbenches/tr
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -127,3 +124,6 @@ Yeni tezgahlar geliştiriliyor, bizi izlemeye devam edin!
 
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Workbenches/tr

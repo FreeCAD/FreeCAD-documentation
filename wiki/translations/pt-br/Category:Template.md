@@ -6,3 +6,6 @@ This category contains all the Templates
 [Template:Sketcher Tools/pt-br](Template:Sketcher_Tools/pt-br.md) ,
 
 [Category:Categories/pt-br](Category:Categories/pt-br.md) [Category:Template:Navigation/pt-br](Category:Template:Navigation/pt-br.md)
+
+---
+[documentation index](../README.md) > Category:Template/pt-br

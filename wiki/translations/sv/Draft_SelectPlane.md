@@ -1,3 +1,4 @@
+# Draft SelectPlane/sv
 ---
 - GuiCommand:/sv   Name:Draft_Workingplane   Workbenches:[[Draft_Workbench/sv   Skiss]]|MenuLocation:Drafting → SelectPlane---
 
@@ -137,8 +138,5 @@ projection = my_plane.projectPoint(App.Vector(10, 15, 2))
 print(projection)
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft SelectPlane/sv

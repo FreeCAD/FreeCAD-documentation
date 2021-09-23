@@ -1,6 +1,4 @@
 # Units/pl
-
-
 Oto kilka lektur na temat jednostek:
 
 -   [Metrologia](http://en.wikipedia.org/wiki/Metrology)
@@ -288,4 +286,7 @@ W ten sposób bardzo łatwo jest zarządzać dowolną liczbą właściwości prz
 
 {{Powerdocnavi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > Units/pl

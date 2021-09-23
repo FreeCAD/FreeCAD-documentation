@@ -1,5 +1,5 @@
 # Draft ShapeString tutorial/de
- {{TutorialInfo/de
+{{TutorialInfo/de
 |Topic=Produktgestaltung
 |Level=Anfänger
 |Time=30 Minuten
@@ -195,4 +195,7 @@ Siehe den Forumsbeitrag, [Wie man FormZeichenfolgen in PartDesign verwendet](htt
 
 {{Tutorials navi
 
-}}  {{PartDesign Tools navi}} {{Sketcher Tools navi}} 
+}}  {{PartDesign Tools navi}} {{Sketcher Tools navi}}
+
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ShapeString tutorial/de

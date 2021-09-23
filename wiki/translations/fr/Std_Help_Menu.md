@@ -1,10 +1,4 @@
-# Std Help Menu/fr
-
-
-
-
-
-<img alt="Icône de Base" src=images/Freecad.svg  style="width:128px;">
+# <img alt="Icône de Base" src=images/Freecad.svg  style="width:64px;"> Std Help Menu/fr
 
 
 {{TOCright}}
@@ -64,3 +58,6 @@ Les outils suivants sont disponibles dans ce menu:
 }}  
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > [Workbenches](Category:Workbenches.md) > Std Help Menu/fr

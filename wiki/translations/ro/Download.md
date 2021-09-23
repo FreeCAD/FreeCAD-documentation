@@ -1,5 +1,5 @@
 # Download/ro
- {{TOCright}}
+{{TOCright}}
 
 
 <div class="mw-translate-fuzzy">
@@ -109,5 +109,5 @@ Comunitatea FreeCAD oferă o multitudine de module și macrocomenzi suplimentare
 
 </div>
 
-
-
+---
+[documentation index](../README.md) > Download/ro

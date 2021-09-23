@@ -1,9 +1,4 @@
 # Installing on Windows/pt
-
-
-
-
-
 A maneira mais fácil de instalar o FreeCAD no Windows é correndo o programa de instalação seguinte:
 
 
@@ -237,5 +232,5 @@ FreeCAD is running, but it has been reported that the OpenGL display does not wo
 
 </div>
 
-
-
+---
+[documentation index](../README.md) > Installing on Windows/pt

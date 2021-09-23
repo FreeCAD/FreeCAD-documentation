@@ -1,7 +1,4 @@
 # PartDesign Preferences/it
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -196,3 +193,6 @@ Fare clic con il tasto destro del mouse su **Deviazione mesh** scegliere nel men
 }} 
 
 [Category:Preferences](Category:Preferences.md)
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Preferences/it

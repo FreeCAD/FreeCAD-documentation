@@ -1,10 +1,4 @@
 # Getting started/tr
-
-
-
-
-
-
 {{TOCright}}
 
 ## Önsöz
@@ -305,3 +299,6 @@ Son olarak, FreeCAD\'in en güçlü özelliklerinden biri [betik](Power_users_hu
 
 
 [Kullanıcı Belgeleri](Category:User_Documentation/tr.md)
+
+---
+[documentation index](../README.md) > Getting started/tr

@@ -1,5 +1,4 @@
 # Package Metadata
-
 **This page documents a feature currently under development.
 **
 
@@ -255,3 +254,6 @@ The maximum version of FreeCAD required to use package/element, as a semantic ve
       </content>
 
     </package>
+
+---
+[documentation index](../README.md) > Package Metadata

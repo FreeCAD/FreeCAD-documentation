@@ -7,6 +7,8 @@
    Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
 ---
 
+# Sketcher CompCreateConic/ru
+
 ## Описание
 
 **Создать фигуру конического сечения** это кнопка со значком <img alt="" src=images/Sketcher_CompCreateConic.png  style="width:64px;"> на панели инструментов геометрии Sketcher, которая группирует инструменты для создания кривых на основе сечения конуса. Нажмите на стрелку вниз справа от нее, чтобы развернуть значки под ней и выбрать инструмент.
@@ -25,4 +27,7 @@
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CompCreateConic/ru

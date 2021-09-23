@@ -1,3 +1,4 @@
+# Sketcher ConstrainEqual/it
 ---
 - GuiCommand:/it   Name:Sketcher ConstrainEqual   Name/it:Uguale   Workbenches:[MenuLocation:PartDesign → Schizzo → Uguale   Shortcut:E   SeeAlso:[[Sketcher_ConstrainRadius/it|Raggio](Sketcher_Workbench/it___Schizzo]].md)---
 
@@ -101,4 +102,7 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainEqual/it

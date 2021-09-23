@@ -7,6 +7,8 @@
    SeeAlso:[Personalización del interfaz](Interface_Customization/es.md)
 ---
 
+# Std DlgCustomize/es
+
 ## Descripción
 
 El comando **Std DiálogoPersonalizar** abre el cuadro de diálogo Personalizar que da acceso a varias opciones de personalización.
@@ -32,4 +34,7 @@ El comando **Std DiálogoPersonalizar** abre el cuadro de diálogo Personalizar 
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std DlgCustomize/es

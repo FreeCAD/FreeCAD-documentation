@@ -8,6 +8,8 @@
    SeeAlso:[Перспективная проекция](Std_PerspectiveCamera/ru.md)
 ---
 
+# Std OrthographicCamera/ru
+
 ## Описание
 
 Команда **Std OrthographicCamera** переводит камеру в активном [трёхмерном виде](3D_view/ru.md) в режим ортогональной проекции. В этом режиме объекты, которые находятся дальше от камеры, выглядят не меньше, чем те, которые находятся ближе.
@@ -51,4 +53,7 @@ FreeCADGui.ActiveDocument.ActiveView.getCameraType()
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std OrthographicCamera/ru

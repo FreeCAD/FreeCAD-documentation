@@ -1,5 +1,5 @@
 # Macro SplitPropEditor/fr
- {{Macro
+{{Macro
 |Name=SplitPropEditor
 |Icon=
 |Description=Cette macro permet de séparer temporairement l'éditeur de propriétés de la vue combo vers un widget docké séparé.
@@ -170,3 +170,5 @@ if __name__ == '__main__': # if macro called to run
     run()
 }}
 
+---
+[documentation index](../README.md) > Macro SplitPropEditor/fr

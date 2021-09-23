@@ -1,3 +1,4 @@
+# FEM ConstraintElectrostaticPotential/it
 ---
 - GuiCommand:/it   Name:FEM_ConstraintElectrostaticPotential   Name/it:Potenziale elettrostatico di vincolo   Icon:Fem-constraint-electrostatic-potential.svg   MenuLocation: Modello → Vincoli elettrostatici → Potenziale elettrostatico di vincolo   |Workbenches:[Shortcut:   SeeAlso:[[FEM_tutorial/it|Tutorial FEM](FEM_Workbench/it___FEM]].md)---
 
@@ -12,4 +13,7 @@ Da fare
 
 {{FEM Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > FEM ConstraintElectrostaticPotential/it

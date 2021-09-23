@@ -7,6 +7,8 @@
    SeeAlso:[Reinforcement](Reinforcement_Workbench.md), [Arch Rebar](Arch_Rebar.md), [Arch Helical Rebar](Arch_Rebar_Helical.md), [Arch ColumnReinforcement TwoTiesSixRebars](Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars.md)
 ---
 
+# Arch Rebar ColumnReinforcement/en
+
 ## Description
 
 The [Column Reinforcement](Arch_Rebar_ColumnReinforcement.md) tool allows the user to create reinforcing bars inside a Column [Arch Structure](Arch_Structure.md) object.
@@ -563,3 +565,6 @@ rebar_group = SingleTieMultipleRebars.editSingleTieMultipleRebars(
  
 
 [Category:Reinforcement](Category:Reinforcement.md)
+
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Rebar ColumnReinforcement/en

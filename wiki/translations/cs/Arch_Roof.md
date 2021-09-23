@@ -1,3 +1,4 @@
+# Arch Roof/cs
 ---
 - GuiCommand:/cs   Name:Arch Roof   Name/cs:Arch Střecha   Workbenches:[[Arch_Workbench/cs   Arch]]|MenuLocation:Arch → Střecha   Shortcut:R F---
 
@@ -146,3 +147,6 @@ doc.recompute()
  
 
 [Category:Arch/cs](Category:Arch/cs.md)
+
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Roof/cs

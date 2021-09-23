@@ -8,6 +8,8 @@
    SeeAlso:---
 ---
 
+# Robot InsertWaypoint/fr
+
 
 </div>
 
@@ -58,4 +60,7 @@ Le déplacement d\'un robot se fait par:
 
 {{Robot_Tools_navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot InsertWaypoint/fr

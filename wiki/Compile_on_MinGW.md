@@ -1,7 +1,4 @@
 # Compile on MinGW
- 
-
-
 **(2021) The re-write of this page is an early draft, and work is still in progress. Please help us to finish it!<br>Meanwhile, try other [compilation options](Compiling.md).**
 
  
@@ -151,3 +148,6 @@ And finally:
  
 
 [Category:Developer\_Documentation](Category:Developer_Documentation.md) [Category:Developer](Category:Developer.md)
+
+---
+[documentation index](../README.md) > [Developer_Documentation](Category:Developer_Documentation.md) > Compile on MinGW

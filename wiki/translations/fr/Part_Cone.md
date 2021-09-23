@@ -7,6 +7,8 @@
    SeeAlso:[Part Primitives](Part_Primitives/fr.md)
 ---
 
+# Part Cone/fr
+
 ## Description
 
 Un cône paramétrique tronqué est une primitive disponible sur la barre d\'outils Part, ou dans le menu (primitives sub-menu) une boite de dialogue primitives géométriques est ouverte.
@@ -35,8 +37,5 @@ Les propriétés du cône peuvent être éditées ultérieurement, soit dans l\'
 
 -    {{PropertyData/fr|Angle}}: Nombre de degrés de l\'arc ou des cercles définissant les faces supérieure et inférieure du cône tronqué. La valeur par défaut de 360° crée des faces circulaires, une valeur inférieure créera une partie de cône définie par des faces supérieure et inférieure dont les bords sont définis par un arc du nombre de degrés et deux rayons.
 
-
-
-
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Cone/fr

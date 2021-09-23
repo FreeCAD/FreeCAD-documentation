@@ -1,3 +1,4 @@
+# Path Surface/it
 ---
 - GuiCommand:/it   Name:Path 3DSurface   Name/it:Sfacciatura 3D   Workbenches:[[Path Workbench/it   Path]]|MenuLocation:Path → Sfacciatura 3D   Shortcut:   SeeAlso:---
 
@@ -397,4 +398,7 @@ Note: It is suggested that you do not edit the Placement property of path operat
 
 {{Path Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Surface/it

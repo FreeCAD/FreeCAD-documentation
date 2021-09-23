@@ -1,5 +1,5 @@
 # Macro Loft/fr
- {{Macro/fr
+{{Macro/fr
 |Name=Macro Loft
 |Icon=FCCreaLoft.png
 |Description=Crée un lissage avec les fils sélectionnés. Spécialement écrit pour un lissage facile avec des lignes générées par la [https://www.freecadweb.org/wiki/Macro_Texture Macro Texture] (mais peut convenir et être utilisé pour les lofts courants)
@@ -64,3 +64,6 @@ ver 00.02 : 09/02/2016 : Ajout du bouton \"Select all\" et petite option affich�
 ver 00.03 : 09/02/2016 : minor (affichage sur le bouton Launch)
 
 ver 00.04 : 03/07/2019 : adapté pour Python 3
+
+---
+[documentation index](../README.md) > Macro Loft/fr

@@ -6,6 +6,8 @@
    SeeAlso:[Std Appearance](Std_SetAppearance.md)
 ---
 
+# Part FaceColors/pt-br
+
 ## Description
 
 The **FaceColors** feature allows you to define a color for each face or surface of an object. This way you can assign multiple colors to one part. To color whole parts, use instead is the feature *[SetAppearance](Std_SetAppearance.md)*.
@@ -35,3 +37,6 @@ To reset all face colors:
  
 
 [Category:User Documentation](Category:User_Documentation.md) [Category:Command\_Reference](Category:Command_Reference.md)
+
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part FaceColors/pt-br

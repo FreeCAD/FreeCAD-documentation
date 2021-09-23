@@ -1,7 +1,4 @@
 # Macro GuiResetToolbars
- 
-
-
 {{Macro
 |Name=GuiResetToolbars
 |Description=This macro resets the position of the toolbars. Run the macro within a workbench that has a missing toolbar(s).
@@ -85,4 +82,5 @@ for i in tb:
 
 The forum discussion [Reset toolbar position](https://forum.freecadweb.org/viewtopic.php?f=3&t=45452&p=390034#p389404)
 
-
+---
+[documentation index](../README.md) > Macro GuiResetToolbars

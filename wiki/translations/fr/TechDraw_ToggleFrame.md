@@ -7,6 +7,8 @@
    SeeAlso:[TechDraw Vue](TechDraw_View/fr.md), [TechDraw Projection de groupe](TechDraw_ProjectionGroup/fr.md)
 ---
 
+# TechDraw ToggleFrame/fr
+
 ## Description
 
 L\'outil Basculer l\'affichage des cadres active ou désactive l\'affichage des cadres de vue, des étiquettes et des sommets.
@@ -45,4 +47,7 @@ L\'outil Basculer l\'affichage des cadres n\'a actuellement pas d\'interface de 
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ToggleFrame/fr

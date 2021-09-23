@@ -6,6 +6,8 @@
    SeeAlso:[FEM tutorial](FEM_tutorial.md)
 ---
 
+# FEM MeshGmshFromShape
+
 ## Description
 
 For a finite elements analysis the geometry needs to be discretized into a [FEM Mesh](FEM_Mesh.md). This command uses the program [Gmsh](https://en.wikipedia.org/wiki/Gmsh) (which needs to be installed on the system) for calculating the mesh.
@@ -113,4 +115,7 @@ The *Simple* recombination algorithm will leave some triangles in the mesh in ca
 
 
 
- {{FEM Tools navi}}  
+ {{FEM Tools navi}}
+
+---
+[documentation index](../README.md) > FEM MeshGmshFromShape

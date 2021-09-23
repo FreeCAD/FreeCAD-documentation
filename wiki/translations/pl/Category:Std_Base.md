@@ -6,3 +6,6 @@ This category list pages related to the [Std Base](Std_Base/pl.md), which collec
 [Template:Std Base navi/pl](Template:Std_Base_navi/pl.md)
 
 [Category:User\_Documentation/pl](Category:User_Documentation/pl.md)
+
+---
+[documentation index](../README.md) > Category:Std Base/pl

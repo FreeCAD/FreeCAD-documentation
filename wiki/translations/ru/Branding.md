@@ -1,10 +1,4 @@
 # Branding/ru
-
-
-
-
-
-
 {{TOCright}}
 
 ## Overview
@@ -122,3 +116,6 @@ All listed tags are optional.
 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Branding/ru

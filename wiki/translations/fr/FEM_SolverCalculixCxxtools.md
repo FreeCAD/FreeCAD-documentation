@@ -8,6 +8,8 @@
    SeeAlso:[FEM Tutoriel](FEM_tutorial/fr.md)
 ---
 
+# FEM SolverCalculixCxxtools/fr
+
 ## Description
 
 [CalculiXccxTools](FEM_SolverCalculixCxxtools/fr.md) permet d\'utiliser le solveur [CalculiX](https://fr.wikipedia.org/wiki/Calculix). Vous pouvez l\'utiliser pour:
@@ -130,4 +132,7 @@ La documentation originale de CalculiX est disponible à l\'adresse <http://dhon
 
 {{FEM Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > FEM SolverCalculixCxxtools/fr

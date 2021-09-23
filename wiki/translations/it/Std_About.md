@@ -1,3 +1,4 @@
+# Std About/it
 ---
 - GuiCommand:/it   Name:Std_About   Name/it:Informazioni su FreeCAD   MenuLocation:[Workbenches:Tutti   SeeAlso:[[Std_OnlineHelp/it|Aiuto online](Std_Help_Menu/it___Aiuto]]_→_Informazioni_su_FreeCAD.md), [Cos'é questo](Std_WhatsThis/it.md), [Menu Aiuto](Std_Help_Menu/it.md)---
 
@@ -145,3 +146,6 @@ Mostra un elenco delle librerie esterne utilizzate dal programma e il sito Web p
 {{Std Base navi}}  
 
 [Category:Common Questions](Category:Common_Questions.md)
+
+---
+[documentation index](../README.md) > [Common Questions](Category:Common Questions.md) > Std About/it

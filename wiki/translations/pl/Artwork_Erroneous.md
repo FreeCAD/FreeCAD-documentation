@@ -1,6 +1,4 @@
 # Artwork Erroneous/pl
- 
-
 Wszystkie ikonki widoczne na liście źródłowej, patrz [Grafika](Artwork/pl.md).
 
 
@@ -26,3 +24,6 @@ Wszystkie ikonki widoczne na liście źródłowej, patrz [Grafika](Artwork/pl.md
 }}
 
 [Category:Icon](Category:Icon.md) [Category:Developer Documentation](Category:Developer_Documentation.md)
+
+---
+[documentation index](../README.md) > [Icon](Category:Icon.md) > Artwork Erroneous/pl

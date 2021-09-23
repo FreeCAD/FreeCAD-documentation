@@ -8,6 +8,8 @@
    SeeAlso:
 ---
 
+# TechDraw ExtensionThreadBoltBottom
+
 ## Description
 
 The <img alt="" src=images/TechDraw_ExtensionThreadBoltBottom.svg  style="width:24px;"> **Thread Bolt Bottom** tool adds symbolic threads to the bottom view of bolts.
@@ -24,4 +26,7 @@ The <img alt="" src=images/TechDraw_ExtensionThreadBoltBottom.svg  style="width:
 
 
 
- {{TechDraw_Tools_navi}} 
+ {{TechDraw_Tools_navi}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionThreadBoltBottom

@@ -1,7 +1,4 @@
 # Multithreading/pt-br
-
-
-
 **This is a stub that needs expanding.**
 
 ## Multithreading in FreeCAD 
@@ -21,3 +18,6 @@
 }}
 
 [Category:Developer Documentation](Category:Developer_Documentation.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Multithreading/pt-br

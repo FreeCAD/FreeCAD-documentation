@@ -6,3 +6,6 @@ Questa categoria raccoglie le pagine che costituiscono un repositorio di risorse
 ### Contents:
 
 [Category:Categories/it](Category:Categories/it.md)
+
+---
+[documentation index](../README.md) > Category:Repository/it

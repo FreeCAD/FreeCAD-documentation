@@ -8,6 +8,8 @@
    SeeAlso:[Skizzierer NeueSkizze](Sketcher_NewSketch/de.md)
 ---
 
+# PartDesign NewSketch/de
+
 
 </div>
 
@@ -83,4 +85,7 @@ Um beliebige Elemente im [Arbeitsbereich Skizzierer](Sketcher_Workbench/de.md) z
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign NewSketch/de

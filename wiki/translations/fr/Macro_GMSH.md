@@ -1,5 +1,5 @@
 # Macro GMSH/fr
- {{Macro/fr
+{{Macro/fr
 |Name=GMSH Macro
 |Icon=Macro_GMSH.png
 |Description=Crée un maillage FEM avec un mailleur GMSH. Il est possible de créer une coquille et un volume linéaire ou bilinéaire (quadratique).
@@ -36,4 +36,7 @@ Quand GMSH est installé, voir [gmsh.info](http://gmsh.info/). La macro fonction
 
 La page de discussion sur le forum [GMSH macro](http://forum.freecadweb.org/viewtopic.php?t=11182)
 
-[Le fonctionnement de la macro sur YouTube.](https://www.youtube.com/watch?v=ZcG5EEUe3yc) 
+[Le fonctionnement de la macro sur YouTube.](https://www.youtube.com/watch?v=ZcG5EEUe3yc)
+
+---
+[documentation index](../README.md) > Macro GMSH/fr

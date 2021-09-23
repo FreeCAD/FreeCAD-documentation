@@ -7,6 +7,8 @@
    Version:0.17
 ---
 
+# PartDesign Boolean/de
+
 ## Beschreibung
 
 **PartDesign Boolesche Operation** importiert einen oder mehrere [PartDesign Körper (Body)](PartDesign_Body/de.md) oder [PartDesign Klone](PartDesign_Clone/de.md) (vorgesehen als \"Werkzeugkörper\") in den aktiven PartDesign Körper und führt eine Boolesche Operation aus: Vereinigung, Differenz oder Schnitt (nur gemeinsame Volumenelemente bleiben erhalten).
@@ -62,4 +64,7 @@ Alternativ können ein oder mehrere Körper vor dem Klicken der Booleschen Schal
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Boolean/de

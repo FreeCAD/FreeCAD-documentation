@@ -1,3 +1,4 @@
+# Material editor/it
 ---
 - GuiCommand:/it   Name:Material_editor   Name/it:Editor dei materiali   Icon:Arch_Material_Group.svg   MenuLocation:Modello → Materiali → Editor dei materiali   |Workbenches:[Shortcut:   SeeAlso:[[FEM_tutorial/it|Tutorial FEM](FEM_Workbench/it___FEM]].md)---
 
@@ -92,4 +93,7 @@ MaterialEditor.openEditor()
 
 {{FEM Tools navi
 
-}}   
+}}
+
+---
+[documentation index](../README.md) > [Material](Material_Workbench.md) > Material editor/it

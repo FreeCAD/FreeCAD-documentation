@@ -6,6 +6,8 @@
    SeeAlso:[Mesh HarmonizeNormals](Mesh_HarmonizeNormals.md)
 ---
 
+# Mesh FlipNormals
+
 ## Description
 
 The **Mesh FlipNormals** command reverses, flips, the normals of mesh objects.
@@ -24,4 +26,7 @@ The **Mesh FlipNormals** command reverses, flips, the normals of mesh objects.
 
 
 
- {{Mesh Tools navi}}  
+ {{Mesh Tools navi}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh FlipNormals

@@ -8,6 +8,8 @@
    SeeAlso:Parte → [Estrudi](Part_Extrude/it.md)
 ---
 
+# Draft Trimex/it
+
 
 </div>
 
@@ -162,5 +164,5 @@ doc.recompute()
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Trimex/it

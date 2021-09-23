@@ -6,6 +6,8 @@
    SeeAlso:[Std DlgMacroRecord](Std_DlgMacroRecord.md)
 ---
 
+# Std MacroStopRecord
+
 ## Description
 
 The **Std MacroStopRecord** command ends a macro recording session.
@@ -24,4 +26,7 @@ The **Std MacroStopRecord** command ends a macro recording session.
 
 
 
- {{Std Base navi}}  
+ {{Std Base navi}}
+
+---
+[documentation index](../README.md) > Std MacroStopRecord

@@ -7,6 +7,8 @@
    SeeAlso:-
 ---
 
+# Std ToggleClipPlane/pl
+
 ## Opis
 
 Polecenie przełącz *Płaszczyznę przecinającą* tymczasowo ukrywa obiekty i ich części po jednej stronie maksymalnie trzech wirtualnych płaszczyzn w aktywnym [widoku 3D](3D_view/pl.md).
@@ -41,4 +43,7 @@ Polecenie przełącz *Płaszczyznę przecinającą* tymczasowo ukrywa obiekty i 
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ToggleClipPlane/pl

@@ -1,7 +1,4 @@
 # Installing additional components/ro
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -288,3 +285,6 @@ O bibliotecă pentru exploatarea și manipularea câmpului (FOAM), care este nec
 </div>
 
 [Category:User Documentation/ro](Category:User_Documentation/ro.md)
+
+---
+[documentation index](../README.md) > Installing additional components/ro

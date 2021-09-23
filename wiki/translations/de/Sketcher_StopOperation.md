@@ -6,6 +6,8 @@
    MenuLocation:Skizze → Vorgang Beenden
 ---
 
+# Sketcher StopOperation/de
+
 ## Beschreibung
 
 
@@ -28,4 +30,7 @@ Dies ist ähnlich wie das Drücken der **Esc** Taste.
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher StopOperation/de

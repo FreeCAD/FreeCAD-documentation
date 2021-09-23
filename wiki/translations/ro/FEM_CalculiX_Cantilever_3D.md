@@ -1,7 +1,4 @@
 # FEM CalculiX Cantilever 3D/ro
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -248,4 +245,7 @@ Deformarea în direcția x trebuie să fie de 19,05 mm.
 
 {{Tutorials navi
 
-}} {{FEM Tools navi}} 
+}} {{FEM Tools navi}}
+
+---
+[documentation index](../README.md) > FEM CalculiX Cantilever 3D/ro

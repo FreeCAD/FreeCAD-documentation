@@ -1,5 +1,4 @@
-# Power users hub/cs
- <img alt="" src=images/Power_user_hub.png  style="width:64px;">
+# <img alt="" src=images/Power_user_hub.png  style="width:64px;"> Power users hub/cs
 
 ------------------------------------------------------------------------
 
@@ -244,3 +243,6 @@ Na [komunitním portalu](FreeCAD_Community_Portal.md) najdete další projekty z
 }}
 
 [Category:Hubs](Category:Hubs.md)
+
+---
+[documentation index](../README.md) > [Hubs](Category:Hubs.md) > Power users hub/cs

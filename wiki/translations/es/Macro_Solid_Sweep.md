@@ -1,5 +1,5 @@
 # Macro Solid Sweep/es
- {{Macro/es
+{{Macro/es
 |Name=Solid Sweep
 |Icon=Macro_Solid_Sweep.png
 |Translate=Solid Sweep
@@ -93,3 +93,6 @@ myObject.Shape = Sweep
 Gracias a [Wmayer](User:Wmayer.md) por su ayuda al escribir esta macro.
 
 Dos ejemplo de uso se pueden ver en [este hilo del foro](http://forum.freecadweb.org/viewtopic.php?f=8&t=1222&start=50#p11120), así como enlaces para descargar archivos FCStd. Utilizando una hélice como trayectoria, un sólido barrido se puede utilizar para crear un tornillo.
+
+---
+[documentation index](../README.md) > Macro Solid Sweep/es

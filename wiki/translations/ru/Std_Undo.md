@@ -8,6 +8,8 @@
    SeeAlso:[Вернуть](Std_Redo/ru.md)
 ---
 
+# Std Undo/ru
+
 ## Описание
 
 Команда \"Отменить\", отменяет последнее действие.
@@ -50,4 +52,7 @@ FreeCAD.ActiveDocument.undo()
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std Undo/ru

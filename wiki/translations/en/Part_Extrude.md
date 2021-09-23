@@ -6,6 +6,8 @@
    SeeAlso:[Draft Trimex](Draft_Trimex.md)
 ---
 
+# Part Extrude/en
+
 ![600px](images/Part_Extrude_demo.png)
 
 ## Description
@@ -110,8 +112,5 @@ Part Extrude doesn\'t care where it is in model tree. PartDesign Pad can only li
 
 Part Extrude can extrude any object that has Part Geometry (OCC shape), except for solids and compsolids. And it can\'t extrude individual faces of other objects. PartDesign Pad will only accept a Sketch as a profile (and a small selection of other object types), or a face of a solid.
 
-
-
-
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Extrude/en

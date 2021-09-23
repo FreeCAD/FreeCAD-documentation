@@ -1,5 +1,4 @@
 # Macro ZTest Over 128
-
 **Not translate this page<br />This macro is only used by programmers<br />Test characters ASCII over 127<br />**
 
 
@@ -153,3 +152,6 @@ ToolBar Icon ![](images/Macro_ZTest_Over_128.png )
         label.show()
 
     print("End__Pipe_________________________")
+
+---
+[documentation index](../README.md) > Macro ZTest Over 128

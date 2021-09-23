@@ -1,3 +1,4 @@
+# Path DressupRampEntry/ro
 ---
 - GuiCommand:   Name:Path DressupTag   Workbenches:[MenuLocation:Path → Path Dressup → RampEntry Dress-up   SeeAlso:[[Path_DressupTag|Path_DressupTag](Path_Workbench___Path]].md), [Path_DressupDogbone](Path_DressupDogbone.md) , [Path_DressupDragKnife](Path_DressupDragKnife.md) ---
 
@@ -37,4 +38,7 @@ Acest instrument utilizează o cale existentă pentru a adăuga punți/etichete 
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path DressupRampEntry/ro

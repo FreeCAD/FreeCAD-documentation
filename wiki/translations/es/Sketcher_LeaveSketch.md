@@ -1,3 +1,4 @@
+# Sketcher LeaveSketch/es
 ---
 - GuiCommand:/es   Name:Sketcher LeaveSketch   Workbenches:[Diseño de Piezas](Sketcher_Workbench/es___Croquizador]],_[[PartDesign_Workbench/es.md)|MenuLocation:Croquizador→ Abandonar croquis|---
 
@@ -38,3 +39,6 @@ The **Leave sketch** command exits the sketch editing mode and frees up the [Tas
 }}  
 
 [Category:Sketcher/es](Category:Sketcher/es.md)
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher LeaveSketch/es

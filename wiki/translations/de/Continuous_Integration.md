@@ -1,10 +1,4 @@
 # Continuous Integration/de
-
-
-
-
-
-
 {{TOCright}}
 
 ## Kontinuierliche Integration 
@@ -34,3 +28,6 @@ Aktuell stößt das FreeCAD-Repository auf GitHub einen Build auf den beiden unt
  
 
 [Category:Developer\_Documentation](Category:Developer_Documentation.md) [Category:Testing](Category:Testing.md)
+
+---
+[documentation index](../README.md) > [Developer_Documentation](Category:Developer_Documentation.md) > Continuous Integration/de

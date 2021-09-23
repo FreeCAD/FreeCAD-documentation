@@ -1,5 +1,5 @@
 # Manual:BIM modeling/ru
- }
+}
 
 
 <div class="mw-translate-fuzzy">
@@ -291,3 +291,6 @@ BIM расшифровывается как [Building Information Modeling (Ин
 }} 
 
 [Category:BIM](Category:BIM.md)
+
+---
+[documentation index](../README.md) > [BIM](Category:BIM.md) > Manual:BIM modeling/ru

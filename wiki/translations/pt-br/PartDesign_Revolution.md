@@ -5,6 +5,8 @@
    Workbenches:[PartDesign](PartDesign_Workbench.md)
 ---
 
+# PartDesign Revolution/pt-br
+
 ## Description
 
 The **Revolution** tool creates a solid by revolving a selected sketch or 2D object about a given axis.
@@ -75,4 +77,7 @@ A [detailed example of use](http://forum.freecadweb.org/viewtopic.php?f=3&t=3674
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Revolution/pt-br

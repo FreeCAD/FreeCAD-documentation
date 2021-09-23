@@ -6,6 +6,8 @@
    SeeAlso:[Mesh Part Create Flat Face](MeshPart_CreateFlatFace.md)
 ---
 
+# MeshPart CreateFlatMesh/pl
+
 ## Description
 
 The **MeshPart CreateFlatMesh** command creates a flat representation of a mesh object by unwrapping, unfolding, it. The created outline is a [Part Feature](Part_Feature.md).
@@ -27,4 +29,7 @@ See: [Part Feature](Part_Feature.md).
 
 {{Mesh Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [MeshPart](MeshPart_Workbench.md) > MeshPart CreateFlatMesh/pl

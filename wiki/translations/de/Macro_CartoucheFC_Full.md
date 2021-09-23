@@ -1,5 +1,5 @@
 # Macro CartoucheFC Full/de
- {{Macro/de
+{{Macro/de
 |Name=Macro_CartoucheFC_Full
 |Translate=Macro_CartoucheFC_Full
 |Icon=Macro_CartoucheFC_Full.png
@@ -1179,6 +1179,5 @@ ver 00.06 : 13/10/2016 : selection format page and position for the symbol conve
 
 ver 5 : 08/08/2014 PyQt4 and PySide
 
-
-
-
+---
+[documentation index](../README.md) > Macro CartoucheFC Full/de

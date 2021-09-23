@@ -1,3 +1,4 @@
+# OpenSCAD Hull/ro
 ---
 - GuiCommand:   Name:OpenSCAD Hull   MenuLocation:OpenSCAD → Hull‏‎   |Workbenches:[[OpenSCAD Workbench   OpenSCAD]]|Shortcut:none   SeeAlso:------
 
@@ -65,4 +66,7 @@ Funcțiile necesara OpenSCAD sunt instalate și configurate pe traseul ** Edit**
 
 {{OpenSCAD_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD Hull/ro

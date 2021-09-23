@@ -7,6 +7,8 @@
    SeeAlso:[Mesh Découper](Mesh_PolyTrim/fr.md), [Mesh Créer une section](Mesh_TrimByPlane/fr.md)
 ---
 
+# Mesh PolyCut/fr
+
 ## Description
 
 La commande **Mesh Couper un maillage** coupe des faces entières à partir d\'objets maillés.
@@ -46,4 +48,7 @@ La commande **Mesh Couper un maillage** coupe des faces entières à partir d\'o
 
 {{Mesh Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh PolyCut/fr

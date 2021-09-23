@@ -7,6 +7,8 @@
    SeeAlso:[Part Générateur de formes](Part_Builder/fr.md)
 ---
 
+# Part Primitives/fr
+
 ## Description
 
 [Part Primitives](Part_Primitives/fr.md) ouvre une boîte de dialogue pour créer l\'une des primitives géométriques paramétriques définies dans l\'<img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [atelier Part](Part_Workbench/fr.md).
@@ -85,8 +87,5 @@ Il peut également être utilisé comme entrée dans le programme.
 freecad $INSTALL_DIR/Mod/Part/parttests/part_test_objects.py
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Primitives/fr

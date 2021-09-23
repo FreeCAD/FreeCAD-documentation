@@ -9,6 +9,8 @@
    Version:0.17
 ---
 
+# Arch PipeConnector/ru
+
 
 </div>
 
@@ -118,8 +120,5 @@ FreeCAD.ActiveDocument.recompute()
 
 </div>
 
-
-
-
-
-
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch PipeConnector/ru

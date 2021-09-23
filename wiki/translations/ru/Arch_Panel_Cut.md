@@ -8,6 +8,8 @@
    SeeAlso:[Arch Panel](Arch_Panel/ru.md), [Arch Panel Sheet](Arch_Panel_Sheet/ru.md), [Arch Nest](Arch_Nest/ru.md)
 ---
 
+# Arch Panel Cut/ru
+
 
 </div>
 
@@ -114,5 +116,5 @@ FreeCAD.ActiveDocument.recompute()
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Panel Cut/ru

@@ -1,5 +1,5 @@
 # Macro HealArcs/it
- {{Macro/it
+{{Macro/it
 |Name=HealArcs
 |Translate=Cura gli archi
 |Icon=Macro_HealArcs.png
@@ -45,6 +45,5 @@ else:
         FreeCAD.ActiveDocument.removeObject(n)
 }}
 
-
-
-
+---
+[documentation index](../README.md) > Macro HealArcs/it

@@ -1,3 +1,4 @@
+# Part Plane/cs
 ---
 - GuiCommand:/cs   Name:Part CreatePrimitives   Name/cs:Díl Rovina   Workbenches:[OpenSCAD](Part_Workbench/cs___Díl]],_[[OpenSCAD_Workbench/cs.md)|MenuLocation:[Díl](Part_Workbench/cs.md) → [Vytváření zákl.geom.prvků](Part_CreatePrimitives/cs.md) → Plane|
 SeeAlso=[Vytváření zákl.geom.prvků](Part_CreatePrimitives/cs.md)---
@@ -51,8 +52,5 @@ Vlastnosti mohou být změněny později v menu **Složený pohled → Data**, p
 
 You have the standard properties view.
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Plane/cs

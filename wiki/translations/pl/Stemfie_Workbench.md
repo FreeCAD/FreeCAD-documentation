@@ -1,7 +1,4 @@
 # Stemfie Workbench/pl
-
-
-
 {{TOCright}}
 
 ## Introduction
@@ -19,3 +16,6 @@ The Stenfie workbench is not bundled with the default FreeCAD package, but can e
 ## Tools
 
 [Category:Addons](Category:Addons.md) [\*](Category:External_Workbenches.md)
+
+---
+[documentation index](../README.md) > Stemfie Workbench/pl

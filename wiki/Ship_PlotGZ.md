@@ -1,3 +1,4 @@
+# Ship PlotGZ
 ---
 - GuiCommand:   Name:Ship PlotGZ   MenuLocation:Weights → GZ curve computation   |Workbenches:[[Ship Workbench   Ship]]|Shortcut:   SeeAlso:---
 
@@ -16,7 +17,5 @@ TODO
 
 {{Ship_Tools_navi}}
 
-
-
-
- 
+---
+[documentation index](../README.md) > Ship PlotGZ

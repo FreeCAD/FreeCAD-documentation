@@ -1,10 +1,4 @@
 # TechDraw Hatching/ru
-
-
-
-
-
-
 {{TOCright}}
 
 ## Описание
@@ -90,4 +84,7 @@ The `FCPAT.pat` file can be found in the following location.
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Hatching/ru

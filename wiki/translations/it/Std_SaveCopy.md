@@ -8,6 +8,8 @@
    SeeAlso:[Salva con nome](Std_SaveAs/it.md), [Salva](Std_Save/it.md)
 ---
 
+# Std SaveCopy/it
+
 
 </div>
 
@@ -72,4 +74,7 @@ doc.saveCopy(fnm)
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std SaveCopy/it

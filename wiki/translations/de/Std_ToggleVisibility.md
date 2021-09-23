@@ -9,6 +9,8 @@
    SeeAlso:
 ---
 
+# Std ToggleVisibility/de
+
 
 </div>
 
@@ -73,4 +75,7 @@ else:
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ToggleVisibility/de

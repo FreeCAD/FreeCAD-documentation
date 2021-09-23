@@ -1,3 +1,4 @@
+# Sketcher CreateTriangle/it
 ---
 - GuiCommand:/it   Name:Sketcher CreateTriangle   Name/it:Triangolo   Workbenches:[[Sketcher Workbench/it   Sketcher]]|MenuLocation:Sketch → Geometrie → Triangolo equilatero   Shortcut:   SeeAlso:   Version:0.15---
 
@@ -51,4 +52,7 @@ Quando si edita lo schizzo il cerchio circoscritto è visibile, quando si chiude
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateTriangle/it

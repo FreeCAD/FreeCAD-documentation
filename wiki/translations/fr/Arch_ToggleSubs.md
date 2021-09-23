@@ -8,6 +8,8 @@
    SeeAlso:[Arch Composants](Arch_Component/fr.md)
 ---
 
+# Arch ToggleSubs/fr
+
 ## Description
 
 Cet outil permet de faire basculer la visibilité de toutes les soustractions d\'un objet [Arch](Arch_Workbench/fr.md) entre visible et caché.
@@ -28,8 +30,5 @@ La couleur d\'un élément de soustraction peut suivre le style des éléments [
 
 Le style de [Draft Basculer en mode construction](Draft_ToggleConstructionMode/fr.md) peut être défini dans les [Draft Préférences](Draft_Preferences/fr.md) dans le menu **Préférences → Draft → Paramètres généraux**.
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch ToggleSubs/fr

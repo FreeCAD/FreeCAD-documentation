@@ -8,6 +8,8 @@
    SeeAlso:[Mappa schizzo](Sketcher_MapSketch/it.md), [Nuovo schizzo](Sketcher_NewSketch/it.md)
 ---
 
+# Sketcher ReorientSketch/it
+
 
 </div>
 
@@ -69,4 +71,7 @@ Orientamento dello schizzo
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ReorientSketch/it

@@ -6,6 +6,8 @@
    Workbenches:[Curves](Curves_Workbench/fr.md)
 ---
 
+# Curves SketchOnSurface/fr
+
 ## Description
 
 Cet outil mappe une esquisse sur une face comme une étiquette sur une bouteille. L\'esquisse doit être réellement attachée à une face (voir Sketch.Support). Le mode `Map` de l\'esquisse n\'a aucun effet sur le résultat.
@@ -63,4 +65,7 @@ Les lignes de construction bleues de l\'esquisse font partie de l\'esquisse mêm
 
 {{Curves Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > Curves SketchOnSurface/fr

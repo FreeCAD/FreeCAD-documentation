@@ -8,6 +8,8 @@
    SeeAlso:[Arch Couper suivant un plan](Arch_CutPlane/fr.md)
 ---
 
+# Arch CutLine/fr
+
 ## Description
 
 L\'outil [Arch Couper suivant une ligne](Arch_CutLine/fr.md) vous permet de couper un objet solide Arch comme un [Arch Mur](Arch_Wall/fr.md) ou [Arch Structure](Arch_Structure/fr.md) à l\'aide d\'une ligne qui traverse l\'objet.
@@ -32,8 +34,5 @@ L\'outil [Arch Couper suivant une ligne](Arch_CutLine/fr.md) vous permet de coup
 
 [Arch API](Arch_API.md) et [FreeCAD Script de Base](FreeCAD_Scripting_Basics/fr.md).
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CutLine/fr

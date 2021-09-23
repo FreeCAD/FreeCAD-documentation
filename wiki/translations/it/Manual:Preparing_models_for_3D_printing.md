@@ -1,7 +1,4 @@
 # Manual:Preparing models for 3D printing/it
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -236,3 +233,6 @@ Per simulare il taglio vero sono molte disponibili applicazioni, una di queste, 
 </div>
 
 [Category:Path](Category:Path.md) [Category:Mesh](Category:Mesh.md) [Category:Tutorials](Category:Tutorials.md)
+
+---
+[documentation index](../README.md) > [Path](Category:Path.md) > Manual:Preparing models for 3D printing/it

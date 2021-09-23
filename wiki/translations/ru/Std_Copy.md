@@ -8,6 +8,8 @@
    SeeAlso:[Вырезать](Std_Cut/ru.md), [Вставить](Std_Paste/ru.md), [Дублировать выбранное](Std_DuplicateSelection/ru.md)
 ---
 
+# Std Copy/ru
+
 ## Описание
 
 Команда **Вырезать** копирует объект(ы) в Буфер обмена.
@@ -33,4 +35,7 @@
 
 {{Std Base navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > Std Copy/ru

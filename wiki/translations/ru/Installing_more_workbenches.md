@@ -1,6 +1,4 @@
 # Installing more workbenches/ru
-
-
 ## Введение
 
 Начиная с v0.17 легко добавить [внешний верстак](external_workbenches/ru.md), используя [Addon Manager](Std_AddonMgr/ru.md). Обычному пользователю ничего не требуется кроме использования этого инструмента.
@@ -48,3 +46,6 @@ Copy the workbench folder into `$USER_DIR/Mod/`, where `$USER_DIR` is the FreeCA
 }} 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Installing more workbenches/ru

@@ -6,6 +6,8 @@
    Workbenches:[Part](Part_Workbench/fr.md)
 ---
 
+# Part MakeSolid/fr
+
 ## Description
 
 Cette commande crée un objet solide à partir d\'un objet forme.
@@ -21,8 +23,5 @@ Cette commande crée un objet solide à partir d\'un objet forme.
 -   Il n\'y aura pas d\'analyse ou de validation de l\'objet forme.
 -   Il est recommandé d\'utiliser [Part Affiner la forme](Part_RefineShape/fr.md) avant de convertir en solide.
 
-
-
-
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part MakeSolid/fr

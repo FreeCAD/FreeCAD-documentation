@@ -6,6 +6,8 @@
    MenuLocation:Sketch → Остановить операцию
 ---
 
+# Sketcher StopOperation/ru
+
 ## Описание
 
 
@@ -25,4 +27,7 @@
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher StopOperation/ru

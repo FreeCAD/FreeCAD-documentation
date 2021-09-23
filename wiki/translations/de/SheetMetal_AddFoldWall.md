@@ -7,6 +7,8 @@
    Shortcut:**C** **F**
 ---
 
+# SheetMetal AddFoldWall/de
+
 ## Beschreibung
 
 Der Befehl <img alt="" src=images/SheetMetal_AddFoldWall.svg  style="width:24px;"> [Abkanten](SheetMetal_AddFoldWall/de.md) kantet eine Fläche entlang einer gewählten Linie mit einem vorgegebenen Radius ab.
@@ -148,3 +150,6 @@ Achtung!: Im wirklichen Leben muss die Kantung nach oben vor der Kantung nach un
 
 
 [Category:SheetMetal](Category:SheetMetal.md) [Category:Addons](Category:Addons.md) [Category:External Command Reference](Category:External_Command_Reference.md)
+
+---
+[documentation index](../README.md) > [SheetMetal](Category:SheetMetal.md) > SheetMetal AddFoldWall/de

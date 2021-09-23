@@ -6,6 +6,8 @@
    SeeAlso:[Arch SetMaterial](Arch_SetMaterial.md), [Arch CompSetMaterial](Arch_CompSetMaterial.md)
 ---
 
+# Arch MultiMaterial/pl
+
 ## Description
 
 The Multi-Material tool defines a list of [materials](Material.md) with, for each material, a name and a thickness value. This multi-materials list can then be added to an [Arch](Arch_Workbench.md) object instead of a single [Arch Material](Arch_SetMaterial.md) .
@@ -48,8 +50,5 @@ This roughly corresponds to a combination of [IfcMaterialLayerSet](https://stand
 
 ## Scripting
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch MultiMaterial/pl

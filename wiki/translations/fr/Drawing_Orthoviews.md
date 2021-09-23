@@ -8,6 +8,8 @@
    SeeAlso:[Paysage A3 Drawing](Drawing_Landscape_A3/fr.md)
 ---
 
+# Drawing Orthoviews/fr
+
 L\'outil Orthoviews insère un ensemble de projections orthographiques de l\'objet sélectionné dans la feuille de dessin active. Notez qu\'il ne crée pas un seul objet de vue sur la page. Au lieu de cela, une projection orthographique séparée sera créée pour chacune des vues sélectionnées dans les options.
 
 L\'outil Orthoviews crée toutes les projections orthographiques à l\'emplacement approprié pour la vue principale donnée.
@@ -82,4 +84,7 @@ A ajouter.
 
 {{Drawing Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Orthoviews/fr

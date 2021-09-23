@@ -1,5 +1,5 @@
 # Scripted Parts: Ball Bearing - Part 1/fr
- {{TutorialInfo/fr
+{{TutorialInfo/fr
 |Topic= Part : écrire un script - Roulement à bille #1
 |Level= Débutant
 |Time= 30 min
@@ -142,3 +142,6 @@ Gui.SendMsgToActiveView("ViewFit")
 }} 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Scripted Parts: Ball Bearing - Part 1/fr

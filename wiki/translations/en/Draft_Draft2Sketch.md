@@ -5,6 +5,8 @@
    Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
 ---
 
+# Draft Draft2Sketch/en
+
 ## Description
 
 The <img alt="" src=images/Draft_Draft2Sketch.svg  style="width:24px;"> **Draft Draft2Sketch** command converts [Draft](Draft_Workbench.md) objects to [Sketcher Sketches](Sketcher_NewSketch.md) and vice versa.
@@ -92,8 +94,5 @@ draft_from_sketch = Draft.draftify(sketch_from_draft, delete=False)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Draft2Sketch/en

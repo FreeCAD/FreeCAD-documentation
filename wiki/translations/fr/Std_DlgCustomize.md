@@ -7,6 +7,8 @@
    SeeAlso:[Personnaliser l'interface](Interface_Customization/fr.md)
 ---
 
+# Std DlgCustomize/fr
+
 ## Description
 
 La commande **Std Personnalisation** ouvre la boîte de dialogue Personnaliser donnant accès à plusieurs options de personnalisation.
@@ -32,4 +34,7 @@ La commande **Std Personnalisation** ouvre la boîte de dialogue Personnaliser d
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std DlgCustomize/fr

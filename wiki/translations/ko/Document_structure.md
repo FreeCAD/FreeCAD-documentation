@@ -1,7 +1,4 @@
 # Document structure/ko
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -57,5 +54,5 @@ FreeCADGui.ActiveDocument.ActiveView
 
 </div>
 
-
-
+---
+[documentation index](../README.md) > Document structure/ko

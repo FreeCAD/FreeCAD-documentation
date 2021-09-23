@@ -6,6 +6,8 @@
    Workbenches:[Path](Path_Workbench/fr.md)
 ---
 
+# Path Area Workplane/fr
+
 ## Description
 
 Vide
@@ -48,4 +50,7 @@ Exemple:
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Area Workplane/fr

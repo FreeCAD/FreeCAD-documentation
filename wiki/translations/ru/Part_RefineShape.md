@@ -7,6 +7,8 @@
    SeeAlso:
 ---
 
+# Part RefineShape/ru
+
 
 </div>
 
@@ -65,8 +67,5 @@ The Python command for refining a shape is the following:
 shape.removeSplitter()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part RefineShape/ru

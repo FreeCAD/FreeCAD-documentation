@@ -1,3 +1,4 @@
+# Part Plane/ro
 ---
 - GuiCommand:   Name:Part CreatePrimitives   Workbenches:[OpenSCAD](Part_Workbench___Part]],_[[OpenSCAD_Workbench.md)|MenuLocation:[Part](Part_Workbench.md) → [Create Primitives](Part_CreatePrimitives.md) → Plane|
 SeeAlso=[Create Primitives](Part_CreatePrimitives.md)---
@@ -67,8 +68,5 @@ The properties can be changed later in the **Combined View → Data**, after sel
 
 You have the standard properties view.
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Plane/ro

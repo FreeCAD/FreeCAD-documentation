@@ -8,6 +8,8 @@
    SeeAlso:[Draft Wire](Draft_Wire.md), [Draft CubicBezCurve](Draft_CubicBezCurve.md), [Draft BezCurve](Draft_BezCurve.md)
 ---
 
+# Draft BSpline/pt-br
+
 ## Descrição
 
 The <img alt="" src=images/Draft_BSpline.svg  style="width:24px;"> **Draft BSpline** command creates a [B-spline curve](http://en.wikipedia.org/wiki/B-spline) from several points.
@@ -143,5 +145,5 @@ doc.recompute()
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft BSpline/pt-br

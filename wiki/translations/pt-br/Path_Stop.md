@@ -5,6 +5,8 @@
    Workbenches:[Path](Path_Workbench.md)
 ---
 
+# Path Stop/pt-br
+
 ## Description
 
 This tool inserts a Stop command (M1). This command will Pause a running program on the CNC controller, waiting for user interaction to continue.
@@ -25,4 +27,7 @@ This tool inserts a Stop command (M1). This command will Pause a running program
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Stop/pt-br

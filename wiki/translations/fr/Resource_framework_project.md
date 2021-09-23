@@ -1,7 +1,4 @@
 # Resource framework project/fr
-
-
-
 **
 Ce plan de développement est probablement obsolète. Pour plus d'informations, voir [Plan de développement](Development_roadmap/fr.md).<br>
 Si vous n'êtes pas impliqué dans le développement discuté ici :<br>
@@ -127,3 +124,6 @@ Une **class design** pour le Resource framwork.
 
 
 [Category:Roadmap](Category:Roadmap.md)
+
+---
+[documentation index](../README.md) > [Roadmap](Category:Roadmap.md) > Resource framework project/fr

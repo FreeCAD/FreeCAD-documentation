@@ -7,6 +7,8 @@
    SeeAlso:[표준 위치 설정](Std_Placement/ko.md)
 ---
 
+# Std Alignment/ko
+
 ## 설명
 
 **표준 정렬(Std Alignment)** 명령은 하나 이상의 점 쌍을 이용하여 고정된 참조 개체를 기준으로 하나의 개체를 정렬합니다.
@@ -50,4 +52,7 @@
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std Alignment/ko

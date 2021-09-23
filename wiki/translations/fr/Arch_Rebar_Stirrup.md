@@ -8,6 +8,8 @@
    SeeAlso:[Reinforcement](Reinforcement_Workbench.md), [Arch Armature personnalisée](Arch_Rebar/fr.md), [Arch Armature hélicoïdale](Arch_Rebar_Helical/fr.md)
 ---
 
+# Arch Rebar Stirrup/fr
+
 ## Description
 
 L\'outil [Stirrup Rebar](Arch_Rebar_Stirrup/fr.md) permet à l\'utilisateur de créer un ensemble de barres d\'armature pliées à l\'intérieur d\'un objet [Structure](Arch_Structure/fr.md).
@@ -143,3 +145,6 @@ Stirrup.editStirrup(Rebar, 20, 20, 20, 20, 50,
  
 
 [Category:Reinforcement](Category:Reinforcement.md)
+
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Rebar Stirrup/fr

@@ -6,6 +6,8 @@
    SeeAlso:[PartDesign Pad](PartDesign_Pad.md)
 ---
 
+# PartDesign Pocket/tr
+
 
 <div class="mw-translate-fuzzy">
 
@@ -66,4 +68,7 @@ An [example](http://forum.freecadweb.org/viewtopic.php?f=3&t=3733&start=10) with
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Pocket/tr

@@ -8,6 +8,8 @@
    SeeAlso:[Указать длину](TechDraw_LengthDimension/ru.md), [Указать горизонтальный размер](TechDraw_HorizontalDimension/ru.md)
 ---
 
+# TechDraw VerticalDimension/ru
+
 ## Описание
 
 The Vertical Dimension tool adds a vertical dimension to a View. The dimension may be between two vertices, the length of one edge or the vertical distance between 2 edges. The distance will initially be the projected distance (ie as shown on the drawing), but this may be changed to the actual 3D distance using the **<img src="images/TechDraw_LinkDimension.svg" width=16px> [TechDraw LinkDimension](TechDraw_LinkDimension.md)** tool.
@@ -55,4 +57,7 @@ rc = page.addView(dim1)
 
 {{TechDraw Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw VerticalDimension/ru

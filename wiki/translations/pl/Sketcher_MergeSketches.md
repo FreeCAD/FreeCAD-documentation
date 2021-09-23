@@ -7,6 +7,8 @@
    Version:0.15
 ---
 
+# Sketcher MergeSketches/pl
+
 ## Opis
 
 Połącz dwa lub więcej szkiców w jeden.
@@ -23,4 +25,7 @@ Połącz dwa lub więcej szkiców w jeden.
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher MergeSketches/pl

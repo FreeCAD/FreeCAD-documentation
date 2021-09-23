@@ -7,6 +7,8 @@
    SeeAlso:[Specchia di Part](Part_Mirror/it.md)
 ---
 
+# OpenSCAD MirrorMeshFeature/it
+
 
 </div>
 
@@ -53,4 +55,7 @@ Mesh.show(mirrored_mesh)
 
 {{OpenSCAD_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD MirrorMeshFeature/it

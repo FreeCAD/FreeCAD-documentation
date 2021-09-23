@@ -6,6 +6,8 @@
    SeeAlso:[Mesh PolyTrim](Mesh_PolyTrim.md), [Mesh TrimByPlane](Mesh_TrimByPlane.md)
 ---
 
+# Mesh PolyCut/en
+
 ## Description
 
 The **Mesh PolyCut** command cuts whole faces from mesh objects.
@@ -45,4 +47,7 @@ The **Mesh PolyCut** command cuts whole faces from mesh objects.
 
 {{Mesh Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh PolyCut/en

@@ -1,10 +1,4 @@
-# TechDraw Workbench/ru
-
-
-
-
-
-<img alt="Логотип верстака TechDraw" src=images/Workbench_TechDraw.svg  style="width:128px;">
+# <img alt="Логотип верстака TechDraw" src=images/Workbench_TechDraw.svg  style="width:64px;"> TechDraw Workbench/ru
 
 ## Введение
 
@@ -209,3 +203,6 @@ TechDraw был официально включен в FreeCAD начиная с
 }} 
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > TechDraw Workbench/ru

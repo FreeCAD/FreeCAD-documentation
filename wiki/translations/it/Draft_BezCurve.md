@@ -9,6 +9,8 @@
    Version:0.14
 ---
 
+# Draft BezCurve/it
+
 
 </div>
 
@@ -237,5 +239,5 @@ doc.recompute()
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft BezCurve/it

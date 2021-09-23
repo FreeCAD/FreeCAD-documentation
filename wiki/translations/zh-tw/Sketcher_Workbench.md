@@ -1,10 +1,4 @@
-# Sketcher Workbench/zh-tw
-
-
-
-
-
-<img alt="Sketcher workbench icon" src=images/Workbench_Sketcher.svg  style="width:128px;">
+# <img alt="Sketcher workbench icon" src=images/Workbench_Sketcher.svg  style="width:64px;"> Sketcher Workbench/zh-tw
 
 
 {{TOCright}}
@@ -328,3 +322,6 @@ The [Sketcher scripting](Sketcher_scripting.md) page contains examples on how to
 }} 
 
 [Category:User Documentation/zh-tw](Category:User_Documentation/zh-tw.md) [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Sketcher Workbench/zh-tw

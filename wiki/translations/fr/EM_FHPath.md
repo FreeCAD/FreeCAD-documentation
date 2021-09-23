@@ -9,6 +9,8 @@
    Version:0.17
 ---
 
+# EM FHPath/fr
+
 ## Description
 
 L\'outil FHPath insère un objet FHPath, c\'est-à-dire un ensemble de segments FastHenry le long d\'un chemin.
@@ -100,4 +102,7 @@ App.ActiveDocument.recompute()
 
 {{EM Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > EM FHPath/fr

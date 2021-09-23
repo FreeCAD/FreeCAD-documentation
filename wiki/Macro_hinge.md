@@ -1,5 +1,5 @@
 # Macro hinge
-  {{Macro
+{{Macro
 |Name=Simulates hinge movement
 |Icon=Macro hinge.png
 |Description=Hinge simulation.
@@ -61,4 +61,7 @@ for ii2 in range(180):
 
 ## Link
 
-The discussion page [Struggling with LinearPattern (again)](http://forum.freecadweb.org/viewtopic.php?f=3&t=7606&p=62086#p62086)  
+The discussion page [Struggling with LinearPattern (again)](http://forum.freecadweb.org/viewtopic.php?f=3&t=7606&p=62086#p62086)
+
+---
+[documentation index](../README.md) > Macro hinge

@@ -6,6 +6,8 @@
    Workbenches:[Skizzierer](Sketcher_Workbench/de.md)
 ---
 
+# Sketcher ToggleConstruction/de
+
 ## Beschreibung
 
 Dieses Werkzeug schaltet die Skizzengeometrie vom/zum Konstruktionsmodus um. Es kann auf jeder Art von Geometrie angewendet werden: Linie, Bogen oder Kreis.
@@ -47,4 +49,7 @@ und sobald Du **<img src=images/Sketcher_LeaveSketch.svg style="width:16px"> [de
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ToggleConstruction/de

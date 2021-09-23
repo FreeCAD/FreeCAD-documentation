@@ -57,3 +57,6 @@
 
 
 [Category:Manual](Category:Manual.md)
+
+---
+[documentation index](../README.md) > [Manual](Category:Manual.md) > Manual:Summary/ru

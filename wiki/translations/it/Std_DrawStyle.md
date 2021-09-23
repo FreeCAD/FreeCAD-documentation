@@ -8,6 +8,8 @@
    SeeAlso:[Box contenitore](Std_SelBoundingBox/it.md)
 ---
 
+# Std DrawStyle/it
+
 ## Descrizione
 
 Il comando **Stile di disegno** può sovrascrivere l\'effetto delle [proprietà](Property_editor/it.md) che definiscono la {{PropertyView/it|modalità di visualizzazione}} degli oggetti nella [vista 3D](3D_view/it.md).
@@ -81,4 +83,7 @@ Lo stile **Facce piene** sovrascrive la proprietà **Display Mode** degli oggett
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std DrawStyle/it

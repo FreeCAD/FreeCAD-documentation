@@ -1,5 +1,5 @@
 # Macro Rectellipse/en
- {{Macro
+{{Macro
 |Name=Rectellipse Macro
 |Icon=Macro_Rectellipse.png
 |Description=Creates a parametric rectellipse
@@ -89,3 +89,6 @@ if __name__ == "__main__":
 ## Link
 
 [Get the code from Github here!](https://github.com/FreeCAD/FreeCAD-macros/blob/master/ParametricObjectCreation/Rectellipse.FCMacro)
+
+---
+[documentation index](../README.md) > Macro Rectellipse/en

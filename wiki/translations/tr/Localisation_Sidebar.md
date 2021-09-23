@@ -1,7 +1,4 @@
 # Localisation Sidebar/tr
-
-
-
 <div class="mw-translate-fuzzy">
 
 [Yerelleştirme](Localisation/tr.md), çoklu dil kullanıcı arabirimiyle yazılım sağlama işlemidir. wiki Dokümantasyonu, [Localisation \# Wiki\'nin çevrilmesi](Localisation_#_Wiki'nin_çevrilmesi.md) bölümünde açıklandığı gibi yerelleştirilebilir.
@@ -40,3 +37,6 @@ Soldaki link bağlantının hedefini, sağdaki ise kenar çubuğunda görüntül
 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Wiki](Category:Wiki.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Localisation Sidebar/tr

@@ -1,5 +1,5 @@
 # Basic modeling tutorial/it
- {{TutorialInfo/it
+{{TutorialInfo/it
 |Topic= Introduzione alla modellazione
 |Level= Base
 |Time= 15 minuti
@@ -139,4 +139,7 @@ Le istruzioni di cui sopra funzionano comunque, non importa quale etichetta comp
 
 {{Tutorials navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Basic modeling tutorial/it

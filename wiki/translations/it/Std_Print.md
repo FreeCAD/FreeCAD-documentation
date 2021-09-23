@@ -8,6 +8,8 @@
    SeeAlso:[Anteprima di stampa](Std_PrintPreview/it.md), [Esporta PDF](Std_PrintPdf/it.md), [Esporta](Std_Export/it.md), [Cattura schermata](Std_ViewScreenShot/it.md)
 ---
 
+# Std Print/it
+
 ## Descrizione
 
 
@@ -43,4 +45,7 @@ Il comando **Stampa** ha principalmente lo scopo di stampare le pagine di [TechD
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std Print/it

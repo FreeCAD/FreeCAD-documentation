@@ -1,6 +1,4 @@
 # Linux packaging/ru
-
-
 Linux allows packaging in different ways depending on the specific distribution used. Popular formats are Debian packages `.deb`, openSuse and Fedora packages `.rpm`, and the quasi-universal `.AppImage` format.
 
 
@@ -17,3 +15,6 @@ for Windows and MacOS, see [Packaging](Packaging.md).
 
 
 [Category:Packaging](Category:Packaging.md) [Category:Developer Documentation](Category:Developer_Documentation.md)
+
+---
+[documentation index](../README.md) > [Packaging](Category:Packaging.md) > Linux packaging/ru

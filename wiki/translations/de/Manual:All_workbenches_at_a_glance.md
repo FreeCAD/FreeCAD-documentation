@@ -1,10 +1,4 @@
 # Manual:All workbenches at a glance/de
-
-
-
-
-
-
 {{Manual:TOC/de}}
 
 Eine der größten Schwierigkeiten für neue Benutzer von FreeCAD, ist zu wissen, in welchem Arbeitsbereich ein bestimmtes Werkzeug zu finden ist. Die folgende Tabelle gibt einen Überblick über die wichtigsten Arbeitsbereiche und deren Werkzeuge. Eine vollständigere Liste findest du auf jeder Seite [Arbeitsbereich](Workbenches/de.md) in der FreeCAD Dokumentation.
@@ -158,6 +152,5 @@ Es gibt auch eine Reihe anderer sehr nützlicher Arbeitsbereiche, die von Mitgli
 -   [Der FEM Arbeitsbereich](FEM_Workbench/de.md)
 -   [Die FreeCAD-Erweiterungen Repositorien](https://github.com/FreeCAD/FreeCAD-addons)
 
-
-
-
+---
+[documentation index](../README.md) > Manual:All workbenches at a glance/de

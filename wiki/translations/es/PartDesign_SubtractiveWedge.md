@@ -8,6 +8,8 @@
    SeeAlso:[Crear una Primitiva sustractiva](PartDesign_CompPrimitiveSubtractive/es.md), [Cuña aditiva](PartDesign_AdditiveWedge/es.md)
 ---
 
+# PartDesign SubtractiveWedge/es
+
 
 </div>
 
@@ -65,4 +67,7 @@ Para crear una pirámide regular con un vértice en el lado superior, los valore
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveWedge/es

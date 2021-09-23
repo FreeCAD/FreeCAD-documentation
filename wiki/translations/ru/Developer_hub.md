@@ -1,6 +1,4 @@
 # Developer hub/ru
-
-
 ![150](images/Crystal_Clear_app_tutorials.png )
 
 Это раздел для тех, кто хочет принять участие в разработке FreeCAD.
@@ -138,3 +136,6 @@ FreeCAD, though usable in certain areas, is at the beginning of a long way into 
 
 
 [Category:Hubs](Category:Hubs.md) [Category:Developer Documentation](Category:Developer_Documentation.md)
+
+---
+[documentation index](../README.md) > [Hubs](Category:Hubs.md) > Developer hub/ru

@@ -8,6 +8,8 @@
    SeeAlso:[Crea forma da mesh](Part_ShapeFromMesh/it.md), [Converti in solido](Part_ConvertToSolid/it.md), [Affina forma](Part_RefineShape/it.md)
 ---
 
+# Part PointsFromMesh/it
+
 
 </div>
 
@@ -42,5 +44,5 @@ Non è possibile fare alcuna analisi o validazione dell\'oggetto mesh. L\'analis
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part PointsFromMesh/it

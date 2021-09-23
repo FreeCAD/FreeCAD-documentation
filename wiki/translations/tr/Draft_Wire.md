@@ -9,6 +9,8 @@
    SeeAlso:[Çizgi](Draft_Line/tr.md), [BSpline](Draft_BSpline/tr.md)
 ---
 
+# Draft Wire/tr
+
 
 </div>
 
@@ -244,5 +246,5 @@ doc.recompute()
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Wire/tr

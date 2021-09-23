@@ -1,5 +1,5 @@
 # Macro FCInfo Alternate Linux/fr
- {{Macro/fr
+{{Macro/fr
 |Name=Macro FCInfo Alternate
 |Icon=FCInfo.png
 |Description=Donne une série de renseignements sur la forme.(pour PyQt4)
@@ -44,6 +44,5 @@ les fichiers sauvés avec cette version sont incompatibles avec les autres versi
 
 Les deux versions peuvent fonctionner indépendamment du système d\'exploitation utilisé.
 
-
-
-
+---
+[documentation index](../README.md) > Macro FCInfo Alternate Linux/fr

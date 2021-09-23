@@ -1,7 +1,4 @@
-# Inspection Workbench/de
- 
-
-<img alt="Inspektion Arbeitsbereichssymbol" src=images/Workbench_Inspection.svg  style="width:128px;">
+# <img alt="Inspektion Arbeitsbereichssymbol" src=images/Workbench_Inspection.svg  style="width:64px;"> Inspection Workbench/de
 
 ## Einführung
 
@@ -27,3 +24,6 @@ Verwende alternativ das Makro <img alt="" src=images/HighlightDifference.png  st
 
 
 [Category:Inspection](Category:Inspection.md) [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Inspection Workbench/de

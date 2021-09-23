@@ -7,6 +7,8 @@
    SeeAlso:[Draft Downgrade](Draft_Downgrade.md)
 ---
 
+# Draft Upgrade/pt-br
+
 ## Descrição
 
 The <img alt="" src=images/Draft_Upgrade.svg  style="width:24px;"> **Draft Upgrade** command upgrades selected objects. The result depends on the number of selected objects and their type. The command can for example fuse elements and create faces. It is worth trying to upgrade a selection several times to see if a better result can be obtained. See the example in the image. Note that not all objects can be upgraded. This command is the counterpart of the [Draft Downgrade](Draft_Downgrade.md) command.
@@ -88,5 +90,5 @@ doc.recompute()
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Upgrade/pt-br

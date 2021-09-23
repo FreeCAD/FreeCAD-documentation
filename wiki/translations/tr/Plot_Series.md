@@ -1,3 +1,4 @@
+# Plot Series/tr
 ---
 - GuiCommand:/tr
    Name/tr:Dizi
@@ -40,3 +41,6 @@ Select the plot tab that you want to edit, and run this tool. Then select the se
 }} 
 
 [Category:External\_Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)
+
+---
+[documentation index](../README.md) > [External_Workbenches](Category:External_Workbenches.md) > Plot Series/tr

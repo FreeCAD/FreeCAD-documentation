@@ -7,6 +7,8 @@
    SeeAlso:[Constraint Vertical](Sketcher_ConstrainVertical.md), [Constraint Horizontal](Sketcher_ConstrainHorizontal.md)
 ---
 
+# Sketcher ConstrainParallel/ro
+
 
 </div>
 
@@ -95,4 +97,7 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainParallel/ro

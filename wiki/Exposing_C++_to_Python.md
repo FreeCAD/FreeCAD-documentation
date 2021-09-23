@@ -1,5 +1,4 @@
 # Exposing C++ to Python
-
 **This documentation is a stub and needs more work, perhaps a written example + links to commits demonstrating in the commit history**
 
 ## How to expose c++ functionality to Python 
@@ -37,3 +36,6 @@ Note:
 -   [Workbench creation](Workbench_creation.md)
 
 [Category:Developer Documentation](Category:Developer_Documentation.md)
+
+---
+[documentation index](../README.md) > Exposing C++ to Python

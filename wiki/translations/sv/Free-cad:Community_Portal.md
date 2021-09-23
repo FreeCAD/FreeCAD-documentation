@@ -120,3 +120,6 @@ Feel free to add more pages or assign one or more pages to yourself to take care
 
 
 [Category:Documentation/sv](Category:Documentation/sv.md)
+
+---
+[documentation index](../README.md) > Free-cad:Community Portal/sv

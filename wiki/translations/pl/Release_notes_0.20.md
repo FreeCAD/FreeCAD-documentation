@@ -1,7 +1,4 @@
 # Release notes 0.20/pl
-
-
-
 **Ta strona zawiera nowe funkcje, które są dodawane do wersji deweloperskiej FreeCAD, aktualnie oznaczonej numerem '''0.20'''. Gdy nastąpi zamrożenie funkcjonalności wersji 0.20, usuń ten komunikat i nie dodawaj więcej funkcji do tej strony. Oczekuje się, że FreeCAD 0.20 zostanie wydany po roku 2021.**
 
 
@@ -212,3 +209,6 @@ There is also a text box for feedback of OpenSCAD errors.
 ### Trails PyTrails, Turns oraz pivy\_trackers i Geomatics 
 
 [Category:News](Category:News.md) [Category:Documentation](Category:Documentation.md) [Category:Releases](Category:Releases.md)
+
+---
+[documentation index](../README.md) > [News](Category:News.md) > Release notes 0.20/pl

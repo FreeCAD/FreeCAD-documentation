@@ -1,7 +1,4 @@
 # Basic Sketcher Tutorial/de
-
-
-
 {{TutorialInfo/de
 |Topic= Skizzierer
 |Level= Anfänger
@@ -292,4 +289,7 @@ Die Beschränkung einer Skizze kann auf viele verschiedene Arten erfolgen. Im Al
 
 {{Tutorials navi
 
-}} {{Sketcher Tools navi}} 
+}} {{Sketcher Tools navi}}
+
+---
+[documentation index](../README.md) > Basic Sketcher Tutorial/de

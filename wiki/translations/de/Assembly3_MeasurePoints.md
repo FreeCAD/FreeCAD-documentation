@@ -6,6 +6,8 @@
    Workbenches:[Assembly3](Assembly3_Workbench/de.md)
 ---
 
+# Assembly3 MeasurePoints/de
+
 ## Beschreibung
 
 Dieses Werkzeug misst den Abstand zwischen zwei Objekten eines Zusammenbaus unter Benutzung zweier Punkte.
@@ -15,8 +17,5 @@ Dieses Werkzeug misst den Abstand zwischen zwei Objekten eines Zusammenbaus unte
 1.  Zwei Punktelemente auswählen
 2.  Schaltfläche **<img src="images/Assembly_MeasurePointDistance.svg" width=16px> [Punkt zu Punkt messen](Assembly3_MeasurePoints/de.md)** drücken.
 
-
-
-
-
-
+---
+[documentation index](../README.md) > Assembly3 MeasurePoints/de

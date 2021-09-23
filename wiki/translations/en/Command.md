@@ -1,6 +1,4 @@
 # Command/en
-
-
 ## Introduction
 
 
@@ -101,3 +99,6 @@ See [Line drawing function](Line_drawing_function.md).
 }}
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md) [Category:Glossary](Category:Glossary.md)
+
+---
+[documentation index](../README.md) > [Command_Reference|:Category:Command Reference]] page. Commands can be launched by a toolbar button, a menu item, or from a ](Category:Command_Reference|:Category:Command Reference]] page. Commands can be launched by a toolbar button, a menu item, or from a .md) > Command/en

@@ -7,6 +7,8 @@
    SeeAlso:[Покинуть эскиз](Sketcher_LeaveSketch/ru.md)
 ---
 
+# Sketcher EditSketch/ru
+
 ## Описание
 
 Эта команда позволяет редактировать существующий эскиз. Она открывает [Sketcher Dialog](Sketcher_Dialog/ru.md).
@@ -30,4 +32,7 @@
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher EditSketch/ru

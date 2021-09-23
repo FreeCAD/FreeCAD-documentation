@@ -8,6 +8,8 @@
    Shortcut:**A** **R**
 ---
 
+# Assembly3 GoToRelation/de
+
 ## Beschreibung
 
 Der Befehl **Assembly3 Zur Beziehung gehen** kann dabei helfen Beziehungen im Baugruppenbaum zu finden. Ab der ersten Benutzung wird die Beziehungsgruppe (Relations group) sichtbar geschaltet.
@@ -25,8 +27,5 @@ Das Ergebnis (hervorgehobene Objekte) hängt von den ausgewählten Objekten ab.
 1.  Ein Part-Objekt, ein Element oder eine Festlegung auswählen.
 2.  Die Schaltfläche **<img src="images/Assembly_GotoRelation.svg" width=16px> [Zur Beziehung gehen](Assembly3_GoToRelation/de.md)** auswählen oder das Tastenkürzel **A** dann **R** benutzen.
 
-
-
-
-
-
+---
+[documentation index](../README.md) > Assembly3 GoToRelation/de

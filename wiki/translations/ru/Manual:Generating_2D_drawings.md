@@ -1,10 +1,4 @@
 # Manual:Generating 2D drawings/ru
-
-
-
-
-
-
 {{Manual:TOC/ru}}
 
 
@@ -166,3 +160,6 @@
 
 
 [Category:Tutorials/ru](Category:Tutorials/ru.md)
+
+---
+[documentation index](../README.md) > Manual:Generating 2D drawings/ru

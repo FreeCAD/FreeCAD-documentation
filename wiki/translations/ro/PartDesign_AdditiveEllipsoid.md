@@ -1,3 +1,4 @@
+# PartDesign AdditiveEllipsoid/ro
 ---
 - GuiCommand:   Name:PartDesign AdditiveEllipsoid   Workbenches:[MenuLocation:Part Design → Create an additive primitive → Additive Ellipsoid   Shortcut:None   SeeAlso:[[PartDesign CompPrimitiveAdditive](PartDesign_Workbench___PartDesign]].md)---
 
@@ -72,4 +73,7 @@ Elipsoidul poate fi editat după crearea sa în două moduri:
 
 {{PartDesign Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveEllipsoid/ro

@@ -1,7 +1,4 @@
 # Macro SuperWire/de
-
-
-
 {{Macro/de
 |Name=SuperWire
 |Icon=Macro_SuperWire.png
@@ -51,6 +48,5 @@ else:
 
 ```
 
-
-
-
+---
+[documentation index](../README.md) > Macro SuperWire/de

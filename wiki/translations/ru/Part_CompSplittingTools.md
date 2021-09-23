@@ -7,6 +7,8 @@
    SeeAlso:
 ---
 
+# Part CompSplittingTools/ru
+
 
 </div>
 
@@ -36,5 +38,5 @@
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompSplittingTools/ru

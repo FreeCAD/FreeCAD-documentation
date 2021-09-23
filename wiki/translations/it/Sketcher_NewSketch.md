@@ -7,6 +7,8 @@
    SeeAlso:[Mappa schizzo](Sketcher_MapSketch/it.md), [Riposiziona schizzo](Sketcher_Reorient/it.md)
 ---
 
+# Sketcher NewSketch/it
+
 
 </div>
 
@@ -64,4 +66,7 @@ Lo schizzo può essere spostato nella [vista 3D](3D_view/it.md) utilizzando [Pos
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher NewSketch/it

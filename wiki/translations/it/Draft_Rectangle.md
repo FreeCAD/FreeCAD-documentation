@@ -9,6 +9,8 @@
    Version:0.7
 ---
 
+# Draft Rectangle/it
+
 
 </div>
 
@@ -207,5 +209,5 @@ doc.recompute()
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Rectangle/it

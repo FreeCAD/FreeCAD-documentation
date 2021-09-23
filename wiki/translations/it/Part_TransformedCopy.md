@@ -8,6 +8,8 @@
    SeeAlso:[Copia semplice](Part_SimpleCopy/it.md), [Copia di un elemento](Part_ElementCopy/it.md), [Affina forma](Part_RefineShape/it.md)
 ---
 
+# Part TransformedCopy/it
+
 
 </div>
 
@@ -32,8 +34,5 @@ La copia ha una semplice proprietà **Placement** come qualsiasi altra [Part Fea
 
 La copia ha una semplice proprietà vista come qualsiasi altra [Part Feature](Part_Feature/it.md).
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part TransformedCopy/it

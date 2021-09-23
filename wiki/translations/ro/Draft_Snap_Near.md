@@ -1,3 +1,4 @@
+# Draft Snap Near/ro
 ---
 - GuiCommand:   Name:Draft Snap Near   Workbenches:[Arch](Draft_Workbench___Draft]],_[[Arch_Workbench.md)|MenuLocation:Draft → [[Draft Snap   Snap]] → Near|Shortcut:   SeeAlso:---
 
@@ -58,8 +59,5 @@ Funcționează și cu Draft Move and Draft Rotate.
 
 See [Draft Snap](Draft_Snap#Preferences.md).
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Near/ro

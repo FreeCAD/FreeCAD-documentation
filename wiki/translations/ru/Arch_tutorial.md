@@ -1,7 +1,4 @@
 # Arch tutorial/ru
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -640,4 +637,7 @@ To populate a spreadsheet with values extracted from the model the Arch\_Schedul
 
 {{Tutorials navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch tutorial/ru

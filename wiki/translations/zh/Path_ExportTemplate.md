@@ -6,6 +6,8 @@
    SeeAlso:[Path SetupSheet](Path_SetupSheet.md)
 ---
 
+# Path ExportTemplate/zh
+
 ## 描述
 
 
@@ -97,4 +99,7 @@
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path ExportTemplate/zh

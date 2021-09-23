@@ -7,6 +7,8 @@
    SeeAlso:[Draft ShapeString](Draft_ShapeString.md), [Draft Text](Draft_Text.md)
 ---
 
+# Std TextDocument/en
+
 ## Description
 
 The **Std TextDocument** command creates an object capable of holding arbitrary text. This element can be used to write general information or documentation about the model.
@@ -64,4 +66,7 @@ App.ActiveDocument.recompute()
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std TextDocument/en

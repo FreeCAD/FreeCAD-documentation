@@ -1,7 +1,4 @@
 # Drawing Workbench/it
- 
-
-
 **Lo sviluppo del modulo Drawing è stato interrotto in FreeCAD 0.16 con il proposito di sostituirlo con il nuovo modulo [TechDraw](TechDraw_Workbench/it.md) che sarà introdotto nella versione 0.17. Nella versione 0.17 sono forniti entrambi i moduli, ma il modulo Drawing potrebbe essere rimosso nelle versioni future.**
 
 <img alt="L\'icona di Drawing" src=images/Workbench_Drawing.svg  style="width:128px;">
@@ -86,3 +83,6 @@ Alcune ulteriori note sulla programmazione del Modulo Disegno sono contenute nel
 }} 
 
 [Category:Obsolete Workbenches](Category:Obsolete_Workbenches.md)
+
+---
+[documentation index](../README.md) > Drawing Workbench/it

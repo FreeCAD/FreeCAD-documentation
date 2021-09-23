@@ -1,7 +1,4 @@
 # HiDPI support/de
-
-
-
 **
 This roadmap is probably obsolete. For more information see [Development roadmap](Development_roadmap.md).<br>
 If you are not involved with the development discussed here:<br>
@@ -254,3 +251,6 @@ Qt bietet nicht die Funktionalität, um diesen Wert abzurufen. Also müssen wir 
 
 
 [Category:Roadmap](Category:Roadmap.md)
+
+---
+[documentation index](../README.md) > [Roadmap](Category:Roadmap.md) > HiDPI support/de

@@ -6,6 +6,8 @@
    Workbenches:[OpenSCAD](OpenSCAD_Workbench/fr.md)
 ---
 
+# OpenSCAD MeshBoolean/fr
+
 ## Description
 
 Crée un nouvel objet maillage par une opération booléenne à partir de formes.
@@ -31,4 +33,7 @@ OpenSCAD doit être installé et configuré dans **Edition** → **Préférences
 
 {{OpenSCAD_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD MeshBoolean/fr

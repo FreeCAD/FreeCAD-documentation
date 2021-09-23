@@ -8,6 +8,8 @@
    SeeAlso:[Draft Shape2DView](Draft_Shape2DView.md), [TechDraw NewArch](TechDraw_NewArch.md)
 ---
 
+# Arch SectionPlane/tr
+
 
 </div>
 
@@ -112,11 +114,5 @@ Section3 = Arch.makeSectionPlane([Site])
 FreeCAD.ActiveDocument.recompute()
 ```
 
-
-
-
-
-
-
-
-
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SectionPlane/tr

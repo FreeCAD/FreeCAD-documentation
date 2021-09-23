@@ -6,3 +6,6 @@ This category lists templates that produce text boxes used for documenting comma
 [Template:Macro/ro](Template:Macro/ro.md)
 
 [Category:Template/ro](Category:Template/ro.md)
+
+---
+[documentation index](../README.md) > Category:Template:Doc/ro

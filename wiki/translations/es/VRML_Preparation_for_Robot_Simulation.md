@@ -1,5 +1,5 @@
 # VRML Preparation for Robot Simulation/es
- {{TutorialInfo/es
+{{TutorialInfo/es
 |Topic=Ambiente de trabajo Robot
 |Level=Intermedio
 |Time=
@@ -449,3 +449,6 @@ Aquí está un parche para conseguir el archivo VRML adecuado para la simulació
 
 
 [Category:Robot](Category:Robot.md)
+
+---
+[documentation index](../README.md) > [Robot](Category:Robot.md) > VRML Preparation for Robot Simulation/es

@@ -4,3 +4,6 @@ Esta categoría recopila páginas que actúan como un repositorio de recursos pa
 ### Contents:
 
 [Category:Categories/es](Category:Categories/es.md)
+
+---
+[documentation index](../README.md) > Category:Repository/es

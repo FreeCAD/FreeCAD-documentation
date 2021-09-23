@@ -1,7 +1,4 @@
 # Draft tutorial/ru
-
-
-
 {{TutorialInfo/ru
 |Topic= Черчение
 |Level= Начинающий
@@ -254,4 +251,7 @@ The [Draft Workbench](Draft_Workbench.md) in many ways is similar to the [Sketch
 
 {{Tutorials navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft tutorial/ru

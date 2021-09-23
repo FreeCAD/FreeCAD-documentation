@@ -6,6 +6,8 @@
    Workbenches:[OpenSCAD](OpenSCAD_Workbench/fr.md)
 ---
 
+# OpenSCAD AddOpenSCADElement/fr
+
 ## Description
 
 Ajoute un élément OpenSCAD en entrant le code OpenSCAD dans le panneau des tâches et en exécutant le binaire OpenSCAD (nécessite OpenSCAD).
@@ -51,4 +53,7 @@ Remarque: Il est également possible d\'ajouter un autre paramètre facultatif q
 
 {{OpenSCAD_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD AddOpenSCADElement/fr

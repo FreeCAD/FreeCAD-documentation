@@ -7,6 +7,8 @@
    SeeAlso:[Std Part](Std_Part/de.md), [Funktion bearbeiten](Feature_editing/de.md)
 ---
 
+# PartDesign Body/de
+
 ## Beschreibung
 
 Ein [PartDesign Körper](PartDesign_Body/de.md) ist das Basiselement, um mit dem [PartDesign Arbeitsbereich](PartDesign_Workbench/de.md) Festkörper zu erzeugen. Es kann [Skizzen](Sketch/de.md), [Bezugsobjekte](Datum.md) und [PartDesign Formelementen](PartDesign_Feature/de.md) enthalten, die bei der Erstellung eines [Einfach zusammenhängender Festkörper](PartDesign_Body/de#Einfach_zusammenhängender_Festkörper/de.md) helfen.
@@ -317,4 +319,7 @@ App.ActiveDocument.recompute()
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Body/de

@@ -1,7 +1,4 @@
 # Fine-tuning/fr
-
-
-
 {{TOCright}}
 
 Cette page contient différents réglages et paramètres que vous pouvez utiliser pour affiner votre installation FreeCAD ou pour résoudre certains problèmes.
@@ -77,3 +74,6 @@ Tous les autres caractères sont traités littéralement. Si le nom de fichier r
 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Fine-tuning/fr

@@ -6,6 +6,8 @@
    SeeAlso:[Part Offset](Part_Offset.md)
 ---
 
+# Part Thickness/en
+
 ## Description
 
 The <img alt="" src=images/Part_Thickness.svg  style="width:24px;"> [Thickness](Part_Thickness.md) tool works on a solid shape and transforms it into a hollow object, giving to each of its faces a defined thickness. On some solids it allows you to significantly speed up the work, and avoids making extrusions and pockets.
@@ -69,8 +71,5 @@ Notes:
 
 ![](images/ThicknessEsempio4.png )
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Thickness/en

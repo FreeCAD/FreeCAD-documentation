@@ -1,3 +1,4 @@
+# PartDesign WizardShaft/cs
 ---
 - GuiCommand:/cs   Name:PartDesign WizardShaft   Name/cs:PartDesign WizardShaft   MenuLocation:Part Design → Shaft design wizard...   Workbenches:[PartDesign](PartDesign_Workbench/cs.md), Complete---
 
@@ -65,4 +66,7 @@ To add a new shaft segment, right-click into the empty space to the right of the
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign WizardShaft/cs

@@ -1,7 +1,4 @@
 # Sketcher Preferences/de
- 
-
-
 {{TOCright}}
 
 
@@ -252,3 +249,6 @@ In the *Colors* tab you can specify the following:
 }}  
 
 [Category:Preferences](Category:Preferences.md)
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Preferences/de

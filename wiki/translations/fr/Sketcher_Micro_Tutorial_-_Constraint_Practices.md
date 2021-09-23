@@ -1,7 +1,4 @@
 # Sketcher Micro Tutorial - Constraint Practices/fr
-
-
-
 {{TutorialInfo/fr
 |Topic=Sketcher
 |Level=Débutant
@@ -127,4 +124,7 @@ En regardant la section **Constraints** du [Panneau des tâches](Task_Panel/fr.m
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Micro Tutorial - Constraint Practices/fr

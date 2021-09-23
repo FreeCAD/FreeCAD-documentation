@@ -7,6 +7,8 @@
    SeeAlso:[Reinforcement](Reinforcement_Workbench/de.md), [Arch Bewehrung](Arch_Rebar/de.md), [bügelförmiger Bewehrungsstab](Arch_Rebar_Stirrup/de.md)
 ---
 
+# Arch Rebar BentShape/de
+
 ## Beschreibung
 
 Das [Abgewinkelter Bewehrungsstab](Arch_Rebar_BentShape/de.md)-Werkzeug erlaubt es dem Anwender, einen Satz von abgewinkelten Bewehrungsstäben in einem [Struktur](Arch_Structure/de.md)-Objekt zu erstellen.
@@ -150,3 +152,6 @@ BentShapeRebar.editBentShapeRebar(Rebar2, 50, 35, 20, 20,
  
 
 [Category:Reinforcement](Category:Reinforcement.md)
+
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Rebar BentShape/de

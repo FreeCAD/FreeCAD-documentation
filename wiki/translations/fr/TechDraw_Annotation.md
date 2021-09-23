@@ -7,6 +7,8 @@
    SeeAlso:[Draft Texte](Draft_Text/fr.md), [Draft Formes à partir texte](Draft_ShapeString/fr.md)
 ---
 
+# TechDraw Annotation/fr
+
 ## Description
 
 L\'outil Annotation ajoute un bloc de texte à une page de dessin.
@@ -72,4 +74,7 @@ rc = page.addView(anno)
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Annotation/fr

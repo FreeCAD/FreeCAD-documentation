@@ -8,6 +8,8 @@
    SeeAlso:[Std Couper](Std_Cut/fr.md), [Std Copier](Std_Copy/fr.md), [Std Dupliquer une sélection](Std_DuplicateSelection/fr.md)
 ---
 
+# Std Paste/fr
+
 ## Description
 
 La commande **Std Coller** colle les objets du Presse-papiers dans le document actif.
@@ -37,4 +39,7 @@ La commande **Std Coller** colle les objets du Presse-papiers dans le document a
 
 {{Std Base navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > Std Paste/fr

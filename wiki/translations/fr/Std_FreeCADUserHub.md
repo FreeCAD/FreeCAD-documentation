@@ -7,6 +7,8 @@
    SeeAlso:[Std Site Web de FreeCAD](Std_FreeCADWebsite/fr.md), [Std Documentation pour scripter en Python](Std_FreeCADPowerUserHub/fr.md), [Std Forum de FreeCAD](Std_FreeCADForum/fr.md), [Std FAQ FreeCAD](Std_FreeCADFAQ/fr.md)
 ---
 
+# Std FreeCADUserHub/fr
+
 ## Description
 
 La commande **Std Documentation utilisateurs** ouvre la page de documentation des utilisateurs FreeCAD dans le navigateur Internet par défaut du système. La commande nécessite une connexion Internet fonctionnelle.
@@ -23,4 +25,7 @@ Actuellement, la commande pointe vers [<https://www.freecadweb.org/wiki/User_hub
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std FreeCADUserHub/fr

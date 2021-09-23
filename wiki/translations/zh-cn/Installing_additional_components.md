@@ -1,7 +1,4 @@
 # Installing additional components/zh-cn
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -301,3 +298,6 @@ Z88是另一种FEM程序，内含网格生成器、求解器与转换器，用�
 </div>
 
 [Category:User Documentation/zh-cn](Category:User_Documentation/zh-cn.md)
+
+---
+[documentation index](../README.md) > Installing additional components/zh-cn

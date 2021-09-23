@@ -1,10 +1,4 @@
-# Draft Workbench/fr
-
-
-
-
-
-<img alt="Icône de l\'atelier Draft" src=images/Workbench_Draft.svg  style="width:128px;">
+# <img alt="Icône de l\'atelier Draft" src=images/Workbench_Draft.svg  style="width:64px;"> Draft Workbench/fr
 
 
 {{TOCright}}
@@ -353,3 +347,6 @@ L\'inspection du code de ce module peut aider à comprendre l\'interface de prog
  
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Draft Workbench/fr

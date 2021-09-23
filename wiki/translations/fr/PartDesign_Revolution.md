@@ -6,6 +6,8 @@
    Workbenches:[PartDesign](PartDesign_Workbench/fr.md)
 ---
 
+# PartDesign Revolution/fr
+
 ## Description
 
 L\'outil **Révolution** produit un solide par révolution d\'une esquisse ou d\'un objet 2D sélectionné autour d\'un axe donné.
@@ -76,4 +78,7 @@ Un [exemple](http://forum.freecadweb.org/viewtopic.php?f=3&t=3674) d\'utilisatio
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Revolution/fr

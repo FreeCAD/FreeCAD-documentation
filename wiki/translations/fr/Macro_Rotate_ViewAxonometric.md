@@ -1,5 +1,5 @@
 # Macro Rotate ViewAxonometric/fr
- {{Macro
+{{Macro
 |Name=Macro Rotate ViewAxonometric
 |Icon=Macro_Rotate_View_with_Y_pointing_upwards_.png
 |Description=Cette macro pivote la vue dans la position axonométrique (2 posibilités, Y et Z).
@@ -64,6 +64,5 @@ cam.orientation = nrot
 Gui.SendMsgToActiveView("ViewFit")
 }}
 
-
-
-
+---
+[documentation index](../README.md) > Macro Rotate ViewAxonometric/fr

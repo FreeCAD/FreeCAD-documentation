@@ -1,5 +1,5 @@
 # Combo view/es
- {{TOCright}}
+{{TOCright}}
 
 ## Introducción
 
@@ -54,4 +54,7 @@ Entonces activa la vista usando el menú, **Vista → Paneles → Vista de árbo
 
 {{Std Base navi
 
-}} {{Interface navi}} 
+}} {{Interface navi}}
+
+---
+[documentation index](../README.md) > Combo view/es

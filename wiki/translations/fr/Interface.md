@@ -1,5 +1,5 @@
 # Interface/fr
- {{TOCright}}
+{{TOCright}}
 
 ## Introduction
 
@@ -79,4 +79,7 @@ Ces options sont dans le menu, **Outils → Personnaliser...**. Voir [Personnali
 
 {{Interface navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > Interface/fr

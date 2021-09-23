@@ -1,5 +1,5 @@
 # Copying Objects/cs
- {{TOCright}}
+{{TOCright}}
 
 
 <div class="mw-translate-fuzzy">
@@ -73,5 +73,5 @@ Jako mnoho věcí ve FreeCADu, je mnoho způsobů jak vytvořit kopii. Pro dalš
 -   [Vložit](Std_Paste.md)
 -   [Duplikace výběru](Std_DuplicateSelection.md)
 
-
-
+---
+[documentation index](../README.md) > Copying Objects/cs

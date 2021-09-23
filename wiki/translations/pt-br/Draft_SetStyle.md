@@ -7,6 +7,8 @@
    SeeAlso:[Draft AnnotationStyleEditor](Draft_AnnotationStyleEditor.md), [Draft ApplyStyle](Draft_ApplyStyle.md)
 ---
 
+# Draft SetStyle/pt-br
+
 ## Descrição
 
 The <img alt="" src=images/Draft_SetStyle.svg  style="width:24px;"> **Draft SetStyle** command sets the default style for new objects.
@@ -147,5 +149,5 @@ The following preferences are involved:
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft SetStyle/pt-br

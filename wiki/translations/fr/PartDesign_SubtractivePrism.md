@@ -8,6 +8,8 @@
    SeeAlso:[PartDesign Primitives soustractives](PartDesign_CompPrimitiveSubtractive/fr.md), [PartDesign Prisme additif](PartDesign_AdditivePrism/fr.md)
 ---
 
+# PartDesign SubtractivePrism/fr
+
 ## Description
 
 Insérer un Prisme Primitif Soustractif dans le Corps actif. Sa forme est soustraite du solide existant.
@@ -54,4 +56,7 @@ Le Prisme peut être éditée après sa création de deux façons :
 
 {{PartDesign Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractivePrism/fr

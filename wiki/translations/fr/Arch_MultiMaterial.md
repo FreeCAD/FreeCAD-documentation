@@ -7,6 +7,8 @@
    SeeAlso:[Arch Matériau](Arch_SetMaterial/fr.md), [Arch Outils matériaux](Arch_CompSetMaterial/fr.md)
 ---
 
+# Arch MultiMaterial/fr
+
 ## Description
 
 L\'outil Multi-matériaux définit une liste de [matériaux](Material/fr.md) avec, pour chaque matériau, un nom et une valeur d\'épaisseur. Cette liste multi-matériaux peut ensuite être ajoutée à un objet [Arch](Arch_Workbench/fr.md) à la place d\'un seul [Arch Matériau](Arch_SetMaterial/fr.md).
@@ -49,8 +51,5 @@ Cela correspond à peu près à une combinaison de [IfcMaterialLayerSet](https:/
 
 ## Script
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch MultiMaterial/fr

@@ -1,5 +1,5 @@
 # Robot tutorial/zh-hans
- {{TutorialInfo/zh-hans
+{{TutorialInfo/zh-hans
 |Topic= Robot Workbench
 |Level= Beginner
 |Time=
@@ -62,4 +62,7 @@
 
 {{Tutorials navi
 
-}} {{Robot Tools navi}} 
+}} {{Robot Tools navi}}
+
+---
+[documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot tutorial/zh-hans

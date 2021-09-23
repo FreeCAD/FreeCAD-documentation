@@ -1,5 +1,5 @@
 # Robot tutorial/es
- {{TutorialInfo/es
+{{TutorialInfo/es
 |Topic= Robot Workbench
 |Level= Beginner
 |Time=
@@ -68,3 +68,6 @@ El objetivo de este tutorial es el uso de [robots industriales](http://en.wikipe
 }} {{Robot Tools navi}} 
 
 [Category:Tutorials/es](Category:Tutorials/es.md)
+
+---
+[documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot tutorial/es

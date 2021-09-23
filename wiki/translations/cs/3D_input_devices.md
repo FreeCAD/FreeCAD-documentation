@@ -1,5 +1,5 @@
 # 3D input devices/cs
- FreeCAD podporuje některá speciální vstupní zařízení jako jsou 3D myši. Ty umožňují uživateli objekty otáčet, posunovat a zoomovat ve 3 rozměrech.
+FreeCAD podporuje některá speciální vstupní zařízení jako jsou 3D myši. Ty umožňují uživateli objekty otáčet, posunovat a zoomovat ve 3 rozměrech.
 
 ## Podporovaný hardware 
 
@@ -13,3 +13,6 @@
 </div>
 
 [category:Documentation](category:Documentation.md)
+
+---
+[documentation index](../README.md) > 3D input devices/cs

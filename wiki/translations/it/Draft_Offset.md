@@ -8,6 +8,8 @@
    SeeAlso:[Scala](Draft_Scale/it.md), [Part Offset 2D](Part_Offset2D/it.md)
 ---
 
+# Draft Offset/it
+
 
 </div>
 
@@ -154,5 +156,5 @@ doc.recompute()
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Offset/it

@@ -1,5 +1,5 @@
 # Macro Mouse Cross/en
- {{Macro
+{{Macro
 |Name=Macro_Mouse_Cross
 |Icon=Macro_Mouse_Cross.png
 |Description=This macro turns the arrow of the mouse in a precision cross.
@@ -209,3 +209,6 @@ ArrowCursor, UpArrowCursor, CrossCursor, WaitCursor, IBeamCursor, SizeVerCursor,
 The cursor can change appearance depending on the used Workbench, he must repeat the operation.
 The cursor can be subtituer to the other sliders (ex: expansion of a window, corner\...).
 The grid is permanent.
+
+---
+[documentation index](../README.md) > Macro Mouse Cross/en

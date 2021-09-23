@@ -1,6 +1,4 @@
 # Help FreeCAD/zh-cn
-
-
 ## 简介
 
 
@@ -136,3 +134,6 @@ Writing code for FreeCAD is not hard, and you don\'t need any permission, you ca
 
 
 [Category:Documentation](Category:Documentation.md) [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Common Questions](Category:Common_Questions.md)
+
+---
+[documentation index](../README.md) > [Command Reference|范畴：命令参考]]页面列出了所有FreeCAD](Category:Command Reference|范畴：命令参考]]页面列出了所有FreeCAD.md) > Help FreeCAD/zh-cn

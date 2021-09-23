@@ -1,3 +1,4 @@
+# Raytracing WriteView/it
 ---
 - GuiCommand:/it   Name:Raytracing Export   Name/it:Export‏‎‏‎   MenuLocation:Raytracing  → Utilità → Esporta‏‎   |Workbenches:[[Raytracing_Workbench/it   Raytracing]]|Shortcut:   SeeAlso:---
 
@@ -35,4 +36,7 @@ Esporta le proprietà della vista corrente in un file POV da usare in un progett
 
 {{Raytracing_Tools_navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing WriteView/it

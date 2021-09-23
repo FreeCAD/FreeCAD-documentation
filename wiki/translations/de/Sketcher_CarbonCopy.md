@@ -7,6 +7,8 @@
    Version:0.17
 ---
 
+# Sketcher CarbonCopy/de
+
 ## Beschreibung
 
 Das **<img src=images/Sketcher_CarbonCopy.svg style="width:16px"> [Skizzierer Kopie](Sketcher_CarbonCopy/de.md)** Werkzeug kopiert alle Geometrien und Beschränkungen aus einer anderen Skizze in die aktive Skizze.
@@ -38,4 +40,7 @@ Maßbeschränkungen, die vor der Kopierfunktion bestehen, bleiben über [ Ausdr�
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CarbonCopy/de

@@ -6,3 +6,6 @@ This category lists pages that relate to the [Web Workbench/cs](Web_Workbench/cs
 [Web Workbench/cs](Web_Workbench/cs.md)
 
 [Category:Workbenches/cs](Category:Workbenches/cs.md)
+
+---
+[documentation index](../README.md) > Category:Web/cs

@@ -8,6 +8,8 @@
    SeeAlso:[Std Mosaïque](Std_TileWindows/fr.md)
 ---
 
+# Std ArrangeIcons/fr
+
 ## Description
 
 La commande **Std Organiser les icônes** ne fonctionne pas correctement. Elle a le même effet que la commande [Std Mosaïque](Std_TileWindows/fr.md). Voir là.
@@ -18,4 +20,7 @@ La commande **Std Organiser les icônes** ne fonctionne pas correctement. Elle a
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ArrangeIcons/fr

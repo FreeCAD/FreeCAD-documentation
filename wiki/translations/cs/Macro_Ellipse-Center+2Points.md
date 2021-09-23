@@ -1,5 +1,5 @@
 # Macro Ellipse-Center+2Points/cs
- {{Macro/cs
+{{Macro/cs
 |Name=Macro_Ellipse-Center+2Points
 |Translate=Ellipse Center+2Points
 |Icon=Macro_Ellipse-Center%2B2Points.png
@@ -67,6 +67,5 @@ except:
 
 }}
 
-
-
-
+---
+[documentation index](../README.md) > Macro Ellipse-Center+2Points/cs

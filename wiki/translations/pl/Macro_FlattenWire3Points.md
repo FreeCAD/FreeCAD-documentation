@@ -1,5 +1,5 @@
 # Macro FlattenWire3Points/pl
- {{Macro
+{{Macro
 |Name=FlattenWire3Points
 |Name/pl=FlattenWire3Points
 |Icon=Macro_FlattenWire3Points.png
@@ -57,3 +57,5 @@ Ikonka paska narzędzi ![](images/Macro_FlattenWire3Points.png )
     sel.Object.Points = points
 }}
 
+---
+[documentation index](../README.md) > Macro FlattenWire3Points/pl

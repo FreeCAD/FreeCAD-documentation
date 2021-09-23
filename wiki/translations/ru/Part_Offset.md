@@ -7,6 +7,8 @@
    SeeAlso:[Толщина](Part_Thickness/ru.md)
 ---
 
+# Part Offset/ru
+
 ## Описание
 
 The Part 3D Offset tool creates parallel copies of a selected shape at a certain distance from the base shape, giving a new object.
@@ -61,10 +63,7 @@ same shape with a 3D Offset as SKIN and *filled* offset
 
 *filled* offset with 2 Cylinders creating boolean cuts. Cylinder A goes through the FILL whilst Cylinder B only goes thru the FILL and NOT through the source 2D shape.
 
-<img alt="" src=images/PartOffset6.png  style="width:400" height="200px;"> 
+<img alt="" src=images/PartOffset6.png  style="width:400" height="200px;">
 
-
-
-
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Offset/ru

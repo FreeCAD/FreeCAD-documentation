@@ -7,6 +7,8 @@
    SeeAlso:[FEM Constraint pressure](FEM_ConstraintPressure.md)
 ---
 
+# FEM ConstraintTie/en
+
 ## Description
 
 Defines a tie constraint that connects the two selected surfaces in such a way that (as opposed to how contact works) they can\'t separate or slide on each other throughout the analysis. Thus, the surfaces remain permanently bonded all the time.
@@ -25,4 +27,7 @@ Defines a tie constraint that connects the two selected surfaces in such a way t
 
 {{FEM Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > FEM ConstraintTie/en

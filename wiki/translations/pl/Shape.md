@@ -1,6 +1,4 @@
 # Shape/pl
-
-
 ## Wprowadzenie
 
 W programie FreeCAD słowo **[kształt](Shape/pl.md)** jest zwykle używane w odniesieniu do [kształtu topologicznego](Part_TopoShape/pl.md) *(klasa `Part::TopoShape`)*, typu obiektu, który nadaje elementowi jego trójwymiarową reprezentację geometryczną i parametryczną *(sześcian, ostrosłup, sfera, walec, zespolenie itd.)*.
@@ -36,3 +34,6 @@ Jednakże, gdy wymagana jest większa precyzja, należy dokonać rozróżnienia.
  {{Document objects navi}} 
 
 [Category:Glossary](Category:Glossary.md)
+
+---
+[documentation index](../README.md) > [Glossary](Category:Glossary.md) > Shape/pl

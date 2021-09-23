@@ -1,7 +1,4 @@
 # Plot MultiAxes tutorial/fr
-
-
-
 {{TutorialInfo/fr
 |Topic=Atelier Plot
 |Level=Intermediaire
@@ -345,3 +342,6 @@ Vous pouvez maintenant enregistrer votre travail. Voir [tutoriel précédent](Pl
 }} {{Plot_Tools_navi}} 
 
 [Category:External\_Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)
+
+---
+[documentation index](../README.md) > [External_Workbenches](Category:External_Workbenches.md) > Plot MultiAxes tutorial/fr

@@ -8,6 +8,8 @@
    SeeAlso:[표준 전체 보기](Std_ViewFitAll/ko.md)
 ---
 
+# Std ViewFitSelection/ko
+
 ## 설명
 
 **표준 선택 보기(Std ViewFitSelection)** 명령은 선택한 개체가 모두 활성 [3D 보기에](3D_view/ko.md) 보이도록 카메라를 확대·축소 하거나 이동합니다.
@@ -50,4 +52,7 @@ FreeCADGui.SendMsgToActiveView('ViewSelection')
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ViewFitSelection/ko

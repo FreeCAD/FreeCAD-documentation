@@ -7,6 +7,8 @@
    SeeAlso:[Std MacroStopDebug](Std_MacroStopDebug.md)
 ---
 
+# Std MacroStartDebug/en
+
 ## Description
 
 This command does not work at this time.
@@ -17,4 +19,7 @@ This command does not work at this time.
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std MacroStartDebug/en

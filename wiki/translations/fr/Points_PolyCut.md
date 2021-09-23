@@ -6,6 +6,8 @@
    Workbenches:[Points](Points_Workbench/fr.md)
 ---
 
+# Points PolyCut/fr
+
 ## Description
 
 La commande *Points Couper par polygone* coupe des points de nuages de points.
@@ -40,4 +42,7 @@ La commande *Points Couper par polygone* coupe des points de nuages de points.
 
 {{Points Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Points](Points_Workbench.md) > Points PolyCut/fr

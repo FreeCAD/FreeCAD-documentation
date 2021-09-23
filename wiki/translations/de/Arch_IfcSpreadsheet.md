@@ -8,6 +8,8 @@
    SeeAlso:[Arch IfcExplorer](Arch_IFC/de]],_[[Arch_IfcExplorer/de.md)
 ---
 
+# Arch IfcSpreadsheet/de
+
 ## Beschreibung
 
 Dieses Werkzeug erstellt eine Tabellenblatt, um [IFC](Arch_IFC/de.md) Eigenschaften eines Objekts zu speichern.
@@ -45,8 +47,5 @@ FreeCAD.ActiveDocument.recompute()
 spreadsheet = Arch.makeIfcSpreadsheet(Wall)
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch IfcSpreadsheet/de

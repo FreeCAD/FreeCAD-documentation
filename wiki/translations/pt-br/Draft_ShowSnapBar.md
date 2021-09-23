@@ -6,6 +6,8 @@
    SeeAlso:[Draft Snap](Draft_Snap.md)
 ---
 
+# Draft ShowSnapBar/pt-br
+
 ## Descrição
 
 The <img alt="" src=images/Draft_ShowSnapBar.svg  style="width:24px;"> **Draft ShowSnapBar** command shows the Draft Snap toolbar. Some users only want to see this toolbar when a command is active and have changed their [preferences](Draft_Snap#Preferences.md) accordingly. For them this command is a way to show the toolbar to inspect, and optionally change, the [snap options](Draft_Snap.md).
@@ -29,5 +31,5 @@ The <img alt="" src=images/Draft_ShowSnapBar.svg  style="width:24px;"> **Draft S
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ShowSnapBar/pt-br

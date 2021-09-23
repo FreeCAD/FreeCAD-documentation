@@ -8,6 +8,8 @@
    SeeAlso:[Draft Line](Draft_Line/ru.md), [Draft Wire](Draft_Wire/ru.md)
 ---
 
+# Draft Fillet/ru
+
 
 </div>
 
@@ -113,8 +115,5 @@ fillet = Draft.make_fillet([line1, line2], radius=500)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Fillet/ru

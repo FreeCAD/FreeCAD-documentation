@@ -1,6 +1,4 @@
 # Model
- 
-
 ## Introduction
 
 In FreeCAD the word \"[Model](Model.md)\" is normally used to refer to any 3D object, or collection of objects, created in the [3D view](3D_view.md).
@@ -18,3 +16,6 @@ In informal usage, the word \"[Drawing](Drawing.md)\" may be used with the same 
  {{Document objects navi}} 
 
 [Category:Glossary](Category:Glossary.md)
+
+---
+[documentation index](../README.md) > [Glossary](Category:Glossary.md) > Model

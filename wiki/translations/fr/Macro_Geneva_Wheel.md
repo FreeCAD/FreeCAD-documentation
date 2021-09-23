@@ -1,5 +1,5 @@
 # Macro Geneva Wheel/fr
- {{Macro/fr
+{{Macro/fr
 |Name=Geneva Wheel
 |Icon=GW_Dim.png
 |Description=Cette macro crée un mécanisme de roue de Genève à partir de zéro.
@@ -147,6 +147,5 @@ Part.show(driveCrank)
 Part.show(genevaWheel)
 }}
 
-
-
-
+---
+[documentation index](../README.md) > Macro Geneva Wheel/fr

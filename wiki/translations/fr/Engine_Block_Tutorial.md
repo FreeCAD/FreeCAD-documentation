@@ -1,5 +1,5 @@
 # Engine Block Tutorial/fr
- } {{TutorialInfo/fr
+} {{TutorialInfo/fr
 |Topic=  Atelier Part
 |Level=  Débutant
 |Time=   1 heure
@@ -172,6 +172,5 @@ Maintenant que nous avons des objets 3D pour les trous et la forme extérieure, 
 
 Votre objet final devrait ressembler à l\'image sur la droite.
 
-
-
-
+---
+[documentation index](../README.md) > Engine Block Tutorial/fr

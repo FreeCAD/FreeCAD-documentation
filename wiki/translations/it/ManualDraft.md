@@ -536,3 +536,6 @@ Questa sezione elenca una serie di comandi che non sono ancora inclusi in questo
 {{languages/it | {{}}
 
 }}
+
+---
+[documentation index](../README.md) > ManualDraft/it

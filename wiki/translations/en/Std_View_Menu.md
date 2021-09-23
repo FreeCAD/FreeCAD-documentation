@@ -1,10 +1,4 @@
-# Std View Menu/en
-
-
-
-
-
-<img alt="Std Base icon" src=images/Freecad.svg  style="width:128px;">
+# <img alt="Std Base icon" src=images/Freecad.svg  style="width:64px;"> Std View Menu/en
 
 
 {{TOCright}}
@@ -165,3 +159,6 @@ The following tools are available in this menu:
 }}  
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > [Workbenches](Category:Workbenches.md) > Std View Menu/en

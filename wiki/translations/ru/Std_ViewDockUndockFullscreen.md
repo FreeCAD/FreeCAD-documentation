@@ -10,6 +10,8 @@
    SeeAlso:[Std ViewFullscreen](Std_ViewFullscreen/ru.md), [Std MainFullscreen](Std_MainFullscreen/ru.md)
 ---
 
+# Std ViewDockUndockFullscreen/ru
+
 ## Введение
 
 [Окно трёхмерного просмотра](3D_view/ru.md) можно отсоединить от основного [интерфейса FreeCAD](Interface/ru.md) и, например, переместить на другой дисплей.
@@ -55,4 +57,7 @@ The **Undocked** menu option undocks the active [3D view](3D_view.md) from the m
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ViewDockUndockFullscreen/ru

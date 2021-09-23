@@ -1,3 +1,4 @@
+# Part Torus/cs
 ---
 - GuiCommand:/cs   Name:Part_Torus   Name/cs:Díl_Torus   MenuLocation:Díl -> Torus   |Workbenches:[SeeAlso:[[Part_CreatePrimitives/cs|Díl Vytváření zákl.geom.tvarů](Part_Workbench/cs___Modul_Díl]],_Kompletace.md)---
 
@@ -54,10 +55,7 @@ as well as the standard set of placement parameters. The pictures below give a v
 
 ![](images/TorusExampleAngle2.jpg ) The parameter Angle2 has a value of 90°.
 
-![](images/TorusExampleAngle3.jpg ) The parameter Angle3 has a value of 90°. 
+![](images/TorusExampleAngle3.jpg ) The parameter Angle3 has a value of 90°.
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Torus/cs

@@ -26,3 +26,6 @@
 -   Haiku, Inc. owns the \'Haiku\'® name, HAIKU logo®, HAIKU Background Leaf™, and HAIKU Leaf™ (registered) trademarks.
 
 <https://www.haiku-os.org/about/trademark_policy/>
+
+---
+[documentation index](../README.md) > Trademark legend

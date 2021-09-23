@@ -4,3 +4,6 @@
 
 
 [Category:Redirects](Category:Redirects.md) [Category:Common Questions](Category:Common_Questions.md)
+
+---
+[documentation index](../README.md) > Visibility

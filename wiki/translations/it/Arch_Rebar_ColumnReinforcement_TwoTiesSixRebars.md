@@ -8,6 +8,8 @@
    Version:0.19
 ---
 
+# Arch Rebar ColumnReinforcement TwoTiesSixRebars/it
+
 ## Descrizione
 
 Lo strumento [Armatura di pilastro con due staffe e sei barre](Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars/it.md) consente all\'utente di creare delle barre di rinforzo all\'interno di un oggetto [Struttura](Arch_Structure/it.md) Pilastro.
@@ -343,3 +345,6 @@ rebar_group = TwoTiesSixRebars.editTwoTiesSixRebars(
  
 
 [Category:Reinforcement](Category:Reinforcement.md)
+
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Rebar ColumnReinforcement TwoTiesSixRebars/it

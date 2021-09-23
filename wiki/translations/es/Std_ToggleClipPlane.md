@@ -1,3 +1,4 @@
+# Std ToggleClipPlane/es
 ---
 - GuiCommand:/es   Name:Std ClippingPlane   Name/es:Std ClippingPlane   MenuLocation:[[Std View Menu/es   View]] → Clipping plane‏‎||Workbenches:All   Shortcut:   SeeAlso:---
 
@@ -38,4 +39,7 @@ The **Std ToggleClipPlane** command temporarily hides objects and parts of objec
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ToggleClipPlane/es

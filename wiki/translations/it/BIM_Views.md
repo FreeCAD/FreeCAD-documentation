@@ -7,6 +7,8 @@
    MenuLocation:Gestione → Viste
 ---
 
+# BIM Views/it
+
 ## Descrizione
 
 
@@ -43,3 +45,6 @@ The BIM views manager will show all the levels (building parts) and working plan
 }}
 
 [Category:External Command Reference](Category:External_Command_Reference.md)
+
+---
+[documentation index](../README.md) > [External Command Reference](Category:External Command Reference.md) > BIM Views/it

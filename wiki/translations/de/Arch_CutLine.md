@@ -8,6 +8,8 @@
    Version:0.19
 ---
 
+# Arch CutLine/de
+
 ## Beschreibung
 
 Das [Arch SchneideLinie](Arch_CutLine/de.md) Werkzeug ermöglicht dir ein festes Arch Objekt wie eine [Arch Mauer](Arch_Wall/de.md) oder [Arch Struktur](Arch_Structure/de.md) unter Verwendung einer Linie, die das Objekt kreuzt zu schneiden.
@@ -32,8 +34,5 @@ Das [Arch SchneideLinie](Arch_CutLine/de.md) Werkzeug ermöglicht dir ein festes
 
 [Arch API](Arch_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CutLine/de

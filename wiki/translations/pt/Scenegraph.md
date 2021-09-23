@@ -1,7 +1,4 @@
 # Scenegraph/pt
-
-
-
 {{TOCright}}
 
 ## Introduction
@@ -73,3 +70,6 @@ See [Coin3d snippets](Coin3d_snippets.md) courtesy of MariwanJ\'s research for t
 }} 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Scenegraph/pt

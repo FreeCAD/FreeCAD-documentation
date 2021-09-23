@@ -7,6 +7,8 @@
    SeeAlso:[Sketcher Create B-spline](Sketcher_CompCreateBSpline.md)
 ---
 
+# Sketcher BSplineDegree/pt-br
+
 ## Description
 
 Shows or hides the display of the **degree** of a B-spline (see [this page](B-Splines.md) for more info about B-splines).
@@ -23,4 +25,7 @@ Shows or hides the display of the **degree** of a B-spline (see [this page](B-Sp
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineDegree/pt-br

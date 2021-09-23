@@ -7,6 +7,8 @@
    SeeAlso:[Std Fermer](Std_CloseActiveWindow/fr.md)
 ---
 
+# Std CloseAllWindows/fr
+
 ## Description
 
 La commande **Std Fermer tout** ferme toutes les fenêtres, fermant ainsi tous les documents.
@@ -46,4 +48,7 @@ Pour fermer un document, utilisez la méthode `closeDocument` de l\'application 
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std CloseAllWindows/fr

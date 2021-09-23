@@ -1,10 +1,4 @@
-# Surface Workbench/de
-
-
-
-
-
-<img alt="Oberfläche Arbeitsbereichssymbol" src=images/Workbench_Surface.svg  style="width:128px;">
+# <img alt="Oberfläche Arbeitsbereichssymbol" src=images/Workbench_Surface.svg  style="width:64px;"> Surface Workbench/de
 
 
 {{TOCright}}
@@ -57,3 +51,6 @@ Die generierte Oberfläche kann nicht mehr innerhalb eines **<img src=images/Par
 }} 
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Surface Workbench/de

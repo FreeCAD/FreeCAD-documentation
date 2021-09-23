@@ -1,3 +1,4 @@
+# Part RegularPolygon/cs
 ---
 - GuiCommand:/cs   Name:Part RegularPolygon   Name/cs:Part RegularPolygon   MenuLocation:Part → [Workbenches:[[Part_Workbench/cs   Part](Part_CreatePrimitives/cs___Create_Primitives]]_→_Regular_Polygon.md), [OpenSCAD](OpenSCAD_Workbench/cs.md)|Version:0.14   SeeAlso:---
 
@@ -22,8 +23,5 @@ The RegularPolygon is available from the Create Primitives dialogue in the Part 
 -   Polygon - the number of sides of the polygon which describes the cross section of the Part Prism
 -   Circumradius - the circumradius is the distance from the centre of the polygon to a vertex.
 
-
-
-
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part RegularPolygon/cs

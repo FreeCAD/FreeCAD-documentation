@@ -7,6 +7,8 @@
    SeeAlso:[Constrain Coincident](Sketcher_ConstrainCoincident.md)
 ---
 
+# Sketcher ConstrainPointOnObject/ro
+
 
 </div>
 
@@ -89,4 +91,7 @@ Pentru a identifica numărul care are indică liniile și punctele? Vă rog să 
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainPointOnObject/ro

@@ -6,6 +6,8 @@
    Workbenches:[Plot](Plot_Module/fr.md)
 ---
 
+# Plot Labels/fr
+
 ## Description
 
 Cet outil permet à l\'utilisateur de modifier les étiquettes du titre et des axes, ainsi que leur taille de police.
@@ -36,3 +38,6 @@ Sélectionnez l\'onglet du tracé que vous souhaitez modifier, puis exécutez ce
 }} 
 
 [Category:External\_Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)
+
+---
+[documentation index](../README.md) > [External_Workbenches](Category:External_Workbenches.md) > Plot Labels/fr

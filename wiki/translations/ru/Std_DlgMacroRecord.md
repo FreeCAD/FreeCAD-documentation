@@ -7,6 +7,8 @@
    SeeAlso:[Остановить запись макроса](Std_MacroStopRecord/ru.md)
 ---
 
+# Std DlgMacroRecord/ru
+
 ## Описание
 
 The **Std DlgMacroRecord** command starts a [macro](Macros.md) recording session during which user actions are stored in a FreeCAD macro, a file with the {{FileName|.FCMacro}} extension. A macro can later be replayed, executed, to repeat the recorded actions.
@@ -50,4 +52,7 @@ The **Std DlgMacroRecord** command starts a [macro](Macros.md) recording session
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std DlgMacroRecord/ru

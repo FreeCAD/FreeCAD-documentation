@@ -1,7 +1,4 @@
 # Macro CenterOfMass/en
-
-
-
 {{Macro
 |Name=Macro CenterOfMass
 |Description=Gives the Center of mass multiple of multiple objects selected.
@@ -67,3 +64,6 @@ the forum discussion [Macro to compute center of mass](https://forum.freecadweb.
 0.2.3 / 2018-11-22 : new icon name
 
 0.1.2 / 2018-11-10 : xx
+
+---
+[documentation index](../README.md) > Macro CenterOfMass/en

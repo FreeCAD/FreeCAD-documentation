@@ -6,6 +6,8 @@
    SeeAlso:[Arch CutLine](Arch_CutLine.md), [Arch CutPlane](Arch_CutPlane.md), [Arch Add](Arch_Add.md)
 ---
 
+# Arch Remove/pt-br
+
 ## Descrição
 
 The Remove tools allows you to do 2 kinds of operations:
@@ -73,8 +75,5 @@ FreeCAD.ActiveDocument.recompute()
 
 </div>
 
-
-
-
-
-
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Remove/pt-br

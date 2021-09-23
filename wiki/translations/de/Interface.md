@@ -1,5 +1,5 @@
 # Interface/de
- {{TOCright}}
+{{TOCright}}
 
 ## Einleitung
 
@@ -83,4 +83,7 @@ Diese Optionen befinden sich im Menü, {{MenuCommand/de|Werkzeuge → Benutzerde
 
 {{Interface navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > Interface/de

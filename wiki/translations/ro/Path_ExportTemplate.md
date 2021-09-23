@@ -1,3 +1,4 @@
+# Path ExportTemplate/ro
 ---
 - GuiCommand:   Name:Path ExportTemplate   Workbenches:[MenuLocation:Path → Export Template   SeeAlso:[[Path_SetupSheet|Path SetupSheet](Path_Workbench___Path]].md) ---
 
@@ -97,4 +98,7 @@ Crearea unui Șablon
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path ExportTemplate/ro

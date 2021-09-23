@@ -6,6 +6,8 @@
    SeeAlso:[Part Loft](Part_Loft.md)
 ---
 
+# Part Sweep
+
 ## Description
 
 The <img alt="" src=images/Part_Sweep.svg  style="width:24px;"> [Part Sweep](Part_Sweep.md) tool is used to create a face, a shell, or a solid shape from one or more profiles (cross-sections) projected along a path.
@@ -82,7 +84,5 @@ If \"Frenet\" is \"true\" the orientation of the profile is computed basing on l
 
 -   Since Sweep is often used to create threads for screws, you should see [Thread for Screw Tutorial](Thread_for_Screw_Tutorial.md).
 
-
-
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Sweep

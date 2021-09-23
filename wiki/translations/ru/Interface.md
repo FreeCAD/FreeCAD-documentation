@@ -1,5 +1,5 @@
 # Interface/ru
- {{TOCright}}
+{{TOCright}}
 
 ## Введение
 
@@ -79,4 +79,7 @@ Toolbars can have more or fewer buttons, and custom toolbars can be created with
 
 {{Interface navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > Interface/ru

@@ -1,5 +1,5 @@
 # Render project/fr
- **(2020) Cette page fait référence à une tentative de mise à jour de l'[Atelier Raytracing](Raytracing_Workbench/fr.md), proposé vers 2012. Son auteur d'origine n'ayant jamais terminé la mise en œuvre, ces informations sont obsolètes et ne doivent pas être considérées comme actuelles.
+**(2020) Cette page fait référence à une tentative de mise à jour de l'[Atelier Raytracing](Raytracing_Workbench/fr.md), proposé vers 2012. Son auteur d'origine n'ayant jamais terminé la mise en œuvre, ces informations sont obsolètes et ne doivent pas être considérées comme actuelles.
 
 Un nouveau développement est en cours dans l'[https://github.com/FreeCAD/FreeCAD-render Atelier Render], un remplacement complet en Python pour l'[Atelier Raytracing](Raytracing_Workbench/fr.md).
 
@@ -127,3 +127,6 @@ Voir aussi [Tutoriel Raytracing](Raytracing_tutorial/fr.md)
  
 
 [Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md) [Category:Render](Category:Render.md)
+
+---
+[documentation index](../README.md) > [Addons](Category:Addons.md) > Render project/fr

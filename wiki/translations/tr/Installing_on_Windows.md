@@ -1,7 +1,4 @@
 # Installing on Windows/tr
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -244,5 +241,5 @@ FreeCAD çalışıyor ancak OpenGL ekranının çalışmadığı, [ Wine](wikipe
 
 </div>
 
-
-
+---
+[documentation index](../README.md) > Installing on Windows/tr

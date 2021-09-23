@@ -1,7 +1,4 @@
 # Arch Concept/es
-
-
-
 **
 This roadmap is probably obsolete. For more information see [Development roadmap](Development_roadmap.md).<br>
 If you are not involved with the development discussed here:<br>
@@ -214,3 +211,6 @@ El siguiente diagrama ilustra las relaciones entre todos los objetos descritos h
 <img alt="Objetos para capturar el conocimiento de la construcción" src=images/BldgComponents.png  style="width:800px;">
 
 [Category:Roadmap](Category:Roadmap.md)
+
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Concept/es

@@ -1,5 +1,5 @@
 # Aeroplane/fr
- {{TutorialInfo/fr
+{{TutorialInfo/fr
 |Topic=Atelier Part
 |Level=Débutant
 |Time=10 minutes
@@ -99,4 +99,7 @@ J\'espère, que ce petit tutoriel vous a aidé, à comprendre les rotations.
 
 {{Tutorials navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Aeroplane/fr

@@ -11,3 +11,6 @@ This is the **top category** which contains the main categories of the FreeCAD w
 , , , , , , , , ,
 
 [Category:Categories/zh](Category:Categories/zh.md) [Category:Addons/zh](Category:Addons/zh.md) [Category:Administration/zh](Category:Administration/zh.md) [Category:Categories/zh](Category:Categories/zh.md) [Category:Command Reference/zh](Category:Command_Reference/zh.md) [Category:Developer Documentation/zh](Category:Developer_Documentation/zh.md) [Category:Documentation/zh](Category:Documentation/zh.md) [Category:Hubs/zh](Category:Hubs/zh.md) [Category:Python Code/zh](Category:Python_Code/zh.md) [Category:Template/zh](Category:Template/zh.md) [Category:Tutorials/zh](Category:Tutorials/zh.md)
+
+---
+[documentation index](../README.md) > Category:Categories/zh

@@ -1,7 +1,4 @@
 # Mesh API/fr
-
-
-
 **(novembre 2018) Ces informations peuvent être incomplètes et obsolètes. Pour la dernière version de l'API, consultez la [https://www.freecadweb.org/api documentation de l'auto-génération de l'API].**
 
 Les objets maillés peuvent être manipulés par l\'ajout de nouvelles facettes, suppression de facettes, l\'importation d\'un fichier STL, transformant le maillage et bien plus encore. Pour un aperçu complet de ce qui peut être fait voir aussi la documentation de l\'[atelier Mesh](Mesh_Workbench/fr.md). Un objet maillé ne peut pas être ajouté à un document existant directement. Par conséquent, le document doit créer un objet avec une classe propriété qui soutient les mailles. Exemple:
@@ -236,3 +233,6 @@ d.recompute()
  
 
 [Category:API](Category:API.md) [Category:Poweruser Documentation](Category:Poweruser_Documentation.md)
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh API/fr

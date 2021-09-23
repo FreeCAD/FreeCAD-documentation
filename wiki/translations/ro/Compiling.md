@@ -1,7 +1,4 @@
 # Compiling/ro
-
-
-
 <div class="mw-translate-fuzzy">
 
 Fiecare sistem de operare are propria pagină de compilare a FreeCAD în [Online Help Documentation](Online_Help_Toc.md).
@@ -34,3 +31,6 @@ To learn to use revision control system and contribute code see [Source code man
 
 
 [Category:Developer\_Documentation](Category:Developer_Documentation.md) [Category:Developer](Category:Developer.md)
+
+---
+[documentation index](../README.md) > [Developer_Documentation](Category:Developer_Documentation.md) > Compiling/ro

@@ -7,6 +7,8 @@
    SeeAlso:[Incastra](Part_JoinEmbed/it.md), [Asporta](Part_JoinCutout/it.md), [Operazioni booleane](Part_Boolean/it.md), [Spessore](Part_Thickness/it.md)
 ---
 
+# Part JoinConnect/it
+
 
 </div>
 
@@ -111,5 +113,5 @@ j.Objects = FreeCADGui.Selection.getSelection()
 
 </div>
 
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part JoinConnect/it

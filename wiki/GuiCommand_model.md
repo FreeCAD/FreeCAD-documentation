@@ -9,6 +9,8 @@
    SeeAlso: 
 ---
 
+# GuiCommand model
+
 ## Description
 
 While the page is under construction, add the [Template:UnfinishedDocu](Template:UnfinishedDocu.md) template at the top of the page by simply typing: ****
@@ -207,3 +209,6 @@ Optional.
  {{Workbench Tools navi}} 
 
 [Category:Wiki:Example](Category:Wiki:Example.md)
+
+---
+[documentation index](../README.md) > [API]] and ](Category:API]] and .md) > GuiCommand model

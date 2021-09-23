@@ -7,6 +7,8 @@
    SeeAlso:[Arch Partie de bâtiment](Arch_BuildingPart/fr.md)
 ---
 
+# Arch Reference/fr
+
 ## Description
 
 <img alt="" src=images/Arch_reference_screenshot.png  style="width:800px;">
@@ -51,8 +53,5 @@ import Arch
 Arch.makeReference("/path/to/some/file.FSCtd","myPart")
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Reference/fr

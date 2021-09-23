@@ -6,6 +6,8 @@
    MenuLocation:Robot → Yörünge Dışa Aktar
 ---
 
+# Robot Export/tr
+
 
 </div>
 
@@ -63,4 +65,7 @@ Bir KRL dosyası (\* .src) oluşturulacaktır.
 
 {{Robot_Tools_navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot Export/tr

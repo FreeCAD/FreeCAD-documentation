@@ -1,3 +1,4 @@
+# Std ToggleClipPlane/de
 ---
 - GuiCommand:/de   Name:Std ClippingPlane   Name/de:Std ClippingPlane   MenuLocation:[[Std View Menu/de   Ansicht]] → Schnittebene‏‎||Workbenches:Alle   Shortcut:-   SeeAlso:---
 
@@ -44,4 +45,7 @@ Eine **Schnittebene** ist eine Ebene, die den Objektraum in zwei Halbräume teil
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ToggleClipPlane/de

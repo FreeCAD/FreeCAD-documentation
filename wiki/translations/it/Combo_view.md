@@ -1,5 +1,5 @@
 # Combo view/it
- {{TOCright}}
+{{TOCright}}
 
 ## Introduzione
 
@@ -54,4 +54,7 @@ Quindi attivare la vista utilizzando il menu **Visualizza → Pannelli → Strut
 
 {{Std Base navi
 
-}} {{Interface navi}} 
+}} {{Interface navi}}
+
+---
+[documentation index](../README.md) > Combo view/it

@@ -8,6 +8,8 @@
    SeeAlso:[Image Ouvrir une image](Image_Open/fr.md), [Image Créer une image plane](Image_CreateImagePlane/fr.md)
 ---
 
+# Image Scaling/fr
+
 ## Description
 
 L\'outil [Redimensionner l\'mage](Image_Scaling/fr.md) redimensionne une image importée à l\'aide de l\'outil [Image Créer une image plane](Image_CreateImagePlane/fr.md).
@@ -26,4 +28,7 @@ L\'outil [Redimensionner l\'mage](Image_Scaling/fr.md) redimensionne une image i
 
 {{Image Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Image](Image_Workbench.md) > Image Scaling/fr

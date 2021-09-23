@@ -7,6 +7,8 @@
    SeeAlso:
 ---
 
+# Lattice2 AttachablePlacement/en
+
 ## Description
 
 The <img alt="" src=images/Lattice2_AttachablePlacement.svg  style="width:24px;"> [Lattice2 AttachablePlacement](Lattice2_AttachablePlacement.md) command assigns a placement or handle to an object so it can later be referred to by a location.
@@ -34,3 +36,6 @@ The <img alt="" src=images/Lattice2_AttachablePlacement.svg  style="width:24px;"
 
 
 [Category:External Command Reference](Category:External_Command_Reference.md) [Category:Lattice2](Category:Lattice2.md)
+
+---
+[documentation index](../README.md) > [External Command Reference](Category:External Command Reference.md) > Lattice2 AttachablePlacement/en

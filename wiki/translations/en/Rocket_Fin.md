@@ -6,6 +6,8 @@
    Version:0.19
 ---
 
+# Rocket Fin/en
+
 ## Description
 
 Fins are used to aerodynamically control the direction of flight.
@@ -153,3 +155,6 @@ TBD
 
 
 [Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+
+---
+[documentation index](../README.md) > [API]] and ](Category:API]] and .md) > Rocket Fin/en

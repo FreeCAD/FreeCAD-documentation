@@ -6,6 +6,8 @@
    Workbenches:[PartDesign](PartDesign_Workbench/de.md)
 ---
 
+# PartDesign InvoluteGear/de
+
 ## Beschreibung
 
 Dieses Werkzeug erlaubt dir ein 2D Profil eines Evolventenzahnrades zu erstellen. Dieses 2D Profil ist vollständig parametrisch und kann mit dem Grundelement [PartDesign Polster](PartDesign_Pad/de.md) aufgefüllt werden.
@@ -42,4 +44,7 @@ Für ausführlichere Informationen siehe die Wikipedia Einträge zu: [Zahnrad](h
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign InvoluteGear/de

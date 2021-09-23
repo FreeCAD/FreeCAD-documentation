@@ -1,5 +1,5 @@
 # Macro Half-Hull Model/fr
- {{Macro/fr
+{{Macro/fr
 |Name=Macro Half-Hull Model
 |Icon=Macro_Half_Hull_Model.png
 |Description=Cette macro génère des modèles tridimensionnels de demi-coque et de coque complète à partir d'une série de dessins au trait en 2D.<br/>Cette macro réalise des modèles simples de coques de bateaux et de navires. Elle est destinée à aider les personnes qui modélisent ou conçoivent des coques en fournissant la surface de la coque d'une manière directe et opportune afin qu'elles puissent éviter le processus complet qui prend du temps.
@@ -931,6 +931,5 @@ This script is running bug free. But due to the large range of possible inputs i
 
 The script is too long for the Wiki to display so it must be copied or downloaded from [unabbreviated script on pastebin.com](http://pastebin.com/raw.php?i=tZMpUi6F)
 
-
-
-
+---
+[documentation index](../README.md) > Macro Half-Hull Model/fr

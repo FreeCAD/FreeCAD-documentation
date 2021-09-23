@@ -1,3 +1,4 @@
+# Draft Circle/sv
 ---
 - GuiCommand:/sv   Name:Draft Circle   Name/sv:Draft Circle   Workbenches:[Arch](Draft_Workbench/sv___Draft]],_[[Arch_Workbench/sv.md)|MenuLocation:Draft -> Circle   Shortcut:C I   SeeAlso:[Draft Arc](Draft_Arc/sv.md)---
 
@@ -153,8 +154,5 @@ circle3 = Draft.make_circle(750, placement=place3)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Circle/sv

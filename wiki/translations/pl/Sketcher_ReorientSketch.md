@@ -7,6 +7,8 @@
    SeeAlso:[Mapuj szkic](Sketcher_MapSketch/pl.md), [Nowy szkic](Sketcher_NewSketch/pl.md)
 ---
 
+# Sketcher ReorientSketch/pl
+
 ## Opis
 
 Pozwala na oderwanie szkicu od powierzchni i przymocowanie go do jednej z głównych płaszczyzn *(z przesunięciem)*.
@@ -31,4 +33,7 @@ Pozwala na oderwanie szkicu od powierzchni i przymocowanie go do jednej z głów
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ReorientSketch/pl

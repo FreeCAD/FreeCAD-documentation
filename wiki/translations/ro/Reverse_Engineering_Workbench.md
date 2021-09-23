@@ -1,7 +1,4 @@
 # Reverse Engineering Workbench/ro
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -49,3 +46,6 @@ Link to appropriate threads discussing this workbench
 
 
 [Category:Reverse Engineering](Category:Reverse_Engineering.md) [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Reverse Engineering Workbench/ro

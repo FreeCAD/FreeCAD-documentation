@@ -1,7 +1,4 @@
 # Manual:Traditional modeling, the CSG way/fr
- 
-
-
 {{Manual:TOC/fr}}
 
 La [géométrie de construction de solides](wikipedia:fr:Géométrie_de_construction_de_solides.md) (CSG en anglais : *Constructive Solid Geometry*) décrit la manière la plus simple de travailler avec la géométrie 3D des solides. Elle crée des objets complexes en ajoutant/enlevant des éléments de volumes en utilisant des opérations booléennes telles que l\'union, la soustraction ou l\'intersection de solides.
@@ -132,3 +129,6 @@ Le fichier produit dans cet exercice: <https://github.com/yorikvanhavre/FreeCADm
 
 
 [Catégorie:Tutoriels](Category:Tutorials/fr.md)
+
+---
+[documentation index](../README.md) > Manual:Traditional modeling, the CSG way/fr

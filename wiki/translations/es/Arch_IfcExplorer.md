@@ -7,6 +7,8 @@
    SeeAlso:[Arch IFC](Arch_IFC/es.md)
 ---
 
+# Arch IfcExplorer/es
+
 
 </div>
 
@@ -41,3 +43,6 @@ El propósito de este explorador es simplemente permitirte comprobar lo que real
  
 
 [Category:BIM](Category:BIM.md)
+
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch IfcExplorer/es

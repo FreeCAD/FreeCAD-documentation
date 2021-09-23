@@ -1,5 +1,5 @@
 # Scripted Parts: Ball Bearing - Part 1
-  {{TutorialInfo
+{{TutorialInfo
 |Topic= Part Scripting - Ball Bearing #1
 |Level= Beginner
 |Time= 30 min
@@ -139,3 +139,6 @@ Gui.SendMsgToActiveView("ViewFit")
  {{Powerdocnavi}} 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Scripted Parts: Ball Bearing - Part 1

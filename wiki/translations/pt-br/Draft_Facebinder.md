@@ -7,6 +7,8 @@
    Version:0.14
 ---
 
+# Draft Facebinder/pt-br
+
 ## Descrição
 
 The <img alt="" src=images/Draft_Facebinder.svg  style="width:24px;"> **Draft Facebinder** command creates a surface object from selected faces. A Draft Facebinder is parametric, it will update if you modify its source object(s).
@@ -125,5 +127,5 @@ doc.recompute()
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Facebinder/pt-br

@@ -1,5 +1,5 @@
 # Robot tutorial/de
- {{TutorialInfo/de
+{{TutorialInfo/de
 |Topic= Roboter Arbeitsbereich
 |Level= Anfänger
 |Time=
@@ -55,4 +55,7 @@ klicken auf <img alt="" src=images/Robot_InsertWaypoint.svg  style="width:24px;"
 
 {{Tutorials navi
 
-}} {{Robot Tools navi}} 
+}} {{Robot Tools navi}}
+
+---
+[documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot tutorial/de

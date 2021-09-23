@@ -1,5 +1,5 @@
 # The FreeCAD source code/it
- Il [codice sorgente di FreeCAD](https://github.com/FreeCAD/FreeCAD) è gestito con git, ed è pubblico, aperto e disponibile sotto la [licenza LGPL](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License). Esso può essere copiato, scaricato, letto, analizzato, ridistribuito e modificato da chiunque. Se avete intenzione di apportare delle modifiche che desiderate vedere incluse nel codice ufficiale, ricordate che le modifiche devono essere approvate dagli sviluppatori di FreeCAD, quindi è saggio discutere prima le proprie intenzioni e idee nel [forum](http://forum.freecadweb.org), per non rischiare che le modifiche vengano poi respinte a causa di qualche motivo imprevisto.
+Il [codice sorgente di FreeCAD](https://github.com/FreeCAD/FreeCAD) è gestito con git, ed è pubblico, aperto e disponibile sotto la [licenza LGPL](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License). Esso può essere copiato, scaricato, letto, analizzato, ridistribuito e modificato da chiunque. Se avete intenzione di apportare delle modifiche che desiderate vedere incluse nel codice ufficiale, ricordate che le modifiche devono essere approvate dagli sviluppatori di FreeCAD, quindi è saggio discutere prima le proprie intenzioni e idee nel [forum](http://forum.freecadweb.org), per non rischiare che le modifiche vengano poi respinte a causa di qualche motivo imprevisto.
 
 Se siete interessati a esplorare il codice FreeCAD, qui di seguito ci sono alcuni suggerimenti e informazioni utili per fornire una traccia .
 
@@ -68,3 +68,6 @@ Se siete interessati a esplorare il codice FreeCAD, qui di seguito ci sono alcun
 </div>
 
 [Category:Developer Documentation](Category:Developer_Documentation.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > The FreeCAD source code/it

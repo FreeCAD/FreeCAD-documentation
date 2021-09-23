@@ -8,6 +8,8 @@
    SeeAlso:[Sketcher Esquisse miroir](Sketcher_MirrorSketch/fr.md)
 ---
 
+# Sketcher Symmetry/fr
+
 ## Description
 
 Symétrise la géométrie de l\'esquisse par rapport à une ligne ou à un axe d\'esquisse choisi.
@@ -26,4 +28,7 @@ Remarquez qu\'aucune contrainte de symétrie supplémentaire ne sera ajoutée.
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Symmetry/fr

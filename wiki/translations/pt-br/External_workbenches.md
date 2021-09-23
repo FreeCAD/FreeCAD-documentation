@@ -1,10 +1,4 @@
 # External workbenches/pt-br
-
-
-
-
-
-
 {{TOCright}}
 
 ## Introdução
@@ -142,3 +136,6 @@ See the wiki page for more information [Translating an external workbench](Trans
 
 
 [Category:Addons](Category:Addons.md) [\*](Category:External_Workbenches.md)
+
+---
+[documentation index](../README.md) > [Addons](Category:Addons.md) > External workbenches/pt-br

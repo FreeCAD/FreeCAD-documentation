@@ -1,5 +1,5 @@
 # Macro FCInfo Alternate Linux/en
- {{Macro
+{{Macro
 |Name=Macro FCInfo Alternate Linux
 |Icon=FCInfo.png
 |Description=Gives a series of information on the form. (only for PyQt4)
@@ -45,6 +45,5 @@ Files saved with this macro are incompatible with the files of the other version
 
 Both versions can operate independently of the OS used.
 
-
-
-
+---
+[documentation index](../README.md) > Macro FCInfo Alternate Linux/en

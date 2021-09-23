@@ -1,6 +1,4 @@
 # Artwork PartDesign/de
- 
-
 Diese Symbole befinden sich im angegebenen Quellpfad.
 
 Für alle Symbole im Quellbaum, siehe [Grafik](Artwork/de.md).
@@ -25,3 +23,6 @@ Für alle Symbole im Quellbaum, siehe [Grafik](Artwork/de.md).
 }} 
 
 [Category:PartDesign](Category:PartDesign.md)
+
+---
+[documentation index](../README.md) > [PartDesign](Category:PartDesign.md) > Artwork PartDesign/de

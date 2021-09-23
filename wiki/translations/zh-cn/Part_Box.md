@@ -6,6 +6,8 @@
    SeeAlso:[Part Primitives](Part_Primitives.md)
 ---
 
+# Part Box/zh-cn
+
 ## 概述
 
 利用[零件工作台（Part Workbench）中的立方体命令可向处于活动状态的文档中插入一个参数化](Part_Workbench.md) [长方体](http://en.wikipedia.org/wiki/Cuboid#Rectangular_cuboid)几何图元。默认情况下，此立方体命令会在原点处插入一个10x10x10 mm且附有\"cube\"标签的立方体。在添加立方体对象后还可以修改这些参数。
@@ -83,8 +85,5 @@ FreeCAD.ActiveDocument.myBox.Height = 30
 FreeCAD.ActiveDocument.myBox.Placement = FreeCAD.Placement(FreeCAD.Vector(4, 6, 3), FreeCAD.Rotation(30, 45, 10))
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Box/zh-cn

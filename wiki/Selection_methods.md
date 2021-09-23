@@ -1,11 +1,4 @@
 # Selection methods
- 
-
-
-
-
- 
-
 ## Overview
 
 [Selection methods](Selection_methods.md) in FreeCAD allow picking objects in the [FreeCAD Interface](Interface.md): such as [3D view](3D_view.md), [tree view](Tree_view.md), [selection view](Selection_view.md), and other dialogs. Some selection methods are workbench specific and are documented in the particular workbench documentation.
@@ -85,7 +78,5 @@ Gui.Selection.addSelectionGate("SELECT Part::Feature SUBELEMENT Edge")
 
 See the [Source documentation](Source_documentation.md) and [Std PythonHelp](Std_PythonHelp.md) for more help on using these tools.
 
-
-
-
- 
+---
+[documentation index](../README.md) > Selection methods

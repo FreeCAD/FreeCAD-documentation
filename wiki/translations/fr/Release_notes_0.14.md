@@ -1,6 +1,4 @@
 # Release notes 0.14/fr
-
-
 FreeCAD 0.14 a été publié le 1er juillet 2014. Ceci est un résumé des changements les plus intéressants survenus dans FreeCAD depuis la dernière version. Voir [sur Mantis (en anglais)](http://www.freecadweb.org/tracker/changelog_page.php) pour la liste complète des changements. Versions plus anciennes : [0.13](Release_notes_0.13/fr.md) - [0.12](Release_notes_0.12/fr.md) - [0.11](Release_notes_0.11/fr.md)
 
 <img alt="" src=images/Freecad_jeep.png  style="width:1024px;">
@@ -232,3 +230,6 @@ Beaucoup de travail a été accompli à la fois sur FreeCAD et [IfcOpenShell](ht
 La liste complète des corrections de bogues et des nouvelles fonctionnalités peut être consultée sur <http://freecadweb.org/tracker/changelog_page.php>
 
 [Category:News](Category:News.md) [Category:Documentation](Category:Documentation.md) [Category:Releases](Category:Releases.md)
+
+---
+[documentation index](../README.md) > [News](Category:News.md) > Release notes 0.14/fr

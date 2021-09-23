@@ -1,10 +1,4 @@
 # Sandbox:TechDraw template creation tutorial/en
-
-
-
-
-
-
 {{TutorialInfo
 |Topic=Drafting
 |Level=Beginner
@@ -157,3 +151,6 @@ If you do not see the green boxes for your editable texts, there might be someth
 }} {{TechDraw Tools navi}} 
 
 [Category:Sandbox](Category:Sandbox.md)
+
+---
+[documentation index](../README.md) > Sandbox:TechDraw template creation tutorial/en

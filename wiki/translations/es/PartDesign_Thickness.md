@@ -8,6 +8,8 @@
    SeeAlso:[Part Thickness](Part_Thickness/es.md)
 ---
 
+# PartDesign Thickness/es
+
 ## Descripción
 
 La herramienta **Espesor** trabaja sobre un cuerpo sólido y lo transforma en un objeto hueco con una pared de un grosor determinado, con al menos una cara abierta, dando a cada una de sus caras restantes un espesor uniforme. Con algunos sólidos permite un ahorro significativo de trabajo, evitando hacer extrusiones y vaciados innecesarios.
@@ -84,4 +86,7 @@ Resultado: ![](images/Brga-spessore.png )
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Thickness/es

@@ -6,6 +6,8 @@
    Workbenches:[Assembly3](Assembly3_Workbench/de.md)
 ---
 
+# Assembly3 ConstraintPointPlaneDistance/de
+
 ## Beschreibung
 
 Dieses Werkzeug stellt eine Verbindung zwischen zwei Objekten eines Zusammenbaus her und fixiert den Abstand zwischen ihnen sowie ihre Ausrichtung zueinander. Die Gewählten Elemente beider Objekte oder präziser ihre lokalen Koordinatensysteme (LKS) werden genutzt, um ein Objekt zum anderen zu positionieren.
@@ -16,8 +18,5 @@ Dieses Werkzeug stellt eine Verbindung zwischen zwei Objekten eines Zusammenbaus
 2.  Ein Punktelement des einen und ein ebenes Flächenelement des anderen Objekts auswählen.
 3.  Schaltfläche**<img src="images/Assembly_ConstraintPointPlaneDistance.svg" width=16px> [Punkt zu Ebene Abstand](Assembly3_ConstraintPointPlaneDistance/de.md)** drücken.
 
-
-
-
-
-
+---
+[documentation index](../README.md) > Assembly3 ConstraintPointPlaneDistance/de

@@ -9,6 +9,8 @@
    SeeAlso:[Arch Connecteur](Arch_PipeConnector/fr.md), [Arch Equipement](Arch_Equipment/fr.md)
 ---
 
+# Arch Pipe/fr
+
 ## Description
 
 Cet outil vous permet de créer un tube à partir de zéro ou à partir d\'objets basés sur (Draft, Sketch, etc..) sélectionnés et contenant un fil et un seul fil ouvert.
@@ -109,8 +111,5 @@ Pipe2 = Arch.makePipe(diameter=120, length=3000)
 FreeCAD.ActiveDocument.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Pipe/fr

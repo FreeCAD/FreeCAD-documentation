@@ -1,5 +1,5 @@
 # Macro HighlightDifference/de
- {{Macro/de
+{{Macro/de
 |Name=HighlightDifference
 |Name/de=UnterschiedHervorheben
 |Description=Berechne den Unterschied zwischen zwei Formen. Hinzufügungen sind rot markiert, Entnahmen sind grün markiert. Beide Originalteile werden halb transparent sein. Das Volumen der Hinzufügungen und Entnahmen wird in der Konsole ausgedruckt.
@@ -39,3 +39,6 @@ Image:Macro HighlightDifference 00.png\|Originalobjekte Image:Macro HighlightDif
 
 -   Siehe für das ergänzende Makro [Macro\_GemeinsamHervorheben](Macro_HighlightCommon/de.md)
 -   Die Diskussion im Forum [\"Kollisionserkennung\", überlappend](http://forum.freecadweb.org/viewtopic.php?f=22&t=12426)
+
+---
+[documentation index](../README.md) > Macro HighlightDifference/de

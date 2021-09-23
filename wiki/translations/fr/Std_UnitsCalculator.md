@@ -6,6 +6,8 @@
    Workbenches:Tous
 ---
 
+# Std UnitsCalculator/fr
+
 ## Description
 
 La commande **Std Convertisseur d\'unités** ouvre la boîte de dialogue calculatrice d\'unités. Le calculateur d\'unités peut être utilisé pour convertir des valeurs d\'un système d\'unités à un autre.
@@ -58,4 +60,7 @@ La commande **Std Convertisseur d\'unités** ouvre la boîte de dialogue calcula
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std UnitsCalculator/fr

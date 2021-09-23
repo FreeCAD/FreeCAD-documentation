@@ -1,3 +1,4 @@
+# Drawing Open SVG/de
 ---
 - GuiCommand:/de
    Name:Drawing Open SVG
@@ -18,4 +19,7 @@ Dieses Werkzeug öffnet ein Zeichenblatt, das als SVG- (scalable vector graphics
 
 {{Drawing Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Open SVG/de

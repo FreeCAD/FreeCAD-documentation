@@ -1,5 +1,5 @@
 # Macro PartsLibrary
-  {{Macro
+{{Macro
 |Name=Parts Library
 |Icon=FreeCAD Doc.png
 |Description=Starts the Parts Library browser FreeCAD.<br/>The FreeCAD Parts Library is a community effort to provide a free library of reusable Parts to be inserted into your projects.<br/>You are welcome to participate and submit parts to the library, but keep in mind you must have rights to share them. See the readme file for more details. 
@@ -29,3 +29,6 @@ This macro, which is also included in the library, will show a browser panel ins
 ToolBar Icon ![](images/FreeCAD_Doc.png )
 
 [PartsLibrary.FCMacro](http://github.com/yorikvanhavre/FreeCAD-library/blob/master/PartsLibrary.FCMacro)
+
+---
+[documentation index](../README.md) > Macro PartsLibrary

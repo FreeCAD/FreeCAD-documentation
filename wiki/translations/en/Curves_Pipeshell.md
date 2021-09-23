@@ -5,6 +5,8 @@
    Workbenches:[Curves](Curves_Workbench.md)
 ---
 
+# Curves Pipeshell/en
+
 ## Description
 
 The <img alt="" src=images/Curves_Pipeshell.svg  style="width:24px;"> [Curves Pipeshell](Curves_Pipeshell.md) creates a Pipeshell sweep object. This tool is part of the [external workbench](External_workbenches.md) called [Curves](Curves_Workbench.md).
@@ -91,4 +93,7 @@ The <img alt="" src=images/Curves_Pipeshell.svg  style="width:24px;"> [Curves Pi
 
 {{Curves Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > Curves Pipeshell/en

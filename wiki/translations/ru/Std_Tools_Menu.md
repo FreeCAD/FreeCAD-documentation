@@ -1,10 +1,4 @@
-# Std Tools Menu/ru
-
-
-
-
-
-<img alt="Иконка стандартных инструментов" src=images/Freecad.svg  style="width:128px;">
+# <img alt="Иконка стандартных инструментов" src=images/Freecad.svg  style="width:64px;"> Std Tools Menu/ru
 
 
 {{TOCright}}
@@ -80,3 +74,6 @@ The Tools menu provides tools for debugging models, customizing FreeCAD\'s behav
 }}  
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > [Workbenches](Category:Workbenches.md) > Std Tools Menu/ru

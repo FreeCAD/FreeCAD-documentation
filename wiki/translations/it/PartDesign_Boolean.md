@@ -7,6 +7,8 @@
    Version:0.17
 ---
 
+# PartDesign Boolean/it
+
 
 </div>
 
@@ -89,4 +91,7 @@ In alternativa, è possibile selezionare uno o più Corpi prima di premere il pu
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Boolean/it

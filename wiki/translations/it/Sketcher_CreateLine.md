@@ -8,6 +8,8 @@
    SeeAlso:[Polilinea](Sketcher_CreatePolyline/it.md)
 ---
 
+# Sketcher CreateLine/it
+
 
 </div>
 
@@ -44,4 +46,7 @@ L\'oggetto linea creato inizia e finisce nei punti specificati, ma rispetto ai v
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateLine/it

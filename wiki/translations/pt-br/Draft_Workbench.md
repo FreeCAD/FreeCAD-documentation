@@ -1,10 +1,4 @@
-# Draft Workbench/pt-br
-
-
-
-
-
-<img alt="Ícone da bancada de trabalho de draft" src=images/Workbench_Draft.svg  style="width:128px;">
+# <img alt="Ícone da bancada de trabalho de draft" src=images/Workbench_Draft.svg  style="width:64px;"> Draft Workbench/pt-br
 
 
 {{TOCright}}
@@ -456,3 +450,6 @@ A inspeção do código deste módulo é útil para entender como utilizar a int
  
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Draft Workbench/pt-br

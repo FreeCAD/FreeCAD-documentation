@@ -7,6 +7,8 @@
    SeeAlso:[Примитивы](Part_Primitives/ru.md)
 ---
 
+# Part Wedge/ru
+
 
 </div>
 
@@ -71,8 +73,5 @@
 
 ![](images/Wedge_examples.png )
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Wedge/ru

@@ -7,6 +7,8 @@
    Shortcut:**F5**
 ---
 
+# Std Refresh/ko
+
 ## 설명
 
 **표준 새로 고침(Std Refresh)** 명령은 활성 문서를 다시 계산합니다. 문서를 다시 계산할 필요가 없으면 이 명령은 비활성화됩니다.
@@ -62,4 +64,7 @@ doc.recompute()
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std Refresh/ko

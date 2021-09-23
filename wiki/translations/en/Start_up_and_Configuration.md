@@ -1,10 +1,4 @@
 # Start up and Configuration/en
-
-
-
-
-
-
 {{TOCright}}
 
 ## Overview
@@ -417,3 +411,6 @@ Now double-click the batch file to start FreeCAD. ([see](https://forum.freecadwe
  
 
 [Category:Developer Documentation](Category:Developer_Documentation.md)
+
+---
+[documentation index](../README.md) > [Start](Start_Workbench.md) > Start up and Configuration/en

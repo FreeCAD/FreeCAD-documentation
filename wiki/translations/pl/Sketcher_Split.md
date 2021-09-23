@@ -7,6 +7,8 @@
    SeeAlso:[Sketcher Trimming](Sketcher_Trimming.md)
 ---
 
+# Sketcher Split/pl
+
 ## Description
 
 This tool allows to divide an edge into two identical ones, while most of the constraints are duplicated, so both parts remain constrained apart from split point position. For a special case of a circle, this is converted to an loose ends arc with existing circle constraints being transferred to the new arc.
@@ -44,4 +46,7 @@ This tool allows to divide an edge into two identical ones, while most of the co
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Split/pl

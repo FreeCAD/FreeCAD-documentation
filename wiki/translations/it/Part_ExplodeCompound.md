@@ -7,6 +7,8 @@
    SeeAlso:[Crea composto](Part_Compound/it.md), [Draft Declassa](Draft_Downgrade/it.md)
 ---
 
+# Part ExplodeCompound/it
+
 
 </div>
 
@@ -54,5 +56,5 @@ Lo strumento esplode anche forme non composte nei loro costituenti di livello in
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part ExplodeCompound/it

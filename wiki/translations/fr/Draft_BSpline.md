@@ -9,6 +9,8 @@
    SeeAlso:[Draft Polyligne](Draft_Wire/fr.md), [Draft Courbe de Bézier cubique](Draft_CubicBezCurve/fr.md), [Draft Courbe de Bézier](Draft_BezCurve/fr.md)
 ---
 
+# Draft BSpline/fr
+
 ## Description
 
 La commande <img alt="" src=images/Draft_BSpline.svg  style="width:24px;"> **Draft B-spline** crée une [courbe B-spline](http://fr.wikipedia.org/wiki/B-spline) à partir de plusieurs points.
@@ -135,8 +137,5 @@ spline3 = Draft.make_bspline([1.3*p3, p1, -1.7*p2], closed=False)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft BSpline/fr

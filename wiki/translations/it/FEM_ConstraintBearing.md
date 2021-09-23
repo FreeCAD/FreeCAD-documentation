@@ -8,6 +8,8 @@
    SeeAlso:[Tutorial di FEM](FEM_tutorial/it.md)
 ---
 
+# FEM ConstraintBearing/it
+
 
 </div>
 
@@ -35,4 +37,7 @@ Non supportato da CalculiX Interface!
 
 {{FEM Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > FEM ConstraintBearing/it

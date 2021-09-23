@@ -7,6 +7,8 @@
    Version:0.15
 ---
 
+# Sketcher SelectElementsAssociatedWithConstraints/en
+
 ## Description
 
 Select sketcher Elements associated with constraints.
@@ -23,4 +25,7 @@ Select sketcher Elements associated with constraints.
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectElementsAssociatedWithConstraints/en

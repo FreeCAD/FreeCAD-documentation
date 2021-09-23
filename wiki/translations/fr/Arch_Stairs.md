@@ -9,6 +9,8 @@
    SeeAlso:[Arch Structure](Arch_Structure/fr.md), [Arch Equipement](Arch_Equipment/fr.md)
 ---
 
+# Arch Stairs/fr
+
 ## Description
 
 L\'outil [escaliers](Arch_Stairs/fr.md) vous permet de construire automatiquement plusieurs types d\'escaliers. À l\'heure actuelle, seuls les escaliers droits (avec ou sans palier central) sont pris en charge. Les escaliers peuvent être construits à partir de zéro, ou d\'une ligne droite [Draft Ligne](Draft_Line/fr.md), auquel cas les escaliers suivent la ligne. Si la ligne n\'est pas horizontale mais a une inclinaison verticale, les escaliers suivront également sa pente.
@@ -98,8 +100,5 @@ import Arch
 Stairs = Arch.makeStairs(length=5000, width=1200, height=3000, steps=14)
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Stairs/fr

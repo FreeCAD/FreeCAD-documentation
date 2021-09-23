@@ -9,6 +9,8 @@
    SeeAlso:[Tel](Draft_Wire/tr.md),[Bezier eğrisi](Draft_BezCurve/tr.md)
 ---
 
+# Draft BSpline/tr
+
 
 </div>
 
@@ -242,5 +244,5 @@ doc.recompute()
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft BSpline/tr

@@ -7,6 +7,8 @@
    Shortcut:**P** **I**
 ---
 
+# Path Inspect/fr
+
 ## Description
 
 Cet outil permet l\'inspection du G-code interne FreeCAD d\'une opération Path.
@@ -32,4 +34,7 @@ Cet outil permet l\'inspection du G-code interne FreeCAD d\'une opération Path.
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Inspect/fr

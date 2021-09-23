@@ -7,6 +7,8 @@
    SeeAlso:[Std Import](Std_Import.md), [Std New](Std_New.md)
 ---
 
+# Std Open
+
 ## Description
 
 The **Std Open** command opens a file. If the file is not a native FreeCAD file (\*.FCStd) its geometry will be imported into a new document. See [Std Import](Std_Import.md) for more information.
@@ -45,4 +47,7 @@ For a scripting example see [Std New](Std_New#Scripting.md).
 
 
 
- {{Std Base navi}}  
+ {{Std Base navi}}
+
+---
+[documentation index](../README.md) > Std Open

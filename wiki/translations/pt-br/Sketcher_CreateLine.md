@@ -1,3 +1,4 @@
+# Sketcher CreateLine/pt-br
 ---
 - GuiCommand:/pt-br   Name:Sketcher CreateLine   Name/pt-br:Sketcher Line   Workbenches:[MenuLocation:Sketch → Sketcher geometries → Create line   Shortcut:L   SeeAlso:[[Sketcher CreatePolyline/pt-br|Sketcher Polyline](Sketcher_Workbench/pt-br___Sketcher]].md)---
 
@@ -23,4 +24,7 @@ The created line object starts and ends at the given points, but the line is inf
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateLine/pt-br

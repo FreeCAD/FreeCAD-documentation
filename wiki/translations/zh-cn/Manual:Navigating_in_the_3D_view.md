@@ -1,7 +1,4 @@
 # Manual:Navigating in the 3D view/zh-cn
- 
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -138,3 +135,5 @@ FreeCAD 的 3D 空间是[欧几里德空间](https://en.wikipedia.org/wiki/Eucli
 
 </div>
 
+---
+[documentation index](../README.md) > Manual:Navigating in the 3D view/zh-cn

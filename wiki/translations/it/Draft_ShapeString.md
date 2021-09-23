@@ -1,3 +1,4 @@
+# Draft ShapeString/it
 ---
 - GuiCommand:/it
    Name:Draft_ShapeString
@@ -210,5 +211,5 @@ doc.recompute()
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ShapeString/it

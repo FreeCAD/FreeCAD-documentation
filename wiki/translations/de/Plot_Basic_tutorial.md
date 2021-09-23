@@ -1,7 +1,4 @@
 # Plot Basic tutorial/de
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -161,3 +158,6 @@ Set the output image size in inches, for example use 11.7x8.3 to get a **DIN A4*
 }} {{Plot_Tools_navi}} 
 
 [Category:External\_Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)
+
+---
+[documentation index](../README.md) > [External_Workbenches](Category:External_Workbenches.md) > Plot Basic tutorial/de

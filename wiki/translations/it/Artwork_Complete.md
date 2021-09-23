@@ -1,6 +1,4 @@
 # Artwork Complete/it
- 
-
 These icons are in the indicated source path.
 
 For all icons in the source tree, see [Artwork](Artwork.md).
@@ -14,3 +12,5 @@ For all icons in the source tree, see [Artwork](Artwork.md).
 
 {{Artwork/it}}
 
+---
+[documentation index](../README.md) > Artwork Complete/it

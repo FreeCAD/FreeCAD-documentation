@@ -7,6 +7,8 @@
    Workbenches:[Croquizador](Sketcher_Workbench/es.md)
 ---
 
+# Sketcher CompCreateCircle/es
+
 ## Descripción
 
 **Crear un círculo** es un botón de icono en la barra de herramientas de geometrías de Croquizador que agrupa herramientas para crear un círculo. Haz clic en la flecha hacia abajo situada a su derecha para desplegar los iconos que hay debajo y seleccionar una herramienta.
@@ -22,4 +24,7 @@
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CompCreateCircle/es

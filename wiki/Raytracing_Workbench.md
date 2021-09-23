@@ -1,7 +1,4 @@
 # Raytracing Workbench
-  
-
-
 **The Raytracing workbench is essentially obsolete. New development is happening in the [https://github.com/FreeCAD/FreeCAD-render Render Workbench], which is intended as its replacement. This workbench is fully programmed in Python so it is much easier to extend.
 
 
@@ -146,3 +143,6 @@ These pages refer to a replacement workbench, programmed in C++, proposed around
  {{Raytracing Tools navi}} 
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Raytracing Workbench

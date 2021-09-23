@@ -7,6 +7,8 @@
    SeeAlso:[Part Slice](Part_Slice.md), [Part XOR](Part_XOR.md), [Part Join features](Part_CompJoinFeatures.md), [Part Boolean](Part_Boolean.md)
 ---
 
+# Part BooleanFragments
+
 ## Description
 
 Tool to compute all fragments that can result from applying Boolean operations between input shapes. For example, for two intersecting spheres, three non-overlapping but touching solids are generated.
@@ -84,7 +86,5 @@ The tool itself is implemented in Python, see /Mod/Part/BOPTools/SplitFeatures.p
 
 The tool was introduced in FreeCAD v0.17.8053. FreeCAD needs to be compiled with OCC 6.9.0 or later; otherwise, the tool is unavailable.
 
-
-
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part BooleanFragments

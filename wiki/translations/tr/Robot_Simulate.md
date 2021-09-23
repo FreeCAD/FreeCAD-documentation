@@ -1,3 +1,4 @@
+# Robot Simulate/tr
 ---
 - GuiCommand:/tr
    Name:Robot Simulate
@@ -56,4 +57,7 @@ Soldan sağa düğmeler.
 
 {{Robot_Tools_navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot Simulate/tr

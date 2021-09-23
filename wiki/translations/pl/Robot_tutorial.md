@@ -1,5 +1,5 @@
 # Robot tutorial/pl
- {{TutorialInfo/pl
+{{TutorialInfo/pl
 |Topic= Środowisko pracy Robot
 |Level= początkujący
 |Time= dowolny
@@ -52,4 +52,7 @@ Niniejszy poradnik jest skierowany do wykorzystania [Robotów przemysłowych](ht
 
 {{Tutorials navi
 
-}} {{Robot Tools navi}} 
+}} {{Robot Tools navi}}
+
+---
+[documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot tutorial/pl

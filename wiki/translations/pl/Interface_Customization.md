@@ -1,10 +1,4 @@
 # Interface Customization/pl
-
-
-
-
-
-
 {{TOCright}}
 
 ## Wprowadzenie
@@ -285,4 +279,7 @@ Dodatki oferują jeszcze jeden sposób na dostosowanie interfejsu użytkownika. 
 
 {{Std Base navi
 
-}} {{Interface navi}} 
+}} {{Interface navi}}
+
+---
+[documentation index](../README.md) > Interface Customization/pl

@@ -1,3 +1,4 @@
+# PartDesign Thickness/it
 ---
 - GuiCommand:/it   Name:PartDesign Thickness   Name/it:Spessore   Workbenches:[MenuLocation:Part Design → Spessore   Version:0.17   SeeAlso:[[Part_Thickness/it|Spessore di Parte](PartDesign_Workbench/it___PartDesign]].md)---
 
@@ -98,4 +99,7 @@ Risultato: ![](images/Brga-spessore.png )
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Thickness/it

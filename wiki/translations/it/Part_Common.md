@@ -1,3 +1,4 @@
+# Part Common/it
 ---
 - GuiCommand:/it   Name:Part_Common   Name/it:Intersezione   MenuLocation:Part → Intersezione   Workbenches:[SeeAlso:[[Part Union/it|Unione](Part_Workbench/it___Parte]].md), [Sottrazione](Part_Cut/it.md)---
 
@@ -38,5 +39,5 @@ Gli oggetti in ingresso devono essere delle forme [OpenCascade](OpenCascade/it.m
 
 </div>
 
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Common/it

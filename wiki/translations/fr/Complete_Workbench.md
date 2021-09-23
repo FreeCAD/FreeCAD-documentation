@@ -1,7 +1,4 @@
 # Complete Workbench/fr
-
-
-
 **L'[atelier Complete](Complete_Workbench/fr.md) est déprécié.**
 
 <img alt="" src=images/Workbench_Complete.svg  style="width:64px;">
@@ -14,3 +11,6 @@ Voir [Personnalisation de l\'interface](Interface_Customization/fr.md) si vous s
 
 
 [Category:Complete](Category:Complete.md) [Category:Obsolete Workbenches](Category:Obsolete_Workbenches.md)
+
+---
+[documentation index](../README.md) > Complete Workbench/fr

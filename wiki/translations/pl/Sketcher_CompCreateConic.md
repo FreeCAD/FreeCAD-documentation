@@ -6,6 +6,8 @@
    Workbenches:[Sketcher](Sketcher_Workbench.md)
 ---
 
+# Sketcher CompCreateConic/pl
+
 ## Description
 
 **Create a conic** is an icon button <img alt="" src=images/Sketcher_CompCreateConic.png  style="width:64px;"> in the Sketcher geometries toolbar that groups tools to create curves based on a section of a cone. Click on the down arrow to its right to expand the icons below it and select a tool.
@@ -24,4 +26,7 @@
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CompCreateConic/pl

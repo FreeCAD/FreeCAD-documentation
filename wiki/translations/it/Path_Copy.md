@@ -1,3 +1,4 @@
+# Path Copy/it
 ---
 - GuiCommand:/it   Name:Path Copy   Name/it:Copia   Workbenches:[[Path Workbench/it   Path]]|MenuLocation:Path → Modifica percorso → Copia   Shortcut:P,Y   SeeAlso:---
 
@@ -40,4 +41,7 @@ La copia rimane collegata al percorso originale. Le modifiche apportate all\'ori
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Copy/it

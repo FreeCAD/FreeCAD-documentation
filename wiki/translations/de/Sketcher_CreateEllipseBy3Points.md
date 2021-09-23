@@ -8,6 +8,8 @@
    SeeAlso:[Skizzierer Ellipse durch Zentrum](Sketcher_CreateEllipseByCenter/de.md), [Skizzierer Kreis](Sketcher_CreateCircle/de.md), [Sketcher Ellipsenbogen](Sketcher_CreateArcOfEllipse/de.md)
 ---
 
+# Sketcher CreateEllipseBy3Points/de
+
 ## Beschreibung
 
 Dieses Werkzeug zeichnet eine Ellipse, indem drei Punkte ausgewählt werden: (1) die Periapsis (erste Kreuzung des längeren Durchmessers mit der Ellipse), (2) die Apoapsis (zweite Kreuzung des längeren Durchmessers mit der Ellipse), (3) ein Punkt auf einer Seite des längeren Durchmessers (a), der den kleineren Radius (b) definiert. (c) ist das resultierende Zentrum und (f) sind die Brennpunkte.
@@ -39,4 +41,7 @@ Wenn das Werkzeug gestartet wird, ändert sich der Mauszeiger in ein weißes Kre
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateEllipseBy3Points/de

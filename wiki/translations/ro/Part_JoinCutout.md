@@ -7,6 +7,8 @@
    SeeAlso:[Part JoinConnect](Part_JoinConnect.md), [Part JoinEmbed](Part_JoinEmbed.md), [Part Boolean](Part_Boolean.md), [Part Thickness](Part_Thickness.md)
 ---
 
+# Part JoinCutout/ro
+
 
 </div>
 
@@ -157,8 +159,5 @@ Instrumentul propriu-zis este implementat în Python, vezi /Mod/Part/JoinFeature
 
 </div>
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part JoinCutout/ro

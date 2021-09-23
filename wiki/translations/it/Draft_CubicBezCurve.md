@@ -8,6 +8,8 @@
    SeeAlso:[Polilinea](Draft_Wire/it.md), [B-spline](Draft_BSpline/it.md), [Curva di Bézier](Draft_BezCurve/it.md)
 ---
 
+# Draft CubicBezCurve/it
+
 
 </div>
 
@@ -214,5 +216,5 @@ doc.recompute()
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft CubicBezCurve/it

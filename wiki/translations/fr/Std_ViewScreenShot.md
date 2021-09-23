@@ -7,6 +7,8 @@
    SeeAlso:   SeeAlso:[Std Imprimer](Std_Print/fr.md), [Std Exporter au format PDF](Std_PrintPdf/fr.md)
 ---
 
+# Std ViewScreenShot/fr
+
 ## Description
 
 La commande **Std Capture d\'écran** ouvre une boîte de dialogue pour créer un fichier image, une capture d\'écran, à partir de la [vue 3D](3D_view/fr.md) active.
@@ -124,4 +126,7 @@ App.closeDocument(App.ActiveDocument.Name)
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ViewScreenShot/fr

@@ -1,5 +1,5 @@
 # Python console/pl
- **''(styczeń 2020)'' FreeCAD został pierwotnie zaprojektowany do współpracy z Pythonem 2. Ponieważ Python 2 osiągnął koniec życia w 2020 roku, dalszy rozwój FreeCAD będzie się odbywał wyłącznie z Pythonem 3, a kompatybilność wsteczna nie będzie utrzymywana.**
+**''(styczeń 2020)'' FreeCAD został pierwotnie zaprojektowany do współpracy z Pythonem 2. Ponieważ Python 2 osiągnął koniec życia w 2020 roku, dalszy rozwój FreeCAD będzie się odbywał wyłącznie z Pythonem 3, a kompatybilność wsteczna nie będzie utrzymywana.**
 
 ## Wprowadzenie
 
@@ -86,4 +86,7 @@ Kliknij prawym przyciskiem myszy na konsoli Pythona, aby wyświetlić kilka pole
 
 {{Interface navi
 
-}} {{Std Base navi}} 
+}} {{Std Base navi}}
+
+---
+[documentation index](../README.md) > Python console/pl

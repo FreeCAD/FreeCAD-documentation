@@ -1,7 +1,4 @@
 # Manual:Creating interface tools/de
- 
-
-
 {{Manual:TOC/de}}
 
 In den letzten beiden Kapiteln haben wir gesehen, wie man [Teilgeometrie erstellt](Manual:Creating_and_manipulating_geometry/de.md) und [parametrische Objekte erstellt](Manual:Creating_parametric_objects/de.md). Ein letztes Teil fehlt noch, um die volle Kontrolle über FreeCAD zu erhalten: Erstellen von Werkzeugen, die mit dem Benutzer interagieren.
@@ -132,3 +129,6 @@ Schliesslich vergiss nicht, dass es im FreeCAD Wiki im Abschnitt [Python Skripte
 }} 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Manual:Creating interface tools/de

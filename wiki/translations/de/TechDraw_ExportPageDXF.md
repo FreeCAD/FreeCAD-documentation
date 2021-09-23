@@ -8,6 +8,8 @@
    SeeAlso:[TechDraw Exportiere Seite als SVG](TechDraw_ExportPageSVG/de.md), [Entwurf DXF](Draft_DXF/de.md)
 ---
 
+# TechDraw ExportPageDXF/de
+
 ## Beschreibung
 
 Das ExportSeiteDXF Werkzeug speichert eine Zeichnungsseite als [DXF](DXF/de.md) Datei.
@@ -68,4 +70,7 @@ TechDraw.writeDXFPage(page,filename)
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExportPageDXF/de

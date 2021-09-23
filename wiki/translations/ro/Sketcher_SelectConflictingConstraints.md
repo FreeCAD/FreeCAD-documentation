@@ -1,3 +1,4 @@
+# Sketcher SelectConflictingConstraints/ro
 ---
 - GuiCommand:   Name:Sketcher SelectConflictingConstraints   Workbenches:[[Sketcher Workbench   Sketcher]]|MenuLocation:Sketch → Sketcher tools → Select Conflicting Constraints   Shortcut:Shift+Ctrl+E   Version:0.15---
 
@@ -32,4 +33,7 @@ Selectează constrângerile conflictuale dintr-o schiță.
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectConflictingConstraints/ro

@@ -1,5 +1,5 @@
 # Feature editing/fr
- {{TOCright}}
+{{TOCright}}
 
 ## Introduction
 
@@ -169,3 +169,6 @@ La page des [tutoriels](Tutorials/fr.md) fournit des exemples d\'utilisation de 
 }} 
 
 [Category:Common Questions](Category:Common_Questions.md)
+
+---
+[documentation index](../README.md) > [Common Questions](Category:Common Questions.md) > Feature editing/fr

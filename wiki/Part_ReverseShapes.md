@@ -5,6 +5,8 @@
    Workbenches:[Part](Part_Workbench.md)
 ---
 
+# Part ReverseShapes
+
 ## Description
 
 Flips the normals of all faces of the selected object.
@@ -30,7 +32,5 @@ You can verify this by
 
 ## Scripting
 
-
-
-
-   
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part ReverseShapes

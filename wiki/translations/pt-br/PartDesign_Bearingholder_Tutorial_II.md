@@ -1,8 +1,4 @@
 # PartDesign Bearingholder Tutorial II/pt-br
-
-
-
-
 {{TutorialInfo
 |Topic=Modeling
 |Level=Experienced User
@@ -89,3 +85,6 @@ For the rest of the machining, create a new Body. The bottom of the holder will 
 
 
 [Category:Tutorials](Category:Tutorials.md)
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Bearingholder Tutorial II/pt-br

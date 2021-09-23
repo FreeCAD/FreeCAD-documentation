@@ -8,6 +8,8 @@
    SeeAlso:
 ---
 
+# Arch ToggleIfcBrepFlag/ro
+
 
 </div>
 
@@ -41,11 +43,5 @@ Acest instrument activează / dezactivează opțiunea IfcBrep a unui obiect [Mod
 
 </div>
 
-
-
-
-
-
-
-
-
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch ToggleIfcBrepFlag/ro

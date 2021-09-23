@@ -6,6 +6,8 @@
    SeeAlso:[TechDraw SVG Symbol](TechDraw_Symbol.md)
 ---
 
+# TechDraw Image/en
+
 ## Description
 
 The Image tool inserts a [bitmap](bitmap.md) image (PNG, TIFF, JPEG, etc.) from a file into the page as a view.
@@ -46,4 +48,7 @@ dvi.Width  = 200
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Image/en

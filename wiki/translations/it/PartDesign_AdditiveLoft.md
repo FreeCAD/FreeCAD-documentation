@@ -8,6 +8,8 @@
    SeeAlso:[Sweep additivo](PartDesign_AdditivePipe/it.md)
 ---
 
+# PartDesign AdditiveLoft/it
+
 
 </div>
 
@@ -135,4 +137,7 @@
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveLoft/it

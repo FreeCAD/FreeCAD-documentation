@@ -1,8 +1,4 @@
 # SheetMetal Workbench/it
-
- 
-
-
 <div class="mw-translate-fuzzy">
 
 Icona dell\'ambiente esterno SheetMetal
@@ -411,3 +407,6 @@ Come fare ?
 -   Codice sorgente su github: <https://github.com/shaise/FreeCAD_SheetMetal>
 
 [Category:SheetMetal](Category:SheetMetal.md) [Category:Addons](Category:Addons.md) [Category:External Command Reference](Category:External_Command_Reference.md)
+
+---
+[documentation index](../README.md) > SheetMetal Workbench/it

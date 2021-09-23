@@ -7,6 +7,8 @@
    SeeAlso:[Bild Öffnen](Image_Open/de.md), [Bild Skalierung](Image_Scaling/de.md)
 ---
 
+# Image CreateImagePlane/de
+
 ## Beschreibung
 
 Das [ErstelleBildEbene](Image_CreateImagePlane/de.md) Werkzeug importiert ein [Bitmap](bitmap/de.md) Bild und platziert es auf einer der XY, YZ oder XZ Ebenen.
@@ -49,4 +51,7 @@ Wenn dem Bild anfänglich kein Versatz gegeben wird, kann seine Position immer n
 
 {{Image Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Image](Image_Workbench.md) > Image CreateImagePlane/de

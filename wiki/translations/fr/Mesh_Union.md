@@ -7,6 +7,8 @@
    SeeAlso:[Mesh Intersection](Mesh_Intersection/fr.md), [Mesh Différence](Mesh_Difference/fr.md)
 ---
 
+# Mesh Union/fr
+
 ## Description
 
 La commande **Mesh Union** crée un nouvel objet maillé non paramétrique, un [Mesh Feature](Mesh_Feature/fr.md), qui est l\'Union (fusion) de deux objets maillés.
@@ -33,4 +35,7 @@ Voir: [Mesh Feature](Mesh_Feature/fr.md).
 
 {{Mesh Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Union/fr

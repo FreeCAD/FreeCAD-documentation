@@ -6,6 +6,8 @@
    Workbenches:[DisegnoPezzo](PartDesign_Workbench/it.md)
 ---
 
+# PartDesign InvoluteGear/it
+
 
 </div>
 
@@ -51,4 +53,7 @@ Per informazioni più dettagliate consultare le voci di Wikipedia per: [Gear](ht
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign InvoluteGear/it

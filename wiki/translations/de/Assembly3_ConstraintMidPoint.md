@@ -6,6 +6,8 @@
    Workbenches:[Assembly3](Assembly3_Workbench/de.md)
 ---
 
+# Assembly3 ConstraintMidPoint/de
+
 ## Beschreibung
 
 Der Befehl <img alt="" src=images/Assembly_ConstraintMidPoint.svg  style="width:16px;"> [Mittelpunkt](Assembly3_ConstraintMidPoint/de.md) verknüpft die Position eines 2D-Punktes (wie z.B. eines Endpunktes einer Linie oder eines Bogens oder dem Mittelpunkt eines Kreises oder Bogens) mit dem Mittelpunkt einer geraden 2d-Linie.
@@ -24,8 +26,5 @@ Die Linienelemente werden mit Werkzeugen der <img alt="" src=images/Workbench_Dr
 
     :   (Wenn **<img src="images/Assembly_AutoRecompute.svg" width=16px> [Automatische Berechnung](Assembly3_AutoRecompute/de.md)** und **<img src="images/Assembly_SmartRecompute.svg" width=16px> [Smarte Berechnung](Assembly3_SmartRecompute/de.md)** nicht aktiviert wurden).
 
-
-
-
-
-
+---
+[documentation index](../README.md) > Assembly3 ConstraintMidPoint/de

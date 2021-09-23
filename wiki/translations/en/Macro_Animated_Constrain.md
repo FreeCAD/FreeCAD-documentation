@@ -1,5 +1,5 @@
 # Macro Animated Constrain/en
- {{Macro
+{{Macro
 |Name=Animated Constrain
 |Icon=Macro_Animated_Constrain.png
 |Description=Simple macro to animate angles constraints in the sketcher.
@@ -146,6 +146,5 @@ The page discussion [Macro Animated Constrain](http://forum.freecadweb.org/viewt
 
 [See the animation on YouTube.](https://www.youtube.com/watch?v=kmqDcomLnk0)
 
-
-
-
+---
+[documentation index](../README.md) > Macro Animated Constrain/en

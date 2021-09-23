@@ -7,6 +7,8 @@
    SeeAlso:[Bryły pierwotne](Part_CreatePrimitives/pl.md)
 ---
 
+# Part Sphere/pl
+
 ## Opis
 
 Tworzy prostą parametryczną sferę o parametrach położenie, kąt1, kąt2, kąt3 i promień.
@@ -43,8 +45,5 @@ Ponieważ dość trudno jest wyjaśnić znaczenie parametrów kąt 1, kąt 2, k�
 
 <img alt="" src=images/SphereCutThreeAngles.jpg  style="width:400px;">
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Sphere/pl

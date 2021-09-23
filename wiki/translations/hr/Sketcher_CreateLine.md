@@ -7,6 +7,8 @@
    SeeAlso:[Sketcher Polyline](Sketcher_CreatePolyline.md)
 ---
 
+# Sketcher CreateLine/hr
+
 ## Description
 
 This tool draws a line by picking two points in the 3D view. When starting the tool, the mouse pointer changes to a white cross with a red line icon. Besides are coordinates shown in real time.
@@ -26,4 +28,7 @@ The created line object starts and ends at the given points, but the line is inf
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateLine/hr

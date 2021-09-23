@@ -1,10 +1,4 @@
-# OpenSCAD Workbench/fr
-
-
-
-
-
-<img alt="Icône de l\'atelier OpenSCAD" src=images/Workbench_OpenSCAD.svg  style="width:128px;">
+# <img alt="Icône de l\'atelier OpenSCAD" src=images/Workbench_OpenSCAD.svg  style="width:64px;"> OpenSCAD Workbench/fr
 
 ## Introduction
 
@@ -98,3 +92,6 @@ Si FreeCAD se bloque lors de l\'importation de CSG, il est fortement recommandé
 }} 
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > OpenSCAD Workbench/fr

@@ -1,8 +1,4 @@
 # TechDraw TemplateGenerator/en
-
- 
-
-
 {{TutorialInfo
 |Topic= Template generation with Python macro
 |Level= Basic skills of Python and svg-structures are helpful
@@ -525,3 +521,6 @@ And what it should look like when inserted (plus magnified title block):
 ![TechDraw TemplateGenerator.png](images/TechDraw_TemplateGenerator.png )
 
 [Category:Wiki](Category:Wiki.md)
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw TemplateGenerator/en

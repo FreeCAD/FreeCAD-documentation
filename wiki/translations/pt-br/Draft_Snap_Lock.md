@@ -5,6 +5,8 @@
    SeeAlso:[Draft Snap](Draft_Snap.md)
 ---
 
+# Draft Snap Lock/pt-br
+
 ## Descrição
 
 The <img alt="" src=images/Draft_Snap_Lock.svg  style="width:24px;"> **Draft Snap Lock** command enables or disables snapping globally.
@@ -27,5 +29,5 @@ For general information about snapping see [Draft Snap](Draft_Snap.md).
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Lock/pt-br

@@ -7,6 +7,8 @@
    Shortcut:**C** **M**‏‎‏‎
 ---
 
+# Arch Component/it
+
 
 </div>
 
@@ -101,8 +103,5 @@ L\'oggetto Componente di Arch è anche una base condivisa da tutti gli altri ogg
 
 </div>
 
-
-
-
-
-
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Component/it

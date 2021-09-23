@@ -1,7 +1,4 @@
 # Manual:Creating renderings/pl
- 
-
-
 {{Manual:TOC}}
 
 In computer speak, the word [rendering](https://en.wikipedia.org/wiki/Rendering_%28computer_graphics%29) is used to describe a nice image produced from a 3D model. Of course, we could say that what we see in the FreeCAD 3D view is already nice. However, anybody who has seen a recent Hollywood movie, knows that it is possible to produce images with a computer that are almost indistinguishable from a photograph.
@@ -86,3 +83,6 @@ You can greatly extend the rendering possibilities of FreeCAD by creating new te
 {{Raytracing Tools navi}} 
 
 [Category:Tutorials](Category:Tutorials.md)
+
+---
+[documentation index](../README.md) > [Tutorials](Category:Tutorials.md) > Manual:Creating renderings/pl

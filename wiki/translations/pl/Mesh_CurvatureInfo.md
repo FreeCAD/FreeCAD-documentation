@@ -7,6 +7,8 @@
    SeeAlso:[Mesh: VertexCurvature](Mesh_VertexCurvature/pl.md)
 ---
 
+# Mesh CurvatureInfo/pl
+
 ## Opis
 
 Polecenie **Mesh CurvatureInfo** wyświetla krzywiznę absolutną [obiektu krzywizny](Mesh_VertexCurvature.md) w wybranym punkcie.
@@ -31,4 +33,7 @@ Polecenie **Mesh CurvatureInfo** wyświetla krzywiznę absolutną [obiektu krzyw
 
 {{Mesh Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh CurvatureInfo/pl

@@ -7,6 +7,8 @@
    Version:v0.16
 ---
 
+# FCGear LanternGear/fr
+
 ## Description
 
 La denture du pignon lanterne a une forme spéciale de denture cycloïdale dans laquelle le cercle de roulement et le cercle primitif sont de taille égale. De plus, les dents de la plus grande roue d\'une boîte de vitesses sont remplacées par des cylindres. La petite roue est dotée d\'un engrenage cycloïde. Il en résulte un engrenage ponctuel unilatéral. Les engrenages du pignon lanterne ne peuvent être que des dents droites.
@@ -79,3 +81,6 @@ Les limitations ne sont pas encore connues.
 
 
 [Category:Addons](Category:Addons.md) [Category:FCGear](Category:FCGear.md) [Category:External Command Reference](Category:External_Command_Reference.md)
+
+---
+[documentation index](../README.md) > [Addons](Category:Addons.md) > FCGear LanternGear/fr

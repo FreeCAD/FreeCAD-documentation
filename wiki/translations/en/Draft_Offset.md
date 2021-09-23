@@ -7,6 +7,8 @@
    SeeAlso:[Part Offset2D](Part_Offset2D.md)
 ---
 
+# Draft Offset/en
+
 ## Description
 
 The <img alt="" src=images/Draft_Offset.svg  style="width:24px;"> **Draft Offset** command offsets each segment of a selected object over a given distance, or creates an offset copy of the selected object.
@@ -106,8 +108,5 @@ offset5 = Draft.offset(wire, 1.5*vector, copy=True, occ=True)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Offset/en

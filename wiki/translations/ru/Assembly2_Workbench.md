@@ -1,7 +1,4 @@
 # Assembly2 Workbench/ru
-
-
-
 **Верстак Assembly2 устарел. Его автор более не поддерживает его, так что он может не работать с FreeCAD версии 0.17 и выше. Информация на этой странице не поддерживается, и оставлена для исторических задач.**
 
 
@@ -152,3 +149,6 @@ To update to the latest version, delete the assembly2 folder and redownload the 
 
 
 [Category:User Documentation](Category:User_Documentation.md) [Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+
+---
+[documentation index](../README.md) > Assembly2 Workbench/ru

@@ -7,6 +7,8 @@
    SeeAlso:[Arch Building](Arch_Building.md), [Arch BuildingPart](Arch_BuildingPart.md), [Arch Site](Arch_Site.md)
 ---
 
+# Arch Floor/pt-br
+
 ## Descrição
 
 The [Arch Floor](Arch_Floor.md) is a special type of FreeCAD group object that has a couple of additional properties particularly suited for building floors. Particularly, they have a height property, that its children objects ([walls](Arch_Wall.md) and [structures](Arch_Structure.md)) can use to set their own height automatically. They are mostly used to organize your model.
@@ -75,8 +77,5 @@ FreeCAD.ActiveDocument.recompute()
 
 </div>
 
-
-
-
-
-
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Floor/pt-br

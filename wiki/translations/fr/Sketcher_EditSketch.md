@@ -7,6 +7,8 @@
    SeeAlso:[Sketcher Quitter l'esquisse](Sketcher_LeaveSketch/fr.md)
 ---
 
+# Sketcher EditSketch/fr
+
 ## Description
 
 Cette commande permet de modifier une esquisse existante. Cela ouvre la [boite de dialogue de Sketcher](Sketcher_Dialog/fr.md).
@@ -30,4 +32,7 @@ Il existe plusieurs façons d\'appeler la commande Modifier l\'esquisse:
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher EditSketch/fr

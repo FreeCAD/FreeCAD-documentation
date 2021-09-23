@@ -1,10 +1,4 @@
-# Web Workbench/pl
-
-
-
-
-
-<img alt="Ikonka FreCAD dla środowiska pracy Web" src=images/Workbench_Web.svg  style="width:128px;">
+# <img alt="Ikonka FreCAD dla środowiska pracy Web" src=images/Workbench_Web.svg  style="width:64px;"> Web Workbench/pl
 
 ## Wprowadzenie
 
@@ -19,3 +13,6 @@ Za pomocą tej przeglądarki można poruszać się w sieci, klikać na linki, cz
 
 
 [Category:Web](Category:Web.md) [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Web Workbench/pl

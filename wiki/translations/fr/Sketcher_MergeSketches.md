@@ -7,6 +7,8 @@
    Version:0.15
 ---
 
+# Sketcher MergeSketches/fr
+
 ## Description
 
 Fusionne deux esquisses ou plus en une seule.
@@ -23,4 +25,7 @@ Fusionne deux esquisses ou plus en une seule.
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher MergeSketches/fr

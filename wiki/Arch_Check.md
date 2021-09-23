@@ -6,6 +6,8 @@
    SeeAlso:[Arch CloseHoles](Arch_CloseHoles.md)
 ---
 
+# Arch Check
+
 ## Description
 
 This tool checks the current document or the selected objects for non-solid **<img src="images/_Workbench_Part.svg" width=16px> [Part](Part_Workbench.md)** or **<img src="images/_Workbench_Arch.svg" width=16px> [Arch](Arch_Workbench.md)** objects, that might give problems, since most operations of the Arch Workbench require solid objects.
@@ -53,10 +55,5 @@ list_bad = Arch.check([Wall1, Wall2, Circle, Wire], includehidden=True)
 print(list_bad)
 ```
 
-
-
-
- 
-
-
-
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Check

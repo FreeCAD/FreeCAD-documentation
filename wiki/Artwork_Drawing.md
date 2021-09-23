@@ -1,6 +1,4 @@
 # Artwork Drawing
-  
-
 These icons are in the indicated source path.
 
 For all icons in the source tree, see [Artwork](Artwork.md).
@@ -48,4 +46,5 @@ The following image is \"A4\_Simple.svg\". It is an empty page.
 
 {{Artwork}}
 
-
+---
+[documentation index](../README.md) > Artwork Drawing

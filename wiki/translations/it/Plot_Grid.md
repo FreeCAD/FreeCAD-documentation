@@ -1,3 +1,4 @@
+# Plot Grid/it
 ---
 - GuiCommand:/it   Name:Plot Grid   Name/it:Griglia   MenuLocation:Grafico → Griglia‏‎   |Workbenches:[[Plot Module/it   Grafico]]|Shortcut:   SeeAlso:---
 
@@ -31,3 +32,6 @@ This tool acts on the active set of axis. In case of multi-axes plots you can se
 }} 
 
 [Category:External\_Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)
+
+---
+[documentation index](../README.md) > [External_Workbenches](Category:External_Workbenches.md) > Plot Grid/it

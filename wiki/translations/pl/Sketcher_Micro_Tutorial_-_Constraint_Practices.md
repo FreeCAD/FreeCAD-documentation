@@ -1,7 +1,4 @@
 # Sketcher Micro Tutorial - Constraint Practices/pl
-
-
-
 {{TutorialInfo/pl
 |Topic=Modelowanie
 |Level=początkujący
@@ -128,4 +125,7 @@ Jest to najlepszy sposób na związanie tego szkicu, ponieważ użyliśmy tylko 
 
 {{Tutorials navi
 
-}} {{Sketcher Tools navi}} 
+}} {{Sketcher Tools navi}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Micro Tutorial - Constraint Practices/pl

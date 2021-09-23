@@ -8,6 +8,8 @@
    SeeAlso:[Arch 3 vues depuis maillage](Arch_3Views/fr.md)
 ---
 
+# Arch Equipment/fr
+
 ## Description
 
 L\'outil Équipement vous offre un moyen simple et pratique d\'insérer des éléments autonomes, non structurels tels que des meubles, des équipements sanitaire ou appareils électriques à vos projets. Les équipements sont basés sur des [objets Part](Part_Workbench/fr.md), ce qui leur permet de bénéficier de la solidité et des possibilités de la géométrie BRep et de générer de jolies vues lors du rendu en vue en plan et en coupe.
@@ -66,11 +68,5 @@ Equip = Arch.makeEquipment(Box)
 FreeCAD.ActiveDocument.recompute()
 ```
 
-
-
-
-
-
-
-
-
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Equipment/fr

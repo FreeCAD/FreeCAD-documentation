@@ -8,6 +8,8 @@
    SeeAlso:[Tutorial FEM](FEM_tutorial/it.md)
 ---
 
+# FEM ConstraintPulley/it
+
 
 </div>
 
@@ -29,4 +31,7 @@ Non supportato dall\'interfaccia calculix!
 
 {{FEM Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > FEM ConstraintPulley/it

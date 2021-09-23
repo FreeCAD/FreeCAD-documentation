@@ -1,11 +1,4 @@
 # Installing additional components
- 
-
-
-
-
- 
-
 # Introduction
 
 After installing FreeCAD for you operating system ([Windows](Installing_on_Windows.md), [Linux](Installing_on_Linux.md) or [Mac](Installing_on_Mac.md)), you may want to consider installing one or more of the following additional components.
@@ -124,3 +117,6 @@ The [ODA File Converter](https://www.opendesign.com/guestfiles/oda_file_converte
 
 
 [Category:User Documentation](Category:User_Documentation.md)
+
+---
+[documentation index](../README.md) > Installing additional components

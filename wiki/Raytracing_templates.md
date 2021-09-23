@@ -1,6 +1,4 @@
 # Raytracing templates
- 
-
 ## Introduction
 
 The [Raytracing Workbench](Raytracing_Workbench.md) comes with some templates for povray and luxrender, but you can easily create your own. All you need to do is to create a scene file for the given renderer, then edit it manually with a text editor to insert special tags that FreeCAD will recognize and where it will insert its contents (camera and objects data).
@@ -57,7 +55,5 @@ Note that in luxrender, the objects stored in a scene file can define transforma
 
 {{Raytracing Tools navi}}
 
-
-
-
-
+---
+[documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing templates

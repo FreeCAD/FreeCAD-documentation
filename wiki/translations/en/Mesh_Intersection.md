@@ -6,6 +6,8 @@
    SeeAlso:[Mesh Union](Mesh_Union.md), [Mesh Difference](Mesh_Difference.md)
 ---
 
+# Mesh Intersection/en
+
 ## Description
 
 The **Mesh Intersection** command creates a new non-parametric mesh object, a [Mesh Feature](Mesh_Feature.md), that is the intersection (common) of two mesh objects.
@@ -31,4 +33,7 @@ See: [Mesh Feature](Mesh_Feature.md).
 
 {{Mesh Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Intersection/en

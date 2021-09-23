@@ -1,3 +1,4 @@
+# Sketcher RectangularArray/ro
 ---
 - GuiCommand:   Name:Sketcher RectangularArray   Workbenches:[PartDesign](Sketcher_Workbench___Sketcher]],_[[PartDesign_Workbench.md)|MenuLocation:Sketch → Sketcher tools → Rectangular Array   Version:0.16---
 
@@ -38,4 +39,7 @@ Opțiuni pentru Array
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher RectangularArray/ro

@@ -1,10 +1,4 @@
 # Getting started/uk
-
-
-
-
-
-
 {{TOCright}}
 
 ## Foreword
@@ -198,3 +192,6 @@ And finally, one of the most powerful features of FreeCAD is the [scripting](scr
 
 
 [Category:User Documentation/uk](Category:User_Documentation/uk.md)
+
+---
+[documentation index](../README.md) > Getting started/uk

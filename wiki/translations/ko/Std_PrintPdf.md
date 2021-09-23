@@ -7,6 +7,8 @@
    SeeAlso:[표준 인쇄](Std_Print/ko.md), [표준 내보내기](Std_Export/ko.md), [표준 스크린샷 보기](Std_ViewScreenShot/ko.md)
 ---
 
+# Std PrintPdf/ko
+
 ## 설명
 
 
@@ -48,4 +50,7 @@
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std PrintPdf/ko

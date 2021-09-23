@@ -7,6 +7,8 @@
    SeeAlso:[Borrador SeleccionarPlano](Draft_SelectPlane/es.md)
 ---
 
+# Draft WorkingPlaneProxy/es
+
 
 </div>
 
@@ -161,5 +163,5 @@ doc.recompute()
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft WorkingPlaneProxy/es

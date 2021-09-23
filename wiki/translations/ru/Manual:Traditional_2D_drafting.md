@@ -1,7 +1,4 @@
 # Manual:Traditional 2D drafting/ru
- 
-
-
 {{Manual:TOC/ru}}
 
 
@@ -138,3 +135,6 @@
 
 
 [Category:Tutorials](Category:Tutorials.md) [Category:Draft](Category:Draft.md)
+
+---
+[documentation index](../README.md) > [Tutorials](Category:Tutorials.md) > Manual:Traditional 2D drafting/ru

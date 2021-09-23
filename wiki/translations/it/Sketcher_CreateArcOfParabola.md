@@ -9,6 +9,8 @@
    SeeAlso:[Arco di ellisse](Sketcher_CreateArcOfEllipse/it.md), [Arco di iperbole](Sketcher_CreateArcOfHyperbola/it.md)
 ---
 
+# Sketcher CreateArcOfParabola/it
+
 
 </div>
 
@@ -44,4 +46,7 @@ Questo strumento crea un arco di parabola da fuoco, vertice e punti finali.
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateArcOfParabola/it

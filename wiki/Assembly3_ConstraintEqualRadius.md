@@ -5,6 +5,8 @@
    Workbenches:[Assembly3](Assembly3_Workbench.md)
 ---
 
+# Assembly3 ConstraintEqualRadius
+
 ## Description
 
 The <img alt="" src=images/Assembly_ConstraintEqualRadius.svg  style="width:16px;"> [Equal radius](Assembly3_ConstraintEqualRadius.md) command constrains the radius of a 2D circle or arc made with <img alt="" src=images/Workbench_Draft.svg  style="width:16px;"> [Draft Workbench](Draft_Workbench.md) tools in relation with a <img alt="" src=images/Assembly_Workplane.svg  style="width:16px;"> workplane.
@@ -29,7 +31,5 @@ The radius value of the first selected circle or arc equals the radius value of 
 
     :   (if **<img src="images/Assembly_AutoRecompute.svg" width=16px> [Auto recompute](Assembly3_AutoRecompute.md)** and **<img src="images/Assembly_SmartRecompute.svg" width=16px> [Smart recompute](Assembly3_SmartRecompute.md)** are disabled).
 
-
-
-
- 
+---
+[documentation index](../README.md) > Assembly3 ConstraintEqualRadius

@@ -7,6 +7,8 @@
    SeeAlso:[TechDraw Cosmetic Vertex](TechDraw_CosmeticVertex.md), [TechDraw Centerline between 2 Lines](TechDraw_2LineCenterLine.md), [TechDraw Centerline between 2 Points](TechDraw_2PointCenterLine.md), [TechDraw Cosmetic Eraser](TechDraw_CosmeticEraser.md)
 ---
 
+# TechDraw FaceCenterLine/pl
+
 ## Description
 
 The FaceCenterLine tool adds a centerline to selected faces.
@@ -76,4 +78,7 @@ Centerlines are not accessible from [macros](Macros.md) or the [Python](Python.m
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw FaceCenterLine/pl

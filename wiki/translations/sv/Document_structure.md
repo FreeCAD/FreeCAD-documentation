@@ -1,10 +1,4 @@
 # Document structure/sv
-
-
-
-
-
-
 {{TOCright}}
 
 ![](images/Screenshot_treeview.jpg ) Ett FreeCAD document inehåller alla objekten i din scen. Det kan innehålla grupper, och objekt gjorda med valfri arbetsbänk. Du kan därför växla mellan arbetsbänkar, och ändå arbeta med samma dokument. Dokumentet är det som sparas till disk när du sparar ditt arbete. Du kan också äppna flera dokument samtidigt i FreeCAD, och öppna flera vyer av samma dokument.
@@ -85,5 +79,5 @@ FreeCADGui.ActiveDocument.ActiveView
 
 </div>
 
-
-
+---
+[documentation index](../README.md) > Document structure/sv

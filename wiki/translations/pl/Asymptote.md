@@ -1,7 +1,4 @@
 # Asymptote/pl
-
-
-
 {{TOCright}}
 
 ## Description
@@ -46,3 +43,6 @@ The following videos are in Spanish:
 }} 
 
 [Category:File\_Formats](Category:File_Formats.md)
+
+---
+[documentation index](../README.md) > [File_Formats](Category:File_Formats.md) > Asymptote/pl

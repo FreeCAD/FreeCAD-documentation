@@ -1,10 +1,4 @@
 # Compile on Windows/sv
-
-
-
-
-
-
 {{TOCright}}
 
 This page explains step by step **how to compile FreeCAD 0.19 or newer on Windows**. For other platforms see [Compiling](Compiling.md).
@@ -471,3 +465,6 @@ See also
 
 
 [Category:Developer Documentation/sv](Category:Developer_Documentation/sv.md) [Category:Developer\_Documentation](Category:Developer_Documentation.md) [Category:Developer](Category:Developer.md)
+
+---
+[documentation index](../README.md) > [Developer_Documentation](Category:Developer_Documentation.md) > Compile on Windows/sv

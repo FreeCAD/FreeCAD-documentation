@@ -1,6 +1,4 @@
 # Release notes 0.18/de
-
-
 FreeCAD 0.18 wurde am 12. März 2019 veröffentlicht, hole es von der [Download](Download/de.md) Seite. Dies ist eine Zusammenfassung der interessantesten Änderungen. Die vollständige Liste der Änderungen findest du im [MantisBT bugtracker FC 0.18 changelog](https://www.freecadweb.org/tracker/changelog_page.php?version_id=78).
 
 Ältere FreeCAD Versionshinweise findest du unter [Liste der Funktionen](Feature_list#Release_notes/de.md).
@@ -218,3 +216,6 @@ Einige der neuen Gemeinschaftsmodule, die während des Entwicklungszyklus von 0.
 -   [Arbeitsbereich Defeaturing](Defeaturing_Workbench/de.md) ist bestimmt für die Bearbeitung importierter STEP Modelle, das Entfernen der ausgewählten Funktionen aus dem Modell
 
 [Category:News](Category:News.md) [Category:Documentation](Category:Documentation.md) [Category:Releases](Category:Releases.md)
+
+---
+[documentation index](../README.md) > [News](Category:News.md) > Release notes 0.18/de

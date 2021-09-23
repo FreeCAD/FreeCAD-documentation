@@ -1,5 +1,5 @@
 # Artwork/pl
-  Oto grafika, która została stworzona na potrzeby programu FreeCAD. Zachęcamy do ponownego wykorzystania tych plików w innych aplikacjach. Jeśli chcesz przyczynić się do tworzenia ikon, przeczytaj [wytyczne do grafiki](Artwork_Guidelines.md).
+Oto grafika, która została stworzona na potrzeby programu FreeCAD. Zachęcamy do ponownego wykorzystania tych plików w innych aplikacjach. Jeśli chcesz przyczynić się do tworzenia ikon, przeczytaj [wytyczne do grafiki](Artwork_Guidelines.md).
 
 ## Różne ikonki 
 
@@ -157,3 +157,6 @@ Zobacz [Grafika niepoprawna](Artwork_Erroneous/pl.md).
 }}
 
 [Category:Icon](Category:Icon.md) [Category:Developer Documentation](Category:Developer_Documentation.md)
+
+---
+[documentation index](../README.md) > [Icon](Category:Icon.md) > Artwork/pl

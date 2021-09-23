@@ -7,6 +7,8 @@
    Version:0.17
 ---
 
+# Sketcher CarbonCopy/it
+
 ## Descrizione
 
 Lo strumento <img alt="" src=images/Sketcher_CarbonCopy.svg  style="width:16px;"> **Copia carbone** copia tutta la geometria e i vincoli di un altro schizzo nello schizzo attivo.
@@ -56,4 +58,7 @@ I vincoli dimensionali che esistono prima della funzione di copia rimangono coll
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CarbonCopy/it

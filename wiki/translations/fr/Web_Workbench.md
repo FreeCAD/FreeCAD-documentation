@@ -1,10 +1,4 @@
-# Web Workbench/fr
-
-
-
-
-
-<img alt="Icône de l\'atelier Web" src=images/Workbench_Web.svg  style="width:128px;">
+# <img alt="Icône de l\'atelier Web" src=images/Workbench_Web.svg  style="width:64px;"> Web Workbench/fr
 
 ## Introduction
 
@@ -19,3 +13,6 @@ L\'[atelier Web](Web_Workbench/fr.md) n\'est pas vraiment un atelier de modélis
 
 
 [Category:Web](Category:Web.md) [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Web Workbench/fr

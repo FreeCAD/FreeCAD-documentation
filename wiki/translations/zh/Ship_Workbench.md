@@ -1,7 +1,4 @@
-# Ship Workbench/zh
-
-
-<img alt="Ship workbench icon" src=images/Workbench_Ship.svg  style="width:128px;">
+# <img alt="Ship workbench icon" src=images/Workbench_Ship.svg  style="width:64px;"> Ship Workbench/zh
 
 
 {{TOCright}}
@@ -49,3 +46,6 @@ The Ship Workbench was unmaintained since v0.17 but has been resurrected in v0.1
 }} 
 
 [Category:External Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)
+
+---
+[documentation index](../README.md) > Ship Workbench/zh

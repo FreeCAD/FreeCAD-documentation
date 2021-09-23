@@ -1,5 +1,5 @@
 # Video tutorials for architectural design
-  **Please pay attention to the version of FreeCAD used in the tutorial. If a tutorial uses an older version of the program, the general modelling process may still work but some tools may have changed in newer releases. Do not add videos made with version 0.16 or older, as these releases are considered obsolete.**
+**Please pay attention to the version of FreeCAD used in the tutorial. If a tutorial uses an older version of the program, the general modelling process may still work but some tools may have changed in newer releases. Do not add videos made with version 0.16 or older, as these releases are considered obsolete.**
 
 ## Introduction
 
@@ -44,4 +44,7 @@ Videos that go through modeling of rooms, houses, office buildings, and similar 
     -   [Grundmodell mit FreeCAD und ARCH](https://www.youtube.com/watch?v=Qe-vXRtKql4&list=PLNv9lsSmVr-iDNhHqJ1u8aZUImYIc8bB8): first part of a series of two videos with step-by-step instructions to create a simple model. General introduction to FreeCAD, axis systems and BuildingParts.
     -   [Fachmodell mit FreeCAD und ARCH](https://www.youtube.com/watch?v=iarSNPBKkfo&list=PLNv9lsSmVr-iDNhHqJ1u8aZUImYIc8bB8): second part of the series. The building of the actual model: a garage.
 
- {{Tutorials navi}} 
+ {{Tutorials navi}}
+
+---
+[documentation index](../README.md) > Video tutorials for architectural design

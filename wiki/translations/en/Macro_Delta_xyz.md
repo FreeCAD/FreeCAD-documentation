@@ -1,5 +1,5 @@
 # Macro Delta xyz/en
- {{Macro
+{{Macro
 |Name=Macro Delta xyz
 |Icon=Macro_Delta_xyz.png
 |Description=Gives the Delta values and distance between 2 points.<br />Start the macro<br />Select the first point in 3D view<br />Select the second point in 3D view<br />If the "SHIFT" key is pressed, the Delta value begin on coordinate 0,0,0 to point clicked  (the coordinate 0,0,0 is displayed in red).<br />One option is possible for the macro stay resident (continuous) then push "Q" key to quit the macro, and option for impose the number of decimals or use the decimal in the preference option.
@@ -274,3 +274,6 @@ Version 0.2 2020-10-23 : adding push the key **SHIFT**, click one point and the 
 Adding options configurable in preference FC
 
 Version 0.1 2013-11-29 : [view toolbar : measure distance tool](https://forum.freecadweb.org/viewtopic.php?f=3&t=5036)
+
+---
+[documentation index](../README.md) > Macro Delta xyz/en

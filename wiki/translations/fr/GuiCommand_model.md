@@ -10,6 +10,8 @@
    SeeAlso:
 ---
 
+# GuiCommand model/fr
+
 ## Description
 
 tant que la page est en construction, ajouter le template [Template:UnfinishedDocu](Template:UnfinishedDocu.md) en haut de la page le modèle en mettant le code ****.
@@ -207,3 +209,6 @@ Optional.
 }} 
 
 [Category:Wiki:Example](Category:Wiki:Example.md)
+
+---
+[documentation index](../README.md) > [API/fr]] et ](Category:API/fr]] et .md) > GuiCommand model/fr

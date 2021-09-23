@@ -1,7 +1,4 @@
 # Dxf Importer Install/fr
-
-
-
 {{TutorialInfo/fr
 |Topic=SampleClass
 |Level=Moyen
@@ -189,3 +186,6 @@ Utilisation de Teigha. Teigha est une application complète et vous pouvez l\'ut
 ### Liens
 
 Tutoriel Vidéo [FreeCAD Tutorial 24 - DXF/DWG Import](https://www.youtube.com/watch?v=wHxTWuDhc3M) (en Allemand 17:16 minutes)
+
+---
+[documentation index](../README.md) > Dxf Importer Install/fr

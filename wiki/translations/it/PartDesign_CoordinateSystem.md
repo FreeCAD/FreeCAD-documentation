@@ -8,6 +8,8 @@
    SeeAlso:[Punto di riferimento](PartDesign_Point/it.md), [Linea di riferimento](PartDesign_Line/it.md), [Piano di riferimento](PartDesign_Plane/it.md)
 ---
 
+# PartDesign CoordinateSystem/it
+
 
 </div>
 
@@ -68,4 +70,7 @@ lcs = App.activeDocument().addObject( 'PartDesign::CoordinateSystem', 'LCS' )
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign CoordinateSystem/it

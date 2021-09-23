@@ -7,6 +7,8 @@
    SeeAlso:[Std BoxSelection](Std_BoxSelection.md), [Std BoxElementSelection](Std_BoxElementSelection.md), [Std SelectAll](Std_SelectAll.md)
 ---
 
+# Part BoxSelection
+
 ## Description
 
 The **<img src="images/Part_BoxSelection.svg" width=16px> [Part BoxSelection](Part_BoxSelection.md)** tool allows you to select the faces of the objects on the screen that are touched by the rectangular selection.
@@ -26,7 +28,5 @@ The **<img src="images/Part_BoxSelection.svg" width=16px> [Part BoxSelection](Pa
 
 ## Scripting
 
-
-
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part BoxSelection

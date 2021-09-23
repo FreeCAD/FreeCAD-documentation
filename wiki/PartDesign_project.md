@@ -1,7 +1,4 @@
 # PartDesign project
- 
-
-
 **
 This roadmap is probably obsolete. For more information see [Development roadmap](Development_roadmap.md).<br>
 If you are not involved with the development discussed here:<br>
@@ -162,3 +159,6 @@ Rotate a Sketch along one of its Axis and a certain angle. **Done \[jrheinlaende
  
 
 [Category:Roadmap](Category:Roadmap.md)
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign project

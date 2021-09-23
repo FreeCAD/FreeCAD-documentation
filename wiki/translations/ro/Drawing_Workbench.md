@@ -1,7 +1,4 @@
 # Drawing Workbench/ro
- 
-
-
 **Development of the [[Drawing Workbench]]  Elaborarea modulului de desenare a fost oprită și un nou modul  [[TechDraw Workbench]] care intenționează să-l înlocuiască va fi introdus în versiunea 0.17. Ambele module vor fi furnizate în v0.17, dar modulul Desenare poate fi eliminat în versiunile viitoare.**
 
 <img alt="Drawing workbench icon" src=images/Workbench_Drawing.svg  style="width:128px;">
@@ -85,3 +82,6 @@ Unele note despre partea de programare a modulului de desen vor fi adăugate la 
 }} 
 
 [Category:Obsolete Workbenches](Category:Obsolete_Workbenches.md) [Category:Obsolete Workbenches](Category:Obsolete_Workbenches.md)
+
+---
+[documentation index](../README.md) > Drawing Workbench/ro

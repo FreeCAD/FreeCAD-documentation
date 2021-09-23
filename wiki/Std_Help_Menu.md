@@ -1,10 +1,4 @@
-# Std Help Menu
- 
-
-
-
-
-<img alt="Std Base icon" src=images/Freecad.svg  style="width:128px;">
+# <img alt="Std Base icon" src=images/Freecad.svg  style="width:64px;"> Std Help Menu
 
  
 
@@ -60,3 +54,6 @@ The following tools are available in this menu:
  {{Std Base navi}}  
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > [Workbenches](Category:Workbenches.md) > Std Help Menu

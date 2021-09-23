@@ -7,6 +7,8 @@
    SeeAlso:[Part 2D Versatz](Part_Offset2D/de.md)
 ---
 
+# Draft Offset/de
+
 
 </div>
 
@@ -157,5 +159,5 @@ doc.recompute()
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Offset/de

@@ -1,7 +1,4 @@
 # Sketcher requirement for a sketch/fr
-
-
-
 {{TutorialInfo/fr
 |Topic=Sketcher
 |Level=Débutant
@@ -43,4 +40,7 @@ Si vous créez accidentellement une \"surmodulation\", un avertissement apparaî
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher requirement for a sketch/fr

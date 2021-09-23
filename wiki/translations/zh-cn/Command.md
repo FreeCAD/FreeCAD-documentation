@@ -1,6 +1,4 @@
 # Command/zh-cn
-
-
 ## Introduction
 
 
@@ -139,3 +137,6 @@ See [Line drawing function](Line_drawing_function.md).
 }}
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md) [Category:Glossary](Category:Glossary.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Command/zh-cn

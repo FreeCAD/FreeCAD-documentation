@@ -8,6 +8,8 @@
    SeeAlso:[Crear una Primitiva sustractiva](PartDesign_CompPrimitiveSubtractive/es.md)
 ---
 
+# PartDesign SubtractiveBox/es
+
 ## Descripción
 
 Inserta una Caja sustractiva en el Body (cuerpo) activo. Su forma es sustraída del sólido existente.
@@ -58,4 +60,7 @@ Tras su creación, la Caja puede ser editada de dos maneras:
 
 {{PartDesign Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveBox/es

@@ -6,6 +6,8 @@
    SeeAlso:[Part Measure Toggle Delta](Part_Measure_Toggle_Delta.md)
 ---
 
+# Part Measure Toggle 3d/ro
+
 
 </div>
 
@@ -33,8 +35,5 @@ Acest instrument comută între vizibilitatea măsurătorilor lineară (roșu) �
 
 </div>
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Toggle 3d/ro

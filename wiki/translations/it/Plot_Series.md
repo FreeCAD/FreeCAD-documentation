@@ -1,3 +1,4 @@
+# Plot Series/it
 ---
 - GuiCommand:/it   Name:Plot Series   Name/it:Serie   MenuLocation:Grafico → Serie‏‎   |Workbenches:[[Plot Module/it   Grafico]]|Shortcut:   SeeAlso:---
 
@@ -41,3 +42,6 @@ Select the plot tab that you want to edit, and run this tool. Then select the se
 }} 
 
 [Category:External\_Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)
+
+---
+[documentation index](../README.md) > [External_Workbenches](Category:External_Workbenches.md) > Plot Series/it

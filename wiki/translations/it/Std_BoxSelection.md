@@ -8,6 +8,8 @@
    SeeAlso:[Seleziona elementi](Std_BoxElementSelection/it.md),[Seleziona tutto](Std_SelectAll/it.md),  [Box di selezione di Part](Part_BoxSelection/it.md)
 ---
 
+# Std BoxSelection/it
+
 ## Descrizione
 
 **Box di selezione** permette di delimitare una zona rettangolare nell\'area di lavoro e di selezionare tutti gli elementi all\'interno di questa zona.
@@ -43,4 +45,7 @@
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std BoxSelection/it

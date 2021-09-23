@@ -8,6 +8,8 @@
    Version:0.15
 ---
 
+# Sketcher SelectRedundantConstraints/de
+
 
 </div>
 
@@ -35,4 +37,7 @@ Wählt die redundanten Beschränkungen einer Skizze aus.
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectRedundantConstraints/de

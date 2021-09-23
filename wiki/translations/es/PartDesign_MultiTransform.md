@@ -1,3 +1,4 @@
+# PartDesign MultiTransform/es
 ---
 - GuiCommand:/es   Name:PartDesign_MultiTransform   Workbenches:[[PartDesign Workbench/es   Diseño de Piezas]], Complete|MenuLocation:Diseño de Piezas-> MultiTransformación---
 
@@ -215,4 +216,7 @@ A partir de la cajera se crea una simetría respecto al plano YZ y luego se apli
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign MultiTransform/es

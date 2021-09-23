@@ -1,7 +1,4 @@
 # Plot Basic tutorial/it
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -405,3 +402,6 @@ Dpi (punti per pollice) controlla la risoluzione delle immagini, ad esempio util
 }} {{Plot_Tools_navi}} 
 
 [Category:External\_Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)
+
+---
+[documentation index](../README.md) > [External_Workbenches](Category:External_Workbenches.md) > Plot Basic tutorial/it

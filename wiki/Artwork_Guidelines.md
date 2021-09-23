@@ -1,6 +1,4 @@
 # Artwork Guidelines
- 
-
 ## Introduction
 
 
@@ -175,3 +173,6 @@ A grayscale image allows you to more easily identify problems in contrast, as on
 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Artwork Guidelines

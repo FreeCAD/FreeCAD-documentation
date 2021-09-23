@@ -6,6 +6,8 @@
    Workbenches:[Sketcher](Sketcher_Workbench/zh-cn.md), [PartDesign](PartDesign_Workbench/zh-cn.md)
 ---
 
+# Sketcher ViewSketch/zh-cn
+
 ## 描述
 
 此工具会将视角设置为垂直于草图平面的模型视图。当用户为检查模型的外观而改变观察模型的视角方向后，又想返回正交于草图的视图时，此工具就派上了用场。
@@ -29,4 +31,7 @@
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ViewSketch/zh-cn

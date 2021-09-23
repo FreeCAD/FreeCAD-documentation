@@ -1,6 +1,4 @@
 # Topological naming problem/ru
-
-
 ## Вступление
 
 
@@ -130,3 +128,6 @@ Datum objects, [points](PartDesign_Point.md), [lines](PartDesign_Line.md), [plan
  {{TechDraw Tools navi}} {{PartDesign Tools navi}} 
 
 [Category:Common Questions](Category:Common_Questions.md)
+
+---
+[documentation index](../README.md) > [Common Questions](Category:Common Questions.md) > Topological naming problem/ru

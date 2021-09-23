@@ -6,6 +6,8 @@
    Workbenches:[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
 ---
 
+# Draft FlipDimension/fr
+
 ## Description
 
 La commande <img alt="" src=images/Draft_FlipDimension.svg  style="width:24px;"> **Draft Inverser la direction de la cote** fait pivoter le texte de cote des [Draft Dimensions](Draft_Dimension/fr.md) de 180° autour de la ligne de cote. Elle peut être utilisée pour corriger les dimensions dont le texte apparaît en miroir. La commande ne fonctionne pas correctement pour les dimensions angulaires.
@@ -46,8 +48,5 @@ dimension.Normal = dimension.Normal.negative()
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft FlipDimension/fr

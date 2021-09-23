@@ -8,6 +8,8 @@
    Version:0.17
 ---
 
+# EM FHInputFile/en
+
 ## Description
 
 The FHInputFile tool creates the input FastHenry file based on the Document EM workbench objects.
@@ -55,4 +57,7 @@ fhsolver = EM.createFHInputFile()
 
 {{EM Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > EM FHInputFile/en

@@ -1,5 +1,5 @@
 # Macro Apothem Based Prism GUI/fr
- {{Macro/fr
+{{Macro/fr
 |Name=Apothem Based Prism
 |Icon=Part Prism Apothem.svg
 |Description=Crée un Apothem Based sur un Prisme.
@@ -126,4 +126,7 @@ Le fichier icône SVG pour utiliser dans votre barre d\'outils.
 
 ## Remerciements
 
-Remerciement à [shoogen](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=765) développeur et à [wandererfan](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=1375) pour leur aide précieuse et les conseils dans la mise au point de cette macro. 
+Remerciement à [shoogen](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=765) développeur et à [wandererfan](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=1375) pour leur aide précieuse et les conseils dans la mise au point de cette macro.
+
+---
+[documentation index](../README.md) > Macro Apothem Based Prism GUI/fr

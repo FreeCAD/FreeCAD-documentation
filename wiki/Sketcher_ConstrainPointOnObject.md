@@ -7,6 +7,8 @@
    SeeAlso:[Sketcher Constrain Coincident](Sketcher_ConstrainCoincident.md)
 ---
 
+# Sketcher ConstrainPointOnObject
+
 ## Description
 
 Affixes a point onto another object such as a line, arc, or sketch axis.
@@ -42,4 +44,7 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains how to identify th
 
 
 
- {{Sketcher Tools navi}}  
+ {{Sketcher Tools navi}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainPointOnObject

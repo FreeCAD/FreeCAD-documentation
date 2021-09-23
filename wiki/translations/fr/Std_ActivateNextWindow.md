@@ -8,6 +8,8 @@
    SeeAlso:[Std Précédente](Std_ActivatePrevWindow/fr.md), [Std Fenêtre](Std_Windows/fr.md)
 ---
 
+# Std ActivateNextWindow/fr
+
 ## Description
 
 La commande **Std Suivante** active la fenêtre suivante dans [Zone de vue principale](Main_view_area/fr.md). La fenêtre suivante est déterminée par l\'ordre dans lequel les fenêtres de la zone d\'affichage principal ont été activées pour la dernière fois.
@@ -29,4 +31,7 @@ La commande **Std Suivante** active la fenêtre suivante dans [Zone de vue princ
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ActivateNextWindow/fr

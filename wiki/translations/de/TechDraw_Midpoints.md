@@ -8,6 +8,8 @@
    SeeAlso:[TechDraw Kosmetik Knoten](TechDraw_CosmeticVertex/de.md), [TechDraw Quadrantenknoten](TechDraw_Quadrants/de.md)
 ---
 
+# TechDraw Midpoints/de
+
 ## Beschreibung
 
 Das Mittenpunkte Werkzeug fügt kosmetische [Knoten (=Vertices)](Glossary/de#V.md) an den Mittenpunkten einer oder mehrerer Kanten hinzu.
@@ -49,4 +51,7 @@ Kosmetikknoten sind zur Zeit nicht über [Makros](Macros/de.md) oder die [Python
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Midpoints/de

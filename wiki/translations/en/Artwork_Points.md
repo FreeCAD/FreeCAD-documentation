@@ -1,6 +1,4 @@
 # Artwork Points/en
- 
-
 These icons are in the indicated source path.
 
 For all icons in the source tree, see [Artwork](Artwork.md).
@@ -17,3 +15,6 @@ For all icons in the source tree, see [Artwork](Artwork.md).
 }} 
 
 [Category:Points](Category:Points.md)
+
+---
+[documentation index](../README.md) > [Points](Category:Points.md) > Artwork Points/en

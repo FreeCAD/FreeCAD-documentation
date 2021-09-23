@@ -8,6 +8,8 @@
    SeeAlso:[Создать прямоугольник](Sketcher_CreateRectangle/ru.md)
 ---
 
+# Sketcher CreateOblong/ru
+
 ## Описание
 
 This tool draws a rounded rectangle by picking two opposite points. When starting the tool, the mouse pointer changes to a white cross with a red rounded rectangle icon. The coordinates of the pointer are shown beside it in blue in real time.
@@ -25,4 +27,7 @@ This tool draws a rounded rectangle by picking two opposite points. When startin
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateOblong/ru

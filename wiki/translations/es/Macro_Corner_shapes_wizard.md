@@ -1,5 +1,5 @@
 # Macro Corner shapes wizard/es
- {{Macro/es
+{{Macro/es
 |Name=Corner shapes wizard
 |Translate=Corner shapes wizard
 |Icon=Macro_Corner_shapes_wizard.png
@@ -196,6 +196,5 @@ ToolBar Icon ![](images/Macro_Corner_shapes_wizard.png )
     QtCore.QMetaObject.connectSlotsByName(dialog)
     dialog.show()
 
-
-
-
+---
+[documentation index](../README.md) > Macro Corner shapes wizard/es

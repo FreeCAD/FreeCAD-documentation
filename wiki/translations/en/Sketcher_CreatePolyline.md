@@ -6,6 +6,8 @@
    SeeAlso:[Sketcher Line](Sketcher_CreateLine.md)
 ---
 
+# Sketcher CreatePolyline/en
+
 ## Description
 
 This tool works like the [Sketcher Line](Sketcher_CreateLine.md) tool, but creates continuous line and arc segments connected by their vertices. When starting the tool, the mouse pointer changes to a white cross with a red polyline icon. The coordinates of the pointer are shown beside it in blue in real time.
@@ -40,4 +42,7 @@ The polyline always starts with a straight line segment: click - move the mouse 
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreatePolyline/en

@@ -1,10 +1,4 @@
 # Installing additional components/pl
-
-
-
-
-
-
 {{TOCright}}
 
 # Wprowadzenie
@@ -124,3 +118,6 @@ Obsługa [LibreDWG](https://www.gnu.org/software/libredwg) pozostaje nadal w for
 
 
 [Category:User Documentation/pl](Category:User_Documentation/pl.md)
+
+---
+[documentation index](../README.md) > Installing additional components/pl

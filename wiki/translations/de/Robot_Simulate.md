@@ -1,3 +1,4 @@
+# Robot Simulate/de
 ---
 - GuiCommand:/de   Name:Robot Simulate   Workbenches:[[Robot_Workbench/de   Robot]]|MenuLocation:Roboter → Simulieren einer Bewegungsbahn---
 
@@ -54,4 +55,7 @@ Die Knöpfe von links nach rechts:
 
 {{Robot_Tools_navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot Simulate/de

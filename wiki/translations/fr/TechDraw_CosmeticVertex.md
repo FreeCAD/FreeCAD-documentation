@@ -8,6 +8,8 @@
    SeeAlso:[TechDraw Point milieu](TechDraw_Midpoints/fr.md), [TechDraw Sommets quadrants](TechDraw_Quadrants/fr.md)
 ---
 
+# TechDraw CosmeticVertex/fr
+
 ## Description
 
 L\'outil Point cosmétique ajoute un [Vertex](Glossary/fr#V.md) (sommet) qui ne fait pas partie de la géométrie d\'origine à une vue. Ce point se comporte comme n\'importe quel autre point et peut être utilisé pour le dimensionnement.
@@ -60,4 +62,7 @@ dvp.makeCosmeticLine(start,end,style, weight, pyGreen)
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw CosmeticVertex/fr

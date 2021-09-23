@@ -7,6 +7,8 @@
    Version:0.15
 ---
 
+# Sketcher MergeSketches/it
+
 
 </div>
 
@@ -38,4 +40,7 @@ Unisce due o più schizzi in uno solo.
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher MergeSketches/it

@@ -8,6 +8,8 @@
    SeeAlso:[Crea un link](Std_LinkMake/it.md), [Crea un link relativo](Std_LinkMakeRelative/it.md), [Importa tutti i link](Std_LinkImportAll/it.md)
 ---
 
+# Std LinkImport/it
+
 ## Descrizione
 
 Lo strumento <img alt="" src=images/Std_LinkImport.svg  style="width:16px;"> [Importa link](Std_LinkImport/it.md) importa un **Linked Object** da un collegamento nel documento corrente, quindi modifica l\'associazione in questo oggetto.
@@ -35,4 +37,7 @@ Una copia della <img alt="" src=images/Std_Part.svg  style="width:16px;"> Parte 
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std LinkImport/it

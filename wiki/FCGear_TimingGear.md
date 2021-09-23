@@ -8,6 +8,8 @@
    SeeAlso:
 ---
 
+# FCGear TimingGear
+
 ## Description
 
 The purpose of timing gears is to allow the camshaft and crankshaft to turn the timing chain. The crankshaft turns to move pistons up and down inside the cylinders. The camshaft turns to allow intake and exhaust valves on the cylinders to open and close. These components are important for proper engine timing.
@@ -90,3 +92,6 @@ Limitations are not known yet.
 
 
 [Category:Addons](Category:Addons.md) [Category:FCGear](Category:FCGear.md) [Category:External Command Reference](Category:External_Command_Reference.md)
+
+---
+[documentation index](../README.md) > [Addons](Category:Addons.md) > FCGear TimingGear

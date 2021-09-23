@@ -8,6 +8,8 @@
    SeeAlso:[[FCGear InvoluteGear]]
 ---
 
+# FCGear CycloideGear/de
+
 ## Beschreibung
 
 Cycloidal gears are very sensitive to an inaccurate adjustment of the centre distance, which then leads to a change in the transmission ratio. For these reasons, cycloidal gears are hardly found in mechanical engineering but are only used in special cases such as in the watch industry, for roots type blowers or for the drive of gear racks.
@@ -94,3 +96,6 @@ For more information see <img alt="" src=images/FCGear_InvoluteGear.svg  style="
 
 
 [Category:Addons](Category:Addons.md) [Category:FCGear](Category:FCGear.md) [Category:External Command Reference](Category:External_Command_Reference.md)
+
+---
+[documentation index](../README.md) > [Addons](Category:Addons.md) > FCGear CycloideGear/de

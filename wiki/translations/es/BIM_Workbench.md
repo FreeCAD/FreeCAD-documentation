@@ -1,8 +1,4 @@
-# BIM Workbench/es
-
- 
-
-<img alt="El icono del Ambiente de trabajo BIM" src=images/IFC.svg  style="width:128px;">
+# <img alt="El icono del Ambiente de trabajo BIM" src=images/IFC.svg  style="width:64px;"> BIM Workbench/es
 
 
 {{TOCright}}
@@ -195,3 +191,6 @@ Nuevos ambientes de trabajo están en desarrollo, esté atento!
 
 
 [Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md) [Category:BIM](Category:BIM.md)
+
+---
+[documentation index](../README.md) > BIM Workbench/es

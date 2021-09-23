@@ -7,6 +7,8 @@
    SeeAlso:[Draft Clone](Draft_Clone.md)
 ---
 
+# Draft Mirror/en
+
 ## Description
 
 The <img alt="" src=images/Draft_Mirror.svg  style="width:24px;"> **Draft Mirror** command creates mirrored copies, [Part Mirror](Part_Mirror.md) objects, from selected objects. A [Part Mirror](Part_Mirror.md) object is parametric, it will update if its source object changes.
@@ -120,8 +122,5 @@ mirrored2 = Draft.mirror([polygon1, polygon2], -p1, -p2)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Mirror/en

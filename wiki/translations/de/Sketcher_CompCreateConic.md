@@ -7,6 +7,8 @@
    MenuLocation:Keine (Nur Werkzeugleiste)
 ---
 
+# Sketcher CompCreateConic/de
+
 ## Beschreibung
 
 **Kegel erstellen** ist eine Symbolschaltfläche <img alt="" src=images/Sketcher_CompCreateConic.png  style="width:64px;"> in der Skizzen Geometrie Werkzeugleiste, die Werkzeuge gruppiert um auf Grundlage von Kegelschnitten Kurven zu erzeugen. Klick auf den Abwärtspfeil zur rechten um die Symbole unterhalb aufzuklappen und ein Werkzeug auszuwählen.
@@ -31,4 +33,7 @@
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CompCreateConic/de

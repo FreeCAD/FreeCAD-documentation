@@ -1,10 +1,4 @@
 # Manual:All workbenches at a glance/pl
-
-
-
-
-
-
 {{Manual:TOC}}
 
 One of the biggest difficulties for new users of FreeCAD, is to know in which workbench to find a specific tool. The table below will give you an overview of the most important workbenches and their tools. Refer to each [workbench](Workbenches.md) page in the FreeCAD documentation for a more complete list.
@@ -154,6 +148,5 @@ A number of other very useful workbenches produced by FreeCAD community members 
 -   [The FEM Workbench](FEM_Workbench.md)
 -   [The FreeCAD-addons repository](https://github.com/FreeCAD/FreeCAD-addons)
 
-
-
-
+---
+[documentation index](../README.md) > Manual:All workbenches at a glance/pl

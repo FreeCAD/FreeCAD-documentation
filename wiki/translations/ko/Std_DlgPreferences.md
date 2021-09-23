@@ -7,6 +7,8 @@
    SeeAlso:[환경 설정 편집기](Preferences_Editor/ko.md)
 ---
 
+# Std DlgPreferences/ko
+
 ## 설명
 
 **표준 환경 설정(Std DlgPreferences)** 명령은 [환경 설정 편집기를](Preferences_Editor/ko.md) 엽니다.
@@ -26,4 +28,7 @@
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std DlgPreferences/ko

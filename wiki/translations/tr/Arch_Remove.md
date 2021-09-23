@@ -7,6 +7,8 @@
    SeeAlso:[[Arch Add]]
 ---
 
+# Arch Remove/tr
+
 
 </div>
 
@@ -77,8 +79,5 @@ FreeCAD.ActiveDocument.recompute()
 
 </div>
 
-
-
-
-
-
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Remove/tr

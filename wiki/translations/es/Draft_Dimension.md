@@ -8,6 +8,8 @@
    SeeAlso:[FlipDimension](Draft_FlipDimension/es.md)
 ---
 
+# Draft Dimension/es
+
 
 </div>
 
@@ -369,8 +371,5 @@ dimension4.ViewObject.FontSize = 200
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Dimension/es

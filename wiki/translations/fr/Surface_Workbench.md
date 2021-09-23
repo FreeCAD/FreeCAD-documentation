@@ -1,10 +1,4 @@
-# Surface Workbench/fr
-
-
-
-
-
-<img alt="Icône de l\'atelier Surface" src=images/Workbench_Surface.svg  style="width:128px;">
+# <img alt="Icône de l\'atelier Surface" src=images/Workbench_Surface.svg  style="width:64px;"> Surface Workbench/fr
 
 
 {{TOCright}}
@@ -57,3 +51,6 @@ La surface générée ne peut pas être placée dans un **<img src=images/PartDe
 }} 
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Surface Workbench/fr

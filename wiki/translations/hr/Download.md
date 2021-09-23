@@ -1,5 +1,5 @@
 # Download/hr
- {{TOCright}}
+{{TOCright}}
 
 
 <div class="mw-translate-fuzzy">
@@ -65,5 +65,5 @@ FreeCAD\'s development is active.
 
 FreeCAD zajednica pruža mnogo dodatnih modula i makronaredbi. Od 0.17 mogu se lako instalirati iz sustava FreeCAD pomoću [Uređivač Dodataka](Addon_Manager/hr.md)<img alt="" src=images/AddonManager.svg  style="width:22px;">.
 
-
-
+---
+[documentation index](../README.md) > Download/hr

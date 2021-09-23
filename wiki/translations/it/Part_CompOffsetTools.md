@@ -1,3 +1,4 @@
+# Part CompOffsetTools/it
 ---
 - GuiCommand:/it
    Name:Part CompOffsetTools
@@ -33,5 +34,5 @@ Gli strumenti di Offset
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompOffsetTools/it

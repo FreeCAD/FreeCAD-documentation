@@ -7,6 +7,8 @@
    SeeAlso:
 ---
 
+# WebTools BimServer/ro
+
 
 </div>
 
@@ -88,3 +90,5 @@ Pentru a utiliza această comandă, trebuie îndeplinite următoarele condiții:
 
 </div>
 
+---
+[documentation index](../README.md) > WebTools BimServer/ro

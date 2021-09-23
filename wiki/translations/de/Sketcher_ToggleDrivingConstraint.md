@@ -8,6 +8,8 @@
    SeeAlso:[Umschalten Konstruktion](Sketcher_ToggleConstruction/de.md)
 ---
 
+# Sketcher ToggleDrivingConstraint/de
+
 ## Beschreibung
 
 Das **<img src=images/Sketcher_ToggleDrivingConstraint.svg style="width:16px"> [ Umschalten treibende Beschränkung](Sketcher_ToggleDrivingConstraint/de.md)** Werkzeug wandelt Maßbeschränkungen (Schloss, Horizontaler/Vertikaler Abstand, Länge, Radius und Winkel) in den Referenzmodus und zurück. Die Symbole in der Werkzeugleiste färben sich blau, und anstelle von Maßbeschränkungen werden Referenzbemaßungen erstellt. Referenzbemaßungen beschränken die Skizze nicht. Es kann nützlich sein, in einer Skizze Referenzbemaßungen zu erstellen, um die Bemaßungen zu überprüfen; wenn ein Name angegeben wird, können sie auch dazu verwendet werden, die Beschränkungen in einer anderen Skizze durch [Ausdrücke](Expressions/de.md) zu steuern.
@@ -29,4 +31,7 @@ Das **<img src=images/Sketcher_ToggleDrivingConstraint.svg style="width:16px"> [
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ToggleDrivingConstraint/de

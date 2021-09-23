@@ -1,5 +1,5 @@
 # Macro Guitar fretboard/fr
- {{Macro/fr
+{{Macro/fr
 |Name=Macro Guitar fretboard
 |Icon=Macro_Guitar_fretboard.png
 |Description=Crée un manche de guitare, le script Python est incroyable pour créer une forme complexe .... <br/>Cette macro crée un manche conique composé (ou non) à plusieurs échelles (ou non) avec écrou et fente de frette ou zéro emplacement de frette pour exporter vers le logiciel CAM
@@ -743,3 +743,6 @@ class Fretboard():
 -   Version 0.1 : 2012-03-16
 -   Version 0.2 : 2018-01-25 : conversion pour PySide
 -   Version 0.4 : 2020-01-09: réfection majeure pour ajouter des frettes multi-échelles et frette zéro
+
+---
+[documentation index](../README.md) > Macro Guitar fretboard/fr

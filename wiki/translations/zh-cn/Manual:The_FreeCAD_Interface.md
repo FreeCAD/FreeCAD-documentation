@@ -1,7 +1,4 @@
 # Manual:The FreeCAD Interface/zh-cn
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -102,3 +99,5 @@ FreeCAD 的界面可深度自定义。所有面板和工具栏都可以移动到
 
 </div>
 
+---
+[documentation index](../README.md) > Manual:The FreeCAD Interface/zh-cn

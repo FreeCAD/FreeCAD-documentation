@@ -1,10 +1,4 @@
 # Tutorials/ko
-
-
-
-
-
-
 {{TOCright}}
 
 
@@ -287,3 +281,6 @@ Here are listed all the tutorials that are not in the manual **regardless of the
 
 
 [Category:Tutorials](Category:Tutorials.md)
+
+---
+[documentation index](../README.md) > [Tutorials]]에 있습니다. 외부 사이트에서 주는 자습서 목록은 ](Category:Tutorials]]에 있습니다. 외부 사이트에서 주는 자습서 목록은 .md) > Tutorials/ko

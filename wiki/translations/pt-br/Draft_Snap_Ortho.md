@@ -5,6 +5,8 @@
    SeeAlso:[Draft Snap](Draft_Snap.md), [Draft Snap Lock](Draft_Snap_Lock.md)
 ---
 
+# Draft Snap Ortho/pt-br
+
 ## Descrição
 
 The <img alt="" src=images/Draft_Snap_Ortho.svg  style="width:24px;"> **Draft Snap Ortho** option snaps to imaginary lines that cross the previous point at 0°, 45°, 90° and 135°. The lines and angles are relative to the XY plane of the [working plane](Draft_SelectPlane.md) coordinate system.
@@ -39,5 +41,5 @@ See [Draft Snap](Draft_Snap#Preferences.md).
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Ortho/pt-br

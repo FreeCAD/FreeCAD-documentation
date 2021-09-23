@@ -1,7 +1,4 @@
 # Release notes 0.17/tr
-
-
-
 <div id="itsfree" style="text-align:left;color:black;background:#f6f6f6;margin:1em 7em;padding:0.5em 2em;border:2px solid #a7d7f9;">
 
 \'\'FreeCAD\'in bu sürümü, arkadaşımız Roland Frank\'e [2017 yılında aramızdan ayrılmıştır(Allah rahmet eylesin)](https://forum.freecadweb.org/viewtopic.php?f=8&t=25673) adanmıştır. FreeCAD forumunun aktif ve takdir görmüş bir üyesiydi. [Learn FreeCAD](https://www.youtube.com/watch?v=_HEvhclR4-o&list=PL6fZ68Cq3L8k0JhxnIVjZQN26cn9idJrj) hazırladığı videoları ve [BPLFRE](https://www.youtube.com/watch?v=m49z0weonog&list=PLsrwVwvqYb8G4Ri0iz1JIebsOXkgoytAY) youtube kanalı ile FreeCAD\'e yeni başlayanlara yardımcı oluyordu.
@@ -302,3 +299,6 @@ Some of the new community modules that were created.
 -   [Kicad StepUp Workbench](https://www.freecadweb.org/wiki/KicadStepUp_Workbench) is aimed to help KiCad and FreeCAD users in ECAD and MCAD collaboration.
 
 [Category:News](Category:News.md) [Category:Documentation](Category:Documentation.md) [Category:Releases](Category:Releases.md)
+
+---
+[documentation index](../README.md) > [News](Category:News.md) > Release notes 0.17/tr

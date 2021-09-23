@@ -9,6 +9,8 @@
    SeeAlso:[FEM tutorial](FEM_tutorial/ru.md)
 ---
 
+# FEM EquationFlow/ru
+
 
 </div>
 
@@ -28,4 +30,7 @@
 
 {{FEM Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > FEM EquationFlow/ru

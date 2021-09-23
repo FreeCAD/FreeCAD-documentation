@@ -8,6 +8,8 @@
    SeeAlso:[Sketcher Polyline](Sketcher_CreatePolyline/de.md)
 ---
 
+# Sketcher CreateLine/de
+
 ## Beschreibung
 
 Dieses Werkzeug zeichnet eine Linie durch Aufnahme von zwei Punkten: den Start- und den Endpunkt.
@@ -29,4 +31,7 @@ Das erzeugte Linienobjekt beginnt und endet an den gegebenen Punkten, aber die L
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateLine/de

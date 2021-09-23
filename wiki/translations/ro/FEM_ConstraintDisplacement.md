@@ -1,3 +1,4 @@
+# FEM ConstraintDisplacement/ro
 ---
 - GuiCommand:/ro   Name:FEM ConstraintDisplacement   Name/ro:FEM ConstraintDisplacement   MenuLocation:Model → Mechanical Constraints → Constraint displacement   |Workbenches:[Shortcut:   SeeAlso:[[FEM_tutorial/ro|FEM tutorial](FEM_Workbench/ro___FEM]].md)---
 
@@ -39,4 +40,7 @@ Creează o constrângere MEF pentru a o deplasare prescrisă a unui obiect selec
 
 {{FEM Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > FEM ConstraintDisplacement/ro

@@ -7,6 +7,8 @@
    SeeAlso:[Path Languettes de maintien](Path_DressupTag/fr.md), [Path Dégagement d'angles](Path_DressupDogbone/fr.md), [Path Lame rotative](Path_DressupDragKnife/fr.md)
 ---
 
+# Path DressupRampEntry/fr
+
 ## Description
 
 Cet outil ajoute au tracé existant une rampe d\'entrée à l\'usinage
@@ -34,4 +36,7 @@ Cet outil ajoute au tracé existant une rampe d\'entrée à l\'usinage
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path DressupRampEntry/fr

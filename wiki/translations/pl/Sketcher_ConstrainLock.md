@@ -7,6 +7,8 @@
    SeeAlso:[Utwórz wiązanie blokady](Sketcher_ConstrainBlock/pl.md)
 ---
 
+# Sketcher ConstrainLock/pl
+
 ## Opis
 
 **Wiązanie blokady** ma zastosowanie dla wiązań **<img src=images/Sketcher_ConstrainDistanceX.svg style="width:16px"> <img src=images/Sketcher_ConstrainDistanceY.svg style="width:Zwiąż odległość poziomą](Sketcher_ConstrainDistanceX/pl.md)** i **[16px"> [Zwiąż odległość pionową](Sketcher_ConstrainDistanceY/pl.md)** związania wybranych wierzchołków *(punktów)* na szkicu. Jeśli wybrany zostanie pojedynczy wierzchołek, wówczas poziome i pionowe wiązania odległości będą odnosić się do punktu początkowego szkicu. Jeśli wybrane zostaną dwa lub więcej punktów, dla każdej pary punktów zostaną dodane wiązania odległości poziomej i pionowej. Nie pojawi się automatyczny monit o edycję wartości wiązań, należy je edytować ręcznie.
@@ -29,4 +31,7 @@ Wiązanie <img alt="" src=images/Sketcher_ConstrainLock.svg  style="width:24px;"
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainLock/pl

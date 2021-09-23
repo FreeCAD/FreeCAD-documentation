@@ -1,7 +1,4 @@
 # Macro EdgesToArc/cs
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -114,6 +111,5 @@ if circular:
             FreeCAD.ActiveDocument.removeObject(shape.Name)
 }}
 
-
-
-
+---
+[documentation index](../README.md) > Macro EdgesToArc/cs

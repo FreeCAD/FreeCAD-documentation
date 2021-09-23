@@ -9,6 +9,8 @@
    SeeAlso:[Std Plein écran](Std_ViewFullscreen/fr.md), [Std Plein écran principal](Std_MainFullscreen/fr.md)
 ---
 
+# Std ViewDockUndockFullscreen/fr
+
 ## Introduction
 
 La [Vues 3D](3D_view/fr.md) peut être déconnecté de l\'[interface de FreeCAD](Interface/fr.md) principale et déplacée vers un affichage différent par exemple.
@@ -54,4 +56,7 @@ L\'option de menu **Undocked** sépare la [vue 3D](3D_view/fr.md) active de l\'i
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ViewDockUndockFullscreen/fr

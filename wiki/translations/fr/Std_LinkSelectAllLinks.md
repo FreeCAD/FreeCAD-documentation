@@ -8,6 +8,8 @@
    SeeAlso:[Std Lien objet lié](Std_LinkSelectLinked/fr.md), [Std Lien objet lié primaire](Std_LinkSelectLinkedFinal/fr.md), [Std Rétablir](Std_SelBack/fr.md), [Std Etablir](Std_SelForward/fr.md)
 ---
 
+# Std LinkSelectAllLinks/fr
+
 ## Description
 
 La commande *Std Tous les liens* sélectionne tous les objets [App Link](App_Link/fr.md), les liens, qui sont directement ou indirectement liés au même objet source.
@@ -26,4 +28,7 @@ La commande *Std Tous les liens* sélectionne tous les objets [App Link](App_Lin
 
 {{Std Base navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > Std LinkSelectAllLinks/fr

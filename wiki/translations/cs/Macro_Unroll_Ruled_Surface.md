@@ -1,7 +1,4 @@
 # Macro Unroll Ruled Surface/cs
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -754,6 +751,5 @@ DialogBox.show()
 
 }}
 
-
-
-
+---
+[documentation index](../README.md) > Macro Unroll Ruled Surface/cs

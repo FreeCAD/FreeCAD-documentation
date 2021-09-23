@@ -1,7 +1,4 @@
 # Arch tutorial/pl
-
-
-
 {{TutorialInfo/pl
 |Topic=Modelowanie
 |Level=średniozaawansowany
@@ -478,4 +475,7 @@ Plik utworzony podczas tego ćwiczenia można znaleźć [ze strony yorik-a](http
 
 {{Tutorials navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch tutorial/pl

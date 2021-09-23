@@ -5,6 +5,8 @@
    Workbenches:[Curves](Curves_Workbench.md)
 ---
 
+# Curves EditableSpline/en
+
 ## Description
 
 The <img alt="" src=images/Curves_EditableSpline.svg  style="width:24px;"> [Curves EditableSpline](Curves_EditableSpline.md) creates a freehand B-Spline curve. This tool is part of the [external workbench](External_workbenches.md) called [Curves](Curves_Workbench.md).
@@ -30,4 +32,7 @@ The <img alt="" src=images/Curves_EditableSpline.svg  style="width:24px;"> [Curv
 
 {{Curves Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > Curves EditableSpline/en

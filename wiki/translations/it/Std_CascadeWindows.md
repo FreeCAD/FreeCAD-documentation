@@ -6,6 +6,8 @@
    SeeAlso:[Std TileWindows](Std_TileWindows.md)
 ---
 
+# Std CascadeWindows/it
+
 ## Description
 
 The **Std CascadeWindows** command rearranges the windows in the [Main view area](Main_view_area.md) so that they are all visible but do overlap. The result is determined by the order in which the windows were last activated.
@@ -24,4 +26,7 @@ The **Std CascadeWindows** command rearranges the windows in the [Main view area
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std CascadeWindows/it

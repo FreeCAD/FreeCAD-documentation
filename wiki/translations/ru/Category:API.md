@@ -8,3 +8,6 @@ This category gathers article that list objects and methods available to the pyt
 [Arch API/ru](Arch_API/ru.md) , [Builtin modules/ru](Builtin_modules/ru.md) , [Draft API/ru](Draft_API/ru.md) , [FeaturePython Custom Properties/ru](FeaturePython_Custom_Properties/ru.md) , [FreeCAD API/ru](FreeCAD_API/ru.md) , [Part API/ru](Part_API/ru.md) , [TechDraw API/ru](TechDraw_API/ru.md) , [TechDrawGui API/ru](TechDrawGui_API/ru.md)
 
 [Category:Categories/ru](Category:Categories/ru.md)
+
+---
+[documentation index](../README.md) > Category:API/ru

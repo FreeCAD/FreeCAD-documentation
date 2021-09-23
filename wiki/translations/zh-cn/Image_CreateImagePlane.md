@@ -6,6 +6,8 @@
    SeeAlso:[Image Open](Image_Open.md), [Image Scaling](Image_Scaling.md)
 ---
 
+# Image CreateImagePlane/zh-cn
+
 ## 描述
 
 
@@ -78,4 +80,7 @@
 
 {{Image Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Image](Image_Workbench.md) > Image CreateImagePlane/zh-cn

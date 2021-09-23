@@ -1,5 +1,5 @@
 # Macro cross section
-  {{Macro
+{{Macro
 |Name=Cross_section
 |Icon=Macro_cross_section.png
 |Description=Macro to display a cross-section of the objects in the scene: the cross-section plane can be moved by a slider bar.
@@ -672,4 +672,5 @@ ver 00.06 06/09/2017 : upgrade by Gift see [Optischer Schnitt durch Baugruppe, z
 
 ver 00.05 17/08/2017 : upgrade for 0.17 FreeCAD version by Sam see [Sezione Dinamica](https://forum.freecadweb.org/viewtopic.php?f=28&t=15084&start=10#p187030)
 
-
+---
+[documentation index](../README.md) > Macro cross section

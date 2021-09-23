@@ -7,6 +7,8 @@
    SeeAlso:[Std Suivante](Std_ActivateNextWindow/fr.md), [Std Précédente](Std_ActivatePrevWindow/fr.md)
 ---
 
+# Std Windows/fr
+
 ## Description
 
 La commande **Std Fenêtres** ouvre une boîte de dialogue avec une liste de fenêtres [Zone d\'affichage principale](Main_view_area/fr.md). Dans cette liste, une fenêtre sélectionnée peut être activée.
@@ -37,4 +39,7 @@ La commande **Std Fenêtres** ouvre une boîte de dialogue avec une liste de fen
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std Windows/fr

@@ -1,7 +1,4 @@
-# Image Workbench/uk
- 
-
-<img alt="Image workbench icon" src=images/Workbench_Image.svg  style="width:128px;">
+# <img alt="Image workbench icon" src=images/Workbench_Image.svg  style="width:64px;"> Image Workbench/uk
 
 ## Introduction
 
@@ -39,3 +36,6 @@ The offset of the image can be set during import, or changed later through its p
 }} 
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Image Workbench/uk

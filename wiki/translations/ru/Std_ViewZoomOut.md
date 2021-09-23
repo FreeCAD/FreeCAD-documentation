@@ -8,6 +8,8 @@
    SeeAlso:[Увеличить](Std_ViewZoomIn/ru.md), [Увеличить область](Std_ViewBoxZoom/ru.md)
 ---
 
+# Std ViewZoomOut/ru
+
 ## Описание
 
 The **Std ViewZoomOut** command zooms out in the active [3D view](3D_view.md).
@@ -48,4 +50,7 @@ FreeCADGui.ActiveDocument.ActiveView.zoomOut()
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ViewZoomOut/ru

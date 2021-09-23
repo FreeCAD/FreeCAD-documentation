@@ -1,5 +1,5 @@
 # Quantity/fr
- Quantity est une combinaison d\'un nombre à virgule flottante et d\'une unité. Quantity est utilisé dans l\'ensemble de FreeCAD pour gérer les paramètres et toutes sortes d\'autres entrées/sorties.
+Quantity est une combinaison d\'un nombre à virgule flottante et d\'une unité. Quantity est utilisé dans l\'ensemble de FreeCAD pour gérer les paramètres et toutes sortes d\'autres entrées/sorties.
 
 ## Généralité
 
@@ -285,3 +285,6 @@ from FreeCAD import Units
 }} 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Quantity/fr

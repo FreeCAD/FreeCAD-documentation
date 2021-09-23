@@ -1,5 +1,5 @@
 # Compiling/fr
- Chaque système d\'exploitation dispose de sa page spécifique pour compiler FreeCAD dans la [Documentation d\'aide en ligne](Online_Help_Toc/fr.md).
+Chaque système d\'exploitation dispose de sa page spécifique pour compiler FreeCAD dans la [Documentation d\'aide en ligne](Online_Help_Toc/fr.md).
 
   ----------------------------------------------------------- ------------------------------------------------------- ----------------------------------------------------- ---------------------------------------------------------
      <img alt="" src=images/Windows.png  style="width:" height="32px;">        <img alt="" src=images/Linux.png  style="width:" height="32px;">         <img alt="" src=images/Mac.png  style="width:" height="32px;">       [Compiler sous Docker](Compile_on_Docker/fr.md)
@@ -20,3 +20,6 @@ Pour apprendre à utiliser le système de contrôle des révisions et contribuer
 
 
 [Category:Developer\_Documentation](Category:Developer_Documentation.md) [Category:Developer](Category:Developer.md)
+
+---
+[documentation index](../README.md) > [Developer_Documentation](Category:Developer_Documentation.md) > Compiling/fr

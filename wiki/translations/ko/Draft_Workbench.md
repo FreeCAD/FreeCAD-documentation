@@ -1,7 +1,4 @@
 # Draft Workbench/ko
-
-
-
 {{docnav|[Arch Workbench](Arch_Workbench.md)|[Drawing Workbench](Drawing_Workbench.md)|IconL=Workbench_Arch.svg|IconR=Workbench_Drawing.svg}}
 
 <img alt="Draft workbench icon" src=images/Workbench_Draft.svg  style="width:128px;">
@@ -370,3 +367,6 @@ Inspecting the code of this module can help to understand the programming interf
  
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Draft Workbench/ko

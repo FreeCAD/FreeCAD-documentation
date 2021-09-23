@@ -7,6 +7,8 @@
    SeeAlso:[Std Site Web de FreeCAD](Std_FreeCADWebsite/fr.md), [Std Documentation utilisateurs](Std_FreeCADUserHub/fr.md), [Std Documentation pour scripter en Python](Std_FreeCADPowerUserHub/fr.md), [Std FAQ FreeCAD](Std_FreeCADFAQ/fr.md)
 ---
 
+# Std FreeCADForum/fr
+
 ## Description
 
 La commande **Std Forum de FreeCAD** ouvre le site Web du forum FreeCAD dans le navigateur Internet par défaut du système. La commande nécessite une connexion Internet fonctionnelle.
@@ -23,4 +25,7 @@ Actuellement, cette commande pointe vers [<https://forum.freecadweb.org>](https:
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std FreeCADForum/fr

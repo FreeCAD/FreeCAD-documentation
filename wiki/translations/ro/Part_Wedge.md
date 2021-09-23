@@ -6,6 +6,8 @@
    SeeAlso:[Part Primitives](Part_Primitives.md)
 ---
 
+# Part Wedge/ro
+
 
 </div>
 
@@ -149,8 +151,5 @@ Creați un obiect parametric Pană/Wedge. Valoarea implicită pentru această re
 
 ![](images/Wedge_examples.png )
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Wedge/ro

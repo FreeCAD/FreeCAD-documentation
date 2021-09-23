@@ -6,6 +6,8 @@
    Workbenches:[WebTools](WebTools_Workbench/fr.md)
 ---
 
+# WebTools BimServer/fr
+
 
 **A partir de FreeCAD v0.17, cet outil a été enlevé de l'atelier Arch et fait maintenant partie de l'[atelier externe WebTools](WebTools_Workbench/fr.md) qui peut être installé depuis le menu Outils → <img src="images/AddonManager.svg" width=24px> [Gestionnaire d'Addons](Addon_Manager/fr.md).
 **
@@ -49,3 +51,6 @@ Pentru a utiliza această comandă, trebuie îndeplinite următoarele condiții:
 -   Choisissez l\'objet **Objet racine** que vous souhaitez télécharger. Il doit s\'agir d\'un [Arch Site](Arch_Site/fr.md) ou d\'un [Arch Bâtiment](Arch_Building/fr.md). Seuls les objets appartenant à cet objet racine seront téléchargés.
 -   Ecrivez un **Commentaire**, ce sera la description (nom) de la révision.
 -   Appuyez sur le bouton **Upload**. Une boîte de dialogue s\'ouvre pour vous permettre de sauvegarder le fichier IFC produit à l\'emplacement de votre choix avant de le télécharger. Si vous appuyez sur **Annuler**, le fichier sera enregistré sous un nom temporaire dans le répertoire temporaire du système.
+
+---
+[documentation index](../README.md) > WebTools BimServer/fr

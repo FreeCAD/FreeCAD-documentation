@@ -7,6 +7,8 @@
    SeeAlso:[Draft ToggleConstructionMode](Draft_ToggleConstructionMode.md), [Draft AddToGroup](Draft_AddToGroup.md)
 ---
 
+# Draft AddConstruction/pt-br
+
 ## Descrição
 
 The <img alt="" src=images/Draft_AddConstruction.svg  style="width:24px;"> **Draft AddConstruction** command moves objects to the [Draft construction group](Draft_ToggleConstructionMode.md). It also applies the [construction geometry color](Draft_ToggleConstructionMode#Preferences.md) to the objects.
@@ -38,5 +40,5 @@ In FreeCAD version 0.19 this command and the [Draft ToggleConstructionMode](Draf
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft AddConstruction/pt-br

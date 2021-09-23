@@ -1,10 +1,4 @@
 # External workbenches/ru
-
-
-
-
-
-
 {{TOCright}}
 
 ## Введение
@@ -142,3 +136,6 @@
 
 
 [Category:Addons](Category:Addons.md) [\*](Category:External_Workbenches.md)
+
+---
+[documentation index](../README.md) > [Addons](Category:Addons.md) > External workbenches/ru

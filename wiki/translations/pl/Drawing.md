@@ -1,6 +1,4 @@
 # Drawing/pl
-
-
 ## Introduction
 
 In FreeCAD the word \"[Drawing](Drawing.md)\" is normally used to refer to a 2D projection of a [3D model](model.md). This is usually created with the [TechDraw Workbench](TechDraw_Workbench.md).
@@ -31,3 +29,6 @@ However, when more precision is required, the distinction must be made.
 }} {{Document objects navi}} 
 
 [Category:Glossary](Category:Glossary.md)
+
+---
+[documentation index](../README.md) > [Glossary](Category:Glossary.md) > Drawing/pl

@@ -7,6 +7,8 @@
    SeeAlso:[Esci](Sketcher_LeaveSketch/it.md)
 ---
 
+# Sketcher EditSketch/it
+
 
 </div>
 
@@ -53,4 +55,7 @@ Questo comando permette di modificare uno schizzo esistente. Apr la [Finestra di
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher EditSketch/it

@@ -7,6 +7,8 @@
    SeeAlso:[Std Fenêtre du document](Std_ViewDockUndockFullscreen/fr.md), [Std Plein écran](Std_ViewFullscreen/fr.md)
 ---
 
+# Std ViewCreate/fr
+
 ## Description
 
 La commande **Std Créer une nouvelle vue‏‎** crée une nouvelle [vue 3D](3D_view/fr.md) pour le document actif. Des vues 3D supplémentaires peuvent être utiles si vous souhaitez inspecter le modèle dans plusieurs directions ou à différents niveaux de zoom.
@@ -27,4 +29,7 @@ La commande **Std Créer une nouvelle vue‏‎** crée une nouvelle [vue 3D](3D
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ViewCreate/fr

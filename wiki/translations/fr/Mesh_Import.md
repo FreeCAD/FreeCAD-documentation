@@ -7,6 +7,8 @@
    SeeAlso:[Std Importer](Std_Import/fr.md), [Std Ouvrir](Std_Open/fr.md), [Import Export](Import_Export.md)
 ---
 
+# Mesh Import/fr
+
 ## Description
 
 La commande **Importer un maillage** importe la géométrie d\'un format de fichier de maillage dans le document actif. Plusieurs formats de fichiers sont pris en charge. La commande crée un objet maillage non paramétrique, un [Mesh Feature](Mesh_Feature/fr.md).
@@ -47,4 +49,7 @@ Mesh.insert('D:/testfiles/cylinder.stl')
 
 {{Mesh Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Import/fr

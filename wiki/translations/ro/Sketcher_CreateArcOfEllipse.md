@@ -8,6 +8,8 @@
    SeeAlso:[Sketcher elipsă cu centru](Sketcher_CreateEllipseByCenter/ro.md), [Sketcher Arc cu centru](Sketcher_CompCreateArc/ro.md)
 ---
 
+# Sketcher CreateArcOfEllipse/ro
+
 
 </div>
 
@@ -49,4 +51,7 @@ Acest instrument desenează un arc de elipsă prin alegerea a patru puncte: cent
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateArcOfEllipse/ro

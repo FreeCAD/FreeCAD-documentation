@@ -7,6 +7,8 @@
    Version:0.19
 ---
 
+# Path Slot/fr
+
 ## Description
 
 Cet outil crée une opération de rainurage simple en utilisant différentes méthodes de saisie. Les entrées comprennent:
@@ -253,4 +255,7 @@ Exemple:
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Slot/fr

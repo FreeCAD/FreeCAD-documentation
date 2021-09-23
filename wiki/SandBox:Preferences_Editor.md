@@ -1,11 +1,4 @@
 # SandBox:Preferences Editor
- 
-
-
-
-
- 
-
 ## Introduction
 
 To start the **Preferences editor** select the **Edit → Preferences...** option from the menu. On the Mac OS the **Preferences...** option appears in the **FreeCAD** menu instead (this is the default place for preferences on the Mac).
@@ -691,3 +684,6 @@ It is likely a bad idea to modify the preferences of other parts of FreeCAD unle
  
 
 [Category:Preferences](Category:Preferences.md)
+
+---
+[documentation index](../README.md) > [Preferences](Category:Preferences.md) > SandBox:Preferences Editor

@@ -1,3 +1,4 @@
+# Sketcher CreateRectangle/ro
 ---
 - GuiCommand:/ro   Name:Sketcher CreateRectangle   Name/ro:Sketcher CreateRectangle   Workbenches:[Shortcut:R   MenuLocation:Sketch → Sketcher geometries → Create rectangle   SeeAlso:[[Sketcher CreatePolyline/ro|Sketcher Polyline](Sketcher_Workbench/ro___Sketcher]].md)---
 
@@ -41,4 +42,7 @@ To define a rectangle via a center point and an edge point, use the [Centered re
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateRectangle/ro

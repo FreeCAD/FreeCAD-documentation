@@ -6,6 +6,8 @@
    Workbenches:[Skizzierer Arbeitsbereich](Sketcher_Workbench/de.md), [PartDesign Arbeitsbereich](PartDesign_Workbench/de.md)
 ---
 
+# Sketcher ViewSketch/de
+
 ## Beschreibung
 
 Dieses Werkzeug setzt das Modell lotrecht zur Skizzenebene. Das ist sinnvoll, wenn der Benutzer die Ansicht auf das Modell geändert hat, um einen anderen Aspekt des Modells zu untersuchen und zu einer normalen Ansicht der Skizze zurückkehren will.
@@ -23,4 +25,7 @@ Wenn im Skizzenbearbeitungsmodus, entweder
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ViewSketch/de

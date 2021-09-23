@@ -1,6 +1,4 @@
 # Path FAQ/de
-
-
 ## Häufig gestellte Fragen Pfad Arbeitsbereich 
 
 ## Wie viele Achsen kann der Pfad Arbeitsbereich handhaben? 
@@ -230,4 +228,7 @@ Dabei geht es nur um die Anzeige des Pfades. Du kannst dies in den Einstellungen
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path FAQ/de

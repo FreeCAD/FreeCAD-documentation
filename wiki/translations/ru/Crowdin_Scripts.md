@@ -1,5 +1,5 @@
 # Crowdin Scripts/ru
- {{TOCright}}
+{{TOCright}}
 
 ## Управление переводами для FreeCAD 
 
@@ -91,3 +91,6 @@ The updatefromcrowdin.py script pulls changes from crowdin to your local FreeCAD
 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Administration](Category:Administration.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Crowdin Scripts/ru

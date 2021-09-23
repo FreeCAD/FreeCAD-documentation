@@ -6,6 +6,8 @@
    Version:0.17
 ---
 
+# Sketcher CarbonCopy
+
 ## Description
 
 The **<img src=images/Sketcher_CarbonCopy.svg style="width:16px"> [Sketcher CarbonCopy](Sketcher_CarbonCopy.md)** tool copies all the geometry and constraints from another sketch into the active sketch.
@@ -34,4 +36,7 @@ Dimensional constraints which exist before the copy function remain linked to th
 
 
 
- {{Sketcher Tools navi}}  
+ {{Sketcher Tools navi}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CarbonCopy

@@ -8,6 +8,8 @@
    SeeAlso:[Создать B-сплайн](Sketcher_CreateBSpline/ru.md)
 ---
 
+# Sketcher CreatePeriodicBSpline/ru
+
 ## Описание
 
 
@@ -51,4 +53,7 @@
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreatePeriodicBSpline/ru

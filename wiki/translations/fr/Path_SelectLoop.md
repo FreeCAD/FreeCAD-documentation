@@ -7,6 +7,8 @@
    Shortcut:**P** **L**
 ---
 
+# Path SelectLoop/fr
+
 ## Description
 
 La commande **<img src="images/Path_SelectLoop.svg" width=16px> [Terminer une boucle](Path_SelectLoop/fr.md)** complète une sélection d\'arêtes formant une boucle.
@@ -30,4 +32,7 @@ La commande **<img src="images/Path_SelectLoop.svg" width=16px> [Terminer une bo
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path SelectLoop/fr

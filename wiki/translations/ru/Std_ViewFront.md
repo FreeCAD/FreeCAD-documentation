@@ -8,6 +8,8 @@
    SeeAlso:[Сверху](Std_ViewTop/ru.md), [Справа](Std_ViewRight/ru.md)
 ---
 
+# Std ViewFront/ru
+
 ## Описание
 
 Команда **Std ViewFront** направляет камеру в активном [окне трёхмерного просмотра](3D_view/ru.md) в положительном направлении оси Y.
@@ -45,4 +47,7 @@ FreeCADGui.ActiveDocument.ActiveView.getViewDirection()
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ViewFront/ru

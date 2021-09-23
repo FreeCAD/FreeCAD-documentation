@@ -1,7 +1,4 @@
 # Drawing Workbench/pl
- 
-
-
 **Rozwój Środowiska pracy [Kreślenie](Drawing_Workbench/pl.md) zatrzymał się w FreeCAD '''0.16''', a nowe Środowisko pracy [Rysunek Techniczny](TechDraw_Workbench/pl.md) mające na celu zastąpienie go zostało wprowadzone w wersji '''0.17'''. Oba Środowiska pracy są nadal dostępne w wersji '''0.17''', ale środowisko pracy Kreślenie może zostać usunięte w przyszłych wydaniach.**
 
 <img alt="Ikonka FreeCAD dla środowiska pracy Kreślenie" src=images/Workbench_Drawing.svg  style="width:128px;">
@@ -84,3 +81,6 @@ Niektóre uwagi dotyczące programowania Środowiska pracy Drawing zostaną doda
 }} 
 
 [Category:Obsolete Workbenches](Category:Obsolete_Workbenches.md)
+
+---
+[documentation index](../README.md) > Drawing Workbench/pl

@@ -1,6 +1,4 @@
 # DAG view/fr
-
-
 ## Introduction
 
 
@@ -64,4 +62,7 @@ See also:
 
 {{Interface navi
 
-}} {{Std Base navi}} 
+}} {{Std Base navi}}
+
+---
+[documentation index](../README.md) > DAG view/fr

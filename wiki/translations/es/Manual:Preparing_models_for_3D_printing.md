@@ -1,10 +1,4 @@
 # Manual:Preparing models for 3D printing/es
-
-
-
-
-
-
 {{Manual:TOC/es}}
 
 Uno de los principales usos de FreeCAD es producir objetos del mundo real. Estos pueden ser diseñados en FreeCAD, y luego hacerse realidad de diferentes maneras, como comunicándolos a otras personas que luego los construirán, o, cada vez más frecuentemente, enviándolos directamente a una [impresora 3D](https://en.wikipedia.org/wiki/3D_printing) o a una [fresadora CNC](https://en.wikipedia.org/wiki/Milling_%28machining%29). Este capítulo le mostrará cómo preparar sus modelos para enviarlos a estas máquinas.
@@ -141,3 +135,6 @@ Hay muchas aplicaciones disponibles para simular el corte real, una de ellas que
 
 
 [Category:Path](Category:Path.md) [Category:Mesh](Category:Mesh.md) [Category:Tutorials](Category:Tutorials.md)
+
+---
+[documentation index](../README.md) > [Path](Category:Path.md) > Manual:Preparing models for 3D printing/es

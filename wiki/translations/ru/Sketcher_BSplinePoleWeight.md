@@ -8,6 +8,8 @@
    SeeAlso:[Создать B-сплайн](Sketcher_CompCreateBSpline/ru.md)
 ---
 
+# Sketcher BSplinePoleWeight/ru
+
 
 </div>
 
@@ -62,4 +64,7 @@ How to change weights is described in [ this Wiki page](B-Splines#Changing_the_W
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplinePoleWeight/ru

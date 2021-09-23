@@ -7,6 +7,8 @@
    SeeAlso:[Tepsi](Draft_Tray/tr.md)
 ---
 
+# Draft ApplyStyle/tr
+
 
 </div>
 
@@ -72,5 +74,5 @@ This command currently handles only five of the settings the [Draft SetStyle](Dr
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ApplyStyle/tr

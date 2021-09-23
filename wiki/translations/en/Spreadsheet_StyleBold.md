@@ -6,6 +6,8 @@
    Version:0.17
 ---
 
+# Spreadsheet StyleBold/en
+
 ## Description
 
 The **<img src=images/Spreadsheet_StyleBold.svg style="width:16px"> [Spreadsheet StyleBold](Spreadsheet_StyleBold.md)** tool makes the text inside the cell adopt **bold** style.
@@ -22,4 +24,7 @@ The **<img src=images/Spreadsheet_StyleBold.svg style="width:16px"> [Spreadsheet
 
 {{Spreadsheet_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet StyleBold/en

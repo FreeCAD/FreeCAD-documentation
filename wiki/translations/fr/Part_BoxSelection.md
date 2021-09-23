@@ -8,6 +8,8 @@
    SeeAlso:[Std Sélection par boîte](Std_BoxSelection/fr.md), [Std Sélection d'éléments](Std_BoxElementSelection/fr.md), [Std Tout sélectionner](Std_SelectAll/fr.md)
 ---
 
+# Part BoxSelection/fr
+
 ## Description
 
 L\'outil **<img src="images/Part_BoxSelection.svg" width=16px> [Part Sélection par boîte](Part_BoxSelection/fr.md)** vous permet de sélectionner les faces des objets à l\'écran qui sont touchées par la sélection rectangulaire.
@@ -27,8 +29,5 @@ L\'outil **<img src="images/Part_BoxSelection.svg" width=16px> [Part Sélection 
 
 ## Script
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part BoxSelection/fr

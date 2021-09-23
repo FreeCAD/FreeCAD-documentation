@@ -7,6 +7,8 @@
    SeeAlso:[Sketcher Circle](Sketcher_CompCreateCircle/pt.md)
 ---
 
+# Sketcher CreateArc/pt
+
 
 </div>
 
@@ -29,4 +31,7 @@ When starting the tool, the mouse pointer changes to a white cross with a red ar
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateArc/pt

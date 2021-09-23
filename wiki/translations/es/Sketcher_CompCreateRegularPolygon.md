@@ -7,6 +7,8 @@
    MenuLocation:Ninguno (sólo barra de herramientas)
 ---
 
+# Sketcher CompCreateRegularPolygon/es
+
 
 </div>
 
@@ -36,4 +38,7 @@
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CompCreateRegularPolygon/es

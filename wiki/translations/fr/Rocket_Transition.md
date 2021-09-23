@@ -7,6 +7,8 @@
    Version:0.19
 ---
 
+# Rocket Transition/fr
+
 ## Description
 
 Les transitions sont comme [Coiffe](Rocket_NoseCone/fr.md) à bien des égards. Bien que généralement coniques, elles peuvent avoir les mêmes formes que les coiffes mais sont beaucoup plus polyvalents.
@@ -122,3 +124,6 @@ A définir
 
 
 [Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+
+---
+[documentation index](../README.md) > [API/fr]] et ](Category:API/fr]] et .md) > Rocket Transition/fr

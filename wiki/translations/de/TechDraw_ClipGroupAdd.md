@@ -6,6 +6,8 @@
    SeeAlso:[TechDraw Einfügen Ausschnittgruppe](TechDraw_ClipGroupAdd/de.md), [TechDraw Entferne Ansicht aus Ausschnittgruppe](TechDraw_ClipGroupRemove/de.md)
 ---
 
+# TechDraw ClipGroupAdd/de
+
 ## Beschreibung
 
 Dieses Werkzeug fügt eine Ansicht zu einem vorhandenen Ausschnitt hinzu.
@@ -22,4 +24,7 @@ Dieses Werkzeug fügt eine Ansicht zu einem vorhandenen Ausschnitt hinzu.
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ClipGroupAdd/de

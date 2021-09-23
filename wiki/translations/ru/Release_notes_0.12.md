@@ -47,3 +47,6 @@
 {{languages | {{en|Release_notes_0.12}} {{es|Release_notes_0.12/es}} {{fr|Release_notes_0.12/fr}} {{it|Release_notes_0.12/it}} {{pl|Release_notes_0.12/pl}} }}
 
 [Category:News](Category:News.md) [Category:Documentation](Category:Documentation.md) [Category:Releases](Category:Releases.md)
+
+---
+[documentation index](../README.md) > [News](Category:News.md) > Release notes 0.12/ru

@@ -1,7 +1,4 @@
 # Topological data scripting/zh-cn
-
-
-
 {{TOCright}}
 
 
@@ -1656,3 +1653,6 @@ s.read("test.stp")
 }} 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Topological data scripting/zh-cn

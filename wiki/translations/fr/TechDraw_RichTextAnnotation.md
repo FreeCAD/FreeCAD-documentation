@@ -8,6 +8,8 @@
    SeeAlso:[TechDraw Modèles](TechDraw_Templates/fr.md), [Draft SVG](Draft_SVG/fr.md), [TechDraw Ligne de référence](TechDraw_LeaderLine/fr.md)
 ---
 
+# TechDraw RichTextAnnotation/fr
+
 ## Description
 
 L\'outil Insérer une annotation de texte enrichi ajoute un bloc d\'annotation formaté à une [Ligne de référence](TechDraw_LeaderLine/fr.md) ou à une vue.
@@ -61,4 +63,7 @@ blockObj.AnnoText = myHTMLText
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw RichTextAnnotation/fr

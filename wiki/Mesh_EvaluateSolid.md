@@ -6,6 +6,8 @@
    SeeAlso:[Arch SelectNonSolidMeshes](Arch_SelectNonSolidMeshes.md)
 ---
 
+# Mesh EvaluateSolid
+
 ## Description
 
 The **Mesh EvaluateSolid** command checks if a mesh object is solid. A solid mesh object does not have any holes.
@@ -22,4 +24,7 @@ The **Mesh EvaluateSolid** command checks if a mesh object is solid. A solid mes
 
 
 
- {{Mesh Tools navi}}  
+ {{Mesh Tools navi}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh EvaluateSolid

@@ -1,7 +1,4 @@
 # Manual:The FreeCAD Interface/es
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -95,3 +92,5 @@ Estas opciones de personalización avanzada están disponibles en el **Herramien
 
 </div>
 
+---
+[documentation index](../README.md) > Manual:The FreeCAD Interface/es

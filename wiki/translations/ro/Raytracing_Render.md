@@ -1,3 +1,4 @@
+# Raytracing Render/ro
 ---
 - GuiCommand:   Name:Raytracing Render   MenuLocation:Raytracing → Render‏‎   |Workbenches:[[Raytracing_Workbench   Raytracing]]|Shortcut:   SeeAlso:---
 
@@ -37,4 +38,7 @@ Randează proiectul selectat folosind un renderer extern.
 
 {{Raytracing_Tools_navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing Render/ro

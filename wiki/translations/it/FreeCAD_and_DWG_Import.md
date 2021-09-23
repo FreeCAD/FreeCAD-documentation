@@ -1,5 +1,5 @@
 # FreeCAD and DWG Import/it
- {{TOCright}}
+{{TOCright}}
 
 
 {{Fake heading|sub=4|< Back to [[FreeCAD Howto Import Export]]}}
@@ -208,3 +208,6 @@ In development version as mentioned above you can switch from the proprietary OD
  
 
 [Category:File\_Formats](Category:File_Formats.md) [Category:Common Questions](Category:Common_Questions.md)
+
+---
+[documentation index](../README.md) > [File_Formats](Category:File_Formats.md) > FreeCAD and DWG Import/it

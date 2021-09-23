@@ -1,7 +1,4 @@
 # Draft tutorial/es
-
-
-
 {{TutorialInfo/es
 |Topic= Borrador
 |Level= Principiante
@@ -219,5 +216,5 @@ Este tutorial utiliza la notación {{Value|(x, y, z)}} para denotar las coordena
 
     {{Tutorials navi}}
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft tutorial/es

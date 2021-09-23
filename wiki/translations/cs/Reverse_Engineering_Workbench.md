@@ -1,10 +1,4 @@
-# Reverse Engineering Workbench/cs
-
-
-
-
-
-<img alt="Reverse Engineering workbench icon" src=images/Workbench_Reverse_Engineering.svg  style="width:128px;">
+# <img alt="Reverse Engineering workbench icon" src=images/Workbench_Reverse_Engineering.svg  style="width:64px;"> Reverse Engineering Workbench/cs
 
 ## Introduction
 
@@ -29,3 +23,6 @@ Link to appropriate threads discussing this workbench
 
 
 [Category:Reverse Engineering](Category:Reverse_Engineering.md) [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Reverse Engineering Workbench/cs

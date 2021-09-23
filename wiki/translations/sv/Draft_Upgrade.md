@@ -1,3 +1,4 @@
+# Draft Upgrade/sv
 ---
 - GuiCommand:/sv   Name:Draft_Upgrade   Workbenches:[Arch](Draft_Workbench/sv___Draft]],_[[Arch_Workbench/sv.md)|MenuLocation:Draft → Upgrade   Shortcut:U P   SeeAlso:[Draft Downgrade](Draft_Downgrade/sv.md)---
 
@@ -88,8 +89,5 @@ add_list5, delete_list5 = Draft.upgrade(face, delete=False)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Upgrade/sv

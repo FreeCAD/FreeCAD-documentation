@@ -8,6 +8,8 @@
    Version:0.17
 ---
 
+# Arch Rebar BentShape/it
+
 
 </div>
 
@@ -162,3 +164,6 @@ BentShapeRebar.editBentShapeRebar(Rebar2, 50, 35, 20, 20,
  
 
 [Category:Reinforcement](Category:Reinforcement.md)
+
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Rebar BentShape/it

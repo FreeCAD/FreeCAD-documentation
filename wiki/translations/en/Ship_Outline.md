@@ -8,6 +8,8 @@
    SeeAlso:
 ---
 
+# Ship Outline/en
+
 ## Description
 
 Plots the ship hull outline draw
@@ -106,4 +108,7 @@ Outline draw plot.
 
 {{Ship_Tools_navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Ship Outline/en

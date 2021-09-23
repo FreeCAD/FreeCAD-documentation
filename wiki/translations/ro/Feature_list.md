@@ -1,7 +1,4 @@
 # Feature list/ro
- 
-
-
 <div class="mw-translate-fuzzy">
 
 Aceasta pagina prezinta o mare parte dintre funcționalitățile FreeCAD. Daca doriti sa priviti in viitor vizitati [pagina de planificare](Development_roadmap/ro.md). Pagina de [screenshot-uri](Screenshots.md) va poate face o iede rapida despre capabilitati.
@@ -293,3 +290,6 @@ Power users have created various custom [external workbenches](external_workbenc
 
 
 [Category:User Documentation](Category:User_Documentation.md)
+
+---
+[documentation index](../README.md) > [User Documentation](Category:User Documentation.md) > Feature list/ro

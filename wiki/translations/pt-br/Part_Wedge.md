@@ -6,6 +6,8 @@
    SeeAlso:[Part Primitives](Part_Primitives.md)
 ---
 
+# Part Wedge/pt-br
+
 ## Description
 
 Create a parametric Wedge object. This Wedge defaults to a larger square base and a smaller square top.
@@ -67,8 +69,5 @@ Create a parametric Wedge object. This Wedge defaults to a larger square base an
 
 ![](images/Wedge_examples.png )
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Wedge/pt-br

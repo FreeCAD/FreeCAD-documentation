@@ -7,6 +7,8 @@
    SeeAlso:[Réglage des préférences](Preferences_Editor/fr.md) 
 ---
 
+# Std DlgParameter/fr
+
 ## Description
 
 La commande **Std Éditeur des paramètres** ouvre l\'éditeur de paramètres. Dans l\'éditeur de paramètres, les paramètres qui contrôlent le comportement de FreeCAD et de ses ateliers peuvent être inspectés et éventuellement supprimés, ajoutés ou modifiés. Les paramètres sont stockés dans un fichier appelé {{FileName|user.cfg}}, l\'emplacement de ce fichier dépend de votre système d\'exploitation.
@@ -170,4 +172,7 @@ C\'est probablement une mauvaise idée de modifier les préférences d\'autres p
 
 {{Std Base navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > Std DlgParameter/fr

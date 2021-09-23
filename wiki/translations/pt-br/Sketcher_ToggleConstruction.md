@@ -7,6 +7,8 @@
    MenuLocation:Sketch → Geometrias do esboço → Ativa/desativa a geometria de construção
 ---
 
+# Sketcher ToggleConstruction/pt-br
+
 
 </div>
 
@@ -51,4 +53,7 @@ and once you **<img src=images/Sketcher_LeaveSketch.svg style="width:16px"> [lea
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ToggleConstruction/pt-br

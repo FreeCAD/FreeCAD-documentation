@@ -8,6 +8,8 @@
    SeeAlso:[Restricción Paralela](Constraint_Parallel/es.md)
 ---
 
+# Sketcher ConstrainSymmetric/es
+
 
 </div>
 
@@ -90,4 +92,7 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainSymmetric/es

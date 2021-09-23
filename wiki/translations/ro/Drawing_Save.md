@@ -1,3 +1,4 @@
+# Drawing Save/ro
 ---
 - GuiCommand:/ro   Name:Drawing Save   Name/ro:Drawing Save   Workbenches:[MenuLocation:Drawing → Export page...   Shortcut:none   SeeAlso:[[Drawing Open SVG|Drawing Open SVG](Drawing_Workbench/ro___Drawing]],_Complete.md)---
 
@@ -17,4 +18,7 @@ Fișierele SVG sunt frecvente și pot fi vizualizate în majoritatea browserelor
 
 {{Drawing Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Save/ro

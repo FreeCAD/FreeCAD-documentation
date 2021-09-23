@@ -6,6 +6,8 @@
    Workbenches:[Mesh](Mesh_Workbench/fr.md)
 ---
 
+# Mesh Scale/fr
+
 ## Description
 
 La commande **Mesh Echelle** met à l\'échelle les objets maillés.
@@ -27,4 +29,7 @@ La commande **Mesh Echelle** met à l\'échelle les objets maillés.
 
 {{Mesh Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Scale/fr

@@ -1,7 +1,4 @@
 # Mesh Scripting/es
-
-
-
 {{TOCright}}
 
 ## Introducción
@@ -99,3 +96,6 @@ Una fuente extensa, aunque difícil de usar, de scripts relacionados con la mall
 Ver también: [Interfaz de programación de aplicaciones Malla](Mesh_API.md). {{Top}} {{Powerdocnavi}} {{Mesh Tools navi}} 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Scripting/es

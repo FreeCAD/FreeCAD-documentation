@@ -1,5 +1,5 @@
 # Aeroplane/pl
- {{TutorialInfo
+{{TutorialInfo
 |Topic=Part Workbench
 |Level=Beginner
 |Time=10 minutes
@@ -99,4 +99,7 @@ I hope this little tutorial has helped you to get a feel for rotations.
 
 {{Tutorials navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Aeroplane/pl

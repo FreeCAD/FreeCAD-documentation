@@ -6,6 +6,8 @@
    SeeAlso:[TechDraw Arch View](TechDraw_ArchView.md)
 ---
 
+# TechDraw DraftView
+
 ## Description
 
 The <img alt="" src=images/TechDraw_DraftView.svg  style="width:24px;"> [DraftView](TechDraw_DraftView.md) tool inserts a view of a selected [Part](Part_Workbench.md)-based or Group object into a drawing page. Unlike the standard <img alt="" src=images/TechDraw_View.svg  style="width:24px;"> [View](TechDraw_View.md) tool, views created with this tool are handled by the <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft Workbench](Draft_Workbench.md), and specially designed for showing 2D objects. See Notes.
@@ -68,4 +70,7 @@ rc = page.addView(dv)
 
 
 
- {{TechDraw Tools navi}} 
+ {{TechDraw Tools navi}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw DraftView

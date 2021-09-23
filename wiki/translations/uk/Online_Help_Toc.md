@@ -1,7 +1,4 @@
 # Online Help Toc/uk
-
-
-
 <div class="mw-translate-fuzzy">
 
 Це інтернет версия системи допомоги в FreeCAD. Посилання на статті автоматично додаються до файлу FreeCAD.chm за допомогою модуля wiki2chm.py. Ви знайдете цей модуль в src/Tools/wiki2chm.py. Також доступна версія для друку даного [посібника](Manual/uk.md).
@@ -154,3 +151,6 @@ There is another table of contents for the [FreeCAD MANUAL](Manual:Introduction.
 
 
 [Category:Documentation/uk](Category:Documentation/uk.md) [Category:Documentation](Category:Documentation.md)
+
+---
+[documentation index](../README.md) > [Documentation](Category:Documentation.md) > Online Help Toc/uk

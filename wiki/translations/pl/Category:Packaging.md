@@ -6,3 +6,6 @@ Ta kategoria gromadzi strony związane z pakietowaniem FreeCAD na różne platfo
 [AppImage/pl](AppImage/pl.md) , [Debian development/pl](Debian_development/pl.md) , [Debian Unstable/pl](Debian_Unstable/pl.md) , [Linux packaging/pl](Linux_packaging/pl.md) , [Packaging/pl](Packaging/pl.md)
 
 [Category:Developer\_Documentation](Category:Developer_Documentation.md)
+
+---
+[documentation index](../README.md) > Category:Packaging/pl

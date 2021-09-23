@@ -6,6 +6,8 @@
    Workbenches:Tous
 ---
 
+# Std RandomColor/fr
+
 ## Description
 
 La commande **Std Couleur aléatoire** applique une {{PropertyView/fr|Shape Color}} aléatoire (Couleur de la forme) aux objets sélectionnés.
@@ -27,4 +29,7 @@ La commande **Std Couleur aléatoire** applique une {{PropertyView/fr|Shape Colo
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std RandomColor/fr

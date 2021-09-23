@@ -1,5 +1,5 @@
 # Macro HighlightCommon/it
- {{Macro/it
+{{Macro/it
 |Name=HightlightCommon
 |Icon=Macro_HighlightCommon.png
 |Translate=Evidenzia parti comuni
@@ -33,3 +33,6 @@ Il codice è visibile in Github: [Utility/HighlightCommon.FCMacro](https://githu
 -   Vedere la macro complementare: [Macro\_HighlightDifference](Macro_HighlightDifference/it.md)
 -   Il mio blog [Linux for an engineer](http://linuxforanengineer.blogspot.com.es/) per il codice e altre interessanti macro per FreeCAD
 -   La discussione nel forum: [\"collision detection\", overlapping](http://forum.freecadweb.org/viewtopic.php?f=22&t=12426)
+
+---
+[documentation index](../README.md) > Macro HighlightCommon/it

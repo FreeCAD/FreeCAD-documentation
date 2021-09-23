@@ -1,5 +1,5 @@
 # Macro Snip/fr
- {{Macro/fr
+{{Macro/fr
 |Name=Snip
 |Icon=Snip.png
 |Description=Utilisez cette macro pour poster facilement des captures d’écran sur le forum FreeCAD.<br/>Il est préférable d’ajouter cette macro à votre barre d’outils de macros personnalisées globales pour un accès rapide et facile.<br/>Lors de la publication sur le forum FreeCAD, il est souvent utile d'être en mesure d'inclure des captures d'écran. Le problème est que c'est une tâche un peu fastidieuse. Cette macro facilite un peu la tâche.<br/>La macro peut prendre des captures d’écran ou utiliser des captures d’écran existantes déjà copiées dans le Presse-papiers du système. Pour ignorer l'image déjà dans le presse-papiers, appuyez sur la touche Maj tout en appelant la macro. Pour utiliser la macro afin de prendre la capture d'écran, ajustez la taille et l'emplacement de la boîte de dialogue qui apparaît, puis cliquez sur OK. En cliquant sur OK, la macro tentera de prendre une capture d'écran de la zone de l'écran couverte par la boîte de dialogue. La boîte de dialogue elle-même est semi-transparente, vous pouvez donc voir le contenu ci-dessous.
@@ -324,3 +324,6 @@ if not userCanceled:
 ## Lien
 
 La discussion sur le forum [Snip macro](https://forum.freecadweb.org/viewtopic.php?f=9&t=38328&sid=385bf3174dcae7fb8bdf529f4e76dfed)
+
+---
+[documentation index](../README.md) > Macro Snip/fr

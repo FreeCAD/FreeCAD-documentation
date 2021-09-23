@@ -1,7 +1,4 @@
 # Drawing templates/es
-
-
-
 **The [Drawing Workbench](Drawing_Workbench.md) became obsolete in v0.17. Consider using the [TechDraw Workbench](TechDraw_Workbench.md) instead.**
 
 
@@ -301,3 +298,6 @@ The two lines that FreeCAD will be looking for are \"\$blocks\" and \"\$entities
 }} 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Documentation](Category:Documentation.md)
+
+---
+[documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing templates/es

@@ -6,6 +6,8 @@
    SeeAlso:[Std Import](Std_Import.md), [Std Open](Std_Open.md), [Import Export](Import_Export.md)
 ---
 
+# Mesh Import/pl
+
 ## Description
 
 The **Mesh Import** command imports geometry from a mesh file format into the active document. Several file formats are supported. The command creates a non-parametric mesh object, a [Mesh Feature](Mesh_Feature.md).
@@ -46,4 +48,7 @@ Mesh.insert('D:/testfiles/cylinder.stl')
 
 {{Mesh Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Import/pl

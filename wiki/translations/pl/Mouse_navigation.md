@@ -1,10 +1,4 @@
 # Mouse navigation/pl
-
-
-
-
-
-
 {{TOCright}}
 
 ## Informacje ogólne 
@@ -232,8 +226,5 @@ W komputerach MacBook z gładzikiem nawigacja za pomocą gestów działa bardzo 
 
 Poradnik [Dodanie nowego stylu nawigacji myszką do FreeCAD](Adding_a_new_mouse_navigation_option_to_FreeCAD.md) wprowadza programistów, którzy chcą stworzyć własny wariant nawigacji za pomocą myszy. Wymagana jest znajomość składni języka C++.
 
-
-
-
-
-
+---
+[documentation index](../README.md) > Mouse navigation/pl

@@ -1,3 +1,4 @@
+# Std ViewRotateRight/ro
 ---
 - GuiCommand:   Name:Std_RotateRight   Workbenches:All   SeeAlso:...---
 
@@ -53,4 +54,7 @@ FreeCADGui.ActiveDocument.ActiveView.getCameraOrientation()
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ViewRotateRight/ro

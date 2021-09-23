@@ -7,6 +7,8 @@
    SeeAlso:[Pfad EinrichtungsBlatt](Path_SetupSheet.md)
 ---
 
+# Path ExportTemplate/de
+
 ## Beschreibung
 
 Der Export von Auftragsvorlagen bietet einen bequemen Mechanismus zum Speichern häufig verwendeter Auftragsdefinitionen aus einem bestehenden Auftrag heraus. Dies erleichtert die Einrichtung zukünftiger Aufträge, die weitgehend ähnlich sind, indem der Import von Auftrag Vorlagen während des Auftragserstellungsprozesses ermöglicht wird.
@@ -56,4 +58,7 @@ Der **Bearbeiten → Voreinstellungen... → Pfad →  Auftragsvorgaben Reiter, 
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path ExportTemplate/de

@@ -1,7 +1,4 @@
 # Line drawing function/sv
-
-
-
 {{TOCright}}
 
 ## Introduction
@@ -467,3 +464,6 @@ Tveka inte att skriva dina frågor eller ideer på [forum](http://forum.freecadw
 Don\'t hesitate to ask questions or share ideas on the [forum](https://forum.freecadweb.org/)! {{Top}} {{Powerdocnavi}} 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Line drawing function/sv

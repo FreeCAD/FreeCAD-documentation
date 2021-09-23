@@ -1,6 +1,4 @@
 # Sketcher Sketch/de
-
-
 This should hold the description of the Sketch tool that is part of the [Sketcher Workbench](Sketcher_Workbench.md) and the [PartDesign Workbench](PartDesign_Workbench.md).
 
 This is a work in progress. Meanwhile, consult:
@@ -11,4 +9,7 @@ This is a work in progress. Meanwhile, consult:
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Sketch/de

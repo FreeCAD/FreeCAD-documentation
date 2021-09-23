@@ -1,5 +1,5 @@
 # Tree view/ru
- {{TOCright}}
+{{TOCright}}
 
 ## Введение
 
@@ -147,4 +147,7 @@
 
 {{Interface navi
 
-}} {{Std Base navi}} 
+}} {{Std Base navi}}
+
+---
+[documentation index](../README.md) > Tree view/ru

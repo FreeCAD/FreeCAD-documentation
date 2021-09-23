@@ -1,5 +1,5 @@
 # Macro Manage Navigational Style/fr
- {{Macro/fr
+{{Macro/fr
 |Name=Macro Manage Navigational Styles
 |Description=Cette paire de macros vous permet de modifier le style de navigation tout restant le sketcher.
 |Author=PiffPoof
@@ -46,6 +46,5 @@ p=App.ParamGet("User parameter:BaseApp/Preferences/View")
 p.SetString("NavigationStyle","Gui::CADNavigationStyle")
 }}
 
-
-
-
+---
+[documentation index](../README.md) > Macro Manage Navigational Style/fr

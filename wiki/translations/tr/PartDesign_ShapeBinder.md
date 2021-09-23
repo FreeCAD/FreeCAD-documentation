@@ -7,6 +7,8 @@
    SeeAlso:[klonla](PartDesign_Clone/tr.md)
 ---
 
+# PartDesign ShapeBinder/tr
+
 
 </div>
 
@@ -161,4 +163,7 @@ Birden fazla seçim için bir geçici çözüm vardır: Şekil bağlayıcı\'yı
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign ShapeBinder/tr

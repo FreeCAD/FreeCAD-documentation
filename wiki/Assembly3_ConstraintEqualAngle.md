@@ -5,6 +5,8 @@
    Workbenches:[Assembly3](Assembly3_Workbench.md)
 ---
 
+# Assembly3 ConstraintEqualAngle
+
 ## Description
 
 This tool builds a link between two objects of an assembly and fixes one angle between them in relation to another angle\'s value. The selected elements of each object or more precisely their implicit coordinate systems (ICS) are used to position one object to another.
@@ -22,7 +24,5 @@ The line directions as well as the face normals are represented by each ICS\'s z
 
 :   In addition the \"Flip element\" function of the elements properties panel may be needed if ICSs are not orientated as expected.
 
-
-
-
- 
+---
+[documentation index](../README.md) > Assembly3 ConstraintEqualAngle

@@ -7,6 +7,8 @@
    Version:0.17
 ---
 
+# Spreadsheet AlignCenter/ru
+
 ## Описание
 
 The **<img src=images/Spreadsheet_AlignCenter.svg style="width:16px"> [Spreadsheet AlignCenter](Spreadsheet_AlignCenter.md)** tool makes the text inside the cell align to the center.
@@ -23,4 +25,7 @@ The **<img src=images/Spreadsheet_AlignCenter.svg style="width:16px"> [Spreadshe
 
 {{Spreadsheet_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet AlignCenter/ru

@@ -8,6 +8,8 @@
    SeeAlso:[Вставка аннотаций форматированным текстом](TechDraw_RichTextAnnotation/ru.md), [Добавить информацию о сварке в указательную линию](TechDraw_WeldSymbol/ru.md), [Группы линий](TechDraw_LineGroup/ru.md)
 ---
 
+# TechDraw LeaderLine/ru
+
 ## Описание
 
 The LeaderLine tool adds a line to a View. Other annotation objects (such as [Rich Text Annotations](TechDraw_RichTextAnnotation.md)) can be connected to the leaderline to form complex annotations.
@@ -92,4 +94,7 @@ leaderObj.Y = 5
 
 {{TechDraw Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw LeaderLine/ru

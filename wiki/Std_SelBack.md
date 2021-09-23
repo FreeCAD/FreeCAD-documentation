@@ -7,6 +7,8 @@
    SeeAlso:[Std LinkSelectLinked](Std_LinkSelectLinked.md), [Std LinkSelectLinkedFinal](Std_LinkSelectLinkedFinal.md), [Std LinkSelectAllLinks](Std_LinkSelectAllLinks.md), [Std SelForward](Std_SelForward.md)
 ---
 
+# Std SelBack
+
 ## Description
 
 The **Std SelBack** command restores the previous recorded [Tree view](Tree_view.md) selection. Note that selections are only recorded if [Tree RecordSelection mode](Std_TreeRecordSelection.md) is switched on.
@@ -24,4 +26,7 @@ The **Std SelBack** command restores the previous recorded [Tree view](Tree_view
 
 
 
- {{Std Base navi}} 
+ {{Std Base navi}}
+
+---
+[documentation index](../README.md) > Std SelBack

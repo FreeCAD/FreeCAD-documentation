@@ -8,6 +8,8 @@
    SeeAlso:[Arch Outils matériaux](Arch_CompSetMaterial/fr.md), [Arch Matériaux multiples](Arch_MultiMaterial/fr.md)
 ---
 
+# Arch SetMaterial/fr
+
 ## Description
 
 L\'outil Matériau permet d\'ajouter des [matériaux](Material/fr.md) dans le document actif et attribue un matériau à un objet [Arch](Arch_Workbench/fr.md). Les matériaux peuvent prendre toutes les propriétés d\'un certain matériel, et contrôler la couleur de l\'objet auquel il est attaché. Les données sont stockées dans le dossier **Matériaux** dans le document actif.
@@ -45,8 +47,5 @@ L\'outil Matériau permet d\'ajouter des [matériaux](Material/fr.md) dans le do
 
 Cela correspond à peu près à [IfcMaterial](https://standards.buildingsmart.org/IFC/DEV/IFC4_2/FINAL/HTML/link/ifcmaterial.htm).
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SetMaterial/fr

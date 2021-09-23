@@ -7,6 +7,8 @@
    SeeAlso:[Sketcher Contrainte de coïncidence](Sketcher_ConstrainCoincident/fr.md), [Problème de dénomination topologique](Topological_naming_problem/fr.md)
 ---
 
+# Sketcher ValidateSketch/fr
+
 ## Description
 
 L\'utilitaire **Valider l\'esquisse** permet d\'analyser et de réparer une esquisse qui n\'est plus modifiable ou d\'ajouter des [contraintes de coïncidence](Sketcher_ConstrainCoincident/fr.md) manquantes à une esquisse créée à partir de géométrie importée, par exemple de fichiers DXF. Il peut aussi être utile pour localiser une coïncidence manquante à une esquisse native qui génère une erreur \"can\'t validate broken face\" (ne peut pas valider une face cassée) en tentant d\'appliquer une fonction PartDesign à celle-ci.
@@ -78,4 +80,7 @@ Le mécanisme de verrouillage fonctionne généralement bien et cet outil ne dev
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ValidateSketch/fr

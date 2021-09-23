@@ -1,6 +1,4 @@
 # FEM Mesh CalculiX
- 
-
 ## FEM element types in CalculiX 
 
 For detailed information on FreeCAD FEM elements see [FEM Mesh](FEM_Mesh.md) and [FEM Element Types](FEM_Element_Types.md). For CalculiX specific questions you may try the [Discourse group](https://calculix.discourse.group) or the [Discord channel](https://discord.gg/yyuQQg5).
@@ -93,3 +91,6 @@ The following node order is not implemented ! TODO: verify node order (do not fo
  {{FEM Tools navi}}  
 
 [Category:Developer](Category:Developer.md) [Category:Poweruser\_Documentation](Category:Poweruser_Documentation.md)
+
+---
+[documentation index](../README.md) > [Developer](Category:Developer.md) > FEM Mesh CalculiX

@@ -1,6 +1,4 @@
 # Artwork Plot/ru
- 
-
 Эти иконки находятся в указанной исходной папке.
 
 Для всех иконок в исходнике смотри [Художественное оформление](Artwork/ru.md).
@@ -29,3 +27,6 @@
 }} 
 
 [Category:Plot](Category:Plot.md)
+
+---
+[documentation index](../README.md) > [Plot](Category:Plot.md) > Artwork Plot/ru

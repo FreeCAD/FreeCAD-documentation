@@ -1,3 +1,4 @@
+# PartDesign SubtractiveLoft/ro
 ---
 - GuiCommand:   Name:PartDesign SubtractiveLoft   Workbenches:[MenuLocation:Part Design → Subtractive loft   Shortcut:None   SeeAlso:[[PartDesign AdditiveLoft|Additive loft](PartDesign_Workbench___PartDesign]].md), [Subtractive pipe](PartDesign_SubtractivePipe.md)---
 
@@ -93,4 +94,7 @@ Instrumentul **Subtractive Loft** creează un solid substractiv în Corpul activ
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveLoft/ro

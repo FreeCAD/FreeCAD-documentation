@@ -1,3 +1,4 @@
+# Part Cut/cs
 ---
 - GuiCommand:/cs   Name:Part Cut   Name/cs:Díl Oddělit   MenuLocation:Díl → Oddělit   Workbenches:[Kompletace ](Part_Workbench/cs___Díl]],_[[Complete_Workbench/cs.md)|SeeAlso:[Díl Sjednotit](Part_Union/cs.md), [Díl Společné](Part_Common/cs.md)---
 
@@ -29,8 +30,5 @@ Cuts (subtracts) selected Part objects, the last one being subtracted from the f
 
 Input objects must be [OpenCascade](OpenCascade.md) shapes. Examples: stuff made with Part, PartDesign, Sketcher workbenches. Not meshes (unless those were converted to shapes) - for meshes, there are specific Boolean tools in MeshDesign workbench.
 
-
-
-
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Cut/cs

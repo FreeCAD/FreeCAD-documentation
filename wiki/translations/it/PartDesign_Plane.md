@@ -8,6 +8,8 @@
    SeeAlso:[Punto di riferimento](PartDesign_Point/it.md), [Linea di riferimento](PartDesign_Line/it.md)
 ---
 
+# PartDesign Plane/it
+
 
 </div>
 
@@ -72,4 +74,7 @@ Fare doppio clic sull\'etichetta DatumPlane nell\'albero del modello o fare clic
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Plane/it

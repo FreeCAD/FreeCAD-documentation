@@ -6,3 +6,6 @@ This category is for pages related to building information management (BIM).
 [Arch IfcExplorer/sv](Arch_IfcExplorer/sv.md) ,
 
 [Category:User Documentation/sv](Category:User_Documentation/sv.md) [Category:Arch/sv](Category:Arch/sv.md)
+
+---
+[documentation index](../README.md) > Category:BIM/sv

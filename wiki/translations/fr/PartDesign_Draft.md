@@ -6,6 +6,8 @@
    Workbenches:[PartDesign](PartDesign_Workbench/fr.md)
 ---
 
+# PartDesign Draft/fr
+
 ### Description
 
 Cet outil crée une dépouille angulaire sur les faces sélectionnées d\'un objet. Une nouvelle dépouille distincte (suivie d\'un numéro séquentiel, s\'il y a déjà des dépouilles dans le document) est créée dans l\'arborescence du projet.
@@ -51,4 +53,7 @@ Cet outil crée une dépouille angulaire sur les faces sélectionnées d\'un obj
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Draft/fr

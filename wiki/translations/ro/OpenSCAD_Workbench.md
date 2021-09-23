@@ -1,10 +1,4 @@
-# OpenSCAD Workbench/ro
-
-
-
-
-
-<img alt="OpenSCAD workbench icon" src=images/Workbench_OpenSCAD.svg  style="width:128px;">
+# <img alt="OpenSCAD workbench icon" src=images/Workbench_OpenSCAD.svg  style="width:64px;"> OpenSCAD Workbench/ro
 
 ## Introducere
 
@@ -105,3 +99,6 @@ Dacă FreeCAD se blochează atunci când importați CSG, este recomandat să act
 }} 
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > OpenSCAD Workbench/ro

@@ -8,6 +8,8 @@
    SeeAlso:[Skizzierer Ellipsenbogen](Sketcher_CreateArcOfEllipse/de.md), [Skizzierer Hyperbelbogen](Sketcher_CreateArcOfHyperbola/de.md)
 ---
 
+# Sketcher CreateArcOfParabola/de
+
 ## Beschreibung
 
 Dieses Werkzeug erzeugt einen Bogen der Parabel durch Fokus, Knoten und Endpunkte.
@@ -31,4 +33,7 @@ Schaltfläche.
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateArcOfParabola/de

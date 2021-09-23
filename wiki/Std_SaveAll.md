@@ -6,6 +6,8 @@
    SeeAlso:[Std Save](Std_Save.md)
 ---
 
+# Std SaveAll
+
 ## Description
 
 The **Std SaveAll** command saves all open documents.
@@ -35,4 +37,7 @@ To save a document use the `save` method of the document object. A new document 
 
 
 
- {{Std Base navi}}  
+ {{Std Base navi}}
+
+---
+[documentation index](../README.md) > Std SaveAll

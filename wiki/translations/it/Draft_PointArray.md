@@ -9,6 +9,8 @@
    SeeAlso:[Serie ortogonale](Draft_OrthoArray/it.md), [Serie polare](Draft_PolarArray/it.md), [Serie circolare](Draft_CircularArray/it.md), [Serie su tracciato](Draft_PathArray/it.md), [Serie di link su tracciato](Draft_PathLinkArray/it.md), [Serie di link su punti](Draft_PointLinkArray/it.md), [Clona](Draft_Clone/it.md)
 ---
 
+# Draft PointArray/it
+
 
 </div>
 
@@ -278,5 +280,5 @@ doc.recompute()
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft PointArray/it

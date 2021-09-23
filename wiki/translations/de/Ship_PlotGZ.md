@@ -9,6 +9,8 @@
    SeeAlso:
 ---
 
+# Ship PlotGZ/de
+
 ## Einführung
 
 ZUTUN
@@ -27,6 +29,5 @@ ZUTUN
 
 {{Userdocnavi/de}}
 
-
-
-
+---
+[documentation index](../README.md) > Ship PlotGZ/de

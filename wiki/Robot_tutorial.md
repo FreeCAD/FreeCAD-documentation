@@ -1,5 +1,5 @@
 # Robot tutorial
-  {{TutorialInfo
+{{TutorialInfo
 |Topic= Robot Workbench
 |Level= Beginner
 |Time=
@@ -49,4 +49,7 @@ This tutorial is targeting on the use of [industrial robots](http://en.wikipedia
 3.  Click on Play ** &#9654;** button
 4.  Watch simulation
 
- {{Tutorials navi}} {{Robot Tools navi}} 
+ {{Tutorials navi}} {{Robot Tools navi}}
+
+---
+[documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot tutorial

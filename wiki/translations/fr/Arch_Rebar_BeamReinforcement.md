@@ -8,6 +8,8 @@
    SeeAlso:[Reinforcement](Reinforcement_Workbench.md), [Arch Armature personnalisée](Arch_Rebar/fr.md), [Arch Armature 2x6](Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars/fr.md), 
 ---
 
+# Arch Rebar BeamReinforcement/fr
+
 ## Description
 
 L\'outil [Rebar Poutre](Arch_Rebar_BeamReinforcement/fr.md) permet à l\'utilisateur de créer des barres d\'armature à l\'intérieur d\'un objet poutre [Arch Structure](Arch_Structure/fr.md).
@@ -364,3 +366,6 @@ RebarGroup = TwoLeggedBeam.makeReinforcement(
  
 
 [Category:Reinforcement](Category:Reinforcement.md)
+
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Rebar BeamReinforcement/fr

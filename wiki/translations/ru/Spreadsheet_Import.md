@@ -8,6 +8,8 @@
    SeeAlso:[Экспорт электронной таблицы](Spreadsheet_Export/ru.md)
 ---
 
+# Spreadsheet Import/ru
+
 ## Описание
 
 Инструмент **<img src=images/Spreadsheet_Import.svg style="width:16px"> [Импорт электронной таблицы](Spreadsheet_Import/ru.md)** позволяет вам импортировать файлы (называемые как CSV) у которых значения разделены символами табуляции, в верстак spreadsheet, чтобы эти данные можно было модифицировать и использовать с [выражениями](expressions/ru.md).
@@ -27,4 +29,7 @@
 
 {{Spreadsheet_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet Import/ru

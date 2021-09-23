@@ -7,6 +7,8 @@
    Version:0.19
 ---
 
+# Arch Fence/de
+
 ## Beschreibung
 
 Der [Arch Zaun](Arch_Fence/de.md) ist ein Objekt, das einen Zaun durch die Wiederholung eines einzelnen Zaunpfostens und eines Abschnitts entlang eines bestimmten Pfades bildet.
@@ -95,8 +97,5 @@ post = FreeCAD.ActiveDocument.Post
 Fence = Arch.buildFence(fence_section, post, sketch)
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Fence/de

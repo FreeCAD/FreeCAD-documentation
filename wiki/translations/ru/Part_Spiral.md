@@ -8,6 +8,8 @@
    SeeAlso:[Создать примитивы...](Part_CreatePrimitives/ru.md)
 ---
 
+# Part Spiral/ru
+
 
 </div>
 
@@ -23,8 +25,5 @@
 
 ![](images/Spiral_y45_it.png )
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Spiral/ru

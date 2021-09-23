@@ -1,8 +1,4 @@
-# BIM Workbench/de
-
- 
-
-<img alt="BIM Externes Arbeitsbereichssymbol" src=images/IFC.svg  style="width:128px;">
+# <img alt="BIM Externes Arbeitsbereichssymbol" src=images/IFC.svg  style="width:64px;"> BIM Workbench/de
 
 
 {{TOCright}}
@@ -187,3 +183,6 @@ Neue Arbeitsbereiche sind in der Entwicklung, bleib\' dran!
 
 
 [Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md) [Category:BIM](Category:BIM.md)
+
+---
+[documentation index](../README.md) > BIM Workbench/de

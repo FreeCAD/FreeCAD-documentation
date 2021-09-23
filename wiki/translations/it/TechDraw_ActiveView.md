@@ -9,6 +9,8 @@
    Version:0.19
 ---
 
+# TechDraw ActiveView/it
+
 
 </div>
 
@@ -112,4 +114,7 @@ TechDrawGui.copyActiveViewToSvgFile(Gui.ActiveDocument.ActiveView,"myFile.svg")
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ActiveView/it

@@ -1,6 +1,4 @@
 # App FeaturePython/ru
-
-
 ## Введение
 
 Объект <img alt="" src=images/Feature.svg  style="width:32px;"> [App FeaturePython](App_FeaturePython/ru.md), или формально `Приложение::FeaturePython`, является простым экземпляром [App DocumentObject](App_DocumentObject/ru.md) в [Python](Python/ru.md).
@@ -95,4 +93,7 @@ If the desired object should have a placement, a shape, an attachment, or other 
 
 {{Document objects navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > App FeaturePython/ru

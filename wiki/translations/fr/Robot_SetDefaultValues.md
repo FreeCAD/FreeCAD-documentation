@@ -6,6 +6,8 @@
    MenuLocation:Robot → Définir les valeurs par défaut
 ---
 
+# Robot SetDefaultValues/fr
+
 
 </div>
 
@@ -59,4 +61,7 @@ Les valeurs par défaut du programme sont pour:
 
 {{Robot_Tools_navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot SetDefaultValues/fr

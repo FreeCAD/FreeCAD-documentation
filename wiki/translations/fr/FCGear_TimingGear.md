@@ -7,6 +7,8 @@
    Version:v0.16
 ---
 
+# FCGear TimingGear/fr
+
 ## Description
 
 Le but des engrenages de distribution est de permettre à l\'arbre à cames et au vilebrequin de faire tourner la chaîne de distribution. Le vilebrequin tourne pour déplacer les pistons de haut en bas à l\'intérieur des cylindres. L\'arbre à cames tourne pour permettre aux soupapes d\'admission et d\'échappement des cylindres de s\'ouvrir et de se fermer. Ces composants sont importants pour le bon calage du moteur.
@@ -87,3 +89,6 @@ Les limitations ne sont pas encore connues.
 
 
 [Category:Addons](Category:Addons.md) [Category:FCGear](Category:FCGear.md) [Category:External Command Reference](Category:External_Command_Reference.md)
+
+---
+[documentation index](../README.md) > [Addons](Category:Addons.md) > FCGear TimingGear/fr

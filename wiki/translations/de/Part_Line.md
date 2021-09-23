@@ -7,6 +7,8 @@
    SeeAlso:[Part Grundelemente](Part_Primitives/de.md)
 ---
 
+# Part Line/de
+
 ## Beschreibung
 
 ## Anwendung
@@ -84,11 +86,5 @@
 |                                                        |     :                                           |
 +--------------------------------------------------------+-------------------------------------------------+
 
-
-
-
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Line/de

@@ -6,6 +6,8 @@
    SeeAlso:[TechDraw Projection Group](TechDraw_ProjectionGroup.md), [TechDraw Section View](TechDraw_SectionView.md)
 ---
 
+# TechDraw View/en
+
 ## Description
 
 The View tool adds a representation of one or more objects to a Drawing page. This is the basic building block of the TechDraw workbench. Most other Views are derived in some way from NewView.
@@ -130,4 +132,7 @@ FreeCAD.ActiveDocument.View.Direction = (0.0,0.0,1.0)
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw View/en

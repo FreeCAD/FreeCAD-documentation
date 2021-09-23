@@ -1,3 +1,4 @@
+# Part XOR/de
 ---
 - GuiCommand:/de
    Name:Part_XOR
@@ -33,5 +34,5 @@
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part XOR/de

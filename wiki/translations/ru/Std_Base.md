@@ -1,10 +1,4 @@
-# Std Base/ru
-
-
-
-
-
-<img alt="Логотип стандартных команд и инструментов" src=images/Freecad.svg  style="width:128px;">
+# <img alt="Логотип стандартных команд и инструментов" src=images/Freecad.svg  style="width:64px;"> Std Base/ru
 
 
 {{TOCright}}
@@ -67,3 +61,6 @@
 }} 
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > [Workbenches](Category:Workbenches.md) > Std Base/ru

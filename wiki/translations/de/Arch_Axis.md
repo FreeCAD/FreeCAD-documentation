@@ -8,6 +8,8 @@
    SeeAlso:[Achsensystem](Arch_AxisSystem/de.md), [Arch Gitter](Arch_Grid/de.md)
 ---
 
+# Arch Axis/de
+
 ## Beschreibung
 
 Das **<img src="images/Arch_Axis.svg" width=16px> [Architektur Achsen](Arch_Axis/de.md)** Werkzeug ermöglicht es dir, eine Reihe von Achsen im aktuellen Dokument zu platzieren. Der Abstand und der Winkel zwischen den Achsen ist anpassbar, ebenso wie der Nummerierungsstil. Die Achsen dienen hauptsächlich als Referenzen, auf die Objekte gefangen werden, können aber auch zusammen mit **<img src="images/Arch_Axis_System.svg" width=16px> [ Architektur AchsenSysteme](Arch_AxisSystem.md)** verwendet werden und kann auch von anderen Architekturobjekten referenziert werden, um parametrische Anordnungen, z.B. von Trägern oder Stützen, zu erstellen. **<img src="images/Arch_Grid.svg" width=16px> [Architektur Gitter](Arch_Grid/de.md)** können auch an Stellen von Achsen verwendet werden.
@@ -90,8 +92,5 @@ Draft.move(Axes2, FreeCAD.Vector(-1000, 2500, 0))
 FreeCAD.ActiveDocument.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Axis/de

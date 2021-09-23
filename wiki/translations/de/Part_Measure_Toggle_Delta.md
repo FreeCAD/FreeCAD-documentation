@@ -6,6 +6,8 @@
    Workbenches:[Part](Part_Workbench/de.md)
 ---
 
+# Part Measure Toggle Delta/de
+
 
 </div>
 
@@ -44,5 +46,5 @@ Dieses Werkzeug schaltet die Sichtbarkeit von Delta (grün) Messungen um.
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Toggle Delta/de

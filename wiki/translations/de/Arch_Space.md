@@ -8,6 +8,8 @@
    SeeAlso:[Wand](Arch_Wall/de.md), [Struktur](Arch_Structure/de.md)
 ---
 
+# Arch Space/de
+
 ## Beschreibung
 
 Mit dem Raum Werkzeug kannst du ein leeres Volumen festlegen, entweder indem du es auf einer festen Form basierst, oder indem du seine Grenzen oder eine Mischung aus beidem festlegst. Wenn es ausschließlich auf Begrenzungen basiert, wird das Volumen berechnet, indem von der Begrenzungsbox aller gegebenen Begrenzungen ausgegangen und die Räume hinter jeder Begrenzung subtrahiert werden. Das Raumobjekt definiert immer ein festes Volumen. Die Bodenfläche eines Raumobjekts, die berechnet wird, indem eine horizontale Ebene im Massenschwerpunkt des Raumvolumens geschnitten wird, kann ebenfalls angezeigt werden.
@@ -148,5 +150,5 @@ Arch.removeSpaceBoundaries(Space, selection)
 |IconC=Workbench_Arch.svg
 }}
 
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Space/de

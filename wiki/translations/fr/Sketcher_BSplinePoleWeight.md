@@ -8,6 +8,8 @@
    SeeAlso:[Sketcher B-spline](Sketcher_CompCreateBSpline/fr.md)
 ---
 
+# Sketcher BSplinePoleWeight/fr
+
 ## Description
 
 Affiche ou masque l\'affichage des **poids** pour les points de contrôle d\'une courbe B-spline (voir [ci-dessous](#Explication_de_poids.md) pour une explication des poids).
@@ -59,4 +61,7 @@ La façon de modifier les poids est décrite dans [cette page Wiki](B-Splines#Ch
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplinePoleWeight/fr

@@ -1,5 +1,5 @@
 # Macro FreeCAD to Kerkythea/pl
- {{Macro
+{{Macro
 |Name=FC to Kerkythea
 |Icon=Macro_FreeCAD_to_Kerkythea.png
 |Description=Macro to export your model to the raytracing program [http://www.kerkythea.net/cms/ Kerkythea].
@@ -598,6 +598,5 @@ exportKerkythea().exec_()
 
 }}
 
-
-
-
+---
+[documentation index](../README.md) > Macro FreeCAD to Kerkythea/pl

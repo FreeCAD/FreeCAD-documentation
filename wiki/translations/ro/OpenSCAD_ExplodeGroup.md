@@ -1,3 +1,4 @@
+# OpenSCAD ExplodeGroup/ro
 ---
 - GuiCommand:   Name:OpenSCAD ExplodeGroup   MenuLocation:OpenSCAD → Explode Group‏‎   |Workbenches:[[OpenSCAD Workbench   OpenSCAD]]|Shortcut:none   SeeAlso:------
 
@@ -73,4 +74,7 @@ Pentru a dezmembra matricile de reptabilitata din Atelierul Draft, utilizați in
 
 {{OpenSCAD_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD ExplodeGroup/ro

@@ -1,7 +1,4 @@
 # Part Module/pt-br
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -219,3 +216,6 @@ Veja [Script(roteiro) da peça](Part_scripting/pt-br.md).
  
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Module/pt-br

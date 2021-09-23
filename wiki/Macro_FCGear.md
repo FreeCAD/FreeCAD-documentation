@@ -1,5 +1,5 @@
 # Macro FCGear
-  **This Macro has been converted in to a workbench called [[FCGear Workbench]]. Please use the workbench instead of this macro as it is actively maintained.**
+**This Macro has been converted in to a workbench called [[FCGear Workbench]]. Please use the workbench instead of this macro as it is actively maintained.**
 
 
 {{Macro
@@ -49,4 +49,5 @@ Note:
 -   [FCGear](https://github.com/looooo/FCGear)
 -   [Forum topic](http://forum.freecadweb.org/viewtopic.php?f=3&t=12878&start=20)
 
- 
+---
+[documentation index](../README.md) > Macro FCGear

@@ -6,3 +6,6 @@ This category lists pages related to the [Plot Workbench/ja](Plot_Workbench/ja.m
 [Plot Save/ja](Plot_Save/ja.md) , [Template:Plot Tools navi/ja](Template:Plot_Tools_navi/ja.md)
 
 [Category:Workbenches/ja](Category:Workbenches/ja.md)
+
+---
+[documentation index](../README.md) > Category:Plot/ja

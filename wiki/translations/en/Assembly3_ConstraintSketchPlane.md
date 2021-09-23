@@ -5,6 +5,8 @@
    Workbenches:[Assembly3](Assembly3_Workbench.md)
 ---
 
+# Assembly3 ConstraintSketchPlane/en
+
 ## Description
 
 The **<img src="images/Assembly_ConstraintSketchPlane.svg" width=24px> [Sketch plane](Assembly3_ConstraintSketchPlane.md)** command creates a \"Sketch plane\" as a container for draft objects.
@@ -22,8 +24,5 @@ It can be used to create a skeleton sketch for 2D kinematics.
 
 :   With an existing non-empty assembly steps 1 and 2 can be skipped and any planar face element can be used as a work plane for the sketch plane.
 
-
-
-
-
-
+---
+[documentation index](../README.md) > Assembly3 ConstraintSketchPlane/en

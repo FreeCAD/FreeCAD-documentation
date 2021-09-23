@@ -48,3 +48,6 @@ These are new suggestions for this year. Don\'t forget to look at the [last year
 Best of luck to all applicants!
 
 [Category:Google Summer of Code](Category:Google_Summer_of_Code.md)
+
+---
+[documentation index](../README.md) > Google Summer of Code 2018

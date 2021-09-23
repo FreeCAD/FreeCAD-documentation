@@ -1,3 +1,4 @@
+# Ship New/ro
 ---
 - GuiCommand:   Name:Ship New‏‎    MenuLocation:Ship design → Create a new ship   |Workbenches:[[Ship Workbench   Ship]]|Shortcut:   SeeAlso:---
 
@@ -114,4 +115,7 @@ De aici mi departe, trebuie să avem **Ship** selectată înainte de a executa o
 
 {{Ship_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > Ship New/ro

@@ -8,6 +8,8 @@
    SeeAlso:[표준 열기](Std_Open/ko.md), [Std Import](Std_Import.md)
 ---
 
+# Std New/ko
+
 ## 설명
 
 **표준 새 파일(Std New)** 명령은 빈 새 문서를 만들고 활성화 시킵니다.
@@ -109,4 +111,7 @@ FreeCAD.closeDocument(doc.Name)
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std New/ko

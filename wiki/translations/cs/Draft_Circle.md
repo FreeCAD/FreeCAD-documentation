@@ -1,3 +1,4 @@
+# Draft Circle/cs
 ---
 - GuiCommand:/cs   Name:Draft_Circle   Name/cs:Kreslení_Kružnice   Workbenches:[Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation:Kreslení -> Kružnice   Shortcut:C I   SeeAlso:[Kreslení oblouk](Draft_Arc/cs.md)---
 
@@ -163,8 +164,5 @@ circle3 = Draft.make_circle(750, placement=place3)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Circle/cs

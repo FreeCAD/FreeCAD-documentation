@@ -7,6 +7,8 @@
    Version:0.17
 ---
 
+# Sketcher SwitchVirtualSpace/fr
+
 ## Description
 
 FreeCAD Sketcher comporte deux espaces virtuels sur lesquels des contraintes peuvent être définies. Habituellement, toutes les contraintes sont définies sur l'espace virtuel un. Vous pouvez déplacer certaines contraintes vers l\'espace virtuel deux. Cela peut aider à ne contrôler que quelques contraintes à la fois.
@@ -34,4 +36,7 @@ Si vous décidez de définir des contraintes sur le deuxième espace virtuel, ne
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SwitchVirtualSpace/fr

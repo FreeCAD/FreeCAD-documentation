@@ -9,6 +9,8 @@
    SeeAlso:[Testo](Draft_Text/it.md), [Forma da testo](Draft_ShapeString/it.md)
 ---
 
+# Draft Label/it
+
 
 </div>
 
@@ -305,5 +307,5 @@ doc.recompute()
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Label/it

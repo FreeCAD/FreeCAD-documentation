@@ -1,10 +1,4 @@
 # Tracker/zh-cn
-
-
-
-
-
-
 {{TOCright}}
 
 ![](images/Mantis_logo_262x90.png )
@@ -188,3 +182,6 @@ For the inquisitive here is the regex MantisBT uses for this operation:
 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Administration](Category:Administration.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Tracker/zh-cn

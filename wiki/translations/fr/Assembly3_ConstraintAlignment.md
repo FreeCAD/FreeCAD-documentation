@@ -6,6 +6,8 @@
    Workbenches:[Assembly3](Assembly3_Workbench/fr.md)
 ---
 
+# Assembly3 ConstraintAlignment/fr
+
 ## Description
 
 Cet outil relie deux ou plusieurs objets d\'un assemblage et fait correspondre leurs orientations. Les éléments sélectionnés de chaque objet ou plus précisément leurs systèmes de coordonnées implicites (ICS = implicit coordinate systems) sont utilisés pour positionner un objet par rapport à un autre.
@@ -20,8 +22,5 @@ Le décalage de leurs axes z et l\'angle entre leurs axes x (et y également) ne
 2.  Sélectionnez un élément de face planaire de chaque objet.
 3.  Appuyez sur le bouton **<img src="images/Assembly_ConstraintAlignment.svg" width=16px>[Alignment](Assembly3_ConstraintAlignment/fr.md)**.
 
-
-
-
-
-
+---
+[documentation index](../README.md) > Assembly3 ConstraintAlignment/fr

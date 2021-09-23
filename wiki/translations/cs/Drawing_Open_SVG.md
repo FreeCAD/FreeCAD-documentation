@@ -1,3 +1,4 @@
+# Drawing Open SVG/cs
 ---
 - GuiCommand:/cs   Name:Drawing Open SVG   Name/cs:Drawing Open SVG   Workbenches:[MenuLocation:Drawing → Open SVG...   Shortcut:none   SeeAlso:[[Drawing Save/cs|Uložení výkresu](Drawing_Workbench/cs___Výkres]],_Sestavení.md)---
 
@@ -15,4 +16,7 @@ Tento nástroj otevírá výkres předtím uložený jako SVG (scalable vector g
 
 {{Drawing Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Open SVG/cs

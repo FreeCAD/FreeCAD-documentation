@@ -8,6 +8,8 @@
    SeeAlso:[PartDesign Bezugspunkt](PartDesign_Point/de.md), [PartDesign Bezugsebene](PartDesign_Plane/de.md)
 ---
 
+# PartDesign Line/de
+
 
 </div>
 
@@ -52,4 +54,7 @@ Mittels Doppelklick auf den Eintrag DatumLine in der Baumstruktur oder einen Rec
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Line/de

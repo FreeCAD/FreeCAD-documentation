@@ -9,6 +9,8 @@
    SeeAlso:[FCGear Engrenage à développante](FCGear_InvoluteGear/fr.md)
 ---
 
+# FCGear CycloideGear/fr
+
 ## Description
 
 Les engrenages cycloïdaux sont très sensibles à un ajustement inexact de la distance centrale, ce qui entraîne alors une modification du rapport de transmission. Pour ces raisons, les engrenages cycloïdaux sont peu présents dans la construction mécanique mais ne sont utilisés que dans des cas particuliers tels que dans l\'industrie horlogère, pour les compresseurs mécaniques ou pour l\'entraînement de crémaillères.
@@ -95,3 +97,6 @@ Pour plus d\'informations voir <img alt="" src=images/FCGear_InvoluteGear.svg  s
 
 
 [Category:Addons](Category:Addons.md) [Category:FCGear](Category:FCGear.md) [Category:External Command Reference](Category:External_Command_Reference.md)
+
+---
+[documentation index](../README.md) > [Addons](Category:Addons.md) > FCGear CycloideGear/fr

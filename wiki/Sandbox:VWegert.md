@@ -7,3 +7,6 @@ This is a sandbox page to try out Wiki formatting code.
   Cell by Alias      =Spreadsheet042.MyAlias   =\<\>.MyAlias
 
 [Category:Sandbox](Category:Sandbox.md)
+
+---
+[documentation index](../README.md) > Sandbox:VWegert

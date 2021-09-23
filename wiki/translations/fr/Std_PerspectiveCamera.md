@@ -8,6 +8,8 @@
    SeeAlso:[Std Vue orthographique](Std_OrthographicCamera/fr.md)
 ---
 
+# Std PerspectiveCamera/fr
+
 ## Description
 
 La commande **Std Vue en perspective** fait passer la vision du mode actif [vue 3D](3D_view/fr.md) en mode de vue en perspective. Dans ce mode, les objets qui sont plus éloignés de l\'appareil photo apparaissent plus petits que ceux qui sont plus proches.
@@ -51,4 +53,7 @@ FreeCADGui.ActiveDocument.ActiveView.getCameraType()
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std PerspectiveCamera/fr

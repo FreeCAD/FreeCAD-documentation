@@ -1,7 +1,4 @@
-# Image Workbench/pl
- 
-
-<img alt="Ikonka FreeCAD dla Środowiska pracy Obraz" src=images/Workbench_Image.svg  style="width:128px;">
+# <img alt="Ikonka FreeCAD dla Środowiska pracy Obraz" src=images/Workbench_Image.svg  style="width:64px;"> Image Workbench/pl
 
 ## Wprowadzenie
 
@@ -39,3 +36,6 @@ Odsunięcie obrazu może być ustawione podczas importu lub zmienione później 
 }} 
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Image Workbench/pl

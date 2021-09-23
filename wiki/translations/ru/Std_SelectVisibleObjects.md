@@ -7,6 +7,8 @@
    Workbenches:All
 ---
 
+# Std SelectVisibleObjects/ru
+
 
 </div>
 
@@ -24,4 +26,7 @@
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std SelectVisibleObjects/ru

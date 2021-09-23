@@ -7,6 +7,8 @@
    SeeAlso:[[Draft Move]]
 ---
 
+# BIM Copy/es
+
 
 </div>
 
@@ -20,3 +22,5 @@ La herramienta BIM Copy es un acceso directo a la herramienta estándar [Draft M
 
 </div>
 
+---
+[documentation index](../README.md) > BIM Copy/es

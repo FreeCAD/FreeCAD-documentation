@@ -7,6 +7,8 @@
    SeeAlso:[Сохранить копию](Std_SaveCopy/ru.md),<br> [Cохранить](Std_Save/ru.md)
 ---
 
+# Std SaveAs/ru
+
 ## Описание
 
 Команда **Сохранить как\...** позволяет сохранить текущий активный документ под другим названием.
@@ -44,4 +46,7 @@ To save a document under a new name use the `saveAs` method of the document obje
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std SaveAs/ru

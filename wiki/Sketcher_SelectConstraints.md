@@ -7,6 +7,8 @@
    Version:0.15
 ---
 
+# Sketcher SelectConstraints
+
 ## Description
 
 Selects the constraints of a sketcher element.
@@ -27,4 +29,7 @@ Selects the constraints of a sketcher element.
 
 
 
- {{Sketcher Tools navi}}  
+ {{Sketcher Tools navi}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectConstraints

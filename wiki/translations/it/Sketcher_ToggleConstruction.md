@@ -7,6 +7,8 @@
    MenuLocation:Sketcher → Geometrie → Geometrie di costruzione
 ---
 
+# Sketcher ToggleConstruction/it
+
 
 </div>
 
@@ -76,4 +78,7 @@ e finito lo schizzo gli elementi utilizzati per la costruzione diventano invisib
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ToggleConstruction/it

@@ -7,6 +7,8 @@
    Version:0.17
 ---
 
+# Spreadsheet AlignVCenter/de
+
 ## Beschreibung
 
 Das **<img src=images/Spreadsheet_AlignVCenter.svg style="width:16px"> [Kalkulationstabelle AusrichtenVMittig](Spreadsheet_AlignVCenter/de.md)** Werkzeug bewirkt, dass der Text innerhalb der Zelle vertikal zur Mitte der Zelle ausgerichtet wird.
@@ -23,4 +25,7 @@ Das **<img src=images/Spreadsheet_AlignVCenter.svg style="width:16px"> [Kalkulat
 
 {{Spreadsheet_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet AlignVCenter/de

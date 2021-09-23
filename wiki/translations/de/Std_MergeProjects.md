@@ -1,3 +1,4 @@
+# Std MergeProjects/de
 ---
 - GuiCommand:/de   Name:Std MergeProject   Name/de:Std Projekt zusammenführen   Workbenches:Alle   MenuLocation:[[Std File Menu/de   Datei]] → Projekt zusammenführen|Shortcut:-   SeeAlso:---
 
@@ -45,4 +46,7 @@ The **Std MergeProjects** command adds the contents of a FreeCAD file into the a
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std MergeProjects/de

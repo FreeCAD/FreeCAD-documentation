@@ -1,5 +1,5 @@
 # Macro Dump Objects/it
- {{Macro/it
+{{Macro/it
 |Name=Macro Dump Objects
 |Translate=Elenca oggetti
 |Description=Questa macro genera un elenco di tutti gli oggetti del documento corrente. L'elenco può apparire nella finestra dei Rapporti o in una finestra indipendente.
@@ -365,6 +365,5 @@ if FreeCAD.ActiveDocument != None:
 #thus ends the macro...
 }}
 
-
-
-
+---
+[documentation index](../README.md) > Macro Dump Objects/it

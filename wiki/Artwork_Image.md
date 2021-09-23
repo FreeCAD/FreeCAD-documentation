@@ -1,6 +1,4 @@
 # Artwork Image
-  
-
 These icons are in the indicated source path.
 
 For all icons in the source tree, see [Artwork](Artwork.md).
@@ -14,3 +12,6 @@ For all icons in the source tree, see [Artwork](Artwork.md).
  
 
 [Category:Image](Category:Image.md)
+
+---
+[documentation index](../README.md) > [Image](Category:Image.md) > Artwork Image

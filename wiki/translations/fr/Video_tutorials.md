@@ -1,7 +1,4 @@
 # Video tutorials/fr
-
-
-
 **Faites attention à la version de FreeCAD utilisée dans le tutoriel. Si un didacticiel utilise une version plus ancienne du programme, le processus de modélisation général peut toujours fonctionner, mais certains outils peuvent avoir changé dans les nouvelles versions. N'ajoutez pas de vidéos créées avec la version 0.16 ou antérieure, ces versions étant considérées comme obsolètes.**
 
 Ci-dessous vous trouverez une collection de tutoriels vidéos faite par les utilisateurs et développeurs de FreeCAD. Consultez le sujet [Tutorials and videos (EN)](https://forum.freecadweb.org/viewforum.php?f=36) du forum pour plus de liens. [YouTube](https://YouTube.com) est une source intéressante de didacticiels vidéo.
@@ -95,3 +92,6 @@ Pour plus à voir [Tutoriels vidéo obsolètes](Video_tutorials_obsolete/fr.md).
 }} 
 
 [Category:Common Questions](Category:Common_Questions.md)
+
+---
+[documentation index](../README.md) > [Common Questions](Category:Common Questions.md) > Video tutorials/fr

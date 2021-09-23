@@ -6,6 +6,8 @@
    Workbenches:All
 ---
 
+# Std ViewStatusBar
+
 ## Description
 
 The **Std ViewStatusBar** command toggles the display of the [Status bar](Status_bar.md).
@@ -17,4 +19,7 @@ The **Std ViewStatusBar** command toggles the display of the [Status bar](Status
 
 
 
- {{Std Base navi}}  
+ {{Std Base navi}}
+
+---
+[documentation index](../README.md) > Std ViewStatusBar

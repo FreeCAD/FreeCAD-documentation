@@ -1,6 +1,4 @@
 # Artwork Sketcher/en
- 
-
 These icons are in the indicated source path.
 
 For all icons in the source tree, see [Artwork](Artwork.md).
@@ -53,3 +51,6 @@ In the past, the `.xpm` icons were used as overlays when displaying constraints 
 {{Artwork
 
 }} {{Sketcher Tools navi}}
+
+---
+[documentation index](../README.md) > Artwork Sketcher/en

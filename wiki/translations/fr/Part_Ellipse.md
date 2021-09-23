@@ -7,6 +7,8 @@
    SeeAlso:[Part Primitives](Part_Primitives/fr.md)
 ---
 
+# Part Ellipse/fr
+
 ## Description
 
 Cette commande va créer une ligne courbe elliptique. Avec les valeurs par défaut, la ligne courbe elliptique est fermée et donc sera une ellipse. Si les propriétés Angle 1 ou Angle 2 sont modifiés par rapport aux valeurs par défaut (0° et 360°), la ligne sera une courbe ouverte.
@@ -22,8 +24,5 @@ La boîte de dialogue [Primitives](Part_Primitives/fr.md) est accessible en cliq
 -   **Angle 1:** Début de la ligne de l\'ellipse ou courbe elliptique, (dans le sens anti horaire), la valeur par défaut est 0°
 -   **Angle 2:** extrémité du bord de l\'ellipse ou du bord courbe elliptique, (degrés dans le sens inverse des aiguilles d\'une montre), la valeur par défaut est de 360°
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Ellipse/fr

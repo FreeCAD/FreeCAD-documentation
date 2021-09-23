@@ -1,3 +1,4 @@
+# PartDesign Pocket/it
 ---
 - GuiCommand:/it   Name:PartDesign_Pocket   Name/it:Tasca   MenuLocation:PartDesign → Tasca   Workbenches:[PartDesign](PartDesign_Workbench/it.md)---
 
@@ -82,4 +83,7 @@ Un [esempio](http://forum.freecadweb.org/viewtopic.php?f=3&t=3733&start=10) di a
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Pocket/it

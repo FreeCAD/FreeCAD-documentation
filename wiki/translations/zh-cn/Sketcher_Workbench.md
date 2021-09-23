@@ -1,10 +1,4 @@
-# Sketcher Workbench/zh-cn
-
-
-
-
-
-<img alt="Sketcher workbench icon" src=images/Workbench_Sketcher.svg  style="width:128px;">
+# <img alt="Sketcher workbench icon" src=images/Workbench_Sketcher.svg  style="width:64px;"> Sketcher Workbench/zh-cn
 
 
 {{TOCright}}
@@ -640,3 +634,6 @@ The [Sketcher scripting](Sketcher_scripting.md) page contains examples on how to
 }} 
 
 [分类:用户文档](Category:User_Documentation/zh-cn.md) [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Sketcher Workbench/zh-cn

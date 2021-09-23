@@ -1,5 +1,5 @@
 # Macro Unbind Numpad Shortcuts/hr
- {{Macro/hr
+{{Macro/hr
 |Name=Macro Unbind Numpad Shortcuts
 |Translate=Makro Razdvoji Numpad prečace
 |Icon=Macro_Unbind_Numpad_Shortcuts.png
@@ -46,3 +46,5 @@ for (cmd, shortcut) in preset:
     App.ParamGet("User parameter:BaseApp/Preferences/Shortcut").SetString(cmd, shortcut)
 }}
 
+---
+[documentation index](../README.md) > Macro Unbind Numpad Shortcuts/hr

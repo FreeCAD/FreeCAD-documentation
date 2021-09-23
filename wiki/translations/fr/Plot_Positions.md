@@ -6,6 +6,8 @@
    Workbenches:[Plot](Plot_Module/fr.md)
 ---
 
+# Plot Positions/fr
+
 ## Description
 
 Cet outil permet à l\'utilisateur de modifier la position de certains éléments comme les titres, les étiquettes des axes et la légende.
@@ -32,3 +34,6 @@ Sélectionnez l\'onglet du graphique que vous souhaitez modifier, puis exécutez
 }} 
 
 [Category:External\_Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)
+
+---
+[documentation index](../README.md) > [External_Workbenches](Category:External_Workbenches.md) > Plot Positions/fr

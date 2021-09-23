@@ -1,3 +1,4 @@
+# Sketcher ConstrainHorizontal/it
 ---
 - GuiCommand:/it   Name:Constraint Horizontal   Name/it:Vincolo orizzontale   Workbenches:[PartDesign](Sketcher_Workbench/it___Schizzo]],_[[PartDesign_Workbench/it.md)|Shortcut:**H**   MenuLocation:PartDesign → Vincoli → Orizzontale   SeeAlso:[Verticale](Sketcher_ConstrainVertical/it.md)---
 
@@ -74,4 +75,7 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainHorizontal/it

@@ -5,6 +5,8 @@
    Workbenches:[Part](Part_Workbench.md)
 ---
 
+# Part Mirror/pl
+
 ## Description
 
 \'Mirror Object\' - This tool creates a new object (image) which is a reflection of the original object (source). The image object is created behind a mirror plane. The mirror plane may be standard plane (**XY**, **YZ**, or **XZ**), or any plane parallel to a standard plane.
@@ -43,8 +45,5 @@ The **Base point** boxes can be used to move the mirror plane parallel to the se
 
 -   Arbitrary mirror planes (ie not parallel to a standard plane) are not supported.
 
-
-
-
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Mirror/pl

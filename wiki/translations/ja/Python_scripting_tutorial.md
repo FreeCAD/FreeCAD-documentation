@@ -1,7 +1,4 @@
 # Python scripting tutorial/ja
-
-
-
 {{TOCright}}
 
 ## Introduction
@@ -570,3 +567,6 @@ Now that you have a good understanding of the basics, where are we going to keep
 }} 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Python scripting tutorial/ja

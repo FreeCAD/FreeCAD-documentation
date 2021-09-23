@@ -6,6 +6,8 @@
    Workbenches:[OpenSCAD](OpenSCAD_Workbench/fr.md)
 ---
 
+# OpenSCAD ColorCodeShape/fr
+
 ## Description
 
 ## Utilisation
@@ -20,4 +22,7 @@
 
 {{OpenSCAD_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD ColorCodeShape/fr

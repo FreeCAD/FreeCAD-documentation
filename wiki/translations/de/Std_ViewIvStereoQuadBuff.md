@@ -6,6 +6,8 @@
    SeeAlso:[Std AnsichtIvStereoRotGrün](Std_ViewIvStereoRedGreen/de.md), [Std AnsichtIvStereoÜberlappteZeilen](Std_ViewIvStereoInterleavedRows/de.md), [Std AnsichtIvStereoÜberlappteSpalten](Std_ViewIvStereoInterleavedColumns/de.md), [Std AnsichtIvStereoAus](Std_ViewIvStereoOff/de.md)
 ---
 
+# Std ViewIvStereoQuadBuff/de
+
 ## Beschreibung
 
 Der **Std AnsichtIvStereoVierfachPuffer** Befehl ändert den aktiven [3D Ansicht](3D_view/de.md) in den Vierfachpuffer Stereoansichtsmodus. Zur Verwendung dieses Stereomodus sind eine spezielle Grafikkarte, ein spezieller Bildschirm und [Shutter Brille](https://en.wikipedia.org/wiki/Active_shutter_3D_system) erforderlich.
@@ -41,4 +43,7 @@ FreeCADGui.ActiveDocument.ActiveView.getStereoType()
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ViewIvStereoQuadBuff/de

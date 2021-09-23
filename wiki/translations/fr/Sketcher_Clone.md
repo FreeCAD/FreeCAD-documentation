@@ -8,6 +8,8 @@
    SeeAlso:[Sketcher Copie](Sketcher_Copy/fr.md), [Sketcher Déplacer](Sketcher_Move/fr.md)
 ---
 
+# Sketcher Clone/fr
+
 ## Description
 
 Clone les éléments d\'esquisse sélectionnés d\'un point à un autre en utilisant le dernier point sélectionné comme référence. Si des contraintes font partie des éléments source, les nouvelles contraintes sont liées aux contraintes source. si les contraintes du source sont modifiées, les contraintes du clone le sont également. Pour éviter ce lien, voir **<img src=images/Sketcher_Copy.svg style="width:16px"> [Sketcher Copie](Sketcher_Copy/fr.md)**.
@@ -28,4 +30,7 @@ Aucune contrainte supplémentaire pour le comportement clone n\'est ajoutée.
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Clone/fr

@@ -5,6 +5,8 @@
    Workbenches:[Robot](Robot_Workbench.md)
 ---
 
+# Robot Simulate/pt-br
+
 ## Description
 
 Opens the simulation dialog and lets you simulate robot movement along a trajectory.
@@ -35,4 +37,7 @@ The buttons from left to right.
 
 {{Robot_Tools_navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot Simulate/pt-br

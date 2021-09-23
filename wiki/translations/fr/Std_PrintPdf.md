@@ -7,6 +7,8 @@
    SeeAlso:[Std Imprimer](Std_Print/fr.md), [Exporter](Std_Export/fr.md), [Std Capture d'écran](Std_ViewScreenShot.md)
 ---
 
+# Std PrintPdf/fr
+
 ## Description
 
 La commande **Std Exporter au format PDF** est principalement destinée à créer des fichiers [PDF](PDF/fr.md) à partir des pages de l\'[atelier TechDraw](TechDraw_Workbench/fr.md) mais peut également être utilisée pour créer un PDF à partir de ce qui est actuellement visible dans la [vue 3D](3D_view/fr.md).
@@ -37,4 +39,7 @@ La commande **Std Exporter au format PDF** est principalement destinée à crée
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std PrintPdf/fr

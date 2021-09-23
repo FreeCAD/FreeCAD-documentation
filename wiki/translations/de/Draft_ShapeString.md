@@ -10,6 +10,8 @@
 [Makro Schriftarten Win10 PYMP](Macro_Fonts_Win10_PYMP/de.md)
 ---
 
+# Draft ShapeString/de
+
 
 </div>
 
@@ -212,5 +214,5 @@ doc.recompute()
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ShapeString/de

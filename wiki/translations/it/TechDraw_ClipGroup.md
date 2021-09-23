@@ -7,6 +7,8 @@
    SeeAlso:[Aggiungi una vista al gruppo clip](TechDraw_ClipGroupAdd/it.md), [Rimuovi la vista dal gruppo clip](TechDraw_ClipGroupRemove/it.md)
 ---
 
+# TechDraw ClipGroup/it
+
 
 </div>
 
@@ -50,4 +52,7 @@ Questo strumento crea una finestra di ritaglio che può contenere una o più vis
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ClipGroup/it

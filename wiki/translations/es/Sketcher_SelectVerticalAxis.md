@@ -8,6 +8,8 @@
    Version:0.15
 ---
 
+# Sketcher SelectVerticalAxis/es
+
 ## Descripción
 
 Selecciona el eje vertical de un croquis.
@@ -24,4 +26,7 @@ Selecciona el eje vertical de un croquis.
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectVerticalAxis/es

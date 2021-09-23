@@ -1,6 +1,4 @@
 # Artwork Splash screen/pl
-
-
 Są to ekrany powitalne, które zostały użyte w poszczególnych wersjach programu.
 
 ![](images/Splashscreen09.png )
@@ -27,3 +25,6 @@ Są to ekrany powitalne, które zostały użyte w poszczególnych wersjach progr
 {{Artwork
 
 }}
+
+---
+[documentation index](../README.md) > Artwork Splash screen/pl

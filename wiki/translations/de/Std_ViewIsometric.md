@@ -7,6 +7,8 @@
    SeeAlso:[Std AnsichtDimetrisch](Std_ViewDimetric/de.md), [Std AnsichtTrimetrisch](Std_ViewTrimetric/de.md)
 ---
 
+# Std ViewIsometric/de
+
 ## Beschreibung
 
 Der **Std AnsichtIsometrisch**-Befehl richtet die Kamera in der aktiven [3D-Ansicht](3D_view/de.md) neu aus, um eine [isometrisch](https://de.wikipedia.org/wiki/Axonometrie#Isometrische_Axonometrie)e Ansicht zu erreichen. Für eine wahrlich (truly) trimetrische Ansicht muss die 3D-Ansicht im [orthographischen Modus](Std_OrthographicCamera/de.md) sein, aber der Befehl funktioniert auch, wenn die Ansicht im [perspektivischen Modus](Std_PerspectiveCamera/de.md) ist.
@@ -48,4 +50,7 @@ FreeCADGui.ActiveDocument.ActiveView.getViewDirection()
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ViewIsometric/de

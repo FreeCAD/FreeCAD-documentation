@@ -1,5 +1,5 @@
 # Qt Example/fr
- {{Macro/fr
+{{Macro/fr
 |Name=Macro Qt Example
 |Icon=MEPlan.png
 |Name/fr=Macro Qt Example
@@ -798,3 +798,6 @@ MainWindow.show()
 Bon amusement.
 
 [Category:Poweruser Documentation](Category:Poweruser_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+
+---
+[documentation index](../README.md) > [Poweruser Documentation](Category:Poweruser Documentation.md) > Qt Example/fr

@@ -8,6 +8,8 @@
    SeeAlso:
 ---
 
+# Sketcher Create3PointArc/pl
+
 ## Opis
 
 To narzędzie rysuje łuk przez wybranie trzech punktów: punktu początkowego, punktu końcowego i punktu na łuku.
@@ -25,4 +27,7 @@ Po uruchomieniu narzędzia kursor myszki zmienia się w biały krzyżyk z czerwo
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Create3PointArc/pl

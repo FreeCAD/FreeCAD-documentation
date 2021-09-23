@@ -1,3 +1,4 @@
+# Mesh FlipNormals/de
 ---
 - GuiCommand:/de   Name:Mesh FlipNormals‏‎   MenuLocation:Meshes → Flip Normals   Workbenches:[[Mesh Workbench/de   Mesh]]|Shortcut:   SeeAlso:---
 
@@ -58,4 +59,7 @@ Dreht (invertiert die Richtung) der Normalen ein oder mehrerer ausgewählter Net
 
 {{Mesh Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh FlipNormals/de

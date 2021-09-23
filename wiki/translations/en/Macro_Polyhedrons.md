@@ -1,5 +1,5 @@
 # Macro Polyhedrons/en
- {{Macro
+{{Macro
 |Name=Macro Polyhedrons
 |Icon=Dodecahedron.svg
 |Description=This macro creates parametric polyhedrons: tetrahedron, hexahedron, octahedron, dodecahedron, icosahedron, icosahedron_truncated<br/>Parameters radius and side can be adjusted.
@@ -866,3 +866,5 @@ mainaction = polyhedron_dialog()
 
 }}
 
+---
+[documentation index](../README.md) > Macro Polyhedrons/en

@@ -1,10 +1,4 @@
-# Points Workbench/it
-
-
-
-
-
-<img alt="L\'icona dell\'ambiente Points" src=images/Workbench_Points.svg  style="width:128px;">
+# <img alt="L\'icona dell\'ambiente Points" src=images/Workbench_Points.svg  style="width:64px;"> Points Workbench/it
 
 ## Introduzione
 
@@ -57,3 +51,6 @@ Una nuvola di punti è una raccolta di punti nello spazio 3D. Generalmente una n
 }} 
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Points Workbench/it

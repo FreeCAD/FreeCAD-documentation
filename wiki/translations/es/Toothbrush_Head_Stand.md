@@ -1,5 +1,5 @@
 # Toothbrush Head Stand/es
- {{TutorialInfo/es
+{{TutorialInfo/es
 |Topic=Modeling
 |Level=Beginner
 |Author=[EmmanuelG](User:EmmanuelG.md)
@@ -428,4 +428,7 @@ Perfect !
 
 {{Tutorials navi
 
-}} {{PartDesign Tools navi}} {{Sketcher Tools navi}} 
+}} {{PartDesign Tools navi}} {{Sketcher Tools navi}}
+
+---
+[documentation index](../README.md) > Toothbrush Head Stand/es

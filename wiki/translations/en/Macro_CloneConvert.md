@@ -1,5 +1,5 @@
 # Macro CloneConvert/en
- {{Macro
+{{Macro
 |Name=Macro CloneConvert
 |Icon=Macro_CloneConvert.png
 |Description={{ColoredText|#ff0000|#ffffff| Latest update: GUI modified for HiDPI support (QGridLayout). Runs ≥v0.18 (PySide2 Qt5)}}<br/><br/> 
@@ -136,3 +136,6 @@ Download the macro to Gist [Macro\_CloneConvert.FCMacro](https://gist.github.com
 02/07/2014 ver. 0.3 = modified to operate PyQt4 and PySide
 
 09/05/2014 ver. 0.2 = adding function \"Copy\"
+
+---
+[documentation index](../README.md) > Macro CloneConvert/en

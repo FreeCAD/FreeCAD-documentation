@@ -1,5 +1,5 @@
 # Artwork/fr
-  Voici les icônes créés pour FreeCad. N\'hésitez pas à les utiliser dans vos applications. Si vous voulez contribuer en créant des icônes, veuillez lire les [directives de style graphique](Artwork_Guidelines.md).
+Voici les icônes créés pour FreeCad. N\'hésitez pas à les utiliser dans vos applications. Si vous voulez contribuer en créant des icônes, veuillez lire les [directives de style graphique](Artwork_Guidelines.md).
 
 ## Icônes diverses 
 
@@ -169,3 +169,6 @@ Voir [Erreurs graphiques](Artwork_Erroneous/fr.md).
 }}
 
 [Category:Icon](Category:Icon.md) [Category:Developer Documentation](Category:Developer_Documentation.md)
+
+---
+[documentation index](../README.md) > [Icon](Category:Icon.md) > Artwork/fr

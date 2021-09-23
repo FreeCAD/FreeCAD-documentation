@@ -8,6 +8,8 @@
    SeeAlso:[PartDesign UnterFormBinder](PartDesign_SubShapeBinder/de.md),[PartDesign Klon](PartDesign_Clone/de.md)
 ---
 
+# PartDesign ShapeBinder/de
+
 ## Beschreibung
 
 
@@ -133,4 +135,7 @@ Es gibt eine Übergangslösung für die Mehrfachauswahl: Wenn du alle Elemente a
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign ShapeBinder/de

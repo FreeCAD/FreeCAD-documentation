@@ -1,3 +1,4 @@
+# Mesh RemoveCompByHand/de
 ---
 - GuiCommand:/de
    Name:Mesh RemoveCompByHand   Name/de:Netze Komponente von Hand entfernen‏‎
@@ -46,4 +47,7 @@ Rechtsklick in der 3D-Ansicht bietet die Möglichkeit zum
 
 {{Mesh Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh RemoveCompByHand/de

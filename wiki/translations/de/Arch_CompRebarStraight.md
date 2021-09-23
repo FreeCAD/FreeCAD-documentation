@@ -6,6 +6,8 @@
    Version:0.17
 ---
 
+# Arch CompRebarStraight/de
+
 ## Beschreibung
 
 Das Bewehrungszusatzmodul erweitert die [Architektur Arbeitsbereich](Arch_Workbench/de.md) um neue Schnittstellen und Voreinstellungen für die Erstellung gängiger Bewehrungstypen zur Verwendung mit [Architektur Strukturen](Arch_Structure/de.md). Es ist außerdem im externen Arbeitsbereich [BIM](BIM_Workbench/de.md) integriert.
@@ -38,8 +40,5 @@ Zurück zu [Arbeitsbereiche](Workbenches#External_workbenches/de.md) / [Externe 
 
 -   <img alt="" src=images/Arch_Rebar.svg  style="width:32px;"> [Bewehrung](Arch_Rebar/de.md): Erstellt einen maßgefertigten Bewehrungsstab in einem ausgewählten Strukturelement unter Verwendung einer Skizze
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CompRebarStraight/de

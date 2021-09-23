@@ -1,7 +1,4 @@
 # Land Survey Workbench Blueprint/fr
-
-
-
 **
 Ce plan de développement est probablement obsolète. Pour plus d'informations, voir [Plan de développement](Development_roadmap/fr.md).<br>
 Si vous n'êtes pas impliqué dans le développement discuté ici :<br>
@@ -63,3 +60,6 @@ Remarque: les informations de cette page sont basées sur une compréhension sup
 
 
 [Category:Roadmap](Category:Roadmap.md) [Category:Developer](Category:Developer.md)
+
+---
+[documentation index](../README.md) > Land Survey Workbench Blueprint/fr

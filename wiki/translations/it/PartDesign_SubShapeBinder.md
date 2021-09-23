@@ -8,6 +8,8 @@
    SeeAlso:[PartDesign Forme legate](PartDesign_ShapeBinder/it.md), [PartDesign Clona](PartDesign_Clone/it.md)
 ---
 
+# PartDesign SubShapeBinder/it
+
 ## Descrizione
 
 
@@ -110,4 +112,7 @@ Vedere [Funzioni Part](Part_Feature/it.md).
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubShapeBinder/it

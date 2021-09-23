@@ -7,6 +7,8 @@
    Version:0.20
 ---
 
+# Sketcher RemoveAxesAlignment/ru
+
 ## Описание
 
 Данный инструмент удаляет выравнивание осей <img alt="" src=images/Sketcher_ConstrainHorizontal.svg  style="width:16px;"> [горизонтальное](Sketcher_ConstrainHorizontal/ru.md) и <img alt="" src=images/Sketcher_ConstrainVertical.svg  style="width:16px;"> [вертикальное](Sketcher_ConstrainVertical/ru.md) из выбранного элемента, при этом пытается по возможности сохранить ограничения перпендикулярности и эквивалентности ребер.
@@ -30,4 +32,7 @@ As result the (horizontal, vertical constraints) will be removed. In the example
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher RemoveAxesAlignment/ru

@@ -8,6 +8,8 @@
    SeeAlso:[Posizionamento](Placement/it.md), [Tutorial di base sugli allegati](Basic_Attachment_Tutorial/it.md), [Part Parte2DOggetto](Part_Part2DObject/it.md)
 ---
 
+# Part EditAttachment/it
+
 
 </div>
 
@@ -313,4 +315,7 @@ Allegato Spostamento viene utilizzato per applicare uno spostamento lineare o ro
 
 {{Part_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part EditAttachment/it

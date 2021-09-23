@@ -8,6 +8,8 @@
    SeeAlso:[Arch IFC](Arch_IFC/it.md)
 ---
 
+# Arch IfcExplorer/it
+
 
 </div>
 
@@ -45,3 +47,6 @@ Lo scopo di questo explorer è semplicemente quello di permettere di controllare
  
 
 [Category:BIM](Category:BIM.md)
+
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch IfcExplorer/it

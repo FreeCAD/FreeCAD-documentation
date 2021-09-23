@@ -1,3 +1,4 @@
+# Std RecentFiles/de
 ---
 - GuiCommand:/de   Name:Std RecentFiles   Name/de:Std Letzte Dateien   MenuLocation:[|Workbenches:Alle   Shortcut:-   SeeAlso:[[Std Open/de|Öffnen](Std_File_Menu/de___Datei]]_→_Letzte_Dateien_.md), [Import](Std_Import/de.md)---
 
@@ -50,4 +51,7 @@ Die Anzahl der in der Liste anzuzeigenden Einträge kann im Menü **Bearbeiten**
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std RecentFiles/de

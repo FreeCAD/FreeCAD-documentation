@@ -11,3 +11,6 @@ This is the **top category** which contains the main categories of the FreeCAD w
 , ,
 
 [Category:Categories/cz](Category:Categories/cz.md) [Category:Categories/cz](Category:Categories/cz.md) [Category:Documentation/cz](Category:Documentation/cz.md) [Category:Hubs/cz](Category:Hubs/cz.md)
+
+---
+[documentation index](../README.md) > Category:Categories/cz

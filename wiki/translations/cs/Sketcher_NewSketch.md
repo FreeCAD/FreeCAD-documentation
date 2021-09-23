@@ -7,6 +7,8 @@
    SeeAlso:[Sketcher MapSketch](Sketcher_MapSketch/cs.md), [Sketcher Reorient](Sketcher_Reorient/cs.md)
 ---
 
+# Sketcher NewSketch/cs
+
 
 </div>
 
@@ -46,4 +48,7 @@ The sketch can be moved in the [3D view](3D_view.md) using [Placement](Placement
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher NewSketch/cs

@@ -1,10 +1,4 @@
-# Draft Workbench/pt
-
-
-
-
-
-<img alt="Draft workbench icon" src=images/Workbench_Draft.svg  style="width:128px;">
+# <img alt="Draft workbench icon" src=images/Workbench_Draft.svg  style="width:64px;"> Draft Workbench/pt
 
 
 {{TOCright}}
@@ -361,3 +355,6 @@ Inspecting the code of this module can help to understand the programming interf
  
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Draft Workbench/pt

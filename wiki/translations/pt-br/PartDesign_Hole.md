@@ -7,6 +7,8 @@
    SeeAlso:[PartDesign Pocket](PartDesign_Pocket.md)
 ---
 
+# PartDesign Hole/pt-br
+
 ## Description
 
 The **Hole** feature creates one or more holes from a selected sketch\'s circles and arcs. If arcs are present they must be part of closed contours. All non arc/circle entities are ignored but they still must form closed contours. Many parameters can be set such as threading and size, fit, hole type (countersink, counterbore, straight) and more.
@@ -107,4 +109,7 @@ Example: {{Code|lang=json|code=
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Hole/pt-br

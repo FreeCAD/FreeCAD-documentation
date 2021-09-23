@@ -1,5 +1,5 @@
 # Sketcher CompCopy/fr
- {{GuiCommand/fr
+{{GuiCommand/fr
 |Name=Cloner, copier ou déplacer une géométrie
 |Workbenches=[Atelier Sketcher](Sketcher_Workbench/fr.md)
 |MenuLocation=Aucun (barre d'outils uniquement)
@@ -18,4 +18,7 @@ Cloner, copier ou déplacer une géométrie. Cliquez sur la flèche vers le bas 
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CompCopy/fr

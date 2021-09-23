@@ -1,5 +1,4 @@
-# Defeaturing Workbench/de
- <img alt="Defeaturing workbench icon" src=images/Defeaturing_workbench_icon.svg  style="width:128px;">
+# <img alt="Defeaturing workbench icon" src=images/Defeaturing_workbench_icon.svg  style="width:64px;"> Defeaturing Workbench/de
 
 ## Einführung
 
@@ -119,3 +118,6 @@ Neue Arbeitsbereiche sind in der Entwicklung, bleib\' dran!
  
 
 [Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+
+---
+[documentation index](../README.md) > Defeaturing Workbench/de

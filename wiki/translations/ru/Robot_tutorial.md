@@ -1,5 +1,5 @@
 # Robot tutorial/ru
- {{TutorialInfo/ru
+{{TutorialInfo/ru
 |Topic= Robot Workbench
 |Level= Beginner
 |Time=
@@ -52,3 +52,6 @@ This tutorial is targeting on the use of [industrial robots](http://en.wikipedia
 }} {{Robot Tools navi}} 
 
 [Category:Tutorials/ru](Category:Tutorials/ru.md)
+
+---
+[documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot tutorial/ru

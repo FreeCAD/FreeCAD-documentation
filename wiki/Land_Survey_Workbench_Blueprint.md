@@ -1,7 +1,4 @@
 # Land Survey Workbench Blueprint
- 
-
-
 **
 This roadmap is probably obsolete. For more information see [Development roadmap](Development_roadmap.md).<br>
 If you are not involved with the development discussed here:<br>
@@ -62,3 +59,6 @@ Note: the information in this page is based on a shallow understanding of FreeCA
  
 
 [Category:Roadmap](Category:Roadmap.md) [Category:Developer](Category:Developer.md)
+
+---
+[documentation index](../README.md) > Land Survey Workbench Blueprint

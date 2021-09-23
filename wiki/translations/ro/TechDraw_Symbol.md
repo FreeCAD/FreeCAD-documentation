@@ -1,3 +1,4 @@
+# TechDraw Symbol/ro
 ---
 - GuiCommand:   Name:TechDraw  Symbol   Workbenches:[[TechDraw Workbench   TechDraw]]|MenuLocation:TechDraw → Symbol   Shortcut:   SeeAlso:---
 
@@ -76,4 +77,7 @@ rc = page.addView(sym)
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Symbol/ro

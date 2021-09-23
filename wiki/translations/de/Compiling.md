@@ -1,5 +1,5 @@
 # Compiling/de
- Jedes Betriebssystem hat seine eigene Seite für das Kompilieren von FreeCAD in der [Online Hilfe Dokumentation](Online_Help_Toc/de.md).
+Jedes Betriebssystem hat seine eigene Seite für das Kompilieren von FreeCAD in der [Online Hilfe Dokumentation](Online_Help_Toc/de.md).
 
   --------------------------------------------------------------- ----------------------------------------------------------- ----------------------------------------------------------- ------------------------------------------------------------------------------
        <img alt="" src=images/Windows.png  style="width:" height="32px;">            <img alt="" src=images/Linux.png  style="width:" height="32px;">              <img alt="" src=images/Mac.png  style="width:" height="32px;">          <img alt="" src=images/Docker_logo_FreeCAD.svg  style="width:" height="32px;">
@@ -20,3 +20,6 @@ Zum Erlernen der Verwendung des Revisionskontrollsystems und des Beitragscodes s
 
 
 [Category:Developer\_Documentation](Category:Developer_Documentation.md) [Category:Developer](Category:Developer.md)
+
+---
+[documentation index](../README.md) > [Developer_Documentation](Category:Developer_Documentation.md) > Compiling/de

@@ -6,6 +6,8 @@
    SeeAlso:[PartDesign Pad](PartDesign_Pad.md)
 ---
 
+# PartDesign Pocket
+
 ## Description
 
 The **Pocket** tool cuts out a solid by extruding a sketch (or a face of the solid) in a straight path and subtracting it from the solid.
@@ -59,4 +61,7 @@ An [example](http://forum.freecadweb.org/viewtopic.php?f=3&t=3733&start=10) with
 
 
 
- {{PartDesign Tools navi}} 
+ {{PartDesign Tools navi}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Pocket

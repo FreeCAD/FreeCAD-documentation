@@ -8,6 +8,8 @@
    SeeAlso:[Обновить](Draft_Upgrade/ru.md)
 ---
 
+# Draft Downgrade/ru
+
 
 </div>
 
@@ -102,8 +104,5 @@ add_list4, delete_list4 = Draft.downgrade(box, delete=True)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Downgrade/ru

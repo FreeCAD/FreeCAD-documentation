@@ -1,3 +1,4 @@
+# Drawing View/de
 ---
 - GuiCommand:/de
    Name:Drawing View
@@ -58,4 +59,7 @@ Falls Du nach der Umschaltung in perspektivisch-orthogonal in der 3D-Ansicht suc
 
 {{Drawing Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing View/de

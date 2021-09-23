@@ -1,5 +1,5 @@
 # Aeroplane/ru
- {{TutorialInfo/ru
+{{TutorialInfo/ru
 |Topic=Part Workbench
 |Level=Beginner
 |Time=10 minutes
@@ -129,4 +129,7 @@
 
 {{Tutorials navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Aeroplane/ru

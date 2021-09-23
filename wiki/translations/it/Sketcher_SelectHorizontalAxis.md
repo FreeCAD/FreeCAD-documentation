@@ -1,3 +1,4 @@
+# Sketcher SelectHorizontalAxis/it
 ---
 - GuiCommand:/it   Name:Sketcher SelectHorizontalAxis   Name/it:Seleziona l'asse X   Workbenches:[[Sketcher Workbench/it   Sketcher]]|MenuLocation:Sketch → Strumenti → Seleziona l'asse orizzontale   Shortcut:Shift+Ctrl+H   SeeAlso:   Version:0.15---
 
@@ -32,4 +33,7 @@ Seleziona l\'asse orizzontale di uno schizzo.
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectHorizontalAxis/it

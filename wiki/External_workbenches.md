@@ -1,11 +1,4 @@
 # External workbenches
- 
-
-
-
-
- 
-
 ## Introduction
 
 [External workbenches](External_workbenches.md) are those created by power users which haven\'t been integrated into the main FreeCAD source code.
@@ -140,3 +133,6 @@ See the wiki page for more information [Translating an external workbench](Trans
  
 
 [Category:Addons](Category:Addons.md) [\*](Category:External_Workbenches.md)
+
+---
+[documentation index](../README.md) > [Addons](Category:Addons.md) > External workbenches

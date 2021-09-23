@@ -9,6 +9,8 @@
    Version:0.17
 ---
 
+# EM FHEquiv/it
+
 ## Descrizione
 
 The FHEquiv tool short-circuits two FHNode objects.
@@ -65,4 +67,7 @@ fhequiv = EM.makeFHEquiv(fhnode1, fhnode2)
 
 {{EM Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > EM FHEquiv/it

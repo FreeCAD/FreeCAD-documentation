@@ -1,5 +1,5 @@
 # Arch API/pl
- **''(Listopad 2018)'' Arch API jest wymieniony w [https://www.freecadweb.org/api automatycznie generowanej dokumentacji API].**
+**''(Listopad 2018)'' Arch API jest wymieniony w [https://www.freecadweb.org/api automatycznie generowanej dokumentacji API].**
 
 Funkcje API są częścią Środowiska pracy [Architektura](Arch_Workbench/pl.md) i mogą być używane w [makrodefinicjach](macros/pl.md) i z konsoli [Python](Python/pl.md) po zaimportowaniu modułu `Arch`. Dodatek [Zbrojenie](Reinforcement_Addon/pl.md) ma swoje własne [skrypty](Reinforcement_API/pl.md).
 
@@ -18,3 +18,6 @@ Arch.makeWall(baseline, length=None, width=200, height=2000)
  
 
 [Category:API](Category:API.md) [Category:Poweruser Documentation](Category:Poweruser_Documentation.md)
+
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch API/pl

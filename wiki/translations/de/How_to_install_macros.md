@@ -1,5 +1,5 @@
 # How to install macros/de
- {{TutorialInfo/de
+{{TutorialInfo/de
 |Topic=Programmierung
 |Level=durchschnittliche Programmierer
 |Zeit=15 Minuten
@@ -472,3 +472,6 @@ und drücke dann die **OK** Schaltfläche.
 }} 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > How to install macros/de

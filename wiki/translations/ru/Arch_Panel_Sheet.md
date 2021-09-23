@@ -8,6 +8,8 @@
    SeeAlso:[Arch Panel](Arch_Panel/ru.md), [Arch Panel Cut](Arch_Panel_Cut/ru.md), [Arch Nest](Arch_Nest/ru.md)
 ---
 
+# Arch Panel Sheet/ru
+
 
 </div>
 
@@ -126,5 +128,5 @@ Sheet = Arch.makePanelSheet([Cut1, Cut2, Cut3])
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Panel Sheet/ru

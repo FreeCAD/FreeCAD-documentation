@@ -1,5 +1,4 @@
 # Adding a new mouse navigation option to FreeCAD
-
 **This tutorial is still a WIP. Feel free to help improve it**
 
 
@@ -48,3 +47,6 @@ We can refer to previous code commits that added different mouse modes for orien
 {{Tutorials navi
 
 }} [Developer Documentation](Developer_Documentation.md)
+
+---
+[documentation index](../README.md) > Adding a new mouse navigation option to FreeCAD

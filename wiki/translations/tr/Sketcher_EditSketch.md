@@ -5,6 +5,8 @@
    MenuLocation:Eskiz → Yeni Eskiz
 ---
 
+# Sketcher EditSketch/tr
+
 
 </div>
 
@@ -51,3 +53,6 @@ Bu komut, varolan bir eskizi düzenlemenizi sağlar.
 }}  
 
 [Category:Sketcher/tr](Category:Sketcher/tr.md)
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher EditSketch/tr

@@ -1,5 +1,5 @@
 # Macro FCInfoGlass/fr
- {{Macro/fr
+{{Macro/fr
 |Name=Macro FCInfoGlass
 |Description=Donne une série d'informations sur l'objet avec affichage dans la vue 3D.
 |Author=Mario52
@@ -226,3 +226,6 @@ Mes macros sur [mario52a](https://gist.github.com/mario52a) gists
 **31/08/2015 Ver 0.03** : ajout d\'informations
 
 **04/08/2015 Ver 0.02** : ajout des switch et présentation
+
+---
+[documentation index](../README.md) > Macro FCInfoGlass/fr

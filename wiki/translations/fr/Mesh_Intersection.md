@@ -7,6 +7,8 @@
    SeeAlso:[Mesh Union](Mesh_Union.md), [Mesh Différence](Mesh_Difference.md)
 ---
 
+# Mesh Intersection/fr
+
 ## Description
 
 La commande **Mesh Intersection** crée un nouvel objet maillé non paramétrique, un [Mesh Feature](Mesh_Feature/fr.md), qui est l\'intersection (partie commune) de deux objets maillés.
@@ -33,4 +35,7 @@ Voir: [Mesh Feature](Mesh_Feature/fr.md).
 
 {{Mesh Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Intersection/fr

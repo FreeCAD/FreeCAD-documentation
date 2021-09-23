@@ -8,6 +8,8 @@
    SeeAlso:[TechDraw Point cosmétique](TechDraw_CosmeticVertex/fr.md), [TechDraw Point milieu](TechDraw_Midpoints/fr.md)
 ---
 
+# TechDraw Quadrants/fr
+
 ## Description
 
 L\'outil Sommets quadrants ajoute des [Sommets cosmétiques](TechDraw_CosmeticVertex/fr.md) aux points 90/180/270° d\'un bord circulaire. Le sommet 0° devrait déjà figurer sous forme de sommet géométrique.
@@ -51,4 +53,7 @@ Les points cosmétiques ne sont pas accessibles par [macros](Macros/fr.md) ni pa
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Quadrants/fr

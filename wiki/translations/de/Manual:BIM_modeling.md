@@ -1,5 +1,5 @@
 # Manual:BIM modeling/de
- }
+}
 
 
 
@@ -243,3 +243,6 @@ Unsere Seite ist nun fertig und wir können sie im SVG- oder DXF-Format ausgeben
 }} 
 
 [Category:BIM](Category:BIM.md)
+
+---
+[documentation index](../README.md) > [BIM](Category:BIM.md) > Manual:BIM modeling/de

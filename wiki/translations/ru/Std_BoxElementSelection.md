@@ -8,6 +8,8 @@
    SeeAlso:[Выделить область](Std_BoxSelection/ru.md), [Выбрать всё](Std_SelectAll/ru.md)
 ---
 
+# Std BoxElementSelection/ru
+
 ## Описание
 
 The **Std BoxElementSelection** command selects faces from a user defined rectangular area, a box, in the [3D view](3D_view.md).
@@ -31,4 +33,7 @@ The **Std BoxElementSelection** command selects faces from a user defined rectan
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std BoxElementSelection/ru

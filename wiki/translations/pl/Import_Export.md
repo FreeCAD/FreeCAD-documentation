@@ -1,9 +1,4 @@
 # Import Export/pl
- 
-
-
-
-
 ## Wprowadzenie
 
 Ta strona gromadzi różne formaty plików, które mogą być importowane lub eksportowane z FreeCAD. Dla pełnego obrazu, na liście znajduje się macierzysty format FreeCAD.
@@ -147,3 +142,6 @@ Jeśli chcesz zobaczyć dodatkowe informacje zajrzyj na stronę:
 
 
 [Category:File\_Formats](Category:File_Formats.md)
+
+---
+[documentation index](../README.md) > [Import](Import_Workbench.md) > Import Export/pl

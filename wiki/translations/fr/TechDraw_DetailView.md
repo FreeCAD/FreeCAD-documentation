@@ -8,6 +8,8 @@
    SeeAlso:[TechDraw Vue](TechDraw_View/fr.md), [TechDraw Groupe de projection](TechDraw_ProjectionGroup/fr.md)
 ---
 
+# TechDraw DetailView/fr
+
 ## Description
 
 L\'outil Détail crée une vue d\'une petite zone d\'une vue existante.
@@ -89,4 +91,7 @@ Pour ce faire, placez la vue Détails dans une [Fenêtre de rognage](TechDraw_Cl
 
 {{TechDraw Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw DetailView/fr

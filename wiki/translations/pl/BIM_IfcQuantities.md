@@ -7,6 +7,8 @@
    SeeAlso:[[BIM IfcElements]],[[BIM IfcProperties]]
 ---
 
+# BIM IfcQuantities/pl
+
 ## Description
 
 <img alt="" src=images/BIM_ifcquantities_screenshot.png  style="width:1024px;">
@@ -20,3 +22,6 @@ The idea behind explicit quantities is to make them available to applications th
 By default, when exporting an IFC file from FreeCAD, no explicit quantities are exported. With the IFC quantities manager, you are able to mark which quantities should be exported, and check their values. Warning signs will be displayed next to zero values, notifying you of possible problems you might want to fix before exporting.
 
 You can also use the quantities manager to change or fix the actual **Height**, **Width** and **Length** values of objects. But this will affect the object geometry in FreeCAD.
+
+---
+[documentation index](../README.md) > BIM IfcQuantities/pl

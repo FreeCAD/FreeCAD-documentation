@@ -7,6 +7,8 @@
    SeeAlso:[Arch IFC](Arch_IFC.md), [Arch IfcExplorer](Arch_IfcExplorer.md)
 ---
 
+# Arch IfcSpreadsheet/pt-br
+
 ## Descrição
 
 This tool creates a spreadsheet to store [IFC](Arch_IFC.md) properties of an object.
@@ -53,5 +55,5 @@ spreadsheet = Arch.makeIfcSpreadsheet(Wall)
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch IfcSpreadsheet/pt-br

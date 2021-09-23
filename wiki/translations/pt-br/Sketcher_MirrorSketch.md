@@ -6,6 +6,8 @@
    Version:0.16
 ---
 
+# Sketcher MirrorSketch/pt-br
+
 ## Description
 
 Mirror a sketch along the x-axis, the y-axis, or the origin. This command is invoked while *not* editing a sketch. It creates a new sketch which contains the mirrored geometry.
@@ -26,4 +28,7 @@ Notes:
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher MirrorSketch/pt-br

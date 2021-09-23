@@ -1,3 +1,4 @@
+# Ship TankNew/it
 ---
 - GuiCommand:/it   Name:Ship TankNew   Name/it:Nuovo serbatoio   MenuLocation:Weights → Crea un nuovo serbatoio   |Workbenches:[[Ship Workbench/it   Ship]]|Shortcut:   SeeAlso:---
 
@@ -16,9 +17,5 @@ Da fare
 
 {{Ship_Tools_navi}}
 
-
-
-
-
-
-
+---
+[documentation index](../README.md) > Ship TankNew/it

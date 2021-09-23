@@ -7,6 +7,8 @@
    SeeAlso:[Draft SelectGroup](Draft_SelectGroup/ro.md), [Std Group](Std_Group/ro.md)
 ---
 
+# Draft AddToGroup/ro
+
 
 </div>
 
@@ -61,5 +63,5 @@ In FreeCAD version 0.20 the command can also handle group-like [Arch](Arch_Workb
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft AddToGroup/ro

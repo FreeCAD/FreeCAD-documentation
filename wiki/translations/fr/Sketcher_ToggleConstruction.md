@@ -6,6 +6,8 @@
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
 ---
 
+# Sketcher ToggleConstruction/fr
+
 ## Description
 
 Cet outil permet de basculer les géométries sélectionnées de/à mode de construction. Il peut être utilisé sur n\'importe quel type de géométrie : ligne, arc, ou un cercle.
@@ -47,4 +49,7 @@ puis une fois que vous quittez le **<img src=images/Sketcher_LeaveSketch.svg sty
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ToggleConstruction/fr

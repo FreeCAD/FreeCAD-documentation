@@ -1,10 +1,4 @@
 # Compiling (Speeding up)/ru
-
-
-
-
-
-
 {{TOCright}}
 
 ## Обзор
@@ -64,3 +58,6 @@ make -j$(nproc --ignore=2)
 
 
 [Category:Developer\_Documentation](Category:Developer_Documentation.md) [Category:Developer](Category:Developer.md)
+
+---
+[documentation index](../README.md) > [Developer_Documentation](Category:Developer_Documentation.md) > Compiling (Speeding up)/ru

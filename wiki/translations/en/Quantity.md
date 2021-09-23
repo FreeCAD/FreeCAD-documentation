@@ -1,5 +1,5 @@
 # Quantity/en
- The quantity is a combination of a floating point number and a unit. It is used throughout all of FreeCAD to handle parameters and all other kind of input/output.
+The quantity is a combination of a floating point number and a unit. It is used throughout all of FreeCAD to handle parameters and all other kind of input/output.
 
 ## General
 
@@ -283,3 +283,6 @@ from FreeCAD import Units
 }} 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Quantity/en

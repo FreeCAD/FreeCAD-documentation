@@ -1,10 +1,4 @@
 # External workbenches/de
-
-
-
-
-
-
 {{TOCright}}
 
 ## Einführung
@@ -246,3 +240,6 @@ Weitere Informationen findest du auf der Wiki Seite [Übersetzen eines externen 
 
 
 [Category:Addons](Category:Addons.md) [\*](Category:External_Workbenches.md)
+
+---
+[documentation index](../README.md) > [Addons](Category:Addons.md) > External workbenches/de

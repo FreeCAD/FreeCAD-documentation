@@ -1,7 +1,4 @@
 # Macro Site From Contours
- 
-
-
 {{Macro
 |Name=Macro Site From Contours
 |Icon=Macro_Site_From_Contours.png
@@ -105,4 +102,7 @@ FreeCAD.ActiveDocument.recompute()
 
 ## Link
 
-The discussion forum [Create Toposurface from DXF](https://forum.freecadweb.org/viewtopic.php?f=3&t=30569) 
+The discussion forum [Create Toposurface from DXF](https://forum.freecadweb.org/viewtopic.php?f=3&t=30569)
+
+---
+[documentation index](../README.md) > Macro Site From Contours

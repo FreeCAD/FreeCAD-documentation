@@ -6,6 +6,8 @@
    SeeAlso:[Path DressupTag](Path_DressupTag.md), [Path DressupRampEntry](Path_DressupRampEntry.md)
 ---
 
+# Path DressupPathBoundary
+
 ## Description
 
 Boundary dress-up allows restricting the extent of a path to a smaller part of the object. For example, restricting a profile path to just one face or part of the model.
@@ -29,4 +31,7 @@ Boundary dress-up allows restricting the extent of a path to a smaller part of t
 
 
 
- {{Path_Tools_navi}} 
+ {{Path_Tools_navi}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path DressupPathBoundary

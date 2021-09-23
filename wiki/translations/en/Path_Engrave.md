@@ -5,6 +5,8 @@
    Workbenches:[Path](Path_Workbench.md)
 ---
 
+# Path Engrave/en
+
 ## Description
 
 The <img alt="" src=images/Path_Engrave.svg  style="width:24px;"> [Path Engrave](Path_Engrave.md) tool is primarily for engraving a <img alt="" src=images/Draft_ShapeString.svg  style="width:24px;"> [Draft ShapeString](Draft_ShapeString.md) onto a part. However, it may be useful for other kinds of 2D.
@@ -97,4 +99,7 @@ Example:
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Engrave/en

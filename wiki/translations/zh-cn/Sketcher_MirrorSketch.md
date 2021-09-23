@@ -6,6 +6,8 @@
    Version:0.16
 ---
 
+# Sketcher MirrorSketch/zh-cn
+
 ## 描述
 
 沿x轴、y轴或原点镜像草图。
@@ -38,4 +40,7 @@ Notes:
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher MirrorSketch/zh-cn

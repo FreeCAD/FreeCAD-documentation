@@ -1,7 +1,4 @@
 # Macro Rotate View/it
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -53,6 +50,5 @@ nrot = cam.orientation.getValue() * rot
 cam.orientation = nrot
 }}
 
-
-
-
+---
+[documentation index](../README.md) > Macro Rotate View/it

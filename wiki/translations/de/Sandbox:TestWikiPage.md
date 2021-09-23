@@ -1,6 +1,4 @@
 # Sandbox:TestWikiPage/de
- 
-
 ### Überblick
 
 = Diese Seite kann verwendet werden, um die Wiki Markierung vor der Bearbeitung einer echten Seite auszuprobieren. Fühle dich frei, hier zu tun, was immer du willst!
@@ -86,3 +84,6 @@
 
 
 [Category:Documentation](Category:Documentation.md) [Category:Wiki](Category:Wiki.md) [Category:Sandbox](Category:Sandbox.md)
+
+---
+[documentation index](../README.md) > Sandbox:TestWikiPage/de

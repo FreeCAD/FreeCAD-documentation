@@ -7,6 +7,8 @@
    SeeAlso:
 ---
 
+# Curves ExtendCurve/de
+
 
 </div>
 
@@ -53,4 +55,7 @@ Das <img alt="" src=images/Curves_ExtendCurve.svg  style="width:24px;"> [Kurven 
 
 {{Curves Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > Curves ExtendCurve/de

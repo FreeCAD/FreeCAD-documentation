@@ -1,6 +1,4 @@
 # Artwork Raytracing/pl
- 
-
 Ikony te znajdują się we wskazanej ścieżce źródłowej.
 
 Wszystkie ikonki widoczne na liście źródłowej, patrz [Grafika](Artwork/pl.md).
@@ -17,3 +15,6 @@ Wszystkie ikonki widoczne na liście źródłowej, patrz [Grafika](Artwork/pl.md
 }} 
 
 [Category:Raytracing](Category:Raytracing.md)
+
+---
+[documentation index](../README.md) > [Raytracing](Category:Raytracing.md) > Artwork Raytracing/pl

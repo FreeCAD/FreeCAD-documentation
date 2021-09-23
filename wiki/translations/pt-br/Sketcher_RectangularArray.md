@@ -6,6 +6,8 @@
    Version:0.16
 ---
 
+# Sketcher RectangularArray/pt-br
+
 ## Description
 
 Creates an array of selected sketcher elements.
@@ -28,4 +30,7 @@ Creates an array of selected sketcher elements.
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher RectangularArray/pt-br

@@ -7,6 +7,8 @@
    SeeAlso:
 ---
 
+# Design456 ExtrudeFace
+
 ## Description
 
 The <img alt="" src=images/Design456_ExtrudeFace.svg  style="width:24px;"> [Design456 ExtrudeFace](Design456_ExtrudeFace.md) lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur at felis ut urna auctor pharetra id at nulla. This tool is part of the [external workbench](external_workbenches.md) called [Design456](Design456_Workbench.md).
@@ -37,3 +39,6 @@ Works on 3D objects.
 }} 
 
 [Category:External Command Reference](Category:External_Command_Reference.md)
+
+---
+[documentation index](../README.md) > [External Command Reference](Category:External Command Reference.md) > Design456 ExtrudeFace

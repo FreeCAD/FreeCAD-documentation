@@ -1,5 +1,5 @@
 # Macro Cabinets32/it
- {{Macro/it
+{{Macro/it
 |Name=Cabinets32
 |Icon=Macro_Cabinets32.png
 |Description=Foratura per armadi System32.
@@ -556,6 +556,5 @@ if guiok:
 
 -   [Macro\_PartsLibrary](Macro_PartsLibrary.md) FreeCAD Library
 
-
-
-
+---
+[documentation index](../README.md) > Macro Cabinets32/it

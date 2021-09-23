@@ -7,6 +7,8 @@
    Version:0.17
 ---
 
+# Part CompoundFilter/es
+
 
 </div>
 
@@ -76,8 +78,5 @@ Si sólo hay un niño en el resultado, la salida es el niño. Si hay más de un 
 
 -    **items**: List or range of elements to be selected if Filter Type is \"specific items\".
 
-
-
-
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompoundFilter/es

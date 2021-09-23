@@ -8,6 +8,8 @@
    SeeAlso:[Entwurf KubischeBezKurve](Draft_CubicBezCurve/de.md), [Entwurf BSpline](Draft_BSpline/de.md)
 ---
 
+# Draft BezCurve/de
+
 ## Beschreibung
 
 Der <img alt="" src=images/Draft_BezCurve.svg  style="width:24px;"> **Entwurf BezKurve** Befehl erstellt eine [Bézierkurve](https://de.wikipedia.org/wiki/B%C3%A9zierkurve) aus einigen Punkten.
@@ -140,8 +142,5 @@ bezcurve3 = Draft.make_bezcurve([1.7*p3, 1.5*p4, 2.1*p2, p1], closed=True)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft BezCurve/de

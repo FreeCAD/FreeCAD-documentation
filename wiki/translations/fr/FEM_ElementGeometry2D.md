@@ -8,6 +8,8 @@
    SeeAlso:[Tutoriel FEM](FEM_tutorial/fr.md)
 ---
 
+# FEM ElementGeometry2D/fr
+
 ## Description
 
 ElementGeometry2D est utilisé pour définir l\'épaisseur d\'éléments 2D FEM, soit tous, soit posés sur la surface choisie.
@@ -43,4 +45,7 @@ Pour afficher les résultats du solveur CalculiX sur le maillage développé à 
 
 {{FEM Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > FEM ElementGeometry2D/fr

@@ -8,6 +8,8 @@
    SeeAlso:[Std Ouvrir](Std_Open/fr.md), [Std Importer](Std_Import/fr.md)
 ---
 
+# Std RecentFiles/fr
+
 ## Description
 
 L\'option de menu **Std Fichiers récents** affiche une liste des fichiers récents qui peuvent être ouverts.
@@ -32,4 +34,7 @@ L\'option de menu **Std Fichiers récents** affiche une liste des fichiers réce
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std RecentFiles/fr

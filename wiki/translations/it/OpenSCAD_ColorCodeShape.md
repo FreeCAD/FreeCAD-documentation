@@ -1,3 +1,4 @@
+# OpenSCAD ColorCodeShape/it
 ---
 - GuiCommand:/it   Name:OpenSCAD ColorCodeShape‏‎   Name/it:ColorCodeShape   MenuLocation:OpenSCAD → ColorCodeShape‏‎   |Workbenches:[[OpenSCAD_Workbench/it   OpenSCAD]]|Shortcut:   SeeAlso:---
 
@@ -30,4 +31,7 @@
 
 {{OpenSCAD_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD ColorCodeShape/it

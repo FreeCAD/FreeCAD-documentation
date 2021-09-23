@@ -8,6 +8,8 @@
    SeeAlso:[Skizzierer Horizontale Beschränkung](Sketcher_ConstrainHorizontal/de.md)
 ---
 
+# Sketcher ConstrainVertical/de
+
 ## Beschreibung
 
 Erstellt eine vertikale Beschränkung für die gewählten Linien oder Polylinienelemente. Ab {<small>(v0.17)</small> } kann sie auch Knoten vertikal beschränken. Es kann mehr als ein Objekt ausgewählt werden.
@@ -35,4 +37,7 @@ Die [Skizzierer Skripten](Sketcher_scripting.md) Seite erklärt die Werte, die f
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainVertical/de

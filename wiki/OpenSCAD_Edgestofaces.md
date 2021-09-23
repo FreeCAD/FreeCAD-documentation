@@ -6,6 +6,8 @@
    SeeAlso:[Draft Upgrade](Draft_Upgrade.md)
 ---
 
+# OpenSCAD Edgestofaces
+
 ## Description
 
 Convert edges to faces. Useful to prepare imported DXF geometry for extrusion.
@@ -24,4 +26,7 @@ See also <img alt="Draft\_Upgrade" src=images/Draft_Upgrade.svg  style="width:24
 
 
 
- {{OpenSCAD_Tools_navi}} 
+ {{OpenSCAD_Tools_navi}}
+
+---
+[documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD Edgestofaces

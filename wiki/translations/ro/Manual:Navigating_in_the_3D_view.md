@@ -1,10 +1,4 @@
 # Manual:Navigating in the 3D view/ro
- 
-
-
-
-
-
 {{Manual:TOC/ro}}
 
 ### O vorbă despre spațiul 3D 
@@ -150,6 +144,5 @@ De asemenea, puteți utiliza Selection View pentru a selecta obiecte prin căuta
 
 </div>
 
-
-
-
+---
+[documentation index](../README.md) > Manual:Navigating in the 3D view/ro

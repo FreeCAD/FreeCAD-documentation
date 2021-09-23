@@ -1,7 +1,4 @@
 # Testing/it
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -292,3 +289,6 @@ r.run(suite)
 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Test Framework](Category:Test_Framework.md) [Category:Workbenches](Category:Workbenches.md) [Category:Testing](Category:Testing.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Testing/it

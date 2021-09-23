@@ -1,5 +1,5 @@
 # Macro Manage Navigational Style2/en
- {{Macro
+{{Macro
 |Name=Macro Manage Navigational Styles2
 |Icon=Macro_Manage_Navigational_Styles2.png
 |Description=This macro allow you to alter the Navigation Style Inventor while using the Sketcher.<br/>When using the Sketcher the right-button menu is redefined to hold options relevant to the Sketcher. Consequently the option to change the Navigational Style, which is available when outside the Sketcher,  is not available when in the Sketcher.
@@ -45,6 +45,5 @@ p=App.ParamGet("User parameter:BaseApp/Preferences/View")
 p.SetString("NavigationStyle","Gui::InventorNavigationStyle")
 }}
 
-
-
-
+---
+[documentation index](../README.md) > Macro Manage Navigational Style2/en

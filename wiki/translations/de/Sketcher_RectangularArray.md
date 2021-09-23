@@ -7,6 +7,8 @@
    Version:0.16
 ---
 
+# Sketcher RectangularArray/de
+
 
 </div>
 
@@ -48,4 +50,7 @@ aus dem oberen Menü.
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher RectangularArray/de

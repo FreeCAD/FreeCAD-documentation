@@ -6,6 +6,8 @@
    Workbenches:[Part](Part_Workbench/ro.md)
 ---
 
+# Part Measure Toggle Delta/ro
+
 
 </div>
 
@@ -33,8 +35,5 @@ Acest instrument activează/dezactivează vizibilitatea măsurătorilor delta (v
 
 </div>
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Toggle Delta/ro

@@ -9,6 +9,8 @@
    SeeAlso:
 ---
 
+# Ship Loading/de
+
 ## Einführung
 
 ZUTUN
@@ -27,6 +29,5 @@ ZUTUN
 
 {{Userdocnavi/de}}
 
-
-
-
+---
+[documentation index](../README.md) > Ship Loading/de

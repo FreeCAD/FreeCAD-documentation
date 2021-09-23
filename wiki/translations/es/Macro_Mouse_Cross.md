@@ -1,5 +1,5 @@
 # Macro Mouse Cross/es
- {{Macro/es
+{{Macro/es
 |Name=Macro_Mouse_Cross
 |Icon=Macro_Mouse_Cross.png
 |Translate=Macro_Mouse_Cross
@@ -210,3 +210,6 @@ ArrowCursor, UpArrowCursor, CrossCursor, WaitCursor, IBeamCursor, SizeVerCursor,
 El cursor puede cambiar de aspecto dependiendo del Workbench utilizado, debe repetir la operación.
 El cursor puede ser subtitulador de los otros controles deslizantes (por ejemplo, expansión de una ventana, esquina \...).
 La cuadrícula es permanente.
+
+---
+[documentation index](../README.md) > Macro Mouse Cross/es

@@ -1,6 +1,4 @@
 # Rename Module to Workbench
-
-
 ## Tracking page for wiki-renaming Module to Workbench - 2021 effort 
 
 +------------------------------------------------------------------------+----------------------------------------------------+
@@ -57,3 +55,6 @@ For some reason it is currently not possible to rename the Part\_Module page.
 The green background indicates links that have been fixed or that never existed.
 
 [Category:HouseKeeping](Category:HouseKeeping.md)
+
+---
+[documentation index](../README.md) > Rename Module to Workbench

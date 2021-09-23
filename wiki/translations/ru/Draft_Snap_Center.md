@@ -7,6 +7,8 @@
    SeeAlso:[Draft привязка](Draft_Snap/ru.md), [Draft Toggle привязка](Draft_Snap_Lock/ru.md)
 ---
 
+# Draft Snap Center/ru
+
 
 </div>
 
@@ -48,8 +50,5 @@ For general information about snapping see [Draft Snap](Draft_Snap.md).
 
 See [Draft Snap](Draft_Snap#Preferences.md).
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Center/ru

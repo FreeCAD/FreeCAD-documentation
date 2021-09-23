@@ -1,7 +1,4 @@
 # Manual:Import and export to other filetypes/ru
- 
-
-
 {{Manual:TOC/ru}}
 
 FreeCAD может импортировать и экспортировать во множество типов файлов. Здесь приведён список наиболее важных из них с коротким описанием доступных особенностей:
@@ -49,3 +46,6 @@ FreeCAD может импортировать и экспортировать в
 
 
 [Category:Poweruser Documentation](Category:Poweruser_Documentation.md) [Category:Tutorials](Category:Tutorials.md)
+
+---
+[documentation index](../README.md) > [Poweruser Documentation](Category:Poweruser Documentation.md) > Manual:Import and export to other filetypes/ru

@@ -1,5 +1,5 @@
 # Crowdin Scripts/it
- {{TOCright}}
+{{TOCright}}
 
 ## Gestire le traduzioni per FreeCAD 
 
@@ -91,3 +91,6 @@ Lo script updatefromcrowdin.py estrae le modifiche da crowdin alla directory loc
 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Administration](Category:Administration.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Crowdin Scripts/it

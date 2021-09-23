@@ -1,5 +1,4 @@
 # Sandbox:TutorialBIMannex
-
 {{TutorialInfo/en
 |Topic=Modeling
 |Level=Intermediate
@@ -177,3 +176,6 @@ As a resource: there is an excellent explanation on - [Jason\'s Blog](https://jt
 [IfcOpenShell\_code\_examples](https://wiki.osarch.org/index.php?title=IfcOpenShell_code_examples)
 
 [Category:Sandbox](Category:Sandbox.md)
+
+---
+[documentation index](../README.md) > Sandbox:TutorialBIMannex

@@ -1,5 +1,5 @@
 # Feature editing/pl
- {{TOCright}}
+{{TOCright}}
 
 ## Wprowadzenie
 
@@ -170,3 +170,6 @@ Strona [Poradniki](Tutorials/pl.md) zawiera kilka przykładów użycia metody [E
 }} 
 
 [Category:Common Questions](Category:Common_Questions.md)
+
+---
+[documentation index](../README.md) > [Common Questions](Category:Common Questions.md) > Feature editing/pl

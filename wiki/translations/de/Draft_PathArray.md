@@ -8,6 +8,8 @@
    SeeAlso:[Entwurf OrthoAnordnung](Draft_OrthoArray/de.md), [Entwurf PolarArray](Draft_PolarArray/de.md), [Entwurf CircularArray](Draft_CircularArray/de.md), [Entwurf PfadVerknüpfeAnordnung](Draft_PathLinkArray/de.md), [Entwurf PunktAnordnung](Draft_PointArray/de.md), [Entwurf Klonen](Draft_Clone/de.md)
 ---
 
+# Draft PathArray/de
+
 
 </div>
 
@@ -316,5 +318,5 @@ doc.recompute()
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft PathArray/de

@@ -1,8 +1,4 @@
 # Macro clone explicit
-
-
-
-
 {{Macro
 |Name=clone_explicit
 |Icon=Macro_clone_explicit.png
@@ -233,3 +229,6 @@ Coin version: 4.0.0a
 OCC version: 7.3.0
 Locale: French/France (fr_FR)
 ```
+
+---
+[documentation index](../README.md) > Macro clone explicit

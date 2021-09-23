@@ -7,6 +7,8 @@
    SeeAlso:[Mapear esboço na face...](Sketcher_MapSketch/pt.md), [Reorientar esboço...](Sketcher_Reorient/pt.md)
 ---
 
+# Sketcher NewSketch/pt
+
 
 </div>
 
@@ -40,4 +42,7 @@ The sketch can be moved in the [3D view](3D_view.md) using [Placement](Placement
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher NewSketch/pt

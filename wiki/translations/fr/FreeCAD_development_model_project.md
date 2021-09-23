@@ -1,7 +1,4 @@
 # FreeCAD development model project/fr
-
-
-
 **
 Ce plan de développement est probablement obsolète. Pour plus d'informations, voir [Plan de développement](Development_roadmap/fr.md).<br>
 Si vous n'êtes pas impliqué dans le développement discuté ici :<br>
@@ -71,3 +68,6 @@ Les règles décidées et les informations sont sur décrites sur le document [F
 
 
 [Category:Roadmap](Category:Roadmap.md)
+
+---
+[documentation index](../README.md) > [Roadmap](Category:Roadmap.md) > FreeCAD development model project/fr

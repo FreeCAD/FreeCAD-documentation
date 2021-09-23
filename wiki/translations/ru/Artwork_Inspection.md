@@ -1,6 +1,4 @@
 # Artwork Inspection/ru
- 
-
 Эти иконки находятся в указанной исходной папке.
 
 Для всех иконок в исходнике смотри [Художественное оформление](Artwork/ru.md).
@@ -17,3 +15,6 @@
 }} 
 
 [Category:Inspection](Category:Inspection.md)
+
+---
+[documentation index](../README.md) > [Inspection](Category:Inspection.md) > Artwork Inspection/ru

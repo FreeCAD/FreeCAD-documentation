@@ -1,10 +1,4 @@
 # Import Export Preferences/de
-
-
-
-
-
-
 {{TOCright}}
 
 ## Einführung
@@ -623,3 +617,6 @@ Für das VTK Format kannst du folgendes festlegen:
 
 
 [Category:Common Questions](Category:Common_Questions.md) [Category:Preferences](Category:Preferences.md) [Category:File\_Formats](Category:File_Formats.md)
+
+---
+[documentation index](../README.md) > [Import](Import_Workbench.md) > Import Export Preferences/de

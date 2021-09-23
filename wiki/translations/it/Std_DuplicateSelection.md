@@ -8,6 +8,8 @@
    SeeAlso:[Taglia](Std_Cut/it.md), [Copia](Std_Copy/it.md), [Incolla](Std_Paste/it.md)
 ---
 
+# Std DuplicateSelection/it
+
 
 </div>
 
@@ -47,4 +49,7 @@ Il comando **Duplica la selezione** duplica gli oggetti all\'interno del documen
 
 {{Std Base navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > Std DuplicateSelection/it

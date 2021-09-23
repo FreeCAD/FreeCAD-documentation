@@ -6,6 +6,8 @@
    MenuLocation:Robot → Définir la position de départ
 ---
 
+# Robot SetHomePos/fr
+
 
 </div>
 
@@ -54,4 +56,7 @@ Initialement, la position lorsque le robot est inséré dans la scène sera déf
 
 {{Robot_Tools_navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot SetHomePos/fr

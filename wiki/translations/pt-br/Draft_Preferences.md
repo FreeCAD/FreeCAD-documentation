@@ -1,10 +1,4 @@
 # Draft Preferences/pt-br
-
-
-
-
-
-
 {{TOCright}}
 
 The preferences for the [Draft Workbench](Draft_Workbench.md) can be found in the [Preferences Editor](Preferences_Editor.md). In the menu select **Edit → Preferences...** and then **Draft**.
@@ -490,3 +484,6 @@ On the *Texts and dimensions* tab you can specify the following:
  
 
 [Category:Preferences](Category:Preferences.md)
+
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Preferences/pt-br

@@ -1,3 +1,4 @@
+# Robot SetDefaultValues/ru
 ---
 - GuiCommand:/ru
    Name:Robot SetDefaultValues
@@ -48,4 +49,7 @@
 
 {{Robot_Tools_navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot SetDefaultValues/ru

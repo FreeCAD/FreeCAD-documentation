@@ -8,6 +8,8 @@
    SeeAlso:[Wiązanie odległości poziomej](Sketcher_ConstrainDistanceX/pl.md), [Wiązanie odległości pionowej](Sketcher_ConstrainDistanceY/pl.md)
 ---
 
+# Sketcher ConstrainDistance/pl
+
 ## Opis
 
 Wiązanie odległości wyznacza długość linii, czyli odległość prostopadłą między punktem a linią, lub odległość między dwoma punktami, aby osiągnąć wymaganą wartość.
@@ -59,4 +61,7 @@ Strona [Skrypty szkicownika](Sketcher_scripting/pl.md) wyjaśnia wartości, któ
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainDistance/pl

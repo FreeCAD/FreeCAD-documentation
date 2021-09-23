@@ -8,6 +8,8 @@
    SeeAlso:[Odsunięcie 2D](Part_Offset2D/pl.md)
 ---
 
+# Draft Offset/pl
+
 ## Opis
 
 Narzędzie <img alt="" src=images/Draft_Offset.svg  style="width:24px;"> **Odsunięcie** przesuwa każdy segment wybranego obiektu o zadaną odległość lub tworzy przesuniętą kopię wybranego obiektu.
@@ -107,8 +109,5 @@ offset5 = Draft.offset(wire, 1.5*vector, copy=True, occ=True)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Offset/pl

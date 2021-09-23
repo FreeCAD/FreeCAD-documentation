@@ -1,6 +1,4 @@
 # App Link
- 
-
 ## Introduction
 
 <img alt="" src=images/Link.svg  style="width:32px;">
@@ -25,4 +23,7 @@ An [App Link](App_Link.md) (`App::Link` class) is derived from the basic [App Do
 
 See the full list of properties in the [Std LinkMake](Std_LinkMake.md) page.
 
- {{Std Base navi}} {{Document objects navi}} 
+ {{Std Base navi}} {{Document objects navi}}
+
+---
+[documentation index](../README.md) > App Link

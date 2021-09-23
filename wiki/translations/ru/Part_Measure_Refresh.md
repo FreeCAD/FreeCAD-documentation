@@ -7,6 +7,8 @@
    SeeAlso:[Measure Linear](Part_Measure_Linear/ru.md), [Measure Angular](Part_Measure_Angular/ru.md)
 ---
 
+# Part Measure Refresh/ru
+
 
 </div>
 
@@ -20,8 +22,5 @@
     -   Press the **<img src=images/Part_Measure_Refresh.svg style="width:16px"> [Measure Refresh](Part_Measure_Refresh.md)** button.
     -   Use the **Measure → <img src=images/Part_Measure_Refresh.svg style="width:16px"> Refresh**.
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Refresh/ru

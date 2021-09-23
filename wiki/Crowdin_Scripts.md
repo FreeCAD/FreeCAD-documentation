@@ -1,6 +1,4 @@
 # Crowdin Scripts
- 
-
 ## Managing Translations for FreeCAD 
 
 FreeCAD uses a 3rd party translation service called [Crowdin](https://crowdin.com/project/freecad) to manage translations.
@@ -92,3 +90,6 @@ The updatefromcrowdin.py script pulls changes from crowdin to your local FreeCAD
  
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Administration](Category:Administration.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Crowdin Scripts

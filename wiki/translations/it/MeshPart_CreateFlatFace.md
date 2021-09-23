@@ -8,6 +8,8 @@
    SeeAlso:[Sviluppa una mesh](MeshPart_CreateFlatMesh/it.md)
 ---
 
+# MeshPart CreateFlatFace/it
+
 
 </div>
 
@@ -36,4 +38,7 @@ Vedere: [Funzioni Part](Part_Feature/it.md).
 
 {{Mesh Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [MeshPart](MeshPart_Workbench.md) > MeshPart CreateFlatFace/it

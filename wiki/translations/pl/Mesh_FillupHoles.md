@@ -6,6 +6,8 @@
    SeeAlso:[Mesh FillInteractiveHole](Mesh_FillInteractiveHole.md), [Mesh AddFacet](Mesh_AddFacet.md)
 ---
 
+# Mesh FillupHoles/pl
+
 ## Description
 
 The **Mesh FillupHoles** command fills holes in mesh objects.
@@ -26,4 +28,7 @@ The **Mesh FillupHoles** command fills holes in mesh objects.
 
 {{Mesh Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh FillupHoles/pl

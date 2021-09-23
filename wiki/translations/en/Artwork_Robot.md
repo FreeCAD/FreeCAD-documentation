@@ -1,6 +1,4 @@
 # Artwork Robot/en
- 
-
 These icons are in the indicated source path.
 
 For all icons in the source tree, see [Artwork](Artwork.md).
@@ -17,3 +15,6 @@ For all icons in the source tree, see [Artwork](Artwork.md).
 }} 
 
 [Category:Robot](Category:Robot.md)
+
+---
+[documentation index](../README.md) > [Robot](Category:Robot.md) > Artwork Robot/en

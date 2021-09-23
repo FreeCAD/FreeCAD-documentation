@@ -7,6 +7,8 @@
    SeeAlso:[Выравнивание](Std_Alignment/ru.md), [Расположение](Placement/ru.md)
 ---
 
+# Std Placement/ru
+
 ## Описание
 
 The **Std Placement** command displays the Placement [task panel](Task_panel.md) for a selected object.
@@ -84,4 +86,7 @@ print(obj.Placement.Matrix)
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std Placement/ru

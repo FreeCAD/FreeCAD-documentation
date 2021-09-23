@@ -8,6 +8,8 @@
    SeeAlso:[Sito](Arch_Site/it.md), [Edificio](Arch_Building/it.md)
 ---
 
+# Arch Project/it
+
 
 </div>
 
@@ -51,5 +53,5 @@ Notare che, sebbene a un Progetto possa essere aggiunto qualsiasi altro oggetto 
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Project/it

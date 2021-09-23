@@ -1,10 +1,4 @@
 # Draft Snap/en
-
-
-
-
-
-
 {{TOCright}}
 
 ## Description
@@ -86,8 +80,5 @@ Note that after changing some preferences you must restart FreeCAD.
 -   The color of the snap symbols and the dimensions of [Draft Snap Dimensions](Draft_Snap_Dimensions.md) can be changed: **Edit → Preferences... → Draft → Visual settings → Visual settings → Color**.
 -   The mentioned single character keyboard shortcuts can be changed: **Edit → Preferences... → Draft → User interface settings → In-Command Shortcuts**.
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap/en

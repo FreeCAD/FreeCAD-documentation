@@ -1,7 +1,4 @@
 # Main Page/cs
- 
-
-
 <div class="mw-translate-fuzzy">
 
 Toto je wiki dokumentace [FreeCADu](http://www.freecadweb.org). Informace obsažené zde jsou ty, které budou v offline dokumentaci distribuované s FreeCADem. Pro prohlížení dokumentace pak máte dvě možnosti: buď v uživatelském centru nebo v manuálu. Právě se na tom pracuje, dokumentace je psána komunitou uživatelů a vývojářů FreeCADu. Najdete-li informace které jsou chybné nebo které chybí, prosím [pomozte](Help_FreeCAD/cs.md)!
@@ -96,3 +93,6 @@ Podívejte se na [Vývojovou mapu](Development_roadmap/cs.md) na novinky, které
 
 
 [Category:Documentation](Category:Documentation.md)
+
+---
+[documentation index](../README.md) > [Documentation](Category:Documentation.md) > Main Page/cs

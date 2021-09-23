@@ -6,6 +6,8 @@
    Workbenches:[Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
 ---
 
+# Draft ShowSnapBar/ro
+
 
 </div>
 
@@ -31,8 +33,5 @@ Această comandă afișează/ascunde bara de instrumente [ snapping](Draft_Snap.
     -   Select the **View → Toolbars → Draft Snap** option from the menu.
     -   Right-click an empty space in the [toolbar area](Interface.md) and select the **Draft Snap** option from the menu that appears.
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ShowSnapBar/ro

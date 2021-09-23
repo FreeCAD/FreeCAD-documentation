@@ -1,11 +1,4 @@
 # TechDraw LineGroup
- 
-
-
-
-
- 
-
 ## Overview
 
 LineGroups are used to control the appearance of various types of lines.
@@ -77,4 +70,7 @@ Note: A new preference has been added to allow you to use your own personal Line
 
 
 
- {{TechDraw Tools navi}}  
+ {{TechDraw Tools navi}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw LineGroup

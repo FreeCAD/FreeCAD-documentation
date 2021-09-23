@@ -7,6 +7,8 @@
    SeeAlso:[Part Boolsche Operationen](Part_Boolean/de.md), [Part Schneiden](Part_Cut/de.md), [Part Gemeinsam](Part_Common/de.md), 
 ---
 
+# Part Fuse/de
+
 ## Beschreibung
 
 Das **![](images/)_[Part_verschmelzen](Part_Fuse/de.md)** Werkzeug verschmilzt (vereint) ausgewählte Part Objekte zu einem. Diese Operation ist voll parametrisch und die Komponenten können geändert und das Ergebnis erneut berechnet werden.
@@ -38,8 +40,5 @@ Elemente können der Verschmelzung hinzugefügt und entfernt werden, indem sie m
 
 Nachdem dieser Vorgang abgeschlossen ist, kann es notwendig sein, die Form mit <img alt="" src=images/Part_RefineShape.svg  style="width:24px;"> [FormVerfeinern](Part_RefineShape/de.md) zu säubern.
 
-
-
-
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Fuse/de

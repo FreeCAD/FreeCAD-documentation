@@ -1,10 +1,4 @@
 # Getting started/zh-tw
-
-
-
-
-
-
 {{TOCright}}
 
 ## Foreword
@@ -204,3 +198,6 @@ And finally, one of the most powerful features of FreeCAD is the [scripting](scr
 
 
 [Category:User Documentation/zh-tw](Category:User_Documentation/zh-tw.md)
+
+---
+[documentation index](../README.md) > Getting started/zh-tw

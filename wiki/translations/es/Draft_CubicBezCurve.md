@@ -8,6 +8,8 @@
    SeeAlso:[Borrador BezCurva](Draft_BezCurve/es.md), [Borrador BSpline](Draft_BSpline/es.md)
 ---
 
+# Draft CubicBezCurve/es
+
 
 </div>
 
@@ -171,5 +173,5 @@ doc.recompute()
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft CubicBezCurve/es

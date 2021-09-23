@@ -8,6 +8,8 @@
    SeeAlso:[SäulenVerstärkung ZweiBinderSechsStäbe](Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars/de.md), [Arch Bewehrung](Arch_Rebar/de.md)
 ---
 
+# Arch Rebar Circular ColumnReinforcement/de
+
 ## Beschreibung
 
 Das [Säulenverstärkung](Arch_Rebar_Circular_ColumnReinforcement/de.md) Werkzeug ermöglicht es dem Anwender, Bewehrungsstäbe innerhalb eines Stützen [Architektur Struktur](Arch_Structure/de.md) Objektes zu erzeugen.
@@ -201,3 +203,6 @@ rebar_group = CircularColumn.editReinforcement(
 
 
 [Category:Reinforcement](Category:Reinforcement.md)
+
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Rebar Circular ColumnReinforcement/de

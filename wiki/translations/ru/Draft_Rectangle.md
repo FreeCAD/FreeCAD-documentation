@@ -8,6 +8,8 @@
    SeeAlso:[Куб](Part_Box/ru.md)
 ---
 
+# Draft Rectangle/ru
+
 
 </div>
 
@@ -128,8 +130,5 @@ rectangle3 = Draft.make_rectangle(3500, 250, placement=place3)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Rectangle/ru

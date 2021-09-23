@@ -8,6 +8,8 @@
    SeeAlso:[Std: Część](Std_Part/pl.md), [edycja funkcji](Feature_editing/pl.md)
 ---
 
+# PartDesign Body/pl
+
 ## Opis
 
 Obiekt [zawartość](PartDesign_Body/pl.md) jest podstawowym elementem do tworzenia brył w środowisku [Projekt części](PartDesign_Workbench/pl.md). Może on zawierać [szkice](Sketch/pl.md), [obiekty odniesienia](Datum/pl.md) i [cechy](PartDesign_Feature/pl.md), które pomagają w tworzeniu [pojedynczej, ciągłej bryły](PartDesign_Body/pl#Pojedyncza_ci.C4.85g.C5.82a_bry.C5.82a.md).
@@ -290,4 +292,7 @@ App.ActiveDocument.recompute()
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Body/pl

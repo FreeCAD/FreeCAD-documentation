@@ -1,7 +1,4 @@
 # Macro Compound Plus/it
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -1698,3 +1695,5 @@ Le mie macro su [Github](https://gist.github.com/mario52a)
 
 </div>
 
+---
+[documentation index](../README.md) > Macro Compound Plus/it

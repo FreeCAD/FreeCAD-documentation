@@ -7,6 +7,8 @@
    SeeAlso:[Wyciągnięcie po profilach](Part_Loft/pl.md)
 ---
 
+# Part Sweep/pl
+
 ## Opis
 
 Narzędzie <img alt="" src=images/Part_Sweep.svg  style="width:24px;"> [Wyciągnięcie po ścieżce](Part_Sweep/pl.md) jest używane do tworzenia powierzchni, powłoki lub bryły z jednego lub więcej profili *(przekrojów)* rzutowanych wzdłuż ścieżki.
@@ -84,8 +86,5 @@ Opcja **Przejście** ustawia styl przejścia Przeciągania w miejscu połączeni
 
 -   Ponieważ funkcja ta jest często używana do tworzenia gwintów dla śrub, powinieneś zobaczyć stronę [Przewodnik: Tworzenie gwintów](Thread_for_Screw_Tutorial/pl.md).
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Sweep/pl

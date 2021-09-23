@@ -1,5 +1,4 @@
-# Power users hub/zh-cn
- <img alt="" src=images/Power_user_hub.png  style="width:64px;">
+# <img alt="" src=images/Power_user_hub.png  style="width:64px;"> Power users hub/zh-cn
 
 ------------------------------------------------------------------------
 
@@ -258,3 +257,6 @@ Related: [Exposing C++ to Python](Exposing_C%2B%2B_to_Python.md)
 }}
 
 [Category:Hubs](Category:Hubs.md)
+
+---
+[documentation index](../README.md) > [Hubs](Category:Hubs.md) > Power users hub/zh-cn

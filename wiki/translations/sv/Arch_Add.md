@@ -1,3 +1,4 @@
+# Arch Add/sv
 ---
 - GuiCommand:/sv   Name:Arch Add   Name/sv:Arch Add   Workbenches:[MenuLocation:Arch → Add   SeeAlso:[[Arch Remove/sv|Arch Remove](Arch_Workbench/sv___Arch]].md)---
 
@@ -93,11 +94,5 @@ Arch.addComponents(Wall2, Wall)
 FreeCAD.ActiveDocument.recompute()
 ```
 
-
-
-
-
-
-
-
-
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Add/sv

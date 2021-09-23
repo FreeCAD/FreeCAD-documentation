@@ -1,6 +1,4 @@
 # Artwork Drawing/ru
- 
-
 Эти иконки находятся в указанной исходной папке.
 
 Для всех иконок в исходнике смотри [Художественное оформление](Artwork/ru.md).
@@ -46,3 +44,5 @@
 
 {{Artwork/ru}}
 
+---
+[documentation index](../README.md) > Artwork Drawing/ru

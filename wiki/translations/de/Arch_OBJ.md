@@ -1,7 +1,4 @@
 # Arch OBJ/de
-
-
-
 {{docnav/de
 |[DAE](Arch_DAE/de.md)
 |[JSON](Arch_JSON/de.md)
@@ -61,3 +58,6 @@ mesh.write(Filename="new_example.obj", Material=face_colors, Format="obj")
  
 
 [Category:File Formats](Category:File_Formats.md)
+
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch OBJ/de

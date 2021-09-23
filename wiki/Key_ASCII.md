@@ -1,5 +1,5 @@
 # Key ASCII
-  **Not finished page**
+**Not finished page**
 
 <img alt="" src=images/Ascii_000.svg  style="width:24px;"> : type 
 **Alt** + **0**
@@ -644,3 +644,6 @@
    
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Icon](Category:Icon.md) [Category:Help](Category:Help.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Key ASCII

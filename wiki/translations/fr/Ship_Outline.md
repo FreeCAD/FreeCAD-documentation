@@ -1,3 +1,4 @@
+# Ship Outline/fr
 ---
 - GuiCommand:/fr   Name:Ship Outline   Name/fr:Ship Outline   MenuLocation:Ship design → Outline draw   |Workbenches:[[Ship Workbench/fr   Ship]]|Shortcut:   SeeAlso:---
 
@@ -102,4 +103,7 @@ Outline draw plot.
 
 {{Ship_Tools_navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Ship Outline/fr

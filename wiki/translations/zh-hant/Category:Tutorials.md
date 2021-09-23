@@ -8,3 +8,6 @@ Special pages are [Offsite tutorials](Offsite_tutorials.md) and [Video tutorials
 [Draft tutorial/zh-hant](Draft_tutorial/zh-hant.md) , [Template:TutorialInfo/zh-hant](Template:TutorialInfo/zh-hant.md)
 
 [Category:Categories/zh-hant](Category:Categories/zh-hant.md)
+
+---
+[documentation index](../README.md) > Category:Tutorials/zh-hant

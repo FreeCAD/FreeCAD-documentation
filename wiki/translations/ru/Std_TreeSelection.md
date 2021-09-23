@@ -7,6 +7,8 @@
    Shortcut:**T** **G**
 ---
 
+# Std TreeSelection/ru
+
 
 </div>
 
@@ -31,4 +33,7 @@ If the Tree view [SyncSelection](Std_TreeSyncSelection.md) mode is off, the Tree
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std TreeSelection/ru

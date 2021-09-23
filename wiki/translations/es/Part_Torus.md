@@ -1,3 +1,4 @@
+# Part Torus/es
 ---
 - GuiCommand:/es   Name:Part Torus   Name/es:Part Torus   MenuLocation:Part → Torus   |Workbenches:[SeeAlso:[[Part_CreatePrimitives/es|Part CreatePrimitives](Part_Workbench/es___Part]],_Complete.md)---
 
@@ -54,10 +55,7 @@ as well as the standard set of placement parameters. The pictures below give a v
 
 ![](images/TorusExampleAngle2.jpg ) The parameter Angle2 has a value of 90°.
 
-![](images/TorusExampleAngle3.jpg ) The parameter Angle3 has a value of 90°. 
+![](images/TorusExampleAngle3.jpg ) The parameter Angle3 has a value of 90°.
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Torus/es

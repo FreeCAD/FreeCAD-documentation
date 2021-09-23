@@ -6,6 +6,8 @@
    Workbenches:[Curves](Curves_Workbench/fr.md)
 ---
 
+# Curves SegmentSurface/fr
+
 ## Description
 
 <img alt="" src=images/Curves_SegmentSurface.svg  style="width:24px;"> [Curves Segmenter une surface](Curves_SegmentSurface/fr.md) permet de segmenter une surface sur des isocurves. Cet outil fait partie des [ateliers externes](External_workbenches/fr.md) appelé [Curves](Curves_Workbench/fr.md).
@@ -31,4 +33,7 @@
 
 {{Curves Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > Curves SegmentSurface/fr

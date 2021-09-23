@@ -1,3 +1,4 @@
+# Std Edit/cs
 ---
 - GuiCommand:/cs   Name:Std Edit   Name/cs:Std Edit   MenuLocation:[[Std_Edit_Menu/cs   Edit]] → Toggle Editmode|Workbenches:All   SeeAlso:...---
 
@@ -59,4 +60,7 @@ FreeCADGui.ActiveDocument.resetEdit()
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std Edit/cs

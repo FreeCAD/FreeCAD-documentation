@@ -8,6 +8,8 @@
    SeeAlso:[Std Aide](Std_OnlineHelp/fr.md)
 ---
 
+# Std WhatsThis/fr
+
 ## Description
 
 La commande **Std Qu\'est-ce que c\'est?** ouvre la documentation d\'aide pour une commande spécifiée.
@@ -37,4 +39,7 @@ Lisez cet article pour comprendre comment les commandes doivent être nommées d
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std WhatsThis/fr

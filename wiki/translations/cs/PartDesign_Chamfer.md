@@ -1,3 +1,4 @@
+# PartDesign Chamfer/cs
 ---
 - GuiCommand:/cs   Name:PartDesign Chamfer   Name/cs:PartDesign Chamfer   Workbenches:[MenuLocation:Part Design → Chamfer   SeeAlso:[[Part Chamfer/cs|Chamfer Part](PartDesign_Workbench/cs___PartDesign]],_Complete.md)---
 
@@ -57,4 +58,7 @@ This tool creates chamfers on the selected edges of an object. A new separate Ch
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Chamfer/cs

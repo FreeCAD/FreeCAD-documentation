@@ -7,6 +7,8 @@
    SeeAlso:[TechDraw Vorlagen](TechDraw_Templates/de.md), [Entwurf SVG](Draft_SVG/de.md)
 ---
 
+# TechDraw ExportPageSVG/de
+
 ## Beschreibung
 
 Das ExportSeiteSVG Werkzeug speichert das aktuelle Zeichnungsseite als [SVG](SVG/de.md) Datei.
@@ -49,4 +51,7 @@ Beachte, dass das FreeCADGui Modul aktiv sein muss, um diese Funktion nutzen zu 
 
 {{TechDraw Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExportPageSVG/de

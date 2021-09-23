@@ -7,6 +7,8 @@
    SeeAlso:[Создать примитивы...](Part_Primitives/ru.md)
 ---
 
+# Part Plane/ru
+
 ## Описание
 
 Создаёт простую параметрическую плоскость 10х10мм с параметрами положение, длина и ширина. По умолчанию плоскость расположена в начале координат (0,0,0).
@@ -53,8 +55,5 @@
 
 You have the standard properties view.
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Plane/ru

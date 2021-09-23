@@ -59,3 +59,6 @@ Easy
 This project was chosen for GSoC 2020. The results can be found here: [Git repo](https://github.com/kryptokommunist/Jupyter_FreeCAD). The corresponding thread in the FreeCAD forum can be found [here](https://forum.freecadweb.org/viewtopic.php?f=8&t=46039). Find a blog post [here](https://kryptokommun.ist/tech/2020/08/31/google-summer-of-code.html). The full project proposal can be found [here](https://docs.google.com/document/d/1VgfsD06Qvb87S-tQazfTsyYTp14Z3EjF4V9puPVNCTQ/edit). The results are a good base to build upon.
 
 [Category:Google Summer of Code](Category:Google_Summer_of_Code.md) [Category:Developer](Category:Developer.md) [Category:Python Code](Category:Python_Code.md)
+
+---
+[documentation index](../README.md) > IPython notebook integration

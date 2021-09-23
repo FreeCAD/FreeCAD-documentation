@@ -1,7 +1,4 @@
 # Interesting links/es
-
-
-
 {{TOCright}}
 
 
@@ -132,3 +129,6 @@ Otra página que contiene enlaces interesantes es [Portal de la Comunidad](FreeC
 
 
 [Category:Documentation](Category:Documentation.md)
+
+---
+[documentation index](../README.md) > [Documentation](Category:Documentation.md) > Interesting links/es

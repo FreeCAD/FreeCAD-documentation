@@ -8,6 +8,8 @@
    Version:0.18
 ---
 
+# Sketcher ConstrainDiameter/pl
+
 ## Opis
 
 To wiązanie powoduje, że wartość średnicy okręgu lub łuku ma określoną wartość. Jeśli przed uruchomieniem polecenia zostanie wybrany więcej niż jeden okrąg lub łuk:
@@ -45,4 +47,7 @@ Strona [skrypty szkicownika](Sketcher_scripting/pl.md) wyjaśnia wartości, któ
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainDiameter/pl

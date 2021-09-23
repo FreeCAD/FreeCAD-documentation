@@ -7,6 +7,8 @@
    MenuLocation:Gestione → Finestre
 ---
 
+# BIM Windows/it
+
 ## Descrizione
 
 La finestra di dialogo Gestione finestre BIM consente di sfogliare e modificare tutte le [finestre e porte](Arch_Window/it.md) del progetto insieme. Questo è spesso più conveniente che modificarle una per una, e permette di accertarsi che abbiano tutti i parametri e che questi siano impostati correttamenti, come tag, dimensioni, descrizione o materiale.
@@ -21,3 +23,6 @@ La finestra di dialogo Gestione finestre BIM consente di sfogliare e modificare 
 }}
 
 [Category:External Command Reference](Category:External_Command_Reference.md)
+
+---
+[documentation index](../README.md) > [External Command Reference](Category:External Command Reference.md) > BIM Windows/it

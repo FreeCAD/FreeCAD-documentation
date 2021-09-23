@@ -1,7 +1,4 @@
 # Coin3d snippets/fr
-
-
-
 {{TOCright}}
 
 ## Description de cette liste 
@@ -103,3 +100,6 @@ Aucune installation n\'est nécessaire. Merci à l\'auteur du programme.
 }}
 
 [Category:Developer Documentation](Category:Developer_Documentation.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Coin3d snippets/fr

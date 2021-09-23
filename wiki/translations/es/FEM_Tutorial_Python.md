@@ -1,7 +1,4 @@
 # FEM Tutorial Python/es
-
-
-
 {{TutorialInfo/es
 |Topic= Finite Element Analysis
 |Level= Intermediates
@@ -628,3 +625,6 @@ Escribir el archivo de entrada en el modo de consola FreeCAD (sin Gui) se podrí
 }} {{FEM Tools navi}}  
 
 [Category:Python Code](Category:Python_Code.md)
+
+---
+[documentation index](../README.md) > [Python Code](Category:Python Code.md) > FEM Tutorial Python/es

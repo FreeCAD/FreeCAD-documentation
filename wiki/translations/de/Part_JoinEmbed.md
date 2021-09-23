@@ -7,6 +7,8 @@
    SeeAlso:[Part VerbindeEinbetten](Part_JoinEmbed/de.md), [Part FügeAusschnitt](Part_JoinCutout.md), [Part Bool'sche Operationen](Part_Boolean/de.md), [Part Dicke](Part_Thickness/de.md)
 ---
 
+# Part JoinEmbed/de
+
 
 </div>
 
@@ -124,5 +126,5 @@ Das Werkzeug selbst ist in Python implementiert, siehe {{FileName|/Mod/Part/Join
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part JoinEmbed/de

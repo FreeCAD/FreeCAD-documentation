@@ -1,5 +1,5 @@
 # Macro FCCamGroover/fr
- {{Macro/fr
+{{Macro/fr
 |Name=FCCamGroover
 |Icon=Cam-groover-icon-32x32.png
 |Description=Créer une rainure sinusoïdale sur un cylindre.<br/>L'objet créé est similaire à celui montré dans cette [https://youtu.be/io1JL1U7kUs vidéo].
@@ -312,3 +312,6 @@ diag.exec_()
 ## Lien
 
 La discussion sur le forum [FC Cam Groover Macro](https://forum.freecadweb.org/viewtopic.php?f=22&t=29816&sid=f6f9b946f015bc5072bf112d97b50256)
+
+---
+[documentation index](../README.md) > Macro FCCamGroover/fr

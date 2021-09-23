@@ -1,5 +1,5 @@
 # Macro FCSpring Helix Variable/en
- {{Macro
+{{Macro
 |Name=Macro FCSpring Helix Variable
 |Icon=FCSpring Helix Variable.png
 |Description=This macro creates a spring with customizable, any turn may change the spring configuration can be saved in a file with the extension '''.FCSpring'''.<br />Are detected: Surface (Face direction), Cylinder (Radius), Ellipse (MinorRadius), Sphere (Radius), Toroid (Radius1), Plane (Direction), Line (follow the Direction ), Point (XYZ vertex position)<br />If no object is detected (not selection) the spring is created at the point XYZ 0., 0., 0.<br/>See the [https://www.freecadweb.org/wiki/Macro_FCSpring_Helix_Variable#Examples examples]
@@ -368,4 +368,5 @@ Only circle work well
 
 </center>
 
-
+---
+[documentation index](../README.md) > Macro FCSpring Helix Variable/en

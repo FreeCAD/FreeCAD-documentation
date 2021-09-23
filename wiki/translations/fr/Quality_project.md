@@ -1,7 +1,4 @@
 # Quality project/fr
-
-
-
 **
 Ce plan de développement est probablement obsolète. Pour plus d'informations, voir [Plan de développement](Development_roadmap/fr.md).<br>
 Si vous n'êtes pas impliqué dans le développement discuté ici :<br>
@@ -46,3 +43,6 @@ Travailler à travers toutes les commandes et établir une documentation :
  
 
 [Category:Roadmap](Category:Roadmap.md)
+
+---
+[documentation index](../README.md) > [Roadmap](Category:Roadmap.md) > Quality project/fr

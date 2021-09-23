@@ -1,6 +1,4 @@
 # Sandbox:TestWikiPage
-  
-
 ### Overview
 
 This page can be used to try out wiki mark up before editing a real page. Feel free to do whatever you want here!
@@ -86,3 +84,6 @@ This page can be used to try out wiki mark up before editing a real page. Feel f
  
 
 [Category:Documentation](Category:Documentation.md) [Category:Wiki](Category:Wiki.md) [Category:Sandbox](Category:Sandbox.md)
+
+---
+[documentation index](../README.md) > Sandbox:TestWikiPage

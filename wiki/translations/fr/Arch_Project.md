@@ -8,6 +8,8 @@
    SeeAlso:[Arch Site](Arch_Site/fr.md), [Arch Bâtiment](Arch_Building/fr.md)
 ---
 
+# Arch Project/fr
+
 ## Description
 
 Le projet Arch est un objet spécial permettant d'améliorer la compatibilité avec les fichiers [IFC](Arch_IFC/fr.md). Chaque fichier IFC doit contenir une entité [IfcProject](https://standards.buildingsmart.org/IFC/RELEASE/IFC4_1/FINAL/HTML/schema/ifckernel/lexical/ifcproject.htm). IfcProject est principalement utilisé pour définir les paramètres généraux du projet tels que les systèmes de projection, pour la compatibilité GIS, ou les systèmes d\'unités.
@@ -21,8 +23,5 @@ Remarquez que, bien que tout autre objet BIM puisse être ajouté à un projet, 
 1.  Appuyez sur le bouton **<img src="images/_Arch_Project.svg" width=16px> [Crée une entité de projet...](Arch_Project/fr.md)** ou appuyez sur les touches **P** puis **O**.
 2.  Ajoutez n\'importe quel objet à votre projet en les faisant glisser sur la [Vue en arborescence](Tree_view/fr.md).
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Project/fr

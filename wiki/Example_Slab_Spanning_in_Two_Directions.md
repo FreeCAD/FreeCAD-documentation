@@ -7,6 +7,8 @@
    SeeAlso:[Reinforcement](Reinforcement_Workbench.md), [Arch Rebar](Arch_Rebar.md), [Arch Helical Rebar](Arch_Rebar_Helical.md)
 ---
 
+# Example Slab Spanning in Two Directions
+
 ## Description
 
 The [Slab Reinforcement](Arch_Rebar_Slab_Reinforcement.md) tool allows the user to create reinforcing bars inside a Slab [Arch Structure](Arch_Structure.md) object.
@@ -287,3 +289,6 @@ SlabReinforcementGroup = editSlabReinforcement(
 -   The other parameters are the same as required by the `makeSingleTieFourRebars()` function.
 
 Here we are editing count of rebars in parallel and cross. But you can change any property to edit Slab Reinforcement.
+
+---
+[documentation index](../README.md) > Example Slab Spanning in Two Directions

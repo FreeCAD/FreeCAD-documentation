@@ -9,6 +9,8 @@
    SeeAlso:[Open image](Image_Open/ru.md), [Image plane](Image_CreateImagePlane/ru.md)
 ---
 
+# Image Scaling/ru
+
 
 </div>
 
@@ -36,4 +38,7 @@ The [Image Scaling](Image_Scaling.md) tool scales an image that was imported wit
 
 {{Image Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Image](Image_Workbench.md) > Image Scaling/ru

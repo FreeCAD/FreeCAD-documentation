@@ -1,10 +1,4 @@
-# Std Tools Menu/de
-
-
-
-
-
-<img alt="Std Basis Symbol" src=images/Freecad.svg  style="width:128px;">
+# <img alt="Std Basis Symbol" src=images/Freecad.svg  style="width:64px;"> Std Tools Menu/de
 
 
 {{TOCright}}
@@ -74,3 +68,6 @@ Speichert ein Bildschirmfoto der aktiven [3D Ansicht](3D_view/de.md).
 }}  
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > [Workbenches](Category:Workbenches.md) > Std Tools Menu/de

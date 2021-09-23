@@ -1,3 +1,4 @@
+# Part CrossSections/es
 ---
 - GuiCommand:/es   Name:Part SectionCross   MenuLocation:Part → SectionCross   Workbenches:[[Part_Workbench/es   Part]],Complete|SeeAlso:---
 
@@ -32,8 +33,5 @@ The **Cross-sections** utility creates one or more cross-sections through the se
 
 ![Result](images/SectionCross3.png )
 
-
-
-
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part CrossSections/es

@@ -1,7 +1,4 @@
 # Main Page/zh
- 
-
-
 <div class="mw-translate-fuzzy">
 
 # FreeCAD
@@ -170,3 +167,6 @@ Check the [Development roadmap](Development_roadmap.md) for news about what is b
 
 
 [Category:Documentation](Category:Documentation.md)
+
+---
+[documentation index](../README.md) > [Documentation](Category:Documentation.md) > Main Page/zh

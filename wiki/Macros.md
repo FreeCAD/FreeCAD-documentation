@@ -1,8 +1,4 @@
 # Macros
- 
-
- 
-
 ## Introduction
 
 [Macros](Macros.md) are a convenient way to reproduce complex actions in FreeCAD. You simply record actions as you do them, then save those actions under a name, and replay them whenever you want. Since macros are in reality a list of [Python](Python.md) commands, you can also edit them, and create very complex scripts.
@@ -64,3 +60,6 @@ You can manually install extensions, however, it is much simpler to just use the
  {{Powerdocnavi}} 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md) [Category:Macros](Category:Macros.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Macros

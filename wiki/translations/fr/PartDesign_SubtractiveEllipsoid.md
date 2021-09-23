@@ -8,6 +8,8 @@
    SeeAlso:[PartDesign Primitives soustractives](PartDesign_CompPrimitiveSubtractive/fr.md)
 ---
 
+# PartDesign SubtractiveEllipsoid/fr
+
 ## Description
 
 Insérer un Ellipsoïde primitif soustractif dans le Corps actif. Sa forme est soustraite du solide existant.
@@ -54,4 +56,7 @@ L\'Ellipsoïde peut être édité après sa création de deux façons :
 
 {{PartDesign Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveEllipsoid/fr

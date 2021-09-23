@@ -1,10 +1,4 @@
-# Start Workbench/zh-cn
-
-
-
-
-
-<img alt="Start workbench icon" src=images/Workbench_Start.svg  style="width:128px;">
+# <img alt="Start workbench icon" src=images/Workbench_Start.svg  style="width:64px;"> Start Workbench/zh-cn
 
 
 <div class="mw-translate-fuzzy">
@@ -59,3 +53,6 @@
 
 
 [Category:User Documentation/zh-cn](Category:User_Documentation/zh-cn.md) [Category:Start](Category:Start.md) [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Start Workbench/zh-cn

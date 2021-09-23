@@ -9,6 +9,8 @@
    SeeAlso:[Set tip](PartDesign_MoveTip/ru.md), [Перемещение объекта в другое тело](PartDesign_MoveFeature/ru.md)
 ---
 
+# PartDesign MoveFeatureInTree/ru
+
 ## Описание
 
 <img alt="" src=images/PartDesign_MoveFeatureInTree.svg  style="width:24px;"> [Переместить объект за другой объект](PartDesign_MoveFeatureInTree/ru.md), при выделении этой команды в контекстном меню, позволяет переупорядочивать объекты в Body. Поддерживаются эскизы, базовая геометрия и элементы.
@@ -32,4 +34,7 @@
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign MoveFeatureInTree/ru

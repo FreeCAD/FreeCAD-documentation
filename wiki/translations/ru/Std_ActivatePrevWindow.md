@@ -7,6 +7,8 @@
    SeeAlso:[Std ActivateNextWindow](Std_ActivateNextWindow.md), [Std Windows](Std_Windows.md)
 ---
 
+# Std ActivatePrevWindow/ru
+
 ## Описание
 
 The **Std ActivatePrevWindow** command does not work properly [1](https://forum.freecadweb.org/viewtopic.php?f=3&t=45157).
@@ -31,7 +33,12 @@ The **Std ActivatePrevWindow** command does not work properly [1](https://forum.
    SeeAlso:[Std ActivateNextWindow](Std_ActivateNextWindow.md), [Std Windows](Std_Windows.md)
 ---
 
+# Std ActivatePrevWindow/ru
+
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ActivatePrevWindow/ru

@@ -1,10 +1,4 @@
 # Branding/fr
-
-
-
-
-
-
 {{TOCright}}
 
 ## Présentation
@@ -100,3 +94,6 @@ Toutes les balises répertoriées sont facultatives.
 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Branding/fr

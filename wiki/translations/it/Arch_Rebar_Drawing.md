@@ -8,6 +8,8 @@
    Version:0.19
 ---
 
+# Arch Rebar Drawing/it
+
 
 </div>
 
@@ -395,3 +397,6 @@ for drawing_view in ("Front", "Rear", "Left", "Right", "Top", "Bottom"):
 
 
 [Category:External Command Reference](Category:External_Command_Reference.md) [Category:Reinforcement](Category:Reinforcement.md)
+
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Rebar Drawing/it

@@ -8,6 +8,8 @@
    Version:0.7
 ---
 
+# Draft Ellipse/fr
+
 ## Description
 
 La commande <img alt="" src=images/Draft_Ellipse.svg  style="width:24px;"> **Draft Ellipse** crée une ellipse dans le [plan de travail](Draft_SelectPlane/fr.md) en cours à partir de deux points définissant un rectangle dans lequel l\'ellipse s\'inscrira.
@@ -122,8 +124,5 @@ ellipse3 = Draft.make_ellipse(700, 1000, placement=place3)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Ellipse/fr

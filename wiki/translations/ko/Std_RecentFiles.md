@@ -8,6 +8,8 @@
    SeeAlso:[표준 열기](Std_Open/ko.md), [표준 가져오기](Std_Import/ko.md)
 ---
 
+# Std RecentFiles/ko
+
 ## 설명
 
 **표준 최근 파일(Std RecentFiles)** 메뉴 옵션은 열 수 있는 최근 파일의 목록을 표시합니다.
@@ -32,4 +34,7 @@
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std RecentFiles/ko

@@ -9,6 +9,8 @@
    SeeAlso:[Arch Mur](Arch_Wall/fr.md), [Arch Grille](Arch_Grid/fr.md)
 ---
 
+# Arch CurtainWall/fr
+
 ## Description
 
 Cet outil crée un [Mur-rideau](https://fr.wikipedia.org/wiki/Mur-rideau) en subdivisant une face de base en faces quadrangulaires puis en créant un meneau vertical sur les bords verticaux, des meneaux horizontaux sur les bords horizontaux et remplit les espaces entre les meneaux avec des panneaux.
@@ -150,8 +152,5 @@ curtainWall.VerticalSections = 6
 FreeCAD.ActiveDocument.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CurtainWall/fr

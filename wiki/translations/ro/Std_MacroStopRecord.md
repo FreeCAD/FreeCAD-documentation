@@ -6,6 +6,8 @@
    SeeAlso:...
 ---
 
+# Std MacroStopRecord/ro
+
 
 </div>
 
@@ -51,4 +53,7 @@ Când porniți o **<img src=images/Std_DlgMacroRecord.png style="width:16px"> <i
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std MacroStopRecord/ro

@@ -8,6 +8,8 @@
    SeeAlso:[Skizzierer Beschränke Winkel](Sketcher_ConstrainAngle/de.md)
 ---
 
+# Sketcher ConstrainPerpendicular/de
+
 ## Beschreibung
 
 Die Senkrechtbeschränkung bewirkt, dass zwei Linien senkrecht zueinander stehen (d. h. orthogonal) oder dass zwei Kurven an ihrem Schnittpunkt senkrecht zueinander stehen. Linien werden als unendlich behandelt, und Bögen werden als Vollkreise/Ellipsen behandelt. Die Beschränkung ist auch in der Lage, zwei Kurven zu verbinden und sie an der Verbindungsstelle senkrecht zu zwingen, ähnlich wie die **<img src=images/Sketcher_ConstrainTangent.svg style="width:16px">
@@ -113,4 +115,7 @@ Die [Skizzierer Skripten](Sketcher_scripting/de.md) Seite erklärt die Werte, di
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainPerpendicular/de

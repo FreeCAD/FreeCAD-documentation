@@ -1,7 +1,4 @@
-# Fasteners Workbench/de
-
-
-<img alt="Arbeitsbereichssymbol Verbindungselemente" src=images/Fasteners_workbench_icon.svg  style="width:128px;">
+# <img alt="Arbeitsbereichssymbol Verbindungselemente" src=images/Fasteners_workbench_icon.svg  style="width:64px;"> Fasteners Workbench/de
 
 
 {{TOCright}}
@@ -257,3 +254,6 @@ Für eine detaillierte Beschreibung siehe [1](http://theseger.com/projects/2015/
 
 
 [Category:Addons](Category:Addons.md) [Category:External Command Reference](Category:External_Command_Reference.md) [Category:External Workbenches](Category:External_Workbenches.md) [Category:Fasteners](Category:Fasteners.md)
+
+---
+[documentation index](../README.md) > Fasteners Workbench/de

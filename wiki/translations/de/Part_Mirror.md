@@ -6,6 +6,8 @@
    Workbenches:[Part](Part_Workbench/de.md)
 ---
 
+# Part Mirror/de
+
 ## Beschreibung
 
 \'Objekt spiegeln\' - Dieses Werkzeug erzeugt ein neues Objekt (Bild), das eine Spiegelung des ursprünglichen Objekts (Quelle) ist. Das Bildobjekt wird hinter einer Spiegelebene erzeugt. Die Spiegelebene kann eine Standardebene (**XY**, **YZ** oder **XZ**) oder eine beliebige Ebene parallel zu einer Standardebene sein.
@@ -44,8 +46,5 @@ Die **Basispunkt** Felder können verwendet werden, um die Spiegelebene parallel
 
 -   Beliebige Spiegelebenen (d.h. nicht parallel zu einer Standardebene) werden nicht unterstützt
 
-
-
-
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Mirror/de

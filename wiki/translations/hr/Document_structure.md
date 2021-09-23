@@ -1,10 +1,4 @@
 # Document structure/hr
-
-
-
-
-
-
 {{TOCright}}
 
 ![](images/Screenshot_treeview.jpg ) A FreeCAD document contains all the objects of your scene. It can contain groups, and objects made with any workbench. You can therefore switch between workbenches, and still work on the same document. The document is what gets saved to disk when you save your work. You can also open several documents at the same time in FreeCAD, and open several views of the same document.
@@ -51,5 +45,5 @@ FreeCADGui.ActiveDocument.ActiveView
 
 </div>
 
-
-
+---
+[documentation index](../README.md) > Document structure/hr

@@ -1,5 +1,5 @@
 # Macro MeasureCircle/de
- {{Macro/de
+{{Macro/de
 |Name=Macro MeasureCircle|Name/de=Makro Kreis messen
 |Icon=Macro_MeasureCircle.png
 |Description=Compute the radius of a circle by 3 points or a circular edge
@@ -33,6 +33,5 @@ ToolBar Icon ![](images/Macro_MeasureCircle.png )
 
 **Macro\_MeasureCircle.FCMacro**
 
-
-
-
+---
+[documentation index](../README.md) > Macro MeasureCircle/de

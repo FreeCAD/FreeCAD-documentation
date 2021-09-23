@@ -6,6 +6,8 @@
    Shortcut:**C** **F**
 ---
 
+# SheetMetal AddFoldWall
+
 ## Description
 
 The <img alt="" src=images/SheetMetal_AddFoldWall.svg  style="width:24px;"> **SheetMetal AddFoldWall** command folds a wall at a chosen line with a specified bend radius.
@@ -121,3 +123,6 @@ Note!: In real life the upward fold must be done before the downward fold. Only 
 
 
 [Category:SheetMetal](Category:SheetMetal.md) [Category:Addons](Category:Addons.md) [Category:External Command Reference](Category:External_Command_Reference.md)
+
+---
+[documentation index](../README.md) > [SheetMetal](Category:SheetMetal.md) > SheetMetal AddFoldWall

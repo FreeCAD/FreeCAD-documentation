@@ -1,10 +1,4 @@
 # Manual:Preparing models for 3D printing/de
-
-
-
-
-
-
 {{Manual:TOC/de}}
 
 Einer der Haupteinsatzbereiche von FreeCAD ist die Herstellung von Objekten aus der realen Welt. Diese können in FreeCAD entworfen und dann auf verschiedene Weise realisiert werden, z.B. indem sie anderen Personen mitgeteilt werden, die sie dann bauen, oder, immer häufiger, direkt an einen [3D Drucker](https://en.wikipedia.org/wiki/3D_printing) oder eine [CNC Fräse](https://en.wikipedia.org/wiki/Milling_%28machining%29) geschickt werden. Dieses Kapitel zeigt dir, wie du deine Modelle für den Versand an diese Maschinen vorbereiten kannst.
@@ -139,3 +133,6 @@ Es gibt viele Anwendungen, um das reale Schneiden zu simulieren, eine davon, die
 
 
 [Category:Path](Category:Path.md) [Category:Mesh](Category:Mesh.md) [Category:Tutorials](Category:Tutorials.md)
+
+---
+[documentation index](../README.md) > [Path](Category:Path.md) > Manual:Preparing models for 3D printing/de

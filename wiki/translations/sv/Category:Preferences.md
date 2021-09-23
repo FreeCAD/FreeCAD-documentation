@@ -4,3 +4,6 @@ This category lists all existing Preference menus of different FreeCAD workbench
 ### Contents:
 
 [Customize Toolbars/sv](Customize_Toolbars/sv.md) , [Draft Preferences/sv](Draft_Preferences/sv.md) , [Preferences Editor/sv](Preferences_Editor/sv.md)
+
+---
+[documentation index](../README.md) > Category:Preferences/sv

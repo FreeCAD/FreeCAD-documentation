@@ -1,5 +1,5 @@
 # App DocumentObject/ru
- {{TOCright}}
+{{TOCright}}
 
 ## Введение
 
@@ -69,4 +69,7 @@ obj.Label = "Custom label"
 
 {{Document objects navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > App DocumentObject/ru

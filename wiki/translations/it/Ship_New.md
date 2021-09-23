@@ -1,3 +1,4 @@
+# Ship New/it
 ---
 - GuiCommand:/it   Name:Ship New   Name/it:Nuova‏‎    MenuLocation:Ship design → Crea una nuova nave   |Workbenches:[[Ship Workbench/it   Ship]]|Shortcut:   SeeAlso:---
 
@@ -114,4 +115,7 @@ Da questo punto in poi, è necessario che **Ship** sia sempre selezionata prima 
 
 {{Ship_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > Ship New/it

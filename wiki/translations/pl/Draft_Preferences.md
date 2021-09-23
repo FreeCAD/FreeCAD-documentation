@@ -1,10 +1,4 @@
 # Draft Preferences/pl
-
-
-
-
-
-
 {{TOCright}}
 
 Preferencje dla środowiska pracy [Rysunek Roboczy](Draft_Workbench/pl.md) można znaleźć w [Edytorze preferencji](Preferences_Editor/pl.md). W menu wybierz **Edycja → Preferencje**, a następnie **Rysunek Roboczy**.
@@ -490,3 +484,6 @@ On the *Texts and dimensions* tab you can specify the following:
  
 
 [Category:Preferences](Category:Preferences.md)
+
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Preferences/pl

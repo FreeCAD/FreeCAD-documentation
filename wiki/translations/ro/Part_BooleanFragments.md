@@ -7,6 +7,8 @@
    SeeAlso:[Part Slice](Part_Slice.md), [Part XOR](Part_XOR.md), [Part Join features](Part_CompJoinFeatures.md), [Part Boolean](Part_Boolean.md)
 ---
 
+# Part BooleanFragments/ro
+
 
 </div>
 
@@ -149,8 +151,5 @@ Acest instrument a fost introdus în FreeCAD v0.17.8053. FreeCAD și necesită c
 
 </div>
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part BooleanFragments/ro

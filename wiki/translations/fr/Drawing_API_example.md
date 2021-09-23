@@ -1,6 +1,4 @@
 # Drawing API example/fr
-
-
 ## Introduction
 
 Le flux de travail de l\'interface utilisateur graphique pour l\' [atelier Drawing](Drawing_Workbench/fr.md) est limité. Utiliser un script pour l\'interface est plus intéressante.
@@ -246,3 +244,6 @@ Vous pouvez procéder comme ci-dessus pour afficher les dimensions sur la page d
 }} {{Drawing Tools navi}} 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+
+---
+[documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing API example/fr

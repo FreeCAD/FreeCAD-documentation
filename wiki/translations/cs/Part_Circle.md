@@ -1,3 +1,4 @@
+# Part Circle/cs
 ---
 - GuiCommand:/cs   Name:Part_Circle   Name/cs:Díl Kružnice   MenuLocation:Díl → [Workbenches:[[Part_Workbench/cs   Díl](Part_CreatePrimitives/cs___Vytváření_zákl.geom.tvarů]] → Kružnice.md),  [OpenSCAD](OpenSCAD_Workbench/cs.md)|SeeAlso:..---
 
@@ -64,8 +65,5 @@ A Circle geometric primitive is available from the Create Primitives dialogue in
 
 -    {{Parameter|Angle 1}}: end of the curved edge, (degrees anti-clockwise), the default value is 360
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Circle/cs

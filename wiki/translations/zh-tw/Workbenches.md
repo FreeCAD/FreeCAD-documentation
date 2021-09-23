@@ -1,9 +1,4 @@
 # Workbenches/zh-tw
-
-
-
-
-
 FreeCAD, like many modern design applications such as [Revit](wikipedia:Revit.md) or [CATIA](wikipedia:CATIA.md), is based on the concept of [Workbench](wikipedia:Workbench.md). A workbench can be considered as a set of tools specially grouped for a certain task. In a traditional furniture workshop, you would have a work table for the person who works with wood, another one for the one who works with metal pieces, and maybe a third one for the guy who mounts all the pieces together.
 
 In FreeCAD, the same concept applies. Tools are grouped into workbenches according to the tasks they are related to.
@@ -83,3 +78,6 @@ New workbenches are always in development, stay tuned!
 
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Workbenches/zh-tw

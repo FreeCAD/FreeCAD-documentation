@@ -9,6 +9,8 @@
    SeeAlso: 
 ---
 
+# GuiCommand model/de
+
 
 <div class="mw-translate-fuzzy">
 
@@ -278,3 +280,6 @@ Optional.
 }} 
 
 [Category:Wiki:Example](Category:Wiki:Example.md)
+
+---
+[documentation index](../README.md) > [API]] and ](Category:API]] and .md) > GuiCommand model/de

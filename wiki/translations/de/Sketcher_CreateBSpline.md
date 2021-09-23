@@ -8,6 +8,8 @@
    SeeAlso:[Skizzierer periodischer B-Spline](Sketcher_CreatePeriodicBSpline/de.md)
 ---
 
+# Sketcher CreateBSpline/de
+
 ## Beschreibung
 
 Dieses Werkzeug zeichnet von seinen Kontrollpunkten aus eine offene B-Splinekurve auf. (Siehe [diese Seite](B-Splines/de.md) für weitere Informationen über B-Splines).
@@ -43,4 +45,7 @@ Dieses Werkzeug zeichnet von seinen Kontrollpunkten aus eine offene B-Splinekurv
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateBSpline/de

@@ -7,6 +7,8 @@
    SeeAlso:[Arch Couper selon une ligne](Arch_CutLine.md), [Arch Couper selon un plan](Arch_CutPlane.md), [Arch Ajouter](Arch_Add/fr.md)
 ---
 
+# Arch Remove/fr
+
 ## Description
 
 Les outils de suppression vous permettent d\'effectuer 2 types d\'opérations:
@@ -63,10 +65,7 @@ Draft.move(Box, FreeCAD.Vector(1000, 700, 0))
 
 Arch.removeComponents(Box, Wall)
 FreeCAD.ActiveDocument.recompute()
-``` 
+```
 
-
-
-
-
-
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Remove/fr

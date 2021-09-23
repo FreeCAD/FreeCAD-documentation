@@ -8,6 +8,8 @@
    SeeAlso:[Std Débogage de macro](Std_MacroStartDebug/fr.md)
 ---
 
+# Std MacroStopDebug/fr
+
 ## Description
 
 Cette commande ne fonctionne pas pour le moment.
@@ -18,4 +20,7 @@ Cette commande ne fonctionne pas pour le moment.
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std MacroStopDebug/fr

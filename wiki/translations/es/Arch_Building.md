@@ -8,6 +8,8 @@
    SeeAlso:[Piso](Arch_Floor/es.md), [Ubicación](Arch_Site/es.md)
 ---
 
+# Arch Building/es
+
 
 </div>
 
@@ -109,3 +111,6 @@ FreeCAD.ActiveDocument.recompute()
  
 
 [Category:Arch/es](Category:Arch/es.md)
+
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Building/es

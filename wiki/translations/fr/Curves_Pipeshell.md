@@ -6,6 +6,8 @@
    Workbenches:[Curves](Curves_Workbench/fr.md)
 ---
 
+# Curves Pipeshell/fr
+
 ## Description
 
 <img alt="" src=images/Curves_Pipeshell.svg  style="width:24px;"> [Enveloppe de tube](Curves_Pipeshell/fr.md) crée un objet de balayage pour former une enveloppe de tube. Cet outil fait partie des [ateliers externes](External_workbenches/fr.md) appelés [Curves](Curves_Workbench/fr.md).
@@ -92,4 +94,7 @@
 
 {{Curves Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > Curves Pipeshell/fr

@@ -1,5 +1,5 @@
 # Macro SelectVisible/de
- {{Macro/de
+{{Macro/de
 |Name=Macro SelectVisible
 |Translate=Macro SelectVisible
 |Icon=SelectVisible.png
@@ -54,4 +54,7 @@ else:
     for o in doc.Objects:
         if o.ViewObject.Visibility:
             Gui.Selection.addSelection(o)
-}} 
+}}
+
+---
+[documentation index](../README.md) > Macro SelectVisible/de

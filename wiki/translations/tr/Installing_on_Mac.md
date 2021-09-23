@@ -1,10 +1,4 @@
 # Installing on Mac/tr
-
-
-
-
-
-
 <div class="mw-translate-fuzzy">
 
 FreeCAD, Mac OS X \'te Yükleyici kullanılarak tek adımda kurulabilir.
@@ -73,5 +67,5 @@ Son sürüm yükleme dosyasını [İndirme sayfasından](Download.md) indirebili
 
 </div>
 
-
-
+---
+[documentation index](../README.md) > Installing on Mac/tr

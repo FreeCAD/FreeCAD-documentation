@@ -8,6 +8,8 @@
    SeeAlso:[Draft Wire](Draft_Wire/ru.md)
 ---
 
+# Draft Line/ru
+
 
 </div>
 
@@ -114,8 +116,5 @@ line2 = Draft.make_line(p3, p4)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Line/ru

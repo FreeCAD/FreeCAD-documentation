@@ -7,6 +7,8 @@
    Version:0.17
 ---
 
+# Arch CompRebarStraight/it
+
 ## Descrizione
 
 L\'Addon Reinforcement migliora [Arch](Arch_Workbench/it.md) fornendo nuove interfacce e preimpostazioni per la creazione di tipi di armature comuni da utilizzare con le [Strutture](Arch_Structure/it.md) di Arch. È anche integrato nell\'ambiente esterno [BIM](BIM_Workbench/it.md).
@@ -48,5 +50,5 @@ Torna alla pagina [Ambienti](Workbenches/it#Ambienti_aggiuntivi.md) o alla pagin
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CompRebarStraight/it

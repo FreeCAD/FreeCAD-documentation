@@ -8,6 +8,8 @@
    SeeAlso:[Sketcher Contrainte verticale](Sketcher_ConstrainVertical/fr.md)
 ---
 
+# Sketcher ConstrainHorizontal/fr
+
 ## Description
 
 La contrainte horizontale oblige une ligne sélectionnée ou des lignes dans l\'esquisse à être parallèles à l\'axe horizontal de l\'esquisse.
@@ -42,4 +44,7 @@ La page [Sketcher : Écrire des scripts](Sketcher_scripting/fr.md) explique les 
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainHorizontal/fr

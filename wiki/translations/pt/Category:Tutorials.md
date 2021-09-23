@@ -8,3 +8,6 @@ Special pages are [Offsite tutorials/pt](Offsite_tutorials/pt.md) and [Video tut
 [Basic modeling tutorial/pt](Basic_modeling_tutorial/pt.md) , [Basic Sketcher Tutorial/pt](Basic_Sketcher_Tutorial/pt.md) , [Draft tutorial/pt](Draft_tutorial/pt.md) , [Template:TutorialInfo/pt](Template:TutorialInfo/pt.md)
 
 [Category:Categories/pt](Category:Categories/pt.md)
+
+---
+[documentation index](../README.md) > Category:Tutorials/pt

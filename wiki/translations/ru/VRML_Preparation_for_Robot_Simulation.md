@@ -1,7 +1,4 @@
 # VRML Preparation for Robot Simulation/ru
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -392,3 +389,6 @@ Group {
 
 
 [Category:Robot](Category:Robot.md)
+
+---
+[documentation index](../README.md) > [Robot](Category:Robot.md) > VRML Preparation for Robot Simulation/ru

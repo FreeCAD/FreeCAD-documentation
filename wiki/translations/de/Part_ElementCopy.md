@@ -7,6 +7,8 @@
    SeeAlso:[EinfacheKopie](Part_SimpleCopy/de.md), [TransformierteKopie](Part_TransformedCopy/de.md), [FormVerfeinern](Part_RefineShape/de.md)
 ---
 
+# Part ElementCopy/de
+
 
 </div>
 
@@ -61,8 +63,5 @@ Die Kopie hat einfache Ansichtseigenschaften wie jede andere [Teilfunktion](Part
 
 </div>
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part ElementCopy/de

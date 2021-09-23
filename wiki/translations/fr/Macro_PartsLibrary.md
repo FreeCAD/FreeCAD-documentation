@@ -1,5 +1,5 @@
 # Macro PartsLibrary/fr
- {{Macro/fr
+{{Macro/fr
 |Icon=FreeCAD Doc.png
 |Name=Parts Library
 |Description=Démarre le navigateur de la bibliothèque de composants FreeCAD
@@ -26,3 +26,6 @@ Cette macro, qui est également incluse dans la bibliothèque, vous affichera un
 ToolBar Icon ![](images/FreeCAD_Doc.png )
 
 [PartsLibrary.FCMacro](http://github.com/yorikvanhavre/FreeCAD-library/blob/master/PartsLibrary.FCMacro)
+
+---
+[documentation index](../README.md) > Macro PartsLibrary/fr

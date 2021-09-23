@@ -1,6 +1,4 @@
 # PCB Workbench/it
-
-
 ## Introduzione
 
 
@@ -111,3 +109,6 @@ Security → Edit → Users and mark all checkboxes under \'Allow\' option.
 
 
 [Category:Sandbox](Category:Sandbox.md) [Category:User Documentation](Category:User_Documentation.md) [Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+
+---
+[documentation index](../README.md) > PCB Workbench/it

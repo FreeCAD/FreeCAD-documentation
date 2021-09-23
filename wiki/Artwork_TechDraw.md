@@ -1,6 +1,4 @@
 # Artwork TechDraw
-  
-
 These icons are in the indicated source path.
 
 For all icons in the source tree, see [Artwork](Artwork.md).
@@ -30,3 +28,6 @@ The [TechDraw Workbench](TechDraw_Workbench.md) comes with a number of default t
  
 
 [Category:TechDraw](Category:TechDraw.md)
+
+---
+[documentation index](../README.md) > [TechDraw](Category:TechDraw.md) > Artwork TechDraw

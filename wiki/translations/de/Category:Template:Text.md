@@ -10,3 +10,6 @@ Längere Textteile sollten auf der Seite selbst platziert werden, damit sie mit 
 [Template:Obsolete/de](Template:Obsolete/de.md) , [Template:Version/de](Template:Version/de.md) , [Template:VersionMinus/de](Template:VersionMinus/de.md) , [Template:VersionPlus/de](Template:VersionPlus/de.md)
 
 [Category:Template/de](Category:Template/de.md)
+
+---
+[documentation index](../README.md) > Category:Template:Text/de

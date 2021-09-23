@@ -1,10 +1,4 @@
 # Compile on Windows/ru
-
-
-
-
-
-
 {{TOCright}}
 
 На этой странице шаг за шагом объясняется \"как скомпилировать FreeCAD 0.19 или новее в Windows\"\". Для других платформ см.[Compiling](Compiling.md).
@@ -461,3 +455,6 @@ FreeCAD имеет функцию предварительного просмо�
 
 
 [Category:Developer\_Documentation](Category:Developer_Documentation.md) [Category:Developer](Category:Developer.md)
+
+---
+[documentation index](../README.md) > [Developer_Documentation](Category:Developer_Documentation.md) > Compile on Windows/ru

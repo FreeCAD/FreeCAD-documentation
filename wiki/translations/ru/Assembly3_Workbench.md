@@ -1,7 +1,4 @@
-# Assembly3 Workbench/ru
-
-
-<img alt="Assembly3 workbench icon" src=images/Assembly3_workbench_icon.svg  style="width:128px;">
+# <img alt="Assembly3 workbench icon" src=images/Assembly3_workbench_icon.svg  style="width:64px;"> Assembly3 Workbench/ru
 
 
 {{TOCright}}
@@ -729,3 +726,6 @@ Assembly3 не предлагает смещение с константами, 
 
 
 [Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+
+---
+[documentation index](../README.md) > Assembly3 Workbench/ru

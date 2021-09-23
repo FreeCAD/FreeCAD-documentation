@@ -8,6 +8,8 @@
    SeeAlso:[PartDesign Cavité](PartDesign_Pocket/fr.md)
 ---
 
+# PartDesign Hole/fr
+
 ## Description
 
 La fonction **Perçage** crée un ou plusieurs trous à partir des cercles et des arcs d\'une esquisse sélectionnée. Si des arcs sont présents, ils doivent faire partie de contours fermés. Toutes les entités autres que des arcs ou des cercles sont ignorées mais elles doivent tout de même former des contours fermés. De nombreux paramètres peuvent être définis, tels que le filetage et la taille, l\'ajustement, le type de trou (fraise, lamage, droit) etc\...
@@ -109,4 +111,7 @@ Exemple : {{Code|lang=json|code=
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Hole/fr

@@ -1,6 +1,4 @@
 # PartDesign Feature/ru
-
-
 ## Введение
 
 [PartDesign Feature](PartDesign_Feature/ru.md) относится к «шагу» в процессе моделирования, происходившему внутри [PartDesign Body](PartDesign_Body/ru.md). Например, каждый раз, когда вы добавляете сплошную коробку с помощью [PartDesign AdditiveBox](PartDesign_AdditiveBox/ru.md), вы добавляете элемент; когда вы добавляете фаску к кромке с помощью [PartDesign Chamfer](PartDesign_Chamfer/ru.md), вы добавляете еще один элемент; когда вы вырезаете отверстие с помощью [sketch](Sketch/ru.md) и [PartDesign Pocket](PartDesign_Pocket/ru.md), вы добавляете ещё один элемент.
@@ -81,4 +79,7 @@ App.ActiveDocument.recompute()
 
 {{PartDesign Tools navi
 
-}} {{Document objects navi}} 
+}} {{Document objects navi}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Feature/ru

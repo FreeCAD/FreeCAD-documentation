@@ -7,6 +7,8 @@
    SeeAlso:[Std LinkSelectLinked](Std_LinkSelectLinked.md), [Std LinkSelectLinkedFinal](Std_LinkSelectLinkedFinal.md), [Std SelBack](Std_SelBack.md), [Std SelForward](Std_SelForward.md)
 ---
 
+# Std LinkSelectAllLinks/ru
+
 ## Описание
 
 The **Std LinkSelectAllLinks** command selects all [App Link](App_Link.md) objects, links, that directly or indirectly link to the same source object.
@@ -25,4 +27,7 @@ The **Std LinkSelectAllLinks** command selects all [App Link](App_Link.md) objec
 
 {{Std Base navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > Std LinkSelectAllLinks/ru

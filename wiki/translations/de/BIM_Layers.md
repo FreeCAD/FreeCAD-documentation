@@ -7,6 +7,8 @@
    MenuLocation:Verwalten → Lagen
 ---
 
+# BIM Layers/de
+
 ## Beschreibung
 
 <img alt="" src=images/BIM_layers_screenshot.png  style="width:1024px;">
@@ -16,3 +18,6 @@ Mit dem Lagenverwalter kannst du [Lagen](Draft_Layer/de.md) verwalten. Lagen sin
 Lagen werden von/nach [IFC](Arch_IFC/de.md) und [DXF/DWG](Draft_DXF/de.md) importiert und exportiert.
 
 Mit dem Lagenverwalter kannst du deine Lagen verwalten, Lagen hinzufügen oder entfernen oder ihre visuellen Eigenschaften ändern. Um Objekte zu einer Lage hinzuzufügen, ziehe sie einfach in die Lage in der Strukturansicht. Um sie zu entfernen, ziehe sie aus der Lage und legen sie im Dokumentstamm ab.
+
+---
+[documentation index](../README.md) > BIM Layers/de

@@ -1,5 +1,5 @@
 # Macro 3D Parametric Curve/fr
- {{Macro/fr
+{{Macro/fr
 |Name=Macro 3D Parametric Curve
 |Icon=Macro_3D_Parametric_Curve.png
 |Description=Dessine une fonction décrite par des équations paramétriques x(t), y(t) et z(t) avec la possibilité de choisir le type de ligne b-spline ou polyline pour raccorder les points.
@@ -208,6 +208,5 @@ ParamCurv()
 
 }}
 
-
-
-
+---
+[documentation index](../README.md) > Macro 3D Parametric Curve/fr

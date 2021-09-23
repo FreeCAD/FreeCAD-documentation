@@ -1,6 +1,4 @@
 # Report view/fr
-
-
 ## Introduction
 
 La [Vue rapport](Report_view/fr.md) est un panneau qui affiche les messages texte des processus FreeCAD. Il est disponible dans **Affichage → Panneaux → Vue rapport**.
@@ -53,4 +51,7 @@ Un clic droit sur la vue du rapport montre quelques commandes:
 
 {{Interface navi
 
-}} {{Std Base navi}} 
+}} {{Std Base navi}}
+
+---
+[documentation index](../README.md) > Report view/fr

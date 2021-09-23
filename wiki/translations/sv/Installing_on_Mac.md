@@ -1,10 +1,4 @@
 # Installing on Mac/sv
-
-
-
-
-
-
 <div class="mw-translate-fuzzy">
 
 FreeCAD kan installeras på Mac OS X i ett steg genom att använda Installeraren. Denna sida beskriver användandet och funktionerna i FreeCAD installeraren. Den inkluderar också avinstallations instruktioner.
@@ -73,5 +67,5 @@ Det är allt. Eventuellt så kommer FreeCAD att finnas tillgängligt som ett app
 
 </div>
 
-
-
+---
+[documentation index](../README.md) > Installing on Mac/sv

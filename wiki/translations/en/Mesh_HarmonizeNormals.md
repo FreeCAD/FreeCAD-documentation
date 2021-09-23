@@ -6,6 +6,8 @@
    SeeAlso:[Mesh FlipNormals](Mesh_FlipNormals.md)
 ---
 
+# Mesh HarmonizeNormals/en
+
 ## Description
 
 The **Mesh HarmonizeNormals** command harmonizes the normals of mesh objects.
@@ -28,4 +30,7 @@ The **Mesh HarmonizeNormals** command harmonizes the normals of mesh objects.
 
 {{Mesh Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh HarmonizeNormals/en

@@ -1,3 +1,4 @@
+# TechDraw VerticalDimension/it
 ---
 - GuiCommand:/it   Name:TechDraw Dimension Vertical   Name/it:Dimensione verticale   Workbenches:[MenuLocation:TechDraw → Dimensione verticale   Shortcut:   SeeAlso:[[TechDraw Dimension Length/it|Lunghezza](TechDraw_Workbench/it___TechDraw]].md), [Orizzontale](TechDraw_Dimension_Horizontal/it.md)---
 
@@ -87,4 +88,7 @@ rc = page.addView(dim1)
 
 {{TechDraw Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw VerticalDimension/it

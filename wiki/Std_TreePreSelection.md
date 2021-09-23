@@ -7,6 +7,8 @@
    Version:0.19
 ---
 
+# Std TreePreSelection
+
 ## Description
 
 The **Std TreePreSelection** command toggles the [Tree view](Tree_view.md) PreSelection mode. If this mode is on, an object that the mouse is over in the Tree view will be pre-selectected (temporarily highlighted) in all [3D views](3D_view.md) belonging to that object\'s document.
@@ -25,4 +27,7 @@ The Tree view PreSelection mode can also be set in the [Preferences editor](Pref
 
 
 
- {{Std Base navi}}  
+ {{Std Base navi}}
+
+---
+[documentation index](../README.md) > Std TreePreSelection

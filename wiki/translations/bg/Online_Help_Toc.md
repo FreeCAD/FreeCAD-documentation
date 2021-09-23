@@ -1,7 +1,4 @@
 # Online Help Toc/bg
-
-
-
 <div class="mw-translate-fuzzy">
 
 Това е съдържанието което се използва за автоматичното създаване на системата за онлайн помощ във FreeCad. Версия за разпечатване на този наръчник на английски език е на разположение на [releases page](https://github.com/FreeCAD/FreeCAD/releases)
@@ -143,3 +140,6 @@ There is another table of contents for the [FreeCAD MANUAL](Manual:Introduction.
 
 
 [Category:Documentation/bg](Category:Documentation/bg.md) [Category:Documentation](Category:Documentation.md)
+
+---
+[documentation index](../README.md) > [Documentation](Category:Documentation.md) > Online Help Toc/bg

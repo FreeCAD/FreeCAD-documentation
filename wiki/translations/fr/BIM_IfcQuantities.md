@@ -8,6 +8,8 @@
    SeeAlso:[BIM Elements IFC](BIM_IfcElements/fr.md),[BIM Propriétés IFC](BIM_IfcProperties/fr.md)
 ---
 
+# BIM IfcQuantities/fr
+
 ## Description
 
 <img alt="" src=images/BIM_ifcquantities_screenshot.png  style="width:1024px;">
@@ -21,3 +23,6 @@ L\'idée derrière des quantités explicites est de les mettre à la disposition
 Par défaut, lors de l\'exportation d\'un fichier IFC depuis FreeCAD, aucune quantité explicite n\'est exportée. Avec le gestionnaire de quantités IFC, vous pouvez marquer les quantités à exporter et vérifier leurs valeurs. Des messages d\'avertissement seront affichés à côté des valeurs nulles, vous informant des problèmes potentiels que vous pourriez vouloir résoudre avant d\'exporter.
 
 Vous pouvez également utiliser le gestionnaire de quantités pour modifier ou fixer les valeurs réelles **Height**, **Width** et **Length** des objets. Mais cela affectera la géométrie de l\'objet dans FreeCAD.
+
+---
+[documentation index](../README.md) > BIM IfcQuantities/fr

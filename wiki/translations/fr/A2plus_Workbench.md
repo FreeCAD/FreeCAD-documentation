@@ -1,5 +1,4 @@
-# A2plus Workbench/fr
- <img alt="Icône de l\'atelier Assembly2+" src=images/A2p_workbench.svg  style="width:128px;">
+# <img alt="Icône de l\'atelier Assembly2+" src=images/A2p_workbench.svg  style="width:64px;"> A2plus Workbench/fr
 
 ## Introduction
 
@@ -611,3 +610,6 @@ Il s\'agit d\'une commande spécifique à A2plus. Elle résout les contraintes d
 
 
 [Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+
+---
+[documentation index](../README.md) > A2plus Workbench/fr

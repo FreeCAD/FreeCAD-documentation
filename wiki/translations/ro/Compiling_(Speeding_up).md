@@ -1,10 +1,4 @@
 # Compiling (Speeding up)/ro
-
-
-
-
-
-
 {{TOCright}}
 
 ## Overview
@@ -102,3 +96,6 @@ Distcc poate fi utilizat pentru compilarea distribuită în rețea.
 
 
 [Category:Developer\_Documentation](Category:Developer_Documentation.md) [Category:Developer](Category:Developer.md)
+
+---
+[documentation index](../README.md) > [Developer_Documentation](Category:Developer_Documentation.md) > Compiling (Speeding up)/ro

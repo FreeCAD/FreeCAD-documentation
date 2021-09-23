@@ -6,6 +6,8 @@
    Workbenches:[OpenSCAD](OpenSCAD_Workbench/fr.md)
 ---
 
+# OpenSCAD ResizeMeshFeature/fr
+
 ## Description
 
 Crée un nouvel objet maillé redimensionné avec un dimensionnement indépendant pour chaque axe.
@@ -44,4 +46,7 @@ Mesh.show(resized_mesh)
 
 {{OpenSCAD_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD ResizeMeshFeature/fr

@@ -7,6 +7,8 @@
    Workbenches:[Skizzierer](Sketcher_Workbench/de.md)
 ---
 
+# Sketcher CompCreateArc/de
+
 ## Beschreibung
 
 **Einen Bogen erstellen** ist eine Symbolschaltfläche in der Skizzierer Geometrie Werkzeugleiste, die Werkzeuge zum Erstellen eines Bogens durch Auswahl von drei Punkten gruppiert. Klicke auf den Abwärtspfeil auf seiner rechten Seite, um die Symbole darunter aufzuklappen und ein Werkzeug auszuwählen.
@@ -22,4 +24,7 @@
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CompCreateArc/de

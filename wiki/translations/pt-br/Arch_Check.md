@@ -6,6 +6,8 @@
    SeeAlso:[Arch CloseHoles](Arch_CloseHoles.md)
 ---
 
+# Arch Check/pt-br
+
 ## Descrição
 
 This tool checks the current document or the selected objects for non-solid **<img src="images/_Workbench_Part.svg" width=16px> [Part](Part_Workbench.md)** or **<img src="images/_Workbench_Arch.svg" width=16px> [Arch](Arch_Workbench.md)** objects, that might give problems, since most operations of the Arch Workbench require solid objects.
@@ -62,8 +64,5 @@ print(list_bad)
 
 </div>
 
-
-
-
-
-
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Check/pt-br

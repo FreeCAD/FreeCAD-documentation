@@ -1,7 +1,4 @@
 # Manual:Preparing models for 3D printing/zh-cn
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -151,3 +148,6 @@ There are many applications available to simulate the real cutting, one of them 
 </div>
 
 [Category:Path](Category:Path.md) [Category:Mesh](Category:Mesh.md) [Category:Tutorials](Category:Tutorials.md)
+
+---
+[documentation index](../README.md) > [Path](Category:Path.md) > Manual:Preparing models for 3D printing/zh-cn

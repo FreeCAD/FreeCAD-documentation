@@ -1,5 +1,5 @@
 # ModernUI Workbench/pl
- }
+}
 
 <img alt="Ikonka FreeCAD dla środowiska Nowoczesny UI" src=images/ModernUI_workbench_icon.svg  style="width:128px;">
 
@@ -83,3 +83,6 @@ Szczegółowe instrukcje można znaleźć na [GitHub](https://github.com/HakanSe
 
 
 [Category:External\_Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)
+
+---
+[documentation index](../README.md) > ModernUI Workbench/pl

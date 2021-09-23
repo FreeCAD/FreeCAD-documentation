@@ -8,6 +8,8 @@
    SeeAlso:[Croquizador Recortar](Sketcher_Trimming/es.md)
 ---
 
+# Sketcher Split/es
+
 ## Descripción
 
 Esta herramienta permite dividir un borde en dos idénticas, mientras que la mayoría de las restricciones se duplican, por lo que ambas partes permanecen restringidas aparte de la posición del punto de división. En el caso especial de un círculo, éste se convierte en un arco de extremos sueltos, transfiriéndose las restricciones existentes del círculo al nuevo arco.
@@ -45,4 +47,7 @@ Esta herramienta permite dividir un borde en dos idénticas, mientras que la may
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Split/es

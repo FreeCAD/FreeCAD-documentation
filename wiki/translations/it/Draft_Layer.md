@@ -8,6 +8,8 @@
    See also:[Draft AutoGruppo](Draft_AutoGroup/it.md)
 ---
 
+# Draft Layer/it
+
 
 </div>
 
@@ -160,5 +162,5 @@ doc.recompute()
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Layer/it

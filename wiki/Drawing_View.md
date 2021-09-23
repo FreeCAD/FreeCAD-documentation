@@ -7,6 +7,8 @@
    SeeAlso:[Drawing Landscape A3](Drawing_Landscape_A3.md)
 ---
 
+# Drawing View
+
 This tool creates a new view of the selected object in the active drawing sheet.
 
 <img alt="A drawing sheet with three views: front, top and isometric." src=images/Drawing_Views.png  style="width:500px;">
@@ -52,4 +54,7 @@ If you are looking for persective-orthographic toggling in 3D view check [Std Pe
 |IconR=Drawing_Annotation.png
 }}
 
- {{Drawing Tools navi}} 
+ {{Drawing Tools navi}}
+
+---
+[documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing View

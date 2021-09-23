@@ -1,5 +1,5 @@
 # Macro Pyramid/en
- {{Macro
+{{Macro
 |Name=Macro Pyramid
 |Icon=Pyramidicon.svg
 |Description=This macro creates a parametric pyramid. The radiuses and the height will be set at creation time similar to Part Cone.
@@ -295,3 +295,6 @@ FreeCADGui.SendMsgToActiveView("ViewFit")
 ## Link
 
 The forum discussion [Macros for pyramids and polyhedrons](https://forum.freecadweb.org/viewtopic.php?f=22&t=40485&p=344116&hilit=Eddyverl#p344116)
+
+---
+[documentation index](../README.md) > Macro Pyramid/en

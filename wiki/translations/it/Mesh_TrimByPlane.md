@@ -7,6 +7,8 @@
    SeeAlso:[Taglia la mesh](Mesh_PolyCut/it.md), [Rifila con un poligono](Mesh_PolyTrim/it.md)
 ---
 
+# Mesh TrimByPlane/it
+
 ## Descrizione
 
 Il comando **Rifila con un piano** taglia facce e parti di facce su un lato di un piano da un oggetto mesh.
@@ -53,4 +55,7 @@ Il comando **Rifila con un piano** taglia facce e parti di facce su un lato di u
 
 {{Mesh Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh TrimByPlane/it

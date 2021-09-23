@@ -7,6 +7,8 @@
    SeeAlso:[Szkicownik: Wiązanie odległości](Sketcher_ConstrainDistance/pl.md), [Szkicownik: Zwiąż odległość poziomą](Sketcher_ConstrainDistanceX/pl.md), [Szkicownik: Zwiąż odległość pionową](Sketcher_ConstrainDistanceY/pl.md)
 ---
 
+# Sketcher ConstrainRadius/pl
+
 ## Opis
 
 To wiązanie powoduje, że wartość promienia okręgu lub łuku jest ściśle określona. Jeśli przed uruchomieniem polecenia zostanie wybrany więcej niż jeden okrąg lub łuk:
@@ -46,4 +48,7 @@ Strona [skrypty szkicownika](Sketcher_scripting/pl.md) wyjaśnia wartości, któ
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainRadius/pl

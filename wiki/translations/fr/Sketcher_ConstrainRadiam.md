@@ -8,6 +8,8 @@
    Version:0.20
 ---
 
+# Sketcher ConstrainRadiam/fr
+
 ## Description
 
 Cette contrainte contraint automatiquement la valeur du rayon/diamètre d\'un cercle ou d\'un arc à avoir une valeur spécifique. Les règles suivantes sont appliquées :
@@ -44,4 +46,7 @@ Aucun script spécifique ne s\'applique. Voir la page [Sketcher Scripts](Sketche
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainRadiam/fr

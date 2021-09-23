@@ -6,6 +6,8 @@
    SeeAlso:[[Arch Panel/ru]], [[Arch Panel Sheet/ru]]
 ---
 
+# Arch Nest/ru
+
 
 </div>
 
@@ -50,5 +52,5 @@ The algorithm behind the Nest tool is in constant evolution, and is currently no
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Nest/ru

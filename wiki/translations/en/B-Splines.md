@@ -1,5 +1,5 @@
 # B-Splines/en
- {{TOCright}}
+{{TOCright}}
 
 This page describes how to use B-splines in FreeCAD. It gives also background information what B-splines are and for what applications they are useful.
 
@@ -257,3 +257,6 @@ But is this really sufficient? At the point of geometric transition we have now 
 <img alt="" src=images/Spline-Fender-sketch3.svg  style="width:300px;">
 
 So we have also spatial areas in which the intensity of reflected light is different. To avoid this, we need at the geometrical point of transition also a continuity of the second order derivative and thus a cubic B-spline.
+
+---
+[documentation index](../README.md) > B-Splines/en

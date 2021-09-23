@@ -1,7 +1,4 @@
-# Plot Module/fr
-
-
-<img alt="Icône de l\'atelier Plot" src=images/Workbench_Plot.svg  style="width:128px;">
+# <img alt="Icône de l\'atelier Plot" src=images/Workbench_Plot.svg  style="width:64px;"> Plot Module/fr
 
 
 {{TOCright}}
@@ -64,3 +61,6 @@ Puisque l\'atelier Plot est une couche sur `matplotlib`, vous êtes libre d\'uti
 }} 
 
 [Category:External\_Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)
+
+---
+[documentation index](../README.md) > [External_Workbenches](Category:External_Workbenches.md) > Plot Module/fr

@@ -1,3 +1,4 @@
+# Robot CreateTrajectory/es
 ---
 - GuiCommand:/es   Name:Robot CreateTrajectory   Name/es:Robot CreateTrajectory   Workbenches:[[Robot_Workbench/es   Robot]]|MenuLocation:Robot → Create trajectory---
 
@@ -20,4 +21,7 @@ Click on <img alt="" src=images/Robot_CreateTrajectory.svg  style="width:32px;">
 
 {{Robot_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot CreateTrajectory/es

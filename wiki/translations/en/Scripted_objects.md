@@ -1,7 +1,4 @@
 # Scripted objects/en
-
-
-
 {{TOCright}}
 
 ## Introduction
@@ -890,3 +887,6 @@ In addition to the examples presented here have a look at FreeCAD source code [s
 }} 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Scripted objects/en

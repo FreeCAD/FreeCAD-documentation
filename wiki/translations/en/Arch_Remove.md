@@ -6,6 +6,8 @@
    SeeAlso:[Arch CutLine](Arch_CutLine.md), [Arch CutPlane](Arch_CutPlane.md), [Arch Add](Arch_Add.md)
 ---
 
+# Arch Remove/en
+
 ## Description
 
 The Remove tools allows you to do 2 kinds of operations:
@@ -62,10 +64,7 @@ Draft.move(Box, FreeCAD.Vector(1000, 700, 0))
 
 Arch.removeComponents(Box, Wall)
 FreeCAD.ActiveDocument.recompute()
-``` 
+```
 
-
-
-
-
-
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Remove/en

@@ -1,6 +1,4 @@
 # Macro documentation/de
-
-
 ## Beschreibung
 
 Alle Makros sollten ordnungsgemäß dokumentiert werden, und zwar auf die gleiche Weise wie [Gui Befehle](Gui_Command/de.md) dokumentiert werden. Sie sollten eine eigene Wiki Seite haben und in einer der Kategorien unter [Makro Rezepte](Macros_recipes/de.md) aufgeführt sein.
@@ -200,3 +198,6 @@ Um ein Makro aus dem [Erweiterungsverwalter](Addon_Manager/de.md) installierbar 
 Um das Makro dort aufzunehmen, muss es zunächst von der FreeCAD Gemeinschaft im [Python scripting and macros](https://forum.freecadweb.org/viewforum.php?f=22) Unterforum überprüft werden. Sobald dies geschehen ist, sollte das FreeCAD-Makro Repositorium abgezweigt werden, das neue Makro sollte in einen Zweig aufgenommen werden, und dann sollte der Zweig gepusht und in das Upstream- Repositorium zusammengeführt werden.
 
 [Category:Macros](Category:Macros.md) [Category:User Documentation](Category:User_Documentation.md)
+
+---
+[documentation index](../README.md) > [Macros](Category:Macros.md) > Macro documentation/de

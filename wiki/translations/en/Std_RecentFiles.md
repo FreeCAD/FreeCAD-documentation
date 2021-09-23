@@ -7,6 +7,8 @@
    SeeAlso:[Std Open](Std_Open.md), [Std Import](Std_Import.md)
 ---
 
+# Std RecentFiles/en
+
 ## Description
 
 The **Std RecentFiles** menu option displays a list of recent files which can be opened.
@@ -31,4 +33,7 @@ The **Std RecentFiles** menu option displays a list of recent files which can be
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std RecentFiles/en

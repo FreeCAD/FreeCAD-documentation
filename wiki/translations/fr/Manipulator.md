@@ -1,5 +1,5 @@
 # Manipulator/fr
- }
+}
 
 ## Description
 
@@ -13,3 +13,6 @@ Un **manipulateur** est une poignée qui peut être utilisée pour modifier l\'a
 
 
 [Category:Glossary](Category:Glossary.md)
+
+---
+[documentation index](../README.md) > [Glossary](Category:Glossary.md) > Manipulator/fr

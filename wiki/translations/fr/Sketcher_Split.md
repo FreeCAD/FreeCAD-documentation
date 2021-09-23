@@ -8,6 +8,8 @@
    SeeAlso:[Sketcher Ajuster une arête](Sketcher_Trimming/fr.md)
 ---
 
+# Sketcher Split/fr
+
 ## Description
 
 Cet outil permet de diviser une arête en deux arêtes identiques, la plupart des contraintes étant dupliquées, les deux parties restent donc contraintes à l\'exception de la position du point de division. Dans le cas particulier d\'un cercle, celui-ci est converti en un arc de bouts libres, les contraintes existantes du cercle étant transférées au nouvel arc.
@@ -45,4 +47,7 @@ Cet outil permet de diviser une arête en deux arêtes identiques, la plupart de
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Split/fr

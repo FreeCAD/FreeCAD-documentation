@@ -7,6 +7,8 @@
    Shortcut:**P** **G**
 ---
 
+# Draft Polygon/es
+
 
 </div>
 
@@ -189,8 +191,5 @@ Polygon3 = Draft.make_polygon(6, radius=1450, placement=place3)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Polygon/es

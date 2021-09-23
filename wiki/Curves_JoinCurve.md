@@ -5,6 +5,8 @@
    Workbenches:[Curves](Curves_Workbench.md)
 ---
 
+# Curves JoinCurve
+
 ## Description
 
 The <img alt="" src=images/Curves_JoinCurve.svg  style="width:24px;"> [Curves JoinCurve](Curves_JoinCurve.md) joins the selected edges into BSpline curves. This tool is part of the [external workbench](External_workbenches.md) called [Curves](Curves_Workbench.md).
@@ -32,4 +34,7 @@ The <img alt="" src=images/Curves_JoinCurve.svg  style="width:24px;"> [Curves Jo
 
 
 
- {{Curves Tools navi}} 
+ {{Curves Tools navi}}
+
+---
+[documentation index](../README.md) > Curves JoinCurve

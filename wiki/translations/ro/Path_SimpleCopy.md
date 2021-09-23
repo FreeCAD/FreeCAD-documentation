@@ -1,3 +1,4 @@
+# Path SimpleCopy/ro
 ---
 - GuiCommand:   Name:Path SimpleCopy   Workbenches:[[Path Workbench   Path]]|MenuLocation:Path → Path Modification → Simple Copy   Shortcut:   SeeAlso:---
 
@@ -35,4 +36,7 @@ This tool creates a non-parametric copy of a given path.
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path SimpleCopy/ro

@@ -5,6 +5,8 @@
    Workbenches:[Sketcher](Sketcher_Workbench.md), [PartDesign](PartDesign_Workbench.md)
 ---
 
+# Sketcher ViewSketch/hr
+
 ## Description
 
 This tool sets the model view perpendicular to the sketch plane. It is useful when the user has changed the model view orientation to examine another aspect of the model and wants to return to a view normal to the sketch.
@@ -22,4 +24,7 @@ While in sketch edit mode, either
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ViewSketch/hr

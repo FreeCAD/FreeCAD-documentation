@@ -1,3 +1,4 @@
+# PartDesign Pocket/ro
 ---
 - GuiCommand:   Name:PartDesign Pocket   Workbenches:[[PartDesign Workbench   PartDesign]], Complete|MenuLocation:PartDesign → Pocket---
 
@@ -86,4 +87,7 @@ Un exemplu [example](http://forum.freecadweb.org/viewtopic.php?f=3&t=3733&start=
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Pocket/ro

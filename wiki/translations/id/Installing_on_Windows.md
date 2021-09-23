@@ -1,9 +1,4 @@
 # Installing on Windows/id
-
-
-
-
-
 Cara termudah untuk menginstal FreeCAD di Windows adalam dengan mengunduh installer dibawah ini.
 
 
@@ -189,8 +184,5 @@ msiexec /i Y:\\software\\FreeCAD<version>.msi
 
 FreeCAD is running, but it has been reported that the OpenGL display does not work, like with other programs running under [Wine](wikipedia:Wine_(software).md) i.e. Google [SketchUp](wikipedia:SketchUp.md).
 
-
-
-
-
-
+---
+[documentation index](../README.md) > Installing on Windows/id

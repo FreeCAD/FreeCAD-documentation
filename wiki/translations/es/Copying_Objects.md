@@ -1,5 +1,5 @@
 # Copying Objects/es
- {{TOCright}}
+{{TOCright}}
 
 ## Vista general 
 
@@ -45,5 +45,5 @@ Como la mayoría de las cosas en FreeCAD, hay muchas maneras de hacer una copia.
 -   [Pegar](Std_Paste/es.md)
 -   [Selección de duplicados](Std_DuplicateSelection/es.md)
 
-
-
+---
+[documentation index](../README.md) > Copying Objects/es

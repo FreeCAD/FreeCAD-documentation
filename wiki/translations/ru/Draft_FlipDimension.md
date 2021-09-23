@@ -7,6 +7,8 @@
    SeeAlso:[Размер](Draft_Dimension/ru.md)
 ---
 
+# Draft FlipDimension/ru
+
 
 </div>
 
@@ -65,8 +67,5 @@ dimension.Normal = dimension.Normal.negative()
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft FlipDimension/ru

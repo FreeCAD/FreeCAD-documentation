@@ -1,5 +1,5 @@
 # Macro FlattenWire/pl
- {{Macro/pl
+{{Macro/pl
 |Name=FlattenWire
 |Icon=Macro_FlattenWire.png
 |Description=To makro dokonuje spłaszczenia projektów polilinii, które nie są płaskie względem ich środkowej współrzędnej Z.
@@ -34,6 +34,5 @@ obj.Points = newppoints
 
 }}
 
-
-
-
+---
+[documentation index](../README.md) > Macro FlattenWire/pl

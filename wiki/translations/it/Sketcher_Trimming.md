@@ -9,6 +9,8 @@
    SeeAlso:[Estendi lo spigolo](Sketcher_Extend/it.md)
 ---
 
+# Sketcher Trimming/it
+
 
 </div>
 
@@ -53,4 +55,7 @@ Questo strumento accorcia, rifila una linea fino al primo punto di intersezione,
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Trimming/it

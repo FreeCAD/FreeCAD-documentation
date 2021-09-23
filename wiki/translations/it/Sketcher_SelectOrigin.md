@@ -1,3 +1,4 @@
+# Sketcher SelectOrigin/it
 ---
 - GuiCommand:/it   Name:Sketcher SelectOrigin   Name/it:Seleziona Origine   Workbenches:[[Sketcher Workbench/it   Sketcher]]|MenuLocation:Sketch → Strumenti → Seleziona l'origine   Shortcut:**Maiusc**+**Ctrl**+**O**   SeeAlso:   Version:0.15---
 
@@ -32,4 +33,7 @@ Seleziona l\'origine di uno schizzo.
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectOrigin/it

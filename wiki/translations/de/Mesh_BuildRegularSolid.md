@@ -7,6 +7,8 @@
    SeeAlso:
 ---
 
+# Mesh BuildRegularSolid/de
+
 ## Description
 
 
@@ -147,4 +149,7 @@ Mesh objects created with this command inherit all [Mesh Feature](Mesh_Feature.m
 
 {{Mesh Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh BuildRegularSolid/de

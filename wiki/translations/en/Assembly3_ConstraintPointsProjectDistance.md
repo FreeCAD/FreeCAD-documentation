@@ -5,6 +5,8 @@
    Workbenches:[Assembly3](Assembly3_Workbench.md)
 ---
 
+# Assembly3 ConstraintPointsProjectDistance/en
+
 ## Description
 
 The <img alt="" src=images/Assembly_ConstraintPointsProjectDistance.svg  style="width:16px;"> [Points project distance](Assembly3_ConstraintPointsProjectDistance.md) command constrains the distance of two 2D points in relation to a Straight line.
@@ -27,8 +29,5 @@ Based on the line\'s direction (the z axis of its implicit coordinate system (IC
 
     :   (if **<img src="images/Assembly_AutoRecompute.svg" width=16px> [Auto recompute](Assembly3_AutoRecompute.md)** and **<img src="images/Assembly_SmartRecompute.svg" width=16px> [Smart recompute](Assembly3_SmartRecompute.md)** are disabled).
 
-
-
-
-
-
+---
+[documentation index](../README.md) > Assembly3 ConstraintPointsProjectDistance/en

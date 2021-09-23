@@ -1,7 +1,4 @@
 # TechDraw TemplateHowTo/it
-
-
-
 {{TutorialInfo/it
 |Topic=Disegno tecnico
 |Level=Intermedio
@@ -176,4 +173,7 @@ If you do not see the green boxes for your editable texts, there might be someth
 
 {{Tutorials navi
 
-}} {{TechDraw Tools navi}} 
+}} {{TechDraw Tools navi}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw TemplateHowTo/it

@@ -6,6 +6,8 @@
    SeeAlso:[Part Primitives](Part_Primitives.md)
 ---
 
+# Part Point/en
+
 ## Description
 
 A Point (vertex) geometric primitive.
@@ -85,4 +87,7 @@ A Point (vertex) geometric primitive.
 
 {{Part_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Point/en

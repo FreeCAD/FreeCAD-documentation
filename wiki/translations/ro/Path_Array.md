@@ -1,3 +1,4 @@
+# Path Array/ro
 ---
 - GuiCommand:   Name:Path Array   Workbenches:[[Path Workbench   Path]]|MenuLocation:Path → Path Modification → Array   Shortcut:   SeeAlso:---
 
@@ -59,4 +60,7 @@ Example:
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Array/ro

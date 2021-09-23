@@ -1,7 +1,4 @@
 # Main Page/zh-tw
- 
-
-
 <div class="mw-translate-fuzzy">
 
 這是[FreeCAD](http://www.freecadweb.org) 的wiki說明文件。
@@ -78,3 +75,6 @@ Check the [Development roadmap](Development_roadmap.md) for news about what is b
 
 
 [Category:Documentation](Category:Documentation.md)
+
+---
+[documentation index](../README.md) > [Documentation](Category:Documentation.md) > Main Page/zh-tw

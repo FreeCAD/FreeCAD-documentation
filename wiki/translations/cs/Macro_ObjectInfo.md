@@ -1,5 +1,5 @@
 # Macro ObjectInfo/cs
- {{Macro/cs
+{{Macro/cs
 |Name=Macro ObjectInfo
 |Translate=Macro ObjectInfo
 |Description=Poskytuje informace o vybraném objektu
@@ -54,6 +54,5 @@ Uživatel FreeCAD vytvořil uživatelsky přívětivý modul \"Info\", který m�
 
 Z fóra [Info Workbench - Help with icons please.](http://forum.freecadweb.org/viewtopic.php?f=10&t=3185)
 
-
-
-
+---
+[documentation index](../README.md) > Macro ObjectInfo/cs

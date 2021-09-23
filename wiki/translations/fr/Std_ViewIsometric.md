@@ -8,6 +8,8 @@
    SeeAlso:[Std Vue orthographique](Std_OrthographicCamera/fr.md), [Std Vue dimétrique](Std_ViewDimetric/fr.md), [Std Vue trimétrique](Std_ViewTrimetric/fr.md)
 ---
 
+# Std ViewIsometric/fr
+
 ## Description
 
 La commande **Std Vue isométrique** réaligne la caméra dans la [vue 3D](3D_view/fr.md) active pour obtenir une vue [isométrique](https://fr.wikipedia.org/wiki/Perspective_isom%C3%A9trique). Pour une vue vraiment isométrique, la vue 3D doit être en [mode orthographique](Std_OrthographicCamera/fr.md) mais la commande fonctionne également si la vue est en [mode perspective](Std_PerspectiveCamera/fr.md).
@@ -49,4 +51,7 @@ FreeCADGui.ActiveDocument.ActiveView.getViewDirection()
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ViewIsometric/fr

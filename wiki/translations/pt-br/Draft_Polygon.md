@@ -7,6 +7,8 @@
    Version:0.7
 ---
 
+# Draft Polygon/pt-br
+
 ## Descrição
 
 The <img alt="" src=images/Draft_Polygon.svg  style="width:24px;"> **Draft Polygon** command creates a regular polygon in the current [working plane](Draft_SelectPlane.md) from a center and a radius. The radius can be defined by picking a point.
@@ -131,5 +133,5 @@ doc.recompute()
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Polygon/pt-br

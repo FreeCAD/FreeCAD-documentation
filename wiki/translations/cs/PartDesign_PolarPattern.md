@@ -6,6 +6,8 @@
    MenuLocation:Návrh dílu -> Polární vzorky
 ---
 
+# PartDesign PolarPattern/cs
+
 
 </div>
 
@@ -139,4 +141,7 @@ Určuje úhel, který má být vzorky pokryt a celkový počet vzorků (včetně
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign PolarPattern/cs

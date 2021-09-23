@@ -7,6 +7,8 @@
    Version:0.17
 ---
 
+# Spreadsheet AlignRight/fr
+
 ## Description
 
 L\'outil **<img src=images/Spreadsheet_AlignRight.svg style="width:16px"> [Spreadsheet Alignement à gauche](Spreadsheet_AlignRight/fr.md)** aligne le texte à l\'intérieur de la cellule à droite.
@@ -23,4 +25,7 @@ L\'outil **<img src=images/Spreadsheet_AlignRight.svg style="width:16px"> [Sprea
 
 {{Spreadsheet_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet AlignRight/fr

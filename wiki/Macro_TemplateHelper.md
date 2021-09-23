@@ -1,5 +1,4 @@
 # Macro TemplateHelper
-
 {{Macro
 |Name=Macro TemplateHelper
 |Description=This macro generates a template to use with the TechDraw workbench and adds a new page with a new template object to the active dokument, ready to place views on it. And it can supply a bill of material (BOM), if wanted.
@@ -1401,3 +1400,5 @@ main()
 
 </div>
 
+---
+[documentation index](../README.md) > Macro TemplateHelper

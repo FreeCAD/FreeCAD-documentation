@@ -1,3 +1,4 @@
+# Part Cone/it
 ---
 - GuiCommand:/it   Name:Part Cone   Name/it:Cono   MenuLocation:Parte → Primitive → Cono   Workbenches:[SeeAlso:[[Part_CreatePrimitives/it|Crea primitive](Part_Workbench/it___Parte]].md)---
 
@@ -77,5 +78,5 @@ The cone properties can later be edited, either in the [Property editor](Propert
 
 </div>
 
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Cone/it

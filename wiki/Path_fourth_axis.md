@@ -1,11 +1,4 @@
 # Path fourth axis
- 
-
-
-
-
- 
-
 ## Description
 
 These experimental features allow milling of four axis [faces](https://forum.freecadweb.org/viewtopic.php?f=15&t=36773) and [pockets](https://forum.freecadweb.org/viewtopic.php?f=15&t=35867)
@@ -65,4 +58,7 @@ There is currently no GUI integration of 4th-axis rotational settings in the rel
 
 
 
- {{Path_Tools_navi}} 
+ {{Path_Tools_navi}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path fourth axis

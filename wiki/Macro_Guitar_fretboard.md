@@ -1,5 +1,5 @@
 # Macro Guitar fretboard
-  {{Macro
+{{Macro
 |Name=Macro Guitar fretboard
 |Icon=Macro_Guitar_fretboard.png
 |Description=Create Guitar fretboard.<br/>Guitar Fretboard Maker (Macro), Python script is unbelievable to make complex form....<br/>This macro creates a conical compound (or not) multiscale (or not) fretboard with nut and fret slot or zero fret slot to export to CAM software
@@ -748,4 +748,5 @@ class Fretboard():
 -   Version 0.2 : 2018-01-25 : convert to PySide
 -   Version 0.4 : 2020-01-09 : major refactor to add multiscale frets and zero fret
 
-
+---
+[documentation index](../README.md) > Macro Guitar fretboard

@@ -7,6 +7,8 @@
    SeeAlso:[Part Cut](Part_Cut/ro.md), [Part Common](Part_Common/ro.md)
 ---
 
+# Part Fuse/ro
+
 
 </div>
 
@@ -47,8 +49,5 @@ Elementele pot fi adăugate și scoase din fuziune/uniune, tragându-le în sau 
 
 După această operație, este posibil să fie necesară curățarea formei [RefineShape](Part_RefineShape.md).
 
-
-
-
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Fuse/ro

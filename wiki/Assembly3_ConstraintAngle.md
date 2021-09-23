@@ -5,6 +5,8 @@
    Workbenches:[Assembly3](Assembly3_Workbench.md)
 ---
 
+# Assembly3 ConstraintAngle
+
 ## Description
 
 This tool builds a link between two objects of an assembly and matches their orientation. The selected elements of each object or more precisely their implicit coordinate systems (ICS) are used to position one object to another.
@@ -21,7 +23,5 @@ The constraint accepts straight edges and planar faces.
 2.  Select one straight edge element or one planar face element of each object.
 3.  Press the **<img src="images/Assembly_ConstraintAngle.svg" width=16px> [Angle](Assembly3_ConstraintAngle.md)** button.
 
-
-
-
- 
+---
+[documentation index](../README.md) > Assembly3 ConstraintAngle

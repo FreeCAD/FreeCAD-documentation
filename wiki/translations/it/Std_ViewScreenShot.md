@@ -1,3 +1,4 @@
+# Std ViewScreenShot/it
 ---
 - GuiCommand:/it   Name:Std_ViewScreenShot   Name/it:Cattura Schermata   MenuLocation:Strumenti → Salva immagine...   Workbenches:Tutti   SeeAlso:[Stampa](Std_Print/it.md), [Esporta Pdf](Std_PrintPdf/it.md)---
 
@@ -124,4 +125,7 @@ App.closeDocument(App.ActiveDocument.Name)
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ViewScreenShot/it

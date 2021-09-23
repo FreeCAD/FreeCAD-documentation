@@ -6,3 +6,6 @@ This category lists pages related to the [Plot Workbench/pl](Plot_Workbench/pl.m
 [Artwork Plot/pl](Artwork_Plot/pl.md)
 
 [Category:Workbenches/pl](Category:Workbenches/pl.md)
+
+---
+[documentation index](../README.md) > Category:Plot/pl

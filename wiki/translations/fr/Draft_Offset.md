@@ -8,6 +8,8 @@
    SeeAlso:[Part Décalage 2D](Part_Offset2D/fr.md)
 ---
 
+# Draft Offset/fr
+
 ## Description
 
 La commande <img alt="" src=images/Draft_Offset.svg  style="width:24px;"> **Draft Décalage** décale chaque segment d\'un objet sélectionné sur une distance donnée ou crée une copie décalée de l\'objet sélectionné.
@@ -107,8 +109,5 @@ offset5 = Draft.offset(wire, 1.5*vector, copy=True, occ=True)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Offset/fr

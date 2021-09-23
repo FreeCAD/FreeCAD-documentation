@@ -6,6 +6,8 @@
    SeeAlso:[Mesh Scale](Mesh_Scale.md)
 ---
 
+# OpenSCAD ScaleMeshFeature
+
 ## Description
 
 Creates a new scaled mesh object with independent scaling for each axis.
@@ -40,4 +42,7 @@ Mesh.show(scaled_mesh)
 
 
 
- {{OpenSCAD_Tools_navi}} 
+ {{OpenSCAD_Tools_navi}}
+
+---
+[documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD ScaleMeshFeature

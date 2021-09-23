@@ -1,5 +1,5 @@
 # Artwork Arch/pl
-  Ikony te znajdują się we wskazanej ścieżce źródłowej.
+Ikony te znajdują się we wskazanej ścieżce źródłowej.
 
 Wszystkie ikonki widoczne na liście źródłowej, patrz [Grafika](Artwork/pl.md).
 
@@ -19,3 +19,6 @@ Wszystkie ikonki widoczne na liście źródłowej, patrz [Grafika](Artwork/pl.md
 }} 
 
 [Category:Arch](Category:Arch.md)
+
+---
+[documentation index](../README.md) > [Arch](Category:Arch.md) > Artwork Arch/pl

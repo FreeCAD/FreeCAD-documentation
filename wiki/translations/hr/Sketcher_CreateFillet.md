@@ -6,6 +6,8 @@
    Shortcut:F
 ---
 
+# Sketcher CreateFillet/hr
+
 ## Description
 
 This tool creates a fillet between two lines joined at one point. Activate the tool, then select both lines or click on the corner point.
@@ -26,4 +28,7 @@ When starting the tool, selections are cleared and the mouse pointer changes to 
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateFillet/hr

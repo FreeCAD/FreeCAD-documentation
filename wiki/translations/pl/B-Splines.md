@@ -1,5 +1,5 @@
 # B-Splines/pl
- {{TOCright}}
+{{TOCright}}
 
 Ta strona opisuje jak używać krzywych złożonych w programie FreeCAD. Podaje również podstawowe informacje czym są krzywe złożone i do jakich zastosowań są przydatne.
 
@@ -257,3 +257,6 @@ Ale czy to naprawdę wystarczy? W punkcie przejścia geometrycznego mamy teraz p
 <img alt="" src=images/Spline-Fender-sketch3.svg  style="width:300px;">
 
 Mamy więc również obszary przestrzenne, w których natężenie światła odbitego jest różne. Aby tego uniknąć, potrzebujemy w geometrycznym punkcie przejścia również ciągłości pochodnej drugiego rzędu, a więc sześciennej krzywej złożonej.
+
+---
+[documentation index](../README.md) > B-Splines/pl

@@ -1,3 +1,4 @@
+# Sketcher CreateFillet/cs
 ---
 - GuiCommand:/cs   Name:Sketcher CreateFillet   Name/cs: Skicář Zaoblení   Workbenches:[[Sketcher Workbench/cs   Skicář]]|MenuLocation:Náčrt → Skicář Konstrukce →  Vytvořit zaoblení   Shortcut:F   SeeAlso:---
 
@@ -44,4 +45,7 @@ Při spuštění nástroje se ukazatel myši změní na bílý křížek s červ
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateFillet/cs

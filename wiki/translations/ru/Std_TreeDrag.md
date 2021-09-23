@@ -7,6 +7,8 @@
    Shortcut:**T** **D**
 ---
 
+# Std TreeDrag/ru
+
 
 </div>
 
@@ -30,4 +32,7 @@ The **Std TreeDrag** command initiates a drag operation for selected objects in 
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std TreeDrag/ru

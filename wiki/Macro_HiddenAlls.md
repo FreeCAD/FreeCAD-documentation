@@ -1,7 +1,4 @@
 # Macro HiddenAlls
- 
-
-
 {{Macro
 |Name=Macro HiddenAlls
 |Icon=Macro_HiddenAlls.png
@@ -42,6 +39,5 @@ except Exception:
     None
 ```
 
-
-
-
+---
+[documentation index](../README.md) > Macro HiddenAlls

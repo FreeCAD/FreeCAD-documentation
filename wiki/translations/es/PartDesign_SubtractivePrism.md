@@ -8,6 +8,8 @@
    SeeAlso:[Crear una Primitiva sustractiva](PartDesign_CompPrimitiveSubtractive/es.md), [Additive Prism](PartDesign_AdditivePrism.md)
 ---
 
+# PartDesign SubtractivePrism/es
+
 
 </div>
 
@@ -69,4 +71,7 @@ Tras su creación, el Prisma puede ser editado de dos maneras:
 
 {{PartDesign Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractivePrism/es

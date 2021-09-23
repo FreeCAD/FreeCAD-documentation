@@ -9,6 +9,8 @@
    Version:0.17
 ---
 
+# Sketcher Extend/it
+
 
 </div>
 
@@ -50,4 +52,7 @@ Lo strumento **Estendi bordo** estende un bordo fino ad una posizione arbitraria
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Extend/it

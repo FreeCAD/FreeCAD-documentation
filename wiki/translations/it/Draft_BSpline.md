@@ -9,6 +9,8 @@
    Version:0.7
 ---
 
+# Draft BSpline/it
+
 
 </div>
 
@@ -223,5 +225,5 @@ doc.recompute()
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft BSpline/it

@@ -1,7 +1,4 @@
 # Macro FCHoneycombMaker/en
-
-
-
 {{Macro
 |Name=FCHoneycombMaker
 |Icon=FCHoneycombMakerIcon.png
@@ -357,3 +354,6 @@ Other similar Honeycomb [Honeycomb Array](https://forum.freecadweb.org/viewtopic
 ## Version
 
 2019-07-04 : first
+
+---
+[documentation index](../README.md) > Macro FCHoneycombMaker/en

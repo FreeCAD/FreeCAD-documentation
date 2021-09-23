@@ -7,6 +7,8 @@
    SeeAlso:[Sketcher NewSketch](Sketcher_NewSketch.md)
 ---
 
+# PartDesign NewSketch/hr
+
 ## Description
 
 This tool creates a new sketch, creates a new [PartDesign Body](PartDesign_Body.md) to contain the sketch if one does not exist and automatically opens the [Sketcher workbench](Sketcher_Workbench.md) after creation.
@@ -62,4 +64,7 @@ To reference any items in the <img src=images/Sketcher_CarbonCopy.svg style="wid
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign NewSketch/hr

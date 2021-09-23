@@ -1,7 +1,4 @@
 # FreeCAD-Ship s60 tutorial (II)/es
-
-
-
 {{TutorialInfo/es
 |Topic=Ship Workbench
 |Level= Beginner
@@ -314,3 +311,6 @@ Por supuesto este ejemplo no es real, entre otras cosas porque no se pueden llev
 {{Ship Tools navi
 
 }}
+
+---
+[documentation index](../README.md) > FreeCAD-Ship s60 tutorial (II)/es

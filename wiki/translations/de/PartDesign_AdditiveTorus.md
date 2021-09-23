@@ -8,6 +8,8 @@
    Siehe auch:[PartDesign CompPrimitiveAdditive](PartDesign_CompPrimitiveAdditive/de.md)
 ---
 
+# PartDesign AdditiveTorus/de
+
 ## Beschreibung
 
 Fügt den Grundkörper Torus in den aktiven Körper (Body) als Basisformelement ein oder vereinigt ihn mit den bereits bestehenden Formelementen.
@@ -65,4 +67,7 @@ Der Torus kann auf zwei verschiedene Weisen bearbeitet werden:
 
 {{PartDesign Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveTorus/de

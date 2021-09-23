@@ -70,3 +70,6 @@ Una schermata della versione 0.11
 {{languages/it | {{en|Release_notes_0.11}} {{de|Release_notes_0.11/de}} {{es|Release_notes_0.11/es}} {{fr|Release_notes_0.11/fr}} {{pl|Release_notes_0.11/pl}} {{ru|Release_notes_0.11/ru}} }}
 
 [Category:News](Category:News.md) [Category:Documentation](Category:Documentation.md) [Category:Releases](Category:Releases.md)
+
+---
+[documentation index](../README.md) > [News](Category:News.md) > Release notes 0.11/it

@@ -6,6 +6,8 @@
    Workbenches:[Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
 ---
 
+# Draft Shape2DView/ro
+
 
 </div>
 
@@ -142,8 +144,5 @@ shape3.ProjectionMode = "Individual Faces"
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Shape2DView/ro

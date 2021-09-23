@@ -1,3 +1,4 @@
+# TechDraw Hatch/it
 ---
 - GuiCommand:/it   Name:TechDraw Hatch   Name/it:Tratteggio da modello   Workbenches:[MenuLocation:TechDraw → Tratteggio da modello   Shortcut:   SeeAlso:[[TechDraw_GeometricHatch/it|Tratteggio geometrico](TechDraw_Workbench/it___TechDraw]].md), [Tipi di tratteggio](TechDraw_Hatching/it.md)---
 
@@ -105,4 +106,7 @@ rc = page.addView(hatch)
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Hatch/it

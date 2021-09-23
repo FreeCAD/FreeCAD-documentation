@@ -7,6 +7,8 @@
    SeeAlso:[FCGear](FCGear_Workbench.md)
 ---
 
+# PartDesign InvoluteGear/pl
+
 ## Opis
 
 Narzędzie to pozwala na utworzenie dwuwymiarowego profilu koła zębatego. Ten profil 2D jest w pełni parametryczny i może być wyciągnięty funkcją [Projekt części: wyciągnięcie](PartDesign_Pad/pl.md).
@@ -45,4 +47,7 @@ Bardziej szczegółowe informacje można znaleźć również na stronach Wiki: [
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign InvoluteGear/pl

@@ -9,6 +9,8 @@
    SeeAlso:
 ---
 
+# Arch Component/ru
+
 
 </div>
 
@@ -73,8 +75,5 @@ The Arch component object is also a base shared by all other Arch objects (**<im
 
 </div>
 
-
-
-
-
-
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Component/ru

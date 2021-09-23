@@ -1,5 +1,5 @@
 # Macro CenterFace/fr
- {{Macro/fr
+{{Macro/fr
 |Name=Macro CenterFace
 |Icon=CenterFace.png
 |Description=Cette macro crée un point rouge (éditable) au centre (mass) de la face sélectionnée et affiche ses coordonnées dans la vue rapport.
@@ -142,6 +142,5 @@ ver 0.2 07/10/2018 : mise à jour pour FC 017 \"getGlobalPlacement\"
 
 ver 0.1 29/04/2014
 
-
-
-
+---
+[documentation index](../README.md) > Macro CenterFace/fr

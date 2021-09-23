@@ -1,10 +1,4 @@
 # Mouse navigation/ro
-
-
-
-
-
-
 {{TOCright}}
 
 ## Overview
@@ -387,5 +381,5 @@ The tutorial [Adding a new mouse navigation option to FreeCAD](Adding_a_new_mous
 
 {{docnav/ro|Getting started/ro|Document structure/ro}}
 
-
-
+---
+[documentation index](../README.md) > Mouse navigation/ro

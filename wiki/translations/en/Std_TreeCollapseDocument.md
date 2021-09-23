@@ -7,6 +7,8 @@
    SeeAlso:[Std TreeSingleDocument](Std_TreeSingleDocument.md), [Std TreeMultiDocument](Std_TreeMultiDocument.md)
 ---
 
+# Std TreeCollapseDocument/en
+
 ## Description
 
 The **Std TreeCollapseDocument** command switches the [Tree view](Tree_view.md) DocumentMode to CollapseDocument. In this mode activating a document's [3D view](3D_view.md) will automatically expand that document in the Tree view and collapse all other documents. The other modes are [SingleDocument](Std_TreeSingleDocument.md) and [MultiDocument](Std_TreeMultiDocument.md).
@@ -27,4 +29,7 @@ The Tree view DocumentMode mode is stored: **Tools → Edit parameters... → Ba
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std TreeCollapseDocument/en

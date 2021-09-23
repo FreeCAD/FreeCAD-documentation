@@ -1,5 +1,5 @@
 # Import text and geometry from Inkscape/ru
- {{TutorialInfo/ru
+{{TutorialInfo/ru
 |Topic= Import text and geometry from Inkscape
 |Level= Beginner
 |Time= 30 minutes
@@ -50,6 +50,5 @@ Since inkscape and FreeCAD seem to have different approaches on how to apply dim
 
 Thanks to users \"freecad-heini-1\" and \"herbk\" for testing and providing valuable feedback.
 
-
-
-
+---
+[documentation index](../README.md) > [Import](Import_Workbench.md) > Import text and geometry from Inkscape/ru

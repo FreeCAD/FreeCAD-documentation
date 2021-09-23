@@ -1,5 +1,5 @@
 # PartDesign tutorial/en
- {{TutorialInfo
+{{TutorialInfo
 |Topic= Sketcher
 |Level= Beginner
 |Time= 15 minutes
@@ -105,3 +105,6 @@ After completing this task you should have the following result.
 If not, re-edit the MultiTransform operation by double clicking on it in the Tree View. Check both pattern features to detect necessary modifications, such as the **Axis** and if the **Direction** needs to be reversed.
 
 We are now finished with the basic workflow for the [PartDesign Workbench](PartDesign_Workbench.md).
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign tutorial/en

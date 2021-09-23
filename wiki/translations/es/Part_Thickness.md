@@ -7,6 +7,8 @@
    SeeAlso:[Part Offset](Part_Offset.md)
 ---
 
+# Part Thickness/es
+
 
 </div>
 
@@ -131,5 +133,5 @@ En este objeto se han seleccionado y eliminado dos caras adyacentes.
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Thickness/es

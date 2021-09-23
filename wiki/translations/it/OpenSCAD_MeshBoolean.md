@@ -1,3 +1,4 @@
+# OpenSCAD MeshBoolean/it
 ---
 - GuiCommand:/it   Name:OpenSCAD MeshBoolean   Name/it:Booleane su Mesh   MenuLocation:OpenSCAD → Booleane su Mesh...‏‎   |Workbenches:[[OpenSCAD_Workbench/it   OpenSCAD]]|Shortcut:   SeeAlso:---
 
@@ -53,4 +54,7 @@ La funzione richiede che OpenSCAD sia installato e configurato nelle **Modifica*
 
 {{OpenSCAD_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD MeshBoolean/it

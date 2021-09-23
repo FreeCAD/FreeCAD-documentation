@@ -7,6 +7,8 @@
    SeeAlso:[Std Enregistrement de macro](Std_DlgMacroRecord/fr.md)
 ---
 
+# Std MacroStopRecord/fr
+
 ## Description
 
 La commande **Std Arrêt enregistrement macro** met fin à une session d\'enregistrement de macro.
@@ -28,4 +30,7 @@ La commande **Std Arrêt enregistrement macro** met fin à une session d\'enregi
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std MacroStopRecord/fr

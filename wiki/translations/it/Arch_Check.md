@@ -7,6 +7,8 @@
    SeeAlso:[ Chiudi fori](Arch_CloseHoles/it.md)
 ---
 
+# Arch Check/it
+
 
 </div>
 
@@ -72,8 +74,5 @@ print(list_bad)
 
 </div>
 
-
-
-
-
-
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Check/it

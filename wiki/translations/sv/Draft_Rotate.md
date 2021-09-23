@@ -1,3 +1,4 @@
+# Draft Rotate/sv
 ---
 - GuiCommand:/sv   Name:Draft_Rotate   Workbenches:[[Draft_Workbench/sv   Skiss]]|MenuLocation:Draft -> Rotate---
 
@@ -135,8 +136,5 @@ rot_list4 = Draft.rotate(list2, 4*angle2, center=cen, copy=True)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Rotate/sv

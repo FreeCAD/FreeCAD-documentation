@@ -1,5 +1,5 @@
 # Macro ExpandTreeItem/en
- {{Macro
+{{Macro
 |Name=Macro ExpandTreeItem
 |Icon=Macro_ExpandTreeItem.svg
 |Description=This macro expands selected tree and all sub trees in the tree view.<br/>If there is no selection all trees are collapse False
@@ -88,3 +88,6 @@ for tree in trees:
 ## Link
 
 [Objektbaum mit einem Klick komplett aufklappen?](https://forum.freecadweb.org/viewtopic.php?f=13&t=29406)
+
+---
+[documentation index](../README.md) > Macro ExpandTreeItem/en

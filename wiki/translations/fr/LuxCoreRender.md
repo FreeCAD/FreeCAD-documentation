@@ -1,7 +1,4 @@
 # LuxCoreRender/fr
-
-
-
 **LuxCoreRender n'est pas officiellement pris en charge par l'[atelier Raytracing](Raytracing_Workbench/fr.md) mais par le nouvel [https://github.com/FreeCAD/FreeCAD-render atelier Render], qui est destiné à le remplacer. Il ne doit pas être confondu avec le [Projet Render](Render_project/fr.md), arrêté et dépassé. L'atelier Render peut être installé via le [Gestionnaire d'Addon](Std_AddonMgr/fr.md).**
 
 
@@ -259,3 +256,6 @@ Après avoir installé le Render Workbench et LuxCoreRender, lancez FreeCAD, ouv
 </div>
 
 Définissez le chemin de la commande LuxCore (cli), quelque chose comme *C:/Tools/LuxCore/pyluxcoretool.exe* et le chemin de l\'interface LuxCore, quelque chose comme *C:/Tools/LuxCore/luxcoreui.exe*, puis appliquez.
+
+---
+[documentation index](../README.md) > LuxCoreRender/fr

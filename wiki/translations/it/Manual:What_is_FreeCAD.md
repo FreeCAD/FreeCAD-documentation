@@ -1,7 +1,4 @@
 # Manual:What is FreeCAD/it
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -40,3 +37,5 @@ Il sito ufficiale di FreeCAD è <http://www.freecadweb.org>
 
 </div>
 
+---
+[documentation index](../README.md) > Manual:What is FreeCAD/it

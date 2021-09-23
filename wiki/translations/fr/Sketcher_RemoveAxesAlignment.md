@@ -7,6 +7,8 @@
    Version:0.20
 ---
 
+# Sketcher RemoveAxesAlignment/fr
+
 ## Description
 
 Cet outil supprime les alignements d\'axe (<img alt="" src=images/Sketcher_ConstrainHorizontal.svg  style="width:16px;"> [Horizontal](Sketcher_ConstrainHorizontal/fr.md), <img alt="" src=images/Sketcher_ConstrainVertical.svg  style="width:16px;"> [Vertical](Sketcher_ConstrainVertical/fr.md)) des éléments sélectionnés en essayant de préserver la relation de contrainte.
@@ -30,4 +32,7 @@ Le résultat est que les contraintes (horizontales et verticales) seront supprim
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher RemoveAxesAlignment/fr

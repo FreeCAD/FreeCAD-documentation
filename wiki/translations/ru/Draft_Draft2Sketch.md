@@ -7,6 +7,8 @@
    SeeAlso:[Sketcher](Sketcher_Workbench/ru.md), [PartDesign](PartDesign_Workbench/ru.md)
 ---
 
+# Draft Draft2Sketch/ru
+
 
 </div>
 
@@ -118,8 +120,5 @@ draft_from_sketch = Draft.draftify(sketch_from_draft, delete=False)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Draft2Sketch/ru

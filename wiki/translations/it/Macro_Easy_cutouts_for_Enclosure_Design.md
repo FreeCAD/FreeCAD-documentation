@@ -1,5 +1,5 @@
 # Macro Easy cutouts for Enclosure Design/it
- {{Macro/it
+{{Macro/it
 |Name=Easy cutouts for Enclosure Design
 |Translate=Aperture
 |Icon=Macro_Easy_cutouts_for_Enclosure_Design_icon.png
@@ -263,6 +263,5 @@ else:
 
 Nel forum : [Easy cutouts for Enclosure Design Macro](http://forum.freecadweb.org/viewtopic.php?f=22&t=18488)
 
-
-
-
+---
+[documentation index](../README.md) > Macro Easy cutouts for Enclosure Design/it

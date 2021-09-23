@@ -8,6 +8,8 @@
    SeeAlso:[Arch IFC](Arch_IFC/ru.md), [Arch IfcExplorer](Arch_IfcExplorer/ru.md)
 ---
 
+# Arch IfcSpreadsheet/ru
+
 
 </div>
 
@@ -57,5 +59,5 @@ spreadsheet = Arch.makeIfcSpreadsheet(Wall)
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch IfcSpreadsheet/ru

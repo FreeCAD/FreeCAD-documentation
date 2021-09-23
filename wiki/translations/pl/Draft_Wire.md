@@ -7,6 +7,8 @@
    Shortcut:**P** **L**
 ---
 
+# Draft Wire/pl
+
 ## Opis
 
 Polecenie <img alt="" src=images/Draft_Wire.svg  style="width:24px;"> **Rysunek Roboczy: Linia łamana** [tworzy](#Utwórz.md) polilinię, czyli sekwencję kilku połączonych segmentów linii. Polecenie to może być również użyte do [łączenia](#Przyłącz.md) [linii](Draft_Line/pl.md) i polilinii.
@@ -161,8 +163,5 @@ wire3 = Draft.make_wire([1.3*p3, p1, -1.7*p2], closed=True)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Wire/pl

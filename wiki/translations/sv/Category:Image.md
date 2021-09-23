@@ -6,3 +6,6 @@ This category lists pages related to the [Image Workbench/sv](Image_Workbench/sv
 [Image Workbench/sv](Image_Workbench/sv.md)
 
 [Category:Workbenches/sv](Category:Workbenches/sv.md)
+
+---
+[documentation index](../README.md) > Category:Image/sv

@@ -8,6 +8,8 @@
    SeeAlso:[Учебник МКЭ](FEM_tutorial/ru.md)
 ---
 
+# FEM ConstraintFluidBoundary/ru
+
 
 </div>
 
@@ -29,4 +31,7 @@ ToDo
 
 {{FEM Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > FEM ConstraintFluidBoundary/ru

@@ -8,6 +8,8 @@
    SeeAlso:[Arch Wand](Arch_Wall/de.md), [Arch Struktur](Arch_Structure/de.md)
 ---
 
+# Arch Frame/de
+
 ## Beschreibung
 
 Das **<img src="images/Arch_Frame.svg" width=16px> [Arch Rahmen](Arch_Frame/de.md)**-Werkzeug wird verwendet, um alle Arten von Rahmenobjekten basierend auf einem Profil und einem Layout zu erstellen. Das Profil wird entlang der Kanten des Layouts extrudiert, bei dem es sich um ein beliebiges 2D-Objekt handeln kann, z. B. ein [Skizze](Sketcher_Workbench/de.md) oder ein [Entwurfsobjekt](Draft_Workbench/de.md). Es ist besonders nützlich, um Geländer oder Rahmenwände zu erstellen. Rahmenobjekte können dann leicht in [Wände](Arch_Wall/de.md) oder [Struktur](Arch_Structure/de.md)-Objekte umgewandelt werden.
@@ -71,11 +73,5 @@ Frame = Arch.makeFrame(baseobj, profile)
 FreeCAD.ActiveDocument.recompute()
 ```
 
-
-
-
-
-
-
-
-
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Frame/de

@@ -1,3 +1,4 @@
+# Sketcher ConstrainEqual/pt
 ---
 - GuiCommand:/pt   Name:Constraint EqualLength   Name/pt:Constraint EqualLength   Workbenches:[PartDesign](Sketcher_Workbench/pt___Sketcher]],_[[PartDesign_Workbench/pt.md)|MenuLocation:Sketch → Sketcher constraints → Constrain equal   SeeAlso:[Constraint Radius](Constraint_Radius/pt.md)---
 
@@ -59,4 +60,7 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainEqual/pt

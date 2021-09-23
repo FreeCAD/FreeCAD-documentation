@@ -10,3 +10,6 @@ Dłuższe fragmenty tekstu należy umieścić na samej stronie, aby można je by
 [Template:Obsolete/pl](Template:Obsolete/pl.md) , [Template:Version/pl](Template:Version/pl.md) , [Template:VersionMinus/pl](Template:VersionMinus/pl.md) , [Template:VersionPlus/pl](Template:VersionPlus/pl.md)
 
 [Category:Template/pl](Category:Template/pl.md)
+
+---
+[documentation index](../README.md) > Category:Template:Text/pl

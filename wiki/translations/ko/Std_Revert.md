@@ -6,6 +6,8 @@
    Workbenches:모두
 ---
 
+# Std Revert/ko
+
 ## 설명
 
 **표준 되돌리기(Std Revert)** 명령은 활성 문서를 닫고 마지막 저장 버전을 다시 엽니다.
@@ -25,4 +27,7 @@
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std Revert/ko

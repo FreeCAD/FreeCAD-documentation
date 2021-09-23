@@ -1,6 +1,4 @@
 # Command/it
-
-
 ## Introduzione
 
 
@@ -107,3 +105,6 @@ Vedere [Funzione per disegnare delle linee](Line_drawing_function/it.md).
 }}
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md) [Category:Glossary](Category:Glossary.md)
+
+---
+[documentation index](../README.md) > [Command_Reference]] se originale inglese, e nella pagina ](Category:Command_Reference]] se originale inglese, e nella pagina .md) > Command/it

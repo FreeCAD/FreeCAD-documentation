@@ -8,6 +8,8 @@
    SeeAlso:[Spreadsheet Exporter](Spreadsheet_Export/fr.md)
 ---
 
+# Spreadsheet Import/fr
+
 ## Description
 
 L\'outil **<img src=images/Spreadsheet_Import.svg style="width:16px"> [Spreadsheet Importer](Spreadsheet_Import/fr.md)** vous permet d\'importer dans une feuille de calcul un fichier de valeurs séparées par des tabulations (généralement désigné en CSV) pour être modifiée et utilisée avec des [expressions](expressions/fr.md).
@@ -27,4 +29,7 @@ L\'outil **<img src=images/Spreadsheet_Import.svg style="width:16px"> [Spreadshe
 
 {{Spreadsheet_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet Import/fr

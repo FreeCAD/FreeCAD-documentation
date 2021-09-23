@@ -6,6 +6,8 @@
    SeeAlso:[TechDraw Hatch](TechDraw_Hatch.md), [TechDraw Hatching](TechDraw_Hatching.md)
 ---
 
+# TechDraw GeometricHatch/en
+
 ## Description
 
 The GeometricHatch tool fills a closed region in a View with a pattern based on an AutoDesk PAT hatching specification. **Alternatively**, the [Hatch](TechDraw_Hatch.md) tool uses an [SVG](SVG.md) or [bitmap](bitmap.md) file as hatch pattern, see [Hatching](TechDraw_Hatching.md) for details.
@@ -91,4 +93,7 @@ Part.show(hatch)
 
 {{TechDraw Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw GeometricHatch/en

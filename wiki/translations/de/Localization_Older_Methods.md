@@ -1,7 +1,4 @@
 # Localization Older Methods/de
-
-
-
 {{docnav/de
 |[Markenbindung](Branding/de.md)
 |[Zusätzliche Python Module](Extra_python_modules/de.md)
@@ -156,3 +153,6 @@ and running pyrcc4 Draft.qrc -o qrc\_Draft.py creates a big Python containing al
  
 
 [Category:Developer Documentation](Category:Developer_Documentation.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Localization Older Methods/de

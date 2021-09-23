@@ -9,6 +9,8 @@
    SeeAlso:[Clonar](Sketcher_Clone/pt.md), [Copiar](Sketcher_Copy/pt.md)
 ---
 
+# Sketcher Move/pt
+
 
 </div>
 
@@ -34,4 +36,7 @@ Moves the selected sketch elements from one point to another, using the last sel
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Move/pt

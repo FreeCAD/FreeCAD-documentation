@@ -8,6 +8,8 @@
    SeeAlso:[Arch Platte](Arch_Panel/de.md), [Arch Tafelplatte](Arch_Panel_Sheet/de.md), [Arch Verschachteln](Arch_Nest/de.md)
 ---
 
+# Arch Panel Cut/de
+
 ## Beschreibung
 
 Dieses Werkzeug erstellt im 3D-Dokuemnt eine flache 2D-Ansicht einer [Arch Platte](Arch_Panel/de.md), die in eine [Arch Tafel Platte](Arch_Panel_Sheet/de.md) eingefügt oder direkt nach [DXF](Draft_DXF/de.md) exportiert wird. Die Tafelschnitt-Objekte werden auch durch den [Path-Arbeitsbereich](Path_Workbench/de.md) unterstützt.
@@ -96,8 +98,5 @@ FreeCAD.ActiveDocument.recompute()
 
 -   [Wikihouse Portierungs Tutorium](Wikihouse_porting_tutorial/de.md)
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Panel Cut/de

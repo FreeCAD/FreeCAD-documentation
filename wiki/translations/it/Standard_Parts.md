@@ -212,3 +212,6 @@ La finestra di questa macro è indipendente dalla finestra di FreeCAD e può ess
 {{languages/it| }}
 
 [Category:User\_Documentation/it](Category:User_Documentation/it.md) [Category:Command\_Reference/it](Category:Command_Reference/it.md) [Category:Macros/it](Category:Macros/it.md)
+
+---
+[documentation index](../README.md) > Standard Parts/it

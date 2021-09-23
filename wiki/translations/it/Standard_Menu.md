@@ -1,5 +1,5 @@
 # Standard Menu/it
-  {{TOCright}}
+{{TOCright}}
 
 ## Introduzione
 
@@ -26,4 +26,7 @@ Il menu standard è composto da sette sottomenu:
 
 {{Std Base navi
 
-}}  {{Interface navi}} 
+}}  {{Interface navi}}
+
+---
+[documentation index](../README.md) > Standard Menu/it

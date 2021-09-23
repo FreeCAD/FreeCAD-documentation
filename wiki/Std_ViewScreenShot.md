@@ -6,6 +6,8 @@
    SeeAlso:[Std Print](Std_Print.md), [Std PrintPdf](Std_PrintPdf.md)
 ---
 
+# Std ViewScreenShot
+
 ## Description
 
 The **Std ViewScreenShot** command opens a dialog box to create an image file, a screenshot, from the active [3D view](3D_view.md).
@@ -120,4 +122,7 @@ App.closeDocument(App.ActiveDocument.Name)
 
 
 
- {{Std Base navi}}  
+ {{Std Base navi}}
+
+---
+[documentation index](../README.md) > Std ViewScreenShot

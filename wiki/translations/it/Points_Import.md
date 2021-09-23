@@ -8,6 +8,8 @@
    Icon:Points_Import.svg
 ---
 
+# Points Import/it
+
 
 <div class="mw-translate-fuzzy">
 
@@ -74,4 +76,7 @@ Per i test si può usare questo file [ASC](https://github.com/FREECAD/Examples/b
 
 {{Points Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Points](Points_Workbench.md) > Points Import/it

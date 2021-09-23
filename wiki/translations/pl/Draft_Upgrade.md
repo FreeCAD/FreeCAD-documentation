@@ -8,6 +8,8 @@
    SeeAlso:[Rozbij kształt](Draft_Downgrade/pl.md)
 ---
 
+# Draft Upgrade/pl
+
 ## Opis
 
 Polecenie <img alt="" src=images/Draft_Upgrade.svg  style="width:24px;"> **Ulepsz kształt** ulepsza wybrane obiekty. Wynik zależy od liczby wybranych obiektów i ich typu. Polecenie może na przykład łączyć elementy i tworzyć ściany. Warto spróbować uaktualnić wybrane obiekty kilka razy, aby zobaczyć czy można uzyskać lepszy rezultat. Zobacz przykład na obrazku. Należy pamiętać, że nie wszystkie obiekty można uaktualnić. To polecenie jest odpowiednikiem polecenia środowiska pracy Rysunek Roboczy [Rozbij kształt](Draft_Downgrade/pl.md).
@@ -81,8 +83,5 @@ add_list5, delete_list5 = Draft.upgrade(face, delete=False)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Upgrade/pl

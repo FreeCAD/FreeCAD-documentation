@@ -7,6 +7,8 @@
    SeeAlso:[Serie polare](Draft_PolarArray/it.md), [Serie circolare](Draft_CircularArray/it.md),[Serie su tracciato](Draft_PathArray/it.md), [Serie su punti](Draft_PointArray/it.md), [Clone](Draft_Clone/it.md)
 ---
 
+# Draft Array/it
+
 
 </div>
 
@@ -84,5 +86,5 @@ This command is now obsolete. Use the [Draft OrthoArray](Draft_OrthoArray.md), [
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Array/it

@@ -7,6 +7,8 @@
    Version:0.17
 ---
 
+# Sketcher CompCreateBSpline
+
 ## Description
 
 **Create a B-Spline** is an icon button in the Sketcher geometries toolbar that groups tools to create a B-Spline curve. Click on the down arrow to its right to expand the icons below it and select a tool.
@@ -19,4 +21,7 @@
 
 
 
- {{Sketcher Tools navi}} 
+ {{Sketcher Tools navi}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CompCreateBSpline

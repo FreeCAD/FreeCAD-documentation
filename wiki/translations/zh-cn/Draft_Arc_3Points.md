@@ -7,6 +7,8 @@
    SeeAlso:[Draft Arc](Draft_Arc.md), [Draft Circle](Draft_Circle.md)
 ---
 
+# Draft Arc 3Points/zh-cn
+
 ## 描述
 
 
@@ -134,8 +136,5 @@ arc = Draft.make_arc_3points(points)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Arc 3Points/zh-cn

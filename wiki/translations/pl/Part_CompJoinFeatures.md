@@ -7,6 +7,8 @@
    SeeAlso:[Part JoinConnect](Part_JoinConnect.md), [Part JoinEmbed](Part_JoinEmbed.md), [Part JoinCutout](Part_JoinCutout.md), [Part Boolean](Part_Boolean.md), [Part Thickness](Part_Thickness.md)
 ---
 
+# Part CompJoinFeatures/pl
+
 ## Description
 
 This command is a dropdown toolbar button containing all the Join tools. See individual tool pages for more info.
@@ -22,8 +24,5 @@ This command is a dropdown toolbar button containing all the Join tools. See ind
 <img alt="" src=images/JoinFeatures_demo.png  style="width:668px;"> 
 *Above: showing the result of each tool available*
 
-
-
-
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompJoinFeatures/pl

@@ -1,7 +1,4 @@
 # Macro 3d Printer Slicer/cs
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -93,4 +90,7 @@ subprocess.Popen([SLICER + "KISSlicer", stlFile])
 ## Kredity
 
 Díky [Wmayer](http://forum.freecadweb.org/viewtopic.php?f=10&t=4686) za jeho pomoc při psaní tohoto skriptu.
-Původní téma fóra : <http://forum.freecadweb.org/viewtopic.php?f=10&t=4686> 
+Původní téma fóra : <http://forum.freecadweb.org/viewtopic.php?f=10&t=4686>
+
+---
+[documentation index](../README.md) > Macro 3d Printer Slicer/cs

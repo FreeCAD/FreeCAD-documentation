@@ -1,3 +1,4 @@
+# Std Paste/de
 ---
 - GuiCommand:/de   Name/de:Std_Paste   MenuLocation:Bearbeiten → Einfügen   Shortcut:**Strg**+**V**   Workbenches:Alle   SeeAlso:[Kopieren](Std_Copy/de.md), [Auswahl duplizieren](Std_DuplicateSelection/de.md)---
 
@@ -50,4 +51,7 @@ The **Std Paste** command pastes objects from the Clipboard into the active docu
 
 {{Std Base navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > Std Paste/de

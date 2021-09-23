@@ -1,3 +1,4 @@
+# Part Primitives/tr
 ---
 - GuiCommand:/tr   Name:Part CreatePrimitives   Name/tr:Part CreatePrimitives   MenuLocation:Part -> CreatePrimitives...   |Workbenches:[SeeAlso:[[Part_Shapebuilder/tr|Part Shapebuilder](Part_Workbench/tr___Part]].md)---
 
@@ -82,8 +83,5 @@ It can be used as input to the program as well.
 freecad $INSTALL_DIR/Mod/Part/parttests/part_test_objects.py
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Primitives/tr

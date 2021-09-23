@@ -8,6 +8,8 @@
    SeeAlso:[Sketcher Contrainte parallèle](Sketcher_ConstrainParallel/fr.md)
 ---
 
+# Sketcher ConstrainSymmetric/fr
+
 ## Description
 
 La **contrainte symétrique** contraint deux points sélectionnés à devenir symétriques à une ligne donnée, à savoir, deux points sélectionnés sont contraints de se situer sur une normale (ligne) passant par les deux points et sont contraints d\'être équidistants à la normale (ligne). Alternativement, elle peut contraindre deux points à être symétriques par rapport à un troisième.
@@ -61,4 +63,7 @@ La page [Sketcher : Écrire des scripts](Sketcher_scripting/fr.md) explique les 
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainSymmetric/fr

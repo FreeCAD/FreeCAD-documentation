@@ -1,10 +1,4 @@
 # Document structure/cs
-
-
-
-
-
-
 {{TOCright}}
 
 ![](images/Screenshot_treeview.jpg ) Dokument FreeCADu obsahuje všechny objekty Vaší úlohy. Může obsahovat skupiny a objekty vytvořené na jakékoliv pracovní ploše. Proto můžete přepínat mezi pracovními plochami a pořád pracujete na stejném dokumentu. Dokument je to se zapisuje na disk, když ukládáte svou práci. Ve FreeCADu můžete také zároveň otevřít několik dokumentů a také otevřít několik pohledů stejného dokumentu.
@@ -85,5 +79,5 @@ FreeCADGui.ActiveDocument.ActiveView
 
 </div>
 
-
-
+---
+[documentation index](../README.md) > Document structure/cs

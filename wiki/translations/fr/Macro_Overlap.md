@@ -1,5 +1,5 @@
 # Macro Overlap/fr
- {{Macro/fr
+{{Macro/fr
 |Name=Boolean Overlap
 |Icon=Macro_Overlap.png
 |Description=Outil booléen entre [Part Union](Part_Fuse/fr.md) et [Part Common](Part_Common/fr.md). Paramétrique.
@@ -200,3 +200,5 @@ def run():
         mb.exec_()
 }}
 
+---
+[documentation index](../README.md) > Macro Overlap/fr

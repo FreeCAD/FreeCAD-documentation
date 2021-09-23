@@ -1,5 +1,5 @@
 # Macro PropertyMemo/fr
- {{Macro/fr
+{{Macro/fr
 |Name=Macro_PropertyMemo
 |Icon=PropertyMemo.png
 |Description={{ColoredText|#ff0000|#ffffff|Nouvelle interface graphique modifiée pour fonctionner en HD dpi (QGridLayout), uniquement la version FC 0.19 et plus (PySide2 Qt5)}} <br/> <br/>
@@ -402,3 +402,6 @@ Mes macros sur [mario52a](https://gist.github.com/mario52a) gists
 
 -   ver 00.03 2020/05/17 : disposition de la grille pour 0.19
 -   ver 00.02 19/10/2015 : ajout d\'un checkBox pour mémo String ou mémo Liste
+
+---
+[documentation index](../README.md) > Macro PropertyMemo/fr

@@ -1,5 +1,5 @@
 # SVG/ru
- {{TOCright}}
+{{TOCright}}
 
 ## Description
 
@@ -24,3 +24,6 @@ FreeCAD is primarily a 3D modeling application, and thus doesn\'t have many 2D d
 
 
 [Category:Draft](Category:Draft.md) [Category:TechDraw](Category:TechDraw.md) [Category:File\_Formats](Category:File_Formats.md)
+
+---
+[documentation index](../README.md) > [Draft](Category:Draft.md) > SVG/ru

@@ -1,6 +1,4 @@
 # Artwork Inspection/en
- 
-
 These icons are in the indicated source path.
 
 For all icons in the source tree, see [Artwork](Artwork.md).
@@ -17,3 +15,6 @@ For all icons in the source tree, see [Artwork](Artwork.md).
 }} 
 
 [Category:Inspection](Category:Inspection.md)
+
+---
+[documentation index](../README.md) > [Inspection](Category:Inspection.md) > Artwork Inspection/en

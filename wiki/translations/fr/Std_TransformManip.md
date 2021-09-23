@@ -8,6 +8,8 @@
    SeeAlso:[Std Base](Std_Base/fr.md)
 ---
 
+# Std TransformManip/fr
+
 ## Description
 
 Cet outil vous permet d\'appliquer des incréments de rotation ou des incréments de traduction à un objet.
@@ -35,4 +37,7 @@ Cet outil vous permet d\'appliquer des incréments de rotation ou des incrément
 
 {{Std Base navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > Std TransformManip/fr

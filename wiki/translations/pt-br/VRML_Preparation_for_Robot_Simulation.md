@@ -1,5 +1,5 @@
 # VRML Preparation for Robot Simulation/pt-br
- {{TutorialInfo
+{{TutorialInfo
 |Topic=Robot Workbench
 |Level=Intermediate
 |Time=
@@ -383,3 +383,6 @@ Group {
 
 
 [Category:Robot](Category:Robot.md)
+
+---
+[documentation index](../README.md) > [Robot](Category:Robot.md) > VRML Preparation for Robot Simulation/pt-br

@@ -1,7 +1,4 @@
 # FEM Install/fr
-
-
-
 {{TOCright}}
 
 ## Introduction
@@ -248,4 +245,7 @@ Si vous rencontrez des problèmes pour installer Netgen, Gmsh ou CalculiX, ou un
 
 {{FEM Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > FEM Install/fr

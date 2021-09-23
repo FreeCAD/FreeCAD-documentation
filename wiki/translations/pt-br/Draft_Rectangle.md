@@ -7,6 +7,8 @@
    Version:0.7
 ---
 
+# Draft Rectangle/pt-br
+
 ## Descrição
 
 The <img alt="" src=images/Draft_Rectangle.svg  style="width:24px;"> **Draft Rectangle** command creates a rectangle in the current [working plane](Draft_SelectPlane.md) from two points.
@@ -133,5 +135,5 @@ doc.recompute()
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Rectangle/pt-br

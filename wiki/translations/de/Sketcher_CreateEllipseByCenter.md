@@ -9,6 +9,8 @@
 Ellipsenbogen]]
 ---
 
+# Sketcher CreateEllipseByCenter/de
+
 ## Beschreibung
 
 Dieses Werkzeug zeichnet eine Ellipse, indem drei Punkte ausgewählt werden: der Mittelpunkt, das Ende des großen Radius und der kleine Radius. Wenn du das Werkzeug startest, ändert sich der Mauszeiger in ein weißes Kreuz mit einem roten Ellipsensymbol. Daneben werden die Koordinaten in Echtzeit angezeigt.
@@ -37,4 +39,7 @@ Dieses Werkzeug zeichnet eine Ellipse, indem drei Punkte ausgewählt werden: der
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateEllipseByCenter/de

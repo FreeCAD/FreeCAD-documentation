@@ -7,6 +7,8 @@
    SeeAlso:[Fazka](Part_Chamfer/pl.md)
 ---
 
+# Part Fillet/pl
+
 ## Opis
 
 Narzędzie to tworzy łuk *(zaokrąglenie)* na wybranych krawędziach obiektu. Okno dialogowe pozwala wybrać, na których obiektach i na których krawędziach należy pracować.
@@ -39,8 +41,5 @@ Narzędzie do zaokrąglania czasem zawodzi przy próbie zaokrąglenia złożonyc
 
 Zwróć również uwagę, że na funkcję zaokrąglania części wpływa [Topologiczny problem nazewnictwa](Topological_naming_problem/pl.md), gdy jakakolwiek zmiana jest dokonywana na wcześniejszym etapie modelowania w łańcuchu, który wpływa na liczbę powierzchni lub wierzchołków. Może to spowodować nieprzewidywalny rezultat. Do czasu rozwiązania tego problemu *(prawdopodobnie z v0.19)* zaleca się stosowanie operacji Fazowania i [Zaokrąglania](Part_Fillet/pl.md) na ostatnich etapach łańcucha.
 
-
-
-
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Fillet/pl

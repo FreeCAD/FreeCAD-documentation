@@ -8,6 +8,8 @@
    SeeAlso:[Добавить осевую линию к граням](TechDraw_FaceCenterLine/ru.md), [Добавить осевую линию между 2 линиями](TechDraw_2LineCenterLine/ru.md)
 ---
 
+# TechDraw 2PointCenterLine/ru
+
 ## Описание
 
 The 2PointCenterLine tool adds a centerline between two Vertices (Points).
@@ -66,4 +68,7 @@ Centerlines are not accessible from [macros](Macros.md) or the [Python](Python.m
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw 2PointCenterLine/ru

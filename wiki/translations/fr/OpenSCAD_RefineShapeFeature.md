@@ -7,6 +7,8 @@
    SeeAlso:[Part Affiner la forme](Part_RefineShape.md)
 ---
 
+# OpenSCAD RefineShapeFeature/fr
+
 ## Description
 
 Nettoie les arêtes résiduelles. Après une opération booléenne, certaines arêtes définissant les formes précédentes restent visibles, cet outil crée une copie de la totalité de l\'objet nettoyé.
@@ -38,4 +40,7 @@ Nettoie les arêtes résiduelles. Après une opération booléenne, certaines ar
 
 {{OpenSCAD_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD RefineShapeFeature/fr

@@ -7,6 +7,8 @@
    SeeAlso:
 ---
 
+# Part Circle/de
+
 ## Beschreibung
 
 Dieser Befehl erzeugt eine zirkulär gebogene Kante. Mit den Standardvorgaben wird diese Kante geschlossen und dadurch ein Kreis sein. Wenn die Eigenschaften Angle 0 oder Angle 1 andere Werte als die Vorgaben (0 und 360) haben, ist die Kante eine offene Kurve, also ein Kreisbogen.
@@ -30,8 +32,5 @@ Ein Kreis geometrischer Grundkörper ist über den Grundkörper erstellen Dialog
 
 -    **Winkel 1**: Endwinkel der gebogenen Kante (in Grad, gegen Uhrzeigersinn), Standardwert ist 360
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Circle/de

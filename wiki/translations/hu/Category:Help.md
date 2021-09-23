@@ -4,3 +4,6 @@ This category lists pages that contain helpfull information on MediaWiki and edi
 ### Contents:
 
 [Category:Categories/hu](Category:Categories/hu.md)
+
+---
+[documentation index](../README.md) > Category:Help/hu

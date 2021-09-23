@@ -1,7 +1,4 @@
 # FEM Example Capacitance Two Balls
- 
-
-
 {{TutorialInfo
 |Topic= Finite Element Analysis
 |Level=Beginner
@@ -116,4 +113,7 @@ This case presents the solution of the capacitance of perfectly conducting balls
     StatElecSolve:   2  2    5.07960E+00
 -   Here, our desired result is C~12~ = 1.70071. This value is close to the `1.691` given in the [Elmer GUI Tutorials](https://www.nic.funet.fi/pub/sci/physics/elmer/doc/ElmerTutorials.pdf). We can get an even closer value by making a finer [Mesh Region](FEM_MeshRegion.md) but this activity is left for the user. Also, the user is advised to play with the [Clip Filter](FEM_PostCreateClipFilter.md) to get a visual result similar to the first picture of this tutorial.
 
- {{Tutorials navi}} {{FEM Tools navi}}  
+ {{Tutorials navi}} {{FEM Tools navi}}
+
+---
+[documentation index](../README.md) > FEM Example Capacitance Two Balls

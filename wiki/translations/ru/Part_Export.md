@@ -7,6 +7,8 @@
    SeeAlso:[Импорт CAD...](Part_Import/ru.md), [Экспортировать...](Std_Export/ru.md), [Import Export](Import_Export/ru.md)
 ---
 
+# Part Export/ru
+
 ## Описание
 
 
@@ -29,14 +31,5 @@
 
 </div>
 
-
-
-
-
-
-
-
-
-
-
-
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Export/ru

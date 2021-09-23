@@ -6,6 +6,8 @@
    SeeAlso:[Mesh Intersection](Mesh_Intersection.md), [Mesh Difference](Mesh_Difference.md)
 ---
 
+# Mesh Union
+
 ## Description
 
 The **Mesh Union** command creates a new non-parametric mesh object, a [Mesh Feature](Mesh_Feature.md), that is the union (fusion) of two mesh objects.
@@ -28,4 +30,7 @@ See: [Mesh Feature](Mesh_Feature.md).
 
 
 
- {{Mesh Tools navi}}  
+ {{Mesh Tools navi}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Union

@@ -1,7 +1,4 @@
-# PartDesign Workbench/ro
- 
-
-<img alt="PartDesign workbench icon" src=images/Workbench_PartDesign.svg  style="width:128px;">
+# <img alt="PartDesign workbench icon" src=images/Workbench_PartDesign.svg  style="width:64px;"> PartDesign Workbench/ro
 
 
 {{TOCright}}
@@ -566,3 +563,6 @@ Unele funcționalități suplimentare găsite în meniul PartDesign:
  {{PartDesign Tools navi}}
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > PartDesign Workbench/ro

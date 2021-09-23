@@ -1,5 +1,5 @@
 # Migrating to FreeCAD from OnShape/en
- {{TOCright}}
+{{TOCright}}
 
 ## Background
 
@@ -11,5 +11,5 @@ This page is intended for users who are interested in working with FreeCAD that 
 -   [Migrating to FreeCAD from Fusion360](Migrating_to_FreeCAD_from_Fusion360.md)
 -   Joko Engineering [video](https://youtu.be/oH8GOR8Jx88) side-by-side comparison of FreeCAD with OnShape
 
-
-
+---
+[documentation index](../README.md) > Migrating to FreeCAD from OnShape/en

@@ -1,10 +1,4 @@
 # Draft Constrain/pl
-
-
-
-
-
-
 {{TOCright}}
 
 ## Opis
@@ -52,8 +46,5 @@ Zobacz także strony: [Edytor ustawień](Preferences_Editor/pl.md) oraz [Rysunek
 -   Domyślny klawisz **modyfikujący**, **Shift**, można zmienić w menu: **Edycja → Preferencje → Rysunek Roboczy → Siatka i przyciąganie → Przyciąganie → Modyfikator ograniczania**.
 -   Skróty klawiszowe **X**, **Y** i **Z** można zmienić: **Edycja → Preferencje → Rysunek Roboczy → Ustawienia interfejsu użytkownika → Skróty poleceń**.
 
-
-
-
-
-  
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Constrain/pl

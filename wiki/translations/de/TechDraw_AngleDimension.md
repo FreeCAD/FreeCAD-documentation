@@ -7,6 +7,8 @@
    SeeAlso:[TechDraw Bemaßung Winkel3Punkte](TechDraw_Dimension_Angle3Pt/de.md)
 ---
 
+# TechDraw AngleDimension/de
+
 
 </div>
 
@@ -99,4 +101,7 @@ rc = page.addView(dim1)
 
 {{TechDraw Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw AngleDimension/de

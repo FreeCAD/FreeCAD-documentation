@@ -1,10 +1,4 @@
 # Navigation Cube/ru
-
-
-
-
-
-
 {{TOCright}}
 
 Кубический элемент управления навигацией, или «куб навигации», представляет собой графический интерфейс пользовательского интерфейса для переориентации трехмерного вида. Он виден по умолчанию и находится в верхнем правом углу дисплея.Если вы смотрите на стандартный трёхмерный вид, он выглядит следующим образом:
@@ -86,3 +80,6 @@ For more advanced configuration, refer to the [CubeMenu](Interface_Customization
 
 
 [Category:User Documentation](Category:User_Documentation.md)
+
+---
+[documentation index](../README.md) > [User Documentation](Category:User Documentation.md) > Navigation Cube/ru

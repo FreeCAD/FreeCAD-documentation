@@ -1,5 +1,5 @@
 # Offsite tutorials
-  **Please pay attention to the version of FreeCAD used in the tutorial. If a tutorial uses an older version of the program, the general modelling process may still work but some tools may have changed in newer releases. Do not add tutorials made with version 0.16 or older, as these releases are considered obsolete.**
+**Please pay attention to the version of FreeCAD used in the tutorial. If a tutorial uses an older version of the program, the general modelling process may still work but some tools may have changed in newer releases. Do not add tutorials made with version 0.16 or older, as these releases are considered obsolete.**
 
 This page lists FreeCAD tutorials found on other sites on the web.
 
@@ -15,4 +15,7 @@ This page lists FreeCAD tutorials found on other sites on the web.
     -   4 - camshaft : <http://freecad-tutorial.blogspot.com/2011/09/engine-4-camshaft.html>
     -   5 - camshaft gear : <http://freecad-tutorial.blogspot.com/2011/10/engine-5-camshaft-gear.html>
 
- {{Tutorials navi}} 
+ {{Tutorials navi}}
+
+---
+[documentation index](../README.md) > Offsite tutorials

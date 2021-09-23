@@ -1,3 +1,4 @@
+# Draft Rectangle/sv
 ---
 - GuiCommand:/sv   Name:Draft Rectangle   Name/sv:Draft Rectangle   Workbenches:[Arch](Draft_Workbench/sv___Draft]],_[[Arch_Workbench/sv.md)|MenuLocation:Draft -> Rectangle   Shortcut:R E   SeeAlso:[Part Box](Part_Box/sv.md)---
 
@@ -144,8 +145,5 @@ rectangle3 = Draft.make_rectangle(3500, 250, placement=place3)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Rectangle/sv

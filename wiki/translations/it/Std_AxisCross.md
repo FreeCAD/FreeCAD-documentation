@@ -7,6 +7,8 @@
    Workbenches:Tutti
 ---
 
+# Std AxisCross/it
+
 
 </div>
 
@@ -78,4 +80,7 @@ FreeCADGui.ActiveDocument.ActiveView.hasAxisCross()
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std AxisCross/it

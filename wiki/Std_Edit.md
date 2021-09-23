@@ -6,6 +6,8 @@
    SeeAlso:[Std UserEditMode](Std_UserEditMode.md)
 ---
 
+# Std Edit
+
 ## Description
 
 The **Std Edit** command activates or deactivates an object\'s edit mode.
@@ -58,4 +60,7 @@ FreeCADGui.ActiveDocument.resetEdit()
 
 
 
- {{Std Base navi}}  
+ {{Std Base navi}}
+
+---
+[documentation index](../README.md) > Std Edit

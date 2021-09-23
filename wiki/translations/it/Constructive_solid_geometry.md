@@ -1,5 +1,5 @@
 # Constructive solid geometry/it
- {{TOCright}}
+{{TOCright}}
 
 ## Introduzione
 
@@ -37,3 +37,6 @@ La pagina [Tutorial](tutorials/it.md) fornisce alcuni esempi che usano il metodo
  
 
 [Category:Common Questions](Category:Common_Questions.md)
+
+---
+[documentation index](../README.md) > [Common Questions](Category:Common Questions.md) > Constructive solid geometry/it

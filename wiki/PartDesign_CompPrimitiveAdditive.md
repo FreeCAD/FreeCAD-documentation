@@ -7,6 +7,8 @@
    SeeAlso:[PartDesign CompPrimitiveSubtractive](PartDesign_CompPrimitiveSubtractive.md)
 ---
 
+# PartDesign CompPrimitiveAdditive
+
 ## Description
 
 Creates an additive primitive in the active Body as the first feature, or fuses it to the existing feature(s). If no Body is found in the document, one will be automatically created.
@@ -25,4 +27,7 @@ Creates an additive primitive in the active Body as the first feature, or fuses 
 
 
 
- {{PartDesign Tools navi}} 
+ {{PartDesign Tools navi}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign CompPrimitiveAdditive

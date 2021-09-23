@@ -7,6 +7,8 @@
    SeeAlso:[Arch Überprüfung](Arch_Check/de.md)
 ---
 
+# Arch CloseHoles/de
+
 ## Beschreibung
 
 Dieses Werkzeug identifiziert Löcher (ringförmige Folge von offenen Kanten) in einem [Formteil](Part_Workbench/de.md)-Objekt und versucht, sie durch hinzufügen einer Fläche zu schließen, die aus der Folge von Kanten erstellt wird. Du musst dich aber noch selbst davon überzeugen, dass das Ergebnis ein Volumenkörper ist.
@@ -52,11 +54,5 @@ FreeCAD.ActiveDocument.recompute()
 solid = Arch.closeHole(Wall.Shape)
 ```
 
-
-
-
-
-
-
-
-
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CloseHoles/de

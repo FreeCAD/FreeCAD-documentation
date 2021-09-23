@@ -6,6 +6,8 @@
    Workbenches:[TechDraw](TechDraw_Workbench/de.md), [Kalkulationstabelle Arbeitsbereich](Spreadsheet_Workbench/de.md)
 ---
 
+# TechDraw SpreadsheetView/de
+
 ## Beschreibung
 
 Dieses Werkzeug ermöglicht dir eine [Kalkulationstabellen](Spreadsheet_Workbench/de.md) Ansicht auf einer gewählten [Seite](TechDraw_Workbench/de.md) zu platzieren.
@@ -39,4 +41,7 @@ Dieses Werkzeug ermöglicht dir eine [Kalkulationstabellen](Spreadsheet_Workbenc
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw SpreadsheetView/de

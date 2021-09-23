@@ -7,6 +7,8 @@
    SeeAlso:
 ---
 
+# Design456 Tweak
+
 ## Description
 
 The <img alt="" src=images/Design456_Tweak.svg  style="width:24px;"> [Design456 Tweak](Design456_Tweak.md) tool is an experimental command to modify an object\'s shape. This tool, originally conceived for the Draft Workbench, it\'s still unfinished, and became part of the [external workbench](external_workbenches.md) called [Design456](Design456_Workbench.md) to allow initial testing. For reference:
@@ -43,3 +45,6 @@ The tool is actually quite limited:
 }} 
 
 [Category:External Command Reference](Category:External_Command_Reference.md)
+
+---
+[documentation index](../README.md) > [External Command Reference](Category:External Command Reference.md) > Design456 Tweak

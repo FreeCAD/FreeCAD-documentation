@@ -7,6 +7,8 @@
    MenuLocation:Nessuno (solo sulla barra degli strumenti)
 ---
 
+# Sketcher CompCreateConic/it
+
 
 </div>
 
@@ -40,4 +42,7 @@
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CompCreateConic/it

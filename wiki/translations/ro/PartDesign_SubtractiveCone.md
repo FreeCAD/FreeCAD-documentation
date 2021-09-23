@@ -1,3 +1,4 @@
+# PartDesign SubtractiveCone/ro
 ---
 - GuiCommand:   Name:PartDesign SubtractiveCone   Workbenches:[MenuLocation:Part Design → Create a subtractive primitive → Subtractive Cone   Shortcut:None   SeeAlso:[[PartDesign CompPrimitiveSubtractive](PartDesign_Workbench___PartDesign]].md)---
 
@@ -70,4 +71,7 @@ Conul poate fi editat după crearea pe două căi:
 
 {{PartDesign Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveCone/ro

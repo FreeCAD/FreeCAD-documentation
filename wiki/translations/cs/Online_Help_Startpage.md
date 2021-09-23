@@ -1,6 +1,4 @@
 # Online Help Startpage/cs
- 
-
 ![150](images/Crystal_Clear_app_tutorials.png )
 
 ## Vítejte v on-line helpu FreeCADu 
@@ -46,3 +44,6 @@ Jak už jste možná někdy zjistili, programátoři jsou skutečně špatní au
 
 
 [Category:User\_Documentation](Category:User_Documentation.md)
+
+---
+[documentation index](../README.md) > [User_Documentation](Category:User_Documentation.md) > Online Help Startpage/cs

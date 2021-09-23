@@ -7,6 +7,8 @@
    Shortcut:**M** **V**
 ---
 
+# Draft Move/ru
+
 
 </div>
 
@@ -111,8 +113,5 @@ list3 = Draft.move(list1, -2*vector, copy=True)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Move/ru

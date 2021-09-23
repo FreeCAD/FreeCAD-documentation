@@ -8,6 +8,8 @@
    SeeAlso:[Skizzierer Abgerundetes Rechteck](Sketcher_CreateOblong/de.md), [Skizzierer Polylinie](Sketcher_CreatePolyline/de.md)
 ---
 
+# Sketcher CreateRectangle/de
+
 ## Beschreibung
 
 Dieses Werkzeug zeichnet ein Rechteck, indem zwei gegenüberliegende Punkte gegriffen werden. Wenn das Werkzeug gestartet wird, ändert sich der Mauszeiger in ein weißes Kreuz mit einem roten Rechtecksymbol. Die Koordinaten des Mauszeigers werden daneben in Echtzeit blau angezeigt.
@@ -27,4 +29,7 @@ Um ein Rechteck über einen Mittelpunkt und einen Kantenpunkt zu definieren, ver
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateRectangle/de

@@ -1,6 +1,4 @@
 # Online Help Startpage/pt-br
- 
-
 ![150](images/Crystal_Clear_app_tutorials.png )
 
 ## Bem-vindo à ajuda on-line do FreeCAD 
@@ -22,3 +20,6 @@ Como você pode ter experimentado algumas vezes, os programadores não sabem esc
 
 
 [Category:User\_Documentation](Category:User_Documentation.md)
+
+---
+[documentation index](../README.md) > [User_Documentation](Category:User_Documentation.md) > Online Help Startpage/pt-br

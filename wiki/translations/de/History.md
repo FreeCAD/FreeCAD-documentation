@@ -1,5 +1,5 @@
 # History/de
- \_\_FORCETOC\_\_
+\_\_FORCETOC\_\_
 
 ## Geschichte
 
@@ -140,3 +140,6 @@ Im April 2019 wurde das Team der Kernentwickler erweitert: Zu Jürgen, Werner un
 -   [Ankündigung des FreeCAD Projekts](http://www.opencascade.org/org/forum/thread_6572/?forum=11) im OpenCascade Forum
 
 [Category:News](Category:News.md)
+
+---
+[documentation index](../README.md) > [News](Category:News.md) > History/de

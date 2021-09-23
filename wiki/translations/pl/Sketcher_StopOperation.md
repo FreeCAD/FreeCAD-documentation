@@ -6,6 +6,8 @@
    MenuLocation:Szkic → Przerwij operację
 ---
 
+# Sketcher StopOperation/pl
+
 ## Opis
 
 Funkcja **<img src=images/Sketcher_StopOperation.svg style="width:16px"> [Przerwij operację](Sketcher_StopOperation/pl.md)** zatrzymuje aktualnie aktywne polecenie, podczas edycji szkicu. Może to oznaczać operację rysowania, wiązania, krzywej złożonej itp.
@@ -22,4 +24,7 @@ Jest to rozwiązanie podobne do naciśnięcia klawisza **Esc**.
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher StopOperation/pl

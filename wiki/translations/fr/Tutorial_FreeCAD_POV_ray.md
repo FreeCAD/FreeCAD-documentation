@@ -1,7 +1,4 @@
 # Tutorial FreeCAD POV ray/fr
-
-
-
 **L'[atelier Raytracing](Raytracing_Workbench/fr.md) a été remplacé par le nouvel [https://github.com/FreeCAD/FreeCAD-render atelier Render], qui est destiné à le remplacer. Il ne doit pas être confondu avec [Le module de rendus](Render_project.md), arrêté et dépassé. Le Render Workbench peut être installé via le [Gestionnaire d'Addon](Std_AddonMgr/fr.md). L'information ici est fournie parce que par défaut FreeCAD est toujours livré (à partir de 0.19-24276) avec l'atelier Raytracing et parce que le nouveau atelier devrait fondamentalement fonctionner de la même manière**
 
 .
@@ -840,4 +837,7 @@ Il est conseillé à l\'utilisateur de lire la documentation de POV-Ray, ainsi q
 
 {{Tutorials navi
 
-}} {{Raytracing Tools navi}} 
+}} {{Raytracing Tools navi}}
+
+---
+[documentation index](../README.md) > Tutorial FreeCAD POV ray/fr

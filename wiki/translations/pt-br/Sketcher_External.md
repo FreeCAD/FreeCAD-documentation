@@ -1,3 +1,4 @@
+# Sketcher External/pt-br
 ---
 - GuiCommand:/pt-br   Name:Sketcher External   Name/pt-br:Sketcher External   Workbenches:[PartDesign](Sketcher_Workbench/pt-br___Sketcher]],_[[PartDesign_Workbench/pt-br.md)|Shortcut:E   MenuLocation:Sketch → Sketcher geometries → Sketcher External   SeeAlso:[ConstructionMode](Sketcher_ConstructionMode/pt-br.md)---
 
@@ -73,4 +74,7 @@ When the sketch edit mode is closed, external Geometry lines are not visible.
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher External/pt-br

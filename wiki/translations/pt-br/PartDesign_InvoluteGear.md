@@ -6,6 +6,8 @@
    SeeAlso:[FCGear Workbench](FCGear_Workbench.md)
 ---
 
+# PartDesign InvoluteGear/pt-br
+
 ## Description
 
 This tool allows you to create a 2D profile of an involute gear. This 2D profile is fully parametric, and can be padded with the [PartDesign Pad](PartDesign_Pad.md) feature.
@@ -42,4 +44,7 @@ For more detailed information see Wikipedia\'s entries for: [Gear](https://en.wi
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign InvoluteGear/pt-br

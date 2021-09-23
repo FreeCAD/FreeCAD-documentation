@@ -7,6 +7,8 @@
    SeeAlso:[Arch IFC](Arch_IFC/ro.md)
 ---
 
+# Arch IfcExplorer/ro
+
 
 </div>
 
@@ -59,3 +61,6 @@ Scopul acestui explorator este pur și simplu să vă permită să verificați c
  
 
 [Category:BIM](Category:BIM.md)
+
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch IfcExplorer/ro

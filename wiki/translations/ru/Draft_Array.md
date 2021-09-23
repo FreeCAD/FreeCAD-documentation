@@ -7,6 +7,8 @@
    SeeAlso:[PathArray](Draft_PathArray/ru.md)
 ---
 
+# Draft Array/ru
+
 
 </div>
 
@@ -35,8 +37,5 @@ See [Draft OrthoArray](Draft_OrthoArray#Properties.md).
 
 See [Draft OrthoArray](Draft_OrthoArray#Scripting.md).
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Array/ru

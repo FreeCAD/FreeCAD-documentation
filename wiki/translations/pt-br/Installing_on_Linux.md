@@ -1,9 +1,4 @@
 # Installing on Linux/pt-br
-
-
-
-
-
 ## Visão geral 
 
 
@@ -397,3 +392,6 @@ Uma vez que você tenha o FreeCAD instalado, é hora de [Começar a usar](Gettin
 
 
 [Category:Common Questions](Category:Common_Questions.md) [Category:Developer Documentation](Category:Developer_Documentation.md)
+
+---
+[documentation index](../README.md) > [Common Questions](Category:Common Questions.md) > Installing on Linux/pt-br

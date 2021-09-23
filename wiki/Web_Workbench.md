@@ -1,10 +1,4 @@
-# Web Workbench
- 
-
-
-
-
-<img alt="Web workbench icon" src=images/Workbench_Web.svg  style="width:128px;">
+# <img alt="Web workbench icon" src=images/Workbench_Web.svg  style="width:64px;"> Web Workbench
 
 ## Introduction
 
@@ -18,3 +12,6 @@ From this browser you are able to navigate the web, click on links, read the onl
  
 
 [Category:Web](Category:Web.md) [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Web Workbench

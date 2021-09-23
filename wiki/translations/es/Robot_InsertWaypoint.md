@@ -1,3 +1,4 @@
+# Robot InsertWaypoint/es
 ---
 - GuiCommand:/es   Name:Robot InsertWaypoint   Name/es:Robot InsertWaypoint   Workbenches:[[Robot_Workbench/es   Robot]]|MenuLocation:Robot → Insert in trajectory---
 
@@ -30,4 +31,7 @@ Moving a robot is done by
 
 {{Robot_Tools_navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot InsertWaypoint/es

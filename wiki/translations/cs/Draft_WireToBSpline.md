@@ -1,3 +1,4 @@
+# Draft WireToBSpline/cs
 ---
 - GuiCommand:/cs   Name:Draft WireToBSpline   Name/cs:Kreslení Drát do B-křivky   Workbenches:[Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation:Kreslení -> Drát do B-křivky---
 
@@ -89,8 +90,5 @@ wire_from_spline = Draft.make_wire(points2)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft WireToBSpline/cs

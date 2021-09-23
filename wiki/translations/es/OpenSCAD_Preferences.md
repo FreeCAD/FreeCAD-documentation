@@ -1,7 +1,4 @@
 # OpenSCAD Preferences/es
-
-
-
 <div class="mw-translate-fuzzy">
 
 La pantalla de preferencias de OpenScad se encuentra en la ventana de Preferencias (Edición de Menú → Preferencias → OpenSCAD).
@@ -29,3 +26,6 @@ There is only one tab: General settings.
 }} 
 
 [Category:Preferences](Category:Preferences.md)
+
+---
+[documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD Preferences/es

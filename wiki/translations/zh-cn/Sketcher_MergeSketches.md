@@ -6,6 +6,8 @@
    Version:0.15
 ---
 
+# Sketcher MergeSketches/zh-cn
+
 ## 描述
 
 将两个或两个以上的草图合而为一。
@@ -28,4 +30,7 @@
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher MergeSketches/zh-cn

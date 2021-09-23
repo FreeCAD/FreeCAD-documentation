@@ -1,7 +1,4 @@
 # Manual:Creating renderings/fr
- 
-
-
 {{Manual:TOC/fr}}
 
 Dans le langage des ordinateurs, un rendu ([rendering](https://en.wikipedia.org/wiki/Rendering_%28computer_graphics%29)) est un mot utilisé pour décrire une belle image produite à partir d\'un modèle 3D. Bien sûr, nous pourrions dire que ce que vous voyez dans la vue 3D FreeCAD est déjà sympa. Mais quiconque a vu un film récent de Hollywood sait qu\'il est possible de produire des images avec un ordinateur qui ne se distinguent guère d\'une photographie.
@@ -86,3 +83,6 @@ Vous pouvez étendre considérablement les possibilités de rendu de FreeCAD en 
 {{Raytracing Tools navi}} 
 
 [Category:Tutorials](Category:Tutorials.md)
+
+---
+[documentation index](../README.md) > [Tutorials](Category:Tutorials.md) > Manual:Creating renderings/fr

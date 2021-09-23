@@ -8,6 +8,8 @@
    SeeAlso:[Std Part](Std_Part/fr.md), [Std Groupe](Std_Group/fr.md), [Std Créer un lien](Std_LinkMake/fr.md)
 ---
 
+# Std LinkMakeRelative/fr
+
 ## Description
 
 
@@ -64,4 +66,7 @@ App.ActiveDocument.recompute()
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std LinkMakeRelative/fr

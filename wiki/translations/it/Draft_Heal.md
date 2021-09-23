@@ -7,6 +7,8 @@
    SeeAlso:[Promuovi](Draft_Upgrade/it.md), [Retrocedi](Draft_Downgrade/it.md)
 ---
 
+# Draft Heal/it
+
 
 </div>
 
@@ -40,5 +42,5 @@ Questo comando tenta di correggere gli oggetti [Draft](Draft_Workbench/it.md) ch
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Heal/it

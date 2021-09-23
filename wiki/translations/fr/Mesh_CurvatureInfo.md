@@ -7,6 +7,8 @@
    SeeAlso:[Mesh Tracé de courbure](Mesh_VertexCurvature/fr.md)
 ---
 
+# Mesh CurvatureInfo/fr
+
 ## Description
 
 La commande **Mesh Info de courbures** affiche la courbure absolue du [Mesh Tracé de courbure](Mesh_VertexCurvature/fr.md) aux points sélectionnés.
@@ -31,4 +33,7 @@ La commande **Mesh Info de courbures** affiche la courbure absolue du [Mesh Trac
 
 {{Mesh Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh CurvatureInfo/fr

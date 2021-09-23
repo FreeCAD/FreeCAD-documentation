@@ -7,6 +7,8 @@
    SeeAlso:[TechDraw Fenêtre de rognage](TechDraw_ClipGroup/fr.md), [TechDraw Suppression vue à une fenêtre de rognage](TechDraw_ClipGroupRemove/fr.md)
 ---
 
+# TechDraw ClipGroupAdd/fr
+
 ## Description
 
 Cet outil ajoute une vue à une fenêtre de rognage existante.
@@ -23,4 +25,7 @@ Cet outil ajoute une vue à une fenêtre de rognage existante.
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ClipGroupAdd/fr

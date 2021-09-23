@@ -8,6 +8,8 @@
    Version:0.7
 ---
 
+# Draft Polygon/fr
+
 ## Description
 
 La commande <img alt="" src=images/Draft_Polygon.svg  style="width:24px;"> **Draft Polygone** crée un polygone régulier dans le [plan de travail](Draft_SelectPlane/fr.md) en cours à partir d\'un centre et d\'un rayon. Le rayon peut être défini en choisissant un point.
@@ -124,8 +126,5 @@ Polygon3 = Draft.make_polygon(6, radius=1450, placement=place3)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Polygon/fr

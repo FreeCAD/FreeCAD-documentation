@@ -9,6 +9,8 @@
    SeeAlso:[Matériau](Material/fr.md), [Arch Matériaux](Arch_SetMaterial/fr.md), [Tutoriel FEM](FEM_tutorial/fr.md)
 ---
 
+# Material editor/fr
+
 ## Description
 
 L\'éditeur de matériaux alloue, édite ou sauve les informations contenues dans [matériaux](Material/fr.md). Le module matériaux est utilisé par les ateliers **<img src="images/Workbench_FEM.svg" width=24px> [FEM](FEM_Workbench/fr.md)** et **<img src="images/Workbench_Arch.svg" width=24px> [Arch](Arch_Workbench/fr.md)**.
@@ -63,4 +65,7 @@ MaterialEditor.openEditor()
 
 {{FEM Tools navi
 
-}}   
+}}
+
+---
+[documentation index](../README.md) > [Material](Material_Workbench.md) > Material editor/fr

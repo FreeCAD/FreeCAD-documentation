@@ -8,6 +8,8 @@
    SeeAlso:[Draft Arc](Draft_Arc/ro.md)
 ---
 
+# Draft Circle/ro
+
 
 </div>
 
@@ -169,8 +171,5 @@ circle3 = Draft.make_circle(750, placement=place3)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Circle/ro

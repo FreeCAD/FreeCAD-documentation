@@ -1,5 +1,5 @@
 # Macro hinge/de
- {{Macro/de
+{{Macro/de
 |Name=Simuliert Scharnierbewegung
 |Icon=Macro hinge.png
 |Description=Scharnier Simulation.
@@ -59,4 +59,7 @@ for ii2 in range(180):
 
 ## Verweis
 
-Die Diskussionsseite [Probleme mit LinearMustern (wiederholt)](http://forum.freecadweb.org/viewtopic.php?f=3&t=7606&p=62086#p62086) 
+Die Diskussionsseite [Probleme mit LinearMustern (wiederholt)](http://forum.freecadweb.org/viewtopic.php?f=3&t=7606&p=62086#p62086)
+
+---
+[documentation index](../README.md) > Macro hinge/de

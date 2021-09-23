@@ -6,6 +6,8 @@
    Workbenches:[Path](Path_Workbench/fr.md)
 ---
 
+# Path Copy/fr
+
 ## Description
 
 Cet outil crée une copie du chemin sélectionné
@@ -32,4 +34,7 @@ La copie reste liée avec le chemin original. Si l\'original change, la copie au
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Copy/fr

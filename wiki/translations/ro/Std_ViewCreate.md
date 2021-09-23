@@ -1,3 +1,4 @@
+# Std ViewCreate/ro
 ---
 - GuiCommand:   Name:Std ViewCreate   MenuLocation:[[Std View Menu   View]] → Create new view‏‎||Workbenches:All   Shortcut:   SeeAlso:---
 
@@ -56,4 +57,7 @@ Această funcționalitate vă permite să creați ferestre noi de vizualizare 3D
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ViewCreate/ro

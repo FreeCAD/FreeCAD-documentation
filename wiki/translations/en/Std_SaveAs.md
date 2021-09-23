@@ -6,6 +6,8 @@
    SeeAlso:[Std SaveCopy](Std_SaveCopy.md), [Std Save](Std_Save.md)
 ---
 
+# Std SaveAs/en
+
 ## Description
 
 The **Std SaveAs** command saves the active document under a new file name.
@@ -43,4 +45,7 @@ To save a document under a new name use the `saveAs` method of the document obje
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std SaveAs/en

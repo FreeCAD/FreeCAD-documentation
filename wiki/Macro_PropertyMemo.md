@@ -1,5 +1,5 @@
 # Macro PropertyMemo
-  {{Macro
+{{Macro
 |Name=Macro_PropertyMemo
 |Icon=PropertyMemo.png
 |Description={{ColoredText|#ff0000|#ffffff|New version GUI modifyed for the HD dpi (QGridLayout) run only FC version 0.19 and more (PySide2 Qt5)}} <br/> <br/> 
@@ -402,4 +402,5 @@ My macros on [mario52a](https://gist.github.com/mario52a) gists
 -   ver 00.03 2020/05/17 : grid layout for 0.19
 -   ver 00.02 19/10/2015 : add checkBox for choice memo String or memo List
 
-
+---
+[documentation index](../README.md) > Macro PropertyMemo

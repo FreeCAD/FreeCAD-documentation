@@ -9,6 +9,8 @@
    SeeAlso:[FEM tutorial](FEM_tutorial/ru.md)
 ---
 
+# FEM PostPipelineFromResult/ru
+
 
 </div>
 
@@ -58,4 +60,7 @@ Once again, note, that the Pipeline representation of the results (called VTK) o
 
 {{FEM Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > FEM PostPipelineFromResult/ru

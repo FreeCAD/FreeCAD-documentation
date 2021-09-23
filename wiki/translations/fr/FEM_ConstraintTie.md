@@ -8,6 +8,8 @@
    SeeAlso:[FEM Contrainte de pression](FEM_ConstraintPressure.md)
 ---
 
+# FEM ConstraintTie/fr
+
 ## Description
 
 Définit une contrainte de liaison qui relie les deux surfaces sélectionnées de telle sorte que (par opposition à la façon dont le contact fonctionne) elles ne peuvent pas se séparer ou glisser l\'une sur l\'autre tout au long de l\'analyse. Ainsi, les surfaces restent collées en permanence.
@@ -32,4 +34,7 @@ Définit une contrainte de liaison qui relie les deux surfaces sélectionnées d
 
 {{FEM Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > FEM ConstraintTie/fr

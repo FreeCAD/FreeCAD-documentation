@@ -1,3 +1,4 @@
+# Draft Snap Parallel/es
 ---
 - GuiCommand:   Name:Draft Parallel   Workbenches:[Arch](Draft_Workbench___Draft]],_[[Arch_Workbench.md)|MenuLocation:Draft → [[Draft Snap   Snap]] → Parallel|Shortcut:   SeeAlso:---
 
@@ -40,8 +41,5 @@ For general information about snapping see [Draft Snap](Draft_Snap.md).
 
 See [Draft Snap](Draft_Snap#Preferences.md).
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Parallel/es

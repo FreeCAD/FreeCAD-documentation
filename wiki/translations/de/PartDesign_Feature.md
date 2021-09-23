@@ -1,6 +1,4 @@
 # PartDesign Feature/de
-
-
 ## Einleitung
 
 Ein [PartDesign Formelement](PartDesign_Feature/de.md) verweist auf einen \"Schritt\" im Modellierungsprozess, der innerhalb eines [PartDesign Body](PartDesign_Body.md) stattfindet. Zum Beispiel jedes Mal, wenn du einen Festkörperquader mit [PartDesign Quader hinzufügen](PartDesign_AdditiveBox/de.md), fügst Du ein Formelement hinzu; wenn Du eine Fase zu einer Kante mit [PartDesign Fase](PartDesign_Chamfer/de.md) hinzufügst, fügst Du ein weiteres Formelement hinzu; wenn Du ein Loch mit [Skizze](Sketch/de.md) und [PartDesign Tasche](PartDesign_Pocket/de.md) schneidest, fügst Du ein weiteres Formelement hinzu.
@@ -72,4 +70,7 @@ App.ActiveDocument.recompute()
 
 {{PartDesign Tools navi
 
-}} {{Document objects navi}} 
+}} {{Document objects navi}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Feature/de

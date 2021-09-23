@@ -7,6 +7,8 @@
    SeeAlso:
 ---
 
+# Raytracing InsertPart/en
+
 ## Description
 
 Insert a view of a Part in a raytracing project.
@@ -28,4 +30,7 @@ Insert a view of a Part in a raytracing project.
 
 {{Raytracing_Tools_navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing InsertPart/en

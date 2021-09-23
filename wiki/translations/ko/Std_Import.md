@@ -8,6 +8,8 @@
    SeeAlso:[표준 열기](Std_Open/ko.md), [가져오기 내보내기](Import_Export/ko.md), [가져오기 내보내기 환경 설정](Import_Export_Preferences/ko.md)
 ---
 
+# Std Import/ko
+
 ## 설명
 
 **표준 가져오기(Std Import)** 명령은 다른 형식의 파일에서 지오메트리를 활성 문서로 가져옵니다. 다양한 파일 형식이 지원되며 어떤 형식에는 가져오기 옵션이 여러 가지 존재합니다. 자세한 내용은 [가져오기 내보내기를](Import_Export/ko.md) 참조하십시오.
@@ -50,3 +52,6 @@
 }}  
 
 [Category:File\_Formats](Category:File_Formats.md)
+
+---
+[documentation index](../README.md) > [File_Formats](Category:File_Formats.md) > Std Import/ko

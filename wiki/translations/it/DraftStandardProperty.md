@@ -270,3 +270,6 @@ Esempio di proprietà dati di una operazione di Rivoluzione di Part Design:
 
 
 [Category:User\_Documentation/it](Category:User_Documentation/it.md)
+
+---
+[documentation index](../README.md) > DraftStandardProperty/it

@@ -1,7 +1,4 @@
 # Raytracing Workbench/ru
- 
-
-
 **Верстак Raytracing по сути устарел. Ведётся новая разработка  [https://github.com/FreeCAD/FreeCAD-render верстака Render], который планируется как замена. Этот верстак полностью программируется на Python, поэтому его легче расширить.
 
 Тем не менее, информация на этой странице в общем полезна для нового верстака, и оба модуля в основе работают одинаково.
@@ -149,3 +146,6 @@ Although direct export to the Kerkythea XML-File-Format is not supported yet, yo
 }} 
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Raytracing Workbench/ru

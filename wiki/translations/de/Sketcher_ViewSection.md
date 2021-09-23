@@ -7,6 +7,8 @@
    Version:0.18
 ---
 
+# Sketcher ViewSection/de
+
 ## Beschreibung
 
 Das **Schnittansicht** Werkzeug erzeugt eine Schnittebene, die vorübergehend jegliche Elemente vor der Skizzierebene verdeckt.
@@ -27,4 +29,7 @@ Es gibt mehrere Wege, diesen Befehl aufzurufen:
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ViewSection/de

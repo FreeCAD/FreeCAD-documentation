@@ -1,5 +1,5 @@
 # Arch CompAxis/ru
- }
+}
 
 
 <div class="mw-translate-fuzzy">
@@ -37,4 +37,5 @@ Create axis.
 
 </div>
 
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CompAxis/ru

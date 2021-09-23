@@ -7,6 +7,8 @@
    Version:0.17
 ---
 
+# Spreadsheet StyleUnderline/de
+
 ## Beschreibung
 
 Das unterstrichen erhält.
@@ -23,4 +25,7 @@ Das unterstrichen erhält.
 
 {{Spreadsheet_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet StyleUnderline/de

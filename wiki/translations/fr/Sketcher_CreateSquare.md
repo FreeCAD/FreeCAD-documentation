@@ -7,6 +7,8 @@
    Version:0.15
 ---
 
+# Sketcher CreateSquare/fr
+
 ## Description
 
 Dessine un carré inscrit dans un cercle. Lors du démarrage de l\'outil, le pointeur de la souris se transforme en une croix blanche avec un icône Hexagone. Les coordonnées du pointeur sont affichées en temps réel et en bleu.
@@ -30,4 +32,7 @@ Le cercle circonscrit est la géométrie de construction, qui n\'est visible que
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateSquare/fr

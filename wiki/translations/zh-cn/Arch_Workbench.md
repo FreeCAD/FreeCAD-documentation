@@ -1,10 +1,4 @@
-# Arch Workbench/zh-cn
-
-
-
-
-
-<img alt="Arch workbench icon" src=images/Workbench_Arch.svg  style="width:128px;">
+# <img alt="Arch workbench icon" src=images/Workbench_Arch.svg  style="width:64px;"> Arch Workbench/zh-cn
 
 
 {{TOCright}}
@@ -142,3 +136,6 @@ The developers of Draft, Arch, and BIM also collaborate with the greater [OSArch
  
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Arch Workbench/zh-cn

@@ -6,6 +6,8 @@
    SeeAlso:[Arch Equipment](Arch_Equipment.md)
 ---
 
+# Arch Schedule/pt-br
+
 ## Descrição
 
 The Schedule tool allows you to create and automatically populate a [spreadsheet](Spreadsheet_Workbench.md) with contents gathered from the model.
@@ -105,5 +107,5 @@ It is possible to add your own properties to objects. These are called [Dynamic 
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Schedule/pt-br

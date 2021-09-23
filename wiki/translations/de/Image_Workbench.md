@@ -1,7 +1,4 @@
-# Image Workbench/de
- 
-
-<img alt="Bild Arbeitsbereichssymbol" src=images/Workbench_Image.svg  style="width:128px;">
+# <img alt="Bild Arbeitsbereichssymbol" src=images/Workbench_Image.svg  style="width:64px;"> Image Workbench/de
 
 ## Einführung
 
@@ -39,3 +36,6 @@ Der Versatz des Bildes kann beim Import eingestellt oder später über seine Eig
 }} 
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Image Workbench/de

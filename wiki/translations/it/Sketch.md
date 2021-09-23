@@ -1,6 +1,4 @@
 # Sketch/it
-
-
 ## Introduzione
 
 
@@ -39,3 +37,6 @@ Tuttavia, uno schizzo può sempre essere creato da solo per qualsiasi altro scop
 }} {{Document objects navi}} 
 
 [Category:Glossary](Category:Glossary.md)
+
+---
+[documentation index](../README.md) > [Glossary](Category:Glossary.md) > Sketch/it

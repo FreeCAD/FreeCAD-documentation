@@ -7,6 +7,8 @@
    SeeAlso:[Std ZeichenStil](Std_DrawStyle/de.md)
 ---
 
+# Std SelBoundingBox/de
+
 ## Beschreibung
 
 Der **Std WahlBegrenzungRahmen** Befehl schaltet den Modus der globalen Begrenzungsrahmenhervorhebung ein und aus. Wenn dieser Modus eingeschaltet ist, werden ausgewählte Objekte in einer [3D Ansicht](3D_view/de.md) mit einem hervorgehobenen Begrenzungsrahmen markiert, auch wenn ihr {{PropertyView/de|Auswahlstil}} auf \'Form\' eingestellt ist.
@@ -49,4 +51,7 @@ FreeCADGui.updateCommands()
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std SelBoundingBox/de

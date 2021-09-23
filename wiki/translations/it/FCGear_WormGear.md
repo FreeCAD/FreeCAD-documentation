@@ -9,6 +9,8 @@
    SeeAlso:[PartDesign: Ingranaggio a spirale](PartDesign_InvoluteGear/it.md)
 ---
 
+# FCGear WormGear/it
+
 ## Descrizione
 
 The worm can be considered a special case of a helical gear. Imagine that there is only one tooth on a spur gear. Now increase the helix angle so much that the tooth winds around the spur gear several times before it emerges on the opposite side. The result would be a single thread worm.
@@ -108,3 +110,6 @@ The worm wheel must be designed manually. For this purpose **FCGear InvoluteGear
 
 
 [Category:Addons](Category:Addons.md) [Category:FCGear](Category:FCGear.md) [Category:External Command Reference](Category:External_Command_Reference.md)
+
+---
+[documentation index](../README.md) > [Addons](Category:Addons.md) > FCGear WormGear/it

@@ -8,6 +8,8 @@
    SeeAlso:[FEM tutorial](FEM_tutorial/ru.md)
 ---
 
+# FEM SolverCalculixCxxtools/ru
+
 
 </div>
 
@@ -137,4 +139,7 @@ Original CalculiX documentation can be found at <http://dhondt.de/> in the \"ccx
 
 {{FEM Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > FEM SolverCalculixCxxtools/ru

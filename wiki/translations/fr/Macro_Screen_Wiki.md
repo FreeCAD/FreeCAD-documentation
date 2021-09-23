@@ -1,7 +1,4 @@
 # Macro Screen Wiki/fr
-
-
-
 {{Macro/fr
 |Name=Macro Screen Wiki
 |Icon=Macro_Screen_Wiki.png
@@ -277,3 +274,6 @@ Version=0.03: 2020/10/30 : creation d\'une barre d\'outils pour sauver une image
 Version=0.02: 2020/05/04 : correction de la couleur du bouton bug (self.PB\_01\_Color obsolete)
 
 Version = 00.01 : 2020/03/21 :
+
+---
+[documentation index](../README.md) > Macro Screen Wiki/fr

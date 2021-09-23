@@ -7,6 +7,8 @@
    SeeAlso:[PartDesign Primitive additive](PartDesign_CompPrimitiveAdditive.md)
 ---
 
+# PartDesign AdditiveBox/pl
+
 ## Description
 
 Inserts a primitive box in the active Body as the first feature, or fuses it to the existing feature(s).
@@ -45,4 +47,7 @@ The Box can be edited after its creation in two ways:
 
 {{PartDesign Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveBox/pl

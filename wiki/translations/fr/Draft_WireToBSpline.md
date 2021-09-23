@@ -7,6 +7,8 @@
    SeeAlso:[Draft Polyligne](Draft_Wire/fr.md), [Draft B-spline](Draft_BSpline/fr.md)
 ---
 
+# Draft WireToBSpline/fr
+
 ## Description
 
 La commande <img alt="" src=images/Draft_WireToBSpline.svg  style="width:24px;"> **Draft Filaire vers B-spline** convertit les [Draft Polylignes](Draft_Wire/fr.md) en [Draft B-splines](Draft_BSpline/fr.md) et inversement.
@@ -58,8 +60,5 @@ wire_from_spline = Draft.make_wire(points2)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft WireToBSpline/fr

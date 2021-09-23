@@ -1,6 +1,4 @@
 # Artwork Assembly/ru
- 
-
 Эти иконки находятся в указанной исходной папке.
 
 Для всех иконок в исходнике смотри [Художественное оформление](Artwork/ru.md).
@@ -29,3 +27,6 @@
 }} 
 
 [Category:Assembly](Category:Assembly.md)
+
+---
+[documentation index](../README.md) > [Assembly](Category:Assembly.md) > Artwork Assembly/ru

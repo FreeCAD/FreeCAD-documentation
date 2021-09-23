@@ -6,6 +6,8 @@
    SeeAlso:[Part Primitives](Part_Primitives.md)
 ---
 
+# Part Sphere/pt-br
+
 ## Description
 
 Creates a simple parametric sphere, with position, angle1, angle2, angle3 and radius parameters.
@@ -42,8 +44,5 @@ Because it is quite difficult to explain the meaning of the parameters angle 1, 
 
 <img alt="" src=images/SphereCutThreeAngles.jpg  style="width:400px;">
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Sphere/pt-br

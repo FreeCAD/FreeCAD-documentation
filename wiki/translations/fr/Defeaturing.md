@@ -1,6 +1,4 @@
 # Defeaturing/fr
-
-
 ## Introduction
 
 La déconstruction de Modèles 3D a été ajouté à Open CASCADE 7.3 [1](https://dev.opencascade.org/index.php?q=node/1211) et peut être utilisé pour éditer des modèles STEP en supprimant des éléments du modèle.
@@ -29,3 +27,6 @@ Part.show(box4) #show defeatured shape
  
 
 [Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+
+---
+[documentation index](../README.md) > [Addons](Category:Addons.md) > Defeaturing/fr

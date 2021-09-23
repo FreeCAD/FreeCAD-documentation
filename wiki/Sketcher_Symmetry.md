@@ -7,6 +7,8 @@
    SeeAlso:[Sketcher MirrorSketch](Sketcher_MirrorSketch.md)
 ---
 
+# Sketcher Symmetry
+
 ## Description
 
 Mirrors sketcher geometry in reference to a chosen line or sketch axis.
@@ -22,4 +24,7 @@ Note that no extra symmetry constraint will be added.
 
 
 
- {{Sketcher Tools navi}}  
+ {{Sketcher Tools navi}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Symmetry

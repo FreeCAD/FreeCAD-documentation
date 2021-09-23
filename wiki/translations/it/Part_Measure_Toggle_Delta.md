@@ -6,6 +6,8 @@
    Workbenches:[Part](Part_Workbench/it.md)
 ---
 
+# Part Measure Toggle Delta/it
+
 
 </div>
 
@@ -42,5 +44,5 @@ Mostra o nasconde tutte le misure Delta in corso.
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Toggle Delta/it

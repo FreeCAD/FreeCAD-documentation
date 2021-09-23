@@ -1,6 +1,4 @@
 # Artwork Assembly/fr
- 
-
 Ces icônes se trouvent dans le chemin source indiqué.
 
 Pour toutes les icônes de l\'arborescence source, voir [Graphisme](Artwork/fr.md).
@@ -25,3 +23,6 @@ Pour toutes les icônes de l\'arborescence source, voir [Graphisme](Artwork/fr.m
 }} 
 
 [Category:Assembly](Category:Assembly.md)
+
+---
+[documentation index](../README.md) > [Assembly](Category:Assembly.md) > Artwork Assembly/fr

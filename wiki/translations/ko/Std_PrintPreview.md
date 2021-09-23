@@ -7,6 +7,8 @@
    SeeAlso:[표준 인쇄](Std_Print/ko.md)
 ---
 
+# Std PrintPreview/ko
+
 ## 설명
 
 **표준 인쇄 미리보기(Std PrintPreview)** 명령은 [표준 인쇄](Std_Print/ko.md) 명령의 결과물을 미리 보여줍니다. 미리 보기 대화 상자에서 바로 인쇄할 수도 있습니다.
@@ -34,4 +36,7 @@
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std PrintPreview/ko

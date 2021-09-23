@@ -1,3 +1,4 @@
+# OpenSCAD IncreaseToleranceFeature/it
 ---
 - GuiCommand:/it   Name:OpenSCAD IncreaseTolerance‏‎   Name/it:Incrementa tolleranza   MenuLocation:OpenSCAD → Incrementa tolleranza   |Workbenches:[[OpenSCAD_Workbench/it   OpenSCAD]]|Shortcut:   SeeAlso:---
 
@@ -32,4 +33,7 @@ Aumenta la tolleranza dei bordi, delle facce e dei vertici dell\'oggetto selezio
 
 {{OpenSCAD_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD IncreaseToleranceFeature/it

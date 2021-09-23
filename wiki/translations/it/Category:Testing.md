@@ -6,3 +6,6 @@ Pages related to testing in regards to unit testing, continuous integration, qua
 [AppImage/it](AppImage/it.md) , [Continuous Integration/it](Continuous_Integration/it.md) , [LGTM/it](LGTM/it.md) , [Testing/it](Testing/it.md) ,
 
 [Category:Test Framework/it](Category:Test_Framework/it.md)
+
+---
+[documentation index](../README.md) > Category:Testing/it

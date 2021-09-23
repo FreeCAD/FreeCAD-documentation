@@ -8,6 +8,8 @@
    SeeAlso:[Vista dal basso](Std_ViewBottom/it.md), [Vista da sinistra](Std_ViewLeft/it.md)
 ---
 
+# Std ViewRear/it
+
 ## Descrizione
 
 Il comando **Vista da dietro** orienta la camera della [Vista 3D](3D_view/it.md) nella direzione dell\'asse Y negativo.
@@ -51,4 +53,7 @@ FreeCADGui.ActiveDocument.ActiveView.getViewDirection()
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ViewRear/it

@@ -1,7 +1,4 @@
 # Draft DXF/it
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -196,3 +193,6 @@ importDXF.export(objects, "/home/user/Pictures/myfile.dxf")
  
 
 [Category:File Formats](Category:File_Formats.md)
+
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft DXF/it

@@ -1,6 +1,4 @@
 # Part and PartDesign
- 
-
 ## Overview
 
 There has been much discussion over the years about the differences and ramifications of using the <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part](Part_Workbench.md) and the <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench.md) workbenches.
@@ -172,4 +170,7 @@ Part and PartDesign workbenches can be used together with some care, creating qu
 
 {{Tutorials navi
 
-}}  {{PartDesign Tools navi}} {{Sketcher Tools navi}} 
+}}  {{PartDesign Tools navi}} {{Sketcher Tools navi}}
+
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part and PartDesign

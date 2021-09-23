@@ -6,6 +6,8 @@
    Workbenches:[Skizzierer](Sketcher_Workbench/de.md)
 ---
 
+# Sketcher CreatePoint/de
+
 ## Beschreibung
 
 Das Punktwerkzeug erzeugt einen Punkt in der aktuellen Skizze, der für die Konstruktion von geometrischen Elementen genutzt werden kann. Der Punkt ist immer ein Konstruktionselement und erscheint nicht in der 3D-Ansicht.
@@ -32,4 +34,7 @@ Der erzeugte Punkt ist außerhalb der Skizze nicht verfügbar. Wird ein Punkt in
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreatePoint/de

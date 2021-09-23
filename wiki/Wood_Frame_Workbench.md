@@ -1,7 +1,4 @@
 # Wood Frame Workbench
- 
-
-
 **This workbench is not actively developed or maintained, but looking for developers and maintainers.**
 
  
@@ -59,3 +56,6 @@ Wood Frame is compatible with Freecad 0.19.
 
 
 [Category:User Documentation](Category:User_Documentation.md) [Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+
+---
+[documentation index](../README.md) > Wood Frame Workbench

@@ -7,6 +7,8 @@
    SeeAlso:[Arch Vérification](Arch_Check/fr.md)
 ---
 
+# Arch CloseHoles/fr
+
 ## Description
 
 Cet outil identifie les trous (séquence circulaire d\'arêtes ouvertes (edges)) dans un objet [shape](Part_Workbench/fr.md) et tente de les fermer avec l\'ajout d\'une nouvelle face construite sur la séquence de bords. Vous devez cependant, vous assurer que le résultat est un solide.
@@ -52,11 +54,5 @@ FreeCAD.ActiveDocument.recompute()
 solid = Arch.closeHole(Wall.Shape)
 ```
 
-
-
-
-
-
-
-
-
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CloseHoles/fr

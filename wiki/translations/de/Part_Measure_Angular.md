@@ -6,6 +6,8 @@
    Workbenches:[Part](Part_Workbench/de.md)
 ---
 
+# Part Measure Angular/de
+
 ## Beschreibung
 
 Dieses Werkzeug misst den Winkel zwischen zwei geraden Kanten, zwei ebenen Flächen oder einer geraden Kante und einer ebenen Fläche und zeigt die Messung in der [3D-Ansicht](3D_view/de.md).
@@ -21,11 +23,5 @@ Dieses Werkzeug misst den Winkel zwischen zwei geraden Kanten, zwei ebenen Fläc
 3.  Alternativ kann der Befehl ohne vorherige Auswahl gestartet werden. Dann öffnet sich ein Auswahldialog im [Aufgaben-Reiter](Task_panel/de.md). Ein Kontroll-Widget bietet ebenfalls Schaltflächen zum Zurücksetzen der Auswahl, zum Umschalten der Messungsanzeige in der [3D Ansicht](3D_view/de.md) und zum Löschen aller Messungen.
 4.  Messungen werden automatisch beim Schließen des Dokuments verworfen.
 
-
-
-
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Angular/de

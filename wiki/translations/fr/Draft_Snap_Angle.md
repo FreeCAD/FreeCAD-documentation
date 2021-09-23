@@ -6,6 +6,8 @@
    SeeAlso:[Draft Aimantation](Draft_Snap/fr.md), [Draft Aimantation Verrouiller](Draft_Snap_Lock/fr.md)
 ---
 
+# Draft Snap Angle/fr
+
 ## Description
 
 L\'option <img alt="" src=images/Draft_Snap_Angle.svg  style="width:24px;"> **Draft Aimantation Angle** permet de s\'aimanter aux points cardinaux spéciaux sur les bords circulaires, pour des multiples de 30° et 45°. Les bords peuvent appartenir à des objets [Draft](Draft_Workbench/fr.md) ou [Arch](Arch_Workbench/fr.md) mais aussi à des objets créés avec d\'autres [ateliers](Workbenches/fr.md).
@@ -34,8 +36,5 @@ Pour des informations générales sur l\'aimantation voir [Draft Aimantation](Dr
 
 Voir [Draft Préférences](Draft_Snap/fr#Pr.C3.A9f.C3.A9rences.md)
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Angle/fr

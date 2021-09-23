@@ -8,6 +8,8 @@
    SeeAlso:[Ripristina](Std_Redo/it.md)
 ---
 
+# Std Undo/it
+
 ## Descrizione
 
 Il comando **Annulla** annulla l\'ultima azione.
@@ -62,4 +64,7 @@ FreeCAD.ActiveDocument.undo()
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std Undo/it

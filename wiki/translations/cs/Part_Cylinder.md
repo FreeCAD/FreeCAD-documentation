@@ -1,3 +1,4 @@
+# Part Cylinder/cs
 ---
 - GuiCommand:/cs   Name:Part Cylinder   Name/cs:Díl Válec   MenuLocation:Díl -> Válec   |Workbenches:[SeeAlso:[[Part_CreatePrimitives/cs|Díl Vytváření zakl.geom.tvarů](Part_Workbench/cs___Modul_Díl]],_Kompletace.md)---
 
@@ -31,10 +32,7 @@ The cylinder properties can later be edited, either in the [Property editor](Pro
 
 -    **First Angle**: Angle in first direction. <small>(v0.20)</small> 
 
--    **Second Angle**: Angle in second direction. <small>(v0.20)</small> 
+-    **Second Angle**: Angle in second direction. <small>(v0.20)</small>
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Cylinder/cs

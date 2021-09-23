@@ -8,6 +8,8 @@
    Version:0.14
 ---
 
+# Draft PathArray/it
+
 
 </div>
 
@@ -329,5 +331,5 @@ doc.recompute()
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft PathArray/it

@@ -7,6 +7,8 @@
    SeeAlso:
 ---
 
+# Curves SplitCurve/de
+
 
 </div>
 
@@ -54,4 +56,7 @@ Das <img alt="" src=images/Curves_SplitCurve.svg  style="width:24px;"> [Kurven T
 
 {{Curves Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > Curves SplitCurve/de

@@ -8,6 +8,8 @@
    SeeAlso:[Restringir horizontalmente](Sketcher_ConstrainHorizontal/es.md)
 ---
 
+# Sketcher ConstrainVertical/es
+
 
 </div>
 
@@ -50,3 +52,6 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 }}  
 
 [Category:Sketcher/es](Category:Sketcher/es.md)
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainVertical/es

@@ -8,6 +8,8 @@
    SeeAlso:[Apri](Std_Open/it.md), [Importa](Std_Import/it.md)
 ---
 
+# Std RecentFiles/it
+
 ## Descrizione
 
 L\'opzione di menu **File recenti** visualizza un elenco di file recenti che possono essere aperti.
@@ -38,4 +40,7 @@ L\'opzione di menu **File recenti** visualizza un elenco di file recenti che pos
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std RecentFiles/it

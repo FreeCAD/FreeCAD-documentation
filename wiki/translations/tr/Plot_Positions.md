@@ -1,3 +1,4 @@
+# Plot Positions/tr
 ---
 - GuiCommand:/tr
    Name/tr:Konum
@@ -35,3 +36,6 @@ Select the plot tab that you want to edit, and run this tool. Then you can selec
 }} 
 
 [Category:External\_Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)
+
+---
+[documentation index](../README.md) > [External_Workbenches](Category:External_Workbenches.md) > Plot Positions/tr

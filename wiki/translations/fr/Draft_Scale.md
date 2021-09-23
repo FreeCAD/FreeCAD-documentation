@@ -8,6 +8,8 @@
    SeeAlso:[Draft Surligner les sous éléments](Draft_SubelementHighlight/fr.md), [Draft Clone](Draft_Clone/fr.md)
 ---
 
+# Draft Scale/fr
+
 ## Description
 
 La commande <img alt="" src=images/Draft_Scale.svg  style="width:24px;"> **Draft Échelle** met à l\'échelle ou copie les objets sélectionnés autour d\'un point de base. En mode sous-élément, la commande met à l\'échelle les points et les arêtes sélectionnés de [Draft Ligne](Draft_Line/fr.md) et [Draft Polyligne](Draft_Wire/fr.md).
@@ -113,8 +115,5 @@ wires = Draft.scale([wire1, wire2], scale2, copy=True)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Scale/fr

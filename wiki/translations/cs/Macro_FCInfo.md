@@ -1,5 +1,5 @@
 # Macro FCInfo/cs
- {{Macro/cs
+{{Macro/cs
 |Name=Macro_FCInfo
 |Translate=FCInfo
 |Icon=FCInfo.png
@@ -332,6 +332,5 @@ Viz také [Arch Survey](Arch_Survey/cs.md) <img alt="Arch Survey" src=images/Arc
 Své připomínky můžete sdílet na fóru [Info Workbench - Help with icons please.](http://forum.freecadweb.org/viewtopic.php?f=10&t=3185)
 Zde je další příspěvek [FCInfo Macro](http://forum.freecadweb.org/viewtopic.php?f=8&t=6005)
 
-
-
-
+---
+[documentation index](../README.md) > Macro FCInfo/cs

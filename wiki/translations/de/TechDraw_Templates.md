@@ -1,10 +1,4 @@
 # TechDraw Templates/de
-
-
-
-
-
-
 {{TOCright}}
 
 ## Überblick
@@ -78,4 +72,7 @@ Siehe auch [So wird eine benutzerdefinierte TechDraw Vorlage erstellt](TechDraw_
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Templates/de

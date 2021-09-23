@@ -1,7 +1,4 @@
-# Image Workbench/zh-cn
- 
-
-<img alt="Image workbench icon" src=images/Workbench_Image.svg  style="width:128px;">
+# <img alt="Image workbench icon" src=images/Workbench_Image.svg  style="width:64px;"> Image Workbench/zh-cn
 
 ## 简介
 
@@ -42,3 +39,6 @@
 }} 
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Image Workbench/zh-cn

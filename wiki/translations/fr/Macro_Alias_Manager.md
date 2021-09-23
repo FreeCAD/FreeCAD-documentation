@@ -1,5 +1,5 @@
 # Macro Alias Manager/fr
- {{Macro/fr
+{{Macro/fr
 |Name=Alias Manager
 |Icon=aliasmanager_icon.png
 |Description=Cette macro aide à la gestion des alias dans FreeCAD Spreadsheet workbench. Il est capable de créer, de supprimer, de déplacer des alias et de créer un groupe de fichiers par "famille d'objets".
@@ -403,6 +403,5 @@ ToolBar Icon <img alt="" src=images/Aliasmanager_icon.png  style="width:32px;">
             self.dialog2.exec_()
     p()
 
-
-
-
+---
+[documentation index](../README.md) > Macro Alias Manager/fr

@@ -1,5 +1,5 @@
 # Macro View Rotation/es
- {{Macro/es
+{{Macro/es
 |Name=View Rotation
 |Icon=Macro_View_Rotation.png
 |Description=Esta macro proporciona un interfaz gráfico para girar la vista.<br />Download the [http://forum.freecadweb.org/download/file.php?id=453 Icon] of the macro.<br />
@@ -290,3 +290,6 @@ al final de la función \'initUI\'. Los dos primeros argumentos (derecha-300, 0)
 ## Página de discusión 
 
 [View+Rotation](http://forum.freecadweb.org/viewtopic.php?f=3&t=1784&hilit=View+Rotation#p12012)
+
+---
+[documentation index](../README.md) > Macro View Rotation/es

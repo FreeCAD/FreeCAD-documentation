@@ -1,8 +1,4 @@
 # Pivy
- 
-
- 
-
 ## Introduction
 
 [Pivy](Pivy.md) is a [Python](Python.md) binding library for [Coin](https://github.com/coin3d), the 3D-rendering library used in FreeCAD to display things in a [3D view](3D_view.md). Coin is an open source implementation of the \"Open Inventor\" specification to handle graphics. Therefore, in FreeCAD, the terms \"Pivy\", \"Coin\" or \"Open Inventor\" refer to the same thing essentially.
@@ -164,3 +160,6 @@ These links provide reference documentation for Coin v3.x. The differences with 
  {{Powerdocnavi}} 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Pivy

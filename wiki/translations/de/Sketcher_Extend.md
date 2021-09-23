@@ -8,6 +8,8 @@
    SeeAlso:[Skizzierer Kante stutzen](Sketcher_Trimming/de.md)
 ---
 
+# Sketcher Extend/de
+
 ## Beschreibung
 
 Das Werkzeug \"Kante verlängern\" verlängert eine Kante an eine beliebige Stelle in der Skizze oder an eine andere Kante.
@@ -34,4 +36,7 @@ Das Werkzeug \"Kante verlängern\" verlängert eine Kante an eine beliebige Stel
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Extend/de

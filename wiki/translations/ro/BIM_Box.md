@@ -7,6 +7,8 @@
    SeeAlso:[Part Box](Part_Box.md)
 ---
 
+# BIM Box/ro
+
 ## Descriere
 
 <img alt="" src=images/BIM_box_screenshot.png  style="width:1024px;">
@@ -27,3 +29,6 @@ Instrumentul BIM Box vă permite să creați un [Part Box](Part_Box.md) standard
 3.  Faceți clic pe un al doilea punct pentru a defini o primă margine a casetei, pornind de la primul punct
 4.  Faceți clic pe un al treilea punct pentru a defini o primă față a cutiei, ortogonală cu prima margine
 5.  Click pe al patrulea punct pentru a defini distanța de extruziune a primei fațete, formând caseta finală
+
+---
+[documentation index](../README.md) > BIM Box/ro

@@ -8,6 +8,8 @@
    SeeAlso:[Sketcher Afficher/masquer degré d'une B-spline](Sketcher_BSplineDegree/fr.md), [Sketcher Augmenter le degré d'une B-spline](Sketcher_BSplineIncreaseDegree/fr.md)
 ---
 
+# Sketcher BSplineDecreaseDegree/fr
+
 ## Description
 
 Diminue le degré (ordre) de la B-spline (voir [cette page](B-Splines/fr.md) pour plus d\'informations sur les B-splines).
@@ -42,4 +44,7 @@ Si vous prenez ce résultat et augmentez le degré, vous ne pouvez pas obtenir l
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineDecreaseDegree/fr

@@ -7,6 +7,8 @@
    SeeAlso:[Raccorda...](Part_Fillet/it.md)
 ---
 
+# Part Chamfer/it
+
 
 </div>
 
@@ -222,5 +224,5 @@ FreeCAD.ActiveDocument.recompute()
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Chamfer/it

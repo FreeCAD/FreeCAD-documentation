@@ -11,3 +11,6 @@ Esta es la **categoría de nivel superior** que contiene las principales categor
 , , , , , , , , , , , , , , , , ,
 
 [Category:Categories/es](Category:Categories/es.md) [Category:Addons/es](Category:Addons/es.md) [Category:Administration/es](Category:Administration/es.md) [Category:API/es](Category:API/es.md) [Category:Categories/es](Category:Categories/es.md) [Category:Command Reference/es](Category:Command_Reference/es.md) [Category:Developer/es](Category:Developer/es.md) [Category:Documentation/es](Category:Documentation/es.md) [Category:Help/es](Category:Help/es.md) [Category:Hubs/es](Category:Hubs/es.md) [Category:Image/es](Category:Image/es.md) [Category:Macros/es](Category:Macros/es.md) [Category:News/es](Category:News/es.md) [Category:Python Code/es](Category:Python_Code/es.md) [Category:Repository/es](Category:Repository/es.md) [Category:Roadmap/es](Category:Roadmap/es.md) [Category:Template/es](Category:Template/es.md) [Category:Tutorials/es](Category:Tutorials/es.md) [Category:Wiki/es](Category:Wiki/es.md)
+
+---
+[documentation index](../README.md) > Category:Categories/es

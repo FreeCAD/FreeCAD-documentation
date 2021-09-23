@@ -1,5 +1,4 @@
 # Integrate Cycles renderer
-
 **Cycles Renderer was added by Yorik in 2019! Please check out the [https://github.com/FreeCAD/FreeCAD-render FreeCAD-Render WB]**
 
 ## Outline
@@ -39,3 +38,6 @@ Medium
 ## Additional Information 
 
 [Category:Google Summer of Code](Category:Google_Summer_of_Code.md)
+
+---
+[documentation index](../README.md) > Integrate Cycles renderer

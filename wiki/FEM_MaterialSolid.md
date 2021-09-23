@@ -7,6 +7,8 @@
    SeeAlso:[FEM tutorial](FEM_tutorial.md)
 ---
 
+# FEM MaterialSolid
+
 ## Description
 
 Adds material properties to a part.
@@ -34,4 +36,7 @@ Adds material properties to a part.
 
 
 
- {{FEM Tools navi}}  
+ {{FEM Tools navi}}
+
+---
+[documentation index](../README.md) > FEM MaterialSolid

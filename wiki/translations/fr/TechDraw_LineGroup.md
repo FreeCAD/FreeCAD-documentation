@@ -1,10 +1,4 @@
 # TechDraw LineGroup/fr
-
-
-
-
-
-
 {{TOCright}}
 
 ## Présentation
@@ -79,4 +73,7 @@ Remarque: une nouvelle préférence a été ajoutée pour vous permettre d\'util
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw LineGroup/fr

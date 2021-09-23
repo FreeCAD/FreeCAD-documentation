@@ -9,6 +9,8 @@
    SeeAlso:[Draft Ligne](Draft_Line/fr.md), [Draft Polyligne](Draft_Wire/fr.md)
 ---
 
+# Draft Fillet/fr
+
 ## Description
 
 La commande <img alt="" src=images/Draft_Fillet.svg  style="width:24px;"> **Draft Congé** crée un congé, un coin arrondi ou un chanfrein, un bord droit entre deux [Draft Lignes](Draft_Line/fr.md).
@@ -111,8 +113,5 @@ fillet = Draft.make_fillet([line1, line2], radius=500)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Fillet/fr

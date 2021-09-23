@@ -9,6 +9,8 @@
    Version:0.17
 ---
 
+# EM FHPath/it
+
 ## Descrizione
 
 The FHPath tool inserts a FHPath object, that is a set of FastHenry segments along a path.
@@ -100,4 +102,7 @@ App.ActiveDocument.recompute()
 
 {{EM Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > EM FHPath/it

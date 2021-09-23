@@ -1,7 +1,4 @@
 # Installing on Windows/de
-
-
-
 {{docnav/de
 |[Funktionalitäten](Feature_list/de.md)
 |[ Installieren auf Linux](Install_on_Linux/de.md)
@@ -193,5 +190,5 @@ FreeCAD läuft, aber es wurde berichtet, dass die OpenGL Anzeige nicht funktioni
 |[ Installieren auf Linux](Install_on_Linux/de.md)
 }}
 
-
-
+---
+[documentation index](../README.md) > Installing on Windows/de

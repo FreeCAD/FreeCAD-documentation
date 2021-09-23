@@ -5,6 +5,8 @@
    Workbenches:[Assembly3](Assembly3_Workbench.md)
 ---
 
+# Assembly3 ConstraintEqualLineArcLength/en
+
 ## Description
 
 The <img alt="" src=images/Assembly_ConstraintEqualLineArcLength.svg  style="width:16px;"> [Equal Line Arc Length](Assembly3_ConstraintEqualLineArcLength.md) command constrains the length of a 2D line like a non-subdivided wire which is made with <img alt="" src=images/Workbench_Draft.svg  style="width:16px;"> [Draft Workbench](Draft_Workbench.md) tools in relation with a <img alt="" src=images/Assembly_Workplane.svg  style="width:16px;"> workplane.
@@ -39,8 +41,5 @@ Constraint "EqualLineArcLength" requires the 1st element to be a linear
 Constraint "EqualLineArcLength" requires the 2nd element to be an arc edge
 Constraint "EqualLineArcLength" requires the 2nd element to be a circular edge
 
-
-
-
-
-
+---
+[documentation index](../README.md) > Assembly3 ConstraintEqualLineArcLength/en

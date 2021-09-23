@@ -1,10 +1,4 @@
-# Web Workbench/ru
-
-
-
-
-
-<img alt="Логотип верстака Web" src=images/Workbench_Web.svg  style="width:128px;">
+# <img alt="Логотип верстака Web" src=images/Workbench_Web.svg  style="width:64px;"> Web Workbench/ru
 
 ## Введение
 
@@ -25,3 +19,6 @@ From this browser you are able to navigate the web, click on links, read the onl
 
 
 [Category:Web](Category:Web.md) [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Web Workbench/ru

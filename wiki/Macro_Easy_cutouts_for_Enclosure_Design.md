@@ -1,5 +1,5 @@
 # Macro Easy cutouts for Enclosure Design
-  {{Macro
+{{Macro
 |Name=Easy cutouts for Enclosure Design
 |Icon=Macro_Easy_cutouts_for_Enclosure_Design_icon.png
 |Description=This macro makes Cutouts for Enclosures in a very handy way. Just select a face of the object that is the base for the cutout and the macro will create a clone of the external outline with a margin of 0.5mm (set in the macro)<br/>{{ColoredText|#ff0000|This macro needs to be upgraded}}
@@ -260,4 +260,5 @@ else:
 
 Forum : [Easy cutouts for Enclosure Design Macro](http://forum.freecadweb.org/viewtopic.php?f=22&t=18488)
 
- 
+---
+[documentation index](../README.md) > Macro Easy cutouts for Enclosure Design

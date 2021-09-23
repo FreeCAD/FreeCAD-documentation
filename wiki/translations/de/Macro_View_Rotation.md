@@ -1,5 +1,5 @@
 # Macro View Rotation/de
- {{Macro/de
+{{Macro/de
 |Name=View Rotation
 |Icon=Macro_View_Rotation.png
 |Translate=View Rotation
@@ -288,3 +288,6 @@ am Ende der Funktion \'initUI\'. Die ersten beiden Argumente (rechts-300, 0) (Ze
 ## Diskussionsseite
 
 [View+Rotation](http://forum.freecadweb.org/viewtopic.php?f=3&t=1784&hilit=View+Rotation#p12012)
+
+---
+[documentation index](../README.md) > Macro View Rotation/de

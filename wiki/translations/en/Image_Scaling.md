@@ -7,6 +7,8 @@
    SeeAlso:[Image Open](Image_Open.md), [Image CreateImagePlane](Image_CreateImagePlane.md)
 ---
 
+# Image Scaling/en
+
 ## Description
 
 The [Image Scaling](Image_Scaling.md) tool scales an image that was imported with the [Image plane](Image_CreateImagePlane.md) tool.
@@ -25,4 +27,7 @@ The [Image Scaling](Image_Scaling.md) tool scales an image that was imported wit
 
 {{Image Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Image](Image_Workbench.md) > Image Scaling/en

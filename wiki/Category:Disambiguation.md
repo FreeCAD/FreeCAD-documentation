@@ -4,3 +4,6 @@ This category contains all disambiguation pages which list multiple meanings of 
 ### Contents:
 
 [Category:Administration](Category:Administration.md)
+
+---
+[documentation index](../README.md) > Category:Disambiguation

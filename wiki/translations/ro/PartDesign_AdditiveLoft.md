@@ -8,6 +8,8 @@
    SeeAlso:[[PartDesign AdditivePipe/ro]]
 ---
 
+# PartDesign AdditiveLoft/ro
+
 
 </div>
 
@@ -126,4 +128,7 @@
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveLoft/ro

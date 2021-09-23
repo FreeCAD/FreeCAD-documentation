@@ -1,10 +1,4 @@
 # Path ToolController/fr
- 
-
-
-
-
-
 {{TOCright}}
 
 ## Description
@@ -29,4 +23,7 @@ Tool Number
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path ToolController/fr

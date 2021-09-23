@@ -7,6 +7,8 @@
    SeeAlso:[PartDesign Smusso](PartDesign_Chamfer.md), [Part Raccordo](Part_Fillet.md)
 ---
 
+# PartDesign Fillet/it
+
 
 </div>
 
@@ -129,4 +131,7 @@ Part.show(Box)
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Fillet/it

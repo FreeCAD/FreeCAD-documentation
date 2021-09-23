@@ -1,5 +1,5 @@
 # Expressions/de
- {{TOCright}}
+{{TOCright}}
 
 ## Übersicht
 
@@ -536,3 +536,6 @@ Natürlich liegt es bei dir, die zugehörigen Dokumente später zu laden, wenn d
 }} 
 
 [Category:Spreadsheet](Category:Spreadsheet.md)
+
+---
+[documentation index](../README.md) > [Spreadsheet](Category:Spreadsheet.md) > Expressions/de

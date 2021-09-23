@@ -8,6 +8,8 @@
    Version:0.19
 ---
 
+# TechDraw 2LineCenterLine/it
+
 
 </div>
 
@@ -116,4 +118,7 @@ In questo momento la Linea centrale non è accessibile dalle [macro](macros/it.m
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw 2LineCenterLine/it

@@ -1,10 +1,4 @@
-# Path Workbench/it
-
-
-
-
-
-<img alt="L\'icona di Path" src=images/Workbench_Path.svg  style="width:128px;">
+# <img alt="L\'icona di Path" src=images/Workbench_Path.svg  style="width:64px;"> Path Workbench/it
 
 
 {{TOCright}}
@@ -534,3 +528,6 @@ Vedere la pagina [Script di Path](Path_scripting/it.md).
 }} 
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Path Workbench/it

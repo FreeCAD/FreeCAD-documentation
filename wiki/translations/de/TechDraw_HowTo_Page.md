@@ -1,5 +1,5 @@
 # TechDraw HowTo Page/de
- Zurück zu [TechDraw Tutorien](TechDraw_Workbench/de#Tutorien.md)
+Zurück zu [TechDraw Tutorien](TechDraw_Workbench/de#Tutorien.md)
 
 
 {{TutorialInfo/de
@@ -50,4 +50,7 @@ Siehe auch [Messung von Winkeln an Bohrungen](Measurement_Of_Angles_On_Holes/de.
 
 {{TechDraw Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw HowTo Page/de

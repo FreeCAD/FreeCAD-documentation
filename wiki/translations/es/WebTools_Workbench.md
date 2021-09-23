@@ -1,5 +1,4 @@
-# WebTools Workbench/es
- <img alt="Icono del ambiente de trabajo HerramientasWeb" src=images/WebTools_workbench_icon.svg  style="width:128px;">
+# <img alt="Icono del ambiente de trabajo HerramientasWeb" src=images/WebTools_workbench_icon.svg  style="width:64px;"> WebTools Workbench/es
 
 ## Resumen
 
@@ -23,3 +22,6 @@ Este ambiente de trabajo se puede instalar desde el [Gestor de complementos](Std
  
 
 [Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md) [Category:User Documentation](Category:User_Documentation.md)
+
+---
+[documentation index](../README.md) > WebTools Workbench/es

@@ -1,6 +1,4 @@
 # Translating an external workbench/it
-
-
 In the following notes, `"context"` should be your addon\'s or workbench\'s name, for example, `"MySuperAddon"` or `"DraftPlus"`, or whatever. This context makes it so that all translation of your code will be gathered under the same name, to be more easily identified by translators. That is, they will know exactly to which addon or workbench a particular string belongs.
 
 **Note**: Here is an all-in-one script that automates the complete procedure mentioned below (you are still advised to read the procedure to know what the script should do, though): <https://github.com/yorikvanhavre/BIM_Workbench/blob/master/utils/updateTranslations.py>
@@ -229,3 +227,6 @@ Yorik maintains a convenience script for the BIM workbench, that can gather, upl
  
 
 [Category:Developer Documentation](Category:Developer_Documentation.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Translating an external workbench/it

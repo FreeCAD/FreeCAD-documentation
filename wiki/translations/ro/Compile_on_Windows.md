@@ -1,7 +1,4 @@
 # Compile on Windows/ro
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -561,3 +558,6 @@ A se vedea și
 
 
 [Category:Developer Documentation/ro](Category:Developer_Documentation/ro.md) [Category:Developer\_Documentation](Category:Developer_Documentation.md) [Category:Developer](Category:Developer.md)
+
+---
+[documentation index](../README.md) > [Developer_Documentation](Category:Developer_Documentation.md) > Compile on Windows/ro

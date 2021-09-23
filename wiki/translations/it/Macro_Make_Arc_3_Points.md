@@ -1,5 +1,5 @@
 # Macro Make Arc 3 Points/it
- {{Macro/it
+{{Macro/it
 |Name=Macro Make Arc 3 Points
 |Icon=Macro_Make_Arc_3_Points.png
 |Translate=Arco da 3 punti
@@ -78,3 +78,5 @@ FreeCADGui.Selection.addObserver(s)
 
 }}
 
+---
+[documentation index](../README.md) > Macro Make Arc 3 Points/it

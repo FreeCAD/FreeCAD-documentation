@@ -6,3 +6,6 @@ This category gathers the meeting points of the 3 broad categories of users of F
 [User hub/hu](User_hub/hu.md)
 
 [Category:Categories](Category:Categories.md)
+
+---
+[documentation index](../README.md) > Category:Hubs/hu

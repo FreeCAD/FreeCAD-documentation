@@ -7,6 +7,8 @@
    SeeAlso:[Arch MeshToShape](Arch_MeshToShape/es.md)
 ---
 
+# Arch SelectNonSolidMeshes/es
+
 
 </div>
 
@@ -37,8 +39,5 @@ Esta herramienta identifica y selecciona las mallas no sólidas (no [manifold](h
 
 </div>
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SelectNonSolidMeshes/es

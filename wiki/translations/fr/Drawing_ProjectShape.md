@@ -7,6 +7,8 @@
    MenuLocation:Mise en plan → Projeter la forme...
 ---
 
+# Drawing ProjectShape/fr
+
 
 </div>
 
@@ -110,4 +112,7 @@ Cet outil crée une projection de l\'objet sélectionné (Source) dans la vue 3D
 
 {{Drawing Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing ProjectShape/fr

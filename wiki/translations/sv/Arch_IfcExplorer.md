@@ -6,6 +6,8 @@
    SeeAlso:[Arch IFC](Arch_IFC/sv.md)
 ---
 
+# Arch IfcExplorer/sv
+
 
 </div>
 
@@ -40,3 +42,6 @@ The purpose of this explorer is simply to allow you to check what is really writ
  
 
 [Category:BIM](Category:BIM.md)
+
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch IfcExplorer/sv

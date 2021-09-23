@@ -1,5 +1,5 @@
 # Migrating to FreeCAD from Fusion360/ru
- {{TOCright}}
+{{TOCright}}
 
 ## Background
 
@@ -56,5 +56,5 @@ Is this wiki page missing something. Please make a request for [wiki permissions
 
 -   [Migrating to FreeCAD from OnShape](Migrating_to_FreeCAD_from_OnShape.md)
 
-
-
+---
+[documentation index](../README.md) > Migrating to FreeCAD from Fusion360/ru

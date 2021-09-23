@@ -7,6 +7,8 @@
    Version:0.16
 ---
 
+# Sketcher Symmetry/it
+
 
 </div>
 
@@ -48,4 +50,7 @@ Notare che non viene aggiunto nessun vincolo di simmetria aggiuntivo.
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Symmetry/it

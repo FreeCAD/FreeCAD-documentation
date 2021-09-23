@@ -6,6 +6,8 @@
    MenuLocation:Kreślenie → Adnotacja
 ---
 
+# Drawing Annotation/pl
+
 ## Opis
 
 To polecenie pozwala na umieszczenie bloku tekstu na [stronie rysunku](Drawing_Landscape_A3.md).
@@ -30,4 +32,7 @@ To polecenie pozwala na umieszczenie bloku tekstu na [stronie rysunku](Drawing_L
 
 {{Drawing Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Annotation/pl

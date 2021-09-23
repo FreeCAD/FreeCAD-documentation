@@ -1,7 +1,4 @@
 # Manual:The FreeCAD Interface/ru
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -96,3 +93,5 @@ FreeCAD использует [оболочку Qt](https://ru.wikipedia.org/wiki
 
 </div>
 
+---
+[documentation index](../README.md) > Manual:The FreeCAD Interface/ru

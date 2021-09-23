@@ -1,5 +1,5 @@
 # FEM Shear of a Composite Block/en
- {{TutorialInfo
+{{TutorialInfo
 |Topic= Finite Element Analysis
 |Level= Beginner/Intermediate
 |Time= 30 minutes
@@ -99,4 +99,7 @@ The FC file for this tutorial is attached below as a starting point.
 
 <https://forum.freecadweb.org/viewtopic.php?f=18&t=26517&start=20>
 
-Have fun ! {{Tutorials navi}} {{FEM Tools navi}} 
+Have fun ! {{Tutorials navi}} {{FEM Tools navi}}
+
+---
+[documentation index](../README.md) > FEM Shear of a Composite Block/en

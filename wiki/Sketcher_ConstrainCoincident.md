@@ -7,6 +7,8 @@
    SeeAlso:[Sketcher Constrain Lock](Sketcher_ConstrainLock.md), [Sketcher Constrain Point onto Object](Sketcher_ConstrainPointOnObject.md)
 ---
 
+# Sketcher ConstrainCoincident
+
 ## Description
 
 Create a coincident constraint on the selected item
@@ -75,4 +77,7 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 
 
- {{Sketcher Tools navi}}  
+ {{Sketcher Tools navi}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainCoincident

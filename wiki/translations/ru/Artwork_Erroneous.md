@@ -1,6 +1,4 @@
 # Artwork Erroneous/ru
- 
-
 Для всех иконок в исходнике смотри [Художественное оформление](Artwork/ru.md).
 
 
@@ -26,3 +24,6 @@
 }}
 
 [Category:Icon](Category:Icon.md) [Category:Developer Documentation](Category:Developer_Documentation.md)
+
+---
+[documentation index](../README.md) > [Icon](Category:Icon.md) > Artwork Erroneous/ru

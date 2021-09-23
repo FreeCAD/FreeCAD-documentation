@@ -1,5 +1,5 @@
 # History/ro
- \_\_FORCETOC\_\_
+\_\_FORCETOC\_\_
 
 
 <div class="mw-translate-fuzzy">
@@ -256,3 +256,6 @@ In April 2019 the team of core developers was expanded: Jürgen, Werner and Yori
 </div>
 
 [Category:News](Category:News.md)
+
+---
+[documentation index](../README.md) > [News](Category:News.md) > History/ro

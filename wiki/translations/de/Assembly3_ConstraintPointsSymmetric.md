@@ -6,6 +6,8 @@
    Workbenches:[Assembly3](Assembly3_Workbench/de.md)
 ---
 
+# Assembly3 ConstraintPointsSymmetric/de
+
 ## Beschreibung
 
 Dieses Werkzeug stellt eine Verbindung zwischen zwei oder drei Objekten eines Zusammenbaus her und positioniert zwei Punktelemente symmetrisch zu einem planaren Flächenelement oder einer Ebene. Die Gewählten Elemente beider Objekte oder präziser ihre lokalen Koordinatensysteme (LKS) werden genutzt, um beide Objekt zueinander zu positionieren.
@@ -26,8 +28,5 @@ Oder
 3.  Ein planeres Flächenelement des dritten Objekts auswählen.
 4.  Schaltfläche**<img src="images/Assembly_ConstraintPointsSymmetric.svg" width=16px> [Symmetrische Punkte](Assembly3_ConstraintPointsSymmetric/de.md)** drücken.
 
-
-
-
-
-
+---
+[documentation index](../README.md) > Assembly3 ConstraintPointsSymmetric/de

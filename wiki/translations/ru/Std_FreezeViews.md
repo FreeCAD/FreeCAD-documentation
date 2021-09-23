@@ -8,6 +8,8 @@
    SeeAlso:[Std ViewIvIssueCamPos](Std_ViewIvIssueCamPos/ru.md)
 ---
 
+# Std FreezeViews/ru
+
 ## Введение
 
 FreeCAD can store camera settings in up to 50 \'frozen views\'. The menu options that deal with frozen views can be found in the **View → Freeze display** submenu. Frozen views are not stored in the document and, if not saved with the **[Save views\...](#Save_views.md)** menu option, will be lost when the FreeCAD application closes.
@@ -88,4 +90,7 @@ For each frozen view a **Restore view** option is added with which it can be res
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std FreezeViews/ru

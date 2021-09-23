@@ -6,6 +6,8 @@
    Version:0.17
 ---
 
+# Part CompoundFilter/pt-br
+
 ![](images/CompoundFilter.png )
 
 ## Description
@@ -66,8 +68,5 @@ If there is only one child in the result, the output is the child. If there is m
 
 -    **items**: List or range of elements to be selected if Filter Type is \"specific items\".
 
-
-
-
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompoundFilter/pt-br

@@ -8,6 +8,8 @@
    SeeAlso:[FEM tutorial](FEM_tutorial/it.md)
 ---
 
+# FEM ConstraintSelfWeight/it
+
 
 </div>
 
@@ -80,4 +82,7 @@ Eall,GRAV,9810,0.0,0.0,-1.0
 
 {{FEM Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > FEM ConstraintSelfWeight/it

@@ -7,6 +7,8 @@
    SeeAlso:[Arch SetMaterial](Arch_SetMaterial.md), [Arch MultiMaterial](Arch_MultiMaterial.md)
 ---
 
+# Arch CompSetMaterial/pt-br
+
 ## Descrição
 
 The Material tools allows to add materials to the active document.
@@ -25,5 +27,5 @@ The Material tools allows to add materials to the active document.
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CompSetMaterial/pt-br

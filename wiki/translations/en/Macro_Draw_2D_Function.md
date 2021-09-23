@@ -1,5 +1,5 @@
 # Macro Draw 2D Function/en
- {{Macro
+{{Macro
 |Name=Draw 2D Function
 |Icon=Macro_Draw_2D_Function.png
 |Description=Use it to draw a function described by a "equation" [z=F(x)] (Z-X plane)
@@ -60,3 +60,5 @@ Part.show(WWire)
 
 }}
 
+---
+[documentation index](../README.md) > Macro Draw 2D Function/en

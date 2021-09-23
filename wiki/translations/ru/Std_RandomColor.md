@@ -6,6 +6,8 @@
    Workbenches:Все
 ---
 
+# Std RandomColor/ru
+
 ## Описание
 
 Команда **Std RandomColor** меняет случайным образом атрибут {{PropertyView/ru|Shape Color}} выбранных объектов.
@@ -27,4 +29,7 @@
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std RandomColor/ru

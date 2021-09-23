@@ -5,6 +5,8 @@
    Workbenches:[Path](Path_Workbench.md)
 ---
 
+# Path Pocket Shape
+
 ## Description
 
 This tool creates a pocketing operation from selected bottom faces, or walls, of one ore more pockets of the jobs base object.
@@ -226,4 +228,7 @@ Note: It is suggested that you do not edit the Placement property of path operat
 
 
 
- {{Path_Tools_navi}} 
+ {{Path_Tools_navi}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Pocket Shape

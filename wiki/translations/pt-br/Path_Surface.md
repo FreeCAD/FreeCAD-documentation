@@ -6,6 +6,8 @@
    Version:0.19
 ---
 
+# Path Surface/pt-br
+
 ## Description
 
 This tool creates a new **<img src="images/Path_3DSurface.svg" width=24px> [3D Surface](Path_3DSurface.md)** operation which is capable of generating G-Code paths for the entire top surface of a 3D model (or is able to work with selected faces) and allows for faces to be avoided. This operation offers multiple cut patterns: Line, Zigzag, Circular, Circular Zigzag, Offset, and Spiral (similar to an adaptive pattern). As of version 0.19, this operation offers many customizations to allow for greater productivity.
@@ -416,4 +418,7 @@ Note: It is suggested that you do not edit the Placement property of path operat
 
 {{Path Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Surface/pt-br

@@ -11,3 +11,6 @@ This is the **top category** which contains the main categories of the FreeCAD w
 [API documentation/id](API_documentation/id.md) , , , , , , , , , , , ,
 
 [Category:Categories/id](Category:Categories/id.md) [Category:Addons/id](Category:Addons/id.md) [Category:Administration/id](Category:Administration/id.md) [Category:Categories/id](Category:Categories/id.md) [Category:Command Reference/id](Category:Command_Reference/id.md) [Category:Developer/id](Category:Developer/id.md) [Category:Hubs/id](Category:Hubs/id.md) [Category:Macros/id](Category:Macros/id.md) [Category:News/id](Category:News/id.md) [Category:Python Code/id](Category:Python_Code/id.md) [Category:Roadmap/id](Category:Roadmap/id.md) [Category:Template/id](Category:Template/id.md) [Category:Tutorials/id](Category:Tutorials/id.md)
+
+---
+[documentation index](../README.md) > Category:Categories/id

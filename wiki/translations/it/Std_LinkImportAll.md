@@ -8,6 +8,8 @@
    SeeAlso:[Crea un link](Std_LinkMake/it.md), [Crea un link relativo](Std_LinkMakeRelative/it.md), [Importa un link](Std_LinkImport/it.md)
 ---
 
+# Std LinkImportAll/it
+
 ## Descrizione
 
 Lo strumento <img alt="" src=images/Std_LinkImportAll.svg  style="width:16px;"> [Importa tutti i link](Std_LinkImportAll/it.md) importa tutti i **Linked Object** dai link esistenti nel documento corrente, quindi modifica l\'associazione che punta a questi oggetti importati.
@@ -30,4 +32,7 @@ Questo comando essenzialmente esegue <img alt="" src=images/Std_LinkImport.svg  
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std LinkImportAll/it

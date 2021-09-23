@@ -1,5 +1,5 @@
 # Macro FCCircularText/fr
- {{Macro/fr
+{{Macro/fr
 |Name=Macro FCCircularText
 |Icon=FCCircularTextButtom.png
 |Description={{ColoredText|#ff0000|#ffffff|La dernière version de la macro prend en charge une disposition HiDPI (QGridLayout) et ne fonctionne que sur les versions 0.18 ou supérieures (nécessite PySide2/Qt5)}} <br/> <br/> Pour une version rétrocompatible de la macro, voir
@@ -867,8 +867,5 @@ replace
 
 La page dédiée sur le forum pour tout commentaires et signalisation d\'éventuelles erreurs [Extrude from curved surface of cylinder](http://forum.freecadweb.org/viewtopic.php?f=3&t=7384)
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > Macro FCCircularText/fr

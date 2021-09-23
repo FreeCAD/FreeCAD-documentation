@@ -1,10 +1,4 @@
 # Installing additional components/ru
-
-
-
-
-
-
 {{TOCright}}
 
 # Введение
@@ -141,3 +135,6 @@ FreeCAD имеет собственный импортер/экспортер ф
 
 
 [Category:User Documentation/ru](Category:User_Documentation/ru.md)
+
+---
+[documentation index](../README.md) > Installing additional components/ru

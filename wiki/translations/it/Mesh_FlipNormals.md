@@ -1,3 +1,4 @@
+# Mesh FlipNormals/it
 ---
 - GuiCommand:/it   Name:Mesh_FlipNormals‏‎   Name/it:Inverti le normali‏‎   MenuLocation:Mesh → Inverti le normali   Workbenches:[SeeAlso:[[Mesh_HarmonizeNormals/it|Armonizza le normali](Mesh_Workbench/it___Mesh]].md)---
 
@@ -43,4 +44,7 @@ Per verificare questa azione:
 
 {{Mesh Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh FlipNormals/it

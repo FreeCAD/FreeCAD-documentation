@@ -5,6 +5,8 @@
    Workbenches:[Points](Points_Workbench.md)
 ---
 
+# Points Structure/it
+
 ## Description
 
 The **Points Structure** command creates a structured point cloud from the points of an existing scattered point cloud. A structured point cloud has the advantage that tessellation is much easier.
@@ -27,4 +29,7 @@ Vedere [Converti in punti](Points_Convert/it.md).
 
 {{Points Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Points](Points_Workbench.md) > Points Structure/it

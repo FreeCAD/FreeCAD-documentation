@@ -8,6 +8,8 @@
    SeeAlso:[Part Primitives](Part_Primitives/fr.md), [Part Cube](Part_Box/fr.md)
 ---
 
+# Part Prism/fr
+
 ## Description
 
 Un prisme dans Part est un solide délimité par une section transversale polygonale régulière et une hauteur.
@@ -30,10 +32,7 @@ Les propriétés du prisme peuvent être éditées ultérieurement, soit dans l\
 
 -    **First Angle**: Angle dans la première direction. <small>(v0.19)</small> 
 
--    **Second Angle**: Angle dans la seconde direction. <small>(v0.19)</small> 
+-    **Second Angle**: Angle dans la seconde direction. <small>(v0.19)</small>
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Prism/fr

@@ -7,6 +7,8 @@
    SeeAlso:[Std Import](Std_Import/de.md),[Std Öffnen](Std_Open/de.md), [Import Export](Import_Export/de.md)
 ---
 
+# Mesh Import/de
+
 ## Beschreibung
 
 Der Befehl **Polygonnetz Import** importiert Geometrie aus einem Netzdateiformat in das aktive Dokument. Mehrere Dateiformate werden unterstützt. Der Befehl erzeugt ein nicht-parametrisches Polygonnetzobjekt, ein [Polygonnetz Formelement](Mesh_Feature/de.md).
@@ -51,4 +53,7 @@ Mesh.insert('D:/testfiles/cylinder.stl')
 
 {{Mesh Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Import/de

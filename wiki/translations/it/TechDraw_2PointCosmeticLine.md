@@ -9,6 +9,8 @@
    Version:0.19
 ---
 
+# TechDraw 2PointCosmeticLine/it
+
 
 </div>
 
@@ -73,4 +75,7 @@ Cosmetic lines can be created using the makeCosmeticLine(v1, v2) or makeCosmetic
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw 2PointCosmeticLine/it

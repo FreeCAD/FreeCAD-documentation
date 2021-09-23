@@ -1,5 +1,5 @@
 # Macro Automatic drawing/hr
- {{Macro/hr
+{{Macro/hr
 |Name=Automatic drawing
 |Translate=Automatsko crtanje
 |Icon=Macro_Automatic_drawing.png
@@ -123,3 +123,6 @@ App.activeDocument().AutoDrawing.addObject(App.activeDocument().IsoView)
 ## Poveznice
 
 Forum [Automatic drawing](https://forum.freecadweb.org/viewtopic.php?f=8&t=3361)
+
+---
+[documentation index](../README.md) > Macro Automatic drawing/hr

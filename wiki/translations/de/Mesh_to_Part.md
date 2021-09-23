@@ -1,7 +1,4 @@
 # Mesh to Part/de
-
-
-
 {{TOCright}}
 
 ## Umwandeln von Teilobjekten in Polygonnetze 
@@ -110,3 +107,6 @@ Part.show(solid)
 }} {{Mesh Tools navi}}
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh to Part/de

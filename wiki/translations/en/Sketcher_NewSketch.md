@@ -6,6 +6,8 @@
    SeeAlso:[PartDesign NewSketch](PartDesign_NewSketch.md), [Sketcher MapSketch](Sketcher_MapSketch.md), [Sketcher Reorient](Sketcher_ReorientSketch.md)
 ---
 
+# Sketcher NewSketch/en
+
 ## Description
 
 This will create a new [sketch](Sketcher_Workbench.md).
@@ -36,4 +38,7 @@ The sketch can be moved in the [3D view](3D_view.md) using [Placement](Placement
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher NewSketch/en

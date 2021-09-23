@@ -6,6 +6,8 @@
    Workbenches:[Assembly3](Assembly3_Workbench.md)
 ---
 
+# Assembly3 ConstraintPointLineDistance
+
 ## Description
 
 This tool builds a link between two objects of an assembly and fixes the distance between them and the orientation to each other. The selected elements of each object or more precisely their implicit coordinate systems (ICS) are used to position one object to another.
@@ -16,7 +18,5 @@ This tool builds a link between two objects of an assembly and fixes the distanc
 2.  Select one point element of one object and one linear edge element of the other object.
 3.  Press the **<img src="images/Assembly_ConstraintPointLineDistance.svg" width=16px> [Point line distance](Assembly3_ConstraintPointLineDistance.md)** button.
 
-
-
-
- 
+---
+[documentation index](../README.md) > Assembly3 ConstraintPointLineDistance

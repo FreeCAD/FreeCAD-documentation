@@ -1,5 +1,5 @@
 # Macro JointWire/sv
- **!!! This macro needs to be corrected. !!!**
+**!!! This macro needs to be corrected. !!!**
 
 
 {{Macro/sv
@@ -91,6 +91,5 @@ ToolBar Icon ![](images/Macro_JointWire.png )
 
 }}
 
-
-
-
+---
+[documentation index](../README.md) > Macro JointWire/sv

@@ -1,11 +1,4 @@
 # Start up and Configuration
- 
-
-
-
-
- 
-
 ## Overview
 
 This page shows the different ways to start FreeCAD and the most important configuration features.
@@ -433,3 +426,6 @@ Now double-click the batch file to start FreeCAD. ([see](https://forum.freecadwe
   
 
 [Category:Developer Documentation](Category:Developer_Documentation.md)
+
+---
+[documentation index](../README.md) > [Start](Start_Workbench.md) > Start up and Configuration

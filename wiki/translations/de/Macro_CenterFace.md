@@ -1,5 +1,5 @@
 # Macro CenterFace/de
- {{Macro/de
+{{Macro/de
 |Name=Macro CenterFace
 |Translate=Macro CenterFace
 |Description=Dieses Makrotrace (bearbeitbar) zeichnet die mittlere Fläche (Masse) mit 1 Punkt und druckt die Koordinaten.
@@ -142,6 +142,5 @@ ver 0.2 07/10/2018 : upgrade for FC 017 \"getGlobalPlacement\"
 
 ver 0.1 29/04/2014
 
-
-
-
+---
+[documentation index](../README.md) > Macro CenterFace/de

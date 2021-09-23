@@ -9,6 +9,8 @@
    SeeAlso:[Arch Panel Cut](Arch_Panel_Cut/de.md), [Arch Panel Sheet](Arch_Panel_Sheet/de.md)
 ---
 
+# Arch Panel/de
+
 ## Beschreibung
 
 Mit diesem Werkzeug kannst du alle Arten von platten-artigen Elementen bauen, typischerweise für Plattenkonstruktionen wie das [WikiHouse](http://www.wikihouse.cc/) Projekt, aber auch für alle Arten von Objekten, die auf einem flachen Profil basieren.
@@ -90,8 +92,5 @@ Panel = Arch.makePanel(Rect, thickness=36)
 
 -   [Wikihouse Portierungs Tutorium](Wikihouse_porting_tutorial/de.md)
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Panel/de

@@ -8,6 +8,8 @@
    SeeAlso:[TechDraw Symbol](TechDraw_Symbol/de.md)
 ---
 
+# TechDraw ActiveView/de
+
 ## Beschreibung
 
 Das Werkzeug AktiveAnsicht fügt eine Kopie eines 3D Fensters in eine Zeichnungsseite ein.
@@ -79,4 +81,7 @@ TechDrawGui.copyActiveViewToSvgFile(Gui.ActiveDocument.ActiveView,"myFile.svg")
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ActiveView/de

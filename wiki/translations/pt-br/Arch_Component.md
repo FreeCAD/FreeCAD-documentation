@@ -6,6 +6,8 @@
    Shortcut:**C** **M**
 ---
 
+# Arch Component/pt-br
+
 ## Descrição
 
 Creates a non-parametric [Arch](Arch_Workbench.md) component from any [Part](Part_Workbench.md)-based object. This gives the Part-based object the same attributes and properties as other Arch objects, and allows to specify how it should be exported to IFC by setting its **Role** property.
@@ -55,8 +57,5 @@ The Arch component object is also a base shared by all other Arch objects (**<im
 
 </div>
 
-
-
-
-
-
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Component/pt-br

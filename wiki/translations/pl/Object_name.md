@@ -1,6 +1,4 @@
 # Object name/pl
-
-
 ## Introduction
 
 
@@ -118,5 +116,5 @@ obj3 = App.ActiveDocument.getObjectsByLabel("Some special name for this cube__00
 
 Given that the `Label` is in general not unique, the `getObjectsByLabel` method returns a list with all objects found with that `Label`. However, if the `Label` is unique in the document then the first element in that list should be the desired object.
 
-
-
+---
+[documentation index](../README.md) > Object name/pl

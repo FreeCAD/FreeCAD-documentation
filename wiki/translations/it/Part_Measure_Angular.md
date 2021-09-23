@@ -6,6 +6,8 @@
    Workbenches:[Part](Part_Workbench/it.md)
 ---
 
+# Part Measure Angular/it
+
 
 </div>
 
@@ -43,8 +45,5 @@ Questo strumento misura l\'angolo tra due bordi diritti, due facce planari o un 
 
 </div>
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Angular/it

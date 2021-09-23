@@ -8,6 +8,8 @@
    SeeAlso:[Szkicownik: Wiązanie odległości](Sketcher_ConstrainDistance/pl.md), [Szkicownik: Wiązanie prostopadłości](Sketcher_ConstrainPerpendicular/pl.md)
 ---
 
+# Sketcher ConstrainAngle/pl
+
 ## Opis
 
 Wiązanie kąta jest [wiązaniem odniesienia](Sketcher_Workbench/pl#Wiązania_w_szkicowniku.md) przeznaczonym do ustalania kątów na szkicach. Jest w stanie wyznaczyć nachylenia poszczególnych linii, kąty między liniami, kąty przecięcia łuków oraz rozpiętości kątowe łuków kołowych.
@@ -105,4 +107,7 @@ Strona [Skrypty szkicownika](Sketcher_scripting/pl.md) wyjaśnia wartości, któ
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainAngle/pl

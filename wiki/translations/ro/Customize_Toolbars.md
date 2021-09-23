@@ -1,5 +1,5 @@
 # Customize Toolbars/ro
- {{TutorialInfo/ro|Topic=SampleTopic|Level=Beginner|Time=5 minutes|Author=[Mario52](User:Mario52.md)|FCVersion=All}}
+{{TutorialInfo/ro|Topic=SampleTopic|Level=Beginner|Time=5 minutes|Author=[Mario52](User:Mario52.md)|FCVersion=All}}
 
 ## Synopsis
 
@@ -132,3 +132,6 @@ See also [Interface Customization](Interface_Customization.md).
 
 
 [Category:Preferences](Category:Preferences.md)
+
+---
+[documentation index](../README.md) > [Preferences](Category:Preferences.md) > Customize Toolbars/ro

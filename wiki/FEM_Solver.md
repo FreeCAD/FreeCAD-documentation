@@ -1,6 +1,4 @@
 # FEM Solver
- 
-
 ## Preface
 
   This page collects information on the finite element solvers used by the [FEM Workbench](FEM_Workbench.md). The interface between a solver and FreeCAD in pre-processing as well as post-processing is done through text files. This means that in theory any solver which can be configured and controlled by means of text files is able to work together with FreeCAD; a proper parser and writer of input and output files needs to be programmed for this communication to work. A forum topic to discuss and announce anything regarding the various solvers can be found here: [General FEM solvers discussion topic](https://forum.freecadweb.org/viewtopic.php?f=18&t=26326).
@@ -209,4 +207,7 @@ Technog was successfully used in FreeCAD as a substitute of CalculiX, although t
 
 [XC](http://www.xcengineering.xyz/) is a FEA program designed to solve structural problems in civil engineering like real beam shell analysis. Internally it uses the OpenSees libraries: [main repository](https://github.com/xcfem/xc), [XC, opensource structural engineering FEM code](https://forum.freecadweb.org/viewtopic.php?f=18&t=31262) (forum thread).
 
- {{FEM Tools navi}}  
+ {{FEM Tools navi}}
+
+---
+[documentation index](../README.md) > FEM Solver

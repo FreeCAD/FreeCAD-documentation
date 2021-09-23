@@ -8,6 +8,8 @@
    SeeAlso:[Draft FlipDimension](Draft_FlipDimension.md)
 ---
 
+# Draft Dimension
+
 ## Description
 
 The <img alt="" src=images/Draft_Dimension.svg  style="width:24px;"> **Draft Dimension** command [creates](#Create.md) a [linear dimension](#Usage_linear_dimension.md), a [radial dimension](#Usage_radial_dimension.md) or an [angular dimension](#Usage_angular_dimension.md). The command can also be used to [convert](#Convert.md) [Std MeasureDistance](Std_MeasureDistance.md) objects.
@@ -297,7 +299,5 @@ dimension4.ViewObject.FontSize = 200
 doc.recompute()
 ```
 
-
-
-
-  
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Dimension

@@ -9,6 +9,8 @@
    SeeAlso:[FCGear Engrenage cycloïde](FCGear_CycloideGear/fr.md)
 ---
 
+# FCGear InvoluteGear/fr
+
 ## Description
 
 En raison du rapport d\'engrènement favorable et de la production relativement simple, l\'engrenage à développante est la forme de dent la plus courante en génie mécanique. Les roues dentées se trouvent partout où le mouvement et la force doivent être transférés d\'une pièce à l\'autre. Par exemple, ils peuvent être trouvés dans des machines, des voitures, des montres ou des appareils électroménagers. Le mouvement est souvent transféré directement d\'une roue dentée à l\'autre, mais parfois aussi via une chaîne. De plus, le sens de rotation peut être modifié. Il est également possible de changer un mouvement radial en un mouvement linéaire via un engrenage à crémaillère (<img alt="" src=images/FCGear_InvoluteRack.svg  style="width:22px;"> [FCGear Engrenage à crémaillère](FCGear_InvoluteRack/fr.md)).
@@ -232,3 +234,6 @@ Gui.SendMsgToActiveView("ViewFit")
 ``` 
 
 [Category:Addons](Category:Addons.md) [Category:FCGear](Category:FCGear.md) [Category:External Command Reference](Category:External_Command_Reference.md)
+
+---
+[documentation index](../README.md) > [Addons](Category:Addons.md) > FCGear InvoluteGear/fr

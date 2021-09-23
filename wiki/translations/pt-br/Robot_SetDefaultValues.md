@@ -5,6 +5,8 @@
    Workbenches:[Robot](Robot_Workbench.md)
 ---
 
+# Robot SetDefaultValues/pt-br
+
 ## Description
 
 Set the default values for way-point creation.
@@ -33,4 +35,7 @@ The program\'s default values are for
 
 {{Robot_Tools_navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot SetDefaultValues/pt-br

@@ -9,6 +9,8 @@
    Version:0.17
 ---
 
+# EM FHSegment/fr
+
 ## Description
 
 L\'outil FHSegment insère un objet de segment FastHenry.
@@ -107,4 +109,7 @@ fhsegment = EM.makeFHSegment(nodeStart=fhnode1, nodeEnd=fhnode2)
 
 {{EM Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > EM FHSegment/fr

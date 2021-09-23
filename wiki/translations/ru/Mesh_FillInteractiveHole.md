@@ -8,6 +8,8 @@
    SeeAlso:
 ---
 
+# Mesh FillInteractiveHole/ru
+
 
 </div>
 
@@ -37,4 +39,7 @@ The **Mesh FillInteractiveHole** command fills selected holes in mesh objects.
 
 {{Mesh Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh FillInteractiveHole/ru

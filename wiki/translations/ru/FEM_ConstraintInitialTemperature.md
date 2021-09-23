@@ -8,6 +8,8 @@
    SeeAlso:[FEM tutorial](FEM_tutorial/ru.md)
 ---
 
+# FEM ConstraintInitialTemperature/ru
+
 
 </div>
 
@@ -36,4 +38,7 @@ The constraint applies the initial temperature to all nodes in the FEA model
 
 {{FEM Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > FEM ConstraintInitialTemperature/ru

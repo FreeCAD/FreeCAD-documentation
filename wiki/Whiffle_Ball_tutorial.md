@@ -1,5 +1,5 @@
 # Whiffle Ball tutorial
-  {{TutorialInfo
+{{TutorialInfo
 |Topic=Product design
 |Level=Beginner
 |Time=30 minutes
@@ -248,4 +248,7 @@ We\'ll duplicate the previous two objects again to use once more as cutting obje
 
 {{Tutorials navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Whiffle Ball tutorial

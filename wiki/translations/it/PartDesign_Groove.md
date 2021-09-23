@@ -1,3 +1,4 @@
+# PartDesign Groove/it
 ---
 - GuiCommand:/it   Name:PartDesign_Groove   Name/it:Scanalatura   Workbenches:[MenuLocation:PartDesign → Scanalatura   SeeAlso:[[PartDesign_Revolution/it|Rivoluzione](PartDesign_Workbench/it___PartDesign]].md)---
 
@@ -90,4 +91,7 @@ Sotto sono riportate le proprietà che possono essere definite dopo la creazione
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Groove/it

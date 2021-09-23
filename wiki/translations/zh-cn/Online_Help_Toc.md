@@ -1,7 +1,4 @@
 # Online Help Toc/zh-cn
-
-
-
 <div class="mw-translate-fuzzy">
 
  这是用于自动构建 FreeCAD **在线帮助**系统的目录。这份手册也有一份可打印版本在 [发布页](https://github.com/FreeCAD/FreeCAD/releases)。
@@ -167,3 +164,6 @@
 
 
 [Category:Documentation/zh-cn](Category:Documentation/zh-cn.md) [Category:Documentation](Category:Documentation.md)
+
+---
+[documentation index](../README.md) > [Documentation](Category:Documentation.md) > Online Help Toc/zh-cn

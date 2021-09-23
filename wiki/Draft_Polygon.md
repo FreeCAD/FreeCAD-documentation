@@ -7,6 +7,8 @@
    Version:0.7
 ---
 
+# Draft Polygon
+
 ## Description
 
 The <img alt="" src=images/Draft_Polygon.svg  style="width:24px;"> **Draft Polygon** command creates a regular polygon in the current [working plane](Draft_SelectPlane.md) from a center and a radius. The radius can be defined by picking a point.
@@ -122,7 +124,5 @@ Polygon3 = Draft.make_polygon(6, radius=1450, placement=place3)
 doc.recompute()
 ```
 
-
-
-
-  
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Polygon

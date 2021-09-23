@@ -1,5 +1,5 @@
 # Artwork Gui/en
-  These icons are in the indicated source path.
+These icons are in the indicated source path.
 
 For all icons in the source tree, see [Artwork](Artwork.md).
 
@@ -22,4 +22,7 @@ These images are larger than icons.
 
 {{Artwork
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > Artwork Gui/en

@@ -1,5 +1,5 @@
 # Macro Recompute Profiler/it
- {{Macro/it
+{{Macro/it
 |Name=Macro Recompute Profiler
 |Translate=Macro Recompute Profiler
 |icone=Macro_Recompute_Profiler.png
@@ -220,6 +220,5 @@ Coin version: 4.0.0a
 OCC version: 7.0.0
 ```
 
-
-
-
+---
+[documentation index](../README.md) > Macro Recompute Profiler/it

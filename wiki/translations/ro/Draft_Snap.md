@@ -1,10 +1,4 @@
 # Draft Snap/ro
-
-
-
-
-
-
 {{TOCright}}
 
 ## Description
@@ -118,3 +112,6 @@ Note that after changing some preferences you must restart FreeCAD.
  
 
 [Category:User Documentation/ro](Category:User_Documentation/ro.md)
+
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap/ro

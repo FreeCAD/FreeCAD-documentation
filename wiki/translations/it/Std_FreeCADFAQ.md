@@ -6,6 +6,8 @@
    SeeAlso:[Std FreeCADWebsite](Std_FreeCADWebsite.md), [Std FreeCADUserHub](Std_FreeCADUserHub.md), [Std FreeCADPowerUserHub](Std_FreeCADPowerUserHub.md), [Std FreeCADForum](Std_FreeCADForum.md)
 ---
 
+# Std FreeCADFAQ/it
+
 ## Descrizione
 
 The **Std FreeCADFAQ** command opens the FreeCAD FAQ page in the system\'s default Internet browser. The command requires a working Internet connection.
@@ -22,4 +24,7 @@ Currently the command points to [<https://www.freecadweb.org/wiki/FAQ>](https://
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std FreeCADFAQ/it

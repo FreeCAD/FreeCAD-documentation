@@ -1,3 +1,4 @@
+# PartDesign Hole/it
 ---
 - GuiCommand:/it   Name:PartDesign Hole   Name/it:Foro   Workbenches:[MenuLocation:Part Design → Foro   Version:0.17   SeeAlso:[[PartDesign Pocket/it|Tasca](PartDesign_Workbench/it___PartDesign]].md)---
 
@@ -155,4 +156,7 @@ Example: {{Code|lang=json|code=
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Hole/it

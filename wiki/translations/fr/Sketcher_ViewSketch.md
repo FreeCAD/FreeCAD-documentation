@@ -6,6 +6,8 @@
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md), [PartDesign](PartDesign_Workbench/fr.md)
 ---
 
+# Sketcher ViewSketch/fr
+
 ## Description
 
 Cet outil définit la vue de l\'objet perpendiculairement au plan de l\'esquisse. Il est utile, lorsque l\'utilisateur a modifié l\'orientation de la vue de l\'objet, pour examiner un autre aspect de l\'objet, et revenir à la vue normale de l\'esquisse.
@@ -23,4 +25,7 @@ En mode de modification d\'esquisse, soit
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ViewSketch/fr

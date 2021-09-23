@@ -8,6 +8,8 @@
    SeeAlso:[Sketcher Cancella tutta la geometria](Sketcher_DeleteAllGeometry/it.md)
 ---
 
+# Sketcher DeleteAllConstraints/it
+
 
 </div>
 
@@ -32,4 +34,7 @@ Questo strumento elimina tutti i vincoli dallo schizzo in corso di modifica e la
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher DeleteAllConstraints/it

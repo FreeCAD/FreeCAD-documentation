@@ -8,6 +8,8 @@
    Version:0.19
 ---
 
+# Std SendToPythonConsole/fr
+
 ## Description
 
 La commande **Std Vers la console Python** crée une variable dans la [console Python](Python_console/fr.md) référençant un objet sélectionné. Si une sous-forme de l\'objet est sélectionnée, deux variables supplémentaires sont créées, l\'une faisant référence à la forme de l\'objet et l\'autre faisant référence à la sous-forme elle-même. Les variables et le code impliqués peuvent être utilisés pour développer du code Python.
@@ -35,4 +37,7 @@ La commande **Std Vers la console Python** crée une variable dans la [console P
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std SendToPythonConsole/fr

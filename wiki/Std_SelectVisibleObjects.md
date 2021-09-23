@@ -5,6 +5,8 @@
    Workbenches:All
 ---
 
+# Std SelectVisibleObjects
+
 ## Description
 
 The **Std SelectVisibleObjects** command selects all visible objects. Note that for each [PartDesign body](PartDesign_Body.md) typically two objects will be selected: the body itself and its **Tip** object.
@@ -16,4 +18,7 @@ The **Std SelectVisibleObjects** command selects all visible objects. Note that 
 
 
 
- {{Std Base navi}}  
+ {{Std Base navi}}
+
+---
+[documentation index](../README.md) > Std SelectVisibleObjects

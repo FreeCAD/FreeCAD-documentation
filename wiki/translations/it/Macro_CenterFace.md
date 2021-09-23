@@ -1,5 +1,5 @@
 # Macro CenterFace/it
- {{Macro/it
+{{Macro/it
 |Name=Macro CenterFace
 |Translate=Centro faccia
 |Icon=CenterFace.png
@@ -149,6 +149,5 @@ ver 0.2 07/10/2018 : aggiornamento verso FC 017 \"getGlobalPlacement\"
 
 ver 0.1 29/04/2014
 
-
-
-
+---
+[documentation index](../README.md) > Macro CenterFace/it

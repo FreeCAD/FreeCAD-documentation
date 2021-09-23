@@ -1,6 +1,4 @@
 # DAG view/de
-
-
 ## Einleitung
 
 
@@ -62,4 +60,7 @@ Im [Parametereditor](Std_DlgParameter/de.md) kannst du auch einige Eigenschaften
 
 {{Interface navi
 
-}} {{Std Base navi}} 
+}} {{Std Base navi}}
+
+---
+[documentation index](../README.md) > DAG view/de

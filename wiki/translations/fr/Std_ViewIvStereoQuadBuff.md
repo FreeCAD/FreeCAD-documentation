@@ -7,6 +7,8 @@
    SeeAlso:[Std Stéréo rouge cyan](Std_ViewIvStereoRedGreen/fr.md), [Std Lignes stéréo entrelacées](Std_ViewIvStereoInterleavedRows/fr.md), [Std Colonnes stéréo entrelacées](Std_ViewIvStereoInterleavedColumns/fr.md), [Std Stéréo désactivée](Std_ViewIvStereoOff/fr.md)
 ---
 
+# Std ViewIvStereoQuadBuff/fr
+
 ## Description
 
 La commande **Std Tampon stéréo quadruple** change le mode actif de la [vue 3D](3D_view/fr.md) en mode de visualisation stéréo à quadruple tampon. Pour utiliser ce mode stéréo, une carte graphique spéciale, un écran spécial et des lunettes [avec verres polarisés](https://en.wikipedia.org/wiki/Polarized_3D_system) sont nécessaires.
@@ -42,4 +44,7 @@ FreeCADGui.ActiveDocument.ActiveView.getStereoType()
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ViewIvStereoQuadBuff/fr

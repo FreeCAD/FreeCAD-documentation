@@ -9,6 +9,8 @@
    SeeAlso:[Draft SubelementHighlight](Draft_SubelementHighlight.md)
 ---
 
+# Draft Move/ro
+
 
 </div>
 
@@ -134,8 +136,5 @@ list3 = Draft.move(list1, -2*vector, copy=True)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Move/ro

@@ -1,5 +1,5 @@
 # PartDesign tutorial
-  {{TutorialInfo
+{{TutorialInfo
 |Topic= Sketcher
 |Level= Beginner
 |Time= 15 minutes
@@ -106,4 +106,5 @@ If not, re-edit the MultiTransform operation by double clicking on it in the Tre
 
 We are now finished with the basic workflow for the [PartDesign Workbench](PartDesign_Workbench.md).
 
-
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign tutorial

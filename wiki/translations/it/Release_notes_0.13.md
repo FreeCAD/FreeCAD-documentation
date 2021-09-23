@@ -1,5 +1,5 @@
 # Release notes 0.13/it
- Questo è un riassunto dei cambiamenti più interessanti avvenuti in FreeCAD con la versione più recente. Vedere [qui](http://www.freecadweb.org/tracker/changelog_page.php) per la lista completa delle modifiche.
+Questo è un riassunto dei cambiamenti più interessanti avvenuti in FreeCAD con la versione più recente. Vedere [qui](http://www.freecadweb.org/tracker/changelog_page.php) per la lista completa delle modifiche.
 
 
 <div class="mw-translate-fuzzy">
@@ -151,3 +151,6 @@ Le geometrie (punti, linee e curve) possono essere selezionate trascinando il mo
 -   Per ulteriori informazioni consultare la pagina [OpenSCAD](OpenSCAD_Workbench/it.md) nel wiki di FreeCAD.
 
 [Category:News](Category:News.md) [Category:Documentation](Category:Documentation.md) [Category:Releases](Category:Releases.md)
+
+---
+[documentation index](../README.md) > [News](Category:News.md) > Release notes 0.13/it

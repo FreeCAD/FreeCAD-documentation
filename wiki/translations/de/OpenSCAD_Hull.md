@@ -5,6 +5,8 @@
    Workbenches:[OpenSCAD](OpenSCAD_Workbench/de.md)
 ---
 
+# OpenSCAD Hull/de
+
 ## Beschreibung
 
 Wendet eine Hülle auf ausgewählte Formen an.
@@ -30,4 +32,7 @@ OpenSCAD muss installiert und konfiguriert sein in **Bearbeiten** → **Einstell
 
 {{OpenSCAD_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD Hull/de

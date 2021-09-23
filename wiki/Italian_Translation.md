@@ -10,3 +10,6 @@ Lato mio perferisco, per questi termini tecnici, mantenere l\'inglesismo. So che
 Ho utilizzato Ambiente perchè questo termine è utilizzato spesso anche dai software commerciali, quindi è già familiare a molti nuovi utenti di FreeCAD, ma tutto si può cambiare.
 
 [Category:Wiki/it](Category:Wiki/it.md)
+
+---
+[documentation index](../README.md) > Italian Translation

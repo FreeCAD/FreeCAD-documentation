@@ -8,6 +8,8 @@
    SeeAlso:[Draft Label](Draft_Label.md), [Draft ShapeString](Draft_ShapeString.md)
 ---
 
+# Draft Text
+
 ## Description
 
 The <img alt="" src=images/Draft_Text.svg  style="width:24px;"> **Draft Text** command creates a multi-line text at a given point.
@@ -144,7 +146,5 @@ text3.ViewObject.FontSize = 200
 doc.recompute()
 ```
 
-
-
-
-  
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Text

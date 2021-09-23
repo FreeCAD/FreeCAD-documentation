@@ -8,6 +8,8 @@
    SeeAlso:
 ---
 
+# Mesh FlipNormals/ru
+
 
 </div>
 
@@ -53,4 +55,7 @@
 
 {{Mesh Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh FlipNormals/ru

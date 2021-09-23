@@ -1,7 +1,4 @@
 # Basic Part Design Tutorial/ru
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -169,4 +166,7 @@ Close the Sketcher.
 
 {{Tutorials navi
 
-}} {{PartDesign Tools navi}} {{Sketcher Tools navi}} 
+}} {{PartDesign Tools navi}} {{Sketcher Tools navi}}
+
+---
+[documentation index](../README.md) > Basic Part Design Tutorial/ru

@@ -1,3 +1,4 @@
+# Drawing Save/sv
 ---
 - GuiCommand:/sv   Name:Drawing Save   Name/sv:Drawing Save   Workbenches:[MenuLocation:Drawing → Export page...   Shortcut:none   SeeAlso:[[Drawing Open SVG/sv|Drawing Open SVG](Drawing_Workbench/sv___Drawing]],_Complete.md)---
 
@@ -14,4 +15,7 @@ SVG files are common and can be viewed in most modern browsers and image viewers
 
 {{Drawing Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Save/sv

@@ -6,3 +6,6 @@ This category lists pages related to the [Points Workbench/sv](Points_Workbench/
 [Points Workbench/sv](Points_Workbench/sv.md)
 
 [Category:Workbenches/sv](Category:Workbenches/sv.md)
+
+---
+[documentation index](../README.md) > Category:Points/sv

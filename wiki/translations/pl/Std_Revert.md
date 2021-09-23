@@ -5,6 +5,8 @@
    Workbenches:All
 ---
 
+# Std Revert/pl
+
 ## Description
 
 The **Std Revert** command closes the active document and reopens the last saved version of the document.
@@ -24,4 +26,7 @@ The **Std Revert** command closes the active document and reopens the last saved
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std Revert/pl

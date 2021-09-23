@@ -8,6 +8,8 @@
    SeeAlso:[Std Boîte de délimitation](Std_SelBoundingBox/fr.md)
 ---
 
+# Std DrawStyle/fr
+
 ## Description
 
 La commande **Std DrawStyle** peut remplacer l\'effet de la [propriété](Property_editor/fr.md) du {{PropertyView/fr|Mode d'affichage}} des objets dans une [vue 3D](3D_view/fr.md).
@@ -75,4 +77,7 @@ Le style **Lignes plates** remplace le {{PropertyView/fr|Display Mode}} des obje
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std DrawStyle/fr

@@ -6,6 +6,8 @@
    MenuLocation:Manage → Project
 ---
 
+# BIM Project/ru
+
 
 </div>
 
@@ -29,3 +31,6 @@
 The Project tool supports two kinds of templates: Once you have filled the different options, the contents of the BIM project setup wizard can be **saved** as a template. These templates can be **restored** and adapted at a later time. Project templates are stored as plain text files in your FreeCAD user folder.
 
 Alternatively, you can also save the contents of the current document as a template. This will save the currently opened document as a standard **.FCStd** file, but also include additional BIM settings like the current working plane, or current units. By using the **restore** option anytime, the contents of that template file will be merged into the active document and all settings found in it applied.
+
+---
+[documentation index](../README.md) > BIM Project/ru

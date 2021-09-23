@@ -1,5 +1,5 @@
 # Macro FlattenWire/cs
- {{Macro/cs
+{{Macro/cs
 |Name=FlattenWire
 |Translate=FlattenWire
 |Icon=Macro_FlattenWire.png
@@ -35,6 +35,5 @@ obj.Points = newppoints
 
 }}
 
-
-
-
+---
+[documentation index](../README.md) > Macro FlattenWire/cs

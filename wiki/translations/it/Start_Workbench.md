@@ -1,7 +1,4 @@
 # Start Workbench/it
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -47,3 +44,6 @@ Da questa interfaccia è possibile visualizzare informazioni utili e passare ai 
 
 
 [Category:Start](Category:Start.md) [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Start Workbench/it

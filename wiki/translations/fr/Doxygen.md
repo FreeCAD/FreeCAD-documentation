@@ -1,6 +1,4 @@
 # Doxygen/fr
-
-
 ## A propos 
 
 
@@ -881,3 +879,6 @@ Voir cette réponse dans [Stackoverflow](https://stackoverflow.com/a/35377654) p
 -   [FreeCAD API website](https://www.freecadweb.org/api/)
 
 [Category:Developer\_Documentation](Category:Developer_Documentation.md) [Category:Developer](Category:Developer.md) [Category:3rd Party](Category:3rd_Party.md)
+
+---
+[documentation index](../README.md) > [Developer_Documentation](Category:Developer_Documentation.md) > Doxygen/fr

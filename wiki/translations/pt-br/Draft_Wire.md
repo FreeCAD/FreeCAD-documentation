@@ -8,6 +8,8 @@
    SeeAlso:[Draft Line](Draft_Line.md), [Draft BSpline](Draft_BSpline.md)
 ---
 
+# Draft Wire/pt-br
+
 ## Descrição
 
 The <img alt="" src=images/Draft_Wire.svg  style="width:24px;"> **Draft Wire** command [creates](#Create.md) a polyline, a sequence of several connected line segments. The command can also be used to [join](#Join.md) [Draft Lines](Draft_Line.md) and Draft Wires.
@@ -171,5 +173,5 @@ doc.recompute()
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Wire/pt-br

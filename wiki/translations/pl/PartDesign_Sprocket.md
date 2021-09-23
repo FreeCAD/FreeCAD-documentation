@@ -7,6 +7,8 @@
    Version:0.19
 ---
 
+# PartDesign Sprocket/pl
+
 ## Opis
 
 To narzędzie pozwala na stworzenie profilu 2D koła łańcuchowego. Może on być wypełniony za pomocą funkcji [wyciągnięcia](PartDesign_Pad/pl.md).
@@ -36,4 +38,7 @@ To narzędzie pozwala na stworzenie profilu 2D koła łańcuchowego. Może on by
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Sprocket/pl

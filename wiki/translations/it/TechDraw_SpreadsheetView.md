@@ -7,6 +7,8 @@
    SeeAlso:[Foglio di calcolo](Spreadsheet_Workbench/it.md)
 ---
 
+# TechDraw SpreadsheetView/it
+
 
 </div>
 
@@ -62,4 +64,7 @@ Questo strumento ti consente di posizionare una vista di un [foglio di calcolo](
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw SpreadsheetView/it

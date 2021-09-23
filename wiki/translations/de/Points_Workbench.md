@@ -1,10 +1,4 @@
-# Points Workbench/de
-
-
-
-
-
-<img alt="Punkte Arbeitsbereichssymbol" src=images/Workbench_Points.svg  style="width:128px;">
+# <img alt="Punkte Arbeitsbereichssymbol" src=images/Workbench_Points.svg  style="width:64px;"> Points Workbench/de
 
 ## Einführung
 
@@ -51,3 +45,6 @@ Alle Werkzeuge des Punkte Arbeitsbereichs sind aus dem **Punkte** Menü erreichb
 }} 
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Points Workbench/de

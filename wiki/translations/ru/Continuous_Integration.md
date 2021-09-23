@@ -1,10 +1,4 @@
 # Continuous Integration/ru
-
-
-
-
-
-
 {{TOCright}}
 
 ## Continuous Integration 
@@ -34,3 +28,6 @@ Currently the FreeCAD repository on GitHub will trigger a build on the below two
  
 
 [Category:Developer\_Documentation](Category:Developer_Documentation.md) [Category:Testing](Category:Testing.md)
+
+---
+[documentation index](../README.md) > [Developer_Documentation](Category:Developer_Documentation.md) > Continuous Integration/ru

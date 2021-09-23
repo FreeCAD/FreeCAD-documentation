@@ -1,10 +1,4 @@
 # FreeCAD Docker CLI mode/de
- 
-
-
-
-
-
 {{TOCright}}
 
 ## Übersicht
@@ -78,6 +72,5 @@ Um FreeCAD im Docker Abbild zu starten, führe einfach den Befehl FreeCADCmd aus
 
 FreeCAD Forumsbeitrag: <https://forum.freecadweb.org/viewtopic.php?f=8&t=45877>
 
-
-
-
+---
+[documentation index](../README.md) > FreeCAD Docker CLI mode/de

@@ -6,6 +6,8 @@
    Workbenches:[Points](Points_Workbench/fr.md)
 ---
 
+# Points Merge/fr
+
 ## Description
 
 La commande **Points Fusion** crée un nuage de points en combinant les points de deux ou plusieurs nuages de points.
@@ -25,4 +27,7 @@ Voir [Points Conversion](Points_Convert/fr.md).
 
 {{Points Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Points](Points_Workbench.md) > Points Merge/fr

@@ -7,6 +7,8 @@
    SeeAlso:[Part Compound](Part_Compound.md), [Draft Downgrade](Draft_Downgrade.md)
 ---
 
+# Part ExplodeCompound
+
 ## Description
 
 Tool to split up compounds of shapes, to make each contained shape (child) available as a separate object in model tree. The children are automatically put into a [Group](Std_Group.md) if there is more than one child.
@@ -30,7 +32,5 @@ The tool will also explode non-compound shapes into their lower-level constituen
 -   Obtaining individual contours from multi-contour sketches and faces
 -   Obtaining a pure solid from a solid-in-compound, for use in <img alt="" src=images/Workbench_FEM.svg  style="width:24px;"> [FEM Workbench](FEM_Workbench.md).
 
-
-
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part ExplodeCompound

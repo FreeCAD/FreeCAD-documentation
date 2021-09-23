@@ -1,3 +1,4 @@
+# Part Extrude/tr
 ---
 - GuiCommand:/tr   Name:Part Extrude   Name/tr:Part Extrude   MenuLocation:Part -> Extrude   Workbenches:[[Part_Workbench/tr   Part]], Complete|SeeAlso:---
 
@@ -108,8 +109,5 @@ Part Extrude doesn\'t care where it is in model tree. PartDesign Pad can only li
 
 Part Extrude can extrude any object that has Part Geometry (OCC shape), except for solids and compsolids. And it can\'t extrude individual faces of other objects. PartDesign Pad will only accept a Sketch as a profile (and a small selection of other object types), or a face of a solid.
 
-
-
-
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Extrude/tr

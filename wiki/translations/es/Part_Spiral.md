@@ -1,3 +1,4 @@
+# Part Spiral/es
 ---
 - GuiCommand:/es   Name:Part Spiral   Name/es:Part Spiral   MenuLocation:[Create Primitives](Part_Workbench/es___Part]]_→_[[Part_CreatePrimitives/es.md) → Spiral|Workbenches:[SeeAlso:[[Part_CreatePrimitives/es|Create Primitives](Part_Workbench/es___Part]].md)---
 
@@ -16,8 +17,5 @@ The Create Primitives dialogue can be accessed via the [Primitives](Part_Primiti
 
 ![](images/Spiral_y45_it.png )
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Spiral/es

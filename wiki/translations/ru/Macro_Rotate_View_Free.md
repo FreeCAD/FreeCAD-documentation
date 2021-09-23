@@ -1,5 +1,5 @@
 # Macro Rotate View Free/ru
- {{Macro
+{{Macro
 |Name=Rotate View Free
 |Icon=Text_console_python.png
 |Description=This def pasted in the Python console FreeCAD (or your macro) allows you to rotate the view in 3-axis and the angle (in degrees) give interesting to create a plan to a desired position
@@ -51,6 +51,5 @@ RotateView(0,1,0,45)
 
 If there is not open document an error is returned
 
-
-
-
+---
+[documentation index](../README.md) > Macro Rotate View Free/ru

@@ -1,5 +1,4 @@
-# A2plus Workbench/ru
- <img alt="Иконка верстака A2plus" src=images/A2p_workbench.svg  style="width:128px;">
+# <img alt="Иконка верстака A2plus" src=images/A2p_workbench.svg  style="width:64px;"> A2plus Workbench/ru
 
 ## Введение
 
@@ -632,3 +631,6 @@ while AnimationDialog.isVisible():
 
 
 [Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+
+---
+[documentation index](../README.md) > A2plus Workbench/ru

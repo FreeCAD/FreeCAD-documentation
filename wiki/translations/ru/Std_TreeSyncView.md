@@ -7,6 +7,8 @@
    Shortcut:**T** **1**
 ---
 
+# Std TreeSyncView/ru
+
 
 </div>
 
@@ -31,4 +33,7 @@ The Tree view SyncView mode can also be set in the [Preferences editor](Preferen
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std TreeSyncView/ru

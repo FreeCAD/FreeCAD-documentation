@@ -1,3 +1,4 @@
+# FEM MaterialFluid/ro
 ---
 - GuiCommand:   Name:FEM MaterialFluid   MenuLocation: Model → Material for fluid   |Workbenches:[Shortcut:   SeeAlso:[[FEM_tutorial|FEM tutorial](FEM_Workbench___FEM]].md)---
 
@@ -36,4 +37,7 @@ De completat
 
 {{FEM Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > FEM MaterialFluid/ro

@@ -1,5 +1,5 @@
 # Macro ForceRecompute
-  {{Macro
+{{Macro
 |Name=Macro Force Recompute
 |Icon=Force_Recompute.png
 |Description=This small macro forces a manual recompute of the model.<br>Sometimes the user applies changes to the model in FreeCAD.<br>But FreeCAD does not seem to recognize them.<br>(As of <small>(v0.17)</small>  the effect of this macro can be achieved through GUI. Right-click project in model tree view, and pick "Mark to recompute" from context menu. After that, press Recompute button.)
@@ -41,6 +41,5 @@ FreeCAD.ActiveDocument.recompute()
 
 }}
 
-
-
-
+---
+[documentation index](../README.md) > Macro ForceRecompute

@@ -1,7 +1,4 @@
-# About FreeCAD/pl
- 
-
-<img alt="" src=images/Freecad_default.jpg  style="width:1024px;">
+# <img alt="" src=images/Freecad_default.jpg  style="width:1024px;"> About FreeCAD/pl
 
 **FreeCAD** jest uniwersalnym parametrycznym programem modelującym w przestrzeni 3D [**CAD**](http://en.wikipedia.org/wiki/CAD), którego rozwój odbywa się wyłącznie według zasad [Open Source](http://en.wikipedia.org/wiki/Open_source) \'\'\' *([licencja LGPL](https://www.gnu.org/licenses/lgpl-3.0.en.html))* \'\'\'.
 FreeCAD jest przeznaczony bezpośrednio dla [inżynierii mechanicznej](http://en.wikipedia.org/wiki/Mechanical_engineering) i [projektowania detali i produktów](http://en.wikipedia.org/wiki/Product_design), ale mieści się również w szerszym zakresie zastosowań związanych z inżynierią, takich jak architektura, analiza elementów ukończonych, druk 3D i wiele pokrewnych.
@@ -30,3 +27,6 @@ FreeCAD jest utrzymywany i rozwijany przez społeczność pasjonatów programist
 
 
 [Category:User Documentation](Category:User_Documentation.md)
+
+---
+[documentation index](../README.md) > [User Documentation](Category:User Documentation.md) > About FreeCAD/pl

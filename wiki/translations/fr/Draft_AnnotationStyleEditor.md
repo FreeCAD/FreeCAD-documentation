@@ -8,6 +8,8 @@
    Version:0.19
 ---
 
+# Draft AnnotationStyleEditor/fr
+
 ## Description
 
 La commande <img alt="" src=images/Draft_AnnotationStyleEditor.svg  style="width:24px;"> **Draft Éditeur de styles d\'annotations** vous permet de définir des styles qui affectent les propriétés visuelles des objets de type annotation, comme ceux créés par les commandes [Draft Texte](Draft_Text/fr.md), [Draft Dimension](Draft_Dimension/fr.md) et [Draft Étiquette](Draft_Label/fr.md).
@@ -93,8 +95,5 @@ props = {
 }
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft AnnotationStyleEditor/fr

@@ -7,6 +7,8 @@
    MenuLocation:Gestione → Gestione progetto...
 ---
 
+# BIM Project/it
+
 ## Descrizione
 
 <img alt="" src=images/BIM_project_screenshot.png  style="width:1024px;">
@@ -29,3 +31,6 @@ Lo strumento Progetto supporta due tipi di modelli:
 Dopo aver riempito le diverse opzioni, il contenuto della procedura guidata di installazione del progetto BIM può essere **salvato** come modello. Questi modelli possono essere \"ripristinati\" e adattati in un secondo momento. I modelli di progetto sono memorizzati come file di testo nella cartella utente di FreeCAD.
 
 In alternativa, si può salvare il contenuto del documento corrente come modello. Ciò salva il documento attualmente aperto come un file standard **.FCStd**, ma include anche le impostazioni BIM aggiuntive come il piano di lavoro corrente o le unità correnti. Utilizzando in qualsiasi momento l\'opzione **ripristina**, il contenuto di quel file modello verrà unito al documento attivo e verranno applicate tutte le impostazioni in esso contenute.
+
+---
+[documentation index](../README.md) > BIM Project/it

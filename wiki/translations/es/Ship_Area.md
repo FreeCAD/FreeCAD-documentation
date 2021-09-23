@@ -8,6 +8,8 @@
    SeeAlso:
 ---
 
+# Ship Area/es
+
 ## Descripción
 
 Trazar la curva de áreas transversales
@@ -28,4 +30,7 @@ Trazar la curva de áreas transversales
 
 {{Ship_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > Ship Area/es

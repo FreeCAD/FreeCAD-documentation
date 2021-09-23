@@ -1,3 +1,4 @@
+# PartDesign SubtractivePrism/de
 ---
 - GuiCommand:/de|
 Name=PartDesign SubtractivePrism|
@@ -64,4 +65,7 @@ Das Prisma kann auf zwei verschieden Wege bearbeitet werden:
 
 {{PartDesign Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractivePrism/de

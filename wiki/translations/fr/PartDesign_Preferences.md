@@ -1,10 +1,4 @@
 # PartDesign Preferences/fr
-
-
-
-
-
-
 {{TOCright}}
 
 ## Introduction
@@ -116,3 +110,6 @@ Cliquez avec le bouton droit de la souris sur **Mesh deviation** dans le menu co
 }} 
 
 [Category:Preferences](Category:Preferences.md)
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Preferences/fr

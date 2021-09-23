@@ -1,10 +1,4 @@
 # Getting started/ru
-
-
-
-
-
-
 {{TOCright}}
 
 ## Введение
@@ -253,3 +247,6 @@ Freecad, как программа с открытыми исходниками,
 {{Userdocnavi/ru}}
 
 [Category:User Documentation/ru](Category:User_Documentation/ru.md)
+
+---
+[documentation index](../README.md) > Getting started/ru

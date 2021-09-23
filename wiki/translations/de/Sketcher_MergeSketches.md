@@ -7,6 +7,8 @@
    Version:0.15
 ---
 
+# Sketcher MergeSketches/de
+
 ## Beschreibung
 
 Eine oder mehrere Skizzen in einer Skizze zusammenführen.
@@ -23,4 +25,7 @@ Eine oder mehrere Skizzen in einer Skizze zusammenführen.
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher MergeSketches/de

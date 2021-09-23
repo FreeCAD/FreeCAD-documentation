@@ -1,5 +1,5 @@
 # Import from STL or OBJ/fr
- {{TutorialInfo/fr
+{{TutorialInfo/fr
 |Topic= Importation depuis STL ou OBJ
 |Level= Débutant
 |Time= 30 minutes
@@ -101,3 +101,6 @@ Une autre méthode de fermeture manuelle des trous dans votre objet maillé sera
  
 
 [Category:File\_Formats](Category:File_Formats.md)
+
+---
+[documentation index](../README.md) > [Import](Import_Workbench.md) > Import from STL or OBJ/fr

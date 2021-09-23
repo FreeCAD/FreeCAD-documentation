@@ -1,7 +1,4 @@
 # Tutorial FreeCAD POV ray/de
-
-
-
 **Der [Strahlverfolgungsarbeitsbereich](Ray_Tracing_Workbench/de.md) wird abgelöst durch den neuen [https://github.com/FreeCAD/FreeCAD-render Render-Arbeitsbereich], der als Ersatz geplant ist. Dies darf nicht verwechselt werden mit dem gestoppten und veralteten  [Render-Projekt](Render_project/de.md). Der Render-Arbeitsbereich kann mit dem [Erweiterungsverwalter](AddonManager/de.md) installiert werden. Diese Information wird bereitgestellt, weil FreeCAD als Standardeinstellung (mit Stand 0.19-24276) weiterhin mit dem Raytracing-Arbeitsbereich ausgeliefert wird und der neue Arbeitsbereich generell in der gleichen Weise arbeiten sollte**
 
 
@@ -863,4 +860,7 @@ Dem Benutzer wird empfohlen, die POV-Ray Dokumentation und weitere Tutorials ode
 
 {{Tutorials navi
 
-}} {{Raytracing Tools navi}} 
+}} {{Raytracing Tools navi}}
+
+---
+[documentation index](../README.md) > Tutorial FreeCAD POV ray/de

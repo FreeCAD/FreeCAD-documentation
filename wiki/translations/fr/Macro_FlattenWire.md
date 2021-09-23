@@ -1,5 +1,5 @@
 # Macro FlattenWire/fr
- {{Macro/fr
+{{Macro/fr
 |Name=FlattenWire
 |Icon=Macro_FlattenWire.png
 |Description=Cette macro aplatit les fils (Wire) du projet qui ne sont pas plan à la médiane de leurs coordonnées z
@@ -33,6 +33,5 @@ obj.Points = newppoints
 
 }}
 
-
-
-
+---
+[documentation index](../README.md) > Macro FlattenWire/fr

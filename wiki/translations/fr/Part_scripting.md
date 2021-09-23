@@ -1,7 +1,4 @@
 # Part scripting/fr
-
-
-
 {{TOCright}}
 
 ## Introduction
@@ -156,3 +153,6 @@ Rendez-vous sur la page [Scripts pour création topologique](Topological_data_sc
 }}  
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part scripting/fr

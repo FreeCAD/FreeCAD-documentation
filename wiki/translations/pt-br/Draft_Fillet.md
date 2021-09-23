@@ -8,6 +8,8 @@
    SeeAlso:[Draft Line](Draft_Line.md), [Draft Wire](Draft_Wire.md)
 ---
 
+# Draft Fillet/pt-br
+
 ## Descrição
 
 The <img alt="" src=images/Draft_Fillet.svg  style="width:24px;"> **Draft Fillet** command creates a fillet, a rounded corner, or a chamfer, a straight edge, between two [Draft Lines](Draft_Line.md).
@@ -119,5 +121,5 @@ doc.recompute()
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Fillet/pt-br

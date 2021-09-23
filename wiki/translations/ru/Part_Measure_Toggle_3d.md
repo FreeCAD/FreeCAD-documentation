@@ -7,6 +7,8 @@
    SeeAlso:[Переключить Дельту](Part_Measure_Toggle_Delta/ru.md)
 ---
 
+# Part Measure Toggle 3d/ru
+
 ## Description
 
 This tool toggles the visibility of linear (red) and angular (blue) measurements.
@@ -26,5 +28,5 @@ This tool toggles the visibility of linear (red) and angular (blue) measurements
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Toggle 3d/ru

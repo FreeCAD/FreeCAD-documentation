@@ -8,6 +8,8 @@
    SeeAlso:[표준 잘라내기](Std_Cut/ko.md), [표준 복사](Std_Copy/ko.md), [표준 개체 복제](Std_DuplicateSelection/ko.md)
 ---
 
+# Std Paste/ko
+
 ## 설명
 
 **표준 붙여넣기(Std Paste)** 명령은 클립보드의 개체를 활성 문서에 붙여 넣습니다.
@@ -44,4 +46,7 @@
 
 {{Std Base navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > Std Paste/ko

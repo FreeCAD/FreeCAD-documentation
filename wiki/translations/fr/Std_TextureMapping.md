@@ -6,6 +6,8 @@
    Workbenches:Tous
 ---
 
+# Std TextureMapping/fr
+
 ## Description
 
 La commande **Std Mappage de textures** applique temporairement une texture sur tous les objets dans la [vue 3D](3D_view/fr.md).
@@ -26,4 +28,7 @@ La commande **Std Mappage de textures** applique temporairement une texture sur 
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std TextureMapping/fr

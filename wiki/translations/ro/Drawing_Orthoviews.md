@@ -1,3 +1,4 @@
+# Drawing Orthoviews/ro
 ---
 - GuiCommand:   Name:Drawing Orthoviews   Workbenches:[MenuLocation:Drawing → Insert orthographic views   Shortcut:none   SeeAlso:[[Drawing Landscape A3|Drawing Landscape A3](Drawing_Workbench___Drawing]],_Complete.md)---
 
@@ -68,4 +69,7 @@ De completat
 
 {{Drawing Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Orthoviews/ro

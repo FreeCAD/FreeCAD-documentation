@@ -1,5 +1,5 @@
 # Macro Assemblage Imprimante 3D/it
- {{Macro/it
+{{Macro/it
 |Name=Macro_Assemblage_Imprimante_3D
 |Icon=Macro_Assemblage_Imprimante_3D.png
 |Translate=Simulazione stampante 3D
@@ -112,4 +112,7 @@ animation = Animation()
 
 La pagina della discussione nel forum: [Je galere pour tourner une piece](http://forum.freecadweb.org/viewtopic.php?f=12&t=11782)
 
-Il canale Youtube dell\'autore della macro [FreeCAD: Gear Animation Tutorial](https://www.youtube.com/watch?v=KynMmsLJXV0) e il suo [blog](http://linuxforanengineer.blogspot.com.es/p/me.html) 
+Il canale Youtube dell\'autore della macro [FreeCAD: Gear Animation Tutorial](https://www.youtube.com/watch?v=KynMmsLJXV0) e il suo [blog](http://linuxforanengineer.blogspot.com.es/p/me.html)
+
+---
+[documentation index](../README.md) > Macro Assemblage Imprimante 3D/it

@@ -7,6 +7,8 @@
    SeeAlso:[Komponent utwórz okrąg](Sketcher_CompCreateCircle/pl.md)
 ---
 
+# Sketcher CreateArc/pl
+
 ## Opis
 
 Narzędzie to rysuje łuk, wybierając trzy punkty: środek, kąt początkowy wzdłuż promienia i kąt końcowy.
@@ -26,4 +28,7 @@ Podczas uruchamiania narzędzia kursor myszki zmienia wygląd na biały krzyżyk
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateArc/pl

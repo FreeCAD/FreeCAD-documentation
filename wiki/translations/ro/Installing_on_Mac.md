@@ -1,10 +1,4 @@
 # Installing on Mac/ro
-
-
-
-
-
-
 <div class="mw-translate-fuzzy">
 
 FreeCAD poate fi instalat in Mac OS X intr-un singur pas folosind programul de instalare.
@@ -75,5 +69,5 @@ Asta-i tot.
 
 </div>
 
-
-
+---
+[documentation index](../README.md) > Installing on Mac/ro

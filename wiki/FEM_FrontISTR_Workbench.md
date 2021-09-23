@@ -1,7 +1,4 @@
-# FEM FrontISTR Workbench
- 
-
-<img alt="FEM FrontISTR Workbench icon" src=images/FrontISTR.svg  style="width:128px;">
+# <img alt="FEM FrontISTR Workbench icon" src=images/FrontISTR.svg  style="width:64px;"> FEM FrontISTR Workbench
 
  
 
@@ -102,3 +99,6 @@ Under preparation.
 
 
 [Category:Sandbox](Category:Sandbox.md) [Category:User Documentation](Category:User_Documentation.md) [Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+
+---
+[documentation index](../README.md) > FEM FrontISTR Workbench

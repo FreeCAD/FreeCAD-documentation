@@ -7,6 +7,8 @@
    SeeAlso:[Crea segmenti di mesh](Mesh_Segmentation/it.md)
 ---
 
+# Mesh SegmentationBestFit/it
+
 ## Descrizione
 
 Il comando **Adatta i segmenti** crea segmenti di mesh separati per i tipi di superficie specificati di un oggetto mesh. Il comando può anche identificare i loro parametri che possono essere utili quando si riprogetta un oggetto mesh.
@@ -59,4 +61,7 @@ Il comando **Adatta i segmenti** crea segmenti di mesh separati per i tipi di su
 
 {{Mesh Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh SegmentationBestFit/it

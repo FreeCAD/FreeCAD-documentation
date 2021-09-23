@@ -7,6 +7,8 @@
    SeeAlso:[Расположение...](Std_Placement/ru.md)
 ---
 
+# Std Alignment/ru
+
 ## Описание
 
 The **Std Alignment** command aligns an object in relation to a fixed reference object using one or more point pairs.
@@ -37,4 +39,7 @@ The **Std Alignment** command aligns an object in relation to a fixed reference 
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std Alignment/ru

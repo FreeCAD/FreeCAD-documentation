@@ -5,6 +5,8 @@
    Workbenches:[Assembly3](Assembly3_Workbench.md)
 ---
 
+# Assembly3 ConstraintSymmetricVertical/en
+
 ## Description
 
 This tool builds a link between two objects of an assembly. The selected elements of each object or more precisely their implicit coordinate systems (ICS) are used to position the objects to each other.
@@ -18,8 +20,5 @@ Based on one planar element\'s ICS both other elements\' ICSs\' origins are posi
 3.  Select a planar element of the other object
 4.  Press the **<img src="images/Assembly_ConstraintGeneral.svg" width=16px> [Symmetric vertical](Assembly3_ConstraintSymmetricVertical.md)** button.
 
-
-
-
-
-
+---
+[documentation index](../README.md) > Assembly3 ConstraintSymmetricVertical/en

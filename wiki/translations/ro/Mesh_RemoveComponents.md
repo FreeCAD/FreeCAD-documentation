@@ -1,3 +1,4 @@
+# Mesh RemoveComponents/ro
 ---
 - GuiCommand:   Name:Mesh RemoveComponents‏‎   MenuLocation:Meshes → Remove components   Workbenches:[[Mesh Workbench   Mesh]]|Shortcut:   SeeAlso:---
 
@@ -51,4 +52,7 @@ Dacă este marcată \"Selectați întreaga componentă\", selectați întreaga c
 
 {{Mesh Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh RemoveComponents/ro

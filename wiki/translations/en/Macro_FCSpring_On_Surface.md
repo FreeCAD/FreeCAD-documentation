@@ -1,5 +1,5 @@
 # Macro FCSpring On Surface/en
- {{Macro
+{{Macro
 |Name=Macro FCSpring On Surface
 |Icon=FCSpring_On_Surface.png
 |Description=This macro creates a helix (or spring) around a solid object whatever its shape, the helix follows the entire surface of the object (Python2 is request)<br />Download the [https://www.freecadweb.org/wiki/images/3/38/FCSpring_On_Surface.png toolBar icon]
@@ -620,3 +620,6 @@ MainWindow.show()
 The Genesis [Zwei Helix - ein Sweep](https://forum.freecadweb.org/viewtopic.php?f=13&t=41627)
 
 The original code [How to intersect a line with a part](https://www.forum.freecadweb.org/viewtopic.php?f=22&t=5456#p44194) by wandererfan
+
+---
+[documentation index](../README.md) > Macro FCSpring On Surface/en

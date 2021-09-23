@@ -1,10 +1,4 @@
 # Installing on Mac/zh-cn
-
-
-
-
-
-
 <div class="mw-translate-fuzzy">
 
 FreeCAD 通过安装器在 Mac OS X 上安装只需要一步。
@@ -73,5 +67,5 @@ The FreeCAD installer is provided as a app package (.app) enclosed in a disk ima
 
 </div>
 
-
-
+---
+[documentation index](../README.md) > Installing on Mac/zh-cn

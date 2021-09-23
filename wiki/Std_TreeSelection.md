@@ -7,6 +7,8 @@
    Version:0.19
 ---
 
+# Std TreeSelection
+
 ## Description
 
 The **Std TreeSelection** command scrolls the [Tree view](Tree_view.md) to the first created object in a [3D view](3D_view.md) selection.
@@ -25,4 +27,7 @@ If the Tree view [SyncSelection](Std_TreeSyncSelection.md) mode is off, the Tree
 
 
 
- {{Std Base navi}}  
+ {{Std Base navi}}
+
+---
+[documentation index](../README.md) > Std TreeSelection

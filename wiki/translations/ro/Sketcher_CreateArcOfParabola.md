@@ -8,6 +8,8 @@
    SeeAlso:[Sketcher arc de elipsă](Sketcher_CreateArcOfEllipse.md), [Sketcher arc de Hiperbolă](Sketcher_CreateArcOfHyperbola.md)
 ---
 
+# Sketcher CreateArcOfParabola/ro
+
 
 </div>
 
@@ -40,4 +42,7 @@ Acest instrument crează un arc de parabolă definit prin focar, vertex și endp
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateArcOfParabola/ro

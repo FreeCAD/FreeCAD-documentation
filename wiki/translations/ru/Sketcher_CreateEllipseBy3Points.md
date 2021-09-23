@@ -8,6 +8,8 @@
    SeeAlso:[Создать эллипс от центра](Sketcher_CreateEllipseByCenter/ru.md), [Создать окружность](Sketcher_CreateCircle/ru.md), [Создать дугу эллипса](Sketcher_CreateArcOfEllipse/ru.md)
 ---
 
+# Sketcher CreateEllipseBy3Points/ru
+
 ## Описание
 
 Этот инструмент рисует эллипс, по трем указанным точкам : (1) периапсис (первое пересечение более длинного диаметра с эллипсом), (2) апоапсис (второе пересечение более длинного диаметра с эллипсом), (3) одна точка на стороне большего диаметра (a) определяющая малый радиус (b). (c) является результирующим центром и (f) точкой фокуса.
@@ -39,4 +41,7 @@
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateEllipseBy3Points/ru

@@ -7,6 +7,8 @@
    Version:0.17
 ---
 
+# Spreadsheet AlignTop/fr
+
 ## Description
 
 L\'outil **<img src=images/Spreadsheet_AlignTop.svg style="width:16px"> [Spreadsheet Alignement en bas](Spreadsheet_AlignTop/fr.md)** aligne le texte à l\'intérieur de la cellule en haut de la cellule.
@@ -23,4 +25,7 @@ L\'outil **<img src=images/Spreadsheet_AlignTop.svg style="width:16px"> [Spreads
 
 {{Spreadsheet_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet AlignTop/fr

@@ -8,6 +8,8 @@
    SeeAlso:[PartDesign Primitives additives](PartDesign_CompPrimitiveAdditive/fr.md)
 ---
 
+# PartDesign AdditiveTorus/fr
+
 ## Description
 
 Insérer un tore Primitif dans un corps actif (body) comme fonction de base, ou le fusionne aux fonctions existantes.
@@ -50,4 +52,7 @@ Le Tore peut être éditée après sa création de deux façons :
 
 {{PartDesign Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveTorus/fr

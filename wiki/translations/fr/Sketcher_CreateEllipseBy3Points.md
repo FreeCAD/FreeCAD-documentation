@@ -8,6 +8,8 @@
    SeeAlso:[Sketcher Ellipse par son centre](Sketcher_CreateEllipseByCenter/fr.md), [Sketcher Cercle](Sketcher_CreateCircle/fr.md), [Sketcher Arc d'ellipse](Sketcher_CreateArcOfEllipse/fr.md)
 ---
 
+# Sketcher CreateEllipseBy3Points/fr
+
 ## Description
 
 Cet outil trace une ellipse à partir de trois points : (1) la périapside (premier croisement du plus grand diamètre avec l\'ellipse), (2) l\'apoapside (le second croisement du plus grand diamètre avec l\'ellipse), (3) un point du côté du plus grand diamètres plus long (a) définissant le rayon mineur (b). (c) est le centre résultant et (f) sont les points focaux.
@@ -39,4 +41,7 @@ Lors du lancement de l\'outil, le pointeur de la souris change pour une croix bl
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateEllipseBy3Points/fr

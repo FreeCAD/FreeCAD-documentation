@@ -6,6 +6,8 @@
    SeeAlso:[Std Group](Std_Group.md), [Draft AddConstruction](Draft_AddConstruction.md), [Draft AutoGroup](Draft_AutoGroup.md), [Draft SelectGroup](Draft_SelectGroup.md)
 ---
 
+# Draft AddToGroup/pt-br
+
 ## Description
 
 The <img alt="" src=images/Draft_AddToGroup.svg  style="width:24px;"> **Draft AddToGroup** command moves objects to a [Std Group](Std_Group.md). It can also ungroup objects.
@@ -39,5 +41,5 @@ In FreeCAD version 0.20 the command can also handle group-like [Arch](Arch_Workb
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft AddToGroup/pt-br

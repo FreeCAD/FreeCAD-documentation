@@ -10,3 +10,6 @@ Les longs textes doivent être placés dans la page elle-même, de manière à p
 [Template:Obsolete/fr](Template:Obsolete/fr.md) , [Template:Version/fr](Template:Version/fr.md) , [Template:VersionMinus/fr](Template:VersionMinus/fr.md) , [Template:VersionPlus/fr](Template:VersionPlus/fr.md)
 
 [Category:Template/fr](Category:Template/fr.md)
+
+---
+[documentation index](../README.md) > Category:Template:Text/fr

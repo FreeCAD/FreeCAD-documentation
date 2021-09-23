@@ -1,6 +1,4 @@
 # App GeoFeature
- 
-
 ## Introduction
 
  <img alt="" src=images/Feature.svg  style="width:32px;"> 
@@ -141,4 +139,7 @@ obj.Label = "Custom label"
 
 For example, the [Arch BuildingPart](Arch_BuildingPart.md) element of the [Arch Workbench](Arch_Workbench.md) is an `App::GeometryPython` object with a custom icon.
 
- {{Document objects navi}} 
+ {{Document objects navi}}
+
+---
+[documentation index](../README.md) > App GeoFeature

@@ -1,9 +1,4 @@
 # Import Export/it
- 
-
-
-
-
 ## Introduzione
 
 
@@ -147,3 +142,6 @@ Per maggiori informazioni consultare queste pagine:
 
 
 [Category:File\_Formats](Category:File_Formats.md)
+
+---
+[documentation index](../README.md) > [Import](Import_Workbench.md) > Import Export/it

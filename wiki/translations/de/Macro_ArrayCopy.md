@@ -1,5 +1,5 @@
 # Macro ArrayCopy/de
- {{Macro/de
+{{Macro/de
 |Name=ArrayCopy
 |Icon=Macro_ArrayCopy.png
 |Description=Dieses Makro kopiert das ausgewählte Objekt mehrmals in ein Array-Raster
@@ -83,3 +83,5 @@ dialog.show()
 
 }}
 
+---
+[documentation index](../README.md) > Macro ArrayCopy/de

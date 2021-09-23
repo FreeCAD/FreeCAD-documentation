@@ -7,6 +7,8 @@
    Version:0.17
 ---
 
+# Spreadsheet MergeCells/it
+
 ## Descrizione
 
 Lo strumento <img alt="" src=images/Spreadsheet_MergeCells.svg  style="width:16px;"> **Unisci le celle** unisce almeno due celle selezionate in un foglio di calcolo esistente nel documento attivo.
@@ -23,4 +25,7 @@ Lo strumento <img alt="" src=images/Spreadsheet_MergeCells.svg  style="width:16p
 
 {{Spreadsheet_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet MergeCells/it

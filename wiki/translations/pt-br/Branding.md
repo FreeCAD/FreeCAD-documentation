@@ -1,10 +1,4 @@
 # Branding/pt-br
-
-
-
-
-
-
 {{TOCright}}
 
 ## Visão geral 
@@ -130,3 +124,6 @@ Todas as etiquetas listadas são opcionais.
 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Branding/pt-br

@@ -1,5 +1,5 @@
 # Scripted Parts: Ball Bearing - Part 2/it
- {{TutorialInfo/it
+{{TutorialInfo/it
 |Topic= Parti con script - Cuscinetto a sfere - #2
 |Level= Base
 |Time= 30 min
@@ -190,3 +190,6 @@ Gui.SendMsgToActiveView("ViewFit")
 }} 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Scripted Parts: Ball Bearing - Part 2/it

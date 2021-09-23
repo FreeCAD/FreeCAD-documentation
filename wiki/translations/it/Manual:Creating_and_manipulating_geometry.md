@@ -1,7 +1,4 @@
 # Manual:Creating and manipulating geometry/it
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -258,3 +255,6 @@ Tutto quanto detto sopra, e molto altro ancora, è spiegato in dettaglio nella p
 }} 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Manual:Creating and manipulating geometry/it

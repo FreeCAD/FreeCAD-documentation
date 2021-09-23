@@ -8,6 +8,8 @@
    SeeAlso:[PartDesign Balayage additif](PartDesign_AdditivePipe/fr.md), [PartDesign Lissage soustractif](PartDesign_SubtractiveLoft/fr.md)
 ---
 
+# PartDesign AdditiveLoft/fr
+
 ## Description
 
 Le **Lissage additif** crée un solide dans le Corps actif en faisant une transition entre deux ou plusieurs esquisses (également appelées sections transversales). Si le corps contient déjà des éléments, le lissage additif sera fusionné avec eux.
@@ -86,4 +88,7 @@ Le **Lissage additif** crée un solide dans le Corps actif en faisant une transi
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveLoft/fr

@@ -1,10 +1,4 @@
-# Std Macro Menu/it
-
-
-
-
-
-<img alt="Icona di base" src=images/Freecad.svg  style="width:128px;">
+# <img alt="Icona di base" src=images/Freecad.svg  style="width:64px;"> Std Macro Menu/it
 
 
 {{TOCright}}
@@ -68,3 +62,6 @@ In questo menu sono disponibili i seguenti strumenti:
 }}  
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > [Workbenches](Category:Workbenches.md) > Std Macro Menu/it

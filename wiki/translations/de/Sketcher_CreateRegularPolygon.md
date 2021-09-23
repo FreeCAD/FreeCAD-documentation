@@ -6,6 +6,8 @@
    Workbenches:[Arbeitsbereich Skizze](Sketcher_Workbench/de.md)
 ---
 
+# Sketcher CreateRegularPolygon/de
+
 ## Beschreibung
 
 Zeichnet ein regelmäßiges Polygon, das in einen Kreis der Konstruktionsgeometrie eingeschrieben ist. Beim Starten des Werkzeugs erscheint ein Eingabefeld, in dem die Anzahl der Seiten des regulären Polygons abgefragt wird. Sobald die Taste **OK** gedrückt wird, verwandelt sich der Mauszeiger in ein weißes Kreuz mit einem roten Sechseck-Symbol. Die Koordinaten des Zeigers werden daneben in Echtzeit blau dargestellt.
@@ -34,4 +36,7 @@ Der umschriebene Kreis ist Konstruktionsgeometrie, die nur bei der Bearbeitung d
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateRegularPolygon/de

@@ -1,3 +1,4 @@
+# Part SimpleCopy/it
 ---
 - GuiCommand:/it   Name:Part SimpleCopy‎‏‎   Name/it:Copia semplice   MenuLocation:Part → Crea una copia → Copia semplice   Workbenches:[SeeAlso:[[Draft_Clone/it   Clona](Part_Workbench/it___Part]].md), [Copia](Std_Copy/it.md), [Duplica Selezione](Std_DuplicateSelection/it.md), [Copia trasformata](Part_TransformedCopy/it.md), [Copia elemento](Part_ElementCopy/it.md), [Affina forma](Part_RefineShape/it.md)|Icon:Tree_Part.svg   Icon:Tree_Part.svg---
 
@@ -34,5 +35,5 @@ La copia ha una semplice proprietà vista come qualsiasi altra [Part Feature](Pa
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part SimpleCopy/it

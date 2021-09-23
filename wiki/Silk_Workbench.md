@@ -1,5 +1,5 @@
 # Silk Workbench
-  *align=center|The Silk External Workbench Icon*
+*align=center|The Silk External Workbench Icon*
 
 ## Description
 
@@ -22,3 +22,6 @@ Recommended install is via the <img alt="" src=images/AddonManager.svg  style="w
  
 
 [Category:Silk](Category:Silk.md) [Category:External Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)
+
+---
+[documentation index](../README.md) > Silk Workbench

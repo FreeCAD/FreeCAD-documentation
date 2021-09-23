@@ -7,6 +7,8 @@
    SeeAlso:[Draft Arc](Draft_Arc.md), [Draft Circle](Draft_Circle.md)
 ---
 
+# Draft Arc 3Points/pt-br
+
 ## Descrição
 
 The <img alt="" src=images/Draft_Arc_3Points.svg  style="width:24px;"> **Draft Arc 3Points** command creates a circular arc in the current [working plane](Draft_SelectPlane.md) from three points that define its circumference. The center and radius are calculated from these points.
@@ -101,5 +103,5 @@ doc.recompute()
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Arc 3Points/pt-br

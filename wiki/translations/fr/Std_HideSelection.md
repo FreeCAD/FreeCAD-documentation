@@ -7,6 +7,8 @@
    SeeAlso:[Std Basculer la visibilité](Std_ToggleVisibility/fr.md), [Std Afficher la sélection](Std_ShowSelection/fr.md), [Std Basculer tous les objets](Std_ToggleObjects/fr.md), [Std Afficher les objets](Std_ShowObjects/fr.md), [Std Masquer tous les objets](Std_HideObjects.md)
 ---
 
+# Std HideSelection/fr
+
 ## Description
 
 La commande **Std Masquer la sélection** masque les objets sélectionnés dans la [Vues 3D](3D_view/fr.md).
@@ -41,4 +43,7 @@ Pour un exemple de script, voir [Std Basculer la visibilité](Std_ToggleVisibili
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std HideSelection/fr

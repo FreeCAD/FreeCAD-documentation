@@ -9,6 +9,8 @@
    SeeAlso:[Un passo](Std_DebugInto/it.md), [Attiva/disattiva punto di interruzione](Std_ToggleBreakpoint/it.md)
 ---
 
+# Std MacroStepOver/it
+
 ## Descrizione
 
 In questo momento questo comando non funziona.
@@ -25,4 +27,7 @@ In questo momento questo comando non funziona.
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std MacroStepOver/it

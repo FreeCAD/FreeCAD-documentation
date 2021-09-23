@@ -1,6 +1,4 @@
 # Artwork Fem/ru
- 
-
 Эти иконки находятся в указанной исходной папке.
 
 Для всех иконок в исходнике смотри [Художественное оформление](Artwork/ru.md).
@@ -17,3 +15,6 @@
 }} 
 
 [Category:FEM](Category:FEM.md)
+
+---
+[documentation index](../README.md) > [FEM](Category:FEM.md) > Artwork Fem/ru

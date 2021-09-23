@@ -7,6 +7,8 @@
    Version:0.15
 ---
 
+# Sketcher CreateTriangle/fr
+
 ## Description
 
 Dessine un triangle équilatéral inscrit dans un cercle.
@@ -32,4 +34,7 @@ Le cercle circonscrit est la géométrie de construction, qui n\'est visible que
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateTriangle/fr

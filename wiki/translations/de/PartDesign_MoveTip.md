@@ -1,3 +1,4 @@
+# PartDesign MoveTip/de
 ---
 - GuiCommand:/de
    Name:PartDesign MoveTip
@@ -56,4 +57,7 @@ Die Spitze wird im Modellbaum durch einen kleinen weißen Abwärtspfeil in einem
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign MoveTip/de

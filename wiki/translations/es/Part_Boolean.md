@@ -1,3 +1,4 @@
+# Part Boolean/es
 ---
 - GuiCommand:/es   Name:Part Booleans   Name/es:Part Booleans   MenuLocation:Part → Booleans   Workbenches:[SeeAlso:[[Part Union/es|Part Union](Part_Workbench/es___Part]].md), [Part Common](Part_Common/es.md) and [Part Cut](Part_Cut/es.md)---
 
@@ -66,8 +67,5 @@ In cases of coplanarity, even if the first boolean operation succeeds, subsequen
 
 *Left: shapes that share a face, a boolean union may produce incorrect results. Right: shapes that intersect each other clearly, the boolean union will be successful in most cases.*
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Boolean/es

@@ -7,6 +7,8 @@
    Version:0.19
 ---
 
+# Rocket BodyTube/fr
+
 ## Description
 
 Les tubes du corps sont la pierre angulaire de toutes les fusées. Il contient généralement le moteur et la charge utile, et le serveur comme point de fixation pour les ailettes et la coiffe.
@@ -62,3 +64,6 @@ A définir
 
 
 [Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+
+---
+[documentation index](../README.md) > [API/fr]] et ](Category:API/fr]] et .md) > Rocket BodyTube/fr

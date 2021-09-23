@@ -7,6 +7,8 @@
    SeeAlso:[FEM tutorial](FEM_tutorial.md)
 ---
 
+# FEM Examples
+
 ## Description
 
 [FEM Examples](FEM_Examples.md) launches a graphical interface that allows you to access the different examples available in the <img alt="" src=images/Workbench_FEM.svg  style="width:24px;"> [FEM](FEM_Workbench.md) workbench.
@@ -24,4 +26,7 @@
 
 
 
- {{FEM Tools navi}}  
+ {{FEM Tools navi}}
+
+---
+[documentation index](../README.md) > FEM Examples

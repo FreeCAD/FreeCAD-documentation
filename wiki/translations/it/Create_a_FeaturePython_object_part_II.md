@@ -1,7 +1,4 @@
 # Create a FeaturePython object part II/it
-
-
-
 {{docnav/it|[Oggetti FeaturePython](FeaturePython_Objects/it.md)|[Esempi di script](Scripting_examples/it.md)}}
 
 
@@ -402,3 +399,6 @@ class ViewProviderBox:
 }} 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Create a FeaturePython object part II/it

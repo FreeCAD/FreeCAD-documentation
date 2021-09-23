@@ -7,6 +7,8 @@
    SeeAlso:[TechDraw Dimensión Diámetro](TechDraw_Dimension_Diameter/es.md)
 ---
 
+# TechDraw RadiusDimension/es
+
 
 </div>
 
@@ -69,4 +71,7 @@ rc = page.addView(dim1)
 
 {{TechDraw Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw RadiusDimension/es

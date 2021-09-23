@@ -1,3 +1,4 @@
+# Robot Edge2Trac/ru
 ---
 - GuiCommand:/ru
    Name:Robot Edge2Trac
@@ -41,4 +42,7 @@ You are able to change values for this trajectory by defining a <img alt="" src=
 
 {{Robot_Tools_navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot Edge2Trac/ru

@@ -7,6 +7,8 @@
    SeeAlso:[Zaokrąglenie](Part_Fillet/pl.md)
 ---
 
+# Part Chamfer/pl
+
 ## Opis
 
 Fazuje wybraną krawędź obiektu. Okno dialogowe pozwala wybrać krawędź do pracy, jak również modyfikować różne parametry fazowania.
@@ -151,8 +153,5 @@ FreeCAD.ActiveDocument.recompute()
 
 -   Ponownie oblicza wszystkie zmienione elementy na ekranie i odświeża widok.
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Chamfer/pl

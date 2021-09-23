@@ -1,6 +1,4 @@
 # PartDesign Feature/es
-
-
 ## Introducción
 
 A [PartDesign Feature](PartDesign_Feature.md) refers to a \"step\" in the modelling process that happens inside of a [PartDesign Body](PartDesign_Body.md). For example, each time you add a solid box with [PartDesign AdditiveBox](PartDesign_AdditiveBox.md), you add a feature; when you add a chamfer to an edge with [PartDesign Chamfer](PartDesign_Chamfer.md), you add another feature; when you cut a hole using a [sketch](Sketch.md) and [PartDesign Pocket](PartDesign_Pocket.md), you add another feature.
@@ -81,4 +79,7 @@ App.ActiveDocument.recompute()
 
 {{PartDesign Tools navi
 
-}} {{Document objects navi}} 
+}} {{Document objects navi}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Feature/es

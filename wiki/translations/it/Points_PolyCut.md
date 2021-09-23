@@ -8,6 +8,8 @@
    SeeAlso:
 ---
 
+# Points PolyCut/it
+
 
 <div class="mw-translate-fuzzy">
 
@@ -54,4 +56,7 @@ The **Points PolyCut** command cuts points from point clouds.
 
 {{Points Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Points](Points_Workbench.md) > Points PolyCut/it

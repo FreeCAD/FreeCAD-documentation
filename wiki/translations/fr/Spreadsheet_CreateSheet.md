@@ -7,6 +7,8 @@
    Version:0.17
 ---
 
+# Spreadsheet CreateSheet/fr
+
 ## Description
 
 L\'outil **<img src=images/Spreadsheet_CreateSheet.svg style="width:16px"> [Spreadsheet Création d'une feuille de calcul](Spreadsheet_CreateSheet.md)** ajoute un nouvel objet de feuille de calcul au document actif qui sera ouvert dans un nouvel onglet dans la [Zone de vue principale](main_view_area/fr.md).
@@ -23,4 +25,7 @@ L\'outil **<img src=images/Spreadsheet_CreateSheet.svg style="width:16px"> [Spre
 
 {{Spreadsheet_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet CreateSheet/fr

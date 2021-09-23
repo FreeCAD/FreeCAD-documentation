@@ -1,5 +1,5 @@
 # Macro FCTreeView/fr
- {{Macro/fr
+{{Macro/fr
 |Name=Macro FCTreeView
 |Icon=Macro_FCTreeView.png
 |Description=Cette macro affiche tous les objets du projet dans une liste avec des options de tri avancées.<br/> <br/>Pour la version précédente voir [https://gist.githubusercontent.com/mario52a/67517ef758ff20005d0a6adcfd8c9190/raw/0a92d7f591a0a179f84b2fc417046723b4d7b0e6/Macro_FCTreeView.FCMacro Macro_FCTreeView.FCMacro] et installez la manuellement.
@@ -293,3 +293,6 @@ ver 00.03 (23/09/2017) : ajout recherche par type d\'objet
 ver 00.02 (11/09/2017) : modifié pour docker et limiter les multiples instances avec bouton flip/flop (macro caché/visible)
 
 ver 00.01 (08/09/2017) :
+
+---
+[documentation index](../README.md) > Macro FCTreeView/fr

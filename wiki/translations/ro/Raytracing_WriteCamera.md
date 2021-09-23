@@ -1,3 +1,4 @@
+# Raytracing WriteCamera/ro
 ---
 - GuiCommand:/ro   Name:Raytracing Camera   Name/ro:Raytracing Camera‏‎‏‎    MenuLocation:Raytracing → Camera‏‎   |Workbenches:[[Raytracing Workbench/ro   Raytracing]]|Shortcut:   SeeAlso:---
 
@@ -28,4 +29,7 @@ Exportă proprietățile curente ale camerei într-un fișier pov pentru a fi ut
 
 {{Raytracing_Tools_navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing WriteCamera/ro

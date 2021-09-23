@@ -1,5 +1,5 @@
 # Macro Geneva Wheel GUI/fr
- {{Macro/fr
+{{Macro/fr
 |Name=Geneva Wheel GUI
 |Icon=GW_Dim.png
 |Description=Macro avec interface graphique qui permet à l'utilisateur de créer un mécanisme de roue de Genève à partir de zéro. Cette macro est basée sur la macro de [Drei](User:Drei.md) [Macro Geneva Wheel](Macro_Geneva_Wheel/fr.md)
@@ -232,4 +232,7 @@ p()
 
 ## Liens
 
-Cette macro est la version graphique de l\'original [Macro Geneva Wheel](Macro_Geneva_Wheel/fr.md) créé par [Drei](User:Drei.md) 
+Cette macro est la version graphique de l\'original [Macro Geneva Wheel](Macro_Geneva_Wheel/fr.md) créé par [Drei](User:Drei.md)
+
+---
+[documentation index](../README.md) > Macro Geneva Wheel GUI/fr

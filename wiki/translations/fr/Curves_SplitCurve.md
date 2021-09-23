@@ -6,6 +6,8 @@
    Workbenches:[Curves](Curves_Workbench/fr.md)
 ---
 
+# Curves SplitCurve/fr
+
 ## Description
 
 <img alt="" src=images/Curves_SplitCurve.svg  style="width:24px;"> [Séparateur courbe](Curves_SplitCurve/fr.md) divise le bord sélectionné. Cet outil fait partie des [ateliers externes](External_workbenches/fr.md) appelé [Curves](Curves_Workbench/fr.md).
@@ -31,4 +33,7 @@
 
 {{Curves Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > Curves SplitCurve/fr

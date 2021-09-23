@@ -1,6 +1,4 @@
 # Mesh/de
-
-
 ## Einleitung
 
 In FreeCAD wird das Wort \"[Polygonnetz](Mesh/de.md)\" normalerweise verwendet, um sich auf ein [Polygonnetz PolygonnetzObjekt](Mesh_MeshObject/de.md) (`Mesh::MeshObject` Klasse) zu beziehen, ein Objekttyp, der 3D Daten definiert, aber kein Volumenkörper \"[Form](Shape/de.md)\" ist.
@@ -42,3 +40,6 @@ Für weitere Informationen siehe [FEM Arbeitsbereich](FEM_Workbench/de.md) und [
 }} {{FEM Tools navi}} {{Document objects navi}} 
 
 [Category:Glossary](Category:Glossary.md)
+
+---
+[documentation index](../README.md) > [Glossary](Category:Glossary.md) > Mesh/de

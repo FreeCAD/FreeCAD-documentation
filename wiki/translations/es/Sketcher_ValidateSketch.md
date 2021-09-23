@@ -7,6 +7,8 @@
    SeeAlso:[Croquizador RestringirCoincidencia](Sketcher_ConstrainCoincident/es.md), [Problema de denominación topológica](Topological_naming_problem/es.md)
 ---
 
+# Sketcher ValidateSketch/es
+
 ## Descripción
 
 La utilidad **Validar croquis** puede utilizarse para analizar y reparar un croquis que ya no es editable o que tiene restricciones no válidas, o para añadir las restricciones [coincidentes](Sketcher_ConstrainCoincident/es.md) que faltan a un croquis creado a partir de geometría importada, como los archivos DXF. También puede ser útil para localizar una coincidencia que falta en un boceto nativo que genera un error de \"no se puede validar la cara rota\" al intentar aplicar una función de DiseñoPieza.
@@ -78,4 +80,7 @@ The locking mechanism typically works well and this tool should not be needed. *
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ValidateSketch/es

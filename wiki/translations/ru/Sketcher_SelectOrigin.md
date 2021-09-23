@@ -8,6 +8,8 @@
    Version:0.15
 ---
 
+# Sketcher SelectOrigin/ru
+
 ## Описание
 
 Selects the origin of a sketch.
@@ -24,4 +26,7 @@ Selects the origin of a sketch.
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectOrigin/ru

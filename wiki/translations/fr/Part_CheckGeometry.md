@@ -6,6 +6,8 @@
    Workbenches:[Part](Part_Workbench/fr.md)
 ---
 
+# Part CheckGeometry/fr
+
 ## Description
 
 L\'outil **<img src="images/Part_CheckGeometry.svg" width=16px> [Part Vérifier la géométrie](Part_CheckGeometry/fr.md)** exécute une vérification et indique si la géométrie est un solide valide. L\'outil vérifie si la [Représentation par les Bords](https://fr.wikipedia.org/wiki/B-Rep) (BRep ou [B-rep](Glossary/fr#B.md)) du modèle est valide.
@@ -36,8 +38,5 @@ Si cette case est cochée, une vérification supplémentaire des opérations boo
 
 Si cette case est cochée, toutes les erreurs trouvées sont également enregistrées dans la [Vue rapport](Report_view/fr.md). {{Version/fr|0.19}}
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part CheckGeometry/fr

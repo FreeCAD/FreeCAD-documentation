@@ -6,6 +6,8 @@
    Workbenches:[Part](Part_Workbench/fr.md)
 ---
 
+# Part ReverseShapes/fr
+
 ## Description
 
 Inverse les normales de toutes les faces de l\'objet sélectionné.
@@ -31,8 +33,5 @@ Vous pouvez le vérifier en
 
 ## Script
 
-
-
-
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part ReverseShapes/fr

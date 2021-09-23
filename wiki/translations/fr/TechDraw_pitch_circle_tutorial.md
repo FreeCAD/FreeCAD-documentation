@@ -1,7 +1,4 @@
 # TechDraw pitch circle tutorial/fr
-
-
-
 {{TutorialInfo/fr
 |Topic=TechDraw
 |Level=Débutant
@@ -44,4 +41,7 @@ Ce tutoriel explique comment ajouter un cercle imaginaire à une vue <img alt=""
 
 {{TechDraw Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw pitch circle tutorial/fr

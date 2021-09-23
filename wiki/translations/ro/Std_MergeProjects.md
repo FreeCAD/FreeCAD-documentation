@@ -1,3 +1,4 @@
+# Std MergeProjects/ro
 ---
 - GuiCommand:/ro   Name:Std MergeProject   Name/ro:Fuzionați Proiectul   Workbenches:All   MenuLocation:[[Std File Menu/ro   File]] → Fuzionați Proiectul|Shortcut:   SeeAlso:---
 
@@ -45,4 +46,7 @@ The **Std MergeProjects** command adds the contents of a FreeCAD file into the a
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std MergeProjects/ro

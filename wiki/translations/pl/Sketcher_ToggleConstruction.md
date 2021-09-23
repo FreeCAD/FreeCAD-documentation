@@ -6,6 +6,8 @@
    Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
 ---
 
+# Sketcher ToggleConstruction/pl
+
 ## Opis
 
 To narzędzie przełącza geometrię do / z trybu konstrukcyjnego. Może być użyte na dowolnym typie geometrii: linii, łuku czy okręgu.
@@ -47,4 +49,7 @@ i kiedy **<img src=images/Sketcher_LeaveSketch.svg style="width:16px"> [opuścis
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ToggleConstruction/pl

@@ -1,6 +1,4 @@
 # Developer hub/ko
-
-
 ![150](images/Crystal_Clear_app_tutorials.png )
 
 이곳은 FreeCAD 개발에 기여하고 싶다면 올 장소입니다.
@@ -195,3 +193,6 @@ FreeCAD, though usable in certain areas, is at the beginning of a long way into 
 
 
 [Category:Hubs](Category:Hubs.md) [Category:Developer Documentation](Category:Developer_Documentation.md)
+
+---
+[documentation index](../README.md) > [Hubs](Category:Hubs.md) > Developer hub/ko

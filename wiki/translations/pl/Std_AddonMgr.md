@@ -8,6 +8,8 @@
    SeeAlso:[Zewnętrzne Środowiska pracy](External_workbenches/pl.md), [Makrodefinicje](Macros/pl.md)
 ---
 
+# Std AddonMgr/pl
+
 ## Opis
 
 Polecenie **Std: AddonMgr** otwiera Menadżer dodatków. Za jego pomocą możesz zainstalować i zarządzać [Zewnętrznymi Środowiskami pracy](external_workbenches/pl.md) oraz [makropoleceniami](macros/pl.md) dostarczonymi przez społeczność FreeCAD. Dostępne Środowiska pracy i makra są pobierane z dwóch repozytoriów, [FreeCAD-addons](https://github.com/FreeCAD/FreeCAD-addons/) i [FreeCAD-macros](https://github.com/FreeCAD/FreeCAD-macros/), oraz ze strony [Przepisy na makropolecenia](Macros_recipes.md).
@@ -79,4 +81,7 @@ Jeśli tworzysz własne środowisko pracy w C++, nie może ono być uruchamiane 
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std AddonMgr/pl

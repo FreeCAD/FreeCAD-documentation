@@ -7,6 +7,8 @@
    Version:0.15
 ---
 
+# Sketcher SelectRedundantConstraints
+
 ## Description
 
 Selects the redundant constraints of a sketch.
@@ -20,4 +22,7 @@ Selects the redundant constraints of a sketch.
 
 
 
- {{Sketcher Tools navi}} 
+ {{Sketcher Tools navi}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectRedundantConstraints

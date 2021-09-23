@@ -8,6 +8,8 @@
    SeeAlso:[TechDraw  Mittelinie zu Fläche(n)](TechDraw_FaceCenterLine/de.md), [TechDraw  Kosmetik Radierer](TechDraw_CosmeticEraser/de.md)
 ---
 
+# TechDraw DecorateLine/de
+
 ## Beschreibung
 
 Das Werkzeug AusgestaltenLinie ändert die Darstellung von Kanten.
@@ -48,4 +50,7 @@ AusgestaltenLinie ist zur Zeit noch nicht zugänglich aus [Makros](Macros/de.md)
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw DecorateLine/de

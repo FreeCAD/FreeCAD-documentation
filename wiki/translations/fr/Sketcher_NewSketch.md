@@ -7,6 +7,8 @@
    SeeAlso:[PartDesign Nouvelle esquisse](PartDesign_NewSketch/fr.md), [Sketcher Appliquer une esquisse sur une face](Sketcher_MapSketch/fr.md), [Sketcher Réorienter l'esquisse](Sketcher_ReorientSketch/fr.md)
 ---
 
+# Sketcher NewSketch/fr
+
 ## Description
 
 Cela créera une nouvelle [esquisse](Sketcher_Workbench/fr.md).
@@ -37,4 +39,7 @@ L\'esquisse peut être déplacée dans la [vue 3D](3D_view/fr.md) en utilisant [
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher NewSketch/fr

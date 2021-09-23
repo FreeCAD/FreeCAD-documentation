@@ -1,3 +1,4 @@
+# Draft Move/cs
 ---
 - GuiCommand:/cs   Name:Draft_Move   Name/cs:Kreslení Posun   Workbenches:[Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation:Draft -> Move   Shortcut:M V---
 
@@ -127,8 +128,5 @@ list3 = Draft.move(list1, -2*vector, copy=True)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Move/cs

@@ -7,6 +7,8 @@
    SeeAlso:[Przekrój poprzeczny](Part_CrossSections/pl.md)
 ---
 
+# Part Section/pl
+
 ## Opis
 
 Wydobywa element przekroju z przecięcia dwóch wybranych profili, z których drugi jest wykorzystywany jako płaszczyzna przekroju. Operacja ta jest w pełni parametryczna, a elementy składowe mogą być modyfikowane, a wynik ponownie obliczany.
@@ -33,8 +35,5 @@ Aby utworzyć przekroje za pomocą płaszczyzny przekroju, zobacz stronę <img a
 
 [Przekrój poprzeczny](Part_CrossSections/pl.md).
 
-
-
-
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Section/pl

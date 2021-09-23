@@ -5,6 +5,8 @@
    Workbenches:[Assembly3](Assembly3_Workbench.md)
 ---
 
+# Assembly3 ConstraintColinear/en
+
 ## Description
 
 The <img alt="" src=images/Assembly_ConstraintColinear.svg  style="width:16px;"> [Colinear](Assembly3_ConstraintColinear.md) command constrains two 2D lines such as non-subdivided wires made with the Draft workbench in relation with a work plane.
@@ -33,8 +35,5 @@ This tool accepts a 3D elements as well e.g. edges or center lines.
 -   2D/3D or 3D/2D: Instead of the 3D elements z axis the projection of that axis onto the 2D line\'s workplane is used to position the lines.
 -   Both 3D: The lines are positioned to one another but I can\'t figure out how\...
 
-
-
-
-
-
+---
+[documentation index](../README.md) > Assembly3 ConstraintColinear/en

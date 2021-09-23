@@ -6,6 +6,8 @@
    MenuLocation:PartDesign → PolarPattern
 ---
 
+# PartDesign PolarPattern/ro
+
 
 </div>
 
@@ -139,4 +141,7 @@ Specifică unghiul care trebuie acoperit de model și numărul total de forme (i
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign PolarPattern/ro

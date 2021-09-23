@@ -8,6 +8,8 @@
    SeeAlso:[Шаблоны](TechDraw_Templates/ru.md), [Draft SVG](Draft_SVG/ru.md), [Добавить Линию-выноску в Вид](TechDraw_LeaderLine/ru.md)
 ---
 
+# TechDraw RichTextAnnotation/ru
+
 ## Описание
 
 The RichTextBlock tool adds a formatted annotation block to a [Leaderline](TechDraw_LeaderLine.md) or a View.
@@ -61,4 +63,7 @@ blockObj.AnnoText = myHTMLText
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw RichTextAnnotation/ru

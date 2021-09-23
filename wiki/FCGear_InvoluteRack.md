@@ -8,6 +8,8 @@
    SeeAlso:[[FCGear InvoluteGear]]
 ---
 
+# FCGear InvoluteRack
+
 ## Description
 
 Gear racks are used to convert a rotary motion into a linear motion or vice versa. The following examples show the different applications:
@@ -120,3 +122,6 @@ Gui.SendMsgToActiveView("ViewFit")
 
 
 [Category:Addons](Category:Addons.md) [Category:FCGear](Category:FCGear.md) [Category:External Command Reference](Category:External_Command_Reference.md)
+
+---
+[documentation index](../README.md) > [Addons](Category:Addons.md) > FCGear InvoluteRack

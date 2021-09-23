@@ -8,6 +8,8 @@
    SeeAlso:
 ---
 
+# Robot InsertWaypoint/ru
+
 
 <div class="mw-translate-fuzzy">
 
@@ -46,4 +48,7 @@
 
 {{Robot_Tools_navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot InsertWaypoint/ru

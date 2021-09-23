@@ -7,6 +7,8 @@
    Version:0.15
 ---
 
+# Sketcher MergeSketches/es
+
 
 </div>
 
@@ -32,4 +34,7 @@ Merge two or more sketches into one.
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher MergeSketches/es

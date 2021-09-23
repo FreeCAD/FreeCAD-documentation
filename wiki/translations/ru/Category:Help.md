@@ -6,3 +6,6 @@ This category lists pages that contain helpfull information on MediaWiki and edi
 [Help/ru](Help/ru.md)
 
 [Category:Categories/ru](Category:Categories/ru.md)
+
+---
+[documentation index](../README.md) > Category:Help/ru

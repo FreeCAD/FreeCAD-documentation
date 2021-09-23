@@ -1,10 +1,4 @@
 # Installing additional components/sv
-
-
-
-
-
-
 {{TOCright}}
 
 # Introduction
@@ -129,3 +123,6 @@ The [ODA File Converter](https://www.opendesign.com/guestfiles/oda_file_converte
 </div>
 
 [Category:User Documentation/sv](Category:User_Documentation/sv.md)
+
+---
+[documentation index](../README.md) > Installing additional components/sv

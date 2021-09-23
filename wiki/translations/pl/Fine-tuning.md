@@ -1,7 +1,4 @@
 # Fine-tuning/pl
-
-
-
 {{TOCright}}
 
 Na tej stronie znajdują się różne ustawienia i parametry, które można wykorzystać do precyzyjnego skonfigurowania instalacji programu FreeCAD lub do rozwiązywania problemów.
@@ -84,3 +81,6 @@ Ustawienia ukryte\|Tech Draw: Preferencje\]\].
 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Fine-tuning/pl

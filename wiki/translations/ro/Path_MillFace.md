@@ -1,3 +1,4 @@
+# Path MillFace/ro
 ---
 - GuiCommand:   Name:Path-Face   Workbenches:[[Path Workbench   Path]]|MenuLocation:Path → Face   Shortcut|SeeAlso:---
 
@@ -217,4 +218,7 @@ Example:
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path MillFace/ro

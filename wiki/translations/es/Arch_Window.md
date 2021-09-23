@@ -8,6 +8,8 @@
    SeeAlso:[Arquitectura Muro](Arch_Wall/es.md), [Arquitectura Añadir](Arch_Add/es.md)
 ---
 
+# Arch Window/es
+
 ## Descripción
 
 Un [Arquitectura Ventana](Arch_Window/es.md) es un objeto base para todo tipo de objetos \"incrustables\", como ventanas y puertas. Está diseñado para ser independiente, o \"alojado\" dentro de otro componente como un [Arquitectura Muro](Arch_Wall/es.md), [Arquitectura Estructura](Arch_Structure/es.md), o [Arquitectura Techo](Arch_Roof/es.md). Tiene su propia geometría, que puede estar formada por varios componentes sólidos (comúnmente un marco y paneles interiores), y también define un volumen que se sustrae de los objetos anfitriones, para crear una abertura.
@@ -259,11 +261,5 @@ Door = Arch.makeWindowPreset("Simple door",
                              placement=place)
 ```
 
-
-
-
-
-
-
-
-
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Window/es

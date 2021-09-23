@@ -1,5 +1,5 @@
 # Basic TechDraw Tutorial/ru
- {{TutorialInfo/ru
+{{TutorialInfo/ru
 |Topic=Моделирование
 |Level=Для начинающих
 |Author=[WandererFan](User:WandererFan.md)
@@ -186,4 +186,7 @@
 
 {{Tutorials navi
 
-}} {{TechDraw Tools navi}} 
+}} {{TechDraw Tools navi}}
+
+---
+[documentation index](../README.md) > Basic TechDraw Tutorial/ru

@@ -1,5 +1,5 @@
 # Manipulator/pl
- }
+}
 
 ## Opis
 
@@ -13,3 +13,6 @@
 
 
 [Category:Glossary](Category:Glossary.md)
+
+---
+[documentation index](../README.md) > [Glossary](Category:Glossary.md) > Manipulator/pl

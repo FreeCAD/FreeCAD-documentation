@@ -1,5 +1,5 @@
 # Compiling/cs
- Each operating system has its own page for compiling FreeCAD in the [Online Help Documentation](Online_Help_Toc.md).
+Each operating system has its own page for compiling FreeCAD in the [Online Help Documentation](Online_Help_Toc.md).
 
   ------------------------------------------------------ -------------------------------------------------- ------------------------------------------------- -------------------------------------------------------------
    <img alt="" src=images/Windows.png  style="width:" height="32px;">   <img alt="" src=images/Linux.png  style="width:" height="32px;">    <img alt="" src=images/Mac.png  style="width:" height="32px;">     [Compile on Docker container](Compile_on_Docker.md)
@@ -20,3 +20,6 @@ To learn to use revision control system and contribute code see [Source code man
 
 
 [Category:Developer\_Documentation](Category:Developer_Documentation.md) [Category:Developer](Category:Developer.md)
+
+---
+[documentation index](../README.md) > [Developer_Documentation](Category:Developer_Documentation.md) > Compiling/cs

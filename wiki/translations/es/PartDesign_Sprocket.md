@@ -7,6 +7,8 @@
    Version:0.19
 ---
 
+# PartDesign Sprocket/es
+
 ## Description
 
 
@@ -52,4 +54,7 @@ Esta herramienta permite crear un perfil 2D de una rueda cadena. Se puede acolch
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Sprocket/es

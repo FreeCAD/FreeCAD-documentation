@@ -1,5 +1,4 @@
-# 3Dconnexion input devices
- <img alt="3Dconnexion SpaceNavigator" src=images/SpaceNavigator.jpg  style="width:200px;"> 
+# <img alt="3Dconnexion SpaceNavigator" src=images/SpaceNavigator.jpg  style="width:200px;">  3Dconnexion input devices
 
 ## Driver installation 
 
@@ -281,3 +280,6 @@ To connect certain command with a button, select button on the left side, and it
 
 
 [Category:User Documentation](Category:User_Documentation.md) [Category:3rd Party](Category:3rd_Party.md)
+
+---
+[documentation index](../README.md) > [User Documentation](Category:User Documentation.md) > 3Dconnexion input devices

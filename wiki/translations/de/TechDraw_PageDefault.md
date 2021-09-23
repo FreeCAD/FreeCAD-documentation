@@ -7,6 +7,8 @@
    SeeAlso:[TechDraw SeitenVorlage einfügen](TechDraw_PageTemplate/de.md), [TechDraw Vorlagen](TechDraw_Templates/de.md)
 ---
 
+# TechDraw PageDefault/de
+
 ## Beschreibung
 
 Das Neue Standard Werkzeug erstellt ein neues Seitenobjekt unter Verwendung der Vorlagendatei, die in den [TechDraw Einstellungen](TechDraw_Preferences/de.md) festgelegt ist.
@@ -88,4 +90,7 @@ page.Template.EditableTexts = texts
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw PageDefault/de

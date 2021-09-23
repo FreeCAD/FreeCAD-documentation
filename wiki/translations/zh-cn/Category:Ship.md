@@ -6,3 +6,6 @@ This category lists pages related to the [Ship Workbench/zh-cn](Ship_Workbench/z
 [Template:Ship Tools navi/zh-cn](Template:Ship_Tools_navi/zh-cn.md) , [Ship Workbench/zh-cn](Ship_Workbench/zh-cn.md)
 
 [Category:Workbenches/zh-cn](Category:Workbenches/zh-cn.md)
+
+---
+[documentation index](../README.md) > Category:Ship/zh-cn

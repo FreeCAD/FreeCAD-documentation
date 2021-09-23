@@ -8,6 +8,8 @@
    SeeAlso:[Crea un link](Std_LinkMake/it.md), [Crea un link relativo](Std_LinkMakeRelative/it.md), [Sostituisci con un link](Std_LinkReplace/it.md)
 ---
 
+# Std LinkUnlink/it
+
 ## Descrizione
 
 Lo strumento **<img src=images/Std_LinkUnlink.svg style="width:16px"> <img src=images/Std_LinkReplace.svg style="width:Annulla il link](Std_LinkUnlink/it.md)** è essenzialmente l\'operazione opposta a **[16px"> [Sostituisci con un link](Std_LinkReplace/it.md)**.
@@ -38,4 +40,7 @@ L\'originale <img alt="" src=images/Tree_Part_Sphere_Parametric.svg  style="widt
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std LinkUnlink/it

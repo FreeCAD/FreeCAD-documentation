@@ -8,6 +8,8 @@
    SeeAlso:[Material](Material.md), [Arch SetMaterial](Arch_SetMaterial.md), [FEM tutorial](FEM_tutorial.md)
 ---
 
+# Material editor
+
 ## Description
 
 The Material Editor allows you to edit and save the information contained in a [FreeCAD material](Material.md). Currently such materials are used by the **<img src="images/Workbench_FEM.svg" width=24px> [FEM](FEM_Workbench.md)** and **<img src="images/Workbench_Arch.svg" width=24px> [Arch](Arch_Workbench.md)** workbenches.
@@ -59,4 +61,7 @@ MaterialEditor.openEditor()
 
 
 
- {{FEM Tools navi}}   
+ {{FEM Tools navi}}
+
+---
+[documentation index](../README.md) > [Material](Material_Workbench.md) > Material editor

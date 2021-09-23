@@ -1,7 +1,4 @@
 # Vector API/es
-
-
-
 <div class="mw-translate-fuzzy">
 
 Los vectores se utilizan en todas partes en FreeCAD.
@@ -79,3 +76,6 @@ print v3.Length
  
 
 [Category:API](Category:API.md) [Category:Poweruser Documentation](Category:Poweruser_Documentation.md)
+
+---
+[documentation index](../README.md) > [API](Category:API.md) > Vector API/es

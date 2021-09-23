@@ -1,10 +1,4 @@
 # Path ToolShape/ru
- 
-
-
-
-
-
 {{TOCright}}
 
 ## Описание
@@ -95,4 +89,7 @@ Important notes:
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path ToolShape/ru

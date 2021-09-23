@@ -1,5 +1,5 @@
 # Macro CartoucheFC Full/fr
- {{Macro/fr
+{{Macro/fr
 |Name=Macro_CartoucheFC_Full
 |Icon=Macro_CartoucheFC_Full.png
 |Description=Cette macro est une application complète, elle permet de remplir le cartouche de la feuille de dessin avec tous les champs textéditables (Pour l'[atelier Drawing](Drawing_Workbench/fr.md)).
@@ -1187,6 +1187,5 @@ ver 00.06 : 13/10/2016 : sélection du format de la page et position automatique
 
 ver 5 : 08/08/2014 PyQt4 and PySide
 
-
-
-
+---
+[documentation index](../README.md) > Macro CartoucheFC Full/fr

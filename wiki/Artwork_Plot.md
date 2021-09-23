@@ -1,6 +1,4 @@
 # Artwork Plot
-  
-
 These icons are in the indicated source path.
 
 For all icons in the source tree, see [Artwork](Artwork.md).
@@ -14,3 +12,6 @@ For all icons in the source tree, see [Artwork](Artwork.md).
  
 
 [Category:Plot](Category:Plot.md)
+
+---
+[documentation index](../README.md) > [Plot](Category:Plot.md) > Artwork Plot

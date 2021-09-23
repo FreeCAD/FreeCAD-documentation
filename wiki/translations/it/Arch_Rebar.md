@@ -8,6 +8,8 @@
    SeeAlso:[Struttura](Arch_Structure/it.md), [Ambiente Reinforcement](Reinforcement_Workbench/it.md)
 ---
 
+# Arch Rebar/it
+
 
 </div>
 
@@ -130,3 +132,6 @@ FreeCAD.ActiveDocument.recompute()
  
 
 [Category:External Command Reference](Category:External_Command_Reference.md) [Category:Reinforcement](Category:Reinforcement.md)
+
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Rebar/it

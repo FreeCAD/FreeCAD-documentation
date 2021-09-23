@@ -1,7 +1,4 @@
 # Macro CartoucheFC 2/it
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -718,3 +715,6 @@ MainWindow.show()
 ## Versione
 
 5.0 : 08/08/2014
+
+---
+[documentation index](../README.md) > Macro CartoucheFC 2/it

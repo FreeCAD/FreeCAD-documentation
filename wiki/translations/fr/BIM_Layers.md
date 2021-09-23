@@ -7,6 +7,8 @@
    Addon:BIM
 ---
 
+# BIM Layers/fr
+
 ## Description
 
 <img alt="" src=images/BIM_layers_screenshot.png  style="width:1024px;">
@@ -16,3 +18,6 @@ Le gestionnaire de calques vous permet de gérer les [Draft Calques](Draft_Layer
 Les calques sont importés et exportés de/vers [Arch IFC](Arch_IFC/fr.md) et [Draft DXF/DWG](Draft_DXF/fr.md).
 
 Le gestionnaire de calques vous permet de gérer vos calques, d\'ajouter ou de supprimer des calques ou de modifier leurs propriétés visuelles. Pour ajouter des objets à un calque, faites-les simplement glisser dans le calque de l\'arborescence. Pour les supprimer, faites-les glisser du calque et déposez-les dans la racine du document.
+
+---
+[documentation index](../README.md) > BIM Layers/fr

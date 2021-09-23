@@ -1,6 +1,4 @@
 # IfcOpenShell/fr
-
-
 ## Description
 
 
@@ -451,3 +449,6 @@ Le projet IfcOpenShell a également développé \"IFC Pipeline\", un programme d
  {{FEM Tools navi}} 
 
 [Category:BIM](Category:BIM.md) [Category:3rd Party](Category:3rd_Party.md)
+
+---
+[documentation index](../README.md) > [BIM](Category:BIM.md) > IfcOpenShell/fr

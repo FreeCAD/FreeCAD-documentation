@@ -1,9 +1,4 @@
 # Scripting and macros/it
-
-
-
-
-
 ## Overview of Python scripting pages 
 
 -   Python related pages in the Manual:
@@ -96,3 +91,6 @@
 }} 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Scripting and macros/it

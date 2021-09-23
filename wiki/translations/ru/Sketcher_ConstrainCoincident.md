@@ -8,6 +8,8 @@
    SeeAlso:[Ограничение положения](Sketcher_ConstrainLock/ru.md), [Зафиксировать точку на объекте](Sketcher_ConstrainPointOnObject/ru.md)
 ---
 
+# Sketcher ConstrainCoincident/ru
+
 ## Описание
 
 Create a coincident constraint on the selected item
@@ -81,4 +83,7 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainCoincident/ru

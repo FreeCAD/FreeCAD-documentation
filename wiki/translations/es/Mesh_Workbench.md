@@ -1,10 +1,4 @@
-# Mesh Workbench/es
-
-
-
-
-
-<img alt="El icono del Ambiente de trabajo Mesh" src=images/Workbench_Mesh.svg  style="width:128px;">
+# <img alt="El icono del Ambiente de trabajo Mesh" src=images/Workbench_Mesh.svg  style="width:64px;"> Mesh Workbench/es
 
 
 {{TOCright}}
@@ -111,3 +105,6 @@ Mesh Workbench preferences can be found in the following categories of the [Pref
 }} 
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Mesh Workbench/es

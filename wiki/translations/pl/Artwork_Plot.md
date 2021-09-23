@@ -1,6 +1,4 @@
 # Artwork Plot/pl
- 
-
 Ikony te znajdują się we wskazanej ścieżce źródłowej.
 
 Wszystkie ikonki widoczne na liście źródłowej, patrz [Grafika](Artwork/pl.md).
@@ -17,3 +15,6 @@ Wszystkie ikonki widoczne na liście źródłowej, patrz [Grafika](Artwork/pl.md
 }} 
 
 [Category:Plot](Category:Plot.md)
+
+---
+[documentation index](../README.md) > [Plot](Category:Plot.md) > Artwork Plot/pl

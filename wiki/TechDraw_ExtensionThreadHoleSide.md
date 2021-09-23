@@ -8,6 +8,8 @@
    SeeAlso:
 ---
 
+# TechDraw ExtensionThreadHoleSide
+
 ## Description
 
 The <img alt="" src=images/TechDraw_ExtensionThreadHoleSide.svg  style="width:24px;"> **Thread Hole Side** tool adds a symbolic thread to the side view of a hole.
@@ -24,4 +26,7 @@ The <img alt="" src=images/TechDraw_ExtensionThreadHoleSide.svg  style="width:24
 
 
 
- {{TechDraw_Tools_navi}} 
+ {{TechDraw_Tools_navi}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionThreadHoleSide

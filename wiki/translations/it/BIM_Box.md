@@ -8,6 +8,8 @@
    SeeAlso:[Box di Parte](Part_Box/it.md)
 ---
 
+# BIM Box/it
+
 ## Descrizione
 
 <img alt="" src=images/BIM_box_screenshot.png  style="width:1024px;">
@@ -22,3 +24,6 @@ Lo strumento Box di BIM consente di creare un [Cuboide](Part_Box/it.md) standard
 3.  Fare clic su un secondo punto per definire un primo bordo della scatola, iniziando dal primo punto
 4.  Fare clic su un terzo punto per definire una prima faccia della scatola, ortogonale al primo bordo
 5.  Fare clic su un quarto punto per definire la distanza di estrusione della prima faccia, formando la scatola difinitiva
+
+---
+[documentation index](../README.md) > BIM Box/it

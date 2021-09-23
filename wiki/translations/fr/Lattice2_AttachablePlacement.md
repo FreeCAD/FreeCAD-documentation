@@ -8,6 +8,8 @@
    SeeAlso:
 ---
 
+# Lattice2 AttachablePlacement/fr
+
 ## Description
 
 La commande <img alt="" src=images/Lattice2_AttachablePlacement.svg  style="width:24px;"> [Lattice2 AttachablePlacement](Lattice2_AttachablePlacement/fr.md) attribue un placement ou une poignée à un objet afin qu\'il puisse plus tard être référencé par un emplacement.
@@ -35,3 +37,6 @@ La commande <img alt="" src=images/Lattice2_AttachablePlacement.svg  style="widt
 
 
 [Category:External Command Reference](Category:External_Command_Reference.md) [Category:Lattice2](Category:Lattice2.md)
+
+---
+[documentation index](../README.md) > [External Command Reference](Category:External Command Reference.md) > Lattice2 AttachablePlacement/fr

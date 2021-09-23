@@ -1,5 +1,5 @@
 # Macro Animated Constrain/fr
- {{Macro/fr
+{{Macro/fr
 |Name=Animated Constrain
 |Icon=Macro_Animated_Constrain.png
 |Description=Animate Constrain within sketch in FreeCAD
@@ -146,6 +146,5 @@ La page de discussion sur le forum [Macro Animated Constrain](http://forum.freec
 
 [Voir l\'animation sur YouTube.](https://www.youtube.com/watch?v=kmqDcomLnk0)
 
-
-
-
+---
+[documentation index](../README.md) > Macro Animated Constrain/fr

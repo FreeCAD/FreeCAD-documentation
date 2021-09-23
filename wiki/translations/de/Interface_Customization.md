@@ -1,10 +1,4 @@
 # Interface Customization/de
-
-
-
-
-
-
 {{TOCright}}
 
 ## Einführung
@@ -286,4 +280,7 @@ Erweiterungen bieten eine weitere Möglichkeit, die Benutzeroberfläche anzupass
 
 {{Std Base navi
 
-}} {{Interface navi}} 
+}} {{Interface navi}}
+
+---
+[documentation index](../README.md) > Interface Customization/de

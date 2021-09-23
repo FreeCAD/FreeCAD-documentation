@@ -8,6 +8,8 @@
    SeeAlso:[Std Qu'est-ce que c'est?](Std_WhatsThis/fr.md)
 ---
 
+# Std OnlineHelp/fr
+
 ## Description
 
 La commande **Std Aide** ouvre la documentation d\'aide. Pour ouvrir la documentation avec une page d\'aide de commande prédéfinie, utilisez l\'outil [Std Qu\'est-ce que c\'est?](Std_WhatsThis/fr.md).
@@ -31,4 +33,7 @@ La commande **Std Aide** ouvre la documentation d\'aide. Pour ouvrir la document
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std OnlineHelp/fr

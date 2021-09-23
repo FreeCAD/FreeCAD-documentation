@@ -7,6 +7,8 @@
    SeeAlso:[Salva una copia](Std_SaveaCopy/it.md), [Salva](Std_Save/it.md)
 ---
 
+# Std SaveAs/it
+
 
 </div>
 
@@ -59,4 +61,7 @@ Per salvare un documento con un nuovo nome, utilizzare il metodo `saveAs` dell\'
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std SaveAs/it

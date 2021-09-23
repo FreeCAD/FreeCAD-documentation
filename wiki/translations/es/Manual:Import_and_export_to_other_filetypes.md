@@ -1,7 +1,4 @@
 # Manual:Import and export to other filetypes/es
- 
-
-
 {{Manual:TOC/es}}
 
 FreeCAD puede importar y exportar a muchos tipos de archivos. Aquí hay una lista de los más importantes con una breve descripción de las características disponibles
@@ -49,3 +46,6 @@ Algunos de estos formatos de archivo tienen opciones. Estas se pueden configurar
 
 
 [Category:Poweruser Documentation](Category:Poweruser_Documentation.md) [Category:Tutorials](Category:Tutorials.md)
+
+---
+[documentation index](../README.md) > [Poweruser Documentation](Category:Poweruser Documentation.md) > Manual:Import and export to other filetypes/es

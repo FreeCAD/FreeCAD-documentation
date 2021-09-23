@@ -7,6 +7,8 @@
    Version:0.17
 ---
 
+# Draft Slope/de
+
 
 </div>
 
@@ -48,5 +50,5 @@ Es gibt keine Python Methode zur Neigung von Objekten. Um die Ergebnisse des Ent
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Slope/de

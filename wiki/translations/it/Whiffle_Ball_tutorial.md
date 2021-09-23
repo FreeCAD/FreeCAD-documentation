@@ -1,7 +1,4 @@
 # Whiffle Ball tutorial/it
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -414,4 +411,7 @@ Se tutto è andato bene, il modello dovrebbe assomigliare a questo:
 
 {{Tutorials navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Whiffle Ball tutorial/it

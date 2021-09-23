@@ -6,6 +6,8 @@
    SeeAlso:[Std ToggleVisibility](Std_ToggleVisibility.md), [Std ShowSelection](Std_ShowSelection.md), [Std HideSelection](Std_HideSelection.md), [Std ToggleObjects](Std_ToggleObjects.md), [Std ShowObjects](Std_ShowObjects.md)
 ---
 
+# Std HideObjects
+
 ## Description
 
 The **Std HideObjects** command hides all objects belonging to the active document in [3D views](3D_view.md).
@@ -32,4 +34,7 @@ For a scripting example see [Std ToggleVisibility](Std_ToggleVisibility.md).
 
 
 
- {{Std Base navi}}  
+ {{Std Base navi}}
+
+---
+[documentation index](../README.md) > Std HideObjects

@@ -1,6 +1,4 @@
 # Artwork Image/pl
- 
-
 Ikony te znajdują się we wskazanej ścieżce źródłowej.
 
 Wszystkie ikonki widoczne na liście źródłowej, patrz [Grafika](Artwork/pl.md).
@@ -17,3 +15,6 @@ Wszystkie ikonki widoczne na liście źródłowej, patrz [Grafika](Artwork/pl.md
 }} 
 
 [Category:Image](Category:Image.md)
+
+---
+[documentation index](../README.md) > [Image](Category:Image.md) > Artwork Image/pl

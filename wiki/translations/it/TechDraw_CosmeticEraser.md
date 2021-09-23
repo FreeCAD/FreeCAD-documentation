@@ -7,6 +7,8 @@
    Version:0.19
 ---
 
+# TechDraw CosmeticEraser/it
+
 
 </div>
 
@@ -64,4 +66,7 @@ In questo momento Rimuovi oggetto cosmetico non è accessibile dalle [macro](mac
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw CosmeticEraser/it

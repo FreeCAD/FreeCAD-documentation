@@ -8,6 +8,8 @@
    SeeAlso:[Modifica standard](Std_Edit/it.md), [Aggiungi punto](Draft_AddPoint/it.md), [Elimina punto](Draft_DelPoint/it.md)
 ---
 
+# Draft Edit/it
+
 
 </div>
 
@@ -213,5 +215,5 @@ Per lo strumento Modifica non è disponibile un\'interfaccia di programmazione. 
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Edit/it

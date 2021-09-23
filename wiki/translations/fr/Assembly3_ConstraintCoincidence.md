@@ -7,6 +7,8 @@
    Workbenches:[Assembly3](Assembly3_Workbench/fr.md)
 ---
 
+# Assembly3 ConstraintCoincidence/fr
+
 ## Description
 
 Cet outil relie deux ou plusieurs objets d\'un assemblage et fait correspondre leurs orientations. Les éléments sélectionnés de chaque objet ou plus précisément leurs systèmes de coordonnées implicites (ICS = implicit coordinate systems) sont utilisés pour positionner un objet par rapport à un autre.
@@ -27,8 +29,5 @@ La rotation peut être arrêtée en mettant Lock Angle sur true dans le panneau 
 2.  Sélectionnez un élément de face plane de chaque objet.
 3.  Appuyez sur le bouton **<img src="images/Assembly_ConstraintCoincidence.svg" width=16px> [Plane Coincidence](Assembly3_ConstraintCoincidence/fr.md)**.
 
-
-
-
-
-
+---
+[documentation index](../README.md) > Assembly3 ConstraintCoincidence/fr

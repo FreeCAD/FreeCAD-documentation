@@ -9,6 +9,8 @@
    SeeAlso:[Tel](Draft_Wire/tr.md),[Nokta](Draft_Point/tr.md)
 ---
 
+# Draft Line/tr
+
 
 </div>
 
@@ -181,5 +183,5 @@ doc.recompute()
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Line/tr

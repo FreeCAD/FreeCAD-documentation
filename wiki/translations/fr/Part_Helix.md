@@ -7,6 +7,8 @@
    SeeAlso:[Part Primitives](Part_Primitives/fr.md)
 ---
 
+# Part Helix/fr
+
 ## Description
 
 La primitive géométrique **<img src=images/Part_Helix.svg style="width:16px"> [Part Hélice](Part_Helix/fr.md)** crée une forme d\'hélice définie par un rayon, un pas et une hauteur totale.
@@ -62,8 +64,5 @@ Une fois l\'hélice créé vous avez la possibilité de modifier ses paramètres
 |                                                          |                                                                                                       |
 +----------------------------------------------------------+----------------------------------------------------------------------------------------------------------+
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Helix/fr

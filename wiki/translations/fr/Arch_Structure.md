@@ -8,6 +8,8 @@
    SeeAlso:[Arch Mur](Arch_Wall/fr.md), [Arch Armature personnalisée](Arch_Rebar/fr.md)
 ---
 
+# Arch Structure/fr
+
 ## Description
 
 L\'atelier [Arch Structure](Arch_Structure/fr.md) vous permet de construire les éléments structurels, tels que colonnes ou poutres, en précisant leur largeur, longueur et hauteur, ou en les fondant sur un profil 2D (face, fil ou esquisse).
@@ -119,10 +121,7 @@ FreeCAD.ActiveDocument.recompute()
 Structure2 = Arch.makeStructure(None, length=500, width=1000, height=3000)
 Draft.move(Structure2, FreeCAD.Vector(2000, 0, 0))
 FreeCAD.ActiveDocument.recompute()
-``` 
+```
 
-
-
-
-
-
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Structure/fr

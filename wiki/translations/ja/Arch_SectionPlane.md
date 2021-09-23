@@ -1,3 +1,4 @@
+# Arch SectionPlane/ja
 ---
 - GuiCommand:/jp   Name:Arch SectionPlane   Name/jp:Arch SectionPlane   Workbenches:[[Arch Module/jp   建築]]|MenuLocation:Arch -> Section Plane   Shortcut:S P---
 
@@ -157,8 +158,5 @@ FreeCAD.ActiveDocument.recompute()
 
 </div>
 
-
-
-
-
-
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SectionPlane/ja

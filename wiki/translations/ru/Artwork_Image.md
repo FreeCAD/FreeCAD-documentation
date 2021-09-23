@@ -1,6 +1,4 @@
 # Artwork Image/ru
- 
-
 Эти иконки находятся в указанной исходной папке.
 
 Для всех иконок в исходнике смотри [Художественное оформление](Artwork/ru.md).
@@ -17,3 +15,6 @@
 }} 
 
 [Category:Image](Category:Image.md)
+
+---
+[documentation index](../README.md) > [Image](Category:Image.md) > Artwork Image/ru

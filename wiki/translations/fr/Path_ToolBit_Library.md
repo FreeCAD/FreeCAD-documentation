@@ -1,10 +1,4 @@
 # Path ToolBit Library/fr
- 
-
-
-
-
-
 {{TOCright}}
 
 ## Description
@@ -56,4 +50,7 @@ Une bibliothèque de toolbits peut être exportée pour créer une [LinuxCNC Tab
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path ToolBit Library/fr

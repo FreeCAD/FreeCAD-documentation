@@ -1,5 +1,5 @@
 # Tutorial custom placing of windows and doors
-  {{TutorialInfo
+{{TutorialInfo
 |Topic=Architecture
 |Level=Intermediate
 |Time=60 minutes
@@ -332,4 +332,7 @@ abs(N) = 1 = sqrt(sin^2(angle) + cos^2(angle) + z^2)
 
 {{Tutorials navi
 
-}}   {{Sketcher Tools navi}} 
+}}   {{Sketcher Tools navi}}
+
+---
+[documentation index](../README.md) > [Arch](Category:Arch.md) > Tutorial custom placing of windows and doors

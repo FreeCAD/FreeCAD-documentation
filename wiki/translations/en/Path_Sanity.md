@@ -7,6 +7,8 @@
    Version:0.19
 ---
 
+# Path Sanity/en
+
 ## Description
 
 Many Path users are hobbyists and DIYers. As such, they use their CNC machines to run G-code that they configured and generated themselves. That isn\'t the case for most professional/commercial users. In professional shops, different people are responsible for creating the G-code (CNC programmers) from those who run it on the machines (CNC operator).
@@ -79,4 +81,7 @@ Asciidoctor is a fast open-source text processor for converting asciidoc into HT
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Sanity/en

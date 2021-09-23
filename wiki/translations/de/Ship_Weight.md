@@ -9,6 +9,8 @@
    SeeAlso:
 ---
 
+# Ship Weight/de
+
 ## Einleitung
 
 in Arbeit
@@ -27,6 +29,5 @@ in Arbeit
 
 {{Userdocnavi/de}}
 
-
-
-
+---
+[documentation index](../README.md) > Ship Weight/de

@@ -1,6 +1,4 @@
 # Artwork Erroneous/en
- 
-
 For all icons in the source tree, see [Artwork](Artwork.md).
 
 
@@ -26,3 +24,6 @@ For all icons in the source tree, see [Artwork](Artwork.md).
 }}
 
 [Category:Icon](Category:Icon.md) [Category:Developer Documentation](Category:Developer_Documentation.md)
+
+---
+[documentation index](../README.md) > [Icon](Category:Icon.md) > Artwork Erroneous/en

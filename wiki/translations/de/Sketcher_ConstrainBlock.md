@@ -9,6 +9,8 @@
 Beschränkung Schloss]]
 ---
 
+# Sketcher ConstrainBlock/de
+
 ## Beschreibung
 
 **Beschränke Block** blockiert ein geometrisches Element an Ort und Stelle mit einer einzigen Beschränkung.
@@ -35,4 +37,7 @@ Die [Skizzierer Skripten](Sketcher_scripting/de.md)-Seite erklärt die Werte, di
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainBlock/de

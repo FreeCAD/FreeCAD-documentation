@@ -1,3 +1,4 @@
+# Std Group/tr
 ---
 - GuiCommand:/tr   Name:Grup Oluştur   MenuLocation:Ağaç görünüm → Belge üzerine sağ tıkla   |Workbenches:Hepsi   Shortcut:   SeeAlso:[Taslak grup seçme](Draft_SelectGroup.md), [Taslak gruba ekle](Draft_AddToGroup.md)---
 
@@ -162,4 +163,7 @@ For example, a [FEM Analysis](FEM_Analysis.md) is an `App::DocumentObjectGroupPy
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std Group/tr

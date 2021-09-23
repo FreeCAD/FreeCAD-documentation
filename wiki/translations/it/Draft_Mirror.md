@@ -7,6 +7,8 @@
    SeeAlso:[Draft Scala](Draft_Scale/it.md), [Clone](Draft_Clone/it.md)
 ---
 
+# Draft Mirror/it
+
 
 </div>
 
@@ -191,5 +193,5 @@ doc.recompute()
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Mirror/it

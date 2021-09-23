@@ -1,6 +1,4 @@
 # App Part/it
-
-
 ## Introduzione
 
 <img alt="" src=images/Geofeaturegroup.svg  style="width:32px;">
@@ -31,4 +29,7 @@ Vedere l\'elenco completo delle proprietà nella pagina [Std Part](Std_Part/it.m
 
 {{Std Base navi
 
-}} {{Document objects navi}} 
+}} {{Document objects navi}}
+
+---
+[documentation index](../README.md) > App Part/it

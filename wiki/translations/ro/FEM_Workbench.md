@@ -1,10 +1,4 @@
-# FEM Workbench/ro
-
-
-
-
-
-<img alt="FEM workbench icon" src=images/Workbench_FEM.svg  style="width:128px;">
+# <img alt="FEM workbench icon" src=images/Workbench_FEM.svg  style="width:64px;"> FEM Workbench/ro
 
 
 {{TOCright}}
@@ -283,3 +277,6 @@ A developer\'s guide has been written to help power users in understanding the c
 }} 
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > FEM Workbench/ro

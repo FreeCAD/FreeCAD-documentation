@@ -7,6 +7,8 @@
    SeeAlso:[Agganciare](Draft_Snap/it.md), [Mostra/Nacondi la griglia](Draft_ToggleGrid/it.md)
 ---
 
+# Draft Snap Lock/it
+
 
 </div>
 
@@ -45,5 +47,5 @@ Attiva o disattiva la funzione di [aggancio](Draft_Snap/it.md) (snap) agli ogget
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Lock/it

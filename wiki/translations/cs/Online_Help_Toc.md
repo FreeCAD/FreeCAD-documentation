@@ -1,7 +1,4 @@
 # Online Help Toc/cs
-
-
-
 <div class="mw-translate-fuzzy">
 
 Zde je obsah stránky online help systému ve FreeCADu. Články, které jsou zde odkazované jsou automaticky včleněny v souboru FreeCAD.chm nástrojem wiki2chm.py tool.Tento nástroj najdete na src/Tools/wiki2chm.py. Je dostupná i [tisknutelná verze](Manual.md) o tohoto manuálu.
@@ -171,3 +168,6 @@ There is another table of contents for the [FreeCAD MANUAL](Manual:Introduction.
 
 
 [Kategorie:Dokumentace](Category:Documentation/cs.md) [Category:Documentation](Category:Documentation.md)
+
+---
+[documentation index](../README.md) > [Documentation](Category:Documentation.md) > Online Help Toc/cs

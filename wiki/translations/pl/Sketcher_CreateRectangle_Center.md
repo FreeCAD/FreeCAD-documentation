@@ -7,6 +7,8 @@
    SeeAlso:[Sketcher Rectangle](Sketcher_CreateRectangle.md)
 ---
 
+# Sketcher CreateRectangle Center/pl
+
 ## Description
 
 This tool draws a rectangle by first picking a point that will become the center point, then by picking an edge point. The result is a rectangle like with the [Rectangle](Sketcher_CreateRectangle.md) tool, only the definition points are different.
@@ -26,4 +28,7 @@ When starting the tool, the mouse pointer changes to a white cross with a red re
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateRectangle Center/pl

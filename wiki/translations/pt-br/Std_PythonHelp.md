@@ -6,6 +6,8 @@
    Veja também :[Std FreeCADPowerUserHub](Std_FreeCADPowerUserHub/pt-br.md)
 ---
 
+# Std PythonHelp/pt-br
+
 ## Descrição
 
 O comando *\'Std PythonHelp* inicia um servidor web que se comunica com o navegador de Internet padrão do sistema através de uma conexão local. O servidor web exibe informações sobre os módulos [Python](Python/pt-br.md) disponíveis, classes e funções do FreeCAD. As páginas necessárias são geradas automaticamente.
@@ -23,4 +25,7 @@ O servidor web é baseado no módulo Python [pydoc](https://docs.python.org/3.8/
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std PythonHelp/pt-br

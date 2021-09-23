@@ -1,7 +1,4 @@
 # PDF/fr
-
-
-
 {{TOCright}}
 
 ## Description
@@ -30,3 +27,6 @@ L\'option d\'exportation au format PDF est disponible dans le menu **Fichier →
 
 
 [Category:File\_Formats](Category:File_Formats.md)
+
+---
+[documentation index](../README.md) > [File_Formats](Category:File_Formats.md) > PDF/fr

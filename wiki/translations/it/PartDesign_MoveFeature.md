@@ -8,6 +8,8 @@
    SeeAlso:[Usa come entità finale](PartDesign_MoveTip/it.md), [Sposta dopo altro oggetto](PartDesign_MoveFeatureInTree/it.md)
 ---
 
+# PartDesign MoveFeature/it
+
 
 </div>
 
@@ -46,4 +48,7 @@
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign MoveFeature/it

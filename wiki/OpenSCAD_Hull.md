@@ -5,6 +5,8 @@
    Workbenches:[OpenSCAD](OpenSCAD_Workbench.md)
 ---
 
+# OpenSCAD Hull
+
 ## Description
 
 Applies a hull to selected shapes.
@@ -27,4 +29,7 @@ Feature needs OpenSCAD installed and configured in **Edit** → **Preferences**
 
 
 
- {{OpenSCAD_Tools_navi}} 
+ {{OpenSCAD_Tools_navi}}
+
+---
+[documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD Hull

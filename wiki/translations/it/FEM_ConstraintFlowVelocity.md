@@ -1,3 +1,4 @@
+# FEM ConstraintFlowVelocity/it
 ---
 - GuiCommand:/it   Name:FEM_ConstraintFlowVelocity   Name/it:Vincolo velocità del flusso   Icon:Fem-constraint-flow-velocity.svg   MenuLocation: Modello → Vincoli dei fluidi → Vincolo velocità del flusso   |Workbenches:[Shortcut:   SeeAlso:[[FEM_tutorial/it|Tutorial FEM](FEM_Workbench/it___FEM]].md)---
 
@@ -54,4 +55,7 @@ Applica una velocità del flusso come condizione al contorno a un bordo in 2D o 
 
 {{FEM Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > FEM ConstraintFlowVelocity/it

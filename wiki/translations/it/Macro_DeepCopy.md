@@ -1,5 +1,5 @@
 # Macro DeepCopy/it
- {{Macro/it
+{{Macro/it
 |Name=Macro DeepCopy
 |Translate=DeepCopy
 |Icon=Macro_DeepCopy.png
@@ -122,6 +122,5 @@ if __name__ == '__main__':
 
 [code on github](https://github.com/FreeCAD/FreeCAD-macros/blob/master/Conversion/DeepCopy.FCMacro)
 
-
-
-
+---
+[documentation index](../README.md) > Macro DeepCopy/it

@@ -8,6 +8,8 @@
    SeeAlso:[Добавить осевую линию к граням](TechDraw_FaceCenterLine/ru.md), [Удалить вспомогательный объект](TechDraw_CosmeticEraser/ru.md)
 ---
 
+# TechDraw DecorateLine/ru
+
 ## Описание
 
 The DecorateLine tool changes the appearance of Edges.
@@ -47,4 +49,7 @@ DecorateLine is not accessible from [macros](Macros.md) or the [Python](Python.m
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw DecorateLine/ru

@@ -8,6 +8,8 @@
    SeeAlso:[Arch Niveaux](Arch_Floor/fr.md), [Arch Bâtiment](Arch_Building/fr.md)
 ---
 
+# Arch Site/fr
+
 ## Description
 
 **Arch Site** est un objet spécial qui combine les propriétés d\'un objet groupe FreeCAD standard et un objet Arch. Il est particulièrement adapté pour représenter un site entier, ou un terrain. Dans un travail architectural fait d\'IFC, il est surtout utilisé pour organiser votre modèle qui contient un objet [Arch Bâtiment](Arch_Building/fr.md). Arch Site est également utilisé pour gérer et afficher un terrain physique et peut calculer le volume de terre a ajouter ou a supprimer.
@@ -164,8 +166,5 @@ Node = Arch.makeSolarDiagram(-46.38, -23.33, scale=10000, complete=True)
 FreeCAD.Gui.ActiveDocument.ActiveView.getSceneGraph().addChild(Node)
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Site/fr

@@ -8,6 +8,8 @@
    SeeAlso:[Std ViewFitAll](Std_ViewFitAll.md)
 ---
 
+# Std ViewHome/en
+
 ## Description
 
 The **Std ViewHome** command changes the camera in the active [3D view](3D_view.md) to the default camera orientation. And then zooms and pans the camera so that all visible objects fit inside the view.
@@ -29,4 +31,7 @@ The **Std ViewHome** command changes the camera in the active [3D view](3D_view.
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ViewHome/en

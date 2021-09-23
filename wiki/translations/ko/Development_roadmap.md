@@ -1,5 +1,5 @@
 # Development roadmap/ko
- **Important: many of these roadmaps are not up to date or perhaps abandoned. This page and the pages it links to most likely contain obsolete info. A 'soft' roadmap can be found on the [http://www.freecadweb.org/tracker/roadmap_page.php bugtracker] but for now there isn't a 'hard' roadmap. There are many efforts going on simultaneously.**
+**Important: many of these roadmaps are not up to date or perhaps abandoned. This page and the pages it links to most likely contain obsolete info. A 'soft' roadmap can be found on the [http://www.freecadweb.org/tracker/roadmap_page.php bugtracker] but for now there isn't a 'hard' roadmap. There are many efforts going on simultaneously.**
 
 FreeCAD는 많은 응용 분야에서 사용 가능하지만 CAD 주류에 대한 오랜 여행의 시작입니다. 상용 소프트웨어와 경쟁할 수 있는 위치에 도달하려면 아직 할 일이 많습니다.
 
@@ -44,3 +44,6 @@ Like in the most [FLOSS](http://en.wikipedia.org/wiki/FLOSS) projects a release 
 
 
 [Category:Roadmap](Category:Roadmap.md)
+
+---
+[documentation index](../README.md) > [Roadmap](Category:Roadmap.md) > Development roadmap/ko

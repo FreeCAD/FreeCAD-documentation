@@ -1,3 +1,4 @@
+# PartDesign AdditiveCylinder/it
 ---
 - GuiCommand:/it   Name:PartDesign AdditiveCylinder   Name/it:Cilindro additivo   Workbenches:[MenuLocation:Part Design → Crea una primitiva additiva → Cilindro   Version:0.17   SeeAlso:[[PartDesign CompPrimitiveAdditive/it|Primitive additive](PartDesign_Workbench/it___PartDesign]].md)---
 
@@ -69,4 +70,7 @@ Dopo la sua creazione il cilindro può essere modificato in due modi:
 
 {{PartDesign Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveCylinder/it

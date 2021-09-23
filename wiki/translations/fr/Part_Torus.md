@@ -7,6 +7,8 @@
    SeeAlso:[Part Primitives](Part_Primitives/fr.md)
 ---
 
+# Part Torus/fr
+
 ## Description
 
 Crée un tore paramétrique simple avec les paramètres position angle1, angle2, angle3, rayon1 et rayon2.
@@ -51,10 +53,7 @@ ainsi que l\'ensemble standard de paramètres de placement. Les images ci-dessou
 
 ![](images/TorusExampleAngle2.jpg ) Le paramètre Angle2 a une valeur de 90°.
 
-![](images/TorusExampleAngle3.jpg ) Le paramètre Angle3 a une valeur de 90°. 
+![](images/TorusExampleAngle3.jpg ) Le paramètre Angle3 a une valeur de 90°.
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Torus/fr

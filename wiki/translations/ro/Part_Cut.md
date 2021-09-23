@@ -1,3 +1,4 @@
+# Part Cut/ro
 ---
 - GuiCommand:   Name:Part Cut   MenuLocation:Part → Cut   Workbenches:[Complete](Part_Workbench___Part]],_[[Complete_Workbench.md)|SeeAlso:[Part Union](Part_Union.md), [Part Common](Part_Common.md)---
 
@@ -54,8 +55,5 @@ Input objects must be OpenCascade shapes. Examples: stuff made with Part, PartDe
 
 </div>
 
-
-
-
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Cut/ro

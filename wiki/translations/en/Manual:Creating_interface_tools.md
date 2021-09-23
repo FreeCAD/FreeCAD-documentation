@@ -1,7 +1,4 @@
 # Manual:Creating interface tools/en
- 
-
-
 {{Manual:TOC}}
 
 In the last two chapters, we saw how to [create Part geometry](Manual:Creating_and_manipulating_geometry.md) and [create parametric objects](Manual:Creating_parametric_objects.md). One last piece is missing to gain full control over FreeCAD: Create tools that will interact with the user.
@@ -132,3 +129,6 @@ Finally, don\'t forget there is much more documentation about using Qt widgets o
 }} 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Manual:Creating interface tools/en

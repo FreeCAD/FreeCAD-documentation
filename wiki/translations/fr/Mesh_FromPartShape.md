@@ -6,6 +6,8 @@
    Workbenches:[Mesh](Mesh_Workbench/fr.md)
 ---
 
+# Mesh FromPartShape/fr
+
 ## Description
 
 La commande **Créer un maillage** crée des objets [maillés](mesh/fr.md) non paramétriques, [Mesh Features](Mesh_Feature/fr.md), à partir de la [forme](shape/fr.md) d\'objets ([Part Features](Part_Feature/fr.md)).
@@ -191,4 +193,7 @@ msh.ViewObject.DisplayMode = "Flat Lines"
 
 {{Mesh Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh FromPartShape/fr

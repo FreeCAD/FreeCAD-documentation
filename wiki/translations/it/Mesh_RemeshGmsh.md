@@ -8,6 +8,8 @@
    SeeAlso:[Crea mesh da una forma](Mesh_FromPartShape/it.md)
 ---
 
+# Mesh RemeshGmsh/it
+
 ## Descrizione
 
 Il comando **Affinamento** rigenera un oggetto mesh utilizzando il mesher [Gmsh](https://gmsh.info/). La nuova mesh può essere più fine o più grossolana.
@@ -48,4 +50,7 @@ Vedere: [Mesh Feature](Mesh_Feature/it.md).
 
 {{Mesh Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh RemeshGmsh/it

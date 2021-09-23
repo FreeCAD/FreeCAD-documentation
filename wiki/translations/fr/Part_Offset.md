@@ -7,6 +7,8 @@
    SeeAlso:[Part Évidement](Part_Thickness/fr.md), [Part Décalage 2D](Part_Offset2D/fr.md)
 ---
 
+# Part Offset/fr
+
 ## Description
 
 L\'outil Décalage 3D de la pièce crée des copies parallèles d\'une forme sélectionnée à une certaine distance de la forme de base, créant ainsi un nouvel objet.
@@ -56,10 +58,7 @@ La même forme avec un décalage 3D comme SKIN et un décalage \"rempli\".
 
 Décalage *rempli* avec 2 cylindres créant des coupes booléennes. Le cylindre A passe par le REMPLISSAGE tandis que le cylindre B ne traverse que le REMPLISSAGE et non la forme 2D source.
 
-<img alt="" src=images/PartOffset6.png  style="width:400" height="200px;"> 
+<img alt="" src=images/PartOffset6.png  style="width:400" height="200px;">
 
-
-
-
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Offset/fr

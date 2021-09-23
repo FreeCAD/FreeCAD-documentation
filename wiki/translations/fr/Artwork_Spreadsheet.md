@@ -1,6 +1,4 @@
 # Artwork Spreadsheet/fr
- 
-
 Ces icônes se trouvent dans le chemin source indiqué.
 
 Pour toutes les icônes de l\'arborescence source, voir [Graphisme](Artwork/fr.md).
@@ -17,3 +15,6 @@ Pour toutes les icônes de l\'arborescence source, voir [Graphisme](Artwork/fr.m
 }} 
 
 [Category:Spreadsheet](Category:Spreadsheet.md)
+
+---
+[documentation index](../README.md) > [Spreadsheet](Category:Spreadsheet.md) > Artwork Spreadsheet/fr

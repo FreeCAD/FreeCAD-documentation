@@ -7,6 +7,8 @@
    SeeAlso:[Adatta i segmenti](Mesh_SegmentationBestFit/it.md)
 ---
 
+# Mesh Segmentation/it
+
 ## Descrizione
 
 Il comando **Crea segmenti di mesh** crea segmenti di mesh separati per i tipi di superficie specificati di un oggetto mesh.
@@ -57,4 +59,7 @@ Il comando **Crea segmenti di mesh** crea segmenti di mesh separati per i tipi d
 
 {{Mesh Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Segmentation/it

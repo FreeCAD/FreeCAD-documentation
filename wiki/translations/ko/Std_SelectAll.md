@@ -7,6 +7,8 @@
    SeeAlso:[표준 개체 선택 상자](Std_BoxSelection/ko.md), [표준 면 선택 상자](Std_BoxElementSelection/ko.md)
 ---
 
+# Std SelectAll/ko
+
 ## 설명
 
 **표준 모두 선택(Std SelectAll)** 명령은 [트리 보기의](Tree_view/ko.md) 모든 개체를 선택합니다.
@@ -25,4 +27,7 @@
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std SelectAll/ko

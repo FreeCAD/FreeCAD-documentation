@@ -11,3 +11,6 @@ This is the **top category** which contains the main categories of the FreeCAD w
 , , , , , , , , , , , , , ,
 
 [Category:Categories/hr](Category:Categories/hr.md) [Category:Addons/hr](Category:Addons/hr.md) [Category:Administration/hr](Category:Administration/hr.md) [Category:API/hr](Category:API/hr.md) [Category:Categories/hr](Category:Categories/hr.md) [Category:Command Reference/hr](Category:Command_Reference/hr.md) [Category:Developer Documentation/hr](Category:Developer_Documentation/hr.md) [Category:Developer/hr](Category:Developer/hr.md) [Category:Documentation/hr](Category:Documentation/hr.md) [Category:Hubs/hr](Category:Hubs/hr.md) [Category:Macros/hr](Category:Macros/hr.md) [Category:News/hr](Category:News/hr.md) [Category:Template/hr](Category:Template/hr.md) [Category:Tutorials/hr](Category:Tutorials/hr.md) [Category:UnfinishedDocu/hr](Category:UnfinishedDocu/hr.md) [Category:Wiki/hr](Category:Wiki/hr.md)
+
+---
+[documentation index](../README.md) > Category:Categories/hr

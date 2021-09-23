@@ -1,7 +1,4 @@
 # Placement/ru
-
-
-
 <div class="mw-translate-fuzzy">
 
 ## Описание
@@ -268,5 +265,5 @@ To make the placement of \"Sketch\" equal to that of \"Cylinder\", you would ent
 
 -   This tutorial: [Aeroplane](Aeroplane.md) covers the mechanics of changing an object\'s Placement extensively.
 
-
-
+---
+[documentation index](../README.md) > Placement/ru

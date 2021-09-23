@@ -1,5 +1,5 @@
 # ANSI templates/cs
- Tato stránka obsahuje seznam šablon podle American National Standards Institute (ANSI) [ANSI](http://en.wikipedia.org/wiki/American_National_Standards_Institute) standardů
+Tato stránka obsahuje seznam šablon podle American National Standards Institute (ANSI) [ANSI](http://en.wikipedia.org/wiki/American_National_Standards_Institute) standardů
 
 ### ANSI A 
 
@@ -62,3 +62,6 @@
 Šablony jsou nakreselny uživatelem [Quick61](User:Quick61.md) a jejich seznam je na [FreeCAD-výkresové-šablony](https://github.com/quick61/FreeCAD-Drawing-Templates).
 
 [Category:Documentation](Category:Documentation.md) [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Drawing](Category:Drawing.md)
+
+---
+[documentation index](../README.md) > [Documentation](Category:Documentation.md) > ANSI templates/cs

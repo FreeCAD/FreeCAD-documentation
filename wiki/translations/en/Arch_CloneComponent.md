@@ -7,6 +7,8 @@
    SeeAlso:[Draft Clone](Draft_Clone.md), [Arch Component](Arch_Component.md)
 ---
 
+# Arch CloneComponent/en
+
 ## Description
 
 The **<img src="images/Arch_CloneComponent.svg" width=16px> [Arch Clone Component](Arch_CloneComponent.md)** produces **<img src="images/Arch_Component.svg" width=16px> [Arch Components](Arch_Component.md)** that are clones of selected Arch objects.
@@ -21,8 +23,5 @@ The clone component will simply have its **CloneOf** property set to the selecte
 
 ## Scripting
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CloneComponent/en

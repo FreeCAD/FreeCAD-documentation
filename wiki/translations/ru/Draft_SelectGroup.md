@@ -8,6 +8,8 @@
    SeeAlso:[Добавить в группу](Draft_AddToGroup/ru.md), [Std CreateGroup](Std_Group/ru.md)
 ---
 
+# Draft SelectGroup/ru
+
 
 </div>
 
@@ -33,8 +35,5 @@ The command currently does not work well with layers and can produce confusing r
 
 -   For more information about organizing your model see [Document structure](Document_structure.md) and [Arch tutorial](Arch_tutorial#Organizing_your_model.md).
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft SelectGroup/ru

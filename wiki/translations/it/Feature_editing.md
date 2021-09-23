@@ -1,5 +1,5 @@
 # Feature editing/it
- {{TOCright}}
+{{TOCright}}
 
 ## Introduzione
 
@@ -170,3 +170,6 @@ La pagina [Tutorial](Tutorials/it.md) fornisce alcuni esempi di utilizzo del met
 }} 
 
 [Category:Common Questions](Category:Common_Questions.md)
+
+---
+[documentation index](../README.md) > [Common Questions](Category:Common Questions.md) > Feature editing/it

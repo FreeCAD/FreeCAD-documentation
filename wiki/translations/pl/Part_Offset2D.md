@@ -7,6 +7,8 @@
    SeeAlso:[Part Offset 3D](Part_Offset.md), [Part Thickness](Part_Thickness.md), [Draft Offset](Draft_Offset.md)
 ---
 
+# Part Offset2D/pl
+
 ## Description
 
 Part 2D Offset constructs a wire, parallel to the original wire, at a certain distance from it. Or enlarges/shrinks a planar face, similarly.
@@ -114,8 +116,5 @@ Part.show(enlarged_circle)
 # structure follows that of source shape.
 }}
 
-
-
-
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Offset2D/pl

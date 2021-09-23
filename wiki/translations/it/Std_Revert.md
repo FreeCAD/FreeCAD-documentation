@@ -7,6 +7,8 @@
    Workbenches:Tutti
 ---
 
+# Std Revert/it
+
 
 </div>
 
@@ -41,4 +43,7 @@ Il comando **Ripristina** chiude il documento attivo e riapre l\'ultima versione
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std Revert/it

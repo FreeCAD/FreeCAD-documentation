@@ -1,5 +1,5 @@
 # Macro Assemblage Imprimante 3D/fr
- {{Macro/fr
+{{Macro/fr
 |Name=Macro_Assemblage_Imprimante_3D
 |Icon=Macro_Assemblage_Imprimante_3D.png
 |Description=Simule le déplacement d'une imprimante 3D dans l'axe Z.
@@ -111,4 +111,7 @@ animation = Animation()
 
 La discussion sur le forum : [Je galère pour tourner une pièce](http://forum.freecadweb.org/viewtopic.php?f=12&t=11782)
 
-Le canal sur Youtube de l\'auteur de la macro [FreeCAD: Gear Animation Tutorial](https://www.youtube.com/watch?v=KynMmsLJXV0) and its [blog](http://linuxforanengineer.blogspot.com.es/p/me.html) 
+Le canal sur Youtube de l\'auteur de la macro [FreeCAD: Gear Animation Tutorial](https://www.youtube.com/watch?v=KynMmsLJXV0) and its [blog](http://linuxforanengineer.blogspot.com.es/p/me.html)
+
+---
+[documentation index](../README.md) > Macro Assemblage Imprimante 3D/fr

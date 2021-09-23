@@ -1,5 +1,5 @@
 # Macro Cut Line/en
- {{Macro
+{{Macro
 |Name=Macro Cut Line
 |Icon=Macro_Cut_Line.png
 |Description=Cut a line giving as an argument number cut, create line, bicolor, create point. The new line is created in the real coordinate of object, not in the coordinate of the Body.<br/>{{ColoredText|(Command line, paste this complete macro in the Python console)}}.
@@ -123,3 +123,6 @@ cutLine(4, createLine = 1, biColor = 1, createPoint = 0)
 ## Links
 
 this function use the function discretize [the original code](http://forum.freecadweb.org/viewtopic.php?f=3&t=4217&hilit=discretize)
+
+---
+[documentation index](../README.md) > Macro Cut Line/en

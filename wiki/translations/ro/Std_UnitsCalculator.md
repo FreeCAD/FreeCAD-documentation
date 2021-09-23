@@ -1,3 +1,4 @@
+# Std UnitsCalculator/ro
 ---
 - GuiCommand:   Name:Std_UnitsCalculator   MenuLocation:Tools → Unit calculator...   Workbenches:All   SeeAlso:...---
 
@@ -70,4 +71,7 @@ Deschide caseta de dialog a calculatorului unității, care permite transformare
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std UnitsCalculator/ro

@@ -6,6 +6,8 @@
    Shortcut:**W**
 ---
 
+# SheetMetal AddWall/en
+
 ## Description
 
 The <img alt="" src=images/SheetMetal_AddWall.svg  style="width:24px;"> **SheetMetal AddWall** command creates a bend on a selected edge.
@@ -185,3 +187,6 @@ Done!
 
 
 [Category:SheetMetal](Category:SheetMetal.md) [Category:Addons](Category:Addons.md) [Category:External Command Reference](Category:External_Command_Reference.md)
+
+---
+[documentation index](../README.md) > [SheetMetal](Category:SheetMetal.md) > SheetMetal AddWall/en

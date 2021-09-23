@@ -1,3 +1,4 @@
+# Sketcher CreateOctagon/ro
 ---
 - GuiCommand:/ro   Name:Sketcher CreateOctagon   Name/ro:Sketcher CreateOctagon   Workbenches:[[Sketcher Workbench/ro   Sketcher]]|MenuLocation:Sketch → Sketcher geometries → Create octagon   Shortcut:   SeeAlso:---
 
@@ -43,4 +44,7 @@ Când este definită schița obiectului geometric cercul circumscris este vizibi
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateOctagon/ro

@@ -8,6 +8,8 @@
    Icon:Tree_Part.svg
 ---
 
+# Part SimpleCopy/ru
+
 
 </div>
 
@@ -51,8 +53,5 @@ The copy has a simple **Placement** property like any other [Part Feature](Part_
 
 The copy has simple view properties like any other [Part Feature](Part_Feature.md).
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part SimpleCopy/ru

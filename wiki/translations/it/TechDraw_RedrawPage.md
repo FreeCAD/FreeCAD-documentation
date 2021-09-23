@@ -7,6 +7,8 @@
    Version:0.19
 ---
 
+# TechDraw RedrawPage/it
+
 
 </div>
 
@@ -55,4 +57,7 @@ Il comando Ridisegna non è direttamente disponibile negli script.
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw RedrawPage/it

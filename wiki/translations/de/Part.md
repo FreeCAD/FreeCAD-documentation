@@ -1,6 +1,4 @@
 # Part/de
-
-
 ## Einleitung
 
 
@@ -34,3 +32,6 @@ Wenn jedoch mehr Präzision erforderlich ist, muss die Unterscheidung vorgenomme
 }} {{Document objects navi}} 
 
 [Category:Glossary](Category:Glossary.md)
+
+---
+[documentation index](../README.md) > [Glossary](Category:Glossary.md) > Part/de

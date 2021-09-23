@@ -9,6 +9,8 @@
    SeeAlso:[Çember](Draft_Circle/tr.md),[Elips](Draft_Ellipse/tr.md)
 ---
 
+# Draft Arc/tr
+
 
 </div>
 
@@ -160,5 +162,5 @@ doc.recompute()
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Arc/tr

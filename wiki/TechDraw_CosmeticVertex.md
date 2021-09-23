@@ -7,6 +7,8 @@
    SeeAlso:[TechDraw Midpoint](TechDraw_Midpoints.md), [TechDraw Quadrant](TechDraw_Quadrants.md)
 ---
 
+# TechDraw CosmeticVertex
+
 ## Description
 
 The Cosmetic Vertex tool adds a [Vertex](Glossary#V.md), which is not part of the source geometry, to a View. This Vertex behaves like any other vertex and can be used for dimensioning.
@@ -56,4 +58,7 @@ dvp.makeCosmeticLine(start,end,style, weight, pyGreen)
 
 
 
- {{TechDraw Tools navi}}  
+ {{TechDraw Tools navi}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw CosmeticVertex

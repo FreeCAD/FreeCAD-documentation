@@ -6,6 +6,8 @@
    Workbenches:[Plot](Plot_Module/fr.md)
 ---
 
+# Plot Series/fr
+
 ## Description
 
 Le module plot standard fournit déjà un outil permettant de modifier le style des séries du graphique <img alt="" src=images/Matplotlib_edit_subplot.png  style="width:24px;">. Mais si vous installez l\'<img alt="" src=images/Workbench_Plot.svg  style="width:24px;"> [atelier Plot](Plot_Workbench/fr.md) en utilisant le [Gestionnaire d\'Addon](Std_AddonMgr.md), un outil plus complet et plus simple sera disponible.
@@ -37,3 +39,6 @@ Sélectionnez l\'onglet du graphique que vous voulez modifier et exécutez cet o
 }} 
 
 [Category:External\_Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)
+
+---
+[documentation index](../README.md) > [External_Workbenches](Category:External_Workbenches.md) > Plot Series/fr

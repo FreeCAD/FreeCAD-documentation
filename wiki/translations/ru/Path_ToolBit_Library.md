@@ -1,10 +1,4 @@
 # Path ToolBit Library/ru
- 
-
-
-
-
-
 {{TOCright}}
 
 ## Описание
@@ -56,4 +50,7 @@ A toolbit library can be exported to create a [LinuxCNC Tool Table](http://wiki.
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path ToolBit Library/ru

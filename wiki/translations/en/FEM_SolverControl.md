@@ -7,6 +7,8 @@
    SeeAlso:[FEM Run solver calculations](FEM_SolverRun.md)
 ---
 
+# FEM SolverControl/en
+
 ## Description
 
 ## Usage
@@ -17,4 +19,7 @@
 
 {{FEM Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > FEM SolverControl/en

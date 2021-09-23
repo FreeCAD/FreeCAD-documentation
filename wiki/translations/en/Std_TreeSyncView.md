@@ -7,6 +7,8 @@
    Version:0.19
 ---
 
+# Std TreeSyncView/en
+
 ## Description
 
 The **Std TreeSyncView** command toggles the [Tree view](Tree_view.md) SyncView mode. If this mode is on, selecting an object from a different document in the Tree view automatically activates that document's last used docked [3D view](3D_view.md).
@@ -28,4 +30,7 @@ The Tree view SyncView mode can also be set in the [Preferences editor](Preferen
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std TreeSyncView/en

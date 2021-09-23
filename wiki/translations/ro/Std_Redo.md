@@ -1,3 +1,4 @@
+# Std Redo/ro
 ---
 - GuiCommand:   Name:Std Redo   MenuLocation:[|Workbenches:All   Shortcut:Maiusc+Ctrl+Z   SeeAlso:[[Std_Undo|Undo](Std_Edit_Menu___Edit]]_→_Redo‏‎.md)---
 
@@ -70,4 +71,7 @@ FreeCAD.ActiveDocument.redo()
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std Redo/ro

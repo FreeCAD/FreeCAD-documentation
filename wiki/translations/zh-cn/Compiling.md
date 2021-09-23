@@ -1,7 +1,4 @@
 # Compiling/zh-cn
-
-
-
 <div class="mw-translate-fuzzy">
 
 如何编译FreeCAD，针对每种操作系统，都有它自己的页面，在[在线帮助文档里有](Online_Help_Toc.md).
@@ -34,3 +31,6 @@ To learn to use revision control system and contribute code see [Source code man
 
 
 [Category:Developer\_Documentation](Category:Developer_Documentation.md) [Category:Developer](Category:Developer.md)
+
+---
+[documentation index](../README.md) > [Developer_Documentation](Category:Developer_Documentation.md) > Compiling/zh-cn

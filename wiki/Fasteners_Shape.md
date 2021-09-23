@@ -7,6 +7,8 @@
    SeeAlso:
 ---
 
+# Fasteners Shape
+
 ## Description
 
 The <img alt="" src=images/Fasteners_Shape.svg  style="width:24px;"> [Fasteners Shape](Fasteners_Shape.md) is used to convert a parameteric fastener object into a simple shape.
@@ -49,3 +51,6 @@ Result: A copy of the select fastener will be created with a **\_Copy** suffix. 
  {{Fasteners Tools navi}} 
 
 [Category:External Command Reference](Category:External_Command_Reference.md)
+
+---
+[documentation index](../README.md) > [External Command Reference](Category:External Command Reference.md) > Fasteners Shape

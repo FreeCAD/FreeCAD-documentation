@@ -1,7 +1,4 @@
 # Manual:Using spreadsheets/ru
- 
-
-
 {{Manual:TOC/ru}}
 
 В FreeCAD есть ещё один интересный для изучения верстак:[Spreadsheet](Spreadsheet_Workbench/ru.md). Этот верстак позволяет создать [Электронную таблицу](https://ru.wikipedia.org/wiki/Электронная_таблица) вроде тех что делаются в [Excel](https://ru.wikipedia.org/wiki/Microsoft_Excel) или [LibreOffice](https://ru.wikipedia.org/wiki/OpenOffice_Calc) прямо в FreeCAD. Эти электронные таблицы затем могут быть наполнены данными, взятыми из вашей модели, и производить некоторые вычисления между значениями. Электронные таблицы могут быть экспортированы в файлы CSV, которые могут импортироваться в любые приложения электронных таблиц.
@@ -89,3 +86,6 @@
 
 
 [Category:Tutorials/ru](Category:Tutorials/ru.md)
+
+---
+[documentation index](../README.md) > Manual:Using spreadsheets/ru

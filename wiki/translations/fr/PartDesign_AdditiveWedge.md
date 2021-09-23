@@ -8,6 +8,8 @@
    SeeAlso:[PartDesign Primitives additives](PartDesign_CompPrimitiveAdditive/fr.md), [PartDesign Pyramide tronquée soustractive](PartDesign_SubtractiveWedge/fr.md)
 ---
 
+# PartDesign AdditiveWedge/fr
+
 ## Description
 
 Insère une pyramide tronquée primitive dans un Corps actif comme fonction de base, ou fusionne avec une existante.
@@ -52,4 +54,7 @@ Les Pyramides tronquées peuvent être utilisées pour créer des pyramides en f
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveWedge/fr

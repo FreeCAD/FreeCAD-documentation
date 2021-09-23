@@ -6,6 +6,8 @@
    Workbenches:[Netze](Mesh_Workbench/de.md)
 ---
 
+# Mesh BoundingBox/de
+
 ## Beschreibung
 
 Der **Netz BegrenzungsRahmen** Befehl zeigt die Begrenzungsrahmen Koordinaten eines Netzobjekts an.
@@ -26,4 +28,7 @@ Der **Netz BegrenzungsRahmen** Befehl zeigt die Begrenzungsrahmen Koordinaten ei
 
 {{Mesh Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh BoundingBox/de

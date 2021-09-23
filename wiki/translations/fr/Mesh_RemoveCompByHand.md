@@ -7,6 +7,8 @@
    SeeAlso:[Mesh Supprimer des composants](Mesh_RemoveComponents/fr.md), [Arch Séparer un objet Mesh](Arch_SplitMesh/fr.md)
 ---
 
+# Mesh RemoveCompByHand/fr
+
 ## Description
 
 La commande **Mesh Suppression manuelle de composants** supprime des composants d\'objets maillés.
@@ -30,4 +32,7 @@ La commande **Mesh Suppression manuelle de composants** supprime des composants 
 
 {{Mesh Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh RemoveCompByHand/fr

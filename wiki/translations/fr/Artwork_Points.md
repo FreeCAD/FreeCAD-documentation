@@ -1,6 +1,4 @@
 # Artwork Points/fr
- 
-
 Ces icônes se trouvent dans le chemin source indiqué.
 
 Pour toutes les icônes de l\'arborescence source, voir [Graphisme](Artwork/fr.md).
@@ -17,3 +15,6 @@ Pour toutes les icônes de l\'arborescence source, voir [Graphisme](Artwork/fr.m
 }} 
 
 [Category:Points](Category:Points.md)
+
+---
+[documentation index](../README.md) > [Points](Category:Points.md) > Artwork Points/fr

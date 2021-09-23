@@ -8,6 +8,8 @@
    Version:0.18
 ---
 
+# Sketcher DeleteAllConstraints/de
+
 
 </div>
 
@@ -26,4 +28,7 @@ Dieses Werkzeug löscht alle Beschränkungen aus der zu bearbeitenden Skizze und
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher DeleteAllConstraints/de

@@ -7,6 +7,8 @@
    SeeAlso:[Std Documentation pour scripter en Python](Std_FreeCADPowerUserHub/fr.md)
 ---
 
+# Std PythonHelp/fr
+
 ## Description
 
 La commande **Std Documentation des modules Python** démarre un serveur Web qui communique avec le navigateur Internet par défaut du système via un socket local. Le serveur Web affiche des informations sur les modules, classes et fonctions [Python](Python/fr.md) disponibles de FreeCAD. Les pages requises sont générées automatiquement.
@@ -24,4 +26,7 @@ Le serveur Web est basé sur le module [pydoc](https://docs.python.org/3.8/libra
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std PythonHelp/fr

@@ -7,6 +7,8 @@
    SeeAlso:[Szkicownik: Wiązanie zbieżności punktów](Sketcher_ConstrainCoincident/pl.md), [Topological naming problem](Topological_naming_problem.md)
 ---
 
+# Sketcher ValidateSketch/pl
+
 ## Opis
 
 Narzędzie **Sprawdzanie poprawności szkicu** może być używane do analizowania i naprawiania szkicu, który nie jest już edytowalny lub ma nieprawidłowe wiązania, lub do dodawania brakujących [zbieżności punktów](Sketcher_ConstrainCoincident/pl.md) do szkicu utworzonego z importowanej geometrii, takiej jak pliki DXF. Może być również przydatny do zlokalizowania brakującej zbieżności w rodzimym szkicu, który generuje błąd **nie można zatwierdzić uszkodzonej powierzchni** podczas próby zastosowania elementu ze środowiska Projekt części.
@@ -78,4 +80,7 @@ Mechanizm blokujący zazwyczaj działa dobrze i narzędzie to nie powinno być p
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ValidateSketch/pl

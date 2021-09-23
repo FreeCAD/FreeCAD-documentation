@@ -9,6 +9,8 @@
    SeeAlso:[Std Piesă](Std_Part/ro.md)
 ---
 
+# PartDesign Body/ro
+
 
 </div>
 
@@ -390,4 +392,7 @@ App.ActiveDocument.recompute()
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Body/ro

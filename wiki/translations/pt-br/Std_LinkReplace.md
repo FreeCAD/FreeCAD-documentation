@@ -7,6 +7,8 @@
    SeeAlso:[Std LinkMake](Std_LinkMake.md), [Std LinkMakeRelative](Std_LinkMakeRelative.md), [Std LinkUnlink](Std_LinkUnlink.md)
 ---
 
+# Std LinkReplace/pt-br
+
 ## Descrição
 
 
@@ -48,4 +50,7 @@ This command creates a new <img src=images/Std_LinkMake.svg style="width:App Lin
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std LinkReplace/pt-br

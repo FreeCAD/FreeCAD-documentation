@@ -8,6 +8,8 @@
    SeeAlso:[Draft WorkingPlaneProxy](Draft_WorkingPlaneProxy.md)
 ---
 
+# Draft SelectPlane/pt-br
+
 
 </div>
 
@@ -145,5 +147,5 @@ print(projection)
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft SelectPlane/pt-br

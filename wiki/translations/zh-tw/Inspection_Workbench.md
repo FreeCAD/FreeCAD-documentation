@@ -1,7 +1,4 @@
-# Inspection Workbench/zh-tw
- 
-
-<img alt="Inspection workbench icon" src=images/Workbench_Inspection.svg  style="width:128px;">
+# <img alt="Inspection workbench icon" src=images/Workbench_Inspection.svg  style="width:64px;"> Inspection Workbench/zh-tw
 
 ## Introduction
 
@@ -27,3 +24,6 @@ Alternatively, use the macro <img alt="" src=images/HighlightDifference.png  sty
 
 
 [Category:Inspection](Category:Inspection.md) [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Inspection Workbench/zh-tw

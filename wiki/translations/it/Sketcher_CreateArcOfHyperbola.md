@@ -9,6 +9,8 @@
    SeeAlso:[Arco di ellisse](Sketcher_CreateArcOfEllipse/it.md), [Arco di parabola](Sketcher_CreateArcOfParabola/it.md)
 ---
 
+# Sketcher CreateArcOfHyperbola/it
+
 
 </div>
 
@@ -44,4 +46,7 @@ Questo strumento crea un arco di iperbole da centro, raggio maggiore e punti fin
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateArcOfHyperbola/it

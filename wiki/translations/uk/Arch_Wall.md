@@ -1,3 +1,4 @@
+# Arch Wall/uk
 ---
 - GuiCommand:/uk   Name:Arch Wall   Name/uk:Arch Wall   Workbenches:[MenuLocation:Arch → Wall   Shortcut:W A   SeeAlso:[[Arch Structure/uk|Arch Structure](Arch_Workbench/uk___Arch]].md)---
 
@@ -147,3 +148,6 @@ FreeCAD.ActiveDocument.recompute()
 
 
 [Category:Arch/uk](Category:Arch/uk.md)
+
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Wall/uk

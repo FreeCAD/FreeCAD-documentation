@@ -8,6 +8,8 @@
    SeeAlso:[Sketcher Rectangle](Sketcher_CreateRectangle/fr.md)
 ---
 
+# Sketcher CreateRectangle Center/fr
+
 ## Description
 
 Cet outil dessine un rectangle en choisissant d\'abord un point qui deviendra le point central, puis en choisissant un point de bordure. Le résultat est un rectangle comme avec l\'outil [Rectangle](Sketcher_CreateRectangle/fr.md), seuls les points de définition sont différents.
@@ -27,4 +29,7 @@ Au démarrage de l\'outil, le pointeur de la souris se transforme en une croix b
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateRectangle Center/fr

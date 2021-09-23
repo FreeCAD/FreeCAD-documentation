@@ -1,5 +1,5 @@
 # Macro FaceToSketch/fr
- {{Macro/fr
+{{Macro/fr
 |Name=FaceToSketch
 |Icon=Macro_FaceToSketch.png
 |Description=Convertit une face en un sketch sans contraintes.
@@ -35,6 +35,5 @@ for wire in wires:
     FreeCAD.ActiveDocument.removeObject(wire.Name)
 }}
 
-
-
-
+---
+[documentation index](../README.md) > Macro FaceToSketch/fr

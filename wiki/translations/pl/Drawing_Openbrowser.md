@@ -7,6 +7,8 @@
    Shortcut:brak
 ---
 
+# Drawing Openbrowser/pl
+
 ## Opis
 
 To polecenie pozwala wyświetlić wybraną [Stronę rysunku](Drawing_Landscape_A3/pl.md) za pomocą wewnętrznej przeglądarki internetowej FreeCAD. Normalna przeglądarka stron rysunku w programie FreeCAD jest oparta na [wbudowanym module renderującym SVG Qt](http://qt-project.org/doc/qt-5.0/qtsvg/svgrendering.html), który obsługuje tylko niewielki podzbiór pełnego Specyfikacja SVG. W rezultacie niektóre bardziej zaawansowane funkcje SVG, takie jak wypełnienie wzorkiem lub tekst wielowierszowy, nie są obsługiwane przez tę przeglądarkę. Wewnętrzna przeglądarka internetowa FreeCAD jest jednak zbudowana na [Webkit](http://en.wikipedia.org/wiki/WebKit), który jest jednym z najlepszych dostępnych programów renderujących SVG i poprawnie renderuje twoją stronę ze wszystkimi jej funkcjami.
@@ -28,4 +30,7 @@ To polecenie pozwala wyświetlić wybraną [Stronę rysunku](Drawing_Landscape_A
 
 {{Drawing Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Openbrowser/pl

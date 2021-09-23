@@ -1,7 +1,4 @@
 # Selection methods/es
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -101,5 +98,5 @@ See the [Source documentation](Source_documentation.md) and [Std PythonHelp](Std
 
 </div>
 
-
-
+---
+[documentation index](../README.md) > Selection methods/es

@@ -1,7 +1,4 @@
 # Python scripting tutorial/ko
-
-
-
 {{TOCright}}
 
 ## 소개
@@ -292,3 +289,6 @@ Now you are ready for more in-depth FreeCAD scripting. So head on to the [Power 
 }} 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Python scripting tutorial/ko

@@ -8,6 +8,8 @@
    SeeAlso:[Arch Bâtiment](Arch_Building/fr.md), [Arch Partie de bâtiment](Arch_BuildingPart/fr.md), [Arch Site](Arch_Site/fr.md)
 ---
 
+# Arch Floor/fr
+
 ## Description
 
 [Niveaux](Arch_Floor/fr.md) est un type spécial d\'objet de groupe FreeCAD qui possède quelques propriétés supplémentaires particulièrement adaptées pour la construction de niveaux. En particulier, ils ont une propriété height (hauteur), que ses objets enfants ([Arch murs](Arch_Wall/fr.md) et [Arch structures](Arch_Structure/fr.md)) peuvent utiliser pour définir automatiquement leur propre hauteur. Ils sont principalement utilisés pour organiser votre modèle.
@@ -67,11 +69,5 @@ Site = Arch.makeSite(Building)
 FreeCAD.ActiveDocument.recompute() 
 ```
 
-
-
-
-
-
-
-
-
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Floor/fr

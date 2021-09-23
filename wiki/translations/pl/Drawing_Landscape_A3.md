@@ -1,3 +1,4 @@
+# Drawing Landscape A3/pl
 ---
 - GuiCommand:/pl   Name:Drawing Landscape A3   Name/pl:Drawing Landscape A3   Workbenches:[[Drawing Workbench/pl   Drawing]], Complete|MenuLocation:Drawing → Insert new drawing → A3 Landscape   Shortcut:none---
 
@@ -21,4 +22,7 @@ Jeśli strona nie jest wyświetlana, kliknij na ikonę odświeżania <img alt=""
 
 {{Drawing Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Landscape A3/pl

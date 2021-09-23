@@ -7,6 +7,8 @@
    MenuLocation:Sketch → Geometria schitei → Activează/dezactivează construcția geometrică
 ---
 
+# Sketcher ToggleConstruction/ro
+
 
 </div>
 
@@ -78,3 +80,6 @@ Utilizați Construction mode pe câteva elemente dals schiței,
 }}  
 
 [Category:Sketcher/ro](Category:Sketcher/ro.md)
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ToggleConstruction/ro

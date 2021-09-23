@@ -6,6 +6,8 @@
    MenuLocation:Robot → Arête vers trajectoire
 ---
 
+# Robot Edge2Trac/fr
+
 
 </div>
 
@@ -53,4 +55,7 @@ Vous pouvez changer les valeurs de cette trajectoire en définissant une [Modifi
 
 {{Robot_Tools_navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot Edge2Trac/fr

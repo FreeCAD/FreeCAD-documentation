@@ -1,7 +1,4 @@
 # Raytracing project/fr
-
-
-
 **
 This roadmap is probably obsolete. For more information see [Development roadmap](Development_roadmap.md).<br>
 If you are not involved with the development discussed here:<br>
@@ -134,3 +131,6 @@ Ici en vedette, une pièce qui a été créée à l\'aide **PartDesign/Sketcher*
 
 
 [Category:Roadmap](Category:Roadmap.md)
+
+---
+[documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing project/fr

@@ -8,6 +8,8 @@
    SeeAlso:[Borrador Elevar](Draft_Upgrade/es.md), [Pieza Cortar](Part_Cut/es.md)
 ---
 
+# Draft Downgrade/es
+
 ## Descripción
 
 El <img alt="" src=images/Draft_Downgrade.svg  style="width:24px;"> comando \'\'\'Borrador Rebajar \'\'\' rebaja los objetos seleccionados. El resultado depende del número de objetos seleccionados y de su tipo. El comando puede, por ejemplo, deconstruir un sólido 3D en caras separadas y un hilo en aristas separadas. Si se seleccionan dos caras, se crea un objeto [Pieza Corte](Part_Cut/es.md) a partir de ellas. Tenga en cuenta que no todos los objetos pueden ser rebajados. Este comando es la contraparte del comando [Borrador Elevar](Draft_Upgrade/es.md).
@@ -73,8 +75,5 @@ add_list4, delete_list4 = Draft.downgrade(box, delete=True)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Downgrade/es

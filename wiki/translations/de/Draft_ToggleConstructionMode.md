@@ -7,6 +7,8 @@
    SeeAlso:[Draft ZurKonstruktionsgruppeHinzufügen](Draft_AddConstruction/de.md)
 ---
 
+# Draft ToggleConstructionMode/de
+
 ## Beschreibung
 
 Der <img alt="" src=images/Draft_ToggleConstructionMode.svg  style="width:24px;"> **Draft UmschaltenKonstruktionsmodus**-Befehl schaltet den Draft Konstruktionsmodus ein oder aus. Fall der Konstruktionsmodus eingeschaltet ist, werden neue [Draft](Draft_Workbench/de.md)-Objekte, außer [Draft Punkten](Draft_Point/de.md) in einer dedizierten Gruppe zugeordnet und erhalten eine vordefinierte Farbe. Diese Möglichkeit ist für - oftmals temporäre - Konstruktionsgeometrie gedacht, um für die Erzeugung weiterer Objekte neue [Einrastpunkte](Draft_Snap/de.md) bereitzustellen. Wenn die Konstruktionsgeometrie nicht länger benötigt wird, kann die Konstruktionsgruppe einfach [versteckt](Std_HideSelection/de.md) oder [gelöscht](Std_Delete/de.md) werden.
@@ -35,8 +37,5 @@ In FreeCAD Version 0.19 benutzen dieser und der [Draft ZurKonstruktionsgruppeHin
 -   Zur Änderung der Bezeichnung ({{Version/de|0.20}}) der Konstruktionsgruppe: **Bearbeiten → Einstellungen... → Draft → Allgemeine Einstellungen → Konstruktionsgeometrie → Konstruktionsgruppenname**.
 -   Zur Änderung der zu verwendenden Farbe: **Bearbeiten → Einstellungen... → Draft → Allgemeine Einstellungen → Konstruktionsgeometrie → Hilfsgeometriefarbe**.
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ToggleConstructionMode/de

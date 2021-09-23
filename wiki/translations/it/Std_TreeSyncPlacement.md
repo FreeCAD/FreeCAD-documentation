@@ -7,6 +7,8 @@
    Shortcut:**T** **3**
 ---
 
+# Std TreeSyncPlacement/it
+
 
 </div>
 
@@ -37,4 +39,7 @@ The Tree view SyncPlacement mode is stored: **Tools → Edit parameters... → B
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std TreeSyncPlacement/it

@@ -1,5 +1,4 @@
 # Sandbox:Mario52
-
 **'''my personal Sanbox Mario52'''<br />'''Not For Release - Do not Translate - Do not change - Not to read - Not to look'''**
 
 
@@ -53,3 +52,6 @@ totoche
  
 
 [Category:Sandbox](Category:Sandbox.md)
+
+---
+[documentation index](../README.md) > Sandbox:Mario52

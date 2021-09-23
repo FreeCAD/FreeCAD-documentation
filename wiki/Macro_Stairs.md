@@ -1,5 +1,5 @@
 # Macro Stairs
-  {{Macro
+{{Macro
 |Name=Macro Stairs
 |Icon=Macro_Stairs.png
 |Description=Creates a stair helix. Create your stair nosing, select your object and launch the macro
@@ -114,4 +114,5 @@ FreeCAD.ActiveDocument.recompute()
 
 The discussion on the forum [Newbie question - spiral stairs reloaded](http://forum.freecadweb.org/viewtopic.php?f=3&t=9921)
 
- 
+---
+[documentation index](../README.md) > Macro Stairs

@@ -7,6 +7,8 @@
    Version:0.17
 ---
 
+# Draft Stretch/ru
+
 ## Описание
 
 The <img alt="" src=images/Draft_Stretch.svg  style="width:24px;"> **Draft Stretch** command stretches objects by moving selected points.
@@ -64,5 +66,5 @@ There is no Python method to stretch objects. To emulate the results of the Draf
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Stretch/ru

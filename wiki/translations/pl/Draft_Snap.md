@@ -1,10 +1,4 @@
 # Draft Snap/pl
-
-
-
-
-
-
 {{TOCright}}
 
 ## Opis
@@ -86,8 +80,5 @@ Należy pamiętać, że po zmianie niektórych preferencji należy ponownie uruc
 -   Kolor symboli przyciągania oraz rozmiar [Draft Snap Dimensions](Draft_Snap_Dimensions.md) można zmienić w: **Edycja → Preferencje → Rysunek Roboczy → Ustawienia wyglądu → Kolor**
 -   Wspomniane skróty klawiaturowe dla pojedynczych znaków można zmienić w: **Edycja → Preferencje → Rysunek Roboczy → Ustawienia interfejsu użytkownika → Skróty klawiszowe**.
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap/pl

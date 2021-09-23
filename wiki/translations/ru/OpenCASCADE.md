@@ -1,7 +1,4 @@
 # OpenCASCADE/ru
-
-
-
 {{TOCright}}
 
 ## Описание
@@ -88,3 +85,6 @@ Thus, out of shapes you can build very complex parts or, the other way round, ex
 }} 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > OpenCASCADE/ru

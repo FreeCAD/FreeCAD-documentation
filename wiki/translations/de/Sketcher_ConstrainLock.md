@@ -7,6 +7,8 @@
    SeeAlso:[Beschränke Block](Sketcher_ConstrainBlock/de.md)
 ---
 
+# Sketcher ConstrainLock/de
+
 ## Beschreibung
 
 **Beschränkung Schloss** wendet **<img src=images/Sketcher_ConstrainDistanceX.svg style="width:16px"> <img src=images/Sketcher_ConstrainDistanceY.svg style="width:Horizontaler Abstand](Sketcher_ConstrainDistanceX/de.md)** und **[16px"> [Vertikaler Abstand](Sketcher_ConstrainDistanceY/de.md)** Beschränkungen auf ausgewählte Knoten (Punkte) in der Skizze an. Wenn ein einzelner Knoten ausgewählt ist, beziehen sich die horizontalen und vertikalen Abstandsbeschränkungen auf den Skizzenursprungspunkt. Wenn zwei oder mehr Punkte ausgewählt sind, werden die horizontalen und vertikalen Abstandsbeschränkungen für jedes Punktpaar hinzugefügt. Es gibt keine automatische Aufforderung, die Werte der Beschränkungen zu bearbeiten, sie müssen manuell bearbeitet werden.
@@ -29,4 +31,7 @@ Die <img alt="" src=images/Sketcher_ConstrainLock.svg  style="width:24px;"> [Sch
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainLock/de

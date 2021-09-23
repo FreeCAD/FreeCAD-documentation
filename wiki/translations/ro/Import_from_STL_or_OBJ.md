@@ -1,5 +1,5 @@
 # Import from STL or OBJ/ro
- {{TutorialInfo/ro
+{{TutorialInfo/ro
 |Topic= Import from STL or OBJ
 |Level= Beginner
 |Time= 30 minutes
@@ -152,3 +152,6 @@ Deoarece solidul creat nu are istorie si nici funcții editabile (ca o copie sim
  
 
 [Category:File\_Formats](Category:File_Formats.md)
+
+---
+[documentation index](../README.md) > [Import](Import_Workbench.md) > Import from STL or OBJ/ro

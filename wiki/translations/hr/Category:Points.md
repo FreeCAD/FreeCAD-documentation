@@ -4,3 +4,6 @@ This category lists pages related to the [Points Workbench/hr](Points_Workbench/
 ### Contents:
 
 [Category:Workbenches/hr](Category:Workbenches/hr.md)
+
+---
+[documentation index](../README.md) > Category:Points/hr

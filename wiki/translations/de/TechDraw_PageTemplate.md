@@ -7,6 +7,8 @@
    SeeAlso:[TechDraw Standardseite](TechDraw_PageDefault/de.md), [TechDraw Vorlagen](TechDraw_Templates/de.md)
 ---
 
+# TechDraw PageTemplate/de
+
 ## Beschreibung
 
 Das Neue Auswahl Werkzeug erstellt ein neues Seitenobjekt unter Verwendung der in einem Dialogfeld ausgewählten Vorlagendatei.
@@ -64,4 +66,7 @@ Siehe die Informationen in [Standardseite einfügen](TechDraw_PageDefault/de.md)
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw PageTemplate/de

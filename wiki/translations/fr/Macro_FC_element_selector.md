@@ -1,5 +1,5 @@
 # Macro FC element selector/fr
- {{Macro/fr
+{{Macro/fr
 |Name=Macro FC element selector
 |Icon=Macro_FC_element_selector.png
 |Description= Cette macro affiche tous les éléments sous le curseur (les éléments cachés seront aussi affichés).
@@ -205,3 +205,6 @@ element_selector()
 La discussion sur le forum [Selecting internal faces of a pressure vessel](https://forum.freecadweb.org/viewtopic.php?f=18&t=12381&p=151950#p151950)
 
 Macro similaire [Macro Mouse over cb](Macro_Mouse_over_cb.md)
+
+---
+[documentation index](../README.md) > Macro FC element selector/fr

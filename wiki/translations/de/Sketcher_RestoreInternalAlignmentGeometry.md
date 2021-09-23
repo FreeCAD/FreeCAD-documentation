@@ -7,6 +7,8 @@
    SeeAlso:[Sketcher Ellipse](Sketcher_CreateEllipseByCenter.md), [Sketcher Internal Alignment Constraint](Sketcher_ConstrainInternalAlignment.md)
 ---
 
+# Sketcher RestoreInternalAlignmentGeometry/de
+
 ## Beschreibung
 
 Der Befehl löscht unbenutzte Elemente, die an der Innengeometrie ausgerichtet sind, oder erstellt die fehlenden Elemente neu.
@@ -46,4 +48,7 @@ Erstelle eine neue Ellipse. Neue Ellipsen sind immer vollgepackt. Du siehst eine
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher RestoreInternalAlignmentGeometry/de

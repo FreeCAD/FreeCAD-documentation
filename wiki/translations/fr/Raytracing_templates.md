@@ -1,6 +1,4 @@
 # Raytracing templates/fr
-
-
 ## Introduction
 
 L\'[atelier raytracing](Raytracing_Workbench/fr.md) est livré avec quelques modèles pour Povray et Luxrender, mais vous pouvez facilement créer les vôtres. Tout ce que vous avez à faire est de créer un fichier de scène pour le rendu donné, puis de le modifier manuellement avec un éditeur de texte pour insérer des balises spéciales que FreeCAD reconnaîtra et où il insérera son contenu (données de caméra et d\'objets).
@@ -60,3 +58,5 @@ Notez que dans luxrender, les objets stockés dans un fichier de scène peuvent 
 
 {{Userdocnavi/fr}}
 
+---
+[documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing templates/fr

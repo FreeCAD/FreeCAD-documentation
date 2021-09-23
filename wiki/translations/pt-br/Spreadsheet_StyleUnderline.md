@@ -6,6 +6,8 @@
    Version:0.17
 ---
 
+# Spreadsheet StyleUnderline/pt-br
+
 ## Description
 
 The underline style.
@@ -22,4 +24,7 @@ The underline style.
 
 {{Spreadsheet_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet StyleUnderline/pt-br

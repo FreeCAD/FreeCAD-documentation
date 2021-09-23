@@ -1,9 +1,4 @@
 # Glossary
- 
-
-
-
-
 This page is a glossary of common FreeCAD terms and definitions.
 
 Jump to letter: {{CompactTOC|center=yes}}
@@ -1139,3 +1134,6 @@ Jump to letter: {{CompactTOC|center=yes}}
  
 
 [Category:Wiki](Category:Wiki.md) [Category:Glossary](Category:Glossary.md)
+
+---
+[documentation index](../README.md) > [Wiki](Category:Wiki.md) > Glossary

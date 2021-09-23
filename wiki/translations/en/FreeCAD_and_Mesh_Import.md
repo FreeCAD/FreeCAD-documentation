@@ -1,7 +1,4 @@
 # FreeCAD and Mesh Import/en
-
-
-
 {{TOCright}}
 
 ## Post-Import 
@@ -45,3 +42,6 @@ Well, your shell seems to have errors, maybe it is not closed (has holes). Since
 -   [FreeCAD Howto Import Export](FreeCAD_Howto_Import_Export.md)
 
 [Category:User\_Documentation](Category:User_Documentation.md) [Category:File\_Formats](Category:File_Formats.md)
+
+---
+[documentation index](../README.md) > [User_Documentation](Category:User_Documentation.md) > FreeCAD and Mesh Import/en

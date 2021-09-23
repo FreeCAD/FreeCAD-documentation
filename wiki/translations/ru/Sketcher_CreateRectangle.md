@@ -8,6 +8,8 @@
    SeeAlso:[Создать скругленный прямоугольник](Sketcher_CreateOblong/ru.md), [Создать полилинию](Sketcher_CreatePolyline/ru.md)
 ---
 
+# Sketcher CreateRectangle/ru
+
 ## Описание
 
 
@@ -39,4 +41,7 @@ To define a rectangle via a center point and an edge point, use the [Centered re
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateRectangle/ru

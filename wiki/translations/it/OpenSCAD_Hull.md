@@ -1,3 +1,4 @@
+# OpenSCAD Hull/it
 ---
 - GuiCommand:/it   Name:OpenSCAD Hull   Name/it:Hull   MenuLocation:OpenSCAD → Hull‏‎   |Workbenches:[[OpenSCAD_Workbench/it   OpenSCAD]]|Shortcut:   SeeAlso:---
 
@@ -71,4 +72,7 @@ La funzione richiede che OpenSCAD sia installato e configurato nelle **Modifica*
 
 {{OpenSCAD_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD Hull/it

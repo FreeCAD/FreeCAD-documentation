@@ -8,6 +8,8 @@
    SeeAlso:[Serie ortognale](Draft_OrthoArray/it.md), [Serie polare](Draft_PolarArray/it.md), [Serie circolare](Draft_CircularArray/it.md), [Serie di link su tracciato](Draft_PathLinkArray/it.md), [Serie su punti](Draft_PointArray/it.md)
 ---
 
+# Draft PathLinkArray/it
+
 
 </div>
 
@@ -30,5 +32,5 @@ Lo strumento [Serie di link su tracciato](Draft_PathLinkArray/it.md) posiziona c
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft PathLinkArray/it

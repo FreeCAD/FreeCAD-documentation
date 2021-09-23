@@ -6,6 +6,8 @@
    SeeAlso:[Std ViewIvStereoRedGreen](Std_ViewIvStereoRedGreen/ru.md), [Std ViewIvStereoQuadBuff](Std_ViewIvStereoQuadBuff/ru.md), [/ruStd ViewIvStereoInterleavedRows](Std_ViewIvStereoInterleavedRows.md), [Std ViewIvStereoInterleavedColumns](Std_ViewIvStereoInterleavedColumns/ru.md)
 ---
 
+# Std ViewIvStereoOff/ru
+
 ## Описание
 
 Команда **Std ViewIvStereoOff** выключает стерео режим в активном [3D view](3D_view/ru.md).
@@ -37,4 +39,7 @@ FreeCADGui.ActiveDocument.ActiveView.getStereoType()
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ViewIvStereoOff/ru

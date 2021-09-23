@@ -7,6 +7,8 @@
    SeeAlso:[Eskizi Yüzeye Eşle](Sketcher_MapSketch/tr.md), [Eskizi yeniden yönlendir...](Sketcher_Reorient/tr.md)
 ---
 
+# Sketcher NewSketch/tr
+
 
 </div>
 
@@ -64,4 +66,7 @@ Eskiz [Yerleştirme](Placement/tr.md) kullanılarak 3D alanda hareket ettirilebi
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher NewSketch/tr

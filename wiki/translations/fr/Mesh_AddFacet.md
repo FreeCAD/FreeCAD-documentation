@@ -7,6 +7,8 @@
    SeeAlso:[Mesh Remplir les trous](Mesh_FillupHoles/fr.md), [Mesh Boucher un trou](Mesh_FillInteractiveHole/fr.md)
 ---
 
+# Mesh AddFacet/fr
+
 ## Description
 
 La commande **Mesh Ajouter un triangle** ajoute des faces le long d\'une limite d\'un objet maillé ouvert. Elle peut être utilisée pour remplir des trous.
@@ -48,4 +50,7 @@ Pour une indication plus précise de l\'orientation des faces des objets maillé
 
 {{Mesh Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh AddFacet/fr

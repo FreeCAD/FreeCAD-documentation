@@ -1,10 +1,4 @@
-# Arch Workbench/it
-
-
-
-
-
-<img alt="L\'icona di Arch" src=images/Workbench_Arch.svg  style="width:128px;">
+# <img alt="L\'icona di Arch" src=images/Workbench_Arch.svg  style="width:64px;"> Arch Workbench/it
 
 
 {{TOCright}}
@@ -145,3 +139,6 @@ Il Modulo Arch può essere usato negli [Python](Python/it.md) e [macro](macros/i
  
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Arch Workbench/it

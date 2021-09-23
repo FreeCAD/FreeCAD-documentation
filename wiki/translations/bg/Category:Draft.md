@@ -6,3 +6,6 @@ This category list pages related to the \"User\_Documentation/bg\" and \"Workben
 [Draft Workbench/bg](Draft_Workbench/bg.md)
 
 [Category:User Documentation/bg](Category:User_Documentation/bg.md) [Category:Workbenches/bg](Category:Workbenches/bg.md)
+
+---
+[documentation index](../README.md) > Category:Draft/bg

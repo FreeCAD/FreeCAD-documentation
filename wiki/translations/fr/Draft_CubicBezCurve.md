@@ -8,6 +8,8 @@
    SeeAlso:[Draft Courbe de Bézier](Draft_BezCurve/fr.md), [Draft B-spline](Draft_BSpline/fr.md)
 ---
 
+# Draft CubicBezCurve/fr
+
 ## Description
 
 La commande <img alt="" src=images/Draft_CubicBezCurve.svg  style="width:24px;"> **Courbe de Bézier cubique** crée une [Courbe de Bézier](https://fr.wikipedia.org/wiki/Courbe_de_B%C3%A9zier) du troisième degré (quatre points requis).
@@ -147,8 +149,5 @@ B7.ViewObject.DrawStyle = "Dashed"
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft CubicBezCurve/fr

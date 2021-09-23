@@ -7,6 +7,8 @@
    SeeAlso:[TechDraw LengthDimension](TechDraw_LengthDimension.md), [TechDraw VerticalExtentDimension](TechDraw_VerticalExtentDimension.md)
 ---
 
+# TechDraw HorizontalExtentDimension/pl
+
 ## Description
 
 The Horizontal Extent Dimension tool adds a linear dimension to a View. The dimension extends from the left most point on the selected objects to the right most point. A CosmeticVertex will be placed at each point.
@@ -54,4 +56,7 @@ rc = page.addView(hExtentDim)
 
 {{TechDraw Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw HorizontalExtentDimension/pl

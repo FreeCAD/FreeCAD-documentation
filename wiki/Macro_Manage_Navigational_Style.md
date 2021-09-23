@@ -1,5 +1,5 @@
 # Macro Manage Navigational Style
-  {{Macro
+{{Macro
 |Name=Macro Manage Navigational Styles
 |Icon=Macro_Manage_Navigational_Styles1.png
 |Description=This pair of macros allow you to alter the Navigation Style while using the Sketcher.
@@ -47,6 +47,5 @@ p=App.ParamGet("User parameter:BaseApp/Preferences/View")
 p.SetString("NavigationStyle","Gui::CADNavigationStyle")
 }}
 
-
-
-
+---
+[documentation index](../README.md) > Macro Manage Navigational Style

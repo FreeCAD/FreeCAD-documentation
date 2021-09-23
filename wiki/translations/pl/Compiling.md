@@ -1,5 +1,5 @@
 # Compiling/pl
- Każdy system operacyjny ma swoją własną stronę wprowadzającą w proces kompilacji programu FreeCAD w [Spisie treści pomocy online](Online_Help_Toc/pl.md).
+Każdy system operacyjny ma swoją własną stronę wprowadzającą w proces kompilacji programu FreeCAD w [Spisie treści pomocy online](Online_Help_Toc/pl.md).
 
   ------------------------------------------------------------------------------ --------------------------------------------------------------- --------------------------------------------------------------- -------------------------------------------------------------------
    <img alt="" src=images/Docker_logo_FreeCAD.svg  style="width:" height="32px;">         <img alt="" src=images/Linux.png  style="width:" height="32px;">                  <img alt="" src=images/Mac.png  style="width:" height="32px;">                  <img alt="" src=images/Windows.png  style="width:" height="32px;">
@@ -20,3 +20,6 @@ Aby nauczyć się korzystać z systemu kontroli rewizji i kodu źródłowego, pr
 
 
 [Category:Developer\_Documentation](Category:Developer_Documentation.md) [Category:Developer](Category:Developer.md)
+
+---
+[documentation index](../README.md) > [Developer_Documentation](Category:Developer_Documentation.md) > Compiling/pl

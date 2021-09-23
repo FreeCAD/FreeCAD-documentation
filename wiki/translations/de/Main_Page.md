@@ -1,6 +1,4 @@
 # Main Page/de
- 
-
 ## Einführung
 
 Dies ist das Dokumentations Wiki von [FreeCAD](http://www.freecadweb.org). Es gibt mehrere Möglichkeiten, diese Dokumentation zu nutzen: durch das Erforschen der Zentren, durch das Befolgen des Handbuchs oder durch das Benutzen der Hilfe Menüeinträge innerhalb von FreeCAD. Diese Dokumentation wird von der Gemeinschaft der Benutzer und Entwickler von FreeCAD geschrieben und befindet sich in Bearbeitung. Wenn du Informationen findest, die falsch sind oder fehlen, bitte [Hilf FreeCAD](Special:MyLanguage/help_FreeCAD.md)! 
@@ -67,3 +65,6 @@ Prüfe den [Entwicklungsfahrplan](Development_roadmap/de.md) für Neuigkeiten ü
 
 
 [Category:Documentation](Category:Documentation.md)
+
+---
+[documentation index](../README.md) > [Documentation](Category:Documentation.md) > Main Page/de

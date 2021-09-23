@@ -1,7 +1,4 @@
 # Main Page/bg
- 
-
-
 <div class="mw-translate-fuzzy">
 
 Това е документацията на [FreeCAD](http://www.freecadweb.org). Информацията кояте се съдържа тук е това което оформя документацията която се доставя с FreeCAD. Има два основни начина да преглеждате документацията: като проучвате потребителски центрове или като следвате ръководството. Това е работа в прогрес която се пише от общност от потребители и разработчици на FreeCAD. Ако намерите информация която е грешна или липсва, моля [помогнете](Help_FreeCAD/bg.md)!
@@ -97,3 +94,6 @@ FreeCAD може да бъде компилиран на всички платф
 
 
 [Category:Documentation](Category:Documentation.md)
+
+---
+[documentation index](../README.md) > [Documentation](Category:Documentation.md) > Main Page/bg

@@ -7,6 +7,8 @@
    Version:0.18
 ---
 
+# Sketcher SelectElementsWithDoFs/es
+
 ## Descripción
 
 Esta herramienta está pensada para ayudar a restringir completamente un croquis resaltando en verde los elementos del croquis con grados de libertad (GdL) (inglés: DoF Degrees of Freedom) restantes.
@@ -34,4 +36,7 @@ donde \"X\" es el número de grados de libertad que quedan en el croquis; recibi
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectElementsWithDoFs/es

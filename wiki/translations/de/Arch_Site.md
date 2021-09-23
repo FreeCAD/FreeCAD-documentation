@@ -8,6 +8,8 @@
    SeeAlso:[Arch Etage](Arch_Floor/de.md), [Arch Gebäude](Arch_Building/de.md)
 ---
 
+# Arch Site/de
+
 ## Beschreibung
 
 Der Arch Baustelle ist ein spezielles Objekt, das Eigenschaften eines Standard FreeCAD Gruppenobjekts und Arch Objekten kombiniert. Es ist besonders zur Repräsentation einer gesamten Projektfläche bzw. eines Terrains geeignet. In IFC-basierter architektonischer Arbeit dient es der Organisation deines CAD Modells und enthält [Gebäude](Arch_Building/de.md) Objekte. Die Baustelle wird auch verwendet, um vorhandenes Gelände zu verwalten und anzuzeigen und kann benutzt werden, um das Volumen von aufzufüllender oder abzutragender Erde zu berechnen.
@@ -164,8 +166,5 @@ Node = Arch.makeSolarDiagram(-46.38, -23.33, scale=10000, complete=True)
 FreeCAD.Gui.ActiveDocument.ActiveView.getSceneGraph().addChild(Node)
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Site/de

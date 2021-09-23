@@ -1,5 +1,5 @@
 # Macro MultiCopy/fr
- {{Macro
+{{Macro
 |Name=Macro MultiCopy
 |Icon=MultiCopy-reduced.png
 |Description=MultiCopy permet la duplication (copier-coller) de plusieurs objets FreeCAD qui peuvent être étiquetés séquentiellement et de manière personnalisée.
@@ -353,3 +353,6 @@ __Files__         = "MultiCopy_UI_Files/MultiCopy_Main_Dialog.ui, "\
 \[1\] [Dépôt Github de MultiCopy](https://github.com/melwyncarlo/MultiCopy)
 \[2\] [Dépôt Github des macros FreeCAD - MultiCopy](https://github.com/FreeCAD/FreeCAD-macros/tree/master/Conversion)
 \[3\] [Page de discussion du forum FreeCAD - MultiCopy](https://forum.freecadweb.org/viewtopic.php?f=22&t=56753)
+
+---
+[documentation index](../README.md) > Macro MultiCopy/fr

@@ -6,6 +6,8 @@
    SeeAlso:[Draft SetStyle](Draft_SetStyle.md)
 ---
 
+# Draft ApplyStyle
+
 ## Description
 
 The <img alt="" src=images/Draft_ApplyStyle.svg  style="width:24px;"> **Draft ApplyStyle** command applies the current style settings to selected objects.
@@ -37,7 +39,5 @@ This command currently handles only five of the settings the [Draft SetStyle](Dr
 
 -   In FreeCAD version 0.20 the [Draft SetStyle](Draft_SetStyle.md) command can also apply the settings.
 
-
-
-
-  
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ApplyStyle

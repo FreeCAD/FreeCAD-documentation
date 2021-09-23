@@ -7,6 +7,8 @@
    SeeAlso:[Redondeo](PartDesign_Fillet/es.md), [Pieza Chaflán](Part_Chamfer/es.md)
 ---
 
+# PartDesign Chamfer/es
+
 
 </div>
 
@@ -53,4 +55,7 @@ Esta herramienta crea chaflanes en los bordes seleccionados de un objeto. Se cre
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Chamfer/es

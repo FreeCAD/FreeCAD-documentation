@@ -8,6 +8,8 @@
    SeeAlso:[Std: Eksportuj do PDF](Std_PrintPdf/pl.md), [Import Eksport](Import_Export/pl.md), [Ustawienia dla Importu i Eksportu](Import_Export_Preferences/pl.md)
 ---
 
+# Std Export/pl
+
 ## Opis
 
 Polecenie **Std: Export** eksportuje wybrane obiekty do innego formatu pliku. Obsługiwanych jest wiele formatów plików, a dla niektórych formatów istnieje wiele opcji eksportu. Zobacz [Import eksport](Import_Export/pl.md) aby uzyskać więcej informacji.
@@ -51,3 +53,6 @@ Polecenie **Std: Export** eksportuje wybrane obiekty do innego formatu pliku. Ob
 }}  
 
 [Category:File\_Formats](Category:File_Formats.md)
+
+---
+[documentation index](../README.md) > [File_Formats](Category:File_Formats.md) > Std Export/pl

@@ -1,6 +1,4 @@
 # Profiling/fr
-
-
 ## Description
 
 Le profilage du code de FreeCAD permet de trouver des goulots d\'étranglement dans les algorithmes utilisés pour créer ou manipuler des objets.
@@ -41,3 +39,6 @@ kcachegrind /tmp/callgrind.out
 }} 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Profiling/fr

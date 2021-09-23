@@ -8,6 +8,8 @@
    SeeAlso:[Map sketch](Sketcher_MapSketch/sv.md), [New Sketch](Sketcher_NewSketch/sv.md)
 ---
 
+# Sketcher ReorientSketch/sv
+
 
 </div>
 
@@ -41,4 +43,7 @@ Allows you to detach a sketch from a face and attach it to one of the main plane
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ReorientSketch/sv

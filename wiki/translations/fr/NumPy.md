@@ -1,6 +1,4 @@
 # NumPy/fr
-
-
 ## Introduction
 
 Cette page vise à documenter comment utiliser [NumPy](https://numpy.org/) avec FreeCAD.
@@ -19,3 +17,6 @@ numpy est installé en tant que dépendance de FreeCAD, vous pouvez donc importe
 
 
 [Category:3rd Party](Category:3rd_Party.md)
+
+---
+[documentation index](../README.md) > [3rd Party](Category:3rd Party.md) > NumPy/fr

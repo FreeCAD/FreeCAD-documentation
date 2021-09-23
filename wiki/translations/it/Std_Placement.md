@@ -7,6 +7,8 @@
    SeeAlso:[Allinea](Std_Alignment/it.md), [Azioni di posizionamento](Tasks_Placement/it.md), [Posizionamento](Placement/it.md)
 ---
 
+# Std Placement/it
+
 
 </div>
 
@@ -105,4 +107,7 @@ print(obj.Placement.Matrix)
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std Placement/it

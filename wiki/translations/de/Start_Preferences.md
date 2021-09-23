@@ -1,6 +1,4 @@
 # Start Preferences/de
-
-
 Der Einstellungsbildschirm der [Start Arbeitsbereich](Start_Workbench/de.md) befindet sich im [Einstellungseditor](Preferences_Editor/de.md), {{MenuCommand/de|Bearbeiten → Einstellungen → Start}}.
 
 Es gibt nur eine Registerkarte: Startseite.
@@ -114,3 +112,6 @@ Auf der Registerkarte \'\'Startseite \'\' kannst du folgendes festlegen:
 }} 
 
 [Category:Preferences](Category:Preferences.md)
+
+---
+[documentation index](../README.md) > [Start](Start_Workbench.md) > Start Preferences/de

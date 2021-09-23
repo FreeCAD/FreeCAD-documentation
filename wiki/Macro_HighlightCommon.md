@@ -1,5 +1,5 @@
 # Macro HighlightCommon
-  {{Macro
+{{Macro
 |Name=HightlightCommon
 |Icon=Macro_HighlightCommon.png
 |Description=Highlight common parts by showing the common shape in red and setting half-transparency on original parts (the original objects are not modified)
@@ -32,4 +32,5 @@ The code is visible on Github: [Utility/HighlightCommon.FCMacro](https://github.
 -   My blog [Linux for an engineer](http://linuxforanengineer.blogspot.com.es/) for the code and other interesting macros for FreeCAD
 -   The discussion on forum [\"collision detection\", overlapping](http://forum.freecadweb.org/viewtopic.php?f=22&t=12426)
 
-
+---
+[documentation index](../README.md) > Macro HighlightCommon

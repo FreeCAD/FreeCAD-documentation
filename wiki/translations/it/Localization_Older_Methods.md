@@ -1,7 +1,4 @@
 # Localization Older Methods/it
-
-
-
 {{docnav/it
 |[Branding](Branding/it.md)
 |[Extra python module](Extra_python_modules/it.md)
@@ -156,3 +153,6 @@ e eseguire pyrcc4 Draft.qrc -o qrc\_Draft.py che crea un grande file Python cont
  
 
 [Category:Developer Documentation](Category:Developer_Documentation.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Localization Older Methods/it

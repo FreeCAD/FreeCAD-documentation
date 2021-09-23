@@ -7,6 +7,8 @@
    Version:0.17
 ---
 
+# Sketcher SwitchVirtualSpace/de
+
 ## Beschreibung
 
 Der FreeCAD Skizzierer verfügt über zwei virtuelle Räume, in denen Beschränkungen festgelegt werden können. Gewöhnlich werden alle Beschränkungen auf den virtuellen Raum eins gesetzt. Du kannst einige Beschränkungen in den virtuellen Raum zwei verschieben. Dies kann helfen, nur einige wenige Beschränkungen gleichzeitig zu untersuchen.
@@ -34,4 +36,7 @@ Wenn du dich entscheidest, Beschränkungen für den zweiten virtuellen Raum fest
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SwitchVirtualSpace/de

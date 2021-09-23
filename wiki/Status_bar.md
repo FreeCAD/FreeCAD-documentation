@@ -1,6 +1,4 @@
 # Status bar
- 
-
 ## Introduction
 
 The [status bar](status_bar.md) is a simple ribbon that appears at the bottom of the FreeCAD [interface](interface.md).
@@ -22,4 +20,7 @@ The status bar also shows the last pre-selected object (any object under the poi
 
 {{Interface navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > Status bar

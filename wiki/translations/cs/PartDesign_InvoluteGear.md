@@ -6,6 +6,8 @@
    Workbenches:[PartDesign](PartDesign_Workbench/cs.md)
 ---
 
+# PartDesign InvoluteGear/cs
+
 
 </div>
 
@@ -51,4 +53,7 @@ For more detailed information see Wikipedia\'s entries for: [Gear](https://en.wi
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign InvoluteGear/cs

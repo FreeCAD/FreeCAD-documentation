@@ -1,3 +1,4 @@
+# Ship Geometries Examples/fr
 ---
 - GuiCommand:/fr   Name:Ship Load‏‎ Example   Name/fr:Ship Load‏‎ Example    MenuLocation:Ship design → Load‏‎ an example ship geometry   |Workbenches:[[Ship Workbench/fr   Ship]]|Shortcut:   SeeAlso:---
 
@@ -50,4 +51,7 @@ In order to help new users, Ship includes a geometries examples loader, with the
 
 {{Ship_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > Ship Geometries Examples/fr

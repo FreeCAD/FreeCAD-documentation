@@ -1,3 +1,4 @@
+# Part ReverseShapes/it
 ---
 - GuiCommand:/it   Name:Part ReverseShapes   Name/it:‏‎Inverti forme   Empty:1‏‎   MenuLocation:Part → Inverti forme   Workbenches:[[Part Workbench/it   Part]]|SeeAlso:---
 
@@ -50,5 +51,5 @@ Per verificare questo
 
 </div>
 
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part ReverseShapes/it

@@ -1,7 +1,4 @@
 # TechDraw TemplateHowTo/fr
-
-
-
 {{TutorialInfo/fr
 |Topic=Dessin
 |Level=Intermédiaire
@@ -120,4 +117,7 @@ Si vous ne voyez pas les cases vertes pour vos textes modifiables, il se peut qu
 
 {{Tutorials navi
 
-}} {{TechDraw Tools navi}} 
+}} {{TechDraw Tools navi}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw TemplateHowTo/fr

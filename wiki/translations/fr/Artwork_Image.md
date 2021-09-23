@@ -1,6 +1,4 @@
 # Artwork Image/fr
- 
-
 Ces icônes se trouvent dans le chemin source indiqué.
 
 Pour toutes les icônes de l\'arborescence source, voir [Graphisme](Artwork/fr.md).
@@ -17,3 +15,6 @@ Pour toutes les icônes de l\'arborescence source, voir [Graphisme](Artwork/fr.m
 }} 
 
 [Category:Image](Category:Image.md)
+
+---
+[documentation index](../README.md) > [Image](Category:Image.md) > Artwork Image/fr

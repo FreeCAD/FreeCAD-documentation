@@ -1,5 +1,5 @@
 # WikiPages/de
- {{TOCright}}
+{{TOCright}}
 
 Diese Seite ist eine Erweiterung der [Hilfe:Editieren](Help:Editing.md) Seite und gibt allgemeine Richtlinien für das Schreiben und Aktualisieren der FreeCAD Wiki Dokumentation. Es fasst mehrere Diskussionen und Ideenfindungssitzungen zusammen
 
@@ -531,3 +531,6 @@ Siehe [Glossar](Glossary/de.md)
 -   [Deutsch](German_Translation.md)
 
 [Category:Documentation](Category:Documentation.md) [Category:Wiki](Category:Wiki.md) [Category:Wiki Documentation](Category:Wiki_Documentation.md) [Category:Administration](Category:Administration.md)
+
+---
+[documentation index](../README.md) > [Documentation](Category:Documentation.md) > WikiPages/de

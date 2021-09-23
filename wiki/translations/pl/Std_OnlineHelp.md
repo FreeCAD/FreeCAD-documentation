@@ -7,6 +7,8 @@
    SeeAlso:[Std WhatsThis](Std_WhatsThis.md)
 ---
 
+# Std OnlineHelp/pl
+
 ## Description
 
 The **Std OnlineHelp** command opens the help documentation. To open the documentation for a specified command, use the [Std WhatsThis](Std_WhatsThis.md) command.
@@ -30,4 +32,7 @@ The **Std OnlineHelp** command opens the help documentation. To open the documen
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std OnlineHelp/pl

@@ -4,3 +4,6 @@ This category gathers pages that act as a repository of resources for FreeCAD, s
 ### Contents:
 
 [Category:Categories/cs](Category:Categories/cs.md)
+
+---
+[documentation index](../README.md) > Category:Repository/cs

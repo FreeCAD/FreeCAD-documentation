@@ -1,5 +1,5 @@
 # Base API/it
- **(Ottobre 2019) Non modificare queste pagine. Le informazioni sono incomplete e obsolete. Per l'API più recente, consultare la [https://www.freecadweb.org/api documentazione API autogenerata] o generare la documentazione autonomamente. Vedere [Documentazione del codice sorgente](Source_documentation/it.md).**
+**(Ottobre 2019) Non modificare queste pagine. Le informazioni sono incomplete e obsolete. Per l'API più recente, consultare la [https://www.freecadweb.org/api documentazione API autogenerata] o generare la documentazione autonomamente. Vedere [Documentazione del codice sorgente](Source_documentation/it.md).**
 
 Il modulo Base è contenuto all\'interno del modulo FreeCAD e contiene i costruttori per i diversi tipi di oggetti intensamente utilizzati in FreeCAD.
 
@@ -19,3 +19,6 @@ Il modulo Base è contenuto all\'interno del modulo FreeCAD e contiene i costrut
  
 
 [Category:API](Category:API.md) [Category:Poweruser Documentation](Category:Poweruser_Documentation.md)
+
+---
+[documentation index](../README.md) > [API](Category:API.md) > Base API/it

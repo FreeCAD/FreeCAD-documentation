@@ -8,6 +8,8 @@
    SeeAlso:[Показать/скрыть степень B-сплайна](Sketcher_BSplineDegree/ru.md), [Увеличить степень B-сплайна](Sketcher_BSplineIncreaseDegree/ru.md)
 ---
 
+# Sketcher BSplineDecreaseDegree/ru
+
 ## Описание
 
 Уменьшает степень (порядок) B-сплайна (дополнительную информацию о B-сплайнах см. [на этой странице](B-Splines/ru.md)).
@@ -41,4 +43,7 @@ If you take this result and increase the degree, you cannot get the initial stat
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineDecreaseDegree/ru

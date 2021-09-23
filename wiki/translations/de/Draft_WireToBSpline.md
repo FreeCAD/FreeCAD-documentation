@@ -7,6 +7,8 @@
    SeeAlso:[Entwurf Draht](Draft_Wire/de.md), [Entwurf BSpline](Draft_BSpline/de.md)
 ---
 
+# Draft WireToBSpline/de
+
 ## Beschreibung
 
 Der <img alt="" src=images/Draft_WireToBSpline.svg  style="width:24px;"> **Entwurf DrahtZuBSpline** Befehl konvertiert [Entwurf Drähte](Draft_Wire/de.md) in [Entwurf BSplines](Draft_BSpline/de.md) und umgekehrt.
@@ -58,8 +60,5 @@ wire_from_spline = Draft.make_wire(points2)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft WireToBSpline/de

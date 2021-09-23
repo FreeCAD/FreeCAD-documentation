@@ -6,6 +6,8 @@
    SeeAlso:[Mesh CrossSections](Mesh_CrossSections.md)
 ---
 
+# Mesh SectionByPlane/pl
+
 ## Description
 
 The **Mesh SectionByPlane** command creates a cross section across a mesh object. The cross section is a [Part Feature](Part_Feature.md).
@@ -27,4 +29,7 @@ See: [Part Feature](Part_Feature.md).
 
 {{Mesh Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh SectionByPlane/pl

@@ -5,6 +5,8 @@
    Workbenches:[Mesh](Mesh_Workbench.md)
 ---
 
+# Mesh BuildRegularSolid/pl
+
 ## Description
 
 The **Mesh BuildRegularSolid** command creates a regular parametric solid mesh object.
@@ -151,4 +153,7 @@ Mesh objects created with this command inherit all [Mesh Feature](Mesh_Feature.m
 
 {{Mesh Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh BuildRegularSolid/pl

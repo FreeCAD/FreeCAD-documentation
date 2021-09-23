@@ -1,5 +1,5 @@
 # Offsite tutorials/fr
- **Veuillez faire attention à la version de FreeCAD utilisée dans le tutoriel. Si un tutoriel utilise une ancienne version du programme, le processus de modélisation général peut toujours fonctionner mais certains outils peuvent avoir changé dans les versions plus récentes. N'ajoutez pas de tutoriels réalisés avec la version 0.16 ou antérieure, car ces versions sont considérées comme obsolètes.**
+**Veuillez faire attention à la version de FreeCAD utilisée dans le tutoriel. Si un tutoriel utilise une ancienne version du programme, le processus de modélisation général peut toujours fonctionner mais certains outils peuvent avoir changé dans les versions plus récentes. N'ajoutez pas de tutoriels réalisés avec la version 0.16 ou antérieure, car ces versions sont considérées comme obsolètes.**
 
 Cette page recense les tutoriels FreeCAD disponibles sur d\'autres sites:
 
@@ -19,4 +19,7 @@ Cette page recense les tutoriels FreeCAD disponibles sur d\'autres sites:
 
 {{Tutorials navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > Offsite tutorials/fr

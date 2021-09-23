@@ -7,6 +7,8 @@
    SeeAlso:[Std Part](Std_Part.md), [Feature editing](Feature_editing.md)
 ---
 
+# PartDesign Body/pt-br
+
 ## Descrição
 
 A [PartDesign Body](PartDesign_Body.md) is the base element to create solids shapes with the [PartDesign Workbench](PartDesign_Workbench.md). It can contain [sketches](Sketch.md), [datum objects](Datum.md), and [PartDesign Features](PartDesign_Feature.md) that help in building a [single contiguous solid](PartDesign_Body#Single_contiguous_solid.md).
@@ -289,4 +291,7 @@ App.ActiveDocument.recompute()
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Body/pt-br

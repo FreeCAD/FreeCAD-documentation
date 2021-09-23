@@ -6,3 +6,6 @@ This category shows documentation articles dealing with python scripting, which 
 [Arch API/hr](Arch_API/hr.md)
 
 [Category:Documentation/hr](Category:Documentation/hr.md)
+
+---
+[documentation index](../README.md) > Category:Poweruser Documentation/hr

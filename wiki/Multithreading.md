@@ -1,7 +1,4 @@
 # Multithreading
- 
-
-
 **This is a stub that needs expanding.**
 
 ## Multithreading in FreeCAD 
@@ -18,3 +15,6 @@
  {{Powerdocnavi}}
 
 [Category:Developer Documentation](Category:Developer_Documentation.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Multithreading

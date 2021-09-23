@@ -7,6 +7,8 @@
    SeeAlso:[Draft PolarArray](Draft_PolarArray.md), [Draft CircularArray](Draft_CircularArray.md), [Draft PathArray](Draft_PathArray.md), [Draft PathLinkArray](Draft_PathLinkArray.md), [Draft PointArray](Draft_PointArray.md), [Draft PointLinkArray](Draft_PointLinkArray.md)
 ---
 
+# Draft OrthoArray/ru
+
 ## Описание
 
 The <img alt="" src=images/Draft_OrthoArray.svg  style="width:24px;"> **Draft OrthoArray** command creates an orthogonal (3-axes) array from a selected object. The command can optionally create a [Link](App_Link.md) array, which is more efficient than a regular array.
@@ -355,5 +357,5 @@ doc.recompute()
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft OrthoArray/ru

@@ -9,6 +9,8 @@
    SeeAlso:[FEM Solver CalculiX](FEM_SolverCalculiX/ru.md), [FEM Solver Z88](FEM_SolverZ88/ru.md), [Учебник МКЭ](FEM_tutorial/ru.md)
 ---
 
+# FEM SolverElmer/ru
+
 
 </div>
 
@@ -114,4 +116,7 @@ The following link gives access to the full [documentation for Elmer](https://ww
 
 {{FEM Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > FEM SolverElmer/ru

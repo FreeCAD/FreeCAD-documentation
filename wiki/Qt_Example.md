@@ -1,5 +1,5 @@
 # Qt Example
-  {{Macro
+{{Macro
 |Name=Macro Qt Example
 |Icon=MEPlan.png
 |Description=It describes Qt commands.
@@ -800,3 +800,6 @@ MainWindow.show()
 
 
 [Category:Poweruser Documentation](Category:Poweruser_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+
+---
+[documentation index](../README.md) > [Poweruser Documentation](Category:Poweruser Documentation.md) > Qt Example

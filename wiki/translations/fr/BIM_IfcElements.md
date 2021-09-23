@@ -8,6 +8,8 @@
    SeeAlso:[BIM Propriétés IFC](BIM_IfcProperties/fr.md),[BIM Quantité IFC](BIM_IfcQuantities/fr.md)
 ---
 
+# BIM IfcElements/fr
+
 ## Description
 
 <img alt="" src=images/BIM_ifcelements_screenshot.png  style="width:1024px;">
@@ -20,3 +22,6 @@ Avec cela, vous pouvez:
 -   Renommer des objets en double-cliquant sur leur nom.
 -   Modifier leur type IFC en cliquant sur un type individuel ou, si plusieurs d\'entre eux sont sélectionnés, en utilisant le menu déroulant \"changer le type en:\"
 -   Changer leur matériau en cliquant sur un matériau individuel ou, si plusieurs sont sélectionnés, en utilisant le menu déroulant \"changer de matériau en:\"
+
+---
+[documentation index](../README.md) > BIM IfcElements/fr

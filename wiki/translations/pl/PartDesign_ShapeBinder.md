@@ -8,6 +8,8 @@
    SeeAlso:[Projekt części: Podrzędny łącznik kształtu](PartDesign_SubShapeBinder.md), [Projekt części: Klon](PartDesign_Clone.md)
 ---
 
+# PartDesign ShapeBinder/pl
+
 ## Opis
 
 Tworzy odniesienie **łącznik kształtu** wewnątrz aktywnej Zawartości. Łącznik kształtu to obiekt odniesienia, który łączy się z krawędziami lub ścianami z innego obiektu. Można go również użyć do połączenia szkicu z jednej bryły do drugiej. Obiekt łącznik kształtu jest wyświetlany w oknie [widoku 3D](3D_view/pl.md) jako półprzezroczysty żółty.
@@ -109,4 +111,7 @@ Istnieje obejście dla wielokrotnego wyboru: Jeśli zaznaczysz wszystkie element
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign ShapeBinder/pl

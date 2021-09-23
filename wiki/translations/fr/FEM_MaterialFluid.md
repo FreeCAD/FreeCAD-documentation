@@ -7,6 +7,8 @@
    SeeAlso:[Tutoriel FEM](FEM_tutorial/fr.md)
 ---
 
+# FEM MaterialFluid/fr
+
 ## Description
 
 Ajoute des propriétés fluides à une pièce.
@@ -33,4 +35,7 @@ Ajoute des propriétés fluides à une pièce.
 
 {{FEM Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > FEM MaterialFluid/fr

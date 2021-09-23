@@ -1,9 +1,4 @@
 # Installing on Linux/pl
-
-
-
-
-
 ## Przegląd
 
 
@@ -377,3 +372,6 @@ Once you\'ve got FreeCAD installed, it\'s time to [get started](Getting_started.
 
 
 [Category:Common Questions](Category:Common_Questions.md) [Category:Developer Documentation](Category:Developer_Documentation.md)
+
+---
+[documentation index](../README.md) > [Common Questions](Category:Common Questions.md) > Installing on Linux/pl

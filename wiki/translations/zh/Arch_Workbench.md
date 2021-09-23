@@ -1,7 +1,4 @@
 # Arch Workbench/zh
-
-
-
 {{docnav/zh|[Workbenches/zh](Workbenches/zh.md)|[Draft Workbench/zh](Draft_Workbench/zh.md)|IconL=|IconR=Workbench_Draft.svg}}
 
 <img alt="Arch workbench icon" src=images/Workbench_Arch.svg  style="width:128px;">
@@ -146,3 +143,6 @@ The Arch module can be used in [Python](Python.md) scripts and [macros](macros.m
  
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Arch Workbench/zh

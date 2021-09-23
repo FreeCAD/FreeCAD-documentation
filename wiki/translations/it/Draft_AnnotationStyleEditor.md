@@ -9,6 +9,8 @@
    Version:0.19
 ---
 
+# Draft AnnotationStyleEditor/it
+
 
 </div>
 
@@ -110,8 +112,5 @@ props = {
 }
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft AnnotationStyleEditor/it

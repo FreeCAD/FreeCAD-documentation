@@ -1,7 +1,4 @@
 # Draft tutorial/fr
-
-
-
 {{TutorialInfo/fr
 |Topic= Drafting
 |Level= Débutant
@@ -224,4 +221,7 @@ L\'[atelier Draft](Draft_Workbench/fr.md) est à bien des égards similaire au [
 
 {{Tutorials navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft tutorial/fr

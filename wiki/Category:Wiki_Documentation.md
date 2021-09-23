@@ -6,3 +6,6 @@ This category lists pages that relate to using the wiki effectively for document
 [WikiPages](WikiPages.md) ,
 
 [Category:Documentation](Category:Documentation.md) [Category:Wiki:Example](Category:Wiki:Example.md)
+
+---
+[documentation index](../README.md) > Category:Wiki Documentation

@@ -1,10 +1,4 @@
-# Path Workbench/pt
-
-
-
-
-
-<img alt="Path workbench icon" src=images/Workbench_Path.svg  style="width:128px;">
+# <img alt="Path workbench icon" src=images/Workbench_Path.svg  style="width:64px;"> Path Workbench/pt
 
 
 {{TOCright}}
@@ -228,3 +222,6 @@ See [Path scripting](Path_scripting.md).
 }} 
 
 [Category:User Documentation/pt](Category:User_Documentation/pt.md) [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Path Workbench/pt

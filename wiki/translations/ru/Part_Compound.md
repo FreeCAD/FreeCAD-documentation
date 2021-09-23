@@ -8,6 +8,8 @@
    SeeAlso:[Part Fuse](Part_Fuse/ru.md), [Part CompoundFilter](Part_CompoundFilter/ru.md), [Part ExplodeCompound](Part_ExplodeCompound/ru.md)
 ---
 
+# Part Compound/ru
+
 
 </div>
 
@@ -28,8 +30,5 @@ A compound containing pieces that intersect or touch is **invalid** for Boolean 
 
 To turn this check on go to **Tools → Edit Parameters → Preferences... → Mod → Part → CheckGeometry → RunBOPCheck** and set the parameter to `true`.
 
-
-
-
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Compound/ru

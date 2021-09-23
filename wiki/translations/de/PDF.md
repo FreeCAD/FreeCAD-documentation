@@ -1,7 +1,4 @@
 # PDF/de
-
-
-
 {{TOCright}}
 
 ## Beschreibung
@@ -30,3 +27,6 @@ Die Option, nach PDF zu exportieren, ist im Menü unter **Datei → [PDF exporti
 
 
 [Category:File\_Formats](Category:File_Formats.md)
+
+---
+[documentation index](../README.md) > [File_Formats](Category:File_Formats.md) > PDF/de

@@ -1,6 +1,4 @@
 # Developer hub/de
-
-
 ![150](images/Crystal_Clear_app_tutorials.png )
 
 Dies ist die Stelle, wenn Du zur Entwicklung der FreeCAD-Software beitragen möchtest.
@@ -125,3 +123,6 @@ FreeCAD, obwohl in bestimmten Bereichen verwendbar, steht am Anfang eines langen
 
 
 [Category:Hubs](Category:Hubs.md) [Category:Developer Documentation](Category:Developer_Documentation.md)
+
+---
+[documentation index](../README.md) > [Hubs](Category:Hubs.md) > Developer hub/de

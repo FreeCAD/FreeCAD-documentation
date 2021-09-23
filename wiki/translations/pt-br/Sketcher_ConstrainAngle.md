@@ -1,3 +1,4 @@
+# Sketcher ConstrainAngle/pt-br
 ---
 - GuiCommand:/pt-br   Name:Constraint InternalAngle   Name/pt-br:Constraint InternalAngle   Workbenches:[PartDesign](Sketcher_Workbench/pt-br___Sketcher]],_[[PartDesign_Workbench/pt-br.md)|Shortcut:A   MenuLocation:Sketch → Sketcher constraints → Constrain angle   SeeAlso:[Constraint Length](Constraint_Length/pt-br.md), [Constraint Perpendicular](Constraint_Perpendicular/pt-br.md)---
 
@@ -101,4 +102,7 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainAngle/pt-br

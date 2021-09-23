@@ -1,3 +1,4 @@
+# Part Prism/it
 ---
 - GuiCommand:/it   Name:Part Prism   Name/it:Prisma   MenuLocation:Parte → [Workbenches:[[Part_Workbench/it   Parte](Part_CreatePrimitives/it___Crea_primitive]]_→_Prism.md)|Version:0.14   SeeAlso:[Crea primitive](Part_CreatePrimitives/it.md), [Box/Cubo](Part_Box/it.md)---
 
@@ -41,10 +42,7 @@ The prism properties can later be edited, either in the [Property editor](Proper
 
 -    **First Angle**: Angle in first direction. <small>(v0.19)</small> 
 
--    **Second Angle**: Angle in second direction. <small>(v0.19)</small> 
+-    **Second Angle**: Angle in second direction. <small>(v0.19)</small>
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Prism/it

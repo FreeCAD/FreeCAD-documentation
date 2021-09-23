@@ -8,6 +8,8 @@
    SeeAlso:Ninguno
 ---
 
+# PartDesign Draft/es
+
 
 </div>
 
@@ -70,4 +72,7 @@ Esta herramienta crea una corriente de aire angular en las caras seleccionadas d
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Draft/es

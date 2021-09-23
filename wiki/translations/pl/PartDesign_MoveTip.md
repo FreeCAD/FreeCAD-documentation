@@ -8,6 +8,8 @@
    SeeAlso:[Przenieś cechę](PartDesign_MoveFeature/pl.md), [Przenieś cechę w drzewie](PartDesign_MoveFeatureInTree/pl.md)
 ---
 
+# PartDesign MoveTip/pl
+
 ## Opis
 
 <img alt="" src=images/PartDesign_MoveTip.svg  style="width:24px;"> [Ustaw czubek](PartDesign_MoveTip/pl.md), jak jest opisane to polecenie w menu kontekstowym, redefiniuje czubek, który jest cechą widoczną na zewnątrz Zawartości. Domyślnie czubek jest ostatnią cechą dodaną do Zawartości, ale czasami może być przydatne chwilowe ustawienie czubka na wcześniejszą cechę w drzewie. To może zostać wykonane w celu dodania szkicu, geometrii bazowej czy cechy, które w retrospektywie powinny być stworzone wcześniej w historii Zawartości.
@@ -30,4 +32,7 @@ Czubek jest wizualnie wyróżniony w drzewie modelu przez małą strzałkę w d�
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign MoveTip/pl

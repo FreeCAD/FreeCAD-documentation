@@ -7,6 +7,8 @@
    SeeAlso:[Reinforcement](Reinforcement_Workbench.md), [Arch Rebar Bill Of Material](Arch_Rebar_BOM.md), [Reinforcement Rebar Shape Cut List](Reinforcement_Bar_Shape_Cut_List.md)
 ---
 
+# Arch Rebar Drawing Dimensioning/pl
+
 ## Description
 
 The [Reinforcement Drawing Dimensioning](Arch_Rebar_Drawing_Dimensioning.md) tool allows the user to create drawing and dimensioning of reinforcing bars.
@@ -1076,3 +1078,6 @@ for visible_rebar in visible_rebars:
 
 
 [Category:External Command Reference](Category:External_Command_Reference.md) [Category:Reinforcement](Category:Reinforcement.md)
+
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Rebar Drawing Dimensioning/pl

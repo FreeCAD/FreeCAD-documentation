@@ -7,6 +7,8 @@
    SeeAlso:[Mesh Division](Mesh_Segmentation/fr.md)
 ---
 
+# Mesh SegmentationBestFit/fr
+
 ## Description
 
 La commande **Mesh Segmentation adaptée** crée des segments de maillage séparés pour les types de surface spécifiés d\'un objet maillé. La commande peut également identifier leurs paramètres, lesquels peuvent être utiles lors de la reconfiguration d\'un objet maillé.
@@ -53,4 +55,7 @@ La commande **Mesh Segmentation adaptée** crée des segments de maillage sépar
 
 {{Mesh Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh SegmentationBestFit/fr

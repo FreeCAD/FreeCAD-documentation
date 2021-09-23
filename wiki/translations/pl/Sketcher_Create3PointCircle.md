@@ -8,6 +8,8 @@
    SeeAlso:
 ---
 
+# Sketcher Create3PointCircle/pl
+
 ## Description
 
 This tool <img alt="" src=images/Sketcher_Create3PointCircle.svg  style="width:16px;"> draws a circle by picking three points on the circle outline. When starting the tool, the mouse pointer changes to a white cross with a red circle icon. Besides are coordinates shown in real time.
@@ -23,4 +25,7 @@ This tool <img alt="" src=images/Sketcher_Create3PointCircle.svg  style="width:1
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Create3PointCircle/pl

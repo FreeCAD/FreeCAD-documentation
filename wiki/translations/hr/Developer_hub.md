@@ -1,6 +1,4 @@
 # Developer hub/hr
-
-
 ![150](images/Crystal_Clear_app_tutorials.png )
 
 Ovo je mjesto gdje ste pozvani da razvijate i uređujete FreeCAD software.
@@ -126,3 +124,6 @@ FreeCAD, though usable in certain areas, is at the beginning of a long way into 
 
 
 [Category:Hubs](Category:Hubs.md) [Category:Developer Documentation](Category:Developer_Documentation.md)
+
+---
+[documentation index](../README.md) > [Hubs](Category:Hubs.md) > Developer hub/hr

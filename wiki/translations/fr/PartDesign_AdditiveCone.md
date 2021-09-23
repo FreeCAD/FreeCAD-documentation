@@ -8,6 +8,8 @@
    SeeAlso:[PartDesign Primitives additives](PartDesign_CompPrimitiveAdditive/fr.md), [PartDesign Cône soustractif](PartDesign_SubtractiveCone.md)
 ---
 
+# PartDesign AdditiveCone/fr
+
 ## Description
 
 Insere un Cône primitif dans un corps actif comme première fonction, ou le fusionne avec les fonctions existantes.
@@ -48,4 +50,7 @@ Le Cône peut être éditée après sa création de deux façons:
 
 {{PartDesign Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveCone/fr

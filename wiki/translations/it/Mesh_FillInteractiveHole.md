@@ -7,6 +7,8 @@
    SeeAlso:[Riempi i buchi](Mesh_FillupHoles/it.md), [Aggiungi triangolo](Mesh_AddFacet/it.md)
 ---
 
+# Mesh FillInteractiveHole/it
+
 ## Descrizione
 
 Il comando **Chiudi il buco** permette di chiudere i fori nelle mesh selezionandole manualmente.
@@ -43,4 +45,7 @@ Il comando **Chiudi il buco** permette di chiudere i fori nelle mesh selezionand
 
 {{Mesh Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh FillInteractiveHole/it

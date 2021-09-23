@@ -1,3 +1,4 @@
+# Part Offset/it
 ---
 - GuiCommand:/it   Name:Part Offset   Name/it:Offset 3D   MenuLocation:Part → Offset 3D...   |Workbenches:[SeeAlso:[[Part_Thickness/it|Spessore](Part_Workbench/it___Part]].md), [Offset 2D](Part_Offset2D/it.md)---
 
@@ -70,5 +71,5 @@ offset \"riempito\" con 2 cilindri che creano tagli booleani. Il cilindro A pass
 
 </div>
 
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Offset/it

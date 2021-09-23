@@ -8,6 +8,8 @@
    SeeAlso:[Std PrintPdf](Std_PrintPdf/ru.md), [Import Export](Import_Export/ru.md), [Import Export Preferences](Import_Export_Preferences/ru.md)
 ---
 
+# Std Export/ru
+
 
 </div>
 
@@ -54,3 +56,6 @@ The **Std Export** command exports selected objects to a different file format. 
 }}  
 
 [Category:File\_Formats](Category:File_Formats.md)
+
+---
+[documentation index](../README.md) > [File_Formats](Category:File_Formats.md) > Std Export/ru

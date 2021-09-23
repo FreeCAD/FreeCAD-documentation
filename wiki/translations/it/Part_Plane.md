@@ -1,3 +1,4 @@
+# Part Plane/it
 ---
 - GuiCommand:/it   Name:Part CreatePrimitives   Name/it:Primitive   Workbenches:[MenuLocation:Part → [[Part_CreatePrimitives/it|Crea primitive...](Part_Workbench/it___Part]].md) → Piano|
 Shortcut=Nessuno   SeeAlso:[ Cono](Part_Cone/it_.md),[Cilindro](Part_Cylinder/it_.md),[ Sfera](Part_Sphere/it_.md),[ Toro](Part_Torus/it_.md), [ Crea primitive...](Part_CreatePrimitives/it_.md)---
@@ -69,8 +70,5 @@ Le proprietà possono essere modificate successivamente in **Vista combinata →
 
 You have the standard properties view.
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Plane/it

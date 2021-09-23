@@ -1,10 +1,4 @@
-# Arch Workbench/fr
-
-
-
-
-
-<img alt="Icône de l\'Atelier Arch" src=images/Workbench_Arch.svg  style="width:128px;">
+# <img alt="Icône de l\'Atelier Arch" src=images/Workbench_Arch.svg  style="width:64px;"> Arch Workbench/fr
 
 
 {{TOCright}}
@@ -144,3 +138,6 @@ L\'atelier Arch peut être utilisé dans des scripts [Python](Python/fr.md) et d
  
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Arch Workbench/fr

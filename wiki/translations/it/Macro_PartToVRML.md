@@ -1,5 +1,5 @@
 # Macro PartToVRML/it
- {{Macro/it
+{{Macro/it
 |Name=Macro Macro PartToVRML
 |Translate=Da Part a VRML
 |Description=Converte le parti selezionate in mesh VRML.|Author=Easyw-fc
@@ -236,3 +236,6 @@ L\'icona ![](images/PartToVRML.png )
 La discussione nel forum: [export VRML from FreeCAD with python for smaller size, kicad and Blender compatible](http://forum.freecadweb.org/viewtopic.php?f=22&t=14099)
 
 La macro inversa, [Macro\_MeshToPart](Macro_MeshToPart/it.md)
+
+---
+[documentation index](../README.md) > Macro PartToVRML/it

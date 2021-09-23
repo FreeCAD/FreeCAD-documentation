@@ -7,6 +7,8 @@
    Version:0.17
 ---
 
+# Arch Rebar UShape/en
+
 ## Description
 
 The **<img src="images/Arch_Rebar_UShape.svg" width=16px> [UShape Rebar](Arch_Rebar_UShape.md)** tool allows the user to create a set of U-shaped reinforcing bars inside an **<img src="images/Arch_Structure.svg" width=16px> [Arch Structure](Arch_Structure.md)** object.
@@ -146,3 +148,6 @@ UShapeRebar.editUShapeRebar(Rebar2, 70, 50, 20, 20,
  
 
 [Category:Reinforcement](Category:Reinforcement.md)
+
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Rebar UShape/en

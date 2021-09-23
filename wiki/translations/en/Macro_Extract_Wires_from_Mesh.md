@@ -1,7 +1,4 @@
 # Macro Extract Wires from Mesh/en
-
-
-
 {{Macro
 |Name=Macro Extract Wires from Mesh
 |Icon=Macro_Extract_Wires_from_Mesh.png
@@ -52,3 +49,5 @@ for obj in FreeCADGui.Selection.getSelection():
                 obj.ViewObject.hide()
 ```
 
+---
+[documentation index](../README.md) > Macro Extract Wires from Mesh/en

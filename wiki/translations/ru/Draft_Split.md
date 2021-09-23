@@ -9,6 +9,8 @@
    SeeAlso:[Draft Join](Draft_Join/ru.md)
 ---
 
+# Draft Split/ru
+
 
 </div>
 
@@ -82,5 +84,5 @@ doc.recompute()
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Split/ru

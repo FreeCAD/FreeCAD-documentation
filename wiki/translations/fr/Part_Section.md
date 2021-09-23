@@ -7,6 +7,8 @@
    SeeAlso:[Part Coupes](Part_CrossSections/fr.md)
 ---
 
+# Part Section/fr
+
 ## Description
 
 Cet outil extrait une section de l\'intersection de deux formes sélectionnées, la seconde étant utilisée comme plan de coupe. Cette opération est pleinement paramétrique et ses composants peuvent être modifiés, le résultat sera recalculé.
@@ -31,8 +33,5 @@ Dans cet exemple, un cube est coupé par un cylindre :
 
 Pour créer des coupes depuis un plan de coupe, voir <img alt="" src=images/Part_CrossSections.svg  style="width:24px;"> [Coupes](Part_CrossSections/fr.md).
 
-
-
-
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Section/fr

@@ -1,3 +1,4 @@
+# Part Line/cs
 ---
 - GuiCommand:/cs   Name:Part Line   Name/cs:Díl Přímka   MenuLocation:Part → [Workbenches:[[Part_Workbench/cs   Díl](Part_CreatePrimitives/cs___Vytváření_zákl.geom.tvarů]] → Přímka.md), [OpenSCAD](OpenSCAD_Workbench/cs.md)|SeeAlso:..---
 
@@ -90,8 +91,5 @@
 
 </div>
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Line/cs

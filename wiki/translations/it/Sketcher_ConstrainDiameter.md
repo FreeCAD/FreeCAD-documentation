@@ -6,6 +6,8 @@
    SeeAlso:[Distanza](Sketcher_ConstrainDistance/it.md), [Distanza orizzontale](Sketcher_ConstrainDistanceX/it.md), [Distanza verticale](Sketcher_ConstrainDistanceY/it.md)
 ---
 
+# Sketcher ConstrainDiameter/it
+
 
 </div>
 
@@ -47,4 +49,7 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainDiameter/it

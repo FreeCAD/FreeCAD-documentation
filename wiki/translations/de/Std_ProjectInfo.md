@@ -1,3 +1,4 @@
+# Std ProjectInfo/de
 ---
 - GuiCommand:/de   Name:Std ProjectInfo   Name/de:Std Projektinformationen   MenuLocation:[[Std File Menu/de   Datei]] → Projektinformationen...||Workbenches:Alle   Shortcut:-   SeeAlso:---
 
@@ -68,4 +69,7 @@ Dann können folgende Informationen in einem Fenster eingegeben werden:
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ProjectInfo/de

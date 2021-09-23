@@ -8,6 +8,8 @@
    SeeAlso:[Std Aperçu Impression](Std_PrintPreview/fr.md), [Std Générer un pdf](Std_PrintPdf/fr.md), [Std Exporter](Std_Export/fr.md), [Std Capture d'écran](Std_ViewScreenShot/fr.md)
 ---
 
+# Std Print/fr
+
 ## Description
 
 La commande **Std Imprimer** est principalement destinée à imprimer des pages de l\'[atelier TechDraw](TechDraw_Workbench/fr.md) mais peut également être utilisée pour imprimer ce qui est actuellement visible dans la [vue 3D](3D_view/fr.md).
@@ -31,4 +33,7 @@ La commande **Std Imprimer** est principalement destinée à imprimer des pages 
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std Print/fr

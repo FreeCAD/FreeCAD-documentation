@@ -6,6 +6,8 @@
    Workbenches:Wszystkie
 ---
 
+# Std Edit/pl
+
 ## Opis
 
 Polecenie **Std: Edycja** aktywuje lub dezaktywuje tryb edycji obiektu.
@@ -61,4 +63,7 @@ FreeCADGui.ActiveDocument.resetEdit()
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std Edit/pl

@@ -6,6 +6,8 @@
    Workbenches:[Wykres](Plot_Module/pl.md)
 ---
 
+# Plot Positions/pl
+
 ## Opis
 
 Narzędzie to pozwala na edycję położenia niektórych elementów, takich jak tytuły, etykiety osi i legendy.
@@ -32,3 +34,6 @@ Wybierz kartę wykresu, który chcesz edytować, i uruchom to narzędzie. Nastę
 }} 
 
 [Category:External\_Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)
+
+---
+[documentation index](../README.md) > [External_Workbenches](Category:External_Workbenches.md) > Plot Positions/pl

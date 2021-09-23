@@ -7,6 +7,8 @@
    Shortcut:**S** **B**
 ---
 
+# SheetMetal AddBend/fr
+
 ## Description
 
 La commande <img alt="" src=images/SheetMetal_AddBend.svg  style="width:24px;"> **SheetMetal AddBend** plie une tôle selon une ligne choisie.
@@ -43,3 +45,6 @@ Un objet SheetMetal Transformation en pli est dérivé d\'un objet [Part Feature
 
 
 [Category:SheetMetal](Category:SheetMetal.md) [Category:Addons](Category:Addons.md) [Category:External Command Reference](Category:External_Command_Reference.md)
+
+---
+[documentation index](../README.md) > [SheetMetal](Category:SheetMetal.md) > SheetMetal AddBend/fr

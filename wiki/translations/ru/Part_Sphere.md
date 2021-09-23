@@ -7,6 +7,8 @@
    SeeAlso:[Создать примитивы](Part_Primitives/ru.md)
 ---
 
+# Part Sphere/ru
+
 ## Описание
 
 Создаёт простую параметрическую сферу с параметрами положение (position), угол1(angle1), угол2(angle2), угол3(angle3) и радиус(radius).
@@ -43,8 +45,5 @@ The properties of the object can be edited, either in the [Property editor](Prop
 
 <img alt="" src=images/SphereCutThreeAngles.jpg  style="width:400px;">
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Sphere/ru

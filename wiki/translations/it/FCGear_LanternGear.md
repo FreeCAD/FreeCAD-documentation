@@ -9,6 +9,8 @@
    SeeAlso:
 ---
 
+# FCGear LanternGear/it
+
 ## Descrizione
 
 La dentatura dell\'ingranaggio a lanterna è una forma speciale di dentatura cicloidale in cui il cerchio di rotolamento e il cerchio primitivo hanno la stessa dimensione. Inoltre, in un cambio i denti della ruota più grande sono sostituiti da cilindri. La piccola ruota è dotata di un ingranaggio cicloide. Ciò si traduce in un ingranaggio unilaterale. Gli ingranaggi delle lanterne possono essere solo dentati diritti.
@@ -81,3 +83,6 @@ Limitations are not known yet.
 
 
 [Category:Addons](Category:Addons.md) [Category:FCGear](Category:FCGear.md) [Category:External Command Reference](Category:External_Command_Reference.md)
+
+---
+[documentation index](../README.md) > [Addons](Category:Addons.md) > FCGear LanternGear/it

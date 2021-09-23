@@ -1,5 +1,5 @@
 # Material/fr
- }
+}
 
 ## Présentation
 
@@ -173,3 +173,6 @@ Cette section définit les propriétés du matériau qui sont liées à l\'appar
  {{FEM Tools navi}} 
 
 [Category:Developer](Category:Developer.md) [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Roadmap](Category:Roadmap.md) [Category:BIM](Category:BIM.md) [Category:File\_Formats](Category:File_Formats.md)
+
+---
+[documentation index](../README.md) > [Developer](Category:Developer.md) > Material/fr

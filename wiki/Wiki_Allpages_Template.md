@@ -1,5 +1,4 @@
 # Wiki Allpages Template
-
 {{Special:Allpages/Template:}}
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
@@ -14,3 +13,5 @@
 
 {{Special:Allpages/Template}}
 
+---
+[documentation index](../README.md) > Wiki Allpages Template

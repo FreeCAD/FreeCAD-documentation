@@ -8,6 +8,8 @@
    SeeAlso:[TechDraw Symbole SVG](TechDraw_Symbol/fr.md)
 ---
 
+# TechDraw ActiveView/fr
+
 ## Description
 
 L\'outil Vue active insère une copie d\'une fenêtre 3D dans une page de dessin.
@@ -78,4 +80,7 @@ TechDrawGui.copyActiveViewToSvgFile(Gui.ActiveDocument.ActiveView,"myFile.svg")
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ActiveView/fr

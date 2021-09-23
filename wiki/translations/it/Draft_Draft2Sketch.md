@@ -7,6 +7,8 @@
    SeeAlso:[Sketcher](Sketcher_Workbench/it.md), [PartDesign](PartDesign_Workbench/it.md)
 ---
 
+# Draft Draft2Sketch/it
+
 
 </div>
 
@@ -150,5 +152,5 @@ doc.recompute()
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Draft2Sketch/it

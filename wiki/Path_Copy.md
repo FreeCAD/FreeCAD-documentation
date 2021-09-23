@@ -5,6 +5,8 @@
    Workbenches:[Path](Path_Workbench.md)
 ---
 
+# Path Copy
+
 ## Description
 
 This tool creates a copy of a selected path
@@ -28,4 +30,7 @@ The copy stays linked with the original path. If the original changes, so does t
 
 
 
- {{Path_Tools_navi}} 
+ {{Path_Tools_navi}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Copy

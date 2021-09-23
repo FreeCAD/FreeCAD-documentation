@@ -1,7 +1,4 @@
 # Material data model/ro
-
-
-
 **
 This roadmap is probably obsolete. For more information see [Development roadmap](Development_roadmap.md).<br>
 If you are not involved with the development discussed here:<br>
@@ -237,3 +234,6 @@ codul CSI/MasterFormat (întrucât există mai multe sisteme utilizate în indus
 
 
 [Category:Roadmap](Category:Roadmap.md)
+
+---
+[documentation index](../README.md) > [Material](Material_Workbench.md) > Material data model/ro

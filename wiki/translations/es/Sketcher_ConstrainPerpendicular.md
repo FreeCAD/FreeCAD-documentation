@@ -8,6 +8,8 @@
    SeeAlso:[Croquizador Restringir Ángulo](Sketcher_ConstrainAngle/es.md)
 ---
 
+# Sketcher ConstrainPerpendicular/es
+
 
 </div>
 
@@ -115,4 +117,7 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainPerpendicular/es

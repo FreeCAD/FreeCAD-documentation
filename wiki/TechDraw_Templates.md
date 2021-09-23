@@ -1,11 +1,4 @@
 # TechDraw Templates
- 
-
-
-
-
- 
-
 ## Overview
 
 Every TechDraw page is based on a Template object. The Template controls paper size and contains fixed text graphics and text, for example, a page frame or border.
@@ -73,4 +66,7 @@ See also [How to make a custom TechDraw template](TechDraw_TemplateHowTo.md).
 
 
 
- {{TechDraw Tools navi}}  
+ {{TechDraw Tools navi}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Templates

@@ -8,6 +8,8 @@
    SeeAlso:[PartDesign Fonction résultante](PartDesign_MoveTip/fr.md), [PartDesign Déplacer après un autre objet](PartDesign_MoveFeatureInTree/fr.md)
 ---
 
+# PartDesign MoveFeature/fr
+
 ## Description
 
 <img alt="" src=images/PartDesign_MoveFeature.svg  style="width:24px;"> [Déplacer vers un autre corps](PartDesign_MoveFeature/fr.md), comme cette commande est étiquetée dans le menu contextuel, permet de déplacer des objets sous un corps vers un autre corps. L\'objet déplacé est placé juste en dessous de la fonction résultante de l\'autre corps. Les esquisses, la géométrie de référence et les fonctionnalités sont prises en charge.
@@ -25,4 +27,7 @@
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign MoveFeature/fr

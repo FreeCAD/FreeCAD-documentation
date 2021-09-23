@@ -1,3 +1,4 @@
+# Std PrintPdf/de
 ---
 - GuiCommand:/de   Name/de:Std PrintPdf   Workbenches:Alle   MenuLocation:[Shortcut:-   SeeAlso:Datei [[Std_Export/de|Export](Std_File_Menu/de___Datei]]_→_PrintPdf_.md)---
 
@@ -34,4 +35,7 @@ The **Std PrintPdf** command is primarily intended to create [PDF](PDF.md) files
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std PrintPdf/de

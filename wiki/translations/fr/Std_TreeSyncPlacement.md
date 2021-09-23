@@ -8,6 +8,8 @@
    Version:0.19
 ---
 
+# Std TreeSyncPlacement/fr
+
 ## Description
 
 La commande **Std Synchroniser le placement** bascule la [vue en arborescence](tree_view/fr.md) dans le mode SyncPlacement. Si ce mode est activé, {{PropertyData/fr|Placement}} des objets est automatiquement ajusté lorsqu\'ils sont glissés et déposés d\'un conteneur dans un autre conteneur avec un système de coordonnées différent, en préservant leur placement par rapport au système de coordonnées global.
@@ -29,4 +31,7 @@ Le mode Synchronisation placement arborescence est stocké: **Outils → Editer 
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std TreeSyncPlacement/fr

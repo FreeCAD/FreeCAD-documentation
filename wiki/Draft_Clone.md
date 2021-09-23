@@ -7,6 +7,8 @@
    SeeAlso:[Draft Scale](Draft_Scale.md)
 ---
 
+# Draft Clone
+
 ## Description
 
 The <img alt="" src=images/Draft_Clone.svg  style="width:24px;"> **Draft Clone** command creates linked copies, clones, of selected objects. The shape of a clone is parametric, it will update if its source object changes. But a clone does have its own position, rotation, and scale, and its own [View properties](Property_editor.md). For [Arch](Arch_Workbench.md) objects the command creates a special type of clone: an Arch clone.
@@ -82,7 +84,5 @@ cloned_object.Fuse = True
 doc.recompute()
 ```
 
-
-
-
-  
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Clone

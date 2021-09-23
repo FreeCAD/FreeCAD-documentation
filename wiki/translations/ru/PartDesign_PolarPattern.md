@@ -6,6 +6,8 @@
    MenuLocation:PartDesign -> Круговой массив
 ---
 
+# PartDesign PolarPattern/ru
+
 
 </div>
 
@@ -133,4 +135,7 @@ Specifies the angle to be covered by the pattern, and the total number of patter
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign PolarPattern/ru

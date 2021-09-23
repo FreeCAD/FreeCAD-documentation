@@ -1,5 +1,5 @@
 # Macro Center Align Objects with Faces or Edges/fr
- **Cet outil est maintenant inclus dans l'atelier [Manipulator Workbench](Manipulator_Workbench/fr.md). Installez cet atelier pour bénéficier des dernières mises à ajours.**
+**Cet outil est maintenant inclus dans l'atelier [Manipulator Workbench](Manipulator_Workbench/fr.md). Installez cet atelier pour bénéficier des dernières mises à ajours.**
 
 
 {{Macro/fr
@@ -76,6 +76,5 @@ vous devez la coller dans votre répertoire de macros
 
 Forum : [Faces or Edges constraint among non cylindrical parts Macro](http://forum.freecadweb.org/viewtopic.php?f=22&t=18655)
 
-
-
-
+---
+[documentation index](../README.md) > Macro Center Align Objects with Faces or Edges/fr

@@ -1,7 +1,4 @@
 # Analysis of reinforced concrete with FEM/ru
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -192,4 +189,7 @@ The tensile stress pattern suggests an alternative design concept using pre-stre
 
 {{Tutorials navi
 
-}} {{FEM Tools navi}} 
+}} {{FEM Tools navi}}
+
+---
+[documentation index](../README.md) > Analysis of reinforced concrete with FEM/ru

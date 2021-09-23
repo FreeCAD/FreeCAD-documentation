@@ -8,6 +8,8 @@
    SeeAlso:[Sketcher Arc of Ellipse](Sketcher_CreateArcOfEllipse/es.md), [Sketcher Arc of hyperbola](Sketcher_CreateArcOfHyperbola/es.md)
 ---
 
+# Sketcher CreateArcOfParabola/es
+
 ## Descripción
 
 Esta herramienta crea un arco de parábola por foco, vértice y puntos finales.
@@ -28,4 +30,7 @@ Esta herramienta crea un arco de parábola por foco, vértice y puntos finales.
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateArcOfParabola/es

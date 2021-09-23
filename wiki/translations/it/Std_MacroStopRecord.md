@@ -7,6 +7,8 @@
    SeeAlso:[Registra una macro](Std_DlgMacroRecord/it.md)
 ---
 
+# Std MacroStopRecord/it
+
 ## Descrizione
 
 
@@ -43,4 +45,7 @@ Quando si avvia la **<img src=images/Std_DlgMacroRecord.png style="width:16px"> 
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std MacroStopRecord/it

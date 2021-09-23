@@ -1,10 +1,4 @@
-# FEM Workbench/it
-
-
-
-
-
-<img alt="L\'icona dell\'ambiente FEM" src=images/Workbench_FEM.svg  style="width:128px;">
+# <img alt="L\'icona dell\'ambiente FEM" src=images/Workbench_FEM.svg  style="width:64px;"> FEM Workbench/it
 
 
 {{TOCright}}
@@ -283,3 +277,6 @@ Per aiutare gli utenti a comprendere la complessa base di codici di FreeCAD e le
 }} 
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > FEM Workbench/it

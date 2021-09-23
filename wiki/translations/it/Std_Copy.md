@@ -8,6 +8,8 @@
    SeeAlso:[Incolla](Std_Paste/it.md), [Duplica la selezione](Std_DuplicateSelection/it.md)
 ---
 
+# Std Copy/it
+
 ## Descrizione
 
 Il comando **Copia** pone gli oggetti selezionati negli \"appunti\" per un successivo utilizzo da parte del comando [Icolla](Std_Paste/it.md). Gli oggetti possono essere copiati e incollati tra documenti diversi.
@@ -39,4 +41,7 @@ Il comando **Copia** pone gli oggetti selezionati negli \"appunti\" per un succe
 
 {{Std Base navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > Std Copy/it

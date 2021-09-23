@@ -1,3 +1,4 @@
+# Sketcher SelectOrigin/es
 ---
 - GuiCommand:/es   Name:Sketcher SelectOrigin   Workbenches:[[Sketcher Workbench/es   Sketcher]]|MenuLocation:Sketch → Sketcher tools → Select Origin   Shortcut:Shift+Ctrl+O   Version:0.15---
 
@@ -20,4 +21,7 @@ Selects the origin of a sketch.
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectOrigin/es

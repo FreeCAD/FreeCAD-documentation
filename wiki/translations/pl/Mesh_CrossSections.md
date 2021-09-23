@@ -6,6 +6,8 @@
    SeeAlso:[Mesh SectionByPlane](Mesh_SectionByPlane.md)
 ---
 
+# Mesh CrossSections/pl
+
 ## Description
 
 The **Mesh CrossSections** command creates multiple cross sections across mesh objects. The cross sections are taken parallel to one of the main global planes (XY, XZ or YZ). For each set of cross sections a single [Part Feature](Part_Feature.md) is created.
@@ -62,4 +64,7 @@ See: [Part Feature](Part_Feature.md).
 
 {{Mesh Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh CrossSections/pl

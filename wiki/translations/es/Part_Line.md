@@ -1,3 +1,4 @@
+# Part Line/es
 ---
 - GuiCommand:/es   Name:Part Line   Name/es:Part Line   MenuLocation:Part → [Workbenches:[[OpenSCAD_Workbench/es   Part](Part_CreatePrimitives/es___Create_Primitives]]_→_Line.md), [OpenSCAD](OpenSCAD_Workbench/es.md)|SeeAlso:..---
 
@@ -81,11 +82,5 @@
 |                                                        |     :                                    |
 +--------------------------------------------------------+------------------------------------------+
 
-
-
-
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Line/es

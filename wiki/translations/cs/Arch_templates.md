@@ -1,7 +1,4 @@
 # Arch templates/cs
-
-
-
 <div class="mw-translate-fuzzy">
 
 Na této stránce je seznam šablon podle standardů American National Standards Institute (ANSI) [Stavebnictví](http://en.wikipedia.org/wiki/American_National_Standards_Institute)
@@ -100,3 +97,6 @@ Na této stránce je seznam šablon podle standardů American National Standards
 Šablony jsou nakresleny uživatelem [Quick61](User:Quick61.md) a jejich seznam je na [FreeCAD-Drawing-Templates](https://github.com/quick61/FreeCAD-Drawing-Templates).
 
 [Category:Documentation](Category:Documentation.md) [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Drawing](Category:Drawing.md)
+
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch templates/cs

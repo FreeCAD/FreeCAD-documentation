@@ -8,6 +8,8 @@
    Version:0.19
 ---
 
+# Std SendToPythonConsole/ru
+
 ## Описание
 
 The **Std SendToPythonConsole** command creates a variable in the [Python console](Python_console.md) referencing a selected object. If a subshape of the object is selected two additional variables are created, one referencing the shape of the object and the other referencing the subshape itself. The variables and the code involved can be used to development Python code.
@@ -35,4 +37,7 @@ The **Std SendToPythonConsole** command creates a variable in the [Python consol
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std SendToPythonConsole/ru

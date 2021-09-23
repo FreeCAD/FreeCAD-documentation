@@ -1,7 +1,4 @@
 # Macro CartoucheFC Full/it
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -1194,6 +1191,5 @@ ver 00.06 : 13/10/2016 : selezionare il formato della pagine questa selezione im
 
 ver 5 : 08/08/2014 PyQt4 e PySide
 
-
-
-
+---
+[documentation index](../README.md) > Macro CartoucheFC Full/it

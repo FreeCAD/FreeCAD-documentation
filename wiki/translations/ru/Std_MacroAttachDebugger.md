@@ -6,6 +6,8 @@
    Workbenches:All
 ---
 
+# Std MacroAttachDebugger/ru
+
 ## Описание
 
 В разработке.
@@ -20,4 +22,7 @@
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std MacroAttachDebugger/ru

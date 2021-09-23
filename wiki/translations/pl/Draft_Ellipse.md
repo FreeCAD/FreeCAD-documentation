@@ -8,6 +8,8 @@
    Version:0.7
 ---
 
+# Draft Ellipse/pl
+
 ## Opis
 
 Polecenie <img alt="" src=images/Draft_Ellipse.svg  style="width:24px;"> **Elipsa** tworzy elipsę w bieżącej [płaszczyźnie roboczej](Draft_SelectPlane/pl.md) z dwóch punktów definiujących prostokąt, w którym zmieści się elipsa.
@@ -122,8 +124,5 @@ ellipse3 = Draft.make_ellipse(700, 1000, placement=place3)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Ellipse/pl

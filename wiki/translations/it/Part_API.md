@@ -1,5 +1,5 @@
 # Part API/it
- **(Novembre 2018) Queste informazioni potrebbero essere incomplete e obsolete. Per l'ultima API, vedere la pagina [https://www.freecadweb.org/api Documentazione API autogenerata].**
+**(Novembre 2018) Queste informazioni potrebbero essere incomplete e obsolete. Per l'ultima API, vedere la pagina [https://www.freecadweb.org/api Documentazione API autogenerata].**
 
 Il modulo Parte è il collegamento diretto tra FreeCAD e il kernel OpenCasCade. Fornisce principalmente [TopoShapes](TopoShape_API/it.md) che è il tipo principale di oggetto utilizzato da OpenCascade. Il modulo Parte contiene anche una serie di funzioni utili per creare e manipolare le TopoShapes. Esempio: 
 ```python
@@ -93,3 +93,6 @@ Part.show(mycube)
  
 
 [Category:API](Category:API.md) [Category:Poweruser Documentation](Category:Poweruser_Documentation.md)
+
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part API/it

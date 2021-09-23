@@ -7,6 +7,8 @@
    Shortcut:none
 ---
 
+# Drawing Clip/ru
+
 ## Description
 
 This command allows you to place a clipping rectangle on a [Drawing page](Drawing_Landscape_A3.md). [Drawing View](Drawing_View.md) objects can then be added to that clipping rectangle, and their display will be truncated by the borders of the rectangle.
@@ -33,4 +35,7 @@ This command allows you to place a clipping rectangle on a [Drawing page](Drawin
 
 {{Drawing Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Clip/ru

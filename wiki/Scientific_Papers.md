@@ -10,3 +10,6 @@ List of scientific papers that reference FreeCAD
 ## Glossary
 
 [Glossary](Glossary.md)
+
+---
+[documentation index](../README.md) > Scientific Papers

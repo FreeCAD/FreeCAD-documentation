@@ -1,10 +1,4 @@
 # FreeCAD Build Tool/ro
-
-
-
-
-
-
 {{TOCright}}
 
 
@@ -100,3 +94,6 @@ Comanda \"CM\" [creates a new application module](Module_Creation.md).
  
 
 [Category:Developer Documentation](Category:Developer_Documentation.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > FreeCAD Build Tool/ro

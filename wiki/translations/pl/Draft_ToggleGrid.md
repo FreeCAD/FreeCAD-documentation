@@ -7,6 +7,8 @@
    SeeAlso:[Przyciąganie](Draft_Snap/pl.md), [Przyciągnij do siatki](Draft_Snap_Grid/pl.md), [Wybór płaszczyzny roboczej](Draft_SelectPlane/pl.md)
 ---
 
+# Draft ToggleGrid/pl
+
 ## Opis
 
 Polecenie <img alt="" src=images/Draft_ToggleGrid.svg  style="width:24px;"> **Przełącz widoczność siatki**\' włącza lub wyłącza siatkę. Siatka może być używana tylko wtedy, gdy preferencja **Użyj siatki** jest wybrana. Zobacz akapit [Ustawienia](Draft_ToggleGrid/pl#Ustawienia.md).
@@ -30,8 +32,5 @@ Zobacz stronę [Przyciąganie](Draft_Snap/pl#Ustawienia.md).
 -   Aby użyć siatki wybierz: **Edycja → Preferencje → Rysunek Roboczy → Siatka i przyciąganie → Siatka → Użyj siatki**. After changing this preference you must restart FreeCAD.
 -   Dostępnych jest również kilka innych preferencji dla siatki: **Edycja → Preferencje → Rysunek Roboczy → Siatka i przyciąganie → Siatka**.
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ToggleGrid/pl

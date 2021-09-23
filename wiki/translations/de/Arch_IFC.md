@@ -1,7 +1,4 @@
 # Arch IFC/de
- 
-
-
 {{TOCright}}
 
 ## Beschreibung
@@ -75,3 +72,6 @@ Wenn die Form der exportierten Objekte auf einer Extrusion oder einer booleschen
  
 
 [Category:File Formats](Category:File_Formats.md)
+
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch IFC/de

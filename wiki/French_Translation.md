@@ -42,3 +42,6 @@ Vue d\'ensemble de l\'Application **:** Un aperçu général de FreeCAD (espace 
   \...                              \...          \...
 
   : Équivalence de mots techniques
+
+---
+[documentation index](../README.md) > French Translation

@@ -7,6 +7,8 @@
    SeeAlso:[표준 새 파일](Std_New/ko.md)
 ---
 
+# Std ProjectInfo/ko
+
 ## 설명
 
 **표준 프로젝트 정보(Std ProjectInfo)** 명령은 활성 문서의 프로젝트 정보가 담긴 대화 상자를 표시합니다. 이 정보 중 일부는 편집할 수 있습니다.
@@ -42,4 +44,7 @@
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ProjectInfo/ko

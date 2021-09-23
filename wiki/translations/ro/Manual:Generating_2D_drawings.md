@@ -1,10 +1,4 @@
 # Manual:Generating 2D drawings/ro
-
-
-
-
-
-
 {{Manual:TOC/ro}}
 
 
@@ -196,3 +190,6 @@ Pagina noastră poate fi acum exportată în SVG pentru a fi utilizată în cont
 
 
 [Category:Tutorials/ro](Category:Tutorials/ro.md)
+
+---
+[documentation index](../README.md) > Manual:Generating 2D drawings/ro

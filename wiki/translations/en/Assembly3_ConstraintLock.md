@@ -5,6 +5,8 @@
    Workbenches:[Assembly3](Assembly3_Workbench.md)
 ---
 
+# Assembly3 ConstraintLock/en
+
 ## Description
 
 This tool links an object to the global coordinate system (GCS) of the assembly using the implicit coordinate system (ICS) of a selected element.
@@ -27,8 +29,5 @@ This can be used to define the fixed set in a static assembly as well as in a ki
 2.  Select one element of the object.
 3.  Press the **<img src="images/Assembly_ConstraintLock.svg" width=16px> [Locked](Assembly3_ConstraintLock.md)** button.
 
-
-
-
-
-
+---
+[documentation index](../README.md) > Assembly3 ConstraintLock/en

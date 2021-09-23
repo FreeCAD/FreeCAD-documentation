@@ -8,6 +8,8 @@
    SeeAlso:
 ---
 
+# Sketcher Create3PointArc/fr
+
 ## Description
 
 Cet outil créé un arc par trois : le point de départ, le point de fin et un point sur l\'arc
@@ -25,4 +27,7 @@ Quand cet outil est activé, le pointeur de la souris change en une croix blanch
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Create3PointArc/fr

@@ -7,6 +7,8 @@
    SeeAlso:[Spreadsheet Export](Spreadsheet_Export.md)
 ---
 
+# Spreadsheet Import
+
 ## Description
 
 The **<img src=images/Spreadsheet_Import.svg style="width:16px"> [Spreadsheet Import](Spreadsheet_Import.md)** tool allows you to import a tab-separated values file (loosely denoted as CSV) into a spreadsheet so that it can be modified and used with [expressions](expressions.md).
@@ -23,4 +25,7 @@ The **<img src=images/Spreadsheet_Import.svg style="width:16px"> [Spreadsheet Im
 
 
 
- {{Spreadsheet_Tools_navi}} 
+ {{Spreadsheet_Tools_navi}}
+
+---
+[documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet Import

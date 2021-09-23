@@ -7,6 +7,8 @@
    SeeAlso:[Constraint Block](Sketcher_ConstrainBlock/ro.md)
 ---
 
+# Sketcher ConstrainLock/ro
+
 
 </div>
 
@@ -50,4 +52,7 @@ The <img alt="" src=images/Sketcher_ConstrainLock.svg  style="width:24px;"> [Loc
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainLock/ro

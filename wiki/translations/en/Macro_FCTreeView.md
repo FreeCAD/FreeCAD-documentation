@@ -1,5 +1,5 @@
 # Macro FCTreeView/en
- {{Macro
+{{Macro
 |Name=Macro FCTreeView
 |Icon=Macro_FCTreeView.png
 |Description={{ColoredText|#ff0000|#ffffff|New version GUI modifyed for the HD dpi (QGridLayout) run only FC version 0.18 and more (PySide2 Qt5)}} <br/> <br/>Macro for list all objects in the project in one list without hierarchy, options sort by name, label, visibility, group, by length option search by name, label .... without case sensitive or with case sensitive and select all objects displayed in the macro window. <br/> <br/>For the precedent version see [https://gist.githubusercontent.com/mario52a/67517ef758ff20005d0a6adcfd8c9190/raw/0a92d7f591a0a179f84b2fc417046723b4d7b0e6/Macro_FCTreeView.FCMacro Macro_FCTreeView.FCMacro] and install it manually.
@@ -292,3 +292,6 @@ ver 00.03 (23/09/2017) : add search by type object
 ver 00.02 (11/09/2017) : modify for docked and prevent many instance the clic on button are effect flip/flop (macro hide/visible)
 
 ver 00.01 (08/09/2017) :
+
+---
+[documentation index](../README.md) > Macro FCTreeView/en

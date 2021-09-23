@@ -1,5 +1,4 @@
 # Tutorial guidelines
-
 {{Note|Note|This is meant as a test for a new style guideline for tutorials.Feel free to add any ideas or test formatting. DO NOT TRANSLATE!
 
 Inspirations & ideas: 
@@ -89,3 +88,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 Image:Astronotus\_ocellatus.jpg\|*[Astronotus ocellatus](commons:Astronotus_ocellatus.md)* (Oscar) Image:Salmonlarvakils.jpg\|*[Salmo salar](commons:Salmo_salar.md)* (Salmon Larva) Image:Georgia Aquarium - Giant Grouper.jpg\|*[Epinephelus lanceolatus](commons:Epinephelus_lanceolatus.md)* (Giant grouper) Image:Pterois volitans Manado-e.jpg\|*[Pterois volitans](commons:Pterois_volitans.md)* (Red Lionfish) Image:Macropodus opercularis - front (aka).jpg\|*[Macropodus opercularis](commons:Macropodus_opercularis.md)* (Paradise fish) Image:Canthigaster valentini 1.jpg\|*[Canthigaster valentini](commons:Canthigaster_valentini.md)* (Valentinni\'s sharpnose puffer) Image:Flughahn.jpg\|<img alt="" src=images/POTY_ribbon_2007.svg  style="width:25px;"> *[Dactylopterus volitans](commons:Dactylopterus_volitans.md)* (Flying gurnard) Image:Fishmarket 01.jpg\|*[Semicossyphus pulcher](commons:Semicossyphus_pulcher.md)* (California Sheephead)
 
 [Category:Wiki](Category:Wiki.md) [Category:Sandbox](Category:Sandbox.md)
+
+---
+[documentation index](../README.md) > Tutorial guidelines

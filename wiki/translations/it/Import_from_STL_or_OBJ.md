@@ -1,5 +1,5 @@
 # Import from STL or OBJ/it
- {{TutorialInfo/it
+{{TutorialInfo/it
 |Topic= Importare da STL o OBJ
 |Level= Base
 |Time= 30 minuti
@@ -149,3 +149,6 @@ Dato che il solido creato in questo modo non ha cronologia e non ha funzioni mod
  
 
 [Category:File\_Formats](Category:File_Formats.md)
+
+---
+[documentation index](../README.md) > [Import](Import_Workbench.md) > Import from STL or OBJ/it

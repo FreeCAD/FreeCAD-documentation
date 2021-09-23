@@ -8,6 +8,8 @@
    SeeAlso:[Mimari Yapı](Arch_Structure/tr.md)
 ---
 
+# Arch Wall/tr
+
 
 </div>
 
@@ -141,11 +143,5 @@ Draft.move(Wall2, FreeCAD.Vector(0, -1000, 0))
 FreeCAD.ActiveDocument.recompute()
 ```
 
-
-
-
-
-
-
-
-
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Wall/tr

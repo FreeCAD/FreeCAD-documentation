@@ -6,6 +6,8 @@
    Workbenches:[Curves](Curves_Workbench/fr.md)
 ---
 
+# Curves Line/fr
+
 ## Description
 
 <img alt="" src=images/Curves_Line.svg  style="width:24px;"> [Curves Ligne](Curves_Line/fr.md) crée une ligne paramétrique entre deux sommets. Cet outil fait partie des [ateliers externes](External_workbenches/fr.md) appelé [Curves](Curves_Workbench/fr.md).
@@ -31,4 +33,7 @@
 
 {{Curves Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > Curves Line/fr

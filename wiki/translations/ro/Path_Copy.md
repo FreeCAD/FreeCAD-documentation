@@ -1,3 +1,4 @@
+# Path Copy/ro
 ---
 - GuiCommand:   Name:Path Copy   Workbenches:[[Path Workbench   Path]]|MenuLocation:Path → Path Modification → Copy   Shortcut:P,Y   SeeAlso:---
 
@@ -34,4 +35,7 @@ Copia este legată cu traiectoria originală. Dacă originalul se schimbă, la f
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Copy/ro

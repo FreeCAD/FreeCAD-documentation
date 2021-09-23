@@ -1,7 +1,4 @@
 # FEM Tutorial Python/fr
-
-
-
 {{TutorialInfo/fr
 |Topic=Analyse par Éléménts Finis
 |Level=Intermédiaire
@@ -604,3 +601,6 @@ Amusez-vous! Aussi, si vous avez des commentaires ou des améliorations, n\'hés
 }} {{FEM Tools navi}}  
 
 [Category:Python Code](Category:Python_Code.md)
+
+---
+[documentation index](../README.md) > [Python Code](Category:Python Code.md) > FEM Tutorial Python/fr

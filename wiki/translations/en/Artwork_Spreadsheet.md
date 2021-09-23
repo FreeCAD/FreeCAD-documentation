@@ -1,6 +1,4 @@
 # Artwork Spreadsheet/en
- 
-
 These icons are in the indicated source path.
 
 For all icons in the source tree, see [Artwork](Artwork.md).
@@ -17,3 +15,6 @@ For all icons in the source tree, see [Artwork](Artwork.md).
 }} 
 
 [Category:Spreadsheet](Category:Spreadsheet.md)
+
+---
+[documentation index](../README.md) > [Spreadsheet](Category:Spreadsheet.md) > Artwork Spreadsheet/en

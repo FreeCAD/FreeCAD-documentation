@@ -8,6 +8,8 @@
    SeeAlso:[Punto PartDesign](PartDesign_Point/es.md), [Línea PartDesign](PartDesign_Line/es.md)
 ---
 
+# PartDesign Plane/es
+
 
 </div>
 
@@ -48,4 +50,7 @@ Double-click the DatumPlane label in the Model tree or right-click and select **
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Plane/es

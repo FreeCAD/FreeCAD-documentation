@@ -7,6 +7,8 @@
    SeeAlso:[Arch NetzAufteilen](Arch_SplitMesh/de.md), [Arch EntferneForm](Arch_RemoveShape/de.md)
 ---
 
+# Arch MeshToShape/de
+
 ## Beschreibung
 
 [Arch NetzZuForm](Arch_MeshToShape/de.md) wandelt ein gewähltes [Polygonnetz](Mesh/de.md) ([Polygonnetz Formteil](Mesh_Feature/de.md)) Objekt in eine [Form](Shape/de.md) ([Part Formteil](Part_Feature/de.md)) Objekt.
@@ -59,8 +61,5 @@ FreeCAD.ActiveDocument.recompute()
 new_obj = Arch.meshToShape(Box)
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch MeshToShape/de

@@ -7,6 +7,8 @@
    SeeAlso:[Box di selezione](Std_BoxSelection/it.md), [Selezione elementi](Std_BoxElementSelection/it.md), [Seleziona tutto](Std_SelectAll/it.md)
 ---
 
+# Part BoxSelection/it
+
 
 </div>
 
@@ -46,5 +48,5 @@
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part BoxSelection/it

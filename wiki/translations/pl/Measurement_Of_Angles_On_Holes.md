@@ -1,7 +1,4 @@
 # Measurement Of Angles On Holes/pl
-
-
-
 {{TutorialInfo/pl
 |Topic=TechDraw
 |Level=Podstawowy
@@ -42,4 +39,7 @@ Utworzona linia środkowa może zostać zmodyfikowana. Wybierz linię środkową
 Punkty czworokąta wybierz za pomocą narzędzia <img alt="" src=images/TechDraw_Quadrants.svg  style="width:24px;"> z paska narzędzi. Następnie wybierz punkty jak pokazano poniżej i użyj narzędzia <img alt="" src=images/TechDraw_Dimension_Angle3Pt.svg  style="width:24px;"> z paska narzędzi, aby utworzyć kąt. Inna kolejność utworzy inne kąty. Jeśli we właściwościach nie ma punktu zaczepienia na linii środkowej należy zmienić **licznik ISO**.
 
 <img alt="" src=images/AnHi11.PNG  style="width:250px;">
-*Powyżej: Kolejność postępowania przy wyborze.|center* {{TechDraw Tools navi}} {{Tutorials navi}} 
+*Powyżej: Kolejność postępowania przy wyborze.|center* {{TechDraw Tools navi}} {{Tutorials navi}}
+
+---
+[documentation index](../README.md) > Measurement Of Angles On Holes/pl

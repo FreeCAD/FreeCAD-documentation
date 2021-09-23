@@ -1,3 +1,4 @@
+# Arch Reference/hr
 ---
 - GuiCommand:/hr   Name:Arch Reference   Name/hr:Arch Reference   Workbenches:[MenuLocation:Arch → Reference   Shortcut:   SeeAlso:[[Arch BuildingPart](Arch_Workbench___Arch]].md)---
 
@@ -48,8 +49,5 @@ import Arch
 Arch.makeReference("/path/to/some/file.FSCtd","myPart")
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Reference/hr

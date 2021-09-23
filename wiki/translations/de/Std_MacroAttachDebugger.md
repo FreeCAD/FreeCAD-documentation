@@ -6,6 +6,8 @@
    Workbenches:Alle
 ---
 
+# Std MacroAttachDebugger/de
+
 ## Beschreibung
 
 ZuTun.
@@ -20,4 +22,7 @@ ZuTun.
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std MacroAttachDebugger/de

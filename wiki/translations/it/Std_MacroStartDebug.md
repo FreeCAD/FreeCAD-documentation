@@ -8,6 +8,8 @@
    SeeAlso:[Interrompi il debug](Std_MacroStopDebug/it.md)
 ---
 
+# Std MacroStartDebug/it
+
 ## Descrizione
 
 In questo momento questo comando non funziona.
@@ -24,4 +26,7 @@ In questo momento questo comando non funziona.
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std MacroStartDebug/it

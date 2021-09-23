@@ -7,6 +7,8 @@
    SeeAlso:[Std Apparence](Std_SetAppearance/fr.md)
 ---
 
+# Part FaceColors/fr
+
 ## Description
 
 La fonction **Définir les couleurs** vous permet de définir une couleur pour chaque face ou surface d\'un objet. De cette façon, vous pouvez attribuer plusieurs couleurs à une pièce. Pour colorer des pièces entières, utilisez à la place la fonction *[Std Apparence](Std_SetAppearance/fr.md)*.
@@ -36,3 +38,6 @@ Pour réinitialiser toutes les couleurs de la face:
  
 
 [Category:User Documentation](Category:User_Documentation.md) [Category:Command\_Reference](Category:Command_Reference.md)
+
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part FaceColors/fr

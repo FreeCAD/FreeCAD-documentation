@@ -8,6 +8,8 @@
    SeeAlso:
 ---
 
+# PartDesign LinearPattern/pl
+
 ## Opis
 
 Narzędzie **<img src=images/PartDesign_LinearPattern.svg style="width:24px"> '''Szyk liniowy'''** tworzy równomiernie rozmieszczone kopie obiektu w układzie liniowym. Od {{VersionPlus/pl|0.17}} narzędzie Szyk liniowy może ułożyć wiele elementów.
@@ -89,4 +91,7 @@ Wybierz jedną ze standardowych osi odniesienia bryły *(X, Y lub Z)* jako kieru
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign LinearPattern/pl

@@ -1,6 +1,4 @@
 # Robot API example
- 
-
 ## Introduction
 
 This example is based on the [RobotExample.py](https://github.com/FreeCAD/FreeCAD_sf_master/blob/master/src/Mod/Robot/RobotExample.py) example.
@@ -171,3 +169,6 @@ for w in App.activeDocument().Trajectory.Trajectory.Waypoints:
 
 
 [Category:Robot API](Category:Robot_API.md)
+
+---
+[documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot API example

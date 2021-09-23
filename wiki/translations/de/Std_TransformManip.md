@@ -7,6 +7,8 @@
    SeeAlso:[Std Base](Std_Base.md)
 ---
 
+# Std TransformManip/de
+
 
 </div>
 
@@ -46,4 +48,7 @@ Sobald das Objekt in der 3D-Ansicht verschoben/gedreht wird, werden diese Änder
 
 {{Std Base navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > Std TransformManip/de

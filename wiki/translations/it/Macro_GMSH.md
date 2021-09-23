@@ -1,7 +1,4 @@
 # Macro GMSH/it
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -45,4 +42,7 @@ GMSH deve essere installato. Vedere [gmsh.info](http://gmsh.info/). La macro è 
 
 La pagina della discussione nel forum: [GMSH macro](http://forum.freecadweb.org/viewtopic.php?t=11182)
 
-[Vedere su YouTube come utilizzare la macro.](https://www.youtube.com/watch?v=ZcG5EEUe3yc) 
+[Vedere su YouTube come utilizzare la macro.](https://www.youtube.com/watch?v=ZcG5EEUe3yc)
+
+---
+[documentation index](../README.md) > Macro GMSH/it

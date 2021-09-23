@@ -1,7 +1,4 @@
 # FreeCAD-Ship s60 tutorial/de
-
-
-
 {{TutorialInfo/de
 |Topic=Schiff Arbeitsbereich
 |Level=Anfänger
@@ -309,3 +306,6 @@ Das [FreeCAD Schiff s60 Tutorium (II)](FreeCAD-Ship_s60_tutorial_(II)/de.md) ist
 {{Ship Tools navi
 
 }}
+
+---
+[documentation index](../README.md) > FreeCAD-Ship s60 tutorial/de

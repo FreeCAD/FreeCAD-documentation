@@ -8,6 +8,8 @@
    SeeAlso:[Arch Structure](Arch_Structure/fr.md), [Atelier Reinforcement](Reinforcement_Workbench/fr.md)
 ---
 
+# Arch Rebar/fr
+
 ## Description
 
 L\'outil [Armature](Arch_Rebar/fr.md) vous permet de placer des [barres d\'armature](http://fr.wikipedia.org/wiki/Armature_%28technique%29) dans les objets [Structure](Arch_Structure/fr.md).
@@ -123,3 +125,6 @@ FreeCAD.ActiveDocument.recompute()
  
 
 [Category:External Command Reference](Category:External_Command_Reference.md) [Category:Reinforcement](Category:Reinforcement.md)
+
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Rebar/fr

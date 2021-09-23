@@ -7,6 +7,8 @@
    Version:0.19
 ---
 
+# Rocket Fin/fr
+
 ## Description
 
 Les ailerons sont utilisés pour contrôler aérodynamiquement la direction du vol.
@@ -154,3 +156,6 @@ A définir
 
 
 [Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+
+---
+[documentation index](../README.md) > [API/fr]] et ](Category:API/fr]] et .md) > Rocket Fin/fr

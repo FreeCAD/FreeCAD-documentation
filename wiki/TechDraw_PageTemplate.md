@@ -6,6 +6,8 @@
    SeeAlso:[TechDraw Default Page](TechDraw_PageDefault.md), [TechDraw Templates](TechDraw_Templates.md)
 ---
 
+# TechDraw PageTemplate
+
 ## Description
 
 The New Pick tool creates a new Page object using the template file selected from a dialog.
@@ -59,4 +61,7 @@ See the information in [Insert Default Page](TechDraw_PageDefault.md) to program
 
 
 
- {{TechDraw Tools navi}}  
+ {{TechDraw Tools navi}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw PageTemplate

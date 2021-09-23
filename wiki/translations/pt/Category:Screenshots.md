@@ -6,3 +6,6 @@ This category lists pages with screenshots.
 [Screenshots/pt](Screenshots/pt.md)
 
 [Category:Documentation/pt](Category:Documentation/pt.md)
+
+---
+[documentation index](../README.md) > Category:Screenshots/pt

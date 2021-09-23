@@ -61,6 +61,8 @@ Next times:
     wiki.getAllImages() # fetches and saves all images - existing ones are not overwritten
 """
 
+# write threads: https://www.pythontutorial.net/advanced-python/python-threading/
+
 import requests
 import sys
 import os
@@ -69,6 +71,7 @@ import json
 import datetime
 import pypandoc
 from PySide2 import QtCore
+import FreeCAD
 
 unhandledTemplates = [] # holder for unhandled templates
 
@@ -98,6 +101,8 @@ class MediaWiki:
             os.mkdir(self.output)
         self.imagefolder = "images"
         self.translationfolder = "translations"
+        self.rootpage = "README.md"
+        self.workbenches = self.getWorkbenches()
 
 
     ### UTILS
@@ -115,6 +120,23 @@ class MediaWiki:
             sys.stdout.write("\r"+" ".ljust(72)+"\r")
             return
         sys.stdout.write(('\r'+text+' '+str(int((count/total)*100))+'%').ljust(72))
+
+
+    def getWorkbenches(self):
+
+        """getWorkbenches():
+        Returns a list of workbenches from FreeCAD"""
+        appm = os.path.join(FreeCAD.getHomePath(),"Mod")
+        userm = os.path.join(FreeCAD.getUserAppDataDir(),"Mod")
+        mods = []
+        for mod in os.listdir(appm):
+            if os.path.isdir(os.path.join(appm,mod)):
+                mods.append(mod)
+        for umod in os.listdir(userm):
+            if os.path.isdir(os.path.join(userm,mod)):
+                if not mod in mods:
+                    mods.append(mod)
+        return mods
 
 
     ### CACHE OPERATIONS
@@ -228,7 +250,7 @@ class MediaWiki:
             wikitext += cpages
         self.pagecontents[name] = wikitext
         return wikitext,revision
-            
+
 
     def getAllPages(self,pageset=None):
 
@@ -268,7 +290,7 @@ class MediaWiki:
 
 
     def getCategories(self):
-        
+
         """getCategories():
         Returns a list of categories of the whole wiki.
         Also stores the list in self.pagenames"""
@@ -307,7 +329,7 @@ class MediaWiki:
 
         """getCategoryContents():
         Returns a list of pages that use the given category"""
-        
+
         if not name.startswith("Category:"):
             name = "Category:"+name
         members = []
@@ -348,10 +370,10 @@ class MediaWiki:
         return members
 
     def getPageCategory(self,page):
-        
+
         """getPageCategory(self,page):
         Returns the first category a page belongs to, or None"""
-        
+
         if page in self.pagecontents:
             content = self.pagecontents[page]
             cats = re.findall("Category:(.*?)[{}\[]",content)
@@ -566,20 +588,54 @@ class MediaWiki:
             fmt = 'markdown+hard_line_breaks'
             result = pypandoc.convert_text(wikitext, fmt, format='mediawiki', extra_args=xargs)
         except:
+            print("Error converting",page)
             return None
+        if clean:
+            result = self.cleanMarkdown(result)
+        result = self.addTitle(page,result)
+        result = self.addFooter(page,result)
+        return result
+
+
+    def addTitle(self,page,mdtext):
+
+        """addTitle(self,page,result):
+        adds the page title to the given markdown"""
+
+        # insert page title
+        if mdtext.startswith("<img"):
+            #print("img replace")
+            mdtext = mdtext.split("\n")
+            mdtext[0] = "# "+ mdtext[0].replace("128","64") + " " + page.replace("_"," ")
+            mdtext = "\n".join(mdtext)
+        elif "\n---\n\n" in mdtext:
+            #print("yaml replace")
+            mdtext = mdtext.replace("\n---\n\n","\n---\n\n# "+page.replace("_"," ")+"\n\n")
         else:
-            if result.startswith("<img"):
-                # insert page icon into title
-                result = result.split("\n")
-                result[0] = "# "+ result[0].replace("128","64") + " " + page.replace("_"," ")
-                result = "\n".join(result)
+            #print("std replace")
+            mdtext = "# "+page.replace("_"," ")+"\n"+mdtext
+        return mdtext
+
+
+    def addFooter(self,page,mdtext):
+
+        """addFooter(self,mdtext):
+        adds a footer with navigation links to the bottom of the page"""
+
+        footer = "\n\n---\n"
+        footer += "[documentation index](../"+self.rootpage+")"
+        if not any(el in page for el in ["Workbench","Category"]):
+            for w in self.workbenches:
+                if page.replace(" ","_").startswith(w+"_"):
+                    footer += " > [" + w + "](" + w + "_Workbench.md)"
+                    break
             else:
-                # insert title
-                result = "# "+page.replace("_"," ")+"\n"+result
-            if clean:
-                return self.cleanMarkdown(result)
-            else:
-                return result
+                c = self.getPageCategory(page)
+                if c:
+                    footer += " > [" + c + "](Category:" + c + ".md)"
+        footer += " > " + page.replace("_"," ") + "\n"
+        mdtext += footer
+        return mdtext
 
 
     def cleanMarkdown(self,mdtext,imagepath=None):
@@ -697,7 +753,7 @@ class MediaWiki:
                 if not template in unhandledTemplates:
                     unhandledTemplates.append(template)
 
-        return result
+        return result.strip()
 
 
     def writeMarkdown(self,page,overwrite=True,basepath=None,clean=True):
@@ -778,10 +834,10 @@ class MediaWiki:
 
 
     def updateReadme(self):
-        
+
         """updateReadme():
         Updates the main page with a list of available translations"""
-        
+
         mainpage = os.path.join(os.path.dirname(__file__),"README.md")
         tfolder = os.path.join(self.output,self.translationfolder)
         column = 1
@@ -896,9 +952,9 @@ def writeimages():
 
 
 def updatereadme():
-    
+
     """updates the README.md with the list of translations"""
-    
+
     wiki = MediaWiki()
     wiki.updateReadme()
 

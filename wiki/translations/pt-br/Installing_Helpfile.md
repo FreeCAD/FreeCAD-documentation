@@ -1,6 +1,4 @@
 # Installing Helpfile/pt-br
-
-
 ## FreeCAD arquivo de ajuda 
 
 
@@ -62,5 +60,5 @@ Podem surgir dificuldades ao tentar instalar os pacotes de documentação no Ubu
 
 </div>
 
-
-
+---
+[documentation index](../README.md) > Installing Helpfile/pt-br

@@ -11,3 +11,6 @@ This is the **top category** which contains the main categories of the FreeCAD w
 , , , , , ,
 
 [Category:Categories/ko](Category:Categories/ko.md) [Category:Administration/ko](Category:Administration/ko.md) [Category:Categories/ko](Category:Categories/ko.md) [Category:Developer/ko](Category:Developer/ko.md) [Category:Documentation/ko](Category:Documentation/ko.md) [Category:Hubs/ko](Category:Hubs/ko.md) [Category:News/ko](Category:News/ko.md) [Category:Wiki/ko](Category:Wiki/ko.md)
+
+---
+[documentation index](../README.md) > Category:Categories/ko

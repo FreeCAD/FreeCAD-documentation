@@ -6,6 +6,8 @@
    Workbenches:[Sketcher](Sketcher_Workbench.md)
 ---
 
+# Sketcher CompCreateArc/zh-cn
+
 ## 描述
 
 **创建一条弧（Create an arc）**是草图工作台几何图形工具栏中的一个图标按钮，它集合了多种以拾取3个点创建一条弧的工具。点击此图标右侧的向下箭头会在下侧展开工具集，此时来选取其中的一种工具。
@@ -27,4 +29,7 @@
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CompCreateArc/zh-cn

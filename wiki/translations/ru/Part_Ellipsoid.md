@@ -7,6 +7,8 @@
    SeeAlso:[Создать примитивы...](Part_Primitives/ru.md)
 ---
 
+# Part Ellipsoid/ru
+
 ## Описание
 
 Команда <img alt="" src=images/Part_Ellipsoid.svg  style="width:24px;"> [Эллипсоид](Part_Ellipsoid/ru.md) создаёт параметрический твердотельный Эллипсоид.
@@ -42,8 +44,5 @@
 
 ![](images/Part_Ellipsoid_screenshot.jpg )
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Ellipsoid/ru

@@ -1,5 +1,5 @@
 # Part Loft Technical Details/it
- Questa pagina spiega nei dettagli come viene creata una superficie con [Part Loft](Part_Loft/it.md). Questo vale anche per una superficie [Part Sweep](Part_Sweep/it.md) prodotta lungo un percorso rettilineo, anche se ci sono alcune differenze.
+Questa pagina spiega nei dettagli come viene creata una superficie con [Part Loft](Part_Loft/it.md). Questo vale anche per una superficie [Part Sweep](Part_Sweep/it.md) prodotta lungo un percorso rettilineo, anche se ci sono alcune differenze.
 
 Le informazioni fornite si riferiscono a una specifica implementazione e potrebbero cambiare. Queste sono adatte per FreeCAD 0.15.4119 e OCC versione: 6.7.0.
 
@@ -73,3 +73,6 @@ Notare che Loft ha una proprietà \"Ruled\". Se è impostata su true, le superfi
  
 
 [Category:Tutorials](Category:Tutorials.md)
+
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Loft Technical Details/it

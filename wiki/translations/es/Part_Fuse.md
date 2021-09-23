@@ -7,6 +7,8 @@
    SeeAlso:[Part Cut](Part_Cut/es.md), [Part Common](Part_Common/es.md)
 ---
 
+# Part Fuse/es
+
 
 </div>
 
@@ -41,8 +43,5 @@ Items can be added and removed from the fusion, by dragging them in or out of th
 
 After this operation is complete, it may be necessary to clean up the shape with <img alt="" src=images/Part_RefineShape.svg  style="width:24px;"> [RefineShape](Part_RefineShape.md).
 
-
-
-
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Fuse/es

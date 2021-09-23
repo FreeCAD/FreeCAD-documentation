@@ -1,3 +1,4 @@
+# Robot CreateRobot/tr
 ---
 - GuiCommand:/tr
    Name:Robot CreateRobot
@@ -67,4 +68,7 @@ Robot kod ve bir vrml dosyası aracılığıyla tanımlanmalıdır, daha
 
 {{Robot_Tools_navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot CreateRobot/tr

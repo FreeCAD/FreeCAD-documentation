@@ -1,5 +1,5 @@
 # Macro HilbertCurve/en
- {{Macro
+{{Macro
 |Name=HilbertCurve
 |Description=This macro creates an Hilbert curve wire in 2 or 3 dimensions with many iterations.
 |Author=Simone Bignetti
@@ -289,3 +289,5 @@ hilbert_dialog = Hilbert_Dialog()
 hilbert_dialog.exec()
 }}
 
+---
+[documentation index](../README.md) > Macro HilbertCurve/en

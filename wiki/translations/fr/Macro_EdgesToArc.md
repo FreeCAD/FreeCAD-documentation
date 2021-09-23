@@ -1,5 +1,5 @@
 # Macro EdgesToArc/fr
- {{Macro/fr
+{{Macro/fr
 |Name=EdgesToArc
 |Icon=Macro_EdgesToArc.png
 |Description=Transforme les arêtes sélectionnées si possible en un Arc circulaire. Utile pour restaurer des arcs discrétisés.
@@ -95,6 +95,5 @@ if circular:
             FreeCAD.ActiveDocument.removeObject(shape.Name)
 }}
 
-
-
-
+---
+[documentation index](../README.md) > Macro EdgesToArc/fr

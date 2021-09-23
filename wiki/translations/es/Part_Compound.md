@@ -8,6 +8,8 @@
    SeeAlso:[Pieza Unión](Part_Union/es.md), [Pieza Filtro compuesto](Part_CompoundFilter/es.md), [Pieza Explotar compuesto](Part_ExplodeCompound/es.md)
 ---
 
+# Part Compound/es
+
 
 </div>
 
@@ -37,5 +39,5 @@ To turn this check on go to **Tools → Edit Parameters → Preferences... → M
 
 </div>
 
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Compound/es

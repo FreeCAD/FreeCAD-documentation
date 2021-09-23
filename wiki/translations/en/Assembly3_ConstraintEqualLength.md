@@ -5,6 +5,8 @@
    Workbenches:[Assembly3](Assembly3_Workbench.md)
 ---
 
+# Assembly3 ConstraintEqualLength/en
+
 ## Description
 
 This tool constrains the length of a 2D line like a non-subdivided wire made with the Draft workbench in relation with a work plane.
@@ -23,8 +25,5 @@ The length value of the first selected line equals the length value of the secon
 
     :   (if **<img src="images/Assembly_AutoRecompute.svg" width=16px> [Auto recompute](Assembly3_AutoRecompute.md)** and **<img src="images/Assembly_SmartRecompute.svg" width=16px> [Smart recompute](Assembly3_SmartRecompute.md)** are disabled).
 
-
-
-
-
-
+---
+[documentation index](../README.md) > Assembly3 ConstraintEqualLength/en

@@ -1,11 +1,4 @@
 # Path ToolBit Library
- 
-
-
-
-
- 
-
 ## Description
 
 Within the [Path Tools](Path_Tools.md) system, Toolbits are organized into libraries. A library is simply a list of toolbits and can be used by the user for whichever purpose is needed. A tool library is nevertheless a great representation for a physical grouping of tools, such as in an automatic tool changer. Or tools might be grouped by intended use, for example all tools for cutting plastic.
@@ -51,4 +44,7 @@ A toolbit library can be exported to create a [LinuxCNC Tool Table](http://wiki.
 
 
 
- {{Path_Tools_navi}} 
+ {{Path_Tools_navi}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path ToolBit Library

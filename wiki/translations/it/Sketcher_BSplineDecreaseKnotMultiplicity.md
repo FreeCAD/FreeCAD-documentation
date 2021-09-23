@@ -8,6 +8,8 @@
    SeeAlso:[Crea B-spline](Sketcher_CompCreateBSpline/it.md)
 ---
 
+# Sketcher BSplineDecreaseKnotMultiplicity/it
+
 
 </div>
 
@@ -76,4 +78,7 @@ One can see that the spline with knot multiplicity 1 is completely changed while
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineDecreaseKnotMultiplicity/it

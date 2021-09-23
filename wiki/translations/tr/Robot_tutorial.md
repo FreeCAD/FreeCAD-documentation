@@ -1,5 +1,5 @@
 # Robot tutorial/tr
- {{TutorialInfo/tr
+{{TutorialInfo/tr
 |Topic= Robot Tezgahı
 |Level= Yeni başlayan
 |Time=
@@ -90,4 +90,7 @@ Bu eğitimde [endüstriyel robotlar](http://en.wikipedia.org/wiki/Industrial_rob
 
 {{Tutorials navi
 
-}} {{Robot Tools navi}} 
+}} {{Robot Tools navi}}
+
+---
+[documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot tutorial/tr

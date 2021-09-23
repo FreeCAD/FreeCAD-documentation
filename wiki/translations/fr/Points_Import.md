@@ -8,6 +8,8 @@
    SeeAlso:[Points Exporter](Points_Export/fr.md)
 ---
 
+# Points Import/fr
+
 ## Description
 
 La commande **Points Importer** importe un nuage de points à partir d\'un fichier.
@@ -45,4 +47,7 @@ Pour tester, vous pouvez utiliser ce fichier [Ce fichier](https://raw.githubuser
 
 {{Points Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Points](Points_Workbench.md) > Points Import/fr

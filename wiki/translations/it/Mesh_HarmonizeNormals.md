@@ -7,6 +7,8 @@
    SeeAlso:[Inverti le normali](Mesh_FlipNormals/it.md)
 ---
 
+# Mesh HarmonizeNormals/it
+
 ## Descrizione
 
 Il comando **Armonizza le normali** armonizza le normali degli oggetti mesh.
@@ -39,4 +41,7 @@ Il comando **Armonizza le normali** armonizza le normali degli oggetti mesh.
 
 {{Mesh Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh HarmonizeNormals/it

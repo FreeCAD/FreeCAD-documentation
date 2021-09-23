@@ -6,6 +6,8 @@
    Workbenches:[OpenSCAD](OpenSCAD_Workbench/de.md)
 ---
 
+# OpenSCAD ExpandPlacements/de
+
 ## Beschreibung
 
 Erweitere alle Platzierungen im Formelemente-Baum abwärts.
@@ -33,4 +35,7 @@ Funktioniert mit:
 
 {{OpenSCAD_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD ExpandPlacements/de

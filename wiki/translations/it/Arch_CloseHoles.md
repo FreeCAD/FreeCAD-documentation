@@ -6,6 +6,8 @@
    MenuLocation:Arch → Utilità → Chiudi fori   SeeAlso:[Controlla](Arch_Check/it.md)
 ---
 
+# Arch CloseHoles/it
+
 
 </div>
 
@@ -75,8 +77,5 @@ solid = Arch.closeHole(Wall.Shape)
 
 </div>
 
-
-
-
-
-
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CloseHoles/it

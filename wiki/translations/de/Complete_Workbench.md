@@ -1,7 +1,4 @@
 # Complete Workbench/de
-
-
-
 **Der [[Complete Workbench/de]] ist veraltet.**
 
 <img alt="" src=images/Workbench_Complete.svg  style="width:64px;">
@@ -14,3 +11,6 @@ Siehe [Anpassung der Benutzeroberfläche ](Interface_Customization/de.md), wenn 
 
 
 [Category:Complete](Category:Complete.md) [Category:Obsolete Workbenches](Category:Obsolete_Workbenches.md)
+
+---
+[documentation index](../README.md) > Complete Workbench/de

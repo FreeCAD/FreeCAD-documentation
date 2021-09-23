@@ -6,6 +6,8 @@
    Workbenches:[PartDesign Arbeitsbereich](PartDesign_Workbench/de.md)
 ---
 
+# PartDesign Groove/de
+
 
 </div>
 
@@ -86,4 +88,7 @@ Nachfolgend findest Du Eigenschaften, die nach der Erstellung des Merkmals defin
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Groove/de

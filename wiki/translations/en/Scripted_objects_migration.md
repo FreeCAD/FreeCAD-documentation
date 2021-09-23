@@ -1,6 +1,4 @@
 # Scripted objects migration/en
-
-
 ## Introduction
 
 [Scripted objects](Scripted_objects.md) are rebuilt every time a [FCStd document](File_Format_FCStd.md) is opened. To do this the document keeps a reference to the module and Python class that were used to create the object, along with its properties.
@@ -555,3 +553,6 @@ Preferably avoid the following:
 }} 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Scripted objects migration/en

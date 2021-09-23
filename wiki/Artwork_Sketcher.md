@@ -1,6 +1,4 @@
 # Artwork Sketcher
-  
-
 These icons are in the indicated source path.
 
 For all icons in the source tree, see [Artwork](Artwork.md).
@@ -50,3 +48,6 @@ In the past, the `.xpm` icons were used as overlays when displaying constraints 
  ![](images/Sketcher_Clone.svg ) ![](images/Sketcher_CloseShape.svg ) ![](images/Sketcher_ConnectLines.svg ) ![](images/Sketcher_Copy.svg ) ![](images/Sketcher_DeleteConstraints.svg ) ![](images/Sketcher_DeleteGeometry.svg ) ![](images/Sketcher_Move.svg ) ![](images/Sketcher_RectangularArray.svg ) ![](images/Sketcher_SelectConflictingConstraints.svg ) ![](images/Sketcher_SelectConstraints.svg ) ![](images/Sketcher_SelectElementsAssociatedWithConstraints.svg ) ![](images/Sketcher_SelectElementsWithDoFs.svg ) ![](images/Sketcher_SelectHorizontalAxis.svg ) ![](images/Sketcher_SelectOrigin.svg ) ![](images/Sketcher_SelectRedundantConstraints.svg ) ![](images/Sketcher_SelectVerticalAxis.svg ) ![](images/Sketcher_Symmetry.svg ) 
 
  {{Artwork}} {{Sketcher Tools navi}}
+
+---
+[documentation index](../README.md) > Artwork Sketcher

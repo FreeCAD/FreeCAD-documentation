@@ -6,3 +6,6 @@ This category lists pages related to the [TechDraw Workbench/cs](TechDraw_Workbe
 [TechDraw Workbench/cs](TechDraw_Workbench/cs.md)
 
 [Category:Workbenches/cs](Category:Workbenches/cs.md)
+
+---
+[documentation index](../README.md) > Category:TechDraw/cs

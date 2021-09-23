@@ -1,5 +1,5 @@
 # Localisation Sidebar/de
- [Lokalisierung](Localisation/de.md) ist der Prozess der Bereitstellung von Software mit einer mehrsprachigen Benutzeroberfläche. Das Dokumentations-Wiki kann auch lokalisiert werden, wie im Abschnitt [Übersetze das FreeCAD Wiki](Localisation#Translate_the_FreeCAD_wiki/de.md) beschrieben.
+[Lokalisierung](Localisation/de.md) ist der Prozess der Bereitstellung von Software mit einer mehrsprachigen Benutzeroberfläche. Das Dokumentations-Wiki kann auch lokalisiert werden, wie im Abschnitt [Übersetze das FreeCAD Wiki](Localisation#Translate_the_FreeCAD_wiki/de.md) beschrieben.
 
 Die Seitenleiste ist ein wichtiges Navigationswerkzeug in der Wiki Welt, siehe [1](https://www.mediawiki.org/wiki/Manual:Interface/Sidebar/de) für weitere Informationen.
 
@@ -32,3 +32,6 @@ NICHT \"/de\" (/fr, /es, \...) mit einfügen, wenn die Übersetzungseite in der 
 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Wiki](Category:Wiki.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Localisation Sidebar/de

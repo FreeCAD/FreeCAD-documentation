@@ -7,6 +7,8 @@
    SeeAlso:[TechDraw Ausschnittgruppe hinzufügen](TechDraw_ClipGroupAdd/de.md), [TechDraw Entferne Ansicht aus Ausschnittgruppe](TechDraw_ClipGroupRemove/de.md)
 ---
 
+# TechDraw ClipGroup/de
+
 ## Beschreibung
 
 
@@ -41,4 +43,7 @@ Dieses Werkzeug erstellt ein Ausschnittfenster, das eine oder mehrere Ansichten 
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ClipGroup/de

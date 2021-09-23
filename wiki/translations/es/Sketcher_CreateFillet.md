@@ -7,6 +7,8 @@
    Shortcut:F
 ---
 
+# Sketcher CreateFillet/es
+
 ## Descripción
 
 Esta herramienta crea un redondeo entre dos líneas unidas en un punto. Activa la herramienta, selecciona ambas líneas o pulsa sobre el punto de dicha esquina.
@@ -27,4 +29,7 @@ Al iniciar la herramienta, las selecciones se borran y el puntero del ratón cam
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateFillet/es

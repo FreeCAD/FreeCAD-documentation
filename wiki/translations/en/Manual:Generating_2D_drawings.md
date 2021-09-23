@@ -1,10 +1,4 @@
 # Manual:Generating 2D drawings/en
-
-
-
-
-
-
 {{Manual:TOC}}
 
 When your model cannot be printed or milled directly by a machine, for example it is too big (a building) or it requires manual assembly after the pieces are ready, you will usually need to explain to another person how to do it. In technical fields (engineering, architecture, etc), this is usually done with drawings. The drawings are handed over to the person responsible for assembling the final product and will explain how to do it.
@@ -108,3 +102,6 @@ Our page can now be exported to SVG for further work in graphical applications l
 
 
 [Category:Tutorials](Category:Tutorials.md)
+
+---
+[documentation index](../README.md) > Manual:Generating 2D drawings/en

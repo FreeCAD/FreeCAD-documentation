@@ -1,3 +1,4 @@
+# Raytracing InsertPart/ro
 ---
 - GuiCommand:   Name:Raytracing InsertPart   MenuLocation:Raytracing → InsertPart‏‎   |Workbenches:[[Raytracing_Workbench   Raytracing]]|Shortcut:   SeeAlso:---
 
@@ -43,4 +44,7 @@ Inserați o vizualizarea a unei Piese într-un proiect de randarea raytracing .
 
 {{Raytracing_Tools_navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing InsertPart/ro

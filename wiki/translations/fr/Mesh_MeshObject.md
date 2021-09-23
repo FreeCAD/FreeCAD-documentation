@@ -1,6 +1,4 @@
 # Mesh MeshObject/fr
-
-
 ## Description
 
 Un [Mesh MeshObject](Mesh_MeshObject/fr.md), ou officiellement `Mesh::MeshObject`, est une classe qui définit une structure de données de maillage dans le logiciel. Ceci est similaire à la [Part TopoShape](Part_TopoShape/fr.md) mais pour [Mesh](Mesh/fr.md).
@@ -58,4 +56,7 @@ obj.Mesh.write("my_file.stl")
 
 {{Mesh Tools navi
 
-}} {{Document objects navi}} 
+}} {{Document objects navi}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh MeshObject/fr

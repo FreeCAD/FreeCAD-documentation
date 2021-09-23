@@ -1,10 +1,4 @@
 # Bug Triage/fr
-
-
-
-
-
-
 {{TOCright}}
 
 ## Pourquoi
@@ -155,3 +149,6 @@ Une méthodologie importante pour suivre les tickets par sujet/thème/catégorie
 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Administration](Category:Administration.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Bug Triage/fr

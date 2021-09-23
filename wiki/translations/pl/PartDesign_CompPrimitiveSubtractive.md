@@ -8,6 +8,8 @@
    SeeAlso:[Utwórz cechę addytywną](PartDesign_CompPrimitiveAdditive/pl.md)
 ---
 
+# PartDesign CompPrimitiveSubtractive/pl
+
 ## Opis
 
 Tworzy subtraktywną bryłę pierwotną w aktywnej bryle, odejmując jej kształt od istniejącej bryły.
@@ -29,4 +31,7 @@ Tworzy subtraktywną bryłę pierwotną w aktywnej bryle, odejmując jej kształ
 
 {{PartDesign Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign CompPrimitiveSubtractive/pl

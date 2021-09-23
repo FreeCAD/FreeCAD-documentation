@@ -1,7 +1,4 @@
 # Macro Make Cube/fr
-
-
-
 {{Macro/fr
 |Name=Make Cube
 |Icon=Macro_makeCube.png
@@ -153,3 +150,5 @@ class myCommand(draftTools.Creator):
 myCommand()
 ```
 
+---
+[documentation index](../README.md) > Macro Make Cube/fr

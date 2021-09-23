@@ -8,6 +8,8 @@
    SeeAlso:
 ---
 
+# Points Merge/it
+
 
 <div class="mw-translate-fuzzy">
 
@@ -39,4 +41,7 @@ See [Points Convert](Points_Convert.md).
 
 {{Points Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Points](Points_Workbench.md) > Points Merge/it

@@ -1,6 +1,4 @@
 # Artwork OpenSCAD/ru
- 
-
 Эти иконки находятся в указанной исходной папке.
 
 Для всех иконок в исходнике смотри [Художественное оформление](Artwork/ru.md).
@@ -17,3 +15,6 @@
 }} 
 
 [Category:OpenSCAD](Category:OpenSCAD.md)
+
+---
+[documentation index](../README.md) > [OpenSCAD](Category:OpenSCAD.md) > Artwork OpenSCAD/ru

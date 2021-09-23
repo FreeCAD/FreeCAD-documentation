@@ -8,6 +8,8 @@
    SeeAlso:[Reinforcement](Reinforcement_Workbench/de.md), [Arch Bewehrung](Arch_Rebar/de.md), [Arch Bewehrungsstab spiralförmig](Arch_Rebar_Helical/de.md), [ColumnReinforcement TwoTiesSixRebars](Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars.md)
 ---
 
+# Arch Rebar ColumnReinforcement/de
+
 ## Beschreibung
 
 Das [StützenVerstärkung](Arch_Rebar_ColumnReinforcement/de.md)-Werkzeug ermöglicht es dem Anwender, Bewehrungsstäbe innerhalb eines Stützen [Architektur Struktur](Arch_Structure/de.md)-Objektes zu erzeugen.
@@ -564,3 +566,6 @@ rebar_group = SingleTieMultipleRebars.editSingleTieMultipleRebars(
  
 
 [Category:Reinforcement](Category:Reinforcement.md)
+
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Rebar ColumnReinforcement/de

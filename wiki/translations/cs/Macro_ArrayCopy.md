@@ -1,5 +1,5 @@
 # Macro ArrayCopy/cs
- {{Macro/cs
+{{Macro/cs
 |Name=ArrayCopy
 |Icon=Macro_ArrayCopy.png
 |Translate=ArrayCopy
@@ -84,3 +84,5 @@ dialog.show()
 
 }}
 
+---
+[documentation index](../README.md) > Macro ArrayCopy/cs

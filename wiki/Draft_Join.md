@@ -8,6 +8,8 @@
    SeeAlso:[Draft Split](Draft_Split.md)
 ---
 
+# Draft Join
+
 ## Description
 
 The <img alt="" src=images/Draft_Join.svg  style="width:24px;"> **Draft Join** command joins [Draft Lines](Draft_Line.md) and [Draft Wires](Draft_Wire.md) into a single wire. This command is the counterpart of the [Draft Split](Draft_Split.md) command.
@@ -62,7 +64,5 @@ Draft.join_wires([wire1, wire3, wire2, wire4])
 doc.recompute()
 ```
 
-
-
-
-  
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Join

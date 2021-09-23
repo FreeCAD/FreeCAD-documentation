@@ -1,5 +1,5 @@
 # Basic TechDraw Tutorial/pl
- {{TutorialInfo/pl
+{{TutorialInfo/pl
 |Topic=Modelowanie
 |Level=początkujący
 |Author=[WandererFan](User:WandererFan.md)
@@ -136,4 +136,7 @@ oferuje o wiele więcej funkcjonalności - widoki przekrojów, widoki szczegół
 
 {{Tutorials navi
 
-}} {{TechDraw Tools navi}} 
+}} {{TechDraw Tools navi}}
+
+---
+[documentation index](../README.md) > Basic TechDraw Tutorial/pl

@@ -7,6 +7,8 @@
    Shortcut:**W**
 ---
 
+# SheetMetal AddWall/fr
+
 ## Description
 
 La commande <img alt="" src=images/SheetMetal_Bend.svg  style="width:24px;"> **SheetMetal AddWall** crée un pli sur le bord sélectionné.
@@ -244,3 +246,6 @@ C\'est fait!
 
 
 [Category:SheetMetal](Category:SheetMetal.md) [Category:Addons](Category:Addons.md) [Category:External Command Reference](Category:External_Command_Reference.md)
+
+---
+[documentation index](../README.md) > [SheetMetal](Category:SheetMetal.md) > SheetMetal AddWall/fr

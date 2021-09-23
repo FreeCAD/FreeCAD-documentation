@@ -1,7 +1,4 @@
 # Installing additional components/hr
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -143,3 +140,6 @@ The [ODA File Converter](https://www.opendesign.com/guestfiles/oda_file_converte
 </div>
 
 [Category:User Documentation/hr](Category:User_Documentation/hr.md)
+
+---
+[documentation index](../README.md) > Installing additional components/hr

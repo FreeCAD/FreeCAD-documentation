@@ -6,6 +6,8 @@
    Workbenches:[Path](Path_Workbench/fr.md)
 ---
 
+# Path MillFace/fr
+
 ## Description
 
 L\'outil <img alt="" src=images/Path_MillFace.svg  style="width:24px;"> [Path Surfaçage](Path_MillFace/fr.md) crée une trajectoire pour effectuer une opération de surfaçage sur une surface horizontale. Cette opération est généralement utilisée :
@@ -216,4 +218,7 @@ Exemple :
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path MillFace/fr

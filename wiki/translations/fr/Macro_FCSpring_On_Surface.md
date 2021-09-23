@@ -1,5 +1,5 @@
 # Macro FCSpring On Surface/fr
- {{Macro/fr
+{{Macro/fr
 |Name=Macro FCSpring On Surface
 |Icon=FCSpring_On_Surface.png
 |Description=Cette macro crée une hélice (ou ressort) autour d'un objet solide quelle que soit sa forme, l'hélice suit toute la surface de l'objet (Python2 est demandé)<br />Téléchargez l'[https://www.freecadweb.org/wiki/images/3/38/FCSpring_On_Surface.png icone pour votre barre d'outils]
@@ -620,3 +620,6 @@ MainWindow.show()
 La genèse [Zwei Helix - ein Sweep](https://forum.freecadweb.org/viewtopic.php?f=13&t=41627)
 
 Le code original [How to intersect a line with a part](https://www.forum.freecadweb.org/viewtopic.php?f=22&t=5456#p44194) par wandererfan
+
+---
+[documentation index](../README.md) > Macro FCSpring On Surface/fr

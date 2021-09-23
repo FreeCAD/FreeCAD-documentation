@@ -1,3 +1,4 @@
+# Draft Facebinder/cs
 ---
 - GuiCommand:/cs   Name:Draft_Facebinder   Workbenches:[Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation:Draft → Facebinder   Shortcut:F F---
 
@@ -137,8 +138,5 @@ facebinder.ViewObject.ShapeColor = (0.99, 0.99, 0.4)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Facebinder/cs

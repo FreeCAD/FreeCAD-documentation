@@ -7,6 +7,8 @@
    SeeAlso:[Arch Fermer les trous](Arch_CloseHoles/fr.md)
 ---
 
+# Arch Check/fr
+
 ## Description
 
 Cet outil vérifie le document actif ou les objets sélectionnés pour vérifier des objets non-solides **<img src="images/Workbench_Part.svg" width=16px>[Atelier Part](Part_Workbench/fr.md)** ou **<img src="images/Workbench_Arch.svg" width=16px>[Atelier Arch](Arch_Workbench/fr.md)**, lesquels pourraient créer des problèmes étant donné que la plupart des opérations de l\'ateler Arch nécessitent des objets solides.
@@ -54,11 +56,5 @@ list_bad = Arch.check([Wall1, Wall2, Circle, Wire], includehidden=True)
 print(list_bad)
 ```
 
-
-
-
-
-
-
-
-
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Check/fr

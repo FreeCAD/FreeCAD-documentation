@@ -6,6 +6,8 @@
    MenuLocation:Robot → Ana konum ayarla
 ---
 
+# Robot SetHomePos/tr
+
 
 </div>
 
@@ -48,4 +50,7 @@ Birden fazla robot seçilmediyse, sadece bir robot seçmeniz istenir.
 
 {{Robot_Tools_navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot SetHomePos/tr

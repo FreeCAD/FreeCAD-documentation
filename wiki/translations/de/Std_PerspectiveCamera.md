@@ -8,6 +8,8 @@
    SeeAlso:[Std OrthogonalKamera](Std_OrthographicCamera/de.md)
 ---
 
+# Std PerspectiveCamera/de
+
 ## Beschreibung
 
 Der Befehl **Std PerspectivKamera** schaltet die Kamera in der aktiven [3D Ansicht](3D_view/de.md) in den perspektivischen Ansichtsmodus. In diesem Modus erscheinen Objekte, die weiter von der Kamera entfernt sind, kleiner als solche, die näher sind.
@@ -51,4 +53,7 @@ FreeCADGui.ActiveDocument.ActiveView.getCameraType()
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std PerspectiveCamera/de

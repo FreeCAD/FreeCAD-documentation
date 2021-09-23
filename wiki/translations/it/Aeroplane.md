@@ -1,5 +1,5 @@
 # Aeroplane/it
- {{TutorialInfo/it
+{{TutorialInfo/it
 |Topic=Part
 |Level=Base
 |Time=10 minuti
@@ -150,4 +150,7 @@ Spero che questo piccolo tutorial sia di aiuto per gestire le rotazioni.
 
 {{Tutorials navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Aeroplane/it

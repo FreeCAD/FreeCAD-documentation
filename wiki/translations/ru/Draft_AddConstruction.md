@@ -8,6 +8,8 @@
    Version:0.17
 ---
 
+# Draft AddConstruction/ru
+
 
 </div>
 
@@ -57,5 +59,5 @@ In FreeCAD version 0.19 this command and the [Draft ToggleConstructionMode](Draf
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft AddConstruction/ru

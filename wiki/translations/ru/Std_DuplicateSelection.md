@@ -7,6 +7,8 @@
    SeeAlso:[Вырезать](Std_Cut/ru.md), [Копировать](Std_Copy/ru.md), [Вставить](Std_Paste/ru.md)
 ---
 
+# Std DuplicateSelection/ru
+
 ## Описание
 
 The **Std DuplicateSelection** command duplicates objects within the active document.
@@ -31,4 +33,7 @@ The **Std DuplicateSelection** command duplicates objects within the active docu
 
 {{Std Base navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > Std DuplicateSelection/ru

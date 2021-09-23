@@ -1,7 +1,4 @@
 # About FreeCAD/ko
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -55,3 +52,6 @@ FreeCAD는 열정적인 개발자와 사용자 커뮤니티가 유지하고 개�
 
 
 [Category:User Documentation](Category:User_Documentation.md)
+
+---
+[documentation index](../README.md) > [User Documentation](Category:User Documentation.md) > About FreeCAD/ko

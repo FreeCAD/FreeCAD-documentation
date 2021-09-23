@@ -8,6 +8,8 @@
    SeeAlso:[Ruota a destra](Std_ViewRotateRight/it.md)
 ---
 
+# Std ViewRotateLeft/it
+
 ## Descrizione
 
 Il comando **Ruota a sinistra** ruota la camera nella [vista 3D](3D_view/it.md) attiva intorno alla direzione della vista con incrementi di 90 gradi verso sinistra (in senso antiorario).
@@ -48,4 +50,7 @@ FreeCADGui.ActiveDocument.ActiveView.getCameraOrientation()
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ViewRotateLeft/it

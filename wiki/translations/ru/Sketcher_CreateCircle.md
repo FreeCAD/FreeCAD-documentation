@@ -7,6 +7,8 @@
    SeeAlso:[Создать дугу от центра](Sketcher_CompCreateArc/ru.md)
 ---
 
+# Sketcher CreateCircle/ru
+
 ## Описание
 
 Этот инструмент рисует круг, указывая две точки: центр и точку радиуса. При запуске инструмента указатель мыши меняется на белый крест с красным кружком. Кроме того, координаты отображаются в режиме реального времени.
@@ -24,4 +26,7 @@
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateCircle/ru

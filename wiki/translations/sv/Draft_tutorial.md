@@ -1,7 +1,4 @@
 # Draft tutorial/sv
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -230,4 +227,7 @@ The [Draft Workbench](Draft_Workbench.md) in many ways is similar to the [Sketch
 
 {{Tutorials navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft tutorial/sv

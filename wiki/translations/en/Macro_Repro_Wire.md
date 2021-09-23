@@ -1,5 +1,5 @@
 # Macro Repro Wire/en
- {{Macro
+{{Macro
 |Name=Macro Repro Wire
 |Icon=Macro_ReproWire.png
 |Description=This macro create on duplicate to wire subObject ... selected. (Compatible with Body)<br \>(include in FreeCAD since 0.19 version : Menu → Part → Create a copy) 
@@ -145,6 +145,5 @@ except Exception:
 
 The forum [are there any tools to extrude only selected surface from a sketch?](http://forum.freecadweb.org/viewtopic.php?f=3&t=12922)
 
-
-
-
+---
+[documentation index](../README.md) > Macro Repro Wire/en

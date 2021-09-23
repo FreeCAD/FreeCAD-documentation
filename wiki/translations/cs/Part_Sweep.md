@@ -1,3 +1,4 @@
+# Part Sweep/cs
 ---
 - GuiCommand:/cs   Name:Part Sweep   Name/cs:Part Sweep   MenuLocation:Part → Sweep...   |Workbenches:[SeeAlso:[[Part Loft/cs|Part Loft](Part_Workbench/cs___Part]].md)---
 
@@ -80,8 +81,5 @@ If \"Frenet\" is \"true\" the orientation of the profile is computed basing on l
 
 -   Since Sweep is often used to create threads for screws, you should see [Thread for Screw Tutorial](Thread_for_Screw_Tutorial.md).
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Sweep/cs

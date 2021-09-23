@@ -1,3 +1,4 @@
+# Sketcher ConstrainEqual/ja
 ---
 - GuiCommand:/jp   Name:Constraint EqualLength   Workbenches:[パートデザイン](Sketcher_Workbench/jp___スケッチャー]],_[[PartDesign_Workbench/jp.md)|MenuLocation:Sketch → Sketcher constraints → Constrain equal   SeeAlso:[Constraint Radius](Constraint_Radius/jp.md)---
 
@@ -107,4 +108,7 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainEqual/ja

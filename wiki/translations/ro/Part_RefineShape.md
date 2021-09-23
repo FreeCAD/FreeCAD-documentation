@@ -6,6 +6,8 @@
    SeeAlso:[Part SimpleCopy](Part_SimpleCopy.md), [Part TransformedCopy](Part_TransformedCopy.md), [Part ElementCopy](Part_ElementCopy.md), [OpenSCAD RefineShapeFeature](OpenSCAD_RefineShapeFeature.md)
 ---
 
+# Part RefineShape/ro
+
 
 </div>
 
@@ -113,8 +115,5 @@ The Python command for refining a shape is the following:
 shape.removeSplitter()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part RefineShape/ro

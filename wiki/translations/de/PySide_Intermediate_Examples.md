@@ -1,6 +1,4 @@
 # PySide Intermediate Examples/de
-
-
 ## Einführung
 
 
@@ -760,3 +758,6 @@ These same commands can be executed on a user generated window, the syntax does 
 }} 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > PySide Intermediate Examples/de

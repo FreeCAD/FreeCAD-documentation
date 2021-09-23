@@ -1,6 +1,4 @@
 # Importing From Sketchup/fr
-
-
 ## Meilleure méthode 
 
 
@@ -30,3 +28,6 @@ Collada (\*.dae) et STL sont des formats maillés. Pour utiliser ces fichiers da
 
 
 [Category:Common Questions](Category:Common_Questions.md) [Category:File\_Formats](Category:File_Formats.md)
+
+---
+[documentation index](../README.md) > [Common Questions](Category:Common Questions.md) > Importing From Sketchup/fr

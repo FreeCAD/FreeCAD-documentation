@@ -1,6 +1,4 @@
 # Main view area/pl
-
-
 ## Wprowadzenie
 
 [Główny obszar widoku](Main_view_area/pl.md) to główny widget, który przechowuje pod-okna [interfejsu użytkownika](interface/pl.md). Jest to instancja Qt [QMdiArea](https://doc.qt.io/qt-5/qmdiarea.html).
@@ -19,4 +17,7 @@ Okna w głównym obszarze widoku mogą być zorganizowane za pomocą poleceń zn
 
 {{Interface navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > Main view area/pl

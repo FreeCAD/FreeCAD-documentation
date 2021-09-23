@@ -1,7 +1,4 @@
 # Arch panel tutorial/it
-
-
-
 {{TutorialInfo/it
 |Topic= Modellare un pannello in Arch
 |Level= Base
@@ -198,4 +195,7 @@ Entrambi gli strumenti Ruota e Sposta di Draft usano il sistema di Aggancio di D
 
 {{Tutorials navi
 
-}}   {{Sketcher Tools navi}} 
+}}   {{Sketcher Tools navi}}
+
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch panel tutorial/it

@@ -1,5 +1,5 @@
 # Macro FCInfo/it
- {{Macro/it
+{{Macro/it
 |Name=Macro FCInfo
 |Translate=Infoin scheda
 |Icon=FCInfo.png
@@ -365,6 +365,5 @@ Vedere [Arch Survey](Arch_Survey/it.md) <img alt="Arch Survey" src=images/Arch_S
 Si può commentare questa macro nel forum [Info Workbench - Help with icons please.](http://forum.freecadweb.org/viewtopic.php?f=10&t=3185)
 Qui uno altro post ché parla di [FCInfo Macro](http://forum.freecadweb.org/viewtopic.php?f=8&t=6005)
 
-
-
-
+---
+[documentation index](../README.md) > Macro FCInfo/it

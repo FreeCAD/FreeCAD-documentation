@@ -5,6 +5,8 @@
    Workbenches:[PartDesign](PartDesign_Workbench.md)
 ---
 
+# PartDesign MultiTransform/tr
+
 
 <div class="mw-translate-fuzzy">
 
@@ -153,4 +155,7 @@ When initiated and completed in this way, the **![](images/)_[MultiTransform](P
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign MultiTransform/tr

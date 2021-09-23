@@ -8,6 +8,8 @@
    SeeAlso:[Std Arborescence Document multiple](Std_TreeMultiDocument/fr.md), [Std Arborescence Réduire développer](Std_TreeCollapseDocument/fr.md)
 ---
 
+# Std TreeSingleDocument/fr
+
 ## Description
 
 La commande **Std Document unique** bascule la [vue en arborescence](tree_view/fr.md) du mode Document (DocumentMode) au mode Document unique (SingleDocument). Dans ce mode, un seul document est visible dans l\'arborescence. Les autres modes sont [Arborescence Document multiple](Std_TreeMultiDocument/fr.md) et [Arborescence Réduire développer](Std_TreeCollapseDocument/fr.md).
@@ -30,4 +32,7 @@ Le mode de l\'arborescence est enregistré: **Outils → Editer paramètres... �
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std TreeSingleDocument/fr

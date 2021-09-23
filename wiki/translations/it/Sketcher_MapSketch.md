@@ -1,3 +1,4 @@
+# Sketcher MapSketch/it
 ---
 - GuiCommand:/it   Name:Sketcher MapSketch   Name/it:Mappa Schizzo   Workbenches:[PartDesign](Sketcher_Workbench/it___Sketcher]],_[[PartDesign_Workbench/it.md)|MenuLocation:Part design → Mappa schizzo su faccia   SeeAlso:[Crea nuovo schizzo](Sketcher_NewSketch/it.md)---
 
@@ -76,4 +77,7 @@ Ora selezioniamo la faccia superiore di Pad e quindi selezioniamo lo strumento M
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher MapSketch/it

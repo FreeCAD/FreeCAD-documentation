@@ -7,6 +7,8 @@
    Version:0.17
 ---
 
+# Spreadsheet StyleItalic/it
+
 ## Descrizione
 
 Lo strumento <img alt="" src=images/Spreadsheet_StyleItalic.svg  style="width:16px;"> **Corsivo** fa in modo che il testo all\'interno della cella adotti lo stile *corsivo*.
@@ -23,4 +25,7 @@ Lo strumento <img alt="" src=images/Spreadsheet_StyleItalic.svg  style="width:16
 
 {{Spreadsheet_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet StyleItalic/it

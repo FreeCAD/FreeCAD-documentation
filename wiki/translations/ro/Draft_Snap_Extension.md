@@ -7,6 +7,8 @@
    SeeAlso:[Draft Snap](Draft_Snap/ro.md), [Draft ToggleSnap](Draft_ToggleSnap/ro.md)
 ---
 
+# Draft Snap Extension/ro
+
 
 </div>
 
@@ -44,8 +46,5 @@ For general information about snapping see [Draft Snap](Draft_Snap.md).
 
 See [Draft Snap](Draft_Snap#Preferences.md).
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Extension/ro

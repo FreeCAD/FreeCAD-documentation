@@ -1,7 +1,4 @@
 # Manual:Modeling for product design/it
- 
-
-
 {{Manual:TOC/it}}
 
 [Product design](https://en.wikipedia.org/wiki/Product_design) è in origine un termine commerciale, ma nel mondo 3D, significa spesso modellazione di qualcosa con l\'idea di [stamparlo in 3D](https://en.wikipedia.org/wiki/3D_printing) o, più in generale, prodotto da una macchina, per esempio con una stampante 3D o con una [macchina CNC](https://en.wikipedia.org/wiki/Numerical_control).
@@ -251,3 +248,6 @@ Ma esiste anche il meglio dei due mondi, che è [Assembly2 Workbench](https://gi
 
 
 [Category:Tutorials/it](Category:Tutorials/it.md)
+
+---
+[documentation index](../README.md) > Manual:Modeling for product design/it

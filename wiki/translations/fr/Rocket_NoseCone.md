@@ -7,6 +7,8 @@
    Version:0.19
 ---
 
+# Rocket NoseCone/fr
+
 ## Description
 
 Les coiffes sont de formes et de tailles diverses, dont la plupart sont difficiles à modeler sans programmation. Pour de nombreux constructeurs de fusées, cela rend le processus irréalisable. Cette commande permet de créer des coiffes de fusée en utilisant des propriétés simples combinées à un dialogue de tâches spécialisées.
@@ -133,3 +135,6 @@ A définir
 
 
 [Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+
+---
+[documentation index](../README.md) > [API/fr]] et ](Category:API/fr]] et .md) > Rocket NoseCone/fr

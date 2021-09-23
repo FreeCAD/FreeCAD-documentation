@@ -6,6 +6,8 @@
    Workbenches:[PartDesign](PartDesign_Workbench/fr.md)
 ---
 
+# PartDesign PolarPattern/fr
+
 ## Description
 
 L\'outil *répétition circulaire* prend une fonction sélectionnée et produit à partir de celle-ci un ensemble de copies pivotées autour d\'un axe donné. À partir de la version 0.17, il peut copier plusieurs fonctions.
@@ -129,4 +131,7 @@ Spécifie l\'angle qui sera couvert par la répétition circulaire, ainsi que le
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign PolarPattern/fr

@@ -1,10 +1,4 @@
 # Preferences Editor/pl
-
-
-
-
-
-
 {{TOCright}}
 
 ## Wprowadzenie
@@ -668,3 +662,6 @@ For a scripting example see [Std DlgParameter](Std_DlgParameter.md).
 
 
 [Category:Preferences](Category:Preferences.md)
+
+---
+[documentation index](../README.md) > [Preferences](Category:Preferences.md) > Preferences Editor/pl

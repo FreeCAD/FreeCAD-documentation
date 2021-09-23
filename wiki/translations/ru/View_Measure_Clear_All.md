@@ -7,6 +7,8 @@
    SeeAlso:[View Measure Toggle All](View_Measure_Toggle_All/ru.md), [Part Measure Toggle All](Part_Measure_Toggle_All/ru.md), [Part Measure Clear All](Part_Measure_Clear_All/ru.md)
 ---
 
+# View Measure Clear All/ru
+
 ## Описание
 
 The **View Measure Clear All** command clears the active [3D view](3D_view.md)\'s [Part](Part_Workbench.md) measurements.
@@ -27,4 +29,7 @@ The **View Measure Clear All** command clears the active [3D view](3D_view.md)\'
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > View Measure Clear All/ru

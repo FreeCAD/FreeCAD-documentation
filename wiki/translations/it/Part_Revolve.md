@@ -1,3 +1,4 @@
+# Part Revolve/it
 ---
 - GuiCommand:/it   Name:Part_Revolve   Name/it:Rivoluziona   MenuLocation:Parte → Rivoluziona...   Workbenches:[[Part_Workbench/it   Parte]]|SeeAlso:---
 
@@ -62,5 +63,5 @@ Quando si seleziona un asse definito dall\'utente, i numeri definiscono la direz
 
 </div>
 
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Revolve/it

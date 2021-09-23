@@ -7,6 +7,8 @@
    SeeAlso:[Draft WorkingPlaneProxy](Draft_WorkingPlaneProxy.md)
 ---
 
+# Draft SelectPlane/en
+
 ## Description
 
 The <img alt="" src=images/Draft_SelectPlane.svg  style="width:24px;"> **Draft SelectPlane** command selects the current Draft working plane. This is the plane in the [3D view](3D_view.md) where new [Draft](Draft_Workbench.md) objects are created. A new working plane can be based on one of several [presets](#Usage_with_presets.md) or on a selection. The selection can be created before ([pre-selection](#Usage_with_pre-selection.md)) or after ([post-selection](#Usage_with_post-selection.md)) starting the command.
@@ -132,8 +134,5 @@ projection = my_plane.projectPoint(App.Vector(10, 15, 2))
 print(projection)
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft SelectPlane/en

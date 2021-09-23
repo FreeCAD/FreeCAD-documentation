@@ -7,6 +7,8 @@
    Version:0.19
 ---
 
+# Path Profile/de
+
 ## Beschreibung
 
 The **<img src="images/Path_Profile.svg" width=16px> [Profile](Path_Profile.md)** tool creates a contour operation based on selected features of the model. The tool was introduced in version 0.19. It offers three operations that were handled by separate tools in previous versions.
@@ -290,4 +292,7 @@ Beispiel:
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Profile/de

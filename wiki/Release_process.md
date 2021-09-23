@@ -1,5 +1,4 @@
 # Release process
-
 **'''<big>NOTE: 
 1) THIS PAGE NEEDS TO BE ADAPTED TO FREECAD <br/>
 2) PLEASE DO NOT TRANSLATE THIS PAGE <br/>
@@ -382,3 +381,6 @@ This is a raw list of sites and blogs that have at some point mentioned FreeCAD.
 
 
 [Category:Roadmap](Category:Roadmap.md) [Category:Administration](Category:Administration.md)
+
+---
+[documentation index](../README.md) > Release process

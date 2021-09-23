@@ -6,6 +6,8 @@
    SeeAlso:[Arch SplitMesh](Arch_SplitMesh.md), [Arch MeshToShape](Arch_MeshToShape.md)
 ---
 
+# Arch 3Views/pl
+
 ## Description
 
 
@@ -68,11 +70,5 @@ Wall.ViewObject.Visibility = False
 mesh_obj.ViewObject.Visibility = False
 ```
 
-
-
-
-
-
-
-
-
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch 3Views/pl

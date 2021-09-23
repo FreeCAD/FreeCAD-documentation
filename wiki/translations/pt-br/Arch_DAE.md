@@ -1,7 +1,4 @@
 # Arch DAE/pt-br
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -33,3 +30,6 @@ The Collada import functionality in the Arch workbench depends on [pycollada](ht
  
 
 [Category:File Formats](Category:File_Formats.md)
+
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch DAE/pt-br

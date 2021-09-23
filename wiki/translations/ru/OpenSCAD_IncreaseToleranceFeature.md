@@ -8,6 +8,8 @@
    SeeAlso:---
 ---
 
+# OpenSCAD IncreaseToleranceFeature/ru
+
 
 </div>
 
@@ -29,4 +31,7 @@
 
 {{OpenSCAD_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD IncreaseToleranceFeature/ru

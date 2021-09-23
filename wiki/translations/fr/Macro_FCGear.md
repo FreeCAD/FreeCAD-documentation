@@ -1,5 +1,5 @@
 # Macro FCGear/fr
- **Cette macro a été convertie en atelier appelé [atelier FCGear](FCGear_Workbench/fr.md). Veuillez utiliser l'atelier au lieu de cette macro car il est maintenu.**
+**Cette macro a été convertie en atelier appelé [atelier FCGear](FCGear_Workbench/fr.md). Veuillez utiliser l'atelier au lieu de cette macro car il est maintenu.**
 
 
 {{Macro/fr
@@ -48,6 +48,5 @@ Vous devez ouvrir .Mod en mode administrateur et vous devez donner le
 -   [FCGear](https://github.com/looooo/FCGear)
 -   [Forum topic](http://forum.freecadweb.org/viewtopic.php?f=3&t=12878&start=20)
 
-
-
-
+---
+[documentation index](../README.md) > Macro FCGear/fr

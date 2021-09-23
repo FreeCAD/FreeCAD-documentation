@@ -6,6 +6,8 @@
    SeeAlso:[PartDesign Pocket](PartDesign_Pocket.md)
 ---
 
+# PartDesign Pad/tr
+
 
 <div class="mw-translate-fuzzy">
 
@@ -125,4 +127,7 @@ Reverses the direction of the pad.
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Pad/tr

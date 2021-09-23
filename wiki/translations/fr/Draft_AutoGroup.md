@@ -8,6 +8,8 @@
    SeeAlso:[Draft Calque](Draft_Layer/fr.md), [Std Créer un groupe](Std_Group/fr.md)
 ---
 
+# Draft AutoGroup/fr
+
 ## Description
 
 La commande **Draft Groupement automatique** modifie le [Draft Calque](Draft_Layer/fr.md) actif ou, [éventuellement](#Pr.C3.A9f.C3.A9rences.md), l\'objet actif [Std Groupe](Std_Group/fr.md) ou similaire aux groupes [Arch](Arch_Workbench/fr.md). Les nouveaux objets [Draft](Draft_Workbench/fr.md) et [Arch](Arch_Workbench/fr.md) sont automatiquement placés dans ce calque ou groupe actif.
@@ -70,8 +72,5 @@ Draft.autogroup(polygon3)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft AutoGroup/fr

@@ -7,6 +7,8 @@
    SeeAlso:[Atelier TechDraw](TechDraw_Workbench/fr.md), [Draft Vue 2D d'une forme](Draft_Shape2DView/fr.md)
 ---
 
+# Draft Drawing/fr
+
 
 </div>
 
@@ -62,5 +64,5 @@ This command is now obsolete. Use the [TechDraw Workbench](TechDraw_Workbench.md
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Drawing/fr

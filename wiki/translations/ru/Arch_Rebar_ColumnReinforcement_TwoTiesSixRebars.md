@@ -8,6 +8,8 @@
    Version:0.19
 ---
 
+# Arch Rebar ColumnReinforcement TwoTiesSixRebars/ru
+
 
 </div>
 
@@ -346,3 +348,6 @@ rebar_group = TwoTiesSixRebars.editTwoTiesSixRebars(
  
 
 [Category:Reinforcement](Category:Reinforcement.md)
+
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Rebar ColumnReinforcement TwoTiesSixRebars/ru

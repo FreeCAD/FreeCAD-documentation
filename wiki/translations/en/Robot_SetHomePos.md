@@ -5,6 +5,8 @@
    Workbenches:[Robot](Robot_Workbench.md)
 ---
 
+# Robot SetHomePos/en
+
 ## Description
 
 Sets the current position/orientation of the selected robot as home position.
@@ -26,4 +28,7 @@ Sets the current position/orientation of the selected robot as home position.
 
 {{Robot_Tools_navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot SetHomePos/en

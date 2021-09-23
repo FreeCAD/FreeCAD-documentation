@@ -6,6 +6,8 @@
    Workbenches:[Część](Part_Workbench/pl.md)
 ---
 
+# Part Revolve/pl
+
 ## Opis
 
 Funkcja ta obraca wybrany obiekt tworząc wyciągnięcie wokół wybranej osi. Dozwolone są następujące typy kształtów, które prowadzą do uzyskania kształtów wyjściowych *([Zobacz wskazówki dotyczące wyjątków](#Notes.md))*:
@@ -31,8 +33,5 @@ Jeśli wybierzemy oś zdefiniowaną przez użytkownika, to liczby określają ki
 -   Jeśli Twoja wersja programu FreeCAD w oknie dialogowym **Wyciągnij przez obrót** ma pole wyboru dla bryły, możesz wykonać bryłę z zamkniętych ciągów linii i krawędzi.
 -   Jeśli funkcja **Wyciągnij przez obrót** jest wykonywana przy użyciu osi, która przecina powierzchnię do obracania, a użytkownik chce utworzyć bryłę, wynik może być nieprawidłowy. Może się to zdarzyć z różnych powodów, samoistnego przecięcia, kierunku, itp.
 
-
-
-
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Revolve/pl

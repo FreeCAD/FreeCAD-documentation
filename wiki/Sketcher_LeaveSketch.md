@@ -6,6 +6,8 @@
    SeeAlso:[Sketcher EditSketch](Sketcher_EditSketch.md)
 ---
 
+# Sketcher LeaveSketch
+
 ## Description
 
 The **Leave sketch** command exits the sketch editing mode and frees up the [Task panel](Task_panel.md).
@@ -19,4 +21,7 @@ The **Leave sketch** command exits the sketch editing mode and frees up the [Tas
 
 
 
- {{Sketcher Tools navi}}  
+ {{Sketcher Tools navi}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher LeaveSketch

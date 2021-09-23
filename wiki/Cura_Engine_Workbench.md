@@ -63,3 +63,6 @@ To use do the following:
 -   [Macros recipes](Macros_recipes.md)
 
 [Category:Sandbox](Category:Sandbox.md)
+
+---
+[documentation index](../README.md) > Cura Engine Workbench

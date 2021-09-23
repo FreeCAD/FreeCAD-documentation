@@ -1,7 +1,4 @@
 # FreeCAD-Ship s60 tutorial (II)/fr
-
-
-
 {{TutorialInfo/fr
 |Topic=Ship Workbench
 |Level= Beginner
@@ -296,3 +293,6 @@ Bien entendu, cet exemple n'est pas réel (d'abord, tous les réservoirs de carb
 {{Ship Tools navi
 
 }}
+
+---
+[documentation index](../README.md) > FreeCAD-Ship s60 tutorial (II)/fr

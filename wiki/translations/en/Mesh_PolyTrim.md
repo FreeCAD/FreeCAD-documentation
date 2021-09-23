@@ -6,6 +6,8 @@
    SeeAlso:[Mesh PolyCut](Mesh_PolyCut.md), [Mesh TrimByPlane](Mesh_TrimByPlane.md)
 ---
 
+# Mesh PolyTrim/en
+
 ## Description
 
 The **Mesh PolyTrim** command trims faces and parts of faces from mesh objects.
@@ -45,4 +47,7 @@ The **Mesh PolyTrim** command trims faces and parts of faces from mesh objects.
 
 {{Mesh Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh PolyTrim/en

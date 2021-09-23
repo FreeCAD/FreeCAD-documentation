@@ -8,6 +8,8 @@
    SeeAlso:[Draft Snap](Draft_Snap/ru.md), [Draft ToggleSnap](Draft_Snap_Lock/ru.md)
 ---
 
+# Draft ToggleGrid/ru
+
 
 </div>
 
@@ -49,5 +51,5 @@ See [Draft Snap](Draft_Snap#Preferences.md).
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ToggleGrid/ru

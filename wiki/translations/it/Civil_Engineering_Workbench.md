@@ -1,6 +1,4 @@
 # Civil Engineering Workbench/it
-
-
 ## Descrizione
 
 L\'ingegneria civile è una vasta categoria di ingegneria e copre diversi argomenti, principalmente ambientali (acque reflue), geotecnica, trasporti e strutture. Al momento, l\'obiettivo principale dello sforzo di ingegneria civile in FreeCAD è focalizzato sull\'ingegneria dei trasporti, o più specificamente sulla progettazione in 3D di autostrade.
@@ -33,3 +31,6 @@ Gli strumenti Armatura attualmente sono parte dell\'ambiente [Architettura](Arch
 
 
 [Category:Documentation](Category:Documentation.md) [Category:User Documentation](Category:User_Documentation.md) [Category:Addons](Category:Addons.md)
+
+---
+[documentation index](../README.md) > Civil Engineering Workbench/it

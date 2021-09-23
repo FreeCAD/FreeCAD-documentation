@@ -7,6 +7,8 @@
    SeeAlso:[Reinforcement](Reinforcement_Workbench.md), [Arch Rebar](Arch_Rebar.md), [Arch Rebar ColumnReinforcement TwoTiesSixRebars](Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars.md)
 ---
 
+# Arch Rebar BeamReinforcement
+
 ## Description
 
 The [Beam Reinforcement](Arch_Rebar_BeamReinforcement.md) tool allows the user to create reinforcing bars inside a Beam [Arch Structure](Arch_Structure.md) object.
@@ -416,3 +418,6 @@ RebarGroup = TwoLeggedBeam.makeReinforcement(
   
 
 [Category:Reinforcement](Category:Reinforcement.md)
+
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Rebar BeamReinforcement

@@ -1,5 +1,5 @@
 # Macro ObjectInfo/de
- {{Macro/de
+{{Macro/de
 |Name=Macro ObjectInfo
 |Translate=Macro ObjectInfo
 |Description=Liefert Informationen zum ausgewählten Objekt.
@@ -48,6 +48,5 @@ Ein FreeCAD-Benutzer hat ein benutzerfreundliches \"Info\" Modul erstellt, das S
 
 Vom Forum [Info Workbench - Help with icons please.](http://forum.freecadweb.org/viewtopic.php?f=10&t=3185)
 
-
-
-
+---
+[documentation index](../README.md) > Macro ObjectInfo/de

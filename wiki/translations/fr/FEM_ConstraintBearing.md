@@ -7,6 +7,8 @@
    SeeAlso:[FEM Contrainte d'engrenage](FEM_ConstraintGear/fr.md), [FEM Contrainte de poulie](FEM_ConstraintPulley/fr.md)
 ---
 
+# FEM ConstraintBearing/fr
+
 ## Description
 
 non supporté par l\'interface CalculiX !
@@ -25,4 +27,7 @@ non supporté par l\'interface CalculiX !
 
 {{FEM Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > FEM ConstraintBearing/fr

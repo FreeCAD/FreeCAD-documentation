@@ -1,3 +1,4 @@
+# Draft Arc/cs
 ---
 - GuiCommand:/cs   Name:Draft_Arc   Name/cs:Kreslení oblouk   Workbenches:[Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation:Kreslení → Oblouk   Shortcut:A R   SeeAlso:[Kreslení kružnice](Draft_Circle/cs.md)---
 
@@ -119,8 +120,5 @@ arc3 = Draft.make_circle(750, startangle=-30, endangle=-150)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Arc/cs

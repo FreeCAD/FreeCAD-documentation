@@ -7,6 +7,8 @@
    SeeAlso:
 ---
 
+# Fasteners ChangeParameters
+
 ## Description
 
 The <img alt="" src=images/Fasteners_ChangeParameters.svg  style="width:24px;"> [Fasteners ChangeParameters](Fasteners_ChangeParameters.md) lorem ipsum dolor sit amet, consectetur adipiscing. This tool is part of the [external workbench](external_workbenches.md) called [Fasteners](Fasteners_Workbench.md).
@@ -43,3 +45,6 @@ Result: lorem ipsum dolor sit amet, consectetur adipiscing.
  {{Fasteners Tools navi}} 
 
 [Category:External Command Reference](Category:External_Command_Reference.md)
+
+---
+[documentation index](../README.md) > [External Command Reference](Category:External Command Reference.md) > Fasteners ChangeParameters

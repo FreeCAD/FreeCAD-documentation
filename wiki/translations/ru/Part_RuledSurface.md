@@ -7,6 +7,8 @@
    SeeAlso:[Создать грань из ломанных](Part_MakeFace/ru.md)
 ---
 
+# Part RuledSurface/ru
+
 
 </div>
 
@@ -22,8 +24,5 @@
     -   Нажмите кнопку <img alt="" src=images/Part_RuledSurface.svg  style="width:24px;"> [Линейчатая поверхность](Part_RuledSurface/ru.md)
     -   Используйте пункт **Деталь → Создать линейчатую поверхность** в меню детали
 
-
-
-
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part RuledSurface/ru

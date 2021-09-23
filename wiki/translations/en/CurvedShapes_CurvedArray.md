@@ -7,6 +7,8 @@
    SeeAlso:
 ---
 
+# CurvedShapes CurvedArray/en
+
 ## Description
 
 Creates an array and resizes the items in the bounds of one or more hull curves. In this example, the orange base shape is rescaled in the bounds of the red and violet hullcurves. The curves do not have to be connected. The hullcurves should lie on or parallel to the XY- XZ- or YZ- plane.
@@ -56,3 +58,6 @@ Creates an array and resizes the items in the bounds of one or more hull curves.
 
 
 [Category:Name](Category:Name.md) [Category:External Command Reference](Category:External_Command_Reference.md)
+
+---
+[documentation index](../README.md) > [Name](Category:Name.md) > CurvedShapes CurvedArray/en

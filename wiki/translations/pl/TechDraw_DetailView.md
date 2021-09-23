@@ -6,6 +6,8 @@
    SeeAlso:[TechDraw View](TechDraw_View.md), [TechDraw Projection Group](TechDraw_ProjectionGroup.md)
 ---
 
+# TechDraw DetailView/pl
+
 ## Description
 
 The Detail tool creates a view of small area of an existing view.
@@ -87,4 +89,7 @@ This is done by putting the Detail view into a [clip group](TechDraw_ClipGroup.m
 
 {{TechDraw Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw DetailView/pl

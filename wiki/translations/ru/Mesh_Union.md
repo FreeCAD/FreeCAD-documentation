@@ -8,6 +8,8 @@
    SeeAlso:[Объединить](Mesh_Merge/ru.md)
 ---
 
+# Mesh Union/ru
+
 
 </div>
 
@@ -36,4 +38,7 @@ See: [Mesh Feature](Mesh_Feature.md).
 
 {{Mesh Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Union/ru

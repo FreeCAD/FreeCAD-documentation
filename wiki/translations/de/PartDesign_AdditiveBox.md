@@ -8,6 +8,8 @@
    SeeAlso:[PartDesign Additives Grundelement](PartDesign_CompPrimitiveAdditive/de.md)
 ---
 
+# PartDesign AdditiveBox/de
+
 ## Beschreibung
 
 Fügt einen einfachen Quader in den aktiven Körper (body) als Basisformelement ein oder vereinigt ihn mit den bereits bestehenden Formelementen.
@@ -46,4 +48,7 @@ Der Quader kann auf zwei verschiedene Weisen bearbeitet werden:
 
 {{PartDesign Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveBox/de

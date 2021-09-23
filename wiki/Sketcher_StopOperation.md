@@ -5,6 +5,8 @@
    MenuLocation:Sketch → Stop operation
 ---
 
+# Sketcher StopOperation
+
 ## Description
 
 
@@ -21,4 +23,7 @@ This is similar to pressing the **Esc** key.
 3.  Click on **<img src=images/Sketcher_StopOperation.svg style="width:16px"> <img src=images/Sketcher_StopOperation.svg style="width:Stop operation](Sketcher_StopOperation.md)** or choose **Sketch → [16px"> [Stop operation](Sketcher_StopOperation.md)** from the top menu.
 4.  The tool is deactivated and the pointer returns to being a simple pointer.
 
- {{Sketcher Tools navi}}  
+ {{Sketcher Tools navi}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher StopOperation

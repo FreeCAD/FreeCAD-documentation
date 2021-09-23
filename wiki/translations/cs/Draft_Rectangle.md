@@ -1,3 +1,4 @@
+# Draft Rectangle/cs
 ---
 - GuiCommand:/cs   Name:Draft Rectangle   Name/cs:Draft Rectangle   Workbenches:[Architecture](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation:Draft -> Rectangle   Shortcut:R E   SeeAlso:[Part Box](Part_Box/cs.md)---
 
@@ -180,8 +181,5 @@ rectangle3 = Draft.make_rectangle(3500, 250, placement=place3)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Rectangle/cs

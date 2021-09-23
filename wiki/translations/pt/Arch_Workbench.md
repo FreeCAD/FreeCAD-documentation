@@ -1,7 +1,4 @@
 # Arch Workbench/pt
-
-
-
 {{docnav/pt|[Workbenches/pt](Workbenches/pt.md)|[Draft Workbench/pt](Draft_Workbench/pt.md)|IconL=|IconR=Workbench_Draft.svg}}
 
 <img alt="Arch workbench icon" src=images/Workbench_Arch.svg  style="width:128px;">
@@ -135,3 +132,6 @@ O módulo Arch (Arquitetura) pode ser usado em scripts python e [ macros](macros
  
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Arch Workbench/pt

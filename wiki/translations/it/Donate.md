@@ -1,7 +1,4 @@
 # Donate/it
-
-
-
 <div id="Donate" style="text-align:center; font-size:150%; background:#dfeee0;margin:1em 7em;padding:0.5em 2em;border:2px solid #226622;">
 
 Donazione rapida: <img alt="" src=images/Liberapay_logo.svg  style="width:24px;"> [Conto del team FreeCAD](https://liberapay.com/FreeCAD)
@@ -46,5 +43,5 @@ C\'è anche il problema che non abbiamo una struttura (fondazione, associazione,
 
 Questo è il tempo del finanziamento collettivo (inglese: crowdfunding), dove tutti i tipi di progetti e idee possono a volte raccogliere molto denaro e interesse. Perché non inventare qualcosa di nuovo che potrebbe essere fatto per FreeCAD con i soldi, o aiutare a trovare soluzioni migliori? Sentiti libero di discuterne sul forum, [A proposito di finanziamenti e tutto il resto](http://forum.freecadweb.org/viewtopic.php?f=8&t=12242).
 
-
-
+---
+[documentation index](../README.md) > Donate/it

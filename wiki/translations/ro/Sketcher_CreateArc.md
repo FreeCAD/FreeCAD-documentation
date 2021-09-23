@@ -7,6 +7,8 @@
    SeeAlso:[Sketcher Circle](Sketcher_CompCreateCircle/ro.md)
 ---
 
+# Sketcher CreateArc/ro
+
 
 </div>
 
@@ -41,4 +43,7 @@ Când este activat acest instrument, indicatorul mouse-ului se transformă într
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateArc/ro

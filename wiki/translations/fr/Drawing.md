@@ -1,6 +1,4 @@
 # Drawing/fr
-
-
 ## Introduction
 
 Dans FreeCAD, le mot \"[Drawing](Drawing/fr.md)\" est normalement utilisé pour faire référence à une projection 2D d\'un [modèle 3D](model/fr.md). Ceci est généralement créé avec l\'[atelier TechDraw](TechDraw_Workbench/fr.md).
@@ -31,3 +29,6 @@ Cependant, lorsque plus de précision est requise, la distinction doit être fai
 }} {{Document objects navi}} 
 
 [Category:Glossary](Category:Glossary.md)
+
+---
+[documentation index](../README.md) > [Glossary](Category:Glossary.md) > Drawing/fr

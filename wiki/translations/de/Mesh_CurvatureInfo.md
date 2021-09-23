@@ -7,6 +7,8 @@
    SeeAlso:[Netz KnotenKrümmung](Mesh_VertexCurvature/de.md)
 ---
 
+# Mesh CurvatureInfo/de
+
 ## Beschreibung
 
 Der **Netz KrümmungsInfo** Befehl zeigt die absolute Krümmung von [Krümmungsobjekten](Mesh_VertexCurvature/de.md) an ausgewählten Punkten an.
@@ -30,4 +32,7 @@ Der **Netz KrümmungsInfo** Befehl zeigt die absolute Krümmung von [Krümmungso
 
 {{Mesh Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh CurvatureInfo/de

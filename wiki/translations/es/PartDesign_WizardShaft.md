@@ -5,6 +5,8 @@
    Workbenches:[DiseñoPiezas](PartDesign_Workbench/es.md)
 ---
 
+# PartDesign WizardShaft/es
+
 ## Descripción
 
 Esta herramienta permite crear un árbol a partir de una tabla de valores y analizar las fuerzas y los momentos. Puede iniciar el asistente desde el menú Diseño de la pieza **DiseñoPieza → <img src=images/PartDesign_WizardShaft.svg style="width:20px"> Asistente Diseño Ejes...**.
@@ -66,4 +68,7 @@ Para añadir un nuevo segmento de eje, pulsa con el botón derecho en un espacio
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign WizardShaft/es

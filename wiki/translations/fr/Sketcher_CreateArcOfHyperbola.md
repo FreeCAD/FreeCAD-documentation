@@ -8,6 +8,8 @@
    SeeAlso:[Sketcher Arc d'ellipse](Sketcher_CreateArcOfEllipse/fr.md), [Sketcher Arc de parabole](Sketcher_CreateArcOfParabola/fr.md)
 ---
 
+# Sketcher CreateArcOfHyperbola/fr
+
 ## Description
 
 Cet outil créé un arc d\'hyperbole par son centre, son rayon majeur et les points d\'extrémités.
@@ -28,4 +30,7 @@ Cet outil créé un arc d\'hyperbole par son centre, son rayon majeur et les poi
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateArcOfHyperbola/fr

@@ -1,5 +1,5 @@
 # Crowdin Scripts/pl
- {{TOCright}}
+{{TOCright}}
 
 ## Zarządzanie Tłumaczeniami w programie FreeCAD 
 
@@ -91,3 +91,6 @@ Skrypt updatefromcrowdin.py ściąga zmiany z Crowdin do twojego lokalnego katal
 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Administration](Category:Administration.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Crowdin Scripts/pl

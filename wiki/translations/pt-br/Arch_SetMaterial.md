@@ -7,6 +7,8 @@
    SeeAlso:[Arch CompSetMaterial](Arch_CompSetMaterial.md), [Arch MultiMaterial](Arch_MultiMaterial.md)
 ---
 
+# Arch SetMaterial/pt-br
+
 ## Descrição
 
 The Material tools allows to add [materials](Material.md) to the active document, and attribute a material to an [Arch](Arch_Workbench.md) object. Materials can all the properties of a certain material, and control the color of the object to which it is attached. Materials are stored into a **Materials** folder in the active document.
@@ -53,5 +55,5 @@ This roughly corresponds to [IfcMaterial](https://standards.buildingsmart.org/IF
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SetMaterial/pt-br

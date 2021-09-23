@@ -1,3 +1,4 @@
+# Part Revolve/es
 ---
 - GuiCommand:/es   Name:Part_Revolve   MenuLocation:Part → Revolve   Workbenches:[[Part_Workbench/es   Pieza]], Completo|SeeAlso:---
 
@@ -63,8 +64,5 @@ Si seleccionas un eje definido por el usuario, los números definen la direcció
 -   If your version of FreeCAD has a check box for Solid in the Revolve dialog, you can make Solids from closed Wires and Edges.
 -   If Revolve is performed using an axis that intersects the face to rotate, and you want to create a solid, the result might be invalid. This can happen for various reasons, self-intersection, direction, etc.
 
-
-
-
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Revolve/es

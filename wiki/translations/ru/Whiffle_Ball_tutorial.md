@@ -1,5 +1,5 @@
 # Whiffle Ball tutorial/ru
- {{TutorialInfo/ru
+{{TutorialInfo/ru
 |Topic=Разработка продукта
 |Level=Начинающий
 |Time=30 минут
@@ -252,4 +252,7 @@
 
 {{Tutorials navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Whiffle Ball tutorial/ru

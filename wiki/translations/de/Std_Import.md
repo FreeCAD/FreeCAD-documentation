@@ -8,6 +8,8 @@
    SeeAlso:[Std Öffnen](Std_Open/de.md), [Import Export](Import_Export/de.md), [Import Export Einstellungen](Import_Export_Preferences/de.md)
 ---
 
+# Std Import/de
+
 ## Beschreibung
 
 Der Befehl **Std Import** importiert Geometrie aus einem anderen Dateiformat in das aktive Dokument. Es werden viele Dateiformate unterstützt und für einige Formate gibt es mehrere Importoptionen. Siehe [Import Export](Import_Export/de.md) für weitere Informationen.
@@ -46,3 +48,6 @@ Der Befehl **Std Import** importiert Geometrie aus einem anderen Dateiformat in 
 }}  
 
 [Category:File\_Formats](Category:File_Formats.md)
+
+---
+[documentation index](../README.md) > [File_Formats](Category:File_Formats.md) > Std Import/de

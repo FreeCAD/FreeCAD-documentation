@@ -1,7 +1,4 @@
 # Path experimental/fr
-
-
-
 {{TOCright}}
 
 ## Description
@@ -41,3 +38,6 @@ En savoir plus sur les commandes expérimentales spécifiques sur les [pages du 
  {{Path Tools navi}} 
 
 [Category:Poweruser Documentation](Category:Poweruser_Documentation.md)
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path experimental/fr

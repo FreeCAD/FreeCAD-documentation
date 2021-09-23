@@ -7,6 +7,8 @@
    SeeAlso:[Croquizador Círculo](Sketcher_CompCreateCircle/es.md)
 ---
 
+# Sketcher CreateArc/es
+
 ## Descripción
 
 Esta herramienta dibuja arcos indicando tres puntos: el centro, el ángulo inicial a lo largo del radio, y el radio final.
@@ -26,4 +28,7 @@ Cuando se inicia la herramienta, el puntero del ratón cambia a una cruz blanca 
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateArc/es

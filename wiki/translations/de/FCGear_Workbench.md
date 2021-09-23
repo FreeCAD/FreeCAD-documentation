@@ -1,5 +1,4 @@
-# FCGear Workbench/de
- <img alt="Symbol Externer Arbeitsbereich FCZahnrad" src=images/FCGear_workbench_icon.svg  style="width:128px;">
+# <img alt="Symbol Externer Arbeitsbereich FCZahnrad" src=images/FCGear_workbench_icon.svg  style="width:64px;"> FCGear Workbench/de
 
 ## Einführung
 
@@ -164,3 +163,6 @@ Siehe Anweisungen für Linux oben
 
 
 [Category:External Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md) [Category:FCGear](Category:FCGear.md)
+
+---
+[documentation index](../README.md) > FCGear Workbench/de

@@ -7,6 +7,8 @@
    Shortcut:**Ctrl**+**D**
 ---
 
+# Std SetAppearance/it
+
 
 </div>
 
@@ -99,4 +101,7 @@ Imposta lo stile di disegno. Il menu a discesa offre 4 opzioni:
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std SetAppearance/it

@@ -7,6 +7,8 @@
    MenuLocation:Drawing → Project shape
 ---
 
+# Drawing ProjectShape/de
+
 ## Description
 
 This tool creates a projection of the selected object (Source) in the 3D view.
@@ -106,4 +108,7 @@ This tool creates a projection of the selected object (Source) in the 3D view.
 
 {{Drawing Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing ProjectShape/de

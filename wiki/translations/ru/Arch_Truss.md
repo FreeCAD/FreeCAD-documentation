@@ -7,6 +7,8 @@
    Version:0.19
 ---
 
+# Arch Truss/ru
+
 ## Описание
 
 The [Arch Truss](Arch_Truss.md) tool builds a [truss](https://en.wikipedia.org/wiki/Truss) object, either from a selected linear object (lie a [Draft Line](Draft_Line.md) or [Sketch](Sketcher_NewSketch.md)), or from scratch, if no object is selected when launching the command.
@@ -90,8 +92,5 @@ truss.HeightEnd = 400
 # adjust other needed properties
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Truss/ru

@@ -1,7 +1,4 @@
-# Inspection Workbench/pt-br
- 
-
-<img alt="Inspection workbench icon" src=images/Workbench_Inspection.svg  style="width:128px;">
+# <img alt="Inspection workbench icon" src=images/Workbench_Inspection.svg  style="width:64px;"> Inspection Workbench/pt-br
 
 
 <div class="mw-translate-fuzzy">
@@ -45,3 +42,6 @@ Alternativamente, use a macro <img alt="" src=images/HighlightDifference.png  st
 
 
 [Category:Inspection](Category:Inspection.md) [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Inspection Workbench/pt-br

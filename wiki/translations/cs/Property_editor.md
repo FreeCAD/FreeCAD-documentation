@@ -1,10 +1,4 @@
 # Property editor/cs
-
-
-
-
-
-
 {{TOCright}}
 
 
@@ -298,4 +292,7 @@ print(obj.ViewObject.PropertiesList)
 
 {{Interface navi
 
-}} {{Std Base navi}} 
+}} {{Std Base navi}}
+
+---
+[documentation index](../README.md) > Property editor/cs

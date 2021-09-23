@@ -1,5 +1,5 @@
 # Macro Mouse Cross/cs
- {{Macro/cs
+{{Macro/cs
 |Name=Macro_Mouse_Cross
 |Icon=Macro_Mouse_Cross.png
 |Translate=Macro Mouse Cross
@@ -211,3 +211,6 @@ Kurzor může měnit vzhled v závislosti na používané pracovní ploše, mus�
 Kurzor může být nahrazen jiným posuvníkem (např. rozšíření okna, rohu, \...).
 Mřížka je permanentní.
 Zbytek rezidentního makra.
+
+---
+[documentation index](../README.md) > Macro Mouse Cross/cs

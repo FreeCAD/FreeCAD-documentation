@@ -1,5 +1,5 @@
 # Macro MatrixTransform
-  {{Macro
+{{Macro
 |Name=MatrixTransform
 |Icon=Macro_MatrixTransform.png
 |Description=Applies linear transformation to a shape, defined by a 3x3 matrix. It is possible to: apply non-linear scaling to a shape, shear a shape, rotate a shape.<br/>{{ColoredText|#ff0000|#ffff00|This macro is composed of 2 macro: '''MatrixTransform.FCMacro''' (launcher) and '''MatrixTransform.py''' (executor).}}<br/>The '''.FCMacro''' is installed with AddonManager you must install the '''.py''' macro manually.<br/>Link of th two macros:<br/>[https://github.com/DeepSOIC/FreeCAD-Macros/raw/master/MatrixTransform/MatrixTransform.FCMacro MatrixTransform.FCMacro] (launcher)<br/>[https://github.com/DeepSOIC/FreeCAD-Macros/raw/master/MatrixTransform/MatrixTransform.py MatrixTransform.py] (executor)
@@ -308,3 +308,6 @@ MatrixTransform.FCMacro:
 import MatrixTransform
 MatrixTransform.run()
 ```
+
+---
+[documentation index](../README.md) > Macro MatrixTransform

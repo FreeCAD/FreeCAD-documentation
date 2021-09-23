@@ -7,6 +7,8 @@
    SeeAlso:[FEM tutorial](FEM_tutorial.md)
 ---
 
+# FEM ElementGeometry1D/pt-br
+
 ## Descrição
 
 ElementGeometry1D is used to define cross sections for beam elements. Currently the following types of cross sections are available: rectangular, circular and pipe.
@@ -46,4 +48,7 @@ ElementGeometry1D is used to define cross sections for beam elements. Currently 
 
 {{FEM Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > FEM ElementGeometry1D/pt-br

@@ -8,6 +8,8 @@
    SeeAlso:[Draft AnmerkungsStilEditor](Draft_AnnotationStyleEditor/de.md), [Draft AktuellenStilAnwenden](Draft_ApplyStyle/de.md)
 ---
 
+# Draft SetStyle/de
+
 ## Beschreibung
 
 Der <img alt="" src=images/Draft_SetStyle.svg  style="width:24px;"> **Draft StilFestlegen**-Befehl legt die Standardstilvorgaben für neue Objekte fest.
@@ -139,8 +141,5 @@ Die folgenden Einstellungen sind betroffen:
 -   Einheit anzeigen: **Bearbeiten → Einstellungen... → Draft → Texte und Bemaßungen → Bemaßungseinstellungen → Zeige Maße mit Maßeinheiten an**.
 -   Einheit überschreiben: **Bearbeiten → Einstellungen... → Draft → Texte und Bemaßungen → Bemaßungseinstellungen → Einheit überschreiben**.
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft SetStyle/de

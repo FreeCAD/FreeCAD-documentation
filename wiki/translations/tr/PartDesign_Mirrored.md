@@ -5,6 +5,8 @@
    Workbenches:[PartDesign](PartDesign_Workbench.md)
 ---
 
+# PartDesign Mirrored/tr
+
 ## Tanım
 
 The **Mirrored** tool mirrors features on a plane.
@@ -80,4 +82,7 @@ The mirror result can be previewed in real time before clicking **OK** by checki
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Mirrored/tr

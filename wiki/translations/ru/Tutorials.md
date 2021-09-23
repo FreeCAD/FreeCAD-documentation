@@ -1,10 +1,4 @@
 # Tutorials/ru
-
-
-
-
-
-
 {{TOCright}}
 
 На этой странице представлен набор высококачественных письменных руководств. Полный, несортированный список учебных пособий на английском языке можно найти в [:Category:Tutorials](:Category:Tutorials.md), на русском языке в [:Category:Tutorials/ru](:Category:Tutorials/ru.md), полный и сортируемый список - в [таблице ниже](Tutorials/ru#Учебники_-_Полный_список.md).     Так же посетите [video tutorials](Video_tutorials/ru.md) и [offsite tutorials](Offsite_tutorials/ru.md) ради обучающих программ, размещенных на внешних сайтах. Полезным источником видеоуроков является [YouTube](https://YouTube.com).
@@ -375,3 +369,6 @@ Drawing\_tutorial\_result.png\|link=[Drawing tutorial/ru](Drawing_tutorial/ru.md
 
 
 [Category:Tutorials](Category:Tutorials.md)
+
+---
+[documentation index](../README.md) > [Tutorials]], на русском языке в ](Category:Tutorials]], на русском языке в .md) > Tutorials/ru

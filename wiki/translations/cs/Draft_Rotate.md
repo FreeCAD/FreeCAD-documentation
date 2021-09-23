@@ -1,3 +1,4 @@
+# Draft Rotate/cs
 ---
 - GuiCommand:/cs   Name:Draft Rotate   Name/cs:Kreslení Otočit   Workbenches:[Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation:Kreslení → Otočit   Shortcut:R O---
 
@@ -140,8 +141,5 @@ rot_list4 = Draft.rotate(list2, 4*angle2, center=cen, copy=True)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Rotate/cs

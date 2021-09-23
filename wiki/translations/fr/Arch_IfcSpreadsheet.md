@@ -8,6 +8,8 @@
    SeeAlso:[Arch IFC](Arch_IFC/fr.md), [Arch Explorateur Ifc](Arch_IfcExplorer/fr.md)
 ---
 
+# Arch IfcSpreadsheet/fr
+
 ## Description
 
 Cet outil crée une feuille de calcul pour stocker les propriétés [IFC](Arch_IFC/fr.md) d\'un objet.
@@ -45,8 +47,5 @@ FreeCAD.ActiveDocument.recompute()
 spreadsheet = Arch.makeIfcSpreadsheet(Wall)
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch IfcSpreadsheet/fr

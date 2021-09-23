@@ -8,6 +8,8 @@
    SeeAlso:[Создать субтрактивный примитив](PartDesign_CompPrimitiveSubtractive/ru.md), [Аддитивный клин](PartDesign_AdditiveWedge/ru.md)
 ---
 
+# PartDesign SubtractiveWedge/ru
+
 ## Описание
 
 Inserts a subtractive wedge in the active Body. Its shape is subtracted from the existing solid.
@@ -52,4 +54,7 @@ Wedges can be used to create pyramids by setting **X2 min/max** and **Z2 min/max
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveWedge/ru

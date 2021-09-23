@@ -1,7 +1,4 @@
 # Tutorial for open windows/de
-
-
-
 {{TutorialInfo/de
 |Topic=Architektur
 |Level=Anfänger
@@ -246,4 +243,7 @@ Für zukünftige FreeCAD-Versionen ist eine engere Interaktion zwischen beiden A
 
 {{Tutorials navi
 
-}}   {{TechDraw Tools navi}} 
+}}   {{TechDraw Tools navi}}
+
+---
+[documentation index](../README.md) > [Arch](Category:Arch.md) > Tutorial for open windows/de

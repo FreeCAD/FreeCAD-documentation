@@ -7,6 +7,8 @@
    SeeAlso:[Part Scheibe](Part_Slice/de.md), [Part XOR](Part_XOR/de.md), [Part Fügefunktionen](Part_CompJoin_Features/de.md), [Part Boolesche](Part_Boolean/de.md)
 ---
 
+# Part BooleanFragments/de
+
 ## Beschreibung
 
 Werkzeug zum Berechnen aller Fragmente, die sich aus der Anwendung boolescher Operationen zwischen Eingabeformen ergeben können. So werden beispielsweise für zwei sich schneidende Kugeln drei nicht überlappende, aber berührende Festkörper erzeugt.
@@ -87,8 +89,5 @@ Das Werkzeug selbst ist in Python implementiert, siehe /Mod/Part/BOPTools/SplitF
 
 Das Werkzeug wurde in FreeCAD v0.17.8053 eingeführt. FreeCAD muss mit OCC 6.9.0 oder höher kompiliert werden, da das Werkzeug sonst nicht verfügbar ist.
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part BooleanFragments/de

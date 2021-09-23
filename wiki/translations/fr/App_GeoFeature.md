@@ -1,6 +1,4 @@
 # App GeoFeature/fr
-
-
 ## Introduction
 
 <img alt="" src=images/Feature.svg  style="width:32px;">
@@ -144,4 +142,7 @@ Par exemple, l\'élément [Arch Partie de bâtiment](Arch_BuildingPart/fr.md) de
 
 {{Document objects navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > App GeoFeature/fr

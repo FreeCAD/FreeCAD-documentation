@@ -1,6 +1,4 @@
 # Constraint/it
-
-
 ## Introduzione
 
 
@@ -46,3 +44,6 @@ Per un elenco di tutti i vincoli che possono essere applicati vedere le informaz
 }} {{Document objects navi}} 
 
 [Category:Glossary](Category:Glossary.md)
+
+---
+[documentation index](../README.md) > [Glossary](Category:Glossary.md) > Constraint/it

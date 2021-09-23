@@ -1,3 +1,4 @@
+# Part Section/sv
 ---
 - GuiCommand:/sv   Name:Part Section   Name/sv:Part Section   MenuLocation:Part → Section   Workbenches:[[Part_Workbench/sv   Part]], Complete|SeeAlso:---
 
@@ -28,8 +29,5 @@ In this example, a cube is sectioned with a cylinder:
 
 To create sections with a section plane see <img alt="" src=images/Part_CrossSections.svg  style="width:24px;"> [Cross-sections](Part_CrossSections.md).
 
-
-
-
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Section/sv

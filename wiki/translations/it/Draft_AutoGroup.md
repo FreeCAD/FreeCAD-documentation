@@ -8,6 +8,8 @@
    SeeAlso:[Gruppo](Std_Group/it.md), [VisGroup](Draft_VisGroup/it.md)
 ---
 
+# Draft AutoGroup/it
+
 
 </div>
 
@@ -123,5 +125,5 @@ doc.recompute()
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft AutoGroup/it

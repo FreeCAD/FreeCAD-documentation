@@ -1,10 +1,4 @@
-# Mesh Workbench/de
-
-
-
-
-
-<img alt="Polygonnetz Arbeitsbereichssymbol" src=images/Workbench_Mesh.svg  style="width:128px;">
+# <img alt="Polygonnetz Arbeitsbereichssymbol" src=images/Workbench_Mesh.svg  style="width:64px;"> Mesh Workbench/de
 
 
 {{TOCright}}
@@ -111,3 +105,6 @@ Netz Arbeitsbereichseinstellungen können in den folgenden Kategorien des [Prefe
 }} 
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Mesh Workbench/de

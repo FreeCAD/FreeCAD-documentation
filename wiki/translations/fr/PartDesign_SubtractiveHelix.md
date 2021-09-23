@@ -8,6 +8,8 @@
    SeeAlso:[PartDesign Hélice additive](PartDesign_AdditiveHelix/fr.md)
 ---
 
+# PartDesign SubtractiveHelix/fr
+
 ## Description
 
 L\'outil **Hélice soustractive** modifie un solide en balayant une esquisse ou un objet 2D sélectionné le long d\'une trajectoire d\'hélice et le soustrayant au matériau.
@@ -123,4 +125,7 @@ Si coché, l\'hélice sera affichée dans la vue et la mise à jour sera automat
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveHelix/fr

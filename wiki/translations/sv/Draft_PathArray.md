@@ -1,3 +1,4 @@
+# Draft PathArray/sv
 ---
 - GuiCommand:/sv   Name:Draft PathArray   Name/sv:Draft PathArray   Workbenches:[Arch](Draft_Workbench/sv___Draft]],_[[Arch_Workbench/sv.md)|MenuLocation:Draft → PathArray   SeeAlso:[Draft Array](Draft_Array/sv.md) ---
 
@@ -263,8 +264,5 @@ path_array2 = Draft.make_path_array(obj, wire, count=3, extra=App.Vector(0, -500
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft PathArray/sv

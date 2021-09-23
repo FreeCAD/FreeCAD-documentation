@@ -57,3 +57,6 @@ Il existe une autre table des matières pour le [Système d\'aide en ligne de Fr
 
 
 [Category:Manual](Category:Manual.md)
+
+---
+[documentation index](../README.md) > [Manual](Category:Manual.md) > Manual:Summary/fr

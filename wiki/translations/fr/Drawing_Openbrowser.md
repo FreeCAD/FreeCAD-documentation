@@ -1,3 +1,4 @@
+# Drawing Openbrowser/fr
 ---
 - GuiCommand:/fr   Name:Drawing Openbrowser   Name/fr:Vue Web   Workbenches:[[Drawing Workbench/fr   Dessin]], Complet|MenuLocation:Mise en plan → Vue Web    Raccourci:aucun---
 
@@ -35,4 +36,7 @@ Cette commande vous permet d\'afficher une [Feuille A3 paysage](Drawing_Landscap
 
 {{Drawing Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Openbrowser/fr

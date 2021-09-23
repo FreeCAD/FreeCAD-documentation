@@ -1,5 +1,5 @@
 # Macro Guitar fretboard/it
- {{Macro/it
+{{Macro/it
 |Name=Macro Guitar fretboard
 |Icon=Macro_Guitar_fretboard.png
 |Translate=Tastiera per chitarra
@@ -744,3 +744,6 @@ class Fretboard():
 -   Version 0.1 : 2012-03-16
 -   Version 0.2 : 2018-01-25 : convert to PySide
 -   Version 0.4 : 2020-01-09 : major refactor to add multiscale frets and zero fret
+
+---
+[documentation index](../README.md) > Macro Guitar fretboard/it

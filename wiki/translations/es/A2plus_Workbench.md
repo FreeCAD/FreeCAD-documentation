@@ -1,5 +1,4 @@
-# A2plus Workbench/es
- <img alt="El icono del Ambiente de trabajo A2plus" src=images/A2p_workbench.svg  style="width:128px;">
+# <img alt="El icono del Ambiente de trabajo A2plus" src=images/A2p_workbench.svg  style="width:64px;"> A2plus Workbench/es
 
 ## Introducción
 
@@ -614,3 +613,6 @@ This is an A2plus-specific command. It solves the assembly constraints of the as
 
 
 [Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+
+---
+[documentation index](../README.md) > A2plus Workbench/es

@@ -1,7 +1,4 @@
 # Dxf Importer Install/es
-
-
-
 {{TutorialInfo/es
 |Topic=ClaseMuestra
 |Level=Usuario medio
@@ -185,3 +182,6 @@ Usar Teigha. Teigha es un programa completo y puedes usarlo sin FreeCAD
 ### Enlaces
 
 Video tutorial [FreeCAD Tutorial 24 - DXF/DWG Import](https://www.youtube.com/watch?v=wHxTWuDhc3M)
+
+---
+[documentation index](../README.md) > Dxf Importer Install/es

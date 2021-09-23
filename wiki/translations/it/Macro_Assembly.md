@@ -1,5 +1,5 @@
 # Macro Assembly/it
- {{Macro/it
+{{Macro/it
 |Name=Simulazione di assemblaggio
 |Icon=Macro_Assembly.png
 |Description=Animazione di un assemblaggio con FreeCad e Python.
@@ -296,4 +296,7 @@ startAnimation()
 
 La pagina della discussione [FreeCad Python assembly animation](http://forum.freecadweb.org/viewtopic.php?f=22&t=7256)
 
-[Vedere l\'animazione su YouTube.](http://youtu.be/5Ik2Bh4wXYg) 
+[Vedere l\'animazione su YouTube.](http://youtu.be/5Ik2Bh4wXYg)
+
+---
+[documentation index](../README.md) > Macro Assembly/it

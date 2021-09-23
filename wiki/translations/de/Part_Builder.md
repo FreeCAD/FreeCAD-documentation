@@ -7,6 +7,8 @@
    SeeAlso:[Part Grundkörper](Part_Primitives/de.md)
 ---
 
+# Part Builder/de
+
 ## Beschreibung
 
 Ein Werkzeug zur Erstellung von komplexeren Formen aus verschiedenen parametrischen geometrischen Grundkörpern.
@@ -70,8 +72,5 @@ Ein möglicher Arbeitsablauf könnte sein:
 -   Erzeuge eine \"Hülle aus Flächen\"
 -   Erzeuge einen \"Festkörper aus Hülle\"
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Builder/de

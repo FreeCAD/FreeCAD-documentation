@@ -8,6 +8,8 @@
    SeeAlso:[Ingrandisci](Std_ViewZoomIn/it.md), [Finestra di ingrandimento](Std_ViewBoxZoom/it.md)
 ---
 
+# Std ViewZoomOut/it
+
 ## Descrizione
 
 Il comando **Std ViewZoomOut** riduce la [vista 3D](3D_view/it.md) attiva.
@@ -61,4 +63,7 @@ FreeCADGui.ActiveDocument.ActiveView.zoomOut()
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ViewZoomOut/it

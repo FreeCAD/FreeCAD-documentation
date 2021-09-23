@@ -1,7 +1,4 @@
 # Scripted objects/ru
-
-
-
 {{TOCright}}
 
 ## Введение
@@ -914,3 +911,6 @@ a,b = makeMolecule()
 }} 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Scripted objects/ru

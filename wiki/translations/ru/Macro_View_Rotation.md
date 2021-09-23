@@ -1,5 +1,5 @@
 # Macro View Rotation/ru
- {{Macro
+{{Macro
 |Name=Macro View Rotation
 |Icon=Macro_View_Rotation.png
 |Description=This GUI allows the view to be rotated with more precision than when using the mouse.  Rotation is according to axes fixed with respect to the user and not the objects, though the aim is that the objects rotate about their approximate shared centre rather than the view centre.<br />
@@ -289,3 +289,6 @@ at the end of the function \'initUI\'. The first two arguments (right-300, 0) (l
 ## Страница обсуждения 
 
 [View+Rotation](http://forum.freecadweb.org/viewtopic.php?f=3&t=1784&hilit=View+Rotation#p12012)
+
+---
+[documentation index](../README.md) > Macro View Rotation/ru

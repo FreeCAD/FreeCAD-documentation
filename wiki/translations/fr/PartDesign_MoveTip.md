@@ -8,6 +8,8 @@
    SeeAlso:[PartDesign Déplacer vers un autre corps](PartDesign_MoveFeature/fr.md), [PartDesign Déplacer après un autre objet](PartDesign_MoveFeatureInTree/fr.md)
 ---
 
+# PartDesign MoveTip/fr
+
 ## Description
 
 <img alt="" src=images/PartDesign_MoveTip.svg  style="width:24px;"> [Désigner comme fonction résultante](PartDesign_MoveTip/fr.md), comme elle est appelée dans le menu contextuel, redéfinit la fonction résultante qui est la caractéristique exposée à l\'extérieur du corps. Par défaut, la fonction résultante est la dernière fonctionnalité ajoutée au corps mais parfois, il peut être utile de définir temporairement une fonction en amont dans l\'arborescence comme fonction résultante. Cela peut être fait pour ajouter une esquisse, une géométrie de référence ou une fonction qui, rétrospectivement, aurait dû être créée plus tôt dans l\'historique du corps.
@@ -30,4 +32,7 @@ La fonction résultante se distingue visuellement dans l\'arborescence Modèle p
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign MoveTip/fr

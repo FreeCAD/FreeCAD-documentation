@@ -7,6 +7,8 @@
    Shortcut:**G** **R**
 ---
 
+# Draft ToggleGrid/es
+
 
 </div>
 
@@ -33,8 +35,5 @@ See [Draft Snap](Draft_Snap#Preferences.md).
 -   To use the grid select: **Edit → Preferences... → Draft → Grid and snapping → Grid → Use grid**. After changing this preference you must restart FreeCAD.
 -   Several other grid preferences are also available: **Edit → Preferences... → Draft → Grid and snapping → Grid**.
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ToggleGrid/es

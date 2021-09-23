@@ -1,7 +1,4 @@
 # Basic TechDraw Tutorial/ro
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -145,4 +142,7 @@ There is much more functionality in TechDraw for you to explore - Section Views,
 
 {{Tutorials navi
 
-}} {{TechDraw Tools navi}} 
+}} {{TechDraw Tools navi}}
+
+---
+[documentation index](../README.md) > Basic TechDraw Tutorial/ro

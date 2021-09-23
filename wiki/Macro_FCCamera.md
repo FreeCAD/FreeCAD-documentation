@@ -1,5 +1,5 @@
 # Macro FCCamera
-  {{Macro
+{{Macro
 |Name=Macro FCCamera
 |Icon=FCCamera_00.png
 |Description={{ColoredText|#ff0000|#ffffff|New version GUI modifyed for the HD dpi (QGridLayout) run only FC version 0.18 and more (PySide2 Qt5)}}<br/><br/> 
@@ -218,4 +218,5 @@ App.Console.PrintMessage("Path locality to FCCamera.....images.png [ " + 
 
 -   **ver 0.2 25/02/2015 :** correct names files in for compatibility Linux (case sensitive) thanks microelly2
 
-
+---
+[documentation index](../README.md) > Macro FCCamera

@@ -6,6 +6,8 @@
    Shortcut:**F5**
 ---
 
+# Std Refresh/en
+
 ## Description
 
 The **Std Refresh** command recomputes the active document. The command is disabled if the document does not require a recompute.
@@ -49,4 +51,7 @@ doc.recompute()
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std Refresh/en

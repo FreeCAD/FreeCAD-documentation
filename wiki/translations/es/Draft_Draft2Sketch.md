@@ -6,6 +6,8 @@
    Workbenches:[Boceto](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
 ---
 
+# Draft Draft2Sketch/es
+
 
 </div>
 
@@ -111,5 +113,5 @@ doc.recompute()
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Draft2Sketch/es

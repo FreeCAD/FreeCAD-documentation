@@ -1,5 +1,5 @@
 # Macro Arch Axis System Repartition/fr
- {{Macro/fr
+{{Macro/fr
 |Name=Arch Axis System Repartition
 |Icon=Macro_Arch_Axis_System_Repartition.png
 |Description=Créer un système d'axes le long d'une ligne.
@@ -269,6 +269,5 @@ ToolBar Icon ![](images/Macro_Arch_Axis_System_Repartition.png )
 -   [Macro\_PartsLibrary](Macro_PartsLibrary.md) Librairie FreeCAD
 -   Github [Macro wood galaxy](https://github.com/wood-galaxy/FreeCAD-scripts)
 
-
-
-
+---
+[documentation index](../README.md) > Macro Arch Axis System Repartition/fr

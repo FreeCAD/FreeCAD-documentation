@@ -15,3 +15,6 @@ codespell -q 3 -L aci,ake,aline,alle,alledges,alocation,als,ang,anid,apoints,ba,
 -   <https://forum.freecadweb.org/viewtopic.php?f=18&t=12833&start=50#p332225>
 
 [Category: Developer Documentation](Category:_Developer_Documentation.md)
+
+---
+[documentation index](../README.md) > Codespell

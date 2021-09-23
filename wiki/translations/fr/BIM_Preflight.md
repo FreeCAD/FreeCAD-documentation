@@ -7,6 +7,8 @@
    MenuLocation:Manage → Preflight check
 ---
 
+# BIM Preflight/fr
+
 ## Description
 
 <img alt="" src=images/BIM_preflight_screenshot.png  style="width:1024px;">
@@ -86,3 +88,6 @@ def myCustomTest():
    # text if the test failed. The string or text will be displayed
    # to the user when they press the "Failed" button.
    return result
+
+---
+[documentation index](../README.md) > BIM Preflight/fr

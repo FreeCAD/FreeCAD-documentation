@@ -1,5 +1,5 @@
 # AppImage/ru
- **По состоянию на 7 июля 2019 года сообщество FreeCAD отмечает, что загрузка AppImages из Github, похоже, истекает по таймауту до завершения. Мы не уверены, почему это происходит. Если это произойдет с вами, попробуйте загрузить еще раз. Это займет несколько попыток. Рекомендуется использовать [функцию автоматического обновления](#Автообновление/ru.md) AppImage, которая восстановит загрузку с того места, где произошла ошибка.**
+**По состоянию на 7 июля 2019 года сообщество FreeCAD отмечает, что загрузка AppImages из Github, похоже, истекает по таймауту до завершения. Мы не уверены, почему это происходит. Если это произойдет с вами, попробуйте загрузить еще раз. Это займет несколько попыток. Рекомендуется использовать [функцию автоматического обновления](#Автообновление/ru.md) AppImage, которая восстановит загрузку с того места, где произошла ошибка.**
 
 
 {{TOCright}}
@@ -182,3 +182,6 @@ The repository for these scripts is at [realthunder/FreeCADMakeImage](https://gi
 
 
 [Category:Packaging](Category:Packaging.md) [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Testing](Category:Testing.md)
+
+---
+[documentation index](../README.md) > [Packaging](Category:Packaging.md) > AppImage/ru

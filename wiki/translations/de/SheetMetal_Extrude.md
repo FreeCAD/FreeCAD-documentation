@@ -7,6 +7,8 @@
    Shortcut:**E**
 ---
 
+# SheetMetal Extrude/de
+
 ## Beschreibung
 
 Der Befehl <img alt="" src=images/SheetMetal_Extrude.svg  style="width:24px;"> **Kante verlängern** erweitert eine Blechfläche.
@@ -92,3 +94,6 @@ Ein SheetMetal-Extend-Objekt wird von einem [Part-Formelement](Part_Feature/de.m
 
 
 [Category:SheetMetal](Category:SheetMetal.md) [Category:Addons](Category:Addons.md) [Category:External Command Reference](Category:External_Command_Reference.md)
+
+---
+[documentation index](../README.md) > [SheetMetal](Category:SheetMetal.md) > SheetMetal Extrude/de

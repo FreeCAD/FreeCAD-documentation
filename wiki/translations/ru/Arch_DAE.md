@@ -1,7 +1,4 @@
 # Arch DAE/ru
- 
-
-
 <div class="mw-translate-fuzzy">
 
 Формат файлов [Collada (DAE)](http://en.wikipedia.org/wiki/COLLADA) представляет собой стандарт для обмена данными в виде сеток. [Архитектурный модуль](Arch_Workbench/ru.md) может импортировать сетки из файлов .dae, и экспортировать архитектурные и другие [оболочковые](Part_Workbench/ru.md) объекты в формат .dae.
@@ -42,3 +39,6 @@
  
 
 [Category:File Formats](Category:File_Formats.md)
+
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch DAE/ru

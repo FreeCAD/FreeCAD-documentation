@@ -1,9 +1,4 @@
 # Installing on Windows/fr
-
-
-
-
-
 Vous pouvez installer FreeCAD sous Windows en téléchargeant l'un des programmes d'installation ci-dessous:
 
 
@@ -186,8 +181,5 @@ msiexec /i Y:\\software\\FreeCAD<version>.msi
 
 FreeCAD s\'exécute, mais il a été reporté que l\'affichage OpenGL ne fonctionne pas, comme pour d\'autres programmes fonctionnant sous [Wine](wikipedia:Wine_(software).md), par ex. Google [SketchUp](wikipedia:SketchUp.md).
 
-
-
-
-
-
+---
+[documentation index](../README.md) > Installing on Windows/fr

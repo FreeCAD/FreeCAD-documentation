@@ -7,6 +7,8 @@
    SeeAlso:[Part Primitives](Part_Primitives/fr.md)
 ---
 
+# Part Plane/fr
+
 ## Description
 
 Créez un plan paramétrique simple de 10 x 10 mm, avec les paramètres de position, longueur et largeur. Par défaut, le plan est positionné à l\'origine (0,0,0).
@@ -47,8 +49,5 @@ Les propriétés de l\'objet peuvent être modifiées, soit dans l\'[Éditeur de
 
 Vous avez la vue standard des propriétés.
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Plane/fr

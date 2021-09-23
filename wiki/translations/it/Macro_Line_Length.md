@@ -1,5 +1,5 @@
 # Macro Line Length/it
- {{Macro/it
+{{Macro/it
 |Name=Macro Line_Length
 |Translate=Linea e opzioni
 |Icon=Macro_Line_Length.png
@@ -80,3 +80,5 @@ oppure, a scelta:
 >>> line_length(length = 50, angle = 45)
 ```
 
+---
+[documentation index](../README.md) > Macro Line Length/it

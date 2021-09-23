@@ -5,6 +5,8 @@
    Workbenches:[Curves](Curves_Workbench.md)
 ---
 
+# Curves ReflectLines/en
+
 ## Description
 
 The <img alt="" src=images/Curves_ReflectLines.svg  style="width:24px;"> [Curves ReflectLines](Curves_ReflectLines.md) creates the reflect lines on a shape, according to a view direction. This tool is part of the [external workbench](External_workbenches.md) called [Curves](Curves_Workbench.md).
@@ -30,4 +32,7 @@ The <img alt="" src=images/Curves_ReflectLines.svg  style="width:24px;"> [Curves
 
 {{Curves Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > Curves ReflectLines/en

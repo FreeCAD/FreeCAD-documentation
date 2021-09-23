@@ -8,6 +8,8 @@
    SeeAlso:[Setze Farben](Std_SetColors/de.md)
 ---
 
+# Std SetAppearance/de
+
 
 </div>
 
@@ -94,4 +96,7 @@ Legt den Zeichenstil fest. Das Aufklappmenü bietet 4 Wahlmöglichkeiten:
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std SetAppearance/de

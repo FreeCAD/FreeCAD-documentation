@@ -7,6 +7,8 @@
    SeeAlso:[Reinforcement](Reinforcement_Workbench.md), [Arch Rebar](Arch_Rebar.md), [Arch Rebar Stirrup](Arch_Rebar_Stirrup.md)
 ---
 
+# Arch Rebar BentShape/pl
+
 ## Description
 
 The [BentShape Rebar](Arch_Rebar_BentShape.md) tool allows the user to create a set of bent reinforcing bars inside an [Arch Structure](Arch_Structure.md) object.
@@ -152,3 +154,6 @@ BentShapeRebar.editBentShapeRebar(Rebar2, 50, 35, 20, 20,
  
 
 [Category:Reinforcement](Category:Reinforcement.md)
+
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Rebar BentShape/pl

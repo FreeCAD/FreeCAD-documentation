@@ -1,5 +1,5 @@
 # Macro Circle/fr
- {{Macro/fr
+{{Macro/fr
 |Name=Macro Circle
 |Icon=Macro_Circle.png
 |Description=Crée un cercle en donnant différents paramètres (Sans GUI). Le nouveau cercle est créée dans les coordonnées réelles de l'objet et non dans celles du corps. <br/> {{ColoredText|(Ligne de commande, collez cette macro complète dans la console Python)}}.
@@ -165,3 +165,6 @@ ver 0.4 19/06/2019 : upgrade ver 0.19
 ver 0.3 10/06/2018 : replace /2 to /2.0 (float)
 
 ver 0.2 24/02/2015 : adding function \"**placemObject**\"
+
+---
+[documentation index](../README.md) > Macro Circle/fr

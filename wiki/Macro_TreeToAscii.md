@@ -1,5 +1,5 @@
 # Macro TreeToAscii
-  {{Macro
+{{Macro
 |Name=TreeToAscii
 |Description=This macro generates an ASCII art representation of the tree of selected object(s)
 |Author=OpenBrain
@@ -251,3 +251,5 @@ dlg.exec_()
 </nowiki>
 }}
 
+---
+[documentation index](../README.md) > Macro TreeToAscii

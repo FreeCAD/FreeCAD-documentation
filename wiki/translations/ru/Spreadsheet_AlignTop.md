@@ -7,6 +7,8 @@
    Version:0.17
 ---
 
+# Spreadsheet AlignTop/ru
+
 ## Описание
 
 The **<img src=images/Spreadsheet_AlignTop.svg style="width:16px"> [Spreadsheet AlignTop](Spreadsheet_AlignTop.md)** tool makes the text inside the cell align to the top of the cell.
@@ -23,4 +25,7 @@ The **<img src=images/Spreadsheet_AlignTop.svg style="width:16px"> [Spreadsheet 
 
 {{Spreadsheet_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet AlignTop/ru

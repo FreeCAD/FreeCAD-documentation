@@ -37,3 +37,6 @@ This wiki page is being used to track all Humanitarian based efforts reported an
 ## Related
 
 -   [FreeCAD\_Philanthropy\_Open\_Source\_Hardware](FreeCAD_Philanthropy_Open_Source_Hardware.md)
+
+---
+[documentation index](../README.md) > FreeCAD Humanitarian Projects

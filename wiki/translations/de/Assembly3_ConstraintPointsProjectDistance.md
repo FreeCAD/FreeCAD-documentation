@@ -6,6 +6,8 @@
    Workbenches:[Assembly3](Assembly3_Workbench/de.md)
 ---
 
+# Assembly3 ConstraintPointsProjectDistance/de
+
 ## Beschreibung
 
 Der Befehl <img alt="" src=images/Assembly_ConstraintPointsProjectDistance.svg  style="width:16px;"> [Projizierter Punktabstand](Assembly3_ConstraintPointsProjectDistance/de.md) legt den Abstand zweier 2D-Punkte im Zusammenhang mit einer Geraden fest.
@@ -24,8 +26,5 @@ Ausgehend von der Ausrichtung der Geraden (die Z-Achse ihres lokalen Koordinaten
 
     :   (Wenn **<img src="images/Assembly_AutoRecompute.svg" width=16px> [Automatische Berechnung](Assembly3_AutoRecompute/de.md)** und **<img src="images/Assembly_SmartRecompute.svg" width=16px> [Smarte Berechnung](Assembly3_SmartRecompute/de.md)** nicht aktiviert wurden).
 
-
-
-
-
-
+---
+[documentation index](../README.md) > Assembly3 ConstraintPointsProjectDistance/de

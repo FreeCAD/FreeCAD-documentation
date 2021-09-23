@@ -1,10 +1,4 @@
 # Licence/pl
-
-
-
-
-
-
 {{TOCright}}
 
 ## Licencje używane w programie FreeCAD 
@@ -61,3 +55,6 @@ Niemniej jednak decyzja ta jest podejmowana tylko w odniesieniu do podstawowego 
  
 
 [Category:Developer Documentation](Category:Developer_Documentation.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Licence/pl

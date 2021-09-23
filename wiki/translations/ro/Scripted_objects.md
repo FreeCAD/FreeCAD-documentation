@@ -1,7 +1,4 @@
 # Scripted objects/ro
-
-
-
 {{TOCright}}
 
 ## Introduction
@@ -934,3 +931,6 @@ Interesting forum threads about scripted objects:
 }} 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Scripted objects/ro

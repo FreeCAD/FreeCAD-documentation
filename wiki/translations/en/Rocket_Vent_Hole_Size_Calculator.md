@@ -7,6 +7,8 @@
    Version:0.19
 ---
 
+# Rocket Vent Hole Size Calculator/en
+
 ## Description
 
 This calculator determines the minimum size of vent holes for barometric altimeters based on the volume of the space and the number of vent holes.
@@ -53,3 +55,6 @@ Calculations are done using metric units, but will display in your preferred uni
 
 
 [Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+
+---
+[documentation index](../README.md) > [Addons](Category:Addons.md) > Rocket Vent Hole Size Calculator/en

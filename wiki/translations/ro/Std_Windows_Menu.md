@@ -1,10 +1,4 @@
-# Std Windows Menu/ro
-
-
-
-
-
-<img alt="Std Base icon" src=images/Freecad.svg  style="width:128px;">
+# <img alt="Std Base icon" src=images/Freecad.svg  style="width:64px;"> Std Windows Menu/ro
 
 
 {{TOCright}}
@@ -94,3 +88,6 @@ Ferestre\...
 }}  
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > [Workbenches](Category:Workbenches.md) > Std Windows Menu/ro

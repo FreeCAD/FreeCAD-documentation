@@ -1,10 +1,4 @@
-# Std View Menu/ru
-
-
-
-
-
-<img alt="Иконка стандартных инструментов" src=images/Freecad.svg  style="width:128px;">
+# <img alt="Иконка стандартных инструментов" src=images/Freecad.svg  style="width:64px;"> Std View Menu/ru
 
 
 {{TOCright}}
@@ -182,3 +176,6 @@
 }}  
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > [Workbenches](Category:Workbenches.md) > Std View Menu/ru

@@ -8,6 +8,8 @@
    SeeAlso:[Std Sélection d'éléments par boîte](Std_BoxElementSelection/fr.md), [Std Tout sélectionner](Std_SelectAll/fr.md)
 ---
 
+# Std BoxSelection/fr
+
 ## Description
 
 La commande **Std Sélection par boîte** sélectionne des objets dans une zone rectangulaire définie par l\'utilisateur, une boîte, dans [vue 3D](3D_view/fr.md).
@@ -36,4 +38,7 @@ La commande **Std Sélection par boîte** sélectionne des objets dans une zone 
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std BoxSelection/fr

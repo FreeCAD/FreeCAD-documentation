@@ -1,10 +1,4 @@
 # Manual:Generating 2D drawings/fr
-
-
-
-
-
-
 {{Manual:TOC/fr}}
 
 Lorsque votre modèle ne peut pas être imprimé ou fraisé directement par une machine, par exemple s\'il est trop grand (un bâtiment) ou qu\'il nécessite un assemblage manuel une fois les pièces prêtes, vous devrez généralement expliquer à une autre personne comment le faire. Dans les domaines techniques (ingénierie, architecture, etc.), cela se fait généralement avec des dessins. Les dessins sont remis à la personne responsable de l\'assemblage du produit final et vous expliquent comment procéder.
@@ -108,3 +102,6 @@ Notre page peut maintenant être exportée au format SVG pour être plus dévelo
 
 
 [Catégorie:Tutoriels](Category:Tutorials/fr.md)
+
+---
+[documentation index](../README.md) > Manual:Generating 2D drawings/fr

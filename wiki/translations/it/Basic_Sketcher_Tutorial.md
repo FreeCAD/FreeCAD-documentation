@@ -1,7 +1,4 @@
 # Basic Sketcher Tutorial/it
-
-
-
 {{TutorialInfo/it
 |Topic= Sketcher
 |Level= Base
@@ -314,3 +311,6 @@ Constraining a sketch can be done in many different ways. In general, it is reco
 }} {{Sketcher Tools navi}} 
 
 [Category:Sketcher/it](Category:Sketcher/it.md)
+
+---
+[documentation index](../README.md) > Basic Sketcher Tutorial/it

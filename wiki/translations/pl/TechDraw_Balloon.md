@@ -7,6 +7,8 @@
    SeeAlso:[TechDraw Annotation](TechDraw_Annotation.md)
 ---
 
+# TechDraw Balloon/pl
+
 ## Description
 
 The Balloon tool can add balloons with leader line in a drawing.
@@ -90,4 +92,7 @@ rc = page.addView(bal1)
 
 {{TechDraw Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Balloon/pl

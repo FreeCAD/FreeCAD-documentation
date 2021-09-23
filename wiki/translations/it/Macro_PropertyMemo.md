@@ -1,7 +1,4 @@
 # Macro PropertyMemo/it
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -421,3 +418,5 @@ Le macro di [mario52a](https://gist.github.com/mario52a) in gists
 
 </div>
 
+---
+[documentation index](../README.md) > Macro PropertyMemo/it

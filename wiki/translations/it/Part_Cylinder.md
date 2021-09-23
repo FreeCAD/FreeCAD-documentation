@@ -1,3 +1,4 @@
+# Part Cylinder/it
 ---
 - GuiCommand:/it   Name:Part Cylinder   Name/it:Cilindro   MenuLocation:Parte → Primitive → Cilindro   Workbenches:[SeeAlso:[[Part_CreatePrimitives/it|Crea primitive](Part_Workbench/it___Parte]].md)---
 
@@ -71,5 +72,5 @@ Le proprietà possono essere successivamente modificate nella scheda dati del ci
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Cylinder/it

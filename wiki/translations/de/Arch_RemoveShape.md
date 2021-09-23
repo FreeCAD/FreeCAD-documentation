@@ -7,6 +7,8 @@
    SeeAlso:[Arch NetzAufteilen](Arch_SplitMesh/de.md), [Arch NetzZuForm](Arch_MeshToShape/de.md)
 ---
 
+# Arch RemoveShape/de
+
 ## Beschreibung
 
 Dieses Werkzeug versucht, beim entfernen der inneren kubische Form eines **<img src="images/Arch_Wall.svg" width=16px> [Arch Wand](Arch_Wall/de.md)** oder **<img src="images/Arch_Structure.svg" width=16px> [Arch Struktur](Arch_Structure/de.md)**, und einstellen seiner Eigenschaften, es vollständig parametrisch zu machen. Dieses Werkzeug funktioniert nur, wenn die zugrunde liegende Form kubisch ist (genau 6 Flächen, alle Ecken haben nur rechte Winkel).
@@ -53,8 +55,5 @@ Arch.removeShape(Structure)
 FreeCAD.ActiveDocument.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch RemoveShape/de

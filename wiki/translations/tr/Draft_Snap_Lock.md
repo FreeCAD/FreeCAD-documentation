@@ -7,6 +7,8 @@
    SeeAlso:[Taslak Yakalama](Draft_Snap/tr.md), [Taslak Izgara açık/kapalı](Draft_ToggleGrid/tr.md)
 ---
 
+# Draft Snap Lock/tr
+
 
 </div>
 
@@ -47,5 +49,5 @@ For general information about snapping see [Draft Snap](Draft_Snap.md).
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Lock/tr

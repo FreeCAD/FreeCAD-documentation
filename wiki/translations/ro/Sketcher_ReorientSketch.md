@@ -7,6 +7,8 @@
    SeeAlso:[Map sketch](Sketcher_MapSketch.md), [New Sketch](Sketcher_NewSketch.md)
 ---
 
+# Sketcher ReorientSketch/ro
+
 
 </div>
 
@@ -61,4 +63,7 @@ Orientarea schiței
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ReorientSketch/ro

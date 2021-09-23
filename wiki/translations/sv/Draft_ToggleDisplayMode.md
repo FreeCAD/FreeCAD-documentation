@@ -1,3 +1,4 @@
+# Draft ToggleDisplayMode/sv
 ---
 - GuiCommand:/sv   Name:Draft ToggleDisplayMode   Name/sv:Draft ToggleDisplayMode   Workbenches:[Arch](Draft_Workbench/sv___Draft]],_[[Arch_Workbench/sv.md)|MenuLocation:Draft -> Utilities -> Toggle display mode   Shortcut:Shift + Space---
 
@@ -20,8 +21,5 @@ The <img alt="" src=images/Draft_ToggleDisplayMode.svg  style="width:24px;"> **D
     -   Select the **Utilities → <img src="images/Draft_ToggleDisplayMode.svg" width=16px> Toggle normal/wireframe display** option from the [Tree view](Tree_view.md) or [3D view](3D_view.md) context menu.
     -   Use the keyboard shortcut: **Shift**+**Space**.
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ToggleDisplayMode/sv

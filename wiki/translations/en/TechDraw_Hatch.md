@@ -6,6 +6,8 @@
    SeeAlso:[TechDraw Geometric Hatch](TechDraw_GeometricHatch.md), [TechDraw Hatching](TechDraw_Hatching.md)
 ---
 
+# TechDraw Hatch/en
+
 ## Description
 
 The Hatch tool fills a closed region in a View with a hatch pattern, which can be [SVG](SVG.md) or [bitmap](bitmap.md) files. In contrary the <img alt="" src=images/TechDraw_GeometricHatch.svg  style="width:24px;"> [Geometric Hatch](TechDraw_GeometricHatch.md) tool uses a specific PAT pattern file, see [Hatching](TechDraw_Hatching.md) for details.
@@ -69,4 +71,7 @@ rc = page.addView(hatch)
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Hatch/en

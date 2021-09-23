@@ -1,5 +1,5 @@
 # FreeCAD API/fr
- **(Octobre 2019) Ne modifiez pas cette page. L'information est incomplète et obsolète. Pour la dernière API, consultez la [https://www.freecadweb.org/api documentation de l'API générée automatiquement], ou générez la documentation vous-même, voir [Source documentation](Source_documentation/fr.md).**
+**(Octobre 2019) Ne modifiez pas cette page. L'information est incomplète et obsolète. Pour la dernière API, consultez la [https://www.freecadweb.org/api documentation de l'API générée automatiquement], ou générez la documentation vous-même, voir [Source documentation](Source_documentation/fr.md).**
 
 C\'est le module principal (root) de FreeCAD. Il peut également être appelé par \"App\" de l\'interprète FreeCAD. Il contient tout ce qui est nécessaire pour manipuler des documents et leur contenu (objets)
 
@@ -62,3 +62,6 @@ mydoc = FreeCAD.activeDocument()
  
 
 [Category:API](Category:API.md) [Category:Poweruser Documentation](Category:Poweruser_Documentation.md)
+
+---
+[documentation index](../README.md) > [API](Category:API.md) > FreeCAD API/fr

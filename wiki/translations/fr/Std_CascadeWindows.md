@@ -7,6 +7,8 @@
    SeeAlso:[Std Mosaïque](Std_TileWindows/fr.md)
 ---
 
+# Std CascadeWindows/fr
+
 ## Description
 
 La commande **Std Cascade** réorganise les fenêtres dans la [Zone de vue principale](Main_view_area/fr.md) afin qu\'elles soient toutes visibles mais se chevauchent. Le résultat est déterminé par l\'ordre dans lequel les fenêtres ont été activées pour la dernière fois.
@@ -25,4 +27,7 @@ La commande **Std Cascade** réorganise les fenêtres dans la [Zone de vue princ
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std CascadeWindows/fr

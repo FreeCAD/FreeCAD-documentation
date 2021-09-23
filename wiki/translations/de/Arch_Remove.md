@@ -7,6 +7,8 @@
    SeeAlso:[Arch SchneideLinie](Arch_CutLine/de.md), [Arch SchneideEbene](Arch_CutPlane/de.md), [Arch Hinzufügen](Arch_Add/de.md)
 ---
 
+# Arch Remove/de
+
 ## Beschreibung
 
 Das Entfernen Werkzeug erlaubt dir zwei Arten von Operationen:
@@ -64,10 +66,7 @@ Draft.move(Box, FreeCAD.Vector(1000, 700, 0))
 
 Arch.removeComponents(Box, Wall)
 FreeCAD.ActiveDocument.recompute()
-``` 
+```
 
-
-
-
-
-
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Remove/de

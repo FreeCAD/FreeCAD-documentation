@@ -1,7 +1,4 @@
 # Assembly project
- 
-
-
 **
 This roadmap is probably obsolete. For more information see [Development roadmap](Development_roadmap.md).<br>
 If you are not involved with the development discussed here:<br>
@@ -157,3 +154,6 @@ Interface to allow (external) (multi)physics simulation software to take control
 
 
 [Category:Roadmap](Category:Roadmap.md)
+
+---
+[documentation index](../README.md) > [Roadmap](Category:Roadmap.md) > Assembly project

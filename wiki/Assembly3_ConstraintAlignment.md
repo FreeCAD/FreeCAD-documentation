@@ -5,6 +5,8 @@
    Workbenches:[Assembly3](Assembly3_Workbench.md)
 ---
 
+# Assembly3 ConstraintAlignment
+
 ## Description
 
 This tool links two or more objects of an assembly and matches their orientations. The selected elements of each object or more precisely their implicit coordinate systems (ICSs) are used to position one object in relation to another.
@@ -19,7 +21,5 @@ The offset of their z-axes and the angle between their x-axes (and y-axes as wel
 2.  Select one planar face element of each object.
 3.  Press the **<img src="images/Assembly_ConstraintAlignment.svg" width=16px> [Alignment](Assembly3_ConstraintAlignment.md)** button.
 
-
-
-
- 
+---
+[documentation index](../README.md) > Assembly3 ConstraintAlignment

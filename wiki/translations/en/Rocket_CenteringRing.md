@@ -6,6 +6,8 @@
    Version:0.19
 ---
 
+# Rocket CenteringRing/en
+
 ## Description
 
 A Centering Ring is a solid object used to hold one or more body tubes inside another body tube.
@@ -94,3 +96,6 @@ TBD
 
 
 [Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+
+---
+[documentation index](../README.md) > [API]] and ](Category:API]] and .md) > Rocket CenteringRing/en

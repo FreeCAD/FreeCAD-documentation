@@ -7,6 +7,8 @@
    SeeAlso:[TechDraw Insertar Grupo de Proyección](TechDraw_ProjectionGroup/es.md), [TechDraw Insertar vista de sección](TechDraw_SectionView/es.md)
 ---
 
+# TechDraw View/es
+
 
 </div>
 
@@ -146,4 +148,7 @@ FreeCAD.ActiveDocument.View.Direction = (0.0,0.0,1.0)
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw View/es

@@ -1,10 +1,4 @@
 # Getting started/es
-
-
-
-
-
-
 {{TOCright}}
 
 ## Prólogo
@@ -196,3 +190,6 @@ Y finalmente, una de las características más poderosas de FreeCAD es el entorn
 {{Userdocnavi/es}}
 
 [Category:User Documentation/es](Category:User_Documentation/es.md)
+
+---
+[documentation index](../README.md) > Getting started/es

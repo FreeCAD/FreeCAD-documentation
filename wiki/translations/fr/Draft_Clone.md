@@ -8,6 +8,8 @@
    SeeAlso:[Draft Echelle](Draft_Scale/fr.md)
 ---
 
+# Draft Clone/fr
+
 ## Description
 
 La commande <img alt="" src=images/Draft_Clone.svg  style="width:24px;"> **Draft Clone** crée des copies liées, des clones, des objets sélectionnés. La forme d\'un clone est paramétrique. Il sera mis à jour si son objet source change. Mais un clone a sa propre position, rotation et échelle, ainsi que ses propres [propriétés de vue](Property_editor/fr.md). Pour les objets [Arch](Arch_Workbench/fr.md), la commande crée un type spécial de clone : un clone Arch.
@@ -83,8 +85,5 @@ cloned_object.Fuse = True
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Clone/fr

@@ -1,10 +1,4 @@
 # Tutorials/pt-br
-
-
-
-
-
-
 {{TOCright}}
 
 Esta página apresenta uma seleção de tutoriais escritos de alta qualidade. Uma lista completa e não classificada de tutoriais pode ser encontrada em [:Category:Tutorials](:Category:Tutorials.md), uma lista completa e classificável pode ser encontrada em [tabela abaixo](#Tutoriais_-_Lista_completa.md).
@@ -284,3 +278,6 @@ Aqui estão listados todos os tutoriais que não estão no manual *\"independent
 
 
 [Category:Tutorials](Category:Tutorials.md)
+
+---
+[documentation index](../README.md) > [Tutorials]], uma lista completa e classificável pode ser encontrada em ](Category:Tutorials]], uma lista completa e classificável pode ser encontrada em .md) > Tutorials/pt-br

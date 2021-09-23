@@ -1,11 +1,4 @@
 # Bug Triage
- 
-
-
-
-
- 
-
 ## Why
 
 
@@ -156,3 +149,6 @@ An important methodology to track tickets by a certain subject/theme/category. I
  
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Administration](Category:Administration.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Bug Triage

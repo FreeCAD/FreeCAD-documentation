@@ -1,3 +1,4 @@
+# Part Circle/it
 ---
 - GuiCommand:/it   Name:Part_Circle   Name/it:Cerchio   MenuLocation:Parte → [Workbenches:[[Part_Workbench/it   Parte](Part_CreatePrimitives/it___Crea_primitive]]_→_Cerchio.md)|SeeAlso:---
 
@@ -33,8 +34,5 @@ La primitiva geometrica Cerchio è disponibile dalla finestra di dialogo Crea pr
 
 -    {{Parameter|Angolo 2}}: fine del bordo curvo (gradi in senso antiorario), il valore di default è 360
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Circle/it

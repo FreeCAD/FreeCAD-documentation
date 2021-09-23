@@ -1,6 +1,4 @@
 # Copying Objects
- 
-
 ## Overview
 
 Like many other software FreeCAD also has the ability to copy/cut and paste objects (paragraphs, spreadsheet cells, images, etc.). [Document](Document_structure.md) objects may be freely copied within a document or between documents using the **<img src="images/Std_Copy.svg" width=24px> [Copy](Std_Copy.md)**, **<img src="images/Std_Paste.svg" width=24px> [Paste](Std_Paste.md)** and **[Duplicate Selection](Std_DuplicateSelection.md)** commands.
@@ -39,4 +37,5 @@ Like most things in FreeCAD, there are many ways of making a copy. For more idea
 -   [Paste](Std_Paste.md)
 -   [Duplicate Selection](Std_DuplicateSelection.md)
 
- 
+---
+[documentation index](../README.md) > Copying Objects

@@ -1,7 +1,4 @@
 # FreeCAD-Ship s60 tutorial/it
-
-
-
 {{TutorialInfo/it
 |Topic=Ambiente Navale
 |Level=Base
@@ -468,3 +465,6 @@ The [FreeCAD Ship s60 tutorial (II)](FreeCAD-Ship_s60_tutorial_(II).md) is the s
 {{Ship Tools navi
 
 }}
+
+---
+[documentation index](../README.md) > FreeCAD-Ship s60 tutorial/it

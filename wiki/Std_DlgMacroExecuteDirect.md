@@ -7,6 +7,8 @@
    SeeAlso:[Std DlgMacroExecute](Std_DlgMacroExecute.md)
 ---
 
+# Std DlgMacroExecuteDirect
+
 ## Description
 
 The **Std DlgMacroExecuteDirect** command executes the macro in the current Macro editor window.
@@ -28,4 +30,7 @@ The **Std DlgMacroExecuteDirect** command executes the macro in the current Macr
 
 
 
- {{Std Base navi}}  
+ {{Std Base navi}}
+
+---
+[documentation index](../README.md) > Std DlgMacroExecuteDirect

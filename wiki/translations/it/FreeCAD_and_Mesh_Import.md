@@ -1,7 +1,4 @@
 # FreeCAD and Mesh Import/it
-
-
-
 {{TOCright}}
 
 ## Post-Import 
@@ -88,3 +85,6 @@ Il guscio (shell dell\'oggetto mesh) sembra avere degli errori, forse non è chi
 -   [FreeCAD Howto Import Export](FreeCAD_Howto_Import_Export.md)
 
 [Category:User\_Documentation](Category:User_Documentation.md) [Category:File\_Formats](Category:File_Formats.md)
+
+---
+[documentation index](../README.md) > [User_Documentation](Category:User_Documentation.md) > FreeCAD and Mesh Import/it

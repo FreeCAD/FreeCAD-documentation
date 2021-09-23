@@ -1,5 +1,5 @@
 # Macro Manage Navigational Style2/it
- {{Macro
+{{Macro
 |Name=Macro Manage Navigational Styles2
 |Icon=Macro_Manage_Navigational_Styles2.png
 |Translate=Stile di navigazione 2
@@ -46,6 +46,5 @@ p=App.ParamGet("User parameter:BaseApp/Preferences/View")
 p.SetString("NavigationStyle","Gui::InventorNavigationStyle")
 }}
 
-
-
-
+---
+[documentation index](../README.md) > Macro Manage Navigational Style2/it

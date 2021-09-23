@@ -7,6 +7,8 @@
    SeeAlso:[Verrundung](PartDesign_Fillet/de.md), [Part Fase](Part_Chamfer/de.md)
 ---
 
+# PartDesign Chamfer/de
+
 
 </div>
 
@@ -53,4 +55,7 @@ Dieses Werkzeug erzeugt Fasen an den ausgewählten Kanten eines Objekts. Im Proj
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Chamfer/de

@@ -1,6 +1,4 @@
 # Developing FreeCAD with KDevelop
- 
-
 ## Introduction
 
 The intention for this page is to help orient users who are inclined toward understanding and reading FreeCAD source code with the possible end goal of contributing eventually to the project.
@@ -21,3 +19,6 @@ The intention for this page is to help orient users who are inclined toward unde
 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:3rd Party](Category:3rd_Party.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Developing FreeCAD with KDevelop

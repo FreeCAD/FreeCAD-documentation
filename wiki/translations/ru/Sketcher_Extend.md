@@ -8,6 +8,8 @@
    SeeAlso:[Обрезать](Sketcher_Trimming/ru.md)
 ---
 
+# Sketcher Extend/ru
+
 ## Описание
 
 Инструмент **Продлить** произвольно продлевает ребро на эскизе, или до другого ребра.
@@ -39,4 +41,7 @@
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Extend/ru

@@ -8,6 +8,8 @@
    Version:0.14
 ---
 
+# Draft Facebinder/de
+
 ## Beschreibung
 
 Der <img alt="" src=images/Draft_Facebinder.svg  style="width:24px;"> **Flächenbinder** Befehl erstellt ein Oberflächenobjekt aus ausgewählten Flächen. Ein Entwurf Flächenbinder ist parametrisch, er wird aktualisiert, wenn Du seine(s) Quellobjekt(e) änderst.
@@ -117,8 +119,5 @@ facebinder.ViewObject.ShapeColor = (0.99, 0.99, 0.4)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Facebinder/de

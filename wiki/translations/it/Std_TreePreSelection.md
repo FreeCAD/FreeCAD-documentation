@@ -7,6 +7,8 @@
    Shortcut:**T** **4**
 ---
 
+# Std TreePreSelection/it
+
 
 </div>
 
@@ -37,4 +39,7 @@ The Tree view PreSelection mode can also be set in the [Preferences editor](Pref
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std TreePreSelection/it

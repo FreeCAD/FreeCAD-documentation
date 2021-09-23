@@ -8,6 +8,8 @@
    Version : 0.20
 ---
 
+# Sketcher CompCreateRectangles/ru
+
 ## Описание
 
 **Создать прямоугольник** это кнопка на панели инструментов \"Геометрия эскизов\", которая группирует в себе инструменты для создания прямоугольников. Нажмите на стрелку указывающую вниз справа от нее, чтобы развернуть список инструментов и выбрать инструмент.
@@ -24,4 +26,7 @@
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CompCreateRectangles/ru

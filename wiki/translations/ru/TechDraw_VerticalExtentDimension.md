@@ -8,6 +8,8 @@
    SeeAlso:[Указать длину](TechDraw_LengthDimension/ru.md), [Указать горизонтальный габаритный размер](TechDraw_HorizontalExtentDimension/ru.md)
 ---
 
+# TechDraw VerticalExtentDimension/ru
+
 ## Описание
 
 The Vertical Extent Dimension tool adds a linear dimension to a View. The dimension extends from the bottom most point on the selected objects to the top most point. A CosmeticVertex will be placed at each point.
@@ -55,4 +57,7 @@ rc = page.addView(hExtentDim)
 
 {{TechDraw Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw VerticalExtentDimension/ru

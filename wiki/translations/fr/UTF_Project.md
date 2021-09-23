@@ -1,7 +1,4 @@
 # UTF Project/fr
-
-
-
 **
 Ce plan de développement est probablement obsolète. Pour plus d'informations, voir [Plan de développement](Development_roadmap/fr.md).<br>
 Si vous n'êtes pas impliqué dans le développement discuté ici :<br>
@@ -44,3 +41,6 @@ Migrer des modules pour exploiter de nouveaux nœuds à l\'aide de [SoText2](htt
 
 
 [Category:Roadmap](Category:Roadmap.md)
+
+---
+[documentation index](../README.md) > [Roadmap](Category:Roadmap.md) > UTF Project/fr

@@ -7,6 +7,8 @@
    SeeAlso:[Draft Scale](Draft_Scale/es.md)
 ---
 
+# Draft Mirror/es
+
 
 </div>
 
@@ -159,8 +161,5 @@ mirrored2 = Draft.mirror([polygon1, polygon2], -p1, -p2)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Mirror/es

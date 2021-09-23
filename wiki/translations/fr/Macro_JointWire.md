@@ -1,5 +1,5 @@
 # Macro JointWire/fr
- **!!! Cette macro doit être corrigée. !!!**
+**!!! Cette macro doit être corrigée. !!!**
 
 
 {{Macro/fr
@@ -90,6 +90,5 @@ Icône de la barre d\'outils ![](images/Macro_JointWire.png )
 
 }}
 
-
-
-
+---
+[documentation index](../README.md) > Macro JointWire/fr

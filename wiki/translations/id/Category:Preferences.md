@@ -4,3 +4,6 @@ This category lists all existing Preference menus of different FreeCAD workbench
 ### Contents:
 
 [Preferences Editor/id](Preferences_Editor/id.md)
+
+---
+[documentation index](../README.md) > Category:Preferences/id

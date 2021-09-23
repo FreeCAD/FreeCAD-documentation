@@ -7,6 +7,8 @@
    SeeAlso:[Draft StilFestlegen](Draft_SetStyle/de.md)
 ---
 
+# Draft ApplyStyle/de
+
 ## Beschreibung
 
 Der <img alt="" src=images/Draft_ApplyStyle.svg  style="width:24px;"> **Aktuellen Stil anwenden**-Befehl wendet die aktuellen Stileinstellungen auf die ausgewählten Objekte an.
@@ -33,8 +35,5 @@ Dieser Befehl behandelt aktuell nur fünf der Einstellungen, die der [Draft Stil
 
 -   In FreeCAD version 0.20 kann der [Draft Aktuellen Style anwenden](Draft_SetStyle/de.md)-Befehl auch die Einstellungen anwenden.
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ApplyStyle/de

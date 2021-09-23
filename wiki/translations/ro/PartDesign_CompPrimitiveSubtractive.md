@@ -8,6 +8,8 @@
    Version:0.17
 ---
 
+# PartDesign CompPrimitiveSubtractive/ro
+
 
 </div>
 
@@ -38,4 +40,7 @@ Creează primitive geometrice substractive în corpul activ, extrăgându-le/sc�
 
 {{PartDesign Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign CompPrimitiveSubtractive/ro

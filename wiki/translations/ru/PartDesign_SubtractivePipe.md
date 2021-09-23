@@ -8,6 +8,8 @@
    SeeAlso:[Аддитивный трубный профиль](PartDesign_AdditivePipe/ru.md), [Субтрактивный профиль](PartDesign_SubtractiveLoft/ru.md)
 ---
 
+# PartDesign SubtractivePipe/ru
+
 ## Описание
 
 **Субтрактивный трубный профиль** создает субтрактивное твердое тело в активном теле, перемещая один или несколько эскизов (также называемых поперечными сечениями) по открытому или замкнутому контуру. После чего созанная форма вычитается из существующего твердого тела. Субтрактивный трубный профиль часто применяется совместно с инструментами: [спираль](Part_Helix/ru.md) и [связующая форма](PartDesign_ShapeBinder/ru.md) для создания резьбы; подробности см. в [руководстве по созданию резьбы](Thread_for_Screw_Tutorial/ru.md).
@@ -87,4 +89,7 @@
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractivePipe/ru

@@ -7,6 +7,8 @@
    SeeAlso:[Arch Axes](Arch_Axis/fr.md), [Arch Grille](Arch_Grid/fr.md)
 ---
 
+# Arch AxisSystem/fr
+
 ## Description
 
 L\'outil [Système d\'Axes](Arch_AxisSystem/fr.md) vous permet de combiner 2 ou 3 objets [Axes](Arch_Axis/fr.md).
@@ -74,8 +76,5 @@ Structure.Axis = AxisSystem
 FreeCAD.ActiveDocument.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch AxisSystem/fr

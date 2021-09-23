@@ -8,6 +8,8 @@
    SeeAlso:[Podświetl element podrzędny](Draft_SubelementHighlight/pl.md), [Klonuj](Draft_Clone/pl.md)
 ---
 
+# Draft Scale/pl
+
 ## Opis
 
 Polecenie <img alt="" src=images/Draft_Scale.svg  style="width:24px;"> **Skaluj** - skaluje lub kopiuje wybrane obiekty wokół punktu bazowego. W trybie elementu podrzędnego polecenie zmienia skalę wybranych krawędzi, [Linii](Draft_Line/pl.md) i [Polilinii](Draft_Wire/pl.md).
@@ -113,8 +115,5 @@ wires = Draft.scale([wire1, wire2], scale2, copy=True)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Scale/pl

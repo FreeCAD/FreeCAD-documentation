@@ -8,6 +8,8 @@
    SeeAlso:[Draft Arc](Draft_Arc.md), [Draft Arc 3Points](Draft_Arc_3Points.md)
 ---
 
+# Draft Circle/zh-cn
+
 ## Description
 
 
@@ -202,8 +204,5 @@ circle3 = Draft.make_circle(750, placement=place3)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Circle/zh-cn

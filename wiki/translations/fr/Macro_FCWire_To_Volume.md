@@ -1,5 +1,5 @@
 # Macro FCWire To Volume/fr
- {{Macro/fr
+{{Macro/fr
 |Name=Macro FCWire To Volume
 |Icon=Macro_FCWire_To_Volume.png
 |Description=Créez l'opération booléenne avec les fils sélectionnés. Appuyez sur le bouton 2d pour créer l'opération booléenne sur un fil 2D.
@@ -691,3 +691,6 @@ ver 02b: 10/04/2020 : ajout d\'icônes et bouton d\'aide
 ver 02 : 07/04/2020 : conversion pour PySide2 Qt5 et mise en page, en ajoutant le fil 2D (contour)
 
 ver 01 : 10/10/2016 :
+
+---
+[documentation index](../README.md) > Macro FCWire To Volume/fr

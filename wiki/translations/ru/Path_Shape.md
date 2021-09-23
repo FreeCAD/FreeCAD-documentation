@@ -8,6 +8,8 @@
    SeeAlso:
 ---
 
+# Path Shape/ru
+
 
 </div>
 
@@ -148,4 +150,7 @@ Path.fromShapes(shapes, start=Vector(), return_end=False arc_plane=1, sort_mode=
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Shape/ru

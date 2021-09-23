@@ -1,7 +1,4 @@
-# Plot Module/de
-
-
-<img alt="Druck Arbeitsbereichsymbol" src=images/Workbench_Plot.svg  style="width:128px;">
+# <img alt="Druck Arbeitsbereichsymbol" src=images/Workbench_Plot.svg  style="width:64px;"> Plot Module/de
 
 
 {{TOCright}}
@@ -80,3 +77,6 @@ Da der Plot Arbeitsbereich eine Schicht über der `matplotlib` ist, kannst du je
 }} 
 
 [Category:External\_Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)
+
+---
+[documentation index](../README.md) > [External_Workbenches](Category:External_Workbenches.md) > Plot Module/de

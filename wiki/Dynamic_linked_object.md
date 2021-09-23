@@ -49,3 +49,6 @@ The goal is to *not* duplicate the following assembly logic for each table leg v
 ## FreeCAD Forum Discussion 
 
 -   [How to Make Dynamic Linked Object Based on Expression](https://forum.freecadweb.org/viewtopic.php?f=8&t=57242)
+
+---
+[documentation index](../README.md) > Dynamic linked object

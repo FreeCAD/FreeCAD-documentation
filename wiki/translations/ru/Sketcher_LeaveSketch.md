@@ -7,6 +7,8 @@
    SeeAlso:[Редактировать эскиз](Sketcher_EditSketch/ru.md)
 ---
 
+# Sketcher LeaveSketch/ru
+
 ## Описание
 
 Команда **Покинуть эскиз** выводит из режима редактирования эскиза и очищает вкладку [Задачи](Task_panel/ru.md).
@@ -23,4 +25,7 @@
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher LeaveSketch/ru

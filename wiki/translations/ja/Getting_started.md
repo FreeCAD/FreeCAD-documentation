@@ -1,10 +1,4 @@
 # Getting started/ja
-
-
-
-
-
-
 {{TOCright}}
 
 ## 序文
@@ -331,3 +325,6 @@ There are two types of addons:
 
 
 [Category:User\_Documentation/ja](Category:User_Documentation/ja.md)
+
+---
+[documentation index](../README.md) > Getting started/ja

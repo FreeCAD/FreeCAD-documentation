@@ -1,3 +1,4 @@
+# Part Cone/es
 ---
 - GuiCommand:/es   Name:Part Cone   Name/es:Part Cone   MenuLocation:Part -> Cone   |Workbenches:[SeeAlso:[[Part_CreatePrimitives/es|Part CreatePrimitives](Part_Workbench/es___Part]],_Complete.md)---
 
@@ -32,8 +33,5 @@ The cone properties can later be edited, either in the [Property editor](Propert
 
 -    **Angle**: Number of degrees of the arc or circles defining the upper and lower faces of the truncated cone. The default 360° creates circular faces, a lower value will create a portion of a cone as defined by upper and lower faces each with edges defined by an arc of the number of degrees and two radii.
 
-
-
-
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Cone/es

@@ -82,3 +82,6 @@ Pagina di discussione sull\'aspetto grafico del wiki: [WikiPages](WikiPages.md)
 {{languages/it |  }}
 
 [Category:Documentation/it](Category:Documentation/it.md) [Category:Tutorials/it](Category:Tutorials/it.md)
+
+---
+[documentation index](../README.md) > Esercitazioni

@@ -1,7 +1,4 @@
 # Surface Workbench/es
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -69,3 +66,6 @@ La superficie generada no puede colocarse dentro de un **<img src=images/PartDes
 }} 
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Surface Workbench/es

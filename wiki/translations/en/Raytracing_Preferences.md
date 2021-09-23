@@ -1,5 +1,5 @@
 # Raytracing Preferences/en
- The preferences screen of the [Raytracing Workbench](Raytracing_Workbench.md) are found in the [Preferences Editor](Preferences_Editor.md), **Edit → Preferences → Raytracing**.
+The preferences screen of the [Raytracing Workbench](Raytracing_Workbench.md) are found in the [Preferences Editor](Preferences_Editor.md), **Edit → Preferences → Raytracing**.
 
 There is only one tab: Raytracing.
 
@@ -13,3 +13,6 @@ There is only one tab: Raytracing.
 }}  
 
 [Category:Preferences](Category:Preferences.md)
+
+---
+[documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing Preferences/en

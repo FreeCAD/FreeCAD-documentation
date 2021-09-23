@@ -1,3 +1,4 @@
+# Sketcher CreateFillet/ro
 ---
 - GuiCommand:/ro   Name:Sketcher CreateFillet   Name/ro:Sketcher CreateFillet   Workbenches:[[Sketcher Workbench/ro   Sketcher]]|Shortcut:F   MenuLocation:Sketch → Sketcher geometries → Create fillet---
 
@@ -44,4 +45,7 @@ când pornește instrumentul, indicatorul mouse-ului se schimbă într-o cruce a
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateFillet/ro

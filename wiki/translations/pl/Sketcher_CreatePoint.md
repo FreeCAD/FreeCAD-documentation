@@ -6,6 +6,8 @@
    Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
 ---
 
+# Sketcher CreatePoint/pl
+
 ## Opis
 
 Narzędzie Punkt tworzy punkt w bieżącym szkicu, który może być użyty do konstruowania elementów geometrii. Punkt jest zawsze elementem konstrukcyjnym i nie jest widoczny w oknie widoku 3D.
@@ -32,4 +34,7 @@ Utworzony punkt nie jest dostępny poza szkicem. Jeśli punkt jest potrzebny w w
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreatePoint/pl

@@ -7,6 +7,8 @@
    SeeAlso:[Добавить Вид в группу](TechDraw_ClipGroupAdd/ru.md), [Удалить Вид из группы](TechDraw_ClipGroupRemove/ru.md)
 ---
 
+# TechDraw ClipGroup/ru
+
 ## Описание
 
 
@@ -41,4 +43,7 @@
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ClipGroup/ru

@@ -1,5 +1,5 @@
 # PartDesign tutorial/it
- {{TutorialInfo/it
+{{TutorialInfo/it
 |Topic= Schizzo
 |Level= Base
 |Time= 15 minuti
@@ -158,3 +158,6 @@ Dopo aver completato questa attività, si dovrebbe avere il seguente risultato.
 In caso contrario, modificare l\'operazione di MultiTransformazione facendo doppio clic su di essa nella visualizzazione di albero. Controllare entrambe le funzioni del modello per rilevare le modifiche necessarie, come l\'asse o se la direzione deve essere invertita.
 
 A questo punto il flusso di lavoro di base per il [Modulo PartDesign](PartDesign_Workbench/it.md) è terminato.
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign tutorial/it

@@ -7,6 +7,8 @@
    SeeAlso:[Std ViewDockUndockFullscreen](Std_ViewDockUndockFullscreen/ru.md), [Std ViewFullscreen](Std_ViewFullscreen/ru.md)
 ---
 
+# Std ViewCreate/ru
+
 ## Описание
 
 The **Std ViewCreate** command creates a new [3D view](3D_view.md) for the active document. Additional 3D views can be useful if you want to inspect the model from multiple directions or at different zoom levels.
@@ -27,4 +29,7 @@ The **Std ViewCreate** command creates a new [3D view](3D_view.md) for the activ
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ViewCreate/ru

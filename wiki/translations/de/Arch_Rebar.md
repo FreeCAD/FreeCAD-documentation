@@ -8,6 +8,8 @@
    SeeAlso:[Architektur Struktur](Arch_Structure/de.md), [Verstärkungserweiterung](Reinforcement_Workbench/de.md)
 ---
 
+# Arch Rebar/de
+
 ## Beschreibung
 
 Das [Architektur Bewehrung](Arch_Rebar/de.md) Werkzeug erlaubt es, [Bewehrungsstäbe](https://de.wikipedia.org/wiki/Bewehrungsstahl) in [Struktur](Arch_Structure/de.md) Objekten zu platzieren.
@@ -120,3 +122,6 @@ FreeCAD.ActiveDocument.recompute()
  
 
 [Category:External Command Reference](Category:External_Command_Reference.md) [Category:Reinforcement](Category:Reinforcement.md)
+
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Rebar/de

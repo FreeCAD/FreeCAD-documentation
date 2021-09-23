@@ -5,6 +5,8 @@
    SeeAlso:[TechDraw DraftView](TechDraw_DraftView.md)
 ---
 
+# Draft Drawing/pt-br
+
 ## Descrição
 
 The <img alt="" src=images/Draft_Drawing.svg  style="width:24px;"> **Draft Drawing** command inserts views of selected objects into a [drawing](Drawing_Workbench.md) page.
@@ -33,5 +35,5 @@ This command is now obsolete. Use the [TechDraw Workbench](TechDraw_Workbench.md
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Drawing/pt-br

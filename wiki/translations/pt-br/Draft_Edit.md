@@ -7,6 +7,8 @@
    SeeAlso:[Std Edit](Std_Edit.md)
 ---
 
+# Draft Edit/pt-br
+
 ## Descrição
 
 The <img alt="" src=images/Draft_Edit.svg  style="width:24px;"> **Draft Edit** command puts selected objects in Draft Edit mode. In this mode the properties of objects can be edited graphically. Typically nodes can be moved and in some cases context menu options can be selected. The command can handle most Draft objects, but also some other objects. See [Supported objects](#Supported_objects.md). Supported Draft objects can also be put in Draft Edit mode with the [Std Edit](Std_Edit.md) command.
@@ -183,5 +185,5 @@ There is no Python method to Draft Edit objects. To emulate the results of the c
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Edit/pt-br

@@ -8,6 +8,8 @@
    Version:0.17
 ---
 
+# Arch Rebar Straight/it
+
 ## Descrizione
 
 Lo strumento [Armatura dritta](Arch_Rebar_Straight.md) consente all\'utente di creare un set di staffe d\'armatura all\'interno di un oggetto [Struttura](Arch_Structure/it.md).
@@ -213,3 +215,6 @@ StraightRebar.editStraightRebar(Rebar4, 50, ("Right Side", 50), 100, 100,
  
 
 [Category:Reinforcement](Category:Reinforcement.md)
+
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Rebar Straight/it

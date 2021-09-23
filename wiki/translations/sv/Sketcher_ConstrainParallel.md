@@ -1,3 +1,4 @@
+# Sketcher ConstrainParallel/sv
 ---
 - GuiCommand:/sv   Name:Constraint Parallel   Name/sv:Constraint Parallel   Workbenches:[PartDesign](Sketcher_Workbench/sv___Sketcher]],_[[PartDesign_Workbench/sv.md)|MenuLocation:Sketch → Sketcher constraints → Constrain parallel   SeeAlso:[Constraint Vertical](Constraint_Vertical/sv.md), [Constraint Horizontal](Constraint_Horizontal/sv.md)---
 
@@ -43,4 +44,7 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainParallel/sv

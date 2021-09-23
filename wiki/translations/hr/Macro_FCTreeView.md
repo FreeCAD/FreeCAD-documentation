@@ -1,7 +1,4 @@
 # Macro FCTreeView/hr
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -310,3 +307,6 @@ ver 00.03 (23/09/2017) : add search by type object
 ver 00.02 (11/09/2017) : modify for docked and prevent many instance the clic on button are effect flip/flop (macro hide/visible)
 
 ver 00.01 (08/09/2017) :
+
+---
+[documentation index](../README.md) > Macro FCTreeView/hr

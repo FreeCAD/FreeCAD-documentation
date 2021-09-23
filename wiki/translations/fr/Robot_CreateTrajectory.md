@@ -6,6 +6,8 @@
    MenuLocation:Robot → Créer une trajectoire
 ---
 
+# Robot CreateTrajectory/fr
+
 
 </div>
 
@@ -49,4 +51,7 @@ Cliquez sur <img alt="" src=images/Robot_CreateTrajectory.png  style="width:32px
 
 {{Robot_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot CreateTrajectory/fr

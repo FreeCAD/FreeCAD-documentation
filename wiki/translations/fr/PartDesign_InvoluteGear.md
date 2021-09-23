@@ -7,6 +7,8 @@
    SeeAlso:[Atelier FCGear](FCGear_Workbench/fr.md)
 ---
 
+# PartDesign InvoluteGear/fr
+
 ## Description
 
 Cet outil permet de créer un profil 2D d\'une roue d\'engrenage à développante. Ce profil 2D est pleinement paramétrique et peut être extrudé avec la fonction [PartDesign Protrusion](PartDesign_Pad/fr.md).
@@ -43,4 +45,7 @@ Pour des informations plus détaillées, voir également [Engrenage](https://fr.
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign InvoluteGear/fr

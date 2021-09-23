@@ -8,6 +8,8 @@
    Version:0.15
 ---
 
+# Sketcher SelectHorizontalAxis/de
+
 
 </div>
 
@@ -27,4 +29,7 @@ Wählt die horizontale Achse einer Skizze aus.
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectHorizontalAxis/de

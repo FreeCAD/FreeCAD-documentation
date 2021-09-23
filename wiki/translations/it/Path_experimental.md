@@ -1,7 +1,4 @@
 # Path experimental/it
-
-
-
 {{TOCright}}
 
 ## Description
@@ -47,3 +44,6 @@ Maggiori informazioni sulle specifiche funzionalità sperimentali nelle [pagine 
  {{Path Tools navi}} 
 
 [Category:Poweruser Documentation](Category:Poweruser_Documentation.md)
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path experimental/it

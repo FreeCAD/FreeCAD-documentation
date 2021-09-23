@@ -1,7 +1,4 @@
 # Macro Snip/it
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -352,3 +349,6 @@ if not userCanceled:
 ## Link
 
 The forum discussion [Snip macro](https://forum.freecadweb.org/viewtopic.php?f=9&t=38328&sid=385bf3174dcae7fb8bdf529f4e76dfed)
+
+---
+[documentation index](../README.md) > Macro Snip/it

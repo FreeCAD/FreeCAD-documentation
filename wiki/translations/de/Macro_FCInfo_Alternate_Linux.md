@@ -1,5 +1,5 @@
 # Macro FCInfo Alternate Linux/de
- {{Macro/de
+{{Macro/de
 |Name=Macro FCInfo Alternate Linux
 |Translate=Macro FCInfo Alternate Linux
 |Icon=FCInfo.png
@@ -45,6 +45,5 @@ Mit diesem Makro gespeicherte Dateien sind nicht kompatibel mit den Dateien der 
 
 Beide Versionen können unabhängig vom verwendeten Betriebssystem ausgeführt werden.
 
-
-
-
+---
+[documentation index](../README.md) > Macro FCInfo Alternate Linux/de

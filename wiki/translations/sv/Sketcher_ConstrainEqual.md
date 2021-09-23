@@ -1,3 +1,4 @@
+# Sketcher ConstrainEqual/sv
 ---
 - GuiCommand:/sv   Name:Constraint EqualLength   Name/sv:Constraint EqualLength   Workbenches:[PartDesign](Sketcher_Workbench/sv___Sketcher]],_[[PartDesign_Workbench/sv.md)|MenuLocation:Sketch → Sketcher constraints → Constrain equal   SeeAlso:[Constraint Radius](Constraint_Radius/sv.md)---
 
@@ -59,4 +60,7 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainEqual/sv

@@ -7,6 +7,8 @@
    SeeAlso:[Std Save](Std_Save/ru.md)
 ---
 
+# Std SaveAll/ru
+
 
 </div>
 
@@ -42,4 +44,7 @@ To save a document use the `save` method of the document object. A new document 
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std SaveAll/ru

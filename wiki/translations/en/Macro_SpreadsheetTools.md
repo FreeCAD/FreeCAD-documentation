@@ -1,5 +1,5 @@
 # Macro SpreadsheetTools/en
- {{Macro
+{{Macro
 |Name=Macro SpreadsheetTools
 |Icon=Macro_SpreadsheetTools.png
 |Description=This macro helps managing cells inside FreeCAD's Spreadsheet-workbench. It helps managing cells inside FreeCAD's Spreadsheet-workbench. With its help one is able to:Cut/delete data and/or alias information, Copy data and/or an alias information, Paste data and/or alias information
@@ -504,6 +504,5 @@ form = Spreadsheet_Tools(MainWindow)
 form.show()
 }}
 
-
-
-
+---
+[documentation index](../README.md) > Macro SpreadsheetTools/en

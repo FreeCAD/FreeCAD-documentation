@@ -7,6 +7,8 @@
    SeeAlso:[Part SimpleCopy](Part_SimpleCopy.md), [Part ElementCopy](Part_ElementCopy.md), [Part RefineShape](Part_RefineShape.md)
 ---
 
+# Part TransformedCopy/en
+
 ## Description
 
 [Part TransformedCopy](Part_TransformedCopy.md) produces a non-parametric copy of an object that has been displaced from its original position.
@@ -29,8 +31,5 @@ The copy has a simple **Placement** property like any other [Part Feature](Part_
 
 The copy has simple view properties like any other [Part Feature](Part_Feature.md).
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part TransformedCopy/en

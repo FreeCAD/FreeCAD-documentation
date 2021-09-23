@@ -1,6 +1,4 @@
 # Body/ru
-
-
 ## Введение
 
 В FreeCAD слово \"[Тело(Body)](Body/ru.md)\" обычно используется для ссылки на объект [Тело](PartDesign_Body/ru.md) (класс `PartDesign::Body`), определённый в [верстаке PartDesign](PartDesign_Workbench/ru.md). Это контейнер, который может содержать [2-х мерный параметрический эскиз](Sketch/ru.md) и [3-х мерные геометрические операции(функций)](PartDesign_Feature/ru.md) для создания твёрдого тела.
@@ -29,3 +27,6 @@ Body не требуется при использовании [верстака
 }} {{Document objects navi}} 
 
 [Category:Glossary](Category:Glossary.md)
+
+---
+[documentation index](../README.md) > [Glossary](Category:Glossary.md) > Body/ru

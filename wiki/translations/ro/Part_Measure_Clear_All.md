@@ -5,6 +5,8 @@
    Workbenches:[Part](Part_Workbench.md)
 ---
 
+# Part Measure Clear All/ro
+
 
 </div>
 
@@ -22,11 +24,5 @@ Acest instrument șterge toate măsurătorile din vizualizarea 3D .
 
 </div>
 
-
-
-
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Clear All/ro

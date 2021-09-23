@@ -7,6 +7,8 @@
    Shortcut:Nessuno
 ---
 
+# Drawing Landscape A3/it
+
 Questo strumento crea un nuovo foglio di disegno utilizzando modelli di squadrature già installati.
 
 Alla struttura del progetto viene aggiunto un oggetto **Pagina**, sotto forma di icona di cartella. Le Viste create in seguito sono poste in questa cartella.
@@ -91,4 +93,7 @@ Se la pagina non viene visualizzata, fare clic sull\'icona Aggiorna <img alt="" 
 
 {{Drawing Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Landscape A3/it

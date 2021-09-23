@@ -7,6 +7,8 @@
    SeeAlso:[Std Exporter](Std_Export/fr.md), [Import Export](Import_Export/fr.md)
 ---
 
+# Mesh Export/fr
+
 ## Description
 
 La commande **Export de maillage** exporte un objet maillé dans un format de fichier maillé. Plusieurs formats de fichiers sont pris en charge.
@@ -52,4 +54,7 @@ Mesh.export([doc.Cone, doc.Cylinder], 'D:/testfiles/mymodel.stl')
 
 {{Mesh Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Export/fr

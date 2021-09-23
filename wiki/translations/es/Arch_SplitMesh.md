@@ -7,6 +7,8 @@
    SeeAlso:[Seleccionar Mallas no sólidas](Arch_SelectNonSolidMeshes/es.md)
 ---
 
+# Arch SplitMesh/es
+
 
 </div>
 
@@ -87,11 +89,5 @@ mesh_obj.ViewObject.DisplayMode = "Flat Lines"
 new_list = Arch.splitMesh(mesh_obj)
 ```
 
-
-
-
-
-
-
-
-
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SplitMesh/es

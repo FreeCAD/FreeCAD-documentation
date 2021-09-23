@@ -1,5 +1,5 @@
 # FEM Beginner tutorial/pl
- {{TutorialInfo/pl
+{{TutorialInfo/pl
 |Topic=FEM dla początkujących
 |Level=początkujący
 |Time=nieokreślony
@@ -22,9 +22,7 @@
 
 ### Aktywacja Środowiska pracy FEM i kontrola funkcji 
 
-### Modyfikacja belki, nowe obliczenia 
+### Modyfikacja belki, nowe obliczenia
 
-
-
-
-
+---
+[documentation index](../README.md) > FEM Beginner tutorial/pl

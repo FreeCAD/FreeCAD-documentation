@@ -1,6 +1,4 @@
 # Crowdin Administration/en
-
-
 ## Roles
 
 -   Translator
@@ -41,3 +39,6 @@
 
 
 [Category:Administration](Category:Administration.md)
+
+---
+[documentation index](../README.md) > [Administration](Category:Administration.md) > Crowdin Administration/en

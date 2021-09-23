@@ -7,6 +7,8 @@
    SeeAlso:[FEM tutorial](FEM_tutorial.md)
 ---
 
+# FEM ResultsPurge
+
 ## Description
 
 Deletes all the result objects from the active analysis container in [Tree view](Tree_view.md).
@@ -23,4 +25,7 @@ TODO: Add Before and After screenshot
 
 
 
- {{FEM Tools navi}}  
+ {{FEM Tools navi}}
+
+---
+[documentation index](../README.md) > FEM ResultsPurge

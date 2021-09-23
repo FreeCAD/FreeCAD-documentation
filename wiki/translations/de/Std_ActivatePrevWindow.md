@@ -7,6 +7,8 @@
    SeeAlso:[Std NächstesFensterAktivieren](Std_ActivateNextWindow/de.md), [Std Fenster](Std_Windows/de.md)
 ---
 
+# Std ActivatePrevWindow/de
+
 ## Beschreibung
 
 Der **Std VorherigesFenster**-Befehl funktioniert nicht korrekt [1](https://forum.freecadweb.org/viewtopic.php?f=3&t=45157).
@@ -28,4 +30,7 @@ Fenster im Hauptansichtsbereich sind auch im **Fenster**-Menü aufgeführt und k
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ActivatePrevWindow/de

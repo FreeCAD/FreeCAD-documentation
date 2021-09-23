@@ -1,3 +1,4 @@
+# Sketcher ConstrainRadius/it
 ---
 - GuiCommand:/it   Name:Sketcher_ConstrainRadius   Name/it:Raggio   Workbenches:[MenuLocation:Schizzo → Vincoli → Raggio   SeeAlso:[[Sketcher ConstrainDistance/it|Distanza orizzontale](Sketcher_Workbench/it___Schizzo]].md), [Distanza verticale](Sketcher_ConstrainDistanceY/it.md)---
 
@@ -44,4 +45,7 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainRadius/it

@@ -7,6 +7,8 @@
    Workbenches:[OpenSCAD](OpenSCAD_Workbench/it.md)
 ---
 
+# OpenSCAD ResizeMeshFeature/it
+
 
 </div>
 
@@ -54,4 +56,7 @@ Mesh.show(resized_mesh)
 
 {{OpenSCAD_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD ResizeMeshFeature/it

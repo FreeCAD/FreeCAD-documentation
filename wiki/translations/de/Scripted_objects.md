@@ -1,7 +1,4 @@
 # Scripted objects/de
-
-
-
 {{TOCright}}
 
 ## Einführung
@@ -908,3 +905,6 @@ Zusätzlich zu den hier vorgestellten Beispielen solltedz du einen Blick in den 
 }} 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Scripted objects/de

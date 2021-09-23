@@ -7,6 +7,8 @@
    SeeAlso:[Std ViewFitAll](Std_ViewFitAll.md)
 ---
 
+# Std ViewFitSelection/en
+
 ## Description
 
 The **Std ViewFitSelection** command zooms and pans the camera so that all selected objects fit inside the active [3D view](3D_view.md).
@@ -42,4 +44,7 @@ FreeCADGui.SendMsgToActiveView('ViewSelection')
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ViewFitSelection/en

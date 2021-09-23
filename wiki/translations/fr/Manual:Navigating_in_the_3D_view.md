@@ -1,10 +1,4 @@
 # Manual:Navigating in the 3D view/fr
- 
-
-
-
-
-
 {{Manual:TOC/fr}}
 
 ### Un mot sur l\'espace 3D 
@@ -104,6 +98,5 @@ Vous pouvez également utiliser l\'affichage de sélection pour sélectionner de
 -   [Les modes de navigation FreeCAD](Mouse_navigation/fr.md)
 -   [Le cube de navigation](Navigation_Cube/fr.md)
 
-
-
-
+---
+[documentation index](../README.md) > Manual:Navigating in the 3D view/fr

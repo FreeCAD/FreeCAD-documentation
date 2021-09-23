@@ -1,5 +1,5 @@
 # Macro BoundingBox Tracing/de
- {{Macro/de
+{{Macro/de
 |Name=Macro BoundingBox Tracing
 |Translate=Macro BoundingBox Tracing
 |Icon=BoundBoxTracing.png
@@ -454,3 +454,6 @@ ver 0.6 le 08/08/2017: Textinformationsdimension hinzufügen, Container für Rec
 ver 0.5 le 08/05/2017 : nimm jetzt das \"mesh\" und \"points\" danke wmayer [Makro Bounding-Box für STL importierte Teile und für Punktewolken](http://forum.freecadweb.org/viewtopic.php?f=13&t=22331)
 
 ver 0.4 le 04/06/2016 : test if value = 0 then not create boundbox (ex: object Draft)
+
+---
+[documentation index](../README.md) > Macro BoundingBox Tracing/de

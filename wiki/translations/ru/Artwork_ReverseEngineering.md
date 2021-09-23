@@ -1,6 +1,4 @@
 # Artwork ReverseEngineering/ru
- 
-
 Эти иконки находятся в указанной исходной папке.
 
 Для всех иконок в исходнике смотри [Художественное оформление](Artwork/ru.md).
@@ -21,3 +19,6 @@
 }} 
 
 [Category:Reverse Engineering](Category:Reverse_Engineering.md)
+
+---
+[documentation index](../README.md) > [Reverse Engineering](Category:Reverse Engineering.md) > Artwork ReverseEngineering/ru

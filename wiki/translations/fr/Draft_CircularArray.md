@@ -8,6 +8,8 @@
    SeeAlso:[Draft Réseau orthogonal](Draft_OrthoArray.md), [Draft Réseau polaire](Draft_PolarArray/fr.md), [Draft Chemin pour série de copies](Draft_PathArray/fr.md), [Draft Réseau lié selon une courbe](Draft_PathLinkArray/fr.md), [Draft Réseau de points](Draft_PointArray/fr.md), [Draft Réseau lié selon des points](Draft_PointLinkArray/fr.md)
 ---
 
+# Draft CircularArray/fr
+
 ## Description
 
 La commande <img alt="" src=images/Draft_CircularArray.svg  style="width:24px;"> **Draft Réseau circulaire** crée un réseau à partir d\'un objet sélectionné en plaçant des copies le long de circonférences concentriques. La commande peut éventuellement créer un réseau [Link](App_Link/fr.md), plus efficace qu\'un réseau normal.
@@ -114,8 +116,5 @@ array = Draft.make_circular_array(tri, 1800, 1200, 4, 1)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft CircularArray/fr

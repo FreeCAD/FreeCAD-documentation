@@ -7,6 +7,8 @@
    Version:0.17
 ---
 
+# Spreadsheet AlignRight/de
+
 ## Beschreibung
 
 Das **<img src=images/Spreadsheet_AlignRight.svg style="width:16px"> [Kalkulationstabelle RechtsAusrichten](Spreadsheet_AlignRight/de.md)** bewirkt, dass der Text innerhalb der Zelle nach rechts ausgerichtet wird.
@@ -23,4 +25,7 @@ Das **<img src=images/Spreadsheet_AlignRight.svg style="width:16px"> [Kalkulatio
 
 {{Spreadsheet_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet AlignRight/de

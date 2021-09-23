@@ -7,6 +7,8 @@
    Shortcut:**E**
 ---
 
+# SheetMetal Extrude/fr
+
 ## Description
 
 La commande <img alt="" src=images/SheetMetal_Extrude.svg  style="width:24px;"> **SheetMetal Extrude** étend une face de tôle.
@@ -92,3 +94,6 @@ Un objet SheetMetal Prolonger une face est dérivé d\'un objet [Part Feature](P
 
 
 [Category:SheetMetal](Category:SheetMetal.md) [Category:Addons](Category:Addons.md) [Category:External Command Reference](Category:External_Command_Reference.md)
+
+---
+[documentation index](../README.md) > [SheetMetal](Category:SheetMetal.md) > SheetMetal Extrude/fr

@@ -1,5 +1,5 @@
 # Macro FCCircularText
-  {{Macro
+{{Macro
 |Name=Macro FCCircularText
 |Icon=FCCircularTextButtom.png
 |Description={{ColoredText|#ff0000|#ffffff|Latest macro version supports a HiDPI layout (QGridLayout) and runs only on versions 0.18 or higher (requires PySide2/Qt5)}}<br/><br/>For backward compatible version of the macro see [https://gist.githubusercontent.com/mario52a/a25e802498bae6959335/raw/db47f78f2b20a35137ac213b8d1a62d30f525dcb/Macro_FCCircularText.FCMacro FCCircularText] and install manually. <br/><br/>This macro makes use of the [[Draft ShapeString]] tool to create a text line placed in different circular orientations, including circumferential and helical (in the fashion of a Trajan Column). It can also be used to create a clock face with Arabic numerals ''1, 2, 3,'' etc., or Roman numerals ''I, II, III,'' etc.
@@ -872,4 +872,5 @@ replace
 
 To comment on the [Extrude from curved surface of cylinder](http://forum.freecadweb.org/viewtopic.php?f=3&t=7384)
 
-   
+---
+[documentation index](../README.md) > Macro FCCircularText

@@ -7,6 +7,8 @@
    SeeAlso:[Draft BezCurve](Draft_BezCurve.md), [Draft BSpline](Draft_BSpline.md)
 ---
 
+# Draft CubicBezCurve/pt-br
+
 ## Descrição
 
 The <img alt="" src=images/Draft_CubicBezCurve.svg  style="width:24px;"> **Draft CubicBezCurve** command creates a [Bézier curve](http://en.wikipedia.org/wiki/Bezier_curve) of the third degree (four points required).
@@ -155,5 +157,5 @@ doc.recompute()
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft CubicBezCurve/pt-br

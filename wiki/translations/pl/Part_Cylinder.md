@@ -7,6 +7,8 @@
    SeeAlso:[Bryły pierwotne](Part_CreatePrimitives/pl.md)
 ---
 
+# Part Cylinder/pl
+
 ## Opis
 
 Tworzy zwykły walec, z parametrami dotyczącymi jego położenia, kąta, promienia i wysokości.
@@ -36,8 +38,5 @@ Właściwości walca mogą być później edytowane w [edytorze właściwości](
 
 -    **Kąt drugi**: Kąt w drugim kierunku {{Version/pl|0.20}}.
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Cylinder/pl

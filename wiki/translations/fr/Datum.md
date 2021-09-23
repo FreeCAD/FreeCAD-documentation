@@ -1,6 +1,4 @@
 # Datum/fr
-
-
 ## Introduction
 
 Dans FreeCAD, le mot \"[Datum](Datum/fr.md)\" est normalement utilisé pour faire référence à la géométrie auxiliaire dans l\'[Atelier PartDesign](PartDesign_Workbench/fr.md). Ces éléments géométriques ne feront pas partie de la [Shape](Shape/fr.md) (forme) finale du [Body](Body/fr.md) (corps) mais peuvent être utilisés comme références et supports pour les [Esquisses](Sketch/fr.md) et d\'autres types de [features](Feature/fr.md) (fonctions).
@@ -46,3 +44,6 @@ Depuis leur apparition dans la v0.17, les objets de référence étaient destin�
 }} {{Document objects navi}} 
 
 [Category:Glossary](Category:Glossary.md)
+
+---
+[documentation index](../README.md) > [Glossary](Category:Glossary.md) > Datum/fr

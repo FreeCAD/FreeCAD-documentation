@@ -1,3 +1,4 @@
+# Arch Building/cs
 ---
 - GuiCommand:/cs   Name:Arch Building   Name/cs:Arch Budova   Workbenches:[MenuLocation:Arch → Building   Shortcut:B U   SeeAlso:[[Arch Floor/cs|Arch Podlaží](Arch_Workbench/cs___Architektura]].md), [Arch Staveniště](Arch_Site/cs.md)---
 
@@ -100,5 +101,5 @@ FreeCAD.ActiveDocument.recompute()
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Building/cs

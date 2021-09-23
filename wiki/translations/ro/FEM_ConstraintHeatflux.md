@@ -1,3 +1,4 @@
+# FEM ConstraintHeatflux/ro
 ---
 - GuiCommand:   Name:FEM ConstraintHeatflux   MenuLocation:Model → Thermal Constraints → Constraint heatflux   |Workbenches:[Shortcut:   SeeAlso:[[FEM_tutorial|FEM tutorial](FEM_Workbench___FEM]].md)---
 
@@ -36,4 +37,7 @@ Această constrângere specifică schimbul de căldură (transferul de căldură
 
 {{FEM Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > FEM ConstraintHeatflux/ro

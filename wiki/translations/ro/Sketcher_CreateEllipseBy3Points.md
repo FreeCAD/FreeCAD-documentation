@@ -9,6 +9,8 @@
    SeeAlso:[Sketcher Ellipse by center](Sketcher_CreateEllipseByCenter/ro.md), [Sketcher Circle](Sketcher_CreateCircle/ro.md), [Sketcher Arc of Ellipse](Sketcher_CreateArcOfEllipse/ro.md)
 ---
 
+# Sketcher CreateEllipseBy3Points/ro
+
 
 </div>
 
@@ -54,4 +56,7 @@ When starting the tool, the mouse pointer changes to a white cross with a red el
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateEllipseBy3Points/ro

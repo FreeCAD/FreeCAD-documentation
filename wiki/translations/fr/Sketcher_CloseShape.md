@@ -8,6 +8,8 @@
    Version:0.15
 ---
 
+# Sketcher CloseShape/fr
+
 ## Description
 
 Cet outil peut être utilisé pour fermer un contour sélectionné dans l\'esquisse en faisant coïncider une extrémité d\'un élément d\'esquisse avec l\'extrémité de l\'élément d\'esquisse sélectionné ensuite.
@@ -30,4 +32,7 @@ L\'outil va connecter les éléments dans l\'ordre de leur sélection, alors ass
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CloseShape/fr

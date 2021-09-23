@@ -8,6 +8,8 @@
    SeeAlso:[Primitive additive](PartDesign_CompPrimitiveAdditive/it.md)
 ---
 
+# PartDesign AdditiveBox/it
+
 
 </div>
 
@@ -73,4 +75,7 @@ Dopo la sua creazione il cubo può essere modificato in due modi:
 
 {{PartDesign Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveBox/it

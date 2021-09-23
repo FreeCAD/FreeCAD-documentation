@@ -1,7 +1,4 @@
 # Flamingo Workbench/de
- 
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -534,3 +531,6 @@ Neue Arbeitsbereiche sind in Entwicklung, bleib dran!
 
 
 [Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+
+---
+[documentation index](../README.md) > Flamingo Workbench/de

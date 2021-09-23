@@ -8,6 +8,8 @@
    SeeAlso:[PartDesign Primitives additives](PartDesign_CompPrimitiveAdditive/fr.md)
 ---
 
+# PartDesign AdditiveSphere/fr
+
 ## Description
 
 Insére une sphère primitive dans un corps actif (body) comme fonction de base, ou la fusionne avec les fonctions existantes.
@@ -48,4 +50,7 @@ La Sphère peut être éditée après sa création de deux façons:
 
 {{PartDesign Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveSphere/fr

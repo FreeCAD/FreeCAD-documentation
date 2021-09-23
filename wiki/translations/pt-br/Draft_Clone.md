@@ -8,6 +8,8 @@
    SeeAlso:[Draft Scale](Draft_Scale/pt-br.md)
 ---
 
+# Draft Clone/pt-br
+
 
 </div>
 
@@ -95,5 +97,5 @@ doc.recompute()
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Clone/pt-br

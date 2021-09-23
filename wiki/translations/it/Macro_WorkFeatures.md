@@ -1,5 +1,5 @@
 # Macro WorkFeatures/it
- {{Macro/it
+{{Macro/it
 |Name=Macro WorkFeatures
 |Icon=WF_wf.png
 |Translate=WorkFeatures
@@ -560,3 +560,6 @@ Data 2019-05-01 (YYYY-MM-DD)
  
 
 [Category:Addons/it](Category:Addons/it.md) [Category:User Documentation/it](Category:User_Documentation/it.md) [Category:Addons](Category:Addons.md) [Category:User Documentation](Category:User_Documentation.md)
+
+---
+[documentation index](../README.md) > [Addons](Category:Addons.md) > Macro WorkFeatures/it

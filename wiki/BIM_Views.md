@@ -6,6 +6,8 @@
    MenuLocation:Manage → Views
 ---
 
+# BIM Views
+
 ## Description
 
 The BIM views and levels manager is a dockable window that opens below the normal tree view, that contains all the [BuildingParts](Arch_BuildingPart.md) and [Working Plane Proxies](Draft_WorkingPlaneProxy.md) of your model.
@@ -33,3 +35,6 @@ The BIM views manager will show all the levels (building parts) and working plan
  {{BIM Tools navi}}
 
 [Category:External Command Reference](Category:External_Command_Reference.md)
+
+---
+[documentation index](../README.md) > [External Command Reference](Category:External Command Reference.md) > BIM Views

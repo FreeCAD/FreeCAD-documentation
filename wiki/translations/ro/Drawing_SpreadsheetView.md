@@ -1,3 +1,4 @@
+# Drawing SpreadsheetView/ro
 ---
 - GuiCommand:   Name:Drawing SpreadsheetView   Workbenches:[[Drawing Workbench   Drawing]]|MenuLocation:Drawing → Spreadsheet View---
 
@@ -48,4 +49,7 @@ Acest instrument vă permite să plasați o vizualizarea [spreadsheet](Spreadshe
 
 {{Drawing Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing SpreadsheetView/ro

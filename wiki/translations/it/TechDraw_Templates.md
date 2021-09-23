@@ -1,7 +1,4 @@
 # TechDraw Templates/it
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -113,4 +110,7 @@ La clausola **xml:space=\"preserve\"** causa a volte problemi di dimensioni e po
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Templates/it

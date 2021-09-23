@@ -8,6 +8,8 @@
    SeeAlso:[Entwurf BézKurve](Draft_BezCurve/de.md), [Entwurf BSpline](Draft_BSpline/de.md), 
 ---
 
+# Draft CubicBezCurve/de
+
 ## Beschreibung
 
 Der <img alt="" src=images/Draft_CubicBezCurve.svg  style="width:24px;"> **Draft\_CubicBezCurve/de\|Entwurf KubischeBézKurve**-Befehl erstellt eine [Bézierkurve](https://de.wikipedia.org/wiki/B%C3%A9zierkurve) dritten Grades (vier Punkte erforderlich).
@@ -150,8 +152,5 @@ B7.ViewObject.DrawStyle = "Dashed"
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft CubicBezCurve/de

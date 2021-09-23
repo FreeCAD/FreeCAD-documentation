@@ -7,6 +7,8 @@
    SeeAlso:[Draft Plan de travail](Draft_SelectPlane/fr.md)
 ---
 
+# Draft WorkingPlaneProxy/fr
+
 ## Description
 
 La commande <img alt="" src=images/Draft_WorkingPlaneProxy.svg  style="width:24px;"> **Draft Proxy de plan de travail** crée un proxy de plan de travail pour sauvegarder le [Draft Plan de travail](Draft_SelectPlane/fr.md) en cours. Un proxy proxy de plan de travail peut être utilisé pour restaurer rapidement un plan de travail. La position de la caméra et la visibilité des objets dans la [Vue 3D](3D_view/fr.md) sont également enregistrées dans le proxy de plan de travail et peuvent, [optionnellement](#Propri.C3.A9t.C3.A9s.md), être restaurées également.
@@ -117,8 +119,5 @@ Gui.Snapper.setGrid()
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft WorkingPlaneProxy/fr

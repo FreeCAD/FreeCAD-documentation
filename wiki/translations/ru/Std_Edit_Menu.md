@@ -1,10 +1,4 @@
-# Std Edit Menu/ru
-
-
-
-
-
-<img alt="Иконка стандартных инструментов" src=images/Freecad.svg  style="width:128px;">
+# <img alt="Иконка стандартных инструментов" src=images/Freecad.svg  style="width:64px;"> Std Edit Menu/ru
 
 
 {{TOCright}}
@@ -81,3 +75,6 @@
 }}  
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > [Workbenches](Category:Workbenches.md) > Std Edit Menu/ru

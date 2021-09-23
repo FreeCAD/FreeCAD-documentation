@@ -1,7 +1,4 @@
 # Main Page/pt-br
- 
-
-
 <div class="mw-translate-fuzzy">
 
 ## Introdução
@@ -72,3 +69,6 @@ Visite o [Mapa de desenvolvimento](Development_roadmap/pt-br.md) para ver notíc
 
 
 [Category:Documentation](Category:Documentation.md)
+
+---
+[documentation index](../README.md) > [Documentation](Category:Documentation.md) > Main Page/pt-br

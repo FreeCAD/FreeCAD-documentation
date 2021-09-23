@@ -1,10 +1,4 @@
 # Getting started/pl
-
-
-
-
-
-
 {{TOCright}}
 
 ## Przedmowa
@@ -175,3 +169,6 @@ I na końcu, jedną z najpotężniejszych cech FreeCAD jest środowisko [skrypto
 {{Userdocnavi/pl}}
 
 [Category:User Documentation/pl](Category:User_Documentation/pl.md)
+
+---
+[documentation index](../README.md) > Getting started/pl

@@ -1,3 +1,4 @@
+# TechDraw RadiusDimension/ro
 ---
 - GuiCommand:   Name:TechDraw  Dimension Radius   Workbenches:[[TechDraw_Workbench   TechDraw]]|MenuLocation:TechDraw → Dimension Radius   Shortcut:   SeeAlso:---
 
@@ -65,4 +66,7 @@ rc = page.addView(dim1)
 
 {{TechDraw Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw RadiusDimension/ro

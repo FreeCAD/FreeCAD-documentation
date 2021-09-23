@@ -8,6 +8,8 @@
    SeeAlso:[Std Plein écran](Std_ViewFullscreen/fr.md)
 ---
 
+# Std MainFullscreen/fr
+
 ## Description
 
 La commande **Std Plein écran principal** bascule le mode plein écran de la fenêtre principale de FreeCAD.
@@ -24,4 +26,7 @@ La commande **Std Plein écran principal** bascule le mode plein écran de la fe
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std MainFullscreen/fr

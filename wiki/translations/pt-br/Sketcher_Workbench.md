@@ -1,10 +1,4 @@
-# Sketcher Workbench/pt-br
-
-
-
-
-
-<img alt="Ícone da Sketcher workbench" src=images/Workbench_Sketcher.svg  style="width:128px;">
+# <img alt="Ícone da Sketcher workbench" src=images/Workbench_Sketcher.svg  style="width:64px;"> Sketcher Workbench/pt-br
 
 
 {{TOCright}}
@@ -507,3 +501,6 @@ A página [Sketcher scripting](Sketcher_scripting/pt-br.md) contém exemplos de 
 }} 
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Sketcher Workbench/pt-br

@@ -1,5 +1,5 @@
 # WikiRobots/fr
- **Les robots sont intrinsèquement dangereux car ils peuvent automatiquement faire beaucoup de dégâts. Utilisez-les avec une extrême prudence!**
+**Les robots sont intrinsèquement dangereux car ils peuvent automatiquement faire beaucoup de dégâts. Utilisez-les avec une extrême prudence!**
 
 ## Présentation
 
@@ -154,3 +154,6 @@ Remplacer une chaîne dans toutes les pages listées dans la catégorie Arch (co
 {{SystemInput|python3 pwb.py replace.py -cat:Arch}}
 
 [Category:Arch](Category:Arch.md) [Category:Administration](Category:Administration.md) [Category:Developer](Category:Developer.md)
+
+---
+[documentation index](../README.md) > [Administration](Category:Administration.md) > WikiRobots/fr

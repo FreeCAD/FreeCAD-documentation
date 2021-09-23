@@ -1,7 +1,4 @@
 # Macro Visibility Manager
- 
-
-
 {{Macro
 |Name=Visibility_Manager
 |Icon=Macro_Visibility_Manager.png
@@ -239,3 +236,5 @@ else:
     FreeCAD.Console.PrintWarning("Visibility Manager v"+str(__version__)+": no active document\n")
 ```
 
+---
+[documentation index](../README.md) > Macro Visibility Manager

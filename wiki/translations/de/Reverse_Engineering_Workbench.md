@@ -1,10 +1,4 @@
-# Reverse Engineering Workbench/de
-
-
-
-
-
-<img alt="Arbeitsbereichssymbol Rekonstruktionsingenieurwissenschaften" src=images/Workbench_Reverse_Engineering.svg  style="width:128px;">
+# <img alt="Arbeitsbereichssymbol Rekonstruktionsingenieurwissenschaften" src=images/Workbench_Reverse_Engineering.svg  style="width:64px;"> Reverse Engineering Workbench/de
 
 ## Introduction
 
@@ -37,3 +31,6 @@ Mit geeigneten Themen im Forum, die diesen Arbeitsbereich behandeln, verknüpfen
 
 
 [Category:Reverse Engineering](Category:Reverse_Engineering.md) [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Reverse Engineering Workbench/de

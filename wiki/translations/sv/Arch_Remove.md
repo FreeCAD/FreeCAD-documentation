@@ -7,6 +7,8 @@
    SeeAlso:[[Arch Add/sv]]
 ---
 
+# Arch Remove/sv
+
 
 </div>
 
@@ -102,8 +104,5 @@ FreeCAD.ActiveDocument.recompute()
 
 </div>
 
-
-
-
-
-
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Remove/sv

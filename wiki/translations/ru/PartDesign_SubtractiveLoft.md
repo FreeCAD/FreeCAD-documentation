@@ -8,6 +8,8 @@
    SeeAlso:[Аддитивный профиль](PartDesign_AdditiveLoft/ru.md), [Субтрактивный трубный профиль](PartDesign_SubtractivePipe/ru.md)
 ---
 
+# PartDesign SubtractiveLoft/ru
+
 ## Описание
 
 **Субтрактивный профиль** создает субтрактивное твердое тело в активном теле путем перехода между двумя или более эскизами (также называемыми поперечными сечениями). После чего данная форма вычитается из существующего твердого тела.
@@ -72,4 +74,7 @@
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveLoft/ru

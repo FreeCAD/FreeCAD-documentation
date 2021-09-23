@@ -9,6 +9,8 @@
    SeeAlso:[Part](Std_Part/es.md)
 ---
 
+# PartDesign Body/es
+
 
 </div>
 
@@ -294,4 +296,7 @@ App.ActiveDocument.recompute()
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Body/es

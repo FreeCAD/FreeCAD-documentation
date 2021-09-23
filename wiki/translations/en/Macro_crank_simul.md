@@ -1,5 +1,5 @@
 # Macro crank simul/en
- {{Macro
+{{Macro
 |Name=Crank Simul
 |Icon=Macro_crank_simul.png
 |Description=My simple animation uses sketch and sketcher solver to determine piston position and conrod position/rotation. 
@@ -80,6 +80,5 @@ The forum discussion [Inline-four engine animation](http://forum.freecadweb.org/
 
 The blog [freecad-tutorial.blogspot](http://freecad-tutorial.blogspot.be/)
 
-
-
-
+---
+[documentation index](../README.md) > Macro crank simul/en

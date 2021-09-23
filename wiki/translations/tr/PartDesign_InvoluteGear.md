@@ -6,6 +6,8 @@
    Workbenches:[PartDesign](PartDesign_Workbench.md)
 ---
 
+# PartDesign InvoluteGear/tr
+
 
 </div>
 
@@ -54,4 +56,7 @@
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign InvoluteGear/tr

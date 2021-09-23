@@ -1,3 +1,4 @@
+# Part Point/cs
 ---
 - GuiCommand:/cs   Name:Part Point   Name/cs:Díl Bod   MenuLocation:Díl → [Workbenches:[[Part_Workbench/cs   Díl](Part_CreatePrimitives/cs___Vytváření_zákl.geom.tvarů]] → Bod.md), [OpenSCAD](OpenSCAD_Workbench/cs.md)|SeeAlso:..---
 
@@ -89,4 +90,7 @@ Bod (vrchol) základního geometrického tělesa je dostupný z dialogového okn
 
 {{Part_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Point/cs

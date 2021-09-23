@@ -1,10 +1,4 @@
-# Part Module/pl
-
-
-
-
-
-<img alt="Ikonka FreeCAD dla Środowiska pracy Part" src=images/Workbench_Part.svg  style="width:128px;">
+# <img alt="Ikonka FreeCAD dla Środowiska pracy Part" src=images/Workbench_Part.svg  style="width:64px;"> Part Module/pl
 
 
 {{TOCright}}
@@ -202,3 +196,6 @@ Zobacz również: [skrypty dla środowiska Część](Part_scripting/pl.md)
  
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Module/pl

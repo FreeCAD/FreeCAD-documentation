@@ -7,6 +7,8 @@
    Version:0.17
 ---
 
+# Spreadsheet StyleItalic/de
+
 ## Beschreibung
 
 Das **<img src=images/Spreadsheet_StyleItalic.svg style="width:16px"> [Kalkulationstabelle StilKursiv](Spreadsheet_StyleItalic/de.md)** Werkzeug bewirkt, dass der Text innerhalb der Zelle den Stil **kursiv** erhält.
@@ -23,4 +25,7 @@ Das **<img src=images/Spreadsheet_StyleItalic.svg style="width:16px"> [Kalkulati
 
 {{Spreadsheet_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet StyleItalic/de

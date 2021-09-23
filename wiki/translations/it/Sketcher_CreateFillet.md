@@ -1,3 +1,4 @@
+# Sketcher CreateFillet/it
 ---
 - GuiCommand:/it   Name:Sketcher CreateFillet   Name/it:Raccordo   Workbenches:[[Sketcher Workbench/it   Sketcher]]|MenuLocation:Sketch → Geometrie → Raccordo   Shortcut:F   SeeAlso:---
 
@@ -46,4 +47,7 @@ Dopo l\'esecuzione di un raccordo, lo strumento rimane attivo e permette di eseg
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateFillet/it

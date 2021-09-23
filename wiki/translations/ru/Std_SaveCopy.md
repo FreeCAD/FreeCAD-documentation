@@ -7,6 +7,8 @@
    SeeAlso:[Сохранить](Std_Save/ru.md),<br> [Сохранить как...](Std_SaveAs/ru.md) 
 ---
 
+# Std SaveCopy/ru
+
 ## Описание
 
 Команда **Сохранить копию\...** сохраняет копию активного документа под новым названием.
@@ -56,4 +58,7 @@ doc.saveCopy(fnm)
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std SaveCopy/ru

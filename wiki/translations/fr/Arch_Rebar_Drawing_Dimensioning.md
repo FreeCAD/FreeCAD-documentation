@@ -8,6 +8,8 @@
    SeeAlso:[Reinforcement](Reinforcement_Workbench/fr.md), [Arch Nomenclature armature](Arch_Rebar_BOM/fr.md), [Reinforcement Nomenclature de façonnage des armatures](Reinforcement_Bar_Shape_Cut_List.md)
 ---
 
+# Arch Rebar Drawing Dimensioning/fr
+
 ## Description
 
 L\'outil [Dessins dimensions](Arch_Rebar_Drawing_Dimensioning/fr.md) permet à l\'utilisateur de créer un dessin d\'armatures et de leurs donner des dimensions.
@@ -1077,3 +1079,6 @@ for visible_rebar in visible_rebars:
 
 
 [Category:External Command Reference](Category:External_Command_Reference.md) [Category:Reinforcement](Category:Reinforcement.md)
+
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Rebar Drawing Dimensioning/fr

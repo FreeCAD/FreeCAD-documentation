@@ -7,6 +7,8 @@
    SeeAlso:[Скругление](PartDesign_Fillet/ru.md), [Фаска](Part_Chamfer/ru.md)
 ---
 
+# PartDesign Chamfer/ru
+
 ## Описание
 
 This tool creates chamfers on the selected edges of an object. A new separate Chamfer entry (followed by a consecutive number if there are already existing chamfers in the document) is created in the Project tree.
@@ -36,4 +38,7 @@ This tool creates chamfers on the selected edges of an object. A new separate Ch
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Chamfer/ru

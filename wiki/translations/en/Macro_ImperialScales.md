@@ -1,7 +1,4 @@
 # Macro ImperialScales/en
-
-
-
 {{Macro
 |Name=ImperialScales
 |Description=This macro shows a list of US Imperial Arch scales list with the corresponding factor to apply to TechDraw pages or views
@@ -173,3 +170,5 @@ dlg.show()
 </nowiki>
 }}
 
+---
+[documentation index](../README.md) > Macro ImperialScales/en

@@ -7,6 +7,8 @@
    SeeAlso:
 ---
 
+# Mesh PolyCut/de
+
 
 </div>
 
@@ -67,4 +69,7 @@ The **Mesh PolyCut** command cuts whole faces from mesh objects.
 
 {{Mesh Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh PolyCut/de

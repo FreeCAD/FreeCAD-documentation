@@ -1,6 +1,4 @@
 # Artwork Erroneous/de
- 
-
 Für alle Symbole im Quellbaum, siehe [Grafik](Artwork/de.md).
 
 
@@ -26,3 +24,6 @@ Für alle Symbole im Quellbaum, siehe [Grafik](Artwork/de.md).
 }}
 
 [Category:Icon](Category:Icon.md) [Category:Developer Documentation](Category:Developer_Documentation.md)
+
+---
+[documentation index](../README.md) > [Icon](Category:Icon.md) > Artwork Erroneous/de

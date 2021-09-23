@@ -1,5 +1,5 @@
 # Macro Geneva Wheel GUI/it
- {{Macro/it
+{{Macro/it
 |Name=Geneva Wheel GUI
 |Translate=Geneva Wheel GUI
 |Icon=GW_Dim.png
@@ -233,4 +233,7 @@ p()
 
 ## Link
 
-Questa macro è basata su [Macro Geneva Wheel](Macro_Geneva_Wheel/it.md) 
+Questa macro è basata su [Macro Geneva Wheel](Macro_Geneva_Wheel/it.md)
+
+---
+[documentation index](../README.md) > Macro Geneva Wheel GUI/it

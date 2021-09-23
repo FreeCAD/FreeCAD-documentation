@@ -6,6 +6,8 @@
    SeeAlso:[Sketcher LeaveSketch](Sketcher_LeaveSketch.md)
 ---
 
+# Sketcher EditSketch/pl
+
 ## Description
 
 This command will let you edit an existing sketch. It will open the [Sketcher Dialog](Sketcher_Dialog.md).
@@ -29,4 +31,7 @@ There are several ways to invoke the Edit Sketch command:
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher EditSketch/pl

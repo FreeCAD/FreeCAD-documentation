@@ -9,6 +9,8 @@
    SeeAlso:[CubicBezCurve](Draft_CubicBezCurve/pl.md), [Krzywa złożona](Draft_BSpline/pl.md)
 ---
 
+# Draft BezCurve/pl
+
 ## Description
 
 The <img alt="" src=images/Draft_BezCurve.svg  style="width:24px;"> **Draft BezCurve** command creates a [Bézier curve](http://en.wikipedia.org/wiki/Bezier_curve) from several points.
@@ -141,8 +143,5 @@ bezcurve3 = Draft.make_bezcurve([1.7*p3, 1.5*p4, 2.1*p2, p1], closed=True)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft BezCurve/pl

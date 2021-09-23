@@ -6,6 +6,8 @@
    SeeAlso:[Part Primitives](Part_Primitives.md)
 ---
 
+# Part Plane/pl
+
 ## Description
 
 Create a simple parametric plane 10 x 10 mm, with the parameters of position, length, and width. By default, the plane is positioned at the origin (0,0,0).
@@ -46,8 +48,5 @@ The properties of the object can be edited, either in the [Property editor](Prop
 
 You have the standard properties view.
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Plane/pl

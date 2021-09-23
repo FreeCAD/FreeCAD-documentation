@@ -9,6 +9,8 @@
    SeeAlso:[B-spline periodica](Sketcher_CreatePeriodicBSpline/it.md)
 ---
 
+# Sketcher CreateBSpline/it
+
 
 </div>
 
@@ -73,4 +75,7 @@ Questo strumento traccia una curva B-spline aperta dai suoi punti di controllo.
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateBSpline/it

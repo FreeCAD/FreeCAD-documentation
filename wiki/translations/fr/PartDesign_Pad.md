@@ -7,6 +7,8 @@
    SeeAlso:[PartDesign Cavité](PartDesign_Pocket/fr.md)
 ---
 
+# PartDesign Pad/fr
+
 ## Description
 
 L\'outil **<img src="images/PartDesign_Pad.svg" width=16px> [PartDesign Protrusion](PartDesign_Pad/fr.md)** extrude une esquisse sélectionnée dans une direction normale au plan de l\'esquisse. À partir de la {{VersionPlus/fr|0.17}} les faces sur un solide peuvent également être utilisées.
@@ -122,4 +124,7 @@ Inverse la direction de la protrusion.
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Pad/fr

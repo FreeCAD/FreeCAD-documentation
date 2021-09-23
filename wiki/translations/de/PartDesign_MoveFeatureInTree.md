@@ -9,6 +9,8 @@
    SeeAlso:[Spitze festlegen](PartDesign_MoveTip/de.md), [Verschiebe Objekt in anderen Körper](PartDesign_MoveFeature/de.md)
 ---
 
+# PartDesign MoveFeatureInTree/de
+
 
 </div>
 
@@ -53,4 +55,7 @@ Die folgenden drei Bilder zeigen dasselbe Modell mit einer auf einer Skizze defi
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign MoveFeatureInTree/de

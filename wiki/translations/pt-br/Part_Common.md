@@ -6,6 +6,8 @@
    SeeAlso:[Part Boolean](Part_Boolean.md), [Part Cut](Part_Cut.md), [Part Fuse](Part_Fuse.md)
 ---
 
+# Part Common/pt-br
+
 ## Description
 
 Extracts the common part (intersection) between selected Part objects. This operation is fully parametric and the components can be modified and the result recomputed.
@@ -19,8 +21,5 @@ Extracts the common part (intersection) between selected Part objects. This oper
 
 Input objects must be [OpenCascade](OpenCascade.md) shapes. Examples: stuff made with Part, PartDesign, Sketcher workbenches. Not meshes (unless those were converted to shapes) - for meshes, there are specific Boolean tools in MeshDesign workbench.
 
-
-
-
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Common/pt-br

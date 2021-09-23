@@ -1,5 +1,5 @@
 # Macro DeepCopy
-  {{Macro
+{{Macro
 |Name=Macro DeepCopy
 |Icon=Macro_DeepCopy.png
 |Description=Select a part in the tree, run the macro and it will create a compound with a copy of all its shapes. The part hierarchy is lost as well as all the special functionalities of the children of the original part. For example subparts, bodies, sketches, ... will be lost and their shape will be copied.
@@ -122,4 +122,5 @@ if __name__ == '__main__':
 
  [code on github](https://github.com/FreeCAD/FreeCAD-macros/blob/master/Conversion/DeepCopy.FCMacro)
 
- 
+---
+[documentation index](../README.md) > Macro DeepCopy

@@ -1,3 +1,4 @@
+# Std About/ru
 ---
 - GuiCommand:/ru
    Name:Std About
@@ -70,3 +71,6 @@ The Libraries tab shows a list of the external libraries used by the program, an
 {{Std Base navi}}  
 
 [Category:Common Questions](Category:Common_Questions.md)
+
+---
+[documentation index](../README.md) > [Common Questions](Category:Common Questions.md) > Std About/ru

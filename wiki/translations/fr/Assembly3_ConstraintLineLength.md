@@ -6,6 +6,8 @@
    Workbenches:[Assembly3](Assembly3_Workbench/fr.md)
 ---
 
+# Assembly3 ConstraintLineLength/fr
+
 ## Description
 
 Cet outil contraint la longueur d\'une ligne 2D comme un segment non fractionné réalisé avec l\'établi Draft par rapport à un plan de travail.
@@ -19,8 +21,5 @@ La longueur est fixée à une certaine valeur en modifiant le paramètre de long
 3.  Définissez la valeur **Longueur** dans le panneau des propriétés.
 4.  Appuyez sur le bouton **<img src="images/Assembly3_workbench_icon.svg" width=16px> [Solve constraints](Assembly3_ResolveConstraints/fr.md)** ou sur le bouton **<img src="images/Assembly_QuickSolve.svg" width=16px> [Quick solve](Assembly3_QuickSolve/fr.md)** pour recalculer.
 
-
-
-
-
-
+---
+[documentation index](../README.md) > Assembly3 ConstraintLineLength/fr

@@ -7,6 +7,8 @@
    Version:0.19
 ---
 
+# TechDraw CosmeticEraser/de
+
 ## Beschreibung
 
 Das KosmetikRadierer Werkzeug entfernt Kosmetikobjekte von der Seite. Kosmetikobjekte sind
@@ -43,4 +45,7 @@ Der KosmetikRadierer ist zur Zeit noch nicht zugänglich über [Makros](Macros/d
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw CosmeticEraser/de

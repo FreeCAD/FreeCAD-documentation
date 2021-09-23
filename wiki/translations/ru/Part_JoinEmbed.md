@@ -8,6 +8,8 @@
    SeeAlso:[Соединить объекты](Part_JoinConnect/ru.md), [Вырез объекта](Part_JoinCutout/ru.md), [Булевы операции](Part_Boolean/ru.md), [Толщина](Part_Thickness/ru.md)
 ---
 
+# Part JoinEmbed/ru
+
 ## Описание
 
 Embed tool embeds a walled object (e.g., a pipe) into another walled object.
@@ -86,8 +88,5 @@ j.Tool = FreeCADGui.Selection.getSelection()[1]
 
 The tool itself is implemented in Python, see {{FileName|/Mod/Part/JoinFeatures.py}} ([Github link](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Part/JoinFeatures.py)) under where FreeCAD is installed.
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part JoinEmbed/ru

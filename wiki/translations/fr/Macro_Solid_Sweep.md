@@ -1,5 +1,5 @@
 # Macro Solid Sweep/fr
- {{Macro/fr
+{{Macro/fr
 |Name=Balayage solide
 |Icon=Macro_Solid_Sweep.png
 |Description=Créé un solide en balayant un profil le long d'une trajectoire.
@@ -86,3 +86,6 @@ myObject.Shape = Sweep
 Merci à [Wmayer](User:Wmayer.md) sans l\'aide de qui je n\'aurais pu rédiger ce script.
 
 Deux exemples d\'utilisation peuvent être consultés dans [cette discussion du forum (en anglais)](http://forum.freecadweb.org/viewtopic.php?f=8&t=1222&start=50#p11120), ainsi que des liens de téléchargement des fichiers FCStd. En utilisant une hélice comme trajectoire, un balayage solide peut être utilisé pour créer un filet de vis.
+
+---
+[documentation index](../README.md) > Macro Solid Sweep/fr

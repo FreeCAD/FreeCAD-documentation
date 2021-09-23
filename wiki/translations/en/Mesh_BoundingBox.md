@@ -5,6 +5,8 @@
    Workbenches:[Mesh](Mesh_Workbench.md)
 ---
 
+# Mesh BoundingBox/en
+
 ## Description
 
 The **Mesh BoundingBox** command shows the bounding box coordinates of a mesh object.
@@ -25,4 +27,7 @@ The **Mesh BoundingBox** command shows the bounding box coordinates of a mesh ob
 
 {{Mesh Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh BoundingBox/en

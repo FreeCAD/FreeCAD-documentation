@@ -1,7 +1,4 @@
 # Getting started/ko
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -255,3 +252,6 @@ There are two types of addons:
 
 
 [Category:User Documentation](Category:User_Documentation.md)
+
+---
+[documentation index](../README.md) > Getting started/ko

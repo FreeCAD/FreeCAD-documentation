@@ -7,6 +7,8 @@
    SeeAlso:[FCInfo (Makro)](Macro_FCInfo/de.md), [Makro EinfacheEigenschaften (Makro)](Macro_SimpleProperties/de.md)
 ---
 
+# Arch Survey/de
+
 ## Beschreibung
 
 Das **<img src="images/Arch_Survey.svg" width=16px> [Arch Survey](Arch_Survey/de.md)** Werkzeug verwendet einen speziellen Vermessungsmodus, der es dir ermöglicht, Maße und Informationen schnell aus einem Modell zu entnehmen und diese Informationen auf andere Anwendungen zu übertragen. Wenn du dich im Vermessungsmodus befindest und auf verschiedene Unterelemente von 3D-Objekten klickst, werden je nachdem, worauf du klickst, die folgenden Informationen erfasst:
@@ -65,8 +67,5 @@ for obj in selection:
         print("Center of Mass: %f", element.CenterOfMass)
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Survey/de

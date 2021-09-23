@@ -5,6 +5,8 @@
    Workbenches:[Mesh](Mesh_Workbench.md)
 ---
 
+# Mesh Smoothing/pl
+
 ## Description
 
 The **Mesh Smoothing** command smooths mesh objects by changing the position of their vertices.
@@ -64,4 +66,7 @@ The **Mesh Smoothing** command smooths mesh objects by changing the position of 
 
 {{Mesh Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Smoothing/pl

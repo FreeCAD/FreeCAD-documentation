@@ -7,6 +7,8 @@
    SeeAlso:[View Measure Clear All](View_Measure_Clear_All.md), [Part Measure Toggle All](Part_Measure_Toggle_All.md), [Part Measure Clear All](Part_Measure_Clear_All.md)
 ---
 
+# View Measure Toggle All/ru
+
 ## Описание
 
 The **View Measure Toggle All** command toggles the display of the active [3D view](3D_view.md)\'s [Part](Part_Workbench.md) measurements.
@@ -27,4 +29,7 @@ The **View Measure Toggle All** command toggles the display of the active [3D vi
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > View Measure Toggle All/ru

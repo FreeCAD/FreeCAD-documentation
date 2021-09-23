@@ -9,6 +9,8 @@
    SeeAlso:[Clona componente](Draft_Clone/it.md) di Draft, [Componente](Arch_Component/it.md)
 ---
 
+# Arch CloneComponent/it
+
 
 </div>
 
@@ -47,5 +49,5 @@ Il componente clone ha semplicemente la sua proprietà **CloneOf** impostata sul
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CloneComponent/it

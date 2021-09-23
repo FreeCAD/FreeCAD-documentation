@@ -8,6 +8,8 @@
    SeeAlso:[Sketcher Basculer en géométrie de construction](Sketcher_ToggleConstruction/fr.md)
 ---
 
+# Sketcher External/fr
+
 ## Description
 
 L\'outil **<img src="images/Sketcher_External.svg" width=16px> [Géométrie externe](Sketcher_External/fr.md)** est utile lorsque vous avez besoin de créer une contrainte entre un élément de l\'esquisse et un élément hors de l\'esquisse. Il fonctionne en insérant une géométrie de construction liée dans l\'esquisse. La couleur par défaut des arêtes externes liés est magenta. Comme pour les géométries de construction non liée (bleu), la géométrie externe liée est visible uniquement lorsque l\'esquisse est en mode d\'édition, et n\'est pas utilisée directement dans le résultat subséquent. Les deux types de géométrie de construction sont utilisés en tant que référence pour les contraintes dans l\'esquisse.
@@ -77,4 +79,7 @@ Lorsque l\'esquisse est fermée, les lignes de géométrie externe ne sont pas v
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher External/fr

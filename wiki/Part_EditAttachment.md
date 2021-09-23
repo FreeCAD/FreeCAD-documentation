@@ -7,6 +7,8 @@
    SeeAlso:[Placement](Placement.md), [Basic Attachment Tutorial](Basic_Attachment_Tutorial.md), [Part Part2DObject](Part_Part2DObject.md)
 ---
 
+# Part EditAttachment
+
 ## Description
 
 **Part EditAttachment** is a utility to attach an object to another one. The attached object is linked to the other object, which means that if the latter\'s placement is changed afterwards, the attached object will update to its new position.
@@ -301,4 +303,7 @@ Attachment Offset is used to apply a linear or rotary offset from the referenced
 
 
 
- {{Part_Tools_navi}} 
+ {{Part_Tools_navi}}
+
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part EditAttachment

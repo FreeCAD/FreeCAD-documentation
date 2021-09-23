@@ -1,7 +1,4 @@
 # FreeCAD-Ship s60 tutorial (II)/de
-
-
-
 {{TutorialInfo/de
 |Topic=Schiff Arbeitsbereich
 |Level=Anfänger
@@ -200,3 +197,6 @@ Natürlich ist dieses Beispiel nicht real (erstens können die Treibstofftanks n
 {{Ship Tools navi
 
 }}
+
+---
+[documentation index](../README.md) > FreeCAD-Ship s60 tutorial (II)/de

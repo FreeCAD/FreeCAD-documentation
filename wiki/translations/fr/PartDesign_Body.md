@@ -8,6 +8,8 @@
    SeeAlso:[Std Part](Std_Part/fr.md), [Édition de fonctions](Feature_editing/fr.md)
 ---
 
+# PartDesign Body/fr
+
 ## Description
 
 Un [PartDesign Corps (Body)](PartDesign_Body/fr.md) est l\'élément de base pour créer des formes solides avec l\'[atelier PartDesign](PartDesign_Workbench/fr.md). Il peut contenir des [esquisses](Sketch/fr.md), des [objets Datum](Datum/fr.md) et des [PartDesign Fonctionnalités (Features)](PartDesign_Feature/fr.md) afin de produire un [simple solide contigu](PartDesign_Body/fr#Solide_contigu_unique.md).
@@ -290,4 +292,7 @@ App.ActiveDocument.recompute()
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Body/fr

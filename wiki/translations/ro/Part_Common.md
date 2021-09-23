@@ -7,6 +7,8 @@
    SeeAlso:[Part Union](Part_Union/ro.md), [Part Cut](Part_Cut/ro.md)
 ---
 
+# Part Common/ro
+
 
 </div>
 
@@ -78,8 +80,5 @@ Elementele de intrare trebuie să fie forme OpenCascade. Exemple: chestii realiz
 
 </div>
 
-
-
-
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Common/ro

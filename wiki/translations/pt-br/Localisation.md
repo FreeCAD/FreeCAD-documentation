@@ -1,7 +1,4 @@
 # Localisation/pt-br
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -251,3 +248,6 @@ FreeCADGui.setLocale('ru')
 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Wiki](Category:Wiki.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Localisation/pt-br

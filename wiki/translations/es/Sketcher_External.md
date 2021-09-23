@@ -8,6 +8,8 @@
    SeeAlso:[Croquizador ModoConstrucción](Sketcher_ToggleConstruction/es.md)
 ---
 
+# Sketcher External/es
+
 ## Descripción
 
 Usa la herramienta **<img src="images/Sketcher_External.svg" width=16px> [Geometría externa](Sketcher_External/es.md)** cuando necesites aplicar una restricción entre la geometría del croquis y algo fuera del mismo. Funciona insertando una geometría de construcción vinculada en el croquis. El color por defecto de los bordes vinculadas externamente es el magenta. Al igual que con la geometría de construcción no vinculada estándar (azul), la geometría vinculada externamente sólo es visible cuando el croquis está en modo de edición y no se utiliza directamente en el resultado posterior del uso del croquis en otra herramienta. Ambos tipos de geometría de construcción pueden utilizarse como referencia para las restricciones dentro del croquis.
@@ -77,4 +79,7 @@ When the sketch edit mode is closed, external Geometry lines are not visible.
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher External/es

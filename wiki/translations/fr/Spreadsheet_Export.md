@@ -8,6 +8,8 @@
    SeeAlso:[Spreadsheet Importer](Spreadsheet_Import/fr.md)
 ---
 
+# Spreadsheet Export/fr
+
 ## Description
 
 L\'outil **<img src=images/Spreadsheet_Export.svg style="width:16px"> [Spreadsheet Exporter](Spreadsheet_Export/fr.md)** vous permet d\'exporter une feuille de calcul sous la forme d\'un fichier de valeurs séparées par des tabulations (généralement désigné en CSV), qui peut ensuite être ouverte et utilisée dans d\'autres applications.
@@ -23,4 +25,7 @@ L\'outil **<img src=images/Spreadsheet_Export.svg style="width:16px"> [Spreadshe
 
 {{Spreadsheet_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet Export/fr

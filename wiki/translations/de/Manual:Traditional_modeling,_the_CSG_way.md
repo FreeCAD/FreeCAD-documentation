@@ -1,7 +1,4 @@
 # Manual:Traditional modeling, the CSG way/de
- 
-
-
 {{Manual:TOC/de}}
 
 CSG steht für [Konstruktive Festkörpergeometrie](https://de.wikipedia.org/wiki/Constructive_Solid_Geometry) (engl.: Constructive Solid Geometry) und beschreibt den grundlegendsten Weg, mit 3D Volumenkörpergeometrie zu arbeiten, nämlich die Erstellung komplexer Objekte durch Hinzufügen und Entfernen von Teilen zu/von Volumenkörpern mit Hilfe boolescher Operationen wie Vereinigung, Subtraktion oder Schnittmenge.
@@ -131,3 +128,6 @@ Du könntest den Tisch ansehen und denken, dass das Design nicht gut ist. Die Ve
 
 
 [Category:Tutorials/de](Category:Tutorials/de.md)
+
+---
+[documentation index](../README.md) > Manual:Traditional modeling, the CSG way/de

@@ -1,3 +1,4 @@
+# Part Helix/cs
 ---
 - GuiCommand:/cs   Name:Part Helix   Name/cs:Díl Šroubovice   MenuLocation:Díl → [Workbenches:[[Part_Workbench/cs   Díl](Part_CreatePrimitives/cs___Vytváření_zákl.geom.tvarů]] → Šroubovice.md), [OpenSCAD](OpenSCAD_Workbench/cs.md)|SeeAlso:..---
 
@@ -73,8 +74,5 @@ Když jste šroubovici vytvořili, máte ještě možnost upravit její parametr
 
 </div>
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Helix/cs

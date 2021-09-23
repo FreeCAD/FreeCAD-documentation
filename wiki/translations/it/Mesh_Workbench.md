@@ -1,7 +1,4 @@
 # Mesh Workbench/it
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -123,3 +120,6 @@ Le preferenze di Mesh si trovano nelle seguenti categorie dell\'[editor delle pr
 }} 
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Mesh Workbench/it

@@ -1,10 +1,4 @@
 # Getting started/bg
-
-
-
-
-
-
 {{TOCright}}
 
 ## Увод
@@ -348,3 +342,6 @@ There are two types of addons:
 
 
 [Category:User Documentation/bg](Category:User_Documentation/bg.md)
+
+---
+[documentation index](../README.md) > Getting started/bg

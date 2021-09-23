@@ -8,6 +8,8 @@
    SeeAlso:[Part ShapeFromMesh](Part_ShapeFromMesh/ru.md), [Part ConvertToSolid](Part_MakeSolid/ru.md), [Part RefineShape](Part_RefineShape/ru.md)
 ---
 
+# Part PointsFromMesh/ru
+
 
 </div>
 
@@ -35,8 +37,5 @@ There will be no analyzing or validating of the mesh object. Analyzing and repai
 
 ## Программирование
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part PointsFromMesh/ru

@@ -1,7 +1,4 @@
 # Aeroplane/zh-tw
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -184,4 +181,7 @@ I hope this little tutorial has helped you to get a feel for rotations.
 
 {{Tutorials navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Aeroplane/zh-tw

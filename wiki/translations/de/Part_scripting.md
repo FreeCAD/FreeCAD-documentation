@@ -1,7 +1,4 @@
 # Part scripting/de
-
-
-
 {{TOCright}}
 
 ## Einführung
@@ -156,3 +153,6 @@ Gehe auf die Seite [Topologisches Datenskripting](Topological_data_scripting/de.
 }}  
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part scripting/de

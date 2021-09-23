@@ -6,6 +6,8 @@
    MenuLocation:Manage → Setup
 ---
 
+# BIM Setup
+
 ## Description
 
 <img alt="" src=images/BIM_setup_screenshot.png  style="width:1024px;">
@@ -14,4 +16,5 @@ The preferences system of FreeCAD, located under menu **Edit -\> Preferences**, 
 
 By hovering the mouse over each setting, you will be shown a ttoltip explaining what it is used for, and the location of the corresponding setting in the general FreeCAD preferences system.
 
-
+---
+[documentation index](../README.md) > BIM Setup

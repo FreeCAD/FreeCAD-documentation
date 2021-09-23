@@ -8,6 +8,8 @@
    SeeAlso:[Arch IfcExplorer](Arch_IfcExplorer.md), [Arch IFC](Arch_IFC.md)
 ---
 
+# Arch ToggleIfcBrepFlag/ru
+
 
 </div>
 
@@ -39,11 +41,5 @@
 
 </div>
 
-
-
-
-
-
-
-
-
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch ToggleIfcBrepFlag/ru

@@ -1,3 +1,4 @@
+# Path DressupDogbone/it
 ---
 - GuiCommand:/it   Name:Path DressupTag   Name/it:Vestizione Osso di cane   Workbenches:[MenuLocation:Path → Vestizione → Osso di cane   SeeAlso:[[Path_DressupTag/it|Tag di vestizione](Path_Workbench/it___Path]].md), [Rampa di ingresso](Path_DressupRampEntry/it.md), [Trascina lama](Path_DressupDragKnife/it.md) ---
 
@@ -56,4 +57,7 @@ La vestizione dogbone richiede un segmento di percorso rettilineo (G1) prima e d
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path DressupDogbone/it

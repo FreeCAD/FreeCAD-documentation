@@ -1,6 +1,4 @@
 # Packaging/pl
-
-
 Ta strona gromadzi informacje na temat pakietów FreeCAD dla różnych platform.
 
 -   [Pakiety Linuksa](Linux_packaging.md). Informacje o AppImages, pakietach Debiana, wydaniach niestabilnych i codziennych, oraz innych.
@@ -11,3 +9,6 @@ Ta strona gromadzi informacje na temat pakietów FreeCAD dla różnych platform.
  
 
 [Category:Packaging](Category:Packaging.md) [Category:Developer Documentation](Category:Developer_Documentation.md)
+
+---
+[documentation index](../README.md) > [Packaging](Category:Packaging.md) > Packaging/pl

@@ -1,5 +1,5 @@
 # Macro Snip/en
- {{Macro
+{{Macro
 |Name=Snip
 |Icon=Snip.png
 |Description=Use this macro to easily post screenshots to the FreeCAD forum.<br/>It is best to add this macro to your global custom macros toolbar for quick and easy access.<br/>When posting to the FreeCAD forum it is often useful to be able to include screenshots. The problem is this is a somewhat tedious task. This macro is to make that task a bit easier.<br/>The macro can take screenshots or it can use existing screenshots that have already been copied to the system clipboard. To bypass the image already in clipboard press the Shift key while invoking the macro. To use the macro to take the screenshot adjust the size and placement of the dialog that pops up, then click OK. Upon clicking OK the macro will attempt to take a screenshot of the area of the screen covered by the dialog. The dialog itself is semi-transparent, so you can see the contents beneath. 
@@ -324,3 +324,6 @@ if not userCanceled:
 ## Link
 
 The forum discussion [Snip macro](https://forum.freecadweb.org/viewtopic.php?f=9&t=38328&sid=385bf3174dcae7fb8bdf529f4e76dfed)
+
+---
+[documentation index](../README.md) > Macro Snip/en

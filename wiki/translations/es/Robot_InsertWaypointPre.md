@@ -1,3 +1,4 @@
+# Robot InsertWaypointPre/es
 ---
 - GuiCommand:/es   Name:Robot InsertWaypointPre   Name/es:Robot InsertWaypointPre   Workbenches:[[Robot_Workbench/es   Robot]]|MenuLocation:Robot → Insert in trajectory---
 
@@ -30,4 +31,7 @@ Selectable objects are:
 
 {{Robot_Tools_navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot InsertWaypointPre/es

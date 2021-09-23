@@ -8,6 +8,8 @@
    SeeAlso:[Std PrintPdf](Std_PrintPdf.md), [Import Export](Import_Export.md), [Import Export Preferences](Import_Export_Preferences.md)
 ---
 
+# Std Export/ko
+
 ## 설명
 
 **표준 내보내기(Std Export)** 명령은 선택한 개체를 다른 형식의 파일로 내보냅니다. 다양한 파일 형식이 지원되며 어떤 형식에는 내보내기 옵션이 여러 가지 존재합니다. 자세한 내용은 [가져오기 내보내기를](Import_Export/ko.md) 참조하십시오.
@@ -56,3 +58,6 @@
 }}  
 
 [Category:File\_Formats](Category:File_Formats.md)
+
+---
+[documentation index](../README.md) > [File_Formats](Category:File_Formats.md) > Std Export/ko

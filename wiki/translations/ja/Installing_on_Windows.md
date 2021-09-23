@@ -1,9 +1,4 @@
 # Installing on Windows/ja
-
-
-
-
-
 Windows上でのFreeCADのインストールのもっとも簡単なやり方は下記のインストーラーをダウンロードすることです。
 {{DownloadWindowsStable}}
 
@@ -227,5 +222,5 @@ FreeCAD is running, but it has been reported that the OpenGL display does not wo
 
 </div>
 
-
-
+---
+[documentation index](../README.md) > Installing on Windows/ja

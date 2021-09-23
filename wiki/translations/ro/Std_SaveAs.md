@@ -1,3 +1,4 @@
+# Std SaveAs/ro
 ---
 - GuiCommand:/ro   Name:Std SaveAs   Name/ro:Std SaveAs   MenuLocation:[Workbenches:All   Shortcut:Maius+Crtl+S   SeeAlso:[[Std_Save/ro|Save](Std_File_Menu/ro___File]]_→_Save_as....md)---
 
@@ -68,4 +69,7 @@ To save a document under a new name use the `saveAs` method of the document obje
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std SaveAs/ro

@@ -7,6 +7,8 @@
    Version:0.19
 ---
 
+# Surface Sections/fr
+
 ## Description
 
 
@@ -116,4 +118,7 @@ doc.recompute()
 
 {{Surface Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Surface](Surface_Workbench.md) > Surface Sections/fr

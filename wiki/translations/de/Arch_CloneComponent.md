@@ -9,6 +9,8 @@
    Icon:Arch_Component_Clone.svg
 ---
 
+# Arch CloneComponent/de
+
 ## Beschreibung
 
 Die **<img src="images/Arch_Component_Clone.svg" width=16px> [Arch Komponente klonen](Arch_CloneComponent/de.md)** erzeugt **<img src="images/Arch_Component.svg" width=16px> [Arch Komponenten](Arch_Component/de.md)**, die Klone von ausgewählten Arch Objekten sind.
@@ -23,8 +25,5 @@ Bei der geklonten Komponente wird die {{PropertyData/de|CloneOf}}-Eigenschaft au
 
 ## Skripten
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CloneComponent/de

@@ -7,6 +7,8 @@
    Workbenches:Tutti
 ---
 
+# Std DemoMode/it
+
 
 </div>
 
@@ -52,4 +54,7 @@ Il comando **Visualizza rotazione oggetti** ruota continuamente la telecamera in
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std DemoMode/it

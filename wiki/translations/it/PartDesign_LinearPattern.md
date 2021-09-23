@@ -1,3 +1,4 @@
+# PartDesign LinearPattern/it
 ---
 - GuiCommand:/it   Name:PartDesign LinearPattern   Name/it:Schiera lineare   MenuLocation:PartDesign → Serie lineare   Workbenches:[SeeAlso:[[PartDesign PolarPattern/it|Serie polare](PartDesign_Workbench/it___PartDesign]].md)---
 
@@ -106,4 +107,7 @@ v0.17 e superiore Seleziona uno degli assi standard di Origine del Corpo (X, Y o
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign LinearPattern/it

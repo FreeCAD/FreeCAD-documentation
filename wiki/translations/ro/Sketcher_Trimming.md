@@ -8,6 +8,8 @@
    SeeAlso:[Prelungirea muchiei](Sketcher_Extend/ro.md)
 ---
 
+# Sketcher Trimming/ro
+
 
 </div>
 
@@ -56,4 +58,7 @@ Pentru a utiliza instrumentul, faceți:
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Trimming/ro

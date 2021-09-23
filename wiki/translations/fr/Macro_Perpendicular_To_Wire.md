@@ -1,5 +1,5 @@
 # Macro Perpendicular To Wire/fr
- {{Macro/fr
+{{Macro/fr
 |Name=Macro Perpendicular To Wire
 |Icon=Macro_Perpendicular_To_Wire.png
 |Description=Cette macro positionne un objet perpendiculairement au fil sélectionné.
@@ -140,3 +140,6 @@ Les autres paramètres de `discretize()` sont les suivants:
 ## Version
 
 Ver 00.03 2020-03-21: Corrections de fautes dans le code source et de commentaires Ver 00.02 2019-04-06 : Python 3
+
+---
+[documentation index](../README.md) > Macro Perpendicular To Wire/fr

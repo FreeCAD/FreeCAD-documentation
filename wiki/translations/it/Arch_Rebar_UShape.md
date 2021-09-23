@@ -8,6 +8,8 @@
    Version:0.17
 ---
 
+# Arch Rebar UShape/it
+
 ## Descrizione
 
 Lo strumento [Armatura ad U](Arch_Rebar_UShape/it.md) consente all\'utente di creare un set di barre d\'armatura a forma di U all\'interno di un oggetto [Struttura](Arch_Structure/it.md).
@@ -154,3 +156,6 @@ UShapeRebar.editUShapeRebar(Rebar2, 70, 50, 20, 20,
  
 
 [Category:Reinforcement](Category:Reinforcement.md)
+
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Rebar UShape/it

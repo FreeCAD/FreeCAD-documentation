@@ -1,5 +1,5 @@
 # DXF/it
- {{TOCright}}
+{{TOCright}}
 
 ## Storia
 
@@ -115,3 +115,6 @@ Oltre alle opzioni di Modifica → Preferenze, l\'ambiente [TechDraw](TechDraw_W
 
 
 [Category:User Documentation](Category:User_Documentation.md) [Category:Draft](Category:Draft.md) [Category:TechDraw](Category:TechDraw.md) [Category:File\_Formats](Category:File_Formats.md)
+
+---
+[documentation index](../README.md) > [User Documentation](Category:User Documentation.md) > DXF/it

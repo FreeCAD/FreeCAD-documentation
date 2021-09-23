@@ -8,6 +8,8 @@
    SeeAlso:[Ограничение пересечения](Sketcher_ConstrainCoincident/ru.md)
 ---
 
+# Sketcher ConstrainPointOnObject/ru
+
 ## Описание
 
 Прикрепляет точку к таким объектам как: линия, дуга или ось эскиза.
@@ -45,4 +47,7 @@
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainPointOnObject/ru

@@ -6,6 +6,8 @@
    Version:0.17
 ---
 
+# Spreadsheet AlignLeft/en
+
 ## Description
 
 The **<img src=images/Spreadsheet_AlignLeft.svg style="width:16px"> [Spreadsheet AlignLeft](Spreadsheet_AlignLeft.md)** tool makes the text inside the cell align to the left.
@@ -22,4 +24,7 @@ The **<img src=images/Spreadsheet_AlignLeft.svg style="width:16px"> [Spreadsheet
 
 {{Spreadsheet_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet AlignLeft/en

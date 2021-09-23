@@ -1,5 +1,5 @@
 # WikiRobots/en
- **Robots are intrinsically dangerous as they can automatically do a lot of damage. Use with extreme care!**
+**Robots are intrinsically dangerous as they can automatically do a lot of damage. Use with extreme care!**
 
 ## Overview
 
@@ -154,3 +154,6 @@ Replace a string in all the pages listed in the Arch category (a/k/a )
 {{SystemInput|python3 pwb.py replace.py -cat:Arch}}
 
 [Category:Arch](Category:Arch.md) [Category:Administration](Category:Administration.md) [Category:Developer](Category:Developer.md)
+
+---
+[documentation index](../README.md) > [Administration](Category:Administration.md) > WikiRobots/en

@@ -1,8 +1,4 @@
 # Interesting links
- 
-
- 
-
 This page contains links related to FreeCAD and other FLOSS projects.
 
 ## FreeCAD
@@ -59,3 +55,6 @@ This page contains links related to FreeCAD and other FLOSS projects.
  
 
 [Category:Documentation](Category:Documentation.md)
+
+---
+[documentation index](../README.md) > [Documentation](Category:Documentation.md) > Interesting links

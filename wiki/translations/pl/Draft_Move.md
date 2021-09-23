@@ -9,6 +9,8 @@
    SeeAlso:[Podświetl element podrzędny](Draft_SubelementHighlight/pl.md)
 ---
 
+# Draft Move/pl
+
 ## Opis
 
 Polecenie <img alt="" src=images/Draft_Move.svg  style="width:24px;"> **Draft: Przesuń** - przesuwa lub kopiuje wybrane obiekty z jednego punktu do drugiego. W trybie elementu podrzędnego polecenie przesuwa wybrane punkty i krawędzie, lub kopiuje wybrane krawędzie [Linii](Draft_Line/pl.md) i [Polilinii](Draft_Wire/pl.md).
@@ -110,8 +112,5 @@ list3 = Draft.move(list1, -2*vector, copy=True)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Move/pl

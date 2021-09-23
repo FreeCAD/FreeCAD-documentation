@@ -1,6 +1,4 @@
 # Tasks Placement/fr
-
-
 ## Description
 
 Commande pour modifier le **positionnement**. Ces options ne concernent que la position et l\'orientation de l\'objet dans l\'espace, ils n\'affectent pas les autres attributs de la forme. Le positionnement est enregistré en interne sous forme de position et une rotation (autour d\'un axe ou d\'un angle, transformé en un quaternion [1](https://fr.wikipedia.org/wiki/Quaternions_et_rotation_dans_l'espace)). Alors qu\'il existe plusieurs méthodes pour spécifier une rotation, par exemple autour d\'un centre, cela n\'affecte que les calculs de rotation et il n\'y a pas d\'enregistrement pour des opérations suivantes. De même, si un axe de rotation (1,1,1) est spécifié, il peut être normalisé lorsqu\'il est enregistré dans le quaternion et apparaît comme (0.58, 0.58, 0.58) lorsque l\'on navigue sur l\'objet par la suite.
@@ -118,3 +116,6 @@ Autres explications sur le [Placement](Placement/fr.md)
 
 
 [Category:Command\_Reference](Category:Command_Reference.md)
+
+---
+[documentation index](../README.md) > [Command_Reference](Category:Command_Reference.md) > Tasks Placement/fr

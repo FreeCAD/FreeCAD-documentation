@@ -8,6 +8,8 @@
    SeeAlso:[Std Sélection par boîte](Std_BoxSelection/fr.md), [Std Tout sélectionner](Std_SelectAll/fr.md)
 ---
 
+# Std BoxElementSelection/fr
+
 ## Description
 
 La commande **Std BoxElementSelection** sélectionne des faces dans une zone rectangulaire définie par l\'utilisateur, une boîte, dans la [vue 3D](3D_view/fr.md).
@@ -31,4 +33,7 @@ La commande **Std BoxElementSelection** sélectionne des faces dans une zone rec
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std BoxElementSelection/fr

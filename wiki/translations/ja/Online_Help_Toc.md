@@ -1,7 +1,4 @@
 # Online Help Toc/ja
-
-
-
 <div class="mw-translate-fuzzy">
 
 FreeCADオンラインヘルプシステムの目次です。ここで参照された記事は、wiki2chm.pyツールによって自動的にFreeCAD.chmファイルに取り込まれます。このツールはsrc/Tools/wiki2chm.pyにあります。このマニュアルの[印刷用バージョンも利用できます](Manual/jp.md)。
@@ -180,3 +177,6 @@ There is another table of contents for the [FreeCAD MANUAL](Manual:Introduction.
 
 
 [Category:Documentation/ja](Category:Documentation/ja.md) [Category:Documentation](Category:Documentation.md)
+
+---
+[documentation index](../README.md) > [Documentation](Category:Documentation.md) > Online Help Toc/ja

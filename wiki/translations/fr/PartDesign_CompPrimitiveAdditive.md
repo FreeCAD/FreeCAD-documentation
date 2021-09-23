@@ -8,6 +8,8 @@
    SeeAlso:[PartDesign Primitives soustractives](PartDesign_CompPrimitiveSubtractive/fr.md)
 ---
 
+# PartDesign CompPrimitiveAdditive/fr
+
 ## Description
 
 Crée une primitive d\'addition dans le corps actif en tant que première entité ou la fusionne avec la ou les entités existantes. Si aucun corps n\'est trouvé dans le document, un corps sera automatiquement créé.
@@ -29,4 +31,7 @@ Crée une primitive d\'addition dans le corps actif en tant que première entit�
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign CompPrimitiveAdditive/fr

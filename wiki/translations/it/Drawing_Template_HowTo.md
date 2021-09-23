@@ -1,7 +1,4 @@
 # Drawing Template HowTo/it
-
-
-
 **L'ambiente [Drawing](Drawing_Workbench/it.md) è diventato obsoleto nella versione 0.17. Al suo posto utilizzare [TechDraw](TechDraw_Workbench/it.md).**
 
 
@@ -263,4 +260,7 @@ I due strumenti utilizzati in questa esercitazione sono Inkscape e Kate. Si poss
 
 {{Drawing Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Template HowTo/it

@@ -1,7 +1,4 @@
 # Workfeature Workbench/it
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -85,3 +82,6 @@ This workbench can be installed from the [Addon Manager](Std_AddonMgr.md).
 -   [External workbenches](External_workbenches.md)
 
 [Category:Sandbox](Category:Sandbox.md) [Category:User Documentation](Category:User_Documentation.md) [Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+
+---
+[documentation index](../README.md) > Workfeature Workbench/it

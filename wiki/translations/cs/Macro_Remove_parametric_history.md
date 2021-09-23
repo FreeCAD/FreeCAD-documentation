@@ -1,5 +1,5 @@
 # Macro Remove parametric history/cs
- {{Macro/cs
+{{Macro/cs
 |Name=Remove parametric history
 |Icon=Macro_Remove_parametric_history.png
 |Translate=Remove parametric history
@@ -39,6 +39,5 @@ newObject.Shape = newShape
 
 }}
 
-
-
-
+---
+[documentation index](../README.md) > Macro Remove parametric history/cs

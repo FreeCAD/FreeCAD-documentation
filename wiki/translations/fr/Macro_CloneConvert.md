@@ -1,5 +1,5 @@
 # Macro CloneConvert/fr
- {{Macro/fr
+{{Macro/fr
 |Name=Macro CloneConvert
 |Icon=Macro_CloneConvert.png
 |Description={{ColoredText|#ff0000|#ffffff|Dernière mise à jour : GUI modifiée pour le support HiDPI (QGridLayout). Fonctionne ≥v0.18 (PySide2 Qt5)}}<br/><br/>. 
@@ -143,3 +143,6 @@ ver 0.13 = 15/09/2019 remplacé le signe grec micro par \"um\" (trop de problèm
 02/07/2014 ver. 0.3 = modification fonctionne avec PyQt4 et PySide
 
 09/05/2014 ver. 0.2 = ajout de la fonction \"Copy\"
+
+---
+[documentation index](../README.md) > Macro CloneConvert/fr

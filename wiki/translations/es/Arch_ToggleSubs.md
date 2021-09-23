@@ -8,6 +8,8 @@
    SeeAlso:
 ---
 
+# Arch ToggleSubs/es
+
 
 </div>
 
@@ -55,8 +57,5 @@ La opción **Editar → Preferencias → Arch → Aplicar estilo de construcció
 
 The [Draft construction](Draft_ToggleConstructionMode.md) style can be set in the [Draft Preferences](Draft_Preferences.md), in the menu **Preferences → Draft → General Draft**.
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch ToggleSubs/es

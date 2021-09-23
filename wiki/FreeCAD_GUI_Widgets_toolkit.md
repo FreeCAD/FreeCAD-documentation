@@ -54,3 +54,6 @@ The [Design456 Workbench](Design456_Workbench.md) is a prerequisite to be able t
 There are some basic drawings written at the moment. Later I will list down them. But you can look at fr\_draw.py to find them. Some are used for developing direct modeling commands.
 
 To be continued ..
+
+---
+[documentation index](../README.md) > FreeCAD GUI Widgets toolkit

@@ -1,3 +1,4 @@
+# Sketcher ConstrainPointOnObject/es
 ---
 - GuiCommand:/es   Name:Constraint PointOnObject   Workbenches:[Diseño de Piezas](Sketcher_Workbench/es___Croquizador]],_[[PartDesign_Workbench/es.md)|MenuLocation:Croquizador → Restricciones del Croquizador → Punto en objeto   SeeAlso:[Coincidente](Constraint_PointOnPoint/es.md)---
 
@@ -54,4 +55,7 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains how to identify th
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainPointOnObject/es

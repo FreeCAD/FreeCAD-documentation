@@ -1,10 +1,4 @@
 # Manual:The FreeCAD document/ro
-
-
-
-
-
-
 {{Manual:TOC/ro}}
 
 Un documentul FreeCAD conține toate obiectele din scenă. Poate conține grupuri și obiecte realizate cu orice atelier de lucru. Puteți, prin urmare, să comutați între atelierele de lucru și să lucrați în același document și / sau obiecte în acel document. Când salvați lucrarea, documentul este salvat pe disc. De asemenea, puteți deschide mai multe documente în același timp în FreeCAD și puteți deschide mai multe vizualizări ale aceluiași document.
@@ -32,6 +26,5 @@ Documentele FreeCAD sunt slavate cu extensia .FcStd , care este arhivată pe baz
 -   [The FreeCAD document](Document_structure.md)
 -   [File Format FCStd](File_Format_FCStd.md)
 
-
-
-
+---
+[documentation index](../README.md) > Manual:The FreeCAD document/ro

@@ -1,7 +1,4 @@
 # Macro Rotate To Point/it
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -3002,3 +2999,6 @@ myObject.Placement
 05/03/2017 ver 00.01 : agggiunto 3 spinbox per visualizzare le coordinate X Y Z del clic del mouse
 
 04/03/2017 ver 00.00
+
+---
+[documentation index](../README.md) > Macro Rotate To Point/it

@@ -8,6 +8,8 @@
    SeeAlso:[Std Créer un lien](Std_LinkMake/fr.md), [Std Créer un lien relatif](Std_LinkMakeRelative/fr.md), [Std Importer des liens](Std_LinkImport/fr.md)
 ---
 
+# Std LinkImportAll/fr
+
 ## Description
 
 
@@ -33,4 +35,7 @@ Cette commande exécute essentiellement **<img src=images/Std_LinkImport.svg sty
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std LinkImportAll/fr

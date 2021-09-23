@@ -1,10 +1,4 @@
 # Manual:Navigating in the 3D view/de
- 
-
-
-
-
-
 {{Manual:TOC/de}}
 
 ### Ein Wort zum 3D Raum 
@@ -109,6 +103,5 @@ Du kannst auch die Auswahlansicht verwenden, um Objekte durch die Suche nach ein
 -   [Die FreeCAD Navigationsmodi](Mouse_navigation/de.md)
 -   [Navigationscluster](Navigation_Cube/de.md)
 
-
-
-
+---
+[documentation index](../README.md) > Manual:Navigating in the 3D view/de

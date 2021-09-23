@@ -6,6 +6,8 @@
    SeeAlso:[Std ViewIvStereoRedGreen](Std_ViewIvStereoRedGreen.md), [Std ViewIvStereoQuadBuff](Std_ViewIvStereoQuadBuff.md), [Std ViewIvStereoInterleavedRows](Std_ViewIvStereoInterleavedRows.md), [Std ViewIvStereoOff](Std_ViewIvStereoOff.md)
 ---
 
+# Std ViewIvStereoInterleavedColumns
+
 ## Description
 
 The **Std ViewIvStereoInterleavedColumns** command changes the active [3D view](3D_view.md) to interleaved columns stereo view mode. To use this stereo mode a special graphics card, a special display and [glasses with polarized lenses](https://en.wikipedia.org/wiki/Polarized_3D_system) are requires.
@@ -38,4 +40,7 @@ FreeCADGui.ActiveDocument.ActiveView.getStereoType()
 
 
 
- {{Std Base navi}}  
+ {{Std Base navi}}
+
+---
+[documentation index](../README.md) > Std ViewIvStereoInterleavedColumns

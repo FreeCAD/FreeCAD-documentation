@@ -7,6 +7,8 @@
    Workbenches:[Skizzierer](Sketcher_Workbench/de.md)
 ---
 
+# Sketcher CompCreateRegularPolygon/de
+
 ## Beschreibung
 
 **Erzeugt ein regelmäßiges Polygon** ist eine Symbolschaltfläche in der Skizzengeometrien Werkzeugleiste , die Werkzeuge zur Erstellung eines regelmäßigen Polygons gruppiert. Klicke auf den Pfeil nach unten rechts, um die darunter liegenden Symbole aufzuklappen und ein Werkzeug auszuwählen.
@@ -33,4 +35,7 @@
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CompCreateRegularPolygon/de

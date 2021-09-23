@@ -1,3 +1,4 @@
+# Ship Hydrostatics/ro
 ---
 - GuiCommand:   Name:Ship Hydrostatics   MenuLocation:Ship design → Hydrostatics   |Workbenches:[[Ship Workbench   Ship]]|Shortcut:   SeeAlso:---
 
@@ -37,4 +38,7 @@ When the Hydrostatics tool is executed, a task dialog is shown. Usually Hydrosta
 
 {{Ship_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > Ship Hydrostatics/ro

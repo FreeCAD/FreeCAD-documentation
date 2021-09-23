@@ -7,6 +7,8 @@
    SeeAlso:[Примитивы](Part_Primitives/ru.md)
 ---
 
+# Part Point/ru
+
 ## Описание
 
 Точка (вершина) - это геометрический примитив.
@@ -86,4 +88,7 @@
 
 {{Part_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Point/ru

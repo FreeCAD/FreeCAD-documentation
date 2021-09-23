@@ -8,6 +8,8 @@
    SeeAlso:[Seziona](Part_Section/it.md)
 ---
 
+# Part CrossSections/it
+
 
 </div>
 
@@ -48,5 +50,5 @@ L\'utilità **Sezioni\...** crea una o più sezioni trasversali attraverso la fo
 
 </div>
 
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part CrossSections/it

@@ -8,6 +8,8 @@
    SeeAlso:[Отмена](Std_Undo/ru.md)
 ---
 
+# Std Redo/ru
+
 ## Описание
 
 Команда **Вернуть** отменяет действие команды [Отменить](Std_Undo/ru.md).
@@ -51,4 +53,7 @@ FreeCAD.ActiveDocument.redo()
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std Redo/ru

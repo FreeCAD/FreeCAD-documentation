@@ -7,6 +7,8 @@
    SeeAlso:[TechDraw Cote horizontale](TechDraw_HorizontalDimension/fr.md), [TechDraw Cote verticale](TechDraw_VerticalDimension/fr.md)
 ---
 
+# TechDraw LengthDimension/fr
+
 ## Description
 
 L\'outil Cote de longueur ajoute une dimension linéaire à une vue. La dimension peut être la distance entre deux sommets, la longueur d\'un bord ou la distance entre deux arêtes. La dimension sera initialement la distance projetée (c.-à-d. comme indiqué sur le dessin), mais elle peut être remplacée par la distance 3D réelle en utilisant l\'outil **<img src="images/TechDraw_LinkDimension.svg" width=16px> [TechDraw Lier une dimension](TechDraw_LinkDimension/fr.md)
@@ -260,4 +262,7 @@ rc = page.addView(dim1)
 
 {{TechDraw Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw LengthDimension/fr

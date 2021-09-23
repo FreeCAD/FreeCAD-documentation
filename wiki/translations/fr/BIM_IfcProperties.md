@@ -8,6 +8,8 @@
    SeeAlso:[BIM Elements IFC](BIM_IfcElements/fr.md),[BIM Quantité IFC](BIM_IfcQuantities/fr.md)
 ---
 
+# BIM IfcProperties/fr
+
 ## Description
 
 <img alt="" src=images/BIM_ifcproperties_screenshot.png  style="width:1024px;">
@@ -31,3 +33,6 @@ Dans le fichier CSV, chaque ligne représente un ensemble de propriétés diffé
 Pset_FreeCAD;Name;IfcLabel;Version;IfcReal
 
 définirait un ensemble de propriétés nommé \"FreeCAD\" (le préfixe Pset\_ n\'est pas obligatoire mais est une pratique courante) qui contient deux propriétés: une appelée \"Name\" qui est un IfcLabel (un morceau de texte) et une autre appelée \"Version\" qui est un IfcReal (une valeur numérique avec des décimales).
+
+---
+[documentation index](../README.md) > BIM IfcProperties/fr

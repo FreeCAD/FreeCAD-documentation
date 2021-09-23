@@ -1,7 +1,4 @@
 # Manual:Introduction/zh-cn
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -34,3 +31,5 @@
 
 </div>
 
+---
+[documentation index](../README.md) > Manual:Introduction/zh-cn

@@ -1,10 +1,4 @@
 # TechDraw LineGroup/de
-
-
-
-
-
-
 {{TOCright}}
 
 ## Übersicht
@@ -79,4 +73,7 @@ Hinweis: Eine neue Einstellung wurde hinzugefügt, die es dir erlaubt, deine eig
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw LineGroup/de

@@ -7,6 +7,8 @@
    SeeAlso:[Arch Schnittebene](Arch_SectionPlane/de.md)
 ---
 
+# TechDraw ArchView/de
+
 ## Beschreibung
 
 Das ArchAnsicht Werkzeug fügt eine Ansicht einer **<img src="images/Arch_SectionPlane.svg" width=16px> [Arch SchnittEbene](Arch_SectionPlane/de.md)** auf einer [TechDraw StandardSeite](TechDraw_PageDefault/de.md) ein.
@@ -76,4 +78,7 @@ rc = page.addView(dv)
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ArchView/de

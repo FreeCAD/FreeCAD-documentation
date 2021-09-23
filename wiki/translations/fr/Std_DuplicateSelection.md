@@ -7,6 +7,8 @@
    SeeAlso:[Std Copier](Std_Copy/fr.md), [Std Coller](Std_Paste/fr.md)
 ---
 
+# Std DuplicateSelection/fr
+
 ## Description
 
 La commande **Std Dupliquer la sélection** duplique les objets dans le document actif.
@@ -31,4 +33,7 @@ La commande **Std Dupliquer la sélection** duplique les objets dans le document
 
 {{Std Base navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > Std DuplicateSelection/fr

@@ -1,10 +1,4 @@
 # Manual:All workbenches at a glance/zh-cn
-
-
-
-
-
-
 {{Manual:TOC/zh-cn}}
 
 
@@ -214,6 +208,5 @@ The Drawing Workbench handles the creation and manipulation of 2D drawing sheets
 
 </div>
 
-
-
-
+---
+[documentation index](../README.md) > Manual:All workbenches at a glance/zh-cn

@@ -1,7 +1,4 @@
 # Manual:Creating FEM analyses/ru
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -172,3 +169,6 @@
 {{Tutorials navi
 
 }}
+
+---
+[documentation index](../README.md) > Manual:Creating FEM analyses/ru

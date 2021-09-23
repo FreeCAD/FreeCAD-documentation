@@ -6,6 +6,8 @@
    Shortcut:**P** **I**
 ---
 
+# Path Inspect/de
+
 ## Beschreibung
 
 Dieses Werkzeug ermöglicht die Untersuchung des internen FreeCAD G-Code Dialektinhalts eines Pfad Arbeitsgangsobjekts.
@@ -31,4 +33,7 @@ Dieses Werkzeug ermöglicht die Untersuchung des internen FreeCAD G-Code Dialekt
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Inspect/de

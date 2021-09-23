@@ -8,6 +8,8 @@
    SeeAlso:[Componente](Arch_Component/it.md)
 ---
 
+# Arch ToggleSubs/it
+
 
 </div>
 
@@ -63,5 +65,5 @@ Lo stile [Costruzione](Draft_ToggleConstructionMode/it.md) di Draft può essere 
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch ToggleSubs/it

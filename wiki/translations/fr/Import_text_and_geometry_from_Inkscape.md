@@ -1,5 +1,5 @@
 # Import text and geometry from Inkscape/fr
- {{TutorialInfo/fr
+{{TutorialInfo/fr
 |Topic= Importer texte et géométrie depuis Inkscape
 |Level= Débutant
 |Time= 30 minutes
@@ -50,6 +50,5 @@ Puisque inkscape et FreeCAD semblent avoir des approches différentes sur la fa�
 
 Merci aux utilisateurs \"freecad-heini-1\" et \"herbk\" pour avoir testé et fourni des commentaires précieux.
 
-
-
-
+---
+[documentation index](../README.md) > [Import](Import_Workbench.md) > Import text and geometry from Inkscape/fr

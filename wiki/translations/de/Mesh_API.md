@@ -1,7 +1,4 @@
 # Mesh API/de
-
-
-
 **(November 2018) Diese Information kann unvollständig und veraltet sein. Für die letzte API siehe die (engl.) [https://www.freecadweb.org/api autogenerierte API-Dokumentation].**
 
 The Mesh objects can be manipulated by adding new facets, deleting facets, importing from an STL file, transforming the mesh and much more. For a complete overview of what can be done see also the [Mesh Workbench](Mesh_Workbench.md) documentation. A mesh object cannot be added to an existing document directly. Therefore the document must create an object with a property class that supports meshes. Example:
@@ -236,3 +233,6 @@ d.recompute()
  
 
 [Category:API](Category:API.md) [Category:Poweruser Documentation](Category:Poweruser_Documentation.md)
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh API/de

@@ -1,3 +1,4 @@
+# Robot InsertWaypoint/ro
 ---
 - GuiCommand:   Name:Robot InsertWaypoint   Workbenches:[[Robot_Workbench   Robot]]|MenuLocation:Robot → Insert in trajectory   Shortcut:A   SeeAlso:------
 
@@ -45,4 +46,7 @@ Mișcarea botului este dată de:
 
 {{Robot_Tools_navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot InsertWaypoint/ro

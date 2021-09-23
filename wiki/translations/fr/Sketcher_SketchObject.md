@@ -1,6 +1,4 @@
 # Sketcher SketchObject/fr
-
-
 ## Introduction
 
 <img alt="" src=images/Sketcher_Sketch.svg  style="width:32px;">
@@ -141,4 +139,7 @@ obj.Label = "Custom label"
 
 {{Sketcher Tools navi
 
-}}  {{Document objects navi}} 
+}}  {{Document objects navi}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SketchObject/fr

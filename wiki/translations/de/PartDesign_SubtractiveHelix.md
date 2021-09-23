@@ -8,6 +8,8 @@
    SeeAlso:[PartDesign Additive Helix](PartDesign_AdditiveHelix/de.md)
 ---
 
+# PartDesign SubtractiveHelix/de
+
 ## Beschreibung
 
 Das Werkzeug **Subtractive helix** erstellt einen Körper,der durch Führen einer Skizze oder eines 2D-Objekts entlang eines Helix-Pfades Material entfernt.
@@ -124,4 +126,7 @@ Eine subtraktive Helix, die sich nicht selbst überschneidet ist sichtbar, wenn 
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveHelix/de

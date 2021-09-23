@@ -1,3 +1,4 @@
+# Path Engrave/it
 ---
 - GuiCommand:/it   Name:Path Engrave   Name/it:Incisione   Workbenches:[[Path Workbench/it   Path]]|MenuLocation:Path → Incisione   Shortcut|SeeAlso:---
 
@@ -104,4 +105,7 @@ Example:
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Engrave/it

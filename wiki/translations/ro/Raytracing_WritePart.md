@@ -1,3 +1,4 @@
+# Raytracing WritePart/ro
 ---
 - GuiCommand:/ro   Name:Raytracing Part‏‎   Name/ro:Raytracing Part   MenuLocation:Raytracing → Part‏‎   |Workbenches:[[Raytracing Workbench/ro   Raytracing]]|Shortcut:   SeeAlso:---
 
@@ -29,4 +30,7 @@ Exportă piesa selectată către un fișier tip pov pentru a fi utilizat într-u
 
 {{Raytracing_Tools_navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing WritePart/ro

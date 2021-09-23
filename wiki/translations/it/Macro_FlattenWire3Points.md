@@ -1,5 +1,5 @@
 # Macro FlattenWire3Points/it
- {{Macro/it
+{{Macro/it
 |Name=FlattenWire3Points
 |Icon=Macro_FlattenWire3Points.png
 |Translate=Wire appiattita su piano da 3 punti
@@ -56,3 +56,5 @@ ToolBar icon ![](images/Macro_FlattenWire3Points.png )
     sel.Object.Points = points
 }}
 
+---
+[documentation index](../README.md) > Macro FlattenWire3Points/it

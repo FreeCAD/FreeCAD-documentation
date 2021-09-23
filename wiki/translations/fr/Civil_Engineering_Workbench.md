@@ -1,6 +1,4 @@
 # Civil Engineering Workbench/fr
-
-
 ## Description
 
 Le génie civil est un vaste domaine d\'ingénierie et couvre plusieurs sujets, principalement environnementaux (eaux usées), géotechnique, transport et structure. À l'heure actuelle, les efforts de génie civil dans FreeCAD portent principalement sur l'ingénierie des transports, ou plus précisément sur la conception 3D des autoroutes.
@@ -33,3 +31,6 @@ Les outils Armatures font actuellement partie de l\'[atelier Arch (Architecture)
 
 
 [Category:Documentation](Category:Documentation.md) [Category:User Documentation](Category:User_Documentation.md) [Category:Addons](Category:Addons.md)
+
+---
+[documentation index](../README.md) > Civil Engineering Workbench/fr

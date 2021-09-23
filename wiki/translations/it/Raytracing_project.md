@@ -1,7 +1,4 @@
 # Raytracing project/it
-
-
-
 **
 This roadmap is probably obsolete. For more information see [Development roadmap](Development_roadmap.md).<br>
 If you are not involved with the development discussed here:<br>
@@ -91,3 +88,6 @@ Nell\'immagine precedente è visualizzata una Parte creata da uno Schizzo di Par
 
 
 [Category:Roadmap](Category:Roadmap.md)
+
+---
+[documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing project/it

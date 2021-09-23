@@ -7,6 +7,8 @@
    SeeAlso:[Arch Séparer un objet Mesh](Arch_SplitMesh/fr.md), [Arch Maillage vers une forme](Arch_MeshToShape/fr.md)
 ---
 
+# Arch 3Views/fr
+
 ## Description
 
 
@@ -69,11 +71,5 @@ Wall.ViewObject.Visibility = False
 mesh_obj.ViewObject.Visibility = False
 ```
 
-
-
-
-
-
-
-
-
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch 3Views/fr

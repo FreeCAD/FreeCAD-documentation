@@ -8,6 +8,8 @@
    SeeAlso:[Добавить вершины по центрам граней](TechDraw_Midpoints/ru.md), [Добавить 4-ре вершины по краям окружности](TechDraw_Quadrants/ru.md)
 ---
 
+# TechDraw CosmeticVertex/ru
+
 ## Описание
 
 The Cosmetic Vertex tool adds a [Vertex](Glossary#V.md), which is not part of the source geometry, to a View. This Vertex behaves like any other vertex and can be used for dimensioning.
@@ -60,4 +62,7 @@ dvp.makeCosmeticLine(start,end,style, weight, pyGreen)
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw CosmeticVertex/ru

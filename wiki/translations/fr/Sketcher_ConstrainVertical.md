@@ -8,6 +8,8 @@
    SeeAlso:[Sketcher Contrainte horizontale](Sketcher_ConstrainHorizontal/fr.md)
 ---
 
+# Sketcher ConstrainVertical/fr
+
 ## Description
 
 Permet de créér une contrainte de verticalité sur les lignes ou segments de polylignes sélectionnés. {{VersionPlus/fr|0.17}}on peut aussi contraindre des sommets verticalement. Plus d\'un élément peut être sélectionné.
@@ -35,4 +37,7 @@ La page [Sketcher : Écrire des scripts](Sketcher_scripting/fr.md) explique les 
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainVertical/fr

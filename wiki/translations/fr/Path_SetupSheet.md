@@ -1,10 +1,4 @@
 # Path SetupSheet/fr
-
-
-
-
-
-
 {{TOCright}}
 
 ## Description
@@ -65,4 +59,7 @@ Les autres valeurs de la Feuille de configuration peuvent être référencées d
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path SetupSheet/fr

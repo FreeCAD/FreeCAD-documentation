@@ -7,6 +7,8 @@
    SeeAlso:[Std RechteckAuswahl](Std_BoxSelection/de.md), [Std RechteckElementAuswahl](Std_BoxElementSelection/de.md), [Std RechteckElementAuswahl](Part_BoxSelection/de.md)
 ---
 
+# Std SelectAll/de
+
 ## Beschreibung
 
 Der **Std AllesAuswählen** Befehl wählt alle Objekte in der [Baumansicht](Tree_view/de.md) aus.
@@ -25,4 +27,7 @@ Der **Std AllesAuswählen** Befehl wählt alle Objekte in der [Baumansicht](Tree
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std SelectAll/de

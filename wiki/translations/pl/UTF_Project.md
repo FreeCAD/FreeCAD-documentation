@@ -1,7 +1,4 @@
 # UTF Project/pl
-
-
-
 **Ten plan jest prawdopodobnie nieaktualny. Więcej informacji można znaleźć na stronie [Plan rozwoju](Development_roadmap.md).<br>
 Jeśli nie jesteś zaangażowany w rozwój, o którym tutaj mowa:<br>
 PROSZĘ NIE EDYTOWAĆ ANI NIE TŁUMACZYĆ !!!
@@ -37,3 +34,6 @@ Pomimo tego, że Coin3D przechodzi obecnie na bardziej otwartą platformę rozwo
 
 
 [Category:Roadmap](Category:Roadmap.md)
+
+---
+[documentation index](../README.md) > [Roadmap](Category:Roadmap.md) > UTF Project/pl

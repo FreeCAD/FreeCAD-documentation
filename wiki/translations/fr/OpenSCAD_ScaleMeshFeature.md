@@ -7,6 +7,8 @@
    SeeAlso:[Mesh Échelle](Mesh_Scale/fr.md)
 ---
 
+# OpenSCAD ScaleMeshFeature/fr
+
 ## Description
 
 Crée un nouvel objet maillé mis à l\'échelle avec une mise à l\'échelle indépendante pour chaque axe.
@@ -44,4 +46,7 @@ Mesh.show(scaled_mesh)
 
 {{OpenSCAD_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD ScaleMeshFeature/fr

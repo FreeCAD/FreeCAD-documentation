@@ -7,6 +7,8 @@
    Version:0.17
 ---
 
+# Sketcher CarbonCopy/fr
+
 ## Description
 
 L\'outil **<img src=images/Sketcher_CarbonCopy.svg style="width:16px"> [Sketcher Copie carbone](Sketcher_CarbonCopy/fr.md)** copie toutes les géométries et contraintes d\'une autre esquisse dans l\'esquisse active.
@@ -38,4 +40,7 @@ Les contraintes dimensionnelles qui existaient avant la fonction de copie resten
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CarbonCopy/fr

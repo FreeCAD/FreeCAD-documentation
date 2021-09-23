@@ -1,10 +1,4 @@
-# Path Workbench/ru
-
-
-
-
-
-<img alt="Логотип верстака Path" src=images/Workbench_Path.svg  style="width:128px;">
+# <img alt="Логотип верстака Path" src=images/Workbench_Path.svg  style="width:64px;"> Path Workbench/ru
 
 
 {{TOCright}}
@@ -322,3 +316,6 @@ See [Path scripting](Path_scripting.md).
 }} 
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Path Workbench/ru

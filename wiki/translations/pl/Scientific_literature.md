@@ -1,6 +1,4 @@
 # Scientific literature/pl
-
-
 ## Opis
 
 Ta strona gromadzi niektóre opublikowane artykuły, które odnoszą się do systemu FreeCAD lub korzystają z niego.
@@ -17,3 +15,6 @@ Większość z tych artykułów ma nieograniczony dostęp.
 }}
 
 [Category:Hubs](Category:Hubs.md)
+
+---
+[documentation index](../README.md) > [Hubs](Category:Hubs.md) > Scientific literature/pl

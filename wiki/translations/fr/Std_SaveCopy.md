@@ -7,6 +7,8 @@
    SeeAlso:[Std Enregistrer sous](Std_SaveAs/fr.md), [Std Enregistrer](Std_Save/fr.md)
 ---
 
+# Std SaveCopy/fr
+
 ## Description
 
 La commande **Std Enregistrer une copie** enregistre une copie du document actif sous un nouveau nom de fichier.
@@ -56,4 +58,7 @@ doc.saveCopy(fnm)
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std SaveCopy/fr

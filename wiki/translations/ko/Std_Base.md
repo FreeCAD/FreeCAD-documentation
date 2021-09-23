@@ -1,10 +1,4 @@
-# Std Base/ko
-
-
-
-
-
-<img alt="표준 기반 아이콘" src=images/Freecad.svg  style="width:128px;">
+# <img alt="표준 기반 아이콘" src=images/Freecad.svg  style="width:64px;"> Std Base/ko
 
 
 {{TOCright}}
@@ -91,3 +85,6 @@
 }} 
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > [Workbenches](Category:Workbenches.md) > Std Base/ko

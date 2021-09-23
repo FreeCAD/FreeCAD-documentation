@@ -1,3 +1,4 @@
+# Arch MeshToShape/cs
 ---
 - GuiCommand:/cs   Name:Arch MeshToShape   Name/cs:Arch MeshToShape   Workbenches:[MenuLocation:Arch → Utilities → Mesh to Shape   SeeAlso:[[Arch RemoveShape/cs|Arch RemoveShape](Arch_Workbench/cs___Arch]].md)---
 
@@ -73,8 +74,5 @@ FreeCAD.ActiveDocument.recompute()
 new_obj = Arch.meshToShape(Box)
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch MeshToShape/cs

@@ -7,6 +7,8 @@
    Version:0.7
 ---
 
+# Draft Point/de
+
 ## Beschreibung
 
 Der <img alt="" src=images/Draft_Point.svg  style="width:24px;"> **Entwurf Punkt** Befehl erzeugt einen einfachen Punkt. Entwurf Punkte kann als eine Referenz für die Platzierung von Linien, Drähten oder anderen Objekten nützlich sein.
@@ -141,8 +143,5 @@ for i in range(N):
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Point/de

@@ -1,7 +1,4 @@
 # FreeCAD-Ship s60 tutorial
- 
-
-
 {{TutorialInfo
 |Topic=Ship Workbench
 |Level=Beginner
@@ -306,3 +303,6 @@ Hydrostatics curves.
 The [FreeCAD Ship s60 tutorial (II)](FreeCAD-Ship_s60_tutorial_(II).md) is the second chapter of Series 60 from Iowa university ship.
 
  {{Ship Tools navi}}
+
+---
+[documentation index](../README.md) > FreeCAD-Ship s60 tutorial

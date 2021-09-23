@@ -1,5 +1,5 @@
 # Macro Section/hr
- (parametarski!)
+(parametarski!)
 
 
 {{Macro/hr
@@ -208,3 +208,5 @@ def run():
 
 }}
 
+---
+[documentation index](../README.md) > Macro Section/hr

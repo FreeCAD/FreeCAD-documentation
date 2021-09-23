@@ -1,3 +1,4 @@
+# Path Surface/ro
 ---
 - GuiCommand:   Name:Path 3DSurface   Workbenches:[[Path Workbench   Path]]|MenuLocation:Path → 3D Surface   Shortcut:   SeeAlso:---
 
@@ -397,4 +398,7 @@ Note: It is suggested that you do not edit the Placement property of path operat
 
 {{Path Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Surface/ro

@@ -1,3 +1,4 @@
+# Part Helix/es
 ---
 - GuiCommand:/es   Name:Part Helix   Name/es:Part Helix   MenuLocation:Part → [Workbenches:[[Part_Workbench/es   Part](Part_CreatePrimitives/es___Create_Primitives]]_→_Helix.md), [OpenSCAD](OpenSCAD_Workbench/es.md)|SeeAlso:..---
 
@@ -59,8 +60,5 @@ Once you have created the helix you have the possibility to edit its parameters.
 |                                                          |                                                                               |
 +----------------------------------------------------------+----------------------------------------------------------------------------------+
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Helix/es

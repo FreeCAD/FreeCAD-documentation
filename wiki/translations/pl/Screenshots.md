@@ -1,5 +1,5 @@
 # Screenshots/pl
- {{TOCright}}
+{{TOCright}}
 
 Oto kilka zrzutów ekranu pokazujących różne części FreeCAD. Nie są uporządkowane w żadnej konkretnej linii czasu, więc mogą one różnić się od rzeczywistej wersji programu. Zobacz więcej zrzutów ekranu nadesłanych przez użytkowników FreeCAD na [wątek z zrzutami ekranu na forum](http://forum.freecadweb.org/viewtopic.php?f=8&t=4751) oraz na [\"Pokaż swój projekt tutaj! Users Showcase forum part](http://forum.freecadweb.org/viewforum.php?f=24).
 
@@ -202,3 +202,6 @@ FreeCAD działa w trybie konsoli (bez gui).
 Okno dialogowe, pozwalające na zapisanie obrazu o dowolnych rozmiarach.
 
 [Category:User Documentation](Category:User_Documentation.md) [Category:Screenshots](Category:Screenshots.md)
+
+---
+[documentation index](../README.md) > Screenshots/pl

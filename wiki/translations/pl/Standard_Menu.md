@@ -1,5 +1,5 @@
 # Standard Menu/pl
-  {{TOCright}}
+{{TOCright}}
 
 ## Wprowadzenie
 
@@ -47,4 +47,7 @@ Standardowe menu składa się z 7 podmenu:
 
 {{Std Base navi
 
-}}  {{Interface navi}} 
+}}  {{Interface navi}}
+
+---
+[documentation index](../README.md) > Standard Menu/pl

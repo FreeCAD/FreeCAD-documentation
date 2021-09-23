@@ -7,6 +7,8 @@
    SeeAlso:[Arch SplitMesh](Arch_SplitMesh/ro.md), [Arch RemoveShape](Arch_RemoveShape/ro.md)
 ---
 
+# Arch MeshToShape/ro
+
 
 </div>
 
@@ -94,5 +96,5 @@ new_obj = Arch.meshToShape(Box)
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch MeshToShape/ro

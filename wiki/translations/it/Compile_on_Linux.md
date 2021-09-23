@@ -1,7 +1,4 @@
 # Compile on Linux/it
-
-
-
 {{docnav/it|[Compilazione in Windows](Compile_on_Windows/it.md)|[Compilazione in MacOS](Compile_on_MacOS/it.md)}}
 
 
@@ -1282,3 +1279,6 @@ To update FreeCAD to latest build just repeat from step 3. Update AUR repo when 
 
 
 [Category:Developer\_Documentation](Category:Developer_Documentation.md) [Category:Developer](Category:Developer.md)
+
+---
+[documentation index](../README.md) > [Developer_Documentation](Category:Developer_Documentation.md) > Compile on Linux/it

@@ -7,6 +7,8 @@
    Shortcut:**M** **F**
 ---
 
+# SheetMetal Forming/de
+
 ## Beschreibung
 
 DerBefehl <img alt="" src=images/SheetMetal_Forming.svg  style="width:24px;"> **Prägen** erstellt ein geprägtes Formelement in einer Blechfläche und verwendet dafür ein separates Festkörperobjekt .
@@ -166,3 +168,6 @@ Es ist hier nicht nötig mit komplanaren Skizzen zu arbeiten.
 
 
 [Category:SheetMetal](Category:SheetMetal.md) [Category:Addons](Category:Addons.md) [Category:External Command Reference](Category:External_Command_Reference.md)
+
+---
+[documentation index](../README.md) > [SheetMetal](Category:SheetMetal.md) > SheetMetal Forming/de

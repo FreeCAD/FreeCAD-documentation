@@ -1,3 +1,4 @@
+# Part Primitives/it
 ---
 - GuiCommand:/it   Name:Part_Primitives   Name/it:Crea primitive   Workbenches:[MenuLocation:Parte → Crea primitive...   Shortcut:Nessuno   SeeAlso:[[Part_Builder/it|Crea forma](Part_Workbench/it___Parte]].md)---
 
@@ -109,5 +110,5 @@ freecad $INSTALL_DIR/Mod/Part/parttests/part_test_objects.py
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Primitives/it

@@ -1,7 +1,4 @@
 # Assembly2 Workbench/fr
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -156,3 +153,6 @@ To update to the latest version, delete the assembly2 folder and redownload the 
 
 
 [Category:User Documentation](Category:User_Documentation.md) [Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+
+---
+[documentation index](../README.md) > Assembly2 Workbench/fr

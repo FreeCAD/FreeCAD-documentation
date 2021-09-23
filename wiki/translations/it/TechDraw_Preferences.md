@@ -1,7 +1,4 @@
 # TechDraw Preferences/it
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -245,3 +242,6 @@ Alcune impostazioni delle preferenze sono accessibili solo tramite [Editor dei p
 }} 
 
 [Category:Preferences](Category:Preferences.md)
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Preferences/it

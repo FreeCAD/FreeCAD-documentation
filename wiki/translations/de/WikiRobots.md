@@ -1,5 +1,5 @@
 # WikiRobots/de
- **Roboter sind von Natur aus gefährlich, da sie automatisch viel Schaden anrichten können. Verwende sie mit äußerster Vorsicht!**
+**Roboter sind von Natur aus gefährlich, da sie automatisch viel Schaden anrichten können. Verwende sie mit äußerster Vorsicht!**
 
 ## Übersicht
 
@@ -154,3 +154,6 @@ Ersetze eine Zeichenfolge in allen Seiten, die in der Kategorie Arch aufgeführt
 {{SystemInput|python3 pwb.py replace.py -cat:Arch}}
 
 [Category:Arch](Category:Arch.md) [Category:Administration](Category:Administration.md) [Category:Developer](Category:Developer.md)
+
+---
+[documentation index](../README.md) > [Administration](Category:Administration.md) > WikiRobots/de

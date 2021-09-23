@@ -1,3 +1,4 @@
+# Mesh FlipNormals/ro
 ---
 - GuiCommand:   Name:Mesh FlipNormals‏‎   MenuLocation:Meshes → Flip Normals   Workbenches:[[Mesh Workbench   Mesh]]|Shortcut:   SeeAlso:---
 
@@ -52,4 +53,7 @@ Verificați această acțiune prin
 
 {{Mesh Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh FlipNormals/ro

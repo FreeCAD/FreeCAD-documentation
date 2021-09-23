@@ -7,6 +7,8 @@
    SeeAlso:[Std Cut](Std_Cut.md), [Std Copy](Std_Copy.md), [Std DuplicateSelection](Std_DuplicateSelection.md)
 ---
 
+# Std Paste/pl
+
 ## Description
 
 The **Std Paste** command pastes objects from the Clipboard into the active document.
@@ -36,4 +38,7 @@ The **Std Paste** command pastes objects from the Clipboard into the active docu
 
 {{Std Base navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > Std Paste/pl

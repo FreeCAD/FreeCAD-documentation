@@ -8,6 +8,8 @@
    SeeAlso:[Ulepsz kształt](Draft_Upgrade/pl.md), [Wytnij](Part_Cut/pl.md)
 ---
 
+# Draft Downgrade/pl
+
 ## Opis
 
 Narzędzie **<img src="images/Draft_Downgrade.svg" width=16px> [Rozbij kształt](Draft_Downgrade.md)** obniża stopień szczegółowości wybranych obiektów na różne sposoby. Inaczej mówiąc rozbija obiekty do elementów podstawowych, np bryły do wielokątów, kształty do linii.
@@ -78,8 +80,5 @@ add_list4, delete_list4 = Draft.downgrade(box, delete=True)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Downgrade/pl

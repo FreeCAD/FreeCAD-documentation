@@ -7,6 +7,8 @@
    SeeAlso:[Sketcher Show/hide B-spline degree](Sketcher_BSplineDegree.md), [Sketcher Decrease B-spline degree](Sketcher_BSplineDecreaseDegree.md)
 ---
 
+# Sketcher BSplineIncreaseDegree/en
+
 ## Description
 
 Increases the degree (order) of a B-spline (see [this page](B-Splines.md) for more info about B-splines).
@@ -43,4 +45,7 @@ You can see that now each segment has 2 control points and the knots are coincid
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineIncreaseDegree/en

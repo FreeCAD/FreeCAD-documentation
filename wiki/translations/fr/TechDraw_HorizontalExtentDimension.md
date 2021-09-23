@@ -8,6 +8,8 @@
    SeeAlso:[TechDraw Cote de longueur](TechDraw_LengthDimension/fr.md), [TechDraw Extension verticale](TechDraw_VerticalExtentDimension/fr.md)
 ---
 
+# TechDraw HorizontalExtentDimension/fr
+
 ## Description
 
 L\'outil Extension horizontale ajoute une dimension linéaire à une vue. La cote s\'étend du point le plus à gauche sur les objets sélectionnés au point le plus à droite. Un CosmeticVertex (point cosmétique) sera placé à chaque point.
@@ -56,4 +58,7 @@ rc = page.addView(hExtentDim)
 
 {{TechDraw Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw HorizontalExtentDimension/fr

@@ -6,6 +6,8 @@
    Workbenches:[PartDesign](PartDesign_Workbench/de.md)
 ---
 
+# PartDesign LinearPattern/de
+
 ## Beschreibung
 
 Das **<img src=images/PartDesign_LinearPattern.svg style="width:24px"> '''LinearesMuster'''** Werkzeug erzeugt gleichmäßig verteilte Kopien eines Formelements in einer linearen Richtung. Ab {{VersionPlus/de|0.17}} kann das Linear Muster Werkzeug mehrere Formelemente mustern.
@@ -93,4 +95,7 @@ Wähle eine der Standardachsen des Körperursprungs (X, Y oder Z) als Richtung.
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign LinearPattern/de

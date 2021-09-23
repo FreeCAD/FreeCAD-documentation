@@ -6,6 +6,8 @@
    SeeAlso:[Mesh Part Create Flat Mesh](MeshPart_CreateFlatMesh.md)
 ---
 
+# MeshPart CreateFlatFace/pl
+
 ## Description
 
 The **MeshPart CreateFlatFace** command creates a flat representation of a face of a shape object. The created outline is a [Part Feature](Part_Feature.md). At this time the command almost always creates a rectangular outline.
@@ -25,4 +27,7 @@ See: [Part Feature](Part_Feature.md).
 
 {{Mesh Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [MeshPart](MeshPart_Workbench.md) > MeshPart CreateFlatFace/pl

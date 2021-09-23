@@ -5,6 +5,8 @@
    Workbenches:[Path](Path_Workbench.md)
 ---
 
+# Path Helix
+
 ## Description
 
 The <img alt="" src=images/Path_Helix.svg  style="width:24px;"> [Path Helix](Path_Helix.md) command appends a helical interpolation Operation to the Job. Clockwise Helix interpolation outputs (G2) G-Code commands. Counterclockwise outputs (G3) G-Code commands. Step Over percentage specifies the concentric step-over as a percentage of the Tool diameter.
@@ -51,4 +53,7 @@ Example:
 
 
 
- {{Path_Tools_navi}} 
+ {{Path_Tools_navi}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Helix

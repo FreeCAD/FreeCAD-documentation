@@ -9,6 +9,8 @@
    SeeAlso:[Skizzierer BeschränkeDeckungsgleich](Sketcher_ConstrainCoincident/de.md)
 ---
 
+# Sketcher ConnectLines/de
+
 ## Beschreibung
 
 Wendet [Deckungsgleiche Beschränkung](Sketcher_ConstrainCoincident/de.md) auf Endpunkte mit den gleichen Koordinaten der ausgewählten Elemente an.
@@ -31,4 +33,7 @@ Vor Verwendung dieses Befehls ist sicherzustellen, dass offensichtliche Beschrä
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConnectLines/de

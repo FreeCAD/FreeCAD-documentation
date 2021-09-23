@@ -8,6 +8,8 @@
    SeeAlso:[DWire](Draft_Wire.md)
 ---
 
+# Draft BSpline/ru
+
 
 </div>
 
@@ -152,5 +154,5 @@ doc.recompute()
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft BSpline/ru

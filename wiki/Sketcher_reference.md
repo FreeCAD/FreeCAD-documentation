@@ -1,6 +1,4 @@
 # Sketcher reference
- 
-
 ## Introduction
 
 User **chrisb** wrote a lengthy 70-page reference manual for the [Sketcher Workbench](Sketcher_Workbench.md) that covers many topics of using this workbench. For inexperienced users, it is a gentle introduction that covers the basic usage of the Sketcher, and then goes into many details of creating geometrical elements, and using each type of constraint.
@@ -61,4 +59,7 @@ The general structure of the manual is:
     -   Placement and attachment offset
     -   Validate sketches
 
- {{Tutorials navi}} {{Sketcher Tools navi}} 
+ {{Tutorials navi}} {{Sketcher Tools navi}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher reference

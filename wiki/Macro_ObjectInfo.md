@@ -1,5 +1,5 @@
 # Macro ObjectInfo
-  {{Macro
+{{Macro
 |Name=Macro ObjectInfo
 |Description=This WorkBench lets you know the volume information surface area, center of mass and moment of intertia of the selected object.
 |Author=keithsloan52
@@ -46,4 +46,5 @@ A FreeCAD user created a user-friendly \"Info\" module which you can get here: <
 
 From Forum [Info Workbench - Help with icons please.](http://forum.freecadweb.org/viewtopic.php?f=10&t=3185)
 
- 
+---
+[documentation index](../README.md) > Macro ObjectInfo

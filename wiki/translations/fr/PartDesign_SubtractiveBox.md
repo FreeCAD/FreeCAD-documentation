@@ -8,6 +8,8 @@
    SeeAlso:[PartDesign Primitives soustractives](PartDesign_CompPrimitiveSubtractive/fr.md)
 ---
 
+# PartDesign SubtractiveBox/fr
+
 ## Description
 
 Insérer un Cube soustractif dans le Corps actif. Sa forme est soustraite du solide existant.
@@ -46,4 +48,7 @@ Le Cube peut être édité après sa création de deux façons :
 
 {{PartDesign Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveBox/fr

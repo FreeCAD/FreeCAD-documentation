@@ -1,5 +1,5 @@
 # Basic TechDraw Tutorial/en
- {{TutorialInfo
+{{TutorialInfo
 |Topic=Modeling
 |Level=Beginner
 |Author=[WandererFan](User:WandererFan.md)
@@ -132,4 +132,7 @@ There is much more functionality in TechDraw for you to explore - Section Views,
 
 {{Tutorials navi
 
-}} {{TechDraw Tools navi}} 
+}} {{TechDraw Tools navi}}
+
+---
+[documentation index](../README.md) > Basic TechDraw Tutorial/en

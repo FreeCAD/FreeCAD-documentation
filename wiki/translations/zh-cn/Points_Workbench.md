@@ -1,10 +1,4 @@
-# Points Workbench/zh-cn
-
-
-
-
-
-<img alt="Points workbench icon" src=images/Workbench_Points.svg  style="width:128px;">
+# <img alt="Points workbench icon" src=images/Workbench_Points.svg  style="width:64px;"> Points Workbench/zh-cn
 
 ## 簡介
 
@@ -62,3 +56,6 @@ A point cloud is a collection of points in 3D space. A point cloud is generally 
 }} 
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Points Workbench/zh-cn

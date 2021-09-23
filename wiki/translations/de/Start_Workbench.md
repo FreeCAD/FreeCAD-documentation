@@ -1,10 +1,4 @@
-# Start Workbench/de
-
-
-
-
-
-<img alt="Start Arbeitsbereichssymbol" src=images/Workbench_Start.svg  style="width:128px;">
+# <img alt="Start Arbeitsbereichssymbol" src=images/Workbench_Start.svg  style="width:64px;"> Start Workbench/de
 
 Der <img alt="" src=images/Workbench_Start.svg  style="width:24px;"> [Start Arbeitsbereich](Start_Workbench/de.md) ist kein richtiger Arbeitsbereich, es ist nur die Seite, die angezeigt wird, wenn FreeCAD ohne geladenes Dokument geöffnet wird.
 
@@ -23,3 +17,6 @@ Von dieser Oberfläche aus kannst Du nützliche Informationen einsehen und zu de
 
 
 [Category:Start](Category:Start.md) [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Start Workbench/de

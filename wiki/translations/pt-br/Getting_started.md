@@ -1,7 +1,4 @@
 # Getting started/pt-br
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -267,3 +264,6 @@ E, finalmente, um dos recursos mais poderosos do FreeCAD é o ambiente [ scripti
 
 
 [Category:User\_Documentation/pt-br](Category:User_Documentation/pt-br.md)
+
+---
+[documentation index](../README.md) > Getting started/pt-br

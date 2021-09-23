@@ -7,6 +7,8 @@
    SeeAlso:
 ---
 
+# Path SelectLoop/de
+
 ## Description
 
 
@@ -38,4 +40,7 @@ Der Befehl WähleSchleife vervollständigt eine Auswahl von Kanten, die eine Sch
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path SelectLoop/de

@@ -1,3 +1,4 @@
+# OpenSCAD RefineShapeFeature/es
 ---
 - GuiCommand:/es   Name:OpenSCAD RefineShapeFeature   Name/es:OpenSCAD RefineShapeFeature   MenuLocation:OpenSCAD → Refine Shape Feature   Workbenches:[[OpenSCAD_Workbench/es   OpenSCAD]]|SeeAlso:..---
 
@@ -35,4 +36,7 @@ Cleans unnecessary lines. After a Boolean operation some lines defining the prev
 
 {{OpenSCAD_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD RefineShapeFeature/es

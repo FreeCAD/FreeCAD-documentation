@@ -1,7 +1,4 @@
 # Web Workbench/pt-br
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -31,3 +28,6 @@ A partir desse navegador você é capaz de navegar na web, clicar em links, ler 
 
 
 [Category:Web](Category:Web.md) [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Web Workbench/pt-br

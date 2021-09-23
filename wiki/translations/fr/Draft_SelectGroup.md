@@ -7,6 +7,8 @@
    SeeAlso:[Std Créer un groupe](Std_Group/fr.md), [Draft Ajouter au groupe](Draft_AddToGroup/fr.md), [Draft Ajouter au groupe de construction](Draft_AddConstruction/fr.md), [Draft Groupement automatique](Draft_AutoGroup/fr.md)
 ---
 
+# Draft SelectGroup/fr
+
 ## Description
 
 La commande <img alt="" src=images/Draft_SelectGroup.svg  style="width:24px;"> **Draft Sélection groupée** sélectionne le contenu des objets [Draft Calques](Draft_Layer/fr.md), [Std Groupes](Std_Group/fr.md) ou des objets de type groupe [Arch](Arch_Workbench/fr.md).
@@ -29,8 +31,5 @@ Actuellement, la commande ne fonctionne pas bien avec les calques et peut produi
 
 -   Pour plus d\'informations sur l\'organisation de votre modèle, voir [Structure du document](Document_structure/fr.md) et [Tutoriel Arch](Arch_tutorial/fr#Organiser_votre_mod.C3.A8le.md).
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft SelectGroup/fr

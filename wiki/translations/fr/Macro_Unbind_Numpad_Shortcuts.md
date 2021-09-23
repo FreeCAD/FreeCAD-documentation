@@ -1,5 +1,5 @@
 # Macro Unbind Numpad Shortcuts/fr
- {{Macro/fr
+{{Macro/fr
 |Name=Macro Unbind Numpad Shortcuts
 |Icon=Macro_Unbind_Numpad_Shortcuts.png
 |Description=redéfinit les commandes de vue standard des touches numériques à Ctrl + chiffre, afin qu'elles ne fassent pas tourner la vue par accident lors de la saisie de nombres.
@@ -45,3 +45,5 @@ for (cmd, shortcut) in preset:
     App.ParamGet("User parameter:BaseApp/Preferences/Shortcut").SetString(cmd, shortcut)
 }}
 
+---
+[documentation index](../README.md) > Macro Unbind Numpad Shortcuts/fr

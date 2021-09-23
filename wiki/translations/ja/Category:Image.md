@@ -6,3 +6,6 @@ This category lists pages related to the [Image Workbench/ja](Image_Workbench/ja
 [Image Workbench/ja](Image_Workbench/ja.md)
 
 [Category:Workbenches/ja](Category:Workbenches/ja.md)
+
+---
+[documentation index](../README.md) > Category:Image/ja

@@ -1,6 +1,4 @@
 # Assembly/de
-
-
 ## Einführung
 
 
@@ -53,3 +51,6 @@ Die Entwicklung der Zusammenbau Arbeitsbereiche geht weiter, und es wird erwarte
 }} {{Document objects navi}} 
 
 [Category:Glossary](Category:Glossary.md)
+
+---
+[documentation index](../README.md) > [Glossary](Category:Glossary.md) > Assembly/de

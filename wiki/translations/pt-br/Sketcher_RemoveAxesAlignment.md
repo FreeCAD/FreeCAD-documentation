@@ -6,6 +6,8 @@
    Version:0.20
 ---
 
+# Sketcher RemoveAxesAlignment/pt-br
+
 ## Description
 
 This tool removes axis alignments (<img alt="" src=images/Sketcher_ConstrainHorizontal.svg  style="width:16px;"> [Horizontal](Sketcher_ConstrainHorizontal.md), <img alt="" src=images/Sketcher_ConstrainVertical.svg  style="width:16px;"> [Vertical](Sketcher_ConstrainVertical.md) constraints) from the selected elements by trying to preserve the constraint relationship.
@@ -29,4 +31,7 @@ As result the (horizontal, vertical constraints) will be removed. In the example
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher RemoveAxesAlignment/pt-br

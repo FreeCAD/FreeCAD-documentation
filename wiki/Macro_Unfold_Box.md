@@ -1,5 +1,5 @@
 # Macro Unfold Box
-  {{Macro
+{{Macro
 |Name=Macro Unfold Box
 |Icon=Macro_Unfold_Box.png
 |Description=The macro allows to unfold the surfaces of a box of any shape and to draw them on a page.<BR/>
@@ -602,3 +602,5 @@ DialogBox.show()
 </nowiki>
 }}
 
+---
+[documentation index](../README.md) > Macro Unfold Box

@@ -6,6 +6,8 @@
    SeeAlso:[Part Primitives](Part_Primitives.md)
 ---
 
+# Part Sphere/zh-cn
+
 ## Description
 
 
@@ -61,8 +63,5 @@ The properties of the object can be edited, either in the [Property editor](Prop
 
 <img alt="" src=images/SphereCutThreeAngles.jpg  style="width:400px;">
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Sphere/zh-cn

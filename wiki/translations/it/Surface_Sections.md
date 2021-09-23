@@ -7,6 +7,8 @@
    Version:0.19
 ---
 
+# Surface Sections/it
+
 ## Descrizione
 
 Lo strumento <img alt="" src=images/Surface_Sections.svg  style="width:16px;"> [Surface Sections](Surface_Sections/it.md) viene utilizzato per creare una superficie dai bordi che rappresentano sezioni trasversali di una superficie.
@@ -125,4 +127,7 @@ doc.recompute()
 
 {{Surface Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Surface](Surface_Workbench.md) > Surface Sections/it

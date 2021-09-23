@@ -1,7 +1,4 @@
 # How to install additional workbenches/ro
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -261,3 +258,6 @@ This method is possible but not necessary with the introduction of the [Addon Ma
  {{Powerdocnavi}}
 
 [Category:External Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)
+
+---
+[documentation index](../README.md) > [External Workbenches](Category:External Workbenches.md) > How to install additional workbenches/ro

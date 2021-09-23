@@ -6,6 +6,8 @@
    Workbenches:[PartDesign](PartDesign_Workbench/de.md)
 ---
 
+# PartDesign Mirrored/de
+
 ## Beschreibung
 
 Das **Gespiegelt** Werkzeug spiegelt Formelemente auf einer Ebene.
@@ -83,4 +85,7 @@ Das Spiegelungsergebnis kann in Echtzeit in der Vorschau angezeigt werden, bevor
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Mirrored/de

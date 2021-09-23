@@ -1,7 +1,4 @@
-# Inspection Workbench/ru
- 
-
-<img alt="Логотип верстака Inspection" src=images/Workbench_Inspection.svg  style="width:128px;">
+# <img alt="Логотип верстака Inspection" src=images/Workbench_Inspection.svg  style="width:64px;"> Inspection Workbench/ru
 
 ## Введение
 
@@ -27,3 +24,6 @@
 
 
 [Category:Inspection](Category:Inspection.md) [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Inspection Workbench/ru

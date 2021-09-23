@@ -8,6 +8,8 @@
    SeeAlso:[Std Fenêtre document plein écran](Std_ViewDockUndockFullscreen/fr.md), [Std Plein écran principal](Std_MainFullscreen/fr.md)
 ---
 
+# Std ViewFullscreen/fr
+
 ## Description
 
 La commande **Std Plein écran** bascule la [vue 3D](3D_view/fr.md) vers et depuis le mode plein écran. Les vues 3D sont automatiquement [détachée](Std_ViewDockUndockFullscreen/fr.md) dans le mode plein écran.
@@ -31,4 +33,7 @@ La commande **Std Plein écran** bascule la [vue 3D](3D_view/fr.md) vers et depu
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ViewFullscreen/fr

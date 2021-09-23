@@ -7,6 +7,8 @@
    SeeAlso:[Draft Shape2DView](Draft_Shape2DView.md), [TechDraw ArchView](TechDraw_ArchView.md)
 ---
 
+# Arch SectionPlane/pt-br
+
 ## Descrição
 
 This tool places in the current document a section plane \"thing\", which defines a section or view plane. The \"thing\" takes its placement according to the current [Draft Working Plane](Draft_SelectPlane.md) and can be relocated and reoriented by moving and rotating it, until it describes the 2D view you want to obtain. The Section plane object will only consider a certain set of objects. Objects that are selected when you create a Section Plane will be added to that set automatically. Other objects can later be added or removed from a SectionPlane object with the [Arch Add component](Arch_Add.md) and [Arch Remove component](Arch_Remove.md) tools, or by double-clicking the Section Plane in the tree view.
@@ -117,8 +119,5 @@ FreeCAD.ActiveDocument.recompute()
 
 </div>
 
-
-
-
-
-
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SectionPlane/pt-br

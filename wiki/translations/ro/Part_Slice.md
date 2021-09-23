@@ -7,6 +7,8 @@
    SeeAlso:[Part Boolean Fragments](Part_BooleanFragments.md), [Part XOR](Part_XOR.md), [Part Join features](Part_CompJoinFeatures.md), [Part Boolean](Part_Boolean.md)
 ---
 
+# Part Slice/ro
+
 
 </div>
 
@@ -215,8 +217,5 @@ Instrumentul propriu-zis este implementat în Python, vezi /Mod/Part/BOPTools/Sp
 
 -   [FreeCAD Slice und Slice Apart und andere Tricks](https://www.youtube.com/watch?v=JJAL5JmqqKQ) (German language), author: Ha Gei
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Slice/ro

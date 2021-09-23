@@ -1,7 +1,4 @@
 # Fine-tuning/pt-br
-
-
-
 {{TOCright}}
 
 This page holds different settings and parameters that you can use to fine-tune your FreeCAD installation or overcome problems.
@@ -77,3 +74,6 @@ Any other characters are treated literally. If the resulting filename is illegal
 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Fine-tuning/pt-br

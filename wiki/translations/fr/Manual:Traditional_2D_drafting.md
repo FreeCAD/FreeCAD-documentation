@@ -1,7 +1,4 @@
 # Manual:Traditional 2D drafting/fr
- 
-
-
 {{Manual:TOC/fr}}
 
 Vous pouvez être intéressé par FreeCAD car vous avez déjà une expérience de dessin technique, par exemple avec un logiciel comme [AutoCAD](https://fr.wikipedia.org/wiki/AutoCAD). Ou vous savez déjà quelque chose dans le Design, ou vous préférez dessiner avant de construire. Dans les deux cas, FreeCAD propose un atelier avec des fonctionnalités plus traditionnelles, avec des outils que l'on trouve dans la plupart des applications CAO 2D : l\'[atelier Draft](Draft_Workbench/fr.md).
@@ -114,3 +111,6 @@ Fondamentalement, ce que fait l'atelier Draft, c\'est fournir des moyens graphiq
 
 
 [Category:Tutorials](Category:Tutorials.md) [Category:Draft](Category:Draft.md)
+
+---
+[documentation index](../README.md) > [Tutorials](Category:Tutorials.md) > Manual:Traditional 2D drafting/fr

@@ -1,5 +1,5 @@
 # Macro screw maker1 2/pl
- {{Macro
+{{Macro
 |Name=Macro_screw_maker_2
 |Icon=Macro_screw_maker1_2.png
 |Description=Tworzy śrubę, sworzeń.... z gwintem lub bez, zgodnie z normami ISO.
@@ -4981,3 +4981,6 @@ if __name__ == '__main__':
 ## Link
 
 Forum [Screw Maker](https://forum.freecadweb.org/viewtopic.php?f=22&t=6558&start=30#p95929)
+
+---
+[documentation index](../README.md) > Macro screw maker1 2/pl

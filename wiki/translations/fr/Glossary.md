@@ -1,9 +1,4 @@
 # Glossary/fr
-
-
-
-
-
 Cette page est le glossaire des termes et définitions fréquemment utilisées dans FreeCAD.
 
 Aller à la lettre : {{CompactTOC|center=yes}}
@@ -1137,3 +1132,6 @@ Aller à la lettre : {{CompactTOC|center=yes}}
 
 
 [Category:Wiki](Category:Wiki.md) [Category:Glossary](Category:Glossary.md)
+
+---
+[documentation index](../README.md) > [Wiki](Category:Wiki.md) > Glossary/fr

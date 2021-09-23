@@ -8,6 +8,8 @@
    SeeAlso:[표준 실행 취소](Std_Undo/ko.md)
 ---
 
+# Std Redo/ko
+
 ## 설명
 
 **표준 다시 실행(Std Redo)** 명령은 [표준 실행 취소](Std_Undo/ko.md) 명령을 되돌립니다.
@@ -56,4 +58,7 @@ FreeCAD.ActiveDocument.redo()
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std Redo/ko

@@ -7,6 +7,8 @@
    SeeAlso:[Sketcher Ellipse by 3 Points](Sketcher_CreateEllipseBy3Points.md), [Sketcher Circle](Sketcher_CreateCircle.md), [Sketcher Arc of Ellipse](Sketcher_CreateArcOfEllipse.md)
 ---
 
+# Sketcher CreateEllipseByCenter/zh-cn
+
 ## 描述
 
 本工具会根据用户拾取的三个点：中点、长半轴点与短半轴点来绘制一个椭圆。 在开启此工具时，鼠标指针会变为一个附有红色椭圆图标的白色十字。同时还会将当前的指针坐标实时显现在侧。
@@ -61,4 +63,7 @@
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateEllipseByCenter/zh-cn

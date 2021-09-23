@@ -1,11 +1,4 @@
 # Create a FeaturePython object part II
- 
-
-
-
-
- 
-
 ## Introduction
 
 On the [Create a FeaturePython object part I](Create_a_FeaturePython_object_part_I.md) page we\'ve focused on the internal aspects of a Python class built around a FeaturePython object, specifically an `App::FeaturePython` object. We\'ve created the object, defined some properties, and added a document-level event callback that allows our object to respond to a document recompute with the `execute()` method. But our object still lacks a presence in the [3D view](3D_view.md). Let\'s remedy that by adding a box.
@@ -398,3 +391,6 @@ class ViewProviderBox:
  {{Powerdocnavi}} 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Create a FeaturePython object part II

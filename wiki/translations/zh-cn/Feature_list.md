@@ -1,7 +1,4 @@
 # Feature list/zh-cn
- 
-
-
 <div class="mw-translate-fuzzy">
 
 这是一个庞大的，未完成的 FreeCAD 特性列表。如果你想知道未来规划，可以通过 [开发路线图](Development_roadmap/zh-cn.md) 大概知道接下来有什么新特性。同样，[截图](Screenshots/zh-cn.md) 也是一个好地方值得浏览。
@@ -287,3 +284,6 @@
 
 
 [Category:User Documentation](Category:User_Documentation.md)
+
+---
+[documentation index](../README.md) > [User Documentation](Category:User Documentation.md) > Feature list/zh-cn

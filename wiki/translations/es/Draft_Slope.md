@@ -7,6 +7,8 @@
    Version:0.17
 ---
 
+# Draft Slope/es
+
 
 </div>
 
@@ -48,5 +50,5 @@ There is no Python method to slope objects. To emulate the results of the Draft 
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Slope/es

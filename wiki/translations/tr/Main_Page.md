@@ -1,7 +1,4 @@
 # Main Page/tr
- 
-
-
 <div class="mw-translate-fuzzy">
 
 ## Giriş
@@ -111,3 +108,6 @@ Neler yapılması planlandığı ile ilgili olarak [Geliştirici rehberine](Deve
 
 
 [Category:Documentation](Category:Documentation.md)
+
+---
+[documentation index](../README.md) > [Documentation](Category:Documentation.md) > Main Page/tr

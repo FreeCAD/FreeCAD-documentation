@@ -6,6 +6,8 @@
    Shortcut:**S** **J**
 ---
 
+# SheetMetal AddJunction/en
+
 ## Description
 
 The <img alt="" src=images/SheetMetal_AddJunction.svg  style="width:24px;"> **SheetMetal AddJunction** command\...
@@ -77,3 +79,6 @@ A SheetMetal Junction object is derived from a [Part Feature](Part_Feature.md) o
 
 
 [Category:SheetMetal](Category:SheetMetal.md) [Category:Addons](Category:Addons.md) [Category:External Command Reference](Category:External_Command_Reference.md)
+
+---
+[documentation index](../README.md) > [SheetMetal](Category:SheetMetal.md) > SheetMetal AddJunction/en

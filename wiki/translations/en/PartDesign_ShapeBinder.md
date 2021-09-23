@@ -7,6 +7,8 @@
    SeeAlso:[PartDesign SubShapeBinder](PartDesign_SubShapeBinder.md), [PartDesign Clone](PartDesign_Clone.md)
 ---
 
+# PartDesign ShapeBinder/en
+
 ## Description
 
 Creates a datum **shape binder** inside the active Body. A shape binder is a reference object that links to edges or faces from another Body. It also can be used to link a sketch from one body to another body. The shape binder object displays as translucent yellow in the [3D view](3D_view.md).
@@ -108,4 +110,7 @@ There is a workaround for multiple selection: If you select all the elements you
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign ShapeBinder/en

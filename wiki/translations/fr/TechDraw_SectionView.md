@@ -7,6 +7,8 @@
    SeeAlso:[TechDraw Vue](TechDraw_View/fr.md), [TechDraw Groupe de projection](TechDraw_ProjectionGroup/fr.md)
 ---
 
+# TechDraw SectionView/fr
+
 ## Description
 
 L\'outil Coupe crée une vue en coupe en fonction d\'une vue existante d\'une pièce.
@@ -117,4 +119,7 @@ section.SectionOrigin = (5.0,5.0,5.0)
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw SectionView/fr

@@ -7,6 +7,8 @@
    Workbenches:[Ateliers](Workbenches/fr.md)
 ---
 
+# Std Workbench/fr
+
 ## Description
 
 La commande **Std Atelier** active l\'un des [ateliers](Workbenches/fr.md) sélectionné y compris son interface utilisateur graphique (GUI).
@@ -50,4 +52,7 @@ FreeCADGui.activateWorkbench("PartDesignWorkbench")
 
 {{Std Base navi
 
-}}  {{Interface navi}} 
+}}  {{Interface navi}}
+
+---
+[documentation index](../README.md) > Std Workbench/fr

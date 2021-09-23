@@ -1,7 +1,4 @@
 # Manual:Installing/ro
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -196,3 +193,6 @@ If you are using the Ubuntu operating system, some of the addons above are also 
 </div>
 
 [Category:Poweruser Documentation](Category:Poweruser_Documentation.md) [Category:Tutorials](Category:Tutorials.md)
+
+---
+[documentation index](../README.md) > [Poweruser Documentation](Category:Poweruser Documentation.md) > Manual:Installing/ro

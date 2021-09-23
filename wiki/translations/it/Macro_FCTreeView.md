@@ -1,7 +1,4 @@
 # Macro FCTreeView/it
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -302,3 +299,6 @@ ver 00.03 (23/09/2017) : aggiungi ricerca per tipo oggetto
 ver 00.02 (11/09/2017) : modifica per ancorare e impedire molte istanze il clic sul pulsante è effetto flip/flop (macro nascondi/visibile)
 
 ver 00.01 (08/09/2017) :
+
+---
+[documentation index](../README.md) > Macro FCTreeView/it

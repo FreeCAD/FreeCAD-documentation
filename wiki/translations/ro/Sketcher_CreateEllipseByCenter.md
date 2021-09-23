@@ -8,6 +8,8 @@
    SeeAlso:[Sketcher Ellipse by 3 Points](Sketcher_CreateEllipseBy3Points.md), [Sketcher Circle](Sketcher_CreateCircle.md), [Sketcher Arc of Ellipse](Sketcher_CreateArcOfEllipse.md)
 ---
 
+# Sketcher CreateEllipseByCenter/ro
+
 
 </div>
 
@@ -71,4 +73,7 @@ Acest instrument desenează o elipsă prin alegerea a 3 puncte: centrul, sfârș
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateEllipseByCenter/ro

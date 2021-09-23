@@ -7,6 +7,8 @@
    SeeAlso:[Std Enregistrer une copie](Std_SaveCopy.md), [Std Enregistrer](Std_Save/fr.md)
 ---
 
+# Std SaveAs/fr
+
 ## Description
 
 La commande **Std Enregistrer sous** enregistre le document actif sous un nouveau nom de fichier.
@@ -44,4 +46,7 @@ Pour enregistrer un document sous un nouveau nom, utilisez la méthode `saveAs` 
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std SaveAs/fr

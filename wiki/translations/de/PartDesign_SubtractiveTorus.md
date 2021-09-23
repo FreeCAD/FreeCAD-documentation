@@ -1,3 +1,4 @@
+# PartDesign SubtractiveTorus/de
 ---
 - GuiCommand:/de
    Name:PartDesign SubtractiveTorus
@@ -61,4 +62,7 @@ Der Torus kann auf zwei verschieden Wege bearbeitet werden:
 
 {{PartDesign Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveTorus/de

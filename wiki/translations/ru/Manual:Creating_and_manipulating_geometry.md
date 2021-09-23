@@ -1,7 +1,4 @@
 # Manual:Creating and manipulating geometry/ru
- 
-
-
 {{Manual:TOC/ru}}
 
 В предыдущих главах мы узнали о различных верстаках FreeCAD, и как каждый из них реализует свои собственные инструменты и типы геометрии. То же самое касается работы из кода Python.
@@ -237,3 +234,6 @@ Part.show(P)
 }} 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Manual:Creating and manipulating geometry/ru

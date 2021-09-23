@@ -1,5 +1,5 @@
 # Release notes 0.13/id
- This is a summary of the most interesting changes occured in FreeCAD since latest version. See [the Mantis changelog](http://www.freecadweb.org/tracker/changelog_page.php) on SourceForge for the complete list of changes.
+This is a summary of the most interesting changes occured in FreeCAD since latest version. See [the Mantis changelog](http://www.freecadweb.org/tracker/changelog_page.php) on SourceForge for the complete list of changes.
 
 Older versions: [0.12](Release_notes_0.12.md) - [0.11](Release_notes_0.11.md)
 
@@ -144,3 +144,6 @@ Geometry (Points, Lines and Curves) may be selected by dragging on the backgroun
 -   For more information see the [OpenSCAD Workbench](OpenSCAD_Workbench.md) page on the FreeCAD wiki
 
 [Category:News](Category:News.md) [Category:Documentation](Category:Documentation.md) [Category:Releases](Category:Releases.md)
+
+---
+[documentation index](../README.md) > [News](Category:News.md) > Release notes 0.13/id

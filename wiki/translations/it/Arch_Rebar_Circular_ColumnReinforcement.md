@@ -8,6 +8,8 @@
    Version:0.19
 ---
 
+# Arch Rebar Circular ColumnReinforcement/it
+
 
 </div>
 
@@ -223,3 +225,6 @@ rebar_group = CircularColumn.editReinforcement(
 
 
 [Category:Reinforcement](Category:Reinforcement.md)
+
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Rebar Circular ColumnReinforcement/it

@@ -1,6 +1,4 @@
 # Artwork Start/ru
- 
-
 Эти иконки находятся в указанной исходной папке.
 
 Для всех иконок в исходнике смотри [Художественное оформление](Artwork/ru.md).
@@ -35,3 +33,6 @@
 }} 
 
 [Category:Start](Category:Start.md)
+
+---
+[documentation index](../README.md) > [Start](Category:Start.md) > Artwork Start/ru

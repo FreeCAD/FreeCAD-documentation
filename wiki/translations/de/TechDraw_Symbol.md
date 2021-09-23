@@ -6,6 +6,8 @@
    SeeAlso:[TechDraw Vorlagen](TechDraw_Templates/de.md), [Entwurf SVG](Draft_SVG/de.md)
 ---
 
+# TechDraw Symbol/de
+
 ## Beschreibung
 
 Das Symbolwerkzeug fügt eine [SVG](SVG/de.md)-Datei als Ansicht in die Zeichnungsseite ein. Dieses Symbol kann alles sein, was als Notiz zur Zeichnung beiträgt und nicht weiter verändert werden muss.
@@ -52,4 +54,7 @@ rc = page.addView(sym)
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Symbol/de

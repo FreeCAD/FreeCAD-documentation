@@ -6,6 +6,8 @@
    Shortcut:**C** **B**
 ---
 
+# SheetMetal AddBase
+
 ## Description
 
 The <img alt="" src=images/SheetMetal_AddBase.svg  style="width:24px;"> **SheetMetal AddBase** command creates a sheetmetal wall from a sketch.
@@ -59,3 +61,6 @@ A SheetMetal BaseBend object is derived from a [Part Feature](Part_Feature.md) o
 
 
 [Category:SheetMetal](Category:SheetMetal.md) [Category:Addons](Category:Addons.md) [Category:External Command Reference](Category:External_Command_Reference.md)
+
+---
+[documentation index](../README.md) > [SheetMetal](Category:SheetMetal.md) > SheetMetal AddBase

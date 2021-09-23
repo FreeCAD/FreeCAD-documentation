@@ -6,6 +6,8 @@
    SeeAlso:[Arch Axis](Arch_Axis.md), [Arch AxisSystem](Arch_AxisSystem.md)
 ---
 
+# Arch Grid/pt-br
+
 ## Descrição
 
 The **<img src="images/Arch_Grid.svg" width=16px> [Arch Grid](Arch_Grid.md)** tool allows you to place a grid-like object in the document. This object is meant to serve as a base to build Arch objects that need a regular but complex frame, such as windows, curtain walls, column grids, railings, etc. The Grid object is editable like a spreadsheet, where you can add or remove columns and rows, define their size, and merge cells.
@@ -96,5 +98,5 @@ FreeCAD.ActiveDocument.recompute()
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Grid/pt-br

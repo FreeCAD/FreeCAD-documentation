@@ -8,6 +8,8 @@
    SeeAlso:[Std Copier](Std_Copy/fr.md), [Std Coller](Std_Paste/fr.md), [Std Dupliquer une sélection](Std_DuplicateSelection/fr.md)
 ---
 
+# Std Cut/fr
+
 ## Description
 
 La commande **Std Couper** est limitée: elle ne peut être utilisée que pour [Cellules de tableur](Spreadsheet_Workbench/fr.md). La commande copie le contenu et les propriétés des cellules dans le presse-papiers puis les efface.
@@ -31,4 +33,7 @@ Pour couper d\'autres objets, vous pouvez utiliser la commande [Std Copier](Std_
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std Cut/fr

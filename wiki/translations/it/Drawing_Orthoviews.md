@@ -1,3 +1,4 @@
+# Drawing Orthoviews/it
 ---
 - GuiCommand:/it   Name:Drawing Orthoviews   Name/it:Viste ortogonali   Workbenches:[MenuLocation:Drawing → Inserisci viste ortogonali   Shortcut:none   SeeAlso:[[Drawing Landscape A3/it|Nuovo disegno](Drawing_Workbench/it___Drawing]],_Complete.md)---
 
@@ -68,4 +69,7 @@ Da fare
 
 {{Drawing Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Orthoviews/it

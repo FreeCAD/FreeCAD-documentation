@@ -7,6 +7,8 @@
    SeeAlso:[[Arch Add/zh-cn]]
 ---
 
+# Arch Remove/zh-cn
+
 
 </div>
 
@@ -120,8 +122,5 @@ FreeCAD.ActiveDocument.recompute()
 
 </div>
 
-
-
-
-
-
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Remove/zh-cn

@@ -7,6 +7,8 @@
    SeeAlso:[Draft Aimantation](Draft_Snap/fr.md), [Draft Aimantation Grille](Draft_Snap_Grid/fr.md), [Draft Plan de travail](Draft_SelectPlane/fr.md)
 ---
 
+# Draft ToggleGrid/fr
+
 ## Description
 
 La commande <img alt="" src=images/Draft_ToggleGrid.svg  style="width:24px;"> **Draft Basculer la grille** permet d\'activer ou de désactiver la grille. La grille ne peut être utilisée que si la préférence **Activer la grille** est sélectionnée. Voir [Préférences](#Pr.C3.A9f.C3.A9rences.md).
@@ -30,8 +32,5 @@ Voir [Draft Préférences](Draft_Snap/fr#Pr.C3.A9f.C3.A9rences.md)
 -   Pour utiliser la grille, sélectionnez : **Édition → Préférences... → Draft → Grille et aimantation → Grille → Activer la grille**. Après avoir modifié cette préférence, vous devez redémarrer FreeCAD.
 -   D\'autres préférences de grille sont également disponibles : **Édition → Préférences... → Draft → Grille et aimantation → Grille**.
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ToggleGrid/fr

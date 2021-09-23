@@ -1,6 +1,4 @@
 # Symbols Library Workbench/hr
-
-
 ## Introduction
 
 
@@ -51,3 +49,6 @@ The library is a simple container for SVG files. You can download it anywhere an
 
 
 [Category:Sandbox](Category:Sandbox.md) [Category:User Documentation](Category:User_Documentation.md) [Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+
+---
+[documentation index](../README.md) > Symbols Library Workbench/hr

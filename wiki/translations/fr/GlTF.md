@@ -1,7 +1,4 @@
 # GlTF/fr
-
-
-
 {{TOCright}}
 
 ## Description
@@ -44,3 +41,6 @@ Source: [fil du forum](https://forum.freecadweb.org/viewtopic.php?f=8&t=31680&p=
 
 
 [Category:File\_Formats](Category:File_Formats.md)
+
+---
+[documentation index](../README.md) > [File_Formats](Category:File_Formats.md) > GlTF/fr

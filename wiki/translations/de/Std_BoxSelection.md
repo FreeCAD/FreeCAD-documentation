@@ -7,6 +7,8 @@
    SeeAlso:[Std RechteckElementAuswahl](Std_BoxElementSelection/de.md), [Std AllesAuswählen](Std_SelectAll/de.md)
 ---
 
+# Std BoxSelection/de
+
 ## Beschreibung
 
 Der **Std Rechteckauswahl**-Befehl ermöglicht es, in der 3D-Ansicht Flächen aus einem benutzerdefinierten rechteckigen Bereich auszuwählen.
@@ -35,4 +37,7 @@ Der **Std Rechteckauswahl**-Befehl ermöglicht es, in der 3D-Ansicht Flächen au
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std BoxSelection/de

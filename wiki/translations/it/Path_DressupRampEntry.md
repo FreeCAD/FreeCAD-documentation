@@ -1,3 +1,4 @@
+# Path DressupRampEntry/it
 ---
 - GuiCommand:/it   Name:Path DressupTag   Name/it:Rampa di ingresso   Workbenches:[MenuLocation:Path → Vesti percorso → Rampa di ingresso   SeeAlso:[[Path_DressupTag/it|DressupTag](Path_Workbench/it___Path]].md), [DressupDogbone](Path_DressupDogbone/it.md) , [DressupDragKnife](Path_DressupDragKnife/it.md) ---
 
@@ -37,4 +38,7 @@ Questo strumento veste un percorso esistente per aggiungere una rampa
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path DressupRampEntry/it

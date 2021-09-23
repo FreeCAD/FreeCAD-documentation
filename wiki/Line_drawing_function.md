@@ -1,8 +1,4 @@
 # Line drawing function
- 
-
- 
-
 ## Introduction
 
 This page shows how advanced functionality can easily be created in Python. In this exercise, we will build a new tool that draws a line. This tool can then be linked to a FreeCAD command, and that command can be called by any element in the interface, like a menu item or a toolbar button.
@@ -281,3 +277,6 @@ Don\'t hesitate to ask questions or share ideas on the [forum](https://forum.fre
  {{Powerdocnavi}} 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Line drawing function

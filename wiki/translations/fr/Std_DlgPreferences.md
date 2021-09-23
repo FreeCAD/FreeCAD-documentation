@@ -7,6 +7,8 @@
    SeeAlso:[Réglage des préférences](Preferences_Editor/fr.md)
 ---
 
+# Std DlgPreferences/fr
+
 ## Description
 
 La commande **Std Préférences** ouvre le [Réglage des préférences](Preferences_Editor/fr.md).
@@ -26,4 +28,7 @@ La commande **Std Préférences** ouvre le [Réglage des préférences](Preferen
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std DlgPreferences/fr

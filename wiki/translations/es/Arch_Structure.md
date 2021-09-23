@@ -8,6 +8,8 @@
    SeeAlso:[Arquitectura Muro](Arch_Wall/es.md), [Arquitectura Barra de refuerzo](Arch_Rebar/es.md)
 ---
 
+# Arch Structure/es
+
 
 </div>
 
@@ -134,8 +136,5 @@ FreeCAD.ActiveDocument.recompute()
 
 </div>
 
-
-
-
-
-
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Structure/es

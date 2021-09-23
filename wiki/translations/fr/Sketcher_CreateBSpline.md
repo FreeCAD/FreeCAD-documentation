@@ -8,6 +8,8 @@
    SeeAlso:[Sketcher B-spline périodique](Sketcher_CreatePeriodicBSpline/fr.md)
 ---
 
+# Sketcher CreateBSpline/fr
+
 ## Description
 
 Cet outil crée une courbe B-spline à partir de ses points de contrôle. (Voir [cette page](B-Splines/fr.md) pour plus d\'informations sur les B-splines).
@@ -37,4 +39,7 @@ Cet outil crée une courbe B-spline à partir de ses points de contrôle. (Voir 
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateBSpline/fr

@@ -7,6 +7,8 @@
    SeeAlso:[Вставить Вид](TechDraw_View/ru.md), [Вставить группу проекций](TechDraw_ProjectionGroup/ru.md)
 ---
 
+# TechDraw SectionView/ru
+
 ## Описание
 
 The Section tool creates a cross section view based on an existing part view.
@@ -116,4 +118,7 @@ section.SectionOrigin = (5.0,5.0,5.0)
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw SectionView/ru

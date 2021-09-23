@@ -7,6 +7,8 @@
    Version:0.15
 ---
 
+# Sketcher ConstrainSnellsLaw/fr
+
 ## Description
 
 Contraint deux lignes à suivre la loi de la réfraction de la lumière qui pénètre à travers une interface, où deux matériaux de différents indices de réfraction se rencontrent. Voir [Loi de Snell](http://fr.wikipedia.org/wiki/Loi_de_Snell_Descartes) sur Wikipedia pour plus d\'info.
@@ -96,4 +98,7 @@ App.ActiveDocument.recompute()
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainSnellsLaw/fr

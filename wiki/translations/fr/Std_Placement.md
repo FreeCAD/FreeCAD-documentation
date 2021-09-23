@@ -7,6 +7,8 @@
    SeeAlso:[Std Alignement](Std_Alignment/fr.md), [Placement](Placement/fr.md)
 ---
 
+# Std Placement/fr
+
 ## Description
 
 La commande **Std Positionnement** affiche le [Panneau des tâches](Task_Panel/fr.md) Placement pour un objet sélectionné.
@@ -84,4 +86,7 @@ print(obj.Placement.Matrix)
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std Placement/fr

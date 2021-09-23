@@ -1,3 +1,4 @@
+# Std DlgCustomize/ro
 ---
 - GuiCommand:   Name:Std DlgCustomize   MenuLocation:[Workbenches:All   Shortcut:   SeeAlso:[[Interface_Customization|Interface Customization](Std_Tools_Menu___Tools]]_→_Customize....md)---
 
@@ -41,4 +42,7 @@ Alegeți ** Tools** → **<img src="images/Std_DlgCustomize.png" width=32px> Cus
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std DlgCustomize/ro

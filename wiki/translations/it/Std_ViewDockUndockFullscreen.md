@@ -10,6 +10,8 @@
    SeeAlso:[Vista 3D a schermo intero](Std_ViewFullscreen/it.md), [Finestra principale a schermo intero](Std_MainFullscreen/it.md)
 ---
 
+# Std ViewDockUndockFullscreen/it
+
 ## Introduzione
 
 La [Vista 3D](3D_view/it.md) può essere sganciata dall\'[interfaccia di FreeCAD](Interface/it.md) e spostata in un altro posto.
@@ -61,4 +63,7 @@ The **Undocked** menu option undocks the active [3D view](3D_view.md) from the m
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ViewDockUndockFullscreen/it

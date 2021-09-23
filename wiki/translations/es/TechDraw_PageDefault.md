@@ -6,6 +6,8 @@
    SeeAlso:[TechDraw Page Template](TechDraw_PageTemplate.md), [TechDraw Templates](TechDraw_Templates.md)
 ---
 
+# TechDraw PageDefault/es
+
 ## Descripción
 
 The New Default tool creates a new Page object using the the template file specified in the [TechDraw Preferences](TechDraw_Preferences.md).
@@ -87,4 +89,7 @@ page.Template.EditableTexts = texts
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw PageDefault/es

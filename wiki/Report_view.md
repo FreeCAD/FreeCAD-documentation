@@ -1,6 +1,4 @@
 # Report view
- 
-
 ## Introduction
 
 The [Report view](Report_view.md) is a panel that shows text messages from FreeCAD processes and tools. It is available in the menu **{{StdMenu|[View](Std_View_Menu.md)** → Panels → Report view}}.
@@ -50,4 +48,7 @@ Right click on the report view shows some commands:
 
 -    **Save as**: save the messages in the report view to a text file.
 
- {{Interface navi}} {{Std Base navi}} 
+ {{Interface navi}} {{Std Base navi}}
+
+---
+[documentation index](../README.md) > Report view

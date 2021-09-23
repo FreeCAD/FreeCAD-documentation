@@ -7,6 +7,8 @@
    SeeAlso:   SeeAlso:[Nowy szkic](PartDesign_NewSketch.md), [Zmień orientację szkicu...](Sketcher_ReorientSketch/pl.md)
 ---
 
+# Sketcher NewSketch/pl
+
 ## Opis
 
 W ten sposób powstanie nowy [szkic](Sketcher_Workbench/pl.md).
@@ -37,4 +39,7 @@ Szkic można przesuwać w przestrzeni [widoku 3D](3D_view/pl.md) za pomocą opcj
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher NewSketch/pl

@@ -6,6 +6,8 @@
    SeeAlso:[Draft Aimantation](Draft_Snap/fr.md), [Draft Aimantation Verrouiller](Draft_Snap_Lock/fr.md), [Draft Plan de travail](Draft_SelectPlane/fr.md)
 ---
 
+# Draft Snap Dimensions/fr
+
 ## Description
 
 L\'option <img alt="" src=images/Draft_Snap_Dimensions.svg  style="width:24px;"> **Draft Aimantation Dimensions** montre les dimensions X et Y temporaires. Elles affichent la distance X et Y entre le curseur et le point précédent dans le système de coordonnées du [Draft plan de travail](Draft_SelectPlane/fr.md). Les dimensions sont créées sur le [Draft plan de travail](Draft_SelectPlane/fr.md).
@@ -31,8 +33,5 @@ Pour des informations générales sur l\'aimantation voir [Draft Aimantation](Dr
 
 Voir [Draft Préférences](Draft_Snap/fr#Pr.C3.A9f.C3.A9rences.md)
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Dimensions/fr

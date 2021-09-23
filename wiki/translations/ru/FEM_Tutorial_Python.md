@@ -1,7 +1,4 @@
 # FEM Tutorial Python/ru
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -634,3 +631,6 @@ See forum posts:
 }} {{FEM Tools navi}}  
 
 [Category:Python Code](Category:Python_Code.md)
+
+---
+[documentation index](../README.md) > [Python Code](Category:Python Code.md) > FEM Tutorial Python/ru

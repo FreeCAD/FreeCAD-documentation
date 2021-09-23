@@ -1,5 +1,5 @@
 # Macro Spring/fr
- {{Macro/fr
+{{Macro/fr
 |Name=Spring Simul
 |Description=Simulation de la compression/décompression d'un ressort.
 |Author=Mario52
@@ -66,4 +66,7 @@ for ii2 in range(int(60)):
 
 ## Liens
 
-La discussion du forum (en anglais) : [scripting animations](http://forum.freecadweb.org/viewtopic.php?f=22&t=7449#p62193) 
+La discussion du forum (en anglais) : [scripting animations](http://forum.freecadweb.org/viewtopic.php?f=22&t=7449#p62193)
+
+---
+[documentation index](../README.md) > Macro Spring/fr

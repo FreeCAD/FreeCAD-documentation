@@ -1,6 +1,4 @@
 # Sketch/es
-
-
 ## Introducción
 
 
@@ -39,3 +37,6 @@ Sin embargo, un Croquis siempre puede ser creado por sí mismo para cualquier ot
 }} {{Document objects navi}} 
 
 [Category:Glossary](Category:Glossary.md)
+
+---
+[documentation index](../README.md) > [Glossary](Category:Glossary.md) > Sketch/es

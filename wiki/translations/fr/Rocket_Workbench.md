@@ -1,7 +1,4 @@
-# Rocket Workbench/fr
-
-
-<img alt="Icône de l\'atelier Rocket" src=images/RocketWorkbench.svg  style="width:128px;">
+# <img alt="Icône de l\'atelier Rocket" src=images/RocketWorkbench.svg  style="width:64px;"> Rocket Workbench/fr
 
 
 {{TOCright}}
@@ -53,3 +50,6 @@ Les composants créés à l\'aide de Rocket Workbench sont essentiellement des p
 
 
 [Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+
+---
+[documentation index](../README.md) > Rocket Workbench/fr

@@ -6,6 +6,8 @@
    SeeAlso:[Part Primitives](Part_Primitives.md)
 ---
 
+# Part Sphere
+
 ## Description
 
 Creates a simple parametric sphere, with position, angle1, angle2, angle3 and radius parameters.
@@ -40,9 +42,7 @@ The properties of the object can be edited, either in the [Property editor](Prop
 
 Because it is quite difficult to explain the meaning of the parameters angle 1, angle 2, angle 3, the picture below gives an explanation about these parameters with following values: angle 1 = -45°, angle 2 = 45° and angle 3= 90°.
 
- <img alt="" src=images/SphereCutThreeAngles.jpg  style="width:400px;"> 
+ <img alt="" src=images/SphereCutThreeAngles.jpg  style="width:400px;">
 
-
-
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Sphere

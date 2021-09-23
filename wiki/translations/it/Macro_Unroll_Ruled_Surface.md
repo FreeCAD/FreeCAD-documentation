@@ -1,5 +1,5 @@
 # Macro Unroll Ruled Surface/it
- {{Macro/it
+{{Macro/it
 |Name=Macro Unroll Ruled Surface
 |Translate=Sviluppa superfici rigate
 |Description=Permette di srotolare le superfici rigate e di disegnarle in una pagina.
@@ -748,6 +748,5 @@ DialogBox.show()
 
 }}
 
-
-
-
+---
+[documentation index](../README.md) > Macro Unroll Ruled Surface/it

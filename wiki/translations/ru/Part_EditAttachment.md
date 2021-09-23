@@ -8,6 +8,8 @@
    SeeAlso:[Placement](Placement/ru.md), [Basic Attachment Tutorial](Basic_Attachment_Tutorial/ru.md)
 ---
 
+# Part EditAttachment/ru
+
 
 </div>
 
@@ -308,4 +310,7 @@ Attachment Offset is used to apply a linear or rotary offset from the referenced
 
 {{Part_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part EditAttachment/ru

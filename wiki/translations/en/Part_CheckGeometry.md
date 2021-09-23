@@ -5,6 +5,8 @@
    Workbenches:[Part](Part_Workbench.md)
 ---
 
+# Part CheckGeometry/en
+
 ## Description
 
 The **<img src="images/Part_CheckGeometry.svg" width=16px> [Part CheckGeometry](Part_CheckGeometry.md)** tool runs a verification and reports if geometry is a valid solid. The tool checks if the [Boundary representation](https://en.wikipedia.org/wiki/Boundary_representation) (BRep or [B-rep](Glossary#B.md)) of the model is valid.
@@ -33,10 +35,7 @@ If ticked, additionally a Boolean OPerations (BOP) check is performed. <small>(v
 
 ### Log errors 
 
-If ticked, any errors found are also logged in the [report view](Report_view.md). <small>(v0.19)</small> 
+If ticked, any errors found are also logged in the [report view](Report_view.md). <small>(v0.19)</small>
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part CheckGeometry/en

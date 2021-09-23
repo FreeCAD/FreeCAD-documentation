@@ -1,3 +1,4 @@
+# PartDesign Mirrored/cs
 ---
 - GuiCommand:/cs   Name:PartDesign_Mirrored   Name/cs:PartDesign Mirrored   Workbenches:[[PartDesign Workbench/cs   Návrh dílu]], Complete|MenuLocation:PartDesign -> Mirrored---
 
@@ -126,4 +127,7 @@ The mirror result can be previewed in real time before clicking **OK** by checki
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Mirrored/cs

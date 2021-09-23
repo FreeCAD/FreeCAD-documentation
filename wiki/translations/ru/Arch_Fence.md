@@ -7,6 +7,8 @@
    Version:0.19
 ---
 
+# Arch Fence/ru
+
 ## Описание
 
 The [Arch Fence](Arch_Fence.md) is a object that builds a fence by repeating a single fence post and section along a given path.
@@ -95,8 +97,5 @@ post = FreeCAD.ActiveDocument.Post
 Fence = Arch.buildFence(fence_section, post, sketch)
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Fence/ru

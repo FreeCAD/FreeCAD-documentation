@@ -7,6 +7,8 @@
    Workbenches:[Std Figer l'affichage](Std_FreezeViews/fr.md)
 ---
 
+# Std ViewIvIssueCamPos/fr
+
 ## Description
 
 La commande **Std Position de la caméra** affiche les paramètres de la caméra de la [vue 3D](3D_view/fr.md) active dans la [Vue rapport](Report_view/fr.md) et la [console Python](Python_console/fr.md).
@@ -48,4 +50,7 @@ FreeCADGui.ActiveDocument.ActiveView.getCamera()
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ViewIvIssueCamPos/fr

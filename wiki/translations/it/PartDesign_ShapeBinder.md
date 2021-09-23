@@ -9,6 +9,8 @@
  [Clone](PartDesign_Clone/it.md)
 ---
 
+# PartDesign ShapeBinder/it
+
 ## Descrizione
 
 Crea un riferimento **shape binder** (forma legata) all\'interno del corpo attivo. Una forma legata è un oggetto di riferimento che si collega a bordi o alle facce di un altro corpo. Può anche essere usato per collegare uno schizzo da un corpo a un altro corpo. L\'oggetto forma legata viene visualizzato in giallo traslucido nella [Vista 3D](3D_view/it.md).
@@ -122,4 +124,7 @@ C\'è una soluzione alternativa per la selezione multipla: selezionando tutti gl
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign ShapeBinder/it

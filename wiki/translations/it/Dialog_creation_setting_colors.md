@@ -1,6 +1,4 @@
 # Dialog creation setting colors/it
-
-
 ## Introduzione
 
 Questo è un esempio di [creazione di dialoghi](Dialog_creation/it.md) con [PySide](PySide/it.md).
@@ -203,3 +201,6 @@ else:
 }} 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Dialog creation setting colors/it

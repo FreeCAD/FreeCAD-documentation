@@ -1,7 +1,4 @@
 # Mesh Scripting/it
-
-
-
 {{TOCright}}
 
 
@@ -174,3 +171,6 @@ Vedere anche [Mesh API](Mesh_API/it.md)
 }} {{Mesh Tools navi}} 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Scripting/it

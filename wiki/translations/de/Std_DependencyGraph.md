@@ -5,6 +5,8 @@
    Workbenches:Alle
 ---
 
+# Std DependencyGraph/de
+
 ## Beschreibung
 
 Der **Std AbhängigkeitsDiagramm** Befehl zeigt die Abhängigkeiten zwischen Objekten im aktiven Dokument in einem \'Abhängigkeitsdiagramm\' an. Im Gegensatz zur [Baumansicht](Tree_view/de.md) werden die Objekte in umgekehrter chronologischer Reihenfolge aufgelistet, wobei das erste erstellte Objekt unten steht.
@@ -95,3 +97,6 @@ Du kannst ein Abhängigkeitsdiagramm speichern:
 }}  
 
 [Category:3rd Party](Category:3rd_Party.md)
+
+---
+[documentation index](../README.md) > [3rd Party](Category:3rd Party.md) > Std DependencyGraph/de

@@ -8,6 +8,8 @@
    SeeAlso:[Annotazione](TechDraw_NewAnnotation/it.md)
 ---
 
+# TechDraw Balloon/it
+
 
 </div>
 
@@ -132,4 +134,7 @@ rc = page.addView(bal1)
 
 {{TechDraw Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Balloon/it

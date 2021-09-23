@@ -8,6 +8,8 @@
    SeeAlso:[Draft Text](Draft_Text.md), [Draft ShapeString](Draft_ShapeString.md)
 ---
 
+# Draft Label/pt-br
+
 ## Descrição
 
 The <img alt="" src=images/Draft_Label.svg  style="width:24px;"> **Draft Label** command creates a multi-line text with a 2-segment leader line and an arrow.
@@ -223,5 +225,5 @@ doc.recompute()
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Label/pt-br

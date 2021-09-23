@@ -6,6 +6,8 @@
    SeeAlso:[Path DressupTag](Path_DressupTag.md), [Path DressupRampEntry](Path_DressupRampEntry.md), [Path DressupDogbone](Path_DressupDogbone.md)
 ---
 
+# Path DressupDragKnife/en
+
 ## Description
 
 A drag knife uses a cutting edge on a pivot to cut sheet material like vinyl, cardboard, and leather. The cutting point is not aligned with the center of the spindle but rather follows it as the spindle moves. Because the cutting point is offset, the path must be modified to extend past the endpoint of each segment. Also, the dragknife is incapable of making extremely tight turns. To compensate, a pivot \'corner action\' is inserted which momentarily lifts the blade slightly and then pivots into the new position.
@@ -29,4 +31,7 @@ This tool dresses up an existing path to add corner actions and edge extensions 
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path DressupDragKnife/en

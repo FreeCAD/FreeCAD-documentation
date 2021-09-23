@@ -8,6 +8,8 @@
    SeeAlso:[Std ToggleVisibility](Std_ToggleVisibility/ru.md), [Std HideSelection](Std_HideSelection/ru.md), [Std ToggleObjects](Std_ToggleObjects/ru.md), [Std ShowObjects](Std_ShowObjects/ru.md), [Std HideObjects](Std_HideObjects/ru.md)
 ---
 
+# Std ShowSelection/ru
+
 
 </div>
 
@@ -54,4 +56,7 @@ For a scripting example see [Std ToggleVisibility](Std_ToggleVisibility.md).
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ShowSelection/ru

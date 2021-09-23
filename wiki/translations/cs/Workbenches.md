@@ -1,7 +1,4 @@
 # Workbenches/cs
-
-
-
 <div class="mw-translate-fuzzy">
 
 FreeCAD,stejně jako mnoho dalších moderních designových aplikací takových jako [Revit](wikipedia:Revit.md) nebo [CATIA](wikipedia:CATIA.md), je založen na konceptu [Pracovní plochy](wikipedia:Workbench.md). Pracovní plocha představuje skupinu nástrojů speciálně sestavených pro dané úlohy. V tradiční nábytkářské dílně byl samostatný pracovní stůl pro osobu, která pracovala se dřevem, další stůl pro osobu, která pracovala s kovovými částmi a třeba i třetí stůl, na kterém třetí pracovník montoval všechny kusy dohromady.
@@ -118,3 +115,6 @@ Nové plochy jsou ve vývoji a ladění!
 
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Workbenches/cs

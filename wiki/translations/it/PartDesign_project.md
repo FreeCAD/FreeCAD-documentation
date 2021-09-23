@@ -1,7 +1,4 @@
 # PartDesign project/it
-
-
-
 **
 This roadmap is probably obsolete. For more information see [Development roadmap](Development_roadmap.md).<br>
 If you are not involved with the development discussed here:<br>
@@ -266,3 +263,6 @@ Ruota uno schizzo lungo uno dei suoi assi e di un certo angolo.
 
 
 [Category:Roadmap](Category:Roadmap.md)
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign project/it

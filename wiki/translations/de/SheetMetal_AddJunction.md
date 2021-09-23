@@ -7,6 +7,8 @@
    Shortcut:**S** **J**
 ---
 
+# SheetMetal AddJunction/de
+
 ## Beschreibung
 
 Der Befehl <img alt="" src=images/SheetMetal_AddJunction.svg  style="width:24px;"> **Stoß hinzufügen**\...
@@ -80,3 +82,6 @@ Ein SheetMetal-Junction-Objekt wird von einem [Part-Formelement](Part_Feature/de
 
 
 [Category:SheetMetal](Category:SheetMetal.md) [Category:Addons](Category:Addons.md) [Category:External Command Reference](Category:External_Command_Reference.md)
+
+---
+[documentation index](../README.md) > [SheetMetal](Category:SheetMetal.md) > SheetMetal AddJunction/de

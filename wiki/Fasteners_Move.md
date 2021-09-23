@@ -7,6 +7,8 @@
    SeeAlso:
 ---
 
+# Fasteners Move
+
 ## Description
 
 The <img alt="" src=images/Fasteners_Move.svg  style="width:24px;"> [Fasteners Move](Fasteners_Move.md) attaches an existing fastener to a different feature. This tool is part of the [external workbench](external_workbenches.md) called [Fasteners](Fasteners_Workbench.md).
@@ -51,3 +53,6 @@ Result: fastener will move to the new location.
  {{Fasteners Tools navi}} 
 
 [Category:External Command Reference](Category:External_Command_Reference.md)
+
+---
+[documentation index](../README.md) > [External Command Reference](Category:External Command Reference.md) > Fasteners Move

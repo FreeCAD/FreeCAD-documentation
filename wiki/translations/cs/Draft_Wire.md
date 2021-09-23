@@ -1,3 +1,4 @@
+# Draft Wire/cs
 ---
 - GuiCommand:/cs   Name:Draft_Wire   Name/cs:Kreslení Drát   Workbenches:[Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|Shortcut:W I   MenuLocation:Kreslení -> Drát   SeeAlso:[Kreslení Přímka](Draft_Line/cs.md), [Kreslení B-křivka](Draft_BSpline/cs.md)---
 
@@ -192,8 +193,5 @@ wire3 = Draft.make_wire([1.3*p3, p1, -1.7*p2], closed=True)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Wire/cs

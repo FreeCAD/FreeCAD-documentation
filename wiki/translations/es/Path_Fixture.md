@@ -7,6 +7,8 @@
    SeeAlso:
 ---
 
+# Path Fixture/es
+
 
 </div>
 
@@ -64,4 +66,7 @@ The G59 Fixture is used to expand available fixtures. The degree of expansion im
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Fixture/es

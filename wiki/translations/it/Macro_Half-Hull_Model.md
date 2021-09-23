@@ -1,5 +1,5 @@
 # Macro Half-Hull Model/it
- {{Macro/it
+{{Macro/it
 |Name=Macro Half-Hull Model
 |Name/it=Mezzo scafo
 |Icon=Macro_Half_Hull_Model.png
@@ -932,6 +932,5 @@ Questo script funziona senza bug. Ma a causa della grande varietà di possibili 
 
 Lo script è troppo lungo per essere visualizzato nel Wiki quindi deve essere copiato o scaricato da [unabbreviated script on pastebin.com](http://pastebin.com/raw.php?i=tZMpUi6F)
 
-
-
-
+---
+[documentation index](../README.md) > Macro Half-Hull Model/it

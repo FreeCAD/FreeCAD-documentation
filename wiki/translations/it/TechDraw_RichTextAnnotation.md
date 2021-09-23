@@ -8,6 +8,8 @@
    SeeAlso:[Modelli di squadrature](TechDraw_Templates/it.md), [SVG di Draft](Draft_SVG/it.md), [Linea guida](TechDraw_LeaderLine/it.md)
 ---
 
+# TechDraw RichTextAnnotation/it
+
 
 </div>
 
@@ -84,4 +86,7 @@ blockObj.AnnoText = myHTMLText
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw RichTextAnnotation/it

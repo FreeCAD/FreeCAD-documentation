@@ -7,6 +7,8 @@
    SeeAlso:[Указать радиус](TechDraw_RadiusDimension/ru.md)
 ---
 
+# TechDraw DiameterDimension/ru
+
 ## Описание
 
 The Diameter Dimension tool adds a diameter dimension to a View. The dimension may be applied to any circular in the drawing. The distance will initially be the projected distance (ie as shown on the drawing), but this may be changed to the actual 3D distance using the **<img src="images/TechDraw_LinkDimension.svg" width=16px> [TechDraw LinkDimension](TechDraw_LinkDimension.md)** tool.
@@ -54,4 +56,7 @@ rc = page.addView(dim1)
 
 {{TechDraw Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw DiameterDimension/ru

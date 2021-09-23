@@ -7,6 +7,8 @@
    SeeAlso:[Reinforcement](Reinforcement_Workbench.md), [Arch ColumnReinforcement TwoTiesSixRebars](Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars.md), [Arch Rebar](Arch_Rebar.md)
 ---
 
+# Arch Rebar Circular ColumnReinforcement
+
 ## Description
 
 The [Column Reinforcement](Arch_Rebar_Circular_ColumnReinforcement.md) tool allows the user to create reinforcing bars inside a Column [Arch Structure](Arch_Structure.md) object.
@@ -200,3 +202,6 @@ rebar_group = CircularColumn.editReinforcement(
 
 
 [Category:Reinforcement](Category:Reinforcement.md)
+
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Rebar Circular ColumnReinforcement

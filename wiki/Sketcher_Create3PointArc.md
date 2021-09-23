@@ -7,6 +7,8 @@
    SeeAlso:
 ---
 
+# Sketcher Create3PointArc
+
 ## Description
 
 This tool draws an arc by picking three points: the start point, the end point and a point on the arc.
@@ -21,4 +23,7 @@ When starting the tool, the mouse pointer changes to a white cross with a red ar
 
 
 
- {{Sketcher Tools navi}}  
+ {{Sketcher Tools navi}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Create3PointArc

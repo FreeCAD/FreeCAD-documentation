@@ -1,3 +1,4 @@
+# Drawing Landscape A3
 ---
 - GuiCommand:   Name:Drawing Landscape A3   Workbenches:[[Drawing Workbench   Drawing]], Complete|MenuLocation:Drawing → Insert new drawing → A3 Landscape   Shortcut:none---
 
@@ -18,4 +19,7 @@ If the page does not display, click on the <img alt="" src=images/view-refresh.p
 
 {{docnav|[Open scalable vector graphic](Drawing_Open_SVG.md)|[Insert a view](Drawing_View.md)|[Drawing Workbench](Drawing_Workbench.md)|IconL=Drawing_Open_SVG.png|IconC=Workbench_Drawing.svg|IconR=Drawing_View.png}}
 
- {{Drawing Tools navi}} 
+ {{Drawing Tools navi}}
+
+---
+[documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Landscape A3

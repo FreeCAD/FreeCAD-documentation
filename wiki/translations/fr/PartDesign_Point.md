@@ -8,6 +8,8 @@
    SeeAlso:[PartDesign Droite de référence](PartDesign_Line/fr.md), [PartDesign Plan de référence](PartDesign_Plane/fr.md)
 ---
 
+# PartDesign Point/fr
+
 ## Description
 
 Crée un **point de référence** qui peut être utilisé comme référence pour les esquisses ou toute autre géométrie de référence.
@@ -46,4 +48,7 @@ Double-cliquez sur l\'étiquette Point de référence dans l\'arborescence du mo
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Point/fr

@@ -8,6 +8,8 @@
    SeeAlso:[Arch Wand](Arch_Wall/de.md), [Arch Hinzufügen](Arch_Add/de.md)
 ---
 
+# Arch Window/de
+
 ## Beschreibung
 
 Ein [Arch Fenster](Arch_Window/de.md) ist ein Basisobjekt für alle Arten von \"einbettbaren\" Objekten, wie z.B. Fenster und Türen. Es ist so konzipiert, dass es entweder unabhängig ist oder in einer anderen Komponente \"untergebracht\" wird, wie z.B. einem [Arch Wänden](Arch_Wall/de.md), [Arch Strukturen](Arch_Structure/de.md) oder [Arch Dächern](Arch_Roof/de.md). Es hat eine eigene Geometrie, die aus mehreren festen Komponenten bestehen kann (üblicherweise aus einem Rahmen und inneren Platten), und definiert auch ein Volumen, das von den aufnehmenden Objekten abgezogen wird, um eine Öffnung zu erzeugen.
@@ -221,11 +223,5 @@ Door = Arch.makeWindowPreset("Simple door",
                              placement=place)
 ```
 
-
-
-
-
-
-
-
-
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Window/de

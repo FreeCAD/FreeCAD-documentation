@@ -8,6 +8,8 @@
    SeeAlso:[Reinforcement](Reinforcement_Workbench/fr.md), [Arch Armature 2x6](Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars/fr.md), [Arch Armature personnalisée](Arch_Rebar/fr.md)
 ---
 
+# Arch Rebar Circular ColumnReinforcement/fr
+
 ## Description
 
 L\'outil [Renforcement de colonnes](Arch_Rebar_Circular_ColumnReinforcement/fr.md) permet à l\'utilisateur de créer des barres de renforcement à l\'intérieur d\'un objet Column [Arch Structure](Arch_Structure/fr.md).
@@ -202,3 +204,6 @@ rebar_group = CircularColumn.editReinforcement(
 
 
 [Category:Reinforcement](Category:Reinforcement.md)
+
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Rebar Circular ColumnReinforcement/fr

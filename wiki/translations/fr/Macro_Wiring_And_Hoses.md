@@ -1,5 +1,5 @@
 # Macro Wiring And Hoses/fr
- {{Macro/fr
+{{Macro/fr
 |Name=Macro Wiring And Hoses
 |Description=Cette macro crée des câbles et des tubes.
 |Author=Piffpoof
@@ -187,6 +187,5 @@ blah blah blah
 
 blah blah blah
 
-
-
-
+---
+[documentation index](../README.md) > Macro Wiring And Hoses/fr

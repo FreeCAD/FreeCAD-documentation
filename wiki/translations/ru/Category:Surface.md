@@ -6,3 +6,6 @@ This category lists pages related to the [Surface Workbench/ru](Surface_Workbenc
 [Artwork Surface/ru](Artwork_Surface/ru.md) , [Surface Workbench/ru](Surface_Workbench/ru.md)
 
 [Category:Workbenches/ru](Category:Workbenches/ru.md)
+
+---
+[documentation index](../README.md) > Category:Surface/ru

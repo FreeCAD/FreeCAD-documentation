@@ -1,5 +1,5 @@
 # BOLTSFC Workbench/pl
- } <img alt="The FreeCAD BOLTS External Workbench Icon" src=images/BOLTSFC_workbench_icon.svg  style="width:128px;">
+} <img alt="The FreeCAD BOLTS External Workbench Icon" src=images/BOLTSFC_workbench_icon.svg  style="width:128px;">
 
 ## Introduction
 
@@ -72,3 +72,6 @@ is required.
 
 
 [Category:External Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)
+
+---
+[documentation index](../README.md) > BOLTSFC Workbench/pl

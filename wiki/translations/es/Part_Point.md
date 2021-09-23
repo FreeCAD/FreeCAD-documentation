@@ -1,3 +1,4 @@
+# Part Point/es
 ---
 - GuiCommand:/es   Name:Part Point   Name/es:Part Point   MenuLocation:Part → [Workbenches:[[Part_Workbench/es   Part](Part_CreatePrimitives/es___Create_Primitives]]_→_Point.md), [OpenSCAD](OpenSCAD_Workbench/es.md)|SeeAlso:..---
 
@@ -83,4 +84,7 @@ A Point (vertex) geometric primitive.
 
 {{Part_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Point/es

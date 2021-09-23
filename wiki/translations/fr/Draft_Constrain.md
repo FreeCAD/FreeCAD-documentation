@@ -1,10 +1,4 @@
 # Draft Constrain/fr
-
-
-
-
-
-
 {{TOCright}}
 
 ## Description
@@ -52,8 +46,5 @@ Voir aussi : [Réglage des préférences](Preferences_Editor/fr.md) et [Draft Pr
 -   La touche par défaut **Constrain mod**, **Shift**, peut être modifiée : **Edition → Préférences.... → Draft → Grille et aimantation → Accrochage → Mode de contrainte**.
 -   Les raccourcis **X**, **Y** et **Z** peuvent être modifiés : **Edition → Préférences... → Draft → Paramètres de l'interface utilisateur → Raccourcis de commandes**.
 
-
-
-
-
-  
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Constrain/fr

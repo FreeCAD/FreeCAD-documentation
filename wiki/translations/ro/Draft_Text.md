@@ -8,6 +8,8 @@
    SeeAlso:[Draft Label](Draft_Label.md), [Draft ShapeString](Draft_ShapeString.md)
 ---
 
+# Draft Text/ro
+
 
 </div>
 
@@ -214,8 +216,5 @@ text3.ViewObject.FontSize = 200
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Text/ro

@@ -7,6 +7,8 @@
    SeeAlso:[Polilinea](Draft_Wire/it.md), [B-spline](Draft_BSpline/it.md)
 ---
 
+# Draft ToggleContinueMode/it
+
 
 </div>
 
@@ -42,5 +44,5 @@ Molti strumenti per la creazione di geometrie di [Draft](Draft_Workbench/it.md) 
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ToggleContinueMode/it

@@ -1,5 +1,5 @@
 # How to install additional workbenches/de
- {{TutorialInfo/de
+{{TutorialInfo/de
 |Topic=Programmierung
 |Level=Mittelmäßiger Programmierer
 |Time=15 Minuten
@@ -170,3 +170,6 @@ Der Einfachheit halber für dieses Beispiel, sage du hast die [Arbeitsbereich Ku
  {{Powerdocnavi}}
 
 [Category:External Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)
+
+---
+[documentation index](../README.md) > [External Workbenches](Category:External Workbenches.md) > How to install additional workbenches/de

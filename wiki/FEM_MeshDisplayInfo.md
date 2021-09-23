@@ -6,6 +6,8 @@
    SeeAlso:[FEM tutorial](FEM_tutorial.md)
 ---
 
+# FEM MeshDisplayInfo
+
 ## Description
 
 Displays basic statistics of existing mesh - number of nodes and elements of each type. Particularly, total number of the following features is shown:
@@ -82,4 +84,7 @@ will output the following result:
 
 
 
- {{FEM Tools navi}}  
+ {{FEM Tools navi}}
+
+---
+[documentation index](../README.md) > FEM MeshDisplayInfo

@@ -5,6 +5,8 @@
    Workbenches:[Sketcher](Sketcher_Workbench.md)
 ---
 
+# Sketcher CreateRegularPolygon
+
 ## Description
 
 Draws a regular polygon inscribed in a construction geometry circle. When starting the tool, a box apears asking for the number of sides of the regular polygon. Once the **OK** button is pressed the mouse pointer changes to a white cross with a red hexagon icon. The coordinates of the pointer are shown beside it in blue in real time.
@@ -22,4 +24,7 @@ The circumscribed circle is construction geometry, which is only visible when ed
 
 
 
- {{Sketcher Tools navi}} 
+ {{Sketcher Tools navi}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateRegularPolygon

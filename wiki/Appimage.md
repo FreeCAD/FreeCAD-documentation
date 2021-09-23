@@ -2,3 +2,6 @@
 1.  REDIRECT [AppImage](AppImage.md)
 
 [Category:Redirects](Category:Redirects.md)
+
+---
+[documentation index](../README.md) > Appimage

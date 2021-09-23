@@ -1,3 +1,4 @@
+# PartDesign Chamfer/ro
 ---
 - GuiCommand:   Name:PartDesign Chamfer   Workbenches:[MenuLocation:Part Design → Chamfer   SeeAlso:[[Part Chamfer|Chamfer Part](PartDesign_Workbench___PartDesign]],_Complete.md)---
 
@@ -156,4 +157,7 @@ Bien qu\'ils partagent la même icône, ces outils sont différents, et s\'utili
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Chamfer/ro

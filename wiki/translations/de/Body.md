@@ -1,6 +1,4 @@
 # Body/de
-
-
 ## Einleitung
 
 In FreeCAD wird das Wort \"[Körper](Body/de.md)\" normalerweise verwendet, um sich auf ein [PartDesign Körper](PartDesign_Body/de.md) Objekt (`PartDesign::Body` Klasse ) zu beziehen, das vom [PartDesign Arbeitsbereich](PartDesign_Workbench/de.md) definiert wird. Dies ist ein Behälterobjekt, das [2D Skizzen](Sketch/de.md) und [3D geometrische Formelemente](PartDesign_Feature/de.md) aufnehmen kann, um eine Volumenkörperform zu erstellen.
@@ -29,3 +27,6 @@ Ein Körper ist nicht erforderlich, wenn der [Part Arbeitsbereich](Part_Workbenc
 }} {{Document objects navi}} 
 
 [Category:Glossary](Category:Glossary.md)
+
+---
+[documentation index](../README.md) > [Glossary](Category:Glossary.md) > Body/de

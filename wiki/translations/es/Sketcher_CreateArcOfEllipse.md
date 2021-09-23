@@ -8,6 +8,8 @@
    SeeAlso:[Croquizador Ellipse por el centro](Sketcher_CreateEllipseByCenter/es.md), [Croquizador Arco](Sketcher_CompCreateArc/es.md)
 ---
 
+# Sketcher CreateArcOfEllipse/es
+
 ## Descripción
 
 Esta herramienta dibuja un arco de elipse eligiendo cuatro puntos: el centro, el extremo del radio mayor, el punto inicial y el punto final. Al iniciar la herramienta, el puntero del ratón cambia a una cruz blanca con un icono de arco de elipse rojo. Además se muestran las coordenadas en tiempo real.
@@ -37,4 +39,7 @@ Croquizador Mostrar Ocultar la geometría interna\]\].
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateArcOfEllipse/es

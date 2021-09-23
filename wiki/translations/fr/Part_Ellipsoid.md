@@ -7,6 +7,8 @@
    SeeAlso:[Part Primitives](Part_Primitives/fr.md)
 ---
 
+# Part Ellipsoid/fr
+
 ## Description
 
 La commande <img alt="" src=images/Part_Ellipsoid.svg  style="width:24px;"> [Part Ellipsoïde](Part_Ellipsoid/fr.md) crée un solide ellipsoïde paramétrique.
@@ -36,8 +38,5 @@ Un solide ellipsoïde paramétrique est disponible à partir de la boîte de dia
 
 ![](images/Part_Ellipsoid_screenshot.jpg )
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Ellipsoid/fr

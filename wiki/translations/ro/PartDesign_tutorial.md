@@ -1,5 +1,5 @@
 # PartDesign tutorial/ro
- {{TutorialInfo/ro
+{{TutorialInfo/ro
 |Topic= Sketcher
 |Level= Beginner
 |Time= 15 minutes
@@ -158,3 +158,6 @@ După finalizarea acestei sarcini, trebuie să aveți următorul rezultat.
 If not, re-edit the MultiTransform operation by double clicking on it in the Tree View. Check both pattern features to detect necessary modifications, such as the **Axis** and if the **Direction** needs to be reversed.
 
 Suntem terminați acum cu fluxul de lucru de bază pentru [PartDesign Workbench](PartDesign_Workbench.md).
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign tutorial/ro

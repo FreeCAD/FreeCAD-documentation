@@ -1,7 +1,4 @@
 # Manual:Generating 2D drawings/it
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -208,3 +205,6 @@ La pagina può essere esportato in formato SVG per essere ulteriormente lavorata
 </div>
 
 [Category:Tutorials/it](Category:Tutorials/it.md)
+
+---
+[documentation index](../README.md) > Manual:Generating 2D drawings/it

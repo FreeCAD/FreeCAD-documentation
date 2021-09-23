@@ -1,3 +1,4 @@
+# Draft WireToBSpline/sv
 ---
 - GuiCommand:/sv   Name:Draft WireToBSpline   Name/sv:Draft WireToBSpline   Workbenches:[Arch](Draft_Workbench/sv___Draft]],_[[Arch_Workbench/sv.md)|MenuLocation:Drafting -> Wire to BSpline---
 
@@ -67,8 +68,5 @@ wire_from_spline = Draft.make_wire(points2)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft WireToBSpline/sv

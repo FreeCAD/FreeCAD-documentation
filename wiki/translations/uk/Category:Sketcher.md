@@ -6,3 +6,6 @@ This category lists pages related to the [Sketcher Workbench/uk](Sketcher_Workbe
 [Template:Sketcher Tools navi/uk](Template:Sketcher_Tools_navi/uk.md) , [Sketcher Workbench/uk](Sketcher_Workbench/uk.md)
 
 [Category:Workbenches/uk](Category:Workbenches/uk.md)
+
+---
+[documentation index](../README.md) > Category:Sketcher/uk

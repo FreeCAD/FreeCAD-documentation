@@ -1,5 +1,5 @@
 # Engine Block Tutorial/it
- } {{TutorialInfo/it
+} {{TutorialInfo/it
 |Topic= Part
 |Level= Base
 |Time= 1 ora
@@ -423,6 +423,5 @@ L\'oggetto finale dovrebbe essere simile a quello dell\'immagine di destra.
 
 Your final object should look like the picture on the right.
 
-
-
-
+---
+[documentation index](../README.md) > Engine Block Tutorial/it

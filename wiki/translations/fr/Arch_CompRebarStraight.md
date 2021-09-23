@@ -7,6 +7,8 @@
    Version:0.17
 ---
 
+# Arch CompRebarStraight/fr
+
 ## Description
 
 L\'addon Renforcement augmente les fonctionnalités de l\'[atelier Arch](Arch_Workbench/fr.md) en fournissant de nouvelles interfaces et de nouveaux préréglages pour la création de types de barres d\'armature courants à utiliser avec [Arch Structures](Arch_Structure/fr.md). Il est également intégré à l\'atelier externe [BIM](BIM_Workbench/fr.md).
@@ -39,8 +41,5 @@ Voir sur [Ateliers](Workbenches/fr#Ateliers_externes.md)/[Ateliers externes](Ext
 
 -   <img alt="" src=images/Arch_Rebar.svg  style="width:32px;"> [Armature personnalisée](Arch_Rebar/fr.md) : Crée une barre de ferraillage personnalisée dans un élément de structure sélectionné à l\'aide d\'une esquisse.
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CompRebarStraight/fr

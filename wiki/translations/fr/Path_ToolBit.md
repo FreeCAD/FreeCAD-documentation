@@ -1,10 +1,4 @@
 # Path ToolBit/fr
- 
-
-
-
-
-
 {{TOCright}}
 
 ## Description
@@ -56,4 +50,7 @@ Dans l\'interface graphique de FreeCAD, le gestionnaire de bibliothèque Path to
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path ToolBit/fr

@@ -9,6 +9,8 @@
    SeeAlso:[Arch Découpe de panneaux](Arch_Panel_Cut/fr.md), [Arch Panneau feuille](Arch_Panel_Sheet/fr.md)
 ---
 
+# Arch Panel/fr
+
 ## Description
 
 Cet outil vous permet de créer toutes sortes d\'éléments semblables à des panneaux, généralement pour des constructions de panneaux comme le projet [WikiHouse](http://www.wikihouse.cc/) , mais aussi pour toutes sortes d\'objets qui sont basés sur un profil plat.
@@ -91,8 +93,5 @@ Panel = Arch.makePanel(Rect, thickness=36)
 
 -   [Wikihouse porting tutorial](Wikihouse_porting_tutorial/fr.md)
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Panel/fr

@@ -1,10 +1,4 @@
-# FEM Workbench/fr
-
-
-
-
-
-<img alt="Icône de l\'atelier FEM" src=images/Workbench_FEM.svg  style="width:128px;">
+# <img alt="Icône de l\'atelier FEM" src=images/Workbench_FEM.svg  style="width:64px;"> FEM Workbench/fr
 
 
 {{TOCright}}
@@ -278,3 +272,6 @@ Un guide du développeur a été rédigé pour aider les utilisateurs expérimen
 }} 
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > FEM Workbench/fr

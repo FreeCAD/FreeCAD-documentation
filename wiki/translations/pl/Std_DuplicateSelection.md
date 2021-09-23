@@ -6,6 +6,8 @@
    SeeAlso:[Std Cut](Std_Cut.md), [Std Copy](Std_Copy.md), [Std Paste](Std_Paste.md)
 ---
 
+# Std DuplicateSelection/pl
+
 ## Description
 
 The **Std DuplicateSelection** command duplicates objects within the active document.
@@ -30,4 +32,7 @@ The **Std DuplicateSelection** command duplicates objects within the active docu
 
 {{Std Base navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > Std DuplicateSelection/pl

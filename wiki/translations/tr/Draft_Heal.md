@@ -6,6 +6,8 @@
    SeeAlso:[Yükselt](Draft_Upgrade/tr.md), [Düşür](Draft_Downgrade/tr.md)
 ---
 
+# Draft Heal/tr
+
 
 </div>
 
@@ -48,5 +50,5 @@ Bu komut, daha eski bir sürümde çalışması için eski bir FreeCAD sürümü
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Heal/tr

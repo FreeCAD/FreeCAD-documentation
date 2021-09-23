@@ -7,6 +7,8 @@
    Version:0.19
 ---
 
+# TechDraw RedrawPage/de
+
 ## Beschreibung
 
 Das Werkzeug »Zeichnung aktualisieren« erzwingt eine Zeichnungsaktualisierung trotz (ggf.) gegenteiliger Einstellungen von KeepUpdated (Zeichnungs-Eigenschaft), Änderungen an 3D-Bauteilen (Parameter) oder führt eine reine Zeichnungsüberschreibung (Parameter) aus.
@@ -40,4 +42,7 @@ Der Neuzeichnen Befehl ist nicht direkt in Skripten verfügbar.
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw RedrawPage/de

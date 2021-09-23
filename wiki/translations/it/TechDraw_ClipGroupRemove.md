@@ -7,6 +7,8 @@
    SeeAlso:[Gruppo di clip](TechDraw_ClipGroup/it.md), [Aggiungi una vista al gruppo clip](TechDraw_ClipGroupAdd/it.md)
 ---
 
+# TechDraw ClipGroupRemove/it
+
 
 </div>
 
@@ -32,4 +34,7 @@ Questo strumento rimuove una vista da una clip esistente e la riporta nell\'area
 
 {{TechDraw Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ClipGroupRemove/it

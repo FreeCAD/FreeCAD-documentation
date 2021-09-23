@@ -1,3 +1,4 @@
+# Sketcher CreatePoint/it
 ---
 - GuiCommand:/it   Name:Sketcher CreatePoint   Name/it:Punto   Workbenches:[[Sketcher Workbench/it   Sketcher]]|MenuLocation:Sketch → Geometrie → Punto---
 
@@ -38,4 +39,7 @@ Il punto creato non è disponibile al di fuori dello schizzo. Nel caso in cui si
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreatePoint/it

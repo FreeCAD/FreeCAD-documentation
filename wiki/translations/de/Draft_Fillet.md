@@ -8,6 +8,8 @@
    SeeAlso:[Entwurf Linie](Draft_Line/de.md), [Entwurf Draht](Draft_Wire/de.md)
 ---
 
+# Draft Fillet/de
+
 
 </div>
 
@@ -172,5 +174,5 @@ doc.recompute()
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Fillet/de

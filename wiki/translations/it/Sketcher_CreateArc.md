@@ -7,6 +7,8 @@
    SeeAlso:[Cerchi](Sketcher_CompCreateCircle/it.md)
 ---
 
+# Sketcher CreateArc/it
+
 
 </div>
 
@@ -35,4 +37,7 @@ Quando si avvia lo strumento, il puntatore del mouse assume la forma di croce bi
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateArc/it

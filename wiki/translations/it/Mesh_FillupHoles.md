@@ -7,6 +7,8 @@
    SeeAlso:[Chiudi il buco](Mesh_FillInteractiveHole/it.md), [Aggiungi triangolo](Mesh_AddFacet/it.md)
 ---
 
+# Mesh FillupHoles/it
+
 ## Descrizione
 
 Il comando **Riempi i buchi** riempie i buchi negli oggetti mesh.
@@ -37,4 +39,7 @@ Il comando **Riempi i buchi** riempie i buchi negli oggetti mesh.
 
 {{Mesh Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh FillupHoles/it

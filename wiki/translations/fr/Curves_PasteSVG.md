@@ -6,6 +6,8 @@
    Workbenches:[Curves](Curves_Workbench/fr.md)
 ---
 
+# Curves PasteSVG/fr
+
 ## Description
 
 <img alt="" src=images/Curves_PasteSVG.svg  style="width:24px;"> [Coller une image SVG](Curves_PasteSVG/fr.md) colle le contenu SVG du presse-papiers dans la [vue 3D](3D_view/fr.md). Cet outil fait partie des [ateliers externes](External_workbenches/fr.md) appelé [Curves](Curves_Workbench/fr.md).
@@ -31,4 +33,7 @@
 
 {{Curves Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > Curves PasteSVG/fr

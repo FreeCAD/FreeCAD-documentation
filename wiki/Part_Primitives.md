@@ -6,6 +6,8 @@
    SeeAlso:[Part Shapebuilder](Part_Builder.md)
 ---
 
+# Part Primitives
+
 ## Description
 
 [Part Primitives](Part_Primitives.md) opens a dialog to create any of the parametric geometric primitives defined in the <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part Workbench](Part_Workbench.md).
@@ -84,7 +86,5 @@ It can be used as input to the program as well.
 freecad $INSTALL_DIR/Mod/Part/parttests/part_test_objects.py
 ```
 
-
-
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Primitives

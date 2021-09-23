@@ -1,5 +1,5 @@
 # Artwork/de
-  Hier sind die für FreeCAD erstellte Grafiken. Du kannst sie gerne in anderen Anwendungen wiederverwenden. Wenn Du mit Symbolen beitragen möchtest, lies bitte die [Richtlinen Grafiken](Artwork_Guidelines.md).
+Hier sind die für FreeCAD erstellte Grafiken. Du kannst sie gerne in anderen Anwendungen wiederverwenden. Wenn Du mit Symbolen beitragen möchtest, lies bitte die [Richtlinen Grafiken](Artwork_Guidelines.md).
 
 ## Verschiedene Symbole 
 
@@ -169,3 +169,6 @@ Siehe [Grafik Fehlerhaft](Artwork_Erroneous/de.md).
 }}
 
 [Category:Icon](Category:Icon.md) [Category:Developer Documentation](Category:Developer_Documentation.md)
+
+---
+[documentation index](../README.md) > [Icon](Category:Icon.md) > Artwork/de

@@ -8,6 +8,8 @@
    SeeAlso:[Vista da dietro](Std_ViewRear/it.md), [Vista da sinistra](Std_ViewLeft/it.md)
 ---
 
+# Std ViewBottom/it
+
 ## Descrizione
 
 Il comando **Vista dal basso** orienta la fotocamera della [Vista 3D](3D_view/it.md) che guarda dal basso verso l\'alto, nella direzione dell\'asse Z positivo.
@@ -51,4 +53,7 @@ FreeCADGui.ActiveDocument.ActiveView.getViewDirection()
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ViewBottom/it

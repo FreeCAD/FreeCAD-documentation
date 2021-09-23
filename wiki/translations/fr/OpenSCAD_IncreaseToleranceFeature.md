@@ -6,6 +6,8 @@
    Workbenches:[OpenSCAD](OpenSCAD_Workbench/fr.md)
 ---
 
+# OpenSCAD IncreaseToleranceFeature/fr
+
 ## Description
 
 Augmente la tolérance des arêtes/faces/sommets des objets sélectionnés.
@@ -24,4 +26,7 @@ Augmente la tolérance des arêtes/faces/sommets des objets sélectionnés.
 
 {{OpenSCAD_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD IncreaseToleranceFeature/fr

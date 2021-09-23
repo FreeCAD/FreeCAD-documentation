@@ -8,6 +8,8 @@
    SeeAlso:[[PartDesign Line/ro]], [[PartDesign Plane/ro]]
 ---
 
+# PartDesign Point/ro
+
 
 </div>
 
@@ -75,4 +77,7 @@ Faceți dublu clic pe eticheta DatumPoint din arborescența Model sau faceți cl
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Point/ro

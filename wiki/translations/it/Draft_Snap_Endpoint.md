@@ -1,3 +1,4 @@
+# Draft Snap Endpoint/it
 ---
 - GuiCommand:/it
    Name:Draft Endpoint
@@ -65,5 +66,5 @@ See [Draft Snap](Draft_Snap#Preferences.md).
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Endpoint/it

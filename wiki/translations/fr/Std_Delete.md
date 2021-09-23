@@ -7,6 +7,8 @@
    Shortcut:**Suppr**
 ---
 
+# Std Delete/fr
+
 ## Description
 
 La commande **Std Effacer** supprime les objets sélectionnés.
@@ -41,4 +43,7 @@ FreeCAD.ActiveDocument.removeObject("myObjectName")
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std Delete/fr

@@ -1,5 +1,5 @@
 # History
- \_\_FORCETOC\_\_ 
+\_\_FORCETOC\_\_ 
 
 ## History
 
@@ -142,3 +142,6 @@ In April 2019 the team of core developers was expanded: Jürgen, Werner and Yori
 
 
 [Category:News](Category:News.md)
+
+---
+[documentation index](../README.md) > [News](Category:News.md) > History

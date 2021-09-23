@@ -13,3 +13,6 @@ Utilisez les outils suivants pour travailler avec les :
 [API documentation/fr](API_documentation/fr.md) , , , , , , , , , , , , , , , , , , , , ,
 
 [Category:Categories/fr](Category:Categories/fr.md) [Category:Addons/fr](Category:Addons/fr.md) [Category:Administration/fr](Category:Administration/fr.md) [Category:API/fr](Category:API/fr.md) [Category:Categories/fr](Category:Categories/fr.md) [Category:Command Reference/fr](Category:Command_Reference/fr.md) [Category:Developer/fr](Category:Developer/fr.md) [Category:Documentation/fr](Category:Documentation/fr.md) [Category:Help/fr](Category:Help/fr.md) [Category:Hubs/fr](Category:Hubs/fr.md) [Category:Icon/fr](Category:Icon/fr.md) [Category:Image/fr](Category:Image/fr.md) [Category:Macros/fr](Category:Macros/fr.md) [Category:News/fr](Category:News/fr.md) [Category:Python Code/fr](Category:Python_Code/fr.md) [Category:Repository/fr](Category:Repository/fr.md) [Category:Roadmap/fr](Category:Roadmap/fr.md) [Category:Sandbox/fr](Category:Sandbox/fr.md) [Category:Template/fr](Category:Template/fr.md) [Category:Tutorials/fr](Category:Tutorials/fr.md) [Category:UnfinishedDocu/fr](Category:UnfinishedDocu/fr.md) [Category:Wiki/fr](Category:Wiki/fr.md)
+
+---
+[documentation index](../README.md) > Category:Categories/fr

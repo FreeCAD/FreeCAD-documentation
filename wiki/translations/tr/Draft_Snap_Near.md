@@ -8,6 +8,8 @@
    SeeAlso:
 ---
 
+# Draft Snap Near/tr
+
 
 </div>
 
@@ -65,8 +67,5 @@ Taslak Taşıma ve Taslak Döndürme ile de çalışacaktır.
 
 See [Draft Snap](Draft_Snap#Preferences.md).
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Near/tr

@@ -9,6 +9,8 @@
    SeeAlso:[Apri immagine](Image_Open/it.md), [Piano immagine](Image_CreateImagePlane/it.md)
 ---
 
+# Image Scaling/it
+
 
 </div>
 
@@ -48,4 +50,7 @@ Lo strumento [Scala immagine](Image_Scaling/it.md) ridimensiona un\'immagine imp
 
 {{Image Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Image](Image_Workbench.md) > Image Scaling/it

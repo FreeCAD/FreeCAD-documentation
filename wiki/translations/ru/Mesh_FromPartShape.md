@@ -7,6 +7,8 @@
    SeeAlso:
 ---
 
+# Mesh FromPartShape/ru
+
 
 </div>
 
@@ -195,4 +197,7 @@ msh.ViewObject.DisplayMode = "Flat Lines"
 
 {{Mesh Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh FromPartShape/ru

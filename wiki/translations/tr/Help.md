@@ -1,7 +1,4 @@
 # Help/tr
-
-
-
 <div class="mw-translate-fuzzy">
 
 FreeCAD geliştiricilerinden ve kullanıcılarından yardım alabileceğiniz ve destek alabileceğiniz iki ana forum vardır: [yardım forumu](http://forum.freecadweb.org/), yardım isteyip daha önce yapılmış soruları okuyabilirsiniz ve / veya çözüldü ve [tartışma forumu](http://forum.freecadweb.org/), diğer konuları tartışabileceğiniz, FreeCAD ile ilgili görüşlerinizi, fikirlerinizi vb. anlatabilirsiniz. Bu forumlar hem çok aktif hem de çok hızlı cevap verir.
@@ -57,3 +54,6 @@ We have an [official dedicated FreeCAD Discord server](https://discord.gg/NpMefp
  
 
 [Category:Help](Category:Help.md)
+
+---
+[documentation index](../README.md) > [Help](Category:Help.md) > Help/tr

@@ -8,6 +8,8 @@
    SeeAlso:[Agganciare](Draft_Snap/it.md), [Aggancia](Draft_ToggleSnap/it.md)
 ---
 
+# Draft Snap Center/it
+
 
 </div>
 
@@ -67,5 +69,5 @@ See [Draft Snap](Draft_Snap#Preferences.md).
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Center/it

@@ -8,6 +8,8 @@
    SeeAlso:[Draft Wire](Draft_Wire/ru.md), [Draft BSpline](Draft_BSpline/ru.md), [Draft BezCurve](Draft_BezCurve/ru.md)
 ---
 
+# Draft CubicBezCurve/ru
+
 
 </div>
 
@@ -159,5 +161,5 @@ doc.recompute()
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft CubicBezCurve/ru

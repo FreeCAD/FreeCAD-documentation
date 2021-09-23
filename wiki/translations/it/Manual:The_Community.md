@@ -1,7 +1,4 @@
 # Manual:The Community/it
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -56,3 +53,5 @@ Con questo manuale speriamo di essere riusciti a dare una buona impressione di F
 
 </div>
 
+---
+[documentation index](../README.md) > Manual:The Community/it

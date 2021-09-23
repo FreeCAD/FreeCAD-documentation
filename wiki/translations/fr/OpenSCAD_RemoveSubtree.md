@@ -6,6 +6,8 @@
    Workbenches:[OpenSCAD](OpenSCAD_Workbench/fr.md)
 ---
 
+# OpenSCAD RemoveSubtree/fr
+
 ## Description
 
 Supprime les objets sélectionnés et tous les enfants qui ne sont pas référencés à partir d\'autres objets.
@@ -25,4 +27,7 @@ Supprime les objets sélectionnés et tous les enfants qui ne sont pas référen
 
 {{OpenSCAD_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD RemoveSubtree/fr

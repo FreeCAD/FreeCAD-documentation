@@ -1,5 +1,4 @@
-# WebTools Workbench/de
- <img alt="Arbeitsbereichssymbol WebWerkzeuge" src=images/WebTools_workbench_icon.svg  style="width:128px;">
+# <img alt="Arbeitsbereichssymbol WebWerkzeuge" src=images/WebTools_workbench_icon.svg  style="width:64px;"> WebTools Workbench/de
 
 ## Übersicht
 
@@ -23,3 +22,6 @@ Dieser Arbeitsbereich kann mit dem [Erweiterungsverwalter](Std_AddonMgr/de.md) i
  
 
 [Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md) [Category:User Documentation](Category:User_Documentation.md)
+
+---
+[documentation index](../README.md) > WebTools Workbench/de

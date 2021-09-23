@@ -1,6 +1,4 @@
 # Packaging/it
-
-
 Questa pagina raccoglie le informazioni sulla costruzione dei pacchetti di FreeCAD per le diverse piattaforme.
 
 -   [Linux packaging](Linux_packaging/it.md). Informazioni su AppImage, sui pacchetti Debian, instabili e daily e altri.
@@ -11,3 +9,6 @@ Questa pagina raccoglie le informazioni sulla costruzione dei pacchetti di FreeC
  
 
 [Category:Packaging](Category:Packaging.md) [Category:Developer Documentation](Category:Developer_Documentation.md)
+
+---
+[documentation index](../README.md) > [Packaging](Category:Packaging.md) > Packaging/it

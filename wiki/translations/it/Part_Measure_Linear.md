@@ -6,6 +6,8 @@
    Workbenches:[Part](Part_Workbench/it.md)
 ---
 
+# Part Measure Linear/it
+
 
 </div>
 
@@ -43,5 +45,5 @@ Questo strumento misura la distanza tra due elementi di topologia selezionati (v
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Linear/it

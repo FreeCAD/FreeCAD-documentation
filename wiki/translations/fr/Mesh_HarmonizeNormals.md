@@ -7,6 +7,8 @@
    SeeAlso:[Mesh Inverser les normales](Mesh_FlipNormals/fr.md)
 ---
 
+# Mesh HarmonizeNormals/fr
+
 ## Description
 
 La commande **Mesh Harmoniser les normales‎** harmonise les normales des objets maillés.
@@ -30,4 +32,7 @@ La commande **Mesh Harmoniser les normales‎** harmonise les normales des objet
 
 {{Mesh Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh HarmonizeNormals/fr

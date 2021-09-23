@@ -7,6 +7,8 @@
    SeeAlso:[Создать линию](Sketcher_CreateLine/ru.md)
 ---
 
+# Sketcher CreatePolyline/ru
+
 ## Описание
 
 Этот инструмент работает как инструмент [Линия](Sketcher_CreateLine.md), но создает непрерывные отрезки линии и дуги, соединенные их вершинами. При запуске инструмента указатель мыши меняется на белый крест с красным значком ломаной линии. Координаты указателя отображаются рядом с ним синим цветом в режиме реального времени.
@@ -49,4 +51,7 @@
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreatePolyline/ru

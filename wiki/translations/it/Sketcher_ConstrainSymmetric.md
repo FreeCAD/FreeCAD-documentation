@@ -1,3 +1,4 @@
+# Sketcher ConstrainSymmetric/it
 ---
 - GuiCommand:/it   Name:Sketcher ConstrainSymmetric   Name/it:Simmetria   Workbenches:[MenuLocation:Schizzo → Vincoli → Simmetria   Shortcut:S   SeeAlso:[[Sketcher ConstrainParallel/it|Parallela](Sketcher_Workbench/it___Schizzo]].md)---
 
@@ -99,4 +100,7 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainSymmetric/it

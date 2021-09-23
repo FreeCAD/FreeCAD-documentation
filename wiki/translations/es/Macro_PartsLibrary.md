@@ -1,5 +1,5 @@
 # Macro PartsLibrary/es
- {{Macro/es
+{{Macro/es
 |Name=Parts Library
 |Name/es=Parts Library
 |Icon=FreeCAD Doc.png
@@ -28,3 +28,6 @@ Esta macro, también incluida en la librería, hace aparecer un panel en el inte
 ToolBar Icon ![](images/FreeCAD_Doc.png )
 
 [PartsLibrary.FCMacro](http://github.com/yorikvanhavre/FreeCAD-library/blob/master/PartsLibrary.FCMacro)
+
+---
+[documentation index](../README.md) > Macro PartsLibrary/es

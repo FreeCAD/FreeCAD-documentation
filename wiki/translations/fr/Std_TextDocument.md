@@ -8,6 +8,8 @@
    SeeAlso:[Draft Formes à partir de texte](Draft_ShapeString/fr.md), [Draft Texte](Draft_Text.md)
 ---
 
+# Std TextDocument/fr
+
 ## Description
 
 La commande **Std Ajouter un document texte** crée un objet capable de contenir du texte arbitraire. Cet élément peut être utilisé pour écrire des informations générales ou de la documentation sur le modèle.
@@ -65,4 +67,7 @@ App.ActiveDocument.recompute()
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std TextDocument/fr

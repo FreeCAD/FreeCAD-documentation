@@ -1,9 +1,4 @@
 # Frequently asked questions/fr
-
-
-
-
-
 Cette page tente de répondre aux questions les plus fréquemment posées sur les forums FreeCAD.
 
 Si vous avez un problème ou une question concernant FreeCAD, vérifiez ci dessous avant tout. Puis, si vous ne trouvez pas de réponse à votre question, allez voir et au besoin poster sur le [forum de FreeCAD](http://forum.freecadweb.org/viewforum.php?f=3) !
@@ -281,3 +276,6 @@ Oui, vous pouvez utiliser les composants essentiels de FreeCAD dans d'autres app
 
 
 [Category:Documentation](Category:Documentation.md)
+
+---
+[documentation index](../README.md) > [Documentation](Category:Documentation.md) > Frequently asked questions/fr

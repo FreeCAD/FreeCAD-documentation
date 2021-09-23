@@ -1,3 +1,4 @@
+# TechDraw Hatch/ro
 ---
 - GuiCommand:   Name:TechDraw Hatch   Workbenches:[MenuLocation:TechDraw → Hatch   Shortcut:   SeeAlso:[[TechDraw_Hatching|TechDraw Hatching](TechDraw_Workbench___TechDraw]].md)---
 
@@ -116,4 +117,7 @@ rc = page.addView(hatch)
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Hatch/ro

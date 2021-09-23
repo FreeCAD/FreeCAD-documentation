@@ -6,6 +6,8 @@
    SeeAlso:[Std BoxSelection](Std_BoxSelection.md), [Std BoxElementSelection](Std_BoxElementSelection.md)
 ---
 
+# Std SelectAll/pt-br
+
 ## Description
 
 The **Std SelectAll** command selects all objects in the [Tree view](Tree_view.md).
@@ -24,4 +26,7 @@ The **Std SelectAll** command selects all objects in the [Tree view](Tree_view.m
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std SelectAll/pt-br

@@ -8,6 +8,8 @@
    SeeAlso:[Part Épaisseur](Part_Thickness/fr.md)
 ---
 
+# PartDesign Thickness/fr
+
 ## Description
 
 L\'outil **Épaisseur** s\'applique sur un corps solide et le transforme en un objet creux à paroi épaisse avec au moins une face ouverte, donnant à chacune de ses faces restantes une épaisseur uniforme. Sur certains solides, cela permet d\'accélérer considérablement le travail et d\'éviter les extrusions et les poches.
@@ -78,4 +80,7 @@ Résultat : ![](images/Brga-spessore.png )
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Thickness/fr

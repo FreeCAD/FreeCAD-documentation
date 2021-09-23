@@ -8,6 +8,8 @@
    SeeAlso:[Std Exécuter une macro](Std_DlgMacroExecute/fr.md)
 ---
 
+# Std DlgMacroExecuteDirect/fr
+
 ## Description
 
 La commande **Std Exécuter la macro dans l\'éditeur** exécute la macro dans la fenêtre actuelle de l\'éditeur de macro.
@@ -32,4 +34,7 @@ La commande **Std Exécuter la macro dans l\'éditeur** exécute la macro dans l
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std DlgMacroExecuteDirect/fr

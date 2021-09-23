@@ -8,6 +8,8 @@
    SeeAlso:[Открыть SVG](Drawing_Open_SVG/ru.md)
 ---
 
+# Drawing Save/ru
+
 Этот инструмент сохраняет текущий чертёжный лист в файле SVG (scalable vector graphics). Это файл может редактироваться в таких редакторах векторной графики, как [Inkscape](http://www.inkscape.org).
 
 
@@ -24,4 +26,7 @@
 
 {{Drawing Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Save/ru

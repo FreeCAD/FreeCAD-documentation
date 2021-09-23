@@ -7,6 +7,8 @@
    SeeAlso:[PartDesign Polster](PartDesign_Pad/de.md)
 ---
 
+# PartDesign Pocket/de
+
 ## Beschreibung
 
 Das **Tasche**nwerkzeug schneidet einen Festkörper aus, indem es eine Skizze (oder eine Fläche des Festkörpers) auf einem geraden Pfad extrudiert und vom Festkörper subtrahiert.
@@ -63,4 +65,7 @@ Ein [Beispiel](http://forum.freecadweb.org/viewtopic.php?f=3&t=3733&start=10) mi
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Pocket/de

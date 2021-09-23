@@ -9,6 +9,8 @@
    SeeAlso:[Entwurf Polygonzug](Draft_Wire/de.md), [Entwurf Bézkurve](Draft_BezCurve/de.md)
 ---
 
+# Draft BSpline/de
+
 ## Beschreibung
 
 Der <img alt="" src=images/Draft_BSpline.svg  style="width:24px;"> **Entwurf BSpline** Befehl erstellt eine [B-Spline Kurve](https://de.wikipedia.org/wiki/Spline#B-Splines) aus mehreren Punkten.
@@ -135,8 +137,5 @@ spline3 = Draft.make_bspline([1.3*p3, p1, -1.7*p2], closed=False)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft BSpline/de

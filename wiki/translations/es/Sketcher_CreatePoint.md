@@ -6,6 +6,8 @@
    Workbenches:[Croqizador](Sketcher_Workbench/es.md)
 ---
 
+# Sketcher CreatePoint/es
+
 ## Descripción
 
 La herramienta Punto crea un punto en el croquis actual, que puede utilizarse para construir elementos geométricos. El punto es siempre un elemento de construcción y no se muestra en la vista 3D.
@@ -32,4 +34,7 @@ El punto creado no está disponible fuera del croquis. En caso de que se necesit
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreatePoint/es

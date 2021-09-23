@@ -1,3 +1,4 @@
+# Part MakeSolid/ro
 ---
 - GuiCommand:   Name:Part ConvertToSolid‏‎   MenuLocation:Part → Convert to solid   Workbenches:[[Part Workbench   Part]]|SeeAlso:---
 
@@ -39,8 +40,5 @@ Este recomandabil să utilizați traseul ** Part** → ** Refine Shape** înaint
 
 </div>
 
-
-
-
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part MakeSolid/ro

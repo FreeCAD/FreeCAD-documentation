@@ -7,6 +7,8 @@
    SeeAlso:[Image Ouvrir une image](Image_Open/fr.md), [Image Redimensionner une image](Image_Scaling/fr.md)
 ---
 
+# Image CreateImagePlane/fr
+
 ## Description
 
 L\'outil [Créer une image plane](Image_CreateImagePlane/fr.md) importe une image [bitmap](bitmap/fr.md) et la place sur l\'un des plans XY, YZ ou XZ.
@@ -49,4 +51,7 @@ Si aucun décalage n\'est initialement attribué à l\'image, sa position peut t
 
 {{Image Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Image](Image_Workbench.md) > Image CreateImagePlane/fr

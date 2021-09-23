@@ -7,6 +7,8 @@
    Version:0.17
 ---
 
+# Spreadsheet AlignCenter/de
+
 ## Beschreibung
 
 Das **<img src=images/Spreadsheet_AlignCenter.svg style="width:16px"> [Kalkulationstabelle MittigAusrichten](Spreadsheet_AlignCenter/de.md)** Werkzeug bewirkt, dass der Text innerhalb der Zelle mittig ausgerichtet wird.
@@ -23,4 +25,7 @@ Das **<img src=images/Spreadsheet_AlignCenter.svg style="width:16px"> [Kalkulati
 
 {{Spreadsheet_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet AlignCenter/de

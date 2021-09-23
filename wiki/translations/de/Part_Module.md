@@ -1,10 +1,4 @@
-# Part Module/de
-
-
-
-
-
-<img alt="Part Arbeitsbereichsymbol" src=images/Workbench_Part.svg  style="width:128px;">
+# <img alt="Part Arbeitsbereichsymbol" src=images/Workbench_Part.svg  style="width:64px;"> Part Module/de
 
 
 {{TOCright}}
@@ -204,3 +198,6 @@ Siehe [Part Skripten](Part_scripting/de.md)
  
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Module/de

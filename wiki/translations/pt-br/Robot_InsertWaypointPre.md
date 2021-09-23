@@ -7,6 +7,8 @@
    SeeAlso:[Robot CreateTrajectory](Robot_CreateTrajectory.md), [Robot InsertWaypoint](Robot_InsertWaypoint.md)
 ---
 
+# Robot InsertWaypointPre/pt-br
+
 ## Description
 
 Inserts a waypoint from preselected objects into a trajectory.
@@ -33,4 +35,7 @@ Selectable objects are:
 
 {{Robot_Tools_navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot InsertWaypointPre/pt-br

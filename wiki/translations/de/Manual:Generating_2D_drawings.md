@@ -1,10 +1,4 @@
 # Manual:Generating 2D drawings/de
-
-
-
-
-
-
 {{Manual:TOC/de}}
 
 Wenn dein Modell nicht direkt von einer Maschine gedruckt oder gefräst werden kann, z. B. ist es zu groß (ein Gebäude) oder es erfordert manuellen zusammenbau, nachdem die Teile fertig sind, musst du normalerweise einer anderen Person erklären, wie man das macht. In technischen Bereichen (Ingenieurwesen, Architektur usw.) geschieht dies meist anhand von Zeichnungen. Die Zeichnungen werden der Person ausgehändigt, die für den Zusammenbau des Endprodukts verantwortlich ist, und erklären, wie man das macht.
@@ -120,3 +114,6 @@ Unsere Seite kann nun ins SVG für eine weitere Verarbeitung in grafischen Anwen
 
 
 [Category:Tutorials/de](Category:Tutorials/de.md)
+
+---
+[documentation index](../README.md) > Manual:Generating 2D drawings/de

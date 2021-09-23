@@ -1,10 +1,4 @@
-# Points Workbench/es
-
-
-
-
-
-<img alt="El icono del Ambiente de trabajo Puntos" src=images/Workbench_Points.svg  style="width:128px;">
+# <img alt="El icono del Ambiente de trabajo Puntos" src=images/Workbench_Points.svg  style="width:64px;"> Points Workbench/es
 
 ## Introducción
 
@@ -57,3 +51,6 @@ Se puede acceder a todas las herramientas del ambiente de trabajo de puntos desd
 }} 
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Points Workbench/es

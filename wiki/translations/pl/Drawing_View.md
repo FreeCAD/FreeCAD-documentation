@@ -8,6 +8,8 @@
    SeeAlso:[Rysunek w formacie poziomym A3](Drawing_Landscape_A3/pl.md)
 ---
 
+# Drawing View/pl
+
 To narzędzie tworzy nowy widok wybranego obiektu w aktywnym arkuszu rysunkowym.
 
 <img alt="Arkusz rysunkowy z trzema widokami: z przodu, z góry oraz izometryczny." src=images/Drawing_Views.png  style="width:500px;">
@@ -65,4 +67,7 @@ Jeśli szukasz przełączania persektywnego i ortogonalnego w widoku 3D, sprawd�
 
 {{Drawing Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing View/pl

@@ -9,6 +9,8 @@
    SeeAlso:[Chiudi tutto](Std_CloseAll/it.md)
 ---
 
+# Std CloseActiveWindow/it
+
 
 </div>
 
@@ -66,4 +68,7 @@ Per chiudere un documento usare il metodo `closeDocument` dell\'applicazione Fre
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std CloseActiveWindow/it

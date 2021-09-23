@@ -7,6 +7,8 @@
    SeeAlso:[Arch Component](Arch_Component.md)
 ---
 
+# Arch ToggleSubs
+
 ## Description
 
 This tools toggles the visibility of all the subtractions of an [Arch](Arch_Workbench.md) object between visible and hidden.
@@ -26,7 +28,5 @@ The color of a subtraction element can follow the style of [Draft construction](
 
 The [Draft construction](Draft_ToggleConstructionMode.md) style can be set in the [Draft Preferences](Draft_Preferences.md), in the menu **Preferences → Draft → General Draft**.
 
-
-
-
-  
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch ToggleSubs

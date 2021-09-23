@@ -6,3 +6,6 @@ Diese Kategorie listet Seiten zum Thema [Std Base](Std_Base/de.md), Dieser samme
 [Template:Std Base/de](Template:Std_Base/de.md)
 
 [Category:User\_Documentation/de](Category:User_Documentation/de.md)
+
+---
+[documentation index](../README.md) > Category:Std Base/de

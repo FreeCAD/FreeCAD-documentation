@@ -1,5 +1,5 @@
 # Macro Toggle Visibility/it
- {{Macro/it
+{{Macro/it
 |Name=Toggle Visibility
 |Translate=Visibilità oggetti
 |Icon=Macro SelectVisible.png
@@ -80,3 +80,6 @@ La discussione nel forum [Proposal: select one or more pieces, hide the others.]
 ## Version
 
 ver 00.02 12/11/2015 **macro Macro\_SelectVisible** : hidden the objects not selected, if not object selected displayed all objects, hidden all objects. This version include the tree macro in one
+
+---
+[documentation index](../README.md) > Macro Toggle Visibility/it

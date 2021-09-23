@@ -5,6 +5,8 @@
    Workbenches:[WebTools](WebTools_Workbench.md)
 ---
 
+# WebTools Sketchfab/en
+
 ## Description
 
 This tool allows you to export and upload objects to your [SketchFab](http://www.sketchfab.com) account. <small>(v0.17)</small> 
@@ -27,3 +29,6 @@ This tool allows you to export and upload objects to your [SketchFab](http://www
 -   Once your model is uploaded, Sketchfab offers a pretty advanced interface where you can further configure materials, lighting and environment.
 -   When you press the \"Upload button\", after the upload finished, if everything went well, the button will turn into a \"View your model online\" button, which, when clicked, will take you directly to the model page on Sketchfab.
 -   Some formats, like OBJ, are interpreted differently by Sketchfab and FreeCAD. FreeCAD considers the Z axis to point upwards, while Sketchfab considers it points towards the person behind the screen. To remedy this, after the upload is finished, the exporter will use the Sketchfab API to rotate the model to its correct position. If this operation fails, you will be warned, but your model will still be correctly uploaded. You can rotate it manually in the Sketchfab interface, by pressing the right arrow besides the\"X\" axis in the model orientation tab.
+
+---
+[documentation index](../README.md) > WebTools Sketchfab/en

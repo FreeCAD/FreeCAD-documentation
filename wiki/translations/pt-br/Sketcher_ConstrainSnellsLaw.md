@@ -6,6 +6,8 @@
    Version:0.15
 ---
 
+# Sketcher ConstrainSnellsLaw/pt-br
+
 ## Description
 
 Constrains two lines to follow the law of refraction of light as it penetrates through an interface, where two materials of different refraction indices meet. See [Snell\'s law](http://en.wikipedia.org/wiki/Snell%27s_law) on Wikipedia for more info.
@@ -95,4 +97,7 @@ App.ActiveDocument.recompute()
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainSnellsLaw/pt-br

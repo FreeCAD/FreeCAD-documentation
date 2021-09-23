@@ -7,6 +7,8 @@
    SeeAlso:[FEM Contrainte de transformation](FEM_ConstraintTransform/fr.md)
 ---
 
+# FEM ConstraintPlaneRotation/fr
+
 ## Description
 
 Crée une contrainte FEM pour conserver les nœuds dans une surface plane dans le même plan.
@@ -33,4 +35,7 @@ Crée une contrainte FEM pour conserver les nœuds dans une surface plane dans l
 
 {{FEM Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > FEM ConstraintPlaneRotation/fr

@@ -6,6 +6,8 @@
    SeeAlso:[Draft Snap](Draft_Snap.md), [Draft Snap Lock](Draft_Snap_Lock.md)
 ---
 
+# Draft Snap Special/pl
+
 ## Description
 
 The <img alt="" src=images/Draft_Snap_Special.svg  style="width:24px;"> **Draft Snap Special** option snaps to [special points](#Supported_special_points.md) defined by the object. The supported objects are [Arch Walls](Arch_Wall.md), [Arch Structures](Arch_Structure.md) and [Arch Equipment](Arch_Equipment.md).
@@ -38,8 +40,5 @@ For general information about snapping see [Draft Snap](Draft_Snap.md).
 
 See [Draft Snap](Draft_Snap#Preferences.md).
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Special/pl

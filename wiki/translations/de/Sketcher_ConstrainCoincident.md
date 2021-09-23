@@ -8,6 +8,8 @@
    SeeAlso:[Skizzierer Beschränke Schloss](Sketcher_ConstrainLock/de.md), [Skizzierer Beschränke Punkt auf Objekt](Sketcher_ConstrainPointOnObject/de.md)
 ---
 
+# Sketcher ConstrainCoincident/de
+
 ## Beschreibung
 
 Erstelle eine deckungsgleichen Beschränkung für das ausgewählte Element
@@ -81,4 +83,7 @@ Die [Skizzierer Skripten](Sketcher_scripting/de.md) Seite erklärt die Werte, di
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainCoincident/de

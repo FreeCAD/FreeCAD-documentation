@@ -1,6 +1,4 @@
 # Constraint/ru
-
-
 ## Введение
 
 
@@ -47,3 +45,6 @@ See the information in the <img alt="" src=images/Workbench_Sketcher.svg  style=
 }} {{Document objects navi}} 
 
 [Category:Glossary](Category:Glossary.md)
+
+---
+[documentation index](../README.md) > [Glossary](Category:Glossary.md) > Constraint/ru

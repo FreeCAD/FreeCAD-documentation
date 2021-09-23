@@ -8,6 +8,8 @@
    SeeAlso:[PartDesign Primitive additive](PartDesign_CompPrimitiveAdditive/ro.md)
 ---
 
+# PartDesign AdditiveBox/ro
+
 
 </div>
 
@@ -73,4 +75,7 @@ Caseta poate fi editată după crearea acesteia în două moduri:
 
 {{PartDesign Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveBox/ro

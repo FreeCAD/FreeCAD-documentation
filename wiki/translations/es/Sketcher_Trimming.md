@@ -8,6 +8,8 @@
    SeeAlso:[Croquizador Extender borde](Sketcher_Extend/es.md)
 ---
 
+# Sketcher Trimming/es
+
 ## Descripción
 
 Esta herramienta recorta un borde hasta el borde más cercano que se superpone.
@@ -31,4 +33,7 @@ Esta herramienta recorta un borde hasta el borde más cercano que se superpone.
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Trimming/es

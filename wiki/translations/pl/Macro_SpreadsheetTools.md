@@ -1,5 +1,5 @@
 # Macro SpreadsheetTools/pl
- {{Macro/pl
+{{Macro/pl
 |Name=Macro SpreadsheetTools
 |Name/pl=Makrodefinicjaq Narzędzia arkusza kalkulacyjnego
 |Icon=Macro_SpreadsheetTools.png
@@ -505,6 +505,5 @@ form = Spreadsheet_Tools(MainWindow)
 form.show()
 }}
 
-
-
-
+---
+[documentation index](../README.md) > Macro SpreadsheetTools/pl

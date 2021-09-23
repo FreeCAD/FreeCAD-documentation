@@ -1,5 +1,5 @@
 # Customize Toolbars/fr
- {{TutorialInfo/fr|Topic=SampleTopic|Level=Débutant|Time=5 minutes|Author=[Mario52](User:Mario52.md)|FCVersion=Toutes}}
+{{TutorialInfo/fr|Topic=SampleTopic|Level=Débutant|Time=5 minutes|Author=[Mario52](User:Mario52.md)|FCVersion=Toutes}}
 
 ## Sommaire
 
@@ -118,3 +118,6 @@ Voir aussi :
 
 
 [Category:Preferences](Category:Preferences.md)
+
+---
+[documentation index](../README.md) > [Preferences](Category:Preferences.md) > Customize Toolbars/fr

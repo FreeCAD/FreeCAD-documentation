@@ -7,6 +7,8 @@
    SeeAlso:[SheetMetal UnattendedUnfold](SheetMetal_UnattendedUnfold.md)
 ---
 
+# SheetMetal Unfold
+
 ## Description
 
 The <img alt="" src=images/SheetMetal_Unfold.svg  style="width:24px;"> **SheetMetal Unfold** command unfolds a sheet metal object.
@@ -51,3 +53,6 @@ The **Unfold** object, on the other hand, is derived from a [Part Feature](Part_
 
 
 [Category:SheetMetal](Category:SheetMetal.md) [Category:Addons](Category:Addons.md) [Category:External Command Reference](Category:External_Command_Reference.md)
+
+---
+[documentation index](../README.md) > [SheetMetal](Category:SheetMetal.md) > SheetMetal Unfold

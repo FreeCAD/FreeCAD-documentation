@@ -1,10 +1,4 @@
 # Draft OCA/sv
-
-
-
-
-
-
 {{TOCright}}
 
 ## Description
@@ -111,3 +105,6 @@ importOCA.export(objects, "/home/user/Pictures/myfile.oca")
  
 
 [Category:User Documentation/sv](Category:User_Documentation/sv.md) [Category:File Formats](Category:File_Formats.md)
+
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft OCA/sv

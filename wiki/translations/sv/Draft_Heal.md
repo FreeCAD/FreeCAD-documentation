@@ -1,3 +1,4 @@
+# Draft Heal/sv
 ---
 - GuiCommand:/sv   Name:Draft Heal   Name/sv:Draft Heal   Workbenches:[Arch](Draft_Workbench/sv___Draft]],_[[Arch_Workbench/sv.md)|MenuLocation:Draft → Utilities → Heal---
 
@@ -14,8 +15,5 @@ The <img alt="" src=images/Draft_Heal.svg  style="width:24px;"> **Draft Heal** c
 2.  Select the **Utilities → <img src="images/Draft_Heal.svg" width=16px> Heal** option from the menu.
 3.  If no errors are found the command will do nothing.
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Heal/sv

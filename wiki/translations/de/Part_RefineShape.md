@@ -7,6 +7,8 @@
    SeeAlso:[Einfache Kopie](Part_SimpleCopy/de.md), [Part UmgewandelteKopie](Part_TransformedCopy/de.md), [Part ElementKopie](Part_ElementCopy/de.md), [OpenSCAD VerfeinereFormFunktion](OpenSCAD_RefineShapeFeature/de.md)
 ---
 
+# Part RefineShape/de
+
 
 </div>
 
@@ -104,5 +106,5 @@ shape.removeSplitter()
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part RefineShape/de

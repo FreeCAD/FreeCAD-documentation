@@ -1,3 +1,4 @@
+# Mesh HarmonizeNormals/de
 ---
 - GuiCommand:/de   Name:Mesh HarmonizeNormals‏‎   MenuLocation:Meshes → Harmonize normals   Workbenches:[[Mesh Workbench/de   Mesh]]|Shortcut:   SeeAlso:---
 
@@ -52,4 +53,7 @@ Richte die Normalen eines oder mehrerer Netze aus.
 
 {{Mesh Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh HarmonizeNormals/de

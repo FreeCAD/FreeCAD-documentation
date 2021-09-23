@@ -7,6 +7,8 @@
    SeeAlso:[Image plane](Image_CreateImagePlane/ru.md), [Image Scaling](Image_Scaling/ru.md)
 ---
 
+# Image Open/ru
+
 ## Описание
 
 The [Image Open](Image_Open.md) tool simply opens an image from your system in a new tab in the viewport.
@@ -36,4 +38,7 @@ The image is placed in a new viewport, not in the 3D view.
 
 {{Image Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Image](Image_Workbench.md) > Image Open/ru

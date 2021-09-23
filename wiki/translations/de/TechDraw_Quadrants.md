@@ -8,6 +8,8 @@
    SeeAlso:[TechDraw Kosmetikknoten](TechDraw_CosmeticVertex/de.md), [TechDraw Mittenpunkt](TechDraw_Midpoints/de.md)
 ---
 
+# TechDraw Quadrants/de
+
 ## Beschreibung
 
 Das Quadranten Werkzeug fügt [kosmetische Knoten](TechDraw_CosmeticVertex/de.md) an den 90/180/270° Punkten einer Kreiskante hinzu. Der 0° Knoten sollte bereits als geometrischer Knoten vorhanden sein.
@@ -51,4 +53,7 @@ Kosmetische Knoten sind zur Zeit nicht über [Makros](Macros/de.md) oder die [Py
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Quadrants/de

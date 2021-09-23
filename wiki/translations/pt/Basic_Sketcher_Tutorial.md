@@ -1,7 +1,4 @@
 # Basic Sketcher Tutorial/pt
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -298,4 +295,7 @@ Constraining a sketch can be done in many different ways. In general, it is reco
 
 {{Tutorials navi
 
-}} {{Sketcher Tools navi}} 
+}} {{Sketcher Tools navi}}
+
+---
+[documentation index](../README.md) > Basic Sketcher Tutorial/pt

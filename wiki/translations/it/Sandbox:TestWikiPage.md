@@ -1,6 +1,4 @@
 # Sandbox:TestWikiPage/it
- 
-
 Questa pagina può essere utilizzata per provare a marcare una pagina del wiki prima di modificare effettivamente una pagina reale. Sentitevi liberi di fare quello che volete!
 
 ## **FreeCAD Quick Reference Cards** 
@@ -91,3 +89,6 @@ Questa pagina può essere utilizzata per provare a marcare una pagina del wiki p
 
 
 [Category:Documentation/it](Category:Documentation/it.md) [Category:Wiki](Category:Wiki.md)
+
+---
+[documentation index](../README.md) > Sandbox:TestWikiPage/it

@@ -1,3 +1,4 @@
+# Sketcher ViewSketch/ro
 ---
 - GuiCommand:/ro   Name:Sketcher ViewSketch   Name/ro:Sketcher ViewSketch   Workbenches:[PartDesign](Sketcher_Workbench___Sketcher]],_[[PartDesign_Workbench.md)|MenuLocation:Sketch → View sketch---
 
@@ -33,4 +34,7 @@ Atunci când Sketch este în edit mode, sau
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ViewSketch/ro

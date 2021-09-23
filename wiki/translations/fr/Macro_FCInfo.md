@@ -1,5 +1,5 @@
 # Macro FCInfo/fr
- {{Macro/fr
+{{Macro/fr
 |Icon=FCInfo.png
 |Name=Macro FCInfo
 |Description=Donne une série d'informations sur la forme.<br />Version française[https://gist.githubusercontent.com/mario52a/6afc64081c4eb8be3b93/raw/c1dd823886fe2e75dc5c6dd490157c259051b651/FCInfo_fr_Ver_1-22-rmu_Docked.FCMacro]
@@ -341,6 +341,5 @@ Voir aussi [Arch Prise de cotes](Arch_Survey/fr.md) <img alt="Arch Survey" src=i
 Vous pouvez faire part de vos commentaires sur le forum [Info Workbench - Help with icons please.](http://forum.freecadweb.org/viewtopic.php?f=10&t=3185)
 Ici un autre post traitant de [FCInfo Macro](http://forum.freecadweb.org/viewtopic.php?f=8&t=6005)
 
-
-
-
+---
+[documentation index](../README.md) > Macro FCInfo/fr

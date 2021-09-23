@@ -5,6 +5,8 @@
    Workbenches:[Assembly3](Assembly3_Workbench.md)
 ---
 
+# Assembly3 ConstraintPointsSymmetric
+
 ## Description
 
 This tool builds a link between two or three objects of an assembly and positions two point elements symmetrically to a planar face element or a plane . The selected elements of each object or more precisely their implicit coordinate systems (ICS) are used to position the objects to each other.
@@ -25,7 +27,5 @@ Or
 3.  Select a planar element of the third object
 4.  Press the **<img src="images/Assembly_ConstraintPointsSymmetric.svg" width=16px> [Points symmetric](Assembly3_ConstraintPointsSymmetric.md)** button.
 
-
-
-
- 
+---
+[documentation index](../README.md) > Assembly3 ConstraintPointsSymmetric

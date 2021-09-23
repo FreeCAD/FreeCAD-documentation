@@ -1,3 +1,4 @@
+# OpenSCAD ReplaceObject/ro
 ---
 - GuiCommand:   Name:OpenSCAD ReplaceObject‏‎    MenuLocation:OpenSCAD → ReplaceObject‏‎   |Workbenches:[[OpenSCAD Workbench   OpenSCAD]]|Shortcut:none   SeeAlso:------
 
@@ -61,4 +62,7 @@ Puteți utiliza această funcție, de exemplu, pentru a înlocui o parte din int
 
 {{OpenSCAD_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD ReplaceObject/ro

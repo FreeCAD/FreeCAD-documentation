@@ -1,5 +1,5 @@
 # Macro Automatic drawing/fr
- {{Macro/fr
+{{Macro/fr
 |Name=Automatic drawing
 |Icon=Macro_Automatic_drawing.png
 |Description=Ce script permet de générer une mise en plan avec 4 vues (face, dessus, iso et droite). Il requiert des modifications pour être parfaitement fonctionnel.
@@ -109,3 +109,6 @@ App.activeDocument().AutoDrawing.addObject(App.activeDocument().IsoView)
 ## Links
 
 The forum [Automatic drawing](https://forum.freecadweb.org/viewtopic.php?f=8&t=3361)
+
+---
+[documentation index](../README.md) > Macro Automatic drawing/fr

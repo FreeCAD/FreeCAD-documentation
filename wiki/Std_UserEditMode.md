@@ -7,6 +7,8 @@
    SeeAlso:[Std Edit](Std_Edit.md)
 ---
 
+# Std UserEditMode
+
 ## Description
 
 The **Std UserEditMode** command defines the edit mode to be used when an object is double-clicked in the [Tree view](Tree_view.md).
@@ -58,4 +60,7 @@ FreeCADGui.setUserEditMode(MODENAME) # Where MODENAME is a string available in t
 
 
 
- {{Std Base navi}} 
+ {{Std Base navi}}
+
+---
+[documentation index](../README.md) > Std UserEditMode

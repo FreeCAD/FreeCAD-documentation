@@ -6,6 +6,8 @@
    Workbenches:[Mesh](Mesh_Workbench/it.md)
 ---
 
+# Mesh Merge/it
+
 
 </div>
 
@@ -46,4 +48,7 @@ Vedere [Mesh Feature](Mesh_Feature/it.md).
 
 {{Mesh Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Merge/it

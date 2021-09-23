@@ -1,7 +1,4 @@
 # Draft Snap/it
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -144,5 +141,5 @@ Note that after changing some preferences you must restart FreeCAD.
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap/it

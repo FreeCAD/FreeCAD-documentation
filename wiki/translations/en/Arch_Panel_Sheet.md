@@ -7,6 +7,8 @@
    SeeAlso:[Arch Panel](Arch_Panel.md), [Arch Panel Cut](Arch_Panel_Cut.md), [Arch Nest](Arch_Nest.md)
 ---
 
+# Arch Panel Sheet/en
+
 ## Description
 
 This tool allows to build a 2D sheet, including any number of [Arch Panel Cut](Arch_Panel_Cut.md) objects, or any other 2D object such as those made by the [Draft Workbench](Draft_Workbench.md) and [Sketcher Workbench](Sketcher_Workbench.md). The Panel Sheet is typically made to layout cuts to be made by a CNC machine. These sheets can then be exported to a [DXF](Draft_DXF.md) file.
@@ -113,8 +115,5 @@ Sheet = Arch.makePanelSheet([Cut1, Cut2, Cut3])
 
 -   [Wikihouse porting tutorial](Wikihouse_porting_tutorial.md)
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Panel Sheet/en

@@ -7,6 +7,8 @@
    SeeAlso:[[Std ViewDockUndockFullscreen/de]]
 ---
 
+# Std ViewCreate/de
+
 ## Beschreibung
 
 Der Befehl **Std Neue Ansicht** erstellt eine neue [3D-Ansicht für](3D_view/de.md) das aktive Dokument. Mit 3D-Ansichten kann man auch sein Modell aus verschiedenen Blickrichtungen oder mit unterschiedlicher Ansichtsgröße (zoom) ansehen.
@@ -27,4 +29,7 @@ Der Befehl **Std Neue Ansicht** erstellt eine neue [3D-Ansicht für](3D_view/de.
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ViewCreate/de

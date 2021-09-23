@@ -5,6 +5,8 @@
    Workbenches:[Assembly3](Assembly3_Workbench.md)
 ---
 
+# Assembly3 ConstraintMidPoint
+
 ## Description
 
 The <img alt="" src=images/Assembly_ConstraintMidPoint.svg  style="width:16px;"> [Mid point](Assembly3_ConstraintMidPoint.md) command constrains the position of a 2D point (such as an end point of a line or an arc, or the center point of a circle or an arc) to the mid point of a straight 2D line.
@@ -27,7 +29,5 @@ Line elements are made with <img alt="" src=images/Workbench_Draft.svg  style="w
 
     :   (if **<img src="images/Assembly_AutoRecompute.svg" width=16px> [Auto recompute](Assembly3_AutoRecompute.md)** and **<img src="images/Assembly_SmartRecompute.svg" width=16px> [Smart recompute](Assembly3_SmartRecompute.md)** are disabled).
 
-
-
-
- 
+---
+[documentation index](../README.md) > Assembly3 ConstraintMidPoint

@@ -1,5 +1,5 @@
 # Raytracing Preferences/it
- La schermata delle preferenze di [Raytracing](Raytracing_Workbench/it.md) si trova nel [Editor delle preferenze](Preferences_Editor/it.md), nel menu **Modifica → Preferenze → Raytracing**.
+La schermata delle preferenze di [Raytracing](Raytracing_Workbench/it.md) si trova nel [Editor delle preferenze](Preferences_Editor/it.md), nel menu **Modifica → Preferenze → Raytracing**.
 
 C\'è solo una scheda: Raytracing.
 
@@ -13,3 +13,6 @@ C\'è solo una scheda: Raytracing.
 }}  
 
 [Category:Preferences](Category:Preferences.md)
+
+---
+[documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing Preferences/it

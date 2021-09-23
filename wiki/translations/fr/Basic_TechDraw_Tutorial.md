@@ -1,5 +1,5 @@
 # Basic TechDraw Tutorial/fr
- {{TutorialInfo/fr
+{{TutorialInfo/fr
 |Topic=Dessin technique
 |Level=Débutant
 |Author=[WandererFan](User:WandererFan.md)
@@ -132,4 +132,7 @@ Il y a beaucoup plus de fonctionnalités à explorer dans TechDraw: vues en coup
 
 {{Tutorials navi
 
-}} {{TechDraw Tools navi}} 
+}} {{TechDraw Tools navi}}
+
+---
+[documentation index](../README.md) > Basic TechDraw Tutorial/fr

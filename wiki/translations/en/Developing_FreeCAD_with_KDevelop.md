@@ -1,5 +1,5 @@
 # Developing FreeCAD with KDevelop/en
- }
+}
 
 ## Introduction
 
@@ -19,3 +19,6 @@ The intention for this page is to help orient users who are inclined toward unde
 -   [Developing FreeCAD with GitKraken](Developing_FreeCAD_with_GitKraken.md)
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:3rd Party](Category:3rd_Party.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Developing FreeCAD with KDevelop/en

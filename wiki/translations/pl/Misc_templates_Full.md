@@ -1,5 +1,5 @@
 # Misc templates Full/pl
- Szablony te są całkowicie pustą tabelką *(22 pola do wypełnienia)* i dedykowane dla makra [Macro\_CartoucheFC\_Full](Macro_CartoucheFC_Full.md).
+Szablony te są całkowicie pustą tabelką *(22 pola do wypełnienia)* i dedykowane dla makra [Macro\_CartoucheFC\_Full](Macro_CartoucheFC_Full.md).
 
 Te same czynności można wykonać bezpośrednio w programie FreeCAD.
 
@@ -31,3 +31,6 @@ dla Linux: \"\"
  
 
 [Category:Macros](Category:Macros.md)
+
+---
+[documentation index](../README.md) > [Macros](Category:Macros.md) > Misc templates Full/pl

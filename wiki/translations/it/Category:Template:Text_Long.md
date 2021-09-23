@@ -10,3 +10,6 @@ These long pages should not be transcluded; rather, the information should be pl
 [Template:Blender Navigation/it](Template:Blender_Navigation/it.md)
 
 [Category:Template/it](Category:Template/it.md)
+
+---
+[documentation index](../README.md) > Category:Template:Text Long/it

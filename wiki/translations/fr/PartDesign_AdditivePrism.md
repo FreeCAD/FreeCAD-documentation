@@ -8,6 +8,8 @@
    SeeAlso:[PartDesign Primitives additives](PartDesign_CompPrimitiveAdditive/fr.md), [PartDesign Prisme soustractif](PartDesign_SubtractivePrism/fr.md)
 ---
 
+# PartDesign AdditivePrism/fr
+
 ## Description
 
 Insére un Prisme primitif dans un corps actif comme fonction de base, ou le fusionne aux fonctions existantes.
@@ -52,4 +54,7 @@ Le Prisme peut être éditée après sa création de deux façons :
 
 {{PartDesign Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditivePrism/fr

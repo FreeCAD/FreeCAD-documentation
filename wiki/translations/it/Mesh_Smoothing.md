@@ -6,6 +6,8 @@
    Workbenches:[Mesh](Mesh_Workbench/it.md)
 ---
 
+# Mesh Smoothing/it
+
 ## Descrizione
 
 Il comando **Leviga** smussa gli oggetti mesh cambiando la posizione dei loro vertici.
@@ -71,4 +73,7 @@ Il comando **Leviga** smussa gli oggetti mesh cambiando la posizione dei loro ve
 
 {{Mesh Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Smoothing/it

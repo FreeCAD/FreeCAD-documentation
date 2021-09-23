@@ -1,3 +1,4 @@
+# Sketcher ToggleConstruction/ja
 ---
 - GuiCommand:/jp   Name:Sketcher_ToggleConstruction   Workbenches:[パートデザイン](Sketcher_Workbench/jp___スケッチャー]],_[[PartDesign_Workbench/jp.md)|MenuLocation:Sketch → Sketcher geometries → Toggle construction line---
 
@@ -74,4 +75,7 @@ and once you **<img src=images/Sketcher_LeaveSketch.svg style="width:16px"> [lea
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ToggleConstruction/ja

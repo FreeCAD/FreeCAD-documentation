@@ -7,6 +7,8 @@
    SeeAlso:[Std Copie](Std_Copy/fr.md), [Std Dupliquer la Sélection](Std_DuplicateSelection/fr.md), [Part Copie transformée](Part_TransformedCopy/fr.md), [Part Copie de l’élément](Part_ElementCopy/fr.md), [Part Affiner la forme](Part_RefineShape/fr.md)
 ---
 
+# Part SimpleCopy/fr
+
 ## Description
 
 
@@ -31,8 +33,5 @@ La copie a une seule propriété {{PropertyData/fr|Placement}} comme n\'importe 
 
 La copie a des propriétés de vue simples comme toutes les autres [Objet Part](Part_Feature/fr.md).
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part SimpleCopy/fr

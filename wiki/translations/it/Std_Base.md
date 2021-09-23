@@ -1,7 +1,4 @@
 # Std Base/it
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -79,3 +76,6 @@ Il menu standard è composto da 7 sotto-menu. Ogni sotto-menu ha una pagina dedi
 }} 
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > [Workbenches](Category:Workbenches.md) > Std Base/it

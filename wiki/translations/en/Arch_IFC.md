@@ -1,7 +1,4 @@
 # Arch IFC/en
- 
-
-
 {{TOCright}}
 
 ## Description
@@ -75,3 +72,6 @@ If the shape of exported objects is based on an extrusion or a boolean operation
  
 
 [Category:File Formats](Category:File_Formats.md)
+
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch IFC/en

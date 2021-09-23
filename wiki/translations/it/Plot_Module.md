@@ -1,7 +1,4 @@
-# Plot Module/it
-
-
-<img alt="L\'icona dell\'ambiente Plot" src=images/Workbench_Plot.svg  style="width:128px;">
+# <img alt="L\'icona dell\'ambiente Plot" src=images/Workbench_Plot.svg  style="width:64px;"> Plot Module/it
 
 
 {{TOCright}}
@@ -86,3 +83,6 @@ Poiché il modulo Grafico è costruito su `matplotlib`, si è liberi di utilizza
 }} 
 
 [Category:External\_Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)
+
+---
+[documentation index](../README.md) > [External_Workbenches](Category:External_Workbenches.md) > Plot Module/it

@@ -1,5 +1,5 @@
 # Macro Rotate View Free/fr
- {{Macro
+{{Macro
 |Name=Rotate View Free
 |Translate=Rotation Libre
 |Icon=Text_console_python.png
@@ -52,6 +52,5 @@ RotateView(0,1,0,45)
 
 si aucun document n\'est ouvert une erreur est retournée
 
-
-
-
+---
+[documentation index](../README.md) > Macro Rotate View Free/fr

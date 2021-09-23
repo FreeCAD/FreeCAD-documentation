@@ -1,5 +1,5 @@
 # Macro Toggle Visibility2 1-2
-  {{Macro
+{{Macro
 |Name=Macro Toggle Visibility2 1-2
 |Icon=Macro SelectVisible2.png
 |Description={{ColoredParagraph|DarkRed|Yellow|This macro must be used with '''Macro Toggle Visibility2 2-2'''}}<br/>This is a set of four related macros for managing the visibility of objects in the Object Model (return on original visibility):<br/># objects that are selected in a document are made visible while objects that are not selected are made invisible<br/>#*if no objects are selected then all objects are hidden;<br/>#*if all objects are selected then all objects are made visible<br/># make all objects visible
@@ -89,4 +89,7 @@ Second macro [Macro Toggle Visibility2 2-2](Macro_Toggle_Visibility2_2-2.md)
 
 The discussion on the forum [Re: Proposal: select one or more pieces, hide the others.](https://forum.freecadweb.org/viewtopic.php?f=8&t=13152&start=10#p184056)
 
-Original idea [Macro\_Toggle\_Visibility](https://www.freecadweb.org/wiki/index.php?title=Macro_Toggle_Visibility) 
+Original idea [Macro\_Toggle\_Visibility](https://www.freecadweb.org/wiki/index.php?title=Macro_Toggle_Visibility)
+
+---
+[documentation index](../README.md) > Macro Toggle Visibility2 1-2

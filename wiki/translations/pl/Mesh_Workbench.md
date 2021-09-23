@@ -1,10 +1,4 @@
-# Mesh Workbench/pl
-
-
-
-
-
-<img alt="Ikona FrreCAD dla środowiska pracy Mesh" src=images/Workbench_Mesh.svg  style="width:128px;">
+# <img alt="Ikona FrreCAD dla środowiska pracy Mesh" src=images/Workbench_Mesh.svg  style="width:64px;"> Mesh Workbench/pl
 
 
 {{TOCright}}
@@ -113,3 +107,6 @@ Preferencje Środowiska pracy Mesh można znaleźć w następujących kategoriac
 }} 
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Mesh Workbench/pl

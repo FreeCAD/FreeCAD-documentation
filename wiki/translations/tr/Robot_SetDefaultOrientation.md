@@ -6,6 +6,8 @@
    SeeAlso:...
 ---
 
+# Robot SetDefaultOrientation/tr
+
 ## Description
 
 
@@ -22,4 +24,7 @@
 
 {{Robot_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot SetDefaultOrientation/tr

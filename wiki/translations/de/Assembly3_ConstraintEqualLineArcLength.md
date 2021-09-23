@@ -6,6 +6,8 @@
    Workbenches:[Assembly3](Assembly3_Workbench/de.md)
 ---
 
+# Assembly3 ConstraintEqualLineArcLength/de
+
 ## Beschreibung
 
 Der Befehl <img alt="" src=images/Assembly_ConstraintEqualLineArcLength.svg  style="width:16px;"> [Linien- gleich Bogenlänge](Assembly3_ConstraintEqualLineArcLength/de.md) bestimmt die Länge einer 2D-Linie wie z.B. einer nicht unterteilten 2D-Linie, die mit Werkzeugen der <img alt="" src=images/Workbench_Draft.svg  style="width:16px;"> [Draft](Draft_Workbench/de.md)-Arbeitsumgebung in Zusammenhang mit einer <img alt="" src=images/Assembly_Workplane.svg  style="width:16px;"> Arbeitsebene erstellt wurde.
@@ -36,8 +38,5 @@ Constraint "EqualLineArcLength" requires the 1st element to be a linear
 Constraint "EqualLineArcLength" requires the 2nd element to be an arc edge
 Constraint "EqualLineArcLength" requires the 2nd element to be a circular edge
 
-
-
-
-
-
+---
+[documentation index](../README.md) > Assembly3 ConstraintEqualLineArcLength/de

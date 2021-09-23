@@ -8,6 +8,8 @@
    SeeAlso:[Draft AddToGroup](Draft_AddToGroup/tr.md), [Std CreateGroup](Std_Group/tr.md)
 ---
 
+# Draft SelectGroup/tr
+
 
 </div>
 
@@ -54,8 +56,5 @@ The command currently does not work well with layers and can produce confusing r
 
 </div>
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft SelectGroup/tr

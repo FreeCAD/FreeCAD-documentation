@@ -7,6 +7,8 @@
    Version:0.19
 ---
 
+# TechDraw RedrawPage/fr
+
 ## Description
 
 L\'outil Redessiner force la mise à jour de la page malgré les paramètres contraires de KeepUpdated (propriété de la page), de la mise à jour avec la 3D (paramètre) ou de l\'option Autoriser le remplacement de la page (paramètre).
@@ -40,4 +42,7 @@ La commande Redessiner n\'est pas directement disponible dans les scripts.
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw RedrawPage/fr

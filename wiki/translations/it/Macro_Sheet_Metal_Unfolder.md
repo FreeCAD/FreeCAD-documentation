@@ -1,5 +1,5 @@
 # Macro Sheet Metal Unfolder/it
- {{Macro/it
+{{Macro/it
 |Name=Sheet Metal Unfolder
 |Icon=Macro_Sheet_Metal_Unfolder.png
 |Translate=Dispiega lamiera
@@ -1489,3 +1489,5 @@ else:
 
 }}
 
+---
+[documentation index](../README.md) > Macro Sheet Metal Unfolder/it

@@ -1,7 +1,4 @@
 # Drawing Template HowTo/cs
-
-
-
 **The [Drawing Workbench](Drawing_Workbench.md) became obsolete in v0.17. Consider using the [TechDraw Workbench](TechDraw_Workbench.md) instead.**
 
 
@@ -260,4 +257,7 @@ Dva použité nástroje v tomto výukovém programu byly Inkscape a Kate. Oba m�
 
 {{Drawing Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Template HowTo/cs

@@ -1,3 +1,4 @@
+# Drawing Openbrowser/it
 ---
 - GuiCommand:/it   Name:Drawing Openbrowser   Name/it:Apri browser   Workbenches:[[Drawing Workbench/it   Drawing]], Complete|MenuLocation:Drawing → Apri Browser   Shortcut:none---
 
@@ -29,4 +30,7 @@ Questo comando consente di visualizzare una [pagina di disegno](Drawing_Landscap
 
 {{Drawing Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Openbrowser/it

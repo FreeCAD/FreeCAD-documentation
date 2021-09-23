@@ -1,7 +1,4 @@
 # Draft API/es
-
-
-
 <div class="mw-translate-fuzzy">
 
 Estas funciones son parte del módulo de Draft (Borrador) y pueden utilizarse en archivos de guión y macros o desde el interprete de Python, una vez se halla importado el módulo Draft.
@@ -93,3 +90,6 @@ Draft.move(myrect, mydistance)
 
 
 [Category:API](Category:API.md) [Category:Poweruser Documentation](Category:Poweruser_Documentation.md)
+
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft API/es

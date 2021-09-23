@@ -7,6 +7,8 @@
    Version:0.17
 ---
 
+# Arch Rebar Straight/pl
+
 ## Description
 
 The [Arch Straight Rebar](Arch_Rebar_Straight.md) tool allows the user to create a set of straight reinforcing bars inside an [Arch Structure](Arch_Structure.md) object.
@@ -205,3 +207,6 @@ StraightRebar.editStraightRebar(Rebar4, 50, ("Right Side", 50), 100, 100,
  
 
 [Category:Reinforcement](Category:Reinforcement.md)
+
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Rebar Straight/pl

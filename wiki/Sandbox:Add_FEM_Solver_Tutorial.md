@@ -1,8 +1,4 @@
 # Sandbox:Add FEM Solver Tutorial
-
-
-
-
 {{TutorialInfo
 |Topic= Add FEM Solver
 |Level= 
@@ -27,3 +23,6 @@ The task can be split into seven parts:
 -   **A solver input writing unit test**. Best to take the ccx cantilever. This is available for all mesh element types.
 
 [Category:FEM](Category:FEM.md) [Category:Sandbox](Category:Sandbox.md)
+
+---
+[documentation index](../README.md) > [FEM](Category:FEM.md) > Sandbox:Add FEM Solver Tutorial

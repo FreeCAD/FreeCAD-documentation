@@ -1,5 +1,5 @@
 # Drawing tutorial/de
- **Entwicklung des [Drawing Arbeitsbereich](Drawing_Workbench/de.md) wurde in FreeCAD v0.16 gestoppt und der neue in v0.17 eingeführte [TechDraw-Arbeitsbereich](TechDraw_Workbench/de.md) zielt darauf, ihn zu ersetzen. Beide Arbeitsbereiche werden in v0.17 bereitgestellt, aber der Drawing-Arbeitsbereich könnte in zukünftigen Ausgaben entfernt werden.**
+**Entwicklung des [Drawing Arbeitsbereich](Drawing_Workbench/de.md) wurde in FreeCAD v0.16 gestoppt und der neue in v0.17 eingeführte [TechDraw-Arbeitsbereich](TechDraw_Workbench/de.md) zielt darauf, ihn zu ersetzen. Beide Arbeitsbereiche werden in v0.17 bereitgestellt, aber der Drawing-Arbeitsbereich könnte in zukünftigen Ausgaben entfernt werden.**
 
 
 {{TutorialInfo/de
@@ -111,4 +111,7 @@ Wir sind nun fertig mit dem grundlegenden Arbeitsablauf für den [Drawing-Arbeit
 
 {{Tutorials navi
 
-}} {{Drawing Tools navi}} 
+}} {{Drawing Tools navi}}
+
+---
+[documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing tutorial/de

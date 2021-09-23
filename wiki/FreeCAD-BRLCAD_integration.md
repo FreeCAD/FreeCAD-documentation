@@ -48,3 +48,6 @@ High, mostly because you have two different applications to learn and work with
 -   Potential mentors: [Yorik](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=68) (FreeCAD), [rossberg](https://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=23847) (BRL-CAS)
 
 [Category:Google Summer of Code](Category:Google_Summer_of_Code.md)
+
+---
+[documentation index](../README.md) > FreeCAD-BRLCAD integration

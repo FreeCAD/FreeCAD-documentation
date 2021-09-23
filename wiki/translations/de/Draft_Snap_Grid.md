@@ -8,6 +8,8 @@
    SeeAlso:[Entwurfsraster ein-/ausschalten](Draft_ToggleGrid/de.md), [Fangen](Draft_Snap/de.md)
 ---
 
+# Draft Snap Grid/de
+
 
 </div>
 
@@ -57,5 +59,5 @@ See [Draft Snap](Draft_Snap#Preferences.md).
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Grid/de

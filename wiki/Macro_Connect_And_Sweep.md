@@ -1,5 +1,5 @@
 # Macro Connect And Sweep
-  {{Macro
+{{Macro
 |Name= Macro Connect And Sweep
 |Icon=Macro_Connect_And_Sweep.png
 |Description={{ColoredText|#ff0000|#ffffff|New version GUI modifyed for the HD dpi (QGridLayout) run only FC version 0.18 and more (PySide2 Qt5)}} <br/> <br/> This macro easily creates a connection between two objects, an object and a point or between two points or on wire selected (the center of the objects are the starting and ending points of the sweep) can be selected form a configurable ellipse polygon circle.<br/>A discretize function is available to create marker points configurable for cutting lines in section or cutting with a dimension on point is created to all coordinates.<br/>A Duplicate face or wire feature for use with the Sweep and Loft operation<br/>Sweep and Loft operation directly with the macro.<br/>Centring the beam on face<br/><br/>For the precedent version see [https://gist.githubusercontent.com/mario52a/3ec67a3711202dab69592ce53b938924/raw/b3554916e0dce63644a2d4d3f88ef114b5e1e390/Macro_Connect_And_Sweep.FCMacro Macro_Connect_And_Sweep.FCMacro] and install it manually.
@@ -218,4 +218,5 @@ This macro is based to the microelly2 code see [Looking for some helpful GUI-com
 
 Other forum discussion [Macro\_Connect\_And\_Sweep](https://forum.freecadweb.org/viewtopic.php?f=22&t=35432)
 
- 
+---
+[documentation index](../README.md) > Macro Connect And Sweep

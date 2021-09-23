@@ -7,6 +7,8 @@
    Version:0.17
 ---
 
+# Arch Rebar Stirrup/ro
+
 
 </div>
 
@@ -195,3 +197,6 @@ Stirrup.editStirrup(Rebar, 20, 20, 20, 20, 50,
  
 
 [Category:Reinforcement](Category:Reinforcement.md)
+
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Rebar Stirrup/ro

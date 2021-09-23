@@ -1,7 +1,4 @@
-# PartDesign Workbench/tr
- 
-
-<img alt="PartDesign workbench icon" src=images/Workbench_PartDesign.svg  style="width:128px;">
+# <img alt="PartDesign workbench icon" src=images/Workbench_PartDesign.svg  style="width:64px;"> PartDesign Workbench/tr
 
 
 {{TOCright}}
@@ -565,3 +562,6 @@ Parça Tasarım menüsünde bulunan bazı ek işlevler:
  {{PartDesign Tools navi}}
 
 [Category:PartDesign/tr](Category:PartDesign/tr.md) [Category:Workbenches/tr](Category:Workbenches/tr.md) [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > PartDesign Workbench/tr

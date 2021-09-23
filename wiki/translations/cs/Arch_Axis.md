@@ -1,3 +1,4 @@
+# Arch Axis/cs
 ---
 - GuiCommand:/cs   Name:Arch Axis   Name/cs:Osy   Workbenches:[[Arch_Workbench/cs   Architektura]]|MenuLocation:Arch → Osy   Shortcut:A X---
 
@@ -125,3 +126,6 @@ FreeCAD.ActiveDocument.recompute()
  
 
 [Category:Arch/cs](Category:Arch/cs.md)
+
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Axis/cs

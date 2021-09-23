@@ -9,6 +9,8 @@
    Version:0.17
 ---
 
+# PartDesign MoveFeatureInTree/ro
+
 
 </div>
 
@@ -53,4 +55,7 @@ Următoarele trei imagini prezintă același model cu un buzunar definit pe o sc
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign MoveFeatureInTree/ro

@@ -1,10 +1,4 @@
 # Draft Preferences/ro
-
-
-
-
-
-
 {{TOCright}}
 
 
@@ -508,3 +502,6 @@ On the *Texts and dimensions* tab you can specify the following:
  
 
 [Category:Preferences](Category:Preferences.md)
+
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Preferences/ro

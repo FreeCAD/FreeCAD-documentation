@@ -6,6 +6,8 @@
    SeeAlso:[Arch Remove](Arch_Remove.md)
 ---
 
+# Arch Add/pt-br
+
 ## Descrição
 
 The Add tool allows you to do 4 kinds of operations:
@@ -83,8 +85,5 @@ FreeCAD.ActiveDocument.recompute()
 
 </div>
 
-
-
-
-
-
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Add/pt-br

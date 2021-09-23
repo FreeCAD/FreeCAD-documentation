@@ -8,6 +8,8 @@
    SeeAlso:[Ограничить горизонтально](Sketcher_ConstrainHorizontal/ru.md)
 ---
 
+# Sketcher ConstrainVertical/ru
+
 ## Описание
 
 Накладывает ограничение вертикальности на выделенные линии или элементы полилинии. В <small>(v0.17)</small> , оно так же накладывает ограничение вертикальности на вершины. Может быть выделено несколько объектов.
@@ -35,4 +37,7 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainVertical/ru

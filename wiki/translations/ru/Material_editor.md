@@ -10,6 +10,8 @@
    SeeAlso:[Material](Material/ru.md), [Arch SetMaterial](Arch_SetMaterial/ru.md), [FEM tutorial](FEM_tutorial/ru.md)
 ---
 
+# Material editor/ru
+
 
 </div>
 
@@ -85,4 +87,7 @@ MaterialEditor.openEditor()
 
 {{FEM Tools navi
 
-}}   
+}}
+
+---
+[documentation index](../README.md) > [Material](Material_Workbench.md) > Material editor/ru

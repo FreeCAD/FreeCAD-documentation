@@ -8,6 +8,8 @@
    SeeAlso:[Std ganzerBildschirm](Std_ViewFullscreen/de.md)
 ---
 
+# Std MainFullscreen/de
+
 ## Beschreibung
 
 Der **Std ganzerHauptbildschirm** Befehl schaltet die FreeCAD Hauptansicht zu einen Gesamtbildschirm und zurück um.
@@ -24,4 +26,7 @@ Der **Std ganzerHauptbildschirm** Befehl schaltet die FreeCAD Hauptansicht zu ei
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std MainFullscreen/de

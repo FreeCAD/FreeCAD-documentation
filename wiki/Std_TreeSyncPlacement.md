@@ -7,6 +7,8 @@
    Version:0.19
 ---
 
+# Std TreeSyncPlacement
+
 ## Description
 
 The **Std TreeSyncPlacement** command toggles the [Tree view](Tree_view.md) SyncPlacement mode. If this mode is on, the **Placement** of objects is automatically adjusted when they are dragged and dropped from one container into another container with a different coordinate system, preserving their placement relative to the global coordinate system.
@@ -25,4 +27,7 @@ The Tree view SyncPlacement mode is stored: **Tools → Edit parameters... → B
 
 
 
- {{Std Base navi}}  
+ {{Std Base navi}}
+
+---
+[documentation index](../README.md) > Std TreeSyncPlacement

@@ -5,6 +5,8 @@
    Workbenches:[Curves](Curves_Workbench.md)
 ---
 
+# Curves Interpolate/en
+
 ## Description
 
 The <img alt="" src=images/Curves_Interpolate.svg  style="width:24px;"> [Curves Interpolate](Curves_Interpolate.md) interpolates points with a BSpline curve. This tool is part of the [external workbench](External_workbenches.md) called [Curves](Curves_Workbench.md).
@@ -30,4 +32,7 @@ The <img alt="" src=images/Curves_Interpolate.svg  style="width:24px;"> [Curves 
 
 {{Curves Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > Curves Interpolate/en

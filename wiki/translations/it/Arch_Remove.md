@@ -7,6 +7,8 @@
    SeeAlso:[Taglia con una linea](Arch_CutLine/it.md), [Taglia con un piano](Arch_CutPlane/it.md), [Aggiungi](Arch_Add/it.md)
 ---
 
+# Arch Remove/it
+
 
 </div>
 
@@ -114,8 +116,5 @@ FreeCAD.ActiveDocument.recompute()
 
 </div>
 
-
-
-
-
-
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Remove/it

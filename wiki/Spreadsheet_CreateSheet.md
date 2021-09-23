@@ -6,6 +6,8 @@
    Version:0.17
 ---
 
+# Spreadsheet CreateSheet
+
 ## Description
 
 The **<img src=images/Spreadsheet_CreateSheet.svg style="width:16px"> [Spreadsheet CreateSheet](Spreadsheet_CreateSheet.md)** tool adds a new spreadsheet object to the active document, which will be opened in a new tab in the [main view area](main_view_area.md).
@@ -19,4 +21,7 @@ The **<img src=images/Spreadsheet_CreateSheet.svg style="width:16px"> [Spreadshe
 
 
 
- {{Spreadsheet_Tools_navi}} 
+ {{Spreadsheet_Tools_navi}}
+
+---
+[documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet CreateSheet

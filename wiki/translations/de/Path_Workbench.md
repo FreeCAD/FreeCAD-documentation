@@ -1,10 +1,4 @@
-# Path Workbench/de
-
-
-
-
-
-<img alt="Pfad Arbeitsbereichssymbol" src=images/Workbench_Path.svg  style="width:128px;">
+# <img alt="Pfad Arbeitsbereichssymbol" src=images/Workbench_Path.svg  style="width:64px;"> Path Workbench/de
 
 
 {{TOCright}}
@@ -441,3 +435,6 @@ Siehe [Path scripting/de](Path_scripting/de.md) Seite.
 }} 
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Path Workbench/de

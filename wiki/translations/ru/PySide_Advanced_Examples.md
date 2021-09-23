@@ -1,7 +1,4 @@
 # PySide Advanced Examples/ru
-
-
-
 {{TOCright}}
 
 ## Введение
@@ -106,3 +103,6 @@ self.dialog = FreeCADGui.PySideUic.loadUi(os.path.join(os.path.dirname(__file__)
 }} 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > PySide Advanced Examples/ru

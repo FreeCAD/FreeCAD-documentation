@@ -1,7 +1,4 @@
 # Import OpenSCAD code/it
-
-
-
 {{TutorialInfo/it
 |Topic= Importare codice OpenSCAD
 |Level= Base
@@ -94,3 +91,6 @@ Qui viene usato il file example005.scad dai (vecchi) esempi OpenSCAD, ma si può
 -   [Preferenze di Importa/Esporta](Import_Export_Preferences/it.md)
 
 [Category:OpenSCAD](Category:OpenSCAD.md)
+
+---
+[documentation index](../README.md) > [Import](Import_Workbench.md) > Import OpenSCAD code/it

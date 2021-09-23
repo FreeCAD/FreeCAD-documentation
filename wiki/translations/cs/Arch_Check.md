@@ -1,3 +1,4 @@
+# Arch Check/cs
 ---
 - GuiCommand:/cs   Name:Arch Check   Name/cs:Arch Check   Workbenches:[MenuLocation:Arch → Utilities → Check   SeeAlso:[[Arch CloseHoles/cs|Arch CloseHoles](Arch_Workbench/cs___Arch]].md)---
 
@@ -81,11 +82,5 @@ list_bad = Arch.check([Wall1, Wall2, Circle, Wire], includehidden=True)
 print(list_bad)
 ```
 
-
-
-
-
-
-
-
-
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Check/cs

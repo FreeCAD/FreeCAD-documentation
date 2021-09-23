@@ -1,7 +1,4 @@
 # FreeCAD Scripting Basics/ro
-
-
-
 {{TOCright}}
 
 
@@ -411,3 +408,6 @@ Acum puteți începe să jucați cu FreeCAD! Pentru a vedea ce puteți face cu [
 }} 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > FreeCAD Scripting Basics/ro

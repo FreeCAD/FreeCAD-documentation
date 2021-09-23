@@ -9,6 +9,8 @@
    SeeAlso:[Clona](Sketcher_Clone/it.md), [Copia](Sketcher_Copy/it.md)
 ---
 
+# Sketcher Move/it
+
 
 </div>
 
@@ -43,4 +45,7 @@ Sposta da un punto a un altro gli elementi dello schizzo selezionati, utilizzand
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Move/it

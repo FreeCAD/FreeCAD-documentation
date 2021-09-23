@@ -1,10 +1,4 @@
-# TechDraw Workbench/de
-
-
-
-
-
-<img alt="TechDraw Arbeitsbereich Symbol" src=images/Workbench_TechDraw.svg  style="width:128px;">
+# <img alt="TechDraw Arbeitsbereich Symbol" src=images/Workbench_TechDraw.svg  style="width:64px;"> TechDraw Workbench/de
 
 ## Einführung
 
@@ -324,3 +318,6 @@ Video Tutorien von sliptonic
 }} 
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > TechDraw Workbench/de

@@ -7,6 +7,8 @@
    SeeAlso:[Kieszeń](PartDesign_Pocket/pl.md)
 ---
 
+# PartDesign Pad/pl
+
 ## Opis
 
 Narzędzie **<img src="images/PartDesign_Pad.svg" width=16px> [Projekt Części: Wyciągnij przez obrót](PartDesign_Pad/pl.md)** narzędzie powoduje wyciągnięcie szkicu do bryły w kierunku normalnej do płaszczyzny szkicu. Od wersji {{VersionPlus/pl|0.17}} można również użyć ścian na bryle zamiast szkiców.
@@ -122,4 +124,7 @@ Odwraca kierunek wyciągnięcia.
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Pad/pl

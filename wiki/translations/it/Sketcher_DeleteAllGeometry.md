@@ -9,6 +9,8 @@
    Version:0.18
 ---
 
+# Sketcher DeleteAllGeometry/it
+
 
 </div>
 
@@ -39,4 +41,7 @@ Questo strumento cancella tutta la geometria dallo schizzo che si sta modificand
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher DeleteAllGeometry/it

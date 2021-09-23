@@ -8,3 +8,6 @@ This category gathers article that list objects and methods available to the pyt
 [Draft API/sv](Draft_API/sv.md)
 
 [Category:Categories/sv](Category:Categories/sv.md)
+
+---
+[documentation index](../README.md) > Category:API/sv

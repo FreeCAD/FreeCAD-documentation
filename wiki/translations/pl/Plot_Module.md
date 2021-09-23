@@ -1,7 +1,4 @@
-# Plot Module/pl
-
-
-<img alt="Ikonka FreeCAD dla środowiska pracy Wykres" src=images/Workbench_Plot.svg  style="width:128px;">
+# <img alt="Ikonka FreeCAD dla środowiska pracy Wykres" src=images/Workbench_Plot.svg  style="width:64px;"> Plot Module/pl
 
 
 {{TOCright}}
@@ -64,3 +61,6 @@ Ponieważ środowisko pracy Wykres jest nakładką `matplotlib`, możesz swobodn
 }} 
 
 [Category:External\_Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)
+
+---
+[documentation index](../README.md) > [External_Workbenches](Category:External_Workbenches.md) > Plot Module/pl

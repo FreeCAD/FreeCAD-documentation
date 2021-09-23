@@ -6,6 +6,8 @@
    Workbenches:[Curves](Curves_Workbench/fr.md)
 ---
 
+# Curves ToConsole/fr
+
 ## Description
 
 <img alt="" src=images/Curves_ToConsole.svg  style="width:24px;"> [Vers la console](Curves_ToConsole/fr.md) déplace les objets vers la console. Cet outil fait partie des [ateliers externes](External_workbenches/fr.md) appelé [Curves](Curves_Workbench/fr.md).
@@ -31,4 +33,7 @@
 
 {{Curves Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > Curves ToConsole/fr

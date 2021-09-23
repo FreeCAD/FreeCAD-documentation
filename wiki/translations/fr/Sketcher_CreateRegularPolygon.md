@@ -6,6 +6,8 @@
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
 ---
 
+# Sketcher CreateRegularPolygon/fr
+
 ## Description
 
 Dessine un polygone régulier inscrit dans un cercle de géométrie de construction. Lors du démarrage de l\'outil, une boîte apparaît pour vous demander le nombre de côtés du polygone régulier. Une fois le bouton {{KEY | OK}} appuyé, le pointeur de la souris se transforme en croix blanche avec une icône hexagonale rouge. Les coordonnées du pointeur sont affichées à côté de lui en bleu en temps réel.
@@ -26,4 +28,7 @@ Le cercle circonscrit est la géométrie de construction, qui n\'est visible que
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateRegularPolygon/fr

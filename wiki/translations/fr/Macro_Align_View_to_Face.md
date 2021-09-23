@@ -1,5 +1,5 @@
 # Macro Align View to Face/fr
- {{Macro/fr
+{{Macro/fr
 |Name=Macro Align View to Face
 |Icone=Macro_Align_View_to_Face.png
 |Description=Cette macro aligne la vue sur la face sélectionnée
@@ -70,3 +70,6 @@ cam.orientation.setValue(rot.Q)
 Gui.SendMsgToActiveView("ViewSelection")
 
 }}
+
+---
+[documentation index](../README.md) > Macro Align View to Face/fr

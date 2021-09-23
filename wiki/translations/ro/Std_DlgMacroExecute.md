@@ -1,3 +1,4 @@
+# Std DlgMacroExecute/ro
 ---
 - GuiCommand:   Name:Std DlgMacroExecute   MenuLocation:[Shortcut:CTRL+F6   Workbenches:All   SeeAlso:[[Std_DlgMacroExecuteDirect|Execute Direct](Macros___Macros]]_→_Execute_macro.md)---
 
@@ -126,4 +127,7 @@ Când tastați în **<img src=images/Std_DlgMacroExecuteDirect.png style="width:
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std DlgMacroExecute/ro

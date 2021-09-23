@@ -1,7 +1,4 @@
 # Python scripting tutorial/es
-
-
-
 {{TOCright}}
 
 ## Introducción
@@ -294,3 +291,6 @@ Ahora estás listo para profundizar en guionización FreeCAD. Así que dirígete
 }} 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Python scripting tutorial/es

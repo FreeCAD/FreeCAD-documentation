@@ -8,6 +8,8 @@
    SeeAlso:[Part Slice to compound](Part_Slice/ru.md), [Part Explode Compound](Part_ExplodeCompound/ru.md)
 ---
 
+# Part SliceApart/ru
+
 
 </div>
 
@@ -78,5 +80,5 @@ Slice Apart was introduced in FreeCAD v0.18.15506. FreeCAD needs to be compiled 
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part SliceApart/ru

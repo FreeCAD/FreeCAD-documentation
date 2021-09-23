@@ -1,6 +1,4 @@
 # Artwork Fem/fr
- 
-
 Ces icônes se trouvent dans le chemin source indiqué.
 
 Pour toutes les icônes de l\'arborescence source, voir [Graphisme](Artwork/fr.md).
@@ -17,3 +15,6 @@ Pour toutes les icônes de l\'arborescence source, voir [Graphisme](Artwork/fr.m
 }} 
 
 [Category:FEM](Category:FEM.md)
+
+---
+[documentation index](../README.md) > [FEM](Category:FEM.md) > Artwork Fem/fr

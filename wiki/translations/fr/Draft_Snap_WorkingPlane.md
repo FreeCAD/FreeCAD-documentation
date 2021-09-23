@@ -6,6 +6,8 @@
    SeeAlso:[Draft Aimantation](Draft_Snap/fr.md), [Draft Aimantation Verrouiller](Draft_Snap_Lock/fr.md), [Draft Plan de travail](Draft_SelectPlane/fr.md)
 ---
 
+# Draft Snap WorkingPlane/fr
+
 ## Description
 
 L\'option <img alt="" src=images/Draft_Snap_WorkingPlane.svg  style="width:24px;"> **Draft Aimantation Plan de travail** projette le point d\'aimantation sur le [plan de travail](Draft_SelectPlane/fr.md) en cours. Elle ne peut être utilisée qu\'en combinaison avec une autre option d\'aimantation.
@@ -33,8 +35,5 @@ Pour des informations générales sur l\'aimantation voir [Draft Aimantation](Dr
 
 Voir [Draft Préférences](Draft_Snap/fr#Pr.C3.A9f.C3.A9rences.md)
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap WorkingPlane/fr

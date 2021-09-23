@@ -6,6 +6,8 @@
    MenuLocation:Robot → Exporter la trajectoire
 ---
 
+# Robot Export/fr
+
 
 </div>
 
@@ -69,4 +71,7 @@ Un fichier KRL (\*.src) sera créé.
 
 {{Robot_Tools_navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot Export/fr

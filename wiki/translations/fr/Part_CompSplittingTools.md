@@ -6,6 +6,8 @@
    Workbenches:[Part](Part_Workbench/fr.md)
 ---
 
+# Part CompSplittingTools/fr
+
 ## Description
 
 Une collection d\'outils pour séparer.
@@ -17,8 +19,5 @@ Une collection d\'outils pour séparer.
 -   <img alt="" src=images/Part_Slice.svg  style="width:32px;"> [Scinder](Part_Slice/fr.md) : divise un objet en morceaux par intersections avec un autre objet.
 -   <img alt="" src=images/Part_XOR.svg  style="width:32px;"> [OU exclusif](Part_XOR/fr.md) : supprime l'espace partagé (commun) par un nombre pair d'objets (version symétrique de <img alt="" src=images/Part_Cut.svg  style="width:24px;"> [Soustraction (booléenne)](Part_Cut/fr.md)).
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompSplittingTools/fr

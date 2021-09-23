@@ -1,6 +1,4 @@
 # Feature list
-  
-
 This is an extensive, but not complete, list of features which FreeCAD implements. If you want to look into the future see the [Development roadmap](Development_roadmap.md) for a quick overview of what\'s coming next. Also, the [Screenshots](Screenshots.md) are a nice place to go.
 
  
@@ -98,3 +96,6 @@ Power users have created various custom [external workbenches](external_workbenc
  
 
 [Category:User Documentation](Category:User_Documentation.md)
+
+---
+[documentation index](../README.md) > [User Documentation](Category:User Documentation.md) > Feature list

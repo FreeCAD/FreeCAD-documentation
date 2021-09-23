@@ -1,5 +1,5 @@
 # Macro Unfold Box/de
- {{Macro/de
+{{Macro/de
 |Name=Macro Unfold Box
 |Icon=Macro_Unfold_Box.png
 |Translate=Makro-Aufklappbox
@@ -601,3 +601,5 @@ DialogBox.show()
 </nowiki>
 }}
 
+---
+[documentation index](../README.md) > Macro Unfold Box/de

@@ -1,10 +1,4 @@
-# Reverse Engineering Workbench/pt-br
-
-
-
-
-
-<img alt="ícone da bancada de trabalho Reverse Engineering" src=images/Workbench_Reverse_Engineering.svg  style="width:128px;">
+# <img alt="ícone da bancada de trabalho Reverse Engineering" src=images/Workbench_Reverse_Engineering.svg  style="width:64px;"> Reverse Engineering Workbench/pt-br
 
 ## Introduction
 
@@ -37,3 +31,6 @@ Link para os tópicos apropriados discutindo esta bancada de trabalho
 
 
 [Category:Reverse Engineering](Category:Reverse_Engineering.md) [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Reverse Engineering Workbench/pt-br

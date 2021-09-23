@@ -1,5 +1,5 @@
 # Macro Rubik Cube/it
- {{Macro/it
+{{Macro/it
 |Name=Macro_Rubik_Cube
 |Translate=Cubo di Rubik
 |Icon=Macro_Rubik_Cube.png
@@ -1675,3 +1675,6 @@ ToolBar Icon <img alt="" src=images/Macro_Rubik_Cube.png  style="width:64px;">
         FreeCAD.Console.PrintLog("fix_reload() done\n")
 
     restoreCursor()
+
+---
+[documentation index](../README.md) > Macro Rubik Cube/it

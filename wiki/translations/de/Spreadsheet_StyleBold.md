@@ -7,6 +7,8 @@
    Version:0.17
 ---
 
+# Spreadsheet StyleBold/de
+
 ## Beschreibung
 
 Das **<img src=images/Spreadsheet_StyleBold.svg style="width:16px"> [Kalkulationstabelle StilFett](Spreadsheet_StyleBold/de.md)** Werkzeug bewirkt, dass der Text innerhalb der Zelle den Stil **fett** erhält.
@@ -23,4 +25,7 @@ Das **<img src=images/Spreadsheet_StyleBold.svg style="width:16px"> [Kalkulation
 
 {{Spreadsheet_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet StyleBold/de

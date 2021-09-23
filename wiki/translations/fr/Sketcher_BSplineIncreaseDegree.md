@@ -8,6 +8,8 @@
    SeeAlso:[Sketcher Afficher/masquer degré d'une B-spline](Sketcher_BSplineDegree/fr.md), [Sketcher Diminuer le degré d'une B-spline](Sketcher_BSplineDecreaseDegree/fr.md)
 ---
 
+# Sketcher BSplineIncreaseDegree/fr
+
 ## Description
 
 Augmente le degré (ordre) d\'une B-spline (voir [cette page](B-Splines/fr.md) pour plus d\'informations sur les B-splines).
@@ -44,4 +46,7 @@ Vous pouvez voir que maintenant chaque segment a 2 points de contrôle et les n�
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineIncreaseDegree/fr

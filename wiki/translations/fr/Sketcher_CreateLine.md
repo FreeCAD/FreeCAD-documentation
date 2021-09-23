@@ -8,6 +8,8 @@
    SeeAlso:[Sketcher Polyligne](Sketcher_CreatePolyline/fr.md)
 ---
 
+# Sketcher CreateLine/fr
+
 ## Description
 
 Cet outil dessine une Ligne en cliquant deux points dans la vue 3D.
@@ -29,4 +31,7 @@ L\'objet ligne créé commence et se termine aux points donnés, mais la ligne e
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateLine/fr

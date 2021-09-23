@@ -9,6 +9,8 @@
    SeeAlso:[Dividi](Draft_Split/it.md)
 ---
 
+# Draft Join/it
+
 
 </div>
 
@@ -105,5 +107,5 @@ doc.recompute()
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Join/it

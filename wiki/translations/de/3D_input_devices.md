@@ -1,5 +1,5 @@
 # 3D input devices/de
- FreeCAD unterstützt einige spezielle Eingabegeräte wie etwa 3D Mäuse. Diese erlauben dem Benutzer, Objekte in drei Dimensionen zu rotieren, zu verschieben und in der Größe zu ändern.
+FreeCAD unterstützt einige spezielle Eingabegeräte wie etwa 3D Mäuse. Diese erlauben dem Benutzer, Objekte in drei Dimensionen zu rotieren, zu verschieben und in der Größe zu ändern.
 
 ## Unterstützte Hardware 
 
@@ -7,3 +7,6 @@
 -   Installationanweisungen: [3D connexion Eingabegeräte](3Dconnexion_input_devices/de.md)
 
 [category:Documentation](category:Documentation.md)
+
+---
+[documentation index](../README.md) > 3D input devices/de

@@ -1,5 +1,5 @@
 # FreeCAD and DWG Import/fr
- {{TOCright}}
+{{TOCright}}
 
 
 {{Fake heading|sub=4|< Retour à [FreeCAD comment importer exporter](FreeCAD_Howto_Import_Export/fr.md)}}
@@ -134,3 +134,6 @@ Dans la version de développement comme mentionné ci-dessus, vous pouvez passer
  
 
 [Category:File\_Formats](Category:File_Formats.md) [Category:Common Questions](Category:Common_Questions.md)
+
+---
+[documentation index](../README.md) > [File_Formats](Category:File_Formats.md) > FreeCAD and DWG Import/fr

@@ -7,6 +7,8 @@
    SeeAlso:[PartDesign CompPrimitiveAdditive](PartDesign_CompPrimitiveAdditive.md)
 ---
 
+# PartDesign AdditiveTorus/pl
+
 ## Description
 
 Inserts a primitive torus in the active Body as the first feature, or fuses it to the existing feature(s).
@@ -49,4 +51,7 @@ The Torus can be edited after its creation in two ways:
 
 {{PartDesign Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveTorus/pl

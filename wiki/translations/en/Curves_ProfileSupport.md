@@ -5,6 +5,8 @@
    Workbenches:[Curves](Curves_Workbench.md)
 ---
 
+# Curves ProfileSupport/en
+
 ## Description
 
 The <img alt="" src=images/Curves_ProfileSupport.svg  style="width:24px;"> [Curves ProfileSupport](Curves_ProfileSupport.md) creates a support plane for sketches. This tool is part of the [external workbench](External_workbenches.md) called [Curves](Curves_Workbench.md).
@@ -32,4 +34,7 @@ The <img alt="" src=images/Curves_ProfileSupport.svg  style="width:24px;"> [Curv
 
 {{Curves Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > Curves ProfileSupport/en

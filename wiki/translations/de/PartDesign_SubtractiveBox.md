@@ -7,6 +7,8 @@
    SeeAlso:[PartDesign Erzeuge einen abzuziehenden Grundkörper](PartDesign_CompPrimitiveSubtractive/de.md)
 ---
 
+# PartDesign SubtractiveBox/de
+
 ## Beschreibung
 
 Fügt einen abzuziehenden Quader in den aktiven Körper (Body) ein. Die Form wird von dem existierenden Volumenkörper abgezogen.
@@ -57,4 +59,7 @@ Der Quader kann auf zwei verschieden Wege bearbeitet werden:
 
 {{PartDesign Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveBox/de

@@ -1,5 +1,4 @@
-# User hub/es
- <img alt="" src=images/User_hub.png  style="width:64px;">
+# <img alt="" src=images/User_hub.png  style="width:64px;"> User hub/es
 
 ------------------------------------------------------------------------
 
@@ -122,3 +121,6 @@ Esta es la ayuda en línea oficial de FreeCAD. Por favor ten en cuenta que el si
 
 
 [Category:Hubs](Category:Hubs.md)
+
+---
+[documentation index](../README.md) > [Hubs](Category:Hubs.md) > User hub/es

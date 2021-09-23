@@ -6,6 +6,8 @@
    SeeAlso:[Arch MeshToShape](Arch_SplitMesh/sv]],_[[Arch_MeshToShape/sv.md)
 ---
 
+# Arch SelectNonSolidMeshes/sv
+
 
 </div>
 
@@ -33,5 +35,5 @@ This tool identifies and selects the non-solid (non-[manifold](http://en.wikiped
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SelectNonSolidMeshes/sv

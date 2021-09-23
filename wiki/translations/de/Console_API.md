@@ -1,5 +1,5 @@
 # Console API/de
- **(Oktober 2019) Bearbeite diese Seiten nicht. Die Informationen sind unvollständig und veraltet. Die neueste API findest Du in der [https://www.freecadweb.org/api autogenerierten API-Dokumentation] oder generiere die Dokumentation selbst, siehe [Quelldokumentation](Source_documentation/de.md).**
+**(Oktober 2019) Bearbeite diese Seiten nicht. Die Informationen sind unvollständig und veraltet. Die neueste API findest Du in der [https://www.freecadweb.org/api autogenerierten API-Dokumentation] oder generiere die Dokumentation selbst, siehe [Quelldokumentation](Source_documentation/de.md).**
 
 Diese Modul ist im FreeCAD-Module integriert und enthält Methoden, um Text auf der FreeCAD-Ausgabe-Konsole und Statuszeile auszugeben. Die Ausgaben haben eine unterschiedliche Farbe, abhängig von Meldung, Warnung oder Fehler.
 
@@ -31,3 +31,6 @@ FreeCAD.Console.PrintMessage("Hello World!\n")
  
 
 [Category:API](Category:API.md) [Category:Poweruser Documentation](Category:Poweruser_Documentation.md)
+
+---
+[documentation index](../README.md) > [API](Category:API.md) > Console API/de

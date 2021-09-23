@@ -1,3 +1,4 @@
+# Sketcher ConstrainSymmetric/pt
 ---
 - GuiCommand:/pt   Name:Constraint Symmetric   Name/pt:Constraint Symmetric   Workbenches:[PartDesign](Sketcher_Workbench/pt___Sketcher]],_[[PartDesign_Workbench/pt.md)|MenuLocation:Sketch → Sketcher constraints → Constrain symmetrical   SeeAlso:[Constraint Parallel](Constraint_Parallel/pt.md)---
 
@@ -57,4 +58,7 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainSymmetric/pt

@@ -7,6 +7,8 @@
    SeeAlso:[MeshPart Développer une face](MeshPart_CreateFlatFace/fr.md)
 ---
 
+# MeshPart CreateFlatMesh/fr
+
 ## Description
 
 La commande **MeshPart Développer un objet maillé** crée une représentation plate d\'un objet maillé en le développant, en le dépliant. Le contour créé est une [Part Feature](Part_Feature/fr.md).
@@ -28,4 +30,7 @@ Voir: [Part Feature](Part_Feature/fr.md).
 
 {{Mesh Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [MeshPart](MeshPart_Workbench.md) > MeshPart CreateFlatMesh/fr

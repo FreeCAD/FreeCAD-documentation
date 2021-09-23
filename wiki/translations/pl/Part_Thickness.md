@@ -7,6 +7,8 @@
    SeeAlso:[Odsunięcie](Part_Offset/pl.md)
 ---
 
+# Part Thickness/pl
+
 ## Opis
 
 Narzędzie <img alt="" src=images/Part_Thickness.svg  style="width:24px;"> [Grubość](Part_Thickness/pl.md) pracuje na kształcie bryły i przekształca ją w pusty obiekt, nadając każdej z jego ścian określoną grubość. Na niektórych bryłach pozwala to znacznie przyspieszyć pracę i uniknąć tworzenia wyciągnięć i kieszeni.
@@ -69,8 +71,5 @@ Uwagi:
 
 ![](images/ThicknessEsempio4.png )
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Thickness/pl

@@ -7,6 +7,8 @@
    SeeAlso:[DiseñoPiezas Cajera](PartDesign_Pocket/es.md)
 ---
 
+# PartDesign Pad/es
+
 ## Descripción
 
 La **<img src="images/PartDesign_Pad.svg" width=16px> [DiseñoPieza Pastilla](PartDesign_Pad/es.md)** herramienta extrae un boceto en un sólido en una dirección normal al plano del boceto. A partir de {{VersionPlus/es|0.17}} las caras en el sólido también pueden ser utilizadas.
@@ -130,4 +132,7 @@ Invierte la dirección de la pastilla.
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Pad/es

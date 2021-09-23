@@ -8,6 +8,8 @@
    SeeAlso:[Sketcher B-spline](Sketcher_CreateBSpline/fr.md)
 ---
 
+# Sketcher CreatePeriodicBSpline/fr
+
 ## Description
 
 Cet outil trace une courbe B-spline périodique (fermée) à partir de ses points de contrôle. (Voir [cette page](B-Splines/fr.md) pour plus d\'informations sur les B-splines).
@@ -40,4 +42,7 @@ Cet outil trace une courbe B-spline périodique (fermée) à partir de ses point
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreatePeriodicBSpline/fr

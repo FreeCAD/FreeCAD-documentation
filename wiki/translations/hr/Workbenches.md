@@ -1,7 +1,4 @@
 # Workbenches/hr
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -95,3 +92,6 @@ New workbenches are always in development, stay tuned!
 
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Workbenches/hr

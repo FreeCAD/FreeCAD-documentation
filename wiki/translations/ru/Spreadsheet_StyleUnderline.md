@@ -7,6 +7,8 @@
    Version:0.17
 ---
 
+# Spreadsheet StyleUnderline/ru
+
 ## Описание
 
 The underline style.
@@ -23,4 +25,7 @@ The underline style.
 
 {{Spreadsheet_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet StyleUnderline/ru

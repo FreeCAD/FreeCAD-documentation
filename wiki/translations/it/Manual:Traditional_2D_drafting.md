@@ -1,7 +1,4 @@
 # Manual:Traditional 2D drafting/it
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -213,3 +210,6 @@ Fondamentalmente, l\'ambiente Draft fornisce un modo grafico per creare le opera
 </div>
 
 [Category:Tutorials](Category:Tutorials.md) [Category:Draft](Category:Draft.md)
+
+---
+[documentation index](../README.md) > [Tutorials](Category:Tutorials.md) > Manual:Traditional 2D drafting/it

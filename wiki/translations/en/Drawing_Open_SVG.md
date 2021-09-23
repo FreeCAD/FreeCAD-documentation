@@ -7,6 +7,8 @@
    SeeAlso:[Drawing Save](Drawing_Save.md)
 ---
 
+# Drawing Open SVG/en
+
 This tool opens a drawing sheet previously saved as an SVG (scalable vector graphics) file. It can also be used to display any SVG.
 
 
@@ -18,4 +20,7 @@ This tool opens a drawing sheet previously saved as an SVG (scalable vector grap
 
 {{Drawing Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Open SVG/en

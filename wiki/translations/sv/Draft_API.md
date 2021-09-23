@@ -1,7 +1,4 @@
 # Draft API/sv
-
-
-
 <div class="mw-translate-fuzzy">
 
 Dessa funktioner är en del av Skissmodulen och kan användas i skript och makron eller från pythontolken, när Skissmodulen har importerats.
@@ -93,3 +90,6 @@ Draft.move(myrect, mydistance)
 
 
 [Category:API](Category:API.md) [Category:Poweruser Documentation](Category:Poweruser_Documentation.md)
+
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft API/sv

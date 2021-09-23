@@ -1,10 +1,4 @@
 # Workbench creation/ru
-
-
-
-
-
-
 {{TOCright}}
 
 ## Вступление
@@ -356,3 +350,6 @@ os.remove(qrc_filename)
 }} 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+
+---
+[documentation index](../README.md) > Workbench creation/ru

@@ -8,6 +8,8 @@
    SeeAlso:[Std PerspektivAnsicht](Std_PerspectiveCamera/de.md)
 ---
 
+# Std OrthographicCamera/de
+
 ## Beschreibung
 
 Der Befehl **Std OrthogonaleKamera** schaltet die Kamera in der aktiven [3D Ansicht](3D_view/de.md) in den orthogonalen Ansichtsmodus. In diesem Modus erscheinen Objekte, die weiter von der Kamera entfernt sind, nicht kleiner als solche, die näher sind.
@@ -51,4 +53,7 @@ FreeCADGui.ActiveDocument.ActiveView.getCameraType()
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std OrthographicCamera/de

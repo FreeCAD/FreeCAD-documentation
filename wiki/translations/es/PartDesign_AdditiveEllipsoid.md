@@ -8,6 +8,8 @@
    SeeAlso:[DiseñoPiezas CompPrimitivaAditiva](PartDesign_CompPrimitiveAdditive/es.md)
 ---
 
+# PartDesign AdditiveEllipsoid/es
+
 ## Descripción
 
 Inserta un Elipsoide primitiva en el Cuerpo activo como primera característica, o lo fusiona con la(s) característica(s) existente(s).
@@ -64,4 +66,7 @@ Tras su creación, el Elipsoide puede ser editado de dos maneras:
 
 {{PartDesign Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveEllipsoid/es

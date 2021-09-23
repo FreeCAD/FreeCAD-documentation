@@ -8,6 +8,8 @@
    SeeAlso:[Показать/скрыть степень B-сплайна](Sketcher_BSplineDegree/ru.md), [Уменьшить степень B-сплайна](Sketcher_BSplineDecreaseDegree/ru.md)
 ---
 
+# Sketcher BSplineIncreaseDegree/ru
+
 
 </div>
 
@@ -47,4 +49,7 @@ You can see that now each segment has 2 control points and the knots are coincid
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineIncreaseDegree/ru

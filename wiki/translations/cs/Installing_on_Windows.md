@@ -1,9 +1,4 @@
 # Installing on Windows/cs
-
-
-
-
-
 Nejsnadnější způsob instalace FreeCADu na Windows je stáhnout níže uvedený instaler.
 
 
@@ -240,5 +235,5 @@ FreeCAD is running, but it has been reported that the OpenGL display does not wo
 
 </div>
 
-
-
+---
+[documentation index](../README.md) > Installing on Windows/cs

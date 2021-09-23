@@ -1,6 +1,4 @@
 # PySide Beginner Examples/fr
-
-
 ## Introduction
 
 Le but de cette page est de couvrir les exemples de niveau débutant du gestionnaire de l\'interface graphique utilisateur [PySide](PySide/fr.md) (voir ensuite les pages [Exemples intermédiaires PySide](PySide_Intermediate_Examples/fr.md) et [Exemples avancés PySide](PySide_Advanced_Examples/fr.md)).
@@ -167,3 +165,6 @@ buttonBox = QtGui.QDialogButtonBox(QtCore.Qt.Vertical)
 }} 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > PySide Beginner Examples/fr

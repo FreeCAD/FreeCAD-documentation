@@ -1,6 +1,4 @@
 # Artwork Path/fr
- 
-
 Ces icônes se trouvent dans le chemin source indiqué.
 
 Pour toutes les icônes de l\'arborescence source, voir [Graphisme](Artwork/fr.md).
@@ -17,3 +15,6 @@ Pour toutes les icônes de l\'arborescence source, voir [Graphisme](Artwork/fr.m
 }} 
 
 [Category:Path](Category:Path.md)
+
+---
+[documentation index](../README.md) > [Path](Category:Path.md) > Artwork Path/fr

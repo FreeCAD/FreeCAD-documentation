@@ -7,6 +7,8 @@
    SeeAlso:[PartDesign Skizze erstellen](PartDesign_NewSketch/de.md),[Skizze einer Fläche zuordnen...](Sketcher_MapSketch/de.md), [Skizze neu ausrichten...](Sketcher_ReorientSketch/de.md)
 ---
 
+# Sketcher NewSketch/de
+
 ## Beschreibung
 
 Dies erzeugt eine neue [Skizze](Sketcher_Workbench/de.md).
@@ -37,4 +39,7 @@ Die Fläche kann in der [3D-Ansicht](3D_view/de.md) mittels [Positionierung](Pla
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher NewSketch/de

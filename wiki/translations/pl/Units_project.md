@@ -1,7 +1,4 @@
 # Units project/pl
-
-
-
 **
 Ten plan jest prawdopodobnie nieaktualny. Więcej informacji można znaleźć na stronie [Plan rozwoju](Development_roadmap.md).<br>
 Jeśli nie jesteś zaangażowany w rozwój, o którym tutaj mowa:<br>
@@ -53,3 +50,6 @@ Ostatecznie edytor właściwości dla \"Właściwości jednostek\".
 
 
 [Category:Roadmap](Category:Roadmap.md)
+
+---
+[documentation index](../README.md) > [Roadmap](Category:Roadmap.md) > Units project/pl

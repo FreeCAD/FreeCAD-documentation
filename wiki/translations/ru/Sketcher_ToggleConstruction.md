@@ -6,6 +6,8 @@
    Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
 ---
 
+# Sketcher ToggleConstruction/ru
+
 ## Описание
 
 Этот инструмент переключает геометрию эскиза из/в вспомогательный режим. Может использоваться для любого типа геометрии: линии, дуги или круга.
@@ -59,4 +61,7 @@
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ToggleConstruction/ru

@@ -1,5 +1,5 @@
 # Macro Compound Plus
-  {{Macro
+{{Macro
 |Name=Macro Compound Plus
 |Description={{ColoredText|#ff0000|#ffffff|New version GUI modified for the HD dpi (QGridLayout) run only FC version 0.19 and more (PySide2 Qt5)}}<br/><br/>For the precedent version see [https://gist.github.com/mario52a/7be361a8c489deec918f664fdcfc4394/11ae1a55229c84d9aab4e9a36099d90f52909958 Macro_Compound_Plus 00.02] and install it manually.<br/><br/>
 Draft command set in a small macro for the 2D wire example: work with the DXF files. The macro detected : Line, Arc, Circle, Ellipse, BSplineCurve and reproduce the DXF wire in a Draft object. The text is converted in ShapeString.
@@ -1651,4 +1651,5 @@ My macros to [Github](https://gist.github.com/mario52a)
 -   24/01/2018 ver 00.02 : sup \"import PyQt4\"
 -   21/11/2016 ver 00.01 :
 
-
+---
+[documentation index](../README.md) > Macro Compound Plus

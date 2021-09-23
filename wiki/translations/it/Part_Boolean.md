@@ -1,3 +1,4 @@
+# Part Boolean/it
 ---
 - GuiCommand:/it   Name:Part_Boolean   Name/it:Booleana   MenuLocation:Parte → Booleana...   Workbenches:[SeeAlso:[[Part Union/it|Unione ](Part_Workbench/it____Parte]].md), [ Intersezione](Part_Common/it_.md), [ Sottrazione](Part_Cut/it_.md) e [Sezione](Part_Section/it.md)---
 
@@ -90,5 +91,5 @@ In caso di complanarità, anche se la prima operazione booleana riesce, le succe
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Boolean/it

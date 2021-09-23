@@ -7,6 +7,8 @@
    Shortcut:**A** **Z**
 ---
 
+# Assembly3 GroupObjects/de
+
 ## Beschreibung
 
 Der Befehl <img alt="" src=images/Assembly_New_Group.svg‎‎  style="width:24px;"> [Objekte gruppieren](Assembly3_GroupObjects/de.md) fügt einen neues (Unter-) **Gruppenordner**-Objekt zum Baugruppenzweig des Konstruktionsbaumes hinzu.
@@ -20,8 +22,5 @@ Es kann genutzt werden, um entweder **Festlegungen**, **Elemente**, oder **Part-
 
 :   Solange die Auswahl verschiedene Arten von Objekten enthält, ist die Schaltfläche **<img src="images/Assembly_New_Group.svg‎‎" width=16px> [Objekte gruppieren](Assembly3_GroupObjects/de.md)** inaktiv.
 
-
-
-
-
-
+---
+[documentation index](../README.md) > Assembly3 GroupObjects/de

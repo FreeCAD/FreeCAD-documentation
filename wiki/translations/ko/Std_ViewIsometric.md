@@ -8,6 +8,8 @@
    SeeAlso:[표준 등각투영](Std_ViewDimetric/ko.md), [표준 삼각투영](Std_ViewTrimetric/ko.md)
 ---
 
+# Std ViewIsometric/ko
+
 ## 설명
 
 **표준 등각투영(Std ViewIsometric)** 명령은 [3D 보기의](3D_view/ko.md) 카메라를 재조정하여 등각투영([isometric](https://en.wikipedia.org/wiki/Isometric_projection)) 보기 각도로 전환합니다. 진정한 등각투영(isometric) 보기를 하려면 3D 보기가 [직교투영(orthographic) 모드이어야](Std_OrthographicCamera/ko.md) 하지만 이 명령은 [원근투영(perspective) 모드일](Std_PerspectiveCamera/ko.md) 때도 작동합니다.
@@ -62,4 +64,7 @@ FreeCADGui.ActiveDocument.ActiveView.getViewDirection()
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ViewIsometric/ko

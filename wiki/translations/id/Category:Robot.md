@@ -6,3 +6,6 @@ This category lists pages related to the [Robot Workbench/id](Robot_Workbench/id
 [Template:Robot Tools navi/id](Template:Robot_Tools_navi/id.md) , [Robot Workbench/id](Robot_Workbench/id.md)
 
 [Category:Workbenches/id](Category:Workbenches/id.md)
+
+---
+[documentation index](../README.md) > Category:Robot/id

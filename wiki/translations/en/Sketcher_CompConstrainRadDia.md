@@ -1,5 +1,5 @@
 # Sketcher CompConstrainRadDia/en
- {{GuiCommand
+{{GuiCommand
 |Name=Sketcher constrain an arc or a circle
 |Workbenches=[Sketcher](Sketcher_Workbench.md)
 |MenuLocation=None (toolbar only)
@@ -17,4 +17,7 @@
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CompConstrainRadDia/en

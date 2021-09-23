@@ -5,6 +5,8 @@
    MenuLocation:Robot → Restore home position
 ---
 
+# Robot RestoreHomePos
+
 ## Description
 
 Lets the selected robot move to its home position.
@@ -23,4 +25,7 @@ Lets the selected robot move to its home position.
 
 
 
- {{Robot_Tools_navi}}  
+ {{Robot_Tools_navi}}
+
+---
+[documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot RestoreHomePos

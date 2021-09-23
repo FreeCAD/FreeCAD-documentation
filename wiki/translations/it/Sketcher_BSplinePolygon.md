@@ -8,6 +8,8 @@
 SeeAlso=[Crea B-spline](Sketcher_CompCreateBSpline/it.md)
 ---
 
+# Sketcher BSplinePolygon/it
+
 
 </div>
 
@@ -45,4 +47,7 @@ Mostra o nasconde la visualizzazione del poligono di definizione di una B-spline
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplinePolygon/it

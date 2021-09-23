@@ -8,6 +8,8 @@
    SeeAlso:[Aspetto](Std_SetAppearance/it.md)
 ---
 
+# Part FaceColors/it
+
 
 </div>
 
@@ -58,3 +60,6 @@ Per ripristinare il colore di tutte le facce
  
 
 [Category:User Documentation](Category:User_Documentation.md) [Category:Command\_Reference](Category:Command_Reference.md)
+
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part FaceColors/it

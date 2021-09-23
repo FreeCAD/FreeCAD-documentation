@@ -1,7 +1,4 @@
 # Drawing Template HowTo/fr
-
-
-
 **L'[atelier Drawing](Drawing_Workbench/fr.md) est devenu obsolète dans la version 0.17. Pensez à utiliser l'[atelier TechDraw](TechDraw_Workbench/fr.md) à la place.**
 
 
@@ -242,4 +239,7 @@ Les deux outils utilisés dans ce tutoriel sont Inkscape et Kate. Ils peuvent ê
 
 {{Drawing Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Template HowTo/fr

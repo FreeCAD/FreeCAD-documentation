@@ -8,6 +8,8 @@
    SeeAlso:[Part Primitivas](Part_Primitives/es.md), [Part Cubo](Part_Box/es.md)
 ---
 
+# Part Prism/es
+
 
 </div>
 
@@ -56,5 +58,5 @@ Es posible crear prismas torcidos especificando ángulos con respecto al vector 
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Prism/es

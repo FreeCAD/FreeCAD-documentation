@@ -1,7 +1,4 @@
 # Drawing Template HowTo
- 
-
-
 **The [Drawing Workbench](Drawing_Workbench.md) became obsolete in v0.17. Consider using the [TechDraw Workbench](TechDraw_Workbench.md) instead.**
 
 
@@ -242,4 +239,7 @@ The two tools used in this tutorial were Inkscape and Kate. They can be found by
 -   [Inkscape](http://www.inkscape.org/)
 -   [Kate](http://kate-editor.org/)
 
- {{Drawing Tools navi}} 
+ {{Drawing Tools navi}}
+
+---
+[documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Template HowTo

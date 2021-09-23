@@ -8,6 +8,8 @@
    SeeAlso:[Sketcher Clone](Sketcher_Clone.md), [Sketcher Copy](Sketcher_Copy.md)
 ---
 
+# Sketcher Move
+
 ## Description
 
 Moves the selected sketch elements from one point to another, using the last selected point as reference.
@@ -27,4 +29,7 @@ Moves the selected sketch elements from one point to another, using the last sel
 
 
 
- {{Sketcher Tools navi}}  
+ {{Sketcher Tools navi}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Move

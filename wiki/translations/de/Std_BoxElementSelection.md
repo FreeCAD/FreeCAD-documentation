@@ -7,6 +7,8 @@
    SeeAlso:[Std BoxSelection](Std_BoxSelection/de.md), [Std SelectAll](Std_SelectAll/de.md)
 ---
 
+# Std BoxElementSelection/de
+
 ## Beschreibung
 
 Der **Std BoxElementAuswahl**-Befehl ermöglicht es, in der 3D-Ansicht Flächen aus einem benutzerdefinierten rechteckigen Bereich, einem Quader, auszuwählen.
@@ -30,4 +32,7 @@ Der **Std BoxElementAuswahl**-Befehl ermöglicht es, in der 3D-Ansicht Flächen 
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std BoxElementSelection/de

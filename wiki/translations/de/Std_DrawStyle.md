@@ -6,6 +6,8 @@
    SeeAlso:[WahlBegrenzungRahmen](Std_SelBoundingBox/de.md)
 ---
 
+# Std DrawStyle/de
+
 
 </div>
 
@@ -107,4 +109,7 @@ The **Flat lines** style overrides the **Display Mode** of objects. This style m
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std DrawStyle/de

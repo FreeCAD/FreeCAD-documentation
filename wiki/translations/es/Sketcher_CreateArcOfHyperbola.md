@@ -8,6 +8,8 @@
    SeeAlso:[Croquizador Arco de elipse](Sketcher_CreateArcOfEllipse/es.md), [Croquizador Arco de parábola](Sketcher_CreateArcOfParabola/es.md)
 ---
 
+# Sketcher CreateArcOfHyperbola/es
+
 ## Descripción
 
 Esta herramienta crea un arco de hipérbola por centro, radio mayor y puntos finales.
@@ -28,4 +30,7 @@ Esta herramienta crea un arco de hipérbola por centro, radio mayor y puntos fin
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateArcOfHyperbola/es

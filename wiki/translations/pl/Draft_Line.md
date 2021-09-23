@@ -9,6 +9,8 @@
    SeeAlso:[Polilinia](Draft_Wire/pl.md)
 ---
 
+# Draft Line/pl
+
 ## Opis
 
 Polecenie <img alt="" src=images/Draft_Line.svg  style="width:24px;"> **Linia** środowiska Rysunek Roboczy, tworzy linię prostą.
@@ -99,8 +101,5 @@ line2 = Draft.make_line(p3, p4)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Line/pl

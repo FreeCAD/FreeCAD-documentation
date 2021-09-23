@@ -6,6 +6,8 @@
    Workbenches:[Path](Path_Workbench/fr.md)
 ---
 
+# Path Custom/fr
+
 ## Description
 
 Cet outil insère un objet chemin créé à partir de G-code personnalisé codé à la main.
@@ -38,4 +40,7 @@ Notez que les taux d'alimentation seront correctement générés par le post-pro
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Custom/fr

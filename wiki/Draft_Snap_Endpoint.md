@@ -5,6 +5,8 @@
    SeeAlso:[Draft Snap](Draft_Snap.md), [Draft Snap Lock](Draft_Snap_Lock.md)
 ---
 
+# Draft Snap Endpoint
+
 ## Description
 
 The <img alt="" src=images/Draft_Snap_Endpoint.svg  style="width:24px;"> **Draft Snap Endpoint** option snaps to the endpoints of edges. The edges can belong to [Draft](Draft_Workbench.md) or [Arch](Arch_Workbench.md) objects but also to objects created with other [workbenches](Workbenches.md).
@@ -31,7 +33,5 @@ For general information about snapping see [Draft Snap](Draft_Snap.md).
 
 See [Draft Snap](Draft_Snap#Preferences.md).
 
-
-
-
-  
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Endpoint

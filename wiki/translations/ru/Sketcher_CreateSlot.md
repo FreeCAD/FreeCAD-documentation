@@ -6,6 +6,8 @@
    Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
 ---
 
+# Sketcher CreateSlot/ru
+
 ## Описание
 
 Рисует паз, по двум указанным центрам полуокружностей. (В более старых версиях FreeCAD, по центр полукруга и конечной точке другого полукруга.)
@@ -25,4 +27,7 @@
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateSlot/ru

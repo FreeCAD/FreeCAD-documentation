@@ -1,7 +1,4 @@
-# Image Workbench/ru
- 
-
-<img alt="Логотип верстака Image" src=images/Workbench_Image.svg  style="width:128px;">
+# <img alt="Логотип верстака Image" src=images/Workbench_Image.svg  style="width:64px;"> Image Workbench/ru
 
 ## Введение
 
@@ -42,3 +39,6 @@
 }} 
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Image Workbench/ru

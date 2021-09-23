@@ -1,3 +1,4 @@
+# Drawing Landscape A3/fr
 ---
 - GuiCommand:/fr   Name:Drawing Landscape A3   Name/fr:Feuille A3 Paysage   Workbenches:[[Drawing Workbench/fr   Mise en plan]], Complet|MenuLocation:Mise en plan → Insérer une nouvelle mise en plan → Feuille A3 paysage   Raccourci:aucun---
 
@@ -34,4 +35,7 @@ Si la page ne s\'affiche pas, cliquer sur l\'icône Rafraîchir <img alt="" src=
 
 {{Drawing Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Landscape A3/fr

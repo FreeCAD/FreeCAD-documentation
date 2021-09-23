@@ -6,6 +6,8 @@
    SeeAlso:[Std SaveAs](Std_SaveAs.md), [Std Save](Std_Save.md)
 ---
 
+# Std SaveCopy
+
 ## Description
 
 The **Std SaveCopy** command saves a copy of the active document under a new file name.
@@ -52,4 +54,7 @@ doc.saveCopy(fnm)
 
 
 
- {{Std Base navi}}  
+ {{Std Base navi}}
+
+---
+[documentation index](../README.md) > Std SaveCopy

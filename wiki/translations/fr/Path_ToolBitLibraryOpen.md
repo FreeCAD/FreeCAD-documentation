@@ -8,6 +8,8 @@
    SeeAlso:[Path Sélecteur d'outil](Path_ToolBitDock/fr.md), [Path Outils](Path_Tools/fr.md), [Path ToolBit](Path_ToolBit/fr.md)
 ---
 
+# Path ToolBitLibraryOpen/fr
+
 ## Description
 
 Le **<img src="images/Path_ToolBitLibraryOpen.svg" width=16px> [Tool xxxxx](Path_ToolBitLibraryOpen.md)
@@ -88,4 +90,7 @@ C. Double-cliquez n\'importe où ailleurs dans la ligne pour ouvrir le panneau d
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path ToolBitLibraryOpen/fr

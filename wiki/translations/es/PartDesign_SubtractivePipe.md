@@ -8,6 +8,8 @@
    SeeAlso:[PartDesign Barrido aditivo](PartDesign_AdditivePipe/es.md), [PartDesign Subtractive loft](PartDesign_SubtractiveLoft.md)
 ---
 
+# PartDesign SubtractivePipe/es
+
 
 </div>
 
@@ -96,4 +98,7 @@ El **Barrido sustractivo** crea un sólido sustractivo en el Body (cuerpo) activ
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractivePipe/es

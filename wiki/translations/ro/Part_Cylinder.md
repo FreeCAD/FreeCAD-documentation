@@ -1,3 +1,4 @@
+# Part Cylinder/ro
 ---
 - GuiCommand:/ro
    Name:Part Cylinder
@@ -67,10 +68,7 @@ Proprietățile pot fi ulterior editate în fila de date pentru cilindru:
 
 -    **First Angle**: Angle in first direction. <small>(v0.20)</small> 
 
--    **Second Angle**: Angle in second direction. <small>(v0.20)</small> 
+-    **Second Angle**: Angle in second direction. <small>(v0.20)</small>
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Cylinder/ro

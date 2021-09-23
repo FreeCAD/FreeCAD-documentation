@@ -1,6 +1,4 @@
 # Linux packaging/de
-
-
 Linux ermöglicht die Paketerstellung auf unterschiedliche Weise, abhängig von der verwendeten spezifischen Distribution. Beliebte Formate sind Debian Pakete `.deb`, openSuse und Fedora Pakete `.rpm`, und das quasi universelle `.AppImage` Format.
 
 
@@ -17,3 +15,6 @@ für Windows und MacOS, siehe [Paketerstellung](Packaging/de.md).
 
 
 [Category:Packaging](Category:Packaging.md) [Category:Developer Documentation](Category:Developer_Documentation.md)
+
+---
+[documentation index](../README.md) > [Packaging](Category:Packaging.md) > Linux packaging/de

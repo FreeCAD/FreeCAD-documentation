@@ -1,7 +1,4 @@
 # Macro BOLTS/cs
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -77,3 +74,5 @@ Knihovna dílů, která je užitečná pro široký okruh lidí, může být rea
 
 </div>
 
+---
+[documentation index](../README.md) > Macro BOLTS/cs

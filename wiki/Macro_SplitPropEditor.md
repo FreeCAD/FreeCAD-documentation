@@ -1,5 +1,5 @@
 # Macro SplitPropEditor
-  {{Macro
+{{Macro
 |Name=SplitPropEditor
 |Icon=
 |Description=This macro has been written because some operations in FreeCAD need to get a frequent access to the property editor. Its limited height in the combo view can be a problem, especially when access to the tree view is also needed at the same time.<br/>
@@ -176,3 +176,5 @@ if __name__ == '__main__': # if macro called to run
     run()
 }}
 
+---
+[documentation index](../README.md) > Macro SplitPropEditor

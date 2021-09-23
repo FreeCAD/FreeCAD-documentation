@@ -7,6 +7,8 @@
    SeeAlso:[PartDesign Line](PartDesign_Line.md), [PartDesign Plane](PartDesign_Plane.md)
 ---
 
+# PartDesign Point
+
 ## Description
 
 Creates a **datum point** which can be used as reference for sketches or other datum geometry.
@@ -42,4 +44,7 @@ Double-click the DatumPoint label in the Model tree or right-click and select **
 
 
 
- {{PartDesign Tools navi}} 
+ {{PartDesign Tools navi}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Point

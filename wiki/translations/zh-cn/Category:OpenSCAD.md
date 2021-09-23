@@ -6,3 +6,6 @@ This category lists pages related to the [OpenSCAD\_Workbench/zh-cn](OpenSCAD_Wo
 [Template:OpenSCAD Tools navi/zh-cn](Template:OpenSCAD_Tools_navi/zh-cn.md) , [OpenSCAD Workbench/zh-cn](OpenSCAD_Workbench/zh-cn.md)
 
 [Category:Workbenches/zh-cn](Category:Workbenches/zh-cn.md)
+
+---
+[documentation index](../README.md) > Category:OpenSCAD/zh-cn

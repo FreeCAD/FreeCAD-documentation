@@ -1,5 +1,4 @@
-# MOOC Workbench/fr
- <img alt="" src=images/MOOC_workbench_icon.svg  style="width:240px;"> 
+# <img alt="" src=images/MOOC_workbench_icon.svg  style="width:240px;">  MOOC Workbench/fr
 *align=center|L'icône de l'atelier externe MOOC FreeCAD*
 
 ## Vue d\'ensemble 
@@ -68,3 +67,6 @@ De nouveaux ateliers sont en développement, tenez vous au courant!
  
 
 [Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+
+---
+[documentation index](../README.md) > MOOC Workbench/fr

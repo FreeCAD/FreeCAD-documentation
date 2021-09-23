@@ -1,10 +1,4 @@
-# Path Workbench/zh
-
-
-
-
-
-<img alt="Path workbench icon" src=images/Workbench_Path.svg  style="width:128px;">
+# <img alt="Path workbench icon" src=images/Workbench_Path.svg  style="width:64px;"> Path Workbench/zh
 
 
 {{TOCright}}
@@ -478,3 +472,6 @@ Manage tools, bits, and the Tool Library. Based on the ToolBit architecture. <sm
 }} 
 
 [类别:用户文档](Category:User_Documentation/zh.md) [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Path Workbench/zh

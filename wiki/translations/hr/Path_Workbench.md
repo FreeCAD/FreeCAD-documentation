@@ -1,10 +1,4 @@
-# Path Workbench/hr
-
-
-
-
-
-<img alt="Path workbench icon" src=images/Workbench_Path.svg  style="width:128px;">
+# <img alt="Path workbench icon" src=images/Workbench_Path.svg  style="width:64px;"> Path Workbench/hr
 
 
 {{TOCright}}
@@ -231,3 +225,6 @@ See [Path scripting](Path_scripting.md).
 }} 
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Path Workbench/hr

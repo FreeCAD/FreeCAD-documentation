@@ -8,6 +8,8 @@
    SeeAlso:[Arch Structure](Arch_Structure.md), [Arch Equipment](Arch_Equipment.md)
 ---
 
+# Arch Stairs/pl
+
 ## Description
 
 The [Arch Stairs](Arch_Stairs.md) tool allows you to build automatically several types of stairs. At the moment, only straight stairs (with or without a central landing) are supported. Stairs can be built from scratch, or from a straight [line](Draft_Line.md), in which case the stairs follow the line. If the line is not horizontal but has a vertical inclination, the stairs will also follow its slope.
@@ -94,8 +96,5 @@ import Arch
 Stairs = Arch.makeStairs(length=5000, width=1200, height=3000, steps=14)
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Stairs/pl

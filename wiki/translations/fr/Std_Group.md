@@ -9,6 +9,8 @@
    SeeAlso:[Std Part](Std_Part/fr.md), [Draft Sélectionner un groupe](Draft_SelectGroup/fr.md), [Draft Ajouter au groupe](Draft_AddToGroup/fr.md)
 ---
 
+# Std Group/fr
+
 ## Description
 
 [Std Group](Std_Group/fr.md) (appelé en interne [App DocumentObjectGroup](App_DocumentObjectGroup/fr.md)) est un conteneur à usage général qui vous permet de regrouper différents types d\'objets dans la [vue par aborescence](tree_view/fr.md), quel que soit leur type de données. Il est utilisé comme un simple dossier pour classer et organiser les objets dans votre modèle afin de conserver une structure logique. Les Std Groupes peuvent être imbriqués dans d\'autres Std Groupes.
@@ -128,4 +130,7 @@ Par exemple, [Analyse FEM](FEM_Analysis/fr.md) est un objet `App::DocumentObject
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std Group/fr

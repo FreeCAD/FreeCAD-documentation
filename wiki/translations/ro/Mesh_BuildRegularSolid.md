@@ -1,3 +1,4 @@
+# Mesh BuildRegularSolid/ro
 ---
 - GuiCommand:   Name:Mesh BuildRegularSolid   Workbenches:[[Mesh Workbench   Mesh]]|MenuLocation:Meshes → Regular solid...   Shortcut:   SeeAlso:---
 
@@ -135,4 +136,7 @@ Mesh objects created with this command inherit all [Mesh Feature](Mesh_Feature.m
 
 {{Mesh Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh BuildRegularSolid/ro

@@ -7,6 +7,8 @@
    SeeAlso:[Arch Achse](Arch_Axis/de.md), [Arch AchsenSystem](Arch_AxisSystem/de.md)
 ---
 
+# Arch Grid/de
+
 ## Beschreibung
 
 Das **<img src="images/Arch_Grid.svg" width=16px> [Arch Gitter](Arch_Grid/de.md)** Werkzeug ermöglicht es dir, ein gitterartiges Objekt im Dokument zu platzieren. Dieses Objekt soll als Basis für die Erstellung von Arch Objekten dienen, die einen regelmäßigen, aber komplexen Rahmen benötigen, wie z.B. Fenster, Vorhangfassaden, Säulengitter, Geländer usw. Das Gitterobjekt ist wie eine Tabellenkalkulation bearbeitbar, in der du Spalten und Zeilen hinzufügst oder entfernst, ihre Größe definierst und Zellen zusammenführen kannst.
@@ -88,8 +90,5 @@ Structure.Axis = Grid
 FreeCAD.ActiveDocument.recompute() 
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Grid/de

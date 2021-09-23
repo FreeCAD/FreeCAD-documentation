@@ -8,6 +8,8 @@
    SeeAlso:[Std Annuler](Std_Undo/fr.md)
 ---
 
+# Std Redo/fr
+
 ## Description
 
 La commande **Std Rétablir** inverse l\'action de la commande [Std Annuler](Std_Undo/fr.md).
@@ -50,4 +52,7 @@ FreeCAD.ActiveDocument.redo()
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std Redo/fr

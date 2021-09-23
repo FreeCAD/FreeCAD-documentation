@@ -7,6 +7,8 @@
    SeeAlso:[Bryły pierwotne](Part_Primitives/pl.md)
 ---
 
+# Part Box/pl
+
 ## Opis
 
 Polecenie **Prostopadłościan** ze środowiska prazy [Część](Part_Part_Workbench/pl.md) wstawia parametryczny [prostokątny prostopadłościan](http://en.wikipedia.org/wiki/Cuboid#Rectangular_cuboid), jako geometryczną bryłę pierwotną do aktywnego dokumentu. Domyślnie, polecenie Prostopadłościan wstawia sześcian o wymiarach 10 x 10 x 10mm, umieszczony w punkcie początkowym, z etykietą \"sześcian\". Parametry te mogą być modyfikowane po dodaniu obiektu.
@@ -66,8 +68,5 @@ Możesz zmienić jego umiejscowienie za pomocą:
 FreeCAD.ActiveDocument.myBox.Placement = FreeCAD.Placement(FreeCAD.Vector(4, 6, 3), FreeCAD.Rotation(30, 45, 10))
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Box/pl

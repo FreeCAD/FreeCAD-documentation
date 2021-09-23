@@ -1,6 +1,4 @@
 # Profiling/it
-
-
 ## Descrizione
 
 La profilazione del codice di FreeCAD aiuta a trovare i colli di bottiglia negli algoritmi utilizzati per creare o manipolare oggetti.
@@ -41,3 +39,6 @@ kcachegrind /tmp/callgrind.out
 }} 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Profiling/it

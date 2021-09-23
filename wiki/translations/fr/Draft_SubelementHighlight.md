@@ -9,6 +9,8 @@
    SeeAlso:[Draft Déplacer](Draft_Move/fr.md), [Draft Rotation](Draft_Rotate/fr.md), [Draft Échelle](Draft_Scale/fr.md)
 ---
 
+# Draft SubelementHighlight/fr
+
 ## Description
 
 La commande <img alt="" src=images/Draft_SubelementHighlight.svg  style="width:24px;"> **Draft Surligner les sous éléments** met temporairement en évidence les objets sélectionnés ou les objets de base des objets sélectionnés. Elle est destinée à être utilisée en conjonction avec le mode sous-élément de la commande [Draft Déplacer](Draft_Move/fr.md), la commande [Draft Rotation](Draft_Rotate/fr.md) ou la commande [Draft Scale](Draft_Scale/fr.md). Actuellement, le mode sous-élément ne fonctionne correctement que pour les [Draft Lignes](Draft_Line/fr.md) et les [Draft Polylignes](Draft_Wire/fr.md).
@@ -36,8 +38,5 @@ La commande <img alt="" src=images/Draft_SubelementHighlight.svg  style="width:2
 -   Si des objets ont été mis en évidence avec cette commande, les modifications visuelles temporaires doivent être annulées avant d\'enregistrer et de rouvrir le fichier.
 -   Les objets surlignés ne doivent pas être copiés si le mode sous-élément est désactivé. Les modifications visuelles temporaires ne peuvent pas être annulées pour les copies créées de cette manière.
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft SubelementHighlight/fr

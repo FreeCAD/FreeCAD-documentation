@@ -7,6 +7,8 @@
    SeeAlso:[External workbenches](External_workbenches/ru.md), [Макросы](Macros/ru.md)
 ---
 
+# Std AddonMgr/ru
+
 ## Описание
 
 Команда **Std AddonMgr** открывает Менеджер дополнений. С его помощью Вы можете устанавливать и управлять [сторонними верстаками](external_workbenches/ru.md) и [макросами](macros/ru.md), предоставляемыми сообществом FreeCAD. Доступные верстаки и макросы берутся из двух репозиториев, [FreeCAD-addons](https://github.com/FreeCAD/FreeCAD-addons/) и [FreeCAD-macros](https://github.com/FreeCAD/FreeCAD-macros/), а так же страницы [рецепты макросов](Macros_recipes/ru.md).
@@ -83,4 +85,7 @@ If you develop a workbench in C++, it cannot be run directly by users and must b
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std AddonMgr/ru

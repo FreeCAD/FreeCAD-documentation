@@ -9,6 +9,8 @@
    SeeAlso:[Entwurf Bogen](Draft_Arc/de.md), [Entwurf Ellipse](Draft_Ellipse/de.md), [Makro KreisPlus](Macro_CirclePlus/de.md)
 ---
 
+# Draft Circle/de
+
 
 </div>
 
@@ -217,5 +219,5 @@ doc.recompute()
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Circle/de

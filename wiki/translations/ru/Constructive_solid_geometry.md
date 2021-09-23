@@ -1,5 +1,5 @@
 # Constructive solid geometry/ru
- {{TOCright}}
+{{TOCright}}
 
 ## Введение
 
@@ -37,3 +37,6 @@
  
 
 [Category:Common Questions](Category:Common_Questions.md)
+
+---
+[documentation index](../README.md) > [Common Questions](Category:Common Questions.md) > Constructive solid geometry/ru

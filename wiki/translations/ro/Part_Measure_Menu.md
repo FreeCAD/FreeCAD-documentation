@@ -6,6 +6,8 @@
    SeeAlso:[Std MeasureDistance](Std_MeasureDistance.md), [Draft Dimension](Draft_Dimension.md), [Arch Survey](Arch_Survey.md)
 ---
 
+# Part Measure Menu/ro
+
 
 </div>
 
@@ -46,3 +48,6 @@ A nu se confunda acest meniu cu instrumentul <img alt="" src=images/Std_MeasureD
  
 
 [Category:Documentation](Category:Documentation.md)
+
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Menu/ro

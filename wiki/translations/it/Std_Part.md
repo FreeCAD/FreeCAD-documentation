@@ -8,6 +8,8 @@
    SeeAlso:[Gruppo](Std_Group/it.md), [PartDesign Corpo](PartDesign_Body/it.md)
 ---
 
+# Std Part/it
+
 ## Descrizione
 
 Una <img alt="" src=images/Std_Part.svg  style="width:16px;"> [Parte](Std_Part/it.md) (internamente chiamata [App Part](App_Part/it.md)) è un contenitore per scopi generali che contiene un gruppo di oggetti in modo che essi possano essere spostati in blocco come una singola unità nella vista 3D.
@@ -269,4 +271,7 @@ App.ActiveDocument.addObject('Part::FeaturePython', 'Group', group.MyGroup(), gr
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std Part/it

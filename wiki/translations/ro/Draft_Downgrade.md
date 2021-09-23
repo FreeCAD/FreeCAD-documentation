@@ -7,6 +7,8 @@
    SeeAlso:[Draft Upgrade](Draft_Upgrade.md)
 ---
 
+# Draft Downgrade/ro
+
 
 </div>
 
@@ -105,8 +107,5 @@ add_list4, delete_list4 = Draft.downgrade(box, delete=True)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Downgrade/ro

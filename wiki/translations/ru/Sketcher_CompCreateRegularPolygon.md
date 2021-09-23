@@ -7,6 +7,8 @@
    Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
 ---
 
+# Sketcher CompCreateRegularPolygon/ru
+
 ## Описание
 
 **Нарисовать правильный многоугольник** - это кнопка на панели инструментов \"Геометрия эскизов\", которая группирует в себе инструменты для создания правильного многоугольника. Нажмите на стрелку указывающую вниз справа от нее, чтобы развернуть список инструментов и выбрать инструмент.
@@ -27,4 +29,7 @@
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CompCreateRegularPolygon/ru

@@ -8,6 +8,8 @@
    SeeAlso:[Erstelle neue Ansicht‏‎](Std_ViewCreate/de.md), [Bild speichern...](Std_ViewScreenShot/de.md), [Bildschirm einfrieren‏‎](Std_FreezeViews/de.md), [Fenster](Std_Windows_Menu/de.md)
 ---
 
+# Std ViewDockUndockFullscreen/de
+
 ## Einleitung
 
 [3D Ansichten](3D_view/de.md) kann abgekoppelt werden von der Haupt [FreeCAD Oberfläche](Interface/de.md) und auf eine anderen Bildschirm verschoben werden, zum Beispiel.
@@ -53,4 +55,7 @@ Die **Abgekoppelt** Menüoption koppelt die aktive [3D Ansicht](3D_view/de.md) i
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ViewDockUndockFullscreen/de

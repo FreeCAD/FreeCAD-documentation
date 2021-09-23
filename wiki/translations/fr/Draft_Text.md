@@ -9,6 +9,8 @@
    SeeAlso:[Draft Étiquette](Draft_Label/fr.md), [Draft Formes à partir de texte](Draft_ShapeString/fr.md)
 ---
 
+# Draft Text/fr
+
 ## Description
 
 La commande <img alt="" src=images/Draft_Text.svg  style="width:24px;"> **Draft Texte** crée un texte de plusieurs lignes à un endroit donné.
@@ -145,8 +147,5 @@ text3.ViewObject.FontSize = 200
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Text/fr

@@ -9,6 +9,8 @@
    SeeAlso:[Spitze festlegen](PartDesign_MoveTip/de.md), [Verschiebe Objekt hinter anderes Objekt](PartDesign_MoveFeatureInTree/de.md)
 ---
 
+# PartDesign MoveFeature/de
+
 
 </div>
 
@@ -47,4 +49,7 @@ Hiermit wird ein Objekt aus einem Body in einen anderen Body verschoben. Das ver
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign MoveFeature/de

@@ -9,6 +9,8 @@
    SeeAlso:[Klonen](Sketcher_Clone/de.md), [Kopieren](Sketcher_Copy/de.md)
 ---
 
+# Sketcher Move/de
+
 ## Beschreibung
 
 Verschiebt die ausgewählten Skizzenelemente von einem Punkt zum anderen, wobei der zuletzt ausgewählte Punkt als Referenz verwendet wird.
@@ -31,4 +33,7 @@ Verschiebt die ausgewählten Skizzenelemente von einem Punkt zum anderen, wobei 
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Move/de

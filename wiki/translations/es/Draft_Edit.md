@@ -8,6 +8,8 @@
    SeeAlso:[Std Edición](Std_Edit/es.md)
 ---
 
+# Draft Edit/es
+
 
 </div>
 
@@ -194,5 +196,5 @@ No hay ningún método en Python para editar borradores de objetos. Para emular 
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Edit/es

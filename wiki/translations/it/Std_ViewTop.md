@@ -8,6 +8,8 @@
    SeeAlso:[Vista frontale](Std_ViewFront/it.md), [Vista da destra](Std_ViewRight/it.md)
 ---
 
+# Std ViewTop/it
+
 ## Descrizione
 
 Il comando **Vista dall\'alto** orienta la fotocamera della [Vista 3D](3D_view/it.md) che guarda dall\'alto verso il basso, nella direzione dell\'asse Z negativo.
@@ -51,4 +53,7 @@ FreeCADGui.ActiveDocument.ActiveView.getViewDirection()
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ViewTop/it

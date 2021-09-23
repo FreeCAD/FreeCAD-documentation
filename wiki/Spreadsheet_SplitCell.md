@@ -6,6 +6,8 @@
    Version:0.17
 ---
 
+# Spreadsheet SplitCell
+
 ## Description
 
 The **<img src=images/Spreadsheet_SplitCell.svg style="width:16px"> [Spreadsheet SplitCell](Spreadsheet_SplitCell.md)** tool splits apart a cell that was merged into one in an existing spreadsheet in the active document.
@@ -19,4 +21,7 @@ The **<img src=images/Spreadsheet_SplitCell.svg style="width:16px"> [Spreadsheet
 
 
 
- {{Spreadsheet_Tools_navi}} 
+ {{Spreadsheet_Tools_navi}}
+
+---
+[documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet SplitCell

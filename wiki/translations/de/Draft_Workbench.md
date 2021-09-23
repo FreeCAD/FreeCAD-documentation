@@ -1,10 +1,4 @@
-# Draft Workbench/de
-
-
-
-
-
-<img alt="Entwurf Arbeitsbereich Symbol" src=images/Workbench_Draft.svg  style="width:128px;">
+# <img alt="Entwurf Arbeitsbereich Symbol" src=images/Workbench_Draft.svg  style="width:64px;"> Draft Workbench/de
 
 
 {{TOCright}}
@@ -438,3 +432,6 @@ Der Einblick in den Code dieses Moduls ist nützlich, um zu verstehen, wie die P
  
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Draft Workbench/de

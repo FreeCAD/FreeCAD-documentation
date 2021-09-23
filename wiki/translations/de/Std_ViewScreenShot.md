@@ -7,6 +7,8 @@
    SeeAlso:[Std Druck](Std_Print/de.md), [Std DruckePdf](Std_PrintPdf/de.md)
 ---
 
+# Std ViewScreenShot/de
+
 ## Beschreibung
 
 Der **Std AnsichtBildschirmFoto** Befehl öffnet ein Dialogfeld, um eine Bilddatei, einen Bildschirmfoto, von der aktiven [3D Ansicht](3D_view/de.md) zu erstellen.
@@ -116,4 +118,7 @@ App.closeDocument(App.ActiveDocument.Name)
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ViewScreenShot/de

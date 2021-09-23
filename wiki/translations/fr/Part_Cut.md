@@ -7,6 +7,8 @@
    SeeAlso:[Part Opération booléenne](Part_Boolean/fr.md), [Part Union](Part_Fuse/fr.md), [Part Intersection](Part_Common/fr.md), 
 ---
 
+# Part Cut/fr
+
 ## Description
 
 Coupe (soustrait) un objet à un autre, le dernier sélectionné étant soustrait au premier. Cette opération est totalement paramétrique : les composants peuvent être modifiés et le résultat recalculé.
@@ -26,8 +28,5 @@ Coupe (soustrait) un objet à un autre, le dernier sélectionné étant soustrai
 
 L\'objet doit être un objet (forme) [OpenCascade](OpenCascade/fr.md). Exemples: doit être créé avec un des ateliers Part, PartDesign, Sketcher. Ne peut pas être un objet Mesh (sauf s\'il est converti en forme (shape)) - pour les objets Mesh, utilisez l\'outil booléen spécifique dans l\'atelier MeshDesign.
 
-
-
-
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Cut/fr

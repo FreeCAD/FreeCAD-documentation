@@ -7,6 +7,8 @@
    Shortcut:**C** **R**
 ---
 
+# SheetMetal AddCornerRelief/de
+
 ## Beschreibung
 
 Der Befehl <img alt="" src=images/SheetMetal_AddCornerRelief.svg  style="width:24px;"> [Eckentlastung hinzufügen](SheetMetal_AddCornerRelief/de.md) fügt einer Ecke einen Ausschnitt zur Eckentlastung hinzu.
@@ -56,3 +58,6 @@ Ein SheetMetal-CornerRelief-Objekt wird von einem [Part-Formelement](Part_Featur
 
 
 [Category:SheetMetal](Category:SheetMetal.md) [Category:Addons](Category:Addons.md) [Category:External Command Reference](Category:External_Command_Reference.md)
+
+---
+[documentation index](../README.md) > [SheetMetal](Category:SheetMetal.md) > SheetMetal AddCornerRelief/de

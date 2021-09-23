@@ -8,6 +8,8 @@
    Version:0.17
 ---
 
+# Sketcher SwitchVirtualSpace/it
+
 
 </div>
 
@@ -53,4 +55,7 @@ Per cambiare lo spazio virtuale:
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SwitchVirtualSpace/it

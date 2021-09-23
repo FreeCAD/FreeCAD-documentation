@@ -1,5 +1,5 @@
 # Macro FC element selector/it
- {{Macro/it
+{{Macro/it
 |Name=Macro FC element selector
 |Icon=Macro_FC_element_selector.png
 |Translate=Macro FC element selector
@@ -212,3 +212,6 @@ element_selector()
 Discussione sul foro [Selecting internal faces of a pressure vessel](https://forum.freecadweb.org/viewtopic.php?f=18&t=12381&p=151950#p151950)
 
 Altra similare macro [Macro Mouse over cb](Macro_Mouse_over_cb.md)
+
+---
+[documentation index](../README.md) > Macro FC element selector/it

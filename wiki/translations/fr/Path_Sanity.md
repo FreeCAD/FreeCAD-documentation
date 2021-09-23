@@ -8,6 +8,8 @@
    Version:0.19
 ---
 
+# Path Sanity/fr
+
 ## Description
 
 De nombreux utilisateurs de Path sont des amateurs et des bricoleurs. En tant que tels, ils utilisent leurs machines CNC pour exécuter le G-code qu\'ils ont configuré et généré eux-mêmes. Ce n\'est pas le cas de la plupart des utilisateurs professionnels/commerciaux. Dans les ateliers professionnels, les personnes chargées de créer le G-code (programmeurs CNC) et celles qui l\'exécutent sur les machines (opérateurs CNC) sont différentes.
@@ -80,4 +82,7 @@ Asciidoctor est un processeur de texte open-source rapide pour la conversion d\'
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Sanity/fr

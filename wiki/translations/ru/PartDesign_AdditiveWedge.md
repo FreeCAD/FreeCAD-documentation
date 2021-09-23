@@ -8,6 +8,8 @@
    SeeAlso:[Создать аддитивный примитив](PartDesign_CompPrimitiveAdditive/ru.md), [Субтрактивный клин](PartDesign_SubtractiveWedge/ru.md)
 ---
 
+# PartDesign AdditiveWedge/ru
+
 ## Описание
 
 Inserts a primitive wedge in the active Body as the first feature, or fuses it to the existing feature(s).
@@ -52,4 +54,7 @@ Wedges can be used to create pyramids by setting **X2 min/max** and **Z2 min/max
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveWedge/ru

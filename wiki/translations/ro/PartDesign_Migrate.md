@@ -7,6 +7,8 @@
    Version:0.17
 ---
 
+# PartDesign Migrate/ro
+
 
 </div>
 
@@ -48,4 +50,7 @@ Atelierul PartDesign în FreeCAD v0.17 introduce noi instrumente și elemente ca
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Migrate/ro

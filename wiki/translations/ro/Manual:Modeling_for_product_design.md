@@ -1,7 +1,4 @@
 # Manual:Modeling for product design/ro
- 
-
-
 {{Manual:TOC/ro}}
 
 [Product design](https://en.wikipedia.org/wiki/Product_design) este inițial un termen comercial, dar în lumea 3D, adesea înseamnă a modela ceva cu ideea de a o avea [3D-printed](https://en.wikipedia.org/wiki/3D_printing) sau, în general, fabricate de o mașină unealtă, de exemplu o imprimantă 3D sau o [CNC machine](https://en.wikipedia.org/wiki/Numerical_control).
@@ -251,3 +248,6 @@ Dar cea mai bună lume dintre cele două există, și este un addon [Assembly2 W
 
 
 [Category:Tutorials/ro](Category:Tutorials/ro.md)
+
+---
+[documentation index](../README.md) > Manual:Modeling for product design/ro

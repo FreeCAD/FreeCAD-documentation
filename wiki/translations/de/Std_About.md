@@ -7,6 +7,8 @@
    SeeAlso:[Standardmenü](Standard_Menu/de.md)
 ---
 
+# Std About/de
+
 ## Beschreibung
 
 Der Befehl **Std Über** öffnet ein Dialogfenster, das Informationen über das FreeCAD Programm anzeigt.
@@ -70,3 +72,6 @@ Der Bibliotheken Reiter zeigt eine Liste der externen Bibliotheken, die vom Prog
 {{Std Base navi}}  
 
 [Category:Common Questions](Category:Common_Questions.md)
+
+---
+[documentation index](../README.md) > [Common Questions](Category:Common Questions.md) > Std About/de

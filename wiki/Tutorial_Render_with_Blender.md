@@ -1,7 +1,4 @@
 # Tutorial Render with Blender
- 
-
-
 {{TutorialInfo
 |Topic=Rendering
 |Level=Intermediate
@@ -337,4 +334,7 @@ On the other hand, Cycles is a true raytracing renderer which means it is more a
 
 Both renderers can be used to leverage the advantages of each. In many cases the scene can be quickly prepared and tested with EEVEE to obtain preliminary renderings; then the same scene can be used with minor changes with Cycles in order to produce a higher quality, final rendering. In particular, when a scene that was setup with EEVEE will be used with Cycles, the lights may need to be adjusted in value and position as both renderers treat light in different ways.
 
-Obtaining good results is highly dependent on the rendering options, the materials, and the lighting. The  {{Tutorials navi}} {{Raytracing Tools navi}} 
+Obtaining good results is highly dependent on the rendering options, the materials, and the lighting. The  {{Tutorials navi}} {{Raytracing Tools navi}}
+
+---
+[documentation index](../README.md) > Tutorial Render with Blender

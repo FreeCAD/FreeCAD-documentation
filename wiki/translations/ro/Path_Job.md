@@ -8,6 +8,8 @@
    SeeAlso:
 ---
 
+# Path Job/ro
+
 
 </div>
 
@@ -115,4 +117,7 @@ Dacă aveți o activitate care susține mai multe operațiuni de traiectorie, pu
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Job/ro

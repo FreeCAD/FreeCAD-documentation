@@ -7,6 +7,8 @@
    SeeAlso:[Fangen](Draft_Snap/de.md), [Entwurf UmschaltenGitter](Draft_ToggleGrid/de.md)
 ---
 
+# Draft Snap Midpoint/de
+
 
 </div>
 
@@ -65,5 +67,5 @@ See [Draft Snap](Draft_Snap#Preferences.md).
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Midpoint/de

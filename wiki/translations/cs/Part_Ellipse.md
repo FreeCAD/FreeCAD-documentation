@@ -1,3 +1,4 @@
+# Part Ellipse/cs
 ---
 - GuiCommand:/cs   Name:Part Ellipse   Name/cs:Díl Elipsa   MenuLocation:Díl → [Workbenches:[[Part_Workbench/cs   Díl](Part_CreatePrimitives/cs___Vytváření_zákl.geom.tvarů]] → Elipsa.md),  [OpenSCAD](OpenSCAD_Workbench/cs.md)|SeeAlso:..---
 
@@ -52,8 +53,5 @@ The Create Primitives dialogue can be accessed via the [Primitives](Part_Primiti
 -   **Angle 1:** start of the edge of the ellipse or elliptical curved edge, (degrees anti-clockwise), the default value is 0
 -   **Angle 2:** end of the edge of the ellipse or elliptical curved edge, (degrees anti-clockwise), the default value is 360
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Ellipse/cs

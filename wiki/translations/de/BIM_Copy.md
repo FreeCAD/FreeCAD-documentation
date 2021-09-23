@@ -8,6 +8,11 @@
    SeeAlso:[Entwurf Bewegen](Draft_Move/de.md)
 ---
 
+# BIM Copy/de
+
 ## Beschreibung
 
 Das BIM Kopierwerkzeug ist eine Kurzbefehl zum Standardwerkzeug [Entwurf Verschieben](Draft_Move/de.md), jedoch angefangen bei aktivierter Kopieroption, die es ermöglicht, in einem Arbeitsgang eine Kopie eines Objekts zu erstellen und an einer bestimmten Stelle zu platzieren.
+
+---
+[documentation index](../README.md) > BIM Copy/de

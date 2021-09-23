@@ -9,6 +9,8 @@
    SeeAlso:[Draft Fractionner](Draft_Split/fr.md)
 ---
 
+# Draft Join/fr
+
 ## Description
 
 La commande <img alt="" src=images/Draft_Join.svg  style="width:24px;"> **Draft Joindre** permet de joindre [Draft Lignes](Draft_Line/fr.md) et [Draft Polylignes](Draft_Wire/fr.md) en une seule ligne. Cette commande est la contrepartie de la commande [Draft Scinder](Draft_Split/fr.md).
@@ -63,8 +65,5 @@ Draft.join_wires([wire1, wire3, wire2, wire4])
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Join/fr

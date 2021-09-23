@@ -1,6 +1,4 @@
 # PropertyLink: InList and OutList/fr
-
-
 Voir [Propriétés des objets](Property/fr.md) avant de lire cette section.
 
 # PropertyLink
@@ -79,3 +77,6 @@ On peut accéder aux objets `PropertyLink` à l\'aide d\'une propriété Python 
 -   De même, une liste `OutList` est une liste de toutes les fonctions qui *dépendent* de l\'objet courant. C\'est-à-dire que `box.OutList` sera une liste contenant notre objet `dim`.
 
 Remarquez que `InList` et `OutList` n\'ont *rien à voir* avec l\'arborescence du modèle de document qui est présentée dans l\'interface graphique. À tout moment, un parent dans cette arborescence peut contenir des enfants qui font partie de la `InList`, de la `OutList` ou d\'aucune des deux.
+
+---
+[documentation index](../README.md) > PropertyLink: InList and OutList/fr

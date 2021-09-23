@@ -1,5 +1,5 @@
 # Screenshots/zh-cn
- {{TOCright}}
+{{TOCright}}
 
 下面是几个显示 FreeCAD 不同部分的截图。它们不是以任何特定时间轴中排序的, 因此图像可能与您的实际版本不同。查看 FreeCAD 用户在 [截图论坛话题](http://forum.freecadweb.org/viewtopic.php?f=8&t=4751) 上提交的更多截图, 以及 [\"Show your project here!\" 用户案例论坛部分](http://forum.freecadweb.org/viewforum.php?f=24)。
 
@@ -238,3 +238,6 @@ FreeCAD 在控制台模式下运行 (没有 gui)
 对话框以保存任意大小的图片。
 
 [分类:用户文档](Category:User_Documentation/zh-cn.md) [Category:Screenshots/zh-cn](Category:Screenshots/zh-cn.md)
+
+---
+[documentation index](../README.md) > Screenshots/zh-cn

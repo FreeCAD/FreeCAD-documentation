@@ -1,6 +1,4 @@
 # 3D view/ru
-
-
 ## Введение
 
 
@@ -99,4 +97,7 @@ FreeCAD использует библиотеку Quarter для использ�
 
 {{Interface navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > 3D view/ru

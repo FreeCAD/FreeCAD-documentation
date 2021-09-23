@@ -7,6 +7,8 @@
    SeeAlso:[FEM Contrainte de contact](FEM_ConstraintContact/fr.md)
 ---
 
+# FEM ConstraintFixed/fr
+
 ## Description
 
 Crée une contrainte FEM pour fixer une géométrie bloquée tous les 6 degrés de liberté sur l\'objet sélectionné.
@@ -30,4 +32,7 @@ Vous ne pouvez pas mélanger les objets dans la même contrainte. Utilisez une c
 
 {{FEM Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > FEM ConstraintFixed/fr

@@ -8,6 +8,8 @@
    SeeAlso:
 ---
 
+# Path Copy/ru
+
 
 </div>
 
@@ -37,4 +39,7 @@ The copy stays linked with the original path. If the original changes, so does t
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Copy/ru

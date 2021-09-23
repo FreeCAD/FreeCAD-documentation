@@ -1,6 +1,4 @@
 # Topological Naming Project/fr
-
-
 Cette page est consacrée à la description de l\'idée du projet Google Summer of Code concernant la dénomination topologique. Pour le sujet en lui-même, veuillez consulter [Projet de dénomination](Naming_project/fr.md). La page wiki liée peut également servir de point de départ pour aborder le problème de dénomination.
 
 ## Aperçu
@@ -42,3 +40,6 @@ Difficile
 ### Information Supplémentaire 
 
 [Category:Google Summer of Code](Category:Google_Summer_of_Code.md)
+
+---
+[documentation index](../README.md) > Topological Naming Project/fr

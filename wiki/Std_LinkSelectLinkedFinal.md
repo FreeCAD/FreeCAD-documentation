@@ -7,6 +7,8 @@
    SeeAlso:[Std LinkSelectLinked](Std_LinkSelectLinked.md), [Std LinkSelectAllLinks](Std_LinkSelectAllLinks.md), [Std SelBack](Std_SelBack.md), [Std SelForward](Std_SelForward.md)
 ---
 
+# Std LinkSelectLinkedFinal
+
 ## Description
 
 The **Std LinkSelectLinkedFinal** command selects the **Linked Object**, the source object, of an [App Link](App_Link.md) object, a link. But if that source object is also a link its linked object is selected instead. This is repeated until the linked object is not a link. This final source object is the deepest linked object.
@@ -21,4 +23,7 @@ The **Std LinkSelectLinkedFinal** command selects the **Linked Object**, the sou
 
 
 
- {{Std Base navi}} 
+ {{Std Base navi}}
+
+---
+[documentation index](../README.md) > Std LinkSelectLinkedFinal

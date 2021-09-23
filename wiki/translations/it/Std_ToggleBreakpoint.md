@@ -9,6 +9,8 @@
    SeeAlso:[Passo successivo](Std_MacroStepOver/it.md), [Un passo](Std_MacroStepInto/it.md)
 ---
 
+# Std ToggleBreakpoint/it
+
 ## Descrizione
 
 In questo momento questo comando non funziona.
@@ -25,4 +27,7 @@ In questo momento questo comando non funziona.
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ToggleBreakpoint/it

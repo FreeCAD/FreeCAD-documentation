@@ -8,6 +8,8 @@
    SeeAlso:[TechDraw Annotation](TechDraw_Annotation/fr.md)
 ---
 
+# TechDraw Balloon/fr
+
 ## Description
 
 L\'outil Annotation bulle peut ajouter des bulles avec une ligne de repère dans un dessin.
@@ -89,4 +91,7 @@ rc = page.addView(bal1)
 
 {{TechDraw Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Balloon/fr

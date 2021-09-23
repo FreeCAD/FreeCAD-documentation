@@ -1,6 +1,4 @@
 # 3D view/pl
-
-
 ## Wprowadzenie
 
 
@@ -87,4 +85,7 @@ Więcej informacji można znaleźć w dokumentacji dla Power użytkowników:
 
 {{Interface navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > 3D view/pl

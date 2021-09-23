@@ -9,6 +9,8 @@
    SeeAlso:[[Arch Wall/ru]], [[Arch Structure/ru]]
 ---
 
+# Arch Space/ru
+
 
 </div>
 
@@ -144,8 +146,5 @@ selection = FreeCADGui.Selection.getSelectionEx()
 Arch.removeSpaceBoundaries(Space, selection)
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Space/ru

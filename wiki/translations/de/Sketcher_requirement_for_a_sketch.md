@@ -1,7 +1,4 @@
 # Sketcher requirement for a sketch/de
-
-
-
 {{TutorialInfo/de
 |Topic=Skizze
 |Level=Anfänger
@@ -44,4 +41,7 @@ Stellt man versehentlich eine *Überregelung* her, erscheint eine Warnung in der
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher requirement for a sketch/de

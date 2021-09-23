@@ -6,6 +6,8 @@
    MenuLocation:Manage → Classification
 ---
 
+# BIM Classification/pl
+
 ## Description
 
 <img alt="" src=images/BIM_classification_screenshot.png  style="width:1024px;">
@@ -17,3 +19,6 @@ The classifications manager allows you to attribute a standard class to a BIM ob
 -   Install one or more classification standard XML or IFC files as explained above
 -   If you wish to add or edit a class for an object, select that object and press the BIM Classification button
 -   If you wish to add or edit a class for a material, don\'t select anything and press the BIM Classification button. You will be able to browse the materials directly from the classification manager window
+
+---
+[documentation index](../README.md) > BIM Classification/pl

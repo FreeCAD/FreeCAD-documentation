@@ -6,6 +6,8 @@
    SeeAlso:[FEM Constraint contact](FEM_ConstraintContact.md)
 ---
 
+# FEM ConstraintFixed/pl
+
 ## Description
 
 Creates a FEM constraint for a fixed geometry entry by locking all 6 degrees of freedom of the selected object.
@@ -29,4 +31,7 @@ You cannot mix object-types within the same constraint. Use one fixed constraint
 
 {{FEM Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > FEM ConstraintFixed/pl

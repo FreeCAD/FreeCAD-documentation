@@ -1,5 +1,5 @@
 # Macro Unbind Numpad Shortcuts/en
- {{Macro
+{{Macro
 |Name=Macro Unbind Numpad Shortcuts
 |Icon=Macro_Unbind_Numpad_Shortcuts.png
 |Description=When entering numbers, and the number input box is not properly focused, FreeCAD will react to digits by switching standard views. This macro is a quick way to re-bind the shortcuts to Ctrl+number. Doesn't help very much with entering numbers, but at least the view won't spin like crazy.
@@ -45,3 +45,5 @@ for (cmd, shortcut) in preset:
     App.ParamGet("User parameter:BaseApp/Preferences/Shortcut").SetString(cmd, shortcut)
 }}
 
+---
+[documentation index](../README.md) > Macro Unbind Numpad Shortcuts/en

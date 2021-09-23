@@ -8,6 +8,8 @@
    SeeAlso:[PartDesign SubtractiveHelix](PartDesign_SubtractiveHelix.md)
 ---
 
+# PartDesign AdditiveHelix/es
+
 ## Descripción
 
 La herramienta **Hélice aditiva** crea un sólido realizando un barrido de un boceto seleccionado o de un objeto 2D a lo largo de la trayectoria de una hélice.
@@ -128,4 +130,7 @@ Si está marcada esta casilla, la hélice se mostrará en la vista y se actualiz
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveHelix/es

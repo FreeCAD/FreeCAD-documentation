@@ -1,7 +1,4 @@
 # Macro StraightenObject
- 
-
-
 {{Macro
 |Name=StraightenObject
 |Icon=Macro_StraightenObject.png
@@ -304,4 +301,5 @@ else:
 
 For any feedback (bug, feature request, comments, \...), please use this forum thread : [(Macro) Straighten objects](https://forum.freecadweb.org/viewtopic.php?f=22&t=35191)
 
-
+---
+[documentation index](../README.md) > Macro StraightenObject

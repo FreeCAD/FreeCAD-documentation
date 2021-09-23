@@ -1,10 +1,4 @@
 # Navigation Cube/ja
-
-
-
-
-
-
 {{TOCright}}
 
 The navigational cube control, or **navigation cube**, is a user interface graphic aid for reorienting the 3D view. By default, it is visible and resides in the upper right corner of the 3D display. If you are looking at the standard 3D view, it looks like the following:
@@ -98,3 +92,6 @@ For more advanced configuration, refer to the [CubeMenu](Interface_Customization
 
 
 [Category:User Documentation](Category:User_Documentation.md)
+
+---
+[documentation index](../README.md) > [User Documentation](Category:User Documentation.md) > Navigation Cube/ja

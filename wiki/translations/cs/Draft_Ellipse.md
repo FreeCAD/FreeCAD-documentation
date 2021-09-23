@@ -1,3 +1,4 @@
+# Draft Ellipse/cs
 ---
 - GuiCommand:/cs   Name:Draft_Ellipse   Name/cs:Kreslení Elipsa   Workbenches:[Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation:Kreslení -> Elipsa   Shortcut:E L   SeeAlso:[Kreslení Kružnice](Draft_Circle/cs.md)---
 
@@ -158,8 +159,5 @@ ellipse3 = Draft.make_ellipse(700, 1000, placement=place3)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Ellipse/cs

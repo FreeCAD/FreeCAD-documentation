@@ -1,10 +1,4 @@
-# Points Workbench/pt-br
-
-
-
-
-
-<img alt="Ícone da Bancada de Trabalho Points" src=images/Workbench_Points.svg  style="width:128px;">
+# <img alt="Ícone da Bancada de Trabalho Points" src=images/Workbench_Points.svg  style="width:64px;"> Points Workbench/pt-br
 
 ## Introdução
 
@@ -51,3 +45,6 @@ Todas as ferramentas da Bancada de Trabalho Points podem ser acessadas do menu *
 }} 
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Points Workbench/pt-br

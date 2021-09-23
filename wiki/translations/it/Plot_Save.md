@@ -1,3 +1,4 @@
+# Plot Save/it
 ---
 - GuiCommand:/it   Name:Plot Save   Name/it:Salva grafico   Workbenches:[[Plot Module/it   Grafico]]|MenuLocation:Grafico  → Salva grafico---
 
@@ -61,3 +62,6 @@ Selezionare l\'immagine che si desidera salvare utilizzando le schede nella vist
 }} 
 
 [Category:External\_Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)
+
+---
+[documentation index](../README.md) > [External_Workbenches](Category:External_Workbenches.md) > Plot Save/it

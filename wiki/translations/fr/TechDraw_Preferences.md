@@ -1,10 +1,4 @@
 # TechDraw Preferences/fr
-
-
-
-
-
-
 {{TOCright}}
 
 ## Introduction
@@ -201,3 +195,6 @@ Certains paramètres de préférences ne sont accessibles que via [Std Editeur d
 }} 
 
 [Category:Preferences](Category:Preferences.md)
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Preferences/fr

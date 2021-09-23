@@ -7,6 +7,8 @@
    Version:0.19
 ---
 
+# Std SendToPythonConsole/de
+
 ## Beschreibung
 
 Der **Std SendeAnPythonKonsole** Befehl erstellt eine Variable in der [Python Konsole](Python_console/de.md), die auf ein ausgewähltes Objekt verweist. Wenn eine Unterform des Objekts ausgewählt wird, werden zwei zusätzliche Variablen erstellt, von denen eine auf die Form des Objekts und die andere auf die Unterform selbst verweist. Die Variablen und der damit verbundene Code können zur Entwicklung von Python Code verwendet werden.
@@ -34,4 +36,7 @@ Der **Std SendeAnPythonKonsole** Befehl erstellt eine Variable in der [Python Ko
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std SendToPythonConsole/de

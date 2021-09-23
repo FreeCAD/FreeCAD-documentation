@@ -7,6 +7,8 @@
    SeeAlso:[Std DrawStyle](Std_DrawStyle.md)
 ---
 
+# Std SelBoundingBox
+
 ## Description
 
 The **Std SelBoundingBox** command toggles the global bounding box highlighting mode. If this mode is switched on, selected objects are marked in a [3D view](3D_view.md) with a highlighted bounding box even if their **Selection Style** is set to \'Shape\'.
@@ -46,4 +48,7 @@ FreeCADGui.updateCommands()
 
 
 
- {{Std Base navi}}  
+ {{Std Base navi}}
+
+---
+[documentation index](../README.md) > Std SelBoundingBox

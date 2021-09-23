@@ -1,3 +1,4 @@
+# Raytracing WriteView/ro
 ---
 - GuiCommand:   Name:Raytracing Export‏‎    MenuLocation:Raytracing  → Export‏‎   |Workbenches:[[Raytracing Workbench   Raytracing]]|Shortcut:   SeeAlso:---
 
@@ -29,4 +30,7 @@ Exportă proprietățile de vizualizare curente într-un fișier pov pentru util
 
 {{Raytracing_Tools_navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing WriteView/ro

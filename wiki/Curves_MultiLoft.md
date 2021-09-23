@@ -5,6 +5,8 @@
    Workbenches:[Curves](Curves_Workbench.md)
 ---
 
+# Curves MultiLoft
+
 ## Description
 
 The <img alt="" src=images/Curves_MultiLoft.svg  style="width:24px;"> [Curves MultiLoft](Curves_MultiLoft.md) lofts profile objects made of multiple faces in parallel. This tool is part of the [external workbench](External_workbenches.md) called [Curves](Curves_Workbench.md).
@@ -27,4 +29,7 @@ The <img alt="" src=images/Curves_MultiLoft.svg  style="width:24px;"> [Curves Mu
 
 
 
- {{Curves Tools navi}} 
+ {{Curves Tools navi}}
+
+---
+[documentation index](../README.md) > Curves MultiLoft

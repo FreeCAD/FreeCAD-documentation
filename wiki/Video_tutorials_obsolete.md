@@ -1,5 +1,5 @@
 # Video tutorials obsolete
-  **In FreeCAD 0.17 the [PartDesign Workbench](PartDesign_Workbench.md) received important updates that change the way solids are created with respect to previous versions. New users should watch videos for versions 0.17 and above to understand the concept of working with a [PartDesign Body](PartDesign_Body.md) and datum objects.** **These videos are considered obsolete because they use v0.16 or earlier versions of the program.**
+**In FreeCAD 0.17 the [PartDesign Workbench](PartDesign_Workbench.md) received important updates that change the way solids are created with respect to previous versions. New users should watch videos for versions 0.17 and above to understand the concept of working with a [PartDesign Body](PartDesign_Body.md) and datum objects.** **These videos are considered obsolete because they use v0.16 or earlier versions of the program.**
 
 ## Introduction
 
@@ -53,4 +53,7 @@ For up-to-date videos on different topics, see the [video tutorials](video_tutor
 
 -   [openPLM demo : FreeCAD interface](http://www.youtube.com/watch?v=SanPyZhLq6w): FreeCAD 0.10, it showcases the OpenPLM [addon](addon.md), intended for [Product Lifecycle Management](http://en.wikipedia.org/wiki/Product_lifecycle_management). It no longer works with recent versions of FreeCAD.
 
- {{Tutorials navi}} 
+ {{Tutorials navi}}
+
+---
+[documentation index](../README.md) > Video tutorials obsolete

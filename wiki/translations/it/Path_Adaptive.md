@@ -1,3 +1,4 @@
+# Path Adaptive/it
 ---
 - GuiCommand:/it   Name:Path Adaptive   Name/it:Adattiva   Workbenches:[[Path Workbench/it   Path]]|MenuLocation:Path → Adattiva   Shortcut:   SeeAlso:---
 
@@ -226,4 +227,7 @@ Note: It is suggested that you do not edit the Placement property of path operat
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Adaptive/it

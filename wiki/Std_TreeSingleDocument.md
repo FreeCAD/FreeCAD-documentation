@@ -7,6 +7,8 @@
    SeeAlso:[Std TreeMultiDocument](Std_TreeMultiDocument.md), [Std TreeCollapseDocument](Std_TreeCollapseDocument.md)
 ---
 
+# Std TreeSingleDocument
+
 ## Description
 
 The **Std TreeSingleDocument** command switches the [Tree view](Tree_view.md) DocumentMode to SingleDocument. In this mode only a single document is visible in the Tree view. The other modes are [MultiDocument](Std_TreeMultiDocument.md) and [CollapseDocument](Std_TreeCollapseDocument.md).
@@ -26,4 +28,7 @@ The Tree view DocumentMode mode is stored: **Tools → Edit parameters... → Ba
 
 
 
- {{Std Base navi}}  
+ {{Std Base navi}}
+
+---
+[documentation index](../README.md) > Std TreeSingleDocument

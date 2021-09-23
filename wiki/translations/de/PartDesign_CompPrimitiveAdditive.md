@@ -10,6 +10,8 @@
    SeeAlso:[PartDesign Abzuziehender Grundkörper](PartDesign_CompPrimitiveSubtractive.md)
 ---
 
+# PartDesign CompPrimitiveAdditive/de
+
 ## Beschreibung
 
 Erzeugt ein additives Grundelement im aktiven Körper als erstes Formelement oder verschmilzt es mit dem/den vorhandenen Formelement(en). Wenn kein Körper im Dokument gefunden wird, wird automatisch einer erzeugt.
@@ -31,4 +33,7 @@ Erzeugt ein additives Grundelement im aktiven Körper als erstes Formelement ode
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign CompPrimitiveAdditive/de

@@ -8,6 +8,8 @@
    SeeAlso:[Дуга](Draft_Arc/ru.md)
 ---
 
+# Draft Circle/ru
+
 
 </div>
 
@@ -147,8 +149,5 @@ circle3 = Draft.make_circle(750, placement=place3)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Circle/ru

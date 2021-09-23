@@ -9,6 +9,8 @@
    Version:0.7
 ---
 
+# Draft Text/de
+
 
 </div>
 
@@ -242,5 +244,5 @@ doc.recompute()
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Text/de

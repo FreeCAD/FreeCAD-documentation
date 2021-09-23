@@ -1,7 +1,4 @@
 # Navigation Cube/hr
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -92,3 +89,6 @@ For more advanced configuration, refer to the [CubeMenu](Interface_Customization
 
 
 [Category:User Documentation](Category:User_Documentation.md)
+
+---
+[documentation index](../README.md) > [User Documentation](Category:User Documentation.md) > Navigation Cube/hr

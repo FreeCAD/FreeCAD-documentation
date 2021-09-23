@@ -7,6 +7,8 @@
    SeeAlso:[Std Positionierung](Std_Placement/de.md)
 ---
 
+# Std Alignment/de
+
 ## Beschreibung
 
 Der **Std Ausrichtung** Befehl richtet ein Objekt in Bezug auf ein festes Referenzobjekt unter Nutzung eines oder mehrerer Punktepaare aus.
@@ -37,4 +39,7 @@ Die folgenden zusätzlichen Möglichkeiten können im Kontextmenü gewählt werd
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std Alignment/de

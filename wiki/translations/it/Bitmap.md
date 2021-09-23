@@ -1,6 +1,4 @@
 # Bitmap/it
-
-
 ## Descrizione
 
 [Bitmaps](https://en.wikipedia.org/wiki/Bitmap) o [raster graphics](http://en.wikipedia.org/wiki/Raster_graphics) sono immagini 2D che sono raccolte di pixel dipinte di diverse sfumature di colore. Insieme, migliaia o milioni di questi pixel sono in grado di rappresentare un\'immagine o un\'immagine a colori per l\'occhio umano.
@@ -17,3 +15,6 @@ FreeCAD può importare le immagini bitmap usando il\'ambiente [Immagine](Image_W
 
 
 [Category:User Documentation](Category:User_Documentation.md) [Category:TechDraw](Category:TechDraw.md) [Category:Image](Category:Image.md)
+
+---
+[documentation index](../README.md) > [User Documentation](Category:User Documentation.md) > Bitmap/it

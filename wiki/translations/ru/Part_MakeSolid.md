@@ -6,6 +6,8 @@
    Workbenches:[Part](Part_Workbench/ru.md)
 ---
 
+# Part MakeSolid/ru
+
 ## Описание
 
 This command creates a solid from a shape object.
@@ -30,5 +32,5 @@ This command creates a solid from a shape object.
 
 </div>
 
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part MakeSolid/ru

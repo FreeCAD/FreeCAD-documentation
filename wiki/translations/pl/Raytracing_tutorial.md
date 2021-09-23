@@ -1,6 +1,4 @@
 # Raytracing tutorial/pl
-
-
 ## Środowisko pracy Raytracing 
 
 
@@ -78,4 +76,7 @@ Teraz mamy model, z którym możemy pracować.
 
 FreeCAD natychmiast otworzy obraz po zakończeniu renderowania.
 
-Dzięki temu ćwiczeniu poznaliśmy podstawowy przepływ pracy dla środowiska pracy [Raytracing](Raytracing_Workbench/pl.md). {{Tutorials navi}} {{Raytracing Tools navi}} 
+Dzięki temu ćwiczeniu poznaliśmy podstawowy przepływ pracy dla środowiska pracy [Raytracing](Raytracing_Workbench/pl.md). {{Tutorials navi}} {{Raytracing Tools navi}}
+
+---
+[documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing tutorial/pl

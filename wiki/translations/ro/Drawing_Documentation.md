@@ -1,5 +1,5 @@
 # Drawing Documentation/ro
- Această pagină documentează înțelegerea de către jcc242 a modulului Desen. Acesta include fișiere și caracteristici pe care le lucrează în prezent și este posibil să nu fie încă în ramura master. Sursa pentru aceste fișiere este pe [lui Github](https://github.com/jcc242/FreeCAD), dar aveți grijă, deoarece este foarte instabilă!
+Această pagină documentează înțelegerea de către jcc242 a modulului Desen. Acesta include fișiere și caracteristici pe care le lucrează în prezent și este posibil să nu fie încă în ramura master. Sursa pentru aceste fișiere este pe [lui Github](https://github.com/jcc242/FreeCAD), dar aveți grijă, deoarece este foarte instabilă!
 
 ## Baza (Mod/Drawing) 
 
@@ -139,3 +139,6 @@ CanvasView is the actual QGraphicsScene object and DrawingView processes a list 
 {{Drawing Tools navi}} 
 
 [Category:Developer\_Documentation](Category:Developer_Documentation.md)
+
+---
+[documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Documentation/ro

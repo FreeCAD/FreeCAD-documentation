@@ -7,6 +7,8 @@
    SeeAlso:[Arch Component](Arch_Component.md)
 ---
 
+# Arch ToggleSubs/pt-br
+
 ## Descrição
 
 This tools toggles the visibility of all the subtractions of an [Arch](Arch_Workbench.md) object between visible and hidden.
@@ -35,5 +37,5 @@ The [Draft construction](Draft_ToggleConstructionMode.md) style can be set in th
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch ToggleSubs/pt-br

@@ -8,6 +8,8 @@
    Version:0.15
 ---
 
+# Sketcher SelectConstraints/fr
+
 ## Description
 
 Sélectionne les contraintes d\'un élément d\'esquisse.
@@ -31,4 +33,7 @@ Sélectionne les contraintes d\'un élément d\'esquisse.
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectConstraints/fr

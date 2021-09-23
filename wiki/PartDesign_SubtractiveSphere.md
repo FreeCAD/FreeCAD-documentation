@@ -7,6 +7,8 @@
    SeeAlso:[PartDesign CompPrimitiveSubtractive](PartDesign_CompPrimitiveSubtractive.md)
 ---
 
+# PartDesign SubtractiveSphere
+
 ## Description
 
 Inserts a subtractive sphere in the active Body. Its shape is subtracted from the existing solid.
@@ -44,4 +46,7 @@ The Sphere can be edited after its creation in two ways:
 
 
 
- {{PartDesign Tools navi}}  
+ {{PartDesign Tools navi}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveSphere

@@ -1,10 +1,4 @@
 # Licence/ro
-
-
-
-
-
-
 {{TOCright}}
 
 ## Licențe utilizate sub FreeCAD 
@@ -93,3 +87,6 @@ Această decizie se face numai pentru nucleul sistemul FreeCAD. Fiecare scriitor
  
 
 [Category:Developer Documentation](Category:Developer_Documentation.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Licence/ro

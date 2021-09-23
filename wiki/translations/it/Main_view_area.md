@@ -1,6 +1,4 @@
 # Main view area/it
-
-
 ## Introduzione
 
 L\'[area della vista principale](Main_view_area/it.md) è il widget principale che contiene le finestre secondarie nell\'[interfaccia](interface/it.md). È un\'istanza di Qt [QMdiArea](https://doc.qt.io/qt-5/qmdiarea.html).
@@ -25,4 +23,7 @@ Le finestre nell\'area di visualizzazione principale possono essere organizzate 
 
 {{Interface navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > Main view area/it

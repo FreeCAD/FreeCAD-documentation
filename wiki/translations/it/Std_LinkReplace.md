@@ -8,6 +8,8 @@
    SeeAlso:[Crea un link](Std_LinkMake/it.md), [Crea un link relativo](Std_LinkMakeRelative/it.md), [Annulla il link](Std_LinkUnlink/it.md)
 ---
 
+# Std LinkReplace/it
+
 ## Descrizione
 
 
@@ -49,4 +51,7 @@ Questo comando crea un nuovo <img src=images/Std_LinkMake.svg style="width:App L
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std LinkReplace/it

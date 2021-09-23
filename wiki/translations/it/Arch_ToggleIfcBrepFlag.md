@@ -8,6 +8,8 @@
    SeeAlso:[Esplora Ifc](Arch_IfcExplorer/it.md), [IFC](Arch_IFC/it.md)
 ---
 
+# Arch ToggleIfcBrepFlag/it
+
 
 </div>
 
@@ -41,8 +43,5 @@ Questo strumento attiva o disattiva il contrassegno Ifc BREP di un oggetto [Arch
 
 </div>
 
-
-
-
-
-
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch ToggleIfcBrepFlag/it

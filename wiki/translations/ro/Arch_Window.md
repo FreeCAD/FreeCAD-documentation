@@ -8,6 +8,8 @@
    SeeAlso:[Arch Wall](Arch_Wall/ro.md)
 ---
 
+# Arch Window/ro
+
 
 </div>
 
@@ -317,3 +319,6 @@ Door = Arch.makeWindowPreset("Simple door",
 
 
 [Category:Arch/ro](Category:Arch/ro.md)
+
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Window/ro

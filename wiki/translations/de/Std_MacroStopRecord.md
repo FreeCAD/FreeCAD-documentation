@@ -7,6 +7,8 @@
    SeeAlso:...
 ---
 
+# Std MacroStopRecord/de
+
 
 </div>
 
@@ -52,4 +54,7 @@ Wenn du einen **<img src=images/Std_DlgMacroRecord.png style="width:16px"> <img 
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std MacroStopRecord/de

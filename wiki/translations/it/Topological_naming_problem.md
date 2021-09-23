@@ -1,6 +1,4 @@
 # Topological naming problem/it
-
-
 ## Introduzione
 
 
@@ -133,3 +131,6 @@ Gli oggetti di riferimento, [punti](PartDesign_Point/it.md), [linee](PartDesign_
  {{TechDraw Tools navi}} {{PartDesign Tools navi}} 
 
 [Category:Common Questions](Category:Common_Questions.md)
+
+---
+[documentation index](../README.md) > [Common Questions](Category:Common Questions.md) > Topological naming problem/it

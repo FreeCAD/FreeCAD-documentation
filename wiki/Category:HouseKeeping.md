@@ -10,3 +10,6 @@ The first one out is renaming the Module pages to Workbench, with all the needed
 [Rename Module to Workbench](Rename_Module_to_Workbench.md)
 
 [Category:Administration](Category:Administration.md) [Category:Categories](Category:Categories.md) [Category:Documentation](Category:Documentation.md)
+
+---
+[documentation index](../README.md) > Category:HouseKeeping

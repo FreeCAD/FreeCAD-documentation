@@ -1,3 +1,4 @@
+# Part Circle/ro
 ---
 - GuiCommand:   Name:Part Circle   MenuLocation:Part → [Workbenches:[[Part Workbench   Part](Part_CreatePrimitives___Create_Primitives]]_→_Circle.md),  [OpenSCAD](OpenSCAD_Workbench.md)|SeeAlso:..---
 
@@ -70,8 +71,5 @@ Utilizăm meniul {{KEY/it|<img src="images/Part_CreatePrimitives.png" width=16px
 
 -    {{Parameter|Angle 1}}: Unghiul de capăt al muchiei curbate, (degrees sens antiorar/trigonometric), valoarea implictă este 360
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Circle/ro

@@ -1,3 +1,4 @@
+# Part Primitives/cs
 ---
 - GuiCommand:/cs   Name:Part_CreatePrimitives   Name/cs:Díl Vytváření základních geometrických tvarů   MenuLocation:Díl -> Díl Vytváření zákl.geom.tvarů   |Workbenches:[SeeAlso:[[Part_Shapebuilder/cs|Díl Skládání tvarů](Part_Workbench/cs___díl]].md)---
 
@@ -110,8 +111,5 @@ It can be used as input to the program as well.
 freecad $INSTALL_DIR/Mod/Part/parttests/part_test_objects.py
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Primitives/cs

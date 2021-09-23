@@ -1,3 +1,4 @@
+# Part Helix/de
 ---
 - GuiCommand:/de   Name:Part Helix   Name/de:Part Helix   MenuLocation:Formteil → [Workbenches:[[Part_Workbench/de|Part](Part_CreatePrimitives/de___Grundkörper_erstellen...]] → Helix.md), [OpenSCAD](OpenSCAD_Workbench/de.md)---
 
@@ -136,8 +137,5 @@ Sobald die Helix erstellt ist, lassen sich die Parameter ändern.
 |                                                          |                                                                                        |
 +----------------------------------------------------------+-------------------------------------------------------------------------------------------+
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Helix/de

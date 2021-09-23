@@ -1,5 +1,5 @@
 # Macro Connect And Sweep/it
- {{Macro/it
+{{Macro/it
 |Name= Macro Connect And Sweep
 |Translate=Collega con Sweep
 |Icon=Macro_Connect_And_Sweep.png
@@ -196,6 +196,5 @@ Questa macro si basa sul codice di microelly2, vedere [Looking for some helpful 
 
 Altra discussione sul foro [Macro\_Connect\_And\_Sweep](https://forum.freecadweb.org/viewtopic.php?f=22&t=35432)
 
-
-
-
+---
+[documentation index](../README.md) > Macro Connect And Sweep/it

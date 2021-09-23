@@ -1,5 +1,5 @@
 # The FreeCAD source code/ru
- The [FreeCAD source code](https://github.com/FreeCAD/FreeCAD) is managed with git, and is public, open and available under the [LGPL license](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License). It can be copied, downloaded, read, analyzed, redistributed and modified by anyone. If you plan to make modifications that you wish to see included into the official code itself, remember that your changes will need to be approved by the FreeCAD developers, so it is wise to discuss first your intents and ideas on the [forum](http://forum.freecadweb.org), to avoid the risk to have your changes rejected for some reason you didn\'t foresee.
+The [FreeCAD source code](https://github.com/FreeCAD/FreeCAD) is managed with git, and is public, open and available under the [LGPL license](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License). It can be copied, downloaded, read, analyzed, redistributed and modified by anyone. If you plan to make modifications that you wish to see included into the official code itself, remember that your changes will need to be approved by the FreeCAD developers, so it is wise to discuss first your intents and ideas on the [forum](http://forum.freecadweb.org), to avoid the risk to have your changes rejected for some reason you didn\'t foresee.
 
 Below are some clues and useful information to get you on tracks if you are interested in exploring the FreeCAD code.
 
@@ -33,3 +33,6 @@ Below are some clues and useful information to get you on tracks if you are inte
 -   [FCStd](File_Format_FCStd.md) - the FreeCAD file format
 
 [Category:Developer Documentation](Category:Developer_Documentation.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > The FreeCAD source code/ru

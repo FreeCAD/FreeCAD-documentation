@@ -8,6 +8,8 @@
    SeeAlso:[Parete](Arch_Wall/it.md)
 ---
 
+# Arch MergeWalls/it
+
 
 </div>
 
@@ -74,5 +76,5 @@ base = Arch.joinWalls([Wall1, Wall2])
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch MergeWalls/it

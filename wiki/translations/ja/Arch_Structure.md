@@ -1,3 +1,4 @@
+# Arch Structure/ja
 ---
 - GuiCommand:/jp   Name:Arch Structure   Workbenches:[MenuLocation:Arch -> Structure   Shortcut:S T   SeeAlso:[[Arch Wall/jp](Arch_Module/jp___建築]].md)---
 
@@ -134,8 +135,5 @@ FreeCAD.ActiveDocument.recompute()
 
 </div>
 
-
-
-
-
-
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Structure/ja

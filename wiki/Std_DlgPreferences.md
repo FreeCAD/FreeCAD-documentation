@@ -6,6 +6,8 @@
    SeeAlso:[Preferences Editor](Preferences_Editor.md)
 ---
 
+# Std DlgPreferences
+
 ## Description
 
 The **Std DlgPreferences** command opens the [Preferences Editor](Preferences_Editor.md).
@@ -22,4 +24,7 @@ The **Std DlgPreferences** command opens the [Preferences Editor](Preferences_Ed
 
 
 
- {{Std Base navi}}  
+ {{Std Base navi}}
+
+---
+[documentation index](../README.md) > Std DlgPreferences

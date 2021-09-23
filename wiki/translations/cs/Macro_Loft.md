@@ -1,5 +1,5 @@
 # Macro Loft/cs
- {{Macro
+{{Macro
 |Name=Macro Loft
 |Icon=FCCreaLoft.png
 |Description=Vytvoří vybrané dráty s loft wit.
@@ -69,3 +69,6 @@ ver 00.02 : 09/02/2016 : Add button \"Select all\" and little option displayed i
 ver 00.03 : 09/02/2016 : minor (display on button)
 
 ver 00.04 : 03/07/2019 : adapt to Python 3
+
+---
+[documentation index](../README.md) > Macro Loft/cs

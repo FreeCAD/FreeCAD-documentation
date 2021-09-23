@@ -1,5 +1,5 @@
 # Macro Automatic drawing/en
- {{Macro
+{{Macro
 |Name=Automatic drawing
 |Icon=Macro_Automatic_drawing.png
 |Description=This code generates a Drawing page with three orthographic views (front, top and right) aligned to each other, and an isometric view placed at the top right of the page. It calculates the scale based on the model size and space available on the sheet. The iso view is scaled to 2/3 of the ortho views.
@@ -110,3 +110,6 @@ App.activeDocument().AutoDrawing.addObject(App.activeDocument().IsoView)
 ## Links
 
 The forum [Automatic drawing](https://forum.freecadweb.org/viewtopic.php?f=8&t=3361)
+
+---
+[documentation index](../README.md) > Macro Automatic drawing/en

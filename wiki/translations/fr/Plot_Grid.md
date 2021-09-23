@@ -6,6 +6,8 @@
    Workbenches:[Plot](Plot_Module/fr.md)
 ---
 
+# Plot Grid/fr
+
 ## Description
 
 Cet outil permet à l\'utilisateur d\'activer/désactiver les lignes de grille sur un graphique spécifique.
@@ -27,3 +29,6 @@ Cet outil agit sur le jeu d\'axes actif. Dans le cas de tracés multi-axes, vous
 }} 
 
 [Category:External\_Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)
+
+---
+[documentation index](../README.md) > [External_Workbenches](Category:External_Workbenches.md) > Plot Grid/fr

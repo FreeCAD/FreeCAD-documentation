@@ -1,5 +1,5 @@
 # Macro Snip/de
- {{Macro/de
+{{Macro/de
 |Name=Schnitt
 |Icon=Snip.png
 |Description=Verwende dieses Makro, um Bildschirmfotos im FreeCAD-Forum zu veröffentlichen.<br/> Am besten füge dieses Makro zu deiner globalen benutzerdefinierten Makro-Werkzeugleiste hinzu, damit du schnell und einfach darauf zugreifen kannst.<br/> Wenn du im FreeCAD-Forum veröffentlichst, ist es oft nützlich, Bildschirmfotos einbinden zu können. Das Problem ist, dass dies eine etwas mühsame Aufgabe ist. Dieses Makro soll diese Aufgabe etwas erleichtern.<br/>Das Makro kann Bildschirmfotos machen oder es kann vorhandene Bildschirmfotos verwenden, die bereits in die Zwischenablage des Systems kopiert wurden. Um das bereits in der Zwischenablage befindliche Bild zu umgehen, drücke die Umschalttaste, während du das Makro aufrufst. Um das Makro zur Aufnahme des Bildschirmfotos zu verwenden, passe die Größe und Platzierung des eingeblendeten Dialogfelds an, und klicke dann auf OK. Wenn du auf OK klickst, versucht das Makro, ein Bildschirmfoto des vom Dialogfeld abgedeckten Bildschirmbereichs zu erstellen. Das Dialogfeld selbst ist halbtransparent, so dass du den Inhalt darunter sehen kannst. 
@@ -325,3 +325,6 @@ if not userCanceled:
 ## Verweis
 
 Die Forumsdiskussion [Schnitt Makro](https://forum.freecadweb.org/viewtopic.php?f=9&t=38328&sid=385bf3174dcae7fb8bdf529f4e76dfed)
+
+---
+[documentation index](../README.md) > Macro Snip/de

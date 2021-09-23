@@ -1,5 +1,5 @@
 # FEM Preferences/ru
- {{TOCright}}
+{{TOCright}}
 
 
 <div class="mw-translate-fuzzy">
@@ -50,3 +50,6 @@ The current supported external solvers are:
 }}  
 
 [Category:Preferences](Category:Preferences.md)
+
+---
+[documentation index](../README.md) > [Preferences](Category:Preferences.md) > FEM Preferences/ru

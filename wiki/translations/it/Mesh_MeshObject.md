@@ -1,6 +1,4 @@
 # Mesh MeshObject/it
-
-
 ## Descrizione
 
 A [Mesh MeshObject](Mesh_MeshObject.md), or formally a `Mesh::MeshObject`, is a class that defines a mesh data structure in the software. This is similar to the [Part TopoShape](Part_TopoShape.md) but for [meshes](Mesh.md).
@@ -58,4 +56,7 @@ obj.Mesh.write("my_file.stl")
 
 {{Mesh Tools navi
 
-}} {{Document objects navi}} 
+}} {{Document objects navi}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh MeshObject/it

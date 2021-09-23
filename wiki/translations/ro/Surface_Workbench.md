@@ -1,10 +1,4 @@
-# Surface Workbench/ro
-
-
-
-
-
-<img alt="Surface workbench icon" src=images/Workbench_Surface.svg  style="width:128px;">
+# <img alt="Surface workbench icon" src=images/Workbench_Surface.svg  style="width:64px;"> Surface Workbench/ro
 
 
 {{TOCright}}
@@ -75,3 +69,6 @@ creează o suprafață de la două, trei sau patru margini de graniță. Sunt di
 }} 
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Surface Workbench/ro

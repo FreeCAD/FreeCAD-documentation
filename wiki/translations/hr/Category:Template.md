@@ -8,3 +8,6 @@ See also [UncategorizedTemplates](Special:UncategorizedTemplates.md)
 ,
 
 [Category:Categories/hr](Category:Categories/hr.md) [Category:Template:Doc/hr](Category:Template:Doc/hr.md) [Category:Template:Navigation/hr](Category:Template:Navigation/hr.md)
+
+---
+[documentation index](../README.md) > Category:Template/hr

@@ -8,6 +8,8 @@
    SeeAlso:[Sketcher Ajuster l'arête](Sketcher_Trimming/fr.md)
 ---
 
+# Sketcher Extend/fr
+
 ## Description
 
 L\'outil **prolonger l\'arête** prolonge une arête vers une position arbitraire dans l\'esquisse, ou vers une autre arête.
@@ -34,4 +36,7 @@ L\'outil **prolonger l\'arête** prolonge une arête vers une position arbitrair
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Extend/fr

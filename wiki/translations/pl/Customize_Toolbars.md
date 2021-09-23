@@ -1,5 +1,5 @@
 # Customize Toolbars/pl
- {{TutorialInfo/pl
+{{TutorialInfo/pl
 |Topic=Przykład
 |Level=początkujący
 |Time=5 minut
@@ -122,3 +122,6 @@ Zobacz również [Dostosowywanie interfejsu użytkownika do własnych potrzeb](I
 
 
 [Category:Preferences](Category:Preferences.md)
+
+---
+[documentation index](../README.md) > [Preferences](Category:Preferences.md) > Customize Toolbars/pl

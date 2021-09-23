@@ -1,3 +1,4 @@
+# Part Chamfer/cs
 ---
 - GuiCommand:/cs   Name:Part Chamfer   Name/cs:Díl Zkosení   MenuLocation:Díl → Zkosení   Workbenches:[[Part_Workbench/cs   Díl]], Kompletace|SeeAlso:---
 
@@ -154,8 +155,5 @@ FreeCAD.ActiveDocument.recompute()
 
 -   Recomputes all altered components on the screen and refreshes the display.
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Chamfer/cs

@@ -1,7 +1,4 @@
 # Navigation Cube/it
-
-
-
 {{docnav/it
 |[Metodi di selezione](Selection_methods/it.md)
 |[Struttura del documento](Document_structure/it.md)
@@ -86,3 +83,6 @@ Per una configurazione più avanzata, fare riferimento a [CubeMenu](Interface_Cu
 
 
 [Category:User Documentation](Category:User_Documentation.md)
+
+---
+[documentation index](../README.md) > [User Documentation](Category:User Documentation.md) > Navigation Cube/it

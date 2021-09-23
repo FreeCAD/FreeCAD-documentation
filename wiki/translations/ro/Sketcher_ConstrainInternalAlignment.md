@@ -7,6 +7,8 @@
    SeeAlso:[Show/Hide Internal Geometry](Sketcher_RestoreInternalAlignmentGeometry.md), [Ellipse](Sketcher_CreateEllipseByCenter.md)
 ---
 
+# Sketcher ConstrainInternalAlignment/ro
+
 
 </div>
 
@@ -95,4 +97,7 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainInternalAlignment/ro

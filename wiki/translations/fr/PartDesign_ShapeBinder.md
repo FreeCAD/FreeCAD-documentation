@@ -8,6 +8,8 @@
    SeeAlso:[PartDesign Sous forme liée](PartDesign_SubShapeBinder/fr.md), [PartDesign Clone](PartDesign_Clone/fr.md)
 ---
 
+# PartDesign ShapeBinder/fr
+
 ## Description
 
 Crée un datum **Forme Liée** à l\'intérieur du corps actif. Une Forme liée est un objet de référence lié à des arêtes ou des faces provenant d\'un autre corps. Elle peut également être utilisée pour relier une esquisse d\'un corps à un autre corps. L\'objet shape binder s\'affiche en jaune translucide dans la [vue 3D](3D_view/fr.md).
@@ -106,4 +108,7 @@ Double-cliquez sur l\'étiquette de la Référence liée à une forme dans la [v
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign ShapeBinder/fr

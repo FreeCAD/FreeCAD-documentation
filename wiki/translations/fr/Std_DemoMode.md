@@ -6,6 +6,8 @@
    Workbenches:Tous
 ---
 
+# Std DemoMode/fr
+
 ## Description
 
 La commande **Std Vue en rotation** fera tourner la caméra en continu dans une [vue 3D](3D_view/fr.md).
@@ -36,4 +38,7 @@ La commande **Std Vue en rotation** fera tourner la caméra en continu dans une 
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std DemoMode/fr

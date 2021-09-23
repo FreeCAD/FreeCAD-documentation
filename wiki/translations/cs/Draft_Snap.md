@@ -1,10 +1,4 @@
 # Draft Snap/cs
-
-
-
-
-
-
 {{TOCright}}
 
 ## Description
@@ -105,3 +99,6 @@ Note that after changing some preferences you must restart FreeCAD.
  
 
 [Category:User Documentation/cs](Category:User_Documentation/cs.md)
+
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap/cs

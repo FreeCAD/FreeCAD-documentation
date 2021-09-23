@@ -8,6 +8,8 @@
    SeeAlso:[Crear una Primitiva sustractiva](PartDesign_CompPrimitiveSubtractive/es.md)
 ---
 
+# PartDesign SubtractiveSphere/es
+
 ## Descripción
 
 Inserta una Esfera sustractiva en el Body (cuerpo) activo. Su forma es sustraída del sólido existente.
@@ -60,4 +62,7 @@ Tras su creación, la Esfera puede ser editada de dos maneras:
 
 {{PartDesign Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveSphere/es

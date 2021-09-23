@@ -7,6 +7,8 @@
    Shortcut:**A** **C**
 ---
 
+# Std AxisCross/fr
+
 ## Description
 
 La commande **Std Axes** bascule les axes du repère dans la [vue 3D](3D_view/fr.md) active.
@@ -53,4 +55,7 @@ FreeCADGui.ActiveDocument.ActiveView.hasAxisCross()
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std AxisCross/fr

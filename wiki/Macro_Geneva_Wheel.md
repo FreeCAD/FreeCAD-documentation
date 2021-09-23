@@ -1,5 +1,5 @@
 # Macro Geneva Wheel
-  {{Macro
+{{Macro
 |Name=Geneva Wheel
 |Icon=GW_Dim.png
 |Description=Allows the user to create a Geneva wheel mechanism from scratch. Must edit values within the Macro to alter the size of the object.
@@ -149,6 +149,5 @@ Part.show(driveCrank)
 Part.show(genevaWheel)
 }}
 
-
-
-
+---
+[documentation index](../README.md) > Macro Geneva Wheel

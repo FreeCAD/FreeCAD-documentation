@@ -1,3 +1,4 @@
+# Plot Axes/ro
 ---
 - GuiCommand:   Name:Plot Axes   MenuLocation:Plot → Axes‏‎   |Workbenches:[[Plot Module   Plot]]|Shortcut:   SeeAlso:---
 
@@ -45,3 +46,6 @@ Finally you can set the minimum and maximum values considered for each set of ax
 }} 
 
 [Category:External\_Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)
+
+---
+[documentation index](../README.md) > [External_Workbenches](Category:External_Workbenches.md) > Plot Axes/ro

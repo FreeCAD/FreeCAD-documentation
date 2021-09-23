@@ -1,5 +1,5 @@
 # PartDesign tutorial/de
- {{TutorialInfo/de
+{{TutorialInfo/de
 |Topic= Skizzieren
 |Level= Anfänger
 |Time= 15 Minuten
@@ -105,3 +105,6 @@ Nach Abschluss dieser Aufgabe solltest du das folgende Ergebnis haben.
 Wenn nicht, bearbeite den MehrfachUmwandlungs Vorgang erneut, indem du in der Baumansicht darauf doppelklickst. Überprüfe beide Muster Formelemente, um notwendige Modifikationen zu erkennen, wie z.B. die **Achse** und ob die **Richtung** umgekehrt werden muss.
 
 Wir sind jetzt mit dem grundlegenden Workflow für den [PartDesign Arbeitsbereich](PartDesign_Workbench/de.md) fertig.
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign tutorial/de

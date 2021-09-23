@@ -1,3 +1,4 @@
+# Sketcher ConstrainHorizontal/es
 ---
 - GuiCommand:/es   Name:Constraint Horizontal   Name/es:Constraint Horizontal   Workbenches:[Diseño de Piezas](Sketcher_Workbench/es___Croquizador]],_[[PartDesign_Workbench/es.md)|MenuLocation:Croquizador → Restricciones del Croquizador → Restricción Horizontal   SeeAlso:[Vertical](Constraint_Vertical/es.md)---
 
@@ -38,4 +39,7 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainHorizontal/es

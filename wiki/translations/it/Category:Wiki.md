@@ -6,3 +6,6 @@ This category contains all documents that relate to the Wiki/it.
 [Glossary/it](Glossary/it.md) , [Italian Translation](Italian_Translation.md) , [Localisation Sidebar/it](Localisation_Sidebar/it.md) , [Localisation/it](Localisation/it.md)
 
 [Category:Administration/it](Category:Administration/it.md) [Category:Categories/it](Category:Categories/it.md) [Category:Documentation/it](Category:Documentation/it.md)
+
+---
+[documentation index](../README.md) > Category:Wiki/it

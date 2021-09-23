@@ -8,6 +8,8 @@
    SeeAlso:[Crear una primitiva aditiva](PartDesign_CompPrimitiveAdditive/es.md), [Cilindro sustractivo](PartDesign_SubtractiveCylinder/es.md)
 ---
 
+# PartDesign AdditiveCylinder/es
+
 ## Descripción
 
 Inserta un Cilindro primitivo en el Cuerpo activo como primera característica, o lo fusiona con la(s) característica(s) existente(s).
@@ -64,4 +66,7 @@ Tras su creación, el Cilindro puede ser editado de dos maneras:
 
 {{PartDesign Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveCylinder/es

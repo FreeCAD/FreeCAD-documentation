@@ -1,3 +1,4 @@
+# PartDesign SubtractiveEllipsoid/it
 ---
 - GuiCommand:/it   Name:PartDesign SubtractiveEllipsoid   Name/it:Ellissoide sottrattivo   Workbenches:[MenuLocation:Part Design → Crea una primitiva sottrattiva → Ellissoide   Version:0.17   SeeAlso:[[PartDesign CompPrimitiveSubtractive/it|Primitive sottrattive](PartDesign_Workbench/it___PartDesign]].md)---
 
@@ -74,4 +75,7 @@ Dopo la sua creazione l\'ellissoide può essere modificato in due modi:
 
 {{PartDesign Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveEllipsoid/it

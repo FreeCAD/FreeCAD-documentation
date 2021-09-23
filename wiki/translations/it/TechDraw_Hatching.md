@@ -1,7 +1,4 @@
 # TechDraw Hatching/it
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -102,4 +99,7 @@ Il file `FCPAT.pat` può essere trovato nel seguente percorso:
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Hatching/it

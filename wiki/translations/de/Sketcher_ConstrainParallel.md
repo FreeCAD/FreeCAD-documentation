@@ -8,6 +8,8 @@
    SeeAlso:[Skizzierer Beschränkung Vertikal](Sketcher_ConstrainVertical/de.md), [Skizzierer Beschränkung Horizontal](Sketcher_ConstrainHorizontal/de.md)
 ---
 
+# Sketcher ConstrainParallel/de
+
 ## Beschreibung
 
 Die Beschränke Parallel Beschränkung zwingt zwei gewählte gerade Linien oder Ecken zur Parallelität zueinander.
@@ -47,4 +49,7 @@ Die [Skizzierer Skripten](Sketcher_scripting/de.md)-Seite erklärt die Werte, di
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainParallel/de

@@ -1,3 +1,4 @@
+# Part Extrude/it
 ---
 - GuiCommand:/it   Name:Part_Extrude   Name/it:Estrusione   MenuLocation:Parte → Estrudi...   Workbenches:[SeeAlso:[[Draft Trimex/it|Tronca o estendi](Part_Workbench/it___Parte]].md)---
 
@@ -165,5 +166,5 @@ L\'estrusione di Part può estrudere qualsiasi oggetto che abbia una Part Geomet
 
 </div>
 
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Extrude/it

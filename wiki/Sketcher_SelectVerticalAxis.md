@@ -7,6 +7,8 @@
    Version:0.15
 ---
 
+# Sketcher SelectVerticalAxis
+
 ## Description
 
 Selects the vertical axis of a sketch.
@@ -20,4 +22,7 @@ Selects the vertical axis of a sketch.
 
 
 
- {{Sketcher Tools navi}}  
+ {{Sketcher Tools navi}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectVerticalAxis

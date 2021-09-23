@@ -1,7 +1,4 @@
 # Macro VisibleAlls/fr
-
-
-
 {{Macro/fr
 |Name=Macro VisibleAlls
 |Icon=Macro_VisibleAlls.png
@@ -42,6 +39,5 @@ except Exception:
     None
 ```
 
-
-
-
+---
+[documentation index](../README.md) > Macro VisibleAlls/fr

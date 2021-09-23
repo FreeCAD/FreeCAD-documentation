@@ -1,3 +1,4 @@
+# Part Box/cs
 ---
 - GuiCommand:/cs   Name:Part Box   MenuLocation:Part → Box   |Workbenches:[SeeAlso:[[Part_CreatePrimitives|Part CreatePrimitives](Part_Workbench___Part]],_Complete.md)---
 
@@ -63,8 +64,5 @@ You can change its placement with:
 FreeCAD.ActiveDocument.myBox.Placement = FreeCAD.Placement(FreeCAD.Vector(4, 6, 3), FreeCAD.Rotation(30, 45, 10))
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Box/cs

@@ -8,6 +8,8 @@
    SeeAlso:[PartDesign Hélice soustractive](PartDesign_SubtractiveHelix/fr.md)
 ---
 
+# PartDesign AdditiveHelix/fr
+
 ## Description
 
 L\'outil **Hélice additive** crée un solide en balayant une esquisse ou un objet 2D sélectionné le long d\'une hélice.
@@ -125,4 +127,7 @@ Si coché, l\'hélice sera affichée dans la vue et la mise à jour sera automat
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveHelix/fr

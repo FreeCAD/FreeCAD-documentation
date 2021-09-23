@@ -6,6 +6,8 @@
    SeeAlso:[Std FreeCADUserHub](Std_FreeCADUserHub.md), [Std FreeCADPowerUserHub](Std_FreeCADPowerUserHub.md), [Std FreeCADForum](Std_FreeCADForum.md), [Std FreeCADFAQ](Std_FreeCADFAQ.md)
 ---
 
+# Std FreeCADWebsite/en
+
 ## Description
 
 The **Std FreeCADWebsite** command opens the main website of the FreeCAD project in the system\'s default Internet browser. The command requires a working Internet connection.
@@ -22,4 +24,7 @@ Currently the command points to [<https://www.freecadweb.org>](https://www.freec
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std FreeCADWebsite/en

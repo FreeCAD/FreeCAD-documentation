@@ -8,6 +8,8 @@
    SeeAlso:[Reinforcement](Reinforcement_Workbench/fr.md), [Reinforcement Tableau des armatures](Reinforcement_Bar_Bending_Schedule/fr.md), [Arch Rebar Dimensions des armatures](Arch_Rebar_Drawing_Dimensioning/fr.md)
 ---
 
+# Arch Rebar BOM/fr
+
 ## Description
 
 L\'outil [Nomenclature (BOM)](Arch_Rebar_BOM/fr.md) permet à l\'utilisateur de créer une nomenclature de barres d\'armature.
@@ -525,3 +527,6 @@ BillOfMaterial_SVG.makeBillOfMaterialSVG(
 
 
 [Category:External Command Reference](Category:External_Command_Reference.md) [Category:Reinforcement](Category:Reinforcement.md)
+
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Rebar BOM/fr

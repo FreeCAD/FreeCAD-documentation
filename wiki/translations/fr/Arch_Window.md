@@ -8,6 +8,8 @@
    SeeAlso:[Arch Mur](Arch_Wall/fr.md), [Arch Ajouter](Arch_Add/fr.md)
 ---
 
+# Arch Window/fr
+
 ## Description
 
 Un objet [Arch Fenêtre](Arch_Window/fr.md) est un objet de base pour toutes sortes d\'objets **intégrables**, comme les fenêtres et portes. Il est conçu pour être indépendant ou devenir **hôte** à l\'intérieur d\'un autre composant comme un [Arch Mur](Arch_Wall/fr.md), un élément d\'une [Arch Structure](Arch_Structure/fr.md) ou d\'un [Arch Toit](Arch_Roof/fr.md). Il a sa propre forme géométrique, qui peut être fait de plusieurs composants (généralement un cadre et des panneaux intérieurs) et définit également un volume à soustraire aux objets hôtes, afin de créer une ouverture.
@@ -222,11 +224,5 @@ Door = Arch.makeWindowPreset("Simple door",
                              placement=place)
 ```
 
-
-
-
-
-
-
-
-
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Window/fr

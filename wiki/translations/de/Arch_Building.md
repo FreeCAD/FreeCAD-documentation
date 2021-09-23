@@ -7,6 +7,8 @@
    SeeAlso:[Arch Gebäudeteil](Arch_BuildingPart/de.md), [Arch Baugrund](Arch_Site/de.md)
 ---
 
+# Arch Building/de
+
 ## Beschreibung
 
 Ein Gebäude ist ein spezielles FreeCAD Gruppenobjekt, welches sich besonders dafür eignet, eine ganze Gebäudeeinheit zu repräsentieren. Ein Gebäude hilft so bei der Organisation des Modells, es enthält als Untereinheiten [Etagen](Arch_Floor/de.md) Objekte.
@@ -64,8 +66,5 @@ Site = Arch.makeSite(Building)
 FreeCAD.ActiveDocument.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Building/de

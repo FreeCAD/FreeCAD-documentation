@@ -1,5 +1,5 @@
 # Macro Mouse over cb/it
- {{Macro/it
+{{Macro/it
 |Name=Macro Mouse over cb
 |Icon=Macro_Mouse_over_cb.png
 |Translate=Macro Mouse over cb
@@ -65,3 +65,6 @@ mouse_over = view.addEventCallbackPivy( coin.SoLocation2Event.getClassTypeId(), 
 La discussione sul foro [finding/selecting all elements below cursor](https://forum.freecadweb.org/viewtopic.php?f=10&t=19072)
 
 Altra similare macro [Selecting internal faces of a pressure vessel](https://forum.freecadweb.org/viewtopic.php?f=18&t=12381&p=151950#p151950) (carica il file [FC\_element\_selector\_v1p1p1.py](https://forum.freecadweb.org/download/file.php?id=31041))
+
+---
+[documentation index](../README.md) > Macro Mouse over cb/it

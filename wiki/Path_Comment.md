@@ -5,6 +5,8 @@
    Workbenches:[Path](Path_Workbench.md)
 ---
 
+# Path Comment
+
 ## Description
 
 This tool inserts a comment. When exporting a project to G-code, the comments will be inserted in the G-code program, and can be read by people reading the file. Some machine controllers will also display comments on their display screens.
@@ -35,4 +37,7 @@ Example:
 
 
 
- {{Path_Tools_navi}} 
+ {{Path_Tools_navi}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Comment

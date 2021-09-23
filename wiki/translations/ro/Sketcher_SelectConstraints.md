@@ -1,3 +1,4 @@
+# Sketcher SelectConstraints/ro
 ---
 - GuiCommand:/ro   Name:Sketcher SelectConstraints   Workbenches:[[Sketcher Workbench   Sketcher]]|MenuLocation:Sketch → Sketcher tools → Select Constraints   Shortcut:Shift+Ctrl+C   SeeAlso:   Version:0.15---
 
@@ -42,4 +43,7 @@ Nu funcționează cu constrângeri Point-on-Object constraints. Disponibil înce
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectConstraints/ro

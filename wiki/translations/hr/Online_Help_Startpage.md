@@ -1,7 +1,4 @@
 # Online Help Startpage/hr
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -55,3 +52,6 @@ Kao što ste možda ponekad doživjeli, programeri su stvarno loši pisci pomoć
 
 
 [Category:User\_Documentation](Category:User_Documentation.md)
+
+---
+[documentation index](../README.md) > [User_Documentation](Category:User_Documentation.md) > Online Help Startpage/hr

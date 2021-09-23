@@ -1,5 +1,5 @@
 # Screenshots/tr
- {{TOCright}}
+{{TOCright}}
 
 Here are a few screenshots showing different parts of FreeCAD. They are not ordered in any particular timeline, so the images may differ from your actual version. See more screenshots submitted by FreeCAD users on the [screenshot forum thread](http://forum.freecadweb.org/viewtopic.php?f=8&t=4751) and on the [\"Show your project here!\" Users Showcase forum part](http://forum.freecadweb.org/viewforum.php?f=24).
 
@@ -202,3 +202,6 @@ FreeCAD runs in console mode (without gui)
 Dialog to save a picture with arbitrary sizes.
 
 [Category:User\_Documentation/tr](Category:User_Documentation/tr.md) [Category:Screenshots/tr](Category:Screenshots/tr.md)
+
+---
+[documentation index](../README.md) > Screenshots/tr

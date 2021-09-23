@@ -1,7 +1,4 @@
 # Manual:Import and export to other filetypes/ro
- 
-
-
 {{Manual:TOC/ro}}
 
 FreeCAD poate importa și exporta multe tipuri de fișiere. Iată o listă cu cele mai importante, cu o scurtă descriere a caracteristicilor disponibile:
@@ -61,3 +58,6 @@ Unele dintre aceste formate de fișiere au opțiuni. Acestea pot fi configurate 
 
 
 [Category:Poweruser Documentation](Category:Poweruser_Documentation.md) [Category:Tutorials](Category:Tutorials.md)
+
+---
+[documentation index](../README.md) > [Poweruser Documentation](Category:Poweruser Documentation.md) > Manual:Import and export to other filetypes/ro

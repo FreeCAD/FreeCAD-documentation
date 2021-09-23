@@ -7,6 +7,8 @@
    Version:0.17
 ---
 
+# Spreadsheet CreateSheet/it
+
 
 </div>
 
@@ -26,4 +28,7 @@ Lo strumento <img alt="" src=images/Spreadsheet_CreateSheet.svg  style="width:16
 
 {{Spreadsheet_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet CreateSheet/it

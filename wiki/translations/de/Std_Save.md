@@ -1,3 +1,4 @@
+# Std Save/de
 ---
 - GuiCommand:/de   Name/de:Std Save   MenuLocation:[Workbenches:Alle   Shortcut:**Strg**+**S**   SeeAlso:[[Std_SaveAs/de|Speichern unter...](Std_File_Menu/de___Datei]]_→_Speichern.md)---
 
@@ -43,4 +44,7 @@ To save a document use the `save` method of the document object. A new document 
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std Save/de

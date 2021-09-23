@@ -1,11 +1,4 @@
 # Path Postprocessor Customization
- 
-
-
-
-
- 
-
 ## Introduction
 
 FreeCAD uses as internal representation for the generated paths, so called G-codes. They can describe such things as: speed and feed rates, stopping the motor etc\... But the most important thing is the movements they describe. These movements are rather simple: They can be straight lines or they can be circular arcs. More sophisticated curves such as B-splines are already approximated by FreeCAD\'s <img alt="" src=images/Workbench_Path.svg  style="width:24px;"> [Path Workbench](Path_Workbench.md).
@@ -99,4 +92,7 @@ You\'ll see that both functions also call the \"linenumber()\" function. If the 
 
 
 
- {{Path_Tools_navi}} 
+ {{Path_Tools_navi}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Postprocessor Customization

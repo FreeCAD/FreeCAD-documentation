@@ -7,6 +7,8 @@
    SeeAlso:[TechDraw Anmerkung](TechDraw_Annotation/de.md)
 ---
 
+# TechDraw Balloon/de
+
 ## Beschreibung
 
 Das Werkzeug Stücklistensymbol kann Stücklistensymbole mit Führungslinie einer Zeichnung hinzufügen.
@@ -98,4 +100,7 @@ rc = page.addView(bal1)
 
 {{TechDraw Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Balloon/de

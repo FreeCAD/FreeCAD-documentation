@@ -1,3 +1,4 @@
+# Sketcher CreateRegularPolygon/it
 ---
 - GuiCommand:/it   Name:Sketcher CreateRegularPolygon   Name/it:Poligono regolare   Workbenches:[[Sketcher Workbench/it   Sketcher]]|MenuLocation:Sketch → Geometrie → Crea poligono regolare   Shortcut:   SeeAlso:---
 
@@ -48,4 +49,7 @@ Quando si edita lo schizzo il cerchio circoscritto è visibile, quando si chiude
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateRegularPolygon/it

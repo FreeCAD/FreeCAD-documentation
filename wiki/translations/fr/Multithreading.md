@@ -1,7 +1,4 @@
 # Multithreading/fr
-
-
-
 **Il s'agit d'un billet qui doit être développé.**
 
 ## Multithreading dans FreeCAD 
@@ -21,3 +18,6 @@
 }}
 
 [Category:Developer Documentation](Category:Developer_Documentation.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Multithreading/fr

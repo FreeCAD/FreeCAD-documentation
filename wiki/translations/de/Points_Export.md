@@ -6,6 +6,8 @@
    SeeAlso:[Import Export](Import_Export/de.md)
 ---
 
+# Points Export/de
+
 ## Beschreibung
 
 Der **Punkte Export** Befehl exportiert eine Punktwolke in eine Datei.
@@ -25,4 +27,7 @@ Der **Punkte Export** Befehl exportiert eine Punktwolke in eine Datei.
 
 {{Points Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Points](Points_Workbench.md) > Points Export/de

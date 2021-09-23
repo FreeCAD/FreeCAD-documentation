@@ -1,9 +1,4 @@
 # Glossary/ru
-
-
-
-
-
 Эта страница содержит общую терминологию FreeCAD и их определения. {{CompactTOC|center=yes}}
 
 Jump to letter: {{CompactTOC|center=yes}}
@@ -1140,3 +1135,6 @@ Jump to letter: {{CompactTOC|center=yes}}
 
 
 [Category:Wiki](Category:Wiki.md) [Category:Glossary](Category:Glossary.md)
+
+---
+[documentation index](../README.md) > [Wiki](Category:Wiki.md) > Glossary/ru

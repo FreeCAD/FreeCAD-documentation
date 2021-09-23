@@ -8,6 +8,8 @@
    SeeAlso:[Blocca](Sketcher_ConstrainBlock/it.md), [Punto su oggetto](Sketcher_ConstrainPointOnObject/it.md)
 ---
 
+# Sketcher ConstrainCoincident/it
+
 
 </div>
 
@@ -106,4 +108,7 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainCoincident/it

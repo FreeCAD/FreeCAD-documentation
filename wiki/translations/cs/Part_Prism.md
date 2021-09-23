@@ -1,3 +1,4 @@
+# Part Prism/cs
 ---
 - GuiCommand:/cs   Name:Part Prism   Name/cs:Part Prism   MenuLocation:Part → [Workbenches:[[Part_Workbench/cs   Part](Part_CreatePrimitives/cs___Create_Primitives]]_→_Prism.md), [OpenSCAD](OpenSCAD_Workbench/cs.md)|SeeAlso:Part → Primitives → [Box](Part_Box/cs.md)---
 
@@ -26,10 +27,7 @@ The prism properties can later be edited, either in the [Property editor](Proper
 
 -    **First Angle**: Angle in first direction. <small>(v0.19)</small> 
 
--    **Second Angle**: Angle in second direction. <small>(v0.19)</small> 
+-    **Second Angle**: Angle in second direction. <small>(v0.19)</small>
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Prism/cs

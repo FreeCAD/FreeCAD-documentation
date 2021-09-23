@@ -1,5 +1,5 @@
 # FreeCAD and DWG Import/de
- {{TOCright}}
+{{TOCright}}
 
 
 {{Fake heading|sub=4|< Back to [[FreeCAD Howto Import Export]]}}
@@ -128,3 +128,6 @@ In der Entwicklungsversion kannst du, wie oben erwähnt, vom proprietären ODA K
  
 
 [Category:File\_Formats](Category:File_Formats.md) [Category:Common Questions](Category:Common_Questions.md)
+
+---
+[documentation index](../README.md) > [File_Formats](Category:File_Formats.md) > FreeCAD and DWG Import/de

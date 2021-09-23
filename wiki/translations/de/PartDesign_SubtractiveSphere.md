@@ -8,6 +8,8 @@
    SeeAlso:[Erzeuge einen abzuziehenden Grundkörper](PartDesign_CompPrimitiveSubtractive/de.md)
 ---
 
+# PartDesign SubtractiveSphere/de
+
 ## Beschreibung
 
 Fügt eine abzuziehende Kugel in den aktiven Körper (Body) ein. Die Form wird von dem existierenden Volumenkörper abgezogen.
@@ -60,4 +62,7 @@ Die Kugel kann auf zwei verschieden Wege bearbeitet werden:
 
 {{PartDesign Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveSphere/de

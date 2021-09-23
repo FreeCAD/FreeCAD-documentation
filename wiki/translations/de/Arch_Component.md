@@ -7,6 +7,8 @@
    Shortcut:**C** **M‏‎**
 ---
 
+# Arch Component/de
+
 ## Beschreibung
 
 Erstellt eine nicht-parametrische [Arch](Arch_Workbench/de.md)-Komponente aus jedem [Part](Part_Workbench/de.md)-basierten Objekt. Dies gibt dem Part-basierten Objekt die gleichen Attribute und Eigenschaften wie anderen Arch-Objekten und erlaubt über das Setzen der **Rollen**-Eigenschaft festzulegen, wie sie nach IFC exportiert werden soll.
@@ -47,11 +49,5 @@ Das Arch-Komponenten-Objekten ist auch eine Basis, die von allen anderen Arch-Ob
 
 -   **Hi Res**: Arch-Komponenten können die Form eines anderen Objekts als eine höher auflösendere Version von sich selbst verwenden. Dafür müssen sowohl die Hi Res-Eigenschaft als auch der Hi Res-Anzeigemodus gesetzt sein. Dies erlaubt z.B. eine einfache Wand zu erstellen und dann jeden Backstein, aus dem die Wand besteht, zu modellieren, bspw. mit **<img src="images/Part_Box.svg" width=16px> [Part Box](Part_Box/de.md)**. Dann kann man einen Verbund dieser Backsteine als eine höher auflösende Version der Wand benutzen. Die Form der Wand wird durch die Verwendung eines Hi Res-Objekts nicht verändert. Lediglich seine Darstellung in der 3D-Ansicht wird sich durch Übernahme der höher auflösenden Version verändern.
 
-
-
-
-
-
-
-
-
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Component/de

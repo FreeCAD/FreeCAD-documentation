@@ -5,6 +5,8 @@
    Workbenches:[OpenSCAD](OpenSCAD_Workbench.md)
 ---
 
+# OpenSCAD ReplaceObject
+
 ## Description
 
 Replace an object in the feature [tree view](Tree_view.md).
@@ -23,4 +25,7 @@ You can use this feature for example to substitute a part inside a fusion/cut/co
 
 
 
- {{OpenSCAD_Tools_navi}} 
+ {{OpenSCAD_Tools_navi}}
+
+---
+[documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD ReplaceObject

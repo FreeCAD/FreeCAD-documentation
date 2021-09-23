@@ -1,10 +1,4 @@
-# Mesh Workbench
- 
-
-
-
-
-<img alt="Mesh workbench icon" src=images/Workbench_Mesh.svg  style="width:128px;">
+# <img alt="Mesh workbench icon" src=images/Workbench_Mesh.svg  style="width:64px;"> Mesh Workbench
 
  
 
@@ -107,3 +101,6 @@ Mesh Workbench preferences can be found in the following categories of the [Pref
  {{Mesh Tools navi}} 
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Mesh Workbench

@@ -6,6 +6,8 @@
    SeeAlso:[Std Group](Std_Group.md), [Draft AddToGroup](Draft_AddToGroup.md), [Draft AddConstruction](Draft_AddConstruction.md), [Draft AutoGroup](Draft_AutoGroup.md)
 ---
 
+# Draft SelectGroup/pl
+
 ## Description
 
 The <img alt="" src=images/Draft_SelectGroup.svg  style="width:24px;"> **Draft SelectGroup** command selects the content of [Draft Layers](Draft_Layer.md), [Std Groups](Std_Group.md) or group-like [Arch](Arch_Workbench.md) objects.
@@ -28,8 +30,5 @@ The command currently does not work well with layers and can produce confusing r
 
 -   For more information about organizing your model see [Document structure](Document_structure.md) and [Arch tutorial](Arch_tutorial#Organizing_your_model.md).
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft SelectGroup/pl

@@ -8,6 +8,8 @@
    SeeAlso:[Wiązanie blokady odległości](Sketcher_ConstrainLock/pl.md), [wiązanie punkt na obiekcie](Sketcher_ConstrainPointOnObject/pl.md)
 ---
 
+# Sketcher ConstrainCoincident/pl
+
 ## Opis
 
 Stwórz wiązanie zbieżności z wybraną pozycją.
@@ -81,4 +83,7 @@ Strona [skrypty w środowiszku szkicownika](Sketcher_scripting.md) opisuje warto
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainCoincident/pl

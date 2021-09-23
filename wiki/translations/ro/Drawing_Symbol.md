@@ -1,3 +1,4 @@
+# Drawing Symbol/ro
 ---
 - GuiCommand:   Name:Drawing Symbol   Workbenches:[[Drawing Workbench   Drawing]], Complete|MenuLocation:Drawing → Symbol   Shortcut:none---
 
@@ -32,4 +33,7 @@ Această comandă vă permite să adăugați conținutul unei imagini SVG pe un 
 
 {{Drawing Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Symbol/ro

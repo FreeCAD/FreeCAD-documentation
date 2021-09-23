@@ -1,6 +1,4 @@
 # Artwork Start
-  
-
 These icons are in the indicated source path.
 
 For all icons in the source tree, see [Artwork](Artwork.md).
@@ -32,3 +30,6 @@ The following image has been re-sized to a display width of 480 pixels:
  
 
 [Category:Start](Category:Start.md)
+
+---
+[documentation index](../README.md) > [Start](Category:Start.md) > Artwork Start

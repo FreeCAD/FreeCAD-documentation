@@ -1,7 +1,10 @@
 # CAM project/tr
- CAM tezgahı ve projesi kullanımdan kaldırılmıştır. Bunun yerine [ CNC G-Kodu tezgahı](Path_Workbench/tr.md) bölümüne bakın.
+CAM tezgahı ve projesi kullanımdan kaldırılmıştır. Bunun yerine [ CNC G-Kodu tezgahı](Path_Workbench/tr.md) bölümüne bakın.
 
 
 
 
 [Category:Roadmap](Category:Roadmap.md)
+
+---
+[documentation index](../README.md) > [Roadmap](Category:Roadmap.md) > CAM project/tr

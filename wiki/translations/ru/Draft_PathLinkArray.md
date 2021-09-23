@@ -8,6 +8,8 @@
    SeeAlso:[Array](Draft_Array/ru.md), [LinkArray](Draft_LinkArray/ru.md), [PathArray](Draft_PathArray/ru.md), [Draft Clone](Draft_Clone/ru.md)
 ---
 
+# Draft PathLinkArray/ru
+
 
 </div>
 
@@ -24,5 +26,5 @@ The <img alt="" src=images/Draft_PathLinkArray.svg  style="width:24px;"> **Draft
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft PathLinkArray/ru

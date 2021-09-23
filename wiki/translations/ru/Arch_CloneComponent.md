@@ -8,6 +8,8 @@
    SeeAlso:[Draft Clone](Draft_Clone/ru.md), [Arch Component](Arch_Component/ru.md)
 ---
 
+# Arch CloneComponent/ru
+
 
 </div>
 
@@ -46,5 +48,5 @@
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CloneComponent/ru

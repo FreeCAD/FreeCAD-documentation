@@ -1,5 +1,5 @@
 # SweetHome3D/pl
- ![](images/SweetHome3DLogo.png )
+![](images/SweetHome3DLogo.png )
 
 ## Wprowadzenie
 
@@ -16,3 +16,6 @@
 
 
 [Category:3rd Party](Category:3rd_Party.md) [Category:Arch](Category:Arch.md)
+
+---
+[documentation index](../README.md) > [3rd Party](Category:3rd Party.md) > SweetHome3D/pl

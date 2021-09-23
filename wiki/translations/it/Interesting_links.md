@@ -1,7 +1,4 @@
 # Interesting links/it
-
-
-
 {{TOCright}}
 
 
@@ -129,3 +126,6 @@ Un\'altra pagina che contiene i link interessanti è il [Portale della comunità
 
 
 [Category:Documentation](Category:Documentation.md)
+
+---
+[documentation index](../README.md) > [Documentation](Category:Documentation.md) > Interesting links/it

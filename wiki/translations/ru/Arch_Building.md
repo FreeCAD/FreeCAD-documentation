@@ -8,6 +8,8 @@
    SeeAlso:[Строительная деталь](Arch_BuildingPart/ru.md), [Местность](Arch_Site/ru.md)
 ---
 
+# Arch Building/ru
+
 ## Описание
 
 Arch Building - это особый тип объекта группы FreeCAD, который особенно подходит для представления целого здания. Они в основном используются для организации вашей модели с помощью объектов [ floor](Arch_Floor.md).
@@ -62,8 +64,5 @@ Site = Arch.makeSite(Building)
 FreeCAD.ActiveDocument.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Building/ru

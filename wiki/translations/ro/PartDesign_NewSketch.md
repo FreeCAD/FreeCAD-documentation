@@ -1,3 +1,4 @@
+# PartDesign NewSketch/ro
 ---
 - GuiCommand:   Name:PartDesign NewSketch   Workbenches:[[PartDesign Workbench   PartDesign]], Complete|MenuLocation:Part Design → Create sketch   Shortcut:   SeeAlso:---
 
@@ -61,4 +62,7 @@ To reference any items in the <img src=images/Sketcher_CarbonCopy.svg style="wid
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign NewSketch/ro

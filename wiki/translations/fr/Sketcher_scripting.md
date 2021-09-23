@@ -1,5 +1,5 @@
 # Sketcher scripting/fr
- {{TOCright}}
+{{TOCright}}
 
 ## Créer une contrainte en Python 
 
@@ -200,4 +200,7 @@ La commande `Sketch.addConstraint(Sketcher.Constraint('Coincident',0,2,2,2))` do
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher scripting/fr

@@ -1,7 +1,4 @@
 # FEM tutorial/ru
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -221,4 +218,7 @@
 
 {{Tutorials navi
 
-}} {{FEM Tools navi}} 
+}} {{FEM Tools navi}}
+
+---
+[documentation index](../README.md) > FEM tutorial/ru

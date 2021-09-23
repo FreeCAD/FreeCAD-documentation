@@ -5,6 +5,8 @@
    Workbenches:[Plot](Plot_Module.md)
 ---
 
+# Plot Positions
+
 ## Description
 
 This tool allows the user to edit the position of some items like titles, axes labels and legend.
@@ -28,3 +30,6 @@ Select the plot tab that you want to edit, and run this tool. Then you can selec
  {{Plot_Tools_navi}} 
 
 [Category:External\_Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)
+
+---
+[documentation index](../README.md) > [External_Workbenches](Category:External_Workbenches.md) > Plot Positions

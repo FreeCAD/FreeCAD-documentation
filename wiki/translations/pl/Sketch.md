@@ -1,6 +1,4 @@
 # Sketch/pl
-
-
 ## Wprowadzenie
 
 
@@ -40,3 +38,6 @@ Niemniej jednak, Szkic zawsze może być stworzony samodzielnie w dowolnym innym
 }} {{Document objects navi}} 
 
 [Category:Glossary](Category:Glossary.md)
+
+---
+[documentation index](../README.md) > [Glossary](Category:Glossary.md) > Sketch/pl

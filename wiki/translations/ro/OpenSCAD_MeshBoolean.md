@@ -1,3 +1,4 @@
+# OpenSCAD MeshBoolean/ro
 ---
 - GuiCommand:   Name:OpenSCAD MeshBoolean   MenuLocation:OpenSCAD → Mesh Boolean...‏‎   |Workbenches:[[OpenSCAD Workbench   OpenSCAD]]|Shortcut:none   SeeAlso:------
 
@@ -53,4 +54,7 @@ Funcțiile necesara OpenSCAD sunt instalate și configurate pe traseul ** Edit**
 
 {{OpenSCAD_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD MeshBoolean/ro

@@ -4,3 +4,6 @@ This category collects pages related to artwork existing in the program, like ic
 ### Contents:
 
 [Category:Developer Documentation/hu](Category:Developer_Documentation/hu.md) [Category:Icon/hu](Category:Icon/hu.md)
+
+---
+[documentation index](../README.md) > Category:Artwork/hu

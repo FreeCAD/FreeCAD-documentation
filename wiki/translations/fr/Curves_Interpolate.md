@@ -6,6 +6,8 @@
    Workbenches:[Curves](Curves_Workbench/fr.md)
 ---
 
+# Curves Interpolate/fr
+
 ## Description
 
 <img alt="" src=images/Curves_Interpolate.svg  style="width:24px;"> [Curves Interpolation](Curves_Interpolate/fr.md) interpole les points avec une courbe B-spline. Cet outil fait partie des [ateliers externes](External_workbenches/fr.md) appelé [Curves](Curves_Workbench/fr.md).
@@ -31,4 +33,7 @@
 
 {{Curves Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > Curves Interpolate/fr

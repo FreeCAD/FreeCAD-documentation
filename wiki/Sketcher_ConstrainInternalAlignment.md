@@ -8,6 +8,8 @@
    SeeAlso:[Sketcher Show/Hide Internal Geometry](Sketcher_RestoreInternalAlignmentGeometry.md), [Sketcher Ellipse by Center](Sketcher_CreateEllipseByCenter.md)
 ---
 
+# Sketcher ConstrainInternalAlignment
+
 ## Description
 
 The InternalAlignment constraint aligns lines and points to particular places of a complex sketcher element (there is just one \"complex\" element so far, the [Ellipse](Sketcher_CreateEllipseByCenter.md)).
@@ -52,4 +54,7 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 
 
- {{Sketcher Tools navi}}  
+ {{Sketcher Tools navi}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainInternalAlignment

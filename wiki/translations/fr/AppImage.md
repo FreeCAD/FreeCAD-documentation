@@ -1,5 +1,5 @@
 # AppImage/fr
- **Depuis le 7 juillet 2019, la communauté FreeCAD observe que le téléchargement d'AppImages à partir de Github semble s'arrêter avant la fin du téléchargement. Nous ne savons pas pourquoi cela se produit. Si cela se produit pour vous, essayez de télécharger à nouveau. Il se pourrait que vous deviez faire plusieurs essais. Une pratique recommandée consiste à utiliser la [https://www.freecadweb.org/wiki/AppImage/fr#Mise_à_jour_automatique fonction de mise à jour automatique] AppImage, qui restaurera le téléchargement à partir de l'endroit où il a échoué.**
+**Depuis le 7 juillet 2019, la communauté FreeCAD observe que le téléchargement d'AppImages à partir de Github semble s'arrêter avant la fin du téléchargement. Nous ne savons pas pourquoi cela se produit. Si cela se produit pour vous, essayez de télécharger à nouveau. Il se pourrait que vous deviez faire plusieurs essais. Une pratique recommandée consiste à utiliser la [https://www.freecadweb.org/wiki/AppImage/fr#Mise_à_jour_automatique fonction de mise à jour automatique] AppImage, qui restaurera le téléchargement à partir de l'endroit où il a échoué.**
 
 
 {{TOCright}}
@@ -172,3 +172,6 @@ Le dépôt de ces scripts se trouve à [realthunder/FreeCADMakeImage](https://gi
 
 
 [Category:Packaging](Category:Packaging.md) [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Testing](Category:Testing.md)
+
+---
+[documentation index](../README.md) > [Packaging](Category:Packaging.md) > AppImage/fr

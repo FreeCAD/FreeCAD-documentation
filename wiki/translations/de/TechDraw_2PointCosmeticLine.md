@@ -8,6 +8,8 @@
    SeeAlso:[TechDraw Mittellinie zu Fläche(n)](TechDraw_FaceCenterLine/de.md), [TechDraw Mittellinie zwischen 2 Linien](TechDraw_2LineCenterLine/de.md)
 ---
 
+# TechDraw 2PointCosmeticLine/de
+
 
 </div>
 
@@ -60,4 +62,7 @@ Kosmetiklinien können mit den Methoden makeCosmeticLine(v1, v2) oder makeCosmet
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw 2PointCosmeticLine/de

@@ -8,6 +8,8 @@
    SeeAlso:[Arch Structure](Arch_Structure/fr.md)
 ---
 
+# Arch Wall/fr
+
 ## Description
 
 Cet outil crée un objet mur à partir de zéro ou sur la base de n\'importe quel objet [forme de Part](Part_Workbench/fr.md) ou sur la base de n\'importe quel objet [mesh](Mesh_Workbench/fr.md). Un mur peut être construit sans objet de base, il se comportera alors comme un volume cubique, il sera construit à l\'aide des propriétés de longueur, largeur et hauteur. Lorsque qu\'il est construit sur une forme existante, le mur peut être basé sur :
@@ -138,11 +140,5 @@ Draft.move(Wall2, FreeCAD.Vector(0, -1000, 0))
 FreeCAD.ActiveDocument.recompute()
 ```
 
-
-
-
-
-
-
-
-
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Wall/fr

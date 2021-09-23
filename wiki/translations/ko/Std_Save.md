@@ -8,6 +8,8 @@
    SeeAlso:[표준 다른 이름으로 저장](Std_SaveAs/ko.md), [표준 사본 저장](Std_SaveCopy/ko.md), [표준 모두 저장](Std_SaveAll/ko.md)
 ---
 
+# Std Save/ko
+
 ## 설명
 
 **표준 저장(Std Save)** 명령은 활성 문서를 저장합니다.
@@ -53,4 +55,7 @@
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std Save/ko

@@ -7,6 +7,8 @@
    SeeAlso:
 ---
 
+# Sketcher Create3PointArc/zh-cn
+
 ## 描述
 
 此工具通过用户拾取的3个点：弧上的起始点、终点以及弧上另一点来创建一条弧。
@@ -30,4 +32,7 @@
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Create3PointArc/zh-cn

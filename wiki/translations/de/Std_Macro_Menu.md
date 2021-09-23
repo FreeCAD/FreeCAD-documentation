@@ -1,10 +1,4 @@
-# Std Macro Menu/de
-
-
-
-
-
-<img alt="Std Basis Symbol" src=images/Freecad.svg  style="width:128px;">
+# <img alt="Std Basis Symbol" src=images/Freecad.svg  style="width:64px;"> Std Macro Menu/de
 
 
 {{TOCright}}
@@ -70,3 +64,6 @@ Führt das Makro aus, das sich derzeit im Python Editor befindet.
 }}  
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > [Workbenches](Category:Workbenches.md) > Std Macro Menu/de

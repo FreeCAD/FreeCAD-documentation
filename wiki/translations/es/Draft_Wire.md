@@ -9,6 +9,8 @@
    SeeAlso:[Línea Boceto](Draft_Line/es.md), [BSpline Boceto](Draft_BSpline/es.md)
 ---
 
+# Draft Wire/es
+
 
 </div>
 
@@ -209,8 +211,5 @@ wire3 = Draft.make_wire([1.3*p3, p1, -1.7*p2], closed=True)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Wire/es

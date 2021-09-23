@@ -4,3 +4,6 @@ This category contains articles about the usage of FreeCAD. It is also the centr
 ### Contents:
 
 [Category:Documentation/zh-hans](Category:Documentation/zh-hans.md) [Category:Workbenches/zh-hans](Category:Workbenches/zh-hans.md)
+
+---
+[documentation index](../README.md) > Category:User Documentation/zh-hans

@@ -7,6 +7,8 @@
    SeeAlso:[Arch MeshToShape](Arch_SplitMesh]],_[[Arch_MeshToShape.md)
 ---
 
+# Arch SelectNonSolidMeshes/ro
+
 
 </div>
 
@@ -37,8 +39,5 @@ Acest instrument identifică și selectează obiecte non solide/neprintabile 3D 
 
 </div>
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SelectNonSolidMeshes/ro

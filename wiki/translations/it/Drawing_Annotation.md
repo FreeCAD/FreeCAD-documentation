@@ -7,6 +7,8 @@
    Shortcut:Nessuno
 ---
 
+# Drawing Annotation/it
+
 
 </div>
 
@@ -41,4 +43,7 @@ Questo comando consente di posizionare un blocco di testo in una [pagina di dise
 
 {{Drawing Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Annotation/it

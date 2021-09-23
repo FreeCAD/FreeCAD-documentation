@@ -1,7 +1,4 @@
 # Measurement Of Angles On Holes/de
-
-
-
 {{TutorialInfo/de
 |Topic=TechDraw
 |Level=Basis
@@ -41,4 +38,7 @@ Die erzeugte Mittellinie kann sich ändern. Wähle die Mittellinie aus, und drü
 Quadrantenpunkte wähle mit <img alt="" src=images/TechDraw_Quadrants.svg  style="width:24px;"> aus der Werkzeugleiste. Wähle als nächstes die Punkte wie unten gezeigt und verwende <img alt="" src=images/TechDraw_Dimension_Angle3Pt.svg  style="width:24px;"> aus der Werkzeugleiste, um den Winkel zu erstellen. Andere Reihenfolgen erzeugen andere Winkel. Gibt es keinen Fangpunkt auf der Mittellinie, ändere die \"ISO Zahl\" in den Eigenschaften.
 
 <img alt="" src=images/AnHi11.PNG  style="width:250px;">
-*Oben: Reihenfolge der Auswahl|center* {{TechDraw Tools navi}} {{Tutorials navi}} 
+*Oben: Reihenfolge der Auswahl|center* {{TechDraw Tools navi}} {{Tutorials navi}}
+
+---
+[documentation index](../README.md) > Measurement Of Angles On Holes/de

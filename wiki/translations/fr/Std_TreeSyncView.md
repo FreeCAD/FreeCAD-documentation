@@ -8,6 +8,8 @@
    Version:0.19
 ---
 
+# Std TreeSyncView/fr
+
 ## Description
 
 La commande **Std Vue synchronisation** bascule le mode SyncView de la [vue en arborescence](tree_view/fr.md). Si ce mode est activé, la sélection d\'un objet dans un autre document dans l\'arborescence active automatiquement la dernière [vue 3D](3D_view/fr.md) ancrée et utilisée de ce document.
@@ -29,4 +31,7 @@ Le mode Synchronisation de vue de l\'arborescence peut également être défini 
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std TreeSyncView/fr

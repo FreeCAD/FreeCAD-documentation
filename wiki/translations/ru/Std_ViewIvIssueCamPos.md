@@ -7,6 +7,8 @@
    SeeAlso:[Std FreezeViews](Std_FreezeViews/ru.md)
 ---
 
+# Std ViewIvIssueCamPos/ru
+
 ## Описание
 
 The **Std ViewIvIssueCamPos** command prints the camera settings of the active [3D view](3D_view.md) in the [Report view](Report_view.md) and the [Python console](Python_console.md).
@@ -48,4 +50,7 @@ FreeCADGui.ActiveDocument.ActiveView.getCamera()
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ViewIvIssueCamPos/ru

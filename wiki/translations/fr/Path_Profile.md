@@ -7,6 +7,8 @@
    Version:0.19
 ---
 
+# Path Profile/fr
+
 ## Description
 
 L\'outil **<img src="images/Path_Profile.png" width=16px> [Profile](Path_Profile/fr.md)** crée une opération de contour basée sur les fonctions sélectionnées du modèle. L\'outil a été introduit dans la version 0.19. Il propose trois opérations qui étaient gérées par des outils distincts dans les versions précédentes.
@@ -290,4 +292,7 @@ Exemple:
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Profile/fr

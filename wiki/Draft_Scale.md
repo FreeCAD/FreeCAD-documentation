@@ -7,6 +7,8 @@
    SeeAlso:[Draft SubelementHighlight](Draft_SubelementHighlight.md), [Draft Clone](Draft_Clone.md)
 ---
 
+# Draft Scale
+
 ## Description
 
 The <img alt="" src=images/Draft_Scale.svg  style="width:24px;"> **Draft Scale** command scales or copies selected objects around a base point. In subelement mode the command scales selected points and edges of [Draft Lines](Draft_Line.md) and [Draft Wires](Draft_Wire.md).
@@ -112,7 +114,5 @@ wires = Draft.scale([wire1, wire2], scale2, copy=True)
 doc.recompute()
 ```
 
-
-
-
-  
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Scale

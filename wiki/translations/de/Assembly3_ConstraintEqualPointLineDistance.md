@@ -6,6 +6,8 @@
    Workbenches:[Assembly3](Assembly3_Workbench/de.md)
 ---
 
+# Assembly3 ConstraintEqualPointLineDistance/de
+
 ## Beschreibung
 
 Der Befehl <img alt="" src=images/Assembly_ConstraintEqualPointLineDistance.svg  style="width:16px;"> [Gleicher Punkt-Linie-Abstand ](Assembly3_ConstraintEqualPointLineDistance/de.md) legt für zwei Abstände, zwischen jeweils einem 2D-Punkt und einer 2D-Geraden, fest, dass sie denselben Wert haben.
@@ -25,8 +27,5 @@ Der Befehl <img alt="" src=images/Assembly_ConstraintEqualPointLineDistance.svg 
 
     :   (Wenn **<img src="images/Assembly_AutoRecompute.svg" width=16px> [Automatische Berechnung](Assembly3_AutoRecompute/de.md)** und **<img src="images/Assembly_SmartRecompute.svg" width=16px> [Smarte Berechnung](Assembly3_SmartRecompute/de.md)** nicht aktiviert wurden).
 
-
-
-
-
-
+---
+[documentation index](../README.md) > Assembly3 ConstraintEqualPointLineDistance/de

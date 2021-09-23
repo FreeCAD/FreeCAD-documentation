@@ -1,5 +1,5 @@
 # Macro Cut Circle
-  {{Macro
+{{Macro
 |Name=Macro Cut Circle
 |Icon=Macro_Cut_Circle.png
 |Description=Cut a circle(s) or arc(s) in multiple arcs, the arcs created can be coloured alternately to distinguish. The new circle is created in the real coordinate of object, not in the coordinate of the Body.<br/>{{ColoredText|(Command line, paste this complete macro in the Python console)}}.
@@ -126,4 +126,5 @@ ver 00.02 09/03/2015 : adding create arcs coloured altenat alternately Red White
 
 ver 00.01 24/02/2015 :
 
-
+---
+[documentation index](../README.md) > Macro Cut Circle

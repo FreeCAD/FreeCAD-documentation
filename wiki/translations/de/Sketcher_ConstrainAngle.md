@@ -8,6 +8,8 @@
    SeeAlso:[Skizzierer Beschränke Abstand](Sketcher_ConstrainDistance/de.md), [Skizzierer Beschränkung Senkrecht](Sketcher_ConstrainPerpendicular/de.md)
 ---
 
+# Sketcher ConstrainAngle/de
+
 ## Beschreibung
 
 Die Winkelbeschränkung ist eine [Bezugsbeschränkung](Sketcher_Workbench/de#Skizzierer_Beschränkungen.md), die dazu dient, Winkel in der Skizze festzulegen. Sie ist in der Lage, die Neigungen einzelner Linien, Winkel zwischen den Linien, Winkel der Schnittpunkte von Kurven und Winkelbereiche von Kreisbögen festzulegen.
@@ -105,4 +107,7 @@ Die [Skizzierer Skripten](Sketcher_scripting/de.md)-Seite erklärt die Werte, di
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainAngle/de

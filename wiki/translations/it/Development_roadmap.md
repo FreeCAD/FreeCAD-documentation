@@ -1,5 +1,5 @@
 # Development roadmap/it
- **Important: many of these roadmaps are not up to date or perhaps abandoned. This page and the pages it links to most likely contain obsolete info. A 'soft' roadmap can be found on the [http://www.freecadweb.org/tracker/roadmap_page.php bugtracker] but for now there isn't a 'hard' roadmap. There are many efforts going on simultaneously.**
+**Important: many of these roadmaps are not up to date or perhaps abandoned. This page and the pages it links to most likely contain obsolete info. A 'soft' roadmap can be found on the [http://www.freecadweb.org/tracker/roadmap_page.php bugtracker] but for now there isn't a 'hard' roadmap. There are many efforts going on simultaneously.**
 
 Anche se già utilizzabile in diverse parti, FreeCAD è solo all\'inizio di un lungo cammino nell\'ambiente del CAD.
 
@@ -49,3 +49,6 @@ Come nelle maggior parte dei progetti di [Software libero e open source (FLOSS)]
 
 
 [Category:Roadmap](Category:Roadmap.md)
+
+---
+[documentation index](../README.md) > [Roadmap](Category:Roadmap.md) > Development roadmap/it

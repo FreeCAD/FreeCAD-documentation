@@ -1,3 +1,4 @@
+# Std ViewFitAll/it
 ---
 - GuiCommand:/it   Name:Std_ViewFitAll   Name/it:Visualizza tutto   MenuLocation:Visualizza → Viste standard → Visualizza tutto   Workbenches:Tutti   Shortcut:**V** **F**   SeeAlso:[Visualizza la selezione](Std_ViewFitSelection/it.md)---
 
@@ -66,4 +67,7 @@ FreeCADGui.SendMsgToActiveView('ViewFit')
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ViewFitAll/it

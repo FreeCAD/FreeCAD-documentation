@@ -7,6 +7,8 @@
    SeeAlso:[DiseñoPieza Pastilla](PartDesign_Pad/es.md)
 ---
 
+# PartDesign Pocket/es
+
 ## Descripción
 
 La herramienta **Cajera** recorta un sólido extruyendo un boceto (o una cara del sólido) en una trayectoria recta y restándolo del sólido.
@@ -63,4 +65,7 @@ Un [ejemplo](http://forum.freecadweb.org/viewtopic.php?f=3&t=3733&start=10) con 
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Pocket/es

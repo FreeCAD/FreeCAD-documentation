@@ -6,3 +6,6 @@ This category lists pages related to the [Part Workbench/hu](Part_Workbench/hu.m
 [Template:Part Tools navi/hu](Template:Part_Tools_navi/hu.md)
 
 [Category:Workbenches/hu](Category:Workbenches/hu.md)
+
+---
+[documentation index](../README.md) > Category:Part/hu

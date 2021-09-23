@@ -1,7 +1,4 @@
 # Robot project/ro
-
-
-
 **
 This roadmap is probably obsolete. For more information see [Development roadmap](Development_roadmap.md).<br>
 If you are not involved with the development discussed here:<br>
@@ -103,3 +100,6 @@ Simularea Robotului
 
 
 [Category:Roadmap](Category:Roadmap.md)
+
+---
+[documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot project/ro

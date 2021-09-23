@@ -1,3 +1,4 @@
+# Draft Offset/cs
 ---
 - GuiCommand:/cs   Name:Draft Offset   Name/cs:Kreslení Odsadit   Workbenches:[Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation:Draft → Offset   Shortcut:O S   SeeAlso:[Part 2D Offset](Part_Offset2D/cs.md)---
 
@@ -126,8 +127,5 @@ offset5 = Draft.offset(wire, 1.5*vector, copy=True, occ=True)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Offset/cs

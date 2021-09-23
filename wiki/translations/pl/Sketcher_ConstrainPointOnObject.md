@@ -8,6 +8,8 @@
    SeeAlso:[Wiązanie spójności punktów](Sketcher_ConstrainCoincident/pl.md)
 ---
 
+# Sketcher ConstrainPointOnObject/pl
+
 ## Opis
 
 Przyłącza punkt do innego obiektu, takiego jak linia, łuk lub oś szkicu.
@@ -46,4 +48,7 @@ Na stronie [Skrypty Szkicownika](Sketcher_scripting/pl.md) wyjaśniono, jak iden
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainPointOnObject/pl

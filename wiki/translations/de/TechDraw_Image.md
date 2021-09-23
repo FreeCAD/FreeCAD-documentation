@@ -7,6 +7,8 @@
    SeeAlso:[TechDraw SVG Symbol](TechDraw_Symbol/de.md)
 ---
 
+# TechDraw Image/de
+
 ## Beschreibung
 
 Das Bild Werkzeug fügt ein [Bitmap](bitmap/de.md) Bild (PNG, JPEG, JPG, BMP usw.) aus einer Datei als Ansicht in die Seite ein.
@@ -47,4 +49,7 @@ dvi.Width  = 200
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Image/de

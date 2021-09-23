@@ -8,6 +8,8 @@
    SeeAlso:[Arch Mur](Arch_Wall/fr.md), [Arch Structure](Arch_Structure/fr.md)
 ---
 
+# Arch Frame/fr
+
 ## Description
 
 L\'outil **<img src="images/Arch_Frame.svg" width=16px> [Arch Ossature](Arch_Frame/fr.md)** sert à construire toutes sortes d\'objets structurels basés sur un profil et un schéma d\'agencement. Le profil est extrudé sur les bords du modèle, qui peut être n\'importe quel objet 2D comme une [esquisse](Sketcher_Workbench/fr.md) ou un [objet Draft](Draft_Workbench/fr.md). Il est particulièrement utile pour créer des rampes ou des murs. Les objets Ossature peuvent alors facilement être transformés en [murs](Arch_Wall/fr.md) ou en objets [structurels](Arch_Structure/fr.md).
@@ -74,11 +76,5 @@ Frame = Arch.makeFrame(baseobj, profile)
 FreeCAD.ActiveDocument.recompute()
 ```
 
-
-
-
-
-
-
-
-
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Frame/fr

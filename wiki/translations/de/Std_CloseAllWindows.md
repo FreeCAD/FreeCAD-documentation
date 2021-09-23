@@ -7,6 +7,8 @@
    SeeAlso:[Schließen](Std_CloseActiceWindow/de.md)
 ---
 
+# Std CloseAllWindows/de
+
 ## Beschreibung
 
 Schließt alle geöffneten Dokumente.
@@ -50,4 +52,7 @@ Um ein Dokument zu schließen, benutze die `closeDocument`-Methode der FreeCAD-A
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std CloseAllWindows/de

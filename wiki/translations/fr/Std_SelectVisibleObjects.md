@@ -6,6 +6,8 @@
    Workbenches:Tous
 ---
 
+# Std SelectVisibleObjects/fr
+
 ## Description
 
 La commande **Std Sélection objets visibles** sélectionne tous les objets visibles. Notez que pour chaque [PartDesign Corps](PartDesign_Body/fr.md), généralement deux objets seront sélectionnés: le corps lui-même et son objet **Tip**.
@@ -20,4 +22,7 @@ La commande **Std Sélection objets visibles** sélectionne tous les objets visi
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std SelectVisibleObjects/fr

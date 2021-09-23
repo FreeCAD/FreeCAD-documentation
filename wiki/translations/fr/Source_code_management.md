@@ -1,5 +1,5 @@
 # Source code management/fr
- {{TOCright}}
+{{TOCright}}
 
 ## Introduction
 
@@ -962,3 +962,6 @@ Dirigez vous vers la section de développement du [forum FreeCAD](https://forum.
 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Source code management/fr

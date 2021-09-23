@@ -1,10 +1,4 @@
-# TechDraw Workbench/pl
-
-
-
-
-
-<img alt="Ikonka FreeCAD dla środowiska pracy Rysunek Techniczny" src=images/Workbench_TechDraw.svg  style="width:128px;">
+# <img alt="Ikonka FreeCAD dla środowiska pracy Rysunek Techniczny" src=images/Workbench_TechDraw.svg  style="width:64px;"> TechDraw Workbench/pl
 
 ## Wprowadzenie
 
@@ -210,3 +204,6 @@ Wideo poradniki przygotowane przez użytkownika sliptonic
 }} 
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > TechDraw Workbench/pl

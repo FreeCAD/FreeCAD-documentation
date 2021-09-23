@@ -1,10 +1,4 @@
 # Manual:All workbenches at a glance/ro
-
-
-
-
-
-
 {{Manual:TOC/ro}}
 
 
@@ -225,6 +219,5 @@ Există, de asemenea, multe alte ateliere de lucru foarte folositoare produse de
 
 </div>
 
-
-
-
+---
+[documentation index](../README.md) > Manual:All workbenches at a glance/ro

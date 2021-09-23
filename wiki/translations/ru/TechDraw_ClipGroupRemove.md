@@ -7,6 +7,8 @@
    SeeAlso:[Создать группу Видов](TechDraw_ClipGroup/ru.md), [Добавить Вид в группу](TechDraw_ClipGroupAdd/ru.md)
 ---
 
+# TechDraw ClipGroupRemove/ru
+
 ## Описание
 
 Данный инструмент извлекает Вид из группы Видов и возвращает его обратно на лист.
@@ -24,4 +26,7 @@
 
 {{TechDraw Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ClipGroupRemove/ru

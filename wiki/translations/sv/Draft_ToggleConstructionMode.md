@@ -1,3 +1,4 @@
+# Draft ToggleConstructionMode/sv
 ---
 - GuiCommand:/sv   Name:Draft ToggleConstructionMode   Name/sv:Draft ToggleConstructionMode   Workbenches:[Arch](Draft_Workbench/sv___Draft]],_[[Arch_Workbench/sv.md)|MenuLocation:Draft -> Utilities -> Toggle construction mode---
 
@@ -54,8 +55,5 @@ In FreeCAD version 0.19 this command and the [Draft AddConstruction](Draft_AddCo
 -   To change the label (<small>(v0.20)</small> ) of the construction group: **Edit → Preferences... → Draft → General settings → Construction Geometry → Construction group name**.
 -   To change the color that is used: **Edit → Preferences... → Draft → General settings → Construction Geometry → Construction geometry color**.
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ToggleConstructionMode/sv

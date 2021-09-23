@@ -1,10 +1,4 @@
-# TechDraw Workbench/hu
-
-
-
-
-
-<img alt="TechDraw workbench icon" src=images/Workbench_TechDraw.svg  style="width:128px;">
+# <img alt="TechDraw workbench icon" src=images/Workbench_TechDraw.svg  style="width:64px;"> TechDraw Workbench/hu
 
 ## Introduction
 
@@ -209,3 +203,6 @@ Video tutorials by sliptonic
 }} 
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > TechDraw Workbench/hu

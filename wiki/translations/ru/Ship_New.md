@@ -9,6 +9,8 @@
    SeeAlso:
 ---
 
+# Ship New/ru
+
 
 </div>
 
@@ -54,4 +56,7 @@ Note: From here onward, you must have **Ship** selected before you execute any S
 
 {{Ship_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > Ship New/ru

@@ -1,5 +1,5 @@
 # Macro Corner shapes wizard
-  {{Macro
+{{Macro
 |Name=Corner shapes wizard
 |Icon=Macro_Corner_shapes_wizard.png
 |Description=This macro is a complete application, it pops up a dialog asking for the dimensions of your corner piece, then creates the object in the document and creates a page view with top, front and lateral views of the piece.<br/>This macro use the DrawingWorkBench
@@ -197,6 +197,5 @@ ToolBar Icon ![](images/Macro_Corner_shapes_wizard.png )
     QtCore.QMetaObject.connectSlotsByName(dialog)
     dialog.show()
 
-
-
-
+---
+[documentation index](../README.md) > Macro Corner shapes wizard

@@ -1,5 +1,5 @@
 # Macro Apothem Based Prism GUI/it
- {{Macro/it
+{{Macro/it
 |Name=Apothem Based Prism
 |Translate=Prisma da apotema
 |Icon=Part Prism Apothem.svg
@@ -127,4 +127,7 @@ L\'icona SVG da usare per il collegamento nella barra degli strumenti personaliz
 
 ## Ringraziamenti
 
-Un grazie al principale sviluppatore di FreeCAD [shoogen](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=765) e al programmatore di FreeCAD [wandererfan](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=1375) per il loro prezioso aiuto e consulenza nella costruzione di questo Macro. 
+Un grazie al principale sviluppatore di FreeCAD [shoogen](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=765) e al programmatore di FreeCAD [wandererfan](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=1375) per il loro prezioso aiuto e consulenza nella costruzione di questo Macro.
+
+---
+[documentation index](../README.md) > Macro Apothem Based Prism GUI/it

@@ -1,7 +1,4 @@
 # FEM tutorial/fr
-
-
-
 {{TutorialInfo/fr
 |Topic=Analyse par éléments finis
 |Level=Débutant
@@ -112,4 +109,7 @@ Nous avons complété la procédure de base de l\'[atelier FEM](FEM_Workbench/fr
 
 {{Tutorials navi
 
-}} {{FEM Tools navi}} 
+}} {{FEM Tools navi}}
+
+---
+[documentation index](../README.md) > FEM tutorial/fr

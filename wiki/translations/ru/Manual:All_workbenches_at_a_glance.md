@@ -1,7 +1,4 @@
 # Manual:All workbenches at a glance/ru
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -200,3 +197,5 @@
 
 </div>
 
+---
+[documentation index](../README.md) > Manual:All workbenches at a glance/ru

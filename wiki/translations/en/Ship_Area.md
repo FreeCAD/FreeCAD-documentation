@@ -8,6 +8,8 @@
    SeeAlso:
 ---
 
+# Ship Area/en
+
 ## Description
 
 Plot the transversal areas curve
@@ -28,4 +30,7 @@ Plot the transversal areas curve
 
 {{Ship_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > Ship Area/en

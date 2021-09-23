@@ -8,6 +8,8 @@
    SeeAlso:[Constraint Horizontal](Sketcher_ConstrainHorizontal/sv.md)
 ---
 
+# Sketcher ConstrainVertical/sv
+
 
 </div>
 
@@ -50,3 +52,6 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 }}  
 
 [Category:Sketcher/sv](Category:Sketcher/sv.md)
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainVertical/sv

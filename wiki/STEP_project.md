@@ -1,7 +1,4 @@
 # STEP project
- 
-
-
 **
 This roadmap is probably obsolete. For more information see [Development roadmap](Development_roadmap.md).<br>
 If you are not involved with the development discussed here:<br>
@@ -77,3 +74,6 @@ The ISO 10303 (STEP) is very important in this field. Its the only good standard
  
 
 [Category:Roadmap](Category:Roadmap.md)
+
+---
+[documentation index](../README.md) > [Roadmap](Category:Roadmap.md) > STEP project

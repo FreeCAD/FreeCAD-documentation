@@ -1,3 +1,4 @@
+# Drawing SpreadsheetView/fr
 ---
 - GuiCommand:/fr   Name:Drawing SpreadsheetView   Name/fr:Drawing SpreadsheetView   Workbenches:[[Drawing_Workbench/fr   Drawing]]|MenuLocation:Drawing → Spreadsheet View---
 
@@ -54,4 +55,7 @@ Cet outil vous permet de placer une vue d\'une [feuille de calcul](Spreadsheet_W
 
 {{Drawing Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing SpreadsheetView/fr

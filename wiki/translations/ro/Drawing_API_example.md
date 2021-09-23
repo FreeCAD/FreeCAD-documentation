@@ -1,6 +1,4 @@
 # Drawing API example/ro
-
-
 ## Introducere
 
 Fluxul de lucru pentru interfața grafică pentru [Drawing Workbench](Drawing_Workbench.md) este limitat, astfel încât API-ul de scripting este mai interesant.
@@ -246,3 +244,6 @@ With those two, you can proceed as above for displaying them on the drawing page
 }} {{Drawing Tools navi}} 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+
+---
+[documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing API example/ro

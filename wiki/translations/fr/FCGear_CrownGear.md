@@ -8,6 +8,8 @@
    SeeAlso:[FCGear Engrenage à développante](FCGear_InvoluteGear/fr.md)
 ---
 
+# FCGear CrownGear/fr
+
 ## Description
 
 La roue de la couronne ressemble à une crémaillère incurvée en forme d\'anneau. L\'angle de pression décroît continuellement du diamètre extérieur vers le diamètre intérieur. Ainsi, la vitesse périphérique variable au niveau de la couronne est compensée par la vitesse périphérique constante du pignon. Les dents externes pointues et les flancs de dents raides sur le diamètre intérieur limitent la largeur de dent utilisable. Les engrenages couronnes atteignent des rendements similaires à ceux des engrenages droits. Une couronne dentée peut entraîner plusieurs pignons.
@@ -118,3 +120,6 @@ Aucune limitation n\'est connue.
 
 
 [Category:Addons](Category:Addons.md) [Category:FCGear](Category:FCGear.md) [Category:External Command Reference](Category:External_Command_Reference.md)
+
+---
+[documentation index](../README.md) > [Addons](Category:Addons.md) > FCGear CrownGear/fr

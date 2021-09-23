@@ -8,6 +8,8 @@
    SeeAlso:[Part Primitives](Part_Primitives/fr.md)
 ---
 
+# Part Spiral/fr
+
 ## Description
 
 ## Utilisation
@@ -20,8 +22,5 @@ La boîte de dialogue [Primitives](Part_Primitives/fr.md) est accessible en cliq
 
 ![](images/Spiral_y45_it.png )
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Spiral/fr

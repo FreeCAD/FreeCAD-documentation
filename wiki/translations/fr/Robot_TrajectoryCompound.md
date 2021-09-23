@@ -6,6 +6,8 @@
    MenuLocation:-
 ---
 
+# Robot TrajectoryCompound/fr
+
 
 </div>
 
@@ -53,4 +55,7 @@ Crée un composé à partir de de plusieurs trajectoires individuelles.
 
 {{Robot_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot TrajectoryCompound/fr

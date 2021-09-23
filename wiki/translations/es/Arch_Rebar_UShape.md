@@ -10,6 +10,8 @@
    SeeAlso:[LShape Rebar](Arch_Rebar_LShape/es.md)
 ---
 
+# Arch Rebar UShape/es
+
 
 </div>
 
@@ -188,3 +190,6 @@ UShapeRebar.editUShapeRebar(Rebar2, 70, 50, 20, 20,
  
 
 [Category:Arch/es](Category:Arch/es.md) [Category:Reinforcement](Category:Reinforcement.md)
+
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Rebar UShape/es

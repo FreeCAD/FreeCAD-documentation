@@ -1,5 +1,5 @@
 # Macro crank simul/it
- {{Macro/it
+{{Macro/it
 |Name=Crank Simul
 |Translate=Crank Simul
 |Description=Simulazione di cinematismo biella manovella.
@@ -80,6 +80,5 @@ La discussione nel forum: [Inline-four engine animation](http://forum.freecadweb
 
 Il blog: [freecad-tutorial.blogspot](http://freecad-tutorial.blogspot.be/)
 
-
-
-
+---
+[documentation index](../README.md) > Macro crank simul/it

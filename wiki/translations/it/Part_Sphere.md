@@ -7,6 +7,8 @@
    SeeAlso:[Crea Primitive...](Part_CreatePrimitives/it.md)
 ---
 
+# Part Sphere/it
+
 
 </div>
 
@@ -65,8 +67,5 @@ Poiché è abbastanza difficile spiegare il significato dei parametri di angolo1
 
 <img alt="" src=images/SphereCutThreeAngles.jpg  style="width:400px;">
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Sphere/it

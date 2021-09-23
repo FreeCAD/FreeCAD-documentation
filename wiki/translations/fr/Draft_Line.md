@@ -9,6 +9,8 @@
    SeeAlso:[Draft Polyligne](Draft_Wire/fr.md)
 ---
 
+# Draft Line/fr
+
 ## Description
 
 La commande <img alt="" src=images/Draft_Line.svg  style="width:24px;"> **Draft Ligne** crée une ligne droite.
@@ -99,8 +101,5 @@ line2 = Draft.make_line(p3, p4)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Line/fr

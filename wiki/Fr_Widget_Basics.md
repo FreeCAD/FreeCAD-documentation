@@ -250,3 +250,6 @@ Label move is not implemented yet. But drawing move,size and resize in deed is t
 ==== Part8: ====
 
 to be continued\...
+
+---
+[documentation index](../README.md) > Fr Widget Basics

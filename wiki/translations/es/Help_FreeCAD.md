@@ -1,6 +1,4 @@
 # Help FreeCAD/es
-
-
 ## Introducción
 
 
@@ -94,3 +92,6 @@ Escribir código para FreeCAD no es difícil, y no necesitas ningún tipo de per
 
 
 [Category:Documentation](Category:Documentation.md) [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Common Questions](Category:Common_Questions.md)
+
+---
+[documentation index](../README.md) > [Command_Reference]] lista y documenta todos los FreeCAD ](Category:Command_Reference]] lista y documenta todos los FreeCAD .md) > Help FreeCAD/es

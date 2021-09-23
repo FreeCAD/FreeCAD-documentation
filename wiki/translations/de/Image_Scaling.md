@@ -8,6 +8,8 @@
    SeeAlso:[Bild Öffnen](Image_Open/de.md), [Bild Ebene](Image_CreateImagePlane/de.md)
 ---
 
+# Image Scaling/de
+
 ## Beschreibung
 
 Das [Bild Skalierung](Image_Scaling/de.md)-Werkzeug skaliert ein Bild, das mit dem Werkzeug [Bildebene](Image_CreateImagePlane/de.md) importiert wurde.
@@ -26,4 +28,7 @@ Das [Bild Skalierung](Image_Scaling/de.md)-Werkzeug skaliert ein Bild, das mit d
 
 {{Image Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Image](Image_Workbench.md) > Image Scaling/de

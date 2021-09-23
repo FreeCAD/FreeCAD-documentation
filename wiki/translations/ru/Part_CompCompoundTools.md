@@ -7,6 +7,8 @@
    SeeAlso:
 ---
 
+# Part CompCompoundTools/ru
+
 
 </div>
 
@@ -29,5 +31,5 @@
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompCompoundTools/ru

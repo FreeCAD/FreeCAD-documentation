@@ -1,3 +1,4 @@
+# Part Fillet/cs
 ---
 - GuiCommand:/cs   Name:Part Fillet   Name/cs:Díl Zaoblení   MenuLocation:Díl → Zaoblení   Workbenches:[SeeAlso:[[Part Chamfer/cs|Díl Zkosení](Part_Workbench/cs___Díl]],_Kompletace.md)---
 
@@ -69,8 +70,5 @@ The fillet tool sometimes fails when trying to fillet complex objects. A common 
 
 Also note that the part Fillet feature is affected by the [Topological naming problem](Topological_naming_problem.md) when the any change is done to a modeling step earlier in the chain that affects the number of facets or vertices. This could cause unpredictable result. Until that is resolved (possibly with V0.19) it is advised to apply Chamfer and [Fillet](Part_Fillet.md) operations at the last steps in the chain.
 
-
-
-
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Fillet/cs

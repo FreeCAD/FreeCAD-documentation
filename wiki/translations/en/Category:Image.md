@@ -6,3 +6,6 @@ This category is the top level category for **images**. It should not contain an
 [Artwork Image/en](Artwork_Image/en.md) , [Bitmap/en](Bitmap/en.md) ,
 
 [Category:Categories/en](Category:Categories/en.md) [Category:Icon/en](Category:Icon/en.md)
+
+---
+[documentation index](../README.md) > Category:Image/en

@@ -1,5 +1,5 @@
 # Macro SimpleProperties/it
- {{Macro/it
+{{Macro/it
 |Name=SimpleProperties
 |Icon=Macro_SimpleProperties.png
 |Description=Questa macro fornisce proprietà semplici dell'oggetto selezionato (volume, boundbox, ...)
@@ -133,3 +133,5 @@ else:
 
 }}
 
+---
+[documentation index](../README.md) > Macro SimpleProperties/it

@@ -1,5 +1,4 @@
-# User hub/ru
- <img alt="" src=images/User_hub.png  style="width:64px;">
+# <img alt="" src=images/User_hub.png  style="width:64px;"> User hub/ru
 
 ------------------------------------------------------------------------
 
@@ -140,3 +139,6 @@
 
 
 [Category:Hubs](Category:Hubs.md)
+
+---
+[documentation index](../README.md) > [Hubs](Category:Hubs.md) > User hub/ru

@@ -1,3 +1,4 @@
+# Sketcher ConstrainHorizontal/cs
 ---
 - GuiCommand:/cs   Name:Constraint Horizontal   Name/cs:Constraint Horizontal   Workbenches:[PartDesign](Sketcher_Workbench/cs___Sketcher]],_[[PartDesign_Workbench/cs.md)|MenuLocation:Sketch → Sketcher constraints → Constrain horizontally   SeeAlso:[Constraint Vertical](Constraint_Vertical/cs.md)---
 
@@ -58,4 +59,7 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainHorizontal/cs

@@ -7,6 +7,8 @@
    SeeAlso:[Grafico della curvatura](Mesh_VertexCurvature/it.md)
 ---
 
+# Mesh CurvatureInfo/it
+
 ## Description
 
 The **Mesh CurvatureInfo** command shows the absolute curvature of [curvature objects](Mesh_VertexCurvature.md) at selected points.
@@ -36,4 +38,7 @@ The **Mesh CurvatureInfo** command shows the absolute curvature of [curvature ob
 
 {{Mesh Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh CurvatureInfo/it

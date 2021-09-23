@@ -7,6 +7,8 @@
    SeeAlso:[Draft Réseau polaire](Draft_PolarArray/fr.md), [Draft Réseau circulaire](Draft_CircularArray/fr.md), [Draft Chemin pour série de copies](Draft_PathArray/fr.md), [Draft Matrice de points](Draft_PointArray/fr.md), [Draft Clone](Draft_Clone/fr.md)
 ---
 
+# Draft Array/fr
+
 
 </div>
 
@@ -84,5 +86,5 @@ This command is now obsolete. Use the [Draft OrthoArray](Draft_OrthoArray.md), [
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Array/fr

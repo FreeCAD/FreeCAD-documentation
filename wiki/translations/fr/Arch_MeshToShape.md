@@ -7,6 +7,8 @@
    SeeAlso:[Arch Séparer un objet Mesh](Arch_SplitMesh/fr.md), [Arch Supprimer la forme](Arch_RemoveShape/fr.md)
 ---
 
+# Arch MeshToShape/fr
+
 ## Description
 
 [Arch Maillage vers une forme](Arch_MeshToShape/fr.md) convertit un objet [Mesh](Mesh/fr.md) ([Mesh Feature](Mesh_Feature/fr.md)) sélectionné en un objet [Shape](Shape/fr.md) ([Part Feature](Part_Feature/fr.md)).
@@ -59,8 +61,5 @@ FreeCAD.ActiveDocument.recompute()
 new_obj = Arch.meshToShape(Box)
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch MeshToShape/fr

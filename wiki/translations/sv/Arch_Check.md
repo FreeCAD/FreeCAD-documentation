@@ -1,3 +1,4 @@
+# Arch Check/sv
 ---
 - GuiCommand:/sv   Name:Arch Check   Name/sv:Arch Check   Workbenches:[MenuLocation:Arch → Utilities → Check   SeeAlso:[[Arch CloseHoles/sv|Arch CloseHoles](Arch_Workbench/sv___Arch]].md)---
 
@@ -51,11 +52,5 @@ list_bad = Arch.check([Wall1, Wall2, Circle, Wire], includehidden=True)
 print(list_bad)
 ```
 
-
-
-
-
-
-
-
-
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Check/sv

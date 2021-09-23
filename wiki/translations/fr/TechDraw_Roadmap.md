@@ -1,5 +1,4 @@
-# TechDraw Roadmap/fr
- <img alt="" src=images/preferences-techdraw.svg  style="width:64px;"> 
+# <img alt="" src=images/preferences-techdraw.svg  style="width:64px;">  TechDraw Roadmap/fr
 
 L\'atelier [Techdraw](TechDraw_Workbench/fr.md) a été officiellement introduit dans FreeCAD en version 0.17. Il est relativement nouveau et n\'a pas eu les années de développement qui ont profité à d\'autres établis. Néanmoins, TechDraw remplit désormais son objectif de conception initial et peut désormais \"produire des dessins techniques de base basés sur le modèle 3D\".
 
@@ -81,3 +80,6 @@ Voir le traqueur de bogues pour des informations à jour.
 }}  
 
 [Category:User Documentation](Category:User_Documentation.md) [Category:TechDraw](Category:TechDraw.md)
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Roadmap/fr

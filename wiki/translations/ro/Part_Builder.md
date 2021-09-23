@@ -8,6 +8,8 @@
    SeeAlso:[Part CreatePrimitives](Part_CreatePrimitives/ro.md)
 ---
 
+# Part Builder/ro
+
 
 </div>
 
@@ -122,8 +124,5 @@ Un posibil flux de lucru ar putea fi:
 
 </div>
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Builder/ro

@@ -1,5 +1,5 @@
 # Macro FCSpreadSheet Extract/fr
- {{Macro/fr
+{{Macro/fr
 |Name=Macro_FCSpreadsheet_Extract
 |Icon=Macro_FCSpreadsheet_Extract.png
 |Description=Cette macro enregistre les données de la feuille de calcul dans un fichier csv avec la formule ou dans un fichier xml.<br/> <br/>{{ColoredText|#ff0000|#ffffff|Nouvelle version tourne seulement avec FC version 0.18 and more (PySide2 Qt5)}} <br/> <br/> Pour la version précédente voir [https://gist.githubusercontent.com/mario52a/29f7dce6934e8adf5d584bdddd2e469f/raw/ef0b0de56a65afc34a9a1a969969797910f3a004/Macro_FCSpreadSheet_Extract.FCMacro Macro_FCSpreadSheet_Extract.FCMacro] et installez la manuellement.
@@ -236,3 +236,5 @@ except Exception:
 
 }}
 
+---
+[documentation index](../README.md) > Macro FCSpreadSheet Extract/fr

@@ -6,6 +6,8 @@
    SeeAlso:[Mesh PolyCut](Mesh_PolyCut.md), [Mesh PolyTrim](Mesh_PolyTrim.md)
 ---
 
+# Mesh TrimByPlane
+
 ## Description
 
 The **Mesh TrimByPlane** command trims faces and parts of faces on one side of a plane from a mesh object.
@@ -39,4 +41,7 @@ The **Mesh TrimByPlane** command trims faces and parts of faces on one side of a
 
 
 
- {{Mesh Tools navi}}  
+ {{Mesh Tools navi}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh TrimByPlane

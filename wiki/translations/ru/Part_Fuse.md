@@ -7,6 +7,8 @@
    SeeAlso:[Обрезать](Part_Cut/ru.md), [Пересечение](Part_Common/ru.md), [Part Boolean](Part_Boolean/ru.md)
 ---
 
+# Part Fuse/ru
+
 ## Описание
 
 The **![](images/)_[Part_Fuse](Part_Fuse.md)** tool fuses (unites) selected Part objects into one. This operation is fully parametric and the components can be modified and the result recomputed.
@@ -38,8 +40,5 @@ Items can be added and removed from the fusion, by dragging them in or out of th
 
 После завершения этой операции может оказаться полезным уточнить форму с помощью команды <img alt="" src=images/Part_RefineShape.svg  style="width:24px;"> [Уточнить форму](Part_RefineShape/ru.md).
 
-
-
-
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Fuse/ru

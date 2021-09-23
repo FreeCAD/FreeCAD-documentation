@@ -7,6 +7,8 @@
    SeeAlso:[Sketcher Constrain angle](Sketcher_ConstrainAngle.md)
 ---
 
+# Sketcher ConstrainPerpendicular
+
 ## Description
 
 The Perpendicular Constraint makes two lines to be perpendicular (i.e. orthogonal) to each other, or two curves to be perpendicular at their intersection. Lines are treated infinite, and arcs are treated as full circles/ellipses. The constraint is also capable of connecting two curves, forcing them perpendicular at the joint, similarly to **<img src=images/Sketcher_ConstrainTangent.svg style="width:16px"> [Constraint tangent](Sketcher_ConstrainTangent.md)**.
@@ -108,4 +110,7 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 
 
- {{Sketcher Tools navi}}  
+ {{Sketcher Tools navi}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainPerpendicular

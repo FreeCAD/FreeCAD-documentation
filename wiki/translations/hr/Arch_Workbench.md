@@ -1,7 +1,4 @@
 # Arch Workbench/hr
-
-
-
 {{docnav/hr|[Workbenches/hr](Workbenches/hr.md)|[Nacrt 2D Moduli](Draft_Workbench/hr.md)|IconL=|IconR=Workbench_Draft.svg}}
 
 <img alt="Arch workbench icon" src=images/Workbench_Arch.svg  style="width:128px;">
@@ -144,3 +141,6 @@ The Arch module can be used in [Python](Python.md) scripts and [macros](macros.m
  
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Arch Workbench/hr

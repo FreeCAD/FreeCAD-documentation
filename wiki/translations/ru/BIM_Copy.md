@@ -7,6 +7,8 @@
    SeeAlso:[[Draft Move]]
 ---
 
+# BIM Copy/ru
+
 
 </div>
 
@@ -20,3 +22,5 @@
 
 </div>
 
+---
+[documentation index](../README.md) > BIM Copy/ru

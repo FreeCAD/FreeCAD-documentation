@@ -6,6 +6,8 @@
    SeeAlso:[Std Group](Std_Group.md), [Draft AddConstruction](Draft_AddConstruction.md), [Draft AutoGroup](Draft_AutoGroup.md), [Draft SelectGroup](Draft_SelectGroup.md)
 ---
 
+# Draft AddToGroup/en
+
 ## Description
 
 The <img alt="" src=images/Draft_AddToGroup.svg  style="width:24px;"> **Draft AddToGroup** command moves objects to a [Std Group](Std_Group.md). It can also ungroup objects.
@@ -30,8 +32,5 @@ In FreeCAD version 0.20 the command can also handle group-like [Arch](Arch_Workb
 -   This command can be used to move objects to the [Draft construction group](Draft_ToggleConstructionMode.md), but, contrary to the [Draft AddConstruction](Draft_AddConstruction.md) command, it does not apply the [construction geometry color](Draft_ToggleConstructionMode#Preferences.md).
 -   For more information about organizing your model see [Document structure](Document_structure.md) and [Arch tutorial](Arch_tutorial#Organizing_your_model.md).
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft AddToGroup/en

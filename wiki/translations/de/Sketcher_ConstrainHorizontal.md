@@ -8,6 +8,8 @@
    SeeAlso:[Beschränkung Vertikal](Sketcher_ConstrainVertical/de.md)
 ---
 
+# Sketcher ConstrainHorizontal/de
+
 ## Beschreibung
 
 Die Einschränkung \'Horizontal\' sorgt dafür, dass eine oder mehrere gewählte Linien parallel zur horizontalen Achse der Skizze sind.
@@ -42,4 +44,7 @@ Die [Skizzierer Skripten](Sketcher_scripting.md)-Seite erklärt die Werte, die f
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainHorizontal/de

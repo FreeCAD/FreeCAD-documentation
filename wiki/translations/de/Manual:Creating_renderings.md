@@ -1,7 +1,4 @@
 # Manual:Creating renderings/de
- 
-
-
 {{Manual:TOC/de}}
 
 In der Computersprache wird das Wort [Bildsynthese](https://de.wikipedia.org/wiki/Bildsynthese) (engl.: rendering) verwendet, um ein schönes Bild zu beschreiben, das aus einem 3D Modell erzeugt wurde. Natürlich könnten wir sagen, dass das, was wir in der FreeCAD 3D Ansicht sehen, bereits schön ist. Jeder, der kürzlich einen Hollywoodfilm gesehen hat, weiß jedoch, dass es möglich ist, mit einem Computer Bilder zu erzeugen, die von einem Foto fast nicht zu unterscheiden sind.
@@ -86,3 +83,6 @@ You can greatly extend the rendering possibilities of FreeCAD by creating new te
 {{Raytracing Tools navi}} 
 
 [Category:Tutorials](Category:Tutorials.md)
+
+---
+[documentation index](../README.md) > [Tutorials](Category:Tutorials.md) > Manual:Creating renderings/de

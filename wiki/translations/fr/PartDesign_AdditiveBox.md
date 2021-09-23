@@ -8,6 +8,8 @@
    SeeAlso:[PartDesign Primitives additives](PartDesign_CompPrimitiveAdditive/fr.md)
 ---
 
+# PartDesign AdditiveBox/fr
+
 ## Description
 
 Insère un Cube primitif dans un corps actif (body) comme première fonction, ou le fusionne aux fonctions existantes.
@@ -46,4 +48,7 @@ Le Cube peut être édité après sa création de deux façons:
 
 {{PartDesign Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveBox/fr

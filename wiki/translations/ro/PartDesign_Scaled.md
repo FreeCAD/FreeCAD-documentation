@@ -1,3 +1,4 @@
+# PartDesign Scaled/ro
 ---
 - GuiCommand:   Name:PartDesign Scaled   Workbenches:[[PartDesign Workbench   PartDesign]], Complete|MenuLocation:PartDesign → MultiTransform---
 
@@ -55,4 +56,7 @@ De la FreeCAD 0.15, această funcție nu este valabilă direct, dar este inclus�
 
 ![c\|center\|800px](images/mt_example2.png ) The smallest pad was first patterned three times in X direction and then scaled to factor two (so the three occurrences have scaling factor 1.0, 1.5 and 2.0). Then a polar pattern was applied with 8 occurrences.
 
-Deoarece scalarea se face în raport cu centrul de greutate, în cazul unui bosaj, este necesar ca bosajul să pătrundă și în corpul principal, în caz contrar obiectele scalate sunt plutitoare, detașate de corp. Pentru a avea un bosaj care intersectează corpul principal, se poate utiliza opțiunea \"două dimensiuni\" sau opțiunea \"simetric la plan\". 
+Deoarece scalarea se face în raport cu centrul de greutate, în cazul unui bosaj, este necesar ca bosajul să pătrundă și în corpul principal, în caz contrar obiectele scalate sunt plutitoare, detașate de corp. Pentru a avea un bosaj care intersectează corpul principal, se poate utiliza opțiunea \"două dimensiuni\" sau opțiunea \"simetric la plan\".
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Scaled/ro

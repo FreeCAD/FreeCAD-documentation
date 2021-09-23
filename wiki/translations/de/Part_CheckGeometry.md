@@ -6,6 +6,8 @@
    Workbenches:[Part](Part_Workbench/de.md)
 ---
 
+# Part CheckGeometry/de
+
 ## Beschreibung
 
 
@@ -70,5 +72,5 @@ If ticked, any errors found are also logged in the [report view](Report_view.md)
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part CheckGeometry/de

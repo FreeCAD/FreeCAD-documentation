@@ -1,10 +1,4 @@
 # FreeCAD Build Tool/ru
-
-
-
-
-
-
 {{TOCright}}
 
 ## Введение
@@ -86,3 +80,6 @@ FreeCAD Build Tool
  
 
 [Category:Developer Documentation](Category:Developer_Documentation.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > FreeCAD Build Tool/ru

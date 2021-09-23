@@ -1,7 +1,4 @@
 # Main Page/ro
- 
-
-
 <div class="mw-translate-fuzzy">
 
 ## Introducere
@@ -108,3 +105,6 @@ Verificați foaia de parcurs [Development roadmap](Development_roadmap.md) pentr
 
 
 [Category:Documentation](Category:Documentation.md)
+
+---
+[documentation index](../README.md) > [Documentation](Category:Documentation.md) > Main Page/ro

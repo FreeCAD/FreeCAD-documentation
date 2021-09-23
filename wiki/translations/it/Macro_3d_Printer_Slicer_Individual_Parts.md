@@ -1,5 +1,5 @@
 # Macro 3d Printer Slicer Individual Parts/it
- {{Macro/it
+{{Macro/it
 |Name=Macro 3d Printer Slicer Individual Parts
 |Name/it=Macro 3d Printer Slicer Individual Parts
 |Icon=Macro_3d_Printer_Slicer_Individual_Parts.svg
@@ -84,4 +84,7 @@ subprocess.Popen(stlFiles)
 
 Grazie a cae2100 per aver sviluppato il codice macro originale - [also available here](Macro_3d_Printer_Slicer/it.md).
 Thanks to [Wmayer](http://forum.freecadweb.org/viewtopic.php?f=10&t=4686) for his help in writing this script.
-Original forum topic: <http://forum.freecadweb.org/viewtopic.php?f=10&t=4686> 
+Original forum topic: <http://forum.freecadweb.org/viewtopic.php?f=10&t=4686>
+
+---
+[documentation index](../README.md) > Macro 3d Printer Slicer Individual Parts/it

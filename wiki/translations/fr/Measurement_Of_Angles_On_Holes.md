@@ -1,7 +1,4 @@
 # Measurement Of Angles On Holes/fr
-
-
-
 {{TutorialInfo/fr
 |Topic=TechDraw
 |Level=Base
@@ -41,4 +38,7 @@ La ligne médiane créée peut être modifiée. Sélectionnez la ligne centrale 
 Sélection des points du quadrant avec <img alt="" src=images/TechDraw_Quadrants.svg  style="width:24px;"> depuis la barre d\'outils. Sélectionnez ensuite les points comme indiqué ci-dessous et utilisez <img alt="" src=images/TechDraw_Dimension_Angle3Pt.svg  style="width:24px;"> à partir de la barre d\'outils pour créer l\'angle. Une autre succession crée d\'autres angles. S\'il n\'y a pas de point d\'accrochage sur la ligne centrale changer \"compte ISO\" dans les propriétés.
 
 <img alt="" src=images/AnHi11.PNG  style="width:250px;">
-*Ci-dessus: succession de sélections|center* {{TechDraw Tools navi}} {{Tutorials navi}} 
+*Ci-dessus: succession de sélections|center* {{TechDraw Tools navi}} {{Tutorials navi}}
+
+---
+[documentation index](../README.md) > Measurement Of Angles On Holes/fr

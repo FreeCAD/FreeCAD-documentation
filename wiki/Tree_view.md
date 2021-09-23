@@ -1,6 +1,4 @@
 # Tree view
- 
-
 ## Introduction
 
 The [tree view](Tree_view.md) appears in the **Model** tab of the [combo view](Combo_view.md), one of the most important panels in the [interface](Interface.md); it shows all user defined objects that are part of a FreeCAD document. The tree view is a representation of the [document\'s structure](document_structure.md), and indicates what information is saved to disk.
@@ -144,4 +142,7 @@ This is only used for [sketches](Sketch.md) and indicates that the sketch is not
 
 This indicates that the object has an error that needs to be fixed. After recomputing the whole document a tooltip describing the error is shown when you hover the mouse over the object in the tree view. Note: All other objects depending on an object in such an error state will not be properly recomputed, thus they may still show some old state.
 
- {{Interface navi}} {{Std Base navi}} 
+ {{Interface navi}} {{Std Base navi}}
+
+---
+[documentation index](../README.md) > Tree view

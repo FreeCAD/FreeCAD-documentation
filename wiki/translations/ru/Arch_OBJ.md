@@ -1,7 +1,4 @@
 # Arch OBJ/ru
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -71,3 +68,6 @@ mesh.write(Filename="new_example.obj", Material=face_colors, Format="obj")
  
 
 [Category:File Formats](Category:File_Formats.md)
+
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch OBJ/ru

@@ -1,5 +1,5 @@
 # Macro DeepCopy/fr
- {{Macro/fr
+{{Macro/fr
 |Name=Macro DeepCopy
 |Icon=Macro_DeepCopy.png
 |Description=Crée un compound avec les objets sélectionnés
@@ -121,6 +121,5 @@ if __name__ == '__main__':
 
 [code on github](https://github.com/FreeCAD/FreeCAD-macros/blob/master/Conversion/DeepCopy.FCMacro)
 
-
-
-
+---
+[documentation index](../README.md) > Macro DeepCopy/fr

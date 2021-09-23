@@ -1,7 +1,4 @@
 # Arch IFC/it
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -96,3 +93,6 @@ Se la forma degli oggetti esportati si basa su una estrusione o una operazione b
  
 
 [Category:File Formats](Category:File_Formats.md)
+
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch IFC/it

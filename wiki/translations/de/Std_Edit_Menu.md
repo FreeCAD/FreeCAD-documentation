@@ -1,10 +1,4 @@
-# Std Edit Menu/de
-
-
-
-
-
-<img alt="Std Basis Symbol" src=images/Freecad.svg  style="width:128px;">
+# <img alt="Std Basis Symbol" src=images/Freecad.svg  style="width:64px;"> Std Edit Menu/de
 
 
 {{TOCright}}
@@ -80,3 +74,6 @@ Die folgenden Werkzeuge sind in diesem Menü verfügbar:
 }}  
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > [Workbenches](Category:Workbenches.md) > Std Edit Menu/de

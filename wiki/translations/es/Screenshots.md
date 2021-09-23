@@ -1,5 +1,5 @@
 # Screenshots/es
- {{TOCright}}
+{{TOCright}}
 
 Aquí hay algunas capturas de pantalla mostrando diferentes parted de FreeCAD. No están ordenadas en alguna cronología específica, así que las imágenes pueden diferir de tu versión. Ve más capturas de pantalla enviadas por usuarios de FreeCAD en el [foro de capturas de pantalla](http://forum.freecadweb.org/viewtopic.php?f=8&t=4751) y en [la parte del foro de Users Showcase \"¡Muestra tu proyecto aquí!\"](http://forum.freecadweb.org/viewforum.php?f=24).
 
@@ -238,3 +238,6 @@ FreeCAD ejecutado en modo consola (sin interfaz gráfico de usuario GUI)
 Letrero de diálogo para guardar una imagen de tamaño arbitrario.
 
 [Category:User Documentation/es](Category:User_Documentation/es.md) [Category:Screenshots/es](Category:Screenshots/es.md)
+
+---
+[documentation index](../README.md) > Screenshots/es

@@ -7,6 +7,8 @@
    SeeAlso:[离开草图](Sketcher_LeaveSketch/zh-cn.md)
 ---
 
+# Sketcher EditSketch/zh-cn
+
 ## 描述
 
 
@@ -44,4 +46,7 @@
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher EditSketch/zh-cn

@@ -6,6 +6,8 @@
    SeeAlso:[Mesh RemoveComponents](Mesh_RemoveComponents.md), [Arch SplitMesh](Arch_SplitMesh.md)
 ---
 
+# Mesh RemoveCompByHand/en
+
 ## Description
 
 The **Mesh RemoveCompByHand** command removes components from mesh objects.
@@ -29,4 +31,7 @@ The **Mesh RemoveCompByHand** command removes components from mesh objects.
 
 {{Mesh Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh RemoveCompByHand/en

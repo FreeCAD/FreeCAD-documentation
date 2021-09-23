@@ -7,6 +7,8 @@
    SeeAlso:[Referans noktası oluştur](PartDesign_Point.md), [Referans çizgisi oluştur](PartDesign_Line.md)
 ---
 
+# PartDesign Plane/tr
+
 
 </div>
 
@@ -94,4 +96,7 @@ Model ağacındaki Referans düzlemi etiketine çift tıklayın veya sağ tıkla
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Plane/tr

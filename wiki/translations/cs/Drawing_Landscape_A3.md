@@ -1,3 +1,4 @@
+# Drawing Landscape A3/cs
 ---
 - GuiCommand:/cs   Name:Drawing Landscape A3   Name/cs:Drawing Landscape A3   Workbenches:[[Drawing Workbench/cs   Výkres]], Sestavení|MenuLocation:Drawing → Insert new drawing → A3 Landscape   Shortcut:none---
 
@@ -21,4 +22,7 @@ Jestliže se stránka nezobrazí, klikněte na obnovovací ikonu <img alt="" src
 
 {{Drawing Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Landscape A3/cs

@@ -1,10 +1,4 @@
 # Third Party Libraries/ru
-
-
-
-
-
-
 {{TOCright}}
 
 ### Обзор
@@ -294,3 +288,6 @@ See the announcement in the forum: [New libpacks for Windows with Qt5.12, OCC7.3
  
 
 [Category:Developer Documentation](Category:Developer_Documentation.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Third Party Libraries/ru

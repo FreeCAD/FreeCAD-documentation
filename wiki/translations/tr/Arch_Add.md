@@ -7,6 +7,8 @@
    SeeAlso:[Mimari Kaldır](Arch_Remove/tr.md)
 ---
 
+# Arch Add/tr
+
 
 </div>
 
@@ -120,11 +122,5 @@ Arch.addComponents(Wall2, Wall)
 FreeCAD.ActiveDocument.recompute()
 ```
 
-
-
-
-
-
-
-
-
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Add/tr

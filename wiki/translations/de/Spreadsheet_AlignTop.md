@@ -7,6 +7,8 @@
    Version:0.17
 ---
 
+# Spreadsheet AlignTop/de
+
 ## Beschreibung
 
 Das **<img src=images/Spreadsheet_AlignTop.svg style="width:16px"> [Kalkulationstabelle ObenAusrichten](Spreadsheet_AlignTop/de.md)** Werkzeug bewirkt, dass der Text innerhalb der Zelle nach oben ausgerichtet wird.
@@ -23,4 +25,7 @@ Das **<img src=images/Spreadsheet_AlignTop.svg style="width:16px"> [Kalkulations
 
 {{Spreadsheet_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet AlignTop/de

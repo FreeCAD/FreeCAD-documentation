@@ -8,6 +8,8 @@
    SeeAlso:[Arch PipeConnector](Arch_PipeConnector/ro.md), [Arch Equipment](Arch_Equipment/ro.md)
 ---
 
+# Arch Pipe/ro
+
 
 </div>
 
@@ -160,5 +162,5 @@ FreeCAD.ActiveDocument.recompute()
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Pipe/ro

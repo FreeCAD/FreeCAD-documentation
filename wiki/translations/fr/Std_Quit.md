@@ -8,6 +8,8 @@
    SeeAlso:[Std Fermer](Std_CloseActiveWindow/fr.md)
 ---
 
+# Std Quit/fr
+
 ## Description
 
 La commande **Std Quitter** ferme l\'application FreeCAD et enregistre éventuellement les documents non enregistrés.
@@ -36,4 +38,7 @@ La commande **Std Quitter** ferme l\'application FreeCAD et enregistre éventuel
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std Quit/fr

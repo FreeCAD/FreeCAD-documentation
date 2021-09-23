@@ -1,5 +1,5 @@
 # Macro FlattenWire/de
- {{Macro/de
+{{Macro/de
 |Name=FlattenWire
 |Icon=Macro_FlattenWire.png
 |Description=Dieses Makro glättet Zugdrähte, die nicht auf ihre mittlere Z-Koordinate ausgerichtet sind
@@ -34,6 +34,5 @@ obj.Points = newppoints
 
 }}
 
-
-
-
+---
+[documentation index](../README.md) > Macro FlattenWire/de

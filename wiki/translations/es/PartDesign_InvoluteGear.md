@@ -7,6 +7,8 @@
    SeeAlso:[Ambiente de trabajo FCEngranaje](FCGear_Workbench/es.md)
 ---
 
+# PartDesign InvoluteGear/es
+
 ## Descripción
 
 Esta herramienta permite crear un perfil 2D de un engranaje evolvente. Este perfil 2D es totalmente paramétrico, y puede ser rellenado con la función [DiseñoPiezas Pad](PartDesign_Pad/es.md).
@@ -43,4 +45,7 @@ Para una información más detallada ver las entradas de Wikipedia para: [Gear](
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign InvoluteGear/es

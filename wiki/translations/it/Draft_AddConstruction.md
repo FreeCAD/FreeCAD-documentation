@@ -8,6 +8,8 @@
    SeeAlso:[Modalità costruzione](Draft_ToggleConstructionMode/it.md), [Aggiungi al gruppo](Draft_AddToGroup/it.md)
 ---
 
+# Draft AddConstruction/it
+
 
 </div>
 
@@ -61,5 +63,5 @@ In FreeCAD version 0.19 this command and the [Draft ToggleConstructionMode](Draf
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft AddConstruction/it

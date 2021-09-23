@@ -1,7 +1,4 @@
 # Manual:Parametric objects/ru
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -59,3 +56,6 @@ FreeCAD спроектирован для параметрического мо�
 </div>
 
 [Category:Poweruser Documentation](Category:Poweruser_Documentation.md) [Category:Tutorials](Category:Tutorials.md)
+
+---
+[documentation index](../README.md) > [Poweruser Documentation](Category:Poweruser Documentation.md) > Manual:Parametric objects/ru

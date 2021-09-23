@@ -8,6 +8,8 @@
    SeeAlso:[Std ViewRotateLeft](Std_ViewRotateLeft/ru.md)
 ---
 
+# Std ViewRotateRight/ru
+
 ## Описание
 
 The **Std ViewRotateRight** command rotates the camera in the active [3D view](3D_view.md) around the view direction in 90-degree increments towards the right (clockwise).
@@ -42,4 +44,7 @@ FreeCADGui.ActiveDocument.ActiveView.getCameraOrientation()
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ViewRotateRight/ru

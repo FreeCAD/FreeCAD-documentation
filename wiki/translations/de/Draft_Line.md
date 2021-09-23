@@ -9,6 +9,8 @@
    SeeAlso:[Entwurf Draht](Draft_Wire/de.md), [Entwurf Punkt](Draft_Point/de.md)
 ---
 
+# Draft Line/de
+
 
 </div>
 
@@ -165,5 +167,5 @@ doc.recompute()
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Line/de

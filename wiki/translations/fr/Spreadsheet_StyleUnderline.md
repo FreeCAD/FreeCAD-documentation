@@ -7,6 +7,8 @@
    Version:0.17
 ---
 
+# Spreadsheet StyleUnderline/fr
+
 ## Description
 
 L\'outil souligné.
@@ -23,4 +25,7 @@ L\'outil souligné.
 
 {{Spreadsheet_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet StyleUnderline/fr

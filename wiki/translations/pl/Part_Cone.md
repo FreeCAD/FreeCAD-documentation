@@ -7,6 +7,8 @@
    SeeAlso:[Bryły pierwotne](Part_CreatePrimitives/pl.md)
 ---
 
+# Part Cone/pl
+
 ## Opis
 
 Parametrycznie obcięty element pierwotny **Stożek** jest dostępny w Środowisku pracy Część, z paska narzędzi Część → Bryła pierwotna → Stożek.
@@ -34,8 +36,5 @@ Właściwości stożka mogą być później edytowane w [edytorze właściwości
 
 -    **Kąt**: liczba stopni dla długości łuku lub okręgu określającego górną i dolną powierzchnię ściętego stożka. Domyślna wartość 360° tworzy okrągłe powierzchnie, niższa wartość utworzy fragment stożka zdefiniowany przez górną i dolną powierzchnię. Każda z tych powierzchni ma krawędzie zdefiniowane przez łuk *(o długości w liczbie stopni)* i dwóch promieniach.
 
-
-
-
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Cone/pl

@@ -1,5 +1,5 @@
 # Download/ru
- {{TOCright}}
+{{TOCright}}
 
 ## Текущая стабильная версия 
 
@@ -55,5 +55,5 @@ FreeCAD активно развивается.
 
 Сообщество FreeCAD предлагает множество различных модулей и макросов. Начиная с версии 0.17 они могут быть легко установлены напрямую из FreeCAD через [Менеджер дополнений](Addon_Manager/ru.md)<img alt="" src=images/AddonManager.svg  style="width:22px;">.
 
-
-
+---
+[documentation index](../README.md) > Download/ru

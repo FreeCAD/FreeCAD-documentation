@@ -8,6 +8,8 @@
    SeeAlso:[Part CreatePrimitives](Part_CreatePrimitives/ro.md)
 ---
 
+# Part Torus/ro
+
 
 </div>
 
@@ -80,8 +82,5 @@ precum și setul standard de parametri de plasare. Imaginile de mai jos oferă o
 
 </div>
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Torus/ro

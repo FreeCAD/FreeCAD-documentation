@@ -6,6 +6,8 @@
    Workbenches:[Sketcher](Sketcher_Workbench/es.md)
 ---
 
+# Sketcher ConstrainSnellsLaw/es
+
 
 </div>
 
@@ -98,4 +100,7 @@ App.ActiveDocument.recompute()
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainSnellsLaw/es

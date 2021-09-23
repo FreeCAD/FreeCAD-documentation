@@ -7,6 +7,8 @@
    Version:0.17
 ---
 
+# Spreadsheet SplitCell/de
+
 ## Beschreibung
 
 Das **<img src=images/Spreadsheet_SplitCell.svg style="width:16px"> [Kalkulationstabelle ZelleTeilen](Spreadsheet_SplitCell/de.md)** Werkzeug teilt eine Zelle auseinander, die in einer bestehenden Tabelle im aktiven Dokument zu einer Zelle zusammengeführt wurde.
@@ -23,4 +25,7 @@ Das **<img src=images/Spreadsheet_SplitCell.svg style="width:16px"> [Kalkulation
 
 {{Spreadsheet_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet SplitCell/de

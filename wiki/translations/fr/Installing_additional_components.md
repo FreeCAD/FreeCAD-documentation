@@ -1,10 +1,4 @@
 # Installing additional components/fr
-
-
-
-
-
-
 {{TOCright}}
 
 # Introduction
@@ -123,3 +117,6 @@ Le [ODA File Converter](https://www.opendesign.com/guestfiles/oda_file_converter
 
 
 [Category:User Documentation/fr](Category:User_Documentation/fr.md)
+
+---
+[documentation index](../README.md) > Installing additional components/fr

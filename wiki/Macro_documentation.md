@@ -1,6 +1,4 @@
 # Macro documentation
- 
-
 ## Description
 
 All macros should be properly documented in the same way [Gui Commands](Gui_Command.md) are documented. They should have an individual wiki page, and should be listed in one of the categories in [Macros recipes](Macros_recipes.md).
@@ -221,3 +219,6 @@ In order to include the macro there, first it must be reviewed by the FreeCAD co
 
 
 [Category:Macros](Category:Macros.md) [Category:User Documentation](Category:User_Documentation.md)
+
+---
+[documentation index](../README.md) > [Macros](Category:Macros.md) > Macro documentation

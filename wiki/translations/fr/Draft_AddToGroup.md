@@ -7,6 +7,8 @@
    SeeAlso:[Std Créer un groupe](Std_Group/fr.md), [Draft Ajouter au groupe de construction](Draft_AddConstruction/fr.md), [Draft Groupement automatique](Draft_AutoGroup/fr.md), [Draft Sélection groupée](Draft_SelectGroup/fr.md)
 ---
 
+# Draft AddToGroup/fr
+
 ## Description
 
 La commande <img alt="" src=images/Draft_AddToGroup.svg  style="width:24px;"> **Draft Déplacer vers le groupe** déplace les objets vers un [Std Groupe](Std_Group/fr.md). Elle peut aussi dégrouper des objets.
@@ -31,8 +33,5 @@ Dans la version 0.20 de FreeCAD, la commande peut également gérer les objets d
 -   Cette commande peut être utilisée pour déplacer des objets vers le [Groupe de construction](Draft_ToggleConstructionMode/fr.md), mais, contrairement à la commande [Draft Déplacer vers un groupe](Draft_AddConstruction/fr.md), elle n\'applique pas la [couleur de la géométrie de la construction](Draft_ToggleConstructionMode/fr#Pr.C3.A9f.C3.A9rences.md).
 -   Pour plus d\'informations sur l\'organisation de votre modèle, voir [Structure du document](Document_structure/fr.md) et [Tutoriel Arch](Arch_tutorial/fr#Organiser_votre_mod.C3.A8le.md).
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft AddToGroup/fr

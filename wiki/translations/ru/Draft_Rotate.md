@@ -7,6 +7,8 @@
    Shortcut:**R** **O**
 ---
 
+# Draft Rotate/ru
+
 
 </div>
 
@@ -119,8 +121,5 @@ rot_list4 = Draft.rotate(list2, 4*angle2, center=cen, copy=True)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Rotate/ru

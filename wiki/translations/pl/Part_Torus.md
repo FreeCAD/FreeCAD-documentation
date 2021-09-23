@@ -7,6 +7,8 @@
    SeeAlso:[Bryły pierwotne](Part_Primitives/pl.md)
 ---
 
+# Part Torus/pl
+
 ## Opis
 
 Tworzy torus parametryczny, którego parametrami są: pozycja, kąt1, kąt2, kąt3, promień1 i promień2.
@@ -51,10 +53,7 @@ jak również standardowy zestaw parametrów rozmieszczania. Poniższe ilustracj
 
 ![](images/TorusExampleAngle2.jpg ) Parametr Kąt2 ma wartość 90°.
 
-![](images/TorusExampleAngle3.jpg ) Parametr Kąt3 ma wartość 90°. 
+![](images/TorusExampleAngle3.jpg ) Parametr Kąt3 ma wartość 90°.
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Torus/pl

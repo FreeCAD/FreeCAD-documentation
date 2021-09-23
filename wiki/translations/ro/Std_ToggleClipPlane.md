@@ -1,3 +1,4 @@
+# Std ToggleClipPlane/ro
 ---
 - GuiCommand:/ro   Name:Std ClippingPlane   Name/ro:Std ClippingPlane   MenuLocation:[[Std View Menu/ro   View]] → Clipping plane‏‎||Workbenches:All   Shortcut:   SeeAlso:---
 
@@ -44,4 +45,7 @@ Un \'\'\'plan de secționare \'\'\' este un plan care împarte volumul obiectulu
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ToggleClipPlane/ro

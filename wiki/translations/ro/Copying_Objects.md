@@ -1,5 +1,5 @@
 # Copying Objects/ro
- {{TOCright}}
+{{TOCright}}
 
 
 <div class="mw-translate-fuzzy">
@@ -73,5 +73,5 @@ Ca multe lucruri în FreeCAD, există multe modalități de a face o copie. Pent
 -   [Paste](Std_Paste.md)
 -   [Duplicate Selection](Std_DuplicateSelection.md)
 
-
-
+---
+[documentation index](../README.md) > Copying Objects/ro

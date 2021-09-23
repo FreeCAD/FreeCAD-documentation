@@ -5,6 +5,8 @@
    Workbenches:[WebTools](WebTools_Workbench.md)
 ---
 
+# WebTools BimServer
+
 
 **Starting from FreeCAD v0.17, this tool has been removed from the Arch Workbench and is now part of the external [WebTools Workbench](WebTools_Workbench.md) that you can install via menu Tools → <img src="images/AddonManager.svg" width=24px> [Addon manager](Addon_manager.md).
 **
@@ -49,4 +51,5 @@ In order to use this command, the following conditions must be met:
 -   Write a **Comment**, that will be the description (name) of the revision.
 -   Press the **Upload** button. A dialog box will open to allow you to save the produced IFC file at a location of your choice before uploading it. If you press **Cancel**, the file will be saved under a temporary name in the system\'s temporary directory instead.
 
-
+---
+[documentation index](../README.md) > WebTools BimServer

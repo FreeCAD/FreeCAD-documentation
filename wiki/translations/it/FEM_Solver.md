@@ -1,6 +1,4 @@
 # FEM Solver/it
-
-
 ## Prefazione
 
 
@@ -275,4 +273,7 @@ Technog was successfully used in FreeCAD as a substitute of CalculiX, although t
 
 {{FEM Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > FEM Solver/it

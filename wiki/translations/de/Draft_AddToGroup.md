@@ -7,6 +7,8 @@
    SeeAlso:[Std Gruppe](Std_Group/de.md), [Draft Zur Konstruktionsgruppe hinzufügen](Draft_AddConstruction/de.md), [Draft Zur Gruppe hinzufügen](Draft_AutoGroup/de.md),  [Entwurf Wähle Gruppe](Draft_SelectGroup/de.md), 
 ---
 
+# Draft AddToGroup/de
+
 ## Beschreibung
 
 Der <img alt="" src=images/Draft_AddToGroup.svg  style="width:24px;"> **Draft AddToGroup**-Befehl verschiebt Objekte in eine[Std Gruppe](Std_Group/de.md). Damit können auch Objekte von der aktuellen Gruppe entfernt werden.
@@ -31,8 +33,5 @@ In FreeCAD v0.20 kann der Befehl auch gruppenähnliche [Arch](Arch_Workbench/de.
 -   Dieser Befehl kann benutzt werden, um Objekte in die [Draft UmschaltenKonstruktionsmodus](Draft_ToggleConstructionMode/de.md) zu verschieben, aber, im Gegensatz zu [Draft AddConstruction](Draft_AddConstruction/de.md)-Befehl gilt dies nicht für die [construction geometry color](Draft_ToggleConstructionMode/de#Preferences.md).
 -   Für weitere Informationen zum organisieren deines Modells siehe [Dokumentstruktur](Document_structure/de.md) und [Arch-Tutorial](Arch_tutorial/de#Organizing_your_model.md).
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft AddToGroup/de

@@ -8,6 +8,8 @@
    SeeAlso:[Std Open](Std_Open/ru.md)
 ---
 
+# Std Quit/ru
+
 
 </div>
 
@@ -39,4 +41,7 @@ The **Std Quit** command closes the FreeCAD application and optionally saves uns
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std Quit/ru

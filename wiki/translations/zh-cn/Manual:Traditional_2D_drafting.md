@@ -1,7 +1,4 @@
 # Manual:Traditional 2D drafting/zh-cn
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -213,3 +210,6 @@ Draft 工作台虽然继承了传统 2D CAD 的工作方式，但并不局限于
 </div>
 
 [Category:Tutorials](Category:Tutorials.md) [Category:Draft](Category:Draft.md)
+
+---
+[documentation index](../README.md) > [Tutorials](Category:Tutorials.md) > Manual:Traditional 2D drafting/zh-cn

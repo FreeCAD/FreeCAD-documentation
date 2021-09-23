@@ -1,3 +1,4 @@
+# Sketcher MapSketch/pt
 ---
 - GuiCommand:/pt   Name:Sketcher MapSketch   Name/pt:Sketcher MapSketch   Create a sketch on a face|Workbenches:[PartDesign](Sketcher_Workbench/pt___Sketcher]],_[[PartDesign_Workbench/pt.md)|MenuLocation:Part design → Create a sketch on a face   SeeAlso:[Create a sketch](Sketcher_NewSketch/pt.md)---
 
@@ -57,3 +58,6 @@ Now we select the top face of Pad and then select the Map A Sketch To A Face too
 }} 
 
 [Category:Sketcher/pt](Category:Sketcher/pt.md)
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher MapSketch/pt

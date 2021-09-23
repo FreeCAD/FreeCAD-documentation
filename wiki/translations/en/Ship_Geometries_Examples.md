@@ -7,6 +7,8 @@
    SeeAlso:
 ---
 
+# Ship Geometries Examples/en
+
 ## Description
 
 Ship works over **Ship entities**, that must be created on top of provided geometry. Geometry must be a solid, or set of solids, following criteria must be taken into account:
@@ -47,4 +49,7 @@ In order to help new users, Ship includes a geometries examples loader, with the
 
 {{Ship_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > Ship Geometries Examples/en

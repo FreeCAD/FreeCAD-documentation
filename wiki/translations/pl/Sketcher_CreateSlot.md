@@ -5,6 +5,8 @@
    Workbenches:[Sketcher](Sketcher_Workbench.md)
 ---
 
+# Sketcher CreateSlot/pl
+
 ## Description
 
 Draws a slot by selecting the center of two semicircle. (In older FreeCAD versions by selecting one semicircle center and an endpoint of the other semicircle.)
@@ -24,4 +26,7 @@ When starting the tool, the mouse pointer changes to a white cross with a red sl
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateSlot/pl

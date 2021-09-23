@@ -1,3 +1,4 @@
+# Ship PlotGZ/ru
 ---
 - GuiCommand:/ru
    Name:Ship PlotGZ
@@ -21,9 +22,5 @@ TODO
 
 {{Ship_Tools_navi}}
 
-
-
-
-
-
-
+---
+[documentation index](../README.md) > Ship PlotGZ/ru

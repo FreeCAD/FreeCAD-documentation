@@ -6,6 +6,8 @@
    Workbenches:[HerramientasWeb](WebTools_Workbench/es.md)
 ---
 
+# WebTools BimServer/es
+
 
 **A partir de FreeCAD v0.17, esta herramienta se ha eliminado del Ambiente de trabajos Arquitectura y ahora forma parte del [Ambiente de trabajos HerramientasWeb](WebTools_Workbench/es.md) externo que puedes instalar a través del menú Herramientas → <img src="images/AddonManager.svg" width=24px>. [Administrador de complementos](Addon_manager/es.md).
 **
@@ -49,3 +51,6 @@ Para utilizar este comando, se deben cumplir las siguientes condiciones:
 -   Elija el **Objeto raíz**\' que desea cargar. Debe ser un [Arquitectura Site](Arch_Site/es.md) o un [Arquitectura Edificio](Arch_Building/es.md). Sólo se subirán los objetos que pertenezcan a ese objeto raíz.
 -   Escribe un **Comentario**\', que será la descripción (nombre) de la revisión.
 -   Pulse el botón **Subir**. Se abrirá un cuadro de diálogo que le permitirá guardar el archivo IFC producido en una ubicación de su elección antes de cargarlo. Si pulsa **Cancelar**, el archivo se guardará con un nombre temporal en el directorio temporal del sistema.
+
+---
+[documentation index](../README.md) > WebTools BimServer/es

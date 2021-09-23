@@ -1,6 +1,4 @@
 # Online Help Startpage/pt
- 
-
 ![150](images/Crystal_Clear_app_tutorials.png )
 
 ## Bem-vindo à ajuda online do FreeCAD 
@@ -46,3 +44,6 @@ Como já deve ter reparado, os programadores são muito maus a escrever document
 
 
 [Category:User\_Documentation](Category:User_Documentation.md)
+
+---
+[documentation index](../README.md) > [User_Documentation](Category:User_Documentation.md) > Online Help Startpage/pt

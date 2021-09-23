@@ -1,10 +1,4 @@
 # Getting started/de
-
-
-
-
-
-
 {{TOCright}}
 
 ## Vorwort
@@ -195,3 +189,6 @@ Und schließlich ist eine der leistungsfähigsten Funktionen von FreeCAD die [sc
 {{Userdocnavi/de}}
 
 [Category:User Documentation/de](Category:User_Documentation/de.md)
+
+---
+[documentation index](../README.md) > Getting started/de

@@ -1,3 +1,4 @@
+# Part Loft/cs
 ---
 - GuiCommand:/cs   Name:Part Loft   Name/cs:Part Loft   MenuLocation:Part → Loft...   |Workbenches:[SeeAlso:[[Part Sweep/cs|Part Sweep](Part_Workbench/cs___Part]].md)---
 
@@ -99,8 +100,5 @@ If you want to change the selection of the sections after creation of the loft, 
 
 The sequence of sections depends on the sequence of clicks in the list. If you want to make substantial changes it is recommended to first deselect all and then start selection in the right order.
 
-
-
-
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Loft/cs

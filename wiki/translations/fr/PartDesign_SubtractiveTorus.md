@@ -8,6 +8,8 @@
    SeeAlso:[PartDesign Primitives soustractives](PartDesign_CompPrimitiveSubtractive/fr.md)
 ---
 
+# PartDesign SubtractiveTorus/fr
+
 ## Description
 
 Insère un Tore primitif soustractif dans le Corps actif. Sa forme est soustraite du solide existant.
@@ -50,4 +52,7 @@ Le Tore peut être éditée après sa création de deux façons :
 
 {{PartDesign Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveTorus/fr

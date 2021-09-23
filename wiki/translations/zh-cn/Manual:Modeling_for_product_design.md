@@ -1,7 +1,4 @@
 # Manual:Modeling for product design/zh-cn
- 
-
-
 {{Manual:TOC/zh-cn}}
 
 [产品设计](https://en.wikipedia.org/wiki/Product_design)最初是商业术语，但在 3D 领域，通常意味着建模的时候，心里想着将来 [3D 打印](https://en.wikipedia.org/wiki/3D_printing)，或更一般地说，由机器（例如 3D 打印机或 [CNC 机床](https://en.wikipedia.org/wiki/Numerical_control)）制造出来。
@@ -155,3 +152,6 @@ But the best of both worlds also exists, which is the [Assembly2 Workbench](http
 
 
 [Category:Tutorials/zh-cn](Category:Tutorials/zh-cn.md)
+
+---
+[documentation index](../README.md) > Manual:Modeling for product design/zh-cn

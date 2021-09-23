@@ -1,3 +1,4 @@
+# Arch Wall/cs
 ---
 - GuiCommand:/cs   Name:Arch Wall   Name/cs:Zed'   Workbenches:[MenuLocation:Arch → Zed'   Shortcut:W A   SeeAlso:[[Arch Structure/cs|Struktura](Arch_Workbench/cs___Architettura]].md)---
 
@@ -213,3 +214,6 @@ FreeCAD.ActiveDocument.recompute()
 
 
 [Category:Arch/cs](Category:Arch/cs.md)
+
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Wall/cs

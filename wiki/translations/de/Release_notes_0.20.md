@@ -1,7 +1,4 @@
 # Release notes 0.20/de
-
-
-
 **Diese Seite verfolgt neue Funktionen, die der Entwicklungsversion von FreeCAD, die derzeit 0.20 ist, hinzugefügt werden. Wenn das Einfrieren der Funktionen von 0.20 eintritt, lösche diese Meldungen und füge keine weiteren Funktionen zu dieser Seite hinzu. FreeCAD 0.20 wird voraussichtlich im Jahr 202x veröffentlicht werden.**
 
 
@@ -243,3 +240,6 @@ There is also a text box for feedback of OpenSCAD errors.
 ### Wege, PyTrails, Abbiege, pivy\_trackers, und Geomatik 
 
 [Category:News](Category:News.md) [Category:Documentation](Category:Documentation.md) [Category:Releases](Category:Releases.md)
+
+---
+[documentation index](../README.md) > [News](Category:News.md) > Release notes 0.20/de

@@ -1,7 +1,4 @@
 # Arch Workbench/cs
-
-
-
 {{docnav/cs|[Workbenches/cs](Workbenches/cs.md)|[Draft Workbench/cs](Draft_Workbench/cs.md)|IconL=|IconR=Workbench_Draft.svg}}
 
 <img alt="Arch workbench icon" src=images/Workbench_Arch.svg  style="width:128px;">
@@ -121,3 +118,6 @@ Modul Architektura může být použit v pythonovských skriptech a [makrech](ma
  
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Arch Workbench/cs

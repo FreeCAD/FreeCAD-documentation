@@ -1,5 +1,5 @@
 # Macro AeroFoil/pl
- {{Macro/pl
+{{Macro/pl
 |Name=Macro AeroFoil
 |Name/pl=Makrodefinicja: Skrzydło samolotu
 |Icon=AeroFoil.png
@@ -225,3 +225,6 @@ __Files__         = "AeroFoil_UI_Files/AeroFoil_Initial_Dialog.ui, "\
 \[3\] [dyskusja na forum FreeCAD, o - AeroFoil](https://forum.freecadweb.org/viewtopic.php?f=22&t=56162)
 \[4\] [Airfoil Tools](http://airfoiltools.com/) zawiera około 1638 różnych profili lotniczych.
 \[5\] [Baza danych współrzędnych profili lotniczych UIUC](https://m-selig.ae.illinois.edu/ads/coord_database.html) zawiera około 1600 różnych profili lotniczych.
+
+---
+[documentation index](../README.md) > Macro AeroFoil/pl

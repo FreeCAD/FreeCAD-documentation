@@ -1,7 +1,4 @@
 # Feature list/cs
- 
-
-
 <div class="mw-translate-fuzzy">
 
 Toto je obsáhlý, i když ne kompletní, seznam charakteristických vlastností implementace FreeCADu. Chcete-li se nahlédnout do budoucnosti, podívejte se na [Směry vývoje](Development_roadmap/cs.md) na rychlý přehled o tom co se očekává. Zajímavé jsou i [Screenshoty](Screenshots/cs.md).
@@ -277,3 +274,6 @@ Power users have created various custom [external workbenches](external_workbenc
 
 
 [Category:User Documentation](Category:User_Documentation.md)
+
+---
+[documentation index](../README.md) > [User Documentation](Category:User Documentation.md) > Feature list/cs

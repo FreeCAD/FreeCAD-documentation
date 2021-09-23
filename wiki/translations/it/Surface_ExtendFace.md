@@ -7,6 +7,8 @@
    Version:0.17
 ---
 
+# Surface ExtendFace/it
+
 ## Descrizione
 
 
@@ -130,4 +132,7 @@ doc.recompute()
 
 {{Surface Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Surface](Surface_Workbench.md) > Surface ExtendFace/it

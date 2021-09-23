@@ -7,6 +7,8 @@
    SeeAlso:[Path Saut de trajectoire](Path_DressupTag/fr.md), [Path Rampe d'entrée](Path_DressupRampEntry.md)
 ---
 
+# Path DressupPathBoundary/fr
+
 ## Description
 
 La limitation de zones permet de restreindre l\'étendue d\'un chemin à une plus petite partie de l\'objet. Par exemple, restreindre un tracé de profil à une seule face ou partie du modèle.
@@ -33,4 +35,7 @@ La limitation de zones permet de restreindre l\'étendue d\'un chemin à une plu
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path DressupPathBoundary/fr

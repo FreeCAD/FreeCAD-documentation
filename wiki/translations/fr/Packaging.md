@@ -1,6 +1,4 @@
 # Packaging/fr
-
-
 Cette page recueille les informations sur le packaging de FreeCAD sur différentes plateformes.
 
 -   [Linux packaging](Linux_packaging/fr.md). Informations sur AppImages, paquets Debian, instables et quotidiens, et autres.
@@ -11,3 +9,6 @@ Cette page recueille les informations sur le packaging de FreeCAD sur différent
  
 
 [Category:Packaging](Category:Packaging.md) [Category:Developer Documentation](Category:Developer_Documentation.md)
+
+---
+[documentation index](../README.md) > [Packaging](Category:Packaging.md) > Packaging/fr

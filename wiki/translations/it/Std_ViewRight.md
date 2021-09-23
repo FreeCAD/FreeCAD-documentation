@@ -8,6 +8,8 @@
    SeeAlso:[Vista da davanti](Std_ViewFront/it.md), [Vista dall'alto](Std_ViewTop/it.md)
 ---
 
+# Std ViewRight/it
+
 ## Descrizione
 
 Il comando **Vista da destra** orienta la fotocamera della [Vista 3D](3D_view/it.md) che guarda da destra verso sinistra, nella direzione dell\'asse X negativo.
@@ -51,4 +53,7 @@ FreeCADGui.ActiveDocument.ActiveView.getViewDirection()
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ViewRight/it

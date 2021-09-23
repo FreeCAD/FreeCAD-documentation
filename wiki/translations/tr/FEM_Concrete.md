@@ -1,7 +1,4 @@
 # FEM Concrete/tr
-
-
-
 <div class="mw-translate-fuzzy">
 
 Bu sayfa, beton yapılarla ilgili bazı ilginç konuları toplar:
@@ -23,4 +20,7 @@ Bu sayfa, beton yapılarla ilgili bazı ilginç konuları toplar:
 
 {{FEM Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > FEM Concrete/tr

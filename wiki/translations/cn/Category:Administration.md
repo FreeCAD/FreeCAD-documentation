@@ -4,3 +4,6 @@ This category contains articles and categories about wiki administrative subject
 ### Contents:
 
 [Category:Categories/cn](Category:Categories/cn.md)
+
+---
+[documentation index](../README.md) > Category:Administration/cn

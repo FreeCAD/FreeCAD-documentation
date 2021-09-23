@@ -1,3 +1,4 @@
+# Std MeasureDistance/ro
 ---
 - GuiCommand:   Name:Std MeasureDistance   MenuLocation:[[Std View Menu   View]] → Measure distance‏‎||Workbenches:All   Shortcut:   SeeAlso:---
 
@@ -91,4 +92,7 @@ Pentru mai multe posibilități de măsurare / dimensionare puteți utiliza
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std MeasureDistance/ro

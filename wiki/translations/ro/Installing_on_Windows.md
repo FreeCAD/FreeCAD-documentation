@@ -1,7 +1,4 @@
 # Installing on Windows/ro
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -246,5 +243,5 @@ FreeCAD rulează dar s-a raportat că interfața OpenGL nu funcționează, la fe
 
 </div>
 
-
-
+---
+[documentation index](../README.md) > Installing on Windows/ro

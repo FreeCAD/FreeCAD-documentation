@@ -1,9 +1,4 @@
 # Workbenches/ru
-
-
-
-
-
 FreeCAD, подобно многим современным приложениям для проектирования, таким как \[//ru.wikipedia.org/wiki/Revit Revit\] или \[//ru.wikipedia.org/wiki/CATIA CATIA\], базируется на концепции \[//ru.wikipedia.org/wiki/Верстак верстаков\]. Верстаки можно рассматривать как набор инструментов, специально сгруппированных под определенные задачи. В традиционных мебельных мастерских, вы имели бы рабочий стол для человека работающего с деревом, другой для работающего с металлическими частями, и, возможно, третий для того, который монтирует все это вместе.
 
 Тоже самое относится и к FreeCAD. Инструменты сгруппированы в верстаки в соответствии с задачами, к которым они относятся.
@@ -83,3 +78,6 @@ The following workbenches are still included in the base installation for compat
 
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Workbenches/ru

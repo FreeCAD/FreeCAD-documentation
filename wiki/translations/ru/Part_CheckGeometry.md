@@ -1,3 +1,4 @@
+# Part CheckGeometry/ru
 ---
 - GuiCommand:/ru
    Name:Part CheckGeometry‏‎
@@ -45,10 +46,7 @@ If ticked, additionally a Boolean OPerations (BOP) check is performed. <small>(v
 
 ### Log errors 
 
-If ticked, any errors found are also logged in the [report view](Report_view.md). <small>(v0.19)</small> 
+If ticked, any errors found are also logged in the [report view](Report_view.md). <small>(v0.19)</small>
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part CheckGeometry/ru

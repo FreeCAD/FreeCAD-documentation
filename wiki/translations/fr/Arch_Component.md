@@ -7,6 +7,8 @@
    Shortcut:**C** **M**
 ---
 
+# Arch Component/fr
+
 ## Description
 
 Crée un composant [Arch](Arch_Workbench/fr.md) non-paramétrique à partir de n\'importe quel objet [Part](Part_Workbench/fr.md). Cela donne un objet de base Part avec les mêmes attributs et propriétés que les autres objets Arch et permet de préciser comment il doit être exporté au format IFC en définissant sa propriété ou son *Rôle*.
@@ -47,11 +49,5 @@ L\'objet Composant Arch est également une base partagée par tous les autres ob
 
 -   **Hi Res** : Les composants Arch peuvent utiliser la forme d\'un autre objet avec une résolution plus élevée. Pour cela, la propriété Hi Res et le mode d\'affichage Hi Res doivent être définis. Cela permet, par exemple, de créer un simple mur, puis de modéliser chaque brique qui compose le mur, par exemple avec **<img src="images/Part_Box.svg" width=16px> [Part Cube](Part_Box/fr.md)**. Ensuite, utilisez un composé de ces briques comme une version haute résolution du mur. La forme du mur n\'est pas modifiée en ajoutant un objet Hi-Res. Seule sa représentation dans la vue 3D changera en adoptant la représentation de la version haute résolution à la place de la sienne.
 
-
-
-
-
-
-
-
-
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Component/fr

@@ -7,6 +7,8 @@
    Shortcut:**T** **E**
 ---
 
+# Draft Text/es
+
 
 </div>
 
@@ -206,8 +208,5 @@ text3.ViewObject.FontSize = 200
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Text/es

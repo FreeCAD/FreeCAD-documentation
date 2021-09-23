@@ -1,3 +1,4 @@
+# Path Helix/ro
 ---
 - GuiCommand:   Name:Path Helix   Workbenches:[[Path Workbench   Path]]|MenuLocation:Path → Helix   Shortcut:   SeeAlso:---
 
@@ -63,4 +64,7 @@ Example:
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Helix/ro

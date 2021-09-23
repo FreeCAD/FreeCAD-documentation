@@ -1,3 +1,4 @@
+# FEM ConstraintForce/ro
 ---
 - GuiCommand:   Name:FEM ConstraintForce   MenuLocation:Model → Mechanical Constraints → Constraint force   |Workbenches:[Shortcut:   SeeAlso:[[FEM_tutorial|FEM tutorial](FEM_Workbench___FEM]].md)---
 
@@ -72,4 +73,7 @@ Această comandă aplică o forță de valoare dată \[N\] la geometria țintei 
 
 {{FEM Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > FEM ConstraintForce/ro

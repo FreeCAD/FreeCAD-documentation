@@ -6,6 +6,8 @@
    Workbenches:[Part](Part_Workbench/ru.md)
 ---
 
+# Part ReverseShapes/ru
+
 
 </div>
 
@@ -49,5 +51,5 @@
 
 </div>
 
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part ReverseShapes/ru

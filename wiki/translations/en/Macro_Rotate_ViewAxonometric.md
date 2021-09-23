@@ -1,5 +1,5 @@
 # Macro Rotate ViewAxonometric/en
- {{Macro
+{{Macro
 |Name=Macro Rotate ViewAxonometric
 |Icon=Macro_Rotate_View_with_Y_pointing_upwards_.png
 |Description=This macro rotates the current view in ViewAxonometric.
@@ -64,6 +64,5 @@ cam.orientation = nrot
 Gui.SendMsgToActiveView("ViewFit")
 }}
 
-
-
-
+---
+[documentation index](../README.md) > Macro Rotate ViewAxonometric/en

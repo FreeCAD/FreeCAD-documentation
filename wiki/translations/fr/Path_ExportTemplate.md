@@ -7,6 +7,8 @@
    SeeAlso:[Path Feuille de configuration](Path_SetupSheet/fr.md)
 ---
 
+# Path ExportTemplate/fr
+
 ## Description
 
 L\'exportation des modèles de travail fournit un mécanisme pratique pour enregistrer les définitions de travail couramment utilisées à partir d\'un travail existant. Cela facilite la configuration des futurs travaux, qui sont en grande partie similaires, en permettant l\'importation de modèles de travail pendant le processus de création de travail.
@@ -50,4 +52,7 @@ L\'onglet **Édition → Préférences... → Path → Job Preferences, Defaults
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path ExportTemplate/fr

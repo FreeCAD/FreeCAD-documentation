@@ -1,3 +1,4 @@
+# Arch Floor/pt
 ---
 - GuiCommand:/pt   Name:Arch Floor   Name/pt:Arch Floor   Workbenches:[MenuLocation:Arch → Floor   Shortcut:F L   SeeAlso:[[Arch Building/pt|Arch Building](Arch_Workbench/pt___Arch]].md), [Arch Site](Arch_Site/pt.md)---
 
@@ -82,8 +83,5 @@ FreeCAD.ActiveDocument.recompute()
 
 </div>
 
-
-
-
-
-
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Floor/pt

@@ -6,6 +6,8 @@
    SeeAlso:[Part Fillet](Part_Fillet.md)
 ---
 
+# Part Chamfer
+
 ## Description
 
 Chamfers the selected edge(s) of an object. A dialog allows you to choose which edge(s) to work on as well as modify various chamfer parameters.
@@ -153,7 +155,5 @@ FreeCAD.ActiveDocument.recompute()
 
 -   Recomputes all altered components on the screen and refreshes the display.
 
-
-
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Chamfer

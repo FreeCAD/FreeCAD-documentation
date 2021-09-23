@@ -6,6 +6,8 @@
    MenuLocation:PartDesign → Линейный массив
 ---
 
+# PartDesign LinearPattern/ru
+
 
 </div>
 
@@ -90,4 +92,7 @@ Select one of the Body Origin\'s standard axis (X, Y or Z) as direction.
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign LinearPattern/ru

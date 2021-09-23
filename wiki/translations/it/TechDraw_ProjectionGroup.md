@@ -9,6 +9,8 @@
    Version:
 ---
 
+# TechDraw ProjectionGroup/it
+
 
 </div>
 
@@ -146,4 +148,7 @@ Nota di programmazione: Il Gruppo di proiezioni deve sempre essere aggiunto alla
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ProjectionGroup/it

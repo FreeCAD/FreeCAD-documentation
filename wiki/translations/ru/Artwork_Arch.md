@@ -1,5 +1,5 @@
 # Artwork Arch/ru
-  Эти иконки находятся в указанной исходной папке.
+Эти иконки находятся в указанной исходной папке.
 
 Для всех иконок в исходнике смотри [Художественное оформление](Artwork/ru.md).
 
@@ -19,3 +19,6 @@
 }} 
 
 [Category:Arch](Category:Arch.md)
+
+---
+[documentation index](../README.md) > [Arch](Category:Arch.md) > Artwork Arch/ru

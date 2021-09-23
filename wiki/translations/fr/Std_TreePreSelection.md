@@ -8,6 +8,8 @@
    Version:0.19
 ---
 
+# Std TreePreSelection/fr
+
 ## Description
 
 La commande **Std Pré-sélection** active ou pas le mode Préselection de la [vue en arborescence](tree_view/fr.md). Si ce mode est activé, un objet sur lequel la souris se trouve dans l\'arborescence sera présélectionné (temporairement mis en surbrillance) dans toutes les [vues 3D](3D_view/fr.md) appartenant au document de cet objet.
@@ -29,4 +31,7 @@ Le mode de présélection de l\'arborescence peut également être défini dans 
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std TreePreSelection/fr

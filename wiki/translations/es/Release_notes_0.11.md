@@ -66,3 +66,6 @@ Una captura de pantalla de la versión 0.11
 {{languages/es | {{en|Release_notes_0.11}} {{de|Release_notes_0.11/de}} {{fr|Release_notes_0.11/fr}} {{it|Release_notes_0.11/it}} {{pl|Release_notes_0.11/pl}} {{ru|Release_notes_0.11/ru}} }}
 
 [Category:News](Category:News.md) [Category:Documentation](Category:Documentation.md) [Category:Releases](Category:Releases.md)
+
+---
+[documentation index](../README.md) > [News](Category:News.md) > Release notes 0.11/es

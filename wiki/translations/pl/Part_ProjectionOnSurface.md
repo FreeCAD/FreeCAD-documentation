@@ -7,6 +7,8 @@
    Version:0.19
 ---
 
+# Part ProjectionOnSurface/pl
+
 ## Opis
 
 
@@ -91,8 +93,5 @@ Jeśli tak się stanie:
 
 ## Przykłady
 
-
-
-
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part ProjectionOnSurface/pl

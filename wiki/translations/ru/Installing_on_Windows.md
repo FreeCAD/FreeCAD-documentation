@@ -1,9 +1,4 @@
 # Installing on Windows/ru
-
-
-
-
-
 Наиболее лёгкий способ установить FreeCAD под Windows - это загрузить одну из программ установки по ссылке ниже.
 
 
@@ -191,8 +186,5 @@ msiexec /i Y:\\software\\FreeCAD<version>.msi
 
 FreeCAD работает, но сообщается, что OpenGL дисплей не работает, как и другие программы, работающие под [Wine](wikipedia:Wine_(software).md), то есть Google [SketchUp](wikipedia:SketchUp.md).
 
-
-
-
-
-
+---
+[documentation index](../README.md) > Installing on Windows/ru

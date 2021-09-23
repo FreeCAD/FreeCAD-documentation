@@ -5,6 +5,8 @@
    Workbenches:All
 ---
 
+# Std RandomColor
+
 ## Description
 
 The **Std RandomColor** command applies a random **Shape Color** to selected objects.
@@ -23,4 +25,7 @@ The **Std RandomColor** command applies a random **Shape Color** to selected obj
 
 
 
- {{Std Base navi}}  
+ {{Std Base navi}}
+
+---
+[documentation index](../README.md) > Std RandomColor

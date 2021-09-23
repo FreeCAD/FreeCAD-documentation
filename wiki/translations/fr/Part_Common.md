@@ -7,6 +7,8 @@
    SeeAlso:[Part Opération booléenne](Part_Boolean/fr.md), [Part Soustraction](Part_Cut/fr.md), [Part Union](Part_Fuse/fr.md)
 ---
 
+# Part Common/fr
+
 ## Description
 
 Extrait la partie commune (intersection) entre les objets Part sélectionnés. Cette opération est entièrement paramétrique et les composants peuvent être modifiés et le résultat recalculé.
@@ -20,8 +22,5 @@ Extrait la partie commune (intersection) entre les objets Part sélectionnés. C
 
 L\'objet doit être un objet (forme) [OpenCascade](OpenCascade/fr.md). Exemples : les trucs faits avec un des ateliers Part, PartDesign, Sketcher. Pas de maillages (sauf s\'ils ont été convertis en formes) - pour les maillages, il existe des outils booléens spécifiques dans l\'atelier MeshDesign.
 
-
-
-
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Common/fr

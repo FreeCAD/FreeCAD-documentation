@@ -1,6 +1,4 @@
 # Migrating to FreeCAD from Fusion360
- 
-
 ## Background
 
 This page is intended for users who are interested in migrating to FreeCAD from the Fusion 360 world.
@@ -56,4 +54,5 @@ Is this wiki page missing something. Please make a request for [wiki permissions
 
 -   [Migrating to FreeCAD from OnShape](Migrating_to_FreeCAD_from_OnShape.md)
 
- 
+---
+[documentation index](../README.md) > Migrating to FreeCAD from Fusion360

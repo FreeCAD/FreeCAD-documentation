@@ -1,7 +1,4 @@
 # Macro Fonts Win10 PYMP/fr
-
-
-
 {{Macro
 |Name=Macro Fonts Win10 PYMP
 |Icon=Macro_Fonts_Win10_PYMP.png
@@ -1149,3 +1146,6 @@ Mes macros sur [mario52a](https://gist.github.com/mario52a) gists
 Version = \"2.0 Date = 2020/06/06 : Layout ajout du bouton et icônes
 
 Version = \"01.00\" Date = \"2019/05/10\"
+
+---
+[documentation index](../README.md) > Macro Fonts Win10 PYMP/fr

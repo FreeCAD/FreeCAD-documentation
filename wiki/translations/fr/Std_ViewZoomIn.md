@@ -8,6 +8,8 @@
    SeeAlso:[Std Zoom arrière](Std_ViewZoomOut/fr.md), [Std Zoom de sélection](Std_ViewBoxZoom/fr.md)
 ---
 
+# Std ViewZoomIn/fr
+
 ## Description
 
 La commande **Std Zoom avant** effectue un zoom avant dans la [vue 3D](3D_view/fr.md) active.
@@ -48,4 +50,7 @@ FreeCADGui.ActiveDocument.ActiveView.zoomIn()
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ViewZoomIn/fr

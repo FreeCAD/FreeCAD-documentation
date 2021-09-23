@@ -7,6 +7,8 @@
    Version:0.17
 ---
 
+# Spreadsheet AlignRight/ru
+
 ## Описание
 
 The **<img src=images/Spreadsheet_AlignRight.svg style="width:16px"> [Spreadsheet AlignRight](Spreadsheet_AlignRight.md)** tool makes the text inside the cell align to the right.
@@ -23,4 +25,7 @@ The **<img src=images/Spreadsheet_AlignRight.svg style="width:16px"> [Spreadshee
 
 {{Spreadsheet_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet AlignRight/ru

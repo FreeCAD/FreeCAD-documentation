@@ -7,6 +7,8 @@
    SeeAlso:[Part JoinConnect](Part_JoinConnect.md), [Part JoinEmbed](Part_JoinEmbed.md), [Part JoinCutout](Part_JoinCutout.md), [Part Boolean](Part_Boolean.md), [Part Thickness](Part_Thickness.md)
 ---
 
+# Part CompJoinFeatures/ro
+
 
 </div>
 
@@ -43,8 +45,5 @@ Această comandă este un meniu derulant din bara de instrumente Booleană și c
 
 </div>
 
-
-
-
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompJoinFeatures/ro

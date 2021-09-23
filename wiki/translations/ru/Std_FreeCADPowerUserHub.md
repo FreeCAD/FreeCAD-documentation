@@ -7,6 +7,8 @@
    SeeAlso:[Online help](Std_OnlineHelp/ru.md), [Python help](Std_PythonHelp/ru.md), [Help menu](Std_Help_Menu/ru.md)
 ---
 
+# Std FreeCADPowerUserHub/ru
+
 
 </div>
 
@@ -26,4 +28,7 @@ Currently the command points to [<https://www.freecadweb.org/wiki/Power_users_hu
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std FreeCADPowerUserHub/ru

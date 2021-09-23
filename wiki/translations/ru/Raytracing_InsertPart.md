@@ -8,6 +8,8 @@
    SeeAlso:
 ---
 
+# Raytracing InsertPart/ru
+
 
 </div>
 
@@ -32,4 +34,7 @@
 
 {{Raytracing_Tools_navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing InsertPart/ru

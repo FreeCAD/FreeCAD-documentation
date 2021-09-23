@@ -1,5 +1,5 @@
 # Macro Guitar Nut
-  {{Macro
+{{Macro
 |Name=Macro Guitar Nut
 |Icon=Macro_Guitar_Nut.png
 |Description=Create [https://wikipedia.org/wiki/Guitar#Nut guitar nuts].<br/>FreeCAD macro that will create complex guitar nut shapes.<br/>Specifically it can create a nut with the bottom of the string slots at the desired height above a fretboard of the desired radius. The diameter of each string is configurable and the slots can be configured to account for the width needed to prevent binding. See the [Usage](#Usage.md) section for more details.
@@ -208,4 +208,5 @@ print("Finished creating nut")
 
 Forum discussion [Guitar fretboard macro / guitar body](https://forum.freecadweb.org/viewtopic.php?f=24&t=5827&)
 
-
+---
+[documentation index](../README.md) > Macro Guitar Nut

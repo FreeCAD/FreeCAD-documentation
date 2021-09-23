@@ -1,5 +1,5 @@
 # Macro Line Length/fr
- {{Macro/fr
+{{Macro/fr
 |Name=Macro Line_Length
 |Icon=Macro_Line_Length.png
 |Description=Crée une ligne (en ligne de commande) en donnant les coordonnées XYZ, la longueur, et un angle.La nouvelle ligne est créée dans les coordonnées réelles de l'objet et non dans celles du corps.<br/>{{ColoredText|(Ligne de commande, collez cette macro complète dans la console Python)}}.
@@ -72,3 +72,5 @@ ou au choix
 >>> line_length(length = 50, angle = 45)
 ```
 
+---
+[documentation index](../README.md) > Macro Line Length/fr

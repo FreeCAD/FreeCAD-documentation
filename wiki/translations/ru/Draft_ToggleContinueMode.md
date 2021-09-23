@@ -6,6 +6,8 @@
    Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
 ---
 
+# Draft ToggleContinueMode/ru
+
 
 </div>
 
@@ -21,8 +23,5 @@ The <img alt="" src=images/Draft_ToggleContinueMode.svg  style="width:24px;"> **
 4.  Create your geometry.
 5.  Press **Esc** or the **Close** button to finish the command and switch off continue mode.
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ToggleContinueMode/ru

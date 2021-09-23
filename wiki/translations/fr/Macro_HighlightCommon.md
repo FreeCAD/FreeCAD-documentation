@@ -1,5 +1,5 @@
 # Macro HighlightCommon/fr
- {{Macro/fr
+{{Macro/fr
 |Name=HightlightCommon
 |Icon=Macro_HighlightCommon.png
 |Description=Crée un volume des parties communes des objets sélectionnés|See=[[http://linuxforanengineer.blogspot.com.es/ linuxforanengineer]]
@@ -34,3 +34,6 @@ Le code est visible et téléchargeable sur Github: [Utility/HighlightCommon.FCM
 -   Ici la macro complémentaire [Macro\_HighlightDifference](Macro_HighlightDifference/fr.md)
 -   Mon blog [Linux for an engineer](http://linuxforanengineer.blogspot.com.es/) pour le code et d\'autres macros intéressantes pour FreeCAD
 -   La discussion sur le forum [\"collision detection\", overlapping](http://forum.freecadweb.org/viewtopic.php?f=22&t=12426)
+
+---
+[documentation index](../README.md) > Macro HighlightCommon/fr

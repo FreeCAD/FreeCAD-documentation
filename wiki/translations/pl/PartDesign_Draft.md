@@ -6,6 +6,8 @@
    Workbenches:[Projekt Części](PartDesign_Workbench/pl.md)
 ---
 
+# PartDesign Draft/pl
+
 ## Opis
 
 Narzędzie to tworzy pochylenie kątowe wybranych ścian obiektu. W drzewie projektu tworzony jest nowy osobny wpis Rysunek roboczy *(po którym następuje kolejny numer, jeśli w dokumencie istnieją już Rysunki robocze)*.
@@ -51,4 +53,7 @@ Narzędzie to tworzy pochylenie kątowe wybranych ścian obiektu. W drzewie proj
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Draft/pl

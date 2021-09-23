@@ -1,10 +1,4 @@
 # Continuous Integration/es
-
-
-
-
-
-
 {{TOCright}}
 
 
@@ -46,3 +40,6 @@ Actualmente, el repositorio de FreeCAD en GitHub activará una compilación en l
  
 
 [Category:Developer\_Documentation](Category:Developer_Documentation.md) [Category:Testing](Category:Testing.md)
+
+---
+[documentation index](../README.md) > [Developer_Documentation](Category:Developer_Documentation.md) > Continuous Integration/es

@@ -7,6 +7,8 @@
    SeeAlso:[PartDesign CompPrimitiveAdditive](PartDesign_CompPrimitiveAdditive.md)
 ---
 
+# PartDesign CompPrimitiveSubtractive
+
 ## Description
 
 Creates a subtractive primitive in the active Body, subtracting its shape from the existing solid.
@@ -25,4 +27,7 @@ Creates a subtractive primitive in the active Body, subtracting its shape from t
 
 
 
- {{PartDesign Tools navi}}  
+ {{PartDesign Tools navi}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign CompPrimitiveSubtractive

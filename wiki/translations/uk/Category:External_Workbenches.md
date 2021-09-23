@@ -6,3 +6,6 @@ This category collects pages from the [external workbenches](external_workbenche
 [Ship Workbench/uk](Ship_Workbench/uk.md)
 
 [Category:Workbenches/uk](Category:Workbenches/uk.md) [Category:Addons/uk](Category:Addons/uk.md)
+
+---
+[documentation index](../README.md) > Category:External Workbenches/uk

@@ -8,6 +8,8 @@
    SeeAlso:[Снизу](Std_ViewBottom/ru.md), [Слева](Std_ViewLeft/ru.md)
 ---
 
+# Std ViewRear/ru
+
 ## Описание
 
 The **Std ViewRear** command points the camera in the active [3D view](3D_view.md) in the direction of the negative Y axis.
@@ -45,4 +47,7 @@ FreeCADGui.ActiveDocument.ActiveView.getViewDirection()
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ViewRear/ru

@@ -1,6 +1,4 @@
 # Custom icon in tree view/it
-
-
 ## Introduzione
 
 Questo è un esempio di modifica dell\'icona di un [viewprovider](Viewprovider/it.md) personalizzato, che viene normalmente aggiunto agli [creati da script](scripted_objects/it.md).
@@ -276,3 +274,6 @@ makeBox()
 }} 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Custom icon in tree view/it

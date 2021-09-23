@@ -1,6 +1,4 @@
 # Artwork PartDesign/it
- 
-
 These icons are in the indicated source path.
 
 For all icons in the source tree, see [Artwork](Artwork.md).
@@ -25,3 +23,6 @@ For all icons in the source tree, see [Artwork](Artwork.md).
 }} 
 
 [Category:PartDesign](Category:PartDesign.md)
+
+---
+[documentation index](../README.md) > [PartDesign](Category:PartDesign.md) > Artwork PartDesign/it

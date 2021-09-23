@@ -1,7 +1,4 @@
 # Drawing Workbench/cs
- 
-
-
 **Development of the Drawing Workbench has stopped, and a new [[TechDraw Workbench]] aiming to replace it will be introduced in version 0.17. Both modules will be provided in v0.17, but the Drawing workbench may be removed in future releases.**
 
 <img alt="Drawing workbench icon" src=images/Workbench_Drawing.svg  style="width:128px;">
@@ -82,3 +79,6 @@ Některé poznámky k programovací stránce vykreslovacího modulu budou přid�
 }} 
 
 [Category:Obsolete Workbenches](Category:Obsolete_Workbenches.md)
+
+---
+[documentation index](../README.md) > Drawing Workbench/cs

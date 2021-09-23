@@ -9,6 +9,8 @@
    SeeAlso:[File IFC](Arch_IFC/it.md), [Esplora Ifc](Arch_IfcExplorer/it.md)
 ---
 
+# Arch IfcSpreadsheet/it
+
 
 </div>
 
@@ -71,5 +73,5 @@ spreadsheet = Arch.makeIfcSpreadsheet(Wall)
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch IfcSpreadsheet/it

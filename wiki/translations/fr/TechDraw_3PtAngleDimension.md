@@ -8,6 +8,8 @@
    SeeAlso:[TechDraw Cote angulaire](TechDraw_AngleDimension/fr.md)
 ---
 
+# TechDraw 3PtAngleDimension/fr
+
 ## Description
 
 L\'outil Mesure d\'angle par 3 points ajoute une cote angulaire à une vue. La dimension peut être spécifiée en sélectionnant trois sommets dans une vue. **Notez que le second des trois sommets est le sommet de l\'angle**. La Mesure d\'angle par 3 pts sera initialement l\'angle projeté (c\'est-à-dire, comme indiqué sur le dessin) mais peut être remplacé par la distance 3D réelle à l\'aide de l\'outil **<img src="images/TechDraw_LinkDimension.svg" width=16px> [TechDraw Lier une dimension](TechDraw_LinkDimension/fr.md)**.
@@ -55,4 +57,7 @@ rc = page.addView(dim1)
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw 3PtAngleDimension/fr

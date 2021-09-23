@@ -1,5 +1,5 @@
 # Misc templates Full/it
- Questi modelli hanno il cartiglio completamente vuoto (22 campi) e sono dedicati alla macro [Macro\_CartoucheFC\_Full](Macro_CartoucheFC_Full/it.md)
+Questi modelli hanno il cartiglio completamente vuoto (22 campi) e sono dedicati alla macro [Macro\_CartoucheFC\_Full](Macro_CartoucheFC_Full/it.md)
 
 Lo stesso lavoro può essere fatto direttamente dentro FreeCAD
 
@@ -31,3 +31,6 @@ per Linux : \"\"
  
 
 [Category:Macros](Category:Macros.md)
+
+---
+[documentation index](../README.md) > [Macros](Category:Macros.md) > Misc templates Full/it

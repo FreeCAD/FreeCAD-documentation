@@ -7,6 +7,8 @@
    SeeAlso:[Entwurf Fang](Draft_Snap/de.md), [Entwurf UmschaltenFang](Draft_Snap_Lock/de.md)
 ---
 
+# Draft Snap Extension/de
+
 
 </div>
 
@@ -62,5 +64,5 @@ See [Draft Snap](Draft_Snap#Preferences.md).
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Extension/de

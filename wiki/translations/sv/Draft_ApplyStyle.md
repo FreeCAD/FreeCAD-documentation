@@ -1,3 +1,4 @@
+# Draft ApplyStyle/sv
 ---
 - GuiCommand:/sv   Name:Draft_Apply   Workbenches:[[Draft_Workbench/sv   Skiss]]|MenuLocation:Draft -> Apply style---
 
@@ -52,8 +53,5 @@ This command currently handles only five of the settings the [Draft SetStyle](Dr
 
 -   In FreeCAD version 0.20 the [Draft SetStyle](Draft_SetStyle.md) command can also apply the settings.
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ApplyStyle/sv

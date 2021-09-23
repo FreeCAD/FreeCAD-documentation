@@ -1,6 +1,4 @@
 # Drawing API example
- 
-
 ## Introduction
 
 The graphical user interface workflow for the [Drawing Workbench](Drawing_Workbench.md) is limited, so the scripting API is more interesting.
@@ -243,3 +241,6 @@ With those two, you can proceed as above for displaying them on the drawing page
  {{Powerdocnavi}} {{Drawing Tools navi}} 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+
+---
+[documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing API example

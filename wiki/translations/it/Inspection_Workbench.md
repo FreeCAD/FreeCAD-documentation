@@ -1,7 +1,4 @@
 # Inspection Workbench/it
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -54,3 +51,6 @@ In alternativa utilizzare la macro <img alt="" src=images/HighlightDifference.pn
 
 
 [Category:Inspection](Category:Inspection.md) [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Inspection Workbench/it

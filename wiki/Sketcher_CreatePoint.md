@@ -5,6 +5,8 @@
    Workbenches:[Sketcher](Sketcher_Workbench.md)
 ---
 
+# Sketcher CreatePoint
+
 ## Description
 
 The Point tool creates a point in the current sketch, which can be used for constructing geometry elements. The point is always an construction element and does not show up in the 3D-view.
@@ -28,4 +30,7 @@ The created point is not available outside of the sketch. In case a point is nee
 
 
 
- {{Sketcher Tools navi}}  
+ {{Sketcher Tools navi}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreatePoint

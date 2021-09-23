@@ -6,6 +6,8 @@
    MenuLocation:Robot → Simuler une trajectoire
 ---
 
+# Robot Simulate/fr
+
 
 </div>
 
@@ -65,4 +67,7 @@ Les boutons de gauche à droite.
 
 {{Robot_Tools_navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot Simulate/fr

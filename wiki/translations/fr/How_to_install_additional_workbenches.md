@@ -1,5 +1,5 @@
 # How to install additional workbenches/fr
- {{TutorialInfo/fr
+{{TutorialInfo/fr
 |Topic=Programmation
 |Level=Programmeur moyen
 |Time=15 minutes
@@ -169,3 +169,6 @@ Pour cet exemple, supposons que vous ayez choisi l\'[Atelier Courbes](Curves_Wor
  {{Powerdocnavi}}
 
 [Category:External Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)
+
+---
+[documentation index](../README.md) > [External Workbenches](Category:External Workbenches.md) > How to install additional workbenches/fr

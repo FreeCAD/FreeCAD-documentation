@@ -1,5 +1,5 @@
 # Macro Toggle Panels Visibility/en
- {{Macro
+{{Macro
 |Name=Macro Toggle Panels Visibility
 |Icon=Macro_Toggle_Views_Visibility.png
 |Description=This macro toggles the visibility of various supporting views in FreeCAD, allowing the main window to be viewed with all available screen space.
@@ -62,6 +62,5 @@ else:
 
 }}
 
-
-
-
+---
+[documentation index](../README.md) > Macro Toggle Panels Visibility/en

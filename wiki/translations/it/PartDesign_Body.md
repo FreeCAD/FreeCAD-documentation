@@ -8,6 +8,8 @@
    SeeAlso:[Parte standard](Std_Part/it.md), [Editazione delle funzioni](feature_editing/it.md)
 ---
 
+# PartDesign Body/it
+
 
 </div>
 
@@ -336,4 +338,7 @@ App.ActiveDocument.recompute()
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Body/it

@@ -1,10 +1,4 @@
-# Sketcher Workbench/fr
-
-
-
-
-
-<img alt="Icône de l\'atelier Sketcher" src=images/Workbench_Sketcher.svg  style="width:128px;">
+# <img alt="Icône de l\'atelier Sketcher" src=images/Workbench_Sketcher.svg  style="width:64px;"> Sketcher Workbench/fr
 
 
 {{TOCright}}
@@ -329,3 +323,6 @@ La page [Sketcher : Ecrire des scripts](Sketcher_scripting/fr.md) contient des e
 }} 
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Sketcher Workbench/fr

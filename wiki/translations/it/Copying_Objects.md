@@ -1,5 +1,5 @@
 # Copying Objects/it
- {{TOCright}}
+{{TOCright}}
 
 
 <div class="mw-translate-fuzzy">
@@ -75,5 +75,5 @@ Come per la maggior parte delle operazioni, anche per fare le copie, in FreeCAD 
 -   [Incolla](Std_Paste/it.md)
 -   [Duplica la selezione](Std_DuplicateSelection/it.md)
 
-
-
+---
+[documentation index](../README.md) > Copying Objects/it

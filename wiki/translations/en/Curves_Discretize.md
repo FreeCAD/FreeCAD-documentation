@@ -5,6 +5,8 @@
    Workbenches:[Curves](Curves_Workbench.md)
 ---
 
+# Curves Discretize/en
+
 ## Description
 
 The <img alt="" src=images/Curves_Discretize.svg  style="width:24px;"> [Curves Discretize](Curves_Discretize.md) command allows to discretize an edge or a wire. This tool is part of the [external workbench](External_workbenches.md) called [Curves](Curves_Workbench.md).
@@ -30,4 +32,7 @@ The <img alt="" src=images/Curves_Discretize.svg  style="width:24px;"> [Curves D
 
 {{Curves Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > Curves Discretize/en

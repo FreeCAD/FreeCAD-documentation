@@ -1,7 +1,4 @@
 # Quantity/cs
-
-
-
 <div class="mw-translate-fuzzy">
 
 Veličina je kombinace čísla a jednotky. Je využívána všude ve FreeCADu k práci s parametry a všemi dalšími druhy vstupů a výstupů.
@@ -411,3 +408,6 @@ from FreeCAD import Units
 }} 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Quantity/cs

@@ -6,6 +6,8 @@
    SeeAlso:[Part Offset](Part_Offset.md)
 ---
 
+# Part Thickness/ro
+
 
 </div>
 
@@ -113,8 +115,5 @@ Notes:
 
 ![](images/ThicknessEsempio4.png )
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Thickness/ro

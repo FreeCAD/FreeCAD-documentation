@@ -8,6 +8,8 @@
    SeeAlso:[Автогруппировка](Draft_AutoGroup/ru.md)
 ---
 
+# Draft Layer/ru
+
 ## Описание
 
 The <img alt="" src=images/Draft_Layer.svg  style="width:24px;"> **Draft Layer** command creates a Draft Layer. A layer is a special kind of group with a number of [visual properties](#View.md). These properties, and any changes to them, are propagated to the objects placed inside the layer. The layers themselves are put in another special group: the Draft LayerContainer.
@@ -132,5 +134,5 @@ doc.recompute()
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Layer/ru

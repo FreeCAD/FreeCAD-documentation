@@ -1,10 +1,4 @@
 # Installing on Mac/pt
-
-
-
-
-
-
 <div class="mw-translate-fuzzy">
 
 A instalação em Mac OSX pode ser feita num passo usando o Instalador. {{DownloadMacStable}}
@@ -73,5 +67,5 @@ Neste momento não há um desinstalador para o FreeCAD. Para o remover completam
 
 </div>
 
-
-
+---
+[documentation index](../README.md) > Installing on Mac/pt

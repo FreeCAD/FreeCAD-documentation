@@ -1,6 +1,4 @@
 # Artwork Mesh/de
- 
-
 Diese Symbole befinden sich im angegebenen Quellpfad.
 
 Für alle Symbole im Quellbaum siehe [Illustration](Artwork/de.md).
@@ -21,3 +19,6 @@ Für alle Symbole im Quellbaum siehe [Illustration](Artwork/de.md).
 }} 
 
 [Category:Mesh](Category:Mesh.md)
+
+---
+[documentation index](../README.md) > [Mesh](Category:Mesh.md) > Artwork Mesh/de

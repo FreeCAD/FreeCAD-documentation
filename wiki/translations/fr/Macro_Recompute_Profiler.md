@@ -1,5 +1,5 @@
 # Macro Recompute Profiler/fr
- {{Macro/fr
+{{Macro/fr
 |Name=Macro Recompute Profiler
 |icone=Macro_Recompute_Profiler.png
 |Description=Cette macro chronomètre le temps nécessaire pour recalculer chaque fonction.
@@ -213,6 +213,5 @@ Coin version: 4.0.0a
 OCC version: 7.0.0
 ```
 
-
-
-
+---
+[documentation index](../README.md) > Macro Recompute Profiler/fr

@@ -8,6 +8,8 @@
    SeeAlso:[Создать группу](Std_Group/ru.md), [Создать тело](PartDesign_Body/ru.md)
 ---
 
+# Std Part/ru
+
 ## Описание
 
 
@@ -271,4 +273,7 @@ App.ActiveDocument.addObject('Part::FeaturePython', 'Group', group.MyGroup(), gr
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std Part/ru

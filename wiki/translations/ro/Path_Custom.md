@@ -1,3 +1,4 @@
+# Path Custom/ro
 ---
 - GuiCommand:   Name:Path Custom   Workbenches:[[Path Workbench   Path]]|MenuLocation:Path → Partial Commands → Custom   Shortcut:   SeeAlso:---
 
@@ -44,4 +45,7 @@ a noului obiect creat. Consulatați pagina [Path scripting](Path_scripting
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Custom/ro

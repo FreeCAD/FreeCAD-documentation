@@ -1,3 +1,4 @@
+# Part RegularPolygon/ro
 ---
 - GuiCommand:   Name:Part RegularPolygon   MenuLocation:Part → [Workbenches:[[Part Workbench   Part](Part_CreatePrimitives___Create_Primitives]]_→_Regular_Polygon.md),  [OpenSCAD](OpenSCAD_Workbench.md)|Version:0.14   SeeAlso:---
 
@@ -44,8 +45,5 @@ The RegularPolygon is available from the Create Primitives dialogue in the Part 
 
 </div>
 
-
-
-
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part RegularPolygon/ro

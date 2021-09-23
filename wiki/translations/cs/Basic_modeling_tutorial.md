@@ -1,5 +1,5 @@
 # Basic modeling tutorial/cs
- {{TutorialInfo/cs
+{{TutorialInfo/cs
 |Topic= Introduction to modelling
 |Level= Beginner
 |Time= 15 minutes
@@ -204,4 +204,7 @@ Instrukce uvedené výše budou fungovat bez ohledu na to co je tlačítku.
 
 {{Tutorials navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Basic modeling tutorial/cs

@@ -1,10 +1,4 @@
 # Robot Workbench/pl
-
-
-
-
-
-
 **Środowisko pracy FreeCAD Robot nie jest utrzymywane. Jeśli masz doświadczenie w tym temacie i jesteś zainteresowany jego utrzymaniem, poinformuj o swoich zamiarach w sekcji dla deweloperów na forum [https://forum.freecadweb.org/index.php FreeCAD].
 
 Powodem, dla którego ten warsztat jest nadal w głównym kodzie źródłowym jest to, że jest on zaprogramowany w C++. Jeśli mógłby być zaprogramowany w Pythonie, to można by utworzyć [zewnętrzne środowisko](external_workbenches.md) i mógłby być przeniesiony do osobnego repozytorium.
@@ -81,3 +75,6 @@ Aby uzyskać opis funkcji używanych do modelowania przemieszczeń robota, zobac
 }} 
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Robot Workbench/pl

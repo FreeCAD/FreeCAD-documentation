@@ -7,6 +7,8 @@
    SeeAlso:[IzgaraYakala](Draft_ToggleGrid/tr.md), [Snap](Draft_Snap/tr.md)
 ---
 
+# Draft Snap Grid/tr
+
 
 </div>
 
@@ -72,5 +74,5 @@ See [Draft Snap](Draft_Snap#Preferences.md).
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Grid/tr

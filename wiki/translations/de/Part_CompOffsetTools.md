@@ -7,6 +7,8 @@
    SeeAlso:
 ---
 
+# Part CompOffsetTools/de
+
 
 </div>
 
@@ -28,5 +30,5 @@ Ein Satz Versatzwerkzeuge
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompOffsetTools/de

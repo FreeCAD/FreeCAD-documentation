@@ -1,7 +1,4 @@
 # Arch JSON/pt-br
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -43,3 +40,6 @@ Note that facets form triangles and their integer values reference points in the
  
 
 [Category:File Formats](Category:File_Formats.md)
+
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch JSON/pt-br

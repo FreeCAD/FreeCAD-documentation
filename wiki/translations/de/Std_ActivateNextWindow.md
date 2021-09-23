@@ -7,6 +7,8 @@
    SeeAlso:[Std VorherigesFensterAktivieren](Std_ActivatePrevWindow/de.md), [Std Fenster](Std_Windows/de.md)
 ---
 
+# Std ActivateNextWindow/de
+
 ## Beschreibung
 
 Der **Std NächstesFensterAktivieren**-Befehl aktiviert das nächste Fenster im [Hauptansichtsbereich](Main_view_area/de.md). Das nächste Fenster wird durch die Reihenfolge festgelegt, in der die Fenster im Hauptansichtsbereich das letzte Mal aktiviert wurden.
@@ -28,4 +30,7 @@ Fenster im Hauptansichtsbereich sind auch im **Fenster**-Menü aufgeführt und k
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ActivateNextWindow/de

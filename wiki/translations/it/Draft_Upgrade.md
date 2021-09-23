@@ -8,6 +8,8 @@
    SeeAlso:[Declassa](Draft_Downgrade/it.md), [Unione di Part](Part_Union/it.md)
 ---
 
+# Draft Upgrade/it
+
 
 </div>
 
@@ -128,5 +130,5 @@ doc.recompute()
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Upgrade/it

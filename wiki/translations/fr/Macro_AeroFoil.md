@@ -1,5 +1,5 @@
 # Macro AeroFoil/fr
- {{Macro
+{{Macro
 |Name=Macro AeroFoil
 |Icon=AeroFoil.png
 |Description=AeroFoil crée des courbes et des faces de profils aérodynamiques en utilisant des modèles prédéfinis, des fonctions algébriques et des fichiers DAT ou CSV.
@@ -224,3 +224,6 @@ __Files__         = "AeroFoil_UI_Files/AeroFoil_Initial_Dialog.ui, "\
 \[3\] [Page de discussion du forum FreeCAD - AeroFoil](https://forum.freecadweb.org/viewtopic.php?f=22&t=56162)
 \[4\] [Airfoil Tools](http://airfoiltools.com/) contient environ 1 638 profils aérodynamiques différents.
 \[5\] [UIUC Airfoil Coordinates Database](https://m-selig.ae.illinois.edu/ads/coord_database.html) contient près de 1 600 profils aérodynamiques différents.
+
+---
+[documentation index](../README.md) > Macro AeroFoil/fr

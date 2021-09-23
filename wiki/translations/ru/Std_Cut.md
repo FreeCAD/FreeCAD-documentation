@@ -7,6 +7,8 @@
    SeeAlso:[Копировать](Std_Copy/ru.md), [Вставить](Std_Paste/ru.md), [Дублировать выбранное](Std_DuplicateSelection/ru.md)
 ---
 
+# Std Cut/ru
+
 ## Описание
 
 Команда \"Вырезать\" имеет ограничения: ее можно использовать только при работе с [ячейками электронных таблиц](Spreadsheet_Workbench/ru.md). Команда копирует содержимое и свойства ячеек в буфер обмена, а затем очищает ячейки.
@@ -31,4 +33,7 @@
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std Cut/ru

@@ -1,5 +1,5 @@
 # Tree view/fr
- {{TOCright}}
+{{TOCright}}
 
 ## Introduction
 
@@ -147,4 +147,7 @@ Cela indique que l\'objet présente une erreur qui doit être corrigée. Après 
 
 {{Interface navi
 
-}} {{Std Base navi}} 
+}} {{Std Base navi}}
+
+---
+[documentation index](../README.md) > Tree view/fr

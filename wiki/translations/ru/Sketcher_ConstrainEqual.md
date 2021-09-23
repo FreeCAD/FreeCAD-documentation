@@ -8,6 +8,8 @@
    SeeAlso:[Ограничить радиус или вес](Sketcher_ConstrainRadius/ru.md)
 ---
 
+# Sketcher ConstrainEqual/ru
+
 ## Описание
 
 Ограничение эквивалентности делает равным длину указанных отрезков в линии, ломаной или прямоугольнике. При применении к дугам или окружностям их радиусы становятся равными. Данное ограничение нельзя применять к геометрическим примитивам, которые не относятся к одному и тому же типу (например, нельзя применить к отрезку и дуге).
@@ -63,4 +65,7 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainEqual/ru

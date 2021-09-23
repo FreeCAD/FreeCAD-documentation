@@ -8,6 +8,8 @@
    Version:0.20
 ---
 
+# Sketcher ConstrainRadiam/de
+
 ## Beschreibung
 
 Diese Beschränkung beschränkt den Wert des Radius eines Kreises oder Bogens um einen bestimmten Wert zu haben. Wenn vor dem Start des Befehls mehr als ein Kreis oder Bogen ausgewählt wurde:
@@ -42,4 +44,7 @@ Es gilt kein spezielles Skripten. Siehe die Seite [Skizzierer Skripten](Sketcher
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainRadiam/de

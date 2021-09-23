@@ -8,6 +8,8 @@
    Version:0.7
 ---
 
+# Draft Rectangle/fr
+
 ## Description
 
 La commande <img alt="" src=images/Draft_Rectangle.svg  style="width:24px;"> **Draft Rectangle** crée un rectangle dans le [plan de travail](Draft_SelectPlane/fr.md) en cours à partir de deux points.
@@ -125,8 +127,5 @@ rectangle3 = Draft.make_rectangle(3500, 250, placement=place3)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Rectangle/fr

@@ -1,10 +1,4 @@
-# Part Module/en
-
-
-
-
-
-<img alt="Part workbench icon" src=images/Workbench_Part.svg  style="width:128px;">
+# <img alt="Part workbench icon" src=images/Workbench_Part.svg  style="width:64px;"> Part Module/en
 
 
 {{TOCright}}
@@ -201,3 +195,6 @@ See [Part scripting](Part_scripting.md).
  
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Module/en

@@ -8,6 +8,8 @@
    SeeAlso:[Skizzierer Beschränke Horizontaler Abstand](Sketcher_ConstrainDistanceX/de.md), [Skizzierer Beschränke Länge](Sketcher_ConstrainDistance/de.md)
 ---
 
+# Sketcher ConstrainDistanceY/de
+
 ## Beschreibung
 
 Fixiert den vertikalen Abstand zwischen zwei Punkten oder Linienenden. Falls nur ein Objekt ausgewählt ist, wird der (vertikale) Abstand zum Ursprung (0,0) festgelegt.
@@ -50,4 +52,7 @@ Die [Skizzierer Skripten](Sketcher_scripting.md)-Seite erklärt die Werte, die f
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainDistanceY/de

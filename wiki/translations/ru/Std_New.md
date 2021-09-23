@@ -8,6 +8,8 @@
    SeeAlso:[Открыть файл](Std_Open/ru.md),<br>[Импортировать файл](Std_Import/ru.md)
 ---
 
+# Std New/ru
+
 ## Описание
 
 Команда **Создать** создаёт новый пустой документ и делает его активным.
@@ -96,4 +98,7 @@ FreeCAD.closeDocument(doc.Name)
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std New/ru

@@ -1,5 +1,5 @@
 # Macro findConfigFiles/fr
- {{Macro/fr
+{{Macro/fr
 |Name=findConfigFiles
 |Name/fr=findConfigFiles
 |Icon=Macro_findConfigFiles.png
@@ -107,3 +107,6 @@ if ok == QtGui.QMessageBox.Ok or ok==0:
 ## Lien
 
 [findConfigFiles macro](https://forum.freecadweb.org/viewtopic.php?f=22&t=29888)
+
+---
+[documentation index](../README.md) > Macro findConfigFiles/fr

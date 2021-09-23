@@ -1,3 +1,4 @@
+# Draft Text/sv
 ---
 - GuiCommand:/sv   Name:Draft_Text   Workbenches:[Arch](Draft_Workbench/sv___Skiss]],_[[Arch_Workbench/sv.md)|MenuLocation:Draft → Text   Shortcut:T E---
 
@@ -161,8 +162,5 @@ text3.ViewObject.FontSize = 200
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Text/sv

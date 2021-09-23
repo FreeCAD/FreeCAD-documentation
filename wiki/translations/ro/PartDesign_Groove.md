@@ -1,3 +1,4 @@
+# PartDesign Groove/ro
 ---
 - GuiCommand:   Name:PartDesign Groove   Workbenches:[[PartDesign Workbench   PartDesign]], Complete|MenuLocation:PartDesign → Groove---
 
@@ -97,4 +98,7 @@ Dacă este setat la true, curăță solidul de margini reziduale lăsate de func
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Groove/ro

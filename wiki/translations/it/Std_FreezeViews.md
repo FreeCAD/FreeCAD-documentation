@@ -1,3 +1,4 @@
+# Std FreezeViews/it
 ---
 - GuiCommand:/it   Name:Std_FreezeViews   Name/it:Viste bloccate   Empty:1   MenuLocation:Visualizza → Viste bloccate → ...   Workbenches:Tutti   SeeAlso:[Pubblica la posizione della camera](Std_ViewIvIssueCamPos/it.md)---
 
@@ -111,4 +112,7 @@ For each frozen view a **Restore view** option is added with which it can be res
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std FreezeViews/it

@@ -1,5 +1,5 @@
 # Macro WireXYZ/it
- {{Macro/it
+{{Macro/it
 |Name=WireXYZ
 |Icon=Macro_WireXYZ.png
 |Translate=Polilinea da XYZ
@@ -133,3 +133,6 @@ La pagina della discussione: [How do I transform a point cloud to a line?](http:
 00.02 02/07/2019 :
 
 00.01 21/02/2015
+
+---
+[documentation index](../README.md) > Macro WireXYZ/it

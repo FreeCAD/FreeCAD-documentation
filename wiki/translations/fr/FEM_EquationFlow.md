@@ -7,6 +7,8 @@
    SeeAlso:[Tutoriel FEM](FEM_tutorial/fr.md)
 ---
 
+# FEM EquationFlow/fr
+
 ## Description
 
 ## Utilisation
@@ -17,4 +19,7 @@
 
 {{FEM Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > FEM EquationFlow/fr

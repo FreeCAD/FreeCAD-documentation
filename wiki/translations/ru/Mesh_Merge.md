@@ -8,6 +8,8 @@
    SeeAlso:[Булево объединение сеток](Mesh_Union/ru.md)
 ---
 
+# Mesh Merge/ru
+
 
 </div>
 
@@ -32,4 +34,7 @@ See: [Mesh Feature](Mesh_Feature.md).
 
 {{Mesh Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Merge/ru

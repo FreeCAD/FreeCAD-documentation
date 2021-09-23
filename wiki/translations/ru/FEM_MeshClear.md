@@ -7,6 +7,8 @@
    SeeAlso:[FEM tutorial](FEM_tutorial/ru.md)
 ---
 
+# FEM MeshClear/ru
+
 
 </div>
 
@@ -35,4 +37,7 @@ The objects in the Model Tree are maintained because they represent the meshing 
 
 {{FEM Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > FEM MeshClear/ru

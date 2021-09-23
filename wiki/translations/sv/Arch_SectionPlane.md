@@ -8,6 +8,8 @@
    SeeAlso:[Draft Shape2DView](Draft_Shape2DView.md), [TechDraw NewArch](TechDraw_NewArch.md)
 ---
 
+# Arch SectionPlane/sv
+
 
 </div>
 
@@ -149,3 +151,6 @@ FreeCAD.ActiveDocument.recompute()
 
 
 [Category:Arch/sv](Category:Arch/sv.md)
+
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SectionPlane/sv

@@ -1,5 +1,5 @@
 # VRML Preparation for Robot Simulation/de
- {{TutorialInfo/de
+{{TutorialInfo/de
 |Topic=Roboter Arbeitsbereich
 |Level=Mittelschwer
 |Time=
@@ -382,3 +382,6 @@ Group {
 
 
 [Category:Robot](Category:Robot.md)
+
+---
+[documentation index](../README.md) > [Robot](Category:Robot.md) > VRML Preparation for Robot Simulation/de

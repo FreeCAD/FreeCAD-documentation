@@ -1,3 +1,4 @@
+# Robot Simulate/ru
 ---
 - GuiCommand:/ru
    Name:Robot Simulate
@@ -38,4 +39,7 @@ The buttons from left to right.
 
 {{Robot_Tools_navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot Simulate/ru

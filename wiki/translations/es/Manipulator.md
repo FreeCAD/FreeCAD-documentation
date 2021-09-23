@@ -1,5 +1,5 @@
 # Manipulator/es
- }
+}
 
 
 <div class="mw-translate-fuzzy">
@@ -17,3 +17,6 @@ Un **manipulador** es una utilidad que puede utilizarse para modificar la aparie
 
 
 [Category:Glossary](Category:Glossary.md)
+
+---
+[documentation index](../README.md) > [Glossary](Category:Glossary.md) > Manipulator/es

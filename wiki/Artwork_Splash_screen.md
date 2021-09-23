@@ -1,6 +1,4 @@
 # Artwork Splash screen
- 
-
 These are the splash screens that have been used for each version of the program.
 
  ![](images/Splashscreen09.png )
@@ -24,3 +22,6 @@ These are the splash screens that have been used for each version of the program
 ![](images/Freecadsplash018.png ) 
 
  {{Artwork}}
+
+---
+[documentation index](../README.md) > Artwork Splash screen

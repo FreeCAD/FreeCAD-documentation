@@ -1,7 +1,4 @@
 # Macro CloneConvert/it
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -183,3 +180,6 @@ Scaricare la macro da Gist [Macro\_CloneConvert.FCMacro](https://gist.github.com
 02/07/2014 ver. 0.3 = modified to operate PyQt4 and PySide
 
 09/05/2014 ver. 0.2 = adding function \"Copy\"
+
+---
+[documentation index](../README.md) > Macro CloneConvert/it

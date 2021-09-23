@@ -8,6 +8,8 @@
    SeeAlso:[BIM IfcElemente](BIM_IfcElements/de.md),[BIM IfcGrößen](BIM_IfcQuantities/de.md)
 ---
 
+# BIM IfcQuantities/de
+
 ## Beschreibung
 
 <img alt="" src=images/BIM_ifcquantities_screenshot.png  style="width:1024px;">
@@ -21,3 +23,6 @@ Die Idee hinter expliziten Größen ist, sie für Anwendungen verfügbar zu mach
 Beim Exportieren einer IFC Datei aus FreeCAD werden standardmäßig keine expliziten Größen exportiert. Mit dem IFC Größenverwalter kannst du markieren, welche Größen exportiert werden sollen, und deren Werte überprüfen. Neben Nullwerten werden Warnzeichen angezeigt, die dich auf mögliche Probleme hinweisen, die du vor dem Exportieren beheben solltest.
 
 Du kannst auch den Größenmanager verwenden, um die tatsächlichen **Höhe**, **Breite** und **Länge** Werte von Objekten zu ändern oder zu fixieren. Dies hat jedoch Auswirkungen auf die Objektgeometrie in FreeCAD.
+
+---
+[documentation index](../README.md) > BIM IfcQuantities/de

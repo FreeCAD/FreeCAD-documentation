@@ -1,3 +1,4 @@
+# Drawing Save/cs
 ---
 - GuiCommand:/cs   Name:Drawing Save   Name/cs:Drawing Save   Workbenches:[MenuLocation:Drawing → Export page...   Shortcut:none   SeeAlso:[[Drawing Open SVG/cs|Výkres Otevření SVG](Drawing_Workbench/cs___Výkres]],_Sestavení.md)---
 
@@ -20,4 +21,7 @@ SVG soubory jsou běžně užívané a mohou být zobrazovány ve většině mod
 
 {{Drawing Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Save/cs

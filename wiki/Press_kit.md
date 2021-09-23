@@ -37,4 +37,7 @@ Screenshots/gifs of various formats/sizes
 -   Mastodon: <https://fosstodon.org/@FreeCAD>
 -   Reddit: <https://www.reddit.com/r/FreeCAD>
 
-## History of FreeCAD 
+## History of FreeCAD
+
+---
+[documentation index](../README.md) > Press kit

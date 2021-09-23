@@ -1,5 +1,5 @@
 # PartDesign tutorial/fr
- {{TutorialInfo/fr
+{{TutorialInfo/fr
 |Topic= Sketcher
 |Level= Débutant
 |Time= 15 minutes
@@ -109,3 +109,6 @@ Sinon, rééditer l\'opération MultiTransform en double-cliquant dessus dans l\
 Vérifier les deux fonctions de motif pour détecter les modifications nécessaires, telles que l\'axe \'\' \'\' et si la \'\' \'Direction\' \'\' doit être inversée.
 
 C\'est maintenant terminé la routine de base pour le [PartDesign Workbench](PartDesign_Workbench.md).
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign tutorial/fr

@@ -7,6 +7,8 @@
    SeeAlso:[Reinforcement](Reinforcement_Workbench.md), [Arch Rebar BOM](Arch_Rebar_BOM.md), [Arch Rebar Reinforcement Drawing](Arch_Rebar_Drawing_Dimensioning.md)
 ---
 
+# Reinforcement Bar Bending Schedule/pt-br
+
 ## Descrição
 
 The [Bar Bending Schedule](Reinforcement_Bar_Bending_Schedule.md) tool allows the user to create the bar bending schedule of reinforcing bars.
@@ -356,3 +358,6 @@ BBSfunc.getBarBendingSchedule(
 
 
 [Category:External Command Reference](Category:External_Command_Reference.md) [Category:Reinforcement](Category:Reinforcement.md)
+
+---
+[documentation index](../README.md) > [External Command Reference](Category:External Command Reference.md) > Reinforcement Bar Bending Schedule/pt-br

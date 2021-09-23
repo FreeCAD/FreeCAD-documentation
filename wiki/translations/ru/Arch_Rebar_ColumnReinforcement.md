@@ -8,6 +8,8 @@
    Version:0.19
 ---
 
+# Arch Rebar ColumnReinforcement/ru
+
 
 </div>
 
@@ -573,3 +575,6 @@ rebar_group = SingleTieMultipleRebars.editSingleTieMultipleRebars(
  
 
 [Category:Reinforcement](Category:Reinforcement.md)
+
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Rebar ColumnReinforcement/ru

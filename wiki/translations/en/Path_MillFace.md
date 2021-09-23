@@ -5,6 +5,8 @@
    Workbenches:[Path](Path_Workbench.md)
 ---
 
+# Path MillFace/en
+
 ## Description
 
 The <img alt="" src=images/Path_MillFace.svg  style="width:24px;"> [Mill Face](Path_MillFace.md) tool creates a path to perform a facing operation on a horizontal surface. This operation is generally used:
@@ -215,4 +217,7 @@ Example:
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path MillFace/en

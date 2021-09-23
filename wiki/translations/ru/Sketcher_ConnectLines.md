@@ -9,6 +9,8 @@
    SeeAlso:[Ограничить совпадение](Sketcher_ConstrainCoincident/ru.md)
 ---
 
+# Sketcher ConnectLines/ru
+
 ## Описание
 
 Applies [Coincident constraints](Sketcher_ConstrainCoincident.md) to endpoints with the same coordinates of the selected elements.
@@ -31,4 +33,7 @@ Before using this command make sure that obvious constraints (horizontal, vertic
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConnectLines/ru

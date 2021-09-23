@@ -7,6 +7,8 @@
    SeeAlso:
 ---
 
+# Curves PasteSVG/de
+
 
 </div>
 
@@ -54,4 +56,7 @@ Das <img alt="" src=images/Curves_PasteSVG.svg  style="width:24px;"> [Kurven Ein
 
 {{Curves Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > Curves PasteSVG/de

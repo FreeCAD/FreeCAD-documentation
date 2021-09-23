@@ -8,6 +8,8 @@
    SeeAlso:[Vazba vodorovnosti](Sketcher_ConstrainHorizontal/cs.md)
 ---
 
+# Sketcher ConstrainVertical/cs
+
 
 </div>
 
@@ -56,3 +58,6 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 }}  
 
 [Category:Sketcher/cs](Category:Sketcher/cs.md)
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainVertical/cs

@@ -9,6 +9,8 @@ Shortcut=
    SeeAlso:
 ---
 
+# Ship New/de
+
 
 </div>
 
@@ -97,4 +99,7 @@ Hinweis: Von hier an musst du **Schiff** ausgewählt haben, bevor du ein Schiffs
 
 {{Ship_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > Ship New/de

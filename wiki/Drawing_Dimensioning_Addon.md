@@ -1,5 +1,5 @@
 # Drawing Dimensioning Addon
-  **The [[Drawing Workbench]] was superseded by the [[TechDraw Workbench]] in FreeCAD 0.17. While both workbenches are included in v0.17, the Drawing Workbench is no longer maintained, and may be removed in future versions of FreeCAD. Users are advised to make the switch to the [[TechDraw Workbench]] which also includes dimensioning and annotation tools.**
+**The [[Drawing Workbench]] was superseded by the [[TechDraw Workbench]] in FreeCAD 0.17. While both workbenches are included in v0.17, the Drawing Workbench is no longer maintained, and may be removed in future versions of FreeCAD. Users are advised to make the switch to the [[TechDraw Workbench]] which also includes dimensioning and annotation tools.**
 
 ## Introduction
 
@@ -219,3 +219,6 @@ Tipps:
 
 
 [Category:User Documentation](Category:User_Documentation.md) [Category:Addons](Category:Addons.md) [Category:Drawing](Category:Drawing.md)
+
+---
+[documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Dimensioning Addon

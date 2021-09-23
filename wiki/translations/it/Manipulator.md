@@ -1,5 +1,5 @@
 # Manipulator/it
- }
+}
 
 
 <div class="mw-translate-fuzzy">
@@ -19,3 +19,6 @@ Un **manipolatore** può essere usato per modificare l\'aspetto, la forma o altr
 
 
 [Category:Glossary](Category:Glossary.md)
+
+---
+[documentation index](../README.md) > [Glossary](Category:Glossary.md) > Manipulator/it

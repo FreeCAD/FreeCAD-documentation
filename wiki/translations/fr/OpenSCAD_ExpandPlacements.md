@@ -6,6 +6,8 @@
 ‏‎   Workbenches:[OpenSCAD](OpenSCAD_Workbench/fr.md)
 ---
 
+# OpenSCAD ExpandPlacements/fr
+
 ## Description
 
 Développe tous les emplacements dans l\'arboresence des entités.
@@ -33,4 +35,7 @@ Marche avec:
 
 {{OpenSCAD_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD ExpandPlacements/fr

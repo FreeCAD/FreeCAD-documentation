@@ -7,6 +7,8 @@
    SeeAlso:[Std LinkMake](Std_LinkMake.md), [Std LinkMakeRelative](Std_LinkMakeRelative.md), [Std LinkUnlink](Std_LinkUnlink.md)
 ---
 
+# Std LinkReplace/ru
+
 ## Описание
 
 
@@ -48,4 +50,7 @@ This can also be done with objects contained inside {{button|<img src=images/Std
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std LinkReplace/ru

@@ -6,6 +6,8 @@
    SeeAlso:[Mesh RemoveCompByHand](Mesh_RemoveCompByHand.md), [Arch SplitMesh](Arch_SplitMesh.md)
 ---
 
+# Mesh RemoveComponents/en
+
 ## Description
 
 The **Mesh RemoveComponents** command removes faces from mesh objects.
@@ -37,4 +39,7 @@ The **Mesh RemoveComponents** command removes faces from mesh objects.
 
 {{Mesh Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh RemoveComponents/en

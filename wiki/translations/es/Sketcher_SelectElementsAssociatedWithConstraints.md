@@ -1,3 +1,4 @@
+# Sketcher SelectElementsAssociatedWithConstraints/es
 ---
 - GuiCommand:/es   Name:Sketcher SelectElementsAssociatedWithConstraints   Name/es:Sketcher SelectElementsAssociatedWithConstraints   Workbenches:[[Sketcher Workbench/es   Sketcher]]|MenuLocation:Sketch → Sketcher tools → Select Elements Associated with constraints   Shortcut:Shift+Ctrl+E   SeeAlso:   Version:0.15---
 
@@ -20,4 +21,7 @@ Select sketcher Elements associated with constraints.
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectElementsAssociatedWithConstraints/es

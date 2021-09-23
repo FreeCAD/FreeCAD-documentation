@@ -1,6 +1,4 @@
 # Misc templates/fr
-
-
 Cette page répertorie quelques modèles mixtes.
 Tous les modèles sont au format SVG directement téléchargeable et utilisable avec ou sans modification.
 Tous les modèles et cartouches sont équipés de textes éditables en FreeCAD.
@@ -86,3 +84,6 @@ CompassRose\_3D [Rose\_des\_vents\_3D.FCStd](http://forum.freecadweb.org/downloa
 
 
 [Category:Documentation](Category:Documentation.md) [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Drawing](Category:Drawing.md)
+
+---
+[documentation index](../README.md) > [Documentation](Category:Documentation.md) > Misc templates/fr

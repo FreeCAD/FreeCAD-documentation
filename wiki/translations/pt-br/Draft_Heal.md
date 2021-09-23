@@ -6,6 +6,8 @@
    SeeAlso:[Draft Upgrade](Draft_Upgrade.md), [Draft Downgrade](Draft_Downgrade.md)
 ---
 
+# Draft Heal/pt-br
+
 ## Descrição
 
 The <img alt="" src=images/Draft_Heal.svg  style="width:24px;"> **Draft Heal** command heals problematic [Draft](Draft_Workbench.md) objects found in very old files. It tries to recreate the old objects from scratch and transfer their properties to the new objects.
@@ -25,5 +27,5 @@ The <img alt="" src=images/Draft_Heal.svg  style="width:24px;"> **Draft Heal** c
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Heal/pt-br

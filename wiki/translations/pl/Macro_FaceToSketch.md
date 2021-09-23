@@ -1,5 +1,5 @@
 # Macro FaceToSketch/pl
- {{Macro/pl
+{{Macro/pl
 |Name=FaceToSketch
 |Name/pl=Makrodefinicja FaceToSketch
 |Icon=Macro_FaceToSketch.png
@@ -36,6 +36,5 @@ for wire in wires:
     FreeCAD.ActiveDocument.removeObject(wire.Name)
 }}
 
-
-
-
+---
+[documentation index](../README.md) > Macro FaceToSketch/pl

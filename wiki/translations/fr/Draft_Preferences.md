@@ -1,10 +1,4 @@
 # Draft Preferences/fr
-
-
-
-
-
-
 {{TOCright}}
 
 Les préférences de l\'[Atelier Draft](Draft_Workbench/fr.md) se trouvent dans [Réglage des préférences](Preferences_Editor/fr.md), dans le menu **Édition → Préférences → Draft**.
@@ -500,3 +494,6 @@ Dans l\'onglet *Textes et cotes*, vous pouvez spécifier les éléments suivants
  
 
 [Category:Preferences](Category:Preferences.md)
+
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Preferences/fr

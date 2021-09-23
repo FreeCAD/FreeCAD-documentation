@@ -1,10 +1,4 @@
 # Getting started/fr
-
-
-
-
-
-
 {{TOCright}}
 
 ## Avant-propos 
@@ -175,3 +169,6 @@ Et enfin, une des caractéristiques les plus puissantes de FreeCAD est l\'enviro
 {{Userdocnavi/fr}}
 
 [Category:User Documentation/fr](Category:User_Documentation/fr.md)
+
+---
+[documentation index](../README.md) > Getting started/fr

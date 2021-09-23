@@ -8,6 +8,8 @@
    Version:0.14
 ---
 
+# Draft Facebinder/fr
+
 ## Description
 
 La commande <img alt="" src=images/Draft_Facebinder.svg  style="width:24px;"> **Draft Surfaces liées** crée un objet de surface à partir des faces sélectionnées. Un objet Draft Surfaces liées est paramétrique, il sera mis à jour si vous modifiez son ou ses objets sources.
@@ -117,8 +119,5 @@ facebinder.ViewObject.ShapeColor = (0.99, 0.99, 0.4)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Facebinder/fr

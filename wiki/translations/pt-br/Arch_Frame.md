@@ -7,6 +7,8 @@
    SeeAlso:[Arch Wall](Arch_Wall.md), [Arch Structure](Arch_Structure.md)
 ---
 
+# Arch Frame/pt-br
+
 ## Descrição
 
 The **<img src="images/Arch_Frame.svg" width=16px> [Arch Frame](Arch_Frame.md)** tool is used to build all kinds of frame objects based on a profile and a layout. The profile is extruded along the edges of the layout, which can be any 2D object such as a [sketch](Sketcher_Workbench.md), or a [Draft object](Draft_Workbench.md). It is especially useful to create railings, or frame walls. Frame objects can then easily be turned into [wall](Arch_Wall.md) or [structure](Arch_Structure.md) objects.
@@ -82,8 +84,5 @@ FreeCAD.ActiveDocument.recompute()
 
 </div>
 
-
-
-
-
-
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Frame/pt-br

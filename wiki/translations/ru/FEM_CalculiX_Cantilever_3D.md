@@ -1,7 +1,4 @@
 # FEM CalculiX Cantilever 3D/ru
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -235,4 +232,7 @@
 
 {{Tutorials navi
 
-}} {{FEM Tools navi}} 
+}} {{FEM Tools navi}}
+
+---
+[documentation index](../README.md) > FEM CalculiX Cantilever 3D/ru

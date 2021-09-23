@@ -7,6 +7,8 @@
    SeeAlso:[Arch Plan de section](Arch_SectionPlane/fr.md)
 ---
 
+# TechDraw ArchView/fr
+
 ## Description
 
 L\'outil Vue Arch insère une vue d\'un **<img src="images/Arch_SectionPlane.svg" width=16px> [Arch Plan de section](Arch_SectionPlane/fr.md)** dans une [TechDraw Page](TechDraw_PageDefault/fr.md).
@@ -77,4 +79,7 @@ rc = page.addView(dv)
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ArchView/fr

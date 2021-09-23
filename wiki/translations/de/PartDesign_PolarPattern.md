@@ -6,6 +6,8 @@
    Workbenches:[PartDesign](PartDesign_Workbench/de.md)
 ---
 
+# PartDesign PolarPattern/de
+
 ## Beschreibung
 
 Das **Polarmuster** Werkzeug nimmt ein ausgewähltes Formelement und erstellt eine Reihe von Kopien, die um eine ausgewählte Achse gedreht sind. Ab Version 0.17 kann es mehrere Formelemente mustern.
@@ -128,4 +130,7 @@ Gibt den Winkel an, der vom Muster abgedeckt werden soll, sowie die Gesamtzahl d
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign PolarPattern/de

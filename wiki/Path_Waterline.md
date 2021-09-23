@@ -6,6 +6,8 @@
    Version:0.19
 ---
 
+# Path Waterline
+
 ## Description
 
 This tool creates a new Waterline operation. As of 0.19\_pre, the Waterline operation works on the entire model to generate G-Code for the Job. Currently, within the operation\'s settings there is no functionality to select specific areas, faces, or regions of the model.
@@ -256,4 +258,7 @@ Note: It is suggested that you do not edit the Placement property of path operat
 
 
 
- {{Path Tools navi}} 
+ {{Path Tools navi}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Waterline

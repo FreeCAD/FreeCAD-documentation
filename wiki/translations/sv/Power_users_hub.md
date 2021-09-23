@@ -1,5 +1,4 @@
-# Power users hub/sv
- <img alt="" src=images/Power_user_hub.png  style="width:64px;">
+# <img alt="" src=images/Power_user_hub.png  style="width:64px;"> Power users hub/sv
 
 ------------------------------------------------------------------------
 
@@ -245,3 +244,6 @@ På [Grupportalen](free-cad:Community_Portal/sv.md), så kan du hitta andra Free
 }}
 
 [Category:Hubs](Category:Hubs.md)
+
+---
+[documentation index](../README.md) > [Hubs](Category:Hubs.md) > Power users hub/sv

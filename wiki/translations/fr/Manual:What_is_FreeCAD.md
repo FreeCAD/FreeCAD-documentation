@@ -1,7 +1,4 @@
 # Manual:What is FreeCAD/fr
- 
-
-
 {{Manual:TOC/fr}}
 
 ![](images/Freecad016_screenshot1.jpg )
@@ -22,6 +19,5 @@ Pour plus d\'informations:
 -   [Fonctionnalités](Feature_list/fr.md)
 -   \[<http://forum.freecadweb.org/viewtopic.php?f=8&t=4751>\| Captures d\'écran et exemples\]
 
-
-
-
+---
+[documentation index](../README.md) > Manual:What is FreeCAD/fr

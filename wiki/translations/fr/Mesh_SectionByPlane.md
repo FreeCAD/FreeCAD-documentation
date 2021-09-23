@@ -7,6 +7,8 @@
    SeeAlso:[Mesh Coupes](Mesh_CrossSections/fr.md)
 ---
 
+# Mesh SectionByPlane/fr
+
 ## Description
 
 La commande **Mesh Section** crée une coupe transversale à travers un objet maillé. La section transversale est une [Part Feature](Part_Feature/fr.md).
@@ -28,4 +30,7 @@ Voir: [Part Feature](Part_Feature/fr.md).
 
 {{Mesh Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh SectionByPlane/fr

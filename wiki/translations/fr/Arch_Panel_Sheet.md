@@ -8,6 +8,8 @@
    SeeAlso:[Arch Panneau](Arch_Panel/fr.md), [Arch Découpe de panneaux](Arch_Panel_Cut/fr.md), [Arch Calepinage](Arch_Nest/fr.md)
 ---
 
+# Arch Panel Sheet/fr
+
 ## Description
 
 Cet outil permet de construire une feuille en 2D, y compris n\'importe quel nombre d\'objets [Panneaux coupés](Arch_Panel_Cut/fr.md), ou tout autre objet 2D tel que ceux réalisés par le [l\'atelier Draft](Draft_Workbench/fr.md) et [atelier Sketcher](Sketcher_Workbench/fr.md). Le panneau est typiquement fait pour mettre en page des coupes destinées à être exécutées sur une machine à commande numérique par ordinateur. Ces feuilles peuvent ensuite être exportées vers un fichier [DXF](Draft_DXF/fr.md).
@@ -115,8 +117,5 @@ Sheet = Arch.makePanelSheet([Cut1, Cut2, Cut3])
 
 -   [Tutoriel de portage Wikihouse](Wikihouse_porting_tutorial/fr.md)
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Panel Sheet/fr

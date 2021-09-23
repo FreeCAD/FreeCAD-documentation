@@ -8,6 +8,8 @@
    SeeAlso:[Posizionamento](Std_Placement/it.md)
 ---
 
+# Std Alignment/it
+
 
 </div>
 
@@ -47,4 +49,7 @@ Nel menu contestuale sono disponibili le seguenti opzioni aggiuntive:
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std Alignment/it

@@ -1,5 +1,5 @@
 # Macro PartsLibrary/cs
- {{Macro/cs
+{{Macro/cs
 |Name=Parts Library
 |Translate=Parts Library
 |Icon=FreeCAD Doc.png
@@ -27,3 +27,6 @@ Toto makro, které je také obsaženo v knihovně, zobrazí panel prohlížeče 
 ToolBar Icon ![](images/FreeCAD_Doc.png )
 
 [PartsLibrary.FCMacro](http://github.com/yorikvanhavre/FreeCAD-library/blob/master/PartsLibrary.FCMacro)
+
+---
+[documentation index](../README.md) > Macro PartsLibrary/cs

@@ -8,6 +8,8 @@
    SeeAlso:[[PartDesign Clone/ro]]
 ---
 
+# PartDesign ShapeBinder/ro
+
 
 </div>
 
@@ -153,4 +155,7 @@ There is a workaround for multiple selection: If you select all the elements you
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign ShapeBinder/ro

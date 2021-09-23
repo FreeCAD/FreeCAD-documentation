@@ -1,7 +1,4 @@
 # FreeCAD and Mesh Import/fr
-
-
-
 {{TOCright}}
 
 ## Après l\'importation 
@@ -45,3 +42,6 @@ Eh bien, votre coque semble avoir des erreurs, peut-être qu\'elle n\'est pas fe
 -   [FreeCAD Howto Import Export](FreeCAD_and_Mesh_Import/fr.md)
 
 [Category:User\_Documentation](Category:User_Documentation.md) [Category:File\_Formats](Category:File_Formats.md)
+
+---
+[documentation index](../README.md) > [User_Documentation](Category:User_Documentation.md) > FreeCAD and Mesh Import/fr

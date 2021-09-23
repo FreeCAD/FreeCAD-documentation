@@ -1,11 +1,4 @@
 # Tutorials
- 
-
-
-
-
- 
-
 This page presents a selection of high quality written tutorials. A complete, unsorted list of tutorials can be found in [:Category:Tutorials](:Category:Tutorials.md), a complete and sortable one can be found in the [table below](Tutorials#Tutorials_-_Comprehensive_list.md).
 
 Also visit [video tutorials](Video_tutorials.md) and [offsite tutorials](Offsite_tutorials.md) for tutorials hosted on external sites. A useful source of video tutorials is [YouTube](https://YouTube.com).
@@ -325,3 +318,6 @@ Here are listed all the tutorials that are not in the manual **regardless of the
  
 
 [Category:Tutorials](Category:Tutorials.md)
+
+---
+[documentation index](../README.md) > [Tutorials]], a complete and sortable one can be found in the ](Category:Tutorials]], a complete and sortable one can be found in the .md) > Tutorials

@@ -1,5 +1,5 @@
 # Part and PartDesign/it
- {{TOCright}}
+{{TOCright}}
 
 ## Descrizione
 
@@ -172,4 +172,7 @@ I banchi di lavoro Part e PartDesign possono essere usati insieme con una certa 
 
 {{Tutorials navi
 
-}}  {{PartDesign Tools navi}} {{Sketcher Tools navi}} 
+}}  {{PartDesign Tools navi}} {{Sketcher Tools navi}}
+
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part and PartDesign/it

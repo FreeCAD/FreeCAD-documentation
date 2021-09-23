@@ -1,7 +1,4 @@
 # PDF/ru
-
-
-
 {{TOCright}}
 
 ## Описание
@@ -30,3 +27,6 @@ The option to export to PDF is available in the **File → [Export PDF](Std_Expo
 
 
 [Category:File\_Formats](Category:File_Formats.md)
+
+---
+[documentation index](../README.md) > [File_Formats](Category:File_Formats.md) > PDF/ru

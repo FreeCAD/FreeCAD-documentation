@@ -6,6 +6,8 @@
    SeeAlso:[Std ViewIsometric](Std_ViewIsometric.md), [Std ViewDimetric](Std_ViewDimetric.md)
 ---
 
+# Std ViewTrimetric
+
 ## Description
 
 The **Std ViewTrimetric** command realigns the camera in the active [3D view](3D_view.md) to obtain a [trimetric](https://en.wikipedia.org/wiki/Axonometric_projection#Three_types) view. For a truly trimetric view the 3D view must be in [orthographic mode](Std_OrthographicCamera.md), but the command also works if the view is in [perspective mode](Std_PerspectiveCamera.md).
@@ -36,4 +38,7 @@ FreeCADGui.ActiveDocument.ActiveView.getViewDirection()
 
 
 
- {{Std Base navi}}  
+ {{Std Base navi}}
+
+---
+[documentation index](../README.md) > Std ViewTrimetric

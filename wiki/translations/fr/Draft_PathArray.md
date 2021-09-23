@@ -8,6 +8,8 @@
    SeeAlso:[Draft Réseau orthogonal](Draft_OrthoArray/fr.md), [Draft Réseau polaire](Draft_PolarArray/fr.md), [Draft Réseau circulaire](Draft_CircularArray/fr.md), [Draft Réseau lié selon une courbe](Draft_PathLinkArray/fr.md), [Draft Réseau de points](Draft_PointArray/fr.md), [Draft Réseau lié selon des points](Draft_PointLinkArray/fr.md)
 ---
 
+# Draft PathArray/fr
+
 ## Description
 
 La commande <img alt="" src=images/Draft_PathArray.svg  style="width:24px;"> **Draft Réseau selon une courbe** crée un réseau régulier à partir d\'un objet sélectionné en plaçant des copies le long d\'un chemin. Utilisez la commande [Draft Réseau lié selon une courbe](Draft_PathLinkArray/fr.md) pour créer un réseau [Link](App_Link/fr.md) plus efficace à la place. À l\'exception du type de réseau créé, réseau de liens ou réseau régulier, la commande [Draft Réseau lié selon une courbe](Draft_PathLinkArray/fr.md) est identique à cette commande.
@@ -255,8 +257,5 @@ path_array2 = Draft.make_path_array(obj, wire, count=3, extra=App.Vector(0, -500
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft PathArray/fr

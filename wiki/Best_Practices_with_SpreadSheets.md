@@ -222,3 +222,6 @@ Review: ( russ\_hensel, dec 2020, Version: 0.19.23141 (Git) )
 -   **[Some Tutorials on Methodology (v0.17) - Master Sketch, Skeleton Geometry, Spreadsheets - FreeCAD Forum](https://forum.freecadweb.org/viewtopic.php?f=36&t=43451)**
 
 [Category:Sandbox‏‎](Category:Sandbox‏‎.md) [Category:Spreadsheet‏‎](Category:Spreadsheet‏‎.md) [Category:Tutorials‏‎](Category:Tutorials‏‎.md)
+
+---
+[documentation index](../README.md) > [Sandbox‏‎]]  ](Category:Sandbox‏‎]]  .md) > Best Practices with SpreadSheets

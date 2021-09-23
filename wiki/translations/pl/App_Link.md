@@ -1,5 +1,5 @@
 # App Link/pl
- {{TOCright}}
+{{TOCright}}
 
 ## Wprowadzenie
 
@@ -28,4 +28,7 @@ Zobacz pełną listę właściwości na stronie [Std: LinkMake](Std_LinkMake/pl.
 
 {{Std Base navi
 
-}} {{Document objects navi}} 
+}} {{Document objects navi}}
+
+---
+[documentation index](../README.md) > App Link/pl

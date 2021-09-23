@@ -1,5 +1,5 @@
 # FeaturePython Custom Properties/de
- {{TOCright}}
+{{TOCright}}
 
 ## Einführung
 
@@ -1247,3 +1247,6 @@ obj.ThePropertyName // returns {{TODO}}"example value for getter"
 
 
 [Category:Developer Documentation/de](Category:Developer_Documentation/de.md) [Category:API](Category:API.md) [Category:Developer Documentation](Category:Developer_Documentation.md)
+
+---
+[documentation index](../README.md) > [API](Category:API.md) > FeaturePython Custom Properties/de

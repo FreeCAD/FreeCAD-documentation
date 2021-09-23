@@ -7,6 +7,8 @@
    Shortcut:**F5**
 ---
 
+# Std Refresh/it
+
 ## Descrizione
 
 Il comando **Aggiorna** ricalcola il documento attivo. Il comando è disabilitato se il documento non richiede un nuovo calcolo.
@@ -62,4 +64,7 @@ doc.recompute()
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std Refresh/it

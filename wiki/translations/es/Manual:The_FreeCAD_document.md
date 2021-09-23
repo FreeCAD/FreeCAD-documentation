@@ -1,10 +1,4 @@
 # Manual:The FreeCAD document/es
-
-
-
-
-
-
 {{Manual:TOC/es}}
 
 Un documento de FreeCAD contiene todos los objetos de tu escena. Puede contener grupos y objetos hechos con cualquier ambiente de trabajo. Por lo tanto, puedes cambiar entre ambientes de trabajo, y seguir trabajando en el mismo documento y/o objetos dentro de ese documento. El documento es lo que se guarda en el disco cuando guardas tu trabajo. También puedes abrir varios documentos al mismo tiempo en FreeCAD, y abrir varias vistas del mismo documento.
@@ -26,6 +20,5 @@ Los documentos de LibreCAD se guardan con la extensión .FcStd, que es un format
 -   [El documento FreeCAD](Document_structure/es.md)
 -   [Formato archivo FCStd](File_Format_FCStd/es.md)
 
-
-
-
+---
+[documentation index](../README.md) > Manual:The FreeCAD document/es

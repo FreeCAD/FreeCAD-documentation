@@ -7,6 +7,8 @@
    SeeAlso:[Part Verrundung](Part_Fillet/de.md)
 ---
 
+# Part Chamfer/de
+
 ## Beschreibung
 
 Anfasen der gewählten Kante(n) eines Objekts. Ein Dialog erlaubt die Auswahl, welche Kante(n) betroffen sind, sowie die Anpassung verschiedener Anfasungsparameter.
@@ -166,5 +168,5 @@ FreeCAD.ActiveDocument.recompute()
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Chamfer/de

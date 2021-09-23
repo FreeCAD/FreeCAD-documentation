@@ -1,3 +1,4 @@
+# PartDesign AdditiveWedge/ro
 ---
 - GuiCommand:   Name:PartDesign AdditiveWedge   Workbenches:[MenuLocation:Part Design → Create an additive primitive → Additive Wedge   Shortcut:None   SeeAlso:[[PartDesign CompPrimitiveAdditive](PartDesign_Workbench___PartDesign]].md)---
 
@@ -66,4 +67,7 @@ Wedges can be used to create pyramids by setting **X2 min/max** and **Z2 min/max
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveWedge/ro

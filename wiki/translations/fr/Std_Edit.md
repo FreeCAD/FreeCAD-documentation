@@ -6,6 +6,8 @@
    Workbenches:Tous
 ---
 
+# Std Edit/fr
+
 ## Description
 
 La commande **Std Édition** active ou désactive le mode d\'édition d\'un objet.
@@ -65,4 +67,7 @@ FreeCADGui.ActiveDocument.resetEdit()
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std Edit/fr

@@ -7,6 +7,8 @@
    SeeAlso:[Part Versatz](Part_Offset/de.md)
 ---
 
+# Part Thickness/de
+
 
 </div>
 
@@ -122,5 +124,5 @@ Notes:
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Thickness/de

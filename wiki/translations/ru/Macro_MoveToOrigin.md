@@ -1,5 +1,5 @@
 # Macro MoveToOrigin/ru
- {{Macro
+{{Macro
 |Name=MoveToOrigin
 |Description=Moves the selected location of an object to the Origin.<br > This macro translates the [https://wiki.freecadweb.org/Placement Placement] of an object so that a selected location becomes its new origin.  This may be useful when imported objects from other formats like STL or STEP are inconveniently located for further processing by FreeCAD.  
 |Author=Edwilliams16
@@ -185,3 +185,6 @@ App.ActiveDocument.recompute()
 ## Ссылка
 
 Обсуждение на форуме [MoveToOrigin Macro](https://forum.freecadweb.org/viewtopic.php?f=22&t=59450)
+
+---
+[documentation index](../README.md) > Macro MoveToOrigin/ru

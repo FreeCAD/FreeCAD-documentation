@@ -7,6 +7,8 @@
    SeeAlso:[Arch Wall](Arch_Wall.md), [Arch Add](Arch_Add.md)
 ---
 
+# Arch Window
+
 ## Description
 
 An [Arch Window](Arch_Window.md) is a base object for all kinds of \"embeddable\" objects, such as windows and doors. It is designed to be either independent, or \"hosted\" inside another component such as an [Arch Wall](Arch_Wall.md), [Arch Structure](Arch_Structure.md), or [Arch Roof](Arch_Roof.md). It has its own geometry, that can be made of several solid components (commonly a frame and inner panels), and also defines a volume to be subtracted from the host objects, in order to create an opening.
@@ -220,9 +222,5 @@ Door = Arch.makeWindowPreset("Simple door",
                              placement=place)
 ```
 
- 
-
- 
-
-
-
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Window

@@ -1,6 +1,4 @@
 # Shape/ru
-
-
 ## Введение
 
 В FreeCAD слово \"Форма\" обычно используется для обозначения [Part TopoShape (Топологической Геометрии Детали)](Part_TopoShape/ru.md) (Part::TopoShape класса), типа объекта, который даёт элементу его трёхмерное геометрическое и параметрическое представление (куб, пирамида, сфера, цилиндр, слияние и т. Д.).
@@ -36,3 +34,6 @@
  {{Document objects navi}} 
 
 [Category:Glossary](Category:Glossary.md)
+
+---
+[documentation index](../README.md) > [Glossary](Category:Glossary.md) > Shape/ru

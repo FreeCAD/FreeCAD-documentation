@@ -7,6 +7,8 @@
    Version:0.16
 ---
 
+# Sketcher ToggleDrivingConstraint/it
+
 
 </div>
 
@@ -49,4 +51,7 @@ Lo strumento <img alt="" src=images/Sketcher_ToggleConstraint.svg  style="width:
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ToggleDrivingConstraint/it

@@ -8,6 +8,8 @@
    SeeAlso:[Reinforcement_Workbench/de](Reinforcement_Workbench/de.md), [Arch Rebar](Arch_Rebar/de.md), [SäulenVerstärkung ZweiBinderSechsStäbe](Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars/de.md), [Architektur Bewehrung](Arch_Rebar/de.md)
 ---
 
+# Arch Rebar BeamReinforcement/de
+
 ## Beschreibung
 
 Das [Balken Verstärkung](Arch_Rebar_BeamReinforcement/de.md) Werkzeug erlaubt dem Anwender Bewehrungsstäbe innerhalb eines Balken [Architektur Struktur](Arch_Structure/de.md) Objekts erzeugen.
@@ -367,3 +369,6 @@ RebarGroup = TwoLeggedBeam.makeReinforcement(
  
 
 [Category:Reinforcement](Category:Reinforcement.md)
+
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Rebar BeamReinforcement/de

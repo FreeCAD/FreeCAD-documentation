@@ -1,7 +1,4 @@
 # Path fourth axis/it
-
-
-
 {{Path_Tools_navi/it}}
 
 
@@ -69,4 +66,7 @@ There is currently no GUI integration of 4th-axis rotational settings in the rel
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path fourth axis/it

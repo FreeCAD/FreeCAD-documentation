@@ -1,6 +1,4 @@
 # Reinforcement Addon/fr
-
-
 ## Introduction
 
 L\'[Addon Reinforcement](Reinforcement_Addon/fr.md) augmente l\'[atelier Arch](Arch_Workbench/fr.md) en fournissant de nouvelles interfaces et de nouveaux préréglages pour la création de types de barres d'arc commun à utiliser avec les [structures Arch](Arch_Structure/fr.md).
@@ -43,3 +41,6 @@ De nouveaux ateliers sont en développement alors tenez vous au jus!
  
 
 [Category:Reinforcement](Category:Reinforcement.md)
+
+---
+[documentation index](../README.md) > [Reinforcement](Category:Reinforcement.md) > Reinforcement Addon/fr

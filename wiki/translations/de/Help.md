@@ -1,6 +1,4 @@
 # Help/de
-
-
 ## Forum
 
 Der erste Ort, an dem du um Hilfe bitten kannst, ist das [FreeCAD Forum](https://forum.freecadweb.org/viewforum.php?f=3) (Bitte lese [diesen Beitrag](https://forum.freecadweb.org/viewtopic.php?f=3&t=2264), bevor Du Fragen stellst). Denke daran, dass [wichtige Informationen](Important_information/de.md) über dein System notwendig sind, wenn du um Hilfe bittest.
@@ -39,3 +37,6 @@ Wir haben einen [offizieller FreeCAD Discord Server](https://discord.gg/NpMefpXW
  
 
 [Category:Help](Category:Help.md)
+
+---
+[documentation index](../README.md) > [Help](Category:Help.md) > Help/de

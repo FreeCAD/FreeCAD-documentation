@@ -7,6 +7,8 @@
    Shortcut:**A** **X**
 ---
 
+# Arch Axis/es
+
 
 </div>
 
@@ -148,3 +150,6 @@ FreeCAD.ActiveDocument.recompute()
  
 
 [Category:Arch/es](Category:Arch/es.md)
+
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Axis/es

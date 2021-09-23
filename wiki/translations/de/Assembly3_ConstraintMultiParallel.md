@@ -6,6 +6,8 @@
    Workbenches:[Assembly3](Assembly3_Workbench/de.md)
 ---
 
+# Assembly3 ConstraintMultiParallel/de
+
 ## Beschreibung
 
 Dieses Werkzeug verbindet zwei oder mehr Objekte eines Zusammenbaus und gleicht ihre Ausrichtungen an. Die gewählten Elemente der einzelnen Objekte oder präziser ihre lokalen Koordinatensysteme (LKS) werden genutzt, um ein oder mehrere Objekte im Verhältnis zu einem anderen Objekt zu positionieren.
@@ -22,8 +24,5 @@ Diese Beziehung akzeptiert gerade Kanten und ebene Flächen, die sich parallel a
 2.  Je ein ebenes Flächenelement pro Objekt auswählen.
 3.  Schaltfläche**<img src="images/Assembly_ConstraintMultiParallel.svg" width=16px> [Mehrfach parallel](Assembly3_ConstraintMultiParallel/de.md)** drücken.
 
-
-
-
-
-
+---
+[documentation index](../README.md) > Assembly3 ConstraintMultiParallel/de

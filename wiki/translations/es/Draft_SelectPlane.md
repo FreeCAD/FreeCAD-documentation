@@ -8,6 +8,8 @@
    SeeAlso:[Borrador PlanoTrabajoProxy](Draft_WorkingPlaneProxy/es.md), [Borrador AlternarRejilla](Draft_ToggleGrid/es.md)
 ---
 
+# Draft SelectPlane/es
+
 
 </div>
 
@@ -183,5 +185,5 @@ print(projection)
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft SelectPlane/es

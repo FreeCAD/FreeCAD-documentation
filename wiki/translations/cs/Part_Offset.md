@@ -1,3 +1,4 @@
+# Part Offset/cs
 ---
 - GuiCommand:/cs   Name:Part Offset   Name/cs:Part Offset   MenuLocation:Part → Offset   |Workbenches:[SeeAlso:[[Part_Thickness/cs|Thickness](Part_Workbench/cs___Part]],_Complet.md)---
 
@@ -52,10 +53,7 @@ same shape with a 3D Offset as SKIN and *filled* offset
 
 *filled* offset with 2 Cylinders creating boolean cuts. Cylinder A goes through the FILL whilst Cylinder B only goes thru the FILL and NOT through the source 2D shape.
 
-<img alt="" src=images/PartOffset6.png  style="width:400" height="200px;"> 
+<img alt="" src=images/PartOffset6.png  style="width:400" height="200px;">
 
-
-
-
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Offset/cs

@@ -1,7 +1,4 @@
 # Misc templates/cs
-
-
-
 <div class="mw-translate-fuzzy">
 
 Na této stránce je seznam různých šablon.
@@ -91,3 +88,6 @@ CompassRose\_3D [CompassRose\_3D.FCStd](http://forum.freecadweb.org/download/fil
 
 
 [Category:Documentation](Category:Documentation.md) [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Drawing](Category:Drawing.md)
+
+---
+[documentation index](../README.md) > [Documentation](Category:Documentation.md) > Misc templates/cs

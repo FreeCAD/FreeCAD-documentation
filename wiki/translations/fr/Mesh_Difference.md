@@ -7,6 +7,8 @@
    SeeAlso:[Mesh Union](Mesh_Union/fr.md), [Mesh Intersection](Mesh_Intersection/fr.md)
 ---
 
+# Mesh Difference/fr
+
 ## Description
 
 La commande **Mesh Différence** crée un nouvel objet maillé non paramétrique, un [Mesh Feature](Mesh_Feature/fr.md), qui est la différence de deux objets maillé: un objet maillé est coupé de l\'autre.
@@ -34,4 +36,7 @@ Voir: [Mesh Feature](Mesh_Feature/fr.md).
 
 {{Mesh Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Difference/fr

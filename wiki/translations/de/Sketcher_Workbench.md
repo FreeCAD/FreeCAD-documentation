@@ -1,10 +1,4 @@
-# Sketcher Workbench/de
-
-
-
-
-
-<img alt="Skizzierer Arbeitsbereichssymbol" src=images/Workbench_Sketcher.svg  style="width:128px;">
+# <img alt="Skizzierer Arbeitsbereichssymbol" src=images/Workbench_Sketcher.svg  style="width:64px;"> Sketcher Workbench/de
 
 
 {{TOCright}}
@@ -505,3 +499,6 @@ Die [Skizzierer Skripten](Sketcher_scripting/de.md) Seite enthält Beispiele fü
 }} 
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Sketcher Workbench/de

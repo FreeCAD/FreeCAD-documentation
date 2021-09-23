@@ -7,6 +7,8 @@
    Version:0.15
 ---
 
+# Sketcher SelectConflictingConstraints/en
+
 ## Description
 
 Selects the conflicting constraints of a sketch.
@@ -23,4 +25,7 @@ Selects the conflicting constraints of a sketch.
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectConflictingConstraints/en

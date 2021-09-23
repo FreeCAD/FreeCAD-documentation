@@ -91,3 +91,6 @@ To install manually download this repository as ZIP and:
 -   [Macros recipes](Macros_recipes.md)
 
 [Category:Sandbox](Category:Sandbox.md)
+
+---
+[documentation index](../README.md) > Sandbox:Exploded Assembly

@@ -8,6 +8,8 @@
    SeeAlso:[Arch Structure](Arch_Structure/fr.md), [Arch Mur](Arch_Wall/fr.md)
 ---
 
+# Arch Roof/fr
+
 ## Description
 
 L\'outil **<img src="images/Arch_Roof.svg" width=16px> [Toiture](Arch_Roof/fr.md)** permet de créer un toit en pente à partir d\'un fil sélectionné. L\'objet Toiture créé est paramétrique et garde sa relation avec l\'objet de base. Le principe est que chaque bord se voit attribuer un profil de toiture (pente, largeur, surplomb, épaisseur).
@@ -105,8 +107,5 @@ roof1 = Arch.makeRoof(wire)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Roof/fr

@@ -1,5 +1,5 @@
 # Macro ArrayCopy/fr
- {{Macro/fr
+{{Macro/fr
 |Name=ArrayCopy
 |Icon=Macro_ArrayCopy.png
 |Description=Cette macro copie l'objet sélectionné plusieurs fois selon une matrice.
@@ -83,3 +83,5 @@ dialog.show()
 
 }}
 
+---
+[documentation index](../README.md) > Macro ArrayCopy/fr

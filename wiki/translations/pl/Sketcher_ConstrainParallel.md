@@ -8,6 +8,8 @@
    SeeAlso:[Wiązanie pionowe](Sketcher_ConstrainVertical/pl.md), [Wiązanie poziome](Sketcher_ConstrainHorizontal/pl.md)
 ---
 
+# Sketcher ConstrainParallel/pl
+
 ## Opis
 
 Wiązanie równoległości narzuca, aby dwie wybrane proste lub krawędzie były równoległe do siebie.
@@ -47,4 +49,7 @@ Strona [skrypty szkicownika](Sketcher_scripting/pl.md) wyjaśnia wartości, któ
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainParallel/pl

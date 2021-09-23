@@ -8,6 +8,8 @@
    Version:0.20
 ---
 
+# TechDraw Extension ThreadBoltSide
+
 ## Description
 
 The <img alt="" src=images/TechDraw_Extension_ThreadBoltSide.svg  style="width:24px;"> **Thread Bolt Side** tool adds a symbolic thread to the side view of a bolt.
@@ -24,4 +26,7 @@ The <img alt="" src=images/TechDraw_Extension_ThreadBoltSide.svg  style="width:2
 
 
 
- {{TechDraw_Tools_navi}} 
+ {{TechDraw_Tools_navi}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Extension ThreadBoltSide

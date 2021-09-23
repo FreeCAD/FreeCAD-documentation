@@ -8,6 +8,8 @@
    SeeAlso:[Draft SubelementHighlight](Draft_SubelementHighlight.md)
 ---
 
+# Draft Rotate
+
 ## Description
 
 The <img alt="" src=images/Draft_Rotate.svg  style="width:24px;"> **Draft Rotate** command rotates or copies selected objects around a center point by a given angle. In subelement mode the command rotates selected points and edges, or copies selected edges, of [Draft Lines](Draft_Line.md) and [Draft Wires](Draft_Wire.md).
@@ -117,7 +119,5 @@ rot_list4 = Draft.rotate(list2, 4*angle2, center=cen, copy=True)
 doc.recompute()
 ```
 
-
-
-
-  
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Rotate

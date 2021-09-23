@@ -1,5 +1,5 @@
 # Macro Select Hovering/it
- {{Macro/it
+{{Macro/it
 |Name=Macro Select Hovering
 |Icon=Macro_Select_Hovering.png
 |Translate=Macro Seleziona passando il mouse.
@@ -410,3 +410,6 @@ ver 00.01 (25/12/2017) :
 ## Vincolo
 
 [Multiple face selection to convert a shape to a solid](https://forum.freecadweb.org/viewtopic.php?f=3&t=26370)
+
+---
+[documentation index](../README.md) > Macro Select Hovering/it

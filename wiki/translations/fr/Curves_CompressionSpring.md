@@ -6,6 +6,8 @@
    Workbenches:[Curves](Curves_Workbench/fr.md)
 ---
 
+# Curves CompressionSpring/fr
+
 ## Description
 
 <img alt="" src=images/Curves_CompressionSpring.svg  style="width:24px;"> [Curves Ressort de compression](Curves_CompressionSpring/fr.md) crée un ressort de compression. Cet outil fait partie des [ateliers externes](External_workbenches/fr.md) appelé [Curves](Curves_Workbench/fr.md).
@@ -31,4 +33,7 @@
 
 {{Curves Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > Curves CompressionSpring/fr

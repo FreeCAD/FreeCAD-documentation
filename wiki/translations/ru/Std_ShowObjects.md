@@ -7,6 +7,8 @@
    SeeAlso:[Std ToggleVisibility](Std_ToggleVisibility/ru.md), [Std ShowSelection](Std_ShowSelection/ru.md), [Std HideSelection](Std_HideSelection/ru.md), [Std ToggleObjects](Std_ToggleObjects/ru.md), [Std HideObjects](Std_HideObjects/ru.md)
 ---
 
+# Std ShowObjects/ru
+
 ## Описание
 
 The **Std ShowObjects** command shows all objects belonging to the active document in [3D views](3D_view.md). Be careful when you use this command as it will also show sub-elements of [PartDesign bodies](PartDesign_Body.md) and objects used for [Part Booleans](Part_Boolean.md). In most cases these should stay invisible.
@@ -35,4 +37,7 @@ The **Std ShowObjects** command shows all objects belonging to the active docume
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ShowObjects/ru

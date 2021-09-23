@@ -7,6 +7,8 @@
    Version:0.19
 ---
 
+# Sketcher ToggleActiveConstraint
+
 ## Description
 
 
@@ -58,4 +60,7 @@ sketch.toggleActive(3)
 
 
 
- {{Sketcher Tools navi}}  
+ {{Sketcher Tools navi}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ToggleActiveConstraint

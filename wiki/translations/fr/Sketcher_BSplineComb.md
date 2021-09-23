@@ -8,6 +8,8 @@
    SeeAlso:[Sketcher B-spline](Sketcher_CompCreateBSpline/fr.md)
 ---
 
+# Sketcher BSplineComb/fr
+
 ## Description
 
 Montre ou masque l\'affichage du peigne de courbure d\'une courbe B-spline (voir [cette page](B-Splines/fr.md) pour plus d\'informations sur les B-splines).
@@ -27,4 +29,7 @@ Le peigne de courbure indique la courbure (valeur de la dérivée de second ordr
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineComb/fr

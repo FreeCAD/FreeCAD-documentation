@@ -6,6 +6,8 @@
    Workbenches:[Path](Path_Workbench/fr.md)
 ---
 
+# Path Stop/fr
+
 ## Description
 
 Cet outil insère une commande d\'arrêt (M1). Cette commande suspendra le programme en cours d\'exécution sur le contrôleur CNC dans l\'attente d\'une nouvelle action de l\'utilisateur.
@@ -27,4 +29,7 @@ Cet outil insère une commande d\'arrêt (M1). Cette commande suspendra le progr
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Stop/fr

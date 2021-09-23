@@ -1,6 +1,4 @@
 # A Beginner's Questions about Working on the Wiki
-
-
 ## Purpose of this Page 
 
 This is a page that is a one person\'s perspective, put out for discussion of the Wiki process.
@@ -157,3 +155,6 @@ Pages for users, developers, wiki creators
 \[\[Category:UnfinishedDocu\]
 
 [Category:Sandbox](Category:Sandbox.md)
+
+---
+[documentation index](../README.md) > [Sandbox]]](Category:Sandbox]].md) > A Beginner's Questions about Working on the Wiki

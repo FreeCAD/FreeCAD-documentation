@@ -8,6 +8,8 @@
    SeeAlso:[Стена](Arch_Wall/ru.md), [Арматура](Arch_Rebar/ru.md)
 ---
 
+# Arch Structure/ru
+
 ## Описание
 
 
@@ -127,10 +129,7 @@ FreeCAD.ActiveDocument.recompute()
 Structure2 = Arch.makeStructure(None, length=500, width=1000, height=3000)
 Draft.move(Structure2, FreeCAD.Vector(2000, 0, 0))
 FreeCAD.ActiveDocument.recompute()
-``` 
+```
 
-
-
-
-
-
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Structure/ru

@@ -6,6 +6,8 @@
    SeeAlso:[Std Mesurer une distance](Std_MeasureDistance/fr.md), [Draft Cote](Draft_Dimension/fr.md), [Arch Prise de cotes](Arch_Survey/fr.md)
 ---
 
+# Part Measure Menu/fr
+
 
 {{StdMenu|Mesure}}
 
@@ -35,3 +37,6 @@
  
 
 [Category:Documentation](Category:Documentation.md)
+
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Menu/fr

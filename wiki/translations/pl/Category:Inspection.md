@@ -6,3 +6,6 @@ This category lists pages related to the [Inspection Workbench](Inspection_Workb
 [Artwork Inspection/pl](Artwork_Inspection/pl.md) , [Inspection Workbench/pl](Inspection_Workbench/pl.md)
 
 [Category:Workbenches](Category:Workbenches.md) [Category:User\_Documentation](Category:User_Documentation.md)
+
+---
+[documentation index](../README.md) > Category:Inspection/pl

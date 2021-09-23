@@ -1,5 +1,5 @@
 # Macro SpreadsheetTools/it
- {{Macro/it
+{{Macro/it
 |Name=Macro SpreadsheetTools
 |Icon=Macro_SpreadsheetTools.png
 |Translate=Macro Strumenti per foglio di calcolo
@@ -505,6 +505,5 @@ form = Spreadsheet_Tools(MainWindow)
 form.show()
 }}
 
-
-
-
+---
+[documentation index](../README.md) > Macro SpreadsheetTools/it

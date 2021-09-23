@@ -1,7 +1,4 @@
 # Sketcher Micro Tutorial - Constraint Practices/ru
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -125,4 +122,7 @@ This is the best way to constrain this sketch, as we only used one datum (dimens
 
 {{Tutorials navi
 
-}} {{Sketcher Tools navi}} 
+}} {{Sketcher Tools navi}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Micro Tutorial - Constraint Practices/ru

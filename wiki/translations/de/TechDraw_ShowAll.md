@@ -8,6 +8,8 @@
    SeeAlso:[TechDraw Ändert Darstellung von Linie(n)](TechDraw_DecorateLine/de.md)
 ---
 
+# TechDraw ShowAll/de
+
 ## Beschreibung
 
 Das ShowAll Werkzeug zeigt oder verbirgt unsichtbare Linien in einer Ansicht. Beachte, dass \"unsichtbar\" ein kosmetischer Zustand ist, nicht zu verwechseln mit ausgeblendeten Linien, die geometrische Konstrukte sind.
@@ -43,4 +45,7 @@ Die Wirkung des AllesAnzeigen Werkzeugs kann in [Makros](Macros/de.md) oder der 
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ShowAll/de

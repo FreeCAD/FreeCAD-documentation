@@ -1,6 +1,4 @@
 # Screenshots
- 
-
 Here are a few screenshots showing different parts of FreeCAD. They are not ordered in any particular timeline, so the images may differ from your actual version. See more screenshots submitted by FreeCAD users on the [screenshot forum thread](http://forum.freecadweb.org/viewtopic.php?f=8&t=4751) and on the [\"Show your project here!\" Users Showcase forum part](http://forum.freecadweb.org/viewforum.php?f=24).
 
 ### The 0.17 release 
@@ -204,3 +202,6 @@ Dialog to save a picture with arbitrary sizes.
 
 
 [Category:User Documentation](Category:User_Documentation.md) [Category:Screenshots](Category:Screenshots.md)
+
+---
+[documentation index](../README.md) > Screenshots

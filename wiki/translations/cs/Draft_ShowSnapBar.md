@@ -1,3 +1,4 @@
+# Draft ShowSnapBar/cs
 ---
 - GuiCommand:/cs   Name:Draft ShowSnapBar   Name/cs:Draft ShowSnapBar   Workbenches:[Arch](Draft_Workbench/cs___Draft]],_[[Arch_Workbench/cs.md)|MenuLocation:Draft → Utilities → Show Snap Bar---
 
@@ -18,8 +19,5 @@ The <img alt="" src=images/Draft_ShowSnapBar.svg  style="width:24px;"> **Draft S
     -   Select the **View → Toolbars → Draft Snap** option from the menu.
     -   Right-click an empty space in the [toolbar area](Interface.md) and select the **Draft Snap** option from the menu that appears.
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ShowSnapBar/cs

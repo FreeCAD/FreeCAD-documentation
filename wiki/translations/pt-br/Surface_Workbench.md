@@ -1,7 +1,4 @@
 # Surface Workbench/pt-br
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -70,3 +67,6 @@ The generated surface cannot be placed inside a **<img src=images/PartDesign_Bod
 }} 
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Surface Workbench/pt-br

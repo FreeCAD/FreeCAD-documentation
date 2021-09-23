@@ -1,5 +1,5 @@
 # Manipulator/ru
- }
+}
 
 
 <div class="mw-translate-fuzzy">
@@ -17,3 +17,6 @@
 
 
 [Category:Glossary](Category:Glossary.md)
+
+---
+[documentation index](../README.md) > [Glossary](Category:Glossary.md) > Manipulator/ru

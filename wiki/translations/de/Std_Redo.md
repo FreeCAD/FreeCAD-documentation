@@ -8,6 +8,8 @@
    SeeAlso:[Rückgängig](Std_Undo/de.md)
 ---
 
+# Std Redo/de
+
 ## Beschreibung
 
 Der **Std Rückgängig**-Befehl nimmt die Aktion des [Wiederherstellen](Std_Undo/de.md)-Befehl zurück.
@@ -50,4 +52,7 @@ FreeCAD.ActiveDocument.redo()
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std Redo/de

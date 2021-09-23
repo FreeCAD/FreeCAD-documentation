@@ -1,5 +1,5 @@
 # Screenshots/de
- {{TOCright}}
+{{TOCright}}
 
 Hier gibt es einige Bildschirmfotos, die verschiedene Teile von FreeCAD zeigen. Sie sind nicht in einer bestimmten Reihenfolge angeordnet, so dass die Bilder von Ihrer tatsächlichen Version abweichen können. Siehe weitere von FreeCAD Anwendern eingereichte Bildschirmfotos auf dem [Bildschirmfoto Forumsbeitrag](http://forum.freecadweb.org/viewtopic.php?f=8&t=4751) und auf dem [\"Zeige dein Projekt hier!\" Anwender Vorzeigeprojekt Part Forum](http://forum.freecadweb.org/viewforum.php?f=24)
 
@@ -202,3 +202,6 @@ FreeCAD läuft im Konsolenmodus (ohne GUI)
 Dialog zum Speichern eines Bildes in beliebigen Größen.
 
 [Category:User Documentation/de](Category:User_Documentation/de.md) [Category:Screenshots/de](Category:Screenshots/de.md)
+
+---
+[documentation index](../README.md) > Screenshots/de

@@ -1,6 +1,4 @@
 # Feature list/de
- 
-
 Dies ist eine umfangreiche, aber nicht vollständige Liste von Funktionen, die FreeCAD einführt. Wenn du einen Blick in die Zukunft werfen willst, schau dir den [Entwicklungsfahrplan](Development_roadmap/de.md) an, um einen schnellen Überblick über das zu bekommen, was als nächstes kommt. Auch die [Bildschirmfotos](Screenshots/de.md) sind eine nette Anlaufstelle.
 
 
@@ -100,3 +98,6 @@ Erfahrene Nutzer haben verschiedene [externe Arbeitsbereiche](external_workbench
 
 
 [Category:User Documentation](Category:User_Documentation.md)
+
+---
+[documentation index](../README.md) > [User Documentation](Category:User Documentation.md) > Feature list/de

@@ -7,6 +7,8 @@
    Shortcut:**Shift**+**Space**
 ---
 
+# Draft ToggleDisplayMode/es
+
 
 </div>
 
@@ -39,8 +41,5 @@ Esta herramienta conmuta la visualización de los objetos seleccionados entre Wi
 
 </div>
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ToggleDisplayMode/es

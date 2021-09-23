@@ -1,3 +1,4 @@
+# Path Inspect/it
 ---
 - GuiCommand:/it   Name:Path Inspect   Name/it:Ispeziona G-code   Workbenches:[[Path Workbench/it   Path]]|MenuLocation:Path → Ispeziona G-code   Shortcut:   SeeAlso:---
 
@@ -39,4 +40,7 @@ Questo strumento consente di ispezionare il contenuto del G-Code nel dialetto in
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Inspect/it

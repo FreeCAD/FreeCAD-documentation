@@ -1,9 +1,4 @@
 # Installing on Mac/pt-br
-
-
-
-
-
 FreeCAD pode ser instalado no MacOS a partir de um pacote .dmg que você pode arrastar e soltar em sua pasta de Aplicações:
 
 
@@ -50,8 +45,5 @@ Atualmente não há um desinstalador para FreeCAD instalado com o pacote dmg. Pa
 
 Se você instalou o FreeCAD com homebrew simplesmente use o comando `brew uninstall freecad`. É isso aí.
 
-
-
-
-
-
+---
+[documentation index](../README.md) > Installing on Mac/pt-br

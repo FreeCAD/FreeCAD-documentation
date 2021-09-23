@@ -1,7 +1,4 @@
 # Add FEM equation tutorial
- 
-
-
 {{TutorialInfo
 |Topic=Add FEM Equation
 |Level=Advanced
@@ -194,3 +191,6 @@ We have just created a new equation class. To access it from the FEM GUI, we nee
 
 
 [Category:FEM](Category:FEM.md) [Category:Developer Documentation](Category:Developer_Documentation.md)
+
+---
+[documentation index](../README.md) > [FEM](Category:FEM.md) > Add FEM equation tutorial

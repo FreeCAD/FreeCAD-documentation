@@ -1,2 +1,5 @@
 # Spreadsheet Controller/cs
 1.  REDIRECT [Arch\_Schedule](Arch_Schedule.md)
+
+---
+[documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet Controller/cs

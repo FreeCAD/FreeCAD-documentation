@@ -7,6 +7,8 @@
    Shortcut:**S** **R**
 ---
 
+# SheetMetal AddRelief/de
+
 ## Beschreibung
 
 Der Befehl <img alt="" src=images/SheetMetal_Relief.svg  style="width:24px;"> **Entlastungsausschnitt hinzufügen**\...
@@ -78,3 +80,6 @@ Ein SheetMetal-Relief-Objekt wird von einem [Part-Formelement](Part_Feature/de.m
 
 
 [Category:SheetMetal](Category:SheetMetal.md) [Category:Addons](Category:Addons.md) [Category:External Command Reference](Category:External_Command_Reference.md)
+
+---
+[documentation index](../README.md) > [SheetMetal](Category:SheetMetal.md) > SheetMetal AddRelief/de

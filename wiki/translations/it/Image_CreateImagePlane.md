@@ -8,6 +8,8 @@
    SeeAlso:[Apri immagine](Image_Open/it.md), [Scala immagine](Image_Scaling/it.md)
 ---
 
+# Image CreateImagePlane/it
+
 
 </div>
 
@@ -83,4 +85,7 @@ Se inizialmente non viene assegnato alcuno scostamento all\'immagine, la sua pos
 
 {{Image Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Image](Image_Workbench.md) > Image CreateImagePlane/it

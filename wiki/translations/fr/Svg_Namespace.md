@@ -1,7 +1,4 @@
 # Svg Namespace/fr
-
-
-
 **Le développement de l'[atelier Mise en plan](Drawing_Workbench/fr.md) s'est arrêté, et un nouvel atelier [Techdraw](TechDraw_Workbench/fr.md) visant à le remplacer sera introduit dans la version 0.17. Les deux ateliers seront fournis dans la version v0.17, mais l'atelier Mise en plan peut être supprimé dans les versions ultérieures.**
 
 
@@ -225,3 +222,6 @@ Voir [Drawing Modèles](Drawing_templates/fr.md)
 }}
 
 [Category:Poweruser\_Documentation](Category:Poweruser_Documentation.md) [Category:Developer](Category:Developer.md) [Category:Python\_Code](Category:Python_Code.md) [Category:Macros](Category:Macros.md)
+
+---
+[documentation index](../README.md) > [Poweruser_Documentation](Category:Poweruser_Documentation.md) > Svg Namespace/fr

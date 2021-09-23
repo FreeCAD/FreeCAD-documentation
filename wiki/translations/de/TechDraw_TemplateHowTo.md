@@ -1,7 +1,4 @@
 # TechDraw TemplateHowTo/de
-
-
-
 {{TutorialInfo/de
 |Topic=Entwerfen
 |Level=Zwischenstufe
@@ -120,4 +117,7 @@ Wenn du die grünen Kästchen für deine bearbeitbaren Texte nicht siehst, ist m
 
 {{Tutorials navi
 
-}} {{TechDraw Tools navi}} 
+}} {{TechDraw Tools navi}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw TemplateHowTo/de

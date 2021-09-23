@@ -6,6 +6,8 @@
    SeeAlso:[Part Primitives](Part_Primitives.md)
 ---
 
+# Part Builder/pt-br
+
 ## Description
 
 A tool to create more complex shapes from various parametric geometric primitives.
@@ -69,8 +71,5 @@ A possible workflow could be:
 -   Create a \"shell from faces\"
 -   Create a \"solid from shell\"
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Builder/pt-br

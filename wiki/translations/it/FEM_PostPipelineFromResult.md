@@ -1,3 +1,4 @@
+# FEM PostPipelineFromResult/it
 ---
 - GuiCommand:/it   Name:FEM PostPipelineFromResult   Name/it:Post Pipeline da risultato   MenuLocation: Risultati → Post Pipeline da risultato   |Workbenches:[Version:0.17   Shortcut:   SeeAlso:[[FEM_tutorial/it|Tutorial FEM](FEM_Workbench/it___FEM]].md)---
 
@@ -60,4 +61,7 @@ Ancora una volta, si noti, che la rappresentazione Pipeline dei risultati (denom
 
 {{FEM Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > FEM PostPipelineFromResult/it

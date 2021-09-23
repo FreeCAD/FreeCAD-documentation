@@ -1,5 +1,5 @@
 # Macro FlattenWire
-  {{Macro
+{{Macro
 |Name=FlattenWire
 |Icon=Macro_FlattenWire.png
 |Description=This macro flattens draft wires that are not plane to their median Z coordinate
@@ -34,6 +34,5 @@ obj.Points = newppoints
 
 }}
 
-
-
-
+---
+[documentation index](../README.md) > Macro FlattenWire

@@ -1,6 +1,4 @@
 # Help/it
-
-
 ## Forum
 
 Il primo posto in cui è possibile chiedere aiuto è il [Forum di FreeCAD](https://forum.freecadweb.org/viewforum.php?f=3) (leggere [questo post](https://forum.freecadweb.org/viewtopic.php?f=3&t=2264) prima di porre delle domande). Quando si chiede un aiuto, ricordarsi che è necessario fornire le [informazioni importanti](Important_information/it.md) sul proprio sistema.
@@ -58,3 +56,6 @@ Esistono diversi subforum per gli sviluppatori e gli utenti di FreeCAD. Prima di
  
 
 [Category:Help](Category:Help.md)
+
+---
+[documentation index](../README.md) > [Help](Category:Help.md) > Help/it

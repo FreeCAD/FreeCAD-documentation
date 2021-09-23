@@ -1,5 +1,5 @@
 # Timber Workbench
-  **This workbench is no longer developed or maintained.**
+**This workbench is no longer developed or maintained.**
 
 ## Introduction
 
@@ -72,3 +72,6 @@ See [How to install macros](How_to_install_macros.md)
  
 
 [Category:Sandbox](Category:Sandbox.md) [Category:User Documentation](Category:User_Documentation.md) [Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+
+---
+[documentation index](../README.md) > Timber Workbench

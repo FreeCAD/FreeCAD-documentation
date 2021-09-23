@@ -6,6 +6,8 @@
    Workbenches:Alle
 ---
 
+# Std DemoMode/de
+
 ## Beschreibung
 
 Der **Std DemoModus**-Befehl dreht die Kamera kontinuierlich in einer [3D-Ansicht](3D_view/de.md).
@@ -36,4 +38,7 @@ Der **Std DemoModus**-Befehl dreht die Kamera kontinuierlich in einer [3D-Ansich
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std DemoMode/de

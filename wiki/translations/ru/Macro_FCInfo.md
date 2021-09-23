@@ -1,5 +1,5 @@
 # Macro FCInfo/ru
- {{Macro/ru
+{{Macro/ru
 |Name=Macro FCInfo
 |Translate=Macro FCInfo
 |Icon=FCInfo.png
@@ -329,6 +329,5 @@ In a Linux distribution and in the case of an error of **\"ordinal not in range 
 Вы можете поделиться своими комментариями на форуме [Info Workbench - Help with icons please.](http://forum.freecadweb.org/viewtopic.php?f=10&t=3185)
 Здесь еще один пост [FCInfo Macro](http://forum.freecadweb.org/viewtopic.php?f=8&t=6005)
 
-
-
-
+---
+[documentation index](../README.md) > Macro FCInfo/ru

@@ -7,6 +7,8 @@
    Workbenches:Tutti
 ---
 
+# Std MacroAttachDebugger/it
+
 ## Descrizione
 
 Todo.
@@ -27,4 +29,7 @@ Todo.
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std MacroAttachDebugger/it

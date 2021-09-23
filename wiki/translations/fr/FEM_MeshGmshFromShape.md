@@ -7,6 +7,8 @@
    SeeAlso:[FEM Tutoriel](FEM_tutorial/fr.md)
 ---
 
+# FEM MeshGmshFromShape/fr
+
 ## Description
 
 Pour une analyse par éléments finis, la géométrie doit être discrétisée en [FEM Mesh](FEM_Mesh/fr.md). Cette commande utilise le programme [Gmsh](https://fr.wikipedia.org/wiki/Gmsh) (qui doit être installé sur le système) pour calculer le maillage.
@@ -116,4 +118,7 @@ L\'algorithme de recombinaison *Simple* laissera quelques triangles dans le mail
 
 {{FEM Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > FEM MeshGmshFromShape/fr

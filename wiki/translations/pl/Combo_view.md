@@ -1,5 +1,5 @@
 # Combo view/pl
- {{TOCright}}
+{{TOCright}}
 
 ## Wprowadzenie
 
@@ -56,4 +56,7 @@ Następnie należy aktywować widok za pomocą menu, **Widok → Panele → Wido
 
 {{Std Base navi
 
-}} {{Interface navi}} 
+}} {{Interface navi}}
+
+---
+[documentation index](../README.md) > Combo view/pl

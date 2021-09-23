@@ -1,6 +1,4 @@
 # Selection view/ru
-
-
 ## Введение
 
 
@@ -79,4 +77,7 @@ Starting from v0.19, the **picked object list** checkbox is available. If this i
 
 {{Interface navi
 
-}} {{Std Base navi}} 
+}} {{Std Base navi}}
+
+---
+[documentation index](../README.md) > Selection view/ru

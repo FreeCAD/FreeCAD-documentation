@@ -9,6 +9,8 @@
    SeeAlso:
 ---
 
+# SheetMetal AddJunction/it
+
 
 </div>
 
@@ -120,3 +122,6 @@ A SheetMetal Junction object is derived from a [Part Feature](Part_Feature.md) o
 </div>
 
 [Category:SheetMetal](Category:SheetMetal.md) [Category:Addons](Category:Addons.md) [Category:External Command Reference](Category:External_Command_Reference.md)
+
+---
+[documentation index](../README.md) > [SheetMetal](Category:SheetMetal.md) > SheetMetal AddJunction/it

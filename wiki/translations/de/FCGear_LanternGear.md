@@ -9,6 +9,8 @@
    SeeAlso:
 ---
 
+# FCGear LanternGear/de
+
 ## Beschreibung
 
 Die Triebstockverzahnung ist eine Sonderform der Zykloidenverzahnung, bei der Wälzkreis und Teilkreis gleich groß sind. Außerdem werden die Zähne des größeren Rades in einem Getriebe durch Zylinder ersetzt. Das kleine Rad erhält eine Zykloidenverzahnung. Daraus ergibt sich eine einseitige Punktverzahnung. Triebstockverzahnungen können nur gerade verzahnt sein.
@@ -81,3 +83,6 @@ Begrenzungen sind noch nicht bekannt.
 
 
 [Category:Addons](Category:Addons.md) [Category:FCGear](Category:FCGear.md) [Category:External Command Reference](Category:External_Command_Reference.md)
+
+---
+[documentation index](../README.md) > [Addons](Category:Addons.md) > FCGear LanternGear/de

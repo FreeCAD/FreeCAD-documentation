@@ -1,7 +1,4 @@
-# Inspection Workbench/es
- 
-
-<img alt="El icono del Ambiente de trabajo Inspección" src=images/Workbench_Inspection.svg  style="width:128px;">
+# <img alt="El icono del Ambiente de trabajo Inspección" src=images/Workbench_Inspection.svg  style="width:64px;"> Inspection Workbench/es
 
 ## Introducción
 
@@ -27,3 +24,6 @@ Alternativamente, usa la macro <img alt="" src=images/HighlightDifference.png  s
 
 
 [Category:Inspection](Category:Inspection.md) [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Inspection Workbench/es

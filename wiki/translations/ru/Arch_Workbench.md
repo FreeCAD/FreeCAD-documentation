@@ -1,10 +1,4 @@
-# Arch Workbench/ru
-
-
-
-
-
-<img alt="Логотип верстака Arch" src=images/Workbench_Arch.svg  style="width:128px;">
+# <img alt="Логотип верстака Arch" src=images/Workbench_Arch.svg  style="width:64px;"> Arch Workbench/ru
 
 
 {{TOCright}}
@@ -145,3 +139,6 @@ The developers of Draft, Arch, and BIM also collaborate with the greater [OSArch
  
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Arch Workbench/ru

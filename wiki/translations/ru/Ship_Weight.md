@@ -1,3 +1,4 @@
+# Ship Weight/ru
 ---
 - GuiCommand:/ru
    Name:Ship Weight
@@ -21,9 +22,5 @@ TODO
 
 {{Ship_Tools_navi}}
 
-
-
-
-
-
-
+---
+[documentation index](../README.md) > Ship Weight/ru

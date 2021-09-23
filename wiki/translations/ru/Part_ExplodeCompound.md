@@ -8,6 +8,8 @@
    SeeAlso:[Part Compound](Part_Compound/ru.md), [Draft Downgrade](Draft_Downgrade/ru.md)
 ---
 
+# Part ExplodeCompound/ru
+
 
 </div>
 
@@ -34,8 +36,5 @@ The tool will also explode non-compound shapes into their lower-level constituen
 -   Obtaining individual contours from multi-contour sketches and faces
 -   Obtaining a pure solid from a solid-in-compound, for use in <img alt="" src=images/Workbench_FEM.svg  style="width:24px;"> [FEM Workbench](FEM_Workbench.md).
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part ExplodeCompound/ru

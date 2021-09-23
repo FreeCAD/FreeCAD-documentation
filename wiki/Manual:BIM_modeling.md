@@ -1,10 +1,4 @@
 # Manual:BIM modeling
- 
-
-
-
-
-
 {{Manual:TOC}}
 
 BIM stands for [Building Information Modeling](https://en.wikipedia.org/wiki/Building_information_modeling). The exact definition of what it is varies, but we can simply say that it is how buildings and other large structures like bridges, tunnels, etc\... are modeled today. BIM models are usually based on 3D models, and also include a series of additional layers of information, such as materials information, relationships to other objects or models, or special instructions for building or maintenance. This extra information permits all kinds of advanced analysis of the model, such as structural resistance, cost and construction time estimations, or calculations of energy consumption.
@@ -240,3 +234,6 @@ Our page is now ready, and we can export it to SVG or DXF formats, or print it. 
  {{Tutorials navi}} 
 
 [Category:BIM](Category:BIM.md)
+
+---
+[documentation index](../README.md) > [BIM](Category:BIM.md) > Manual:BIM modeling

@@ -7,6 +7,8 @@
    SeeAlso:[Arch NetzAufteilen](Arch_SplitMesh/de.md), [Arch NetzZuForm](Arch_MeshToShape/de.md)
 ---
 
+# Arch 3Views/de
+
 ## Beschreibung
 
 
@@ -69,11 +71,5 @@ Wall.ViewObject.Visibility = False
 mesh_obj.ViewObject.Visibility = False
 ```
 
-
-
-
-
-
-
-
-
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch 3Views/de

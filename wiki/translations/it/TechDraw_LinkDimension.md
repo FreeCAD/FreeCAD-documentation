@@ -1,3 +1,4 @@
+# TechDraw LinkDimension/it
 ---
 - GuiCommand:/it   Name:TechDraw  Dimension Link   Name/it:Link alla dimensione   Workbenches:[MenuLocation:TechDraw → Link alla geometria 3D   Shortcut:   SeeAlso:[[TechDraw NewView/it|Vista](TechDraw_Workbench/it___TechDraw]].md), [Proiezioni](TechDraw_NewProjGroup/it.md)---
 
@@ -98,4 +99,7 @@ to be defined
 
 {{TechDraw Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw LinkDimension/it

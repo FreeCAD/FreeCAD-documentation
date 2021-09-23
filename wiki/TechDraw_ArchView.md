@@ -6,6 +6,8 @@
    SeeAlso:[Arch Section Plane](Arch_SectionPlane.md)
 ---
 
+# TechDraw ArchView
+
 ## Description
 
 The ArchView tool inserts a view of an **<img src="images/Arch_SectionPlane.svg" width=16px> [Arch SectionPlane](Arch_SectionPlane.md)** on a [TechDraw page](TechDraw_PageDefault.md).
@@ -72,4 +74,7 @@ rc = page.addView(dv)
 
 
 
- {{TechDraw Tools navi}}  
+ {{TechDraw Tools navi}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ArchView

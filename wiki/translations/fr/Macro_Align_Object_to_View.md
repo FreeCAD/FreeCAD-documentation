@@ -1,5 +1,5 @@
 # Macro Align Object to View/fr
- {{Macro/fr
+{{Macro/fr
 |Name=Macro Align Object to View
 |Icon=Macro_Align_Object_to_View.png
 |Translate=Macro Align Object to View
@@ -75,6 +75,5 @@ Image:Macro Align Object to View 03.png\|Sélectionnez l\'objet et lancez la mac
 
 Merci rentlau\_64 pour avoir simplifié le code
 
-
-
-
+---
+[documentation index](../README.md) > Macro Align Object to View/fr

@@ -1,3 +1,4 @@
+# Mesh BoundingBox/it
 ---
 - GuiCommand:/it
    Name:Mesh_BoundingBox‏‎
@@ -35,4 +36,7 @@ Il comando **Info limiti d\'ingombro** fornisce le coordinate minime e massime d
 
 {{Mesh Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh BoundingBox/it

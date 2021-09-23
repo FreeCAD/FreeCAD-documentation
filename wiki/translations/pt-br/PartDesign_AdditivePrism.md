@@ -7,6 +7,8 @@
    SeeAlso:[PartDesign Create an additive primitive](PartDesign_CompPrimitiveAdditive.md), [PartDesign Subtractive Prism](PartDesign_SubtractivePrism.md)
 ---
 
+# PartDesign AdditivePrism/pt-br
+
 ## Description
 
 Inserts a primitive prism in the active Body as the first feature, or fuses it to the existing feature(s).
@@ -51,4 +53,7 @@ The Prism can be edited after its creation in two ways:
 
 {{PartDesign Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditivePrism/pt-br

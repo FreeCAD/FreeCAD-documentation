@@ -8,6 +8,8 @@
    SeeAlso:[TechDraw Modèles](TechDraw_Templates/fr.md), [Draft SVG](Draft_SVG/fr.md)
 ---
 
+# TechDraw ExportPageSVG/fr
+
 ## Description
 
 L\'outil Exporter la page enregistre la page de dessin en cours sous forme de fichier [SVG](SVG/fr.md).
@@ -44,4 +46,7 @@ Notez que le module FreeCADGui doit être actif pour utiliser cette fonction.
 
 {{TechDraw Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExportPageSVG/fr

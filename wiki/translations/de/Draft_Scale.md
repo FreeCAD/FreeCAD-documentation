@@ -7,6 +7,8 @@
    SeeAlso:[Klonen](Draft_Clone/de.md), [Versetzen](Draft_Offset/de.md)
 ---
 
+# Draft Scale/de
+
 
 </div>
 
@@ -121,8 +123,5 @@ wires = Draft.scale([wire1, wire2], scale2, copy=True)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Scale/de

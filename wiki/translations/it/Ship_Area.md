@@ -1,3 +1,4 @@
+# Ship Area/it
 ---
 - GuiCommand:/it   Name:Ship Area   Name/it:Area   MenuLocation:Ship design → Curva delle sezioni   |Workbenches:[[Ship_Workbench/it   Ship]]|Shortcut:   SeeAlso:---
 
@@ -29,4 +30,7 @@ Plot the transversal areas curve
 
 {{Ship_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > Ship Area/it

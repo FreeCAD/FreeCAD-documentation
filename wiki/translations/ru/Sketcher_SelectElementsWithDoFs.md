@@ -7,6 +7,8 @@
    Version:0.18
 ---
 
+# Sketcher SelectElementsWithDoFs/ru
+
 ## Описание
 
 This tool is meant to aid in fully constraining a sketch by highlighting in green the sketch elements with remaining degrees of freedom (DoF).
@@ -34,4 +36,7 @@ where \"X\" is the number of degrees of freedom remaining in the sketch; you wil
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectElementsWithDoFs/ru

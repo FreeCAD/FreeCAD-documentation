@@ -8,6 +8,8 @@
    SeeAlso:
 ---
 
+# Sketcher Create3PointCircle/it
+
 
 </div>
 
@@ -40,4 +42,7 @@ Accanto al puntatore sono visualizzate, in blu, le coordinate della sua posizion
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Create3PointCircle/it

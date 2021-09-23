@@ -1,5 +1,5 @@
 # Wished tools/it
- Inizio questa pagina come un tentativo di raccogliere i desideri degli utenti finali su strumenti specifici che vorrebbero trovare in FreeCAD. Diversi utenti cad hanno già chattato con me su strumenti cad, su ciò che usano di più, su ciò che vorrebbero vedere in FreeCAD, su ciò di cui non potrebbero fare a meno, ecc\... Anche se FreeCAD non è destinato a diventare un sostituto specifico di qualsiasi altro famoso software CAD (specialmente quello che inizia con Auto e finisce con il CAD), penso che questo possa diventare un buon riferimento per conoscere le aspettative degli utenti finali, e forse per dare priorità alle cose rispetto agli altri nello sviluppo.
+Inizio questa pagina come un tentativo di raccogliere i desideri degli utenti finali su strumenti specifici che vorrebbero trovare in FreeCAD. Diversi utenti cad hanno già chattato con me su strumenti cad, su ciò che usano di più, su ciò che vorrebbero vedere in FreeCAD, su ciò di cui non potrebbero fare a meno, ecc\... Anche se FreeCAD non è destinato a diventare un sostituto specifico di qualsiasi altro famoso software CAD (specialmente quello che inizia con Auto e finisce con il CAD), penso che questo possa diventare un buon riferimento per conoscere le aspettative degli utenti finali, e forse per dare priorità alle cose rispetto agli altri nello sviluppo.
 
 Se sei un utente CAD e vuoi aggiungere qualcosa qui, sentiti libero di modificare, saremo lieti di avere la tua opinione qui.
 
@@ -79,3 +79,6 @@ Se sei un utente CAD e vuoi aggiungere qualcosa qui, sentiti libero di modificar
 -   Assemblies
 
 [Category:Hubs](Category:Hubs.md) [Category:Roadmap](Category:Roadmap.md) [Category:Developer](Category:Developer.md)
+
+---
+[documentation index](../README.md) > [Hubs](Category:Hubs.md) > Wished tools/it

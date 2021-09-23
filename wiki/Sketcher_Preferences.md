@@ -1,8 +1,4 @@
 # Sketcher Preferences
-  
-
- 
-
 The preferences screen of the <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Sketcher Workbench](Sketcher_Workbench.md) are found in the [Preferences Editor](Preferences_Editor.md), **Edit → Preferences → Sketcher**.
 
 There are three tabs: General, Display, and Colors.
@@ -242,3 +238,6 @@ In the *Colors* tab you can specify the following:
  {{Sketcher Tools navi}}  
 
 [Category:Preferences](Category:Preferences.md)
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Preferences

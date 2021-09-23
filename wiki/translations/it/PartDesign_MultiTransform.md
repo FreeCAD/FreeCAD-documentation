@@ -5,6 +5,8 @@
    MenuLocation:PartDesign → MultiTrasformazione
 ---
 
+# PartDesign MultiTransform/it
+
 
 </div>
 
@@ -270,4 +272,7 @@ Allows changing the order of transformations in the list \|}
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign MultiTransform/it

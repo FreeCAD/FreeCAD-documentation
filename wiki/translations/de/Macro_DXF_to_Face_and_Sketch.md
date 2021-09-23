@@ -1,5 +1,5 @@
 # Macro DXF to Face and Sketch/de
- {{Macro/de
+{{Macro/de
 |Name=DXF to Face and Sketch
 |Name/de=DXF zu Fläche und Skizze
 |Icon=Macro_DXF_to_Face_and_Sketch.png
@@ -255,6 +255,5 @@ else:
 -   Makros\_Rezepte [Makro Flächen aus einer DXF Datei erzeugen](http://www.freecadweb.org/wiki/index.php?title=Macros_recipes)
 -   Previous version [Makro Flächen aus einer DXF Datei erzeugen](Macro_Creating_faces_from_a_DXF_file/de.md)
 
-
-
-
+---
+[documentation index](../README.md) > Macro DXF to Face and Sketch/de

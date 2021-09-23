@@ -1,7 +1,4 @@
 # Manual:Parametric objects/ro
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -69,3 +66,6 @@ Cu toate acestea, toate obiectele, parametrice sau nu, vor avea câțiva dintre 
 </div>
 
 [Category:Poweruser Documentation](Category:Poweruser_Documentation.md) [Category:Tutorials](Category:Tutorials.md)
+
+---
+[documentation index](../README.md) > [Poweruser Documentation](Category:Poweruser Documentation.md) > Manual:Parametric objects/ro

@@ -1,5 +1,4 @@
-# TechDraw Roadmap/de
- <img alt="" src=images/preferences-techdraw.svg  style="width:64px;"> 
+# <img alt="" src=images/preferences-techdraw.svg  style="width:64px;">  TechDraw Roadmap/de
 
 Die [TechDraw Arbeitsbereich](TechDraw_Workbench/de.md) wurde offiziell als Teil von FreeCAD in der Version 0.17 eingeführt. Sie ist relativ neu und hat noch nicht die Jahre der Entwicklung hinter sich, von denen einige andere Arbeitsbereich profitiert haben. Dennoch erfüllt TechDraw nun sein ursprüngliches Konstruktionsziel und kann nun \"grundlegende technische Zeichnungen auf der Grundlage des 3D Modells erstellen\".
 
@@ -81,3 +80,6 @@ Siehe Bugtracker für aktuelle Informationen.
 }}  
 
 [Category:User Documentation](Category:User_Documentation.md) [Category:TechDraw](Category:TechDraw.md)
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Roadmap/de

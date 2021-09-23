@@ -1,3 +1,4 @@
+# Raytracing ResetCamera/it
 ---
 - GuiCommand:/it   Name:Raytracing ResetCamera   Name/it:ResetCamera   MenuLocation:Raytracing → ResetCamera   |Workbenches:[[Raytracing_Workbench/it   Raytracing]]|Shortcut:   SeeAlso:---
 
@@ -61,4 +62,7 @@ Imposta la fotocamera del progetto raytracing selezionato secondo la vista corre
 
 {{Raytracing_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing ResetCamera/it

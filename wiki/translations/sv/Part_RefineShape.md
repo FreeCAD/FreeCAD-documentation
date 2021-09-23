@@ -1,3 +1,4 @@
+# Part RefineShape/sv
 ---
 - GuiCommand:/sv   Name:Part RefineShape   Name/sv:Part RefineShape   MenuLocation:Part → Refine Shape   Workbenches:[OpenSCAD](Part_Workbench/sv___Part]],_[[OpenSCAD_Workbench/sv.md)|SeeAlso:---
 
@@ -59,8 +60,5 @@ The Python command for refining a shape is the following:
 shape.removeSplitter()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part RefineShape/sv

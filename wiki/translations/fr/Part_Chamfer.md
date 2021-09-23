@@ -7,6 +7,8 @@
    SeeAlso:[Part Congé](Part_Fillet/fr.md)
 ---
 
+# Part Chamfer/fr
+
 ## Description
 
 Chanfreine le ou les bords sélectionnés d\'un objet. Une boîte de dialogue vous permet de choisir le ou les bords sur lesquels vous souhaitez travailler ainsi que de modifier divers paramètres de chanfrein.
@@ -151,8 +153,5 @@ FreeCAD.ActiveDocument.recompute()
 
 -   Recalcule tous les composants modifiés à l\'écran et actualise l\'affichage.
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Chamfer/fr

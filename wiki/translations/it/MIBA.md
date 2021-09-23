@@ -1,6 +1,4 @@
 # MIBA/it
-
-
 ## Introduction
 
 
@@ -63,3 +61,6 @@ App.closeDocument(App.ActiveDocument.Name)
 ```
 
 [Category:User\_Documentation](Category:User_Documentation.md)
+
+---
+[documentation index](../README.md) > [User_Documentation](Category:User_Documentation.md) > MIBA/it

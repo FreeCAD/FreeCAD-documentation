@@ -1,9 +1,4 @@
 # Pyrate Workbench/pl
-
-
-
-
-
 ## Wprowadzenie
 
 
@@ -18,3 +13,6 @@ To środowisko pracy jest środowiskiem pracy w nowym stylu. Oznacza to, że jes
 
 
 [Category:User Documentation](Category:User_Documentation.md) [Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+
+---
+[documentation index](../README.md) > Pyrate Workbench/pl

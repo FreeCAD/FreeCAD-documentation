@@ -8,6 +8,8 @@
    Version:0.17
 ---
 
+# Sketcher CompCreateBSpline/fr
+
 ## Description
 
 **Créer une B-spline** est un bouton d\'icône dans la barre d\'outils Géométries d\'esquisse qui regroupe les outils pour créer une courbe B-spline. Il suffit de cliquer sur la flèche bas à sa droite pour dérouler les icônes qu\'il regroupe et sélectionner un outil.
@@ -23,4 +25,7 @@
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CompCreateBSpline/fr

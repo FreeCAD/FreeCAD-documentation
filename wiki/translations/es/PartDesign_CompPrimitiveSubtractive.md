@@ -8,6 +8,8 @@
    SeeAlso:[PartDesign CompPrimitiveAdditive](PartDesign_CompPrimitiveAdditive.md)
 ---
 
+# PartDesign CompPrimitiveSubtractive/es
+
 ## Descripción
 
 Crea una Primitiva sustractiva en el Body (cuerpo) activo, sustrayendo su forma del sólido existente.
@@ -29,4 +31,7 @@ Crea una Primitiva sustractiva en el Body (cuerpo) activo, sustrayendo su forma 
 
 {{PartDesign Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign CompPrimitiveSubtractive/es

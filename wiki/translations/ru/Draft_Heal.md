@@ -6,6 +6,8 @@
    Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
 ---
 
+# Draft Heal/ru
+
 
 </div>
 
@@ -35,8 +37,5 @@
 
 </div>
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Heal/ru

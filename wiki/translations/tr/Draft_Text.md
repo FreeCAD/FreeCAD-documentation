@@ -9,6 +9,8 @@
    SeeAlso:[Etiket](Draft_Label/tr.md), [Şekil dizesi](Draft_ShapeString/tr.md)
 ---
 
+# Draft Text/tr
+
 
 </div>
 
@@ -246,5 +248,5 @@ doc.recompute()
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Text/tr

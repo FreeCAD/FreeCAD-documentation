@@ -7,6 +7,8 @@
    SeeAlso:[Std Arrêt enregistrement macro](Std_MacroStopRecord/fr.md)
 ---
 
+# Std DlgMacroRecord/fr
+
 ## Description
 
 La commande **Std Enregistrement de macro** démarre une session d\'enregistrement de [macro](Macros/fr.md) pendant laquelle les actions de l\'utilisateur sont stockées dans une macro FreeCAD, un fichier avec l\'extension {{FileName|.FCMacro}}. Une macro peut ensuite être rejouée, exécutée, pour répéter les actions enregistrées.
@@ -50,4 +52,7 @@ La commande **Std Enregistrement de macro** démarre une session d\'enregistreme
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std DlgMacroRecord/fr

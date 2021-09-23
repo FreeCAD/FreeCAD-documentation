@@ -1,3 +1,4 @@
+# Arch Window/cs
 ---
 - GuiCommand:/cs   Name:Arch Window   Name/cs:Arch Okno   Workbenches:[MenuLocation:Arch → Window   Shortcut:W I   SeeAlso:[[Arch Wall/cs|Arch Wall](Arch_Workbench/cs___Arch]].md)---
 
@@ -263,3 +264,6 @@ Door = Arch.makeWindowPreset("Simple door",
 
 
 [Category:Arch/cs](Category:Arch/cs.md)
+
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Window/cs

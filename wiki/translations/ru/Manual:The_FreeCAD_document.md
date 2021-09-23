@@ -1,7 +1,4 @@
 # Manual:The FreeCAD document/ru
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -47,3 +44,5 @@
 
 </div>
 
+---
+[documentation index](../README.md) > Manual:The FreeCAD document/ru

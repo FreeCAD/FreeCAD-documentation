@@ -1,7 +1,4 @@
 # Arch DAE/es
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -59,3 +56,6 @@ La funcionalidad de importación de Collada en el módulo de Arquitectura depend
  
 
 [Category:File Formats](Category:File_Formats.md)
+
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch DAE/es

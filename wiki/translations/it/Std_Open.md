@@ -1,3 +1,4 @@
+# Std Open/it
 ---
 - GuiCommand:/it   Name:Std_Open   Name/it:Apri   MenuLocation:File → Apri   Workbenches:Tutti   Shortcut:**Ctrl**+**O**   SeeAlso:[Nuovo](Std_New.md), [Importa](Std_Import/it.md)---
 
@@ -54,4 +55,7 @@ For a scripting example see [Std New](Std_New#Scripting.md).
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std Open/it

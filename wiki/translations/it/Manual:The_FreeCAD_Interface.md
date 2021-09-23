@@ -1,7 +1,4 @@
 # Manual:The FreeCAD Interface/it
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -97,3 +94,5 @@ Le opzioni di personalizzazione avanzate sono disponibili dal menu {{MenuCommand
 
 </div>
 
+---
+[documentation index](../README.md) > Manual:The FreeCAD Interface/it

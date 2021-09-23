@@ -1,7 +1,4 @@
 # Gui Command/it
-
-
-
 <div class="mw-translate-fuzzy">
 
 I comandi dell\'interfaccia grafica dell\'utente (GuiCommand) sono una delle funzioni più importanti di FreeCAD e sono il punto principale di interazione dell\'utente. Ogni volta che l\'utente seleziona una voce del menu o preme un pulsante si attiva un comando Gui. Alcuni degli attributi di un comando grafico sono:
@@ -144,4 +141,7 @@ Si spera che questo sia vero per tutti i comandi Gui della [List of Commands](Li
 
 {{Powerdocnavi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > Gui Command/it

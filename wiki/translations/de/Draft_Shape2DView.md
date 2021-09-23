@@ -6,6 +6,8 @@
    SeeAlso:[Part-Arbeitsbereich](Part_Workbench/de.md), [TechDraw-Arbeitsbereich](TechDraw_Workbench/de.md)
 ---
 
+# Draft Shape2DView/de
+
 
 </div>
 
@@ -145,8 +147,5 @@ shape3.ProjectionMode = "Individual Faces"
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Shape2DView/de

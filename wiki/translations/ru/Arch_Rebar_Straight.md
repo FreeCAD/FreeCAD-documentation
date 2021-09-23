@@ -7,6 +7,8 @@
    Version:0.17
 ---
 
+# Arch Rebar Straight/ru
+
 
 <div class="mw-translate-fuzzy">
 
@@ -211,3 +213,6 @@ StraightRebar.editStraightRebar(Rebar4, 50, ("Right Side", 50), 100, 100,
  
 
 [Category:Reinforcement](Category:Reinforcement.md)
+
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Rebar Straight/ru

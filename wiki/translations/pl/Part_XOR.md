@@ -1,3 +1,4 @@
+# Part XOR/pl
 ---
 - GuiCommand:/pl
    Name:Part_XOR
@@ -15,10 +16,7 @@
 
 ## Przykład
 
-## Tworzenie skryptów 
+## Tworzenie skryptów
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part XOR/pl

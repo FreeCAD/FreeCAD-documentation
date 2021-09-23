@@ -1,11 +1,4 @@
 # Mouse navigation
- 
-
-
-
-
- 
-
 ## Overview
 
 The FreeCAD **mouse navigation** consists of the commands used to visually navigate the 3D space and interact with the objects displayed. FreeCAD supports multiple mouse navigation styles. The default navigation style is referred to as \"CAD Navigation,\" and is very simple and practical, but FreeCAD also provides alternative navigation styles which you can choose according to your preferences.
@@ -244,7 +237,5 @@ On MacBooks with a trackpad the Gesture navigation works very well, but the gest
 
 The tutorial [Adding a new mouse navigation option to FreeCAD](Adding_a_new_mouse_navigation_option_to_FreeCAD.md) orients developers who want to develop a custom mouse navigation option. Familiarity with the C++ syntax is required.
 
-
-
-
- 
+---
+[documentation index](../README.md) > Mouse navigation

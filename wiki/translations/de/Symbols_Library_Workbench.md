@@ -1,6 +1,4 @@
 # Symbols Library Workbench/de
-
-
 ## Einführung
 
 
@@ -51,3 +49,6 @@ Die Bibliothek ist ein einfacher Behälter für SVG Dateien. Du kannst sie über
 
 
 [Category:Sandbox](Category:Sandbox.md) [Category:User Documentation](Category:User_Documentation.md) [Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+
+---
+[documentation index](../README.md) > Symbols Library Workbench/de

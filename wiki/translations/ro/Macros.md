@@ -1,7 +1,4 @@
 # Macros/ro
-
-
-
 {{TOCright}}
 
 ## Introduction
@@ -154,3 +151,6 @@ You can manually install extensions, however, it is much simpler to just use the
 }} 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md) [Category:Macros](Category:Macros.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Macros/ro

@@ -7,6 +7,8 @@
    SeeAlso:[Entwurf Fang](Draft_Snap/de.md), [Entwurf UmschaltenFang](Draft_ToggleSnap/de.md)
 ---
 
+# Draft ShowSnapBar/de
+
 
 </div>
 
@@ -47,5 +49,5 @@ Dieser Befehl zeigt die [Entwurf Fang](Draft_Snap/de.md) Werkzeugleiste, die die
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ShowSnapBar/de

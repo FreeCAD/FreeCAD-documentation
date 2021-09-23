@@ -8,6 +8,8 @@
    SeeAlso:[Taşı](Draft_Move/tr.md), [Ölçek](Draft_Scale/tr.md)
 ---
 
+# Draft Clone/tr
+
 
 </div>
 
@@ -155,5 +157,5 @@ doc.recompute()
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Clone/tr

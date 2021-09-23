@@ -1,6 +1,4 @@
 # Artwork Mesh/en
- 
-
 These icons are in the indicated source path.
 
 For all icons in the source tree, see [Artwork](Artwork.md).
@@ -21,3 +19,6 @@ For all icons in the source tree, see [Artwork](Artwork.md).
 }} 
 
 [Category:Mesh](Category:Mesh.md)
+
+---
+[documentation index](../README.md) > [Mesh](Category:Mesh.md) > Artwork Mesh/en

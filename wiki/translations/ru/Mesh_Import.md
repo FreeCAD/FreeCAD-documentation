@@ -7,6 +7,8 @@
    SeeAlso:[Импорт файла](Std_Import/ru.md)
 ---
 
+# Mesh Import/ru
+
 
 </div>
 
@@ -50,4 +52,7 @@ Mesh.insert('D:/testfiles/cylinder.stl')
 
 {{Mesh Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Import/ru

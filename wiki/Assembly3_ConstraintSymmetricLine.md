@@ -5,6 +5,8 @@
    Workbenches:[Assembly3](Assembly3_Workbench.md)
 ---
 
+# Assembly3 ConstraintSymmetricLine
+
 ## Description
 
 This tool builds a link between two or three objects of an assembly. The selected elements of each object or more precisely their implicit coordinate systems (ICS) are used to position the objects to each other.
@@ -25,7 +27,5 @@ Or
 3.  Select a straight line element of the third object
 4.  Press the **<img src="images/Assembly_ConstraintSymmetricLine.svg" width=16px> [Symmetric line](Assembly3_ConstraintSymmetricLine.md)** button.
 
-
-
-
- 
+---
+[documentation index](../README.md) > Assembly3 ConstraintSymmetricLine

@@ -1,3 +1,4 @@
+# Draft Draft2Sketch/ro
 ---
 - GuiCommand:   Name:Draft Draft2Sketch   Workbenches:[Arch](Draft_Workbench___Draft]],_[[Arch_Workbench.md)|MenuLocation:Drafting → Draft to Sketch---
 
@@ -119,8 +120,5 @@ draft_from_sketch = Draft.draftify(sketch_from_draft, delete=False)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Draft2Sketch/ro

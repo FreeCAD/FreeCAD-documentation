@@ -7,6 +7,8 @@
    Version:0.17
 ---
 
+# Spreadsheet CreateSheet/de
+
 ## Beschreibung
 
 Das **<img src=images/Spreadsheet_CreateSheet.svg style="width:16px"> [Kalkulationstabelle ErstelleArbeitsblatt](Spreadsheet_CreateSheet/de.md)** Werkzeug fügt dem aktiven Dokument ein neues Kalkulationstabellenobjekt hinzu, das in einem neuen Reiter im [Hauptansichtsbereich](main_view_area/de.md).
@@ -23,4 +25,7 @@ Das **<img src=images/Spreadsheet_CreateSheet.svg style="width:16px"> [Kalkulati
 
 {{Spreadsheet_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet CreateSheet/de

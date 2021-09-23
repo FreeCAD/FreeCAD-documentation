@@ -8,6 +8,8 @@
    SeeAlso:[Std Lien objet lié primaire](Std_LinkSelectLinkedFinal/fr.md), [Std Tous les liens](Std_LinkSelectAllLinks/fr.md), [Std Rétablir](Std_SelBack/fr.md), [Std Etablir](Std_SelForward/fr.md)
 ---
 
+# Std LinkSelectLinked/fr
+
 ## Description
 
 La commande **Std Lien objet lié** sélectionne {{PropertyData/fr|Linked Object}}, l\'objet source, d\'un objet [App Link](App_Link/fr.md), un lien.
@@ -25,4 +27,7 @@ La commande **Std Lien objet lié** sélectionne {{PropertyData/fr|Linked Object
 
 {{Std Base navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > Std LinkSelectLinked/fr

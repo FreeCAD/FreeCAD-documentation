@@ -61,6 +61,4 @@ FreeCAD can be compiled on all platforms using [CMake](https://cmake.org/). The 
 
 Check the [Development roadmap](wiki/Development_roadmap.md) for news about what is being planned, the [Changelog](http://www.freecadweb.org/tracker/changelog_page.php) and [Roadmap](http://www.freecadweb.org/tracker/roadmap_page.php) pages on the [FreeCAD tracker](http://www.freecadweb.org/tracker) to see the progress towards next release, or the [Project statistics](http://www.ohloh.net/p/freecad) for even more information about the FreeCAD codebase. All the development communication happens on the [forum](http://forum.freecadweb.org), so be sure to visit it if you are interested in participating.
 
- 
 
-[Category:Documentation](Category:Documentation.md)

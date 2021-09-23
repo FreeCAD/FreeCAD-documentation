@@ -1,3 +1,4 @@
+# Robot SetHomePos/it
 ---
 - GuiCommand:/it   Name:Robot SetHomePos   Name/it:Imposta la posizione iniziale   Workbenches:[[Robot_Workbench/it   Robot]]|MenuLocation:Robot → Imposta la posizione iniziale---
 
@@ -49,4 +50,7 @@ All\'inizio, quando il robot viene inserito nella scena la posizione sarà defin
 
 {{Robot_Tools_navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot SetHomePos/it

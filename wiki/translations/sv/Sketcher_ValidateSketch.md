@@ -7,6 +7,8 @@
    MenuLocation:Sketch / Part Design → Validate sketch
 ---
 
+# Sketcher ValidateSketch/sv
+
 
 </div>
 
@@ -81,4 +83,7 @@ The locking mechanism typically works well and this tool should not be needed. *
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ValidateSketch/sv

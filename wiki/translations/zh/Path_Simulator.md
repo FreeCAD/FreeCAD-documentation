@@ -7,6 +7,8 @@
    SeeAlso:[Path Inspect](Path_Inspect.md)
 ---
 
+# Path Simulator/zh
+
 ## 描述
 
 此工具可以通过沿G-code路径扫略用于每个操作的刀具3D模型模拟刀路作业，当刀具和毛坯重叠时消去毛坯中的材料以提供可视化的作业运行效果。这可以在机床运行作业前上检查并杜绝错误。
@@ -55,4 +57,7 @@
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Simulator/zh

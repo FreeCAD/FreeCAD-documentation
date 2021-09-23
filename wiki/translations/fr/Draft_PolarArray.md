@@ -8,6 +8,8 @@
    SeeAlso:[Draft Réseau orthogonal](Draft_OrthoArray.md), [Draft Réseau circulaire](Draft_CircularArray/fr.md), [Draft Chemin pour série de copies](Draft_PathArray/fr.md), [Draft Réseau lié selon une courbe](Draft_PathLinkArray.md), [Draft Matrice de points](Draft_PointArray/fr.md), [Draft Réseau lié selon des points](Draft_PointLinkArray/fr.md)
 ---
 
+# Draft PolarArray/fr
+
 ## Description
 
 La commande <img alt="" src=images/Draft_PolarArray.svg  style="width:24px;"> **Draft Réseau polaire** crée un réseau à partir d\'un objet sélectionné en plaçant des copies le long d\'une circonférence. La commande peut éventuellement créer un réseau lié [Link](App_Link/fr.md), qui est plus efficace qu\'un réseau régulier.
@@ -136,8 +138,5 @@ Draft.array(tri, center, 270, 8)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft PolarArray/fr

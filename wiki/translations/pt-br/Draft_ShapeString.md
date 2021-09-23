@@ -8,6 +8,8 @@
    SeeAlso:[Draft Text](Draft_Text.md), [Draft Label](Draft_Label.md), [Part Extrude](Part_Extrude.md)
 ---
 
+# Draft ShapeString/pt-br
+
 ## Descrição
 
 The <img alt="" src=images/Draft_ShapeString.svg  style="width:24px;"> **Draft ShapeString** command creates a compound shape that represents a text string. This shape can be used to create 3D letters with the [Part Extrude](Part_Extrude.md) command.
@@ -141,5 +143,5 @@ doc.recompute()
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ShapeString/pt-br

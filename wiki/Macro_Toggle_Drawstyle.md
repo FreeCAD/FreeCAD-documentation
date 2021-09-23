@@ -1,5 +1,5 @@
 # Macro Toggle Drawstyle
-  {{Macro
+{{Macro
 |Name=Macro Toggle Drawstyle
 |Description=When working with FreeCAD there are times when you want to quickly change the Drawstyle of the object you are working with. This is available through the Drawstyle pull-down menu where any Drawstyle may be selected. This macro makes 2 of the Drawstyles available as a clickable button on a toolbar which the user may click to toggle back and forth between the two Drawstyles. The user can modify the macro code to select which 2 Drawstyles they wish to toggle between. This does not add functionality missing in the Drawstyles pull-down menu, but rather an increased convenience level.
 |Author=Piffpoof
@@ -131,4 +131,5 @@ else:
 
 The forum discussion [Keyboard shortcut, View toolbar - Wireframe](https://forum.freecadweb.org/viewtopic.php?f=3&t=14336)
 
- 
+---
+[documentation index](../README.md) > Macro Toggle Drawstyle

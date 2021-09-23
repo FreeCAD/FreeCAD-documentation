@@ -6,6 +6,8 @@
    Workbenches:[Points](Points_Workbench/fr.md)
 ---
 
+# Points Structure/fr
+
 ## Description
 
 La commande **Structure des points** crée un nuage de points structuré à partir des points d\'un nuage de points dispersé existant. Un nuage de points structuré présente l\'avantage que la tessellation est beaucoup plus facile.
@@ -28,4 +30,7 @@ Voir [Points Conversion](Points_Convert/fr.md).
 
 {{Points Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Points](Points_Workbench.md) > Points Structure/fr

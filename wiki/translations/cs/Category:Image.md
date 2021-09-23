@@ -6,3 +6,6 @@ This category lists pages related to the [Image Workbench/cs](Image_Workbench/cs
 [Image Workbench/cs](Image_Workbench/cs.md)
 
 [Category:Workbenches/cs](Category:Workbenches/cs.md)
+
+---
+[documentation index](../README.md) > Category:Image/cs

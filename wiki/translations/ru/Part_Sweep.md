@@ -7,6 +7,8 @@
    SeeAlso:[Лофт](Part_Loft/ru.md)
 ---
 
+# Part Sweep/ru
+
 ## Описание
 
 Инструмент развертки верстака Part используется для создания лица, оболочки или твердой формы из одного или нескольких профилей, проецируемого вдоль заданной трассы.
@@ -107,8 +109,5 @@
 
 -   Since Sweep is often used to create threads for screws, you should see [Thread for Screw Tutorial](Thread_for_Screw_Tutorial.md).
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Sweep/ru

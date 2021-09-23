@@ -7,6 +7,8 @@
    SeeAlso:[Asse](Arch_Axis/it.md), [Sistema di assi](Arch_AxisSystem/it.md)
 ---
 
+# Arch Grid/it
+
 
 </div>
 
@@ -140,5 +142,5 @@ FreeCAD.ActiveDocument.recompute()
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Grid/it

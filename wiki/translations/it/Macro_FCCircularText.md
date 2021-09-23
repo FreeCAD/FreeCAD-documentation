@@ -1,5 +1,5 @@
 # Macro FCCircularText/it
- {{Macro/it
+{{Macro/it
 |Name=Macro FCCircularText
 |Translate=Testo Circolare
 |Icon=FCCircularTextButtom.png
@@ -879,8 +879,5 @@ replace
 
 I commenti nella pagina del forum: [Extrude from curved surface of cylinder](http://forum.freecadweb.org/viewtopic.php?f=3&t=7384)
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > Macro FCCircularText/it

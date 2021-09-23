@@ -6,6 +6,8 @@
    Workbenches:Todo
 ---
 
+# Std DependencyGraph/es
+
 ## Descripción
 
 El comando **Std GrafoDependencia** muestra las dependencias entre los objetos del documento activo en un \"gráfico de dependencias\". A diferencia de la [Vista de árbol](Tree_view/es.md), los objetos se enumeran en orden cronológico inverso, con el primer objeto creado en la parte inferior.
@@ -106,3 +108,6 @@ Puede guardar un gráfico dependencia:
 }}  
 
 [Category:3rd Party](Category:3rd_Party.md)
+
+---
+[documentation index](../README.md) > [3rd Party](Category:3rd Party.md) > Std DependencyGraph/es

@@ -5,6 +5,8 @@
    Workbenches:[Assembly3](Assembly3_Workbench.md)
 ---
 
+# Assembly3 ConstraintArcLineTangent
+
 ## Description
 
 The **<img src="images/Assembly_ConstraintArcLineTangent.svg" width=16px> [Arc line tangent](Assembly3_ConstraintArcLineTangent.md)** commands builds a link between two objects of an assembly. The selected elements of each object or more precisely their implicit coordinate systems (ICS) are used to position one object to another.
@@ -25,8 +27,5 @@ Depending on the order of the selected lines following **errors** appear:
 Constraint "ArcLineTangent" requires the 1st element to be a circular edge
 Constraint "ArcLineTangent" requires the 1st element to be an arc edge
 
-
-
-
-
-
+---
+[documentation index](../README.md) > Assembly3 ConstraintArcLineTangent

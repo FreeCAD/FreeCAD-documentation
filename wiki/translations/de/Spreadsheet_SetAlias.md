@@ -7,6 +7,8 @@
    Version:0.17
 ---
 
+# Spreadsheet SetAlias/de
+
 ## Beschreibung
 
 Das **<img src=images/Spreadsheet_SetAlias.svg style="width:16px"> [Kalkulationstabelle SetzeAlias](Spreadsheet_SetAlias/de.md)** Werkzeug öffnet ein Dialogfeld zum Einrichten eines Alias für eine Zelle. Anstelle des exakten Zellnamens wie A2, B3 oder C4 kann auch ein benutzerdefinierter Name verwendet werden.
@@ -24,4 +26,7 @@ Das **<img src=images/Spreadsheet_SetAlias.svg style="width:16px"> [Kalkulations
 
 {{Spreadsheet_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet SetAlias/de

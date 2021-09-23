@@ -8,6 +8,8 @@
    SeeAlso:[Zoom Out](Std_ViewZoomOut.md), [Zoom box](Std_ViewBoxZoom.md)
 ---
 
+# Std ViewZoomIn/ro
+
 
 </div>
 
@@ -66,4 +68,7 @@ FreeCADGui.ActiveDocument.ActiveView.zoomIn()
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ViewZoomIn/ro

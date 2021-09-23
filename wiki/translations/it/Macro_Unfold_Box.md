@@ -1,7 +1,4 @@
 # Macro Unfold Box/it
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -612,3 +609,5 @@ DialogBox.show()
 </nowiki>
 }}
 
+---
+[documentation index](../README.md) > Macro Unfold Box/it

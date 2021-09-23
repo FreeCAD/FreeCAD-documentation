@@ -8,6 +8,8 @@
    SeeAlso:[Parça Oluştur](Std_Part/tr.md)
 ---
 
+# PartDesign Body/tr
+
 
 </div>
 
@@ -389,4 +391,7 @@ App.ActiveDocument.recompute()
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Body/tr

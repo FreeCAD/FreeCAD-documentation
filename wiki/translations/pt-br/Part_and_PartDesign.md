@@ -1,5 +1,5 @@
 # Part and PartDesign/pt-br
- {{TOCright}}
+{{TOCright}}
 
 ## Visão geral 
 
@@ -172,4 +172,7 @@ Part and PartDesign workbenches can be used together with some care, creating qu
 
 {{Tutorials navi
 
-}}  {{PartDesign Tools navi}} {{Sketcher Tools navi}} 
+}}  {{PartDesign Tools navi}} {{Sketcher Tools navi}}
+
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part and PartDesign/pt-br

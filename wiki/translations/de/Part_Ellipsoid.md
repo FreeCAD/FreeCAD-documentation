@@ -6,6 +6,8 @@
    SeeAlso:[Part Grundkörper Erstellen](Part_Primitives/de.md)
 ---
 
+# Part Ellipsoid/de
+
 ## Beschreibung
 
 Der <img alt="" src=images/Part_Ellipsoid.svg  style="width:24px;"> [Part Ellipsoid](Part_Ellipsoid/de.md) Befehl erzeugt einen parametrischen Ellipsoid Festkörper.
@@ -41,8 +43,5 @@ Ein parametrischer Ellipsoid Festkörper ist über den Grundkörper erstellen Di
 
 ![](images/Part_Ellipsoid_screenshot.jpg )
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Ellipsoid/de

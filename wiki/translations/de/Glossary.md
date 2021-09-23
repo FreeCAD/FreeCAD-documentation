@@ -1,9 +1,4 @@
 # Glossary/de
-
-
-
-
-
 Diese Seite ist ein Glossar mit allgemeinen FreeCAD Begriffen und Definitionen.
 
 Springe zu Buchstaben: {{CompactTOC|center=yes}}
@@ -610,3 +605,6 @@ Springe zu Buchstaben: {{CompactTOC|center=yes}}
 
 
 [Category:Wiki](Category:Wiki.md) [Category:Glossary](Category:Glossary.md)
+
+---
+[documentation index](../README.md) > [Wiki](Category:Wiki.md) > Glossary/de

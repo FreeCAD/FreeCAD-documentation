@@ -6,6 +6,8 @@
    Workbenches:[Path](Path_Workbench/fr.md)
 ---
 
+# Path Comment/fr
+
 ## Description
 
 Cet outil insère un commentaire. Lors de l\'export d\'un projet en G-Code, le commentaire sera inclus dans le programme G-Code et peut être lu par les personnes qui regardent le code. Certains contrôleurs de machine les affichent aussi sur leurs consoles.
@@ -39,4 +41,7 @@ Exemple :
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Comment/fr

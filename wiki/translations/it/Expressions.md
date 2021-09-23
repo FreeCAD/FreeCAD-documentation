@@ -1,5 +1,5 @@
 # Expressions/it
- {{TOCright}}
+{{TOCright}}
 
 ## Descrizione
 
@@ -738,3 +738,6 @@ Naturalmente, dopo spetta all\'utente il compito di caricare i documenti corrisp
 }} 
 
 [Category:Spreadsheet](Category:Spreadsheet.md)
+
+---
+[documentation index](../README.md) > [Spreadsheet](Category:Spreadsheet.md) > Expressions/it

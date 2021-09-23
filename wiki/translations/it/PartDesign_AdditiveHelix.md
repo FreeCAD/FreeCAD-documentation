@@ -7,6 +7,8 @@
    SeeAlso:[PartDesign SubtractiveHelix](PartDesign_SubtractiveHelix.md)
 ---
 
+# PartDesign AdditiveHelix/it
+
 ## Description
 
 The **AdditiveHelix** tool creates a solid by sweeping a selected sketch or 2D object along a helix path.
@@ -124,4 +126,7 @@ If checked, the helix will be shown in the view, and updated automatically on ev
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveHelix/it

@@ -9,6 +9,8 @@
    SeeAlso:[Std Passer outre](Std_MacroStepOver/fr.md), [Std Basculer le point d'arrêt](Std_ToggleBreakpoint/fr.md)
 ---
 
+# Std MacroStepInto/fr
+
 ## Description
 
 Cette commande ne fonctionne pas pour le moment.
@@ -19,4 +21,7 @@ Cette commande ne fonctionne pas pour le moment.
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std MacroStepInto/fr

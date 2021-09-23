@@ -6,6 +6,8 @@
    SeeAlso:[Std AnsichtIvStereoVierfachPuffer](Std_ViewIvStereoQuadBuff/de.md), [Std AnsichtIvStereoÜberlappteZeilen](Std_ViewIvStereoInterleavedRows/de.md), [Std AnsichtIvStereoÜberlappteSpalten](Std_ViewIvStereoInterleavedColumns/de.md), [Std AnsichtIvStereoAus](Std_ViewIvStereoOff/de.md)
 ---
 
+# Std ViewIvStereoRedGreen/de
+
 ## Beschreibung
 
 Der **Std AnsichtIvStereoRotGrün** Befehl ändert die aktive [3D Ansicht](3D_view/de.md) in rot/cyan, [anaglyph](https://en.wikipedia.org/wiki/Anaglyph_3D), Stereoansichtsmodus. Zur Verwendung dieses Stereomodus ist eine Brille mit farbigen Gläsern erforderlich.
@@ -41,4 +43,7 @@ FreeCADGui.ActiveDocument.ActiveView.getStereoType()
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ViewIvStereoRedGreen/de

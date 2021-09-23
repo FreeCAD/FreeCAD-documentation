@@ -8,6 +8,8 @@
    Version:0.19
 ---
 
+# TechDraw Midpoints/it
+
 
 </div>
 
@@ -71,4 +73,7 @@ In questo momento i vertici cosmetici non sono accessibili dalle [macro](macros/
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Midpoints/it

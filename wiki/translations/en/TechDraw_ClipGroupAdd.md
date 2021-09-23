@@ -6,6 +6,8 @@
    SeeAlso:[TechDraw Clip Group](TechDraw_ClipGroup.md), [TechDraw Remove Clip Group](TechDraw_ClipGroupRemove.md)
 ---
 
+# TechDraw ClipGroupAdd/en
+
 ## Description
 
 This tool adds a View to an existing Clip.
@@ -22,4 +24,7 @@ This tool adds a View to an existing Clip.
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ClipGroupAdd/en

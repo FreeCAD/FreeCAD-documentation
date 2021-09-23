@@ -7,6 +7,8 @@
    Shortcut:**T** **G**
 ---
 
+# Std TreeSelection/it
+
 
 </div>
 
@@ -37,4 +39,7 @@ Se [Sincronizza la selezione](Std_TreeSyncSelection/it.md) della vista ad albero
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std TreeSelection/it

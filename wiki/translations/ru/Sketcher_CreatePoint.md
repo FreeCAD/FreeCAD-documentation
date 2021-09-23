@@ -6,6 +6,8 @@
    Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
 ---
 
+# Sketcher CreatePoint/ru
+
 ## Описание
 
 Инструмент Точка создает точку в текущем эскизе, которую можно использовать для построения геометрических элементов. Точка всегда является элементом конструкции и не отображается в 3D-виде.
@@ -32,4 +34,7 @@
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreatePoint/ru

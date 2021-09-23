@@ -7,6 +7,8 @@
    SeeAlso:[Wand](Arch_Wall/de.md), [Arch Rebar](Arch_Rebar/de.md)
 ---
 
+# Arch Structure/de
+
 ## Beschreibung
 
 Das [Arch Struktur](Arch_Structure/de.md)-Werkzeug ermöglicht die Konstruktion von Bauelementen wie Ständern oder Querträgern, indem Breite, Länge und Höhe angegeben werden, oder das Element aus einem 2D-Profil heraus erzeugt wird (Fläche, Kantenzug oder Skizze).
@@ -121,10 +123,7 @@ FreeCAD.ActiveDocument.recompute()
 Structure2 = Arch.makeStructure(None, length=500, width=1000, height=3000)
 Draft.move(Structure2, FreeCAD.Vector(2000, 0, 0))
 FreeCAD.ActiveDocument.recompute()
-``` 
+```
 
-
-
-
-
-
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Structure/de

@@ -1,10 +1,4 @@
-# Draft Workbench/es
-
-
-
-
-
-<img alt="El icono del Ambiente de trabajo Borrador" src=images/Workbench_Draft.svg  style="width:128px;">
+# <img alt="El icono del Ambiente de trabajo Borrador" src=images/Workbench_Draft.svg  style="width:64px;"> Draft Workbench/es
 
 
 {{TOCright}}
@@ -441,3 +435,6 @@ Inspeccionar el código de este módulo es útil para entender cómo utilizar la
  
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Draft Workbench/es

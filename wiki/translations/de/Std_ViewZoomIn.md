@@ -7,6 +7,8 @@
    SeeAlso:[Szd Verkleinern](Std_ViewZoomOut/de.md), [Zoomen mit Rechteck](Std_ViewBoxZoom/de.md)
 ---
 
+# Std ViewZoomIn/de
+
 ## Beschreibung
 
 Der **Std Vergrößern**-Befehl vergrößert die Objekte in der aktiven [3D-Ansicht](3D_view.md).
@@ -47,4 +49,7 @@ FreeCADGui.ActiveDocument.ActiveView.zoomIn()
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ViewZoomIn/de

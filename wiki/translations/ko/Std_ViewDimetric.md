@@ -6,6 +6,8 @@
    SeeAlso:[Std ViewIsometric](Std_ViewIsometric.md), [Std ViewTrimetric](Std_ViewTrimetric.md)
 ---
 
+# Std ViewDimetric/ko
+
 ## Description
 
 The **Std ViewDimetric** command realigns the camera in the active [3D view](3D_view.md) to obtain a [dimetric](https://en.wikipedia.org/wiki/Axonometric_projection#Three_types) view. For a truly dimetric view the 3D view must be in [orthographic mode](Std_OrthographicCamera.md), but the command also works if the view is in [perspective mode](Std_PerspectiveCamera.md).
@@ -39,4 +41,7 @@ FreeCADGui.ActiveDocument.ActiveView.getViewDirection()
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ViewDimetric/ko

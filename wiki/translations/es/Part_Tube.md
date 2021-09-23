@@ -8,6 +8,8 @@
    Seealso:[Part CreatePrimitives](Part_CreatePrimitives/es.md)
 ---
 
+# Part Tube/es
+
 
 </div>
 
@@ -55,5 +57,5 @@ Para editar el tubo:
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Tube/es

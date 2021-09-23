@@ -6,6 +6,8 @@
    Workbenches:[Wykres](Plot_Module/pl.md)
 ---
 
+# Plot Legend/pl
+
 ## Opis
 
 To narzędzie pozwala użytkownikowi włączyć / wyłączyć legendę serii danych na konkretnym wykresie.
@@ -27,3 +29,6 @@ Pamiętaj, że style i etykiety serii danych mogą być edytowane za pomocą [na
 }} 
 
 [Category:External\_Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)
+
+---
+[documentation index](../README.md) > [External_Workbenches](Category:External_Workbenches.md) > Plot Legend/pl

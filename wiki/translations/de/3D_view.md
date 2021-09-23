@@ -1,6 +1,4 @@
 # 3D view/de
-
-
 ## Einleitung
 
 
@@ -89,4 +87,7 @@ Weitere Informationen findest Du in der Dokumentation erfahrener Nutzer:
 
 {{Interface navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > 3D view/de

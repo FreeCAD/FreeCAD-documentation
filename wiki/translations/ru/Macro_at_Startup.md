@@ -1,6 +1,4 @@
 # Macro at Startup/ru
-
-
 ## Введение
 
 
@@ -113,3 +111,6 @@ Notice that if the original macro was downloaded through the Addon Manager, it w
 }}
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md) [Category:Macros](Category:Macros.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Macro at Startup/ru

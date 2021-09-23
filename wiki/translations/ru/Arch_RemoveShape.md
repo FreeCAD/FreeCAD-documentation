@@ -7,6 +7,8 @@
    SeeAlso:[Сетка в фигуру](Arch_MeshToShape/ru.md)
 ---
 
+# Arch RemoveShape/ru
+
 
 </div>
 
@@ -56,8 +58,5 @@ Arch.removeShape(Structure)
 FreeCAD.ActiveDocument.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch RemoveShape/ru

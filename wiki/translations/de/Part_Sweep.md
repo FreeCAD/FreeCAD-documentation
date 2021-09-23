@@ -7,6 +7,8 @@
    SeeAlso:[Part Ausformung](Part_Loft/de.md)
 ---
 
+# Part Sweep/de
+
 
 </div>
 
@@ -144,5 +146,5 @@ Wenn \"Frenet\" \"wahr\" ist, wird die Ausrichtung des Profils basierend auf lok
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Sweep/de

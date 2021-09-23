@@ -6,6 +6,8 @@
    SeeAlso:[Arch CutLine](Arch_CutLine.md), [Arch Remove](Arch_Remove.md)
 ---
 
+# Arch CutPlane/pt-br
+
 ## Descrição
 
 The Cut Plane tool allows you to cut an Arch object according to a plane:
@@ -101,5 +103,5 @@ FreeCAD.ActiveDocument.recompute()
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CutPlane/pt-br

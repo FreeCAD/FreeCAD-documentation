@@ -7,6 +7,8 @@
    Version:0.18
 ---
 
+# Sketcher ViewSection/zh-cn
+
 ## 描述
 
 **视图截面（View section）**工具会创建一个截面，并暂时隐藏此草图平面前侧的所有内容。
@@ -42,4 +44,7 @@
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ViewSection/zh-cn

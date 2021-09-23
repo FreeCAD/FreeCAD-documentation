@@ -1,5 +1,5 @@
 # Macro Compound Plus/fr
- {{Macro/fr
+{{Macro/fr
 |Name=Macro Compound Plus
 |Description = {{ColoredText|#ff0000|#ffffff|Nouvelle interface graphique modifiée pour le HD dpi (QGridLayout) exécutez uniquement la version FC 0.19 et plus (PySide2 Qt5)}}<br/><br/> Pour la version précédente, voir [https://gist.github.com/mario52a/7be361a8c489deec918f664fdcfc4394/11ae1a55229c84d9aab4e9a36099d90f52909958 Macro_Compound_Plus 00.02] et installez-le manuellement.<br/><br/>
 Commande Draft définie dans une petite macro pour l'exemple de fil 2D: travailler avec les fichiers DXF. La macro détecte: Ligne, Arc, Cercle, Ellipse, BSplineCurve et reproduit le fil DXF dans un objet Draft. Le texte est converti en ShapeString.
@@ -1648,3 +1648,6 @@ Mes macros sur [Github](https://gist.github.com/mario52a)
 -   14/05/2020 ver 00.03: mise à niveau pySide2 et Qt5 et (police matPlotLib) et convertir Cercle, Arc, Ellipse, BezierCurve
 -   24/01/2018 ver 00.02: sup \"import PyQt4\"
 -   21/11/2016 ver 00.01:
+
+---
+[documentation index](../README.md) > Macro Compound Plus/fr

@@ -1,5 +1,5 @@
 # Macro HighlightDifference/ro
- {{Macro
+{{Macro
 |Name=HighlightDifference
 |Descriere = Calculați diferența dintre două forme. Adăugările sunt marcate cu roșu, iar mișcările sunt marcate verde. Ambele părți originale vor fi pe jumătate transparente. Volumul completărilor și eliminărilor este imprimat în consolă.
 |Author=Gaël Ecorchard
@@ -41,3 +41,6 @@ Codul este vizibil pe Github: [Utility/HighlightDifference.FCMacro](https://gith
 [Macro\_HighlightCommon](Macro_HighlightCommon.md)
 
 -   Discuția pe forum [\"collision detection\", overlapping](http://forum.freecadweb.org/viewtopic.php?f=22&t=12426)
+
+---
+[documentation index](../README.md) > Macro HighlightDifference/ro

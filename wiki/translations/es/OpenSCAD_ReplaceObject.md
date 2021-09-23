@@ -1,3 +1,4 @@
+# OpenSCAD ReplaceObject/es
 ---
 - GuiCommand:/es   Name:OpenSCAD ReplaceObject   Name/es:OpenSCAD ReplaceObject   MenuLocation:OpenSCAD → ReplaceObject‏‎   |Workbenches:[[OpenSCAD_Workbench/es   OpenSCAD]]|Shortcut:   SeeAlso:---
 
@@ -25,4 +26,7 @@ You can use this feature for example to substitute a part inside a fusion/cut/co
 
 {{OpenSCAD_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD ReplaceObject/es

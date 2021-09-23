@@ -1,7 +1,4 @@
 # Macros/de
-
-
-
 {{TOCright}}
 
 ## Einführung
@@ -68,3 +65,6 @@ Du kannst Erweiterungen manuell installieren, es ist jedoch viel einfacher, einf
 }} 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md) [Category:Macros](Category:Macros.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Macros/de

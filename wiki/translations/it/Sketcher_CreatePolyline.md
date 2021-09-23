@@ -1,3 +1,4 @@
+# Sketcher CreatePolyline/it
 ---
 - GuiCommand:/it   Name:Sketcher CreatePolyline   Name/it:Polilinea   Workbenches:[MenuLocation:Sketch → Geometrie → Polilinea   SeeAlso:[[Sketcher CreateLine/it|Linea](Sketcher_Workbench/it___Sketcher]].md)---
 
@@ -60,4 +61,7 @@ La Polilinea inizia sempre con un segmento di linea retta: fare clic - spostare 
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreatePolyline/it

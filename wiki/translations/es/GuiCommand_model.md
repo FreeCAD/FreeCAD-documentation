@@ -1,3 +1,4 @@
+# GuiCommand model/es
 ---
 - GuiCommand:/es   Name:Base_ExampleCommandModel   Workbenches:Wb1,Wb2---
 
@@ -257,3 +258,6 @@ Optional.
 }} 
 
 [Category:Wiki:Example](Category:Wiki:Example.md)
+
+---
+[documentation index](../README.md) > [API]] and ](Category:API]] and .md) > GuiCommand model/es

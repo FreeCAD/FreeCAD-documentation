@@ -34,3 +34,6 @@ In order to configure it you should open the macro and change the variables at y
 
 
 [Category:Macros](Category:Macros.md)
+
+---
+[documentation index](../README.md) > [Macros](Category:Macros.md) > Simple grid

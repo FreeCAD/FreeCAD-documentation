@@ -7,6 +7,8 @@
    SeeAlso:[Part Union](Part_Union/ro.md), [Part Common](Part_Common/ro.md) and [Part Cut](Part_Cut/ro.md)
 ---
 
+# Part Boolean/ro
+
 
 </div>
 
@@ -72,8 +74,5 @@ In cases of coplanarity, even if the first boolean operation succeeds, subsequen
 
 *Left: shapes that share a face, a boolean union may produce incorrect results. Right: shapes that intersect each other clearly, the boolean union will be successful in most cases.*
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Boolean/ro

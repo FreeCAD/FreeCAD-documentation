@@ -8,6 +8,8 @@
    SeeAlso:[DiseñoPiezas CompPrimitivaAditiva](PartDesign_CompPrimitiveAdditive/es.md)
 ---
 
+# PartDesign AdditiveSphere/es
+
 ## Descripción
 
 Inserta una Esfera primitiva en el Cuerpo activo como primera característica, o lo fusiona con la(s) característica(s) existente(s).
@@ -60,4 +62,7 @@ Tras su creación, la Esfera puede ser editada de dos maneras:
 
 {{PartDesign Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveSphere/es

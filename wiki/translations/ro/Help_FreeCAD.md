@@ -1,6 +1,4 @@
 # Help FreeCAD/ro
-
-
 ## Introduction
 
 
@@ -184,3 +182,6 @@ Writing code for FreeCAD is not hard, and you don\'t need any permission, you ca
 
 
 [Category:Documentation](Category:Documentation.md) [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Common Questions](Category:Common_Questions.md)
+
+---
+[documentation index](../README.md) > [Command Reference]]  de pagini și documente pentru  comenzile ](Category:Command Reference]]  de pagini și documente pentru  comenzile .md) > Help FreeCAD/ro

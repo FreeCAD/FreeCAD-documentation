@@ -1,5 +1,5 @@
 # Macro CirclePlus/fr
- {{Macro/fr
+{{Macro/fr
 |Name=Macro CirclePlus
 |Icon=Macro_CirclePlus.png
 |Description=Crée un cercle ou un arc en indiquant le rayon, le diamètre, la circonférence, la surface, l'angle de départ, l'angle final, l'arc, le centre de l'angle, la corde, la flèche, le centre (point), l'objet de placement au choix (avec interface graphique).
@@ -92,3 +92,6 @@ ver 0.1 , 2018-07-14 : ajout création segment
 ver 0.0 , 2018-07-10 :
 
 [Category:Macros Needing Review](Category:Macros_Needing_Review.md)
+
+---
+[documentation index](../README.md) > Macro CirclePlus/fr

@@ -7,6 +7,8 @@
    SeeAlso:[TechDraw Page par défaut](TechDraw_PageDefault/fr.md), [TechDraw Modèles](TechDraw_Templates/fr.md)
 ---
 
+# TechDraw PageTemplate/fr
+
 ## Description
 
 L\'outil Page à partir d\'un modèle crée un nouvel objet Page à l\'aide du fichier de modèle sélectionné dans une boîte de dialogue.
@@ -64,4 +66,7 @@ Voir les informations dans [TechDraw Nouvelle page par défaut](TechDraw_New_Def
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw PageTemplate/fr

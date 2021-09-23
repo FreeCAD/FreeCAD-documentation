@@ -8,6 +8,8 @@
    SeeAlso:[FEM Solver job control](FEM_SolverControl/ru.md)
 ---
 
+# FEM SolverRun/ru
+
 ## Описание
 
 ## Применение
@@ -29,4 +31,7 @@
 
 {{FEM Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > FEM SolverRun/ru

@@ -7,6 +7,8 @@
    SeeAlso:[Arch Seleziona le mesh non solidi ](Arch_SelectNonSolidMeshes.md)
 ---
 
+# Mesh EvaluateSolid/it
+
 ## Descrizione
 
 Il comando **Controlla se è un solido** controlla se un oggetto mesh è solido. Un oggetto mesh solido non ha buchi.
@@ -36,4 +38,7 @@ Il comando **Controlla se è un solido** controlla se un oggetto mesh è solido.
 
 {{Mesh Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh EvaluateSolid/it

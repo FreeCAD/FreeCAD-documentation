@@ -8,6 +8,8 @@
    SeeAlso:[Annulla](Std_Undo/it.md)
 ---
 
+# Std Redo/it
+
 ## Descrizione
 
 Il comando **Ripristina** inverte l\'azione del comando [Annulla](Std_Undo/it.md).
@@ -56,4 +58,7 @@ FreeCAD.ActiveDocument.redo()
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std Redo/it

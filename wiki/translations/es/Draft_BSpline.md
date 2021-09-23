@@ -9,6 +9,8 @@
    SeeAlso:[Borrador Hilo](Draft_Wire/es.md), [Borrador CúbicaBezCurva](Draft_CubicBezCurve/es.md), [Borrador BezCurva](Draft_BezCurve/es.md)
 ---
 
+# Draft BSpline/es
+
 
 </div>
 
@@ -153,5 +155,5 @@ doc.recompute()
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft BSpline/es

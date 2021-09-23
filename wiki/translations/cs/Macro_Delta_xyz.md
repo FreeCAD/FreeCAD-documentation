@@ -1,5 +1,5 @@
 # Macro Delta xyz/cs
- {{Macro/cs
+{{Macro/cs
 |Name=Macro_Delta_xyz
 |Icon=Macro_Delta_xyz.png
 |Translate=Macro Delta xyz
@@ -275,3 +275,6 @@ Version 0.2 2020-10-23 : přidáním stiskněte klávesu **SHIFT**, klikněte na
 Přidání možností konfigurovatelných v preferenci FC
 
 Version 0.1 2013-11-29 : [view toolbar : measure distance tool](https://forum.freecadweb.org/viewtopic.php?f=3&t=5036)
+
+---
+[documentation index](../README.md) > Macro Delta xyz/cs

@@ -7,6 +7,8 @@
    SeeAlso:[DibujoTécnico Aplicar la achurado geométrica a la plano](TechDraw_GeometricHatch/es.md), [DibujoTécnico Achurado](TechDraw_Hatching/es.md)
 ---
 
+# TechDraw Hatch/es
+
 ## Descripción
 
 La herramienta Achurado rellena una región cerrada en una Vista con un patrón de achurado, que pueden ser archivos [SVG](SVG/es.md) o [bitmap](bitmap/es.md). Por el contrario el <img alt="" src=images/TechDraw_GeometricHatch.svg  style="width:24px;"> [Achurado geométrico](TechDraw_GeometricHatch/es.md) utiliza un archivo de patrones PAT específico, vea [Achurado](TechDraw_Hatching/es.md) para más detalles.
@@ -71,4 +73,7 @@ rc = page.addView(hatch)
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Hatch/es

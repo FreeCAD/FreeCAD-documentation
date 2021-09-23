@@ -1,3 +1,4 @@
+# Mesh BoundingBox/ro
 ---
 - GuiCommand:   Name:Mesh BoundingBox‏‎   MenuLocation:Meshes → Analyze → Boundings info...   Workbenches:[[Mesh Workbench   Mesh]]|Shortcut:   SeeAlso:---
 
@@ -38,4 +39,7 @@ Vă oferă coordonatele Min / Max ale unei casete de delimitare pentru o singur�
 
 {{Mesh Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh BoundingBox/ro

@@ -7,6 +7,8 @@
    Version:0.17
 ---
 
+# Spreadsheet Export/it
+
 
 </div>
 
@@ -31,4 +33,7 @@ Lo strumento <img alt="" src=images/Spreadsheet_Export.svg  style="width:16px;">
 
 {{Spreadsheet_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet Export/it

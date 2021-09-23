@@ -7,6 +7,8 @@
    SeeAlso:
 ---
 
+# Path Fixture/ro
+
 
 </div>
 
@@ -70,4 +72,7 @@ Fixarea G59 este utilizată pentru a extinde dispozitivele disponibile. Gradul d
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Fixture/ro

@@ -7,6 +7,8 @@
    Workbenches:Tous
 ---
 
+# Std ViewStatusBar/fr
+
 ## Description
 
 La commande **Std Barre d\'état** bascule l\'affichage de la [Barre d\'état](Status_bar/fr.md).
@@ -21,4 +23,7 @@ La commande **Std Barre d\'état** bascule l\'affichage de la [Barre d\'état](S
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ViewStatusBar/fr

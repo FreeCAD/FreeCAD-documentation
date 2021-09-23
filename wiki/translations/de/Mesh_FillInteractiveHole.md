@@ -6,6 +6,8 @@
    SeeAlso:[Netz Löcher auffüllen](Mesh_FillupHoles/de.md), [Netz FacetteHinzufügen ](Mesh_AddFacet/de.md)
 ---
 
+# Mesh FillInteractiveHole/de
+
 ## Beschreibung
 
 Der Befehl **Polygonnetz FülleLochInteraktiv** füllt ausgewählte Löcher in Polygonnetzobjekten.
@@ -33,4 +35,7 @@ Der Befehl **Polygonnetz FülleLochInteraktiv** füllt ausgewählte Löcher in P
 
 {{Mesh Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh FillInteractiveHole/de

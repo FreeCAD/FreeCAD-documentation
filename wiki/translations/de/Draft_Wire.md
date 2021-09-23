@@ -9,6 +9,8 @@
    SeeAlso:[Entwurf Linie](Draft_Line/de.md), [Entwurf BSpline](Draft_BSpline/de.md)
 ---
 
+# Draft Wire/de
+
 
 </div>
 
@@ -215,5 +217,5 @@ doc.recompute()
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Wire/de

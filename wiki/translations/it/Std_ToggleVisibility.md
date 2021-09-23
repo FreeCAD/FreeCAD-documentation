@@ -9,6 +9,8 @@
    SeeAlso:[Mostra la selezione](Std_ShowSelection/it.md), [Nascondi la selezione](Std_HideSelection/it.md), [Commuta tutti gli oggetti](Std_ToggleObjects/it.md), [Mostra tutti gli oggetti](Std_ShowObjects/it.md), [Nascondi tutti gli oggetti](Std_HideObjects/it.md)
 ---
 
+# Std ToggleVisibility/it
+
 
 </div>
 
@@ -131,4 +133,7 @@ else:
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ToggleVisibility/it

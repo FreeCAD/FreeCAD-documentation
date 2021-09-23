@@ -6,6 +6,8 @@
 ‏   Workbenches:[Wykres](Plot_Module/pl.md)
 ---
 
+# Plot Grid/pl
+
 ## Opis
 
 To narzędzie pozwala użytkownikowi włączyć / wyłączyć linie siatki na określonej powierzchni.
@@ -27,3 +29,6 @@ Narzędzie to działa na aktywnym zestawie osi. W przypadku wykresów wieloosiow
 }} 
 
 [Category:External\_Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)
+
+---
+[documentation index](../README.md) > [External_Workbenches](Category:External_Workbenches.md) > Plot Grid/pl

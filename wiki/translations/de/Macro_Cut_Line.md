@@ -1,5 +1,5 @@
 # Macro Cut Line/de
- {{Macro/de
+{{Macro/de
 |Name=Macro Cut Line
 |Name/de=Makro Linie Schneiden
 |Icon=Macro_Cut_Line.png
@@ -124,3 +124,6 @@ cutLine(4, createLine = 1, biColor = 1, createPoint = 0)
 ## Verweise
 
 diese Funktion verwendet die Funktion discretize [the original code](http://forum.freecadweb.org/viewtopic.php?f=3&t=4217&hilit=discretize)
+
+---
+[documentation index](../README.md) > Macro Cut Line/de

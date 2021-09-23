@@ -1,7 +1,4 @@
 # Start Workbench/pt-br
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -41,3 +38,6 @@ From this interface you can see useful information and jump to recently opened f
 
 
 [Category:Start](Category:Start.md) [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Start Workbench/pt-br

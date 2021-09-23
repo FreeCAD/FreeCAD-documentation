@@ -6,3 +6,6 @@ This category lists pages related to the [Raytracing Workbench/bg](Raytracing_Wo
 [Template:Raytracing Tools navi/bg](Template:Raytracing_Tools_navi/bg.md)
 
 [Category:Workbenches/bg](Category:Workbenches/bg.md)
+
+---
+[documentation index](../README.md) > Category:Raytracing/bg

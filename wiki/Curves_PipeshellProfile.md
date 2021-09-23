@@ -6,6 +6,8 @@
    SeeAlso:[Curves Pipeshell](Curves_Pipeshell.md)
 ---
 
+# Curves PipeshellProfile
+
 ## Description
 
 The <img alt="" src=images/Curves_PipeshellProfile.svg  style="width:24px;"> [Curves PipeshellProfile](Curves_PipeshellProfile.md) creates a Profile object for Pipeshell. This tool is part of the [external workbench](External_workbenches.md) called [Curves](Curves_Workbench.md).
@@ -28,4 +30,7 @@ The <img alt="" src=images/Curves_PipeshellProfile.svg  style="width:24px;"> [Cu
 
 
 
- {{Curves Tools navi}} 
+ {{Curves Tools navi}}
+
+---
+[documentation index](../README.md) > Curves PipeshellProfile

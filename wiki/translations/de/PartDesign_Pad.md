@@ -7,6 +7,8 @@
    SeeAlso:[PartDesign Tasche](PartDesign_Pocket/de.md)
 ---
 
+# PartDesign Pad/de
+
 ## Beschreibung
 
 Das **<img src="images/PartDesign_Pad.svg" width=16px> [PartDesign Aufpolsterung](PartDesign_Pad/de.md)** Werkzeug extrudiert eine Skizze zu einem Festkörper senkrecht zur Ebene der Skizzenfläche. Ab {{VersionPlus/de|0.17}} können auch Flächen auf dem Festkörper verwendet werden.
@@ -128,4 +130,7 @@ Du kannst dies manuell in der Datei <img alt="" src=images/Workbench_Part.svg  s
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Pad/de

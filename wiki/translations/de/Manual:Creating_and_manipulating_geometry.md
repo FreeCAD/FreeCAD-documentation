@@ -1,7 +1,4 @@
 # Manual:Creating and manipulating geometry/de
- 
-
-
 {{Manual:TOC/de}}
 
 In den vorangegangenen Kapiteln haben wir die verschiedenen Arbeitsbereiche von FreeCAD kennengelernt, und wie jede von ihnen ihre eigenen Werkzeuge und Geometrietypen implementiert. Das gleiche Konzept gilt für die Arbeit mit Python Code.
@@ -231,3 +228,6 @@ All dies und noch viel mehr wird auf der Seite [Teil Skripten](Topological_data_
 }} 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Manual:Creating and manipulating geometry/de

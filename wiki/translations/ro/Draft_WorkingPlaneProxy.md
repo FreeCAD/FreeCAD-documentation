@@ -1,3 +1,4 @@
+# Draft WorkingPlaneProxy/ro
 ---
 - GuiCommand:   Name:Draft SetWorkingPlaneProxy   Workbenches:[Arch](Draft_Workbench___Draft]],_[[Arch_Workbench.md)|MenuLocation:Draft → Utilities → Create WP Proxy   SeeAlso:[[Draft SelectPlane]]---
 
@@ -139,8 +140,5 @@ Gui.Snapper.setGrid()
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft WorkingPlaneProxy/ro

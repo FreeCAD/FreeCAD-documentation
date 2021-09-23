@@ -1,3 +1,4 @@
+# TechDraw LengthDimension/it
 ---
 - GuiCommand:/it   Name:TechDraw_Dimension_Length   Name/it:Lunghezza   Workbenches:[MenuLocation:TechDraw → Lunghezza   Shortcut:   SeeAlso:[[TechDraw Dimension Horizontal/it|Dimensione orizzontale](TechDraw_Workbench/it___TechDraw]].md), [Dimensione verticale](TechDraw_Dimension_Vertical/it.md)---
 
@@ -266,4 +267,7 @@ rc = page.addView(dim1)
 
 {{TechDraw Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw LengthDimension/it

@@ -1,7 +1,4 @@
 # Arch tutorial/cs
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -663,4 +660,7 @@ Soubor vytvořený tímto výukovým programem najdete [zde](http://yorik.uncrea
 
 {{Tutorials navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch tutorial/cs

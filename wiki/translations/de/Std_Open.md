@@ -6,6 +6,8 @@
    SeeAlso:[Speichern](Std_Save/de.md), [Importieren...](Std_Import/de.md)
 ---
 
+# Std Open/de
+
 
 </div>
 
@@ -56,4 +58,7 @@ For a scripting example see [Std New](Std_New#Scripting.md).
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std Open/de

@@ -1,3 +1,4 @@
+# Std WhatsThis/it
 ---
 - GuiCommand:/it   Name:Std WhatsThis   Name/it:Cos'è questo?   MenuLocation:[|Workbenches:Tutti   Shortcut:Maiusc+F1   SeeAlso:[[Std OnlineHelp/it|Aiuto](Std_Help_Menu/it___Help]]_→_Cos'è_questo?‏‎.md)---
 
@@ -47,4 +48,7 @@ Read this post to understand how the commands must be named in the code to match
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std WhatsThis/it

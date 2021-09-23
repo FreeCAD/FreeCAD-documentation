@@ -1,6 +1,4 @@
 # Feature/fr
-
-
 ## Introduction
 
 Dans FreeCAD, le mot \"[Feature](Feature/fr.md)\" est normalement utilisé pour faire référence à un objet [PartDesign Feature](PartDesign_Feature/fr.md) (classe `PartDesign::Feature`) défini par la classe [PartDesign Workbench](PartDesign_Workbench/fr.md). Il s\'agit d\'une opération ou d\'une étape de modélisation effectuée pour créer ou modifier un solide [Shape](Shape/fr.md) en suivant le paradigme [feature publishing](feature_editing/fr.md).
@@ -32,3 +30,6 @@ Dans un sens plus spécifique, une \"entité\" est une étape de modélisation u
 }}  {{Document objects navi}} 
 
 [Category:Glossary](Category:Glossary.md)
+
+---
+[documentation index](../README.md) > [Glossary](Category:Glossary.md) > Feature/fr

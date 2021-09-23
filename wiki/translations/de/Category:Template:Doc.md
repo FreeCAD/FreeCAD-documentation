@@ -6,3 +6,6 @@ This category lists templates that produce text boxes used for documenting comma
 [Template:GuiCommandAddon/de](Template:GuiCommandAddon/de.md) , [Template:Macro/de](Template:Macro/de.md)
 
 [Category:Template/de](Category:Template/de.md)
+
+---
+[documentation index](../README.md) > Category:Template:Doc/de

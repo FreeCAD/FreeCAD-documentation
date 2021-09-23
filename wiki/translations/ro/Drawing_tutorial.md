@@ -1,5 +1,5 @@
 # Drawing tutorial/ro
- **Development of the [[Drawing Workbench]] stopped in FreeCAD 0.16, and the new [[TechDraw Workbench]] aiming to replace it was introduced in v0.17. Both workbenches are still provided in v0.17, but the Drawing Workbench may be removed in future releases.**
+**Development of the [[Drawing Workbench]] stopped in FreeCAD 0.16, and the new [[TechDraw Workbench]] aiming to replace it was introduced in v0.17. Both workbenches are still provided in v0.17, but the Drawing Workbench may be removed in future releases.**
 
 
 {{TutorialInfo/ro
@@ -136,4 +136,7 @@ FreeCAD supports the export of SVG and PDF files based on your **Drawings**
 
 {{Tutorials navi
 
-}} {{Drawing Tools navi}} 
+}} {{Drawing Tools navi}}
+
+---
+[documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing tutorial/ro

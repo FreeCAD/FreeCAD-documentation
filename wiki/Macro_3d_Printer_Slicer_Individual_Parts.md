@@ -1,5 +1,5 @@
 # Macro 3d Printer Slicer Individual Parts
-  {{Macro
+{{Macro
 |Name=Macro 3d Printer Slicer Individual Parts
 |Icon=Macro_3d_Printer_Slicer_Individual_Parts.svg
 |Description=Export to slicing software for 3D printers based on a similar macro by cae2100. Exports a single stl file for each visible part in the same directory as original design file, then opens it in slicing software.<br/>This code, when run, will export the currently open design to several STL files, named after the labels of the parts, and open it in the slicing software that you use. The macro is searching for '''[http://wiki.ultimaker.com/Cura Cura]''' in the path but you can add any other slicing by changing the string in the macro.  
@@ -85,4 +85,7 @@ subprocess.Popen(stlFiles)
 
 Thanks to cae2100 for developing the original macro code - [also available here](Macro_3d_Printer_Slicer.md).
 Thanks to [Wmayer](http://forum.freecadweb.org/viewtopic.php?f=10&t=4686) for his help in writing this script.
-Original forum topic: <http://forum.freecadweb.org/viewtopic.php?f=10&t=4686>  
+Original forum topic: <http://forum.freecadweb.org/viewtopic.php?f=10&t=4686>
+
+---
+[documentation index](../README.md) > Macro 3d Printer Slicer Individual Parts

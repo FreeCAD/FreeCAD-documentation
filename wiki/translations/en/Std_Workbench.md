@@ -6,6 +6,8 @@
    Workbenches:[Workbenches](Workbenches.md)
 ---
 
+# Std Workbench/en
+
 ## Description
 
 The **Std Workbench** command activates a selected [workbench](Workbenches.md) including its graphical user interface (GUI).
@@ -49,4 +51,7 @@ FreeCADGui.activateWorkbench("PartDesignWorkbench")
 
 {{Std Base navi
 
-}}  {{Interface navi}} 
+}}  {{Interface navi}}
+
+---
+[documentation index](../README.md) > Std Workbench/en

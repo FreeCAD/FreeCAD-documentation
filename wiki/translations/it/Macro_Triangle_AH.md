@@ -1,5 +1,5 @@
 # Macro Triangle AH/it
- {{Macro/it
+{{Macro/it
 |Name=Macro Triangle AH
 |Translate=Triangolo AH
 |Icon=Macro_Triangle_AH.png
@@ -97,3 +97,6 @@ ver 00.03 2019/07/02 aggiunto \"App.ActiveDocument.recompute()\" e conversione v
 ver 00.02 03/05/2015 : aggiunto \"base=0.0\", \"hypo=0.0\" dati del triangolo
 
 ver 00.01 20/03/2015 :
+
+---
+[documentation index](../README.md) > Macro Triangle AH/it

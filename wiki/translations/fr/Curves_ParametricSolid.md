@@ -6,6 +6,8 @@
    Workbenches:[Curves](Curves_Workbench/fr.md)
 ---
 
+# Curves ParametricSolid/fr
+
 ## Description
 
 <img alt="" src=images/Curves_ParametricSolid.svg  style="width:24px;"> [Solide paramétrique](Curves_ParametricSolid/fr.md) génère un solide paramétrique à partir de faces sélectionnées. Cet outil fait partie des [ateliers externes](External_workbenches/fr.md) appelé [Curves](Curves_Workbench/fr.md).
@@ -40,3 +42,6 @@
 }} 
 
 [Category:External Command Reference](Category:External_Command_Reference.md)
+
+---
+[documentation index](../README.md) > [External Command Reference](Category:External Command Reference.md) > Curves ParametricSolid/fr

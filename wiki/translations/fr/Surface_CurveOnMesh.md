@@ -7,6 +7,8 @@
    Version:0.17
 ---
 
+# Surface CurveOnMesh/fr
+
 ## Description
 
 
@@ -87,4 +89,7 @@ Outre les propriétés décrites dans [Part Feature](Part_Feature/fr.md), Part S
 
 {{Surface Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Surface](Surface_Workbench.md) > Surface CurveOnMesh/fr

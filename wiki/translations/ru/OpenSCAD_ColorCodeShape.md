@@ -8,6 +8,8 @@
    SeeAlso:---
 ---
 
+# OpenSCAD ColorCodeShape/ru
+
 
 </div>
 
@@ -25,4 +27,7 @@
 
 {{OpenSCAD_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD ColorCodeShape/ru

@@ -6,3 +6,6 @@ See also [UncategorizedTemplates](Special:UncategorizedTemplates.md)
 ### Contents:
 
 [Category:Categories/zh-tw](Category:Categories/zh-tw.md) [Category:Template:Navigation/zh-tw](Category:Template:Navigation/zh-tw.md)
+
+---
+[documentation index](../README.md) > Category:Template/zh-tw

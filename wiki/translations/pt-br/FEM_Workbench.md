@@ -1,10 +1,4 @@
-# FEM Workbench/pt-br
-
-
-
-
-
-<img alt="Ícone da bancada de trabalho FEM" src=images/Workbench_FEM.svg  style="width:128px;">
+# <img alt="Ícone da bancada de trabalho FEM" src=images/Workbench_FEM.svg  style="width:64px;"> FEM Workbench/pt-br
 
 
 {{TOCright}}
@@ -284,3 +278,6 @@ Um guia do desenvolvedor foi escrito para ajudar os usuários a entenderem a com
 }} 
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > FEM Workbench/pt-br

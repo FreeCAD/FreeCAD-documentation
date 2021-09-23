@@ -1,7 +1,4 @@
 # UTF Project/ro
-
-
-
 **
 This roadmap is probably obsolete. For more information see [Development roadmap](Development_roadmap.md).<br>
 If you are not involved with the development discussed here:<br>
@@ -38,3 +35,6 @@ Pentru a îmbunătăți capabilitățile multi limbaj în FreeCAD prin implement
 
 
 [Category:Roadmap](Category:Roadmap.md)
+
+---
+[documentation index](../README.md) > [Roadmap](Category:Roadmap.md) > UTF Project/ro

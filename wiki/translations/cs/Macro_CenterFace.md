@@ -1,5 +1,5 @@
 # Macro CenterFace/cs
- {{Macro/cs
+{{Macro/cs
 |Name=Macro CenterFace
 |Translate=Macro CenterFace
 |Description=This macro red trace (editable) the center face (mass) with 1 point and print the coordinates.
@@ -148,6 +148,5 @@ ver 0.2 07/10/2018 : upgrade for FC 017 \"getGlobalPlacement\"
 
 ver 0.1 29/04/2014
 
-
-
-
+---
+[documentation index](../README.md) > Macro CenterFace/cs

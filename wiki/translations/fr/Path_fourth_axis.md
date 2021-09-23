@@ -1,10 +1,4 @@
 # Path fourth axis/fr
-
-
-
-
-
-
 {{TOCright}}
 
 ## Description
@@ -69,4 +63,7 @@ Il n\'y a actuellement aucune intégration GUI des paramètres de rotation du 4�
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path fourth axis/fr

@@ -7,6 +7,8 @@
    SeeAlso:[Arch Sélection de maillages non-manifold](Arch_SelectNonSolidMeshes/fr.md)
 ---
 
+# Mesh EvaluateSolid/fr
+
 ## Description
 
 La commande **Mesh Vérification du maillage du solide** vérifie si un objet maillé est solide. Un objet maillé solide ne comporte aucun trou.
@@ -27,4 +29,7 @@ La commande **Mesh Vérification du maillage du solide** vérifie si un objet ma
 
 {{Mesh Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh EvaluateSolid/fr

@@ -6,6 +6,8 @@
    Workbenches:[Mesh](Mesh_Workbench/it.md)
 ---
 
+# Mesh BuildRegularSolid/it
+
 ## Descrizione
 
 Il comando **Solido regolare** crea un oggetto mesh solido parametrico regolare.
@@ -162,4 +164,7 @@ Mesh objects created with this command inherit all [Mesh Feature](Mesh_Feature.m
 
 {{Mesh Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh BuildRegularSolid/it

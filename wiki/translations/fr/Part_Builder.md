@@ -7,6 +7,8 @@
    SeeAlso:[Part Primitives](Part_Primitives/fr.md)
 ---
 
+# Part Builder/fr
+
 ## Description
 
 Outil pour créer des formes plus complexes à partir de diverses primitives géométriques paramétriques.
@@ -70,8 +72,5 @@ Un flux de travail possible pourrait être:
 -   Créer une \"coque à partir de faces\"
 -   Créer un \"solide à partir d\'une coque\"
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Builder/fr

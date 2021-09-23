@@ -1,11 +1,4 @@
 # Draft Pattern
- 
-
-
-
-
- 
-
 ## Description
 
 [Draft](Draft_Workbench.md) objects with a **Make Face** property can display a hatch pattern instead of a solid face color.
@@ -42,7 +35,5 @@ See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Dr
 -   The **Edit → Preferences... → Draft → Visual settings → Hatch patterns resolution** preference is not used.
 -   To change the **Pattern Size** used for new objects: **Edit → Preferences... → Draft → Visual settings → Hatch Pattern default size**.
 
-
-
-
-  
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Pattern

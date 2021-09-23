@@ -1,7 +1,4 @@
 # Macro If Selected Stay If Not Then Delete/en
-
-
-
 {{Macro
 |Name=Macro If Selected Stay If Not Then Delete
 |Icon=Macro_If_Selected_Stay_If_Not_Then_Delete.png
@@ -47,6 +44,5 @@ except Exception:
 
 ```
 
-
-
-
+---
+[documentation index](../README.md) > Macro If Selected Stay If Not Then Delete/en

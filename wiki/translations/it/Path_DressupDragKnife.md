@@ -1,3 +1,4 @@
+# Path DressupDragKnife/it
 ---
 - GuiCommand:/it   Name:Path DressupTag   Name/it:Vestizione Trascina lama   Workbenches:[MenuLocation:Path → Vestizione → Trascina lama   SeeAlso:[[Path_DressupTag/it|Tag di vestizione](Path_Workbench/it___Path]].md), [Rampa di ingresso](Path_DressupRampEntry/it.md), [Vestizione Osso di cane](Path_DressupDogbone/it.md) ---
 
@@ -53,4 +54,7 @@ Questo strumento veste un tracciato esistente per aggiungere azioni angolari ed 
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path DressupDragKnife/it

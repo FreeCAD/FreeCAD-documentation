@@ -1,10 +1,4 @@
 # Draft Constrain/tr
-
-
-
-
-
-
 {{TOCright}}
 
 ## Description
@@ -68,3 +62,6 @@ See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Dr
   
 
 [Category:User\_Documentation/tr](Category:User_Documentation/tr.md)
+
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Constrain/tr

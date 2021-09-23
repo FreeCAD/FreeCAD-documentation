@@ -8,6 +8,8 @@
    Version:0.19
 ---
 
+# Rocket Vent Hole Size Calculator/fr
+
 ## Description
 
 Ce calculateur détermine la taille minimale des trous de ventilation pour les altimètres barométriques en fonction du volume de l\'espace et du nombre de trous de ventilation.
@@ -54,3 +56,6 @@ Les calculs sont effectués en unités métriques, mais s\'affichent dans les un
 
 
 [Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+
+---
+[documentation index](../README.md) > [Addons](Category:Addons.md) > Rocket Vent Hole Size Calculator/fr

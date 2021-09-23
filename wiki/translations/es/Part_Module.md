@@ -1,7 +1,4 @@
 # Part Module/es
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -221,3 +218,6 @@ Ver [Guiones Pieza](Part_scripting/es.md).
  
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Module/es

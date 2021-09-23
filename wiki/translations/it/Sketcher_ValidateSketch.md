@@ -7,6 +7,8 @@
    MenuLocation:Sketch/Part Design → Convalida lo schizzo...
 ---
 
+# Sketcher ValidateSketch/it
+
 
 </div>
 
@@ -117,4 +119,7 @@ The locking mechanism typically works well and this tool should not be needed. *
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ValidateSketch/it

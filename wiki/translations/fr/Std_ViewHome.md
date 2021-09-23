@@ -9,6 +9,8 @@
    SeeAlso:[Std Tout afficher](Std_ViewFitAll/fr.md)
 ---
 
+# Std ViewHome/fr
+
 ## Description
 
 La commande **Std Accueil** change la caméra dans la [vue 3D](3D_view/fr.md) selon l\'orientation par défaut de la caméra. Elle combine les fonctionnalités des commandes [Std Vue de dessus](Std_ViewTop/fr.md) et [Std Tout afficher](Std_ViewFitAll/fr.md).
@@ -30,4 +32,7 @@ La commande **Std Accueil** change la caméra dans la [vue 3D](3D_view/fr.md) se
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ViewHome/fr

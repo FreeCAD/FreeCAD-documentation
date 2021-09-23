@@ -7,6 +7,8 @@
    SeeAlso:[Part Boolsche Operation](Part_Boolean/de.md), [Part Verschmelzung](Part_Fuse/de.md), [Part Schnittmenge](Part_Common/de.md)
 ---
 
+# Part Cut/de
+
 ## Beschreibung
 
 Schneidet (subtrahiert) ausgewählte Teileobjekte, wobei das letzte vom ersten subtrahiert wird. Diese Operation ist voll parametrisch und die Komponenten können modifiziert und das Ergebnis neu berechnet werden.
@@ -26,8 +28,5 @@ Schneidet (subtrahiert) ausgewählte Teileobjekte, wobei das letzte vom ersten s
 
 Eingabeobjekte müssen [OpenCascade ](OpenCascade/de.md) Formen sein. Beispiele: Sachen, die mit den Arbeitsbereichen Part, PartDesign, Skizzierer erstellt wurden. Keine Polygonnetze (es sei denn, diese wurden in Formen umgewandelt) - für Polygonnetze gibt es spezielle boolesche Werkzeuge im Arbeitsbereich Netzkonstruktion.
 
-
-
-
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Cut/de

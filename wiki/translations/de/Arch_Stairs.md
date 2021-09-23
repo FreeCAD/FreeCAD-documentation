@@ -9,6 +9,8 @@
    SeeAlso:[Arch Struktur](Arch_Structure/de.md), [Arch Ausstattung](Arch_Equipment/de.md)
 ---
 
+# Arch Stairs/de
+
 ## Beschreibung
 
 Das [Treppen](Arch_Stairs/de.md) Werkzeug ermöglicht dir automatisch verschiedene Treppentypen zu erstellen. Aktuell werden nur gerade Treppen (mit und ohne mittiges Treppenpodest) unterstützt. Treppen können von Grund auf neu gebaut werden, oder aus einer geraden [Linie](Draft_Line/de.md), in diesem Fall folgt die Treppe der Linie. Wenn die Linie nicht horizontal ist, sondern eine vertikale Neigung hat, folgt die Treppe ebenfalls ihrer Neigung.
@@ -95,8 +97,5 @@ import Arch
 Stairs = Arch.makeStairs(length=5000, width=1200, height=3000, steps=14)
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Stairs/de

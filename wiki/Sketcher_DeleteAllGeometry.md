@@ -7,6 +7,8 @@
    SeeAlso:[Sketcher Delete All Constraints](Sketcher_DeleteAllConstraints.md)
 ---
 
+# Sketcher DeleteAllGeometry
+
 ## Description
 
 This tool deletes all geometry from the sketch being edited.
@@ -19,4 +21,7 @@ This tool deletes all geometry from the sketch being edited.
 
 
 
- {{Sketcher Tools navi}} 
+ {{Sketcher Tools navi}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher DeleteAllGeometry

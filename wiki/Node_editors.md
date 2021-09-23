@@ -1,5 +1,4 @@
 # Node editors
-
 {{TOCright}}
 
 
@@ -32,3 +31,6 @@ Modelica: <https://forum.freecadweb.org/viewtopic.php?t=32556>
 ### DynFreeCAD
 
 Nodes for managing FreeCAD from Dynamo ([forum thread](https://forum.freecadweb.org/viewtopic.php?t=49910))
+
+---
+[documentation index](../README.md) > Node editors

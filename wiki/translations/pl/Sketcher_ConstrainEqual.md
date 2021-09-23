@@ -8,6 +8,8 @@
    SeeAlso:[Szkicownik: Wiązanie kąta](Sketcher_ConstrainRadius/pl.md)
 ---
 
+# Sketcher ConstrainEqual/pl
+
 ## Opis
 
 Wiązanie Równości wymusza, aby dwa lub więcej odcinki w linii, linii łamanej lub prostokącie miały jednakową długość. W przypadku zastosowania do łuków lub okręgów, promienie są wiązane tak, aby były równe. Wiązanie nie może być stosowane do elementów pierwotnych geometrii, które nie są tego samego typu *(np. odcinki linii i łuki)*.
@@ -63,4 +65,7 @@ Strona [skrypty szkicownika](Sketcher_scripting/pl.md) wyjaśnia wartości, któ
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainEqual/pl

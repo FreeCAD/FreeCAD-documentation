@@ -8,6 +8,8 @@
    SeeAlso:[PartDesign Additive Loft](PartDesign_AdditiveLoft/ro.md)
 ---
 
+# PartDesign AdditivePipe/ro
+
 
 </div>
 
@@ -109,4 +111,7 @@ To use more than one cross-section, start with the first cross-section sketch as
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditivePipe/ro

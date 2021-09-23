@@ -1,6 +1,4 @@
 # Artwork Assembly3/pl
- 
-
 Ikony te znajdują się we wskazanej ścieżce źródłowej gałęzi Realthundera:
 
 ## \.../Mod/asm3
@@ -35,3 +33,6 @@ Ikony te znajdują się we wskazanej ścieżce źródłowej gałęzi Realthunder
 }} 
 
 [Category:Assembly](Category:Assembly.md)
+
+---
+[documentation index](../README.md) > [Assembly](Category:Assembly.md) > Artwork Assembly3/pl

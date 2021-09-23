@@ -1,5 +1,4 @@
-# EM Workbench/fr
- <img alt="" src=images/EMWorkbench.svg  style="width:240px;"> 
+# <img alt="" src=images/EMWorkbench.svg  style="width:240px;">  EM Workbench/fr
 *align=center|Icône atelier externe FreeCAD Electromagnétique*
 
 ## Introduction
@@ -80,3 +79,6 @@ De nouveaux ateliers sont en développement, restez à l\'écoute!
 }}  
 
 [Category:External Workbenches](Category:External_Workbenches.md)
+
+---
+[documentation index](../README.md) > EM Workbench/fr

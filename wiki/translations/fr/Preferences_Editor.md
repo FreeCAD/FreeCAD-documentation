@@ -1,10 +1,4 @@
 # Preferences Editor/fr
-
-
-
-
-
-
 {{TOCright}}
 
 ## Introduction
@@ -700,3 +694,6 @@ Pour un exemple de script, voir [Std Éditeur des paramètres](Std_DlgParameter/
 
 
 [Category:Preferences](Category:Preferences.md)
+
+---
+[documentation index](../README.md) > [Preferences](Category:Preferences.md) > Preferences Editor/fr

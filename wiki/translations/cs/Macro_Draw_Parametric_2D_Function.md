@@ -1,5 +1,5 @@
 # Macro Draw Parametric 2D Function/cs
- {{Macro/cs
+{{Macro/cs
 |Name=Macro Draw Parametric 2D Function
 |Icon=Macro_Draw_Parametric_2D_Function.png
 |Translate=Vykresli 2D funkci parametrická|Description=Vykreslí 2-dimenzionální, parametrickou a volitelně polární rovnici.
@@ -82,3 +82,5 @@ draw2Dfunction(xFunction="0.5*n", yFunction="-0.75*n", n=0, nd=-math.pi, step=50
 
 }}
 
+---
+[documentation index](../README.md) > Macro Draw Parametric 2D Function/cs

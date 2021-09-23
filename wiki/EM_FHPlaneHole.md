@@ -8,6 +8,8 @@
    Version:0.17
 ---
 
+# EM FHPlaneHole
+
 ## Description
 
 The FHPlaneHole tool inserts a plane hole object, that represents a FastHenry uniform conductive plane hole. 
@@ -137,4 +139,7 @@ fhhole = EM.makeFHPlaneHole(X=1.0,Y=1.0,Z=0.0,holetype="Rect",length=1.0,width=2
 
 {{EM Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > EM FHPlaneHole

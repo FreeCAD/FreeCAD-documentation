@@ -1,7 +1,4 @@
 # Material data model/it
-
-
-
 **
 This roadmap is probably obsolete. For more information see [Development roadmap](Development_roadmap.md).<br>
 If you are not involved with the development discussed here:<br>
@@ -247,3 +244,6 @@ Codice CSI/MasterFormat (dato che nel settore sono utilizzati diversi sistemi pe
 
 
 [Category:Roadmap](Category:Roadmap.md)
+
+---
+[documentation index](../README.md) > [Material](Material_Workbench.md) > Material data model/it

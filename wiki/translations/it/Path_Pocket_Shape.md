@@ -1,3 +1,4 @@
+# Path Pocket Shape/it
 ---
 - GuiCommand:/it   Name:Path Pocket   Name/it:Tasca   Workbenches:[[Path Workbench/it   Path]]|MenuLocation:Path → Tasca   Shortcut:P,O   SeeAlso:---
 
@@ -247,4 +248,7 @@ Note: It is suggested that you do not edit the Placement property of path operat
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Pocket Shape/it

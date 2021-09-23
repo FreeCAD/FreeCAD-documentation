@@ -1,7 +1,4 @@
 # Feature list/id
- 
-
-
 <div class="mw-translate-fuzzy">
 
 Ini luas, belum sepenuhnya lengkap, daftar implementasi dari fitur - fitur FreeCAD. Jika kamu ingin mengetahui FreeCAD kedepan seperti apa, lihat pada [Development roadmap](Development_roadmap/id.md), untuk sekilas gambaran [Screenshots](Screenshots/id.md) adalah halaman yang bagus untuk dilihat.
@@ -277,3 +274,6 @@ Power users have created various custom [external workbenches](external_workbenc
 
 
 [Category:User Documentation](Category:User_Documentation.md)
+
+---
+[documentation index](../README.md) > [User Documentation](Category:User Documentation.md) > Feature list/id

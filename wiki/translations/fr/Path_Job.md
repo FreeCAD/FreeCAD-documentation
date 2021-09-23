@@ -7,6 +7,8 @@
    Shortcut:**P** **J**
 ---
 
+# Path Job/fr
+
 ## Description
 
 L\'outil Travail (Tâche) crée un nouvel objet Travail dans le document actif. L\'objet Travail contient les informations suivantes:
@@ -78,4 +80,7 @@ Si vous avez une tâche qui implique plus d\'une opération d\'usinage, vous pou
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Job/fr

@@ -1,3 +1,4 @@
+# Part Ellipse/it
 ---
 - GuiCommand:/it   Name:Part_Ellipse   Name/it:Ellisse   MenuLocation:Parte → [Workbenches:[[Part_Workbench/it   Parte](Part_CreatePrimitives/it___Crea_primitive]]_→_Ellisse.md), [OpenSCAD](OpenSCAD_Workbench/it.md)|SeeAlso:[Crea Primitive](Part_CreatePrimitives/it.md)---
 
@@ -25,8 +26,5 @@ Al dialogo Create Primitives si accede tramite l\'icona [Crea primitive](Part_Cr
 -   **Angle 1:** inizio del bordo dell\'ellisse o bordo curvo ellittico, (gradi in senso antiorario), il valore di default è 0
 -   **Angle 2:** fine del bordo dell\'ellisse o bordo curvo ellittico, (gradi in senso antiorario), il valore di default è 360
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Ellipse/it

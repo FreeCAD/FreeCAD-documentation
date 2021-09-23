@@ -8,6 +8,8 @@
    SeeAlso:[Borrador Escalar](Draft_Scale/es.md)
 ---
 
+# Draft Clone/es
+
 
 </div>
 
@@ -113,5 +115,5 @@ doc.recompute()
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Clone/es

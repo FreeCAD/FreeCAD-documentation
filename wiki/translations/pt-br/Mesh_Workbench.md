@@ -1,7 +1,4 @@
 # Mesh Workbench/pt-br
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -123,3 +120,6 @@ As preferências da Bancada de Trabalho Mesh podem ser encontradas nas seguintes
 }} 
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Mesh Workbench/pt-br

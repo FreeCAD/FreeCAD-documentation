@@ -1,9 +1,4 @@
 # FreeCAD used in production/ru
-
-
-
-
-
 ## Обзор
 
 
@@ -85,3 +80,6 @@
 
 
 [Category:Common Questions](Category:Common_Questions.md)
+
+---
+[documentation index](../README.md) > [Common Questions](Category:Common Questions.md) > FreeCAD used in production/ru

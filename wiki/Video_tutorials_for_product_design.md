@@ -1,5 +1,5 @@
 # Video tutorials for product design
-  **Please pay attention to the version of FreeCAD used in the tutorial. If a tutorial uses an older version of the program, the general modelling process may still work but some tools may have changed in newer releases. Do not add videos made with version 0.16 or older, as these releases are considered obsolete.**
+**Please pay attention to the version of FreeCAD used in the tutorial. If a tutorial uses an older version of the program, the general modelling process may still work but some tools may have changed in newer releases. Do not add videos made with version 0.16 or older, as these releases are considered obsolete.**
 
 ## Introduction
 
@@ -74,4 +74,7 @@ Although this list focuses on German content, many of these channels also have v
 -   [Christian Tutoriales CAD playlists](https://www.youtube.com/user/TheMeeone/playlists): various videos on using 3D modellers, including, FreeCAD, in Spanish.
     -   [FREECAD 0.17 - 0.18](https://www.youtube.com/watch?v=cBA7EJyrLkQ&list=PLfv54N1Sqk4zFGrn6mVU5kTSpfyfN2GyW): a series of 15 videos showing how to model various objects: mechanical connectors, turbines, pliers, tubings, tire rims, screws, a screw cap, a screw bit, a helical gear, a bicycle tire, and others.
 
- {{Tutorials navi}} 
+ {{Tutorials navi}}
+
+---
+[documentation index](../README.md) > Video tutorials for product design

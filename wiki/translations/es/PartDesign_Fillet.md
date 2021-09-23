@@ -7,6 +7,8 @@
    SeeAlso:[Chaflán](PartDesign_Chamfer.md),[Piezas Redondeo](Part_Fillet/es.md)
 ---
 
+# PartDesign Fillet/es
+
 
 </div>
 
@@ -130,4 +132,7 @@ Part.show(Box)
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Fillet/es

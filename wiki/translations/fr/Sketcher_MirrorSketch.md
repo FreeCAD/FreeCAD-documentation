@@ -7,6 +7,8 @@
    Version:0.16
 ---
 
+# Sketcher MirrorSketch/fr
+
 ## Description
 
 Met en miroir une esquisse le long de l\'axe x, de l\'axe y ou de l\'origine. Cette commande est lancée lorsque vous n\'éditez pas d\'esquisse. Elle crée une nouvelle esquisse qui contient la géométrie réfléchie.
@@ -27,4 +29,7 @@ Remarques:
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher MirrorSketch/fr

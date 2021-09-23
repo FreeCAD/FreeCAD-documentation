@@ -11,3 +11,6 @@ This is the **top category** which contains the main categories of the FreeCAD w
 , ,
 
 [Category:Categories/fi](Category:Categories/fi.md) [Category:Categories/fi](Category:Categories/fi.md) [Category:Documentation/fi](Category:Documentation/fi.md) [Category:Template/fi](Category:Template/fi.md)
+
+---
+[documentation index](../README.md) > Category:Categories/fi

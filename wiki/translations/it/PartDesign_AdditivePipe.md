@@ -8,6 +8,8 @@
    SeeAlso:[Loft additivo](PartDesign_AdditiveLoft/it.md)
 ---
 
+# PartDesign AdditivePipe/it
+
 
 </div>
 
@@ -138,4 +140,7 @@ Per utilizzare più di una sezione trasversale, iniziare con il primo schizzo de
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditivePipe/it

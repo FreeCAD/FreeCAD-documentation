@@ -7,6 +7,8 @@
    SeeAlso:[TechDraw Vue](TechDraw_View/fr.md), [TechDraw Groupe de projection](TechDraw_ProjectionGroup/fr.md)
 ---
 
+# TechDraw LinkDimension/fr
+
 ## Description
 
 L\'outil Lier une dimension crée un lien entre la géométrie 3D et une ou plusieurs dimensions projetées existantes sur une page. Ce lien permet à la dimension d\'utiliser des valeurs 3D réelles au lieu de valeurs projetées 2D.
@@ -63,4 +65,7 @@ to be defined
 
 {{TechDraw Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw LinkDimension/fr

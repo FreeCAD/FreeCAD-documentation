@@ -9,6 +9,8 @@
    SeeAlso:[PartDesign Engrenage droit à développante](PartDesign_InvoluteGear/fr.md)
 ---
 
+# FCGear WormGear/fr
+
 ## Description
 
 La vis sans fin peut être considérée comme un cas particulier d\'engrenage hélicoïdal. Imaginez qu\'il n\'y ait qu\'une seule dent sur un engrenage droit. Augmentez maintenant l\'angle d\'hélice de telle sorte que la dent s\'enroule plusieurs fois autour de l\'engrenage droit avant d\'émerger du côté opposé. Le résultat serait une vis sans fin à un seul filet.
@@ -108,3 +110,6 @@ La roue à vis sans fin doit être conçue manuellement. À cet effet, **FCGear 
 
 
 [Category:Addons](Category:Addons.md) [Category:FCGear](Category:FCGear.md) [Category:External Command Reference](Category:External_Command_Reference.md)
+
+---
+[documentation index](../README.md) > [Addons](Category:Addons.md) > FCGear WormGear/fr

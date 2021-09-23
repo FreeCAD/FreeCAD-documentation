@@ -1,10 +1,4 @@
-# FEM Workbench/de
-
-
-
-
-
-<img alt="FEM Arbeitsbereichssymbol" src=images/Workbench_FEM.svg  style="width:128px;">
+# <img alt="FEM Arbeitsbereichssymbol" src=images/Workbench_FEM.svg  style="width:64px;"> FEM Workbench/de
 
 
 {{TOCright}}
@@ -279,3 +273,6 @@ Ein Entwicklerhandbuch wurde geschrieben, um Power-Usern zu helfen, die komplexe
 }} 
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > FEM Workbench/de

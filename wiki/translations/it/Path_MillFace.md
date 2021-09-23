@@ -1,3 +1,4 @@
+# Path MillFace/it
 ---
 - GuiCommand:/it   Name:Path-Face   Name/it:Path-Face   Workbenches:[[Path Workbench/it   Path]]|MenuLocation:Path → Facia   Shortcut|SeeAlso:---
 
@@ -217,4 +218,7 @@ Example:
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path MillFace/it

@@ -7,6 +7,8 @@
    SeeAlso:[TechDraw Schraffur](TechDraw_Hatch/de.md), [TechDraw Schraffieren](TechDraw_Hatching/de.md)
 ---
 
+# TechDraw GeometricHatch/de
+
 ## Beschreibung
 
 Das GeometrischeSchraffur Werkzeug füllt einen geschlossenen Bereich in einer Ansicht mit einem Muster, das auf einer AutoDesk PAT Schraffur Spezifikation basiert. *Alternativ* verwendet das [Schraffur](TechDraw_Hatch/de.md) Werkzeug eine [SVG](SVG/de.md) oder [Bitmap](bitmap/de.md) Datei als Schraffurmuster, siehe [Schraffierung](TechDraw_Hatching/de.md) für Einzelheiten.
@@ -98,4 +100,7 @@ Part.show(hatch)
 
 {{TechDraw Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw GeometricHatch/de

@@ -8,6 +8,8 @@
    SeeAlso:[Externe Arbeitsbereiche](External_workbenches/de.md), [Makros](Macros/de.md)
 ---
 
+# Std AddonMgr/de
+
 ## Beschreibung
 
 Der **Std ErweiterungVerw** Befehl öffnet den Erweiterungsverwalter. Mit dem Erweiterungsverwalter kannst du [externe Arbeitsbereiche](external_workbenches/de.md) und [Makros](macros/de.md), die von der FreeCAD Gemeinschaft bereitgestellt werden, installieren und verwalten. Die verfügbaren Arbeitsbereiche und Makros stammen aus zwei Repositorien, [FreeCAD-addons](https://github.com/FreeCAD/FreeCAD-addons/) und [FreeCAD-macros](https://github.com/FreeCAD/FreeCAD-macros/), sowie von der [Makrosrezepte](Macros_recipes/de.md) Seite.
@@ -78,4 +80,7 @@ Wenn du einen Arbeitsbereich in C++ entwickelst, kann er nicht direkt durch Benu
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std AddonMgr/de

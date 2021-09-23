@@ -1,6 +1,4 @@
 # Installing more workbenches/es
-
-
 ## Introducción
 
 Desde la v0.17 es fácil añadir [ambientes de trabajo externos](external_workbenches/es.md) utilizando el [Gestor de complementos](Std_AddonMgr/es.md). Un usuario normal no necesita hacer más que usar esta herramienta.
@@ -48,3 +46,6 @@ Consulta también una descripción detallada en la página [cómo instalar ambie
 }} 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Installing more workbenches/es

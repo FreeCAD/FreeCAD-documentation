@@ -5,6 +5,8 @@
    Workbenches:[Curves](Curves_Workbench.md)
 ---
 
+# Curves SplitCurve/it
+
 ## Descrizione
 
 The <img alt="" src=images/Curves_SplitCurve.svg  style="width:24px;"> [Curves SplitCurve](Curves_SplitCurve.md) splits the selected edge. This tool is part of the [external workbench](External_workbenches.md) called [Curves](Curves_Workbench.md).
@@ -30,4 +32,7 @@ The <img alt="" src=images/Curves_SplitCurve.svg  style="width:24px;"> [Curves S
 
 {{Curves Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > Curves SplitCurve/it

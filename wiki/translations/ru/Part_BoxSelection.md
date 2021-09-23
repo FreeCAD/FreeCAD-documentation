@@ -8,6 +8,8 @@
    SeeAlso:[Выделить область](Std_BoxSelection/ru.md), [Область выбора элементов](Std_BoxElementSelection/ru.md), [Выбрать всё](Std_SelectAll/ru.md)
 ---
 
+# Part BoxSelection/ru
+
 ## Описание
 
 The **<img src="images/Part_BoxSelection.svg" width=16px> [Part BoxSelection](Part_BoxSelection.md)** tool allows you to select the faces of the objects on the screen that are touched by the rectangular selection.
@@ -27,8 +29,5 @@ The **<img src="images/Part_BoxSelection.svg" width=16px> [Part BoxSelection](Pa
 
 ## Программирование
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part BoxSelection/ru

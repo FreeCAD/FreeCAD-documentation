@@ -1,3 +1,4 @@
+# Mesh Merge/de
 ---
 - GuiCommand:/de
    Name:Mesh Merge   Name/de:Netze zusammenführen
@@ -44,4 +45,7 @@ See: [Mesh Feature](Mesh_Feature.md).
 
 {{Mesh Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Merge/de

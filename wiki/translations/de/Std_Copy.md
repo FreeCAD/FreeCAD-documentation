@@ -1,3 +1,4 @@
+# Std Copy/de
 ---
 - GuiCommand:/de
    Name:Std Copy
@@ -33,4 +34,7 @@ Der **Std Kopieren**-Befehl kopiert Objekte in die Zwischenablage.
 
 {{Std Base navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > Std Copy/de

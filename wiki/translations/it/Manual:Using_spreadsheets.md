@@ -1,7 +1,4 @@
 # Manual:Using spreadsheets/it
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -122,3 +119,6 @@ Si può anche dare un alias a vincoli dimensionali (orizzontale, verticale o dis
 </div>
 
 [Category:Tutorials/it](Category:Tutorials/it.md)
+
+---
+[documentation index](../README.md) > Manual:Using spreadsheets/it

@@ -8,6 +8,8 @@
    SeeAlso:[Pannello](Arch_Panel/it.md), [Foglio pannello](Arch_Panel_Sheet/it.md), [Nido](Arch_Nest/it.md), [Ambiente Path](Path_Workbench/it.md)
 ---
 
+# Arch Panel Cut/it
+
 
 </div>
 
@@ -147,5 +149,5 @@ FreeCAD.ActiveDocument.recompute()
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Panel Cut/it

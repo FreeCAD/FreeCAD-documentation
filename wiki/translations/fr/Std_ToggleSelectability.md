@@ -6,6 +6,8 @@
    Workbenches:Tous
 ---
 
+# Std ToggleSelectability/fr
+
 ## Description
 
 La commande **Std Basculer la sélectivité** bascule la sélectionnabilité des objets dans la [Vues 3D](3D_view/fr.md).
@@ -49,4 +51,7 @@ else:
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ToggleSelectability/fr

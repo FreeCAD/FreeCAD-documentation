@@ -1,6 +1,4 @@
 # Artwork Web/ru
- 
-
 Эти иконки находятся в указанной исходной папке.
 
 Для всех иконок в исходнике смотри [Художественное оформление](Artwork/ru.md).
@@ -21,3 +19,6 @@
 }} 
 
 [Category:Web](Category:Web.md)
+
+---
+[documentation index](../README.md) > [Web](Category:Web.md) > Artwork Web/ru

@@ -1,7 +1,4 @@
 # FreeCAD Scripting Basics/it
-
-
-
 {{TOCright}}
 
 ## Script Python in FreeCAD 
@@ -441,3 +438,6 @@ Per un elenco completo di tutti i moduli e gli strumenti disponibili, consultare
 }} 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > FreeCAD Scripting Basics/it

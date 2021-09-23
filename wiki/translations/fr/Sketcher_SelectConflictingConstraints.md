@@ -8,6 +8,8 @@
    Version:0.15
 ---
 
+# Sketcher SelectConflictingConstraints/fr
+
 ## Description
 
 Sélectionne les contraintes conflictuelles d\'une esquisse.
@@ -24,4 +26,7 @@ Sélectionne les contraintes conflictuelles d\'une esquisse.
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectConflictingConstraints/fr

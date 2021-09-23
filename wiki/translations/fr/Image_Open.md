@@ -7,6 +7,8 @@
    SeeAlso:[Image Créer une image plane](Image_CreateImagePlane/fr.md), [Image Redimensionner une image](Image_Scaling/fr.md)
 ---
 
+# Image Open/fr
+
 ## Description
 
 L\'outil [Ouvrir une image](Image_Open/fr.md) ouvre simplement une image de votre système dans un nouvel onglet de la fenêtre.
@@ -24,4 +26,7 @@ L\'image est placée dans une nouvelle fenêtre, pas dans la vue 3D.
 
 {{Image Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Image](Image_Workbench.md) > Image Open/fr

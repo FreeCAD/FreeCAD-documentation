@@ -1,11 +1,4 @@
 # Path scripting
- 
-
-
-
-
- 
-
 ## Introduction
 
 The Path workbench offers tools to import, create, manipulate and export [machine toolpaths](http://en.wikipedia.org/wiki/G-code) in FreeCAD. With it, the user is able to import, visualize and modify existing gcode programs, generate toolpaths from 3D shapes, and export these toolpaths to gcode.
@@ -443,3 +436,6 @@ doc.recompute()
  {{Path_Tools_navi}} {{Powerdocnavi}}
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path scripting

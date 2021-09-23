@@ -8,6 +8,8 @@
    SeeAlso:[Reinforcement](Reinforcement_Workbench/de.md), [Bewehrungsstab Biegeplan](Reinforcement_Bar_Bending_Schedule/de.md), [Bewehrungszeichnungsbemessung](Arch_Rebar_Drawing_Dimensioning/de.md)
 ---
 
+# Arch Rebar BOM/de
+
 ## Beschreibung
 
 Das [Stücklisten](Arch_Rebar_BOM/de.md)-Werkzeug ermöglicht dem Benutzer eine Stückliste von Bewehrungsstäben zu erstellen.
@@ -525,3 +527,6 @@ BillOfMaterial_SVG.makeBillOfMaterialSVG(
 
 
 [Category:External Command Reference](Category:External_Command_Reference.md) [Category:Reinforcement](Category:Reinforcement.md)
+
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Rebar BOM/de

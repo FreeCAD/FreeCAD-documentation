@@ -8,6 +8,8 @@
    SeeAlso:[Pannello](Arch_Panel/it.md), [Sagoma pannello](Arch_Panel_Cut/it.md), [Nido](Arch_Nest/it.md)
 ---
 
+# Arch Panel Sheet/it
+
 
 </div>
 
@@ -156,5 +158,5 @@ Sheet = Arch.makePanelSheet([Cut1, Cut2, Cut3])
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Panel Sheet/it

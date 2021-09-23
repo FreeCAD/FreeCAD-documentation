@@ -8,6 +8,8 @@
    SeeAlso:[Create B-spline](Sketcher_CompCreateBSpline.md)
 ---
 
+# Sketcher BSplineDegree/de
+
 
 </div>
 
@@ -45,4 +47,7 @@ Zeigt oder blendet die Anzeige des Grades einer B-Spline-Kurve ein oder aus (sie
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineDegree/de

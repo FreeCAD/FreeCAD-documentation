@@ -6,6 +6,8 @@
    SeeAlso:[Part Primitives](Part_Primitives.md)
 ---
 
+# Part Cylinder/zh-cn
+
 ## Description
 
 
@@ -57,10 +59,7 @@ The cylinder properties can later be edited, either in the [Property editor](Pro
 
 -    **First Angle**: Angle in first direction. <small>(v0.20)</small> 
 
--    **Second Angle**: Angle in second direction. <small>(v0.20)</small> 
+-    **Second Angle**: Angle in second direction. <small>(v0.20)</small>
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Cylinder/zh-cn

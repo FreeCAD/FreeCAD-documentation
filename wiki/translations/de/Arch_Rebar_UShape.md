@@ -7,6 +7,8 @@
    Version:0.17
 ---
 
+# Arch Rebar UShape/de
+
 ## Beschreibung
 
 Das [U-förmiger Bewehrungsstab](Arch_Rebar_UShape/de.md)-Werkzeug erlaubt es dem Anwender, einen Satz von U-förmigen Bewehrungsstäben in einem [Struktur](Arch_Structur/de.md)-Objekt zu erstellen.
@@ -144,3 +146,6 @@ UShapeRebar.editUShapeRebar(Rebar2, 70, 50, 20, 20,
  
 
 [Category:Reinforcement](Category:Reinforcement.md)
+
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Rebar UShape/de

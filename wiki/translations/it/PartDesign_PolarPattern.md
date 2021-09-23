@@ -7,6 +7,8 @@
    SeeAlso:[Serie lineare](PartDesign_LinearPattern/it.md)
 ---
 
+# PartDesign PolarPattern/it
+
 
 </div>
 
@@ -150,4 +152,7 @@ Specifica l\'angolo da coprire con la schiera e il numero totale di forme della 
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign PolarPattern/it

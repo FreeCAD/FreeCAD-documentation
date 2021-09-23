@@ -8,6 +8,8 @@
    SeeAlso:[Std Zoom avant](Std_ViewZoomIn/fr.md), [Std Zoom arrière](Std_ViewZoomOut/fr.md)
 ---
 
+# Std ViewBoxZoom/fr
+
 ## Description
 
 La commande **Std Zoom fenêtre** effectue un zoom avant sur une zone rectangulaire définie par l\'utilisateur, une boîte, dans la [vue 3D](3D_view/fr.md) active.
@@ -25,4 +27,7 @@ La commande **Std Zoom fenêtre** effectue un zoom avant sur une zone rectangula
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ViewBoxZoom/fr

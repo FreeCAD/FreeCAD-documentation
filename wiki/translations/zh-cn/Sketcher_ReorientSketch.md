@@ -7,6 +7,8 @@
    SeeAlso:[映射草图至面...](Sketcher_MapSketch/zh-cn.md), [创建草图](Sketcher_NewSketch/zh-cn.md)
 ---
 
+# Sketcher ReorientSketch/zh-cn
+
 ## 描述
 
 借助此工具，您可以将一个草图从原来的面上分离开来，再将其（以一个偏移值）附于一个主平面上。
@@ -37,4 +39,7 @@
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ReorientSketch/zh-cn

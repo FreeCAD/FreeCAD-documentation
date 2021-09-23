@@ -8,6 +8,8 @@
    SeeAlso:   SeeAlso:[Linea](Draft_Line/it.md), [Polilinea](Draft_Wire/it.md)
 ---
 
+# Draft Slope/it
+
 
 </div>
 
@@ -59,5 +61,5 @@ There is no Python method to slope objects. To emulate the results of the Draft 
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Slope/it

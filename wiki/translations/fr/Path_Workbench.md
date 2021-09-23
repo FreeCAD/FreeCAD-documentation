@@ -1,10 +1,4 @@
-# Path Workbench/fr
-
-
-
-
-
-<img alt="Icône de l\'atelier Path" src=images/Workbench_Path.svg  style="width:128px;">
+# <img alt="Icône de l\'atelier Path" src=images/Workbench_Path.svg  style="width:64px;"> Path Workbench/fr
 
 
 {{TOCright}}
@@ -225,3 +219,6 @@ Voir la page [Path Ecrire un script](Path_scripting/fr.md).
 }} 
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Path Workbench/fr

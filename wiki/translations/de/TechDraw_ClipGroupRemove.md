@@ -6,6 +6,8 @@
    SeeAlso:[TechDraw einfügen Ausschnitt Gruppe](TechDraw_ClipGroup/de.md), [TechDraw Ansicht hinzufügen zu Ausschnittgruppe](TechDraw_ClipGroupAdd/de.md)
 ---
 
+# TechDraw ClipGroupRemove/de
+
 ## Beschreibung
 
 Dieses Werkzeug entfernt eine Ansicht aus einem vorhandenen Ausschnitt und gibt es in den Seitenbereich zurück.
@@ -28,4 +30,7 @@ Dieses Werkzeug entfernt eine Ansicht aus einem vorhandenen Ausschnitt und gibt 
 
 {{TechDraw Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ClipGroupRemove/de

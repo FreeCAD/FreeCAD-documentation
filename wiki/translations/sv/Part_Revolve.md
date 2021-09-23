@@ -1,3 +1,4 @@
+# Part Revolve/sv
 ---
 - GuiCommand:/sv   Name:Part Revolve   Name/sv:Part Revolve/sv   MenuLocation:Part → Revolve   Workbenches:[[Part_Workbench/sv   Part]], Complete|SeeAlso:---
 
@@ -35,8 +36,5 @@ If you select a user defined axis, the numbers define the direction of the revol
 -   If your version of FreeCAD has a check box for Solid in the Revolve dialog, you can make Solids from closed Wires and Edges.
 -   If Revolve is performed using an axis that intersects the face to rotate, and you want to create a solid, the result might be invalid. This can happen for various reasons, self-intersection, direction, etc.
 
-
-
-
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Revolve/sv

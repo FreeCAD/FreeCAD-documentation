@@ -8,6 +8,8 @@
    SeeAlso:[Draft Wire](Draft_Wire.md)
 ---
 
+# Draft Line/pt-br
+
 ## Descrição
 
 The <img alt="" src=images/Draft_Line.svg  style="width:24px;"> **Draft Line** command creates a straight line.
@@ -107,5 +109,5 @@ doc.recompute()
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Line/pt-br

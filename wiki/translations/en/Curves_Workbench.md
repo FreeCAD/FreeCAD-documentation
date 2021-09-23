@@ -1,5 +1,5 @@
 # Curves Workbench/en
- }
+}
 
 ## Introduction
 
@@ -51,3 +51,6 @@ Download the Curves workbench via the <img alt="" src=images/AddonManager.svg  s
 }} 
 
 [Category:External Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)
+
+---
+[documentation index](../README.md) > Curves Workbench/en

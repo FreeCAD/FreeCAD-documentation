@@ -1,5 +1,5 @@
 # Import from STL or OBJ/pl
- {{TutorialInfo/pl
+{{TutorialInfo/pl
 |Topic= Importowanie plików STL lub OBJ
 |Level= Początkujący
 |Time= 30 minut
@@ -101,3 +101,6 @@ Ponieważ utworzona bryła nie posiada historii i żadnych edytowalnych funkcji 
  
 
 [Category:File\_Formats](Category:File_Formats.md)
+
+---
+[documentation index](../README.md) > [Import](Import_Workbench.md) > Import from STL or OBJ/pl

@@ -1,6 +1,4 @@
 # FEM Mesh
- 
-
 ## Create a FE mesh 
 
 Finite element analysis (FEA) is performed on a mesh composed of multiple triangular and quadrilateral finite elements that subdivide an original body. The more refined the mesh is, the more accurate the numerical results will be, but also the computation time will be larger. A balance between the size of the mesh, and computation time and accuracy of results is an important characteristic of a well defined finite element analysis.
@@ -723,4 +721,7 @@ print(elempyra13.Volumes)
 
 See for example <https://forum.freecadweb.org/viewtopic.php?f=18&t=37304&start=20#p318823>
 
- {{FEM Tools navi}}  
+ {{FEM Tools navi}}
+
+---
+[documentation index](../README.md) > FEM Mesh

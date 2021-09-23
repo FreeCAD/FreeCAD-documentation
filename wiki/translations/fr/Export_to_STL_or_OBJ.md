@@ -1,7 +1,4 @@
 # Export to STL or OBJ/fr
-
-
-
 {{TutorialInfo/fr
 |Topic=Exportation de fichier STL ou OBJ
 |Level=Débutant
@@ -61,3 +58,6 @@ La méthode 2 doit être préférée. Parmi les raisons:
 
 
 [Category:File\_Formats](Category:File_Formats.md)
+
+---
+[documentation index](../README.md) > [File_Formats](Category:File_Formats.md) > Export to STL or OBJ/fr

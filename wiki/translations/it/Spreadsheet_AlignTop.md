@@ -7,6 +7,8 @@
    Version:0.17
 ---
 
+# Spreadsheet AlignTop/it
+
 ## Descrizione
 
 Lo strumento <img alt="" src=images/Spreadsheet_AlignTop.svg  style="width:16px;"> **Allinea in alto** rende il testo all\'interno della cella allineato alla parte superiore della cella.
@@ -23,4 +25,7 @@ Lo strumento <img alt="" src=images/Spreadsheet_AlignTop.svg  style="width:16px;
 
 {{Spreadsheet_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet AlignTop/it

@@ -1,6 +1,4 @@
 # FreeCAD Community Portal/de
-
-
 Dies ist der Ort, an dem du alle Arten von FreeCAD-bezogenen Sachen ablegen kannst! Wenn Du an etwas arbeitest, das mit FreeCAD zu tun hat, füge es bitte hier ein!
 
 ## Orte, an denen FreeCAD im Netz erscheint 
@@ -87,3 +85,6 @@ Dies sind von der FreeCAD Gemeinschaft entwickelte Arbeitsbereiche, Skripte, Mak
 
 
 [Category:Documentation](Category:Documentation.md)
+
+---
+[documentation index](../README.md) > [Documentation](Category:Documentation.md) > FreeCAD Community Portal/de

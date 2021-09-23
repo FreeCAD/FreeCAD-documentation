@@ -9,6 +9,8 @@
    SeeAlso:[Ellisse da 3 punti](Sketcher_CreateEllipseBy3Points/it.md), [Cerchio](Sketcher_CreateCircle/it.md), [Arco di ellisse](Sketcher_CreateArcOfEllipse/it.md)
 ---
 
+# Sketcher CreateEllipseByCenter/it
+
 
 </div>
 
@@ -66,4 +68,7 @@ Questo strumento disegna un ellisse selezionando tre punti: il centro, la fine d
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateEllipseByCenter/it

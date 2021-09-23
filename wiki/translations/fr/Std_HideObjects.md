@@ -7,6 +7,8 @@
    SeeAlso:[Std Basculer visibilité](Std_ToggleVisibility/fr.md), [Std Afficher la sélection](Std_ShowSelection/fr.md), [Std Masquer la sélection](Std_HideSelection/fr.md), [Std Basculer tous les objets](Std_ToggleObjects/fr.md), [Std Afficher les objets](Std_ShowObjects/fr.md)
 ---
 
+# Std HideObjects/fr
+
 ## Description
 
 La commande **Std Masquer tous les objets** masque tous les objets appartenant au document actif dans la [vue 3D](3D_view/fr.md).
@@ -36,4 +38,7 @@ Pour un exemple de script, voir [Std Basculer la visibilité](Std_ToggleVisibili
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std HideObjects/fr

@@ -1,5 +1,5 @@
 # Macro FCInfo Alternate Linux/cs
- {{Macro/cs
+{{Macro/cs
 |Name=Macro FCInfo Alternate Linux
 |Translate=Macro FCInfo Alternate Linux
 |Icon=FCInfo.png
@@ -45,6 +45,5 @@ Soubory uložené s tímto makrem nejsou kompatibilní se soubory ostatních ver
 
 Obě verze mohou pracovat nezávisle na použitém operačním systému.
 
-
-
-
+---
+[documentation index](../README.md) > Macro FCInfo Alternate Linux/cs

@@ -8,6 +8,8 @@
    Raccourci:Aucun
 ---
 
+# Drawing Annotation/fr
+
 
 </div>
 
@@ -42,4 +44,7 @@ Cette commande vous permet de placer un bloc de texte sur une [Feuille A3 paysag
 
 {{Drawing Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Annotation/fr

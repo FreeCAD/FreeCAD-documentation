@@ -8,6 +8,8 @@
    SeeAlso:[Part Verschmelzung](Part_Fuse/de.md), [Part VerbundFilter](Part_CompoundFilter/de.md), [Part SprengeVerbund](Part_ExplodeCompound/de.md)
 ---
 
+# Part Compound/de
+
 
 </div>
 
@@ -40,5 +42,5 @@ Um diese Prüfung einzuschalten, gehe zu {{MenuCommand/de|Werkzeuge → Paramete
 
 </div>
 
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Compound/de

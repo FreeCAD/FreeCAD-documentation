@@ -6,6 +6,8 @@
    SeeAlso:[Std Print](Std_Print.md)
 ---
 
+# Std PrintPreview
+
 ## Description
 
 The **Std PrintPreview** command will show a preview of the result of the [Std Print](Std_Print.md) command. You can also print directly from the preview dialog box.
@@ -24,4 +26,7 @@ The **Std PrintPreview** command will show a preview of the result of the [Std P
 
 
 
- {{Std Base navi}}  
+ {{Std Base navi}}
+
+---
+[documentation index](../README.md) > Std PrintPreview

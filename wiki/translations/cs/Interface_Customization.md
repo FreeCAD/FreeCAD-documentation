@@ -1,10 +1,4 @@
 # Interface Customization/cs
-
-
-
-
-
-
 {{TOCright}}
 
 ## Introduction
@@ -305,4 +299,7 @@ Addons offer yet another way to customize the use interface. Below are some addo
 
 {{Std Base navi
 
-}} {{Interface navi}} 
+}} {{Interface navi}}
+
+---
+[documentation index](../README.md) > Interface Customization/cs

@@ -1,6 +1,4 @@
 # Artwork Assembly
-  
-
 These icons are in the indicated source path.
 
 For all icons in the source tree, see [Artwork](Artwork.md).
@@ -22,3 +20,6 @@ For all icons in the source tree, see [Artwork](Artwork.md).
  
 
 [Category:Assembly](Category:Assembly.md)
+
+---
+[documentation index](../README.md) > [Assembly](Category:Assembly.md) > Artwork Assembly

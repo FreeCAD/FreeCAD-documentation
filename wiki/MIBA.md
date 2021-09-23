@@ -1,6 +1,4 @@
 # MIBA
- 
-
 ## Introduction
 
 Miba is a way to embed information about the 3D space into a 2D image. This makes it often possible to use the 2D picture instead of a 3D viewer. By the Miba information you\'re able to calculate the position of a 3D location in the 2D image. That allows you to decorate the image later with arbitrary 3D information. You can take the picture in an early state (design) and use it later (e.g. Production). You do not need to know the kind of 3D data or the positions when you take the picture. So the picture is completely separated from the 3D data.
@@ -41,3 +39,6 @@ App.closeDocument(App.ActiveDocument.Name)
 
 
 [Category:User\_Documentation](Category:User_Documentation.md)
+
+---
+[documentation index](../README.md) > [User_Documentation](Category:User_Documentation.md) > MIBA

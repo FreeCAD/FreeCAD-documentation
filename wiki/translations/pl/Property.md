@@ -1,6 +1,4 @@
 # Property/pl
-
-
 ## Wprowadzenie
 
 [Właściwości](Property.md) to informacje takie jak liczba lub łańcuch tekstowy, który jest dołączony do dokumentu FreeCAD, lub obiektu w dokumencie. Właściwości ogólnodostępne można przeglądać i modyfikować w [Edytorze właściwości](Property_editor.md).
@@ -115,3 +113,6 @@ Są one importowane i inicjowane w `[https://github.com/FreeCAD/FreeCAD/blob/9c2
 }} 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Property/pl

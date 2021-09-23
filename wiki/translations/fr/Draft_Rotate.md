@@ -9,6 +9,8 @@
    SeeAlso:[Draft Surligner les sous éléments](Draft_SubelementHighlight/fr.md)
 ---
 
+# Draft Rotate/fr
+
 ## Description
 
 La commande <img alt="" src=images/Draft_Rotate.svg  style="width:24px;"> **Draft Pivoter** permet de faire pivoter ou de copier les objets sélectionnés autour d\'un point central selon un angle donné. En mode sous-élément, la commande fait tourner les points et les bords sélectionnés ou copie les bords sélectionnés des [Draft Lignes](Draft_Line/fr.md) et [Draft Polylignes](Draft_Wire/fr.md).
@@ -118,8 +120,5 @@ rot_list4 = Draft.rotate(list2, 4*angle2, center=cen, copy=True)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Rotate/fr

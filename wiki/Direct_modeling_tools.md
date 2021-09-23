@@ -1,5 +1,4 @@
 # Direct modeling tools
-
 **An effort to implement direct modelling methodologies is currently being explored at https://github.com/MariwanJ/Design456**
 
 This page is dedicated to the description of the [Google Summer of Code 2017](Google_Summer_of_Code.md) project idea regarding direct modeling.
@@ -51,3 +50,6 @@ Medium
 -   Ticket [\#1367: Extend Draft Edit mode to work with 3D shapes](https://tracker.freecadweb.org/view.php?id=1367)
 
 [Category:Google Summer of Code](Category:Google_Summer_of_Code.md)
+
+---
+[documentation index](../README.md) > [Google Summer of Code](Category:Google Summer of Code.md) > Direct modeling tools

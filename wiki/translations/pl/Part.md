@@ -1,6 +1,4 @@
 # Part/pl
-
-
 ## Wprowadzenie
 
 
@@ -34,3 +32,6 @@ Jednakże, gdy wymagana jest większa precyzja, należy dokonać rozróżnienia.
 }} {{Document objects navi}} 
 
 [Category:Glossary](Category:Glossary.md)
+
+---
+[documentation index](../README.md) > [Glossary](Category:Glossary.md) > Part/pl

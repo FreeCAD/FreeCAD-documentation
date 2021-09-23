@@ -7,6 +7,8 @@
    SeeAlso:
 ---
 
+# Path ToolLibraryEdit/pl
+
 ## Description
 
 The **<img src="images/Path_ToolLibraryEdit.svg" width=16px> [Tool Manager/Editor](Path_ToolLibraryEdit.md)** allows to edit the different tools of the tooltable contained in the machine object of a **<img src="images/Path_Job.svg" width=16px> [Path Job](Path_Job.md)**. This tooltable is used by the different operations contained in the project to obtain necessary information about the current tool.
@@ -49,4 +51,7 @@ The handling is straight forward:
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path ToolLibraryEdit/pl

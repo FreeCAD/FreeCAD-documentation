@@ -1,5 +1,5 @@
 # Macro Solid Sweep/it
- {{Macro/it
+{{Macro/it
 |Name=Solid Sweep
 |Icon=Macro_Solid_Sweep.png
 |Translate=Sweep solido
@@ -101,3 +101,6 @@ In [questa sezione del forum](https://forum.freecadweb.org/viewtopic.php?f=8&t=1
 Lo stesso argomento viene trattato anche in [questa discussione](http://forum.freecadweb.org/viewtopic.php?f=3&t=1461) con ragguagli su [Frenet](http://en.wikipedia.org/wiki/Frenet%E2%80%93Serret_formulas).
 
 Utilizzando una elica come traiettoria, tramite uno sweep solido si può creare la filettatura di un bullone.
+
+---
+[documentation index](../README.md) > Macro Solid Sweep/it

@@ -7,6 +7,8 @@
    Version:0.19
 ---
 
+# Arch Profile/de
+
 ## Beschreibung
 
 Das Profil-Werkzeug erstellt ein parametrisches 2D-Profil-Objekt. Dieses Objekt kann dann als eine Basis in verschiedenen anderen Werkzeugen werden, die Extrusion durchführen, wie [Arch Rahmen](Arch_Frame/de.md), [Arch Vorhangfassade](Arch_CurtainWall/de.md) oder [Part Extrudieren](Part_Extrude/de.md).
@@ -89,8 +91,5 @@ Arch.makeProfile([0,'REC','REC100x100','R',100,100])
 
 wobei das erste Element der Liste eine Bestellnummer (order number) ist, die bisher nicht verwendet wird.
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Profile/de

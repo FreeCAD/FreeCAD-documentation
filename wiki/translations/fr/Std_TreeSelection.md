@@ -8,6 +8,8 @@
    Version:0.19
 ---
 
+# Std TreeSelection/fr
+
 ## Description
 
 La commande **Std Aller à la sélection** fait défiler la [vue en arborescence](tree_view/fr.md) jusqu\'au premier objet créé dans une sélection [vue 3D](3D_view/fr.md).
@@ -29,4 +31,7 @@ Si le mode de la vue en arborescence [Synchroniser la sélection](Std_TreeSyncSe
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std TreeSelection/fr

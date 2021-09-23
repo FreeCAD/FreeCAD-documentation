@@ -1,5 +1,5 @@
 # Macro BOLTS/it
- {{Macro/it
+{{Macro/it
 |Name=BOLTS
 |Translate=BOLTS
 |Icon=Macro_BOLTS.png
@@ -42,3 +42,6 @@ Le istruzioni dettagliate si trovano nella [Documentation section](https://githu
 ## Contribuire
 
 Una libreria di Parti che sia utile per una vasta gamma di persone può essere realizzata solo attraverso uno sforzo della comunità. Ci sono molte possibilità e diversi modi per [contribuire](https://boltsparts.github.io/en/contribute.html) a BOLTS.
+
+---
+[documentation index](../README.md) > Macro BOLTS/it

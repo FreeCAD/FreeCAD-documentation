@@ -1,7 +1,4 @@
 # Import Export Preferences/it
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -645,3 +642,6 @@ For the VTK format you can specify the following:
 
 
 [Category:Common Questions](Category:Common_Questions.md) [Category:Preferences](Category:Preferences.md) [Category:File\_Formats](Category:File_Formats.md)
+
+---
+[documentation index](../README.md) > [Import](Import_Workbench.md) > Import Export Preferences/it

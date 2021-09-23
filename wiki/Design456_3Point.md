@@ -7,6 +7,8 @@
    SeeAlso:
 ---
 
+# Design456 3Point
+
 ## Description
 
 The <img alt="" src=images/Design456_3Point.svg  style="width:24px;"> [Design456 3Point](Design456_3Point.md) lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur at felis ut urna auctor pharetra id at nulla. . This tool is part of the [external workbench](external_workbenches.md) called [Design456](Design456_Workbench.md).
@@ -43,3 +45,6 @@ Unknown yet.
 }} 
 
 [Category:External Command Reference](Category:External_Command_Reference.md)
+
+---
+[documentation index](../README.md) > [External Command Reference](Category:External Command Reference.md) > Design456 3Point

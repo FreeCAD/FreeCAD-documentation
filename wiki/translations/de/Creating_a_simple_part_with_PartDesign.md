@@ -1,7 +1,4 @@
 # Creating a simple part with PartDesign/de
-
-
-
 {{TutorialInfo/de
 |Topic=Modellierung
 |Level=Anfänger
@@ -266,4 +263,7 @@ Du kannst auch mit diesem anderen Tutorial eines etwas komplizierteren Teils for
 
 {{Tutorials navi
 
-}} {{PartDesign Tools navi}} {{Sketcher Tools navi}} 
+}} {{PartDesign Tools navi}} {{Sketcher Tools navi}}
+
+---
+[documentation index](../README.md) > Creating a simple part with PartDesign/de

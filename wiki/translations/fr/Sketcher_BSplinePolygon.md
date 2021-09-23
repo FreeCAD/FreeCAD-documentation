@@ -8,6 +8,8 @@
    SeeAlso:[Sketcher Créer une B-spline](Sketcher_CompCreateBSpline/fr.md)
 ---
 
+# Sketcher BSplinePolygon/fr
+
 ## Description
 
 Montre ou masque l\'affichage du polygone de définition d\'une courbe B-spline (voir [cette page](B-Splines/fr.md) pour plus d\'informations sur les B-splines).
@@ -24,4 +26,7 @@ Montre ou masque l\'affichage du polygone de définition d\'une courbe B-spline 
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplinePolygon/fr

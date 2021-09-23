@@ -8,6 +8,8 @@
    SeeAlso:[Part CreatePrimitives](Part_CreatePrimitives/ro.md)
 ---
 
+# Part Sphere/ro
+
 
 </div>
 
@@ -66,8 +68,5 @@ Deoarece este destul de dificil să se explice semnificația unghiului 1, unghiu
 
 <img alt="" src=images/SphereCutThreeAngles.jpg  style="width:400px;">
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Sphere/ro

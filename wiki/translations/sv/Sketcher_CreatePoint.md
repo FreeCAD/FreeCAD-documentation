@@ -1,3 +1,4 @@
+# Sketcher CreatePoint/sv
 ---
 - GuiCommand:/sv   Name:Sketcher CreatePoint   Name/sv:Sketcher Point   Workbenches:[[Sketcher Workbench/sv   Sketcher]]|MenuLocation:Sketch → Sketcher geometries → Create point---
 
@@ -30,4 +31,7 @@ The created point is not available outside of the sketch. In case a point is nee
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreatePoint/sv

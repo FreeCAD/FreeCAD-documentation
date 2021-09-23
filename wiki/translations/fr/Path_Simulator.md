@@ -8,6 +8,8 @@
    SeeAlso:[Path Inspecteur de G-code](Path_Inspect/fr.md)
 ---
 
+# Path Simulator/fr
+
 ## Description
 
 Cet outil permet de simuler la tâche Path en balayant les modèles 3D des outils utilisés dans chaque opération, le long des trajectoires du G-code, en soustrayant le matériau du stock, là où le stock et l\'outil se chevauchent, ce qui permet de visualiser le travail. Cela permet de détecter et d\'isoler les erreurs avant d\'exécuter le travail sur une fraiseuse.
@@ -47,4 +49,7 @@ Cet outil permet de simuler la tâche Path en balayant les modèles 3D des outil
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Simulator/fr

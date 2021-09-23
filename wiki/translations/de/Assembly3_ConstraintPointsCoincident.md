@@ -6,6 +6,8 @@
    Workbenches:[Assembly3](Assembly3_Workbench/de.md)
 ---
 
+# Assembly3 ConstraintPointsCoincident/de
+
 ## Beschreibung
 
 Dieses Werkzeug stellt eine Verbindung zwischen zwei Objekten eines Zusammenbaus her und fixiert den Abstand zwischen ihnen sowie ihre Ausrichtung zueinander. Die Gewählten Elemente beider Objekte oder präziser ihre lokalen Koordinatensysteme (LKS) werden genutzt, um ein Objekt zum anderen zu positionieren.
@@ -22,8 +24,5 @@ Im Bezug auf das erste Element, kann sich das weitere Objekte noch um den Urspru
 2.  Je ein Punktelement pro Objekt auswählen.
 3.  Schaltfläche**<img src="images/Assembly_ConstraintPointCoincident.svg" width=16px> [Punkt auf Punkt](Assembly3_ConstraintPointsCoincident/de.md)** drücken.
 
-
-
-
-
-
+---
+[documentation index](../README.md) > Assembly3 ConstraintPointsCoincident/de

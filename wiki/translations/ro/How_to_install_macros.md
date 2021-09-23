@@ -1,7 +1,4 @@
 # How to install macros/ro
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -1094,3 +1091,6 @@ and click the **OK** button
 }} 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > How to install macros/ro

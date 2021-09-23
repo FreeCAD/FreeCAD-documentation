@@ -1,7 +1,4 @@
 # Sketcher requirement for a sketch
- 
-
-
 {{TutorialInfo
 |Topic=Sketch
 |Level=Beginner
@@ -41,4 +38,7 @@ If one waits until the end of the drawing to determine, one finds remaining \"fr
 
 If you accidentally create an \"overmodulation\", a warning appears in the combo-view asking you to undo the corresponding actions (constraints).
 
- {{Sketcher Tools navi}}  
+ {{Sketcher Tools navi}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher requirement for a sketch

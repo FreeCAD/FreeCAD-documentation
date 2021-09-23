@@ -5,6 +5,8 @@
    Workbenches:[Plot](Plot_Module.md)
 ---
 
+# Plot Labels
+
 ## Description
 
 This tool allows the user to edit the title and axes labels, as well as their font sizes.
@@ -32,3 +34,6 @@ Select the plot tab that you want to edit, and run this tool. In case of multi-a
  {{Plot_Tools_navi}} 
 
 [Category:External\_Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)
+
+---
+[documentation index](../README.md) > [External_Workbenches](Category:External_Workbenches.md) > Plot Labels

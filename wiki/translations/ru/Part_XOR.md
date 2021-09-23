@@ -8,6 +8,8 @@
    SeeAlso:[Part Boolean Fragments](Part_BooleanFragments/ru.md), [Part Slice](Part_Slice/ru.md), [Join features](Part_CompJoinFeatures/ru.md), [Part Boolean](Part_Boolean/ru.md)
 ---
 
+# Part XOR/ru
+
 
 </div>
 
@@ -30,5 +32,5 @@
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part XOR/ru

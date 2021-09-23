@@ -7,6 +7,8 @@
    SeeAlso:[Std LinkMake](Std_LinkMake.md), [Std LinkMakeRelative](Std_LinkMakeRelative.md), [Std LinkImportAll](Std_LinkImportAll.md)
 ---
 
+# Std LinkImport/en
+
 ## Description
 
 
@@ -37,4 +39,7 @@ A copy of the original **<img src=images/Std_Part.svg style="width:16px"> [Std P
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std LinkImport/en

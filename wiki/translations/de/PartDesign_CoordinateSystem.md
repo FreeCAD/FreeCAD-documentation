@@ -8,6 +8,8 @@
    SeeAlso:[Datum point](PartDesign_Point.md), [PartDesign Datum line](PartDesign_Line.md), [Datum plane](PartDesign_Plane.md)
 ---
 
+# PartDesign CoordinateSystem/de
+
 ## Beschreibung
 
 Erzeugt ein **lokales Koordinatensystem**, welches als Referenz für andere Bezugsgeometrie verwendet werden kann. Es hilft auch, die Orientierung der referenzierten Bezugsgeometrie im 3D Raum zu ermitteln. ![](images/PartDesign_LocalCoordinateSystem_Example.png ) {{Caption | Lokales Koordinatensystem, das aus dem Ursprung einer Bezugsebene entspring.}}
@@ -59,4 +61,7 @@ lcs = App.activeDocument().addObject( 'PartDesign::CoordinateSystem', 'LCS' )
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign CoordinateSystem/de

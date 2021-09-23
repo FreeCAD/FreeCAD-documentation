@@ -1,3 +1,4 @@
+# Part BooleanFragments/it
 ---
 - GuiCommand:/it   Name:Part BooleanFragments   Name/it:Frammenti booleani   MenuLocation:Part → Dividi → Frammenti booleani   Workbenches:[SeeAlso:[[Part_Slice/it   Affetta in composto](Part_Workbench/it___Part]].md), [Part XOR](Part_XOR/it.md), [Congiungi](Part_CompJoinFeatures/it.md), [Operazione booleana](Part_Boolean/it.md)|Version:0.17.8053---
 
@@ -126,5 +127,5 @@ Lo strumento è stato introdotto in FreeCAD v0.17.8053. FreeCAD deve essere comp
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part BooleanFragments/it

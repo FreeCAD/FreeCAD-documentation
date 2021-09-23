@@ -1,5 +1,5 @@
 # Basic TechDraw Tutorial
-  {{TutorialInfo
+{{TutorialInfo
 |Topic=Modeling
 |Level=Beginner
 |Author=[WandererFan](User:WandererFan.md)
@@ -129,4 +129,7 @@ There is much more functionality in TechDraw for you to explore - Section Views,
 
 -   FreeCAD file of this exercise for comparison (made with 0.17) [Download](https://github.com/FreeCAD/Examples/blob/master/Basic_TechDraw_Tutorial_Example_Files/Basic_TechDraw_Tutorial.fcstd)
 
- {{Tutorials navi}} {{TechDraw Tools navi}} 
+ {{Tutorials navi}} {{TechDraw Tools navi}}
+
+---
+[documentation index](../README.md) > Basic TechDraw Tutorial

@@ -6,6 +6,8 @@
 ‏‎   Workbenches:[OpenSCAD](OpenSCAD_Workbench/fr.md)
 ---
 
+# OpenSCAD Hull/fr
+
 ## Description
 
 Applique une coque aux formes sélectionnées.
@@ -31,4 +33,7 @@ La fonctionnalité nécessite qu\'OpenSCAD soit installé et configuré dans **E
 
 {{OpenSCAD_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD Hull/fr

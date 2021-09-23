@@ -1,10 +1,4 @@
 # Licence/es
-
-
-
-
-
-
 {{TOCright}}
 
 
@@ -132,3 +126,6 @@ No obstante, esta decisión se ha tomado sólo para el sistema básico de FreeCA
  
 
 [Category:Developer Documentation](Category:Developer_Documentation.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Licence/es

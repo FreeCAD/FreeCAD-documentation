@@ -8,6 +8,8 @@
    SeeAlso:[PartDesign Additives Rohr](PartDesign_AdditivePipe/de.md), [PartDesign Subtraktive Ausformung](PartDesign_SubtractiveLoft/de.md)
 ---
 
+# PartDesign AdditivePipe/de
+
 
 </div>
 
@@ -132,4 +134,7 @@ Um mehr als einen Querschnitt zu verwenden, beginne mit der ersten Querschnittss
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditivePipe/de

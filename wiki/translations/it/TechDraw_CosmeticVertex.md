@@ -9,6 +9,8 @@
    Version:0.19
 ---
 
+# TechDraw CosmeticVertex/it
+
 
 </div>
 
@@ -82,4 +84,7 @@ dvp.makeCosmeticLine(start,end,style, weight, pyGreen)
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw CosmeticVertex/it

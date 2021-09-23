@@ -1,7 +1,4 @@
 # Plot Basic tutorial/es
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -394,3 +391,6 @@ También puede seleccionar el tamaño de la imagen de salida en pulgadas, por ej
 }} {{Plot_Tools_navi}} 
 
 [Category:External\_Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)
+
+---
+[documentation index](../README.md) > [External_Workbenches](Category:External_Workbenches.md) > Plot Basic tutorial/es

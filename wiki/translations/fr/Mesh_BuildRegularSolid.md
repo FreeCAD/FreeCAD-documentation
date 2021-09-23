@@ -6,6 +6,8 @@
    Workbenches:[Mesh](Mesh_Workbench/fr.md)
 ---
 
+# Mesh BuildRegularSolid/fr
+
 ## Description
 
 La commande **Mesh Solide régulier** crée un solide paramétrique, maillé régulier.
@@ -153,4 +155,7 @@ Les objets maillés créés avec cette commande héritent de toutes les proprié
 
 {{Mesh Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh BuildRegularSolid/fr

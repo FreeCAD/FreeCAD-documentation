@@ -6,6 +6,8 @@
    Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
 ---
 
+# Draft Snap Dimensions/de
+
 
 </div>
 
@@ -58,5 +60,5 @@ See [Draft Snap](Draft_Snap#Preferences.md).
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Dimensions/de

@@ -1,6 +1,4 @@
 # Artwork Inspection/pl
- 
-
 Ikony te znajdują się we wskazanej ścieżce źródłowej.
 
 Wszystkie ikonki widoczne na liście źródłowej, patrz [Grafika](Artwork/pl.md).
@@ -17,3 +15,6 @@ Wszystkie ikonki widoczne na liście źródłowej, patrz [Grafika](Artwork/pl.md
 }} 
 
 [Category:Inspection](Category:Inspection.md)
+
+---
+[documentation index](../README.md) > [Inspection](Category:Inspection.md) > Artwork Inspection/pl

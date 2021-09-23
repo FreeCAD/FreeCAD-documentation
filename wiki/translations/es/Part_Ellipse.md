@@ -1,3 +1,4 @@
+# Part Ellipse/es
 ---
 - GuiCommand:/es   Name:Part Ellipse   Name/es:Part Ellipse   MenuLocation:Part → [Workbenches:[[Part_Workbench/es   Part](Part_CreatePrimitives/es___Create_Primitives]]_→_Ellipse.md), [OpenSCAD](OpenSCAD_Workbench/es.md)|SeeAlso:..---
 
@@ -19,8 +20,5 @@ The Create Primitives dialogue can be accessed via the [Primitives](Part_Primiti
 -   **Angle 1:** start of the edge of the ellipse or elliptical curved edge, (degrees anti-clockwise), the default value is 0
 -   **Angle 2:** end of the edge of the ellipse or elliptical curved edge, (degrees anti-clockwise), the default value is 360
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Ellipse/es

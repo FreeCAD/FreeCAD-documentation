@@ -8,6 +8,8 @@
    SeeAlso:[Std Vue de dessous](Std_ViewBottom/fr.md), [Std Vue de gauche](Std_ViewLeft/fr.md)
 ---
 
+# Std ViewRear/fr
+
 ## Description
 
 La **Std Vue de l\'arrière** place la caméra dans la [vue 3D](3D_view/fr.md) dans la direction de l\'axe des Y négatifs.
@@ -45,4 +47,7 @@ FreeCADGui.ActiveDocument.ActiveView.getViewDirection()
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ViewRear/fr

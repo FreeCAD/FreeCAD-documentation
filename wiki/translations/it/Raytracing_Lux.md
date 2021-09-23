@@ -1,3 +1,4 @@
+# Raytracing Lux/it
 ---
 - GuiCommand:/it   Name:Raytracing Lux   Name/it:Raytracing Lux   MenuLocation:Raytracing → Nuovo progetto Lux‏‎render   |Workbenches:[[Raytracing_Workbench/it   Raytracing]]|Shortcut:   SeeAlso:---
 
@@ -54,4 +55,7 @@ Ulteriori configurazioni di progetto richiedono la definizione di modelli aggiun
 
 {{Raytracing_Tools_navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing Lux/it

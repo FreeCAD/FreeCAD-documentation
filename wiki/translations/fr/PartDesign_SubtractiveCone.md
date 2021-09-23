@@ -8,6 +8,8 @@
    SeeAlso:[PartDesign Primitives soustractives](PartDesign_CompPrimitiveSubtractive/fr.md), [PartDesign Cône additif](PartDesign_AdditiveCone.md)
 ---
 
+# PartDesign SubtractiveCone/fr
+
 ## Description
 
 Insère un Cône primitif soustractif dans le Corps actif. Sa forme est soustraite du solide existant.
@@ -50,4 +52,7 @@ Le Cône peut être édité après sa création de deux façons :
 
 {{PartDesign Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveCone/fr

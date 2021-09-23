@@ -7,6 +7,8 @@
    SeeAlso:[Import Export](Import_Export/fr.md)
 ---
 
+# Points Export/fr
+
 ## Description
 
 La commande **Points Exporter** exporte un nuage de points vers \'un fichier.
@@ -26,4 +28,7 @@ La commande **Points Exporter** exporte un nuage de points vers \'un fichier.
 
 {{Points Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Points](Points_Workbench.md) > Points Export/fr

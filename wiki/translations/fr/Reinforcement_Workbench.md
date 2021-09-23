@@ -1,7 +1,4 @@
-# Reinforcement Workbench/fr
-
-
-<img alt="Icône de l\'atelier Reinforcement" src=images/Reinforcement_Workbench.svg  style="width:128px;">
+# <img alt="Icône de l\'atelier Reinforcement" src=images/Reinforcement_Workbench.svg  style="width:64px;"> Reinforcement Workbench/fr
 
 
 {{TOCright}}
@@ -60,3 +57,6 @@ L\'atelier Reinforcement n\'est pas fourni avec le package FreeCAD par défaut m
 
 
 [Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md) [Category:Reinforcement](Category:Reinforcement.md)
+
+---
+[documentation index](../README.md) > Reinforcement Workbench/fr

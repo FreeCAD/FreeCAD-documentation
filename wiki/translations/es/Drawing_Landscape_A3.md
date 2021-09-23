@@ -1,3 +1,4 @@
+# Drawing Landscape A3/es
 ---
 - GuiCommand:/es   Name:Drawing Landscape A3   Workbenches:[[Drawing Workbench/es   Dibujo]], Complete|MenuLocation:Dibujo → Insertar nuevo dibujo → A3 apaisado   Shortcut:none---
 
@@ -21,4 +22,7 @@ Si la página no se muestra, pulsa en el icono <img alt="" src=images/view-refre
 
 {{Drawing Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Landscape A3/es

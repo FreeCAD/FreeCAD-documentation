@@ -7,6 +7,8 @@
    SeeAlso:[Kopie](Std_Copy/de.md), [Dupliziere Auswahl](Std_DuplicateSelection/de.md), [UmgewandelteKopie](Part_TransformedCopy/de.md), [ElementKopie](Part_ElementCopy/de.md), [FormVerfeinern](Part_RefineShape/de.md)
 ---
 
+# Part SimpleCopy/de
+
 
 </div>
 
@@ -43,5 +45,5 @@ Die Kopie hat einfache Ansichtseigenschaften wie jede andere [Teilfunktion](Part
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part SimpleCopy/de

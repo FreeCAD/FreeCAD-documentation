@@ -7,6 +7,8 @@
    SeeAlso:[Dodaj do grupy konstrukcyjnej](Draft_AddConstruction/pl.md), [Grupowanie automatyczne](Draft_AutoGroup/pl.md)
 ---
 
+# Draft ToggleConstructionMode/pl
+
 ## Opis
 
 Polecenie <img alt="" src=images/Draft_ToggleConstructionMode.svg  style="width:24px;"> **Rysunek Roboczy: Przełącz tryb konstrukcyjny** włącza lub wyłącza tryb konstrukcyjny. Jeśli tryb konstrukcji jest włączony, nowe obiekty [Rysunku Roboczego](Draft_Workbench/pl.md), z wyjątkiem [Punktu](Draft_Point/pl.md), są umieszczane w dedykowanej grupie i otrzymują predefiniowany kolor. Ta funkcja jest przeznaczona dla, często tymczasowej, geometrii konstrukcyjnej używanej do tworzenia nowych [punktów przyciągania](Draft_Snap/pl.md) do tworzenia innych obiektów. Gdy geometria konstrukcyjna nie jest już potrzebna, grupa konstrukcyjna może być łatwo [ukryta](Std_HideSelection/pl.md) lub [usunięta](Std_Delete/pl.md).
@@ -35,8 +37,5 @@ W wersji programu FreeCAD 0.19 to polecenie i polecenie [Dodaj do grupy konstruk
 -   Aby zmienić etykietę ({{Version/pl|0.20}}) grupy konstrukcyjnej, użyj opcji: **Edycja → Preferencje → Rysunek Roboczy → Ustawienia ogólne → Geometria konstrukcyjna → Nazwa grupy konstrukcyjnej**.
 -   Aby zmienić używany kolor, uyj opcji: **Edycja → Preferencje → Rysunek Roboczy → Ustawienia ogólne → Geometria konstrukcyjna → Kolor geometrii konstrukcji**.
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ToggleConstructionMode/pl

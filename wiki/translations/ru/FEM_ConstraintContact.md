@@ -1,3 +1,4 @@
+# FEM ConstraintContact/ru
 ---
 - GuiCommand:/ru   Name:FEM ConstraintContact   Name/ru:FEM ConstraintContact   MenuLocation:FEM → Constraint contact   |Workbenches:[Shortcut:   SeeAlso:[[FEM_tutorial/ru|FEM tutorial](FEM_Workbench/ru___FEM]].md)---
 
@@ -56,4 +57,7 @@ Creates a FEM constraint for contact between 2 surfaces.
 
 {{FEM Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > FEM ConstraintContact/ru

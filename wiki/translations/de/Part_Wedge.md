@@ -6,6 +6,8 @@
    SeeAlso:[Part CreatePrimitives](Part_CreatePrimitives/de.md)
 ---
 
+# Part Wedge/de
+
 
 </div>
 
@@ -70,8 +72,5 @@ Erstellt ein parametrisches Keil-Objekt. Der Keil hat standardmäßig eine groß
 
 ![](images/Wedge_examples.png )
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Wedge/de

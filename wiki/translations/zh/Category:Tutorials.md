@@ -8,3 +8,6 @@ Special pages are [Offsite tutorials](Offsite_tutorials.md) and [Video tutorials
 [Template:TutorialInfo/zh](Template:TutorialInfo/zh.md) , [Tutorials/zh](Tutorials/zh.md)
 
 [Category:Categories/zh](Category:Categories/zh.md)
+
+---
+[documentation index](../README.md) > Category:Tutorials/zh

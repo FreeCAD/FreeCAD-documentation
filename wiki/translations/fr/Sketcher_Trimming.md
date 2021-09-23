@@ -8,6 +8,8 @@
    SeeAlso:[Sketcher Prolonger l'arête](Sketcher_Extend/fr.md)
 ---
 
+# Sketcher Trimming/fr
+
 ## Description
 
 Cet outil ajuste la ligne jusqu\'à la première intersection rencontrée, à l\'intérieur ou à l\'extérieur d\'une forme.
@@ -31,4 +33,7 @@ Cet outil ajuste la ligne jusqu\'à la première intersection rencontrée, à l\
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Trimming/fr

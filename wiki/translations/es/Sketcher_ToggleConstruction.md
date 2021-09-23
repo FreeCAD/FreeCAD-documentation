@@ -7,6 +7,8 @@
    MenuLocation:Sketch → Geometrías de croquis → Alternar geometría de construcción
 ---
 
+# Sketcher ToggleConstruction/es
+
 
 </div>
 
@@ -72,3 +74,6 @@ and once you **<img src=images/Sketcher_LeaveSketch.svg style="width:16px"> [lea
 }}  
 
 [Category:Sketcher/es](Category:Sketcher/es.md)
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ToggleConstruction/es

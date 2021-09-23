@@ -7,6 +7,8 @@
    Shortcut:**A** **C**
 ---
 
+# Std AxisCross/de
+
 ## Beschreibung
 
 Der **Std AxisCross**-Befehl schaltet das Achsenkreuz in der aktiven [3D-Ansicht](3D_view/de.md) ein/aus.
@@ -53,4 +55,7 @@ FreeCADGui.ActiveDocument.ActiveView.hasAxisCross()
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std AxisCross/de

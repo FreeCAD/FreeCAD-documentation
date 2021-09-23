@@ -6,6 +6,8 @@
    Workbenches:Alle
 ---
 
+# Std UnitsCalculator/de
+
 ## Beschreibung
 
 Der **Std Einheitenrechner**-Befehl öffnet die Einheitenrechner-Dialogbox. Der Einheitenrechner kann genutzt werden, um Werte von einem Einheitensystem in ein anderes zu konvertieren.
@@ -58,4 +60,7 @@ Der **Std Einheitenrechner**-Befehl öffnet die Einheitenrechner-Dialogbox. Der 
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std UnitsCalculator/de

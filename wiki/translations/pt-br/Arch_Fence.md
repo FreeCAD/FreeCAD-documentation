@@ -6,6 +6,8 @@
    Version:0.19
 ---
 
+# Arch Fence/pt-br
+
 ## Descrição
 
 The [Arch Fence](Arch_Fence.md) is a object that builds a fence by repeating a single fence post and section along a given path.
@@ -103,5 +105,5 @@ Fence = Arch.buildFence(fence_section, post, sketch)
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Fence/pt-br

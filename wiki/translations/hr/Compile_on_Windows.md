@@ -1,10 +1,4 @@
 # Compile on Windows/hr
-
-
-
-
-
-
 {{TOCright}}
 
 
@@ -477,3 +471,6 @@ See also
 
 
 [Category:Developer Documentation/hr](Category:Developer_Documentation/hr.md) [Category:Developer\_Documentation](Category:Developer_Documentation.md) [Category:Developer](Category:Developer.md)
+
+---
+[documentation index](../README.md) > [Developer_Documentation](Category:Developer_Documentation.md) > Compile on Windows/hr

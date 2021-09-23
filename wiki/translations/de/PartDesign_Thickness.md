@@ -8,6 +8,8 @@
    SeeAlso:[Part Dicke](Part_Thickness/de.md)
 ---
 
+# PartDesign Thickness/de
+
 
 </div>
 
@@ -88,4 +90,7 @@ Resultat: ![](images/Brga-spessore.png )
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Thickness/de

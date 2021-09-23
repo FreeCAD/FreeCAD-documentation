@@ -8,6 +8,8 @@
    SeeAlso:[Tutoriel FEM](FEM_tutorial/fr.md)
 ---
 
+# FEM Analysis/fr
+
 ## Description
 
 Le module FEM ([Méthode d\'éléments finis](https://fr.wikipedia.org/wiki/M%C3%A9thode_des_%C3%A9l%C3%A9ments_finis)) peut être considéré comme un conteneur qui contient tous les composants utiles servants à l\'analyse d\'éléments finis. Il est nécessaire de posséder un conteneur qui détient tous les objets nécessaires pour l\'analyse. Au moins un des objets suivants est nécessaire pour une analyse mécanique:
@@ -83,4 +85,7 @@ App.ActiveDocument.MechanicalAnalysis.Member = member
 
 {{FEM Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > FEM Analysis/fr

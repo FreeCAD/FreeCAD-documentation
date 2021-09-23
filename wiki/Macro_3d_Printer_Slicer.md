@@ -1,5 +1,5 @@
 # Macro 3d Printer Slicer
-  {{Macro
+{{Macro
 |Name=Macro_3d_Printer_Slicer
 |Icon=Macro_3d_Printer_Slicer.png
 |Description=Export to slicing software for 3D printers. Exports stl file in the same directory as original design file, then opens it in slicing software.<br/>This code, when run, will export the currently open design to STL file, and open it in the slicing software that you use. This example is for '''[http://kisslicer.com/ KISSlicer]''', but can be modified to use '''[http://slic3r.org/ Slic3r]''', '''[http://wiki.ultimaker.com/Cura Cura]''', or any other 3d printer software. It can also be modified slightly to open up CAM software for CNC machines. 
@@ -86,4 +86,7 @@ subprocess.Popen([SLICER + "KISSlicer", stlFile])
 ## Credits
 
 Thanks to [Wmayer](http://forum.freecadweb.org/viewtopic.php?f=10&t=4686) for his help in writing this script.
-Original forum topic: <http://forum.freecadweb.org/viewtopic.php?f=10&t=4686>  
+Original forum topic: <http://forum.freecadweb.org/viewtopic.php?f=10&t=4686>
+
+---
+[documentation index](../README.md) > Macro 3d Printer Slicer

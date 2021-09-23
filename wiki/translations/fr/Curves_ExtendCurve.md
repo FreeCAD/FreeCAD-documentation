@@ -6,6 +6,8 @@
    Workbenches:[Curves](Curves_Workbench/fr.md)
 ---
 
+# Curves ExtendCurve/fr
+
 ## Description
 
 <img alt="" src=images/Curves_ExtendCurve.svg  style="width:24px;"> [Extension de courbe](Curves_ExtendCurve/fr.md) étend le bord sélectionné. Cet outil fait partie des [ateliers externes](External_workbenches/fr.md) appelé [Curves](Curves_Workbench/fr.md).
@@ -31,4 +33,7 @@
 
 {{Curves Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > Curves ExtendCurve/fr

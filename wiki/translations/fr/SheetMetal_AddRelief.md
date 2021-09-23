@@ -7,6 +7,8 @@
    Shortcut:**S** **R**
 ---
 
+# SheetMetal AddRelief/fr
+
 ## Description
 
 La commande <img alt="" src=images/SheetMetal_Relief.svg  style="width:24px;"> **SheetMetal AddRelief**\...
@@ -78,3 +80,6 @@ Un objet SheetMetal Grugeage carré est dérivé d\'un objet [Part Feature](Part
 
 
 [Category:SheetMetal](Category:SheetMetal.md) [Category:Addons](Category:Addons.md) [Category:External Command Reference](Category:External_Command_Reference.md)
+
+---
+[documentation index](../README.md) > [SheetMetal](Category:SheetMetal.md) > SheetMetal AddRelief/fr

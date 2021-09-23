@@ -6,6 +6,8 @@
    SeeAlso: [Part Boolean](Part_Boolean.md), [Part Fuse](Part_Fuse.md), [Part Common](Part_Common.md)
 ---
 
+# Part Cut/en
+
 ## Description
 
 Cuts (subtracts) selected Part objects, the last one being subtracted from the first one. This operation is fully parametric and the components can be modified and the result recomputed.
@@ -25,8 +27,5 @@ Cuts (subtracts) selected Part objects, the last one being subtracted from the f
 
 Input objects must be [OpenCascade](OpenCascade.md) shapes. Examples: stuff made with Part, PartDesign, Sketcher workbenches. Not meshes (unless those were converted to shapes) - for meshes, there are specific Boolean tools in MeshDesign workbench.
 
-
-
-
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Cut/en

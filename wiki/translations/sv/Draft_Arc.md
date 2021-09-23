@@ -1,3 +1,4 @@
+# Draft Arc/sv
 ---
 - GuiCommand:/sv   Name:Draft Arc   Name/sv:Draft Arc   Workbenches:[Arch](Draft_Workbench/sv___Draft]],_[[Arch_Workbench/sv.md)|MenuLocation:Draft -> Arc   Shortcut:A R   SeeAlso:[Draft Circle](Draft_Circle/sv.md)---
 
@@ -97,8 +98,5 @@ arc3 = Draft.make_circle(750, startangle=-30, endangle=-150)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Arc/sv

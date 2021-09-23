@@ -7,6 +7,8 @@
    SeeAlso:[Mesh Couper le maillage](Mesh_PolyCut/fr.md), [Mesh Créer une section](Mesh_TrimByPlane/fr.md)
 ---
 
+# Mesh PolyTrim/fr
+
 ## Description
 
 La commande **Mesh Découper** permet de découper les faces et parties de faces à partir d\'objets maillés.
@@ -46,4 +48,7 @@ La commande **Mesh Découper** permet de découper les faces et parties de faces
 
 {{Mesh Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh PolyTrim/fr

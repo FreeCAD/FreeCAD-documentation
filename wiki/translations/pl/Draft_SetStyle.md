@@ -7,6 +7,8 @@
    SeeAlso:[Draft AnnotationStyleEditor](Draft_AnnotationStyleEditor.md), [Draft ApplyStyle](Draft_ApplyStyle.md)
 ---
 
+# Draft SetStyle/pl
+
 ## Description
 
 The <img alt="" src=images/Draft_SetStyle.svg  style="width:24px;"> **Draft SetStyle** command sets the default style for new objects.
@@ -138,8 +140,5 @@ The following preferences are involved:
 -   Show units: **Edit → Preferences... → Draft → Texts and dimensions → Dimension settings → Show the unit suffix in dimensions**.
 -   Unit override: **Edit → Preferences... → Draft → Texts and dimensions → Dimension settings → Override unit**.
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft SetStyle/pl

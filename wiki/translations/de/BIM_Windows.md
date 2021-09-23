@@ -7,6 +7,8 @@
    MenuLocation:Verwalten → Fenster
 ---
 
+# BIM Windows/de
+
 ## Beschreibung
 
 Der BIM Fenstermanager Dialog ermöglicht es dir, alle [Fenster und Türen](Arch_Window/de.md) deines Projekts gemeinsam zu durchsuchen und zu bearbeiten. Dies ist oft bequemer, als sie einzeln zu bearbeiten, und ermöglicht es dir, sicherzustellen, dass sie alle die von dir benötigten Parameter korrekt eingestellt haben, wie z. B. Kennzeichnung, Abmessungen, Beschreibung oder Material.
@@ -21,3 +23,6 @@ Der BIM Fenstermanager Dialog ermöglicht es dir, alle [Fenster und Türen](Arch
 }}
 
 [Category:External Command Reference](Category:External_Command_Reference.md)
+
+---
+[documentation index](../README.md) > [External Command Reference](Category:External Command Reference.md) > BIM Windows/de

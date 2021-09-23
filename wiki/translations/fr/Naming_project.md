@@ -1,7 +1,4 @@
 # Naming project/fr
-
-
-
 **
 Ce plan de développement est probablement obsolète. Pour plus d'informations, voir [Plan de développement](Development_roadmap/fr.md).<br>
 Si vous n'êtes pas impliqué dans le développement discuté ici :<br>
@@ -109,3 +106,6 @@ Voir [ici](https://github.com/ezzieyguywuf/freecadTopoTesting/blob/master/TNamin
 
 
 [Category:Roadmap](Category:Roadmap.md)
+
+---
+[documentation index](../README.md) > [Roadmap](Category:Roadmap.md) > Naming project/fr

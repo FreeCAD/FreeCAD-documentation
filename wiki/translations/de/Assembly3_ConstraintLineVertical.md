@@ -6,6 +6,8 @@
    Workbenches:[Assembly3](Assembly3_Workbench.md)
 ---
 
+# Assembly3 ConstraintLineVertical/de
+
 ## Beschreibung
 
 Dieses Werkzeug stellt eine Verbindung zwischen zwei Objekten eines Zusammenbaus her. Die Gewählten Elemente beider Objekte oder präziser ihre lokalen Koordinatensysteme (LKS) werden genutzt, um ein Objekt zum anderen zu positionieren.
@@ -19,8 +21,5 @@ Bezüglich des LKS des planaren Elements werden Anfangs- und Endpunkt des Linien
 3.  Ein planares Flächenelement des anderen Objekts auswählen.
 4.  Schaltfläche **<img src="images/Assembly_ConstraintLineVertical.svg" width=16px> [Vertikale Linie](Assembly3_ConstraintLineVertical/de.md)** drücken.
 
-
-
-
-
-
+---
+[documentation index](../README.md) > Assembly3 ConstraintLineVertical/de

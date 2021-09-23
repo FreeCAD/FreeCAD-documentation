@@ -7,6 +7,8 @@
    SeeAlso:[Reinforcement](Reinforcement_Workbench.md), [Reinforcement Bar Bending Schedule](Reinforcement_Bar_Bending_Schedule.md), [Arch Rebar Drawing Dimensioning](Arch_Rebar_Drawing_Dimensioning.md)
 ---
 
+# Arch Rebar BOM
+
 ## Description
 
 The [Bill Of Material](Arch_Rebar_BOM.md) tool allows the user to create a bill of material of reinforcing bars.
@@ -555,3 +557,6 @@ BillOfMaterial_SVG.makeBillOfMaterialSVG(
 
 
 [Category:External Command Reference](Category:External_Command_Reference.md) [Category:Reinforcement](Category:Reinforcement.md)
+
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Rebar BOM

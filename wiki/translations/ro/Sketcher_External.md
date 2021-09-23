@@ -8,6 +8,8 @@
    SeeAlso:[ConstructionMode](Sketcher_ToggleConstruction/ro.md)
 ---
 
+# Sketcher External/ro
+
 
 </div>
 
@@ -116,3 +118,6 @@ When the sketch edit mode is closed, External Geometry lines are not visible.
 }}  
 
 [Category:Sketcher/ro](Category:Sketcher/ro.md)
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher External/ro

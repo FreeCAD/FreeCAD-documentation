@@ -1,7 +1,4 @@
 # PDF/it
-
-
-
 {{TOCright}}
 
 ## Descrizione
@@ -60,3 +57,6 @@ L\'opzione per esportare in PDF è disponibile nel menu **File → Esporta PDF**
 
 
 [Category:File\_Formats](Category:File_Formats.md)
+
+---
+[documentation index](../README.md) > [File_Formats](Category:File_Formats.md) > PDF/it

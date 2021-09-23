@@ -8,6 +8,8 @@
    SeeAlso:[DiseñoPiezas SubFormaAglomerante](PartDesign_SubShapeBinder/es.md), [DiseñoPiezas Clon](PartDesign_Clone/es.md)
 ---
 
+# PartDesign ShapeBinder/es
+
 ## Descripción
 
 
@@ -115,4 +117,7 @@ There is a workaround for multiple selection: If you select all the elements you
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign ShapeBinder/es

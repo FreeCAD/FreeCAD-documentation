@@ -1,7 +1,4 @@
 # OpenCASCADE/fr
-
-
-
 {{TOCright}}
 
 ## Description
@@ -88,3 +85,6 @@ Ainsi, à partir de formes, vous pouvez créer des pièces très complexes ou, i
 }} 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > OpenCASCADE/fr

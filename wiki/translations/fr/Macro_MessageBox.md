@@ -1,5 +1,5 @@
 # Macro MessageBox/fr
- {{Macro/fr
+{{Macro/fr
 |Name=MessageBox
 |Icon=Macro MessageBox.png
 |Description=Montre comment donner des informations à l'utilisateur dans les macros
@@ -68,6 +68,5 @@ Exemple :
  "+str(z)+"\nRayon\t     : "+str(r))
 }}
 
-
-
-
+---
+[documentation index](../README.md) > Macro MessageBox/fr

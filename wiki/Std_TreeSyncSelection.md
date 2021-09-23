@@ -7,6 +7,8 @@
    Version:0.19
 ---
 
+# Std TreeSyncSelection
+
 ## Description
 
 The **Std TreeSyncSelection** command toggles the [Tree view](Tree_view.md) SyncSelection mode. If this mode is on, selecting an object in a [3D view](3D_view.md) will automatically expand the Tree view to show that object.
@@ -25,4 +27,7 @@ The Tree view SyncSelection mode can also be set in the [Preferences editor](Pre
 
 
 
- {{Std Base navi}}  
+ {{Std Base navi}}
+
+---
+[documentation index](../README.md) > Std TreeSyncSelection

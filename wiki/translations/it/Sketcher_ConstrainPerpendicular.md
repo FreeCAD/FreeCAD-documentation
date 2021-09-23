@@ -1,3 +1,4 @@
+# Sketcher ConstrainPerpendicular/it
 ---
 - GuiCommand:/it   Name:Sketcher ConstrainPerpendicular   Name/it:Perpendicolare   Workbenches:[PartDesign](Sketcher_Workbench/it___Schizzo]],_[[PartDesign_Workbench/it.md)|MenuLocation:PartDesign → Schizzo → Perpendicolare   Shortcut:**N**   SeeAlso:[Angolo](Sketcher_ConstrainAngle/it.md)---
 
@@ -174,4 +175,7 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainPerpendicular/it

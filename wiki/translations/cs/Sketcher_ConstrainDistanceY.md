@@ -8,6 +8,8 @@
    SeeAlso:[Vazba vodorovné vzdálenosti](Sketcher_ConstrainDistanceX/cs.md), [Vazba délky](Sketcher_ConstrainDistance/cs.md)
 ---
 
+# Sketcher ConstrainDistanceY/cs
+
 
 </div>
 
@@ -73,4 +75,7 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainDistanceY/cs

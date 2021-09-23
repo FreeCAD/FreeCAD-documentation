@@ -1,3 +1,4 @@
+# Path Stop/ro
 ---
 - GuiCommand:   Name:Path Stop   Workbenches:[[Path Workbench   Path]]|MenuLocation:Path → Partial Commands → Stop   Shortcut:   SeeAlso:---
 
@@ -37,4 +38,7 @@ Rețineți că acest lucru nu oprește axul.
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Stop/ro

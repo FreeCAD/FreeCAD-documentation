@@ -8,6 +8,8 @@
    SeeAlso:[Std Importer](Std_Import/fr.md), [Std Nouveau](Std_New/fr.md)
 ---
 
+# Std Open/fr
+
 ## Description
 
 La commande **Std Ouvrir** ouvre un fichier. Si le fichier n\'est pas un fichier FreeCAD natif (\*.FCStd), sa géométrie sera importée dans un nouveau document. Voir [Std Importer](Std_Import/fr.md) pour plus d\'informations.
@@ -49,4 +51,7 @@ Pour un exemple de script, voir [Std Nouveau](Std_New/fr#Script.md).
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std Open/fr

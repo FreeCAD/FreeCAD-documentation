@@ -7,6 +7,8 @@
    SeeAlso:[Multi documento](Std_TreeMultiDocument/it.md), [Comprimi/espandi](Std_TreeCollapseDocument/it.md)
 ---
 
+# Std TreeSingleDocument/it
+
 
 </div>
 
@@ -38,4 +40,7 @@ The Tree view DocumentMode mode is stored: **Tools → Edit parameters... → Ba
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std TreeSingleDocument/it

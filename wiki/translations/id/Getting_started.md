@@ -1,10 +1,4 @@
 # Getting started/id
-
-
-
-
-
-
 {{TOCright}}
 
 ## Pendahuluan
@@ -280,3 +274,6 @@ And finally, one of the most powerful features of FreeCAD is the [scripting](scr
 
 
 [Category:User Documentation/id](Category:User_Documentation/id.md)
+
+---
+[documentation index](../README.md) > Getting started/id

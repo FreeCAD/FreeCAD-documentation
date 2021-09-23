@@ -1,5 +1,5 @@
 # Drawing Dimensioning Addon/fr
- **L'[atelier Drawing](Drawing_Workbench/fr.md) a été remplacé par l'[atelier TechDraw](TechDraw_Workbench/fr.md) dans FreeCAD 0.17. Bien que les deux ateliers soient inclus dans la v0.17, l'atelier Drawing n'est plus mis à jour et pourait être supprimé dans les futures versions de FreeCAD. Les utilisateurs sont invités à opter pour l'[atelier TechDraw](TechDraw_Workbench/fr.md), qui comprend également des outils de cotation et d'annotation.**
+**L'[atelier Drawing](Drawing_Workbench/fr.md) a été remplacé par l'[atelier TechDraw](TechDraw_Workbench/fr.md) dans FreeCAD 0.17. Bien que les deux ateliers soient inclus dans la v0.17, l'atelier Drawing n'est plus mis à jour et pourait être supprimé dans les futures versions de FreeCAD. Les utilisateurs sont invités à opter pour l'[atelier TechDraw](TechDraw_Workbench/fr.md), qui comprend également des outils de cotation et d'annotation.**
 
 ## Introduction
 
@@ -217,3 +217,6 @@ Tipps:
 -   [Macros recipes](Macros_recipes.md)
 
 [Category:User Documentation](Category:User_Documentation.md) [Category:Addons](Category:Addons.md) [Category:Drawing](Category:Drawing.md)
+
+---
+[documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Dimensioning Addon/fr

@@ -1,6 +1,4 @@
 # Contributors hub
- 
-
 ## Introduction
 
 If you want to contribute to FreeCAD and use your energy to push this project forward, there are many ways to help. Below, you can find different roles that you can join.
@@ -23,6 +21,7 @@ Also, you can help other users in the [FreeCAD support page](https://forum.freec
 
 ## FreeCAD Developer 
 
-## Web Developer or Administrator 
+## Web Developer or Administrator
 
-
+---
+[documentation index](../README.md) > Contributors hub

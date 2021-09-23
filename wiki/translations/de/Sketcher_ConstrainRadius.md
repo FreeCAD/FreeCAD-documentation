@@ -7,6 +7,8 @@
    SeeAlso:[Beschränkung Abstand](Sketcher_ConstrainDistance/de.md), [Skizzierer Beschränke Horizontalen Abstand](Sketcher_ConstrainDistanceX/de.md), [Skizzierer Beschränke Vertikalen Abstand](Sketcher_ConstrainDistanceY/de.md)
 ---
 
+# Sketcher ConstrainRadius/de
+
 ## Beschreibung
 
 Diese Beschränkung beschränkt den Wert des Radius eines Kreises oder Bogens um einen bestimmten Wert zu haben. Wenn vor dem Start des Befehls mehr als ein Kreis oder Bogen ausgewählt wurde:
@@ -46,4 +48,7 @@ Die [Skizzierer Skripten](Sketcher_scripting.md)-Seite erklärt die Werte, die f
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainRadius/de

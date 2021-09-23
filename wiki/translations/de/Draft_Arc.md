@@ -10,6 +10,8 @@
    SeeAlso:[Entwurf Kreis](Draft_Circle/de.md), [Entwurf Ellipse](Draft_Ellipse/de.md), [Entwurf Bogen 3Punkte](Draft_Arc_3Points/de.md)
 ---
 
+# Draft Arc/de
+
 
 </div>
 
@@ -106,8 +108,5 @@ arc3 = Draft.make_circle(750, startangle=-30, endangle=-150)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Arc/de

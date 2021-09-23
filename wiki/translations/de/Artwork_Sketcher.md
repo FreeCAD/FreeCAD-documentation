@@ -1,6 +1,4 @@
 # Artwork Sketcher/de
- 
-
 Diese Symbole befinden sich im angegebenen Quellpfad.
 
 Für alle Symbole im Quellbaum, siehe [Grafik](Artwork/de.md).
@@ -53,3 +51,6 @@ In der Vergangenheit wurden die `.xpm`-Symbole als Überlagerungen bei der Anzei
 {{Artwork
 
 }} {{Sketcher Tools navi}}
+
+---
+[documentation index](../README.md) > Artwork Sketcher/de

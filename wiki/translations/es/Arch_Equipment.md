@@ -8,6 +8,8 @@
    SeeAlso:[3 views from mesh](Arch_3Views/es.md)
 ---
 
+# Arch Equipment/es
+
 
 </div>
 
@@ -20,6 +22,8 @@
    Shortcut:E Q
    SeeAlso:[3 views from mesh](Arch_3Views/es.md)
 ---
+
+# Arch Equipment/es
 
 ## Descripción
 
@@ -133,8 +137,5 @@ FreeCAD.ActiveDocument.recompute()
 
 </div>
 
-
-
-
-
-
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Equipment/es

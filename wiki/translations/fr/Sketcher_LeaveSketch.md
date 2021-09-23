@@ -7,6 +7,8 @@
    SeeAlso:[Sketcher Modifier l'esquisse](Sketcher_EditSketch/fr.md)
 ---
 
+# Sketcher LeaveSketch/fr
+
 ## Description
 
 La commande **Quitter l\'esquisse** quitte le mode d\'édition d\'esquisse et libère le [Panneau des tâches](Task_Panel/fr.md).
@@ -23,4 +25,7 @@ La commande **Quitter l\'esquisse** quitte le mode d\'édition d\'esquisse et li
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher LeaveSketch/fr

@@ -1,7 +1,4 @@
 # Topological data scripting/it
-
-
-
 {{TOCright}}
 
 ## Introduzione
@@ -1473,3 +1470,6 @@ Per convertire un file **.stp** in un file **.igs** fare:
 }} 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Topological data scripting/it

@@ -7,6 +7,8 @@
    SeeAlso:[[Arch Panel/ro]], [[Arch Panel Sheet/ro]], [[Arch Nest/ro]], [[Path Workbench/ro]]
 ---
 
+# Arch Panel Cut/ro
+
 
 </div>
 
@@ -143,5 +145,5 @@ FreeCAD.ActiveDocument.recompute()
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Panel Cut/ro

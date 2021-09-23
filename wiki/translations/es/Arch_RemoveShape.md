@@ -7,6 +7,8 @@
    SeeAlso:[Arch MeshToShape](Arch_MeshToShape/es.md)
 ---
 
+# Arch RemoveShape/es
+
 
 </div>
 
@@ -86,5 +88,5 @@ FreeCAD.ActiveDocument.recompute()
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch RemoveShape/es

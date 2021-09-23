@@ -8,6 +8,8 @@
    SeeAlso:[Std Couper](Std_Cut/fr.md), [Std Coller](Std_Paste/fr.md), [Std Dupliquer la sélection](Std_DuplicateSelection/fr.md)
 ---
 
+# Std Copy/fr
+
 ## Description
 
 La commande **Std Copie** copie les objets dans le presse-papiers.
@@ -33,4 +35,7 @@ La commande **Std Copie** copie les objets dans le presse-papiers.
 
 {{Std Base navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > Std Copy/fr

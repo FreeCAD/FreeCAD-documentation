@@ -1,10 +1,4 @@
-# OpenSCAD Workbench/tr
-
-
-
-
-
-<img alt="OpenSCAD workbench icon" src=images/Workbench_OpenSCAD.svg  style="width:128px;">
+# <img alt="OpenSCAD workbench icon" src=images/Workbench_OpenSCAD.svg  style="width:64px;"> OpenSCAD Workbench/tr
 
 ## Introduction
 
@@ -114,3 +108,6 @@ If FreeCAD crashes when importing CSG, it is strongly recommended that you enabl
 }} 
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > OpenSCAD Workbench/tr

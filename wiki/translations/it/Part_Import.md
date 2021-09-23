@@ -1,3 +1,4 @@
+# Part Import/it
 ---
 - GuiCommand:/it   Name:Part Import‏‎   Name/it:Importa CAD   MenuLocation:Part → Importa CAD...   Workbenches:[SeeAlso:[[Part_Export/it|Esporta CAD](Part_Workbench/it___Part]].md), [Importa](Std_Import/it.md), [Importazione e Esportazione](Import_Export/it.md)---
 
@@ -35,5 +36,5 @@ Lo strumento <img alt="" src=images/Part_Import.svg  style="width:16px;"> [Impor
 
 </div>
 
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Import/it

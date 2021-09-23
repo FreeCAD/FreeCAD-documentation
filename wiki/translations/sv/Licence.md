@@ -1,10 +1,4 @@
 # Licence/sv
-
-
-
-
-
-
 {{TOCright}}
 
 
@@ -142,3 +136,6 @@ Detta beslut är ändå bara gjort för FreeCAD\'s kärnsystem. Var och en som s
  
 
 [Category:Developer Documentation](Category:Developer_Documentation.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Licence/sv

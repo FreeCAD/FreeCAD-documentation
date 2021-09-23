@@ -8,6 +8,8 @@
    SeeAlso:[Kalkulationstabelle Exportieren](Spreadsheet_Export/de.md)
 ---
 
+# Spreadsheet Import/de
+
 ## Beschreibung
 
 Das **<img src=images/Spreadsheet_Import.svg style="width:16px"> [Kalkulationstabelle Import](Spreadsheet_Import/de.md)** Werkzeug ermöglcht dir eine Komma-getrennte Werte Datei (frei als CSV bezeichnet) (engl.: Comma Separated Values) in eine Kalkulationstabelle zu importieren, so dass sie geändert und mit [Ausdrücken](expressions/de.md) verwendet werden kann.
@@ -27,4 +29,7 @@ Das **<img src=images/Spreadsheet_Import.svg style="width:16px"> [Kalkulationsta
 
 {{Spreadsheet_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet Import/de

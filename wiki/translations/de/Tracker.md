@@ -1,10 +1,4 @@
 # Tracker/de
-
-
-
-
-
-
 {{TOCright}}
 
 ![](images/Mantis_logo_262x90.png )
@@ -187,3 +181,6 @@ Für die Neugierigen hier ist die regex, die MantisBT für diese Operation verwe
 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Administration](Category:Administration.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Tracker/de

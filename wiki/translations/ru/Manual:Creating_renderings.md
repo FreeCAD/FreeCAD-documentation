@@ -1,7 +1,4 @@
 # Manual:Creating renderings/ru
- 
-
-
 {{Manual:TOC/ru}}
 
 В разговорах компьютерщиков слово [рендеринг](https://ru.wikipedia.org/wiki/Рендеринг) означает красивое изображение, получаемое из трёхмерной модели. Разумеется, мы можем сказать что трёхмерный вид FreeCAD уже красив. Однако всякий, кто видел современные голливудские картины, знает, что с помощью компьютера возможно создавать изображения, которые почти неотличимы от фотографий.
@@ -110,3 +107,6 @@
 {{Raytracing Tools navi}} 
 
 [Category:Tutorials](Category:Tutorials.md)
+
+---
+[documentation index](../README.md) > [Tutorials](Category:Tutorials.md) > Manual:Creating renderings/ru

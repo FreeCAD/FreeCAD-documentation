@@ -1,6 +1,4 @@
 # Tasks Placement/ro
-
-
 ## Descriere
 
 Comanda pentru a modifica **Placement**. Aceste opțiuni afectează numai poziția și orientarea obiectului în spațiu, ele nu afectează celelalte atribute ale formei. Plasarea este stocată intern sub formă de poziție și rotație (axa de rotație și unghiul transformat în quaternion.[1](https://en.wikipedia.org/wiki/Quaternions_and_spatial_rotation)). Deși există mai multe metode de specificare a unei rotații, de exemplu cu un centru de rotație, aceasta este utilizată doar pentru a calcula rotația și nu este stocată pentru operații ulterioare. Similar, dacă se specifică o axă de rotație de (1,1,1), aceasta poate fi normalizată atunci când este stocată în quaternion și apare ca (0.58, 0.58, 0.58) atunci când se navighează peste obiect mai târziu.
@@ -148,3 +146,6 @@ Altă explicație este pe [Placement](Placement.md)
 
 
 [Category:Command\_Reference](Category:Command_Reference.md)
+
+---
+[documentation index](../README.md) > [Command_Reference](Category:Command_Reference.md) > Tasks Placement/ro

@@ -8,6 +8,8 @@
    SeeAlso:[Reinforcement](Reinforcement_Workbench.md), [Arch Armature personnalisée](Arch_Rebar/fr.md), [Arch Armature cintrée](Arch_Rebar_BentShape/fr.md)
 ---
 
+# Arch Rebar LShape/fr
+
 ## Description
 
 L\'outil [LShape Rebar](Arch_Rebar_LShape.md) permet à l\'utilisateur de créer un ensemble de barres d\'armature en forme de L à l\'intérieur d\'un objet [Arch Structure](Arch_Structure/fr.md).
@@ -155,3 +157,6 @@ LShapeRebar.editLShapeRebar(Rebar2, 50, 50, 20, 20,
 
 
 [Category:Reinforcement](Category:Reinforcement.md)
+
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Rebar LShape/fr

@@ -5,6 +5,8 @@
 ‏‎   Workbenches:[OpenSCAD](OpenSCAD_Workbench.md)
 ---
 
+# OpenSCAD Minkowski
+
 ## Description
 
 Applies a Minkowski sum to selected shapes.
@@ -35,4 +37,7 @@ Feature needs OpenSCAD installed and configured in **Edit** → **Preferences**
 
 
 
- {{OpenSCAD_Tools_navi}} 
+ {{OpenSCAD_Tools_navi}}
+
+---
+[documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD Minkowski

@@ -8,6 +8,8 @@
    SeeAlso:[Sketcher Contrainte point sur objet](Sketcher_ConstrainPointOnObject/fr.md)
 ---
 
+# Sketcher ConstrainTangent/fr
+
 ## Description
 
 La Contrainte tangente fait se toucher deux courbes (devant être tangente). Les lignes sont traitées comme infinie, et les arcs sont traités comme des cercles pleins/ellipses. La contrainte est également capable de connecter deux courbes, les forçant à tangenter au niveau du joint, ce qui rend le joint lisse et continu.
@@ -123,4 +125,7 @@ La page [Sketcher : Écrire des scripts](Sketcher_scripting/fr.md) explique les 
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainTangent/fr

@@ -1,7 +1,4 @@
 # Mesh API/pl
-
-
-
 {{VeryImportantMessage/pl
 |''(listopad 2018 r.)'' Informacje te mogą być niekompletne i nieaktualne. Najnowsze API - patrz [https://www.freecadweb.org/api dokumentacja API generowana automatycznie].}}
 
@@ -237,3 +234,6 @@ d.recompute()
  
 
 [Category:API](Category:API.md) [Category:Poweruser Documentation](Category:Poweruser_Documentation.md)
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh API/pl

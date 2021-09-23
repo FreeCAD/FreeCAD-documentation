@@ -1,3 +1,4 @@
+# Part Primitives/ro
 ---
 - GuiCommand:/ro
    Name:Part CreatePrimitives
@@ -116,8 +117,5 @@ It can be used as input to the program as well.
 freecad $INSTALL_DIR/Mod/Part/parttests/part_test_objects.py
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Primitives/ro

@@ -6,6 +6,8 @@
    Workbenches:[Curves](Curves_Workbench/fr.md)
 ---
 
+# Curves MultiLoft/fr
+
 ## Description
 
 <img alt="" src=images/Curves_MultiLoft.svg  style="width:24px;"> [MultiLoft](Curves_MultiLoft/fr.md) lisse des objets de profil composés de plusieurs faces en parallèle. Cet outil fait partie des [ateliers externes](External_workbenches/fr.md) appelé [Curves](Curves_Workbench/fr.md).
@@ -31,4 +33,7 @@
 
 {{Curves Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > Curves MultiLoft/fr

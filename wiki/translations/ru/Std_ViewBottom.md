@@ -8,6 +8,8 @@
    SeeAlso:[Std ViewRear](Std_ViewRear/ru.md), [Std ViewLeft](Std_ViewLeft/ru.md)
 ---
 
+# Std ViewBottom/ru
+
 ## Описание
 
 The **Std ViewBottom** command points the camera in the active [3D view](3D_view.md) in the direction of the positive Z axis.
@@ -45,4 +47,7 @@ FreeCADGui.ActiveDocument.ActiveView.getViewDirection()
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ViewBottom/ru

@@ -6,6 +6,8 @@
    SeeAlso:[PartDesign Chamfer](PartDesign_Chamfer.md), [Part Fillet](Part_Fillet.md)
 ---
 
+# PartDesign Fillet/pt-br
+
 ## Description
 
 This tool creates fillets (rounds) on the selected edges of an object. A new separate Fillet entry (followed by a sequential number if there are already existing fillets in the document) is created in the project tree.
@@ -99,4 +101,7 @@ Part.show(Box)
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Fillet/pt-br

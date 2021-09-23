@@ -1,6 +1,4 @@
 # App Part
- 
-
 ## Introduction
 
  <img alt="" src=images/Geofeaturegroup.svg  style="width:32px;"> 
@@ -28,4 +26,7 @@ An [App Part](App_Part.md) (`App::Part` class) is derived from the basic [App Ge
 
 See the full list of properties in the [Std Part](Std_Part.md) page.
 
- {{Std Base navi}} {{Document objects navi}} 
+ {{Std Base navi}} {{Document objects navi}}
+
+---
+[documentation index](../README.md) > App Part

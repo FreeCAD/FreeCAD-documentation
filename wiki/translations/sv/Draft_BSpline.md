@@ -1,3 +1,4 @@
+# Draft BSpline/sv
 ---
 - GuiCommand:/sv   Name:Draft BSpline   Name/sv:Draft BSpline   Workbenches:[Arch](Draft_Workbench/sv___Draft]],_[[Arch_Workbench/sv.md)|MenuLocation:Draft → BSpline   Shortcut:B S   SeeAlso:[Draft Wire](Draft_Wire/sv.md)---
 
@@ -130,8 +131,5 @@ spline3 = Draft.make_bspline([1.3*p3, p1, -1.7*p2], closed=False)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft BSpline/sv

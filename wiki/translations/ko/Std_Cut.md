@@ -7,6 +7,8 @@
    SeeAlso:[표준 복사](Std_Copy/ko.md), [표준 붙여넣기](Std_Paste/ko.md), [표준 개체 복제](Std_DuplicateSelection/ko.md)
 ---
 
+# Std Cut/ko
+
 ## 설명
 
 **표준 잘라내기(Std Cut)** 명령에는 제한이 있습니다. 오직 [스프레드시트 셀에만](Spreadsheet_Workbench/ko.md) 사용할 수 있습니다. 이 명령은 선택한 셀의 내용과 속성을 클립보드로 복사하고 셀을 지웁니다.
@@ -41,4 +43,7 @@
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std Cut/ko

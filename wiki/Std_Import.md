@@ -7,6 +7,8 @@
    SeeAlso:[Std Open](Std_Open.md), [Import Export](Import_Export.md), [Import Export Preferences](Import_Export_Preferences.md)
 ---
 
+# Std Import
+
 ## Description
 
 The **Std Import** command imports geometry from a different file format into the active document. Many file formats are supported and for some formats multiple import options exist. See [Import Export](Import_Export.md) for more information.
@@ -42,3 +44,6 @@ The **Std Import** command imports geometry from a different file format into th
  {{Std Base navi}}  
 
 [Category:File\_Formats](Category:File_Formats.md)
+
+---
+[documentation index](../README.md) > [File_Formats](Category:File_Formats.md) > Std Import

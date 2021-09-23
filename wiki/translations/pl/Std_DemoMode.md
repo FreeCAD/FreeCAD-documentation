@@ -5,6 +5,8 @@
    Workbenches:All
 ---
 
+# Std DemoMode/pl
+
 ## Description
 
 The **Std DemoMode** command will continuously rotate the camera in a [3D view](3D_view.md).
@@ -35,4 +37,7 @@ The **Std DemoMode** command will continuously rotate the camera in a [3D view](
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std DemoMode/pl

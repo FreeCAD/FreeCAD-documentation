@@ -1,5 +1,5 @@
 # Macro 3d Printer Slicer/de
- {{Macro/de
+{{Macro/de
 |Name=Macro_3d_Printer_Slicer
 |Icon=Macro_3d_Printer_Slicer.png
 |Translate=Macro_3d_Printer_Slicer
@@ -85,4 +85,7 @@ subprocess.Popen([SLICER + "KISSlicer", stlFile])
 ## Credits
 
 Dank an [Wmayer](http://forum.freecadweb.org/viewtopic.php?f=10&t=4686) für seine Hilfe beim Schreiben dieses Skripts.
-Ursprüngliches Forumsthema: <http://forum.freecadweb.org/viewtopic.php?f=10&t=4686> 
+Ursprüngliches Forumsthema: <http://forum.freecadweb.org/viewtopic.php?f=10&t=4686>
+
+---
+[documentation index](../README.md) > Macro 3d Printer Slicer/de

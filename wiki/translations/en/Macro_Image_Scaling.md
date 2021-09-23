@@ -1,5 +1,5 @@
 # Macro Image Scaling/en
- {{Macro
+{{Macro
 |Name=Image Scaling
 |Icon=Image_Scaling.svg
 |Description=Scaling of drawings, graphics, diagrams, blueprints and similar 2D images in the Image workbench. It works for images imported as planar images in the 3D space.<br/>Note: For photos of objects, or images involving objects lying at different distances from the viewpoint, the effect of [https://en.wikipedia.org/wiki/Parallax Parallax] (distortion due to "difference in the apparent position of an object viewed along two different lines of sight") must be kept in mind. In the following diagram the 2 blue objects are co-planar with the plane being perpendicular to the user viewpoint and scaling can be used:
@@ -175,6 +175,5 @@ ui.setupUi(d)
 -   [Download zip](http://forum.freecadweb.org/download/file.php?id=19542)
 -   [Movie created by microelly2](https://youtu.be/2iFE40uHrA8)
 
-
-
-
+---
+[documentation index](../README.md) > Macro Image Scaling/en

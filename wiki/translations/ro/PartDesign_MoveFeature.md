@@ -8,6 +8,8 @@
    SeeAlso:[Set tip](PartDesign_MoveTip.md), [Move object after other object](PartDesign_MoveFeatureInTree.md)
 ---
 
+# PartDesign MoveFeature/ro
+
 
 </div>
 
@@ -46,4 +48,7 @@
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign MoveFeature/ro

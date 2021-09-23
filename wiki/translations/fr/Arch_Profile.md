@@ -7,6 +7,8 @@
    Version:0.19
 ---
 
+# Arch Profile/fr
+
 ## Description
 
 L\'outil Profilé crée un objet de profil 2D paramétrique. Cet objet peut ensuite être utilisé comme base dans différents autres outils qui effectuent des extrusions tels que [Arch Ossature](Arch_Frame/fr.md), [Arch Mur-rideau](Arch_CurtainWall/fr.md) ou [Part Extrusion](Part_Extrude/fr.md).
@@ -90,8 +92,5 @@ Arch.makeProfile([0,'REC','REC100x100','R',100,100])
 
 Lorsque le premier élément de la liste est un numéro ordonné pas encore utilisé.
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Profile/fr

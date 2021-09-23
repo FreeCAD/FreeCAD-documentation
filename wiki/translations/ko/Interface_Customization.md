@@ -1,7 +1,4 @@
 # Interface Customization/ko
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -305,4 +302,7 @@ Addons offer yet another way to customize the use interface. Below are some addo
 
 {{Std Base navi
 
-}} {{Interface navi}} 
+}} {{Interface navi}}
+
+---
+[documentation index](../README.md) > Interface Customization/ko

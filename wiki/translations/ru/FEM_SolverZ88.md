@@ -8,6 +8,8 @@
    SeeAlso:[FEM tutorial](FEM_tutorial/ru.md)
 ---
 
+# FEM SolverZ88/ru
+
 
 </div>
 
@@ -29,4 +31,7 @@ ToDo
 
 {{FEM Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > FEM SolverZ88/ru

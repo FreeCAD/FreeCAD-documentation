@@ -1,7 +1,4 @@
 # Plot Basic tutorial/pl
-
-
-
 {{TutorialInfo/pl
 |Topic=Poradnik: Podstawy środowiska pracy Wykres
 |Level=Początkujący
@@ -149,3 +146,6 @@ Możesz ustawić rozmiar obrazu wyjściowego w calach, na przykład możemy usta
 }} {{Plot_Tools_navi}} 
 
 [Category:External\_Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)
+
+---
+[documentation index](../README.md) > [External_Workbenches](Category:External_Workbenches.md) > Plot Basic tutorial/pl

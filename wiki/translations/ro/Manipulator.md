@@ -1,5 +1,5 @@
 # Manipulator/ro
- }
+}
 
 
 <div class="mw-translate-fuzzy">
@@ -17,3 +17,6 @@ Un \'\'\'manipulator \'\'\'este un mâner care poate fi folosit pentru a modific
 
 
 [Category:Glossary](Category:Glossary.md)
+
+---
+[documentation index](../README.md) > [Glossary](Category:Glossary.md) > Manipulator/ro

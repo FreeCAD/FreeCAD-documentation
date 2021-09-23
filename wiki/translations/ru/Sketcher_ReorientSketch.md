@@ -7,6 +7,8 @@
    SeeAlso:[Разместить эскиз на грани](Sketcher_MapSketch/ru.md), [Создать эскиз](Sketcher_NewSketch/ru.md)
 ---
 
+# Sketcher ReorientSketch/ru
+
 ## Описание
 
 Позволяет отделить эскиз от грани и прикрепить его к одной из основных плоскостей (со смещением).
@@ -31,4 +33,7 @@
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ReorientSketch/ru

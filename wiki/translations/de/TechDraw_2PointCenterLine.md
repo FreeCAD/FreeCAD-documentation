@@ -8,6 +8,8 @@
    SeeAlso:[TechDraw Mittellinie zu Fläche(n)](TechDraw_FaceCenterLine/de.md), [TechDraw Mittellinie zwischen 2 Linien](TechDraw_2LineCenterLine/de.md)
 ---
 
+# TechDraw 2PointCenterLine/de
+
 ## Beschreibung
 
 Das Werkzeug fügt eine Mittellinie hinzu, die zwischen zwei Punkten verlaufen soll.
@@ -66,4 +68,7 @@ Mittellinien sind zur Zeit noch nicht zugänglich über [Makros](Macros/de.md) u
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw 2PointCenterLine/de

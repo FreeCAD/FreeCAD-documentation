@@ -7,6 +7,8 @@
    Version:0.17
 ---
 
+# Spreadsheet CreateSheet/pl
+
 ## Opis
 
 Przycisk **<img src=images/Spreadsheet_CreateSheet.svg style="width:16px"> [Tworzenie arkusza](Spreadsheet_CreateSheet/pl.md)** dodaje do aktywnego dokumentu nowy obiekt arkusza kalkulacyjnego, który zostanie otwarty w nowej zakładce w obszarze [głównego obszaru widoku](main_view_area/pl.md)
@@ -23,4 +25,7 @@ Przycisk **<img src=images/Spreadsheet_CreateSheet.svg style="width:16px"> [Twor
 
 {{Spreadsheet_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet CreateSheet/pl

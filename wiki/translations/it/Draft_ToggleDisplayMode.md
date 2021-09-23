@@ -8,6 +8,8 @@
    SeeAlso:[Gestire la visibilità](Std_ToggleVisibility/it.md)
 ---
 
+# Draft ToggleDisplayMode/it
+
 
 </div>
 
@@ -52,5 +54,5 @@ Questo strumento imposta la proprietà **Display Mode** dell\'oggetto selezionat
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ToggleDisplayMode/it

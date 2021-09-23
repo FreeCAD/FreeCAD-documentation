@@ -7,6 +7,8 @@
    SeeAlso:[Mesh Remplir les trous](Mesh_FillupHoles/fr.md), [Mesh Ajouter un triangle](Mesh_AddFacet/fr.md)
 ---
 
+# Mesh FillInteractiveHole/fr
+
 ## Description
 
 La commande **Mesh Boucher un trou** remplit les trous sélectionnés dans les objets maillés.
@@ -34,4 +36,7 @@ La commande **Mesh Boucher un trou** remplit les trous sélectionnés dans les o
 
 {{Mesh Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh FillInteractiveHole/fr

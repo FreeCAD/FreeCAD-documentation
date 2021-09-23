@@ -1,3 +1,4 @@
+# Std MeasureDistance/de
 ---
 - GuiCommand:/de   Name:Std MeasureDistance   Name/de:Std MeasureDistance   MenuLocation:[[Std Tools Menu/de   Werkzeuge]] → Abstand messen‏‎||Workbenches:Alle   Shortcut:-   SeeAlso:---
 
@@ -91,4 +92,7 @@ Weitere Möglichkeiten bzgl. Messung/Bemaßung sind
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std MeasureDistance/de

@@ -1,9 +1,4 @@
 # Glossary/ro
-
-
-
-
-
 Această pagină este un glosar de termeni și definiții comune ale FreeCAD.
 
 Salt la literă: {{CompactTOC|center=yes}}
@@ -1152,3 +1147,6 @@ Salt la literă: {{CompactTOC|center=yes}}
 
 
 [Category:Wiki](Category:Wiki.md) [Category:Glossary](Category:Glossary.md)
+
+---
+[documentation index](../README.md) > [Wiki](Category:Wiki.md) > Glossary/ro

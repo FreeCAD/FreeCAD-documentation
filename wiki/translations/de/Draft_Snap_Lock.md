@@ -7,6 +7,8 @@
    SeeAlso:[Entwurf Fang](Draft_Snap/de.md), [Entwurf Umschalten Gitter](Draft_ToggleGrid/de.md)
 ---
 
+# Draft Snap Lock/de
+
 
 </div>
 
@@ -44,5 +46,5 @@ For general information about snapping see [Draft Snap](Draft_Snap.md).
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Lock/de

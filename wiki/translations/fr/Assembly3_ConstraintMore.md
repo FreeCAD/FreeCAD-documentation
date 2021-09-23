@@ -6,6 +6,8 @@
    Workbenches:[Assembly3](Assembly3_Workbench/fr.md)
 ---
 
+# Assembly3 ConstraintMore/fr
+
 ## Description
 
 Cet outil ne fait que basculer la visibilité de deux autres panneaux de contraintes.
@@ -14,8 +16,5 @@ Cet outil ne fait que basculer la visibilité de deux autres panneaux de contrai
 
 1.  Appuyez sur le bouton **<img src="images/Assembly_ConstraintMore.svg" width=16px> [More](Assembly3_ConstraintMore/fr.md)**.
 
-
-
-
-
-
+---
+[documentation index](../README.md) > Assembly3 ConstraintMore/fr

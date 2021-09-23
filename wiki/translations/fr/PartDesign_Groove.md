@@ -6,6 +6,8 @@
    Workbenches:[PartDesign](PartDesign_Workbench/fr.md)
 ---
 
+# PartDesign Groove/fr
+
 ## Description
 
 L\'outil **Rainure** fait pivoter une esquisse ou un profil sélectionné autour d\'un axe donné en découpant la matière du support.
@@ -74,4 +76,7 @@ Ci-dessous les propriétés qui peuvent être modifiées après la création de 
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Groove/fr

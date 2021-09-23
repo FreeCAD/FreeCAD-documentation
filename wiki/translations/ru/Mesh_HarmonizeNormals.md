@@ -8,6 +8,8 @@
    SeeAlso:
 ---
 
+# Mesh HarmonizeNormals/ru
+
 
 </div>
 
@@ -33,4 +35,7 @@ The **Mesh HarmonizeNormals** command harmonizes the normals of mesh objects.
 
 {{Mesh Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh HarmonizeNormals/ru

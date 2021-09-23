@@ -1,7 +1,4 @@
-# About FreeCAD/bg
- 
-
-<img alt="" src=images/Freecad_default.jpg  style="width:1024px;">
+# <img alt="" src=images/Freecad_default.jpg  style="width:1024px;"> About FreeCAD/bg
 
 
 <div class="mw-translate-fuzzy">
@@ -82,3 +79,6 @@ FreeCAD се поддържа и развива от общност от ент�
 
 
 [Category:User Documentation](Category:User_Documentation.md)
+
+---
+[documentation index](../README.md) > [User Documentation](Category:User Documentation.md) > About FreeCAD/bg

@@ -1,6 +1,4 @@
 # Artwork Ship/it
- 
-
 These icons are in the indicated source path.
 
 For all icons in the source tree, see [Artwork](Artwork.md).
@@ -29,3 +27,6 @@ For all icons in the source tree, see [Artwork](Artwork.md).
 }} 
 
 [Category:Ship](Category:Ship.md)
+
+---
+[documentation index](../README.md) > [Ship](Category:Ship.md) > Artwork Ship/it

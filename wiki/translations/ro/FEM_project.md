@@ -1,5 +1,5 @@
 # FEM project/ro
- Acesta este planul proiectului pentru integrarea MEF FreeCAD ca parte a foii de parcurs [Development roadmap](Development_roadmap.md).
+Acesta este planul proiectului pentru integrarea MEF FreeCAD ca parte a foii de parcurs [Development roadmap](Development_roadmap.md).
 
 ## Unități de măsură 
 
@@ -68,3 +68,6 @@ unii solver sunt
 }}  
 
 [Category:Roadmap](Category:Roadmap.md)
+
+---
+[documentation index](../README.md) > [Roadmap](Category:Roadmap.md) > FEM project/ro

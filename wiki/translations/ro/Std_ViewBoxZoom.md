@@ -1,3 +1,4 @@
+# Std ViewBoxZoom/ro
 ---
 - GuiCommand:   Name:Std ViewBoxZoom   Workbenches:All   MenuLocation:[[Std View Menu   View]] → Zoom |Shortcut:   SeeAlso:---
 
@@ -67,4 +68,7 @@ Dreptunghiul de selecție pentru a mări ![](images/ZoomEs1.png )  Zona extinsă
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ViewBoxZoom/ro

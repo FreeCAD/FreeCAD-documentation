@@ -7,6 +7,8 @@
    SeeAlso:[Congiunzione](Part_JoinConnect/it.md), [Asportazione](Part_JoinCutout/it.md), [Operazione booleana](Part_Boolean/it.md), [Spessore](Part_Thickness/it.md)
 ---
 
+# Part JoinEmbed/it
+
 
 </div>
 
@@ -139,5 +141,5 @@ Lo strumento è implementato in Python, vedere {{FileName|/Mod/Part/JoinFeatures
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part JoinEmbed/it

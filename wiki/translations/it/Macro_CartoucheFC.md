@@ -1,7 +1,4 @@
 # Macro CartoucheFC/it
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -970,6 +967,5 @@ Questo modulo funziona con il foglio di disegno incluso in FreeCAD che si chiama
 
 ver 0.3 02/07/2014 converted to PyQt4 and PySide
 
-
-
-
+---
+[documentation index](../README.md) > Macro CartoucheFC/it

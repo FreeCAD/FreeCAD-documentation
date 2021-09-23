@@ -5,6 +5,8 @@
    Workbenches:[OpenSCAD](OpenSCAD_Workbench.md)
 ---
 
+# OpenSCAD ResizeMeshFeature/en
+
 ## Description
 
 Creates a new resized mesh object with independent sizing for each axis.
@@ -43,4 +45,7 @@ Mesh.show(resized_mesh)
 
 {{OpenSCAD_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD ResizeMeshFeature/en

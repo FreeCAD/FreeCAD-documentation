@@ -8,6 +8,8 @@
    SeeAlso:[Draft Vue 2D d'une forme](Draft_Shape2DView/fr.md), [TechDraw Vue Arch](TechDraw_ArchView/fr.md)
 ---
 
+# Arch SectionPlane/fr
+
 ## Description
 
 Cet outil place dans le document courant une \"chose\" qui définit un plan de section ou de vue. La \"chose\" est placée en fonction du [Draft plan de travail](Draft_SelectPlane/fr.md) en cours et peut être déplacée et réorientée en la déplaçant et en la faisant tourner, jusqu\'à ce qu\'elle décrive la vue 2D que vous souhaitez obtenir. L\'objet Plan de section ne tiendra compte que d\'un certain ensemble d\'objets. Les objets sélectionnés lorsque vous créez un plan de coupe seront automatiquement ajoutés à cet ensemble. D\'autres objets peuvent être ajoutés ou retirés ultérieurement d\'un objet Plan de coupe à l\'aide des outils [Arch Ajouter](Arch_Add.md) et [Arch Soustraire](Arch_Remove.md) ou en double-cliquant sur le Plan de coupe dans l\'arborescence.
@@ -109,11 +111,5 @@ Section3 = Arch.makeSectionPlane([Site])
 FreeCAD.ActiveDocument.recompute()
 ```
 
-
-
-
-
-
-
-
-
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SectionPlane/fr

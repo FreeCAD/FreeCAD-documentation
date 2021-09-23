@@ -1,3 +1,4 @@
+# PartDesign Revolution/it
 ---
 - GuiCommand:/it   Name:PartDesign Revolution   Name/it:Rivoluzione   MenuLocation:PartDesign → Rivoluzione   Workbenches:[PartDesign](PartDesign_Workbench/it.md)---
 
@@ -147,4 +148,7 @@ Un [esempio](http://forum.freecadweb.org/viewtopic.php?f=3&t=3674) dettagliato d
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Revolution/it

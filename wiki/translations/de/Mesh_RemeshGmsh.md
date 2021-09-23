@@ -8,6 +8,8 @@
    SeeAlso:[Netz AusTeilForm](Mesh_FromPartShape/de.md)
 ---
 
+# Mesh RemeshGmsh/de
+
 ## Beschreibung
 
 Der **Netz WiedervernetzenGmsh** Befehl wiedervernetzt ein Netzobjekt unter Verwendung des [Gmsh](https://gmsh.info/) Vernetzers. Das neue Netz kann feiner oder gröber sein.
@@ -44,4 +46,7 @@ See: [Mesh Feature](Mesh_Feature.md).
 
 {{Mesh Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh RemeshGmsh/de

@@ -7,6 +7,8 @@
    SeeAlso:[Tutoriel FEM](FEM_tutorial/fr.md)
 ---
 
+# FEM EquationHeat/fr
+
 ## Description
 
 ToDo
@@ -19,4 +21,7 @@ ToDo
 
 {{FEM Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > FEM EquationHeat/fr

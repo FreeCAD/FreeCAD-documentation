@@ -1,7 +1,4 @@
 # TechDraw LineGroup/it
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -104,4 +101,7 @@ Nota: È stata aggiunta una nuova preferenza per consentire all\'utente di utili
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw LineGroup/it

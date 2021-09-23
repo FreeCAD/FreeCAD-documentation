@@ -5,6 +5,8 @@
    Workbenches:[Robot](Robot_Workbench.md)
 ---
 
+# Robot CreateRobot/en
+
 ## Description
 
 Insert a new robot (KUKA IR500) into the scene.
@@ -50,4 +52,7 @@ The predefined robots are
 
 {{Robot_Tools_navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot CreateRobot/en

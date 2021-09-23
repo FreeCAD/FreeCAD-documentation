@@ -1,6 +1,4 @@
 # Ubuntu Snap/fr
-
-
 ## Introduction
 
 Un package [Ubuntu Snap](Ubuntu_Snap/.md), ou simplement [Snap](Ubuntu_Snap/fr.md) est un format de distribution similaire à [AppImage](AppImage/fr.md) en ce qu\'il est destiné à être un \"package installable universel\" pour déployer le logiciel pour les systèmes Linux. Les snaps ont été introduits par Ubuntu mais ils sont destinés à fonctionner dans toutes les distributions Linux tant que le démon Snap, ou `snapd`, est disponible dans le système cible.
@@ -37,5 +35,5 @@ Plus d\'informations sur les efforts en cours pour gérer Snaps.
 -   [0.19 Snap Preview a besoin de \"testeurs\"](https://forum.freecadweb.org/viewtopic.php?f=4&t=46044), ancien Snap de **vejmarie**
 -   [Discussion: Discussion: état du composant logiciel Snap (Snap Packaging)](https://forum.freecadweb.org/viewtopic.php?f=42&t=46853), version plus récente du Snap par **ppd**
 
-
-
+---
+[documentation index](../README.md) > Ubuntu Snap/fr

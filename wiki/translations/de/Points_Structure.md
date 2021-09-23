@@ -5,6 +5,8 @@
    Workbenches:[Punkte](Points_Workbench/de.md)
 ---
 
+# Points Structure/de
+
 ## Beschreibung
 
 Der Befehl **Punkte strukturieren** erzeugt eine strukturierte Punktwolke aus den Punkten einer vorhandenen verstreuten Punktwolke. Eine strukturierte Punktwolke hat den Vorteil, dass die Tesselierung wesentlich einfacher ist.
@@ -27,4 +29,7 @@ Siehe [Punkte konvertieren](Points_Convert/de.md).
 
 {{Points Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Points](Points_Workbench.md) > Points Structure/de

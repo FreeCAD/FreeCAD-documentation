@@ -1,6 +1,4 @@
 # App DocumentObjectGroup
- 
-
 ## Introduction
 
  <img alt="" src=images/Folder.svg  style="width:32px;"> 
@@ -28,4 +26,7 @@ An [App DocumentObjectGroup](App_DocumentObjectGroup.md) (`App::DocumentObjectGr
 
 See the properties in the [Std Group](Std_Group.md) page.
 
- {{Std Base navi}} {{Document objects navi}} 
+ {{Std Base navi}} {{Document objects navi}}
+
+---
+[documentation index](../README.md) > App DocumentObjectGroup

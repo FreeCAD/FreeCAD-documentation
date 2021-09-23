@@ -1,6 +1,4 @@
 # Model/de
-
-
 ## Einleitung
 
 In FreeCAD wird das Wort \"[Modell](Model.md)\" im Bezug auf ein 3D-Objekt oder mehrere Objekte verwendet, die in der [3D Ansicht](3D_view/de.md) erstellt wurden.
@@ -21,3 +19,6 @@ Allgemein gesprochen, kann das Wort \"[Zeichnung](Drawing.md)\" das gleiche bede
 }} 
 
 [Category:Glossary](Category:Glossary.md)
+
+---
+[documentation index](../README.md) > [Glossary](Category:Glossary.md) > Model/de

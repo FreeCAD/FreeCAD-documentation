@@ -8,6 +8,8 @@
    Version:0.15
 ---
 
+# Sketcher SelectConstraints/de
+
 ## Beschreibung
 
 Wählt die Beschränkungen eines Skizzierer Elements aus.
@@ -40,4 +42,7 @@ Schaltfläche.
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectConstraints/de

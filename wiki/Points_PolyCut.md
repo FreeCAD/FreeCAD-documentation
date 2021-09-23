@@ -5,6 +5,8 @@
    Workbenches:[Points](Points_Workbench.md)
 ---
 
+# Points PolyCut
+
 ## Description
 
 The **Points PolyCut** command cuts points from point clouds.
@@ -36,4 +38,7 @@ The **Points PolyCut** command cuts points from point clouds.
 
 
 
- {{Points Tools navi}} 
+ {{Points Tools navi}}
+
+---
+[documentation index](../README.md) > [Points](Points_Workbench.md) > Points PolyCut

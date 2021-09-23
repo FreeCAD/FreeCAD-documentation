@@ -6,6 +6,8 @@
    SeeAlso:[TechDraw NewView](TechDraw_NewView.md), [TechDraw NewProjGroup](TechDraw_NewProjGroup.md)
 ---
 
+# TechDraw LinkDimension/ro
+
 
 </div>
 
@@ -90,4 +92,7 @@ to be defined
 
 {{TechDraw Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw LinkDimension/ro

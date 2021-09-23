@@ -1,6 +1,4 @@
 # Important information/en
-
-
 ## Overview
 
 [Important information](Important_information.md) helps troubleshoot problems in your installation and usage of the program.
@@ -22,5 +20,5 @@ The [FreeCAD forum](https://forum.freecadweb.org/viewforum.php?f=3) is the best 
 
 *align=center|Window with the "[About](Std_About.md)" information in the software. Do not take a picture of this window;<br/>Click the **Copy to clipboard* button to be able to paste the information with your help request.**
 
-
-
+---
+[documentation index](../README.md) > Important information/en

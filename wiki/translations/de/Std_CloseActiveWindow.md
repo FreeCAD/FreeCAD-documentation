@@ -8,6 +8,8 @@
    SeeAlso:[Alles schließen](Std_CloseAllWindows/de.md)
 ---
 
+# Std CloseActiveWindow/de
+
 Schließt das aktuelle Dokument
 
 Der **Std Schließen**-Befehl schließt das aktive Fenster. Um ein Dokument zu schließen, müssen alle seine Fenster geschlossen werden.
@@ -50,4 +52,7 @@ Um ein Dokument zu schließen, benutze die `closeDocument`-Methode der FreeCAD-A
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std CloseActiveWindow/de

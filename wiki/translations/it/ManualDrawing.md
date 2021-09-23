@@ -1,5 +1,4 @@
 # ManualDrawing/it
-
 <H1 align="center">
 
 Guida ai comandi di FreeCAD
@@ -104,3 +103,6 @@ Questa sezione elenca una serie di comandi che non sono ancora inclusi in questo
 {{languages/it | {{}}
 
 }}
+
+---
+[documentation index](../README.md) > ManualDrawing/it

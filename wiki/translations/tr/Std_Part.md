@@ -7,6 +7,8 @@
    SeeAlso:[Grup Oluştur](Std_Group.md), [Cisim Oluştur](PartDesign_Body.md)
 ---
 
+# Std Part/tr
+
 
 </div>
 
@@ -336,4 +338,7 @@ App.ActiveDocument.addObject('Part::FeaturePython', 'Group', group.MyGroup(), gr
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std Part/tr

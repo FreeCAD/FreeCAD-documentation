@@ -1,3 +1,4 @@
+# Arch CloseHoles/sv
 ---
 - GuiCommand:/sv   Name:Arch CloseHoles   Name/sv:Arch CloseHoles   Workbenches:[MenuLocation:Arch → Utilities → Close Holes   SeeAlso:[[Arch Check/sv|Arch Check](Arch_Workbench/sv___Arch]].md)---
 
@@ -50,11 +51,5 @@ FreeCAD.ActiveDocument.recompute()
 solid = Arch.closeHole(Wall.Shape)
 ```
 
-
-
-
-
-
-
-
-
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CloseHoles/sv

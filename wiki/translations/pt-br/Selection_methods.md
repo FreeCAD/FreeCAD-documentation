@@ -1,10 +1,4 @@
 # Selection methods/pt-br
-
-
-
-
-
-
 {{TOCright}}
 
 ## Visão geral 
@@ -101,5 +95,5 @@ Consulte a [Documentação do código-fonte](Source_documentation/pt-br.md) e [A
 
 </div>
 
-
-
+---
+[documentation index](../README.md) > Selection methods/pt-br

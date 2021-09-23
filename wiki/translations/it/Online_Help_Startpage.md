@@ -1,5 +1,5 @@
 # Online Help Startpage/it
- {{docnav/it
+{{docnav/it
 |
 |[Informazioni su FreeCAD](About_FreeCAD/it.md)
 }}
@@ -28,3 +28,6 @@ Come sicuramente vi sarà capitato di constatare, i programmatori sono pessimi s
 
 
 [Category:User\_Documentation](Category:User_Documentation.md)
+
+---
+[documentation index](../README.md) > [User_Documentation](Category:User_Documentation.md) > Online Help Startpage/it

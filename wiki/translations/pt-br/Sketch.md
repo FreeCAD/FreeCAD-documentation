@@ -1,6 +1,4 @@
 # Sketch/pt-br
-
-
 ## Introdução
 
 
@@ -39,3 +37,6 @@ Nevertheless, a Sketch can always be created by itself for any other purpose; it
 }} {{Document objects navi}} 
 
 [Category:Glossary](Category:Glossary.md)
+
+---
+[documentation index](../README.md) > [Glossary](Category:Glossary.md) > Sketch/pt-br

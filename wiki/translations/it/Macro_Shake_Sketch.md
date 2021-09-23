@@ -1,7 +1,4 @@
 # Macro Shake Sketch/it
-
-
-
 {{Macro/it
 |Name=Macro Shake Sketch
 |Icon=Macro_Shake_Sketch.png
@@ -178,6 +175,5 @@ if do_move:
         move_points(sketch, i, sigma)
 ```
 
-
-
-
+---
+[documentation index](../README.md) > Macro Shake Sketch/it

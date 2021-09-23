@@ -7,6 +7,8 @@
    SeeAlso:[Draft](Draft_Workbench/it.md), [Vista di Arch](TechDraw_ArchView/it.md)
 ---
 
+# TechDraw DraftView/it
+
 
 </div>
 
@@ -118,4 +120,7 @@ rc = page.addView(dv)
 
 {{TechDraw Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw DraftView/it

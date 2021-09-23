@@ -1,6 +1,4 @@
 # Defeaturing/it
-
-
 ## Introduzione
 
 La defeaturing del modello 3D è stata aggiunta con Open CASCADE 7.3 [1](https://dev.opencascade.org/index.php?q=node/1211) e può essere utilizzata per la modifica dei modelli STEP rimuovendo le funzioni dal modello.
@@ -29,3 +27,6 @@ Part.show(box4) #show defeatured shape
  
 
 [Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+
+---
+[documentation index](../README.md) > [Addons](Category:Addons.md) > Defeaturing/it

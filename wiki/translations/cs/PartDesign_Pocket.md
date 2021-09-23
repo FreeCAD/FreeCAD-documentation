@@ -1,3 +1,4 @@
+# PartDesign Pocket/cs
 ---
 - GuiCommand:/cs   Name:PartDesign_Pocket   Name/cs:Návrh dílu Kapsa   Workbenches:[[PartDesign Workbench/cs   Návrh dílu]], Kompletace|MenuLocation:Návrh dílu -> Kapsa---
 
@@ -76,4 +77,7 @@ This allows to enter a second length in which the pocket should extend in the op
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Pocket/cs

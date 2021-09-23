@@ -1,5 +1,5 @@
 # Macro View Rotation/cs
- {{Macro/cs
+{{Macro/cs
 |Name=View Rotation
 |Icon=Macro_View_Rotation.png
 |Translate=View Rotation
@@ -291,3 +291,6 @@ Tři ikony symbolizují směr rotace. Zip soubory s ikonami najdete [zde](http:/
 ## Diskusní stránka 
 
 [View+Rotation](http://forum.freecadweb.org/viewtopic.php?f=3&t=1784&hilit=View+Rotation#p12012)
+
+---
+[documentation index](../README.md) > Macro View Rotation/cs

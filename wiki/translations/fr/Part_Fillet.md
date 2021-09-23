@@ -7,6 +7,8 @@
    SeeAlso:[Part Chanfrein](Part_Chamfer/fr.md)
 ---
 
+# Part Fillet/fr
+
 ## Description
 
 Cet outil crée un congé (arrondi) sur les arêtes sélectionnées d\'un objet. Une boîte de dialogue vous permet de choisir les objets et les arêtes à utiliser.
@@ -39,8 +41,5 @@ L\'outil Congé échoue parfois lors de la tentative de congé sur des objets co
 
 Notez également que la fonction de congé de pièce est affectée par le [Problème de dénomination topologique](Topological_naming_problem/fr.md) lorsque toute modification est apportée à une étape de modélisation plus tôt dans la chaîne qui affecte le nombre de facettes ou de sommets. Cela pourrait entraîner des résultats imprévisibles. En attendant que cela soit résolu (éventuellement avec la V0.19), il est conseillé d'appliquer les opérations Chanfrein et [Congé](Part_Fillet/fr.md) aux dernières étapes de la chaîne.
 
-
-
-
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Fillet/fr

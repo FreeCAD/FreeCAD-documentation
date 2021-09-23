@@ -8,6 +8,8 @@
    SeeAlso:[Показать выделенные](Std_ShowSelection/ru.md), [Скрыть выделенные](Std_HideSelection/ru.md), [Инвертировать все видимости](Std_ToggleObjects/ru.md), [Показать все объекты](Std_ShowObjects/ru.md), [Скрыть все объекты](Std_HideObjects/ru.md)
 ---
 
+# Std ToggleVisibility/ru
+
 ## Описание
 
 Команда **Видимость** переключает видимость выделенных объектов в окне [трёхмерного вида](3D_view/ru.md).
@@ -66,4 +68,7 @@ else:
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ToggleVisibility/ru

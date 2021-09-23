@@ -9,3 +9,6 @@ This category gathers article that list objects and methods available to the pyt
 [Draft API/cs](Draft_API/cs.md) , [Placement API/cs](Placement_API/cs.md)
 
 [Category:Categories/cs](Category:Categories/cs.md)
+
+---
+[documentation index](../README.md) > Category:API/cs

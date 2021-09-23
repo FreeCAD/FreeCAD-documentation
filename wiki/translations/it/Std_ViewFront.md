@@ -8,6 +8,8 @@
    SeeAlso:[Vista dall'alto](Std_ViewTop/it.md), [Vista da destra](Std_ViewRight/it.md)
 ---
 
+# Std ViewFront/it
+
 ## Descrizione
 
 Il comando **Vista frontale** orienta la camera della [Vista 3D](3D_view/it.md) nella direzione dell\'asse Y positivo.
@@ -51,4 +53,7 @@ FreeCADGui.ActiveDocument.ActiveView.getViewDirection()
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ViewFront/it

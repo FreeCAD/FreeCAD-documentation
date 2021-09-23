@@ -6,3 +6,6 @@ This category collects pages from the [external workbenches](external_workbenche
 [Plot Module/id](Plot_Module/id.md) , [Ship Workbench/id](Ship_Workbench/id.md)
 
 [Category:Workbenches/id](Category:Workbenches/id.md) [Category:Addons/id](Category:Addons/id.md)
+
+---
+[documentation index](../README.md) > Category:External Workbenches/id

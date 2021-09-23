@@ -1,7 +1,4 @@
-# Plot Module/es
-
-
-<img alt="Plot workbench icon" src=images/Workbench_Plot.svg  style="width:128px;">
+# <img alt="Plot workbench icon" src=images/Workbench_Plot.svg  style="width:64px;"> Plot Module/es
 
 
 {{TOCright}}
@@ -92,3 +89,6 @@ Siendo el módulo de graficado una adaptación de `matplotlib`, usted puede hace
 }} 
 
 [Category:External\_Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)
+
+---
+[documentation index](../README.md) > [External_Workbenches](Category:External_Workbenches.md) > Plot Module/es

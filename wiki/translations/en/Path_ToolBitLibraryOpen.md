@@ -7,6 +7,8 @@
    SeeAlso:[Path ToolBitDock](Path_ToolBitDock.md), [Path Tools](Path_Tools.md), [Path ToolBit](Path_ToolBit.md)
 ---
 
+# Path ToolBitLibraryOpen/en
+
 ## Description
 
 The **<img src="images/Path_ToolBitLibraryOpen.svg" width=16px> [Tool xxxxx](Path_ToolBitLibraryOpen.md)
@@ -91,4 +93,7 @@ C. Double clicking anywhere else in the row will open the toolbit editing panel.
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path ToolBitLibraryOpen/en

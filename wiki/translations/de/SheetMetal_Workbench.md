@@ -1,8 +1,4 @@
-# SheetMetal Workbench/de
-
- 
-
-<img alt="Symbol des externen Arbeitsbereichs Blech" src=images/Sheetmetal_workbench_icon.svg  style="width:128px;">
+# <img alt="Symbol des externen Arbeitsbereichs Blech" src=images/Sheetmetal_workbench_icon.svg  style="width:64px;"> SheetMetal Workbench/de
 
 
 {{TOCright}}
@@ -382,3 +378,6 @@ Was macht man ?
 -   Quellcode auf github: <https://github.com/shaise/FreeCAD_SheetMetal>
 
 [Category:SheetMetal](Category:SheetMetal.md) [Category:Addons](Category:Addons.md) [Category:External Command Reference](Category:External_Command_Reference.md)
+
+---
+[documentation index](../README.md) > SheetMetal Workbench/de

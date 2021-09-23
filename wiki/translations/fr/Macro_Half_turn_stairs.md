@@ -1,5 +1,5 @@
 # Macro Half turn stairs/fr
- {{Macro/fr
+{{Macro/fr
 |Name=Half_turn_stairs
 |Icon=Text-x-python.png
 |Description=Cette macro crée un escalier tournant à gauche ou à droite. La conception des escaliers est définie dans le fichier stairs.dat (vous devez copier les données qui se trouvent dans la page wiki)
@@ -297,6 +297,5 @@ Sauvez les données dans un fichier nommé **stairs.dat** dans votre répertoire
 
 -   [Macro\_PartsLibrary](Macro_PartsLibrary.md) FreeCAD Library
 
-
-
-
+---
+[documentation index](../README.md) > Macro Half turn stairs/fr

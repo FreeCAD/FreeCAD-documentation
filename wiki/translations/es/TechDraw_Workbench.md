@@ -1,10 +1,4 @@
-# TechDraw Workbench/es
-
-
-
-
-
-<img alt="El icono del Ambiente de trabajo Dibujo Técnico" src=images/Workbench_TechDraw.svg  style="width:128px;">
+# <img alt="El icono del Ambiente de trabajo Dibujo Técnico" src=images/Workbench_TechDraw.svg  style="width:64px;"> TechDraw Workbench/es
 
 ## Introducción
 
@@ -326,3 +320,6 @@ Tutoriales de vídeo de sliptonic
 }} 
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > TechDraw Workbench/es

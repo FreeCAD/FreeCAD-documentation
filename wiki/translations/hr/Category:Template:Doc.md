@@ -6,3 +6,6 @@ This category lists templates that produce text boxes used for documenting comma
 [Template:Macro/hr](Template:Macro/hr.md)
 
 [Category:Template/hr](Category:Template/hr.md)
+
+---
+[documentation index](../README.md) > Category:Template:Doc/hr

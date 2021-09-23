@@ -6,6 +6,8 @@
    Workbenches:Все
 ---
 
+# Std DemoMode/ru
+
 ## Описание
 
 Команда **Поворотный просмотр** вращает камеру в [3D виде](3D_view/ru.md).
@@ -36,4 +38,7 @@
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std DemoMode/ru

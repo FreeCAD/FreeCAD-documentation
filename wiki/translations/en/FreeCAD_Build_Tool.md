@@ -1,10 +1,4 @@
 # FreeCAD Build Tool/en
-
-
-
-
-
-
 {{TOCright}}
 
 ## Overview
@@ -72,3 +66,6 @@ The \"CM\" command [creates a new application module (Workbench)](Workbench_crea
  
 
 [Category:Developer Documentation](Category:Developer_Documentation.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > FreeCAD Build Tool/en

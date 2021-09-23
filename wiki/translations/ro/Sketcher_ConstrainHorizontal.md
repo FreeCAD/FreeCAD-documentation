@@ -8,6 +8,8 @@
    SeeAlso:[Constraint Vertical](Sketcher_ConstrainVertical/ro.md)
 ---
 
+# Sketcher ConstrainHorizontal/ro
+
 
 </div>
 
@@ -66,3 +68,6 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 }}  
 
 [Category:Sketcher/ro](Category:Sketcher/ro.md)
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainHorizontal/ro

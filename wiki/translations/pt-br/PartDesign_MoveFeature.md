@@ -7,6 +7,8 @@
    SeeAlso:[PartDesign Set tip](PartDesign_MoveTip.md), [PartDesign Move object after other object](PartDesign_MoveFeatureInTree.md)
 ---
 
+# PartDesign MoveFeature/pt-br
+
 ## Description
 
 <img alt="" src=images/PartDesign_MoveFeature.svg  style="width:24px;"> [Move object to other body](PartDesign_MoveFeature.md), as this command is labeled in the context menu, allows moving objects under a Body to another Body. The moved object is placed right below the other Body\'s tip. Sketches, datum geometry and features are supported.
@@ -24,4 +26,7 @@
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign MoveFeature/pt-br

@@ -1,3 +1,4 @@
+# Sketcher CreateSquare/it
 ---
 - GuiCommand:/it   Name:Sketcher CreateSquare   Name/it:Quadrato   Workbenches:[[Sketcher Workbench/it   Sketcher]]|MenuLocation:Sketch → Geometrie → Quadrato   Shortcut:   SeeAlso:   Version:0.15---
 
@@ -45,4 +46,7 @@ Quando si edita lo schizzo il cerchio circoscritto è visibile, quando si chiude
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateSquare/it

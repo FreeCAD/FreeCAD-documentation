@@ -8,6 +8,8 @@
    SeeAlso:[PartDesign Erzeugen eines additiven Grundelements](PartDesign_CompPrimitiveAdditive/de.md), [PartDesign Subtraktives Prisma](PartDesign_SubtractivePrism/de.md)
 ---
 
+# PartDesign AdditivePrism/de
+
 ## Beschreibung
 
 Fügt ein Prisma in den aktiven Körper (Body) als Basisformelement ein oder vereinigt ihn mit den bereits bestehenden Formelementen.
@@ -64,4 +66,7 @@ Das Prisma kann nach seiner Erstellung auf zwei Arten bearbeitet werden:
 
 {{PartDesign Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditivePrism/de

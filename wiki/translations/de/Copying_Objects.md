@@ -1,5 +1,5 @@
 # Copying Objects/de
- {{TOCright}}
+{{TOCright}}
 
 ## Übersicht
 
@@ -39,5 +39,5 @@ Wie bei den meisten Dingen in FreeCAD gibt es viele Möglichkeiten, eine Kopie z
 -   [Einfügen](Std_Paste/de.md)
 -   [Auswahl duplizieren](Std_DuplicateSelection/de.md)
 
-
-
+---
+[documentation index](../README.md) > Copying Objects/de

@@ -6,6 +6,8 @@
    Workbenches:[Projekt Części](PartDesign_Workbench/pl.md)
 ---
 
+# PartDesign PolarPattern/pl
+
 ## Opis
 
 Narzędzie wzorca kołowego przyjmuje wybrany element i tworzy zestaw kopii obróconych wokół wybranej osi. Zaczynając od v0.17, może wzorować się na wielu elementach.
@@ -130,4 +132,7 @@ Określa kąt, który ma zostać ujęty we wzorcu, oraz całkowitą liczbę kszt
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign PolarPattern/pl

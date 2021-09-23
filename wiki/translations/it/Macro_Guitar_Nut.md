@@ -1,5 +1,5 @@
 # Macro Guitar Nut/it
- {{Macro
+{{Macro
 |Name=Macro Guitar Nut
 |Name/fr=Macro Guitar Nut
 |Icon=Macro_Guitar_Nut.png
@@ -205,3 +205,6 @@ print("Finished creating nut")
 ## Link
 
 Forum discussion [Guitar fretboard macro / guitar body](https://forum.freecadweb.org/viewtopic.php?f=24&t=5827&)
+
+---
+[documentation index](../README.md) > Macro Guitar Nut/it

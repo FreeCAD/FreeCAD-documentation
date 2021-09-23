@@ -6,6 +6,8 @@
    SeeAlso:[Reinforcement](Reinforcement_Workbench.md), [Arch Rebar](Arch_Rebar.md), 
 ---
 
+# Example Combined Footing
+
 ## Description
 
 The [Footing Reinforcement](Arch_Rebar_Footing_Reinforcement.md) tool allows the user to create reinforcing bars inside a Footing [Arch Structure](Arch_Structure.md) object.
@@ -52,3 +54,6 @@ Only if secondary rebars check is enable then: 9. click next or click on XDir Se
 
 11\. Click **OK** or **Apply** or **Finish** to generate Footing reinforcement.
 12. Click **Cancel** to exit the dialog box.
+
+---
+[documentation index](../README.md) > Example Combined Footing

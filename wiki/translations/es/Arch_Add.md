@@ -7,6 +7,8 @@
    SeeAlso:[Arch Suprimir](Arch_Remove/es.md)
 ---
 
+# Arch Add/es
+
 
 </div>
 
@@ -112,11 +114,5 @@ Arch.addComponents(Wall2, Wall)
 FreeCAD.ActiveDocument.recompute()
 ```
 
-
-
-
-
-
-
-
-
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Add/es

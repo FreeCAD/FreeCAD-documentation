@@ -8,6 +8,8 @@
    SeeAlso:[Finestra del documento](Std_ViewDockUndockFullscreen/it.md), [Vista principale a schermo intero](Std_MainFullscreen/it.md)
 ---
 
+# Std ViewFullscreen/it
+
 ## Description
 
 The **Std ViewFullscreen** command switches [3D views](3D_view.md) to and from fullscreen mode. 3D views are automatically [undocked](Std_ViewDockUndockFullscreen.md) for fullscreen mode.
@@ -37,4 +39,7 @@ The **Std ViewFullscreen** command switches [3D views](3D_view.md) to and from f
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ViewFullscreen/it

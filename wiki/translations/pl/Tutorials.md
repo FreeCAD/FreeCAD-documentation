@@ -1,10 +1,4 @@
 # Tutorials/pl
-
-
-
-
-
-
 {{TOCright}}
 
 Ta strona przedstawia wybór wysokiej jakości przewodników. Pełna, niesortowana lista samouczków znajduje się w [:Category:Tutorials](:Category:Tutorials.md). Lista kompletna i możliwa do posortowania znajduje się w [tabela poniżej](Tutorials#Tutorials_-_Comprehensive_list.md).
@@ -288,3 +282,6 @@ Poniżej wymienione są wszystkie poradniki, które nie znajdują się w podręc
 
 
 [Category:Tutorials](Category:Tutorials.md)
+
+---
+[documentation index](../README.md) > [Tutorials]]. Lista kompletna i możliwa do posortowania znajduje się w ](Category:Tutorials]]. Lista kompletna i możliwa do posortowania znajduje się w .md) > Tutorials/pl

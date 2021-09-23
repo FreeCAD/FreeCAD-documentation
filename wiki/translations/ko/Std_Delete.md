@@ -7,6 +7,8 @@
    Shortcut:**Del**
 ---
 
+# Std Delete/ko
+
 ## 설명
 
 **표준 삭제(Std Delete)** 명령은 선택한 개체를 삭제합니다.
@@ -41,4 +43,7 @@ FreeCAD.ActiveDocument.removeObject("myObjectName")
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std Delete/ko

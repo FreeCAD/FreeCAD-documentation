@@ -8,6 +8,8 @@
    SeeAlso:[PartDesign Bezugspunkt](PartDesign_Point/de.md), [PartDesign Bezugslinie](PartDesign_Line/de.md)
 ---
 
+# PartDesign Plane/de
+
 
 </div>
 
@@ -60,4 +62,7 @@ Mit einem Doppelklick auf die Beschriftung der Bezugsebene in der Baumstruktur o
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Plane/de

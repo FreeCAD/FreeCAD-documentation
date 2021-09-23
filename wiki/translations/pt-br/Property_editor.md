@@ -1,10 +1,4 @@
 # Property editor/pt-br
-
-
-
-
-
-
 {{TOCright}}
 
 ## Introdução
@@ -244,4 +238,7 @@ print(obj.ViewObject.PropertiesList)
 
 {{Interface navi
 
-}} {{Std Base navi}} 
+}} {{Std Base navi}}
+
+---
+[documentation index](../README.md) > Property editor/pt-br

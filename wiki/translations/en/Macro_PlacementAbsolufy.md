@@ -1,7 +1,4 @@
 # Macro PlacementAbsolufy/en
-
-
-
 {{Macro
 |Name=PlacementAbsolufy
 |Icon=Macro_PlacementAbsolufy.png
@@ -94,3 +91,6 @@ App.ActiveDocument.commitTransaction() #commit transaction
 ## Forum discussion 
 
 For any feedback (bug, feature request, comments, \...), please use this forum thread : [Preserving global position of Parts during export](https://forum.freecadweb.org/viewtopic.php?f=3&t=36869)
+
+---
+[documentation index](../README.md) > Macro PlacementAbsolufy/en

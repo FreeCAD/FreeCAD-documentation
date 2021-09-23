@@ -1,5 +1,5 @@
 # Macro CartoucheFC Full/en
- {{Macro
+{{Macro
 |Name=Macro_CartoucheFC_Full
 |Icon=Macro_CartoucheFC_Full.png
 |Description=This macro is a complete application, it allows to fill the cartridge of the drawing sheet with full editabletext (For [Drawing Workbench](Drawing_Workbench.md)).
@@ -1178,6 +1178,5 @@ ver 00.06 : 13/10/2016 : selection format page and position for the symbol conve
 
 ver 5 : 08/08/2014 PyQt4 and PySide
 
-
-
-
+---
+[documentation index](../README.md) > Macro CartoucheFC Full/en

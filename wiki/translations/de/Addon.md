@@ -1,6 +1,4 @@
 # Addon/de
-
-
 ## Einführung
 
 In FreeCAD und dieser Dokumentation ist eine [Erweiterung](addon/de.md) eine beliebige Komponente, die nicht Teil der Basisinstallation ist, die aber dem System durch bestimmte Methoden hinzugefügt werden kann.
@@ -37,3 +35,6 @@ Trotzdem ist manuelle Installation weiterhin möglich.
 
 
 [Category:Addons](Category:Addons.md)
+
+---
+[documentation index](../README.md) > [Addons](Category:Addons.md) > Addon/de

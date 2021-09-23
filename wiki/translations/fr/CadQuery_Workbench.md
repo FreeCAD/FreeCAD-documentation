@@ -1,5 +1,4 @@
-# CadQuery Workbench/fr
- <img alt="Icône de l\'atelier CadQuery" src=images/Cadquery_module_workbench_icon.svg  style="width:128px;">
+# <img alt="Icône de l\'atelier CadQuery" src=images/Cadquery_module_workbench_icon.svg  style="width:64px;"> CadQuery Workbench/fr
 
 
 **(Janvier 2021)
@@ -58,3 +57,6 @@ La dernière version de CadQuery n\'utilise plus FreeCAD et n\'est pas compatibl
 
 
 [Category:Sandbox](Category:Sandbox.md) [Category:User Documentation](Category:User_Documentation.md) [Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+
+---
+[documentation index](../README.md) > CadQuery Workbench/fr

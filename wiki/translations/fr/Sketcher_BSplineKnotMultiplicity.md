@@ -8,6 +8,8 @@
    SeeAlso:[Sketcher Créer une B-spline](Sketcher_CompCreateBSpline/fr.md)
 ---
 
+# Sketcher BSplineKnotMultiplicity/fr
+
 ## Description
 
 Montre ou masque l\'affichage de la multiplicité des nœuds d\'une courbe B-spline. Voir [cette page](Sketcher_BSplineDecreaseKnotMultiplicity/fr#Description.md) pour une explication de la multiplicité. La multiplicité est indiquée entre accolades à côté du nœud.
@@ -25,4 +27,7 @@ Montre ou masque l\'affichage de la multiplicité des nœuds d\'une courbe B-spl
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineKnotMultiplicity/fr

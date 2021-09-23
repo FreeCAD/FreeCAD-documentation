@@ -1,5 +1,5 @@
 # Basic TechDraw Tutorial/de
- {{TutorialInfo/de
+{{TutorialInfo/de
 |Topic=Modellierung
 |Level=Anfänger
 |Author=[WandererFan](User:WandererFan.md)
@@ -151,4 +151,7 @@ Es gibt viel mehr Funktionalitäten in TechDraw zu erforschen - Section Views, D
 
 {{Tutorials navi
 
-}} {{TechDraw Tools navi}} 
+}} {{TechDraw Tools navi}}
+
+---
+[documentation index](../README.md) > Basic TechDraw Tutorial/de

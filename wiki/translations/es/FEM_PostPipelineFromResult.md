@@ -1,3 +1,4 @@
+# FEM PostPipelineFromResult/es
 ---
 - GuiCommand:   Name:FEM PostPipelineFromResult   MenuLocation: Results → post pipeline from result   |Workbenches:[Shortcut:   SeeAlso:[[FEM_tutorial|FEM tutorial](FEM_Workbench___FEM]].md)---
 
@@ -49,5 +50,5 @@ Pipeline es un objeto de resultado, que crea una nueva representación gráfica 
 
     {{FEM Tools navi}}
 
-
- 
+---
+[documentation index](../README.md) > FEM PostPipelineFromResult/es

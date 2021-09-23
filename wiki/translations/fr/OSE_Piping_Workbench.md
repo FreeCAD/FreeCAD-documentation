@@ -1,6 +1,4 @@
 # OSE Piping Workbench/fr
-
-
 ## Introduction
 
 
@@ -43,3 +41,6 @@ Un sweep elbow est un coude spécial dont le rayon de courbure est plus grand. I
 
 
 [Category:User Documentation](Category:User_Documentation.md) [Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+
+---
+[documentation index](../README.md) > OSE Piping Workbench/fr

@@ -1,5 +1,5 @@
 # Macro View Rotation/fr
- {{Macro/fr
+{{Macro/fr
 |Name=View Rotation
 |Icon=Macro View Rotation.png
 |Description=Cette macro fournit une interface graphique, afin de permettre une rotation précise des objets dans la vue.
@@ -293,3 +293,6 @@ Les deux premiers arguments, (**droit-300, 0**) (ligne 91) fournissent la positi
 ## Page de discussion 
 
 [View+Rotation](http://forum.freecadweb.org/viewtopic.php?f=3&t=1784&hilit=View+Rotation#p12012)
+
+---
+[documentation index](../README.md) > Macro View Rotation/fr

@@ -1,7 +1,4 @@
 # Manual:What is FreeCAD/de
- 
-
-
 {{Manual:TOC/de}}
 
 ![](images/Freecad016_screenshot1.jpg )
@@ -22,6 +19,5 @@ Die offizielle FreeCAD-Website ist [<http://www.freecadweb.org>](http://www.free
 -   [Funktionsübersicht](Feature_list/de.md)
 -   [Screenshots and user cases](http://forum.freecadweb.org/viewforum.php?f=24)
 
-
-
-
+---
+[documentation index](../README.md) > Manual:What is FreeCAD/de

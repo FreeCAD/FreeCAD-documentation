@@ -7,6 +7,8 @@
    Version:0.19
 ---
 
+# Arch Fence/fr
+
 ## Description
 
 L\'outil [Arch Clôture](Arch_Fence/fr.md) est un objet qui construit une clôture en répétant un poteau et une section de clôture le long d\'un chemin donné.
@@ -95,8 +97,5 @@ post = FreeCAD.ActiveDocument.Post
 Fence = Arch.buildFence(fence_section, post, sketch)
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Fence/fr

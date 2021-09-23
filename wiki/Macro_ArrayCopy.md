@@ -1,5 +1,5 @@
 # Macro ArrayCopy
-  {{Macro
+{{Macro
 |Name=ArrayCopy
 |Icon=Macro_ArrayCopy.png
 |Description=This macro copies the selected object several times, on an array grid You can define the number of rows and columns and the distance between them.
@@ -83,3 +83,5 @@ dialog.show()
 
 }}
 
+---
+[documentation index](../README.md) > Macro ArrayCopy

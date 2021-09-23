@@ -1,11 +1,4 @@
 # Path ToolController
- 
-
-
-
-
- 
-
 ## Description
 
 A tool controller carries properties for how a tool should be used in one or more operations.
@@ -25,4 +18,7 @@ Tool Number
 
 
 
- {{Path_Tools_navi}} 
+ {{Path_Tools_navi}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path ToolController

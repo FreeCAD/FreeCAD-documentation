@@ -10,6 +10,8 @@
 
 ---
 
+# Draft Circle/pl
+
 ## Opis
 
 Polecenie <img alt="" src=images/Draft_Circle.svg  style="width:24px;"> **Okrąg** tworzy okrąg w bieżącej [płaszczyźnie roboczej](Draft_SelectPlane/pl.md) na bazie punktu środkowego i promienia. Promień może być zdefiniowany przez wybranie punktu.
@@ -127,8 +129,5 @@ circle3 = Draft.make_circle(750, placement=place3)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Circle/pl

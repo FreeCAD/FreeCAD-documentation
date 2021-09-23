@@ -7,6 +7,8 @@
    SeeAlso:[Создать примитивы](Part_Primitives/ru.md)
 ---
 
+# Part Cone/ru
+
 ## Описание
 
 Параметрический усечённый конус доступен из панели инструментов верстака Part, через меню (подменю примитивы), диалогового окна Создать примитивы.
@@ -44,8 +46,5 @@ The cone properties can later be edited, either in the [Property editor](Propert
 
 </div>
 
-
-
-
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Cone/ru

@@ -7,6 +7,8 @@
    Version:0.17
 ---
 
+# Spreadsheet StyleBold/it
+
 ## Descrizione
 
 Lo strumento <img alt="" src=images/Spreadsheet_StyleBold.svg  style="width:16px;"> **Grassetto** fa in modo che il testo all\'interno della cella adotti lo stile **grassetto**.
@@ -23,4 +25,7 @@ Lo strumento <img alt="" src=images/Spreadsheet_StyleBold.svg  style="width:16px
 
 {{Spreadsheet_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet StyleBold/it

@@ -7,6 +7,8 @@
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
 ---
 
+# Sketcher CompCreateCircle/fr
+
 ## Description
 
 **Créer un cercle** est un bouton d\'icône de la barre d\'outils Géométries d\'esquisse qui regroupe les outils pour créer un cercle. Cliquez sur la flèche vers le bas à sa droite pour développer les icônes en dessous et sélectionner un outil.
@@ -22,4 +24,7 @@
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CompCreateCircle/fr

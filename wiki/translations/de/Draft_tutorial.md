@@ -1,7 +1,4 @@
 # Draft tutorial/de
-
-
-
 {{TutorialInfo/de
 |Topic= Technisches Zeichnen
 |Level= Anfänger
@@ -229,4 +226,7 @@ Der [Entwurf Arbeitsbereich](Draft_Workbench/de.md) ähnelt in vielerlei Hinsich
 
 {{Tutorials navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft tutorial/de

@@ -1,3 +1,4 @@
+# Mesh Scale/de
 ---
 - GuiCommand:/de   Name:Mesh Scale/de   Workbenches:[[Mesh Workbench/de   Polygonnetz]]|MenuLocation:   Shortcut:   SeeAlso:---
 
@@ -42,4 +43,7 @@ The **Mesh Scale** command scales mesh objects.
 
 {{Mesh Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Scale/de

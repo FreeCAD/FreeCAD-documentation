@@ -4,3 +4,6 @@ This category contains icon images, and buttons, which can be placed in document
 ### Contents:
 
 [Category:Artwork/hu](Category:Artwork/hu.md)
+
+---
+[documentation index](../README.md) > Category:Icon/hu

@@ -1,5 +1,5 @@
 # Download/pt-br
- {{TOCright}}
+{{TOCright}}
 
 ## Versão estável atual 
 
@@ -55,5 +55,5 @@ Mais informações sobre as variáveis de ambiente do FreeCAD podem ser encontra
 
 A comunidade FreeCAD fornece muitos módulos e macros adicionais. A partir de 0.17 eles podem ser facilmente instalados de dentro do FreeCAD usando o [Addon Manager](Addon_Manager/pt-br.md). [22px](Imagem:AddonManager.svg.md).
 
-
-
+---
+[documentation index](../README.md) > Download/pt-br

@@ -7,6 +7,8 @@
    SeeAlso:[Sketcher Arc](Sketcher_CompCreateArc/fr.md)
 ---
 
+# Sketcher CreateCircle/fr
+
 ## Description
 
 Cet outil dessine un Cercle, en cliquant deux points : le centre, et, un point sur la circonférence, le rayon.
@@ -26,4 +28,7 @@ Lorsque l\'outil est activé, le pointeur de la souris se change en croix blanch
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateCircle/fr

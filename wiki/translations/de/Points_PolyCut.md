@@ -5,6 +5,8 @@
    Workbenches:[Punkte](Points_Workbench/de.md)
 ---
 
+# Points PolyCut/de
+
 ## Beschreibung
 
 Der **Punkte PolySchnitt** Befehl schneidet Punkte aus Punktwolken aus.
@@ -39,4 +41,7 @@ Der **Punkte PolySchnitt** Befehl schneidet Punkte aus Punktwolken aus.
 
 {{Points Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Points](Points_Workbench.md) > Points PolyCut/de

@@ -1,5 +1,5 @@
 # Macro HighlightDifference
-  {{Macro
+{{Macro
 |Name=HighlightDifference
 |Description=Compute the difference between two shapes. Additions are marked red, removals are marked green. Both original parts will be half transparent. The volume of the additions and removals are printed in the console.
 |Author=Gaël Ecorchard
@@ -38,4 +38,5 @@ The code is visible on Github: [Utility/HighlightDifference.FCMacro](https://git
 -   See for the complementary macro [Macro\_HighlightCommon](Macro_HighlightCommon.md)
 -   The discussion on forum [\"collision detection\", overlapping](http://forum.freecadweb.org/viewtopic.php?f=22&t=12426)
 
-
+---
+[documentation index](../README.md) > Macro HighlightDifference

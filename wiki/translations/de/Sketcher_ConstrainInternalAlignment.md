@@ -9,6 +9,8 @@
    SeeAlso:[Skizzierer Anzeigen/Ausblenden Innere Geometrie](Sketcher_RestoreInternalAlignmentGeometry/de.md), [Skizzierer Ellipse durch Mittelpunkt](Sketcher_CreateEllipseByCenter/de.md)
 ---
 
+# Sketcher ConstrainInternalAlignment/de
+
 ## Beschreibung
 
 Die Beschränkung InnereAusrichtung richtet Linien und Punkte an bestimmten Stellen eines komplexen Sketcher Elements aus (es gibt bisher nur ein \"komplexes\" Element, die [Ellipse](Sketcher_CreateEllipseByCenter/de.md)).
@@ -58,4 +60,7 @@ Die [Skizzierer Skripten](Sketcher_scripting/de.md)-Seite erklärt die Werte, di
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainInternalAlignment/de

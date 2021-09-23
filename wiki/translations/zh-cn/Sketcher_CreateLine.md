@@ -7,6 +7,8 @@
    SeeAlso:[Sketcher Polyline](Sketcher_CreatePolyline.md)
 ---
 
+# Sketcher CreateLine/zh-cn
+
 ## 描述
 
 此工具会根据用户在3D视图中拾取的两个点来绘制一条线。 在开启此工具时，鼠标指针会变为具有一个红色线条图标的白色十字。侧面还会实时显示当前指针的坐标。
@@ -38,4 +40,7 @@
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateLine/zh-cn

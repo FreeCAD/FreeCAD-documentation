@@ -7,6 +7,8 @@
    SeeAlso:[표준 고정 분리 전체화면 보기](Std_ViewDockUndockFullscreen/ko.md), [표준 전체화면 보기](Std_ViewFullscreen/ko.md)
 ---
 
+# Std ViewCreate/ko
+
 ## 설명
 
 **표준 3D 보기 만들기(Std ViewCreate)** 명령은 활성 문서의 새 [3D 보기를](3D_view.md) 만듭니다. 추가된 3D 보기는 모델을 여러 방향에서 또는 서로 다른 확대 수준에서 검사할 때 유용합니다.
@@ -27,4 +29,7 @@
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ViewCreate/ko

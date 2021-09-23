@@ -6,6 +6,8 @@
    SeeAlso:[Draft Fang](Draft_Snap/de.md), [Draft Fang Schloss](Draft_Snap_Lock.md)
 ---
 
+# Draft Snap Near/de
+
 
 </div>
 
@@ -59,5 +61,5 @@ Siehe [Draft Fang Einstellungen](Draft_Snap/de#Einstellungen.md).
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Near/de

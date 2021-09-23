@@ -7,6 +7,8 @@
    SeeAlso:[Curves Joindre courbe](Curves_JoinCurve/fr.md)
 ---
 
+# Curves IsoCurve/fr
+
 ## Description
 
 L\'outil <img alt="" src=images/Curves_IsoCurve.svg  style="width:24px;"> [Courbe iso](Curves_IsoCurve/fr.md) applique un réseau orienté UV sur une surface sélectionnée. Cet outil fait partie des [ateliers externes](External_workbenches/fr.md) appelé [Curves](Curves_Workbench/fr.md).
@@ -40,4 +42,7 @@ L\'outil <img alt="" src=images/Curves_IsoCurve.svg  style="width:24px;"> [Courb
 
 {{Curves Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > Curves IsoCurve/fr

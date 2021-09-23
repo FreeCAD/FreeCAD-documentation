@@ -7,6 +7,8 @@
    SeeAlso:[PartDesign Datum point](PartDesign_Point.md), [PartDesign Datum line](PartDesign_Line.md), [PartDesign Datum plane](PartDesign_Plane.md)
 ---
 
+# PartDesign CoordinateSystem/pt-br
+
 ## Description
 
 Creates a **local coordinate system** which can be used as reference for other datum geometry. It also helps identify the orientation of the referenced datum geometry in 3D space. ![](images/PartDesign_LocalCoordinateSystem_Example.png ) *Local coordinate system originating out of a datum plane's origin.*
@@ -52,4 +54,7 @@ lcs = App.activeDocument().addObject( 'PartDesign::CoordinateSystem', 'LCS' )
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign CoordinateSystem/pt-br

@@ -7,6 +7,8 @@
    SeeAlso:[Преобразовать в твердые](Part_MakeSolid/ru.md), [Закрепить фигуру](Part_RefineShape/ru.md), [Part PointsFromMesh](Part_PointsFromMesh/ru.md)
 ---
 
+# Part ShapeFromMesh/ru
+
 
 </div>
 
@@ -91,5 +93,5 @@ doc.recompute()
 
 </div>
 
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part ShapeFromMesh/ru

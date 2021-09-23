@@ -1,6 +1,4 @@
 # Dialog creation with various widgets/it
-
-
 ## Introduzione
 
 Questo è un esempio di [creazione di dialoghi](Dialog_creation/it.md) con [PySide](PySide/it.md).
@@ -401,3 +399,6 @@ The code page and the icons [Qt\_Example](Qt_Example.md)
 }} 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Dialog creation with various widgets/it

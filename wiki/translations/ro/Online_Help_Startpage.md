@@ -1,6 +1,4 @@
 # Online Help Startpage/ro
- 
-
 ![150](images/Crystal_Clear_app_tutorials.png )
 
 ## Bine ati venit la ajutorul on-line 
@@ -46,3 +44,6 @@ După cum poate ați observat uneori, programatorii nu sunt foarte pricepuți la
 
 
 [Category:User\_Documentation](Category:User_Documentation.md)
+
+---
+[documentation index](../README.md) > [User_Documentation](Category:User_Documentation.md) > Online Help Startpage/ro

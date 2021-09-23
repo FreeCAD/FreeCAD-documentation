@@ -6,6 +6,8 @@
    SeeAlso:[TechDraw Add Clip Group](TechDraw_ClipGroupAdd.md), [TechDraw Remove Clip Group](TechDraw_ClipGroupRemove.md)
 ---
 
+# TechDraw ClipGroup/pl
+
 ## Description
 
 This tool creates a clipping window which can contain Views.
@@ -34,4 +36,7 @@ This tool creates a clipping window which can contain Views.
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ClipGroup/pl

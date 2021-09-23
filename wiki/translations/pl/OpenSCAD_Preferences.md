@@ -1,5 +1,5 @@
 # OpenSCAD Preferences/pl
- Ekran preferencji środowiska pracy [OpenSCAD](OpenSCAD_Workbench/pl.md) znajduje się w [Edytorze preferencji](Preferences_Editor/pl.md), **Edycja → Preferencje → OpenSCAD**.
+Ekran preferencji środowiska pracy [OpenSCAD](OpenSCAD_Workbench/pl.md) znajduje się w [Edytorze preferencji](Preferences_Editor/pl.md), **Edycja → Preferencje → OpenSCAD**.
 
 Dostępna jest tylko jedna zakładka: Ustawienia ogólne.
 
@@ -13,3 +13,6 @@ Dostępna jest tylko jedna zakładka: Ustawienia ogólne.
 }} 
 
 [Category:Preferences](Category:Preferences.md)
+
+---
+[documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD Preferences/pl

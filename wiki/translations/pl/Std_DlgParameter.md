@@ -7,6 +7,8 @@
    SeeAlso:[Edytor preferencji](Preferences_Editor/pl.md)
 ---
 
+# Std DlgParameter/pl
+
 ## Opis
 
 Polecenie **Std DlgParameter** otwiera Edytor Parametrów. W Edytorze parametrów można sprawdzać parametry sterujące zachowaniem programu FreeCAD i jego stanowisk pracy oraz opcjonalnie je usunąć, dodać lub zmienić. Parametry są przechowywane w pliku o nazwie {{FileName|user.cfg}}, lokalizacja tego pliku zależy od systemu operacyjnego.
@@ -171,4 +173,7 @@ Modyfikowanie preferencji innych części programu FreeCAD jest raczej złym pom
 
 {{Std Base navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > Std DlgParameter/pl

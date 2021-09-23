@@ -1,5 +1,5 @@
 # Artwork Gui/de
-  Diese Symbole befinden sich im angegebenen Quellpfad.
+Diese Symbole befinden sich im angegebenen Quellpfad.
 
 Für alle Symbole im Quellbaum siehe [Grafik](Artwork/de.md).
 
@@ -22,4 +22,7 @@ Diese Bilder sind größer als Symbole.
 
 {{Artwork
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > Artwork Gui/de

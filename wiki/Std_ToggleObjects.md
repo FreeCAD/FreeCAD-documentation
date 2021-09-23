@@ -6,6 +6,8 @@
    SeeAlso:[Std ToggleVisibility](Std_ToggleVisibility.md), [Std ShowSelection](Std_ShowSelection.md), [Std HideSelection](Std_HideSelection.md), [Std ShowObjects](Std_ShowObjects.md), [Std HideObjects](Std_HideObjects.md)
 ---
 
+# Std ToggleObjects
+
 ## Description
 
 The **Std ToggleObjects** command toggles the visibility of all objects belonging to the active document in [3D views](3D_view.md). Be careful when you use this command as it will also toggle the visibility of sub-elements of [PartDesign bodies](PartDesign_Body.md) and objects used for [Part Booleans](Part_Boolean.md). In most cases these should stay invisible.
@@ -34,4 +36,7 @@ For a scripting example see [Std ToggleVisibility](Std_ToggleVisibility.md).
 
 
 
- {{Std Base navi}}  
+ {{Std Base navi}}
+
+---
+[documentation index](../README.md) > Std ToggleObjects

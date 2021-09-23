@@ -7,6 +7,8 @@
    SeeAlso:[표준 사본 저장](Std_SaveCopy/ko.md), [표준 저장](Std_Save/ko.md)
 ---
 
+# Std SaveAs/ko
+
 ## 설명
 
 **표준 다른 이름으로 저장(Std SaveAs)** 명령은 활성 문서를 새 파일 이름으로 저장합니다.
@@ -47,4 +49,7 @@
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std SaveAs/ko

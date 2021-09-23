@@ -1,5 +1,5 @@
 # Macro Geodesic Dome/fr
- {{Macro/fr
+{{Macro/fr
 |Name=Macro Geodesic Dome
 |Icon=Macro_Geodesic_Dome.svg
 |Description=Cette macro crée un dôme géodésique paramétrique.
@@ -345,6 +345,5 @@ ToolBar Icon ![](images/Macro_Geodesic_Dome.svg )
 
 La discussion sur le Forum [Designing geodesic dome](https://forum.freecadweb.org/viewtopic.php?t=9174)
 
-
-
-
+---
+[documentation index](../README.md) > Macro Geodesic Dome/fr

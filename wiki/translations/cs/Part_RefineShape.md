@@ -1,3 +1,4 @@
+# Part RefineShape/cs
 ---
 - GuiCommand:/cs   Name:Part RefineShape   Name/cs:Díl Vyčistit tvar   MenuLocation:Díl → Vyčistit tvar   Workbenches:[OpenSCAD](Part_Workbench/cs___Díl]],__[[OpenSCAD_Workbench/cs.md)|SeeAlso:---
 
@@ -71,8 +72,5 @@ The Python command for refining a shape is the following:
 shape.removeSplitter()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part RefineShape/cs

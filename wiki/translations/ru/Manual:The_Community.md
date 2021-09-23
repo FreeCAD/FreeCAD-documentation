@@ -1,7 +1,4 @@
 # Manual:The Community/ru
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -56,3 +53,5 @@
 
 </div>
 
+---
+[documentation index](../README.md) > Manual:The Community/ru

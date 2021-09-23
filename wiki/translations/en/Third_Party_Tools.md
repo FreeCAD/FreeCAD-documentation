@@ -1,10 +1,4 @@
 # Third Party Tools/en
-
-
-
-
-
-
 {{TOCright}}
 
 ## Tool Page 
@@ -77,3 +71,6 @@ TODO
  
 
 [Category:Developer Documentation](Category:Developer_Documentation.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Third Party Tools/en

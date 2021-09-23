@@ -1,6 +1,4 @@
 # 3D view
- 
-
 ## Introduction
 
  
@@ -83,4 +81,7 @@ For more information see the power user documentation:
 -   [Third party libraries](Third_Party_Libraries.md) used by FreeCAD.
 -   [Coin3D](https://grey.colorado.edu/coin3d/index.html) C++ documentation.
 
- {{Interface navi}} 
+ {{Interface navi}}
+
+---
+[documentation index](../README.md) > 3D view

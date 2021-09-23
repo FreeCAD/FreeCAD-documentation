@@ -1,7 +1,4 @@
 # Macro Align Working Plane to Camera/pl
-
-
-
 {{Macro/pl
 |Name=Makrodefinicja: Wyrównaj płaszczyznę roboczą do ujęcia widoku
 |Icon=Macro_Align_Working_Plane_to_Camera.png
@@ -38,6 +35,5 @@ FreeCAD.DraftWorkingPlane.position = pos
 FreeCADGui.Snapper.setGrid()
 ```
 
-
-
-
+---
+[documentation index](../README.md) > Macro Align Working Plane to Camera/pl

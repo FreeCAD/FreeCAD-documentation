@@ -1,5 +1,5 @@
 # Macro Half turn stairs
-  {{Macro
+{{Macro
 |Name=Half_turn_stairs
 |Icon=Macro_Half_turn_stairs.png
 |Description=This macro creates a Stair with left or right turn in the defined high. The design of the stairs are defined in stairs.dat file (You must copy the data in the wiki page). The step-high of the stair is calculated from the high of the stair.
@@ -303,4 +303,5 @@ Save this Data as file **stairs.dat** in your macro directory
 
 -   [Macro\_PartsLibrary](Macro_PartsLibrary.md) FreeCAD Library
 
- 
+---
+[documentation index](../README.md) > Macro Half turn stairs

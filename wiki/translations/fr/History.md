@@ -1,5 +1,5 @@
 # History/fr
- \_\_FORCETOC\_\_
+\_\_FORCETOC\_\_
 
 ## Historique
 
@@ -177,3 +177,6 @@ En avril 2019, l\'équipe de développeurs principaux a été élargie: Jürgen,
 -   [Announcing FreeCAD Project](http://www.opencascade.org/org/forum/thread_6572/?forum=11) Annonces sur le forum Open Cascade
 
 [Category:News](Category:News.md)
+
+---
+[documentation index](../README.md) > [News](Category:News.md) > History/fr

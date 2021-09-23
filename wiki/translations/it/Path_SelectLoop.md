@@ -1,3 +1,4 @@
+# Path SelectLoop/it
 ---
 - GuiCommand:/it   Name:Path SelectLoop   Name/it:Chiudi il ciclo   Workbenches:[[Path Workbench/it   Path]]|MenuLocation:Path → Chiudi il ciclo   Shortcut:P,L   SeeAlso:---
 
@@ -36,4 +37,7 @@ Selezionare due spigoli che hanno un vertice comune, quindi eseguire il comando.
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path SelectLoop/it

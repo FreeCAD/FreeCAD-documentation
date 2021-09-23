@@ -1,3 +1,4 @@
+# Part Sphere/sv
 ---
 - GuiCommand:/sv   Name:Part Sphere   Name/sv:Part Sphere   MenuLocation:Part -> Sphere   |Workbenches:[SeeAlso:[[Part_CreatePrimitives/sv|Part_CreatePrimitives](Part_Workbench/sv___Part_Module]],Complete.md)---
 
@@ -40,8 +41,5 @@ Because it is quite difficult to explain the meaning of the parameters angle 1, 
 
 <img alt="" src=images/SphereCutThreeAngles.jpg  style="width:400px;">
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Sphere/sv

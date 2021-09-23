@@ -8,6 +8,8 @@
    SeeAlso:[Sketcher Ellipse](Sketcher_CreateEllipseByCenter/fr.md), [Sketcher Contrainte d'alignement interne](Sketcher_ConstrainInternalAlignment/fr.md)
 ---
 
+# Sketcher RestoreInternalAlignmentGeometry/fr
+
 ## Description
 
 La commande supprime les éléments inutilisés alignés sur la géométrie interne ou recrée les éléments manquants.
@@ -34,4 +36,7 @@ S\'il existe des emplacements d\'alignement libres pour l\'élément sélectionn
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher RestoreInternalAlignmentGeometry/fr

@@ -7,6 +7,8 @@
    SeeAlso:[Arch BuildingPart](Arch_BuildingPart.md), [Arch Site](Arch_Site.md)
 ---
 
+# Arch Building/pl
+
 ## Description
 
 The Arch Building is a special type of FreeCAD group object particularly suited for representing a whole building unit. They are mostly used to organize your model, by containing [floor](Arch_Floor.md) objects.
@@ -61,8 +63,5 @@ Site = Arch.makeSite(Building)
 FreeCAD.ActiveDocument.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Building/pl

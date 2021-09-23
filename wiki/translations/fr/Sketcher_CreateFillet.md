@@ -7,6 +7,8 @@
    Shortcut:F
 ---
 
+# Sketcher CreateFillet/fr
+
 ## Description
 
 Cet outil créé un congé entre deux lignes connectées par un point. Activer l\'outil, puis sélectionner les deux lignes, ou encore cliquer sur le sommet commun aux deux lignes.
@@ -29,4 +31,7 @@ Au démarrage de l\'outil, les sélections sont effacées et le pointeur de la s
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateFillet/fr

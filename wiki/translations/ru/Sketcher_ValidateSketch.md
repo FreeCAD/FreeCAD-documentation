@@ -7,6 +7,8 @@
    SeeAlso:[Ограничить совпадение](Sketcher_ConstrainCoincident/ru.md), [Topological naming problem](Topological_naming_problem/ru.md)
 ---
 
+# Sketcher ValidateSketch/ru
+
 
 </div>
 
@@ -91,4 +93,7 @@ The locking mechanism typically works well and this tool should not be needed. *
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ValidateSketch/ru

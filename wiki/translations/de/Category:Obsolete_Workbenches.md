@@ -6,3 +6,6 @@ Diese Kategorie zeigt eine Liste der veralteten Arbeitsbereiche, d.h. Arbeitsber
 [Complete Workbench/de](Complete_Workbench/de.md) , [Drawing Workbench/de](Drawing_Workbench/de.md) ,
 
 [Category:Workbenches/de](Category:Workbenches/de.md) [Category:Drawing/de](Category:Drawing/de.md)
+
+---
+[documentation index](../README.md) > Category:Obsolete Workbenches/de

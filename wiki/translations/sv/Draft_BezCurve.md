@@ -1,3 +1,4 @@
+# Draft BezCurve/sv
 ---
 - GuiCommand:/sv   Name:Draft BezCurve   Name/sv:Draft BezCurve   Workbenches:[Arch](Draft_Workbench/sv___Draft]],_[[Arch_Workbench/sv.md)|MenuLocation:Draft -> BezCurve   Shortcut:B Z---
 
@@ -142,8 +143,5 @@ bezcurve3 = Draft.make_bezcurve([1.7*p3, 1.5*p4, 2.1*p2, p1], closed=True)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft BezCurve/sv

@@ -7,6 +7,8 @@
    SeeAlso:[Menu Misure](Std_Measure_Menu/it.md), [Dimensioni di Draft](Draft_Dimension/it.md), [Ispeziona di Arch](Arch_Survey/it.md)
 ---
 
+# Std MeasureDistance/it
+
 
 </div>
 
@@ -76,4 +78,7 @@ Il comando **Misura la distanza** crea un oggetto distanza che misura e visualiz
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std MeasureDistance/it

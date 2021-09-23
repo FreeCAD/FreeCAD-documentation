@@ -5,6 +5,8 @@
    Workbenches:[Curves](Curves_Workbench.md)
 ---
 
+# Curves GordonSurface/it
+
 ## Descrizione
 
 The <img alt="" src=images/Curves_GordonSurface.svg  style="width:24px;"> [Curves GordonSurface](Curves_GordonSurface.md) creates a surface that skins a network of curves. This tool is part of the [external workbench](External_workbenches.md) called [Curves](Curves_Workbench.md).
@@ -90,4 +92,7 @@ TODO
 
 {{Curves Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > Curves GordonSurface/it

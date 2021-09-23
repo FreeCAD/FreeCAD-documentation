@@ -10,6 +10,8 @@
    Version:0.19
 ---
 
+# GuiCommand model/ru
+
 
 </div>
 
@@ -210,3 +212,6 @@ Optional.
 }} 
 
 [Category:Wiki:Example](Category:Wiki:Example.md)
+
+---
+[documentation index](../README.md) > [API]] and ](Category:API]] and .md) > GuiCommand model/ru

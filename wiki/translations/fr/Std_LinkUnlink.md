@@ -8,6 +8,8 @@
    SeeAlso:[Std Créer un lien](Std_LinkMake/fr.md), [Std Créer un lien relatif](Std_LinkMakeRelative/fr.md), [Std Remplacer par un lien](Std_LinkReplace/fr.md)
 ---
 
+# Std LinkUnlink/fr
+
 ## Description
 
 
@@ -41,4 +43,7 @@ La <img alt="" src=images/Tree_Part_Sphere_Parametric.svg  style="width:16px;"> 
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std LinkUnlink/fr

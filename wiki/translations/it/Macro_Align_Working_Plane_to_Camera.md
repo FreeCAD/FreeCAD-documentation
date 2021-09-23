@@ -1,7 +1,4 @@
 # Macro Align Working Plane to Camera/it
-
-
-
 {{Macro/it
 |Name=Macro Align Working Plane to Camera
 |Icon=Macro_Align_Working_Plane_to_Camera.png
@@ -54,6 +51,5 @@ FreeCAD.DraftWorkingPlane.position = pos
 FreeCADGui.Snapper.setGrid()
 ```
 
-
-
-
+---
+[documentation index](../README.md) > Macro Align Working Plane to Camera/it

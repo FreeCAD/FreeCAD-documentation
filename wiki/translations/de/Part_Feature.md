@@ -1,6 +1,4 @@
 # Part Feature/de
-
-
 ## Einführung
 
 
@@ -208,4 +206,7 @@ If desired, the `Label` attribute can be changed to a more meaningful text.
 -   By default the `Label` is unique, just like the `Name`. However, this behavior can be changed in the [preferences editor](Preferences_Editor.md), **Edit → Preferences → General → Document → Allow duplicate object labels in one document**. This means that in general the `Label` may be repeated in the same document; when testing for a specific element the user should rely on the `Name` rather than on the `Label`.
 
 
- {{Document objects navi}} 
+ {{Document objects navi}}
+
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Feature/de

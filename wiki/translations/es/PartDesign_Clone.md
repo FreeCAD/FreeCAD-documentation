@@ -8,6 +8,8 @@
    SeeAlso:[Clonar Draft](Draft_Clone/es.md)
 ---
 
+# PartDesign Clone/es
+
 
 </div>
 
@@ -41,4 +43,7 @@
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Clone/es

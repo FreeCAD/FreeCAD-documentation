@@ -6,6 +6,8 @@
    SeeAlso:[Std Copy](Std_Copy.md), [Std Duplicate Selection](Std_DuplicateSelection.md), [Part TransformedCopy](Part_TransformedCopy.md), [Part ElementCopy](Part_ElementCopy.md), [Part RefineShape](Part_RefineShape.md)
 ---
 
+# Part SimpleCopy
+
 ## Description
 
 
@@ -30,7 +32,5 @@ The copy has a simple **Placement** property like any other [Part Feature](Part_
 
 The copy has simple view properties like any other [Part Feature](Part_Feature.md).
 
-
-
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part SimpleCopy

@@ -8,6 +8,8 @@
    SeeAlso:[Draft Ajouter au groupe de construction](Draft_AddConstruction/fr.md), [Draft Groupe automatique](Draft_AutoGroup/fr.md)
 ---
 
+# Draft ToggleConstructionMode/fr
+
 ## Description
 
 La commande <img alt="" src=images/Draft_ToggleConstructionMode.svg  style="width:24px;"> **Draft Basculer en mode construction** active ou désactive le mode de construction de Draft. Si le mode construction est activé, les nouveaux objets [Draft](Draft_Workbench/fr.md), à l\'exception des [Draft Points](Draft_Point/fr.md), sont placés dans un groupe dédié et reçoivent une couleur prédéfinie. Cette fonctionnalité est destinée à la géométrie de construction, souvent temporaire, utilisée pour fournir de nouveaux [points d\'accrochage](Draft_Snap/fr.md) pour la création d\'autres objets. Lorsque la géométrie de construction n\'est plus nécessaire, le groupe de construction peut facilement être [caché](Std_HideSelection/fr.md) ou [effacé](Std_Delete/fr.md).
@@ -36,8 +38,5 @@ Dans la version 0.19 de FreeCAD, cette commande et la commande [Draft Ajouter au
 -   Pour modifier l\'étiquette ({{Version/fr|0.20}}) du groupe de construction : **Edition → Préférences... → Draft → Paramètres généraux → Géométrie de construction → Nom du groupe de construction**.
 -   Pour modifier la couleur utilisée : **Edition → Préférences... → Draft → Paramètres généraux → Géométrie de construction → Couleur de la géométrie de construction**.
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ToggleConstructionMode/fr

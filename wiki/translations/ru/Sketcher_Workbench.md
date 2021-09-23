@@ -1,10 +1,4 @@
-# Sketcher Workbench/ru
-
-
-
-
-
-<img alt="Логотип верстака Sketcher" src=images/Workbench_Sketcher.svg  style="width:128px;">
+# <img alt="Логотип верстака Sketcher" src=images/Workbench_Sketcher.svg  style="width:64px;"> Sketcher Workbench/ru
 
 
 {{TOCright}}
@@ -319,3 +313,6 @@ Sketcher не предназначен для создания 2D чертеже
 }} 
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Sketcher Workbench/ru

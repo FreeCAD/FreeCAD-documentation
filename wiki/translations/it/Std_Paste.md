@@ -8,6 +8,8 @@
    SeeAlso:[Taglia](Std_Cut/it.md), [Copia](Std_Copy/it.md), [Duplica la selezione](Std_DuplicateSelection/it.md)
 ---
 
+# Std Paste/it
+
 ## Descrizione
 
 Il comando **Incolla** incolla gli oggetti dagli Appunti nel documento attivo.
@@ -43,4 +45,7 @@ Il comando **Incolla** incolla gli oggetti dagli Appunti nel documento attivo.
 
 {{Std Base navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > Std Paste/it

@@ -6,6 +6,8 @@
    SeeAlso:[Std FreeCADWebsite](Std_FreeCADWebsite.md), [Std FreeCADUserHub](Std_FreeCADUserHub.md), [Std FreeCADPowerUserHub](Std_FreeCADPowerUserHub.md), [Std FreeCADFAQ](Std_FreeCADFAQ.md)
 ---
 
+# Std FreeCADForum/pl
+
 ## Description
 
 The **Std FreeCADForum** command opens the FreeCAD forum website in the system\'s default Internet browser. The command requires a working Internet connection.
@@ -22,4 +24,7 @@ Currently the command points to [<https://forum.freecadweb.org>](https://forum.f
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std FreeCADForum/pl

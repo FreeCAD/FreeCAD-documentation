@@ -9,6 +9,8 @@
    SeeAlso:
 ---
 
+# WebTools Sketchfab/fr
+
 ## Description
 
 Cet outil permet l\'exportation et le téléchargement d\'objets vers votre compte [SketchFab](http://www.sketchfab.com). {{Version/fr|0.17}}
@@ -31,3 +33,6 @@ Cet outil permet l\'exportation et le téléchargement d\'objets vers votre comp
 -   Une fois votre modèle chargé, Sketchfab offre une interface assez avancée permettant de configurer davantage les matériaux, l'éclairage et l'environnement.
 -   Lorsque vous appuyez sur le bouton \"Télécharger\", une fois le téléchargement terminé, si tout s\'est bien passé, le bouton se transforme en bouton \"Afficher votre modèle en ligne\". Ce bouton vous permet d\'accéder directement à la page du modèle de Sketchfab.
 -   Certains formats, comme OBJ, sont interprétés différemment par Sketchfab et FreeCAD. FreeCAD considère que l\'axe Z est dirigé vers le haut, tandis que Sketchfab considère qu\'il pointe vers la personne derrière l\'écran. Pour remédier à cela, une fois le téléchargement terminé, l\'exportateur utilisera l\'API Sketchfab pour faire pivoter le modèle à sa position correcte. Si cette opération échoue, vous en serez averti, mais votre modèle sera toujours correctement téléchargé. Vous pouvez le faire pivoter manuellement dans l\'interface Sketchfab en appuyant sur la flèche à droite de l\'axe \"X\" dans l\'onglet d\'orientation du modèle.
+
+---
+[documentation index](../README.md) > WebTools Sketchfab/fr

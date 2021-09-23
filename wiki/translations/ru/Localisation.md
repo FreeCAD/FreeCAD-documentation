@@ -1,10 +1,4 @@
 # Localisation/ru
-
-
-
-
-
-
 {{TOCright}}
 
 ## Обзор
@@ -263,3 +257,6 @@ FreeCADGui.setLocale('ru')
 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Wiki](Category:Wiki.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Localisation/ru

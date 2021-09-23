@@ -7,6 +7,8 @@
    SeeAlso:[Part Primitivas](Part_Primitives/es.md)
 ---
 
+# Part Plane/es
+
 
 </div>
 
@@ -64,8 +66,5 @@ Las propiedades pueden ser cambiadas posteriormente en la pestaña **Vista combi
 
 You have the standard properties view.
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Plane/es

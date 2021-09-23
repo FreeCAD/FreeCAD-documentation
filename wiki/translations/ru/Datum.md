@@ -1,6 +1,4 @@
 # Datum/ru
-
-
 ## Введение
 
 In FreeCAD the word \"[Datum](Datum.md)\" is normally used to refer to auxiliary geometry in the [PartDesign Workbench](PartDesign_Workbench.md). These geometrical elements will not form part of the final [Shape](Shape.md) of the [Body](Body.md), but can be used as references and supports for [sketches](Sketch.md) and other types of [features](Feature.md).
@@ -46,3 +44,6 @@ Since they appeared in v0.17, datum objects were intended to be used inside [Par
 }} {{Document objects navi}} 
 
 [Category:Glossary](Category:Glossary.md)
+
+---
+[documentation index](../README.md) > [Glossary](Category:Glossary.md) > Datum/ru

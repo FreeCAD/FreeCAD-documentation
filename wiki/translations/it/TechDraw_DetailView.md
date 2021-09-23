@@ -7,6 +7,8 @@
    SeeAlso:[Vista](TechDraw_View/it.md), [Gruppo di proiezioni](TechDraw_ProjectionGroup/it.md)
 ---
 
+# TechDraw DetailView/it
+
 
 </div>
 
@@ -129,4 +131,7 @@ This is done by putting the Detail view into a [clip group](TechDraw_ClipGroup.m
 
 {{TechDraw Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw DetailView/it

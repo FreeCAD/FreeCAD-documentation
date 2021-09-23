@@ -1,3 +1,4 @@
+# TechDraw DiameterDimension/it
 ---
 - GuiCommand:/it   Name:TechDraw  Dimension Diameter   Name/it:Diametro   Workbenches:[MenuLocation:TechDraw → Diametro   Shortcut:   SeeAlso:[[TechDraw Dimension Radius/it|Raggio](TechDraw_Workbench/it___TechDraw]].md)---
 
@@ -89,4 +90,7 @@ rc = page.addView(dim1)
 
 {{TechDraw Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw DiameterDimension/it

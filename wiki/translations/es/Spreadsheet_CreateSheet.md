@@ -7,6 +7,8 @@
    Version:0.17
 ---
 
+# Spreadsheet CreateSheet/es
+
 ## Descripción
 
 El **<img src=images/Spreadsheet_CreateSheet.svg style="width:16px"> [Hoja de cálculo CrearHoja](Spreadsheet_CreateSheet/es.md)** añade un nuevo objeto de hoja de cálculo al documento activo, que se abrirá en una nueva pestaña en el [área de vista principal](main_view_area/es.md).
@@ -23,4 +25,7 @@ El **<img src=images/Spreadsheet_CreateSheet.svg style="width:16px"> [Hoja de c�
 
 {{Spreadsheet_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet CreateSheet/es

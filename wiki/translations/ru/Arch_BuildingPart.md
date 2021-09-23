@@ -8,6 +8,8 @@
    SeeAlso:[Arch_Building](Arch_Building/ru.md), [Arch_Site](Arch_Site/ru.md)
 ---
 
+# Arch BuildingPart/ru
+
 ## Описание
 
 
@@ -133,8 +135,5 @@ Site = Arch.makeSite(Building)
 FreeCAD.ActiveDocument.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch BuildingPart/ru

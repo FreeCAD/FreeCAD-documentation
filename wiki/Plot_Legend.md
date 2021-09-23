@@ -5,6 +5,8 @@
    Workbenches:[Plot](Plot_Module.md)
 ---
 
+# Plot Legend
+
 ## Description
 
 This tool allows the user to enable/disable the data series legend on a specific plot.
@@ -23,3 +25,6 @@ Remember that the styles and labels of the data series can be edited with the [d
  {{Plot_Tools_navi}} 
 
 [Category:External\_Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)
+
+---
+[documentation index](../README.md) > [External_Workbenches](Category:External_Workbenches.md) > Plot Legend

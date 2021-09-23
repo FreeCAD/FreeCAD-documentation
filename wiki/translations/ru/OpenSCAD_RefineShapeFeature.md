@@ -7,6 +7,8 @@
    SeeAlso:---
 ---
 
+# OpenSCAD RefineShapeFeature/ru
+
 
 </div>
 
@@ -41,4 +43,7 @@ Cleans unnecessary lines. After a Boolean operation some lines defining the prev
 
 {{OpenSCAD_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD RefineShapeFeature/ru

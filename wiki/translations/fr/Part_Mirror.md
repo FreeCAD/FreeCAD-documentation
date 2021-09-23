@@ -6,6 +6,8 @@
    Workbenches:[Part](Part_Workbench/fr.md)
 ---
 
+# Part Mirror/fr
+
 ## Description
 
 \'Miroir\' - Cet outil crée un nouvel objet (image) qui est la réflexion de l\'objet source sélectionné par rapport à un plan miroir. Le plan miroir peut être un plan standard (**XY**, **YZ**, ou **XZ**) ou n\'importe quel plan parallèle à un plan standard.
@@ -44,8 +46,5 @@ Les cases **Point de base** peuvent être utilisées pour déplacer le miroir pl
 
 -   Les plans de miroir arbitraires (c\'est-à-dire non parallèles à un plan standard) ne sont pas pris en charge.
 
-
-
-
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Mirror/fr

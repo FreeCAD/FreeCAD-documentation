@@ -1,5 +1,5 @@
 # Macro MeshToPart/fr
- {{Macro/fr
+{{Macro/fr
 |Name=MeshToPart
 |Icon=Macro_MeshToPart.png
 |Description=Cette macro convertit certaines mailles en pièces. Il a une grande tolérance, donc utilisez le uniquement avec des objets qui n'ont aucunes courbes sinon vous obtiendrez un résultat inattendu.
@@ -64,3 +64,6 @@ for obj in FreeCADGui.Selection.getSelection():
 ## Lien
 
 La discussion sur le forum [Convert mesh to solid?](http://forum.freecadweb.org/viewtopic.php?f=3&t=253&hilit=getPlanarSegments)
+
+---
+[documentation index](../README.md) > Macro MeshToPart/fr

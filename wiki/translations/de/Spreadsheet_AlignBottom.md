@@ -7,6 +7,8 @@
    Version:0.17
 ---
 
+# Spreadsheet AlignBottom/de
+
 ## Beschreibung
 
 Das **<img src=images/Spreadsheet_AlignBottom.svg style="width:16px"> [Kalkulationstabelle UntenAusrichten](Spreadsheet_AlignBottom/de.md)** Werkzeug bewirkt, dass der Text innerhalb der Zelle nach unten ausgerichtet wird.
@@ -23,4 +25,7 @@ Das **<img src=images/Spreadsheet_AlignBottom.svg style="width:16px"> [Kalkulati
 
 {{Spreadsheet_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet AlignBottom/de

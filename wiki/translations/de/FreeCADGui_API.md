@@ -1,7 +1,4 @@
 # FreeCADGui API/de
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -79,3 +76,6 @@ gui_doc.activateWorkbench("myWorkbench")
  
 
 [Category:API](Category:API.md) [Category:Poweruser Documentation](Category:Poweruser_Documentation.md)
+
+---
+[documentation index](../README.md) > [API](Category:API.md) > FreeCADGui API/de

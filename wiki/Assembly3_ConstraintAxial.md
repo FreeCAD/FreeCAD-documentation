@@ -5,6 +5,8 @@
    Workbenches:[Assembly3](Assembly3_Workbench.md)
 ---
 
+# Assembly3 ConstraintAxial
+
 ## Description
 
 This tool builds a link between two or more objects of an assembly and matches their orientation. The selected elements of each object or more precisely their implicit coordinate systems (ICS) are used to position one object to another.
@@ -27,7 +29,5 @@ Different types of geometry elements can be mixed.
 2.  Select one element of each object.
 3.  Press the **<img src="images/Assembly_ConstraintAxial.svg" width=16px> [Axial Alignment](Assembly3_ConstraintAxial.md)** button.
 
-
-
-
- 
+---
+[documentation index](../README.md) > Assembly3 ConstraintAxial

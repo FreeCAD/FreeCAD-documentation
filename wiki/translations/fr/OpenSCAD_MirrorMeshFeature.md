@@ -7,6 +7,8 @@
    SeeAlso:[Part Mise en miroir](Part_Mirror/fr.md)
 ---
 
+# OpenSCAD MirrorMeshFeature/fr
+
 ## Description
 
 Crée un nouvel objet maillé en miroir, symmétrisé autour de l\'axe sélectionné.
@@ -44,4 +46,7 @@ Mesh.show(mirrored_mesh)
 
 {{OpenSCAD_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD MirrorMeshFeature/fr

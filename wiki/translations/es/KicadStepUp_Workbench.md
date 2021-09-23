@@ -1,7 +1,4 @@
 # KicadStepUp Workbench/es
-
-
-
 <div class="mw-translate-fuzzy">
 
 KicadStepUp Icono del ambiente de trabajo externo
@@ -162,3 +159,6 @@ Nuevos ambientes de trabajo están en desarrollo, esté atento!
 
 
 [Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+
+---
+[documentation index](../README.md) > KicadStepUp Workbench/es

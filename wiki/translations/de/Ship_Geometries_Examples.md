@@ -8,6 +8,8 @@
    SeeAlso:
 ---
 
+# Ship Geometries Examples/de
+
 ## Beschreibung
 
 Schiff arbeitet über **Schiffseinheiten**, die auf der bereitgestellten Geometrie erstellt werden müssen. Die Geometrie muss ein Festkörper oder ein Satz von Festkörpern sein, wobei folgende Kriterien berücksichtigt werden müssen:
@@ -48,4 +50,7 @@ Um neuen Anwendern zu helfen, enthält Schiff ein Ladeprogramm für Geometriebei
 
 {{Ship_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > Ship Geometries Examples/de

@@ -9,6 +9,8 @@
    Version:0.17
 ---
 
+# Arch Rebar Helical/ru
+
 
 </div>
 
@@ -148,3 +150,6 @@ HelicalRebar.editHelicalRebar(Rebar, 20, 100, 20, 20, 100)
  
 
 [Category:Reinforcement](Category:Reinforcement.md)
+
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Rebar Helical/ru

@@ -1,5 +1,5 @@
 # Python console
-  **(January 2020) FreeCAD was originally designed to work with Python 2. Since Python 2 reached end of life in 2020, future development of FreeCAD will be done exclusively with Python 3, and backwards compatibility will not be supported.**
+**(January 2020) FreeCAD was originally designed to work with Python 2. Since Python 2 reached end of life in 2020, future development of FreeCAD will be done exclusively with Python 3, and backwards compatibility will not be supported.**
 
 ## Introduction
 
@@ -83,4 +83,7 @@ Right click on the Python console shows some commands:
     4.  By choosing a function and following it with a `.` one can repeat steps 2 and 3 to traverse deeper in to the API
 -   Tab/Word completion is supported using the **Ctrl**+**Space** shortcut
 
- {{Interface navi}} {{Std Base navi}} 
+ {{Interface navi}} {{Std Base navi}}
+
+---
+[documentation index](../README.md) > Python console

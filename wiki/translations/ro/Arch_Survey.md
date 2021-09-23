@@ -7,6 +7,8 @@
    SeeAlso:[FCInfo (macro)](Macro_FCInfo/ro.md)
 ---
 
+# Arch Survey/ro
+
 
 </div>
 
@@ -94,8 +96,5 @@ for obj in selection:
         print("Center of Mass: %f", element.CenterOfMass)
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Survey/ro

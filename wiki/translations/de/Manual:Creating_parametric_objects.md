@@ -1,7 +1,4 @@
 # Manual:Creating parametric objects/de
- 
-
-
 {{Manual:TOC/de}}
 
 In the [previous chapter](Manual:Creating_and_manipulating_geometry.md), we saw how to create Part geometry, and how to display it on screen, by attaching it to a \"dumb\" (non-parametric) document object. This is tedious when we want to change the shape of that object. We would need to create a new shape, then attribute it again to our object.
@@ -126,3 +123,6 @@ Remember, if you want to distribute files created with this new tool to other pe
 }} 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Manual:Creating parametric objects/de

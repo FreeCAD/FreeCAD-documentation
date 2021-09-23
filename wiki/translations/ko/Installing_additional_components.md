@@ -1,7 +1,4 @@
 # Installing additional components/ko
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -142,3 +139,6 @@ The [ODA File Converter](https://www.opendesign.com/guestfiles/oda_file_converte
 
 
 [Category:User Documentation](Category:User_Documentation.md)
+
+---
+[documentation index](../README.md) > Installing additional components/ko

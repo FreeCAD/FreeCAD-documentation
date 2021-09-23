@@ -8,6 +8,8 @@
    SeeAlso:[Создать дугу эллипса](Sketcher_CreateArcOfEllipse/ru.md), [Создать дугу параболы](Sketcher_CreateArcOfParabola/ru.md)
 ---
 
+# Sketcher CreateArcOfHyperbola/ru
+
 ## Описание
 
 Этот инструмент рисует дугу по гиперболе используя центр, большой радиус и конечные точки.
@@ -34,4 +36,7 @@
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateArcOfHyperbola/ru

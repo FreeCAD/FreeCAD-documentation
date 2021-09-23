@@ -1,7 +1,4 @@
 # Compile on Windows with VS2013/fr
-
-
-
 <div class="mw-translate-fuzzy">
 
 La procédure suivante crée une compilation dans l\'environnement Windows Vista/7/8, pour XP un autre ensemble d\'outils VS est nécessaire pour VS 2012 et 2013, qui n\'a pas été testé avec succès sur les Libpacks actuelles. Pour cibler XP (x32 et x64 fois), il est recommandé d\'utiliser VS2008 et Libpack FreeCADLibs\_11.0\_x86\_VC9.7z
@@ -124,3 +121,6 @@ If you don\'t get any errors your done. Exit Visual Studio and start FreeCAD by 
 
 
 [Category:Developer\_Documentation](Category:Developer_Documentation.md) [Category:Developer](Category:Developer.md)
+
+---
+[documentation index](../README.md) > [Developer_Documentation](Category:Developer_Documentation.md) > Compile on Windows with VS2013/fr

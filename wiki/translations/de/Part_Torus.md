@@ -7,6 +7,8 @@
 |Part CreatePrimitives]]
 ---
 
+# Part Torus/de
+
 
 </div>
 
@@ -76,5 +78,5 @@ Die Erst-Werte der beiden Winkel Angle2 und Angle3 ergeben in Summe 360°, was d
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Torus/de

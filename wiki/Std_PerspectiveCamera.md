@@ -7,6 +7,8 @@
    SeeAlso:[Std OrthographicCamera](Std_OrthographicCamera.md)
 ---
 
+# Std PerspectiveCamera
+
 ## Description
 
 The **Std PerspectiveCamera** command switches the camera in the active [3D view](3D_view.md) to perspective view mode. In this mode, objects that are further from the camera appear smaller than those that are closer.
@@ -47,4 +49,7 @@ FreeCADGui.ActiveDocument.ActiveView.getCameraType()
 
 
 
- {{Std Base navi}}  
+ {{Std Base navi}}
+
+---
+[documentation index](../README.md) > Std PerspectiveCamera

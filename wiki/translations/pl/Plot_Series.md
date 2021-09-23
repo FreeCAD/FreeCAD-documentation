@@ -6,6 +6,8 @@
 ‏‎   Workbenches:[Wykres](Plot_Module/pl.md)
 ---
 
+# Plot Series/pl
+
 ## Opis
 
 Standardowy moduł wykresów dostarcza już narzędzie do edycji stylu serii wykresów <img alt="" src=images/Matplotlib_edit_subplot.png  style="width:24px;">. Ale jeśli zainstalujesz środowisko pracy<img alt="" src=images/Workbench_Plot.svg  style="width:24px;"> [Wykres](Plot_Module/pl.md) używając [Menadżera dodatków](Std_AddonMgr/pl.md), dostępne będzie bardziej kompletne i nieskomplikowane narzędzie.
@@ -37,3 +39,6 @@ Wybierz zakładkę wykresu, którą chcesz edytować i uruchom to narzędzie. Na
 }} 
 
 [Category:External\_Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)
+
+---
+[documentation index](../README.md) > [External_Workbenches](Category:External_Workbenches.md) > Plot Series/pl

@@ -1,6 +1,4 @@
 # Artwork Splash screen/it
-
-
 Queste sono le schermate iniziali che sono state utilizzate per ogni versione del programma.
 
 ![](images/Splashscreen09.png )
@@ -27,3 +25,6 @@ Queste sono le schermate iniziali che sono state utilizzate per ogni versione de
 {{Artwork
 
 }}
+
+---
+[documentation index](../README.md) > Artwork Splash screen/it

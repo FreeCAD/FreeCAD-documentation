@@ -1,7 +1,4 @@
 # Document structure/es
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -93,5 +90,5 @@ FreeCADGui.ActiveDocument.ActiveView
 
 </div>
 
-
-
+---
+[documentation index](../README.md) > Document structure/es

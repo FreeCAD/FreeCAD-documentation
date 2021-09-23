@@ -1,5 +1,5 @@
 # Macro Cut Circle/it
- {{Macro/it
+{{Macro/it
 |Name=Macro Cut Circle
 |Icon=Macro_Cut_Circle.png
 |Translate=Taglia Cerchio
@@ -123,3 +123,6 @@ ver 00.03 02/07/2019 : aggiunto \"App.ActiveDocument.recompute()\"
 ver 00.02 09/03/2015 : adding create arcs coloured altenat alternately Red White Red White \.... or not
 
 ver 00.01 24/02/2015 :
+
+---
+[documentation index](../README.md) > Macro Cut Circle/it

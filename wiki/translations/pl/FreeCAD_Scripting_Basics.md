@@ -1,7 +1,4 @@
 # FreeCAD Scripting Basics/pl
-
-
-
 {{TOCright}}
 
 ## Tworzenie skryptów Python w środowisku FreeCAD 
@@ -211,3 +208,6 @@ Teraz naprawdę możesz zacząć zabawę z FreeCAD! Pełna lista dostępnych mod
 }} 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > FreeCAD Scripting Basics/pl

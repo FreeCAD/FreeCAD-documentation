@@ -8,6 +8,8 @@
    SeeAlso:[TechDraw Vue Arch](TechDraw_ArchView/fr.md)
 ---
 
+# TechDraw DraftView/fr
+
 ## Description
 
 L\'outil <img alt="" src=images/TechDraw_DraftView.svg  style="width:24px;"> [Vue Draft](TechDraw_DraftView/fr.md) insère une vue d\'un objet basé sur [Part](Part_Workbench/fr.md) ou Groupe sélectionné dans une page de dessin. Contrairement à l\'outil <img alt="" src=images/TechDraw_View.svg  style="width:24px;"> [Vue](TechDraw_View/fr.md), les vues créées avec cet outil sont gérées par <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [atelier Draft](Draft_Workbench/fr.md) et spécialement conçues pour montrer des objets 2D. Voir Remarques.
@@ -74,4 +76,7 @@ rc = page.addView(dv)
 
 {{TechDraw Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw DraftView/fr

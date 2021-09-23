@@ -9,6 +9,8 @@
    SeeAlso:[Etykieta](Draft_Label/pl.md), [Kształt z tekstu](Draft_ShapeString/pl.md)
 ---
 
+# Draft Text/pl
+
 ## Opis
 
 Narzędzie <img alt="" src=images/Draft_Text.svg  style="width:24px;"> **Adnotacja wieloliniowa** wstawia wielowierszowe pole tekstowe w wybranym miejscu.
@@ -145,8 +147,5 @@ text3.ViewObject.FontSize = 200
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Text/pl

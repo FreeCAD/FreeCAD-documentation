@@ -1,10 +1,4 @@
-# Std Windows Menu/pl
-
-
-
-
-
-<img alt="Ikonka Strony Startowej" src=images/Freecad.svg  style="width:128px;">
+# <img alt="Ikonka Strony Startowej" src=images/Freecad.svg  style="width:64px;"> Std Windows Menu/pl
 
 
 {{TOCright}}
@@ -58,3 +52,6 @@ W tym menu dostępne są następujące narzędzia:
 }}  
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > [Workbenches](Category:Workbenches.md) > Std Windows Menu/pl

@@ -7,6 +7,8 @@
    SeeAlso:[Vista](TechDraw_View/it.md), [Gruppo di proiezioni](TechDraw_ProjectionGroup/it.md)
 ---
 
+# TechDraw ToggleFrame/it
+
 
 </div>
 
@@ -60,4 +62,7 @@ Per ora lo strumento non ha un\'interfaccia di programmazione.
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ToggleFrame/it

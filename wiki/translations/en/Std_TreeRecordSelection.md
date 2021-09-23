@@ -7,6 +7,8 @@
    Version:0.19
 ---
 
+# Std TreeRecordSelection/en
+
 ## Description
 
 The **Std TreeRecordSelection** command toggles the [Tree view](Tree_view.md) RecordSelection mode. If this mode is on, each Tree view selection is stored for future use. With the **<img src="images/Std_SelBack.svg" width=16px>** and **<img src="images/Std_SelForward.svg" width=16px>** buttons you can go backwards and forwards through these selections and restore them.
@@ -28,4 +30,7 @@ The Tree view RecordSelection mode can also be set in the [Preferences editor](P
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std TreeRecordSelection/en

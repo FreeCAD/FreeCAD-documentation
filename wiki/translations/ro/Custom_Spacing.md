@@ -1,6 +1,4 @@
 # Custom Spacing/ro
-
-
 ## Descriere
 
 Instrumentul Distribuire personalizată permite utilizatorului să creeze o distribuție a barei de armătură în elementul structural. Puteți defini trei segmente pentru distribuție. Pentru primul și al treilea segmente, puteți oferi atât o serie de bare de armare, cât și distanțele dintre barele de armare. Dar pentru cel de-al doilea segment, puteți da fie un număr de bare de armare sau spațiere între barele de bare, deoarece o valoare determină automat pe celelalte.
@@ -31,3 +29,6 @@ Rezultaul produs de dialogul Rebar Distribution atunci când utilizatorul face c
 
 
 [Category:User Documentation](Category:User_Documentation.md) [Category:Reinforcement](Category:Reinforcement.md)
+
+---
+[documentation index](../README.md) > [User Documentation](Category:User Documentation.md) > Custom Spacing/ro

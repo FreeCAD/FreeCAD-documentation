@@ -7,6 +7,8 @@
    SeeAlso:[Arch Couper suivant une ligne](Arch_CutLine/fr.md), [Arch Soustraire](Arch_Remove/fr.md)
 ---
 
+# Arch CutPlane/fr
+
 ## Description
 
 L\'outil Couper le plan vous permet de couper un objet Arch selon un plan:
@@ -93,8 +95,5 @@ cutObj2 = Arch.cutComponentwithPlane(main_object2, cut_face2, 1)
 FreeCAD.ActiveDocument.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CutPlane/fr

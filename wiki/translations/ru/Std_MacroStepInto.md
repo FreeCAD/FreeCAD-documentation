@@ -9,6 +9,8 @@
    SeeAlso:[Шаг с обходом](Std_MacroStepOver/ru.md), [Установить/снять точку останова](Std_ToggleBreakpoint/ru.md)
 ---
 
+# Std MacroStepInto/ru
+
 ## Описание
 
 Эта команда не работает в настоящее время.
@@ -19,4 +21,7 @@
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std MacroStepInto/ru

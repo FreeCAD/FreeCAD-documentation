@@ -6,6 +6,8 @@
    SeeAlso:[Mesh Merge](Mesh_Merge.md)
 ---
 
+# Mesh SplitComponents/pl
+
 ## Description
 
 The **Mesh SplitComponents** command splits a mesh object into its components. A mesh component is a complete group of connected faces. For each component a new non-parametric mesh object, a [Mesh Feature](Mesh_Feature.md), is created. If the original mesh object contains only one component, and this is usually the case, a single new mesh object, effectively a copy, is created. This command is the counterpart of the [Mesh Merge](Mesh_Merge.md) command.
@@ -27,4 +29,7 @@ See: [Mesh Feature](Mesh_Feature.md).
 
 {{Mesh Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh SplitComponents/pl

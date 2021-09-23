@@ -6,6 +6,8 @@
    SeeAlso:[Part RefineShape](Part_RefineShape.md)
 ---
 
+# OpenSCAD RefineShapeFeature
+
 ## Description
 
 Cleans unnecessary lines. After a Boolean operation some lines defining the previous form remain visible, this tool creates a copy of the totally cleaned.
@@ -34,4 +36,7 @@ Cleans unnecessary lines. After a Boolean operation some lines defining the prev
 
 
 
- {{OpenSCAD_Tools_navi}} 
+ {{OpenSCAD_Tools_navi}}
+
+---
+[documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD RefineShapeFeature

@@ -8,6 +8,8 @@
    SeeAlso:[Taslak Yakalama](Draft_Snap/tr.md), [Taslak Geçiş yakalama](Draft_ToggleSnap/tr.md)
 ---
 
+# Draft Snap Center/tr
+
 
 </div>
 
@@ -75,5 +77,5 @@ See [Draft Snap](Draft_Snap#Preferences.md).
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Center/tr

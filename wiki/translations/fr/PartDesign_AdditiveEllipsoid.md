@@ -8,6 +8,8 @@
    SeeAlso:[PartDesign Primitives additives](PartDesign_CompPrimitiveAdditive/fr.md)
 ---
 
+# PartDesign AdditiveEllipsoid/fr
+
 ## Description
 
 Insérer un Ellipsoïde primitif dans le Corps actif comme fonction de base, ou fusionne avec une existante.
@@ -52,4 +54,7 @@ L\'Ellipsoïde peut être édité après sa création de deux façons :
 
 {{PartDesign Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveEllipsoid/fr

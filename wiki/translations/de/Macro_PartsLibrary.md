@@ -1,5 +1,5 @@
 # Macro PartsLibrary/de
- {{Macro/de
+{{Macro/de
 |Name=Parts Library
 |Icon=FreeCAD Doc.png
 |Translate=Parts Library
@@ -28,3 +28,6 @@ Dieses Makro, das ebenfalls in der Bibliothek enthalten ist, zeigt ein Browser-F
 ToolBar Icon ![](images/FreeCAD_Doc.png )
 
 [PartsLibrary.FCMacro](http://github.com/yorikvanhavre/FreeCAD-library/blob/master/PartsLibrary.FCMacro)
+
+---
+[documentation index](../README.md) > Macro PartsLibrary/de

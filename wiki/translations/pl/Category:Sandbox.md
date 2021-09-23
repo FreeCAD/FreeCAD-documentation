@@ -6,3 +6,6 @@ This category gathers all pages used as Sandbox: a place where you can draft or 
 [CadQuery Workbench/pl](CadQuery_Workbench/pl.md) , [Cfd Workbench/pl](Cfd_Workbench/pl.md) , [ExplodedAssembly Workbench/pl](ExplodedAssembly_Workbench/pl.md) , [Macro Kerkythea/pl](Macro_Kerkythea/pl.md) , [PCB Workbench/pl](PCB_Workbench/pl.md) , [Symbols Library Workbench/pl](Symbols_Library_Workbench/pl.md) , [Timber Workbench/pl](Timber_Workbench/pl.md) , [Workfeature Workbench/pl](Workfeature_Workbench/pl.md)
 
 [Category:Categories](Category:Categories.md)
+
+---
+[documentation index](../README.md) > Category:Sandbox/pl

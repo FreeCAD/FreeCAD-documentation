@@ -1,3 +1,4 @@
+# PartDesign SubtractivePipe/ro
 ---
 - GuiCommand:   Name:PartDesign SubtractivePipe   Workbenches:[MenuLocation:Part Design → Subtractive pipe   Shortcut:None   SeeAlso:[[PartDesign AdditivePipe|Additive pipe](PartDesign_Workbench___PartDesign]].md), [Subtractive loft](PartDesign_SubtractiveLoft.md)---
 
@@ -108,4 +109,7 @@
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractivePipe/ro

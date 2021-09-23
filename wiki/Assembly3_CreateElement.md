@@ -6,6 +6,8 @@
    Shortcut:**A** **E**
 ---
 
+# Assembly3 CreateElement
+
 ## Description
 
 The <img alt="" src=images/Assembly_New_Element.svg‎‎  style="width:24px;"> [Create element](Assembly3_CreateElement.md) command creates new elements from selected objects.
@@ -20,7 +22,5 @@ It can be used to prepare **elements** before the use of constraints.  This coul
 2.  Press  or use the keyboard shortcut: **A** then **E**
 3.  (optional but recommended) Rename the elements by editing their **Label** properties.
 
-
-
-
- 
+---
+[documentation index](../README.md) > Assembly3 CreateElement

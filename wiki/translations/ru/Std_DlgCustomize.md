@@ -7,6 +7,8 @@
    SeeAlso:[Interface Customization](Interface_Customization/ru.md)
 ---
 
+# Std DlgCustomize/ru
+
 ## Описание
 
 The **Std DlgCustomize** command opens the Customize dialog box giving access to several customization options.
@@ -32,4 +34,7 @@ The **Std DlgCustomize** command opens the Customize dialog box giving access to
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std DlgCustomize/ru

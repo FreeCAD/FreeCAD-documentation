@@ -8,6 +8,8 @@
    SeeAlso:[Mostra/nascondi griglia](Draft_ToggleGrid/it.md), [Aggancio](Draft_Snap/it.md)
 ---
 
+# Draft Snap Grid/it
+
 
 </div>
 
@@ -66,5 +68,5 @@ See [Draft Snap](Draft_Snap#Preferences.md).
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Grid/it

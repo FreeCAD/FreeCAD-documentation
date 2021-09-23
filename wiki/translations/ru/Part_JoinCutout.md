@@ -8,6 +8,8 @@
    SeeAlso:[Connect](Part_JoinConnect/ru.md), [Embed](Part_JoinEmbed/ru.md), [Part Boolean](Part_Boolean/ru.md), [Part Thickness](Part_Thickness/ru.md)
 ---
 
+# Part JoinCutout/ru
+
 
 </div>
 
@@ -85,8 +87,5 @@ j.Tool = FreeCADGui.Selection.getSelection()[1]
 
 The tool itself is implemented in Python, see {{FileName|/Mod/Part/JoinFeatures.py}} ([Github link](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Part/JoinFeatures.py)) under where FreeCAD is installed.
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part JoinCutout/ru

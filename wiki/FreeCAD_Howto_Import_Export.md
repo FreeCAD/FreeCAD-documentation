@@ -1,5 +1,4 @@
 # FreeCAD Howto Import Export
-
 ** "This page is WIP. Please do not translate yet. Thank you. R-Frank" (†2017, r-frank)**
 
 This page attempts to answer the most common questions asked on the FreeCAD forums on import and export of data to/from other programs. If you have a problem or question regarding FreeCAD, check below first.
@@ -259,3 +258,6 @@ Please refer to the Page [Importing From Sketchup](Importing_From_Sketchup.md)
 
 
 [Category:Common Questions](Category:Common_Questions.md)
+
+---
+[documentation index](../README.md) > FreeCAD Howto Import Export

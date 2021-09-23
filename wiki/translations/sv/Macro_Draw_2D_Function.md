@@ -1,5 +1,5 @@
 # Macro Draw 2D Function/sv
- {{Macro/sv
+{{Macro/sv
 |Name=Draw 2D Function
 |Translate=Rita 2D-funktionen
 |Icon=Macro_Draw_2D_Function.png
@@ -65,3 +65,5 @@ Part.show(WWire)
 
 }}
 
+---
+[documentation index](../README.md) > Macro Draw 2D Function/sv

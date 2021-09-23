@@ -1,5 +1,5 @@
 # Macro EdgesToArc/de
- {{Macro/de
+{{Macro/de
 |Name=EdgesToArc
 |Translate=EdgesToArc
 |Icon=Macro_EdgesToArc.png
@@ -96,6 +96,5 @@ if circular:
             FreeCAD.ActiveDocument.removeObject(shape.Name)
 }}
 
-
-
-
+---
+[documentation index](../README.md) > Macro EdgesToArc/de

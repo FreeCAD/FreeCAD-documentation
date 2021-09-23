@@ -6,6 +6,8 @@
    Workbenches:[DiseñoPieza](PartDesign_Workbench/es.md)
 ---
 
+# PartDesign PolarPattern/es
+
 ## Descripción
 
 La herramienta **Patrón polar** crea copias de una operación girando alrededor de un eje seleccionado. A partir de la versión v0.17, se puede crear un patrón polar de múltiples operaciones.
@@ -130,4 +132,7 @@ Especifica el ángulo a ser cubierto por el patrón, y el número total de forma
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign PolarPattern/es

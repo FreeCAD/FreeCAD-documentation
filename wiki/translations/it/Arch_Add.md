@@ -7,6 +7,8 @@
    SeeAlso:[Rimuovi](Arch_Remove/it.md)
 ---
 
+# Arch Add/it
+
 
 </div>
 
@@ -104,8 +106,5 @@ FreeCAD.ActiveDocument.recompute()
 
 </div>
 
-
-
-
-
-
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Add/it

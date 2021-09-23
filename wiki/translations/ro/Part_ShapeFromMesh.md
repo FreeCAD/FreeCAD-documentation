@@ -1,3 +1,4 @@
+# Part ShapeFromMesh/ro
 ---
 - GuiCommand:   Name:Part ShapeFromMesh‏‎   MenuLocation:Part → Create shape from mesh...   Workbenches:[SeeAlso:[[Part ConvertToSolid](Part_Workbench___Part]].md), [[Part RefineShape]]---
 
@@ -76,8 +77,5 @@ solid.purgeTouched()
 doc.recompute()
 ```
 
-
-
-
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part ShapeFromMesh/ro

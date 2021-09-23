@@ -9,6 +9,8 @@
    SeeAlso:[Метка](Draft_Label/ru.md), [Фигура из текста](Draft_ShapeString/ru.md)
 ---
 
+# Draft Text/ru
+
 ## Описание
 
 
@@ -193,8 +195,5 @@ text3.ViewObject.FontSize = 200
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Text/ru

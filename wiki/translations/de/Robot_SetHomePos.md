@@ -1,3 +1,4 @@
+# Robot SetHomePos/de
 ---
 - GuiCommand:/de   Name:Robot SetHomePos   Workbenches:[[Robot_Workbench   Robot]]|MenuLocation:Roboter → Setzen Sie die Ausgangsposition---
 
@@ -43,4 +44,7 @@ Anfangs wird die Position des Roboters zum Einfügezeitpunkt als Home-Position d
 
 {{Robot_Tools_navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot SetHomePos/de

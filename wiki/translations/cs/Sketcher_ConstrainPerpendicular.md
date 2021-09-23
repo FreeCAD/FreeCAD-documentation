@@ -1,3 +1,4 @@
+# Sketcher ConstrainPerpendicular/cs
 ---
 - GuiCommand:/cs   Name:Constraint Perpendicular   Name/cs:Constraint Perpendicular   Workbenches:[Návrh dílu](Sketcher_Workbench/cs___Náčrt]],_[[PartDesign_Workbench/cs.md)|MenuLocation:Sketch → Sketcher constraints → Constrain perpendicular   Shortcut:N   SeeAlso:[Vazba úhlu](Constraint_InternalAngle/cs.md)---
 
@@ -108,4 +109,7 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainPerpendicular/cs

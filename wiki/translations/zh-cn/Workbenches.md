@@ -1,7 +1,4 @@
 # Workbenches/zh-cn
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -107,3 +104,6 @@ FreeCAD工作台很容易在[Python](http://www.python.org)中编程，所以很
 
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Workbenches/zh-cn

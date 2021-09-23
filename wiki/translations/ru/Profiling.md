@@ -1,6 +1,4 @@
 # Profiling/ru
-
-
 ## Описание
 
 Profiling the code of FreeCAD helps find bottlenecks in the algorithms used to create or manipulate objects.
@@ -41,3 +39,6 @@ kcachegrind /tmp/callgrind.out
 }} 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Profiling/ru

@@ -7,6 +7,8 @@
    SeeAlso:[Rimuovi componente](Mesh_RemoveComponents/it.md), [Arch Suddividere un oggetto mesh](Arch_SplitMesh/it.md)
 ---
 
+# Mesh RemoveCompByHand/it
+
 ## Descrizione
 
 Il comando **Rimuovi componenti a mano** rimuove i componenti dagli oggetti mesh.
@@ -36,4 +38,7 @@ Il comando **Rimuovi componenti a mano** rimuove i componenti dagli oggetti mesh
 
 {{Mesh Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh RemoveCompByHand/it

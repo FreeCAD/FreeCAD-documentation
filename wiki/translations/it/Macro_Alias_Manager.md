@@ -1,5 +1,5 @@
 # Macro Alias Manager/it
- {{Macro/it
+{{Macro/it
 |Name=Alias Manager
 |Icon=aliasmanager_icon.png
 |Description=Aiuta a gestire gli alias all'interno dell'ambiente Foglio di calcolo di FreeCAD . È in grado di creare, cancellare, spostare gli alias e creare una 'famiglia di parti'.
@@ -403,6 +403,5 @@ ToolBar Icon <img alt="" src=images/Aliasmanager_icon.png  style="width:32px;">
             self.dialog2.exec_()
     p()
 
-
-
-
+---
+[documentation index](../README.md) > Macro Alias Manager/it

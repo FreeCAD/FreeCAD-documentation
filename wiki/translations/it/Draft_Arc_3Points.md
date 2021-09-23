@@ -9,6 +9,8 @@
    Version:0.19
 ---
 
+# Draft Arc 3Points/it
+
 
 </div>
 
@@ -158,5 +160,5 @@ doc.recompute()
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Arc 3Points/it

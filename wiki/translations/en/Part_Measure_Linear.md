@@ -5,6 +5,8 @@
    Workbenches:[Part](Part_Workbench.md)
 ---
 
+# Part Measure Linear/en
+
 ## Description
 
 This tool measures the distance between two selected topology elements (vertex, edge, face) and displays the measurement in the [3D view](3D_view.md). The shortest distance between the two elements is shown in red, and delta measurements (distances parallel to standard X, Y, Z axes) are shown in green.
@@ -20,8 +22,5 @@ This tool measures the distance between two selected topology elements (vertex, 
 3.  Alternatively the command can be launched without prior selection. A selection dialog then opens in the [Task panel](Task_panel.md). A Control widget also provides buttons to reset the selection, toggle the measurement display in the [3D view](3D_view.md), and clear all measurements.
 4.  Measurements are automatically discarded when closing the document.
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Linear/en

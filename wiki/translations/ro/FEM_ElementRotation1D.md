@@ -1,3 +1,4 @@
+# FEM ElementRotation1D/ro
 ---
 - GuiCommand:   Name:FEM ElementRotation1D   MenuLocation: Model → Beam rotation   |Workbenches:[Shortcut:   SeeAlso:[[FEM_tutorial|FEM tutorial](FEM_Workbench___FEM]].md)---
 
@@ -39,4 +40,7 @@ De completat
 
 {{FEM Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > FEM ElementRotation1D/ro

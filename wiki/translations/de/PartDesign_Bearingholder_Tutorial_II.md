@@ -1,8 +1,4 @@
 # PartDesign Bearingholder Tutorial II/de
-
-
-
-
 {{TutorialInfo
 |Topic=Modeling
 |Level=Experienced User
@@ -95,3 +91,6 @@ Für den Rest der soaneneden Bearbeitung erzeuge einen neuen Körper. Der Boden 
 
 
 [Category:Tutorials](Category:Tutorials.md)
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Bearingholder Tutorial II/de

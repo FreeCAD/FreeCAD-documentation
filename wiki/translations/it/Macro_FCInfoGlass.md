@@ -1,5 +1,5 @@
 # Macro FCInfoGlass/it
- {{Macro/it
+{{Macro/it
 |Name=Macro FCInfoGlass
 |Translate=Info su fondo trasparente
 |Description=Fornisce una serie di informazioni sulla forma selezionata e visualizza i dati nello schermo 3D.
@@ -222,3 +222,6 @@ Le mie macro in [mario52a](https://gist.github.com/mario52a) gists
 **31/08/2015 Ver 0.03** : add many informations
 
 **04/08/2015 Ver 0.02** : add switch and presentation
+
+---
+[documentation index](../README.md) > Macro FCInfoGlass/it

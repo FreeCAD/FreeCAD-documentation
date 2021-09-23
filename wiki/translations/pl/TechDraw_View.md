@@ -7,6 +7,8 @@
    SeeAlso:[Grupa rzutów](TechDraw_ProjectionGroup/pl.md), [Widok przekroju](TechDraw_SectionView/pl.md)
 ---
 
+# TechDraw View/pl
+
 ## Opis
 
 Narzędzie Widok dodaje reprezentację jednego lub więcej obiektów do strony Rysunku. Jest to podstawowy element środowiska Rysunek Techniczny. Większość innych widoków pochodzi w jakiś sposób od metody Nowy widok.
@@ -131,4 +133,7 @@ FreeCAD.ActiveDocument.View.Direction = (0.0,0.0,1.0)
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw View/pl

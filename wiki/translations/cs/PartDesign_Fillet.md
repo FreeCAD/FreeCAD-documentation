@@ -1,3 +1,4 @@
+# PartDesign Fillet/cs
 ---
 - GuiCommand:/cs   Name:PartDesign Fillet   Name/cs:PartDesign Fillet   Workbenches:[MenuLocation:PartDesign → Fillet   SeeAlso:[[Part Fillet/cs|Part Fillet](PartDesign_Workbench/cs___PartDesign]],_Complete.md)---
 
@@ -146,4 +147,7 @@ Part.show(Box)
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Fillet/cs

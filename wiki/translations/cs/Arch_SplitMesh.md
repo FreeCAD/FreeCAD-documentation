@@ -1,3 +1,4 @@
+# Arch SplitMesh/cs
 ---
 - GuiCommand:/cs   Name:Arch SplitMesh   Name/cs:Arch Rozděl síť   Workbenches:[MenuLocation:Arch → Utilities → Split Mesh   SeeAlso:[[Arch SelectNonSolidMeshes/cs|Arch SelectNonSolidMeshes](Arch_Workbench/cs___Arch]].md)---
 
@@ -80,11 +81,5 @@ mesh_obj.ViewObject.DisplayMode = "Flat Lines"
 new_list = Arch.splitMesh(mesh_obj)
 ```
 
-
-
-
-
-
-
-
-
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SplitMesh/cs

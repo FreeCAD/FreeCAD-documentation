@@ -1,7 +1,4 @@
 # Whiffle Ball tutorial/ro
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -402,4 +399,7 @@ Felicitări! Tocmai ați terminat cu succes acest tutorial!
 
 {{Tutorials navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Whiffle Ball tutorial/ro

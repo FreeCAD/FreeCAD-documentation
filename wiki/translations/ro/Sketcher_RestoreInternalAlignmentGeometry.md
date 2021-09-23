@@ -1,3 +1,4 @@
+# Sketcher RestoreInternalAlignmentGeometry/ro
 ---
 - GuiCommand:   Name:Sketcher RestoreInternalAlignmentGeometry   Workbenches:[PartDesign](Sketcher_Workbench___Sketcher]],_[[PartDesign_Workbench.md)|MenuLocation:Sketch → Sketcher tools → Show/hide internal geometry   Shortcut:Ctrl+Shift+E   SeeAlso:[Ellipse](Sketcher_Ellipse.md), [Internal Alignment Constraint](Sketcher_ConstrainInternalAlignment.md)---
 
@@ -57,4 +58,7 @@ Creați o nouă elipsă. Noi elipse sunt întotdeauna complet ambalate. Veți ve
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher RestoreInternalAlignmentGeometry/ro

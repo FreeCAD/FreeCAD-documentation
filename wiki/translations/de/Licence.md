@@ -1,10 +1,4 @@
 # Licence/de
-
-
-
-
-
-
 {{TOCright}}
 
 ## In FreeCAD benutzte Lizenzen 
@@ -61,3 +55,6 @@ Gleichwohl betrifft diese Entscheidung lediglich das Core-System von FreeCAD. Je
  
 
 [Category:Developer Documentation](Category:Developer_Documentation.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Licence/de

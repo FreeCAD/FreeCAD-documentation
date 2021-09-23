@@ -1,7 +1,4 @@
-# Plot Module/pt-br
-
-
-<img alt="Plot workbench icon" src=images/Workbench_Plot.svg  style="width:128px;">
+# <img alt="Plot workbench icon" src=images/Workbench_Plot.svg  style="width:64px;"> Plot Module/pt-br
 
 
 {{TOCright}}
@@ -92,3 +89,6 @@ Como o Plot Workbench é uma camada sobre `matplotlib`, você está livre para u
 }} 
 
 [Category:External\_Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)
+
+---
+[documentation index](../README.md) > [External_Workbenches](Category:External_Workbenches.md) > Plot Module/pt-br

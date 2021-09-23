@@ -7,6 +7,8 @@
    Version:0.19
 ---
 
+# Rocket CenteringRing/fr
+
 ## Description
 
 Un anneau de centrage est un objet solide utilisé pour maintenir un ou plusieurs tubes du corps à l\'intérieur d\'un autre tube du corps.
@@ -95,3 +97,6 @@ A définir
 
 
 [Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+
+---
+[documentation index](../README.md) > [API/fr]] et ](Category:API/fr]] et .md) > Rocket CenteringRing/fr

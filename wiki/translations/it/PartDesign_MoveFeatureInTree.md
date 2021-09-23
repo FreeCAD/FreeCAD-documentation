@@ -10,6 +10,8 @@
 
 ---
 
+# PartDesign MoveFeatureInTree/it
+
 
 </div>
 
@@ -54,4 +56,7 @@ Le tre immagini seguenti mostrano lo stesso modello con una tasca definita da un
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign MoveFeatureInTree/it

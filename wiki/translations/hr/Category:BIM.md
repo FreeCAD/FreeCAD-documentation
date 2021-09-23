@@ -6,3 +6,6 @@ This category is for pages related to building information management (BIM).
 [BIM Workbench/hr](BIM_Workbench/hr.md) , [Manual:BIM modeling/hr](Manual:BIM_modeling/hr.md) ,
 
 [Category:User Documentation/hr](Category:User_Documentation/hr.md) [Category:Arch/hr](Category:Arch/hr.md)
+
+---
+[documentation index](../README.md) > Category:BIM/hr

@@ -8,6 +8,8 @@
    SeeAlso:[TechDraw Vorlagen](TechDraw_Templates/de.md), [Entwurf SVG](Draft_SVG/de.md), [TechDraw Führungslinie](TechDraw_LeaderLine/de.md)
 ---
 
+# TechDraw RichTextAnnotation/de
+
 ## Beschreibung
 
 Das FormatierterTextBlock Werkzeug fügt einen formatierten Anmerkungsblock zu einer [Führunglinie](TechDraw_LeaderLine/de.md) oder einer Ansicht hinzu.
@@ -61,4 +63,7 @@ blockObj.AnnoText = myHTMLText
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw RichTextAnnotation/de

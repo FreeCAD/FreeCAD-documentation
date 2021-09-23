@@ -4,3 +4,6 @@ This category has links to common questions on how to do something in FC. This i
 ### Contents:
 
 [Help FreeCAD/pt](Help_FreeCAD/pt.md) , [Installing on Linux/pt](Installing_on_Linux/pt.md) , [Video tutorials/pt](Video_tutorials/pt.md)
+
+---
+[documentation index](../README.md) > Category:Common Questions/pt

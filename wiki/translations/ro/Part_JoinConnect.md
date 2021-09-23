@@ -7,6 +7,8 @@
    SeeAlso:[Part JoinEmbed](Part_JoinEmbed.md), [Part JoinCutout](Part_JoinCutout.md), [Part Boolean](Part_Boolean.md), [Part Thickness](Part_Thickness.md)
 ---
 
+# Part JoinConnect/ro
+
 
 </div>
 
@@ -156,8 +158,5 @@ Instrumentul este re-implementat via generalFuse in FreeCAD v0.17.8053
 
 </div>
 
-
-
-
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part JoinConnect/ro

@@ -1,7 +1,4 @@
 # FEM Example Capacitance Two Balls/fr
-
-
-
 {{TutorialInfo/fr
 |Topic= Analyse par les éléments finis
 |Level=Débutant
@@ -121,4 +118,7 @@ Ce cas présente la solution de la capacité de sphères parfaitement conductric
 
 {{Tutorials navi
 
-}} {{FEM Tools navi}}  
+}} {{FEM Tools navi}}
+
+---
+[documentation index](../README.md) > FEM Example Capacitance Two Balls/fr

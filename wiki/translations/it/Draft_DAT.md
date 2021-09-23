@@ -1,7 +1,4 @@
 # Draft DAT/it
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -37,3 +34,6 @@ Di questo formato esistono molti *dialetti*, questo modulo di importazione cerca
  
 
 [Category:File Formats](Category:File_Formats.md)
+
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft DAT/it

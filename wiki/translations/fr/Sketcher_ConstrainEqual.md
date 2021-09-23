@@ -8,6 +8,8 @@
    SeeAlso:[Sketcher Contrainte rayon](Sketcher_ConstrainRadius/fr.md)
 ---
 
+# Sketcher ConstrainEqual/fr
+
 ## Description
 
 La **Contrainte d\'égalité** contraint deux ou plusieurs segments de ligne, polyligne ou de rectangle d\'avoir une longueur égale. Si elle est appliquée à des arcs de cercles ou des cercles, leurs rayons sont contraints à devenir égaux. La contrainte ne peut pas être appliquée à des primitives géométriques qui ne sont pas du même type (par exemple des segments de ligne et des arcs).
@@ -63,4 +65,7 @@ La page [Sketcher Scripts](Sketcher_scripting/fr.md) explique les valeurs qui pe
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainEqual/fr

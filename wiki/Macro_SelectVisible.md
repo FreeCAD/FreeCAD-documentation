@@ -1,5 +1,5 @@
 # Macro SelectVisible
-  {{Macro
+{{Macro
 |Name=Macro SelectVisible
 |Icon=SelectVisible.png
 |Description=All visible objects in the tree and only these will be selected.
@@ -52,4 +52,7 @@ else:
     for o in doc.Objects:
         if o.ViewObject.Visibility:
             Gui.Selection.addSelection(o)
-}} 
+}}
+
+---
+[documentation index](../README.md) > Macro SelectVisible

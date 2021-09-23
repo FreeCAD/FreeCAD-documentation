@@ -8,6 +8,8 @@
    Shortcut:**A** **C**
 ---
 
+# Std AxisCross/ru
+
 
 </div>
 
@@ -57,4 +59,7 @@ FreeCADGui.ActiveDocument.ActiveView.hasAxisCross()
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std AxisCross/ru

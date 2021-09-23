@@ -1,3 +1,4 @@
+# Std SaveCopy/ro
 ---
 - GuiCommand:/ro   Name:Std SaveaCopy   Name/ro:Std SaveaCopy   MenuLocation:[Workbenches:All   Shortcut:C   SeeAlso:[[Std_Save/ro|Save](Std_File_Menu/ro___File]]_→_Save_a_Copy....md), [Save as...](Std_SaveAs/ro.md) ---
 
@@ -57,4 +58,7 @@ doc.saveCopy(fnm)
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std SaveCopy/ro

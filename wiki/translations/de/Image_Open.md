@@ -7,6 +7,8 @@
    SeeAlso:[Bild Ebene](Image_CreateImagePlane/de.md), [Bild Skalieren](Image_Scaling/de.md)
 ---
 
+# Image Open/de
+
 ## Beschreibung
 
 Das [Bild Öffnen](Image_Open/de.md)-Werkzeug öffnet einfach ein Bild aus deinem System in einem neuen Reiter im Ansichtsfenster.
@@ -24,4 +26,7 @@ Das Bild wird in einem neuen Ansichtsfenster platziert, nicht in der 3D Ansicht.
 
 {{Image Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Image](Image_Workbench.md) > Image Open/de

@@ -327,3 +327,6 @@ Formati dei file
 {{languages/it | {{}}
 
 }}
+
+---
+[documentation index](../README.md) > ManualArch/it

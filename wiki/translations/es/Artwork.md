@@ -1,5 +1,5 @@
 # Artwork/es
-  Here is the artwork that has been created for FreeCAD. Feel free to reuse in other applications. If you would like to contribute with icons, please read the [artwork guidelines](Artwork_Guidelines.md).
+Here is the artwork that has been created for FreeCAD. Feel free to reuse in other applications. If you would like to contribute with icons, please read the [artwork guidelines](Artwork_Guidelines.md).
 
 ## Otros iconos 
 
@@ -157,3 +157,6 @@ See [Artwork Erroneous](Artwork_Erroneous.md).
 }}
 
 [Category:Icon](Category:Icon.md) [Category:Developer Documentation](Category:Developer_Documentation.md)
+
+---
+[documentation index](../README.md) > [Icon](Category:Icon.md) > Artwork/es

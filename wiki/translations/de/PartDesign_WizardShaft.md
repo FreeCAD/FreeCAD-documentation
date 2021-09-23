@@ -6,6 +6,8 @@
    Workbenches:[PartDesign](PartDesign_Workbench/de.md)
 ---
 
+# PartDesign WizardShaft/de
+
 ## Beschreibung
 
 Dieses Werkzeug ermöglicht es dir, eine Welle aus einer Wertetabelle zu erstellen und Kräfte und Momente zu analysieren. Du kannst den Assistenten über das Menü Part Design starten **Part Design → <img src=images/PartDesign_WizardShaft.svg style="width:20px">  Wellenauslegungs-Assistent...**.
@@ -65,4 +67,7 @@ Um ein neues Wellensegment hinzuzufügen, klicken Sie mit der rechten Maustaste 
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign WizardShaft/de

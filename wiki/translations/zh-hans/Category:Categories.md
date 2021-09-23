@@ -11,3 +11,6 @@ This is the **top category** which contains the main categories of the FreeCAD w
 , ,
 
 [Category:Categories/zh-hans](Category:Categories/zh-hans.md) [Category:Addons/zh-hans](Category:Addons/zh-hans.md) [Category:Categories/zh-hans](Category:Categories/zh-hans.md) [Category:Documentation/zh-hans](Category:Documentation/zh-hans.md)
+
+---
+[documentation index](../README.md) > Category:Categories/zh-hans

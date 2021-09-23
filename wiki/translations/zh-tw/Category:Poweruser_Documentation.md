@@ -4,3 +4,6 @@ This category shows documentation articles dealing with python scripting, which 
 ### Contents:
 
 [Category:Documentation/zh-tw](Category:Documentation/zh-tw.md)
+
+---
+[documentation index](../README.md) > Category:Poweruser Documentation/zh-tw

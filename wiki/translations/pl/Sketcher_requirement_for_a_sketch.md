@@ -1,7 +1,4 @@
 # Sketcher requirement for a sketch/pl
-
-
-
 {{TutorialInfo/pl
 |Topic=Szkicownik
 |Level=Początkujący
@@ -44,4 +41,7 @@ Jeśli przypadkowo utworzysz *nadmierną ilość wiązań*, pojawi się ostrzeż
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher requirement for a sketch/pl

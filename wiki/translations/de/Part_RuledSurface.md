@@ -7,6 +7,8 @@
    SeeAlso:
 ---
 
+# Part RuledSurface/de
+
 
 </div>
 
@@ -31,5 +33,5 @@ Erstelle Geregelte Oberfläche
 
 </div>
 
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part RuledSurface/de

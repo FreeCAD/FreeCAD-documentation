@@ -7,6 +7,8 @@
    Workbenches:Tutti
 ---
 
+# Std SceneInspector/it
+
 
 </div>
 
@@ -40,4 +42,7 @@ Il comando **Ispettore di scena** apre una finestra di dialogo che mostra una pa
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std SceneInspector/it

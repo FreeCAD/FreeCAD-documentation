@@ -7,6 +7,8 @@
    SeeAlso:[Std Gruppe](Std_Group/de.md), [Draft Zur Gruppe hinzufügen...](Draft_AddToGroup/de.md), [Draft zur Konstruktionsgruppe hinzufügen](Draft_AddConstruction/de.md), [Draft Autogruppe](Draft_AutoGroup/de.md)
 ---
 
+# Draft SelectGroup/de
+
 ## Beschreibung
 
 Der <img alt="" src=images/Draft_SelectGroup.svg  style="width:24px;"> **Draft Wähle Gruppe**-Befehl selektiert den Inhalt von [Entwurf Schicht](Draft_Layer/de.md), [Std Gruppe](Std_Group/de.md) oder gruppenähnlichen [Arch](Arch_Workbench/de.md)-Objekten.
@@ -30,8 +32,5 @@ Der Befehl arbeitet momentan nicht gut mit Ebenen und kann verwirrende Ergebniss
 
 -   Mehr Informationen über das Organisieren deines Modells findest du in [Documentstruktur](Document_structure/de.md) und [Arch Tutorium](Arch_tutorial/de#Ihr_Modell_organisieren.md).
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft SelectGroup/de

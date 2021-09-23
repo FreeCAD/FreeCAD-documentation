@@ -5,6 +5,8 @@
    SeeAlso:[Draft Snap](Draft_Snap.md), [Draft Snap Lock](Draft_Snap_Lock.md), [Draft SelectPlane](Draft_SelectPlane.md)
 ---
 
+# Draft Snap Dimensions/pt-br
+
 ## Descrição
 
 The <img alt="" src=images/Draft_Snap_Dimensions.svg  style="width:24px;"> **Draft Snap Dimensions** option shows temporary X and Y dimensions. They display the X and Y distance between the cursor and the previous point in the [working plane](Draft_SelectPlane.md) coordinate system. The dimensions are created on the [working plane](Draft_SelectPlane.md).
@@ -39,5 +41,5 @@ See [Draft Snap](Draft_Snap#Preferences.md).
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Dimensions/pt-br

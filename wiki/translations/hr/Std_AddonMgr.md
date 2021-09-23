@@ -7,6 +7,8 @@
    SeeAlso:[External workbenches](External_workbenches.md), [Macros](Macros.md)
 ---
 
+# Std AddonMgr/hr
+
 ## Description
 
 The **Std AddonMgr** command opens the Addon manager. With the Addon manager you can install and manage [external workbenches](external_workbenches.md) and [macros](macros.md) provided by the FreeCAD community. The available workbenches and macros are taken from two repositories, [FreeCAD-addons](https://github.com/FreeCAD/FreeCAD-addons/) and [FreeCAD-macros](https://github.com/FreeCAD/FreeCAD-macros/), and from the [Macros recipes](Macros_recipes.md) page.
@@ -77,4 +79,7 @@ If you develop a workbench in C++, it cannot be run directly by users and must b
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std AddonMgr/hr

@@ -1,3 +1,4 @@
+# Part Spiral/it
 ---
 - GuiCommand:/it   Name:Part Spiral   Name/it:Spirale   MenuLocation:Parte → [Workbenches:[[Part_Workbench/it   Parte](Part_CreatePrimitives/it___Crea_primitive]]_→_Spirale.md)|Version:0.14   SeeAlso:[Crea primitive](Part_CreatePrimitives/it.md)---
 
@@ -22,8 +23,5 @@ Il dialogo **Crea Primitive** è accessibile tramite l\'icona [Crea Primitive](P
 
 ![](images/Spiral_y45_it.png )
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Spiral/it

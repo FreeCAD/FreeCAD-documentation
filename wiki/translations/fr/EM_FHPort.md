@@ -9,6 +9,8 @@
    Version:0.17
 ---
 
+# EM FHPort/fr
+
 ## Description
 
 L\'outil FHPort crée un port FastHenry entre deux objets FHNode.
@@ -65,4 +67,7 @@ fhport = EM.makeFHPort(fhnode_p, fhnode_n)
 
 {{EM Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > EM FHPort/fr

@@ -7,6 +7,8 @@
    SeeAlso:[Constrain radius](Sketcher_ConstrainRadius.md)
 ---
 
+# Sketcher ConstrainEqual/ro
+
 
 </div>
 
@@ -96,4 +98,7 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainEqual/ro

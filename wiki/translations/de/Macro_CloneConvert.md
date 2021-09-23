@@ -1,5 +1,5 @@
 # Macro CloneConvert/de
- {{Macro/de
+{{Macro/de
 |Name=Macro CloneConvert
 |Translate=Macro CloneConvert
 |Icon=Macro_CloneConvert.png
@@ -137,3 +137,6 @@ Laden Sie das Makro in herunter Gist [Macro\_CloneConvert.FCMacro](https://gist.
 02/07/2014 ver. 0.3 = modified to operate PyQt4 and PySide
 
 09/05/2014 ver. 0.2 = adding function \"Copy\"
+
+---
+[documentation index](../README.md) > Macro CloneConvert/de

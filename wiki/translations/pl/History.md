@@ -1,5 +1,5 @@
 # History/pl
- \_\_FORCETOC\_\_
+\_\_FORCETOC\_\_
 
 ## Początki
 
@@ -140,3 +140,6 @@ W kwietniu 2019 roku zespół core developerów został powiększony: Jürgen, W
 -   [Ogłoszenie projektu FreeCAD](http://www.opencascade.org/org/forum/thread_6572/?forum=11) na forum OpenCascade
 
 [Category:News](Category:News.md)
+
+---
+[documentation index](../README.md) > [News](Category:News.md) > History/pl

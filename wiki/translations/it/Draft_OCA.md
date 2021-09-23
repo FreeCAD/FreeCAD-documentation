@@ -1,7 +1,4 @@
 # Draft OCA/it
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -129,3 +126,6 @@ importOCA.export(objects, "/home/user/Pictures/myfile.oca")
  
 
 [Category:File Formats](Category:File_Formats.md)
+
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft OCA/it

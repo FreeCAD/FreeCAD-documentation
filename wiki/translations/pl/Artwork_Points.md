@@ -1,6 +1,4 @@
 # Artwork Points/pl
- 
-
 Ikony te znajdują się we wskazanej ścieżce źródłowej.
 
 Wszystkie ikonki widoczne na liście źródłowej, patrz [Grafika](Artwork/pl.md).
@@ -17,3 +15,6 @@ Wszystkie ikonki widoczne na liście źródłowej, patrz [Grafika](Artwork/pl.md
 }} 
 
 [Category:Points](Category:Points.md)
+
+---
+[documentation index](../README.md) > [Points](Category:Points.md) > Artwork Points/pl

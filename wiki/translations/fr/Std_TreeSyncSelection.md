@@ -8,6 +8,8 @@
    Version:0.19
 ---
 
+# Std TreeSyncSelection/fr
+
 ## Description
 
 La commande **Std Synchroniser la sélection** bascule le mode SyncSelection de la [vue en arborescence](tree_view/fr.md). Si ce mode est activé, la sélection d\'un objet dans une [vue 3D](3D_view/fr.md) étendra automatiquement l\'arborescence pour afficher cet objet.
@@ -29,4 +31,7 @@ Le mode Expansion synchrone de l\'arborescence peut également être défini dan
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std TreeSyncSelection/fr

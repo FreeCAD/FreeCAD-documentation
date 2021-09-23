@@ -1,10 +1,4 @@
 # Robot Workbench
- 
-
-
-
-
-
 **The Robot Workbench is unmaintained. If you have experience with the topic and are interested in maintaining it, please state your intention in the developer's section of the [https://forum.freecadweb.org/index.php FreeCAD forum].
 
 
@@ -76,3 +70,6 @@ See the [Robot API example](Robot_API_example.md) for a description of the funct
  {{Robot Tools navi}} 
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Robot Workbench

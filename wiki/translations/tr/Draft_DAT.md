@@ -1,10 +1,4 @@
 # Draft DAT/tr
-
-
-
-
-
-
 <div class="mw-translate-fuzzy">
 
 Ortak kanat profili veri biçimi, ilk 1-2 satırdaki kanat profili ile ilgili isteğe bağlı meta verileri ve üst ve alt yüzeyin koordinatlarını içeren basit bir dosyadır.
@@ -30,3 +24,6 @@ Bu formata farklı lehçeler var, bu yüzden bu içe aktarma modülü neredeyse 
  
 
 [Category:User Documentation/tr](Category:User_Documentation/tr.md) [Category:File Formats](Category:File_Formats.md)
+
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft DAT/tr

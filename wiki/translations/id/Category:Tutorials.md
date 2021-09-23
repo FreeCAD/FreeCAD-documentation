@@ -8,3 +8,6 @@ Special pages are [Offsite tutorials/id](Offsite_tutorials/id.md) and [Video tut
 [Template:TutorialInfo/id](Template:TutorialInfo/id.md) , [Tutorials/id](Tutorials/id.md)
 
 [Category:Categories/id](Category:Categories/id.md)
+
+---
+[documentation index](../README.md) > Category:Tutorials/id

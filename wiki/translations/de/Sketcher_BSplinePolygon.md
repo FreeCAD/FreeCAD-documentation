@@ -8,6 +8,8 @@
    SeeAlso:[B-Spline erzeugen](Sketcher_CompCreateBSpline/de.md) 
 ---
 
+# Sketcher BSplinePolygon/de
+
 
 </div>
 
@@ -45,4 +47,7 @@ Zeigt oder Blendet die Anzeige des definierten Polygons einer B-Spline Kurve aus
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplinePolygon/de

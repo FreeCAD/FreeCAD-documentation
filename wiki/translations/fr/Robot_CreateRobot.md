@@ -6,6 +6,8 @@
    MenuLocation:Robot → Insérer des robots
 ---
 
+# Robot CreateRobot/fr
+
 
 </div>
 
@@ -73,4 +75,7 @@ Les robots prédéfinis sont:
 
 {{Robot_Tools_navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot CreateRobot/fr

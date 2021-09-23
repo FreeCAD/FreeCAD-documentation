@@ -6,6 +6,8 @@
    MenuLocation:Manage → Layers
 ---
 
+# BIM Layers/en
+
 ## Description
 
 <img alt="" src=images/BIM_layers_screenshot.png  style="width:1024px;">
@@ -15,3 +17,6 @@ The layers manager allows you to manage [layers](Draft_Layer.md). Layers are a s
 Layers are imported and exported from/to [IFC](Arch_IFC.md) and [DXF/DWG](Draft_DXF.md).
 
 The layers manager allow you to manage your layers, add or remove layers, or change their visual properties. To add objects to a layer, simply drag them into the layer in the tree view. To remove them, drag them from the layer and drop them into the document root.
+
+---
+[documentation index](../README.md) > BIM Layers/en

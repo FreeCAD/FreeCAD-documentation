@@ -7,6 +7,8 @@
    SeeAlso:[Part Boolean Fragments](Part_BooleanFragments.md), [Part XOR](Part_XOR.md), [Part Join features](Part_CompJoinFeatures.md), [Part Boolean](Part_Boolean.md)
 ---
 
+# Part Slice/pt-br
+
 ## Description
 
 The <img alt="" src=images/Part_Slice.svg  style="width:24px;"> [Part Slice](Part_Slice.md) also known as **Slice to compound** tool is used to split shapes by intersection with other shapes. For example, for a box and a plane, a compound of two solids is created.
@@ -126,8 +128,5 @@ The tool itself is implemented in Python, see {{FileName|/Mod/Part/BOPTools/Spli
 
 -   [FreeCAD Slice und Slice Apart und andere Tricks](https://www.youtube.com/watch?v=JJAL5JmqqKQ) (German language), author: Ha Gei
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Slice/pt-br

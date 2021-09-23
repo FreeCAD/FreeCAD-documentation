@@ -1,3 +1,4 @@
+# Draft Move/sv
 ---
 - GuiCommand:/sv   Name:Draft Move   Name/sv:Draft Move   Workbenches:[Arch](Draft_Workbench/sv___Draft]],_[[Arch_Workbench/sv.md)|MenuLocation:Draft -> Move   Shortcut:M V---
 
@@ -122,8 +123,5 @@ list3 = Draft.move(list1, -2*vector, copy=True)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Move/sv

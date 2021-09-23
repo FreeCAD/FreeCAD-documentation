@@ -7,6 +7,8 @@
    SeeAlso:[Unisci](Mesh_Merge/it.md)
 ---
 
+# Mesh Union/it
+
 ## Descrizione
 
 Il comando **Unione** crea un nuovo oggetto mesh non parametrico, un [Mesh Feature](Mesh_Feature/it.md), che è l\'unione (fusione) di due oggetti mesh.
@@ -42,4 +44,7 @@ Vedere [Mesh Feature](Mesh_Feature/it.md).
 
 {{Mesh Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Union/it

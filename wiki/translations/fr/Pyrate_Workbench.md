@@ -1,9 +1,4 @@
 # Pyrate Workbench/fr
-
-
-
-
-
 ## Introduction
 
 
@@ -18,3 +13,6 @@ Cet atelier est un nouveau style d\'atelier. Cela signifie qu\'il est prévu de 
 
 
 [Category:User Documentation](Category:User_Documentation.md) [Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+
+---
+[documentation index](../README.md) > Pyrate Workbench/fr

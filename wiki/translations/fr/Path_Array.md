@@ -6,6 +6,8 @@
    Workbenches:[Path](Path_Workbench/fr.md)
 ---
 
+# Path Array/fr
+
 ## Description
 
 Cet outil crée un nouveau chemin en duplicant un autre chemin plusieurs fois avec un intervale donné.
@@ -50,4 +52,7 @@ Exemple :
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Array/fr

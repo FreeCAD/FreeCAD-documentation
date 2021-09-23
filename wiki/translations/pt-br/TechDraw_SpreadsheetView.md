@@ -5,6 +5,8 @@
    Workbenches:[TechDraw](TechDraw_Workbench.md), [Spreadsheet](Spreadsheet_Workbench.md)
 ---
 
+# TechDraw SpreadsheetView/pt-br
+
 ## Description
 
 This tool allows you to place a view of a selected [spreadsheet](Spreadsheet_Workbench.md) on a [Page](TechDraw_Workbench.md).
@@ -38,4 +40,7 @@ This tool allows you to place a view of a selected [spreadsheet](Spreadsheet_Wor
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw SpreadsheetView/pt-br

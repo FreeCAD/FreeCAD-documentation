@@ -9,6 +9,8 @@
    SeeAlso:[Entwurf Bogen](Draft_Arc/de.md), [Entwurf Kreis](Draft_Circle/de.md), [Entwurf Ellipse](Draft_Ellipse/de.md)
 ---
 
+# Draft Arc 3Points/de
+
 
 </div>
 
@@ -130,5 +132,5 @@ doc.recompute()
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Arc 3Points/de

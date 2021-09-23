@@ -1,10 +1,4 @@
-# Part Module/zh-cn
-
-
-
-
-
-<img alt="Part workbench icon" src=images/Workbench_Part.svg  style="width:128px;">
+# <img alt="Part workbench icon" src=images/Workbench_Part.svg  style="width:64px;"> Part Module/zh-cn
 
 
 {{TOCright}}
@@ -347,3 +341,6 @@ These tools perform boolean operations.
  
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Module/zh-cn

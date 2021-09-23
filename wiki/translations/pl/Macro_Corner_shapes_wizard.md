@@ -1,5 +1,5 @@
 # Macro Corner shapes wizard/update/pl
- {{Macro
+{{Macro
 |Icon=Macro_Corner_shapes_wizard.png
 |Name=Corner shapes wizard/update
 |Description=To makro jest kompletną aplikacją, wyświetla okno dialogowe z prośbą o podanie wymiarów kątownika, a następnie tworzy obiekt w dokumencie i tworzy widok strony z rzutami elementu: górnym, przednim i bocznym. <br/> To makro używa Środowiska pracy '''Drawing'''.
@@ -193,3 +193,6 @@ ToolBar Icon ![](images/Macro_Corner_shapes_wizard.png )
     QtCore.QObject.connect(okbox, QtCore.SIGNAL("rejected()"), hide)
     QtCore.QMetaObject.connectSlotsByName(dialog)
     dialog.show()
+
+---
+[documentation index](../README.md) > Macro Corner shapes wizard/update/pl

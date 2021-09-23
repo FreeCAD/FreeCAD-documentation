@@ -7,6 +7,8 @@
    SeeAlso:[Skizzierer Linie](Sketcher_CreateLine/de.md)
 ---
 
+# Sketcher CreatePolyline/de
+
 ## Beschreibung
 
 Dieses Werkzeug arbeitet wie das [Skizzierer Linie](Sketcher_CreateLine/de.md) Werkzeug, erstellt aber kontinuierliche Linien- und Bogensegmente, die durch Knoten miteinander verbunden sind. Beim Starten des Werkzeugs verwandelt sich der Mauszeiger in ein weißes Kreuz mit einem roten Polyliniensymbol. Die Koordinaten werden in Echtzeit in blau neben dem Zeiger angezeigt.
@@ -41,4 +43,7 @@ Die Polylinie beginnt immer mit einem geraden Liniensegment: klicken - die Maus 
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreatePolyline/de

@@ -1,7 +1,4 @@
 # Aeroplane/cs
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -240,4 +237,7 @@ Doufám, že Vám tento výukový program pomohl orientovat se v otáčení obje
 
 {{Tutorials navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Aeroplane/cs

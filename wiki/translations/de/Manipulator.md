@@ -1,5 +1,5 @@
 # Manipulator/de
- }
+}
 
 ## Beschreibung
 
@@ -17,3 +17,6 @@ Ein **Manipulator** kann benutzt werden, um Aussehen, die Form oder andere Param
 
 
 [Category:Glossary](Category:Glossary.md)
+
+---
+[documentation index](../README.md) > [Glossary](Category:Glossary.md) > Manipulator/de

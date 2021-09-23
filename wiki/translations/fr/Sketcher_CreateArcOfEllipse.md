@@ -8,6 +8,8 @@
    SeeAlso:[Sketcher Ellipse par son centre](Sketcher_CreateEllipseByCenter/fr.md), [Sketcher Arc](Sketcher_CompCreateArc/fr.md)
 ---
 
+# Sketcher CreateArcOfEllipse/fr
+
 ## Description
 
 Cet outil dessine une ellipse en choisissant trois points: le centre, la fin du rayon majeur, le rayon mineur. Lors du démarrage de l\'outil, le pointeur de la souris passe à une croix blanche avec une icône d\'ellipse rouge. En outre, les coordonnées sont affichées en temps réel.
@@ -34,4 +36,7 @@ Cet outil dessine une ellipse en choisissant trois points: le centre, la fin du 
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateArcOfEllipse/fr

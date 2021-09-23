@@ -7,6 +7,8 @@
    SeeAlso:[TechDraw Ansicht einfügen](TechDraw_View/de.md),[TechDraw Projektionsgruppe einfügen](TechDraw_ProjectionGroup/de.md)
 ---
 
+# TechDraw SectionView/de
+
 ## Beschreibung
 
 Das Abschnitt Werkzeug erstellt eine Querschnittdarstellung aus einer bereits bestehenden Teilansicht.
@@ -116,4 +118,7 @@ section.SectionOrigin = (5.0,5.0,5.0)
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw SectionView/de

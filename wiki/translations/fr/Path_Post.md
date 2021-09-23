@@ -7,6 +7,8 @@
    Shortcut:**P** **P**
 ---
 
+# Path Post/fr
+
 ## Description
 
 Le bouton **<img src="images/Path_Post.svg" width=16px> [Post-traitement](Path_Post/fr.md)** exporte la **<img src="images/Path_Job.svg" width=16px> [Path Tâche](Path_Job/fr.md)** sélectionnée vers un fichier G-code.
@@ -117,4 +119,7 @@ N\'utilisez **pas** le menu **File** → **Export**\'\'\' pour exporter vers le 
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Post/fr

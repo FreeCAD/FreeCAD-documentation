@@ -8,6 +8,8 @@
    SeeAlso:[A3 Ландшафтный](Drawing_Landscape_A3/ru.md)
 ---
 
+# Drawing View/ru
+
 
 </div>
 
@@ -59,4 +61,7 @@ If you are looking for persective-orthographic toggling in 3D view check [Std Pe
 
 {{Drawing Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing View/ru

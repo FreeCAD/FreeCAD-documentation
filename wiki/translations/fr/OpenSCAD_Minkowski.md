@@ -6,6 +6,8 @@
 ‏‎   Workbenches:[OpenSCAD](OpenSCAD_Workbench/fr.md)
 ---
 
+# OpenSCAD Minkowski/fr
+
 ## Description
 
 Applique une somme de Minkowski aux formes sélectionnées.
@@ -39,4 +41,7 @@ OpenSCAD doit être installé et configuré dans **Edit** → **Préférences**
 
 {{OpenSCAD_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD Minkowski/fr

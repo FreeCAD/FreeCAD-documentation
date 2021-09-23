@@ -6,6 +6,8 @@
    SeeAlso:[Mesh SplitComponents](Mesh_SplitComponents.md)
 ---
 
+# Mesh Merge/en
+
 ## Description
 
 The **Mesh Merge** command creates a new non-parametric mesh object, a [Mesh Feature](Mesh_Feature.md), by combining the meshes of two or more mesh objects. The command does not perform a Boolean union, the new object will contain separate mesh components. For a Boolean union use the [Mesh Union](Mesh_Union.md) command instead. This command is the counterpart of the [Mesh SplitComponents](Mesh_SplitComponents.md) command.
@@ -27,4 +29,7 @@ See: [Mesh Feature](Mesh_Feature.md).
 
 {{Mesh Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Merge/en

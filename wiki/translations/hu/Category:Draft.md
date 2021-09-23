@@ -6,3 +6,6 @@ This category list pages related to the \"User\_Documentation/hu\" and \"Workben
 [Draft Workbench/hu](Draft_Workbench/hu.md)
 
 [Category:User Documentation/hu](Category:User_Documentation/hu.md) [Category:Workbenches/hu](Category:Workbenches/hu.md)
+
+---
+[documentation index](../README.md) > Category:Draft/hu

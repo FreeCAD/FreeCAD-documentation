@@ -7,6 +7,8 @@
    SeeAlso:[Sketcher Constraint Parallel](Sketcher_ConstrainParallel.md)
 ---
 
+# Sketcher ConstrainSymmetric/en
+
 ## Description
 
 The **Symmetrical Constraint** constrains two selected points to be symmetrical around a given line, i.e., both selected points are constrained to lie on a normal to the line through both points and are constrained to be equidistant from the line. Alternatively it can constrain two points to be symmetric with respect to a third one.
@@ -60,4 +62,7 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainSymmetric/en

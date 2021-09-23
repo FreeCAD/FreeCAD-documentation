@@ -7,6 +7,8 @@
    SeeAlso:[Łuk](Sketcher_CompCreateArc/pl.md)
 ---
 
+# Sketcher CreateCircle/pl
+
 ## Opis
 
 Narzędzie to rysuje okrąg, wybierając dwa punkty: środek i punkt wzdłuż promienia. Po uruchomieniu narzędzia wskaźnik myszy zmienia się w biały krzyż z czerwoną ikoną koła. Poza tym wyświetlane są współrzędne w czasie rzeczywistym.
@@ -24,4 +26,7 @@ Narzędzie to rysuje okrąg, wybierając dwa punkty: środek i punkt wzdłuż pr
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateCircle/pl

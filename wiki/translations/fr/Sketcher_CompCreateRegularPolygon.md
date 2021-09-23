@@ -7,6 +7,8 @@
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
 ---
 
+# Sketcher CompCreateRegularPolygon/fr
+
 ## Description
 
 **Créer un polygone régulier** est un bouton d\'icône de la barre d\'outils Géométries d\'esquisse qui regroupe les outils de création de polygones réguliers. Cliquer sur la flèche vers le bas à sa droite pour dérouler les icônes se trouvant dessous et sélectionner un outil.
@@ -27,4 +29,7 @@
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CompCreateRegularPolygon/fr

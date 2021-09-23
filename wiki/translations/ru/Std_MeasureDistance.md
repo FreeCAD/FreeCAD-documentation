@@ -7,6 +7,8 @@
    SeeAlso:[Part Measure Tools](Part_Measure_Menu/ru.md),<br>[Draft Dimension](Draft_Dimension/ru.md),<br> [Arch Survey](Arch_Survey/ru.md)
 ---
 
+# Std MeasureDistance/ru
+
 ## Описание
 
 The **Std MeasureDistance** command creates a distance object that measures and displays the distance between two points.
@@ -62,4 +64,7 @@ The **Std MeasureDistance** command creates a distance object that measures and 
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std MeasureDistance/ru

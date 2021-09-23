@@ -6,6 +6,8 @@
    Workbenches:[DisegnoPezzo](PartDesign_Workbench/it.md)
 ---
 
+# PartDesign WizardShaft/it
+
 ## Descrizione
 
 Questo strumento permette di creare un albero da una tabella di valori, e di analizzare forze e momenti. Si può avviare la procedura guidata dal menu Part Design **Part Design → <img src=images/PartDesign_WizardShaft.svg style="width:20px"> Procedura guidata per alberi...**.
@@ -61,4 +63,7 @@ Per aggiungere un nuovo segmento all\'albero, fare clic con il tasto destro nell
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign WizardShaft/it

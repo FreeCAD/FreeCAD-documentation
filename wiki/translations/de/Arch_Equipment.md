@@ -8,6 +8,8 @@
    SeeAlso:[Arch 3 Ansichten](Arch_3Views/de.md)
 ---
 
+# Arch Equipment/de
+
 ## Beschreibung
 
 Das Ausstattungwerkzeug bietet einen einfachen und bequemen Weg, nichttragende, einzelstehende Elemente wie Möbelstücke, Sanitärgegenstände oder elektrische Geräte zu Deinen Projekten hinzuzufügen. Ausstattungen basieren auf [Part Formen](Part_Workbench/de.md), die es erlauben, von der Solidität und den Möglichkeiten von BRep Geometrien zu profitieren und nette Ansichten von Drauf- und Schnittansichten zu erzeugen.
@@ -66,11 +68,5 @@ Equip = Arch.makeEquipment(Box)
 FreeCAD.ActiveDocument.recompute()
 ```
 
-
-
-
-
-
-
-
-
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Equipment/de

@@ -1,3 +1,4 @@
+# Sketcher CreateHexagon/it
 ---
 - GuiCommand:/it   Name:Sketcher CreateHexagon   Name/it:Esagono   Workbenches:[[Sketcher Workbench/it   Sketcher]]|MenuLocation:Sketch → Geometrie → Esagono   Shortcut:   SeeAlso:   Version:0.15---
 
@@ -45,4 +46,7 @@ Quando si edita lo schizzo il cerchio circoscritto è visibile, quando si chiude
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateHexagon/it

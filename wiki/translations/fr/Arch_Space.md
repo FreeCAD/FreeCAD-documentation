@@ -9,6 +9,8 @@
    SeeAlso:[Arch Mur](Arch_Wall/fr.md), [Arch Structure](Arch_Structure/fr.md)
 ---
 
+# Arch Space/fr
+
 ## Description
 
 L\'outil Espace vous permet de définir un volume vide, soit en le basant sur une forme solide, soit en définissant ses limites, soit en combinant les deux. S\'il est basé uniquement sur des limites, le volume est calculé en partant du cadre de sélection de toutes les limites données et en soustrayant les espaces situés derrière chaque limite. L\'objet spatial définit toujours un volume solide. La surface de plancher d\'un objet d\'espace, calculée en coupant un plan horizontal au centre de gravité du volume d\'espace, peut également être affichée.
@@ -137,8 +139,5 @@ selection = FreeCADGui.Selection.getSelectionEx()
 Arch.removeSpaceBoundaries(Space, selection)
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Space/fr

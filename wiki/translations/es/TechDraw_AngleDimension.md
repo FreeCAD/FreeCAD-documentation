@@ -7,6 +7,8 @@
    SeeAlso:[TechDraw Dimensión Ángulo3Ps](TechDraw_Dimension_Angle3Pt/es.md)
 ---
 
+# TechDraw AngleDimension/es
+
 
 </div>
 
@@ -63,4 +65,7 @@ rc = page.addView(dim1)
 
 {{TechDraw Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw AngleDimension/es

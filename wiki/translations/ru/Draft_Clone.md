@@ -8,6 +8,8 @@
    SeeAlso:[Масштаб](Draft_Scale/ru.md)
 ---
 
+# Draft Clone/ru
+
 ## Описание
 
 
@@ -107,5 +109,5 @@ doc.recompute()
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Clone/ru

@@ -1,5 +1,5 @@
 # Expressions/pl
- {{TOCright}}
+{{TOCright}}
 
 ## Informacje ogólne 
 
@@ -534,3 +534,6 @@ Oczywiście, to do Ciebie zależy, czy wczytasz odpowiednie dokumenty później,
 }} 
 
 [Category:Spreadsheet](Category:Spreadsheet.md)
+
+---
+[documentation index](../README.md) > [Spreadsheet](Category:Spreadsheet.md) > Expressions/pl

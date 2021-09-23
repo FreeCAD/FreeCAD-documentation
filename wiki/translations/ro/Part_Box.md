@@ -1,3 +1,4 @@
+# Part Box/ro
 ---
 - GuiCommand:   Name:Part Box   MenuLocation:Part → Primitives → Cube   |Workbenches:[SeeAlso:[[Part_CreatePrimitives|Part CreatePrimitives](Part_Workbench___Part]],_Complete.md)---
 
@@ -81,8 +82,5 @@ Puteți schimba amplasamentul cu:
 FreeCAD.ActiveDocument.myBox.Placement = FreeCAD.Placement(FreeCAD.Vector(4, 6, 3), FreeCAD.Rotation(30, 45, 10))
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Box/ro

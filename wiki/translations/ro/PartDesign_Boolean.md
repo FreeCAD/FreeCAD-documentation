@@ -7,6 +7,8 @@
    Version:0.17
 ---
 
+# PartDesign Boolean/ro
+
 
 </div>
 
@@ -94,4 +96,7 @@ De asemenea, puteți selecta unul sau mai multe corpuri înainte de a apăsa but
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Boolean/ro

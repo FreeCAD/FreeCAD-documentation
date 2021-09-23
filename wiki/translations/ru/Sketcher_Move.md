@@ -9,6 +9,8 @@
    SeeAlso:[Клонировать](Sketcher_Clone/ru.md), [Копировать](Sketcher_Copy/ru.md)
 ---
 
+# Sketcher Move/ru
+
 ## Описание
 
 Moves the selected sketch elements from one point to another, using the last selected point as reference.
@@ -31,4 +33,7 @@ Moves the selected sketch elements from one point to another, using the last sel
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Move/ru

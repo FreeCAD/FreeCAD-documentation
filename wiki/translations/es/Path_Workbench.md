@@ -1,10 +1,4 @@
-# Path Workbench/es
-
-
-
-
-
-<img alt="El icono del Ambiente de trabajo Trayectoria" src=images/Workbench_Part.svg  style="width:128px;">
+# <img alt="El icono del Ambiente de trabajo Trayectoria" src=images/Workbench_Part.svg  style="width:64px;"> Path Workbench/es
 
 
 {{TOCright}}
@@ -486,3 +480,6 @@ See [Path scripting](Path_scripting.md).
 }} 
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Path Workbench/es

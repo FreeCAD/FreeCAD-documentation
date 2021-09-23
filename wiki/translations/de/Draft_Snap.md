@@ -1,7 +1,4 @@
 # Draft Snap/de
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -155,5 +152,5 @@ Diese Einstellung wird gespeichert: **|Werkzeuge → Parameter bearbeiten... →
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap/de

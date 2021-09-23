@@ -1,7 +1,4 @@
 # Drawing Workbench/es
- 
-
-
 **El desarrollo del [Ambiente de Trabajo Dibujo](Drawing_Workbench/es.md) se detuvo en FreeCAD 0.16, y el nuevo [Ambiente de Trabajo DibujoTécnico](TechDraw_Workbench/es.md) que pretendía reemplazarlo fue introducido en la v0.17. Ambos ambientes de trabajo todavía se proporcionan en la v0.17, pero el ambiente de Trabajo de Dibujo puede ser eliminado en futuras versiones.**
 
 <img alt="El icono del Ambiente de trabajo Dibujar" src=images/Workbench_Drawing.svg  style="width:128px;">
@@ -87,3 +84,6 @@ Some notes on the programming side of the drawing module will be added to the [D
 }} 
 
 [Category:Obsolete Workbenches](Category:Obsolete_Workbenches.md)
+
+---
+[documentation index](../README.md) > Drawing Workbench/es

@@ -7,6 +7,8 @@
    Version:0.16
 ---
 
+# Sketcher MirrorSketch/ru
+
 ## Описание
 
 Зеркально отразить эскиз вдоль оси x, оси y или начала координат. Эта команда вызывается, когда эскиз *не* редактируется. Это вызывает новый эскиз, содержащий отражённую геометрию.
@@ -33,4 +35,7 @@ Notes:
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher MirrorSketch/ru

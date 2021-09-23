@@ -7,6 +7,8 @@
    SeeAlso:[Part Section](Part_Section/de.md)
 ---
 
+# Part CrossSections/de
+
 
 </div>
 
@@ -47,5 +49,5 @@ Das Dienstprogramm \"Querschnitte\" erstellt einen oder mehrere Querschnitte dur
 
 </div>
 
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part CrossSections/de

@@ -7,6 +7,8 @@
    SeeAlso:[PartDesign Tasca](PartDesign_Pocket/it.md)
 ---
 
+# PartDesign Pad/it
+
 ## Descrizione
 
 Lo strumento **<img src="images/PartDesign_Pad.svg" width=16px> [PartDesign Estrusione](PartDesign_Pad/it.md)** crea uno solido da uno schizzo in una direzione normale al piano dello stesso. A partire dalla {{VersionPlus/it|0.17}}, è possibile utilizzare anche le facce di un solido.
@@ -126,4 +128,7 @@ Inverte la direzione dell\'estrusione.
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Pad/it

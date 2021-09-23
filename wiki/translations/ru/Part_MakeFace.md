@@ -8,6 +8,8 @@
    SeeAlso:[Линейчатая поверхность](Part_RuledSurface/ru.md)
 ---
 
+# Part MakeFace/ru
+
 ## Описание
 
 Создать грань из ломанных создаёт [грань(плоскость)](Part_Plane/ru.md) из пользовательской формы. Форма определяется эскизом с замкнутым контуром.
@@ -24,8 +26,5 @@
 1.  Выберите эскиз, определяющий по крайней мере один замкнутый контур
 2.  \# Нажмите кнопку <img alt="" src=images/Part_MakeFace.svg  style="width:24px;"> [Создать грань\...](Part_MakeFace/ru.md)
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part MakeFace/ru

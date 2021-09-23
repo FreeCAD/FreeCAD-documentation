@@ -1,7 +1,4 @@
 # FEM tutorial/pl
-
-
-
 {{TutorialInfo/pl
 |Topic= Analiza elementów skończonych
 |Level= początkujący
@@ -110,4 +107,7 @@ Zakończyliśmy teraz prezentacje podstawowego przepływu pracy dla środowiska 
 
 {{Tutorials navi
 
-}} {{FEM Tools navi}} 
+}} {{FEM Tools navi}}
+
+---
+[documentation index](../README.md) > FEM tutorial/pl

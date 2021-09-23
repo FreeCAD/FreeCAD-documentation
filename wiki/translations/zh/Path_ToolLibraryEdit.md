@@ -7,6 +7,8 @@
    SeeAlso:
 ---
 
+# Path ToolLibraryEdit/zh
+
 ## 描述
 
 
@@ -69,4 +71,7 @@
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path ToolLibraryEdit/zh

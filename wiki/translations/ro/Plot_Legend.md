@@ -1,3 +1,4 @@
+# Plot Legend/ro
 ---
 - GuiCommand:   Name:Plot Legend   MenuLocation:Plot → Legend‏‎   |Workbenches:[[Plot Module   Plot]]|Shortcut:   SeeAlso:---
 
@@ -25,3 +26,6 @@ Remember that the styles and labels of the data series can be edited with the [d
 }} 
 
 [Category:External\_Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)
+
+---
+[documentation index](../README.md) > [External_Workbenches](Category:External_Workbenches.md) > Plot Legend/ro

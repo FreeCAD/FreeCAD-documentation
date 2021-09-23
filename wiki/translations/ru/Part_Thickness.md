@@ -7,6 +7,8 @@
    SeeAlso:[Смещение](Part_Offset/ru.md)
 ---
 
+# Part Thickness/ru
+
 ## Description
 
 
@@ -78,8 +80,5 @@ Notes:
 
 ![](images/ThicknessEsempio4.png )
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Thickness/ru

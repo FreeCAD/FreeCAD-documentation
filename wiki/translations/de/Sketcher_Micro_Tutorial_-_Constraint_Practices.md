@@ -1,7 +1,4 @@
 # Sketcher Micro Tutorial - Constraint Practices/de
-
-
-
 {{TutorialInfo/de
 |Topic=Skizzierer
 |Level=Anfänger
@@ -126,4 +123,7 @@ Dies ist der beste Weg, diese Skizze zu beschränken, da wir nur eine Bezugs- (B
 
 {{Tutorials navi
 
-}} {{Sketcher Tools navi}} 
+}} {{Sketcher Tools navi}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Micro Tutorial - Constraint Practices/de

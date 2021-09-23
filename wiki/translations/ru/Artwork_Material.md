@@ -1,6 +1,4 @@
 # Artwork Material/ru
- 
-
 Эти иконки находятся в указанной исходной папке.
 
 Для всех иконок в исходнике смотри [Художественное оформление](Artwork/ru.md).
@@ -15,3 +13,6 @@
 {{Artwork
 
 }}
+
+---
+[documentation index](../README.md) > Artwork Material/ru

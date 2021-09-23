@@ -1,10 +1,4 @@
 # Robot Workbench/ru
-
-
-
-
-
-
 **Верстак  Robot в FreeCAD остался без поддержки. Если у Вас есть знания в этом вопросе и интерес к его поддержке, пожалуйста, заявите своё намерение в секции разработчиков на [https://forum.freecadweb.org/index.php форуме FreeCAD].**
 
 The reason this workbench is still in the master source code is because this workbench is programmed in C++. If this workbench could be programmed in Python, then it could be made an [external workbench](external_workbenches.md) and it could be moved to a separate repository. }}
@@ -80,3 +74,6 @@ The reason this workbench is still in the master source code is because this wor
 }} 
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Robot Workbench/ru

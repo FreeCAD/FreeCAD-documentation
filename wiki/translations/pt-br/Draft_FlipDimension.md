@@ -5,6 +5,8 @@
    Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
 ---
 
+# Draft FlipDimension/pt-br
+
 ## Descrição
 
 The <img alt="" src=images/Draft_FlipDimension.svg  style="width:24px;"> **Draft FlipDimension** command rotates the dimension text of selected [Draft Dimensions](Draft_Dimension.md) 180° around the dimension line. It can be used to correct dimensions whose text appears mirrored. The command does not work properly for angular dimensions.
@@ -54,5 +56,5 @@ doc.recompute()
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft FlipDimension/pt-br

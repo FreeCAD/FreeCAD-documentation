@@ -7,6 +7,8 @@
    SeeAlso:[FEM tutorial](FEM_tutorial/ru.md)
 ---
 
+# FEM MeshDisplayInfo/ru
+
 
 </div>
 
@@ -97,4 +99,7 @@ will output the following result:
 
 {{FEM Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > FEM MeshDisplayInfo/ru

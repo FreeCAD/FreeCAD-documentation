@@ -1,7 +1,4 @@
 # Macro CartoucheFC/cs
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -959,6 +956,5 @@ Tento modul pracuje s výkresovou dokumentací obsaženou v FreeCADu, tento list
 
 ver 0.3 02/07/2014 converted to PyQt4 and PySide
 
-
-
-
+---
+[documentation index](../README.md) > Macro CartoucheFC/cs

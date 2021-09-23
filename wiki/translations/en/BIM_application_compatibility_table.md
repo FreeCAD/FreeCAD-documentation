@@ -1,6 +1,5 @@
 # BIM application compatibility table/en
-
-  This page gives a general overview of how the different tools and concepts found in other mainstream BIM applications compare to FreeCAD, specifically its [BIM Workbench](BIM_Workbench.md).
+This page gives a general overview of how the different tools and concepts found in other mainstream BIM applications compare to FreeCAD, specifically its [BIM Workbench](BIM_Workbench.md).
 
 **TODO:** Add other BIM apps: Allplan, Tekla, Vectorworks, BricsCAD, what else?
 
@@ -16,3 +15,6 @@
   **Standard BIM elements**                       Walls, structures (beams, columns and slabs), windows (doors and windows), roofs, stairs, frames (railings), equipment (furniture, appliances, etc)                                                                                                                                                                                                                                                                                                                                                                                                                                               Walls, beams, columns, floors, ceilings, windows, doors, roofs, stairs, railings, components (furniture, appliances, etc)                                                                                       Walls, beams, columns, slabs, windows, doors, roofs, stairs, railings, curtain walls, objects (furniture, appliances, etc)
 
 [Category:BIM](Category:BIM.md)
+
+---
+[documentation index](../README.md) > [BIM](Category:BIM.md) > BIM application compatibility table/en

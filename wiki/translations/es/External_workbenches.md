@@ -1,10 +1,4 @@
 # External workbenches/es
-
-
-
-
-
-
 {{TOCright}}
 
 ## Introducción
@@ -314,3 +308,6 @@ Ver la página wiki para más información [Traducir un ambiente de trabajo exte
 
 
 [Category:Addons](Category:Addons.md) [\*](Category:External_Workbenches.md)
+
+---
+[documentation index](../README.md) > [Addons](Category:Addons.md) > External workbenches/es

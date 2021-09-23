@@ -6,6 +6,8 @@
    SeeAlso:[Part Create primitives](Part_Primitives.md)
 ---
 
+# Part Ellipsoid/en
+
 ## Description
 
 The <img alt="" src=images/Part_Ellipsoid.svg  style="width:24px;"> [Part Ellipsoid](Part_Ellipsoid.md) command creates a parametric Ellipsoid solid.
@@ -35,8 +37,5 @@ A parametric Ellipsoid solid is available from the Create Primitives dialogue in
 
 ![](images/Part_Ellipsoid_screenshot.jpg )
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Ellipsoid/en

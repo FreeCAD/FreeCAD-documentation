@@ -1,7 +1,4 @@
 # Scripted objects saving attributes
-
-
-
 {{TOCright}}
 
 
@@ -190,3 +187,6 @@ class CustomObject:
  {{Powerdocnavi}} 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Scripted objects saving attributes

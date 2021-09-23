@@ -6,6 +6,8 @@
    Workbenches:[Assembly3](Assembly3_Workbench/de.md)
 ---
 
+# Assembly3 ConstraintAttachment/de
+
 ## Beschreibung
 
 Dieses Werkzeug stellt eine Verbindung zwischen zwei Objekten eines Zusammenbaus her und fixiert den Abstand zwischen ihnen sowie ihre Ausrichtung zueinander. Die Gewählten Elemente beider Objekte oder präziser ihre lokalen Koordinatensysteme werden genutzt, um ein Objekt zum anderen zu positionieren.
@@ -18,8 +20,5 @@ Diese Verbindung lässt keinen Freiheitsgrad unbestimmt.
 2.  Je ein Element beider Objekte auswählen.
 3.  Schaltfläche **<img src="images/Part_Attachment.svg" width=16px> [Befestigung](Assembly3_ConstraintAttachment/de.md)** drücken.
 
-
-
-
-
-
+---
+[documentation index](../README.md) > Assembly3 ConstraintAttachment/de

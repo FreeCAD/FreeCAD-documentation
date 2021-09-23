@@ -1,5 +1,5 @@
 # Macro Remove parametric history/en
- {{Macro
+{{Macro
 |Name=Remove parametric history
 |Icon=Macro_Remove_parametric_history.png
 |Description=This will remove all parametric associativity from an object, leaving it as a "dumb" shape
@@ -38,6 +38,5 @@ newObject.Shape = newShape
 
 }}
 
-
-
-
+---
+[documentation index](../README.md) > Macro Remove parametric history/en

@@ -1,7 +1,4 @@
 # Add FEM constraint tutorial/fr
-
-
-
 {{TutorialInfo/fr
 |Topic=Ajouter des contraintes FEM
 |Level=
@@ -310,3 +307,6 @@ def _handleFlowBndConditions(self):
 ```
 
 [Category:FEM/fr](Category:FEM/fr.md) [Category:FEM](Category:FEM.md)
+
+---
+[documentation index](../README.md) > [FEM](Category:FEM.md) > Add FEM constraint tutorial/fr

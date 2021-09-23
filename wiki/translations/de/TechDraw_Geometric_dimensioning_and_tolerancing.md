@@ -1,10 +1,4 @@
 # TechDraw Geometric dimensioning and tolerancing/de
-
-
-
-
-
-
 {{TOCright}}
 
 ## Konzept
@@ -341,4 +335,7 @@ As reference, here are lists of characters to be used for geometric tolerancing:
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Geometric dimensioning and tolerancing/de

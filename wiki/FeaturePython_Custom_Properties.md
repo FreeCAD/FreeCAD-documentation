@@ -1,6 +1,4 @@
 # FeaturePython Custom Properties
- 
-
 ## Introduction
 
 Properties are the true building stones of FeaturePython objects. Through them, the user will be able to interact and modify your object. After creating a new FeaturePython object in your document ( obj=FreeCAD.ActiveDocument.addObject(\"App::FeaturePython\",\"Box\") ), you can get a list of the available properties by issuing:  
@@ -1249,3 +1247,6 @@ obj.ThePropertyName // returns {{TODO}}"example value for getter"
 
 
 [Category:API](Category:API.md) [Category:Developer Documentation](Category:Developer_Documentation.md)
+
+---
+[documentation index](../README.md) > [API](Category:API.md) > FeaturePython Custom Properties

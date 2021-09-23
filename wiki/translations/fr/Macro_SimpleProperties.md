@@ -1,5 +1,5 @@
 # Macro SimpleProperties/fr
- {{Macro/fr
+{{Macro/fr
 |Name=SimpleProperties
 |Name/fr=SimpleProperties
 |Icon=Macro_SimpleProperties.png
@@ -128,3 +128,5 @@ else:
 
 }}
 
+---
+[documentation index](../README.md) > Macro SimpleProperties/fr

@@ -7,6 +7,8 @@
    SeeAlso:[Part Extrude](Part_Extrude.md)
 ---
 
+# Draft Trimex/en
+
 ## Description
 
 The <img alt="" src=images/Draft_Trimex.svg  style="width:24px;"> **Draft Trimex** command [trims or extends](#Trim_or_extend.md) a selected object. Intersections with the edge of another object can be used to determine new endpoints. The command can also be used to [extrude](#Extrude.md) a face, in which case it creates a [Part Extrude](Part_Extrude.md) object.
@@ -117,8 +119,5 @@ solid = Draft.extrude(rectangle, vector, solid=True)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Trimex/en

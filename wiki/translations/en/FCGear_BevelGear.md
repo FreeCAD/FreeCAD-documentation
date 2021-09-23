@@ -6,6 +6,8 @@
    Version:v0.16
 ---
 
+# FCGear BevelGear/en
+
 ## Description
 
 Partly because of the noise they generate, bevel gears are not used as often as other types of gear. But they are still used in certain sectors, such as food packaging and canned food, lawn and garden equipment, machines such as drills and mills, compression systems for the gas and oil market and flow control valves.
@@ -105,3 +107,6 @@ Substantive reference cone angle \[TECH.\]
 
 
 [Category:Addons](Category:Addons.md) [Category:FCGear](Category:FCGear.md) [Category:External Command Reference](Category:External_Command_Reference.md)
+
+---
+[documentation index](../README.md) > [Addons](Category:Addons.md) > FCGear BevelGear/en

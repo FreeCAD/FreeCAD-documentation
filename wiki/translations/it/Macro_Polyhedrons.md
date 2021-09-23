@@ -1,5 +1,5 @@
 # Macro Polyhedrons/it
- {{Macro
+{{Macro
 |Name=Macro Polyhedrons
 |Name/it=Macro Polyhedrons
 |Icon=Dodecahedron.svg
@@ -896,3 +896,5 @@ mainaction = polyhedron_dialog()
 
 }}
 
+---
+[documentation index](../README.md) > Macro Polyhedrons/it

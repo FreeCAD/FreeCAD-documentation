@@ -1,6 +1,4 @@
 # PySide Intermediate Examples/fr
-
-
 ## Introduction
 
 
@@ -754,3 +752,6 @@ Ces mêmes commandes peuvent être exécutées sur une fenêtre générée par l
 }} 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > PySide Intermediate Examples/fr

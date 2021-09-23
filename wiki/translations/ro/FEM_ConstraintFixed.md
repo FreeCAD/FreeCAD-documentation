@@ -1,3 +1,4 @@
+# FEM ConstraintFixed/ro
 ---
 - GuiCommand:/ro   Name:FEM ConstraintFixed   Name/ro:FEM ConstraintFixed   MenuLocation:Model → Mechanical Constraints → Constraint fixed   |Workbenches:[Shortcut:   SeeAlso:[[FEM_tutorial/ro|FEM tutorial](FEM_Workbench/ro___FEM]].md)---
 
@@ -40,4 +41,7 @@ Nu puteți amesteca tipuri diferite de obiecte în aceeași constrângere. Utliz
 
 {{FEM Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > FEM ConstraintFixed/ro

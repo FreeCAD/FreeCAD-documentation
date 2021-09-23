@@ -8,6 +8,8 @@
    SeeAlso:[PartDesign Lissage additif](PartDesign_AdditiveLoft/fr.md), [PartDesign Balayage soustractif](PartDesign_SubtractivePipe/fr.md)
 ---
 
+# PartDesign AdditivePipe/fr
+
 ## Description
 
 Insère un **Balayage additif** dans un Corps actif par balayage d\'une ou plusieurs esquisses (également appelées sections transversales) le long d\'un chemin ouvert ou fermé. Si le Corps contient déjà un solide, le balayage additif sera fusionné avec lui.
@@ -101,4 +103,7 @@ Pour utiliser plusieurs sections, commencez par la section comme décrit ci-dess
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditivePipe/fr

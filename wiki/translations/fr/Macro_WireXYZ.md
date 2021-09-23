@@ -1,5 +1,5 @@
 # Macro WireXYZ/fr
- {{Macro/fr
+{{Macro/fr
 |Name=WireXYZ
 |Icon=Macro_WireXYZ.png
 |Description=Crée un wire avec les coordonnées x y z séparées par un espace. Les données sont extraites d'un fichier.<br/>{{ColoredText|(Ligne de commande, collez cette macro complète dans la console Python)}}.
@@ -132,3 +132,6 @@ La discussion sur le forum [How do I transform a point cloud to a line?](http://
 00.02 02/07/2019 :
 
 00.01 21/02/2015
+
+---
+[documentation index](../README.md) > Macro WireXYZ/fr

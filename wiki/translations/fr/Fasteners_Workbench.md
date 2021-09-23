@@ -1,7 +1,4 @@
-# Fasteners Workbench/fr
-
-
-<img alt="Icône de l\'atelier externe Fasteners" src=images/Fasteners_workbench_icon.svg  style="width:128px;">
+# <img alt="Icône de l\'atelier externe Fasteners" src=images/Fasteners_workbench_icon.svg  style="width:64px;"> Fasteners Workbench/fr
 
 
 {{TOCright}}
@@ -272,3 +269,6 @@ Pour une description détaillée, voir [ici](http://theseger.com/projects/2015/0
 
 
 [Category:Addons](Category:Addons.md) [Category:External Command Reference](Category:External_Command_Reference.md) [Category:External Workbenches](Category:External_Workbenches.md) [Category:Fasteners](Category:Fasteners.md)
+
+---
+[documentation index](../README.md) > Fasteners Workbench/fr

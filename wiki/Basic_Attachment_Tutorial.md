@@ -1,7 +1,5 @@
 # Basic Attachment Tutorial
-
-
- {{TutorialInfo
+{{TutorialInfo
 |Topic=Attachment
 |Level=Beginner/Intermediate
 |Author=Bance
@@ -302,3 +300,6 @@ Happy Attaching!
 }} {{PartDesign_Tools_navi}} {{Sketcher_Tools_navi}} 
 
 [Category:Tutorials](Category:Tutorials.md)
+
+---
+[documentation index](../README.md) > Basic Attachment Tutorial

@@ -8,6 +8,8 @@
    SeeAlso:[Закрыть всё](Std_CloseAllWindows/ru.md)
 ---
 
+# Std CloseActiveWindow/ru
+
 ## Описание
 
 Команда **Закрыть** закрывает активное окно. Чтобы закрыть документ полностью, нужно чтобы все его окна были закрыты.
@@ -50,4 +52,7 @@
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std CloseActiveWindow/ru

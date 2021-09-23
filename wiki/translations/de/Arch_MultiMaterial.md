@@ -7,6 +7,8 @@
    SeeAlso:[Arch SetMaterial](Arch_SetMaterial/de.md), [Arch CompSetMaterial](Arch_CompSetMaterial/de.md)
 ---
 
+# Arch MultiMaterial/de
+
 ## Beschreibung
 
 Das Multi-Material Werkzeug definiert eine Liste von [Materialien](Material/de.md) mit, für jedes Material, einen Namen und einem Dickenwert. Diese Multimaterialliste kann dann zu einem [Bogen](Arch_Workbench/de.md) Objekt anstelle eines einzelnen [Arch Material](Arch_SetMaterial/de.md) hinzugefügt werden.
@@ -49,8 +51,5 @@ Dies entspricht in etwa einer Kombination aus [IfcMaterialLayerSet](https://stan
 
 ## Skripten
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch MultiMaterial/de

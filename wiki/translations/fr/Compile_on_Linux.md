@@ -1,10 +1,4 @@
 # Compile on Linux/fr
-
-
-
-
-
-
 **Il existe un conteneur Docker FreeCAD expérimental qui est testé pour le développement FreeCAD. En savoir plus à ce sujet sur [Compiler sur Docker](Compile_on_Docker/fr.md)**
 
 
@@ -1216,3 +1210,6 @@ Pour mettre à jour FreeCAD vers la dernière version, recommencez à partir de 
 
 
 [Category:Developer\_Documentation](Category:Developer_Documentation.md) [Category:Developer](Category:Developer.md)
+
+---
+[documentation index](../README.md) > [Developer_Documentation](Category:Developer_Documentation.md) > Compile on Linux/fr

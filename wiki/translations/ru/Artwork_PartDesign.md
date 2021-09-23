@@ -1,6 +1,4 @@
 # Artwork PartDesign/ru
- 
-
 Эти иконки находятся в указанной исходной папке.
 
 Для всех иконок в исходнике смотри [Художественное оформление](Artwork/ru.md).
@@ -25,3 +23,6 @@
 }} 
 
 [Category:PartDesign](Category:PartDesign.md)
+
+---
+[documentation index](../README.md) > [PartDesign](Category:PartDesign.md) > Artwork PartDesign/ru

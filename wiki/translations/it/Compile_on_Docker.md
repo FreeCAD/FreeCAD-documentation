@@ -1,7 +1,4 @@
 # Compile on Docker/it
- 
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -154,3 +151,6 @@ You can find the attached directories in the `/mnt` directory.
 
 
 [Category:Developer](Category:Developer.md) [Category:Developer Documentation](Category:Developer_Documentation.md)
+
+---
+[documentation index](../README.md) > [Developer](Category:Developer.md) > Compile on Docker/it

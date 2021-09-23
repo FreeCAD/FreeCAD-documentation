@@ -6,6 +6,8 @@
    SeeAlso:[Part Primitives](Part_Primitives.md)
 ---
 
+# Part Torus/zh-cn
+
 ## Description
 
 
@@ -79,8 +81,5 @@ The angle parameters (angle1, angle2, angle3), as well as the radius parameters 
 
 </div>
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Torus/zh-cn

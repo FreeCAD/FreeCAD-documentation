@@ -7,6 +7,8 @@
    Version:0.19
 ---
 
+# Rocket Bulkhead/fr
+
 ## Description
 
 Une cloison est une section solide de matériau utilisée pour fermer une section du tube du corps ou pour fournir une base pour une coiffe.
@@ -90,3 +92,6 @@ A définir
 
 
 [Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+
+---
+[documentation index](../README.md) > [API/fr]] et ](Category:API/fr]] et .md) > Rocket Bulkhead/fr

@@ -7,6 +7,8 @@
    SeeAlso:[Sketcher Show/hide B-spline degree](Sketcher_BSplineDegree.md), [Sketcher Increase B-spline degree](Sketcher_BSplineIncreaseDegree.md)
 ---
 
+# Sketcher BSplineDecreaseDegree
+
 ## Description
 
 Decreases the degree (order) of a B-spline (see [this page](B-Splines.md) for more info about B-splines).
@@ -38,4 +40,7 @@ If you take this result and increase the degree, you cannot get the initial stat
 
 
 
- {{Sketcher Tools navi}} 
+ {{Sketcher Tools navi}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineDecreaseDegree

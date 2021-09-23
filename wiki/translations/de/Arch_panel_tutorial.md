@@ -1,7 +1,4 @@
 # Arch panel tutorial/de
-
-
-
 {{TutorialInfo/de
 |Topic= Modellierung eines Architektur Panels
 |Level= Anfänger
@@ -198,4 +195,7 @@ Beide Draft-Move-and-Rotate-Werkzeuge nutzen das Draft-Einrast-System. Verschied
 
 {{Tutorials navi
 
-}}   {{Sketcher Tools navi}} 
+}}   {{Sketcher Tools navi}}
+
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch panel tutorial/de

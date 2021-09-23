@@ -6,6 +6,8 @@
    SeeAlso:[Std Copy](Std_Copy.md), [Std Paste](Std_Paste.md), [Std DuplicateSelection](Std_DuplicateSelection.md)
 ---
 
+# Std Cut
+
 ## Description
 
 The **Std Cut** command is limited: it can only be used for [spreadsheet cells](Spreadsheet_Workbench.md). The command copies the contents and properties of cells to the Clipboard and then clears them.
@@ -26,4 +28,7 @@ To cut other objects you can use the [Std Copy](Std_Copy.md) command followed by
 
 
 
- {{Std Base navi}}  
+ {{Std Base navi}}
+
+---
+[documentation index](../README.md) > Std Cut

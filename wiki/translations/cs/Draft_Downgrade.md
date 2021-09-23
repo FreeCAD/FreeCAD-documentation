@@ -1,3 +1,4 @@
+# Draft Downgrade/cs
 ---
 - GuiCommand:/cs   Name:Draft_Downgrade   Name/cs:Kreslení Degradace   Workbenches:[Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation:Draft → Downgrade   Shortcut:D N   SeeAlso:[Draft Upgrade](Draft_Upgrade/cs.md)---
 
@@ -99,8 +100,5 @@ add_list4, delete_list4 = Draft.downgrade(box, delete=True)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Downgrade/cs

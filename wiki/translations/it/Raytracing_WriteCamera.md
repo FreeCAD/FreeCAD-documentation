@@ -1,3 +1,4 @@
+# Raytracing WriteCamera/it
 ---
 - GuiCommand:/it   Name:Raytracing Camera‏‎   Name/it:Camera   MenuLocation:Raytracing → Camera‏‎   |Workbenches:[[Raytracing_Workbench/it   Raytracing]]|Shortcut:   SeeAlso:---
 
@@ -35,4 +36,7 @@ Esporta le proprietà correnti della fotocamera in un file POV da usare in un pr
 
 {{Raytracing_Tools_navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing WriteCamera/it

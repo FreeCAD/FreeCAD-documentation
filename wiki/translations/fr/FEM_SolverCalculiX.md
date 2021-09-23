@@ -8,6 +8,8 @@
    SeeAlso:[Tutoriel FEM](FEM_tutorial/fr.md)
 ---
 
+# FEM SolverCalculiX/fr
+
 ## Description
 
 ToDo
@@ -24,4 +26,7 @@ ToDo
 
 {{FEM Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > FEM SolverCalculiX/fr

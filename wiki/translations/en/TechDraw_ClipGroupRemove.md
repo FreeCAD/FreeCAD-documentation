@@ -6,6 +6,8 @@
    SeeAlso:[TechDraw Clip Group](TechDraw_ClipGroup.md), [TechDraw Add Clip Group](TechDraw_ClipGroupAdd.md)
 ---
 
+# TechDraw ClipGroupRemove/en
+
 ## Description
 
 This tool removes a View from an existing Clip and returns it to the Page area.
@@ -22,4 +24,7 @@ This tool removes a View from an existing Clip and returns it to the Page area.
 
 {{TechDraw Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ClipGroupRemove/en

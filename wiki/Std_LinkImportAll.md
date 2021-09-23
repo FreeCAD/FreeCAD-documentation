@@ -7,6 +7,8 @@
    SeeAlso:[Std LinkMake](Std_LinkMake.md), [Std LinkMakeRelative](Std_LinkMakeRelative.md), [Std LinkImport](Std_LinkImport.md)
 ---
 
+# Std LinkImportAll
+
 ## Description
 
 
@@ -29,4 +31,7 @@ This command essentially runs **<img src=images/Std_LinkImport.svg style="width:
 
 
 
- {{Std Base navi}}  
+ {{Std Base navi}}
+
+---
+[documentation index](../README.md) > Std LinkImportAll

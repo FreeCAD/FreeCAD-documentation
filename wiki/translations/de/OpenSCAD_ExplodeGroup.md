@@ -6,6 +6,8 @@
    Workbenches:[OpenSCAD](OpenSCAD_Workbench/de.md)
 ---
 
+# OpenSCAD ExplodeGroup/de
+
 ## Beschreibung
 
 Diese Funktion sprengt eine Verschmelzung oder einen Verbund zurück in einzelne Teile , wobei auf diese Teile zufällige Farben aufgetragen werden.
@@ -38,4 +40,7 @@ Um Anordnungen des Entwurf Arbeitsbereich aufzulösen, benutze das [Entwurf Hera
 
 {{OpenSCAD_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD ExplodeGroup/de

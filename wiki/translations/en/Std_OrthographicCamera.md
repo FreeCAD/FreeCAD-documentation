@@ -7,6 +7,8 @@
    SeeAlso:[Std PerspectiveCamera](Std_PerspectiveCamera.md)
 ---
 
+# Std OrthographicCamera/en
+
 ## Description
 
 The **Std OrthographicCamera** command switches the camera in the active [3D view](3D_view.md) to orthographic view mode. In this mode, objects that are further from the camera do not appear smaller than those that are closer.
@@ -50,4 +52,7 @@ FreeCADGui.ActiveDocument.ActiveView.getCameraType()
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std OrthographicCamera/en

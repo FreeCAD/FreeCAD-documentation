@@ -7,6 +7,8 @@
    SeeAlso:[TechDraw Ajout vue dans une fenêtre de rognage](TechDraw_ClipGroupAdd/fr.md), [TechDraw Suppression vue d'une fenêtre de rognage](TechDraw_ClipGroupRemove/fr.md)
 ---
 
+# TechDraw ClipGroup/fr
+
 ## Description
 
 Cet outil crée une fenêtre de rognage qui peut contenir des vues.
@@ -35,4 +37,7 @@ Cet outil crée une fenêtre de rognage qui peut contenir des vues.
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ClipGroup/fr

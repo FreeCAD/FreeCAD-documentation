@@ -8,6 +8,8 @@
    SeeAlso:[Mostra/Nascondi](Std_ToggleVisibility/it.md), [Mostra la selezione](Std_ShowSelection/it.md), [Commuta tutti gli oggetti](Std_ToggleObjects/it.md), [Mostra tutti gli oggetti](Std_ShowObjects/it.md), [Nascondi tutti gli oggetti](Std_HideObjects/it.md)
 ---
 
+# Std HideSelection/it
+
 
 </div>
 
@@ -51,4 +53,7 @@ For a scripting example see [Std ToggleVisibility](Std_ToggleVisibility.md).
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std HideSelection/it

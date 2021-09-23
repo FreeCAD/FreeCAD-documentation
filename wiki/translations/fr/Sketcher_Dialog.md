@@ -1,10 +1,4 @@
 # Sketcher Dialog/fr
-
-
-
-
-
-
 <div style="float:right; clean:both; margin-left:0.5em;">
 
 \_\_TOC\_\_
@@ -217,4 +211,7 @@ Vous pouvez définir les options suivantes :
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Dialog/fr

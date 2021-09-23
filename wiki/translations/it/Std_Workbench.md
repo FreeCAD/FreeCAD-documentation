@@ -1,3 +1,4 @@
+# Std Workbench/it
 ---
 - GuiCommand:/it   Name:Std_Workbench   Name/it:Ambiente   Empty:1   MenuLocation:[Workbenches:Tutti   SeeAlso:[[Workbenches/it| Ambienti di lavoro](Std_View_Menu/it___Visualizza]]_→_Ambiente_→.md)---
 
@@ -53,4 +54,7 @@ FreeCADGui.activateWorkbench("PartDesignWorkbench")
 
 {{Std Base navi
 
-}}  {{Interface navi}} 
+}}  {{Interface navi}}
+
+---
+[documentation index](../README.md) > Std Workbench/it

@@ -1,7 +1,4 @@
 # Macro MessageBox/cs
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -72,6 +69,5 @@ Příklad :
  "+str(z)+"\nRayon\t     : "+str(r))
 }}
 
-
-
-
+---
+[documentation index](../README.md) > Macro MessageBox/cs

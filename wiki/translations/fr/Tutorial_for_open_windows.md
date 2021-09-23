@@ -1,7 +1,4 @@
 # Tutorial for open windows/fr
-
-
-
 {{TutorialInfo/fr
 |Topic=Architecture
 |Level=Débutant
@@ -246,4 +243,7 @@ Une interaction plus étroite entre les ateliers est prévue pour les futures ve
 
 {{Tutorials navi
 
-}}   {{TechDraw Tools navi}} 
+}}   {{TechDraw Tools navi}}
+
+---
+[documentation index](../README.md) > [Arch](Category:Arch.md) > Tutorial for open windows/fr

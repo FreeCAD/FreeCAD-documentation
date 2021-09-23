@@ -9,6 +9,8 @@
    SeeAlso:[Arch Wall](Arch_Wall/ru.md), [Arch Grid](Arch_Grid/ru.md)
 ---
 
+# Arch CurtainWall/ru
+
 
 </div>
 
@@ -152,8 +154,5 @@ curtainWall.VerticalSections = 6
 FreeCAD.ActiveDocument.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CurtainWall/ru

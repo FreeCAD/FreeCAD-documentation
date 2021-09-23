@@ -1,10 +1,4 @@
 # Contributors/pt
-
-
-
-
-
-
 {{TOCright}}
 
 <img alt="" src=images/FreeCAD_Users_Contributors.svg  style="width:64px;">
@@ -259,3 +253,6 @@ Desenvolvedores de Extras para FreeCAD (obtido a partir de <https://github.com/F
 
 
 [Category:Developer](Category:Developer.md)
+
+---
+[documentation index](../README.md) > [Developer](Category:Developer.md) > Contributors/pt

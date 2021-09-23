@@ -1,5 +1,5 @@
 # Part TopoShape/fr
- {{TOCright}}
+{{TOCright}}
 
 ## Introduction
 
@@ -70,4 +70,7 @@ help(obj.Shape)
 ```
 
 
- {{Document objects navi}} 
+ {{Document objects navi}}
+
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part TopoShape/fr

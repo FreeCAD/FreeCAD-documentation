@@ -1,10 +1,4 @@
 # Draft Constrain/es
-
-
-
-
-
-
 {{TOCright}}
 
 ## Description
@@ -68,3 +62,6 @@ See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Dr
   
 
 [Category:User Documentation/es](Category:User_Documentation/es.md)
+
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Constrain/es

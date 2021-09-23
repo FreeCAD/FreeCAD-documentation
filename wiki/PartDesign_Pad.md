@@ -6,6 +6,8 @@
    SeeAlso:[PartDesign Pocket](PartDesign_Pocket.md)
 ---
 
+# PartDesign Pad
+
 ## Description
 
 The **<img src="images/PartDesign_Pad.svg" width=16px> [PartDesign Pad](PartDesign_Pad.md)** tool extrudes a sketch into a solid in a direction normal to the sketch plane. As of <small>(v0.17)</small>  faces on the solid can also be used.
@@ -116,4 +118,7 @@ Reverses the direction of the pad.
 
 
 
- {{PartDesign Tools navi}} 
+ {{PartDesign Tools navi}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Pad

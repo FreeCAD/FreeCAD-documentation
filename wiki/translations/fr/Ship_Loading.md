@@ -1,3 +1,4 @@
+# Ship Loading/fr
 ---
 - GuiCommand:/fr   Name:Ship Loading   Name/fr:Ship Loading   MenuLocation:Weights → Create a new loading condition   |Workbenches:[[Ship Workbench/fr   Ship]]|Shortcut:   SeeAlso:---
 
@@ -16,9 +17,5 @@ TODO
 
 {{Ship Tools navi/fr}}
 
-
-
-
-
-
-
+---
+[documentation index](../README.md) > Ship Loading/fr

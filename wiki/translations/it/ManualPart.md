@@ -544,3 +544,6 @@ Questa sezione elenca una serie di comandi che non sono ancora inclusi in questo
 -   [Crea una copia semplice](Part_CreateSimpleCopy/it.md)
 -   [Controlla geometria](Part_CheckGeometry/it.md)
 -   [Crea composto](Part_MakeCompound/it.md)
+
+---
+[documentation index](../README.md) > ManualPart/it

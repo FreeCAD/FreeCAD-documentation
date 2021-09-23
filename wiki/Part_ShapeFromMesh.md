@@ -6,6 +6,8 @@
    SeeAlso:[Part ConvertToSolid](Part_MakeSolid.md), [Part RefineShape](Part_RefineShape.md), [Part PointsFromMesh](Part_PointsFromMesh.md)
 ---
 
+# Part ShapeFromMesh
+
 ## Introduction
 
 The **<img src="images/Part_ShapeFromMesh.svg" width=16px> [Part ShapeFromMesh](Part_ShapeFromMesh.md)** command creates a shape from a [mesh object](Mesh.md). Mesh objects have limited editing capabilities in FreeCAD, converting them to [shapes](Shape.md) will allow their use with many more boolean and modification tools.
@@ -52,7 +54,5 @@ solid.purgeTouched()
 doc.recompute()
 ```
 
-
-
-
-   
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part ShapeFromMesh

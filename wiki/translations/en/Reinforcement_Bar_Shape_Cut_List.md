@@ -7,6 +7,8 @@
    SeeAlso:[Reinforcement](Reinforcement_Workbench.md), [Arch Rebar Reinforcement Drawing Dimensioning](Arch_Rebar_Drawing_Dimensioning.md), [Arch Rebar BOM](Arch_Rebar_BOM.md)
 ---
 
+# Reinforcement Bar Shape Cut List/en
+
 ## Description
 
 The [Rebar Shape Cut List](Reinforcement_Bar_Shape_Cut_List.md) tool allows the user to create the rebar shape cut list of reinforcing bars.
@@ -399,3 +401,6 @@ RebarShapeCutListfunc.getRebarShapeCutList(
 
 
 [Category:External Command Reference](Category:External_Command_Reference.md) [Category:Reinforcement](Category:Reinforcement.md)
+
+---
+[documentation index](../README.md) > [External Command Reference](Category:External Command Reference.md) > Reinforcement Bar Shape Cut List/en

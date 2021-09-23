@@ -8,6 +8,8 @@
    SeeAlso:[Std Part](Std_Part/fr.md), [Std Groupe](Std_Group/fr.md), [PartDesign Corps](PartDesign_Body/fr.md)
 ---
 
+# Std LinkMake/fr
+
 ## Description
 
 
@@ -380,4 +382,7 @@ D\'autres \"liens\" divers à propos de Link incluent :
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std LinkMake/fr

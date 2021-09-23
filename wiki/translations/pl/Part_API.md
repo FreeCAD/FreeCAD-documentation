@@ -1,5 +1,5 @@
 # Part API/pl
- {{VeryImportantMessage/pl
+{{VeryImportantMessage/pl
 |''(listopad 2018 r.)'' Informacje te mogą być niekompletne i nieaktualne. Najnowsze API - patrz [https://www.freecadweb.org/api dokumentacja API generowana automatycznie].}}
 
 Moduł Część jest bezpośrednim połączeniem pomiędzy programem FreeCAD a jądrem OpenCasCade. Dostarcza on głównie [kształty topologiczne](TopoShape_API/pl.md), który jest głównym typem obiektu używanym przez OpenCascade. Moduł Część zawiera również wiele funkcji ułatwiających tworzenie i manipulowanie kształtami topologicznymi. Przykład: 
@@ -94,3 +94,6 @@ Part.show(mycube)
  
 
 [Category:API](Category:API.md) [Category:Poweruser Documentation](Category:Poweruser_Documentation.md)
+
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part API/pl

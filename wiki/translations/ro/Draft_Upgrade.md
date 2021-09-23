@@ -1,3 +1,4 @@
+# Draft Upgrade/ro
 ---
 - GuiCommand:   Name:Draft Upgrade   Name:Draft Upgrade   Workbenches:[Arch](Draft_Workbench___Draft]],_[[Arch_Workbench.md)|MenuLocation:Draft -> Upgrade   Shortcut:U P   SeeAlso:[Draft Downgrade](Draft_Downgrade.md)---
 
@@ -100,8 +101,5 @@ add_list5, delete_list5 = Draft.upgrade(face, delete=False)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Upgrade/ro

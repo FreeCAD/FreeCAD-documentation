@@ -8,6 +8,8 @@
    SeeAlso:[TechDraw Ligne centrale à une face](TechDraw_FaceCenterLine/fr.md), [TechDraw Ligne centrale entre 2 lignes](TechDraw_2LineCenterLine/fr.md)
 ---
 
+# TechDraw 2PointCosmeticLine/fr
+
 ## Description
 
 L\'outil Ligne cosmétique ajoute une ligne cosmétique par deux points. Les points peuvent être 2D ou 3D. La ligne résultante peut être utilisée pour la cotation. L\'apparence de la ligne peut être modifiée à l\'aide de l\'outil [TechDraw Gomme](TechDraw_CosmeticEraser/fr.md).
@@ -56,4 +58,7 @@ Les lignes cosmétiques peuvent être créées à l\'aide des méthodes makeCosm
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw 2PointCosmeticLine/fr

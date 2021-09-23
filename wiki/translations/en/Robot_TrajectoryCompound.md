@@ -5,6 +5,8 @@
    Workbenches:[Robot](Robot_Workbench.md)
 ---
 
+# Robot TrajectoryCompound/en
+
 ## Description
 
 Creates a compound out of some single trajectories.
@@ -26,4 +28,7 @@ Creates a compound out of some single trajectories.
 
 {{Robot_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot TrajectoryCompound/en

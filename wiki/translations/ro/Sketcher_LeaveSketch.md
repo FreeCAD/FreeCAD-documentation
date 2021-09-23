@@ -1,3 +1,4 @@
+# Sketcher LeaveSketch/ro
 ---
 - GuiCommand:   Name:Sketcher LeaveSketch   Workbenches:[PartDesign](Sketcher_Workbench___Sketcher]],_[[PartDesign_Workbench.md)|MenuLocation:Sketch → Leave sketch|---
 
@@ -44,3 +45,6 @@ Modificările sunt salvate  {{LesAutresOutilsDEsquisse}}
 }}  
 
 [Category:Sketcher/ro](Category:Sketcher/ro.md)
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher LeaveSketch/ro

@@ -1,6 +1,5 @@
 # BIM application compatibility table/es
-
-  Esta página da una visión general de cómo las diferentes herramientas y conceptos que se encuentran en otras aplicaciones BIM convencionales se comparan con FreeCAD, específicamente su [BIM ambiente de trabajo](BIM_Workbench/es.md).
+Esta página da una visión general de cómo las diferentes herramientas y conceptos que se encuentran en otras aplicaciones BIM convencionales se comparan con FreeCAD, específicamente su [BIM ambiente de trabajo](BIM_Workbench/es.md).
 
 **HACER:** Añadir otras aplicaciones BIM: Allplan, Tekla, Vectorworks, BricsCAD, ¿qué más?
 
@@ -16,3 +15,6 @@
   **Elementos BIM estándar**                               Paredes, estructuras (vigas, columnas y forjados), ventanas (puertas y ventanas), techos, escaleras, armazones (barandillas), componentes (muebles, aparatos, etc.)                                                                                                                                                                                                                                                                                                                                                                                                                                                                    Paredes, vigas, columnas, pisos, techos, ventanas, puertas, techos, escaleras, barandas, componentes (muebles, aparatos, etc)                                                                                                      Paredes, vigas, columnas, forjados, ventanas, puertas, techos, escaleras, barandillas, muros cortina, objetos (muebles, electrodomésticos, etc)
 
 [Category:BIM](Category:BIM.md)
+
+---
+[documentation index](../README.md) > [BIM](Category:BIM.md) > BIM application compatibility table/es

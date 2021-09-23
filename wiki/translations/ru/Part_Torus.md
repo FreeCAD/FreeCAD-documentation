@@ -7,6 +7,8 @@
    SeeAlso:[Создать примитивы](Part_Primitives/ru.md)
 ---
 
+# Part Torus/ru
+
 ## Описание
 
 Создаёт простой параметрический тор с следующими параметрами: положение (position), угол1 (angle1), угол2 (angle2), угол3 (angle3), радиус1 (radius1) и радиус2 (radius2).
@@ -57,10 +59,7 @@
 
 ![](images/TorusExampleAngle2.jpg ) Параметр Угол2 (Angle2) равен 90°.
 
-![](images/TorusExampleAngle3.jpg ) Параметр Угол3 (Angle3) имеет значение 90°. 
+![](images/TorusExampleAngle3.jpg ) Параметр Угол3 (Angle3) имеет значение 90°.
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Torus/ru

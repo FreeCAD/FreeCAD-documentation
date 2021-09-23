@@ -1,3 +1,4 @@
+# Drawing Clip/de
 ---
 - GuiCommand:/de   Name/de:Drawing Ausschnitt   Workbenches:[[Drawing Workbench/de   Drawing]], Complete|MenuLocation:Drawing → Ausschnitt   Shortcut:-   SeeAlso:----
 
@@ -37,4 +38,7 @@ Dieser Befehl erlaubt, ein beschneidendes Rechteck auf einer [Zeichnungsseite](D
 
 {{Drawing Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Clip/de

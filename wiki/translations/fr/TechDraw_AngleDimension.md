@@ -7,6 +7,8 @@
    SeeAlso:[TechDraw Cote angulaire par 3 points](TechDraw_Dimension_Angle3Pt/fr.md)
 ---
 
+# TechDraw AngleDimension/fr
+
 ## Description
 
 L\'outil Cote angulaire ajoute une dimension angulaire à une vue. La dimension peut être l\'angle intérieur entre deux bords rectilignes quelconques. La dimension sera initialement l\'angle projeté (c.-à-d. comme indiqué sur le dessin), mais elle peut être remplacée par la distance 3D réel à l\'aide de l\'outil **<img src="images/TechDraw_LinkDimension.svg" width=16px> [TechDraw Lier une dimension](TechDraw_LinkDimension/fr.md)
@@ -56,4 +58,7 @@ rc = page.addView(dim1)
 
 {{TechDraw Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw AngleDimension/fr

@@ -1,5 +1,5 @@
 # FeaturePython Custom Properties/fr
- {{TOCright}}
+{{TOCright}}
 
 
 <div class="mw-translate-fuzzy">
@@ -1259,3 +1259,6 @@ obj.ThePropertyName // returns {{TODO}}"example value for getter"
 
 
 [Category:API/fr](Category:API/fr.md) [Category:Developer Documentation/fr](Category:Developer_Documentation/fr.md) [Category:API](Category:API.md) [Category:Developer Documentation](Category:Developer_Documentation.md)
+
+---
+[documentation index](../README.md) > [API](Category:API.md) > FeaturePython Custom Properties/fr

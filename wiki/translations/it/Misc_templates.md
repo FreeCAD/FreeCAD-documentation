@@ -1,6 +1,4 @@
 # Misc templates/it
-
-
 Questa pagina elenca alcuni modelli misti.
 
 Tutti i modelli sono in formato SVG direttamente scaricabili e utilizzabili con o senza modifiche.
@@ -108,3 +106,6 @@ CompassRose\_3D [CompassRose\_3D.FCStd](http://forum.freecadweb.org/download/fil
 
 
 [Category:Documentation](Category:Documentation.md) [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Drawing](Category:Drawing.md)
+
+---
+[documentation index](../README.md) > [Documentation](Category:Documentation.md) > Misc templates/it

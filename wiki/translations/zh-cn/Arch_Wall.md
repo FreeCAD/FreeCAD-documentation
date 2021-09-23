@@ -8,6 +8,8 @@
    SeeAlso:[Arch Structure](Arch_Structure.md)
 ---
 
+# Arch Wall/zh-cn
+
 
 </div>
 
@@ -194,8 +196,5 @@ FreeCAD.ActiveDocument.recompute()
 
 </div>
 
-
-
-
-
-
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Wall/zh-cn

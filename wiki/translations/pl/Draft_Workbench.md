@@ -1,10 +1,4 @@
-# Draft Workbench/pl
-
-
-
-
-
-<img alt="Ikonka FreeCAD dla Środowiska pracy Rysunek roboczy" src=images/Workbench_Draft.svg  style="width:128px;">
+# <img alt="Ikonka FreeCAD dla Środowiska pracy Rysunek roboczy" src=images/Workbench_Draft.svg  style="width:64px;"> Draft Workbench/pl
 
 
 {{TOCright}}
@@ -353,3 +347,6 @@ Sprawdzenie kodu tego modułu jest pomocne, aby zrozumieć interfejs programowan
  
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Draft Workbench/pl

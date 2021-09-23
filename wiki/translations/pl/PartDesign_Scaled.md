@@ -1,5 +1,5 @@
 # PartDesign Scaled/pl
- {{GuiCommand
+{{GuiCommand
 |Name=PartDesign Scaled
 |Workbenches=[PartDesign](PartDesign_Workbench.md), Complete
 |MenuLocation=PartDesign → MultiTransform
@@ -40,4 +40,7 @@ Starting from FreeCAD 0.15, this operation is not available directly, but was in
 
 ![c\|center\|800px](images/mt_example2.png ) The smallest pad was first patterned three times in X direction and then scaled to factor two (so the three occurrences have scaling factor 1.0, 1.5 and 2.0). Then a polar pattern was applied with 8 occurrences.
 
-Since the scaling is done with respect to the center of gravity, in the case of a pad, it is necessary that the pad penetrate also in the main body, otherwise the scaled objects are floating, detached from the body. To have a pad that intersects the main body can be used \"two dimensions\" type or \"simmetric to plane\" option. 
+Since the scaling is done with respect to the center of gravity, in the case of a pad, it is necessary that the pad penetrate also in the main body, otherwise the scaled objects are floating, detached from the body. To have a pad that intersects the main body can be used \"two dimensions\" type or \"simmetric to plane\" option.
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Scaled/pl

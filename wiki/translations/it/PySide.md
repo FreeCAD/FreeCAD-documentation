@@ -1,7 +1,4 @@
 # PySide/it
-
-
-
 {{TOCright}}
 
 
@@ -107,3 +104,6 @@ The PySide documentation refers to the Python-style classes; however, since Qt i
 }} 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > PySide/it

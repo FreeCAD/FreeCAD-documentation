@@ -8,6 +8,8 @@
    SeeAlso:[Вырезать](Std_Cut/ru.md), [Копировать](Std_Copy/ru.md), [Дублировать выбранное](Std_DuplicateSelection/ru.md)
 ---
 
+# Std Paste/ru
+
 ## Описание
 
 Команда **Вставить** вставляет объекты из буфера обмена в активный документ.
@@ -37,4 +39,7 @@
 
 {{Std Base navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > Std Paste/ru

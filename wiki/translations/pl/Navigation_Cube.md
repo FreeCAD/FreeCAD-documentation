@@ -1,10 +1,4 @@
 # Navigation Cube/pl
-
-
-
-
-
-
 {{TOCright}}
 
 Sterowanie kostką nawigacyjną lub **kostka nawigacyjna** jest pomocą graficzną interfejsu użytkownika w celu zmiany orientacji widoku 3D. Domyślnie jest ona widoczny i znajduje się w prawym górnym rogu okna 3D. Jeśli patrzysz na standardowy widok 3D, wygląda to następująco:
@@ -80,3 +74,6 @@ Bardziej zaawansowana konfiguracja jest dostępna w tabeli - pozycja:**CubeMenu*
 
 
 [Category:User Documentation](Category:User_Documentation.md)
+
+---
+[documentation index](../README.md) > [User Documentation](Category:User Documentation.md) > Navigation Cube/pl

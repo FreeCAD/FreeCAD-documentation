@@ -8,6 +8,8 @@
    SeeAlso:[FEM tutorial](FEM_tutorial/ru.md)
 ---
 
+# FEM ElementGeometry2D/ru
+
 
 </div>
 
@@ -52,4 +54,7 @@ For viewing results from CalculiX solver on the mesh expanded to the prescribed 
 
 {{FEM Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > FEM ElementGeometry2D/ru

@@ -14,6 +14,8 @@
    SeeAlso:[Sketcher Copiar](Sketcher_Copy/es.md), [Sketcher Move](Sketcher_Move/es.md)
 ---
 
+# Sketcher Clone/es
+
 
 </div>
 
@@ -37,4 +39,7 @@ No extra constraints for clone-behaviour are added.
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Clone/es

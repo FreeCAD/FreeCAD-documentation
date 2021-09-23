@@ -1,5 +1,5 @@
 # Macro Airfoil Import & Scale/it
- {{Macro/it
+{{Macro/it
 |Name=Macro Airfoil Import & Scale
 |Icon=Macro_Airfoil_Import_&_Scale.png
 |Translate=Importa & Scala profilo alare
@@ -539,3 +539,6 @@ p()
 La discussione nel [Forum](http://forum.freecadweb.org/viewtopic.php?f=22&t=5554&p=45137&hilit=Airfoil#p45137)
 
 [UIUC Applied Aerodynamics Group Departement of Aerospace Engineering](http://aerospace.illinois.edu/m-selig/ads/coord_database.html#N)
+
+---
+[documentation index](../README.md) > Macro Airfoil Import & Scale/it

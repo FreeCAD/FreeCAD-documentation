@@ -1,7 +1,4 @@
 # Material data model/fr
-
-
-
 **
 Ce plan de développement est probablement obsolète. Pour plus d'informations, voir [Plan de développement](Development_roadmap/fr.md).<br>
 Si vous n'êtes pas impliqué dans le développement discuté ici :<br>
@@ -251,3 +248,6 @@ Code CSI/[MasterFormat](http://en.wikipedia.org/wiki/MasterFormat) (comme il exi
 
 
 [Category:Roadmap](Category:Roadmap.md)
+
+---
+[documentation index](../README.md) > [Material](Material_Workbench.md) > Material data model/fr

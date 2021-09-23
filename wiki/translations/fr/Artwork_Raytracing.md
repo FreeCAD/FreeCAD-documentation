@@ -1,6 +1,4 @@
 # Artwork Raytracing/fr
- 
-
 Ces icônes se trouvent dans le chemin source indiqué.
 
 Pour toutes les icônes de l\'arborescence source, voir [Graphisme](Artwork/fr.md).
@@ -17,3 +15,6 @@ Pour toutes les icônes de l\'arborescence source, voir [Graphisme](Artwork/fr.m
 }} 
 
 [Category:Raytracing](Category:Raytracing.md)
+
+---
+[documentation index](../README.md) > [Raytracing](Category:Raytracing.md) > Artwork Raytracing/fr

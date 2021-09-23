@@ -1,5 +1,5 @@
 # Interface/pl
- {{TOCright}}
+{{TOCright}}
 
 ## Wprowadzenie
 
@@ -78,4 +78,7 @@ Opcje te znajdują się w menu, **Narzędzia → Dostosuj**. Patrz [Dostosowywan
 
 {{Interface navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > Interface/pl

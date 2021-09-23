@@ -8,6 +8,8 @@
    SeeAlso:[Extrusión](Part_Extrude/es.md)
 ---
 
+# Draft Trimex/es
+
 
 </div>
 
@@ -141,8 +143,5 @@ solid = Draft.extrude(rectangle, vector, solid=True)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Trimex/es

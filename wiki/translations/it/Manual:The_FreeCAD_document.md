@@ -1,7 +1,4 @@
 # Manual:The FreeCAD document/it
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -47,3 +44,5 @@ I documenti di FreeCAD vengono salvati con l\'estensione .FcStd, che è un forma
 
 </div>
 
+---
+[documentation index](../README.md) > Manual:The FreeCAD document/it

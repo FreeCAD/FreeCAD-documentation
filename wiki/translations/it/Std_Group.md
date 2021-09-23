@@ -8,6 +8,8 @@
    SeeAlso:[Parte](Std_Part/it.md), [Seleziona gruppo](Draft_SelectGroup/it.md), [Aggiungi al gruppo](Draft_AddToGroup/it.md)
 ---
 
+# Std Group/it
+
 ## Descrizione
 
 Un [Gruppo](Std_Group/it.md) (chiamato internamente [App DocumentObjectGroup](App_DocumentObjectGroup/it.md)) è un contenitore per scopi generici che consente di raggruppare diversi tipi di oggetti nella [vista ad albero](tree_view/it.md), indipendentemente dal tipo di dati. È usato come una semplice cartella per classificare e organizzare gli oggetti nel modello, al fine di mantenere una struttura logica. I gruppi possono essere nidificati all\'interno di altri gruppi.
@@ -124,4 +126,7 @@ Per esempio, un [Analisi FEM](FEM_Analysis/it.md) è un oggetto `App::DocumentOb
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std Group/it

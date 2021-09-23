@@ -7,6 +7,8 @@
    SeeAlso:[Std Close](Std_CloseActiveWindow.md)
 ---
 
+# Std Quit
+
 ## Description
 
 The **Std Quit** command closes the FreeCAD application and optionally saves unsaved documents.
@@ -32,4 +34,7 @@ The **Std Quit** command closes the FreeCAD application and optionally saves uns
 
 
 
- {{Std Base navi}}  
+ {{Std Base navi}}
+
+---
+[documentation index](../README.md) > Std Quit

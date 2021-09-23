@@ -8,6 +8,8 @@
    SeeAlso:[Ateliers externes](External_workbenches/fr.md), [Macros](Macros/fr.md)
 ---
 
+# Std AddonMgr/fr
+
 ## Description
 
 La commande **Gestionnaire d\'Addon** ouvre le gestionnaire de modules complémentaires. Avec l\'Addon Manager, vous pouvez installer et gérer [ateliers complémentaires](external_workbenches/fr.md) et des [macros](macros/fr.md) fournis par la communauté FreeCAD. Les ateliers et les macros disponibles proviennent de deux dépôts [FreeCAD-addons](https://github.com/FreeCAD/FreeCAD-addons/) et [FreeCAD-macros](https://github.com/FreeCAD/FreeCAD-macros/) et à partir de la page [Liste des macros](Macros_recipes/fr.md).
@@ -78,4 +80,7 @@ Si vous développez un atelier en C++, il ne peut pas être exécuté directemen
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std AddonMgr/fr

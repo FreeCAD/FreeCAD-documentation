@@ -6,6 +6,8 @@
    Workbenches:Tous
 ---
 
+# Std Revert/fr
+
 ## Description
 
 La commande **Std Rétablir** ferme le document actif et rouvre la dernière version enregistrée du document.
@@ -25,4 +27,7 @@ La commande **Std Rétablir** ferme le document actif et rouvre la dernière ver
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std Revert/fr

@@ -6,6 +6,8 @@
    SeeAlso:[FEM Constraint fixed](FEM_ConstraintFixed.md)
 ---
 
+# FEM ConstraintContact
+
 ## Description
 
 Creates a FEM constraint for contact between 2 surfaces.
@@ -55,4 +57,7 @@ Creates a FEM constraint for contact between 2 surfaces.
 
 
 
- {{FEM Tools navi}}  
+ {{FEM Tools navi}}
+
+---
+[documentation index](../README.md) > FEM ConstraintContact

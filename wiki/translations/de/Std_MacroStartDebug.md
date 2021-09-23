@@ -7,6 +7,8 @@
    SeeAlso:[Std MakroFehlersucheAnhalten](Std_MacroStopDebug/de.md)
 ---
 
+# Std MacroStartDebug/de
+
 ## Beschreibung
 
 Dieser Befehl funktioniert zur Zeit nicht.
@@ -17,4 +19,7 @@ Dieser Befehl funktioniert zur Zeit nicht.
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std MacroStartDebug/de

@@ -1,10 +1,4 @@
-# Draft Workbench/ru
-
-
-
-
-
-<img alt="Логотип верстака Draft на котором изображен кульман" src=images/Workbench_Draft.svg  style="width:128px;">
+# <img alt="Логотип верстака Draft на котором изображен кульман" src=images/Workbench_Draft.svg  style="width:64px;"> Draft Workbench/ru
 
 
 {{TOCright}}
@@ -464,3 +458,6 @@ doc = dto.create_test_file()
  
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Draft Workbench/ru

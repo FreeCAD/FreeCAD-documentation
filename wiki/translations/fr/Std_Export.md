@@ -8,6 +8,8 @@
    SeeAlso:[Std Générer un pdf](Std_PrintPdf/fr.md), [Std Importer](Std_Import/fr.md), [Préférences d'Import Export](Import_Export_Preferences/fr.md)
 ---
 
+# Std Export/fr
+
 ## Description
 
 La commande **Std Exporter** exporte les objets sélectionnés vers un format de fichier différent. De nombreux formats de fichiers sont pris en charge et pour certains formats, plusieurs options d\'exportation existent. Voir [Import Export](Import_Export/fr.md) pour plus d\'informations.
@@ -51,3 +53,6 @@ La commande **Std Exporter** exporte les objets sélectionnés vers un format de
 }}  
 
 [Category:File\_Formats](Category:File_Formats.md)
+
+---
+[documentation index](../README.md) > [File_Formats](Category:File_Formats.md) > Std Export/fr

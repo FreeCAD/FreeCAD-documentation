@@ -7,6 +7,8 @@
    SeeAlso:[TechDraw Projection de groupe](TechDraw_ProjectionGroup/fr.md), [TechDraw Vue de coupe](TechDraw_SectionView/fr.md)
 ---
 
+# TechDraw View/fr
+
 ## Description
 
 L\'outil Vue ajoute une représentation d\'un ou plusieurs objets à une Page de dessin. C\'est le bloc de construction de base de l\'atelier TechDraw. La plupart des autres vues sont dérivées d\'une manière ou d\'une autre de Nouvelle Vue.
@@ -127,4 +129,7 @@ FreeCAD.ActiveDocument.View.Direction = (0.0,0.0,1.0)
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw View/fr

@@ -8,6 +8,8 @@
    SeeAlso:[Entwurf Skalieren](Draft_Scale/de.md)
 ---
 
+# Draft Clone/de
+
 ## Beschreibung
 
 Das <img alt="" src=images/Draft_Clone.svg  style="width:16px;"> **Entwurf Klonen** Werkzeug erstellt verbundene Kopien, Klone von ausgewählten Objekten. Die Form eines Klons ist parametrisch, er wird aktualisiert, wenn sich sein Quellobjekt ändert. Aber ein Klon hat seine eigene Position, Rotation und Skalierung und seine eigenen [Ansichtseigenschaften](Property_editor/de.md). Für [Architektur](Arch_Workbench/de.md) Objekte erzeugt der Befehl einen speziellen Typ von Klon: einen Architektur Klon.
@@ -83,8 +85,5 @@ cloned_object.Fuse = True
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Clone/de

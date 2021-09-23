@@ -8,6 +8,8 @@
    SeeAlso:[FEM tutorial](FEM_tutorial/ru.md)
 ---
 
+# FEM MeshGroup/ru
+
 
 </div>
 
@@ -51,4 +53,7 @@ FEM MeshGroup therefore enables FreeCAD to be used with external solvers (or vie
 
 {{FEM Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > FEM MeshGroup/ru

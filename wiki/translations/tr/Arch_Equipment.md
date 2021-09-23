@@ -7,6 +7,8 @@
    SeeAlso:[Arch 3 views](Arch_3Views.md)
 ---
 
+# Arch Equipment/tr
+
 ## Description
 
 The Equipment tool offers you a simple and convenient way to insert non-structural, standalone elements such as pieces of furniture, hidro-sanitary equipments or electrical appliances to your projects. Equipments are based on [Part shapes](Part_Workbench.md), which allow them to benefit from the solidity and possibilities of BRep geometry, and generate nice views when rendered to plan and section views.
@@ -65,11 +67,5 @@ Equip = Arch.makeEquipment(Box)
 FreeCAD.ActiveDocument.recompute()
 ```
 
-
-
-
-
-
-
-
-
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Equipment/tr

@@ -1,6 +1,4 @@
 # FEM Solver/fr
-
-
 ## Préface
 
 
@@ -217,4 +215,7 @@ Technog a été utilisé avec succès dans FreeCAD en tant que substitut de Calc
 
 {{FEM Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > FEM Solver/fr

@@ -6,6 +6,8 @@
    MenuLocation:Editar → Borrar
 ---
 
+# Std Delete/es
+
 
 </div>
 
@@ -63,4 +65,7 @@ FreeCAD.ActiveDocument.removeObject("myObjectName")
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std Delete/es

@@ -8,6 +8,8 @@
    SeeAlso:
 ---
 
+# Sketcher Create3PointCircle/ru
+
 ## Описание
 
 Этот <img alt="" src=images/Sketcher_Create3PointCircle.svg  style="width:16px;"> инструмент рисует круг, указывая три точки по контуру круга. При запуске инструмента указатель мыши меняется на белый крест с красным кружком. Кроме того, координаты отображаются в режиме реального времени.
@@ -23,4 +25,7 @@
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Create3PointCircle/ru

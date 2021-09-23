@@ -1,7 +1,4 @@
 # Compiling/ru
-
-
-
 <div class="mw-translate-fuzzy">
 
 Каждая операционная система имеет свою собственную страницу по компиляции FreeCAD в [Онлайновой документации](Online_Help_Toc/ru.md).
@@ -34,3 +31,6 @@
 
 
 [Category:Developer\_Documentation](Category:Developer_Documentation.md) [Category:Developer](Category:Developer.md)
+
+---
+[documentation index](../README.md) > [Developer_Documentation](Category:Developer_Documentation.md) > Compiling/ru

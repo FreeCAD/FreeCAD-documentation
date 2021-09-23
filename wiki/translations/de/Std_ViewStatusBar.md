@@ -7,6 +7,8 @@
    Workbenches:Alle
 ---
 
+# Std ViewStatusBar/de
+
 ## Beschreibung
 
 -   Der **Std AnzeigeStatusleiste**-Befehl schaltet die Anzeige der [Statusleiste](Status_bar/de.md) ein/aus.
@@ -21,4 +23,7 @@
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ViewStatusBar/de

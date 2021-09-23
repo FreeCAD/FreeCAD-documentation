@@ -8,6 +8,8 @@
    SeeAlso:[Placement](Placement/fr.md), [Tutoriel Les bases pour l'ancrage](Basic_Attachment_Tutorial/fr.md), [Part Part2DObject](Part_Part2DObject/fr.md)
 ---
 
+# Part EditAttachment/fr
+
 ## Description
 
 **Part Ancrage** est un utilitaire permettant d\'attacher un objet à un autre. L\'objet attaché est lié à l\'autre objet, ce qui signifie que si le placement de ce dernier est modifié par la suite, l\'objet attaché sera mis à jour à sa nouvelle position.
@@ -304,4 +306,7 @@ Le décalage de l\'ancrage est utilisé pour appliquer un décalage linéaire ou
 
 {{Part_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part EditAttachment/fr

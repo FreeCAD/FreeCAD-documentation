@@ -6,6 +6,8 @@
    SeeAlso:[Image Open](Image_Open.md), [Image Scaling](Image_Scaling.md)
 ---
 
+# Image CreateImagePlane/es
+
 ## Descripción
 
 The [CreateImagePlane](Image_CreateImagePlane.md) tool imports a [bitmap](bitmap.md) image and places it on one of the XY, YZ or XZ planes.
@@ -54,4 +56,7 @@ If no offset is given to the image initially, its position can still be adjusted
 
 {{Image Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Image](Image_Workbench.md) > Image CreateImagePlane/es

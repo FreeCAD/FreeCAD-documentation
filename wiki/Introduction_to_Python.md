@@ -1,8 +1,4 @@
 # Introduction to Python
- 
-
- 
-
 ## Introduction
 
 This is a short tutorial for those new to [Python](https://en.wikipedia.org/wiki/Python_%28programming_language%29). Python is an open-source, multiplatform [programming language](https://en.wikipedia.org/wiki/Programming_language). It has several features that make it different from other programming languages, and very accessible to new users:
@@ -497,3 +493,6 @@ dir()
  {{Powerdocnavi}} 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Introduction to Python

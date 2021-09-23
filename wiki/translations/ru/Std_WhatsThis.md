@@ -8,6 +8,8 @@
    SeeAlso:[Online help](Std_OnlineHelp.md), [User hub](Std_FreeCADUserHub.md), [Help menu](Std_Help_Menu.md)
 ---
 
+# Std WhatsThis/ru
+
 
 </div>
 
@@ -40,4 +42,7 @@ Read this post to understand how the commands must be named in the code to match
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std WhatsThis/ru

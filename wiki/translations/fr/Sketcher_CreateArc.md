@@ -7,6 +7,8 @@
    SeeAlso:[Sketcher Cercle](Sketcher_CompCreateCircle/fr.md)
 ---
 
+# Sketcher CreateArc/fr
+
 ## Description
 
 Cet outil dessine un arc en cliquant trois points : le **centre**, l**\'angle de départ** qui détermine également le rayon, et l**\'angle d\'arrivée**.
@@ -26,4 +28,7 @@ Lorsque l\'outil est activé, le pointeur de la souris se change en croix blanch
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateArc/fr

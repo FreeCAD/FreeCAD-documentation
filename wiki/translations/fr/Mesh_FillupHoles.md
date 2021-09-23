@@ -7,6 +7,8 @@
    SeeAlso:[Mesh Boucher un trou](Mesh_FillInteractiveHole.md), [Mesh Ajouter un triangle](Mesh_AddFacet.md)
 ---
 
+# Mesh FillupHoles/fr
+
 ## Description
 
 La commande **Mesh Remplir les trous** remplit les trous dans les objets maillés.
@@ -28,4 +30,7 @@ La commande **Mesh Remplir les trous** remplit les trous dans les objets maillé
 
 {{Mesh Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh FillupHoles/fr

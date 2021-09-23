@@ -8,6 +8,8 @@
    SeeAlso:[Disegno A3](Drawing_Landscape_A3/it.md)
 ---
 
+# Drawing View/it
+
 Questo strumento crea una nuova vista dell\'oggetto selezionato e la posiziona nel foglio di disegno attivo.
 
 <img alt="Un foglio di disegno con due proiezioni, frontale e dall\'alto, e una vista isometrica." src=images/Drawing_Views_fr.png  style="width:500px;">
@@ -55,4 +57,7 @@ Per commutare la vista 3D tra ortogonale e prospettica selezionare [Vista in pro
 
 {{Drawing Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing View/it

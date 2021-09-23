@@ -7,6 +7,8 @@
    Workbenches:Tutti
 ---
 
+# Std TextureMapping/it
+
 
 </div>
 
@@ -36,4 +38,7 @@ The **Std TextureMapping** command temporarily maps a texture onto all objects i
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std TextureMapping/it

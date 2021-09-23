@@ -9,6 +9,8 @@
    SeeAlso:[Wiązanie pionowe](Sketcher_ConstrainVertical/pl.md)
 ---
 
+# Sketcher ConstrainHorizontal/pl
+
 ## Opis
 
 Wiązanie poziome wymusza, aby wybrana linia lub linie na szkicu były równoległe do osi poziomej szkicu.
@@ -43,4 +45,7 @@ Strona [skrypty szkicownika](Sketcher_scripting/pl.md) wyjaśnia wartości, któ
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainHorizontal/pl

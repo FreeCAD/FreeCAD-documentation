@@ -1,7 +1,4 @@
 # Arch IFC/es
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -96,3 +93,6 @@ Si la forma de los objetos exportados se basa en una extrusión o en una operaci
  
 
 [Category:File Formats](Category:File_Formats.md)
+
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch IFC/es

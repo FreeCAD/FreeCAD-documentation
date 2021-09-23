@@ -1,5 +1,5 @@
 # Macro Airfoil Import & Scale/en
- {{Macro
+{{Macro
 |Name=Macro Airfoil Import & Scale
 |Icon=Macro_Airfoil_Import_&_Scale.png
 |Description=This Macro, when run, will first provide the user with a file browser to locate and select a .dat airfoil text file. Once selected, a chord length is entered and upon pressing the OK button, a properly scaled airfoil is produced. There are two versions provided here. Version 1.5 should work on FreeCAD versions, 0.13 stable as well as all 0.14 versions. Version 2 should only be used with FreeCAD versions equal to or greater than 0.14 3077 and will work best with versions built with OCE/OCC versions 6.7 or greater (See the Wiki page for all version disposable).
@@ -537,3 +537,6 @@ p()
 Discussion on [Forum](http://forum.freecadweb.org/viewtopic.php?f=22&t=5554&p=45137&hilit=Airfoil#p45137)
 
 [UIUC Applied Aerodynamics Group Departement of Aerospace Engineering](http://aerospace.illinois.edu/m-selig/ads/coord_database.html#N)
+
+---
+[documentation index](../README.md) > Macro Airfoil Import & Scale/en

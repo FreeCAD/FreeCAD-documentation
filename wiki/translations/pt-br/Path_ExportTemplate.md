@@ -6,6 +6,8 @@
    SeeAlso:[Path SetupSheet](Path_SetupSheet.md)
 ---
 
+# Path ExportTemplate/pt-br
+
 ## Description
 
 Exporting Job templates provides a convenient mechanism to save commonly used Job definitions from within an existing Job. This facilitates the setup of future Jobs, that are largely similar, by allowing Job template import during the Job creation process.
@@ -49,4 +51,7 @@ The **Edit → Preferences... → Path → Job Preferences tab, Defaults → Tem
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path ExportTemplate/pt-br

@@ -1,5 +1,5 @@
 # Macro Apothem Based Prism GUI/en
- {{Macro
+{{Macro
 |Name=Apothem Based Prism
 |Icon=Part Prism Apothem.svg
 |Description=This macro will present the user with a dialog to provide the distance between centers, the number of sides, and height and will create a prism based on the apothem, or inradius of a polygon. This can be extremely handy when one only knows the distance between flats. An example of this would be hexagonal stock of plastics or metal provided by vendors. Most vendors define such stock by the distance between flats. If one is using such stock in their projects, this Macro can be a real time saver. 
@@ -126,4 +126,7 @@ SVG icon for use in custom toolbar shortcut.
 
 ## Acknowledgements
 
-A thanks to FreeCAD main developer [shoogen](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=765) and FreeCAD programmer [wandererfan](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=1375) for their invaluable help and advice in constructing this Macro. 
+A thanks to FreeCAD main developer [shoogen](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=765) and FreeCAD programmer [wandererfan](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=1375) for their invaluable help and advice in constructing this Macro.
+
+---
+[documentation index](../README.md) > Macro Apothem Based Prism GUI/en

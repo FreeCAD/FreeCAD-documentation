@@ -1,7 +1,4 @@
 # Macro Wiki Object Properties List Generator Basic Version
- 
-
-
 {{Macro
 |Name=Wiki List Generator of Object Properties
 |Description=This macro generate properties list of selected object. List presented in wiki format into python report view window.
@@ -268,4 +265,5 @@ print_obj_properties(obj,"Data")
 
 The discussion on the forum: <https://forum.freecadweb.org/viewtopic.php?f=21&t=61998>
 
-
+---
+[documentation index](../README.md) > Macro Wiki Object Properties List Generator Basic Version

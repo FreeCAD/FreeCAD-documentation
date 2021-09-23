@@ -1,5 +1,5 @@
 # Macro SpreadsheetTools/fr
- {{Macro/fr
+{{Macro/fr
 |Name=Macro SpreadsheetTools
 |Icon=Macro_SpreadsheetTools.png
 |Description=Cette macro permet de gérer les cellules dans Spreadsheet-workbench de FreeCAD.
@@ -504,6 +504,5 @@ form = Spreadsheet_Tools(MainWindow)
 form.show()
 }}
 
-
-
-
+---
+[documentation index](../README.md) > Macro SpreadsheetTools/fr

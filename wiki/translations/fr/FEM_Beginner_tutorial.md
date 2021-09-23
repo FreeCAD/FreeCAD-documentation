@@ -1,5 +1,5 @@
 # FEM Beginner tutorial/fr
- {{TutorialInfo/fr
+{{TutorialInfo/fr
 |Topic= Tutoriel FEM Débutant
 |Level= Débutant
 |Time=
@@ -40,7 +40,5 @@ A faire
 
 A faire
 
-
-
-
-
+---
+[documentation index](../README.md) > FEM Beginner tutorial/fr

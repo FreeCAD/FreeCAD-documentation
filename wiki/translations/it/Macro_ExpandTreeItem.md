@@ -1,5 +1,5 @@
 # Macro ExpandTreeItem/it
- {{Macro/it
+{{Macro/it
 |Name=Macro ExpandTreeItem
 |Translate=Macro ExpandTreeItem
 |Description=Nella vista della struttura espande l'albero selezionato e tutti gli alberi secondari.
@@ -94,3 +94,6 @@ for tree in trees:
 ## Link
 
 [Objektbaum mit einem Klick komplett aufklappen?](https://forum.freecadweb.org/viewtopic.php?f=13&t=29406)
+
+---
+[documentation index](../README.md) > Macro ExpandTreeItem/it

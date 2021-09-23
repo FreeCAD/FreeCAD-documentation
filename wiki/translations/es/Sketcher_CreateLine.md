@@ -8,6 +8,8 @@
    SeeAlso:[Croquizador Polilínea](Sketcher_CreatePolyline/es.md)
 ---
 
+# Sketcher CreateLine/es
+
 ## Descripción
 
 Esta herramienta dibuja una línea indicando dos puntos en la vista 3D. Cuando se inicia la herramienta, el puntero del ratón cambia a una cruz blanca con un icono de línea rojo. Además se muestran las coordenadas en tiempo real.
@@ -27,4 +29,7 @@ El objeto línea creado comienza y termina en los puntos dados, pero la línea e
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateLine/es

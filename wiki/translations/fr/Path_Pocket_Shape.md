@@ -6,6 +6,8 @@
    Workbenches:[Path](Path_Workbench/fr.md)
 ---
 
+# Path Pocket Shape/fr
+
 ## Description
 
 Cet outil crée une opération de poche à partir des faces inférieures ou des parois sélectionnées d\'une ou de plusieurs poches de l\'objet.
@@ -231,4 +233,7 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Pocket Shape/fr

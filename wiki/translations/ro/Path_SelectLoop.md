@@ -1,3 +1,4 @@
+# Path SelectLoop/ro
 ---
 - GuiCommand:   Name:Path SelectLoop   Workbenches:[[Path Workbench   Path]]|MenuLocation:Path → Finish Selecting Loop   Shortcut:P,L   SeeAlso:---
 
@@ -36,4 +37,7 @@ Pentru a utiliza: selectați două margini care au un vârf comun. Apoi executa�
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path SelectLoop/ro

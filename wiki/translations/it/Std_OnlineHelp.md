@@ -1,3 +1,4 @@
+# Std OnlineHelp/it
 ---
 - GuiCommand:/it   Name:Std OnlineHelp   Name/it:Aiuto   MenuLocation:[|Workbenches:Tutti   Shortcut:F1   SeeAlso:[[Std_Help_Menu/it|Menu Aiuto](Std_Help/it___Help]]_→_Aiuto.md), [Cos'è questo?](Std_WhatsThis/it.md), [Documentazione utenti](Std_FreeCADUserHub/it.md)---
 
@@ -44,4 +45,7 @@ The **Std OnlineHelp** command opens the help documentation. To open the documen
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std OnlineHelp/it

@@ -7,6 +7,8 @@
    SeeAlso:[Std Import](Std_Import/ru.md)
 ---
 
+# Part Import/ru
+
 
 </div>
 
@@ -31,8 +33,5 @@
 
 </div>
 
-
-
-
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Import/ru

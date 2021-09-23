@@ -11,3 +11,6 @@ This is the **top category** which contains the main categories of the FreeCAD w
 , , , , , , , , , ,
 
 [Category:Categories/pt-br](Category:Categories/pt-br.md) [Category:Addons/pt-br](Category:Addons/pt-br.md) [Category:Administration/pt-br](Category:Administration/pt-br.md) [Category:Categories/pt-br](Category:Categories/pt-br.md) [Category:Command Reference/pt-br](Category:Command_Reference/pt-br.md) [Category:Developer/pt-br](Category:Developer/pt-br.md) [Category:Documentation/pt-br](Category:Documentation/pt-br.md) [Category:Hubs/pt-br](Category:Hubs/pt-br.md) [Category:Macros/pt-br](Category:Macros/pt-br.md) [Category:Roadmap/pt-br](Category:Roadmap/pt-br.md) [Category:Template/pt-br](Category:Template/pt-br.md) [Category:Tutorials/pt-br](Category:Tutorials/pt-br.md)
+
+---
+[documentation index](../README.md) > Category:Categories/pt-br

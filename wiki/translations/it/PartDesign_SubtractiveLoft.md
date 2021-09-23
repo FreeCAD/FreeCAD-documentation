@@ -1,3 +1,4 @@
+# PartDesign SubtractiveLoft/it
 ---
 - GuiCommand:/it   Name:PartDesign SubtractiveLoft   Name/it:Loft sottrattivo   Workbenches:[MenuLocation:Part Design → Loft sottrattivo   Version:0.17   SeeAlso:[[PartDesign AdditiveLoft/it|Loft additivo](PartDesign_Workbench/it___PartDesign]].md), [Sweep sottrattivo](PartDesign_SubtractivePipe/it.md)---
 
@@ -93,4 +94,7 @@
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveLoft/it

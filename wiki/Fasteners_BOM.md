@@ -7,6 +7,8 @@
    SeeAlso:
 ---
 
+# Fasteners BOM
+
 ## Description
 
 The <img alt="" src=images/Fasteners_BOM.svg  style="width:24px;"> [Fasteners BOM](Fasteners_BOM.md) generates a Bill of Materials. This tool is part of the [external workbench](external_workbenches.md) called [Fasteners](Fasteners_Workbench.md).
@@ -53,3 +55,6 @@ The <img alt="" src=images/Fasteners_BOM.svg  style="width:24px;"> [Fasteners BO
  {{Fasteners Tools navi}} 
 
 [Category:External Command Reference](Category:External_Command_Reference.md)
+
+---
+[documentation index](../README.md) > [External Command Reference](Category:External Command Reference.md) > Fasteners BOM

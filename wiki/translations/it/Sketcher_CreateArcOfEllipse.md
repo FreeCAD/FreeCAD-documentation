@@ -8,6 +8,8 @@
    SeeAlso:[Ellisse da centro](Sketcher_CreateEllipseByCenter/it.md), [Arco di ellisse](Sketcher_CompCreateArc/it.md), [Cerchio](Sketcher_CreateCircle/it.md)
 ---
 
+# Sketcher CreateArcOfEllipse/it
+
 
 </div>
 
@@ -49,4 +51,7 @@ Questo strumento disegna un arco di ellisse selezionando quattro punti: il centr
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateArcOfEllipse/it

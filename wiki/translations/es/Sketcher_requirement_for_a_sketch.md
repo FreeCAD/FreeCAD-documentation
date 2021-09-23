@@ -1,7 +1,4 @@
 # Sketcher requirement for a sketch/es
-
-
-
 {{TutorialInfo/es
 |Topic=Croquis
 |Level=Principiante
@@ -44,4 +41,7 @@ Si crea accidentalmente una \"sobremodulación\", aparece una advertencia en la 
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher requirement for a sketch/es

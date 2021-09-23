@@ -8,6 +8,8 @@
    SeeAlso:[Draft Mettre à niveau](Draft_Upgrade/fr.md), [Draft Soustraction](Part_Cut/fr.md)
 ---
 
+# Draft Downgrade/fr
+
 ## Description
 
 La commande <img alt="" src=images/Draft_Downgrade.svg  style="width:24px;"> **Draft Rétrograder** déclasse les objets sélectionnés. Le résultat dépend du nombre d\'objets sélectionnés et de leur type. La commande peut par exemple déconstruire un solide 3D en faces séparées et un fil en arêtes séparées. Si deux faces sont sélectionnées, un objet [Part Soustraction](Part_Cut/fr.md) est créé à partir de celles-ci. Notez que tous les objets ne peuvent pas être déclassés. Cette commande est le pendant de la commande [Draft Mettre à niveau](Draft_Upgrade/fr.md).
@@ -73,8 +75,5 @@ add_list4, delete_list4 = Draft.downgrade(box, delete=True)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Downgrade/fr

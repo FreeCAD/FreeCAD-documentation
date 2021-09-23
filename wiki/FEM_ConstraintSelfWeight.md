@@ -6,6 +6,8 @@
    SeeAlso:[FEM tutorial](FEM_tutorial.md)
 ---
 
+# FEM ConstraintSelfWeight
+
 ## Description
 
 Constraint self weight defines gravity acceleration 9,81 m/s\^2 acting on the whole model in the prescribed direction.
@@ -62,4 +64,7 @@ Eall,GRAV,9810,0.0,0.0,-1.0
 
 
 
- {{FEM Tools navi}}  
+ {{FEM Tools navi}}
+
+---
+[documentation index](../README.md) > FEM ConstraintSelfWeight

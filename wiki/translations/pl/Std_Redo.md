@@ -7,6 +7,8 @@
    SeeAlso:[Std Undo](Std_Undo.md)
 ---
 
+# Std Redo/pl
+
 ## Description
 
 The **Std Redo** command reverses the action of the [Std Undo](Std_Undo.md) command.
@@ -49,4 +51,7 @@ FreeCAD.ActiveDocument.redo()
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std Redo/pl

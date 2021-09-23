@@ -1,5 +1,5 @@
 # Macro Corner shapes wizard/update/it
- {{Macro/it
+{{Macro/it
 |Icon=Macro_Corner_shapes_wizard.png
 |Name=Corner shapes wizard
 |Name/it=Angolare 2
@@ -193,3 +193,6 @@ ToolBar Icon ![](images/Macro_Corner_shapes_wizard.png )
     QtCore.QObject.connect(okbox, QtCore.SIGNAL("rejected()"), hide)
     QtCore.QMetaObject.connectSlotsByName(dialog)
     dialog.show()
+
+---
+[documentation index](../README.md) > Macro Corner shapes wizard/update/it

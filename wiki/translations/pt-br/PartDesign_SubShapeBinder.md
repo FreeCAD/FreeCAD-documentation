@@ -7,6 +7,8 @@
    SeeAlso:[PartDesign ShapeBinder](PartDesign_ShapeBinder.md), [PartDesign Clone](PartDesign_Clone.md)
 ---
 
+# PartDesign SubShapeBinder/pt-br
+
 ## Description
 
 A [PartDesign\_SubShapeBinder](PartDesign_SubShapeBinder.md) imports an element from another Body into the active [Body](PartDesign_Body.md). It can take the [Shape](Shape.md) of, or be \"bound\" to one or multiple objects or subelements (edges or faces) from another object.
@@ -79,4 +81,7 @@ See [Part Feature](Part_Feature.md).
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubShapeBinder/pt-br

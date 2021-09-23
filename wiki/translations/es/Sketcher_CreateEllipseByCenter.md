@@ -8,6 +8,8 @@
    SeeAlso:[Croquizador  Elipse de 3 puntos](Sketcher_CreateEllipseBy3Points/es.md), [Croquizador Círculo](Sketcher_CreateCircle/es.md), [Croquizador Arco de Elipse](Sketcher_CreateArcOfEllipse/es.md)
 ---
 
+# Sketcher CreateEllipseByCenter/es
+
 ## Descripción
 
 Esta herramienta dibuja una elipse eligiendo tres puntos: el centro, el extremo del radio mayor y el radio menor. Al iniciar la herramienta, el puntero del ratón cambia a una cruz blanca con un icono de elipse rojo. Además se muestran las coordenadas en tiempo real.
@@ -36,4 +38,7 @@ Esta herramienta dibuja una elipse eligiendo tres puntos: el centro, el extremo 
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateEllipseByCenter/es

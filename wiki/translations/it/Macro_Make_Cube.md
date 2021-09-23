@@ -1,7 +1,4 @@
 # Macro Make Cube/it
-
-
-
 {{Macro/it
 
 |Name=Make Cube
@@ -155,3 +152,5 @@ class myCommand(draftTools.Creator):
 myCommand()
 ```
 
+---
+[documentation index](../README.md) > Macro Make Cube/it

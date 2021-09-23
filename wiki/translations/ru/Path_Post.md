@@ -8,6 +8,8 @@
    SeeAlso:
 ---
 
+# Path Post/ru
+
 
 </div>
 
@@ -119,4 +121,7 @@ Included Postprocessors are saved in the **FreeCAD.Mod.Path.Pathscripts.Post** b
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Post/ru

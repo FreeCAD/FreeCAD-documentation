@@ -1,7 +1,4 @@
 # FreeCAD-Ship s60 tutorial (II)/en
-
-
-
 {{TutorialInfo
 |Topic=Ship Workbench
 |Level= Beginner
@@ -200,3 +197,6 @@ Of course this example is not real (first for all fuel tanks cannot be placed in
 {{Ship Tools navi
 
 }}
+
+---
+[documentation index](../README.md) > FreeCAD-Ship s60 tutorial (II)/en

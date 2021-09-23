@@ -9,6 +9,8 @@
    SeeAlso:[Sketcher Clone](Sketcher_Clone/fr.md), [Sketcher Copie](Sketcher_Copy/fr.md)
 ---
 
+# Sketcher Move/fr
+
 ## Description
 
 Déplace les éléments d\'esquisse sélectionnés d\'un point à un autre, en utilisant le dernier point sélectionné comme référence.
@@ -31,4 +33,7 @@ Déplace les éléments d\'esquisse sélectionnés d\'un point à un autre, en u
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Move/fr

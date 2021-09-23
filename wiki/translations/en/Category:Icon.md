@@ -6,3 +6,6 @@ This category contains **icon images**.
 [Artwork Erroneous/en](Artwork_Erroneous/en.md) , [Artwork/en](Artwork/en.md) , [Key ASCII/en](Key_ASCII/en.md)
 
 [Category:Image/en](Category:Image/en.md)
+
+---
+[documentation index](../README.md) > Category:Icon/en

@@ -8,6 +8,8 @@
    Version:0.17
 ---
 
+# Arch Rebar Straight/de
+
 ## Beschreibung
 
 Das [Arch Gerader Bewehrungsstab](Arch_Rebar_Straight/de.md)-Werkzeug erlaubt es dem Anwender, einen Satz von geraden Bewehrungsstäben in einem [Struktur](Arch_Structur/de.md)-Objekt zu erstellen.
@@ -206,3 +208,6 @@ StraightRebar.editStraightRebar(Rebar4, 50, ("Right Side", 50), 100, 100,
  
 
 [Category:Reinforcement](Category:Reinforcement.md)
+
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Rebar Straight/de

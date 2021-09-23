@@ -6,6 +6,8 @@
    Workbenches:모두
 ---
 
+# Std MergeProjects/ko
+
 ## 설명
 
 **표준 프로젝트 병합(Std MergeProjects)** 명령은 FreeCAD 파일의 내용을 활성 문서에 추가합니다.
@@ -40,4 +42,7 @@
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std MergeProjects/ko

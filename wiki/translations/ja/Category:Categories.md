@@ -11,3 +11,6 @@ This is the **top category** which contains the main categories of the FreeCAD w
 , , , , , , , , , ,
 
 [Category:Categories/ja](Category:Categories/ja.md) [Category:Addons/ja](Category:Addons/ja.md) [Category:Administration/ja](Category:Administration/ja.md) [Category:API/ja](Category:API/ja.md) [Category:Categories/ja](Category:Categories/ja.md) [Category:Developer/ja](Category:Developer/ja.md) [Category:Documentation/ja](Category:Documentation/ja.md) [Category:Hubs/ja](Category:Hubs/ja.md) [Category:Macros/ja](Category:Macros/ja.md) [Category:Python Code/ja](Category:Python_Code/ja.md) [Category:Template/ja](Category:Template/ja.md) [Category:Tutorials/ja](Category:Tutorials/ja.md)
+
+---
+[documentation index](../README.md) > Category:Categories/ja

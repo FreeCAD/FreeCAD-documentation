@@ -6,3 +6,6 @@ This category lists pages related to the [Image Workbench/ro](Image_Workbench/ro
 [Image Workbench/ro](Image_Workbench/ro.md)
 
 [Category:Workbenches/ro](Category:Workbenches/ro.md)
+
+---
+[documentation index](../README.md) > Category:Image/ro

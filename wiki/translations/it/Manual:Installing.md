@@ -1,7 +1,4 @@
 # Manual:Installing/it
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -129,3 +126,6 @@ Se si utilizza il sistema operativo Ubuntu, alcuni degli addon indicati sopra so
 </div>
 
 [Category:Poweruser Documentation](Category:Poweruser_Documentation.md) [Category:Tutorials](Category:Tutorials.md)
+
+---
+[documentation index](../README.md) > [Poweruser Documentation](Category:Poweruser Documentation.md) > Manual:Installing/it

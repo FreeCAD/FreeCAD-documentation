@@ -1,5 +1,5 @@
 # Manipulator/sv
- }
+}
 
 
 <div class="mw-translate-fuzzy">
@@ -17,3 +17,6 @@ En **manipulator** är ett handtag som kan användas till att förändra ett obj
 
 
 [Category:Glossary](Category:Glossary.md)
+
+---
+[documentation index](../README.md) > [Glossary](Category:Glossary.md) > Manipulator/sv

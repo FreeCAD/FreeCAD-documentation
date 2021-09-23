@@ -1,3 +1,4 @@
+# Sketcher MapSketch/ro
 ---
 - GuiCommand:   Name:Sketcher MapSketch   Create a sketch on a face|Workbenches:[PartDesign](Sketcher_Workbench___Sketcher]],_[[PartDesign_Workbench.md)|MenuLocation:Part Design/Sketch → Map sketch to face...   SeeAlso:[Create a new sketch](Sketcher_NewSketch.md)---
 
@@ -79,3 +80,6 @@ Acum, selectăm fața superioară a Plăcii și apoi selectăm instrumentul Map 
 }} 
 
 [Category:Sketcher/ro](Category:Sketcher/ro.md)
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher MapSketch/ro

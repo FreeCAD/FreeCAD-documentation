@@ -1,6 +1,4 @@
 # Artwork MeshPart
-  
-
 These icons are in the indicated source path.
 
 For all icons in the source tree, see [Artwork](Artwork.md).
@@ -16,3 +14,6 @@ For all icons in the source tree, see [Artwork](Artwork.md).
  ![](images/MeshFace.svg ) 
 
  {{Artwork}} {{Mesh Tools navi}}
+
+---
+[documentation index](../README.md) > Artwork MeshPart

@@ -1,10 +1,4 @@
 # Draft snap widget/en
-
-
-
-
-
-
 {{TOCright}}
 
 ## Description
@@ -25,8 +19,5 @@ See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Dr
 
 -   The Draft snap widget is optional: **Edit → Preferences... → Draft → User interface settings → Draft Statusbar → Draft snap widget**.
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft snap widget/en

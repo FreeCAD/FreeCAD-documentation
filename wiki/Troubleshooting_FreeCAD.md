@@ -1,5 +1,4 @@
 # Troubleshooting FreeCAD
-
 {{TOCright}}
 
 
@@ -26,3 +25,6 @@
 Link to [Troubleshooting FreeCAD/Qt](Troubleshooting_FreeCAD/Qt.md) Related: <https://forum.freecadweb.org/viewtopic.php?f=3&t=37105&p=315523#p315523>
 
 [Category:](Category:.md)
+
+---
+[documentation index](../README.md) > Troubleshooting FreeCAD

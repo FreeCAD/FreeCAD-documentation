@@ -8,6 +8,8 @@
    SeeAlso:[TechDraw Exporter au format SVG](TechDraw_ExportPageSVG/fr.md), [Draft DXF](Draft_DXF/fr.md)
 ---
 
+# TechDraw ExportPageDXF/fr
+
 ## Description
 
 L\'outil Exporter la page en Dxf enregistre une page de dessin en un fichier au format [DXF](DXF/fr.md)
@@ -69,4 +71,7 @@ TechDraw.writeDXFPage(page,filename)
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExportPageDXF/fr

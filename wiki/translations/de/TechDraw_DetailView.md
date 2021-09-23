@@ -8,6 +8,8 @@
    SeeAlso:[TechDraw Ansicht](TechDraw_View/de.md), [TechDraw Projektionsgruppe](TechDraw_ProjectionGroup/de.md)
 ---
 
+# TechDraw DetailView/de
+
 ## Beschreibung
 
 Das Detailwerkzeug erstellt eine vergrößerte Ansicht eines kleinen Bereichs einer vorhandenen Ansicht.
@@ -86,4 +88,7 @@ Dies wird erreicht, indem die Detailansicht in eine [Klipgruppe](TechDraw_ClipGr
 
 {{TechDraw Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw DetailView/de

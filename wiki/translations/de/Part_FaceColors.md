@@ -8,6 +8,8 @@
    SeeAlso:[Std Erscheinungsbild](Std_SetAppearance/de.md)
 ---
 
+# Part FaceColors/de
+
 
 </div>
 
@@ -52,3 +54,6 @@ Um alle Flächenfarben zurückzusetzen:
  
 
 [Category:User Documentation](Category:User_Documentation.md) [Category:Command\_Reference](Category:Command_Reference.md)
+
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part FaceColors/de

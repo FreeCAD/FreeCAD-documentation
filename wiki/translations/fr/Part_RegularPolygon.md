@@ -8,6 +8,8 @@
    SeeAlso:[Part Primitives](Part_Primitives/fr.md)
 ---
 
+# Part RegularPolygon/fr
+
 ## Description
 
 Crée une primitive géométrique polygone régulier.
@@ -26,8 +28,5 @@ Le Polygone régulier est disponible à partir de la boîte de dialogue Créer d
 -   Polygone - Le nombre de faces du polygone
 -   Rayon circonscrit - Le rayon de la circonférence du polygone en partant du centre jusqu'à l\'extrémité du vertex.
 
-
-
-
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part RegularPolygon/fr

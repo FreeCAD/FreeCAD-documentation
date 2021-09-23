@@ -7,6 +7,8 @@
    SeeAlso:[Sketcher Ellipse](Sketcher_CreateEllipseByCenter.md), [Sketcher Internal Alignment Constraint](Sketcher_ConstrainInternalAlignment.md)
 ---
 
+# Sketcher RestoreInternalAlignmentGeometry/en
+
 ## Description
 
 The command deletes unused elements aligned to internal geometry, or recreates the missing ones.
@@ -33,4 +35,7 @@ If there are free alignment places for the selected element, new construction ge
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher RestoreInternalAlignmentGeometry/en

@@ -1,6 +1,4 @@
 # Artwork Raytracing/ru
- 
-
 Эти иконки находятся в указанной исходной папке.
 
 Для всех иконок в исходнике смотри [Художественное оформление](Artwork/ru.md).
@@ -17,3 +15,6 @@
 }} 
 
 [Category:Raytracing](Category:Raytracing.md)
+
+---
+[documentation index](../README.md) > [Raytracing](Category:Raytracing.md) > Artwork Raytracing/ru

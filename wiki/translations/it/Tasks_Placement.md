@@ -1,6 +1,4 @@
 # Tasks Placement/it
-
-
 ## Descrizione
 
 Opzioni della scheda **Posizionamento**. Queste opzioni riguardano soltanto la posizione dell\'oggetto nello spazio, non riguardano altri attributi della forma. Internamente il posizionamento viene memorizzato come una posizione, e una rotazione (asse di rotazione e angolo trasformati in un quaternione [1](https://en.wikipedia.org/wiki/Quaternions_and_spatial_rotation)). Sebbene ci siano diversi modi di specificare una rotazione, per esempio con un centro di rotazione, questo è usato solo per influenzare il calcolo della rotazione e non viene memorizzato per le operazioni successive. Allo stesso modo, se viene specificato un asse di rotazione (1,1,1), esso può essere normalizzato se conservato nel quaternione e in seguito apparire nella forma (0.58, 0.58, 0.58) durante l\'esplorazione dell\'oggetto
@@ -128,3 +126,6 @@ Ulteriori informazioni si trovano nella pagina [Posizionamento](Placement/it.md)
 
 
 [Category:Command\_Reference](Category:Command_Reference.md)
+
+---
+[documentation index](../README.md) > [Command_Reference](Category:Command_Reference.md) > Tasks Placement/it

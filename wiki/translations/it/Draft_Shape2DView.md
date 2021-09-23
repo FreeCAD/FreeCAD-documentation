@@ -1,3 +1,4 @@
+# Draft Shape2DView/it
 ---
 - GuiCommand:/it
    Name:Draft Shape2DView
@@ -186,5 +187,5 @@ doc.recompute()
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Shape2DView/it

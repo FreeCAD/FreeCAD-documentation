@@ -6,6 +6,8 @@
    SeeAlso:[Draft Objektfang](Draft_Snap/de.md), [Draft Ebene markieren](Draft_SelectPlane/de.md)
 ---
 
+# Draft Snap WorkingPlane/de
+
 
 </div>
 
@@ -53,8 +55,5 @@ Diese Methode platziert immer einen neuen Punkt auf der aktuellen [Arbeitsebene]
 
 See [Draft Snap](Draft_Snap#Preferences.md).
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap WorkingPlane/de

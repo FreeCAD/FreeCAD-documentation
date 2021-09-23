@@ -7,6 +7,8 @@
    Version:0.17
 ---
 
+# Spreadsheet MergeCells/de
+
 ## Beschreibung
 
 Das **<img src=images/Spreadsheet_MergeCells.svg style="width:16px"> [Kalkulationstabelle ZellenZusammenführen](Spreadsheet_MergeCells/de.md)** Werkzeug führt mindestens zwei ausgewählte Zellen in einer bestehenden Kalkulationstabelle im aktiven Dokument zusammen.
@@ -23,4 +25,7 @@ Das **<img src=images/Spreadsheet_MergeCells.svg style="width:16px"> [Kalkulatio
 
 {{Spreadsheet_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet MergeCells/de

@@ -7,6 +7,8 @@
    Version:0.20
 ---
 
+# Sketcher CompCreateRectangles
+
 ## Description
 
 **Create a rectangle** is an icon button in the Sketcher geometries toolbar that groups tools to create rectangles. Click on the down arrow to its right to expand the icons below it and select a tool.
@@ -20,4 +22,7 @@
 
 
 
- {{Sketcher Tools navi}} 
+ {{Sketcher Tools navi}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CompCreateRectangles

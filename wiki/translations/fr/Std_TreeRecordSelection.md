@@ -8,6 +8,8 @@
    Version:0.19
 ---
 
+# Std TreeRecordSelection/fr
+
 ## Description
 
 La commande **Std Enregistrer la sélection** bascule le mode RecordSelection de la [vue en arborescence](tree_view/fr.md). Si ce mode est activé, chaque sélection de l\'arborescence est stockée pour une utilisation future. Avec les boutons **<img src="images/Std_SelBack.svg" width=16px>** et **<img src="images/Std_SelForward.svg" width=16px>**, vous pouvez avancer et reculer dans ces sélections et les restaurer.
@@ -29,4 +31,7 @@ Le mode Enregistrer l\'arborescence peut également être défini dans le [Régl
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std TreeRecordSelection/fr

@@ -7,6 +7,8 @@
    SeeAlso:[Entwurf Fang](Draft_Snap/de.md), [Entwurf UmschaltenFang](Draft_ToggleSnap/de.md)
 ---
 
+# Draft Snap Intersection/de
+
 
 </div>
 
@@ -60,5 +62,5 @@ See [Draft Snap](Draft_Snap#Preferences.md).
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Intersection/de

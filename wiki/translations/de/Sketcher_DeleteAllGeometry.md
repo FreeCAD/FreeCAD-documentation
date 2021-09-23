@@ -9,6 +9,8 @@
 
 ---
 
+# Sketcher DeleteAllGeometry/de
+
 
 </div>
 
@@ -33,4 +35,7 @@ Dieses Werkzeug löscht die gesamte Geometrie aus der zu bearbeitenden Skizze.
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher DeleteAllGeometry/de

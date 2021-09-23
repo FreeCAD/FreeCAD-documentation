@@ -8,6 +8,8 @@
    SeeAlso:[Std Edit](Std_Edit.md)
 ---
 
+# Draft Edit/tr
+
 
 </div>
 
@@ -216,5 +218,5 @@ Düzenleme aracı için uygun bir programlama arayüzü yoktur. Her nesne, nitel
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Edit/tr

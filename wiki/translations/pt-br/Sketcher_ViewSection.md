@@ -6,6 +6,8 @@
    Version:0.18
 ---
 
+# Sketcher ViewSection/pt-br
+
 ## Description
 
 The **View section** tool creates a section plane that temporarily hides any matter in front of the sketch plane.
@@ -26,4 +28,7 @@ Several ways to invoke this command:
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ViewSection/pt-br

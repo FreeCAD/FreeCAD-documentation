@@ -7,6 +7,8 @@
    SeeAlso:[Mesh Fusionner](Mesh_Merge/fr.md)
 ---
 
+# Mesh SplitComponents/fr
+
 ## Description
 
 La commande **Mesh Séparer** divise un objet maillé en ses composants. Un composant de maillage est un groupe complet de faces connectées. Pour chaque composant, un nouvel objet maillage non paramétrique, un [Mesh Feature](Mesh_Feature/fr.md), est créé. Si l\'objet maillage d\'origine ne contient qu\'un seul composant, et c\'est généralement le cas, un seul nouvel objet maillage, en fait une copie, est créé. Cette commande est le pendant de la commande [Mesh Fusionner](Mesh_Merge/fr.md).
@@ -29,4 +31,7 @@ Voir: [Mesh Feature](Mesh_Feature/fr.md).
 
 {{Mesh Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh SplitComponents/fr

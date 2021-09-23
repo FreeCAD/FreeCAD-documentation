@@ -1,3 +1,4 @@
+# Drawing Annotation/cs
 ---
 - GuiCommand:/cs   Name:Drawing_Annotation   Name/cs:Drawing Annotation   Workbenches:[[Drawing Workbench/cs   Vykreslování]], Complete|MenuLocation:Drawing → Annotation   Shortcut:none---
 
@@ -34,4 +35,7 @@ This command allows you to place a block of text on a [Drawing page](Drawing_Lan
 
 {{Drawing Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Annotation/cs

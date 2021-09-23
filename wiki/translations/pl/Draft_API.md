@@ -1,5 +1,5 @@
 # Draft API/pl
- {{VeryImportantMessage/pl
+{{VeryImportantMessage/pl
 |''(listopad 2018 r.)'' Informacje te mogą być niekompletne i nieaktualne. Najnowsze API - patrz [https://www.freecadweb.org/api dokumentacja API generowana automatycznie].}}
 
 Funkcje te są częścią Środowiska pracy [Draft](Draft_Workbench.md) i mogą być używane w [makrodefinicjach](macros.md) i z konsoli [Python](Python.md) po zaimportowaniu modułu `Draft`.
@@ -86,3 +86,6 @@ Draft.move(myrect, mydistance)
 
 
 [Category:API](Category:API.md) [Category:Poweruser Documentation](Category:Poweruser_Documentation.md)
+
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft API/pl

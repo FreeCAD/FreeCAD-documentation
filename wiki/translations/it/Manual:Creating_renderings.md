@@ -1,7 +1,4 @@
 # Manual:Creating renderings/it
- 
-
-
 {{Manual:TOC/it}}
 
 Nell\'ambito della grafica computerizzata, la parola [rendering](https://en.wikipedia.org/wiki/Rendering_%28computer_graphics%29) è usata per descrivere una bella immagine prodotta da un modello 3D. Naturalmente, si potrebbe dire che quello che si vede nella vista FreeCAD 3D è già bello. Ma chi ha visto un recente film di Hollywood sa che con un computer è possibile produrre immagini che sono quasi indistinguibili da una fotografia.
@@ -129,3 +126,6 @@ Per la produrre il rendering con PovRay e LuxRender useremo il tavolo che abbiam
 {{Raytracing Tools navi}} 
 
 [Category:Tutorials](Category:Tutorials.md)
+
+---
+[documentation index](../README.md) > [Tutorials](Category:Tutorials.md) > Manual:Creating renderings/it

@@ -1,7 +1,4 @@
 # Svg Namespace/es
-
-
-
 **Development of the [[Drawing Workbench]] stopped in FreeCAD 0.16, and the new [[TechDraw Workbench]] aiming to replace it was introduced in v0.17. Both workbenches are still provided in v0.17, but the Drawing Workbench may be removed in future releases.**
 
 
@@ -251,3 +248,6 @@ See [Drawing templates](Drawing_templates.md)
 }}
 
 [Category:Poweruser\_Documentation](Category:Poweruser_Documentation.md) [Category:Developer](Category:Developer.md) [Category:Python\_Code](Category:Python_Code.md) [Category:Macros](Category:Macros.md)
+
+---
+[documentation index](../README.md) > [Poweruser_Documentation](Category:Poweruser_Documentation.md) > Svg Namespace/es

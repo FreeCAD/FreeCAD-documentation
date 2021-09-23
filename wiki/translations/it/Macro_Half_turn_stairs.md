@@ -1,5 +1,5 @@
 # Macro Half turn stairs/it
- {{Macro/it
+{{Macro/it
 |Name=Half_turn_stairs
 |Translate=Scala a mezzo giro
 |Icon=Macro_Half_turn_stairs.png
@@ -304,6 +304,5 @@ Salva questi dati come file **stairs.dat** nella propria directory delle macro
 
 -   [Macro\_PartsLibrary](Macro_PartsLibrary/it.md) FreeCAD Library
 
-
-
-
+---
+[documentation index](../README.md) > Macro Half turn stairs/it

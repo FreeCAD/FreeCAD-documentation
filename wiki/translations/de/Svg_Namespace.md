@@ -1,7 +1,4 @@
 # Svg Namespace/de
-
-
-
 **Entwicklung des [Zeichnung Arbeitsbereich](Drawing_Workbench/de.md) wurde in FreeCAD v0.16 gestoppt und der neue in v0.17 eingeführte [TechDraw Arbeitsbereich](TechDraw_Workbench/de.md) zielt darauf, ihn zu ersetzen. Beide Arbeitsbereiche werden in v0.17 bereitgestellt, aber der Zeichnung Arbeitsbereich könnte in zukünftigen Ausgaben entfernt werden.**
 
 
@@ -233,3 +230,6 @@ Siehe [Drawing\_templates/de](Drawing_templates/de.md)
 }}
 
 [Category:Poweruser\_Documentation](Category:Poweruser_Documentation.md) [Category:Developer](Category:Developer.md) [Category:Python\_Code](Category:Python_Code.md) [Category:Macros](Category:Macros.md)
+
+---
+[documentation index](../README.md) > [Poweruser_Documentation](Category:Poweruser_Documentation.md) > Svg Namespace/de

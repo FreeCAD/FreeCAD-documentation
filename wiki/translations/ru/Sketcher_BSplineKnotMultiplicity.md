@@ -8,6 +8,8 @@
    SeeAlso:[Создать B-сплайн](Sketcher_CompCreateBSpline/ru.md)
 ---
 
+# Sketcher BSplineKnotMultiplicity/ru
+
 
 </div>
 
@@ -28,4 +30,7 @@ Shows or hides the display of the knot multiplicity of a B-spline. See [this pag
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineKnotMultiplicity/ru

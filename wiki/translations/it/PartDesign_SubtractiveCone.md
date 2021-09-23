@@ -1,3 +1,4 @@
+# PartDesign SubtractiveCone/it
 ---
 - GuiCommand:/it   Name:PartDesign SubtractiveCone   Name/it:Cono sottrattivo   Workbenches:[MenuLocation:Part Design → Crea una primitiva sotttrattiva → Cono   Version:0.17   SeeAlso:[[PartDesign CompPrimitiveSubtractive/it|Primitive sottrattive](PartDesign_Workbench/it___PartDesign]].md)---
 
@@ -70,4 +71,7 @@ Dopo la sua creazione il cono può essere modificato in due modi:
 
 {{PartDesign Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveCone/it

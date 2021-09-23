@@ -1,3 +1,4 @@
+# Sketcher CreatePolyline/pt-br
 ---
 - GuiCommand:/pt-br   Name:Sketcher CreatePolyline   Name/pt-br:Sketcher CreatePolyline   Workbenches:[MenuLocation:Sketch → Sketcher geometries → Create polyline   SeeAlso:[[Sketcher CreateLine/pt-br|Sketcher Line](Sketcher_Workbench/pt-br___Sketcher]].md)---
 
@@ -38,4 +39,7 @@ The polyline always starts with a straight line segment: click - move the mouse 
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreatePolyline/pt-br

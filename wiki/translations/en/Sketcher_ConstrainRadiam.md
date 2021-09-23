@@ -7,6 +7,8 @@
    Version:0.20
 ---
 
+# Sketcher ConstrainRadiam/en
+
 ## Description
 
 This constraint automatically constrains the value of the radius/diameter of a circle or arc to have a specific value. Following rules are applied :
@@ -47,4 +49,7 @@ No specific scripting applies. See the [Sketcher scripting](Sketcher_scripting.m
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainRadiam/en

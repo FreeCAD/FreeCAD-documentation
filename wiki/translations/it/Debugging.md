@@ -1,7 +1,4 @@
 # Debugging/it
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -394,3 +391,6 @@ For developers needing to dig deeper in to the OpenCasCade kernel, user \@abdull
 }} 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Debugging/it

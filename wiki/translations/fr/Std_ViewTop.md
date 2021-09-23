@@ -8,6 +8,8 @@
    SeeAlso:[Std Vue de face](Std_ViewFront/fr.md), [Std Vue droite](Std_ViewRight/fr.md)
 ---
 
+# Std ViewTop/fr
+
 ## Description
 
 La **Std Vue de dessus** place la caméra dans la [vue 3D](3D_view/fr.md) dans la direction de l\'axe des Z négatifs.
@@ -45,4 +47,7 @@ FreeCADGui.ActiveDocument.ActiveView.getViewDirection()
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ViewTop/fr

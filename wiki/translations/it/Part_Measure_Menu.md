@@ -7,6 +7,8 @@
    SeeAlso:
 ---
 
+# Part Measure Menu/it
+
 
 </div>
 
@@ -48,3 +50,6 @@ Non confondere questo menu con lo strumento <img alt="" src=images/Std_MeasureDi
  
 
 [Category:Documentation](Category:Documentation.md)
+
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Menu/it

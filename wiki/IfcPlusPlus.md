@@ -1,6 +1,4 @@
 # IfcPlusPlus
- 
-
 ## Description
 
  
@@ -234,4 +232,7 @@ QT5_ADD_RESOURCES(SimpleViewerExample_RESOURCES_RCC ${RESOURCES})
 -   [IfcPlusPlus compiled on Gentoo - questions and alternatives?](https://forum.freecadweb.org/viewtopic.php?f=39&t=33254)
 -   German thread: [IfcQuery / IfcPlusPlus selber kompilieren](https://forum.freecadweb.org/viewtopic.php?f=13&t=48648)
 
-  {{FEM Tools navi}}  
+  {{FEM Tools navi}}
+
+---
+[documentation index](../README.md) > [Arch](Category:Arch.md) > IfcPlusPlus

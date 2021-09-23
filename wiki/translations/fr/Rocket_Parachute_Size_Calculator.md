@@ -8,6 +8,8 @@
    Version:0.19
 ---
 
+# Rocket Parachute Size Calculator/fr
+
 ## Description
 
 Ce calculateur détermine la taille du parachute nécessaire pour atteindre le taux de descente souhaité en fonction des paramètres du parachute.
@@ -74,3 +76,6 @@ Les calculs sont effectués en unités métriques, mais s\'affichent dans les un
 
 
 [Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+
+---
+[documentation index](../README.md) > [Addons](Category:Addons.md) > Rocket Parachute Size Calculator/fr

@@ -8,6 +8,8 @@
    SeeAlso:[Primitive additive](PartDesign_CompPrimitiveAdditive/it.md)
 ---
 
+# PartDesign AdditiveCone/it
+
 
 </div>
 
@@ -75,4 +77,7 @@ Dopo la sua creazione il cono può essere modificato in due modi:
 
 {{PartDesign Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveCone/it

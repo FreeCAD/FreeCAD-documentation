@@ -6,6 +6,8 @@
    SeeAlso:[Std ActivateNextWindow](Std_ActivateNextWindow.md), [Std ActivatePrevWindow](Std_ActivatePrevWindow.md)
 ---
 
+# Std Windows
+
 ## Description
 
 The **Std Windows** command opens a dialog box with a list of [Main view area](Main_view_area.md) windows. From this list a selected window can be activated.
@@ -33,4 +35,7 @@ The **Std Windows** command opens a dialog box with a list of [Main view area](M
 
 
 
- {{Std Base navi}}  
+ {{Std Base navi}}
+
+---
+[documentation index](../README.md) > Std Windows

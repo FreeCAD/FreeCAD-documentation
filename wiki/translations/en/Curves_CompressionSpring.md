@@ -5,6 +5,8 @@
    Workbenches:[Curves](Curves_Workbench.md)
 ---
 
+# Curves CompressionSpring/en
+
 ## Description
 
 The <img alt="" src=images/Curves_CompressionSpring.svg  style="width:24px;"> [Curves CompressionSpring](Curves_CompressionSpring.md) creates a compression spring. This tool is part of the [external workbench](External_workbenches.md) called [Curves](Curves_Workbench.md).
@@ -30,4 +32,7 @@ The <img alt="" src=images/Curves_CompressionSpring.svg  style="width:24px;"> [C
 
 {{Curves Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > Curves CompressionSpring/en

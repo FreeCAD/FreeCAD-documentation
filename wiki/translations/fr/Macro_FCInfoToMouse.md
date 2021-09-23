@@ -1,5 +1,5 @@
 # Macro FCInfoToMouse/fr
- {{Macro/fr
+{{Macro/fr
 |Name=Macro FCInfoToMouse
 |Icon=FCInfoToMouse.png
 |Description=Fournit des informations sur les coordonnées, la longueur et les angles en temps réel à côté du pointeur de la souris.
@@ -479,3 +479,6 @@ Mes macros sur [mario52a](https://gist.github.com/mario52a) Gists
 23/01/2016 ver 00.02 : ajout de la fonction \"single\", replacé la touche \"H\" par la \"C\" et correction de bug d\'affichage ( , par + )
 
 02/01/2016 : ver 0.1
+
+---
+[documentation index](../README.md) > Macro FCInfoToMouse/fr

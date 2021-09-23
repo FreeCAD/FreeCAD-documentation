@@ -7,6 +7,8 @@
    SeeAlso:[Sketcher Constraint point on object](Sketcher_ConstrainPointOnObject.md)
 ---
 
+# Sketcher ConstrainTangent/pt-br
+
 ## Description
 
 Tangent Constraint makes two curves to touch each other (be tangent). Lines are treated infinite, and arcs are treated as full circles/ellipses. The constraint is also capable of connecting two curves, forcing them tangent at the joint, thus making the joint smooth.
@@ -122,4 +124,7 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainTangent/pt-br

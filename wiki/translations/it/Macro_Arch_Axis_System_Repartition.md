@@ -1,5 +1,5 @@
 # Macro Arch Axis System Repartition/it
- {{Macro/it
+{{Macro/it
 |Name=Macro Arch Axis System Repartition
 |Translate=Sistema di assi
 |Icon=Macro_Arch_Axis_System_Repartition.png
@@ -276,6 +276,5 @@ ToolBar Icon ![](images/Macro_Arch_Axis_System_Repartition.png )
 -   [Macro\_PartsLibrary](Macro_PartsLibrary.md) libreria delle Parti di FreeCAD
 -   Github [Macro wood galaxy](https://github.com/wood-galaxy/FreeCAD-scripts)
 
-
-
-
+---
+[documentation index](../README.md) > Macro Arch Axis System Repartition/it

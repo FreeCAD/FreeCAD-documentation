@@ -1,7 +1,4 @@
 # Video tutorials/ro
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -156,3 +153,6 @@ For more see [Video tutorials obsolete](Video_tutorials_obsolete.md).
 }} 
 
 [Category:Common Questions](Category:Common_Questions.md)
+
+---
+[documentation index](../README.md) > [Common Questions](Category:Common Questions.md) > Video tutorials/ro

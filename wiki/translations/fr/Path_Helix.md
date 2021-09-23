@@ -6,6 +6,8 @@
    Workbenches:[Path](Path_Workbench/fr.md)
 ---
 
+# Path Helix/fr
+
 ## Description
 
 La commande <img alt="" src=images/Path_Helix.svg  style="width:24px;"> [Path Parcours hélicoïdal](Path_Helix/fr.md) insère une opération d\'interpolation hélicoïdale à la tâche. L\'interpolation hélicoïdale dans le sens des aiguilles d\'une montre produit des commandes G-Code (G2). A l\'inverse, des commandes G-Code (G3). Pourcentage de dépassement spécifie le dépassement concentrique en pourcentage du diamètre de l\'outil.
@@ -55,4 +57,7 @@ Exemple :
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Helix/fr

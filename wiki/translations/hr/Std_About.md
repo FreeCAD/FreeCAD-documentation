@@ -5,6 +5,8 @@
    MenuLocation:Help → About FreeCAD
 ---
 
+# Std About/hr
+
 ## Description
 
 The **Std About** command opens a dialog box that shows information about the FreeCAD program.
@@ -68,3 +70,6 @@ The Libraries tab shows a list of the external libraries used by the program, an
 {{Std Base navi}}  
 
 [Category:Common Questions](Category:Common_Questions.md)
+
+---
+[documentation index](../README.md) > [Common Questions](Category:Common Questions.md) > Std About/hr

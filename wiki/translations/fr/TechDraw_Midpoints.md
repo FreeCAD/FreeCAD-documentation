@@ -8,6 +8,8 @@
    SeeAlso:[TechDraw Point cosmétique](TechDraw_CosmeticVertex/fr.md), [TechDraw Sommets quadrants](TechDraw_Quadrants/fr.md)
 ---
 
+# TechDraw Midpoints/fr
+
 ## Description
 
 L\'outil Points médians ajoute des [Vertices](Glossary/fr#V.md) (sommets) cosmétiques au milieu d\'une ou plusieurs arêtes.
@@ -49,4 +51,7 @@ Les points cosmétiques ne sont pas accessibles par [macros](Macros/fr.md) ni pa
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Midpoints/fr

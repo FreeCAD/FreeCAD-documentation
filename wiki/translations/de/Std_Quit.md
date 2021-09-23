@@ -1,3 +1,4 @@
+# Std Quit/de
 ---
 - GuiCommand:/de   Name:Std Quit   Name/de:Std Beenden   MenuLocation:[Workbenches:Alle   Shortcut:**Alt**+**F4**   SeeAlso:[[Std Open/de|Std Open](Std_File_Menu/de___Datei]]_→_Beenden.md),[Std Import](Std_Import/de.md)---
 
@@ -32,4 +33,7 @@ The **Std Quit** command closes the FreeCAD application and optionally saves uns
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std Quit/de

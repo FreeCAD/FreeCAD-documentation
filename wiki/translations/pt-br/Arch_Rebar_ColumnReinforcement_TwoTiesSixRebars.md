@@ -7,6 +7,8 @@
    Version:0.19
 ---
 
+# Arch Rebar ColumnReinforcement TwoTiesSixRebars/pt-br
+
 ## Descrição
 
 The [Column Reinforcement TwoTiesSixRebars](Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars.md) tool allows the user to create reinforcing bars (Two Ties Six Rebars) inside a Column [Arch Structure](Arch_Structure.md) object.
@@ -342,3 +344,6 @@ rebar_group = TwoTiesSixRebars.editTwoTiesSixRebars(
  
 
 [Category:Reinforcement](Category:Reinforcement.md)
+
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Rebar ColumnReinforcement TwoTiesSixRebars/pt-br

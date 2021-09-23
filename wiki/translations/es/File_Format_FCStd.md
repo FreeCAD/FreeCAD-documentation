@@ -1,5 +1,5 @@
 # File Format FCStd/es
- {{TOCright}}
+{{TOCright}}
 
 ## Resumen
 
@@ -167,3 +167,6 @@ Ver el hilo del foro, [PDF dentro del proyecto](https://forum.freecadweb.org/vie
  
 
 [Category:Developer](Category:Developer.md) [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:File\_Formats](Category:File_Formats.md)
+
+---
+[documentation index](../README.md) > [Developer](Category:Developer.md) > File Format FCStd/es

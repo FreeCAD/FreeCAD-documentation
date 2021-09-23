@@ -7,6 +7,8 @@
    Version:0.19
 ---
 
+# Arch Truss/de
+
 ## Beschreibung
 
 Das [Architektur Fachwerkswerkzeug](Arch_Truss/de.md) baut ein [Fachwerk](https://de.wikipedia.org/wiki/Fachwerk)sobjekt auf, entweder aus einem ausgewählten linearen Objekt (z.B. [Entwurf Linie](Draft_Line/de.md) oder [Skizze](Sketcher_NewSketch/de.md)), oder von Grund auf neu, wenn beim Aufruf des Befehls kein Objekt ausgewählt ist.
@@ -90,8 +92,5 @@ truss.HeightEnd = 400
 # adjust other needed properties
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Truss/de

@@ -1,3 +1,4 @@
+# Draft Trimex/cs
 ---
 - GuiCommand:/cs   Name:Draft Trimex   Name/cs:Kreslení Zakrácení/Prodloužení   Workbenches:[Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation:Kreslení → Zakrácení/Prodloužení   Shortcut:T R   SeeAlso:[DílVysunutí](Part_Extrude/cs.md)---
 
@@ -134,8 +135,5 @@ solid = Draft.extrude(rectangle, vector, solid=True)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Trimex/cs

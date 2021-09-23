@@ -1,3 +1,4 @@
+# Arch ToggleIfcBrepFlag/es
 ---
 - GuiCommand:   Name:Arch ToggleIfcBrepFlag   Workbenches:[[Arch_Workbench/es   Arch]]|MenuLocation:Arch → Utilities → Toggle Ifc Brep flag   Shortcut:   SeeAlso:---
 
@@ -31,11 +32,5 @@ Esta herramienta activa / desactiva el indicador IfcBrep de un objeto [ Arch](Ar
 
 </div>
 
-
-
-
-
-
-
-
-
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch ToggleIfcBrepFlag/es

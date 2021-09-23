@@ -9,6 +9,8 @@
    SeeAlso:[Okrąg](Draft_Circle/pl.md), [Łuk przez trzy punkty](Draft_Arc_3Points/pl.md)
 ---
 
+# Draft Arc/pl
+
 ## Opis
 
 Polecenie <img alt="" src=images/Draft_Arc.svg  style="width:24px;"> **Tworzy różne rodzaje łuków** utworzy łuk kołowy w bieżącej [płaszczyźnie roboczej](Draft_SelectPlane/pl.md) ze środka, promienia, kąta początkowego i kąta wierzchołkowego. Promień i kąty mogą być zdefiniowane przez wybranie punktów.
@@ -79,8 +81,5 @@ arc3 = Draft.make_circle(750, startangle=-30, endangle=-150)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Arc/pl

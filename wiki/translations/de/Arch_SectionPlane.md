@@ -8,6 +8,8 @@
    SeeAlso:[Entwurf Form2DAnsicht](Draft_Shape2DView/de.md), [TechDraw ArchAnsicht](TechDraw_ArchView/de.md)
 ---
 
+# Arch SectionPlane/de
+
 ## Beschreibung
 
 Dieses Werkzeug platziert im aktuellen Dokument eine Schnittebene \"Ding\", die eine Schnitt- oder Ansichtsebene definiert. Das \"Ding\" wird entsprechend der aktuellen [Entwurf Arbeitsebene](Draft_SelectPlane/de.md) platziert und kann durch Verschieben und Drehen verschoben und neu ausgerichtet werden, bis es die 2D Ansicht beschreibt, die du erhalten möchtest. Das Objekt Schnittebene berücksichtigt nur einen bestimmten Satz von Objekten. Objekte, die beim Erstellen einer Schnittebene ausgewählt werden, werden automatisch zu diesem Satz hinzugefügt. Andere Objekte können später mit den [Arch Komponente hinzufügen](Arch_Add/de.md) und [Arch Komponente entfernen](Arch_Remove/de.md) Werkzeugen hinzugefügt oder daraus entfernt werden oder durch Doppelklicken auf die Schnittebene in der Baumansicht.
@@ -109,11 +111,5 @@ Section3 = Arch.makeSectionPlane([Site])
 FreeCAD.ActiveDocument.recompute()
 ```
 
-
-
-
-
-
-
-
-
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SectionPlane/de

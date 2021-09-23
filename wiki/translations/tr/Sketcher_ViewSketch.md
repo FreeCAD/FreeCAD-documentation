@@ -1,3 +1,4 @@
+# Sketcher ViewSketch/tr
 ---
 - GuiCommand:/tr   Name:Eskiz Eskiz görünümü   Workbenches:[Parça tasarım](Sketcher_Workbench___Eskiz]],_[[PartDesign_Workbench.md)|MenuLocation:Eskiz → Eskiz görünümü---
 
@@ -33,4 +34,7 @@ Eskiz düzenleme modundayken ya da
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ViewSketch/tr

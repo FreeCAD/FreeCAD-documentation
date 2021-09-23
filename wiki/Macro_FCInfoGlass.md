@@ -1,5 +1,5 @@
 # Macro FCInfoGlass
-  {{Macro
+{{Macro
 |Name=Macro FCInfoGlass
 |Description=Gives a series of information on the form display in the 3D view.
 |Author=Mario52
@@ -220,4 +220,5 @@ My macros on [mario52a](https://gist.github.com/mario52a) gists
 
 **04/08/2015 Ver 0.02** : add switch and presentation
 
-
+---
+[documentation index](../README.md) > Macro FCInfoGlass

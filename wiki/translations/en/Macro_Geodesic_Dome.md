@@ -1,5 +1,5 @@
 # Macro Geodesic Dome/en
- {{Macro
+{{Macro
 |Name=Macro Geodesic Dome
 |Icon=Macro_Geodesic_Dome.svg
 |Description=This macro creates a parametric geodesic dome shell. The dome radius and the frequency parameter will be set at creation time.
@@ -345,6 +345,5 @@ ToolBar Icon ![](images/Macro_Geodesic_Dome.svg )
 
 Forum [Designing geodesic dome](https://forum.freecadweb.org/viewtopic.php?t=9174)
 
-
-
-
+---
+[documentation index](../README.md) > Macro Geodesic Dome/en

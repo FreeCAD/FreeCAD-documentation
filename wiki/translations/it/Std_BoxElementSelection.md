@@ -8,6 +8,8 @@
    SeeAlso:[Seleziona tutto](Std_SelectAll/it.md), [Box di selezione](Std_BoxSelection/it.md), [Part Box di selezione](Part_BoxSelection/it.md)
 ---
 
+# Std BoxElementSelection/it
+
 ## Descrizione
 
 Il comando **Box di selezione di elementi** seleziona le facce in un\'area rettangolare definita dall\'utente, una casella, nella vista 3D.
@@ -37,4 +39,7 @@ Il comando **Box di selezione di elementi** seleziona le facce in un\'area retta
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std BoxElementSelection/it

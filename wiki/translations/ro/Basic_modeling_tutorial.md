@@ -1,5 +1,5 @@
 # Basic modeling tutorial/ro
- {{TutorialInfo/ro
+{{TutorialInfo/ro
 |Topic= Introduction to modelling
 |Level= Beginner
 |Time= 15 minutes
@@ -203,4 +203,7 @@ Instrucțiunile de mai sus vor funcționa, indiferent de eticheta pe care o are 
 
 {{Tutorials navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Basic modeling tutorial/ro

@@ -1,5 +1,5 @@
 # CompileOnWindows - Reducing Disk Footprint/fr
- Techniques to reduce disk space required for building FreeCAD on Windows This may be of use to those, who are limited on disk space (for example, because of an SSD), and for those, who want to avoid installing complete Visual Studio.
+Techniques to reduce disk space required for building FreeCAD on Windows This may be of use to those, who are limited on disk space (for example, because of an SSD), and for those, who want to avoid installing complete Visual Studio.
 
 It is recommended that you know on practice, how to [Compile on Windows](Compile_on_Windows.md) with Qt Creator, before attempting this.
 
@@ -159,3 +159,6 @@ You\'ll have to modify the path to libpack to match yours. Use absolute paths. T
 This batch must be run with administrator privileges (or, you can set to allow users use mklink in local security policy settings in Windows). The batch may fail, if there are spaces in paths (it may work, but it is untested). Tip: create a shortcut to links\_libpack.bat, set it up to run as admin (in shortcut properties), and drag the build folder onto the shortcut.
 
 [Category:Developer Documentation](Category:Developer_Documentation.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > CompileOnWindows - Reducing Disk Footprint/fr

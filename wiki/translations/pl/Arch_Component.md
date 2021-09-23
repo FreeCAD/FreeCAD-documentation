@@ -6,6 +6,8 @@
    Shortcut:**C** **M**
 ---
 
+# Arch Component/pl
+
 ## Description
 
 Creates a non-parametric [Arch](Arch_Workbench.md) component from any [Part](Part_Workbench.md)-based object. This gives the Part-based object the same attributes and properties as other Arch objects, and allows to specify how it should be exported to IFC by setting its **Role** property.
@@ -46,11 +48,5 @@ The Arch component object is also a base shared by all other Arch objects (**<im
 
 -   **Hi Res**: Arch Components can use the shape of another object as a higher-resolution version of themselves. For this, both the Hi Res property and the Hi Res display mode must be set. This allows, for example, to make a simple wall, and then model every brick that composes the wall, for example with **<img src="images/Part_Box.svg" width=16px> [Part Box](Part_Box.md)**. Then, use a compound of those bricks as a high-resolution version of the wall. The shape of the wall is not modified by adding a Hi-Res object. Only its representation in the 3D view will change by adopting the representation of the high-resolution version instead of its own.
 
-
-
-
-
-
-
-
-
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Component/pl

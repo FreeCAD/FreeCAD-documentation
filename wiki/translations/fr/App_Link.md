@@ -1,5 +1,5 @@
 # App Link/fr
- {{TOCright}}
+{{TOCright}}
 
 ## Introduction
 
@@ -28,4 +28,7 @@ Voir la liste complète des propriétés à la page [Std Créer un lien](Std_Lin
 
 {{Std Base navi
 
-}} {{Document objects navi}} 
+}} {{Document objects navi}}
+
+---
+[documentation index](../README.md) > App Link/fr

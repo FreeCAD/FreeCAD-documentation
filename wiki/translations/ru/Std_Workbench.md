@@ -8,6 +8,8 @@
    SeeAlso:
 ---
 
+# Std Workbench/ru
+
 
 </div>
 
@@ -54,4 +56,7 @@ FreeCADGui.activateWorkbench("PartDesignWorkbench")
 
 {{Std Base navi
 
-}}  {{Interface navi}} 
+}}  {{Interface navi}}
+
+---
+[documentation index](../README.md) > Std Workbench/ru

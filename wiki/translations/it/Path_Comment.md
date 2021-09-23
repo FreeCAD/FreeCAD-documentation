@@ -1,3 +1,4 @@
+# Path Comment/it
 ---
 - GuiCommand:/it   Name:Path Comment   Name/it:Commento   Workbenches:[[Path Workbench/it   Path]]|MenuLocation:Path → Comandi supplementari → Commento   Shortcut:P,C   SeeAlso:---
 
@@ -50,4 +51,7 @@ Example:
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Comment/it

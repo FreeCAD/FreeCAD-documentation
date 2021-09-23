@@ -1,6 +1,4 @@
 # Artwork Ship/pl
- 
-
 Ikony te znajdują się we wskazanej ścieżce źródłowej.
 
 Wszystkie ikonki widoczne na liście źródłowej, patrz [Grafika](Artwork/pl.md).
@@ -17,3 +15,6 @@ Wszystkie ikonki widoczne na liście źródłowej, patrz [Grafika](Artwork/pl.md
 }} 
 
 [Category:Ship](Category:Ship.md)
+
+---
+[documentation index](../README.md) > [Ship](Category:Ship.md) > Artwork Ship/pl

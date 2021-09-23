@@ -6,6 +6,8 @@
    Shortcut:**A** **N**
 ---
 
+# Assembly3 CreateAssembly/en
+
 ## Description
 
 The **Assembly3 CreateAssembly** command adds a new **Assembly** branch object to the design tree.
@@ -29,8 +31,5 @@ The added **Assembly** object with all visible containers looks like this (0.20.
 **
     or use the keyboard shortcut: **A** then **N**
 
-
-
-
-
-
+---
+[documentation index](../README.md) > Assembly3 CreateAssembly/en

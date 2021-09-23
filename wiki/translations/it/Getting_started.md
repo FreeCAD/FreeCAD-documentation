@@ -1,10 +1,4 @@
 # Getting started/it
-
-
-
-
-
-
 {{TOCright}}
 
 ## Prefazione
@@ -195,3 +189,6 @@ Infine, una delle più potenti caratteristiche di FreeCAD è l\'ambiente di [scr
 {{Userdocnavi/it}}
 
 [Category:User Documentation/it](Category:User_Documentation/it.md)
+
+---
+[documentation index](../README.md) > Getting started/it

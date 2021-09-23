@@ -1,3 +1,4 @@
+# PartDesign WizardShaft/ja
 ---
 - GuiCommand:/jp   Name:PartDesign_WizardShaft   Workbenches:[パートデザイン](PartDesign_Workbench/jp.md), Complete---
 
@@ -107,4 +108,7 @@ For each shaft segment, the following parameters can be defined
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign WizardShaft/ja

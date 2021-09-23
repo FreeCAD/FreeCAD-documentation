@@ -8,6 +8,8 @@
    SeeAlso:[Std Importar](Std_Import/es.md)
 ---
 
+# Spreadsheet Import/es
+
 
 </div>
 
@@ -30,4 +32,7 @@ El herramienta **<img src=images/Spreadsheet_Import.svg style="width:16px"> [Imp
 
 {{Spreadsheet_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet Import/es

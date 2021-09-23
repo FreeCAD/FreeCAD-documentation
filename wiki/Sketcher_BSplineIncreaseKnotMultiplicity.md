@@ -7,6 +7,8 @@
    SeeAlso:[Sketcher Show/hide B-spline knot multiplicity](Sketcher_BSplineKnotMultiplicity.md), [Sketcher Decrease knot multiplicity](Sketcher_BSplineDecreaseKnotMultiplicity.md)
 ---
 
+# Sketcher BSplineIncreaseKnotMultiplicity
+
 ## Description
 
 Increases the multiplicity of a B-spline knot. (See [this page](B-Splines.md) for more info about B-splines).
@@ -38,4 +40,7 @@ One can see that the spline with knot multiplicity 1 is completely changed while
 
 
 
- {{Sketcher Tools navi}}  
+ {{Sketcher Tools navi}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineIncreaseKnotMultiplicity

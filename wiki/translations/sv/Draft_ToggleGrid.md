@@ -1,3 +1,4 @@
+# Draft ToggleGrid/sv
 ---
 - GuiCommand:/sv   Name:Draft ToggleGrid   Name/sv:Draft ToggleGrid   Workbenches:[Arch](Draft_Workbench/sv___Draft]],_[[Arch_Workbench/sv.md)|MenuLocation:Draft → Utilities → Toggle grid---
 
@@ -27,8 +28,5 @@ See [Draft Snap](Draft_Snap#Preferences.md).
 -   To use the grid select: **Edit → Preferences... → Draft → Grid and snapping → Grid → Use grid**. After changing this preference you must restart FreeCAD.
 -   Several other grid preferences are also available: **Edit → Preferences... → Draft → Grid and snapping → Grid**.
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ToggleGrid/sv

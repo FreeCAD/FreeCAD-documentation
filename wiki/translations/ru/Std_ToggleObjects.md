@@ -8,6 +8,8 @@
    SeeAlso:[Std ToggleVisibility](Std_ToggleVisibility/ru.md), [Std ShowSelection](Std_ShowSelection/ru.md), [Std HideSelection](Std_HideSelection/ru.md), [Std ShowObjects](Std_ShowObjects/ru.md), [Std HideObjects](Std_HideObjects/ru.md)
 ---
 
+# Std ToggleObjects/ru
+
 
 </div>
 
@@ -42,4 +44,7 @@ The **Std ToggleObjects** command toggles the visibility of all objects belongin
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ToggleObjects/ru

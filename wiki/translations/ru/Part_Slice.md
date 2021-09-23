@@ -8,6 +8,8 @@
    SeeAlso:[Part Boolean Fragments](Part_BooleanFragments/ru.md), [Part XOR](Part_XOR/ru.md), [Part Join features](Part_CompJoinFeatures/ru.md), [Part Boolean](Part_Boolean/ru.md)
 ---
 
+# Part Slice/ru
+
 
 </div>
 
@@ -198,5 +200,5 @@ j.Tools = FreeCADGui.Selection.getSelection()[1:]
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Slice/ru

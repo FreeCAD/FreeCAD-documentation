@@ -1,5 +1,5 @@
 # Download/zh-cn
- {{TOCright}}
+{{TOCright}}
 
 ## Current stable version 
 
@@ -61,5 +61,5 @@ The FreeCAD community provides a wealth of additional modules and macros. They c
 
 </div>
 
-
-
+---
+[documentation index](../README.md) > Download/zh-cn

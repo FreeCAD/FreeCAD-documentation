@@ -1,5 +1,5 @@
 # Gui Command
-  The GuiCommand is one of the most important functions of FreeCAD in the main interaction point of the user. Every time the user selects a menu item or presses a toolbar button it activates a GuiCommand. Some of the attributes of a GuiCommand are:
+The GuiCommand is one of the most important functions of FreeCAD in the main interaction point of the user. Every time the user selects a menu item or presses a toolbar button it activates a GuiCommand. Some of the attributes of a GuiCommand are:
 
 -   Defines a name
 -   Contains an icon
@@ -57,4 +57,7 @@ There are a lot of GuiCommands (tools) in FreeCAD which are experimental or used
 
 Hopefully this becomes true for all GuiCommands in the [List of Commands](List_of_Commands.md).
 
- {{Powerdocnavi}} 
+ {{Powerdocnavi}}
+
+---
+[documentation index](../README.md) > Gui Command

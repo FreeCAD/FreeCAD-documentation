@@ -8,6 +8,8 @@
    SeeAlso:[Arch Gebäude](Arch_Building/de.md), [Arch Baugrund](Arch_Site/de.md)
 ---
 
+# Arch BuildingPart/de
+
 ## Beschreibung
 
 Der GebäudeTeil ersetzt das alte [Arch Geschoss](Arch_Floor/de.md) und [Arch Gebäude](Arch_Building/de.md) Werkzeug durch eine leistungsfähigere Version, mit der nicht nur Geschosse/Etagen/Ebenen, sondern auch alle Arten von Situationen erstellt werden können, in denen verschiedene Architektur/BIM Objekte gruppiert werden sollen und das diese Gruppe als ein Objekt behandelt oder nachgebildet werden soll.
@@ -130,8 +132,5 @@ Site = Arch.makeSite(Building)
 FreeCAD.ActiveDocument.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch BuildingPart/de

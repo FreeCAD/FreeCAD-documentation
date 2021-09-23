@@ -7,6 +7,8 @@
    MenuLocation:Manage → Manage classification
 ---
 
+# BIM Classification/fr
+
 ## Description
 
 <img alt="" src=images/BIM_classification_screenshot.png  style="width:1024px;">
@@ -18,3 +20,6 @@ Le gestionnaire de classifications vous permet d\'attribuer une classe standard 
 -   Installez un ou plusieurs fichiers XML ou IFC standard de classification comme expliqué ci-dessus.
 -   Si vous souhaitez ajouter ou modifier une classe pour un objet, sélectionnez cet objet et appuyez sur le bouton Classification BIM.
 -   Si vous souhaitez ajouter ou modifier une classe pour un matériau, ne sélectionnez rien et appuyez sur le bouton Classification BIM. Vous pourrez parcourir les matériaux directement à partir de la fenêtre du gestionnaire de classification.
+
+---
+[documentation index](../README.md) > BIM Classification/fr

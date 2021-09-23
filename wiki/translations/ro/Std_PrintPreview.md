@@ -1,3 +1,4 @@
+# Std PrintPreview/ro
 ---
 - GuiCommand:/ro   Name:Std PrintPreview   Name/ro:Previzualizare tipărire   Workbenches:All   MenuLocation:[Shortcut:Ctrl+P   SeeAlso:[[Std Print/ro|Imprimare](Std_File_Menu/ro___File]]_→_Previzualizare_tipărire_.md)---
 
@@ -44,4 +45,7 @@ Această funcție vă permite să definiți aspectul paginii care va fi tipărit
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std PrintPreview/ro

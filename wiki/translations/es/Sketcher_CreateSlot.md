@@ -1,3 +1,4 @@
+# Sketcher CreateSlot/es
 ---
 - GuiCommand:/es   Name:Sketcher CreateSlot   Name/es:Sketcher CreateSlot   Workbenches:[[Sketcher Workbench/es   Sketcher]]|MenuLocation:Sketch → Sketcher geometries → Create slot   Shortcut:   SeeAlso:---
 
@@ -23,4 +24,7 @@ When starting the tool, the mouse pointer changes to a white cross with a red sl
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateSlot/es

@@ -1,5 +1,5 @@
 # PartDesign Scaled/fr
- {{GuiCommand/fr
+{{GuiCommand/fr
 |Name=PartDesign_Scaled
 |Name/fr=PartDesign Mise à l'échelle
 |Workbenches=[PartDesign](PartDesign_Workbench/fr.md), Complet
@@ -50,4 +50,7 @@ Depuis FreeCAD 0.15, cette fonctionnalité n'est pas disponible directement, mai
 
 ![c\|center\|800px](images/mt_example2.png ) Le plus petit pad a d\'abord été configuré trois fois dans la direction X, puis redimensionné en deux (les trois occurrences ont donc les facteurs d\'échelle 1.0, 1.5 et 2.0). Ensuite, un motif polaire a été appliqué avec 8 occurrences.
 
-Étant donné que la mise à l\'échelle est effectuée par rapport au centre de gravité, dans le cas d\'un pad, il est nécessaire que le pad pénètre également dans le corps principal, sinon les objets à mettre à l\'échelle flotteront, se détachent du corps. Pour avoir un pad qui coupe le corps principal, vous pouvez utiliser le type \"deux dimensions\" ou l\'option \"simmetric to plane\". 
+Étant donné que la mise à l\'échelle est effectuée par rapport au centre de gravité, dans le cas d\'un pad, il est nécessaire que le pad pénètre également dans le corps principal, sinon les objets à mettre à l\'échelle flotteront, se détachent du corps. Pour avoir un pad qui coupe le corps principal, vous pouvez utiliser le type \"deux dimensions\" ou l\'option \"simmetric to plane\".
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Scaled/fr

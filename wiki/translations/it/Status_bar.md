@@ -1,6 +1,4 @@
 # Status bar/it
-
-
 ## Introduzione
 
 
@@ -32,4 +30,7 @@ La barra di stato mostra anche l\'ultimo oggetto preselezionato (qualsiasi ogget
 
 {{Interface navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > Status bar/it

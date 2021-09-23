@@ -1,3 +1,4 @@
+# Sketcher CloseShape/ro
 ---
 - GuiCommand:   Name:Sketcher CloseShape   Workbenches:[[Sketcher Workbench   Sketcher]]|MenuLocation:Sketch → Sketcher tools → Close Shape   Shortcut:Shift+Ctrl+S   Version:0.15---
 
@@ -34,4 +35,7 @@ Instrumentul va conecta elementele în ordinea alegerii lor, deci asigurați-vă
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CloseShape/ro

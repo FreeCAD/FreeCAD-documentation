@@ -1,7 +1,4 @@
 # Main Page/ko
- 
-
-
 <div class="mw-translate-fuzzy">
 
 ## 소개
@@ -99,3 +96,6 @@ FreeCAD는 모든 플랫폼에서 [CMake](https://cmake.org/)를 사용하여 �
 
 
 [Category:Documentation](Category:Documentation.md)
+
+---
+[documentation index](../README.md) > [Documentation](Category:Documentation.md) > Main Page/ko

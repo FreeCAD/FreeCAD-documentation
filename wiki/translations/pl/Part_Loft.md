@@ -8,6 +8,8 @@
    SeeAlso:[Wyciągnięcie po ścieżce](Part_Sweep/pl.md)
 ---
 
+# Part Loft/pl
+
 ## Overview
 
 The Loft tool is used to create a face, shell or a solid shape from two or more profiles. The profiles can be a point (vertex), line (Edge), wire or face. Edges and wires may be either open or closed. There are various [Limitations and complications](Part_Loft#Limitations_and_complications.md), see below, however the profiles may come from the Part Workbench primitives, Draft Workbench features and a Sketch.
@@ -103,8 +105,5 @@ If you want to change the selection of the sections after creation of the loft, 
 
 The sequence of sections depends on the sequence of clicks in the list. If you want to make substantial changes it is recommended to first deselect all and then start selection in the right order.
 
-
-
-
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Loft/pl

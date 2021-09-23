@@ -1,10 +1,4 @@
 # Third Party Tools/ru
-
-
-
-
-
-
 {{TOCright}}
 
 ## Tool Page 
@@ -155,3 +149,6 @@ Free and open source software for video recording and live streaming. More detai
  
 
 [Category:Developer Documentation](Category:Developer_Documentation.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Third Party Tools/ru

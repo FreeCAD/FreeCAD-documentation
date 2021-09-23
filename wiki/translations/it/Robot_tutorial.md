@@ -1,5 +1,5 @@
 # Robot tutorial/it
- {{TutorialInfo/it
+{{TutorialInfo/it
 |Topic= Robot Workbench
 |Level= Base
 |Time=
@@ -86,4 +86,7 @@ Questo tutorial è finalizzato all\'uso di [robot industriali](http://en.wikiped
 
 {{Tutorials navi
 
-}} {{Robot Tools navi}} 
+}} {{Robot Tools navi}}
+
+---
+[documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot tutorial/it

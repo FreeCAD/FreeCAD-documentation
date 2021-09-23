@@ -1,8 +1,4 @@
-# BIM ingame tutorial/pl
-
-
-
- <img alt="" src=images/BIM_tutorial_screenshot.png  style="width:1024px;">
+# <img alt="" src=images/BIM_tutorial_screenshot.png  style="width:1024px;"> BIM ingame tutorial/pl
 
 
 {{BIMTutorialAction|descr=To jest samouczek dotyczący obsługi Środowiska pracy [BIM](BIM_Workbench/pl.md). Nie należy go czytać tutaj na wiki, ale należy go uruchomić z poziomu programu FreeCAD, w środowisku pracy BIM, w menu '''Pomoc -> samouczek BIM'''. Zawiera serię kroków do wykonania przez użytkownika. Każdy krok kończy się wystąpieniem szablonu [<nowiki>{{BIMTutorialAction|descr|goal1|test1|goal2|test2}}</nowiki>](Template:BIMTutorialAction.md), który informuje o warunku, który musi być spełniony. Obrazy powinny mieć szerokość 300px. Na tej stronie nie powinny być używane żadne obrazy SVG, ponieważ nie są one obsługiwane przez widżet QTextBrowser.}}
@@ -509,3 +505,6 @@ FreeCAD is free software, developed by an enthusiast community of users, some of
 {{BIMTutorialAction|descr=No action to perform for this step}}
 
 [Category:BIM](Category:BIM.md) [Category:Tutorials](Category:Tutorials.md)
+
+---
+[documentation index](../README.md) > [BIM](Category:BIM.md) > BIM ingame tutorial/pl

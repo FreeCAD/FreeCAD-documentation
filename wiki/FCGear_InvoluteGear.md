@@ -8,6 +8,8 @@
    SeeAlso:[[FCGear CycloideGear]]
 ---
 
+# FCGear InvoluteGear
+
 ## Description
 
 Due to the favourable meshing ratio and the relatively simple production, involute gearing is the most common tooth form in mechanical engineering. Gear wheels can be found wherever movement and force are to be transferred from one part to another. For example, they can be found in machines, cars, watches or household appliances. The movement is often transferred directly from one gear wheel to the other, but sometimes also via a chain. In addition, the direction of rotation can be changed. It is also possible to change a radial movement into a linear one via Involute Rack (<img alt="" src=images/FCGear_InvoluteRack.svg  style="width:22px;"> [Create an Involute rack](FCGear_InvoluteRack.md)).
@@ -232,3 +234,6 @@ Gui.SendMsgToActiveView("ViewFit")
 
 
 [Category:Addons](Category:Addons.md) [Category:FCGear](Category:FCGear.md) [Category:External Command Reference](Category:External_Command_Reference.md)
+
+---
+[documentation index](../README.md) > [Addons](Category:Addons.md) > FCGear InvoluteGear

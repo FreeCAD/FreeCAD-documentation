@@ -1,7 +1,4 @@
 # Macro findConfigFiles/it
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -116,3 +113,6 @@ if ok == QtGui.QMessageBox.Ok or ok==0:
 ## Vincolo
 
 Il foro [findConfigFiles macro](https://forum.freecadweb.org/viewtopic.php?f=22&t=29888)
+
+---
+[documentation index](../README.md) > Macro findConfigFiles/it

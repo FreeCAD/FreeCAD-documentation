@@ -7,6 +7,8 @@
    SeeAlso:[표준 저장](Std_Save.md)
 ---
 
+# Std SaveAll/ko
+
 ## 설명
 
 **표준 모두 저장(Std SaveAll)** 명령은 모든 문서를 저장합니다.
@@ -39,4 +41,7 @@
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std SaveAll/ko

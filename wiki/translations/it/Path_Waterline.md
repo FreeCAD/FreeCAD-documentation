@@ -9,6 +9,8 @@
    SeeAlso:
 ---
 
+# Path Waterline/it
+
 
 </div>
 
@@ -265,4 +267,7 @@ Note: It is suggested that you do not edit the Placement property of path operat
 
 {{Path Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Waterline/it

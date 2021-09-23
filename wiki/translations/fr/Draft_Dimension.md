@@ -9,6 +9,8 @@
    SeeAlso:[Draft Inverser la direction de la cote](Draft_FlipDimension/fr.md)
 ---
 
+# Draft Dimension/fr
+
 ## Description
 
 La commande <img alt="" src=images/Draft_Dimension.svg  style="width:24px;"> **Draft Dimension** [crée](#Create.md) une [dimension linéaire](#Utilisation_pour_une_dimension_lin.C3.A9aire.md), une [dimension radiale](#Utilisation_pour_une_dimension_radiale.md) ou une [dimension angulaire](#Utilisation_pour_une_dimension_angulaire.md). La commande peut également être utilisée pour [convertir](#Convertir.md) des objets [Std Mesurer une distance](Std_MeasureDistance/fr.md).
@@ -298,8 +300,5 @@ dimension4.ViewObject.FontSize = 200
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Dimension/fr

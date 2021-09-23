@@ -5,6 +5,8 @@
    Workbenches:[Assembly3](Assembly3_Workbench.md)
 ---
 
+# Assembly3 ConstraintPointOnCircle/en
+
 ## Description
 
 This tool builds a link between two objects of an assembly and fixes the distance between them and the orientation to each other. The selected elements of each object or more precisely their implicit coordinate systems (ICS) are used to position one object to another.
@@ -21,8 +23,5 @@ The position on the circular element (arc length from the start point) is not de
 2.  Select one point element of one object and one circular face or edge element of the other object.
 3.  Press the **<img src="images/Assembly_ConstraintPointOnCircle.svg" width=16px> [Point on circle](Assembly3_ConstraintPointOnCircle.md)** button.
 
-
-
-
-
-
+---
+[documentation index](../README.md) > Assembly3 ConstraintPointOnCircle/en

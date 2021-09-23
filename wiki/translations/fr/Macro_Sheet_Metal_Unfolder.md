@@ -1,5 +1,5 @@
 # Macro Sheet Metal Unfolder/fr
- {{Macro/fr
+{{Macro/fr
 |Name=Sheet Metal Unfolder
 |Icon=Macro_Sheet_Metal_Unfolder.png
 |Description=La macro peut déplier de simples pièces de tôle. Les pièces doivent avoir partout la même épaisseur de matériau que celle des pièces en tôle.
@@ -1488,3 +1488,5 @@ else:
 
 }}
 
+---
+[documentation index](../README.md) > Macro Sheet Metal Unfolder/fr

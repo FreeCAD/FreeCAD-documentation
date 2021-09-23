@@ -1,5 +1,4 @@
-# User hub/hr
- <img alt="" src=images/User_hub.png  style="width:64px;">
+# <img alt="" src=images/User_hub.png  style="width:64px;"> User hub/hr
 
 ------------------------------------------------------------------------
 
@@ -133,3 +132,6 @@ This is the official FreeCAD online help. Please note that the whole online help
 
 
 [Category:Hubs](Category:Hubs.md)
+
+---
+[documentation index](../README.md) > [Hubs](Category:Hubs.md) > User hub/hr

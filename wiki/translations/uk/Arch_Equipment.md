@@ -8,6 +8,8 @@
    SeeAlso:[3 views from mesh](Arch_3Views.md)
 ---
 
+# Arch Equipment/uk
+
 
 </div>
 
@@ -78,8 +80,5 @@ FreeCAD.ActiveDocument.recompute()
 
 </div>
 
-
-
-
-
-
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Equipment/uk

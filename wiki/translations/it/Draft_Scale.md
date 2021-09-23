@@ -8,6 +8,8 @@
    SeeAlso:[Clona](Draft_Clone/it.md), [Offset](Draft_Offset/it.md)
 ---
 
+# Draft Scale/it
+
 
 </div>
 
@@ -187,5 +189,5 @@ doc.recompute()
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Scale/it

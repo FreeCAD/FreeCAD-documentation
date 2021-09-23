@@ -1,8 +1,4 @@
 # Stemfie Workbench
- 
-
- 
-
 ## Introduction
 
 The Stemfie Workbench is an [external workbench](External_workbenches.md) aimed at implementing a parametric set of parts for the [Stemfie project](https://www.stemfie.org/).
@@ -20,3 +16,6 @@ The Stenfie workbench is not bundled with the default FreeCAD package, but can e
 
 
 [Category:Addons](Category:Addons.md) [\*](Category:External_Workbenches.md)
+
+---
+[documentation index](../README.md) > Stemfie Workbench

@@ -1,6 +1,4 @@
 # Help FreeCAD/hr
-
-
 ## Introduction
 
 
@@ -107,3 +105,6 @@ Kod za pisanje za FreeCAD nije težak i ne trebate nikakvo dopuštenje, odmah mo
 
 
 [Category:Documentation](Category:Documentation.md) [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Common Questions](Category:Common_Questions.md)
+
+---
+[documentation index](../README.md) > [Command Reference/hr]] su popisane i dokumentirane sve FreeCAD ](Category:Command Reference/hr]] su popisane i dokumentirane sve FreeCAD .md) > Help FreeCAD/hr

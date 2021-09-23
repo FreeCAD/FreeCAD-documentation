@@ -7,6 +7,8 @@
    SeeAlso:[Part ShapeFromMesh](Part_ShapeFromMesh.md), [Part ConvertToSolid](Part_MakeSolid.md), [Part RefineShape](Part_RefineShape.md)
 ---
 
+# Part PointsFromMesh/en
+
 ## Description
 
 The **<img src="images/Part_PointsFromMesh.svg" width=16px> [Part PointsFromMesh](Part_PointsFromMesh.md)
@@ -31,8 +33,5 @@ There will be no analyzing or validating of the mesh object. Analyzing and repai
 
 ## Scripting
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part PointsFromMesh/en

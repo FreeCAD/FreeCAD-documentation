@@ -1,5 +1,5 @@
 # TechDraw HowTo Page/fr
- Retour aux [Tutoriels TechDraw](TechDraw_Workbench/fr#Tutoriels.md)
+Retour aux [Tutoriels TechDraw](TechDraw_Workbench/fr#Tutoriels.md)
 
 
 {{TutorialInfo/fr
@@ -50,4 +50,7 @@ Voir aussi [Mesure des angles sur les axes des trous](Measurement_Of_Angles_On_H
 
 {{TechDraw Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw HowTo Page/fr

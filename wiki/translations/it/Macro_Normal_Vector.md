@@ -1,7 +1,4 @@
 # Macro Normal Vector/it
-
-
-
 {{Macro/it
 |Name=Normal Vector Macro
 |Icon=Macro_Normal_Vector.png
@@ -57,6 +54,5 @@ Gui.Selection.getSelectionEx()[0].SubObjects[0].Faces[0].normalAt(0,0)
 
 [La discossione nel forum, in tedesco](http://forum.freecadweb.org/viewtopic.php?f=13&t=10959)
 
-
-
-
+---
+[documentation index](../README.md) > Macro Normal Vector/it

@@ -1,3 +1,4 @@
+# Ship Loading/it
 ---
 - GuiCommand:/it   Name:Ship Loading   Name/it:Carico   MenuLocation:Weights → Crea una nuova condizione di carico   |Workbenches:[[Ship Workbench/it   Ship]]|Shortcut:   SeeAlso:---
 
@@ -16,9 +17,5 @@ Da fare
 
 {{Ship Tools navi/it}}
 
-
-
-
-
-
-
+---
+[documentation index](../README.md) > Ship Loading/it

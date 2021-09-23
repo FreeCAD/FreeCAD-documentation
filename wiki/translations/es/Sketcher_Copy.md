@@ -8,6 +8,8 @@
    SeeAlso:[Sketcher Clonar](Sketcher_Clone/es.md), [Sketcher Move](Sketcher_Move/es.md)
 ---
 
+# Sketcher Copy/es
+
 
 </div>
 
@@ -35,4 +37,7 @@ No extra constraints are added.
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Copy/es

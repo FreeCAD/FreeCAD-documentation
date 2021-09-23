@@ -7,6 +7,8 @@
    SeeAlso:[Tutoriel FEM](FEM_tutorial/fr.md)
 ---
 
+# FEM MeshBoundaryLayer/fr
+
 ## Description
 
 Couche limite de maillage MEF permet à l\'utilisateur de définir un ensemble localisé de paramètres de maillage en sélectionnant un ensemble d\'éléments (Vertex, Edge, Face) et en lui appliquant les paramètres. Elle est particulièrement utile pour affiner les maillages près des bords ou des surfaces dans les simulations d\'écoulement. Par exemple, elle peut être utilisée pour raffiner le maillage à proximité d\'une feuille d\'air ou d\'un obstacle dans un écoulement.
@@ -52,4 +54,7 @@ Vous pouvez créer autant de couches limites de maillage différentes que néces
 
 {{FEM Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > FEM MeshBoundaryLayer/fr

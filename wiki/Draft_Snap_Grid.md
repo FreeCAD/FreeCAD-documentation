@@ -5,6 +5,8 @@
    SeeAlso:[Draft Snap](Draft_Snap.md), [Draft Snap Lock](Draft_Snap_Lock.md), [Draft ToggleGrid](Draft_ToggleGrid.md), [Draft SelectPlane](Draft_SelectPlane.md)
 ---
 
+# Draft Snap Grid
+
 ## Description
 
 The <img alt="" src=images/Draft_Snap_Grid.svg  style="width:24px;"> **Draft Snap Grid** option snaps to the intersections of grid lines. The grid can only be used if the **Use grid** preference is selected. See [Preferences](#Preferences.md).
@@ -34,7 +36,5 @@ See [Draft Snap](Draft_Snap#Preferences.md).
 -   To use the grid select: **Edit → Preferences... → Draft → Grid and snapping → Grid → Use grid**. After changing this preference you must restart FreeCAD.
 -   Several other grid preferences are also available: **Edit → Preferences... → Draft → Grid and snapping → Grid**.
 
-
-
-
-  
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Grid

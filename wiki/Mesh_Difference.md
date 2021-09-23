@@ -6,6 +6,8 @@
    SeeAlso:[Mesh Union](Mesh_Union.md), [Mesh Intersection](Mesh_Intersection.md)
 ---
 
+# Mesh Difference
+
 ## Description
 
 The **Mesh Difference** command creates a new non-parametric mesh object, a [Mesh Feature](Mesh_Feature.md), that is the difference of two mesh objects: one mesh object is cut from the other.
@@ -29,4 +31,7 @@ See: [Mesh Feature](Mesh_Feature.md).
 
 
 
- {{Mesh Tools navi}}  
+ {{Mesh Tools navi}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Difference

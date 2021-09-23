@@ -9,6 +9,8 @@
    SeeAlso:[Entwurf Teilen](Draft_Split/de.md)
 ---
 
+# Draft Join/de
+
 ## Beschreibung
 
 Der <img alt="" src=images/Draft_Join.svg  style="width:24px;"> **Entwurf Verbinden** Befehl verbindet [Entwurf Linien](Draft_Line/de.md) und [Entwurf Drähte](Draft_Wire/de.md) zu einem einzigen Draht. Dieser Befehl ist das Gegenstück zum Befehl [Entwurf Teilen](Draft_Split/de.md).
@@ -63,8 +65,5 @@ Draft.join_wires([wire1, wire3, wire2, wire4])
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Join/de

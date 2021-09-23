@@ -1,3 +1,4 @@
+# PartDesign Draft/it
 ---
 - GuiCommand:/it   Name:PartDesign_Draft   Name/it:Sformo   MenuLocation:PartDesign → Sformo   Workbenches:[PartDesign](PartDesign_Workbench/it.md)---
 
@@ -103,4 +104,7 @@ Questo strumento crea uno sformo angolare (inclinazione delle facce) sulle facce
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Draft/it

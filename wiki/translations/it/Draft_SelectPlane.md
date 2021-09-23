@@ -8,6 +8,8 @@
    SeeAlso:[Piano proxy](Draft_SetWorkingPlaneProxy/it.md), [Mostra la griglia](Draft_ToggleGrid/it.md)
 ---
 
+# Draft SelectPlane/it
+
 
 </div>
 
@@ -183,5 +185,5 @@ print(projection)
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft SelectPlane/it

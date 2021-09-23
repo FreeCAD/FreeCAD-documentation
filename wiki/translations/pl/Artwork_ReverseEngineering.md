@@ -1,6 +1,4 @@
 # Artwork ReverseEngineering/pl
- 
-
 Ikony te znajdują się we wskazanej ścieżce źródłowej.
 
 Wszystkie ikonki widoczne na liście źródłowej, patrz [Grafika](Artwork/pl.md).
@@ -21,3 +19,6 @@ Wszystkie ikonki widoczne na liście źródłowej, patrz [Grafika](Artwork/pl.md
 }} 
 
 [Category:Reverse Engineering](Category:Reverse_Engineering.md)
+
+---
+[documentation index](../README.md) > [Reverse Engineering](Category:Reverse Engineering.md) > Artwork ReverseEngineering/pl

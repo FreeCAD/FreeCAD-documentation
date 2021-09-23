@@ -1,3 +1,4 @@
+# Draft Label/ru
 ---
 - GuiCommand:   Name:Draft Label   Workbenches:[Arch](Draft_Workbench___Draft]],_[[Arch_Workbench.md)|MenuLocation:Draft → Label   Shortcut:D L---
 
@@ -223,8 +224,5 @@ label3.ViewObject.TextSize = 200
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Label/ru

@@ -7,6 +7,8 @@
    SeeAlso:[Arch Panneau](Arch_Panel/fr.md), [Arch Panneau feuille](Arch_Panel_Sheet/fr.md)
 ---
 
+# Arch Nest/fr
+
 ## Description
 
 L\'outil **<img src="images/Arch_Nest.svg" width=16px> [Arch Calepinage](Arch_Nest/fr.md)** permet de sélectionner une forme plane pour en faire un conteneur, et une série d\'autres formes planes à disposer à l\'intérieur de l\'espace défini par la forme du conteneur. Ceci est généralement nécessaire pour les opérations sur machines CNC, où vous voulez découper une série de pièces dans un panneau de base, et devez organiser ces pièces de la manière la plus compacte possible pour qu\'elles occupent moins d\'espace sur le panneau.
@@ -39,8 +41,5 @@ L\'algorithme qui gère l\'outil Nest est en constante évolution et n\'est actu
 -   Pour le moment, la marge/espacement entre les pièces n\'est pas encore implémenté
 -   Le calcul peut prendre beaucoup de temps avec de nombreux objets. Cela sera optimisé dans le futur
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Nest/fr

@@ -7,6 +7,8 @@
    Shortcut:**S** **R**
 ---
 
+# Arch Stairs/es
+
 
 </div>
 
@@ -179,3 +181,6 @@ Stairs = Arch.makeStairs(length=5000, width=1200, height=3000, steps=14)
  
 
 [Category:Arch/es](Category:Arch/es.md)
+
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Stairs/es

@@ -7,6 +7,8 @@
    SeeAlso:[Editor delle preferenze](Preferences_Editor/it.md)
 ---
 
+# Std DlgPreferences/it
+
 ## Descrizione
 
 Il comando **Preferenze\...** apre l\'[editor delle preferenze](Preferences_Editor/it.md).
@@ -38,4 +40,7 @@ Selezionare l\'opzione **Modifica → <img src="images/Std_DlgPreferences.svg" w
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std DlgPreferences/it

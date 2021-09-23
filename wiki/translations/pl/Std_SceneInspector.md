@@ -6,6 +6,8 @@
    Workbenches:Wszystkie
 ---
 
+# Std SceneInspector/pl
+
 ## Opis
 
 Polecenie **Inspektor sceny** otwiera okno dialogowe wyświetlające przegląd wszystkich węzłów w [scenogramie](Scenegraph/pl.md) aktywnego [widoku 3D](3D_view/pl.md). Jest to raczej narzędzie dla programistów niż dla przeciętnych użytkowników. Można go użyć do sprawdzenia, dlaczego renderowanie jest powolne lub dlaczego coś nie jest renderowane poprawnie.
@@ -24,4 +26,7 @@ Polecenie **Inspektor sceny** otwiera okno dialogowe wyświetlające przegląd w
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std SceneInspector/pl

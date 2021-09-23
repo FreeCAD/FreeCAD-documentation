@@ -1,7 +1,4 @@
 # Macro FCHoneycombMaker/it
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -363,3 +360,6 @@ Altra macro a nido d\'ape simile [Honeycomb Array](https://forum.freecadweb.org/
 ## Versione
 
 2019-07-04 : prima
+
+---
+[documentation index](../README.md) > Macro FCHoneycombMaker/it

@@ -8,6 +8,8 @@
    SeeAlso:[Arch CompSetMaterial](Arch_CompSetMaterial/ru.md), [Arch MultiMaterial](Arch_MultiMaterial/ru.md)
 ---
 
+# Arch SetMaterial/ru
+
 
 </div>
 
@@ -69,5 +71,5 @@ This roughly corresponds to [IfcMaterial](https://standards.buildingsmart.org/IF
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SetMaterial/ru

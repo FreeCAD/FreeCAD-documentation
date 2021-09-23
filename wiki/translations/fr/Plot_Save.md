@@ -6,6 +6,8 @@
    Workbenches:[Plot](Plot_Module/fr.md)
 ---
 
+# Plot Save/fr
+
 ## Description
 
 Le module standard plot fournit déjà un outil minimal pour sauvegarder les graphiques <img alt="" src=images/Matplotlib_save_button.png  style="width:24px;">. Si vous installez l\'<img alt="" src=images/Workbench_Plot.svg  style="width:24px;"> [atelier Plot](Plot_Workbench/fr.md) en utilisant le [Gestionnaire d\'Addon](Std_AddonMgr/fr.md), un outil plus complet pour sauvegarder le graphe actif sera disponible. Avec cet outil, vous pouvez également sélectionner la taille et la résolution de l\'image de sortie.
@@ -33,3 +35,6 @@ Sélectionnez l\'onglet du graphique que vous voulez sauvegarder, et lancez cet 
 }} 
 
 [Category:External\_Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)
+
+---
+[documentation index](../README.md) > [External_Workbenches](Category:External_Workbenches.md) > Plot Save/fr

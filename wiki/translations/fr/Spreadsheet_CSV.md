@@ -1,5 +1,5 @@
 # Spreadsheet CSV/fr
- Le[format CSV](https://fr.wikipedia.org/wiki/Comma-separated_values) (comma-separated values) est un format texte brut pour échanger des données de tableur. Il peut généralement être importé et exporté par n\'importe quel tableur tel que LibreOffice ou Microsoft Excel. La lecture et l\'écriture au format csv se fait avec le module csv intégré dans Python [module csv](http://docs.python.org/2/library/csv.html).
+Le[format CSV](https://fr.wikipedia.org/wiki/Comma-separated_values) (comma-separated values) est un format texte brut pour échanger des données de tableur. Il peut généralement être importé et exporté par n\'importe quel tableur tel que LibreOffice ou Microsoft Excel. La lecture et l\'écriture au format csv se fait avec le module csv intégré dans Python [module csv](http://docs.python.org/2/library/csv.html).
 
 ## Importation
 
@@ -13,3 +13,6 @@ L\'exportation d\'un objet <img alt="" src=images/Spreadsheet_CreateSheet.svg  s
  
 
 [Category:User\_Documentation](Category:User_Documentation.md) [Category:Spreadsheet](Category:Spreadsheet.md) [Category:File\_Formats](Category:File_Formats.md)
+
+---
+[documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet CSV/fr

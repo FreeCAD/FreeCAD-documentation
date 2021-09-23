@@ -1,6 +1,4 @@
 # Artwork Ship/ru
- 
-
 Эти иконки находятся в указанной исходной папке.
 
 Для всех иконок в исходнике смотри [Художественное оформление](Artwork/ru.md).
@@ -29,3 +27,6 @@
 }} 
 
 [Category:Ship](Category:Ship.md)
+
+---
+[documentation index](../README.md) > [Ship](Category:Ship.md) > Artwork Ship/ru

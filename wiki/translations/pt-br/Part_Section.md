@@ -6,6 +6,8 @@
    SeeAlso:[Part CrossSections](Part_CrossSections.md)
 ---
 
+# Part Section/pt-br
+
 ## Description
 
 Extracts a section from the intersection of two selected shapes, the second one being used as a section plane. This operation is fully parametric and the components can be modified and the result recomputed.
@@ -30,8 +32,5 @@ In this example, a cube is sectioned with a cylinder:
 
 To create sections with a section plane see <img alt="" src=images/Part_CrossSections.svg  style="width:24px;"> [Cross-sections](Part_CrossSections.md).
 
-
-
-
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Section/pt-br

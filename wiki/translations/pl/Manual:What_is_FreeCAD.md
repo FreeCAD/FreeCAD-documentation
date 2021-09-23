@@ -1,7 +1,4 @@
 # Manual:What is FreeCAD/pl
- 
-
-
 {{Manual:TOC/pl}}
 
 <img alt="" src=images/Freecad016_screenshot1.jpg  style="width:820px;">
@@ -22,6 +19,5 @@ Oficjalna strona internetowa FreeCAD znajduje się pod adresem [<http://www.free
 -   [Funkcjonalność programu](Feature_list/pl.md)
 -   [Zrzuty ekranu i sprawy użytkowników](http://forum.freecadweb.org/viewforum.php?f=24)
 
-
-
-
+---
+[documentation index](../README.md) > Manual:What is FreeCAD/pl

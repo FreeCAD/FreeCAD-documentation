@@ -1,7 +1,4 @@
 # Placement/ro
-
-
-
 <div class="mw-translate-fuzzy">
 
 ## Descriere
@@ -305,5 +302,5 @@ To make the placement of \"Sketch\" equal to that of \"Cylinder\", you would ent
 
 </div>
 
-
-
+---
+[documentation index](../README.md) > Placement/ro

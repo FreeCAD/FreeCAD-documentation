@@ -8,6 +8,8 @@
    Version:0.19
 ---
 
+# Arch Rebar ColumnReinforcement TwoTiesSixRebars/fr
+
 ## Description
 
 L\'outil [Armature 2x6](Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars/fr.md) permet à l\'utilisateur de créer des barres d\'armature 2x6 à l\'intérieur d\'un objet colonne [Arch Structure](Arch_Structure/fr.md).
@@ -337,3 +339,6 @@ rebar_group = TwoTiesSixRebars.editTwoTiesSixRebars(
  
 
 [Category:Reinforcement](Category:Reinforcement.md)
+
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Rebar ColumnReinforcement TwoTiesSixRebars/fr

@@ -1,5 +1,5 @@
 # Toothbrush Head Stand/ru
- {{TutorialInfo/ru
+{{TutorialInfo/ru
 |Topic=Modeling
 |Level=Beginner
 |Author=[EmmanuelG](User:EmmanuelG.md)
@@ -427,4 +427,7 @@ Perfect !
 
 {{Tutorials navi
 
-}} {{PartDesign Tools navi}} {{Sketcher Tools navi}} 
+}} {{PartDesign Tools navi}} {{Sketcher Tools navi}}
+
+---
+[documentation index](../README.md) > Toothbrush Head Stand/ru

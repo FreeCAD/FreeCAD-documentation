@@ -7,6 +7,8 @@
    SeeAlso:[Std AnsichtAnkoppelnAbkoppelnVollbild](Std_ViewDockUndockFullscreen/de.md), [Std HauptVollbild](Std_MainFullscreen.md)
 ---
 
+# Std ViewFullscreen/de
+
 ## Beschreibung
 
 Der **Std AnsichtVollbild** Befehl schaltet [3D Ansichten](3D_view/de.md) in den und aus dem Vollbildmodus. 3D Ansichten werden automatisch [abgekoppelt](Std_ViewDockUndockFullscreen/de.md) für den Vollbildmodus umgeschaltet.
@@ -30,4 +32,7 @@ Der **Std AnsichtVollbild** Befehl schaltet [3D Ansichten](3D_view/de.md) in den
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ViewFullscreen/de

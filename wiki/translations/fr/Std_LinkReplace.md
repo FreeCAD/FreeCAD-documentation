@@ -8,6 +8,8 @@
    SeeAlso:[Std Créer un lien](Std_LinkMake/fr.md), [Std Créer un lien relatif](Std_LinkMakeRelative/fr.md), [Std Délier](Std_LinkUnlink/fr.md)
 ---
 
+# Std LinkReplace/fr
+
 ## Description
 
 
@@ -49,4 +51,7 @@ Cette commande crée un nouveau <img src=images/Std_LinkMake.svg style="width:Ap
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std LinkReplace/fr

@@ -1,7 +1,4 @@
 # Arch Workbench/tr
-
-
-
 {{docnav/tr|[Taslak Tezgahı](Draft_Workbench/tr.md)|[FEM Tezgahı](FEM_Workbench/tr.md)}}
 
 <img alt="Arch workbench icon" src=images/Workbench_Arch.svg  style="width:128px;">
@@ -151,3 +148,6 @@ The Arch module can be used in [Python](Python.md) scripts and [macros](macros.m
  
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Arch Workbench/tr

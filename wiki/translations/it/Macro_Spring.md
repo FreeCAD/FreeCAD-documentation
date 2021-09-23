@@ -1,5 +1,5 @@
 # Macro Spring/it
- {{Macro/it
+{{Macro/it
 |Name=Spring Simul
 |Icon=Macro_Spring.png
 |Translate=Spring Simul
@@ -68,4 +68,7 @@ for ii2 in range(int(60)):
 
 ## Link
 
-La pagina della discussione nel forum: [scripting animations](http://forum.freecadweb.org/viewtopic.php?f=22&t=7449#p62193) 
+La pagina della discussione nel forum: [scripting animations](http://forum.freecadweb.org/viewtopic.php?f=22&t=7449#p62193)
+
+---
+[documentation index](../README.md) > Macro Spring/it

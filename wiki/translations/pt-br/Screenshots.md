@@ -1,5 +1,5 @@
 # Screenshots/pt-br
- {{TOCright}}
+{{TOCright}}
 
 Aqui estão algumas screenshots mostrando diferentes partes do FreeCAD. Elas não estão ordenadas por uma linha de tempo em particular, portanto as imagens podem diferir de sua versão atual. Veja mais screenshots enviados por usuários do FreeCAD no [screenshot forum thread](http://forum.freecadweb.org/viewtopic.php?f=8&t=4751) e no [\"Mostre seu projeto aqui!\" Users Showcase forum part](http://forum.freecadweb.org/viewforum.php?f=24).
 
@@ -222,3 +222,6 @@ FreeCAD rodando em modo console (sem interface gráfica)
 A caixa de diálogo para salvar uma imagem com dimensões personalizadas.
 
 [Category:User Documentation/pt-br](Category:User_Documentation/pt-br.md) [Category:Screenshots](Category:Screenshots.md)
+
+---
+[documentation index](../README.md) > Screenshots/pt-br

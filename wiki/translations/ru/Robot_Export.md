@@ -1,3 +1,4 @@
+# Robot Export/ru
 ---
 - GuiCommand:/ru
    Name:Robot Export
@@ -29,4 +30,7 @@ Result: A KRL file (\*.src) will be created.
 
 {{Robot_Tools_navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot Export/ru

@@ -1,7 +1,4 @@
 # Macro PropertyMemo/hr
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -420,3 +417,5 @@ Moji makroi na [mario52a](https://gist.github.com/mario52a) gists
 
 </div>
 
+---
+[documentation index](../README.md) > Macro PropertyMemo/hr

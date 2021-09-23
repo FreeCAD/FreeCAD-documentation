@@ -7,6 +7,8 @@
    SeeAlso:[FEM Contrainte vitesse d'écoulement initiale](FEM_ConstraintInitialFlowVelocity/fr.md)
 ---
 
+# FEM ConstraintFlowVelocity/fr
+
 ## Description
 
 Applique une vitesse d\'écoulement comme condition aux limites à une arête en 2D ou à une face en 3D.
@@ -43,4 +45,7 @@ Applique une vitesse d\'écoulement comme condition aux limites à une arête en
 
 {{FEM Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > FEM ConstraintFlowVelocity/fr

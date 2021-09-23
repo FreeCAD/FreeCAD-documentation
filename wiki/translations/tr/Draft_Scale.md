@@ -8,6 +8,8 @@
    SeeAlso:[Draft Clone](Draft_Clone/tr.md)
 ---
 
+# Draft Scale/tr
+
 
 </div>
 
@@ -116,8 +118,5 @@ wires = Draft.scale([wire1, wire2], scale2, copy=True)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Scale/tr

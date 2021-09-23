@@ -8,6 +8,8 @@
    SeeAlso:[Arch Structure](Arch_Structure/ro.md)
 ---
 
+# Arch Rebar/ro
+
 
 </div>
 
@@ -23,6 +25,8 @@
    Shortcut:R B
    SeeAlso:[Arch Structure](Arch_Structure/ro.md)
 ---
+
+# Arch Rebar/ro
 
 
 </div>
@@ -177,3 +181,6 @@ FreeCAD.ActiveDocument.recompute()
  
 
 [Category:Arch/ro](Category:Arch/ro.md) [Category:External Command Reference](Category:External_Command_Reference.md) [Category:Reinforcement](Category:Reinforcement.md)
+
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Rebar/ro

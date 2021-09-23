@@ -8,6 +8,8 @@
    SeeAlso:[Открыть](Std_Open/ru.md), [Импортировать](Std_Import/ru.md)
 ---
 
+# Std RecentFiles/ru
+
 ## Описание
 
 The **Std RecentFiles** menu option displays a list of recent files which can be opened.
@@ -32,4 +34,7 @@ The **Std RecentFiles** menu option displays a list of recent files which can be
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std RecentFiles/ru

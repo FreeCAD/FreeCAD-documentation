@@ -1,5 +1,5 @@
 # Macro Ellipse-Center+2Points/fr
- {{Macro/fr
+{{Macro/fr
 |Name=Macro_Ellipse-Center+2Points
 |Icon=Macro_Ellipse-Center%2B2Points.png
 |Description=Fait une ellipse en sélectionnant trois points (dans cet ordre): centre, grand rayon et petit rayon.
@@ -66,6 +66,5 @@ except:
 
 }}
 
-
-
-
+---
+[documentation index](../README.md) > Macro Ellipse-Center+2Points/fr

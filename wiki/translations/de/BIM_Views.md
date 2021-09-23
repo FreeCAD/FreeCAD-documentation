@@ -6,6 +6,8 @@
    MenuLocation:Verwalten → Ansichten
 ---
 
+# BIM Views/de
+
 ## Beschreibung
 
 Der BIM Ansichten und Ebenenmanager ist ein andockbares Fenster, das sich unterhalb der normalen Baumansicht öffnet und alle [GebäudeTeile](Arch_BuildingPart/de.md) und [Arbeitsebenen Proxies](Draft_WorkingPlaneProxy/de.md) deines Modells enthält.
@@ -36,3 +38,6 @@ Der BIM Ansichtenverwalter zeigt alle Ebenen (Gebäudeteile) und Arbeitsebenen P
 }}
 
 [Category:External Command Reference](Category:External_Command_Reference.md)
+
+---
+[documentation index](../README.md) > [External Command Reference](Category:External Command Reference.md) > BIM Views/de

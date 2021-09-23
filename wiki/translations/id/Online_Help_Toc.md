@@ -1,7 +1,4 @@
 # Online Help Toc/id
-
-
-
 <div class="mw-translate-fuzzy">
 
 Berikut ini adalah daftar isi dari Bantuan on-line sistem FreeCAD. Artikel yang direferensikan disini secara otomatis dimasukan di file FreeCAD.chm melalui aplikasi wiki2chm.py. Kamu bisa mencari aplikasi tersebut di src/Tools/wiki2chm.py. [printable version](Manual.md) dari artikel ini juga tersedia.
@@ -164,3 +161,6 @@ There is another table of contents for the [FreeCAD MANUAL](Manual:Introduction.
 
 
 [Category:Documentation/id](Category:Documentation/id.md) [Category:Documentation](Category:Documentation.md)
+
+---
+[documentation index](../README.md) > [Documentation](Category:Documentation.md) > Online Help Toc/id

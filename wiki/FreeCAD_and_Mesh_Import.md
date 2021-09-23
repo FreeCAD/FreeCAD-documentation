@@ -1,8 +1,4 @@
 # FreeCAD and Mesh Import
- 
-
- 
-
 ## Post-Import 
 
 After import the model is (for FreeCAD), just an assembly of faces. You might want to convert the model into a shape FreeCAD can recognize and that could be altered in FreeCAD.
@@ -46,3 +42,6 @@ Well, your shell seems to have errors, maybe it is not closed (has holes). Since
 
 
 [Category:User\_Documentation](Category:User_Documentation.md) [Category:File\_Formats](Category:File_Formats.md)
+
+---
+[documentation index](../README.md) > [User_Documentation](Category:User_Documentation.md) > FreeCAD and Mesh Import

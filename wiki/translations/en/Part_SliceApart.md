@@ -7,6 +7,8 @@
    SeeAlso:[Part Slice to compound](Part_Slice.md), [Part Explode Compound](Part_ExplodeCompound.md)
 ---
 
+# Part SliceApart/en
+
 ## Description
 
 Tool to split shapes by intersection with other shapes. For example, for a box and a plane, two solids are created. ![600px](images/Part_Slice_Demo.png)
@@ -65,8 +67,5 @@ Slice Apart was introduced in FreeCAD v0.18.15506. FreeCAD needs to be compiled 
 
 -   <https://www.youtube.com/watch?v=JJAL5JmqqKQ> : FreeCAD Slice und Slice Apart und andere Tricks (German lanuage), author: Ha Gei
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part SliceApart/en

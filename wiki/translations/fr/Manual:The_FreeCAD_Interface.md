@@ -1,10 +1,4 @@
 # Manual:The FreeCAD Interface/fr
-
-
-
-
-
-
 {{Manual:TOC/fr}}
 
 FreeCAD utilise le [framework Qt](https://fr.wikipedia.org/wiki/Qt) pour dessiner et gérer son interface. Ce framework est utilisé par un large éventail d\'applications. Ainsi l\'interface FreeCAD est alors très classique et ne présente pas de difficulté particulière à comprendre. La plupart des boutons sont standards et vous les trouverez où vous les attendez **Fichier → Ouvrir, Modifier → Coller, etc.** Voici l\'apparence de FreeCAD lorsque vous l'ouvrez pour la première fois, juste après l\'installation :
@@ -71,6 +65,5 @@ Ces options de personnalisation avancées sont disponibles à partir du menu **
 -   [Ateliers](Workbenches/fr.md)
 -   [En savoir plus sur Python](https://www.python.org)
 
-
-
-
+---
+[documentation index](../README.md) > Manual:The FreeCAD Interface/fr

@@ -6,3 +6,6 @@ This category collects pages from the [external workbenches](external_workbenche
 [Plot Save/ja](Plot_Save/ja.md) , [Ship Workbench/ja](Ship_Workbench/ja.md)
 
 [Category:Workbenches/ja](Category:Workbenches/ja.md) [Category:Addons/ja](Category:Addons/ja.md)
+
+---
+[documentation index](../README.md) > Category:External Workbenches/ja

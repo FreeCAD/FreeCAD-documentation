@@ -5,6 +5,8 @@
    Workbenches:[Path](Path_Workbench.md)
 ---
 
+# Path Adaptive/pt-br
+
 ## Description
 
 The <img alt="" src=images/Path_Adaptive.svg  style="width:24px;"> [Adaptive](Path_Adaptive.md) tool uses an adaptive algorithm to create clearing and profiling paths that manage cutter engagement so that engagement and material removal never exceed a maximum value.
@@ -221,4 +223,7 @@ Note: It is suggested that you do not edit the Placement property of path operat
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Adaptive/pt-br

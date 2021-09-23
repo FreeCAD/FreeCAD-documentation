@@ -9,6 +9,8 @@
    SeeAlso:[Architektur Wand](Arch_Wall/de.md), [Architektur Gitter](Arch_Grid/de.md)
 ---
 
+# Arch CurtainWall/de
+
 ## Beschreibung
 
 Dieses Werkzeug erstellt eine [Vorhangfassade](https://de.wikipedia.org/wiki/Vorhangfassade), indem es eine Grundfläche in viereckige Flächen unterteilt, dann vertikale Pfosten an den vertikalen Kanten und horizontale Pfosten an den horizontalen Kanten erzeugt und die Zwischenräume zwischen den Pfosten mit Paneelen füllt.
@@ -150,8 +152,5 @@ curtainWall.VerticalSections = 6
 FreeCAD.ActiveDocument.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CurtainWall/de

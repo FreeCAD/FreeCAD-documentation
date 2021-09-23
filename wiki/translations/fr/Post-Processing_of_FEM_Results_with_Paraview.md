@@ -1,5 +1,5 @@
 # Post-Processing of FEM Results with Paraview/fr
- {{TutorialInfo/fr
+{{TutorialInfo/fr
 |Topic= Post-traitement des résultats FEM avec Paraview
 |Level= Intermédiaire
 |Time= 120 minutes
@@ -351,4 +351,7 @@ Le résultat final montre les vecteurs de contrainte principaux majeurs et mineu
 
 ## Exportation des résultats graphiques 
 
-Pour exporter une fenêtre RenderView, mettez-la en surbrillance et utilisez l\'option de menu **File > Save Screenshot** {{Tutorials navi}} {{FEM Tools navi}} 
+Pour exporter une fenêtre RenderView, mettez-la en surbrillance et utilisez l\'option de menu **File > Save Screenshot** {{Tutorials navi}} {{FEM Tools navi}}
+
+---
+[documentation index](../README.md) > Post-Processing of FEM Results with Paraview/fr

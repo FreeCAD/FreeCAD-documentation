@@ -7,6 +7,8 @@
    SeeAlso:[Skizzierer Ellipsenbogen](Sketcher_CreateArcOfEllipse/de.md), [Sketcher Parabelbogen](Sketcher_CreateArcOfParabola/de.md)
 ---
 
+# Sketcher CreateArcOfHyperbola/de
+
 ## Beschreibung
 
 Dieses Werkzeug erstellt einen Hyperbelbogen mit Mittelpunkt, Hauptradius und Endpunkten.
@@ -27,4 +29,7 @@ Dieses Werkzeug erstellt einen Hyperbelbogen mit Mittelpunkt, Hauptradius und En
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateArcOfHyperbola/de

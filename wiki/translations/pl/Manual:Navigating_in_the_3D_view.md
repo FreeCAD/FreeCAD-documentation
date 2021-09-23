@@ -1,10 +1,4 @@
 # Manual:Navigating in the 3D view/pl
- 
-
-
-
-
-
 {{Manual:TOC}}
 
 ### A word about the 3D space 
@@ -102,6 +96,5 @@ You can also use the Selection View to select objects by searching for a particu
 -   [The FreeCAD navigation modes](Mouse_navigation.md)
 -   [Navigation Cluster](Navigation_Cube.md)
 
-
-
-
+---
+[documentation index](../README.md) > Manual:Navigating in the 3D view/pl

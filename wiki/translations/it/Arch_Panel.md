@@ -9,6 +9,8 @@
    SeeAlso:[Sagoma pannello](Arch_Panel_Cut/it.md), [Foglio pannello](Arch_Panel_Sheet/it.md)
 ---
 
+# Arch Panel/it
+
 
 </div>
 
@@ -109,5 +111,5 @@ Panel = Arch.makePanel(Rect, thickness=36)
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Panel/it

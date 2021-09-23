@@ -8,6 +8,8 @@
    SeeAlso:[Part Offset 3D](Part_Offset/it.md), [Part Spessore](Part_Thickness/it.md), [Offset di Draft](Draft_Offset/it.md)
 ---
 
+# Part Offset2D/it
+
 
 </div>
 
@@ -118,8 +120,5 @@ Part.show(enlarged_circle)
 # structure follows that of source shape.
 }}
 
-
-
-
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Offset2D/it

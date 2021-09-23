@@ -8,6 +8,8 @@
    SeeAlso:[표준 보기 전체화면](Std_ViewFullscreen/ko.md)
 ---
 
+# Std MainFullscreen/ko
+
 ## 설명
 
 **표준 메인 전체화면(Std MainFullscreen)** 명령은 FreeCAD의 메인 창의 전체화면 모드를 전환합니다.
@@ -24,4 +26,7 @@
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std MainFullscreen/ko

@@ -8,6 +8,8 @@
    SeeAlso:[Arch Wall](Arch_Wall.md), [Arch Structure](Arch_Structure.md)
 ---
 
+# Arch Space
+
 ## Description
 
 The Space tool allows you to define an empty volume, either by basing it on a solid shape, or by defining its boundaries, or a mix of both. If it is based solely on boundaries, the volume is calculated by starting from the bounding box of all the given boundaries, and subtracting the spaces behind each boundary. The space object always defines a solid volume. The floor area of a space object, calculated by intersecting a horizontal plane at the center of mass of the space volume, can also be displayed.
@@ -136,6 +138,5 @@ selection = FreeCADGui.Selection.getSelectionEx()
 Arch.removeSpaceBoundaries(Space, selection)
 ```
 
- 
-
-  
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Space

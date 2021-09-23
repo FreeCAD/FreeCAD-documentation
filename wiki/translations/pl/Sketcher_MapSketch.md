@@ -7,6 +7,8 @@
    SeeAlso:[Utwórz szkic](Sketcher_NewSketch/pl.md)
 ---
 
+# Sketcher MapSketch/pl
+
 ## Opis
 
 To narzędzie mapuje istniejący szkic na powierzchni kształtu. Cechy Part Design stworzone na podstawie tego szkicu zostaną połączone z bryłą podstawową w przypadku cech dodatkowych *(Pad, Revolution)* lub odjęte od bryły podstawowej w przypadku cech odejmowanych *(Pocket, Groove)*.
@@ -52,4 +54,7 @@ Teraz wybieramy górną powierzchnię wyciągnięcia *(Pad)*, kolejnie wybieramy
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher MapSketch/pl

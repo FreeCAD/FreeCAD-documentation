@@ -1,7 +1,4 @@
-# About FreeCAD/cs
- 
-
-<img alt="" src=images/Freecad_default.jpg  style="width:1024px;">
+# <img alt="" src=images/Freecad_default.jpg  style="width:1024px;"> About FreeCAD/cs
 
 
 <div class="mw-translate-fuzzy">
@@ -82,3 +79,6 @@ FreeCAD je udržován a vyvíjen komunitou nadšených vývojářů a uživatel�
 
 
 [Category:User Documentation](Category:User_Documentation.md)
+
+---
+[documentation index](../README.md) > [User Documentation](Category:User Documentation.md) > About FreeCAD/cs

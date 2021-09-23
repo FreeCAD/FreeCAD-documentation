@@ -1,7 +1,4 @@
-# Fasteners Workbench/pl
-
-
-<img alt="Ikonka FreeCAD dla środowiska Elementów złącznych" src=images/Fasteners_workbench_icon.svg  style="width:128px;">
+# <img alt="Ikonka FreeCAD dla środowiska Elementów złącznych" src=images/Fasteners_workbench_icon.svg  style="width:64px;"> Fasteners Workbench/pl
 
 
 {{TOCright}}
@@ -245,3 +242,6 @@ Szczegółowy opis znajduje się na stronie [domowej](http://theseger.com/projec
 
 
 [Category:Addons](Category:Addons.md) [Category:External Command Reference](Category:External_Command_Reference.md) [Category:External Workbenches](Category:External_Workbenches.md) [Category:Fasteners](Category:Fasteners.md)
+
+---
+[documentation index](../README.md) > Fasteners Workbench/pl

@@ -1,10 +1,4 @@
-# Sketcher Workbench/pl
-
-
-
-
-
-<img alt="Ikonka FreeCAD dla Środowiska pracy Szkicownik " src=images/Workbench_Sketcher.svg  style="width:128px;">
+# <img alt="Ikonka FreeCAD dla Środowiska pracy Szkicownik " src=images/Workbench_Sketcher.svg  style="width:64px;"> Sketcher Workbench/pl
 
 
 {{TOCright}}
@@ -323,3 +317,6 @@ Strona [skrypty szkicownika](Sketcher_scripting.md) zawiera przykłady tworzenia
 }} 
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Sketcher Workbench/pl

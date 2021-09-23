@@ -6,6 +6,8 @@
    Version:0.19
 ---
 
+# TechDraw RedrawPage
+
 ## Description
 
 The Redraw tool forces a page update despite any contrary settings of KeepUpdated (Page property), Update with 3D (parameter) or Allow Page Override (parameter).
@@ -36,4 +38,7 @@ The Redraw command is not directly available in scripts.
 
 
 
- {{TechDraw Tools navi}}  
+ {{TechDraw Tools navi}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw RedrawPage

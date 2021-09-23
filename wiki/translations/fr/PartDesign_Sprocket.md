@@ -7,6 +7,8 @@
    Version:0.19
 ---
 
+# PartDesign Sprocket/fr
+
 ## Description
 
 Cet outil vous permet de créer un profil 2D d\'un pignon (ou roue à chaîne). Il peut être extrudé avec la fonction [PartDesign Protrusion](PartDesign_Pad/fr.md).
@@ -36,4 +38,7 @@ Cet outil vous permet de créer un profil 2D d\'un pignon (ou roue à chaîne). 
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Sprocket/fr

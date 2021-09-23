@@ -7,6 +7,8 @@
    SeeAlso:[Arch Sélection de maillages non-manifold](Arch_SelectNonSolidMeshes/fr.md), [Arch Maillage vers un objet shape](Arch_MeshToShape/fr.md)
 ---
 
+# Arch SplitMesh/fr
+
 ## Description
 
 Cet outil sépare les composants d\'un objet [Mesh](Mesh_Workbench/fr.md) sélectionné.
@@ -56,11 +58,5 @@ mesh_obj.ViewObject.DisplayMode = "Flat Lines"
 new_list = Arch.splitMesh(mesh_obj)
 ```
 
-
-
-
-
-
-
-
-
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SplitMesh/fr

@@ -1,7 +1,4 @@
 # Macro Texture/ru
-
-
-
 {{Macro
 |Name=Macro Texture
 |Icon=FCTexture.png
@@ -284,3 +281,6 @@ The macro <img alt="FCCreaLoft" src=images/FCCreaLoft.png  style="width:32px;"> 
 -   ver 0.3 : 28/03/2014 :comment out the line \"**\# self.checkBox\_5.setAccessibleName(\_fromUtf8(\"\"))**\"
 
 that causes an error with the version FreeCAD : Version: 0.14.3343 (Git), Python version: 2.7.6, Qt version: 4.8.5
+
+---
+[documentation index](../README.md) > Macro Texture/ru

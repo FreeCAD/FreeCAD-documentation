@@ -1,3 +1,4 @@
+# Sketcher ConstrainEqual/cs
 ---
 - GuiCommand:/cs   Name:Constraint EqualLength   Name/cs:Constraint EqualLength   Workbenches:[PartDesign](Sketcher_Workbench/cs___Sketcher]],_[[PartDesign_Workbench/cs.md)|MenuLocation:Sketch → Sketcher constraints → Constrain equal   Shortcut:E   SeeAlso:[Constraint Radius](Constraint_Radius/cs.md)---
 
@@ -92,4 +93,7 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainEqual/cs

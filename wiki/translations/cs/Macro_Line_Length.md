@@ -1,5 +1,5 @@
 # Macro Line Length/cs
- {{Macro/cs
+{{Macro/cs
 |Name=Macro Line_Length
 |Translate=Macro Line Length
 |Icon=Macro_Line_Length.png
@@ -80,3 +80,5 @@ alebo výberu
 >>> line_length(length = 50, angle = 45)
 ```
 
+---
+[documentation index](../README.md) > Macro Line Length/cs

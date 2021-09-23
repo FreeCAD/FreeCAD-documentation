@@ -6,3 +6,6 @@ Questa categoria elenca i modelli che producono caselle di testo utilizzate per 
 [Template:Macro/it](Template:Macro/it.md)
 
 [Category:Template/it](Category:Template/it.md)
+
+---
+[documentation index](../README.md) > Category:Template:Doc/it

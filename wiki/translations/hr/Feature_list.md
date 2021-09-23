@@ -1,7 +1,4 @@
 # Feature list/hr
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -132,3 +129,6 @@ Napredni korisnici stvorili su razne prilagođene [vanjske radne površine](exte
 
 
 [Category:User Documentation](Category:User_Documentation.md)
+
+---
+[documentation index](../README.md) > [User Documentation](Category:User Documentation.md) > Feature list/hr

@@ -4,3 +4,6 @@ This category collects pages about all the different file formats that FreeCAD i
 ### Contents:
 
 [Import Export/zh-cn](Import_Export/zh-cn.md)
+
+---
+[documentation index](../README.md) > Category:File Formats/zh-cn

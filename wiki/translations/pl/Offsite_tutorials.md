@@ -1,5 +1,5 @@
 # Offsite tutorials/pl
- **Proszę zwrócić uwagę na wersję FreeCAD użytą w poradniku. Jeśli w opracowaniu została wykorzystana starsza wersja programu, ogólny proces modelowania może nadal działać, ale niektóre narzędzia w nowszych wydaniach mogły ulec zmianie. Nie dodawaj poradników wykonanych w wersji '''0.16''' lub starszej, ponieważ te wydania są uważane za przestarzałe.**
+**Proszę zwrócić uwagę na wersję FreeCAD użytą w poradniku. Jeśli w opracowaniu została wykorzystana starsza wersja programu, ogólny proces modelowania może nadal działać, ale niektóre narzędzia w nowszych wydaniach mogły ulec zmianie. Nie dodawaj poradników wykonanych w wersji '''0.16''' lub starszej, ponieważ te wydania są uważane za przestarzałe.**
 
 Ta strona zawiera listę samouczków FreeCAD dostępnych na stronach internetowych użytkowników.
 
@@ -18,4 +18,7 @@ Ta strona zawiera listę samouczków FreeCAD dostępnych na stronach internetowy
 
 {{Tutorials navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > Offsite tutorials/pl

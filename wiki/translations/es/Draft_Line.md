@@ -9,6 +9,8 @@
    SeeAlso:[Borrador Hilo](Draft_Wire/es.md), [Borrador Punto](Draft_Point/es.md)
 ---
 
+# Draft Line/es
+
 
 </div>
 
@@ -159,5 +161,5 @@ doc.recompute()
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Line/es

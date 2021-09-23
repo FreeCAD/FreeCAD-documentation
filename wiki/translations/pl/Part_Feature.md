@@ -1,6 +1,4 @@
 # Part Feature/pl
-
-
 ## Wprowadzenie
 
 
@@ -203,4 +201,7 @@ W razie potrzeby atrybut `Etykieta` może zostać zmieniony na bardziej wymowny 
 -   Domyślnie `Etykieta` jest unikalna, tak jak `Nazwa`. Jednak to zachowanie może być zmienione w [Edytorze Preferencji](Preferences_Editor/pl.md), **Edycja → Preferencje → Ogólne → Dokument → Zezwalaj na duplikowanie etykiet obiektów w jednym dokumencie**. Oznacza to, że ogólnie `Etykieta` może być powtarzana w tym samym dokumencie, podczas testowania dla konkretnego elementu użytkownik powinien polegać na `Nazwie`, a nie na `Etykiecie`.
 
 
- {{Document objects navi}} 
+ {{Document objects navi}}
+
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Feature/pl

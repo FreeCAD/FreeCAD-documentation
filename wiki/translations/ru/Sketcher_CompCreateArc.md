@@ -7,6 +7,8 @@
    Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
 ---
 
+# Sketcher CompCreateArc/ru
+
 ## Описание
 
 **Создать дугу** это кнопка на панели инструментов \"Геометрия эскизов\", группирует в себе инструменты для создания дуг по трем опорным точкам. Нажмите на стрелку указывающую вниз справа от нее, чтобы развернуть список инструментов и выбрать инструмент.
@@ -22,4 +24,7 @@
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CompCreateArc/ru

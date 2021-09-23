@@ -8,6 +8,8 @@
    SeeAlso:[Piano immagine](Image_CreateImagePlane/it.md), [Scala immagine](Image_Scaling/it.md)
 ---
 
+# Image Open/it
+
 
 </div>
 
@@ -52,4 +54,7 @@ L\'immagine viene posizionata in una nuova finestra, non nella vista 3D.
 
 {{Image Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Image](Image_Workbench.md) > Image Open/it

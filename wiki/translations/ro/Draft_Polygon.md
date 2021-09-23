@@ -8,6 +8,8 @@
    Version:0.7
 ---
 
+# Draft Polygon/ro
+
 
 </div>
 
@@ -190,8 +192,5 @@ Polygon3 = Draft.make_polygon(6, radius=1450, placement=place3)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Polygon/ro

@@ -7,6 +7,8 @@
    SeeAlso:[Std FreeCADHauptAnwenderZentrum](Std_FreeCADPowerUserHub/de.md)
 ---
 
+# Std PythonHelp/de
+
 ## Beschreibung
 
 Der Befehl **Std PythonHilfe** startet einen Webserver, der über einen lokalen Sockel mit dem Standard Internetbrowser des Systems kommuniziert. Der Webserver zeigt Informationen über die verfügbaren [Python](Python/de.md) Module, Klassen und Funktionen von FreeCAD an. Die benötigten Seiten werden automatisch generiert.
@@ -24,4 +26,7 @@ Der Webserver basiert auf dem Python Modul [pydoc](https://docs.python.org/3.8/l
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std PythonHelp/de

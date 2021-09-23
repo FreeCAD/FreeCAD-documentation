@@ -6,6 +6,8 @@
    Workbenches:[Curves](Curves_Workbench/fr.md)
 ---
 
+# Curves ParametricComb/fr
+
 ## Description
 
 Le <img alt="" src=images/Curves_ParametricComb.svg  style="width:24px;"> [Peigne paramétrique](Curves_ParametricComb/fr.md) peut aider à visualiser la régularité ou la fluidité d\'une courbe ainsi que la continuité entre deux courbes. Remarque: un peigne est uniquement destiné à la visualisation.
@@ -43,3 +45,6 @@ Un peigne 3D sera créé pour les courbes 3D. L\'échantillonnage et l\'échelle
 }} 
 
 [Category:External Command Reference](Category:External_Command_Reference.md)
+
+---
+[documentation index](../README.md) > [External Command Reference](Category:External Command Reference.md) > Curves ParametricComb/fr

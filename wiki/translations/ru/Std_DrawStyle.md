@@ -8,6 +8,8 @@
    SeeAlso:[Std SelBoundingBox](Std_SelBoundingBox/ru.md)
 ---
 
+# Std DrawStyle/ru
+
 ## Описание
 
 The **Std DrawStyle** command can override the effect of the **Display Mode** [property](Property_editor.md) of objects in a [3D view](3D_view.md).
@@ -75,4 +77,7 @@ The **Flat lines** style overrides the **Display Mode** of objects. This style m
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std DrawStyle/ru

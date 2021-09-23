@@ -1,7 +1,4 @@
 # Main Page/ja
- 
-
-
 <div class="mw-translate-fuzzy">
 
 ## はじめに
@@ -209,3 +206,6 @@ FreeCADはcMakeまたはautotoolsを使ってコンパイルすることがで�
 
 
 [Category:Documentation](Category:Documentation.md)
+
+---
+[documentation index](../README.md) > [Documentation](Category:Documentation.md) > Main Page/ja

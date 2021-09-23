@@ -5,6 +5,8 @@
    Workbenches:[Part](Part_Workbench.md)
 ---
 
+# Part MakeSolid/pl
+
 ## Description
 
 This command creates a solid from a shape object.
@@ -20,8 +22,5 @@ This command creates a solid from a shape object.
 -   There will be no analyzing or validating of the shape object.
 -   It is recommended to use [Part RefineShape](Part_RefineShape.md) before converting to a solid.
 
-
-
-
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part MakeSolid/pl

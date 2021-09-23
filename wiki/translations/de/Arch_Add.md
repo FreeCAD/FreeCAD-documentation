@@ -7,6 +7,8 @@
    SeeAlso:[Arch Komponente entfernen](Arch_Remove/de.md)
 ---
 
+# Arch Add/de
+
 ## Beschreibung
 
 Das Werkzeug Hinzufügen ermöglicht dir vier Arten von Arbeitsschritten durchzuführen:
@@ -74,11 +76,5 @@ Arch.addComponents(Wall2, Wall)
 FreeCAD.ActiveDocument.recompute()
 ```
 
-
-
-
-
-
-
-
-
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Add/de

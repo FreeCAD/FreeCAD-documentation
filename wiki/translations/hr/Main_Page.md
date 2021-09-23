@@ -1,7 +1,4 @@
 # Main Page/hr
- 
-
-
 <div class="mw-translate-fuzzy">
 
 ## Uvod
@@ -93,3 +90,6 @@ Provjerite [Development roadmap](Development_roadmap.md) za vijesti o onom što 
 
 
 [Category:Documentation](Category:Documentation.md)
+
+---
+[documentation index](../README.md) > [Documentation](Category:Documentation.md) > Main Page/hr

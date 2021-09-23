@@ -7,6 +7,8 @@
    Version:0.17
 ---
 
+# Spreadsheet AlignVCenter/ru
+
 ## Описание
 
 The **<img src=images/Spreadsheet_AlignVCenter.svg style="width:16px"> [Spreadsheet AlignVCenter](Spreadsheet_AlignVCenter.md)** tool makes the text inside the cell align vertically to the center of the cell.
@@ -23,4 +25,7 @@ The **<img src=images/Spreadsheet_AlignVCenter.svg style="width:16px"> [Spreadsh
 
 {{Spreadsheet_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet AlignVCenter/ru

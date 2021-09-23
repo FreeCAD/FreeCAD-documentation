@@ -6,3 +6,6 @@ This category lists pages related to the [Sketcher Workbench/id](Sketcher_Workbe
 [Template:Sketcher Tools navi/id](Template:Sketcher_Tools_navi/id.md) , [Sketcher Workbench/id](Sketcher_Workbench/id.md)
 
 [Category:Workbenches/id](Category:Workbenches/id.md)
+
+---
+[documentation index](../README.md) > Category:Sketcher/id

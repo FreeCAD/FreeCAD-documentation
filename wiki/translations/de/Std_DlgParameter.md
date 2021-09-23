@@ -6,6 +6,8 @@
    Icon:Std DlgParameter.svg
 ---
 
+# Std DlgParameter/de
+
 
 </div>
 
@@ -185,4 +187,7 @@ It is likely a bad idea to modify the preferences of other parts of FreeCAD unle
 
 {{Std Base navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > Std DlgParameter/de

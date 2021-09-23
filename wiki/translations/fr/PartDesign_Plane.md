@@ -8,6 +8,8 @@
    SeeAlso:[PartDesign Point de référence](PartDesign_Point/fr.md), [PartDesign Ligne de référence](PartDesign_Line/fr.md)
 ---
 
+# PartDesign Plane/fr
+
 ## Description
 
 Crée un **plan de référence** qui peut être utilisé comme référence pour les esquisses ou toute autre géométrie de référence. Les esquisses peuvent être attachées aux plans de référence. ![](images/Datum_plane.png ) *Plan de référence traversant les 3 coins du cube avec sur le dessus l\'esquisse d\'un cylindre en utilisant le plan de référence X-Y.*
@@ -45,4 +47,7 @@ Double-cliquez sur l\'étiquette DatumPlane dans l\'arborescence du modèle ou c
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Plane/fr

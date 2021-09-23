@@ -7,6 +7,8 @@
    SeeAlso:[Построитель форм](Part_Builder/ru.md)
 ---
 
+# Part Primitives/ru
+
 ## Описание
 
 Инструмент [Создать примитивы](Part_Primitives/ru.md) запускает диалог создания разнообразных геометрических параметризованных примитивов <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Верстака Part](Part_Workbench/ru.md).
@@ -85,8 +87,5 @@ $INSTALL_DIR/Mod/Part/parttests/part_test_objects.py
 freecad $INSTALL_DIR/Mod/Part/parttests/part_test_objects.py
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Primitives/ru

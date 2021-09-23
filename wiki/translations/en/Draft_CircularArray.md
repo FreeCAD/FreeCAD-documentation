@@ -7,6 +7,8 @@
    SeeAlso:[Draft OrthoArray](Draft_OrthoArray.md), [Draft PolarArray](Draft_PolarArray.md), [Draft PathArray](Draft_PathArray.md), [Draft PathLinkArray](Draft_PathLinkArray.md), [Draft PointArray](Draft_PointArray.md), [Draft PointLinkArray](Draft_PointLinkArray.md)
 ---
 
+# Draft CircularArray/en
+
 ## Description
 
 The <img alt="" src=images/Draft_CircularArray.svg  style="width:24px;"> **Draft CircularArray** command creates an array from a selected object by placing copies along concentric circumferences. The command can optionally create a [Link](App_Link.md) array, which is more efficient than a regular array.
@@ -113,8 +115,5 @@ array = Draft.make_circular_array(tri, 1800, 1200, 4, 1)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft CircularArray/en

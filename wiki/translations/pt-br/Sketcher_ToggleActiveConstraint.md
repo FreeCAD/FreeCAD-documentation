@@ -7,6 +7,8 @@
    Version:0.19
 ---
 
+# Sketcher ToggleActiveConstraint/pt-br
+
 ## Description
 
 
@@ -61,4 +63,7 @@ sketch.toggleActive(3)
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ToggleActiveConstraint/pt-br

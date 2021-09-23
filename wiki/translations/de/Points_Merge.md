@@ -5,6 +5,8 @@
    Workbenches:[Punkte](Points_Workbench/de.md)
 ---
 
+# Points Merge/de
+
 ## Beschreibung
 
 Der Befehl **Punkte zusammenführen** erzeugt eine Punktwolke, indem er die Punkte von zwei oder mehr Punktwolken kombiniert.
@@ -24,4 +26,7 @@ Siehe [Punkte Umwandeln](Points_Convert/de.md).
 
 {{Points Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Points](Points_Workbench.md) > Points Merge/de

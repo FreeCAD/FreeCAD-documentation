@@ -7,6 +7,8 @@
    SeeAlso:[Draft Layer](Draft_Layer.md), [Std Group](Std_Group.md)
 ---
 
+# Draft AutoGroup/pt-br
+
 ## Descrição
 
 The **Draft AutoGroup** command changes the active [Draft Layer](Draft_Layer.md) or, [optionally](#Preferences.md), the active [Std Group](Std_Group.md) or group-like [Arch](Arch_Workbench.md) object. New [Draft](Draft_Workbench.md) and [Arch](Arch_Workbench.md) objects are automatically placed in this active layer or group.
@@ -78,5 +80,5 @@ doc.recompute()
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft AutoGroup/pt-br

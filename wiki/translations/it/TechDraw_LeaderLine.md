@@ -9,6 +9,8 @@
    SeeAlso:[Blocco di testo](TechDraw_RichTextAnnotation/it.md), [Simbolo di saldatura](TechDraw_WeldSymbol/it.md), [Gruppi di linee](TechDraw_LineGroup/it.md)
 ---
 
+# TechDraw LeaderLine/it
+
 
 </div>
 
@@ -122,4 +124,7 @@ leaderObj.Y = 5
 
 {{TechDraw Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw LeaderLine/it

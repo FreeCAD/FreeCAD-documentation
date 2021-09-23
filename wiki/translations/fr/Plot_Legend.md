@@ -6,6 +6,8 @@
    Workbenches:[Plot](Plot_Module/fr.md)
 ---
 
+# Plot Legend/fr
+
 ## Description
 
 Cet outil permet à l\'utilisateur d\'activer/désactiver la légende des séries de données sur un graphique spécifique.
@@ -27,3 +29,6 @@ N\'oubliez pas que les styles et les étiquettes des séries de données peuvent
 }} 
 
 [Category:External\_Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)
+
+---
+[documentation index](../README.md) > [External_Workbenches](Category:External_Workbenches.md) > Plot Legend/fr

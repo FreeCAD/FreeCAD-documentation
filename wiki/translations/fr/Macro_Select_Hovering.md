@@ -1,5 +1,5 @@
 # Macro Select Hovering/fr
- {{Macro/fr
+{{Macro/fr
 |Name=Macro Select Hovering
 |Icon=Macro_Select_Hovering.png
 |Description=Cette macro sélectionne au choix Face, Bord, Sommet juste en survolant la souris sur les objets.<br/>PS: Pour désélectionner une face (ou autre) cliquez sur le bouton **Pause grab** et utiliser la procédure standard : CTRL + Click
@@ -409,3 +409,6 @@ ver 00.01 (25/12/2017) :
 ## Lien
 
 [Multiple face selection to convert a shape to a solid](https://forum.freecadweb.org/viewtopic.php?f=3&t=26370)
+
+---
+[documentation index](../README.md) > Macro Select Hovering/fr

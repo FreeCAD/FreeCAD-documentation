@@ -1,10 +1,4 @@
-# Std Windows Menu/ru
-
-
-
-
-
-<img alt="Иконка стандартных инструментов" src=images/Freecad.svg  style="width:128px;">
+# <img alt="Иконка стандартных инструментов" src=images/Freecad.svg  style="width:64px;"> Std Windows Menu/ru
 
 
 {{TOCright}}
@@ -58,3 +52,6 @@
 }}  
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > [Workbenches](Category:Workbenches.md) > Std Windows Menu/ru

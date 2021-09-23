@@ -1,5 +1,5 @@
 # Drawing tutorial/pl
- **Development of the [[Drawing Workbench]] stopped in FreeCAD 0.16, and the new [[TechDraw Workbench]] aiming to replace it was introduced in v0.17. Both workbenches are still provided in v0.17, but the Drawing Workbench may be removed in future releases.**
+**Development of the [[Drawing Workbench]] stopped in FreeCAD 0.16, and the new [[TechDraw Workbench]] aiming to replace it was introduced in v0.17. Both workbenches are still provided in v0.17, but the Drawing Workbench may be removed in future releases.**
 
 
 {{TutorialInfo/pl
@@ -113,4 +113,7 @@ We are now finished with the basic workflow for the [Drawing Workbench](Drawing_
 
 {{Tutorials navi
 
-}} {{Drawing Tools navi}} 
+}} {{Drawing Tools navi}}
+
+---
+[documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing tutorial/pl

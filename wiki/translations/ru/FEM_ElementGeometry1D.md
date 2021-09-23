@@ -8,6 +8,8 @@
    SeeAlso:[FEM tutorial](FEM_tutorial/ru.md)
 ---
 
+# FEM ElementGeometry1D/ru
+
 
 </div>
 
@@ -50,4 +52,7 @@ ElementGeometry1D is used to define cross sections for beam elements. Currently 
 
 {{FEM Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > FEM ElementGeometry1D/ru

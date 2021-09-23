@@ -8,3 +8,6 @@ See also [UncategorizedTemplates](Special:UncategorizedTemplates.md)
 [Template:Languages/fi](Template:Languages/fi.md)
 
 [Category:Categories/fi](Category:Categories/fi.md)
+
+---
+[documentation index](../README.md) > Category:Template/fi

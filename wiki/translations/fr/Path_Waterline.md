@@ -7,6 +7,8 @@
    Version:0.19
 ---
 
+# Path Waterline/fr
+
 ## Description
 
 Cet outil crée une nouvelle opération Lignes de niveau. A partir de 0.19\_pre, l\'opération Lignes de niveau fonctionne sur l\'ensemble du modèle pour générer le G-code de la tâche. Actuellement, dans les paramètres de l\'opération, il n\'y a pas de fonctionnalité pour sélectionner des zones, des faces ou des régions spécifiques du modèle.
@@ -260,4 +262,7 @@ Remarque : il est conseillé de ne pas modifier la propriété Placement des op�
 
 {{Path Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Waterline/fr

@@ -1,7 +1,4 @@
 # Sketcher Preferences/fr
- 
-
-
 {{TOCright}}
 
 La fenêtre des préférences de l\'<img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [atelier Sketcher](Sketcher_Workbench/fr.md) se trouve dans [Éditeur des Préférences](Preferences_Editor.md), **Menu Édition → Préférences → Sketcher**.
@@ -246,3 +243,6 @@ Dans l\'onglet *Couleurs*, vous pouvez spécifier les éléments suivants:
 }}  
 
 [Category:Preferences](Category:Preferences.md)
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Preferences/fr

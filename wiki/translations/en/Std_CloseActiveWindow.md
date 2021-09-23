@@ -7,6 +7,8 @@
    SeeAlso:[Std CloseAllWindows](Std_CloseAllWindows.md)
 ---
 
+# Std CloseActiveWindow/en
+
 ## Description
 
 The **Std CloseActiveWindow** command closes the active window. To close a document all its windows must be closed.
@@ -49,4 +51,7 @@ To close a document use the `closeDocument` method of the FreeCAD application. F
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std CloseActiveWindow/en

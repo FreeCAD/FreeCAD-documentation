@@ -1,7 +1,4 @@
 # Workbenches/ro
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -125,3 +122,6 @@ Noi ateliere sunt în curs de dezvoltare, fiți pe recepție!
 
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Workbenches/ro

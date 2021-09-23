@@ -1,5 +1,5 @@
 # Whiffle Ball tutorial/fr
- {{TutorialInfo/fr
+{{TutorialInfo/fr
 |Topic= Conception de produits
 |Level= Débutant
 |Time=30 minutes
@@ -246,4 +246,7 @@ Nous dupliquerons à nouveau les deux objets précédents pour les utiliser à n
 
 {{Tutorials navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Whiffle Ball tutorial/fr

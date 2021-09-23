@@ -6,6 +6,8 @@
    SeeAlso:[Macro FCInfo](Macro_FCInfo.md), [Macro SimpleProperties](Macro_SimpleProperties.md)
 ---
 
+# Arch Survey/pt-br
+
 ## Descrição
 
 The **<img src="images/Arch_Survey.svg" width=16px> [Arch Survey](Arch_Survey.md)** tool enters a special surveying mode, which allows you to quickly grab measurements and information from a model, and transfer that information to other applications. Once you are in Survey mode, clicking on different subelements of 3D objects gathers the following information (depending on what you click):
@@ -73,5 +75,5 @@ for obj in selection:
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Survey/pt-br

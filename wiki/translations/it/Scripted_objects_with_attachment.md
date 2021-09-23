@@ -1,5 +1,5 @@
 # Scripted objects with attachment/it
- {{TOCright}}
+{{TOCright}}
 
 ## Introduzione
 
@@ -155,3 +155,6 @@ Note: For FreeCAD 0.19 this tutorial needs a minor update:
 }} 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Scripted objects with attachment/it

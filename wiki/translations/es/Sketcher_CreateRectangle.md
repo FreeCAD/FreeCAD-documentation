@@ -9,6 +9,8 @@
    SeeAlso:[Croquizador Polilínea](Sketcher_CreatePolyline/es.md)
 ---
 
+# Sketcher CreateRectangle/es
+
 
 </div>
 
@@ -51,4 +53,7 @@ To define a rectangle via a center point and an edge point, use the [Centered re
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateRectangle/es

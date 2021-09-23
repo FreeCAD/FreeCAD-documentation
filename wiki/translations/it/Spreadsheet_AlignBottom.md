@@ -7,6 +7,8 @@
    Version:0.17
 ---
 
+# Spreadsheet AlignBottom/it
+
 ## Descrizione
 
 Lo strumento <img alt="" src=images/Spreadsheet_AlignBottom.svg  style="width:16px;"> **Allinea in basso** rende il testo all\'interno della cella allineato alla parte inferiore della cella.
@@ -23,4 +25,7 @@ Lo strumento <img alt="" src=images/Spreadsheet_AlignBottom.svg  style="width:16
 
 {{Spreadsheet_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet AlignBottom/it

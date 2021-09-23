@@ -8,6 +8,8 @@
    SeeAlso:[Создать опорную линию](PartDesign_Line/ru.md), [Создать опорную плоскость](PartDesign_Plane/ru.md)
 ---
 
+# PartDesign Point/ru
+
 ## Описание
 
 Creates a **datum point** which can be used as reference for sketches or other datum geometry.
@@ -46,4 +48,7 @@ Double-click the DatumPoint label in the Model tree or right-click and select **
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Point/ru

@@ -7,6 +7,8 @@
    SeeAlso:[TechDraw HorizontalDimension](TechDraw_HorizontalDimension.md), [TechDraw VerticalDimension](TechDraw_VerticalDimension.md)
 ---
 
+# TechDraw LandmarkDimension/en
+
 ## Description
 
 The Landmark Dimension tool adds a linear dimension to a View. The dimension is based on two Point **feature** (Draft.Point or Part.Vertex) from the 3D model. Note that the points must be **feature** objects that appear in the model [tree view](Tree_view.md). Random vertexes from a shape will not work.
@@ -58,4 +60,7 @@ rc = page.addView(dim1)
 
 {{TechDraw Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw LandmarkDimension/en

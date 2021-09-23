@@ -1,7 +1,4 @@
 # Export to STL or OBJ/de
-
-
-
 {{TutorialInfo/de
 |Topic= Export nach STL oder OBJ
 |Level=Anfänger
@@ -60,3 +57,6 @@ Methode 2 ist zu bevorzugen: Wenn Du mehr als einen Body zu konvertieren hast, k
 
 
 [Category:File\_Formats](Category:File_Formats.md)
+
+---
+[documentation index](../README.md) > [File_Formats](Category:File_Formats.md) > Export to STL or OBJ/de

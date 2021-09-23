@@ -7,6 +7,8 @@
    SeeAlso:[Szkicownik: Edytuj szkic](Sketcher_EditSketch.md)
 ---
 
+# Sketcher LeaveSketch/pl
+
 ## Opis
 
 Polecenie opuszczenia szkicu kończy tryb edycji szkicu i zamyka zakładkę [panela zadań](Task_panel/pl.md).
@@ -25,4 +27,7 @@ Polecenie opuszczenia szkicu kończy tryb edycji szkicu i zamyka zakładkę [pan
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher LeaveSketch/pl

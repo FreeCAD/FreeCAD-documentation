@@ -1,3 +1,4 @@
+# Robot TrajectoryDressUp/es
 ---
 - GuiCommand:/es   Name:Robot TrajectoryDressUp   Name/es:Robot TrajectoryDressUp   Workbenches:[[Robot_Workbench/es   Robot]]|MenuLocation:Robot → TrajectoryDressUp ---
 
@@ -29,4 +30,7 @@ Resulting in the ability to change values for:
 
 {{Robot_Tools_navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot TrajectoryDressUp/es

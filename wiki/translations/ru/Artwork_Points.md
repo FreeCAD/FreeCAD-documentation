@@ -1,6 +1,4 @@
 # Artwork Points/ru
- 
-
 Эти иконки находятся в указанной исходной папке.
 
 Для всех иконок в исходнике смотри [Художественное оформление](Artwork/ru.md).
@@ -17,3 +15,6 @@
 }} 
 
 [Category:Points](Category:Points.md)
+
+---
+[documentation index](../README.md) > [Points](Category:Points.md) > Artwork Points/ru

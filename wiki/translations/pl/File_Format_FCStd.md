@@ -1,5 +1,5 @@
 # File Format FCStd/pl
- {{TOCright}}
+{{TOCright}}
 
 ## Informacje ogólne 
 
@@ -167,3 +167,6 @@ Zobacz wątek na forum, [PDF wewnątrz projektu](https://forum.freecadweb.org/vi
  
 
 [Category:Developer](Category:Developer.md) [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:File\_Formats](Category:File_Formats.md)
+
+---
+[documentation index](../README.md) > [Developer](Category:Developer.md) > File Format FCStd/pl

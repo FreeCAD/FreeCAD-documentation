@@ -1,7 +1,4 @@
 # TechDraw TemplateHowTo/pl
-
-
-
 {{TutorialInfo/pl
 |Topic= Przygotowanie projektu
 |Level= początkujący
@@ -117,4 +114,7 @@ Zobacz dyskusję w portalu Stackoverflow na temat [https://stackoverflow.com/que
 
 Jeśli nie widzisz zielonych pól na swoich tekstach do edycji, może być coś nie tak z Twoją skalą dokumentów. Otwórz ponownie swój plik w programie Inkscape i potwierdź, że wartości viewBox i rozmiary są zgodne. 
 
-{{Tutorials navi}} {{TechDraw Tools navi}} 
+{{Tutorials navi}} {{TechDraw Tools navi}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw TemplateHowTo/pl

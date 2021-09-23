@@ -7,6 +7,8 @@
    SeeAlso:[Reinforcement](Reinforcement_Workbench/de.md), [Arch Bewehrung](Arch_Rebar/de.md), [bügelförmiger Bewehrungsstab](Arch_Rebar_Stirrup/de.md),[Arch Stützenverstärkung](Arch_Rebar_ColumnReinforcement/de.md)
 ---
 
+# Arch Rebar Helical/de
+
 ## Beschreibung
 
 Das [spiralförmiger Bewehrungsstab](Arch_Rebar_Helical/de.md)-Werkzeug erlaubt es dem Anwender, einen fortlaufenden spiralförmigen Bewehrungsstab in einem [Struktur](Arch_Structure/de.md)-Objekt zu erstellen.
@@ -123,3 +125,6 @@ HelicalRebar.editHelicalRebar(Rebar, 20, 100, 20, 20, 100)
  
 
 [Category:Reinforcement](Category:Reinforcement.md)
+
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Rebar Helical/de

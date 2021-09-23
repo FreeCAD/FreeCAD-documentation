@@ -7,6 +7,8 @@
    Version:0.17
 ---
 
+# Part CompoundFilter/de
+
 
 </div>
 
@@ -81,8 +83,5 @@ Wenn im Ergebnis nur ein Kind vorhanden ist, ist die Ausgabe das Kind. Wenn es m
 
 -    {{PropertyData/de|Elemente}}: Liste oder Bereich von Elementen, die ausgewählt werden sollen, wenn Filtertyp \"bestimmte Elemente\" ist.
 
-
-
-
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompoundFilter/de

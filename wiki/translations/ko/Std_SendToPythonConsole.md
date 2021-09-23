@@ -8,6 +8,8 @@
    Version:0.19
 ---
 
+# Std SendToPythonConsole/ko
+
 ## 설명
 
 **표준 파이썬 콘솔로 보내기(Std SendToPythonConsole)** 명령은 선택한 개체를 참조하는 변수를 [파이썬 콘솔](Python_console/ko.md) 안에 생성합니다. 만약 개체의 하위 셰이프를 선택했다면 변수 2개가 더 생성됩니다. 하나는 개체의 셰이프를 참조하고 다른 하나는 하위 셰이프 자체를 참조합니다. 관련 변수와 코드는 파이썬 코드를 작성하는데 사용할 수 있습니다.
@@ -35,4 +37,7 @@
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std SendToPythonConsole/ko

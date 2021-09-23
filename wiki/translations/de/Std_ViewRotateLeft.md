@@ -8,6 +8,8 @@
    SeeAlso:[Std AnsichtRechtsDrehen](Std_ViewRotateRight/de.md)
 ---
 
+# Std ViewRotateLeft/de
+
 ## Beschreibung
 
 Der Befehl **Std AnsichtLinksDrehen** dreht die Kamera in der aktiven [3D Ansicht](3D_view/de.md) um die Blickrichtung in 90-Grad Schritten nach links (entgegen dem Uhrzeigersinn).
@@ -43,4 +45,7 @@ FreeCADGui.ActiveDocument.ActiveView.getCameraOrientation()
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ViewRotateLeft/de

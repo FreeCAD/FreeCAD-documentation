@@ -8,6 +8,8 @@
    SeeAlso:[Arch Panneaux](Arch_Panel/fr.md), [Arch Panneau feuille](Arch_Panel_Sheet/fr.md), [Arch Calepinage](Arch_Nest/fr.md)
 ---
 
+# Arch Panel Cut/fr
+
 ## Description
 
 Cet outil crée, dans le document 3D, une vue 2D plane d\'un objet [Panneaux](Arch_Panel/fr.md), à inclure dans un [Arch Panneau feuille](Arch_Panel_Sheet/fr.md) ou directement exportée vers [DXF](Draft_DXF/fr.md). Les objets Découpe de panneaux sont également pris en charge par l\'[atelier Path](Path_Workbench/fr.md).
@@ -97,8 +99,5 @@ FreeCAD.ActiveDocument.recompute()
 
 -   [tutoriel Wikihouse](Wikihouse_porting_tutorial/fr.md)
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Panel Cut/fr

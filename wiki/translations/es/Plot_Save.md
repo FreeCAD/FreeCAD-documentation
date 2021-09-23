@@ -1,3 +1,4 @@
+# Plot Save/es
 ---
 - GuiCommand:/es   Name:Plot Save   Workbenches:[[Plot Module/es   Plot]]|MenuLocation:Plot → Guardar gráfico---
 
@@ -55,3 +56,6 @@ Selecciona el gráfico que deseas salvar mediante las pestañas de la vista prin
 }} 
 
 [Category:External\_Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)
+
+---
+[documentation index](../README.md) > [External_Workbenches](Category:External_Workbenches.md) > Plot Save/es

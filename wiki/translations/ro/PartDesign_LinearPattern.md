@@ -1,3 +1,4 @@
+# PartDesign LinearPattern/ro
 ---
 - GuiCommand:   Name:PartDesign LinearPattern   Workbenches:[[PartDesign Workbench   PartDesign]], Complete|MenuLocation:PartDesign → LinearPattern---
 
@@ -119,4 +120,7 @@ v0.17 and above Select one of the Body Origin\'s standard axis (X, Y or Z) as di
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign LinearPattern/ro

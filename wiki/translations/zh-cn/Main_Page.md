@@ -1,7 +1,4 @@
 # Main Page/zh-cn
- 
-
-
 <div class="mw-translate-fuzzy">
 
 ## 介绍
@@ -94,3 +91,6 @@ FreeCAD 可以用 [CMake](https://cmake.org/) 在所有平台上编译。源代�
 
 
 [Category:Documentation](Category:Documentation.md)
+
+---
+[documentation index](../README.md) > [Documentation](Category:Documentation.md) > Main Page/zh-cn

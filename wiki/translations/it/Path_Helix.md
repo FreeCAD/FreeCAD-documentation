@@ -1,3 +1,4 @@
+# Path Helix/it
 ---
 - GuiCommand:/it   Name:Path Helix   Name/it:Elica   Workbenches:[[Path Workbench/it   Path]]|MenuLocation:Path → Elica   Shortcut:   SeeAlso:---
 
@@ -63,4 +64,7 @@ Example:
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Helix/it

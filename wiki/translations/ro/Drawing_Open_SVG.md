@@ -1,3 +1,4 @@
+# Drawing Open SVG/ro
 ---
 - GuiCommand:/ro   Name:Drawing Open SVG   Name/ro:Drawing Open SVG   Workbenches:[MenuLocation:Drawing → Open SVG...   Shortcut:none   SeeAlso:[[Drawing Save/ro|Drawing Save](Drawing_Workbench/ro___Drawing]],_Complete.md)---
 
@@ -15,4 +16,7 @@ Acest instrument deschide o foaie de desen creată anterior ca fișier SVG (graf
 
 {{Drawing Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Open SVG/ro

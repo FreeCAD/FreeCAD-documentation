@@ -6,6 +6,8 @@
    SeeAlso:[Reinforcement](Reinforcement_Workbench.md), [Arch Rebar](Arch_Rebar.md)
 ---
 
+# Arch Rebar Footing Reinforcement
+
 ## Description
 
 The [Footing Reinforcement](Arch_Rebar_Footing_Reinforcement.md) tool allows the user to create reinforcing bars inside a Footing [Arch Structure](Arch_Structure.md) object.
@@ -504,3 +506,6 @@ footingReinforcementGroup = editFootingReinforcement(
   
 
 [Category:Reinforcement](Category:Reinforcement.md)
+
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Rebar Footing Reinforcement

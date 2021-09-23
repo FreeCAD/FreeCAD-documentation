@@ -8,6 +8,8 @@
    SeeAlso:[Ограничить расстояние](Sketcher_ConstrainDistance/ru.md), [Ограничение расстояния по вертикали](Sketcher_ConstrainDistanceY/ru.md)
 ---
 
+# Sketcher ConstrainDistanceX/ru
+
 ## Описание
 
 Fixes the horizontal distance between 2 points or line ends. If only one point is selected, the distance is set to the sketch origin.
@@ -50,4 +52,7 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainDistanceX/ru

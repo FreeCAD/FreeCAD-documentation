@@ -6,3 +6,6 @@ This category lists pages related to the [Ship Workbench/pt](Ship_Workbench/pt.m
 [Template:Ship Tools navi/pt](Template:Ship_Tools_navi/pt.md) , [Ship Workbench/pt](Ship_Workbench/pt.md)
 
 [Category:Workbenches/pt](Category:Workbenches/pt.md)
+
+---
+[documentation index](../README.md) > Category:Ship/pt

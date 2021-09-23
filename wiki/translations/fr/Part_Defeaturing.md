@@ -7,6 +7,8 @@
    Version:0.18
 ---
 
+# Part Defeaturing/fr
+
 ## Description
 
 L\'outil **Supprimer la fonctionnalité** est destiné à supprimer des fonctionnalités sélectionnées sur le modèle. Dans ce contexte, les nouvelles caractéristiques sont conçues comme des trous, des saillies, des espaces, des chanfreins, des congés, etc\... que l\'on retrouve sur le modèle.
@@ -34,8 +36,5 @@ Pour être disponible, cet outil nécessite que FreeCAD soit basé sur Open Casc
 -   Annonce officielle sur le portail de développement collaboratif Open Cascade [3D Model Defeaturing](https://dev.opencascade.org/index.php?q=node/1211).
 -   <img alt="" src=images/Defeaturing_workbench_icon.svg  style="width:24px;"> [Atelier Defeaturing](Defeaturing_Workbench/fr.md)
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Defeaturing/fr

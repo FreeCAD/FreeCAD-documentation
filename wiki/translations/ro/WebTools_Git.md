@@ -1,3 +1,4 @@
+# WebTools Git/ro
 ---
 - GuiCommand:   Name:Arch Git‏‎   Workbenches:[[Arch_Workbench/ro   Arch]]|MenuLocation:Arch → Utilities → Git   Shortcut:‏‎   SeeAlso:---
 
@@ -159,3 +160,5 @@ Pentru a permite utilizarea fcinfo (numai Linux și Mac - TODO: adăugați instr
 
 </div>
 
+---
+[documentation index](../README.md) > WebTools Git/ro

@@ -1,5 +1,5 @@
 # Macro Duplicate Selection
-  {{Macro
+{{Macro
 |Name=Macro Duplicate Selection
 |Description= This macro testing if one selection are duplicate , select the object IN THE 3D VIEW the "ForbiddenCursor" stay if the or one selection is duplicate, the macro stay resident.
 |Author=Mario52
@@ -85,8 +85,7 @@ FreeCADGui.Selection.addObserver(s)    # installe la fonction en mode resident
 
 ## Links
 
-The forum discussion [Duplicate Objects when more than one face selected](http://forum.freecadweb.org/viewtopic.php?f=3&t=15994) 
+The forum discussion [Duplicate Objects when more than one face selected](http://forum.freecadweb.org/viewtopic.php?f=3&t=15994)
 
-
-
-
+---
+[documentation index](../README.md) > Macro Duplicate Selection

@@ -1,3 +1,4 @@
+# Path Inspect/ro
 ---
 - GuiCommand:   Name:Path Inspect G-code   Workbenches:[[Path Workbench   Path]]|MenuLocation:Path → Inspect G-code   Shortcut:   SeeAlso:---
 
@@ -38,4 +39,7 @@ Acest instrument permite inspectarea dialectului de codul G intern FreeCAD pentr
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Inspect/ro

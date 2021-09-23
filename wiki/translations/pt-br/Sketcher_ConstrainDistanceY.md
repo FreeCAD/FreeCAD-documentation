@@ -8,6 +8,8 @@
    SeeAlso:[Constraint HorizontalDistance](Sketcher_ConstrainDistanceX/pt-br.md), [Constraint Length](Sketcher_ConstrainDistance/pt-br.md)
 ---
 
+# Sketcher ConstrainDistanceY/pt-br
+
 
 </div>
 
@@ -53,4 +55,7 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainDistanceY/pt-br

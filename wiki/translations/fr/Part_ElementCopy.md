@@ -8,6 +8,8 @@
    SeeAlso:[Part Copie simple](Part_SimpleCopy/fr.md), [Part Copie transformée](Part_TransformedCopy/fr.md), [Part Affiner la forme](Part_RefineShape/fr.md)
 ---
 
+# Part ElementCopy/fr
+
 ## Description
 
 [Part Copie d\'un élément](Part_ElementCopy/fr.md) produit une copie non paramétrique d\'un sous-élément d\'un objet particulier, c\'est-à-dire d\'un sommet, d\'une arête ou d\'une face.
@@ -30,8 +32,5 @@ La copie a une simple propriété {{PropertyData/fr|Placement}} comme n\'importe
 
 La copie a des propriétés de vue comme toutes les autres [Part Features](Part_Feature/fr.md).
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part ElementCopy/fr

@@ -8,6 +8,8 @@
    SeeAlso:[DiseñoPiezas Componer un primitiva aditiva](PartDesign_CompPrimitiveAdditive/es.md), [DiseñoPiezas Prisma Sustractivo](PartDesign_SubtractivePrism/es.md)
 ---
 
+# PartDesign AdditivePrism/es
+
 ## Descripción
 
 Inserta un prisma primitiva en el Cuerpo activo como primera característica, o lo fusiona con la(s) característica(s) existente(s).
@@ -64,4 +66,7 @@ Tras su creación, el Prisma puede ser editado de dos maneras:
 
 {{PartDesign Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditivePrism/es

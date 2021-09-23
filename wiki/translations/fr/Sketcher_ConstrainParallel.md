@@ -8,6 +8,8 @@
    SeeAlso:[Sketcher Contrainte verticale](Sketcher_ConstrainVertical/fr.md), [Sketcher Contrainte horizontale](Sketcher_ConstrainHorizontal/fr.md)
 ---
 
+# Sketcher ConstrainParallel/fr
+
 ## Description
 
 La **Contrainte parallèle** force deux éléments sélectionnés, lignes droites ou arêtes à devenir parallèles.
@@ -47,4 +49,7 @@ La page [Sketcher : Écrire des scripts](Sketcher_scripting/fr.md) explique les 
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainParallel/fr

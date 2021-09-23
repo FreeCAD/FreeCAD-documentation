@@ -7,6 +7,8 @@
    Shortcut:F
 ---
 
+# Sketcher CreateFillet/ru
+
 ## Описание
 
 Этот инструмент создает скругление между двумя линиями, соединенными в одной точке. Активируйте инструмент, затем выберите обе линии или нажмите на угловую точку.
@@ -38,4 +40,7 @@
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateFillet/ru

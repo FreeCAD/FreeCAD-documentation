@@ -7,6 +7,8 @@
    SeeAlso:[Std Cut](Std_Cut.md), [Std Paste](Std_Paste.md), [Std DuplicateSelection](Std_DuplicateSelection.md)
 ---
 
+# Std Copy/en
+
 ## Description
 
 The **Std Copy** command copies objects to the Clipboard.
@@ -32,4 +34,7 @@ The **Std Copy** command copies objects to the Clipboard.
 
 {{Std Base navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > Std Copy/en

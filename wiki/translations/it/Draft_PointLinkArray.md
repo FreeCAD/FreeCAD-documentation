@@ -8,6 +8,8 @@
    Version:0.19
 ---
 
+# Draft PointLinkArray/it
+
 
 </div>
 
@@ -30,5 +32,5 @@ Lo strumento **Serie di link su punti** posiziona copie di una forma selezionata
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft PointLinkArray/it

@@ -7,6 +7,8 @@
    Shortcut:**S** **P**
 ---
 
+# Arch SectionPlane/es
+
 
 </div>
 
@@ -185,3 +187,6 @@ FreeCAD.ActiveDocument.recompute()
 
 
 [Category:Arch/es](Category:Arch/es.md)
+
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SectionPlane/es

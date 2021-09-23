@@ -1,10 +1,4 @@
 # Manual:A gentle introduction/ro
-
-
-
-
-
-
 {{Manual:TOC/ro}}
 
 [Python](https://en.wikipedia.org/wiki/Python_%28programming_language%29) este un limbaj de programare popular, open source, foarte adesea încorporat în aplicații ca limbaj de scripting, ca în cazul FreeCAD. Are o serie de caracteristici care îl fac potrivite pentru utilizatorii noștri de pe FreeCAD: este foarte ușor de învățat, mai ales pentru cei care nu au programat niciodată înainte și este încorporat în multe alte aplicații. Acest lucru face ca acesta să fie un instrument valoros pentru a învăța, așa cum îl veți putea folosi în alte programe, cum ar fi [Blender](http://www.blender.org), [Inkscape](http://www.inkscape.org) ori [GRASS](http://grass.osgeo.org/).
@@ -122,3 +116,6 @@ box.Placement = otherpla
 }}
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Manual:A gentle introduction/ro

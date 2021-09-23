@@ -1,3 +1,4 @@
+# Draft Upgrade/cs
 ---
 - GuiCommand:/cs   Name:Draft Upgrade   Name/cs:Kreslení Vylepšení   Workbenches:[Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation:Kreslení → Aktualizace   Shortcut:U P   SeeAlso:[Kreslení Degradace](Draft_Downgrade/cs.md)---
 
@@ -100,8 +101,5 @@ add_list5, delete_list5 = Draft.upgrade(face, delete=False)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Upgrade/cs

@@ -1,5 +1,5 @@
 # Macro Cut Circle/de
- {{Macro/de
+{{Macro/de
 |Name=Macro Cut Circle
 |Name/de=Makro Cut Circle
 |Icon=Macro_Cut_Circle.png
@@ -118,3 +118,6 @@ ver 00.03 02/07/2019 : \"App.ActiveDocument.recompute()\" hinzugefügt
 ver 00.02 09/03/2015 : Hinzufügen von Bögen erzeugen, die abwechselnd rot-weiß-rot-weiß gefärbt sind \.... oder nicht
 
 ver 00.01 24/02/2015 :
+
+---
+[documentation index](../README.md) > Macro Cut Circle/de

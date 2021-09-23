@@ -6,3 +6,6 @@ This category collects pages from the [external workbenches](external_workbenche
 [Plot Module/hu](Plot_Module/hu.md) , [Ship Workbench/hu](Ship_Workbench/hu.md)
 
 [Category:Workbenches/hu](Category:Workbenches/hu.md) [Category:Addons/hu](Category:Addons/hu.md)
+
+---
+[documentation index](../README.md) > Category:External Workbenches/hu

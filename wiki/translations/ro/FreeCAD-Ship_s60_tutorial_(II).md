@@ -1,7 +1,4 @@
 # FreeCAD-Ship s60 tutorial (II)/ro
-
-
-
 {{TutorialInfo/ro
 |Topic=Ship Workbench
 |Level= Beginner
@@ -296,3 +293,6 @@ Desigur, acest exemplu nu este real (mai întâi pentru toate cisternele de comb
 {{Ship Tools navi
 
 }}
+
+---
+[documentation index](../README.md) > FreeCAD-Ship s60 tutorial (II)/ro

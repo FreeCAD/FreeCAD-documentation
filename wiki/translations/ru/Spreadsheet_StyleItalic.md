@@ -7,6 +7,8 @@
    Version:0.17
 ---
 
+# Spreadsheet StyleItalic/ru
+
 ## Описание
 
 The **<img src=images/Spreadsheet_StyleItalic.svg style="width:16px"> [Spreadsheet StyleItalic](Spreadsheet_StyleItalic.md)** tool makes the text inside the cell adopt *italic* style.
@@ -23,4 +25,7 @@ The **<img src=images/Spreadsheet_StyleItalic.svg style="width:16px"> [Spreadshe
 
 {{Spreadsheet_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet StyleItalic/ru

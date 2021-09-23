@@ -1,6 +1,4 @@
 # Pyramids and polyhedrons Workbench/fr
-
-
 ## Description
 
 <img alt="Icône de l\'atelier externe Pyramids-and-Polyhedrons" src=images/Pyramids-and-Polyhedrons_workbench_icon.svg  style="width:128px;">
@@ -44,3 +42,6 @@ Veuillez diriger vos commentaires, idées, réflexions sur cet atelier vers le f
 
 
 [Category:User Documentation](Category:User_Documentation.md) [Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+
+---
+[documentation index](../README.md) > Pyramids and polyhedrons Workbench/fr

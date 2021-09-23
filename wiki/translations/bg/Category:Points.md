@@ -4,3 +4,6 @@ This category lists pages related to the [Points Workbench/bg](Points_Workbench/
 ### Contents:
 
 [Category:Workbenches/bg](Category:Workbenches/bg.md)
+
+---
+[documentation index](../README.md) > Category:Points/bg

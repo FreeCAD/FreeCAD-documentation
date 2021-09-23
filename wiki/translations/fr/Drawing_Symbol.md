@@ -1,3 +1,4 @@
+# Drawing Symbol/fr
 ---
 - GuiCommand:/fr   Name:Drawing Symbol   Name/fr:Symbole   Workbenches:[[Drawing Workbench/fr   drawing]], Complet|MenuLocation:Mise en Plan → Symbole   Shortcut:Aucun---
 
@@ -29,4 +30,7 @@ Cette commande vous permet d\'ajouter le contenu d\'une image SVG sur une [ Feui
 
 {{Drawing Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Symbol/fr

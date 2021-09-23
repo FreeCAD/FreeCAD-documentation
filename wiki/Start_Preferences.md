@@ -1,6 +1,4 @@
 # Start Preferences
- 
-
 The preferences screen of the [Start Workbench](Start_Workbench.md) is found in the [Preferences Editor](Preferences_Editor.md), **Edit → Preferences → Start**.
 
 There is only one tab: Start page.
@@ -111,3 +109,6 @@ In the *Start page* tab you can specify the following:
  {{Start Tools navi}} 
 
 [Category:Preferences](Category:Preferences.md)
+
+---
+[documentation index](../README.md) > [Start](Start_Workbench.md) > Start Preferences

@@ -5,6 +5,8 @@
    Workbenches:[Drawing](Drawing_Workbench.md), [Complete](Complete_Workbench.md)
 ---
 
+# Drawing Annotation
+
 ## Description
 
 This command allows you to place a block of text on a [Drawing page](Drawing_Landscape_A3.md).
@@ -26,4 +28,7 @@ This command allows you to place a block of text on a [Drawing page](Drawing_Lan
 
 
 
- {{Drawing Tools navi}} 
+ {{Drawing Tools navi}}
+
+---
+[documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Annotation

@@ -1,3 +1,4 @@
+# Path Shape/ro
 ---
 - GuiCommand:   Name:Path FromShapes   Workbenches:[[Path Workbench   Path]]|MenuLocation:Path → Partial commands → From Shape   Shortcut:   SeeAlso:---
 
@@ -137,4 +138,7 @@ Path.fromShapes(shapes, start=Vector(), return_end=False arc_plane=1, sort_mode=
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Shape/ro

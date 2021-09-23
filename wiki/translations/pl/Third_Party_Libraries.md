@@ -1,10 +1,4 @@
 # Third Party Libraries/pl
-
-
-
-
-
-
 {{TOCright}}
 
 ## Overview
@@ -282,3 +276,6 @@ It includes among other things: Boost 1.67, Coin3D 4.0.0a, Eigen3, Open CASCADE 
  
 
 [Category:Developer Documentation](Category:Developer_Documentation.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Third Party Libraries/pl

@@ -6,3 +6,6 @@ See also [UncategorizedTemplates](Special:UncategorizedTemplates.md)
 ### Contents:
 
 [Category:Categories/ja](Category:Categories/ja.md) [Category:Template:Navigation/ja](Category:Template:Navigation/ja.md)
+
+---
+[documentation index](../README.md) > Category:Template/ja

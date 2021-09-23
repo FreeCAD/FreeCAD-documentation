@@ -7,6 +7,8 @@
    Version:0.17
 ---
 
+# Spreadsheet AlignBottom/fr
+
 ## Description
 
 L\'outil **<img src=images/Spreadsheet_AlignBottom.svg style="width:16px"> [Spreadsheet Alignement en bas](Spreadsheet_AlignBottom/fr.md)** aligne le texte à l\'intérieur de la cellule sur le bas de la cellule.
@@ -23,4 +25,7 @@ L\'outil **<img src=images/Spreadsheet_AlignBottom.svg style="width:16px"> [Spre
 
 {{Spreadsheet_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet AlignBottom/fr

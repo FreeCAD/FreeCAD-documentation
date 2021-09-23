@@ -1,5 +1,5 @@
 # Macro CartoucheFC 2/en
- {{Macro
+{{Macro
 |Name=Macro CartoucheFC 2
 |Icon=Macro_CartoucheFC_2.png
 |Description=This macro is a complete application, it allows to fill the cartridge of the drawing sheet with full editabletext (Only For [Drawing Workbench](Drawing_Workbench.md)).
@@ -705,3 +705,6 @@ MainWindow.show()
 ## Version
 
 5.0 : 08/08/2014
+
+---
+[documentation index](../README.md) > Macro CartoucheFC 2/en

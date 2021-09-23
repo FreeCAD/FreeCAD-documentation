@@ -7,6 +7,8 @@
    Workbenches:Tutti
 ---
 
+# Std MergeProjects/it
+
 
 </div>
 
@@ -52,4 +54,7 @@ Il comando **Unisci progetti** aggiunge il contenuto di un file FreeCAD nel docu
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std MergeProjects/it

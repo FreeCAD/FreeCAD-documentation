@@ -8,6 +8,8 @@
    SeeAlso:[Utwórz cechę Subtraktywną](PartDesign_CompPrimitiveSubtractive/pl.md)
 ---
 
+# PartDesign CompPrimitiveAdditive/pl
+
 ## Opis
 
 Tworzy pierwotną bryłę addytywną w aktywnej bryle jako pierwszy element lub łączy ją z istniejącymi elementami. Jeżeli w dokumencie nie ma bryły, zostanie ona automatycznie utworzona.
@@ -29,4 +31,7 @@ Tworzy pierwotną bryłę addytywną w aktywnej bryle jako pierwszy element lub 
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign CompPrimitiveAdditive/pl

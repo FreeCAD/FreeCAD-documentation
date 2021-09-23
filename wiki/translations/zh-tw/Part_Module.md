@@ -1,10 +1,4 @@
-# Part Module/zh-tw
-
-
-
-
-
-<img alt="Part workbench icon" src=images/Workbench_Part.svg  style="width:128px;">
+# <img alt="Part workbench icon" src=images/Workbench_Part.svg  style="width:64px;"> Part Module/zh-tw
 
 
 {{TOCright}}
@@ -234,3 +228,6 @@ See [Part scripting](Part_scripting.md).
  
 
 [Category:Part/zh-tw](Category:Part/zh-tw.md) [Category:Workbenches/zh-tw](Category:Workbenches/zh-tw.md) [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Module/zh-tw

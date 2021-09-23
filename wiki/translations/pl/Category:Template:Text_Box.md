@@ -8,3 +8,6 @@ These templates produce small pieces of text that are suitable for transclusion.
 [Template:UnfinishedDocu/pl](Template:UnfinishedDocu/pl.md)
 
 [Category:Template/pl](Category:Template/pl.md)
+
+---
+[documentation index](../README.md) > Category:Template:Text Box/pl

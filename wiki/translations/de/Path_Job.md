@@ -8,6 +8,8 @@
    SeeAlso:
 ---
 
+# Path Job/de
+
 
 </div>
 
@@ -97,4 +99,7 @@ Wenn du eine Aufgabe hast, die mehr als eine Pfadoperation umfasst, kannst du fe
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Job/de

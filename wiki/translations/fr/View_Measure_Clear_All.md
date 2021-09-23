@@ -7,6 +7,8 @@
    SeeAlso:[Affichage Afficher les mesures](View_Measure_Toggle_All/fr.md), [Part Basculer tout](Part_Measure_Toggle_All/fr.md), [Part Effacer toute mesure](Part_Measure_Clear_All/fr.md)
 ---
 
+# View Measure Clear All/fr
+
 ## Description
 
 La commande **Affichage Supprimer les mesures** efface les mesures de la [vue 3D](3D_view/fr.md) active de [Part](Part_Workbench/fr.md).
@@ -27,4 +29,7 @@ La commande **Affichage Supprimer les mesures** efface les mesures de la [vue 3D
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > View Measure Clear All/fr

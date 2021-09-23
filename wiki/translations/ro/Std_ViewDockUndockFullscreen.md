@@ -1,3 +1,4 @@
+# Std ViewDockUndockFullscreen/ro
 ---
 - GuiCommand:   Name:Std ViewDockUndockFullscreen   MenuLocation:[[Std View Menu   View]] → Document window‏‎||Workbenches:All   Shortcut:   SeeAlso:---
 
@@ -49,4 +50,7 @@ The **Undocked** menu option undocks the active [3D view](3D_view.md) from the m
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ViewDockUndockFullscreen/ro

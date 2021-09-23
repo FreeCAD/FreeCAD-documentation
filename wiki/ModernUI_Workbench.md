@@ -1,7 +1,4 @@
-# ModernUI Workbench
- 
-
-<img alt="Modern UI workbench icon" src=images/ModernUI_workbench_icon.svg  style="width:128px;">
+# <img alt="Modern UI workbench icon" src=images/ModernUI_workbench_icon.svg  style="width:64px;"> ModernUI Workbench
 
  
 
@@ -89,3 +86,6 @@ for WB in WBList:
  
 
 [Category:External\_Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)
+
+---
+[documentation index](../README.md) > ModernUI Workbench

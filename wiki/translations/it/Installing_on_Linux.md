@@ -1,9 +1,4 @@
 # Installing on Linux/it
-
-
-
-
-
 ## Descrizione
 
 
@@ -377,3 +372,6 @@ Appena terminata l\'installazione di FreeCAD, è ora di [iniziare](Getting_start
 
 
 [Category:Common Questions](Category:Common_Questions.md) [Category:Developer Documentation](Category:Developer_Documentation.md)
+
+---
+[documentation index](../README.md) > [Common Questions](Category:Common Questions.md) > Installing on Linux/it

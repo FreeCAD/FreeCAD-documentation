@@ -1,3 +1,4 @@
+# Sketcher ConstrainPointOnObject/pt
 ---
 - GuiCommand:/pt   Name:Constraint PointOnObject   Name/pt:Constraint PointOnObject   Workbenches:[PartDesign](Sketcher_Workbench/pt___Sketcher]],_[[PartDesign_Workbench/pt.md)|MenuLocation:Sketch → Sketcher constraints → Constrain point onto object   SeeAlso:[Constraint Coincident](Constraint_PointOnPoint/pt.md)---
 
@@ -42,4 +43,7 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains how to identify th
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainPointOnObject/pt

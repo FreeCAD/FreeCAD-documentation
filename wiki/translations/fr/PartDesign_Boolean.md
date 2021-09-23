@@ -7,6 +7,8 @@
    Version:0.17
 ---
 
+# PartDesign Boolean/fr
+
 ## Description
 
 L**\'opération Booléenne** importe un ou plusieurs [PartDesign Corps](PartDesign_Body/fr.md) ou [PartDesign Clones](PartDesign_Clone/fr.md) (désignés comme \"outils Corps\") dans un PartDesign Corps actif et applique une opération booléenne (fusion, soustraction ou intersection).
@@ -62,4 +64,7 @@ Alternativement, un ou plusieurs corps peuvent être sélectionnés avant d\'app
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Boolean/fr

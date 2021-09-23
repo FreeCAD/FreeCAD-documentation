@@ -8,6 +8,8 @@
    SeeAlso:[Std Rétablir](Std_Redo/fr.md)
 ---
 
+# Std Undo/fr
+
 ## Description
 
 La commande **Std Annuler** annule la dernière action.
@@ -50,4 +52,7 @@ FreeCAD.ActiveDocument.undo()
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std Undo/fr

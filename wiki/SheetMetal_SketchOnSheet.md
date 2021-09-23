@@ -6,6 +6,8 @@
    Shortcut:**M** **S**
 ---
 
+# SheetMetal SketchOnSheet
+
 ## Description
 
 The <img alt="" src=images/SheetMetal_SketchOnSheet.svg  style="width:16px;"> [Sketch On Sheet metal](SheetMetal_SketchOnSheet.md) command cuts holes along the folded walls of a sheet metal object. For the hole layout a <img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;"> [sketch](Sketcher_Workbench.md) is used.
@@ -106,3 +108,6 @@ This thingamajig is made of a folded sheet metal object with holes added.  And s
 
 
 [Category:SheetMetal](Category:SheetMetal.md) [Category:Addons](Category:Addons.md) [Category:External Command Reference](Category:External_Command_Reference.md)
+
+---
+[documentation index](../README.md) > [SheetMetal](Category:SheetMetal.md) > SheetMetal SketchOnSheet

@@ -6,6 +6,8 @@
    Workbenches:[Path](Path_Workbench/fr.md)
 ---
 
+# Path Fixture/fr
+
 ## Description
 
 Cet outil définit le dispositif de décalage de travail du contrôleur CNC de la machine.
@@ -41,4 +43,7 @@ Le code G59 est utilisé pour étendre les capacités disponibles (nombre de poi
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Fixture/fr

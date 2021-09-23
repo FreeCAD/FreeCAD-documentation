@@ -9,6 +9,8 @@
    SeeAlso:[Coincidenza](Sketcher_ConstrainCoincident/it.md)
 ---
 
+# Sketcher ConstrainPointOnObject/it
+
 
 </div>
 
@@ -84,4 +86,7 @@ Per identificare il numero che indica le linee ed i punti si prega di fare rifer
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainPointOnObject/it

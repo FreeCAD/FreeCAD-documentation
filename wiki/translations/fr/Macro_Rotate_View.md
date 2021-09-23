@@ -1,5 +1,5 @@
 # Macro Rotate View/fr
- {{Macro/fr
+{{Macro/fr
 |Name=Rotate View by 90°
 |Translate=Vue Rotation à 90°
 |Icon=Macro Rotate View view 90 Degrees.png
@@ -37,6 +37,5 @@ nrot = cam.orientation.getValue() * rot
 cam.orientation = nrot
 }}
 
-
-
-
+---
+[documentation index](../README.md) > Macro Rotate View/fr

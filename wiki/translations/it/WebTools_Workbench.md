@@ -1,5 +1,4 @@
-# WebTools Workbench/it
- <img alt="WebTools workbench icon" src=images/WebTools_workbench_icon.svg  style="width:128px;">
+# <img alt="WebTools workbench icon" src=images/WebTools_workbench_icon.svg  style="width:64px;"> WebTools Workbench/it
 
 
 <div class="mw-translate-fuzzy">
@@ -39,3 +38,6 @@ Questo ambiente può essere facilmente installato e aggiornato dal [Addon Manage
  
 
 [Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md) [Category:User Documentation](Category:User_Documentation.md)
+
+---
+[documentation index](../README.md) > WebTools Workbench/it

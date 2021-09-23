@@ -1,7 +1,4 @@
 # Code snippets/de
-
-
-
 {{TOCright}}
 
 ## Einführung
@@ -1773,3 +1770,6 @@ Siehe [Coin3d Schnippsel](Coin3d_snippets/de.md)
 }}
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Code snippets/de

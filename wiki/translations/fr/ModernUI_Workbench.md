@@ -1,5 +1,5 @@
 # ModernUI Workbench/fr
- }
+}
 
 <img alt="Modern UI workbench icon" src=images/ModernUI_workbench_icon.svg  style="width:128px;">
 
@@ -85,3 +85,6 @@ The uninstall sequence is as follows:
 
 
 [Category:External\_Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)
+
+---
+[documentation index](../README.md) > ModernUI Workbench/fr

@@ -1,7 +1,4 @@
 # Compiling/es
-
-
-
 <div class="mw-translate-fuzzy">
 
 Cada sistema operativo tiene su propia página para compilar FreeCAD en la [Documentación en Línea de Ayuda](Online_Help_Toc/es.md).
@@ -34,3 +31,6 @@ To learn to use revision control system and contribute code see [Source code man
 
 
 [Category:Developer\_Documentation](Category:Developer_Documentation.md) [Category:Developer](Category:Developer.md)
+
+---
+[documentation index](../README.md) > [Developer_Documentation](Category:Developer_Documentation.md) > Compiling/es

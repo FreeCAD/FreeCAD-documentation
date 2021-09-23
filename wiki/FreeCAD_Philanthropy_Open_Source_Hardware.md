@@ -22,3 +22,6 @@ The purpose of this page is to log the activity of the FreeCAD community as it i
 ## Related
 
 -   [FreeCAD\_Humanitarian\_Projects](FreeCAD_Humanitarian_Projects.md)
+
+---
+[documentation index](../README.md) > FreeCAD Philanthropy Open Source Hardware

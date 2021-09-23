@@ -9,6 +9,8 @@
    SeeAlso:[Std AnsichtEinpassenAlles](Std_ViewFitAll/de.md)
 ---
 
+# Std ViewHome/de
+
 ## Beschreibung
 
 Der **Std ViewHome**-Befehl ändert die Kamera in der aktiven [3D-Ansicht](3D_view/de.md) zur Standardkameraausrichtung. Dann zoomt und schenkt die Kamera, so dass alle sichtbaren Objeke in die Ansicht passen.
@@ -30,4 +32,7 @@ Der **Std ViewHome**-Befehl ändert die Kamera in der aktiven [3D-Ansicht](3D_vi
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ViewHome/de

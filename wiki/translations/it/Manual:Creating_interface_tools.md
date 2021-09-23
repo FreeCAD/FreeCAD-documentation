@@ -1,7 +1,4 @@
 # Manual:Creating interface tools/it
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -171,3 +168,6 @@ Infine, non dimenticate che c\'è molta altra documentazione sull\'utilizzo dei 
 }} 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Manual:Creating interface tools/it

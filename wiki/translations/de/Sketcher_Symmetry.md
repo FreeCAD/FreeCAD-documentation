@@ -8,6 +8,8 @@
    SeeAlso:[Sketcher SkizzeSpiegeln](Sketcher_MirrorSketch/de.md)
 ---
 
+# Sketcher Symmetry/de
+
 ## Beschreibung
 
 Spiegelt eine Skizzen Geometrie in Bezug zu einer ausgewählten Linie oder Skizzenachse.
@@ -26,4 +28,7 @@ Beachte, dass keine zusätzliche Symmetriebeschränkung hinzugefügt wird.
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Symmetry/de

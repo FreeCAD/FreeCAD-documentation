@@ -1,9 +1,4 @@
 # Frequently asked questions/ru
-
-
-
-
-
 На этой странице содержатся ответы на самые часто задаваемые вопросы на форуме FreeCAD. Если у вас есть проблема или вопрос, касающийся FreeCAD, попробуйте найти на него ответ на этой странице. Затем, если вы не смогли найти ответ на ваш специфический вопрос, обратитесь на [форум FreeCAD](http://forum.freecadweb.org/viewforum.php?f=3)!
 
 ## Установка
@@ -297,3 +292,6 @@ Yes, you can use the core parts of FreeCAD in other applications as long as you 
 
 
 [Category:Documentation](Category:Documentation.md)
+
+---
+[documentation index](../README.md) > [Documentation](Category:Documentation.md) > Frequently asked questions/ru

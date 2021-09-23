@@ -1,5 +1,4 @@
-# 3Dconnexion input devices/tr
- <img alt="3Dconnexion SpaceNavigator" src=images/SpaceNavigator.jpg  style="width:200px;"> {{TOCright}}
+# <img alt="3Dconnexion SpaceNavigator" src=images/SpaceNavigator.jpg  style="width:200px;"> {{TOCright}} 3Dconnexion input devices/tr
 
 
 <div class="mw-translate-fuzzy">
@@ -388,3 +387,6 @@ Belirli bir komutu bir düğmeyle bağlamak için, sol taraftaki düğmeyi seçi
 -   Forum thread [Space navigator axis confusion](https://forum.freecadweb.org/viewtopic.php?f=8&t=57188)
 
 [Category:User Documentation](Category:User_Documentation.md) [Category:3rd Party](Category:3rd_Party.md)
+
+---
+[documentation index](../README.md) > [User Documentation](Category:User Documentation.md) > 3Dconnexion input devices/tr

@@ -1,3 +1,4 @@
+# Draft ToggleGrid/cs
 ---
 - GuiCommand:/cs   Name:Draft ToggleGrid   Name/cs:Kreslení Přepnout mřížka   Workbenches:[Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation:Draft → Utilitiy → Přepnout mřížka---
 
@@ -35,8 +36,5 @@ See [Draft Snap](Draft_Snap#Preferences.md).
 -   To use the grid select: **Edit → Preferences... → Draft → Grid and snapping → Grid → Use grid**. After changing this preference you must restart FreeCAD.
 -   Several other grid preferences are also available: **Edit → Preferences... → Draft → Grid and snapping → Grid**.
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ToggleGrid/cs

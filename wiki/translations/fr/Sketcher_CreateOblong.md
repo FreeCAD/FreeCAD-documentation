@@ -8,6 +8,8 @@
    SeeAlso:[Sketcher Rectangle](Sketcher_CreateRectangle/fr.md)
 ---
 
+# Sketcher CreateOblong/fr
+
 ## Description
 
 Cet outil dessine un rectangle arrondi en choisissant deux points opposés. Au démarrage de l\'outil, le pointeur de la souris se transforme en une croix blanche avec une icône rouge de rectangle arrondi. Les coordonnées du pointeur sont affichées à côté en bleu en temps réel.
@@ -25,4 +27,7 @@ Cet outil dessine un rectangle arrondi en choisissant deux points opposés. Au d
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateOblong/fr

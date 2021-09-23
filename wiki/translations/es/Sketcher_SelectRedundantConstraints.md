@@ -8,6 +8,8 @@
    Version:0.15
 ---
 
+# Sketcher SelectRedundantConstraints/es
+
 
 </div>
 
@@ -35,4 +37,7 @@ Selecciona las restricciones redundantes de un croquis.
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectRedundantConstraints/es

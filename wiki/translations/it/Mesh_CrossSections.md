@@ -7,6 +7,8 @@
    SeeAlso:[Sezione da mesh e piano](Mesh_SectionByPlane/it.md)
 ---
 
+# Mesh CrossSections/it
+
 ## Descrizione
 
 Il comando **Sezioni** crea più sezioni trasversali tra gli oggetti mesh. Le sezioni trasversali vengono prese parallelamente a uno dei principali piani globali (XY, XZ o YZ). Per ogni serie di sezioni trasversali viene creata una singola [Part Feature](Part_Feature/it.md).
@@ -73,4 +75,7 @@ Vedere: [Funzioni Part](Part_Feature/it.md).
 
 {{Mesh Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh CrossSections/it

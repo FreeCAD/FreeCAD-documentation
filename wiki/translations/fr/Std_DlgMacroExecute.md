@@ -7,6 +7,8 @@
    SeeAlso:[Std Lancer la macro](Std_DlgMacroExecuteDirect/fr.md)
 ---
 
+# Std DlgMacroExecute/fr
+
 ## Description
 
 La commande **Std Exécuter la macro** ouvre la boîte de dialogue Execute macro. À partir de cette boîte de dialogue, les macros peuvent être exécutées, modifiées et gérées.
@@ -108,4 +110,7 @@ La commande **Std Exécuter la macro** ouvre la boîte de dialogue Execute macro
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std DlgMacroExecute/fr

@@ -1,5 +1,5 @@
 # Macro Toggle Drawstyle/fr
- {{Macro/fr
+{{Macro/fr
 |Name=Macro Toggle Drawstyle
 |Description=Cette macro permet de basculer style d'affichage de l'objet sélectionné.
 |Author=Piffpoof
@@ -127,6 +127,5 @@ else:
 
 The forum discussion [Keyboard shortcut, View toolbar - Wireframe](https://forum.freecadweb.org/viewtopic.php?f=3&t=14336)
 
-
-
-
+---
+[documentation index](../README.md) > Macro Toggle Drawstyle/fr

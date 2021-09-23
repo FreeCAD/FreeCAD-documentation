@@ -1,5 +1,5 @@
 # Macro Rotate View/en
- {{Macro
+{{Macro
 |Name=Rotate View by 90°
 |Icon=Macro Rotate View view 90 Degrees.png
 |Description=This macro rotates the current view by 90° to the left. Only works if you are in [Top view](Std_ViewTop.md).
@@ -36,6 +36,5 @@ nrot = cam.orientation.getValue() * rot
 cam.orientation = nrot
 }}
 
-
-
-
+---
+[documentation index](../README.md) > Macro Rotate View/en

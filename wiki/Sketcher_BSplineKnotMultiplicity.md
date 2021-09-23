@@ -7,6 +7,8 @@
    SeeAlso:[Sketcher Create B-spline](Sketcher_CompCreateBSpline.md)
 ---
 
+# Sketcher BSplineKnotMultiplicity
+
 ## Description
 
 Shows or hides the display of the knot multiplicity of a B-spline. See [this page](Sketcher_BSplineDecreaseKnotMultiplicity#Description.md) for an explanation of the multiplicity. The multiplicity is shown in braces besides the knot.
@@ -21,4 +23,7 @@ Shows or hides the display of the knot multiplicity of a B-spline. See [this pag
 
 
 
- {{Sketcher Tools navi}} 
+ {{Sketcher Tools navi}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineKnotMultiplicity

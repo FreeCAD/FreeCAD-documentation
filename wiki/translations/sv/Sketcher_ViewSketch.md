@@ -1,3 +1,4 @@
+# Sketcher ViewSketch/sv
 ---
 - GuiCommand:/sv   Name:Sketcher ViewSketch   Name/sv:Sketcher ViewSketch   Workbenches:[PartDesign](Sketcher_Workbench/sv___Sketcher]],_[[PartDesign_Workbench/sv.md)|MenuLocation:Sketch → View sketch---
 
@@ -21,4 +22,7 @@ While in sketch edit mode, either
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ViewSketch/sv

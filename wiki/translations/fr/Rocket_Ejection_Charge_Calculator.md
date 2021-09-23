@@ -8,6 +8,8 @@
    Version:0.19
 ---
 
+# Rocket Ejection Charge Calculator/fr
+
 ## Description
 
 
@@ -88,3 +90,6 @@ Les calculs sont effectués en unités métriques, mais s\'affichent dans les un
 
 
 [Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+
+---
+[documentation index](../README.md) > [Addons](Category:Addons.md) > Rocket Ejection Charge Calculator/fr

@@ -1,5 +1,5 @@
 # Macro Recompute Profiler/en
- {{Macro
+{{Macro
 |Name=Macro Recompute Profiler
 |icone=Macro_Recompute_Profiler.png
 |Description=This macro is to help you find, what features cause long delays in updates to the project. It performs a recompute, measuring the time it takes to recompute each feature.
@@ -213,6 +213,5 @@ Coin version: 4.0.0a
 OCC version: 7.0.0
 ```
 
-
-
-
+---
+[documentation index](../README.md) > Macro Recompute Profiler/en

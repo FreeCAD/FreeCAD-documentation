@@ -1,3 +1,4 @@
+# PartDesign Draft/cs
 ---
 - GuiCommand:/cs   Name:PartDesign_Draft   Name/cs:PartDesign Draft   MenuLocation:Part Design -> Draft   Workbenches:[[PartDesign_Workbench/cs   Part Design]]|Shortcut:None   SeeAlso:None---
 
@@ -96,4 +97,7 @@ Tento nástroj vytváří úhlové zkosení na vybrané ploše objektu. Ve strom
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Draft/cs

@@ -7,6 +7,8 @@
    SeeAlso:[Part Thickness](Part_Thickness.md)
 ---
 
+# PartDesign Thickness/en
+
 ## Description
 
 The **Thickness** tool works on a solid Body and transforms it into a thick-walled hollow object with at least one open face, giving to each of its remaining faces a uniform thickness. On some solids it allows you to significantly speed up the work, and avoids making extrusions and pockets.
@@ -77,4 +79,7 @@ Result: ![](images/Brga-spessore.png )
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Thickness/en

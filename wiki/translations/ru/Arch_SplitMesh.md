@@ -7,6 +7,8 @@
    SeeAlso:[Выбрать не-разнородные сетки](Arch_SelectNonSolidMeshes/ru.md)
 ---
 
+# Arch SplitMesh/ru
+
 
 </div>
 
@@ -71,11 +73,5 @@ mesh_obj.ViewObject.DisplayMode = "Flat Lines"
 new_list = Arch.splitMesh(mesh_obj)
 ```
 
-
-
-
-
-
-
-
-
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SplitMesh/ru

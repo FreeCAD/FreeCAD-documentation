@@ -7,6 +7,8 @@
    SeeAlso:[Part UmwandelnInFestkörper](Part_MakeSolid/de.md), [Part FormVerfeinern](Part_RefineShape/de.md), [Part PunkteAusNetz](Part_PointsFromMesh/de.md)
 ---
 
+# Part ShapeFromMesh/de
+
 ## Einführung
 
 Der **<img src="images/Part_ShapeFromMesh.svg" width=16px> [Part FormAusNetz](Part_ShapeFromMesh/de.md)** Befehl erzeugt eine Form aus einem [Netzobjekt](Mesh/de.md). Netzobjekte haben in FreeCAD nur begrenzte Bearbeitungsmöglichkeiten, ihre Konvertierung in [Formen](Shape/de.md) ermöglicht ihre Verwendung mit vielen weiteren Booleschen und Modifikationswerkzeugen.
@@ -53,8 +55,5 @@ solid.purgeTouched()
 doc.recompute()
 ```
 
-
-
-
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part ShapeFromMesh/de

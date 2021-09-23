@@ -1,10 +1,4 @@
 # Advanced TechDraw Tutorial/de
-
-
-
-
-
-
 {{TutorialInfo/de
 |Topic=Modellierung
 |Level=Erfahrene Anwender
@@ -92,4 +86,7 @@ Jedoch könnte der beschriebene Weg den Ausgangspunkt (oder die Idee) darstellen
 
 {{Tutorials navi
 
-}} {{TechDraw Tools navi}} 
+}} {{TechDraw Tools navi}}
+
+---
+[documentation index](../README.md) > Advanced TechDraw Tutorial/de

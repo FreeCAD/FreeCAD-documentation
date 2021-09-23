@@ -8,6 +8,8 @@
    Version:0.20
 ---
 
+# Sketcher CompCreateRectangles/fr
+
 ## Description
 
 **Créer des rectangles** est un bouton-icône de la barre d\'outils géométries de Sketcher qui regroupe les outils permettant de créer des rectangles. Cliquez sur la flèche vers le bas à sa droite pour développer les icônes situées en dessous et sélectionner un outil.
@@ -24,4 +26,7 @@
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CompCreateRectangles/fr

@@ -5,6 +5,8 @@
    Workbenches:[PartDesign](PartDesign_Workbench.md)
 ---
 
+# PartDesign WizardShaft/en
+
 ## Description
 
 This tool allows you to create a shaft from a table of values, and to analyse forces and moments. You can start the wizard from the Part Design menu **Part Design → <img src=images/PartDesign_WizardShaft.svg style="width:20px"> Shaft design wizard...**.
@@ -60,4 +62,7 @@ To add a new shaft segment, right-click into the empty space to the right of the
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign WizardShaft/en

@@ -1,6 +1,4 @@
 # Body/it
-
-
 ## Introduzione
 
 In FreeCAD la parola \"Body\" (Corpo) viene normalmente utilizzata per fare riferimento a un oggetto [PartDesign Body](PartDesign_Body/it.md) (classe `PartDesign::Body`) definito dall\'ambiente [PartDesign](PartDesign_Workbench/it.md). Si tratta di un oggetto contenitore che può contenere degli [Schizzi 2D](Sketch/it.md) e delle [funzioni geometriche 3D](PartDesign_Feature/it.md) per creare una forma solida.
@@ -29,3 +27,6 @@ Non è necessario un Corpo quando si utilizza [Part](Part_Workbench/it.md), poic
 }} {{Document objects navi}} 
 
 [Category:Glossary](Category:Glossary.md)
+
+---
+[documentation index](../README.md) > [Glossary](Category:Glossary.md) > Body/it

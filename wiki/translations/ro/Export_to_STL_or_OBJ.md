@@ -1,7 +1,4 @@
 # Export to STL or OBJ/ro
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -115,3 +112,6 @@ Puteți utiliza propriul fișier FreeCAD, dar puteți crea, de asemenea, un fiș
 
 
 [Category:File\_Formats](Category:File_Formats.md)
+
+---
+[documentation index](../README.md) > [File_Formats](Category:File_Formats.md) > Export to STL or OBJ/ro

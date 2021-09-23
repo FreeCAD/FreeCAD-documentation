@@ -1,5 +1,5 @@
 # Raytracing Preferences/ru
- Экран настроек [верстака Raytracing](Raytracing_Workbench/ru.md) находятся в [редакторе настроек](Preferences_Editor/ru.md), **Правка → Настройки → Raytracing**.
+Экран настроек [верстака Raytracing](Raytracing_Workbench/ru.md) находятся в [редакторе настроек](Preferences_Editor/ru.md), **Правка → Настройки → Raytracing**.
 
 Там только одна вкладка: Трассировщик лучей.
 
@@ -13,3 +13,6 @@
 }}  
 
 [Category:Preferences](Category:Preferences.md)
+
+---
+[documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing Preferences/ru

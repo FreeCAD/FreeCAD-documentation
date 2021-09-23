@@ -1,3 +1,4 @@
+# Robot SetDefaultValues/de
 ---
 - GuiCommand:/de   Name:Robot SetDefaultValues   Workbenches:[[Robot_Workbench/de   Robot]]|MenuLocation:Roboter → Festlegen von Standardwerten---
 
@@ -48,4 +49,7 @@ Die Standardwerte des Programms sind
 
 {{Robot_Tools_navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot SetDefaultValues/de

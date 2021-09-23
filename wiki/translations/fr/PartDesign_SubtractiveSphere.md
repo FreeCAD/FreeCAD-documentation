@@ -8,6 +8,8 @@
    SeeAlso:[PartDesign Primitives soustractives](PartDesign_CompPrimitiveSubtractive/fr.md)
 ---
 
+# PartDesign SubtractiveSphere/fr
+
 ## Description
 
 Insérer une sphère primitive soustractive dans le Corps actif. Sa forme est soustraite du solide existant.
@@ -48,4 +50,7 @@ La Sphère peut être éditée après sa création de deux façons :
 
 {{PartDesign Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveSphere/fr

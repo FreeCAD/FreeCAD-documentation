@@ -8,6 +8,8 @@ Edycja → Przemieszczenie
    SeeAlso:[Strona Startowa](Std_Base/pl.md)
 ---
 
+# Std TransformManip/pl
+
 ## Opis
 
 Narzędzie to pozwala na stosowanie przyrostów obrotu lub przesunięcia względem obiektu.
@@ -38,4 +40,7 @@ Nie ma przycisku Anuluj.
 
 {{Std Base navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > Std TransformManip/pl

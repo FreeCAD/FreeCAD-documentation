@@ -1,7 +1,4 @@
 # Manual:Import and export to other filetypes/it
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -76,3 +73,6 @@ Alcuni di questi formati di file hanno delle opzioni. Questi formati possono ess
 </div>
 
 [Category:Poweruser Documentation](Category:Poweruser_Documentation.md) [Category:Tutorials](Category:Tutorials.md)
+
+---
+[documentation index](../README.md) > [Poweruser Documentation](Category:Poweruser Documentation.md) > Manual:Import and export to other filetypes/it

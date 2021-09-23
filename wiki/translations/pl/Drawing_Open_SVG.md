@@ -8,6 +8,8 @@
    SeeAlso:[Zapisz](Drawing_Save/pl.md)
 ---
 
+# Drawing Open SVG/pl
+
 Narzędzie to otwiera arkusz rysunkowy zapisany wcześniej jako plik SVG *(skalowalna grafika wektorowa)*. Można go również używać do wyświetlania dowolnego SVG.
 
 
@@ -19,4 +21,7 @@ Narzędzie to otwiera arkusz rysunkowy zapisany wcześniej jako plik SVG *(skalo
 
 {{Drawing Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Open SVG/pl

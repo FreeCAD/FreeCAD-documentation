@@ -1,5 +1,5 @@
 # Macro DXF to Face and Sketch
-  {{Macro
+{{Macro
 |Name=DXF to Face and Sketch
 |Icon=Macro_DXF_to_Face_and_Sketch.png
 |Description=This macro create face and sketch from a DXF file.
@@ -258,4 +258,5 @@ else:
 -   Macros\_recipes [Macro Creating faces from a DXF file](http://www.freecadweb.org/wiki/index.php?title=Macros_recipes)
 -   Previous version [Macro Creating faces from a DXF file](Macro_Creating_faces_from_a_DXF_file.md)
 
- 
+---
+[documentation index](../README.md) > Macro DXF to Face and Sketch

@@ -1,5 +1,4 @@
 # Sandbox:TutorialArchBIM
-
 {{TutorialInfo/en
 |Topic=Modeling
 |Level=Intermediate
@@ -1476,3 +1475,6 @@ Also in {{Code|
 }}
 
 [Category:Sandbox](Category:Sandbox.md)
+
+---
+[documentation index](../README.md) > Sandbox:TutorialArchBIM

@@ -7,6 +7,8 @@
    SeeAlso:[Arch Séparer un objet Mesh](Arch_SplitMesh/fr.md), [Arch Maillage vers une forme](Arch_MeshToShape/fr.md)
 ---
 
+# Arch RemoveShape/fr
+
 ## Description
 
 Cet outil vise à supprimer la forme cubique intérieure d\'un **<img src="images/Arch_Wall.svg" width=16px>[Arch Mmur](Arch_Wall/fr.md)** ou d\'une **<img src="images/Arch_Structure.svg" width=16px>[Arch Structure](Arch_Structure/fr.md)** et ajuste ses propriétés, la rendant totalement paramétriques. Cet outil ne fonctionne que si le shape sous-jacent est cubique (exactement 6 faces, tous les coins ont seulement des angles droits).
@@ -52,8 +54,5 @@ Arch.removeShape(Structure)
 FreeCAD.ActiveDocument.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch RemoveShape/fr

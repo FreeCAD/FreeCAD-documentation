@@ -1,3 +1,4 @@
+# FEM PostFilterCutFunction/it
 ---
 - GuiCommand:/it   Name:FEM_PostCreateCutFilter   Name/it:FEM PostCreateCutFilter   MenuLocation: Riultati → Crea cut filter    |Workbenches:[Shortcut:   SeeAlso:[[FEM_tutorial/it|Tutorial FEM](FEM_Workbench/it___FEM]].md)---
 
@@ -25,4 +26,7 @@ Da fare
 
 {{FEM Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > FEM PostFilterCutFunction/it

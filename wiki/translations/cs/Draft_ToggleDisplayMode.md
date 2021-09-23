@@ -1,3 +1,4 @@
+# Draft ToggleDisplayMode/cs
 ---
 - GuiCommand:/cs   Name:Draft ToggleDisplayMode   Name/cs:Přepnout zobrazovací mód   Workbenches:[Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation:Kreslení → Utility → Přepnout zobrazovací mód   Shortcut:Shift + Space---
 
@@ -33,8 +34,5 @@ Tento nástroj přepíná zobrazení vybraného objektu(ů) mezi Drátovým zobr
 
 </div>
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ToggleDisplayMode/cs

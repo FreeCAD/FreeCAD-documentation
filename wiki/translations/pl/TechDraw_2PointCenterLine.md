@@ -7,6 +7,8 @@
    SeeAlso:[TechDraw Centerline to Face(s)](TechDraw_FaceCenterLine.md), [TechDraw Centerline between 2 Lines](TechDraw_2LineCenterLine.md)
 ---
 
+# TechDraw 2PointCenterLine/pl
+
 ## Description
 
 The 2PointCenterLine tool adds a centerline between two Vertices (Points).
@@ -65,4 +67,7 @@ Centerlines are not accessible from [macros](Macros.md) or the [Python](Python.m
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw 2PointCenterLine/pl

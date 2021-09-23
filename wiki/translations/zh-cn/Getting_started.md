@@ -1,10 +1,4 @@
 # Getting started/zh-cn
-
-
-
-
-
-
 {{TOCright}}
 
 ## 前言
@@ -331,3 +325,6 @@ There are two types of addons:
 
 
 [Category:User Documentation/zh-cn](Category:User_Documentation/zh-cn.md)
+
+---
+[documentation index](../README.md) > Getting started/zh-cn

@@ -8,6 +8,8 @@
    SeeAlso:[Sketcher Contrainte distance horizontale](Sketcher_ConstrainDistanceX/fr.md), [Sketcher Contrainte distance verticale](Sketcher_ConstrainDistanceY/fr.md)
 ---
 
+# Sketcher ConstrainDistance/fr
+
 ## Description
 
 La **contrainte dimensionnelle** spécifie par une valeur la longueur d\'une ligne, la distance perpendiculaire entre un point et une ligne, ou la distance entre deux points.
@@ -59,4 +61,7 @@ La page [Sketcher : Écrire des scripts](Sketcher_scripting/fr.md) explique les 
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainDistance/fr

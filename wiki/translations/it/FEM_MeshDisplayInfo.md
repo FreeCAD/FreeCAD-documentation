@@ -1,3 +1,4 @@
+# FEM MeshDisplayInfo/it
 ---
 - GuiCommand:/it   Name:FEM_MeshPrintInfo   Name/it:FEM MeshPrintInfo   Icon:Fem-femmesh-print-info.svg   MenuLocation: Menu contestuale dell'oggetto mesh → Informazioni di stampa   |Workbenches:[Shortcut:   SeeAlso:[[FEM_tutorial/it|Tutorial FEM](FEM_Workbench/it___FEM]].md)---
 
@@ -74,4 +75,7 @@ will output the following result:
 
 {{FEM Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > FEM MeshDisplayInfo/it

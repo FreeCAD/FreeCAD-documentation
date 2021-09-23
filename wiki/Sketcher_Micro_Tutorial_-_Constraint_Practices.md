@@ -1,7 +1,4 @@
 # Sketcher Micro Tutorial - Constraint Practices
- 
-
-
 {{TutorialInfo
 |Topic=Sketcher
 |Level=Beginner
@@ -123,4 +120,7 @@ This is the best way to constrain this sketch, as we only used one datum (dimens
 -   [Sketcher reference](Sketcher_reference.md)
 -   [Sketcher Tutorial](Sketcher_Tutorial.md)
 
- {{Tutorials navi}} {{Sketcher Tools navi}} 
+ {{Tutorials navi}} {{Sketcher Tools navi}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Micro Tutorial - Constraint Practices

@@ -7,6 +7,8 @@
    Version:0.19
 ---
 
+# Path Surface/fr
+
 ## Description
 
 Cet outil crée une nouvelle opération **<img src="images/Path_3DSurface.svg" width=24px> [Surface 3D](Path_3DSurface/fr.md)** qui est capable de générer des trajectoires G-Code pour toute la surface supérieure d\'un modèle 3D (ou est capable de travailler avec des faces sélectionnées) et permet d\'éviter les faces. Cette opération offre plusieurs motifs de coupe: ligne, zigzag, circulaire, zigzag circulaire, décalage et spirale (similaire à un motif adaptatif). Depuis la version 0.19, cette opération propose de nombreuses personnalisations pour permettre une plus grande productivité.
@@ -418,4 +420,7 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 
 {{Path Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Surface/fr

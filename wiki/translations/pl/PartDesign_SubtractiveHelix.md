@@ -7,6 +7,8 @@
    SeeAlso:[PartDesign AdditiveHelix](PartDesign_AdditiveHelix.md)
 ---
 
+# PartDesign SubtractiveHelix/pl
+
 ## Description
 
 The **SubtractiveHelix** tool modifies a solid by sweeping a selected sketch or 2D object along a helix path cutting away the material.
@@ -122,4 +124,7 @@ If checked, the helix will be shown in the view, and updated automatically on ev
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveHelix/pl

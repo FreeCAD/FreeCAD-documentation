@@ -8,6 +8,8 @@
    SeeAlso:-
 ---
 
+# Raytracing WriteView/pl
+
 ## Opis
 
 Eksport aktualnych właściwości widoku do pliku Pov przeznaczonego do użytku w projekcie POV-Ray.
@@ -27,4 +29,7 @@ Eksport aktualnych właściwości widoku do pliku Pov przeznaczonego do użytku 
 
 {{Raytracing_Tools_navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing WriteView/pl

@@ -1,7 +1,4 @@
-# KicadStepUp Workbench/hr
-
-
-<img alt="KicadStepUp External workbench icon" src=images/Kicad-StepUp-tools-WB.svg  style="width:128px;">
+# <img alt="KicadStepUp External workbench icon" src=images/Kicad-StepUp-tools-WB.svg  style="width:64px;"> KicadStepUp Workbench/hr
 
 
 {{TOCright}}
@@ -141,3 +138,6 @@ New workbenches are in development, stay tuned!
 
 
 [Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+
+---
+[documentation index](../README.md) > KicadStepUp Workbench/hr

@@ -8,6 +8,8 @@
 ‏‎   SeeAlso:
 ---
 
+# WebTools BimServer/it
+
 
 </div>
 
@@ -89,3 +91,5 @@ Per poter utilizzare questo comando, devono essere soddisfatte le seguenti condi
 
 </div>
 
+---
+[documentation index](../README.md) > WebTools BimServer/it

@@ -8,6 +8,8 @@
    SeeAlso:[Std Tout afficher](Std_ViewFitAll/fr.md)
 ---
 
+# Std ViewFitSelection/fr
+
 ## Description
 
 La commande **Std Affiche la sélection** effectue un zoom et un panoramique sur la vue de sorte que tous les objets sélectionnés tiennent à l\'intérieur de la [vue 3D](3D_view/fr.md) active.
@@ -43,4 +45,7 @@ FreeCADGui.SendMsgToActiveView('ViewSelection')
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ViewFitSelection/fr

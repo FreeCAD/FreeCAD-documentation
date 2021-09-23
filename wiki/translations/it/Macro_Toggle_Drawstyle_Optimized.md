@@ -1,5 +1,5 @@
 # Macro Toggle Drawstyle Optimized/it
- {{Macro/it
+{{Macro/it
 |Name=Macro Toggle Drawstyle Optimized
 |Description=Script ottimizzato per tutte le lingue e per gli oggetti selezionati o tutti gli oggetti. <br/> Quando si lavora con FreeCAD ci sono momenti in cui si desidera cambiare rapidamente lo stile di disegno dell'oggetto con cui si sta lavorando. Questo è disponibile attraverso il menu a discesa Drawstyle in cui è possibile selezionare qualsiasi Drawstyle. Questa macro rende disponibili 2 stili di disegno come pulsante selezionabile su una barra degli strumenti su cui l'utente può fare clic per alternare tra i due stili.
 |Author=Piffpoof , triplus  
@@ -228,3 +228,6 @@ for o in obj:
 Il vincolo al forum (2016-11-27 ver:1.0 FC =\< 0.17): [Keyboard shortcut, View toolbar - Wireframe](https://forum.freecadweb.org/viewtopic.php?f=3&t=14336&start=40#p146239)
 
 Il vincolo al forum (2020-29-01 ver:2.0 FC =\> 0.17) : [Keyboard shortcut, View toolbar - Wireframe](https://forum.freecadweb.org/viewtopic.php?f=3&t=14336&start=50#p364692)
+
+---
+[documentation index](../README.md) > Macro Toggle Drawstyle Optimized/it

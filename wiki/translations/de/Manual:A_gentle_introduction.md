@@ -1,10 +1,4 @@
 # Manual:A gentle introduction/de
-
-
-
-
-
-
 {{Manual:TOC/de}}
 
 [Python](https://en.wikipedia.org/wiki/Python_%28programming_language%29) ist eine populäre, quelloffene Programmiersprache, die sehr oft als Skriptsprache in Anwendungen eingebettet ist, wie es bei FreeCAD der Fall ist. Sie hat eine Reihe von Eigenschaften, die sie für uns FreeCAD Anwender geeignet machen: Es ist sehr leicht zu erlernen, besonders für Leute, die noch nie programmiert haben, und es ist in viele andere Anwendungen eingebettet. Das macht es zu einem wertvollen Lernwerkzeug, da Sie es in anderen Programmen wie [Blender](http://www.blender.org), [Inkscape](http://www.inkscape.org) oder [GRASS](http://grass.osgeo.org/) verwenden können.
@@ -116,3 +110,6 @@ box.Placement = otherpla
 }}
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Manual:A gentle introduction/de

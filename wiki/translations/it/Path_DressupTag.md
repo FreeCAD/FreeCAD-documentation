@@ -1,3 +1,4 @@
+# Path DressupTag/it
 ---
 - GuiCommand:/it   Name:Path DressupTag   Name/it:DressupTag   Workbenches:[MenuLocation:Path → Vestizione → Tag Dress-up   SeeAlso:[[Path_DressupRampEntry/it|Rampa di entrata](Path_Workbench/it___Path]].md), [Vestizione Dogbone](Path_DressupDogbone/it.md) , [Vestizione DragKnife](Path_DressupDragKnife/it.md) ---
 
@@ -55,4 +56,7 @@ I tag vengono generati automaticamente equidistanti lungo il contorno, iniziando
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path DressupTag/it

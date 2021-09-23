@@ -1,5 +1,5 @@
 # Macro FCCamGroover
-  {{Macro
+{{Macro
 |Name=FCCamGroover
 |Icon=Cam-groover-icon-32x32.png
 |Description=This macro creates a groove in a cylinder for a cam to ride in.<br/>The object created is similar to the one shown in this [https://youtu.be/io1JL1U7kUs youtube video].
@@ -315,4 +315,7 @@ diag.exec_()
 
 ## Link
 
-The forum [FC Cam Groover Macro](https://forum.freecadweb.org/viewtopic.php?f=22&t=29816&sid=f6f9b946f015bc5072bf112d97b50256) 
+The forum [FC Cam Groover Macro](https://forum.freecadweb.org/viewtopic.php?f=22&t=29816&sid=f6f9b946f015bc5072bf112d97b50256)
+
+---
+[documentation index](../README.md) > Macro FCCamGroover

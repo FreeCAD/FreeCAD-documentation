@@ -1,3 +1,4 @@
+# Part Cut/it
 ---
 - GuiCommand:/it   Name:Part_Cut   Name/it:Sottrai   MenuLocation:Part → Booleana → Sottrai   Workbenches:[SeeAlso:[[Part Union/it|Unione](Part_Workbench/it___Parte]].md), [Intersezione](Part_Common/it.md), [Booleane](Part_Boolean/it.md)---
 
@@ -42,5 +43,5 @@ Gli oggetti in ingresso devono essere delle forme [OpenCascade](OpenCascade/it.m
 
 </div>
 
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Cut/it

@@ -1,3 +1,4 @@
+# Path ToolLibraryEdit/it
 ---
 - GuiCommand:/it   Name:Path ToolLibraryEdit   Name/it:Gestione utensili   Workbenches:[[Path Workbench/it   Path]]|MenuLocation:Path → Gestione utensili   Shortcut:P,T   SeeAlso:---
 
@@ -67,4 +68,7 @@ La gestione è semplice:
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path ToolLibraryEdit/it

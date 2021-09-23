@@ -1,3 +1,4 @@
+# Std Import/ro
 ---
 - GuiCommand:/ro   Name:Std Import   Name/ro:Importul   Workbenches:All   MenuLocation:File → Importul   Shortcut:CTRL+I   SeeAlso:[Deschidere](Std_Open/ro.md)...---
 
@@ -49,3 +50,6 @@ Când este încărcat, fișierul este adăugat la proiectul curent(de asemenea d
 }}  
 
 [Category:File\_Formats](Category:File_Formats.md)
+
+---
+[documentation index](../README.md) > [File_Formats](Category:File_Formats.md) > Std Import/ro

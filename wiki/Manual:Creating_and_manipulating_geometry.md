@@ -1,7 +1,4 @@
 # Manual:Creating and manipulating geometry
-  
-
-
 {{Manual:TOC}}
 
 In the previous chapters, we learned about the different workbenches of FreeCAD, and how each of them implement their own tools and geometry types. The same concept applies when working from Python code.
@@ -228,3 +225,6 @@ All of the above, and much more, is explained in detail on the [Part Scripting](
  {{Powerdocnavi}} 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Manual:Creating and manipulating geometry

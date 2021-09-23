@@ -7,6 +7,8 @@
    SeeAlso:[Std ViewZoomIn](Std_ViewZoomIn.md), [Std ViewZoomOut](Std_ViewZoomOut.md)
 ---
 
+# Std ViewBoxZoom/en
+
 ## Description
 
 The **Std ViewBoxZoom** command zooms in on a user defined rectangular area, a box, in the active [3D view](3D_view.md).
@@ -24,4 +26,7 @@ The **Std ViewBoxZoom** command zooms in on a user defined rectangular area, a b
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ViewBoxZoom/en

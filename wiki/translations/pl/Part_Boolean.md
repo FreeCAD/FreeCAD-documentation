@@ -1,3 +1,4 @@
+# Part Boolean/pl
 ---
 - GuiCommand:/pl
    Name:Part Boolean
@@ -59,8 +60,5 @@ W przypadku współbieżności, nawet jeśli pierwsza operacja logiczna zakończ
 
 *Po lewej: kształty, które mają wspólną powierzchnię, połączenie logiczne może dać nieprawidłowe wyniki. <br>Po prawej: kształty, które przecinają się wyraźnie, połączenie logiczne będzie skuteczne w większości przypadków.*
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Boolean/pl

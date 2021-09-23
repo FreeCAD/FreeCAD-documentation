@@ -1,5 +1,5 @@
 # Artwork Gui/fr
-  Ces icônes se trouvent dans le chemin source indiqué.
+Ces icônes se trouvent dans le chemin source indiqué.
 
 Pour toutes les icônes de l\'arborescence source, voir [Graphisme](Artwork/fr.md).
 
@@ -22,4 +22,7 @@ Ces images sont plus grandes que les icônes.
 
 {{Artwork
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > Artwork Gui/fr

@@ -8,6 +8,8 @@
    SeeAlso:[Borrador OrthoArray](Draft_OrthoArray/es.md), [Borrador ArregloCircular](Draft_CircularArray/es.md), [Borrador ArregloRuta](Draft_PathArray/es.md), [Borrador ArregloEnlaceRuta](Draft_PathLinkArray/es.md), [Borrador ArregloPunto](Draft_PointArray/es.md), [Borrador ArregloEnlacePunto](Draft_PointLinkArray/es.md)
 ---
 
+# Draft PolarArray/es
+
 
 </div>
 
@@ -154,5 +156,5 @@ doc.recompute()
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft PolarArray/es

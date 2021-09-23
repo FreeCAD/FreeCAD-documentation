@@ -7,6 +7,8 @@
    SeeAlso:[TechDraw Cote de diamètre](TechDraw_DiameterDimension/fr.md)
 ---
 
+# TechDraw RadiusDimension/fr
+
 ## Description
 
 L\'outil Cote de rayon ajoute une dimension de rayon à une vue. La cote peut être appliquée à n\'importe quel bord du dessin, que ce soit un cercle ou un arc de cercle. La distance sera initialement la distance projetée (c\'est-à-dire, comme indiqué sur le dessin), mais elle peut être remplacée par la distance 3D réelle à l\'aide de l\'outil **<img src="images/TechDraw_LinkDimension.svg" width=16px> [TechDraw Lier une dimension](TechDraw_LinkDimension/fr.md)**.
@@ -55,4 +57,7 @@ rc = page.addView(dim1)
 
 {{TechDraw Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw RadiusDimension/fr

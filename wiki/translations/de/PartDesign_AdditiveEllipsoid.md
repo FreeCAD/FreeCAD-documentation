@@ -8,6 +8,8 @@
    SeeAlso:[PartDesign CompAdditivesGrundelement](PartDesign_CompPrimitiveAdditive/de.md)
 ---
 
+# PartDesign AdditiveEllipsoid/de
+
 ## Beschreibung
 
 Fügt den Grundkörper Ellipsoid in den aktiven Körper (Body) als Basisformelement ein oder vereinigt ihn mit den bereits bestehenden Formelementen.
@@ -64,4 +66,7 @@ Das Ellipsoid kann auf zwei verschieden Wege bearbeitet werden:
 
 {{PartDesign Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveEllipsoid/de

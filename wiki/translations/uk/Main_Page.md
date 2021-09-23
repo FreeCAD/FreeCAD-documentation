@@ -1,7 +1,4 @@
 # Main Page/uk
- 
-
-
 <div class="mw-translate-fuzzy">
 
 Це документація Вікі [FreeCAD](http://www.freecadweb.org). Інформація, що міститься тут те, що формує автономну документацію яка постачається безпосердньо з FreeCAD. У вас є два основних способи, щоб переглядати документацію: досліджувати досвід користувачів, або, слідувати посібнику. Це не скінчений документ. Ця документація створюється спільнотою користувачів і розробників FreeCAD. Якщо Ви виявите невірну або відсутню інформацію, будь ласка, [ Допомога Допоможіть FreeCAD ](Help_FreeCAD/uk.md)!
@@ -98,3 +95,6 @@ FreeCAD може бути зібрано з використанням CMake. П
 
 
 [Category:Documentation](Category:Documentation.md)
+
+---
+[documentation index](../README.md) > [Documentation](Category:Documentation.md) > Main Page/uk

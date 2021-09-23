@@ -1,7 +1,4 @@
 # FEM CalculiX Cantilever 3D/fr
-
-
-
 {{TutorialInfo/fr
 |Topic=Analyse par éléments finis
 |Level=Débutant
@@ -131,4 +128,7 @@ Cet exemple est destiné à montrer à quoi ressemble une simple analyse par él
 
 {{Tutorials navi
 
-}} {{FEM Tools navi}} 
+}} {{FEM Tools navi}}
+
+---
+[documentation index](../README.md) > FEM CalculiX Cantilever 3D/fr

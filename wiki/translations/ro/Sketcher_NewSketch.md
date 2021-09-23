@@ -7,6 +7,8 @@
    SeeAlso:[Asociază schiţa unei feţe...](Sketcher_MapSketch/ro.md), [Reorientați schița...](Sketcher_Reorient/ro.md)
 ---
 
+# Sketcher NewSketch/ro
+
 
 </div>
 
@@ -58,4 +60,7 @@ The sketch can be moved in the 3D-Space using [Placement](Placement.md).
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher NewSketch/ro

@@ -1,8 +1,4 @@
 # How to examine a fcstd file
-
-
-
-
 {{TutorialInfo
 |Topic=Modeling
 |Level=Beginner
@@ -19,3 +15,6 @@ Download and open the example file.
 2.  Click on the **+** on the left hand side of the tree to expand all features.
 3.  Go to the top of the tree(the first feature.)
 4.  Select the sketch at the bottom of the expanded feature.
+
+---
+[documentation index](../README.md) > How to examine a fcstd file

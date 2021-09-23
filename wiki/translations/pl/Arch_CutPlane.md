@@ -6,6 +6,8 @@
    SeeAlso:[Arch CutLine](Arch_CutLine.md), [Arch Remove](Arch_Remove.md)
 ---
 
+# Arch CutPlane/pl
+
 ## Description
 
 The Cut Plane tool allows you to cut an Arch object according to a plane:
@@ -92,8 +94,5 @@ cutObj2 = Arch.cutComponentwithPlane(main_object2, cut_face2, 1)
 FreeCAD.ActiveDocument.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CutPlane/pl

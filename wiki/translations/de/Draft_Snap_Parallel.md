@@ -8,6 +8,8 @@
    SeeAlso:[Fangen](Draft_Snap/de.md), [Fangen ein/aus](Draft_ToggleSnap/de.md)
 ---
 
+# Draft Snap Parallel/de
+
 
 </div>
 
@@ -70,5 +72,5 @@ See [Draft Snap](Draft_Snap#Preferences.md).
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Parallel/de

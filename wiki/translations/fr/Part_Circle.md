@@ -6,6 +6,8 @@
    Workbenches:[Part](Part_Workbench/fr.md)
 ---
 
+# Part Circle/fr
+
 ## Description
 
 Cette commande va créer une ligne courbe circulaire. Avec les valeurs par défaut, la ligne circulaire sera fermée et sera donc un cercle. Si les propriétés Angle 0 ou Angle 1 sont modifiés par rapport aux valeurs par défaut (0 et 360), le bord sera une courbe ouverte ou arc.
@@ -29,8 +31,5 @@ Une primitive géométrique Cercle est disponible dans la boîte de dialogue Cr�
 
 -    {{Parameter|Angle 1}}: Fin de la courbe, (en degrés anti-horaire), la valeur par défaut est de 360°.
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Circle/fr

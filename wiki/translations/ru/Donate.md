@@ -1,7 +1,4 @@
 # Donate/ru
-
-
-
 <div id="Donate" style="text-align:center; font-size:150%; background:#dfeee0;margin:1em 7em;padding:0.5em 2em;border:2px solid #226622;">
 
 Quick donation: <img alt="" src=images/Liberapay_logo.svg  style="width:24px;"> [FreeCAD team account](https://liberapay.com/FreeCAD)
@@ -46,5 +43,5 @@ Quick donation: <img alt="" src=images/Liberapay_logo.svg  style="width:24px;"> 
 
 This is the time of crowdfunding, where all kinds of projects and ideas can sometimes raise a lot of money and interest. Why not invent something new that could be done for FreeCAD with money, or help with finding better solutions? Feel free to discuss it on the forum, [About funding and all that](http://forum.freecadweb.org/viewtopic.php?f=8&t=12242).
 
-
-
+---
+[documentation index](../README.md) > Donate/ru

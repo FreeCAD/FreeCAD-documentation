@@ -7,6 +7,8 @@
    Version:0.17
 ---
 
+# Spreadsheet AlignLeft/it
+
 ## Descrizione
 
 Lo strumento <img alt="" src=images/Spreadsheet_AlignLeft.svg  style="width:16px;"> **Allinea a sinistra** allinea a sinistra il testo della cella.
@@ -23,4 +25,7 @@ Lo strumento <img alt="" src=images/Spreadsheet_AlignLeft.svg  style="width:16px
 
 {{Spreadsheet_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet AlignLeft/it

@@ -7,6 +7,8 @@
    SeeAlso:[Std Fenêtre en cascade](Std_CascadeWindows/fr.md)
 ---
 
+# Std TileWindows/fr
+
 ## Description
 
 La commande **Std Mosaïque** réorganise les fenêtres dans la [Zone de vue principale](Main_view_area/fr.md) afin qu\'elles soient toutes visibles et ne se chevauchent pas. Le résultat est déterminé par l\'ordre dans lequel les fenêtres ont été activées pour la dernière fois.
@@ -25,4 +27,7 @@ La commande **Std Mosaïque** réorganise les fenêtres dans la [Zone de vue pri
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std TileWindows/fr

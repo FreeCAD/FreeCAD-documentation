@@ -7,6 +7,8 @@
    SeeAlso:[Entwurf Text](Draft_Text/de.md), [Draft FormZeichenkette](Draft_ShapeString/de.md)
 ---
 
+# TechDraw Annotation/de
+
 ## Beschreibung
 
 Das Anmerkungswerkzeug fügt einen Textblock zu einem Zeichnungsblatt hinzu.
@@ -71,4 +73,7 @@ rc = page.addView(anno)
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Annotation/de

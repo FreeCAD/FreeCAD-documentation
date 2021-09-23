@@ -8,6 +8,8 @@
    SeeAlso:[Arch PipeConnector](Arch_PipeConnector.md), [Arch Equipment](Arch_Equipment.md)
 ---
 
+# Arch Pipe/pl
+
 ## Description
 
 This tool allows to create pipes from scratch, or from selected objects. The selected objects must be Part-based (Draft, Sketch, etc..) and contain one and only one open Wire.
@@ -108,8 +110,5 @@ Pipe2 = Arch.makePipe(diameter=120, length=3000)
 FreeCAD.ActiveDocument.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Pipe/pl

@@ -1,3 +1,4 @@
+# Ship TankCapacity
 ---
 - GuiCommand:   Name:Ship TankCapacity   MenuLocation:Weights → Tank capacity curve   |Workbenches:[[Ship Workbench   Ship]]|Shortcut:   SeeAlso:---
 
@@ -16,7 +17,5 @@ TODO
 
 {{Ship_Tools_navi}}
 
-
-
-
- 
+---
+[documentation index](../README.md) > Ship TankCapacity

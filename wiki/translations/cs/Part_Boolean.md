@@ -1,3 +1,4 @@
+# Part Boolean/cs
 ---
 - GuiCommand:/cs   Name:Part Booleans   Name/cs:Díl Booleans   MenuLocation:Díl → Booleans   Workbenches:[SeeAlso:[[Part Union/cs|Díl Sjednotit](Part_Workbench/cs___Díl]].md), [Díl Společné](Part_Common/cs.md) and [Díl Oddělit](Part_Cut/cs.md)---
 
@@ -66,8 +67,5 @@ In cases of coplanarity, even if the first boolean operation succeeds, subsequen
 
 *Left: shapes that share a face, a boolean union may produce incorrect results. Right: shapes that intersect each other clearly, the boolean union will be successful in most cases.*
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Boolean/cs

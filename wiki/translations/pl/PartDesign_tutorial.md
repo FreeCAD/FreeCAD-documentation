@@ -1,5 +1,5 @@
 # PartDesign tutorial/pl
- {{TutorialInfo/pl
+{{TutorialInfo/pl
 |Topic= Szkicowanie
 |Level= Początkujący
 |Time= 15 minut
@@ -105,3 +105,6 @@ Po wykonaniu tego zadania powinieneś mieć następujący wynik.
 Jeśli nie, edytuj ponownie operację Transformacja wielokrotna, klikając na niej dwukrotnie w widoku drzewa. Sprawdź obie cechy wzoru, aby wykryć konieczne modyfikacje, takie jak **Oś** oraz czy **Kierunek** musi zostać odwrócony.
 
 Zakończyliśmy teraz prezentacje podstawowego przepływu pracy dla środowiska [Projekt Części](PartDesign_Workbench/pl.md).
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign tutorial/pl

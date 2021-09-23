@@ -1,3 +1,4 @@
+# Part Common/sv
 ---
 - GuiCommand:/sv   Name:Part_Common   Workbenches:Del,Komplett---
 
@@ -17,8 +18,5 @@ Tar ut den gemensamma delen (skärningen) mellan valda Del objekt. Denna operati
 
 Input objects must be [OpenCascade](OpenCascade.md) shapes. Examples: stuff made with Part, PartDesign, Sketcher workbenches. Not meshes (unless those were converted to shapes) - for meshes, there are specific Boolean tools in MeshDesign workbench.
 
-
-
-
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Common/sv

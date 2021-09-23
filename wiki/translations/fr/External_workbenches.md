@@ -1,10 +1,4 @@
 # External workbenches/fr
-
-
-
-
-
-
 {{TOCright}}
 
 ## Introduction
@@ -246,3 +240,6 @@ Voir la page du wiki pour plus d\'informations [Traduction d\'un atelier externe
 
 
 [Category:Addons](Category:Addons.md) [\*](Category:External_Workbenches.md)
+
+---
+[documentation index](../README.md) > [Addons](Category:Addons.md) > External workbenches/fr

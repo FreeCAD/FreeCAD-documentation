@@ -1628,3 +1628,5 @@ Azione [Trasforma](Manipulator/it.md) del modulo Parte
 
 {{languages/it | }}
 
+---
+[documentation index](../README.md) > ComandiPerCategorie/it

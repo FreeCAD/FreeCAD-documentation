@@ -1,7 +1,4 @@
 # Complete Workbench
- 
-
-
 **The [[Complete Workbench]] is deprecated.**
 
 <img alt="" src=images/Workbench_Complete.svg  style="width:64px;">
@@ -13,3 +10,6 @@ See [Interface Customization](Interface_Customization.md) if you\'d like to adap
  
 
 [Category:Complete](Category:Complete.md) [Category:Obsolete Workbenches](Category:Obsolete_Workbenches.md)
+
+---
+[documentation index](../README.md) > Complete Workbench

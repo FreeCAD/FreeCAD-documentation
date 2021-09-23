@@ -1,5 +1,5 @@
 # Macro Geneva Wheel GUI
-  {{Macro
+{{Macro
 |Name=Geneva Wheel GUI
 |Icon=GW_Dim.png
 |Description=A GUI front end that allows the user to create a Geneva wheel mechanism from scratch. Based on drei's [Macro Geneva Wheel](Macro_Geneva_Wheel.md)
@@ -236,4 +236,7 @@ p()
 
 ## Links
 
-This Macro is based on [Macro Geneva Wheel](Macro_Geneva_Wheel.md)  
+This Macro is based on [Macro Geneva Wheel](Macro_Geneva_Wheel.md)
+
+---
+[documentation index](../README.md) > Macro Geneva Wheel GUI

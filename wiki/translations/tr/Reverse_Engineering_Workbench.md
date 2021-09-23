@@ -1,10 +1,4 @@
-# Reverse Engineering Workbench/tr
-
-
-
-
-
-<img alt="Reverse Engineering workbench icon" src=images/Workbench_Reverse_Engineering.svg  style="width:128px;">
+# <img alt="Reverse Engineering workbench icon" src=images/Workbench_Reverse_Engineering.svg  style="width:64px;"> Reverse Engineering Workbench/tr
 
 ## Introduction
 
@@ -43,3 +37,6 @@ Link to appropriate threads discussing this workbench
 
 
 [Category:Reverse Engineering/tr](Category:Reverse_Engineering/tr.md) [Category:Workbenches/tr](Category:Workbenches/tr.md) [Category:Reverse Engineering](Category:Reverse_Engineering.md) [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Reverse Engineering Workbench/tr

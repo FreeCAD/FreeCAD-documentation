@@ -7,6 +7,8 @@
    SeeAlso:[[BIM IfcElements]],[[BIM IfcProperties]]
 ---
 
+# BIM IfcQuantities
+
 ## Description
 
 <img alt="" src=images/BIM_ifcquantities_screenshot.png  style="width:1024px;">
@@ -21,4 +23,5 @@ By default, when exporting an IFC file from FreeCAD, no explicit quantities are 
 
 You can also use the quantities manager to change or fix the actual **Height**, **Width** and **Length** values of objects. But this will affect the object geometry in FreeCAD.
 
-
+---
+[documentation index](../README.md) > BIM IfcQuantities

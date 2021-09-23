@@ -1,8 +1,4 @@
 # PartDesign Bearingholder Tutorial I/it
-
-
-
-
 {{TutorialInfo
 |Topic=Modeling
 |Level=Experienced User
@@ -122,3 +118,6 @@ Abbiamo modellato la parte superiore del supporto per cuscinetto con le dimensio
 
 
 [Category:Tutorials](Category:Tutorials.md)
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Bearingholder Tutorial I/it

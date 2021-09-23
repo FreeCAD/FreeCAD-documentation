@@ -7,6 +7,8 @@
    SeeAlso:[Draft Upgrade](Draft_Upgrade.md), [Part Cut](Part_Cut.md)
 ---
 
+# Draft Downgrade/pt-br
+
 ## Descrição
 
 The <img alt="" src=images/Draft_Downgrade.svg  style="width:24px;"> **Draft Downgrade** command downgrades selected objects. The result depends on the number of selected objects and their type. The command can for example deconstruct a 3D solid into separate faces and a wire into separate edges. If two face are selected a [Part Cut](Part_Cut.md) object is created from them. Note that not all objects can be downgraded. This command is the counterpart of the [Draft Upgrade](Draft_Upgrade.md) command.
@@ -81,5 +83,5 @@ doc.recompute()
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Downgrade/pt-br

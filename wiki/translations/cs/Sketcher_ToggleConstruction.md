@@ -7,6 +7,8 @@
    MenuLocation:Náčrt → Skicář Konstrukce →  Změna konst.módu
 ---
 
+# Sketcher ToggleConstruction/cs
+
 
 </div>
 
@@ -78,3 +80,6 @@ and once you **<img src=images/Sketcher_LeaveSketch.svg style="width:16px"> [lea
 }}  
 
 [Category:Sketcher/cs](Category:Sketcher/cs.md)
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ToggleConstruction/cs

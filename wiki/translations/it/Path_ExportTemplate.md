@@ -1,3 +1,4 @@
+# Path ExportTemplate/it
 ---
 - GuiCommand:/it   Name:Path ExportTemplate   Name/it:Esporta modello   Workbenches:[MenuLocation:Path → Esporta modello   SeeAlso:[[Path_SetupSheet/it|Path SetupSheet](Path_Workbench/it___Path]].md) ---
 
@@ -97,4 +98,7 @@ Creare un modello
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path ExportTemplate/it

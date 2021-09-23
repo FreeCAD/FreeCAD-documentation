@@ -1,5 +1,5 @@
 # Download/pl
- {{TOCright}}
+{{TOCright}}
 
 ## Aktualne stabilne wersje 
 
@@ -55,5 +55,5 @@ FreeCAD jest aktywnie rozwijany.
 
 Społeczność FreeCAD dostarcza wiele dodatkowych modułów i makr. Od wersji *0.17* można je łatwo zainstalować z poziomu FreeCAD za pomocą narzędzia [Addon manager](Addon_Manager.md). <img alt="" src=images/AddonManager.svg  style="width:22px;">.
 
-
-
+---
+[documentation index](../README.md) > Download/pl

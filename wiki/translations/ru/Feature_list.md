@@ -1,5 +1,5 @@
 # Feature list/ru
- {{docnav/ru
+{{docnav/ru
 |[О FreeCAD](About_FreeCAD/ru.md)
 |[Установка в Windows](Installing_on_Windows/ru.md)
 }}
@@ -130,3 +130,6 @@
 
 
 [Category:User Documentation](Category:User_Documentation.md)
+
+---
+[documentation index](../README.md) > [User Documentation](Category:User Documentation.md) > Feature list/ru

@@ -7,6 +7,8 @@
    SeeAlso:[Path Copie](Path_Copy/fr.md)
 ---
 
+# Path SimpleCopy/fr
+
 ## Description
 
 Cet outil crée une copie non-paramétrique d\'un chemin donné.
@@ -27,4 +29,7 @@ Cet outil crée une copie non-paramétrique d\'un chemin donné.
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path SimpleCopy/fr

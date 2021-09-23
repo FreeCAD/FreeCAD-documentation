@@ -6,6 +6,8 @@
    Shortcut:**A** **C**
 ---
 
+# Std AxisCross
+
 ## Description
 
 The **Std AxisCross** command toggles the axis cross in the active [3D view](3D_view.md).
@@ -49,4 +51,7 @@ FreeCADGui.ActiveDocument.ActiveView.hasAxisCross()
 
 
 
- {{Std Base navi}}  
+ {{Std Base navi}}
+
+---
+[documentation index](../README.md) > Std AxisCross

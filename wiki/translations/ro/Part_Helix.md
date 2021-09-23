@@ -1,3 +1,4 @@
+# Part Helix/ro
 ---
 - GuiCommand:/ro   Name:Part Helix   Name/ro:Part Elice   MenuLocation:Part → [Workbenches:[[Part Workbench/ro|Part](Part_CreatePrimitives/ro___Create_Primitives]]_→_Helix.md),  [OpenSCAD](OpenSCAD_Workbench/ro.md)---
 
@@ -142,8 +143,5 @@ Odată ce ați creat elicea, aveți opțiunea de a modifica parametrii.
 |                                                          |                                                                               |
 +----------------------------------------------------------+----------------------------------------------------------------------------------+
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Helix/ro

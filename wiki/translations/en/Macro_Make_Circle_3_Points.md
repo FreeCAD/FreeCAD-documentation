@@ -1,5 +1,5 @@
 # Macro Make Circle 3 Points/en
- {{Macro
+{{Macro
 |Name=Macro Make Circle 3 Points
 |Icon=Macro_Make_Circle_3_Points.png
 |Description=This macro creates a circle circumscribed on 3 selected points, orthogonal manner or in 3D at the option space. Points can be objects such as cubes, cylinders,... then selected coordinates will be the centre of these forms.
@@ -632,3 +632,6 @@ The formula adapted by \" galou\_breizh \" circle in 3D space comes from [Circum
 Separate programs are located here,
 [Macro Draft Circle 3 Points](Macro_Draft_Circle_3_Points.md)
 [Macro Draft Circle 3 Points 3D](Macro_Draft_Circle_3_Points_3D.md)
+
+---
+[documentation index](../README.md) > Macro Make Circle 3 Points/en

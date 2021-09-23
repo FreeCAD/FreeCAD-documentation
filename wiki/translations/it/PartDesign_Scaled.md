@@ -1,5 +1,5 @@
 # PartDesign Scaled/it
- {{GuiCommand/it|Name=PartDesign Scaled|Name/it=Scala|Workbenches=[PartDesign](PartDesign_Workbench/it.md), Completo|MenuLocation=PartDesign → Multitrasformazione}}
+{{GuiCommand/it|Name=PartDesign Scaled|Name/it=Scala|Workbenches=[PartDesign](PartDesign_Workbench/it.md), Completo|MenuLocation=PartDesign → Multitrasformazione}}
 
 ## Descrizione
 
@@ -36,4 +36,7 @@ A partire da FreeCAD 0.15, questa funzione non è disponibile direttamente, ma �
 
 ![c\|center\|800px](images/mt_example2.png ) Il pad più piccolo è stato riprodotto tre volte in direzione X e poi scalato con un fattore due (così le tre occorrenze hanno il fattore di scala 1.0, 1.5 e 2.0). Poi è stata applicata una schiera polare con 8 occorrenze.
 
-Poiché la scalatura viene eseguita rispetto al centro di gravità, nel caso di un Pad, è necessario che il pad penetri anche nel corpo principale, altrimenti gli oggetti scalati sono flottanti, staccati dal corpo. Per avere un pad che interseca il corpo principale possono essere utilizzate le opzioni \"due dimensioni\" o \"simmetrica al piano\". 
+Poiché la scalatura viene eseguita rispetto al centro di gravità, nel caso di un Pad, è necessario che il pad penetri anche nel corpo principale, altrimenti gli oggetti scalati sono flottanti, staccati dal corpo. Per avere un pad che interseca il corpo principale possono essere utilizzate le opzioni \"due dimensioni\" o \"simmetrica al piano\".
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Scaled/it

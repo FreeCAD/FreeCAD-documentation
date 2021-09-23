@@ -6,6 +6,8 @@
    Version:0.16
 ---
 
+# Sketcher MirrorSketch/ro
+
 ## Descriere
 
 
@@ -44,4 +46,7 @@ Notes:
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher MirrorSketch/ro

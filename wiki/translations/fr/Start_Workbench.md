@@ -1,10 +1,4 @@
-# Start Workbench/fr
-
-
-
-
-
-<img alt="Icône de l\'Atelier Start" src=images/Workbench_Start.svg  style="width:128px;">
+# <img alt="Icône de l\'Atelier Start" src=images/Workbench_Start.svg  style="width:64px;"> Start Workbench/fr
 
 L\'<img alt="" src=images/Workbench_Start.svg  style="width:24px;"> [atelier Start](Start_Workbench/fr.md) n\'est pas vraiment un atelier. C\'est simplement la page qui est présentée lorsque vous ouvrez FreeCAD sans document chargé.
 
@@ -23,3 +17,6 @@ Depuis cette interface, vous pouvez voir des informations utiles et accéder aux
 
 
 [Category:Start](Category:Start.md) [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Start Workbench/fr

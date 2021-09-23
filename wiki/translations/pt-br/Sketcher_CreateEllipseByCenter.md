@@ -7,6 +7,8 @@
    SeeAlso:[Sketcher Ellipse by 3 Points](Sketcher_CreateEllipseBy3Points.md), [Sketcher Circle](Sketcher_CreateCircle.md), [Sketcher Arc of Ellipse](Sketcher_CreateArcOfEllipse.md)
 ---
 
+# Sketcher CreateEllipseByCenter/pt-br
+
 ## Description
 
 This tool draws an ellipse by picking three points: the center, the end of major radius, the minor radius. When starting the tool, the mouse pointer changes to a white cross with a red ellipse icon. Besides are coordinates shown in real time.
@@ -35,4 +37,7 @@ This tool draws an ellipse by picking three points: the center, the end of major
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateEllipseByCenter/pt-br

@@ -1,7 +1,4 @@
 # Feature list/pt
- 
-
-
 <div class="mw-translate-fuzzy">
 
 Esta é uma lista extensiva, ainda que incompleta dos recursos que o FreeCAD disponibiliza. Se quiser ter uma ideia de como será o FreeCAD no futuro consulte [Development roadmap](Development_roadmap/pt.md) para uma rápida visão geral do que vem aí. Além disso, a consulta de [Screenshots](Screenshots/pt.md) pode ser interessante.
@@ -287,3 +284,6 @@ Utilizadores avançados criaram várias [Bancadas de trabalho externas](external
 
 
 [Category:User Documentation](Category:User_Documentation.md)
+
+---
+[documentation index](../README.md) > [User Documentation](Category:User Documentation.md) > Feature list/pt

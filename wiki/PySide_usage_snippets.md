@@ -1,6 +1,4 @@
 # PySide usage snippets
- 
-
 ## Introduction
 
 These are snippets of code that are useful when [creating interfaces](Dialog_creation.md) with [PySide](PySide.md).
@@ -131,3 +129,6 @@ print(unicode(uniteSs, 'iso8859'))
  {{Powerdocnavi}} 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > PySide usage snippets

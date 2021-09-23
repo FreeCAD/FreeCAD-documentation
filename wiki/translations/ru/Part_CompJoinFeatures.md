@@ -7,6 +7,8 @@
    SeeAlso:[Connect](Part_JoinConnect/ru.md), [Embed](Part_JoinEmbed/ru.md), [Cutout](Part_JoinCutout/ru.md), [Part Boolean](Part_Boolean/ru.md), [Part Thickness](Part_Thickness/ru.md)
 ---
 
+# Part CompJoinFeatures/ru
+
 
 </div>
 
@@ -32,8 +34,5 @@
 <img alt="" src=images/JoinFeatures_demo.png  style="width:668px;"> 
 *Above: showing the result of each tool available*
 
-
-
-
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompJoinFeatures/ru

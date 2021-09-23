@@ -8,6 +8,8 @@
    SeeAlso:
 ---
 
+# Raytracing InsertPart/fr
+
 
 </div>
 
@@ -38,4 +40,7 @@ Insére une vue d\'une pièce dans un projet de Lancer de rayons.
 
 {{Raytracing_Tools_navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing InsertPart/fr

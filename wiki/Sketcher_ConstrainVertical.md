@@ -7,6 +7,8 @@
    SeeAlso:[Sketcher Constraint Horizontal](Sketcher_ConstrainHorizontal.md)
 ---
 
+# Sketcher ConstrainVertical
+
 ## Description
 
 Creates a vertical constraint to the selected lines or polyline elements. As of <small>(v0.17)</small>  it can also constrain vertices vertically. More than one object can be selected.
@@ -31,4 +33,7 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 
 
- {{Sketcher Tools navi}}  
+ {{Sketcher Tools navi}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainVertical

@@ -8,6 +8,8 @@
    SeeAlso:[Std LinkSelectLinkedFinal](Std_LinkSelectLinkedFinal/it.md), [Std LinkSelectAllLinks](Std_LinkSelectAllLinks/it.md), [Std SelBack](Std_SelBack/it.md), [Std SelForward](Std_SelForward/it.md)
 ---
 
+# Std LinkSelectLinked/it
+
 ## Descrizione
 
 Il comando **Collega i link selezionati** seleziona il **Linked Object**, l\'oggetto di origine, di un oggetto [App Link](App_Link/it.md), a un link.
@@ -25,4 +27,7 @@ Il comando **Collega i link selezionati** seleziona il **Linked Object**, l\'ogg
 
 {{Std Base navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > Std LinkSelectLinked/it

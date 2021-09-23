@@ -1,7 +1,4 @@
 # Manual:Navigating in the 3D view/it
- 
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -136,3 +133,5 @@ Inoltre è possibile utilizzare Selezione per selezionare gli oggetti attraverso
 
 </div>
 
+---
+[documentation index](../README.md) > Manual:Navigating in the 3D view/it

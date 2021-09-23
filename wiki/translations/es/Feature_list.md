@@ -1,6 +1,4 @@
 # Feature list/es
- 
-
 Esta es una lista extensa, pero no completa, de las características que FreeCAD implementa. Si quiere mirar hacia el futuro, vea la [Mapa de ruta de desarrollo](Development_roadmap/es.md) para una rápida visión general de lo que viene a continuación. Además, las [Capturas de pantalla](Screenshots/es.md) son un buen lugar para ir.
 
 
@@ -102,3 +100,6 @@ Usuarios de Poder han creado varias [Ambiente de trabajo externos](external_work
 
 
 [Category:User Documentation](Category:User_Documentation.md)
+
+---
+[documentation index](../README.md) > [User Documentation](Category:User Documentation.md) > Feature list/es

@@ -8,6 +8,8 @@
    Icon:Points_Export.svg
 ---
 
+# Points Export/it
+
 
 <div class="mw-translate-fuzzy">
 
@@ -40,4 +42,7 @@ The **Points Export** command exports a point cloud to a file.
 
 {{Points Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Points](Points_Workbench.md) > Points Export/it

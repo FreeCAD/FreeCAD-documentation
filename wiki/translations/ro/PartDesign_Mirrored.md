@@ -1,3 +1,4 @@
+# PartDesign Mirrored/ro
 ---
 - GuiCommand:   Name:PartDesign Mirrored   Workbenches:[[PartDesign Workbench   PartDesign]], Complete|MenuLocation:PartDesign → Mirrored---
 
@@ -135,4 +136,7 @@ The mirror result can be previewed in real time before clicking OK by checking \
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Mirrored/ro

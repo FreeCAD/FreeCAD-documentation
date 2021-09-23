@@ -9,6 +9,8 @@
    Version:0.17
 ---
 
+# EM FHSolver/fr
+
 ## Description
 
 L\'outil FHSolver insère un objet FHSolver.
@@ -99,4 +101,7 @@ fhsolver = EM.makeFHSolver()
 
 {{EM Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > EM FHSolver/fr

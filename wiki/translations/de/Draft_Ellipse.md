@@ -9,6 +9,8 @@
    SeeAlso:[Kreis](Draft_Circle/de.md), [Bogen](Draft_Arc/de.md)
 ---
 
+# Draft Ellipse/de
+
 ## Beschreibung
 
 
@@ -165,7 +167,5 @@ The single character keyboard shortcuts available in the task panel can be chang
 
     <div class="mw-translate-fuzzy"></div>
 
-    
-
-
-
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Ellipse/de

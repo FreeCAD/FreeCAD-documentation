@@ -1,3 +1,4 @@
+# Part Wedge/it
 ---
 - GuiCommand:/it   Name:Part Wedge   Name/it:Cuneo   MenuLocation:Parte → Crea Primitive → Cuneo   Workbenches:[SeeAlso:[[Part_CreatePrimitives/it|Part Crea Primitive](Part_Workbench/it___Parte]].md)---
 
@@ -65,8 +66,5 @@ Crea un solido parametrico a forma di cuneo. Il cuneo di default ha una base qua
 
 ![](images/Wedge_examples.png )
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Wedge/it

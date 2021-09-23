@@ -7,6 +7,8 @@
    SeeAlso:[Sketcher Constraint Vertical](Sketcher_ConstrainVertical.md), [Sketcher Constraint Horizontal](Sketcher_ConstrainHorizontal.md)
 ---
 
+# Sketcher ConstrainParallel
+
 ## Description
 
 The Constrain Parallel constraint forces two selected straight lines or edges to be parallel to each other.
@@ -42,4 +44,7 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 
 
- {{Sketcher Tools navi}}  
+ {{Sketcher Tools navi}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainParallel

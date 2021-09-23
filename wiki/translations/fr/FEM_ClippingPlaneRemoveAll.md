@@ -7,6 +7,8 @@
    SeeAlso:[Tutoriel FEM](FEM_tutorial/fr.md)
 ---
 
+# FEM ClippingPlaneRemoveAll/fr
+
 ## Description
 
 A faire
@@ -19,4 +21,7 @@ A faire
 
 {{FEM Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > FEM ClippingPlaneRemoveAll/fr

@@ -8,6 +8,8 @@
    SeeAlso:[Std Part](Std_Part.md), [Draft SelectGroup](Draft_SelectGroup.md), [Draft AddToGroup](Draft_AddToGroup.md)
 ---
 
+# Std Group
+
 ## Description
 
 [Std Group](Std_Group.md) (internally called [App DocumentObjectGroup](App_DocumentObjectGroup.md)) is a general purpose container that allows you to group different types of objects in the [tree view](tree_view.md), regardless of their data type. It is used as a simple folder to categorize and organize the objects in your model, in order to keep a logical structure. Std Groups may be nested inside other Std Groups.
@@ -121,4 +123,7 @@ For example, a [FEM Analysis](FEM_Analysis.md) is an `App::DocumentObjectGroupPy
 
 
 
- {{Std Base navi}}  
+ {{Std Base navi}}
+
+---
+[documentation index](../README.md) > Std Group

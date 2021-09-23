@@ -1,7 +1,4 @@
 # Drawing Template HowTo/ro
-
-
-
 **The [Drawing Workbench](Drawing_Workbench.md) became obsolete in v0.17. Consider using the [TechDraw Workbench](TechDraw_Workbench.md) instead.**
 
 
@@ -233,4 +230,7 @@ Cele două instrumente folosite în acest tutorial au fost Inkscape și Kate. Ac
 
 {{Drawing Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Template HowTo/ro

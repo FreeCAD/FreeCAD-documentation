@@ -1,5 +1,5 @@
 # Macro FlattenWire3Points
-  {{Macro
+{{Macro
 |Name=FlattenWire3Points
 |Icon=Macro_FlattenWire3Points.png
 |Description=This macro flattens draft wires that are not planar on a plane defined by 3 points.<br/> To use this macro, select first 3 vertices from a single Draft Wire.
@@ -55,3 +55,5 @@ ToolBar icon ![](images/Macro_FlattenWire3Points.png )
     sel.Object.Points = points
 }}
 
+---
+[documentation index](../README.md) > Macro FlattenWire3Points

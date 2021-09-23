@@ -1,7 +1,4 @@
 # Feature list/tr
- 
-
-
 <div class="mw-translate-fuzzy">
 
 FreeCAD\'in uyguladığı özelliklerin kapsamlı bir listesidir, dolayısıyla tam değildir. Gelecek dönemler için [Geliştirme yol haritasına](Development_roadmap.md) bakın veya hızlı bir şekilde göz gezdirmek için [Ekran görüntülerine](Screenshots.md) bir göz atın.
@@ -291,3 +288,6 @@ Uzman kullanıcılar, çeşitli özel [dış tezgahlar](external_workbenches.md)
 
 
 [Category:User Documentation](Category:User_Documentation.md)
+
+---
+[documentation index](../README.md) > [User Documentation](Category:User Documentation.md) > Feature list/tr

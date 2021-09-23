@@ -1,7 +1,4 @@
 # Macro Visibility Manager/it
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -245,3 +242,5 @@ else:
     FreeCAD.Console.PrintWarning("Visibility Manager v"+str(__version__)+": no active document\n")
 ```
 
+---
+[documentation index](../README.md) > Macro Visibility Manager/it

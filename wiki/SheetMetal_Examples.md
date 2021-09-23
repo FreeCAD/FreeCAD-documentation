@@ -1,8 +1,4 @@
 # SheetMetal Examples
-
- 
-
-
 {{TOCright}}
 
 
@@ -105,3 +101,6 @@ For the second use of **Extend Face** a Sketch with two contours is used for sha
 
 
 [Category:SheetMetal](Category:SheetMetal.md) [Category:Addons](Category:Addons.md) [Category:External Command Reference](Category:External_Command_Reference.md)
+
+---
+[documentation index](../README.md) > [SheetMetal](Category:SheetMetal.md) > SheetMetal Examples

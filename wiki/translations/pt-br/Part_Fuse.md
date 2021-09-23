@@ -6,6 +6,8 @@
    SeeAlso:[Part Boolean](Part_Boolean.md), [Part Cut](Part_Cut.md), [Part Common](Part_Common.md)
 ---
 
+# Part Fuse/pt-br
+
 ## Description
 
 The **![](images/)_[Part_Fuse](Part_Fuse.md)** tool fuses (unites) selected Part objects into one. This operation is fully parametric and the components can be modified and the result recomputed.
@@ -37,8 +39,5 @@ Items can be added and removed from the fusion, by dragging them in or out of th
 
 After this operation is complete, it may be necessary to clean up the shape with <img alt="" src=images/Part_RefineShape.svg  style="width:24px;"> [RefineShape](Part_RefineShape.md).
 
-
-
-
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Fuse/pt-br

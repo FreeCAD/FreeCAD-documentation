@@ -6,6 +6,8 @@
    Version:0.17
 ---
 
+# Arch CompRebarStraight/es
+
 ## Descripción
 
 El complemento de refuerzo aumenta el [Ambiente de trabajo Arquitectura](Arch_Workbench/es.md) proporcionando nuevas interfaces y preajustes para la creación de tipos de barras de refuerzo comunes para su uso con [Arquitectura Estructura](Arch_Structure/es.md). También está integrado en el ambiente de trabajo externo [BIM](BIM_Workbench/es.md).
@@ -38,8 +40,5 @@ Back to [Workbenches](Workbenches#External_workbenches.md) / [External Workbench
 
 -   <img alt="" src=images/Arch_Rebar.svg  style="width:32px;"> [Rebar](Arch_Rebar.md): Creates a custom reinforcement bar in a selected structural element using a sketch
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CompRebarStraight/es

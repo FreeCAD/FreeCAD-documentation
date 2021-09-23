@@ -8,6 +8,8 @@
    SeeAlso:[FCGear Engrenage à développante](FCGear_InvoluteGear/fr.md)
 ---
 
+# FCGear InvoluteRack/fr
+
 ## Description
 
 Les crémaillères sont utilisées pour convertir un mouvement rotatif en un mouvement linéaire ou vice versa. Les exemples suivants présentent les différentes applications:
@@ -117,3 +119,6 @@ Gui.SendMsgToActiveView("ViewFit")
 ``` 
 
 [Category:Addons](Category:Addons.md) [Category:FCGear](Category:FCGear.md) [Category:External Command Reference](Category:External_Command_Reference.md)
+
+---
+[documentation index](../README.md) > [Addons](Category:Addons.md) > FCGear InvoluteRack/fr

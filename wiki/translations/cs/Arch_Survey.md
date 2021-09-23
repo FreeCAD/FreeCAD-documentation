@@ -1,3 +1,4 @@
+# Arch Survey/cs
 ---
 - GuiCommand:/cs   Name:Arch Survey   Name/cs:Architektura Přehled    Workbenches:[MenuLocation:Arch → Survey   SeeAlso:[[Macro FCInfo/cs|FcInfo (macro)](Arch_Workbench/cs___Architektura]].md)---
 
@@ -85,8 +86,5 @@ for obj in selection:
         print("Center of Mass: %f", element.CenterOfMass)
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Survey/cs

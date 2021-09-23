@@ -1,10 +1,4 @@
 # Licence/ru
-
-
-
-
-
-
 {{TOCright}}
 
 ## Используемые Лицензии FreeCAD 
@@ -88,3 +82,6 @@ FreeCAD это смесь из библиотек и приложений, та�
  
 
 [Category:Developer Documentation](Category:Developer_Documentation.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Licence/ru

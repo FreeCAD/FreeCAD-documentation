@@ -7,6 +7,8 @@
 
 ---
 
+# Draft FlipDimension/pl
+
 ## Opis
 
 Narzędzie <img alt="" src=images/Draft_FlipDimension.svg  style="width:24px;"> **Odwróć wymiar** przerzuca tekst [wymiaru](Draft_Dimension/pl.md) wokół linii wymiarowej o 180°. Można go użyć do korekty wymiarów, których tekst ukazuje się w lustrzanym odbiciu. Polecenie nie działa poprawnie dla wymiarów kątowych.
@@ -47,8 +49,5 @@ dimension.Normal = dimension.Normal.negative()
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft FlipDimension/pl

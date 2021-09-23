@@ -1,5 +1,5 @@
 # Macro Cut Circle/fr
- {{Macro/fr
+{{Macro/fr
 |Name=Macro Cut Circle
 |Name/fr=Macro Cut Circle
 |Icon=Macro_Cut_Circle.png
@@ -117,3 +117,6 @@ ver 00.03 02/07/2019 : ajout \"App.ActiveDocument.recompute()\"
 ver 00.02 09/03/2015 : ajout de création des arcs colorés alternativement rouge et blanc ou non.
 
 ver 00.01 24/02/2015 :
+
+---
+[documentation index](../README.md) > Macro Cut Circle/fr

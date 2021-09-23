@@ -1,3 +1,4 @@
+# Std Revert/de
 ---
 - GuiCommand:/de   Name/de:Std Revert   MenuLocation:[[Std_File_Menu/de   Datei]] → Rückgängig|Workbenches:Alle   Shortcut:-   SeeAlso:---
 
@@ -23,4 +24,7 @@ The **Std Revert** command closes the active document and reopens the last saved
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std Revert/de

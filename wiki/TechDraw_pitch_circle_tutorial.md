@@ -1,7 +1,4 @@
 # TechDraw pitch circle tutorial
- 
-
-
 {{TutorialInfo
 |Topic=TechDraw
 |Level=Beginner
@@ -41,4 +38,7 @@ This tutorial explains how to add a pitch circle to a <img alt="" src=images/Wor
 8.  Call the <img alt="" src=images/TechDraw_DecorateLine.svg  style="width:24px;"> [TechDraw DecorateLine](TechDraw_DecorateLine.md) command.
 9.  Change the **Style** and **Weight** of the circle.
 
- {{TechDraw Tools navi}} 
+ {{TechDraw Tools navi}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw pitch circle tutorial

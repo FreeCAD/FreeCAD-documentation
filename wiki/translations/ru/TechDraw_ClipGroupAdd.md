@@ -7,6 +7,8 @@
    SeeAlso:[Создать группу Видов](TechDraw_ClipGroup/ru.md), [Удалить Вид из группы](TechDraw_ClipGroupRemove/ru.md)
 ---
 
+# TechDraw ClipGroupAdd/ru
+
 ## Описание
 
 Данный инструмент добавляет Вид в существующую группу Видов
@@ -24,4 +26,7 @@
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ClipGroupAdd/ru

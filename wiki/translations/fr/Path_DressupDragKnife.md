@@ -7,6 +7,8 @@
    SeeAlso:[Path Balise d'attache](Path_DressupTag/fr.md), [Path Rampe d'entrée](Path_DressupRampEntry/fr.md), [Path Dégagement d'angles](Path_DressupDogbone/fr.md)
 ---
 
+# Path DressupDragKnife/fr
+
 ## Description
 
 Une lame rotative utilise un tranchant sur un pivot pour couper le matériau en feuille comme le vinyle, le carton et le cuir. Le point de coupe n\'est pas aligné avec le centre de la broche mais suit le mouvement de la broche. Parce que le point de coupe est décalé, le chemin doit être modifié pour dépasser le point d\'extrémité de chaque segment. En outre, la lame rotative est incapable de faire des virages extrêmement serrés. Pour compenser, une \'action de coin\' de pivot est insérée et soulève légèrement la lame puis pivote dans la nouvelle position.
@@ -30,4 +32,7 @@ Cet outil ajoute au tracé existant des actions de coin et des extensions de bor
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path DressupDragKnife/fr

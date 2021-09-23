@@ -4,3 +4,6 @@ This category lists pages related to the [Points Workbench/zh-hant](Points_Workb
 ### Contents:
 
 [Category:Workbenches/zh-hant](Category:Workbenches/zh-hant.md)
+
+---
+[documentation index](../README.md) > Category:Points/zh-hant

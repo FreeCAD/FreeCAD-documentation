@@ -1,6 +1,4 @@
 # FreeCAD Managing Expectations
- 
-
 ## Purpose
 
  
@@ -73,3 +71,6 @@ Links to forum thread discussions related to this topic
 
 
 [Category:Common Questions](Category:Common_Questions.md)
+
+---
+[documentation index](../README.md) > [Common Questions](Category:Common Questions.md) > FreeCAD Managing Expectations

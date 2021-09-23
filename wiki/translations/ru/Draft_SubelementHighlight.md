@@ -8,6 +8,8 @@
    SeeAlso:[Draft Edit](Draft_Edit/ru.md)
 ---
 
+# Draft SubelementHighlight/ru
+
 
 </div>
 
@@ -47,5 +49,5 @@ The <img alt="" src=images/Draft_SubelementHighlight.svg  style="width:24px;"> *
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft SubelementHighlight/ru

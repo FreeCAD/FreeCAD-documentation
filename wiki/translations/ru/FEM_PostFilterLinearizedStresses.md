@@ -9,6 +9,8 @@
    SeeAlso:[FEM tutorial](FEM_tutorial/ru.md)
 ---
 
+# FEM PostFilterLinearizedStresses/ru
+
 
 </div>
 
@@ -30,4 +32,7 @@ ToDo
 
 {{FEM Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > FEM PostFilterLinearizedStresses/ru

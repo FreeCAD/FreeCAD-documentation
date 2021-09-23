@@ -1,10 +1,4 @@
-# Arch Workbench/pt-br
-
-
-
-
-
-<img alt="Ícone da bancada de trabalho Arch" src=images/Workbench_Arch.svg  style="width:128px;">
+# <img alt="Ícone da bancada de trabalho Arch" src=images/Workbench_Arch.svg  style="width:64px;"> Arch Workbench/pt-br
 
 
 {{TOCright}}
@@ -145,3 +139,6 @@ A bancada (módulo) Arch pode ser usado em scripts [Python](Python/pt-br.md) e [
  
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Arch Workbench/pt-br

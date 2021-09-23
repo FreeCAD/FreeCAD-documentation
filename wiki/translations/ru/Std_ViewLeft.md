@@ -8,6 +8,8 @@
    SeeAlso:[Std ViewRear](Std_ViewRear/ru.md), [Std ViewBottom](Std_ViewBottom/ru.md)
 ---
 
+# Std ViewLeft/ru
+
 ## Описание
 
 The **Std ViewLeft** command points the camera in the active [3D view](3D_view.md) in the direction of the positive X axis.
@@ -45,4 +47,7 @@ FreeCADGui.ActiveDocument.ActiveView.getViewDirection()
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ViewLeft/ru

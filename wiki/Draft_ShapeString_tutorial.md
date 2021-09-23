@@ -1,5 +1,5 @@
 # Draft ShapeString tutorial
-  {{TutorialInfo
+{{TutorialInfo
 |Topic=Product design
 |Level=Beginner
 |Time=30 minutes
@@ -181,4 +181,7 @@ See the forum thread, [How to use ShapeStrings in PartDesign](https://forum.free
 -   To create curved text you can use the macro <img alt="" src=images/FCCircularTextButtom.png  style="width:32px;"> [Circular Text](Macro_Circular_Text.md).
 -   To import text from an SVG file look at the [Import text and geometry from Inkscape](Import_text_and_geometry_from_Inkscape.md) tutorial.
 
- {{Tutorials navi}}  {{PartDesign Tools navi}} {{Sketcher Tools navi}} 
+ {{Tutorials navi}}  {{PartDesign Tools navi}} {{Sketcher Tools navi}}
+
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ShapeString tutorial

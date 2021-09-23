@@ -1,3 +1,4 @@
+# Draft Ellipse/sv
 ---
 - GuiCommand:/sv   Name:Draft Ellipse   Name/sv:Draft Ellipse   Workbenches:[Arch](Draft_Workbench/sv___Draft]],_[[Arch_Workbench/sv.md)|MenuLocation:Draft -> Ellipse   Shortcut:E L   SeeAlso:[Draft Circle](Draft_Circle/sv.md)---
 
@@ -125,8 +126,5 @@ ellipse3 = Draft.make_ellipse(700, 1000, placement=place3)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Ellipse/sv

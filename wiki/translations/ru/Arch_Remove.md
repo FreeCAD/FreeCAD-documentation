@@ -7,6 +7,8 @@
    SeeAlso:[Arch CutLine](Arch_CutLine.md), [Arch CutPlane](Arch_CutPlane.md), [Добавить компонент](Arch_Add/ru.md)
 ---
 
+# Arch Remove/ru
+
 
 </div>
 
@@ -97,8 +99,5 @@ FreeCAD.ActiveDocument.recompute()
 
 </div>
 
-
-
-
-
-
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Remove/ru

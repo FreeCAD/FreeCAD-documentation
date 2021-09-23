@@ -7,6 +7,8 @@
    Version:0.18
 ---
 
+# Sketcher ViewSection/ru
+
 ## Описание
 
 Инструмент **Обзор сечения** создает плоскость сечения, которая временно скрывает любые материалы перед плоскостью эскиза.
@@ -30,4 +32,7 @@
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ViewSection/ru

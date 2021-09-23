@@ -1,5 +1,5 @@
 # Sketcher CompCopy/de
- {{GuiCommand/de
+{{GuiCommand/de
 |Name=Clone, copy or move a geometrie
 |Name/de=Klonen, kopieren oder bewegen einer Geometrie
 |MenuLocation=Keine (nur Werkzeugleiste)
@@ -19,4 +19,7 @@ Klont, kopiert oder bewegt eine Geometrie. Klicke auf den Pfeil rechts neben dem
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CompCopy/de

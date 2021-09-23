@@ -7,6 +7,8 @@
    SeeAlso:[Part Querschnitte](Part_CrossSections/de.md)
 ---
 
+# Part Section/de
+
 
 </div>
 
@@ -43,5 +45,5 @@ Zum Erzeugen von Abschnitten mit einer Schnittebene siehe <img alt="" src=images
 
 </div>
 
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Section/de

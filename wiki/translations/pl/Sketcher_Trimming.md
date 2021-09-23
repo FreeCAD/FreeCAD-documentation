@@ -8,6 +8,8 @@
    SeeAlso:[Rozszerz krawędź](Sketcher_Extend/pl.md)
 ---
 
+# Sketcher Trimming/pl
+
 ## Opis
 
 To narzędzie przycina krawędź do najbliższej nachodzącej krawędzi.
@@ -31,4 +33,7 @@ To narzędzie przycina krawędź do najbliższej nachodzącej krawędzi.
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Trimming/pl

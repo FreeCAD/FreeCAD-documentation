@@ -1,8 +1,4 @@
 # Code snippets
- 
-
- 
-
 ## Introduction
 
 This page contains examples, pieces, chunks of FreeCAD python code collected from users experiences and discussions on the [forums](https://forum.freecadweb.org/viewforum.php?f=22). Read and use it as a start for your own scripts\...
@@ -1751,3 +1747,6 @@ See [Coin3d snippets](Coin3d_snippets.md)
  {{Powerdocnavi}}
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Code snippets

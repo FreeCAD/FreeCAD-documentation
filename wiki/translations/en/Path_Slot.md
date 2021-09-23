@@ -6,6 +6,8 @@
    Version:0.19
 ---
 
+# Path Slot/en
+
 ## Description
 
 This tool creates a simple slotting operation using various methods of input. Inputs include:
@@ -254,4 +256,7 @@ Example:
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Slot/en

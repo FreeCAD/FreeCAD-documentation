@@ -6,6 +6,8 @@
    SeeAlso:[Preferences Editor](Preferences_Editor.md)
 ---
 
+# Std DlgParameter/en
+
 ## Description
 
 The **Std DlgParameter** command opens the Parameter Editor. In the Parameter Editor the parameters that control the behavior of FreeCAD and its workbenches can be inspected and optionally removed, added or changed. The parameters are stored in a file called {{FileName|user.cfg}}, the location of this file depends on your OS.
@@ -169,4 +171,7 @@ It is likely a bad idea to modify the preferences of other parts of FreeCAD unle
 
 {{Std Base navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > Std DlgParameter/en

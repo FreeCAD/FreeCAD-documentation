@@ -1,7 +1,4 @@
 # Manual:A gentle introduction/it
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -134,3 +131,6 @@ box.Placement = otherpla
 }}
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Manual:A gentle introduction/it

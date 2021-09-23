@@ -1,7 +1,4 @@
 # Draft tutorial
- 
-
-
 {{TutorialInfo
 |Topic= Drafting
 |Level= Beginner
@@ -221,4 +218,7 @@ The [Draft Workbench](Draft_Workbench.md) in many ways is similar to the [Sketch
 
 -   It is possible to transform a Draft object into a <img src=images/Draft_Draft2Sketch.svg style="width:Sketch](Sketch.md), and the other way around, using the **[16px"> [Draft Draft2Sketch](Draft_Draft2Sketch.md)** tool.
 
- {{Tutorials navi}}  
+ {{Tutorials navi}}
+
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft tutorial

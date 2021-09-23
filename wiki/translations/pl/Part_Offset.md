@@ -7,6 +7,8 @@
    SeeAlso:[Grubość](Part_Thickness/pl.md), [Odsunięcie 2D](Part_Offset2D/pl.md)
 ---
 
+# Part Offset/pl
+
 ## Opis
 
 Narzędzie **Część Odsunięcie 3D** tworzy równoległe kopie wybranego kształtu w pewnej odległości od kształtu bazowego, równocześnie tworząc nowy obiekt.
@@ -56,10 +58,7 @@ ten sam kształt z odsunięciem 3D jako POWŁOKA i *wypełnionym* odsunięciem
 
 Odsunięcie **wypełnione** z 2 cylindrami tworzącymi cięcia funkcją logiczną. Cylinder A przechodzi przez WYPEŁNIENIE, podczas gdy Cylinder B przechodzi tylko przez WYPEŁNIENIE, a NIE przez źródłowy kształt 2D.
 
-<img alt="" src=images/PartOffset6.png  style="width:400" height="200px;"> 
+<img alt="" src=images/PartOffset6.png  style="width:400" height="200px;">
 
-
-
-
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Offset/pl

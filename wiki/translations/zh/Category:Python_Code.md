@@ -6,3 +6,6 @@ This category contains python code examples for FreeCAD
 [Debugging/zh](Debugging/zh.md) , [Property/zh](Property/zh.md) , [Topological data scripting/zh](Topological_data_scripting/zh.md)
 
 [Category:Categories/zh](Category:Categories/zh.md)
+
+---
+[documentation index](../README.md) > Category:Python Code/zh

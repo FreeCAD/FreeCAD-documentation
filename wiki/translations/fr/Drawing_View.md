@@ -8,6 +8,8 @@
    SeeAlso:[Feuille A3 Paysage](Drawing_Landscape_A3/fr.md)
 ---
 
+# Drawing View/fr
+
 Cet outil créé une nouvelle vue de l\'objet sélectionné dans la feuille de dessin active.
 
 <img alt="Une feuille de dessin avec trois vues : face, dessus et isométrique." src=images/Drawing_Views_fr.png  style="width:500px;">
@@ -65,4 +67,7 @@ Si vous recherchez un basculement orthogonal en perspective dans la vue 3D, vér
 
 {{Drawing Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing View/fr

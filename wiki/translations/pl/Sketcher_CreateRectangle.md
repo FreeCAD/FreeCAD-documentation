@@ -8,6 +8,8 @@
    SeeAlso:[Zaokrąglony prostokąt](Sketcher_CreateOblong/pl.md), [Linia łamana](Sketcher_CreatePolyline/pl.md)
 ---
 
+# Sketcher CreateRectangle/pl
+
 ## Opis
 
 Narzędzie to rysuje prostokąt, wybierając dwa przeciwstawne punkty. Po uruchomieniu narzędzia wskaźnik myszy zmienia się w biały krzyż z czerwoną prostokątną ikoną. Na bieżąco wyświetlane są obok niego współrzędne wskaźnika w kolorze niebieskim.
@@ -27,4 +29,7 @@ Aby zdefiniować prostokąt za pomocą punktu środkowego i punktu na krawędzi,
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateRectangle/pl

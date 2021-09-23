@@ -6,3 +6,6 @@ Pages related to testing in regards to unit testing, continuous integration, qua
 [Continuous Integration/ro](Continuous_Integration/ro.md) , [Testing/ro](Testing/ro.md) ,
 
 [Category:Test Framework/ro](Category:Test_Framework/ro.md)
+
+---
+[documentation index](../README.md) > Category:Testing/ro

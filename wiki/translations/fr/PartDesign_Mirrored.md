@@ -6,6 +6,8 @@
    Workbenches:[PartDesign](PartDesign_Workbench/fr.md)
 ---
 
+# PartDesign Mirrored/fr
+
 ## Description
 
 L\'outil **Symétrie** copie symétriquement des fonctions par rapport à un plan.
@@ -81,4 +83,7 @@ Le résultat de la symétrie peut être prévisualisé en temps réel avant de c
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Mirrored/fr

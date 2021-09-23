@@ -8,6 +8,8 @@
    SeeAlso:[Additives Rohr](PartDesign_AdditivePipe/de.md), [Subtraktive Ausformung](PartDesign_SubtractiveLoft/de.md)
 ---
 
+# PartDesign SubtractivePipe/de
+
 
 </div>
 
@@ -96,4 +98,7 @@
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractivePipe/de

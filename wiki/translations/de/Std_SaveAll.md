@@ -7,6 +7,8 @@
    SeeAlso:[Std Speichern](Std_Save/de.md)
 ---
 
+# Std SaveAll/de
+
 ## Beschreibung
 
 Der **Std AllesSpeichern**-Befehl speichert alle offenen Dokumente.
@@ -39,4 +41,7 @@ Um ein Dokument zu speichern, benutze die `save`-Methode des Dokument-Objekts. E
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std SaveAll/de

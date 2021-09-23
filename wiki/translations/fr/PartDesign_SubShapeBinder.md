@@ -8,6 +8,8 @@
    SeeAlso:[PartDesign Forme liée](PartDesign_ShapeBinder/fr.md), [PartDesign Clone](PartDesign_Clone.md)
 ---
 
+# PartDesign SubShapeBinder/fr
+
 ## Description
 
 [PartDesign Sous forme liée](PartDesign_SubShapeBinder/fr.md) importe un élément d\'un autre corps dans le [Corps](PartDesign_Body/fr.md) actif. Il peut prendre la [Shape](Shape/fr.md) de, ou être \"lié\" à un ou plusieurs objets ou sous-éléments (bords ou faces) d\'un autre objet.
@@ -80,4 +82,7 @@ Voir [Part Fonctionnalité](Part_Feature/fr.md).
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubShapeBinder/fr

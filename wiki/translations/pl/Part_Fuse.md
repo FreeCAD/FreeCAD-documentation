@@ -7,6 +7,8 @@
    SeeAlso:[Wytnij](Part_Cut/pl.md), [Część wspólna](Part_Common/pl.md), [Operacje logiczne](Part_Boolean/pl.md)
 ---
 
+# Part Fuse/pl
+
 ## Opis
 
 Narzędzie **![](images/)_[Scalenie](Part_Fuse/pl.md)** łączy *(jednoczy)* wybrane obiekty środowiska Części w jeden. Ta operacja jest w pełni parametryczna i komponenty mogą być modyfikowane, a wynik ponownie obliczany.
@@ -38,8 +40,5 @@ Elementy mogą być dodawane i usuwane z scalenia, poprzez przeciąganie ich mys
 
 Po zakończeniu tej operacji może być konieczne wyczyszczenie kształtu za pomocą narzędzia <img alt="" src=images/Part_RefineShape.svg  style="width:24px;">. [Udoskonal kształt](Part_RefineShape/pl.md).
 
-
-
-
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Fuse/pl

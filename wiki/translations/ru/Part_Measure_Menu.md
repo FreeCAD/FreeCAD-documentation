@@ -7,6 +7,8 @@
    SeeAlso:[Std MeasureDistance](Std_MeasureDistance/ru.md), [Draft Dimension](Draft_Dimension/ru.md), [Arch Survey](Arch_Survey/ru.md)
 ---
 
+# Part Measure Menu/ru
+
 
 </div>
 
@@ -39,3 +41,6 @@
  
 
 [Category:Documentation](Category:Documentation.md)
+
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Menu/ru

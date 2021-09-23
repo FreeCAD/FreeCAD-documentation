@@ -1,3 +1,4 @@
+# FEM MeshClear/it
 ---
 - GuiCommand:/it   Name:FEM_MeshClear   Name/it:FEM MeshClear   Icon:Fem-femmesh-clear-mesh.svg   MenuLocation: Menu contestuale dell'oggetto mesh → FEM mesh clear   |Workbenches:[Shortcut:   SeeAlso:[[FEM_tutorial/it|Tutorial FEM](FEM_Workbench/it___FEM]].md)---
 
@@ -35,4 +36,7 @@ Da fare
 
 {{FEM Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > FEM MeshClear/it

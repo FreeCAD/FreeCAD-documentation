@@ -1,3 +1,4 @@
+# Sketcher SelectHorizontalAxis/ro
 ---
 - GuiCommand:/ro   Name:Sketcher SelectHorizontalAxis   Name/ro:Sketcher SelectHorizontalAxis   Workbenches:[[Sketcher Workbench/ro   Sketcher]]|MenuLocation:Sketch → Sketcher tools → Select Horizontal Axis   Shortcut:Shift+Ctrl+H   Version:0.15---
 
@@ -32,4 +33,7 @@ Selectează axa orizontală a schiței.
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectHorizontalAxis/ro

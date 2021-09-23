@@ -8,6 +8,8 @@
    SeeAlso:[Импорт электронной таблицы](Spreadsheet_Import/ru.md)
 ---
 
+# Spreadsheet Export/ru
+
 ## Описание
 
 The **<img src=images/Spreadsheet_Export.svg style="width:16px"> [Spreadsheet Export](Spreadsheet_Export.md)** tool allows you to export a spreadsheet as a tab-separated values file (loosely denoted as CSV), which subsequently can be opened and used in other applications.
@@ -23,4 +25,7 @@ The **<img src=images/Spreadsheet_Export.svg style="width:16px"> [Spreadsheet Ex
 
 {{Spreadsheet_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet Export/ru

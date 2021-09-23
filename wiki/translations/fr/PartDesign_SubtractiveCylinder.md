@@ -8,6 +8,8 @@
    SeeAlso:[Créer une primitive soustractive](PartDesign_CompPrimitiveSubtractive/fr.md), [Cylindre additif](PartDesign_AdditiveCylinder/fr.md)
 ---
 
+# PartDesign SubtractiveCylinder/fr
+
 ## Description
 
 Insère un cylindre primitif soustractif dans le Corps actif. Sa forme est soustraite du solide existant.
@@ -54,4 +56,7 @@ Le Cylindre peut être édité après sa création de deux façons :
 
 {{PartDesign Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveCylinder/fr

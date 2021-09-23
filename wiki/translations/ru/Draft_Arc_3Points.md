@@ -9,6 +9,8 @@
    SeeAlso:[Draft Arc](Draft_Arc/ru.md), [Draft Circle](Draft_Circle/ru.md), [Draft Ellipse](Draft_Ellipse/ru.md)
 ---
 
+# Draft Arc 3Points/ru
+
 
 </div>
 
@@ -97,8 +99,5 @@ arc = Draft.make_arc_3points(points)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Arc 3Points/ru

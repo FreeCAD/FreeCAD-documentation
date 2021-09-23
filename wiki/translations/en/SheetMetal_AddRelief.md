@@ -6,6 +6,8 @@
    Shortcut:**S** **R**
 ---
 
+# SheetMetal AddRelief/en
+
 ## Description
 
 The <img alt="" src=images/SheetMetal_Relief.svg  style="width:24px;"> **SheetMetal AddRelief** command\...
@@ -77,3 +79,6 @@ A SheetMetal Relief object is derived from a [Part Feature](Part_Feature.md) obj
 
 
 [Category:SheetMetal](Category:SheetMetal.md) [Category:Addons](Category:Addons.md) [Category:External Command Reference](Category:External_Command_Reference.md)
+
+---
+[documentation index](../README.md) > [SheetMetal](Category:SheetMetal.md) > SheetMetal AddRelief/en

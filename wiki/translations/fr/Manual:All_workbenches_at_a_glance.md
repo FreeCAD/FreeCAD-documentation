@@ -1,10 +1,4 @@
 # Manual:All workbenches at a glance/fr
-
-
-
-
-
-
 {{Manual:TOC/fr}}
 
 L\'une des plus grandes difficultés pour les nouveaux utilisateurs de FreeCAD est de savoir dans quel atelier trouver un outil spécifique. Le tableau ci-dessous vous donnera un aperçu des ateliers les plus importants et leurs outils. Reportez-vous à chaque page [atelier](Workbenches/fr.md) dans la documentation FreeCAD pour une liste complète d\'informations.
@@ -155,6 +149,5 @@ Un certain nombre d\'autres ateliers très utiles produits par les membres de la
 -   [Atelier FEM](FEM_Workbench/fr.md)
 -   [Le dépôt des greffons pour FreeCAD](https://github.com/FreeCAD/FreeCAD-addons)
 
-
-
-
+---
+[documentation index](../README.md) > Manual:All workbenches at a glance/fr

@@ -7,6 +7,8 @@
    SeeAlso:[Vergrößern](Std_ViewZoomIn/de.md), [Verkleinern](Std_ViewZoomOut/de.md)
 ---
 
+# Std ViewBoxZoom/de
+
 ## Beschreibung
 
 
@@ -38,4 +40,7 @@ Die Größe des zu vergrößernden Bereichs werden mit einem Rechteck in der 3D-
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ViewBoxZoom/de

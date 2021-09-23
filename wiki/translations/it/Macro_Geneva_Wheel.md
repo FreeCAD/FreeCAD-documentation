@@ -1,5 +1,5 @@
 # Macro Geneva Wheel/it
- {{Macro/it
+{{Macro/it
 |Name=Geneva Wheel
 |Icon=GW_Dim.png
 |Translate=Croce di Malta
@@ -149,6 +149,5 @@ Part.show(driveCrank)
 Part.show(genevaWheel)
 }}
 
-
-
-
+---
+[documentation index](../README.md) > Macro Geneva Wheel/it

@@ -1,3 +1,4 @@
+# Sketcher ConstrainParallel/pt-br
 ---
 - GuiCommand:/pt-br   Name:Constraint Parallel   Name/pt-br:Constraint Parallel   Workbenches:[PartDesign](Sketcher_Workbench/pt-br___Sketcher]],_[[PartDesign_Workbench/pt-br.md)|MenuLocation:Sketch → Sketcher constraints → Constrain parallel   SeeAlso:[Constraint Vertical](Constraint_Vertical/pt-br.md), [Constraint Horizontal](Constraint_Horizontal/pt-br.md)---
 
@@ -43,4 +44,7 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainParallel/pt-br

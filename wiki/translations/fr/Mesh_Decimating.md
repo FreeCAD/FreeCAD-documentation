@@ -6,6 +6,8 @@
    Workbenches:[Mesh](Mesh_Workbench/fr.md)
 ---
 
+# Mesh Decimating/fr
+
 ## Description
 
 La commande **Mesh Décimation** réduit le nombre de faces dans les objets maillés.
@@ -32,4 +34,7 @@ La commande **Mesh Décimation** réduit le nombre de faces dans les objets mail
 
 {{Mesh Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Decimating/fr

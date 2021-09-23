@@ -6,6 +6,8 @@
    Workbenches:[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
 ---
 
+# Draft Shape2DView/fr
+
 ## Description
 
 La commande <img alt="" src=images/Draft_Shape2DView.svg  style="width:24px;"> **Draft Vue 2D d\'une forme** crée des projections 2D à partir d\'objets sélectionnés, généralement des solides 3D ou des [Arch Plan de section](Arch_SectionPlane/fr.md). Les projections sont placées dans la [Vue 3D](3D_view/fr.md).
@@ -142,8 +144,5 @@ shape3.ProjectionMode = "Individual Faces"
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Shape2DView/fr

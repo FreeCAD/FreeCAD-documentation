@@ -1,3 +1,4 @@
+# Draft Clone/ro
 ---
 - GuiCommand:   Name:Draft Clone   Workbenches:[Arch](Draft_Workbench___Draft]],_[[Arch_Workbench.md)|MenuLocation:Draft → Clone   SeeAlso:[Draft Scale](Draft_Scale.md)---
 
@@ -119,8 +120,5 @@ cloned_object.Fuse = True
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Clone/ro

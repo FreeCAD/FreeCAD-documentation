@@ -1,7 +1,4 @@
 # Basic Part Design Tutorial/es
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -160,4 +157,7 @@ Este tutorial y tu modelo están completos.
 
 {{Tutorials navi
 
-}} {{PartDesign Tools navi}} {{Sketcher Tools navi}} 
+}} {{PartDesign Tools navi}} {{Sketcher Tools navi}}
+
+---
+[documentation index](../README.md) > Basic Part Design Tutorial/es

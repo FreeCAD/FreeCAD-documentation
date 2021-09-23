@@ -1,5 +1,5 @@
 # Whiffle Ball tutorial/de
- {{TutorialInfo/de
+{{TutorialInfo/de
 |Topic=Produktgestaltung
 |Level=Anfänger
 |Time=30 min
@@ -254,4 +254,7 @@ Wenn alles gut lief, sollte das Modell wie folgt aussehen:
 
 {{Tutorials navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Whiffle Ball tutorial/de

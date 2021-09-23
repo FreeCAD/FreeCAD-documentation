@@ -7,6 +7,8 @@
    Siehe auch:[Std MakroStopAufzeichnung](Std_DlgMacroExecuteDirect/de.md)
 ---
 
+# Std DlgMacroRecord/de
+
 ## Beschreibung
 
 Der **Std DlgMacroRecord** Befehl startet eine [Makro](Macros/de.md) Aufnahmesitzung, während der Benutzeraktionen in einem FreeCAD Makro, einer Datei mit der {{FileName|.FCMacro}} Erweiterung gespeichert werden. Ein Makro kann später wiedergegeben und ausgeführt werden, um die aufgezeichneten Aktionen zu wiederholen.
@@ -50,4 +52,7 @@ Der **Std DlgMacroRecord** Befehl startet eine [Makro](Macros/de.md) Aufnahmesit
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std DlgMacroRecord/de

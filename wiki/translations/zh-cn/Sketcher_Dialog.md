@@ -1,10 +1,4 @@
 # Sketcher Dialog/zh-cn
-
-
-
-
-
-
 <div style="float:right; clean:both; margin-left:0.5em;">
 
 \_\_TOC\_\_
@@ -217,4 +211,7 @@ You can set the following options:
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Dialog/zh-cn

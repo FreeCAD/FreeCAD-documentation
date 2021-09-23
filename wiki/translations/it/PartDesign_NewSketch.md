@@ -7,6 +7,8 @@
    Version:0.17
 ---
 
+# PartDesign NewSketch/it
+
 
 </div>
 
@@ -95,4 +97,7 @@ To reference any items in the <img src=images/Sketcher_CarbonCopy.svg style="wid
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign NewSketch/it

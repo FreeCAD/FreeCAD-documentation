@@ -8,6 +8,8 @@
    SeeAlso:[Arch Gebäude](Arch_Building/de.md), [Arch Gebäudeteil](Arch_BuildingPart/de.md), [Arch Grundstück](Arch_Site/de.md)
 ---
 
+# Arch Floor/de
+
 ## Beschreibung
 
 Eine [Arch Etage](Arch_Floor/de.md) ist ein spezielles FreeCAD Gruppenobjekt mit mehreren Zusatzeigenschaften, welche insbesondere zur Etagenkonstruktion geeignet sind. Insbesondere hält diese Gruppe eine Höhen-Eigenschaft, welche von allen Kindobjekten ([Wände](Arch_Wall/de.md) und [Bauelemente](Arch_Structure/de.md)) genutzt werden kann, um die Höhe automatisch anzupassen. Im Wesentlichen dient das Etagenobjekt der Organisation des Konstruktionsmodells.
@@ -67,11 +69,5 @@ Site = Arch.makeSite(Building)
 FreeCAD.ActiveDocument.recompute() 
 ```
 
-
-
-
-
-
-
-
-
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Floor/de

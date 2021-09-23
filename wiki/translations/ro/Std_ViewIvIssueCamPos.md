@@ -6,6 +6,8 @@
    SeeAlso:[Std FreezeViews](Std_FreezeViews.md)
 ---
 
+# Std ViewIvIssueCamPos/ro
+
 
 <div class="mw-translate-fuzzy">
 
@@ -63,4 +65,7 @@ FreeCADGui.ActiveDocument.ActiveView.getCamera()
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ViewIvIssueCamPos/ro

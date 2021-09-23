@@ -6,6 +6,8 @@
    SeeAlso:[Hochstufen](Draft_Upgrade/de.md), [Herabstufen](Draft_Downgrade/de.md)
 ---
 
+# Draft Heal/de
+
 
 </div>
 
@@ -39,5 +41,5 @@ Dieser Befehl versucht, Objekte aus dem [Draft Arbeitsbereich](Draft_Workbench/d
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Heal/de

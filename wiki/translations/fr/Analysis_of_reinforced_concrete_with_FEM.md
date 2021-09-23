@@ -1,5 +1,5 @@
 # Analysis of reinforced concrete with FEM/fr
- {{TutorialInfo/fr
+{{TutorialInfo/fr
 |Topic=Béton armé avec FEM
 |Level=Intermédiaire
 |Time=60 minutes
@@ -183,4 +183,7 @@ Le modèle de contrainte de traction suggère un concept alternatif utilisant de
 
 {{Tutorials navi
 
-}} {{FEM Tools navi}} 
+}} {{FEM Tools navi}}
+
+---
+[documentation index](../README.md) > Analysis of reinforced concrete with FEM/fr

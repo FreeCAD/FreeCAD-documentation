@@ -1,7 +1,4 @@
 # Getting started/zh
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -268,3 +265,6 @@ Freecad作为一种开放源代码软件，提供了使用插件补充其工作�
 {{Userdocnavi/zh}}
 
 [Category:User Documentation/zh](Category:User_Documentation/zh.md)
+
+---
+[documentation index](../README.md) > Getting started/zh

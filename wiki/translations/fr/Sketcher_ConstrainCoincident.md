@@ -8,6 +8,8 @@
    SeeAlso:[Sketcher Contrainte fixe](Sketcher_ConstrainLock/fr.md), [Sketcher Contrainte point sur objet](Sketcher_ConstrainPointOnObject/fr.md)
 ---
 
+# Sketcher ConstrainCoincident/fr
+
 ## Description
 
 Créer une contrainte de coïncidence entre les éléments sélectionnés.
@@ -81,4 +83,7 @@ La page [Sketcher : Écrire un script](Sketcher_scripting/fr.md) explique les va
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainCoincident/fr

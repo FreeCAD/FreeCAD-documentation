@@ -1,11 +1,4 @@
 # Path Preferences
- 
-
-
-
-
- 
-
 ## Overview
 
 The preferences screen of the [Path Workbench](Path_Workbench.md) are found in the [Preferences Editor](Preferences_Editor.md), **Edit → Preferences → Path**.
@@ -42,3 +35,6 @@ There are three sections: General, Post processor, and Setup.
  {{Path_Tools_navi}} 
 
 [Category:Preferences](Category:Preferences.md)
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Preferences

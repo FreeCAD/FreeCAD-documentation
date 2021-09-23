@@ -9,6 +9,8 @@
    SeeAlso:[Entwurf Verbinden](Draft_Join/de.md)
 ---
 
+# Draft Split/de
+
 ## Beschreibung
 
 Der <img alt="" src=images/Draft_Split.svg  style="width:24px;"> **Entwurf Teilen** Befehl teilt eine [Entwurf Linie](Draft_Line/de.md) oder [Entwurf Draht](Draft_Wire/de.md) an einem bestimmten Punkt oder einer Kante. Dieser Befehl ist das Gegenstück zum Befehl [Entwurf Verbinden](Draft_Join/de.md).
@@ -74,8 +76,5 @@ Draft.split(wire, p3, 1)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Split/de

@@ -1,5 +1,5 @@
 # Macro BOLTS/fr
- {{Macro/fr
+{{Macro/fr
 |Name=BOLTS
 |Icon=Macro_BOLTS.png
 |Description=BOLTS essaie de fournir une bibliothèque de pièces standards et communes pour FreeCAD
@@ -36,3 +36,6 @@ Les instructions détaillées sur la [section documentation](https://github.com/
 Une bibliothèque de pièces utiles pour un large éventail de personnes n\'est réalisable que par un effort collectif.
 
 Il existe de nombreuses possibilités et façons de [contribuer à BOLTS](https://boltsparts.github.io/en/contribute.html).
+
+---
+[documentation index](../README.md) > Macro BOLTS/fr

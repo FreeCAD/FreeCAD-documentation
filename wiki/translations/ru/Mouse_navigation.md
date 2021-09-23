@@ -1,10 +1,4 @@
 # Mouse navigation/ru
-
-
-
-
-
-
 {{TOCright}}
 
 ## Обзор
@@ -252,8 +246,5 @@ FreeCAD так же поддерживает несколько [3d мышей](
 
 The tutorial [Adding a new mouse navigation option to FreeCAD](Adding_a_new_mouse_navigation_option_to_FreeCAD.md) orients developers who want to develop a custom mouse navigation option. Familiarity with the C++ syntax is required.
 
-
-
-
-
-
+---
+[documentation index](../README.md) > Mouse navigation/ru

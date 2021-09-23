@@ -1,10 +1,4 @@
 # Getting started/ro
-
-
-
-
-
-
 {{TOCright}}
 
 ## Cuvânt înainte 
@@ -336,3 +330,6 @@ Iar, la sfârşit, să remarcăm că una dintre cele mai puternice caracteristic
 
 
 [Category:User Documentation/ro](Category:User_Documentation/ro.md)
+
+---
+[documentation index](../README.md) > Getting started/ro

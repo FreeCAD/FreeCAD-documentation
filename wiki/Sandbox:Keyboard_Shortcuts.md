@@ -1,5 +1,4 @@
 # Sandbox:Keyboard Shortcuts
-
 {{TOCright}}
 
 # Context
@@ -979,3 +978,6 @@ Proposed guidelines :
   [Web\_OpenWebsite](Web_OpenWebsite.md)         <img alt="" src=images/Web_OpenWebsite.svg  style="width:24px;">         Opens a website in FreeCAD                
 
 [Category:Sandbox](Category:Sandbox.md)
+
+---
+[documentation index](../README.md) > Sandbox:Keyboard Shortcuts

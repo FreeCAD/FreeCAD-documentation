@@ -1,10 +1,4 @@
 # Manual:The FreeCAD document/pl
-
-
-
-
-
-
 {{Manual:TOC}}
 
 A FreeCAD document contains all the objects of your scene. It can contain groups and objects made with any workbench. You can therefore switch between workbenches, and still work on the same document and/or objects within that document. The document is what gets saved to disk when you save your work. You can also open several documents at the same time in FreeCAD, and open several views of the same document.
@@ -26,6 +20,5 @@ FreeCAD documents are saved with the .FcStd extension, which is a zip-based comp
 -   [The FreeCAD document](Document_structure.md)
 -   [File Format FCStd](File_Format_FCStd.md)
 
-
-
-
+---
+[documentation index](../README.md) > Manual:The FreeCAD document/pl

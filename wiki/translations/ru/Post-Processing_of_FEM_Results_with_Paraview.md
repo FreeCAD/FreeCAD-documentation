@@ -1,5 +1,5 @@
 # Post-Processing of FEM Results with Paraview/ru
- {{TutorialInfo/ru
+{{TutorialInfo/ru
 |Topic= Post-Processing of FEM Results with ParaView
 |Level= Intermediate
 |Time= 120 минут
@@ -351,4 +351,7 @@ CoG\_z = 187144 / 556,277 = 336,4 мм (точное значение: 5/6 \* 40
 
 ## Экспорт графических результатов 
 
-Чтобы экспортировать окно RenderView, выделите окно и используйте опцию меню **File > Save Screenshot** {{Tutorials navi}} {{FEM Tools navi}} 
+Чтобы экспортировать окно RenderView, выделите окно и используйте опцию меню **File > Save Screenshot** {{Tutorials navi}} {{FEM Tools navi}}
+
+---
+[documentation index](../README.md) > Post-Processing of FEM Results with Paraview/ru

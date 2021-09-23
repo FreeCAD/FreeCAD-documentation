@@ -1,3 +1,4 @@
+# Std Group/de
 ---
 - GuiCommand:/de
    Name:Std Group
@@ -124,4 +125,7 @@ Zum Beispiel ist ein [FEM Analyse](FEM_Analysis/de.md) ein `App::DocumentObjectG
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std Group/de

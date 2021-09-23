@@ -1,3 +1,4 @@
+# Drawing View/ro
 ---
 - GuiCommand:/ro   Name:Drawing View   Name/ro:Drawing View   Workbenches:[MenuLocation:Drawing → Insert view in drawing   Shortcut:none   SeeAlso:[[Drawing Landscape A3/ro|Drawing Landscape A3](Drawing_Workbench/ro___Drawing]],_Complete.md)---
 
@@ -58,4 +59,7 @@ If you are looking for persective-orthographic toggling in 3D view check [Std Pe
 
 {{Drawing Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing View/ro

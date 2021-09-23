@@ -1,7 +1,4 @@
-# PartDesign Workbench/zh-tw
- 
-
-<img alt="PartDesign workbench icon" src=images/Workbench_PartDesign.svg  style="width:128px;">
+# <img alt="PartDesign workbench icon" src=images/Workbench_PartDesign.svg  style="width:64px;"> PartDesign Workbench/zh-tw
 
 
 {{TOCright}}
@@ -217,3 +214,6 @@ Some additional functionality found in the Part Design menu:
  {{PartDesign Tools navi}}
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > PartDesign Workbench/zh-tw

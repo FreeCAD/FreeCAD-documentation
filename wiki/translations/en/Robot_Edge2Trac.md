@@ -5,6 +5,8 @@
    Workbenches:[Robot](Robot_Workbench.md)
 ---
 
+# Robot Edge2Trac/en
+
 ## Description
 
 Insert a new object which decompose edges to a trajectory.
@@ -32,4 +34,7 @@ You are able to change values for this trajectory by defining a <img alt="" src=
 
 {{Robot_Tools_navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot Edge2Trac/en

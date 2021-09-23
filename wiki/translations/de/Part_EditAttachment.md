@@ -9,6 +9,8 @@
 [Basic Attachment Tutorial](Basic_Attachment_Tutorial/de.md) [Part Teil2DObject](Part_Part2DObject/de.md)
 ---
 
+# Part EditAttachment/de
+
 
 </div>
 
@@ -314,4 +316,7 @@ Attachment Versatz wird verwendet, um einen linearen oder rotatorischen Versatz 
 
 {{Part_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part EditAttachment/de

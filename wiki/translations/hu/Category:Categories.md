@@ -11,3 +11,6 @@ This is the **top category** which contains the main categories of the FreeCAD w
 , , , , , , ,
 
 [Category:Categories/hu](Category:Categories/hu.md) [Category:Addons/hu](Category:Addons/hu.md) [Category:Administration/hu](Category:Administration/hu.md) [Category:API/hu](Category:API/hu.md) [Category:Categories/hu](Category:Categories/hu.md) [Category:Documentation/hu](Category:Documentation/hu.md) [Category:Help/hu](Category:Help/hu.md) [Category:Hubs/hu](Category:Hubs/hu.md) [Category:Template/hu](Category:Template/hu.md)
+
+---
+[documentation index](../README.md) > Category:Categories/hu

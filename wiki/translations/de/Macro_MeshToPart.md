@@ -1,5 +1,5 @@
 # Macro MeshToPart/de
- {{Macro/de
+{{Macro/de
 |Name=MeshToPart
 |Icon=Macro_MeshToPart.png
 |Translate=MeshToPart
@@ -65,3 +65,6 @@ for obj in FreeCADGui.Selection.getSelection():
 ## Verknüpfung
 
 Die Diskussion im Forum [Convert mesh to solid?](http://forum.freecadweb.org/viewtopic.php?f=3&t=253&hilit=getPlanarSegments)
+
+---
+[documentation index](../README.md) > Macro MeshToPart/de

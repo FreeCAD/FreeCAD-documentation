@@ -1,7 +1,4 @@
 # Aeroplane/ro
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -225,4 +222,7 @@ Sper că acest tutorial mic v-a ajutat să vă resimțiți rotațiile.
 
 {{Tutorials navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Aeroplane/ro

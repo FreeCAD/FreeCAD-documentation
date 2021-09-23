@@ -8,6 +8,8 @@
    SeeAlso:[Draft Array](Draft_Array.md), [[Draft PathArray]]
 ---
 
+# Draft PointArray/ro
+
 
 </div>
 
@@ -234,8 +236,5 @@ point_array = Draft.make_point_array(polygon, compound)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft PointArray/ro

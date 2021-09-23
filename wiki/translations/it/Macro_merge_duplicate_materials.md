@@ -1,7 +1,4 @@
 # Macro merge duplicate materials/it
-
-
-
 {{Macro/it
 |Name=Macro merge duplicate materials
 |Translate=Unisci materiali duplicati
@@ -55,6 +52,5 @@ for tod in todelete:
 
 ```
 
-
-
-
+---
+[documentation index](../README.md) > Macro merge duplicate materials/it

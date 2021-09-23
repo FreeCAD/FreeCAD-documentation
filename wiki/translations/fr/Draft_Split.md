@@ -9,6 +9,8 @@
    SeeAlso:[Draft Joindre](Draft_Join/fr.md)
 ---
 
+# Draft Split/fr
+
 ## Description
 
 La commande <img alt="" src=images/Draft_Split.svg  style="width:24px;"> **Draft Scinder** permet de diviser une [Draft Ligne](Draft_Line/fr.md) ou une [Draft Polyligne](Draft_Wire/fr.md) à un point ou un bord donné. Cette commande est la contrepartie de la commande [Draft Joindre](Draft_Join/fr.md).
@@ -70,8 +72,5 @@ Draft.split(wire, p3, 1)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Split/fr

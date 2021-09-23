@@ -1,10 +1,4 @@
-# OpenSCAD Workbench/de
-
-
-
-
-
-<img alt="OpenSCAD Arbeitsbereichssymbol" src=images/Workbench_OpenSCAD.svg  style="width:128px;">
+# <img alt="OpenSCAD Arbeitsbereichssymbol" src=images/Workbench_OpenSCAD.svg  style="width:64px;"> OpenSCAD Workbench/de
 
 ## Einführung
 
@@ -95,3 +89,6 @@ Wenn FreeCAD beim Import von CSG abstürzt, wird dringend empfohlen, \"Modell au
 }} 
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > OpenSCAD Workbench/de

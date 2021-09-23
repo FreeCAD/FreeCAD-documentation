@@ -8,6 +8,8 @@
    SeeAlso:[Vista ortografica](Std_OrthographicCamera/it.md), [Assonometria dimetrica](Std_ViewDimetric/it.md), [Assonometria trimetrica](Std_ViewTrimetric/it.md)
 ---
 
+# Std ViewIsometric/it
+
 ## Descrizione
 
 Il comando **Vista isometrica** orienta la camera della [vista 3D](3D_view/it.md) in proiezione [assonometria isometrica](https://en.wikipedia.org/wiki/Isometric_projection). Per una vista veramente isometrica la vista 3D deve essere in [modalità ortografica](Std_OrthographicCamera/it.md), ma il comando funziona anche se la vista è in [modalità prospettiva](Std_PerspectiveCamera.md).
@@ -55,4 +57,7 @@ FreeCADGui.ActiveDocument.ActiveView.getViewDirection()
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ViewIsometric/it

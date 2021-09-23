@@ -1,6 +1,4 @@
 # Scripted objects migration/de
-
-
 ## Einführung
 
 [Geskriptete Objekte](Scripted_objects/de.md) werden jedes Mal neu aufgebaut, wenn ein [FCStd Dokument](File_Format_FCStd/de.md) geöffnet wird. Zu diesem Zweck behält das Dokument eine Referenz auf das Modul und die Python Klasse, die zur Erstellung des Objekts verwendet wurden, zusammen mit seinen Eigenschaften.
@@ -555,3 +553,6 @@ Vermeide vorzugsweise Folgendes:
 }} 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Scripted objects migration/de

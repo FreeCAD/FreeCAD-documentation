@@ -1,3 +1,4 @@
+# Sketcher CreateHeptagon/es
 ---
 - GuiCommand:/es   Name:Sketcher CreateHeptagon   Name/es:Sketcher CreateHeptagon   Workbenches:[[Sketcher Workbench/es   Sketcher]]|MenuLocation:Sketch → Sketcher geometries → Create heptagon   Shortcut:   SeeAlso:---
 
@@ -25,4 +26,7 @@ The circumscribed circle is construction geometry, which is only visible when ed
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateHeptagon/es

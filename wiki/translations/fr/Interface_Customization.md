@@ -1,10 +1,4 @@
 # Interface Customization/fr
-
-
-
-
-
-
 {{TOCright}}
 
 ## Introduction
@@ -285,4 +279,7 @@ Les modules complémentaires offrent une autre façon de personnaliser l\'interf
 
 {{Std Base navi
 
-}} {{Interface navi}} 
+}} {{Interface navi}}
+
+---
+[documentation index](../README.md) > Interface Customization/fr

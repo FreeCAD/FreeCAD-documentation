@@ -8,6 +8,8 @@
    SeeAlso:[Pieza Hacer Compuesto](Part_Compound/es.md), [Borrador Bajada](Draft_Downgrade/es.md)
 ---
 
+# Part ExplodeCompound/es
+
 
 </div>
 
@@ -55,5 +57,5 @@ La herramienta también explotará las formas no compuestas en sus constituyente
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part ExplodeCompound/es

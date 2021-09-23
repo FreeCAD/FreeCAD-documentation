@@ -1,3 +1,4 @@
+# Std Open/ja
 ---
 - GuiCommand:/jp   Name:Std_Open   Workbenches:All   SeeAlso:[[Std_Save]],[[Std_Import]]---
 
@@ -51,4 +52,7 @@ For a scripting example see [Std New](Std_New#Scripting.md).
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std Open/ja

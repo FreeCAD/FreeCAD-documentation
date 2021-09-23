@@ -7,6 +7,8 @@
    SeeAlso:[Создать примитивы](Part_CreatePrimitives/ru.md)
 ---
 
+# Part Box/ru
+
 ## Описание
 
 Команда Куб из [верстака Part](Part_Workbench.md) добавляет параметрический геометрический примитив [1](https://ru.wikipedia.org/wiki/Прямоугольный_параллелепипед) в текущий документ. По умолчанию, команда добавляет куб с ярлыком \"Куб\" со сторонами 10х10х10 мм и располагает его в центре системы координат. Эти параметры могут быть изменены после добавления объекта.
@@ -72,8 +74,5 @@ You can change its placement with:
 FreeCAD.ActiveDocument.myBox.Placement = FreeCAD.Placement(FreeCAD.Vector(4, 6, 3), FreeCAD.Rotation(30, 45, 10))
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Box/ru

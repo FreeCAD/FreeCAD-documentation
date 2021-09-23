@@ -1,3 +1,4 @@
+# Draft FlipDimension/cs
 ---
 - GuiCommand:/cs   Name:Draft FlipDimension   Name/cs:Kreslení PřehoďKótu   Workbenches:[Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation:Draft → Utilities → Flip Dimension   SeeAlso:[Kóty](Draft_Dimension/cs.md)---
 
@@ -59,8 +60,5 @@ dimension.Normal = dimension.Normal.negative()
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft FlipDimension/cs

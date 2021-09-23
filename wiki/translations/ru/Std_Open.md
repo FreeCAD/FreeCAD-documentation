@@ -8,6 +8,8 @@
    SeeAlso:[Импортировать файл](Std_Import/ru.md),<br>[Создать файл](Std_New/ru.md)
 ---
 
+# Std Open/ru
+
 ## Описание
 
 The **Std Open** command opens a file. If the file is not a native FreeCAD file (\*.FCStd) its geometry will be imported into a new document. See [Std Import](Std_Import.md) for more information.
@@ -49,4 +51,7 @@ These methods create and return a document and load a project file into it. The 
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std Open/ru

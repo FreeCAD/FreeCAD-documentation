@@ -1,10 +1,4 @@
 # Installing on Mac/cs
-
-
-
-
-
-
 <div class="mw-translate-fuzzy">
 
 FreeCAD může být nainstalován na Mac OS X v jednom kroku použitím Installeru.
@@ -78,5 +72,5 @@ A je to. V konečné verzi bude FreeCAD dostupný jako balík obsahující aplik
 
 </div>
 
-
-
+---
+[documentation index](../README.md) > Installing on Mac/cs

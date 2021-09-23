@@ -7,6 +7,8 @@
    SeeAlso:[Polilinea](Draft_Wire/it.md), [B-spline](Draft_BSpline/it.md)
 ---
 
+# Draft WireToBSpline/it
+
 
 </div>
 
@@ -105,5 +107,5 @@ doc.recompute()
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft WireToBSpline/it

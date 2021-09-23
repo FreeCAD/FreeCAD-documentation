@@ -1,5 +1,5 @@
 # Combo view/pt-br
- {{TOCright}}
+{{TOCright}}
 
 ## Introdução
 
@@ -54,4 +54,7 @@ Then activate the view using the menu, **View → Panels → Tree view** or **�
 
 {{Std Base navi
 
-}} {{Interface navi}} 
+}} {{Interface navi}}
+
+---
+[documentation index](../README.md) > Combo view/pt-br

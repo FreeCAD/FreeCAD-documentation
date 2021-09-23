@@ -1,5 +1,5 @@
 # Sketcher CompCopy
-  {{GuiCommand
+{{GuiCommand
 |Name=Clone, copy or move a geometrie
 |Workbenches=[Sketcher](Sketcher_Workbench.md)
 |MenuLocation=None (toolbar only)
@@ -15,4 +15,7 @@ Clone, copy or move a geometrie. Click on the down arrow to its right to expand 
 -   <img alt="" src=images/Sketcher_Copy.svg  style="width:32px;"> [Copy](Sketcher_Copy.md) : Creates a simple copy of the geometry taking as reference the last selected point.
 -   <img alt="" src=images/Sketcher_Move.svg  style="width:32px;"> [Move](Sketcher_Move.md) : Moves the geometry taking as reference the last selected point.
 
- {{Sketcher Tools navi}}  
+ {{Sketcher Tools navi}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CompCopy

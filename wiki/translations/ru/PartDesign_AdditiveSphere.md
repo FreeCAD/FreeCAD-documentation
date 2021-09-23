@@ -8,6 +8,8 @@
    SeeAlso:[Создать аддитивный примитив](PartDesign_CompPrimitiveAdditive/ru.md)
 ---
 
+# PartDesign AdditiveSphere/ru
+
 ## Описание
 
 Inserts a primitive sphere in the active Body as the first feature, or fuses it to the existing feature(s).
@@ -48,4 +50,7 @@ The Sphere can be edited after its creation in two ways:
 
 {{PartDesign Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveSphere/ru

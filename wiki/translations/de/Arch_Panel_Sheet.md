@@ -8,6 +8,8 @@
    SeeAlso:[Arch Tafel](Arch_Panel/de.md), [Arch Tafelschnitt](Arch_Panel_Cut/de.md), [Arch Verschachteln](Arch_Nest/de.md)
 ---
 
+# Arch Panel Sheet/de
+
 ## Beschreibung
 
 Dieses Werkzeug ermöglicht eine 2D Zeichnung zu erstellen, einschließlich einer beliebigen Anzahl von [Arch Tafelschnitt](Arch_Panel_Cut/de.md) Objekten, oder jedes andere 2D Objekt, wie z.B. diejenigen, die mit [Entwurf Arbeitsbereich](Draft_Workbench/de.md) und [Skizzierer Arbeitsbereich](Sketcher_Workbench/de.md) erstellt wurden. Das Tafelblech wird in der Regel für Layout Schnitte erstellt, die von einer CNC Maschine ausgeführt werden sollen. Diese Blätter können dann in eine [DXF](Draft_DXF/de.md) Datei exportiert werden.
@@ -149,8 +151,5 @@ Sheet = Arch.makePanelSheet([Cut1, Cut2, Cut3])
 
 </div>
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Panel Sheet/de

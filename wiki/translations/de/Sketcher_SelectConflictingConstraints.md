@@ -8,6 +8,8 @@
    Version:0.15
 ---
 
+# Sketcher SelectConflictingConstraints/de
+
 
 </div>
 
@@ -27,4 +29,7 @@ Wählt die widersprüchlichen Beschränkungen einer Skizze aus.
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectConflictingConstraints/de

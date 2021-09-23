@@ -1,5 +1,5 @@
 # Manual:BIM modeling/fr
- }
+}
 
 
 
@@ -243,3 +243,6 @@ Notre page est maintenant prête, et nous pouvons l\'exporter vers les formats S
 }} 
 
 [Category:BIM](Category:BIM.md)
+
+---
+[documentation index](../README.md) > [BIM](Category:BIM.md) > Manual:BIM modeling/fr

@@ -1,5 +1,5 @@
 # Macro PartsLibrary/it
- {{Macro/it
+{{Macro/it
 |Name=Parts Library
 |Translate=Parts Library
 |Icon=FreeCAD Doc.png
@@ -28,3 +28,6 @@ Questa macro, che è anche inclusa nella libreria, visualizza nell\'interfaccia 
 ToolBar Icon ![](images/FreeCAD_Doc.png )
 
 [PartsLibrary.FCMacro](http://github.com/yorikvanhavre/FreeCAD-library/blob/master/PartsLibrary.FCMacro)
+
+---
+[documentation index](../README.md) > Macro PartsLibrary/it

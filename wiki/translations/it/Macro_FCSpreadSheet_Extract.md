@@ -1,7 +1,4 @@
 # Macro FCSpreadSheet Extract/it
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -264,3 +261,5 @@ except Exception:
 
 }}
 
+---
+[documentation index](../README.md) > Macro FCSpreadSheet Extract/it

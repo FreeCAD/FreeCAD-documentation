@@ -6,3 +6,6 @@ This category lists obsolete workbenches, that is, workbenches that are old and 
 [Drawing Workbench/bg](Drawing_Workbench/bg.md) ,
 
 [Category:Workbenches/bg](Category:Workbenches/bg.md) [Category:Drawing/bg](Category:Drawing/bg.md)
+
+---
+[documentation index](../README.md) > Category:Obsolete Workbenches/bg

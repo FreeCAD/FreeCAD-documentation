@@ -1,5 +1,5 @@
 # Macro Texture Objects/en
- {{Macro
+{{Macro
 |Name=Texture Objects
 |Icon=Macro_Texture_Objects.png
 |Description=This macro allows you to temporarily put a texture image on selected objects. To remove the textures, simply close and reopen the document.
@@ -45,6 +45,5 @@ for obj in FreeCADGui.Selection.getSelection():
 
 [Script to map texture with environement checked](https://forum.freecadweb.org/viewtopic.php?f=3&t=28795)
 
-
-
-
+---
+[documentation index](../README.md) > Macro Texture Objects/en

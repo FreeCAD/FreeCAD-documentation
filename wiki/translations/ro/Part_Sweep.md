@@ -8,6 +8,8 @@
    SeeAlso:[Part Loft](Part_Loft/ro.md)
 ---
 
+# Part Sweep/ro
+
 
 </div>
 
@@ -167,8 +169,5 @@ If \"Frenet\" is \"true\" the orientation of the profile is computed basing on l
 
 </div>
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Sweep/ro

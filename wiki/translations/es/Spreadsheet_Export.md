@@ -8,6 +8,8 @@
    SeeAlso:[Std Importar](Std_Import/es.md)
 ---
 
+# Spreadsheet Export/es
+
 
 </div>
 
@@ -26,4 +28,7 @@ El **<img src=images/Spreadsheet_Export.svg style="width:16px"> [Exportación de
 
 {{Spreadsheet_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet Export/es

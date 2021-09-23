@@ -5,6 +5,8 @@
    Workbenches:[Part](Part_Workbench.md)
 ---
 
+# Part Revolve/pt-br
+
 ## Description
 
 Revolves the selected object around a given axis. The following shape types are allowed, and lead to the listed output shapes ([See Notes for exceptions](#Notes.md)):
@@ -30,8 +32,5 @@ If you select a user defined axis, the numbers define the direction of the revol
 -   If your version of FreeCAD has a check box for Solid in the Revolve dialog, you can make Solids from closed Wires and Edges.
 -   If Revolve is performed using an axis that intersects the face to rotate, and you want to create a solid, the result might be invalid. This can happen for various reasons, self-intersection, direction, etc.
 
-
-
-
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Revolve/pt-br

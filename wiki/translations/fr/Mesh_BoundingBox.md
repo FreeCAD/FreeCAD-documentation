@@ -6,6 +6,8 @@
    Workbenches:[Mesh](Mesh_Workbench/fr.md)
 ---
 
+# Mesh BoundingBox/fr
+
 ## Description
 
 La commande **Mesh Boîte englobante** affiche les coordonnées de la boîte englobante d\'un objet maillé.
@@ -27,4 +29,7 @@ La commande **Mesh Boîte englobante** affiche les coordonnées de la boîte eng
 
 {{Mesh Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh BoundingBox/fr

@@ -7,6 +7,8 @@
    SeeAlso:[Std LinkSelectLinkedFinal](Std_LinkSelectLinkedFinal.md), [Std LinkSelectAllLinks](Std_LinkSelectAllLinks.md), [Std SelBack](Std_SelBack.md), [Std SelForward](Std_SelForward.md)
 ---
 
+# Std LinkSelectLinked
+
 ## Description
 
 The **Std LinkSelectLinked** command selects the **Linked Object**, the source object, of an [App Link](App_Link.md) object, a link.
@@ -21,4 +23,7 @@ The **Std LinkSelectLinked** command selects the **Linked Object**, the source o
 
 
 
- {{Std Base navi}} 
+ {{Std Base navi}}
+
+---
+[documentation index](../README.md) > Std LinkSelectLinked

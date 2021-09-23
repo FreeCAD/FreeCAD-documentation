@@ -7,6 +7,8 @@
    Version:0.17
 ---
 
+# Spreadsheet AlignCenter/it
+
 ## Descrizione
 
 Lo strumento <img alt="" src=images/Spreadsheet_AlignCenter.svg  style="width:16px;"> **Centra in orizzontale** allinea in centro il testo della cella..
@@ -23,4 +25,7 @@ Lo strumento <img alt="" src=images/Spreadsheet_AlignCenter.svg  style="width:16
 
 {{Spreadsheet_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet AlignCenter/it

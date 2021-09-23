@@ -7,6 +7,8 @@
    SeeAlso:[Part Box](Part_Box/de.md)
 ---
 
+# Draft Rectangle/de
+
 
 </div>
 
@@ -155,5 +157,5 @@ doc.recompute()
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Rectangle/de

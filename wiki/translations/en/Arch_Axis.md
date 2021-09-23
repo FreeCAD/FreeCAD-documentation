@@ -7,6 +7,8 @@
    SeeAlso:[Axis System](Arch_AxisSystem.md), [Arch Grid](Arch_Grid.md)
 ---
 
+# Arch Axis/en
+
 ## Description
 
 The **<img src="images/Arch_Axis.svg" width=16px> [Arch Axis](Arch_Axis.md)** tool allows you to places a series of axes in the current document. The distance and the angle between axes is customizable, as well as the numbering style. The axes serve mainly as references to snap objects onto, but can also be used together with **<img src="images/Arch_Axis_System.svg" width=16px> [Arch AxesSystems](Arch_AxisSystem.md)** , and can also be referenced by other Arch objects to create parametric arrays, for example of beams or columns. **<img src="images/Arch_Grid.svg" width=16px> [Arch Grids](Arch_Grid.md)** can also be used in places of axes.
@@ -89,8 +91,5 @@ Draft.move(Axes2, FreeCAD.Vector(-1000, 2500, 0))
 FreeCAD.ActiveDocument.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Axis/en

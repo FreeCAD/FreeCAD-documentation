@@ -1,7 +1,4 @@
-# Workfeature Workbench/fr
-
-
-<img alt="Icône de l\'atelier Workfeature" src=images/WF_wf.png  style="width:128px;">
+# <img alt="Icône de l\'atelier Workfeature" src=images/WF_wf.png  style="width:64px;"> Workfeature Workbench/fr
 
 
 {{Note|Note|Fusionner avec [Macro WorkFeatures](Macro_WorkFeatures/fr.md)??}}
@@ -78,3 +75,6 @@ Cet atelier peut être installé à partir du [Gestionnaire d\'Addon](Std_AddonM
 -   [Ateliers externes](External_workbenches/fr.md)
 
 [Category:Sandbox](Category:Sandbox.md) [Category:User Documentation](Category:User_Documentation.md) [Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+
+---
+[documentation index](../README.md) > Workfeature Workbench/fr

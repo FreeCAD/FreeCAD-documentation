@@ -1,7 +1,4 @@
 # Raytracing project/es
-
-
-
 **
 This roadmap is probably obsolete. For more information see [Development roadmap](Development_roadmap.md).<br>
 If you are not involved with the development discussed here:<br>
@@ -114,3 +111,6 @@ Se muestra una pieza creada utilizando Diseño de Piezas / Croquizador y luego r
 
 
 [Category:Roadmap](Category:Roadmap.md)
+
+---
+[documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing project/es

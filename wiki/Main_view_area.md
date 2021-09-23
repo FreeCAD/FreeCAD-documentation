@@ -1,6 +1,4 @@
 # Main view area
- 
-
 ## Introduction
 
 The [main view area](main_view_area.md) is the main widget that holds sub-windows in the [interface](interface.md). It is an instance of Qt\'s [QMdiArea](https://doc.qt.io/qt-5/qmdiarea.html).
@@ -16,4 +14,7 @@ It normally contains tabs for the start page from the [Start Workbench](Start_Wo
 
 The windows in the main view area can be organized with commands located in the [Windows menu](Std_Windows_Menu.md), like [Std TileWindows](Std_TileWindows.md) and [Std CascadeWindows](Std_CascadeWindows.md).
 
- {{Interface navi}} 
+ {{Interface navi}}
+
+---
+[documentation index](../README.md) > Main view area

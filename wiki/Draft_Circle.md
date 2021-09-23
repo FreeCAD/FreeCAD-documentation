@@ -8,6 +8,8 @@
    SeeAlso:[Draft Arc](Draft_Arc.md), [Draft Arc 3Points](Draft_Arc_3Points.md)
 ---
 
+# Draft Circle
+
 ## Description
 
 The <img alt="" src=images/Draft_Circle.svg  style="width:24px;"> **Draft Circle** command creates a circle in the current [working plane](Draft_SelectPlane.md) from a center and a radius. The radius can be defined by picking a point.
@@ -125,7 +127,5 @@ circle3 = Draft.make_circle(750, placement=place3)
 doc.recompute()
 ```
 
-
-
-
-  
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Circle

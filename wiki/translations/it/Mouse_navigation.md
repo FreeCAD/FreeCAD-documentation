@@ -1,7 +1,4 @@
 # Mouse navigation/it
-
-
-
 {{docnav/it
 |[Per iniziare](Getting_started/it.md)
 |[Metodi di selezione](Selection_methods/it.md)
@@ -252,5 +249,5 @@ Il tutorial [Aggiunta di una nuova opzione di navigazione del mouse a FreeCAD](A
 |[Metodi di selezione](Selection_methods/it.md)
 }}
 
-
-
+---
+[documentation index](../README.md) > Mouse navigation/it

@@ -1,10 +1,4 @@
 # TechDraw Templates/pl
-
-
-
-
-
-
 {{TOCright}}
 
 ## Overview
@@ -77,4 +71,7 @@ See also [How to make a custom TechDraw template](TechDraw_TemplateHowTo.md).
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Templates/pl

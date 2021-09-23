@@ -6,6 +6,8 @@
    Workbenches:[Path](Path_Workbench/fr.md)
 ---
 
+# Path Drilling/fr
+
 ## Description
 
 La commande Perçage génère une opération de perçage durant l\'opération.
@@ -228,4 +230,7 @@ Exemple :
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Drilling/fr

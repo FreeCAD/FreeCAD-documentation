@@ -1,3 +1,4 @@
+# Part Ellipsoid/es
 ---
 - GuiCommand:/es   Name:Part Ellipsoid   Name/es:Part Ellipsoid   MenuLocation:Part → [Workbenches:[[Part_Workbench/es   Part](Part_CreatePrimitives/es___Create_Primitives]]_→_Ellipsoid.md), [OpenSCAD](OpenSCAD_Workbench/es.md)|SeeAlso:..---
 
@@ -33,8 +34,5 @@ A parametric Ellipsoid solid is available from the Create Primitives dialogue in
 
 ![](images/Part_Ellipsoid_screenshot.jpg )
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Ellipsoid/es

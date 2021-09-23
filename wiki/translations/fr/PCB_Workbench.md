@@ -1,6 +1,4 @@
 # PCB Workbench/fr
-
-
 ## Introduction
 
 
@@ -109,3 +107,6 @@ C:/Program Files/FreeCAD-0.18/Mod
 
 
 [Category:Sandbox](Category:Sandbox.md) [Category:User Documentation](Category:User_Documentation.md) [Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+
+---
+[documentation index](../README.md) > PCB Workbench/fr

@@ -7,6 +7,8 @@
    SeeAlso:[Part CreatePrimitives](Part_CreatePrimitives.md)
 ---
 
+# Part Tube/en
+
 ## Description
 
 The Tube command inserts a tube into the active document. The tube is geometrically treated as a cut of a smaller cylinder into a larger one. By default, the command will insert a 10 mm high tube with an outer radius of 5 mm and an inner radius of 2 mm. These parameters can be modified after the object has been added.
@@ -36,8 +38,5 @@ To edit the tube
     -   **Placement:** Specifies the orientation and position of the Box in the 3D space. See [ Placement](Placement.md). The reference point is the left front lower corner of the box.
     -   **Label:** The Label is the name given to the operation. This name can be changed at your convenience.
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Tube/en

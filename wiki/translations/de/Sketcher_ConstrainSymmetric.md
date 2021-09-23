@@ -8,6 +8,8 @@
    SeeAlso:[Beschränkung Parallel](Sketcher_ConstrainParallel/de.md)
 ---
 
+# Sketcher ConstrainSymmetric/de
+
 ## Beschreibung
 
 Die **symmetrische Beschränkung** zwingt zwei ausgewählte Punkte dazu, symmetrisch um eine gegebene Linie herum zu sein, d.h. beide ausgewählten Punkte müssen auf einer Normalen zu der durch beide Punkte verlaufenden Linie liegen und müssen gleich weit von der Linie entfernt sein. Alternativ können zwei Punkte so eingeschränkt werden, dass sie in Bezug auf einen dritten Punkt symmetrisch sind.
@@ -62,4 +64,7 @@ Die [Skizzierer Skripten](Sketcher_scripting.md) Seite erklärt die Werte, die f
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainSymmetric/de

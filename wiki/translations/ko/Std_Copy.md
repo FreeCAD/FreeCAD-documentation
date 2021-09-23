@@ -8,6 +8,8 @@
    SeeAlso:[표준 잘라내기](Std_Cut/ko.md), [표준 붙여넣기](Std_Paste/ko.md), [표준 개체 복제](Std_DuplicateSelection/ko.md)
 ---
 
+# Std Copy/ko
+
 ## 설명
 
 **표준 복사(Std Copy)** 명령은 개체를 클립보드로 복사합니다.
@@ -40,4 +42,7 @@
 
 {{Std Base navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > Std Copy/ko

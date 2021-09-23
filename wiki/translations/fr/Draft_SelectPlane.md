@@ -8,6 +8,8 @@
    SeeAlso:[Draft Objet Proxy pour plan de travail](Draft_WorkingPlaneProxy/fr.md)
 ---
 
+# Draft SelectPlane/fr
+
 ## Description
 
 La commande <img alt="" src=images/Draft_SelectPlane.svg  style="width:24px;"> **Draft Sélectionner un plan** sélectionne le plan de travail Draft en cours. Il s\'agit du plan dans la [vue 3D](3D_view/fr.md) où les nouveaux objets [Draft](Draft_Workbench/fr.md) sont créés. Un nouveau plan de travail peut être basé sur l\'une des nombreuses [présélections](#Utilisation_avec_les_pr.C3.A9s.C3.A9lections.md) ou sur une sélection. La sélection peut être créée avant ([présélection](#Utilisation_avec_pr.C3.A9s.C3.A9lection.md)) ou après ([post-sélection](#Utilisation_avec_post-s.C3.A9lection.md)) le lancement de la commande.
@@ -147,8 +149,5 @@ projection = my_plane.projectPoint(App.Vector(10, 15, 2))
 print(projection)
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft SelectPlane/fr

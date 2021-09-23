@@ -8,6 +8,8 @@
    Version:0.19
 ---
 
+# Std TreeSelection/de
+
 ## Beschreibung
 
 Der **Std BaumAnsichtSelektion**-Befehl verschiebt die [Baumansicht](Tree_view/de.md) auf das erste erstellte Objekt in einer [3D-Ansicht](3D_view/de.md)-Auswahl.
@@ -29,4 +31,7 @@ Falls der Baumansicht [Sync-Auswahl](Std_TreeSyncSelection/de.md)-Modus ausgesch
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std TreeSelection/de

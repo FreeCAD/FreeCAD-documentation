@@ -6,6 +6,8 @@
    Shortcut:**P** **I**
 ---
 
+# Path Inspect/zh
+
 ## 描述
 
 这个工具可以用来检查刀路操作项目的内部Freecad G-code代码内容。
@@ -40,4 +42,7 @@
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Inspect/zh

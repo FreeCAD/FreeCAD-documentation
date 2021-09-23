@@ -6,6 +6,8 @@
    Version:0.15
 ---
 
+# Sketcher CreateOctagon/pt-br
+
 ## Description
 
 Draws an octagon inscribed in a construction geometry circle. When starting the tool, the mouse pointer changes to a white cross with a red hexagon icon. The coordinates of the pointer are shown beside it in blue in real time.
@@ -27,4 +29,7 @@ The circumscribed circle is construction geometry, which is only visible when ed
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateOctagon/pt-br

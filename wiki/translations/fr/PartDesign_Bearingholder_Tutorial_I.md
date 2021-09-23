@@ -1,8 +1,4 @@
 # PartDesign Bearingholder Tutorial I/fr
-
-
-
-
 {{TutorialInfo
 |Topic=Modélisation
 |Level=Utilisateur expérimenté
@@ -107,3 +103,6 @@ Nous avons modélisé le haut du support de roulement avec les dimensions qu\'il
 
 
 [Category:Tutorials](Category:Tutorials.md)
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Bearingholder Tutorial I/fr

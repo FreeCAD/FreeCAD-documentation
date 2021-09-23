@@ -1,3 +1,4 @@
+# Draft ToggleContinueMode/sv
 ---
 - GuiCommand:/sv   Name:Draft ToggleContinueMode   Name/sv:Draft ToggleContinueMode   Workbenches:[Arch](Draft_Workbench/sv___Draft]],_[[Arch_Workbench/sv.md)|MenuLocation:Draft -> Utilities -> Toggle continue mode---
 
@@ -16,8 +17,5 @@ The <img alt="" src=images/Draft_ToggleContinueMode.svg  style="width:24px;"> **
 4.  Create your geometry.
 5.  Press **Esc** or the **Close** button to finish the command and switch off continue mode.
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ToggleContinueMode/sv

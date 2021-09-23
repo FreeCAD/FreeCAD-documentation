@@ -7,6 +7,8 @@
    SeeAlso:
 ---
 
+# Curves ToConsole/de
+
 
 </div>
 
@@ -54,4 +56,7 @@ Das <img alt="" src=images/Curves_ToConsole.svg  style="width:24px;"> [Kurven An
 
 {{Curves Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > Curves ToConsole/de

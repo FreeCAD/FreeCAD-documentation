@@ -1,5 +1,5 @@
 # OpenSCAD Preferences/it
- Le preferenze per l\'ambiente [OpenSCAD](OpenSCAD_Workbench/it.md) si trovano nel [Editor delle preferenze](Preferences_Editor/it.md), nel menu **Modifica → Preferenze → OpenSCAD**.
+Le preferenze per l\'ambiente [OpenSCAD](OpenSCAD_Workbench/it.md) si trovano nel [Editor delle preferenze](Preferences_Editor/it.md), nel menu **Modifica → Preferenze → OpenSCAD**.
 
 C\'è solo una scheda: Impostazioni generali.
 
@@ -13,3 +13,6 @@ C\'è solo una scheda: Impostazioni generali.
 }} 
 
 [Category:Preferences](Category:Preferences.md)
+
+---
+[documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD Preferences/it

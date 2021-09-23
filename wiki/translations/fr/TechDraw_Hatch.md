@@ -7,6 +7,8 @@
    SeeAlso:[TechDraw Hachures géométriques](TechDraw_GeometricHatch/fr.md), [TechDraw Hachures](TechDraw_Hatching/fr.md)
 ---
 
+# TechDraw Hatch/fr
+
 ## Description
 
 L\'outil Hachures remplit une région fermée dans une vue avec un motif de hachures, qui peut être des fichiers [SVG](SVG/fr.md) ou [bitmap](bitmap/fr.md). Au contraire, l\'outil <img alt="" src=images/TechDraw_GeometricHatch.svg  style="width:24px;"> [TechDraw Hachures géométriques](TechDraw_GeometricHatch/fr.md) utilise un fichier de modèle PAT spécifique, voir [Hachures](TechDraw_Hatching/fr.md) pour plus de détails.
@@ -71,4 +73,7 @@ rc = page.addView(hatch)
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Hatch/fr

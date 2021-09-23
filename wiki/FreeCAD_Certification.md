@@ -35,3 +35,6 @@ In the forum a [post](https://forum.freecadweb.org/viewtopic.php?f=8&t=31408) wa
 -   Choose some models out of the [100 CAD Exercises](https://forum.freecadweb.org/viewtopic.php?f=3&t=31006&p=259508) forum thread and have the user demonstrate their work (on a web-based FC instance? Or maybe they can screencast their attempts and upload to Youtube or something?)
 
 Reference forum thread: <https://forum.freecadweb.org/viewtopic.php?f=8&t=31408>
+
+---
+[documentation index](../README.md) > FreeCAD Certification

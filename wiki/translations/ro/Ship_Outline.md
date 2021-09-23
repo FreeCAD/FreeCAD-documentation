@@ -1,3 +1,4 @@
+# Ship Outline/ro
 ---
 - GuiCommand:   Name:Ship Outline   MenuLocation:Ship design → Outline draw   |Workbenches:[[Ship Workbench   Ship]]|Shortcut:   SeeAlso:---
 
@@ -139,4 +140,7 @@ Outline draw plot.
 
 {{Ship_Tools_navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Ship Outline/ro

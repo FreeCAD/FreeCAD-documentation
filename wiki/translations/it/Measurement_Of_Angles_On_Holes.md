@@ -1,7 +1,4 @@
 # Measurement Of Angles On Holes/it
-
-
-
 {{TutorialInfo/it
 |Topic=TechDraw
 |Level=Base
@@ -41,4 +38,7 @@ La linea centrale creata può essere modificata. Selezionare la linea centrale e
 Selezionare i punti del quadrante con <img alt="" src=images/TechDraw_Quadrants.svg  style="width:24px;"> dalla barra degli strumenti. Quindi selezionare i punti come mostrato sotto e utilizzare <img alt="" src=images/TechDraw_Dimension_Angle3Pt.svg  style="width:24px;"> dalla barra degli strumenti per creare l\'angolo. Altre successioni creano altri angoli. Se non ci sono punti di aggancio sulla linea centrale cambiare \"ISO count\" nelle proprietà.
 
 <img alt="" src=images/AnHi11.PNG  style="width:250px;">
-*Sopra: successione di selezione* {{TechDraw Tools navi}} {{Tutorials navi}} 
+*Sopra: successione di selezione* {{TechDraw Tools navi}} {{Tutorials navi}}
+
+---
+[documentation index](../README.md) > Measurement Of Angles On Holes/it

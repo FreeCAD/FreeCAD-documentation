@@ -6,3 +6,6 @@ This category collects pages related to packing FreeCAD for different platforms,
 [AppImage/en](AppImage/en.md) , [Debian development/en](Debian_development/en.md) , [Debian Unstable/en](Debian_Unstable/en.md) , [Git buildpackage/en](Git_buildpackage/en.md) , [Linux packaging/en](Linux_packaging/en.md) , [MacOS packaging/en](MacOS_packaging/en.md) , [Packaging/en](Packaging/en.md)
 
 [Category:Developer\_Documentation/en](Category:Developer_Documentation/en.md)
+
+---
+[documentation index](../README.md) > Category:Packaging/en

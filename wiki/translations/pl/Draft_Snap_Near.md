@@ -6,6 +6,8 @@
    SeeAlso:[Przyciąganie](Draft_Snap/pl.md), [Przełącz przyciąganie](Draft_Snap_Lock/pl.md)
 ---
 
+# Draft Snap Near/pl
+
 ## Opis
 
 Opcja <img alt="" src=images/Draft_Snap_Endpoint.svg  style="width:24px;"> **Przyciągnij do najbliższego** powoduje przyciąganie do najbliższego punktu na powierzchniach lub krawędziach. Ściany i krawędzie mogą należeć do obiektów środowiska pracy [Rysunek Roboczy](Draft_Workbench/pl.md) lub [Architektura](Arch_Workbench/pl.md), ale także do obiektów stworzonych w innych [środowiskach pracy](Workbenches/pl.md).
@@ -36,8 +38,5 @@ Ogólne informacje na temat przyciągania można znaleźć na stronie [Przyciąg
 
 Zobacz stronę [Przyciąganie](Draft_Snap/pl#Ustawienia.md).
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Near/pl

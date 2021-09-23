@@ -7,6 +7,8 @@
    Version:0.17
 ---
 
+# Spreadsheet AlignLeft/de
+
 ## Beschreibung
 
 Das **<img src=images/Spreadsheet_AlignLeft.svg style="width:16px"> [Kalkulationstabelle LinksAusrichten](Spreadsheet_AlignLeft/de.md)** bewirkt, dass der Text innerhalb der Zelle nach links ausgerichtet wird.
@@ -23,4 +25,7 @@ Das **<img src=images/Spreadsheet_AlignLeft.svg style="width:16px"> [Kalkulation
 
 {{Spreadsheet_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet AlignLeft/de

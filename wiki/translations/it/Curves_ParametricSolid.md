@@ -5,6 +5,8 @@
    Workbenches:[Curves](Curves_Workbench.md)
 ---
 
+# Curves ParametricSolid/it
+
 ## Descrizione
 
 The <img alt="" src=images/Curves_ParametricSolid.svg  style="width:24px;"> [Curves ParametricSolid](Curves_ParametricSolid.md) makes a parametric solid from selected faces. This tool is part of the [external workbench](External_workbenches.md) called [Curves](Curves_Workbench.md).
@@ -39,3 +41,6 @@ The <img alt="" src=images/Curves_ParametricSolid.svg  style="width:24px;"> [Cur
 }} 
 
 [Category:External Command Reference](Category:External_Command_Reference.md)
+
+---
+[documentation index](../README.md) > [External Command Reference](Category:External Command Reference.md) > Curves ParametricSolid/it

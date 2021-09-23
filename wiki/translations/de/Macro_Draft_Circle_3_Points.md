@@ -1,5 +1,5 @@
 # Macro Draft Circle 3 Points/de
- {{Macro/de
+{{Macro/de
 |Name=Macro Draft Circle 3 Points
 |Icon=Macro_Make_Circle_3_Points.png
 |Name/de=Macro Draft Circle 3 Points
@@ -283,3 +283,6 @@ Schauen Sie abwechselnd mit dem linken und dem rechten Auge, um die Ansichten se
 
 The genesis of the macro **Draft Circle 3 Points** [on the forum (PYTHON) coordonnées d\'un point](http://forum.freecadweb.org/viewtopic.php?f=12&t=3696&sid=17886f953113e162dc9a4a843e1fce94) helped flachyjoe thanks.
 The formula comes from [cercle\_3pts.pdf](http://www-obs.univ-lyon1.fr/labo/fc/Ateliers_archives/ateliers_2005-06/cercle_3pts.pdf) and used with the kind permission of its author.
+
+---
+[documentation index](../README.md) > Macro Draft Circle 3 Points/de

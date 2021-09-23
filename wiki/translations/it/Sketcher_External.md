@@ -7,6 +7,8 @@
    SeeAlso:[Linea di costruzione](Sketcher_ToggleConstruction/it.md)
 ---
 
+# Sketcher External/it
+
 
 </div>
 
@@ -109,4 +111,7 @@ Quando lo schizzo viene chiuso le linee Geometria esterna non sono più visibili
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher External/it

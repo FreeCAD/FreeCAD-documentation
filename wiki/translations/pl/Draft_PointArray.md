@@ -7,6 +7,8 @@
    SeeAlso:[Draft OrthoArray](Draft_OrthoArray.md), [Draft PolarArray](Draft_PolarArray.md), [Draft CircularArray](Draft_CircularArray.md), [Draft PathArray](Draft_PathArray.md), [Draft PathLinkArray](Draft_PathLinkArray.md), [Draft PointLinkArray](Draft_PointLinkArray.md)
 ---
 
+# Draft PointArray/pl
+
 ## Description
 
 The <img alt="" src=images/Draft_PointArray.svg  style="width:24px;"> **Draft PointArray** command creates a regular array from a selected object by placing copies at the points from a [point compound](#Point_compound.md). Use the [Draft PointLinkArray](Draft_PointLinkArray.md) command to create a more efficient [Link](App_Link.md) array instead. Except for the type of array that is created, Link array or regular array, the [Draft PointLinkArray](Draft_PointLinkArray.md) command is identical to this command.
@@ -201,8 +203,5 @@ point_array = Draft.make_point_array(polygon, compound)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft PointArray/pl

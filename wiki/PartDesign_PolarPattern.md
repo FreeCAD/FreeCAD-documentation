@@ -5,6 +5,8 @@
    Workbenches:[PartDesign](PartDesign_Workbench.md)
 ---
 
+# PartDesign PolarPattern
+
 ## Description
 
 The **polar pattern** tool takes a selected feature and creates a set of copies rotated around a chosen axis. Starting with v0.17, it can pattern multiple features.
@@ -125,4 +127,7 @@ Specifies the angle to be covered by the pattern, and the total number of patter
 
 
 
- {{PartDesign Tools navi}} 
+ {{PartDesign Tools navi}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign PolarPattern

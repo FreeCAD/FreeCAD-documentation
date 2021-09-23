@@ -11,3 +11,6 @@ This is the **top category** which contains the main categories of the FreeCAD w
 , , , ,
 
 [Category:Categories/cn](Category:Categories/cn.md) [Category:Administration/cn](Category:Administration/cn.md) [Category:Categories/cn](Category:Categories/cn.md) [Category:Command Reference/cn](Category:Command_Reference/cn.md) [Category:Documentation/cn](Category:Documentation/cn.md) [Category:Python Code/cn](Category:Python_Code/cn.md)
+
+---
+[documentation index](../README.md) > Category:Categories/cn

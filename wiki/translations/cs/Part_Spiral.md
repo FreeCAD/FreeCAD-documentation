@@ -1,3 +1,4 @@
+# Part Spiral/cs
 ---
 - GuiCommand:/cs   Name:Part_CreatePrimitives   Name/cs:Part CreatePrimitives   MenuLocation:[Create Primitives](Part_Workbench/cs___Part]]_→_[[Part_CreatePrimitives/cs.md) → Spiral|Workbenches:[OpenSCAD](Part_Workbench/cs___Part]],_[[OpenSCAD_Workbench/cs.md)|SeeAlso:[Create Primitives](Part_CreatePrimitives/cs.md)---
 
@@ -16,8 +17,5 @@ The Create Primitives dialogue can be accessed via the [Primitives](Part_Primiti
 
 ![](images/Spiral_y45_it.png )
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Spiral/cs

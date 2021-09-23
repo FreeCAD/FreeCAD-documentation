@@ -8,6 +8,8 @@
    SeeAlso:[Constraint Vertical](Constraint_Vertical/pt-br.md)
 ---
 
+# Sketcher ConstrainHorizontal/pt-br
+
 
 </div>
 
@@ -57,3 +59,6 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 }}  
 
 [Category:Sketcher/pt-br](Category:Sketcher/pt-br.md)
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainHorizontal/pt-br

@@ -7,6 +7,8 @@
    Version:0.18
 ---
 
+# Sketcher ViewSection/fr
+
 ## Description
 
 L\'outil **Vue en section** créé un plan de coupe qui masque temporairement la matière devant le plan d\'esquisse.
@@ -27,4 +29,7 @@ Plusieurs façons d\'appeler cette commande:
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ViewSection/fr

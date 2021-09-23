@@ -1,3 +1,4 @@
+# Arch SectionPlane/cs
 ---
 - GuiCommand:/cs   Name:Arch SectionPlane   Name/cs:Arch SectionPlane   Workbenches:[[Arch_Workbench/cs   Arch]]|MenuLocation:Arch → Section Plane   Shortcut:S P---
 
@@ -163,3 +164,6 @@ FreeCAD.ActiveDocument.recompute()
 
 
 [Category:Arch/cs](Category:Arch/cs.md)
+
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SectionPlane/cs

@@ -7,6 +7,8 @@
    Shortcut:**M** **S**
 ---
 
+# SheetMetal SketchOnSheet/fr
+
 ## Description
 
 La commande <img alt="" src=images/SheetMetal_SketchOnSheet.svg  style="width:16px;"> [Perçage de paroi](SheetMetal_SketchOnSheet/fr.md) découpe des trous le long des parois pliées d\'un objet en tôle. Pour la disposition des trous, une <img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;"> [esquisse](Sketcher_Workbench/fr.md) est utilisée.
@@ -135,3 +137,6 @@ Ce bidule est constitué d\'un objet en tôle pliée auquel on a ajouté des tro
 
 
 [Category:SheetMetal](Category:SheetMetal.md) [Category:Addons](Category:Addons.md) [Category:External Command Reference](Category:External_Command_Reference.md)
+
+---
+[documentation index](../README.md) > [SheetMetal](Category:SheetMetal.md) > SheetMetal SketchOnSheet/fr

@@ -1,7 +1,4 @@
-# Image Workbench/ro
- 
-
-<img alt="Image workbench icon" src=images/Workbench_Image.svg  style="width:128px;">
+# <img alt="Image workbench icon" src=images/Workbench_Image.svg  style="width:64px;"> Image Workbench/ro
 
 ## Introducere
 
@@ -53,3 +50,6 @@ Decalajul imaginii poate fi setat în timpul importului sau poate fi modificat m
 }} 
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Image Workbench/ro

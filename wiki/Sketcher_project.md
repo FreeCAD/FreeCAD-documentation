@@ -1,7 +1,4 @@
 # Sketcher project
- 
-
-
 **
 This roadmap is probably obsolete. For more information see [Development roadmap](Development_roadmap.md).<br>
 If you are not involved with the development discussed here:<br>
@@ -116,3 +113,6 @@ For 0.12:
  {{Sketcher Tools navi}}  
 
 [Category:Roadmap](Category:Roadmap.md)
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher project

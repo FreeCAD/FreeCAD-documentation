@@ -1,5 +1,5 @@
 # Macro Texture Objects/es
- {{Macro/es
+{{Macro/es
 |Name=Texture Objects
 |Icon=Macro_Texture_Objects.png
 |Translate=Objetos de textura
@@ -46,6 +46,5 @@ for obj in FreeCADGui.Selection.getSelection():
 
 [Script to map texture with environement checked](https://forum.freecadweb.org/viewtopic.php?f=3&t=28795)
 
-
-
-
+---
+[documentation index](../README.md) > Macro Texture Objects/es

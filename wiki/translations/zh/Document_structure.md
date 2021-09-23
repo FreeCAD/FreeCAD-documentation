@@ -1,10 +1,4 @@
 # Document structure/zh
-
-
-
-
-
-
 {{TOCright}}
 
 FreeCad文档包含场景的所有对象。它可以包含组和使用任何工作台生成的对象。您可以在工作台之间切换但仍然编辑同一文档。文档是进行保存操作时存储到磁盘上的内容。您还可以在FreeCad中同时打开多个文档，并打开同一文档的多个视图。
@@ -73,5 +67,5 @@ FreeCADGui.ActiveDocument.ActiveView
 
 </div>
 
-
-
+---
+[documentation index](../README.md) > Document structure/zh

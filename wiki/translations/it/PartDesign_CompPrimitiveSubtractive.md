@@ -8,6 +8,8 @@
    Version:0.17
 ---
 
+# PartDesign CompPrimitiveSubtractive/it
+
 
 </div>
 
@@ -44,4 +46,7 @@ Crea una primitiva sottrattiva nel corpo attivo, sottraendo la sua forma dal sol
 
 {{PartDesign Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign CompPrimitiveSubtractive/it

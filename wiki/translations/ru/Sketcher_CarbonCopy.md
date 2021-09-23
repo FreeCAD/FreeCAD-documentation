@@ -7,6 +7,8 @@
    Version:0.17
 ---
 
+# Sketcher CarbonCopy/ru
+
 ## Описание
 
 Инструмент **<img src=images/Sketcher_CarbonCopy.svg style="width:16px"> [Структурная Копия](Sketcher_CarbonCopy/ru.md)** копирует всю геометрию и ограничения из другого эскиза в активный эскиз.
@@ -44,4 +46,7 @@
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CarbonCopy/ru

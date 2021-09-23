@@ -7,6 +7,8 @@
    SeeAlso:[PartDesign Set tip](PartDesign_MoveTip.md), [PartDesign Move object to other body](PartDesign_MoveFeature.md)
 ---
 
+# PartDesign MoveFeatureInTree/pl
+
 ## Description
 
 <img alt="" src=images/PartDesign_MoveFeatureInTree.svg  style="width:24px;"> [Move object after other object](PartDesign_MoveFeatureInTree.md), as this command is labeled in the context menu, allows reordering of objects under a Body. Sketches, datum geometry and features are supported.
@@ -30,4 +32,7 @@ The following three pictures show the same model with a pocket defined on a sket
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign MoveFeatureInTree/pl

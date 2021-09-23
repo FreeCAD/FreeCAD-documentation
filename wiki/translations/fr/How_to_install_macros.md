@@ -1,5 +1,5 @@
 # How to install macros/fr
- {{TutorialInfo/fr
+{{TutorialInfo/fr
 |Topic=Programmation
 |Level=Programmeur moyen
 |Time=15 minutes
@@ -474,3 +474,6 @@ et validez en cliquant sur le bouton **OK**.
 }} 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > How to install macros/fr

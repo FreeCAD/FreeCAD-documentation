@@ -7,6 +7,8 @@
    SeeAlso:[Tutoriel FEM](FEM_tutorial/fr.md)
 ---
 
+# FEM MeshClear/fr
+
 ## Description
 
 Permet à l\'utilisateur de réinitialiser le maillage à partir de l\'objet maillé MEF FreeCAD. Le maillage existe toujours mais n\'a pas de sommets, d\'arêtes, de faces ou d\'éléments. Les informations de maillage, les paramètres Netgen/Gmsh, les régions maillées, les groupes de mailles et la couche limite du maillage restent dans l\'arbre du modèle, ce qui signifie que le maillage peut être reproduit ultérieurement. L\'utilisation principale de cette fonction est d\'alléger le fichier FreeCAD, soit pour améliorer les performances lors de l\'utilisation de FreeCAD, soit pour économiser de l\'espace disque ou permettre un transfert facile des fichiers sans perdre les données de maillage.
@@ -26,4 +28,7 @@ Les objets de l\'arborescence du modèle sont maintenus car ils représentent le
 
 {{FEM Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > FEM MeshClear/fr

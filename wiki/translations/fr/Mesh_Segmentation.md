@@ -7,6 +7,8 @@
    SeeAlso:[Mesh Segmentation adaptée](Mesh_SegmentationBestFit/fr.md)
 ---
 
+# Mesh Segmentation/fr
+
 ## Description
 
 La commande **Mesh Division** crée des segments de maillage séparés pour les types de surface spécifiés d\'un objet maillé.
@@ -52,4 +54,7 @@ La commande **Mesh Division** crée des segments de maillage séparés pour les 
 
 {{Mesh Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Segmentation/fr

@@ -1,10 +1,4 @@
-# Sketcher Workbench/ro
-
-
-
-
-
-<img alt="Sketcher workbench icon" src=images/Workbench_Sketcher.svg  style="width:128px;">
+# <img alt="Sketcher workbench icon" src=images/Workbench_Sketcher.svg  style="width:64px;"> Sketcher Workbench/ro
 
 
 {{TOCright}}
@@ -928,3 +922,6 @@ The [Sketcher scripting](Sketcher_scripting.md) page contains examples on how to
 }} 
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Sketcher Workbench/ro

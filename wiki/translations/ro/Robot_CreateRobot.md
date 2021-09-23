@@ -1,3 +1,4 @@
+# Robot CreateRobot/ro
 ---
 - GuiCommand:   Name:Robot CreateRobot   Workbenches:[[Robot_Workbench   Robot]]|MenuLocation:Robot → Insert robot---
 
@@ -62,4 +63,7 @@ Roboții predefiniți sunt:
 
 {{Robot_Tools_navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot CreateRobot/ro

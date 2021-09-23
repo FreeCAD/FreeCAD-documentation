@@ -1,6 +1,4 @@
 # Artwork Fem/it
- 
-
 These icons are in the indicated source path.
 
 For all icons in the source tree, see [Artwork](Artwork.md).
@@ -23,3 +21,6 @@ For all icons in the source tree, see [Artwork](Artwork.md).
 }} 
 
 [Category:FEM](Category:FEM.md)
+
+---
+[documentation index](../README.md) > [FEM](Category:FEM.md) > Artwork Fem/it

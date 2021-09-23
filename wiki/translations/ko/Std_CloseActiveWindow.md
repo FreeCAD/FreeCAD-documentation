@@ -8,6 +8,8 @@
    SeeAlso:[표준 모든 창 닫기](Std_CloseAllWindows/ko.md)
 ---
 
+# Std CloseActiveWindow/ko
+
 ## 설명
 
 **표준 활성 창 닫기(Std CloseActiveWindow)** 명령은 활성 창을 닫습니다. 문서를 닫으려면 그 문서에 속한 창을 모두 닫아야 합니다.
@@ -50,4 +52,7 @@
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std CloseActiveWindow/ko

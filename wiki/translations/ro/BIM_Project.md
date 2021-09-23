@@ -6,6 +6,8 @@
    MenuLocation:Manage → Project
 ---
 
+# BIM Project/ro
+
 
 </div>
 
@@ -41,3 +43,6 @@ După ce ați completat diferitele opțiuni, conținutul expertului de configura
 </div>
 
 Alternatively, you can also save the contents of the current document as a template. This will save the currently opened document as a standard **.FCStd** file, but also include additional BIM settings like the current working plane, or current units. By using the **restore** option anytime, the contents of that template file will be merged into the active document and all settings found in it applied.
+
+---
+[documentation index](../README.md) > BIM Project/ro

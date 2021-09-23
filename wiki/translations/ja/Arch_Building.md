@@ -1,3 +1,4 @@
+# Arch Building/ja
 ---
 - GuiCommand:/jp   Name:Std_Edit   MenuLocation:Edit -> Toggle Editmode   Workbenches:All   SeeAlso:...---
 
@@ -86,8 +87,5 @@ Site = Arch.makeSite(Building)
 FreeCAD.ActiveDocument.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Building/ja

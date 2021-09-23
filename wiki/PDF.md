@@ -1,8 +1,4 @@
 # PDF
- 
-
- 
-
 ## Description
 
 [Portable Document Format](https://en.wikipedia.org/wiki/PDF) (PDF) is a file format developed by Adobe in the 1990s to present documents, including text and images.
@@ -28,3 +24,6 @@ The option to export to PDF is available in the **File → [Export PDF](Std_Expo
  
 
 [Category:File\_Formats](Category:File_Formats.md)
+
+---
+[documentation index](../README.md) > [File_Formats](Category:File_Formats.md) > PDF

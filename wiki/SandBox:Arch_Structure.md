@@ -7,6 +7,8 @@
    SeeAlso:[Arch Wall](Arch_Wall.md), [Arch Rebar](Arch_Rebar.md)
 ---
 
+# SandBox:Arch Structure
+
 ## Description
 
 The [Arch Structure](Arch_Structure.md) tool allows you to build structural elements such as columns or beams, by specifying their width, length and height, or by basing them on a 2D profile (face, wire or sketch).
@@ -266,9 +268,7 @@ FreeCAD.ActiveDocument.recompute()
 Structure2 = Arch.makeStructure(None, length=500, width=1000, height=3000)
 Draft.move(Structure2, FreeCAD.Vector(2000, 0, 0))
 FreeCAD.ActiveDocument.recompute()
-``` 
+```
 
- 
-
-
-
+---
+[documentation index](../README.md) > [Arch](Category:Arch.md) > SandBox:Arch Structure

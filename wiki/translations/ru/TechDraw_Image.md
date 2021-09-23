@@ -7,6 +7,8 @@
    SeeAlso:[Вставить SVG знак](TechDraw_Symbol/ru.md)
 ---
 
+# TechDraw Image/ru
+
 ## Описание
 
 The Image tool inserts a [bitmap](bitmap.md) image (PNG, TIFF, JPEG, etc.) from a file into the page as a view.
@@ -47,4 +49,7 @@ dvi.Width  = 200
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Image/ru

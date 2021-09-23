@@ -1,3 +1,4 @@
+# Draft ShapeString/cs
 ---
 - GuiCommand:/cs   Name:Draft_ShapeString   Name/cs:Draft ShapeString   Workbenches:[MenuLocation:Draft -> ShapeString   Shortcut:S S   SeeAlso:[[Draft Text/cs|Draft Text](Draft_Workbench/cs___Kreslení]].md), [Part Extrude](Part_Extrude/cs.md)---
 
@@ -184,8 +185,5 @@ S3.Placement.Rotation = App.Rotation(zaxis, 180)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ShapeString/cs

@@ -1,6 +1,4 @@
 # Artwork Erroneous/fr
- 
-
 Pour toutes les icônes de l\'arborescence source, voir [Graphisme](Artwork/fr.md).
 
 
@@ -26,3 +24,6 @@ Pour toutes les icônes de l\'arborescence source, voir [Graphisme](Artwork/fr.m
 }}
 
 [Category:Icon](Category:Icon.md) [Category:Developer Documentation](Category:Developer_Documentation.md)
+
+---
+[documentation index](../README.md) > [Icon](Category:Icon.md) > Artwork Erroneous/fr

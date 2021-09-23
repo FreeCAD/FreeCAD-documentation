@@ -8,6 +8,8 @@
    SeeAlso:[Rückansicht](Std_ViewRear/de.md), [Bodenansicht](Std_ViewBottom/de.md)
 ---
 
+# Std ViewLeft/de
+
 ## Beschreibung
 
 Der Befehl **Std Ansicht von links** wendet die Kamerasicht der aktiven [3D Ansicht](3D_view/de.md) in die Richtung der positiven X-Achse.
@@ -45,4 +47,7 @@ FreeCADGui.ActiveDocument.ActiveView.getViewDirection()
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ViewLeft/de

@@ -7,6 +7,8 @@
    Version:0.19
 ---
 
+# Arch Truss/fr
+
 ## Description
 
 L\'outil [Arch Ferme](Arch_Truss/fr.md) crée un objet [Treillis](https://fr.wikipedia.org/wiki/Treillis_(assemblage)) à partir d\'un objet linéaire sélectionné (positionnez une [Draft Ligne](Draft_Line/fr.md) ou [Sketcher Nouvelle esquisse](Sketcher_NewSketch/fr.md)) ou à partir de zéro, si aucun objet n\'est sélectionné lors du lancement de la commande.
@@ -92,8 +94,5 @@ truss.HeightEnd = 400
 # adjust other needed properties
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Truss/fr

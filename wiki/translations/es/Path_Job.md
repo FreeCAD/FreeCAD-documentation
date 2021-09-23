@@ -8,6 +8,8 @@
    SeeAlso:
 ---
 
+# Path Job/es
+
 
 </div>
 
@@ -88,4 +90,7 @@ If you have a job which contends more than one path operation, you can determine
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Job/es

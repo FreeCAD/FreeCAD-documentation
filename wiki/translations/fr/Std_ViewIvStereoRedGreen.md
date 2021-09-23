@@ -7,6 +7,8 @@
    SeeAlso:[Std Tampon stéréo quadruple](Std_ViewIvStereoQuadBuff/fr.md), [Std Lignes stéréo entrelacées](Std_ViewIvStereoInterleavedRows/fr.md), [Std Colonnes stéréo entrelacées](Std_ViewIvStereoInterleavedColumns/fr.md), [Std Stéréo désactivée](Std_ViewIvStereoOff/fr.md)
 ---
 
+# Std ViewIvStereoRedGreen/fr
+
 ## Description
 
 La commande **Std Stéréo rouge cyan** change la [vue 3D](3D_view/fr.md) active en rouge/cyan, [Anaglyphe](https://fr.wikipedia.org/wiki/Anaglyphe), mode d\'affichage stéréo. Pour utiliser ce mode stéréo, des lunettes avec des lentilles colorées sont nécessaires.
@@ -42,4 +44,7 @@ FreeCADGui.ActiveDocument.ActiveView.getStereoType()
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ViewIvStereoRedGreen/fr

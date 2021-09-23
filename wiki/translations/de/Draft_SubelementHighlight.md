@@ -9,6 +9,8 @@
    SeeAlso:[Entwurf Bewegen](Draft_Move/de.md), [Entwurf Drehen](Draft_Rotate/de.md), [Entwurf Skalieren](Draft_Scale/de.md)
 ---
 
+# Draft SubelementHighlight/de
+
 
 </div>
 
@@ -49,5 +51,5 @@ Der <img alt="" src=images/Draft_SubelementHighlight.svg  style="width:24px;"> *
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft SubelementHighlight/de

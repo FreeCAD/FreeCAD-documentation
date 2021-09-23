@@ -1,6 +1,4 @@
 # Viewprovider/it
-
-
 ## Introduzione
 
 Le **Viewprovider** sono delle classi che definiscono il modo in cui gli oggetti appariranno nella [vista ad albero](tree_view/it.md) e nella [vista 3D](3D_view/it.md) e come interagiranno con determinate azioni grafiche come la [selezione](selection/it.md).
@@ -140,3 +138,6 @@ See various examples in [Custom icon in tree view](Custom_icon_in_tree_view.md).
 }} 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Viewprovider/it

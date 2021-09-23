@@ -1,7 +1,4 @@
 # Branding/it
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -154,3 +151,6 @@ Tutti i tag elencati sono opzionali.
 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Branding/it

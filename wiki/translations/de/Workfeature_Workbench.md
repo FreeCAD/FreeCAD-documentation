@@ -1,7 +1,4 @@
-# Workfeature Workbench/de
-
-
-<img alt="Workfeature-Arbeitsbereich-Symbol" src=images/WF_wf.png  style="width:128px;">
+# <img alt="Workfeature-Arbeitsbereich-Symbol" src=images/WF_wf.png  style="width:64px;"> Workfeature Workbench/de
 
 
 {{Note|Hinweis|Zusammenführen mit [Makro Workfeature](Macro_WorkFeatures/de.md)??}}
@@ -79,3 +76,6 @@ Dieser Arbeitsbereich kann über den [Erweiterungsverwalter](Std_AddonMgr/de.md)
 -   [Externe Arbeitsbereiche](External_workbenches/de.md)
 
 [Category:Sandbox](Category:Sandbox.md) [Category:User Documentation](Category:User_Documentation.md) [Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+
+---
+[documentation index](../README.md) > Workfeature Workbench/de

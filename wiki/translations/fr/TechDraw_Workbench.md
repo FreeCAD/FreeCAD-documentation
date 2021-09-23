@@ -1,10 +1,4 @@
-# TechDraw Workbench/fr
-
-
-
-
-
-<img alt="Icône de l\'atelier TechDraw" src=images/Workbench_TechDraw.svg  style="width:128px;">
+# <img alt="Icône de l\'atelier TechDraw" src=images/Workbench_TechDraw.svg  style="width:64px;"> TechDraw Workbench/fr
 
 ## Introduction
 
@@ -208,3 +202,6 @@ Tutoriels video par sliptonic
 }} 
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > TechDraw Workbench/fr

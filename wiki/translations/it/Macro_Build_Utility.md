@@ -1,5 +1,5 @@
 # Macro Build Utility/it
- {{Macro/it
+{{Macro/it
 |Name=Macro Build Utility
 |Translate=Build Utility
 |Description=Questa macro fornisce delle utilità di costruzione per assemblare più file di progetto in un unico file.
@@ -279,6 +279,5 @@ metal```
 ./externalModules/red/level3/yellow
 ```
 
-
-
-
+---
+[documentation index](../README.md) > Macro Build Utility/it

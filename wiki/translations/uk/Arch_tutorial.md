@@ -1,7 +1,4 @@
 # Arch tutorial/uk
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -489,4 +486,7 @@ The file created during this tutorial can be found [here](http://yorik.uncreated
 
 {{Tutorials navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch tutorial/uk

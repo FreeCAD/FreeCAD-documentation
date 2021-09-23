@@ -1,3 +1,4 @@
+# Sketcher CreateCircle/it
 ---
 - GuiCommand:/it   Name:Sketcher CreateCircle   Name/it:Cerchio   Workbenches:[MenuLocation:Sketch → Geometrie → Cerchio   SeeAlso:[[Sketcher CompCreateArc/it|Arco](Sketcher_Workbench/it___Sketcher]].md)---
 
@@ -29,4 +30,7 @@ Quando lo strumento è attivo, il puntatore del mouse assume la forma di croce b
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateCircle/it

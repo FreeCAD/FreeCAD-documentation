@@ -1,3 +1,4 @@
+# Std Quit/ro
 ---
 - GuiCommand:/ro   Name:Std Quit   Name/ro:Ieșire   MenuLocation:[Workbenches:All   Shortcut:Alt+F4   SeeAlso:[[Std Open/ro|Std Deschidere](Std_File_Menu/ro___File]]_→_Ieșire.md),[Std Importul](Std_Import/ro.md)---
 
@@ -32,4 +33,7 @@ The **Std Quit** command closes the FreeCAD application and optionally saves uns
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std Quit/ro

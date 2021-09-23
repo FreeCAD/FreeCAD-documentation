@@ -10,3 +10,6 @@ Please note which version of FreeCAD is used in the tutorial. Some tutorials may
 ### Contents:
 
 [Category:Categories/ja](Category:Categories/ja.md)
+
+---
+[documentation index](../README.md) > Category:Tutorials/ja

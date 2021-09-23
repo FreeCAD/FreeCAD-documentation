@@ -5,6 +5,8 @@
    Workbenches:[Curves](Curves_Workbench.md)
 ---
 
+# Curves PasteSVG
+
 ## Description
 
 The <img alt="" src=images/Curves_PasteSVG.svg  style="width:24px;"> [Curves PasteSVG](Curves_PasteSVG.md) pastes the SVG content of the clipboard in to the [3D view](3D_view.md). This tool is part of the [external workbench](External_workbenches.md) called [Curves](Curves_Workbench.md).
@@ -27,4 +29,7 @@ The <img alt="" src=images/Curves_PasteSVG.svg  style="width:24px;"> [Curves Pas
 
 
 
- {{Curves Tools navi}} 
+ {{Curves Tools navi}}
+
+---
+[documentation index](../README.md) > Curves PasteSVG

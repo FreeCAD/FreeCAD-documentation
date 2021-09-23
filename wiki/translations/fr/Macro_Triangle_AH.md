@@ -1,5 +1,5 @@
 # Macro Triangle AH/fr
- {{Macro/fr
+{{Macro/fr
 |Name=Macro Triangle AH
 |Icon=Macro_Triangle_AH.png
 |Description=Cette macro crée un triangle isocèle en donnant comme argument , l'angle de tête et la hauteur du triangle.Le triangle est créé dans les coordonnées réelle.<br/>{{ColoredText|(Ligne de commande, collez cette macro complète dans la console Python)}}.
@@ -96,3 +96,6 @@ ver 00.03 2019/07/02 ajout \"App.ActiveDocument.recompute()\" et convert Py3
 ver 00.02 03/05/2015 : ajout \"base=0.0\", \"hypo=0.0\" affichage des données du triangle
 
 ver 00.01 20/03/2015 :
+
+---
+[documentation index](../README.md) > Macro Triangle AH/fr

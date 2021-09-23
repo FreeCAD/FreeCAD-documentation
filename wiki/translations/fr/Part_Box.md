@@ -7,6 +7,8 @@
    SeeAlso:[Part Primitives](Part_Primitives/fr.md)
 ---
 
+# Part Box/fr
+
 ## Description
 
 La commande Cube de l\'[atelier Part](Part_Workbench/fr.md) insère un [parallélépipède droit](https://fr.wikipedia.org/wiki/Pav%C3%A9_droit) paramétrique dans le document actif. Par défaut, la commande insère un cube de 10x10x10 mm positionné à l\'origine avec l\'étiquette \"cube\". Ces paramètres peuvent être édités une fois que l\'objet a été ajouté.
@@ -66,8 +68,5 @@ Vous pouvez changer son emplacement avec:
 FreeCAD.ActiveDocument.myBox.Placement = FreeCAD.Placement(FreeCAD.Vector(4, 6, 3), FreeCAD.Rotation(30, 45, 10))
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Box/fr

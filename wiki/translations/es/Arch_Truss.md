@@ -7,6 +7,8 @@
    Version:0.19
 ---
 
+# Arch Truss/es
+
 
 </div>
 
@@ -108,5 +110,5 @@ truss.HeightEnd = 400
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Truss/es

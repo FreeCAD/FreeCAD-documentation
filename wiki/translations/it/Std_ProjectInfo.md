@@ -7,6 +7,8 @@
    SeeAlso:[Nuovo](Std_New/it.md)
 ---
 
+# Std ProjectInfo/it
+
 ## Descrizione
 
 Il comando **Informazioni sul progetto** mostra una finestra di dialogo con le informazioni sul progetto appartenenti al documento attivo. Alcune di queste informazioni possono essere modificate.
@@ -54,4 +56,7 @@ Il comando **Informazioni sul progetto** mostra una finestra di dialogo con le i
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ProjectInfo/it

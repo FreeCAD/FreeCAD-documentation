@@ -7,6 +7,8 @@
    Version:0.17
 ---
 
+# Spreadsheet SetAlias/it
+
 ## Descrizione
 
 Lo strumento <img alt="" src=images/Spreadsheet_SetAlias.svg  style="width:16px;"> **Alias** apre una finestra di dialogo per impostare un alias per una cella. Invece di utilizzare il nome esatto della cella come A2, B3 o C4, è possibile utilizzare un nome personalizzato.
@@ -30,4 +32,7 @@ Lo strumento <img alt="" src=images/Spreadsheet_SetAlias.svg  style="width:16px;
 
 {{Spreadsheet_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet SetAlias/it

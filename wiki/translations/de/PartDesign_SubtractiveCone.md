@@ -8,6 +8,8 @@
    SeeAlso:[Erzeuge einen abzuziehenden Grundkörper](PartDesign_CompPrimitiveSubtractive/de.md)
 ---
 
+# PartDesign SubtractiveCone/de
+
 
 </div>
 
@@ -65,4 +67,7 @@ Der Kegel kann auf zwei verschiedene Wege bearbeitet werden:
 
 {{PartDesign Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveCone/de

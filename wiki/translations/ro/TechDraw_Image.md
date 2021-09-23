@@ -1,3 +1,4 @@
+# TechDraw Image/ro
 ---
 - GuiCommand:   Name:TechDraw  Image   Workbenches:[[TechDraw_Workbench   TechDraw]]|MenuLocation:TechDraw → Image   Shortcut:   SeeAlso:---
 
@@ -78,4 +79,7 @@ dvi.Width  = 200
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Image/ro

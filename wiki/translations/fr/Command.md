@@ -1,6 +1,4 @@
 # Command/fr
-
-
 ## Introduction
 
 
@@ -101,3 +99,6 @@ Voir [Fonction - tracer une ligne](Line_drawing_function/fr.md).
 }}
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md) [Category:Glossary](Category:Glossary.md)
+
+---
+[documentation index](../README.md) > [Command_Reference|:Category:Command_Reference]]. Les commandes peuvent être lancées à l'aide d'un bouton de la barre d'outils, d'un élément de menu, d'un script ](Category:Command_Reference|:Category:Command_Reference]]. Les commandes peuvent être lancées à l'aide d'un bouton de la barre d'outils, d'un élément de menu, d'un script .md) > Command/fr

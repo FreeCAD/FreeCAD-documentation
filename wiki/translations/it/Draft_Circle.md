@@ -7,6 +7,8 @@
    SeeAlso:[Arco](Draft_Arc/it.md), [Ellisse](Draft_Ellipse/it.md)<br/>[Macro CirclePlus](Macro_CirclePlus/it.md)
 ---
 
+# Draft Circle/it
+
 
 </div>
 
@@ -214,5 +216,5 @@ doc.recompute()
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Circle/it

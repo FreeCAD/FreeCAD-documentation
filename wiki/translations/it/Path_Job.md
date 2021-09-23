@@ -8,6 +8,8 @@
    SeeAlso:
 ---
 
+# Path Job/it
+
 
 </div>
 
@@ -100,4 +102,7 @@ Se si dispone di una lavorazione composta da più operazioni percorso, è possib
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Job/it

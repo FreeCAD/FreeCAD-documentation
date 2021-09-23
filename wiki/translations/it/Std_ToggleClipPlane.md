@@ -7,6 +7,8 @@
    Workbenches:Tutti
 ---
 
+# Std ToggleClipPlane/it
+
 
 </div>
 
@@ -56,4 +58,7 @@ Un **piano di taglio** divide lo spazio dell\'oggetto in due metà. Tutte le par
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ToggleClipPlane/it

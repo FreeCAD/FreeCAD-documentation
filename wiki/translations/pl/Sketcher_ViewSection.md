@@ -7,6 +7,8 @@
    Version:0.18
 ---
 
+# Sketcher ViewSection/pl
+
 ## Opis
 
 Narzędzie **Widok przekroju** tworzy płaszczyznę przekroju, która tymczasowo ukrywa jakąkolwiek bryłę przed płaszczyzną szkicu.
@@ -27,4 +29,7 @@ To polecenie można wywołać na kilka sposobów:
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ViewSection/pl

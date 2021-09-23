@@ -1,7 +1,4 @@
 # Macro CenterOfMass/fr
-
-
-
 {{Macro/fr
 |Name=Macro CenterOfMass
 |Description=Donne la masse totale et la position du centre de masse de l'ensemble des objets sélectionnés. 
@@ -69,3 +66,6 @@ La discussion sur le forum [Macro to compute center of mass](https://forum.freec
 0.2.3 / 2018-11-22 : nouveaux nom pour les icônes
 
 0.1.2 / 2018-11-10 : xx
+
+---
+[documentation index](../README.md) > Macro CenterOfMass/fr

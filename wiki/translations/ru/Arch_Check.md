@@ -7,6 +7,8 @@
    SeeAlso:[Убрать отверстия](Arch_CloseHoles/ru.md)
 ---
 
+# Arch Check/ru
+
 
 </div>
 
@@ -85,8 +87,5 @@ print(list_bad)
 
 </div>
 
-
-
-
-
-
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Check/ru

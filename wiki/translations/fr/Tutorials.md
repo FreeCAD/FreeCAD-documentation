@@ -1,10 +1,4 @@
 # Tutorials/fr
-
-
-
-
-
-
 {{TOCright}}
 
 Cette page présente une sélection de tutoriels écrits de bonne qualité. Une liste complète et non triée des tutoriels peut être trouvée dans [:Category:Tutorials/fr](:Category:Tutorials/fr.md), une liste complète et triable peut être trouvée dans le [tableau ci-dessous](Tutorials/fr#Tutoriels_-_liste_complète.md).
@@ -339,3 +333,6 @@ Voici une liste de tous les tutoriels qui ne figurent pas dans le manuel **quell
 
 
 [Category:Tutorials](Category:Tutorials.md)
+
+---
+[documentation index](../README.md) > [Tutorials/fr]], une liste complète et triable peut être trouvée dans le ](Category:Tutorials/fr]], une liste complète et triable peut être trouvée dans le .md) > Tutorials/fr

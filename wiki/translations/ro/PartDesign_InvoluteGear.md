@@ -7,6 +7,8 @@
    Workbenches:[PartDesign](PartDesign_Workbench.md)
 ---
 
+# PartDesign InvoluteGear/ro
+
 
 </div>
 
@@ -95,4 +97,7 @@ Valoarea implicită este de 20 de grade. ([More info](http://en.wikipedia
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign InvoluteGear/ro

@@ -7,6 +7,8 @@
    SeeAlso:[Reinforcement](Reinforcement_Workbench/fr.md), [Arch Armature personnalisée](Arch_Rebar/fr.md), [Arch Rebar Nomenclature](Arch_Rebar_BOM/fr.md)
 ---
 
+# Arch Rebar Straight/fr
+
 ## Description
 
 L\'outil [Armature droite](Arch_Rebar_Straight/fr.md) permet à l\'utilisateur de créer un ensemble de barres d\'armature droites à l\'intérieur d\'un objet [Arch Structure](Arch_Structure/fr.md).
@@ -211,3 +213,6 @@ StraightRebar.editStraightRebar(Rebar4, 50, ("Right Side", 50), 100, 100,
  
 
 [Category:Reinforcement](Category:Reinforcement.md)
+
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Rebar Straight/fr

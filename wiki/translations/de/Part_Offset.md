@@ -6,6 +6,8 @@
    SeeAlso:[Dicke](Part_Thickness/de.md), [Part 2D-Versatz](Part_Offset2D/de.md)
 ---
 
+# Part Offset/de
+
 ## Beschreibung
 
 Das Werkzeug Teil 3D Versatz erzeugt parallele Kopien einer ausgewählten Form in einem bestimmten Abstand von der Grundform, wodurch ein neues Objekt entsteht.
@@ -54,10 +56,7 @@ dieselbe Form mit einem 3D Versatz als SKIN und *gefülltem* Versatz
 
 *gefüllter* Versatz mit 2 Zylindern, die boolesche Schnitte erzeugen. Zylinder A geht durch die FÜLLUNG, während Zylinder B nur durch die FÜLLUNG geht und NICHT durch die 2D Ausgangsform.
 
-<img alt="" src=images/PartOffset6.png  style="width:400" height="200px;"> 
+<img alt="" src=images/PartOffset6.png  style="width:400" height="200px;">
 
-
-
-
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Offset/de

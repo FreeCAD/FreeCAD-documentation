@@ -1,7 +1,4 @@
-# About FreeCAD/tr
- 
-
-<img alt="" src=images/Freecad_default.jpg  style="width:1024px;">
+# <img alt="" src=images/Freecad_default.jpg  style="width:1024px;"> About FreeCAD/tr
 
 
 <div class="mw-translate-fuzzy">
@@ -76,3 +73,6 @@ FreeCAD, gönüllü geliştiriciler ve kullanıcılar topluluğu tarafından kor
 
 
 [Category:User Documentation](Category:User_Documentation.md)
+
+---
+[documentation index](../README.md) > [User Documentation](Category:User Documentation.md) > About FreeCAD/tr

@@ -6,6 +6,8 @@
    SeeAlso: [Draft Aimantation](Draft_Snap/fr.md), [Draft Aimantation Verrouiller](Draft_Snap_Lock/fr.md), [Draft Basculer la grille](Draft_ToggleGrid/fr.md), [Draft Plan de travail](Draft_SelectPlane/fr.md)
 ---
 
+# Draft Snap Grid/fr
+
 ## Description
 
 L\'option <img alt="" src=images/Draft_Snap_Grid.svg  style="width:24px;"> **Draft Aimantation Grille** permet de s\'aimanter aux intersections des lignes de la grille. La grille ne peut être utilisée que si la préférence **Activer la grille** est sélectionnée. Voir [Préférences](#Pr.C3.A9f.C3.A9rences.md).
@@ -35,8 +37,5 @@ Voir [Draft Préférences](Draft_Snap/fr#Pr.C3.A9f.C3.A9rences.md)
 -   Pour utiliser la grille, sélectionnez : **Édition → Préférences... → Draft → Grille et aimantation → Grille → Activer la grille**. Après avoir modifié cette préférence, vous devez redémarrer FreeCAD.
 -   D\'autres préférences de grille sont également disponibles : **Édition → Préférences... → Draft → Grille et aimantation → Grille**.
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Grid/fr

@@ -1,5 +1,5 @@
 # Macro Remove parametric history/it
- {{Macro/it
+{{Macro/it
 |Name=Remove parametric history
 |Icon=Macro_Remove_parametric_history.png
 |Translate=Rimozione della cronologia
@@ -39,6 +39,5 @@ newObject.Shape = newShape
 
 }}
 
-
-
-
+---
+[documentation index](../README.md) > Macro Remove parametric history/it

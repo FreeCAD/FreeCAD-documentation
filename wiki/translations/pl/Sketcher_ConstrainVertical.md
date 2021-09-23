@@ -8,6 +8,8 @@
    SeeAlso:[Szkicownik: Wiązanie poziome](Sketcher_ConstrainHorizontal/pl.md)
 ---
 
+# Sketcher ConstrainVertical/pl
+
 ## Opis
 
 Tworzy wiązanie pionowe dla wybranych linii lub elementów polilinii. Zaczynając od wersji {{VersionPlus/pl|0.17}} może również ograniczać wierzchołki w pionie. Można wybrać więcej niż jeden obiekt.
@@ -35,4 +37,7 @@ Strona [skrypty szkicownika](Sketcher_scripting/pl.md) wyjaśnia wartości, któ
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainVertical/pl

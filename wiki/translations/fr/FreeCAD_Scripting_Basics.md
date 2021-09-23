@@ -1,7 +1,4 @@
 # FreeCAD Scripting Basics/fr
-
-
-
 {{TOCright}}
 
 ## Les scripts Python dans FreeCAD 
@@ -211,3 +208,6 @@ Maintenant, vous pouvez vraiment commencer à vous amuser avec FreeCAD ! Pour un
 }} 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > FreeCAD Scripting Basics/fr

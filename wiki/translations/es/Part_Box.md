@@ -7,6 +7,8 @@
    SeeAlso:[Part Crear primitivas](Part_Primitives/es.md)
 ---
 
+# Part Box/es
+
 
 </div>
 
@@ -84,5 +86,5 @@ FreeCAD.ActiveDocument.myBox.Placement = FreeCAD.Placement(FreeCAD.Vector(4, 6, 
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Box/es

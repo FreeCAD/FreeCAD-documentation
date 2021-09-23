@@ -1,11 +1,4 @@
 # Sandbox:Roy 043
- 
-
-
-
-
- 
-
 The preferences for the [Draft Workbench](Draft_Workbench.md) can be found in the [Preferences Editor](Preferences_Editor.md). In the menu select **Edit → Preferences... → Draft**.
 
 There are five tabs: [General settings](#General_settings.md), [User interface settings](#User_interface_settings.md), [Grid and snapping](#Grid_and_snapping.md), [Visual settings](#Visual_settings.md) and [Texts and dimensions](#Texts_and_dimensions.md).
@@ -444,3 +437,6 @@ On the *Texts and dimensions* tab you can specify the following:
   
 
 [Category:Preferences](Category:Preferences.md) [Category:Sandbox](Category:Sandbox.md)
+
+---
+[documentation index](../README.md) > [Preferences](Category:Preferences.md) > Sandbox:Roy 043

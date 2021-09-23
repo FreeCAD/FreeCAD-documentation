@@ -7,6 +7,8 @@
    SeeAlso:[Текст](Draft_Text/ru.md), [Фигура из текста](Draft_ShapeString/ru.md)
 ---
 
+# TechDraw Annotation/ru
+
 ## Описание
 
 The Annotation tool adds a text block to a drawing page.
@@ -71,4 +73,7 @@ rc = page.addView(anno)
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Annotation/ru

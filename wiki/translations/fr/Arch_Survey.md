@@ -7,6 +7,8 @@
    SeeAlso:[Macro FCInfo](Macro_FCInfo/fr.md), [Macro SimpleProperties](Macro_SimpleProperties/fr.md)
 ---
 
+# Arch Survey/fr
+
 ## Description
 
 L\'outil **<img src="images/Arch_Survey.svg" width=16px> [Arch Prise de cotes](Arch_Survey/fr.md)** accède à un mode spécial d\'arpentage, qui permet de prendre rapidement des mesures et des informations sur un modèle et de transférer ces renseignements à d\'autres applications. Une fois que vous êtes en mode Prise de cotes, et que vous cliquez sur différents sous-éléments de l\'objet 3D, vous récupérez les informations suivantes (en fonction de ce sur quoi vous cliquez):
@@ -66,8 +68,5 @@ for obj in selection:
         print("Center of Mass: %f", element.CenterOfMass)
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Survey/fr

@@ -1,7 +1,4 @@
 # HiDPI support/fr
-
-
-
 **
 Ce plan de développement est probablement obsolète. Pour plus d'informations, voir [Plan de développement](Development_roadmap/fr.md).<br>
 Si vous n'êtes pas impliqué dans le développement discuté ici :<br>
@@ -228,3 +225,6 @@ Qt ne fournit pas la fonctionnalité pour récupérer cette valeur. Nous devons 
 
 
 [Category:Roadmap](Category:Roadmap.md)
+
+---
+[documentation index](../README.md) > [Roadmap](Category:Roadmap.md) > HiDPI support/fr

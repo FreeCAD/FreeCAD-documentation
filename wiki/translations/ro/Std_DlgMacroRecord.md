@@ -7,6 +7,8 @@
    SeeAlso:[Execute macro](Std_DlgMacroExecuteDirect/ro.md)
 ---
 
+# Std DlgMacroRecord/ro
+
 
 </div>
 
@@ -66,4 +68,7 @@ Este accesibil via **Macro → Macro recording ...**, sau pe calea apăsării bu
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std DlgMacroRecord/ro

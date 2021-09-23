@@ -7,6 +7,8 @@
    MenuLocation:Sketch → Restricciones de croquis → Restricción de coincidencia   SeeAlso:[Restricción de bloqueo](Constraint_Lock/es.md), [Punto en objeto](Constraint_PointOnObject/es.md)
 ---
 
+# Sketcher ConstrainCoincident/es
+
 
 </div>
 
@@ -93,3 +95,6 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 }}  
 
 [Category:Sketcher/es](Category:Sketcher/es.md)
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainCoincident/es

@@ -1,5 +1,5 @@
 # Macro FC Convert Lines/fr
- {{Macro/fr
+{{Macro/fr
 |Name=Macro FC Convert Lines
 |Icon=Macro_FCConvertLines.png
 |Description=Cette macro  convertit un objet ligne, fil en une ligne de Tirets ou Tiret-Points ou Tiret-Point-Points avec les dimensions données.
@@ -198,3 +198,6 @@ ver 00.02 18/02/2016
 ver 00.01 19/01/2016
 
 ver 00.00 19/01/2016
+
+---
+[documentation index](../README.md) > Macro FC Convert Lines/fr

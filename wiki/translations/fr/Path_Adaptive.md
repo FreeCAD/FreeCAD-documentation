@@ -6,6 +6,8 @@
    Workbenches:[Path](Path_Workbench/fr.md)
 ---
 
+# Path Adaptive/fr
+
 ## Description
 
 L\'outil <img alt="" src=images/Path_Adaptive.svg  style="width:24px;"> [Path Adaptation](Path_Adaptive/fr.md) utilise un algorithme adaptatif pour créer des chemins de compensation et de profilage qui gèrent l\'engagement des outils de coupe de manière à ce que l\'engagement et l\'enlèvement de matière ne dépassent jamais une valeur maximale.
@@ -222,4 +224,7 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Adaptive/fr

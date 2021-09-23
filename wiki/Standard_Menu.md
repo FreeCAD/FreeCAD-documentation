@@ -1,6 +1,4 @@
 # Standard Menu
- 
-
 ## Introduction
 
 The standard menu gives access to tools that can be used in all workbenches. The menu may look slightly different depending on the desktop environment (KDE, Gnome, Windows, OS X, etc.). Workbenches can also add sub-menus depending on how they decide to structure their tools.
@@ -44,4 +42,7 @@ The standard menu is composed of 7 sub-menus:
 
 -    {{StdMenu|[Help](Std_Help_Menu.md)}}The Help menu provides access to the help system and links to the FreeCAD website and forum.
 
- {{Std Base navi}}  {{Interface navi}} 
+ {{Std Base navi}}  {{Interface navi}}
+
+---
+[documentation index](../README.md) > Standard Menu

@@ -6,6 +6,8 @@
    Workbenches:[Mesh](Mesh_Workbench/it.md)
 ---
 
+# Mesh Scale/it
+
 ## Descrizione
 
 Il comando **Scala** scala gli oggetti mesh.
@@ -32,4 +34,7 @@ Il comando **Scala** scala gli oggetti mesh.
 
 {{Mesh Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Scale/it

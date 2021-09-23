@@ -8,6 +8,8 @@
    SeeAlso:[TechDraw Mittenpunkt](TechDraw_Midpoints/de.md), [TechDraw Quadrant](TechDraw_Quadrants/de.md)
 ---
 
+# TechDraw CosmeticVertex/de
+
 ## Beschreibung
 
 Das Kosmetikknoten Werkzeug fügt einer Ansicht einen [Knoten](Glossary/de#V.md) hinzu, der nicht Teil der Quellgeometrie ist. Dieser Knoten verhält sich wie jeder andere Knoten und kann für die Bemaßung verwendet werden.
@@ -60,4 +62,7 @@ dvp.makeCosmeticLine(start,end,style, weight, pyGreen)
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw CosmeticVertex/de

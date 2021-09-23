@@ -1,7 +1,4 @@
 # Macro FCInfoToMouse/it
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -534,3 +531,6 @@ Le mie macro in [mario52a](https://gist.github.com/mario52a) gists
 23/01/2016 ver 00.02 : add function \"single\", replace key \"H\" to \"C\" and correct bug
 
 02/01/2016 : ver 0.1
+
+---
+[documentation index](../README.md) > Macro FCInfoToMouse/it

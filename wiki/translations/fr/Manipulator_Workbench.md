@@ -1,7 +1,4 @@
-# Manipulator Workbench/fr
-
-
-<img alt="Icône de l\'atelier externe Manipulator" src=images/Manipulator_workbench_icon.svg  style="width:128px;">
+# <img alt="Icône de l\'atelier externe Manipulator" src=images/Manipulator_workbench_icon.svg  style="width:64px;"> Manipulator Workbench/fr
 
 ## Introduction
 
@@ -124,3 +121,6 @@ De nouveaux ateliers sont en développement, restez à l\'écoute !
  
 
 [Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+
+---
+[documentation index](../README.md) > Manipulator Workbench/fr

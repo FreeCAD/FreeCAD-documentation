@@ -1,3 +1,4 @@
+# Draft Snap Extension/it
 ---
 - GuiCommand:/it
    Name:Draft Extension
@@ -66,5 +67,5 @@ See [Draft Snap](Draft_Snap#Preferences.md).
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Extension/it

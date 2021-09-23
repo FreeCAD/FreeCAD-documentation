@@ -1,3 +1,4 @@
+# Part Export/it
 ---
 - GuiCommand:/it   Name:Part_Export   Name/it:Esporta CAD   Empty:1   MenuLocation:Part → Esporta CAD...   Workbenches:[SeeAlso:[[Part_Import/it|Importa CAD](Part_Workbench/it___Part]].md), [Esporta](Std_Export/it.md), [Importazione e Esportazione](Import_Export/it.md)---
 
@@ -30,11 +31,5 @@
 
 </div>
 
-
-
-
-
-
-
-
-
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Export/it

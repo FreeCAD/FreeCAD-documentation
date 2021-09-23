@@ -7,6 +7,8 @@
    SeeAlso:[Arch](Arch_Workbench/it.md), [Piano di sezione di Arch](Arch_SectionPlane/it.md)
 ---
 
+# TechDraw ArchView/it
+
 
 </div>
 
@@ -134,4 +136,7 @@ rc = page.addView(dv)
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ArchView/it

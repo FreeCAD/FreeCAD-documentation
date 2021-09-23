@@ -7,6 +7,8 @@
    Workbenches:Tutti
 ---
 
+# Std ProjectUtil/it
+
 
 </div>
 
@@ -80,4 +82,7 @@ Con il comando **Utilità di progetto** è possibile estrarre i file da un file 
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ProjectUtil/it

@@ -8,6 +8,8 @@
    SeeAlso:[Arquitectura Estructura](Arch_Structure/es.md)
 ---
 
+# Arch Wall/es
+
 
 </div>
 
@@ -169,8 +171,5 @@ FreeCAD.ActiveDocument.recompute()
 
 </div>
 
-
-
-
-
-
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Wall/es

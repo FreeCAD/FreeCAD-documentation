@@ -1,7 +1,4 @@
 # Extra python modules/pt-br
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -733,3 +730,6 @@ utils = LazyLoader('PathScripts', globals(), 'PathScripts.PathUtils')
  
 
 [Category:Python Code](Category:Python_Code.md) [Category:Developer Documentation](Category:Developer_Documentation.md)
+
+---
+[documentation index](../README.md) > [Python Code](Category:Python Code.md) > Extra python modules/pt-br

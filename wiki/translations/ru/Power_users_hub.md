@@ -1,5 +1,4 @@
-# Power users hub/ru
- <img alt="" src=images/Power_user_hub.png  style="width:64px;">
+# <img alt="" src=images/Power_user_hub.png  style="width:64px;"> Power users hub/ru
 
 ------------------------------------------------------------------------
 
@@ -143,3 +142,6 @@ FreeCAD расширяем с помощью кода [Python](Python/ru.md), к
 }}
 
 [Category:Hubs](Category:Hubs.md)
+
+---
+[documentation index](../README.md) > [Hubs](Category:Hubs.md) > Power users hub/ru

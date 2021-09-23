@@ -1,10 +1,4 @@
 # TechDraw Geometric dimensioning and tolerancing/pl
-
-
-
-
-
-
 {{TOCright}}
 
 ## Idea
@@ -341,4 +335,7 @@ Poniżej znajduje się lista znaków, które należy wykorzystać w oznaczeniach
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Geometric dimensioning and tolerancing/pl

@@ -1,6 +1,4 @@
 # Addon/ru
-
-
 ## Введение
 
 В FreeCAD и в этой документации [Дополнения](Addon/ru.md) - это любой компонент, который не является частью базовой установки, но который может быть добавлен в систему определенными методами.
@@ -37,3 +35,6 @@ $HOME/.FreeCAD/Mod/
 
 
 [Category:Addons](Category:Addons.md)
+
+---
+[documentation index](../README.md) > [Addons](Category:Addons.md) > Addon/ru

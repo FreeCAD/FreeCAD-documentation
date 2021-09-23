@@ -8,6 +8,8 @@
    SeeAlso:[Std Lien objet lié](Std_LinkSelectLinked/fr.md), [Std Lien objet lié primaire](Std_LinkSelectLinkedFinal/fr.md), [Std Tous les liens](Std_LinkSelectAllLinks/fr.md), [Std Etablir](Std_SelForward/fr.md)
 ---
 
+# Std SelBack/fr
+
 ## Description
 
 La commande **Std Rétablir** restaure la sélection précédente enregistrée de la [Vue en arborescence](Tree_view/fr.md). Notez que les sélections ne sont enregistrées que si [Enregistrer la sélection](Std_TreeRecordSelection/fr.md) est activé.
@@ -28,4 +30,7 @@ La commande **Std Rétablir** restaure la sélection précédente enregistrée d
 
 {{Std Base navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > Std SelBack/fr

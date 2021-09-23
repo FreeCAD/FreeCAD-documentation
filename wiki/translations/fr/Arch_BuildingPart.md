@@ -8,6 +8,8 @@
    SeeAlso:[Arch Bâtiment](Arch_Building/fr.md), [Arch Site](Arch_Site/fr.md)
 ---
 
+# Arch BuildingPart/fr
+
 ## Description
 
 BuildingPart (Partie de bâtiment) remplace les anciens [Arch Planchers](Arch_Floor/fr.md) et [Arch Bâtiment](Arch_Building/fr.md) par une version plus performante qui peut être utilisée non seulement pour créer un étage/un niveau/des niveaux mais également pour toutes sortes de situations dans lesquelles différents objets Arch/BIM doivent être groupés. Ce groupe pourra être traité comme un seul objet ou répliqué.
@@ -127,8 +129,5 @@ Site = Arch.makeSite(Building)
 FreeCAD.ActiveDocument.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch BuildingPart/fr

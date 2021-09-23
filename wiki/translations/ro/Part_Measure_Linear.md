@@ -6,6 +6,8 @@
    Workbenches:[Part](Part_Workbench/ro.md)
 ---
 
+# Part Measure Linear/ro
+
 
 </div>
 
@@ -34,8 +36,5 @@ Acest instrument măsoară distanța dintre două elemente de topologie selectat
 
 </div>
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Linear/ro

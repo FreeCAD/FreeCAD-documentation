@@ -1,6 +1,4 @@
 # Translating an external workbench/es
-
-
 En las siguientes notas, `"contexto"` debe ser el mismo nombre de tu complemento o banco de trabajo, por ejemplo, `"MiSuperComplemento"` o `"DraftPlus"`, o el que sea. Este contexto hace que todas esas traducciones de tu código sean reunidas bajo el mismo nombre, para que sean mas fácilmente identificables por los traductores. Esto es, ellos sabrán exactamente a cual complemento o banco de trabajo una cadena de texto pertenece.
 
 **Note**: Here is an all-in-one script that automates the complete procedure mentioned below (you are still advised to read the procedure to know what the script should do, though): <https://github.com/yorikvanhavre/BIM_Workbench/blob/master/utils/updateTranslations.py>
@@ -230,3 +228,6 @@ Yorik maintains a convenience script for the BIM workbench, that can gather, upl
  
 
 [Category:Developer Documentation](Category:Developer_Documentation.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Translating an external workbench/es

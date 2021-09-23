@@ -6,3 +6,6 @@ This category collects pages from the [external workbenches](external_workbenche
 [Ship Workbench/zh-hant](Ship_Workbench/zh-hant.md)
 
 [Category:Workbenches/zh-hant](Category:Workbenches/zh-hant.md) [Category:Addons/zh-hant](Category:Addons/zh-hant.md)
+
+---
+[documentation index](../README.md) > Category:External Workbenches/zh-hant

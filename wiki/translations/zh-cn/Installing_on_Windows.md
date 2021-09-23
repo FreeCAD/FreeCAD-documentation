@@ -1,9 +1,4 @@
 # Installing on Windows/zh-cn
-
-
-
-
-
 最简单的把 FreeCAD 安装到 Windows的方式是下面的安装器：
 
 
@@ -235,5 +230,5 @@ FreeCAD is running, but it has been reported that the OpenGL display does not wo
 
 </div>
 
-
-
+---
+[documentation index](../README.md) > Installing on Windows/zh-cn

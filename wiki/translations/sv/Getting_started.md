@@ -1,10 +1,4 @@
 # Getting started/sv
-
-
-
-
-
-
 {{TOCright}}
 
 ## Förord
@@ -248,3 +242,6 @@ And finally, one of the most powerful features of FreeCAD is the [scripting](scr
 
 
 [Category:User Documentation/sv](Category:User_Documentation/sv.md)
+
+---
+[documentation index](../README.md) > Getting started/sv

@@ -1,6 +1,4 @@
 # Selection view/fr
-
-
 ## Introduction
 
 
@@ -82,4 +80,7 @@ Depuis la v0.19, la case **picked object list** est disponible. Si cette case es
 
 {{Interface navi
 
-}} {{Std Base navi}} 
+}} {{Std Base navi}}
+
+---
+[documentation index](../README.md) > Selection view/fr

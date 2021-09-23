@@ -6,6 +6,8 @@
    SeeAlso:[Verbinden](Part_JoinConnect/de.md), [Einbetten](Part_JoinEmbed/de.md), [Ausschnitt](Part_JoinCutout/de/de.md), [Part Boolesche](Part_Booleans.md), [Part Dicke](Part_Thickness/de.md)
 ---
 
+# Part CompJoinFeatures/de
+
 
 </div>
 
@@ -33,5 +35,5 @@ Dieser Befehl ist eine Auswahlwerkzeugleistenschaltfläche, die alle Fügewerkze
 
 </div>
 
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompJoinFeatures/de

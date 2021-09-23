@@ -7,6 +7,8 @@
    Version:v0.16
 ---
 
+# FCGear BevelGear/de
+
 ## Beschreibung
 
 Unter anderem wegen der Geräuschentwicklung werden Kegelzahnräder nicht so häufig eingesetzt wie andere Getriebearten. Sie werden aber immer noch in bestimmten Bereichen eingesetzt, z. B. bei Nahrungsmittelverpackung und Lebensmittelkonserven, Grünflächen- und Gartengeräten, Maschinen wie Bohrmaschinen und Fräsen, Verdichtersysteme für den Gas- und Ölmarkt und Durchflußregelventilen.
@@ -106,3 +108,6 @@ Substantiv Referenz Kegelwinkel \[TECH.\]
 
 
 [Category:Addons](Category:Addons.md) [Category:FCGear](Category:FCGear.md) [Category:External Command Reference](Category:External_Command_Reference.md)
+
+---
+[documentation index](../README.md) > [Addons](Category:Addons.md) > FCGear BevelGear/de

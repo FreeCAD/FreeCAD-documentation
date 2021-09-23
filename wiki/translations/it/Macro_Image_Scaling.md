@@ -1,5 +1,5 @@
 # Macro Image Scaling/it
- {{Macro/it
+{{Macro/it
 |Name=Image Scaling
 |Icon=Image_Scaling.svg
 |Translate=Scala immagine
@@ -182,6 +182,5 @@ ui.setupUi(d)
 -   [Download zip](http://forum.freecadweb.org/download/file.php?id=19542)
 -   [Movie created by microelly2](https://youtu.be/2iFE40uHrA8)
 
-
-
-
+---
+[documentation index](../README.md) > Macro Image Scaling/it

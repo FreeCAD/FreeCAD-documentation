@@ -1,5 +1,5 @@
 # Macro Solid Sweep/de
- {{Macro/de
+{{Macro/de
 |Name=Solid Sweep
 |Translate=Solid Sweep
 |Icon=Macro_Solid_Sweep.png
@@ -87,3 +87,6 @@ myObject.Shape = Sweep
 Vielen Dank an [Wmayer](User:_Wmayer.md) für seine Hilfe beim Schreiben dieses Skripts.
 
 Zwei Anwendungsbeispiele finden Sie in [this forum topic](http://forum.freecadweb.org/viewtopic.php?f=8&t=1222&start=50#p11120), zusammen mit Download-Links zu den FCStd-Dateien. Bei Verwendung einer Helix als Flugbahn kann ein fester Durchlauf zum Erstellen eines Schraubengewindes verwendet werden.
+
+---
+[documentation index](../README.md) > Macro Solid Sweep/de

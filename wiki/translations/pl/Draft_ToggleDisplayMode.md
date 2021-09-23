@@ -7,6 +7,8 @@
    SeeAlso:[Std ToggleVisibility](Std_ToggleVisibility.md)
 ---
 
+# Draft ToggleDisplayMode/pl
+
 ## Description
 
 The <img alt="" src=images/Draft_ToggleDisplayMode.svg  style="width:24px;"> **Draft ToggleDisplayMode** command switches the **Display Mode** property of selected objects between {{Value|Flat Lines}} and {{Value|Wireframe}}. When this property of is set to {{Value|Wireframe}} only the vertices and edges of an object are visible making it possible to view and select objects behind it.
@@ -23,8 +25,5 @@ The <img alt="" src=images/Draft_ToggleDisplayMode.svg  style="width:24px;"> **D
     -   Select the **Utilities → <img src="images/Draft_ToggleDisplayMode.svg" width=16px> Toggle normal/wireframe display** option from the [Tree view](Tree_view.md) or [3D view](3D_view.md) context menu.
     -   Use the keyboard shortcut: **Shift**+**Space**.
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ToggleDisplayMode/pl

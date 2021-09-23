@@ -8,6 +8,8 @@
    SeeAlso:[Constrain Lock](Sketcher_ConstrainLock/ro.md), [Constrain Point onto Object](Sketcher_ConstrainPointOnObject/ro.md)
 ---
 
+# Sketcher ConstrainCoincident/ro
+
 
 </div>
 
@@ -110,3 +112,6 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 }}  
 
 [Category:Sketcher/ro](Category:Sketcher/ro.md)
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainCoincident/ro

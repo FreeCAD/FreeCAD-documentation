@@ -1,6 +1,4 @@
 # Shape
- 
-
 ## Introduction
 
 In FreeCAD the word \"[Shape](Shape.md)\" is normally used to refer to a [Part TopoShape](Part_TopoShape.md) (`Part::TopoShape` class), a type of object that gives an element its 3D geometrical and parametric representation (cube, pyramid, sphere, cylinder, fusion, etc.).
@@ -35,3 +33,6 @@ However, when more precision is required, the distinction must be made.
   {{Document objects navi}} 
 
 [Category:Glossary](Category:Glossary.md)
+
+---
+[documentation index](../README.md) > [Glossary](Category:Glossary.md) > Shape

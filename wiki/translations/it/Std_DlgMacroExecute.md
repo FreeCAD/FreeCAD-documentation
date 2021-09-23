@@ -1,3 +1,4 @@
+# Std DlgMacroExecute/it
 ---
 - GuiCommand:/it   Name:Std_DlgMacroExecute   Name/it:Esegui macro   MenuLocation:[Shortcut:CTRL+F6   Workbenches:Tutti   SeeAlso:[[Std_DlgMacroExecuteDirect/it|Esegui la macro nell'editor](Macros/it___Macro]]_→_Esegui_la_macro.md)---
 
@@ -126,4 +127,7 @@ Quando si entra in **<img src=images/Std_DlgMacroExecuteDirect.png style="width:
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std DlgMacroExecute/it

@@ -1,3 +1,4 @@
+# Mesh FillInteractiveHole/ro
 ---
 - GuiCommand:   Name:Mesh FillInteractiveHole‏‎   MenuLocation:Meshes → Close hole   Workbenches:[[Mesh Workbench   Mesh]]|Shortcut:   SeeAlso:---
 
@@ -47,4 +48,7 @@
 
 {{Mesh Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh FillInteractiveHole/ro

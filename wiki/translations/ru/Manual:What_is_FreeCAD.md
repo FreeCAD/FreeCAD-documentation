@@ -1,7 +1,4 @@
 # Manual:What is FreeCAD/ru
- 
-
-
 {{Manual:TOC/ru}}
 
 ![](images/Freecad016_screenshot1.jpg )
@@ -22,6 +19,5 @@ FreeCAD так же пользуется гигантским накаплива
 -   [Возможности](Feature_list/ru.md)
 -   [Screenshots and user cases](http://forum.freecadweb.org/viewforum.php?f=24)
 
-
-
-
+---
+[documentation index](../README.md) > Manual:What is FreeCAD/ru

@@ -8,6 +8,8 @@
    SeeAlso:[На весь экран](Std_ViewFullscreen/ru.md)
 ---
 
+# Std MainFullscreen/ru
+
 ## Описание
 
 The **Std MainFullscreen** command toggles FreeCAD\'s main window fullscreen mode.
@@ -24,4 +26,7 @@ The **Std MainFullscreen** command toggles FreeCAD\'s main window fullscreen mod
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std MainFullscreen/ru

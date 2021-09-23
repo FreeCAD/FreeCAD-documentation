@@ -7,6 +7,8 @@
    SeeAlso:[Verstärkung](Reinforcement_Workbench/de.md), [Bewehrungsstab](Arch_Rebar/de.md), [Spiralförmiger Bewehrungsstab](Arch_Rebar_Helical/de.md)
 ---
 
+# Arch Rebar Stirrup/de
+
 ## Beschreibung
 
 Das [Bügelförmiger Bewehrungsstab](Arch_Rebar_Stirrup/de.md)-Werkzeug erlaubt es dem Anwender, einen Satz von bügelförmigen Bewehrungsstäben in einem [Struktur](Arch_Structure/de.md)-Objekt zu erstellen.
@@ -139,3 +141,6 @@ Stirrup.editStirrup(Rebar, 20, 20, 20, 20, 50,
  
 
 [Category:Reinforcement](Category:Reinforcement.md)
+
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Rebar Stirrup/de

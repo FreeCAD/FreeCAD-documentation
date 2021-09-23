@@ -1,7 +1,4 @@
 # Installing on Windows/it
-
-
-
 {{docnav/it
 |[Funzionalità](Feature_list/it.md)
 |[Installare in Linux](Installing_on_Linux/it.md)
@@ -218,5 +215,5 @@ FreeCAD viene eseguito, ma è stato riferito che OpenGL non funziona, come succe
 |[Installare in Linux](Installing_on_Linux/it.md)
 }}
 
-
-
+---
+[documentation index](../README.md) > Installing on Windows/it

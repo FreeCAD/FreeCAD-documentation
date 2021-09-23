@@ -7,6 +7,8 @@
    SeeAlso:[Std BoxElementSelection](Std_BoxElementSelection.md), [Std SelectAll](Std_SelectAll.md)
 ---
 
+# Std BoxSelection/pl
+
 ## Description
 
 The **Std BoxSelection** command selects objects from a user defined rectangular area, a box, in the [3D view](3D_view.md).
@@ -35,4 +37,7 @@ The **Std BoxSelection** command selects objects from a user defined rectangular
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std BoxSelection/pl

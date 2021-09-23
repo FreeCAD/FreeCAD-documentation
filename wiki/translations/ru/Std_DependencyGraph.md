@@ -6,6 +6,8 @@
    Workbenches:Все
 ---
 
+# Std DependencyGraph/ru
+
 ## Описание
 
 The **Std DependencyGraph** command displays the dependencies between objects in the active document in a \'dependency graph\'. As opposed to the [Tree view](Tree_view.md), objects are listed in reverse chronological order, with the first created object at the bottom.
@@ -94,3 +96,6 @@ You can save a dependency graph:
 }}  
 
 [Category:3rd Party](Category:3rd_Party.md)
+
+---
+[documentation index](../README.md) > [3rd Party](Category:3rd Party.md) > Std DependencyGraph/ru

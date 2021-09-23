@@ -5,6 +5,8 @@
    Workbenches:[PartDesign](PartDesign_Workbench.md)
 ---
 
+# PartDesign LinearPattern/tr
+
 ## Tanım
 
 The **<img src=images/PartDesign_LinearPattern.svg style="width:24px"> '''LinearPattern'''** tool creates evenly spaced copies of a feature in a linear direction. As of <small>(v0.17)</small>  the Linear pattern tool can pattern multiple features.
@@ -86,4 +88,7 @@ Select one of the Body Origin\'s standard axis (X, Y or Z) as direction.
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign LinearPattern/tr

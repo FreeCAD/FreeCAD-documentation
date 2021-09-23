@@ -8,6 +8,8 @@
    SeeAlso:[Arch Structure](Arch_Structure/pt-br.md)
 ---
 
+# Arch Wall/pt-br
+
 
 </div>
 
@@ -150,8 +152,5 @@ FreeCAD.ActiveDocument.recompute()
 
 </div>
 
-
-
-
-
-
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Wall/pt-br

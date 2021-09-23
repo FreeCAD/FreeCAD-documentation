@@ -1,3 +1,4 @@
+# FEM SolverCalculixCxxtools/ro
 ---
 - GuiCommand:   Name:FEM Solver   MenuLocation:Solve → Solver CalculiX Standard   |Workbenches:[Shortcut:   SeeAlso:[[FEM_tutorial|FEM tutorial](FEM_Workbench___FEM]].md)---
 
@@ -210,4 +211,7 @@ Documentația originală CalculiX poate fi găsită la <http://dhondt.de/> in th
 
 {{FEM Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > FEM SolverCalculixCxxtools/ro

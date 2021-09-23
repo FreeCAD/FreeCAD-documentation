@@ -7,6 +7,8 @@
    SeeAlso:[Mesh FromPartShape](Mesh_FromPartShape.md)
 ---
 
+# Mesh RemeshGmsh
+
 ## Description
 
 The **Mesh RemeshGmsh** command remeshes a mesh object using the [Gmsh](https://gmsh.info/) mesher. The new mesh can be finer or coarser.
@@ -34,4 +36,7 @@ See: [Mesh Feature](Mesh_Feature.md).
 
 
 
- {{Mesh Tools navi}}  
+ {{Mesh Tools navi}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh RemeshGmsh

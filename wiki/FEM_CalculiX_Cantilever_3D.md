@@ -1,7 +1,4 @@
 # FEM CalculiX Cantilever 3D
- 
-
-
 {{TutorialInfo
 |Topic=Finite Element Analysis
 |Level=Beginner
@@ -125,4 +122,7 @@ This example is meant to show how a simple Finite Element Analysis (**FEA**) in 
 -   You are now prepared to do the second [FEM tutorial](FEM_tutorial.md).
 -   We will create the CalculiX cantilever by ourselves and compare the results with the beam theory.
 
- {{Tutorials navi}} {{FEM Tools navi}} 
+ {{Tutorials navi}} {{FEM Tools navi}}
+
+---
+[documentation index](../README.md) > FEM CalculiX Cantilever 3D

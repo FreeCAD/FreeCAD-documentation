@@ -1,10 +1,4 @@
-# Arch Workbench
- 
-
-
-
-
-<img alt="Arch workbench icon" src=images/Workbench_Arch.svg  style="width:128px;">
+# <img alt="Arch workbench icon" src=images/Workbench_Arch.svg  style="width:64px;"> Arch Workbench
 
  
 
@@ -142,3 +136,6 @@ The Arch module can be used in [Python](Python.md) scripts and [macros](macros.m
   
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Arch Workbench

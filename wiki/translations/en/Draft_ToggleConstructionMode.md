@@ -7,6 +7,8 @@
    SeeAlso:[Draft AddConstruction](Draft_AddConstruction.md), [Draft AutoGroup](Draft_AutoGroup.md)
 ---
 
+# Draft ToggleConstructionMode/en
+
 ## Description
 
 The <img alt="" src=images/Draft_ToggleConstructionMode.svg  style="width:24px;"> **Draft ToggleConstructionMode** command switches Draft construction mode on or off. If construction mode is on new [Draft](Draft_Workbench.md) objects, except [Draft Points](Draft_Point.md), are placed in a dedicated group and given a predefined color. This feature is intended for, often temporary, construction geometry used to provide new [snap points](Draft_Snap.md) for creating other objects. When the construction geometry is no longer needed the construction group can easily be [hidden](Std_HideSelection.md) or [deleted](Std_Delete.md).
@@ -35,8 +37,5 @@ In FreeCAD version 0.19 this command and the [Draft AddConstruction](Draft_AddCo
 -   To change the label (<small>(v0.20)</small> ) of the construction group: **Edit → Preferences... → Draft → General settings → Construction Geometry → Construction group name**.
 -   To change the color that is used: **Edit → Preferences... → Draft → General settings → Construction Geometry → Construction geometry color**.
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ToggleConstructionMode/en

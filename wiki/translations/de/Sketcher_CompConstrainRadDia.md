@@ -1,5 +1,5 @@
 # Sketcher CompConstrainRadDia/de
- {{GuiCommand/de
+{{GuiCommand/de
 |Name=Sketcher constrain an arc or a circle
 |Name/de=Sketcher beschränke einen Bogen oder einen Kreis 
 |Workbenches=[Skizzierer](Sketcher_Workbench/de.md)
@@ -18,4 +18,7 @@
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CompConstrainRadDia/de

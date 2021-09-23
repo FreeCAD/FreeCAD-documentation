@@ -7,6 +7,8 @@
    Shortcut:**M** **F**
 ---
 
+# SheetMetal Forming/fr
+
 ## Description
 
 
@@ -188,3 +190,6 @@ No need to work with coplanar sketches here.
 
 
 [Category:SheetMetal](Category:SheetMetal.md) [Category:Addons](Category:Addons.md) [Category:External Command Reference](Category:External_Command_Reference.md)
+
+---
+[documentation index](../README.md) > [SheetMetal](Category:SheetMetal.md) > SheetMetal Forming/fr

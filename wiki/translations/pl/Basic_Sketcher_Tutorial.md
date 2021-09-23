@@ -1,7 +1,4 @@
 # Basic Sketcher Tutorial/pl
-
-
-
 {{TutorialInfo/pl
 |Topic= Szkicownik
 |Level= początkujący
@@ -295,3 +292,6 @@ Ograniczenie szkicu może być wykonane na wiele różnych sposobów. Ogólnie r
 }} {{Sketcher Tools navi}} 
 
 [Category:Sketcher/pl](Category:Sketcher/pl.md)
+
+---
+[documentation index](../README.md) > Basic Sketcher Tutorial/pl

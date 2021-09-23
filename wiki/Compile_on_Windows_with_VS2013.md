@@ -1,5 +1,5 @@
 # Compile on Windows with VS2013
-  {{Note|Important Note:|This page is a child of the [Complile of Windows](CompileOnWindows.md) page.}} The following procedure will work for compiling on Windows Vista/7/8, for XP an alternate VS tool set is required for VS 2012 and 2013, which has not been tested successfully with the current Libpacks. To target XP(both x32 and x64) it is recommended to use VS2008 and Libpack FreeCADLibs\_11.0\_x86\_VC9.7z
+{{Note|Important Note:|This page is a child of the [Complile of Windows](CompileOnWindows.md) page.}} The following procedure will work for compiling on Windows Vista/7/8, for XP an alternate VS tool set is required for VS 2012 and 2013, which has not been tested successfully with the current Libpacks. To target XP(both x32 and x64) it is recommended to use VS2008 and Libpack FreeCADLibs\_11.0\_x86\_VC9.7z
 
 ## **Prerequisites**
 
@@ -115,3 +115,6 @@ If you don\'t get any errors your done. Exit Visual Studio and start FreeCAD by 
  
 
 [Category:Developer\_Documentation](Category:Developer_Documentation.md) [Category:Developer](Category:Developer.md)
+
+---
+[documentation index](../README.md) > [Developer_Documentation](Category:Developer_Documentation.md) > Compile on Windows with VS2013

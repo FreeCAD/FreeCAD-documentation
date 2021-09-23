@@ -6,6 +6,8 @@
    Version:0.15
 ---
 
+# Sketcher MergeSketches
+
 ## Description
 
 Merge two or more sketches into one.
@@ -19,4 +21,7 @@ Merge two or more sketches into one.
 
 
 
- {{Sketcher Tools navi}} 
+ {{Sketcher Tools navi}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher MergeSketches

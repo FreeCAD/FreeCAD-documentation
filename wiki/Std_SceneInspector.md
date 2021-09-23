@@ -5,6 +5,8 @@
    Workbenches:All
 ---
 
+# Std SceneInspector
+
 ## Description
 
 The **Std SceneInspector** command opens a dialog box displaying an overview of all nodes in the [scenegraph](Scenegraph.md) of the active [3D view](3D_view.md). It is more a utility for programmers than for average users. It can be used to find out why the rendering is slow or why something isn\'t rendered properly.
@@ -20,4 +22,7 @@ The **Std SceneInspector** command opens a dialog box displaying an overview of 
 
 
 
- {{Std Base navi}}  
+ {{Std Base navi}}
+
+---
+[documentation index](../README.md) > Std SceneInspector

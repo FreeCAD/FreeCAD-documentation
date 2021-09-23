@@ -1,7 +1,4 @@
 # Sketcher Preferences/pl
- 
-
-
 {{TOCright}}
 
 Ekran preferencji środowiska pracy <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Szkicownik](Sketcher_Workbench/pl.md) można znaleźć w [Edytorze Preferencji](Preferences_Editor/pl.md), **Edycja → Preferencje → Szkicownik**.
@@ -246,3 +243,6 @@ W zakładce *Kolory* można określić następujące elementy:
 }}  
 
 [Category:Preferences](Category:Preferences.md)
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Preferences/pl

@@ -8,6 +8,8 @@
    SeeAlso:[PartDesign Tasche](PartDesign_Pocket/de.md)
 ---
 
+# PartDesign Hole/de
+
 ## Beschreibung
 
 
@@ -137,4 +139,7 @@ Beispiel: {{Code|lang=json|code=
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Hole/de

@@ -7,6 +7,8 @@
    SeeAlso:[Draft Arc 3Points](Draft_Arc_3Points.md), [Draft Circle](Draft_Circle.md)
 ---
 
+# Draft Arc/en
+
 ## Description
 
 The <img alt="" src=images/Draft_Arc.svg  style="width:24px;"> **Draft Arc** command creates a circular arc in the current [working plane](Draft_SelectPlane.md) from a center, a radius, a start angle and an aperture angle. The radius and the angles can be defined by picking points.
@@ -77,8 +79,5 @@ arc3 = Draft.make_circle(750, startangle=-30, endangle=-150)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Arc/en

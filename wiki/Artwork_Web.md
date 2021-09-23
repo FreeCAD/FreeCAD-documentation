@@ -1,6 +1,4 @@
 # Artwork Web
-  
-
 These icons are in the indicated source path.
 
 For all icons in the source tree, see [Artwork](Artwork.md).
@@ -18,3 +16,6 @@ For all icons in the source tree, see [Artwork](Artwork.md).
  
 
 [Category:Web](Category:Web.md)
+
+---
+[documentation index](../README.md) > [Web](Category:Web.md) > Artwork Web

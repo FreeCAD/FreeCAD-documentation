@@ -6,6 +6,8 @@
    Version:0.17
 ---
 
+# Arch CompRebarStraight/pt-br
+
 ## Descrição
 
 The Reinforcement Addon augments the [Arch Workbench](Arch_Workbench.md) by providing new interfaces and presets for the creation of common rebar types for use with [Arch Structures](Arch_Structure.md). It is also integrated into the external workbench [BIM](BIM_Workbench.md).
@@ -47,5 +49,5 @@ Back to [Workbenches](Workbenches#External_workbenches.md) / [External Workbench
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CompRebarStraight/pt-br

@@ -1,6 +1,4 @@
 # Feature list/it
- 
-
 Questa è una lista estesa, ma non completa, delle funzioni (feature) già implementate in FreeCAD. Se siete interessati a conoscere gli sviluppi futuri è possibile consultare il [Piano di sviluppo](Development_roadmap/it.md). Per un approccio sommario alle caratteristiche sono anche disponibili gli [screenshot](Screenshots/it.md).
 
 
@@ -112,3 +110,6 @@ Alcuni utenti esperti hanno creato vari [ambienti complementari](external_workbe
 
 
 [Category:User Documentation](Category:User_Documentation.md)
+
+---
+[documentation index](../README.md) > [User Documentation](Category:User Documentation.md) > Feature list/it

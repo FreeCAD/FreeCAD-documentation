@@ -1,10 +1,4 @@
-# Start Workbench/sv
-
-
-
-
-
-<img alt="Start workbench icon" src=images/Workbench_Start.svg  style="width:128px;">
+# <img alt="Start workbench icon" src=images/Workbench_Start.svg  style="width:64px;"> Start Workbench/sv
 
 The <img alt="" src=images/Workbench_Start.svg  style="width:24px;"> [Start Workbench](Start_Workbench.md) is not really a workbench, it\'s just the page that is presented when you open FreeCAD with no document loaded.
 
@@ -26,3 +20,6 @@ From this interface you can see useful information and jump to recently opened f
 
 
 [Category:User Documentation/sv](Category:User_Documentation/sv.md) [Category:Start](Category:Start.md) [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Start Workbench/sv

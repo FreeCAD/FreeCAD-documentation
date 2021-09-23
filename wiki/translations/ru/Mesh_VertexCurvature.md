@@ -7,6 +7,8 @@
    SeeAlso:[Mesh CurvatureInfo](Mesh_CurvatureInfo/ru.md)
 ---
 
+# Mesh VertexCurvature/ru
+
 
 </div>
 
@@ -78,4 +80,7 @@ For a Mesh Curvature object the following properties are available in the [Prope
 
 {{Mesh Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh VertexCurvature/ru

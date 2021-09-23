@@ -7,6 +7,8 @@
    Shortcut:**C** **R**
 ---
 
+# SheetMetal AddCornerRelief/fr
+
 ## Description
 
 La commande <img alt="" src=images/SheetMetal_AddCornerRelief.svg  style="width:24px;"> **SheetMetal AddCornerRelief** ajoute un perçage circulaire pour gruger un coin.
@@ -56,3 +58,6 @@ Un objet SheetMetal Grugeage rond du coin est dérivé d\'un objet [Part Feature
 
 
 [Category:SheetMetal](Category:SheetMetal.md) [Category:Addons](Category:Addons.md) [Category:External Command Reference](Category:External_Command_Reference.md)
+
+---
+[documentation index](../README.md) > [SheetMetal](Category:SheetMetal.md) > SheetMetal AddCornerRelief/fr

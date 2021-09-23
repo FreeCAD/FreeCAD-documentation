@@ -9,6 +9,8 @@
    SeeAlso:[TechDraw Führungslinie](TechDraw_LeaderLine/de.md)
 ---
 
+# TechDraw WeldSymbol/de
+
 ## Beschreibung
 
 Das SchweißSymbol Werkzeug fügt Schweißspezifikationen einer bestehenden Führungslinie hinzu.
@@ -126,4 +128,7 @@ App.activeDocument().DrawTileWeld001.CenterText = "center text"
 
 {{TechDraw Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw WeldSymbol/de

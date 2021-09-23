@@ -1,10 +1,4 @@
 # Draft DXF/pt-br
-
-
-
-
-
-
 {{TOCright}}
 
 ## Description
@@ -127,3 +121,6 @@ importDXF.export(objects, "/home/user/Pictures/myfile.dxf")
  
 
 [Category:User Documentation/pt-br](Category:User_Documentation/pt-br.md) [Category:File Formats](Category:File_Formats.md)
+
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft DXF/pt-br

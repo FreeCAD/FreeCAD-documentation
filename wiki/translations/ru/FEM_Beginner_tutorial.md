@@ -1,5 +1,5 @@
 # FEM Beginner tutorial/ru
- {{TutorialInfo/ru
+{{TutorialInfo/ru
 |Topic= FEM Beginner tutorial
 |Level= Beginner
 |Time=
@@ -40,7 +40,5 @@ ToDo
 
 ToDo
 
-
-
-
-
+---
+[documentation index](../README.md) > FEM Beginner tutorial/ru

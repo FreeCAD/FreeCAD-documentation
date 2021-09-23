@@ -7,6 +7,8 @@
    SeeAlso:[Croquizador Arco](Sketcher_CompCreateArc/es.md)
 ---
 
+# Sketcher CreateCircle/es
+
 ## Descripción
 
 Esta herramienta dibuja una circunferencia indicando dos puntos: el centro, y un punto a lo largo del radio.
@@ -26,4 +28,7 @@ Cuando se inicia la herramienta, el puntero del ratón cambia a una cruz blanca 
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateCircle/es

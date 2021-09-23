@@ -1,6 +1,4 @@
 # Artwork Sketcher/fr
- 
-
 Ces icônes se trouvent dans le chemin source indiqué.
 
 Pour toutes les icônes de l\'arborescence source, voir [Graphisme](Artwork/fr.md).
@@ -53,3 +51,6 @@ Par le passé, les icônes `.xpm` étaient utilisées comme superpositions lors 
 {{Artwork
 
 }} {{Sketcher Tools navi}}
+
+---
+[documentation index](../README.md) > Artwork Sketcher/fr

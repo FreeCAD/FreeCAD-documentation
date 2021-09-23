@@ -6,6 +6,8 @@
    Workbenches:[Draft](Draft_Workbench/tr.md), [Arch](Arch_Workbench/tr.md)
 ---
 
+# Draft SelectPlane/tr
+
 
 </div>
 
@@ -134,8 +136,5 @@ projection = my_plane.projectPoint(App.Vector(10, 15, 2))
 print(projection)
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft SelectPlane/tr

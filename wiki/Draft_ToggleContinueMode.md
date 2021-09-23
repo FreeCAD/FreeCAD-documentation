@@ -5,6 +5,8 @@
    Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
 ---
 
+# Draft ToggleContinueMode
+
 ## Description
 
 The <img alt="" src=images/Draft_ToggleContinueMode.svg  style="width:24px;"> **Draft ToggleContinueMode** command switches continue mode on or off. Many [Draft](Draft_Workbench.md) and [Arch](Arch_Workbench.md) commands support this mode. If continue mode is on they will restart after finishing. Continue mode can also be toggled in the task panel of those commands so in practice this command is rarely used.
@@ -17,7 +19,5 @@ The <img alt="" src=images/Draft_ToggleContinueMode.svg  style="width:24px;"> **
 4.  Create your geometry.
 5.  Press **Esc** or the **Close** button to finish the command and switch off continue mode.
 
-
-
-
-  
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ToggleContinueMode

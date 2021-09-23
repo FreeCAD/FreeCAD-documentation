@@ -8,6 +8,8 @@
    SeeAlso:[Crear una Primitiva sustractiva](PartDesign_CompPrimitiveSubtractive/es.md)
 ---
 
+# PartDesign CompPrimitiveAdditive/es
+
 ## Descripción
 
 Crea una primitiva aditiva en el Cuerpo activo como primera característica, o lo fusiona con la(s) característica(s) existente(s). Si no existe ningún cuerpo en el documento, se creará uno automáticamente.
@@ -29,4 +31,7 @@ Crea una primitiva aditiva en el Cuerpo activo como primera característica, o l
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign CompPrimitiveAdditive/es

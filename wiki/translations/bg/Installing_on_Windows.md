@@ -1,9 +1,4 @@
 # Installing on Windows/bg
-
-
-
-
-
 Най-лесния начин за инсталиране на FreeCAD на Windows е да свалите инсталаторът по-долу.
 
 
@@ -240,5 +235,5 @@ FreeCAD is running, but it has been reported that the OpenGL display does not wo
 
 </div>
 
-
-
+---
+[documentation index](../README.md) > Installing on Windows/bg

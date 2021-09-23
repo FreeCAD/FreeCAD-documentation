@@ -1,3 +1,4 @@
+# Robot TrajectoryDressUp/it
 ---
 - GuiCommand:/it   Name:Robot TrajectoryDressUp   Name/it:Vesti una traiettoria   Workbenches:[[Robot_Workbench/it   Robot]]|MenuLocation:Robot → Vesti una traiettoria ---
 
@@ -59,4 +60,7 @@ Si è quindi in grado di modificare i valori per
 
 {{Robot_Tools_navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot TrajectoryDressUp/it

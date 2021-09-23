@@ -1,10 +1,4 @@
-# Path Workbench/zh-cn
-
-
-
-
-
-<img alt="Path workbench icon" src=images/Workbench_Path.svg  style="width:128px;">
+# <img alt="Path workbench icon" src=images/Workbench_Path.svg  style="width:64px;"> Path Workbench/zh-cn
 
 
 {{TOCright}}
@@ -413,3 +407,6 @@ See [Path scripting](Path_scripting.md).
 }} 
 
 [分类:用户文档](Category:User_Documentation/zh-cn.md) [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Path Workbench/zh-cn

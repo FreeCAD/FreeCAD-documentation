@@ -1,5 +1,5 @@
 # ViewObject API/it
- **(Ottobre 2019) Non modificare queste pagine. Le informazioni sono incomplete e obsolete. Per l'API più recente, consultare la [https://www.freecadweb.org/api documentazione API autogenerata] o generare la documentazione autonomamente. Vedere [Documentazione del codice sorgente](Source_documentation/it.md).**
+**(Ottobre 2019) Non modificare queste pagine. Le informazioni sono incomplete e obsolete. Per l'API più recente, consultare la [https://www.freecadweb.org/api documentazione API autogenerata] o generare la documentazione autonomamente. Vedere [Documentazione del codice sorgente](Source_documentation/it.md).**
 
 Quando la GUI è attiva, a ogni oggetto del documento FreeCAD è associato un ViewObject, che risiede nella controparte FreeCADGui del documento. Un oggetto della vista può essere recuperato in due modi. Esempio: 
 ```python
@@ -84,3 +84,6 @@ print myViewObj.IV
  
 
 [Category:API](Category:API.md) [Category:Poweruser Documentation](Category:Poweruser_Documentation.md)
+
+---
+[documentation index](../README.md) > [API](Category:API.md) > ViewObject API/it

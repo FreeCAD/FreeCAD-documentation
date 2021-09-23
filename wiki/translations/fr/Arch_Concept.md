@@ -1,7 +1,4 @@
 # Arch Concept/fr
-
-
-
 **
 Ce plan de développement est probablement obsolète. Pour plus d'informations, voir [Plan de développement](Development_roadmap/fr.md).<br>
 Si vous n'êtes pas impliqué dans le développement discuté ici :<br>
@@ -173,3 +170,6 @@ Le schéma suivant illustre la relation entre tous les objets décrits à ce jou
 <img alt="Objects for capturing building knowledge" src=images/BldgComponents.png  style="width:800px;">
 
 [Category:Roadmap](Category:Roadmap.md)
+
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Concept/fr

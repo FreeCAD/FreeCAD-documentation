@@ -1,7 +1,4 @@
-# About FreeCAD/zh-cn
- 
-
-<img alt="" src=images/Freecad_default.jpg  style="width:1024px;">
+# <img alt="" src=images/Freecad_default.jpg  style="width:1024px;"> About FreeCAD/zh-cn
 
 
 <div class="mw-translate-fuzzy">
@@ -76,3 +73,6 @@ FreeCAD由整个社区热心开发人员及用户开发及维护（请看[贡献
 
 
 [Category:User Documentation](Category:User_Documentation.md)
+
+---
+[documentation index](../README.md) > [User Documentation](Category:User Documentation.md) > About FreeCAD/zh-cn

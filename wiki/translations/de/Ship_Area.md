@@ -9,6 +9,8 @@
    SeeAlso:
 ---
 
+# Ship Area/de
+
 ## Beschreibung
 
 Plotten der transversalen Bereichskurve
@@ -29,4 +31,7 @@ Plotten der transversalen Bereichskurve
 
 {{Ship_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > Ship Area/de

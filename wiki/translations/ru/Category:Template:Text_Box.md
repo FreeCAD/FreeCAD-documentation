@@ -8,3 +8,6 @@ These templates produce small pieces of text that are suitable for transclusion.
 [Template:UnfinishedDocu/ru](Template:UnfinishedDocu/ru.md)
 
 [Category:Template/ru](Category:Template/ru.md)
+
+---
+[documentation index](../README.md) > Category:Template:Text Box/ru

@@ -1,7 +1,4 @@
 # Sketcher Preferences/ru
- 
-
-
 {{TOCright}}
 
 The preferences screen of the <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Sketcher Workbench](Sketcher_Workbench.md) are found in the [Preferences Editor](Preferences_Editor.md), **Edit → Preferences → Sketcher**.
@@ -246,3 +243,6 @@ In the *Colors* tab you can specify the following:
 }}  
 
 [Category:Preferences](Category:Preferences.md)
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Preferences/ru

@@ -1,7 +1,4 @@
-# Plot Module/ru
-
-
-<img alt="Plot workbench icon" src=images/Workbench_Plot.svg  style="width:128px;">
+# <img alt="Plot workbench icon" src=images/Workbench_Plot.svg  style="width:64px;"> Plot Module/ru
 
 
 {{TOCright}}
@@ -86,3 +83,6 @@ Since the Plot Workbench is a layer on top of `matplotlib`, you are free to use 
 }} 
 
 [Category:External\_Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)
+
+---
+[documentation index](../README.md) > [External_Workbenches](Category:External_Workbenches.md) > Plot Module/ru

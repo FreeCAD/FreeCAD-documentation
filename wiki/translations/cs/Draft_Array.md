@@ -1,3 +1,4 @@
+# Draft Array/cs
 ---
 - GuiCommand:/cs   Name:Draft_Array   Name/cs:Kreslení Pole   Workbenches:[Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation:Draft → Array   SeeAlso:[PathArray](Draft_PathArray/cs.md)---
 
@@ -43,8 +44,5 @@ See [Draft OrthoArray](Draft_OrthoArray#Properties.md).
 
 See [Draft OrthoArray](Draft_OrthoArray#Scripting.md).
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Array/cs

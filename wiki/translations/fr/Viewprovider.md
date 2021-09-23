@@ -1,6 +1,4 @@
 # Viewprovider/fr
-
-
 ## Introduction
 
 Les [Viewproviders](Viewprovider/fr.md) sont des classes qui définissent l\'apparence des objets dans la [vue en arborescence](tree_view/fr.md) et la [vue 3D](3D_view/fr.md) et comment ces derniers interagiront avec certaines actions graphiques telles que la [sélection](selection/fr.md).
@@ -140,3 +138,6 @@ Voir divers exemples dans [Icône personnalisée dans l\'arborescence](Custom_ic
 }} 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Viewprovider/fr

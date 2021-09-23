@@ -57,3 +57,6 @@ Es gibt ein weiteres Inhaltsverzeichnis für das [FreeCAD **Online Hilfe** Syste
 
 
 [Category:Manual](Category:Manual.md)
+
+---
+[documentation index](../README.md) > [Manual](Category:Manual.md) > Manual:Summary/de

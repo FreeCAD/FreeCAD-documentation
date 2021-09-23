@@ -1,10 +1,4 @@
-# Sketcher Workbench/it
-
-
-
-
-
-<img alt="L\'icona dell\'ambiente Sketcher" src=images/Workbench_Sketcher.svg  style="width:128px;">
+# <img alt="L\'icona dell\'ambiente Sketcher" src=images/Workbench_Sketcher.svg  style="width:64px;"> Sketcher Workbench/it
 
 
 {{TOCright}}
@@ -532,3 +526,6 @@ La pagina [scripting](Sketcher_scripting/it.md) contiene esempi su come creare v
 }} 
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Sketcher Workbench/it

@@ -8,6 +8,8 @@
    SeeAlso:[Экспорт листа в SVG](TechDraw_ExportPageSVG/ru.md), [Draft DXF](Draft_DXF/ru.md)
 ---
 
+# TechDraw ExportPageDXF/ru
+
 ## Описание
 
 The ExportPageDXF tool saves a drawing page as a [DXF](DXF.md) file.
@@ -68,4 +70,7 @@ TechDraw.writeDXFPage(page,filename)
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExportPageDXF/ru

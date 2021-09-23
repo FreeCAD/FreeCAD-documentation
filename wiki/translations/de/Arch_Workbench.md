@@ -1,10 +1,4 @@
-# Arch Workbench/de
-
-
-
-
-
-<img alt="Arch Arbeitsbereichssymbol" src=images/Workbench_Arch.svg  style="width:128px;">
+# <img alt="Arch Arbeitsbereichssymbol" src=images/Workbench_Arch.svg  style="width:64px;"> Arch Workbench/de
 
 
 {{TOCright}}
@@ -147,3 +141,6 @@ Der Arch-Arbeitsbereich kann mit den [Arch Python API](http://www.freecadweb.org
  
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Arch Workbench/de

@@ -9,6 +9,8 @@
    SeeAlso:[Arch RohrVerbinder](Arch_PipeConnector/de.md), [Arch Ausstattung](Arch_Equipment/de.md)
 ---
 
+# Arch Pipe/de
+
 ## Beschreibung
 
 Dieses Werkzeug ermöglicht es, Rohre von Grund auf oder aus ausgewählten Objekten zu erstellen. Die ausgewählten Objekte müssen Teilbasiert sein (Entwurf, Skizze, etc\...) und einen und nur einen offenen Draht enthalten.
@@ -109,8 +111,5 @@ Pipe2 = Arch.makePipe(diameter=120, length=3000)
 FreeCAD.ActiveDocument.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Pipe/de

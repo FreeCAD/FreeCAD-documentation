@@ -1,3 +1,4 @@
+# Sketcher ConstrainRadius/sv
 ---
 - GuiCommand:/sv   Name:Constraint Radius   Name/sv:Constraint Radius   Workbenches:[PartDesign](Sketcher_Workbench/sv___Sketcher]],_[[PartDesign_Workbench/sv.md)|MenuLocation:Sketch → Sketcher constraints → Constrain radius   SeeAlso:[Constraint Distance](Constraint_Length/sv.md), [Constraint Horizontal](Constraint_Horizontal/sv.md), [Constraint Vertical](Constraint_Vertical/sv.md)---
 
@@ -43,4 +44,7 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainRadius/sv

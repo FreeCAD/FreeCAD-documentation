@@ -1,3 +1,4 @@
+# PartDesign MultiTransform/cs
 ---
 - GuiCommand:/cs   Name:PartDesign_MultiTransform   Name/cs:Návrh dílu MultiTransformace   Workbenches:[[PartDesign Workbench/cs   Návrh dílu]], Kompletace|MenuLocation:Návrh dílu -> MultiTransformace---
 
@@ -204,4 +205,7 @@ Allows changing the order of transformations in the list \|}
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign MultiTransform/cs

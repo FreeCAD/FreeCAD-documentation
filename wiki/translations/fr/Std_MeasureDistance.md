@@ -7,6 +7,8 @@
    SeeAlso:[Part Menu des mesures](Part_Measure_Menu/fr.md), [Draft Cote](Draft_Dimension/fr.md), [Arch Prise de cotes](Arch_Survey/fr.md)
 ---
 
+# Std MeasureDistance/fr
+
 ## Description
 
 La commande **Std Mesurer une distance** crée un objet distance qui mesure et affiche la distance entre deux points.
@@ -62,4 +64,7 @@ La commande **Std Mesurer une distance** crée un objet distance qui mesure et a
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std MeasureDistance/fr

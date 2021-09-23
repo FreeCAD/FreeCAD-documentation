@@ -8,6 +8,8 @@
    SeeAlso:[표준 가져오기](Std_Import/ko.md), [표준 새 파일](Std_New/ko.md)
 ---
 
+# Std Open/ko
+
 ## 설명
 
 **표준 열기(Std Open)** 명령은 파일을 엽니다. 만약 열려는 파일이 FreeCAD 고유 파일(\*.FCStd)이 아니라면 파일의 지오메트리를 새 문서로 가져옵니다. 자세한 내용은 [표준 가져오기를](Std_Import/ko.md) 참조하십시오.
@@ -65,4 +67,7 @@ For a scripting example see [Std New](Std_New#Scripting.md).
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std Open/ko

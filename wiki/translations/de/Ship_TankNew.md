@@ -9,6 +9,8 @@
    SeeAlso:
 ---
 
+# Ship TankNew/de
+
 ## Einleitung
 
 ZUTUN
@@ -27,6 +29,5 @@ ZUTUN
 
 {{Userdocnavi/de}}
 
-
-
-
+---
+[documentation index](../README.md) > Ship TankNew/de

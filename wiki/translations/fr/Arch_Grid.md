@@ -7,6 +7,8 @@
    SeeAlso:[Arch Axes](Arch_Axis/fr.md), [Arch Système d'axes](Arch_AxisSystem/fr.md)
 ---
 
+# Arch Grid/fr
+
 ## Description
 
 L\'outil **<img src="images/Arch_Grid.svg" width=16px> [Arch Grille](Arch_Grid/fr.md)** vous permet de placer un objet de type grille dans le document. Cet objet est destiné à servir de base pour construire des objets Arch nécessitant un cadre régulier mais complexe, comme des fenêtres, des murs-rideaux, des grilles de colonnes, des garde-corps, etc. L\'objet Grille est modifiable comme une feuille de calcul où vous pouvez ajouter ou supprimer colonnes et lignes, définissent leur taille et fusionnent les cellules.
@@ -90,8 +92,5 @@ Structure.Axis = Grid
 FreeCAD.ActiveDocument.recompute() 
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Grid/fr

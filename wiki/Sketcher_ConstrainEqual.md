@@ -7,6 +7,8 @@
    SeeAlso:[Sketcher Constrain radius](Sketcher_ConstrainRadius.md)
 ---
 
+# Sketcher ConstrainEqual
+
 ## Description
 
 The Constrain Equal constraint forces two or more line segments in a line, poly-line or rectangle to have equal length. If applied to arcs or circles the radii are constrained to be equal. It cannot be applied to geometry primitives which are not of the same type (e.g. line segments and arcs).
@@ -58,4 +60,7 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 
 
- {{Sketcher Tools navi}}  
+ {{Sketcher Tools navi}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainEqual

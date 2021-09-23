@@ -1,5 +1,5 @@
 # Lattice2 Workbench
-  *align=center|The FreeCAD Lattice2 External Workbench Icon*
+*align=center|The FreeCAD Lattice2 External Workbench Icon*
 
 ## Introduction
 
@@ -152,3 +152,6 @@ After you install the workbench, it should appear at the bottom of list of workb
  
 
 [Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+
+---
+[documentation index](../README.md) > Lattice2 Workbench

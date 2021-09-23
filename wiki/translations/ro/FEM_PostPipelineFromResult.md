@@ -1,3 +1,4 @@
+# FEM PostPipelineFromResult/ro
 ---
 - GuiCommand:   Name:FEM PostPipelineFromResult   MenuLocation: Results → post pipeline from result   |Workbenches:[Shortcut:   SeeAlso:[[FEM_tutorial|FEM tutorial](FEM_Workbench___FEM]].md)---
 
@@ -54,4 +55,7 @@ Conducta este un obiect rezultat, care creează o nouă reprezentare grafică a 
 
 {{FEM Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > FEM PostPipelineFromResult/ro

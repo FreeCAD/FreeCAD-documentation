@@ -1,7 +1,4 @@
 # Workbenches/ja
-
-
-
 <div class="mw-translate-fuzzy">
 
 [Revitや](wikipedia:Revit.md)[Catiaといった多くの現代的なデザインのためのアプリケーションと同様](wikipedia:CATIA.md)、FreeCADは[ワークベンチというコンセプトを基盤にしています](wikipedia:Workbench.md)。ワークベンチとは言うなれば特定の作業のために特別に編成されたツールのセットです。伝統的な家具工房では木材を扱う者のための作業台や金属部品を扱う者のための作業台があり、恐らくは全ての部品を一つに組み立てる者のための作業台もあったことでしょう。
@@ -120,3 +117,6 @@ The [external workbenches](external_workbenches.md) page lists all that are know
 
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Workbenches/ja

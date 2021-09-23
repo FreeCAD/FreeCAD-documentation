@@ -1,3 +1,4 @@
+# Sketcher External/cs
 ---
 - GuiCommand:/cs   Name:Sketcher_External   Name/cs:Skicář Povrchový Náčrt   Workbenches:[Návrh dílu](Sketcher_Workbench/cs___Skicář]],_[[PartDesign_Workbench/cs.md)|Shortcut:E   MenuLocation:Náčrt → Skicář Konstrukce → Povrchový náčrt   SeeAlso:[Konstrukční mód](Sketcher_ConstructionMode/cs.md)---
 
@@ -140,3 +141,6 @@ Při uzavření skicáře nejsou přetažené konstrukce viditelné.
 }}  
 
 [Category:Sketcher/cs](Category:Sketcher/cs.md)
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher External/cs

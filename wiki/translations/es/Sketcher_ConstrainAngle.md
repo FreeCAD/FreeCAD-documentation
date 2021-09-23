@@ -1,3 +1,4 @@
+# Sketcher ConstrainAngle/es
 ---
 - GuiCommand:/es   Name:Constraint InternalAngle   Workbenches:[Diseño de Piezas](Sketcher_Workbench/es___Croquizador]],_[[PartDesign_Workbench/es.md)|Shortcut:A   MenuLocation:Croquizador → Restricciones del Croquizador → Restricción angular   SeeAlso:[Restricción distancia](Constraint_Length/es.md), [Restricción perpendicular](Constraint_Perpendicular/es.md)---
 
@@ -101,4 +102,7 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainAngle/es

@@ -7,6 +7,8 @@
    SeeAlso:[TechDraw Cosmetic Vertex](TechDraw_CosmeticVertex.md), [TechDraw Quadrant Vertices](TechDraw_Quadrants.md)
 ---
 
+# TechDraw Midpoints
+
 ## Description
 
 The Midpoints tool adds Cosmetic [Vertices](Glossary#V.md) at the midpoints of one or more Edges.
@@ -45,4 +47,7 @@ Cosmetic Vertices are not accessible from [macros](Macros.md) or the [Python](Py
 
 
 
- {{TechDraw Tools navi}}  
+ {{TechDraw Tools navi}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Midpoints

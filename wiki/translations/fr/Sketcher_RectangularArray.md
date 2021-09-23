@@ -7,6 +7,8 @@
    Version:0.16
 ---
 
+# Sketcher RectangularArray/fr
+
 ## Description
 
 Créer un réseau à partir d\'éléments du sketcher .
@@ -29,4 +31,7 @@ Créer un réseau à partir d\'éléments du sketcher .
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher RectangularArray/fr

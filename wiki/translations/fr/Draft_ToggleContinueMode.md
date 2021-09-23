@@ -6,6 +6,8 @@
    Workbenches:[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
 ---
 
+# Draft ToggleContinueMode/fr
+
 ## Description
 
 La commande <img alt="" src=images/Draft_ToggleContinueMode.svg  style="width:24px;"> **Draft Basculer le mode continuer** active ou désactive le mode continu. De nombreuses commandes de [Draft](Draft_Workbench/fr.md) et de [Arch](Arch_Workbench/fr.md) supportent ce mode. Si le mode continu est activé, elles redémarreront après avoir terminé. Le mode continu peut également être activé dans le panneau des tâches de ces commandes, de sorte qu\'en pratique, cette commande est rarement utilisée.
@@ -18,8 +20,5 @@ La commande <img alt="" src=images/Draft_ToggleContinueMode.svg  style="width:24
 4.  Créez votre géométrie.
 5.  Appuyez sur **Echap** ou sur le bouton **Fermer** pour terminer la commande et désactiver le mode continu.
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ToggleContinueMode/fr

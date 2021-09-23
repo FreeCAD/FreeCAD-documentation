@@ -1,5 +1,5 @@
 # Quantity/it
- Quantity è la combinazione di un numero in virgola mobile e di una unità di misura.
+Quantity è la combinazione di un numero in virgola mobile e di una unità di misura.
 
 ## Aspetti generali 
 
@@ -289,3 +289,6 @@ from FreeCAD import Units
 }} 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Quantity/it

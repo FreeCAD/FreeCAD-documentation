@@ -6,6 +6,8 @@
    SeeAlso:[ Skizzierer SkizzeVerlassen](Sketcher_LeaveSketch/de.md)
 ---
 
+# Sketcher EditSketch/de
+
 
 </div>
 
@@ -56,4 +58,7 @@ Es gibt verschiedene Wege den Befehl Skizze bearbeiten aufzurufen:
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher EditSketch/de

@@ -9,6 +9,8 @@
    SeeAlso:[Elips](Draft_Ellipse/tr.md),[Parça Kutu](Part_Box/tr.md)
 ---
 
+# Draft Rectangle/tr
+
 
 </div>
 
@@ -221,5 +223,5 @@ doc.recompute()
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Rectangle/tr

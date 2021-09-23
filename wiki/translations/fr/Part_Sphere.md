@@ -7,6 +7,8 @@
    SeeAlso:[Part Primitives](Part_Primitives/fr.md)
 ---
 
+# Part Sphere/fr
+
 ## Description
 
 Crée une sphère paramétrique simple avec des paramètres de position angle1, angle2, angle3 et rayon.
@@ -43,8 +45,5 @@ Comme il est assez difficile d'expliquer la signification des paramètres angle 
 
 <img alt="" src=images/SphereCutThreeAngles.jpg  style="width:400px;">
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Sphere/fr

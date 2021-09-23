@@ -6,6 +6,8 @@
    SeeAlso:[FEM Constraint flow velocity](FEM_ConstraintFlowVelocity.md)
 ---
 
+# FEM ConstraintInitialFlowVelocity/en
+
 ## Description
 
 Creates an initial flow velocity constraint for a fluid flow analysis.
@@ -33,4 +35,7 @@ In the most simple analyses, it is not necessary to specify the initial flow vel
 
 {{FEM Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > FEM ConstraintInitialFlowVelocity/en

@@ -6,3 +6,6 @@ Cette catégorie regroupe toutes les pages utilisées comme Sandbox (Bac à sabl
 [CadQuery Workbench/fr](CadQuery_Workbench/fr.md) , [Cfd Workbench/fr](Cfd_Workbench/fr.md) , [ExplodedAssembly Workbench/fr](ExplodedAssembly_Workbench/fr.md) , [FEM FrontISTR Workbench/fr](FEM_FrontISTR_Workbench/fr.md) , [Macro Kerkythea/fr](Macro_Kerkythea/fr.md) , [PCB Workbench/fr](PCB_Workbench/fr.md) , [Symbols Library Workbench/fr](Symbols_Library_Workbench/fr.md) , [Timber Workbench/fr](Timber_Workbench/fr.md) , [Workfeature Workbench/fr](Workfeature_Workbench/fr.md)
 
 [Category:Categories/fr](Category:Categories/fr.md)
+
+---
+[documentation index](../README.md) > Category:Sandbox/fr

@@ -1,10 +1,4 @@
-# Points Workbench/fr
-
-
-
-
-
-<img alt="Icône de l\'atelier Points" src=images/Workbench_Points.svg  style="width:128px;">
+# <img alt="Icône de l\'atelier Points" src=images/Workbench_Points.svg  style="width:64px;"> Points Workbench/fr
 
 ## Introduction
 
@@ -51,3 +45,6 @@ Tous les outils de l\'atelier Points sont accessibles depuis le menu **Points**.
 }} 
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Points Workbench/fr

@@ -1,7 +1,4 @@
 # Sketcher requirement for a sketch/it
-
-
-
 {{TutorialInfo/it
 |Topic=Sketch
 |Level=Base
@@ -41,4 +38,7 @@ Se si crea accidentalmente una \"ridondanza\", nella vista combinata viene visua
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher requirement for a sketch/it

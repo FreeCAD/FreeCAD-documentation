@@ -1,7 +1,4 @@
-# Fasteners Workbench/ru
-
-
-<img alt="Иконка верстака Fasteners" src=images/Fasteners_workbench_icon.svg  style="width:128px;">
+# <img alt="Иконка верстака Fasteners" src=images/Fasteners_workbench_icon.svg  style="width:64px;"> Fasteners Workbench/ru
 
 
 {{TOCright}}
@@ -282,3 +279,6 @@ The Fasteners Workbench has two toolbars. The **FS Screws** toolbar contains man
 
 
 [Category:Addons](Category:Addons.md) [Category:External Command Reference](Category:External_Command_Reference.md) [Category:External Workbenches](Category:External_Workbenches.md) [Category:Fasteners](Category:Fasteners.md)
+
+---
+[documentation index](../README.md) > Fasteners Workbench/ru

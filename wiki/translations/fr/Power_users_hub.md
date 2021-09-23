@@ -1,5 +1,4 @@
-# Power users hub/fr
- <img alt="" src=images/Power_user_hub.png  style="width:64px;">
+# <img alt="" src=images/Power_user_hub.png  style="width:64px;"> Power users hub/fr
 
 ------------------------------------------------------------------------
 
@@ -135,3 +134,6 @@ Sur le [Portail communautaire FreeCAD](FreeCAD_Community_Portal/fr.md), vous pou
 }}
 
 [Category:Hubs](Category:Hubs.md)
+
+---
+[documentation index](../README.md) > [Hubs](Category:Hubs.md) > Power users hub/fr

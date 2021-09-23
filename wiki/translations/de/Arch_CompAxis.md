@@ -8,6 +8,8 @@
    SeeAlso:[Achse](Arch_Axis/de.md), [Achsensystem](Arch_AxisSystem/de.md), [Gitter](Arch_Grid/de.md)
 ---
 
+# Arch CompAxis/de
+
 ## Beschreibung
 
 Achse erstellen.
@@ -18,8 +20,5 @@ Achse erstellen.
 -   <img alt="" src=images/Arch_Axis_System.svg  style="width:32px;"> [Achsensystem](Arch_AxisSystem/de.md): Fügt dem Dokument ein aus mehreren Achsen gebildetes Achsensystem hinzu
 -   <img alt="" src=images/Arch_Grid.svg  style="width:32px;"> [Gitter](Arch_Grid/de.md): Fügt dem Dokument ein gitterartiges Objekt hinzu
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CompAxis/de

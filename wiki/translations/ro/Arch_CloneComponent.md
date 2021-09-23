@@ -8,6 +8,8 @@
    Icon:Arch_Component_Clone.svg
 ---
 
+# Arch CloneComponent/ro
+
 
 </div>
 
@@ -46,5 +48,5 @@ Componenta clonei va avea pur și simplu proprietatea \'\'\' CloneOf \'\'\'setat
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CloneComponent/ro

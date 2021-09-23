@@ -8,6 +8,8 @@
    SeeAlso:[Создать эллипс от центра](Sketcher_CreateEllipseByCenter/ru.md), [Создать дугу от центра](Sketcher_CompCreateArc/ru.md)
 ---
 
+# Sketcher CreateArcOfEllipse/ru
+
 ## Описание
 
 Этот инструмент рисует дугу по эллипсу, по четырем указанным точкам: центральной, большому радиусу, начальной и конечной точкам. При запуске инструмента указатель мыши меняется на белый крест с красным значком дуги по эллипсу. Кроме того, координаты отображаются в режиме реального времени.
@@ -40,4 +42,7 @@
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateArcOfEllipse/ru

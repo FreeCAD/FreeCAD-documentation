@@ -9,6 +9,8 @@
    SeeAlso:[Skizzierer Ellipse durch Mittelpunkt](Sketcher_CreateEllipseByCenter/de.md), [Skizzierer Bogen](Sketcher_CompCreateArc/de.md)
 ---
 
+# Sketcher CreateArcOfEllipse/de
+
 ## Beschreibung
 
 Dieses Werkzeug zeichnet einen Ellipsenbogen, indem vier Punkte ausgewählt werden: der Mittelpunkt, das Ende des großen Radius, der Startpunkt und der Endpunkt. Wenn das Werkzeug gestartet wird, ändert sich der Mauszeiger in ein weißes Kreuz mit einem roten Ellipsenbogensymbol. Daneben werden die Koordinaten in Echtzeit angezeigt.
@@ -35,4 +37,7 @@ Dieses Werkzeug zeichnet einen Ellipsenbogen, indem vier Punkte ausgewählt werd
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateArcOfEllipse/de

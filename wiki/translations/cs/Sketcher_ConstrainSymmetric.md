@@ -1,3 +1,4 @@
+# Sketcher ConstrainSymmetric/cs
 ---
 - GuiCommand:/cs   Name:Constraint Symmetric   Name/cs:Constraint Symmetric   Workbenches:[Návrh dílu](Sketcher_Workbench/cs___Náčrt]],_[[PartDesign_Workbench/cs.md)|MenuLocation:Sketch → Sketcher constraints → Constrain symmetrical   SeeAlso:[Vazba rovnoběžnosti](Constraint_Parallel/cs.md)---
 
@@ -78,4 +79,7 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainSymmetric/cs

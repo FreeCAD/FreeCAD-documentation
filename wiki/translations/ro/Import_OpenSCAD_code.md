@@ -1,7 +1,4 @@
 # Import OpenSCAD code/ro
-
-
-
 {{TutorialInfo/ro
 |Topic= Import OpenSCAD code
 |Level= Beginner
@@ -94,3 +91,6 @@ Aici vom folosi exemplu005.scad-fișierul din exemplele (vechi) OpenSCAD, dar nu
 -   [Import Export Preferences](Import_Export_Preferences.md)
 
 [Category:OpenSCAD](Category:OpenSCAD.md)
+
+---
+[documentation index](../README.md) > [Import](Import_Workbench.md) > Import OpenSCAD code/ro

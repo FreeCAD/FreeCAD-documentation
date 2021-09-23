@@ -1,7 +1,4 @@
 # Extend FEM Module/fr
-
-
-
 {{TutorialInfo/fr
 |Topic=FEM
 |Level=Intermédiaire
@@ -133,3 +130,6 @@ Les contraintes définissent les conditions aux limites du problème à résoudr
 L\'ajout de nouvelles contraintes est assez simple. Pour les nouveaux arrivants, il existe un tutoriel:[Tutoriel pour ajouter des contraintes FEM](Add_FEM_Constraint_Tutorial/fr.md).
 
 [Category:FEM](Category:FEM.md)
+
+---
+[documentation index](../README.md) > [FEM](Category:FEM.md) > Extend FEM Module/fr

@@ -1,7 +1,4 @@
 # Feature list/ja
- 
-
-
 <div class="mw-translate-fuzzy">
 
 以下はFreeCADに実装されている多くの機能のリストです。ただし機能が多いため全てが記載されているわけではありません。もし将来的な計画について知りたいのであれば[開発ロードマップを見てください](Development_roadmap.md)。機能を概観したいのであれば[スクリーンショットを見るとよいでしょう](Screenshots.md)。
@@ -294,3 +291,6 @@ Power users have created various custom [external workbenches](external_workbenc
 
 
 [Category:User Documentation](Category:User_Documentation.md)
+
+---
+[documentation index](../README.md) > [User Documentation](Category:User Documentation.md) > Feature list/ja

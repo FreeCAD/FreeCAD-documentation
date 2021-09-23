@@ -1,3 +1,4 @@
+# Robot InsertWaypointPre/ro
 ---
 - GuiCommand:   Name:Robot InsertWaypointPre   Workbenches:[[Robot_Workbench   Robot]]|MenuLocation:Robot → Insert in trajectory   Shortcut:W   SeeAlso:------
 
@@ -47,4 +48,7 @@ Obeictele selectabile sunt:
 
 {{Robot_Tools_navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot InsertWaypointPre/ro

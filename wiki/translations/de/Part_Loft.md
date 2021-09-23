@@ -7,6 +7,8 @@
    SeeAlso:[Part Austragung](Part_Sweep/de.md)
 ---
 
+# Part Loft/de
+
 
 </div>
 
@@ -162,5 +164,5 @@ Die Reihenfolge der Abschnitte hängt von der Reihenfolge der Klicks in der List
 
 </div>
 
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Loft/de

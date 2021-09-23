@@ -1,5 +1,5 @@
 # Macro CartoucheFC/pl
- {{Macro
+{{Macro
 |Name=Macro CartoucheFC
 |Icon=Macro_CartoucheFC.png
 |Description=This macro is a complete application, it allows to fill the cartridge of the drawing sheet delivered with FreeCAD (Only For [Drawing Workbench](Drawing_Workbench.md)).
@@ -944,6 +944,5 @@ This module works with the drawing sheet included in FreeCAD this sheet is calle
 
 ver 0.3 02/07/2014 converted to PyQt4 and PySide
 
-
-
-
+---
+[documentation index](../README.md) > Macro CartoucheFC/pl

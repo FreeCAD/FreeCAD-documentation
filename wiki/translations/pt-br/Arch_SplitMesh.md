@@ -6,6 +6,8 @@
    SeeAlso:[Arch SelectNonSolidMeshes](Arch_SelectNonSolidMeshes.md), [Arch MeshToShape](Arch_MeshToShape.md)
 ---
 
+# Arch SplitMesh/pt-br
+
 ## Descrição
 
 This tool splits a selected [Mesh](Mesh_Workbench.md) object into its separate components
@@ -64,8 +66,5 @@ new_list = Arch.splitMesh(mesh_obj)
 
 </div>
 
-
-
-
-
-
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SplitMesh/pt-br

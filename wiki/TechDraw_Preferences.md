@@ -1,11 +1,4 @@
 # TechDraw Preferences
- 
-
-
-
-
- 
-
 ## Introduction
 
 The preferences of the [TechDraw Workbench](TechDraw_Workbench.md) are found in the [Preferences Editor](Preferences_Editor.md), **Edit → Preferences → TechDraw**.
@@ -197,3 +190,6 @@ Some preference settings are only accessible through the [Parameter editor](Std_
  {{TechDraw Tools navi}} 
 
 [Category:Preferences](Category:Preferences.md)
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Preferences

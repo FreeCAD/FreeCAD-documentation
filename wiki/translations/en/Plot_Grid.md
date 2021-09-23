@@ -5,6 +5,8 @@
    Workbenches:[Plot](Plot_Module.md)
 ---
 
+# Plot Grid/en
+
 ## Description
 
 This tool allows the user to enable/disable the grid lines on a specific plot.
@@ -26,3 +28,6 @@ This tool acts on the active set of axis. In case of multi-axes plots you can se
 }} 
 
 [Category:External\_Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)
+
+---
+[documentation index](../README.md) > [External_Workbenches](Category:External_Workbenches.md) > Plot Grid/en

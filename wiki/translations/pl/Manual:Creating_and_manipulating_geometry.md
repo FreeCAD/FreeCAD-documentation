@@ -1,7 +1,4 @@
 # Manual:Creating and manipulating geometry/pl
- 
-
-
 {{Manual:TOC/pl}}
 
 W poprzednich rozdziałach dowiedzieliśmy się o różnych środowiskach pracy programu FreeCAD oraz o tym, jak każde z nich stosuje swoje własne narzędzia i typy geometrii. Ta sama koncepcja obowiązuje przy pracy z kodem Pythona.
@@ -231,3 +228,6 @@ Wszystko to, oraz wiele więcej, zostało szczegółowo wyjaśnione na stronie [
 }} 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+
+---
+[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Manual:Creating and manipulating geometry/pl

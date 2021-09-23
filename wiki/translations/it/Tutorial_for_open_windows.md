@@ -1,7 +1,4 @@
 # Tutorial for open windows/it
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -252,4 +249,7 @@ A closer interaction between the workbenches is planed for future versions of Fr
 
 {{Tutorials navi
 
-}}   {{TechDraw Tools navi}} 
+}}   {{TechDraw Tools navi}}
+
+---
+[documentation index](../README.md) > [Arch](Category:Arch.md) > Tutorial for open windows/it

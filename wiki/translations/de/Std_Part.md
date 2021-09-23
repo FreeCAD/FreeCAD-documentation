@@ -8,6 +8,8 @@
    SeeAlso:[Std Group](Std_Group/de.md), [PartDesign Body](PartDesign_Body/de.md)
 ---
 
+# Std Part/de
+
 ## Beschreibung
 
 
@@ -271,4 +273,7 @@ App.ActiveDocument.addObject('Part::FeaturePython', 'Group', group.MyGroup(), gr
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std Part/de

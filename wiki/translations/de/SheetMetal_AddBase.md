@@ -7,6 +7,8 @@
    Shortcut:**C** **B**
 ---
 
+# SheetMetal AddBase/de
+
 ## Beschreibung
 
 Der Befehl <img alt="" src=images/SheetMetal_AddBase.svg  style="width:24px;"> [Basisprofil erstellen](SheetMetal_AddBase/de.md) erzeugt ein Blechprofil aus einer Skizze.
@@ -58,3 +60,6 @@ Ein SheetMetal-BaseBend-Objekt wird von einem [Part-Formelement](Part_Feature/de
 
 
 [Category:SheetMetal](Category:SheetMetal.md) [Category:Addons](Category:Addons.md) [Category:External Command Reference](Category:External_Command_Reference.md)
+
+---
+[documentation index](../README.md) > [SheetMetal](Category:SheetMetal.md) > SheetMetal AddBase/de

@@ -9,6 +9,8 @@
    Version:0.17
 ---
 
+# PartDesign CompPrimitiveSubtractive/de
+
 ## Beschreibung
 
 Erzeugt durch Herausschneiden einen subtraktiven Grundkörper im aktiven Körper.
@@ -30,4 +32,7 @@ Erzeugt durch Herausschneiden einen subtraktiven Grundkörper im aktiven Körper
 
 {{PartDesign Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign CompPrimitiveSubtractive/de

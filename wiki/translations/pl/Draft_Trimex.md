@@ -8,6 +8,8 @@
    SeeAlso:[Part: Wyciągnij](Part_Extrude.md)
 ---
 
+# Draft Trimex/pl
+
 ## Opis
 
 Narzędzie <img alt="" src=images/Draft_Trimex.svg  style="width:24px;"> **Przytnij** przycina lub wydłuża [Linie](Draft_Line/pl.md) i [Polilinie](Draft_Wire/pl.md) tak, że ich koniec znajduje się na przecięciu z inną linią lub krawędzią.
@@ -116,8 +118,5 @@ solid = Draft.extrude(rectangle, vector, solid=True)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Trimex/pl

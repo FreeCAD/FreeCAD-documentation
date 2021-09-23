@@ -5,6 +5,8 @@
    Workbenches:[Curves](Curves_Workbench.md)
 ---
 
+# Curves Line
+
 ## Description
 
 The <img alt="" src=images/Curves_Line.svg  style="width:24px;"> [Curves Line](Curves_Line.md) creates a parametric line between two vertices. This tool is part of the [external workbench](External_workbenches.md) called [Curves](Curves_Workbench.md).
@@ -27,4 +29,7 @@ The <img alt="" src=images/Curves_Line.svg  style="width:24px;"> [Curves Line](C
 
 
 
- {{Curves Tools navi}} 
+ {{Curves Tools navi}}
+
+---
+[documentation index](../README.md) > Curves Line

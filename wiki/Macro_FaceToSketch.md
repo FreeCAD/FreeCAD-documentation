@@ -1,5 +1,5 @@
 # Macro FaceToSketch
-  {{Macro
+{{Macro
 |Name=FaceToSketch
 |Icon=Macro_FaceToSketch.png
 |Description=This macro breaks down your form with function Draft Downgrade and transforms the face selected in a sketch without constraints, and ready to be modified.
@@ -35,6 +35,5 @@ for wire in wires:
     FreeCAD.ActiveDocument.removeObject(wire.Name)
 }}
 
-
-
-
+---
+[documentation index](../README.md) > Macro FaceToSketch

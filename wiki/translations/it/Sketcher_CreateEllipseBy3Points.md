@@ -9,6 +9,8 @@
    SeeAlso:[Ellisse da centro ...](Sketcher_CreateEllipseByCenter/it.md), [Cerchio](Sketcher_CreateCircle/it.md), [Arco di ellisse ...](Sketcher_CreateArcOfEllipse/it.md)
 ---
 
+# Sketcher CreateEllipseBy3Points/it
+
 
 </div>
 
@@ -81,4 +83,7 @@ Premere il pulsante **<img src=images/Sketcher_CreateEllipse_3points.png style="
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateEllipseBy3Points/it

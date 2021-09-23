@@ -8,6 +8,8 @@
    SeeAlso:[Создать эллипс по трём точкам](Sketcher_CreateEllipseBy3Points/ru.md), [Создать окружность](Sketcher_CreateCircle/ru.md), [Создать дугу эллипса](Sketcher_CreateArcOfEllipse/ru.md)
 ---
 
+# Sketcher CreateEllipseByCenter/ru
+
 ## Описание
 
 Этот инструмент рисует эллипс, по трем указанным точкам: центральной, большому радиусу, малому радиусу. При запуске инструмента указатель мыши меняется на белый крест с красным значком эллипса. Кроме того, координаты отображаются в режиме реального времени.
@@ -36,4 +38,7 @@
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateEllipseByCenter/ru

@@ -5,6 +5,8 @@
    Workbenches:All
 ---
 
+# Std MergeProjects
+
 ## Description
 
 The **Std MergeProjects** command adds the contents of a FreeCAD file into the active document.
@@ -32,4 +34,7 @@ The **Std MergeProjects** command adds the contents of a FreeCAD file into the a
 
 
 
- {{Std Base navi}}  
+ {{Std Base navi}}
+
+---
+[documentation index](../README.md) > Std MergeProjects

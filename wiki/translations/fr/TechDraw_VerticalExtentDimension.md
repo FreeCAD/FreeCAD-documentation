@@ -7,6 +7,8 @@
    SeeAlso:[TechDraw Cote de longueur](TechDraw_LengthDimension/fr.md), [TechDraw Extension horizontale](TechDraw_HorizontalExtentDimension/fr.md)
 ---
 
+# TechDraw VerticalExtentDimension/fr
+
 ## Description
 
 L\'outil Extension verticale ajoute une dimension linéaire à une vue. La dimension s\'étend du point le plus bas sur les objets sélectionnés au point le plus haut. Un CosmeticVertex (point cosmétique) sera placé à chaque point.
@@ -54,4 +56,7 @@ rc = page.addView(hExtentDim)
 
 {{TechDraw Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw VerticalExtentDimension/fr

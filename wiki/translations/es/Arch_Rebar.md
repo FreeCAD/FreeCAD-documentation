@@ -1,3 +1,4 @@
+# Arch Rebar/es
 ---
 - GuiCommand:/es   Name:Arch Rebar   Name/es:Arch Rebar   Workbenches:[MenuLocation:Arch → Rebar   Shortcut:R B   SeeAlso:[[Arch Structure/es|Arch Structure](Arch_Workbench/es___Arch]].md)---
 
@@ -164,3 +165,6 @@ FreeCAD.ActiveDocument.recompute()
  
 
 [Category:Arch/es](Category:Arch/es.md) [Category:External Command Reference](Category:External_Command_Reference.md) [Category:Reinforcement](Category:Reinforcement.md)
+
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Rebar/es

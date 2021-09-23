@@ -8,6 +8,8 @@
    SeeAlso:[Forma da testo di Draft](Draft_ShapeString/it.md), [Testo di Draft](Draft_Text/it.md)
 ---
 
+# Std TextDocument/it
+
 ## Descrizione
 
 Il comando **Aggiungi un documento di testo** crea un oggetto in grado di contenere un testo arbitrario. Questo elemento può essere utilizzato per scrivere delle informazioni generali o della documentazione sul modello.
@@ -71,4 +73,7 @@ App.ActiveDocument.recompute()
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std TextDocument/it

@@ -1,3 +1,4 @@
+# Draft Snap Extension/es
 ---
 - GuiCommand:   Name:Draft Snap Extension   Workbenches:[Arch](Draft_Workbench___Draft]],_[[Arch_Workbench.md)|MenuLocation:Draft → [[Draft Snap   Snap]] → Extension|Shortcut:   SeeAlso:---
 
@@ -56,8 +57,5 @@ For general information about snapping see [Draft Snap](Draft_Snap.md).
 
 See [Draft Snap](Draft_Snap#Preferences.md).
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Extension/es

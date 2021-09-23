@@ -1,6 +1,4 @@
 # Artwork Erroneous/it
- 
-
 Per tutte le icone nell\'albero del codice sorgente, vedere [Oggetti grafici](Artwork/it.md)
 
 
@@ -26,3 +24,6 @@ Per tutte le icone nell\'albero del codice sorgente, vedere [Oggetti grafici](Ar
 }}
 
 [Category:Icon](Category:Icon.md) [Category:Developer Documentation](Category:Developer_Documentation.md)
+
+---
+[documentation index](../README.md) > [Icon](Category:Icon.md) > Artwork Erroneous/it

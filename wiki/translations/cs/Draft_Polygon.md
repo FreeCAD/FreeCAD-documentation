@@ -1,3 +1,4 @@
+# Draft Polygon/cs
 ---
 - GuiCommand:/cs   Name:Draft Polygon   Name/cs:Draft Polygon   Workbenches:[Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation:Draft -> Polygon   Shortcut:P G---
 
@@ -174,8 +175,5 @@ Polygon3 = Draft.make_polygon(6, radius=1450, placement=place3)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Polygon/cs

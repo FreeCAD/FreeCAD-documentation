@@ -1,5 +1,5 @@
 # Macro SketchUnmap/fr
- {{Macro/fr
+{{Macro/fr
 |Name=SketchUnmap
 |Description=Cette macro réinitialise un emplacement absolu de l’esquisse et crée éventuellement un plan de référence.<br/>Cette macro a été écrite principalement pour contourner le problème de dénomination topologique susceptible de casser un modèle lorsqu'une esquisse a été attachée directement ou indirectement à une face ou à un objet. tout autre élément topologique.<br/>
 Pour éviter les ruptures, une macro doit être appliquée lorsque le modèle est toujours correct. Il ne peut pas "réparer" un modèle cassé. Si vous venez de casser votre modèle, annulez les dernières modifications dans une bonne situation, appliquez la macro aux esquisses instables, puis recommencez l'opération précédente.
@@ -195,6 +195,5 @@ else:
 
 Pour tout commentaire (bug, demande de fonctionnalité, commentaires, \...), veuillez utiliser ce fil de discussion : [(FR) macro to remap sketch to different reference](https://forum.freecadweb.org/viewtopic.php?f=22&t=36078)
 
-
-
-
+---
+[documentation index](../README.md) > Macro SketchUnmap/fr

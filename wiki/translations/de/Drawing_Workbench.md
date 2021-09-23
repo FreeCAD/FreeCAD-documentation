@@ -1,7 +1,4 @@
 # Drawing Workbench/de
- 
-
-
 **Entwicklung des [Zeichnung Arbeitsbereich](Drawing_Workbench/de.md) wurde in FreeCAD v0.16 gestoppt und der neue in v0.17 eingeführte [TechDraw Arbeitsbereich](TechDraw_Workbench/de.md) zielt darauf, ihn zu ersetzen. Beide Arbeitsbereiche werden in v0.17 bereitgestellt, aber der Zeichnung Arbeitsbereich könnte in zukünftigen Ausgaben entfernt werden.**
 
 <img alt="Drawing workbench icon" src=images/Workbench_Drawing.svg  style="width:128px;">
@@ -84,3 +81,6 @@ Einige Hinweise auf der Programmierseite des Zeichenmoduls werden auf der Seite 
 }} 
 
 [Category:Obsolete Workbenches](Category:Obsolete_Workbenches.md)
+
+---
+[documentation index](../README.md) > Drawing Workbench/de

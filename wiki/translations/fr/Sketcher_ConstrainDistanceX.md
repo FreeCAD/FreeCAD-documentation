@@ -8,6 +8,8 @@
    SeeAlso:[Sketcher Contrainte dimensionnelle](Sketcher_ConstrainDistance/fr.md), [Sketcher Contrainte distance verticale](Sketcher_ConstrainDistanceY/fr.md)
 ---
 
+# Sketcher ConstrainDistanceX/fr
+
 ## Description
 
 Fixe la distance verticale entre 2 points ou fin de lignes. Si un seul point est sélectionné, la distance sera définie par rapport à l\'origine de l\'esquisse.
@@ -50,4 +52,7 @@ La page [Sketcher : Écrire des scripts](Sketcher_scripting/fr.md) explique les 
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainDistanceX/fr

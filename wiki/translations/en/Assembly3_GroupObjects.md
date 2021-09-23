@@ -6,6 +6,8 @@
    Shortcut:**A** **Z**
 ---
 
+# Assembly3 GroupObjects/en
+
 ## Description
 
 The <img alt="" src=images/Assembly_New_Group.svg‎‎  style="width:24px;"> [Group objects](Assembly3_GroupObjects.md) command adds a new (sub-) **Group** folder object to the Assembly branch of the design tree.
@@ -19,8 +21,5 @@ It can be used to either group **Constraints**, **Elements**, or **Parts** and w
 
 :   If the selection contains different types of objects the **<img src="images/Assembly_New_Group.svg‎‎" width=16px> [Group objects](Assembly3_GroupObjects.md)** button will be inactive.
 
-
-
-
-
-
+---
+[documentation index](../README.md) > Assembly3 GroupObjects/en

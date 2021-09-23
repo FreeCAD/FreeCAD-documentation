@@ -6,6 +6,8 @@
    Workbenches:[OpenSCAD](OpenSCAD_Workbench/fr.md)
 ---
 
+# OpenSCAD ReplaceObject/fr
+
 ## Description
 
 Remplace un objet dans la [vue en arborescence](Tree_view/fr.md).
@@ -27,4 +29,7 @@ Vous pouvez utiliser cette fonction par exemple pour remplacer une pièce dans u
 
 {{OpenSCAD_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD ReplaceObject/fr

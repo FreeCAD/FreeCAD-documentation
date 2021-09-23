@@ -8,6 +8,8 @@
    SeeAlso:[PartDesign Subtraktive Helix](PartDesign_SubtractiveHelix.md)
 ---
 
+# PartDesign AdditiveHelix/de
+
 ## Beschreibung
 
 Das Werkzeug **AdditiveHelix** erstellt einen Körper durch das Führen einer Skizze entlang eines Helix-Pfades.
@@ -127,4 +129,7 @@ Eine additive Helix, die sich nicht selbst überschneidet ist sichtbar, wenn **T
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveHelix/de

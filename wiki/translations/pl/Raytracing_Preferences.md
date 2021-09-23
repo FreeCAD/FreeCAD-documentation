@@ -1,5 +1,5 @@
 # Raytracing Preferences/pl
- Ekran preferencji [Raytracing](Raytracing_Workbench/pl.md) znajduje się w [Edytorze ustawień](Preferences_Editor/pl.md), **Edycja → Preferencje → Raytracing**.
+Ekran preferencji [Raytracing](Raytracing_Workbench/pl.md) znajduje się w [Edytorze ustawień](Preferences_Editor/pl.md), **Edycja → Preferencje → Raytracing**.
 
 Znajduje się tam tylko jedna zakładka: Raytracing.
 
@@ -13,3 +13,6 @@ Znajduje się tam tylko jedna zakładka: Raytracing.
 }}  
 
 [Category:Preferences](Category:Preferences.md)
+
+---
+[documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing Preferences/pl

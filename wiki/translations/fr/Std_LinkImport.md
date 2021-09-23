@@ -8,6 +8,8 @@
    SeeAlso:[Std Créer un lien](Std_LinkMake/fr.md), [Std Créer un lien relatif](Std_LinkMakeRelative/fr.md), [Std Importer tous les liens](Std_LinkImportAll/fr.md)
 ---
 
+# Std LinkImport/fr
+
 ## Description
 
 
@@ -38,4 +40,7 @@ Une copie de l\'original **<img src=images/Std_Part.svg style="width:16px"> [Std
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std LinkImport/fr

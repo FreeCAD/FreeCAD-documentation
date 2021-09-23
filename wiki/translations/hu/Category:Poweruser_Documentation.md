@@ -6,3 +6,6 @@ This category shows documentation articles dealing with python scripting, which 
 [Mesh API/hu](Mesh_API/hu.md)
 
 [Category:Documentation](Category:Documentation.md)
+
+---
+[documentation index](../README.md) > Category:Poweruser Documentation/hu

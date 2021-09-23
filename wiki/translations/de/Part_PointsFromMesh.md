@@ -8,6 +8,8 @@
    SeeAlso:[Part FormausNetz](Part_ShapeFromMesh/de.md), [Part KonvertiereZuFestkörper](Part_MakeSolid/de.md), [Part FormVerfeinern](Part_RefineShape/de.md)
 ---
 
+# Part PointsFromMesh/de
+
 ## Beschreibung
 
 Das **<img src="images/Part_PointsFromMesh.svg" width=16px>
@@ -32,8 +34,5 @@ Es wird keine Analyse oder Validierung des Netzobjekts durchgeführt. Die Analys
 
 ## Skripten
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part PointsFromMesh/de

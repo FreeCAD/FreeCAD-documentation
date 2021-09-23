@@ -8,6 +8,8 @@
    SeeAlso:[Draft Groupement automatique](Draft_AutoGroup/fr.md)
 ---
 
+# Draft Layer/fr
+
 ## Description
 
 La commande <img alt="" src=images/Draft_Layer.svg  style="width:24px;"> **Draft Calque** crée un Draft calque. Un calque est un groupe d\'un type particulier, doté d\'un certain nombre de [propriétés visuelles](#Vue.md). Ces propriétés, et toute modification qui leur est apportée, sont propagées aux objets placés à l\'intérieur du calque. Les calques eux-mêmes sont placés dans un autre groupe spécial : le Draft LayerContainer.
@@ -114,8 +116,5 @@ layer.Group = [polygon1, polygon2, polygon3]
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Layer/fr

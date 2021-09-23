@@ -6,6 +6,8 @@
    Workbenches:[PartDesign](PartDesign_Workbench/fr.md)
 ---
 
+# PartDesign LinearPattern/fr
+
 ## Description
 
 L\'outil **<img src=images/PartDesign_LinearPattern.svg style="width:24px"> '''Répétition linéaire'''** créé des copies d\'une fonction espacées également le long d\'une droite. A partir de {{VersionPlus/fr|0.17}}, l\'outil de modèle linéaire peut modéliser plusieurs fonctions.
@@ -87,4 +89,7 @@ Sélectionnez l\'un des axes standard de l\'origine du corps (X, Y ou Z) comme d
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign LinearPattern/fr

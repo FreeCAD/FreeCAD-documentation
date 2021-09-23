@@ -1,3 +1,4 @@
+# Draft Text/cs
 ---
 - GuiCommand:/cs   Name:Draft_Text   Name/cs:Draft Text   Workbenches:[Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation:Draft → Text   Shortcut:T E---
 
@@ -200,8 +201,5 @@ text3.ViewObject.FontSize = 200
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Text/cs

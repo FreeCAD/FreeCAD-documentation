@@ -7,6 +7,8 @@
    SeeAlso:[Croquizador DejarCroquis](Sketcher_LeaveSketch/es.md)
 ---
 
+# Sketcher EditSketch/es
+
 ## Descripción
 
 Este comando le permitirá editar un boceto existente. Abrirá el [Diálogo de bocetos](Sketcher_Dialog/es.md).
@@ -30,4 +32,7 @@ Hay varias formas de invocar el comando Editar croquis:
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher EditSketch/es

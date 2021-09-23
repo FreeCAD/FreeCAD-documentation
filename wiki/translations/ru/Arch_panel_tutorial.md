@@ -1,7 +1,4 @@
 # Arch panel tutorial/ru
-
-
-
 {{TutorialInfo/ru
 |Topic= Моделирование архитектурной панели
 |Level= Начинающие
@@ -198,4 +195,7 @@ Both Draft Rotate and Move tools make use of the Draft Snapping system. Differen
 
 {{Tutorials navi
 
-}}   {{Sketcher Tools navi}} 
+}}   {{Sketcher Tools navi}}
+
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch panel tutorial/ru

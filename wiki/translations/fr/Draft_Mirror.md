@@ -8,6 +8,8 @@
    SeeAlso:[Draft Clone](Draft_Clone/fr.md)
 ---
 
+# Draft Mirror/fr
+
 ## Description
 
 La commande <img alt="" src=images/Draft_Mirror.svg  style="width:24px;"> **Draft Miroir** crée des copies miroir, des objets [Part Miroir](Part_Mirror/fr.md), à partir des objets sélectionnés. Un objet [Part Miroir](Part_Mirror/fr.md) est paramétrique et il sera mis à jour si son objet source change.
@@ -121,8 +123,5 @@ mirrored2 = Draft.mirror([polygon1, polygon2], -p1, -p2)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Mirror/fr

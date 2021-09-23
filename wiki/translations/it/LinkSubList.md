@@ -1,6 +1,4 @@
 # LinkSubList/it
-
-
 ## Descrizione
 
 Un [LinkSubList](LinkSubList/it.md) è una struttura dati che viene utilizzata come input per varie funzioni e oggetti; il suo scopo è passare un sottooggetto o sottoelemento (vertice, bordo o faccia) da un oggetto a un altro oggetto che utilizzerà o trasformerà quella geometria.
@@ -78,3 +76,6 @@ Il sottoelemento può quindi essere estratto dalla proprietà assegnata e può e
 {{Powerdocnavi
 
 }}
+
+---
+[documentation index](../README.md) > LinkSubList/it

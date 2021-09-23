@@ -7,6 +7,8 @@
    Version:0.17
 ---
 
+# Spreadsheet AlignBottom/ru
+
 ## Описание
 
 The **<img src=images/Spreadsheet_AlignBottom.svg style="width:16px"> [Spreadsheet AlignBottom](Spreadsheet_AlignBottom.md)** tool makes the text inside the cell align to the bottom of the cell.
@@ -23,4 +25,7 @@ The **<img src=images/Spreadsheet_AlignBottom.svg style="width:16px"> [Spreadshe
 
 {{Spreadsheet_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet AlignBottom/ru

@@ -1,11 +1,4 @@
 # TechDraw Geometric dimensioning and tolerancing
- 
-
-
-
-
- 
-
 ## Concept
 
 The main purpose of a technical drawing is that others understand what the designer created with what tolerances AND how to manufacture the design. Since most parts have to fit to assemblies, also the geometric relations to other parts are important. To achieve this, the system of [Geometric Dimensioning and Tolerancing](https://en.wikipedia.org/wiki/Geometric_dimensioning_and_tolerancing) (GD&T) was developed.
@@ -337,4 +330,7 @@ As reference, here are lists of characters to be used for geometric tolerancing:
 
 
 
- {{TechDraw Tools navi}}  
+ {{TechDraw Tools navi}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Geometric dimensioning and tolerancing

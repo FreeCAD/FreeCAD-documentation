@@ -5,6 +5,8 @@
    Workbenches:[Assembly3](Assembly3_Workbench.md)
 ---
 
+# Assembly3 ConstraintMultiParallel
+
 ## Description
 
 This tool builds a link between two or more objects of an assembly and matches their orientation. The selected elements of each object or more precisely their implicit coordinate systems (ICS) are used to position one object to another.
@@ -21,7 +23,5 @@ The constraint accepts straight edges and planar faces, which become parallel.
 2.  Select one straight edge element or one planar face element of each object.
 3.  Press the **<img src="images/Assembly_ConstraintMultiParallel.svg" width=16px> [Multi parallel](Assembly3_ConstraintMultiParallel.md)** button.
 
-
-
-
- 
+---
+[documentation index](../README.md) > Assembly3 ConstraintMultiParallel

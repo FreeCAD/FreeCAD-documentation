@@ -1,6 +1,4 @@
 # Packaging
- 
-
 This page collects the information on packaging FreeCAD in different platforms.
 
 -   [Linux packaging](Linux_packaging.md). Information on AppImages, Debian packages, unstable and daily, and others.
@@ -10,3 +8,6 @@ This page collects the information on packaging FreeCAD in different platforms.
   
 
 [Category:Packaging](Category:Packaging.md) [Category:Developer Documentation](Category:Developer_Documentation.md)
+
+---
+[documentation index](../README.md) > [Packaging](Category:Packaging.md) > Packaging

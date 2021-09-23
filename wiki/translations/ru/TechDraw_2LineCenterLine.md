@@ -8,6 +8,8 @@
    SeeAlso:[Добавить осевую линию к Граням](TechDraw_FaceCenterLine/ru.md), [Добавить осевую линию между 2 точками](TechDraw_2PointCenterLine/ru.md)
 ---
 
+# TechDraw 2LineCenterLine/ru
+
 ## Описание
 
 The 2LineCenterLine tool adds a centerline between two Edges.
@@ -71,4 +73,7 @@ Centerlines are not accessible from [macros](Macros.md) or the [Python](Python.m
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw 2LineCenterLine/ru

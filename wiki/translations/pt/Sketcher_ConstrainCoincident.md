@@ -7,6 +7,8 @@
    SeeAlso:[Constrain Lock](Sketcher_ConstrainLock/pt.md), [Constrain Point onto Object](Sketcher_ConstrainPointOnObject/pt.md)
 ---
 
+# Sketcher ConstrainCoincident/pt
+
 
 </div>
 
@@ -89,3 +91,6 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 }}  
 
 [Category:Sketcher/pt](Category:Sketcher/pt.md)
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainCoincident/pt

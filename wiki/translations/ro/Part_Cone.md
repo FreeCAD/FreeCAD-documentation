@@ -8,6 +8,8 @@
    SeeAlso:[Part CreatePrimitives](Part_CreatePrimitives/ro.md)
 ---
 
+# Part Cone/ro
+
 
 </div>
 
@@ -111,8 +113,5 @@ The cone properties can later be edited, either in the [Property editor](Propert
 
 -    **Angle**: Number of degrees of the arc or circles defining the upper and lower faces of the truncated cone. The default 360° creates circular faces, a lower value will create a portion of a cone as defined by upper and lower faces each with edges defined by an arc of the number of degrees and two radii.
 
-
-
-
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Cone/ro

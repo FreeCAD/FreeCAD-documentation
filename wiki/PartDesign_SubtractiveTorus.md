@@ -7,6 +7,8 @@
    SeeAlso:[PartDesign CompPrimitiveSubtractive](PartDesign_CompPrimitiveSubtractive.md)
 ---
 
+# PartDesign SubtractiveTorus
+
 ## Description
 
 Inserts a subtractive torus in the active Body. Its shape is subtracted from the existing solid.
@@ -46,4 +48,7 @@ The Torus can be edited after its creation in two ways:
 
 
 
- {{PartDesign Tools navi}}  
+ {{PartDesign Tools navi}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveTorus

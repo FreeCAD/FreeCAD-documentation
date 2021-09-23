@@ -1,3 +1,4 @@
+# Robot Simulate/ro
 ---
 - GuiCommand:   Name:Robot Simulate   Workbenches:[[Robot_Workbench   Robot]]|MenuLocation:Robot → Simulate a trajectory---
 
@@ -54,4 +55,7 @@ Butoanele de la stânga la dreapta sunt:
 
 {{Robot_Tools_navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot Simulate/ro

@@ -7,6 +7,8 @@
    SeeAlso:[Std Ausrichtung](Std_Alignment/de.md), [Platzierung](Placement/de.md)
 ---
 
+# Std Placement/de
+
 ## Beschreibung
 
 Der **Std Platzierung** Befehl zeigt die Platzierung [ Aufgabenkonsole](Task_panel/de.md) für ein ausgewähltes Objekt an.
@@ -84,4 +86,7 @@ print(obj.Placement.Matrix)
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std Placement/de

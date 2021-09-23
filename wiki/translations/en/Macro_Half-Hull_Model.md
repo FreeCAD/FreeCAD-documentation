@@ -1,5 +1,5 @@
 # Macro Half-Hull Model/en
- {{Macro
+{{Macro
 |Name=Macro Half-Hull Model
 |Icon=Macro_Half_Hull_Model.png
 |Description=This macro generates both three dimensional half-hull and full-hull models from a series of 2D line drawings.<br/>This macro makes simple models of the hulls of boats and ships. It is intended to aid people modeling or designing hulls by providing the hull surface in a straight forward and timely fashion so they can avoid the time consuming full process.
@@ -931,6 +931,5 @@ This script is running bug free. But due to the large range of possible inputs i
 
 The script is too long for the Wiki to display so it must be copied or downloaded from [unabbreviated script on pastebin.com](http://pastebin.com/raw.php?i=tZMpUi6F)
 
-
-
-
+---
+[documentation index](../README.md) > Macro Half-Hull Model/en

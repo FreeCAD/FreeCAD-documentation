@@ -8,6 +8,8 @@
    Version:0.15
 ---
 
+# Sketcher SelectElementsAssociatedWithConstraints/ru
+
 
 </div>
 
@@ -27,4 +29,7 @@ Select sketcher Elements associated with constraints.
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectElementsAssociatedWithConstraints/ru

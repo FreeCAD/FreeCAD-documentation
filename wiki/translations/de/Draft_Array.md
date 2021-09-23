@@ -7,6 +7,8 @@
    SeeAlso:[PfadDatenfeld](Draft_PathArray/de.md), [Draft PointArray](Draft_PointArray/de.md), [Draft Klonen](Draft_Clone/de.md)
 ---
 
+# Draft Array/de
+
 
 </div>
 
@@ -84,5 +86,5 @@ This command is now obsolete. Use the [Draft OrthoArray](Draft_OrthoArray.md), [
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Array/de

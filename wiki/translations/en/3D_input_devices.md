@@ -1,5 +1,5 @@
 # 3D input devices/en
- FreeCAD supports some specialized input devices, such as 3D mice. These enables the user to rotate, translate and zoom objects in three dimensions.
+FreeCAD supports some specialized input devices, such as 3D mice. These enables the user to rotate, translate and zoom objects in three dimensions.
 
 ## Supported hardware 
 
@@ -7,3 +7,6 @@
 -   Installation instructions: [3D connexion input devices](3Dconnexion_input_devices.md)
 
 [category:Documentation](category:Documentation.md)
+
+---
+[documentation index](../README.md) > 3D input devices/en

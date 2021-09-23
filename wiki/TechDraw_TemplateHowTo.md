@@ -1,7 +1,4 @@
 # TechDraw TemplateHowTo
- 
-
-
 {{TutorialInfo
 |Topic=Drafting
 |Level=Intermediate
@@ -117,4 +114,7 @@ See a Stackoverflow discussion on [removing transform clauses in SVG files](http
 
 If you do not see the green boxes for your editable texts, there might be something wrong with your document scale. Open your file in Inkscape again and confirm the values of the viewBox and the sizes are matching.
 
- {{Tutorials navi}} {{TechDraw Tools navi}} 
+ {{Tutorials navi}} {{TechDraw Tools navi}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw TemplateHowTo

@@ -1,7 +1,4 @@
 # Manual:Traditional 2D drafting/de
- 
-
-
 {{Manual:TOC/de}}
 
 Möglicherweise bist du an FreeCAD interessiert, weil du bereits einige Erfahrung beim technischen Zeichnen hast, zum Beispiel mit Software wie [AutoCAD](https://de.wikipedia.org/wiki/AutoCAD). Oder du weist schon etwas über Design oder ziehst es vor, Dinge zu zeichnen, bevor du diese baust. In jedem Fall bietet FreeCAD einen eher herkömmlichen Arbeitsbereich, mit Werkzeugen, die in den meisten 2D CAD Anwendungen zu finden sind: Der [Entwurf Arbeitsbereich](Draft_Workbench/de.md).
@@ -114,3 +111,6 @@ Im Wesentlichen bietet der Entwurf Arbeitsbereich grafische Möglichkeiten, um e
 
 
 [Category:Tutorials](Category:Tutorials.md) [Category:Draft](Category:Draft.md)
+
+---
+[documentation index](../README.md) > [Tutorials](Category:Tutorials.md) > Manual:Traditional 2D drafting/de

@@ -1,7 +1,4 @@
 # Manual:Using spreadsheets/en
- 
-
-
 {{Manual:TOC}}
 
 FreeCAD features another interesting workbench to explore: the [Spreadsheet Workbench](Spreadsheet_Workbench.md). This workbench allows you to create [spreadsheets](https://en.wikipedia.org/wiki/Spreadsheet) such as those made with [Excel](https://en.wikipedia.org/wiki/Microsoft_Excel) or [LibreOffice](https://en.wikipedia.org/wiki/OpenOffice.org_Calc) directly in FreeCAD. These spreadsheets can then be populated with data extracted from your model, and can also perform a series of calculations between values. Spreadsheets can be exported as CSV files, which can be imported in any other spreadsheet application.
@@ -87,3 +84,6 @@ You can also give aliases to dimensional constraints (horizontal, vertical or di
 
 
 [Category:Tutorials](Category:Tutorials.md)
+
+---
+[documentation index](../README.md) > Manual:Using spreadsheets/en

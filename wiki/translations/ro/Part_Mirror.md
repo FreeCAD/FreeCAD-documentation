@@ -1,3 +1,4 @@
+# Part Mirror/ro
 ---
 - GuiCommand:   Name:Part Mirror   MenuLocation:Part -> Mirror   Workbenches:[Complete](Part_Workbench___Part]],_[[Complete_Workbench.md)|SeeAlso:------
 
@@ -83,8 +84,5 @@ Casetele **Base point** pot fi utilizate pentru a mișca planul oglinzii paralel
 
 </div>
 
-
-
-
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Mirror/ro

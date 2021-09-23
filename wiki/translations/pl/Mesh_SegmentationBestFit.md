@@ -6,6 +6,8 @@
    SeeAlso:[Mesh Segmentation](Mesh_Segmentation.md)
 ---
 
+# Mesh SegmentationBestFit/pl
+
 ## Description
 
 The **Mesh SegmentationBestFit** command creates separate mesh segments for specified surface types of a mesh object. The command can also identify their parameters which can be useful when re-engineering a mesh object.
@@ -52,4 +54,7 @@ The **Mesh SegmentationBestFit** command creates separate mesh segments for spec
 
 {{Mesh Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh SegmentationBestFit/pl

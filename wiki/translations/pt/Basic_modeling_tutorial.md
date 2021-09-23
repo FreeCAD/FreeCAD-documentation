@@ -1,5 +1,5 @@
 # Basic modeling tutorial/pt
- {{TutorialInfo/pt
+{{TutorialInfo/pt
 |Topic = Introdução à modelação
 |Level = Iniciante
 |Time = 15 minutos
@@ -137,4 +137,7 @@ The above instructions will work, no matter what label your button has.
 
 {{Tutorials navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Basic modeling tutorial/pt

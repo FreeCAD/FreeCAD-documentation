@@ -6,6 +6,8 @@
    Workbenches:[Assembly3](Assembly3_Workbench/de.md)
 ---
 
+# Assembly3 ConstraintPointsVertical/de
+
 ## Beschreibung
 
 Dieses Werkzeug stellt eine Verbindung zwischen zwei oder drei Objekten eines Zusammenbaus her. Die Gewählten Elemente der einzelnen Objekte oder präziser ihre lokalen Koordinatensysteme (LKS) werden genutzt, um die Objekt zueinander zu positionieren.
@@ -26,8 +28,5 @@ Oder
 3.  Ein planares Flächenelement des dritten Objekts auswählen.
 4.  Schaltfläche **<img src="images/Assembly_ConstraintPointsVertical.svg" width=16px> [Vertikale Punkte](Assembly3_ConstraintPointsVertical/de.md)** drücken.
 
-
-
-
-
-
+---
+[documentation index](../README.md) > Assembly3 ConstraintPointsVertical/de

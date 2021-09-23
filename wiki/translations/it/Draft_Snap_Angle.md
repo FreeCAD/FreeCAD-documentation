@@ -8,6 +8,8 @@
    SeeAlso:[Snap](Draft_Snap/it.md), [Attiva/disattiva snap](Draft_ToggleSnap/it.md)
 ---
 
+# Draft Snap Angle/it
+
 
 </div>
 
@@ -70,5 +72,5 @@ See [Draft Snap](Draft_Snap#Preferences.md).
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Angle/it

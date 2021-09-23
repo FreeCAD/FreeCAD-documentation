@@ -6,3 +6,6 @@ This category lists templates that format text given as input.
 [Template:MenuCommand/pl](Template:MenuCommand/pl.md) , [Template:VeryImportantMessage/pl](Template:VeryImportantMessage/pl.md)
 
 [Category:Template/pl](Category:Template/pl.md)
+
+---
+[documentation index](../README.md) > Category:Template:Text Format/pl

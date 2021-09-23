@@ -6,3 +6,6 @@ Esta categoría lista páginas que contienen información útil sobre MediaWiki 
 [Help/es](Help/es.md)
 
 [Category:Categories/es](Category:Categories/es.md)
+
+---
+[documentation index](../README.md) > Category:Help/es

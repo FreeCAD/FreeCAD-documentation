@@ -6,6 +6,8 @@
    Workbenches:[Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
 ---
 
+# Draft Drawing/ro
+
 
 </div>
 
@@ -43,8 +45,5 @@ This command is now obsolete. Use the [TechDraw Workbench](TechDraw_Workbench.md
 
 </div>
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Drawing/ro

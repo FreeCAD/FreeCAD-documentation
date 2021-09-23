@@ -44,3 +44,6 @@ Downloadable files:
 [freecad-sticker-color.svg](https://yorik.uncreated.net/images/2021/freecad-sticker-color.svg) - color (print) only
 
 [freecad-sticker-contour.svg](https://yorik.uncreated.net/images/2021/freecad-sticker-contour.svg) - contour only
+
+---
+[documentation index](../README.md) > Swag

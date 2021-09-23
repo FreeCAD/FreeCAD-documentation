@@ -8,6 +8,8 @@
    SeeAlso:[Вставить SVG знак](TechDraw_Symbol/ru.md)
 ---
 
+# TechDraw ActiveView/ru
+
 ## Описание
 
 The ActiveView tool inserts a copy of a 3D window into a drawing page.
@@ -78,4 +80,7 @@ TechDrawGui.copyActiveViewToSvgFile(Gui.ActiveDocument.ActiveView,"myFile.svg")
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ActiveView/ru

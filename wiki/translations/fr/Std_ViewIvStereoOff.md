@@ -7,6 +7,8 @@
    SeeAlso:[Std Stéréo rouge cyan](Std_ViewIvStereoRedGreen/fr.md), [Std Tampon stéréo quadruple](Std_ViewIvStereoQuadBuff/fr.md), [Std Lignes stéréo entrelacées](Std_ViewIvStereoInterleavedRows/fr.md), [Std Colonnes stéréo entrelacées](Std_ViewIvStereoInterleavedColumns/fr.md)
 ---
 
+# Std ViewIvStereoOff/fr
+
 ## Description
 
 La commande **Std Stéréo désactivée** désactive le mode stéréo dans la [vue 3D](3D_view/fr.md) active.
@@ -38,4 +40,7 @@ FreeCADGui.ActiveDocument.ActiveView.getStereoType()
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ViewIvStereoOff/fr

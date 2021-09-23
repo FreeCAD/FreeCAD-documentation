@@ -7,6 +7,8 @@
    SeeAlso:[Std Nouveau](Std_New.md)
 ---
 
+# Std ProjectInfo/fr
+
 ## Description
 
 La commande **Information sur le projet** affiche une boîte de dialogue avec des informations sur le projet appartenant au document actif. Certaines de ces informations peuvent être modifiées.
@@ -42,4 +44,7 @@ La commande **Information sur le projet** affiche une boîte de dialogue avec de
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ProjectInfo/fr

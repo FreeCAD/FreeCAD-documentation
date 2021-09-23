@@ -1,5 +1,5 @@
 # Macro Align Object to View/en
- {{Macro
+{{Macro
 |Name=Macro Align Object to View
 |Icon=Macro_Align_Object_to_View.png
 |Description=This macro aligns the selected object to the current View.
@@ -74,6 +74,5 @@ Image:Macro Align Object to View 03.png\|Select the object and run the macro (th
 
 Tanks Simplified code to rentlau\_64
 
-
-
-
+---
+[documentation index](../README.md) > Macro Align Object to View/en

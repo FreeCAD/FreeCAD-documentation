@@ -6,3 +6,6 @@ This category lists pages related to the [Image Workbench/uk](Image_Workbench/uk
 [Image Workbench/uk](Image_Workbench/uk.md)
 
 [Category:Workbenches/uk](Category:Workbenches/uk.md)
+
+---
+[documentation index](../README.md) > Category:Image/uk

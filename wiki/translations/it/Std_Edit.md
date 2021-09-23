@@ -6,6 +6,8 @@
    Workbenches:Tutti
 ---
 
+# Std Edit/it
+
 ## Descrizione
 
 Il comando **Std Edit** attiva o disattiva la modalità di modifica di un oggetto.
@@ -72,4 +74,7 @@ FreeCADGui.ActiveDocument.resetEdit()
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std Edit/it

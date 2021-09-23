@@ -1,5 +1,5 @@
 # Development roadmap/pl
- **Ważne: wiele z tych planowanych rozwiązań nie jest aktualnych lub zostało porzuconych. Ta strona i strony, do których ona odsyła, najprawdopodobniej zawierają przestarzałe informacje. "Łagodne" plany można znaleźć na [http://www.freecadweb.org/tracker/roadmap_page.php bugtracker], ale na razie nie ma "twardych" planów. Jest wiele działań, które toczą się jednocześnie.**
+**Ważne: wiele z tych planowanych rozwiązań nie jest aktualnych lub zostało porzuconych. Ta strona i strony, do których ona odsyła, najprawdopodobniej zawierają przestarzałe informacje. "Łagodne" plany można znaleźć na [http://www.freecadweb.org/tracker/roadmap_page.php bugtracker], ale na razie nie ma "twardych" planów. Jest wiele działań, które toczą się jednocześnie.**
 
 FreeCAD - choć użyteczny w wielu aplikacjach - jest na początku długiej drogi do głównego nurtu CAD. Wciąż jest wiele do zrobienia, aby osiągnąć stan, w którym możemy konkurować z komercyjnym oprogramowaniem.
 
@@ -44,3 +44,6 @@ Jak w większości [FLOSS](http://en.wikipedia.org/wiki/FLOSS) projektów, harmo
 
 
 [Category:Roadmap](Category:Roadmap.md)
+
+---
+[documentation index](../README.md) > [Roadmap](Category:Roadmap.md) > Development roadmap/pl

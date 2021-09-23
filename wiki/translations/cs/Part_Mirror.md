@@ -1,3 +1,4 @@
+# Part Mirror/cs
 ---
 - GuiCommand:/cs   Name:Part Mirror   Name/cs:Díl Zrcadlení   MenuLocation:Díl -> Zrcadlení   Workbenches:[[Part_Workbench/cs   Díl]], Kompletace|SeeAlso:---
 
@@ -77,8 +78,5 @@ Políčka **Základní bod** mohou být použity pro posunutí roviny zrcadlení
 
 </div>
 
-
-
-
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Mirror/cs

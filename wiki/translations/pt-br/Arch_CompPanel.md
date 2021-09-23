@@ -7,6 +7,8 @@
    SeeAlso:
 ---
 
+# Arch CompPanel/pt-br
+
 ## Descrição
 
 Grouping of several Panel related tools.
@@ -27,5 +29,5 @@ Grouping of several Panel related tools.
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CompPanel/pt-br

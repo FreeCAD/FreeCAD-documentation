@@ -6,3 +6,6 @@ This category gathers all articles documenting the python API of FreeCAD and its
 [Python/es](Python/es.md)
 
 [Category:Documentation/es](Category:Documentation/es.md)
+
+---
+[documentation index](../README.md) > Category:API Documentation/es

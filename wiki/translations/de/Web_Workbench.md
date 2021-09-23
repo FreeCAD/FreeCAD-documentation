@@ -1,10 +1,4 @@
-# Web Workbench/de
-
-
-
-
-
-<img alt="Netz Arbeitsbereichssymbol" src=images/Workbench_Web.svg  style="width:128px;">
+# <img alt="Netz Arbeitsbereichssymbol" src=images/Workbench_Web.svg  style="width:64px;"> Web Workbench/de
 
 ## Einführung
 
@@ -19,3 +13,6 @@ Von hier aus kannst Du im Web navigieren, auf Verweise (Links) klicken, die Onli
 
 
 [Category:Web](Category:Web.md) [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Web Workbench/de

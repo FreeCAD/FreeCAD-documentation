@@ -8,6 +8,8 @@
    SeeAlso:[Vista da dietro](Std_ViewRear/it.md), [Vista dal basso](Std_ViewBottom/it.md)
 ---
 
+# Std ViewLeft/it
+
 ## Descrizione
 
 Il comando **Vista da sinistra** orienta la camera della [Vista 3D](3D_view/it.md) nella direzione dell\'asse X positivo.
@@ -51,4 +53,7 @@ FreeCADGui.ActiveDocument.ActiveView.getViewDirection()
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ViewLeft/it

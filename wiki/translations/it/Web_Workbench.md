@@ -1,7 +1,4 @@
 # Web Workbench/it
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -37,3 +34,6 @@ Da questo browser è possibile navigare sul web, e accedere a siti web (i cookie
 
 
 [Category:Web](Category:Web.md) [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Web Workbench/it

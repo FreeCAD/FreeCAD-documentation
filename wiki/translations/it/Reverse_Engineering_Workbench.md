@@ -1,10 +1,4 @@
-# Reverse Engineering Workbench/it
-
-
-
-
-
-<img alt="L\'icona di Reverse Engineering" src=images/Workbench_Reverse_Engineering.svg  style="width:128px;">
+# <img alt="L\'icona di Reverse Engineering" src=images/Workbench_Reverse_Engineering.svg  style="width:64px;"> Reverse Engineering Workbench/it
 
 ## Introduction
 
@@ -37,3 +31,6 @@ Link a thread appropriati che discutono di questo ambiente
 
 
 [Category:Reverse Engineering](Category:Reverse_Engineering.md) [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Reverse Engineering Workbench/it

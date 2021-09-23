@@ -1,7 +1,4 @@
 # TechDraw pitch circle tutorial/ru
-
-
-
 {{TutorialInfo
 |Topic=TechDraw
 |Level=Beginner
@@ -44,4 +41,7 @@ This tutorial explains how to add a pitch circle to a <img alt="" src=images/Wor
 
 {{TechDraw Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw pitch circle tutorial/ru

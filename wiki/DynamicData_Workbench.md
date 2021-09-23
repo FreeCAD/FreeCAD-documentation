@@ -1,7 +1,4 @@
-# DynamicData Workbench
- 
-
-<img alt="DynamicData External Workbench Icon" src=images/DynamicData_workbench_icon.svg  style="width:128px;">
+# <img alt="DynamicData External Workbench Icon" src=images/DynamicData_workbench_icon.svg  style="width:64px;"> DynamicData Workbench
 
  
 
@@ -37,3 +34,6 @@ New workbenches are in development, stay tuned!
  
 
 [Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+
+---
+[documentation index](../README.md) > DynamicData Workbench

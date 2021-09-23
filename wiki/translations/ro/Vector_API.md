@@ -1,7 +1,4 @@
 # Vector API/ro
-
-
-
 <div class="mw-translate-fuzzy">
 
 Vectorii sunt utilizați peste tot în FreeCAD.
@@ -76,3 +73,6 @@ print v3.Length
  
 
 [Category:API](Category:API.md) [Category:Poweruser Documentation](Category:Poweruser_Documentation.md)
+
+---
+[documentation index](../README.md) > [API](Category:API.md) > Vector API/ro

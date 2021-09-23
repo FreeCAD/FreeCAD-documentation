@@ -7,6 +7,8 @@
    SeeAlso:[Vista](TechDraw_View/it.md), [Gruppo di proiezioni](TechDraw_ProjectionGroup/it.md)
 ---
 
+# TechDraw SectionView/it
+
 
 </div>
 
@@ -149,4 +151,7 @@ section.SectionOrigin = (5.0,5.0,5.0)
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw SectionView/it

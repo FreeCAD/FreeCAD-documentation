@@ -6,6 +6,8 @@
    MenuLocation:PartDesign → Симметрия
 ---
 
+# PartDesign Mirrored/ru
+
 
 </div>
 
@@ -84,4 +86,7 @@ The mirror result can be previewed in real time before clicking **OK** by checki
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Mirrored/ru

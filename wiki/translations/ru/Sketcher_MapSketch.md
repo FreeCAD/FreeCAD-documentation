@@ -7,6 +7,8 @@
    SeeAlso:[Создать эскиз](Sketcher_NewSketch/ru.md)
 ---
 
+# Sketcher MapSketch/ru
+
 ## Описание
 
 Этот инструмент размещает созданный эскиз на грани фигуры. Элементы PartDesign, созданные из этого эскиза, будут объединены с базовым телом при использовании добавочных операций (Выдавливание, Вращение) или вычтены из базового тела в случае вычитающих операций (Вырез, Паз).
@@ -54,4 +56,7 @@
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher MapSketch/ru

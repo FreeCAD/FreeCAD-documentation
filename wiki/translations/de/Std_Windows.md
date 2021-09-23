@@ -6,6 +6,8 @@
    SeeAlso:[Std NächstesFensterAktivieren](Std_ActivateNextWindow/de.md), [Std VorherigesFensterAktivieren](Std_ActivatePrevWindow/de.md)
 ---
 
+# Std Windows/de
+
 ## Beschreibung
 
 Der **Std Fenster**-Befehl öffnet eine Dialog-Box mit einer Liste der Fenster des [Hauptansichtsbereichs](Main_view_area/de.md). Aus dieser Liste kann ein ausgewähltes Fenster aktiviert werden.
@@ -36,4 +38,7 @@ Fenster im Hauptansichtsbereich sind auch im **Fenster**-Menü aufgeführt und k
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std Windows/de

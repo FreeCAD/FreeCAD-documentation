@@ -7,6 +7,8 @@
    SeeAlso:[Punkte Exportieren](Points_Export/de.md)
 ---
 
+# Points Import/de
+
 ## Beschreibung
 
 Der **Punkte Importieren** Befehl importiert eine Punktwolke aus einer Datei.
@@ -50,4 +52,7 @@ Zum Testen kannst du diese [diese Datei](https://github.com/FREECAD/Examples/blo
 
 {{Points Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Points](Points_Workbench.md) > Points Import/de

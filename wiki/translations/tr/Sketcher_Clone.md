@@ -9,6 +9,8 @@
 
 ---
 
+# Sketcher Clone/tr
+
 
 </div>
 
@@ -48,4 +50,7 @@ Bir klonun, klonunun bir Eskiz Kopyası haline geldiğine dikkat edin. Bağlant�
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Clone/tr

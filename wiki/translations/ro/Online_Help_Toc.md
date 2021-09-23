@@ -1,7 +1,4 @@
 # Online Help Toc/ro
-
-
-
 <div class="mw-translate-fuzzy">
 
 Acesta este cuprinsul utilizat pentru construirea automată a sistemului de ajutor online din FreeCAD. Versiunea printabilă a acestui manual este de asemenea disponibilă în pagina [releases page](https://github.com/FreeCAD/FreeCAD/releases)
@@ -184,3 +181,6 @@ Aici este un alt conținut de cuprins pentru
 
 
 [Category:Documentation](Category:Documentation.md)
+
+---
+[documentation index](../README.md) > [Documentation](Category:Documentation.md) > Online Help Toc/ro

@@ -6,6 +6,8 @@
    SeeAlso:[Arch Remove](Arch_Remove.md)
 ---
 
+# Arch Add/pl
+
 ## Description
 
 The Add tool allows you to do 4 kinds of operations:
@@ -74,11 +76,5 @@ Arch.addComponents(Wall2, Wall)
 FreeCAD.ActiveDocument.recompute()
 ```
 
-
-
-
-
-
-
-
-
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Add/pl

@@ -1,7 +1,4 @@
 # OpenSCAD Workbench/es
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -113,3 +110,6 @@ Si FreeCAD se cuelga importando CSG, es muy recomendable activar *automáticamen
 }} 
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > OpenSCAD Workbench/es

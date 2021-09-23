@@ -1,6 +1,4 @@
 # Artwork Path/ru
- 
-
 Эти иконки находятся в указанной исходной папке.
 
 Для всех иконок в исходнике смотри [Художественное оформление](Artwork/ru.md).
@@ -17,3 +15,6 @@
 }} 
 
 [Category:Path](Category:Path.md)
+
+---
+[documentation index](../README.md) > [Path](Category:Path.md) > Artwork Path/ru

@@ -8,6 +8,8 @@
    SeeAlso:[Std MakroSchrittWeiter](Std_MacroStepOver/de.md), [Std MakroSchrittVorwärts](Std_MacroStepInto/de.md)
 ---
 
+# Std ToggleBreakpoint/de
+
 ## Beschreibung
 
 Dieser Befehl funktioniert zur Zeit nicht.
@@ -18,4 +20,7 @@ Dieser Befehl funktioniert zur Zeit nicht.
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ToggleBreakpoint/de

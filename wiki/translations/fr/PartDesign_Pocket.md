@@ -7,6 +7,8 @@
    SeeAlso:[PartDesign Protrusion](PartDesign_Pad/fr.md)
 ---
 
+# PartDesign Pocket/fr
+
 ## Description
 
 L\'outil **Cavité** découpe un solide en extrudant une esquisse (ou une face du solide) selon un tracé rectiligne et en le soustrayant du solide.
@@ -63,4 +65,7 @@ Un [exemple pratique](http://forum.freecadweb.org/viewtopic.php?f=3&t=3733&start
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Pocket/fr

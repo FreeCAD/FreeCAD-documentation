@@ -1,5 +1,5 @@
 # Artwork Gui/pl
-  Ikony te znajdują się we wskazanej ścieżce źródłowej.
+Ikony te znajdują się we wskazanej ścieżce źródłowej.
 
 Wszystkie ikonki widoczne na liście źródłowej, patrz [Grafika](Artwork/pl.md).
 
@@ -22,4 +22,7 @@ Te obrazy są większe niż ikony.
 
 {{Artwork
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > Artwork Gui/pl

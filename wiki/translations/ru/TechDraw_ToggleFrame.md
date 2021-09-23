@@ -7,6 +7,8 @@
    SeeAlso:[Вставить Вид](TechDraw_View/ru.md), [Вставить Группу проекций](TechDraw_ProjectionGroup/ru.md)
 ---
 
+# TechDraw ToggleFrame/ru
+
 ## Описание
 
 The Toggle tool turns the display of View frames, labels and vertices on or off.
@@ -44,4 +46,7 @@ The Toggle tool currently doesn\'t have a programming interface.
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ToggleFrame/ru

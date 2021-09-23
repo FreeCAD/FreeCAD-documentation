@@ -5,6 +5,8 @@
    Workbenches:All
 ---
 
+# Std ToggleClipPlane/en
+
 ## Description
 
 The **Std ToggleClipPlane** command temporarily hides objects and parts of objects on one side of up to three virtual planes in the active [3D view](3D_view.md).
@@ -39,4 +41,7 @@ The **Std ToggleClipPlane** command temporarily hides objects and parts of objec
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ToggleClipPlane/en

@@ -7,6 +7,8 @@
    SeeAlso:[Std Stéréo rouge cyan](Std_ViewIvStereoRedGreen/fr.md), [Std Tampon stéréo quadruple](Std_ViewIvStereoQuadBuff/fr.md), [Std Lignes stéréo entrelacées](Std_ViewIvStereoInterleavedRows/fr.md), [Std Stéréo désactivée](Std_ViewIvStereoOff/fr.md)
 ---
 
+# Std ViewIvStereoInterleavedColumns/fr
+
 ## Description
 
 La commande **Std Colonnes stéréo entrelacées** change le mode actif de la [vue 3D](3D_view/fr.md) en mode d\'affichage stéréo des colonnes entrelacées. Pour utiliser ce mode stéréo, une carte graphique spéciale, un écran spécial et des lunettes [avec verres polarisés](https://en.wikipedia.org/wiki/Polarized_3D_system) sont nécessaires.
@@ -42,4 +44,7 @@ FreeCADGui.ActiveDocument.ActiveView.getStereoType()
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std ViewIvStereoInterleavedColumns/fr

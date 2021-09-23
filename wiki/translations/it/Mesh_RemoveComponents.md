@@ -1,3 +1,4 @@
+# Mesh RemoveComponents/it
 ---
 - GuiCommand:/it
    Name:Mesh_RemoveComponents
@@ -47,4 +48,7 @@ Il comando **Rimuovi componenti** rimuove le facce dagli oggetti mesh.
 
 {{Mesh Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh RemoveComponents/it

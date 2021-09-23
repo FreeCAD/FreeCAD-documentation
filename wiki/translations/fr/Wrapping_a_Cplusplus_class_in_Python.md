@@ -1,7 +1,4 @@
 # Wrapping a Cplusplus class in Python/fr
-
-
-
 **Cet article est un article en cours. Merci d'y apporter vos connaissances!**
 
 
@@ -141,3 +138,6 @@ PyAPI_FUNC(int) PyArg_VaParseTupleAndKeywords (PyObject *, PyObject *, const cha
 }}
 
 [Category:Developer](Category:Developer.md) [Category:Developer Documentation](Category:Developer_Documentation.md)
+
+---
+[documentation index](../README.md) > [Developer](Category:Developer.md) > Wrapping a Cplusplus class in Python/fr

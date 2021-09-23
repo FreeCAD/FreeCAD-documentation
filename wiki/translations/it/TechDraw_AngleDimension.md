@@ -1,3 +1,4 @@
+# TechDraw AngleDimension/it
 ---
 - GuiCommand:/it   Name:TechDraw Dimension Angle   Name/it:Angolo   Workbenches:[MenuLocation:TechDraw → Angolo   Shortcut:   SeeAlso:[[TechDraw Dimension Angle3Pt/it|Angolo da tre punti](TechDraw_Workbench/it___TechDraw]].md)---
 
@@ -87,4 +88,7 @@ rc = page.addView(dim1)
 
 {{TechDraw Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw AngleDimension/it

@@ -1,5 +1,5 @@
 # Macro Rotate To Point/fr
- {{Macro/fr
+{{Macro/fr
 |Name=Macro Rotate To Point
 |Icon=Macro_Rotate_To_Point.svg
 |Description={{ColoredText|#ff0000|#ffffff|La version mise à jour de la macro a modifié l'interface graphique pour améliorer la prise en charge HiDPI (QGridLayout). Exécutez uniquement FC v0.18 ou supérieur (prenant en charge Qt5 et PySide2)}} <br/> <br/> Macro pour faire tourner un objet sur lui-même sur un axe de rotation: centre de la boîte, centre de masse, direction du fil ou dernier point cliqué. <br/> Vous pouvez sauvegarder les coordonnées travaillées dans un fichier coordonnées [(0.06,1.30,0.0),(85.0,0.0,0.0)] ou dans une macro complète pour créer une animation.<br/> <br/> Pour la version précédente (Qt4), voir [https://gist.githubusercontent.com/mario52a/2fc48333deca5a31e6232c29a9db5e4c/raw/9231d5b1d218357305cc0404e46bf6c107509a0e/Macro%2520Rotate%2520To%2520Point.FCMacro Macro_Rotate_To_Point Macro_Rotate_To_Point] et installez la manuellement.
@@ -2997,3 +2997,6 @@ myObject.Placement
 05/03/2017 ver 00.01 : ajout de 3 boîtes de dialogue pour afficher les coordonnées X Y Z au clic de souris
 
 04/03/2017 ver 00.00
+
+---
+[documentation index](../README.md) > Macro Rotate To Point/fr

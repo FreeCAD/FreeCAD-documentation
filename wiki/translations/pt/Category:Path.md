@@ -6,3 +6,6 @@ This category lists pages related to the [PartDesign Workbench/pt](PartDesign_Wo
 [Template:Path Tools navi/pt](Template:Path_Tools_navi/pt.md) , [Path Workbench/pt](Path_Workbench/pt.md)
 
 [Category:Workbenches/pt](Category:Workbenches/pt.md)
+
+---
+[documentation index](../README.md) > Category:Path/pt

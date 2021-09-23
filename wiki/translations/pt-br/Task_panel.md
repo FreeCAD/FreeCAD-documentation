@@ -1,5 +1,5 @@
 # Task panel/pt-br
- {{TOCright}}
+{{TOCright}}
 
 ## Introdução
 
@@ -54,4 +54,7 @@ Gui::Control().closeDialog();
 
 {{Interface navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > Task panel/pt-br

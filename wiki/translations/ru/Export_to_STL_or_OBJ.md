@@ -1,7 +1,4 @@
 # Export to STL or OBJ/ru
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -68,3 +65,6 @@ Method 2 is to be preferred. Among the reasons:
 
 
 [Category:File\_Formats](Category:File_Formats.md)
+
+---
+[documentation index](../README.md) > [File_Formats](Category:File_Formats.md) > Export to STL or OBJ/ru

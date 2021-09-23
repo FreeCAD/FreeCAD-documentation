@@ -6,6 +6,8 @@
    Workbenches:[OpenSCAD](OpenSCAD_Workbench/de.md)
 ---
 
+# OpenSCAD IncreaseToleranceFeature/de
+
 ## Beschreibung
 
 ## Beschreibung 
@@ -28,4 +30,7 @@ Erhöht die Toleranz von Kanten/Oberflächen von ausgewählten Objekten.
 
 {{OpenSCAD_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD IncreaseToleranceFeature/de

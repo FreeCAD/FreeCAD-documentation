@@ -6,3 +6,6 @@ This category collects pages from the [external workbenches](external_workbenche
 [Plot Module/cs](Plot_Module/cs.md) , [Ship Workbench/cs](Ship_Workbench/cs.md)
 
 [Category:Workbenches/cs](Category:Workbenches/cs.md) [Category:Addons/cs](Category:Addons/cs.md)
+
+---
+[documentation index](../README.md) > Category:External Workbenches/cs

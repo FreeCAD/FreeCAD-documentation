@@ -8,6 +8,8 @@
    SeeAlso:[Part 2D Offset](Part_Offset2D/ro.md)
 ---
 
+# Draft Offset/ro
+
 
 </div>
 
@@ -133,8 +135,5 @@ offset5 = Draft.offset(wire, 1.5*vector, copy=True, occ=True)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Offset/ro

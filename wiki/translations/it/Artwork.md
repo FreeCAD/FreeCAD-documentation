@@ -1,5 +1,5 @@
 # Artwork/it
-  Questi oggetti grafici sono stati creati per FreeCAD. Sono utilizzabili liberamente anche in altre applicazioni.
+Questi oggetti grafici sono stati creati per FreeCAD. Sono utilizzabili liberamente anche in altre applicazioni.
 
 Per contribuire alla realizzazione di icone, si prega di leggere prima le [linee guida per le opere grafiche](Artwork_Guidelines/it.md).
 
@@ -165,3 +165,6 @@ See [Artwork Erroneous](Artwork_Erroneous.md).
 }}
 
 [Category:Icon](Category:Icon.md) [Category:Developer Documentation](Category:Developer_Documentation.md)
+
+---
+[documentation index](../README.md) > [Icon](Category:Icon.md) > Artwork/it

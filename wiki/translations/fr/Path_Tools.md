@@ -1,10 +1,4 @@
 # Path Tools/fr
- 
-
-
-
-
-
 {{TOCright}}
 
 ## Description
@@ -135,4 +129,7 @@ Une fois que la forme de l\'outil (profil) souhaitée existe, vous devez créer 
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Tools/fr

@@ -1,3 +1,4 @@
+# Plot Save/ja
 ---
 - GuiCommand:/jp   Name:Plot Save   Workbenches:[[Plot Module   Plot]]|MenuLocation:Plot -> Save plot---
 
@@ -55,3 +56,6 @@ Plot Saveツールはアクテイブなプロットを希望した位置に保�
 }} 
 
 [Category:External\_Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)
+
+---
+[documentation index](../README.md) > [External_Workbenches](Category:External_Workbenches.md) > Plot Save/ja

@@ -7,6 +7,8 @@
    SeeAlso:[Draft OrthoArray](Draft_OrthoArray.md), [Draft CircularArray](Draft_CircularArray.md), [Draft PathArray](Draft_PathArray.md), [Draft PathLinkArray](Draft_PathLinkArray.md), [Draft PointArray](Draft_PointArray.md), [Draft PointLinkArray](Draft_PointLinkArray.md)
 ---
 
+# Draft PolarArray/pt-br
+
 ## Descrição
 
 The <img alt="" src=images/Draft_PolarArray.svg  style="width:24px;"> **Draft PolarArray** command creates an array from a selected object by placing copies along a circumference. The command can optionally create a [Link](App_Link.md) array, which is more efficient than a regular array.
@@ -144,5 +146,5 @@ doc.recompute()
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft PolarArray/pt-br

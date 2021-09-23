@@ -7,6 +7,8 @@
    SeeAlso:[Tutoriel FEM](FEM_tutorial/fr.md)
 ---
 
+# FEM MeshRegion/fr
+
 ## Description
 
 FEM Région de maillage MEF permet à l\'utilisateur de définir un ensemble localisé de paramètres de maillage en sélectionnant un ensemble d\'éléments (Vertex-points, Edge-arêtes, Face) et en lui appliquant les paramètres. Cette fonction est particulièrement utile pour affiner les maillages dans les zones d\'intérêt ou les zones où le solveur générera un gradient plus fort d\'une variable. Par exemple, elle peut être utilisée pour raffiner le maillage autour des points de contrainte (arêtes vives, cercles\...) en analyse mécanique, ou aux zones de contraction dans un écoulement de fluide.
@@ -54,4 +56,7 @@ L\'ordre dans lequel les régions sont affichées dans la [vue en arborescence](
 
 {{FEM Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > FEM MeshRegion/fr

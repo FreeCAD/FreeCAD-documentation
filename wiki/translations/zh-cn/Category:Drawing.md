@@ -6,3 +6,6 @@ This category lists pages related to the [Drawing Workbench/zh-cn](Drawing_Workb
 [Template:Drawing Tools navi/zh-cn](Template:Drawing_Tools_navi/zh-cn.md) , [Drawing Workbench/zh-cn](Drawing_Workbench/zh-cn.md)
 
 [Category:Obsolete Workbenches/zh-cn](Category:Obsolete_Workbenches/zh-cn.md)
+
+---
+[documentation index](../README.md) > Category:Drawing/zh-cn

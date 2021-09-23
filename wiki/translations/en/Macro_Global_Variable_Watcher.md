@@ -1,5 +1,5 @@
 # Macro Global Variable Watcher/en
- {{Macro
+{{Macro
 |Name=Macro Global Variable Watcher
 |Description=This macro displays the global variables within the FreeCAD system, (e.g. FreeCAD.myVariable).
 |Author=Piffpoof
@@ -336,6 +336,5 @@ form.exec_()
 #thus ends the macro...
 }}
 
-
-
-
+---
+[documentation index](../README.md) > Macro Global Variable Watcher/en

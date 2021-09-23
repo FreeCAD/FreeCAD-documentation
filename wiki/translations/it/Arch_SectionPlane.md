@@ -1,3 +1,4 @@
+# Arch SectionPlane/it
 ---
 - GuiCommand:/it
    Name:Arch SectionPlane
@@ -138,8 +139,5 @@ FreeCAD.ActiveDocument.recompute()
 
 </div>
 
-
-
-
-
-
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SectionPlane/it

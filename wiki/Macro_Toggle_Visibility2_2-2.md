@@ -1,5 +1,5 @@
 # Macro Toggle Visibility2 2-2
-  {{Macro
+{{Macro
 |Name=Macro Toggle Visibility2 2-2
 |translate=Macro Toggle Visibility2 2-2
 |Icon=Macro_VisibleAlls2.png
@@ -51,3 +51,5 @@ try:
 except Exception:
     None }}
 
+---
+[documentation index](../README.md) > Macro Toggle Visibility2 2-2

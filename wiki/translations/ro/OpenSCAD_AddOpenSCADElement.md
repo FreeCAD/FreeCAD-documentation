@@ -1,3 +1,4 @@
+# OpenSCAD AddOpenSCADElement/ro
 ---
 - GuiCommand:/ro   Nume:OpenSCAD_AddOpenSCADElement   Name/ro:OpenSCAD_AddOpenSCADElement   Workbenches:[[OpenSCAD Workbench/ro   OpenSCAD]]|MenuLocation:OpenSCAD → Add OpenSCAD Element---
 
@@ -79,4 +80,7 @@ Pornind de la FreeCAD Version 0.14, FreeCAD va căuta executabilul OpenSCAD dac�
 
 {{OpenSCAD_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD AddOpenSCADElement/ro

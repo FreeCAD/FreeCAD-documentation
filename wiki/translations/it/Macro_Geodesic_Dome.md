@@ -1,5 +1,5 @@
 # Macro Geodesic Dome/it
- {{Macro/it
+{{Macro/it
 |Name=Macro Geodesic Dome
 |Translate=Cupola Geodetica
 |Icon=Macro_Geodesic_Dome.svg
@@ -352,6 +352,5 @@ ToolBar Icon ![](images/Macro_Geodesic_Dome.svg )
 
 Il Forum [Designing geodesic dome](https://forum.freecadweb.org/viewtopic.php?t=9174)
 
-
-
-
+---
+[documentation index](../README.md) > Macro Geodesic Dome/it

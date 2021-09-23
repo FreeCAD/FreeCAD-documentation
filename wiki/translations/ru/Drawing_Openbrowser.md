@@ -7,6 +7,8 @@
    Shortcut:
 ---
 
+# Drawing Openbrowser/ru
+
 ## Description
 
 This command allows you to display a selected [Drawing page](Drawing_Landscape_A3.md) using FreeCAD\'s internal web browser. The normal Drawing page viewer of FreeCAD is based on [Qt\'s built-in SVG rendering module](http://qt-project.org/doc/qt-5.0/qtsvg/svgrendering.html), which only supports a tiny subset of the full SVG specification. As a result, some more advanced SVG features, such as pattern fills or multiline texts are not supported by this viewer. The FreeCAD internal web browser, however, is built on [webkit](http://en.wikipedia.org/wiki/WebKit), which is one of the best SVG renderers available, and will correctly render your page with all its features.
@@ -28,4 +30,7 @@ This command allows you to display a selected [Drawing page](Drawing_Landscape_A
 
 {{Drawing Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Openbrowser/ru

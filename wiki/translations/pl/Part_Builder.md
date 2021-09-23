@@ -7,6 +7,8 @@
    SeeAlso:[Utwórz bryłę pierwotną](Part_CreatePrimitives/pl.md)
 ---
 
+# Part Builder/pl
+
 ## Opis
 
 Narzędzie to służy do tworzenia bardziej złożonych kształtów z różnych geometrycznych prymitywów parametrycznych.
@@ -66,8 +68,5 @@ Jednym z możliwych rozwiązań może być przepływ pracy:
 -   Utwórz powłokę na powierzchni.
 -   Utwórz bryłę z powłoki.
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Builder/pl

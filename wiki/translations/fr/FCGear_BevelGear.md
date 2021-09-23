@@ -7,6 +7,8 @@
    Version:v0.16
 ---
 
+# FCGear BevelGear/fr
+
 ## Description
 
 Les engrenages coniques ne sont pas utilisés aussi souvent que les autres types d\'engrenages, en partie à cause du bruit qu\'ils génèrent. Mais ils sont encore utilisés dans certains secteurs, tels que les emballages alimentaires et les aliments en conserve, les équipements de jardin et de pelouse, les machines telles que les perceuses et les broyeurs, les systèmes de compression pour le marché du gaz et du pétrole et les vannes de régulation de débit.
@@ -106,3 +108,6 @@ Angle du cône de référence substantiel \[TECH.\]
 
 
 [Category:Addons](Category:Addons.md) [Category:FCGear](Category:FCGear.md) [Category:External Command Reference](Category:External_Command_Reference.md)
+
+---
+[documentation index](../README.md) > [Addons](Category:Addons.md) > FCGear BevelGear/fr

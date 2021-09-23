@@ -7,6 +7,8 @@
    SeeAlso:[Part Objekt verbinden](Part_JoinConnect/de.md), [Part Objekt einbinden](Part_JoinEmbed/de.md), [Part Bool'sche Operationen](Part_Boolean/de.md), [Part Dicke](Part_Thickness/de.md)
 ---
 
+# Part JoinCutout/de
+
 
 </div>
 
@@ -95,5 +97,5 @@ Das Werkzeug selbst ist in Python implementiert, siehe {{FileName|/Mod/Part/Join
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part JoinCutout/de

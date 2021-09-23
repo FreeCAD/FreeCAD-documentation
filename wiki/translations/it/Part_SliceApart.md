@@ -7,6 +7,8 @@
    SeeAlso:[Affetta in composto](Part_Slice/it.md), [Esplodi il composto](Part_ExplodeCompound/it.md)
 ---
 
+# Part SliceApart/it
+
 
 </div>
 
@@ -77,5 +79,5 @@ Affetta in parti è stato introdotto in FreeCAD v0.18.15506. FreeCAD deve essere
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part SliceApart/it

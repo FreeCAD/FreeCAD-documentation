@@ -6,6 +6,8 @@
    MenuLocation:Drawing → Project shape
 ---
 
+# Drawing ProjectShape/ro
+
 
 </div>
 
@@ -108,4 +110,7 @@ Acest instrument creează o proiecți a obiectului selectate (Source) în the 3D
 
 {{Drawing Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing ProjectShape/ro

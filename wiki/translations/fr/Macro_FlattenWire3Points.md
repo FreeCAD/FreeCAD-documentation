@@ -1,5 +1,5 @@
 # Macro FlattenWire3Points/fr
- {{Macro/fr
+{{Macro/fr
 |Name=FlattenWire3Points
 |Icon=Macro_FlattenWire3Points.png
 |Description=Cette macro aplatit les fils (Wire) du projet qui ne sont pas plan à la médiane de leurs coordonnées z
@@ -55,3 +55,5 @@ Icône de la barre d\'outils ![](images/Macro_FlattenWire3Points.png )
     sel.Object.Points = points
 }}
 
+---
+[documentation index](../README.md) > Macro FlattenWire3Points/fr

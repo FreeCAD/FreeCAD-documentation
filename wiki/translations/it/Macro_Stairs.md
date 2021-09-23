@@ -1,5 +1,5 @@
 # Macro Stairs/it
- {{Macro/it
+{{Macro/it
 |Name=Macro Stairs
 |Translate=Scala a chiocciola
 |Icon=Macro_Stairs.png
@@ -111,6 +111,5 @@ FreeCAD.ActiveDocument.recompute()
 
 La discussione nel forum [Newbie question - spiral stairs reloaded](http://forum.freecadweb.org/viewtopic.php?f=3&t=9921)
 
-
-
-
+---
+[documentation index](../README.md) > Macro Stairs/it

@@ -8,6 +8,8 @@
    SeeAlso:[Part Connecter un objet](Part_JoinConnect/fr.md), [Part Intégrer l'objet](Part_JoinEmbed/fr.md), [Part Découpe de l'objet](Part_JoinCutout/fr.md), [Part Opérations Booléennes](Part_Boolean/fr.md), [Part Évidement ou coque](Part_Thickness/fr.md)
 ---
 
+# Part CompJoinFeatures/fr
+
 ## Description
 
 Cette commande est un bouton de la barre d\'outils déroulante contenant tous les outils de jointure. Voir les pages d\'outils individuelles pour plus d\'informations.
@@ -23,8 +25,5 @@ Cette commande est un bouton de la barre d\'outils déroulante contenant tous le
 <img alt="" src=images/JoinFeatures_demo.png  style="width:668px;"> 
 *Ci-dessus : montrant le résultat de chaque outil disponible*
 
-
-
-
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompJoinFeatures/fr

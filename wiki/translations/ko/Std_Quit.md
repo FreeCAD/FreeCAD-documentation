@@ -8,6 +8,8 @@
    SeeAlso:[표준 닫기](Std_CloseActiveWindow/ko.md)
 ---
 
+# Std Quit/ko
+
 ## 설명
 
 **표준 닫기(Std Quit)** 명령은 FreeCAD 애플리케이션을 닫고 필요한 경우 저장하지 않은 문서를 저장합니다.
@@ -36,4 +38,7 @@
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std Quit/ko

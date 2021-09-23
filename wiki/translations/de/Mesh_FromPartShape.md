@@ -6,6 +6,8 @@
    Workbenches:[Polygonnetz](Mesh_Workbench/de.md)
 ---
 
+# Mesh FromPartShape/de
+
 ## Beschreibung
 
 Der Befehl **Netz\_AusTeilForm** erzeugt nicht-parametrische [Polygonnetz](Mesh/de.md) Objekte ([Polygonnetz Formelemente](Mesh_Feature/de.md)) aus [Form](shape/de.md) Objekten ([Part Formelemente](Part_Feature/de.md)).
@@ -166,4 +168,7 @@ msh.ViewObject.DisplayMode = "Flat Lines"
 
 {{Mesh Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh FromPartShape/de

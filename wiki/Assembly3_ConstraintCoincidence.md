@@ -6,6 +6,8 @@
    Workbenches:[Assembly3](Assembly3_Workbench.md)
 ---
 
+# Assembly3 ConstraintCoincidence
+
 ## Description
 
 This tool links two or more objects of an assembly and matches their orientations. The selected elements of each object or more precisely their implicit coordinate systems (ICSs) are used to position one object in relation to another.
@@ -26,7 +28,5 @@ The rotation can be stopped by switching Lock Angle to true in the properties pa
 2.  Select one planar face element of each object.
 3.  Press the **<img src="images/Assembly_ConstraintCoincidence.svg" width=16px> [Plane Coincidence](Assembly3_ConstraintCoincidence.md)** button.
 
-
-
-
- 
+---
+[documentation index](../README.md) > Assembly3 ConstraintCoincidence

@@ -7,6 +7,8 @@
    Version:0.15
 ---
 
+# Sketcher SelectHorizontalAxis/pl
+
 ## Description
 
 Selects the horizontal axis of a sketch.
@@ -23,4 +25,7 @@ Selects the horizontal axis of a sketch.
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectHorizontalAxis/pl

@@ -9,6 +9,8 @@
    SeeAlso:[Draft Ligne](Draft_Line/fr.md), [Draft B-spline](Draft_BSpline/fr.md)
 ---
 
+# Draft Wire/fr
+
 ## Description
 
 La commande <img alt="" src=images/Draft_Wire.svg  style="width:24px;"> **Draft Polyligne** [crée](#Cr.C3.A9er.md) une polyligne, une séquence de plusieurs segments de ligne connectés. La commande peut aussi être utilisée pour [joint](#Joindre.md) des [Draft Lignes](Draft_Line/fr.md) et des Draft Polylignes.
@@ -163,8 +165,5 @@ wire3 = Draft.make_wire([1.3*p3, p1, -1.7*p2], closed=True)
 doc.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Wire/fr

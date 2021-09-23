@@ -7,6 +7,8 @@
    SeeAlso:[Konstruktor kształtu](Part_Builder/pl.md)
 ---
 
+# Part Primitives/pl
+
 ## Opis
 
 Narzędzie [Bryły pierwotne](Part_Primitives/pl.md) otwiera okno dialogowe do tworzenia dowolnych parametrycznych geometrycznych elementów pierwotnych zdefiniowanych w środowisko pracy <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Część](Part_Workbench/pl.md).
@@ -85,8 +87,5 @@ Można go również wykorzystać jako dane wejściowe do programu.
 freecad $INSTALL_DIR/Mod/Part/parttests/part_test_objects.py
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Primitives/pl

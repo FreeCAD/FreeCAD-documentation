@@ -7,6 +7,8 @@
    SeeAlso:[Вставить Вид](TechDraw_View/ru.md), [Вставить Вид сечения](TechDraw_SectionView/ru.md)
 ---
 
+# TechDraw ProjectionGroup/ru
+
 ## Описание
 
 The <img alt="" src=images/TechDraw_ProjectionGroup.svg  style="width:24px;"> [ProjectionGroup](TechDraw_ProjectionGroup.md) tool creates a [multiview projection](https://en.wikipedia.org/wiki/Multiview_projection) of one or more 3D objects. The isometric views of the 4 front corners can also be included.
@@ -96,4 +98,7 @@ Programming note: The Projection Group should always be added to the Page (ex. p
 
 {{TechDraw Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ProjectionGroup/ru

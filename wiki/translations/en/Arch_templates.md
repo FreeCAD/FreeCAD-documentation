@@ -1,5 +1,5 @@
 # Arch templates/en
- This page lists the templates according to American National Standards Institute [ANSI](http://en.wikipedia.org/wiki/American_National_Standards_Institute) standard
+This page lists the templates according to American National Standards Institute [ANSI](http://en.wikipedia.org/wiki/American_National_Standards_Institute) standard
 
 ### Arch A 
 
@@ -92,3 +92,6 @@
 The templates are drawn by [Quick61](User:Quick61.md) and listed [FreeCAD-Drawing-Templates](https://github.com/quick61/FreeCAD-Drawing-Templates).
 
 [Category:Documentation](Category:Documentation.md) [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Drawing](Category:Drawing.md)
+
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch templates/en

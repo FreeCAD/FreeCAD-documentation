@@ -9,6 +9,8 @@
    SeeAlso:[PartDesign CompPrimitiveSubtractive](PartDesign_CompPrimitiveSubtractive/ro.md)
 ---
 
+# PartDesign CompPrimitiveAdditive/ro
+
 
 </div>
 
@@ -39,4 +41,7 @@ Creează o primitivă geometrică aditivă în Corpul activ ca primă funcție(o
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign CompPrimitiveAdditive/ro

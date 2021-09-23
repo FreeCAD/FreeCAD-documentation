@@ -7,6 +7,8 @@
    SeeAlso:[Шаблоны](TechDraw_Templates/ru.md), [Draft SVG](Draft_SVG/ru.md)
 ---
 
+# TechDraw ExportPageSVG/ru
+
 ## Описание
 
 The ExportPageSVG tool saves the current drawing page as an [SVG](SVG.md) file.
@@ -43,4 +45,7 @@ Note that the FreeCADGui module must be active to use this function.
 
 {{TechDraw Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExportPageSVG/ru

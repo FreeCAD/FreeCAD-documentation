@@ -7,6 +7,8 @@
    SeeAlso:[Riempi i buchi](Mesh_FillupHoles/it.md), [Chiudi il buco](Mesh_FillInteractiveHole/it.md)
 ---
 
+# Mesh AddFacet/it
+
 ## Descrizione
 
 The **Mesh AddFacet** command adds faces along a boundary of an open mesh object. It can be used to fill holes.
@@ -54,4 +56,7 @@ The **Mesh AddFacet** command adds faces along a boundary of an open mesh object
 
 {{Mesh Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh AddFacet/it

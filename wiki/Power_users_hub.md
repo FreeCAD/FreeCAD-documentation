@@ -1,5 +1,4 @@
-# Power users hub
- <img alt="" src=images/Power_user_hub.png  style="width:64px;">
+# <img alt="" src=images/Power_user_hub.png  style="width:64px;"> Power users hub
 
 ------------------------------------------------------------------------
 
@@ -132,3 +131,6 @@ On the [Community portal](FreeCAD_Community_Portal.md), you can find other FreeC
  {{Powerdocnavi}}
 
 [Category:Hubs](Category:Hubs.md)
+
+---
+[documentation index](../README.md) > [Hubs](Category:Hubs.md) > Power users hub

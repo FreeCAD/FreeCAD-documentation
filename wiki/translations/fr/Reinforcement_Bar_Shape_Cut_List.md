@@ -8,6 +8,8 @@
    SeeAlso:[Reinforcement](Reinforcement_Workbench/fr.md), [Arch Rebar Dimensions dessins](Arch_Rebar_Drawing_Dimensioning/fr.md), [Arch Rebar Nomenclature](Arch_Rebar_BOM/fr.md)
 ---
 
+# Reinforcement Bar Shape Cut List/fr
+
 ## Description
 
 L\'outil [Rebar Shape Cut List](Reinforcement_Bar_Shape_Cut_List/fr.md) permet à l\'utilisateur de créer une nomenclature de façonnage des armatures.
@@ -400,3 +402,6 @@ RebarShapeCutListfunc.getRebarShapeCutList(
 
 
 [Category:External Command Reference](Category:External_Command_Reference.md) [Category:Reinforcement](Category:Reinforcement.md)
+
+---
+[documentation index](../README.md) > [External Command Reference](Category:External Command Reference.md) > Reinforcement Bar Shape Cut List/fr

@@ -1,7 +1,4 @@
 # Release notes 0.17/es
-
-
-
 <div id="itsfree" style="text-align:left;color:black;background:#f6f6f6;margin:1em 7em;padding:0.5em 2em;border:2px solid #a7d7f9;">
 
 \"Esta edición de FreeCad está dedicada a nuestro amigo Roland Frank [quien nos dejó el 2017](https://forum.freecadweb.org/viewtopic.php?f=8&t=25673). Él fue un activo y muy apreciado miembro del foro de FreeCAD. Además sus video-tutoriales en los canales de Youtube [Learn FreeCAD](https://www.youtube.com/watch?v=_HEvhclR4-o&list=PL6fZ68Cq3L8k0JhxnIVjZQN26cn9idJrj) y [BPLFRE](https://www.youtube.com/watch?v=m49z0weonog&list=PLsrwVwvqYb8G4Ri0iz1JIebsOXkgoytAY) ayudaron a muchas personas a iniciarse en FreeCAD.\"
@@ -389,3 +386,6 @@ Algunos de los nuevos módulos de comunidad que se crearon.
 -   [Kicad StepUp Workbench](https://www.freecadweb.org/wiki/KicadStepUp_Workbench) está destinado a ayudar a los usuarios de KiCad y FreeCAD en la colaboración ECAD y MCAD.
 
 [Category:News](Category:News.md) [Category:Documentation](Category:Documentation.md) [Category:Releases](Category:Releases.md)
+
+---
+[documentation index](../README.md) > [News](Category:News.md) > Release notes 0.17/es

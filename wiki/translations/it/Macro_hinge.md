@@ -1,5 +1,5 @@
 # Macro hinge/it
- {{Macro/it
+{{Macro/it
 |Name=Hinge Simul
 |Icon=Macro hinge.png
 |Translate=Hinge Simul
@@ -60,4 +60,7 @@ for ii2 in range(180):
 
 ## Link
 
-La pagina della discussione: [Struggling with LinearPattern (again)](http://forum.freecadweb.org/viewtopic.php?f=3&t=7606&p=62086#p62086) 
+La pagina della discussione: [Struggling with LinearPattern (again)](http://forum.freecadweb.org/viewtopic.php?f=3&t=7606&p=62086#p62086)
+
+---
+[documentation index](../README.md) > Macro hinge/it

@@ -8,6 +8,8 @@
    SeeAlso:[Sketcher Contrainte dimensionnelle](Sketcher_ConstrainDistance/fr.md), [Sketcher Contrainte perpendiculaire](Sketcher_ConstrainPerpendicular/fr.md)
 ---
 
+# Sketcher ConstrainAngle/fr
+
 ## Description
 
 La Contrainte d\'Angle est une [Donnée de contrainte](Sketcher_Workbench/fr#Contraintes_d'esquisse.md) destinée à fixer les angles sur le croquis. Elle est capable de fixer des pentes de lignes individuelles, les angles entre les lignes, les angles des intersections de courbes, et l\'espace d\'angles d\'arcs circulaires
@@ -105,4 +107,7 @@ La page [Sketcher : Écrire des scripts](Sketcher_scripting/fr.md) explique les 
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainAngle/fr

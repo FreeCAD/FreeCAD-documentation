@@ -1,3 +1,4 @@
+# Sketcher Trimming/sv
 ---
 - GuiCommand:/sv   Name:Sketcher Trimming   Name/sv:Sketcher Trimming   Workbenches:[PartDesign](Sketcher_Workbench/sv___Sketcher]],_[[PartDesign_Workbench/sv.md)|Shortcut:T   MenuLocation:Sketch → Sketcher geometries → Trim edge---
 
@@ -27,4 +28,7 @@ This tool trims an edge to the nearest overlapping edge.
 
 {{Sketcher Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Trimming/sv

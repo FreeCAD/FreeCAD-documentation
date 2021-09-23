@@ -7,6 +7,8 @@
    SeeAlso:[Part Boolean](Part_Boolean/ru.md), [Part Cut](Part_Cut/ru.md), [Part Fuse](Part_Fuse/ru.md)
 ---
 
+# Part Common/ru
+
 
 </div>
 
@@ -23,8 +25,5 @@ Extracts the common part (intersection) between selected Part objects. This oper
 
 Input objects must be [OpenCascade](OpenCascade.md) shapes. Examples: stuff made with Part, PartDesign, Sketcher workbenches. Not meshes (unless those were converted to shapes) - for meshes, there are specific Boolean tools in MeshDesign workbench.
 
-
-
-
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Common/ru

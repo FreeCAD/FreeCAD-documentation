@@ -1,10 +1,4 @@
 # Advanced TechDraw Tutorial/fr
-
-
-
-
-
-
 {{TutorialInfo
 |Topic=Modélisation
 |Level=Utilisateur expérimenté
@@ -92,4 +86,7 @@ Cependant, le chemin décrit pourrait représenter le point de départ (ou l\'id
 
 {{Tutorials navi
 
-}} {{TechDraw Tools navi}} 
+}} {{TechDraw Tools navi}}
+
+---
+[documentation index](../README.md) > Advanced TechDraw Tutorial/fr

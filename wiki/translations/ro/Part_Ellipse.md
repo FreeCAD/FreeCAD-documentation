@@ -1,3 +1,4 @@
+# Part Ellipse/ro
 ---
 - GuiCommand:   Name:Part Ellipse   MenuLocation:Part → [Workbenches:[[Part Workbench   Part](Part_CreatePrimitives___Create_Primitives]]_→_Ellipse.md),  [OpenSCAD](OpenSCAD_Workbench.md)|SeeAlso:..---
 
@@ -33,8 +34,5 @@ Dialogul Create Primitives pote fi accesat via iconiței [CreatePrimitives](Part
 -   **Angle 1:** pornește muchia elipsei sau curba eliptică, (grade, sens antiorar/trigonometric), valaorea implicită este 0
 -   **Angle 2:** încheierea muchiei elipsei sau curbei eliptice, (exprimate în grade, sens antiorar), valoarea implictă este 360
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Ellipse/ro

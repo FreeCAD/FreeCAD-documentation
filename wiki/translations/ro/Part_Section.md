@@ -1,3 +1,4 @@
+# Part Section/ro
 ---
 - GuiCommand:   Name:Part Section   MenuLocation:Part → Section   Workbenches:[Complete](Part_Workbench___Part]],_[[Complete_Workbench.md)|SeeAlso:[Cross-sections](Part_SectionCross.md)---
 
@@ -54,8 +55,5 @@ To create sections with a section plane see [Cross-sections](Part_SectionCross.m
 
 </div>
 
-
-
-
-
-  
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Section/ro

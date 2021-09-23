@@ -8,6 +8,8 @@
    SeeAlso:[Distanza Orizzontale](Sketcher_ConstrainDistanceX/it.md), [Distanza Verticale](Sketcher_ConstrainDistanceY/it.md)
 ---
 
+# Sketcher ConstrainDistance/it
+
 
 </div>
 
@@ -96,4 +98,7 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 {{Sketcher Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainDistance/it

@@ -1,10 +1,4 @@
 # Path Preferences/de
-
-
-
-
-
-
 {{TOCright}}
 
 ## Übersicht
@@ -46,3 +40,6 @@ Es gibt drei Abschnitte: Allgemein, Nachbearbeiter und Einrichtung.
 }} 
 
 [Category:Preferences](Category:Preferences.md)
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Preferences/de

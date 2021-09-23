@@ -1,5 +1,5 @@
 # Macro FC Convert Lines/it
- {{Macro/it
+{{Macro/it
 |Name=Macro FC Convert Lines
 |Translate=Converti Linee
 |Icon=Macro_FCConvertLines.png
@@ -196,3 +196,6 @@ ver 00.02 18/02/2016
 ver 00.01 19/01/2016
 
 ver 00.00 19/01/2016
+
+---
+[documentation index](../README.md) > Macro FC Convert Lines/it

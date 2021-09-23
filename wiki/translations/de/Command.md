@@ -1,6 +1,4 @@
 # Command/de
-
-
 ## Einführung
 
 
@@ -101,3 +99,6 @@ Siehe [Linienzeichungsfunktion](Line_drawing_function/de.md).
 }}
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md) [Category:Glossary](Category:Glossary.md)
+
+---
+[documentation index](../README.md) > [Command Reference/de|Liste aller Befehle]]-Seite erscheint. Befehle können über eine Werkzeugleisten-Schaltfläche, einen Menüpunkt, oder aus einem ](Category:Command Reference/de|Liste aller Befehle]]-Seite erscheint. Befehle können über eine Werkzeugleisten-Schaltfläche, einen Menüpunkt, oder aus einem .md) > Command/de

@@ -7,6 +7,8 @@
    SeeAlso:[Arch SchneideLinie](Arch_CutLine/de.md), [Arch Entfernen](Arch_Remove/de.md)
 ---
 
+# Arch CutPlane/de
+
 ## Beschreibung
 
 Das Schnittebenen Werkzeug ermöglicht dir ein Arch Objekt entsprechend einer Ebene schneiden:
@@ -93,8 +95,5 @@ cutObj2 = Arch.cutComponentwithPlane(main_object2, cut_face2, 1)
 FreeCAD.ActiveDocument.recompute()
 ```
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CutPlane/de

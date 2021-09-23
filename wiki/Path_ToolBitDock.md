@@ -8,6 +8,8 @@
    SeeAlso:[Path ToolBitLibraryOpen](Path_ToolBitLibraryOpen.md), [Path Tools](Path_Tools.md), [Path ToolBit](Path_ToolBit.md)
 ---
 
+# Path ToolBitDock
+
 ## Description
 
  ![](images/Toolbit_Dock.png ) 
@@ -41,4 +43,7 @@ A manager button at the top right (4) allows the user to launch the library mana
 
 
 
- {{Path_Tools_navi}} 
+ {{Path_Tools_navi}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path ToolBitDock

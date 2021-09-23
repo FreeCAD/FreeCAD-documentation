@@ -5,6 +5,8 @@
    Workbenches:[Assembly3](Assembly3_Workbench.md)
 ---
 
+# Assembly3 ConstraintLock/de
+
 ## Beschreibung
 
 Dieses Werkzeug verbindet ein Objekt mit dem globalen Koordinatensystem (GKS) unter Verwendung des lokalen Koordinatensystems (LKS) eines ausgewählten Elements.
@@ -27,8 +29,5 @@ Dies kann genutzt werden, um ein unbewegliches Set zu definieren, sowohl für ei
 2.  Ein Element des Objekts auswählen.
 3.  Den **<img src="images/Assembly_ConstraintLock.svg" width=16px> [Festsetzen](Assembly3_ConstraintLock.md)** Knopf drücken.
 
-
-
-
-
-
+---
+[documentation index](../README.md) > Assembly3 ConstraintLock/de

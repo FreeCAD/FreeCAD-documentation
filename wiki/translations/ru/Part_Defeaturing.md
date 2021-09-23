@@ -7,6 +7,8 @@
    Version:0.18
 ---
 
+# Part Defeaturing/ru
+
 
 </div>
 
@@ -46,5 +48,5 @@ To be available, this tool requires FreeCAD to be based on Open Cascade 7.3.0 or
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Defeaturing/ru

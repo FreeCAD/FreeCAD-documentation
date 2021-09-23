@@ -1,6 +1,4 @@
 # LGTM/fr
-
-
 ## Vue d\'ensemble 
 
 
@@ -63,3 +61,6 @@ En outre, certaines classifications (telles que \"modèle\" et \"test\") sont ut
 -   freecad.trails .lgtm.yml sur [Github](https://github.com/joelgraff/freecad.trails/blob/dev/.lgtm.yml)
 
 [Category:Developer](Category:Developer.md) [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Testing](Category:Testing.md)
+
+---
+[documentation index](../README.md) > [Developer](Category:Developer.md) > LGTM/fr

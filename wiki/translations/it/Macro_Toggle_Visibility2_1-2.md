@@ -1,5 +1,5 @@
 # Macro Toggle Visibility2 1-2/it
- {{Macro/it
+{{Macro/it
 |Name=Toggle Visibility2 1-2
 |Translate=Commuta visibilità
 |Icon=Macro SelectVisible2.png
@@ -89,3 +89,6 @@ Seconda macro [Macro Toggle Visibility2 2-2](Macro_Toggle_Visibility2_2-2/it.md)
 La discussione sul forum [Re: Proposal: select one or more pieces, hide the others.](https://forum.freecadweb.org/viewtopic.php?f=8&t=13152&start=10#p184056)
 
 Idea originale [Macro\_Toggle\_Visibility](https://www.freecadweb.org/wiki/index.php?title=Macro_Toggle_Visibility)
+
+---
+[documentation index](../README.md) > Macro Toggle Visibility2 1-2/it

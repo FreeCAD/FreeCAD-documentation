@@ -7,6 +7,8 @@
    SeeAlso:[Draft Définir le style](Draft_SetStyle/fr.md)
 ---
 
+# Draft ApplyStyle/fr
+
 ## Description
 
 La commande <img alt="" src=images/Draft_ApplyStyle.svg  style="width:24px;"> **Draft Appliquer le style** applique les paramètres de style en cours aux objets sélectionnés.
@@ -38,8 +40,5 @@ Cette commande ne gère actuellement que cinq des paramètres proposés par la c
 
 -   Dans la version 0.20 de FreeCAD, la commande [Draft Définir le style](Draft_SetStyle/fr.md) peut également appliquer les paramètres.
 
-
-
-
-
- 
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ApplyStyle/fr

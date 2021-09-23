@@ -1,10 +1,4 @@
 # Robot Workbench/fr
-
-
-
-
-
-
 **L'atelier Robot n'est plus maintenu. Si vous avez de l'expérience avec le sujet et que vous souhaitez le maintenir, veuillez indiquer votre intention dans la section développeur du [https://forum.freecadweb.org/index.php forum FreeCAD].
 
 La raison pour laquelle cet atelier se trouve toujours dans le code source principal est que cet atelier est programmé en C++. Si cet atelier pouvait être programmé en Python, alors il pourrait être transformé en [atelier externe](external_workbenches/fr.md) et il pourrait être déplacé vers un référentiel distinct.
@@ -81,3 +75,6 @@ Voir [Robot API exemple](Robot_API_example/fr.md) pour une description des fonct
 }} 
 
 [Category:Workbenches](Category:Workbenches.md)
+
+---
+[documentation index](../README.md) > Robot Workbench/fr

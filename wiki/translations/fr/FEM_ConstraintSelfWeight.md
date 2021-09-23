@@ -7,6 +7,8 @@
    SeeAlso:[Tutoriel FEM](FEM_tutorial/fr.md)
 ---
 
+# FEM ConstraintSelfWeight/fr
+
 ## Description
 
 La contrainte de son propre poids est définie par l\'accélération gravitationnelle de 9,81 m/s\^2 qui agit sur l\'ensemble du modèle dans la direction prescrite.
@@ -66,4 +68,7 @@ Eall,GRAV,9810,0.0,0.0,-1.0
 
 {{FEM Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > FEM ConstraintSelfWeight/fr

@@ -1,3 +1,4 @@
+# OpenSCAD ReplaceObject/de
 ---
 - GuiCommand:/de   Name:OpenSCAD ReplaceObject   Name/de:Objekt ersetzen   MenuLocation:OpenSCAD → Objekt ersetzen   |Workbenches:[[OpenSCAD_Workbench/de   OpenSCAD]]|Shortcut:   SeeAlso:---
 
@@ -55,4 +56,7 @@ Man kann dieses Werkzeug zum Beispiel nutzen, um ein Teil innerhalb einer Fusion
 
 {{OpenSCAD_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD ReplaceObject/de

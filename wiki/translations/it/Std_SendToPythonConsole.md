@@ -8,6 +8,8 @@
    Version:0.19
 ---
 
+# Std SendToPythonConsole/it
+
 ## Descrizione
 
 Il comando **Invia alla console Python** crea una variabile nel [console Python](Python_console/it.md) che fa riferimento a un oggetto selezionato. Se viene selezionata una sottoforma dell\'oggetto, vengono create due variabili aggiuntive, una che fa riferimento alla forma dell\'oggetto e l\'altra che fa riferimento alla sottoforma stessa. Le variabili e il codice in questione possono essere utilizzati per sviluppare il codice Python.
@@ -41,4 +43,7 @@ Il comando **Invia alla console Python** crea una variabile nel [console Python]
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std SendToPythonConsole/it

@@ -1,3 +1,4 @@
+# Part Point/it
 ---
 - GuiCommand:/it   Name:Part_Point   Name/it:Punto   MenuLocation:Parte → [Workbenches:[[Part_Workbench/it   Parte](Part_CreatePrimitives/it___Crea_primitive]]_→_Punto.md)|SeeAlso:[Crea primitive](Part_CreatePrimitives/it.md)---
 
@@ -98,4 +99,7 @@ Una primitiva geometrica Punto (vertice).
 
 {{Part_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Point/it

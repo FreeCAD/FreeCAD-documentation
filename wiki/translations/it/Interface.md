@@ -1,5 +1,5 @@
 # Interface/it
- {{TOCright}}
+{{TOCright}}
 
 ## Introduzione
 
@@ -85,4 +85,7 @@ Queste opzioni sono nel menu **Strumenti → Personalizza**. Vedere [Personalizz
 
 {{Interface navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > Interface/it

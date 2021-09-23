@@ -9,6 +9,8 @@
    SeeAlso:
 ---
 
+# Ship Outline/es
+
 ## Descripción
 
 Dibuja el contorno del casco del barco
@@ -107,4 +109,7 @@ Outline draw plot.
 
 {{Ship_Tools_navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Ship Outline/es

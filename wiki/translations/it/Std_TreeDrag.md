@@ -7,6 +7,8 @@
    Shortcut:**T** **D**
 ---
 
+# Std TreeDrag/it
+
 
 </div>
 
@@ -36,4 +38,7 @@ Il comando **Avvia il trascinamento** avvia un\'operazione di trascinamento per 
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std TreeDrag/it

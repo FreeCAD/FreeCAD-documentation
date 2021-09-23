@@ -6,3 +6,6 @@ This category contains all documents that relate to the Wiki.
 [Localisation/ko](Localisation/ko.md)
 
 [Category:Administration/ko](Category:Administration/ko.md) [Category:Categories/ko](Category:Categories/ko.md) [Category:Documentation/ko](Category:Documentation/ko.md)
+
+---
+[documentation index](../README.md) > Category:Wiki/ko

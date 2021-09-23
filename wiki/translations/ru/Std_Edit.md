@@ -6,6 +6,8 @@
    Workbenches:Все
 ---
 
+# Std Edit/ru
+
 ## Описание
 
 Команда **Редактировать/закончить редактирование** позволяет переключать объект в режим редактирования и обратно.
@@ -61,4 +63,7 @@ FreeCADGui.ActiveDocument.resetEdit()
 
 {{Std Base navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > Std Edit/ru

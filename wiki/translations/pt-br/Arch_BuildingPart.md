@@ -7,6 +7,8 @@
    SeeAlso:[Arch Building](Arch_Building.md), [Arch Site](Arch_Site.md)
 ---
 
+# Arch BuildingPart/pt-br
+
 ## Descrição
 
 The BuildingPart replaces the old [Arch Floor](Arch_Floor.md) and [Arch Building](Arch_Building.md) with a more capable version that can be used not only to create Floor/Storey/Levels but also all kinds of situations where different Arch/BIM objects need to be grouped and that group might need to be handled as one object or replicated.
@@ -135,5 +137,5 @@ FreeCAD.ActiveDocument.recompute()
 
 </div>
 
-
- 
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch BuildingPart/pt-br

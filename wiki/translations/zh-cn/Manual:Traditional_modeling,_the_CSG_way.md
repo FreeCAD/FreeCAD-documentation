@@ -1,7 +1,4 @@
 # Manual:Traditional modeling, the CSG way/zh-cn
- 
-
-
 {{Manual:TOC/zh-cn}}
 
 CSG 代表[构造实体几何](https://en.wikipedia.org/wiki/Constructive_solid_geometry)，描述了使用实体 3D 几何的最基本方式，即使用诸如并集、差集、或交集之类的布尔运算，向实体对象添加和移除部分实体，达成创建复杂对象的目的。
@@ -176,3 +173,6 @@ FreeCAD 的另一个特点是 3D 对象的概念和 3D 操作的概念 倾向于
 
 
 [Category:Tutorials/zh-cn](Category:Tutorials/zh-cn.md)
+
+---
+[documentation index](../README.md) > Manual:Traditional modeling, the CSG way/zh-cn

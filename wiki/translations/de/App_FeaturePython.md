@@ -1,6 +1,4 @@
 # App FeaturePython/de
-
-
 ## Einführung
 
 Ein <img alt="" src=images/Feature.svg  style="width:32px;"> [Anwendung FormelementPython](App_FeaturePython/de.md) Objekt oder formal ein `App::FeaturePython`, ist eine einfache Instanz des [Anwendung DokumentObjekt](App_DocumentObject/de.md) in [Python](Python/de.md).
@@ -95,4 +93,7 @@ Wenn das gewünschte Objekt eine Platzierung, eine Form, einen Anhang oder ander
 
 {{Document objects navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > App FeaturePython/de

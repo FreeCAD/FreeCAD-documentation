@@ -6,6 +6,8 @@
    Shortcut:**P** **X **
 ---
 
+# Path OpActiveToggle/it
+
 ## Descrizione
 
 The **<img src="images/Path_OpActiveToggle.svg" width=24px> [Active](Path_OpActiveToggle.md)** tool in the <img alt="" src=images/Workbench_Path.svg  style="width:24px;"> [Path Workbench](Path_Workbench.md) is used to toggle the active state of an existing path operation. This tool is not available, indicated as a light gray version of the icon, until you have created one or more path operations. Once your <img alt="" src=images/Path_Job.svg  style="width:24px;"> [Job](Path_Job.md) has at least one path operation the icon will be fully colored indicating it is available for use.
@@ -63,4 +65,7 @@ Example:
 
 {{Path_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [Path](Path_Workbench.md) > Path OpActiveToggle/it

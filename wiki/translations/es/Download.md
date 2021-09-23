@@ -1,5 +1,5 @@
 # Download/es
- {{TOCright}}
+{{TOCright}}
 
 ## Actual Versión Estable 
 
@@ -55,5 +55,5 @@ El desarrollo de FreeCAD es activo.
 
 La comunidad de FreeCAD provee una multitud de módulos y macros adicionales. Desde el 0.17 pueden ser instalados fácilmente desde dentro de FreeCAD usando el [Gestor de Addon](AddonManager/es.md)<img alt="" src=images/AddonManager.svg  style="width:22px;">.
 
-
-
+---
+[documentation index](../README.md) > Download/es

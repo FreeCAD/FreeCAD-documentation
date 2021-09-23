@@ -8,6 +8,8 @@
    SeeAlso:
 ---
 
+# Ship New
+
 ## Description
 
 Create a New Ship or new Ship Instance.
@@ -47,4 +49,7 @@ Note: From here onward, you must have **Ship** selected before you execute any S
 
 \|[Ship Geometries Examples Loader](Ship_Geometries_Examples.md) \|[Lines drawing](Ship_Outline.md) \|[Ship](Ship_Workbench.md) \|IconL=Ship\_Load.svg \|IconC=Workbench\_Ship.svg \|IconR=Ship\_OutlineDraw.svg }}
 
- {{Ship_Tools_navi}} 
+ {{Ship_Tools_navi}}
+
+---
+[documentation index](../README.md) > Ship New

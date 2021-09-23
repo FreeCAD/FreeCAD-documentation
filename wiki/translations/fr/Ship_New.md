@@ -1,3 +1,4 @@
+# Ship New/fr
 ---
 - GuiCommand:/fr   Name:Ship New‏‎   Name/fr:Ship New‏‎    MenuLocation:Ship design → Create a new ship   |Workbenches:[[Ship Workbench/fr   Ship]]|Shortcut:   SeeAlso:---
 
@@ -46,4 +47,7 @@ Note: From here onward, you must have **Ship** selected before you execute any S
 
 {{Ship_Tools_navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > Ship New/fr

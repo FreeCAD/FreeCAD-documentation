@@ -5,6 +5,8 @@
    Workbenches:[PartDesign](PartDesign_Workbench.md)
 ---
 
+# PartDesign Groove/pt-br
+
 ## Description
 
 The **Groove** tool revolves a selected sketch or profile about a given axis, cutting out material from the support .
@@ -73,4 +75,7 @@ Below are properties which can be defined after creation of the feature. Data pr
 
 {{PartDesign Tools navi
 
-}} 
+}}
+
+---
+[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Groove/pt-br

@@ -1,5 +1,5 @@
 # Macro Toggle Visibility2 1-2/fr
- {{Macro/fr
+{{Macro/fr
 |Name=Macro Toggle Visibility2 1-2
 |Icon=Macro_SelectVisible2.png
 |Description={{ColoredParagraph|DarkRed|Yellow|Cette macro doit être utilisée avec '''Macro Toggle Visibility2 2-2'''}}<br/>Cache tous les objets qui ne sont pas sélectionnés, le rappel permet de retourner à l'état original.
@@ -88,3 +88,6 @@ Seconde macro [Macro Toggle Visibility2 2-2](Macro_Toggle_Visibility2_2-2/fr.md)
 La discussion sure forum [Re: Proposal: select one or more pieces, hide the others.](https://forum.freecadweb.org/viewtopic.php?f=8&t=13152&start=10#p184056)
 
 Idée Originale [Macro\_Toggle\_Visibility](https://www.freecadweb.org/wiki/index.php?title=Macro_Toggle_Visibility)
+
+---
+[documentation index](../README.md) > Macro Toggle Visibility2 1-2/fr

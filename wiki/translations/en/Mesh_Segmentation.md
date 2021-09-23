@@ -6,6 +6,8 @@
    SeeAlso:[Mesh SegmentationBestFit](Mesh_SegmentationBestFit.md)
 ---
 
+# Mesh Segmentation/en
+
 ## Description
 
 The **Mesh Segmentation** command creates separate mesh segments for specified surface types of a mesh object.
@@ -50,4 +52,7 @@ The **Mesh Segmentation** command creates separate mesh segments for specified s
 
 {{Mesh Tools navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Segmentation/en

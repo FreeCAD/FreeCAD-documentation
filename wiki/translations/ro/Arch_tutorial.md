@@ -1,7 +1,4 @@
 # Arch tutorial/ro
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -659,4 +656,7 @@ Fișierul creat pe durata acestui tutorial poate fi găsit la [here](http://yori
 
 {{Tutorials navi
 
-}}  
+}}
+
+---
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch tutorial/ro

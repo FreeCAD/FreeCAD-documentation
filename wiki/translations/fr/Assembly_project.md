@@ -1,7 +1,4 @@
 # Assembly project/fr
-
-
-
 **
 Ce plan de développement est probablement obsolète. Pour plus d'informations, voir [Plan de développement](Development_roadmap/fr.md).<br>
 Si vous n'êtes pas impliqué dans le développement discuté ici :<br>
@@ -160,3 +157,6 @@ Interface permettant à un logiciel de simulation physique (externe) (multi), de
 -   \...
 
 [Category:Roadmap](Category:Roadmap.md)
+
+---
+[documentation index](../README.md) > [Roadmap](Category:Roadmap.md) > Assembly project/fr

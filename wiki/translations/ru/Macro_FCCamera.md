@@ -1,5 +1,5 @@
 # Macro FCCamera/ru
- {{Macro
+{{Macro
 |Name=Macro FCCamera
 |Icon=FCCamera_00.png
 |Description={{ColoredText|#ff0000|#ffffff|New version GUI modifyed for the HD dpi (QGridLayout) run only FC version 0.18 and more (PySide2 Qt5)}}<br/><br/> 
@@ -213,3 +213,6 @@ App.Console.PrintMessage("Path locality to FCCamera.....images.png [ " + 
 -   **ver 0.3 18/03/2015 :** modify line 492 replace \"**pl.Base = App.Vector(0,0,0)**\" to \"**pl.Base = sel\[0\].Placement.Base**\" now no longer moves the form at point (0,0,0) and leaves has the coordinates
 
 -   **ver 0.2 25/02/2015 :** correct names files in for compatibility Linux (case sensitive) thanks microelly2
+
+---
+[documentation index](../README.md) > Macro FCCamera/ru

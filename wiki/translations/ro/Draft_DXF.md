@@ -1,10 +1,4 @@
 # Draft DXF/ro
-
-
-
-
-
-
 {{TOCright}}
 
 ## Description
@@ -192,3 +186,6 @@ importDXF.export(objects, "/home/user/Pictures/myfile.dxf")
  
 
 [Category:User Documentation](Category:User_Documentation.md) [Category:File Formats](Category:File_Formats.md)
+
+---
+[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft DXF/ro
