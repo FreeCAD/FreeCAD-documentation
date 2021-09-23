@@ -1,5 +1,4 @@
 # Fr Widget Basics
-
 This chapter teaches you the basics of Fr\_Widget toolkit
 
 ## Writing your first Fr\_Widget program 

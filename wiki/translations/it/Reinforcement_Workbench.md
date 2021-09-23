@@ -1,7 +1,6 @@
 # Reinforcement Workbench/it
 
 
-
 <img alt="L\'icona dell\'ambiente Reinforcement" src=images/Reinforcement_Workbench.svg  style="width:128px;">
 
 

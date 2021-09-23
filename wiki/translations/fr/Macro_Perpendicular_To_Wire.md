@@ -1,5 +1,4 @@
 # Macro Perpendicular To Wire/fr
-
  {{Macro/fr
 |Name=Macro Perpendicular To Wire
 |Icon=Macro_Perpendicular_To_Wire.png

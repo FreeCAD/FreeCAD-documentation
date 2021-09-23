@@ -1,7 +1,6 @@
 # Main view area/fr
 
 
-
 ## Introduction
 
 La [zone de vue principale](Main_view_area/fr.md) est le widget principal qui contient des sous-fenêtres dans [interface](interface/fr.md). Il s\'agit d\'une instance de [QMdiArea](https://doc.qt.io/qt-5/qmdiarea.html) de Qt.

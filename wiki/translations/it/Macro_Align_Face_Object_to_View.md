@@ -1,6 +1,8 @@
 # Macro Align Face Object to View/it
 
- {{Macro/it
+
+
+{{Macro/it
 |Name=Macro Align Face Object to View
 |Icon=Macro_Align_Face_Object_to_View.png
 |Translate=Allinea la faccia dell'oggetto alla vista
@@ -12,14 +14,30 @@
 |FCVersion=Tutte
 |SeeAlso=[32px|FCCamera](File:FCCamera_00.png.md) [Macro_FCCamera](Macro_FCCamera/it.md)}}
 
+## Description
+
+
+<div class="mw-translate-fuzzy">
+
 ## Descrizione
 
 Questa macro orienta la faccia dell\'oggetto verso la ActiveView (telecamera). Nel caso della faccia di un foro (o di una faccia interna o di un cilindro) orienta la faccia della foratura verso lo schermo.
+
+
+</div>
+
+## Usage
+
+
+<div class="mw-translate-fuzzy">
 
 ## Utilizzo
 
 -   Selezionare l\'oggetto ed eseguire la macro
 -   L\'oggetto viene orientato verso la telecamera
+
+
+</div>
 
 ## Script
 
@@ -28,7 +46,7 @@ ToolBar Icon ![](images/Macro_Align_Face_Object_to_View.png )
 **Macro\_Align\_Face\_Object\_to\_View.FCMacro**
 
 
-{{MacroCode|code=
+```python
 # This macro directs the face of the object on the side of the ActiveView (camera)
 # extact FCCamera
 # 16/01/2015
@@ -47,7 +65,7 @@ try:
 except Exception:
     App.Console.PrintError("Select a face and run the macro"+"\n")
 
-}}
+```
 
 ## Links
 

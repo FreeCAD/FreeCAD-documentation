@@ -4,7 +4,6 @@
 
 
 
-
 <img alt="Icône de l\'atelier OpenSCAD" src=images/Workbench_OpenSCAD.svg  style="width:128px;">
 
 ## Introduction

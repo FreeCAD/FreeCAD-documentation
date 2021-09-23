@@ -1,5 +1,4 @@
 # Basic TechDraw Tutorial/pl
-
  {{TutorialInfo/pl
 |Topic=Modelowanie
 |Level=początkujący
@@ -54,8 +53,8 @@ Teraz mamy widok na stronę patrząc w dół na górę bryły. Jest on jednak tr
 Wygląda lepiej, jednak widok wciąż pozostaje trochę nudny. Dodajmy więc kilka wymiarów.
 
 1.  Wybierz górny lewy wierzchołek *(mały punkt)* za pomocą **LMB** *(Lewy Przycisk Myszki)*, następnie zaznacz *(**Ctrl**+**LMB**)* również dolny lewy wierzchołek.
-2.  Kliknij na <img alt="" src=images/TechDraw_Dimension_Vertical.svg  style="width:32px;"> [Wstaw wymiar pionowy](TechDraw_Dimension_Vertical/pl.md). Przeciągnij tekst wymiaru z dala od korpusu.
-3.  Spróbuj jeszcze raz z lewym górnym i prawym górnym wierzchołkiem i <img alt="" src=images/TechDraw_Dimension_Horizontal.svg  style="width:32px;"> [Wstaw wymiar poziomy](TechDraw_Dimension_Horizontal/pl.md).
+2.  Kliknij na <img alt="" src=images/TechDraw_VerticalDimension.svg  style="width:32px;"> [Wstaw wymiar pionowy](TechDraw_VerticalDimension/pl.md). Przeciągnij tekst wymiaru z dala od korpusu.
+3.  Spróbuj jeszcze raz z lewym górnym i prawym górnym wierzchołkiem i <img alt="" src=images/TechDraw_HorizontalDimension.svg  style="width:32px;"> [Wstaw wymiar poziomy](TechDraw_HorizontalDimension/pl.md).
 
 ![](images/TDTut_TopView2Dims.png )
 
@@ -97,7 +96,7 @@ Stwórzmy rysunek wielu widoków używając innego szablonu jako punktu startowe
 ![](images/TDTut_ProjGroup21.png )
 
 1.  W widoku oznaczonym jako **TopLeftFront**, wybierz dwa wierzchołki na skrajnych końcach przedniej krawędzi elementu.
-2.  Kliknij na narzędzie <img alt="" src=images/TechDraw_Dimension_Length.svg  style="width:32px;"> [Wstaw nowy wymiar długości](TechDraw_Dimension_Length/pl.md). Przeciągnij tekst wymiarowy z dala od bryły.
+2.  Kliknij na narzędzie <img alt="" src=images/TechDraw_LengthDimension.svg  style="width:32px;"> [Wstaw nowy wymiar długości](TechDraw_LengthDimension/pl.md). Przeciągnij tekst wymiarowy z dala od bryły.
 
 ### Powiązanie wymiarów z modelem 3D 
 
@@ -109,7 +108,7 @@ Od pierwszej części tego poradnika wiemy, że przedmiot posiada szerokość **
 
 1.  Zwróć uwagę na nazwę naszego wadliwego wymiaru w panelu widoku połączonego. Będziemy go potrzebować za chwilę.
 2.  Przejdź do zakładki widoku 3D modelu i wybierz wierzchołki na końcach przedniej krawędzi elementu. Wybierz również zakładkę **Page001**.
-3.  Kliknij na narzędzie <img alt="" src=images/TechDraw_Dimension_Link.png  style="width:32px;"> [Połącz wymiar z geometrią](TechDraw_Dimension_Link/pl.md). W panelu zadań zostanie otwarte okno dialogowe.
+3.  Kliknij na narzędzie <img alt="" src=images/TechDraw_LinkDimension.png  style="width:32px;"> [Połącz wymiar z geometrią](TechDraw_LinkDimension/pl.md). W panelu zadań zostanie otwarte okno dialogowe.
 4.  W oknie dialogowym, przenieś nasz wymiar z dostępnej kolumny do wybranej kolumny. Naciśnij przycisk **OK**.
 5.  Wróć na stronę001. Nasz wymiar powinien teraz odczytać prawidłową wartość 53. *(Jeśli nadal widzisz 43.27, może być konieczne wciśnięcie przycisku **Przelicz** lub trochę przesuń wartość wymiaru na rysunku, aż się zmieni)*.
 

@@ -1,5 +1,4 @@
 # Download/bg
-
  {{TOCright}}
 
 ## Current stable version 

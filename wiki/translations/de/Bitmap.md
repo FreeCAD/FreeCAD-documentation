@@ -1,7 +1,6 @@
 # Bitmap/de
 
 
-
 ## Beschreibung
 
 [Bitmap](https://de.wikipedia.org/wiki/Bitmap) oder [Rastergrafik](https://de.wikipedia.org/wiki/Rastergrafik) sind 2D-Bilder, die Sammlungen von Pixeln in verschiedenen Farbschattierungen enthalten. Zusammen präsentieren Tausende oder Millionen von Pixeln dem Betrachter eine Abbildung oder eine Farbaufnahme.

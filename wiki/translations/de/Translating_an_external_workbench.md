@@ -1,7 +1,6 @@
 # Translating an external workbench/de
 
 
-
 In den folgenden Hinweisen sollte `"context"` der Name Deiner Erweiterung oder Deines Arbeitsbereichs sein, z.B. `"MySuperAddon"` oder `"DraftPlus"`, oder was auch immer. Dieser Kontext macht es so, dass die gesamte Übersetzung deines Codes unter dem gleichen Namen zusammengefasst wird, um von den Übersetzern leichter identifiziert werden zu können. Das heißt, sie wissen genau, zu welcher Erweiterung oder welchem Arbeitsbereich eine bestimmte Zeichenkette gehört.
 
 **Hinweis**: Hier ist ein Multifunktionsskript, das den kompletten unten beschriebenen Ablauf automatisiert (es wird angeraten, dass du trotzdem die Beschreibung liest, um zu wissen, was das Skrikt sollte): <https://github.com/yorikvanhavre/BIM_Workbench/blob/master/utils/updateTranslations.py>
@@ -198,6 +197,12 @@ Ergebnis: Dies sollte die deutsche Übersetzung liefern. Wenn das funktioniert, 
 ### Wichtige Anmerkungen 
 
 -   Stelle sicher, dass du einen \*context\* und \*string\* verwendest, der tatsächlich in der ts/qm-Datei vorhanden ist.
+
+## Convenience script 
+
+Yorik maintains a convenience script for the BIM workbench, that can gather, upload and download ts files. You can just copy and adapt that script for your workbench:
+
+<https://github.com/yorikvanhavre/BIM_Workbench/blob/master/utils/updateTranslations.py>
 
 ## Wichtige Verweise 
 

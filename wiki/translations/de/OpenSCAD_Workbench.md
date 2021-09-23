@@ -4,7 +4,6 @@
 
 
 
-
 <img alt="OpenSCAD Arbeitsbereichssymbol" src=images/Workbench_OpenSCAD.svg  style="width:128px;">
 
 ## Einführung

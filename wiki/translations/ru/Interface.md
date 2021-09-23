@@ -1,5 +1,4 @@
 # Interface/ru
-
  {{TOCright}}
 
 ## Введение

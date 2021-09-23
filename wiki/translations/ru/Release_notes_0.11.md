@@ -1,5 +1,4 @@
 # Release notes 0.11/ru
-
 Здесь приведён список важных изменений и новых функций, доступных в FreeCAD версии 0.11. Полный список находится [здесь](http://www.freecadweb.org/tracker/changelog_page.php).
 
 <img alt="" src=images/FreeCAD011.png  style="width:800px;">

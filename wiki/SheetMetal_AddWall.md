@@ -142,7 +142,7 @@ A SheetMetal Bend object is derived from a [Part Feature](Part_Feature.md) objec
 
 ## Example
 
-<img alt="" src=images/SheetMetal_AddWall-01.png  style="width:300px;"> 
+ <img alt="" src=images/SheetMetal_AddWall-01.png  style="width:300px;">  
 *A simple tray*
 
 
@@ -155,7 +155,7 @@ A SheetMetal Bend object is derived from a [Part Feature](Part_Feature.md) objec
 
 This tray is made of a rectangular blank with walls added to its outline edges. And so one outline sketch for the blank has to be prepared in advance.
 
-<img alt="" src=images/SheetMetal_AddWall-02.png  style="width:200px;"> 
+ <img alt="" src=images/SheetMetal_AddWall-02.png  style="width:200px;">  
 *Just a rectangular outline*
 
 ### Workflow

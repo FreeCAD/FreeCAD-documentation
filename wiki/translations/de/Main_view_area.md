@@ -1,7 +1,6 @@
 # Main view area/de
 
 
-
 ## Einleitung
 
 Der [Hauptansichtsbereich](main_view_area/de.md) ist das Haupt widget das Unterfenster in der [Oberfläche](interface/de.md) hält. Es ist eine Instanz des Qt [QMdiBereichs](https://doc.qt.io/qt-5/qmdiarea.html).

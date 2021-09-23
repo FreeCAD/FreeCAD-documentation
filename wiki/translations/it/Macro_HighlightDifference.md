@@ -1,5 +1,4 @@
 # Macro HighlightDifference/it
-
  {{Macro/it
 |Name=HighlightDifference
 |Translate=Evidenzia differenze

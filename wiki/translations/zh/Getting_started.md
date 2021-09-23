@@ -2,7 +2,6 @@
 
 
 
-
 <div class="mw-translate-fuzzy">
 
 
@@ -69,18 +68,15 @@ FreeCAD界面背后的主要概念是它被分成 [工作台](workbenches.md)。
 
 </div>
 
-当你启动FreeCAD的时候，你将会看到启动中心。下面你看到的是0.18版的启动中心:
-
-<img alt="" src=images/Start_center_0.18_screenshot.jpg  style="width:1024px;">
-
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/Start_center_0.18_screenshot.jpg  style="width:1024px;"> 
-*FreeCAD 0.17 查看这里 [启动中心](Media:Startcenter0.17.jpg.md) 截图。*
+当你启动FreeCAD的时候，你将会看到启动中心。下面你看到的是0.18版的启动中心:
 
 
 </div>
+
+<img alt="" src=images/Start_center_0.18_screenshot.jpg  style="width:1024px;">
 
 
 <div class="mw-translate-fuzzy">

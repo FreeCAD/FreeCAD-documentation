@@ -4,7 +4,6 @@
 
 
 
-
 <img alt="El icono del Ambiente de trabajo Trayectoria" src=images/Workbench_Part.svg  style="width:128px;">
 
 

@@ -1,5 +1,4 @@
 # Packaging
-
  
 
 This page collects the information on packaging FreeCAD in different platforms.

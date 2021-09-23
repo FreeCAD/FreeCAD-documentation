@@ -5,7 +5,6 @@
 
 
 
-
 {{Manual:TOC/fr}}
 
 L\'une des plus grandes difficultés pour les nouveaux utilisateurs de FreeCAD est de savoir dans quel atelier trouver un outil spécifique. Le tableau ci-dessous vous donnera un aperçu des ateliers les plus importants et leurs outils. Reportez-vous à chaque page [atelier](Workbenches/fr.md) dans la documentation FreeCAD pour une liste complète d\'informations.
@@ -116,7 +115,7 @@ L\'atelier Architecture (ou « Arch » pour faire court) fournit à FreeCAD le
 ### Atelier Drawing (Mise en plan) 
 
 
-{{VeryImportantMessage|Le développement de [atelier Drawing](Drawing_Workbench/fr.md) s'est arrêté dans FreeCAD 0.16, et le nouveau [atelier TechDraw](TechDraw_Workbench/fr.md) visant à le remplacer a été introduit en v0.17. Le plan de travail de dessin peut être supprimé dans les versions ultérieures. Utilisez plutôt l'atelier TechDraw.}}
+**Le développement de [atelier Drawing](Drawing_Workbench/fr.md) s'est arrêté dans FreeCAD 0.16, et le nouveau [atelier TechDraw](TechDraw_Workbench/fr.md) visant à le remplacer a été introduit en v0.17. Le plan de travail de dessin peut être supprimé dans les versions ultérieures. Utilisez plutôt l'atelier TechDraw.**
 
 L\'atelier Drawing (mise en plan) vous permet de coucher sur papier votre projet 3D, en réalisant des projections 2D de votre modèle 3D et en insérant ces projections dans une feuille (page) de mise en plan. Celle-ci pourra avoir une bordure, un titre et un logo, et cette page pourra ensuite être imprimée et/ou exportée vers des applications 2D au format SVG ou DXF, ou vers un fichier PDF.
 

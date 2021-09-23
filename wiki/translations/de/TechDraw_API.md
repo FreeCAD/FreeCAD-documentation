@@ -1,6 +1,5 @@
 # TechDraw API/de
-
- {{VeryImportantMessage|(November 2018) Diese Information kann unvollständig und veraltet sein. Für die letzte API siehe die [https://www.freecadweb.org/api autogenerierte API Dokumentation].}} Diese Funktionen sind Teil des [TechDraw Arbeitsbereich](TechDraw_Workbench/de.md) und können in [Makros](macros/de.md) und von der [Python](Python/de.md) Konsole aus verwendet werden, sobald das `TechDraw` Modul importiert wurde.
+ **(November 2018) Diese Information kann unvollständig und veraltet sein. Für die letzte API siehe die [https://www.freecadweb.org/api autogenerierte API Dokumentation].** Diese Funktionen sind Teil des [TechDraw Arbeitsbereich](TechDraw_Workbench/de.md) und können in [Makros](macros/de.md) und von der [Python](Python/de.md) Konsole aus verwendet werden, sobald das `TechDraw` Modul importiert wurde.
 
 Gute Beispiele für grundlegendes TechDraw Skripten findest Du in den [unit test scripts](https://github.com/FreeCAD/FreeCAD/tree/master/src/Mod/TechDraw/TDTest).
 

@@ -27,23 +27,10 @@ La commande **Std Copie** copie les objets dans le presse-papiers.
 -   Lorsque vous travaillez dans une fenêtre de texte FreeCAD, une zone de saisie ou une feuille de calcul, le raccourci clavier standard **Ctrl**+**C**, dans presque tous les cas, ne lance pas la commande *\' Std Copier*\'mais utilise à la place la fonction Copy du système d\'exploitation.
 -   Il n\'est pas possible de copier-coller des objets natifs entre FreeCAD et d\'autres applications.
 
-## Script
-
-La commande **Std Copie** peut être appliquée après avoir sélectionné un ou plusieurs objets dans la [Vue en arborescence](Tree_view/fr.md):
-
-
-```python
-FreeCADGui.runCommand('Std_Copy')
-FreeCADGui.runCommand('Std_Paste')
-```
-
-La sélection peut être manuelle (en utilisant la souris) ou via la [Console Python](Python_console/fr.md).
-Pour en savoir plus sur la sélection d\'objets de manière programmatique, reportez-vous à [Méthodes de sélection](Selection_methods/fr.md).
-
 
 
 
 
 {{Std Base navi
 
-}}  
+}} 

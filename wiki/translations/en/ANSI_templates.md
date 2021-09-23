@@ -1,5 +1,4 @@
 # ANSI templates/en
-
  This page lists the templates according to American National Standards Institute [ANSI](http://en.wikipedia.org/wiki/American_National_Standards_Institute) standard
 
 ### ANSI A 

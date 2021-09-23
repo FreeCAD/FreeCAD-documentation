@@ -5,7 +5,6 @@
 
 
 
-
 {{TOCright}}
 
 Cette page explique étape par étape **comment compiler FreeCAD 0.19 ou plus récent sous Windows**. Pour les autres plates-formes, voir [Compiler](Compiling/fr.md).

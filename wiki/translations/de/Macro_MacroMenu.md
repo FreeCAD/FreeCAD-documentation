@@ -1,5 +1,4 @@
 # Macro MacroMenu/de
-
  {{Macro/de
 |Name=Macro MacroMenu
 |Translate=Macro MacroMenu
@@ -12,15 +11,9 @@
 |Download=[https://www.freecadweb.org/wiki/images/1/1e/Macro_MacroMenu.png ToolBar Icon]
 }}
 
-
-<div class="mw-translate-fuzzy">
-
 ## Beschreibung
 
 Dieser Code war Teil des [Draft Module](Draft_Workbench/de.md) und wurde entfernt [issue \#490](http://freecadweb.org/tracker/view.php?id=490).
-
-
-</div>
 
 ## Skript
 

@@ -1,6 +1,8 @@
 # Macro Make Cube/de
 
- {{Macro/de
+
+
+{{Macro/de
 |Name=Make Cube
 |Name/de=Make Cube
 |Icon=Macro_makeCube.png
@@ -18,12 +20,12 @@ Dieses Makro erstellt einen Würfel, indem 4 Punkte abgefragt werden
 
 ## Skript
 
-ToolBar Icon ![](images/Macro_makeCube.png )
+Werkzeugleisten-Symbol ![](images/Macro_makeCube.png )
 
 **Macro\_Make\_Cube.FCMacro**
 
 
-{{MacroCode|code=
+```python
 # first we import the needed Draft modules
 import draftTools, WorkingPlane
 from draftlibs import fcvec
@@ -150,5 +152,5 @@ class myCommand(draftTools.Creator):
 
 #  finally, we execute our code!
 myCommand()
-}}
+```
 

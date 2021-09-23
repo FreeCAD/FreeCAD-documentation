@@ -29,6 +29,8 @@ Esta herramienta crea chaflanes en los bordes seleccionados de un objeto. Se cre
 -   For a chain of edges tangential to one another, one single edge can be selected; the chamfer will propagate along the chain.
 -   To edit the chamfer after the function has been validated, either double-click on the chamfer label in the Project tree, or right-click on it and select **Edit Chamfer**.
 
+## PartDesign Chamfer vs. Part Chamfer 
+
 
 <div class="mw-translate-fuzzy">
 

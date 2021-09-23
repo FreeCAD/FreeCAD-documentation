@@ -93,14 +93,13 @@ App.activeDocument().DrawTileWeld001.CenterText = "center text"
 
 ## Tuiles symboles Svg 
 
--   Les symboles individuels sont formés de fichiers SVG de 64x64 pixels. Des symboles supplémentaires peuvent être créés dans un programme SVG tel qu\'[Inkscape](https://fr.wikipedia.org/wiki/Inkscape) en utilisant l\'un des symboles fournis par FreeCAD comme modèle.
+Les symboles particuliers sont formés par des fichiers SVG de 64x64 pixels. Des symboles supplémentaires peuvent être créés dans un programme SVG comme [Inkscape](https://fr.wikipedia.org/wiki/Inkscape) en utilisant l\'un des symboles fournis par FreeCAD comme modèle.
 
 <img alt="" src=images/Techdraw-WeldingSymbolLayoutArrow.svg  style="width:128px;"> <img alt="" src=images/Techdraw-WeldingSymbolLayoutOther.svg  style="width:128px;">
 
-\* Les symboles individuels sont formés de fichiers SVG de 64x64 pixels (nominaux). Les tuiles ont en fait une \"bordure\" de 4px. La bordure veille à ce que la ligne de repère et le symbole se rencontrent bien.
-
+-   Les symboles individuels sont formés de fichiers SVG de 64x64 pixels (nominaux). Les tuiles ont en fait une \"bordure\" de 4px. La bordure veille à ce que la ligne de repère et le symbole se rencontrent bien.
 -   Le symbole est dessiné en noir sur un fond transparent. La largeur du trait est de 0.5mm.
--   Le leader passe au-dessous des symboles pour le côté flèche et au-dessus des symboles pour \"l\'autre\".
+-   La ligne de repère passe en dessous des symboles du côté de la flèche (voir l\'image de gauche) et au-dessus des symboles de l\'\"autre\" côté (voir l\'image de droite).
 -   Il n\'y a pas de norme de dénomination particulière autre que celle d\'ajouter \"Haut/Bas\" à la flèche/autres symboles latéraux.
 
 ## Remarques
@@ -114,4 +113,4 @@ App.activeDocument().DrawTileWeld001.CenterText = "center text"
 
 {{TechDraw Tools navi
 
-}}  
+}} 

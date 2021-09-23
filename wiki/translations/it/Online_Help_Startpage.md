@@ -1,15 +1,8 @@
 # Online Help Startpage/it
-
-
-
-
-<div class="mw-translate-fuzzy">
-
-
-{{docnav/it|[Indice dei contenuti](Online_Help_Toc/it.md)|[Informazioni su FreeCAD](About_FreeCAD/it.md)}}
-
-
-</div>
+ {{docnav/it
+|
+|[Informazioni su FreeCAD](About_FreeCAD/it.md)
+}}
 
 ![150](images/Crystal_Clear_app_tutorials.png )
 
@@ -26,13 +19,10 @@ Questo manuale è diviso in varie sezioni: Introduzione, utilizzo, scripting e s
 Come sicuramente vi sarà capitato di constatare, i programmatori sono pessimi scrittori di guide e di help! Per loro, naturalmente, è tutto estremamente chiaro, avendo sviluppato personalmente tutte le caratteristiche del programma. E\' quindi fondamentale, che gli utenti più esperti diano una mano nella stesura degli help e nella loro correzione. Già, ci riferiamo proprio a te! Ti stai chiedendo come? Semplice, accedi alla [sezione Utente del wiki](http://www.freecadweb.org/wiki/Main_Page/it). Avrai bisogno di un account per loggarti. Chiedi sul forum o sul [canale IRC](https://www.freecadweb.org/wiki/Help#Chat) l\'autorizzazione alla scrittura del wiki (il wiki è protetto dalla scrittura per evitare lo spamming) e creeremo un account per te. Attualmente, l\'account wiki è separato dall\'account del forum ma creeremo l\'account wiki con lo stesso nome dell\'account del forum. Quindi potrai iniziare a modificare! Inoltre, controlla [questa pagina](http://www.freecadweb.org/wiki/index.php?title=Help_FreeCAD/it) per vedere in quali altri modi puoi aiutare FreeCAD.
 
 
-<div class="mw-translate-fuzzy">
-
-
-{{docnav/it|[Indice dei contenuti](Online_Help_Toc/it.md)|[Informazioni su FreeCAD](About_FreeCAD/it.md)}}
-
-
-</div>
+{{docnav/it
+|
+|[Informazioni su FreeCAD](About_FreeCAD/it.md)
+}}
 
 
 

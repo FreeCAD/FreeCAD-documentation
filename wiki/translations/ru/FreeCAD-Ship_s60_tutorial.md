@@ -2,7 +2,6 @@
 
 
 
-
 {{TutorialInfo/ru
 |Topic=Ship Workbench
 |Level=Beginner
@@ -60,9 +59,9 @@ In order to help new users the Ship workbench includes a geometries example load
 Executing the tool (Ship design/Load an example ship geometry) a task dialogue will shown. Select **Series 60 from Iowa University** and press Accept. Tool loads new document with **s60\_IowaUniversity** geometry.
 
 
-{{VeryImportantMessage|'''Warning, before editing anything!'''
+**'''Warning, before editing anything!'''
 You are now working with the original example file.
-To preserve the original unedited example, '''you must first save it as a new file before editing anything.'''}}
+To preserve the original unedited example, '''you must first save it as a new file before editing anything.'''**
 
 ## Create ship instance 
 

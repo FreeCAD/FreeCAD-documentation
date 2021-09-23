@@ -1,6 +1,6 @@
 ---
 - GuiCommand:/tr
-   Name:Draft Near
+   Name:Draft Snap Near
    Name/tr:Taslak En yakın
    MenuLocation:Taslak → [Yakalama](Draft_Snap/tr.md) → En yakın
    Workbenches:[Taslak](Draft_Workbench/tr.md), [Mimari](Arch_Workbench/tr.md)

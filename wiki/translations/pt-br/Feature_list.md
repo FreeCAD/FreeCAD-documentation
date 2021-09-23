@@ -1,5 +1,4 @@
 # Feature list/pt-br
-
  
 
 Esta é uma extensa, mas incompleta, lista de recursos que o FreeCAD disponibiliza. Se você quer ter uma noção a futuro, consulte o [Development roadmap](Development_roadmap.md) para uma rápida visão geral do que vem por aí. Além disso, recomenda-se consultar [Capturas de tela](Screenshots/pt-br.md).

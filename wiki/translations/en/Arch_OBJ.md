@@ -4,7 +4,6 @@
 
 
 
-
 ## Description
 
 Additionally to the standard FreeCAD [OBJ](http://en.wikipedia.org/wiki/Wavefront_.obj_file) exporter, the [Arch Workbench](Arch_Workbench.md) features an alternative exporter that exports coplanar faces as whole OBJ faces, instead of triangulating [Shape](Shape.md)-based objects, like the standard exporter does.

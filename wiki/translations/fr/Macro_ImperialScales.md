@@ -2,7 +2,6 @@
 
 
 
-
 {{Macro
 |Name=ImperialScales
 |Description=Cette macro affiche une liste d'échelles d'arcs impériaux américains avec le facteur correspondant à appliquer aux pages ou vues TechDraw

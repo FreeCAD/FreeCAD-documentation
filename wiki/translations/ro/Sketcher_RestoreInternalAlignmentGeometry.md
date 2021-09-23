@@ -57,4 +57,4 @@ Creați o nouă elipsă. Noi elipse sunt întotdeauna complet ambalate. Veți ve
 
 {{Sketcher Tools navi
 
-}}  
+}} 

@@ -4,8 +4,10 @@
 
 
 
-
 <img alt="L\'icona dell\'ambiente Sketcher" src=images/Workbench_Sketcher.svg  style="width:128px;">
+
+
+{{TOCright}}
 
 ## Introduzione
 
@@ -14,12 +16,7 @@ L\'ambiente <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> 
 L\'ambiente Sketcher mette a disposizione i **vincoli**. Consente di vincolare le forme 2D a precise definizioni geometriche in termini di lunghezza, angoli e relazioni (orizzontalità, verticalità, perpendicolarità, ecc.).
 Un solutore dei vincoli calcola la quantità di vincoli applicati alla geometria 2D e permette l\'esplorazione interattiva dei gradi di libertà dello schizzo.
 
-
-{{TOCright}}
-
-<img alt="" src=images/FC_ConstrainedSketch.png  style="width:450px;">
-
-
+<img alt="" src=images/FC_ConstrainedSketch.png  style="width:450px;"> 
 *Uno schizzo base, completamente vincolato‎.*
 
 ## Basics of constraint sketching 

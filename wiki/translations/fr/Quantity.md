@@ -1,5 +1,4 @@
 # Quantity/fr
-
  Quantity est une combinaison d\'un nombre à virgule flottante et d\'une unité. Quantity est utilisé dans l\'ensemble de FreeCAD pour gérer les paramètres et toutes sortes d\'autres entrées/sorties.
 
 ## Généralité
@@ -46,7 +45,7 @@ Souvent, vous avez besoin de convertir des unités d\'un système à un autre. P
 
 Sa description est détaillée ici :
 
-[Std\_Convertisseur d\'unités](Std_UnitsCalculator/fr.md)
+[Std Convertisseur d\'unités](Std_UnitsCalculator/fr.md)
 
 ## Champ a entrer 
 
@@ -57,9 +56,9 @@ InputField est un QLineEdit dérivé Qt widget pour gérer tous les types d\'int
 -   menu contextuel spécial sur les opérations quantités/valeurs
 -   gestion de l\'historique (sauf les dernières valeurs utilisées)
 -   enregistrer fréquemment les valeurs avec le raccourci dans le menu contextuel
--   sélectionnez des valeurs avec action sur les touches de souris et flèche (tbd)
--   sélectionnez avec le bouton central de la souris et le déplacement de la souris (à déterminer)
--   intégration python pour l\'utilisation dans la console python (tbd)
+-   sélectionnez des valeurs avec action sur les touches de souris et flèche (à définir)
+-   sélectionnez avec le bouton central de la souris et le déplacement de la souris (à définir)
+-   intégration python pour l\'utilisation dans la console python (à définir)
 
 UnitsCalculator utilise déjà InputField.
 

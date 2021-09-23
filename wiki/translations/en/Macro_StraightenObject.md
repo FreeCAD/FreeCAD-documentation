@@ -2,7 +2,6 @@
 
 
 
-
 {{Macro
 |Name=StraightenObject
 |Icon=Macro_StraightenObject.png

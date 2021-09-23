@@ -1,12 +1,11 @@
 # Raytracing Workbench/es
-
  
 
 
-{{VeryImportantMessage|L' Ambiente de trabajo Trazado de rayos es esencialmente obsoleta. Un nuevo desarrollo está ocurriendo en el [https://github.com/FreeCAD/FreeCAD-render Render Ambiente de trabajo], que se pretende que sea su sustituto. Este Ambiente de trabajo está completamente programado en Python, así que es mucho más fácil de ampliar.
+**L' Ambiente de trabajo Trazado de rayos es esencialmente obsoleta. Un nuevo desarrollo está ocurriendo en el [https://github.com/FreeCAD/FreeCAD-render Render Ambiente de trabajo], que se pretende que sea su sustituto. Este Ambiente de trabajo está completamente programado en Python, así que es mucho más fácil de ampliar.
 
 Nevertheless, the information in this page is generally useful for the new workbench, as both modules work basically in the same way.
-}}
+**
 
 <img alt="El icono del Ambiente de trabajo Trazado de rayos" src=images/Workbench_PartDesign.svg  style="width:128px;">
 

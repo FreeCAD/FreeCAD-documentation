@@ -2,7 +2,6 @@
 
 
 
-
 {{TutorialInfo/de
 |Topic=Pfad Arbeitsbereich
 |Level=Anfänger/Mittelmäßig

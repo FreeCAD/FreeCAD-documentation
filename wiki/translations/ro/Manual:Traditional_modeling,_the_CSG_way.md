@@ -1,5 +1,4 @@
 # Manual:Traditional modeling, the CSG way/ro
-
  
 
 

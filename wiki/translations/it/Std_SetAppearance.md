@@ -10,8 +10,6 @@
 
 </div>
 
-![The Display properties task dialog\|left](images/Std_SetAppearance_taskpanel.png )
-
 ## Descrizione
 
 

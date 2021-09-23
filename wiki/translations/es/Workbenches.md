@@ -4,7 +4,6 @@
 
 
 
-
 FreeCAD, al igual que muchas aplicaciones de diseño moderno como [Revit](https://es.wikipedia.org/wiki/Revit) o [CATIA](https://es.wikipedia.org/wiki/CATIA), se basa en el concepto de [de trabajo](https://es.wikipedia.org/wiki/Banco_de_trabajo%7CBanco). Un banco de trabajo puede considerarse como un conjunto de herramientas especialmente agrupadas para una determinada tarea. En un taller de muebles tradicional, se tendría una mesa de trabajo para el que trabaja con la madera, otra para el que trabaja con las piezas de metal, y quizá una tercera para el que monta todas las piezas juntas.
 
 En FreeCAD se aplica el mismo concepto. Las herramientas se agrupan en bancos de trabajo según las tareas con las que están relacionadas.

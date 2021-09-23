@@ -4,7 +4,6 @@
 
 
 
-
 <img alt="El icono del Ambiente de trabajo MEF" src=images/Workbench_FEM.svg  style="width:128px;">
 
 

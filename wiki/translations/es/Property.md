@@ -1,7 +1,6 @@
 # Property/es
 
 
-
 ## Introduction
 
 

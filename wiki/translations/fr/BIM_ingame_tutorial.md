@@ -2,7 +2,6 @@
 
 
 
-
  <img alt="" src=images/BIM_tutorial_screenshot.png  style="width:1024px;">
 
 

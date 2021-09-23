@@ -2,7 +2,6 @@
 
 
 
-
 {{TutorialInfo/it
 |Topic= Draft
 |Level= Base
@@ -250,7 +249,7 @@ Linear dimensions work best when using the appropriate [Draft Snap](Draft_Snap.m
 
 1.  Selezionare ![](images/Draft_Dimension.png ) [Dimensione](Draft_Dimension/it.md)
 2.  Selezionare il primo punto. Questo può essere fatto cliccando su un elemento o specificando le coordinate di un punto esistente. In questo tutorial, il primo punto è sempre **(0, 0, 0)**
-3.  Selezionare il secondo punto. Avvicinando il cursore al punto medio della linea superiore del poligono, dovrebbe apparire un punto bianco accanto questa icona <img alt="" src=images/Snap_Midpoint.png  style="width:32px;">
+3.  Selezionare il secondo punto. Avvicinando il cursore al punto medio della linea superiore del poligono, dovrebbe apparire un punto bianco accanto questa icona <img alt="" src=images/Draft_Snap_Midpoint.svg  style="width:32px;">
 4.  Spostare il cursore fino alla posizione desiderata della dimensione e fare clic.
 5.  Nella tabella **Vista** cambiare la dimensione del carattere in 6 mm
 

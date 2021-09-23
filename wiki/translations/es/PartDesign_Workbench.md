@@ -1,5 +1,4 @@
 # PartDesign Workbench/es
-
  
 
 <img alt="El icono del Ambiente de trabajo PartDesign " src=images/Workbench_PartDesign.svg  style="width:128px;">

@@ -1,5 +1,4 @@
 # Release notes 0.11/fr
-
 # Notes de version 0.11 
 
 Ceci est un sommaire des plus importants changements et nouvelles fonctionnalités disponibles dans la version 0.11 de FreeCAD. La liste complète est disponible [ici](http://www.freecadweb.org/tracker/changelog_page.php).

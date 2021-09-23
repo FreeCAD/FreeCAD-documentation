@@ -4,7 +4,6 @@
 
 
 
-
 <img alt="Ikonka FreeCAD dla środowiska pracy Rysunek Techniczny" src=images/Workbench_TechDraw.svg  style="width:128px;">
 
 ## Wprowadzenie
@@ -15,7 +14,7 @@ Wymiary, przekroje, zakreskowane obszary, adnotacje i symbole [SVG](SVG/pl.md) m
 
 Rysunek Techniczny został oficjalnie włączony do FreeCAD począwszy od wersji **0.17**. ma on być następcą nieobsługiwanego już Środowiska pracy [Kreślenie](Drawing_Workbench/pl.md). Oba Środowiska pracy nadal są dostępne w wersji 0.17, ale środowisko Kreślenie może zostać usunięty w przyszłych wydaniach. Aby być na bieżąco z planami i rozwojem środowiska Rysunek Techniczny, odwiedź stronę [Rysunek Techniczny: Plan działania](TechDraw_Roadmap/pl.md).
 
-FreeCAD jest przede wszystkim aplikacją do modelowania 3D, a zatem nie posiada wielu narzędzi do rysowania 2D, które są głównie zawarte w [Draft](Draft_Workbench/pl.md) i [Szkicownik](Sketcher_Workbench/pl.md). Jeśli Twoim głównym celem jest tworzenie złożonych rysunków 2D i plików [DXF](DXF/pl.md), a nie potrzebujesz modelowania 3D, możesz rozważyć zastosowanie dedykowanego programu do projektowania technicznego, takiego jak [LibreCAD](https://en.wikipedia.org/wiki/LibreCAD), [QCad](https://en.wikipedia.org/wiki/QCad), TurboCad i innych.
+Jeśli Twoim głównym celem jest tworzenie złożonych rysunków 2D i plików [DXF](DXF/pl.md), a nie potrzebujesz modelowania 3D, FreeCAD może nie być właściwym wyborem dla Ciebie. Możesz rozważyć zastosowanie dedykowanego programu do tworzenia projektów technicznych, takiego jak [LibreCAD](https://en.wikipedia.org/wiki/LibreCAD), [QCad](https://en.wikipedia.org/wiki/QCad), lub innego.
 
 
 {{TOCright}}
@@ -68,37 +67,29 @@ Są to narzędzia do tworzenia i pracy z obiektami Wymiarowymi.
 
 Wymiary liniowe mogą być wyznaczone w oparciu o dwa punkty, na jednej linii lub na dwóch liniach.
 
--   <img alt="" src=images/TechDraw_Dimension_Length.svg  style="width:32px;"> [Wymiaruj odległość](TechDraw_Dimension_Length/pl.md): dodaje wymiar dotyczący odległości.
+-   <img alt="" src=images/TechDraw_LengthDimension.svg  style="width:32px;"> [Wstaw wymiar długości](TechDraw_LengthDimension/pl.md): dodaje wymiar dotyczący odległości.
 
--   <img alt="" src=images/TechDraw_Dimension_Horizontal.svg  style="width:32px;"> [Wymiaruj szerokość](TechDraw_Dimension_Horizontal/pl.md): dodaje poziomy wymiar długości.
+-   <img alt="" src=images/TechDraw_HorizontalDimension.svg  style="width:32px;"> [Wstaw wymiar poziomy](TechDraw_HorizontalDimension/pl.md): dodaje poziomy wymiar długości.
 
--   <img alt="" src=images/TechDraw_Dimension_Vertical.svg  style="width:32px;"> [Wymiaruj wysokość](TechDraw_Dimension_Vertical/pl.md): dodaje pionowy wymiar długości.
+-   <img alt="" src=images/TechDraw_Dimension_Vertical.svg  style="width:32px;"> [Wstaw wymiar pionowy](TechDraw_Dimension_Vertical/pl.md): dodaje pionowy wymiar długości.
 
--   <img alt="" src=images/TechDraw_Dimension_Radius.svg  style="width:32px;"> [Wymiaruj promień](TechDraw_Dimension_Radius/pl.md): dodaje wymiar promienia do okręgu lub łuku.
+-   <img alt="" src=images/TechDraw_RadiusDimension.svg  style="width:32px;"> [Wstaw wymiar promienia](TechDraw_RadiusDimension/pl.md): dodaje wymiar promienia do okręgu lub łuku.
 
--   <img alt="" src=images/TechDraw_Dimension_Diameter.svg  style="width:32px;"> [Wymiaruj średnicę](TechDraw_Dimension_Diameter/pl.md): dodaje wymiar średnicy do okręgu lub łuku.
+-   <img alt="" src=images/TechDraw_DiameterDimension.svg  style="width:32px;"> [Wstaw wymiar średnicy](TechDraw_DiameterDimension/pl.md): dodaje wymiar średnicy do okręgu lub łuku.
 
--   <img alt="" src=images/TechDraw_Dimension_Angle.svg  style="width:32px;"> [Wymiaruj kąt](TechDraw_Dimension_Angle/pl.md): dodaje wymiar kąta pomiędzy dwoma krawędziami prostymi.
+-   <img alt="" src=images/TechDraw_AngleDimension.svg  style="width:32px;"> [Wstaw wymiar kąta](TechDraw_AngleDimension/pl.md): dodaje wymiar kąta pomiędzy dwoma krawędziami prostymi.
 
--   <img alt="" src=images/TechDraw_Dimension_Angle3Pt.svg  style="width:32px;"> [Wymiaruj kąt na podstawie 3 punktów](TechDraw_Dimension_Angle3Pt/pl.md): dodaje wymiar kąta na podstawie trzech podanych punktów.
+-   <img alt="" src=images/TechDraw_3PtAngleDimension.svg  style="width:32px;"> [Wymiaruj kąt na podstawie 3 punktów](TechDraw_3PtAngleDimension/pl.md): dodaje wymiar kąta na podstawie trzech podanych punktów.
 
--   <img alt="" src=images/TechDraw_Dimension_Horizontal_Extent.svg  style="width:32px;"> [Nowy wymiar poziomy](TechDraw_Dimension_Horizontal_Extent/pl.md): dodaje wymiar poziomy. {{Version/pl|0.19}}
+-   <img alt="" src=images/TechDraw_HorizontalExtentDimension.svg  style="width:32px;"> [Zakres poziomy](TechDraw_HorizontalExtentDimension/pl.md): dodaje wymiar poziomy. {{Version/pl|0.19}}
 
--   <img alt="" src=images/TechDraw_Dimension_Vertical_Extent.svg  style="width:32px;"> [Nowy wymiar pionowy](TechDraw_Dimension_Vertical_Extent/pl.md): dodaje wymiar pionowy {{Version/pl|0.19}}
+-   <img alt="" src=images/TechDraw_VerticalExtentDimension.svg  style="width:32px;"> [Zakres pionowy](TechDraw_VerticalExtentDimension/pl.md): dodaje wymiar pionowy {{Version/pl|0.19}}
 
--   <img alt="" src=images/TechDraw_Dimension_Link.svg  style="width:32px;"> [Powiąż wymiar](TechDraw_Dimension_Link/pl.md): umożliwia powiązanie istniejącego wymiaru z geometrią 3D.
+-   <img alt="" src=images/TechDraw_LinkDimension.svg  style="width:32px;"> [Powiąż wymiar z geometrią 3D](TechDraw_LinkDimension/pl.md): umożliwia połączenie istniejącego wymiaru z geometrią 3D.
 
--   <img alt="" src=images/TechDraw_Balloon.svg  style="width:32px;"> [Wstaw dymek z tekstem](TechDraw_Balloon/pl.md): dodaje adnotację w *baloniku* na stronie. {{Version/pl|0.19}}
+-   <img alt="" src=images/TechDraw_Balloon.svg  style="width:32px;"> [Wstaw adnotację w formie dymka](TechDraw_Balloon/pl.md): dodaje na stronie adnotację w *baloniku*. {{Version/pl|0.19}}
 
--   <img alt="" src=images/TechDraw_Dimension_Landmark.svg  style="width:32px;"> [Nowy wymiar odległości](TechDraw_Dimension_Landmark/pl.md): dodaje wymiar dystansu. {{Version/pl|0.19}}
-
-## Import/Eksport
-
-Są to narzędzia do eksportu zawartości stron do innych programów.
-
--   <img alt="" src=images/TechDraw_ExportPageSVG.svg  style="width:32px;"> [Zapisz aktywną stronę w formacie SVG](TechDraw_ExportPageSVG/pl.md): eksport strony do pliku w formacie [SVG](SVG/pl.md).
-
--   <img alt="" src=images/TechDraw_ExportPageDXF.svg  style="width:32px;"> [Zapisz aktywną stronę w formacie DXF](TechDraw_ExportPageDXF/pl.md): eksport strony do pliku w formacie [DXF](DXF/pl.md).
+-   <img alt="" src=images/TechDraw_Dimension_Landmark.svg  style="width:32px;"> [Wstaw wymiar przestrzenny](TechDraw_Dimension_Landmark/pl.md): dodaje wymiar dystansu. {{Version/pl|0.19}}
 
 ## Wystrój
 
@@ -136,7 +127,7 @@ Narzędzia do nanoszenia adnotacji służą do \" oznaczania \" rysunku dodatkow
 
 -   <img alt="" src=images/TechDraw_2PointCenterLine.svg  style="width:32px;"> [Dodaj oś dwóch punktów](TechDraw_2PointCenterLine/pl.md): Narzędzie Oś dwóch punktów dodaje linię środkową pomiędzy 2 punktami. {{Version/pl|0.19}}
 
--   <img alt="" src=images/TechDraw_2PointCosmeticLine.svg  style="width:32px;"> [Dodaj linię estetyczną](TechDraw_2PointCosmeticLine/pl.md): dodaje linię estetyczną łączącą 2 wierzchołki. {{Version/pl|0.19}}
+-   <img alt="" src=images/TechDraw_2PointCosmeticLine.svg  style="width:32px;"> [Dodaj linię kosmetyczną \...](TechDraw_2PointCosmeticLine/pl.md): dodaje linię estetyczną łączącą 2 wierzchołki. {{Version/pl|0.19}}
 
 -   <img alt="" src=images/TechDraw_CosmeticEraser.svg  style="width:32px;"> [Usuń obiekt kosmetyczny](TechDraw_CosmeticEraser/pl.md): Narzędzie to usuwa obiekty kosmetyczne z danej strony. {{Version/pl|0.19}}
 
@@ -153,24 +144,33 @@ Pakiet rozszerzeń zawiera wiele przydatnych narzędzi do ulepszenia Twoich rysu
 
 **Niektóre z tych narzędzi nie zostały jeszcze wydane.**
 
--   <img alt="" src=images/TechDraw_Extension_CircleCenterLines.svg  style="width:32px;">. [Oś otworu](TechDraw_Extension_CircleCenterLines/pl.md): dodaje linie środkowe do okręgów i łuków. {{Version/pl|0.20}}
+-   <img alt="" src=images/TechDraw_ExtensionCircleCenterLines.svg  style="width:32px;"> [Oś otworu](TechDraw_ExtensionCircleCenterLines/pl.md): dodaje linie środkowe do okręgów i łuków. {{Version/pl|0.20}}
 
--   <img alt="" src=images/TechDraw_Extension_ThreadHoleSide.svg  style="width:32px;"> [Oś otworu, widok z boku](TechDraw_Extension_ThreadHoleSide/pl.md): dodaje symboliczną linię do bocznego widoku otworu. {{Version/pl|0.20}}
+-   <img alt="" src=images/TechDraw_ExtensionThreadHoleSide.svg  style="width:32px;"> [Oś otworu, widok z boku](TechDraw_ExtensionThreadHoleSide/pl.md): dodaje symboliczną linię do bocznego widoku otworu. {{Version/pl|0.20}}
 
--   <img alt="" src=images/TechDraw_Extension_ThreadHoleBottom.svg  style="width:32px;">. [Otwór gwintowany, widok od dołu](TechDraw_Extension_ThreadHoleBottom/pl.md): dodaje symboliczny gwint do widoku otworów od dołu. {{Version/pl|0.20}}
+-   <img alt="" src=images/TechDraw_ExtensionThreadHoleBottom.svg  style="width:32px;"> [Otwór gwintowany, widok od dołu](TechDraw_ExtensionThreadHoleBottom.md): dodaje symboliczny gwint do widoku otworów od dołu. {{Version/pl|0.20}}
 
--   <img alt="" src=images/TechDraw_Extension_ThreadBoltSide.svg  style="width:32px;">. [Symbol gwintu, widoku boczny śruby](TechDraw_Extension_ThreadBoltSide/pl.md): dodaje symbole gwintu do widoku bocznego śruby. {{Version/pl|0.20}}
+-   <img alt="" src=images/TechDraw_ExtensionThreadBoltSide.svg  style="width:32px;"> [Symbol gwintu, widoku boczny śruby](TechDraw_ExtensionThreadBoltSide/pl.md): dodaje symbole gwintu do widoku bocznego śruby. {{Version/pl|0.20}}
 
--   <img alt="" src=images/TechDraw_Extension_ThreadBoltBottom.svg  style="width:32px;">. [Symbol gwintu, widoku śruby od od dołu](TechDraw_Extension_ThreadBoltBottom/pl.md): dodaje symbol gwintu do widoku śruby od dołu. {{Version/pl|0.20}}
+-   <img alt="" src=images/TechDraw_ExtensionThreadBoltBottom.svg  style="width:32px;"> [Symbol gwintu, widoku śruby od od dołu](TechDraw_ExtensionThreadBoltBottom/pl.md): dodaje symbol gwintu do widoku śruby od dołu. {{Version/pl|0.20}}
+
+## Import/Eksport
+
+Są to narzędzia do eksportu zawartości stron do innych programów.
+
+-   <img alt="" src=images/TechDraw_ExportPageSVG.svg  style="width:32px;"> [Zapisz aktywną stronę w formacie SVG](TechDraw_ExportPageSVG/pl.md): eksport strony do pliku w formacie [SVG](SVG/pl.md).
+
+-   <img alt="" src=images/TechDraw_ExportPageDXF.svg  style="width:32px;"> [Zapisz aktywną stronę w formacie DXF](TechDraw_ExportPageDXF/pl.md): eksport strony do pliku w formacie [DXF](DXF/pl.md).
 
 ## Dodatkowe właściwości 
 
 -   [Grupy linii](TechDraw_LineGroup/pl.md): domyślne wagi można przypisać do różnych typów linii.
 -   [Szablony](TechDraw_Templates/pl.md): domyślne szablony zdefiniowane dla stron rysunku.
 -   [Wypełnienie kreskowaniem](TechDraw_Hatching/pl.md): objaśnienie różnych technik kreskowania.
--   [Wymiarowanie geometrii i tolerancja](TechDraw_Geometric_dimensioning_and_tolerancing/pl.md): wyjaśnienie, jak osiągnąć wymiarowanie geometrii i tolerancji.
 
-==
+[Wymiarowanie geometrii i tolerancja](TechDraw_Geometric_dimensioning_and_tolerancing/pl.md): wyjaśnienie, jak osiągnąć wymiarowanie geometrii i tolerancji.
+
+## Ustawienia
 
 -   <img alt="" src=images/Preferences-techdraw.svg  style="width:32px;"> [Ustawienia](TechDraw_Preferences/pl.md): ustawienia domyślnych wartości strony rysunku, takich jak kąt projekcji, kolory, rozmiary tekstu i style linii.
 
@@ -186,7 +186,6 @@ Narzędzi środowiska Rysunek Techniczny można używać w [makrodefinicjach](Ma
 -   Rysunki środowiska Rysunek Techniczny i jego API nie są zamienne ze środowiskiem [Kreślenie](Drawing_Workbench/pl.md) i jego API. Możliwa jest konwersja Strony Kreślenie do Strony Rysunku Technicznego przy użyciu skryptu Pythona (`moveViews.py`).
 -   Możliwe jest posiadanie zarówno Strony środowiska Rysunku Technicznego jak i Kreślenie w tym samym dokumencie FreeCAD, ponieważ każda strona jest całkowicie niezależna od siebie.
 -   Istnieją niewielkie różnice w określaniu edytowalnych tekstów w szablonach [SVG](SVG.md) w porównaniu z modułem Kreślenie. W Rysunku Technicznym skalowanie dokumentu SVG wpływa na położenie edytowalnych pól tekstowych. Więcej szczegółów znajdziesz w dyskusji na forum [TechDraw templates scale](https://forum.freecadweb.org/viewtopic.php?f=3&t=24981&p=196271#p196271).
--   Gwinty nie są wykonywane. Możliwym obejściem jest użycie [wymiaru średnicy](TechDraw_Dimension_Diameter/pl.md) i wprowadzenie odpowiedniego tekstu do właściwości \"Format Spec\", np. \"M4x15\".
 -   Nie wycinaj, nie kopiuj i nie wklejaj obiektów Rysunku Technicznego w widoku drzewa, ponieważ generalnie nie działa to dobrze.
 
 ## Poradniki
@@ -195,7 +194,7 @@ Narzędzi środowiska Rysunek Techniczny można używać w [makrodefinicjach](Ma
 -   [Rysunek Techniczny: Jak wykonać nowy szablon ramki](TechDraw_TemplateHowTo/pl.md): instrukcja tworzenia nowego szablonu strony w programie Inkscape do użycia w środowisku pracy Rysunek Techniczny.
 -   [Pomiar kątów na otworach](Measurement_Of_Angles_On_Holes/pl.md): instrukcje dotyczące dodawania linii centrujących i kolejnych oznaczeń kątowych na otworach.
 -   [Rozmaitości](TechDraw_HowTo_Page/pl.md): instrukcje dotyczące różnych ustawień, takich jak znaki środka, itp.
--   [Tworzenie koła podziałowego](TechDraw_Pitch_Circle/pl.md): instrukcja dodawania koła podziałowego.
+-   [Tworzenie koła podziałowego](TechDraw_pitch_circle_tutorial/pl.md): instrukcja dodawania koła podziałowego.
 
 Wideo poradniki przygotowane przez użytkownika sliptonic
 

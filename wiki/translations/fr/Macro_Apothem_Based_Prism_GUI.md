@@ -1,5 +1,4 @@
 # Macro Apothem Based Prism GUI/fr
-
  {{Macro/fr
 |Name=Apothem Based Prism
 |Icon=Part Prism Apothem.svg

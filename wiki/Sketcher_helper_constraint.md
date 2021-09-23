@@ -1,5 +1,4 @@
 # Sketcher helper constraint
-
  
 
 ## Overview

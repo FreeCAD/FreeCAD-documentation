@@ -15,7 +15,7 @@
 
 Il comando **Allineamento** allinea un oggetto in relazione a un oggetto di riferimento fisso usando una o più coppie di punti.
 
-![](images/Std_Alignment2.png ) *L'interfaccia di comando dopo aver definito due coppie di punti*
+![](images/Std_Alignment_example.png ) *L'interfaccia di comando dopo aver definito due coppie di punti*
 
 ## Utilizzo
 

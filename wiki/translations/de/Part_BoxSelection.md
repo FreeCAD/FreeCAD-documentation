@@ -15,7 +15,7 @@ Das **<img src="images/Part_BoxSelection.svg" width=16px> [Part RechteckAuswahl]
 
 ## Anwendung
 
-1.  Gehe zu {{MenuCommand/de|Formteil → <img src="images/Part_BoxSelection.svg" width=16px> Rechteckauswahl}}.
+1.  Gehe zu **Formteil → <img src="images/Part_BoxSelection.svg" width=16px> Rechteckauswahl**.
 2.  Klicke und ziehe den Mauszeiger im Ansichtsfenster, um ein Rechteck zu erstellen, das eine oder mehrere Formen berührt.
 
 ## Hinweise

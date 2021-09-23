@@ -1,5 +1,4 @@
 # MOOC Workbench/fr
-
  <img alt="" src=images/MOOC_workbench_icon.svg  style="width:240px;"> 
 *align=center|L'icône de l'atelier externe MOOC FreeCAD*
 

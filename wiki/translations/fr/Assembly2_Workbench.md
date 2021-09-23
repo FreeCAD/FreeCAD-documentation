@@ -2,11 +2,10 @@
 
 
 
-
 <div class="mw-translate-fuzzy">
 
 
-{{VeryImportantMessage|L'atelier Assembly2 est obsolète. Son auteur ne le maintient plus, il peut donc ne pas fonctionner avec les versions FreeCAD 0.17 et supérieures. Les informations de cette page ne sont pas conservées et sont simplement conservées pour des raisons historiques.}}
+**L'atelier Assembly2 est obsolète. Son auteur ne le maintient plus, il peut donc ne pas fonctionner avec les versions FreeCAD 0.17 et supérieures. Les informations de cette page ne sont pas conservées et sont simplement conservées pour des raisons historiques.**
 
 
 {{Message|Pour une alternative, voir [A2plus](A2plus_Workbench/fr.md). Cet établi est une fourche de Assembly2, mais il n'est pas compatible avec lui. Si vous avez des modèles plus anciens que vous devez ouvrir, vous devriez rester avec FreeCAD 0.16 et Assembly2. Les nouveaux modèles doivent être entièrement créés et ouverts avec A2plus.<br/>

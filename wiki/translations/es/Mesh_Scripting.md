@@ -2,57 +2,34 @@
 
 
 
-
 {{TOCright}}
 
+## Introducción
 
-<div class="mw-translate-fuzzy">
-
-### Introducción
-
-En primer lugar tienes que importar el módulo Malla:
-
-
-</div>
-
-To get access to the `Mesh` module you have to import it first:
+Para obtener acceso al módulo `Malla` hay que importarlo primero:
 
 
 ```python
 import Mesh
 ```
 
+## Creación
 
-<div class="mw-translate-fuzzy">
-
-### Creación y Carga 
-
-Para crear un objeto malla vacío sólo tienes que utilizar el constructor estándar:
-
-
-</div>
-
-To create an empty mesh object just use the standard constructor:
+Para crear un objeto de malla vacío basta con utilizar el constructor estándar:
 
 
 ```python
 mesh = Mesh.Mesh()
 ```
 
-
-<div class="mw-translate-fuzzy">
-
-También puedes crear un objeto desde un archivo
-
-
-</div>
+También puede crear un objeto a partir de un archivo:
 
 
 ```python
 mesh = Mesh.Mesh("D:/temp/Something.stl")
 ```
 
-O también puedes crear la malla a partir de un conjunto de triángulos descrito por sus vértices:
+O crearla a partir de un conjunto de triángulos descritos por sus puntos de esquina:
 
 
 ```python
@@ -66,28 +43,11 @@ meshObject = Mesh.Mesh(triangles)
 Mesh.show(meshObject)
 ```
 
+El Núcleo-Malla se encarga de crear una estructura de datos topológicamente correcta ordenando los puntos y aristas coincidentes. {{Top}}
 
-<div class="mw-translate-fuzzy">
+## Modelización
 
-El núcleo de mallas, Mesh-Kernel, se encarga de crear una estructura topológica de datos correcta, ordenando conjuntamente los puntos coincidentes y los bordes.
-
-
-</div>
-
-
-{{Top}}
-
-
-<div class="mw-translate-fuzzy">
-
-### Modelado
-
-Para crear geometrías regulares puedes utilizar el script de Python BuildRegularGeoms.py.
-
-
-</div>
-
-To create regular geometries you can use one of the `create*()` methods. A torus, for instance, can be created as follows:
+Para crear geometrías regulares se puede utilizar uno de los métodos `create*()`. Un toroide, por ejemplo, se puede crear de la siguiente manera:
 
 
 ```python
@@ -95,15 +55,9 @@ m = Mesh.createTorus(8.0, 2.0, 50)
 Mesh.show(m)
 ```
 
+Los dos primeros parámetros definen los radios del toroide y el tercer parámetro es un factor de submuestreo para saber cuántos triángulos se crean. Cuanto mayor sea este valor, más suave será la malla.
 
-<div class="mw-translate-fuzzy">
-
-Los dos primeros parámetros definen los radios del toroide y el tercer parámetro es un factor de submuestreo relacionado con el número de triángulos que se han de crear. Cuanto mayor sea este valor, más suave es la forma y mejor acabado tiene el cuerpo.
-
-
-</div>
-
-The `Mesh` module also provides three Boolean methods: `union()`, `intersection()` and `difference()`:
+El módulo `Malla` también proporciona tres métodos booleanos: `union()`, `intersection()` y `difference()`:
 
 
 ```python
@@ -118,13 +72,7 @@ m6 = Mesh.Mesh(m2)
 m6.difference(m1)   # the difference of m2 and m1, usually the result is different to m5
 ```
 
-
-<div class="mw-translate-fuzzy">
-
-Por último, un ejemplo completo que calcula la intersección entre una esfera y un cilindro que corta a la esfera.
-
-
-</div>
+Este es un ejemplo que crea una tubería utilizando el método `difference()`:
 
 
 ```python
@@ -144,18 +92,10 @@ doc.recompute()
 
 {{Top}}
 
+## Notas
 
-<div class="mw-translate-fuzzy">
+Una fuente extensa, aunque difícil de usar, de scripts relacionados con la malla son los scripts de pruebas unitarias del módulo `Mesh`. En estas pruebas unitarias se llaman literalmente todos los métodos y se ajustan todas las propiedades/atributos. Así que si eres lo suficientemente audaz, echa un vistazo al módulo [Unit Test](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Mesh/App/MeshTestsApp.py).
 
-### Ajustes y pruebas 
-
-Una extensa, aunque dificil de usar, librería de archivos de guión relacionados con mallas son los scripts de prueba del módulo Malla. En esta unidad, literalmente todos los métodos son invocados, y se ajustan todas las propiedades y atributos. Así que si eres lo suficientemente audaz, echa un vistazo al [Módulo de prueba de unidades](http://free-cad.svn.sourceforge.net/viewvc/free-cad/trunk/src/Mod/Mesh/App/MeshTestsApp.py?view=markup).
-
-
-</div>
-
-An extensive, though hard to use, source of mesh related scripting are the unit test scripts of the `Mesh` module. In these unit tests literally all methods are called and all properties/attributes are tweaked. So if you are bold enough, take a look at the [Unit Test module](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Mesh/App/MeshTestsApp.py).
-
-See also: [Mesh API](Mesh_API.md). {{Top}} {{Powerdocnavi}} {{Mesh Tools navi}} 
+Ver también: [Interfaz de programación de aplicaciones Malla](Mesh_API.md). {{Top}} {{Powerdocnavi}} {{Mesh Tools navi}} 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)

@@ -9,9 +9,19 @@
 
 </div>
 
+## Description
+
+
+<div class="mw-translate-fuzzy">
+
 ## Beschreibung
 
 Dieses Werkzeug schaltet die Sichtbarkeit von Delta (grün) Messungen um.
+
+
+</div>
+
+## Usage
 
 
 <div class="mw-translate-fuzzy">
@@ -33,9 +43,6 @@ Dieses Werkzeug schaltet die Sichtbarkeit von Delta (grün) Messungen um.
 
 
 </div>
-
-
-
 
 
  

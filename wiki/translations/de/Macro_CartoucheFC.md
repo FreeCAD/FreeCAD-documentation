@@ -1,25 +1,15 @@
 # Macro CartoucheFC/de
-
-
-
-
-<div class="mw-translate-fuzzy">
-
-
-{{Macro/de
+ {{Macro/de
 |Name=Macro CartoucheFC
 |Icon=Macro_CartoucheFC.png
 |Translate=Macro CartoucheFC
-|Description=Dieses Makro ist eine vollständige Anwendung. Es ermöglicht das Füllen der Kartusche des mit FreeCAD gelieferten Zeichenblatts.
+|Description=Dieses Makro ist eine vollständige Anwendung. Es ermöglicht das Füllen der Kartusche des mit FreeCAD gelieferten Zeichenblatts (nur für den [Drawing-Arbeitsbereich](Drawing_Workbench/de.md)).
 |Author=Mario52
 |Version= 0.3
 |Date=2014-07-02
-|FCVersion=All version using Drawing Workbench
+|FCVersion=Alle Versionen, die den Drawing-Arbeitsbereich benutzen
 |Download=[https://www.freecadweb.org/wiki/images/0/0a/Macro_CartoucheFC.png ToolBar Icon]
 }}
-
-
-</div>
 
 ## Beschreibung
 

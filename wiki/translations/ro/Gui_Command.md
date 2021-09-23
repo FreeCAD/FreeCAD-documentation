@@ -2,7 +2,6 @@
 
 
 
-
 <div class="mw-translate-fuzzy">
 
 GuiCommand este una dintre cele mai importante funcții ale FreeCAD în principalul punct de interacțiune al utilizatorului. De fiecare dată când utilizatorul selectează un element de meniu sau apasă butonul unei bare de instrumente pe care îl activează a GuiCommand. Unele dintre atributele unui GuiCommand sunt:

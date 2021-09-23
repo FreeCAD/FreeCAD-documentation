@@ -1,5 +1,4 @@
 # Part and PartDesign/ru
-
  {{TOCright}}
 
 ## Обзор

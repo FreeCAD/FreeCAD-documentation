@@ -1,12 +1,11 @@
 # Lattice2 Workbench/de
-
  } <img alt="" src=images/Lattice2_Lattice2.svg  style="width:240px;"> 
 *align=center|Das FreeCAD Lattice2 Externer Arbeitsbereichssymbol*
 
 ## Einführung
 
 
-{{VeryImportantMessage|Lattice2 ist stabil. Es können neue Funktionen hinzugefügt werden, aber es sollen keine bahnbrechenden Änderungen vorgenommen werden.}}
+**Lattice2 ist stabil. Es können neue Funktionen hinzugefügt werden, aber es sollen keine bahnbrechenden Änderungen vorgenommen werden.**
 
 
 {{TOCright}}

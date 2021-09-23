@@ -1,7 +1,6 @@
 # Common Airfoil Data Import/fr
 
 
-
 ## Importation des données des profils aérodynamiques 
 
 FreeCAD peut importer des données de profils comme celles qui se trouvent sur la base de données de coordonnées de profils [UIUC Airfoil Coordinates Database](http://m-selig.ae.illinois.edu/ads/coord_database.html) ou des fichiers produits par un logiciel de création et d\'annalyse de profils comme [XFLR5](http://www.xflr5.com/xflr5.htm).

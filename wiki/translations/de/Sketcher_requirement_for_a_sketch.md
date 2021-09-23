@@ -2,7 +2,6 @@
 
 
 
-
 {{TutorialInfo/de
 |Topic=Skizze
 |Level=Anfänger

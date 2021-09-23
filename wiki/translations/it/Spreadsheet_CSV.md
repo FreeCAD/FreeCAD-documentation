@@ -2,7 +2,6 @@
 
 
 
-
 <div class="mw-translate-fuzzy">
 
 Il [formato CSV](http://en.wikipedia.org/wiki/Comma-separated_values) (Comma-Separated Values) è un formato di testo semplice per scambiare i dati dei fogli di calcolo. Di solito può essere importato ed esportato da qualsiasi applicazione foglio di calcolo come LibreOffice o Microsoft Excel. La lettura e la scrittura in formato csv è fatto dal [modulo csv](http://docs.python.org/2/library/csv.html) di Python interno.

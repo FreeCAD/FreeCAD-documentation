@@ -2,7 +2,6 @@
 
 
 
-
 <div class="mw-translate-fuzzy">
 
 
@@ -77,7 +76,7 @@ Note that circular edges do not have to be full circles.
 
 -   <img alt="" src=images/Draft_Snap_Grid.svg  style="width:32px;"> [Snap Grid](Draft_Snap_Grid.md): snaps to the intersections of grid lines.
 
--   <img alt="" src=images/Draft_Snap_WorkingPlane.svg  style="width:32px;"> [Snap Working Plane](Draft_Snap_WorkingPlane.md): projects the snap point onto the current [working plane](Draft_SelectPlane.md).
+-   <img alt="" src=images/Draft_Snap_WorkingPlane.svg  style="width:32px;"> [Snap WorkingPlane](Draft_Snap_WorkingPlane.md): projects the snap point onto the current [working plane](Draft_SelectPlane.md).
 
 -   <img alt="" src=images/Draft_Snap_Dimensions.svg  style="width:32px;"> [Snap Dimensions](Draft_Snap_Dimensions.md): shows temporary X and Y dimensions.
 

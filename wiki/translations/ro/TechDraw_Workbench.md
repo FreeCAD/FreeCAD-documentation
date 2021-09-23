@@ -4,7 +4,6 @@
 
 
 
-
 <img alt="TechDraw workbench icon" src=images/Workbench_TechDraw.svg  style="width:128px;">
 
 ## Introducere
@@ -15,7 +14,13 @@ La pagină pot fi adăugate simboluri, secțiuni, suprafețe hașurate, adnotăr
 
 TechDraw a fost oficial inclus în FreeCAD începând cu versiunea 0.17; acesta este destinat să înlocuiască [Drawing Workbench](Drawing_Workbench.md). Ambele benzi de lucru sunt încă furnizate în v0.17, dar Workbench-ul de desen poate fi eliminat în versiunile viitoare. Pentru a ține pasul cu planurile și evoluțiile TechDraw, vizitați [TechDraw Roadmap](TechDraw_Roadmap.md)..
 
+
+<div class="mw-translate-fuzzy">
+
 FreeCAD este în primul rând o aplicație de modelare 3D și, prin urmare, nu are multe instrumente de desenare 2D, care sunt incluse în cea mai mare parte în [ Draft](Draft_Workbench.md) și [Sketcher Workbench](Sketcher_Workbench.md). Dacă obiectivul dvs. principal constă în realizarea de desene complexe 2D și [DXF](DXF.md) și nu aveți nevoie de modelare 3D, vă recomandăm să luați în considerare un program software dedicat pentru redactarea tehnică, cum ar fi \[https: //en.wikipedia .org / wiki / LibreCAD LibreCAD\], [QCad](https://en.wikipedia.org/wiki/QCad), TurboCad și altele.
+
+
+</div>
 
 
 {{TOCright}}
@@ -68,40 +73,79 @@ Acestea sunt instrumente pentru a crea și lucra cu obiicte tip Cotă.
 
 Cotele liniare pot fi bazate pe două puncte, o linie sau două linii.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Techdraw_Dimension_Length.png  style="width:32px;">
 
 <img alt="Dimension_Length.png" src=images/Dimension_Length.png  style="width:32px;"> [New Length](TechDraw_Dimension_Length.md): adaugă o cotă tip lungime.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Techdraw_Dimension_Horizontal.png  style="width:32px;"> [New Horizontal](TechDraw_Dimension_Horizontal.md): adaugă o cotă orizontală tip lungime.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Techdraw_Dimension_Vertical.png  style="width:32px;"> [New Vertical](TechDraw_Dimension_Vertical.md): adaugă o cotă tip lungime verticală
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Techdraw_Dimension_Radius.png  style="width:32px;"> [New Radius](TechDraw_Dimension_Radius.md): adaugă o cotă pentru raza unui cerc sau a unui arc de cerc.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Techdraw_Dimension_Diameter.png  style="width:32px;"> [New Diameter](TechDraw_Dimension_Diameter.md): adaugă o cotă pentru diametrul unui cerc sau a unui arc de cerc.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Techdraw_Dimension_Angle.png  style="width:32px;"> [New Angle](TechDraw_Dimension_Angle.md): adaugă o cotă pentru un unghi sau pentru două margini drepte.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/TechDraw_Dimension_Angle3Pt.png  style="width:32px;"> [New Angle3Pt](TechDraw_Dimension_Angle3Pt.md): adaugă o cotă tip dimensiune unghiulară utilizând trei vârfuri.
 
--   <img alt="" src=images/TechDraw_Dimension_Horizontal_Extent.svg  style="width:32px;"> [New Horizontal Extent](TechDraw_Dimension_Horizontal_Extent.md): adds a horizontal extent dimension. <small>(v0.19)</small> 
 
--   <img alt="" src=images/TechDraw_Dimension_Vertical_Extent.svg  style="width:32px;"> [New Vertical Extent](TechDraw_Dimension_Vertical_Extent.md): adds a vertical extent dimension. <small>(v0.19)</small> 
+</div>
+
+-   <img alt="" src=images/TechDraw_HorizontalExtentDimension.svg  style="width:32px;"> [Insert Horizontal Extent Dimension](TechDraw_HorizontalExtentDimension.md): adds a horizontal extent dimension. <small>(v0.19)</small> 
+
+-   <img alt="" src=images/TechDraw_VerticalExtentDimension.svg  style="width:32px;"> [Insert Vertical Extent Dimension](TechDraw_VerticalExtentDimension.md): adds a vertical extent dimension. <small>(v0.19)</small> 
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Dimension_Link.png  style="width:32px;"> [New Links](TechDraw_Dimension_Link.md): leagă o cotă existetnă de o formă geometrică 3 D
 
--   <img alt="" src=images/TechDraw_Balloon.svg  style="width:32px;"> [New Balloon](TechDraw_Balloon.md): adds a \"balloon\" annotation to a page. <small>(v0.19)</small> 
 
--   <img alt="" src=images/TechDraw_Dimension_Landmark.svg  style="width:32px;"> [New Landmark Dimension](TechDraw_Dimension_Landmark.md): adds a landmark distance dimension. <small>(v0.19)</small> 
+</div>
 
-## Import/Export
+-   <img alt="" src=images/TechDraw_Balloon.svg  style="width:32px;"> [Insert Balloon Annotation](TechDraw_Balloon.md): adds a \"balloon\" annotation to a page. <small>(v0.19)</small> 
 
-These are tools for exporting pages to other applications.
-
--   \* <img alt="" src=images/techdraw-saveSVG.svg  style="width:32px;"> [Save SVG](TechDraw_SaveSVG.md): Salvează o pagină ca fișier [SVG](SVG.md) .
--   <img alt="" src=images/techdraw-saveDXF.svg  style="width:32px;"> [Save DXF](TechDraw_SaveDXF.md): Salvează o pagină ca fișier [DXF](DXF.md).
-
--   <img alt="" src=images/TechDraw_ExportPageDXF.svg  style="width:32px;"> [Export Page as DXF](TechDraw_ExportPageDXF.md): saves the current page as [DXF](DXF.md) file.
+-   <img alt="" src=images/TechDraw_LandmarkDimension.svg  style="width:32px;"> [Insert Landmark Dimension](TechDraw_LandmarkDimension.md): adds a landmark distance dimension. <small>(v0.19)</small> 
 
 ## Decorațiune
 
@@ -139,7 +183,7 @@ The annotation tools are for \"marking up\" a drawing with additional informatio
 
 -   <img alt="" src=images/TechDraw_2PointCenterLine.svg  style="width:32px;"> [Add Centerline between 2 Points](TechDraw_2PointCenterLine.md): adds a centerline between 2 points. <small>(v0.19)</small> 
 
--   <img alt="" src=images/TechDraw_2PointCosmeticLine.svg  style="width:32px;"> [Add a cosmetic line](TechDraw_2PointCosmeticLine.md): adds a cosmetic line connecting 2 vertices. <small>(v0.19)</small> 
+-   <img alt="" src=images/TechDraw_2PointCosmeticLine.svg  style="width:32px;"> [Add Cosmetic Line Through 2 points](TechDraw_2PointCosmeticLine.md): adds a cosmetic line connecting 2 vertices. <small>(v0.19)</small> 
 
 -   <img alt="" src=images/TechDraw_CosmeticEraser.svg  style="width:32px;"> [Remove Cosmetic Object](TechDraw_CosmeticEraser.md): removes cosmetic objects from a page. <small>(v0.19)</small> 
 
@@ -156,25 +200,53 @@ The Extension Package includes many useful tools to improve your TechDraw drawin
 
 **Some of these tools have yet to be released.**
 
--   <img alt="" src=images/TechDraw_Extension_CircleCenterLines.svg  style="width:32px;"> [CircleCenterLines](TechDraw_Extension_CircleCenterLines.md): adds center lines to circles and arcs. <small>(v0.20)</small> 
+-   <img alt="" src=images/TechDraw_ExtensionCircleCenterLines.svg  style="width:32px;"> [CircleCenterLines](TechDraw_ExtensionCircleCenterLines.md): adds center lines to circles and arcs. <small>(v0.20)</small> 
 
--   <img alt="" src=images/TechDraw_Extension_ThreadHoleSide.svg  style="width:32px;"> [ThreadHoleSide](TechDraw_Extension_ThreadHoleSide.md): adds a symbolic thread to the side view of a hole. <small>(v0.20)</small> 
+-   <img alt="" src=images/TechDraw_ExtensionThreadHoleSide.svg  style="width:32px;"> [ThreadHoleSide](TechDraw_ExtensionThreadHoleSide.md): adds a symbolic thread to the side view of a hole. <small>(v0.20)</small> 
 
--   <img alt="" src=images/TechDraw_Extension_ThreadHoleBottom.svg  style="width:32px;"> [ThreadHoleBottom](TechDraw_Extension_ThreadHoleBottom.md): adds symbolic threads to the bottom view of holes. <small>(v0.20)</small> 
+-   <img alt="" src=images/TechDraw_ExtensionThreadHoleBottom.svg  style="width:32px;"> [ThreadHoleBottom](TechDraw_ExtensionThreadHoleBottom.md): adds symbolic threads to the bottom view of holes. <small>(v0.20)</small> 
 
--   <img alt="" src=images/TechDraw_Extension_ThreadBoltSide.svg  style="width:32px;"> [ThreadBoltSide](TechDraw_Extension_ThreadBoltSide.md): adds a symbolic thread to the side view of a bolt. <small>(v0.20)</small> 
+-   <img alt="" src=images/TechDraw_ExtensionThreadBoltSide.svg  style="width:32px;"> [ThreadBoltSide](TechDraw_ExtensionThreadBoltSide.md): adds a symbolic thread to the side view of a bolt. <small>(v0.20)</small> 
 
--   <img alt="" src=images/TechDraw_Extension_ThreadBoltBottom.svg  style="width:32px;"> [ThreadBoltBottom](TechDraw_Extension_ThreadBoltBottom.md): adds symbolic threads to the bottom view of bolts. <small>(v0.20)</small> 
+-   <img alt="" src=images/TechDraw_ExtensionThreadBoltBottom.svg  style="width:32px;"> [ThreadBoltBottom](TechDraw_ExtensionThreadBoltBottom.md): adds symbolic threads to the bottom view of bolts. <small>(v0.20)</small> 
+
+## Import/Export
+
+These are tools for exporting pages to other applications.
+
+-   \* <img alt="" src=images/techdraw-saveSVG.svg  style="width:32px;"> [Save SVG](TechDraw_SaveSVG.md): Salvează o pagină ca fișier [SVG](SVG.md) .
+-   <img alt="" src=images/techdraw-saveDXF.svg  style="width:32px;"> [Save DXF](TechDraw_SaveDXF.md): Salvează o pagină ca fișier [DXF](DXF.md).
+
+-   <img alt="" src=images/TechDraw_ExportPageDXF.svg  style="width:32px;"> [Export Page as DXF](TechDraw_ExportPageDXF.md): saves the current page as [DXF](DXF.md) file.
 
 ## Caracteristici suplimentare 
+
+
+<div class="mw-translate-fuzzy">
 
 -   [Hatching](TechDraw_Hatching.md): explică diverse tehnici de hașurare.
 -   [Line Groups](TechDraw_LineGroup.md): Grosimi implicite pot fi asignate diferitor tipuri de linie.
 -   [Templates](TechDraw_Templates.md): șabloanele implicite definite pentru paginile de desen.
 
+
+</div>
+
+## Preferences
+
+
+<div class="mw-translate-fuzzy">
+
 ## Setările de elecție 
 
 -   <img alt="" src=images/Preferences-techdraw.svg  style="width:32px;"> [Preferences](TechDraw_Preferences.md): preferințele pentru valorile implicite ale paginii desenului, cum ar fi unghiul de proiectare, culori, dimensiunile textului și stilurile de linie.
+
+
+</div>
+
+## Scripting
+
+
+<div class="mw-translate-fuzzy">
 
 ## Script-Programare 
 
@@ -182,6 +254,14 @@ Instrumentele TechDraw pot fi utilizate în [macros](macros.md) și din consola 
 
 -   [TechDraw API](TechDraw_API.md)
 -   [TechDrawGui API](TechDrawGui_API.md)
+
+
+</div>
+
+## Limitations
+
+
+<div class="mw-translate-fuzzy">
 
 ## Limitări
 
@@ -192,6 +272,9 @@ Instrumentele TechDraw pot fi utilizate în [macros](macros.md) și din consola 
 -   Există diferențe minore în specificarea textelor editabile în șabloanele [SVG](SVG.md) în comparație cu modulul Desenare. În TechDraw, scalarea documentului SVG afectează poziția câmpurilor de text editabile. Vedeți discuția pe forum [Scala TechDraw șabloane](https://forum.freecadweb.org/viewtopic.php?f=3&t=24981&p=196271#p196271) pentru mai multe detalii.
 
 -   Nu tăiați, copiați și lipiți obiecte TechDraw în vizualizarea arborescentă, deoarece în general aceasta nu funcționează bine.
+
+
+</div>
 
 ## Tutoriale
 

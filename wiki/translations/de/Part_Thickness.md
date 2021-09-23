@@ -10,9 +10,22 @@
 
 </div>
 
+## Description
+
+
+<div class="mw-translate-fuzzy">
+
 ## Beschreibung
 
 Das <img alt="" src=images/Part_Thickness.svg  style="width:24px;"> [Dicke](Part_Thickness/de.md) Werkzeug bearbeitet eine massive Form und wandelt sie in einen hohlen Gegenstand um, indem es jeder seiner Flächen eine definierte Dicke verleiht. Bei einigen Volumenkörpern erlaubt es dir, die Arbeit erheblich zu beschleunigen und vermeidet die Herstellung von Extrusionen und Taschen.
+
+
+</div>
+
+## Usage
+
+
+<div class="mw-translate-fuzzy">
 
 ## Anwendung
 
@@ -22,6 +35,14 @@ Das <img alt="" src=images/Part_Thickness.svg  style="width:24px;"> [Dicke](Part
 4.  Setze die Parameter (siehe [Optionen](#Options/de.md))
 5.  Klicke **OK** zur Bestätigung, führe die Operation aus und verlasse die Funktion
 6.  Passe die Parameter in der Eigenschaftentabelle bei Bedarf an
+
+
+</div>
+
+## Options
+
+
+<div class="mw-translate-fuzzy">
 
 ## Optionen
 
@@ -41,13 +62,32 @@ Das <img alt="" src=images/Part_Thickness.svg  style="width:24px;"> [Dicke](Part
 -   Flächen / Fertig: Wähel die zu entfernenden Flächen, klicke dann **Fertig**
 -   Ansicht akutalisieren: Automatisches Aktualisieren in Echtzeit
 
+
+</div>
+
+## Limitations
+
+
+<div class="mw-translate-fuzzy">
+
 ## Begrenzungen
 
 Komplexe Formen können bizarre, schwer vorherzusagende Ergebnisse produzieren. Prüfe sorgfältig die entstandene Form und speichere Deine Arbeit vor der Anwendung an komplexen Objekten.
 
+
+</div>
+
+## Links
+
+
+<div class="mw-translate-fuzzy">
+
 ## Verweise
 
 Ein gutes Beispiel zur Benutzung dieses Werkzeuges gibt es im Forum: [Re: Help designing a simple enclosure](http://forum.freecadweb.org/viewtopic.php?f=3&t=3766&p=29741&hilit=enclosure#p29547)
+
+
+</div>
 
 ## Beispiele
 
@@ -83,4 +123,4 @@ Notes:
 </div>
 
 
-  
+ 

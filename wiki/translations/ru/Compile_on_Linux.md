@@ -5,8 +5,7 @@
 
 
 
-
-{{VeryImportantMessage|Существует экспериментальный контейнер FreeCAD Docker, который протестирован для разработки FreeCAD. Подробнее на странице [Компиляция в Docker](Compile_on_Docker/ru.md)}}
+**Существует экспериментальный контейнер FreeCAD Docker, который протестирован для разработки FreeCAD. Подробнее на странице [Компиляция в Docker](Compile_on_Docker/ru.md)**
 
 
 {{TOCright}}
@@ -30,41 +29,23 @@
 
 ### Git
 
+Лучший способ получить код это клонировать [Git репозиторий Git](https://github.com/FreeCAD/FreeCAD) только-для-чтения. Для этого вам потребуется программа `git`, которую легко установить в большинство дистрибутивов Linux. Скачать её можно на [официальном веб-сайте](http://git-scm.com/).
 
-<div class="mw-translate-fuzzy">
-
-Лучший способ получить код это клонировать только-для-чтения [репозиторий Git](https://github.com/FreeCAD/FreeCAD). Для этого вам потребуется программа `git`, которую легко установить в большинстве дистрибутивов Linux, или получить на [официальном веб-сайте](http://git-scm.com/).
-
-
-</div>
-
-Git can be installed via the following command:
+Git может быть установлен, следующей командой:
 
 
 {{Code|lang=bash|code=
 sudo apt install git
 }}
 
-
-<div class="mw-translate-fuzzy">
-
 Следующая команда, копирует последнюю версию исходного кода FreeCAD в папку `freecad-source`.
-
-
-</div>
 
 
 {{Code|lang=bash|code=
 git clone https://github.com/FreeCAD/FreeCAD.git freecad-source
 }}
 
-
-<div class="mw-translate-fuzzy">
-
-Для получения дополнительной информации об использовании Git и внесении кода в проект, посмотрите [управление исходным кодом](Source_code_management/ru.md).
-
-
-</div>
+Дополнительная информация о применении Git и внесении кода в проект изложена на странице [управление исходным кодом](Source_code_management/ru.md).
 
 ### Архив с исходным кодом 
 
@@ -74,13 +55,7 @@ git clone https://github.com/FreeCAD/FreeCAD.git freecad-source
 
 Для компиляции FreeCAD необходимо установить требуемые зависимости (dependencies), упомянутые в [сторонних библиотеках](Third_Party_Libraries/ru.md); пакеты, содержащие эти зависимости для различных дистрибутивов Linux, перечислены ниже. Обратите внимание, что имена и доступность библиотек будут зависеть от вашего конкретного дистрибутива; если ваш дистрибутив устарел, некоторые пакеты могут быть недоступны или иметь другое имя. В этом случае посмотрите раздел [↓ старые и нестандартные дистрибутивы](#Older_and_non-conventional_distributions.md) расположенный ниже.
 
-
-<div class="mw-translate-fuzzy">
-
 Как только у вас будут установлены все зависимости, приступайте к [сборке FreeCAD](#Сборка_FreeCAD.md).
-
-
-</div>
 
 Обратите внимание, что размер исходного кода FreeCAD составляет около 500 МБ; он может быть в три раза больше, если вы клонируете репозиторий Git со всей историей его изменений. Для получения всех зависимостей может потребоваться загрузка 500 МБ или более новых файлов; при распаковке этих файлов может потребоваться 1500 МБ или более места. Также имейте в виду, что в процессе компиляции может быть создано до 1500 МБ дополнительных файлов, поскольку система копирует и изменяет весь исходный код. Поэтому при попытке компиляции убедитесь, что на вашем жестком диске достаточно свободного места, по крайней мере, не менее 4 ГБ.
 
@@ -402,13 +377,7 @@ sudo apt install libocct*-dev
 sudo apt install cmake cmake-gui libboost-date-time-dev libboost-dev libboost-filesystem-dev libboost-graph-dev libboost-iostreams-dev libboost-program-options-dev libboost-python-dev libboost-regex-dev libboost-serialization-dev libboost-thread-dev libcoin-dev libeigen3-dev libgts-bin libgts-dev libkdtree++-dev libmedc-dev libocct-data-exchange-dev libocct-ocaf-dev libocct-visualization-dev libopencv-dev libproj-dev libpyside2-dev libqt5opengl5-dev libqt5svg5-dev libqt5webkit5-dev libqt5x11extras5-dev libqt5xmlpatterns5-dev libshiboken2-dev libspnav-dev libvtk7-dev libx11-dev libxerces-c-dev libzipios++-dev occt-draw pyside2-tools python3-dev python3-matplotlib python3-pivy python3-ply python3-pyside2.qtcore python3-pyside2.qtgui python3-pyside2.qtsvg python3-pyside2.qtwidgets python3-pyside2uic qtbase5-dev qttools5-dev swig
 ```
 
-
-<div class="mw-translate-fuzzy">
-
 ПРИМЕЧАНИЕ: В некоторых версиях Ubuntu и некоторых версиях Qt вы получите сообщение об ошибке, что python3-pyside2uic не может быть найден-в этих системах вы можете безопасно опустить его. В Ubuntu 20.04 вам нужно будет добавить `pyqt5-dev-tools`. Более подробную информацию можно найти в [это обсуждение на форуме](https://forum.freecadweb.org/viewtopic.php?t=51324).
-
-
-</div>
 
 
 <div class="mw-collapsible mw-collapsed" style="background-color:#e0e0e0">
@@ -521,13 +490,7 @@ make -j2
 -   Coin3
 -   Coin3-devel
 
-
-<div class="mw-translate-fuzzy">
-
-(Не перепутайте \"Coin\" с \"coin\" - тот что с маленькой буквы это финансовый пакет. Апрель 2021, Coin4 и Coin4-devel доступны ) (если coin2 является последней доступной версией для вашей версии Fedora, используйте пакеты из <http://www.zultron.com/rpm-repo/>)
-
-
-</div>
+(Не перепутайте \"Coin\" с \"coin\" - тот что с маленькой буквы это финансовый пакет. Апрельские Coin4 и Coin4-devel 2021 уже доступны) (если coin2 является последней доступной версией для вашей версии Fedora, используйте пакеты из <http://www.zultron.com/rpm-repo/>)
 
 -   SoQt-devel
 -   freetype
@@ -536,16 +499,10 @@ make -j2
 -   med
 -   med-devel
 
-И дополнительно :
-
-
-<div class="mw-translate-fuzzy">
+Можете добавить, если требуется:
 
 -   libspnav-devel (для поддержки устройств 3Dconnexion, вроде Space Navigator или Space Pilot)
--   pivy ( <https://bugzilla.redhat.com/show_bug.cgi?id=458975> Pivy не обязателен, но нужен для модуля Draft)
-
-
-</div>
+-   pivy ( <https://bugzilla.redhat.com/show_bug.cgi?id=458975> Pivy не обязателен, но нужен для верстака Draft)
 
 
 </div>
@@ -567,7 +524,7 @@ emerge -pv freecad
 
 Вы получите список дополнительных пакетов, которые следует установить на Вашей системе.
 
-Если FreeCAD недоступен в portage, он доступен в оверлее [waebbl](https://github.com/waebbl/waebbl-gentoo). Система отслеживания ошибок на оверлее waebbl Github может помочь решить некоторые проблемы, с которыми вы можете столкнуться. Оверлей предоставляет  freecad-9999 \</ tt\>, который вы можете выбрать для компиляции или просто использовать для получения зависимостей.
+Если FreeCAD недоступен в portage, он доступен в оверлее [waebbl](https://github.com/waebbl/waebbl-gentoo). Система отслеживания ошибок на оверлее waebbl Github может помочь решить некоторые проблемы, с которыми вы можете столкнуться. Оверлей предоставляет freecad-9999, который вы можете выбрать для компиляции или просто использовать для получения зависимостей.
 
 layman -a waebbl
 
@@ -688,13 +645,7 @@ sudo pacman -S boost curl desktop-file-utils glew hicolor-icon-theme jsoncpp lib
 
 ### Pivy
 
-
-<div class="mw-translate-fuzzy">
-
-Pivy (обертки Python для Coin3d) не требуется для сборки FreeCAD или его запуска, но он необходим в качестве зависимости от среды выполнения для рабочего стола проекта. Если вы не собираетесь использовать эти инструментальные средства, вам не понадобится Pivy. Однако обратите внимание, что рабочий стол проекта используется внутри других рабочих столов, таких как Arch и BIM, поэтому для использования этих инструментальных средств также необходимо установить Pivy.
-
-
-</div>
+[Pivy](Pivy/ru.md) (обертки Python для Coin3d) не требуется для сборки FreeCAD или его запуска, но необходимы в качестве зависимости от среды выполнения для [Draft Workbench](Draft_Workbench/ru.md). Если вы не собираетесь использовать эти инструментальные средства, вам не понадобится Pivy. Однако обратите внимание, что верстак Draft используется внутри других рабочих столов, таких как [Arch](Arch_Workbench/ru.md) и [BIM](BIM_Workbench/ru.md), поэтому для использования этих инструментальных средств также необходимо установить Pivy.
 
 К ноябрю 2015 года устаревшая версия Pivy, включенная в исходный код FreeCAD, больше не будет компилироваться во многих системах. Это не большая проблема, так как обычно вы должны получить Pivy от менеджера пакетов вашего дистрибутива; если вы не можете найти Pivy, вам, возможно, придется скомпилировать его самостоятельно, см. Инструкции по компиляции Pivy.
 
@@ -702,18 +653,12 @@ Pivy (обертки Python для Coin3d) не требуется для сбо
 
 Для устранения неполадок в FreeCAD полезно иметь отладочные символы важных библиотек зависимостей, таких как Qt. Для этого попробуйте установить пакеты зависимостей, которые заканчиваются на `-dbg`, `-dbgsym`, `-debuginfo` или аналогичные, в зависимости от вашего дистрибутива Linux.
 
-
-<div class="mw-translate-fuzzy">
-
-Для Ubuntu вам, возможно, придется включить специальные репозитории, чтобы иметь возможность просматривать и устанавливать эти отладочные пакеты с помощью диспетчера пакетов. См.[Debug Symbol Packages](https://wiki.ubuntu.com/Debug_Symbol_Packages) для получения дополнительной информации.
-
-
-</div>
+Для Ubuntu вам, возможно, потребуется включить специальные репозитории, чтобы иметь возможность просматривать и устанавливать эти отладочные пакеты с помощью диспетчера пакетов. См.[Debug Symbol Packages](https://wiki.ubuntu.com/Debug_Symbol_Packages) для получения дополнительной информации.
 
 ## Сборка FreeCAD 
 
 
-{{VeryImportantMessage|Python 2 и Qt4 при сборке больше не поддерживается, а в версии 0.20 больше не поддерживается вообще. Допускается компиляция с Python 3 и Qt5. А для версии 0.20 требуется как минимум Python3.6 и Qt 5.9.}}
+**Python 2 и Qt4 при сборке больше не поддерживается, а в версии 0.20 больше не поддерживается вообще. Допускается компиляция с Python 3 и Qt5. А для версии 0.20 требуется как минимум Python3.6 и Qt 5.9.**
 
 FreeCAD использует CMake в качестве основной системы сборки, она доступна во всех основных операционных системах. Компиляция с помощью CMake обычно очень проста и происходит в два этапа.
 
@@ -1064,6 +1009,7 @@ make -j$(nproc --ignore=2)
 #!/bin/sh
 sudo add-apt-repository --enable-source ppa:freecad-maintainers/freecad-stable && sudo apt-get update
 sudo apt-get build-dep freecad
+sudo apt-get install libqt5xmlpatterns5-dev   # Needed for 0.20; should go away on next packaging update 
 sudo apt-get install freecad
 }}
 

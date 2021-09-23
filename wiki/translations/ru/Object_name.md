@@ -1,7 +1,6 @@
 # Object name/ru
 
 
-
 ## Введение
 
 

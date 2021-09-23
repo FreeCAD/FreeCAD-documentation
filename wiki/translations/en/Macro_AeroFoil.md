@@ -1,5 +1,4 @@
 # Macro AeroFoil/en
-
  {{Macro
 |Name=Macro AeroFoil
 |Icon=AeroFoil.png

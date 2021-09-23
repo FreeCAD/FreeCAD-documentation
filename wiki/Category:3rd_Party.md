@@ -1,5 +1,4 @@
 # Category:3rd Party
-
 External aka 3rd-Party applications/libraries that FreeCAD depends on or are of some interest to the FC community
 
 ### Contents:

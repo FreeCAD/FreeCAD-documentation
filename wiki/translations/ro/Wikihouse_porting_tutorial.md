@@ -2,7 +2,6 @@
 
 
 
-
 {{TutorialInfo/ro
 |Topic= Wikihouse porting tutorial
 |Level= Intermediate/Advanced

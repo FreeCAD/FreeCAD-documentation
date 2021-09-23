@@ -1,6 +1,5 @@
 # POV-Ray/ru
-
- {{VeryImportantMessage|The development of POV-Ray seems to be halted. The latest stable version is 3.7.0.8 (2018-05-27), the latest development version is 3.8.0-x (2019-02-19), the [https://github.com/POV-Ray/povray/ official project on GitHub] has been edited the last time on 2019-03-08. Please remove this warning if the situation changes}}
+ **The development of POV-Ray seems to be halted. The latest stable version is 3.7.0.8 (2018-05-27), the latest development version is 3.8.0-x (2019-02-19), the [https://github.com/POV-Ray/povray/ official project on GitHub] has been edited the last time on 2019-03-08. Please remove this warning if the situation changes**
 
 # Description
 
@@ -11,7 +10,7 @@ POV-Ray (The Persistence of Vision Raytracer) is one of the two renderers suppor
 ## Raytracing Workbench 
 
 
-{{VeryImportantMessage|The [Raytracing workbench](Raytracing_Workbench.md) is being superseded by the new [https://github.com/FreeCAD/FreeCAD-render Render Workbench], which is intended as its replacement. This must not be confused with the halted and outdated [Render project](Render_project.md). The Render Workbench can be installed through the [Addon Manager](AddonManager.md). The information here is provided because by default FreeCAD is still shipped (as of 0.19-24276) with the Raytracing Workbench}}
+**The [Raytracing workbench](Raytracing_Workbench.md) is being superseded by the new [https://github.com/FreeCAD/FreeCAD-render Render Workbench], which is intended as its replacement. This must not be confused with the halted and outdated [Render project](Render_project.md). The Render Workbench can be installed through the [Addon Manager](AddonManager.md). The information here is provided because by default FreeCAD is still shipped (as of 0.19-24276) with the Raytracing Workbench**
 
 ### Stable Version 
 

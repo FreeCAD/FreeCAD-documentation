@@ -1,5 +1,4 @@
 # Macro PropertyMemo
-
   {{Macro
 |Name=Macro_PropertyMemo
 |Icon=PropertyMemo.png

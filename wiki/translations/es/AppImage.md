@@ -1,6 +1,5 @@
 # AppImage/es
-
- {{VeryImportantMessage|As of 7 July 2019, the FreeCAD community has been observing that downloading AppImages from Github seems to timeout before completion. We aren't sure why this is occurring. If this happens to you please try downloading again. It make take a few tries. A recommended practice is to use the AppImage [https://www.freecadweb.org/wiki/Appimage#Automatic_updating auto-updating feature], which will restore the download from the place it failed.}}
+ **As of 7 July 2019, the FreeCAD community has been observing that downloading AppImages from Github seems to timeout before completion. We aren't sure why this is occurring. If this happens to you please try downloading again. It make take a few tries. A recommended practice is to use the AppImage [https://www.freecadweb.org/wiki/Appimage#Automatic_updating auto-updating feature], which will restore the download from the place it failed.**
 
 
 {{TOCright}}
@@ -22,7 +21,7 @@ Para otros tipos de instalación ver [Descargar](Download/es.md).
 ## FreeCAD Imágenes de las aplicaciones 
 
 
-{{VeryImportantMessage|'''Note:''' Development builds are now hosted on the [https://github.com/FreeCAD/FreeCAD-Bundle/releases/tag/weekly-builds '''FreeCAD-Bundle'''] github repo.<br/>If the download links below do not work, please manually download the files from the collapsed "Assets" section of the above link}}
+**'''Note:''' Development builds are now hosted on the [https://github.com/FreeCAD/FreeCAD-Bundle/releases/tag/weekly-builds '''FreeCAD-Bundle'''] github repo.<br/>If the download links below do not work, please manually download the files from the collapsed "Assets" section of the above link**
 
   Stable                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              Development
   --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

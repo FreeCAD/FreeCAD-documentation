@@ -1,7 +1,6 @@
 # Report view/it
 
 
-
 ## Introduzione
 
 La [Vista report](Report_view/it.md) è un pannello che mostra i messaggi di testo dei processi e degli strumenti di FreeCAD. È disponibile nel menu **{{StdMenu|[Visualizza](Std_View_Menu/it.md)** → Pannelli → Vista report}}.

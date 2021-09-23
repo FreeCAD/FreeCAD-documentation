@@ -1,8 +1,7 @@
 # Inspection Workbench/ru
-
  
 
-<img alt="Иконка верстака Inspection" src=images/Workbench_Inspection.svg  style="width:128px;">
+<img alt="Логотип верстака Inspection" src=images/Workbench_Inspection.svg  style="width:128px;">
 
 ## Введение
 

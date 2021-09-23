@@ -1,5 +1,4 @@
 # App Part
-
  
 
 ## Introduction
@@ -29,4 +28,4 @@ An [App Part](App_Part.md) (`App::Part` class) is derived from the basic [App Ge
 
 See the full list of properties in the [Std Part](Std_Part.md) page.
 
- {{Std Base}} {{Document objects navi}} 
+ {{Std Base navi}} {{Document objects navi}} 

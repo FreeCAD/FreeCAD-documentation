@@ -1,6 +1,8 @@
 # Macro Normal Vector/pl
 
- {{Macro
+
+
+{{Macro
 |Name=Normal Vector Macro
 |Icon=Macro_Normal_Vector.png
 |Description=Get normal vector of preselected face
@@ -29,10 +31,10 @@ ToolBar Icon ![](images/Macro_Normal_Vector.png )
 **Macro\_Normal\_Vector.FCMacro**
 
 
-{{MacroCode|code=
+```python
 
 Gui.Selection.getSelectionEx()[0].SubObjects[0].Faces[0].normalAt(0,0)
-}}
+```
 
 ## Link
 

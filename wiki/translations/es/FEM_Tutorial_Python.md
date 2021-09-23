@@ -2,7 +2,6 @@
 
 
 
-
 {{TutorialInfo/es
 |Topic= Finite Element Analysis
 |Level= Intermediates

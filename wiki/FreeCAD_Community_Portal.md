@@ -1,5 +1,4 @@
 # FreeCAD Community Portal
-
  
 
 This is the place to put all kind of FreeCAD-related stuff! If you work on something FreeCAD-related, please include it here!

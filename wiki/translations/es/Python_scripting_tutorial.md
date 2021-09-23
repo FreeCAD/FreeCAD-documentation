@@ -2,12 +2,11 @@
 
 
 
-
 {{TOCright}}
 
 ## Introducción
 
-[Python](http://es.wikipedia.org/wiki/Python) es un lenguaje de programación, muy simple de utilizar y muy rápido de aprender. Es de código libre, multi plataforma, y puede utilizarse para una gran variedad de cosas, desde la programación de archivos de guión simples a programas muy complejos. Pero uno de sus usos más extendidos es como lenguaje de archivos de guión, ya que es sencillo de embeber en otras aplicaciones. Así es exactamente como se utiliza dentro de FreeCAD. Desde la consola de Python, o desde tus archivos de guión personalizados, puedes pilotar FreeCAD, y hacer que ejecute acciones muy complejas para las cuales aún no exista herramientas en la interfaz gráfica de usuario.
+[Python](http://es.wikipedia.org/wiki/Python) es un lenguaje de programación relativamente fácil de aprender y comprender. Es de código abierto y multiplataforma, y puede utilizarse para muchos fines: desde simples scripts de shell hasta programas muy complejos. Pero su uso más extendido es como lenguaje de scripting incrustado en otras aplicaciones. Así es como se utiliza dentro de FreeCAD. Desde la [Consola de Python](Python_console/es.md), o desde scripts personalizados, puedes controlar FreeCAD y hacer que realice operaciones muy complejas.
 
 Por ejemplo, desde un archivo de guión de Python, puedes:
 
@@ -22,7 +21,7 @@ También existen diversas formas de utilizar Python en FreeCAD:
 -   Desde [Macros](macros/es.md), que son una forma conveniente de añadir una herramienta que no exista a la interfaz de FreeCAD
 -   Desde archivos de guión externos, que pueden utilizarse para programar cosas mucho más complejas. Como [Ambientes de trabajo](Workbenches/es.md) completos.
 
-En este tutorial, trabajaremos en varios ejemplos básicos para que puedas iniciarte, pero existe mucha más documentación sobre los [documentación sobre el guión en Python](Power_users_hub/es.md) disponible en esta wiki. Si eres totalmente nuevo en Python y quieres comprender cómo funciona, también tenemos una básica [Introducción a Python](introduction_to_Python/es.md).
+En este tutorial, trabajaremos en varios ejemplos básicos para que puedas iniciarte, pero existe mucha más documentación sobre los [documentación sobre guionización en Python](Power_users_hub/es.md) disponible en esta wiki. Si eres totalmente nuevo en Python y quieres comprender cómo funciona, también tenemos una básica [Introducción a Python](introduction_to_Python/es.md).
 
 Antes de proceder con la escritura en Python, vaya a **Editar → Preferencias → General → Ventana de salida** y marque dos casillas:
 
@@ -209,7 +208,7 @@ doc.recompute()
 
 Este es un ejemplo estándar que utiliza el método `createSphere()` para crear una esfera, pero también puedes crear mallas personalizadas desde cero definiendo sus vértices y caras.
 
-[Lee más sobre utilizar código con las mallas\...](Mesh_Scripting/es.md)
+[Leer más sobre guionización de malla\...](Mesh_Scripting/es.md)
 
 [inicio](#top.md)
 
@@ -240,9 +239,9 @@ El módulo Pieza (como el módulo de Mallas) también tiene un atajo que automá
 Part.show(myshape)
 ```
 
-Al explorar el contenido de myshape, notarás muchos subcomponentes interesantes como `Faces`, `Edges`, `Vertexes`, `Solids` y `Shells`, y una amplia gama de operaciones de geometría como `cut` (sustracción), `common` (intersección) o `fuse` (unión). En la página [Archivos de guión de topología de datos](Topological_data_scripting/es.md) se explica todo esto en detalle.
+Al explorar el contenido de myshape, notarás muchos subcomponentes interesantes como `Faces`, `Edges`, `Vertexes`, `Solids` y `Shells`, y una amplia gama de operaciones de geometría como `cut` (sustracción), `common` (intersección) o `fuse` (unión). En la página [Guionización de topología de datos](Topological_data_scripting/es.md) se explica todo esto en detalle.
 
-[ Lea más sobre el guión de las piezas\...](Topological_data_scripting/es.md)
+[ Leer más sobre guionización pieza\...](Topological_data_scripting/es.md)
 
 [inicio](#top.md)
 
@@ -285,7 +284,7 @@ Qt es un sistema de interfaz muy potente que permite hacer cosas muy complejas. 
 
 Ahora que tienes una buena comprensión de los conceptos básicos, a dónde vamos para mantener nuestros archivos de guión en Python, y cómo vamos a ejecutarlos fácilmente desde FreeCAD? Existe un sencillo mecanismo para ello, denominado [Macros](Macros/es.md). Una macro es simplemente un archivo de guión en Python, que puede ser añadida a una barra de herramientas y lanzada desde un simple clic de ratón. FreeCAD proporciona un simple editor de textos (Macro -\> Macros -\> Crear) donde puedes escribir o pegar archivos de guión. Una vez esté terminado, Herramientas -\> Personalizar -\> Macros te permite definir un botón para ella, que se puede añadir a las barras de herramientas.
 
-Ahora estas listo para ver más en profundidad los archivos de guión en FreeCAD. Así que dirígete al [Centro de usuarios avanzados](Power_users_hub/es.md)!
+Ahora estás listo para profundizar en guionización FreeCAD. Así que dirígete al [Centro usuarios avanzados](Power_users_hub/es.md)!
 
 [inicio](#top.md)
 

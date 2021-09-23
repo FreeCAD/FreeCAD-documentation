@@ -2,7 +2,6 @@
 
 
 
-
 {{TutorialInfo/pl
 |Topic=Poradnik: Podstawy środowiska pracy Wykres
 |Level=Początkujący

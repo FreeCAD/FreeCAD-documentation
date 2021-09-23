@@ -2,7 +2,6 @@
 
 
 
-
 <div class="mw-translate-fuzzy">
 
 これらの関数はDraftモジュールの一部であり、Draftモジュールをインポートすることでスクリプト、マクロ、Pythonインタプリタから使用することができます。

@@ -3,7 +3,6 @@
 
 
 
-
 {{Macro
 |Name=clone_explicit
 |Icon=Macro_clone_explicit.png

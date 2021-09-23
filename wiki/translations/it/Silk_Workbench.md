@@ -1,5 +1,4 @@
 # Silk Workbench/it
-
  } <img alt="" src=images/Silk_workbench_icon.svg  style="width:240px;"> 
 *align=center|L'icona dell'ambiente aggiuntivo Silk*
 

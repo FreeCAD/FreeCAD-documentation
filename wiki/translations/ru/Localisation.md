@@ -5,7 +5,6 @@
 
 
 
-
 {{TOCright}}
 
 ## Обзор
@@ -14,7 +13,13 @@
 
 ## Помощь с переводом FreeCAD 
 
+
+<div class="mw-translate-fuzzy">
+
 Одно из очень важных дел которое пользователи могут сделать для FreeCAD (если например они не имеют навыков программирования ), это помочь с переводом различных частей проекта (программа, сайт, вики, документация и т. д.) на другой язык. Вот как это можно сделать
+
+
+</div>
 
 ## Перевод программного обеспечения FreeCAD 
 
@@ -40,6 +45,18 @@ Details on how to use crowdin can be found on the [Crowdin Administration](Crowd
 ## Перевод внешних верстаков 
 
 Подробности на странице [перевод внешних верстаков](Translating_an_external_workbench.md).
+
+## FreeCAD Preferences for Translators 
+
+Starting with FreeCAD 0.20, the following variables can be manually added to the BaseApp/Preferences/General section of the user.cfg file to assist with the development of new translations:
+
+**AdditionalLanguageDomainEntries** - to add entirely new languages to FreeCAD that are not currently supported by the source code, you can use this user preference to add to the list of available languages. The format of the languages is \"Language Name\"=\"code\"; for example:
+
+    <FCText Name="AdditionalLanguageDomainEntries">"Esperanto"="eo";"French"="fr";</FCText>
+
+**AdditionalTranslationsDirectory** - add an additional directory for FreeCAD to search for \*.qm files. This location will take precedence over \$userAppDataDir/translations and \$resourceDir/translations. For example:
+
+    <FCText Name="AdditionalTranslationsDirectory">C:/Users/FreeCADUser/TestTranslations</FCText>
 
 ## Перевод FreeCAD wiki 
 
@@ -182,10 +199,67 @@ Update: see [Translating an external workbench](Translating_an_external_workbenc
 -   [Crowdin Администрация](Crowdin_Administration/ru.md)
 -   [Crowdin Скрипты](Crowdin_Scripts/ru.md)
 
+## Программирование
+
+
+**См. так же:**
+
+[Основы составления скриптов FreeCAD](FreeCAD_Scripting_Basics/ru.md).
+
+Чтобы получить список всех поддерживаемых языков интерфейса FreeCAD используйте `supportedLocales` метод `FreeCADGui`.
+
+
+```python
+locales = FreeCADGui.supportedLocales()
+```
+
+После выполнения `locales` будет содержать в себе словарь с следующими значениями:
+
+
+```python
+{'English': 'en', 'Afrikaans': 'af', 'Arabic': 'ar', 'Basque': 'eu', 'Catalan': 'ca', 'Chinese Simplified': 'zh-CN', 'Chinese Traditional': 'zh-TW', 'Croatian': 'hr', 'Czech': 'cs', 'Dutch': 'nl', 'Filipino': 'fil', 'Finnish': 'fi', 'French': 'fr', 'Galician': 'gl', 'German': 'de', 'Hungarian': 'hu', 'Indonesian': 'id', 'Italian': 'it', 'Japanese': 'ja', 'Kabyle': 'kab', 'Korean': 'ko', 'Lithuanian': 'lt', 'Norwegian': 'no', 'Polish': 'pl', 'Portuguese': 'pt-PT', 'Portuguese, Brazilian': 'pt-BR', 'Romanian': 'ro', 'Russian': 'ru', 'Slovak': 'sk', 'Slovenian': 'sl', 'Spanish': 'es-ES', 'Swedish': 'sv-SE', 'Turkish': 'tr', 'Ukrainian': 'uk', 'Valencian': 'val-ES', 'Vietnamese': 'vi'}
+```
+
+Чтобы определить текущий язык интерфейса FreeCAD, используйте `getLocale` метод `FreeCADGui`.
+
+
+```python
+locale = FreeCADGui.getLocale()
+```
+
+Если текущий язык английский, тогда `locale` будет содержать:
+
+
+```python
+'English'
+```
+
+Чтобы преобразовать данное значение в [языковой код](https://support.crowdin.com/api/language-codes/), используйте простой прием:
+
+
+```python
+locale = FreeCADGui.supportedLocales()[Gui.getLocale()]
+```
+
+Если текущий язык английский результат будет равен:
+
+
+```python
+'en'
+```
+
+Чтобы установить язык интерфейса FreeCAD, используйте `setLocale` метод `FreeCADGui`. Вы так же можете указать язык в виде языкового кода:
+
+
+```python
+FreeCADGui.setLocale('Russian')
+FreeCADGui.setLocale('ru')
+```
 
 
 
 
- 
+
+
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Wiki](Category:Wiki.md)

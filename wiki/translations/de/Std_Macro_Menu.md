@@ -4,7 +4,6 @@
 
 
 
-
 <img alt="Std Basis Symbol" src=images/Freecad.svg  style="width:128px;">
 
 

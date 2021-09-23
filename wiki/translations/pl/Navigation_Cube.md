@@ -5,7 +5,6 @@
 
 
 
-
 {{TOCright}}
 
 Sterowanie kostką nawigacyjną lub **kostka nawigacyjna** jest pomocą graficzną interfejsu użytkownika w celu zmiany orientacji widoku 3D. Domyślnie jest ona widoczny i znajduje się w prawym górnym rogu okna 3D. Jeśli patrzysz na standardowy widok 3D, wygląda to następująco:

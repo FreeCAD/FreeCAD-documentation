@@ -1,7 +1,6 @@
 # Developer hub/ko
 
 
-
 ![150](images/Crystal_Clear_app_tutorials.png )
 
 이곳은 FreeCAD 개발에 기여하고 싶다면 올 장소입니다.

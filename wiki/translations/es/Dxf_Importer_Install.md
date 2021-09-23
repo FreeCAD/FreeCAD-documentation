@@ -2,7 +2,6 @@
 
 
 
-
 {{TutorialInfo/es
 |Topic=ClaseMuestra
 |Level=Usuario medio

@@ -1,5 +1,4 @@
 # Esercitazioni
-
 # Esercizi con FreeCAD 
 
 
@@ -8,10 +7,10 @@
 \'
 
 
-{{VeryImportantMessage|This section is work in progress, for test. For now only in Italian.
+**This section is work in progress, for test. For now only in Italian.
 There are no links that direct to this page.
 Sezione in costruzione.
-Questi esempi sono stati costruiti con le versioni 0.12 e 0.13 di FreeCAD, quindi sono ormai obsoleti. }}
+Questi esempi sono stati costruiti con le versioni 0.12 e 0.13 di FreeCAD, quindi sono ormai obsoleti. **
 
 
 {{TOCright}}

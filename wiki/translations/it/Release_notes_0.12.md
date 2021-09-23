@@ -1,5 +1,4 @@
 # Release notes 0.12/it
-
 # Note di rilascio della versione 0.12 
 
 Questo è un riassunto dei cambiamenti più interessanti avvenuti in FreeCAD rispetto alla versione precedente. Vedere [qui](http://www.freecadweb.org/tracker/changelog_page.php) per avere l\'elenco completo delle modifiche.

@@ -1,7 +1,6 @@
 # Raytracing templates/de
 
 
-
 ## Einführung
 
 Die [Arbeitsbereich Strahlverfolgung](Raytracing_Workbench/de.md) kommt mit einigen Vorlagen für Povray und Luxrender, aber du kannst leicht deine eigenen erstellen. Alles, was du tun musst, ist, eine Szenendatei für den gegebenen Renderer zu erstellen und sie dann manuell mit einem Texteditor zu bearbeiten, um spezielle Tags einzufügen, die FreeCAD erkennt und wo der Inhalt (Kamera- und Objektdaten) eingefügt wird.

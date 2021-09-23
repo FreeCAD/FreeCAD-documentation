@@ -1,7 +1,6 @@
 # Feature/en
 
 
-
 ## Introduction
 
 In FreeCAD the word \"[Feature](Feature.md)\" is normally used to refer to a [PartDesign Feature](PartDesign_Feature.md) object (`PartDesign::Feature` class) that is defined by the [PartDesign Workbench](PartDesign_Workbench.md). This is an operation or modelling step performed to create or modify a solid [Shape](Shape.md) following the [feature editing](feature_editing.md) paradigm.

@@ -1,7 +1,6 @@
 # Common Airfoil Data Import/en
 
 
-
 ## Importing Airfoil Data 
 
 FreeCAD can import airfoil data such as that found on the [UIUC Airfoil Coordinates Database](http://m-selig.ae.illinois.edu/ads/coord_database.html) or files produced by airfoil creation and annalizing software like [XFLR5](http://www.xflr5.com/xflr5.htm)

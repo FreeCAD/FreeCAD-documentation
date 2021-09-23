@@ -1,5 +1,4 @@
 # EM Workbench/fr
-
  <img alt="" src=images/EMWorkbench.svg  style="width:240px;"> 
 *align=center|Icône atelier externe FreeCAD Electromagnétique*
 

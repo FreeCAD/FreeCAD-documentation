@@ -5,7 +5,6 @@
 
 
 
-
 {{TOCright}}
 
 
@@ -132,7 +131,7 @@ These are tutorials that are related to scripting or programming. They are geare
 ## 繪圖
 
 
-{{VeryImportantMessage|[[Drawing Workbench]]的開發已於FreeCAD 0.16版後終止。請使用[[TechDraw Workbench]]取代。}}
+**[[Drawing Workbench]]的開發已於FreeCAD 0.16版後終止。請使用[[TechDraw Workbench]]取代。**
 
 Drawing\_tutorial\_result.png\|link=[Drawing tutorial](Drawing_tutorial.md)\|[Drawing tutorial](Special:MyLanguage/Drawing_tutorial.md) (v0.16)
 This is the essential introduction to the tools of the Drawing Workbench to create blueprints. Exercise drawing 01.jpg\|link=[Manual:Generating 2D drawings](Manual:Generating_2D_drawings.md)\|[Generating 2D drawings](Manual:Generating_2D_drawings.md) (v0.16)

@@ -1,5 +1,4 @@
 # Macro BOLTS/fr
-
  {{Macro/fr
 |Name=BOLTS
 |Icon=Macro_BOLTS.png

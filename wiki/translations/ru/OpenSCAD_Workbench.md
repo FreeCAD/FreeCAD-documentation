@@ -2,7 +2,6 @@
 
 
 
-
 <div class="mw-translate-fuzzy">
 
 
@@ -11,7 +10,7 @@
 
 </div>
 
-<img alt="OpenSCAD workbench icon" src=images/Workbench_OpenSCAD.svg  style="width:128px;">
+<img alt="Логотип верстака OpenSCAD" src=images/Workbench_OpenSCAD.svg  style="width:128px;">
 
 ## Введение
 

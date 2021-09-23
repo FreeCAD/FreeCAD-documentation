@@ -1,5 +1,4 @@
 # Fine-tuning
-
  
 
  
@@ -22,6 +21,9 @@ The list below shows parameters that are not accessible via the preferences edit
 -   **Document/SaveThumbnailFix** (boolean): Set to `True` to fix a problem with Qt5 that prevents the generation of `.FCStd` file thumbnails.
 -   **General/RecentIncludesExported** (boolean): Set to `True` to include exported files in the Recent Files list. Defaults to `False`.
 -   **General/RecentIncludesImported** (boolean): Set to `False` to exclude imported files from the Recent Files list. Defaults to `True`.
+-   **Macro/DuplicateFrom001** (boolean): Set to `True` to always begin searching for suggested duplicate macro filename with \@001 instead of current \@NNN, if applicable. Defaults to `False`.
+-   **Macro/DuplicateIgnoreExtraNote** (boolean): Set to `True` to ignore extra note when suggesting duplicate macro filename. Extra note is text in the filename following \"\@NNN\" and before \".FCMacro\". Example: \"my\_macro\@005.my\_note.FCMacro\". If `True` the next suggested filename is \"my\_macro\@006.FCMacro\". If set to `False` the next suggested filename is \"my\_macro\@006.my\_note.FCMacro\". To be recognized as an extra note the text should begin with a dot (\".\") following the \"\@NNN\". Otherwise, for example \"my\_macro\@006\_my\_note.FCMacro\" gets \"my\_macro\@006\_my\_note\@001.FCMacro\" as suggested new filename, which might be desirable in some cases. Defaults to `False`.
+-   **Macro/ReplaceSpaces** (boolean): Set to `False` if you do not want spaces in your filenames automatically converted to underscores when creating, renaming, or duplicating a macro. Does not affect existing files, only matters when creating new file or renaming or duplicating existing file. Defaults to `True`.
 -   **Mod/Draft/defaultCameraHeight** (int) : Sets the height of the camera when Draft starts in an empty document. 0 disables, FreeCAD default is 5, good when working in millimeters, a good height for arch work is 4500.
 -   **Mod/Part/ParametricRefine** (boolean) : Set to `False` so [Part RefineShape](Part_RefineShape.md) creates an independent copy rather than a linked one. Defaults to `True`.
 -   **Mod/PartDesign/AdditiveHelixPreview** (boolean): Set to `True` to ensure an additive helix that does not intersect the body is visible in the preview. Defaults to `False`.

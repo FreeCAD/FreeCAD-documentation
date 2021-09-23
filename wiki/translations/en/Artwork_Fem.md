@@ -1,5 +1,4 @@
 # Artwork Fem/en
-
  
 
 These icons are in the indicated source path.

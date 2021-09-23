@@ -1,6 +1,5 @@
 # Arch API/tr
-
- {{VeryImportantMessage|(Kasım 2018) YAPI API, [https://www.freecadweb.org/api otomatikleştirilmiş API belgelerinde] listelenmiştir.}}
+ **(Kasım 2018) YAPI API, [https://www.freecadweb.org/api otomatikleştirilmiş API belgelerinde] listelenmiştir.**
 
 API\'nin işlevleri [Yapı tezgahın](Arch_Workbench/tr.md) \'ın bir parçasıdır ve `Arch` modülü alındıktan sonra [makrolar](macros/tr.md) ve [Python](Python.md) konsolundan kullanılabilir. [Takviye Eklentisi](Reinforcement_Addon.md) kendi [Reinforcement API](Reinforcement_API.md) \'ye sahiptir.
 

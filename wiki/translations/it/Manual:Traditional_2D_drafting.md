@@ -2,7 +2,6 @@
 
 
 
-
 <div class="mw-translate-fuzzy">
 
 
@@ -103,7 +102,7 @@ Per mostrare il funzionamento e le possibilità dell\'ambiente Draft, camminerem
 <div class="mw-translate-fuzzy">
 
 -   A questo punto si può nascondere la geometria di costruzione facendo clic destro sul gruppo Construction e scegliendo **Nascondi selezione**.
--   Ora disegnare le finestre e le porte. Assicurarsi che lo <img alt="" src=images/Snap_Midpoint.png  style="width:16px;"> [snap al punto centrale](Draft_Snap/it.md) sia attivato, e disegnare sei linee come segue:
+-   Ora disegnare le finestre e le porte. Assicurarsi che lo <img alt="" src=images/Draft_Snap_Midpoint.svg  style="width:16px;"> [snap al punto centrale](Draft_Snap/it.md) sia attivato, e disegnare sei linee come segue:
 
 
 </div>

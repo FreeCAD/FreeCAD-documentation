@@ -1,5 +1,4 @@
 # Artwork
-
    Here is the artwork that has been created for FreeCAD. Feel free to reuse in other applications. If you would like to contribute with icons, please read the [artwork guidelines](Artwork_Guidelines.md).
 
 ## Miscellaneous icons 
@@ -86,10 +85,6 @@ See [Artwork PartDesign](Artwork_PartDesign.md).
 
 See [Artwork Path](Artwork_Path.md).
 
-### From src/Mod/Plot/ 
-
-See [Artwork Plot](Artwork_Plot.md).
-
 ### From src/Mod/Points/ 
 
 See [Artwork Points](Artwork_Points.md).
@@ -105,10 +100,6 @@ See [Artwork ReverseEngineering](Artwork_ReverseEngineering.md).
 ### From src/Mod/Robot/ 
 
 See [Artwork Robot](Artwork_Robot.md).
-
-### From src/Mod/Ship/ 
-
-See [Artwork Ship](Artwork_Ship.md).
 
 ### From src/Mod/Sketcher/ 
 
@@ -144,9 +135,17 @@ See [Artwork Web](Artwork_Web.md).
 
 ## External workbenches and addons 
 
+### From Mod/Plot/ 
+
+See [Artwork Plot](Artwork_Plot.md).
+
 ### From Mod/Reinforcement/ 
 
 See [Artwork Reinforcement](Artwork_Reinforcement.md).
+
+### From Mod/Ship/ 
+
+See [Artwork Ship](Artwork_Ship.md).
 
 ## Erroneous icons 
 

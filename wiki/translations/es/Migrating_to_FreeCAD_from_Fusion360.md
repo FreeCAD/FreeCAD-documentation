@@ -1,5 +1,4 @@
 # Migrating to FreeCAD from Fusion360/es
-
  {{TOCright}}
 
 ## Fondo
@@ -15,7 +14,7 @@ Esta página está dirigida a los usuarios interesados en migrar a FreeCAD desde
 ## Glosario
 
 
-{{VeryImportantMessage|Por favor, consulte también el proyecto en curso [CAD Rosetta Stone](CAD_Rosetta_Stone/es.md) para aprender los nombres análogos que usan los CADs propietarios populares}}
+**Por favor, consulte también el proyecto en curso [CAD Rosetta Stone](CAD_Rosetta_Stone/es.md) para aprender los nombres análogos que usan los CADs propietarios populares**
 
 Consulte la página [Glossary](Glossary/es.md) en general, pero aquí hay una breve lista de términos específicos que los amigos de F360 pueden encontrar especialmente útiles:
 

@@ -38,4 +38,4 @@ If you take this result and increase the degree, you cannot get the initial stat
 
 
 
- {{Sketcher Tools navi}}  
+ {{Sketcher Tools navi}} 

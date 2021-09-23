@@ -5,7 +5,6 @@
 
 
 
-
 {{Manual:TOC/de}}
 
 FreeCAD ist für die parametrische Modellierung konzipiert. Das bedeutet, dass die Geometrie, die du erstellst, nicht frei modellierbar ist, sondern durch Regeln und Parameter erzeugt wird. Zum Beispiel kann ein Zylinder aus einem Radius und einer Höhe erzeugt werden. Mit diesen beiden Parametern hat das Programm genügend Informationen, um den Zylinder zu bauen.

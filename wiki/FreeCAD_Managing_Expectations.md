@@ -1,5 +1,4 @@
 # FreeCAD Managing Expectations
-
  
 
 ## Purpose

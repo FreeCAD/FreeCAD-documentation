@@ -1,6 +1,5 @@
 # Compile on MinGW/pl
-
- {{VeryImportantMessage|(2019) The contents of this page are obsolete. Please help us to keep it updated!<br/> Meanwhile, try other [compilation options](Compiling.md).}} {{TOCright}}
+ **(2019) The contents of this page are obsolete. Please help us to keep it updated!<br/> Meanwhile, try other [compilation options](Compiling.md).** {{TOCright}}
 
 ## How to build and run FreeCAD under MSYS/MinGW 
 

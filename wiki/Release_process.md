@@ -1,10 +1,9 @@
 # Release process
 
-
-{{VeryImportantMessage|'''<big>NOTE: 
+**'''<big>NOTE: 
 1) THIS PAGE NEEDS TO BE ADAPTED TO FREECAD <br/>
 2) PLEASE DO NOT TRANSLATE THIS PAGE <br/>
-3) THIS PAGE IS MISSING TECHNICAL DETAIL (git commands, bash commands etc...)</big>'''}}
+3) THIS PAGE IS MISSING TECHNICAL DETAIL (git commands, bash commands etc...)</big>'''**
 
 The aim of this page is to gather ideas and organize things so official releases of FreeCAD require less work, and therefore can happen more often. This topic is discussed on this [forum thread](http://forum.freecadweb.org/viewtopic.php?f=8&t=6441).
 

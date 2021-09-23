@@ -1,5 +1,4 @@
 # Compiling
-
   Each operating system has its own page for compiling FreeCAD in the [Online Help Documentation](Online_Help_Toc.md).
 
   ------------------------------------------------------ -------------------------------------------------- ------------------------------------------------- -------------------------------------------------------------

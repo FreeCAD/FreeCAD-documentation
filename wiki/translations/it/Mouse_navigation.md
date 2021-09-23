@@ -2,7 +2,6 @@
 
 
 
-
 {{docnav/it
 |[Per iniziare](Getting_started/it.md)
 |[Metodi di selezione](Selection_methods/it.md)
@@ -11,11 +10,11 @@
 
 {{TOCright}}
 
-## Introduzione
+## Panoramica
 
-La funzione **Navigare col mouse** di FreeCAD comprende i comandi utilizzati per navigare visivamente lo spazio 3D e per interagire con gli oggetti visualizzati. Attualmente FreeCAD offre diversi stili di navigazione con il mouse. Lo stile di navigazione predefinito, denominato \"Navigazione CAD​​\", è molto semplice e pratico, ma si può anche usare uno stile alternativo, secondo le proprie preferenze.
+La funzione **Navigare col mouse** di FreeCAD comprende i comandi utilizzati per navigare visivamente lo spazio 3D e per interagire con gli oggetti visualizzati. FreeCAD offre diversi stili di navigazione con il mouse. Lo stile di navigazione predefinito, denominato \"Navigazione CAD​​\", è molto semplice e pratico, ma FreeCAD fornisce anche stili di navigazione alternativi che puoi scegliere in base alle tue preferenze.
 
-## Navigazione
+## Navigare
 
 I gesti del mouse utilizzati per la manipolazione dell\'oggetto variano in base allo stile di navigazione selezionato; lo stile attivo, attualmente selezionato, viene utilizzato in tutti gli ambienti.
 
@@ -26,7 +25,7 @@ Ci sono due modi per modificare lo stile di navigazione:
 
 ### Navigazione CAD 
 
-Questo è lo stile di navigazione predefinito. Permette all\'utente un semplice controllo della vista. Richiede l\'uso della tastiera solo per eseguire multi-selezioni.
+Questo è lo stile di navigazione predefinito. Consente all\'utente un semplice controllo della vista, e non richiede l\'uso dei tasti della tastiera se non per effettuare selezioni multiple.
 
 
 {{CAD Navigation
@@ -121,7 +120,7 @@ Nella navigazione Touchpad, traslazione, zoom e rotazione della vista richiedono
 
 ### Navigazione Gesture 
 
-Questo stile di navigazione è stato introdotto nella versione 0.16, è fatto su misura per essere usato con il touchscreen o con la penna, ma è usabile anche con il mouse. {{Gesture Navigation
+Questo stile di navigazione è stato introdotto nella versione 0.16, è fatto su misura per essere usato con il touchscreen o con la penna, ma è usabile anche con il mouse ed è consigliato per l\'uso quando si utilizza un Mac con un trackpad. {{Gesture Navigation
 |Select_name=Selezione
 |Pan_name=Traslazione
 |Zoom_name=Zoom
@@ -186,7 +185,7 @@ In alternativa, tenere premuti i pulsanti sinistro e destro del mouse, quindi sp
 In alternativa, tenere premuto il pulsante centrale del mouse, e tenere premuto il pulsante destro del mouse, quindi spostare il puntatore.
 }}
 
-### OpenCascade
+### Navigazione OpenCascade 
 
 Questo stile è stato introdotto nella versione 0.18.
 
@@ -209,23 +208,43 @@ In alternativa, tenere premuto **Ctrl** e il tasto sinistro del mouse, quindi sp
 
 ### Selezione semplice 
 
+
+<div class="mw-translate-fuzzy">
+
 Gli oggetti si possono selezionare con un click del tasto sinistro del mouse o facendo clic sull\'oggetto nella [vista 3D](3D_view/it.md) o selezionandoli nella [vista ad albero](tree_view/it.md).
+
+
+</div>
 
 ### Preselezione
 
 Passando con il mouse sugli oggetti, una funzione di Preselezione li evidenzia e visualizza le relative informazioni prima della loro selezione. Se questo comportamento non è gradito o si dispone di una macchina lenta, è possibile disattivare la funzione nel dialogo delle preferenze.
 
-## La manipolazione degli oggetti 
+## Manipolare oggetti 
 
-FreeCAD offre strumenti [Manipolatori](manipulator/it.md) utilizzabili per modificare un oggetto o il suo aspetto visivo.
+FreeCAD offre strumenti [Manipolatori](manipulator/it.md) utilizzabili per modificare un oggetto o il suo aspetto visivo o altri parametri.
 
 ## Supporto Hardware 
 
+
+<div class="mw-translate-fuzzy">
+
 FreeCAD supporta anche i [dispositivi di input 3D](3D_input_devices/it.md).
 
-## Problemi con Mac OS X 
 
-Recentemente abbiamo ricevuto segnalazioni [nel forum](http://forum.freecadweb.org/viewtopic.php?f=3&t=3592&start=0) da utenti Mac che questi pulsanti del mouse e le combinazioni di tasti non funzionano come previsto. Purtroppo, nessuno degli sviluppatori possiede un Mac e neppure gli altri collaboratori regolari. Abbiamo bisogno del vostro aiuto per determinare quali pulsanti del mouse e quali combinazioni di tasti funzionano e poter aggiornare questo wiki.
+</div>
+
+## Navigazione consigliata per macOS 
+
+Sui MacBook con trackpad la navigazione gestuale funziona molto bene, ma i gesti hanno un significato speciale:
+
+-   Zoom: trascina con due dita.
+-   Ruota: trascina con tre dita.
+-   Panoramica: **Ctrl** + tre dita.
+
+## Sviluppo di una navigazione personalizzata 
+
+Il tutorial [Aggiunta di una nuova opzione di navigazione del mouse a FreeCAD](Adding_a_new_mouse_navigation_option_to_FreeCAD/it.md) orienta gli sviluppatori che desiderano sviluppare un\'opzione di navigazione del mouse personalizzata. È richiesta la familiarità con la sintassi C++.
 
 
 {{docnav/it

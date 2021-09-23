@@ -2,7 +2,6 @@
 
 
 
-
 <div class="mw-translate-fuzzy">
 
 Svaki operacijski sistem ima svoju stranicu za kompiliranje FreeCAD programa [Online Help Documentacija](Online_Help_Toc/hr.md).

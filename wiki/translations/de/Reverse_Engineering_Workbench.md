@@ -1,12 +1,22 @@
 # Reverse Engineering Workbench/de
 
- 
+
+
+
 
 <img alt="Arbeitsbereichssymbol Rekonstruktionsingenieurwissenschaften" src=images/Workbench_Reverse_Engineering.svg  style="width:128px;">
+
+## Introduction
+
+
+<div class="mw-translate-fuzzy">
 
 ## Einführung
 
 Der <img alt="" src=images/Workbench_Reverse_Engineering.svg  style="width:24px;"> [Arbeitsbereich Rekonstruktionsingenieurwissenschaften](Reverse_Engineering_Workbench/de.md) (engl. Reverse Engineering; bedeutet: umgekehrt entwickeln, rekonstruieren) soll dir bestimmte Werkzeuge an die Hand geben, um Formen, Volumenkörper und Netze in parametrische FreeCAD Formelemente umzuwandeln. Er befindet sich noch in der Entwicklung.
+
+
+</div>
 
 Zur Zeit ist in diesem Arbeitsbereich noch keine Funktionalität vorhanden. Er wird von den Programmierern als Sandkasten verwendet.
 
@@ -24,6 +34,6 @@ Mit geeigneten Themen im Forum, die diesen Arbeitsbereich behandeln, verknüpfen
 
 
 
- 
+
 
 [Category:Reverse Engineering](Category:Reverse_Engineering.md) [Category:Workbenches](Category:Workbenches.md)

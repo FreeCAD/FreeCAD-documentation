@@ -1,5 +1,4 @@
 # Macro Texture Objects/ru
-
  {{Macro/ru
 |Name=Texture Objects
 |Translate=Текстурные объекты

@@ -1,5 +1,4 @@
 # Main view area
-
  
 
 ## Introduction

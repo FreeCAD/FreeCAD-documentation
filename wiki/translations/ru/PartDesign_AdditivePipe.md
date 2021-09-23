@@ -1,19 +1,20 @@
 ---
-- GuiCommand:
-   Name:PartDesign AdditivePipe
-   MenuLocation:PartDesign → Create an additive feature → Additive pipe
-   Workbenches:[PartDesign](PartDesign_Workbench.md)
+- GuiCommand:/ru
+   Name/ru:Аддитивный трубный профиль
+   Name:PartDesign_AdditivePipe
+   MenuLocation:PartDesign → Create an additive feature → Аддитивный трубный профиль
+   Workbenches:[PartDesign](PartDesign_Workbench/ru.md)
    Version:0.17
-   SeeAlso:[PartDesign Additive Loft](PartDesign_AdditiveLoft.md), [PartDesign Subtractive Pipe](PartDesign_SubtractivePipe.md)
+   SeeAlso:[Аддитивный профиль](PartDesign_AdditiveLoft/ru.md), [Субтрактивный трубный профиль](PartDesign_SubtractivePipe/ru.md)
 ---
 
-## Description
+## Описание
 
 **Additive Pipe** creates a solid in the active Body by sweeping one or more sketches (also referred to as cross-sections) along an open or closed path. If the Body already contains features, the additive pipe will be merged to them.
 
 ![](images/PartDesign_AdditivePipe_example.svg ) *On the left: cross-sections (A) and (B) to be swept along path (C); resulting Additive pipe on the right.*
 
-## Usage
+## Применение
 
 The example image above shows two different cross-section shapes. The text below will describe the procedure with a single shape only. This will achieve a part with the same cross-section along the whole path.
 
@@ -32,7 +33,7 @@ The example image above shows two different cross-section shapes. The text below
 
 To use more than one cross-section, start with the first cross-section sketch as described above. Then under **Section transformation** set the Transform mode to *Multisection*; press **Add Section** then select a sketch in the [3D view](3D_view.md). Repeat for each additional cross-section.
 
-## Options
+## Опции
 
 **Section Transformation**:
 
@@ -62,7 +63,7 @@ To use more than one cross-section, start with the first cross-section sketch as
 -   Right
 -   Rounded
 
-## Properties
+## Свойства
 
 -    **Label**: name given to the operation, this name can be changed at convenience.
 
@@ -84,7 +85,7 @@ To use more than one cross-section, start with the first cross-section sketch as
 
 -    **Transformation**: *Constant* uses a single cross-section. *Multisection* uses two or more cross-sections. *Linear*, *S-shape* and *Interpolation* are currently not functional.
 
-## Limitations
+## Ограничения
 
 -   Sketches used for cross-sections must form closed profiles.
 -   The path can only be from a single sketch, feature or ShapeBinder. In case you want to sweep along several edges from different sketches, use a **<img src=images/PartDesign_SubShapeBinder.svg style="width:16px"> [SubShapeBinder](PartDesign_SubShapeBinder.md)**.

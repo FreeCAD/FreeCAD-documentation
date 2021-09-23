@@ -1,5 +1,4 @@
 # Topological naming problem
-
  
 
 ## Introduction

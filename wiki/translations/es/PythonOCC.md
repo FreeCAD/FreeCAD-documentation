@@ -1,7 +1,6 @@
 # PythonOCC/es
 
 
-
 ## Descripción
 
 

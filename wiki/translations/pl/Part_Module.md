@@ -4,7 +4,6 @@
 
 
 
-
 <img alt="Ikonka FreeCAD dla Środowiska pracy Part" src=images/Workbench_Part.svg  style="width:128px;">
 
 

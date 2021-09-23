@@ -9,7 +9,7 @@
 
 ## Description
 
-Cet outil vous permet de créer un profil 2D d\'un pignon. Il peut être extrudé avec la fonction [PartDesign Protrusion](PartDesign_Pad/fr.md).
+Cet outil vous permet de créer un profil 2D d\'un pignon (ou roue à chaîne). Il peut être extrudé avec la fonction [PartDesign Protrusion](PartDesign_Pad/fr.md).
 
 ## Utilisation
 

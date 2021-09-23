@@ -8,6 +8,9 @@
    Version:0.15
 ---
 
+
+</div>
+
 ## Описание
 
 Select sketcher Elements associated with constraints.
@@ -24,4 +27,4 @@ Select sketcher Elements associated with constraints.
 
 {{Sketcher Tools navi
 
-}}  
+}} 

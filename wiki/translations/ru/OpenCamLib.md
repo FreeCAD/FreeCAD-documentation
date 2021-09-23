@@ -1,7 +1,6 @@
 # OpenCamLib/ru
 
 
-
 ## Описание
 
 

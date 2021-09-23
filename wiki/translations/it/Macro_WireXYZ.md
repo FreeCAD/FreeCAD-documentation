@@ -1,5 +1,4 @@
 # Macro WireXYZ/it
-
  {{Macro/it
 |Name=WireXYZ
 |Icon=Macro_WireXYZ.png

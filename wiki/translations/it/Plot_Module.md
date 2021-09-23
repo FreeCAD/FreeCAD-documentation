@@ -1,7 +1,6 @@
 # Plot Module/it
 
 
-
 <img alt="L\'icona dell\'ambiente Plot" src=images/Workbench_Plot.svg  style="width:128px;">
 
 

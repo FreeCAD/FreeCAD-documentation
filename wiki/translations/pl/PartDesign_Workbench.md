@@ -1,5 +1,4 @@
 # PartDesign Workbench/pl
-
  
 
 <img alt="Ikonka FreeCAD dla Środowiska pracy PartDesign" src=images/Workbench_PartDesign.svg  style="width:128px;">

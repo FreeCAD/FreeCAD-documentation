@@ -1,5 +1,4 @@
 # Crowdin Scripts
-
  
 
 ## Managing Translations for FreeCAD 

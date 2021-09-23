@@ -1,5 +1,4 @@
 # Embedding FreeCADGui
-
  
 
 ## Introduction

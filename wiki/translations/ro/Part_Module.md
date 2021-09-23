@@ -4,7 +4,6 @@
 
 
 
-
 <img alt="Part workbench icon" src=images/Workbench_Part.svg  style="width:128px;">
 
 
@@ -267,7 +266,7 @@ elimină spațiul partajat de un număr par de obiecte (versiunea simetrică a [
 -   <img alt="" src=images/Part_ShapeFromMesh.png  style="width:32px;"> [Shape from Mesh](Part_ShapeFromMesh/ro.md): Crează un obiect formă dintr-un obiect tip plasă.
 -   [Convert to solid](Part_ConvertToSolid/ro.md): Convertește un obeict formă într-un obeict tip solid.
 -   [Reverse shapes](Part_ReverseShapes/ro.md): Îndepărtează normalele tuturor fețelor obiectului selectat.
--   <img alt="" src=images/Part_CreateSimpleCopy‎.svg  style="width:32px;"> [Create simple copy](Part_CreateSimpleCopy/ro.md): Creează o simplă copie a obeictului selectat.
+-   <img alt="" src=images/Part_SimpleCopy‎.svg  style="width:32px;"> [Create simple copy](Part_CreateSimpleCopy/ro.md): Creează o simplă copie a obeictului selectat.
 -   <img alt="" src=images/Part_RefineShape.png  style="width:32px;"> [Refine shape](Part_RefineShape/ro.md): Curăță fațetele prin ștergerea liniilor nenecesare.
 -   <img alt="" src=images/Part_CheckGeometry.png  style="width:32px;"> [Check geometry](Part_CheckGeometry/ro.md): Verifică de erori geometria obiectelor selectate.
 -   [Measure](Std_Measure_Menu/ro.md): Permite măsurări liniare și unghiulare între points/edges/faces.

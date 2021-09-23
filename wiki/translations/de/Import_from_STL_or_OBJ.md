@@ -1,5 +1,4 @@
 # Import from STL or OBJ/de
-
  {{TutorialInfo/de
 |Topic= Import von STL oder OBJ
 |Level= Anfänger

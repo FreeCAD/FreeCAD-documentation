@@ -2,7 +2,6 @@
 
 
 
-
 {{TOCright}}
 
 Questa pagina contiene diversi riferimenti a impostazioni e parametri che è possibile utilizzare per ottimizzare l\'installazione di FreeCAD o superare i problemi.

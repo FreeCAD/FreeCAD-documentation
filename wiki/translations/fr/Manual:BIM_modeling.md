@@ -1,5 +1,4 @@
 # Manual:BIM modeling/fr
-
  }
 
 
@@ -176,7 +175,7 @@ Nous allons maintenant préparer un ensemble de vues à partir de notre modèle,
 ![](images/Exercise_arch_21.jpg )
 
 
-{{VeryImportantMessage|Le développement de l'[atelier Drawing](Drawing_Workbench/fr.md) s'est arrêté dans FreeCAD 0.16, et le nouvel [atelier TechDraw](TechDraw_Workbench/fr.md) visant à le remplacer a été introduit en v0.17. Le plan de travail de dessin peut être supprimé dans les versions ultérieures. Utilisez plutôt le Workbench TechDraw.}}
+**Le développement de l'[atelier Drawing](Drawing_Workbench/fr.md) s'est arrêté dans FreeCAD 0.16, et le nouvel [atelier TechDraw](TechDraw_Workbench/fr.md) visant à le remplacer a été introduit en v0.17. Le plan de travail de dessin peut être supprimé dans les versions ultérieures. Utilisez plutôt le Workbench TechDraw.**
 
 -   Maintenant, nous avons tout ce dont nous avons besoin, et nous pouvons créer notre feuille de dessin. Commencez par passer à l' [atelier Drawing](Drawing_Workbench/fr.md) et créez une nouvelle page par défaut <img alt="" src=images/Drawing_Landscape_A3.png  style="width:16px;"> [page de dessin A3 Paysage](Drawing_Landscape_A3/fr.md) (ou sélectionnez un autre modèle si vous le souhaitez).
 -   Sélectionnez le premier plan de coupe, utilisé pour la vue en plan.

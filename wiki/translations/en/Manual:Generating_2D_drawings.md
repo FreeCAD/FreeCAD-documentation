@@ -5,7 +5,6 @@
 
 
 
-
 {{Manual:TOC}}
 
 When your model cannot be printed or milled directly by a machine, for example it is too big (a building) or it requires manual assembly after the pieces are ready, you will usually need to explain to another person how to do it. In technical fields (engineering, architecture, etc), this is usually done with drawings. The drawings are handed over to the person responsible for assembling the final product and will explain how to do it.
@@ -59,13 +58,13 @@ We will now place dimensions and indications on our drawing. There are two ways 
 
 -   Hit the <img alt="" src=images/TechDraw_ToggleFrame.svg  style="width:16px;"> Toggle button to turn the vertices on.
 -   Use Ctrl + Left Mouse Click to select the two vertices you want to measure the distance between.
--   Hit the <img alt="" src=images/TechDraw_Dimension_Length.svg  style="width:16px;"> [TechDraw Dimension Length](TechDraw_Dimension_Length.md) button.
+-   Hit the <img alt="" src=images/TechDraw_LengthDimension.svg  style="width:16px;"> [TechDraw LengthDimension](TechDraw_LengthDimension.md) button.
 
 ![](images/Exercise_TechDraw_05.png )
 
--   Repeat the operation, until all the dimensions you wish to indicate are placed. Use the <img alt="" src=images/TechDraw_Dimension_Vertical.svg  style="width:16px;"> [TechDraw Vertical Dimension](TechDraw_Dimension_Vertical.md) and <img alt="" src=images/TechDraw_Dimension_Horizontal.svg  style="width:16px;"> [TechDraw Dimension Horizontal](TechDraw_Dimension_Horizontal.md) tools as necessary.
--   Take a minute to look at the [properties](TechDraw_Dimension_Length#Properties.md) of the Dimension object in the Combo View.
--   Please note that if you are dimensioning an [axonometric](https://en.wikipedia.org/wiki/Axonometric_projection) view (e.g., isometric view) instead of a [multiview](https://en.wikipedia.org/wiki/Multiview_projection) view (e.g., front view) like we have done here, you will need to use the <img alt="" src=images/TechDraw_Dimension_Link.svg  style="width:16px;"> [TechDraw Dimension Link](TechDraw_Dimension_Link.md) tool to get an accurate dimension.
+-   Repeat the operation, until all the dimensions you wish to indicate are placed. Use the <img alt="" src=images/TechDraw_VerticalDimension.svg  style="width:16px;"> [TechDraw VerticalDimension](TechDraw_VerticalDimension.md) and <img alt="" src=images/TechDraw_HorizontalDimension.svg  style="width:16px;"> [TechDraw HorizontalDimension](TechDraw_HorizontalDimension.md) tools as necessary.
+-   Take a minute to look at the [properties](TechDraw_LengthDimension#Properties.md) of the Dimension object in the Combo View.
+-   Please note that if you are dimensioning an [axonometric](https://en.wikipedia.org/wiki/Axonometric_projection) view (e.g., isometric view) instead of a [multiview](https://en.wikipedia.org/wiki/Multiview_projection) view (e.g., front view) like we have done here, you will need to use the <img alt="" src=images/TechDraw_LinkDimension.svg  style="width:16px;"> [TechDraw LinkDimension](TechDraw_LinkDimension.md) tool to get an accurate dimension.
 
 ![](images/Exercise_TechDraw_07.png )
 

@@ -32,4 +32,4 @@ Selectează constrângerile conflictuale dintr-o schiță.
 
 {{Sketcher Tools navi
 
-}}  
+}} 

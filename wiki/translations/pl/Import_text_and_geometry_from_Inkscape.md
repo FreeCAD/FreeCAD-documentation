@@ -1,5 +1,4 @@
 # Import text and geometry from Inkscape/pl
-
  {{TutorialInfo
 |Topic= Import text and geometry from Inkscape
 |Level= Beginner

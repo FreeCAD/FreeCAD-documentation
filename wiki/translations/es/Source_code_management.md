@@ -1,5 +1,4 @@
 # Source code management/es
-
  {{TOCright}}
 
 ## Introduction
@@ -856,7 +855,7 @@ To learn more, read [Useful tricks you might not know about Git stash](https://m
 ### Blaming
 
 
-{{VeryImportantMessage|Section TBD}}
+**Section TBD**
 
 Add content from <https://forum.freecadweb.org/viewtopic.php?f=23&t=55943&p=481483#p481287>
 

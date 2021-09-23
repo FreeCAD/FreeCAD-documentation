@@ -4,7 +4,6 @@
 
 
 
-
 <img alt="Ikona FrreCAD dla środowiska pracy Mesh" src=images/Workbench_Mesh.svg  style="width:128px;">
 
 

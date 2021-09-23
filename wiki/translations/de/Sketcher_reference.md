@@ -1,7 +1,6 @@
 # Sketcher reference/de
 
 
-
 ## Einführung
 
 Der Anwender **chrisb** hat ein umfangreiches 70-seitiges Referenzhandbuch für den [Skizzierer Arbeitsbereich](Sketcher_Workbench/de.md) geschrieben, das viele Themen der Benutzung dieses Arbeitsbereichs behandelt. Für unerfahrene Benutzer ist es eine sanfte Einführung, die die grundlegende Verwendung des Skizzierers behandelt und dann in viele Details der Erstellung von geometrischen Elementen und der Verwendung jeder Art von Beschränkungen einführt.

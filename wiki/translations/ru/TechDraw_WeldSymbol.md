@@ -1,9 +1,9 @@
 ---
 - GuiCommand:/ru
-   Name/ru:TechDraw_WeldingSymbol
+   Name/ru:Добавить информацию о сварке в линию-выноску
    Name:TechDraw_WeldingSymbol
    Icon:techdraw-weldsymbol.svg
-   MenuLocation:TechDraw → Добавить информацию о сварке в указательную линию
+   MenuLocation:TechDraw → Добавить информацию о сварке в линию-выноску
    Workbenches:[TechDraw](TechDraw_Workbench/ru.md)
    Version:0.19
    SeeAlso:[Добавить Линию-выноску в Вид](TechDraw_LeaderLine/ru.md)
@@ -91,14 +91,13 @@ App.activeDocument().DrawTileWeld001.CenterText = "center text"
 
 ## Svg Symbol Tiles 
 
--   Individual symbols are formed by 64x64 pixel SVG files. Additional symbols can be created in an SVG program like [Inkscape](https://en.wikipedia.org/wiki/Inkscape) using one of the symbols supplied by FreeCAD as template.
+Individual symbols are formed by 64x64 pixel SVG files. Additional symbols can be created in an SVG program like [Inkscape](https://en.wikipedia.org/wiki/Inkscape) using one of the symbols supplied by FreeCAD as a template.
 
 <img alt="" src=images/Techdraw-WeldingSymbolLayoutArrow.svg  style="width:128px;"> <img alt="" src=images/Techdraw-WeldingSymbolLayoutOther.svg  style="width:128px;">
 
-\* Individual symbols are formed by 64x64 (nominal) pixel SVG files. The tiles actually have a \"border\" of 4px. The border ensures that the leader line and symbol meet nicely.
-
+-   Individual symbols are formed by 64x64 (nominal) pixel SVG files. The tiles actually have a \"border\" of 4px. The border ensures that the leader line and symbol meet nicely.
 -   The symbol is drawn in black on a transparent background. The stroke width is 0.5mm.
--   The leader passes below symbols for the arrow side and above symbols for the \"other\" side.
+-   The leader passes below symbols for the arrow side (see image on the left) and above symbols for the \"other\" side (see image on the right).
 -   There is no particular naming standard other than to append \"Up/Down\" to the arrow/other side symbols.
 
 ## Примечания
@@ -107,15 +106,9 @@ App.activeDocument().DrawTileWeld001.CenterText = "center text"
 -   There is a [preference parameter](TechDraw_Preferences.md) for the default welding symbol directory. You can add your own symbols in a personal directory.
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{TechDraw Tools navi
 
-}}  
+}} 

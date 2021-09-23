@@ -1,7 +1,6 @@
 # Feature/de
 
 
-
 ## Einleitung
 
 In FreeCAD wird das Wort \"[Formelement](Feature/de.md)\" normalerweise verwendet, um sich auf eine [PartDesign Formelement](PartDesign_Feature/de.md) Objekt (`PartDesign::Feature` Klasse) zu beziehen, die von der [PartDesign Arbeitsbereich](PartDesign_Workbench/de.md) definiert wird. Dies ist eine Operation oder ein Modellierungsschritt ausgeführt zum Erstellen oder Ändern eines Volumenkörpers [Form](Shape/de.md) nach dem [Formelementbearbeitungs](feature_editing/de.md) Paradigma.

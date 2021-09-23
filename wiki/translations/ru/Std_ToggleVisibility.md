@@ -1,20 +1,16 @@
 ---
 - GuiCommand:/ru
-   Name:Std ToggleVisibility
-   Name/ru:Std ToggleVisibility
-   Empty:1
+   Name/ru:Видимость
+   Name:Std_ToggleVisibility
    MenuLocation:Вид → Видимость
-   Workbenches:All
-   Shortcut:**пробел**
-   SeeAlso:[Std ShowSelection](Std_ShowSelection/ru.md), [Std HideSelection](Std_HideSelection/ru.md), [Std ToggleObjects](Std_ToggleObjects/ru.md), [Std ShowObjects](Std_ShowObjects/ru.md), [Std HideObjects](Std_HideObjects/ru.md)
+   Workbenches:Все
+   Shortcut:**Space**
+   SeeAlso:[Показать выделенные](Std_ShowSelection/ru.md), [Скрыть выделенные](Std_HideSelection/ru.md), [Инвертировать все видимости](Std_ToggleObjects/ru.md), [Показать все объекты](Std_ShowObjects/ru.md), [Скрыть все объекты](Std_HideObjects/ru.md)
 ---
-
-
-</div>
 
 ## Описание
 
-Команда **Std ToggleVisibility** переключает видимость выделенных объектов в окне [трёхмерного вида](3D_view/ru.md).
+Команда **Видимость** переключает видимость выделенных объектов в окне [трёхмерного вида](3D_view/ru.md).
 
 ## Применение
 
@@ -34,13 +30,16 @@
 
 <div class="mw-translate-fuzzy">
 
--   Действие этих команд не может быть отменено через [Std Undo](Std_Undo/ru.md).
--   Видимость объекта может быть изменена через соответствующее свойство **Visibility** в [Property editor](Property_editor/ru.md) или [Combo view](Combo_view/ru.md).
+-   Невидимые объекты отображаются с выделенной серым цветом меткой и выделенным серым цветом значком в [древовидном представлении](Tree_view/ru.md).
+-   Объекты, вложенные в [деталь](Std_Part/ru.md), или [ссылку](Std_LinkMake/ru.md) на [группу](Std_Group/ru.md), или группу ссылок, а также [features](PartDesign_Feature/ru.md) [тела PartDesign](PartDesign_Body/ru.md) будут видны на 3D-видах только в том случае, если их родитель также виден. Это означает, что в PartDesign теле, вложенный в деталь Std, будет виден в 3D-виде только в том случае, если сам объект, тело дизайна детали и деталь Std являются видимыми. И если Std\_Part, в свою очередь, вложена в другую часть Std\_Part, то этот последний объект также должен быть виден.
+-   Если видимость [группы](Std_Group/ru.md) (или производного от нее объекта, такого как [часть здания](Arch_BuildingPart/ru.md)) будет изменена, видимость ее вложенных объектов изменится соответствующим образом. Но их видимость также может быть изменена независимо.
+-   Действие этих команд не может быть отменено через команду [Отменить](Std_Undo/ru.md).
+-   Видимость объекта может быть изменена через соответствующее свойство **Visibility** в [редакторе свойств](Property_editor/ru.md) или [combo панель](Combo_view/ru.md).
 
 
 </div>
 
-## Scripting
+## Программирование
 
 
 **Смотрите так же:**

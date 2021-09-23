@@ -1,7 +1,6 @@
 # Artwork Splash screen/fr
 
 
-
 Ce sont les écrans de démarrage qui ont été utilisés pour chaque version du programme.
 
 ![](images/Splashscreen09.png )

@@ -1,7 +1,6 @@
 # Tasks Placement/en
 
 
-
 ## Description
 
 Command for modifying **Placement**. These options relate only to the position and orientation of the object in space, they do not affect other attributes of the shape. The placement is stored internally as a position, and a rotation (rotation axis and angle transformed into a quaternion [1](https://en.wikipedia.org/wiki/Quaternions_and_spatial_rotation)). While there are several methods to specify a rotation, for instance with a rotation center, this is only used to affect the rotation computation and is not stored for later operations. Similarly, if a rotation axis of (1,1,1) is specified, it may be normalized when stored in the quaternion and appear as (0.58, 0.58, 0.58) when browsing the object later.

@@ -1,5 +1,4 @@
 # Scripted objects with attachment/it
-
  {{TOCright}}
 
 ## Introduzione

@@ -1,7 +1,6 @@
 # Constraint/ru
 
 
-
 ## Введение
 
 

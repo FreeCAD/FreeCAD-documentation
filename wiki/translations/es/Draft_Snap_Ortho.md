@@ -1,5 +1,5 @@
 ---
-- GuiCommand:   Name:Draft Ortho   Workbenches:[Arch](Draft_Workbench___Draft]],_[[Arch_Workbench.md)|MenuLocation:Draft → [[Draft Snap   Snap]] → Ortho|Shortcut:   SeeAlso:---
+- GuiCommand:   Name:Draft Snap Ortho   Workbenches:[Arch](Draft_Workbench___Draft]],_[[Arch_Workbench.md)|MenuLocation:Draft → [[Draft Snap   Snap]] → Ortho|Shortcut:   SeeAlso:---
 
 
 </div>

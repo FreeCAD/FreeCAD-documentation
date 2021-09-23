@@ -4,7 +4,6 @@
 
 
 
-
 <img alt="Ikonka FreeCAD dla Środowiska pracy OpenSCAD" src=images/Workbench_OpenSCAD.svg  style="width:128px;">
 
 ## Wprowadzenie

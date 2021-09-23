@@ -236,8 +236,8 @@ Optional.
 |MenuLocation=Menu → Submenu → Menu text for the command
 |Workbenches=[Workbench](Workbench_Name.md)
 |Shortcut=**F** **C**
-|SeeAlso= 
 |Version=0.19
+|SeeAlso= 
 }}
 
 == Description ==

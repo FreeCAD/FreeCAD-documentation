@@ -1,38 +1,37 @@
 # Manual:Creating and manipulating geometry/es
-
  
 
 
-{{Manual:TOC}}
+{{Manual:TOC/es}}
 
-In the previous chapters, we learned about the different workbenches of FreeCAD, and how each of them implement their own tools and geometry types. The same concept applies when working from Python code.
+En los capítulos anteriores, hemos aprendido sobre los diferentes ambientes de trabajo de FreeCAD, y cómo cada uno de ellos implementa sus propias herramientas y tipos de geometría. El mismo concepto se aplica cuando se trabaja desde el código de Python.
 
-We also saw that the vast majority of FreeCAD workbenches depend on a very fundamental one: the [Part Workbench](Part_Workbench.md). In fact, many other workbenches, such as [Draft](Draft_Workbench.md) and [Arch](Arch_Workbench.md), do exactly what we will do in this chapter: use Python code to create and manipulate Part geometry.
+También vimos que la gran mayoría de los ambientes de trabajo de FreeCAD dependen de uno muy fundamental: el [Ambiente de trabajo Pieza](Part_Workbench/es.md). De hecho, muchos otros ambientes de trabajo, como [Borrador](Draft_Workbench/es.md) y [Arquitectura](Arch_Workbench/es.md), hacen exactamente lo que haremos en este capítulo: usar código Python para crear y manipular la geometría de la Pieza.
 
-So the first thing we need to do to work with Part geometry, is to do the Python equivalent to switching to the Part Workbench: import the Part module:
+Así que lo primero que tenemos que hacer para trabajar con la geometría Pieza, es hacer el equivalente en Python a cambiar al Ambiente de trabajo Pieza: importar el módulo Pieza:
 
 
 ```python
 import Part 
 ```
 
-Take a minute to explore the contents of the Part module, by typing Part. and browsing through the different methods available. The Part module offers several convenience functions such as makeBox, makeCircle, etc\... which will instantly build an object for you. Try this, for example:
+Tómese un minuto para explorar el contenido del módulo Pieza, escribiendo Pieza. y navegando por los diferentes métodos disponibles. El módulo Pieza ofrece varias funciones convenientes como makeBox, makeCircle, etc\... que construirán instantáneamente un objeto para usted. Pruebe esto, por ejemplo:
 
 
 ```python
 Part.makeBox(3,5,7) 
 ```
 
-When you press Enter after typing the line above, nothing will appear in the 3D view, but something like this will be printed on the Python Console:
+Entrar en Cuando presione Entrar después de escribir la línea anterior, no aparecerá nada en la vista 3D, pero se imprimirá algo como esto en la consola de Python:
 
 
 ```python
 <Solid object at 0x5f43600> 
 ```
 
-This is where an important concept takes place. What we created here is a Part Shape. It is not a FreeCAD document object (yet). In FreeCAD, objects and their geometry are independent. Think of a FreeCAD document object as a container, that will host a shape. Parametric objects will also have properties such as Length and Width, and will **recalculate** their Shape on-the-fly, whenever one of the properties changes. What we did here is calculate a shape manually.
+Aquí es donde tiene lugar un concepto importante. Lo que hemos creado aquí es una forma de pieza. No es un objeto de documento de FreeCAD (todavía). En FreeCAD, los objetos y su geometría son independientes. Piensa en un objeto documento de FreeCAD como un contenedor, que albergará una forma. Los objetos paramétricos también tendrán propiedades como Longitud y Anchura, y **recalcularán** su Forma sobre la marcha, siempre que una de las propiedades cambie. Lo que hemos hecho aquí es calcular una forma manualmente.
 
-We can now easily create a \"generic\" document object in the current document (make sure you have at least one new document open), and give it a box shape like the one we just made:
+Ahora podemos crear fácilmente un objeto de documento \"genérico\" en el documento actual (asegúrate de tener al menos un documento nuevo abierto), y darle una forma de caja como la que acabamos de hacer:
 
 
 ```python
@@ -42,9 +41,9 @@ boxShape = Part.makeBox(3,5,7)
  FreeCAD.ActiveDocument.recompute()
 ```
 
-Note how we handled myObj.Shape , notice that it is done exactly like we did it in the previous chapter, when we changed other properties of an object, such as box.Height = 5 . In fact, **Shape** is also a property, just like **Height**. Only it takes a Part Shape, not a number. In the next chapter we will have a better look at how these parametric objects are constructed.
+Observe como manejamos miObj.Shape , note que se hace exactamente como lo hicimos en el capítulo anterior, cuando cambiamos otras propiedades de un objeto, como box.Height = 5 . De hecho, **Forma** también es una propiedad, al igual que **Altura**\'. Sólo que toma una Forma Pieza, no un número. En el próximo capítulo veremos mejor cómo se construyen estos objetos paramétricos.
 
-For now, let\'s explore our Part Shapes in more detail. At the end of the chapter about [traditional modeling with the Part Workbench](Manual:Traditional_modeling,_the_CSG_way.md) we showed a table that explains how Part Shapes are constructed, and their different components (Vertices, edges, faces, etc). The exact same components exist here and can be retrieved from Python. Part Shapes always have the following attributes: Vertexes, Edges, Wires, Faces, Shells and Solids. All of them are lists, that can contain any number of elements or be empty:
+Por ahora, vamos a explorar nuestras Formas Pieza con más detalle. Al final del capítulo sobre [modelado tradicional con el Ambiente de trabajo Pieza](Manual:Traditional_modeling,_the_CSG_way/es.md) mostramos una tabla que explica cómo se construyen las Formas Pieza, y sus diferentes componentes (Vértices, aristas, caras, etc). Los mismos componentes existen aquí y pueden ser recuperados desde Python. Las Formas Pieza siempre tienen los siguientes atributos: Vértices, Aristas, Hilos, Caras, Carcasas y Sólidos. Todos ellos son listas, que pueden contener cualquier número de elementos o estar vacías:
 
 
 ```python
@@ -56,7 +55,7 @@ print(boxShape.Vertexes)
  print(boxShape.Solids)
 ```
 
-For example, let\'s find the area of each face of our box shape above:
+Por ejemplo, vamos a encontrar el área de cada cara de nuestra forma de caja anterior:
 
 
 ```python
@@ -64,7 +63,7 @@ for f in boxShape.Faces:
    print(f.Area)
 ```
 
-Or, for each edge, its start point and end point:
+O, para cada arista, su punto inicial y su punto final:
 
 
 ```python
@@ -76,9 +75,9 @@ for e in boxShape.Edges:
    print(e.Vertexes[1].Point)
 ```
 
-As you see, if our boxShape has a \"Vertexes\" attribute, each Edge of the boxShape also has a \"Vertexes\" attribute. As we can expect, the boxShape will have 8 vertices, while the edge will only have 2, which are both part of the list of 8.
+Como ves, si nuestra boxShape tiene un atributo \"Vértices\", cada arista de la boxShape también tiene un atributo \"Vértices\". Como podemos esperar, la boxShape tendrá 8 vértices, mientras que la arista sólo tendrá 2, que son ambos parte de la lista de 8.
 
-We can always check what is the type of a shape:
+Siempre podemos comprobar cuál es el tipo de una forma:
 
 
 ```python
@@ -87,17 +86,17 @@ print(boxShape.ShapeType)
  print(boxShape.Vertexes[2].ShapeType)
 ```
 
-So to resume the topic of Part Shapes: Everything starts with Vertices. With one or two vertices, you form an Edge (full circles have only one vertex). With one or more Edges, you form a Wire. With one or more closed Wires, you form a Face (the additional Wires become \"holes\" in the Face). With one or more Faces, you form a Shell. When a Shell is fully closed (watertight), you can form a Solid from it. And finally, you can join any number of Shapes of any types together, which is then called a Compound.
+Así que para retomar el tema de las Formas Pieza: Todo comienza con los vértices. Con uno o dos vértices, se forma una Arista (los círculos completos sólo tienen un vértice). Con una o más aristas, se forma un hilo. Con uno o más hilos cerrados, se forma una cara (los hilos adicionales se convierten en \"agujeros\" en la cara). Con una o más Caras, se forma una Cáscara. Cuando una carcasa está completamente cerrada (hermética), se puede formar un sólido a partir de ella. Y, por último, se puede unir cualquier número de formas de cualquier tipo, lo que se denomina un compuesto.
 
-We can now try creating complex shapes from scratch, by constructing all their components one by one. For example, let\'s try to create a volume like this:
+Ahora podemos intentar crear formas complejas desde cero, construyendo todos sus componentes uno a uno. Por ejemplo, intentemos crear un volumen como éste:
 
 ![](images/Exercise_python_03.jpg )
 
-We will start by creating a planar shape like this:
+Empezaremos creando una forma plana como ésta:
 
 ![](images/Wire.png )
 
-First, let\'s create the four base points:
+En primer lugar, vamos a crear los cuatro puntos base:
 
 
 ```python
@@ -107,7 +106,7 @@ V1 = FreeCAD.Vector(0,10,0)
  V4 = FreeCAD.Vector(0,-10,0)
 ```
 
-Then we can create the two linear segments:
+Entonces podemos crear los dos segmentos lineales:
 
 ![](images/Line.png )
 
@@ -117,14 +116,14 @@ L1 = Part.LineSegment(V1,V2)
 L2 = Part.LineSegment(V4,V3)
 ```
 
-Note that we didn\'t need to create Vertices. We could immediately create Part.LineSegments from FreeCAD Vectors. This is because here we haven\'t created Edges yet. A Part.LineSegment (as well as Part.Circle, Part.Arc, Part.Ellipse or Part.BSpline) does not create an Edge, but rather a base geometry on which an Edge will be created. Edges are always made from such a base geometry, which is stored in its Curve attribute. So if you have an Edge, doing:
+Ten en cuenta que no necesitamos crear Vértices. Podríamos crear inmediatamente Part.LineSegments a partir de los Vectores de FreeCAD. Esto se debe a que aquí no hemos creado aristas todavía. Un segmento de línea de pieza (al igual que un círculo de pieza, un arco de pieza, una elipse de pieza o una curva de pieza) no crea una arista, sino una geometría base sobre la que se creará una arista. Las aristas siempre se crean a partir de dicha geometría base, que se almacena en su atributo Curva. Así que si tiene una Arista, haciendo:
 
 
 ```python
 print(Edge.Curve) 
 ```
 
-will show you what kind of Edge it is, i.e. if it\'s based on a line, an arc, etc\... But let\'s come back to our exercise, and build the arc segments. For this, we will need a third point, so we can use the convenient Part.Arc, which takes 3 points:
+te mostrará qué tipo de arista es, es decir, si está basada en una línea, en un arco, etc\... Pero volvamos a nuestro ejercicio, y construyamos los segmentos de arco. Para esto, necesitaremos un tercer punto, así que podemos usar el conveniente Part.Arc, que toma 3 puntos:
 
 ![](images/Circel.png )
 
@@ -136,7 +135,7 @@ VC1 = FreeCAD.Vector(-10,0,0)
  C2 = Part.Arc(V2,VC2,V3)
 ```
 
-Now we have 2 lines (L1 and L2) and 2 arcs (C1 and C2). We need to turn them into edges:
+Ahora tenemos 2 líneas (L1 y L2) y 2 arcos (C1 y C2). Tenemos que convertirlos en aristas:
 
 
 ```python
@@ -146,7 +145,7 @@ E1 = Part.Edge(L1)
  E4 = Part.Edge(C2)
 ```
 
-Alternatively, base geometries also have a toShape() function that do exactly the same thing:
+Alternativamente, las geometrías base también tienen una función toShape() que hace exactamente lo mismo:
 
 
 ```python
@@ -155,42 +154,42 @@ E1 = L1.toShape()
  ...
 ```
 
-Once we have a series of Edges, we can now form a Wire, by giving it a list of Edges. We do need to take care of the order.
+Una vez que tenemos una serie de Aristas, ahora podemos formar un Hilo, dándole una lista de Aristas. Debemos tener en cuenta el orden.
 
 
 ```python
 W = Part.Wire([E1,E4,E2,E3]) 
 ```
 
-And we can check if our Wire was correctly understood, and that it is correctly closed:
+Y podemos comprobar si nuestro hilo se ha entendido correctamente, y que está correctamente cerrado:
 
 
 ```python
 print( W.isClosed() ) 
 ```
 
-Which will print \"True\" or \"False\". In order to make a Face, we need closed Wires, so it is always a good idea to check that before creating the Face. Now we can create a Face, by giving it a single Wire (or a list of Wires if we want holes):
+Que imprimirá \"Verdadero\" o \"Falso\". Para hacer una Cara, necesitamos Hilos cerrados, por lo que siempre es una buena idea comprobarlo antes de crear la Cara. Ahora podemos crear una Cara, dándole un solo Alambre (o una lista de Alambres si queremos agujeros):
 
 
 ```python
 F = Part.Face(W) 
 ```
 
-Then we extrude it:
+Entonces lo extruimos:
 
 
 ```python
 P = F.extrude(FreeCAD.Vector(0,0,10)) 
 ```
 
-Note that P is already a Solid:
+Tenga en cuenta que P ya es un sólido:
 
 
 ```python
 print(P.ShapeType) 
 ```
 
-This is because when we extrude a single Face, we always get a Solid. This wouldn\'t be the case, for example, if we had extruded the Wire instead:
+Esto se debe a que cuando extruimos una sola Cara, siempre obtenemos un Sólido. Este no sería el caso, por ejemplo, si hubiéramos extruido el Hilo en su lugar:
 
 
 ```python
@@ -198,9 +197,9 @@ S = W.extrude(FreeCAD.Vector(0,0,10))
  print(s.ShapeType)
 ```
 
-Which will of course give us a hollow shell, with the top and bottom faces missing.
+Lo que, por supuesto, nos dará una carcasa hueca, a la que le faltan las caras superior e inferior.
 
-Now that we have our final Shape, we are anxious to see it on screen! So let\'s create a generic object, and assign our new Solid to it:
+Ahora que tenemos nuestra forma final, estamos ansiosos por verla en pantalla. Así que vamos a crear un objeto genérico, y asignarle nuestro nuevo Sólido:
 
 
 ```python
@@ -209,19 +208,19 @@ myObj2 = FreeCAD.ActiveDocument.addObject("Part::Feature","My_Strange_Solid")
  FreeCAD.ActiveDocument.recompute()
 ```
 
-Alternatively, the Part module also provides a shortcut that does the above operation quicker (but you cannot choose the name of the object):
+Como alternativa, el módulo Pieza también proporciona un acceso directo que realiza la operación anterior más rápidamente (pero no se puede elegir el nombre del objeto):
 
 
 ```python
 Part.show(P) 
 ```
 
-All of the above, and much more, is explained in detail on the [Part Scripting](Topological_data_scripting.md) page, together with examples.
+Todo lo anterior, y mucho más, se explica en detalle en la página [Guionización Pieza](Topological_data_scripting/es.md), junto con ejemplos.
 
-**Read more**:
+**Leer más**
 
--   [The Part Workbench](Part_Workbench.md)
--   [Part scripting](Topological_data_scripting.md)
+-   [El ambiente de trabajo Pieza](Part_Workbench/es.md)
+-   [Guionización Pieza](Topological_data_scripting/es.md)
 
 
 

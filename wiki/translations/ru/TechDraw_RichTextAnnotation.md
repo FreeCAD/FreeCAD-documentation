@@ -5,11 +5,8 @@
    MenuLocation:TechDraw → Заметки → Вставка аннотаций форматированным текстомs
    Workbenches:[TechDraw](TechDraw_Workbench/ru.md)
    Version:0.19
-   SeeAlso:[TechDraw Templates](TechDraw_Templates/ru.md), [Draft SVG](Draft_SVG/ru.md), [Добавить Линию-выноску в Вид](TechDraw_LeaderLine/ru.md)
+   SeeAlso:[Шаблоны](TechDraw_Templates/ru.md), [Draft SVG](Draft_SVG/ru.md), [Добавить Линию-выноску в Вид](TechDraw_LeaderLine/ru.md)
 ---
-
-
-</div>
 
 ## Описание
 

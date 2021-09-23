@@ -4,7 +4,6 @@
 
 
 
-
 This page attempts to answer the most common questions asked on the FreeCAD forums. If you have a problem or question regarding FreeCAD, check below first. Then, if you cannot find an answer for your specific question, head to the [FreeCAD forum](http://forum.freecadweb.org/viewforum.php?f=3)!
 
 ## Instalacija

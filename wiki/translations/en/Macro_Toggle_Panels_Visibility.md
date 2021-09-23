@@ -1,5 +1,4 @@
 # Macro Toggle Panels Visibility/en
-
  {{Macro
 |Name=Macro Toggle Panels Visibility
 |Icon=Macro_Toggle_Views_Visibility.png

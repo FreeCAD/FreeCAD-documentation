@@ -1,5 +1,4 @@
 # Manual:BIM modeling/ru
-
  }
 
 
@@ -209,7 +208,7 @@ BIM расшифровывается как [Building Information Modeling (Ин
 <div class="mw-translate-fuzzy">
 
 
-{{VeryImportantMessage|Разработка [верстака Drawing](Workbench_Drawing/ru.md) остановлена в FreeCAD 0.16, а в версии v0.17 был представлен новый [верстак TechDraw](TechDraw_Workbench/ru.md), нацеленный на его замену. Верстак Drawing может быть удалён в будущих версиях. Используйте TechDraw Workbench вместо него.}}
+**Разработка [верстака Drawing](Workbench_Drawing/ru.md) остановлена в FreeCAD 0.16, а в версии v0.17 был представлен новый [верстак TechDraw](TechDraw_Workbench/ru.md), нацеленный на его замену. Верстак Drawing может быть удалён в будущих версиях. Используйте TechDraw Workbench вместо него.**
 
 -   Теперь у нас всё готово, и мы можем создать страницу Drawing. Начнём с переключения на [верстак Drawing](Drawing_Workbench/ru.md), и создадим новую <img alt="" src=images/Drawing_Landscape_A3.png  style="width:16px;"> [страницу A3](Drawing_Landscape_A3/ru.md) (или выделим другую заготовку, по желанию).
 -   Выделим первую секущую плоскость, использованную для вида сверху

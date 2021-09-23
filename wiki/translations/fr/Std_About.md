@@ -16,7 +16,7 @@ La commande **A propos** ouvre une boîte de dialogue qui affiche des informatio
 ![](images/Std_About_example.png ) *La boîte de dialogue À propos de FreeCAD*
 
 
-{{VeryImportantMessage|'''ATTENTION''': ne prenez pas de capture d'écran de cette boîte de dialogue! Appuyez plutôt sur le bouton **Copier dans le presse-papiers** puis collez les informations dans votre demande d'aide.}}
+**'''ATTENTION''': ne prenez pas de capture d'écran de cette boîte de dialogue! Appuyez plutôt sur le bouton **Copier dans le presse-papiers** puis collez les informations dans votre demande d'aide.**
 
 ## Utilisation
 

@@ -2,7 +2,6 @@
 
 
 
-
 {{TOCright}}
 
 ## Les scripts Python dans FreeCAD 

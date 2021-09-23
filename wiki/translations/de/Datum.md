@@ -1,7 +1,6 @@
 # Datum/de
 
 
-
 ## Einführung
 
 In FreeCAD wird das Wort \"[Bezugsebene](Datum/de.md)\" normalerweise verwendet, um sich auf Hilfsgeometrie im [PartDesign Arbeitsbereich](PartDesign_Workbench/de.md) zu beziehen. Diese geometrischen Elemente bilden kein Teil der endgültigen [Form](Shape/de.md) des [Körpers](Body/de.md), können aber als Referenzen und als Unterstützung für [Skizzen](Sketch/de.md) und andere Arten von [Formelementen](Feature/de.md) verwendet werden.

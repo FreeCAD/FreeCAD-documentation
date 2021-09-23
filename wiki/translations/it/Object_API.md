@@ -1,6 +1,5 @@
 # Object API/it
-
- {{VeryImportantMessage|(Ottobre 2019) Non modificare queste pagine. Le informazioni sono incomplete e obsolete. Per l'API più recente, consultare la [https://www.freecadweb.org/api documentazione API autogenerata] o generare la documentazione autonomamente. Vedere [Documentazione del codice sorgente](Source_documentation/it.md).}}
+ **(Ottobre 2019) Non modificare queste pagine. Le informazioni sono incomplete e obsolete. Per l'API più recente, consultare la [https://www.freecadweb.org/api documentazione API autogenerata] o generare la documentazione autonomamente. Vedere [Documentazione del codice sorgente](Source_documentation/it.md).**
 
 Essendo parametrici, in FreeCAD gli oggetti del documento possono avere un sacco di altre proprietà. Queste sono quelle di base, presenti in ogni FreeCAD Document Object. Gli oggetti possono essere recuperati semplicemente con il loro nome. Esempio: 
 ```python

@@ -8,6 +8,9 @@
    SeeAlso:[Skizzierer B-Spline-Grad ein-/ausblenden](Sketcher_BSplineDegree/de.md), [Skizzierer B-Spline Grad erhöhen](Sketcher_BSplineIncreaseDegree/de.md)
 ---
 
+
+</div>
+
 ## Beschreibung
 
 Verringert den Grad (die Ordnung) eines B-Spline (siehe [diese Seite](B-Splines/de.md) für weitere Informationen über B-Splines).
@@ -42,4 +45,4 @@ If you take this result and increase the degree, you cannot get the initial stat
 
 {{Sketcher Tools navi
 
-}}  
+}} 

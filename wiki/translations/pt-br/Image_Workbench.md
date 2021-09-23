@@ -1,5 +1,4 @@
 # Image Workbench/pt-br
-
  
 
 <img alt="Ícone da bancada de trabalho de imagem" src=images/Workbench_Image.svg  style="width:128px;">

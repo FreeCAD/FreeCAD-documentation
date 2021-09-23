@@ -1,7 +1,6 @@
 # Civil Engineering Workbench/hr
 
 
-
 ## Opis
 
 Civil Engineering is a broad category of engineering and covers several subjects, primarily environmental (wastewater), geotechnical, transportation, and structural. At present, the primary focus of the civil engineering effort in FreeCAD is focused on transportation engineering, or more specifically 3D Highway design.

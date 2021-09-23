@@ -1,5 +1,4 @@
 # Macro Geodesic Dome/en
-
  {{Macro
 |Name=Macro Geodesic Dome
 |Icon=Macro_Geodesic_Dome.svg

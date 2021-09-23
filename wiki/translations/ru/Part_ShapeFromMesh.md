@@ -1,21 +1,21 @@
 ---
 - GuiCommand:/ru
-   Name:Part ShapeFromMesh‏‎
-   Name/ru:Part ShapeFromMesh‏‎
-   MenuLocation:Деталь → Создание формы из сетки...
+   Name/ru:Создать фигуру из полигональной сетки
+   Name:Part_ShapeFromMesh‏‎
+   MenuLocation:Part → Создание фигуры из полигональной сетки...
    Workbenches:[Part](Part_Workbench/ru.md)
-   SeeAlso:[Part ConvertToSolid](Part_MakeSolid/ru.md), [Уточнить форму](Part_RefineShape/ru.md), [Part PointsFromMesh](Part_PointsFromMesh/ru.md)
+   SeeAlso:[Преобразовать в твердые](Part_MakeSolid/ru.md), [Закрепить фигуру](Part_RefineShape/ru.md), [Part PointsFromMesh](Part_PointsFromMesh/ru.md)
 ---
 
 
 </div>
 
-## Introduction
+## Введение
 
 
 <div class="mw-translate-fuzzy">
 
-## Введение
+## Введение 
 
 Эта команда создаёт форму из [сетки](Glossary/ru#Mesh.md). Возможности объектов типа сетка внутри FreeCAD ограничены, преобразование их в формы позволяет использовать с ними гораздо больше инструментов (см. так же [примечания](#Примечание.md)).
 
@@ -24,7 +24,7 @@
 
 The inverse operation is **<img src=images/Mesh_FromPartShape.svg style="width:16px"> [Mesh FromPartShape](Mesh_FromPartShape.md)** from the <img alt="" src=images/Workbench_Mesh.svg  style="width:24px;"> [Mesh Workbench](Mesh_Workbench.md).
 
-## Usage
+## Применение
 
 
 <div class="mw-translate-fuzzy">
@@ -53,11 +53,11 @@ The inverse operation is **<img src=images/Mesh_FromPartShape.svg style="width:1
 
 After creation of a <img src=images/Part_RefineShape.svg style="width:Shape](Shape.md), it may be useful to use **[Convert to solid](Part_MakeSolid.md)** (necessary for [boolean operations](Part_Boolean.md)) and **[16px"> [Refine shape](Part_RefineShape.md)**.
 
-## Links
+## Ссылки
 
 -   [Edit STL Files In FreeCAD](https://www.youtube.com/watch?v=5lwENZeNiNg&feature=youtu.be) video by AllVisuals4U.
 
-## Scripting
+## Программирование
 
 Creating a [Shape](Shape.md) from a [Mesh](Mesh.md) can be done by using the `makeShapeFromMesh` method from a [Part TopoShape](Part_TopoShape.md); you need to specify the source mesh and tolerance, and assign the result to a new [Part Feature](Part_Feature.md) object.
 
@@ -83,7 +83,13 @@ doc.recompute()
 ```
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
   

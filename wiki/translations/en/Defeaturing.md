@@ -1,7 +1,6 @@
 # Defeaturing/en
 
 
-
 ## Introduction
 
 3D Model Defeaturing got added with Open CASCADE 7.3 [1](https://dev.opencascade.org/index.php?q=node/1211) and can be used for editing STEP models by removing of the features from the model.

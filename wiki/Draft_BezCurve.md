@@ -9,7 +9,7 @@
 
 ## Description
 
-The <img alt="" src=images/Draft_BezCurve.svg  style="width:24px;"> **Draft BezCurve** command creates a [Bézier Curve](http://en.wikipedia.org/wiki/Bezier_curve) from several points.
+The <img alt="" src=images/Draft_BezCurve.svg  style="width:24px;"> **Draft BezCurve** command creates a [Bézier curve](http://en.wikipedia.org/wiki/Bezier_curve) from several points.
 
 The command creates a single Bézier curve with a **Degree** that is `number_of_points - 1`. It can be transformed into a piecewise Bézier curve by reducing this property.
 

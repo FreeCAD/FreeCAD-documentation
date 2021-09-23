@@ -1,9 +1,8 @@
 # Multithreading
-
  
 
 
-{{VeryImportantMessage|This is a stub that needs expanding.}}
+**This is a stub that needs expanding.**
 
 ## Multithreading in FreeCAD 
 

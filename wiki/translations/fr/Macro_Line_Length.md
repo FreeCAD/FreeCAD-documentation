@@ -1,5 +1,4 @@
 # Macro Line Length/fr
-
  {{Macro/fr
 |Name=Macro Line_Length
 |Icon=Macro_Line_Length.png

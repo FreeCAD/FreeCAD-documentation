@@ -5,7 +5,6 @@
 
 
 
-
 <div style="float:right; clean:both; margin-left:0.5em;">
 
 \_\_TOC\_\_

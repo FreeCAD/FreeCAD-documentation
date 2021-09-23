@@ -2,7 +2,6 @@
 
 
 
-
 {{TutorialInfo/ru
 |Topic=Product design
 |Level=Advanced

@@ -47,6 +47,7 @@ La commande **Mesh Evaluation** évalue et répare un objet maillé.
 ## Remarques
 
 -   La réparation d\'un maillage peut signifier que les éléments problématiques sont supprimés du maillage, ce qui entraîne des trous. Les trous peuvent être fermés avec les commandes [Mesh Remplir les trous](Mesh_FillupHoles/fr.md), [Mesh Boucher un trou](Mesh_FillInteractiveHole/fr.md) et [Mesh Ajouter un facette](Mesh_AddFacet/fr.md).
+-   Voir [ce fil du forum](https://forum.freecadweb.org/viewtopic.php?f=3&p=533252#p533252) pour une explication de la structure de données du maillage. Ces informations peuvent aider à comprendre pourquoi un maillage a des problèmes.
 
 ## Préférences
 

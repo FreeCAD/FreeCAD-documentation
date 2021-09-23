@@ -1,5 +1,4 @@
 # Rocket Workbench
-
  
 
 <img alt="Rocket Workbench icon" src=images/RocketWorkbench.svg  style="width:128px;">
@@ -19,7 +18,7 @@ Parts are created by specifying parameters in the task dialog. No drawing is req
 ## Installation
 
 
-{{VeryImportantMessage|The Rocket workbench is a work in progress, and will change often. Be sure to update it regularly!}}
+**The Rocket workbench is a work in progress, and will change often. Be sure to update it regularly!**
 
 This workbench can be installed from the <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md). For manual installation see [Installing more workbenches](Installing_more_workbenches.md).
 

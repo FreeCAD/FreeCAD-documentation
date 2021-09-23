@@ -21,10 +21,4 @@ Cet outil bascule la visibilité des mesures linéaires (rouge) et angulaires (b
 
 
 
-
-
-
-
-
-
-
+ 

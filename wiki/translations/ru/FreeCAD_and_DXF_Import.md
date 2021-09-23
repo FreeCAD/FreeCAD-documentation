@@ -1,5 +1,4 @@
 # FreeCAD and DXF Import/ru
-
  {{TOCright}}
 
 ## Background

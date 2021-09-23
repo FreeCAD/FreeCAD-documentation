@@ -1,5 +1,4 @@
 # Macro Build Utility/fr
-
  {{Macro/fr
 |Name=Macro Build Utility
 |Description=Cette macro fournit un utilitaire de compilation permettant d'assembler plusieurs fichiers projets en un seul.

@@ -1,7 +1,6 @@
 # Civil Engineering Workbench/fr
 
 
-
 ## Description
 
 Le génie civil est un vaste domaine d\'ingénierie et couvre plusieurs sujets, principalement environnementaux (eaux usées), géotechnique, transport et structure. À l'heure actuelle, les efforts de génie civil dans FreeCAD portent principalement sur l'ingénierie des transports, ou plus précisément sur la conception 3D des autoroutes.

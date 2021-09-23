@@ -5,7 +5,6 @@
 
 
 
-
 {{TOCright}}
 
 ## Předmluva
@@ -98,14 +97,6 @@ Spouštíte-li FreeCAD poprvé, dostanete se do startovního centra:
 </div>
 
 <img alt="" src=images/Start_center_0.18_screenshot.jpg  style="width:1024px;">
-
-
-<div class="mw-translate-fuzzy">
-
-<img alt="" src=images/Startcenter.jpg  style="width:1024px;">
-
-
-</div>
 
 
 <div class="mw-translate-fuzzy">

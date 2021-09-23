@@ -2,7 +2,6 @@
 
 
 
-
 <div class="mw-translate-fuzzy">
 
 
@@ -71,18 +70,15 @@ O principal conceito por trás da interface do FreeCAD é que está separada em 
 
 </div>
 
-Quando você inicia o FreeCAD pela primeira vez, é apresentado ao Start Center. Veja como aparace o Start Center na versão 0.18:
-
-<img alt="" src=images/Start_center_0.18_screenshot.jpg  style="width:1024px;">
-
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/Start_center_0.18_screenshot.jpg  style="width:1024px;"> 
-*Para FreeCAD 0.17 veja esta [start center](Media:Startcenter0.17.jpg.md) screenshot.*
+Quando você inicia o FreeCAD pela primeira vez, é apresentado ao Start Center. Veja como aparace o Start Center na versão 0.18:
 
 
 </div>
+
+<img alt="" src=images/Start_center_0.18_screenshot.jpg  style="width:1024px;">
 
 
 <div class="mw-translate-fuzzy">

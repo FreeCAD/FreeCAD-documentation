@@ -4,7 +4,6 @@
 
 
 
-
 <img alt="Part workbench icon" src=images/Workbench_Part.svg  style="width:128px;">
 
 

@@ -1,7 +1,6 @@
 # Installing Helpfile/pl
 
 
-
 ## FreeCAD dokumentacja pomocy 
 
 Dokumentacja FreeCAD offline jest budowana z wiki FreeCAD przy użyciu skryptów. Rozrosła się do rozmiaru pliku przekraczającego 220 MB. Te duże pliki nie są częścią instalatorów i plików wykonywalnych FreeCAD, ale mogą być instalowane oddzielnie, tak jak zostało to tutaj przedstawione.

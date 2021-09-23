@@ -1,5 +1,4 @@
 # Manipulator Workbench
-
  
 
 <img alt="Manipulator workbench icon" src=images/Manipulator_workbench_icon.svg  style="width:128px;">

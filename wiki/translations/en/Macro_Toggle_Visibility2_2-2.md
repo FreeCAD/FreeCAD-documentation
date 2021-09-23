@@ -1,5 +1,4 @@
 # Macro Toggle Visibility2 2-2/en
-
  {{Macro
 |Name=Macro Toggle Visibility2 2-2
 |translate=Macro Toggle Visibility2 2-2

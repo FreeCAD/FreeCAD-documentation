@@ -2,7 +2,6 @@
 
 
 
-
 {{TutorialInfo/es
 |Topic=Croquis
 |Level=Principiante

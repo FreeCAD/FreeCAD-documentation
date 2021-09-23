@@ -1,7 +1,6 @@
 # Workfeature Workbench/de
 
 
-
 <img alt="Workfeature-Arbeitsbereich-Symbol" src=images/WF_wf.png  style="width:128px;">
 
 

@@ -1,5 +1,4 @@
 # Artwork OpenSCAD
-
   
 
 These icons are in the indicated source path.

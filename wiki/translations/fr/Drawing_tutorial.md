@@ -1,6 +1,5 @@
 # Drawing tutorial/fr
-
- {{VeryImportantMessage|Le développement de [atelier Drawing](Drawing_Workbench/fr.md) s'est arrêté dans FreeCAD 0.16, et le nouvel [atelier TechDraw](TechDraw_Workbench/fr.md) visant à le remplacer a été introduit en v0.17. Les deux ateliers sont toujours fournis dans la version 0.17, mais l'atelier de dessin peut être supprimé dans les versions ultérieures.}}
+ **Le développement de [atelier Drawing](Drawing_Workbench/fr.md) s'est arrêté dans FreeCAD 0.16, et le nouvel [atelier TechDraw](TechDraw_Workbench/fr.md) visant à le remplacer a été introduit en v0.17. Les deux ateliers sont toujours fournis dans la version 0.17, mais l'atelier de dessin peut être supprimé dans les versions ultérieures.**
 
 
 {{TutorialInfo/fr

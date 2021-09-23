@@ -1,7 +1,6 @@
 # LinkSub/en
 
 
-
 ## Description
 
 A [LinkSub](LinkSub.md) is a data structure that is used as input to various functions and objects; its purpose is to pass a subobject or subelement (vertex, edge, or face) from an object to another object that will use or transform that geometry.

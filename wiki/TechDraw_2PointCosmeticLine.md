@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:TechDraw 2PointCosmeticLine
-   MenuLocation:TechDraw → Add Lines → Add Cosmetic Line between 2 points
+   MenuLocation:TechDraw → Add Lines → Add Cosmetic Line Through 2 points
    Workbenches:[TechDraw](TechDraw_Workbench.md)
    Version:0.19
    SeeAlso:[TechDraw Centerline to Face(s)](TechDraw_FaceCenterLine.md), [TechDraw Centerline between 2 Lines](TechDraw_2LineCenterLine.md)

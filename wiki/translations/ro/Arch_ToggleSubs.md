@@ -30,7 +30,7 @@ With this tool, the internal subtracted objects will all become visible or hidde
 <div class="mw-translate-fuzzy">
 
 1.  Selectați un obiect care a subtracții
-2.  Selectați meniul Arch → Utilities → **<img src="images/Arch_ToggleSubs‏‎.png" width=16px> [Toggle Subcomponents‏‎](Arch_ToggleSubs‏‎.md)
+2.  Selectați meniul Arch → Utilities → **<img src="images/Arch_ToggleSubs‏‎.svg" width=16px> [Toggle Subcomponents‏‎](Arch_ToggleSubs‏‎.md)
 **
 
 

@@ -4,7 +4,6 @@
 
 
 
-
 <img alt="Arch Arbeitsbereichssymbol" src=images/Workbench_Arch.svg  style="width:128px;">
 
 

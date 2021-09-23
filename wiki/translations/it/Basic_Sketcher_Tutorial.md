@@ -2,7 +2,6 @@
 
 
 
-
 {{TutorialInfo/it
 |Topic= Sketcher
 |Level= Base

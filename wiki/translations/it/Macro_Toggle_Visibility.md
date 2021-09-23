@@ -1,5 +1,4 @@
 # Macro Toggle Visibility/it
-
  {{Macro/it
 |Name=Toggle Visibility
 |Translate=Visibilità oggetti

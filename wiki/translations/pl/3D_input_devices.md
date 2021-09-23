@@ -1,5 +1,4 @@
 # 3D input devices/pl
-
  FreeCAD obsługuje wybranee specjalistyczne urządzenia wejściowe, takie jak na przykład myszki 3D. Dzięki temu użytkownik może obracać, przesuwać i powiększać obiekty w trzech różnych płaszczyznach.
 
 ## Obsługiwany sprzęt 

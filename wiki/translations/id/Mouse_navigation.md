@@ -5,8 +5,9 @@
 
 
 
-
 {{TOCright}}
+
+## Overview
 
 
 <div class="mw-translate-fuzzy">
@@ -16,14 +17,27 @@ Penggunaan mouse di FreeCAD berisi perintah - perintah yang digunakan untuk navi
 
 </div>
 
+## Navigation
+
+
+<div class="mw-translate-fuzzy">
+
 ## Navigasi
 
 Penanganan obyek adalah umum untuk semua workbenches.Pola pergerakan mouse dapat digunakan untuk mengontrol posisi objek dan melihat sesuai dengan yang mode Navigasi yang dipilih.
+
+
+</div>
 
 Ada 2 cara untuk merubah mode navigasi:
 
 -   Di menu Edit, [Preferences Editor](Preferences_Editor.md), pilih pada bagian Display, klik pada tab *3D View* ;
 -   Dengan klik-kanan pada bagian tampilan 3d yang kosong, kemudian klik *Navigation style* dan pilih mode yang diinginkan.
+
+### CAD navigation 
+
+
+<div class="mw-translate-fuzzy">
 
 ### CAD Navigation (default) 
 
@@ -61,6 +75,9 @@ Users who use the mouse with their right hand may find this method easier than t
 }}
 
 
+</div>
+
+
 {{CAD Navigation
 |Select_name=Select
 |Pan_name=Pan
@@ -91,6 +108,11 @@ With this method the middle mouse button may be released after the right mouse b
 Users who use the mouse with their right hand may find this method easier than the first method.
 }}
 
+### OpenInventor navigation 
+
+
+<div class="mw-translate-fuzzy">
+
 ### Inventor Navigation 
 
 Mode navigasi Inventor, tidak ada pemilihan objek pada mode ini. Untuk memilih objek kita harus menekan tombol **CTRL**. {{OpenInventor Navigation
@@ -106,6 +128,9 @@ Mode navigasi Inventor, tidak ada pemilihan objek pada mode ini. Untuk memilih o
 Alternatively, hold the middle mouse button, then press and hold the left mouse button, then move the pointer. 
 |Rotate_view_text=Hold the left mouse button, then move the pointer.
 }}
+
+
+</div>
 
 This mode is not based on Autodesk Inventor.
 
@@ -124,7 +149,13 @@ Alternatively, hold the middle mouse button, then press and hold the left mouse 
 |Rotate_view_text=Hold the left mouse button, then move the pointer.
 }}
 
+
+<div class="mw-translate-fuzzy">
+
 ### Blender Navigation 
+
+
+</div>
 
 Pada mode navigasi Blender, tidak ada perintah pan (menggeser layar 3D). Untuk melalukan penggeseran layar (pan) kamu harus menekan tombol **SHIFT**. {{Blender Navigation
 |Select_name=Select
@@ -142,7 +173,13 @@ Alternatively, hold both left and right mouse buttons, and then move the pointer
 
 Alternatively, hold both left and right mouse buttons, and then move the pointer. \|Zoom\_text=Use the mouse wheel to zoom in and out. \|Rotate\_view\_text=Hold the middle mouse button, then move the pointer. }}
 
+
+<div class="mw-translate-fuzzy">
+
 ### Touchpad Navigation 
+
+
+</div>
 
 In Touchpad Navigation, neither panning, nor zooming, nor rotating the view, are mouse-only (or touchpad-only) operations. {{Touchpad Navigation
 |Select_name=Select
@@ -162,7 +199,13 @@ In Touchpad Navigation, neither panning, nor zooming, nor rotating the view, are
 |Rotate_view_alt_text=Alternatively, hold **Shift** and the left button, then move the pointer.
 }}
 
+
+<div class="mw-translate-fuzzy">
+
 ### Gesture Navigation (v0.16) 
+
+
+</div>
 
 This navigation style was tailored for usability with touchscreen and pen, but is very usable with mouse too. {{Gesture Navigation
 |Select_name=Select
@@ -199,7 +242,13 @@ Hold **Alt** when in the [Sketcher](Sketcher_Workbench.md). \|Tilt\_view\_text=H
 
 On v0.18 this method is disabled by default. To enable, go to **Edit → Preferences → Display**, and untick \"Disable touchscreen tilt gesture\" checkbox. }}
 
+
+<div class="mw-translate-fuzzy">
+
 ### Maya-Gesture Navigation 
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -223,7 +272,7 @@ Alternatively, use the mouse wheel to zoom in and out.
 
 Alternatively, use the mouse wheel to zoom in and out. \|Rotate\_view\_text=Hold **Alt** and the left mouse button, then move the pointer. }}
 
-### Revit Navigation 
+### Revit navigation 
 
 This style was introduced in version 0.18.
 
@@ -245,7 +294,7 @@ Alternatively, hold both left and right mouse buttons, then move the pointer.
 Alternatively, hold the middle mouse button, then press and hold the right mouse button, then move the pointer.
 }}
 
-### OpenCascade
+### OpenCascade navigation 
 
 This style was introduced in version 0.18.
 
@@ -268,23 +317,61 @@ Alternatively, hold **Ctrl** and the left mouse button, then move the pointer.
 
 ### Simple selection 
 
+
+<div class="mw-translate-fuzzy">
+
+### Simple selection 
+
 Objek dapat dipilih dengan klik-kiri, bisa objek yang ada di tampilan 3D atau di daftar struktur.
+
+
+</div>
 
 ### Preselection
 
+
+<div class="mw-translate-fuzzy">
+
+### Preselection 
+
 Ada juga mekanisme \"Preselection\" yang menyoroti objek dan menampilkan informasi tentang objek tersebut sebelum pemilihan hanya dengan melayang mouse di atasnya. Jika kamu tidak menyukai perilaku itu atau kamu memiliki komputer tua yang lambat, kamu dapat mematikan praseleksi dalam seting preferences.
+
+
+</div>
+
+## Manipulating objects 
+
+
+<div class="mw-translate-fuzzy">
 
 ## Manipulating Objects 
 
 FreeCAD menawarkan [manipulators](manipulator/id.md) yang dapat digunakan untuk modifikasi objek atau tampilan visualnya.
 
+
+</div>
+
 ## Hardware support 
+
+
+<div class="mw-translate-fuzzy">
 
 FreeCAD juga mendukung beberapa jenis dari [3D input devices](3D_input_devices.md).
 
-## Mac OS X Issues 
 
-Recently we got reports [on the forum](http://forum.freecadweb.org/viewtopic.php?f=3&t=3592&start=0) from Mac users that those mouse button and key combination do not work as expected. Unfortunately, none of the developers owns a Mac, neither do the other regular contributors. We need your help to determine which mouse buttons and key combination work so we can update this wiki.
+</div>
+
+## Recommended navigation for macOS 
+
+On MacBooks with a trackpad the Gesture navigation works very well, but the gestures have a special meaning:
+
+-   Zoom: drag with two fingers.
+-   Rotate: drag with three fingers.
+-   Pan: **Ctrl** + three fingers.
+
+## Developing a custom navigation 
+
+The tutorial [Adding a new mouse navigation option to FreeCAD](Adding_a_new_mouse_navigation_option_to_FreeCAD.md) orients developers who want to develop a custom mouse navigation option. Familiarity with the C++ syntax is required.
 
 
 {{docnav|Getting started|Document structure}}

@@ -2,7 +2,6 @@
 
 
 
-
 {{Macro/fr
 |Name=FCHoneycombMaker
 |Icon=FCHoneycombMakerIcon.png

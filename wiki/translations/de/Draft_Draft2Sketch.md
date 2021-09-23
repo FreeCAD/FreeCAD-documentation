@@ -8,7 +8,13 @@
 
 ## Beschreibung
 
-Der <img alt="" src=images/Draft_Draft2Sketch.svg  style="width:24px;"> **Entwurf EntwurfZuSkizze** Befehl wandelt Entwurfsobjekte in [Skizzierer Skizzen](Sketcher_NewSketch/de.md) um und umgekehrt.
+
+<div class="mw-translate-fuzzy">
+
+Der <img alt="" src=images/Draft_Draft2Sketch.svg  style="width:24px;"> **Entwurf EntwurfZuSkizze** Befehl wandelt [Entwurfsobjekte](Draft_Workbench/de.md) in [Skizzierer Skizzen](Sketcher_NewSketch/de.md) um und umgekehrt.
+
+
+</div>
 
 ![](images/Draft_Draft2Sketch_example.png ) *Konvertieren von Entwurfsobjekten in Skizzierer Skizzen*
 

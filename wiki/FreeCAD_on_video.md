@@ -2,7 +2,6 @@
 
 
 
-
 ## Introduction
 
 There are a lot of Videos about FreeCAD, to many to list here. Even the number of \"channels\" is high. I think that many channels are under subscribed, you may want to help change this. Also encourage creators by liking the videos. Based on considerable time watching videos here is a list of some of FreeCAD on Video channels. If you are a creator and wish to be included you can edit the wiki or contact one of the authors of this page ( see View History ) to have your channel included. You may also want to check out the discussion page.

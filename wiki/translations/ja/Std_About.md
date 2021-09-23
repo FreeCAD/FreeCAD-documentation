@@ -20,7 +20,7 @@
 ![](images/Std_About_example.png ) *The About FreeCAD dialog box*
 
 
-{{VeryImportantMessage|'''ATTENTION''': Do not take a screenshot of this dialog box! Instead press the **Copy to clipboard** button and then paste the information in your help request.}}
+**'''ATTENTION''': Do not take a screenshot of this dialog box! Instead press the **Copy to clipboard** button and then paste the information in your help request.**
 
 ## Usage
 

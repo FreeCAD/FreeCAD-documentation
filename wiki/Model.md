@@ -1,5 +1,4 @@
 # Model
-
  
 
 ## Introduction

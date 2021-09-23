@@ -4,8 +4,10 @@
 
 
 
-
 <img alt="Sketcher workbench icon" src=images/Workbench_Sketcher.svg  style="width:128px;">
+
+
+{{TOCright}}
 
 ## Introducere
 
@@ -25,12 +27,7 @@ Atelierul de lucru Sketcher pune pe primul loc "constrângerile" - permițând d
 
 </div>
 
-
-{{TOCright}}
-
-<img alt="" src=images/FC_ConstrainedSketch.png  style="width:450px;">
-
-
+<img alt="" src=images/FC_ConstrainedSketch.png  style="width:450px;"> 
 *A fully constrained sketch*
 
 ## Basics of constraint sketching 

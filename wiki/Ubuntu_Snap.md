@@ -1,5 +1,4 @@
 # Ubuntu Snap
-
  
 
 ## Introduction

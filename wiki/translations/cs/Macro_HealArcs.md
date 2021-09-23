@@ -1,5 +1,4 @@
 # Macro HealArcs/cs
-
  {{Macro/cs
 |Name=HealArcs
 |Translate=HealArcs

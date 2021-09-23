@@ -1,6 +1,5 @@
 # Key ASCII/pl
-
- {{VeryImportantMessage|Strona nieukończona}}
+ **Strona nieukończona**
 
 <img alt="" src=images/Ascii_000.svg  style="width:32px;"> : napisz 
 **Alt** + **0**

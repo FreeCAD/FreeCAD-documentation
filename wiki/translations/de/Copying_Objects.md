@@ -1,5 +1,4 @@
 # Copying Objects/de
-
  {{TOCright}}
 
 ## Übersicht

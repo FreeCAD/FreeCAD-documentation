@@ -1,5 +1,4 @@
 # Macro PartsLibrary/en
-
  {{Macro
 |Name=Parts Library
 |Icon=FreeCAD Doc.png

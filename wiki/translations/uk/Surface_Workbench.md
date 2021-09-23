@@ -4,7 +4,6 @@
 
 
 
-
 <img alt="Surface workbench icon" src=images/Workbench_Surface.svg  style="width:128px;">
 
 

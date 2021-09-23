@@ -1,5 +1,4 @@
 # Macro Apothem Based Prism GUI/hr
-
  {{Macro
 |Name=Apothem Based Prism
 |Translate=Prizma utemeljena na apotemu

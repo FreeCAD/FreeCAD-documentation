@@ -1,16 +1,15 @@
 # Artwork Plot/pl
-
  
 
 Ikony te znajdują się we wskazanej ścieżce źródłowej.
 
 Wszystkie ikonki widoczne na liście źródłowej, patrz [Grafika](Artwork/pl.md).
 
-## src/Mod/Plot/
+## Mod/Plot/
 
-### src/Mod/Plot/resources/icons/
+### Mod/Plot/freecad/plot/resources/icons/
 
-![](images/Axes.svg ) ![](images/Grid.svg ) ![](images/Icon.svg ) ![](images/Labels.svg ) ![](images/Legend.svg ) ![](images/PlotWorkbench.svg ) ![](images/Positions.svg ) ![](images/Save.svg ) ![](images/Series.svg )
+<img alt="" src=images/Plot_Axes.svg  style="width:64px;"> <img alt="" src=images/Plot_Grid.svg  style="width:64px;"> <img alt="" src=images/Plot_Icon.svg  style="width:64px;"> <img alt="" src=images/Plot_Labels.svg  style="width:64px;"> <img alt="" src=images/Plot_Legend.svg  style="width:64px;"> <img alt="" src=images/Plot_Positions.svg  style="width:64px;"> <img alt="" src=images/Plot_Save.svg  style="width:64px;"> <img alt="" src=images/Plot_Series.svg  style="width:64px;"> <img alt="" src=images/Workbench_Plot.svg  style="width:64px;">
 
 
 {{Artwork

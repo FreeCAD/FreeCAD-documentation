@@ -2,7 +2,6 @@
 
 
 
-
 {{TutorialInfo/it
 |Topic=Ambiente Navale
 |Level=Base
@@ -93,9 +92,9 @@ Eseguendo lo strumento (Caricare una geometria modello di nave) si apre una fine
 <div class="mw-translate-fuzzy">
 
 
-{{VeryImportantMessage|<center>'''Attenzione, prima di modificare qualsiasi cosa!'''</center>
+**<center>'''Attenzione, prima di modificare qualsiasi cosa!'''</center>
 <center>Ora si sta lavorando con il file originale del modello.</center>
-<center>Per preservare l'esempio originale, senza modificarlo, '''è necessario salvarlo come nuovo file, prima di apportare delle modifiche'''</center>}}
+<center>Per preservare l'esempio originale, senza modificarlo, '''è necessario salvarlo come nuovo file, prima di apportare delle modifiche'''</center>**
 
 
 </div>

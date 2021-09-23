@@ -4,9 +4,17 @@
 
 </div>
 
+## Description
+
+
+<div class="mw-translate-fuzzy">
+
 ## Descriere
 
 Selectează constrângerile redundante dintr-o schiță.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -32,4 +40,4 @@ Selectează constrângerile redundante dintr-o schiță.
 
 {{Sketcher Tools navi
 
-}}  
+}} 

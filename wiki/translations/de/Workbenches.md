@@ -4,7 +4,6 @@
 
 
 
-
 FreeCAD basiert, wie viele moderne Konstruktionsanwendungen wie [Revit](wikipedia:Revit.md) oder [CATIA](wikipedia:CATIA.md) auf dem Konzept von [Workbench](wikipedia:Workbench.md). Ein Arbeitsbereich kann als ein Satz von Werkzeugen betrachtet werden, die speziell für eine bestimmte Aufgabe gruppiert sind. In einer traditionellen Möbelwerkstatt hättest du einen Arbeitstisch für die Person, die mit Holz arbeitet, einen anderen für die Person, die mit Metallteilen arbeitet, und vielleicht einen dritten für den Mann, der alle Teile zusammen montiert.
 
 In FreeCAD wird das gleiche Konzept angewendet. Werkzeuge werden entsprechend den Aufgaben, mit denen sie verbunden sind, in Arbeitsbereichen zusammengefasst.

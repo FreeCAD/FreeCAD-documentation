@@ -1,6 +1,5 @@
 # Development roadmap/de
-
- {{VeryImportantMessage|Wichtig: Viele dieser Planungen sind nicht aktuell oder vielleicht eingestellt. Diese Seite und die Seiten, auf die sie verweist, enthalten sehr wahrscheinlich veraltete Informationen. Eine 'weiche' Planung ist unter [http://www.freecadweb.org/tracker/roadmap_page.php bugtracker] (engl.) zu finden, aber bisher gibt es keine 'harte' Planung. Viele Anstrengungen verlaufen simultan.}}
+ **Wichtig: Viele dieser Planungen sind nicht aktuell oder vielleicht eingestellt. Diese Seite und die Seiten, auf die sie verweist, enthalten sehr wahrscheinlich veraltete Informationen. Eine 'weiche' Planung ist unter [http://www.freecadweb.org/tracker/roadmap_page.php bugtracker] (engl.) zu finden, aber bisher gibt es keine 'harte' Planung. Viele Anstrengungen verlaufen simultan.**
 
 FreeCAD - obwohl in vielen Anwendungen verwendbar - steht am Anfang eines langen Weges in den CAD Mainstream. Es bleibt noch viel zu tun, um einen Zustand zu erreichen, in dem wir mit kommerzieller Software konkurrieren können.
 

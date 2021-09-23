@@ -1,5 +1,4 @@
 # Manual:Traditional 2D drafting/ro
-
  
 
 
@@ -106,7 +105,7 @@ Pentru a arăta fluxul de lucru și posibilitățile Atelierului, vom trece prin
 <div class="mw-translate-fuzzy">
 
 -   Acum putem ascunde geometria construcției făcând clic cu butonul din dreapta pe grupul Construcții și alegeți **Hide Selection**.
--   Acum, trageți ferestrele și ușile. Asigurați-vă că <img alt="" src=images/Snap_Midpoint.png  style="width:16px;"> [midpoint snap](Draft_Snap.md) is turned on, and draw six lines as follow:
+-   Acum, trageți ferestrele și ușile. Asigurați-vă că <img alt="" src=images/Draft_Snap_Midpoint.svg  style="width:16px;"> [midpoint snap](Draft_Snap.md) is turned on, and draw six lines as follow:
 
 
 </div>

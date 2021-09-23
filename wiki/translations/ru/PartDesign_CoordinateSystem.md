@@ -1,6 +1,6 @@
 ---
 - GuiCommand:/ru
-   Name/ru:PartDesign_CoordinateSystem
+   Name/ru:Создать локальную систему координат
    Name:PartDesign_CoordinateSystem
    MenuLocation:PartDesign → Создать локальную систему координат
    Workbenches:[PartDesign](PartDesign_Workbench/ru.md)
@@ -8,14 +8,11 @@
    SeeAlso:[Создать опорную точку](PartDesign_Point/ru.md), [Создать опорную линию](PartDesign_Line/ru.md), [Создать опорную плоскость](PartDesign_Plane/ru.md)
 ---
 
-
-</div>
-
 ## Описание
 
 Creates a **local coordinate system** which can be used as reference for other datum geometry. It also helps identify the orientation of the referenced datum geometry in 3D space. ![](images/PartDesign_LocalCoordinateSystem_Example.png ) *Local coordinate system originating out of a datum plane's origin.*
 
-## Использование
+## Применение
 
 1.  Press the **<img src=images/PartDesign_CoordinateSystem.svg style="width:16px"> [Create a local coordinate system](PartDesign_CoordinateSystem.md)** button.
 2.  Define Coordinate System parameters. Select a first reference in the 3D view to filter the available attachment modes.
@@ -43,7 +40,7 @@ Double-click the **Local\_CS** label in the Model tree or right-click and select
 
 -    **Label**: name given to the object, this name can be changed at convenience.
 
-## Сценарии
+## Программирование
 
 
 ```python

@@ -1,7 +1,6 @@
 # Model/it
 
 
-
 ## Introduzione
 
 In FreeCAD il termine \"[Modello](Model.md)\" è solitamente usato per riferirsi ad un qualunque oggetto 3D, o ad una collezione di oggetti, creati nella [Vista 3D](3D_view/it.md).

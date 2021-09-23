@@ -1,5 +1,4 @@
 # Macro Cut Circle/fr
-
  {{Macro/fr
 |Name=Macro Cut Circle
 |Name/fr=Macro Cut Circle

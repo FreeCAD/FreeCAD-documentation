@@ -1,5 +1,4 @@
 # Sketcher reference
-
  
 
 ## Introduction

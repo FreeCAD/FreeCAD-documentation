@@ -1,7 +1,6 @@
 # Dialog creation image and animated GIF/de
 
 
-
 ## Einführung
 
 Dies ist ein Beispiel für [Dialogerstellung](Dialog_creation/de.md) mit [PySide](PySide/de.md).

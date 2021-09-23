@@ -1,6 +1,6 @@
 # Sandbox/TechDrawTemplateExplained
 
-  }
+
 
 
 {{TOCright}}
@@ -657,8 +657,6 @@ The editable texts are sorted according to font size. The group tag defines the 
 
 
 </div>
-
-
 
 Dies ist eine Sandbox
 

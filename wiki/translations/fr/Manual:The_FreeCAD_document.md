@@ -5,7 +5,6 @@
 
 
 
-
 {{Manual:TOC/fr}}
 
 Un document FreeCAD contient tous les objets de votre espace. Il peut contenir des groupes et des objets construits avec n\'importe quel atelier. Vous pouvez donc basculer entre les ateliers et travailler toujours sur le même document et / ou objets dans ce document. Le document est ce qui est enregistré sur le disque lorsque vous enregistrez votre travail. Vous pouvez également ouvrir plusieurs documents en même temps dans FreeCAD et ouvrir plusieurs vues du même document.

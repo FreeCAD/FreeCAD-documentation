@@ -34,22 +34,10 @@
 
 -    **도구 → 파라미터 편집... → BaseApp → Preferences → Document → DuplicateLabels**값이 `True`면 중복 레이블이 허용됩니다. 이 설정은 [환경 설정 편집기에서도](Preferences_Editor/ko#문서.md) 변경할 수 있습니다.
 
-## Scripting
-
-The **Std DuplicateSelection** command can be applied after selecting one or more objects in the [Tree view](Tree_view.md):
-
-
-```python
-FreeCADGui.runCommand('Std_DuplicateSelection')
-```
-
-The selection can be manual (by using the mouse), or via the [Python console](Python_console.md).
-To know more about selecting objects programmatically, refer to [Selection methods](Selection_methods.md).
-
 
 
 
 
 {{Std Base navi
 
-}}  
+}} 

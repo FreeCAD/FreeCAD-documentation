@@ -7,7 +7,7 @@
 
 ## Descrição
 
-The <img alt="" src=images/Draft_Draft2Sketch.svg  style="width:24px;"> **Draft Draft2Sketch** command converts Draft objects to [Sketcher Sketches](Sketcher_NewSketch.md) and vice versa.
+The <img alt="" src=images/Draft_Draft2Sketch.svg  style="width:24px;"> **Draft Draft2Sketch** command converts [Draft](Draft_Workbench.md) objects to [Sketcher Sketches](Sketcher_NewSketch.md) and vice versa.
 
 ![](images/Draft_Draft2Sketch_example.png ) *Converting Draft objects to Sketcher Sketches*
 

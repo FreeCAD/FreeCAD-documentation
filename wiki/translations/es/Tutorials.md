@@ -5,7 +5,6 @@
 
 
 
-
 {{TOCright}}
 
 Esta página presenta una selección de tutoriales escritos de alta calidad. Una lista completa y sin clasificar de tutoriales se puede encontrar en [:Category:Tutorials](:Category:Tutorials.md), una completa y ordenable se puede encontrar en la [tabla de abajo](Tutorials/es#Tutoriales_-_Lista_completa.md).
@@ -126,7 +125,7 @@ These are tutorials that are related to scripting or programming. They are geare
 ## Drawings
 
 
-{{VeryImportantMessage|Development of the [[Drawing Workbench]] stopped in FreeCAD 0.16. Consider using the [[TechDraw Workbench]] instead.}}
+**Development of the [[Drawing Workbench]] stopped in FreeCAD 0.16. Consider using the [[TechDraw Workbench]] instead.**
 
 Drawing\_tutorial\_result.png\|link=[Drawing tutorial](Drawing_tutorial.md)\|[Drawing tutorial](Special:MyLanguage/Drawing_tutorial.md) (v0.16)
 This is the essential introduction to the tools of the Drawing Workbench to create blueprints. Exercise drawing 01.jpg\|link=[Manual:Generating 2D drawings](Manual:Generating_2D_drawings.md)\|[Generating 2D drawings](Manual:Generating_2D_drawings.md) (v0.16)

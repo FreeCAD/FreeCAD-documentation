@@ -20,4 +20,4 @@ Shows or hides the display of the **degree** of a B-spline (see [this page](B-Sp
 
 
 
- {{Sketcher Tools navi}}  
+ {{Sketcher Tools navi}} 

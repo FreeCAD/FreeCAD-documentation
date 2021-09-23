@@ -2,12 +2,11 @@
 
 
 
-
 <div class="mw-translate-fuzzy">
 
 
-{{VeryImportantMessage|(November 2018) 
-FreeCAD a fost proiectat inițial pentru a lucra cu Python 2. Multe funcții lucrează cu Python 3, dar unele nu funcționează. Efectuarea suportului deplin al FreeCAD Python 3 este o lucrare în desfășurare.}}
+**(November 2018) 
+FreeCAD a fost proiectat inițial pentru a lucra cu Python 2. Multe funcții lucrează cu Python 3, dar unele nu funcționează. Efectuarea suportului deplin al FreeCAD Python 3 este o lucrare în desfășurare.**
 
 
 </div>

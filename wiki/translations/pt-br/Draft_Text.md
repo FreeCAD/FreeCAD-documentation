@@ -10,9 +10,9 @@
 
 ## Descrição
 
-The <img alt="" src=images/Draft_Text.svg  style="width:24px;"> **Draft Text** command inserts a multi-line text at a given point.
+The <img alt="" src=images/Draft_Text.svg  style="width:24px;"> **Draft Text** command creates a multi-line text at a given point.
 
-To insert a text element with an arrow use the [Draft Label](Draft_Label.md) command instead.
+To create a text element with an arrow use the [Draft Label](Draft_Label.md) command instead.
 
 <img alt="" src=images/Draft_Text_example.png  style="width:400px;"> 
 *Single point required to position the text*

@@ -2,7 +2,6 @@
 
 
 
-
 <div class="mw-translate-fuzzy">
 
 Berikut ini adalah daftar isi dari Bantuan on-line sistem FreeCAD. Artikel yang direferensikan disini secara otomatis dimasukan di file FreeCAD.chm melalui aplikasi wiki2chm.py. Kamu bisa mencari aplikasi tersebut di src/Tools/wiki2chm.py. [printable version](Manual.md) dari artikel ini juga tersedia.

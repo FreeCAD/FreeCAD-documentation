@@ -1,5 +1,4 @@
 # Sketcher CompCopy/it
-
  {{GuiCommand/it
 |Name=Clone, copy or move a geometrie
 |Name/it=Clona, copia o sposta una geometria

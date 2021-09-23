@@ -1,7 +1,6 @@
 # Part Part2DObject/pt-br
 
 
-
 ## Introdução
 
 <img alt="" src=images/Tree_Part2D.svg  style="width:32px;">

@@ -1,6 +1,8 @@
 # Macro SuperWire/fr
 
- {{Macro/fr
+
+
+{{Macro/fr
 |Name=SuperWire
 |Icon=Macro_SuperWire.png
 |Description=Cette macro crée un fil d'objets sélectionnés (lignes et arcs) même lorsque les méthodes de création du fil normal (par exemple avec l'outil de mise à niveau) échouent.
@@ -19,12 +21,12 @@ Attention, vous devez avoir une version récente de FreeCAD pour ce travail
 
 ## Script
 
-ToolBar Icon ![](images/Macro_SuperWire.png )
+Icône de la barre d\'outils ![](images/Macro_SuperWire.png )
 
 **Macro\_SuperWire.FCMacro**
 
 
-{{MacroCode|code=
+```python
 
 import FreeCAD,FreeCADGui,Part
 try:
@@ -46,7 +48,7 @@ else:
    else:
        FreeCAD.Console.PrintError("SuperWire operation failed!")
 
-}}
+```
 
 
 

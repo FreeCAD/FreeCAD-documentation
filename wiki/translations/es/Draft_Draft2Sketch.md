@@ -11,7 +11,13 @@
 
 ## Descripción
 
+
+<div class="mw-translate-fuzzy">
+
 El <img alt="" src=images/Draft_Draft2Sketch.svg  style="width:24px;"> comando **Borrador BorradorACroquis** convierte los objetos de Borrador en [Croquizador Croquis](Sketcher_NewSketch/es.md) y viceversa.
+
+
+</div>
 
 ![](images/Draft_Draft2Sketch_example.png ) *Convertir objetos de borrador en Croquizador Croquis*
 

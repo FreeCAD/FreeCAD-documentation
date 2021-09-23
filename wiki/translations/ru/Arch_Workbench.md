@@ -4,8 +4,7 @@
 
 
 
-
-<img alt="Иконка верстака Arch" src=images/Workbench_Arch.svg  style="width:128px;">
+<img alt="Логотип верстака Arch" src=images/Workbench_Arch.svg  style="width:128px;">
 
 
 {{TOCright}}

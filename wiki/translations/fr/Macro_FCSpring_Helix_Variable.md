@@ -1,5 +1,4 @@
 # Macro FCSpring Helix Variable/fr
-
  {{Macro/fr
 |Name=Macro FCSpring Helix Variable
 |Icon=FCSpring Helix Variable.png

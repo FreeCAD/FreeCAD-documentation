@@ -1,7 +1,6 @@
 # Bitmap/fr
 
 
-
 ## Description
 
 [Bitmap](https://fr.wikipedia.org/wiki/Bitmap) ou [Image matricielle](https://fr.wikipedia.org/wiki/Image_matricielle) sont des images 2D qui sont une collection de pixels peints de différentes nuances de couleurs. Ensemble, ces milliers ou millions de pixels peuvent représenter une image ou une image couleur pour l'œil humain.

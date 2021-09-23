@@ -9,6 +9,9 @@
 
 ---
 
+
+</div>
+
 ## Beschreibung
 
 Dieses Werkzeug löscht die gesamte Geometrie aus der zu bearbeitenden Skizze.
@@ -30,4 +33,4 @@ Dieses Werkzeug löscht die gesamte Geometrie aus der zu bearbeitenden Skizze.
 
 {{Sketcher Tools navi
 
-}}  
+}} 

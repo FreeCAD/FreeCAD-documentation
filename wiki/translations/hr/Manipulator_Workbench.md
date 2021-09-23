@@ -1,7 +1,6 @@
 # Manipulator Workbench/hr
 
 
-
 <img alt="Manipulator workbench icon" src=images/Manipulator_workbench_icon.svg  style="width:128px;">
 
 ## Predstavljanje

@@ -15,7 +15,15 @@
 
 **Additive Ausformung** erzeugt einen Festkörper im aktiven Körper, indem er einen Übergang zwischen zwei oder mehreren Skizzen (auch Querschnitte genannt) herstellt. Wenn der Körper bereits Elemente enthält, wird die additive Ausformung mit diesen zusammengeführt.
 
-![](images/PartDesign_AddLoft_example.png ) *Zur Linken: Querschnitte (A), (B) und (C); erstellte Additive Ausformung rechts.*
+![](images/PartDesign_AddLoft_example.png )
+
+
+<div class="mw-translate-fuzzy">
+
+*Zur Linken: Querschnitte (A), (B) und (C); erstellte Additive Ausformung rechts.*
+
+
+</div>
 
 ## Anwendung
 
@@ -87,9 +95,17 @@
 -   Die Ausformung wird in der Reihenfolge erzeugt, in der die Querschnitte hinzugefügt wurden.
 -   Wenn die Skizze eine innere Geometrie hat, d. h. die Ausformung soll Löcher haben, dann sollte die Reihenfolge, in der die Skizzengeometrie erstellt wird, für alle Schnitte gleich sein: Entweder beginnen alle Schnitte mit der inneren Geometrie oder sie beginnen alle mit der äußeren. Andernfalls kann ein ungültiger Ausformung erzeugt werden, bei dem sich Innen- und Außenwände kreuzen.
 
+## Known Issues 
+
+
+<div class="mw-translate-fuzzy">
+
 ## Bekannte Probleme 
 
 -   Einige Fehlersituationen lassen das Teil schwarz werden
+
+
+</div>
 
 ## Verweise
 

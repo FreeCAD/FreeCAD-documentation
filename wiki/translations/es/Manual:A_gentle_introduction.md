@@ -1,11 +1,19 @@
 # Manual:A gentle introduction/es
 
- 
 
 
-{{Manual:TOC}}
+<div class="mw-translate-fuzzy">
 
-[Python](https://en.wikipedia.org/wiki/Python_%28programming_language%29) is a popular, open source programming language, very often embedded in applications as a scripting language, as is the case with FreeCAD. It has a series of features that make it suitable for us FreeCAD users: It is very easy to learn, especially for people who had never programmed before, and it is embedded in many other applications. This make it a valuable tool to learn, as you will be able to use it in other software, such as [Blender](http://www.blender.org), [Inkscape](http://www.inkscape.org) or [GRASS](http://grass.osgeo.org/).
+
+
+
+
+</div>
+
+
+{{Manual:TOC/es}}
+
+[Python](https://es.wikipedia.org/wiki/Python) es un popular lenguaje de programación de código abierto, muy a menudo incrustado en aplicaciones como lenguaje de guionización, como es el caso de FreeCAD. Tiene una serie de características que lo hacen adecuado para nosotros los usuarios de FreeCAD: Es muy fácil de aprender, especialmente para la gente que nunca ha programado antes, y está incrustado en muchas otras aplicaciones. Esto hace que sea una herramienta valiosa para aprender, ya que podrás utilizarla en otros programas, como [Blender](http://www.blender.org), [Inkscape](http://www.inkscape.org) o [GRASS](http://grass.osgeo.org/).
 
 FreeCAD makes extensive use of Python. With it, you can access and control almost any feature of FreeCAD. For example, you can create new objects, modify their geometry, analyze their contents, or even create new interface controls, tools and panels. Some FreeCAD workbenches and most of the addon workbenches are fully programmed in Python. FreeCAD has an advanced Python console, available from menu **View-\>Panels-\>Python console**. It is often useful to perform operations for which there is no toolbar button yet, or to check shapes for problems, or to perform repetitive tasks:
 
@@ -77,7 +85,7 @@ Try the following example to access the line color of our box:
 
 box.ViewObject.LineColor 
 
-### Vectors and Placements 
+### Vectores y Colocaciones 
 
 Vectors are a fundamental concept in any 3D application. It is a list of 3 numbers (x, y and z), describing a point or position in the 3D space. A lot of things can be done with vectors, such as additions, subtractions, projections and much more. In FreeCAD vectors work like this:
 
@@ -97,7 +105,7 @@ otherpla = FreeCAD.Placement()
 otherpla.Base = FreeCAD.Vector(5,5,0)
 box.Placement = otherpla
 
-**Read more**
+**Leer más**
 
 -   [Python](https://www.python.org)
 -   [Macros](Macros.md)
@@ -106,11 +114,17 @@ box.Placement = otherpla
 -   [Power users hub](Power_users_hub.md)
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{Powerdocnavi
 
-}} 
+}}
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)

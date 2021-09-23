@@ -2,11 +2,10 @@
 
 
 
+**Esta página registra las nuevas características a medida que se añaden a la versión de desarrollo de FreeCAD, que actualmente es la 0.20. Cuando se produzca la congelación de las características de la 0.20, se borrarán estos mensajes y no se añadirán más características a esta página. Se espera que FreeCAD 0.20 sea lanzado en 202x.**
 
-{{VeryImportantMessage|Esta página registra las nuevas características a medida que se añaden a la versión de desarrollo de FreeCAD, que actualmente es la 0.20. Cuando se produzca la congelación de las características de la 0.20, se borrarán estos mensajes y no se añadirán más características a esta página. Se espera que FreeCAD 0.20 sea lanzado en 202x.}}
 
-
-{{VeryImportantMessage|!!! Todas las imágenes de esta página deben utilizar el sufijo {{FileName|_relnotes_0.20}} !!!}}
+**!!! Todas las imágenes de esta página deben utilizar el sufijo {{FileName|_relnotes_0.20** !!!}}
 
 
 <div style="text-align:center; background:#e0e0ee; margin:1em 7em; padding:0.5em 2em; border:2px solid #bb7736;">

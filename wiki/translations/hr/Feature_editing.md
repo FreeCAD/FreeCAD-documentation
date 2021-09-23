@@ -1,5 +1,4 @@
 # Feature editing/hr
-
  {{TOCright}}
 
 ## Predstavljanje

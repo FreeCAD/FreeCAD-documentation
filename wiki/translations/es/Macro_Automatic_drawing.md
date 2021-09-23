@@ -1,5 +1,4 @@
 # Macro Automatic drawing/es
-
  {{Macro/es
 |Name=Automatic drawing
 |Translate=Automatic drawing

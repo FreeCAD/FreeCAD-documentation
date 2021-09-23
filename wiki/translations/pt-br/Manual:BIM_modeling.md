@@ -1,5 +1,4 @@
 # Manual:BIM modeling/pt-br
-
  }
 
 
@@ -176,7 +175,7 @@ We will now prepare a set of views from our model, to be placed on a Drawing pag
 ![](images/Exercise_arch_21.jpg )
 
 
-{{VeryImportantMessage|Development of the [Drawing Workbench](Drawing_Workbench.md) stopped in FreeCAD 0.16, and the new [TechDraw Workbench](TechDraw_Workbench.md) aiming to replace it was introduced in v0.17. The Drawing Workbench may be removed in future releases. Use the TechDraw Workbench instead.}}
+**Development of the [Drawing Workbench](Drawing_Workbench.md) stopped in FreeCAD 0.16, and the new [TechDraw Workbench](TechDraw_Workbench.md) aiming to replace it was introduced in v0.17. The Drawing Workbench may be removed in future releases. Use the TechDraw Workbench instead.**
 
 -   Now we have everything we need, and we can create our Drawing page. Start by switching to the [Drawing Workbench](Drawing_Workbench.md), and create a new default <img alt="" src=images/Drawing_Landscape_A3.png  style="width:16px;"> [A3 page](Drawing_Landscape_A3.md) (or select another template if you wish).
 -   Select the first section plane, used for the plan view

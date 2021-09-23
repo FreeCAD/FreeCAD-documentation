@@ -5,7 +5,6 @@
 
 
 
-
 {{Manual:TOC/pl}}
 
 MES to skrót od [Metoda Elementów Skończonych](https://en.wikipedia.org/wiki/Finite_element_method). Jest to rozległy temat matematyczny, ale w FreeCAD możemy myśleć o nim jako o sposobie obliczania rozchodzenia się energii wewnątrz obiektu 3D, poprzez pocięcie go na małe kawałki i przeanalizowanie wpływu każdego małego kawałka na jego sąsiadów. Ma to wiele zastosowań w inżynierii i elektromagnetyzmie, ale my skupimy się na jednym z zastosowań, które jest już dobrze rozwinięte w programie FreeCAD, a mianowicie na symulacji deformacji obiektów poddawanych działaniu sił i ciężarów.

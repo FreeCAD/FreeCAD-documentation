@@ -1,5 +1,4 @@
 # Macro Rotate To Point/en
-
  {{Macro
 |Name=Macro Rotate To Point
 |Icon=Macro_Rotate_To_Point.svg

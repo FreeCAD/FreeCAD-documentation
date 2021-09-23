@@ -1,5 +1,4 @@
 # Macro FCInfoToMouse
-
   {{Macro
 |Name=Macro FCInfoToMouse
 |Icon=FCInfoToMouse.png

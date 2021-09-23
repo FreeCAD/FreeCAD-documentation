@@ -1,6 +1,8 @@
 # Macro Print SceneGraph/fr
 
- {{Macro/fr
+
+
+{{Macro/fr
 |Name=Macro_Print_SceneGraph
 |Icon=Macro_Print_SceneGraph.png
 |Description=Imprime la Vue 3D
@@ -17,12 +19,12 @@ Cette macro parcourt la vue3D et imprime tous les nœuds et leurs champs dans la
 
 ## Script
 
-ToolBar Icon ![](images/Macro_Print_SceneGraph.png )
+Icône de la barre d\'outils ![](images/Macro_Print_SceneGraph.png )
 
 **Macro\_Print\_SceneGraph.FCMacro**
 
 
-{{MacroCode|code=
+```python
 # -*- coding: utf-8 -*-
 """
 ***************************************************************************
@@ -114,5 +116,5 @@ else:
     QtGui.QApplication.setOverrideCursor(QtGui.QCursor(QtCore.Qt.WaitCursor))
     printTree(ad.ActiveView.getViewer().getSoEventManager().getSceneGraph(), "")
     QtGui.QApplication.restoreOverrideCursor()
-}}
+```
 

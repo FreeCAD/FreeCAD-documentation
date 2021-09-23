@@ -2,7 +2,6 @@
 
 
 
-
 <div class="mw-translate-fuzzy">
 
 Symbol Externer Arbeitsbereich KicadStepUp

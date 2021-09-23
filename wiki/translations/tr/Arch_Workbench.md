@@ -2,7 +2,6 @@
 
 
 
-
 {{docnav/tr|[Taslak Tezgahı](Draft_Workbench/tr.md)|[FEM Tezgahı](FEM_Workbench/tr.md)}}
 
 <img alt="Arch workbench icon" src=images/Workbench_Arch.svg  style="width:128px;">

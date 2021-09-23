@@ -5,8 +5,9 @@
 
 
 
-
 {{TOCright}}
+
+## Overview
 
 
 <div class="mw-translate-fuzzy">
@@ -16,9 +17,17 @@ Freecad的鼠标控制模式由用于三维空间可视化导航和与显示对�
 
 </div>
 
+## Navigation
+
+
+<div class="mw-translate-fuzzy">
+
 ### 导航
 
 用于对象操作的鼠标手势因所选导航样式而异；当前所选样式应用于所有工作台。
+
+
+</div>
 
 改变导航样式可以通过两种方式进行。
 
@@ -26,9 +35,17 @@ Freecad的鼠标控制模式由用于三维空间可视化导航和与显示对�
 
 在三维视图区域的空白处单击鼠标右键，然后在弹出菜单中选择**导航样式 →...**"。
 
+### CAD navigation 
+
+
+<div class="mw-translate-fuzzy">
+
 ### CAD导航(默认)
 
 这是默认的导航样式，其允许用户对视图进行简单的控制，并且不需要使用键盘键，除非进行多个选择。
+
+
+</div>
 
 
 {{CAD Navigation
@@ -60,9 +77,17 @@ Freecad的鼠标控制模式由用于三维空间可视化导航和与显示对�
 
 习惯用右手的用户可能会觉得这种方法比第一种方法要容易些。}}
 
+### OpenInventor navigation 
+
+
+<div class="mw-translate-fuzzy">
+
 ### openinventor导航
 
 在Openinventor导航中，参照[Open Inventor](http://en.wikipedia.org/wiki/Open_Inventor)(不要与Autodesk的inventor混淆)的操作，不能仅靠鼠标进行选取操作。要选择对象，必须按住**Ctrl**键。
+
+
+</div>
 
 该模式不基于Autodesk Inventor
 
@@ -81,7 +106,13 @@ Freecad的鼠标控制模式由用于三维空间可视化导航和与显示对�
 |Rotate_view_text =按住鼠标左键，然后移动指针。
 }}
 
+
+<div class="mw-translate-fuzzy">
+
 ### Blender导航
+
+
+</div>
 
 Blender导航样式参照[Blender](http://www.blender.org)的操作。以前一直需要按下**SHIFT**配合鼠标才能完成视图平移. 在2016年Blender增加了一个功能改变了这一情况。现在可以通过同时按下鼠标左键和右键进行视图平移。 {{Blender Navigation
 |Select_name=选取
@@ -97,7 +128,13 @@ Blender导航样式参照[Blender](http://www.blender.org)的操作。以前一�
 |Rotate_view_text=按住鼠标中键，然后移动鼠标。
 }}
 
+
+<div class="mw-translate-fuzzy">
+
 ### 触控板导航
+
+
+</div>
 
 触控板导航中,平移、缩放或视图旋转操作都需要一个辅助按键和触控板一起配合。 {{Touchpad Navigation
 |Select_name=选取
@@ -117,7 +154,13 @@ Blender导航样式参照[Blender](http://www.blender.org)的操作。以前一�
 |Rotate_view_alt_text=或者，按住**Shift**和左键，然后移动鼠标。
 }}
 
+
+<div class="mw-translate-fuzzy">
+
 ### 手势导航
+
+
+</div>
 
 这种导航风格是0.16版引入的为触摸屏和笔的可用性而量身定做的，但也可以配合鼠标使用。 {{Gesture Navigation
 |Select_name=选择
@@ -147,7 +190,13 @@ Blender导航样式参照[Blender](http://www.blender.org)的操作。以前一�
 
 在v0.18上，默认情况下禁用此方法。要启用，请转到**编辑→首选项→显示**，然后取消选中“禁用触摸屏倾斜手势”复选框。}}
 
+
+<div class="mw-translate-fuzzy">
+
 ### Maya手势导航
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -167,7 +216,13 @@ Blender导航样式参照[Blender](http://www.blender.org)的操作。以前一�
 |Rotate_view_text=按住**Alt**和鼠标左键，然后移动鼠标。 
 }}
 
+
+<div class="mw-translate-fuzzy">
+
 ### Revit导航
+
+
+</div>
 
 该样式自版本0.18起引入。
 
@@ -183,7 +238,9 @@ Blender导航样式参照[Blender](http://www.blender.org)的操作。以前一�
 或者，按住鼠标中键，然后按住鼠标右键，然后移动指针。
 }}
 
+<div class="mw-translate-fuzzy">
 === OpenCascade ===
+</div>
 
 该样式自版本0.18起引入。
 
@@ -203,22 +260,44 @@ Blender导航样式参照[Blender](http://www.blender.org)的操作。以前一�
 
 ==选择对象==
 
+=== Simple selection ===
+
+<div class="mw-translate-fuzzy">
 ===简单选择=== 
 可以通过用鼠标左键单击三维视图中的对象或在树视图中选择对象来选择对象
+</div>
 
+=== Preselection ===
+
+<div class="mw-translate-fuzzy">
 ===预选=== 
 还有一种“预选”机制，只需将鼠标悬停在对象上，即可突出显示对象并在选择前显示信息。如果您不喜欢这种模式，或者您的机器速度较慢，可以在首选项中关闭预选。
+</div>
 
+== Manipulating objects ==
+
+<div class="mw-translate-fuzzy">
 ==操控对象==
 FreeCAD提供[''manipulators''](Manipulator.md)可以用来修改的对象的外观，形状，或其他参数。
+</div>
 
 ==硬件支持==
 
+<div class="mw-translate-fuzzy">
 FreeCAD 也支持一些[3D输入设备](3D_input_devices.md).
+</div>
 
+<div class="mw-translate-fuzzy">
 == Mac OS X问题==
+</div>
 
+<div class="mw-translate-fuzzy">
 最近我们[http://forum.freecadweb.org/viewtopic.php？f=3&t=3592&start=0 在论坛中]收到了来自Mac用户的报告称这些鼠标按钮和按键组合不能正常工作。不幸的是，没有一个开发人员拥有Mac，其他的常规志愿者也没有。我们需要您的帮助来确定哪些鼠标按钮和组合键有效，以便我们可以更新此wiki。
+</div>
+
+== Developing a custom navigation == 
+
+The tutorial [Adding a new mouse navigation option to FreeCAD](Adding_a_new_mouse_navigation_option_to_FreeCAD.md) orients developers who want to develop a custom mouse navigation option. Familiarity with the C++ syntax is required.
 
 
 {{docnav

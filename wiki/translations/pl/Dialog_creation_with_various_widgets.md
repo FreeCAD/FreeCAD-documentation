@@ -1,7 +1,6 @@
 # Dialog creation with various widgets/pl
 
 
-
 ## Introduction
 
 This is an example of [dialog creation](Dialog_creation.md) with [PySide](PySide.md).

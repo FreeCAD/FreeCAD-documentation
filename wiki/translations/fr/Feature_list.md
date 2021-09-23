@@ -1,5 +1,4 @@
 # Feature list/fr
-
  
 
 Vous trouverez ici une liste approfondie, mais cependant incomplète, des fonctionnalités implémentées dans FreeCAD. Si vous voulez vous renseigner sur les fonctionnalités à venir, vous pouvez consulter le [calendrier de développement](Development_roadmap/fr.md). Pour un aperçu rapide, la page [captures d\'écran](Screenshots/fr.md) est un bon endroit à visiter.

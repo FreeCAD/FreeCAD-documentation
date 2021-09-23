@@ -1,5 +1,4 @@
 # Tree view/pl
-
  {{TOCright}}
 
 ## Wprowadzenie

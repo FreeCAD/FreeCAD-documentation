@@ -1,5 +1,4 @@
 # Silk Workbench/fr
-
  } <img alt="" src=images/Silk_workbench_icon.svg  style="width:240px;"> 
 *align=center|L'icône de l'atelier externe Silk*
 

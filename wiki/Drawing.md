@@ -1,5 +1,4 @@
 # Drawing
-
  
 
 ## Introduction

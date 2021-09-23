@@ -1,5 +1,4 @@
 # Macro Mouse over cb/hr
-
  {{Macro
 |Name=Macro Mouse over cb
 |Icon=Macro_Mouse_over_cb.png

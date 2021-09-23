@@ -1,5 +1,4 @@
 # Macro Draw 2D Function/cs
-
  {{Macro/cs
 |Name=Draw 2D Function
 |Translate=Vykresli 2D funkci

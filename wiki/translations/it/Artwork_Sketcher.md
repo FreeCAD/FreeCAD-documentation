@@ -1,5 +1,4 @@
 # Artwork Sketcher/it
-
  
 
 Queste icone si trovano nel percorso origine indicato.

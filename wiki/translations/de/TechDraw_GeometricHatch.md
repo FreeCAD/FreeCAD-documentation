@@ -22,7 +22,13 @@ Das GeometrischeSchraffur Werkzeug füllt einen geschlossenen Bereich in einer A
 
 ## Hinweise
 
+
+<div class="mw-translate-fuzzy">
+
 -   Schraffierte Objekte sind anfällig für \"[topologische Benennungs](Topological_naming_problem/de.md)\" Probleme. Siehe die Informationen in der **<img src="images/TechDraw_Dimension_Length.png" width=16px> [TechDraw Bemaßungslänge](TechDraw_Dimension_Length/de.md)** für weitere Informationen. Es wird empfohlen, dass das Schraffieren einer der letzten Schritte in Ihrem Zeichenprozess ist.
+
+
+</div>
 
 Ein kleiner Satz von Beispielmustern ist verfügbar in:
 

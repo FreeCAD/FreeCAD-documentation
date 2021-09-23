@@ -65,4 +65,4 @@ You can see that now each segment has 2 control points and the knots are coincid
 
 {{Sketcher Tools navi
 
-}}  
+}} 

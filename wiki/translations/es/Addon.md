@@ -1,7 +1,6 @@
 # Addon/es
 
 
-
 ## Introducción
 
 En FreeCAD y en esta documentación, un [complemento](addon/es.md) es cualquier componente que no es parte de la instalación base, pero que puede ser añadido al sistema por ciertos métodos.

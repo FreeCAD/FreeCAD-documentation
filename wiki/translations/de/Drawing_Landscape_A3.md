@@ -8,7 +8,7 @@
 ---
 
 
-{{VeryImportantMessage|Die Entwicklung des Drawing-Arbeitsbereich wurde gestoppt und ein neuer in v0.17 eingeführter [TechDraw-Arbeitsbereich](TechDraw_Workbench/de.md) zielt darauf, es zu setzen. Beide Module stehen in v0.17 zur Verfügung, aber das Drawing-Arbeitsbereich könnte in zukünftigen Ausgaben entfernt werden.}}
+**Die Entwicklung des Drawing-Arbeitsbereich wurde gestoppt und ein neuer in v0.17 eingeführter [TechDraw-Arbeitsbereich](TechDraw_Workbench/de.md) zielt darauf, es zu setzen. Beide Module stehen in v0.17 zur Verfügung, aber das Drawing-Arbeitsbereich könnte in zukünftigen Ausgaben entfernt werden.**
 
 Dieses Werkzeug erstellt ein neues Zeichenblatt aus bereits installierten Vorlagen. ((Scheint nicht mehr zutreffend: Aktuell ist lediglich eine DIN A3-Querformat-Vorlage vorhanden, obwohl das Menü und die Werkzeugliste DIN A0 bis DIN A4 im Querformat anbieten.))
 

@@ -1,7 +1,6 @@
 # Bitmap/pt-br
 
 
-
 ## Descrição
 
 [Bitmaps](https://en.wikipedia.org/wiki/Bitmap) or [raster graphics](http://en.wikipedia.org/wiki/Raster_graphics) are 2D images that are collections of pixels painted of different color shades. Together, thousands or millions of these pixels are able to represent an image or color picture to the human eye.

@@ -15,7 +15,15 @@
 
 **Loft additivo** crea un solido nel corpo attivo eseguendo una transizione tra due o più schizzi (indicati anche come sezioni trasversali). Se il corpo contiene già delle funzionalità, il loft additivo viene unito a loro.
 
-![](images/PartDesign_AddLoft_example.png ) \'\' A sinistra le sezioni trasversali (A), (B) e (C); a destra il loft additivo che viene creato. \'\'
+![](images/PartDesign_AddLoft_example.png )
+
+
+<div class="mw-translate-fuzzy">
+
+\'\' A sinistra le sezioni trasversali (A), (B) e (C); a destra il loft additivo che viene creato. \'\'
+
+
+</div>
 
 ## Utilizzo
 
@@ -93,9 +101,17 @@
 
 </div>
 
+## Known Issues 
+
+
+<div class="mw-translate-fuzzy">
+
 ## Problemi noti 
 
 -   Alcuni tipi di errore rendono la parte nera
+
+
+</div>
 
 ## Link
 

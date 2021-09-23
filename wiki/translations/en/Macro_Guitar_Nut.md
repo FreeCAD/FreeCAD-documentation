@@ -1,5 +1,4 @@
 # Macro Guitar Nut/en
-
  {{Macro
 |Name=Macro Guitar Nut
 |Icon=Macro_Guitar_Nut.png

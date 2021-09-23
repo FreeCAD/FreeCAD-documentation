@@ -2,7 +2,6 @@
 
 
 
-
 {{TutorialInfo/ru
 |Topic= Анализ конечных элементов
 |Level=Начинающие

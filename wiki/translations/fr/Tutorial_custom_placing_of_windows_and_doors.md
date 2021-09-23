@@ -1,5 +1,4 @@
 # Tutorial custom placing of windows and doors/fr
-
  {{TutorialInfo/fr
 |Topic=Architecture
 |Level=Intermédiaire

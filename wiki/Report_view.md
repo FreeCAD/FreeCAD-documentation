@@ -1,5 +1,4 @@
 # Report view
-
  
 
 ## Introduction

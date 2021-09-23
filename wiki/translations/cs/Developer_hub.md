@@ -1,7 +1,6 @@
 # Developer hub/cs
 
 
-
 ![150](images/Crystal_Clear_app_tutorials.png )
 
 Toto je místo kam jít, jestliže se chcete zúčastnit vývoje software FreeCADu.

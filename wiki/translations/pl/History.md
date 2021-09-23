@@ -1,5 +1,4 @@
 # History/pl
-
  \_\_FORCETOC\_\_
 
 ## Początki

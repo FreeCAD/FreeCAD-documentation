@@ -1,5 +1,4 @@
 # Artwork PartDesign/pl
-
  
 
 These icons are in the indicated source path.

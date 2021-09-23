@@ -1,5 +1,4 @@
 # Migrating to FreeCAD from Fusion360/fr
-
  {{TOCright}}
 
 ## Contexte
@@ -15,7 +14,7 @@ Cette page est destinée aux utilisateurs qui souhaitent migrer vers FreeCAD dep
 ## Glossaire
 
 
-{{VeryImportantMessage|Veuillez également faire référence au projet en cours [CAD Rosetta Stone](CAD_Rosetta_Stone.md) pour connaître les noms analogues utilisés par les CAO propriétaires populaires}}
+**Veuillez également faire référence au projet en cours [CAD Rosetta Stone](CAD_Rosetta_Stone.md) pour connaître les noms analogues utilisés par les CAO propriétaires populaires**
 
 Reportez-vous à la page [glossaire](Glossary/fr.md) en général. Ici une courte liste de termes spécifiques que les utilisateurs de F360 peuvent trouver particulièrement utiles:
 

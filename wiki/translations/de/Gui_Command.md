@@ -1,5 +1,4 @@
 # Gui Command/de
-
  Der Gui Befehl ist eine der wichtigsten Funktionen von FreeCAD. im Hauptinteraktionspunkt des Benutzers. Jedes Mal, wenn der Benutzer einen Menüpunkt auswählt oder eine Schaltfläche in der Werkzeugleiste drückt , die einen Gui Befehl aktiviert. Einige der Attribute eines Gui Befehls sind:
 
 -   Definiert einen Namen
@@ -44,7 +43,7 @@ Wir versuchen so weit wie möglich, dieses Diagramm zu respektieren, so dass die
 ## Qualitätsanforderungen
 
 
-{{VeryImportantMessage|Die [Complete Workbench](Complete_Workbench/de.md) ist veraltet, sie enthält nicht mehr jeden der Befehle in FreeCAD.}}
+**Die [Complete Workbench](Complete_Workbench/de.md) ist veraltet, sie enthält nicht mehr jeden der Befehle in FreeCAD.**
 
 Es gibt viele Gui Befehle (Werkzeuge) in FreeCAD, die experimentell sind. oder für kurze Zeit genutzt werden, um die Implementierung neuer Funktionen zu testen. Diese Gui Befehle befinden sich meist in den zugeordneten Arbeitsbereichen wie Part, Mesh oder Cam. Um ein gutes Benutzererlebnis zu gewährleisten, wurde der Arbeitsbereich *Complete* erstellt. Dieser Arbeitsbereich enthält alle Gui Befehle die bestimmte Qualitätsanforderungen erfüllen, die hier beschrieben werden:
 

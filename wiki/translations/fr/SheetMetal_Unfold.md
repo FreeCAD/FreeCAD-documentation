@@ -5,10 +5,8 @@
    MenuLocation:SheetMetal → Unfold
    Workbenches:[SheetMetal](SheetMetal_Workbench/fr.md)
    Shortcut:**U**
+   SeeAlso:[Déplier sans assistance](SheetMetal_UnattendedUnfold/fr.md)
 ---
-
-
-</div>
 
 ## Description
 
@@ -28,26 +26,18 @@ Pour déplier une pièce de tôlerie:
 
 ## Propriétés
 
-See also: [Property editor](Property_editor.md).
+Voir aussi : [Éditeur de propriétés](Property_editor/fr.md)
 
-This tool creates an Unfold object and has no representation of its own in the [Tree view](Tree_view.md) or elsewhere and so has no properties.
+Cet outil crée un objet Déplier et n\'a pas de représentation propre dans la [Vue en arborescence](Tree_view/fr.md) ou ailleurs et n\'a donc pas de propriétés.
 
-The **Unfold** object, on the other hand, is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It has no additional properties, but its label has a default value:
+L\'objet *Unfold*, quant à lui, est dérivé d\'un objet [Part Feature](Part_Feature/fr.md) et hérite de toutes ses propriétés. Il n\'a pas de propriétés supplémentaires mais son étiquette a une valeur par défaut :
 
 ### Données
 
 
 {{Properties_Title|Base}}
 
-
-<div class="mw-translate-fuzzy">
-
--    {{PropertyData/fr|Label}}: Nom d\'utilisateur de l\'objet dans la [Vue en arborescence](Tree_view/fr.md).
-
--    {{PropertyData/fr|Label2}}: Description utilisateur de l\'objet dans la [Vue en arborescence](Tree_view/fr.md).
-
-
-</div>
+-    {{PropertyData/fr|Label|String}}: Valeur par défaut : Le nom modifiable par l\'utilisateur de cet objet, il peut être toute chaîne UTF8 arbitraire.
 
 ## Limites
 
@@ -57,12 +47,6 @@ The **Unfold** object, on the other hand, is derived from a [Part Feature](Part_
 -   La fonction de dépliage n\'est pas paramétrique pour le moment.
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 [Category:SheetMetal](Category:SheetMetal.md) [Category:Addons](Category:Addons.md) [Category:External Command Reference](Category:External_Command_Reference.md)

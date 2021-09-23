@@ -2,7 +2,6 @@
 
 
 
-
 <div class="mw-translate-fuzzy">
 
 这是用于自动创建FreeCAD在线帮助系统的目录。该手册在[发布页](https://github.com/FreeCAD/FreeCAD/releases)有一份可打印版本。

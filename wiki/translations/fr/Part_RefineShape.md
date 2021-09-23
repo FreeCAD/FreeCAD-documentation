@@ -54,16 +54,6 @@ La commande Python pour affiner une forme est la suivante:
 shape.removeSplitter()
 ```
 
-La commande **Part Affiner la forme** peut être appliquée après avoir sélectionné un ou plusieurs objets dans la [Vue en arborescence](Tree_view/fr.md):
-
-
-```python
-FreeCADGui.runCommand('Part_RefineShape')
-```
-
-La sélection peut être manuelle (en utilisant la souris) ou via la [Console Python](Python_console/fr.md).
-Pour en savoir plus sur la sélection d\'objets de manière programmatique, reportez-vous à [Méthodes de sélection](Selection_methods/fr.md).
-
 
 
 

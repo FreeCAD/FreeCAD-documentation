@@ -1,20 +1,10 @@
 # Render project/fr
+ **(2020) Cette page fait référence à une tentative de mise à jour de l'[Atelier Raytracing](Raytracing_Workbench/fr.md), proposé vers 2012. Son auteur d'origine n'ayant jamais terminé la mise en œuvre, ces informations sont obsolètes et ne doivent pas être considérées comme actuelles.
 
-
-
-
-<div class="mw-translate-fuzzy">
-
-
-{{VeryImportantMessage|(2020) Cette page fait référence à une tentative de mise à jour de l'[Atelier Raytracing](Raytracing_Workbench/fr.md), proposé vers 2012. Son auteur d'origine n'ayant jamais terminé la mise en œuvre, ces informations sont obsolètes et ne doivent pas être considérées comme actuelles.
-</div>
-
-<div class="mw-translate-fuzzy">
 Un nouveau développement est en cours dans l'[https://github.com/FreeCAD/FreeCAD-render Atelier Render], un remplacement complet en Python pour l'[Atelier Raytracing](Raytracing_Workbench/fr.md).
-</div>
 
 Malgré cette page mentionnant le "module Render", ce n'est pas le même projet que le nouvel [https://github.com/FreeCAD/FreeCAD-render Atelier Render].
-}}
+**
 
 ## Vue d\'ensemble 
 
@@ -51,7 +41,7 @@ Chaque matériau de Render est basé sur des matériaux contenu dans des bibliot
 
 
 
-{{VeryImportantMessage|Actuellement, pour utiliser le nouvel atemier Render, vous devez être en mesure de compiler la branche en développement.}}
+**Actuellement, pour utiliser le nouvel atemier Render, vous devez être en mesure de compiler la branche en développement.**
 
 ### Utiliser le module Render : 
 

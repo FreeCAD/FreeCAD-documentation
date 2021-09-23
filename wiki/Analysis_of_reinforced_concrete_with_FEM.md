@@ -1,5 +1,4 @@
 # Analysis of reinforced concrete with FEM
-
   {{TutorialInfo
 |Topic= Reinforced concrete with FEM
 |Level= Intermediate

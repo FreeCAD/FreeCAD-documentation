@@ -1,5 +1,4 @@
 # Macro FlattenWire3Points/fr
-
  {{Macro/fr
 |Name=FlattenWire3Points
 |Icon=Macro_FlattenWire3Points.png

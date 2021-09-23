@@ -1,5 +1,4 @@
 # Macro Rotate View Free/fr
-
  {{Macro
 |Name=Rotate View Free
 |Translate=Rotation Libre

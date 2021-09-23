@@ -1,5 +1,4 @@
 # Macro Copy3DViewToClipboard/fr
-
  {{Macro/fr
 |Name=Macro Copy3DViewToClipboard
 |Icon=Macro_Copy3DViewToClipboard.png

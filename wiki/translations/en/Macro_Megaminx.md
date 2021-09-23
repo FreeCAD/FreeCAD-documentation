@@ -1,5 +1,4 @@
 # Macro Megaminx/en
-
  {{Macro
 |Name=Macro_Megaminx
 |Icon=Macro_Megaminx.png

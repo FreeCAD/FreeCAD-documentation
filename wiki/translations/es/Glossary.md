@@ -4,7 +4,6 @@
 
 
 
-
 Esta página es un glosario de términos y definiciones comunes en FreeCAD. (Ver la [página de Discusión](Talk:Glossary/es.md), por favor.)
 
 Ir a la letra {{CompactTOC|center=yes}}

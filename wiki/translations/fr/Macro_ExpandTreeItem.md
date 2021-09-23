@@ -1,5 +1,4 @@
 # Macro ExpandTreeItem/fr
-
  {{Macro/fr
 |Name=Macro ExpandTreeItem
 |Icon=Macro_ExpandTreeItem.svg

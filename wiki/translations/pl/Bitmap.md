@@ -1,7 +1,6 @@
 # Bitmap/pl
 
 
-
 ## Opis
 
 [Mapy bitowe](https://en.wikipedia.org/wiki/Bitmap) lub [grafika rastrowa](http://en.wikipedia.org/wiki/Raster_graphics) to obrazy 2D, które są kolekcjami różnobarwnych pikseli. Razem tysiące lub miliony tych pikseli są w stanie przedstawić ludzkiemu oku obraz lub obraz kolorowy.

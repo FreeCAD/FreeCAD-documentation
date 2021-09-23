@@ -1,5 +1,4 @@
 # How to install additional workbenches/es
-
  {{TutorialInfo/es
 |Topic=Programación
 |Level=Programador mediano

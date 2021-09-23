@@ -16,10 +16,18 @@
 
 **In alternativa**, se si desidera selezionare solo i vertici di un oggetto si può usare **<img src="images/Std_BoxElementSelection.svg" width=16px> [Seleziona elementi](Std_BoxElementSelection/it.md)**. Se si desidera selezionare l\'intera forma si può usare **<img src="images/Std_BoxSelection.svg" width=16px> [Box di selezione](Std_BoxSelection/it.md)**.
 
+## Usage
+
+
+<div class="mw-translate-fuzzy">
+
 ## Utilizzo
 
 1.  Andare in **Part → <img src="images/Part_BoxSelection.svg" width=16px> Box di selezione**.
 2.  Fare clic e trascinare il puntatore nella finestra creando un rettangolo che tocchi una o più forme.
+
+
+</div>
 
 ## Note
 

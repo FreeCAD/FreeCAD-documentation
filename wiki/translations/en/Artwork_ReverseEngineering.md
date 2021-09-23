@@ -1,5 +1,4 @@
 # Artwork ReverseEngineering/en
-
  
 
 These icons are in the indicated source path.

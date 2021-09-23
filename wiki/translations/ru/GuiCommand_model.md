@@ -10,6 +10,9 @@
    Version:0.19
 ---
 
+
+</div>
+
 ## Описание
 
 While the page is under construction, add the [Template:UnfinishedDocu](Template:UnfinishedDocu.md) template at the top of the page by simply typing: ****
@@ -104,8 +107,8 @@ Optional.
 |MenuLocation=Menu → Submenu → Menu text for the command
 |Workbenches=[Workbench](Workbench_Name.md)
 |Shortcut=**F** **C**
-|SeeAlso= 
 |Version=0.19
+|SeeAlso= 
 }}
 
 == Description ==

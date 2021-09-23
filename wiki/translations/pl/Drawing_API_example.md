@@ -1,7 +1,6 @@
 # Drawing API example/pl
 
 
-
 ## Introduction
 
 The graphical user interface workflow for the [Drawing Workbench](Drawing_Workbench.md) is limited, so the scripting API is more interesting.

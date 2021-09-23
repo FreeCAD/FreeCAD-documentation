@@ -1,16 +1,40 @@
 # SheetMetal Workbench/fr
 
+ 
 
 
+<div class="mw-translate-fuzzy">
 
- <img alt="Icône de l\'atelier externe Sheet Metal" src=images/Sheetmetal_workbench_icon.svg  style="width:128px;">
+Icône de l\'atelier externe Sheet Metal
 
-## Vue d\'ensemble 
+
+</div>
 
 
 {{TOCright}}
 
+
+<div class="mw-translate-fuzzy">
+
+## Vue d\'ensemble 
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 <img alt="" src=images/Sheetmetal_workbench_icon.svg  style="width:32px;"> **Sheet Metal** est un [atelier externe](external_workbenches/fr.md) servant à concevoir et déplier des pièces de métal en tôlerie. Par conséquent, il ne fait pas partie de l\'installation standard de FreeCAD.
+
+
+</div>
+
+Characteristics of sheet metal objects are:
+
+-   They have a constant thickness
+-   They are made of planar walls and cylindrical connections
+
+The unfolding tool in both of its versions is not restricted to parts made with tools from this workbench, but can handle [Part](Part_Workbench.md) and [PartDesign](PartDesign_Workbench.md) objects as well, as long as they meet above characteristics.
 
 <img alt="" src=images/SheetMetal_Example.png  style="width:600px;"> 
 * Le modèle en tôle construit avec l'add-on Sheet Metal (arrière plan); devant, le solide déplié; au premier plan, l'esquisse déplier avec des lignes de pliage pour l'exportation au format DXF.*
@@ -23,47 +47,163 @@ Cet atelier peut être installé à partir du [Gestionnaire d\'Addon](Std_AddonM
 
 ## Outils
 
-Une description détaillée (en anglais) des outils peut être trouvée [sur le blogue de l\'auteur](http://theseger.com/projects/2015/06/sheet-metal-addon-for-freecad/).
-
--   <img alt="" src=images/SheetMetal_AddBase.svg  style="width:32px;"> [Tôle de base](SheetMetal_AddBase/fr.md): crée une paroi en tôle à partir d\'une esquisse ouverte.
-
--   <img alt="" src=images/SheetMetal_AddWall.svg  style="width:32px;"> [Tôle pliée](SheetMetal_AddWall/fr.md): génère une tôle à partir d\'une face latérale de la tôle.
-
--   <img alt="" src=images/SheetMetal_Extrude.svg  style="width:32px;"> [Prolonger une face](SheetMetal_Extrude/fr.md): prolonge une face le long de la normale.
-
--   <img alt="" src=images/SheetMetal_AddFoldWall.svg  style="width:32px;"> [Pli sur tôle](SheetMetal_AddFoldWall/fr.md): plie une face sur la ligne choisie avec un rayon de courbure spécifié.
-
 
 <div class="mw-translate-fuzzy">
 
--   <img alt="" src=images/SheetMetal_Unfold.svg  style="width:32px;"> [Déplier](SheetMetal_Unfold/fr.md): aplatit un objet en tôle pliée et génère un solide et une esquisse.
+Une description détaillée (en anglais) des outils peut être trouvée [sur le blogue de l\'auteur](http://theseger.com/projects/2015/06/sheet-metal-addon-for-freecad/).
 
 
 </div>
 
--   <img alt="" src=images/SheetMetal_UnattendedUnfold.svg  style="width:32px;"> [Unattended Unfold](SheetMetal_UnattendedUnfold.md): Flattens folded sheet metal object and generates a solid and a sketch (if parameters have already been set).
+-   <img alt="" src=images/SheetMetal_AddBase.svg  style="width:32px;"> [Tôle de base](SheetMetal_AddBase/fr.md): crée une paroi en tôle à partir d\'une esquisse ouverte.
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/SheetMetal_AddWall.svg  style="width:32px;"> [Tôle pliée](SheetMetal_AddWall/fr.md): génère une tôle à partir d\'une face latérale de la tôle.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/SheetMetal_Extrude.svg  style="width:32px;"> [Prolonger une face](SheetMetal_Extrude/fr.md): prolonge une face le long de la normale.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/SheetMetal_AddFoldWall.svg  style="width:32px;"> [Pli sur tôle](SheetMetal_AddFoldWall/fr.md): plie une face sur la ligne choisie avec un rayon de courbure spécifié.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/SheetMetal_Unfold.svg  style="width:32px;"> [Déplier](SheetMetal_Unfold/fr.md): aplatit un objet en tôle pliée et génère un solide (flan) et une esquisse.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/SheetMetal_UnattendedUnfold.svg  style="width:32px;"> [Déplier sans assistance](SheetMetal_UnattendedUnfold/fr.md) : Aplatit l\'objet en tôle pliée et génère un solide et une esquisse (si les paramètres ont déjà été définis).
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/SheetMetal_AddCornerRelief.svg  style="width:32px;"> [Grugeage rond du coin](SheetMetal_AddCornerRelief/fr.md): ajoute un perçage pour gruger un coin.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/SheetMetal_AddRelief.svg  style="width:32px;"> [Grugeage carré](SheetMetal_AddRelief/fr.md): ajoute une découpe carré à un coin.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/SheetMetal_AddJunction.svg  style="width:32px;"> [Découpe d\'angle](SheetMetal_AddJunction/fr.md): découpe un espace dans l\'angle de deux parois.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/SheetMetal_AddBend.svg  style="width:32px;"> [Transformation en pli](SheetMetal_AddBend/fr.md): plie une face suivant une ligne choisie.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/SheetMetal_SketchOnSheet.svg  style="width:32px;"> [Perçage de paroi](SheetMetal_SketchOnSheet/fr.md): découpe des trous dans la tôle à partir d\'un schéma.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/SheetMetal_Forming.svg  style="width:32px;"> [Outil d\'emboutissage](SheetMetal_Forming/fr.md): crée un outil de formage.
 
-## Deux outils complémentaires 
 
-### Créer un profil de base 
+</div>
 
-Outil en forme d\'oméga : faites une pièce à partir d\'une simple multiligne créée dans Sketcher ou Draft, donnez-lui la hauteur et l\'épaisseur centrées, à gauche ou à droite de cette ligne, veillez à ne pas créer d\'auto-intersection dans les plis fermés d\'un espace moindre comme l\'épaisseur du matériau.
+## Brief description 
 
-### Pliez le long d\'une ligne 
+This workbench provides tools for the two main tasks:
 
-Pliez une plaque de base \"plate\" le long d\'une ligne (rectangle barré d\'une ligne) : sélectionnez la face, puis la ligne et l\'outil, choisissez l\'angle, le rayon, le côté, la position du pli par rapport à la ligne est pas très bien défini ; il semble que la ligne soit le bord d\'intersection à l\'extension des 2 faces.
+-   Create sheet metal objects
+-   Unfold sheet metal objects
+
+This section is meant to give a rough idea of how to use the supplied tools. More detailed information can be found on each tool\'s own page (see above) or in the linked tutorials (see below).
+
+### Create a sheet metal object 
+
+#### Start with a profile 
+
+1.  Create an open polyline (preferably with the sketcher)
+2.  Use the <img alt="" src=images/SheetMetal_AddBase.svg  style="width:16px;"> [Make Base Wall](SheetMetal_AddBase.md) command to create a sheet metal profile.
+
+#### Start with a blank 
+
+1.  Create a closed polyline (preferably with the sketcher)
+2.  Use the <img alt="" src=images/SheetMetal_AddBase.svg  style="width:16px;"> [Make Base Wall](SheetMetal_AddBase.md) command to create a sheet metal blank.
+
+#### Start with a PartDesign Pad 
+
+1.  Create a closed polyline (preferably with the sketcher)
+2.  Use the <img alt="" src=images/PartDesign_Pad.svg  style="width:16px;"> [PartDesign Pad](PartDesign_Pad.md) command to create a prismatic body.
+3.  The <img alt="" src=images/PartDesign_Thickness.svg  style="width:16px;"> [PartDesign Thickness](PartDesign_Thickness.md) command will make it an object of constant thickness.
+4.  To make it unfoldable it needs some gaps or connections between the walls:
+    1.  The <img alt="" src=images/SheetMetal_AddRelief.svg  style="width:16px;"> [Make Relief](SheetMetal_AddRelief.md) command will cut off selected corners.
+    2.  The <img alt="" src=images/SheetMetal_AddJunction.svg  style="width:16px;"> [Make Junction](SheetMetal_AddJunction.md) command will create junctions with gaps between adjoining walls that need to be disjoined.
+    3.  The <img alt="" src=images/SheetMetal_AddBend.svg  style="width:16px;"> [Make Bend](SheetMetal_AddBend.md) command will create cylindrical connections for the remaining walls that need to stay joined.
+
+Some parameters will be inherited from the parent object(s) but it is better to check the relevant parameters at each stage.
+
+It should now be checked if the resulting sheet metal object can be unfolded. (see [Unfold\...](#Unfold_a_sheet_metal_object.md) below).
+
+#### Adding more features 
+
+The unfoldable basic sheet metal objects can be extended:
+
+1.  Use the <img alt="" src=images/SheetMetal_Extrude.svg  style="width:16px;"> [Extend Face](SheetMetal_Extrude.md) command to enlarge walls.
+2.  The <img alt="" src=images/SheetMetal_AddWall.svg  style="width:16px;"> [Make Wall](SheetMetal_AddWall.md) command will add new walls to the existing object.
+3.  Use the <img alt="" src=images/SheetMetal_AddCornerRelief.svg  style="width:16px;"> [Add Corner Relief](SheetMetal_AddCornerRelief.md) command to add or reshape corner reliefs.
+4.  The <img alt="" src=images/SheetMetal_AddFoldWall.svg  style="width:16px;"> [Fold a Wall](SheetMetal_AddFoldWall.md) command will fold a wall at a chosen line, i.e. it will trimm a wall at said line, relocate the cut away side, and rejoin them with a cylindrical connection.
+5.  Use the <img alt="" src=images/SheetMetal_SketchOnSheet.svg  style="width:16px;"> [Sketch on Sheet metal](SheetMetal_SketchOnSheet.md) command to cut holes into the object starting on a chosen wall and then following the adjoined walls and connections.
+6.  The <img alt="" src=images/SheetMetal_Forming.svg  style="width:16px;"> [Make Forming in Wall](SheetMetal_Forming.md) command will stamp a shape into a wall.
+
+Several tools from other workbenches can be used to add holes or to reshape edges.
+
+### Unfold a sheet metal object 
+
+To unfold a sheet metal object aktivate the <img alt="" src=images/SheetMetal_Unfold.svg  style="width:16px;"> [Unfold](SheetMetal_Unfold.md) or the <img alt="" src=images/SheetMetal_UnattendedUnfold.svg  style="width:16px;"> [Unattended Unfold](SheetMetal_UnattendedUnfold.md) tool.
+
+The result will be a 3D object with an optional outline sketch including bend lines.
+
+### Examples
+
+Until tutorial pages are available on this wiki there is an [Examples](SheetMetal_Examples.md) page.
+
+<img alt="" src=images/SheetMetal_Example-01.png  style="width:100px;"> <img alt="" src=images/SheetMetal_Example-02.png  style="width:100px;"> <img alt="" src=images/SheetMetal_Example-03.png  style="width:100px;"> <img alt="" src=images/SheetMetal_Example-04.png  style="width:100px;"> <img alt="" src=images/SheetMetal_Example-05.png  style="width:100px;">
 
 ## Limitations
 
@@ -87,12 +227,25 @@ Le tutoriel suivant est reproduit à partir du tutoriel PDF mentionné dans [Lie
 
 Après avoir téléchargé et installé l\'extension, l\'ouvrir. ![](images/sm1.png )
 
+#### 1st operation 
+
+
+<div class="mw-translate-fuzzy">
+
 #### 1ère opération 
 
 -   Obtenez la base: utilisez soit les ateliers \"pièce\" ou \"brouillon\", faites 1 croquis qui contiendra tous les trous et toutes les coupes, extrudez cette base à l\'épaisseur de la feuille.
 -   Gardez à l\'esprit que les bords seront toujours en plus des rayons de pliage.
 
+
+</div>
+
 ![](images/sm2.png )
+
+#### 2nd operation 
+
+
+<div class="mw-translate-fuzzy">
 
 #### 2ème opération 
 
@@ -103,6 +256,9 @@ Après avoir téléchargé et installé l\'extension, l\'ouvrir. ![](images/sm1.
 -   Gap1, gap2 est le retrait du bord plié du coin de la base (0 accepté).
 -   Inverser par défaut: false se replie en Z +, true en ZReliefd coupe le coin entre le pli et la base (inactif si gap = 0).
 -   Reliefw ajoute 1 fente entre la base et le bord (inactive si reliefd = 0).
+
+
+</div>
 
 ![](images/sm3.png ) Répétez autant de fois qu\'il y a de côtés à plier.
 Plier 1 retour en utilisant \"étendre\".
@@ -120,15 +276,34 @@ Maintenant nous devons séparer les 2 bords sinon ils vont fusionner et le dépl
 
 ![](images/sm5a.png )
 
+#### Unfolding
+
+
+<div class="mw-translate-fuzzy">
+
 #### Dépliage
 
 Choisissez 1 face de référence (ici la face orange) et cliquez sur le bouton dans la barre d\'outils.
 Nous obtenons la partie bleue dont il suffit de modifier les valeurs X, Y ou Z pour le voir en totalité.
+
+
+</div>
+
 ![](images/sm6.png )
+
+#### Cut the flaps at 45° 
+
+
+<div class="mw-translate-fuzzy">
 
 #### Couper les retours à 45 ° 
 
-Après avoir plié les retours sans avoir fait de retrait, la forme apparaît ainsi. ![](images/sm7a.png ) Pour ce faire, il doit se diviser à 45 ° (ou suivant les bissectrices pour les largeurs inégales).
+Après avoir plié les retours sans avoir fait de retrait, la forme apparaît ainsi.
+
+
+</div>
+
+![](images/sm7a.png ) Pour ce faire, il doit se diviser à 45 ° (ou suivant les bissectrices pour les largeurs inégales).
 \* Créer 1 nouveau sketch lié à la partie commune aux 2 volets.
 
 -   Créer 1 arrêt lié en sélectionnant le bord extérieur de la \"charnière\".(important)
@@ -136,26 +311,62 @@ Après avoir plié les retours sans avoir fait de retrait, la forme apparaît ai
 Dessinez 1 triangle dont le haut est contraint à la fin, orienté 1 côté à 45 °, donnez au petit côté 1 largeur minimum (0.1mm suffit), et faites 1 pocket.
 Veillez à ne pas érafler la \"charnière\" où la nudité de lier la pointe du triangle au bord de la ligne de pliage. ![](images/sm8a.png ) Dépliage ![](images/sm9.png )
 
+#### Piercing edges and flaps 
+
+
+<div class="mw-translate-fuzzy">
+
 #### Perçage des bords et des rabats 
 
 Faites ces trous et coupes après le pliage et avant le dépliage.
 Veillez toujours à ne pas \"érafler\" ou couper les lignes de pliage.
+
+
+</div>
+
 ![](images/sm10.png )
+
+#### Make wired flaps 
+
+
+<div class="mw-translate-fuzzy">
 
 #### Faire des rabats tangents 
 
 Faire 1 pli sur le bord du coté, à 45 ° de 0.1mm de long, puis 1 autre inverse à 45 ° de la longueur du rabat contigu, puis étendre le coté opposé, il passera et ils ne seront pas confondus.
+
+
+</div>
+
 ![](images/sm11.png )
+
+#### Special case of this same pierced edge 
+
+
+<div class="mw-translate-fuzzy">
 
 #### Cas particulier de ce même bord percé 
 
 Dans ce cas particulier, le dépliage ne fonctionne qu\'en choisissant la face jaune comme référence.
+
+
+</div>
+
 ![](images/sm12.png )
+
+#### Special case hole straddling the folds 
+
+
+<div class="mw-translate-fuzzy">
 
 #### Cas spécial de trou enjambant les plis 
 
 Auparavant, il est dit plusieurs fois qu\'il est interdit de couper les lignes de pliage.
 Comment faire ?
+
+
+</div>
+
 ![](images/sm13.png )
 
 -   Faire la base avec son trou demi-rond et faire les 2 demi-faces et les 2 demi-plis séparément.
@@ -171,16 +382,30 @@ Comment faire ?
 
 </div>
 
+## Videos
+
+
+<div class="mw-translate-fuzzy">
+
 
 {{TOCright}}
 
+
+</div>
+
 ## Liens
+
+
+<div class="mw-translate-fuzzy">
 
 -   [Macro Sheet Metal Unfolder](Macro_Sheet_Metal_Unfolder/fr.md) macro originale sur laquelle l\'outil Unfold est basé.
 -   Annonce du [Sheet Metal Workbench](http://forum.freecadweb.org/viewtopic.php?t=11303) (EN) sur le forum FreeCAD
 -   [Un tutoriel en français et en anglais au format PDF](https://forum.freecadweb.org/viewtopic.php?f=3&t=25002) sur le forum FreeCAD
 -   Fichiers:
 -   Signalement des bogues/demande de fonctionnalités: <https://github.com/shaise/FreeCAD_SheetMetal/issues>
+
+
+</div>
 
 ## Références
 
@@ -190,13 +415,5 @@ Comment faire ?
 -   Licence: [GPLv3](https://www.gnu.org/licenses/gpl-3.0.fr.html)
 -   Blog officiel (EN): [Sheet metal Addon for FreeCAD](http://theseger.com/projects/2015/06/sheet-metal-addon-for-freecad/)
 -   Code source sur github: <https://github.com/shaise/FreeCAD_SheetMetal>
-
-## Ateliers externes 
-
-Les ateliers FreeCAD sont faciles à programmer en [Python](Python/fr.md), de ce fait, beaucoup de personnes développent des ateliers supplémentaires en dehors des développeurs principaux de FreeCAD.
-
-La page [ateliers externes](external_workbenches/fr.md) contient des informations et des tutoriels sur certains d'entre eux, et le projet [FreeCAD Addons](https://github.com/FreeCAD/FreeCAD-addons) vise à les rassembler et à les rendre facilement installables depuis FreeCAD.
-
-De nouveaux ateliers sont en développement, restez à l\'écoute !
 
 [Category:SheetMetal](Category:SheetMetal.md) [Category:Addons](Category:Addons.md) [Category:External Command Reference](Category:External_Command_Reference.md)

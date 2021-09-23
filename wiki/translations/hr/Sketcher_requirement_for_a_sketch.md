@@ -2,7 +2,6 @@
 
 
 
-
 {{TutorialInfo/hr
 |Topic=Sketch
 |Level=Beginner

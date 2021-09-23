@@ -2,7 +2,6 @@
 
 
 
-
 {{TutorialInfo
 |Topic=SampleClass
 |Level=Medium user

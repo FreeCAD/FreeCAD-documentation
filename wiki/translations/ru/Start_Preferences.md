@@ -1,7 +1,6 @@
 # Start Preferences/ru
 
 
-
 The preferences screen of the [Start Workbench](Start_Workbench.md) is found in the [Preferences Editor](Preferences_Editor.md), **Edit → Preferences → Start**.
 
 There is only one tab: Start page.

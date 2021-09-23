@@ -1,6 +1,5 @@
 # ManualDrawing/it
 
-
 <H1 align="center">
 
 Guida ai comandi di FreeCAD
@@ -91,7 +90,7 @@ Ambiente Drawing: Altri strumenti e strumenti non documentati
 </H2>
 
 
-{{VeryImportantMessage|Sezione in costruzione}}
+**Sezione in costruzione**
 
 Questa sezione elenca una serie di comandi che non sono ancora inclusi in questo documento. Alcuni di questi strumenti sono recenti o sono in fase di sviluppo. Per avere maggiori informazioni consultare la [Guida in linea](Online_Help_Toc/it.md) o visitare il [forum](http://forum.freecadweb.org/)
 

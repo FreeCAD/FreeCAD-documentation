@@ -1,5 +1,4 @@
 # Contributors hub
-
  
 
 ## Introduction

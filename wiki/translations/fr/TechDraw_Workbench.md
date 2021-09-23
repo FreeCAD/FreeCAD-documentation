@@ -4,7 +4,6 @@
 
 
 
-
 <img alt="Icône de l\'atelier TechDraw" src=images/Workbench_TechDraw.svg  style="width:128px;">
 
 ## Introduction
@@ -15,7 +14,7 @@ Des dimensions, des sections, des zones hachurées, des annotations et des symbo
 
 TechDraw a été officiellement inclus dans FreeCAD à partir de la version 0.17; il est destiné à remplacer l\'atelier [Drawing](Drawing_Workbench/fr.md) non pris en charge. Les deux ateliers sont toujours fournis dans la v0.17, mais l\'atelier Drawing pourrait être supprimé dans les versions ultérieures. Pour suivre les plans et les développements de TechDraw, visitez la [Feuille de route TechDraw](TechDraw_Roadmap/fr.md).
 
-FreeCAD est principalement une application de modélisation 3D et ne dispose donc pas de nombreux outils de dessin 2D, qui sont pour la plupart inclus dans les ateliers [Draft](Draft_Workbench/fr.md) et [Sketcher](Sketcher_Workbench/fr.md). Si votre objectif principal est la production de dessins 2D complexes et de fichiers [DXF](DXF/fr.md), et que vous n\'avez pas besoin de modélisation 3D, vous pouvez envisager un logiciel dédié à la rédaction technique, tel que [LibreCAD](https://fr.wikipedia.org/wiki/LibreCAD), [QCad](https://fr.wikipedia.org/wiki/QCad), TurboCad et autres.
+Si votre objectif principal est la production de dessins 2D complexes et de fichiers [DXF](DXF/fr.md) et que vous n\'avez pas besoin de modélisation 3D, FreeCAD n\'est peut-être pas le bon choix pour vous. Vous pouvez envisager d\'utiliser un logiciel dédié au dessin technique, tel que [LibreCAD](https://fr.wikipedia.org/wiki/LibreCAD) ou [QCad](https://fr.wikipedia.org/wiki/QCad).
 
 
 {{TOCright}}
@@ -68,37 +67,29 @@ Ce sont les outils pour créer et travailler avec des objets Dimension.
 
 Les cotes linéaires peuvent être basées sur deux points, sur une ligne ou sur deux lignes.
 
--   <img alt="" src=images/TechDraw_Dimension_Length.svg  style="width:32px;"> [Nouvelle cote de longueur](TechDraw_Dimension_Length/fr.md) : ajoute une cote de longueur.
+-   <img alt="" src=images/TechDraw_LengthDimension.svg  style="width:32px;"> [Cote de longueur](TechDraw_LengthDimension/fr.md) : ajoute une cote de longueur.
 
--   <img alt="" src=images/TechDraw_Dimension_Horizontal.svg  style="width:32px;"> [Nouvelle cote horizontale](TechDraw_Dimension_Horizontal/fr.md) : ajoute une cote de longueur horizontale.
+-   <img alt="" src=images/TechDraw_HorizontalDimension.svg  style="width:32px;"> [Cote horizontale](TechDraw_HorizontalDimension/fr.md) : ajoute une cote de longueur horizontale.
 
--   <img alt="" src=images/TechDraw_Dimension_Vertical.svg  style="width:32px;"> [Nouvelle cote verticale](TechDraw_Dimension_Vertical/fr.md) : ajoute une cote de longueur verticale.
+-   <img alt="" src=images/TechDraw_VerticalDimension.svg  style="width:32px;"> [Cote verticale](TechDraw_VerticalDimension/fr.md) : ajoute une cote de longueur verticale.
 
--   <img alt="" src=images/TechDraw_Dimension_Radius.svg  style="width:32px;"> [Nouvelle cote radiale](TechDraw_Dimension_Radius/fr.md) : ajoute une cote de rayon à un cercle ou un arc de cercle.
+-   <img alt="" src=images/TechDraw_RadiusDimension.svg  style="width:32px;"> [Cote de rayon](TechDraw_RadiusDimension/fr.md) : ajoute une cote de rayon à un cercle ou un arc de cercle.
 
--   <img alt="" src=images/TechDraw_Dimension_Diameter.svg  style="width:32px;"> [Nouvelle cote diamétrale](TechDraw_Dimension_Diameter/fr.md) : ajoute une cote de diamètre à un cercle ou à un arc de cercle.
+-   <img alt="" src=images/TechDraw_DiameterDimension.svg  style="width:32px;"> [Cote de diamètre](TechDraw_DiameterDimension/fr.md) : ajoute une cote de diamètre à un cercle ou à un arc de cercle.
 
--   <img alt="" src=images/TechDraw_Dimension_Angle.svg  style="width:32px;"> [Nouvelle cote angulaire](TechDraw_Dimension_Angle/fr.md) : ajoute une cote angulaire entre deux arêtes droites.
+-   <img alt="" src=images/TechDraw_AngleDimension.svg  style="width:32px;"> [Cote angulaire](TechDraw_AngleDimension/fr.md) : ajoute une cote angulaire entre deux arêtes droites.
 
--   <img alt="" src=images/TechDraw_Dimension_Angle3Pt.svg  style="width:32px;"> [Nouvelle cote angulaire par 3Pts](TechDraw_Dimension_Angle3Pt/fr.md) : ajoute une cote d\'angle à partir de trois sommets.
+-   <img alt="" src=images/TechDraw_3PtAngleDimension.svg  style="width:32px;"> [Cote angulaire par 3 points](TechDraw_3PtAngleDimension/fr.md) : ajoute une cote d\'angle à partir de trois sommets.
 
--   <img alt="" src=images/TechDraw_Dimension_Horizontal_Extent.svg  style="width:32px;"> [Extension dimension horizontale](TechDraw_Dimension_Horizontal_Extent/fr.md) : ajoute une dimension d\'extension horizontale.{{Version/fr|0.19}}
+-   <img alt="" src=images/TechDraw_HorizontalExtentDimension.svg  style="width:32px;"> [Extension horizontale](TechDraw_HorizontalExtentDimension/fr.md) : ajoute une dimension d\'extension horizontale. {{Version/fr|0.19}}
 
--   <img alt="" src=images/TechDraw_Dimension_Vertical_Extent.svg  style="width:32px;"> [Extension dimension verticale](TechDraw_Dimension_Vertical_Extent/fr.md) : ajoute une dimension d\'extension verticale. {{Version/fr|0.19}}
+-   <img alt="" src=images/TechDraw_VerticalExtentDimension.svg  style="width:32px;"> [Extension verticale](TechDraw_VerticalExtentDimension/fr.md) : ajoute une dimension d\'extension verticale. {{Version/fr|0.19}}
 
--   <img alt="" src=images/TechDraw_Dimension_Link.svg  style="width:32px;"> [Nouveau lien](TechDraw_Dimension_Link/fr.md) : lie une cote existante à la géométrie 3D.
+-   <img alt="" src=images/TechDraw_LinkDimension.svg  style="width:32px;"> [Lier une dimension](TechDraw_LinkDimension/fr.md) : lie une cote existante à la géométrie 3D.
 
--   <img alt="" src=images/TechDraw_Balloon.svg  style="width:32px;"> [Nouvelle bulle](TechDraw_Balloon/fr.md) : ajout de notes \"bulles\" dans la page. {{Version/fr|0.19}}
+-   <img alt="" src=images/TechDraw_Balloon.svg  style="width:32px;"> [Annotation bulle](TechDraw_Balloon/fr.md) : ajout de notes \"bulles\" dans la page. {{Version/fr|0.19}}
 
--   <img alt="" src=images/Techdraw-landmarkdistance.svg  style="width:32px;"> [Dimension de repère](TechDraw_Dimension_Landmark/fr.md) : ajoute une cote linéaire. {{Version/fr|0.19}}
-
-## Import/Export
-
-Ce sont les outils pour exporter les pages vers d\'autre applications.
-
--   <img alt="" src=images/TechDraw_ExportPageSVG.svg  style="width:32px;"> [Sauvegarder au format SVG](TechDraw_ExportPageSVG/fr.md) : enregistre la page en cours sous forme de fichier [SVG](SVG/fr.md).
-
--   <img alt="" src=images/TechDraw_ExportPageDXF.svg  style="width:32px;"> [Sauvegarder au format DXF](TechDraw_ExportPageDXF/fr.md) : enregistre la page en cours sous forme de fichier [DXF](DXF/fr.md).
+-   <img alt="" src=images/TechDraw_LandmarkDimension.svg  style="width:32px;"> [Dimension de repère](TechDraw_LandmarkDimension/fr.md) : ajoute une cote linéaire. {{Version/fr|0.19}}
 
 ## Décorations
 
@@ -136,7 +127,7 @@ Les outils d\'annotation permettent de \"marquer\" un dessin avec des informatio
 
 -   <img alt="" src=images/TechDraw_2PointCenterLine.svg  style="width:32px;"> [Ligne centrale entre 2 points](TechDraw_2PointCenterLine/fr.md) : ajoute une ligne centrale entre 2 points. {{Version/fr|0.19}}
 
--   <img alt="" src=images/TechDraw-line2points.svg  style="width:32px;"> [Ligne cosmétique](TechDraw_2PointCosmeticLine/fr.md): ajoute une ligne cosmétique reliant 2 sommets. {{Version/fr|0.19}}
+-   <img alt="" src=images/TechDraw-line2points.svg  style="width:32px;"> [Ligne cosmétique par 2 points](TechDraw_2PointCosmeticLine/fr.md): ajoute une ligne cosmétique reliant 2 sommets. {{Version/fr|0.19}}
 
 -   <img alt="" src=images/TechDraw_CosmeticEraser.svg  style="width:32px;"> [Gomme](TechDraw_CosmeticEraser/fr.md) : supprime les objets cosmétiques d\'une page. {{Version/fr|0.19}}
 
@@ -153,15 +144,23 @@ Le pack d\'extension comprend de nombreux outils utiles pour améliorer vos dess
 
 **Certains de ces outils ne sont pas encore disponibles.**
 
--   <img alt="" src=images/TechDraw_Extension_CircleCenterLines.svg  style="width:32px;"> [Lignes centrales aux cercles](TechDraw_Extension_CircleCenterLines/fr.md) : ajoute des lignes centrales aux cercles et aux arcs. {{Version/fr|0.20}}
+-   <img alt="" src=images/TechDraw_ExtensionCircleCenterLines.svg  style="width:32px;"> [Lignes centrales aux cercles](TechDraw_ExtensionCircleCenterLines/fr.md) : ajoute des lignes centrales aux cercles et aux arcs. {{Version/fr|0.20}}
 
--   <img alt="" src=images/TechDraw_Extension_ThreadHoleSide.svg  style="width:32px;"> [Filetage face trou](TechDraw_Extension_ThreadHoleSide/fr.md) : ajoute un filetage symbolique à la vue latérale d\'un trou. {{Version/fr|0.20}}
+-   <img alt="" src=images/TechDraw_ExtensionThreadHoleSide.svg  style="width:32px;"> [Filetage face trou](TechDraw_ExtensionThreadHoleSide/fr.md) : ajoute un filetage symbolique à la vue latérale d\'un trou. {{Version/fr|0.20}}
 
--   <img alt="" src=images/TechDraw_Extension_ThreadHoleBottom.svg  style="width:32px;"> [Filetage dessous trou](TechDraw_Extension_ThreadHoleBottom/fr.md) : ajoute des filetages symboliques à la vue inférieure des trous. {{Version/fr|0.20}}
+-   <img alt="" src=images/TechDraw_ExtensionThreadHoleBottom.svg  style="width:32px;"> [Filetage dessous trou](TechDraw_ExtensionThreadHoleBottom/fr.md) : ajoute des filetages symboliques à la vue inférieure des trous. {{Version/fr|0.20}}
 
--   <img alt="" src=images/TechDraw_Extension_ThreadBoltSide.svg  style="width:32px;"> [Filetage face boulon](TechDraw_Extension_ThreadBoltSide/fr.md) : ajoute un filetage symbolique à la vue latérale d\'un boulon. {{Version/fr|0.20}}
+-   <img alt="" src=images/TechDraw_ExtensionThreadBoltSide.svg  style="width:32px;"> [Filetage face boulon](TechDraw_ExtensionThreadBoltSide/fr.md) : ajoute un filetage symbolique à la vue latérale d\'un boulon. {{Version/fr|0.20}}
 
--   <img alt="" src=images/TechDraw_Extension_ThreadBoltBottom.svg  style="width:32px;"> [Filetage dessous boulon](TechDraw_Extension_ThreadBoltBottom/fr.md) : ajoute des filetages symboliques à la vue inférieure des boulons. {{Version/fr|0.20}}
+-   <img alt="" src=images/TechDraw_ExtensionThreadBoltBottom.svg  style="width:32px;"> [Filetage dessous boulon](TechDraw_ExtensionThreadBoltBottom/fr.md) : ajoute des filetages symboliques à la vue inférieure des boulons. {{Version/fr|0.20}}
+
+## Import/Export
+
+Ce sont les outils pour exporter les pages vers d\'autre applications.
+
+-   <img alt="" src=images/TechDraw_ExportPageSVG.svg  style="width:32px;"> [Sauvegarder au format SVG](TechDraw_ExportPageSVG/fr.md) : enregistre la page en cours sous forme de fichier [SVG](SVG/fr.md).
+
+-   <img alt="" src=images/TechDraw_ExportPageDXF.svg  style="width:32px;"> [Sauvegarder au format DXF](TechDraw_ExportPageDXF/fr.md) : enregistre la page en cours sous forme de fichier [DXF](DXF/fr.md).
 
 ## Fonctions supplémentaires 
 
@@ -176,7 +175,7 @@ Le pack d\'extension comprend de nombreux outils utiles pour améliorer vos dess
 
 ## Script
 
-Les outils TechDraw peuvent être utilisés dans des [macros](macros/fr.md) et à partir de la console [Python](Python/fr.md) à l\'aide de deux API :
+Les outils TechDraw peuvent être utilisés dans des [macros](Macros/fr.md) et à partir de la console [Python](Python/fr.md) à l\'aide de deux API :
 
 -   [TechDraw API](TechDraw_API/fr.md)
 -   [TechDrawGui API](TechDrawGui_API/fr.md)
@@ -186,7 +185,6 @@ Les outils TechDraw peuvent être utilisés dans des [macros](macros/fr.md) et �
 -   Les dessins TechDraw et son API Python ne sont pas interchangeables avec l\'[atelier Drawing](Drawing_Workbench/fr.md) et son API. Il est possible de convertir des pages de dessin en pages TechDraw en utilisant un script Python (`moveViews.py`).
 -   Il est possible d\'avoir à la fois des Pages TechDraw et Drawing dans le même document FreeCAD, chaque page étant complètement indépendante l'une de l'autre.
 -   Il existe des différences mineures dans la spécification des textes modifiables dans les modèles [SVG](SVG/fr.md) par rapport au module Dessin. Dans TechDraw, la mise à l\'échelle du document SVG affecte la position des champs de texte modifiables. Voir la discussion du forum [échelle des modèles TechDraw](https://forum.freecadweb.org/viewtopic.php?f=3&t=24981&p=196271#p196271) pour plus de détails.
--   Les filetages ne sont pas implémentés. Une solution possible est d\'utiliser une [Dimension de diamètre](TechDraw_Dimension_Diameter/fr.md) et de mettre un texte approprié dans la propriété \"Format Spec\", par exemple \"M4x15\".
 -   Ne coupez pas, ne copiez pas et ne collez pas d\'objets TechDraw dans l\'arborescence, car cela ne fonctionne généralement pas bien.
 
 ## Tutoriels

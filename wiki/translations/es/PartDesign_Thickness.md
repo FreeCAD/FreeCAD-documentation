@@ -12,6 +12,9 @@
 
 La herramienta **Espesor** trabaja sobre un cuerpo sólido y lo transforma en un objeto hueco con una pared de un grosor determinado, con al menos una cara abierta, dando a cada una de sus caras restantes un espesor uniforme. Con algunos sólidos permite un ahorro significativo de trabajo, evitando hacer extrusiones y vaciados innecesarios.
 
+<img alt="" src=images/PartDesign_Thickness_example.svg  style="width:600px;"> 
+*The thickness tool applied to a face (B) of a solid (A), resulting in the hollow object (C).*
+
 ## Uso
 
 1.  Seleccionar una o más caras del Body (cuerpo) activo.
@@ -65,9 +68,15 @@ Resultado: ![](images/Brga-spessore.png )
 
 ## Errores conocidos 
 
+
+<div class="mw-translate-fuzzy">
+
 -   BRep\_API: Operación no realizada.
 -   BRep\_Tool:: Ningún parámetro sobre el borde.
 -   Fallos silenciosos.
+
+
+</div>
 
 
 

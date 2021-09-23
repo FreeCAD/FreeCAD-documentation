@@ -1,7 +1,6 @@
 # Transportation Workbench/it
 
 
-
 ## Descrizione
 
 Un sottoinsieme dell\'ambiente di [Ingegneria civile](Civil_Engineering_Workbench/it.md)

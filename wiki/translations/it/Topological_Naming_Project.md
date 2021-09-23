@@ -1,7 +1,6 @@
 # Topological Naming Project/it
 
 
-
 This page is dedicated to the description of the Google Summer of Code project idea regarding topological naming. For the topic in itself please see [Naming project](Naming_project.md). The linked wiki page can also serve as a starting point to get into the naming problem.
 
 ## Outline

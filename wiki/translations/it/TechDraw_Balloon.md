@@ -132,4 +132,4 @@ rc = page.addView(bal1)
 
 {{TechDraw Tools navi
 
-}}  
+}} 

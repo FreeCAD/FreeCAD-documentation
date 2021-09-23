@@ -1,5 +1,4 @@
 # ANSI templates/cs
-
  Tato stránka obsahuje seznam šablon podle American National Standards Institute (ANSI) [ANSI](http://en.wikipedia.org/wiki/American_National_Standards_Institute) standardů
 
 ### ANSI A 

@@ -1,7 +1,6 @@
 # Assembly4 Workbench/it
 
 
-
 <img alt="External workbench icon" src=images/Assembly4_workbench_icon.svg  style="width:128px;">
 
 ## Introduzione

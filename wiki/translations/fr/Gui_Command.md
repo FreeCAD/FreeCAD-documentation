@@ -1,5 +1,4 @@
 # Gui Command/fr
-
  Une GuiCommand, est l\'une des fonctions les plus importantes du point de vue interaction entre l\'utilisateur et FreeCAD. Chaque fois que l\'utilisateur sélectionne un élément du menu, ou appuie sur un **bouton** de la barre d\'outils, il active une GuiCommand. Voici quelques-uns des attributs d\'une GuiCommand :
 
 -   Définir un nom
@@ -44,7 +43,7 @@ Nous essayons autant que possible de respecter ce tableau, de sorte que la coule
 ## Exigences de qualité 
 
 
-{{VeryImportantMessage|L'[atelier Complete](Complete_Workbench/fr.md) est obsolète, il ne contient plus chacune des commandes de FreeCAD.}}
+**L'[atelier Complete](Complete_Workbench/fr.md) est obsolète, il ne contient plus chacune des commandes de FreeCAD.**
 
 Il y a beaucoup de fonctions GuiCommands (outils) dans FreeCAD, qui sont expérimentales ou utilisées à des fins de test ou pour des nouveautés. Ces GuiCommands sont pour la plupart dans les ateliers dédiés comme [Part](Part_Workbench/fr.md), [Mesh](Mesh_Workbench/fr.md) ou Cam. Pour assurer à l\'utilisateur une utilisation facile, l\'atelier *Complete* a été créé. Cet atelier intègre toutes les commandes Gui qui répondent à certaines exigences de qualité décrites ci-après :
 

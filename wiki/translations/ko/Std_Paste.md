@@ -38,20 +38,10 @@
 
 -    **도구 → 파라미터 편집... → BaseApp → Preferences → Document → DuplicateLabels**값이 `True`면 중복 레이블이 허용됩니다. 이 설정은 [환경 설정 편집기에서도](Preferences_Editor/ko#문서.md) 변경할 수 있습니다.
 
-## Scripting
-
-The **Std Paste** command can be applied only after running the **[Std Copy](Std_Copy.md)** command:
-
-
-```python
-FreeCADGui.runCommand('Std_Copy')
-FreeCADGui.runCommand('Std_Paste')
-```
-
 
 
 
 
 {{Std Base navi
 
-}}  
+}} 

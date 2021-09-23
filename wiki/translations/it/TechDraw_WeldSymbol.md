@@ -104,17 +104,33 @@ App.activeDocument().DrawTileWeld001.RightText = "right text"
 App.activeDocument().DrawTileWeld001.CenterText = "center text"
 ```
 
+## Svg Symbol Tiles 
+
+
+<div class="mw-translate-fuzzy">
+
 ## Tessere dei simboli SVG 
 
 -   I singoli simboli sono formati da file Svg di 64x64 pixel. È possibile creare simboli aggiuntivi in un programma SVG come [Inkscape](https://en.wikipedia.org/wiki/Inkscape) usando uno dei simboli forniti da FreeCAD come modello.
 
 <img alt="" src=images/Techdraw-WeldingSymbolLayoutArrow.svg  style="width:128px;"> <img alt="" src=images/Techdraw-WeldingSymbolLayoutOther.svg  style="width:128px;">
 
+
+</div>
+
+<img alt="" src=images/Techdraw-WeldingSymbolLayoutArrow.svg  style="width:128px;"> <img alt="" src=images/Techdraw-WeldingSymbolLayoutOther.svg  style="width:128px;">
+
+
+<div class="mw-translate-fuzzy">
+
 \* I singoli simboli sono formati da file Svg 64x64 (nominali) pixel. Le tessere hanno in realtà un \"bordo\" di 4px. Il bordo assicura che la linea guida e il simbolo corrispondano.
 
 -   Il simbolo è disegnato in nero su uno sfondo trasparente. Lo spessore del tratto è di 0,5 mm.
 -   La linea guida passa sotto i simboli dal lato freccia e sopra i simboli per \"l\'altro\" lato.
 -   Non esiste uno standard di denominazione particolare se non quello di aggiungere \"Su o Giù\" alla freccia o ad altri simboli laterali.
+
+
+</div>
 
 ## Note
 
@@ -133,4 +149,4 @@ App.activeDocument().DrawTileWeld001.CenterText = "center text"
 
 {{TechDraw Tools navi
 
-}}  
+}} 

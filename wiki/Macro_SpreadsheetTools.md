@@ -1,5 +1,4 @@
 # Macro SpreadsheetTools
-
   {{Macro
 |Name=Macro SpreadsheetTools
 |Icon=Macro_SpreadsheetTools.png

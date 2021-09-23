@@ -1,5 +1,4 @@
 # CurvedShapes Workbench/en
-
  } <img alt="CurvedShapes External Workbench Icon" src=images/CurvedShapes_workbench_icon.svg  style="width:128px;"> {{TOCright}}
 
 ## Introduction

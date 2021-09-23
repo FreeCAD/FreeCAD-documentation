@@ -1,5 +1,4 @@
 # Sketcher scripting/de
-
  {{TOCright}}
 
 ## Erstellen einer Beschränkung mit Python 

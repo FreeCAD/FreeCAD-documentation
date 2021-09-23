@@ -2,7 +2,6 @@
 
 
 
-
 {{docnav/id|[Workbenches/id](Workbenches/id.md)|[Draft Workbench/id](Draft_Workbench/id.md)|IconL=|IconR=Workbench_Draft.svg}}
 
 <img alt="Arch workbench icon" src=images/Workbench_Arch.svg  style="width:128px;">

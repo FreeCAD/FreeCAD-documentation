@@ -2,7 +2,6 @@
 
 
 
-
 {{TutorialInfo/fr
 |Topic=Sketcher
 |Level=Débutant

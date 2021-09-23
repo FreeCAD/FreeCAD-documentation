@@ -1,8 +1,9 @@
 ---
-- GuiCommand:
-   Name:TechDraw SpreadsheetView
-   MenuLocation:TechDraw → Insert Spreadsheet View
-   Workbenches:[TechDraw](TechDraw_Workbench.md), [Spreadsheet](Spreadsheet_Workbench.md)
+- GuiCommand:/ru
+   Name/ru:Вставить электронную таблицу
+   Name:TechDraw_SpreadsheetView
+   MenuLocation:TechDraw → Вставить электронную таблицу
+   Workbenches:[TechDraw](TechDraw_Workbench/ru.md), [Spreadsheet](Spreadsheet_Workbench/ru.md)
 ---
 
 ## Описание

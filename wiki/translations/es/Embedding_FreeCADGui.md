@@ -1,7 +1,6 @@
 # Embedding FreeCADGui/es
 
 
-
 ## Introduction
 
 

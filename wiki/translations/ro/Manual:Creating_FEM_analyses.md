@@ -5,7 +5,6 @@
 
 
 
-
 {{Manual:TOC/ro}}
 
 MEF înseamnă [Finite Element Method](https://en.wikipedia.org/wiki/Finite_element_method). Este un subiect matematic vast, dar în FreeCAD ne putem gândi la acesta ca la o modalitate de a calcula propagările în interiorul unui obiect 3D, prin tăierea lui în bucăți infinitezimal mici și analizarea impactului fiecărei bucăți mici asupra vecinilor săi. Acest lucru are mai multe utilizări în diverse domenii ale ingineriei în general și al câmpuri electromagnetice ( ca alt exemplu), dar ne vom concentra pe o utilizare deja dezvoltată în FreeCAD, care simulează deformările în obiecte care sunt supuse forțelor și greutăților.

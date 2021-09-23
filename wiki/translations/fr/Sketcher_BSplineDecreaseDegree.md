@@ -42,4 +42,4 @@ Si vous prenez ce résultat et augmentez le degré, vous ne pouvez pas obtenir l
 
 {{Sketcher Tools navi
 
-}}  
+}} 

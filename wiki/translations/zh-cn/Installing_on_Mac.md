@@ -5,7 +5,6 @@
 
 
 
-
 <div class="mw-translate-fuzzy">
 
 FreeCAD 通过安装器在 Mac OS X 上安装只需要一步。

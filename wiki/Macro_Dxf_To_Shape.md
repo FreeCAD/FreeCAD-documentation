@@ -1,7 +1,6 @@
 # Macro Dxf To Shape
 
-
-{{VeryImportantMessage|Documentation not finished, not translate thanks}}
+**Documentation not finished, not translate thanks**
 
 
 {{Macro

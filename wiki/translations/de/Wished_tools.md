@@ -1,5 +1,4 @@
 # Wished tools/de
-
  Ich beginne diese Seite als Versuch, Endanwenderwünsche zu bestimmten Werkzeugen zu sammeln, die sie in FreeCAD finden möchten. Mehrere cad Benutzer haben sich bereits mit mir über cad Werkzeuge unterhalten, darüber, was sie am meisten benutzen, was sie sich in FreeCAD wünschen, worauf sie nicht verzichten können, usw\..... Obwohl FreeCAD nicht dazu gedacht ist, spezifisch ein Ersatz für jede andere berühmte CAD Software zu werden (besonders für die, die mit Auto beginnt und mit CAD endet), denke ich, dass dies eine gute Referenz werden kann, um die Erwartungen der Endbenutzer zu kennen und vielleicht die Dinge über andere in der Entwicklung zu stellen.
 
 Wenn Du ein CAD Anwender bist und hier etwas hinzufügen möchtest, kannst Du gerne editieren, wir würden uns freuen, Deine Meinung hier zu haben.

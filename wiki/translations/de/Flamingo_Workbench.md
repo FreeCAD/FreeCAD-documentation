@@ -1,12 +1,11 @@
 # Flamingo Workbench/de
-
  
 
 
 <div class="mw-translate-fuzzy">
 
 
-{{VeryImportantMessage|Flamingo Arbeitsbereich (Python2/Qt4) wurde durch die Dodo Arbeitsbereich (Python3/Qt5) abgelöst. Diese Wiki Seite wird die Unterschiede zwischen den einzelnen Arbeitsbereichen hervorheben.}}
+**Flamingo Arbeitsbereich (Python2/Qt4) wurde durch die Dodo Arbeitsbereich (Python3/Qt5) abgelöst. Diese Wiki Seite wird die Unterschiede zwischen den einzelnen Arbeitsbereichen hervorheben.**
 
 
 </div>
@@ -76,7 +75,7 @@ Dialog to create over multiple edges selected in the viewport the beams of the t
 With the button **Select** it\'s possible to change the type of beam.
 
 
-{{VeryImportantMessage|Dodo: Diese Funktion wurde im Dialog "Rahmenzweig einfügen" durch die Drucktaste "Einzeln hinzufügen" ersetzt.}}
+**Dodo: Diese Funktion wurde im Dialog "Rahmenzweig einfügen" durch die Drucktaste "Einzeln hinzufügen" ersetzt.**
 
 
 :   3\) Insert a path (class insertPath)
@@ -98,13 +97,13 @@ Other profiles can be drafted in the model and dragged inside the group \"Profil
 The orientation of the DWires may influence the rendering of beams.
 
 
-{{VeryImportantMessage|Dodo: Der Umfang dieser Funktion wurde geändert.
+**Dodo: Der Umfang dieser Funktion wurde geändert.
 In dodo öffnet sich ein Dialog, aus dem es möglich ist, 10 Formen für den Trägerquerschnitt mit kundenspezifischen Abmessungen zu erstellen:
 * Hohl und quadratisch
 * Hohl- und Vollkreis
 * T, I, C, L, L, Z
 * omega
-Es ist auch möglich, die Position der Mitte zu ändern oder einen vorhandenen Abschnitt zu bearbeiten.}}
+Es ist auch möglich, die Position der Mitte zu ändern oder einen vorhandenen Abschnitt zu bearbeiten.**
 
 
 :   5\) FrameLine manager (class FrameLineManager)
@@ -249,7 +248,7 @@ If no length is specified, the default is 200 units (just a convenient length, i
 **Apply** button allow to apply a different lenght or Nominal diameter to the tubes currently selected.
 
 
-{{VeryImportantMessage|Dodo: ein Tortenmenü (Tastaturkürzel: "Z") hinzugefügt, um "pype" Objekte zu erstellen: dies soll schnellere Verbesserungen in die Zeichnung einfügen}}
+**Dodo: ein Tortenmenü (Tastaturkürzel: "Z") hinzugefügt, um "pype" Objekte zu erstellen: dies soll schnellere Verbesserungen in die Zeichnung einfügen**
 
 
 :   2\) Insert a curve

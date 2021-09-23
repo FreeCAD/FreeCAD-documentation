@@ -24,7 +24,7 @@ Narzędzie **Hatch** wypełnia zamknięty obszar w widoku wzorcem kreskowania, k
 
 ## Uwagi
 
--   Obiekty kreskowania są podatne na problemy z *[nazewnictwem topologicznym](Topological_naming_problem/pl.md)*. Aby uzyskać więcej informacji, zobacz informacje w narzędziu [Rysunek techniczny: Wymiar długości](TechDraw_Dimension_Length/pl.md). Zaleca się, aby kreskowanie było jednym z ostatnich kroków w procesie rysowania.
+-   Obiekty kreskowania są podatne na problemy z *[nazewnictwem topologicznym](Topological_naming_problem/pl.md)*. Aby uzyskać więcej informacji, zobacz informacje w narzędziu [Rysunek techniczny: Wymiar długości](TechDraw_LengthDimension/pl.md). Zaleca się, aby kreskowanie było jednym z ostatnich kroków w procesie rysowania.
 -   Przykładowe wzory [SVG](SVG/pl.md) są dostępne lokalnie w:
 
 

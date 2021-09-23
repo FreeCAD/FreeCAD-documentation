@@ -1,5 +1,4 @@
 # Quantity/de
-
  Die Größe ist eine Kombination einer Fließkommazahl und einer Einheit. Sie wird überall in FreeCAD benutzt, um Parameter und alle Arten von Ein- und Ausgaben zu behandeln.
 
 ## Allgemein

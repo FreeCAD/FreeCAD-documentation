@@ -10,7 +10,7 @@
 
 ## Opis
 
-Polecenie <img alt="" src=images/Draft_Upgrade.svg  style="width:24px;"> **Ulepsz kształt** ulepsza wybrane obiekty 2D. Wynik zależy od liczby wybranych obiektów i ich typu. Polecenie może na przykład łączyć elementy i tworzyć ściany. Warto spróbować uaktualnić wybrane obiekty kilka razy, aby zobaczyć czy można uzyskać lepszy rezultat. Zobacz przykład na obrazku. Należy pamiętać, że nie wszystkie obiekty można uaktualnić. To polecenie jest odpowiednikiem polecenia środowiska pracy Rysunek Roboczy [Rozbij kształt](Draft_Downgrade/pl.md).
+Polecenie <img alt="" src=images/Draft_Upgrade.svg  style="width:24px;"> **Ulepsz kształt** ulepsza wybrane obiekty. Wynik zależy od liczby wybranych obiektów i ich typu. Polecenie może na przykład łączyć elementy i tworzyć ściany. Warto spróbować uaktualnić wybrane obiekty kilka razy, aby zobaczyć czy można uzyskać lepszy rezultat. Zobacz przykład na obrazku. Należy pamiętać, że nie wszystkie obiekty można uaktualnić. To polecenie jest odpowiednikiem polecenia środowiska pracy Rysunek Roboczy [Rozbij kształt](Draft_Downgrade/pl.md).
 
 <img alt="" src=images/Draft_Upgrade_example.jpg  style="width:400px;"> 
 *Otwarta nieedytowalna linia łamana jest przekształcana w linię zamkniętą, a następnie w ścianę. Zamknięta, nieedytowalna, kwadratowa linia jest również przekształcana w ścianę. Dwie ściany są następnie ulepszane, aby utworzyć złożenie, które jest ostatecznie ulepszane do pojedynczego edytowalnego szkicu polilinii.*

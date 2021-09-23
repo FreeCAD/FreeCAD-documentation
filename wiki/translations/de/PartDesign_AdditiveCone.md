@@ -39,10 +39,7 @@ Der Kegel kann auf zwei verschiedene Wege bearbeitet werden:
 
 ## Eigenschaften
 
-
-<div class="mw-translate-fuzzy">
-
--    **Attachment**: Bestimmt den Befestigungsmodus und den Befestigungsversatz. Siehe [Befestigung](Part_Attachment/de.md).
+-    **Attachment**: Bestimmt den Befestigungsmodus und den Befestigungsversatz. Siehe [Part Anhang](Part_EditAttachment/de.md).
 
 -    **Label**: Die vom Benutzer vergebene Bezeichung für das Kegel-Objekt. Dies kann nach Bedarf geändert werden.
 
@@ -53,9 +50,6 @@ Der Kegel kann auf zwei verschiedene Wege bearbeitet werden:
 -    **Height**: Die Höhe des Kegels entlang seiner Achse.
 
 -    **Angle**: Der Rotationswinkel des halben Querschnitts (360° ergeben einen vollen Kegel).
-
-
-</div>
 
 
 

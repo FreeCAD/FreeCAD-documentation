@@ -31,20 +31,10 @@ La commande **Std Coller** colle les objets du Presse-papiers dans le document a
 
 -   Les étiquettes en double sont autorisées si **Outils → Editer les paramètres... → BaseApp → Preferences → Document → DuplicateLabels** est défini sur `True`. Ce paramètre peut également être modifié dans l\'[Editeur de préférences](Preferences_Editor/fr#Document.md).
 
-## Script
-
-La commande **Std Coller** ne peut être appliquée qu\'après avoir exécuté la commande **[Std Copier](Std_Copy/fr.md)**:
-
-
-```python
-FreeCADGui.runCommand('Std_Copy')
-FreeCADGui.runCommand('Std_Paste')
-```
-
 
 
 
 
 {{Std Base navi
 
-}}  
+}} 

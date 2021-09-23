@@ -12,6 +12,9 @@
 
 L\'outil **Épaisseur** s\'applique sur un corps solide et le transforme en un objet creux à paroi épaisse avec au moins une face ouverte, donnant à chacune de ses faces restantes une épaisseur uniforme. Sur certains solides, cela permet d\'accélérer considérablement le travail et d\'éviter les extrusions et les poches.
 
+<img alt="" src=images/PartDesign_Thickness_example.svg  style="width:600px;"> 
+*L'outil Epaisseur appliqué à une face (B) d'un solide (A), donnant lieu à l'objet creux (C).*
+
 ## Utilisation
 
 1.  Sélectionner un ou plusieurs face(s) sur le corps actif.

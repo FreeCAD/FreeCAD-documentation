@@ -1,6 +1,11 @@
 # Spreadsheet Workbench/ro
 
- 
+{{Page_in_progress}}
+
+
+
+
+
 
 <img alt="Spreadsheet workbench icon" src=images/Workbench_Spreadsheet.svg  style="width:128px;">
 
@@ -54,6 +59,16 @@ Atelierul lucru pentru foi de calcul vă permite să creați și să editați fo
 -    **Black**and **White** set the foreground and the background colors of the selected cells.
 
 -   Context-menu of the spreadsheet rows and columns: right-click onto the header of a row or column to insert a new row above or a new column at the left, or to delete the current row/column. You can also select several rows or columns to delete them.<small>(v0.20)</small>  You can also select where the the new rows/columns will be inserted. Furthermore, to insert for example 3 new columns at once, select 3 columns and use the context-menu that will now offer to insert 3 columns.
+
+## Spreadsheet editing 
+
+As noted above under Tools, right click on a row or column header produces a pulldown menu that allows you to delete the row/column or insert a new blank one. Formula references to cells that get moved by these operations get patched to refer to the new location, You will get a warning and a request to confirm if a row or column deletion would abolish a reference that\'s used in your model.
+
+Cut/copy/paste can be used to edit data. Cut and copy will both operate on single cells, rows, columns, rectangles, or indeed any selection group of cells you set up. Cut clears the content of selected cells; both cut and copy stash the cell content in an internal paste buffer. A paste operation writes the buffered data in such a way that the content of the uppermost-leftmost cell of the buffered set is dropped in the cell where the cursor is when you paste; other buffered content is dropped where it will have the same relationship to that target as it originally did to the upper-left cell of your cut/paste set.
+
+An important caveat: Cut/copy/paste operations do *not* fix up formula references. If you move the content of a cell, formulas which referred to the old location will break. If the old location becomes empty, the breakage will become visible as the expression evaluator will display \#ERR in dependent cells. Properties are also not carried along.
+
+The Undo key can be use to back out any of these operations. However, it undoes a cell at a time - thus, multiple Undos may be requited to back out a single copy or paste.
 
 
 <div class="mw-translate-fuzzy">
@@ -307,14 +322,6 @@ To handle the page setup necessary for printing, FreeCAD spreadsheets are printe
 <div class="mw-translate-fuzzy">
 
 Nu este posibilă furnizarea de date pentru o geometrie, de exemplu o lungime, într-o foaie de calcul și extragerea în aceeași foaie de calcul a volumului forma rezultată. Aceasta va crea o referință circulară. Aceasta este o decizie de proiectare. Cu toate acestea, este posibil să utilizați două foi de calcul diferite: una ca sursă de date pentru geometrie și altul pentru raportarea datelor geometrice.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Nu este posibilă selectarea și copierea mai multor celule. Numai conținutul unei celule din câmpul de introducere poate fi copiat și inserat în câmpul de intrare al unei alte celule.
 
 
 </div>

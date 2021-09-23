@@ -2,7 +2,6 @@
 
 
 
-
 {{Macro
 |Name=GuiResetToolbars
 |Description=This macro resets the position of the toolbars. Run the macro within a workbench that has a missing toolbar(s).

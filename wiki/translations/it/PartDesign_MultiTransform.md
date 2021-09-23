@@ -22,6 +22,8 @@ Ad esempio, per produrre la flangia con una doppia fila di fori come mostrato di
 <img alt="" src=images/multitransform_example.png  style="width:600px;"> 
 *Flangia con doppia fila di fori. Serie di fori creati con lo strumento 'Multitrasformazione'.*
 
+## Usage
+
 
 <div class="mw-translate-fuzzy">
 
@@ -31,6 +33,8 @@ Prima di iniziare uno dei metodi seguenti, assicurarsi che l\'oggetto **![](imag
 
 
 </div>
+
+### Standard Method 
 
 
 <div class="mw-translate-fuzzy">
@@ -73,9 +77,17 @@ Quando questo metodo è completato l\'oggetto **<img src="images/PartDesign_Mult
 
 </div>
 
+### Alternate Method 1 
+
+
+<div class="mw-translate-fuzzy">
+
 ### Metodo alternativo 1 
 
 Questo metodo inizia con una funzione di trasformazione esistente in oggetto **<img src="images/PartDesign_Body.svg" width=16px> [Corpo](PartDesign_Body/it.md)**.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -95,9 +107,17 @@ Quando viene avviata e completata in questo modo, la **![](images/)_Multitrasfo
 
 </div>
 
+### Alternate Method 2 
+
+
+<div class="mw-translate-fuzzy">
+
 ### Metodo alternativo 2 
 
 Questo metodo inizia con più funzioni di trasformazioni indipendenti esistenti nell\'oggetto **![](images/)_[Corpo](PartDesign_Body/it.md)** - con l\'idea di combinarli. **NOTA:** per combinare delle trasformazioni esistenti, esse devono trovarsi all\'interno dello stesso oggetto Corpo e dovrebbero usare tutte la stessa funzione o set di funzioni.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -120,6 +140,8 @@ Quando viene avviata e completata in questo modo, la **![](images/)_Multitrasfo
 
 </div>
 
+### Usage Notes 
+
 
 <div class="mw-translate-fuzzy">
 
@@ -131,6 +153,11 @@ Quando viene avviata e completata in questo modo, la **![](images/)_Multitrasfo
 
 </div>
 
+### Limitations
+
+
+<div class="mw-translate-fuzzy">
+
 ### Limitazioni
 
 -   Una trasformazione di scala non dovrebbe essere la prima della lista
@@ -139,6 +166,14 @@ Quando viene avviata e completata in questo modo, la **![](images/)_Multitrasfo
 
 
 
+
+
+</div>
+
+## Options
+
+
+<div class="mw-translate-fuzzy">
 
 ## Opzioni
 
@@ -173,6 +208,38 @@ Quando viene avviata e completata in questo modo, la **![](images/)_Multitrasfo
 
 
 
+
+</div>
+
+### Select originals 
+
+The list view shows the \'originals\', the features that are to be patterned. Clicking on any feature will add it to the list.
+
+### Select transformations 
+
+This list can be filled with a combination of the simple transformations [mirrored](PartDesign_Mirrored.md), [linear pattern](PartDesign_LinearPattern.md), [polar pattern](PartDesign_PolarPattern.md) and [scaled](PartDesign_Scaled.md). The transformations will be applied one after the other. The context menu offers the following entries:
+
+#### Edit
+
+Allows editing the parameters of a transformation in the list (double-clicking will have the same effect)
+
+#### Delete
+
+Removes a transformation from the list
+
+#### Add transformation 
+
+Adds a transformation to the list
+
+#### Move Up/Down 
+
+Allows changing the order of transformations in the list \|}
+
+## Examples
+
+
+<div class="mw-translate-fuzzy">
+
 ## Esempi
 
 ![c\|800px](images/mt_example2.png )
@@ -187,6 +254,9 @@ Quando viene avviata e completata in questo modo, la **![](images/)_Multitrasfo
 
 
 
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

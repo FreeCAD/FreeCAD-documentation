@@ -18,7 +18,4 @@ This tool toggles the visibility of delta (green) measurements.
 
 
 
- 
-
-
- 
+  

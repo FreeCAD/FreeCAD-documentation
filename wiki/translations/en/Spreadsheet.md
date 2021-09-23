@@ -1,7 +1,6 @@
 # Spreadsheet/en
 
 
-
 ## Description
 
 A [spreadsheet](spreadsheet.md) is a page that contains rows and columns that allows you to store arbitrary text in cells. More importantly, it allows you to use the cells with [expressions](Expressions.md) to calculate values that depend on previously entered values; these can be lengths, angles, areas, volumes, and other types.

@@ -1,7 +1,6 @@
 # Installing more workbenches/es
 
 
-
 ## Introducción
 
 Desde la v0.17 es fácil añadir [ambientes de trabajo externos](external_workbenches/es.md) utilizando el [Gestor de complementos](Std_AddonMgr/es.md). Un usuario normal no necesita hacer más que usar esta herramienta.

@@ -27,22 +27,16 @@ The resulting shape is a collection of vertices or points, which can be used as 
 There will be no analyzing or validating of the mesh object. Analyzing and repairing of the mesh should be done manually before conversion, if needed. Appropriate tools are available in the **<img src="images/Workbench_Mesh.svg" width=24px> [Mesh Workbench](Mesh_Workbench.md)
 **
 
-## Notes
+## Примечания
 
 ## Свойства
 
 ## Ограничения
 
-## Scripting
-
-
-<div class="mw-translate-fuzzy">
+## Программирование
 
 
 
-
-
-</div>
 
 
  

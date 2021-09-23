@@ -1,7 +1,6 @@
 # OpenCamLib/it
 
 
-
 ## Description
 
 

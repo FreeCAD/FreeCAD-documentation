@@ -2,7 +2,6 @@
 
 
 
-
 {{TutorialInfo/fr
 |Topic=Atelier Plot
 |Level=Intermediaire

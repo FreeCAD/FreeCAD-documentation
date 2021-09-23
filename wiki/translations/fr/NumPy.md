@@ -1,7 +1,6 @@
 # NumPy/fr
 
 
-
 ## Introduction
 
 Cette page vise à documenter comment utiliser [NumPy](https://numpy.org/) avec FreeCAD.

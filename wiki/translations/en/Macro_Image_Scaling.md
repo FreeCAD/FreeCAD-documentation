@@ -1,5 +1,4 @@
 # Macro Image Scaling/en
-
  {{Macro
 |Name=Image Scaling
 |Icon=Image_Scaling.svg

@@ -37,7 +37,9 @@ Here is how they differ from each other:
 
 Fillets, chamfers, and other features that operate on solid bodies depend on the underlying OpenCASCADE Technology (OCCT) kernel that FreeCAD uses. The OCCT kernel occasionally has difficulty handling coincident sharp edges, where two faces meet. If this is the case FreeCAD may crash without an explanation.
 
-If run from the terminal, FreeCAD may output a log like this one after the crash:  {{code|code=
+If run from the terminal, FreeCAD may output a log like this one after the crash:
+
+ {{code|code=
 #1  0x7fff63d660ba in BRep_Tool::Curve(TopoDS_Edge const&, TopLoc_Location&, double&, double&) from /usr/lib/x86_64-linux-gnu/libTKBRep.so.7+0x2a
 #2  0x7fff63d69546 in BRep_Tool::Curve(TopoDS_Edge const&, double&, double&) from /usr/lib/x86_64-linux-gnu/libTKBRep.so.7+0x46
 #3  0x7fff71f4fef5 in ChFi3d_Builder::PerformIntersectionAtEnd(int) from /usr/lib/x86_64-linux-gnu/libTKFillet.so.7+0x3b05
@@ -66,7 +68,9 @@ Read more in [topological naming problem](topological_naming_problem.md).
 
 ## Scripting
 
-The tool  
+The tool **[16px|text-top=Fillet|link=PartDesign_Fillet](File:PartDesign_Fillet.svg.md) [Fillet](PartDesign_Fillet.md)** can be used in a macro, and, from the Python console using the following function:
+
+ 
 ```python
 Box = Box.makeFillet(3,[Box.Edges[0]]) # 1 Fillet
 Box = Box.makeFillet(3,[Box.Edges[1],Box.Edges[2],Box.Edges[3],Box.Edges[4]]) # for several Fillets
@@ -75,7 +79,9 @@ Box = Box.makeFillet(3,[Box.Edges[1],Box.Edges[2],Box.Edges[3],Box.Edges[4]]) # 
 -   3 = radius
 -   Box.Edges\[2\] = Edge with its number
 
-Example :  
+Example:
+
+ 
 ```python
 import PartDesign
 from FreeCAD import Base
@@ -86,6 +92,7 @@ Box = Box.makeFillet(3,[Box.Edges[1],Box.Edges[2],Box.Edges[3],Box.Edges[4]]) # 
 Part.show(Box)
 ```
 
- 
 
-  {{PartDesign Tools navi}} 
+
+
+ {{PartDesign Tools navi}} 

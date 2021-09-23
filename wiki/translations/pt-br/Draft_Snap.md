@@ -2,7 +2,6 @@
 
 
 
-
 <div class="mw-translate-fuzzy">
 
 
@@ -16,7 +15,7 @@
 
 ## Descrição
 
-In the <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft Workbench](Draft_Workbench.md) and the <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Arch Workbench](Arch_Workbench.md) you can create geometry by picking points in the [3D view](3D_view.md) or by entering coordinates in the [task panel](Task_panel.md) of commands. Another way of selecting points is by snapping. Snapping allows to select exact geometric points on, or defined by, existing objects. You can for example snap to the endpoint of a line, to the center of a circle, or to the intersection of two edges.
+In the <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft Workbench](Draft_Workbench.md) and the <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Arch Workbench](Arch_Workbench.md) you can create geometry by picking points in the [3D view](3D_view.md) or by entering coordinates in the [task panel](Task_panel.md) of commands. Another way of selecting points is by snapping. Snapping allows to select exact geometric points on, or defined by, existing objects or the grid. You can for example snap to the endpoint of a line, to the center of a circle, or to the intersection of two edges.
 
 Snapping is available with most [Draft](Draft_Workbench.md) and [Arch](Arch_Workbench.md) commands.
 
@@ -54,7 +53,7 @@ Note that circular edges do not have to be full circles.
 
 -   <img alt="" src=images/Draft_Snap_Grid.svg  style="width:32px;"> [Snap Grid](Draft_Snap_Grid.md): snaps to the intersections of grid lines.
 
--   <img alt="" src=images/Draft_Snap_WorkingPlane.svg  style="width:32px;"> [Snap Working Plane](Draft_Snap_WorkingPlane.md): projects the snap point onto the current [working plane](Draft_SelectPlane.md).
+-   <img alt="" src=images/Draft_Snap_WorkingPlane.svg  style="width:32px;"> [Snap WorkingPlane](Draft_Snap_WorkingPlane.md): projects the snap point onto the current [working plane](Draft_SelectPlane.md).
 
 -   <img alt="" src=images/Draft_Snap_Dimensions.svg  style="width:32px;"> [Snap Dimensions](Draft_Snap_Dimensions.md): shows temporary X and Y dimensions.
 

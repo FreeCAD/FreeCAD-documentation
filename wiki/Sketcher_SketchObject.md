@@ -1,5 +1,4 @@
 # Sketcher SketchObject
-
  
 
 ## Introduction

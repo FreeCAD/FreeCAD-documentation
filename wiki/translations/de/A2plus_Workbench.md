@@ -1,5 +1,4 @@
 # A2plus Workbench/de
-
  <img alt="A2plus Arbeitsbereichssymbol" src=images/A2p_workbench.svg  style="width:128px;">
 
 ## Einführung

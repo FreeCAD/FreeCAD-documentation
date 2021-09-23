@@ -1,7 +1,6 @@
 # Model/ru
 
 
-
 ## Введение
 
 In FreeCAD the word \"[Model](Model.md)\" is normally used to refer to any 3D object, or collection of objects, created in the [3D view](3D_view.md).

@@ -1,5 +1,4 @@
 # Macro BoundingBox Tracing/cs
-
  {{Macro/cs
 |Name=Macro BoundingBox Tracing
 |Translate=Macro BoundingBox Tracing

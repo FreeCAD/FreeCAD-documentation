@@ -2,7 +2,6 @@
 
 
 
-
 {{TutorialInfo/pl
 |Topic=środowisko pracy wykres
 |Level=średniozaawansowany

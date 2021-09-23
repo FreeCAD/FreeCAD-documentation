@@ -1,7 +1,6 @@
 # Viewprovider/it
 
 
-
 ## Introduzione
 
 Le **Viewprovider** sono delle classi che definiscono il modo in cui gli oggetti appariranno nella [vista ad albero](tree_view/it.md) e nella [vista 3D](3D_view/it.md) e come interagiranno con determinate azioni grafiche come la [selezione](selection/it.md).

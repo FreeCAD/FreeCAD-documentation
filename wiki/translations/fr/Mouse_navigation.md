@@ -5,10 +5,9 @@
 
 
 
-
 {{TOCright}}
 
-## Vue d\'ensemble 
+## Présentation
 
 La **navigation par la souris** dans FreeCAD décrit les commandes utilisées pour naviguer visuellement dans l\'espace 3D et interagir avec les objets affichés. FreeCAD prend en charge plusieurs styles de navigation à la souris. Le style de navigation par défaut est appelé \"CAD Navigation\" et est très simple et pratique, mais FreeCAD fournit également des styles de navigation alternatifs que vous pouvez choisir en fonction de vos préférences.
 
@@ -21,7 +20,7 @@ Il y a deux façons de changer le style de navigation :
 -   Dans les [Préférences](Preferences_Editor/fr#Navigation.md) ; menu **Édition → Préférences → Affichage → Vue 3D → Navigation 3D**.
 -   En cliquant avec le bouton droit de la souris dans une zone vide de la vue 3D, puis en sélectionnant **Styles de navigation → ...** dans le menu contextuel.
 
-### Mode CAD (par défaut) 
+### Mode CAD 
 
 C\'est le style de navigation par défaut. Il permet à l\'utilisateur un contrôle simple de la vue et ne nécessite pas l\'utilisation de touches du clavier, sauf pour effectuer des sélections multiples.
 
@@ -203,7 +202,7 @@ Vous pouvez également maintenir la touche **Ctrl** et le bouton gauche de la so
 
 ### Sélection simple 
 
-Les objets peuvent être sélectionnés en cliquant avec le bouton gauche de la souris sur l\'objet, soit dans la [vue 3D](3D_view/fr.md), soit dans la [vue arborescente](tree_view/fr.md).
+Les objets peuvent être sélectionnés en cliquant avec le bouton gauche de la souris sur l\'objet, soit dans la [vue 3D](3D_view/fr.md), soit dans la [vue arborescente](Tree_view/fr.md).
 
 ### Présélection
 
@@ -217,9 +216,17 @@ FreeCAD propose des [*manipulateurs*](Manipulator/fr.md) qui sont des poignées 
 
 FreeCAD supporte aussi quelques [périphériques d\'entrée 3D](3D_input_devices/fr.md).
 
-## Mac OS X 
+## Mode recommandé pour macOS 
 
-Récemment nous avons créé un [post sur le forum](http://forum.freecadweb.org/viewtopic.php?f=3&t=3592&start=0) des utilisateurs Mac pour qui ces combinaisons de touches et boutons de souris ne fonctionneraient pas comme prévu. Malheureusement, aucun des développeurs n\'est possesseur d\'un Mac, pas plus que les autres contributeurs réguliers. Nous avons besoin de votre aide pour déterminer les combinaisons de touches et boutons de souris fonctionnelles afin que nous puissions les renseigner sur ce wiki.
+Sur les MacBooks équipés d\'un trackpad, la navigation par gestes fonctionne très bien, mais les gestes ont une signification particulière :
+
+-   Zoom : glisser avec deux doigts.
+-   Rotation : glisser avec trois doigts.
+-   Panoramique : **Ctrl** + trois doigts. + trois doigts.
+
+## Développer un mode personnalisé 
+
+Le tutoriel [Ajout d\'une nouvelle option de navigation à la souris à FreeCAD](Adding_a_new_mouse_navigation_option_to_FreeCAD/fr.md) oriente les développeurs qui souhaitent développer une option de navigation à la souris personnalisée. Une certaine familiarité avec la syntaxe C++ est requise.
 
 
 

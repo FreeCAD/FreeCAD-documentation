@@ -2,7 +2,6 @@
 
 
 
-
 <div class="mw-translate-fuzzy">
 
 Zde je obsah stránky online help systému ve FreeCADu. Články, které jsou zde odkazované jsou automaticky včleněny v souboru FreeCAD.chm nástrojem wiki2chm.py tool.Tento nástroj najdete na src/Tools/wiki2chm.py. Je dostupná i [tisknutelná verze](Manual.md) o tohoto manuálu.

@@ -1,6 +1,5 @@
 # WikiRobots/en
-
- {{VeryImportantMessage|Robots are intrinsically dangerous as they can automatically do a lot of damage. Use with extreme care!}}
+ **Robots are intrinsically dangerous as they can automatically do a lot of damage. Use with extreme care!**
 
 ## Overview
 

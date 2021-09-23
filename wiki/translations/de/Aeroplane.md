@@ -1,5 +1,4 @@
 # Aeroplane/de
-
  {{TutorialInfo/de
 |Topic=Part Arbeitsbereich
 |Level=Anfänger

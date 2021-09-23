@@ -1,7 +1,6 @@
 # Raytracing API example/pl
 
 
-
 ## Introduction
 
 The `Raytracing` and `RaytracingGui` modules provide several methods to write scene contents as povray or luxrender data.

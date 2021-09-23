@@ -1,5 +1,4 @@
 # Manual:Preparing models for 3D printing
-
  
 
 
@@ -80,7 +79,7 @@ Once you have installed both Cura and the Cura Workbench, you will be able to us
 ### Generating G-code 
 
 
-{{VeryImportantMessage|'''Warning:''' This section was made for FreeCAD 0.16. There have been made significant changes to the path creation. Please refer to the documentation of the [Path workbench](Path_Workbench.md) in general or the tutorial like [path walk-through](Path_Walkthrough_for_the_Impatient.md)!}}
+**'''Warning:''' This section was made for FreeCAD 0.16. There have been made significant changes to the path creation. Please refer to the documentation of the [Path workbench](Path_Workbench.md) in general or the tutorial like [path walk-through](Path_Walkthrough_for_the_Impatient.md)!**
 
 FreeCAD also offers more advanced ways to generate G-code directly. This is often much more complicated than using automatic tools as we saw above, but has the advantage to let you fully control the output. This is usually not needed when using 3D printers, but becomes very important when dealing with CNC milling, as the machines are much more complex.
 

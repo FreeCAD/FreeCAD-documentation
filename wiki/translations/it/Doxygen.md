@@ -1,7 +1,6 @@
 # Doxygen/it
 
 
-
 ## Introduzione
 
 

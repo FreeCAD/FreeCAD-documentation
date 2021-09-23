@@ -4,7 +4,6 @@
 
 
 
-
 <img alt="Part workbench icon" src=images/Workbench_Part.svg  style="width:128px;">
 
 
@@ -265,7 +264,7 @@ These tools perform boolean operations.
 -   <img alt="" src=images/Part_ShapeFromMesh.png  style="width:32px;"> [Shape from Mesh](Part_ShapeFromMesh.md): 根据一个网格对象创建一个几何形状对象。
 -   [Convert to solid](Part_ConvertToSolid.md): 将一个几何形状对象转换为一个实体对象。
 -   [Reverse shapes](Part_ReverseShapes.md): 调转选中对象所有表面上的法线方向。
--   <img alt="" src=images/Part_CreateSimpleCopy‎.svg  style="width:32px;"> [Create simple copy](Part_CreateSimpleCopy.md): 为选中的对象创建一个简单的副本。
+-   <img alt="" src=images/Part_SimpleCopy‎.svg  style="width:32px;"> [Create simple copy](Part_CreateSimpleCopy.md): 为选中的对象创建一个简单的副本。
 -   <img alt="" src=images/Part_RefineShape.png  style="width:32px;"> [Refine shape](Part_RefineShape.md): 通过去除不必要的线条来清理表面。
 -   <img alt="" src=images/Part_CheckGeometry.png  style="width:32px;"> [Check geometry](Part_CheckGeometry.md): 检测选中对象的几何体是否存在错误。
 -   [Measure](Std_Measure_Menu.md): 令用户可以实现点/边/面间的线性测量与角度测量。

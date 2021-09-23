@@ -8,6 +8,9 @@
    SeeAlso:[Удалить все ограничения](Sketcher_DeleteAllConstraints/ru.md)
 ---
 
+
+</div>
+
 ## Описание
 
 This tool deletes all geometry from the sketch being edited.
@@ -23,4 +26,4 @@ This tool deletes all geometry from the sketch being edited.
 
 {{Sketcher Tools navi
 
-}}  
+}} 

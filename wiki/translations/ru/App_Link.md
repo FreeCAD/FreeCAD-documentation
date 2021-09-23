@@ -1,5 +1,4 @@
 # App Link/ru
-
  {{TOCright}}
 
 ## Введение
@@ -47,6 +46,6 @@ An [App Link](App_Link.md) (`App::Link` class) is derived from the basic [App Do
 </div>
 
 
-{{Std Base
+{{Std Base navi
 
 }} {{Document objects navi}} 

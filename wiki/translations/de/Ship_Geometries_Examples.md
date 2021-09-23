@@ -35,7 +35,7 @@ Um neuen Anwendern zu helfen, enthält Schiff ein Ladeprogramm für Geometriebei
 3.  Das Werkzeug lädt ein neues Dokument mit der entsprechenden Geometrie.
 
 
-{{VeryImportantMessage|Warnung, bevor irgendetwas editiert wird! Du arbeitest jetzt mit der ursprünglichen Beispieldatei. Um das unbearbeitete Original-Beispiel zu erhalten, musst du es zuerst als neue Datei speichern, bevor irgendetwas bearbeitet werden kann.}}
+**Warnung, bevor irgendetwas editiert wird! Du arbeitest jetzt mit der ursprünglichen Beispieldatei. Um das unbearbeitete Original-Beispiel zu erhalten, musst du es zuerst als neue Datei speichern, bevor irgendetwas bearbeitet werden kann.**
 
 ## Tutorien
 

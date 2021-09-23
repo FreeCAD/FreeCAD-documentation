@@ -4,7 +4,6 @@
 
 
 
-
 <img alt="Netz Arbeitsbereichssymbol" src=images/Workbench_Web.svg  style="width:128px;">
 
 ## Einführung

@@ -3,7 +3,6 @@
 
 
 
-
 {{TutorialInfo
 |Topic=Modeling
 |Level=Experienced User
@@ -14,9 +13,9 @@
 }}
 
 
-{{VeryImportantMessage|Dieses Tutorial wurde ursprünglich für eine inzwischen veraltete Entwicklungsversion von FreeCAD geschrieben. Seit April 2016 sind diese Funktionen in die Vorentwicklungsversion 0.17 integriert, die [https://github.com/FreeCAD/FreeCAD/releases/tag/0.17_pre hier] verfügbar ist.
+**Dieses Tutorial wurde ursprünglich für eine inzwischen veraltete Entwicklungsversion von FreeCAD geschrieben. Seit April 2016 sind diese Funktionen in die Vorentwicklungsversion 0.17 integriert, die [https://github.com/FreeCAD/FreeCAD/releases/tag/0.17_pre hier] verfügbar ist.
 <br />
-Bitte beachte, dass sich diese Version von FreeCAD noch in einem frühen Entwicklungsstadium befindet. Außerdem muss dieses Tutorium möglicherweise aktualisiert werden. Wenn du an der Überprüfung und Aktualisierung teilnehmen möchtest, poste bitte in den Wiki Abschnitt des [http://forum.freecadweb.org forum].}}
+Bitte beachte, dass sich diese Version von FreeCAD noch in einem frühen Entwicklungsstadium befindet. Außerdem muss dieses Tutorium möglicherweise aktualisiert werden. Wenn du an der Überprüfung und Aktualisierung teilnehmen möchtest, poste bitte in den Wiki Abschnitt des [http://forum.freecadweb.org forum].**
 
 ![Lagergehäuse Tutorium - Fertiges Lagergehäuse (oben)\|thumb\|right\|400px](images/HolderTop2-19.jpg )
 

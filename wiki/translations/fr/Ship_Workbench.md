@@ -1,7 +1,6 @@
 # Ship Workbench/fr
 
 
-
 <img alt="Icône de l\'atelier Ship" src=images/Workbench_Ship.svg  style="width:128px;">
 
 

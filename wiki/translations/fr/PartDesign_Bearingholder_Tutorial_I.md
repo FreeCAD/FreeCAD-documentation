@@ -3,7 +3,6 @@
 
 
 
-
 {{TutorialInfo
 |Topic=Modélisation
 |Level=Utilisateur expérimenté
@@ -14,7 +13,7 @@
 }}
 
 
-{{VeryImportantMessage|Ce tutoriel a été écrit à l'origine pour une version de développement maintenant obsolète de FreeCAD. Ce tutoriel nécessite une réécriture complète pour s'aligner sur les modifications apportées à PartDesign dans la prochaine version v.17. La réécriture a été lancée dans [NormandC](Sandbox:PartDesign_Bearingholder_Tutorial_I]]. Si vous souhaitez y participer, merci de poster sur la section Wiki du [http://forum.freecadweb.org forum]. - [[Utilisateur: Normandc.md)}}
+**Ce tutoriel a été écrit à l'origine pour une version de développement maintenant obsolète de FreeCAD. Ce tutoriel nécessite une réécriture complète pour s'aligner sur les modifications apportées à PartDesign dans la prochaine version v.17. La réécriture a été lancée dans [NormandC](Sandbox:PartDesign_Bearingholder_Tutorial_I]]. Si vous souhaitez y participer, merci de poster sur la section Wiki du [http://forum.freecadweb.org forum]. - [[Utilisateur: Normandc.md)**
 
 Tutoriel Support de Roulement - Support de roulement terminé
 

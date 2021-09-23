@@ -1,5 +1,4 @@
 # File Format FCStd/es
-
  {{TOCright}}
 
 ## Resumen

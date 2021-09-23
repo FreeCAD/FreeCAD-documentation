@@ -1,7 +1,6 @@
 # OSE 3D Printer Workbench/fr
 
 
-
 Voir l\'atelier sur le wiki OSE: <https://wiki.opensourceecology.org/wiki/3D_Printer_Workbench_2020>
 
 

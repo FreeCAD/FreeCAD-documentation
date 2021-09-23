@@ -1,5 +1,4 @@
 # Macro FCCircularText/it
-
  {{Macro/it
 |Name=Macro FCCircularText
 |Translate=Testo Circolare

@@ -1,5 +1,4 @@
 # Manual:Summary/fr
-
 Ceci est la table des matières utilisée pour la construction automatique du manuel FreeCAD.
 
 Il existe une autre table des matières pour le [Système d\'aide en ligne de FreeCAD](Online_Help_Toc/fr.md).

@@ -4,11 +4,8 @@
    Name:TechDraw_GeometricHatch
    MenuLocation:TechDraw → Применить геометрическую штриховку к грани
    Workbenches:[TechDraw](TechDraw_Workbench/ru.md)
-   SeeAlso:[Штриховать грань, используя файл изображения](TechDraw_Hatch/ru.md), [TechDraw Hatching](TechDraw_Hatching/ru.md)
+   SeeAlso:[Штриховать грань, используя файл изображения](TechDraw_Hatch/ru.md), [Штриховка](TechDraw_Hatching/ru.md)
 ---
-
-
-</div>
 
 ## Описание
 
@@ -17,7 +14,7 @@
 <img alt="" src=images/TechDraw_GeomHatch_example.png  style="width:300px;"> 
 *Геометрический узор штриховки на грани*
 
-## Использование
+## Применение
 
 1.  Select an closed region in a View.
 2.  Press the **<img src="images/TechDraw_GeometricHatch.svg" width=16px> [Apply Geometric Hatch to Face](TechDraw_GeometricHatch.md)** button
@@ -25,7 +22,7 @@
 
 ## Примечания
 
--   Hatching objects are vulnerable to \"[topological naming](Topological_naming_problem.md)\" issues. See the information in the **<img src="images/TechDraw_Dimension_Length.svg" width=16px> [TechDraw Dimension Length](TechDraw_Dimension_Length.md)** tool for more information. It is recommended that hatching be one of the last steps in your drawing process.
+-   Hatching objects are vulnerable to the \"[topological naming problem](Topological_naming_problem.md)\". See [TechDraw LengthDimension](TechDraw_LengthDimension.md) for more information. It is recommended that hatching be one of the last steps in your drawing process.
 
 A small set of sample patterns are available in:
 
@@ -90,13 +87,7 @@ Part.show(hatch)
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{TechDraw Tools navi

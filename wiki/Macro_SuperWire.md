@@ -1,6 +1,8 @@
 # Macro SuperWire
+ 
 
-  {{Macro
+
+{{Macro
 |Name=SuperWire
 |Icon=Macro_SuperWire.png
 |Description=This macro creates a wire from selected objects (lines and arcs) even where normal wire creation methods (for example the upgrade tool) fail. Attention, you need a recent version of FreeCAD for this to work
@@ -24,7 +26,7 @@ ToolBar Icon  ![](images/Macro_SuperWire.png )
 **Macro\_SuperWire.FCMacro**
 
 
-{{MacroCode|code=
+```python
 
 import FreeCAD,FreeCADGui,Part
 try:
@@ -46,7 +48,7 @@ else:
    else:
        FreeCAD.Console.PrintError("SuperWire operation failed!")
 
-}}
+```
 
 
 

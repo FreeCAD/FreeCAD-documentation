@@ -3,13 +3,6 @@
 
 
 
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 {{TOCright}}
@@ -27,7 +20,7 @@
 
 </div>
 
-## Использование
+## Применение
 
 
 <div class="mw-translate-fuzzy">
@@ -92,13 +85,7 @@ The `FCPAT.pat` file can be found in the following location.
     -   *freecad-daily PPA*: `/usr/share/freecad-daily/Mod/TechDraw/PAT/`
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{TechDraw Tools navi

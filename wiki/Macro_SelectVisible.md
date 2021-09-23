@@ -1,5 +1,4 @@
 # Macro SelectVisible
-
   {{Macro
 |Name=Macro SelectVisible
 |Icon=SelectVisible.png

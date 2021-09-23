@@ -1,11 +1,11 @@
 # DynamicData Workbench
+ 
 
- <img alt="" src=images/DynamicData_workbench_icon.svg  style="width:240px;">  
-*align=center|The FreeCAD DynamicData External Workbench Icon*
-
-## Overview
+<img alt="DynamicData External Workbench Icon" src=images/DynamicData_workbench_icon.svg  style="width:128px;">
 
  
+
+## Overview
 
 DynamicData is an [external workbench](External_workbenches.md) with which one can create a container object for holding custom properties.
 

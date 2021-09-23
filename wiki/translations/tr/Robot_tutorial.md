@@ -1,5 +1,4 @@
 # Robot tutorial/tr
-
  {{TutorialInfo/tr
 |Topic= Robot Tezgahı
 |Level= Yeni başlayan

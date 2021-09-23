@@ -1,6 +1,5 @@
 # Offsite tutorials/es
-
- {{VeryImportantMessage|Please pay attention to the version of FreeCAD used in the tutorial. If a tutorial uses an older version of the program, the general modelling process may still work but some tools may have changed in newer releases. Do not add tutorials made with version 0.16 or older, as these releases are considered obsolete.}}
+ **Please pay attention to the version of FreeCAD used in the tutorial. If a tutorial uses an older version of the program, the general modelling process may still work but some tools may have changed in newer releases. Do not add tutorials made with version 0.16 or older, as these releases are considered obsolete.**
 
 Esta página muestra un listado de tutoriales de FreeCAD encontrados en otras páginas Web.
 

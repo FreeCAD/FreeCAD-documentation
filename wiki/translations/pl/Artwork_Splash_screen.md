@@ -1,7 +1,6 @@
 # Artwork Splash screen/pl
 
 
-
 Są to ekrany powitalne, które zostały użyte w poszczególnych wersjach programu.
 
 ![](images/Splashscreen09.png )

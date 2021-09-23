@@ -1,5 +1,4 @@
 # POV-Ray-Rendering Workbench
-
  
 
 <img alt="POV-Ray-Rendering Workbench icon" src=images/POV-Ray-Rendering_workbench_icon.svg  style="width:128px;">

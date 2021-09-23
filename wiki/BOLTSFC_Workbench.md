@@ -1,5 +1,4 @@
 # BOLTSFC Workbench
-
   The FreeCAD BOLTS External Workbench Icon](images/BOLTSFC_workbench_icon.svg "fig: The FreeCAD BOLTS External Workbench Icon"){width="128"}
 
 

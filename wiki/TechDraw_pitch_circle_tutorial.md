@@ -1,5 +1,4 @@
 # TechDraw pitch circle tutorial
-
  
 
 

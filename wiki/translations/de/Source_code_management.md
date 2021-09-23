@@ -1,5 +1,4 @@
 # Source code management/de
-
  {{TOCright}}
 
 ## Einführung
@@ -187,7 +186,7 @@ git remote show upstream
 ## Git Entwicklungsprozess 
 
 
-{{VeryImportantMessage|Niemals auf deinem lokalen ''Master' Zweig entwickeln. Erstelle stattdessen einen lokalen Zweig für die Entwicklung, und führe diesen lokalen Zweig dann über eine Pull Anforderung mit dem vorgeschalteten Master Zweig zusammen. Lies bitte [https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell Git Verzweigung], [https://book.git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging Grundlegende Verzweigung und Zusammenführung] und [https://git-scm.com/book/en/v2/GitHub-Contributing-to-a-Project GitHub - An einem Projekt mitwirken], um mehr zu erfahren.}}
+**Niemals auf deinem lokalen ''Master' Zweig entwickeln. Erstelle stattdessen einen lokalen Zweig für die Entwicklung, und führe diesen lokalen Zweig dann über eine Pull Anforderung mit dem vorgeschalteten Master Zweig zusammen. Lies bitte [https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell Git Verzweigung], [https://book.git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging Grundlegende Verzweigung und Zusammenführung] und [https://git-scm.com/book/en/v2/GitHub-Contributing-to-a-Project GitHub - An einem Projekt mitwirken], um mehr zu erfahren.**
 
 <img alt="" src=images/FreeCAD_git_branches_workflow.svg  style="width:800px;"> *Generischer Arbeitsablauf zur Entwicklung von Code für FreeCAD unter Verwendung von `git*; das Haupt Repositorium wird online gespalten und auf einen Offline Rechner geklont (0); neue Zweige (1) werden verwendet, um lokale Änderungen und Ergänzungen des Codes zu übergeben (2); die Zweige werden auf den neuesten Online Code zurückgeführt (3), und dann zum entfernten Repositorium geschoben (4); dann wird eine Pull Anfrage erstellt, um den Code in das Haupt Repositorium einzufügen (5). Dann wird der persönliche Klon mit dem neuen Mastercode aktualisiert (a); dieser aktualisierte Mastercode wird ebenfalls an das Fernrepositorium (b) geschickt, um denselben Code sowohl online als auch offline zu haben.`
 
@@ -842,7 +841,7 @@ To learn more, read [Useful tricks you might not know about Git stash](https://m
 ### Blaming
 
 
-{{VeryImportantMessage|Section TBD}}
+**Section TBD**
 
 Add content from <https://forum.freecadweb.org/viewtopic.php?f=23&t=55943&p=481483#p481287>
 

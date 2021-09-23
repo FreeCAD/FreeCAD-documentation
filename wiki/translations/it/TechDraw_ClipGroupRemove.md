@@ -32,4 +32,4 @@ Questo strumento rimuove una vista da una clip esistente e la riporta nell\'area
 
 {{TechDraw Tools navi
 
-}}  
+}} 

@@ -1,7 +1,6 @@
 # DAG view/fr
 
 
-
 ## Introduction
 
 

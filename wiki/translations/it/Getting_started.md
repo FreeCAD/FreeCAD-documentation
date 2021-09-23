@@ -5,7 +5,6 @@
 
 
 
-
 {{TOCright}}
 
 ## Prefazione
@@ -14,28 +13,36 @@ FreeCAD è una [applicazione per la modellazione parametrica](About_FreeCAD/it.m
 
 FreeCAD è in fase di sviluppo dal 2002 e offre un ampio elenco di [funzioni](Feature_list/it.md), anche se alcune mancano ancora, è però abbastanza potente per uso hobbistico e per molte piccole officine. C\'è una comunità in rapida crescita di utenti entusiasti, e si possono già trovare [molti esempi](https://forum.freecadweb.org/viewforum.php?f=24) di progetti di qualità sviluppati con FreeCAD. Vedere anche [FreeCAD utilizzato in produzione](FreeCAD_used_in_production.md).
 
-Come tutti i progetti di software libero, FreeCAD dipende dalla sua comunità per crescere, acquisire funzionalità e correggere i bug. Non dimenticate questo quando usate FreeCAD; se vi piace, potete [donare](Donate.md) e [aiutare FreeCAD](Help_FreeCAD.md) in vari modi, come scrivere documentazione e fare traduzioni.
+Come tutti i progetti di software libero, FreeCAD dipende dalla sua comunità per crescere, acquisire funzionalità e correggere i bug. Non dimenticate questo quando usate FreeCAD; se vi piace, potete [donare](Donate/it.md) e [aiutare FreeCAD](Help_FreeCAD/it.md) in vari modi, come scrivere documentazione e fare traduzioni.
 
 Vedi anche:
 
--   [Migrare a FreeCAD da Fusion360](Migrating_to_FreeCAD_from_Fusion360.md)
--   [Tutorials](Tutorials.md)
--   [Video tutorials](Video_tutorials.md)
+-   [Migrare a FreeCAD da Fusion360](Migrating_to_FreeCAD_from_Fusion360/it.md)
+-   [Tutorials](Tutorials/it.md)
+-   [Video tutorials](Video_tutorials/it.md)
 
 ## Installazione
 
-Per iniziare è necessario scaricare ed [installare](Installing/it.md) FreeCAD. Consultare la pagina ([Download/en](Download.md)) [Download/it](Download/it.md) per informazioni sulla versione corrente e sugli ultimi aggiornamenti e le istruzioni di installazione per il vostro sistema operativo ([Windows](Installing_on_Windows.md), [Linux](Installing_on_Linux.md) or [Mac](Installing_on_Mac.md)). Sono disponibili i file di installazione per Windows (.msi), Ubuntu & Debian (.deb), openSUSE (.rpm) e Mac OSX. FreeCAD è disponibile per l\'installazione dai gestori di pacchetti di molte altre distribuzioni Linux. È anche disponibile un eseguibile indipendente [AppImage](AppImage/it.md), che viene eseguito sui più recenti sistemi Linux a 64 bit Dato che FreeCAD è open-source, se siete avventurosi e volete vedere le ultime funzionalità, che in questo momento sono in fase di sviluppo, potete anche prelevare il codice sorgente e [compilarlo](Compiling/it.md) ([en](Compiling.md)).
+Per iniziare è necessario scaricare ed [installare](Installing/it.md) FreeCAD. Consultare la pagina ([Download/en](Download.md)) [Download/it](Download/it.md) per informazioni sulla versione corrente e sugli ultimi aggiornamenti e le istruzioni di installazione per il vostro sistema operativo ([Windows](Installing_on_Windows/it.md), [Linux](Installing_on_Linux/it.md) o [Mac](Installing_on_Mac/it.md)). Sono disponibili i file di installazione per Windows (.msi), Ubuntu & Debian (.deb), openSUSE (.rpm) e Mac OSX. FreeCAD è disponibile per l\'installazione dai gestori di pacchetti di molte altre distribuzioni Linux. È anche disponibile un eseguibile indipendente [AppImage](AppImage/it.md), che viene eseguito sui più recenti sistemi Linux a 64 bit Dato che FreeCAD è open-source, se siete avventurosi e volete vedere le ultime funzionalità, che in questo momento sono in fase di sviluppo, potete anche prelevare il codice sorgente e [compilarlo](Compiling/it.md) ([en](Compiling.md)).
 
 ## Interfaccia di FreeCAD 
 
-<img alt="" src=images/FreeCAD_interface_base_divisions.svg  style="width:1024px;"> 
+<img alt="" src=images/FreeCAD_interface_base_divisions.svg  style="width:1024px;">
+
+
+<div class="mw-translate-fuzzy">
+
+
 *Interfaccia standard di FreeCAD nella versione 0.19.*
+
+
+</div>
 
 
 **Vedere la spiegazione completa in [Interfaccia](Interface/it.md).**
 
 
-:   1\. L\'[area di vista principale](main_view_area/it.md), che può contenere diverse finestre a schede, principalmente la [vista 3D](3D_view.md).
+:   1\. L\'[area di vista principale](main_view_area/it.md), che può contenere diverse finestre a schede, principalmente la [vista 3D](3D_view/it.md).
 :   2\. La [vista 3D](3D_view/it.md), che visualizza gli oggetti geometrici contenuti nel documento.
 :   3\. La [vista ad albero](tree_view/it.md) (parte della [vista combinata](combo_view/it.md)), che mostra la gerarchia e lo storico di costruzione degli oggetti nel documento; può anche visualizzare il [pannello delle azioni](task_panel/it.md) per i comandi attivi.
 :   4\. L\'[editore delle proprietà](property_editor/it.md) (parte della [vista combinata](combo_view/it.md)), che consente di visualizzare e modificare le proprietà degli oggetti selezionati.
@@ -49,12 +56,23 @@ Per iniziare è necessario scaricare ed [installare](Installing/it.md) FreeCAD. 
 
 Il concetto principale è che, dietro la sua interfaccia, FreeCAD è suddiviso in [ambienti di lavoro](workbenches/it.md). Ogni ambiente raggruppa gli strumenti idonei a svolgere un compito specifico, come ad esempio lavorare con gli oggetti [mesh](Mesh_Workbench/it.md), oppure disegnare [oggetti 2D](Draft_Workbench/it.md) o [schizzi vincolati](Sketcher_Workbench/it.md). È possibile cambiare l\'ambiente corrente con il [selettore degli ambienti](Std_Workbench/it.md). Si può [personalizzare](Interface_Customization/it.md) il set di strumenti inclusi in ogni ambiente, aggiungere degli strumenti da altri ambienti o anche aggiungere strumenti di propria creazione, che chiamiamo [macro](macros/it.md). Punti di partenza ampiamente utilizzati sono [PartDesign](PartDesign_Workbench/it.md) e [Part](Part_Workbench/it.md).
 
+
+<div class="mw-translate-fuzzy">
+
 Al primo avvio di FreeCAD viene visualizzato lo start center. Ecco come appare nella versione 0.18:
 
-<img alt="" src=images/Start_center_0.18_screenshot.jpg  style="width:1024px;"> 
-*Per FreeCAD 0.17 vedere questo screenshot [start center](Media:Startcenter0.17.jpg.md).*
+
+</div>
+
+<img alt="" src=images/Start_center_0.18_screenshot.jpg  style="width:1024px;">
+
+
+<div class="mw-translate-fuzzy">
 
 Lo Start Center permette di passare rapidamente a uno degli ambienti di lavoro più comuni, di aprire uno dei file recenti, oppure di vedere le ultime novità dal mondo di FreeCAD. Nelle [preferenze](Preferences_Editor/it.md) è possibile modificare l\'ambiente di lavoro predefinito.
+
+
+</div>
 
 ## Navigare nello spazio 3D 
 
@@ -151,7 +169,7 @@ Si ottiene un oggetto simile a questo:
 
 Maggiori informazioni si trovano nella sezione [Tutorial](Tutorials/it.md).
 
-## Addon, Macro e Ambienti esterni 
+## Addon, Macro e Ambienti complementari 
 
 FreeCAD, come software open source, offre la possibilità di integrare i propri ambienti di lavoro con componenti aggiuntivi.
 
@@ -160,7 +178,7 @@ Il principio degli [Addon](Addon/it.md) si basa sullo sviluppo di un complemento
 Esistono due tipi di componenti aggiuntivi:
 
 1.  Le [macro](Macros/it.md): sono dei brevi frammenti di codice Python che forniscono un nuovo strumento o funzionalità. Le macro di solito iniziano come un modo per semplificare o automatizzare l\'attività di disegno o per la modifica di un particolare oggetto. Se molte di queste macro vengono raccolte all\'interno di una directory, l\'intera directory può essere distribuita come nuovo ambiente di lavoro.
-2.  Gli [ambienti esterni](External_workbenches/it.md): sono delle raccolte di strumenti programmati in Python o C ++ che estendono FreeCAD in modo importante. Se un ambiente è sufficientemente sviluppato ed è ben documentato, può essere incluso come uno degli ambienti di base in FreeCAD. Nella pagina [ambienti esterni](External_workbenches/it.md) sono elencati quelli principali e le librerie esistenti.
+2.  Gli [ambienti complementari](External_workbenches/it.md): sono delle raccolte di strumenti programmati in Python o C ++ che estendono FreeCAD in modo importante. Se un ambiente è sufficientemente sviluppato ed è ben documentato, può essere incluso come uno degli ambienti di base in FreeCAD. Nella pagina [ambienti complementari](External_workbenches/it.md) sono elencati quelli principali e le librerie esistenti.
 
 ## Script
 

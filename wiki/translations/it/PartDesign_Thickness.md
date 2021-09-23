@@ -8,6 +8,9 @@
 
 Lo strumento **Spessore** funziona su un corpo solido e lo trasforma in un oggetto cavo, con almeno una faccia aperta, e assegna a ciascuna delle sue facce rimanenti uno spessore uniforme. Su alcuni solidi permette di velocizzare significativamente il lavoro ed evita di fare estrusioni e tasche.
 
+<img alt="" src=images/PartDesign_Thickness_example.svg  style="width:600px;"> 
+*The thickness tool applied to a face (B) of a solid (A), resulting in the hollow object (C).*
+
 ## Utilizzo
 
 
@@ -73,9 +76,15 @@ Risultato: ![](images/Brga-spessore.png )
 
 ## Errori noti 
 
+
+<div class="mw-translate-fuzzy">
+
 -   BRep\_API: command not done
 -   BRep\_Tool:: no parameter on edge
 -   Silently Fails
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

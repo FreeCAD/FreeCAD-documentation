@@ -4,7 +4,6 @@
 
 
 
-
 <img alt="Pfad Arbeitsbereichssymbol" src=images/Workbench_Path.svg  style="width:128px;">
 
 

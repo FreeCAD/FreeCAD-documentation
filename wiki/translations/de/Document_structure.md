@@ -5,7 +5,6 @@
 
 
 
-
 {{TOCright}}
 
 ![](images/Screenshot_treeview.jpg ) Ein FreeCAD Dokument enthält alle Objekte deiner Arbeitsumgebung. Es kann Gruppen und Objekte enthalten, die Sie mit den Arbeitsbereichen erstellt haben. Daher kannst du zwischen Arbeitsbereichen wechseln und immer noch im selben Dokument arbeiten. Es ist das Dokument, das gespeichert wird, wenn du deine Arbeit auf Datenträger speichern. Du kannst sowohl mehrere Dokumente gleichzeitig in FreeCAD öffnen, als auch mehrere Ansichten im selben Dokument.

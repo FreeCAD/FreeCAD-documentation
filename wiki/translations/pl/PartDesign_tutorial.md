@@ -1,5 +1,4 @@
 # PartDesign tutorial/pl
-
  {{TutorialInfo/pl
 |Topic= Szkicowanie
 |Level= Początkujący

@@ -1,5 +1,4 @@
 # Sandbox:Sketcher import DXF tutorial
-
 ## Import DXF file as sketch 
 
 There is no direct way to import a DXF file into a sketch, but it is possible via the [Draft Workbench](Draft_Workbench.md).

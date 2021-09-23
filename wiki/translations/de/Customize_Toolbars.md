@@ -1,5 +1,4 @@
 # Customize Toolbars/de
-
  {{TutorialInfo/de
 |Topic=Beispielthema
 |Level=Anfänger

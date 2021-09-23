@@ -2,7 +2,6 @@
 
 
 
-
 {{TutorialInfo
 |Topic=Attachment
 |Level=Beginner/Intermediate

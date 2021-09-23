@@ -23,7 +23,7 @@ The Hatch tool fills a closed region in a View with a hatch pattern, which can b
 
 ## Notes
 
--   Hatching objects are vulnerable to \"[topological naming](Topological_naming_problem.md)\" issues. See the information in the [TechDraw Dimension Length](TechDraw_Dimension_Length.md) tool for more information. It is recommended that hatching be one of the last steps in your drawing process.
+-   Hatching objects are vulnerable to the \"[topological naming problem](Topological_naming_problem.md)\". See [TechDraw LengthDimension](TechDraw_LengthDimension.md) for more information. It is recommended that hatching be one of the last steps in your drawing process.
 -   Sample [SVG](SVG.md) patterns are available locally in
 
  

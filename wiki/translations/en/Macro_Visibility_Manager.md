@@ -1,6 +1,8 @@
 # Macro Visibility Manager/en
 
- {{Macro
+
+
+{{Macro
 |Name=Visibility_Manager
 |Icon=Macro_Visibility_Manager.png
 |Description=Use this to manage the visibility of document objects.<br/>There are 2 modes of operation: Show All and Show Types.<br/>In Show Types mode (the default) you only see a list of the types of objects, e.g. Body, Sketch, Pad, Extrude.<br/>Toggling one of the types off/on will set the visibility of all document
@@ -23,7 +25,7 @@ ToolBar icon ![](images/Macro_Visibility_Manager.png )
 **Macro\_Visibility\_Manager.FCMacro**
 
 
-{{MacroCode|code=
+```python
 # -*- coding: utf-8 -*-
 """
 ***************************************************************************
@@ -235,5 +237,5 @@ if FreeCAD.ActiveDocument:
         result = dlg.exec_()
 else:
     FreeCAD.Console.PrintWarning("Visibility Manager v"+str(__version__)+": no active document\n")
-}}
+```
 

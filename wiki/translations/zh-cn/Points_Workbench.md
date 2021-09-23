@@ -4,7 +4,6 @@
 
 
 
-
 <img alt="Points workbench icon" src=images/Workbench_Points.svg  style="width:128px;">
 
 ## 簡介

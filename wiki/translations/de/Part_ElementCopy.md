@@ -61,18 +61,6 @@ Die Kopie hat einfache Ansichtseigenschaften wie jede andere [Teilfunktion](Part
 
 </div>
 
-## Scripting
-
-The **Part ElementCopy** command can be applied after selecting one or more objects in the [Tree view](Tree_view.md):
-
-
-```python
-FreeCADGui.runCommand('Part_ElementCopy')
-```
-
-The selection can be manual (by using the mouse), or via the [Python console](Python_console.md).
-To know more about selecting objects programmatically, refer to [Selection methods](Selection_methods.md).
-
 
 
 

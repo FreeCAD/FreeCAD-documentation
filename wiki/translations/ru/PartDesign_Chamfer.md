@@ -1,20 +1,17 @@
 ---
 - GuiCommand:/ru
-   Name:PartDesign Chamfer
-   Name/ru:PartDesign Chamfer
+   Name/ru:Фаска
+   Name:PartDesign_Chamfer
+   MenuLocation:Part Design → Apply a dress-up feature → Фаска
    Workbenches:[PartDesign](PartDesign_Workbench/ru.md)
-   MenuLocation:Part Design → Фаска
-   SeeAlso:[Chamfer Part](Part_Chamfer/ru.md), [PartDesign Fillet](PartDesign_Fillet/ru.md)
+   SeeAlso:[Скругление](PartDesign_Fillet/ru.md), [Фаска](Part_Chamfer/ru.md)
 ---
 
-
-</div>
-
-## Description
+## Описание
 
 This tool creates chamfers on the selected edges of an object. A new separate Chamfer entry (followed by a consecutive number if there are already existing chamfers in the document) is created in the Project tree.
 
-## Usage
+## Применение
 
 -   Select a single edge, multiple edges or a face on an object, then start the tool either by clicking the button **<img src="images/PartDesign_Chamfer.svg" width=24px> '''Chamfer'''** or using the menu **PartDesign → Apply a dress-up feature → Chamfer**. In case you selected a face all its edges are respected for chamfering.
 -   In the appearing [Task panel](Task_panel.md) you can define the chamber in 3 ways:

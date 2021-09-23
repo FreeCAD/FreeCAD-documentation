@@ -1,5 +1,4 @@
 # Macro FCInfo/sv
-
  {{Macro/sv
 |Name=Macro FCInfo
 |Icon=FCInfo.png

@@ -1,7 +1,6 @@
 # Manipulator Workbench/fr
 
 
-
 <img alt="Icône de l\'atelier externe Manipulator" src=images/Manipulator_workbench_icon.svg  style="width:128px;">
 
 ## Introduction

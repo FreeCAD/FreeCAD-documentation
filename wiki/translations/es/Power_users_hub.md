@@ -1,5 +1,4 @@
 # Power users hub/es
-
  <img alt="" src=images/Power_user_hub.png  style="width:64px;">
 
 ------------------------------------------------------------------------
@@ -25,13 +24,13 @@ Si quieres contribuir con contenido a estas páginas, solicita una cuenta wiki c
 -   [Personalizar barras de herramientas](Customize_Toolbars/es.md)
 -   [Instalar más ambientes de trabajo](Installing_more_workbenches/es.md)
 
-## Guiónes en FreeCAD 
+## Guionización en FreeCAD 
 
 ### General
 
 -   [Introducción a Python](Introduction_to_Python/es.md) - Ver también otros tutoriales de Python en la parte inferior de esta página
--   [Tutorial de archivos de guión en FreeCAD](Python_scripting_tutorial/es.md) - Una visión general a los archivos de guión de Python en FreeCAD
--   [Archivos de guión básicos en FreeCAD](FreeCAD_Scripting_Basics/es.md): Bien, lo básico\...
+-   [Tutorial guionización en FreeCAD](Python_scripting_tutorial/es.md) - Una visión general a guionización Python en FreeCAD
+-   [Guionización básico en FreeCAD](FreeCAD_Scripting_Basics/es.md): Bien, lo básico\...
 -   [Comandos de la interfaz gráfica de usuario](Gui_Command/es.md) : Añadiendo comandos personalizados a la interfaz gráfica de usuario
 -   Utilizando [Unidades](Units/es.md) mezcladas en FreeCAD
 -   [Perfilando](Profiling/es.md) el código Python
@@ -45,16 +44,16 @@ La funcionalidad de FreeCAD está separada en Módulos que tratan con tipos de d
 
 #### Trabajando con Mallas 
 
--   [Mallas guiónes](Mesh_Scripting/es.md): Cómo interactuar con el [Módulo Mallas](Mesh_Workbench/es.md)
+-   [Guionización Mallas](Mesh_Scripting/es.md): Cómo interactuar con el [Ambiente de trabajo Mallas](Mesh_Workbench/es.md)
 
-#### Working with Parts 
+#### Trabar con Piezas 
 
 -   [El Ambiente de trabajo Pieza](Part_Workbench/es.md): Cómo se utilizan las herramientas y la estructura de [Tecnología Open CASCADE](http://en.wikipedia.org/wiki/Open_CASCADE) en FreeCAD
--   [Guiónes de topología de datos](Topological_data_scripting/es.md): Cómo interactuar con el módulo de Pieza
+-   [Guionización topología de datos](Topological_data_scripting/es.md): Cómo interactuar con el módulo de Pieza
 -   [PythonOCC](pythonOCC/es.md): Cómo dar rienda suelta a todo el poder de OpenCasCade
 -   [Malla a Pieza](Mesh_to_Part/es.md): Conversión entre tipos de objetos
 
-====Accediendo a los gráficos de escena de Coin===
+====Accediendo los gráficos de escena Coin===
 
 -   [Los gráficos de escena de Coin/Inventor](Scenegraph/es.md): Cómo funciona la escenografía FreeCAD
 -   [Pivy](Pivy/es.md): Cómo acceder y modificar las escenografías
@@ -120,7 +119,7 @@ Las siguientes dos referencias son específicas de PyQt (no de PySide) pero pued
 
 **Pivy** - Cómo interactuar con las escenas 3D de FreeCAD
 
--   [Pivy - Incorporación de un lenguaje de scripting dinámico a una biblioteca de gráficos de escenas](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.108.947&rep=rep1&type=pdf) : Tesis que explica Pivy en detalle
+-   [Pivy - Incorporación de un lenguaje guionización dinámico a una biblioteca de gráficos de escenas](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.108.947&rep=rep1&type=pdf) : Tesis que explica Pivy en detalle
 -   [Programación de gráficos 3D de alto nivel en Python](http://ftp.ntua.gr/mirror/python/pycon/dc2004/papers/47/) : Ejemplo de Pivy de Pycon 2004
 -   [Introducción de Pivy en studierstube](https://www.semanticscholar.org/paper/Integrating-Pivy-into-Studierstube-4.2-Gruber/08c9a89c8326c87f81c2d83428029fbfb6c2ae64) [(Mirror)](https://www.researchgate.net/publication/228737136_Integrating_Pivy_into_Studierstube_42) : Un artículo que no es realmente un tutorial, pero que ilustra bien cómo funciona Pivy (requiere una cuenta académica)
 

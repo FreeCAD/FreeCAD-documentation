@@ -2,7 +2,6 @@
 
 
 
-
 {{TutorialInfo/pl
 |Topic= Projektowanie wyrobu
 |Level= Zaawansowany

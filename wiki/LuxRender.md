@@ -1,9 +1,8 @@
 # LuxRender
-
  
 
 
-{{VeryImportantMessage|LuxRender is no longer in development as the project has been rebooted as [LuxCoreRender](LuxCoreRender.md) with a major code rewriting and a lot of compatibility breaking changes. The information here is provided because by default FreeCAD is still shipped (as of 0.19-24276) with the [Raytracing Workbench](Raytracing_Workbench.md), that officially only supports LuxRender. Anyway it also seem to work with [LuxCoreRender](LuxCoreRender.md), so consider giving it a try before using LuxRender}}
+**LuxRender is no longer in development as the project has been rebooted as [LuxCoreRender](LuxCoreRender.md) with a major code rewriting and a lot of compatibility breaking changes. The information here is provided because by default FreeCAD is still shipped (as of 0.19-24276) with the [Raytracing Workbench](Raytracing_Workbench.md), that officially only supports LuxRender. Anyway it also seem to work with [LuxCoreRender](LuxCoreRender.md), so consider giving it a try before using LuxRender**
 
 # Description
 
@@ -14,7 +13,7 @@
 ## Raytracing Workbench 
 
 
-{{VeryImportantMessage|The [Raytracing Workbench](Raytracing_Workbench.md) is being superseded by the new [https://github.com/FreeCAD/FreeCAD-render Render Workbench], which is intended as its replacement. This must not be confused with the halted and outdated [Render project](Render_project.md). The Render Workbench can be installed through the [Addon Manager](Std_AddonMgr.md). The information here is provided because by default FreeCAD is still shipped (as of 0.19-24276) with the Raytracing Workbench}}
+**The [Raytracing Workbench](Raytracing_Workbench.md) is being superseded by the new [https://github.com/FreeCAD/FreeCAD-render Render Workbench], which is intended as its replacement. This must not be confused with the halted and outdated [Render project](Render_project.md). The Render Workbench can be installed through the [Addon Manager](Std_AddonMgr.md). The information here is provided because by default FreeCAD is still shipped (as of 0.19-24276) with the Raytracing Workbench**
 
 ### Stable Version 
 

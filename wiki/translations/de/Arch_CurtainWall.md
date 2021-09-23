@@ -103,13 +103,7 @@ Vorhangfassaden erben die Eigenschaften von [Arch Komponenten](Arch_Component/de
 
 ## Erstellen von Vorhangfassaden 
 
-
-<div class="mw-translate-fuzzy">
-
 Vorhangfassaden sind praktisch in Verbindung mit [Arch Wänden](Arch_Wall/de.md), um Fachwerkwände (Wände mit einer inneren strukturellen Ebene bestehend aus Rahmen, üblicherweise Holz oder Metall, anstelle eines homogenen Materials wie Beton oder Ziegeln) zu erstellen.
-
-
-</div>
 
 <img alt="" src=images/Frame_wall_example.png  style="width:780px;">
 

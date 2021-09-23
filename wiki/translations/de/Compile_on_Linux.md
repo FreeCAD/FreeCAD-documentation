@@ -5,8 +5,7 @@
 
 
 
-
-{{VeryImportantMessage|Es gibt einen experimentellen FreeCAD Docker Container, der für die FreeCAD Entwicklung getestet wird. Lies mehr darüber unter [Kompilieren auf Docker](Compile_on_Docker/de.md)}}
+**Es gibt einen experimentellen FreeCAD Docker Container, der für die FreeCAD Entwicklung getestet wird. Lies mehr darüber unter [Kompilieren auf Docker](Compile_on_Docker/de.md)**
 
 
 {{TOCright}}
@@ -659,7 +658,7 @@ Unter Ubuntu musst Du möglicherweise spezielle Repositorien aktivieren, um dies
 ## Kompiliere FreeCAD 
 
 
-{{VeryImportantMessage|Das Kompilieren gegen Python 2 und Qt4 wird nicht mehr gut unterstützt, und ab 0.20 überhaupt nicht mehr unterstützt. Du solltest gegen Python 3 und Qt5 kompilieren. 0.20 benötigt mindestens Python3.6 und Qt 5.9.}}
+**Das Kompilieren gegen Python 2 und Qt4 wird nicht mehr gut unterstützt, und ab 0.20 überhaupt nicht mehr unterstützt. Du solltest gegen Python 3 und Qt5 kompilieren. 0.20 benötigt mindestens Python3.6 und Qt 5.9.**
 
 FreeCAD verwendet CMake als Hauptbuild-System, da es auf allen gängigen Betriebssystemen verfügbar ist. Die Kompilierung mit CMake ist in der Regel sehr einfach und erfolgt in zwei Schritten.
 
@@ -1002,6 +1001,7 @@ Das vorherige Skript geht davon aus, dass du die neueste Version von FreeCAD kom
 #!/bin/sh
 sudo add-apt-repository --enable-source ppa:freecad-maintainers/freecad-stable && sudo apt-get update
 sudo apt-get build-dep freecad
+sudo apt-get install libqt5xmlpatterns5-dev   # Needed for 0.20; should go away on next packaging update 
 sudo apt-get install freecad
 }}
 

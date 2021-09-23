@@ -1,3 +1,2 @@
 # OCCT
-
 1.  REDIRECT [OpenCASCADE](OpenCASCADE.md)

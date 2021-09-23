@@ -1,21 +1,22 @@
 ---
 - GuiCommand:/ru
-   Name/ru:Добавить вид в группу сечений
+   Name/ru:Добавить Вид в группу
    Name:TechDraw_ClipGroupAdd
-   MenuLocation:TechDraw → Добавить вид в группу сечений
+   MenuLocation:TechDraw → Добавить Вид в группу
    Workbenches:[TechDraw](TechDraw_Workbench/ru.md)
-   SeeAlso:[Вставить группу сечений](TechDraw_ClipGroup/ru.md), [Удалить вид из группы сечений](TechDraw_ClipGroupRemove/ru.md)
+   SeeAlso:[Создать группу Видов](TechDraw_ClipGroup/ru.md), [Удалить Вид из группы](TechDraw_ClipGroupRemove/ru.md)
 ---
 
 ## Описание
 
-This tool adds a View to an existing Clip.
+Данный инструмент добавляет Вид в существующую группу Видов
 
-![](images/TechDraw_Clipview.png ) *Viewport window clipping different existing views*
+![](images/TechDraw_Clipview.png ) *Группа Видов, содержащая в себе несколько Видов отсеченных по краям*
 
 ## Применение
 
--   Select a Clip and a View and press the **<img src="images/TechDraw_ClipGroupAdd.svg" width=16px> [Add View to Clip Group](TechDraw_ClipGroupAdd.md)** button to add the view.
+-   Выберите группу видов и Вид.
+-   Нажмите кнопку **<img src="images/TechDraw_ClipGroupAdd.svg" width=16px> [Добавить Вид в группу](TechDraw_ClipGroupAdd/ru.md)**, чтобы добавить вид в группу.
 
 
 

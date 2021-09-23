@@ -1,6 +1,8 @@
 # Macro Shake Sketch/fr
 
- {{Macro/fr
+
+
+{{Macro/fr
 |Name=Macro Shake Sketch
 |Icon=Macro_Shake_Sketch.png
 |Description=Secoue une esquisse pour révéler ses parties non-contraintes {{ColoredText|#ff0000|#ffff00|(But be careful working on a copy of your file because the macro "dismantles all" to display and you may start over).}}
@@ -19,12 +21,12 @@ Secoue une esquisse pour révéler ses parties non-contraintes. Entrez en mode �
 
 ## Script
 
-ToolBar Icon ![](images/Macro_Shake_Sketch.png )
+Icône de la barre d\'outils ![](images/Macro_Shake_Sketch.png )
 
 **Macro Shake\_Sketch.py**
 
 
-{{MacroCode|code=
+```python
 # -*- coding: utf-8 -*-
 
 # FreeCAD macro to shake a sketch in order to discover its unconstrained parts.
@@ -165,7 +167,7 @@ if do_move:
 
     for i in range(len((sketch.Geometry))):
         move_points(sketch, i, sigma)
-}}
+```
 
 
 

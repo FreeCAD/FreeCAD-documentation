@@ -1,5 +1,4 @@
 # New solver object for handling ElmerFEM execution in FEM-workbench
-
 This page is dedicated to the description of the [Google Summer of Code 2017](GSoC2017.md) project idea regarding accessing of ElmerFEM from within FreeCAD.
 
 ## Outline

@@ -1,7 +1,6 @@
 # Rocket Workbench/fr
 
 
-
 <img alt="Icône de l\'atelier Rocket" src=images/RocketWorkbench.svg  style="width:128px;">
 
 
@@ -20,7 +19,7 @@ Les pièces sont créées en spécifiant des paramètres dans la boîte de dialo
 ## Installation
 
 
-{{VeryImportantMessage|L'atelier Rocket est un travail en cours et changera souvent. Assurez-vous de le mettre à jour régulièrement!}}
+**L'atelier Rocket est un travail en cours et changera souvent. Assurez-vous de le mettre à jour régulièrement!**
 
 Cet atelier peut être installé à partir du <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md). Pour une installation manuelle, voir [Installer des ateliers supplémentaires](Installing_more_workbenches/fr.md).
 

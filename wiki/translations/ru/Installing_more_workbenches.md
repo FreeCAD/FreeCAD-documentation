@@ -1,7 +1,6 @@
 # Installing more workbenches/ru
 
 
-
 ## Введение
 
 Начиная с v0.17 легко добавить [внешний верстак](external_workbenches/ru.md), используя [Addon Manager](Std_AddonMgr/ru.md). Обычному пользователю ничего не требуется кроме использования этого инструмента.

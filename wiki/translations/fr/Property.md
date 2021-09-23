@@ -1,7 +1,6 @@
 # Property/fr
 
 
-
 ## Introduction
 
 Une [propriété](Property/fr.md) est une information, telle qu\'un nombre ou une chaîne de texte, attachée à un document FreeCAD ou à un objet d\'un document. Les propriétés peuvent être visualisées et modifiées avec l\'[éditeur de propriétés](Property_editor/fr.md).

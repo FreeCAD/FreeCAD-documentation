@@ -1,5 +1,4 @@
 # Task panel/fr
-
  {{TOCright}}
 
 ## Introduction
@@ -38,7 +37,7 @@ De nombreuses commandes nécessitent la sélection de formes ou d\'objets prése
 ## Script
 
 
-{{VeryImportantMessage|Veuillez reformuler et mettre à jour cette section}}
+**Veuillez reformuler et mettre à jour cette section**
 
 Voir [fil de discussion](https://forum.freecadweb.org/viewtopic.php?f=10&t=44170&p=376759#p376759) Appelez un widget de dialogue de tâche pour fermer la vue des tâches. Il peut être fermé avec \"this-\>close()\" mais cela ne ferme que la partie inférieure de la vue, pas cette vue elle-même.
 

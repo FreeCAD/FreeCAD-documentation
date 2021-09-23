@@ -2,7 +2,6 @@
 
 
 
-
 {{docnav/fr
 |[Branding](Branding/fr.md)
 |[Extra python module](Extra_python_modules/fr.md)

@@ -1,7 +1,6 @@
 # Transportation Workbench/fr
 
 
-
 ## Description
 
 Un sous-ensemble de l\'[atelier Génie civil](Civil_Engineering_Workbench/fr.md)

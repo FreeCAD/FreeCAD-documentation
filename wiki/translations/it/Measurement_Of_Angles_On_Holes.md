@@ -2,7 +2,6 @@
 
 
 
-
 {{TutorialInfo/it
 |Topic=TechDraw
 |Level=Base

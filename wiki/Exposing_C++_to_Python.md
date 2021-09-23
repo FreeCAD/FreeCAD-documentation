@@ -1,7 +1,6 @@
 # Exposing C++ to Python
 
-
-{{VeryImportantMessage|This documentation is a stub and needs more work, perhaps a written example + links to commits demonstrating in the commit history}}
+**This documentation is a stub and needs more work, perhaps a written example + links to commits demonstrating in the commit history**
 
 ## How to expose c++ functionality to Python 
 

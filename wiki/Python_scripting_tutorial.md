@@ -1,5 +1,4 @@
 # Python scripting tutorial
-
  
 
  

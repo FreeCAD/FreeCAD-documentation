@@ -1,5 +1,4 @@
 # Changelog/es
-
  El historial de cambios de FreeCAD se mantiene en nuestro rastreador de Mantis:
 
 <http://www.freecadweb.org/tracker/changelog_page.php>

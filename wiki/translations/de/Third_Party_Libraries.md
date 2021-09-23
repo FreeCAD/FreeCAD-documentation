@@ -5,7 +5,6 @@
 
 
 
-
 {{TOCright}}
 
 ## Übersicht
@@ -79,7 +78,7 @@ Wenn du unter Windows kompilierst, ziehe es in Betracht, die [LibPack](#LibPack/
 **Lizenz:** Python 3.3 Lizenz
 
 
-{{VeryImportantMessage|Python 2 wurde 2019 nicht mehr gebräuchlich. Die weitere Entwicklung von FreeCAD wird ausschließlich mit Python 3 erfolgen; die Kompatibilität mit Python 2 wird nicht getestet, so dass alte Arbeitsbereiche und Makros, die diese Version verwenden, aktualisiert werden müssen, da sie sonst möglicherweise nicht mehr funktionieren. Bitte melde dich auf der [https://forum.freecadweb.org/ FreeCAD forum] wenn Du auf Probleme mit Python 3 stösst.}}
+**Python 2 wurde 2019 nicht mehr gebräuchlich. Die weitere Entwicklung von FreeCAD wird ausschließlich mit Python 3 erfolgen; die Kompatibilität mit Python 2 wird nicht getestet, so dass alte Arbeitsbereiche und Makros, die diese Version verwenden, aktualisiert werden müssen, da sie sonst möglicherweise nicht mehr funktionieren. Bitte melde dich auf der [https://forum.freecadweb.org/ FreeCAD forum] wenn Du auf Probleme mit Python 3 stösst.**
 
 Python ist eine beliebte Allzweck Skriptsprache, die unter Linux und Open Source Software weit verbreitet ist. In FreeCAD wird Python während der Kompilierung und auch zur Laufzeit auf unterschiedliche Weise verwendet. Es wird verwendet
 

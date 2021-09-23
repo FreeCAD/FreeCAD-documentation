@@ -1,5 +1,4 @@
 # Macro Stairs/fr
-
  {{Macro/fr
 |Name=Macro Stairs
 |Icon=Macro_Stairs.png

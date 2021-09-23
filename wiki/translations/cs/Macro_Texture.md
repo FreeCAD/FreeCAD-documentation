@@ -2,7 +2,6 @@
 
 
 
-
 <div class="mw-translate-fuzzy">
 
 
@@ -21,6 +20,8 @@
 
 
 </div>
+
+## Description
 
 
 <div class="mw-translate-fuzzy">
@@ -59,8 +60,18 @@ Macro für die automatisierung des multi loft <img alt="FCCreaLoft" src=images/F
 
 {{Codeextralink|https://gist.githubusercontent.com/mario52a/262317bc7d8555885b0e/raw/3ec2ab127d8ad01a6b657aa5df9a6127ff07c7c0/Macro%2520FCTexture.FCMacro}}
 
+<img alt="" src=images/Texture_004_Honda.png  style="width:480px;">
+
+
+<div class="mw-translate-fuzzy">
+
 <img alt="" src=images/Texture_004_Honda.png  style="width:480px;"> 
 *Texture 004 Honda*
+
+
+</div>
+
+## Usage
 
 
 <div class="mw-translate-fuzzy">
@@ -96,10 +107,15 @@ Pozor: v závislosti na velikosti obrázku může být projekt velmi velký! pro
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 <img alt="Texture 002" src=images/Texture_002.png  style="width:300px;">
 
 
+</div>
 
+#### Coordinates
 
 
 <div class="mw-translate-fuzzy">
@@ -113,6 +129,8 @@ Pozor: v závislosti na velikosti obrázku může být projekt velmi velký! pro
 
 </div>
 
+#### Stretching
+
 
 <div class="mw-translate-fuzzy">
 
@@ -125,10 +143,12 @@ Pozor: v závislosti na velikosti obrázku může být projekt velmi velký! pro
 
 </div>
 
+#### Inversion
+
 
 <div class="mw-translate-fuzzy">
 
-#### Inversion
+#### Inversion 
 
 -    {{CheckBox|Axis X}}: zpětné souřadnice **X** obrázek.
 
@@ -138,6 +158,8 @@ Pozor: v závislosti na velikosti obrázku může být projekt velmi velký! pro
 
 
 </div>
+
+#### 8 bit Mode 
 
 
 <div class="mw-translate-fuzzy">
@@ -165,6 +187,8 @@ Začátek hodnoty operace se automaticky přizpůsobí zvolené funkci: 0, pokud
 
 </div>
 
+#### 32 bit Mode 
+
 
 <div class="mw-translate-fuzzy">
 
@@ -177,6 +201,8 @@ Začátek hodnoty operace se automaticky přizpůsobí zvolené funkci: 0, pokud
 
 </div>
 
+#### File
+
 
 <div class="mw-translate-fuzzy">
 
@@ -188,6 +214,8 @@ Začátek hodnoty operace se automaticky přizpůsobí zvolené funkci: 0, pokud
 
 
 </div>
+
+#### Capping (10mm) 
 
 
 <div class="mw-translate-fuzzy">
@@ -211,10 +239,12 @@ Začátek hodnoty operace se automaticky přizpůsobí zvolené funkci: 0, pokud
 
 </div>
 
+#### Command
+
 
 <div class="mw-translate-fuzzy">
 
-#### Command
+#### Command 
 
 -    **File and launch**: otevře obrazový soubor a spustí konverzi.
 
@@ -347,11 +377,25 @@ Image:Texture\_003\_napperon.png\|A portion of a tablecloth. Image:Texture\_005\
 </center>
 
 
+## Links
+
+
+<div class="mw-translate-fuzzy">
+
 ## Odkazy
 
 Diskuse o [the forum](http://forum.freecadweb.org/viewtopic.php?f=24&t=5893) abych získala své dojmy nebo mě kontaktovala.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Macro <img alt="FCCreaLoft" src=images/FCCreaLoft.png  style="width:32px;"> [Macro Loft](Macro_Loft/cs.md) pro automatizaci multifunkčního loftu
+
+
+</div>
 
 [apply hair cell texture](http://forum.freecadweb.org/viewtopic.php?f=3&t=4708&start=10#p46353)
 
@@ -379,7 +423,3 @@ Macro <img alt="FCCreaLoft" src=images/FCCreaLoft.png  style="width:32px;"> [Mac
 -   ver 0.3 : 28/03/2014 :comment out the line \"**\# self.checkBox\_5.setAccessibleName(\_fromUtf8(\"\"))**\"
 
 that causes an error with the version FreeCAD : Version: 0.14.3343 (Git), Python version: 2.7.6, Qt version: 4.8.5
-
-
-
-

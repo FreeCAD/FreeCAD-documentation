@@ -32,4 +32,4 @@ Seleziona l\'asse orizzontale di uno schizzo.
 
 {{Sketcher Tools navi
 
-}}  
+}} 

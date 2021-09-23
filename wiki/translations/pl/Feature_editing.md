@@ -1,5 +1,4 @@
 # Feature editing/pl
-
  {{TOCright}}
 
 ## Wprowadzenie

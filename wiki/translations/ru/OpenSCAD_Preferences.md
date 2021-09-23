@@ -2,7 +2,6 @@
 
 
 
-
 <div class="mw-translate-fuzzy">
 
 Экран настроек OpenScad находится в окне «Настройки» (Редактирование меню → Настройки → OpenSCAD).

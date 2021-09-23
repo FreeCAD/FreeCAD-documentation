@@ -2,7 +2,6 @@
 
 
 
-
 {{TutorialInfo/ru
 |Topic= Черчение
 |Level= Начинающий

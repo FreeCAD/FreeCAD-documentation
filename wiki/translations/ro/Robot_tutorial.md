@@ -1,5 +1,4 @@
 # Robot tutorial/ro
-
  {{TutorialInfo/ro
 |Topic= Robot Workbench
 |Level= Beginner

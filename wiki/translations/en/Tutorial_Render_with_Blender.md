@@ -2,7 +2,6 @@
 
 
 
-
 {{TutorialInfo
 |Topic=Rendering
 |Level=Intermediate

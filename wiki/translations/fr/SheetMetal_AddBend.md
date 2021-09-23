@@ -15,29 +15,29 @@ La commande <img alt="" src=images/SheetMetal_AddBend.svg  style="width:24px;"> 
 
 ## Propriétés
 
-See also: [Property editor](Property_editor.md).
+Voir aussi: [Éditeur de propriétés](Property_editor/fr.md)
 
-A SheetMetal SolidBend object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties and its label has a default value:
+Un objet SheetMetal Transformation en pli est dérivé d\'un objet [Part Feature](Part_Feature/fr.md) et hérite de toutes ses propriétés. Il possède également les propriétés supplémentaires suivantes :
 
-### Data
+### Données
 
 
 {{Properties_Title|Base}}
 
--    **Label|String**: Default value: The user editable name of this object, it may be any arbitrary UTF8 string.
+-    {{PropertyData/fr|Label|String}}: Valeur par défaut : Le nom modifiable par l\'utilisateur de cet objet, il peut être toute chaîne UTF8 arbitraire.
 
--    **Base Feature|Link|hidden**: Base Feature. Link to the parent feature.
+-    {{PropertyData/fr|Base Feature|Link|hidden}}: Fonctionnalité de base. Lien vers la caractéristique parent.
 
--    **_Body|LinkHidden|hidden**: Hidden link to the parent body.
+-    {{PropertyData/fr|_Body|LinkHidden|hidden}}: Lien caché vers le corps du parent.
 
 
 {{Properties_Title|Parameters}}
 
--    **base Object|LinkSub**: \"Base object\". Links to the edges to be bent.
+-    {{PropertyData/fr|base Object|LinkSub}}: \"Objet de base\". Liens vers les arêtes à plier.
 
--    **radius|Length**: \"Bend Radius\". Default: {{value|1,00 mm}}.
+-    {{PropertyData/fr|radius|Length}}: \"Rayon de courbure\". Valeur par défaut : {{value|1,00 mm}}.
 
--    **thickness|Length**: \"Thickness of sheetmetal\". Default: {{value|1,00 mm}}.
+-    {{PropertyData/fr|thickness|Length}}: \"Epaisseur de la tôle\". Valeur par défaut : {{value|1,00 mm}}.
 
 
 

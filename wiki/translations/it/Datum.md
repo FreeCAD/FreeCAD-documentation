@@ -1,7 +1,6 @@
 # Datum/it
 
 
-
 ## Introduzione
 
 In FreeCAD la parola **Datum** viene normalmente utilizzata per fare riferimento alla geometria ausiliaria (di riferimento) in [PartDesign](PartDesign_Workbench/it.md). Questi elementi geometrici non faranno parte della [Forma](Shape/it.md) (Shape) finale del [Corpo](Body/it.md) (Body), ma possono essere usati come riferimenti e supporti per gli [schizzi](Sketch/it.md) e altri tipi di [Funzioni](Feature/it.md) (Feature).

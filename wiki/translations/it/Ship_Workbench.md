@@ -1,7 +1,6 @@
 # Ship Workbench/it
 
 
-
 <img alt="L\'icona dell\'ambiente Ship" src=images/Workbench_Ship.svg  style="width:128px;">
 
 

@@ -1,5 +1,4 @@
 # Manual:The Community
-
   
 
 

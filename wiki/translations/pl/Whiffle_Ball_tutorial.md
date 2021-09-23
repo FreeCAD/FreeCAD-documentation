@@ -1,5 +1,4 @@
 # Whiffle Ball tutorial/pl
-
  {{TutorialInfo
 |Topic=Product design
 |Level=Beginner

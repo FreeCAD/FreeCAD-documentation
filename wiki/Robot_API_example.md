@@ -1,5 +1,4 @@
 # Robot API example
-
  
 
 ## Introduction

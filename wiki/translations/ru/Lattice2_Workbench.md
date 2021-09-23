@@ -1,12 +1,11 @@
 # Lattice2 Workbench/ru
-
  } <img alt="" src=images/Lattice2_Lattice2.svg  style="width:240px;"> 
 *align=center|Иконка внешнего верстака FreeCAD Lattice2*
 
 ## Введение
 
 
-{{VeryImportantMessage|Lattice2 застабилизирован. Новые возможности могут быть добавлены, но революционных изменений не ожидается.}}
+**Lattice2 застабилизирован. Новые возможности могут быть добавлены, но революционных изменений не ожидается.**
 
 
 {{TOCright}}

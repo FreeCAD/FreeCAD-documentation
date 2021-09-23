@@ -1,17 +1,16 @@
 # Artwork Erroneous/pl
-
  
 
 Wszystkie ikonki widoczne na liście źródłowej, patrz [Grafika](Artwork/pl.md).
 
 
-{{VeryImportantMessage|Ikony na tej stronie są używane w Wiki, ale są niepoprawne. Są one wyszczególnione tylko w celach poglądowych. Proszę ich nie używać.}}
+**Ikony na tej stronie są używane w Wiki, ale są niepoprawne. Są one wyszczególnione tylko w celach poglądowych. Proszę ich nie używać.**
 
 ## Nieprawidłowe ikonki 
 
 ### Ikony z nieprawidłowymi nazwami plików 
 
-<img alt="" src=images/Arch_CommitGit.png  style="width:64px;"> <img alt="" src=images/Arch_BimServer.png  style="width:64px;"> <img alt="" src=images/Draft_SetWorkingPlaneProxy.png  style="width:64px;"> <img alt="" src=images/Freecad16.svg  style="width:64px;"> <img alt="" src=images/Part_CreatePrimitives.svg  style="width:64px;"> <img alt="" src=images/Part_CreateSimpleCopy.svg  style="width:64px;"> <img alt="" src=images/Tree_Part.svg  style="width:64px;"> <img alt="" src=images/View-zoom-border.svg  style="width:64px;"> <img alt="" src=images/View-zoom-in.svg  style="width:64px;"> <img alt="" src=images/View-zoom-out.svg  style="width:64px;"> <img alt="" src=images/WebTools_Sketchfab.png  style="width:64px;">
+<img alt="" src=images/Arch_CommitGit.png  style="width:64px;"> <img alt="" src=images/Arch_BimServer.png  style="width:64px;"> <img alt="" src=images/Draft_SetWorkingPlaneProxy.png  style="width:64px;"> <img alt="" src=images/Freecad16.svg  style="width:64px;"> <img alt="" src=images/Part_CreatePrimitives.svg  style="width:64px;"> <img alt="" src=images/Tree_Part.svg  style="width:64px;"> <img alt="" src=images/View-zoom-border.svg  style="width:64px;"> <img alt="" src=images/View-zoom-in.svg  style="width:64px;"> <img alt="" src=images/View-zoom-out.svg  style="width:64px;"> <img alt="" src=images/WebTools_Sketchfab.png  style="width:64px;">
 
 ### Wysokiej rozdzielczości ikonki PNG dla poleceń bez ikonek GUI 
 

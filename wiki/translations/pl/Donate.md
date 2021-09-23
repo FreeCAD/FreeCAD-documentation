@@ -2,7 +2,6 @@
 
 
 
-
 <div id="Donate" style="text-align:center; font-size:150%; background:#dfeee0;margin:1em 7em;padding:0.5em 2em;border:2px solid #226622;">
 
 Szybka dotacja: <img alt="" src=images/Liberapay_logo.svg  style="width:24px;"> [Konto zespołu FreeCAD](https://liberapay.com/FreeCAD)

@@ -1,5 +1,4 @@
 # Coin3d snippets
-
  
 
  

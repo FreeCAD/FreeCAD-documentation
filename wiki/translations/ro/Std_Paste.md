@@ -44,20 +44,10 @@ The **Std Paste** command pastes objects from the Clipboard into the active docu
 
 -   Duplicate labels are allowed if **Tools → Edit parameters... → BaseApp → Preferences → Document → DuplicateLabels** is set to `True`. This setting can also be changed in the [Preferences Editor](Preferences_Editor#Document.md).
 
-## Scripting
-
-The **Std Paste** command can be applied only after running the **[Std Copy](Std_Copy.md)** command:
-
-
-```python
-FreeCADGui.runCommand('Std_Copy')
-FreeCADGui.runCommand('Std_Paste')
-```
-
 
 
 
 
 {{Std Base navi
 
-}}  
+}} 

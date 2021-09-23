@@ -1,5 +1,4 @@
 # Feature list/zh
-
  
 
 这是FreeCAD实现的广泛但不完整的功能列表。如果您想展望未来，请参阅[开发路线图](Development_roadmap.md)，快速了解接下来会发生什么。此外，[截图集锦是一个不错的去处](Screenshots.md)。

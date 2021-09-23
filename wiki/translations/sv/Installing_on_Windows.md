@@ -4,7 +4,6 @@
 
 
 
-
 The easiest way to install FreeCAD on Windows is to download the installer below. {{DownloadWindowsStable}} Det lättaste sättet att **installera FreeCAD på Windows** är genom att använda installeraren. Denna sida beskriver hur man använder den och egenskaperna av *Microsoft Installeraren* för mer installationsalternativ.
 
 ### Enkel Installation 

@@ -1,5 +1,4 @@
 # Start Preferences
-
  
 
 The preferences screen of the [Start Workbench](Start_Workbench.md) is found in the [Preferences Editor](Preferences_Editor.md), **Edit → Preferences → Start**.

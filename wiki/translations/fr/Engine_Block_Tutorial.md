@@ -1,5 +1,4 @@
 # Engine Block Tutorial/fr
-
  } {{TutorialInfo/fr
 |Topic=  Atelier Part
 |Level=  Débutant

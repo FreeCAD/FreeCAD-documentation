@@ -1,7 +1,6 @@
 # Sphinx/en
 
 
-
 ## Introduction
 
 [Sphinx](Sphinx.md) is a documentation system similar to [Doxygen](Doxygen.md), designed primarily to document [Python](Python.md) code. With the use of [\"Breathe\"](https://github.com/michaeljones/breathe) it can also be used to parse C++ code, so it can be used in projects that mix C++ and Python.

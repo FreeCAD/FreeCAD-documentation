@@ -2,7 +2,6 @@
 
 
 
-
 <div class="mw-translate-fuzzy">
 
 
@@ -105,15 +104,7 @@ FreeCAD를 처음 시작하면, start center에 있습니다. 여기는 버전 0
 
 <img alt="" src=images/Start_center_0.18_screenshot.jpg  style="width:1024px;">
 
-
-<div class="mw-translate-fuzzy">
-
-<img alt="" src=images/Startcenter.jpg  style="width:1024px;"> *FreeCAD 0.17을 위한 [start center](Media:Startcenter0.17.jpg.md) 스크린샷*을 보세요
-
-
-</div>
-
-The Start Center allows you to quickly jump to one of the most common workbenches, open one of the recent files, or see the latest news from the FreeCAD world. You can change the default workbench in the [preferences](Preferences_Editor.md).
+The Start page allows you to quickly jump to one of the most common workbenches, open one of the recent files, or see the latest news from the FreeCAD world. You can change the default workbench in the [preferences](Preferences_Editor.md).
 
 ## 3D 공간 항해하기 
 

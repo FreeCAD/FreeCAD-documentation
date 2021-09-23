@@ -1,5 +1,4 @@
 # How to install macros/ru
-
  {{TutorialInfo
 |Topic=Programming
 |Level=Medium programmer

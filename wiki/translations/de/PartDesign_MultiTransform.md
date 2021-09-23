@@ -20,14 +20,30 @@ Zum Beispiel, um den Flansch mit einer doppelten Lochreihe, wie unten abgebildet
 <img alt="" src=images/multitransform_example.png  style="width:600px;"> 
 *Flansch mit doppelter Lochreihe. Lochmuster erstellt mit 'Mehrfach-Transformation'.*
 
+## Usage
+
+
+<div class="mw-translate-fuzzy">
+
 ## Anwendung
 
 Bevor mit einer der folgenden Methoden begonnen wird, stelle sicher, dass das erforderliche **![](images/)_[Körper](PartDesign_Body/de.md)** Objekt [aktiv](PartDesign_Body/de#Anwendungs_Hinweise.md) ist; wenn nicht, erhältst du eine Fehlermeldung, die besagt, dass du ein aktives **![](images/)_[Körper](PartDesign_Body/de.md)** Objekt vor der Anwendung des **![](images/)__[MehrfachTransformation](PartDesign_MultiTransform/de.md)**s Werkzeug benötigst.
+
+
+</div>
+
+### Standard Method 
+
+
+<div class="mw-translate-fuzzy">
 
 ### Standardmethode
 
 Diese Methode beginnt ohne vorhandene Transformations Formelementen und ohne Auswahlen im Ansichtsfenster oder im Modellobjektbaum.
 Wenn mit dieser Methode begonnen und abgeschlossen wird, sollte die **![](images/)_[MehrfachTransformation](PartDesign_MultiTransform/de.md)** korrekt die \"Spitze\" des Körperobjekts werden.
+
+
+</div>
 
 1.  Klicke auf das **![](images/)__[MehrfachTransformation](PartDesign_MultiTransform/de.md)**ssymbol, um den Vorgang einzuleiten.
 2.  Du wirst mit dem Fenster **Formelement auswählen** aufgefordert.
@@ -69,9 +85,17 @@ Wenn mit dieser Methode begonnen und abgeschlossen wird, sollte die **![](images
 
 7.  Wenn du mit dem Hinzufügen und Bearbeiten der Transformationen fertig bist, klicke ganz oben **OK**, um die **![](images/)_[Mehrfach-Transformation](PartDesign_MultiTransform/de.md)** zu sichern und zu beenden.
 
+### Alternate Method 1 
+
+
+<div class="mw-translate-fuzzy">
+
 ### Alternative Methode 1 
 
 Diese Methode beginnt mit einem vorhandenen Transformationslement im **![](images/)_[Körper](PartDesign_Body/de.md)** Objekt.
+
+
+</div>
 
 1.  Wähle im Modellbaum innerhalb des aktiven Körperobjekts die vorhandenen Formelemente aus, die einbezogen werden sollen.
 2.  Klicke auf das **![](images/)_[MehrfachTransformation](PartDesign_MultiTransform/de.md)**, um die Operation zu starten.
@@ -79,9 +103,17 @@ Diese Methode beginnt mit einem vorhandenen Transformationslement im **![](image
     Um weitere Formelemente hinzuzufügen, siehe **Schritt 3** in der [Standard Methode](PartDesign_MultiTransform/de#Standard_Methode.md) oben.
 4.  Beende die **Schritte 5-8** in der [Standard Methode](PartDesign_MultiTransform/de#Standard_Methode.md) oben.
 
+### Alternate Method 2 
+
+
+<div class="mw-translate-fuzzy">
+
 ### Alternative Methode 2 
 
 Diese Methode beginnt mit mehreren vorhandenen, unabhängigen Transformationen im **![](images/)_[Körper](PartDesign_Body.md)** - mit der Idee, sie zu kombinieren. ANMERKUNG: Um bestehende Transformationen zu kombinieren, müssen sie sich innerhalb desselben Körpers befinden und sollten alle dasselbe Formelement oder denselben Elementesatz in jedem Objekt verwenden.
+
+
+</div>
 
 1.  Wähle im Modellbaum innerhalb des aktiven Körperobjekts eine der vorhandenen Transformationen aus, die du einbeziehen möchtest.
 2.  Klicke auf den **![](images/)_[MehrfachTransformation](PartDesign_MultiTransform/de.md)**, um den Vorgang zu starten.
@@ -98,6 +130,11 @@ Wenn auf diese Weise eingeleitet und abgeschlossen, wird der **![](images/)_[Me
 1.  Klicke mit der rechten Maustaste auf den gerade erstellten **![](images/)_[MehrfachTransformation](PartDesign_MultiTransform/de.md)**.
 2.  Falls verfügbar, wähle \"**Spitze setzen**\".
 
+### Usage Notes 
+
+
+<div class="mw-translate-fuzzy">
+
 ### Anwendungshinweise
 
 -   Unterstützte Transformationen sind:
@@ -110,6 +147,14 @@ Wenn auf diese Weise eingeleitet und abgeschlossen, wird der **![](images/)_[Me
 
 -   Jede mit der **![](images/)_[MehrfachTransformation](PartDesign_MultiTransform/de.md)** verknüpfte Transformationen sollte das gleiche Formelement oder den gleichen Satz von Formelementen verwenden.
 
+
+</div>
+
+### Limitations
+
+
+<div class="mw-translate-fuzzy">
+
 ### Begrenzungen
 
 -   Eine skalierte Transformation sollte nicht die erste in der Liste sein
@@ -119,6 +164,14 @@ Wenn auf diese Weise eingeleitet und abgeschlossen, wird der **![](images/)_[Me
 
 
 
+
+
+</div>
+
+## Options
+
+
+<div class="mw-translate-fuzzy">
 
 ## Optionen
 
@@ -153,9 +206,44 @@ Wenn auf diese Weise eingeleitet und abgeschlossen, wird der **![](images/)_[Me
 
 
 
+
+</div>
+
+### Select originals 
+
+The list view shows the \'originals\', the features that are to be patterned. Clicking on any feature will add it to the list.
+
+### Select transformations 
+
+This list can be filled with a combination of the simple transformations [mirrored](PartDesign_Mirrored.md), [linear pattern](PartDesign_LinearPattern.md), [polar pattern](PartDesign_PolarPattern.md) and [scaled](PartDesign_Scaled.md). The transformations will be applied one after the other. The context menu offers the following entries:
+
+#### Edit
+
+Allows editing the parameters of a transformation in the list (double-clicking will have the same effect)
+
+#### Delete
+
+Removes a transformation from the list
+
+#### Add transformation 
+
+Adds a transformation to the list
+
+#### Move Up/Down 
+
+Allows changing the order of transformations in the list \|}
+
+## Examples
+
+
+<div class="mw-translate-fuzzy">
+
 ## Beispiele
 
 ![c\|800px](images/mt_example2.png ) *Die kleinste Aufpolsterung wurde zunächst dreimal in X Richtung gemustert und dann auf den Faktor zwei skaliert (die drei Vorkommen haben also den Skalierungsfaktor 1,0, 1,5 und 2,0). Dann wurde ein lineares Muster mit 8 Vorkommen angewendet.* ![c\|800px](images/mt_example3.png ) *Die Tasche wurde zunächst auf der YZ Ebene gespiegelt und dann mit zwei linearen Mustern gemustert, um ein rechteckiges Muster zu erhalten.* 
+
+
+</div>
 
 
 

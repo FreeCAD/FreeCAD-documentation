@@ -2,7 +2,6 @@
 
 
 
-
 {{TutorialInfo/de
 |Topic=Architektur
 |Level=Anfänger

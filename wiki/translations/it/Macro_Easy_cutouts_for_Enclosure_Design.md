@@ -1,5 +1,4 @@
 # Macro Easy cutouts for Enclosure Design/it
-
  {{Macro/it
 |Name=Easy cutouts for Enclosure Design
 |Translate=Aperture

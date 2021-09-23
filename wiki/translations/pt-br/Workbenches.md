@@ -4,7 +4,6 @@
 
 
 
-
 O FreeCAD, como muitos aplicativos de design modernos, como [Revit](wikipedia:Revit.md) ou [CATIA](wikipedia:CATIA.md), baseia-se no conceito de [Workbench](wikipedia:Workbench.md) (Bancada de trabalho). Uma bancada de trabalho pode ser considerada um conjunto de ferramentas especialmente agrupadas para uma determinada tarefa. Em uma oficina de móveis tradicional, você teria uma mesa de trabalho para quem trabalha com madeira, outra para quem trabalha com peças de metal e talvez uma terceira para quem monta todas as peças.
 
 No FreeCAD aplica-se o mesmo conceito. As ferramentas são agrupadas em bancadas, de acordo com as tarefas em que são utilizadas.

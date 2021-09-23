@@ -1,6 +1,5 @@
 # Development roadmap/zh-cn
-
- {{VeryImportantMessage|Important: many of these roadmaps are not up to date or perhaps abandoned. This page and the pages it links to most likely contain obsolete info. A 'soft' roadmap can be found on the [http://www.freecadweb.org/tracker/roadmap_page.php bugtracker] but for now there isn't a 'hard' roadmap. There are many efforts going on simultaneously.}}
+ **Important: many of these roadmaps are not up to date or perhaps abandoned. This page and the pages it links to most likely contain obsolete info. A 'soft' roadmap can be found on the [http://www.freecadweb.org/tracker/roadmap_page.php bugtracker] but for now there isn't a 'hard' roadmap. There are many efforts going on simultaneously.**
 
 FreeCAD - though usable in many applications - is at the beginning of a long journey into CAD mainstream. There is still a lot to do to reach a state where we can compete with commercial software.
 

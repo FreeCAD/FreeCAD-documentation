@@ -1,5 +1,4 @@
 # FeaturePython Custom Properties/de
-
  {{TOCright}}
 
 ## Einführung

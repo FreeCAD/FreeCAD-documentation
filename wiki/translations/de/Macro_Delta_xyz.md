@@ -1,5 +1,4 @@
 # Macro Delta xyz/de
-
  {{Macro/de
 |Name=Macro Delta xyz
 |Icon=Macro_Delta_xyz.png

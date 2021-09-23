@@ -44,20 +44,8 @@ The copy has a simple **Placement** property like any other [Part Feature](Part_
 
 The copy has simple view properties like any other [Part Feature](Part_Feature.md).
 
-## Scripting
-
-The **Part SimpleCopy**‎ command can be applied after selecting one or more objects in the [Tree view](Tree_view.md):
-
-
-```python
-FreeCADGui.runCommand('Part_SimpleCopy')
-```
-
-The selection can be manual (by using the mouse), or via the [Python console](Python_console.md).
-To know more about selecting objects programmatically, refer to [Selection methods](Selection_methods.md).
 
 
 
 
-
-  
+ 

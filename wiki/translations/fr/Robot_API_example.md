@@ -1,7 +1,6 @@
 # Robot API example/fr
 
 
-
 ## Introduction
 
 Cet exemple est basé sur l\'exemple [RobotExample.py](https://github.com/FreeCAD/FreeCAD_sf_master/blob/master/src/Mod/Robot/RobotExample.py).

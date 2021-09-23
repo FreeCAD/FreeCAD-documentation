@@ -13,7 +13,7 @@
 
 ## Description
 
-The <img alt="" src=images/Draft_Upgrade.svg  style="width:24px;"> **Draft Upgrade** command upgrades selected 2D objects. The result depends on the number of selected objects and their type. The command can for example fuse elements and create faces. It is worth trying to upgrade a selection several times to see if a better result can be obtained. See the example in the image. Note that not all objects can be upgraded. This command is the counterpart of the [Draft Downgrade](Draft_Downgrade.md) command.
+The <img alt="" src=images/Draft_Upgrade.svg  style="width:24px;"> **Draft Upgrade** command upgrades selected objects. The result depends on the number of selected objects and their type. The command can for example fuse elements and create faces. It is worth trying to upgrade a selection several times to see if a better result can be obtained. See the example in the image. Note that not all objects can be upgraded. This command is the counterpart of the [Draft Downgrade](Draft_Downgrade.md) command.
 
 <img alt="" src=images/Draft_Upgrade_example.jpg  style="width:400px;"> 
 *An open non-editable wire is upgraded to a closed wire, and then to a face. A closed non-editable square wire is also upgraded to a face. The two faces are then upgraded to create a compound, which is finally upgraded to a single editable Draft Wire.*

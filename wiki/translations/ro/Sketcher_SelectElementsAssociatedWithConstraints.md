@@ -32,4 +32,4 @@ Selectați Elementele schiței asociate cu constrângerile.
 
 {{Sketcher Tools navi
 
-}}  
+}} 

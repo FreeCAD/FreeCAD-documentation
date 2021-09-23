@@ -2,7 +2,6 @@
 
 
 
-
 {{TutorialInfo
 |Topic=Sketcher
 |Level=Iniciante

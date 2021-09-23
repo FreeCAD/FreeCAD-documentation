@@ -20,10 +20,4 @@ This tool toggles the visibility of linear (red) and angular (blue) measurements
 
 
 
-
-
-
-
-
-
-
+ 

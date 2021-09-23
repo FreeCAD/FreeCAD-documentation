@@ -1,7 +1,6 @@
 # Sketcher reference/it
 
 
-
 ## Introduzione
 
 

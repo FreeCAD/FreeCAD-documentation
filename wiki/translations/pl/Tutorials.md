@@ -5,7 +5,6 @@
 
 
 
-
 {{TOCright}}
 
 Ta strona przedstawia wybór wysokiej jakości przewodników. Pełna, niesortowana lista samouczków znajduje się w [:Category:Tutorials](:Category:Tutorials.md). Lista kompletna i możliwa do posortowania znajduje się w [tabela poniżej](Tutorials#Tutorials_-_Comprehensive_list.md).
@@ -106,7 +105,7 @@ Eksportuj bryły z FreeCAD do Wavefront .obj, zaimportuj plik do Blendera, ustaw
 ## Robot
 
 
-{{VeryImportantMessage|Rozwój środowiska pracy [Robot](Robot_Workbench/pl.md) jest obecnie wstrzymany. Prosimy pytać na naszym forum o wszelkie nowości lub alternatywne środowiska pracy.}}
+**Rozwój środowiska pracy [Robot](Robot_Workbench/pl.md) jest obecnie wstrzymany. Prosimy pytać na naszym forum o wszelkie nowości lub alternatywne środowiska pracy.**
 
 Robot Tutorial RobotSimulation.gif\|link=[Robot\_tutorial/pl](Robot_tutorial/pl.md)\|[Poradnik dla środowiska pracy Robot](Robot_tutorial/pl.md) *(v0.17)*
 Symulacja ruchu robota przemysłowego: ustawianie trajektorii, ustawianie pozycji wyjściowej, zmiana pozycji robota, wstawianie różnych punktów orientacyjnych i symulacja ruchu robota.
@@ -128,7 +127,7 @@ Są to poradniki związane z tworzeniem skryptów lub programowaniem. Są one sk
 ## Rysunek
 
 
-{{VeryImportantMessage|Rozwój Środowiska pracy [Drawing](Drawing_Workbench.md) został zakończony w wersji '''0.16''' FreeCAD. Należy rozważyć zastosowanie [TechDraw](TechDraw_Workbench.md) zamiast niego.}}
+**Rozwój Środowiska pracy [Drawing](Drawing_Workbench.md) został zakończony w wersji '''0.16''' FreeCAD. Należy rozważyć zastosowanie [TechDraw](TechDraw_Workbench.md) zamiast niego.**
 
 Drawing\_tutorial\_result.png\|link=[Drawing tutorial](Drawing_tutorial.md)\|[Drawing tutorial](Special:MyLanguage/Drawing_tutorial.md) *(v0.16)*
 Jest to niezbędne wprowadzenie do narzędzi warsztatu rysunkowego w celu tworzenia projektów. Exercise drawing 01.jpg\|link=[Manual:Generating 2D drawings](Manual:Generating_2D_drawings.md)\|[Generating 2D drawings](Manual:Generating_2D_drawings.md) *(v0.16)*

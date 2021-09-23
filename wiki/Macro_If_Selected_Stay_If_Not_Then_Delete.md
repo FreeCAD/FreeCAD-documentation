@@ -1,6 +1,8 @@
 # Macro If Selected Stay If Not Then Delete
+ 
 
-  {{Macro
+
+{{Macro
 |Name=Macro If Selected Stay If Not Then Delete
 |Icon=Macro_If_Selected_Stay_If_Not_Then_Delete.png
 |Description=This macro delete all objects not selected.
@@ -23,7 +25,7 @@ ToolBar Icon  <img alt="" src=images/Macro_If_Selected_Stay_If_Not_Then_Delete.p
 **Macro\_If\_Selected\_Stay\_If\_Not\_Then\_Delete.FCMacro**
 
 
-{{MacroCode|code=
+```python
 
 import FreeCAD
 # Macro_If_Selected_Stay_If_Not_Then_Delete
@@ -43,7 +45,7 @@ try:
 except Exception:
     None
 
-}}
+```
 
 
 

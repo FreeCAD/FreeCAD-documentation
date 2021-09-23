@@ -5,7 +5,6 @@
 
 
 
-
 {{Manual:TOC/de}}
 
 Einer der Haupteinsatzbereiche von FreeCAD ist die Herstellung von Objekten aus der realen Welt. Diese können in FreeCAD entworfen und dann auf verschiedene Weise realisiert werden, z.B. indem sie anderen Personen mitgeteilt werden, die sie dann bauen, oder, immer häufiger, direkt an einen [3D Drucker](https://en.wikipedia.org/wiki/3D_printing) oder eine [CNC Fräse](https://en.wikipedia.org/wiki/Milling_%28machining%29) geschickt werden. Dieses Kapitel zeigt dir, wie du deine Modelle für den Versand an diese Maschinen vorbereiten kannst.
@@ -80,7 +79,7 @@ Sobald du sowohl Cura als auch den Cura Arbeitsbereich installiert hast, kannst 
 ### Erzeugung von G-Code 
 
 
-{{VeryImportantMessage|'''Warnung:''' Dieser Abschnitt wurde für FreeCAD 0.16 erstellt. Es wurden erhebliche Änderungen bei der Pfaderstellung vorgenommen. Bitte beachte die Dokumentation der [Pfad Arbeitsbereich](Path_Workbench/de.md) im Allgemeinen oder das Tutorium wie [Pfadbegehung](Path_Walkthrough_for_the_Impatient/de.md)!}}
+**'''Warnung:''' Dieser Abschnitt wurde für FreeCAD 0.16 erstellt. Es wurden erhebliche Änderungen bei der Pfaderstellung vorgenommen. Bitte beachte die Dokumentation der [Pfad Arbeitsbereich](Path_Workbench/de.md) im Allgemeinen oder das Tutorium wie [Pfadbegehung](Path_Walkthrough_for_the_Impatient/de.md)!**
 
 FreeCAD bietet auch fortgeschrittenere Möglichkeiten, G-Code direkt zu erzeugen. Dies ist oft viel komplizierter als die Verwendung automatischer Werkzeuge, wie wir oben gesehen haben, hat aber den Vorteil, dass du die Ausgabe vollständig kontrollieren kannst. Bei der Verwendung von 3D Druckern ist dies normalerweise nicht erforderlich, wird aber beim CNC Fräsen sehr wichtig, da die Maschinen viel komplexer sind.
 

@@ -4,7 +4,6 @@
 
 
 
-
 ## How many axes can Path Workbench handle? 
 
 At the moment, Version 0.18, Path Workbench can handle up to 3 axis milling. Currently, 4th-axis capabilities are under development for the next official release, with some Path Workbench operations already upgraded to basic 4th-axis status.

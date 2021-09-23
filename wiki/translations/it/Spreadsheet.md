@@ -1,7 +1,6 @@
 # Spreadsheet/it
 
 
-
 ## Descrizione
 
 Un [foglio di calcolo](spreadsheet/it.md) è una pagina suddivisa in righe e colonne che consente di memorizzare un testo arbitrario nelle celle. Ancora più importante, consente di inserire nelle celle delle [espressioni](Expressions/it.md) per calcolare valori che dipendono da valori immessi in precedenza; questi possono essere lunghezze, angoli, aree, volumi e altri tipi.

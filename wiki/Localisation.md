@@ -1,5 +1,4 @@
 # Localisation
-
  
 
 
@@ -47,11 +46,19 @@ Starting with FreeCAD 0.20, the following variables can be manually added to the
 
 **AdditionalLanguageDomainEntries** - to add entirely new languages to FreeCAD that are not currently supported by the source code, you can use this user preference to add to the list of available languages. The format of the languages is \"Language Name\"=\"code\"; for example:
 
+
+
     <FCText Name="AdditionalLanguageDomainEntries">"Esperanto"="eo";"French"="fr";</FCText>
 
-**AdditionalTranslationsDirectory** - add an additional directory for FreeCAD to search for \*.qm files. This location will take precedence over \$userAppDataDir/translations and \$resourceDir/translations. For example,
+
+
+**AdditionalTranslationsDirectory** - add an additional directory for FreeCAD to search for \*.qm files. This location will take precedence over \$userAppDataDir/translations and \$resourceDir/translations. For example:
+
+
 
     <FCText Name="AdditionalTranslationsDirectory">C:/Users/FreeCADUser/TestTranslations</FCText>
+
+
 
 ## Translate the FreeCAD wiki 
 
@@ -67,11 +74,15 @@ When the wiki moved away from SourceForge, [Yorik](User:Yorik.md) installed [Med
 
 The tool is documented in [Help:Extension:Translate](http://www.mediawiki.org/wiki/Help:Extension:Translate), and is part of [MediaWiki Language Extension Bundle](http://www.mediawiki.org/wiki/MediaWiki_Language_Extension_Bundle).
 
-To quickly get started on preparing a page for translation, please read the [Page translation example](http://www.mediawiki.org/wiki/Help:Extension:Translate/Page_translation_example). Essentially, a pair of 
+To quickly get started on preparing a page for translation, please read the [Page translation example](http://www.mediawiki.org/wiki/Help:Extension:Translate/Page_translation_example). Essentially, a pair of
+
+
 
     &lt;translate&gt; ... &lt;/translate&gt;
 
- tags need to surround the entire page to activate the translation system, and the page needs to be marked for translation.
+
+
+tags need to surround the entire page to activate the translation system, and the page needs to be marked for translation.
 
 To see an example of how the translation tool works, visit the [Main Page](Main_Page.md). You will see an automatically generated language bar at the top. Click on [Deutsch](Main_Page/de.md) (German), it will get you to [Main Page/de](Main_Page/de.md). Right under the title, \"Hauptseite\" (in English \"Main Page\"), you can read , XX being the current percentage of translation. Click on \"Translate\" at the top of the page to start the translation utility to update, correct and review the existing translation.
 
@@ -183,67 +194,59 @@ Currently FreeCAD maintainers use the Crowdin API via [Crowdin Scripts](Crowdin_
 
 [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-To get list of languages supported in FreeCAD interface use the `supportedLocales` method of `Gui`.
+To get a dictionary with the languages the FreeCAD interface supports, use the `supportedLocales` method of the `FreeCADGui` module.
 
  
 ```python
-locales = Gui.supportedLocales()
+locales = FreeCADGui.supportedLocales()
 ```
 
-After execution, the `locales` will contain a dictionary with the following values:
+After execution `locales` will contain:
 
  
 ```python
 {'English': 'en', 'Afrikaans': 'af', 'Arabic': 'ar', 'Basque': 'eu', 'Catalan': 'ca', 'Chinese Simplified': 'zh-CN', 'Chinese Traditional': 'zh-TW', 'Croatian': 'hr', 'Czech': 'cs', 'Dutch': 'nl', 'Filipino': 'fil', 'Finnish': 'fi', 'French': 'fr', 'Galician': 'gl', 'German': 'de', 'Hungarian': 'hu', 'Indonesian': 'id', 'Italian': 'it', 'Japanese': 'ja', 'Kabyle': 'kab', 'Korean': 'ko', 'Lithuanian': 'lt', 'Norwegian': 'no', 'Polish': 'pl', 'Portuguese': 'pt-PT', 'Portuguese, Brazilian': 'pt-BR', 'Romanian': 'ro', 'Russian': 'ru', 'Slovak': 'sk', 'Slovenian': 'sl', 'Spanish': 'es-ES', 'Swedish': 'sv-SE', 'Turkish': 'tr', 'Ukrainian': 'uk', 'Valencian': 'val-ES', 'Vietnamese': 'vi'}
 ```
 
-To get language that is currently used in FreeCAD, use `getLocale` method of `Gui`.
+To get the current interface language use the `getLocale` method of the same module:
 
  
 ```python
-loc = Gui.getLocale()
+locale = FreeCADGui.getLocale()
 ```
 
-In resulit, loc is equals:
+If the current language is English `locale` will contain:
 
  
 ```python
 'English'
 ```
 
-To convert this value into locale code, use a simple technique:
+To get the corresponding [language code](https://support.crowdin.com/api/language-codes/) you can use use:
 
  
 ```python
-loc = Gui.supportedLocales()[Gui.getLocale()]
+locale = FreeCADGui.supportedLocales()[Gui.getLocale()]
 ```
 
-Resulit is:
+If the current language is English the result will be:
 
  
 ```python
 'en'
 ```
 
-To set FreeCAD interface language, use `setLocale` method of `Gui`.
-
-You can specify the language explicitly:
+To set the current interface language use the `setLocale` method of the same module. You can specify the language or the language code:
 
  
 ```python
-Gui.setLocale('Russian')
-```
-
-Or you can set langage directly by locale code:
-
- 
-```python
-Gui.setLocale('ru')
+FreeCADGui.setLocale('Russian')
+FreeCADGui.setLocale('ru')
 ```
 
 
 
 
-  
+ 
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Wiki](Category:Wiki.md)

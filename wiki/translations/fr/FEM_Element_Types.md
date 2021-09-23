@@ -1,5 +1,4 @@
 # FEM Element Types/fr
-
  {{TOCright}}
 
 ## Introduction

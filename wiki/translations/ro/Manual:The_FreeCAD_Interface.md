@@ -5,6 +5,8 @@
 
 
 
+{{Manual:TOC}}
+
 
 <div class="mw-translate-fuzzy">
 

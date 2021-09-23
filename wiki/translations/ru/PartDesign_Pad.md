@@ -1,15 +1,13 @@
 ---
 - GuiCommand:/ru
-   Name:PartDesign Pad
-   Name/ru:PartDesign Pad
-   Workbenches:[PartDesign](PartDesign_Workbench/ru.md), Complete
-   MenuLocation:PartDesign → Выдавливание
+   Name/ru:Выдавливание
+   Name:PartDesign_Pad
+   MenuLocation:Part Design → Create an additive feature → Выдавливание
+   Workbenches:[PartDesign](PartDesign_Workbench/ru.md)
+   SeeAlso:[Вырез](PartDesign_Pocket/ru.md)
 ---
 
-
-</div>
-
-## Description
+## Описание
 
 The **<img src="images/PartDesign_Pad.svg" width=16px> [PartDesign Pad](PartDesign_Pad.md)** tool extrudes a sketch into a solid in a direction normal to the sketch plane. As of <small>(v0.17)</small>  faces on the solid can also be used.
 
@@ -19,14 +17,14 @@ The **<img src="images/PartDesign_Pad.svg" width=16px> [PartDesign Pad](PartDesi
 
 **Note:** {{VersionMinus|0.16}} If the selected sketch is mapped to the face of an existing solid or another Part Design feature, the pad will be fused to it.
 
-## Usage
+## Применение
 
 1.  Select the sketch to be padded. **Note:** As of <small>(v0.17)</small>  a face on the existing solid can alternatively be used.
 2.  Press the **<img src="images/PartDesign_Pad.svg" width=16px> '''Pad'''** button.
 3.  Set the Pad parameters, see the [Options](#Options.md) below.
 4.  Click **OK**.
 
-## Options
+## Опции
 
 When creating a pad, the Combo view automatically switches to the Tasks pane, showing the **Pad parameters** dialog.
 
@@ -83,7 +81,7 @@ Tick the checkbox to extend half of the given length to either side of the sketc
 
 Reverses the direction of the pad.
 
-## Properties
+## Свойства
 
 -    **Type**: Type of ways how the pad will be extruded, see [Options](#Options.md).
 
@@ -103,7 +101,7 @@ Reverses the direction of the pad.
 
 -    **Refine**: <small>(v0.17)</small>  true or false. Cleans up residual edges left after the operation. This property is initially set according to the user\'s settings (found in *Preferences → Part design → General → Model settings*). It can be manually changed afterwards. This property will be saved with the FreeCAD document.
 
-## Limitations
+## Ограничения
 
 -   Like all Part Design features, Pad creates a solid, thus the sketch must include a closed profile or it will fail with a *Failed to validate broken face* error. There can be multiple enclosed profiles inside a larger one, provided none intersect each other (for example, a rectangle with two circles inside it).
 -   The algorithm used for **To First** and **To Last** is:

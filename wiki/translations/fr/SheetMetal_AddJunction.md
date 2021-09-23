@@ -52,33 +52,27 @@ Pour ajouter une découpe au coin d\'un angle:
 
 ## Propriétés
 
-See also: [Property editor](Property_editor.md).
+Voir aussi : [Éditeur de propriétés](Property_editor/fr.md)
 
-A SheetMetal Junction object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties and its label has a default value:
+Un objet SheetMetal Découpe d\'angle est dérivé d\'un objet [Part Feature](Part_Feature/fr.md) et hérite de toutes ses propriétés. Il possède également les propriétés supplémentaires suivantes :
 
 ### Données
 
 
 {{Properties_Title|Base}}
 
+-    {{PropertyData/fr|Label|String}}: Valeur par défaut : Le nom modifiable par l\'utilisateur de cet objet, il peut être toute chaîne UTF8 arbitraire.
 
-<div class="mw-translate-fuzzy">
+-    {{PropertyData/fr|Base Feature|Link|hidden}}: Fonctionnalité de base. Lien vers la caractéristique parent.
 
--    {{PropertyData/fr|Label}}: Nom donné par l\'utilisateur à l\'objet dans la [vue en arborescence](tree_view/fr.md).
-
-
-</div>
+-    {{PropertyData/fr|_Body|LinkHidden|hidden}}: Lien caché vers le corps du parent.
 
 
 {{Properties_Title|Parameters}}
 
+-    {{PropertyData/fr|base Object|LinkSub}}: \"Objet de base\". Liens vers les arêtes définissant les positions d\'écart/de jonction.
 
-<div class="mw-translate-fuzzy">
-
--    {{PropertyData/fr|gap}}: Taille de l\'espace/jonction à ajouter.
-
-
-</div>
+-    {{PropertyData/fr|gap|Length}}: \"Écart de jonction\". Valeur par défaut : {{value|2,00 mm}}. Taille de l\'espace/jonction à ajouter.
 
 
 

@@ -1,5 +1,4 @@
 # FCGear Workbench/en
-
  <img alt="FCGear External Workbench icon" src=images/FCGear_workbench_icon.svg  style="width:128px;">
 
 ## Introduction

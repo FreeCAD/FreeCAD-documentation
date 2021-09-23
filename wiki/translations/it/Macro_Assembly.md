@@ -1,5 +1,4 @@
 # Macro Assembly/it
-
  {{Macro/it
 |Name=Simulazione di assemblaggio
 |Icon=Macro_Assembly.png

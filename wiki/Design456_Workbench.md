@@ -1,7 +1,6 @@
 # Design456 Workbench
 
-
-{{VeryImportantMessage|This workbench is under heavy development}}
+**This workbench is under heavy development**
 
 ## Introduction
 

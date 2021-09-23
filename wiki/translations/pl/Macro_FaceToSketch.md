@@ -1,5 +1,4 @@
 # Macro FaceToSketch/pl
-
  {{Macro/pl
 |Name=FaceToSketch
 |Name/pl=Makrodefinicja FaceToSketch

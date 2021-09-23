@@ -1,6 +1,8 @@
 # Macro Print SceneGraph/en
 
- {{Macro
+
+
+{{Macro
 |Name=Macro_Print_SceneGraph
 |Icon=Macro_Print_SceneGraph.png
 |Description=This macro traverses the SceneGraph and prints all the nodes and their fields in the Report View window. It can be used just for information or you can add code to modify parts of the SceneGraph in some way or print more details for particular types of node.
@@ -22,7 +24,7 @@ ToolBar Icon ![](images/Macro_Print_SceneGraph.png )
 **Macro\_Print\_SceneGraph.FCMacro**
 
 
-{{MacroCode|code=
+```python
 # -*- coding: utf-8 -*-
 """
 ***************************************************************************
@@ -114,5 +116,5 @@ else:
     QtGui.QApplication.setOverrideCursor(QtGui.QCursor(QtCore.Qt.WaitCursor))
     printTree(ad.ActiveView.getViewer().getSoEventManager().getSceneGraph(), "")
     QtGui.QApplication.restoreOverrideCursor()
-}}
+```
 

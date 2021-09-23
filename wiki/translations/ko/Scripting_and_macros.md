@@ -4,7 +4,6 @@
 
 
 
-
 ## Overview of Python scripting pages 
 
 -   Python related pages in the Manual:

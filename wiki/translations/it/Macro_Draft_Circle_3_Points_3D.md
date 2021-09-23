@@ -1,5 +1,4 @@
 # Macro Draft Circle 3 Points 3D/it
-
  {{Macro/it
 |Name=Macro Draft Circle 3 Points 3D
 |Translate=Cerchio da 3 punti 3D

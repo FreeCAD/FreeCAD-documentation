@@ -5,7 +5,6 @@
 
 
 
-
 {{Manual:TOC/pl}}
 
 Kiedy Twój model nie może być wydrukowany lub wyfrezowany bezpośrednio przez maszynę, na przykład *(budynek)* jest za duży lub wymaga ręcznego montażu po przygotowaniu elementów, zazwyczaj będziesz musiał wyjaśnić innej osobie, jak to zrobić. W dziedzinach technicznych *(inżynieria, architektura, itp.)*, zazwyczaj wykonuje się to za pomocą rysunków. Rysunki są przekazywane osobie odpowiedzialnej za montaż produktu końcowego i precyzują, jak to wykonać.
@@ -61,13 +60,13 @@ Drugi to wykonywanie czynności bezpośrednio na arkuszu Rysunku Technicznego. U
 
 -   Wciśnij przycisk <img alt="" src=images/TechDraw_ToggleFrame.svg  style="width:16px;"> Przełącznik do włączania widoku wierzchołków.
 -   Użyj klawiszy **Ctrl** + Lewy klawisz myszki, by zaznaczyć dwa wierzchołki, między którymi chcesz zmierzyć odległość.
--   Naciśnij przycisk <img alt="" src=images/TechDraw_Dimension_Length.svg  style="width:16px;"> [Wstaw wymiar długości](TechDraw_Dimension_Length/pl.md).
+-   Naciśnij przycisk <img alt="" src=images/TechDraw_LengthDimension.svg  style="width:16px;"> [Wstaw wymiar długości](TechDraw_LengthDimension/pl.md).
 
 ![](images/Exercise_TechDraw_05.png )
 
--   Powtarzaj tą operację, aż wszystkie wymiary, które chcesz określić, zostaną umieszczone. Użyj narzędzia <img alt="" src=images/TechDraw_Dimension_Vertical.svg  style="width:16px;"> [Wstaw wymiar pionowy](TechDraw_Dimension_Vertical/pl.md) i <img alt="" src=images/TechDraw_Dimension_Horizontal.svg  style="width:16px;"> [Wstaw wymiar poziomy](TechDraw_Dimension_Horizontal.md) w razie potrzeby.
--   Poświęć chwilę, aby spojrzeć na [właściwości](TechDraw_Dimension_Length/pl#Właściwości.md) obiektu **Wymiar długości** w okienku widoku połączonego.
--   Zwróć uwagę, że jeśli wymiarujesz widok [aksonometryczny](https://en.wikipedia.org/wiki/Axonometric_projection) *(np. izometryczny)* zamiast [wieloekranowego](https://en.wikipedia.org/wiki/Multiview_projection) *(np. widok z przodu)*, tak jak zrobiliśmy to tutaj, będziesz musiał użyć <img alt="" src=images/TechDraw_Dimension_Link.svg  style="width:16px;"> [powiązania wymiaru](TechDraw_Dimension_Link/pl.md), aby uzyskać dokładny wymiar.
+-   Powtarzaj tą operację, aż wszystkie wymiary, które chcesz określić, zostaną umieszczone. Użyj narzędzia <img alt="" src=images/TechDraw_VerticalDimension.svg  style="width:16px;"> [Wstaw wymiar pionowy](TechDraw_VerticalDimension/pl.md) i <img alt="" src=images/TechDraw_HorizontalDimension.svg  style="width:16px;"> [Wstaw wymiar poziomy](TechDraw_HorizontalDimension.md) w razie potrzeby.
+-   Poświęć chwilę, aby spojrzeć na [właściwości](TechDraw_LengthDimension/pl#Właściwości.md) obiektu **Wymiar długości** w okienku widoku połączonego.
+-   Zwróć uwagę, że jeśli wymiarujesz widok [aksonometryczny](https://en.wikipedia.org/wiki/Axonometric_projection) *(np. izometryczny)* zamiast [wieloekranowego](https://en.wikipedia.org/wiki/Multiview_projection) *(np. widok z przodu)*, tak jak zrobiliśmy to tutaj, będziesz musiał użyć <img alt="" src=images/TechDraw_LinkDimension.svg  style="width:16px;"> [powiązania wymiaru](TechDraw_LinkDimension/pl.md), aby uzyskać dokładny wymiar.
 
 ![](images/Exercise_TechDraw_07.png )
 

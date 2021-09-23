@@ -1,7 +1,6 @@
 # Sketcher Sketch/fr
 
 
-
 Cette page devrait contenir la description de l\'outil esquisse faisant partie du [Atelier Sketcher](Sketcher_Workbench/fr.md) et de l\'[atelier PartDesign](PartDesign_Workbench/fr.md).
 
 Ce travail est en cours de réalisation. En attendant, consultez:

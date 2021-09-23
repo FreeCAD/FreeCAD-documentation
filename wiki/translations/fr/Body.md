@@ -1,7 +1,6 @@
 # Body/fr
 
 
-
 ## Introduction
 
 Dans FreeCAD, le mot \"[Body](Body/fr.md)\" est normalement utilisé pour faire référence à un objet [PartDesign Corps (Body)](PartDesign_Body/fr.md) (classe `PartDesign::Body`) défini par le [atelier PartDesign](PartDesign_Workbench/fr.md). Il s\'agit d\'un objet conteneur qui peut contenir des [Esquisses 2D](Sketch/fr.md) et des [fonctions géométriques 3D](PartDesign_Feature/fr.md) pour créer une forme solide.

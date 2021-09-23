@@ -2,7 +2,6 @@
 
 
 
-
 {{TutorialInfo/pl
 |Topic=Path Workbench
 |Level=Beginner/Moderate

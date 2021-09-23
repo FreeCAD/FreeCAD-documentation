@@ -5,7 +5,6 @@
 
 
 
-
 <div class="mw-translate-fuzzy">
 
 FreeCAD, Mac OS X \'te Yükleyici kullanılarak tek adımda kurulabilir.

@@ -1,6 +1,5 @@
 # Macro JointWire/sv
-
- {{VeryImportantMessage|!!! This macro needs to be corrected. !!!}}
+ **!!! This macro needs to be corrected. !!!**
 
 
 {{Macro/sv

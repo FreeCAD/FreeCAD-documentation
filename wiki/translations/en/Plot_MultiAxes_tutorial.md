@@ -2,7 +2,6 @@
 
 
 
-
 {{TutorialInfo
 |Topic=Plot workbench
 |Level=Intermediate

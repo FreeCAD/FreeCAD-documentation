@@ -2,8 +2,7 @@
 
 
 
-
-{{VeryImportantMessage|Entwicklung des [Zeichnung Arbeitsbereich](Drawing_Workbench/de.md) wurde in FreeCAD v0.16 gestoppt und der neue in v0.17 eingeführte [TechDraw Arbeitsbereich](TechDraw_Workbench/de.md) zielt darauf, ihn zu ersetzen. Beide Arbeitsbereiche werden in v0.17 bereitgestellt, aber der Zeichnung Arbeitsbereich könnte in zukünftigen Ausgaben entfernt werden.}}
+**Entwicklung des [Zeichnung Arbeitsbereich](Drawing_Workbench/de.md) wurde in FreeCAD v0.16 gestoppt und der neue in v0.17 eingeführte [TechDraw Arbeitsbereich](TechDraw_Workbench/de.md) zielt darauf, ihn zu ersetzen. Beide Arbeitsbereiche werden in v0.17 bereitgestellt, aber der Zeichnung Arbeitsbereich könnte in zukünftigen Ausgaben entfernt werden.**
 
 
 {{TOCright}}

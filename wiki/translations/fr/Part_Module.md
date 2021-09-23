@@ -4,7 +4,6 @@
 
 
 
-
 <img alt="Icône de l\'Atelier Part" src=images/Workbench_Part.svg  style="width:128px;">
 
 

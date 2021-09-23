@@ -2,7 +2,6 @@
 
 
 
-
 <div class="mw-translate-fuzzy">
 
 Na této stránce je seznam šablon podle standardů American National Standards Institute (ANSI) [Stavebnictví](http://en.wikipedia.org/wiki/American_National_Standards_Institute)

@@ -9,9 +9,19 @@
 
 </div>
 
+## Description
+
+
+<div class="mw-translate-fuzzy">
+
 ## Descriere
 
 Acest instrument activează/dezactivează vizibilitatea măsurătorilor delta (verde).
+
+
+</div>
+
+## Usage
 
 
 <div class="mw-translate-fuzzy">
@@ -22,9 +32,6 @@ Acest instrument activează/dezactivează vizibilitatea măsurătorilor delta (v
 
 
 </div>
-
-
-
 
 
 

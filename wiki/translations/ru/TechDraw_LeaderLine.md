@@ -5,11 +5,8 @@
    MenuLocation:TechDraw → Добавить Линии → Добавить Линию-выноску в Вид
    Workbenches:[TechDraw](TechDraw_Workbench/ru.md)
    Version:0.19
-   SeeAlso:[Вставка аннотаций форматированным текстом](TechDraw_RichTextAnnotation/ru.md), [Добавить информацию о сварке в указательную линию](TechDraw_WeldSymbol/ru.md), [TechDraw Line Group](TechDraw_LineGroup/ru.md)
+   SeeAlso:[Вставка аннотаций форматированным текстом](TechDraw_RichTextAnnotation/ru.md), [Добавить информацию о сварке в указательную линию](TechDraw_WeldSymbol/ru.md), [Группы линий](TechDraw_LineGroup/ru.md)
 ---
-
-
-</div>
 
 ## Описание
 
@@ -95,4 +92,4 @@ leaderObj.Y = 5
 
 {{TechDraw Tools navi
 
-}}  
+}} 

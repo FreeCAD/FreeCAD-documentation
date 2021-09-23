@@ -2,7 +2,6 @@
 
 
 
-
 {{docnav/ro
 |[Workbenches](Workbenches/ro.md)
 |[Draft Module](Draft_Workbench/ro.md)
@@ -93,21 +92,26 @@ Acestea sunt instrumente pentru modificarea obiectelor arhitecturale.
 
 Acestea sunt instrumente suplimentare care vă ajută în îndeplinirea unor sarcini specifice.
 
-!!FUZZY!!\* ![ 32px](images/_Arch_Component.png ) [ Component](Arch_Component.md): Creează o componentă din Atelierul Arch non-parametrică
 
--   [ 32px](Imagine:_Arch_cloneComponent.png.md) [ Clone component](Arch_CloneComponent.md):
--   [ 32px](Imagine:_Arch_SplitMesh.png.md) [ Split Mesh](Arch_SplitMesh.md): Împărțiți o plasă selectată în componente separate
--   [ 32px](Imagine:_Arch_MeshToShape.png.md) [ Mesh to shape](Arch_MeshToShape.md): Conversia unui ochi de plasă într-o formă, îmbinând fațetele coplanare
--   ![ 32px](images/_Arch_SelectNonSolidMeshes.png ) [ Selectare ochiuri ne-solide](Arch_SelectNonSolidMeshes.md): Selecteaza toate ochiurile ne-solide din selecția curentă sau din document
--   ![ 32px](images/_Arch_RemoveShape.png ) [ Eliminați forma](Arch_RemoveShape.md): Se transformă obiectul Arch de tip cubic pe parametru complet
--   ![ 32px](images/_Arch_CloseHoles.png ) [ Close Holes](Arch_CloseHoles.md): Închide găurile într-un obiect selectat pe bază de forme
--   [ 32px](Imagine:_Arch_MergeWalls.png.md) [ Merge Walls](Arch_MergeWalls.md): Uniți doi sau mai mulți pereți
--   ![ 32px](images/_Arch_Check.png ) [ Check](Arch_Check.md): Verificați dacă obiectele selectate sunt solide și nu conțin defecte
--   ![ 32px](images/_Arch_IfcExplorer.png ) [ Ifc Explorer](Arch_IfcExplorer.md): Răsfoiți conținutul unui fișier tip [ IFC](Arch_IFC.md)
--   ![ 32px](images/_Arch_ToggleIfcBrepFlag.png ) [ Toggle flag IFC Brep](Arch_ToggleIfcBrepFlag.md): Forțează ca un obiect selectat să fie exportat ca un [/html/schema/ifcgeometricmodelresource/lexical/ifcfacetedbrep.htm IfcFacetedBrep](http://www.buildingsmart-tech.org/ifc/IFC4/final).
--   [ 32px](Imagine:_Arch_3Views.png.md) [ 3 Vizualizări de pe plasă](Arch_3Vizualizări.md): Creează vederi de sus, frontale și laterale dintr-o plasă [ mesh](Mesh_Workbench.md).
--   [ 32px](Imagine:_Arch_Schedule.png.md) [ Creare foaie de calcul IFC \...](Arch_MakeIfcSpreadsheet.md):
--   ![ 32px](images/_Arch_ToggleSubs.png ) [ Toggle Subcomponents](Arch_ToggleSubs.md): Afișează sau ascunde subcomponentele unui obiect Arch.
+<div class="mw-translate-fuzzy">
+
+-   ![ 32px](images/_Arch_Component.svg ) [ Component](Arch_Component.md): Creează o componentă din Atelierul Arch non-parametrică
+-   ![ 32px](images/_Arch_CloneComponent.svg ) [ Clone component](Arch_CloneComponent.md):
+-   ![ 32px](images/_Arch_SplitMesh.svg ) [ Split Mesh](Arch_SplitMesh.md): Împărțiți o plasă selectată în componente separate
+-   ![ 32px](images/_Arch_MeshToShape.svg ) [ Mesh to shape](Arch_MeshToShape.md): Conversia unui ochi de plasă într-o formă, îmbinând fațetele coplanare
+-   ![ 32px](images/_Arch_SelectNonManifold.svg ) [ Selectare ochiuri ne-solide](Arch_SelectNonSolidMeshes.md): Selecteaza toate ochiurile ne-solide din selecția curentă sau din document
+-   ![ 32px](images/_Arch_RemoveShape.svg ) [ Eliminați forma](Arch_RemoveShape.md): Se transformă obiectul Arch de tip cubic pe parametru complet
+-   ![ 32px](images/_Arch_CloseHoles.svg ) [ Close Holes](Arch_CloseHoles.md): Închide găurile într-un obiect selectat pe bază de forme
+-   ![ 32px](images/_Arch_MergeWalls.svg ) [ Merge Walls](Arch_MergeWalls.md): Uniți doi sau mai mulți pereți
+-   ![ 32px](images/_Arch_Check.svg ) [ Check](Arch_Check.md): Verificați dacă obiectele selectate sunt solide și nu conțin defecte
+-   ![ 32px](images/_IFC.svg ) [ Ifc Explorer](Arch_IfcExplorer.md): Răsfoiți conținutul unui fișier tip [ IFC](Arch_IFC.md)
+-   ![ 32px](images/_Arch_ToggleIfcBrepFlag.svg ) [ Toggle flag IFC Brep](Arch_ToggleIfcBrepFlag.md): Forțează ca un obiect selectat să fie exportat ca un [/html/schema/ifcgeometricmodelresource/lexical/ifcfacetedbrep.htm IfcFacetedBrep](http://www.buildingsmart-tech.org/ifc/IFC4/final).
+-   ![ 32px](images/_Arch_3Views.svg ) [ 3 Vizualizări de pe plasă](Arch_3Views.md): Creează vederi de sus, frontale și laterale dintr-o plasă [ mesh](Mesh_Workbench.md).
+-   ![ 32px](images/_Arch_IfcSpreadsheet.svg ) [ Creare foaie de calcul IFC \...](Arch_IfcSpreadsheet.md):
+-   ![ 32px](images/_Arch_ToggleSubs.svg ) [ Toggle Subcomponents](Arch_ToggleSubs.md): Afișează sau ascunde subcomponentele unui obiect Arch.
+
+
+</div>
 
 ### Preferințe
 

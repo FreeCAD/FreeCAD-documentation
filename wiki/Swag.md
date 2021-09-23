@@ -1,5 +1,4 @@
 # Swag
-
 FreeCAD doesn\'t offer swag that you can order from us to support the project. The production, shipping and platform costs would make the final price so high that we feel it wouldn\'t help to support FreeCAD in any way, plus it would consume a lot of time and resources to maintain, administer, take care of payments and shipping, etc. But we all love swag, so here is the solution: **self-producing swag!!**
 
 Just download the files, head on to your favorite printing platform, and get them sent to you! By using the files below, you are guaranteed to get the true, authentic, official stuff!

@@ -1,5 +1,4 @@
 # EM Workbench/en
-
  <img alt="" src=images/EMWorkbench.svg  style="width:240px;"> 
 *align=center|The FreeCAD ElectroMagnetic External Workbench Icon*
 

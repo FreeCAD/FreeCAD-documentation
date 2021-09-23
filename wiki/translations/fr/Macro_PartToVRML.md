@@ -1,5 +1,4 @@
 # Macro PartToVRML/fr
-
  {{Macro/fr
 |Name=Macro Macro PartToVRML
 |Icon=PartToVRML.png

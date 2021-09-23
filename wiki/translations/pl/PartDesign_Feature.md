@@ -1,7 +1,6 @@
 # PartDesign Feature/pl
 
 
-
 ## Wprowadzenie
 
 [Cecha](PartDesign_Feature/pl.md) odnosi się do \"kroku\" w procesie modelowania, który dzieje się wewnątrz [zawartości projektu części](PartDesign_Body/pl.md). Na przykład, za każdym razem kiedy dodajesz sześcian opcją [Addytywny sześcian](PartDesign_AdditiveBox/pl.md), dodajesz cechę, kiedy dodajesz fazkę do krawędzi opcją [Fazka](PartDesign_Chamfer/pl.md), dodajesz kolejną cechę. Kiedy wycinasz otwór używając [szkicu](Sketch/pl.md) i opcji [kieszeń](PartDesign_Pocket/pl.md), dodajesz inną cechę.

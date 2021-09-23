@@ -1,5 +1,4 @@
 # Release notes 0.13/de
-
  Dieses ist die Übersicht über die interessantesten Neuerungen bzw. Änderungen in FreeCAD seit der letzten Version. Siehe [hier](http://www.freecadweb.org/tracker/changelog_page.php) für die vollständige Liste der Änderungen.
 
 Ältere Versionen: [0.12](Release_notes_0.12/de.md) - [0.11](Release_notes_0.11/de.md)

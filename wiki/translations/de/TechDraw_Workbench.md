@@ -4,7 +4,6 @@
 
 
 
-
 <img alt="TechDraw Arbeitsbereich Symbol" src=images/Workbench_TechDraw.svg  style="width:128px;">
 
 ## Einführung
@@ -15,7 +14,13 @@ Bemaßungen, Abschnitte, schraffierte Bereiche, Anmerkungen und Symbole im Datei
 
 TechDraw wurde ab Version 0.17 offiziell in FreeCAD aufgenommen; es soll den nicht mehr unterstützten [Drawing-Arbeitsbereich](Drawing_Workbench/de.md) ersetzen. Beide Arbeitsbereiche sind in v0.17 noch vorhanden, aber der Drawing-Arbeitsbereich kann in zukünftigen Releases entfernt werden. Um mit den Plänen und Entwicklungen von TechDraw Schritt zu halten, besuchen Sie die [TechDraw-Planung](TechDraw_Roadmap/de.md).
 
+
+<div class="mw-translate-fuzzy">
+
 FreeCAD ist in erster Linie eine 3D-Modellierungsanwendung und verfügt daher nicht über viele 2D-Zeichenwerkzeuge, die in den Programmen [Draft](Draft_Workbench/de.md) und [Sketcher](Sketcher_Workbench/de.md) enthalten sind. Wenn Ihr Hauptziel die Erstellung komplexer 2D-Zeichnungen und [DXF](DXF/de.md)-Dateien ist und Sie keine 3D-Modellierung benötigen, können Sie ein spezielles Softwareprogramm für die technischen Zeichnungen in Betracht ziehen, wie z.B. [LibreCAD](https://de.wikipedia.org/wiki/LibreCAD), [QCad](https://de.wikipedia.org/wiki/QCad), TurboCad und andere.
+
+
+</div>
 
 
 {{TOCright}}
@@ -68,37 +73,101 @@ Dies sind Werkzeuge für die Erstellung und Arbeit mit Bemaßungs-Objekten.
 
 Lineare Bemaßungen können auf zwei Punkten, auf einer Linie oder auf zwei Linien basieren.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/TechDraw_Dimension_Length.svg  style="width:32px;"> [Längenbemaßung einfügen](TechDraw_Dimension_Length/de.md): Fügt eine Längenbemaßung hinzu.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/TechDraw_Dimension_Horizontal.svg  style="width:32px;"> [Eine horizontale Abstands-Bemaßung einfügen](TechDraw_Dimension_Horizontal/de.md): Fügt eine horizontale Längenbemaßung hinzu.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/TechDraw_Dimension_Vertical.svg  style="width:32px;"> [Eine vertikale Abstands-Bemaßung einfügen](TechDraw_Dimension_Vertical/de.md): Fügt eine vertikale Längenbemaßung hinzu.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/TechDraw_Dimension_Radius.svg  style="width:32px;"> [Einen Radius der gewählten Ansicht bemaßen](TechDraw_Dimension_Radius/de.md): Fügt eine Radiusbemaßung zu einem Kreis oder Kreisbogen hinzu.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/TechDraw_Dimension_Diameter.svg  style="width:32px;"> [Ein neues Durchmessermaß in die gewählte Ansicht einfügen](TechDraw_Dimension_Diameter/de.md): Fügt eine Durchmesserbemaßung zu einem Kreis oder Kreisbogen hinzu.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/TechDraw_Dimension_Angle.svg  style="width:32px;"> [Winkel bemaßen](TechDraw_Dimension_Angle/de.md): Fügt eine Winkelbemaßung zwischen zwei geraden Linienkanten hinzu.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/TechDraw_Dimension_Angle3Pt.svg  style="width:32px;"> [Winkelbemaßung mittels 3 Eckpunkten](TechDraw_Dimension_Angle3Pt/de.md): Fügt eine Winkelbemaßung mittels drei Eckpunkten hinzu.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/TechDraw_Dimension_Horizontal_Extent.svg  style="width:32px;"> [Neue horizontale Ausdehnung](TechDraw_Dimension_Horizontal_Extent/de.md): fügt eine horizontale Ausdehnungsbemaßung hinzu. <small>(v0.19)</small> 
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/TechDraw_Dimension_Vertical_Extent.svg  style="width:32px;"> [Neue vertikale Ausdehnung](TechDraw_Dimension_Vertical_Extent/de.md): fügt eine vertikale Ausdehnungsbemaßung hinzu. <small>(v0.19)</small> 
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/TechDraw_Dimension_Link.svg  style="width:32px;"> [Eine Abmessung mit einer 3D-Geometrie verlinken](TechDraw_Dimension_Link/de.md): Eine oder mehrere Bemaßungen mit einer 3D-Geometrie verlinken.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/TechDraw_Balloon.svg  style="width:32px;"> [New Balloon](TechDraw_Balloon/de.md): fügt einer Zeichnung eine \"Ballon\"-Anmerkung für Positionsnummern (z.B. für Stücklisten) hinzu. {{Version/de|0.19}}
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/TechDraw_Dimension_Landmark.svg  style="width:32px;"> [Neue Leitbemaßung](TechDraw_Dimension_Landmark/de.md): fügt eine Leitbemaßung hinzu. <small>(v0.19)</small> 
 
-## Importieren/Exportieren
 
-Dies sind Werkzeuge zum Exportieren von Seiten in andere Anwendungen.
-
--   <img alt="" src=images/TechDraw_ExportPageSVG.svg  style="width:32px;"> [Seite exportieren als SVG](TechDraw_ExportPageSVG/de.md): Speichert die aktuelle Seite als [SVG](SVG/de.md) Datei.
-
--   <img alt="" src=images/TechDraw_ExportPageDXF.svg  style="width:32px;"> [Seite Exportieren als DXF](TechDraw_ExportPageDXF/de.md): speichert die aktuelle Seite als [DXF](DXF/de.md) Datei.
+</div>
 
 ## Ausgestaltung
 
@@ -136,7 +205,13 @@ Die Anmerkungswerkzeuge dienen dazu, eine Zeichnung mit zusätzlichen Informatio
 
 -   <img alt="" src=images/TechDraw_2PointCenterLine.svg  style="width:32px;"> [Mittellinie zwischen 2 Punkten hinzufügen](TechDraw_2PointCenterLine/de.md): fügt eine Mittellinie zwischen 2 Punkten hinzu. {{Version/de|0.19}}
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/TechDraw_2PointCosmeticLine.svg  style="width:32px;"> [Eine kosmetische Linie hinzufügen](TechDraw_2PointCosmeticLine/de.md): fügt eine kosmetische Linie hinzu, die 2 Knoten verbindet. <small>(v0.19)</small> 
+
+
+</div>
 
 -   <img alt="" src=images/TechDraw_CosmeticEraser.svg  style="width:32px;"> [Entferne Kosmetische Objekt](TechDraw_CosmeticEraser/de.md): entfernt kosmetische Objekte von einer Seite. {{Version/de|0.19}}
 
@@ -153,26 +228,53 @@ Das Erweiterungspaket enthält viele nützliche Werkzeuge, um deine TechDraw-Zei
 
 **Einige dieser Werkzeuge müssen noch freigegeben werden.**
 
--   <img alt="" src=images/TechDraw_Extension_CircleCenterLines.svg  style="width:32px;"> [CircleCenterLines](TechDraw_Extension_CircleCenterLines.md): adds center lines to circles and arcs. <small>(v0.20)</small> 
+-   <img alt="" src=images/TechDraw_ExtensionCircleCenterLines.svg  style="width:32px;"> [CircleCenterLines](TechDraw_ExtensionCircleCenterLines.md): adds center lines to circles and arcs. <small>(v0.20)</small> 
 
--   <img alt="" src=images/TechDraw_Extension_ThreadHoleSide.svg  style="width:32px;"> [ThreadHoleSide](TechDraw_Extension_ThreadHoleSide.md): adds a symbolic thread to the side view of a hole. <small>(v0.20)</small> 
+-   <img alt="" src=images/TechDraw_ExtensionThreadHoleSide.svg  style="width:32px;"> [ThreadHoleSide](TechDraw_ExtensionThreadHoleSide.md): adds a symbolic thread to the side view of a hole. <small>(v0.20)</small> 
 
--   <img alt="" src=images/TechDraw_Extension_ThreadHoleBottom.svg  style="width:32px;"> [ThreadHoleBottom](TechDraw_Extension_ThreadHoleBottom.md): adds symbolic threads to the bottom view of holes. <small>(v0.20)</small> 
+-   <img alt="" src=images/TechDraw_ExtensionThreadHoleBottom.svg  style="width:32px;"> [ThreadHoleBottom](TechDraw_ExtensionThreadHoleBottom.md): adds symbolic threads to the bottom view of holes. <small>(v0.20)</small> 
 
--   <img alt="" src=images/TechDraw_Extension_ThreadBoltSide.svg  style="width:32px;"> [ThreadBoltSide](TechDraw_Extension_ThreadBoltSide.md): adds a symbolic thread to the side view of a bolt. <small>(v0.20)</small> 
+-   <img alt="" src=images/TechDraw_ExtensionThreadBoltSide.svg  style="width:32px;"> [ThreadBoltSide](TechDraw_ExtensionThreadBoltSide.md): adds a symbolic thread to the side view of a bolt. <small>(v0.20)</small> 
 
--   <img alt="" src=images/TechDraw_Extension_ThreadBoltBottom.svg  style="width:32px;"> [ThreadBoltBottom](TechDraw_Extension_ThreadBoltBottom.md): adds symbolic threads to the bottom view of bolts. <small>(v0.20)</small> 
+-   <img alt="" src=images/TechDraw_ExtensionThreadBoltBottom.svg  style="width:32px;"> [ThreadBoltBottom](TechDraw_ExtensionThreadBoltBottom.md): adds symbolic threads to the bottom view of bolts. <small>(v0.20)</small> 
+
+## Importieren/Exportieren
+
+Dies sind Werkzeuge zum Exportieren von Seiten in andere Anwendungen.
+
+-   <img alt="" src=images/TechDraw_ExportPageSVG.svg  style="width:32px;"> [Seite exportieren als SVG](TechDraw_ExportPageSVG/de.md): Speichert die aktuelle Seite als [SVG](SVG/de.md) Datei.
+
+-   <img alt="" src=images/TechDraw_ExportPageDXF.svg  style="width:32px;"> [Seite Exportieren als DXF](TechDraw_ExportPageDXF/de.md): speichert die aktuelle Seite als [DXF](DXF/de.md) Datei.
 
 ## Zusatzfunktionen
+
+
+<div class="mw-translate-fuzzy">
 
 -   [Liniengruppe](TechDraw_LineGroup/de.md): um das Aussehen verschiedener Linientypen zu steuern.
 -   [Vorlagen](TechDraw_Templates/de.md): Die definierten Standardvorlagen für die Zeichnungsseiten.
 -   [Schraffur](TechDraw_Hatching/de.md): Erklärung der verschiedenen Schraffurtechniken.
 -   [Geometrische Bemaßung und Tolerierung](TechDraw_Geometric_dimensioning_and_tolerancing/de.md): Erklärung, wie geometrische Bemaßung und Tolerierung erreicht werden.
 
+
+</div>
+
+## Preferences
+
+
+<div class="mw-translate-fuzzy">
+
 ## Einstellungen
 
 -   <img alt="" src=images/Preferences-techdraw.svg  style="width:32px;"> [Einstellungen](TechDraw_Preferences/de.md): Einstellungen für die Standardwerte der Zeichnungsseite wie Projektionswinkel, Farben, Textgrößen und Linienstile.
+
+
+</div>
+
+## Scripting
+
+
+<div class="mw-translate-fuzzy">
 
 ## Programmierung
 
@@ -181,6 +283,14 @@ Die TechDraw Werkzeuge können in [Makros](macros/de.md) oder aus der [Python](P
 -   [TechDraw API](TechDraw_API/de.md)
 -   [TechDrawGui API](TechDrawGui_API/de.md)
 
+
+</div>
+
+## Limitations
+
+
+<div class="mw-translate-fuzzy">
+
 ## Begrenzungen
 
 -   TechDraw Zeichnungen und ihre API sind nicht mit dem [Drawing Arbeitsbereich](Drawing_Workbench/de.md) austauschbar. Es ist möglich, Zeichnungsseiten mit einem Pythonskript (`moveViews.py`) in TechDraw Seiten umzuwandeln.
@@ -188,6 +298,9 @@ Die TechDraw Werkzeuge können in [Makros](macros/de.md) oder aus der [Python](P
 -   Es gibt geringfügige Unterschiede bei der Angabe editierbarer Texte in [SVG](SVG/de.md) Vorlagen im Vergleich zum Zeichnungsmodul. In TechDraw beeinflusst die Skalierung des SVG Dokuments die Position der editierbaren Textfelder. Weitere Einzelheiten findest du in der Forumsdiskussion [TechDraw templates scale](https://forum.freecadweb.org/viewtopic.php?f=3&t=24981&p=196271#p196271).
 -   Gewinde sind nicht implementiert. Eine mögliche Abhilfe besteht darin, eine [Durchmesserbemaßung](TechDraw_Dimension_Diameter/de.md) zu verwenden und einen geeigneten Text in die \"Format Spec\" Eigenschaft einzufügen, z.B. \"M4x15\".
 -   TechDraw Objekte dürfen in der Baumansicht nicht ausgeschnitten, kopiert und eingefügt werden, da dies im Allgemeinen nicht gut funktioniert.
+
+
+</div>
 
 ## Tutorien
 

@@ -1,5 +1,4 @@
 # Macro Automatic drawing/pl
-
  {{Macro
 |Name=Automatic drawing
 |Icon=Macro_Automatic_drawing.png

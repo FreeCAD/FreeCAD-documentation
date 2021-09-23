@@ -1,5 +1,4 @@
 # Macro Snip/fr
-
  {{Macro/fr
 |Name=Snip
 |Icon=Snip.png

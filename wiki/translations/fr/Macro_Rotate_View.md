@@ -1,5 +1,4 @@
 # Macro Rotate View/fr
-
  {{Macro/fr
 |Name=Rotate View by 90°
 |Translate=Vue Rotation à 90°

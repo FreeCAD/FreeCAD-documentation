@@ -8,6 +8,9 @@
    Version:0.18
 ---
 
+
+</div>
+
 ## Beschreibung
 
 Dieses Werkzeug löscht alle Beschränkungen aus der zu bearbeitenden Skizze und lässt die Geometrie unverändert.
@@ -23,4 +26,4 @@ Dieses Werkzeug löscht alle Beschränkungen aus der zu bearbeitenden Skizze und
 
 {{Sketcher Tools navi
 
-}}  
+}} 

@@ -1,6 +1,6 @@
 ---
 - GuiCommand:/tr
-   Name:Draft Dimensions
+   Name:Draft Snap Dimensions
    Name/tr:Taslak Boyutlar
    MenuLocation:Taslak → [Yakalama](Draft_Snap/tr.md) → Boyutlar
    Workbenches:[Taslak](Draft_Workbench/tr.md), [Mimari](Arch_Workbench/tr.md)

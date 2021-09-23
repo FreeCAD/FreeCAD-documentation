@@ -4,7 +4,6 @@
 
 
 
-
 <img alt="FEM workbench icon" src=images/Workbench_FEM.svg  style="width:128px;">
 
 

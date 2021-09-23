@@ -8,8 +8,8 @@
 ---
 
 
-{{VeryImportantMessage|A partir de FreeCAD v0.17, esta herramienta ha sido eliminada del Ambiente de trabajos Arquitectura y ahora forma parte del [Ambiente de trabajos HerramientasWeb](WebTools_Workbench/es.md) externo que puedes instalar a través del menú Herramientas → <img src="images/AddonManager.svg" width=24px> [Administrador de complementos](Addon_manager/es.md).
-}}
+**A partir de FreeCAD v0.17, esta herramienta ha sido eliminada del Ambiente de trabajos Arquitectura y ahora forma parte del [Ambiente de trabajos HerramientasWeb](WebTools_Workbench/es.md) externo que puedes instalar a través del menú Herramientas → <img src="images/AddonManager.svg" width=24px> [Administrador de complementos](Addon_manager/es.md).
+**
 
 ## Descripción
 

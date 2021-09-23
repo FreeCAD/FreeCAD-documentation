@@ -45,6 +45,6 @@ Non appena si ruota o si sposta l\'oggetto nella vista 3D, vengono applicate le 
 
 
 
-{{Std Base
+{{Std Base navi
 
 }} 

@@ -1,5 +1,4 @@
 # Feature editing/tr
-
  {{TOCright}}
 
 ## Giriş

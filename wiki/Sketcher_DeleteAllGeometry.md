@@ -19,4 +19,4 @@ This tool deletes all geometry from the sketch being edited.
 
 
 
- {{Sketcher Tools navi}}  
+ {{Sketcher Tools navi}} 

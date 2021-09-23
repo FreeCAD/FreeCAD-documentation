@@ -3,13 +3,6 @@
 
 
 
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 {{TOCright}}
@@ -54,13 +47,7 @@ FreeCADGui.ActiveDocument.ActiveView
 ``` Restituisce la vista corrente
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 

@@ -1,5 +1,4 @@
 # Macro HighlightDifference/en
-
  {{Macro
 |Name=HighlightDifference
 |Description=Compute the difference between two shapes. Additions are marked red, removals are marked green. Both original parts will be half transparent. The volume of the additions and removals are printed in the console.

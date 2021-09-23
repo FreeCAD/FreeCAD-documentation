@@ -2,7 +2,6 @@
 
 
 
-
 <div class="mw-translate-fuzzy">
 
 Това е съдържанието което се използва за автоматичното създаване на системата за онлайн помощ във FreeCad. Версия за разпечатване на този наръчник на английски език е на разположение на [releases page](https://github.com/FreeCAD/FreeCAD/releases)

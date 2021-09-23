@@ -1,5 +1,4 @@
 # FEM Concrete/it
-
  Questa pagina raccoglie alcune informazioni interessanti sul tema della simulazione delle strutture in calcestruzzo:
 
 -   [How to use the pipeline postprocessing (May 2018)](https://forum.freecadweb.org/viewtopic.php?f=18&t=28635)

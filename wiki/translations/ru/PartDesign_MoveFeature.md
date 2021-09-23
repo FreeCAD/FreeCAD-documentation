@@ -13,7 +13,7 @@
 
 <img alt="" src=images/PartDesign_MoveFeature.svg  style="width:24px;"> [Move object to other body](PartDesign_MoveFeature.md), as this command is labeled in the context menu, allows moving objects under a Body to another Body. The moved object is placed right below the other Body\'s tip. Sketches, datum geometry and features are supported.
 
-## Использование
+## Применение
 
 1.  In the Model [tree view](tree_view.md), right-click on the object to be moved.
 2.  Select **Move object to other body** from the list in the context menu

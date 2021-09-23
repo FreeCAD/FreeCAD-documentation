@@ -2,7 +2,6 @@
 
 
 
-
 <div class="mw-translate-fuzzy">
 
 La pantalla de preferencias de OpenScad se encuentra en la ventana de Preferencias (Edición de Menú → Preferencias → OpenSCAD).

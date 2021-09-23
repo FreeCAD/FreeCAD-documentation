@@ -1,5 +1,4 @@
 # Macro 3d Printer Slicer Individual Parts/fr
-
  {{Macro/fr
 |Name=Macro 3d Printer Slicer Individual Parts
 |Name/fr=Macro 3d Printer Slicer Individual Parts

@@ -2,10 +2,6 @@
 
 
 
-
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -63,7 +59,13 @@ Ricordare che il formato SVG è un formato 2D, quindi si perdono tutte le inform
 
 Quando si esporta, una Unità utente (px) equivale a un millimetro.
 
+
+<div class="mw-translate-fuzzy">
+
 Durante l\'importazione sono rispettati la larghezza, l\'altezza e gli attributi Viewbox. Tutti gli elementi vengono scalati alle loro dimensioni in millimetri, che è l\'unità interna di FreeCAD. Se il file SVG non contiene informazioni sulla dimensione fisica, si presuppone di avere una risoluzione di 90 DPI. L\'utilizzo di unità assolute negli attributi all\'interno del SVG è da evitare. Unità relative come em, ex e % non sono attualmente supportate.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -79,7 +81,13 @@ Se è necessario importare l\'SVG senza arrotondamenti, lavorare in Unità utent
 
 ## Preferenze
 
+
+<div class="mw-translate-fuzzy">
+
 Per ulteriori informazioni, consultare: [Preferenze di Importa/Esporta](Import_Export_Preferences/it.md).
+
+
+</div>
 
 ## Script
 
@@ -94,20 +102,37 @@ Per ulteriori informazioni, consultare: [Preferenze di Importa/Esporta](Import_E
 
 </div>
 
-Si possono esportare elementi in SVG usando la seguente funzione: 
+
+<div class="mw-translate-fuzzy">
+
+Si possono esportare elementi in SVG usando la seguente funzione:
+
+
+</div>
+
+
 ```python
 importSVG.export(exportList, filename)
 ```
 
-Esempio: 
+-   For the Windows OS: use a {{FileName|/}} (forward slash) as the path separator in {{Incode|filename}}.
+
+Esempio:
+
+
 ```python
-import Draft, importSVG
+import FreeCAD as App
+import Draft
+import importSVG
 
-Polygon1 = Draft.makePolygon(3, radius=500)
-Polygon2 = Draft.makePolygon(5, radius=1500)
+doc = App.newDocument()
 
-objects = [Polygon1, Polygon2]
+polygon1 = Draft.make_polygon(3, radius=500)
+polygon2 = Draft.make_polygon(5, radius=1500)
 
+doc.recompute()
+
+objects = [polygon1, polygon2]
 importSVG.export(objects, "/home/user/Pictures/myfile.svg")
 ```
 

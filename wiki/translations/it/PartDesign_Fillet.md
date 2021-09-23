@@ -41,7 +41,10 @@ Ecco come differiscono l\'uno dall\'altro:
 
 Raccordi, smussi e altre funzionalità che operano su corpi solidi dipendono dal kernel OpenCASCADE Technology (OCCT) sottostante utilizzato da FreeCAD. Occasionalmente il kernel OCCT ha difficoltà nel gestire gli spigoli coincidenti, dove si incontrano due facce. In questo caso, FreeCAD potrebbe bloccarsi senza una spiegazione.
 
-Se eseguito dal terminale, FreeCAD può generare un registro come questo dopo l\'arresto anomalo: {{code|code=
+Se eseguito dal terminale, FreeCAD può generare un registro come questo dopo l\'arresto anomalo:
+
+
+{{code|code=
 #1  0x7fff63d660ba in BRep_Tool::Curve(TopoDS_Edge const&, TopLoc_Location&, double&, double&) from /usr/lib/x86_64-linux-gnu/libTKBRep.so.7+0x2a
 #2  0x7fff63d69546 in BRep_Tool::Curve(TopoDS_Edge const&, double&, double&) from /usr/lib/x86_64-linux-gnu/libTKBRep.so.7+0x46
 #3  0x7fff71f4fef5 in ChFi3d_Builder::PerformIntersectionAtEnd(int) from /usr/lib/x86_64-linux-gnu/libTKFillet.so.7+0x3b05
@@ -62,15 +65,31 @@ Per maggiori informazioni vedere le discussioni del forum :
 
 L\'utente è anche responsabile dell\'integrità del proprio modello. A seconda del modello, potrebbe essere impossibile eseguire un raccordo o uno smusso se il corpo non è abbastanza grande da supportare tale operazione. Ad esempio, non è possibile creare un raccordo da 10 mm se un bordo è separato di soli 5 mm dalla superficie successiva. In questo caso, il raggio massimo per un raccordo è 5 mm; tentare di usare un valore più grande può dare come risultato una forma che non può essere calcolata o anche un crash. Se l\'utilizzo del limite esatto di 5 mm non funziona, potrebbe essere possibile utilizzare un\'approssimazione molto ravvicinata, come 4.9999 mm, per ottenere lo stesso risultato visibile.
 
+### Topological naming 
+
+
+<div class="mw-translate-fuzzy">
+
 ### Denominazione topologica 
 
 I numeri che rappresentano i nomi dei bordi non sono completamente stabili, pertanto è consigliabile terminare il lavoro di modellazione principale del corpo solido prima di applicare funzioni come raccordi e smussi, altrimenti i bordi potrebbero cambiare nome e i bordi raccordati diventerebbero probabilmente non validi.
+
+
+</div>
 
 Ulteriori informazioni nella pagina dedicata al [problema di denominazione topologica](topological_naming_problem/it.md).
 
 ## Script
 
-Lo strumento Fillet può essere utilizzato nelle [macro](macros/it.md) e dalla [console di Python](FreeCAD_Scripting_Basics/it.md) tramite la seguente funzione: 
+
+<div class="mw-translate-fuzzy">
+
+Lo strumento Fillet può essere utilizzato nelle [macro](macros/it.md) e dalla [console di Python](FreeCAD_Scripting_Basics/it.md) tramite la seguente funzione:
+
+
+</div>
+
+
 ```python
 Box = Box.makeFillet(3,[Box.Edges[0]]) # 1 Fillet
 Box = Box.makeFillet(3,[Box.Edges[1],Box.Edges[2],Box.Edges[3],Box.Edges[4]]) # for several Fillets
@@ -79,7 +98,15 @@ Box = Box.makeFillet(3,[Box.Edges[1],Box.Edges[2],Box.Edges[3],Box.Edges[4]]) # 
 -   3 = valore del raggio
 -   Box.Edges\[2\] = lo spigolo con il suo numero identificativo
 
-Esempio: 
+
+<div class="mw-translate-fuzzy">
+
+Esempio:
+
+
+</div>
+
+
 ```python
 import PartDesign
 from FreeCAD import Base
@@ -98,9 +125,6 @@ Part.show(Box)
 
 
 </div>
-
-
-
 
 
 {{PartDesign Tools navi

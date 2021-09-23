@@ -2,7 +2,6 @@
 
 
 
-
 {{TutorialInfo/de
 |Topic=Schiff Arbeitsbereich
 |Level=Anfänger
@@ -60,9 +59,9 @@ Um neue Anwender zu unterstützen, enthält der Arbeitsbereich Schiff einen Geom
 Beim Ausführen des Werkzeugs (Schiffskonstruktion/Laden einer Beispielschiffsgeometrie) wird ein Aufgabendialog angezeigt. Wähle **Series 60 der Iowa Universität** und drücke Annehmen. Das Werkzeug lädt ein neues Dokument mit der **s60\_IowaUniversity** Geometrie.
 
 
-{{VeryImportantMessage|'''Warnung, bevor irgendetwas bearbeitet wird!'''
+**'''Warnung, bevor irgendetwas bearbeitet wird!'''
 Du arbeitest jetzt mit der originalen Beispieldatei.
-Um das unbearbeitete Originalbeispiel zu erhalten, '''musst du es zuerst als neue Datei speichern, bevor du irgendetwas bearbeitest.'''}}
+Um das unbearbeitete Originalbeispiel zu erhalten, '''musst du es zuerst als neue Datei speichern, bevor du irgendetwas bearbeitest.'''**
 
 ## Schiffsinstanz erstellen 
 

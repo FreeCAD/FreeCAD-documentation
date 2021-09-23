@@ -1,5 +1,4 @@
 # Raytracing API example
-
  
 
 ## Introduction

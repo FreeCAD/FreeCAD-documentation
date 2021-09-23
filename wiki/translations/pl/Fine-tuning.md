@@ -2,7 +2,6 @@
 
 
 
-
 {{TOCright}}
 
 Na tej stronie znajdują się różne ustawienia i parametry, które można wykorzystać do precyzyjnego skonfigurowania instalacji programu FreeCAD lub do rozwiązywania problemów.

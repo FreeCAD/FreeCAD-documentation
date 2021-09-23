@@ -1,6 +1,5 @@
 # WikiRobots/de
-
- {{VeryImportantMessage|Roboter sind von Natur aus gefährlich, da sie automatisch viel Schaden anrichten können. Verwende sie mit äußerster Vorsicht!}}
+ **Roboter sind von Natur aus gefährlich, da sie automatisch viel Schaden anrichten können. Verwende sie mit äußerster Vorsicht!**
 
 ## Übersicht
 

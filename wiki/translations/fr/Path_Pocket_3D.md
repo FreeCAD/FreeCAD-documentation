@@ -40,9 +40,10 @@ Cette commande insère un chemin <img alt="" src=images/Path_3DPocket.svg  style
 
 ## Propriétés
 
-### Onglet Données 
+### Données
 
-#### Base
+
+{{TitleProperty|Base}}
 
 Remarque : Il est suggéré de ne pas modifier la propriété Placement des opérations de trajectoire. Déplacez ou faites plutôt pivoter le modèle d\'opération de trajectoire selon les besoins.
 
@@ -95,7 +96,8 @@ Remarque : Il est suggéré de ne pas modifier la propriété Placement des opé
 
 -    {{PropertyData/fr|Label}}: Nom de l\'objet fourni par l\'utilisateur (UTF-8)
 
-#### Profondeur
+
+{{TitleProperty|Depth}}
 
 -    {{PropertyData/fr|Clearance Height}}: hauteur nécessaire pour supprimer les pinces et les obstructions.
 
@@ -109,11 +111,13 @@ Remarque : Il est suggéré de ne pas modifier la propriété Placement des opé
 
 -    {{PropertyData/fr|Step Down}}: abaissement incrémentiel de l\'outil.
 
-#### Face
+
+{{TitleProperty|Face}}
 
 -    {{PropertyData/fr|Offset Pattern}}: effacement du motif à utiliser. (Sélectionnez la manière dont les mouvements horizontaux doivent être effectués.)
 
-#### Trajectoire
+
+{{TitleProperty|Path}}
 
 -    {{PropertyData/fr|Active}}: mettre à False pour empêcher l\'opération de générer du code.
 
@@ -129,7 +133,8 @@ Remarque : Il est suggéré de ne pas modifier la propriété Placement des opé
 
 -    {{PropertyData/fr|User Label}}: étiquette attribuée par l\'utilisateur.
 
-#### Poche
+
+{{TitleProperty|Pocket}}
 
 -    {{PropertyData/fr|Finition adaptative de poche}}: Utilise un algorithme adaptatif pour éliminer le fraisage excessif en l\'air sous le fond de la poche planaire.
 
@@ -153,13 +158,15 @@ Remarque : Il est suggéré de ne pas modifier la propriété Placement des opé
 
 -    {{PropertyData/fr|Zig Zag Angle}}: Angle du motif en zigzag
 
-#### Rotation
+
+{{TitleProperty|Rotation}}
 
 Remarque : la rotation n\'est pas disponible pour 3D Pocket à partir de la version 0.19.
 
 -    {{PropertyData/fr|Enable Rotation}}: Active la rotation pour accéder aux poches ou aux zones non normales à l\'axe Z.
 
-#### Point de départ 
+
+{{TitleProperty|Start Point}}
 
 -    {{PropertyData/fr|Start Point}}: point de départ personnalisé pour le chemin de cette opération.
 

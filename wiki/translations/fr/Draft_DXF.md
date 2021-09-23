@@ -5,10 +5,6 @@
 
 
 
-
-
-
-
 {{TOCright}}
 
 ## Description
@@ -19,39 +15,67 @@ Draft DXF est un module logiciel utilisé par <img alt="" src=images/Std_Open.sv
 
 ## Importation
 
-L\'importateur a deux modes, réglables sous **Édition → Préférences → Import/Export → DXF** : l\'un est intégré, basé sur C++ et rapide, l\'autre est hérité, codé en Python, plus lent et nécessite l\'installation d\'un module complémentaire, mais peut parfois mieux gérer certaines entités et créer des objets FreeCAD plus raffinés. Les deux prennent en charge toutes les versions DXF à partir de R12.
+Deux importateurs sont disponibles, celui qui est utilisé peut être spécifié sous **Édition → Préférences... → Importer-Exporter → DXF**. L\'un est intégré, basé sur C++ et rapide, l\'autre est hérité, codé en Python, plus lent et nécessite l\'installation d\'un module complémentaire, mais peut mieux gérer certaines entités et créer des objets FreeCAD plus raffinés. Les deux prennent en charge toutes les versions DXF à partir de R12.
 
-Les objets 3D à l\'intérieur d\'un fichier DXF sont stockés sous un blob binaire ACIS/SAT, qui ne peut actuellement pas être lu par FreeCAD. Les entités plus simples comme les 3DFACE, cependant, sont prises en charge.
+Les solides 3D à l\'intérieur d\'un fichier DXF sont stockés sous un blob binaire ACIS/SAT, qui ne peut actuellement pas être lu par FreeCAD.
 
-Les objets DXF suivants peuvent être importés :
+### L\'importateur C++ 
+
+Cet importateur peut importer les objets DXF suivants :
 
 -   lignes
--   polylignes et (lwpolylignes)
--   cercles
+-   polylignes (et lwpolylines)
 -   arcs
+-   cercles
+-   ellipses
 -   splines
--   ellipse
--   calques
--   textes and Mtextes (textes multi-lignes)
--   dimensions
--   blocs (géométrie seulement. Les textes, dimensions et attributs à l\'intérieur des blocs seront ignorés)
 -   points
--   repères (flêchés)
--   objets spatiaux en papier
+-   textes et mtextes
+-   dimensions
+-   chefs
+-   blocs (seuls la géométrie, les textes, les dimensions et les attributs à l\'intérieur des blocs sont ignorés)
+-   calques
+-   objets de l\'espace papier
+
+### L\'importateur historique 
+
+Cet importateur peut importer les objets DXF suivants :
+
+-   lignes
+-   polylignes (et lwpolylines)
+-   arcs
+-   cercles
+-   ellipses
+-   splines
+-   Visages 3D
+-   textes et mtextes
+-   leaders
+-   calques
 
 ## Exportation
 
-Les fichiers sont exportés au format R14 DXF qui peut être géré par de nombreuses applications.
+Il existe également deux exportateurs. L\'exportateur traditionnel exporte au format R12 DXF, l\'exportateur C++ au format R14 DXF. Les deux formats peuvent être traités par de nombreuses applications.
 
-Les objets FreeCAD suivants peuvent être exportés :
+### L\'exportateur C++ 
 
--   toute la géométrie 2D de FreeCAD telle que les objets Draft ou les esquisses
--   des objets 3D sont exportés sous forme de vue 2D aplatie
--   des objets composés sont exportés sous forme de blocs
--   des textes
--   Les couleurs sont mappées des couleurs RVB des objets à l\'index de couleurs Autocad (ACI). Le noir sera toujours \"par couche\"
--   les calques sont mappés à partir des noms de groupe. Lorsque des groupes sont imbriqués, le groupe le plus profond donne le nom de la couche.
--   dimensions, qui sont exportées avec un style \"standard\".
+Voici quelques-unes des caractéristiques et des limites de cet exportateur :
+
+-   Toute la géométrie 2D de FreeCAD est exportée, sauf [Draft Courbe de Bézier cubique](Draft_CubicBezCurve/fr.md), [Draft Courbe de Bézier](Draft_BezCurve/fr.md) et [Draft Points](Draft_Point/fr.md).
+-   Les arêtes droites des faces des objets 3D sont exportées, mais les arêtes courbes uniquement si elles se trouvent sur un plan parallèle au plan XY du système de coordonnées global. Notez qu\'un DXF créé à partir d\'objets 3D contiendra des lignes dupliquées.
+-   Les textes et les dimensions ne sont pas exportés.
+-   Les couleurs sont ignorées.
+-   Les calques sont mappés à partir des noms d\'objets.
+
+### L\'exportateur historique 
+
+Voici quelques-unes des caractéristiques et des limites de cet exportateur :
+
+-   Toute la géométrie 2D de FreeCAD est exportée, sauf [Draft Points](Draft_Point/fr.md), mais les ellipses, les B-splines et les courbes de Bézier ne sont pas exportées correctement.
+-   Les objets 3D sont exportés sous forme de vues 2D aplaties.
+-   Les objets composés sont exportés sous forme de blocs.
+-   Les textes et les dimensions sont exportés.
+-   Les couleurs dans le DXF sont basées sur la couleur des lignes des objets. Le noir est mappé sur \"ByBlock\", les autres couleurs sont mappées en utilisant les couleurs ACI (AutoCAD Color Index).
+-   Les calques sont mappées à partir des noms de calques et de groupes. Lorsque les groupes sont imbriqués, le groupe le plus profond donne le nom du calque.
 
 ## Installation
 
@@ -59,29 +83,37 @@ Pour des raisons de licence, les bibliothèques d\'importation/exportation [DXF]
 
 ## Préférences
 
-Pour plus d\'informations, voir : [Préférences d\'Import Export](Import_Export_Preferences/fr.md).
+Voir : [Préférences d\'Import Export](Import_Export_Preferences/fr.md).
 
 ## Script
 
+Voir aussi: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) et [Débuter avec les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md).
 
-**Voir aussi :**
+Pour exporter des objets au format DXF, utilisez la méthode `export` du module importDXF.
 
-[Draft API](Draft_API/fr.md) et [FreeCAD Scripts de base](FreeCAD_Scripting_Basics/fr.md).
 
-Vous pouvez exporter des éléments vers un fichier DXF en utilisant la fonction suivante : 
 ```python
 importDXF.export(objectslist, filename, nospline=False, lwPoly=False)
 ```
 
-Exemple : 
+-   Pour le système d\'exploitation Windows : utilisez un {{FileName|/}} (barre oblique) comme séparateur de chemin dans {{Incode|filename}}.
+
+Exemple :
+
+
 ```python
-import Draft, importDXF
+import FreeCAD as App
+import Draft
+import importDXF
 
-Polygon1 = Draft.makePolygon(3, radius=500)
-Polygon2 = Draft.makePolygon(5, radius=1500)
+doc = App.newDocument()
 
-objects = [Polygon1, Polygon2]
+polygon1 = Draft.make_polygon(3, radius=500)
+polygon2 = Draft.make_polygon(5, radius=1500)
 
+doc.recompute()
+
+objects = [polygon1, polygon2]
 importDXF.export(objects, "/home/user/Pictures/myfile.dxf")
 ```
 

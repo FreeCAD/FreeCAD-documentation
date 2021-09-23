@@ -1,5 +1,4 @@
 # 3D input devices/it
-
  FreeCAD supporta alcuni dispositivi di input specializzati, come il mouse 3D. Esso consente all\'utente di ruotare, traslare ed ingrandire gli oggetti in tre dimensioni.
 
 ## Hardware supportato 

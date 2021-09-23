@@ -4,7 +4,6 @@
 
 
 
-
 <img alt="Icône de l\'atelier Points" src=images/Workbench_Points.svg  style="width:128px;">
 
 ## Introduction

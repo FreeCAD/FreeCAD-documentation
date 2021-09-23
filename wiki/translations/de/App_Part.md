@@ -1,7 +1,6 @@
 # App Part/de
 
 
-
 ## Einführung
 
 <img alt="" src=images/Geofeaturegroup.svg  style="width:32px;">
@@ -30,6 +29,6 @@ Eine [App Part](App_Part.md) (`App::Part` Klasse) wird von der Basisklasse [App 
 Siehe die komplette Liste der Eigenschaften auf der [Std Part](Std_Part/de.md) Seite.
 
 
-{{Std Base
+{{Std Base navi
 
 }} {{Document objects navi}} 

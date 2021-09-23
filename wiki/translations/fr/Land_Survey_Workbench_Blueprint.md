@@ -2,15 +2,14 @@
 
 
 
-
-{{VeryImportantMessage|
+**
 Ce plan de développement est probablement obsolète. Pour plus d'informations, voir [Plan de développement](Development_roadmap/fr.md).<br>
 Si vous n'êtes pas impliqué dans le développement discuté ici :<br>
 !!! S'IL VOUS PLAÎT, NE MODIFIEZ PAS ET NE TRADUISEZ PAS !!!
-}}
+**
 
 
-{{VeryImportantMessage|Remarque importante : L'atelier Land Survey a été abandonné. Si des développeurs intéressés veulent en être le fer de lance, faites-le nous savoir sur le forum.}}
+**Remarque importante : L'atelier Land Survey a été abandonné. Si des développeurs intéressés veulent en être le fer de lance, faites-le nous savoir sur le forum.**
 
 
 {{TOCright}}

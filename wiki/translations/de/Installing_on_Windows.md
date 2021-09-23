@@ -2,7 +2,6 @@
 
 
 
-
 {{docnav/de
 |[Funktionalitäten](Feature_list/de.md)
 |[ Installieren auf Linux](Install_on_Linux/de.md)

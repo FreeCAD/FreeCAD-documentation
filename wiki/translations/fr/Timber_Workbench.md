@@ -1,6 +1,5 @@
 # Timber Workbench/fr
-
- {{VeryImportantMessage|Cet établi n'est plus développé ni maintenu.}}
+ **Cet établi n'est plus développé ni maintenu.**
 
 ## Introduction
 

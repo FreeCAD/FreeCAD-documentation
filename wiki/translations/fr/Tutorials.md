@@ -5,7 +5,6 @@
 
 
 
-
 {{TOCright}}
 
 Cette page présente une sélection de tutoriels écrits de bonne qualité. Une liste complète et non triée des tutoriels peut être trouvée dans [:Category:Tutorials/fr](:Category:Tutorials/fr.md), une liste complète et triable peut être trouvée dans le [tableau ci-dessous](Tutorials/fr#Tutoriels_-_liste_complète.md).
@@ -153,7 +152,7 @@ Exporter les corps de FreeCAD vers Blender, importer ensuite les fichiers dans B
 ## Atelier Robot 
 
 
-{{VeryImportantMessage|Le développement de l'[atelier Robot](Robot_Workbench/fr.md) est actuellement abandonné. Veuillez vous renseigner sur notre forum pour toute nouvelle ou un atelier alternatif.}}
+**Le développement de l'[atelier Robot](Robot_Workbench/fr.md) est actuellement abandonné. Veuillez vous renseigner sur notre forum pour toute nouvelle ou un atelier alternatif.**
 
 Robot Tutorial RobotSimulation.gif\|link=[Robot\_tutorial/fr](Robot_tutorial/fr.md)\|[Tutoriel Robot](Robot_tutorial/fr.md) (v0.17)
 Simulez le mouvement d\'un robot industriel: définissez une trajectoire, définissez la position d\'origine, modifiez la position du robot, insérez différents points de cheminement et simulez le mouvement du robot.
@@ -177,7 +176,7 @@ Ce sont des tutoriels qui sont liés à des scripts ou à la programmation. Ils 
 ## Dessins
 
 
-{{VeryImportantMessage|Le développement de [l'atelier Drawing](Drawing_Workbench/fr.md) s'est arrêté dans FreeCAD 0.16. Utilisez plutôt [l'atelier TechDraw](TechDraw_Workbench/fr.md).}}
+**Le développement de [l'atelier Drawing](Drawing_Workbench/fr.md) s'est arrêté dans FreeCAD 0.16. Utilisez plutôt [l'atelier TechDraw](TechDraw_Workbench/fr.md).**
 
 Drawing\_tutorial\_result.png\|link=[Drawing tutorial/fr](Drawing_tutorial/fr.md)\|[Tutoriel de dessin](Special:MyLanguage/Drawing_tutorial.md) (v0.16)
 Introduction basique aux outils de l\'atelier Drawing pour la création de plans.

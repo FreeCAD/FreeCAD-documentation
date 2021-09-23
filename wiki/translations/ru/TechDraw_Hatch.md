@@ -1,15 +1,11 @@
 ---
 - GuiCommand:/ru
-   Name:TechDraw Hatch
-   Name/ru:TechDraw Hatch
+   Name/ru:Штриховка
+   Name:TechDraw_Hatch
+   MenuLocation:TechDraw → Штриховать грань, используя файл изображения
    Workbenches:[TechDraw](TechDraw_Workbench/ru.md)
-   MenuLocation:TechDraw → Hatch
-   Shortcut:
-   SeeAlso:
+   SeeAlso:[Применить геометрическую штриховку к грани](TechDraw_GeometricHatch/ru.md), [Штриховка](TechDraw_Hatching/ru.md)
 ---
-
-
-</div>
 
 ## Описание
 
@@ -28,7 +24,7 @@ The Hatch tool fills a closed region in a View with a hatch pattern, which can b
 
 ## Примечания
 
--   Hatching objects are vulnerable to \"[topological naming](Topological_naming_problem.md)\" issues. See the information in the [TechDraw Dimension Length](TechDraw_Dimension_Length.md) tool for more information. It is recommended that hatching be one of the last steps in your drawing process.
+-   Hatching objects are vulnerable to the \"[topological naming problem](Topological_naming_problem.md)\". See [TechDraw LengthDimension](TechDraw_LengthDimension.md) for more information. It is recommended that hatching be one of the last steps in your drawing process.
 -   Sample [SVG](SVG.md) patterns are available locally in
 
 

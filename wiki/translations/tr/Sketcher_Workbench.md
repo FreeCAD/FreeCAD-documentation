@@ -4,8 +4,10 @@
 
 
 
-
 <img alt="Sketcher workbench icon" src=images/Workbench_Sketcher.svg  style="width:128px;">
+
+
+{{TOCright}}
 
 ## Giriş
 
@@ -25,13 +27,7 @@ Eskiz tezgahı, 2D şekillerin kesin geometrik tanımları izlemesine izin veren
 
 </div>
 
-
-{{TOCright}}
-
-<img alt="" src=images/FC_ConstrainedSketch.png  style="width:450px;">
-
-
-*
+<img alt="" src=images/FC_ConstrainedSketch.png  style="width:450px;"> *
 Tamamen kısıtlanmış bir eskiz*
 
 ## Basics of constraint sketching 

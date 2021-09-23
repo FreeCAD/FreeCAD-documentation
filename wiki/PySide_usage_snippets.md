@@ -1,5 +1,4 @@
 # PySide usage snippets
-
  
 
 ## Introduction

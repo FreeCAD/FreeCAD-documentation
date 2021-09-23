@@ -1,5 +1,4 @@
 # WebTools Workbench/de
-
  <img alt="Arbeitsbereichssymbol WebWerkzeuge" src=images/WebTools_workbench_icon.svg  style="width:128px;">
 
 ## Übersicht

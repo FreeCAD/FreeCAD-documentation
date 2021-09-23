@@ -1,15 +1,12 @@
 ---
 - GuiCommand:/ru
-   Name:PartDesign Groove
-   Name/ru:PartDesign Groove
-   Workbenches:[PartDesign](PartDesign_Workbench/ru.md), Complete
-   MenuLocation:PartDesign → Паз
+   Name/ru:Проточка
+   Name:PartDesign_Groove
+   MenuLocation:PartDesign → Create a substractive feature → Проточка
+   Workbenches:[PartDesign](PartDesign_Workbench/ru.md)
 ---
 
-
-</div>
-
-## Description
+## Описание
 
 The **Groove** tool revolves a selected sketch or profile about a given axis, cutting out material from the support .
 
@@ -18,7 +15,7 @@ The **Groove** tool revolves a selected sketch or profile about a given axis, cu
 
 *Above: sketch (A) is revolved around axis (B); resulting groove on solid (C) is shown right.*
 
-## Usage
+## Применение
 
 1.  Select the sketch to be revolved.
 
@@ -28,7 +25,7 @@ The **Groove** tool revolves a selected sketch or profile about a given axis, cu
 3.  Set the Groove parameters (see next section).
 4.  Press **OK**.
 
-## Options
+## Опции
 
 When creating a groove, the **Groove parameters** dialogue offers several parameters specifying how the sketch should be revolved.
 
@@ -57,7 +54,7 @@ When creating a groove, the **Groove parameters** dialogue offers several parame
 |                                                                          | If checked, the direction of revolution is reversed from default clockwise to counterclockwise .                                                                                                                                                                                                        |
 +--------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-## Properties
+## Свойства
 
 Below are properties which can be defined after creation of the feature. Data properties *Base* and *Axis* are uneditable .
 

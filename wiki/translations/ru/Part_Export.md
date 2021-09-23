@@ -1,16 +1,13 @@
 ---
 - GuiCommand:/ru
-   Name:Part Export‏‎
-   Name/ru:Part Export‏‎
-   MenuLocation:Деталь → Экспорт в CAD
+   Name/ru:Экспорт в CAD
+   Name:Part_Export‎
+   MenuLocation:Part → Экспорт в CAD ...
    Workbenches:[Part](Part_Workbench/ru.md)
-   SeeAlso:[Std Export](Std_Export/ru.md)
+   SeeAlso:[Импорт CAD...](Part_Import/ru.md), [Экспортировать...](Std_Export/ru.md), [Import Export](Import_Export/ru.md)
 ---
 
-
-</div>
-
-## Введение
+## Описание
 
 
 <div class="mw-translate-fuzzy">
@@ -20,7 +17,7 @@
 
 </div>
 
-## Использование
+## Применение
 
 
 <div class="mw-translate-fuzzy">

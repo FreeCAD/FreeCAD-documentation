@@ -37,7 +37,7 @@ With this tool, the internal subtracted objects will all become visible or hidde
 <div class="mw-translate-fuzzy">
 
 1.  Seleccione un objeto Arch que tenga sustracciones
-2.  Seleccione el menú Arch → Utilidades → **<img src="images/Arch_ToggleSubs‏‎.png" width=16px> [Toggle Subcomponents‏‎](Arch_ToggleSubs/es‏‎.md)
+2.  Seleccione el menú Arch → Utilidades → **<img src="images/Arch_ToggleSubs‏‎.svg" width=16px> [Toggle Subcomponents‏‎](Arch_ToggleSubs/es‏‎.md)
 **
 
 

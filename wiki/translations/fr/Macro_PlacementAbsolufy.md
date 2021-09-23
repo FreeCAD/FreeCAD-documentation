@@ -2,7 +2,6 @@
 
 
 
-
 {{Macro
 |Name=PlacementAbsolufy
 |Name/fr=PlacementAbsolufy

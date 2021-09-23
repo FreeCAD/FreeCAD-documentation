@@ -1,5 +1,4 @@
 # IfcPlusPlus
-
  
 
 ## Description

@@ -11,9 +11,17 @@
 
 </div>
 
+### Description
+
+
+<div class="mw-translate-fuzzy">
+
 ### Descripción
 
 Esta herramienta crea una corriente de aire angular en las caras seleccionadas de un objeto. Se crea una nueva entrada de borrador separada (seguida de un número secuencial si ya existen borradores en el documento) en el árbol de proyecto.
+
+
+</div>
 
 +-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | ![Select one or more faces on the object before starting the tool. Here, 2 faces have been selected.](images/PartDesign_Draft-01.png ) ![Showing Draft Parameter in TaskPanel.](images/PartDesign_Draft-02.png ) ![2 faces have been added, and a 10 deg. draft applied. The bottom plane has remained dimensionally stable, while the draft has made the top plane smaller.](images/PartDesign_Draft-03.png ) ![The Neutral Plane has been changed to the Top Surface. Now, the top plane has stayed dimensionally stable, while the draft has made the bottom plane larger.](images/PartDesign_Draft-04.png ) ![Pull direction is set to the lower right edge, resulting in the draft pulling to the left.](images/PartDesign_Draft-05.png ) ![Checking the Reverse Direction box has applied an inward draft rather than outward.](images/PartDesign_Draft-06.png ) | ### Usage                                                                                                                                                                                                                                                                                                                                                                                                  |

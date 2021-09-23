@@ -1,9 +1,10 @@
 ---
-- GuiCommand:
-   Name:TechDraw PageTemplate
-   MenuLocation:TechDraw → Insert Page using Template
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
-   SeeAlso:[TechDraw Default Page](TechDraw_PageDefault.md), [TechDraw Templates](TechDraw_Templates.md)
+- GuiCommand:/ru
+   Name/ru:Вставить страницу используя шаблон
+   Name:TechDraw_PageTemplate
+   MenuLocation:TechDraw → Вставить страницу используя шаблон
+   Workbenches:[TechDraw](TechDraw_Workbench/ru.md)
+   SeeAlso:[Вставить страницу по умолчанию](TechDraw_PageDefault/ru.md), [Шаблоны](TechDraw_Templates/ru.md)
 ---
 
 ## Описание

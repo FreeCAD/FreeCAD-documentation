@@ -1,5 +1,4 @@
 # Aeroplane/ko
-
  {{TutorialInfo
 |Topic=Part Workbench
 |Level=Beginner

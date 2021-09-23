@@ -1,5 +1,4 @@
 # App Link/pt-br
-
  {{TOCright}}
 
 ## Introdução
@@ -27,6 +26,6 @@ An [App Link](App_Link.md) (`App::Link` class) is derived from the basic [App Do
 See the full list of properties in the [Std LinkMake](Std_LinkMake.md) page.
 
 
-{{Std Base
+{{Std Base navi
 
 }} {{Document objects navi}} 

@@ -1,5 +1,4 @@
 # Gui Command/tr
-
  The GuiCommand is one of the most important functions of FreeCAD in the main interaction point of the user. Every time the user selects a menu item or presses a toolbar button it activates a GuiCommand. Some of the attributes of a GuiCommand are:
 
 -   Defines a name
@@ -44,7 +43,7 @@ We try as much as possible to respect this chart, so the color of the icons has 
 ## Quality requirements 
 
 
-{{VeryImportantMessage|The [Complete Workbench](Complete_Workbench.md) is deprecated, it no longer holds each of the commands in FreeCAD.}}
+**The [Complete Workbench](Complete_Workbench.md) is deprecated, it no longer holds each of the commands in FreeCAD.**
 
 There are a lot of GuiCommands (tools) in FreeCAD which are experimental or used for a short time to test implementation of new features. These GuiCommands are mostly in the dedicated workbenches like Part, Mesh or Cam. To ensure a good user experience the workbench *Complete* was created. This workbench incorporates all GuiCommands which meet certain quality requirements which are described here:
 

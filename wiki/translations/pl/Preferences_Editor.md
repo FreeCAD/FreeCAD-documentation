@@ -5,7 +5,6 @@
 
 
 
-
 {{TOCright}}
 
 ## Wprowadzenie
@@ -130,7 +129,7 @@ W zakładce **Dokument** można wybrać następujące opcje:
 | **Zapisywanie miniatur do pliku projektu, przy zapisywaniu dokumentu**                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 |                                                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 +-------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|                                                                                        | Jeśli to pole jest zaznaczone, logo programu FreeCAD ![24px](images/FreeCAD-logo.svg) zostanie dodane do miniaturki. Ta opcja działa tylko wtedy, gdy opcja **Zapisywanie miniatur do pliku projektu** jest aktywna.                                                                                                                                                                                                                                                                                                                |
+|                                                                                        | Jeśli to pole jest zaznaczone, logo programu FreeCAD ![24px](images/Freecad.svg) zostanie dodane do miniaturki. Ta opcja działa tylko wtedy, gdy opcja **Zapisywanie miniatur do pliku projektu** jest aktywna.                                                                                                                                                                                                                                                                                                                     |
 | **Dodaj logo programu do wygenerowanej miniaturki.**                                      |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 |                                                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 +-------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -608,41 +607,41 @@ Ustawienia Import-Export wpływają na sposób importowania i eksportowania plik
 ## Preferencje Środowisk pracy 
 
 
-{{VeryImportantMessage|Ta sekcja jest niekompletna i wymaga podania stron z opisem preferencji, każdego podstawowego Środowiska pracy.}}
+**Ta sekcja jest niekompletna i wymaga podania stron z opisem preferencji, każdego podstawowego Środowiska pracy.**
 
 Preferencje dla bardziej popularnych stołów warsztatowych są linkowane poniżej. Niektóre stoły warsztatowe nie mają preferencji. Inne opcjonalne Środowiska pracy mogą nie być tutaj wymienione. Te linki są również wymienione w [:Category:Preferences](:Category:Preferences.md)
 
--   [konfiguracja środowiska Arch](Arch_Preferences.md)
--   [konfiguracja środowiska Draft](Draft_Preferences.md)
+-   [konfiguracja środowiska Architektura](Arch_Preferences/pl.md)
+-   [konfiguracja środowiska Rysunek Roboczy](Draft_Preferences/pl.md)
 -   Drawing Preferences {{Obsolete/pl|0.16}}
--   [konfiguracja środowiska Fem](FEM_Preferences.md)
+-   [konfiguracja środowiska MES](FEM_Preferences.md)
 -   Image Preferences *(brak)*
 -   Inspection Preferences *(brak)*
 -   Mesh Design Preferences *(brak)*
--   [konfiguracja środowiska OpenSCAD](OpenSCAD_Preferences.md)
+-   [konfiguracja środowiska OpenSCAD](OpenSCAD_Preferences/pl.md)
 
 .
 
--   Part Preferences: stanowisko pracy Part korzysta również z [ustawień PartDesign](PartDesign_Preferences.md).
--   [konfiguracja środowiska PartDesign](PartDesign_Preferences.md)
--   [konfiguracja środowiska Path](Path_Preferences.md)
+-   Part Preferences: stanowisko pracy Część korzysta również z [ustawień środowiska Projekt Części](PartDesign_Preferences/pl.md).
+-   [konfiguracja środowiska Projekt Części](PartDesign_Preferences/pl.md)
+-   [konfiguracja środowiska Path](Path_Preferences/pl.md)
 -   Plot Preferences *(brak)*
 -   Points Preferences *(brak)*
--   [konfiguracja środowiska Raytracing](Raytracing_Preferences.md)
+-   [konfiguracja środowiska Raytracing](Raytracing_Preferences/pl.md)
 -   Reverse Engineering Preferences *(brak)*
 -   Robot Preferences *(brak)*
--   [konfiguracja środowiska Sketcher](Sketcher_Preferences.md)
+-   [konfiguracja środowiska Szkicownik](Sketcher_Preferences/pl.md)
 -   Spreadsheet Preferences *(brak)*
 -   [konfiguracja środowiska Start](Start_Preferences.md)
 -   Surface Preferences *(brak)*
--   [konfiguracja środowiska TechDraw](TechDraw_Preferences#Preferences.md)
+-   [konfiguracja środowiska Rysunek Techniczny](TechDraw_Preferences#Preferences/pl.md)
 -   Test Framework Preferences *(brak)*
 -   Web Preferences *(brak)*
 
 ### Zewnętrzne Środowiska pracy 
 
 
-{{VeryImportantMessage|Ta sekcja jest niekompletna i wymaga podania stron preferencji dla każdego [zewnętrznego Środowiska pracy](External_Workbenches.md)}}
+**Ta sekcja jest niekompletna i wymaga podania stron preferencji dla każdego [zewnętrznego Środowiska pracy](External_Workbenches.md)**
 
 .
 
@@ -651,17 +650,12 @@ Preferencje dla bardziej popularnych stołów warsztatowych są linkowane poniż
 
 ## Tworzenie skryptów 
 
-Dostęp do preferencji można uzyskać ze skryptów środowiska Python, używając odpowiedniej ścieżki w [Edytorze parametrów](Std_DlgParameter/pl.md). Na przykład, preferencja **Edycja → Preferencje → Import-Eksport → DXF → Opcje importu → Łącz geometrie** pojawia się w **Narzędzia → Edycja parametrów → BaseApp → Preferences → Mod → Draft → dxfCreatePart** i ma typ `Boolean`. Można więc uzyskać do niej dostęp w środowisku Python za pomocą następującego kodu: 
-```python
-# get:
-App.ParamGet("User parameter:BaseApp/Preferences/Mod/Draft").GetBool('dxfCreatePart')
-# set:
-App.ParamGet("User parameter:BaseApp/Preferences/Mod/Draft").SetBool('dxfCreatePart', True)
-```
 
-Znalezienie, który parametr jest używany do przechowywania jakiej opcji z edytora Preferencji może wymagać nieco poszukiwań, ale [Edytor parametrów](Std_DlgParameter/pl.md) oferuje możliwość przeszukiwania, co powinno być pomocne.
+**See also:**
 
-Modyfikowanie preferencji innych części programu FreeCAD jest raczej złym pomysłem, chyba że robi się to na życzenie użytkownika. Jednakże ustawianie parametrów może być użyte do określenia parametrów dla własnego środowiska pracy, a pobieranie może być użyte do przestrzegania istniejących parametrów.
+[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+
+For a scripting example see [Std DlgParameter](Std_DlgParameter.md).
 
 ## Powiązane
 

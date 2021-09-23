@@ -1,7 +1,6 @@
 # PySide Beginner Examples/de
 
 
-
 ## Einführung
 
 Der Zweck dieser Seite ist es, Beispiele auf Anfängerniveau für die [PySide](PySide/de.md) GUI Verwalter (es gibt begleitende Seiten [Zwischen PySide Beispiele](PySide_Intermediate_Examples/de.md) und [Fortgeschrittene PySide Beispiele](PySide_Advanced_Examples/de.md)).

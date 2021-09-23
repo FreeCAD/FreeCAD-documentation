@@ -2,8 +2,7 @@
 
 
 
-
-{{VeryImportantMessage|LuxCoreRender n'est pas officiellement pris en charge par l'[atelier Raytracing](Raytracing_Workbench/fr.md) mais par le nouvel [https://github.com/FreeCAD/FreeCAD-render atelier Render], qui est destiné à le remplacer. Il ne doit pas être confondu avec le [Projet Render](Render_project/fr.md), arrêté et dépassé. L'atelier Render peut être installé via le [Gestionnaire d'Addon](Std_AddonMgr/fr.md).}}
+**LuxCoreRender n'est pas officiellement pris en charge par l'[atelier Raytracing](Raytracing_Workbench/fr.md) mais par le nouvel [https://github.com/FreeCAD/FreeCAD-render atelier Render], qui est destiné à le remplacer. Il ne doit pas être confondu avec le [Projet Render](Render_project/fr.md), arrêté et dépassé. L'atelier Render peut être installé via le [Gestionnaire d'Addon](Std_AddonMgr/fr.md).**
 
 
 <div class="mw-translate-fuzzy">
@@ -25,7 +24,7 @@
 ## Atelier Raytracing 
 
 
-{{VeryImportantMessage|Officiellement, l'[atelier Raytracing](Raytracing_Workbench/fr.md) ne fonctionne pas avec LuxCoreRender, mais uniquement avec l'ancien [atelier Raytracing](LuxRender]]. De plus, l'[[Raytracing_Workbench/fr.md) est remplacé par le nouvel [projet Render](https://github.com/FreeCAD/FreeCAD-render atelier Render]], qui est destiné à le remplacer. Il ne doit pas être confondu avec le [[Render_project/fr.md), arrêté et dépassé. Le atelier Render Workbench peut être installé via le [Gestionnaire d'Addon](Std_AddonMgr/fr.md). L'information ici est fournie parce que par défaut FreeCAD est toujours livré (à partir de 0.19-24276) avec l'atelier Raytracing}}
+**Officiellement, l'[atelier Raytracing](Raytracing_Workbench/fr.md) ne fonctionne pas avec LuxCoreRender, mais uniquement avec l'ancien [atelier Raytracing](LuxRender]]. De plus, l'[[Raytracing_Workbench/fr.md) est remplacé par le nouvel [projet Render](https://github.com/FreeCAD/FreeCAD-render atelier Render]], qui est destiné à le remplacer. Il ne doit pas être confondu avec le [[Render_project/fr.md), arrêté et dépassé. Le atelier Render Workbench peut être installé via le [Gestionnaire d'Addon](Std_AddonMgr/fr.md). L'information ici est fournie parce que par défaut FreeCAD est toujours livré (à partir de 0.19-24276) avec l'atelier Raytracing**
 
 .
 
@@ -35,7 +34,7 @@
 ## Raytracing Workbench 
 
 
-{{VeryImportantMessage|Officially the [Raytracing workbench](Raytracing_Workbench.md) does not work with LuxCoreRender, only with the outdated [LuxRender](LuxRender.md). Also the [Raytracing workbench](Raytracing_Workbench.md) is being superseded by the new [https://github.com/FreeCAD/FreeCAD-render Render Workbench], which is intended as its replacement. This must not be confused with the halted and outdated [Render project](Render_project.md). The Render Workbench can be installed through the [Addon Manager](Std_AddonMgr.md). The information here is provided because by default FreeCAD is still shipped (as of 0.19-24276) with the Raytracing Workbench}}
+**Officially the [Raytracing workbench](Raytracing_Workbench.md) does not work with LuxCoreRender, only with the outdated [LuxRender](LuxRender.md). Also the [Raytracing workbench](Raytracing_Workbench.md) is being superseded by the new [https://github.com/FreeCAD/FreeCAD-render Render Workbench], which is intended as its replacement. This must not be confused with the halted and outdated [Render project](Render_project.md). The Render Workbench can be installed through the [Addon Manager](Std_AddonMgr.md). The information here is provided because by default FreeCAD is still shipped (as of 0.19-24276) with the Raytracing Workbench**
 
 ### Stable Version 
 

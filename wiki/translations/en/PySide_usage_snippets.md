@@ -1,7 +1,6 @@
 # PySide usage snippets/en
 
 
-
 ## Introduction
 
 These are snippets of code that are useful when [creating interfaces](Dialog_creation.md) with [PySide](PySide.md).

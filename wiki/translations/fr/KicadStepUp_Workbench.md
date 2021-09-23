@@ -1,7 +1,6 @@
 # KicadStepUp Workbench/fr
 
 
-
 <img alt="Icône de l\'atelier externe KicadStepUp" src=images/Kicad-StepUp-tools-WB.svg  style="width:128px;">
 
 

@@ -1,5 +1,4 @@
 # Symbols Library Workbench
-
  
 
 ## Introduction

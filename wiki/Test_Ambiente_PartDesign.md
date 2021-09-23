@@ -1,9 +1,8 @@
 # Test Ambiente PartDesign
 
-
-{{VeryImportantMessage|This section is work in progress, for test. For now only in Italian.
+**This section is work in progress, for test. For now only in Italian.
 There are no links that direct to this page.
-Sezione in costruzione.}}
+Sezione in costruzione.**
 
 # PartDesign e i suoi strumenti 
 

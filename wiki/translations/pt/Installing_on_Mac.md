@@ -5,7 +5,6 @@
 
 
 
-
 <div class="mw-translate-fuzzy">
 
 A instalação em Mac OSX pode ser feita num passo usando o Instalador. {{DownloadMacStable}}

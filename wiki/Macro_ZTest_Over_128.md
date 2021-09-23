@@ -1,7 +1,6 @@
 # Macro ZTest Over 128
 
-
-{{VeryImportantMessage|Not translate this page<br />This macro is only used by programmers<br />Test characters ASCII over 127<br />}}
+**Not translate this page<br />This macro is only used by programmers<br />Test characters ASCII over 127<br />**
 
 
 {{Macro

@@ -1,5 +1,4 @@
 # Macro FC element selector
-
   {{Macro
 |Name=Macro FC element selector
 |Icon=Macro_FC_element_selector.png

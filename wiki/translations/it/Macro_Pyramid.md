@@ -1,5 +1,4 @@
 # Macro Pyramid/it
-
  {{Macro/it
 |Name=Macro Pyramid
 |Icon=Pyramidicon.svg

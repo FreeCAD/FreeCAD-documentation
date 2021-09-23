@@ -1,14 +1,13 @@
 # Raytracing Workbench/ru
-
  
 
 
-{{VeryImportantMessage|Верстак Raytracing по сути устарел. Ведётся новая разработка  [https://github.com/FreeCAD/FreeCAD-render верстака Render], который планируется как замена. Этот верстак полностью программируется на Python, поэтому его легче расширить.
+**Верстак Raytracing по сути устарел. Ведётся новая разработка  [https://github.com/FreeCAD/FreeCAD-render верстака Render], который планируется как замена. Этот верстак полностью программируется на Python, поэтому его легче расширить.
 
 Тем не менее, информация на этой странице в общем полезна для нового верстака, и оба модуля в основе работают одинаково.
-}}
+**
 
-<img alt="Иконка верстака Raytracing" src=images/Workbench_Inspection.svg  style="width:128px;">
+<img alt="Логотип верстака Raytracing" src=images/Workbench_Raytracing.svg  style="width:128px;">
 
 ## Введение
 

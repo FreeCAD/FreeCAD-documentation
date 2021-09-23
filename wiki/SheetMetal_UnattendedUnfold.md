@@ -4,7 +4,7 @@
    MenuLocation:SheetMetal → Unattended Unfold
    Workbenches:[SheetMetal](SheetMetal_Workbench.md)
    Shortcut:**U**
-   SeeAlso:<img src="images/SheetMetal_Unfold.svg" width=16px> [SheetMetal Unfold](SheetMetal_Unfold.md)
+   SeeAlso:[SheetMetal Unfold](SheetMetal_Unfold.md)
 ---
 
 ## Description
@@ -13,7 +13,7 @@ The <img alt="" src=images/SheetMetal_UnattendedUnfold.svg  style="width:24px;">
 
 If the parent body of a selected planar face has been subject to unfolding before, this tool will skip the menu in the task panel. Otherwise it will show an error message asking for either \"set a Manual K-factor\" or \"use a Material Definition Sheet\".
 
-:   With the first use of the <img alt="" src=images/SheetMetal_Unfold.svg  style="width:16px;"> [Unfold](SheetMetal_Unfold.md) command the parent body\'s label received a suffix (such as *\_material\_0.5din*) and after that it is ready to be use with this tool.
+With the first use of the <img alt="" src=images/SheetMetal_Unfold.svg  style="width:16px;"> [Unfold](SheetMetal_Unfold.md) command the parent body\'s label received a suffix (such as *\_material\_0.5din*) and after that it is ready to be use with this tool.
 
 ## Usage
 

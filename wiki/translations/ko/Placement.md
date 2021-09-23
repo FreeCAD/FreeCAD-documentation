@@ -1,7 +1,6 @@
 # Placement/ko
 
 
-
 ## Overview
 
 **Placement** is how FreeCAD specifies the location and attitude (orientation) of an object in space. Placement can be specified in multiple forms and manipulated via [scripting](Python_scripting_tutorial#Vectors_and_placements.md), the [property editor](Property_editor.md) or selecting **Edit → Placement...** to open the [Placement task panel](Std_Placement.md).

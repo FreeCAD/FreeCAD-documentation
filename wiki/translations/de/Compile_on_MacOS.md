@@ -5,9 +5,8 @@
 
 
 
-
-{{VeryImportantMessage|Es gibt einen experimentellen FreeCAD Docker Container, der für die FreeCAD Entwicklung getestet wird. Lies mehr darüber unter [[Compile on Docker/de|
-Kompilieren unter Docker]]}}
+**Es gibt einen experimentellen FreeCAD Docker Container, der für die FreeCAD Entwicklung getestet wird. Lies mehr darüber unter [[Compile on Docker/de|
+Kompilieren unter Docker]]**
 
 
 {{TOCright}}

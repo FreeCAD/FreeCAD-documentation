@@ -2,7 +2,6 @@
 
 
 
-
 {{TutorialInfo/es
 |Topic=Modelización
 |Level=Principiante

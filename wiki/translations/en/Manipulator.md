@@ -1,5 +1,4 @@
 # Manipulator/en
-
  }
 
 ## Description

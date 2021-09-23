@@ -2,7 +2,6 @@
 
 
 
-
 {{Macro/fr
 |Name=Macro Align Camera to Working Plane
 |Icon=Macro_Align_Camera_to_Working_Plane.png
@@ -17,7 +16,7 @@
 
 ## Description
 
-Cette macro aligne la caméra sur le plan courant [Draft Working Plane](Draft_SelectPlane/fr.md)
+Cette macro aligne la caméra sur le [Draft Plan de travail](Draft_SelectPlane/fr.md) en cours.
 
 ## Utilisation
 
@@ -26,17 +25,17 @@ Cette macro aligne la caméra sur le plan courant [Draft Working Plane](Draft_Se
 
 ## Script
 
-ToolBar Icon ![](images/Macro_Align_Camera_to_Working_Plane.png )
+Icône de la barre d\'outils ![](images/Macro_Align_Camera_to_Working_Plane.png )
 
 **Macro\_Align\_Camera\_to\_Working\_Plane.FCMacro**
 
 
-{{MacroCode|code=
+```python
 import FreeCAD,FreeCADGui
 c = FreeCADGui.ActiveDocument.ActiveView.getCameraNode()
 r = FreeCAD.DraftWorkingPlane.getRotation().Rotation.Q
 c.orientation.setValue(r)
-}}
+```
 
 
 

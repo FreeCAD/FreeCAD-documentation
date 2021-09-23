@@ -5,7 +5,6 @@
 
 
 
-
 {{Manual:TOC/de}}
 
 Wenn dein Modell nicht direkt von einer Maschine gedruckt oder gefräst werden kann, z. B. ist es zu groß (ein Gebäude) oder es erfordert manuellen zusammenbau, nachdem die Teile fertig sind, musst du normalerweise einer anderen Person erklären, wie man das macht. In technischen Bereichen (Ingenieurwesen, Architektur usw.) geschieht dies meist anhand von Zeichnungen. Die Zeichnungen werden der Person ausgehändigt, die für den Zusammenbau des Endprodukts verantwortlich ist, und erklären, wie man das macht.
@@ -57,15 +56,27 @@ In der folgenden Übung werden wir sehen, wie eine einfache Zeichnung eines Stuh
 
 Wir werden nun Bemaßungen und Hinweise auf unserer Zeichnung platzieren. Es gibt zwei Arten, Bemaßungen zu einem Modell hinzuzufügen: Eine ist, die Bemaßungen mit dem <img alt="" src=images/Draft_Dimension.svg  style="width:16px;"> [Abmessung](Draft_Dimension/de.md) Werkzeug des [Entwurf Arbeitsbereich](Draft_Workbench/de.md) im 3D-Modell zu platzieren und dann mit dem <img alt="" src=images/TechDraw_DraftView.svg  style="width:16px;"> [Entwurfsansicht](TechDraw_DraftView/de.md)-Werkzeug (das mit einer Bemaßung oder einer Gruppe, die Bemaßungen enthält, benutzt werden kann) eine Ansicht dieser Bemaßungen auf unsererem Blatt zu platzieren, oder wir können mit dem [Zeichnungsbemaßungs Arbeitsbereich](https://github.com/hamish2014/FreeCAD_drawing_dimensioning), der aus den [FreeCAD Erweiterungen](https://github.com/FreeCAD/FreeCAD-addons) installierbar ist, Dinge direkt auf dem Zeichenblatt tun. Wir werden hier die letztere Methode benutzen.
 
+
+<div class="mw-translate-fuzzy">
+
 -   Drücke die <img alt="" src=images/Techdraw_Toggleframe.svg  style="width:16px;"> Umschalttaste zum Einschalten der Knoten.
 -   Verwende **Strg** + Linker Mausklick, um die beiden Knoten auszuwählen, zwischen denen du den Abstand messen möchtest.
 -   Drücke die <img alt="" src=images/TechDraw_Dimension_Length.svg  style="width:16px;"> [Abmessungslänge](TechDraw_Dimension_Length.md)-Schaltfläche.
 
+
+</div>
+
 ![](images/Exercise_TechDraw_05.png )
+
+
+<div class="mw-translate-fuzzy">
 
 -   Wiederhole den Vorgang, bis alle Abmessungen, die du angeben möchtest, platziert sind. Verwende die <img alt="" src=images/TechDraw_Dimension_Vertical.svg  style="width:16px;"> [Vertike Abmessung](TechDraw_Dimension_Vertical/de.md) und <img alt="" src=images/TechDraw_Dimension_Horizontal.svg  style="width:16px;"> [Horizontale Abmessung](TechDraw_Dimension_Horizontal/de.md) Werkzeuge nach Bedarf.
 -   Nimm dir eine Minute Zeit, um dir die [Eigenschaften](TechDraw_Dimension_Length/de#Properties.md) des Bemaßungsobjekts in der Combo-Ansicht anzusehen.
 -   Bitte beachte, dass bei der Bemaßung einer [axonometrischen](https://en.wikipedia.org/wiki/Axonometric_projection) Ansicht (z.B. isometrische Ansicht) anstelle einer [Mehrfachansicht](https://en.wikipedia.org/wiki/Multiview_projection) Ansicht (z.B. Vorderansicht), wie wir es hier getan haben, du das <img alt="" src=images/TechDraw_Dimension_Link.svg  style="width:16px;"> [Dimension Link](TechDraw_Dimension_Link.md) Werkzeug verwenden musst, um eine genaue Bemaßung zu erhalten.
+
+
+</div>
 
 ![](images/Exercise_TechDraw_07.png )
 

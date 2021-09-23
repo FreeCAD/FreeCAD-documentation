@@ -53,7 +53,7 @@ For now the tool assumes the following
 -   Arch Fence was introduced in FC v0.19 by user furti.
 -   [Forum thread](https://forum.freecadweb.org/viewtopic.php?t=36149) discussing Arch Fence functionality
 
-## Скрипты
+## Программирование
 
 The Fence tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function:
 

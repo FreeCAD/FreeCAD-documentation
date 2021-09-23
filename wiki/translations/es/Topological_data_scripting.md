@@ -2,22 +2,15 @@
 
 
 
-
 {{TOCright}}
 
 ## Introducción
 
-
-<div class="mw-translate-fuzzy">
-
-Aquí te explicaremos cómo controlar el [Módulo Pieza](Part_Workbench/es.md) directamente desde el intérprete de FreeCAD Python, o desde cualquier script externo. Asegúrate de navegar por la sección [Guiónes](Scripting/es.md) y las páginas [FreeCAD Fundamentos de guiónes](FreeCAD_Scripting_Basics/es.md) si necesitas más información sobre cómo funciona el guiónes en Python en FreeCAD. Si eres nuevo en Python, es una buena idea leer primero la [Introducción a Python](Introduction_to_Python/es.md).
-
-
-</div>
+Aquí te explicaremos cómo controlar el módulo [Pieza](Part_Workbench/es.md) directamente desde el intérprete de Python de FreeCAD, o desde cualquier guión externo. Asegúrate de navegar por la sección [Guionización](Scripting/es.md) y las páginas [Básicos de Guionización FreeCAD](FreeCAD_Scripting_Basics/es.md) si necesitas más información sobre cómo funciona el guionización de Python en FreeCAD. Si eres nuevo en Python, es una buena idea leer primero la [Introducción a Python](Introduction_to_Python/es.md).
 
 ### Ver también 
 
--   [Pieza Guiónes](Part_scripting/es.md)
+-   [Guionización Pieza](Part_scripting/es.md)
 -   [OpenCASCADE](OpenCASCADE/es.md)
 
 ## Diagrama de clase 

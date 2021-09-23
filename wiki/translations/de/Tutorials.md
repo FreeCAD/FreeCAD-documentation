@@ -5,7 +5,6 @@
 
 
 
-
 {{TOCright}}
 
 Diese Seite präsentiert eine Auswahl von qualitativ hochwertigen schriftlichen Tutorien. Eine vollständige, unsortierte Liste der Tutorien findest du in [:Category:Tutorials](:Category:Tutorials.md), eine vollständige und sortierbare Liste findest du unter [Tabelle unten](Tutorials/de#Tutorien_-_Umfassende_Liste.md).
@@ -100,7 +99,7 @@ Körper aus FreeCAD nach Wavefront.obj exportieren, die Datei in Blender importi
 ## Roboter Arbeitsbereich 
 
 
-{{VeryImportantMessage|Die Entwicklung des [Roboter-Arbeitsbereich](Robot_Workbench/de.md)s aktuell eingestellt. Bitte frage im Forum nach neuen Nachrichten oder alternativen Arbeitsbereichen.}}
+**Die Entwicklung des [Roboter-Arbeitsbereich](Robot_Workbench/de.md)s aktuell eingestellt. Bitte frage im Forum nach neuen Nachrichten oder alternativen Arbeitsbereichen.**
 
 Robot Tutorial RobotSimulation.gif\|link=[Roboter Tutorium](Robot_tutorial/de.md) (v0.17)
 Simuliere die Bewegung eines Industrieroboters: richte eine Trajektorie ein, richte die Ausgangsposition ein, ändere die Roboterposition, füge verschiedene Wegpunkte ein und simuliere die Roboterbewegung.
@@ -122,7 +121,7 @@ Diese Tutorien beziehen sich auf das Programmieren auch mit Skripten. Sie wenden
 ## Zeichnungen
 
 
-{{VeryImportantMessage|Die Entwicklung des [Drawing-Arbeitsbereich](Drawing_Workbench/de.md)s wurde in FreeCAD 0.16 gestoppt. Verwende stattdessen den [TechDraw Arbeitsbereich](TechDraw_Workbench/de.md).}}
+**Die Entwicklung des [Drawing-Arbeitsbereich](Drawing_Workbench/de.md)s wurde in FreeCAD 0.16 gestoppt. Verwende stattdessen den [TechDraw Arbeitsbereich](TechDraw_Workbench/de.md).**
 
 Drawing\_tutorial\_result.png\|link=[Drawing tutorial/de](Drawing_tutorial/de.md)\|[Drawing tutorial/de](Drawing_tutorial/de.md)\|[Zeichnungstutorium](Special:MyLanguage/Drawing_tutorial.md) (v0.16)
 Dies ist die wesentliche Einführung in die Werkzeuge des Arbeitsbereichs Zeichnung zur Erstellung von Entwürfen. Exercise drawing 01.jpg\|link=[Manual:Generating 2D drawings/de](Manual:Generating_2D_drawings/de.md)\|[2D Zeichnungen erstellen](Manual:Generating_2D_drawings/de.md) (v0.16)

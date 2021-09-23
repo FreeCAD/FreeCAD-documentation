@@ -1,7 +1,6 @@
 # Symbols Library Workbench/fr
 
 
-
 ## Introduction
 
 

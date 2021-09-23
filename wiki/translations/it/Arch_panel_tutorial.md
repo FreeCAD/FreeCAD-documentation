@@ -2,7 +2,6 @@
 
 
 
-
 {{TutorialInfo/it
 |Topic= Modellare un pannello in Arch
 |Level= Base

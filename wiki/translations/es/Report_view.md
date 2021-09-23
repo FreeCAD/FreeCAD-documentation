@@ -1,7 +1,6 @@
 # Report view/es
 
 
-
 ## Introducción
 
 La [Vista de informe](Report_view/es.md) es un panel que muestra los mensajes de texto de los procesos y herramientas de FreeCAD. Está disponible en el menú **{{StdMenu|[Vista](Std_View_Menu/es.md)** → Paneles → Vista de informe}}.

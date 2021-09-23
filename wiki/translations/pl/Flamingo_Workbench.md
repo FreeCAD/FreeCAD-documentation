@@ -1,6 +1,5 @@
 # Flamingo Workbench/pl
-
-  {{VeryImportantMessage|Flamingo Workbench (Python2/Qt4) has been superseded by the Dodo Workbench (Python3/Qt5). This wiki page will highlight the differences between these two workbenches. Currently [Dodo Workbench](Dodo_Workbench.md) links here.}}
+  **Flamingo Workbench (Python2/Qt4) has been superseded by the Dodo Workbench (Python3/Qt5). This wiki page will highlight the differences between these two workbenches. Currently [Dodo Workbench](Dodo_Workbench.md) links here.**
 
 ## Introduction
 
@@ -67,7 +66,7 @@ Dialog to create over multiple edges selected in the viewport the beams of the t
 With the button **Select** it\'s possible to change the type of beam.
 
 
-{{VeryImportantMessage|Dodo: this function has been replaced within the "Insert framebranch" dialog with the "Add single" pushbutton}}
+**Dodo: this function has been replaced within the "Insert framebranch" dialog with the "Add single" pushbutton**
 
 
 :   3\) Insert a path (class insertPath)
@@ -89,13 +88,13 @@ Other profiles can be drafted in the model and dragged inside the group \"Profil
 The orientation of the DWires may influence the rendering of beams.
 
 
-{{VeryImportantMessage|Dodo: changed the scope of this function.
+**Dodo: changed the scope of this function.
 In dodo this opens a dialog from which it's possible to create 10 shapes for beam's section with customized dimensions:
 * hollow and full square
 * hollow and full circle
 * T, I, C, L, Z
 * omega
-It's also possible to change the position of center or edit an existing section.}}
+It's also possible to change the position of center or edit an existing section.**
 
 
 :   5\) FrameLine manager (class FrameLineManager)
@@ -240,7 +239,7 @@ If no length is specified, the default is 200 units (just a convenient length, i
 **Apply** button allow to apply a different lenght or Nominal diameter to the tubes currently selected.
 
 
-{{VeryImportantMessage|Dodo: added a pie-menu (keyboard shortcut: "Z") to create "pype" objects: this is intended to insert faster refinements to the drawing}}
+**Dodo: added a pie-menu (keyboard shortcut: "Z") to create "pype" objects: this is intended to insert faster refinements to the drawing**
 
 
 :   2\) Insert a curve

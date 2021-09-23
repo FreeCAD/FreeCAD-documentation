@@ -1,6 +1,5 @@
 # Development roadmap/ro
-
- {{VeryImportantMessage|Important: many of these roadmaps are not up to date or perhaps abandoned. This page and the pages it links to most likely contain obsolete info. A 'soft' roadmap can be found on the [http://www.freecadweb.org/tracker/roadmap_page.php bugtracker] but for now there isn't a 'hard' roadmap. There are many efforts going on simultaneously.}}
+ **Important: many of these roadmaps are not up to date or perhaps abandoned. This page and the pages it links to most likely contain obsolete info. A 'soft' roadmap can be found on the [http://www.freecadweb.org/tracker/roadmap_page.php bugtracker] but for now there isn't a 'hard' roadmap. There are many efforts going on simultaneously.**
 
 FreeCAD - deși utilizabilă în multe aplicații - este la începutul unei lungi călătorii în marele curent CAD. Mai sunt încă multe de făcut pentru a ajunge la o stare în care să putem concura cu software-ul comercial.
 

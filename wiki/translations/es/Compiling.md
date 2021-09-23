@@ -2,7 +2,6 @@
 
 
 
-
 <div class="mw-translate-fuzzy">
 
 Cada sistema operativo tiene su propia página para compilar FreeCAD en la [Documentación en Línea de Ayuda](Online_Help_Toc/es.md).

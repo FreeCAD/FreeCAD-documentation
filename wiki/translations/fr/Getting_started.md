@@ -5,7 +5,6 @@
 
 
 
-
 {{TOCright}}
 
 ## Avant-propos 
@@ -28,8 +27,10 @@ Tout d\'abord (si ce n\'est pas déjà fait) téléchargez et installez FreeCAD.
 
 ## Explorer l\'interface 
 
-<img alt="" src=images/FreeCAD_interface_base_divisions.svg  style="width:1024px;"> 
-*Interface standard de FreeCAD dans la version 0.19.*
+<img alt="" src=images/FreeCAD_interface_base_divisions.svg  style="width:1024px;">
+
+
+*L'interface standard de FreeCAD*
 
 
 **Pour une explication complète voir [Interface](Interface/fr.md).**
@@ -49,12 +50,11 @@ Tout d\'abord (si ce n\'est pas déjà fait) téléchargez et installez FreeCAD.
 
 Le concept principal de l\'interface FreeCAD est qu\'il est composé d\'[ateliers](workbenches/fr.md). Un atelier est une collection d\'outils adaptés pour une tâche spécifique, comme travailler avec des [maillages](Mesh_Workbench/fr.md), faire du [dessin 2D](Draft_Workbench/fr.md), ou faire des [esquisses contraintes](Sketcher_Workbench/fr.md). Vous pouvez changer l\'[atelier](Std_Workbench.md) actuel avec le sélecteur d\'ateliers (7). Vous pouvez [personnaliser](Interface_Customization/fr.md) les outils inclus dans chaque atelier, ajouter des outils provenant d\'autres ateliers ou même créer vos propres outils, que nous appelons [macros](Macros/fr.md). Les points de départ largement utilisés sont [l\'atelier PartDesign](PartDesign_Workbench/fr.md) et [l\'atelier Part](Part_Workbench/fr.md).
 
-Lorsque vous démarrez FreeCAD pour la première fois, le Start center s\'affiche. Voici son apparence sous la version 0.18 :
+Lorsque vous démarrez FreeCAD pour la première fois, la page Start s\'affiche. Voici son apparence sous la version 0.18 :
 
-<img alt="" src=images/Start_center_0.18_screenshot.jpg  style="width:1024px;"> 
-*Pour la version de FreeCAD 0.17, voir cette [capture d'écran](Media:Startcenter0.17.jpg.md).*
+<img alt="" src=images/Start_center_0.18_screenshot.jpg  style="width:1024px;">
 
-Le Start Center (centre de démarrage) permet de passer rapidement à l\'un des ateliers les plus usuels, ouvrir un des fichiers récents, ou voir les dernières nouvelles du monde de FreeCAD. Vous pouvez modifier l\'atelier par défaut dans l\'[éditeur de préférences](Preferences_Editor/fr.md).
+La page Start permet de passer rapidement à l\'un des ateliers les plus usuels, ouvrir un des fichiers récents ou voir les dernières nouvelles du monde de FreeCAD. Vous pouvez modifier l\'atelier par défaut dans l\'[éditeur de préférences](Preferences_Editor/fr.md).
 
 ## Naviguer dans l\'espace 3D 
 

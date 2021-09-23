@@ -34,23 +34,10 @@ Příkaz Kopírovat je součástí kopírování objektů [Document](Document_st
 -   When you are working in a FreeCAD text window, an input box or a spreadsheet, the standard keyboard shortcut **Ctrl**+**C**, in almost all cases, does not call the **Std Copy** command but uses the Copy function from the OS instead.
 -   It is not possible to copy-paste native objects between FreeCAD and other applications.
 
-## Scripting
-
-The **Std Copy** command can be applied after selecting one or more objects in the [Tree view](Tree_view.md):
-
-
-```python
-FreeCADGui.runCommand('Std_Copy')
-FreeCADGui.runCommand('Std_Paste')
-```
-
-The selection can be manual (by using the mouse), or via the [Python console](Python_console.md).
-To know more about selecting objects programmatically, refer to [Selection methods](Selection_methods.md).
-
 
 
 
 
 {{Std Base navi
 
-}}  
+}} 

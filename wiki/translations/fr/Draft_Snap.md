@@ -5,12 +5,11 @@
 
 
 
-
 {{TOCright}}
 
 ## Description
 
-Dans l\'<img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [atelier Draft](Draft_Workbench/fr.md) et l\'<img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [atelier Arch](Arch_Workbench/fr.md), vous pouvez créer une géométrie en sélectionnant des points dans la [Vue 3D](3D_view/fr.md) ou en saisissant des coordonnées dans le [Panneau des tâches](Task_panel/fr.md) des commandes. Une autre façon de sélectionner des points est l\'aimantation. L\'aimantation permet de sélectionner des points géométriques exacts sur des objets existants ou définis par ces objets. Vous pouvez par exemple vous aimanter à l\'extrémité d\'une ligne, au centre d\'un cercle ou à l\'intersection de deux bords.
+Dans l\'<img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [atelier Draft](Draft_Workbench/fr.md) et l\'<img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [atelier Arch](Arch_Workbench/fr.md), vous pouvez créer une géométrie en sélectionnant des points dans la [Vue 3D](3D_view/fr.md) ou en saisissant des coordonnées dans le [Panneau des tâches](Task_panel/fr.md) des commandes. Une autre façon de sélectionner des points est l\'aimantation. L\'aimantation permet de sélectionner des points géométriques exacts sur des objets existants ou définis par ces objets ou la grille. Vous pouvez par exemple vous aimanter à l\'extrémité d\'une ligne, au centre d\'un cercle ou à l\'intersection de deux bords.
 
 L\'aimantation est disponible avec la plupart des commandes de [Draft](Draft_Workbench/fr.md) et [Arch](Arch_Workbench/fr.md).
 

@@ -1,5 +1,4 @@
 # FEM project/ro
-
  Acesta este planul proiectului pentru integrarea MEF FreeCAD ca parte a foii de parcurs [Development roadmap](Development_roadmap.md).
 
 ## Unități de măsură 

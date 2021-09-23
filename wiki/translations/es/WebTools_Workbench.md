@@ -1,5 +1,4 @@
 # WebTools Workbench/es
-
  <img alt="Icono del ambiente de trabajo HerramientasWeb" src=images/WebTools_workbench_icon.svg  style="width:128px;">
 
 ## Resumen

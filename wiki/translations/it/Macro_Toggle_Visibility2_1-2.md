@@ -1,5 +1,4 @@
 # Macro Toggle Visibility2 1-2/it
-
  {{Macro/it
 |Name=Toggle Visibility2 1-2
 |Translate=Commuta visibilità

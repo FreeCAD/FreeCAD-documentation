@@ -71,9 +71,17 @@
 -   Loft will be created in the order that cross sections were added
 -   If the sketch has inner geometry, i.e. the loft is supposed to have holes, then the order in which the sketch geometry is created should be the same for all sections: either start all sections with the inner geometry or start them all with the outer. Otherwise an invalid loft can be created where inner and outer walls cross.
 
+## Known Issues 
+
+
+<div class="mw-translate-fuzzy">
+
 ## Temas conocidos 
 
 -   Algunos modos de fallo convertirán la parte en negro
+
+
+</div>
 
 ## Enlaces
 

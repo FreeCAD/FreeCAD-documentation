@@ -1,5 +1,4 @@
 # Import from STL or OBJ/ko
-
  {{TutorialInfo
 |Topic= Import from STL or OBJ
 |Level= Beginner

@@ -2,7 +2,6 @@
 
 
 
-
 {{TutorialInfo
 |Topic= Modeling an architectural panel
 |Level= Beginner

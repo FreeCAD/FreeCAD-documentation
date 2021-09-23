@@ -3,15 +3,8 @@
 
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
-
-<img alt="Иконка Std Base" src=images/Freecad.svg  style="width:128px;">
+<img alt="Логотип стандартных команд и инструментов" src=images/Freecad.svg  style="width:128px;">
 
 
 {{TOCright}}
@@ -66,13 +59,7 @@
 -   [\"Выражения\"](Std_Expressions.md): Действия с выражениями. {{Version/ru|0.19}}
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Std Base navi

@@ -1,5 +1,4 @@
 # Misc templates Full/fr
-
  Ces feuilles de dessin ont tous les champs libres en écriture (22 champs) et sont dédiées à la [Macro\_CartoucheFC\_Full](Macro_CartoucheFC_Full/fr.md)
 
 Le même travail peut être réalisé directement dans FreeCAD

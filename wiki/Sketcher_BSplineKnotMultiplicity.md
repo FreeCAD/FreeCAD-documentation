@@ -21,4 +21,4 @@ Shows or hides the display of the knot multiplicity of a B-spline. See [this pag
 
 
 
- {{Sketcher Tools navi}}  
+ {{Sketcher Tools navi}} 

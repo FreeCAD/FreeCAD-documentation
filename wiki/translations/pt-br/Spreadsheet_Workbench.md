@@ -1,6 +1,11 @@
 # Spreadsheet Workbench/pt-br
 
- 
+{{Page_in_progress}}
+
+
+
+
+
 
 <img alt="ícone da bancada de trabalho Spreadsheet" src=images/Workbench_Spreadsheet.svg  style="width:128px;">
 
@@ -40,6 +45,16 @@ A <img alt="" src=images/Workbench_Spreadsheet.svg  style="width:24px;"> [bancad
 -    **Preto**e **Branco** definir o primeiro plano e as cores de fundo das células selecionadas.
 
 Menu de contexto das linhas e colunas da planilha: clique com o botão direito do mouse no cabeçalho de uma linha ou coluna para inserir uma nova linha acima ou uma nova coluna à esquerda, ou para excluir a linha/coluna atual. Você também pode selecionar várias linhas ou colunas para excluí-las.<small>(v0.20)</small> Você também pode selecionar onde as novas linhas/colunas serão inseridas. Além disso, para inserir por exemplo 3 novas colunas de uma vez, selecione 3 colunas e use o menu contextual que agora se oferecerá para inserir 3 colunas.
+
+## Spreadsheet editing 
+
+As noted above under Tools, right click on a row or column header produces a pulldown menu that allows you to delete the row/column or insert a new blank one. Formula references to cells that get moved by these operations get patched to refer to the new location, You will get a warning and a request to confirm if a row or column deletion would abolish a reference that\'s used in your model.
+
+Cut/copy/paste can be used to edit data. Cut and copy will both operate on single cells, rows, columns, rectangles, or indeed any selection group of cells you set up. Cut clears the content of selected cells; both cut and copy stash the cell content in an internal paste buffer. A paste operation writes the buffered data in such a way that the content of the uppermost-leftmost cell of the buffered set is dropped in the cell where the cursor is when you paste; other buffered content is dropped where it will have the same relationship to that target as it originally did to the upper-left cell of your cut/paste set.
+
+An important caveat: Cut/copy/paste operations do *not* fix up formula references. If you move the content of a cell, formulas which referred to the old location will break. If the old location becomes empty, the breakage will become visible as the expression evaluator will display \#ERR in dependent cells. Properties are also not carried along.
+
+The Undo key can be use to back out any of these operations. However, it undoes a cell at a time - thus, multiple Undos may be requited to back out a single copy or paste.
 
 ## Propriedades celulares 
 
@@ -198,8 +213,6 @@ Para lidar com a configuração da página necessária para impressão, as plani
 ## Limitações atuais 
 
 Verificações FreeCAD para dependências cíclicas. Por projeto, essa verificação pára no nível do objeto da planilha. Como conseqüência, não se deve ter uma planilha que contenha tanto células cujos valores são usados para especificar parâmetros para o modelo, quanto células cujos valores usam a saída do modelo. Por exemplo, você não pode ter células especificando o comprimento, largura e altura de um objeto, e outra célula que faz referência ao volume total da forma resultante. Esta restrição pode ser superada com duas planilhas: uma usada como fonte de dados para parâmetros de entrada no modelo e a outra usada para cálculos baseados nos dados geométricos resultantes.
-
-Quando as células são copiadas, somente o conteúdo (expressão/valor) é copiado. As [propriedades da célula](#Propriedades_celulares.md) descritas acima não são copiadas.
 
 ## Noções básicas de script 
 

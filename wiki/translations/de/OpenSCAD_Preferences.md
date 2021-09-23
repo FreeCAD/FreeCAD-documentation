@@ -1,5 +1,4 @@
 # OpenSCAD Preferences/de
-
  Der Einstellungsbildschirm des [OpenSCAD-Arbeitsbereichs](OpenSCAD_Workbench/de.md) befindet sich in [Voreinstellungseditor](Preferences_Editor/de.md), **Bearbeiten → Einstellungen → OpenSCAD**
 
 Es gibt nur einen Reiter: Allgemeine Einstellungen.

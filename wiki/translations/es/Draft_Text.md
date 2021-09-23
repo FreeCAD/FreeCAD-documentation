@@ -22,7 +22,7 @@ La herramienta Texto inserta una parte de un texto en un punto dado en el docume
 
 </div>
 
-To insert a text element with an arrow use the [Draft Label](Draft_Label.md) command instead.
+To create a text element with an arrow use the [Draft Label](Draft_Label.md) command instead.
 
 
 <div class="mw-translate-fuzzy">

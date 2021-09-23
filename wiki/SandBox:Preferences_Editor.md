@@ -1,5 +1,4 @@
 # SandBox:Preferences Editor
-
  
 
 
@@ -630,7 +629,7 @@ The Import-Export settings affect how files are imported and exported. They are 
 ## Workbench preferences 
 
 
-{{VeryImportantMessage|This section is incomplete and requires mentioning the preference pages of each core workbench}}
+**This section is incomplete and requires mentioning the preference pages of each core workbench**
 
 Preferences for the more common workbenches are linked below. Some workbenches have no preferences. Other optional workbenches may not be listed. These links are also listed in [:Category:Preferences](:Category:Preferences.md)
 
@@ -662,7 +661,7 @@ Preferences for the more common workbenches are linked below. Some workbenches h
 ### External workbenches 
 
 
-{{VeryImportantMessage|This section is incomplete and requires mentioning the preference pages of each [External workbench](External_workbenches.md)}}
+**This section is incomplete and requires mentioning the preference pages of each [External workbench](External_workbenches.md)**
 
 -   [A2plus Preferences](A2plus_Workbench#Preferences.md)
 -   Ship Preferences (none)

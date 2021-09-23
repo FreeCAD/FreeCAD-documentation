@@ -1,6 +1,8 @@
 # Macro SuperWire/de
 
- {{Macro/de
+
+
+{{Macro/de
 |Name=SuperWire
 |Icon=Macro_SuperWire.png
 |Description=Dieses Makro erstellt einen Draht aus ausgewählten Objekten (Linien und Bögen), auch wenn normale Drahtherstellungsmethoden (z. B. das Upgrade-Tool) fehlschlagen
@@ -20,12 +22,12 @@ Achtung, Sie benötigen eine aktuelle Version von FreeCAD, damit dies funktionie
 
 ## Skript
 
-ToolBar Icon ![](images/Macro_SuperWire.png )
+Werkzeugleisten-Symbol ![](images/Macro_SuperWire.png )
 
 **Macro\_SuperWire.FCMacro**
 
 
-{{MacroCode|code=
+```python
 
 import FreeCAD,FreeCADGui,Part
 try:
@@ -47,7 +49,7 @@ else:
    else:
        FreeCAD.Console.PrintError("SuperWire operation failed!")
 
-}}
+```
 
 
 

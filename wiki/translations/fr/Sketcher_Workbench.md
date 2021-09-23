@@ -4,8 +4,10 @@
 
 
 
-
 <img alt="Icône de l\'atelier Sketcher" src=images/Workbench_Sketcher.svg  style="width:128px;">
+
+
+{{TOCright}}
 
 ## Introduction
 
@@ -13,12 +15,7 @@ L\'<img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [atelier 
 
 L\'atelier Sketcher comporte des \"contraintes\", permettant aux formes 2D de suivre des définitions géométriques précises en termes de longueur, d\'angles et de relations (horizontalité, verticalité, perpendicularité, etc.). Un solveur de contraintes calcule l\'étendue contrainte de la géométrie 2D et permet une exploration interactive des degrés de liberté de l\'esquisse.
 
-
-{{TOCright}}
-
-<img alt="" src=images/FC_ConstrainedSketch.png  style="width:450px;">
-
-
+<img alt="" src=images/FC_ConstrainedSketch.png  style="width:450px;"> 
 *Une esquisse pleinement contrainte.‎*
 
 ## Les principes de l\'esquisse contrainte 

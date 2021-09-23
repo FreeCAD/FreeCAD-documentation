@@ -5,7 +5,6 @@
 
 
 
-
 {{TOCright}}
 
 ## Przedmowa
@@ -28,8 +27,10 @@ Przede wszystkim pobierz i zainstaluj FreeCAD. Informacje na temat aktualnych we
 
 ## Poznawaj interfejs użytkownika 
 
-<img alt="" src=images/FreeCAD_interface_base_divisions.svg  style="width:1024px;"> 
-*Standardowy interfejs FreeCAD w wersji 0.19.*
+<img alt="" src=images/FreeCAD_interface_base_divisions.svg  style="width:1024px;">
+
+
+*Standardowy interfejs FreeCAD.*
 
 
 **zobacz szczegółową prezentację [Interface](Interface/pl.md).**
@@ -47,14 +48,13 @@ Przede wszystkim pobierz i zainstaluj FreeCAD. Informacje na temat aktualnych we
 :   10\. Okienko umożliwiające wybór [Środowisk pracy](Std_Workbench/pl.md), dla wykonania zamierzonych prac stosownych dla kązdego ze [Środowisk pracy](workbenches/pl.md).
 :   11\. [Standardowe menu](Standard_Menu/pl.md), które zawiera zbiór podstawowych funkcji programu.
 
-Główna koncepcja interfejsu FreeCAD opiera się na tym, że jest on podzielony na [środowiska pracy](Workbenches/pl.md). Każde z nich jest zbiorem narzędzi dostosowanych do realizacji konkretnych zadań, takich jak praca z [siatkami](Mesh_Workbench/pl.md), lub rysowanie [obiektów 2D](Draft_Workbench/pl.md), lub [związanymi szkicami](Sketcher_Workbench/pl.md). Możesz przełączyć bieżące środowisko pracy za pomocą [okna wyboru](Std_Workbench/pl.md). Możesz [dostosowywać ustawienia](Interface_customization/pl.md) narzędzi zawartych w każdym środowisku pracy, dodawać narzędzia z innych środowisk. Możliwe jest również dodanie narzędzi utworzonych samodzielnie, które nazywamy [makrodefinicjami](macros/pl.md) *(w skrócie makro)*. Najczęściej stosowanymi narzędziami bazowymi są środowiska [Projekt Części](PartDesign_Workbench/pl.md) i [Część](Part_Workbench/pl.md).
+Główna koncepcja interfejsu FreeCAD opiera się na tym, że jest on podzielony na [środowiska pracy](Workbenches/pl.md). Każde z nich jest zbiorem narzędzi dostosowanych do realizacji konkretnych zadań, takich jak praca z [siatkami](Mesh_Workbench/pl.md), lub rysowanie [obiektów 2D](Draft_Workbench/pl.md), lub [związanymi szkicami](Sketcher_Workbench/pl.md). Możesz przełączyć bieżące środowisko pracy za pomocą [okna wyboru](Std_Workbench/pl.md). Możesz [dostosowywać ustawienia](Interface_Customization/pl.md) narzędzi zawartych w każdym środowisku pracy, dodawać narzędzia z innych środowisk. Możliwe jest również dodanie narzędzi utworzonych samodzielnie, które nazywamy [makrodefinicjami](macros/pl.md) *(w skrócie makro)*. Najczęściej stosowanymi narzędziami bazowymi są środowiska [Projekt Części](PartDesign_Workbench/pl.md) i [Część](Part_Workbench/pl.md).
 
-Kiedy uruchamiasz FreeCAD po raz pierwszy, zobaczysz centrum startowe. Oto jak to wygląda dla wersji **0.18**:
+Kiedy uruchamiasz FreeCAD po raz pierwszy, zobaczysz stronę startową. Oto jak to wygląda dla wersji **0.18**:
 
-<img alt="" src=images/Start_center_0.18_screenshot.jpg  style="width:1024px;"> 
-*Dla FreeCAD 0.17 obejrzyj widok ekranu [centrum startu](Media:Startcenter0.17.jpg.md).*
+<img alt="" src=images/Start_center_0.18_screenshot.jpg  style="width:1024px;">
 
-Centrum startowe pozwala na szybkie przejście do jednego z najchętniej używanych Środowisk pracy, otwarcie jednego z ostatnich plików lub zobaczenie najnowszych wiadomości ze świata FreeCAD. Możesz zmienić domyślne środowisko pracy w [Edytorze preferencji](Preferences_Editor/pl.md).
+Strona startowa pozwala na szybkie przejście do jednego z najchętniej używanych Środowisk pracy, otwarcie jednego z ostatnich plików lub zobaczenie najnowszych wiadomości ze świata FreeCAD. Możesz zmienić domyślne środowisko pracy w [Edytorze preferencji](Preferences_Editor/pl.md).
 
 ### Nawigacja w przestrzeni 3D 
 

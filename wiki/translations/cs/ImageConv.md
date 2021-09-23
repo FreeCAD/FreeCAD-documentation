@@ -1,7 +1,6 @@
 # ImageConv/cs
 
 
-
 **ImageConv** je program používaný pro konverzi obrázků z různých formátů do formátu XPM, který lze kompilovat do FreeCADu.
 
 ## Building

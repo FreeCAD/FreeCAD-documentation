@@ -1,7 +1,6 @@
 # Crowdin Administration/pl
 
 
-
 ## Funkcje
 
 -   Tłumacz

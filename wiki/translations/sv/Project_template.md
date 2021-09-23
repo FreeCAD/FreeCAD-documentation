@@ -1,5 +1,4 @@
 # Project template/sv
-
  This template is the guideline for a FreeCAD development project. It follows the rules of the [Getting Things Done (GTD)](http://en.wikipedia.org/wiki/Getting_Things_Done#Methodology) process. The projects are collected in the [Development roadmap](Development_roadmap.md).
 
 *Lets start by looking at the Natural Planning Model. The Natural Planning Model really is nothing new. It is not some fantastic new model devised by David Allen to help us plan and manage our projects. it is however, the planning model that is recommended by David in his Getting Things Done book. The Natural Planning Model is based upon the planning that we do on a daily basis, using just our brains. For example, think of how many tasks we plan on a day by day basis that we do not even bother to write down as these are normally classed as mundane tasks. For example, getting dressed, or driving to work. All of these can be thought of tasks but we just go ahead and plan them without any thought whatsoever. We utilize the planning aspects of our brain that are conditioned for this natural type of planning.*

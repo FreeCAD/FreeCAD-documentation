@@ -4,7 +4,6 @@
 
 
 
-
 <img alt="El icono del Ambiente de trabajo Arquitectura" src=images/Workbench_Arch.svg  style="width:128px;">
 
 

@@ -1,7 +1,6 @@
 # Custom icon in tree view/fr
 
 
-
 ## Introduction
 
 Il s\'agit d\'un exemple de modification de l\'icône d\'un [viewprovider](Viewprovider/fr.md) personnalisé qui est normalement ajouté aux [objets définis par script](scripted_objects/fr.md).

@@ -2,7 +2,6 @@
 
 
 
-
 <div class="mw-translate-fuzzy">
 
 ## Introduzione
@@ -147,7 +146,7 @@ Notare che se la macro originale è stata scaricata tramite Addon Manager, nel c
 ## General Notes 
 
 -   In the example \'InitGui.py\' script above, the function named \'runStartupMacros()\' may be changed, so long as you also change the other four references to it, so they all match.
--   This script will be run prior to the auto loading of your desired startup workbench in the FreeCAD Preferences, [Preferences\_Editor\#General\_settings](Preferences_Editor#General_settings.md).
+-   This script will be run prior to the auto loading of your desired startup workbench in the FreeCAD Preferences, [General settings](Preferences_Editor#General_settings.md).
 
 ### Linux
 
@@ -160,7 +159,7 @@ Notare che se la macro originale è stata scaricata tramite Addon Manager, nel c
 
 ## Related
 
--   [Extra\_python\_modules\#LazyLoader](Extra_python_modules#LazyLoader.md) LazyLoader is a python module that allows deferred loading.
+-   [LazyLoader](Extra_python_modules#LazyLoader.md) is a Python module that allows deferred loading.
 
 
 {{Powerdocnavi

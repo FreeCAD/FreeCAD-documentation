@@ -4,7 +4,6 @@
 
 
 
-
 <img alt="Icona di base" src=images/Freecad.svg  style="width:128px;">
 
 

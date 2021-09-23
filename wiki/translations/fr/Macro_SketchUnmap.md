@@ -1,5 +1,4 @@
 # Macro SketchUnmap/fr
-
  {{Macro/fr
 |Name=SketchUnmap
 |Description=Cette macro réinitialise un emplacement absolu de l’esquisse et crée éventuellement un plan de référence.<br/>Cette macro a été écrite principalement pour contourner le problème de dénomination topologique susceptible de casser un modèle lorsqu'une esquisse a été attachée directement ou indirectement à une face ou à un objet. tout autre élément topologique.<br/>

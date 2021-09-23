@@ -1,7 +1,6 @@
 # Path FAQ/de
 
 
-
 ## Häufig gestellte Fragen Pfad Arbeitsbereich 
 
 ## Wie viele Achsen kann der Pfad Arbeitsbereich handhaben? 

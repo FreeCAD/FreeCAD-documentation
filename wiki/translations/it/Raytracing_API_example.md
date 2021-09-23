@@ -1,7 +1,6 @@
 # Raytracing API example/it
 
 
-
 ## Introduzione
 
 I moduli `Raytracing` e `RaytracingGui` forniscono diversi metodi per scrivere i contenuti della scena come dati povray o luxrender.

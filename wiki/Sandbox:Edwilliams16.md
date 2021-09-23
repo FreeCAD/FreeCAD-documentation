@@ -1,5 +1,4 @@
 # Sandbox:Edwilliams16
-
 ## Manipulating Vectors in FreeCAD 
 
 Vectors are ubiquitous in FreeCAD, describing point locations and displacements.

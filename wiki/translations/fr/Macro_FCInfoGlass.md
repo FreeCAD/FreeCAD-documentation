@@ -1,5 +1,4 @@
 # Macro FCInfoGlass/fr
-
  {{Macro/fr
 |Name=Macro FCInfoGlass
 |Description=Donne une série d'informations sur l'objet avec affichage dans la vue 3D.

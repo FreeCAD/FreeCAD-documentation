@@ -2,10 +2,6 @@
 
 
 
-
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -39,7 +35,9 @@ Sono supportate le versioni DXF R12 - 2007.
 
 </div>
 
-3D objects inside a DXF file are stored under a binary ACIS/SAT blob, which at the moment cannot be read by FreeCAD. Simpler entities like 3DFACEs, though, are supported.
+3D solids inside a DXF file are stored under a binary ACIS/SAT blob, which at the moment cannot be read by FreeCAD.
+
+### C++ importer 
 
 
 <div class="mw-translate-fuzzy">
@@ -61,6 +59,21 @@ Possono essere importati i seguenti tipi di oggetti DXF:
 
 </div>
 
+### Legacy importer 
+
+This importer can import the following DXF objects:
+
+-   lines
+-   polylines (and lwpolylines)
+-   arcs
+-   circles
+-   ellipses
+-   splines
+-   3D faces
+-   texts and mtexts
+-   leaders
+-   layers
+
 ## Esportazione
 
 
@@ -70,6 +83,18 @@ I file vengono esportati nel formato DXF R12 che può essere gestito da molte ap
 
 
 </div>
+
+### C++ exporter 
+
+Some of the features and limitations of this exporter are:
+
+-   All FreeCAD 2D geometry is exported, except [Draft CubicBezCurves](Draft_CubicBezCurve.md), [Draft BezCurves](Draft_BezCurve.md) and [Draft Points](Draft_Point.md).
+-   Straight edges from faces of 3D objects are exported, but curved edges only if they are on a plane parallel to the XY plane of the global coordinate system. Note that a DXF created from 3D objects will contain duplicate lines.
+-   Texts and dimensions are not exported.
+-   Colors are ignored.
+-   Layers are mapped from object names.
+
+### Legacy exporter 
 
 
 <div class="mw-translate-fuzzy">
@@ -101,7 +126,18 @@ Per ulteriori informazioni, consultare: [Importare i file DXF in FreeCAD](FreeCA
 
 ## Preferenze
 
+
+<div class="mw-translate-fuzzy">
+
 Per ulteriori informazioni, consultare: [Preferenze di Importa/Esporta](Import_Export_Preferences/it.md).
+
+
+</div>
+
+## Scripting
+
+
+<div class="mw-translate-fuzzy">
 
 ## Script
 
@@ -110,20 +146,40 @@ Per ulteriori informazioni, consultare: [Preferenze di Importa/Esporta](Import_E
 
 [API Draft](Draft_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-Si possono esportare elementi in DXF usando la seguente funzione: 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+Si possono esportare elementi in DXF usando la seguente funzione:
+
+
+</div>
+
+
 ```python
 importDXF.export(objectslist, filename, nospline=False, lwPoly=False)
 ```
 
-Esempio: 
+-   For the Windows OS: use a {{FileName|/}} (forward slash) as the path separator in {{Incode|filename}}.
+
+Esempio:
+
+
 ```python
-import Draft, importDXF
+import FreeCAD as App
+import Draft
+import importDXF
 
-Polygon1 = Draft.makePolygon(3, radius=500)
-Polygon2 = Draft.makePolygon(5, radius=1500)
+doc = App.newDocument()
 
-objects = [Polygon1, Polygon2]
+polygon1 = Draft.make_polygon(3, radius=500)
+polygon2 = Draft.make_polygon(5, radius=1500)
 
+doc.recompute()
+
+objects = [polygon1, polygon2]
 importDXF.export(objects, "/home/user/Pictures/myfile.dxf")
 ```
 

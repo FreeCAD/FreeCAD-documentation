@@ -1,5 +1,4 @@
 # Macro Dump Objects/en
-
  {{Macro
 |Name=Macro Dump Objects
 |Description=This macro generates a listing of all objects in the current document - the list can be in a window or on the Report view.

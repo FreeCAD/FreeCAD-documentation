@@ -14,7 +14,7 @@ L\'outil Exporter la page enregistre la page de dessin en cours sous forme de fi
 
 ## Utilisation
 
-1.  Appuyez sur le bouton **<img src="images/TechDraw_SaveSVG.png" width=16px> [Export Page as SVG](TechDraw_SaveSVG/fr.md)**.
+1.  Appuyez sur le bouton **<img src="images/TechDraw_ExportPageSVG.svg" width=16px> [Exporter une page au format SVG](TechDraw_ExportPageSVG/fr.md)**.
 2.  Une boîte de dialogue d\'enregistrement de fichier s\'ouvrira. Sélectionnez un emplacement et un nom de fichier.
 
 ## Remarques
@@ -44,4 +44,4 @@ Notez que le module FreeCADGui doit être actif pour utiliser cette fonction.
 
 {{TechDraw Tools navi
 
-}}  
+}} 

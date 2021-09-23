@@ -8,6 +8,9 @@
    Version:0.15
 ---
 
+
+</div>
+
 ## Descripción
 
 Selecciona el eje horizontal de un croquis.
@@ -24,4 +27,4 @@ Selecciona el eje horizontal de un croquis.
 
 {{Sketcher Tools navi
 
-}}  
+}} 

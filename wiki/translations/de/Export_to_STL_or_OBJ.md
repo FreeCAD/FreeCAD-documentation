@@ -2,7 +2,6 @@
 
 
 
-
 {{TutorialInfo/de
 |Topic= Export nach STL oder OBJ
 |Level=Anfänger

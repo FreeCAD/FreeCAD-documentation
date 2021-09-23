@@ -1,5 +1,4 @@
 # Artwork Assembly3/en
-
  
 
 These icons are in the indicated source path of Realthunder\'s Link Branch:

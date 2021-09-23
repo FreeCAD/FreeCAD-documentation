@@ -2,23 +2,22 @@
 
 
 
-
-{{VeryImportantMessage|
+**
 This roadmap is probably obsolete. For more information see [Development roadmap](Development_roadmap.md).<br>
 If you are not involved with the development discussed here:<br>
 !!! PLEASE DO NOT EDIT OR TRANSLATE !!!
-}}
+**
 
 
 <div class="mw-translate-fuzzy">
 
 
-{{VeryImportantMessage|(2020) Cette page fait référence à une tentative de mise à jour de l'[Atelier Raytracing](Raytracing_Workbench/fr.md), proposé vers 2012. Son auteur d'origine n'ayant jamais terminé la mise en œuvre, ces informations sont obsolètes et ne doivent pas être considérées comme actuelles.
+**(2020) Cette page fait référence à une tentative de mise à jour de l'[Atelier Raytracing](Raytracing_Workbench/fr.md), proposé vers 2012. Son auteur d'origine n'ayant jamais terminé la mise en œuvre, ces informations sont obsolètes et ne doivent pas être considérées comme actuelles.
 </div>
 
 <div class="mw-translate-fuzzy">
 Un nouveau développement est en cours dans l'[https://github.com/FreeCAD/FreeCAD-render Atelier Render], un remplacement complet en Python pour l'[Atelier Raytracing](Raytracing_Workbench/fr.md).
-}}
+**
 
 
 </div>

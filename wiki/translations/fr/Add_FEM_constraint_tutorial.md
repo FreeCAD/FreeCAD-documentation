@@ -2,7 +2,6 @@
 
 
 
-
 {{TutorialInfo/fr
 |Topic=Ajouter des contraintes FEM
 |Level=

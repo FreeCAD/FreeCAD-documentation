@@ -4,7 +4,6 @@
 
 
 
-
 Esta página intenta responder a las preguntas más comunes que se hacen en los foros de FreeCAD. Si tienes un problema o una pregunta sobre FreeCAD, comprueba primero lo que se indica a continuación. Entonces, si no puedes encontrar una respuesta para tu pregunta específica, dirígete al [foro de FreeCAD](http://forum.freecadweb.org/viewforum.php?f=3).
 
 ## Instalación

@@ -1,5 +1,4 @@
 # Artwork/ru
-
   Здесь представлены художественные работы созданные для FreeCAD. Не стесняйтесь повторно использовать их в других приложениях. Если вы хотите внести свой вклад с помощью иконок, пожалуйста, прочитайте [руководство по художественному оформлению](Artwork_Guidelines/ru.md).
 
 ## Различные иконки (пиктограммы) 
@@ -86,10 +85,6 @@
 
 Смотри [Художественное оформление Path](Artwork_Path/ru.md).
 
-### Из папки src/Mod/Plot/ 
-
-Смотри [Художественное оформление Plot](Artwork_Plot/ru.md).
-
 ### Из папки src/Mod/Points/ 
 
 Смотри [Художественное оформление Points](Artwork_Points/ru.md).
@@ -105,10 +100,6 @@
 ### Из папки src/Mod/Robot/ 
 
 Смотри [Художественное оформление Robot](Artwork_Robot/ru.md).
-
-### Из папки src/Mod/Ship/ 
-
-Смотри [Художественное оформление Ship](Artwork_Ship/ru.md).
 
 ### Из папки src/Mod/Sketcher/ 
 
@@ -144,9 +135,29 @@
 
 ## Внешние верстаки и надстройки (addons) 
 
+
+<div class="mw-translate-fuzzy">
+
+### Из папки src/Mod/Plot/ 
+
+
+</div>
+
+Смотри [Художественное оформление Plot](Artwork_Plot/ru.md).
+
 ### Из папки Mod/Reinforcement/ 
 
 Смотри [Художественное оформление Reinforcement](Artwork_Reinforcement/ru.md).
+
+
+<div class="mw-translate-fuzzy">
+
+### Из папки src/Mod/Ship/ 
+
+
+</div>
+
+Смотри [Художественное оформление Ship](Artwork_Ship/ru.md).
 
 ## Некорректные иконки 
 

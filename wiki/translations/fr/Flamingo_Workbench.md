@@ -1,7 +1,6 @@
 # Flamingo Workbench/fr
-
-  {{VeryImportantMessage|L'atelier Flamingo (Python2/Qt4) a été remplacé par l'atelier Dodo (Python3/Qt5).
-Cette page wiki mettra en évidence les différences entre ces deux ateliers.}}
+  **L'atelier Flamingo (Python2/Qt4) a été remplacé par l'atelier Dodo (Python3/Qt5).
+Cette page wiki mettra en évidence les différences entre ces deux ateliers.**
 
 ## Introduction
 
@@ -68,7 +67,7 @@ Boîte de dialogue permettant de créer sur plusieurs arêtes sélectionnées da
 Avec le bouton **Sélectionner**, il est possible de changer le type de poutre.
 
 
-{{VeryImportantMessage|Dodo : cette fonction a été remplacée dans la boîte de dialogue "Insert framebranch" par le bouton "Add single"}}
+**Dodo : cette fonction a été remplacée dans la boîte de dialogue "Insert framebranch" par le bouton "Add single"**
 
 
 :   3\) Insérer un chemin (classe insertPath)
@@ -90,13 +89,13 @@ D\'autres profils peuvent être dessinés dans le modèle et glissés dans le gr
 L\'orientation des fils DWires peut influer sur le rendu des poutres.
 
 
-{{VeryImportantMessage|Dodo: a changé la portée de cette fonction.
+**Dodo: a changé la portée de cette fonction.
 Dans dodo, cela ouvre une boîte de dialogue vous permettant de créer 10 formes pour une section de poutre avec des dimensions personnalisées :
 * creux et carré plein
 * creux et cercle complet
 * T, I, C, L, Z
 * omega
-Il est également possible pour changer la position du centre ou d'éditer une section existante.}}
+Il est également possible pour changer la position du centre ou d'éditer une section existante.**
 
 
 :   5\) Gestionnaire FrameLine (classe FrameLineManager)
@@ -241,7 +240,7 @@ Le bouton **Reverse** permet de faire pivoter de 180 ° le dernier tube créé o
 Le bouton **Apply** permet d\'appliquer une longueur différente ou un diamètre nominal différent aux tubes sélectionnés.
 
 
-{{VeryImportantMessage|Dodo : ajout d'un menu circulaire (raccourci clavier : "Z") pour créer des objets pype (tuyauterie) : ceci est destiné à insérer plus rapidement des améliorations dans le dessin.}}
+**Dodo : ajout d'un menu circulaire (raccourci clavier : "Z") pour créer des objets pype (tuyauterie) : ceci est destiné à insérer plus rapidement des améliorations dans le dessin.**
 
 
 :   2\) Ajouter un coude

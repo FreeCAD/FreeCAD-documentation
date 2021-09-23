@@ -1,6 +1,8 @@
 # Macro Normal Vector/it
 
- {{Macro/it
+
+
+{{Macro/it
 |Name=Normal Vector Macro
 |Icon=Macro_Normal_Vector.png
 |Translate=Vettore normale
@@ -12,9 +14,19 @@
 |Download=[https://www.freecadweb.org/wiki/images/8/8b/Macro_Normal_Vector.png ToolBar Icon]
 }}
 
+## Description
+
+
+<div class="mw-translate-fuzzy">
+
 ## Descrizione
 
 Macro semplice per ottenere l\'output nella console python di un vettore normale alla faccia selezionata in precedenza nella vista 3D.
+
+
+</div>
+
+## Usage
 
 
 <div class="mw-translate-fuzzy">
@@ -36,10 +48,10 @@ ToolBar Icon ![](images/Macro_Normal_Vector.png )
 **Macro\_Normal\_Vector.FCMacro**
 
 
-{{MacroCode|code=
+```python
 
 Gui.Selection.getSelectionEx()[0].SubObjects[0].Faces[0].normalAt(0,0)
-}}
+```
 
 ## Link
 

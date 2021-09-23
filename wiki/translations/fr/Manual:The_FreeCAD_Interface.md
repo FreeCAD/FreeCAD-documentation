@@ -5,10 +5,9 @@
 
 
 
-
 {{Manual:TOC/fr}}
 
-FreeCAD utilise le [Qt framework](https://en.wikipedia.org/wiki/Qt_(software)) pour dessiner et gérer son interface. Ce framework est utilisé par un large éventail d\'applications. Ainsi l\'interface FreeCAD est alors très classique et ne présente pas de difficulté particulière à comprendre. La plupart des boutons sont standards et vous les trouverez où vous les attendez **Fichier → Ouvrir, Modifier → Coller, etc.** Voici l\'apparence de FreeCAD lorsque vous l'ouvrez pour la première fois, juste après l\'installation :
+FreeCAD utilise le [framework Qt](https://fr.wikipedia.org/wiki/Qt) pour dessiner et gérer son interface. Ce framework est utilisé par un large éventail d\'applications. Ainsi l\'interface FreeCAD est alors très classique et ne présente pas de difficulté particulière à comprendre. La plupart des boutons sont standards et vous les trouverez où vous les attendez **Fichier → Ouvrir, Modifier → Coller, etc.** Voici l\'apparence de FreeCAD lorsque vous l'ouvrez pour la première fois, juste après l\'installation :
 
 ![](images/FreeCAD-v0-18-FirstStart.png )
 

@@ -1,5 +1,4 @@
 # ModernUI Workbench/pl
-
  }
 
 <img alt="Ikonka FreeCAD dla środowiska Nowoczesny UI" src=images/ModernUI_workbench_icon.svg  style="width:128px;">

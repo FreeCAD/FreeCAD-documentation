@@ -1,7 +1,6 @@
 # Packaging/es
 
 
-
 Esta página recoge la información sobre el empaquetado de FreeCAD en diferentes plataformas.
 
 -   [Linux Empaquetado](Linux_packaging/es.md). Información sobre AplicaciónImágenes, paquetes Debian, inestables y diarios, y otros.

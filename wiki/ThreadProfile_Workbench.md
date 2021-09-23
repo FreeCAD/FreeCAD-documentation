@@ -1,5 +1,4 @@
 # ThreadProfile Workbench
-
  
 
 ThreadProfile Workbench is a workbench for creating a thread profile, which can be swept along a helix to produce a thread. This workbench is currently under development.

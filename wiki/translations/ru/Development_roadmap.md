@@ -1,6 +1,5 @@
 # Development roadmap/ru
-
- {{VeryImportantMessage|Important: many of these roadmaps are not up to date or perhaps abandoned. This page and the pages it links to most likely contain obsolete info. A 'soft' roadmap can be found on the [http://www.freecadweb.org/tracker/roadmap_page.php bugtracker] but for now there isn't a 'hard' roadmap. There are many efforts going on simultaneously.}}
+ **Important: many of these roadmaps are not up to date or perhaps abandoned. This page and the pages it links to most likely contain obsolete info. A 'soft' roadmap can be found on the [http://www.freecadweb.org/tracker/roadmap_page.php bugtracker] but for now there isn't a 'hard' roadmap. There are many efforts going on simultaneously.**
 
 FreeCAD, хотя и пригоден для многих приложений, находится в начале долгого пути в общепризнанные САПР. Ещё много остаётся делать для достижения уровня, где мы можем соревноваться с коммерческими программами.
 

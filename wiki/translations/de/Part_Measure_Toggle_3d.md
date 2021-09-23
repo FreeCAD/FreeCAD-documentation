@@ -10,9 +10,19 @@
 
 </div>
 
+## Description
+
+
+<div class="mw-translate-fuzzy">
+
 ## Beschreibung
 
 Dieses Werkzeug schaltet die Sichtbarkeit von linearen (rot) und Winkel (blau) Messungen um.
+
+
+</div>
+
+## Usage
 
 
 <div class="mw-translate-fuzzy">
@@ -36,10 +46,4 @@ Dieses Werkzeug schaltet die Sichtbarkeit von linearen (rot) und Winkel (blau) M
 </div>
 
 
-
-
-
-
-
-
-
+ 

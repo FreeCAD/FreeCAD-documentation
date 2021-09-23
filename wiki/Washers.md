@@ -2,7 +2,6 @@
 
 
 
-
 ## Some way to create a washer 
 
 Comparison of some workflows to create a simple washer with FreeCAD. You can create many other workflows.

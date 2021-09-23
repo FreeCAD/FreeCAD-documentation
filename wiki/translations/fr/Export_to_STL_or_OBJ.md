@@ -2,7 +2,6 @@
 
 
 
-
 {{TutorialInfo/fr
 |Topic=Exportation de fichier STL ou OBJ
 |Level=Débutant

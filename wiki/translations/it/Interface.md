@@ -1,5 +1,4 @@
 # Interface/it
-
  {{TOCright}}
 
 ## Introduzione

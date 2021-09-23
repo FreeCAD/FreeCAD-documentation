@@ -1,7 +1,6 @@
 # Macro documentation/it
 
 
-
 ## Descrizione
 
 All macros should be properly documented in the same way [Gui Commands](Gui_Command.md) are documented. They should have an individual wiki page, and should be listed in one of the categories in [Macros recipes](Macros_recipes.md).

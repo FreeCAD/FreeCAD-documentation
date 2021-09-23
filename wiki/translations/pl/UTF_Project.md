@@ -2,11 +2,10 @@
 
 
 
-
-{{VeryImportantMessage|Ten plan jest prawdopodobnie nieaktualny. Więcej informacji można znaleźć na stronie [Plan rozwoju](Development_roadmap.md).<br>
+**Ten plan jest prawdopodobnie nieaktualny. Więcej informacji można znaleźć na stronie [Plan rozwoju](Development_roadmap.md).<br>
 Jeśli nie jesteś zaangażowany w rozwój, o którym tutaj mowa:<br>
 PROSZĘ NIE EDYTOWAĆ ANI NIE TŁUMACZYĆ !!!
-}}
+**
 
 
 {{TOCright}}

@@ -2,7 +2,6 @@
 
 
 
-
 <div id="itsfree" style="text-align:left;color:black;background:#f6f6f6;margin:1em 7em;padding:0.5em 2em;border:2px solid #a7d7f9;">
 
 *Cette version de FreeCAD est dédiée à notre ami Roland Frank [qui nous a quittés en 2017](https://forum.freecadweb.org/viewtopic.php?f=8&t=25673). Il était un membre actif et apprécié du forum FreeCAD, et ses tutoriels vidéo sur les chaînes Youtube [Learn FreeCAD](https://www.youtube.com/watch?v=_HEvhclR4-o&list=PL6fZ68Cq3L8k0JhxnIVjZQN26cn9idJrj) et [BPLFRE](https://www.youtube.com/watch?v=m49z0weonog&list=PLsrwVwvqYb8G4Ri0iz1JIebsOXkgoytAY) ont aidé de nombreuses personnes à démarrer avec FreeCAD.*

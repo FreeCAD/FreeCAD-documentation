@@ -1,7 +1,6 @@
 # Status bar/fr
 
 
-
 ## Introduction
 
 La [barre d\'état](Status_bar/fr.md) est un simple ruban qui apparaît au bas de l\'[interface](interface/fr.md) de FreeCAD.

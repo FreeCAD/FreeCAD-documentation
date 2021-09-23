@@ -87,7 +87,13 @@ Vous êtes prêt à utiliser Elmer dans FreeCAD.
 Le lien suivant donne accès à la [documentation complète pour Elmer](https://www.nic.funet.fi/pub/sci/physics/elmer/doc/). Cela inclut les manuels ainsi que les tutoriels. Notez que la documentation et les fichiers ajoutés avec \"gui\" concernent généralement l\'utilisation de l\'interface graphique Elmer et non l\'implémentation FreeCAD d\'Elmer.
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{FEM Tools navi

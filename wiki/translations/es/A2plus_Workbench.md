@@ -1,5 +1,4 @@
 # A2plus Workbench/es
-
  <img alt="El icono del Ambiente de trabajo A2plus" src=images/A2p_workbench.svg  style="width:128px;">
 
 ## Introducción

@@ -54,9 +54,10 @@ Acest instrument crează o operație tip un buzunar 3D. Un buzunare 3 D ia în c
 
 ## Properties
 
-### Data Tab 
+### Data
 
-#### Base
+
+{{TitleProperty|Base}}
 
 Note: It is suggested that you do not edit the Placement property of path operations. Rather, move or rotate the Path Job model as needed.
 
@@ -109,7 +110,8 @@ Note: It is suggested that you do not edit the Placement property of path operat
 
 -    **Label**: User-provided name of the object (UTF-8)
 
-#### Depth
+
+{{TitleProperty|Depth}}
 
 -    **Clearance Height**: The height needed to clear clamps and obstructions
 
@@ -123,11 +125,13 @@ Note: It is suggested that you do not edit the Placement property of path operat
 
 -    **Step Down**: Incremental Step Down of Tool
 
-#### Face
+
+{{TitleProperty|Face}}
 
 -    **Offset Pattern**: Clearing pattern to use. (Select in which manner the horizontal movements should be done.)
 
-#### Path
+
+{{TitleProperty|Path}}
 
 -    **Active**: make False, to prevent operation from generating code
 
@@ -143,7 +147,8 @@ Note: It is suggested that you do not edit the Placement property of path operat
 
 -    **User Label**: User assigned label
 
-#### Pocket
+
+{{TitleProperty|Pocket}}
 
 -    **Adaptive Pocket Finish**: Use adaptive algorithm to eliminate excessive air milling below planar pocket bottom.
 
@@ -167,13 +172,15 @@ Note: It is suggested that you do not edit the Placement property of path operat
 
 -    **Zig Zag Angle**: Angle of the zigzag pattern
 
-#### Rotation
+
+{{TitleProperty|Rotation}}
 
 Note: Rotation is not available for 3D Pocket as of 0.19.
 
 -    **Enable Rotation**: Enable rotation to gain access to pockets or areas not normal to Z axis.
 
-#### Start Point 
+
+{{TitleProperty|Start Point}}
 
 -    **Start Point**: The custom start point for the path of this operation.
 

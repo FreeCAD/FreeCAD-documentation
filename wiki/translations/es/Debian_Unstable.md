@@ -1,7 +1,6 @@
 # Debian Unstable/es
 
 
-
 [Debian Inestable](https://wiki.debian.org/DebianUnstable) es una distribución rodante utilizada para [Desarrollo de Debian](Debian_development/es.md) y recomendada para usuarios avanzados en el desarrollo y empaquetado de FreeCAD. Los nuevos paquetes están listos tan pronto como se suben y se construyen, a menos que quien los suba los haya marcado para [Debian Experimental](https://wiki.debian.org/DebianExperimental), lo que requiere una instalación explícita (después de alguna configuración para habilitar la distribución extra) mediante sudo apt install -t experimental .
 
 Frecuentemente, la gente que usa Debian Testing debería en realidad usar Debian Inestable; Debian Testing sólo debería considerarse un \"bolsillo de la versión de control de calidad\", ya que, aunque pueda parecer más estable que Unstable, en realidad hay un inconveniente. Los nuevos paquetes se suben a Debian Inestable y migran a Pruebas después de un tiempo, por lo que las correcciones de seguridad y los cambios importantes en el empaquetado pueden retrasarse de forma inapropiada.

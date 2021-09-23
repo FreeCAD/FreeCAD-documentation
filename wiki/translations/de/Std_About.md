@@ -17,7 +17,7 @@ Der Befehl **Std Über** öffnet ein Dialogfenster, das Informationen über das 
 ![](images/Std_About_example.png ) *Das Über FreeCAD Dialogfeld*
 
 
-{{VeryImportantMessage|'''ACHTUNG''': Mache kein Bildschirmfoto von diesem Dialogfeld! Drücke  stattdessen die Schaltfläche **In die Zwischenablage kopieren** und füge die Informationen in deine Hilfeanfrage ein.}}
+**'''ACHTUNG''': Mache kein Bildschirmfoto von diesem Dialogfeld! Drücke  stattdessen die Schaltfläche **In die Zwischenablage kopieren** und füge die Informationen in deine Hilfeanfrage ein.**
 
 ## Anwendung
 

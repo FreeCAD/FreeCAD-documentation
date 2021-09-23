@@ -1,12 +1,11 @@
 # Raytracing Workbench/de
-
  
 
 
-{{VeryImportantMessage|Der Arbeitsbereich Strahlverfolgung ist im Wesentlichen veraltet. Eine Neuentwicklung findet in der [https://github.com/FreeCAD/FreeCAD-render Arbeitsbereich Rendern] statt, die als ihr Ersatz gedacht ist. Dieser Arbeitsbereich ist vollständig in Python programmiert, so dass sie viel einfacher zu erweitern ist.
+**Der Arbeitsbereich Strahlverfolgung ist im Wesentlichen veraltet. Eine Neuentwicklung findet in der [https://github.com/FreeCAD/FreeCAD-render Arbeitsbereich Rendern] statt, die als ihr Ersatz gedacht ist. Dieser Arbeitsbereich ist vollständig in Python programmiert, so dass sie viel einfacher zu erweitern ist.
 
 Nichtsdestotrotz sind die Informationen auf dieser Seite im Allgemeinen für den neuen Arbeitsbereich nützlich, da beide Module grundsätzlich gleich funktionieren.
-}}
+**
 
 <img alt="Arbeitsbereichssymbol Strahlverfolgung" src=images/Workbench_Raytracing.svg  style="width:128px;">
 

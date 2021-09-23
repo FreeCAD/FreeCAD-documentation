@@ -7,8 +7,8 @@
 ---
 
 
-{{VeryImportantMessage|Beginnend mit FreeCAD v0.17 wurde dieses Werkzeug aus dem Architektur Arbeitsbereich entfernt und ist nun Teil des externen [WebWerkzeuge Arbeitsbereich](WebTools_Workbench/de.md)s, den du über das Menü Werkzeuge → <img src="images/AddonManager.svg" width=24px> [Erweiterungsverwalter](Addon_manager/de.md) installieren kannst.
-}}
+**Beginnend mit FreeCAD v0.17 wurde dieses Werkzeug aus dem Architektur Arbeitsbereich entfernt und ist nun Teil des externen [WebWerkzeuge Arbeitsbereich](WebTools_Workbench/de.md)s, den du über das Menü Werkzeuge → <img src="images/AddonManager.svg" width=24px> [Erweiterungsverwalter](Addon_manager/de.md) installieren kannst.
+**
 
 ## Beschreibung
 

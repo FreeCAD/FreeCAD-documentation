@@ -1,5 +1,4 @@
 # Macro Automatic drawing/hr
-
  {{Macro/hr
 |Name=Automatic drawing
 |Translate=Automatsko crtanje

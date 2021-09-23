@@ -1,5 +1,4 @@
 # FEM Element Types
-
  
 
 ## Introduction

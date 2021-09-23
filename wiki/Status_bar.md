@@ -1,5 +1,4 @@
 # Status bar
-
  
 
 ## Introduction

@@ -1,5 +1,4 @@
 # Macro HilbertCurve
-
   {{Macro
 |Name=HilbertCurve
 |Description=This macro creates an Hilbert curve wire in 2 or 3 dimensions with many iterations.

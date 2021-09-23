@@ -1,5 +1,4 @@
 # Localisation Sidebar/fr
-
  La [localisation](Localisation/fr.md) est le processus consistant à fournir au logiciel une interface utilisateur multilingue. La documentation wiki peut également être localisé, comme décrit dans la section [Traduire le wiki](Localisation/fr#Traduire_le_wiki_FreeCAD.md).
 
 La barre latérale est un outil de navigation important dans le monde wiki, voir [Manuel: Interface/Barre latérale](http://www.mediawiki.org/wiki/Manual:Interface/Sidebar/fr) pour plus d\'informations.

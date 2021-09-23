@@ -5,7 +5,6 @@
 
 
 
-
 {{TOCright}}
 
 ## Introduction
@@ -160,7 +159,7 @@ On the *Document* tab you can specify the following:
 | **Save thumbnail into project file when saving document**         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 |                                                                            |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 +-------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|                                                                | If checked, the FreeCAD program logo ![24px](images/FreeCAD-logo.svg) will be added to the thumbnail.                                                                                                                                                                                                                                                                                                                                                                                                            |
+|                                                                | If checked, the FreeCAD program logo ![24px](images/Freecad.svg) will be added to the thumbnail.                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | **Add the program logo to the generated thumbnail**               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 |                                                                            |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 +-------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -671,7 +670,7 @@ The Import-Export settings affect how files are imported and exported. They are 
 ## Workbench preferences 
 
 
-{{VeryImportantMessage|This section is incomplete and requires mentioning the preference pages of each core workbench}}
+**This section is incomplete and requires mentioning the preference pages of each core workbench**
 
 Preferences for the more common workbenches are linked below. Some workbenches have no preferences. Other optional workbenches may not be listed. These links are also listed in [:Category:Preferences](:Category:Preferences.md)
 
@@ -686,24 +685,19 @@ O módulo rascunho tem a sua [preferences](Draft_Preferences/pt.md) ecrã.
 ### External workbenches 
 
 
-{{VeryImportantMessage|This section is incomplete and requires mentioning the preference pages of each [External workbench](External_workbenches.md)}}
+**This section is incomplete and requires mentioning the preference pages of each [External workbench](External_workbenches.md)**
 
 -   [A2plus Preferences](A2plus_Workbench#Preferences.md)
 -   Ship Preferences (none)
 
 ## Scripting
 
-Preferences can be accessed from Python scripts using their corresponding path in the [Parameter Editor](Std_DlgParameter.md). For example, the **Edit → Preferences → Import-Export → DXF → Import options → Join geometry** preference appears in **Tools → Edit parameters → BaseApp → Preferences → Mod → Draft → dxfCreatePart** and has type `Boolean`. It can therefore be accessed in Python using the following code: 
-```python
-# get:
-App.ParamGet("User parameter:BaseApp/Preferences/Mod/Draft").GetBool('dxfCreatePart')
-# set:
-App.ParamGet("User parameter:BaseApp/Preferences/Mod/Draft").SetBool('dxfCreatePart', True)
-```
 
-Finding which parameter is used to store which option from the Preferences editor can require searching a bit, but the [Parameter Editor](Std_DlgParameter.md) offers a search facility, which should help.
+**See also:**
 
-It is likely a bad idea to modify the preferences of other parts of FreeCAD unless doing so at the user\'s request. The setter can however be used to set parameters for your own workbench, and the getter can be used to obey existing parameters.
+[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+
+For a scripting example see [Std DlgParameter](Std_DlgParameter.md).
 
 ## Related
 

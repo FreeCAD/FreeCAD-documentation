@@ -1,6 +1,5 @@
 # Wiki Allpages Template
 
-
 {{Special:Allpages/Template:}}
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_

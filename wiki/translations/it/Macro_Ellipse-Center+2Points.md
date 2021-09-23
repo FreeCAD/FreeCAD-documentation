@@ -1,5 +1,4 @@
 # Macro Ellipse-Center+2Points/it
-
  {{Macro/it
 |Name=Macro Ellipse-Center+2Points
 |Translate=Ellisse da centro e 2 punti

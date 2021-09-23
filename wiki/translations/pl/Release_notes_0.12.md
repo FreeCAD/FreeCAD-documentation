@@ -1,5 +1,4 @@
 # Release notes 0.12/pl
-
 To jest podsumowanie najbardziej interesujących zmian, które nastąpiły we FreeCAD-zie w odniesieniu do poprzedniej wersji.Pełną listę zmian znajdziesz [tutaj](http://www.freecadweb.org/tracker/changelog_page.php).
 
 Starsze wersje: [0.11](Release_notes_0.11.md)

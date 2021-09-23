@@ -1,5 +1,4 @@
 # FCGear Workbench/es
-
  <img alt="FCEngranaje Icono Ambiente de trabajo Externo" src=images/FCGear_workbench_icon.svg  style="width:128px;">
 
 ## Introducción

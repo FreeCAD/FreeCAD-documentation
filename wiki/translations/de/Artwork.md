@@ -1,5 +1,4 @@
 # Artwork/de
-
   Hier sind die für FreeCAD erstellte Grafiken. Du kannst sie gerne in anderen Anwendungen wiederverwenden. Wenn Du mit Symbolen beitragen möchtest, lies bitte die [Richtlinen Grafiken](Artwork_Guidelines.md).
 
 ## Verschiedene Symbole 
@@ -86,10 +85,6 @@ Siehe [Grafik PartDesign](Artwork_PartDesign.md).
 
 Siehe [Grafik Pfad](Artwork_Path/de.md).
 
-### Aus src/Mod/Plot/ 
-
-Siehe [Grafik Plot](Artwork_Plot/de.md).
-
 ### Aus src/Mod/Points/ 
 
 Siehe [Grafik Punkte](Artwork_Points/de.md).
@@ -105,10 +100,6 @@ Siehe [Grafik Nachkonstruktion](Artwork_ReverseEngineering/de.md).
 ### Aus src/Mod/Robot/ 
 
 Siehe [Artwork Robot](Artwork_Robot.md).
-
-### Aus src/Mod/Ship/ 
-
-Siehe [Grafik Schiff](Artwork_Ship.md).
 
 ### Aus src/Mod/Sketcher/ 
 
@@ -144,9 +135,29 @@ Siehe [Grafik Web](Artwork_Web/de.md).
 
 ## Externe Arbeitsbereiche und Erweiterungen 
 
+
+<div class="mw-translate-fuzzy">
+
+### Aus src/Mod/Plot/ 
+
+
+</div>
+
+Siehe [Grafik Plot](Artwork_Plot/de.md).
+
 ### Aus Mod/Reinforcement/ 
 
 Siehe [Artwork Bewehrung](Artwork_Reinforcement/de.md).
+
+
+<div class="mw-translate-fuzzy">
+
+### Aus src/Mod/Ship/ 
+
+
+</div>
+
+Siehe [Grafik Schiff](Artwork_Ship.md).
 
 ## Fehlerhafte Symbole 
 

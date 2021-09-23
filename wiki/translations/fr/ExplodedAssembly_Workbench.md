@@ -1,7 +1,6 @@
 # ExplodedAssembly Workbench/fr
 
 
-
 ## Introduction
 
 

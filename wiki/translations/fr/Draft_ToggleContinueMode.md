@@ -1,7 +1,7 @@
 ---
 - GuiCommand:/fr
    Name:Draft ToggleContinueMode
-   Name/fr:Draft Basculer le mode continuer
+   Name/fr:Draft Basculer en mode continu
    MenuLocation:Utilitaires → Basculer le mode continuer
    Workbenches:[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
 ---

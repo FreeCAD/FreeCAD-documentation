@@ -1,5 +1,4 @@
 # Macro Unfold Box/en
-
  {{Macro
 |Name=Macro Unfold Box
 |Icon=Macro_Unfold_Box.png

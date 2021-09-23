@@ -1,37 +1,38 @@
 ---
-- GuiCommand:
+- GuiCommand:/de
    Name:FCGear LanternGear
-   MenuLocation:FCGear → Create a Lantern gear
-   Workbenches:[FCGear](FCGear_Workbench.md)
-   Shortcut:None
+   Name/de:FCZahnrad TriebstockZahnrad
+   MenuLocation:FCZahnrad → Erstelle ein Triebstock Zahnrad
+   Workbenches:[FCZahnrad](FCGear_Workbench/de.md)
+   Shortcut:Keine
    Version:v0.16
    SeeAlso:
 ---
 
 ## Beschreibung
 
-The lantern gear toothing is a special form of cycloidal toothing in which the rolling circle and pitch circle are of equal size. In addition, the teeth of the larger wheel in a gearbox are replaced by cylinders. The small wheel is given a cycloid gearing. This results in a one-sided point gearing. Lantern gearings can only be straight toothed.
+Die Triebstockverzahnung ist eine Sonderform der Zykloidenverzahnung, bei der Wälzkreis und Teilkreis gleich groß sind. Außerdem werden die Zähne des größeren Rades in einem Getriebe durch Zylinder ersetzt. Das kleine Rad erhält eine Zykloidenverzahnung. Daraus ergibt sich eine einseitige Punktverzahnung. Triebstockverzahnungen können nur gerade verzahnt sein.
 
-Because their construction is very simple, they are among the oldest forms of gearing. Lantern gearings are used when large gear ratios are required, for example in the slewing gears of mills or timber handling cranes.
+Da sie sehr einfach aufgebaut sind, gehören sie zu den ältesten Formen von Getrieben. Triebstockgetriebe werden eingesetzt, wenn große Übersetzungsverhältnisse erforderlich sind, z. B. in Drehwerken von Mühlen oder Holzumschlagskränen.
 
-Lantern gear wheel with roller chains are a cost-effective and robust alternative to rack and pinion drives. By guiding the stretched lantern gear wheel chain tangentially along the lantern gear wheel, a linear movement of the chain is converted into a rotational movement of the wheel. Conversely, a linear motion of the chain can also be achieved by the rotary motion of the lantern gear wheel (motorbike/bicycle).
+Triebstockräder mit Rollenketten sind eine kostengünstige und robuste Alternative zu Zahnstangen- und Ritzelantrieben. Durch die tangentiale Führung der gespannten Triebstockkette entlang des Triebstocks wird eine lineare Bewegung der Kette in eine Drehbewegung des Rades umgesetzt. Umgekehrt kann eine lineare Bewegung der Kette auch durch die Drehbewegung des Triebstockrades (Motorrad/Fahrrad) erreicht werden.
 
 :   ![](images/Latern_Gear_example.png )
 :   
-    *Above: Lantern gear*
+    *Oben: Triebstockzahnrad*
     
 
 ## Anwendung
 
-1.  Switch to the <img alt="" src=images/FCGear_workbench_icon.svg  style="width:22px;"> [FCGear Workbench](FCGear_Workbench.md).
-2.  Invoke the command several way:
-    -   Press the <img alt="" src=images/FCGear_LaternGear.svg  style="width:22px;"> [Create a Lantern gear](FCGear_LanternGear.md) button in the tool bar.
-    -   Using the **Gear Menu → Lantern gear**.
-3.  Change the gear parameter to the required conditions (see **Properties → Data** below).
+1.  Wechsle zur <img alt="" src=images/FCGear_workbench_icon.svg  style="width:22px;"> [Arbeitsbereich FCZahnrad](FCGear_Workbench/de.md).
+2.  Rufe den Befehl auf verschiedene Weise auf:
+    -   Drücke die <img alt="" src=images/FCGear_LaternGear.svg  style="width:22px;"> [TriebstockZahnrad erstellen](FCGear_LaternGear/de.md) Schaltfläche in der Werkzeugleiste.
+    -   Mit dem **Zahnradmenü → Triebstock Zahnrad**.
+3.  Ändere die Zahnrad Parameter auf die gewünschten Bedingungen (siehe **Eigenschaften → Daten** unten).
 
 ## Eigenschaften
 
-### Data
+### Daten
 
 
 {{Properties_Title|Base}}
@@ -66,7 +67,7 @@ The parameter descriptions of the **View** tab will be found in [Property editor
 
 ## Begrenzungen
 
-Limitations are not known yet.
+Begrenzungen sind noch nicht bekannt.
 
 ## Hilfreiche Formeln 
 

@@ -1,7 +1,6 @@
 # Macro documentation/de
 
 
-
 ## Beschreibung
 
 Alle Makros sollten ordnungsgemäß dokumentiert werden, und zwar auf die gleiche Weise wie [Gui Befehle](Gui_Command/de.md) dokumentiert werden. Sie sollten eine eigene Wiki Seite haben und in einer der Kategorien unter [Makro Rezepte](Macros_recipes/de.md) aufgeführt sein.

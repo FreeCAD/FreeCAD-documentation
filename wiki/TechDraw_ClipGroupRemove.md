@@ -19,4 +19,4 @@ This tool removes a View from an existing Clip and returns it to the Page area.
 
 
 
- {{TechDraw Tools navi}}  
+ {{TechDraw Tools navi}} 

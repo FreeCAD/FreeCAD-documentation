@@ -1,7 +1,6 @@
 # Macro documentation/fr
 
 
-
 ## Description
 
 Toutes les macros doivent être correctement documentées de la même manière que les [commandes Gui](Gui_Command/fr.md) le sont. Elles doivent avoir leur propre page wiki et être répertoriées dans l\'une des catégories de la[Liste des Macros](Macros_recipes/fr.md).

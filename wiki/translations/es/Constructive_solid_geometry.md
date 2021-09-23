@@ -1,5 +1,4 @@
 # Constructive solid geometry/es
-
  {{TOCright}}
 
 ## Introducción

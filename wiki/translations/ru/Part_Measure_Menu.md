@@ -13,16 +13,10 @@
 
 {{StdMenu| Measure}}
 
-
-<div class="mw-translate-fuzzy">
-
 #### Примечания
 
--   Не спутайте это меню с инструментом <img alt="" src=images/Std_MeasureDistance.png  style="width:24px;"> [Distance](Std_MeasureDistance/ru.md)
--   При нужде в более полных измерительных инструментов установите <img alt="" src=images/Manipulator_workbench_icon.svg  style="width:24px;"> [верстак Manipulator](Manipulator_Workbench/ru.md) ([внешний верстак](External_Workbenches/ru.md))
-
-
-</div>
+-   Не спутайте это меню с инструментом <img alt="" src=images/Std_MeasureDistance.svg  style="width:24px;"> [Distance](Std_MeasureDistance/ru.md)
+-   Если вам требуется более полный набор измерительных инструментов вы можете установить <img alt="" src=images/Manipulator_Workbench_icon.svg  style="width:24px;"> [верстак Manipulator](Manipulator_Workbench/ru.md) (который является [внешним верстаком](External_workbenches/ru.md))
 
 <img alt="" src=images/Part_Measure_Linear.svg  style="width:32px;"> [Измерить длину](Part_Measure_Linear/ru.md) - даёт возможность линейных измерений.
 
@@ -39,13 +33,7 @@
 <img alt="" src=images/Part_Measure_Toggle_Delta.svg  style="width:32px;"> [Переключить Дельту](Part_Measure_Toggle_Delta/ru.md) - показывает или скрывает измерения Дельта
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
  

@@ -1,5 +1,4 @@
 # Ccache
-
 ## Description
 
 Ccache (or "ccache") is a compiler cache. It speeds up recompilation by caching previous compilations and detecting when the same compilation is being done again. Ccache is free software, released under the GPLv3 or later.

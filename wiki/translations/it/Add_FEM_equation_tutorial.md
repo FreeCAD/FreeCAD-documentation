@@ -2,7 +2,6 @@
 
 
 
-
 {{TutorialInfo/it
 |Topic=Aggiungere equazioni FEM 
 |Level= 

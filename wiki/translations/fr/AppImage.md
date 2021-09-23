@@ -1,6 +1,5 @@
 # AppImage/fr
-
- {{VeryImportantMessage|Depuis le 7 juillet 2019, la communauté FreeCAD observe que le téléchargement d'AppImages à partir de Github semble s'arrêter avant la fin du téléchargement. Nous ne savons pas pourquoi cela se produit. Si cela se produit pour vous, essayez de télécharger à nouveau. Il se pourrait que vous deviez faire plusieurs essais. Une pratique recommandée consiste à utiliser la [https://www.freecadweb.org/wiki/AppImage/fr#Mise_à_jour_automatique fonction de mise à jour automatique] AppImage, qui restaurera le téléchargement à partir de l'endroit où il a échoué.}}
+ **Depuis le 7 juillet 2019, la communauté FreeCAD observe que le téléchargement d'AppImages à partir de Github semble s'arrêter avant la fin du téléchargement. Nous ne savons pas pourquoi cela se produit. Si cela se produit pour vous, essayez de télécharger à nouveau. Il se pourrait que vous deviez faire plusieurs essais. Une pratique recommandée consiste à utiliser la [https://www.freecadweb.org/wiki/AppImage/fr#Mise_à_jour_automatique fonction de mise à jour automatique] AppImage, qui restaurera le téléchargement à partir de l'endroit où il a échoué.**
 
 
 {{TOCright}}
@@ -22,7 +21,7 @@ Pour les autres types d\'installation, voir [Téléchargements](Download/fr.md).
 ## AppImages de FreeCAD 
 
 
-{{VeryImportantMessage|'''Remarque:''' Les builds de développement sont maintenant hébergés sur le repo github [https://github.com/FreeCAD/FreeCAD-Bundle/releases/tag/weekly-builds '''FreeCAD-Bundle'''].<br/>Si les liens de téléchargement ci-dessous ne fonctionnent pas, veuillez télécharger manuellement les fichiers à partir de la section "Assets" effondrée du lien ci-dessus}}
+**'''Remarque:''' Les builds de développement sont maintenant hébergés sur le repo github [https://github.com/FreeCAD/FreeCAD-Bundle/releases/tag/weekly-builds '''FreeCAD-Bundle'''].<br/>Si les liens de téléchargement ci-dessous ne fonctionnent pas, veuillez télécharger manuellement les fichiers à partir de la section "Assets" effondrée du lien ci-dessus**
 
 .
 

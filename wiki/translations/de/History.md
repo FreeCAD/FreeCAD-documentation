@@ -1,5 +1,4 @@
 # History/de
-
  \_\_FORCETOC\_\_
 
 ## Geschichte
@@ -84,8 +83,6 @@ Version 0.12 wurde im Januar 2012 veröffentlicht und enthielt einen vollständi
 Im April 2019 wurde das Team der Kernentwickler erweitert: Zu Jürgen, Werner und Yorik gesellten sich Abdullah, Bernd, sliptonic und WandererFan
 
 ## Interessante Beiträge im Forum 
-
-=
 
 -   über PartDesignNext und andere Gestaltungsentscheidungen: <https://forum.freecadweb.org/viewtopic.php?f=8&t=34923&start=130#p297074>
 -   über die Geschichte des Forums: <https://forum.freecadweb.org/viewtopic.php?f=8&t=7448&start=200#p287106>

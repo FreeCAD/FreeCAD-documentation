@@ -1,6 +1,8 @@
 # Macro merge duplicate materials/fr
 
- {{Macro/fr
+
+
+{{Macro/fr
 |Name=Macro merge duplicate materials
 |Icon=Macro_merge_duplicate_materials.png
 |Description=Fusionne les matériaux ayant le même nom
@@ -17,12 +19,12 @@ Fusionne les matériaux qui ont le même nom de base (avec différentes terminai
 
 ## Script
 
-ToolBar Icon ![](images/Macro_merge_duplicate_materials.png )
+Icône de la barre d\'outils ![](images/Macro_merge_duplicate_materials.png )
 
 **Merge duplicate materials.FCMacro**
 
 
-{{MacroCode|code=
+```python
 import FreeCAD,FreeCADGui
 mats = [o for o in FreeCAD.ActiveDocument.Objects if o.isDerivedFrom("App::MaterialObject")]
 todelete = []
@@ -50,7 +52,7 @@ for tod in todelete:
     else:
         print( "Unable to delete material "+tod.Label+": InList not empty")
 
-}}
+```
 
 
 

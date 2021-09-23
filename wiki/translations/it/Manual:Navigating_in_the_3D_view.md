@@ -1,6 +1,5 @@
 # Manual:Navigating in the 3D view/it
-
-
+ 
 
 
 <div class="mw-translate-fuzzy">

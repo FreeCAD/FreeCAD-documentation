@@ -8,6 +8,9 @@
    SeeAlso:[TechDraw Mittellinie zu Fläche(n)](TechDraw_FaceCenterLine/de.md), [TechDraw Mittellinie zwischen 2 Linien](TechDraw_2LineCenterLine/de.md)
 ---
 
+
+</div>
+
 ## Beschreibung
 
 Das 2PunkttKosmetikLinie Werkzeug fügt eine Kosmetiklinie zwischen zwei Knoten (Points) hinzu. Die Knoten können 2d oder 3d sein. Die resultierende Linie kann zur Bemaßung verwendet werden. Das Aussehen der Linie kann mit dem [Kosmetikobjekt entfernen](TechDraw_CosmeticEraser/de.md) Werkzeug geändert werden.

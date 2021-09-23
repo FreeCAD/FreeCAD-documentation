@@ -2,7 +2,6 @@
 
 
 
-
 {{TutorialInfo/fr
 |Topic=Analyse par Éléménts Finis
 |Level=Intermédiaire

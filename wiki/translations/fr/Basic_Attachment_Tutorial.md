@@ -2,7 +2,6 @@
 
 
 
-
 {{TutorialInfo
 |Topic=Ancrage
 |Level= Débutant et intermédiaire

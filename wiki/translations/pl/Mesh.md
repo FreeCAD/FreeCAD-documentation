@@ -1,7 +1,6 @@
 # Mesh/pl
 
 
-
 ## Introduction
 
 In FreeCAD the word \"[Mesh](Mesh.md)\" is normally used to refer to a [Mesh MeshObject](Mesh_MeshObject.md) (`Mesh::MeshObject` class), a type of object that defines 3D data but is not a solid \"[Shape](Shape.md)\".

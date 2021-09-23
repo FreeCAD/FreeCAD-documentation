@@ -1,5 +1,4 @@
 # Macro MultiCopy/fr
-
  {{Macro
 |Name=Macro MultiCopy
 |Icon=MultiCopy-reduced.png

@@ -2,7 +2,6 @@
 
 
 
-
 {{TutorialInfo/ro
 |Topic=Modeling
 |Level=Beginner

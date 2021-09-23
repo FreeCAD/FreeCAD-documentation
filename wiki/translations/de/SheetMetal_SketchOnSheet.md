@@ -15,6 +15,9 @@ Im Gegensatz zu dem Befehl <img alt="" src=images/PartDesign_Pocket.svg  style="
 
 ## Anwendung
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Eine **planare Fläche** auswählen
 2.  Eine komplanare <img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;"> [Skizze](Sketcher_Workbench/de.md) (d.h. eine auf derselben Ebenen liegende) als **Lochbild** auswählen (vorzugsweise aus der [Baumansicht](tree_view/de.md)).
     -   **Hinweis:** Nicht die Taste **Steuerung**/**Befehl** vergessen!
@@ -25,39 +28,61 @@ Im Gegensatz zu dem Befehl <img alt="" src=images/PartDesign_Pocket.svg  style="
 **
     -   Das Tastenkürzel: **M** dann **S**
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 ## Hinweis
 
 -   Die Skizze kann mehr als nur eine Kontur enthalten.
 -   Jede Kontur muss die ebene Fläche wenigstens berühren, andernfalls würde sie gar kein Loch ausschneiden.
 
+
+</div>
+
+-   The sketch may contain more than just one outline.
+-   Any outline has to touch the planar face, at least, otherwise it won\'t cut a hole at all.
+
 ## Eigenschaften
+
+See also: [Property editor](Property_editor.md).
+
+A SheetMetal SketchOnSheet object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
 
 ### Daten
 
 
 {{Properties_Title/de|Basis}}
 
+-    **Label|String**: Default value: The user editable name of this object, it may be any arbitrary UTF8 string.
+
+-    **Base Feature|Link|hidden**: Base Feature. Link to the parent feature.
+
+-    **_Body|LinkHidden|hidden**: Hidden link to the parent body.
+
 
 {{Properties_Title|Parameters}}
 
-### Ansicht
+-    **Sketch|Link**: \"Sketch on Sheetmetal\". Link to the hole layout/cut-out sketch.
 
+-    **base Object|LinkSub**: \"Base Object\". Link to the planar face where the cut-out starts.
 
-{{Properties_Title|Base}}
-
-
-{{Properties_Title|Display Options}}
-
-
-{{Properties_Title|Object Style}}
-
-
-{{Properties_Title|Selection}}
+-    **kfactor|FloatConstraint**: \"Gap from Left Side\". Default: {{value|0,50}}.
 
 ## Beispiel
 
-<img alt="" src=images/SheetMetal_SketchOnSheet-05.png  style="width:300px;"> 
+<img alt="" src=images/SheetMetal_SketchOnSheet-05.png  style="width:300px;">
+
+
+<div class="mw-translate-fuzzy">
+
+
 *Ein einfaches Dingens*
+
+
+</div>
 
 
 <div class="mw-collapsible mw-collapsed">
@@ -67,7 +92,13 @@ Im Gegensatz zu dem Befehl <img alt="" src=images/PartDesign_Pocket.svg  style="
 
 ### Vorbereitung
 
+
+<div class="mw-translate-fuzzy">
+
 Dieses Dingens besteht aus einem Blechprofil mit hinzugefügten Löchern.  Es müssen also eine Skizze für das Blech und eine für das Lochbild vorbereitet werden.  Eine gerade Linie der ersten Skizze muss komplanar zu der anderen Skizzenebene sein,  dies ergibt die Fläche und die komplanare Skizze, die in den weiteren Schritten benutzt werden.
+
+
+</div>
 
 <img alt="" src=images/SheetMetal_SketchOnSheet-01.png  style="width:200px;"> 
 *Nur eine Kontur und ein Lochbild*

@@ -15,7 +15,7 @@ In contrast to the <img alt="" src=images/PartDesign_Pocket.svg  style="width:16
 ## Usage
 
 1.  Select a **planar face**
-2.  Select a coplanar <img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;"> [sketch](Sketcher_Workbench.md) (i.e. lying on the same plane) for the **hole layout** (preferably from the [tree view](tree_view.md)).
+2.  Select a coplanar <img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;"> [sketch](Sketcher_Workbench.md) (i.e. lying on the same plane) for the **hole layout** (preferably from the [tree view](Tree_view.md)).
     -   **Note:** Don\'t forget the **Control**/**Command** key!
 3.  Activate the <img alt="" src=images/SheetMetal_SketchOnSheet.svg  style="width:16px;"> Sketch On Sheet metal command using the:
     -   
@@ -39,32 +39,34 @@ In contrast to the <img alt="" src=images/PartDesign_Pocket.svg  style="width:16
 
 ## Properties
 
+See also: [Property editor](Property_editor.md).
+
+A SheetMetal SketchOnSheet object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
+
 ### Data
 
 
 {{Properties_Title|Base}}
 
+-    **Label|String**: Default value: The user editable name of this object, it may be any arbitrary UTF8 string.
+
+-    **Base Feature|Link|hidden**: Base Feature. Link to the parent feature.
+
+-    **_Body|LinkHidden|hidden**: Hidden link to the parent body.
+
 
 {{Properties_Title|Parameters}}
 
-### View
+-    **Sketch|Link**: \"Sketch on Sheetmetal\". Link to the hole layout/cut-out sketch.
 
+-    **base Object|LinkSub**: \"Base Object\". Link to the planar face where the cut-out starts.
 
-{{Properties_Title|Base}}
-
-
-{{Properties_Title|Display Options}}
-
-
-{{Properties_Title|Object Style}}
-
-
-{{Properties_Title|Selection}}
+-    **kfactor|FloatConstraint**: \"Gap from Left Side\". Default: {{value|0,50}}.
 
 ## Example
 
 <img alt="" src=images/SheetMetal_SketchOnSheet-05.png  style="width:300px;"> 
-*A simple thingamajg*
+*A simple thingamajig*
 
 
 <div class="mw-collapsible mw-collapsed">
@@ -74,7 +76,7 @@ In contrast to the <img alt="" src=images/PartDesign_Pocket.svg  style="width:16
 
 ### Preparation
 
-This thingamajg is made of a folded sheet metal object with holes added.  And so one open contour sketch for the sheet metal and one sketch for the hole layout have to be prepared in advance.  One straight line of the first sketch must be coplanar to the other sketch plane,  this will result in coplanar sketch and face used in the next steps.
+This thingamajig is made of a folded sheet metal object with holes added.  And so one open contour sketch for the sheet metal and one sketch for the hole layout have to be prepared in advance.  One straight line of the first sketch must be coplanar to the other sketch plane, this will result in coplanar sketch and face used in the next steps.
 
 <img alt="" src=images/SheetMetal_SketchOnSheet-01.png  style="width:200px;"> 
 *Just a contour and a hole layout*

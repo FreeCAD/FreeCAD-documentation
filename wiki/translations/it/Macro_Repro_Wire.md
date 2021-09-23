@@ -1,5 +1,4 @@
 # Macro Repro Wire/it
-
  {{Macro/it
 |Name= Macro Repro Wire
 |Translate=Replica un componente

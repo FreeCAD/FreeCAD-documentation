@@ -16,7 +16,7 @@ Detta verktyg ber användaren om en placeringspunkt, sedan kan text matas in i e
 
 </div>
 
-To insert a text element with an arrow use the [Draft Label](Draft_Label.md) command instead.
+To create a text element with an arrow use the [Draft Label](Draft_Label.md) command instead.
 
 
 <div class="mw-translate-fuzzy">

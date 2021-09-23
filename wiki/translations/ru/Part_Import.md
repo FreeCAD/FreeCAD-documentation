@@ -20,13 +20,7 @@
 
 </div>
 
-
-<div class="mw-translate-fuzzy">
-
-## Использование
-
-
-</div>
+## Применение
 
 
 <div class="mw-translate-fuzzy">

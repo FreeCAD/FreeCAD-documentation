@@ -1,5 +1,4 @@
 # Power users hub/en
-
  <img alt="" src=images/Power_user_hub.png  style="width:64px;">
 
 ------------------------------------------------------------------------

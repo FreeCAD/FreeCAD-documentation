@@ -1,5 +1,4 @@
 # Sketcher scripting
-
  
 
 ## Creating a constraint using Python 

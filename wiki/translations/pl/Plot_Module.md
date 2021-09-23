@@ -1,7 +1,6 @@
 # Plot Module/pl
 
 
-
 <img alt="Ikonka FreeCAD dla środowiska pracy Wykres" src=images/Workbench_Plot.svg  style="width:128px;">
 
 

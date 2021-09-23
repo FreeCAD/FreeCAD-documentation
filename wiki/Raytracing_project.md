@@ -1,20 +1,19 @@
 # Raytracing project
-
  
 
 
-{{VeryImportantMessage|
+**
 This roadmap is probably obsolete. For more information see [Development roadmap](Development_roadmap.md).<br>
 If you are not involved with the development discussed here:<br>
 !!! PLEASE DO NOT EDIT OR TRANSLATE !!!
-}}
+**
 
 
-{{VeryImportantMessage|(2020) This page refers to an attempt to update the [Raytracing Workbench](Raytracing_Workbench.md), proposed around 2012. Its original author never completed the implementation so this information is outdated, and should not be considered current.
+**(2020) This page refers to an attempt to update the [Raytracing Workbench](Raytracing_Workbench.md), proposed around 2012. Its original author never completed the implementation so this information is outdated, and should not be considered current.
 
 
 New development is happening in the [https://github.com/FreeCAD/FreeCAD-render Render Workbench], a complete Python replacement for the [Raytracing Workbench](Raytracing_Workbench.md).
-}}
+**
 
  
 

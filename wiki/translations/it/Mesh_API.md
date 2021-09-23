@@ -2,8 +2,7 @@
 
 
 
-
-{{VeryImportantMessage|(Novembre 2018) Queste informazioni potrebbero essere incomplete e obsolete. Per l'ultima API, vedere la pagina [https://www.freecadweb.org/api Documentazione API autogenerata].}}
+**(Novembre 2018) Queste informazioni potrebbero essere incomplete e obsolete. Per l'ultima API, vedere la pagina [https://www.freecadweb.org/api Documentazione API autogenerata].**
 
 
 <div class="mw-translate-fuzzy">

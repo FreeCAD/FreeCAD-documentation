@@ -1,5 +1,4 @@
 # Manual:Import and export to other filetypes/ru
-
  
 
 
@@ -30,6 +29,9 @@ FreeCAD может импортировать и экспортировать в
 
 **Читать далее**
 
+
+<div class="mw-translate-fuzzy">
+
 -   [Все форматы файлов, поддерживаемые FreeCAD](Import_Export/ru.md)
 -   [Работа с файлами DXF в FreeCAD](Draft_DXF/ru.md):
 -   [Включение поддержки DXF и DWG](Dxf_Importer_Install/ru.md)
@@ -39,6 +41,9 @@ FreeCAD может импортировать и экспортировать в
 -   [Конвертер файлов Teigha](https://www.opendesign.com/guestfiles)
 -   [Формат файлов IFC](http://www.buildingsmart-tech.org/ifc/IFC4/final/html/index.htm)
 -   [IfcOpenShell](http://ifcopenshell.org/)
+
+
+</div>
 
 
 

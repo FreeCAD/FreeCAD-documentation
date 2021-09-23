@@ -4,7 +4,6 @@
 
 
 
-
 <img alt="Icône de Base" src=images/Freecad.svg  style="width:128px;">
 
 
@@ -56,7 +55,7 @@ Les outils suivants sont disponibles dans ce menu :
 
 -   <img alt="" src=images/Std_UnitsCalculator.svg  style="width:32px;"> [Calculateur d\'unités\...](Std_UnitsCalculator/fr.md) : ouvre une calculatrice pour la conversion des unités.
 
--   <img alt="" src=images/Std_InterfaceCustomization.svg  style="width:32px;"> [ Personnaliser\...](Std_DlgCustomize/fr.md) : ouvre une boîte de dialogue avec des options de personnalisation.
+-   <img alt="" src=images/Std_DlgCustomize.svg  style="width:32px;"> [ Personnaliser\...](Std_DlgCustomize/fr.md) : ouvre une boîte de dialogue avec des options de personnalisation.
 
 -   <img alt="" src=images/_AddonManager.svg  style="width:32px;"> [Addon manager](Std_AddonMgr/fr.md) : ouvre le gestionnaire d\'extensions avec lequel les [ateliers externes](External_workbenches/fr.md) et les [macros](macros/fr.md) peuvent être installés.
 

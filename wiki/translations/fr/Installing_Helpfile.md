@@ -1,7 +1,6 @@
 # Installing Helpfile/fr
 
 
-
 ## Fichiers d\'aide FreeCAD 
 
 La documentation hors-ligne de FreeCAD est générée à l\'aide de scripts à partir du wiki FreeCAD. Elle a actuellement atteint une taille dépassant les 220 MB. Ces gros fichiers ne font pas partie des installateurs et exécutables de FreeCAD, mais peuvent être installé séparément selon les explications qui suivent.

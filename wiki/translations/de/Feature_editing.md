@@ -1,5 +1,4 @@
 # Feature editing/de
-
  {{TOCright}}
 
 ## Einführung
@@ -104,13 +103,7 @@ Es ist möglich, Elemente aus einem Körper in einem anderen Körper über Bezug
 
 Das Anhängen von Objekten ist kein besonderes PartDesign Werkzeug, sondern vielmehr ein in v0.17 eingeführtes Teil Dienstprogramm, das im Part Menü zu finden ist. Es wird im PartDesign Arbeitsbereich häufig verwendet, um Skizzen und Referenzgeometrie an die Standardebenen und -achsen des Körpers anzuhängen. Es stehen sehr umfangreiche Möglichkeiten zum Erstellen von Bezugspunkten, -linien und -ebenen zur Verfügung. Optionale Parameter für den Anhängungsversatz machen dieses Werkzeug sehr vielseitig.
 
-
-<div class="mw-translate-fuzzy">
-
-Weitere Information findet man in der [Anhängen](Part_Attachment/de.md)-Seite und dem [Basic Attachment Tutorial](Basic_Attachment_Tutorial/de.md).
-
-
-</div>
+Weitere Information findet man auf der [Anhang](Part_EditAttachment/de.md)-Seite und dem [Basic Attachment Tutorial](Basic_Attachment_Tutorial/de.md).
 
 ## Ratschläge zur Erstellung stabiler Modelle 
 

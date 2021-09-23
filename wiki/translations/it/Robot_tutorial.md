@@ -1,5 +1,4 @@
 # Robot tutorial/it
-
  {{TutorialInfo/it
 |Topic= Robot Workbench
 |Level= Base

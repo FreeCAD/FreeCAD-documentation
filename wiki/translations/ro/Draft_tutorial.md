@@ -2,7 +2,6 @@
 
 
 
-
 <div class="mw-translate-fuzzy">
 
 
@@ -281,7 +280,7 @@ Linear dimensions work best when using the appropriate [Draft Snap](Draft_Snap.m
 
 1.  Selectați ![](images/Draft_Dimension.png ) [Dimension](Draft_Dimension.md)
 2.  Selectați primul punct. Acesta poate să fie un element existent, fie specificat de coordonate. Pentru acest tutorial, primul punct va fi întotdeauna la **(0, 0, 0)**
-3.  Selectați al doilea punct. Abordați punctul de mijloc al liniei de sus a poligonului. Un punct alb trebuie să apară lângă această pictogramă <img alt="" src=images/Snap_Midpoint.png  style="width:32px;">
+3.  Selectați al doilea punct. Abordați punctul de mijloc al liniei de sus a poligonului. Un punct alb trebuie să apară lângă această pictogramă <img alt="" src=images/Draft_Snap_Midpoint.svg  style="width:32px;">
 4.  Mutați cursorul în locația dorită a dimensiunii și dați clic pe ea.
 5.  Schimbați dimensiunea fontului în **View** tab la 6 mm
 

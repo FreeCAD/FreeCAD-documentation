@@ -1,5 +1,4 @@
 # How to install macros/de
-
  {{TutorialInfo/de
 |Topic=Programmierung
 |Level=durchschnittliche Programmierer

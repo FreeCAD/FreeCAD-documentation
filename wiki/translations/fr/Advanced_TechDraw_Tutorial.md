@@ -5,7 +5,6 @@
 
 
 
-
 {{TutorialInfo
 |Topic=Modélisation
 |Level=Utilisateur expérimenté
@@ -21,80 +20,74 @@ Créez des points, des lignes, des cercles, des arcs, etc\... dans des vues Tech
 
 Ce tutoriel présente à l\'utilisateur expérimenté une utilisation avancée d\'outils et de techniques existants dans d\'autres ateliers pour étendre les fonctionnalités manquantes dans l\'<img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;">. [atelier TechDraw](TechDraw_Workbench/fr.md). Ce tutoriel n\'est pas un guide complet et exhaustif de l\'atelier TechDraw et de nombreux outils et fonctionnalités ne sont pas couverts. Il devrait contribuer à surmonter les difficultés rencontrées pour citer et enrichir le dessin technique à l\'aide de TechDraw. Ce tutoriel conduira les utilisateurs avancés à travers les étapes nécessaires pour produire des dessins techniques exigeants de la pièce à partir du [Tutoriel d\'introduction PartDesign](Basic_Part_Design_Tutorial/fr.md) en utilisant les outils de dessin de l\'atelier TechDraw.
 
-
-<div class="mw-translate-fuzzy">
-
 1.  L\'<img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [atelier Draft](Draft_Workbench/fr.md) (lignes, polylignes, circonférences, arcs, splines, béziers, etc.), en particulier les accrochages, pour créer sur l\'objet des \"points cosmétiques\" réellement précis qui pourront ensuite être utilisés pour le dimensionnement dans TechDraw.
 2.  Il est également possible d\'utiliser l\'<img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [atelier Sketcher](Sketcher_Workbench/fr.md) comme
     -   générateur de \"base-sketchTD\" (bases de croquis pour TechDraw) en 2D (par exemple, schéma de système, plans d\'étage, élévations, vues de pièces mécaniques ou d\'ensemble etc\...) ou en
     -   utilisant directement les croquis qui ont généré les modèles 3D, ou en
     -   convertissant en esquisse le \"facebinder\" généré avec l\'ébauche obtenue à partir des faces et/ou des sections des modèles 3D.
-3.  Pour obtenir des sections particulières (coupes sur différents plans ou axes) à présenter sur la page dans TechDraw (il est conseillé d\'utiliser une copie de l\'objet 3D original), ensuite par la création de plans (même sur différents axes) en utilisant le <img alt="" src=images/Workfeature_workbench_icon.svg  style="width:24px;"> WorkFeatureDev, il est possible de sectionner la copie de l\'objet 3D <img alt="" src=images/Part_SliceApart.svg  style="width:24px;"> (***Séparer/exploser*** fonctionnalité dans l\'atelier **Part**) pour obtenir les faces à convertir en esquisse <img alt="" src=images/Draft_Draft2Sketch.svg  style="width:24px;"> (***Draft vers Esquisse*** fonctionnalité dans l\'atelier **Draft**) et ensuite, à travers l\'atelier *\'Sketcher*, les éditer pour les adapter au dessin technique que l\'on souhaite générer dans TechDraw. L\'atelier *WorkFeatureDev* (et la macro **workfeature**) sont pleins de fonctions supplémentaires pratiques qui nous permettent de créer facilement des plans (théoriquement infinis en extension et en quantité) en sélectionnant trois points (sommets) *(rappelez-vous que pour trois points passant, un et un seul plan passe par trois points non alignés un et un seul plan passe par trois points non alignés*) est un axiome géométrique, qui confirme sans aucune ambiguïté (!) la validité et l\'importance de l\'outil WorkFeatureDev pour créer des plans précis très facilement.
+3.  Pour obtenir des sections particulières (coupes sur différents plans ou axes) à présenter sur la page dans TechDraw (il est conseillé d\'utiliser une copie de l\'objet 3D original), ensuite par la création de plans (même sur différents axes) en utilisant l\'<img alt="" src=images/Workfeature_workbench_icon.svg  style="width:24px;"> [atelier Workfeature](Workfeature_Workbench/fr.md), il est possible de sectionner la copie de l\'objet 3D avec <img alt="" src=images/Part_SliceApart.svg  style="width:24px;"> [Part Séparer/exploser](Part_SliceApart/fr.md) pour obtenir les faces à convertir en esquisse avec <img alt="" src=images/Draft_Draft2Sketch.svg  style="width:24px;"> [Draft Draft vers Esquisse](Draft_Draft2Sketch/fr.md) puis avec l\'atelier *\'Sketcher*, les éditer pour les adapter au dessin technique que l\'on souhaite générer dans TechDraw. L\'[atelier Workfeature](Workfeature_Workbench/fr.md) (et la [Macro WorkFeatures](Macro_WorkFeatures/fr.md)) sont pleins de fonctions supplémentaires pratiques qui nous permettent de créer facilement des plans (théoriquement infinis en extension et en quantité) en sélectionnant trois points (sommets) *(rappelez-vous que pour trois points passant, un et un seul plan passe par trois points non alignés un et un seul plan passe par trois points non alignés*) est un axiome géométrique, qui confirme sans aucune ambiguïté (!) la validité et l\'importance de l\'outil WorkFeatureDev pour créer des plans précis très facilement.
 
 (\**Ceci est tout à fait comparable à la commande Slice d\'AutoCAD [1](https://knowledge.autodesk.com/support/autocad/learn-explore/caas/CloudHelp/cloudhelp/2019/ENU/AutoCAD-Core/files/GUID-27593C5E-4B89-41F2-872B-927D69517CBF-htm.html) qui est basée sur cet axiome. Sans pré-construction d\'un nouveau plan, un plan de coupe utilisant trois points est défini.*)
 
+*Remarque : ces plans peuvent être réunis par chevauchement/coïncidence de deux bords en utilisant la fonction booléenne de <img alt="" src=images/Part_Fuse.svg  style="width:24px;"> [Part Union](Part_Fuse/fr.md).* Les plans ainsi formés et convenablement positionnés (selon nos dispositions) seront utilisés comme **lames de coupe** <img alt="" src=images/Part_SliceApart.svg  style="width:24px;"> [Part Séparer/exploser](Part_SliceApart/fr.md), découpant notre objet 3D en plusieurs parties selon la confirmation du plan choisi.\'\'
 
-</div>
+## Avant de commencer 
 
-*Note: These planes can be joined together by overlapping/ coinciding of two edges using the Boolean feature of <img alt="" src=images/Part_Fuse.svg  style="width:24px;"> [Part Union](Part_Fuse.md).* The planes thus formed and suitably positioned (according to our provisions) will be used as **cutting blades** <img alt="" src=images/Part_SliceApart.svg  style="width:24px;"> [Part SliceApart](Part_SliceApart.md), cutting our 3D object into several parts according to the chosen planar confirmation.\'\'
+Les ateliers qui sont utilisés pour générer les dessins des exemples ci-joints sont :
+\* <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [atelier Part](Part_Workbench/fr.md)
 
-## Before You Begin 
+-   <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [atelier Draft](Draft_Workbench/fr.md)
+-   <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [atelier Sketcher](Sketcher_Workbench/fr.md)
+-   <img alt="" src=images/Workfeature_workbench_icon.svg  style="width:24px;"> [atelier Workfeature](Workfeature_Workbench/fr.md)
+-   <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [atelier TechDraw](TechDraw_Workbench/fr.md)
 
-The Workbenches that are used to produce the drawings of the attached examples are:
-\* <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part Workbench](Part_Workbench.md)
+## La tâche 
 
--   <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft Workbench](Draft_Workbench.md)
--   <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Sketcher Workbench](Sketcher_Workbench.md)
--   <img alt="" src=images/Workfeature_workbench_icon.svg  style="width:24px;"> [Workfeature Workbench](Workfeature_Workbench.md)
--   <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [TechDraw Workbench](TechDraw_Workbench.md)
+Les étapes de la démarche :
 
-## The Task 
+1.  Création de l\'objet ou des objets 3D selon les canons de la modélisation traditionnelle ;
+2.  Création possible de copies indépendantes ou simples, à utiliser par exemple pour la création de sections continues spécifiques positionnées sur plusieurs plans ou axes, et qui ensuite, grâce à l\'utilisation des fonctions \"facebinder\", \"Draft to Sketch\", Shape 2D View, etc. nous permettront de produire des \"esquisses\" parfaitss, puis de les éditer pour les rendre (en créant ad hoc des \"points ou des lignes cosmétiques\") utilisables dans TechDraw ; à ces sketches j\'ai donné le nom de \"base-sketchTD\" ;
+3.  insertion / création de \"base-sketchTD\" dans les couches d\'appartenance (aussi avec \"drag and drop\") ;
+4.  création de la page de dessin avec son modèle ;
+5.  création de la vue avec TechDraw : sélectionnez la couche ou le dossier de regroupement (qui contient la \"base-sketchTD\") dans la structure, puis cliquez sur le bouton \"insérer vue\" ; TechDraw insérera le contenu de la couche ou du dossier de regroupement dans la vue. Pour une création correcte, la \"base-sketchTD\" doit être perpendiculaire à la vue du moniteur/de l\'écran ; je précise que tout ce que nous ajouterons ultérieurement dans le calque ou dans le dossier de regroupement, ou toute modification de la \"base-sketchTD\", sera mis à jour en temps réel dans la vue TechDraw. Gardez à l\'esprit que les mises à jour et / ou les modifications peuvent affecter les dimensions déjà introduites ou les lignes cosmétiques créées avec l\'outil spécifique de TechDraw dans la vue.
+6.  Une fois que le \"base-sketchTD\" a été défini dans la vue, nous pouvons passer à la cotation avec les outils TechDraw appropriés ;
 
-Stages of the procedure:
+Il est possible d\'insérer le \"base-sketchTD\" aussi dans les vues du groupe de projection:
 
-1.  Creation of the 3D object(s) according to the canons of traditional modeling;
-2.  Possible creation of independent or simple copies, eg. to be used for the creation of specific continuous sections positioned on multiple planes or axes, and which then through the use of the \"facebinder\", \"Draft to Sketch\", Shape 2D View, etc. functions. it will allow us to produce perfect "Sketches", then edit them to make them (by creating ad hoc "cosmetic points or lines") usable in TechDraw; to these sketches I gave the name of \"base-sketchTD\";
-3.  insertion / creation of \"base-sketchTD\" in the layers of belonging (also with \"drag and drop\");
-4.  creation of the drawing page with its template;
-5.  creation of the view with TechDraw: select the layer or the grouping folder (which contains the "base-sketchTD") from the structure, then click on the "insert view" button; TechDraw will insert the contents of the layer or grouping folder into the view. For a correct creation \"base-sketchTD\" must be perpendicular to the monitor / display view; I point out that whatever we add later in the layer or in the grouping-folder, or modifications of the "base-sketchTD", will be updated in realtime in the TechDraw view. Keep in mind that updates and / or modifications may affect the dimensions already introduced or cosmetic lines created with the specific tool of TechDraw in the view.
-6.  once the "base-sketchTD" has been defined in the view, we can move on to dimensioning with the appropriate TechDraw tools;
+-   sélectionnez la vue de projection -\> onglet propriétés -\> Données -\> section d\'enregistrement \"Projection\" -\> Source cliquez sur le bouton avec les trois points et ajoutez directement la \"base-sketchTD\" ou la couche qui la contient.
 
-It is possible to insert the \"base-sketchTD\" also in the projection group views:
+:   Il faut noter que la \"base-sketchTD\" doit être positionnée sur la face la plus haute du modèle/objet, sinon elle sera cachée et sera invisible dans TechDraw.
 
--   select the projection view -\> properties tab -\> Data -\> "Projection" record section -\> Source click on the button with the three dots and directly add the "base-sketchTD" or the layer that contains it.
+Les sections obtenues à partir des vues ne semblent pas avoir cette possibilité. Lorsqu\'il est nécessaire de créer des points cosmétiques précis adaptés au dimensionnement (par exemple des points de tangence), ils peuvent être générés :
 
-:   It should be noted that the \"base-sketchTD\" must be positioned on the highest face of the model / object, otherwise it will be hidden and will be invisible in TechDraw.
+-   dans \"Sketcher\" par des lignes de construction et en insérant des cercles avec un diamètre / rayon infinitésimal (0.00001) aux extrémités, ceux-ci seront vus par TechDraw comme des points / sommets appropriés pour la cotation ;
+-   dans le projet, avec la même méthode, être inséré dans le calque ou le groupe de dossiers correspondant ;
 
-The sections obtained from the views do not seem to have this possibility. Whenever it is necessary to create precise cosmetic points suitable for dimensioning (e.g. tangency points), they can be generated:
+:   une fois que le \"base-sketchTD\" a été modifié ou que l\'objet Draft a été ajouté dans le calque ou le dossier-groupement, TechDraw mettra automatiquement à jour la vue, si cela ne se produit pas, mettez à jour manuellement avec la commande appropriée.
 
--   in \"Sketcher\" through construction lines and inserting circles with infinitesimal diameter / radius (0.00001) in the ends, these will be seen by TechDraw as points / vertices suitable for dimensioning;
--   in Draft with the same method to be inserted in the relevant layer or folder-grouping;
+Pour insérer des remplissages de section ou des motifs :
+faites attention aux lignes créées sur les faces qui coupent deux ou plusieurs arêtes, elles sont vues par TechDraw comme des éléments de séparation de la face qui affectent la création des remplissages ou des motifs. Cela se produit par exemple lors de la création des lignes extérieures qui définissent le fil d\'un trou, cette ligne empêchera le remplissage ou le motif de s\'étendre plus loin en l\'empêchant d\'arriver sur celle qui définit le pré-trou. Dans ce cas, il est préférable de créer des points cosmétiques à travers des lignes de construction en insérant des cercles de rayon infinitésimal dans les sommets qui seront vus par TechDraw comme des points cosmétiques et ensuite les joindre dans TechDraw avec créer une ligne cosmétique par deux points.
+Toutes les lignes et / ou chemins (y compris cosmétiques) qui sont affichés dans les vues peuvent être édités dans la mise en forme par la commande \"Change Apparence of selected Lines\" de TechDraw.
+Pour créer des sections continues spécifiques sur différents axes ou plans, j\'ai utilisé l\'atelier \"WorkFeatureDev\" qui permet de créer des plans \"solides\", avec une épaisseur de \"0\", en sélectionnant trois sommets. Ces plans peuvent être joints par une arête commune ou superposée en utilisant les fonctions booléennes de l\'atelier \"Part\" et ensuite utilisés pour trancher / sectionner le modèle solide par la commande \"Slice apart\" du même atelier. Les faces des objets découpés peuvent être convenablement exploitées pour la création, avec la fonction \"Facebinder\", des \"base-sketchTD \"s pour produire des vues de section spécifiques dans TechDraw et donc pour pouvoir les dimensionner et les détailler.
+Je crois avoir rendu public chaque \"truc\" (ou plutôt système) expérimenté pour pouvoir utiliser des outils plus spécifiques (non fournis pour TechDraw) et créer des dessins techniques professionnels de haute qualité sans aucune limite, rendant l\'atelier TechDraw plus efficace et adaptable à tout besoin , selon toute vraisemblance au même niveau (sinon plus flexible et puissant) que les pairs commerciaux.
+Il faut dire, ce qui n\'est pas négligeable, qu\'avec ce système il est possible de créer des fichiers 2D entiers et de les citer avec TechDraw de la même manière que \"LibreCad\" ou \"Autocad LT\" ou d\'autres cads bidimensionnels.
+J\'espère avoir été suffisamment clair (si la traduction le permet) en expliquant la procédure (\" truc / système \") que je crois \" plus facile à faire qu\'à dire \", puisqu\'il s\'agit de pouvoir entrer des dessins 2D dans les vues des TD créés avec \" Draft \" et/ou avec \" Sketcher \" simplement en les sélectionnant dans la structure et en créant une vue dans le TD avec la commande appropriée \" créer une vue \" ; mais j\'ai pensé faire quelque chose d\'agréable et de plus technique en décrivant la procédure, certes, de manière \" simplifiée \" pour créer un minimum de flux de travail organisé.
+A chacun de nous, avec imagination et inventivité, de l\'optimiser au maximum pour obtenir le meilleur résultat.
+Je vous joins les fichiers de quelques exemples de flux de travail de dessins techniques (irréalisables avec TechDraw uniquement) dont ont été tirées les images présentées ci-dessous.
+En espérant avoir été utile, bon travail et bonne expérimentation !
 
-:   once the \"base-sketchTD\" has been modified or the Draft object added in the layer or grouping folder, TechDraw will automatically update the view, if this does not happen, update manually with the appropriate command.
+## Remarques
 
-To insert section fills or patterns:
-pay attention to the lines created on the faces that intersect two or more edges, they are seen by TechDraw as separating elements of the face that affect the creation of the fills or patterns. This occurs e.g. when creating the outer lines that define the thread of a hole, this line will prevent the fill or pattern from extending further preventing it from arriving on the one that defines the pre-drill hole. In this case it is better to create cosmetic points through construction lines by inserting circles of infinitesimal radius in the vertices that will be seen by TechDraw as cosmetic points and then join them in TechDraw with create cosmetic line by two points.
-All lines and / or paths (including cosmetic ones) that are displayed in the views can be edited in the formatting through TechDraw\'s "Change Apparence of selected Lines" command.
-To create specific continuous sections on different axes or planes, I used the "WorkFeatureDev" workbench which allows you to create "solid" planes, with a thickness of "0", by selecting three vertices. These planes can be joined through a common or overlapping edge using the Boolean functions of the "Part" workbench and subsequently used for slicing / sectioning the solid model through the "Slice apart" command of the same workbench. The faces of the cut objects can be suitably exploited for the creation, with the "Facebinder" function, the "base-sketchTD"s to produce specific section views in TechDraw and therefore to be able to dimension and detail them.
-I believe I have made public every \"trick\" (or rather system) experimented to be able to use more specific tools (not provided for TechDraw) and create high quality professional technical drawings without any limits, making the TechDraw workbench more efficient and adaptable to any need , in all likelihood on par (if not more flexible and powerful) than commercial peers.
-It should be said, which is not negligible, that with this system it is possible to create entire 2D files and quote them with TechDraw in the same way as \"LibreCad\" or \"Autocad LT\" or other two-dimensional cads.
-I hope I was clear enough (translation permitting) in explaining the procedure (\"trick / system\") that I believe to be \"easier to do than to say\", as it is all about being able to enter 2D drawings into the views of TDs created with \"Draft\" and / or with \"Sketcher\" simply by selecting them from the structure and creating a view in TD with the appropriate command \"create a view\"; but I thought of doing something pleasant and more technical by describing the procedure, certainly, in a \"simplified\" way to create a minimum of organized workflow.
-It is up to each of us, with imagination and inventiveness, to optimize it to the maximum to obtain the best result.
-I am attaching the files of some workflow examples of technical drawings (not feasible with TechDraw only) from which the images shown below were taken.
-In the hope of having been useful, good work and good experimentation!
+## Perspectives futures 
 
-## Notes
+Cependant, le chemin décrit pourrait représenter le point de départ (ou l\'idée) d\'écrire du code supplémentaire pour automatiser le système et l\'intégrer directement dans TechDraw avec les fonctions de bouton / commande appropriées.
 
-## Future Outlook 
+## Liens
 
-However, the described path could represent the starting point (or the idea) to write additional code to automate the system and integrate it directly into TechDraw with appropriate button / command functions.
-
-## Links
-
--   [Macro WorkFeatures](https://wiki.freecadweb.org/Macro_WorkFeatures) Wiki page to macro
--   [FreeCAD WorkFeature Workbench](https://github.com/Rentlau/WorkFeature-WB) Repository to source code
--   [TechDraw without limits = Layout autocad](https://forum.freecadweb.org/viewtopic.php?t=54499) Forum Thread
--   [TechDraw: -- come utilizzare gli strumenti Draft/Snaps per creare " vertici/punti cosmetici"](https://forum.freecadweb.org/viewtopic.php?f=28&t=53329) Forum Thread in Italian language
+-   [Macro WorkFeatures](https://wiki.freecadweb.org/Macro_WorkFeatures) Page wiki sur les macros.
+-   [FreeCAD atelier WorkFeature](https://github.com/Rentlau/WorkFeature-WB) Dépôt vers code source
+-   [TechDraw without limits = Layout autocad](https://forum.freecadweb.org/viewtopic.php?t=54499) (en anglais) Fil de discussion
+-   [TechDraw : - come utilizzare gli strumenti Draft/Snaps per creare \" vertici/punti cosmetici \"](https://forum.freecadweb.org/viewtopic.php?f=28&t=53329) Fil de discussion en langue italienne
 
 
 {{Tutorials navi

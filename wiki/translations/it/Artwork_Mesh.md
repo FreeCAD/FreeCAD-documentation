@@ -1,5 +1,4 @@
 # Artwork Mesh/it
-
  
 
 Queste icone si trovano nel percorso origine indicato.

@@ -4,7 +4,6 @@
 
 
 
-
 ## Übersicht über Python Skriptseiten 
 
 -   Python bezogene Seiten im Handbuch:

@@ -125,7 +125,15 @@ Utilizatorul este, de asemenea, responsabil pentru integritatea propriului model
 
 ### Topological naming 
 
+
+<div class="mw-translate-fuzzy">
+
+### Topological naming 
+
 Numerele de margine nu sunt complet stabile, prin urmare este recomandat să finalizați lucrarea principală de proiectare a corpului dvs solid înainte de a aplica funcții cum ar fi racordări și șanfren, în caz contrar arginile ar putea schimba numele și margini racordate ar deveni probabil nevalabile.
+
+
+</div>
 
 Read more in [topological naming problem](topological_naming_problem.md).
 
@@ -148,7 +156,15 @@ Box = Box.makeFillet(3,[Box.Edges[1],Box.Edges[2],Box.Edges[3],Box.Edges[4]]) # 
 -   3 = radius
 -   Box.Edges\[2\] = Edge with its number
 
-Exemple : 
+
+<div class="mw-translate-fuzzy">
+
+Exemple :
+
+
+</div>
+
+
 ```python
 import PartDesign
 from FreeCAD import Base
@@ -158,9 +174,6 @@ Box = Box.makeFillet(3,[Box.Edges[0]]) # pour 1 Fillet
 Box = Box.makeFillet(3,[Box.Edges[1],Box.Edges[2],Box.Edges[3],Box.Edges[4]]) # for several Fillets
 Part.show(Box)
 ```
-
-
-
 
 
 

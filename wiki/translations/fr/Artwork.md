@@ -1,5 +1,4 @@
 # Artwork/fr
-
   Voici les icônes créés pour FreeCad. N\'hésitez pas à les utiliser dans vos applications. Si vous voulez contribuer en créant des icônes, veuillez lire les [directives de style graphique](Artwork_Guidelines.md).
 
 ## Icônes diverses 
@@ -86,10 +85,6 @@ Voir [Artwork PartDesign](Artwork_PartDesign.md).
 
 Voir [Artwork Part](Artwork_Part.md).
 
-### Depuis src/Mod/Plot/ 
-
-Voir [Artwork Plot](Artwork_Plot.md).
-
 ### Depuis src/Mod/Points/ 
 
 Voir [Artwork Points](Artwork_Points/fr.md).
@@ -105,10 +100,6 @@ Voir [Artwork ReverseEngineering](Artwork_ReverseEngineering.md).
 ### Depuis src/Mod/Robot/ 
 
 Voir [Artwork Robot](Artwork_Robot.md).
-
-### Depuis src/Mod/Ship/ 
-
-Voir [Artwork Ship](Artwork_Ship.md).
 
 ### Depuis src/Mod/Sketcher/ 
 
@@ -144,9 +135,29 @@ Voir [Artwork Web](Artwork_Web.md).
 
 ## Ateliers externes et addons 
 
+
+<div class="mw-translate-fuzzy">
+
+### Depuis src/Mod/Plot/ 
+
+
+</div>
+
+Voir [Artwork Plot](Artwork_Plot.md).
+
 ### Depuis Mod/Reinforcement/ 
 
 Voir [Artwork Reinforcement](Artwork_Reinforcement.md).
+
+
+<div class="mw-translate-fuzzy">
+
+### Depuis src/Mod/Ship/ 
+
+
+</div>
+
+Voir [Artwork Ship](Artwork_Ship.md).
 
 ## Icônes erronées 
 

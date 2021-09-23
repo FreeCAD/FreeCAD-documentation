@@ -1,5 +1,4 @@
 # Macro BOLTS/it
-
  {{Macro/it
 |Name=BOLTS
 |Translate=BOLTS

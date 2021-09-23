@@ -1,5 +1,4 @@
 # Inspection Workbench/pl
-
  
 
 <img alt="Ikonka FreeCAD dla Środowiska pracy Inspekcja" src=images/Workbench_Inspection.svg  style="width:128px;">

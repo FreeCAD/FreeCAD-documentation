@@ -1,5 +1,4 @@
 # Artwork Spreadsheet/it
-
  
 
 These icons are in the indicated source path.

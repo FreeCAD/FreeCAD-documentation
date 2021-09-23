@@ -1,5 +1,4 @@
 # Curves Workbench/de
-
  }
 
 ## Einführung

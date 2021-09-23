@@ -3,6 +3,7 @@
    Name:Std Edit
    MenuLocation:Edit → Toggle Edit mode
    Workbenches:All
+   SeeAlso:[Std UserEditMode](Std_UserEditMode.md)
 ---
 
 ## Description

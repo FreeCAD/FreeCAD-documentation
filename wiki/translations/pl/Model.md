@@ -1,7 +1,6 @@
 # Model/pl
 
 
-
 ## Wprowadzenie
 
 W FreeCAD słowo \"[Model](Model/pl.md)\" jest zwykle używane w odniesieniu do każdego obiektu 3D lub kolekcji obiektów utworzonych w oknie [widoku 3D](3D_view/pl.md).

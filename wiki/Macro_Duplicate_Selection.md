@@ -1,5 +1,4 @@
 # Macro Duplicate Selection
-
   {{Macro
 |Name=Macro Duplicate Selection
 |Description= This macro testing if one selection are duplicate , select the object IN THE 3D VIEW the "ForbiddenCursor" stay if the or one selection is duplicate, the macro stay resident.

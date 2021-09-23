@@ -2,18 +2,11 @@
 
 
 
-
 {{TOCright}}
 
 ## Einführung
 
-
-<div class="mw-translate-fuzzy">
-
 Um die Finite Element Analyse (FEA) innerhalb des **<img src="images/Workbench_FEM.svg" width=24px> [FEM Arbeitsbereichs](FEM_Workbench/de.md)** durchführen zu können, verwendet FreeCAD zwei externe Programme: eines wird für die Generierung des [FEM Netz](FEM_Mesh/de.md) verwendet, das andere für die numerische Lösung der eigentlichen Analyse. Du kannst testen, ob dein FreeCAD Installation für die FEA bereit ist, indem du das [FEM CalculiX Kragarm 3D](FEM_CalculiX_Cantilever_3D/de.md) Beispiel ausführen, das in jeder Installation von FreeCAD seit v0.17 enthalten ist.
-
-
-</div>
 
 <img alt="" src=images/FEM_Workbench_workflow.svg  style="width:600px;"> 
 * Arbeitsablauf des FEM Arbeitsbereichs; der Arbeitsbereich ruft zwei externe Programme auf, um die Vernetzung eines festen Objekts und die eigentliche Lösung des Finite Element Problems durchzuführen.*
@@ -75,13 +68,7 @@ Als historische Referenz siehe die Beiträge:
 -   [patching Netgen 5.3.1](https://forum.freecadweb.org/viewtopic.php?f=4&t=17501&start=200#p165769) um mit OCCT 7.1 zu arbeiten
 -   [Probleme mit gmsh in FEM wb (netgen nostalgy)](https://forum.freecadweb.org/viewtopic.php?t=28368)
 
-
-<div class="mw-translate-fuzzy">
-
-Obwohl Netgen nicht aus der [FEM Arbeitsbereich](FEM_Workbench/de.md) heraus verfügbar ist, kann es dennoch allein verwendet werden, um Netze zu erzeugen, die dann importiert werden können.
-
-
-</div>
+Obwohl Netgen nicht aus dem [FEM Arbeitsbereich](FEM_Workbench/de.md) heraus verfügbar ist, kann es dennoch allein verwendet werden, um Netze zu erzeugen, die dann importiert werden können.
 
 Wenn das Programm korrekt installiert ist, kannst du den Befehl `netgen` im Terminal ausführen, um die grafische Oberfläche des Programms zu starten.
 
@@ -233,14 +220,11 @@ Seitdem ist es gelungen, neuere Versionen von Netgen auszubessern und mit OCCT 7
 ## Installation unter MacOSX 
 
 
-{{VeryImportantMessage|Diese Informationen könnten veraltet sein. Wenn du ein OSX Benutzer bist, teste und bereinige bitte diesen Abschnitt}}
+**Diese Informationen könnten veraltet sein. Wenn du ein OSX Benutzer bist, teste und bereinige bitte diesen Abschnitt**
 
 Die OSX [Entwicklungspakete](https://github.com/FreeCAD/FreeCAD/releases) von FreeCAD enthalten möglicherweise Netgen, aber nicht CalculiX.
 
 Siehe diesen Forumsbeitrag [FEM on Mac OSX](https://forum.freecadweb.org/viewtopic.php?f=18&t=10979&p=198652#p198642) für Informationen zur Installation von CalculiX, und einen [aktualisierter Beitrag](https://forum.freecadweb.org/viewtopic.php?f=18&t=10979&start=90#p273746) für neuere Informationen.
-
-
-<div class="mw-translate-fuzzy">
 
 CalculiX:
 
@@ -251,18 +235,9 @@ Die folgenden Beiträge sind möglicherweise veraltet:
 -   [FEM auf Mac OSX, Beitrag 1](http://forum.freecadweb.org/viewtopic.php?f=18&t=10979)
 -   [MacPorts Benutzer: CalculiX port Test Anfrage](http://forum.freecadweb.org/viewtopic.php?f=8&t=14497)
 
-
-</div>
-
 ## Weitere Informationen 
 
-
-<div class="mw-translate-fuzzy">
-
 Der [FEM Arbeitsbereich](FEM_Workbench/de.md) befindet sich in ständiger Entwicklung. Die aktuellsten Informationen findest du im [FreeCAD Forum](http://www.forum.freecadweb.org/).
-
-
-</div>
 
 Wenn du Probleme bei der Installation von Netgen, Gmsh oder CalculiX oder einem anderen externen Werkzeug hast, suche bitte zuerst im Forum:
 

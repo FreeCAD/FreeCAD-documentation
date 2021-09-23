@@ -1,12 +1,22 @@
 # Reverse Engineering Workbench/es
 
- 
+
+
+
 
 <img alt="El icono del Ambiente de trabajo Ingeniería inversa" src=images/Workbench_Reverse_Engineering.svg  style="width:128px;">
+
+## Introduction
+
+
+<div class="mw-translate-fuzzy">
 
 ## Introducción
 
 El <img alt="" src=images/Workbench_Reverse_Engineering.svg  style="width:24px;"> [Ambiente de trabajo Ingeniería inversa](Reverse_Engineering_Workbench/es.md) tiene como objetivo proporcionarle herramientas específicas para convertir formas, sólidos y mallas en características paramétricas de FreeCAD. Aún está en desarrollo.
+
+
+</div>
 
 Por el momento no hay ninguna funcionalidad presente en este banco de trabajo. Es usado como una caja de arena por los programadores.
 
@@ -24,6 +34,6 @@ Enlace a los hilos apropiados en los que se habla de este ambiente de trabajo
 
 
 
- 
+
 
 [Category:Reverse Engineering](Category:Reverse_Engineering.md) [Category:Workbenches](Category:Workbenches.md)

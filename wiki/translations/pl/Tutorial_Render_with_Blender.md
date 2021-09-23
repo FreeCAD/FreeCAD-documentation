@@ -2,7 +2,6 @@
 
 
 
-
 {{TutorialInfo/pl
 |Topic=Renderowanie
 |Level=średniozaawansowany

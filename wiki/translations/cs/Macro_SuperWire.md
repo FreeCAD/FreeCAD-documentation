@@ -1,6 +1,8 @@
 # Macro SuperWire/cs
 
- {{Macro/cs
+
+
+{{Macro/cs
 |Name=SuperWire
 |Translate=SuperWire
 |Icon=Macro_SuperWire.png
@@ -12,9 +14,17 @@
 |Download=[https://www.freecadweb.org/wiki/images/e/e3/Macro_SuperWire.png ToolBar Icon]
 }}
 
+## Description
+
+
+<div class="mw-translate-fuzzy">
+
 ## Deskriptivní
 
 Toto makro vytváří drát (lomenou čáru) z vybraných objektů (přímek a oblouků) i v případech kdy běžné metody pro vytváření drátů (např. nástroj pro aktualizaci) selžou.
+
+
+</div>
 
 Pozor, aby to fungovalo, potřebujete nejnovější verzi FreeCADu.
 
@@ -25,7 +35,7 @@ ToolBar Icon ![](images/Macro_SuperWire.png )
 **Macro\_SuperWire.FCMacro**
 
 
-{{MacroCode|code=
+```python
 
 import FreeCAD,FreeCADGui,Part
 try:
@@ -47,7 +57,7 @@ else:
    else:
        FreeCAD.Console.PrintError("SuperWire operation failed!")
 
-}}
+```
 
 
 

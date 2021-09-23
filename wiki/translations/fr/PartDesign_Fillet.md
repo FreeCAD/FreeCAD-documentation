@@ -38,7 +38,10 @@ Voici comment ils diffèrent les uns des autres:
 
 Les congés, chanfreins et autres fonctionnalités opérant sur les corps solides dépendent du noyau OpenCASCADE Technology (OCCT) sous-jacent utilisé par FreeCAD. Le noyau OCCT a parfois du mal à gérer les arêtes vives qui coïncident, là où deux faces se rencontrent. Si tel est le cas, FreeCAD peut se bloquer sans explication.
 
-S\'il est exécuté depuis le terminal, FreeCAD peut produire un fichier de log comme celui-ci après le crash : {{code|code=
+S\'il est exécuté depuis le terminal, FreeCAD peut produire un fichier de log comme celui-ci après le crash :
+
+
+{{code|code=
 #1  0x7fff63d660ba in BRep_Tool::Curve(TopoDS_Edge const&, TopLoc_Location&, double&, double&) from /usr/lib/x86_64-linux-gnu/libTKBRep.so.7+0x2a
 #2  0x7fff63d69546 in BRep_Tool::Curve(TopoDS_Edge const&, double&, double&) from /usr/lib/x86_64-linux-gnu/libTKBRep.so.7+0x46
 #3  0x7fff71f4fef5 in ChFi3d_Builder::PerformIntersectionAtEnd(int) from /usr/lib/x86_64-linux-gnu/libTKFillet.so.7+0x3b05
@@ -67,7 +70,9 @@ Voir la page [Problème de dénomination topologique](Topological_naming_problem
 
 ## Script
 
-L\'outil **[16px|text-top=Congé|link=PartDesign_Fillet/fr](File:PartDesign_Fillet.svg.md) [Congés](PartDesign_Fillet/fr.md)** peut être utilisé dans une macro et à partir de la console Python en utilisant la fonction suivante : 
+L\'outil **[16px|text-top=Congé|link=PartDesign_Fillet/fr](File:PartDesign_Fillet.svg.md) [Congés](PartDesign_Fillet/fr.md)** peut être utilisé dans une macro et à partir de la console Python en utilisant la fonction suivante :
+
+
 ```python
 Box = Box.makeFillet(3,[Box.Edges[0]]) # 1 Fillet
 Box = Box.makeFillet(3,[Box.Edges[1],Box.Edges[2],Box.Edges[3],Box.Edges[4]]) # for several Fillets
@@ -76,7 +81,9 @@ Box = Box.makeFillet(3,[Box.Edges[1],Box.Edges[2],Box.Edges[3],Box.Edges[4]]) # 
 -   3 = rayon du congé
 -   Box.Edges\[2\] = bord avec son numéro
 
-Exemple : 
+Exemple :
+
+
 ```python
 import PartDesign
 from FreeCAD import Base
@@ -86,9 +93,6 @@ Box = Box.makeFillet(3,[Box.Edges[0]]) # pour 1 Fillet
 Box = Box.makeFillet(3,[Box.Edges[1],Box.Edges[2],Box.Edges[3],Box.Edges[4]]) # for several Fillets
 Part.show(Box)
 ```
-
-
-
 
 
 

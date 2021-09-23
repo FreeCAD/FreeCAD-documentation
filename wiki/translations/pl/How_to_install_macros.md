@@ -1,5 +1,4 @@
 # How to install macros/pl
-
  {{TutorialInfo/pl
 |Topic=Programowanie
 |Level=Medium programmer

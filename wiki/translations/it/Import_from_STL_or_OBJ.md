@@ -1,5 +1,4 @@
 # Import from STL or OBJ/it
-
  {{TutorialInfo/it
 |Topic= Importare da STL o OBJ
 |Level= Base

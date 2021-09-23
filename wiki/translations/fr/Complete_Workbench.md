@@ -2,8 +2,7 @@
 
 
 
-
-{{VeryImportantMessage|L'[atelier Complete](Complete_Workbench/fr.md) est déprécié.}}
+**L'[atelier Complete](Complete_Workbench/fr.md) est déprécié.**
 
 <img alt="" src=images/Workbench_Complete.svg  style="width:64px;">
 

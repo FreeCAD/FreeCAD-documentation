@@ -1,7 +1,7 @@
 ---
 - GuiCommand:/de
    Name:SheetMetal AddWall
-   Name/de:SheetMetal Kante ansetzen
+   Name/de:SheetMetal KanteAnsetzen
    MenuLocation:SheetMetal → Make Wall
    Workbenches:[Blech (SheetMetal)](SheetMetal_Workbench/de.md)
    Shortcut:**W**
@@ -19,33 +19,33 @@ Um eine Kante hinzuzufügen:
 
 1.  Zur <img alt="" src=images/Sheetmetal_workbench_icon.svg  style="width:22px;"> [Blech](SheetMetal_Workbench/de.md)-Arbeitsumgebung wechseln.
 2.  Mit einer Basisplatte oder einem Blech starten und eine oder mehrere Randflächen auswählen, die eine Kante (Umbug) erhalten sollen.
-3.  Schaltfläche <img alt="" src=images/SheetMetal_AddWall.svg  style="width:24px;"> [Kante anfügen](SheetMetal_AddWall/de.md) drücken, um die Kante(n) hinzuzufügen.
+3.  Schaltfläche <img alt="" src=images/SheetMetal_AddWall.svg  style="width:24px;"> [Kante ansetzen](SheetMetal_AddWall/de.md) drücken, um die Kante(n) hinzuzufügen.
 
 
-**Note**
+**Hinweis**
 
-: To create a base plate use a closed 2D outline - preferably a <img alt="" src=images/Sketcher_NewSketch.svg  style="width:24px;"> [Sketch](Sketcher_NewSketch.md) - with the <img alt="" src=images/SheetMetal_AddBase.svg  style="width:24px;"> [Make Base Wall](SheetMetal_AddBase.md) command.
-Alternatively you can generate a base plate with one of the following methods as well:
+: Um eine Grundplatte (Platine) zu erstellen, verwendet man eine geschlossene 2D-Kontur - vorzugsweise eine <img alt="" src=images/Sketcher_NewSketch.svg  style="width:24px;"> [Skizze](Sketcher_NewSketch.md) - mit dem Befehl <img alt="" src=images/SheetMetal_AddBase.svg  style="width:24px;"> [Basisprofil erstellen](SheetMetal_AddBase/de.md).
+Alternativ kann man eine Grundplatte auch mit einer der folgenden Methoden erstellen:
 
-:\* Method 1: <img alt="" src=images/Part_Box.svg  style="width:24px;"> [Part Cube](Part_Box.md)
+:\* Methode 1: Einen <img alt="" src=images/Part_Box.svg  style="width:24px;"> [Part Würfel](Part_Box/de.md) erstellen
 
-:\* Method 2: An extruded solid made with <img alt="" src=images/Part_Extrude.svg  style="width:24px;"> [Part Extrude](Part_Extrude.md) from either a:
+:\* Methode 2: Einen Festkörper extrudieren mit <img alt="" src=images/Part_Extrude.svg  style="width:24px;"> [Part Extrudieren](Part_Extrude/de.md) aus wahlweise
 
-::\* <img alt="" src=images/Draft_Rectangle.svg  style="width:24px;"> [Draft Rectangle](Draft_Rectangle.md) or a
+::\* Einem <img alt="" src=images/Draft_Rectangle.svg  style="width:24px;"> [Draft Rechteck](Draft_Rectangle/de.md)
 
-::\* <img alt="" src=images/Draft_Wire.svg  style="width:24px;"> [Draft Wire](Draft_Wire.md) or a
+::\* Einem <img alt="" src=images/Draft_Wire.svg  style="width:24px;"> [Draft Linienzug](Draft_Wire/de.md)
 
-::\* <img alt="" src=images/Sketcher_NewSketch.svg  style="width:24px;"> [Sketch](Sketcher_NewSketch.md)
+::\* Einer <img alt="" src=images/Sketcher_NewSketch.svg  style="width:24px;"> [Skizze](Sketcher_NewSketch.md)
 
-::\* Use <img alt="" src=images/Part_Thickness.svg  style="width:24px;"> [Part Thickness](Part_Thickness.md) to create shell (**Typically with the thickness value of the sheet metal.**)
+::\* Dann <img alt="" src=images/Part_Thickness.svg  style="width:24px;"> [Part Dicke\...](Part_Thickness/de.md) verwenden, um ein Schalenobjekt zu erstellen (**Typischerweise mit der Wandstärke des Blechs.**)
 
-:\* Method 3: <img alt="" src=images/PartDesign_Body.svg  style="width:24px;"> [PartDesign Body](PartDesign_Body.md) containing either an
+:\* Methode 3: Einen <img alt="" src=images/PartDesign_Body.svg  style="width:24px;"> [PartDesign Körper](PartDesign_Body/de.md) erstellen und Objekte der folgenden Werkzeuge hinzufügen
 
-::\* <img alt="" src=images/PartDesign_AdditiveBox.svg  style="width:24px;"> [additive box](PartDesign_AdditiveBox.md) or a
+::\* <img alt="" src=images/PartDesign_AdditiveBox.svg  style="width:24px;"> [PartDesign Zu addierender Quader](PartDesign_AdditiveBox/de.md)
 
-::\* <img alt="" src=images/PartDesign_Pad.svg  style="width:24px;"> [PartDesign Pad](PartDesign_Pad.md) made from a <img alt="" src=images/Sketcher_NewSketch.svg  style="width:24px;"> [Sketch](Sketcher_NewSketch.md).
+::\* <img alt="" src=images/PartDesign_Pad.svg  style="width:24px;"> [PartDesign Extrudieren](PartDesign_Pad/de.md) aus einer <img alt="" src=images/Sketcher_NewSketch.svg  style="width:24px;"> [Skizze](Sketcher_NewSketch/de.md).
 
-::\* Use <img alt="" src=images/PartDesign_Thickness.svg  style="width:24px;"> [PartDesign Thickness](PartDesign_Thickness.md) to create shell (**Typically with the thickness value of the sheet metal.**)
+::\* Dann <img alt="" src=images/PartDesign_Thickness.svg  style="width:24px;"> [PartDesign Dicke](PartDesign_Thickness/de.md) verwenden, um ein Schalenobjekt zu erstellen (**Typischerweise mit der Wandstärke des Blechs.**)
 
 :   
 
@@ -53,45 +53,93 @@ Alternatively you can generate a base plate with one of the following methods as
 
 ## Eigenschaften
 
+Siehe auch: [Eigenschafteneditor](Property_editor/de.md).
+
+Ein SheetMetal-Bend-Objekt wird von einem [Part-Formelement](Part_Feature/de.md) abgeleitet und erbt alle seine Eigenschaften. Außerdem hat es die folgenden zusätzlichen Eigenschaften und sein Label hat eine Standardwert:
+
 ### Daten
 
 
-{{Properties_Title|Base}}
+{{Properties_Title/de|Basis}}
 
--    **Label**: User name of the object in the [Tree view](Tree_view.md).
+-    {{PropertyData/de|Label|String}}: Standardwert: Der vom Benutzer änderbare Name dieses Objekts, der aus einer beliebigen UTF8-Zeichenkette bestehen kann.
+
+-    {{PropertyData/de|Base Feature|Link|hidden}}: Base Feature. Verweis zum Eltern-Objekt.
+
+-    {{PropertyData/de|_Body|LinkHidden|hidden}}: Unsichtbarer Verweis zum Eltern-Body.
 
 
-{{Properties_Title|Parameters}}
+{{Properties_Title/de|Parameters}}
 
--    **angle**: Bend angle.
+-    {{PropertyData/de|Bend Type|Enumeration}}: \"Bend Type\". {{value|Material Outside}} (standard), {{value|Material Inside}}, {{value|Thickness Outside}}, {{value|Offset}}.
 
--    **extend1**: Extends the wall on the left side.
+-    {{PropertyData/de|angle|Angle}}: \"Bend Angle\". Biegewinkel. Standardwinkel {{value|90,00°}}.
 
--    **extend2**: Extends the wall on the right side.
+-    {{PropertyData/de|base Object|LinkSub}}: \"Base Object\". Verknüpfung zur ebenen Fläche, an die eine Kante angesetzt werden soll.
 
--    **gap1**: Gap from the left side.
+-    {{PropertyData/de|gap1|Distance}}: \"Gap from Left side\". Lücke von links. Standardwert: {{value|0,00 mm}}.
 
--    **gap2**: Gap from the right side.
+-    {{PropertyData/de|gap2|Distance}}: \"Gap from Right side\". Lücke von rechts. Standardwert: {{value|0,00 mm}}.
 
--    **invert**: Invert bend direction.
+-    {{PropertyData/de|invert|Bool}}: \"Invert Bend Direction\". Biegerichtung umkehren. Standardwert: `False`.
 
--    **length**: Length of the wall.
+-    {{PropertyData/de|length|Length}}: \"Length of Wall\". Schenkellänge (ab Bogen). Standardwert: {{value|10,00 mm}}.
 
--    **miterangle1**: Bend miter angle on the left side.
+-    {{PropertyData/de|radius|Length}}: \"Bend Radius\". Biegeradius (Innenradius). Standardwert: {{value|1,00 mm}}.
 
--    **miterangle2**: Bend miter angle on the right side.
 
--    **radius**: Bend radius.
+{{Properties_Title/de|Parameters Ext.}}
 
--    **relief Type**: Rectangle or Round. Enabled only when a gap value is set.
+-    {{PropertyData/de|Auto Miter|Bool}}: \"Enable Auto Miter\". Automatische Gehrung aktivieren. Standardwert: `True`.
 
--    **reliefd**: Relief depth. Enabled only when a gap value is set.
+-    {{PropertyData/de|extend1|Distance}}: \"Extend from Left Side\". Erweiterung von links. Standardwert: {{value|0,00 mm}}.
 
--    **reliefw**: Relief width. Enabled only when a gap value is set.
+-    {{PropertyData/de|extend2|Distance}}: \"Extend from Right Side\". Erweiterung von rechts. Standardwert: {{value|0,00 mm}}.
 
--    **kfactor**: K factor (also known as neutral factor) for the bend. Used to calculate bend allowance when unfolding.
+-    {{PropertyData/de|kfactor|FloatConstraint}}: \"Location of Neutral Line. Caution: Using ANSI standards, not DIN.\". Lage der neutralen Faser nach ANSI-Norm, nicht nach DIN.  Standardwert: {{value|0,50}}. K factor (also known as neutral factor) for the bend. Used to calculate bend allowance when unfolding.
 
--    **unfold**: False (default) or True. If true, unfolds the bend.
+-    {{PropertyData/de|max Extend Dist|Length}}: \"Auto Miter maximum Extend Distance\". Automatische Gehrung, maximale Länge der Erweiterung. Standardwert: {{value|5,00 mm}}.
+
+-    {{PropertyData/de|min Gap|Length}}: \"Auto Miter Minimum Gap\". Automatische Gehrung, minimale Lücke. Standardwert: {{value|0,10 mm}}.
+
+-    {{PropertyData/de|miterangle1|Angle}}: \"Bend Miter Angle from Left Side\". Gehrungswinkel von links. Standardwinkel: {{value|0,00°}}.
+
+-    {{PropertyData/de|miterangle2|Angle}}: \"Bend Miter Angle from Right Side\". Gehrungswinkel von rechts. Standardwinkel: {{value|0,00°}}.
+
+-    {{PropertyData/de|offset|Distance}}: \"Offset Bend\". Versatz der Biegung. Standardwert: {{value|0,00 mm}}.
+
+-    {{PropertyData/de|unfold|Bool}}: \"Shows Unfold View of Current Bend\". Abwicklung der aktuellen Kante anzeigen. Standardwert:  `True` erzeugt die Abwicklung der Kante.
+
+
+{{Properties_Title/de|Parameters Ex2}}
+
+-    {{PropertyData/de|Sketch|Link}}: \"Sketch Object\". Skizzenobjekt.
+
+-    {{PropertyData/de|sketchflip|Bool}}: \"Flip Sketch Direction\". Skizzenrichtung umkehren. Standardwert: `False`.
+
+-    {{PropertyData/de|sketchinvert|Bool}}: \"Invert Sketch Start\". Standardwert: `False`.
+
+
+{{Properties_Title/de|Parameters Ex3}}
+
+-    {{PropertyData/de|Length List|FloatList}}: \"Length of Wall List\". Standardwert: {{value|[10,00]}}.
+
+-    {{PropertyData/de|bend AList|FloatList}}: \"Bend Angle List\". Standardwert: {{value|[90,00]}}.
+
+
+{{Properties_Title/de|Parameters Relief}}
+
+-    {{PropertyData/de|Relief Factor|Float}}: \"Relief Factor\". Standardwert: {{value|0,70}}.
+
+-    {{PropertyData/de|Use Relief Factor|Bool}}: \"Use Relief Factor\". Standardwert: `False`.
+
+-    {{PropertyData/de|min Relief Gap|Length}}: \"Minimum Gap to Relief Cut\". Standardwert: {{value|1,00 mm}}.
+
+-    {{PropertyData/de|relief Type|Enumeration}}: \"Relief Type\". {{value|Rectangle}} (standard), {{value|Round}}. Enabled only when a gap value is set.
+
+-    {{PropertyData/de|reliefd|Length}}: \"Relief Depth\". Standardwert: {{value|1,00 mm}}. Enabled only when a gap value is set.
+
+-    {{PropertyData/de|reliefw|Length}}: \"Relief Width\". Standardwert: {{value|0,80 mm}}. Enabled only when a gap value is set.
 
 ## Beispiel
 
@@ -108,10 +156,10 @@ Alternatively you can generate a base plate with one of the following methods as
 
 Diese Schale besteht aus einer rechteckigen Platine mit an ihren Umrisskanten (-Linien) angefügten Kanten. Also muss eine Skizze für die Platine vorbereitet werden.
 
-<img alt="" src=images/SheetMetal_AddWall-02.png  style="width:200px;"> 
+<img alt="" src=images/SheetMetal_AddWall-02.png  style="width:200px;"> <img alt="" src=images/SheetMetal_AddWall-02.png  style="width:200px;"> 
 *Nur eine rechteckige Kontur*
 
-## Arbeitsablauf
+### Arbeitsablauf
 
 1.  Eine Platine erstellen
     1.  Die Konturskizze auswählen  <img alt="" src=images/SheetMetal_AddWall-03.png  style="width:240px;">

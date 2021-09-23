@@ -2,7 +2,6 @@
 
 
 
-
 <div class="mw-translate-fuzzy">
 
 Aceste funcții fac parte din [TechDraw Workbench](TechDraw_Workbench.md) și pot fi utilizate în script-uri și [macro](macro.md) sau din interpretorul [Python](Python.md), odată ce modulul  TechDraw \</ code\> a fost importat. Exemple bune de programare-script de bază TechDraw pot fi găsite în [unit test scripts](https://github.com/FreeCAD/FreeCAD/tree/master/src/Mod/TechDraw/TDTest).

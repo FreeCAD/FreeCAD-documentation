@@ -1,5 +1,4 @@
 # Inspection Workbench/es
-
  
 
 <img alt="El icono del Ambiente de trabajo Inspección" src=images/Workbench_Inspection.svg  style="width:128px;">

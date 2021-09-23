@@ -1,6 +1,8 @@
 # Video tutorials/pl
 
- {{VeryImportantMessage|Proszę zwrócić uwagę na wersję FreeCAD użytą w poradniku. Jeśli w opracowaniu została wykorzystana starsza wersja programu, ogólny proces modelowania może nadal działać, ale niektóre narzędzia w nowszych wydaniach mogły ulec zmianie. Nie dodawaj filmów wykonanych w wersji '''0.16''' lub starszej, ponieważ te wydania są uważane za przestarzałe.}}
+
+
+**Proszę zwrócić uwagę na wersję FreeCAD użytą w poradniku. Jeśli w opracowaniu została wykorzystana starsza wersja programu, ogólny proces modelowania może nadal działać, ale niektóre narzędzia w nowszych wydaniach mogły ulec zmianie. Nie dodawaj filmów wykonanych w wersji '''0.16''' lub starszej, ponieważ te wydania są uważane za przestarzałe.**
 
 Ta strona prezentuje zestaw filmików instruktażowych wykonanych przez użytkowników i programistów FreeCAD. Więcej odnośników można znaleźć w podforum [Przewodniki i fimly](https://forum.freecadweb.org/viewforum.php?f=36). Praktycznym źródłem wideo poradników jest witryna [YouTube](https://YouTube.com).
 
@@ -65,13 +67,15 @@ Ponieważ istnieje wiele filmów, które dotyczą tego tematu, proszę odwiedzi�
 
 -   [kącik flowwiego](https://www.youtube.com/c/flowwiescorner/videos) autorstwa flowwiego w języku niemieckim: ładna seria 62 krótkich filmów dotyczących FreeCAD v0.18 i v0.19, od poziomu podstawowego do średnio zaawansowanego.
 
+-   [Evgeniy Ivanov](https://www.youtube.com/c/CFDIntech/videos) autorstwa Evgeniy Ivanov w języku angielskim: seria filmów dotyczących FreeCAD 0.19, od poziomu podstawowego do średnio zaawansowanego.
+
 ## Przestarzałe przewodniki wideo 
 
 
-{{VeryImportantMessage|W FreeCAD 0.17 Środowisko pracy [Projekt Części](PartDesign_Workbench/pl.md) otrzymało ważne aktualizacje, które zmieniają sposób tworzenia brył w stosunku do poprzednich wersji. Nowi użytkownicy powinni obejrzeć filmy dla wersji '''0.17''' i nowszych, aby zrozumieć koncepcję pracy z obiektami [Projekt Części: Zawartość](PartDesign_Body/pl.md) i obiektami danych.}}
+**W FreeCAD 0.17 Środowisko pracy [Projekt Części](PartDesign_Workbench/pl.md) otrzymało ważne aktualizacje, które zmieniają sposób tworzenia brył w stosunku do poprzednich wersji. Nowi użytkownicy powinni obejrzeć filmy dla wersji '''0.17''' i nowszych, aby zrozumieć koncepcję pracy z obiektami [Projekt Części: Zawartość](PartDesign_Body/pl.md) i obiektami danych.**
 
 
-{{VeryImportantMessage|Filmy te są uważane za przestarzałe, ponieważ wykorzystują wersję v0.16 lub jeszcze starsze wersje programu.}}
+**Filmy te są uważane za przestarzałe, ponieważ wykorzystują wersję v0.16 lub jeszcze starsze wersje programu.**
 
 Choć filmy te są uważane za przestarzałe, zostały tutaj zamieszczone w celach historycznych, ponieważ informacje w nich zawarte mogą być nadal przydatne dla średnio zaawansowanych i zaawansowanych użytkowników. Absolutnie początkującym zaleca się unikanie tych filmów, dopóki nie zdobędą wiedzy na temat technik modelowania.
 

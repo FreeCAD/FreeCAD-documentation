@@ -2,7 +2,6 @@
 
 
 
-
 {{TutorialInfo/fr
 |Topic= Esquisse
 |Level= Débutant

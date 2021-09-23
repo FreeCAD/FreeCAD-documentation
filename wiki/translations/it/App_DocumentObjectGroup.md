@@ -1,7 +1,6 @@
 # App DocumentObjectGroup/it
 
 
-
 ## Introduzione
 
 <img alt="" src=images/Folder.svg  style="width:32px;">
@@ -30,6 +29,6 @@ Un [App DocumentObjectGroup](App_DocumentObjectGroup/it.md) (classe `App::Docume
 Vedere le proprietà nella pagina [Gruppo](Std_Group/it.md).
 
 
-{{Std Base
+{{Std Base navi
 
 }} {{Document objects navi}} 

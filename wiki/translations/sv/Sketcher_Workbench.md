@@ -4,17 +4,16 @@
 
 
 
-
 <img alt="Sketcher workbench icon" src=images/Workbench_Sketcher.svg  style="width:128px;">
+
+
+{{TOCright}}
 
 ## Introduction
 
 The FreeCAD <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Sketcher Workbench](Sketcher_Workbench.md) is used to create 2D geometries intended for use in the <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign Workbench](PartDesign_Workbench.md), <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Arch Workbench](Arch_Workbench.md), and other workbenches. Generally, a 2D drawing is considered the starting point for most CAD models, as a 2D sketch can be \"extruded\" to create a 3D shape; further 2D sketches can be used to create other features like pockets, ridges, or extrusions on top of the previously built 3D shapes. Together with boolean operations defined in the <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part Workbench](Part_Workbench.md), the Sketcher forms the basis of the [constructive solid geometry](constructive_solid_geometry.md) (CSG) method of building solids. Moreover, together with the <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign Workbench](PartDesign_Workbench.md) operations, the Sketcher also forms the basis of the [feature editing](feature_editing.md) methodology of creating solids.
 
 The Sketcher workbench features \"constraints\", allowing 2D shapes to follow precise geometrical definitions in terms of length, angles, and relationships (horizontality, verticality, perpendicularity, etc.). A constraint solver calculates the constrained-extent of 2D geometry and allows interactive exploration of degrees-of-freedom of the sketch.
-
-
-{{TOCright}}
 
 <img alt="" src=images/FC_ConstrainedSketch.png  style="width:450px;">
 
@@ -40,7 +39,7 @@ The **Sketcher** moves away from this logic. Objects do not need to be drawn exa
 
 #### What are constraints? 
 
-Instead of dimensions, Constraints are used to limit the degrees of freedom of an object. For example, a line without constraints has 4 [Degrees Of Freedom](#Degrees_Of_Freedom.md) (abbreviated as \" DOF \"): it can be moved horizontally or vertically, it can be stretched, and it can be rotated.
+Instead of dimensions, Constraints are used to limit the degrees of freedom of an object. For example, a line without constraints has 4 Degrees Of Freedom (abbreviated as \"DOF\"): it can be moved horizontally or vertically, it can be stretched, and it can be rotated.
 
 Applying a horizontal or vertical constraint, or an angle constraint (relative to another line or to one of the axes), will limit its capacity to rotate, thus leaving it with 3 degrees of freedom. Locking one of its points in relation to the origin will remove another 2 degrees of freedom. And applying a dimension constraint will remove the last degree of freedom. The line is then considered **fully-constrained**.
 

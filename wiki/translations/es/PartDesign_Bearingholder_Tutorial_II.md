@@ -3,7 +3,6 @@
 
 
 
-
 {{TutorialInfo
 |Topic=Modeling
 |Level=Experienced User
@@ -14,9 +13,9 @@
 }}
 
 
-{{VeryImportantMessage|Este tutorial fue escrito originalmente para una versión de desarrollo ya obsoleta de FreeCAD. A partir de abril de 2016 estas características han sido integradas en la versión de pre-desarrollo 0.17 disponible [https://github.com/FreeCAD/FreeCAD/releases/tag/0.17_pre aquí].
+**Este tutorial fue escrito originalmente para una versión de desarrollo ya obsoleta de FreeCAD. A partir de abril de 2016 estas características han sido integradas en la versión de pre-desarrollo 0.17 disponible [https://github.com/FreeCAD/FreeCAD/releases/tag/0.17_pre aquí].
 <br />
-Tenga en cuenta que esta versión de FreeCAD está todavía en una fase temprana de desarrollo. Además, este tutorial puede necesitar ser actualizado. Si desea participar en su revisión y actualización, por favor, envíe un mensaje a la sección Wiki del [http://forum.freecadweb.org foro].}}
+Tenga en cuenta que esta versión de FreeCAD está todavía en una fase temprana de desarrollo. Además, este tutorial puede necesitar ser actualizado. Si desea participar en su revisión y actualización, por favor, envíe un mensaje a la sección Wiki del [http://forum.freecadweb.org foro].**
 
 ![Tutorial de soporte de rodamiento - Soporte de rodamiento terminado (arriba)\|thumb\|right\|400px](images/HolderTop2-19.jpg )
 

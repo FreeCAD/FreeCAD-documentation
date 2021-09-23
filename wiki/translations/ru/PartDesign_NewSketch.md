@@ -1,19 +1,20 @@
 ---
-- GuiCommand:
-   Name:PartDesign NewSketch
-   MenuLocation:Sketch → Create sketch
-   Workbenches:[PartDesign](PartDesign_Workbench.md)
+- GuiCommand:/ru
+   Name/ru:Создать эскиз
+   Name:PartDesign_NewSketch
+   MenuLocation:Sketch → Создать эскиз
+   Workbenches:[PartDesign](PartDesign_Workbench/ru.md)
    Version:0.17
-   SeeAlso:[Sketcher NewSketch](Sketcher_NewSketch.md)
+   SeeAlso:[Создать эскиз](Sketcher_NewSketch/ru.md)
 ---
 
-## Description
+## Описание
 
 This tool creates a new sketch, creates a new [PartDesign Body](PartDesign_Body.md) to contain the sketch if one does not exist and automatically opens the [Sketcher workbench](Sketcher_Workbench.md) after creation.
 
 When creating models using the <img src=images/Sketcher_NewSketch.svg style="width:PartDesign workbench](PartDesign_Workbench.md), this tool should be preferred to the **[16px"> [Sketcher NewSketch](Sketcher_NewSketch.md)** tool found in the [Sketcher workbench](Sketcher_Workbench.md).
 
-## Usage
+## Применение
 
 1.  Press the **<img src=images/PartDesign_NewSketch.svg style="width:16px"> [PartDesign NewSketch](PartDesign_NewSketch.md)** button from the PartDesign toolbar.
 2.  In the Tasks panel, the **Select feature** dialog is brought up. Select one of the planes in the list or in the 3D view which can be reoriented for better visibility.
@@ -21,7 +22,7 @@ When creating models using the <img src=images/Sketcher_NewSketch.svg style="wid
 4.  The interface automatically switches to the Sketcher workbench and the sketch can be edited. Once the sketch is exited, the interface is brought back to the PartDesign workbench and the 3D view is restored to the view orientation prior to creating the sketch.
 5.  Alternatively, a plane or a face on the existing active body can be selected before creating the sketch, in which case the sketch is instantly created.
 
-## Options
+## Опции
 
 -   To change the attachment of an existing sketch, change its **Map Mode** property (see [Properties](#Properties.md).)
 
@@ -47,7 +48,7 @@ Dialog settings
 
 To reference any items in the <img src=images/Sketcher_CarbonCopy.svg style="width:Workbench Sketcher](Sketcher_Workbench.md) use the **<img src="images/Sketcher_External.svg" width=16px> [External Geometry](Sketcher_External.md)** and **[16px"> [CarbonCopy](Sketcher_CarbonCopy.md)** tools. Generally it is recommended to use other sketches as source for references rather than faces or edges, because they are less affected by the Topological Naming Issue.
 
-## Properties
+## Свойства
 
 -    **Map Mode**: mode of attachment of the sketch to another object, usually a plane or a face but can be other types of objects. Click once in the field to reveal a **...** button and press it to open the [Attachment](Part_EditAttachment.md) dialog. If set to Deactivated, the Placement property is enabled.
 

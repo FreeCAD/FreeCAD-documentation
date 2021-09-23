@@ -2,8 +2,7 @@
 
 
 
-
-{{VeryImportantMessage|The [[Complete Workbench]] is deprecated.}}
+**The [[Complete Workbench]] is deprecated.**
 
 <img alt="" src=images/Workbench_Complete.svg  style="width:64px;">
 

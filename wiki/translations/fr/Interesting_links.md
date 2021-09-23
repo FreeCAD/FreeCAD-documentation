@@ -2,7 +2,6 @@
 
 
 
-
 {{TOCright}}
 
 Cette page contient des liens relatifs à FreeCAD et à d\'autres projets FLOSS.

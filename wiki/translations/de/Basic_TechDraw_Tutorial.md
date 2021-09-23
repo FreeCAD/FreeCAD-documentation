@@ -1,5 +1,4 @@
 # Basic TechDraw Tutorial/de
-
  {{TutorialInfo/de
 |Topic=Modellierung
 |Level=Anfänger
@@ -52,11 +51,17 @@ Jetzt haben wir eine Ansicht auf der Seite, die die Oberseite des Körpers zeigt
 
 ![](images/TDTut_TopView2to1.png )
 
+
+<div class="mw-translate-fuzzy">
+
 Besser, aber ein wenig langweilig. Lass\' uns einige Bemaßungen hinzufügen.
 
 1.  Wähle den oberen linken Eckpunkt (kleiner Punkt) mit dem **LMB** (linken Maus-Button), wähle dann auch (**Strg**+**LMB**) den unteren linken Eckpunkt.
 2.  Klicke auf <img alt="" src=images/TechDraw_Dimension_Vertical.svg  style="width:32px;"> [Vertikale Längenbemaßung](TechDraw_Dimension_Vertical/de.md). Ziehe den Bemaßungstext weg vom Körper.
 3.  Versuche das nochmal mit den oberen linken und oberen rechten Eckpunkten und <img alt="" src=images/TechDraw_Dimension_Horizontal.svg  style="width:32px;"> [Horizontale Längenbemaßung](TechDraw_Dimension_Horizontal/de.md).
+
+
+</div>
 
 ![](images/TDTut_TopView2Dims.png )
 
@@ -97,8 +102,14 @@ Lass uns eine Mehransichtzeichnung mit einer anderen Vorlage als Ausgangspunkt e
 
 ![](images/TDTut_ProjGroup21.png )
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Wähle in der Ansicht \"FrontTopLeft\" die beiden Eckpunkte an den entgegengesetzten Enden der Frontkante des Werkstücks.
 2.  Klicke auf <img alt="" src=images/TechDraw_Dimension_Length.svg  style="width:32px;"> [Längenbemaßung](TechDraw_Dimension_Length/de.md). Ziehe den Bemaßungstext weg vom Körper.
+
+
+</div>
 
 ### Verbinden von Bemaßungen mit dem 3D Modell 
 
@@ -108,11 +119,17 @@ Hast Du ein Problem mit der Bemaßung bemerkt, die wir gerade angelegt haben?
 
 Aus dem ersten Teil dieses Tutorials wissen wir, dass das Werkstück 53 mm breit ist, aber unsere neuen Abmessungen lauten 43,27. Das liegt daran, dass \"FrontTopLeft\" eine [isometrische Projektion](https://en.wikipedia.org/wiki/Isometric_projection) ist, und unsere erste Zeichnung eine [orthogonale (Mehrfachansichts) Projektion](https://en.wikipedia.org/wiki/Orthographic_projection) war. Um den richtigen Wert zu erhalten, müssen wir unsere Bemaßung direkt mit dem 3D Modell verknüpfen.
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Beachte den Namen unserer fehlerhaften Bemaßung in der Combo Ansicht. Wir brauchen sie gleich.
 2.  Wechsel zur 3D Ansicht und wähle die Eckpunkte der Frontkante des Werkstücks. Wähle außerdem Page001.
 3.  Klicke auf <img alt="" src=images/TechDraw_Dimension_Link.svg  style="width:32px;"> [Bemaßungen verlinken](TechDraw_Dimension_Link/de.md). Ein Dialog im Aufgaben-Reiter öffnet sich.
 4.  Verschiebe im Dialog unsere Bemaßung von der \"Available\"-Spalte in die \"Selected\"-Spalte. Drücke **OK**.
 5.  Kehre zurück zu Page001. Unsere Bemaßung sollte nun den korrekten Wert von 53 anzeigen (falls Du immer noch 43.27 siehst, solltest Du den **Neuberechnen** Schaltfläche drücken oder den Bemaßungswert etwas ziehen, bis er sich ändert).
+
+
+</div>
 
 ## Weitermachen
 

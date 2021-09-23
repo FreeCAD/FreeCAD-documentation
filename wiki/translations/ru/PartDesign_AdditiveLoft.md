@@ -1,10 +1,11 @@
 ---
-- GuiCommand:
-   Name:PartDesign AdditiveLoft
-   MenuLocation:Part Design → Create an additive feature → Additive loft
-   Workbenches:[PartDesign](PartDesign_Workbench.md)
+- GuiCommand:/ru
+   Name/ru:Аддитивный профиль
+   Name:PartDesign_AdditiveLoft
+   MenuLocation:Part Design → Create an additive feature → Аддитивный профиль
+   Workbenches:[PartDesign](PartDesign_Workbench/ru.md)
    Version:0.17
-   SeeAlso:[PartDesign AdditivePipe](PartDesign_AdditivePipe.md), [PartDesign SubtractiveLoft](PartDesign_SubtractiveLoft.md)
+   SeeAlso:[Аддитивная трубный профиль](PartDesign_AdditivePipe/ru.md), [Субтрактивный профиль](PartDesign_SubtractiveLoft/ru.md)
 ---
 
 ## Описание
@@ -15,7 +16,7 @@
 
 ## Применение
 
-### Dialog-based workflow 
+### Применение через диалог 
 
 1.  Press the **<img src=images/PartDesign_AdditiveLoft.svg style="width:24px"> [Additive loft](PartDesign_AdditiveLoft.md)** button.
 2.  In the **Select feature** dialog, select a sketch to be used as base profile object and click **OK**.
@@ -24,7 +25,7 @@
 4.  Select the next sketch in the [3D view](3D_view.md). Repeat to select more sketches in the order you want them to be lofted through. (You can change the section order any time later in the loft dialog by dragging sections in the list to the desired position.<small>(v0.19)</small> )
 5.  Set options if needed and click **OK**.
 
-### Selection-based workflow 
+### Применение в текущем Виде, напрямую 
 
 
 <small>(v0.19)</small> 
@@ -35,10 +36,10 @@
 2.  Press the **<img src=images/PartDesign_AdditiveLoft.svg style="width:24px"> [Additive loft](PartDesign_AdditiveLoft.md)** button.
 3.  Set options if needed and click **OK**.
 
-## Options
+## Опции
 
--   **Ruled surface**: makes straight transitions between cross-sections. Does not apply to a loft with two cross-sections. If not checked, transitions will be smooth.
--   **Closed**: makes a transition from the last cross-section to the first, creating a loop.
+-   **Управление поверхностью**: делает прямолинейные переходы между поперечными сечениями. Не оказывает никакого эффекта, в случае если профиль формируется только по двум поперечными сечениям. Если пункт не установлен, переходы между сечениями будут плавными.
+-   **Замкнуть форму**: выполняет переход от последнего поперечного сечения к первому, создавая замкнутую форму.
 
 ## Свойства
 
@@ -64,16 +65,16 @@
 
 ## Ограничения
 
--   Sketches must form closed profiles.
--   It is not possible to loft to a vertex.
--   A cross-section cannot lie on the same plane as the one immediately preceding it.
--   To better control the shape of the loft, it is recommended that all the cross-sections have the same number of segments. For example, for a loft between a rectangle and a circle, the circle may be broken down into 4 connected arcs.
--   Loft will be created in the order that cross sections were added
--   If the sketch has inner geometry, i.e. the loft is supposed to have holes, then the order in which the sketch geometry is created should be the same for all sections: either start all sections with the inner geometry or start them all with the outer. Otherwise an invalid loft can be created where inner and outer walls cross.
+-   Эскизы должны иметь замкнутые контуры.
+-   Невозможно сделать профиль через в вершину.
+-   Поперечное сечение не может лежать в той же плоскости, что и непосредственно предшествующее ему.
+-   Чтобы лучше контролировать форму профиля, рекомендуется, чтобы все поперечные сечения имели одинаковое количество сегментов. Например, для профиля создаваемого между прямоугольником и окружностью окружность желательно разбить на 4 соединенные дуги.
+-   Профиль будет создан в том порядке, в котором были добавлены поперечные сечения
+-   Если эскиз имеет внутреннюю геометрию, т. е. в профиле должны быть отверстия, то порядок создания геометрии эскиза должен быть одинаковым для всех секций: либо начните все секции с внутренней геометрии, либо начните их все с внешней. В противном случае может быть создан некорректный профиль, в котором пересекаются внутренние и внешние стенки фигуры.
 
-## Known Issues 
+## Известные проблемы 
 
--   Some failure modes will turn the part black
+-   В некоторых режимах, при сбое деталь может стать черной
 
 ## Ссылки
 

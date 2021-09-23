@@ -1,6 +1,11 @@
 # Spreadsheet Workbench/es
 
- 
+{{Page_in_progress}}
+
+
+
+
+
 
 <img alt="El icono del Ambiente de trabajo Hoja de cálculo" src=images/Workbench_Spreadsheet.svg  style="width:128px;">
 
@@ -40,6 +45,16 @@ El <img alt="" src=images/Workbench_Spreadsheet.svg  style="width:24px;"> [Ambie
 -    **Negro**y **Blanco** establecen los colores de primer plano y de fondo de las celdas seleccionadas.
 
 -   Menú contextual de las filas y columnas de la hoja de cálculo: haga clic con el botón derecho del ratón en la cabecera de una fila o columna para insertar una nueva fila arriba o una nueva columna a la izquierda, o para eliminar la fila/columna actual. También puede seleccionar varias filas o columnas para eliminarlas.{{Version/es|0.20}} También puede seleccionar dónde se insertarán las nuevas filas/columnas. Además, para insertar, por ejemplo, 3 nuevas columnas a la vez, seleccione 3 columnas y utilice el menú contextual que ahora le ofrecerá insertar 3 columnas.
+
+## Spreadsheet editing 
+
+As noted above under Tools, right click on a row or column header produces a pulldown menu that allows you to delete the row/column or insert a new blank one. Formula references to cells that get moved by these operations get patched to refer to the new location, You will get a warning and a request to confirm if a row or column deletion would abolish a reference that\'s used in your model.
+
+Cut/copy/paste can be used to edit data. Cut and copy will both operate on single cells, rows, columns, rectangles, or indeed any selection group of cells you set up. Cut clears the content of selected cells; both cut and copy stash the cell content in an internal paste buffer. A paste operation writes the buffered data in such a way that the content of the uppermost-leftmost cell of the buffered set is dropped in the cell where the cursor is when you paste; other buffered content is dropped where it will have the same relationship to that target as it originally did to the upper-left cell of your cut/paste set.
+
+An important caveat: Cut/copy/paste operations do *not* fix up formula references. If you move the content of a cell, formulas which referred to the old location will break. If the old location becomes empty, the breakage will become visible as the expression evaluator will display \#ERR in dependent cells. Properties are also not carried along.
+
+The Undo key can be use to back out any of these operations. However, it undoes a cell at a time - thus, multiple Undos may be requited to back out a single copy or paste.
 
 ## Propiedades de la celda 
 
@@ -192,8 +207,6 @@ To handle the page setup necessary for printing, FreeCAD spreadsheets are printe
 ## Limitaciones actuales 
 
 FreeCAD checks for cyclic dependencies. By design, that check stops at the level of the spreadsheet object. As a consequence, you should not have a spreadsheet which contains both cells whose values are used to specify parameters to the model, and cells whose values use output from the model. For example, you cannot have cells specifying the length, width, and height of an object, and another cell which references the total volume of the resulting shape. This restriction can be surmounted by having two spreadsheets: one used as a data-source for input parameters to the model and the other used for calculations based on resultant geometry-data.
-
-When cells are copied, only the content (expression/value) is copied. The [Cell Properties](Spreadsheet_Workbench#Cell_Properties.md) described above are not copied.
 
 ## Guión básicos 
 

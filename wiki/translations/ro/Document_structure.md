@@ -5,7 +5,6 @@
 
 
 
-
 {{TOCright}}
 
 ![](images/Screenshot_treeview.jpg ) Un document FreeCAD conține toate obiectele din scenă. Poate conține grupuri și obiecte realizate cu oricare atelier.Ca urmare atelierele pot fi schimbate fără a părăsi documentul. Conținutul documentului este cel salvat pe disc. Mai multe documente pot fi deschise în acelasi timp și mai multe vizualizări al aceluiași document pot fi deschise în același timp.

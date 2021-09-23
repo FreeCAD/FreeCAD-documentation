@@ -13,7 +13,13 @@
 
 ## Beschreibung
 
+
+<div class="mw-translate-fuzzy">
+
 Der <img alt="" src=images/Draft_PointArray.svg  style="width:24px;"> **Entwurf PunktAnordnung** Befehl erzeugt eine regelmäßige Anordnung aus einem ausgewählten Objekt, indem er Kopien an den Punkten aus einer [Punkt Verbund](#Punkt_Verbund.md) platziert. Verwende stattdessen den Befehl [Entwurf PunktVerweisAnordnung](Draft_PointLinkArray/de.md), um eine effizientere [Verweis](App_Link/de.md) Anordnung zu erzeugen. Bis auf den Typ der erzeugten Anordnung, Verweis Anordnung oder regulärer Anordnung, ist der Befehl [Entwurf PunktVerweisAnordnung](Draft_PointLinkArray/de.md) identisch mit diesem Befehl.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

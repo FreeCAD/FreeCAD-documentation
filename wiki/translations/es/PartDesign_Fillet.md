@@ -42,7 +42,10 @@ Aquí puedes ver las diferencias entre ambos:
 
 Fillets, chamfers, and other features that operate on solid bodies depend on the underlying OpenCASCADE Technology (OCCT) kernel that FreeCAD uses. The OCCT kernel occasionally has difficulty handling coincident sharp edges, where two faces meet. If this is the case FreeCAD may crash without an explanation.
 
-If run from the terminal, FreeCAD may output a log like this one after the crash: {{code|code=
+If run from the terminal, FreeCAD may output a log like this one after the crash:
+
+
+{{code|code=
 #1  0x7fff63d660ba in BRep_Tool::Curve(TopoDS_Edge const&, TopLoc_Location&, double&, double&) from /usr/lib/x86_64-linux-gnu/libTKBRep.so.7+0x2a
 #2  0x7fff63d69546 in BRep_Tool::Curve(TopoDS_Edge const&, double&, double&) from /usr/lib/x86_64-linux-gnu/libTKBRep.so.7+0x46
 #3  0x7fff71f4fef5 in ChFi3d_Builder::PerformIntersectionAtEnd(int) from /usr/lib/x86_64-linux-gnu/libTKFillet.so.7+0x3b05
@@ -63,15 +66,31 @@ See the forum threads for more information:
 
 The user is also responsible for the integrity of his or her own model. Depending on the model, it may be impossible to perform a fillet or chamfer if the body is not big enough to support that operation. For example, it wouldn\'t be possible to create a 10 mm fillet if an edge is separated only 5 mm from the next surface. In that case, the maximum radius for a fillet would be 5 mm; trying to use a larger value may result in a shape that doesn\'t compute, or even a crash. If using the exact limit of 5 mm doesn\'t work, it may be possible to use a very close approximation, like 4.9999 mm, to produce the same visible result.
 
+### Topological naming 
+
+
+<div class="mw-translate-fuzzy">
+
 ### Denominación topológica 
 
 Los números de los bordes no son completamente estables, por lo tanto es aconsejable que termine el trabajo de diseño principal de su cuerpo sólido antes de aplicar características como filetes y chaflanes, de lo contrario los bordes podrían cambiar de nombre y los bordes fileteados probablemente quedarían inválidos.
+
+
+</div>
 
 Lea más en [problema de denominación topológica](topological_naming_problem/es.md).
 
 ## Guión
 
-La herramienta **[16px|text-top=Fillet|link=PartDesign_Fillet](File:PartDesign_Fillet.svg.md) [Redondeo](PartDesign_Fillet/es.md)** puede ser usada en una macro, y, desde la consola Python usando la siguiente función : 
+
+<div class="mw-translate-fuzzy">
+
+La herramienta **[16px|text-top=Fillet|link=PartDesign_Fillet](File:PartDesign_Fillet.svg.md) [Redondeo](PartDesign_Fillet/es.md)** puede ser usada en una macro, y, desde la consola Python usando la siguiente función :
+
+
+</div>
+
+
 ```python
 Box = Box.makeFillet(3,[Box.Edges[0]]) # 1 Fillet
 Box = Box.makeFillet(3,[Box.Edges[1],Box.Edges[2],Box.Edges[3],Box.Edges[4]]) # for several Fillets
@@ -80,7 +99,15 @@ Box = Box.makeFillet(3,[Box.Edges[1],Box.Edges[2],Box.Edges[3],Box.Edges[4]]) # 
 -   3 = radio
 -   Box.Edges\[2\] = Borde con su número
 
-Ejemplo: 
+
+<div class="mw-translate-fuzzy">
+
+Ejemplo:
+
+
+</div>
+
+
 ```python
 import PartDesign
 from FreeCAD import Base
@@ -99,9 +126,6 @@ Part.show(Box)
 
 
 </div>
-
-
-
 
 
 {{PartDesign Tools navi

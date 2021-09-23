@@ -1,5 +1,4 @@
 # Artwork Web/pl
-
  
 
 Ikony te znajdują się we wskazanej ścieżce źródłowej.

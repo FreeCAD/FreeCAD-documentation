@@ -1,5 +1,4 @@
 # History/pt-br
-
  \_\_FORCETOC\_\_
 
 ## History

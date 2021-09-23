@@ -1,5 +1,4 @@
 # OpenCascade/en
-
  }
 
 Redirect this page to [OpenCASCADE](OpenCASCADE.md).

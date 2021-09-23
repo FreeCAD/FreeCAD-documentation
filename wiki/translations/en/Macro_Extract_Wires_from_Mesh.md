@@ -1,6 +1,8 @@
 # Macro Extract Wires from Mesh/en
 
- {{Macro
+
+
+{{Macro
 |Name=Macro Extract Wires from Mesh
 |Icon=Macro_Extract_Wires_from_Mesh.png
 |Description=Finds boundary wires in selected mesh objects. Boundary wires are formed from all the edges found in the mesh that are shared by only one face, that is, they are "border" edges. The found wires get added to the document (one compound per mesh object), while the mesh itself gets hidden.
@@ -22,7 +24,7 @@ ToolBar Icon ![](images/Macro_Extract_Wires_from_Mesh.png )
 **Macro\_Extract\_Wires\_from\_Mesh.FCMacro**
 
 
-{{MacroCode|code=
+```python
 #!/usr/bin/python
 
 # This macro will extract wires from selected meshes
@@ -48,5 +50,5 @@ for obj in FreeCADGui.Selection.getSelection():
             if wires:
                 Part.show(Part.makeCompound(wires))
                 obj.ViewObject.hide()
-}}
+```
 

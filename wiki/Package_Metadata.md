@@ -1,8 +1,7 @@
 # Package Metadata
 
-
-{{VeryImportantMessage|This page documents a feature currently under development.
-}}
+**This page documents a feature currently under development.
+**
 
 ## Introduction
 

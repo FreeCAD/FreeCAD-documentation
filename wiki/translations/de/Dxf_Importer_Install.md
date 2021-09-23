@@ -2,7 +2,6 @@
 
 
 
-
 {{TutorialInfo/de
 |Topic=Musterklasse
 |Level=Durchschnittlicher Anwender

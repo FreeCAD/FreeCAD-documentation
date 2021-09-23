@@ -1,12 +1,11 @@
 # Raytracing Workbench/pl
-
  
 
 
-{{VeryImportantMessage|Środowisko pracy Raytracing jest w zasadzie przestarzałe. Nowe zmiany zachodzą w [https://github.com/FreeCAD/FreeCAD-render Środowisku pracy Render], które ma ma być następcą. Jest ono w pełni oprogramowane w Pythonie, więc znacznie łatwiej jest je rozbudowywać.
+**Środowisko pracy Raytracing jest w zasadzie przestarzałe. Nowe zmiany zachodzą w [https://github.com/FreeCAD/FreeCAD-render Środowisku pracy Render], które ma ma być następcą. Jest ono w pełni oprogramowane w Pythonie, więc znacznie łatwiej jest je rozbudowywać.
 
 Niemniej jednak informacje zawarte na tej stronie są użyteczne dla nowego Środowiska pracy, ponieważ oba moduły działają zasadniczo w ten sam sposób.
-}}
+**
 
 <img alt="Ikonka FreeCAD dla Środowiska pracy Raytracing" src=images/Workbench_Raytracing.svg  style="width:128px;">
 

@@ -1,6 +1,5 @@
 # Builtin modules/it
-
- {{VeryImportantMessage|(Ottobre 2019) Non modificare queste pagine. Le informazioni sono incomplete e obsolete. Per l'API più recente, consultare la [https://www.freecadweb.org/api documentazione API autogenerata] o generare la documentazione autonomamente seguendo [Documentazione del codice sorgente](Source_documentation/it.md).}}
+ **(Ottobre 2019) Non modificare queste pagine. Le informazioni sono incomplete e obsolete. Per l'API più recente, consultare la [https://www.freecadweb.org/api documentazione API autogenerata] o generare la documentazione autonomamente seguendo [Documentazione del codice sorgente](Source_documentation/it.md).**
 
 Questa pagina presenta le informazioni più approfondite sui moduli incorporati in FreeCAD, e quali sono le funzioni e le proprietà disponibili per voi. Questa pagina non è un elenco completo di tutti i contenuti di questi moduli.
 

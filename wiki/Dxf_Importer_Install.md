@@ -1,7 +1,6 @@
 # Dxf Importer Install
 
 
-
  {{TutorialInfo
 |Topic=SampleClass
 |Level=Medium user

@@ -1,7 +1,6 @@
 # Placement/de
 
 
-
 ## Übersicht
 
 **Positionierung** ist wie FreeCAD den Standort und die Lage (Orientierung) eines Objekts im Raum angibt. Die Platzierung kann in verschiedenen Formen angegeben und über [Skripten](Python_scripting_tutorial/de#Vektoren_und_Positierungen.md), den [Eigenschaftseditor](Property_editor/de.md) oder durch Auswahl von **Bearbeiten → Positionierung...** zum Öffnen des [Positionierung Aufgabenpaneel](Std_Placement/de.md) verändert werden.

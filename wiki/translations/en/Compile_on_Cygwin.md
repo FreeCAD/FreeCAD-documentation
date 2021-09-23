@@ -1,6 +1,5 @@
 # Compile on Cygwin/en
-
- {{VeryImportantMessage|(2019) The contents of this page are obsolete. Please help us to keep it updated!<br/> Meanwhile, try other [compilation options](Compiling.md).}}
+ **(2019) The contents of this page are obsolete. Please help us to keep it updated!<br/> Meanwhile, try other [compilation options](Compiling.md).**
 
 ## How to build and run FreeCAD under Cygwin 
 

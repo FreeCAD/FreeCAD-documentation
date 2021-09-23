@@ -2,7 +2,6 @@
 
 
 
-
 <div class="mw-translate-fuzzy">
 
 La procédure suivante crée une compilation dans l\'environnement Windows Vista/7/8, pour XP un autre ensemble d\'outils VS est nécessaire pour VS 2012 et 2013, qui n\'a pas été testé avec succès sur les Libpacks actuelles. Pour cibler XP (x32 et x64 fois), il est recommandé d\'utiliser VS2008 et Libpack FreeCADLibs\_11.0\_x86\_VC9.7z

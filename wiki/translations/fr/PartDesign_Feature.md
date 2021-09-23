@@ -1,7 +1,6 @@
 # PartDesign Feature/fr
 
 
-
 ## Introduction
 
 [PartDesign Feature](PartDesign_Feature/fr.md) fait référence à une \"étape\" du processus de modélisation qui se produit à l\'intérieur d\'un [PartDesign Corps](PartDesign_Body/fr.md). Par exemple, chaque fois que vous ajoutez une boîte pleine avec [PartDesign Cube additif](PartDesign_AdditiveBox/fr.md), vous ajoutez une fonction. Lorsque vous ajoutez un chanfrein à une arête avec [PartDesign Chanfrein](PartDesign_Chamfer/fr.md), vous ajoutez une autre fonction. Lorsque vous découpez un trou à l\'aide d\'une [Esquisse](Sketch/fr.md) et [PartDesign Cavité](PartDesign_Pocket/fr.md), vous ajoutez une autre fonction.

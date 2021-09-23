@@ -4,7 +4,6 @@
 
 
 
-
 Diese Seite ist ein Glossar mit allgemeinen FreeCAD Begriffen und Definitionen.
 
 Springe zu Buchstaben: {{CompactTOC|center=yes}}

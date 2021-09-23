@@ -1,12 +1,11 @@
 # CadQuery Workbench/de
-
  <img alt="CadAbfrage Arbeitsbereichssymbol" src=images/Cadquery_module_workbench_icon.svg  style="width:128px;">
 
 
-{{VeryImportantMessage|(January 2021)
+**(January 2021)
 Die aktive Entwicklung von CadAbfrage hat sich von FreeCAD [https://github.com/CadQuery/cadquery#why-this-fork] wegbewegt und bietet nun eine eigenständige GUI mit dem CQ-Editor [https://github.com/CadQuery/CQ-editor].
 Der CadAbfrage Arbeitsbereich wird '''nicht mehr aktiv gewartet''', kann aber sporadische Korrekturen durch den Autor erhalten.
-}}
+**
 
 ## Einführung
 

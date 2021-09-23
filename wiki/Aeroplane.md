@@ -1,5 +1,4 @@
 # Aeroplane
-
   {{TutorialInfo
 |Topic=Part Workbench
 |Level=Beginner

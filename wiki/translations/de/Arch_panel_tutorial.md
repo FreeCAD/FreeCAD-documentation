@@ -2,7 +2,6 @@
 
 
 
-
 {{TutorialInfo/de
 |Topic= Modellierung eines Architektur Panels
 |Level= Anfänger

@@ -8,6 +8,9 @@
    Version:0.15
 ---
 
+
+</div>
+
 ## Description
 
 Selects the redundant constraints of a sketch.
@@ -24,4 +27,4 @@ Selects the redundant constraints of a sketch.
 
 {{Sketcher Tools navi
 
-}}  
+}} 

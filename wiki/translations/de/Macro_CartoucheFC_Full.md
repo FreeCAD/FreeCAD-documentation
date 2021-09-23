@@ -1,25 +1,15 @@
 # Macro CartoucheFC Full/de
-
-
-
-
-<div class="mw-translate-fuzzy">
-
-
-{{Macro/de
+ {{Macro/de
 |Name=Macro_CartoucheFC_Full
 |Translate=Macro_CartoucheFC_Full
 |Icon=Macro_CartoucheFC_Full.png
-|Description=Toto makro je kompletní aplikace, umožňuje naplnit kazetu listu výkresu plně editovatelným textem.
+|Description=Dieses Makro ist eine vollständige Anwendung. Es ermöglicht, die Kartusche des Zeichenblatts mit vollem Bearbeitungstext zu füllen. (Nur für den [Drawing Arbeitsbereich](Drawing_Workbench/de.md)).
 |Author=Mario52
-|Version=00.09
+|Version=00.10
 |Date=2017-02-15
-|FCVersion=All version using Drawing Workbench
+|FCVersion=Alle Versionen, die den Drawing-Arbeitsbereich benutzen
 |Download=[https://www.freecadweb.org/wiki/images/6/68/Macro_CartoucheFC_Full.png ToolBar Icon]
 }}
-
-
-</div>
 
 ## Popis
 

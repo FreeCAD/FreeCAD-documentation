@@ -1,10 +1,10 @@
 ---
 - GuiCommand:/ru
-   Name/ru:Вставить Группу проекций
+   Name/ru:Вставить группу проекций
    Name:TechDraw_ProjectionGroup
-   MenuLocation:TechDraw → Вставить Группу проекций
+   MenuLocation:TechDraw → Вставить группу проекций
    Workbenches:[TechDraw](TechDraw_Workbench/ru.md)
-   SeeAlso:[Вставить Вид](TechDraw_View/ru.md), [Вставить Вид Сечения](TechDraw_SectionView/ru.md)
+   SeeAlso:[Вставить Вид](TechDraw_View/ru.md), [Вставить Вид сечения](TechDraw_SectionView/ru.md)
 ---
 
 ## Описание

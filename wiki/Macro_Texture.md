@@ -1,6 +1,8 @@
 # Macro Texture
+ 
 
-  {{Macro
+
+{{Macro
 |Name=Macro Texture
 |Icon=FCTexture.png
 |Description=Creates a 3D image from an 8 bit (256 color) BMP image.<br/>In other words, it allows one to build a 3D project very easily from a bitmap image using grayscale (256 shades of gray).<br/>If one 32 bit BMP image is selected, the image is represented in points.<br/>The '''FCCreaLoft Macro Loft''' macro is used to automate the multi loft operation.
@@ -24,7 +26,7 @@ The macro <img alt="FCCreaLoft" src=images/FCCreaLoft.png  style="width:32px;"> 
 
  
 
-<img alt="" src=images/Texture_004_Honda.png  style="width:480px;"> 
+ <img alt="" src=images/Texture_004_Honda.png  style="width:480px;">  
 *Texture 004 Honda*
 
 ## Usage
@@ -44,8 +46,6 @@ Important note: depending on the size of the image, the project can become very 
 ### Interface
 
 <img alt="Texture 002" src=images/Texture_002.png  style="width:300px;">
-
- 
 
 #### Coordinates
 
@@ -241,7 +241,7 @@ Image:Texture\_003\_napperon.png\|A portion of a tablecloth. Image:Texture\_005\
 
 The discussion on [the forum](http://forum.freecadweb.org/viewtopic.php?f=24&t=5893) to give your impressions or contact me.
 
-The macro <img alt="FCCreaLoft" src=images/FCCreaLoft.png  style="width:32px;"> [Macro Loft](Macro_Loft.md) for automate the multi loft
+The macro <img alt="FCCreaLoft" src=images/FCCreaLoft.png  style="width:32px;"> [Macro Loft](Macro_Loft.md) for automate the multi loft.
 
 [apply hair cell texture](http://forum.freecadweb.org/viewtopic.php?f=3&t=4708&start=10#p46353)
 
@@ -284,4 +284,4 @@ The macro <img alt="FCCreaLoft" src=images/FCCreaLoft.png  style="width:32px;"> 
 
 that causes an error with the version FreeCAD : Version: 0.14.3343 (Git), Python version: 2.7.6, Qt version: 4.8.5
 
- 
+

@@ -1,7 +1,6 @@
 # Status bar/it
 
 
-
 ## Introduzione
 
 

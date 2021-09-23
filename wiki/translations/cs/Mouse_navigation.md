@@ -5,8 +5,9 @@
 
 
 
-
 {{TOCright}}
+
+## Overview
 
 
 <div class="mw-translate-fuzzy">
@@ -16,14 +17,27 @@
 
 </div>
 
+## Navigation
+
+
+<div class="mw-translate-fuzzy">
+
 ## Navigace
 
 Práce s objekty je společná pro všechny pracovní plochy. Následující gesta myši mohou být použita pro řízení pozice objektu a pohledu podle toho jaky styl je vybrán.
+
+
+</div>
 
 Jsou dva způsoby změny navigačního stylu:
 
 -   V sekci Display (Zobrazení) [Editoru Předvoleb](Preferences_Editor/cs.md), záložka *3D Pohled*;
 -   Kliknutím pravého tlačítka myši v prázdném prostoru v oblasti 3D pohledu a potom výběrem \"Navigačního stylu\" v kontextuálním menu.
+
+### CAD navigation 
+
+
+<div class="mw-translate-fuzzy">
 
 ### CAD Navigace (default) 
 
@@ -58,6 +72,9 @@ Users who use the mouse with their right hand may find this method easier than t
 }}
 
 
+</div>
+
+
 {{CAD Navigation
 |Select_name=Select
 |Pan_name=Pan
@@ -88,6 +105,11 @@ With this method the middle mouse button may be released after the right mouse b
 Users who use the mouse with their right hand may find this method easier than the first method.
 }}
 
+### OpenInventor navigation 
+
+
+<div class="mw-translate-fuzzy">
+
 ### Inventor Navigation (Tvůrčí navigace) 
 
 Tvůrčí navigace, vytvářená podle [Open Inventor](http://en.wikipedia.org/wiki/Open_Inventor) (nezaměňovat s Autodesk Inventor), kde se nepoužívá pouze výběr myší. Při vybírání objektů musíte držet stisknutou klávesu **CTRL**. {{Inventor Navigation/cs}} {{OpenInventor Navigation
@@ -103,6 +125,9 @@ Tvůrčí navigace, vytvářená podle [Open Inventor](http://en.wikipedia.org/w
 Alternatively, hold the middle mouse button, then press and hold the left mouse button, then move the pointer. 
 |Rotate_view_text=Hold the left mouse button, then move the pointer.
 }}
+
+
+</div>
 
 This mode is not based on Autodesk Inventor.
 
@@ -121,7 +146,13 @@ Alternatively, hold the middle mouse button, then press and hold the left mouse 
 |Rotate_view_text=Hold the left mouse button, then move the pointer.
 }}
 
+
+<div class="mw-translate-fuzzy">
+
 ### Blender Navigation 
+
+
+</div>
 
 V Blender Navigaci, vytvářené podle [Blenderu](http://www.blender.org), není snímání (kamerou) pouze myší. Při snímání pohledu kamerou musíte držet klávesu **SHIFT**. {{Blender Navigation/cs}} {{Blender Navigation
 |Select_name=Select
@@ -139,7 +170,13 @@ Alternatively, hold both left and right mouse buttons, and then move the pointer
 
 Alternatively, hold both left and right mouse buttons, and then move the pointer. \|Zoom\_text=Use the mouse wheel to zoom in and out. \|Rotate\_view\_text=Hold the middle mouse button, then move the pointer. }}
 
+
+<div class="mw-translate-fuzzy">
+
 ### Touchpad Navigation 
+
+
+</div>
 
 V Touchpad Navigaci, bez snímání, zoomování, a otáčení pohledu, jsou pouze operace s myší (nebo touchpadem). {{Touchpad Navigation/cs}} {{Touchpad Navigation
 |Select_name=Select
@@ -159,7 +196,13 @@ V Touchpad Navigaci, bez snímání, zoomování, a otáčení pohledu, jsou pou
 |Rotate_view_alt_text=Alternatively, hold **Shift** and the left button, then move the pointer.
 }}
 
+
+<div class="mw-translate-fuzzy">
+
 ### Gesture Navigation (v0.16) 
+
+
+</div>
 
 This navigation style was tailored for usability with touchscreen and pen, but is very usable with mouse too. {{Gesture Navigation
 |Select_name=Select
@@ -196,7 +239,13 @@ Hold **Alt** when in the [Sketcher](Sketcher_Workbench.md). \|Tilt\_view\_text=H
 
 On v0.18 this method is disabled by default. To enable, go to **Edit → Preferences → Display**, and untick \"Disable touchscreen tilt gesture\" checkbox. }}
 
+
+<div class="mw-translate-fuzzy">
+
 ### Maya-Gesture Navigation 
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -220,7 +269,7 @@ Alternatively, use the mouse wheel to zoom in and out.
 
 Alternatively, use the mouse wheel to zoom in and out. \|Rotate\_view\_text=Hold **Alt** and the left mouse button, then move the pointer. }}
 
-### Revit Navigation 
+### Revit navigation 
 
 This style was introduced in version 0.18.
 
@@ -242,7 +291,7 @@ Alternatively, hold both left and right mouse buttons, then move the pointer.
 Alternatively, hold the middle mouse button, then press and hold the right mouse button, then move the pointer.
 }}
 
-### OpenCascade
+### OpenCascade navigation 
 
 This style was introduced in version 0.18.
 
@@ -263,25 +312,71 @@ Alternatively, hold **Ctrl** and the left mouse button, then move the pointer.
 
 ## Výběr objektu 
 
+### Simple selection 
+
+
+<div class="mw-translate-fuzzy">
+
 ### Jednoduchý výběr 
 
 Objekty mohou být vybírány kliknutím levým tlačítkem myši na objekt ve 3D-pohledu nebo výběrem objektu ve stromu pohledu.
+
+
+</div>
+
+### Preselection
+
+
+<div class="mw-translate-fuzzy">
 
 ### Předvýběr
 
 Je zde také možný mechanizmus*Předvýběru* který zvýrazňuje objekty a před výběrem zobrazuje informace o objektu při přechodu myší nad objektem. Pokud Vám takové chování nevyhovuje nebo pokud máte pomalý stroj, můžete v předvolbách přepnout Předvýběr na Off (Vypnuto).
 
+
+</div>
+
+## Manipulating objects 
+
+
+<div class="mw-translate-fuzzy">
+
 ## Manipulace s objekty 
 
 FreeCAD nabízí [*manipulátory*](Manipulator.md) což jsou ovladače, které mohou být použity pro modifikace vzhledu objektu, jeho tvaru nebo jiných parametrů.
 
+
+</div>
+
 ## Podpora hardwaru 
+
+
+<div class="mw-translate-fuzzy">
 
 FreeCAD také podporuje některé [3D vstupní zařízení](3D_input_devices/cs.md).
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 ## Mac OS X problémy 
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Nedávno jsme dostali oznámení [na fóru](http://forum.freecadweb.org/viewtopic.php?f=3&t=3592&start=0) od uživatelů Mac, že uvedená tlačítka myši a kombinace kláves nefungují podle očekávání. Bohužel žádný z vývojářů nevlastní Mac a ani žádný zpravidelných spolupracovníků. Potřebujeme Vaši pomoc ke zjištění která tlačítka myši a klávesové kombinace mají uvedené problémy abychom mohli aktualizovat tuto stránku wiki.
+
+
+</div>
+
+## Developing a custom navigation 
+
+The tutorial [Adding a new mouse navigation option to FreeCAD](Adding_a_new_mouse_navigation_option_to_FreeCAD.md) orients developers who want to develop a custom mouse navigation option. Familiarity with the C++ syntax is required.
 
 
 {{docnav/cs|[Zacínáme](Getting_started/cs.md)|[Struktura dokumentu](Document_structure/cs.md)}}

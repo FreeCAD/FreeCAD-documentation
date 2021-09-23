@@ -2,7 +2,6 @@
 
 
 
-
 <div class="mw-translate-fuzzy">
 
 Estas funciones son parte del módulo de Draft (Borrador) y pueden utilizarse en archivos de guión y macros o desde el interprete de Python, una vez se halla importado el módulo Draft.

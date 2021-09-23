@@ -1,12 +1,11 @@
 # CadQuery Workbench
-
   <img alt="CadQuery workbench icon" src=images/Cadquery_module_workbench_icon.svg  style="width:128px;">
 
 
-{{VeryImportantMessage|(January 2021) 
+**(January 2021) 
 The active development of CadQuery has moved away from FreeCAD [https://github.com/CadQuery/cadquery#why-this-fork], offering now a stand-alone GUI with the CQ-editor [https://github.com/CadQuery/CQ-editor].
 The CadQuery workbench is '''no longer actively maintained''', but may receive sporadic fixes by its author.
-}}
+**
 
 ## Introduction
 

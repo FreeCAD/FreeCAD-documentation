@@ -5,7 +5,6 @@
 
 
 
-
 {{Manual:TOC}}
 
 One of the biggest difficulties for new users of FreeCAD, is to know in which workbench to find a specific tool. The table below will give you an overview of the most important workbenches and their tools. Refer to each [workbench](Workbenches.md) page in the FreeCAD documentation for a more complete list.
@@ -115,7 +114,7 @@ The Arch Workbench contains tools to work with [BIM](https://en.wikipedia.org/wi
 ### Drawing
 
 
-{{VeryImportantMessage|Development of the [Drawing Workbench](Drawing_Workbench.md) stopped in FreeCAD 0.16, and the new [TechDraw Workbench](TechDraw_Workbench.md) aiming to replace it was introduced in v0.17. The Drawing Workbench may be removed in future releases. Use the TechDraw Workbench instead.}}
+**Development of the [Drawing Workbench](Drawing_Workbench.md) stopped in FreeCAD 0.16, and the new [TechDraw Workbench](TechDraw_Workbench.md) aiming to replace it was introduced in v0.17. The Drawing Workbench may be removed in future releases. Use the TechDraw Workbench instead.**
 
 The Drawing Workbench handles the creation and manipulation of 2D drawing sheets, used for displaying views of your 3D work in 2D. These sheets can then be exported to 2D applications in SVG or DXF formats, to a PDF file or printed.
 

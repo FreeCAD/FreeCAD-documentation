@@ -1,5 +1,4 @@
 # FreeCAD Embedded in 3rd Party Applications
-
 ## Background
 
 FreeCAD\'s LGPL licensure allows it to be embedded and rebranded in 3rd party software. This page is a list known software that employ this strategy.

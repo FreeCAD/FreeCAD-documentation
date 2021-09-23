@@ -2,14 +2,10 @@
 
 
 
-
-<div class="mw-translate-fuzzy">
-
-
-{{docnav/it|[Modelli di mouse](Mouse_Model/it.md)|[Struttura del documento](Document_structure/it.md)}}
-
-
-</div>
+{{docnav/it
+|[Metodi di selezione](Selection_methods/it.md)
+|[Struttura del documento](Document_structure/it.md)
+}}
 
 
 {{TOCright}}
@@ -70,30 +66,21 @@ Facendo clic su uno degli angoli si ottiene una vista assonometrica vista da que
 
 Nell\'angolo in basso a destra del cubo di navigazione c\'è un piccolo cubo. Cliccando su questo cubo si apre un menu per cambiare il tipo di vista (ortografica, prospettiva, isometrica) e fare uno \"Zoom per adattare la vista\".
 
-
-<div class="mw-translate-fuzzy">
-
 ## Spostare il cubo di navigazione 
 
-È possibile spostare l\'intera struttura di controllo del cubo di navigazione in un\'altra posizione nella visualizzazione 3D premendo il mouse in qualsiasi punto del cubo di navigazione principale e trascinando. Al momento della scrittura (v 0.18), la struttura non inizia a muoversi finché il puntatore del mouse non viene spostato oltre il bordo del cubo di navigazione principale.
+È possibile spostare l\'intera struttura di controllo del cubo di navigazione in un\'altra posizione nella visualizzazione 3D premendo il mouse in qualsiasi punto del cubo di navigazione principale e trascinando. La struttura non inizia a muoversi finché il puntatore del mouse non viene spostato oltre il bordo del cubo di navigazione principale.
+
+## Configurazione
+
+Il cubo di navigazione è configurabie, compresa la regolazione della sua dimensione: **Modifica → Preferenze... → Visualizzazione → Navigazione → Cubo di navigazione** <small>(v0.19)</small> .
+
+Per una configurazione più avanzata, fare riferimento a [CubeMenu](Interface_Customization/it#CubeMenu.md) [ambienti complementari](External_workbench/it.md).
 
 
-</div>
-
-## Configuration
-
-The navigation cube is configurable, including adjusting its size: **Edit → Preferences... → Display → Navigation → Navigation cube** <small>(v0.19)</small> .
-
-For more advanced configuration, refer to the [CubeMenu](Interface_Customization#CubeMenu.md) [external workbench](External_workbenches.md).
-
-
-<div class="mw-translate-fuzzy">
-
-
-{{docnav/it|[Modelli di mouse](Mouse_Model/it.md)|[Struttura del documento](Document_structure/it.md)}}
-
-
-</div>
+{{docnav/it
+|[Metodi di selezione](Selection_methods/it.md)
+|[Struttura del documento](Document_structure/it.md)
+}}
 
 
 

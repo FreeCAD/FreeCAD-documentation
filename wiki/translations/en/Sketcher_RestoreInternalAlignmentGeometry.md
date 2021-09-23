@@ -3,7 +3,7 @@
    Name:Sketcher RestoreInternalAlignmentGeometry
    MenuLocation:Sketch → Sketcher tools → Show/hide internal geometry
    Workbenches:[Sketcher](Sketcher_Workbench.md)
-   Shortcut:Ctrl+Shift+E
+   Shortcut:**Ctrl**+**Shift**+**E**
    SeeAlso:[Sketcher Ellipse](Sketcher_CreateEllipseByCenter.md), [Sketcher Internal Alignment Constraint](Sketcher_ConstrainInternalAlignment.md)
 ---
 
@@ -33,4 +33,4 @@ If there are free alignment places for the selected element, new construction ge
 
 {{Sketcher Tools navi
 
-}}  
+}} 

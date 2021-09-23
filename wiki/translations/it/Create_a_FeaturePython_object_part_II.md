@@ -2,7 +2,6 @@
 
 
 
-
 {{docnav/it|[Oggetti FeaturePython](FeaturePython_Objects/it.md)|[Esempi di script](Scripting_examples/it.md)}}
 
 

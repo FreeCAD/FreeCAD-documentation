@@ -4,9 +4,17 @@
 
 </div>
 
+## Description
+
+
+<div class="mw-translate-fuzzy">
+
 ## Descrizione
 
 Seleziona i vincoli ridondanti di uno schizzo.
+
+
+</div>
 
 ## Utilizzo
 
@@ -32,4 +40,4 @@ Seleziona i vincoli ridondanti di uno schizzo.
 
 {{Sketcher Tools navi
 
-}}  
+}} 

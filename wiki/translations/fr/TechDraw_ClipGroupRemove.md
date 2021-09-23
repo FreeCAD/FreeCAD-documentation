@@ -23,4 +23,4 @@ Cet outil supprime une vue d\'un fenêtre de rognage existante et la renvoie dan
 
 {{TechDraw Tools navi
 
-}}  
+}} 

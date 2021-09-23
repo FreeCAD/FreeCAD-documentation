@@ -1,5 +1,4 @@
 # Macro Unroll Ruled Surface/it
-
  {{Macro/it
 |Name=Macro Unroll Ruled Surface
 |Translate=Sviluppa superfici rigate

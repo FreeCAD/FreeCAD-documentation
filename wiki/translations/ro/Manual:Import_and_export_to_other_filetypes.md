@@ -1,5 +1,4 @@
 # Manual:Import and export to other filetypes/ro
-
  
 
 
@@ -42,6 +41,9 @@ Unele dintre aceste formate de fișiere au opțiuni. Acestea pot fi configurate 
 
 **De citit în plus**
 
+
+<div class="mw-translate-fuzzy">
+
 -   [All file formats supported by FreeCAD](Import_Export.md)
 -   [Working with DXF files in FreeCAD](Draft_DXF.md):
 -   [Enabling DXF and DWG support](Dxf_Importer_Install.md)
@@ -51,6 +53,9 @@ Unele dintre aceste formate de fișiere au opțiuni. Acestea pot fi configurate 
 -   [Teigha File Converter](https://www.opendesign.com/guestfiles)
 -   [The IFC format](http://www.buildingsmart-tech.org/ifc/IFC4/final/html/index.htm)
 -   [IfcOpenShell](http://ifcopenshell.org/)
+
+
+</div>
 
 
 

@@ -1,5 +1,4 @@
 # How to install macros/it
-
  {{TutorialInfo/it|Topic=Programmazione e Configurazione|Level=Medio|Time=15 minuti|FCVersion=Tutte|Author=[Mario52](User:Mario52.md)}}
 
 ## Descrizione

@@ -2,7 +2,6 @@
 
 
 
-
 {{TutorialInfo/ro
 |Topic=Ship Workbench
 |Level=Beginner
@@ -93,9 +92,9 @@ Executarea instrumentului (Ship design/Load an example ship geometry) va afișa 
 <div class="mw-translate-fuzzy">
 
 
-{{VeryImportantMessage|<center>'''Warning, before editing anything!'''</center>
+**<center>'''Warning, before editing anything!'''</center>
 <center>You are now working with the original example file.</center>
-<center>To preserve the original unedited example, '''you must first save it as a new file before editing anything.'''</center>}}
+<center>To preserve the original unedited example, '''you must first save it as a new file before editing anything.'''</center>**
 
 
 </div>

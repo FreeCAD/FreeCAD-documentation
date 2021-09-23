@@ -1,5 +1,4 @@
 # Macro Wiki Object Properties List Generator Basic Version
-
  
 
 
@@ -14,7 +13,7 @@
 
 ## Description
 
-This simple macro generate properties list of selected object. The parameters list is printed to the \"view Report\" panel of FreeCAD.. This example is more educational in nature and is not applicable for use without editing after generate, since it includes absolutely all the parmeters of the object. The lists of properties that are published in this wikipedia contain, as a rule, only unique parameters. The parameters inherited from the parents objects are not published.
+This simple macro generate properties list of selected object. The parameters list is printed to the \"view Report\" panel of FreeCAD. This example is more educational in nature and is not applicable for use without editing after generate, since it includes absolutely all the parameters of the object. The lists of properties that are published in this wiki contain, as a rule, only unique parameters. The parameters inherited from the parents objects are not published.
 
 ## How To Use 
 
@@ -27,7 +26,7 @@ This simple macro generate properties list of selected object. The parameters li
     -   Select Macro -\> Macros\... item in main menu.
     -   In opened window find \*.FCMacro file what you save letter and press **Execute** Button.
 -   How to use again:
-    -   To quickly run this macro again, you can use keyboard shortcut **Shift+Ctrl+1** (on Windows) it will launch the last runned macro.
+    -   To quickly run this macro again, you can use keyboard shortcut **Shift+Ctrl+1** (on Windows) it will launch the last run macro.
 
 ## Recommendations
 
@@ -35,15 +34,15 @@ Do not delete spaces between lines. This is necessary to simplify the translatio
 
 ## Example of using 
 
--   For example open Arch Worckbench
--   Create Structure object.
--   Select created Structure objcet.
--   Run macros.
--   Copy text from report view and paste it on tempory or sandbox wiki page for look results.
+-   For example open the Arch Workbench
+-   Create a Structure object.
+-   Select the created Structure object.
+-   Run the macro.
+-   Copy the text from the report view and paste it in a wiki page and check the result.
 
-## Resuts of using 
+## Results of using 
 
-If paste generated text to wiki page, results must be looks as:
+The results may look like this:
 
 
 
@@ -265,10 +264,8 @@ print_obj_properties(obj,"Data")
 </nowiki>
 }}
 
-
-
 ## Links
 
-The discussion on the forum
+The discussion on the forum: <https://forum.freecadweb.org/viewtopic.php?f=21&t=61998>
 
 

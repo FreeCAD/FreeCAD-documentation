@@ -1,5 +1,4 @@
 # History/en
-
  \_\_FORCETOC\_\_
 
 ## History

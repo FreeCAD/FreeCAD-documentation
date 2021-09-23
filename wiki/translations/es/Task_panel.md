@@ -1,5 +1,4 @@
 # Task panel/es
-
  {{TOCright}}
 
 ## Introducción
@@ -62,7 +61,7 @@ Nota: Por favor note que al cambiar de la pestaña **Tareas** a la pestaña **Mo
 ## Guión
 
 
-{{VeryImportantMessage|Por favor, reformula y actualiza esta sección}}
+**Por favor, reformula y actualiza esta sección**
 
 Ver [Hilo del foro](https://forum.freecadweb.org/viewtopic.php?f=10&t=44170&p=376759#p376759) Llamada que un widget de Diálogo de Tareas puede usar para cerrar la Vista de Tareas. Puede cerrarse con \"this-\>close()\", pero eso sólo cierra la parte inferior de la vista, no la vista en sí misma.
 

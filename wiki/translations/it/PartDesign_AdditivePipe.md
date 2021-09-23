@@ -15,7 +15,15 @@
 
 **Sweep additivo** crea un solido nel corpo attivo spazzando uno o più schizzi (detti anche sezioni trasversali) lungo un percorso aperto o chiuso. Se il corpo contiene già delle funzionalità, lo sweep additivo viene unito a loro.
 
-![](images/PartDesign_AdditivePipe_example.svg ) *A sinistra le sezioni trasversali (A) e (B) da spazzare lungo il percorso (C); a destra lo sweep additivo risultante.*
+![](images/PartDesign_AdditivePipe_example.svg )
+
+
+<div class="mw-translate-fuzzy">
+
+*A sinistra le sezioni trasversali (A) e (B) da spazzare lungo il percorso (C); a destra lo sweep additivo risultante.*
+
+
+</div>
 
 ## Utilizzo
 
@@ -41,6 +49,11 @@ L\'immagine di esempio sopra mostra due diverse forme di sezione trasversale. Il
 </div>
 
 Per utilizzare più di una sezione trasversale, iniziare con il primo schizzo della sezione trasversale come descritto sopra. Quindi in **Trasformazione della sezione** impostare la Modalità di trasformazione su *\' Multisezione*\', poi premere **Aggiungi sezione** quindi selezionare uno schizzo nella [vista 3D](3D_view/it.md). Ripetere l\'operazione per ogni sezione trasversale aggiuntiva.
+
+## Options
+
+
+<div class="mw-translate-fuzzy">
 
 ## Opzioni
 
@@ -71,6 +84,9 @@ Per utilizzare più di una sezione trasversale, iniziare con il primo schizzo de
 -   Trasformato
 -   Angolo retto
 -   Angolo arrotondato
+
+
+</div>
 
 ## Proprietà
 

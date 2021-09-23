@@ -1,6 +1,8 @@
 # Macro HiddenAlls/fr
 
- {{Macro/fr
+
+
+{{Macro/fr
 |Name=Macro HiddenAlls
 |Icon=Macro_HiddenAlls.png
 |Description=Cette macro cache tous les objets du document (Visibility False).
@@ -18,12 +20,12 @@ Cette macro cache tous les objets du document (Visibility False).
 
 ## Script
 
-ToolBar Icon <img alt="" src=images/Macro_HiddenAlls.png  style="width:64px;">
+Icône de la barre d\'outils <img alt="" src=images/Macro_HiddenAlls.png  style="width:64px;">
 
 **Macro\_HidenAlls.FCMacro**
 
 
-{{MacroCode|code=
+```python
 import FreeCAD
 #Macro_HideAllObjects
 __title__="Macro_HideAlls"
@@ -38,7 +40,7 @@ try:
         FreeCADGui.ActiveDocument.getObject(ShapeNameObj.Name).Visibility = False
 except Exception:
     None
-}}
+```
 
 
 

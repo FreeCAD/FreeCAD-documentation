@@ -1,5 +1,4 @@
 # Robot tutorial/zh-hans
-
  {{TutorialInfo/zh-hans
 |Topic= Robot Workbench
 |Level= Beginner

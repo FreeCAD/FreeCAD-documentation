@@ -1,14 +1,10 @@
 ---
 - GuiCommand:/ru
-   Name:Std TextureMapping
-   Name/ru:Std TextureMapping
-   Empty:1
+   Name/ru:Текстурирование
+   Name:Std_TextureMapping
    MenuLocation:Вид → Текстурирование...
-   Workbenches:All
+   Workbenches:Все
 ---
-
-
-</div>
 
 ## Описание
 

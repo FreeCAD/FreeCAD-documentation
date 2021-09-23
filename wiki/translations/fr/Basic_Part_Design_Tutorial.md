@@ -1,5 +1,4 @@
 # Basic Part Design Tutorial/fr
-
  {{TutorialInfo/fr
 |Topic=Modélisation
 |Level=Débutant

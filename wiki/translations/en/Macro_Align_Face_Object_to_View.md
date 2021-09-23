@@ -1,6 +1,8 @@
 # Macro Align Face Object to View/en
 
- {{Macro
+
+
+{{Macro
 |Name=Macro Align Face Object to View
 |Icon=Macro_Align_Face_Object_to_View.png
 |Description=This macro directs the face of the object on the side of the ActiveView.
@@ -14,12 +16,12 @@
 
 ## Description
 
-This macro directs the face of the object on the side of the ActiveView (camera). In the case of the face of a borehole (or internal or cylinder) face drilling facing the screen
+This macro directs the face of the object on the side of the ActiveView (camera). In the case of the face of a borehole (or internal or cylinder) face drilling facing the screen.
 
 ## Usage
 
--   Select your object and run the macro
--   Your object will be of the camera
+-   Select your object and run the macro.
+-   Your object will be of the camera.
 
 ## Script
 
@@ -28,7 +30,7 @@ ToolBar Icon ![](images/Macro_Align_Face_Object_to_View.png )
 **Macro\_Align\_Face\_Object\_to\_View.FCMacro**
 
 
-{{MacroCode|code=
+```python
 # This macro directs the face of the object on the side of the ActiveView (camera)
 # extact FCCamera
 # 16/01/2015
@@ -47,7 +49,7 @@ try:
 except Exception:
     App.Console.PrintError("Select a face and run the macro"+"\n")
 
-}}
+```
 
 ## Links
 

@@ -1,7 +1,6 @@
 # Conda/it
 
 
-
 ## Introduzione
 
 

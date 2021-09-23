@@ -1,5 +1,4 @@
 # Macro Alias Manager/fr
-
  {{Macro/fr
 |Name=Alias Manager
 |Icon=aliasmanager_icon.png

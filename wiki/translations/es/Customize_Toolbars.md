@@ -1,5 +1,4 @@
 # Customize Toolbars/es
-
  {{TutorialInfo/es|Topic=SampleTopic|Level=Beginner|Time=5 minutes|Author=[Mario52](User:Mario52.md)|FCVersion=All}}
 
 ## Synopsis

@@ -1,5 +1,4 @@
 # Artwork MeshPart
-
   
 
 These icons are in the indicated source path.

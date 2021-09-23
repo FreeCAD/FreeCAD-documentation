@@ -1,5 +1,4 @@
 # Sandbox:Kinagaki
-
 ## Introduction
 
 

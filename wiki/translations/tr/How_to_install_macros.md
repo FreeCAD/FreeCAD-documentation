@@ -1,5 +1,4 @@
 # How to install macros/tr
-
  {{TutorialInfo/tr
 |Topic=Programming
 |Level=Medium programmer

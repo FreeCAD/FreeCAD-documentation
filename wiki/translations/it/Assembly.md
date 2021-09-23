@@ -1,7 +1,6 @@
 # Assembly/it
 
 
-
 ## Introduzione
 
 

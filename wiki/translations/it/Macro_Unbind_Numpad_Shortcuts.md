@@ -1,5 +1,4 @@
 # Macro Unbind Numpad Shortcuts/it
-
  {{Macro/it
 |Name=Macro Unbind Numpad Shortcuts
 |Translate=Annulla collegamenti al tastierino numerico

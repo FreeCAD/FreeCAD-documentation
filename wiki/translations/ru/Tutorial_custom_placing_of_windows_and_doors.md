@@ -1,5 +1,4 @@
 # Tutorial custom placing of windows and doors/ru
-
  {{TutorialInfo/ru
 |Topic=Архитектура
 |Level=Средний

@@ -1,5 +1,4 @@
 # Sketcher Preferences/pt-br
-
  
 
 

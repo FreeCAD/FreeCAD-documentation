@@ -4,13 +4,13 @@
    Name/fr:Sketcher Sélection contraintes redondantes
    MenuLocation:Sketch → Outils d'esquisse → Selectionner les contraintes redondantes
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
-   Shortcut:**Ctrl**+**Maj**+**R**
+   Shortcut:**Shift**+**Ctrl**+**R**
    Version:0.15
 ---
 
 ## Description
 
-Sélectionne les contraintes redondantes d\'une esquisse.
+Sélectionne les contraintes conflictuelles d\'une esquisse.
 
 ## Utilisation
 
@@ -24,4 +24,4 @@ Sélectionne les contraintes redondantes d\'une esquisse.
 
 {{Sketcher Tools navi
 
-}}  
+}} 

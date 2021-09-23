@@ -5,7 +5,6 @@
 
 
 
-
 {{TOCright}}
 
 На этой странице представлен набор высококачественных письменных руководств. Полный, несортированный список учебных пособий на английском языке можно найти в [:Category:Tutorials](:Category:Tutorials.md), на русском языке в [:Category:Tutorials/ru](:Category:Tutorials/ru.md), полный и сортируемый список - в [таблице ниже](Tutorials/ru#Учебники_-_Полный_список.md).     Так же посетите [video tutorials](Video_tutorials/ru.md) и [offsite tutorials](Offsite_tutorials/ru.md) ради обучающих программ, размещенных на внешних сайтах. Полезным источником видеоуроков является [YouTube](https://YouTube.com).
@@ -136,7 +135,7 @@ These are tutorials that are related to scripting or programming. They are geare
 ## Черчение
 
 
-{{VeryImportantMessage|Разработка [верстака TechDraw](Drawing_Workbench/ru]],_начиная_с_FreeCAD_0.16, прекращена. Переходите на использование [[TechDraw Workbench/ru.md) вместо этого.}}
+**Разработка [верстака TechDraw](Drawing_Workbench/ru]],_начиная_с_FreeCAD_0.16, прекращена. Переходите на использование [[TechDraw Workbench/ru.md) вместо этого.**
 
 Drawing\_tutorial\_result.png\|link=[Drawing tutorial/ru](Drawing_tutorial/ru.md)\|[Учебник по Drawing](Special:MyLanguage/Drawing_tutorial/ru.md) (v0.16)
 Это базовое введение в инструменты верстака Drawing для создания рабочих чертежей. Exercise drawing 01.jpg\|link=[Manual:Generating 2D drawings/ru](Manual:Generating_2D_drawings/ru.md)\|[Генерация плоских чертежей](Manual:Generating_2D_drawings/ru.md) (v0.16)

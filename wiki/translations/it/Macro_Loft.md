@@ -1,5 +1,4 @@
 # Macro Loft/it
-
  {{Macro/it
 |Name=Macro Loft
 |Translate=Loft

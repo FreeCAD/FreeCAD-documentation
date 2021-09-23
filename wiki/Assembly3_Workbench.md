@@ -1,5 +1,4 @@
 # Assembly3 Workbench
-
  
 
  <img alt="Assembly3 workbench icon" src=images/Assembly3_workbench_icon.svg  style="width:128px;"> 

@@ -2,7 +2,6 @@
 
 
 
-
 {{TutorialInfo/es
 |Topic=Ambiente de Trabajo
 |Level=Principiante
@@ -60,9 +59,9 @@ Icono del cargador de ejemplos de geometrías de barcos
 Ejecutando la herramienta (Diseño de buques/Cargar un ejemplo de geometría de barco) se mostrará un cuadro de diálogo. Selecciona **Serie 60 de la Universidad de Iowa** y pulsa Aceptar. La herramienta carga un nuevo documento con la geometría **s60\_IowaUniversity**.
 
 
-{{VeryImportantMessage|'''¡Atención, antes de editar nada!''
+**'''¡Atención, antes de editar nada!''
 Ahora está trabajando con el archivo de ejemplo original.
-Para preservar el ejemplo original sin editar, '''debes guardarlo primero como un nuevo archivo antes de editar nada'''}}
+Para preservar el ejemplo original sin editar, '''debes guardarlo primero como un nuevo archivo antes de editar nada'''**
 
 .
 

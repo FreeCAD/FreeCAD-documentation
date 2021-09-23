@@ -9,9 +9,19 @@
 
 </div>
 
+## Description
+
+
+<div class="mw-translate-fuzzy">
+
 ## Descriere
 
 Acest instrument comută între vizibilitatea măsurătorilor lineară (roșu) și unghiulară (albastru)
+
+
+</div>
+
+## Usage
 
 
 <div class="mw-translate-fuzzy">
@@ -27,10 +37,4 @@ Acest instrument comută între vizibilitatea măsurătorilor lineară (roșu) �
 
 
 
-
-
-
-
-
-
-
+ 

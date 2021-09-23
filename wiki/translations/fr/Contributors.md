@@ -5,7 +5,6 @@
 
 
 
-
 {{TOCright}}
 
 <img alt="" src=images/FreeCAD_Users_Contributors.svg  style="width:64px;">

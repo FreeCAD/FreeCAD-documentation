@@ -4,23 +4,22 @@
 
 
 
-
-<img alt="Иконка верстака TechDraw" src=images/Workbench_TechDraw.svg  style="width:128px;">
+<img alt="Логотип верстака TechDraw" src=images/Workbench_TechDraw.svg  style="width:128px;">
 
 ## Введение
 
-Верстак [TechDraw](TechDraw_Workbench/ru.md) используется для создания базовых технических чертежей из 3D-моделей, созданных с помощью другого верстака, такого как [Part](Part_Workbench/ru.md), [PartDesign](PartDesign_Workbench/ru.md), или [Arch](Arch_Workbench.md), или импортированных моделей из других приложений. Каждый чертеж представляет собой страницу, которая может содержать различные виды рисуемых объектов, такие как Part::Features, PartDesign::Bodies, App::Part groups и группу Объектов Документа. Полученные чертежи можно использовать для таких вещей, как документация, производственные инструкции, контракты, разрешения и т. д.
+Верстак [TechDraw](TechDraw_Workbench/ru.md) предназначен для построения технических чертежей на основе 3D-моделей созданных с помощью таких верстаков, как: [Part](Part_Workbench/ru.md), [PartDesign](PartDesign_Workbench/ru.md), [Arch](Arch_Workbench.md). 3D модели импортированные из других приложений, так же могут быть применены для построения чертежа. Каждый чертеж представляет собой лист, который может содержать различные виды отображаемых объектов, таких как: Part::Features, PartDesign::Bodies, App::Part groups и группы объектов документа. Полученные листы можно использовать в качестве документации, инструкции по эксплуатации, перечня элементов, спецификации и т. д.
 
-Размеры, сечения, заштрихованные области, аннотации и [SVG](SVG/ru.md) символы могут быть добавлены на страницу, которую затем можно экспортировать в различные форматы, такие как [DXF](DXF/ru.md), [SVG](SVG/ru.md), и [PDF](PDF/ru.md).
+В чертеж могут быть добавлены такие элементы как: размеры, сечения 3D Вида, дополнительные заштрихованные области, надписи и примечания, чертежные знаки в формате [SVG](SVG/ru.md). Чертеж так же можно экспортировать в различные форматы, такие как [DXF](DXF/ru.md), [SVG](SVG/ru.md) или [PDF](PDF/ru.md).
 
 TechDraw был официально включен в FreeCAD начиная с версии 0.17; он предназначен для замены неподдерживаемого верстака [Drawing](Drawing_Workbench/ru.md). Оба верстака все еще представлены в версии v0.17, но верстак Drawing может быть удален в будущих релизах. Чтобы не отставать от планов и разработок TechDraw, посетите дорожную карту [TechDraw](TechDraw_Roadmap/ru.md).
 
-FreeCAD - это, прежде всего, приложение для 3D-моделирования, и поэтому у него нет многих инструментов для 2D-рисования, которые в основном включены в верстаки [Draft](Draft_Workbench/ru.md) и [Sketcher](Sketcher_Workbench/ru.md). Если вашей основной целью является создание сложных 2D-чертежей и файлов в формате [DXF](DXF/ru.md), и вам не нужно 3D-моделирование, возможно вы захотите использовать специальное программное обеспечения для технического черчения, такое как [LibreCAD](https://en.wikipedia.org/wiki/LibreCAD), [QCad](https://en.wikipedia.org/wiki/QCad), TurboCad, и другое.
+Если вашей основной целью является создание сложных 2D чертежей и файлов в формате [DXF](DXF/ru.md), и вам не нужно 3D-моделирование, возможно FreeCAD будет не самым лучшим выбором для вас. Вы можете использовать специальное программное обеспечение для построения технических чертежей, такое как [LibreCAD](https://en.wikipedia.org/wiki/LibreCAD) или [QCad](https://en.wikipedia.org/wiki/QCad).
 
 
 {{TOCright}}
 
-<img alt="" src=images/TechDraw_Workbench_Example.png  style="width:600px;">
+<img alt="" src=images/TechDraw_Workbench_Example_ru-ru.png  style="width:425px;">
 
 ## Страницы
 
@@ -30,7 +29,7 @@ FreeCAD - это, прежде всего, приложение для 3D-мод
 
 -   <img alt="" src=images/TechDraw_PageTemplate.svg  style="width:32px;"> [Вставить страницу используя шаблон](TechDraw_PageTemplate/ru.md): добавляет новую страницу, используя выбранный [шаблон](TechDraw_Templates/ru.md).
 
--   <img alt="" src=images/TechDraw_RedrawPage.svg  style="width:32px;"> [Redraw Page](TechDraw_RedrawPage.md): forces an update of the selected page. <small>(v0.19)</small> 
+-   <img alt="" src=images/TechDraw_RedrawPage.svg  style="width:32px;"> [Перерисовать страницу](TechDraw_RedrawPage/ru.md): принудительно обновляет выбранные листы. {{Version/ru|0.19}}
 
 ## Виды
 
@@ -38,29 +37,29 @@ FreeCAD - это, прежде всего, приложение для 3D-мод
 
 -   <img alt="" src=images/TechDraw_View.svg  style="width:32px;"> [Новый Вид](TechDraw_View/ru.md): добавляет 2D проекционный вид объекта.
 
--   <img alt="" src=images/TechDraw_ActiveView.svg  style="width:32px;"> [Insert Active View](TechDraw_ActiveView.md): inserts a view of the active 3D view. <small>(v0.19)</small> 
+-   <img alt="" src=images/TechDraw_ActiveView.svg  style="width:32px;"> [Вставить активный вид (3D Вид)](TechDraw_ActiveView/ru.md): вставляет в чертеж Вид, активного 3D вида. {{Version/ru|0.19}}
 
--   <img alt="" src=images/TechDraw_ProjectionGroup.svg  style="width:32px;"> [Новая Группа Проекций](TechDraw_NewProjGroup/ru.md): вызывает диалоговое окно для создания множества видов объекта с нескольких направлений.
+-   <img alt="" src=images/TechDraw_ProjectionGroup.svg  style="width:32px;"> [Вставить группу проекций](TechDraw_ProjectionGroup/ru.md): вызывает диалоговое окно для создания множества видов объекта с нескольких направлений.
 
--   <img alt="" src=images/TechDraw_SectionView.svg  style="width:32px;"> [Новое Сечение](TechDraw_SectionView/ru.md): добавляет вид поперечного сечения в существующий вида.
+-   <img alt="" src=images/TechDraw_SectionView.svg  style="width:32px;"> [Вставить Вид сечения](TechDraw_SectionView/ru.md): добавляет вид поперечного сечения в существующий вида.
 
--   <img alt="" src=images/techdraw-viewdetail.svg  style="width:32px;"> [Новый Детальный Вид](TechDraw_NewDetail/ru.md): добавляет подробный вид части существующего вида.
+-   <img alt="" src=images/TechDraw_DetailView.svg  style="width:32px;"> [Вставить подробный Вид](TechDraw_DetailView/ru.md): добавляет подробный вид части существующего вида.
 
--   <img alt="" src=images/techdraw-draft-view.svg  style="width:32px;"> [Новый Чертеж](TechDraw_NewDraft/ru.md): добавляет Вид объекта из верстака [Draft ](Draft_Workbench/ru.md).
+-   <img alt="" src=images/TechDraw_DraftView.svg  style="width:32px;"> [Вставить Вид верстака Draft](TechDraw_DraftView/ru.md): добавляет Вид объекта из верстака [Draft](Draft_Workbench/ru.md).
 
--   <img alt="" src=images/techdraw-arch-view.svg  style="width:32px;"> [Новый Архитектурный Вид](TechDraw_NewArch/ru.md): добавляет Вид объекта из верстака [Arch](Arch_Workbench/ru.md) или вид [Секущей Плоскости](Arch_SectionPlane/ru.md).
+-   <img alt="" src=images/TechDraw_ArchView.svg  style="width:32px;"> [Вставить Вид верстака Arch](TechDraw_ArchView/ru.md): добавляет Вид объекта из верстака [Arch](Arch_Workbench/ru.md) или вид [Секущей Плоскости](Arch_SectionPlane/ru.md).
 
--   <img alt="" src=images/techdraw-spreadsheet.svg  style="width:32px;"> [Таблица](TechDraw_Spreadsheet/ru.md): добавляет таблицу из верстака [Spreadsheet](Spreadsheet_Workbench/ru.md).
+-   <img alt="" src=images/TechDraw_SpreadsheetView.svg  style="width:32px;"> [Вставить электронную таблицу](TechDraw_SpreadsheetView/ru.md): добавляет таблицу из верстака [Spreadsheet](Spreadsheet_Workbench/ru.md).
 
 ## Группа Видов 
 
 Содержит инструменты для создания и управления группой Видов.
 
--   <img alt="" src=images/TechDraw_ClipGroup.svg  style="width:32px;"> [Вставить группу срезов](TechDraw_ClipGroup/ru.md): Вставить группу срезов.
+-   <img alt="" src=images/TechDraw_ClipGroup.svg  style="width:32px;"> [Создать группу Видов](TechDraw_ClipGroup/ru.md): Вставляет группу Видов.
 
--   <img alt="" src=images/TechDraw_ClipGroupAdd.svg  style="width:32px;"> [Добавить вид в группу срезов](TechDraw_ClipGroupAdd/ru.md): Добавить вид в группу срезов.
+-   <img alt="" src=images/TechDraw_ClipGroupAdd.svg  style="width:32px;"> [Добавить Вид в группу](TechDraw_ClipGroupAdd/ru.md): Добавляет существующий Вид в группу.
 
--   <img alt="" src=images/TechDraw_ClipGroupRemove.svg  style="width:32px;"> [Удалить вид из группы срезов](TechDraw_ClipGroupRemove/ru.md): Удалить вид из группы срезов.
+-   <img alt="" src=images/TechDraw_ClipGroupRemove.svg  style="width:32px;"> [Удалить Вид из группы](TechDraw_ClipGroupRemove/ru.md): Удаляет вид из группы.
 
 ## Размеры
 
@@ -68,37 +67,29 @@ FreeCAD - это, прежде всего, приложение для 3D-мод
 
 Линейные размеры могут основываться на двух точках, на одной линии или на двух линиях.
 
--   <img alt="" src=images/TechDraw_Dimension_Length.svg  style="width:32px;"> [Задать Расстояние](TechDraw_Dimension_Length/ru.md): задает произвольное расстояние.
+-   <img alt="" src=images/TechDraw_LengthDimension.svg  style="width:32px;"> [Указать длинну](TechDraw_LengthDimension/ru.md): задает произвольное расстояние.
 
--   <img alt="" src=images/TechDraw_Dimension_Horizontal.svg  style="width:32px;"> [Задать Горизонтальный Размер](TechDraw_Dimension_Horizontal/ru.md): задает размер по горизонтали.
+-   <img alt="" src=images/TechDraw_HorizontalDimension.svg  style="width:32px;"> [Указать горизонтальный размер](TechDraw_HorizontalDimension/ru.md): задает размер по горизонтали.
 
--   <img alt="" src=images/Dimension_Vertical.png  style="width:32px;"> [Задать Вертикальный Размер](TechDraw_Dimension_Vertical/ru.md): задает размер по вертикали.
+-   <img alt="" src=images/TechDraw_VerticalDimension.svg  style="width:32px;"> [Указать вертикальный размер](TechDraw_VerticalDimension/ru.md): задает размер по вертикали.
 
--   <img alt="" src=images/TechDraw_Dimension_Radius.svg  style="width:32px;"> [Задать Радиус](TechDraw_Dimension_Radius/ru.md): задает радиус окружности или дуги.
+-   <img alt="" src=images/TechDraw_RadiusDimension.svg  style="width:32px;"> [Указать радиус](TechDraw_RadiusDimension/ru.md): задает радиус окружности или дуги.
 
--   <img alt="" src=images/TechDraw_Dimension_Diameter.svg  style="width:32px;"> [Задать Диаметр](TechDraw_Dimension_Diameter/ru.md): задает диаметр окружности или дуги.
+-   <img alt="" src=images/TechDraw_DiameterDimension.svg  style="width:32px;"> [Указать диаметр](TechDraw_DiameterDimension/ru.md): задает диаметр окружности или дуги.
 
--   <img alt="" src=images/TechDraw_Dimension_Angle.svg  style="width:32px;"> [Задать Угол](TechDraw_Dimension_Angle/ru.md): задает величину угла между двумя прямыми краями.
+-   <img alt="" src=images/TechDraw_AngleDimension.svg  style="width:32px;"> [Указать угловой размер](TechDraw_AngleDimension/ru.md): задает величину угла между двумя прямыми краями.
 
--   <img alt="" src=images/TechDraw_Dimension_Angle3Pt.svg  style="width:32px;"> [Задать Угол по 3 Вершинам](TechDraw_Dimension_Angle3Pt/ru.md): задает величину угла, используя три вершины.
+-   <img alt="" src=images/TechDraw_3PtAngleDimension.svg  style="width:32px;"> [Указать угловой размер по 3 точкам](TechDraw_3PtAngleDimension/ru.md): задает величину угла, используя три вершины.
 
--   <img alt="" src=images/TechDraw_Dimension_Horizontal_Extent.svg  style="width:32px;"> [New Horizontal Extent](TechDraw_Dimension_Horizontal_Extent.md): adds a horizontal extent dimension. <small>(v0.19)</small> 
+-   <img alt="" src=images/TechDraw_HorizontalExtentDimension.svg  style="width:32px;"> [Указать горизонтальный габаритный размер](TechDraw_HorizontalExtentDimension/ru.md): добавляет габаритный размер по горизонтали. {{Version/ru|0.19}}
 
--   <img alt="" src=images/TechDraw_Dimension_Vertical_Extent.svg  style="width:32px;"> [New Vertical Extent](TechDraw_Dimension_Vertical_Extent.md): adds a vertical extent dimension. <small>(v0.19)</small> 
+-   <img alt="" src=images/TechDraw_VerticalExtentDimension.svg  style="width:32px;"> [Указать вертикальный габаритный размер](TechDraw_VerticalExtentDimension/ru.md): добавляет габаритный размер по вертикали. {{Version/ru|0.19}}
 
--   <img alt="" src=images/TechDraw_Dimension_Link.svg  style="width:32px;"> [Создать Ссылку](TechDraw_Dimension_Link/ru.md): связывает существующий размер с трехмерной геометрией.
+-   <img alt="" src=images/TechDraw_LinkDimension.svg  style="width:32px;"> [Связать размер с 3D геометрией](TechDraw_LinkDimension/ru.md): связывает существующий размер с трехмерной геометрией.
 
--   <img alt="" src=images/TechDraw_Balloon.svg  style="width:32px;"> [Создать Аннотацию](TechDraw_Balloon/ru.md): создает аннотацию на странице. {{Version/ru|0.19}}
+-   <img alt="" src=images/TechDraw_Balloon.svg  style="width:32px;"> [Вставить примечание в выноску](TechDraw_Balloon/ru.md): создает аннотацию на странице. {{Version/ru|0.19}}
 
--   <img alt="" src=images/TechDraw_Dimension_Landmark.svg  style="width:32px;"> [New Landmark Dimension](TechDraw_Dimension_Landmark.md): adds a landmark distance dimension. <small>(v0.19)</small> 
-
-## Импорт/Экспорт
-
-Содержит инструменты для экспорта страниц в другие приложения.
-
--   <img alt="" src=images/TechDraw_ExportPageSVG.svg  style="width:32px;"> [Экспорт страницы в SVG](TechDraw_ExportPageSVG/ru.md): Экспорт страницы в [SVG](SVG/ru.md) файл.
-
--   <img alt="" src=images/TechDraw_ExportPageDXF.svg  style="width:32px;"> [Экспорт страницы в DXF](TechDraw_ExportPageDXF/ru.md): Экспорт страницы в [DXF](DXF/ru.md) файл.
+-   <img alt="" src=images/TechDraw_LandmarkDimension.svg  style="width:32px;"> [Вставить размер знака](TechDraw_LandmarkDimension/ru.md): добавляет размер указывающий расстояние до landmark. {{Version/ru|0.19}}
 
 ## Доработка
 
@@ -110,9 +101,9 @@ FreeCAD - это, прежде всего, приложение для 3D-мод
 
 -   <img alt="" src=images/TechDraw_Symbol.svg  style="width:32px;"> [Вставить SVG Символ](TechDraw_Symbol/ru.md): Вставляет на страницу Символ из [SVG](SVG/ru.md) файла.
 
--   <img alt="" src=images/Techdraw-image.svg  style="width:32px;"> [Вставить Рисунок](TechDraw_Image/ru.md): вставляет на страницу рисунок в формате [bitmap](bitmap/ru.md) PNG или JPG.
+-   <img alt="" src=images/TechDraw_Image.svg  style="width:32px;"> [Вставить растровое изображение](TechDraw_Image/ru.md): вставляет на страницу рисунок в формате [bitmap](bitmap/ru.md) PNG или JPG.
 
--   <img alt="" src=images/techdraw-toggleframe.svg  style="width:32px;"> [Выключатель Рамки](TechDraw_Toggle/ru.md): включает и выключает рамки и метки, окружающие вид.
+-   <img alt="" src=images/TechDraw_ToggleFrame.svg  style="width:32px;"> [Вкл/выкл отображение рамки](TechDraw_ToggleFrame/ru.md): включает и выключает рамки и метки, окружающие Вид.
 
 ## Вспомогательные инструменты 
 
@@ -120,67 +111,69 @@ FreeCAD - это, прежде всего, приложение для 3D-мод
 
 -   <img alt="" src=images/TechDraw_Annotation.svg  style="width:32px;"> [Добавить Аннотацию](TechDraw_Annotation/ru.md): добавляет простой текстовый блок в качестве аннотации.
 
--   <img alt="" src=images/TechDraw_LeaderLine.svg  style="width:24px;"> [Линия-выноска](TechDraw_LeaderLine/ru.md): добавляет линию-выноску к Виду. {{Version/ru|0.19}}
+-   <img alt="" src=images/TechDraw_LeaderLine.svg  style="width:32px;"> [Добавить линию-выноску в Вид](TechDraw_LeaderLine/ru.md): добавляет линию-выноску к Виду. {{Version/ru|0.19}}
 
--   <img alt="" src=images/TechDraw_RichTextAnnotation.svg  style="width:24px;"> [Вставка форматированной аннотаци](TechDraw_RichTextAnnotation/ru.md): добавляет в Вид блок форматированного текста в качестве аннотации к линии-выноске. {{Version/ru|0.19}}
+-   <img alt="" src=images/TechDraw_RichTextAnnotation.svg  style="width:32px;"> [Вставка аннотаций c форматированным текстом](TechDraw_RichTextAnnotation/ru.md): добавляет в Вид блок форматированного текста в качестве аннотации к линии-выноске. {{Version/ru|0.19}}
 
--   <img alt="" src=images/TechDraw_CosmeticVertex.svg  style="width:24px;"> [Добавить Вспомогательную Вершину](TechDraw_CosmeticVertex/ru.md): добавляет вершину, которая не является частью исходной геометрии. {{Version/ru|0.19}}
+-   <img alt="" src=images/TechDraw_CosmeticVertex.svg  style="width:32px;"> [Добавить вспомогательную вершину](TechDraw_CosmeticVertex/ru.md): добавляет вершину, которая не является частью исходной геометрии. {{Version/ru|0.19}}
 
--   <img alt="" src=images/TechDraw_Midpoints.svg  style="width:24px;"> [Добавить Средние Вершины](TechDraw_Midpoints/ru.md): добавляет вспомогательные вершины в центральные точки выбраных граней.
+-   <img alt="" src=images/TechDraw_Midpoints.svg  style="width:32px;"> [Добавить вершины по центрам граней](TechDraw_Midpoints/ru.md): добавляет вспомогательные вершины в центральные точки выбраных граней.
 
--   <img alt="" src=images/TechDraw_Quadrants.svg  style="width:24px;"> [Четверть](TechDraw_Quadrants/ru.md): Инструмент Четверть добавляет вспомогательные вершины в окружность, деля ее на четверти. {{Version/ru|0.19}}
+-   <img alt="" src=images/TechDraw_Quadrants.svg  style="width:32px;"> [Добавить 4-ре вершины по краям окружности](TechDraw_Quadrants/ru.md): Инструмент Четверть добавляет вспомогательные вершины в окружность, деля ее на четверти. {{Version/ru|0.19}}
 
--   <img alt="" src=images/TechDraw_FaceCenterLine.svg  style="width:24px;"> [Осевая Линия](TechDraw_FaceCenterLine/ru.md): добавляет осевую линию к выбранной грани или граням. {{Version/ru|0.19}}
+-   <img alt="" src=images/TechDraw_FaceCenterLine.svg  style="width:32px;"> [Добавить осевую линию к граням](TechDraw_FaceCenterLine/ru.md): добавляет осевую линию к выбранной грани или граням. {{Version/ru|0.19}}
 
--   <img alt="" src=images/TechDraw_2LineCenterLine.svg  style="width:24px;"> [Добавить Осевую линию между 2 Линиями](TechDraw_2LineCenterLine/ru.md): добавляет осевую линию между 2 линиями. {{Version/ru|0.19}}
+-   <img alt="" src=images/TechDraw_2LineCenterLine.svg  style="width:32px;"> [Добавить осевую линию между 2 линиями](TechDraw_2LineCenterLine/ru.md): добавляет осевую линию между 2 линиями. {{Version/ru|0.19}}
 
--   <img alt="" src=images/TechDraw_2PointCenterLine.svg  style="width:24px;"> [Добавить Осевую линию между 2 точками](TechDraw_2PointCenterLine/ru.md): добавляет осевую линию между 2 точками. {{Version/ru|0.19}}
+-   <img alt="" src=images/TechDraw_2PointCenterLine.svg  style="width:32px;"> [Добавить осевую линию между 2 точками](TechDraw_2PointCenterLine/ru.md): добавляет осевую линию между 2 точками. {{Version/ru|0.19}}
 
--   <img alt="" src=images/TechDraw_2PointCosmeticLine.svg  style="width:24px;"> [Добавить косметическую линию](TechDraw_2PointCosmeticLine/ru.md): добавить вспомогательную линию соединяющую 2 точки. {{Version/ru|0.19}}
+-   <img alt="" src=images/TechDraw_2PointCosmeticLine.svg  style="width:32px;"> [Добавить вспомогательную линию между 2-мя точками](TechDraw_2PointCosmeticLine/ru.md): добавить вспомогательную линию по двум точкам. {{Version/ru|0.19}}
 
--   <img alt="" src=images/TechDraw_CosmeticEraser.svg  style="width:24px;"> [Удалить вспомогательный объект](TechDraw_CosmeticEraser/ru.md): удаляет вспомогательные объекты с чертежа. {{Version/ru|0.19}}
+-   <img alt="" src=images/TechDraw_CosmeticEraser.svg  style="width:32px;"> [Удалить вспомогательный объект](TechDraw_CosmeticEraser/ru.md): удаляет вспомогательные объекты с чертежа. {{Version/ru|0.19}}
 
--   <img alt="" src=images/TechDraw_DecorateLine.svg  style="width:32px;"> [Change Appearance of Lines](TechDraw_DecorateLine.md): changes the appearance of selected line(s). <small>(v0.19)</small> 
+-   <img alt="" src=images/TechDraw_DecorateLine.svg  style="width:32px;"> [Изменить внешний вид линий](TechDraw_DecorateLine/ru.md): позволяет изменить внешний вид выделенных линий. {{Version/ru|0.19}}
 
--   <img alt="" src=images/TechDraw_ShowAll.svg  style="width:32px;"> [Show/Hide Invisible Edges](TechDraw_ShowAll.md): shows/hides invisible lines/edges in a view. <small>(v0.19)</small> 
+-   <img alt="" src=images/TechDraw_ShowAll.svg  style="width:32px;"> [Показать/скрыть невидимые края](TechDraw_ShowAll/ru.md): позволяет показать/скрыть невидимые линии/грани Вида. {{Version/ru|0.19}}
 
--   <img alt="" src=images/TechDraw_WeldSymbol.svg  style="width:24px;"> [Добавить информацию о сварке в Линию-выноску](TechDraw_WeldSymbol.md): добавляет символы сварки и другие параметры к существующей Линии-выноске. <small>(v0.19)</small> 
+-   <img alt="" src=images/TechDraw_WeldSymbol.svg  style="width:32px;"> [Добавить информацию о сварке в линию-выноску](TechDraw_WeldSymbol/ru.md): добавляет символы сварки и другие параметры к существующей Линии-выноске. <small>(v0.19)</small> 
 
-## Extension Package 
+## Пакет расширений 
 
-The Extension Package includes many useful tools to improve your TechDraw drawings.
+Пакет расширений содержит в себе множество полезных инструментов для улучшения ваших TechDraw чертежей.
 
 
-**Some of these tools have yet to be released.**
+**Некоторые из этих инструментов еще не опубликованы.**
 
--   <img alt="" src=images/TechDraw_Extension_CircleCenterLines.svg  style="width:32px;"> [CircleCenterLines](TechDraw_Extension_CircleCenterLines.md): adds center lines to circles and arcs. <small>(v0.20)</small> 
+-   <img alt="" src=images/TechDraw_ExtensionCircleCenterLines.svg  style="width:32px;"> [Добавить осевые линии к окружностям](TechDraw_ExtensionCircleCenterLines/ru.md): добавляет осевые линии к окружностям и дугам. {{Version/ru|0.20}}
 
--   <img alt="" src=images/TechDraw_Extension_ThreadHoleSide.svg  style="width:32px;"> [ThreadHoleSide](TechDraw_Extension_ThreadHoleSide.md): adds a symbolic thread to the side view of a hole. <small>(v0.20)</small> 
+-   <img alt="" src=images/TechDraw_ExtensionThreadHoleSide.svg  style="width:32px;"> [Обозначить внутреннюю резьбу, для вида сбоку](TechDraw_ExtensionThreadHoleSide/ru.md): добавляет внутреннюю резьбу к отверстию с видом сбоку. {{Version/ru|0.20}}
 
--   <img alt="" src=images/TechDraw_Extension_ThreadHoleBottom.svg  style="width:32px;"> [ThreadHoleBottom](TechDraw_Extension_ThreadHoleBottom.md): adds symbolic threads to the bottom view of holes. <small>(v0.20)</small> 
+-   <img alt="" src=images/TechDraw_ExtensionThreadHoleBottom.svg  style="width:32px;"> [Обозначить внутреннюю резьбу, для вида снизу](TechDraw_ExtensionThreadHoleBottom/ru.md): добавляет внутреннюю резьбу к отверстию с видом снизу. {{Version/ru|0.20}}
 
--   <img alt="" src=images/TechDraw_Extension_ThreadBoltSide.svg  style="width:32px;"> [ThreadBoltSide](TechDraw_Extension_ThreadBoltSide.md): adds a symbolic thread to the side view of a bolt. <small>(v0.20)</small> 
+-   <img alt="" src=images/TechDraw_ExtensionThreadBoltSide.svg  style="width:32px;"> [Обозначить наружную резьбу, для вида сбоку](TechDraw_ExtensionThreadBoltSide/ru.md): добавляет наружную резьбу к отверстию с видом сбоку. {{Version/ru|0.20}}
 
--   <img alt="" src=images/TechDraw_Extension_ThreadBoltBottom.svg  style="width:32px;"> [ThreadBoltBottom](TechDraw_Extension_ThreadBoltBottom.md): adds symbolic threads to the bottom view of bolts. <small>(v0.20)</small> 
+-   <img alt="" src=images/TechDraw_ExtensionThreadBoltBottom.svg  style="width:32px;"> [Обозначить наружную резьбу, для вида снизу](TechDraw_ExtensionThreadBoltBottom/ru.md): добавляет наружную резьбу к отверстию с видом снизу. {{Version/ru|0.20}}
+
+## Импорт/Экспорт
+
+Содержит инструменты для экспорта страниц в другие приложения.
+
+-   <img alt="" src=images/TechDraw_ExportPageSVG.svg  style="width:32px;"> [Экспорт страницы в SVG](TechDraw_ExportPageSVG/ru.md): Экспорт страницы в [SVG](SVG/ru.md) файл.
+
+-   <img alt="" src=images/TechDraw_ExportPageDXF.svg  style="width:32px;"> [Экспорт страницы в DXF](TechDraw_ExportPageDXF/ru.md): Экспорт страницы в [DXF](DXF/ru.md) файл.
 
 ## Дополнительные возможности 
-
-
-<div class="mw-translate-fuzzy">
 
 -   [Группы Линий](TechDraw_LineGroup/ru.md): позволяет назначить толщину различным типам линий по умолчанию.
 -   [Шаблоны](TechDraw_Templates/ru.md): шаблоны по умолчанию, определенные для страниц чертежей.
 -   [Штриховка](TechDraw_Hatching/ru.md): объяснение различных методов штриховки.
--   [Geometric dimensioning and tolerancing](TechDraw_Geometric_dimensioning_and_tolerancing/ru.md): explanation on how to achieve geometric dimensioning and tolerancing.
-
-
-</div>
+-   [геометрические размеры и допуски](TechDraw_Geometric_dimensioning_and_tolerancing/ru.md): руководство по обознаению геометрических размеров и допусков.
 
 ## Настройки
 
 -   <img alt="" src=images/Preferences-techdraw.svg  style="width:32px;"> [Настройки](TechDraw_Preferences/ru.md): настройки значений по умолчанию для страницы чертежа, такие как угол проекции, цвета, размеры текста и стили линий.
 
-## Скриптинг
+## Программирование
 
 Инструменты TechDraw можно использовать в [macros](macros/ru.md) и в консоли [Python](Python/ru.md) с помощью двух APIs.
 
@@ -194,11 +187,13 @@ The Extension Package includes many useful tools to improve your TechDraw drawin
 -   Существуют небольшие различия в спецификации редактируемого текста в [SVG](SVG/ru.md) шаблонах по сравнению с модулем Drawing. В TechDraw масштабирование документа SVG влияет на положение редактируемых текстовых полей. Смотрите обсуждение на форуме [TechDraw templates scale](https://forum.freecadweb.org/viewtopic.php?f=3&t=24981&p=196271#p196271) для более детальной информации.
 -   Не вырезайте, не копируйте и не вставляйте объекты TechDraw в древовидном виде, так как это обычно не работает.
 
-## Уроки
+## Руководства
 
--   [Базовое руководство по TechDraw](Basic_TechDraw_Tutorial/ru.md): введение в создание чертежей с помощью Верстака TechDraw.
+-   [TechDraw руководство для начинающих](Basic_TechDraw_Tutorial/ru.md): введение в создание чертежей с помощью Верстака TechDraw.
 -   [Создание нового шаблона](TechDraw_TemplateHowTo/ru.md): инструкции по созданию нового шаблона страницы в Inkscape для использования с Верстака TechDraw.
 -   [Measurement Of Angles On Holes](Measurement_Of_Angles_On_Holes/ru.md): инструкция по добавлению осевых линий и последующих угловых представлений на отверстиях.
+-   [Разнообразная информация](TechDraw_HowTo_Page/ru.md): инструкции по различным настройкам, таким как обозначение центральных осей и т. п.
+-   [Создание окружностей с заданным шагом](TechDraw_pitch_circle_tutorial/ru.md): инструкция по созданию окружностей по траектории с шагом.
 
 Видео уроки by sliptonic
 

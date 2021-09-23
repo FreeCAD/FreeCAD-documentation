@@ -1,6 +1,5 @@
 # WikiRobots/fr
-
- {{VeryImportantMessage|Les robots sont intrinsèquement dangereux car ils peuvent automatiquement faire beaucoup de dégâts. Utilisez-les avec une extrême prudence!}}
+ **Les robots sont intrinsèquement dangereux car ils peuvent automatiquement faire beaucoup de dégâts. Utilisez-les avec une extrême prudence!**
 
 ## Présentation
 

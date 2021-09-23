@@ -20,4 +20,4 @@ Shows or hides the display of the defininig Polygon of a B-spline (see [this pag
 
 
 
- {{Sketcher Tools navi}}  
+ {{Sketcher Tools navi}} 

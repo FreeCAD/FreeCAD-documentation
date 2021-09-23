@@ -2,7 +2,6 @@
 
 
 
-
 {{Macro/fr
 |Name=Macro Site From Contours
 |Icon=Macro_Site_From_Contours.png

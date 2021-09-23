@@ -5,7 +5,6 @@
 
 
 
-
 {{Manual:TOC/fr}}
 
 Lorsque votre modèle ne peut pas être imprimé ou fraisé directement par une machine, par exemple s\'il est trop grand (un bâtiment) ou qu\'il nécessite un assemblage manuel une fois les pièces prêtes, vous devrez généralement expliquer à une autre personne comment le faire. Dans les domaines techniques (ingénierie, architecture, etc.), cela se fait généralement avec des dessins. Les dessins sont remis à la personne responsable de l\'assemblage du produit final et vous expliquent comment procéder.
@@ -59,13 +58,13 @@ Nous allons maintenant placer des dimensions et des indications sur notre dessin
 
 -   Appuyez sur le bouton <img alt="" src=images/TechDraw_ToggleFrame.svg  style="width:16px;"> pour activer les sommets.
 -   Utilisez Ctrl + Clic gauche de la souris pour sélectionner les deux sommets entre lesquels vous souhaitez mesurer la distance.
--   Appuyez sur le bouton <img alt="" src=images/TechDraw_Dimension_Length.svg  style="width:16px;"> [TechDraw Longueur](TechDraw_Dimension_Length/fr.md).
+-   Appuyez sur le bouton <img alt="" src=images/TechDraw_LengthDimension.svg  style="width:16px;"> [TechDraw Cote de longueur](TechDraw_LengthDimension/fr.md).
 
 ![](images/Exercise_TechDraw_05.png )
 
--   Répétez l\'opération jusqu\'à ce que toutes les dimensions que vous souhaitez indiquer soient placées. Utilisez les outils <img alt="" src=images/TechDraw_Dimension_Vertical.svg  style="width:16px;"> [TechDraw Dimension verticale](TechDraw_Dimension_Vertical/fr.md) et <img alt="" src=images/TechDraw_Dimension_Horizontal.svg  style="width:16px;"> [TechDraw Dimension horizontale](TechDraw_Dimension_Horizontal/fr.md) le cas échéant.
--   Prenez une minute pour regarder les [propriétés](TechDraw_Dimension_Length/fr#Propri.C3.A9t.C3.A9s.md) de l\'objet Dimension dans la vue combinée.
--   Veuillez noter que si vous dimensionnez une vue [axonométrique](https://en.wikipedia.org/wiki/Axonometric_projection) (par exemple, une vue isométrique) au lieu d\'une vue [multiview](https://en.wikipedia.org/wiki/Multiview_projection) (par exemple, vue de face) comme nous l\'avons fait ici, vous devrez utiliser l\'outil <img alt="" src=images/TechDraw_Dimension_Link.svg  style="width:16px;"> [TechDraw Lier une dimension](TechDraw_Dimension_Link/fr.md) pour obtenir une dimension précise.
+-   Répétez l\'opération jusqu\'à ce que toutes les dimensions que vous souhaitez indiquer soient placées. Utilisez les outils <img alt="" src=images/TechDraw_VerticalDimension.svg  style="width:16px;"> [TechDraw Cote verticale](TechDraw_VerticalDimension/fr.md) et <img alt="" src=images/TechDraw_HorizontalDimension.svg  style="width:16px;"> [TechDraw Cote horizontale](TechDraw_HorizontalDimension/fr.md) le cas échéant.
+-   Prenez une minute pour regarder les [propriétés](TechDraw_LengthDimension/fr#Propri.C3.A9t.C3.A9s.md) de l\'objet Dimension dans la vue combinée.
+-   Veuillez noter que si vous dimensionnez une vue [axonométrique](https://en.wikipedia.org/wiki/Axonometric_projection) (par exemple, une vue isométrique) au lieu d\'une vue [multiview](https://en.wikipedia.org/wiki/Multiview_projection) (par exemple, vue de face) comme nous l\'avons fait ici, vous devrez utiliser l\'outil <img alt="" src=images/TechDraw_LinkDimension.svg  style="width:16px;"> [TechDraw Lier une dimension](TechDraw_LinkDimension/fr.md) pour obtenir une dimension précise.
 
 ![](images/Exercise_TechDraw_07.png )
 

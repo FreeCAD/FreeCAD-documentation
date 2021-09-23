@@ -2,12 +2,11 @@
 
 
 
-
-{{VeryImportantMessage|
+**
 Ce plan de développement est probablement obsolète. Pour plus d'informations, voir [Plan de développement](Development_roadmap/fr.md).<br>
 Si vous n'êtes pas impliqué dans le développement discuté ici :<br>
 !!! S'IL VOUS PLAÎT, NE MODIFIEZ PAS ET NE TRADUISEZ PAS !!!
-}}
+**
 
 
 {{TOCright}}

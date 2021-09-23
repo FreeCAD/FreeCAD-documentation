@@ -1,7 +1,6 @@
 # App FeaturePython/it
 
 
-
 ## Introduzione
 
 Un oggetto <img alt="" src=images/Feature.svg  style="width:32px;"> [App FeaturePython](App_FeaturePython/it.md), o formalmente un `App::FeaturePython`, è una semplice istanza di [App DocumentObject](App_DocumentObject/it.md) in [Python](Python/it.md).

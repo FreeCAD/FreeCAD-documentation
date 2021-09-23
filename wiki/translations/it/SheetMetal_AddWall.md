@@ -28,11 +28,17 @@ Lo strumento di piegatura di SheetMetal <img alt="" src=images/SheetMetal_Bend.s
 
 ## Utilizzo
 
+
+<div class="mw-translate-fuzzy">
+
 Per aggiungere una piega:
 
 1.  Passare nell\'ambiente <img alt="" src=images/Sheetmetal_workbench_icon.svg  style="width:22px;"> SheetMetal.
 2.  Iniziare con una lastra di base o un foglio, selezionare uno o più bordi che devono ricevere una piega.
 3.  Cliccare sullo strumento <img alt="" src=images/SheetMetal_Bend.svg  style="width:24px;"> **Bend** per aggiungere una piega.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -72,15 +78,28 @@ Per aggiungere una piega:
 
 ## Proprietà
 
+See also: [Property editor](Property_editor.md).
+
+A SheetMetal Bend object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties and its label has a default value:
+
 ### Dati
 
 
 {{Properties_Title|Base}}
 
+
+<div class="mw-translate-fuzzy">
+
 -    **Label**: Nome assegnato dall\'utente all\'oggetto nella [vista ad albero](Tree_view/it.md).
 
 
+</div>
+
+
 {{Properties_Title|Parameters}}
+
+
+<div class="mw-translate-fuzzy">
 
 -    **angle**: Angolo di piega.
 
@@ -111,6 +130,63 @@ Per aggiungere una piega:
 -    **kfactor**: Fattore K (noto anche come fattore neutro) per la curva. Utilizzato per calcolare la tolleranza di piegatura durante lo sviluppo.
 
 -    **unfold**: False (predefinito) o True. Se è vero, dispiega la curva.
+
+
+</div>
+
+
+{{Properties_Title|Parameters Ex}}
+
+-    **Auto Miter|Bool**: \"Enable Auto Miter\". Default: `True`.
+
+-    **extend1|Distance**: \"Extend from Left Side\". Default: {{value|0,00 mm}}.
+
+-    **extend2|Distance**: \"Extend from Right Side\". Default: {{value|0,00 mm}}.
+
+-    **kfactor|FloatConstraint**: \"Location of Neutral Line. Caution: Using ANSI standards, not DIN.\".  Default: {{value|0,50}}. K factor (also known as neutral factor) for the bend. Used to calculate bend allowance when unfolding.
+
+-    **max Extend Dist|Length**: \"Auto Miter maximum Extend Distance\". Default: {{value|5,00 mm}}.
+
+-    **min Gap|Length**: \"Auto Miter Minimum Gap\". Default: {{value|5,00 mm}}.
+
+-    **miterangle1|Angle**: \"Bend Miter Angle from Left Side\". Default angle: {{value|0,00°}}.
+
+-    **miterangle2|Angle**: \"Bend Miter Angle from Right Side\". Default angle: {{value|0,00°}}.
+
+-    **offset|Distance**: \"Offset Bend\". Default: {{value|0,00 mm}}.
+
+-    **unfold|Bool**: \"Shows Unfold View of Current Bend\". Default:  `True` unfolds the bend.
+
+
+{{Properties_Title|Parameters Ex2}}
+
+-    **Sketch|Link**: \"Sketch Object\".
+
+-    **sketchflip|Bool**: \"Flip Sketch Direction\". Default: `False`.
+
+-    **sketchinvert|Bool**: \"Invert Sketch Start\". Default: `False`.
+
+
+{{Properties_Title|Parameters Ex3}}
+
+-    **Length List|FloatList**: \"Length of Wall List\". Default: {{value|[10,00]}}.
+
+-    **bend AList|FloatList**: \"Bend Angle List\". Default: {{value|[90,00]}}.
+
+
+{{Properties_Title|Parameters Relief}}
+
+-    **Relief Factor|Float**: \"Relief Factor\". Default: {{value|0,70}}.
+
+-    **Use Relief Factor|Bool**: \"Use Relief Factor\". Default: `False`.
+
+-    **min Relief Gap|Length**: \"Minimum Gap to Relief Cut\". Default: {{value|1,00 mm}}.
+
+-    **relief Type|Enumeration**: \"Relief Type\". {{value|Rectangle}} (default), {{value|Round}}. Enabled only when a gap value is set.
+
+-    **reliefd|Length**: \"Relief Depth\". Default: {{value|1,00 mm}}. Enabled only when a gap value is set.
+
+-    **reliefw|Length**: \"Relief Width\". Default: {{value|0,80 mm}}. Enabled only when a gap value is set.
 
 ## Example
 

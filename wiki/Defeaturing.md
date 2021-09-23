@@ -1,5 +1,4 @@
 # Defeaturing
-
  
 
 ## Introduction

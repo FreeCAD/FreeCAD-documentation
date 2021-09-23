@@ -1,7 +1,6 @@
 # Profiling/fr
 
 
-
 ## Description
 
 Le profilage du code de FreeCAD permet de trouver des goulots d\'étranglement dans les algorithmes utilisés pour créer ou manipuler des objets.

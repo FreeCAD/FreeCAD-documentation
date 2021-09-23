@@ -1,5 +1,4 @@
 # Artwork/pl
-
   Oto grafika, która została stworzona na potrzeby programu FreeCAD. Zachęcamy do ponownego wykorzystania tych plików w innych aplikacjach. Jeśli chcesz przyczynić się do tworzenia ikon, przeczytaj [wytyczne do grafiki](Artwork_Guidelines.md).
 
 ## Różne ikonki 
@@ -86,10 +85,6 @@ Zobacz stronę [Grafika Środowiska pracy PartDesign](Artwork_PartDesign.md).
 
 Zobacz stronę [Grafika Środowiska pracy Path](Artwork_Path.md).
 
-### Ikonki src/Mod/Plot/ 
-
-Zobacz stronę [Grafika Środowiska pracy Plot](Artwork_Plot.md).
-
 ### Ikonki src/Mod/Points/ 
 
 Zobacz stronę [Grafika Środowiska pracy Points](Artwork_Points.md).
@@ -105,10 +100,6 @@ Zobacz stronę [Grafika Środowiska pracy Inżynieria wsteczna](Artwork_ReverseE
 ### Ikonki src/Mod/Robot/ 
 
 Zobacz stronę [Grafika Środowiska pracy Robot](Artwork_Robot.md).
-
-### Ikonki src/Mod/Ship/ 
-
-Zobacz stronę [Grafika Środowiska pracy Ship](Artwork_Ship.md).
 
 ### Ikonki src/Mod/Sketcher/ 
 
@@ -144,9 +135,17 @@ Zobacz strone [Grafika Środowiska pracy Web](Artwork_Web.md).
 
 ## Zewnętrzne Środowiska pracy oraz dodatki 
 
+### Ikonki Mod/Plot/ 
+
+Zobacz stronę [Grafika Środowiska pracy Plot](Artwork_Plot.md).
+
 ### Ikonki dla Mod/Reinforcement/ 
 
 Zobacz stronę [Grafika Środowiska pracy Reinforcement](Artwork_Reinforcement.md).
+
+### Ikonki Mod/Ship/ 
+
+Zobacz stronę [Grafika Środowiska pracy Ship](Artwork_Ship.md).
 
 ## Nieprawidłowe ikony 
 

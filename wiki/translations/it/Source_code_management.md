@@ -1,5 +1,4 @@
 # Source code management/it
-
  {{TOCright}}
 
 ## Introduction
@@ -188,7 +187,7 @@ git remote show upstream
 ## Processo di sviluppo Git 
 
 
-{{VeryImportantMessage|Non sviluppare mai sul ramo "master". Creare invece un ramo per lo sviluppo e quindi unire questo ramo al ramo principale. Si prega di leggere [https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell Git Branching], [https://book.git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging Basic Branching and Merging], e [https://git-scm.com/book/en/v2/GitHub-Contributing-to-a-Project GitHub - Contributing to a project] to learn more.}}
+**Non sviluppare mai sul ramo "master". Creare invece un ramo per lo sviluppo e quindi unire questo ramo al ramo principale. Si prega di leggere [https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell Git Branching], [https://book.git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging Basic Branching and Merging], e [https://git-scm.com/book/en/v2/GitHub-Contributing-to-a-Project GitHub - Contributing to a project] to learn more.**
 
 
 </div>
@@ -846,7 +845,7 @@ To learn more, read [Useful tricks you might not know about Git stash](https://m
 ### Blaming
 
 
-{{VeryImportantMessage|Section TBD}}
+**Section TBD**
 
 Add content from <https://forum.freecadweb.org/viewtopic.php?f=23&t=55943&p=481483#p481287>
 

@@ -1,5 +1,4 @@
 # Path Tools/en
-
  
 
 
@@ -57,18 +56,18 @@ It is always recommended to store the new created toolbits and libraries in a sa
 
 References to Tool Bits and their shapes can either be stored with an absolute path or with a relative path to the search path. Generally it is recommended to use relative paths due to their flexibility and robustness to layout changes. Should multiple tools or tool shapes with the same name exist in different directories it can be required to use absolute paths.
 
-See Path Preferences to choose whether absolute or relative paths are used.
+See [Path Preferences](Path_Preferences.md) to choose whether absolute or relative paths are used.
 
 ## Migrating from Legacy Tools 
 
-If you have been using FreeCAD Path workbench for a while, you may need to adjust your preferences before you can use the Toolbit system. If pressing the Tool Library button on the toolbar shows the legacy dialog, Go to the page below in Path preferences and disable legacy tools.
+If you have been using FreeCAD Path workbench for a while, you may need to adjust your preferences before you can use the Toolbit system. If pressing the Tool Library button on the toolbar shows the legacy dialog, go to the page below in [Path Preferences](Path_Preferences.md) and disable legacy tools.
 You have to restart FreeCAD to make the change valid.
 
 ![Disable Legacy Tools](images/Preferences.png )
 
 ## Getting Started with Tools in FC 0.19 
 
-Read the \Migrating from Legacy Tools\ section above. The steps below will walk you through the process of getting a ToolBit into your particular Path **<img src="images/Path_Job.svg" width=16px> [Job](Path_Job.md)**.
+Read the \Migrating from Legacy Tools\ section above. The steps below will walk you through the process of getting a ToolBit into your particular **<img src="images/Path_Job.svg" width=16px> [Path Job](Path_Job.md)**.
 
 In short, the process begins with a Tool Shape (profile) file that contains only a FreeCAD sketch of half the tool\'s physical shape (profile). This tool shape file is then used as the basis to create a ToolBit file containing the 3D representation of the ToolBit or cutter. One or more ToolBits are assigned to any number of Tool Libraries as needed by the user. This structure and workflow allows for sharing of Tool Shapes, ToolBits, and entire Tool Libraries - a giant leap forward from the Legacy tool management system in place prior to version 0.19.
 
@@ -86,7 +85,7 @@ Getting a cutter or tool into a Path Job for use in operations starts with a [To
 
 :   Follow the instructions outlined in the [Usage](Path_ToolShape#Usage.md) section of the [Tool Shape](Path_ToolShape.md) page to create a custom tool shape.
 
-### Load or create a [ToolBit](Path_ToolBit.md) 
+### Load or create a ToolBit 
 
 Once the desired tool shape(profile) exists, you need to create a [tool bit](Path_ToolBit.md) using the tool shape (profile).
 

@@ -5,10 +5,9 @@
 
 
 
-
 {{TOCright}}
 
-## Wprowadzenie
+## Informacje ogólne 
 
 **Nawigacja myszką** w programie FreeCAD jest bardzo elastyczna i intuicyjna, z kilkoma wskazówkami możesz go używać po minucie praktyki. FreeCAD obsługuje wiele stylów nawigacji myszki. Domyślny styl nawigacji jest określany jako **Nawigacja CAD** i jest bardzo intuicyjny i praktyczny, ale FreeCAD oferuje również alternatywne style nawigacji, które możesz wybrać zgodnie z własnymi preferencjami.
 
@@ -58,7 +57,7 @@ Użytkownicy, którzy używają myszki prawą ręką, mogą uznać tę metodę z
 
 ### OpenInventor
 
-Nawigacja OpenInventor (dawniej Inventor) została wymodelowana na podstawie [Open Inventor](http://en.wikipedia.org/wiki/Open_Inventor). Aby móc wybrać obiekty kursorem myszki, należy dodatkowo przytrzymać klawisz **Ctrl**.
+Nawigacja OpenInventor *(dawniej Inventor)* została wymodelowana na podstawie [Open Inventor](http://en.wikipedia.org/wiki/Open_Inventor). Aby móc wybrać obiekty kursorem myszki, należy dodatkowo przytrzymać klawisz **Ctrl**.
 
 Ten styl nie jest oparty na nawigacji Autodesk Inventor.
 
@@ -116,8 +115,6 @@ W stylu nawigacji Touchpad przy użyciu panelu dotykowego, przesuwanie, powięks
 }}
 
 ### Gesture
-
-<small>(v0.16)</small> 
 
 Ten styl został wprowadzony w wersji 0.16 i został dostosowany do użycia z ekranem dotykowym i piórem. Niemniej jednak może być również używany z myszką, i jest zalecany do stosowania w przypadku komputerów Mac z tabliczką dotykową. {{Gesture Navigation
 |Select_name=Wybierz
@@ -207,9 +204,9 @@ Ewentualnie przytrzymaj klawisz **Ctrl** i lewy przycisk myszy, a następnie prz
 
 Obiekty mogą być zaznaczane przez kliknięcie lewym przyciskiem myszy, także przez kliknięcie na obiekt w widoku 3D lub przez zaznaczenie w drzewie widoku. Obecny jest także mechanizm preselekcji, który podświetla obiekty i wyświetla informacje o nich przed zaznaczeniem, podczas najechania myszą na obiekt. Tesli nie chcesz tego zachowania lub masz wolną maszynę, możesz wyłączyć preselekcję w ustawieniach.
 
-## Łatwy wybór 
+### Prosty wybór 
 
-Obiekty można wybrać klikając lewym przyciskiem myszy. Przez kliknięcie na nim w [widoku 3D](3D_view/pl.md), albo wybierając go w [widoku drzewa](tree_view/pl.md).
+Obiekty można wybrać klikając lewym przyciskiem myszy. Przez kliknięcie na nim w oknie [widoku 3D](3D_view/pl.md), albo wybierając go w [widoku drzewa](Tree_view/pl.md).
 
 ### Wybór wstępny 
 
@@ -217,15 +214,23 @@ Istnieje również mechanizm \"Preselekcji\", który podświetla obiekty i wyśw
 
 ## Manipulowanie obiektami 
 
-FreeCAD oferuje [manipulator](manipulator/pl.md), który może być użyty do modyfikowania wyglądu, kształtu lub innych parametrów obiektu.
+FreeCAD oferuje [manipulator](Manipulator/pl.md), który może być użyty do modyfikowania wyglądu, kształtu lub innych parametrów obiektu.
 
 ## Wspierany sprzęt 
 
 FreeCAD obsługuje również niektóre [urządzenia wejściowe 3D](3D_input_devices/pl.md).
 
-## Mac OS - X problemy 
+## Polecana nawigacja dla macOS 
 
-Ostatnio otrzymaliśmy raporty [na forum](http://forum.freecadweb.org/viewtopic.php?f=3&t=3592&start=0) od użytkowników komputerów Mac, że te przyciski myszy i kombinacje klawiszy nie działają zgodnie z oczekiwaniami. Niestety, żaden z deweloperów nie jest właścicielem komputera Mac, podobnie jak pozostali współpracownicy. Potrzebujemy twojej pomocy w określeniu, które przyciski myszy i kombinacje klawiszy działają, abyśmy mogli zaktualizować to wiki.
+W komputerach MacBook z gładzikiem nawigacja za pomocą gestów działa bardzo dobrze, ale gesty mają specjalne znaczenie:
+
+-   Powiększenie: przeciągnij dwoma palcami,
+-   Obrót: przeciągnij trzema palcami,
+-   Przesuwanie: **Ctrl** + trzy palce.
+
+## Opracowanie własnego schematu nawigacji 
+
+Poradnik [Dodanie nowego stylu nawigacji myszką do FreeCAD](Adding_a_new_mouse_navigation_option_to_FreeCAD.md) wprowadza programistów, którzy chcą stworzyć własny wariant nawigacji za pomocą myszy. Wymagana jest znajomość składni języka C++.
 
 
 

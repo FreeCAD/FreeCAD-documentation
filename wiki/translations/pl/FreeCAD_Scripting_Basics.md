@@ -2,7 +2,6 @@
 
 
 
-
 {{TOCright}}
 
 ## Tworzenie skryptów Python w środowisku FreeCAD 

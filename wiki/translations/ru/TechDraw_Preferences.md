@@ -3,13 +3,6 @@
 
 
 
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 {{TOCright}}
@@ -200,13 +193,7 @@ Some preference settings are only accessible through the [Parameter editor](Std_
 -   **RadiusAligned**: Radius dimension format 0-ISO(aligned) 1-ASME(uniform)
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{TechDraw Tools navi

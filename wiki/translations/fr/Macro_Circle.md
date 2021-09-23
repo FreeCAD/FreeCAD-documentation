@@ -1,5 +1,4 @@
 # Macro Circle/fr
-
  {{Macro/fr
 |Name=Macro Circle
 |Icon=Macro_Circle.png

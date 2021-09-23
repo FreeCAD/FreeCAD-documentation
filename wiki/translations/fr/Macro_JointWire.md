@@ -1,6 +1,5 @@
 # Macro JointWire/fr
-
- {{VeryImportantMessage|!!! Cette macro doit être corrigée. !!!}}
+ **!!! Cette macro doit être corrigée. !!!**
 
 
 {{Macro/fr

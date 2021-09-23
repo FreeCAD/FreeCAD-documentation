@@ -1,7 +1,6 @@
 # Developer hub/zh-cn
 
 
-
 ![150](images/Crystal_Clear_app_tutorials.png )
 
 如果你对开发FreeCAD软件有兴趣，想贡献于这个项目的开发，这里正有你该了解的内容。

@@ -9,9 +9,19 @@
 
 </div>
 
+## Description
+
+
+<div class="mw-translate-fuzzy">
+
 ## Descrizione
 
 Mostra o nasconde tutte le misure Delta in corso.
+
+
+</div>
+
+## Usage
 
 
 <div class="mw-translate-fuzzy">
@@ -31,9 +41,6 @@ Mostra o nasconde tutte le misure Delta in corso.
 
 
 </div>
-
-
-
 
 
  

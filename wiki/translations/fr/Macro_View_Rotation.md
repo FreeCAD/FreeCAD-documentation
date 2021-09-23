@@ -1,5 +1,4 @@
 # Macro View Rotation/fr
-
  {{Macro/fr
 |Name=View Rotation
 |Icon=Macro View Rotation.png

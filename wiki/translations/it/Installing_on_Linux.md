@@ -4,13 +4,12 @@
 
 
 
-
 ## Descrizione
 
 
 {{TOCright}}
 
-L\'installazione di FreeCAD sui più noti sistemi Linux è stata ora approvata dalla comunità e FreeCAD dovrebbe essere direttamente disponibile tramite il gestore di pacchetti disponibile per la propria distribuzione. Il team di FreeCAD fornisce anche alcuni:
+L\'installazione di FreeCAD sui più noti sistemi Linux è stata ora approvata dalla comunità e FreeCAD dovrebbe essere direttamente disponibile tramite il gestore di pacchetti disponibile della propria distribuzione. Il team di FreeCAD fornisce anche alcuni:
 
 -   Pacchetti \"ufficiali\" quando vengono rilasciate nuove versioni
 -   Repository sperimentali [Personal Package Archive](https://help.ubuntu.com/community/PPA) (PPA), [AppImages](AppImage.md), e [Ubuntu Snaps](Ubuntu_Snap.md) per testare le ultime funzioni sviluppate.
@@ -212,7 +211,7 @@ sudo apt-get install freecad
 
 ## OpenSUSE
 
-FreeCAD is typically installed with YAST (abbr. Yet another Setup Tool) the Linux operating system setup and configuration tool, or in any terminal/console (root rights required) with:
+FreeCAD viene in genere installato con YAST (abbr. Yet Another Setup Tool), lo strumento di installazione e configurazione del sistema operativo Linux, o in qualsiasi terminale/console (sono richiesti i diritti di root) con:
 
 :   
     
@@ -225,28 +224,28 @@ FreeCAD is typically installed with YAST (abbr. Yet another Setup Tool) the Linu
 
 **Note:**
 
-This procedure only covers the installation of officially released **stable** FreeCAD program versions, depending on the installed links to the program package repositories of your OS version. The openSUSE package *may be outdated* as the packaging may lag behind the latest stable source code. In this case, it is suggested to install the package manually from the below indicated (Expand) source repositories.
+Questa procedura copre solo l\'installazione delle versioni del programma FreeCAD **stable** ufficialmente rilasciate, a seconda dei collegamenti installati ai repository dei pacchetti del programma della versione del sistema operativo. Il pacchetto openSUSE *potrebbe essere obsoleto* in quanto il pacchetto potrebbe essere in ritardo rispetto all\'ultimo codice sorgente stabile. In questo caso, si suggerisce di installare il pacchetto manualmente dai repository di sorgenti (Espandi) indicati di seguito.
 
 
 <div class="mw-collapsible-content">
 
-A vast release program for FreeCAD package builds are offered. Please visit for a survey:
+Viene offerto un vasto programma di rilascio per la creazione di pacchetti di FreeCAD. Si prega di visitare per un sondaggio:
 
 **[Survey of repositories on openSUSE](https://software.opensuse.org/search?utf8=%E2%9C%93&baseproject=ALL&q=FreeCAD)**
 
-Generally for selecting the correct openSUSE distribution needed it is necessary to click on the particular **View** button.
+Generalmente per selezionare la corretta distribuzione di openSUSE desiderata è necessario fare clic sul corrispondente pulsante **View**.
 
-### Stable
+### Stabile
 
-The stable package version: [Stable repositories on openSUSE](https://software.opensuse.org/package/FreeCAD). The correct openSUSE distribution version must be selected in the lower part of the web page.
+La versione stabile del pacchetto: [Repository stabili su openSUSE](https://software.opensuse.org/package/FreeCAD). La versione corretta della distribuzione di openSUSE deve essere selezionata nella parte inferiore della pagina web.
 
-Note: openSUSE has several options to choose from when downloading FreeCAD. To view these options, visit [Survey of stable repositories on openSUSE](https://software.opensuse.org/search?utf8=%E2%9C%93&baseproject=ALL&q=FreeCAD).
+Nota: openSUSE ha diverse opzioni tra cui scegliere quando si scarica FreeCAD. Per visualizzare queste opzioni, visitare [Survey of stable repository on openSUSE](https://software.opensuse.org/search?utf8=%E2%9C%93&baseproject=ALL&q=FreeCAD).
 
 ### Sviluppo
 
-Latest development releases AKA **unstable**: [Unstable repositories listings on openSUSE](https://software.opensuse.org/download.html?project=science%3Aunstable&package=FreeCAD)
+Ultime versioni di sviluppo AKA **unstable**: [Unstable repositories listings on openSUSE](https://software.opensuse.org/download.html?project=science%3Aunstable&package=FreeCAD)
 
-It is recommended to grab the binary packages directly. Then select the correct distribution for your installed openSUSE OS.
+Si consiglia di prendere direttamente i pacchetti binari. Quindi selezionare la distribuzione corretta per il tuo sistema operativo openSUSE installato.
 
 
 </div>
@@ -268,7 +267,7 @@ emerge freecad
 
 ## Fedora
 
-FreeCAD has been included in the official Fedora packages since Fedora 20. It can be installed from the command line with:
+FreeCAD è stato incluso nei pacchetti ufficiali di Fedora da Fedora 20. Può essere installato dalla riga di comando con:
 
 
 ```python
@@ -278,18 +277,18 @@ sudo dnf install freecad
 
 <div class="mw-collapsible-content">
 
-On older Fedora releases, that was:
+Nelle versioni precedenti di Fedora, questo era:
 
 
 ```python
 sudo yum install freecad
 ```
 
-The gui packages managers can also be used. Search for \"freecad\". The official release package version tends to be well behind the FreeCAD releases. [Package: freecad](http://rpms.remirepo.net/rpmphp/zoom.php?rpm=freecad) shows the versions included in the Fedora repositories over time and versions.
+Possono essere utilizzati anche i gestori dei pacchetti gui. Cercare \"freecad\". La versione ufficiale del pacchetto di rilascio tende ad essere molto indietro rispetto alle versioni di FreeCAD. [Pacchetto: freecad](http://rpms.remirepo.net/rpmphp/zoom.php?rpm=freecad) mostra le versioni incluse nei repository Fedora nel tempo e nelle versioni.
 
-More current versions can be obtained by downloading one of the [.AppImage](https://github.com/FreeCAD/FreeCAD/releases/)releases from the github repository. These work fine on Fedora.
+È possibile ottenere versioni più recenti scaricando uno dei [.AppImage](https://github.com/FreeCAD/FreeCAD/releases/)rilasci dal repository github. Questi funzionano bene su Fedora.
 
-If you want to keep up with the absolute latest daily builds, FreeCAD is also available on [copr](https://copr.fedorainfracloud.org/groups/g/freecad/coprs/). To install the build from there, in a terminal session, enter:
+Se vuoi stare al passo con le ultime build giornaliere in assoluto, FreeCAD è disponibile anche su [copr](https://copr.fedorainfracloud.org/groups/g/freecad/coprs/). Per installare la build da lì, in una sessione di terminale, inserisci:
 
 
 ```python
@@ -297,16 +296,16 @@ sudo dnf copr enable @freecad/nightly
 sudo dnf install freecad
 ```
 
-That leaves the copr repository active, so
+Che lascia il copr repository attivo, quindi
 
 
 ```python
 sudo dnf upgrade
 ```
 
-or equivalent, will update to the latest FreeCAD build, along with updates from any of the other active repos. If you want something a bit more stable, you can disable \@freecad/nightly again after the initial install. The copr repository only keeps builds from the past 2 weeks. This is not a solution if you want to pick a specific older version.
+o equivalente, si aggiornerà all\'ultima build di FreeCAD, insieme agli aggiornamenti da qualsiasi altro repository attivo. Se vuoi qualcosa di un po\' più stabile, puoi disabilitare \@freecad/nightly nuovamente dopo l\'installazione iniziale. Il copr il repository conserva solo le build delle ultime 2 settimane. Questa non è una soluzione se vuoi scegliere una versione precedente specifica.
 
-Instructions are also available on [compile FreeCAD yourself](Compile_on_Linux.md), including a script specifically for Fedora. With a minor change, to checkout the specific commit from git, any version since about FreeCAD 0.15 can be built on any distribution since Fedora 21.
+Le istruzioni sono disponibili anche su [compila FreeCAD da solo](Compile_on_Linux.md), incluso uno script specifico per Fedora. Con una piccola modifica, per verificare il commit specifico da git, qualsiasi versione da circa FreeCAD 0.15 può essere costruita su qualsiasi distribuzione da Fedora 21.
 
 
 </div>
@@ -316,7 +315,7 @@ Instructions are also available on [compile FreeCAD yourself](Compile_on_Linux.m
 
 ## Arch
 
-Installing FreeCAD on Arch Linux and derivatives (ex. Manjaro):
+Installazione di FreeCAD su Arch Linux e derivati ​​(es. Manjaro):
 
 
 ```python
@@ -347,7 +346,7 @@ Terminata l\'installazione di FreeCAD, nella sezione \"Grafica\" del Menu Start 
 
 ### Installazione in altri sistemi Linux/Unix 
 
-Many common Linux distros now include a precompiled FreeCAD as part of the standard packages. This is often out of date, but is a place to start. Check the standard package managers for your system. One of the following (partial) list of commands could install the official version of FreeCAD for your distro from the terminal. These probably need administrator privileges.
+Molte comuni distribuzioni Linux ora includono un FreeCAD precompilato come parte dei pacchetti standard. Questo è spesso obsoleto, ma è un punto di partenza. Controlla i gestori di pacchetti standard per il tuo sistema. Uno dei seguenti (parziali) elenchi di comandi potrebbe installare la versione ufficiale di FreeCAD per la tua distribuzione dal terminale. Questi probabilmente richiedono i privilegi di amministratore.
 
 
 ```python
@@ -359,15 +358,15 @@ yum install freecad
 zypper install freecad
 ```
 
-The package name is case sensitive, so try \FreeCAD\ as well as \freecad\. If that does not work for you, either because your package manager does not have a precompiled FreeCAD version available, or because the available version is too old for your needs, you can try downloading one of the [.AppImage](https://github.com/FreeCAD/FreeCAD/releases/) releases from the github repository. These tend to work on most 64 bit Linux distributions, without any special installation. Just make sure the downloaded file is marked as executable, then run it.
+Il nome del pacchetto fa distinzione tra maiuscole e minuscole, quindi prova sia \"FreeCAD\" che \"freecad\". Se ciò non funziona è perché il tuo gestore di pacchetti non ha una versione precompilata di FreeCAD disponibile o perché la versione disponibile è troppo vecchia per le tue esigenze, puoi provare a scaricare una delle [.AppImage](https://github.com/FreeCAD/FreeCAD/releases/) rilasciate dal repository github. Queste tendono a funzionare sulla maggior parte delle distribuzioni Linux a 64 bit, senza alcuna installazione speciale. Assicurati che il file scaricato sia contrassegnato come eseguibile, quindi eseguilo.
 
 Se ciò non basta, e non è possibile individuare un\'altra fonte di un pacchetto precompilato per la propria situazione, è necessario [compilare FreeCAD](Compile_on_Linux/it.md) da soli.
 
-### Installing Windows Version on Linux 
+### Installare la Versione Windows in Linux 
 
-See the [Installing on Windows](Installing_on_Windows.md) page.
+Vedere la pagina [Installare in Windows](Installing_on_Windows/it.md).
 
-## Next Step 
+## Prossimi Passi 
 
 Appena terminata l\'installazione di FreeCAD, è ora di [iniziare](Getting_started/it.md)!
 

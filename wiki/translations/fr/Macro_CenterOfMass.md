@@ -2,7 +2,6 @@
 
 
 
-
 {{Macro/fr
 |Name=Macro CenterOfMass
 |Description=Donne la masse totale et la position du centre de masse de l'ensemble des objets sélectionnés. 

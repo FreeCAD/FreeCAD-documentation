@@ -1,7 +1,6 @@
 # PropertyLink: InList and OutList/en
 
 
-
 See [Properties](Property.md) before this section.
 
 # PropertyLink

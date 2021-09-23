@@ -1,5 +1,4 @@
 # Download/tr
-
  {{TOCright}}
 
 ## Current stable version 

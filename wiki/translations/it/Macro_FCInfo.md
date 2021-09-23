@@ -1,5 +1,4 @@
 # Macro FCInfo/it
-
  {{Macro/it
 |Name=Macro FCInfo
 |Translate=Infoin scheda

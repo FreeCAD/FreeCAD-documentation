@@ -1,5 +1,4 @@
 # Feature list/pl
-
  
 
 Jest to obszerną, ale nie kompletna lista funkcji, realizowanych przez program FreeCAD. Jeśli chcesz zobaczyć przyszłe wydarzenia, zobacz [\|Mapa rozwoju](Development_roadmap.md), aby szybko zorientować się, co będzie dalej. Ponadto, miłym miejscem jest galeria [Zrzutów ekranu](Screenshots.md).

@@ -1,5 +1,4 @@
 # How to install additional workbenches/it
-
  {{TutorialInfo/it|Topic=Programmazione|Level=Medio|Time=15 minuti|FCVersion=Tutte|Author=[r-frank](User:R-Frank.md)|Files=none}}
 
 ## Descrizione

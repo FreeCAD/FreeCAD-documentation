@@ -56,7 +56,7 @@ A SheetMetal Fold object is derived from a [Part Feature](Part_Feature.md) objec
 
 ## Example
 
-<img alt="" src=images/SheetMetal_AddFoldWall-01.png  style="width:300px;"> 
+ <img alt="" src=images/SheetMetal_AddFoldWall-01.png  style="width:300px;">  
 *A simple clip*
 
 
@@ -78,7 +78,7 @@ Easiest way to guarantee that one face of the blank and all folding lines are co
 
 The folding lines could be created with other tools but hey, we have a <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Sketcher](Sketcher_Workbench.md)!
 
-<img alt="" src=images/SheetMetal_AddFoldWall-21.png  style="width:280px;"> <img alt="" src=images/SheetMetal_AddFoldWall-20.png  style="width:200px;"> 
+ <img alt="" src=images/SheetMetal_AddFoldWall-21.png  style="width:280px;"> <img alt="" src=images/SheetMetal_AddFoldWall-20.png  style="width:200px;">  
 *Sketches on their common plane and their representation in the design tree*
 
 ### Workflow

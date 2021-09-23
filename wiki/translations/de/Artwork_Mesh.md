@@ -1,5 +1,4 @@
 # Artwork Mesh/de
-
  
 
 Diese Symbole befinden sich im angegebenen Quellpfad.

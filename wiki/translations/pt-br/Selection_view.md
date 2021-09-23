@@ -1,7 +1,6 @@
 # Selection view/pt-br
 
 
-
 ## Introdução
 
 

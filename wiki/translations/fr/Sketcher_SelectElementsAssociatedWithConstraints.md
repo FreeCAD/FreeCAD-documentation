@@ -4,7 +4,7 @@
    Name/fr:Sketcher Sélection éléments associés aux contraintes
    MenuLocation:Sketch → Outils d'esquisse → Sélectionner les éléments associés aux contraintes 
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
-   Shortcut:**Ctrl**+**Maj**+**E**
+   Shortcut:**Shift**+**Ctrl**+**E**
    Version:0.15
 ---
 
@@ -24,4 +24,4 @@ Selection sketcher Elements associés avec constraintes.
 
 {{Sketcher Tools navi
 
-}}  
+}} 

@@ -1,6 +1,6 @@
 ---
 - GuiCommand:/de
-   Name:Draft Ortho
+   Name:Draft Snap Ortho
    Name/de:Entwurf Ortho
    MenuLocation:Entwurf → [Fang](Draft_Snap/de.md) → Ortho
    Workbenches:[Entwurf](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)

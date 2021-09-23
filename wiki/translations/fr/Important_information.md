@@ -1,7 +1,6 @@
 # Important information/fr
 
 
-
 ## Présentation
 
 [Importantes informations](Important_information/fr.md) aide à résoudre les problèmes d\'installation et d\'utilisation du programme.
@@ -11,7 +10,7 @@ Le [forum FreeCAD](https://forum.freecadweb.org/viewforum.php?f=3) est le meille
 ## Directives
 
 
-{{VeryImportantMessage|Avant de demander de l'aide, vous devez suivre ces liens ou cliquez sur les images / légendes ci-dessous}}
+**Avant de demander de l'aide, vous devez suivre ces liens ou cliquez sur les images / légendes ci-dessous**
 
 -   [IMPORTANT: veuillez d\'abord lire avant de demander de l\'aide](https://forum.freecadweb.org/viewtopic.php?f=3&t=2264) sur le forum.
 -   [Std À propos](Std_About/fr.md) commande dans le logiciel lui-même.

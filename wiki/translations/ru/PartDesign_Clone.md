@@ -1,10 +1,11 @@
 ---
-- GuiCommand:
-   Name:PartDesign Clone
-   MenuLocation:Part Design → Create a clone
-   Workbenches:[PartDesign](PartDesign_Workbench.md)
+- GuiCommand:/ru
+   Name/ru:Создать клон
+   Name:PartDesign_Clone
+   MenuLocation:Part Design → Создать клон
+   Workbenches:[PartDesign](PartDesign_Workbench/ru.md)
    Version:0.17
-   SeeAlso:[Draft Clone](Draft_Clone.md)
+   SeeAlso:[Клонировать](Draft_Clone/ru.md)
 ---
 
 ## Описание
@@ -13,7 +14,7 @@
 
 ![*Clone of the inner gear while being translated in 3D space as an independent object*](images/clone.png ) *Clone of the inner gear while being translated in 3D space as an independent object*
 
-## Использование
+## Применение
 
 1.  In the Model tree, select the object to be cloned.
 2.  Press the **<img src=images/PartDesign_Clone.svg style="width:24px"> '''Create a clone'''** button.

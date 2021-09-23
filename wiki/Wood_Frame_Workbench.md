@@ -1,9 +1,8 @@
 # Wood Frame Workbench
-
  
 
 
-{{VeryImportantMessage|This workbench is not actively developed or maintained, but looking for developers and maintainers.}}
+**This workbench is not actively developed or maintained, but looking for developers and maintainers.**
 
  
 

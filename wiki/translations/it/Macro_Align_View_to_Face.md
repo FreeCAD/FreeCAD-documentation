@@ -1,5 +1,4 @@
 # Macro Align View to Face/it
-
  {{Macro/it
 |Name=Macro Align View to Face
 |Icone=Macro_Align_View_to_Face.png

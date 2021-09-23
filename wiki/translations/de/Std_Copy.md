@@ -27,22 +27,10 @@ Der **Std Kopieren**-Befehl kopiert Objekte in die Zwischenablage.
 -   Wenn du in einem FreeCAD-Textfenster, einem Eingabefenster oder einem Kalkulationsblatt arbeitest, wird der Standard-Tastaturkurzbefehl **Strg**+**C** - in fast allen Fällen - nicht den **Std Kopieren**-Befehl aufrufen, sondern stattdessen die Kopieren-Funktion des Betriebssystems benutzen.
 -   Es ist nicht möglich, native Objekte zwischen FreeCad und anderen Anwendungen zu kopieren/einzufügen.
 
-## Scripting
-
-Der **Std Kopieren**-Befehl kann nach dem Auswählen von einem oder mehreren Objekt/en in der [Baumansicht](Tree_view/de.md) angewendet werden:
-
-
-```python
-FreeCADGui.runCommand('Std_Copy')
-FreeCADGui.runCommand('Std_Paste')
-```
-
-Die Auswahl kann manuell (über die Maus) oder über die [Python-Konsole](Python_console.md) erfolgen. Über mehr über die programmatische Auswahl von Objekten zu erfahren, siehe [Auswahlmethoden](Selection_methods/de.md).
-
 
 
 
 
 {{Std Base navi
 
-}}  
+}} 

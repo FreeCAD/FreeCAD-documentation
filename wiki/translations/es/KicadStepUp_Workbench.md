@@ -2,7 +2,6 @@
 
 
 
-
 <div class="mw-translate-fuzzy">
 
 KicadStepUp Icono del ambiente de trabajo externo

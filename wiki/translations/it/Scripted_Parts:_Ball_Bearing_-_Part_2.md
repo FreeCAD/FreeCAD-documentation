@@ -1,5 +1,4 @@
 # Scripted Parts: Ball Bearing - Part 2/it
-
  {{TutorialInfo/it
 |Topic= Parti con script - Cuscinetto a sfere - #2
 |Level= Base

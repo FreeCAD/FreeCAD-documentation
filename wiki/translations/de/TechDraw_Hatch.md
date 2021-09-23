@@ -24,7 +24,7 @@ Das Schraffur Werkzeug füllt einen geschlossenen Bereich in einer Ansicht mit e
 
 ## Hinweise
 
--   Schraffierte Objekte sind anfällig für \"[topologische Benennungs](Topological_naming_problem/de.md)\" Probleme. Siehe die Information im [TechDraw Bemaßung Länge](TechDraw_Dimension_Length/de.md) Werkzeug für weitere Informationen. Es wird empfohlen, dass das Schraffieren einer der letzten Schritte in deinem Zeichenprozess ist.
+-   Schraffierte Objekte sind anfällig für das \"[topologische Benennungsproblem](Topological_naming_problem/de.md)\". Siehe [TechDraw LängenBemaßung](TechDraw_LengthDimension/de.md) für weitere Information. Es wird empfohlen, dass das Schraffieren einer der letzten Schritte in deinem Zeichenprozess ist.
 -   Beispielmuster [SVG](SVG/de.md) sind lokal verfügbar in
 
 

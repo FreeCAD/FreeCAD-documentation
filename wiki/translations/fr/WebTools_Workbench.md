@@ -1,5 +1,4 @@
 # WebTools Workbench/fr
-
  <img alt="Icône de l\'atelier externe WebTools" src=images/WebTools_workbench_icon.svg  style="width:128px;">
 
 ## Vue d\'ensemble 

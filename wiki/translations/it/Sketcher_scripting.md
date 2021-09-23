@@ -1,5 +1,4 @@
 # Sketcher scripting/it
-
  {{TOCright}}
 
 ## Creating a constraint using Python 

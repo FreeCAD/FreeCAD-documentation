@@ -1,5 +1,4 @@
 # Dialog creation image and animated GIF
-
  
 
 ## Introduction

@@ -1,5 +1,4 @@
 # OpenSCAD CSG/es
-
  {{TOCright}}
 
 ## Importar

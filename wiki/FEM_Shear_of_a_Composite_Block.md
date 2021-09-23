@@ -1,5 +1,4 @@
 # FEM Shear of a Composite Block
-
   {{TutorialInfo
 |Topic= Finite Element Analysis
 |Level= Beginner/Intermediate

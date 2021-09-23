@@ -87,17 +87,33 @@ App.activeDocument().DrawTileWeld001.RightText = "right text"
 App.activeDocument().DrawTileWeld001.CenterText = "center text"
 ```
 
+## Svg Symbol Tiles 
+
+
+<div class="mw-translate-fuzzy">
+
 ## Svg Symbol Kacheln 
 
 -   Einzelne Symbole werden durch 64x64 Pixel Svg Dateien gebildet. Zusätzliche Symbole können in einem SVG Programm wie z.B. Inkscape [Inkscape](https://en.wikipedia.org/wiki/Inkscape) aus einem der mitgelieferten Symbole als Vorlage erstellt werden.
 
 <img alt="" src=images/Techdraw-WeldingSymbolLayoutArrow.svg  style="width:128px;"> <img alt="" src=images/Techdraw-WeldingSymbolLayoutOther.svg  style="width:128px;">
 
+
+</div>
+
+<img alt="" src=images/Techdraw-WeldingSymbolLayoutArrow.svg  style="width:128px;"> <img alt="" src=images/Techdraw-WeldingSymbolLayoutOther.svg  style="width:128px;">
+
+
+<div class="mw-translate-fuzzy">
+
 \* Einzelne Symbole werden durch SVG Dateien mit 64x64 (nominal) Pixeln gebildet. Die Kacheln haben einen \"Rand\" von 4px. Der Rand sorgt dafür, dass sich Führungslinie und Symbol gut treffen.
 
 -   Das Symbol wird in Schwarz auf einem transparenten Hintergrund gezeichnet. Die Strichstärke beträgt 0,5 mm.
 -   Die Führungslinie verläuft unterhalb der Symbole für die Pfeilseite und oberhalb der Symbole für die \"andere\" Seite.
 -   Es gibt keinen besonderen Namensstandard, außer dass bei Bedarf \"Auf/Ab\" an die Symbole der Pfeil- und der anderen Seite angehängt wird.
+
+
+</div>
 
 ## Hinweise
 
@@ -110,4 +126,4 @@ App.activeDocument().DrawTileWeld001.CenterText = "center text"
 
 {{TechDraw Tools navi
 
-}}  
+}} 

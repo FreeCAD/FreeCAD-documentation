@@ -15,7 +15,15 @@
 
 \'\'\' Additives Rohr \'\'\'erstellt einen Volumenkörper im aktiven Bauteil, indem eine oder mehrere Skizzen (auch als Querschnitte bezeichnet) entlang eines offenen oder geschlossenen Pfads verschoben werden. Wenn das Bauteil bereits Formelemente enthält, wird das additive Rohr mit ihnen zusammengeführt.
 
-![](images/PartDesign_AdditivePipe_example.svg ) *Links: Querschnittskizze (A) wird über die Pfadskizze (C) in die Querschnittskizze (C) ausgetragen; rechts das daraus resultierende Rohr.*
+![](images/PartDesign_AdditivePipe_example.svg )
+
+
+<div class="mw-translate-fuzzy">
+
+*Links: Querschnittskizze (A) wird über die Pfadskizze (C) in die Querschnittskizze (C) ausgetragen; rechts das daraus resultierende Rohr.*
+
+
+</div>
 
 ## Anwendung
 
@@ -41,6 +49,11 @@ und Auswahl von Kanten in der 3D Ansicht ausgewählt werden. Beachte, dass du f�
 2.  Klicke auf **OK**.
 
 Um mehr als einen Querschnitt zu verwenden, beginne mit der ersten Querschnittsskizze wie oben beschrieben. Stelle dann unter **Abschnittstransformation** den Transformationsmodus auf *Mehrfachabschnitt*; drücke **Abschnitt hinzufügen** und wähle dann eine Skizze in der [3D Ansicht](3D_view/de.md). Wiederhole diesen Vorgang für jeden zusätzlichen Querschnitt.
+
+## Options
+
+
+<div class="mw-translate-fuzzy">
 
 ## Optionen
 
@@ -71,6 +84,9 @@ Um mehr als einen Querschnitt zu verwenden, beginne mit der ersten Querschnittss
 -   umgewandelt.
 -   Rechts
 -   Verrundet
+
+
+</div>
 
 ## Eigenschaften
 

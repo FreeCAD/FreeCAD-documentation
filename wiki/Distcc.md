@@ -1,5 +1,4 @@
 # Distcc
-
 ## Description
 
 distcc is a free distributed C/C++ compiler system. Essentially it\'s a program to distribute compilation of C or C++ code across several machines on a network. distcc should always generate the same results as a local compile, is simple to install and use, and is often two or more times faster than a local compile.

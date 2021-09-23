@@ -1,5 +1,4 @@
 # FEM CalculiX/ru
-
  {{TOCright}}
 
 ## Introduction

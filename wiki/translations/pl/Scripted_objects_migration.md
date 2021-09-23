@@ -1,7 +1,6 @@
 # Scripted objects migration/pl
 
 
-
 ## Introduction
 
 [Scripted objects](Scripted_objects.md) are rebuilt every time a [FCStd document](File_Format_FCStd.md) is opened. To do this the document keeps a reference to the module and Python class that were used to create the object, along with its properties.

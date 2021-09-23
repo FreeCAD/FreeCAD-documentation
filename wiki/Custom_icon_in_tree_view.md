@@ -1,5 +1,4 @@
 # Custom icon in tree view
-
  
 
 ## Introduction

@@ -5,7 +5,6 @@
 
 
 
-
 {{TOCright}}
 
 ![](images/Screenshot_treeview.jpg ) Um documento FreeCAD contém todos os objetos de sua cena. Pode conter tanto grupos quanto objetos criados com qualquer oficina. Assim, você pode alternar entre as oficinas e ainda trabalhar no mesmo documento. Este documento é o que é salvo em disco quando você salva seu trabalho. Você também pode abrir vários documentos em simultâneo, no FreeCAD, e abrir várias visualizações do mesmo documento.

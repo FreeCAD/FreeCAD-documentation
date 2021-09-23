@@ -5,7 +5,6 @@
 
 
 
-
 {{TOCright}}
 
 ## Introduction
@@ -130,7 +129,7 @@ Dans l\'onglet *Document*, vous pouvez spécifier les éléments suivants :
 | **Enregistrer la miniature dans le fichier de projet lors de l'enregistrement du document**      |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 |                                                                                                           |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 +--------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|                                                                                               | Si cette case est cochée, le logo du programme FreeCAD ![24px](images/FreeCAD-logo.svg) sera ajouté à la vignette. Cette option n\'a d\'effet que si ** Enregistrer la miniature dans le fichier de projet lors de l'enregistrement du document** est utilisé.                                                                                                                                                                                                                                                                                                                               |
+|                                                                                               | Si cette case est cochée, le logo du programme FreeCAD ![24px](images/Freecad.svg) sera ajouté à la vignette. Cette option n\'a d\'effet que si ** Enregistrer la miniature dans le fichier de projet lors de l'enregistrement du document** est utilisé.                                                                                                                                                                                                                                                                                                                                    |
 | **Ajouter le logo du programme à la miniature générée**                                          |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 |                                                                                                           |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 +--------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -641,14 +640,14 @@ Les paramètres d\'Importation-Exportation affectent la façon dont les fichiers
 ## Préférences d\'ateliers 
 
 
-{{VeryImportantMessage|
-Cette section est incomplète et nécessite de mentionner les pages de préférences de chaque atelier de base}}
+**
+Cette section est incomplète et nécessite de mentionner les pages de préférences de chaque atelier de base**
 
 Les préférences pour les ateliers les plus courants sont liées ci-dessous. Certains ateliers n\'ont aucune préférence. D\'autres ateliers facultatifs peuvent ne pas être répertoriés. Ces liens sont également répertoriés dans [:Category:Preferences/fr](:Category:Preferences/fr.md)
 
 -   [Arch Préférences](Arch_Preferences/fr.md)
 -   [Draft Préférences](Draft_Preferences/fr.md)
--   Drawing Preferences {{Obsolete/fr|0.16}}
+-   Drawing Preferences (aucune) {{Obsolete/fr|0.16}}
 -   [FEM Préférences](FEM_Preferences/fr.md)
 -   Image Préférences (aucune)
 -   Inspection Préférences (aucune)
@@ -675,25 +674,20 @@ Les préférences pour les ateliers les plus courants sont liées ci-dessous. Ce
 ### Ateliers externes 
 
 
-{{VeryImportantMessage|
-Cette section est incomplète et nécessite de mentionner les pages de préférences de chaque [atelier externe](External_workbenches/fr.md)}}
+**
+Cette section est incomplète et nécessite de mentionner les pages de préférences de chaque [atelier externe](External_workbenches/fr.md)**
 
 -   [A2plus Préférences](A2plus_Workbench/fr#Préférences.md)
 -   Préférences de Ship (aucune)
 
 ## Script
 
-Les préférences sont accessibles à partir des scripts Python en utilisant leur chemin correspondant dans l\'[Éditeur des paramètres](Std_DlgParameter/fr.md). Par exemple, la préférence **Édition → Préférences → Import-Export → DXF → Options d'Import → Joindre la géométrie** apparaît dans **Outils → Éditeur de paramètres → BaseApp → Préférences → Mod → Draft → dxfCreatePart** et a le type `Boolean`. Il est donc accessible en Python à l\'aide du code suivant : 
-```python
-# get:
-App.ParamGet("User parameter:BaseApp/Preferences/Mod/Draft").GetBool('dxfCreatePart')
-# set:
-App.ParamGet("User parameter:BaseApp/Preferences/Mod/Draft").SetBool('dxfCreatePart', True)
-```
 
-Trouver quel paramètre est utilisé pour stocker quelle option de l\'éditeur de préférences peut nécessiter une recherche un peu, mais l\'[Éditeur des paramètres](Std_DlgParameter/fr.md) offre une fonction de recherche qui devrait vous aider.
+**Voir aussi:**
 
-C\'est probablement une mauvaise idée de modifier les préférences d\'autres parties de FreeCAD à moins de le faire à la demande de l\'utilisateur. Le configurateur peut cependant être utilisé pour définir les paramètres de votre propre atelier et le collecteur peut être utilisé pour obéir aux paramètres existants.
+[FreeCAD Script de base](FreeCAD_Scripting_Basics/fr.md).
+
+Pour un exemple de script, voir [Std Éditeur des paramètres](Std_DlgParameter/fr.md).
 
 ## En relation 
 

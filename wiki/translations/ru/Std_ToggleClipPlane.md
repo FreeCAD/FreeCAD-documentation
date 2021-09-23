@@ -1,22 +1,18 @@
 ---
 - GuiCommand:/ru
-   Name:Std ToggleClipPlane
    Name/ru:Плоскость сечения
-   Empty:1
+   Name:Std_ToggleClipPlane
    MenuLocation:Вид → Плоскость сечения
-   Workbenches:All
+   Workbenches:Все
 ---
-
-
-</div>
 
 ## Описание
 
 The **Std ToggleClipPlane** command temporarily hides objects and parts of objects on one side of up to three virtual planes in the active [3D view](3D_view.md).
 
-![](images/Std_ToggleClipPlane_example.png ) *A clipped hollow object*
+![](images/Std_ToggleClipPlane_example.png ) *Сечение полой фигуры*
 
-![](images/Std_ToggleClipPlane_taskpanel.png ) *The Clipping task panel*
+![](images/Std_ToggleClipPlane_taskpanel.png ) *Внешний вид панели "Плоскость сечения"*
 
 ## Применение
 

@@ -1,7 +1,6 @@
 # FreeCAD Howto Import Export
 
-
-{{VeryImportantMessage| "This page is WIP. Please do not translate yet. Thank you. R-Frank" (†2017, r-frank)}}
+** "This page is WIP. Please do not translate yet. Thank you. R-Frank" (†2017, r-frank)**
 
 This page attempts to answer the most common questions asked on the FreeCAD forums on import and export of data to/from other programs. If you have a problem or question regarding FreeCAD, check below first.
 

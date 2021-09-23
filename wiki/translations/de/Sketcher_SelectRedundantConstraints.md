@@ -8,9 +8,20 @@
    Version:0.15
 ---
 
+
+</div>
+
+## Description
+
+
+<div class="mw-translate-fuzzy">
+
 ## Beschreibung
 
 Wählt die redundanten Beschränkungen einer Skizze aus.
+
+
+</div>
 
 ## Anwendung
 
@@ -24,4 +35,4 @@ Wählt die redundanten Beschränkungen einer Skizze aus.
 
 {{Sketcher Tools navi
 
-}}  
+}} 

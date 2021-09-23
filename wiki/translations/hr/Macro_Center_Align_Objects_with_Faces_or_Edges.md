@@ -1,6 +1,5 @@
 # Macro Center Align Objects with Faces or Edges/hr
-
- {{VeryImportantMessage|Ovi su alati sada uključeni u [Manipulator Workbench](Manipulator_Workbench/hr.md). Instalirajte ovu radnu površinu za najnovija ažuriranja tih alata.}}
+ **Ovi su alati sada uključeni u [Manipulator Workbench](Manipulator_Workbench/hr.md). Instalirajte ovu radnu površinu za najnovija ažuriranja tih alata.**
 
 
 <div class="mw-translate-fuzzy">

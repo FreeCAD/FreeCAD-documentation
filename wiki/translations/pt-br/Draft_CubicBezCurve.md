@@ -9,7 +9,7 @@
 
 ## Descrição
 
-The <img alt="" src=images/Draft_CubicBezCurve.svg  style="width:24px;"> **Draft CubicBezCurve** command creates a [Bézier Curve](http://en.wikipedia.org/wiki/Bezier_curve) of the third degree (four points required).
+The <img alt="" src=images/Draft_CubicBezCurve.svg  style="width:24px;"> **Draft CubicBezCurve** command creates a [Bézier curve](http://en.wikipedia.org/wiki/Bezier_curve) of the third degree (four points required).
 
 The Bézier Curve is one of the most commonly used curves in computer graphics. This command allows you to create a continuous spline made up of several 3rd-degree Bézier segments, in a way that is similar to the Bézier tool in [Inkscape](https://inkscape.org/). A general Bézier curve of any degree can be created with the [Draft BezCurve](Draft_BezCurve.md) command.
 

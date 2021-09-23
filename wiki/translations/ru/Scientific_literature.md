@@ -1,7 +1,6 @@
 # Scientific literature/ru
 
 
-
 ## Описание
 
 This page collects some articles published that reference or use the FreeCAD system.

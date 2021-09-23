@@ -4,7 +4,6 @@
 
 
 
-
 <img alt="Mesh workbench icon" src=images/Workbench_Mesh.svg  style="width:128px;">
 
 

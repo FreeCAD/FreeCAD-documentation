@@ -1,5 +1,4 @@
 # Sandbox:VWegert
-
 This is a sandbox page to try out Wiki formatting code.
 
                      Spreadsheet by Name       Spreadsheet by Label

@@ -1,7 +1,6 @@
 # Scientific literature/fr
 
 
-
 ## Description
 
 Cette page rassemble quelques articles publiés qui font référence ou utilisent le système FreeCAD.

@@ -1,21 +1,22 @@
 ---
 - GuiCommand:/ru
-   Name/ru:Удалить вид из группы сечений
+   Name/ru:Убрать Вид из группы
    Name:TechDraw_ClipGroupRemove
-   MenuLocation:TechDraw → Удалить вид из группы сечений
+   MenuLocation:TechDraw → Удалить Вид из группы
    Workbenches:[TechDraw](TechDraw_Workbench/ru.md)
-   SeeAlso:[Вставить группу сечений](TechDraw_ClipGroup/ru.md), [Добавить вид в группу сечений](TechDraw_ClipGroupAdd/ru.md)
+   SeeAlso:[Создать группу Видов](TechDraw_ClipGroup/ru.md), [Добавить Вид в группу](TechDraw_ClipGroupAdd/ru.md)
 ---
 
 ## Описание
 
-This tool removes a View from an existing Clip and returns it to the Page area.
+Данный инструмент извлекает Вид из группы Видов и возвращает его обратно на лист.
 
-![](images/TechDraw_Clipview.png ) *Viewport window clipping different existing views*
+![](images/TechDraw_Clipview.png ) *Группа Видов, содержащая в себе несколько Видов отсеченных по краям*
 
 ## Применение
 
--   Select a View that is part of a Clip and press the **<img src="images/TechDraw_ClipGroupRemove.svg" width=16px> [Remove View from Clip Group](TechDraw_ClipGroupRemove.md)** button to remove the view.
+-   Выберите вид, который находится в группе Видов.
+-   Нажмите кнопку **<img src="images/TechDraw_ClipGroupRemove.svg" width=16px> [Удалить Вид из группы](TechDraw_ClipGroupRemove/ru.md)**, чтобы убрать выбранный вид из группы Видов.
 
 
 
@@ -23,4 +24,4 @@ This tool removes a View from an existing Clip and returns it to the Page area.
 
 {{TechDraw Tools navi
 
-}}  
+}} 

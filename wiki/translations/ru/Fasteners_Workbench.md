@@ -1,7 +1,6 @@
 # Fasteners Workbench/ru
 
 
-
 <img alt="Иконка верстака Fasteners" src=images/Fasteners_workbench_icon.svg  style="width:128px;">
 
 

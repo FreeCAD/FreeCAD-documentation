@@ -2,7 +2,6 @@
 
 
 
-
 {{TutorialInfo/de
 |Topic= Technisches Zeichnen
 |Level= Anfänger

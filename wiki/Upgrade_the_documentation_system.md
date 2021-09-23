@@ -1,5 +1,4 @@
 # Upgrade the documentation system
-
 This page is dedicated to the description of the [Google Summer of Code 2019](Google_Summer_of_Code.md) project idea of upgrading the documentation system of FreeCAD.
 
 ## Outline

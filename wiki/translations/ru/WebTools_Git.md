@@ -12,8 +12,8 @@
 </div>
 
 
-{{VeryImportantMessage|Starting from FreeCAD v0.17, this tool has been removed from the Arch Workbench and is now part of the external [[WebTools Workbench]] that you can install via menu Tools → <img src="images/AddonManager.svg" width=24px> [[Addon manager]].
-}}
+**Starting from FreeCAD v0.17, this tool has been removed from the Arch Workbench and is now part of the external [[WebTools Workbench]] that you can install via menu Tools → <img src="images/AddonManager.svg" width=24px> [[Addon manager]].
+**
 
 ## Description
 

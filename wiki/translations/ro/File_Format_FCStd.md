@@ -1,5 +1,4 @@
 # File Format FCStd/ro
-
  {{TOCright}}
 
 ## Overview
@@ -230,7 +229,7 @@ See the forum thread, [PDF inside the project](https://forum.freecadweb.org/view
 ## Schimbarea sursei fișierului .FCStd 
 
 
-{{VeryImportantMessage|'''ATTENTION ALWAYS WORK ON A COPY OF YOUR PROJECT !'''}}
+**'''ATTENTION ALWAYS WORK ON A COPY OF YOUR PROJECT !'''**
 
 
 </div>

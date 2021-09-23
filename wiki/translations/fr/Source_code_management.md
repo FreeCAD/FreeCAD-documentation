@@ -1,5 +1,4 @@
 # Source code management/fr
-
  {{TOCright}}
 
 ## Introduction
@@ -177,7 +176,7 @@ git remote show upstream
 ## Processus de développement Git 
 
 
-{{VeryImportantMessage|Ne développez jamais sur votre branche '''master''' locale. Au lieu de cela, créez une branche locale pour le développement, puis fusionnez cette branche locale avec la branche principale en amont via une demande d'extraction. Veuillez lire [https://git-scm.com/book/fr/v2/Git-Branching-Branches-in-a-Nutshell Git Branching], [https://book.git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Fusion Fusioning], et [https://git-scm.com/book/fr/v2/GitHub-Contributing-to-a-Project GitHub - Contribuer à un projet] pour en savoir plus}}
+**Ne développez jamais sur votre branche '''master''' locale. Au lieu de cela, créez une branche locale pour le développement, puis fusionnez cette branche locale avec la branche principale en amont via une demande d'extraction. Veuillez lire [https://git-scm.com/book/fr/v2/Git-Branching-Branches-in-a-Nutshell Git Branching], [https://book.git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Fusion Fusioning], et [https://git-scm.com/book/fr/v2/GitHub-Contributing-to-a-Project GitHub - Contribuer à un projet] pour en savoir plus**
 
 <img alt="" src=images/FreeCAD_git_branches_workflow.svg  style="width:800px;"> *Flux de travail générique pour développer du code pour FreeCAD en utilisant `git*; Un "fork" du dépôt principal est créé sur le serveur distant et cloné sur un ordinateur local (0); De nouvelles branches (1) sont utilisées pour appliquer des modifications et des ajouts de code localement (2); Les branches sont "rechargées" avec la version de code la plus récente du serveur (3), et elles sont ensuite "poussées" vers le dépôt distant (4); Puis un "Pull Request" est créé afin de pouvoir fusionner le code dans le dépôt principal (5). Le clone du "fork" sur l'ordinateur local est alors mis à jour avec le nouveau code master du serveur (a); ce master mis à jour est également "poussé" vers le dépôt distant (b) afin d'obtenir le même code à la fois sur le serveur distant et l'ordinateur local.`
 
@@ -830,7 +829,7 @@ Pour en savoir plus, lisez [Useful tricks you might not know about Git stash](ht
 ### Blâme
 
 
-{{VeryImportantMessage|Section TBD}}
+**Section TBD**
 
 Ajouter du contenu depuis <https://forum.freecadweb.org/viewtopic.php?f=23&t=55943&p=481483#p481287>
 

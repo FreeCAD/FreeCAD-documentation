@@ -1,5 +1,4 @@
 # Scripted Parts: Ball Bearing - Part 2/fr
-
  {{TutorialInfo/fr
 |Topic= Part : écrire un script - Roulement à bille #2
 |Level= Débutant

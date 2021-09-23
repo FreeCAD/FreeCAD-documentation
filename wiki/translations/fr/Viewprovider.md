@@ -1,7 +1,6 @@
 # Viewprovider/fr
 
 
-
 ## Introduction
 
 Les [Viewproviders](Viewprovider/fr.md) sont des classes qui définissent l\'apparence des objets dans la [vue en arborescence](tree_view/fr.md) et la [vue 3D](3D_view/fr.md) et comment ces derniers interagiront avec certaines actions graphiques telles que la [sélection](selection/fr.md).

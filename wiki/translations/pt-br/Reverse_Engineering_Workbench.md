@@ -1,12 +1,22 @@
 # Reverse Engineering Workbench/pt-br
 
- 
+
+
+
 
 <img alt="ícone da bancada de trabalho Reverse Engineering" src=images/Workbench_Reverse_Engineering.svg  style="width:128px;">
+
+## Introduction
+
+
+<div class="mw-translate-fuzzy">
 
 ## Introdução
 
 A <img alt="" src=images/Workbench_Reverse_Engineering.svg  style="width:24px;"> [Bancada de trabalho Reverse Engineering ](Reverse_Engineering_Workbench/pt-br.md)(Engenharia Reversa) pretende fornecer ferramentas específicas para converter formas, sólidos e malhas em recursos paramétricos do FreeCAD. É uma bancada que ainda está em desenvolvimento.
+
+
+</div>
 
 No momento não há funcionalidade presente nesta bancada de trabalho. É utilizada como sandbox pelos programadores.
 
@@ -24,6 +34,6 @@ Link para os tópicos apropriados discutindo esta bancada de trabalho
 
 
 
- 
+
 
 [Category:Reverse Engineering](Category:Reverse_Engineering.md) [Category:Workbenches](Category:Workbenches.md)

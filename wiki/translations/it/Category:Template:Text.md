@@ -1,0 +1,12 @@
+# Category:Template:Text/it
+This category lists templates that add textual elements.
+
+These templates produce small pieces of text that are suitable for transclusion.
+
+Longer pieces of text should be placed in the page itself so that they are translatable with the translation extension.
+
+### Contents:
+
+[Template:Obsolete/it](Template:Obsolete/it.md) , [Template:Version/it](Template:Version/it.md) , [Template:VersionMinus/it](Template:VersionMinus/it.md) , [Template:VersionPlus/it](Template:VersionPlus/it.md)
+
+[Category:Template/it](Category:Template/it.md)

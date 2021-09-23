@@ -1,5 +1,4 @@
 # Macro FaceToSketch/en
-
  {{Macro
 |Name=FaceToSketch
 |Icon=Macro_FaceToSketch.png

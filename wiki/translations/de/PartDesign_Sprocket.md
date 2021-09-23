@@ -7,9 +7,22 @@
    Version:0.19
 ---
 
+## Description
+
+
+<div class="mw-translate-fuzzy">
+
 ## Beschreibung
 
 Mit diesem Werkzeug kannst du ein 2D Profil eines Kettenrads erstellen. Es kann mit der Funktion [PartDesign Polstern](PartDesign_Pad/de.md) aufgefüllt werden.
+
+
+</div>
+
+## Usage
+
+
+<div class="mw-translate-fuzzy">
 
 ## Anwendung
 
@@ -17,6 +30,9 @@ Mit diesem Werkzeug kannst du ein 2D Profil eines Kettenrads erstellen. Es kann 
 2.  Setze die **Anzahl der Zähne** und die **Kettenrad Referenz**.
 3.  Klicke **OK**
 4.  Wenn das Zahnrad außerhalb des aktiven Körpers erstellt wird, ziehe es in einen Körper, um weitere Eigenschaften wie Polstern anzuwenden.
+
+
+</div>
 
 ## Eigenschaften
 

@@ -4,7 +4,6 @@
 
 
 
-
 <img alt="El icono del Ambiente de trabajo Mesh" src=images/Workbench_Mesh.svg  style="width:128px;">
 
 

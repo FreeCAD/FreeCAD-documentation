@@ -4,8 +4,7 @@
 
 
 
-
-<img alt="Иконка верстак Part" src=images/Workbench_Part.svg  style="width:128px;">
+<img alt="Логотип верстака Part" src=images/Workbench_Part.svg  style="width:128px;">
 
 
 {{TOCright}}

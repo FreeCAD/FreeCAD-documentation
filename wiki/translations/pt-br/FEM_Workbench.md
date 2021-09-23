@@ -4,7 +4,6 @@
 
 
 
-
 <img alt="Ícone da bancada de trabalho FEM" src=images/Workbench_FEM.svg  style="width:128px;">
 
 

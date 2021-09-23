@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Sketcher BSplineComb
-   MenuLocation:Sketch → Sketcher B-spline tools → Show/Hide B-spline curvature comb
+   MenuLocation:Sketch → Sketcher B-spline tools → Show/hide B-spline curvature comb
    Workbenches:[Sketcher](Sketcher_Workbench.md)
    Version:0.17
    SeeAlso:[Sketcher Create B-spline](Sketcher_CompCreateBSpline.md)
@@ -26,4 +26,4 @@ The curvature comb indicates the curvature (value of the second-order derivative
 
 {{Sketcher Tools navi
 
-}}  
+}} 

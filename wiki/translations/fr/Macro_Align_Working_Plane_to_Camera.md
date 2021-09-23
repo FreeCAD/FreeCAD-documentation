@@ -1,6 +1,8 @@
 # Macro Align Working Plane to Camera/fr
 
- {{Macro/fr
+
+
+{{Macro/fr
 |Name=Macro Align Working Plane to Camera
 |Icon=Macro_Align_Working_Plane_to_Camera.png
 |Description=Cette macro déplace le [Plan courant](Draft_SelectPlane/fr.md) au centre de la vue 3D
@@ -14,27 +16,27 @@
 
 ## Description
 
-Cette macro déplace le [Plan courant](Draft_SelectPlane/fr.md) au centre de la vue 3D courante. Utile lorsque vous travaillez loin du centre de la grille.
+Cette macro déplace le [Draft Plan de travail](Draft_SelectPlane/fr.md) au centre de la vue 3D courante. Utile lorsque vous travaillez loin du centre de la grille.
 
 ## Utilisation
 
--   Déplacez la vue dans la zone où vous souhaitez regarder
--   Lancez la macro
+-   Déplacez la vue dans la zone où vous souhaitez regarder.
+-   Lancez la macro.
 
 ## Script
 
-ToolBar Icon ![](images/Macro_Align_Working_Plane_to_Camera.png )
+Icône de la barre d\'outils ![](images/Macro_Align_Working_Plane_to_Camera.png )
 
 **Macro\_Align\_Working\_Plane\_to\_Camera.FCMacro**
 
 
-{{MacroCode|code=
+```python
 import FreeCAD,FreeCADGui
 cam = FreeCAD.Vector(FreeCADGui.ActiveDocument.ActiveView.getCameraNode().position.getValue().getValue())
 pos = FreeCAD.DraftWorkingPlane.projectPoint(cam)
 FreeCAD.DraftWorkingPlane.position = pos
 FreeCADGui.Snapper.setGrid()
-}}
+```
 
 
 

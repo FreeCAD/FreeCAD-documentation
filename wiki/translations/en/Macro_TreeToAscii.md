@@ -1,5 +1,4 @@
 # Macro TreeToAscii/en
-
  {{Macro
 |Name=TreeToAscii
 |Description=This macro generates an ASCII art representation of the tree of selected object(s)

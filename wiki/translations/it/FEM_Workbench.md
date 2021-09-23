@@ -4,7 +4,6 @@
 
 
 
-
 <img alt="L\'icona dell\'ambiente FEM" src=images/Workbench_FEM.svg  style="width:128px;">
 
 

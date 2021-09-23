@@ -4,7 +4,6 @@
 
 
 
-
 <img alt="Ikonka Strony startowej" src=images/Freecad.svg  style="width:128px;">
 
 

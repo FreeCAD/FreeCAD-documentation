@@ -2,7 +2,6 @@
 
 
 
-
 {{TOCright}}
 
 Cette page contient différents réglages et paramètres que vous pouvez utiliser pour affiner votre installation FreeCAD ou pour résoudre certains problèmes.

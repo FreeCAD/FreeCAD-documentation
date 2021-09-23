@@ -44,4 +44,4 @@ Vous pouvez voir que maintenant chaque segment a 2 points de contr√¥le et les n≈
 
 {{Sketcher Tools navi
 
-}}  
+}} 

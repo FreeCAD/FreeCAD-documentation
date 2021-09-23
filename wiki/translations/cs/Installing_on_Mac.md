@@ -5,7 +5,6 @@
 
 
 
-
 <div class="mw-translate-fuzzy">
 
 FreeCAD může být nainstalován na Mac OS X v jednom kroku použitím Installeru.

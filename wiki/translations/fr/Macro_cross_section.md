@@ -1,5 +1,4 @@
 # Macro cross section/fr
-
  {{Macro/fr
 |Name=Cross_section
 |Icon=Macro_cross_section.png

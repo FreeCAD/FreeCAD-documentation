@@ -4,7 +4,6 @@
 
 
 
-
 Vous pouvez installer FreeCAD sous Windows en téléchargeant l'un des programmes d'installation ci-dessous:
 
 

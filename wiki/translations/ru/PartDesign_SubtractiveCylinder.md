@@ -15,7 +15,7 @@
 
 \"Слева: активное тело (A) показано серым цветом, а субтрактивный цилиндр (B) показан прозрачным красным цветом; результат справа.\"
 
-## Использование
+## Применение
 
 1.  Press the **<img src="images/PartDesign_SubtractiveCylinder.svg" width=24px> '''Subtractive Cylinder'''** button. **Note**: the Subtractive Cylinder is part of an icon menu labelled *Create an subtractive primitive*. After launching FreeCAD, the Subtractive Box is the one displayed in the toolbar. To get to the Cylinder button, click on the down arrow besides the visible icon and select Subtractive cylinder in the menu.
 2.  Set the Primitive parameters and [Attachment](Part_EditAttachment.md).

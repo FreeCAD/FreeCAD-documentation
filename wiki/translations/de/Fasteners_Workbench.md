@@ -1,7 +1,6 @@
 # Fasteners Workbench/de
 
 
-
 <img alt="Arbeitsbereichssymbol Verbindungselemente" src=images/Fasteners_workbench_icon.svg  style="width:128px;">
 
 

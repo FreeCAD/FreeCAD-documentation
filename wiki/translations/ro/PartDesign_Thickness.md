@@ -8,6 +8,9 @@
 
 Instrumentul **Thickness** lucrează pe un corp solid și îl transformă într-un obiect gol cu pereți groși cu cel puțin o față deschisă, dând fiecărei fațete rămase o grosime uniformă. La unele solide, acest lucru vă permite să accelerați considerabil lucrarea și să evitați extrudările și buzunarele.
 
+<img alt="" src=images/PartDesign_Thickness_example.svg  style="width:600px;"> 
+*The thickness tool applied to a face (B) of a solid (A), resulting in the hollow object (C).*
+
 
 <div class="mw-translate-fuzzy">
 
@@ -85,7 +88,7 @@ Resultat: ![](images/Brga-spessore.png )
 ## Known Errors 
 
 -   BRep\_API: command not done
--   BRep\_Tool:: no parameter on edge
+-   BRep\_Tool: no parameter on edge
 -   Silently Fails
 
 

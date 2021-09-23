@@ -1,5 +1,4 @@
 # Expressions/ru
-
  {{TOCright}}
 
 ## Обзор
@@ -79,7 +78,7 @@ The following operators are supported:
 
 ## Поддерживаемые функции 
 
-### General mathematical functions 
+### Основные математические функции 
 
 The mathematical functions listed below are available.
 
@@ -136,15 +135,15 @@ These aggregate functions are supported:
   stddev(a; b; c; \...)    [Standard deviation](https://en.wikipedia.org/wiki/standard_deviation) of the values of the arguments                                all
   sum(a; b; c; \...)       [Sum](https://en.wikipedia.org/wiki/Summation) of the values of the arguments; typically used for cell ranges                        all
 
-### String manipulation 
+### Операции со строками 
 
-#### String identification 
+#### Идентификация строк 
 
 Strings are identified in expressions by surrounding them with opening/closing double chevrons (as are labels).
 
 In following example, \"TEXT\" is recognized as a string : `<<TEXT>>`
 
-#### String concatenation 
+#### Объединение строк 
 
 Strings can be concatenated using the \'+\' sign.
 
@@ -197,18 +196,18 @@ Amount of substance:
   mmol   Milli[mole](https://en.wikipedia.org/wiki/Mole_(unit))
   mol    [Mole](https://en.wikipedia.org/wiki/Mole_(unit))
 
-Angle:
+Угол:
 
-  Unit   Description
-  ------ ------------------------------------------------------------------------------------------------------
-  °      [Degree](https://en.wikipedia.org/wiki/Degree_(angle)); alternative to the unit *deg*
-  deg    [Degree](https://en.wikipedia.org/wiki/Degree_(angle)); alternative to the unit *°*
-  rad    [Radian](https://en.wikipedia.org/wiki/Radian)
-  gon    [Gradian](https://en.wikipedia.org/wiki/Gon_(unit))
-  S      [Second of arc](https://en.wikipedia.org/wiki/Minute_and_second_of_arc)
-  ″      [Second of arc](https://en.wikipedia.org/wiki/Minute_and_second_of_arc); alternative to the unit *S*
-  M      [Minute of arc](https://en.wikipedia.org/wiki/Minute_and_second_of_arc)
-  ′      [Minute of arc](https://en.wikipedia.org/wiki/Minute_and_second_of_arc); alternative to the unit *M*
+  Единица измерения   Описание
+  ------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  °                   [Градус](https://ru.wikipedia.org/wiki/%D0%93%D1%80%D0%B0%D0%B4%D1%83%D1%81_(%D0%B3%D0%B5%D0%BE%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D1%8F)); тоже самое, что и *deg*
+  deg                 [Градус](https://ru.wikipedia.org/wiki/%D0%93%D1%80%D0%B0%D0%B4%D1%83%D1%81_(%D0%B3%D0%B5%D0%BE%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D1%8F)); тоже самое, что и *°*
+  rad                 [Радиан](https://ru.wikipedia.org/wiki/%D0%A0%D0%B0%D0%B4%D0%B8%D0%B0%D0%BD)
+  gon                 [Град](https://ru.wikipedia.org/wiki/%D0%93%D1%80%D0%B0%D0%B4_(%D0%B3%D0%B5%D0%BE%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D1%8F))
+  S                   [Угловая секунда](https://ru.wikipedia.org/wiki/%D0%93%D1%80%D0%B0%D0%B4%D1%83%D1%81_(%D0%B3%D0%B5%D0%BE%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D1%8F)#%D0%A3%D0%B3%D0%BB%D0%BE%D0%B2%D0%B0%D1%8F_%D1%81%D0%B5%D0%BA%D1%83%D0%BD%D0%B4%D0%B0)
+  ″                   [Угловая секунда](https://ru.wikipedia.org/wiki/%D0%93%D1%80%D0%B0%D0%B4%D1%83%D1%81_(%D0%B3%D0%B5%D0%BE%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D1%8F)#%D0%A3%D0%B3%D0%BB%D0%BE%D0%B2%D0%B0%D1%8F_%D1%81%D0%B5%D0%BA%D1%83%D0%BD%D0%B4%D0%B0); тоже самое, что и *S*
+  M                   [Минута дуги](https://ru.wikipedia.org/wiki/%D0%9C%D0%B8%D0%BD%D1%83%D1%82%D0%B0_%D0%B4%D1%83%D0%B3%D0%B8)
+  ′                   [Минута дуги](https://ru.wikipedia.org/wiki/%D0%9C%D0%B8%D0%BD%D1%83%D1%82%D0%B0_%D0%B4%D1%83%D0%B3%D0%B8); тоже самое, что и *M*
 
 Current:
 
@@ -251,27 +250,27 @@ Electrical inductance:
   mH     Milli[henry](https://en.wikipedia.org/wiki/Henry_(unit)), <small>(v0.19)</small> 
   H      [Henry](https://en.wikipedia.org/wiki/Henry_(unit)); 1 H = 1 kg·m\^2/s\^2/A\^2, <small>(v0.19)</small> 
 
-Electrical resistance:
+Электрическое сопротивление:
 
-  Unit   Description
-  ------ -------------------------------------------------------------------------------------------------------
-  Ohm    [Ohm](https://en.wikipedia.org/wiki/Ohm); 1 Ohm = 1 kg·m\^2/s\^3/A\^2, <small>(v0.19)</small> 
-  kOhm   Kilo[ohm](https://en.wikipedia.org/wiki/Ohm), <small>(v0.19)</small> 
-  MOhm   Mega[ohm](https://en.wikipedia.org/wiki/Ohm), <small>(v0.19)</small> 
+  Единица измерения   Описание
+  ------------------- ------------------------------------------------------------------------------------------------------------------
+  Ohm                 [Ом](https://ru.wikipedia.org/wiki/%D0%9E%D0%BC); 1 Ohm = 1 kg·m\^2/s\^3/A\^2, {{Version/ru|0.19}}
+  kOhm                Кило[ом](https://ru.wikipedia.org/wiki/%D0%9E%D0%BC), {{Version/ru|0.19}}
+  MOhm                Мега[ом](https://ru.wikipedia.org/wiki/%D0%9E%D0%BC), {{Version/ru|0.19}}
 
-Electric charge:
+Электрический заряд:
 
-  Unit   Description
-  ------ -----------------------------------------------------------------------------------------------
-  C      [Coulomb](https://en.wikipedia.org/wiki/Coulomb); 1 C = 1 A·s, <small>(v0.19)</small> 
+  Единица измерения   Описание
+  ------------------- -----------------------------------------------------------------------------------------------------------------------
+  C                   [Кулон](https://ru.wikipedia.org/wiki/%D0%9A%D1%83%D0%BB%D0%BE%D0%BD); 1 C = 1 A·s, {{Version/ru|0.19}}
 
-Electric potential:
+Электрический потенциал:
 
-  Unit   Description
-  ------ -------------------------------------------------
-  mV     Milli[volt](https://en.wikipedia.org/wiki/Volt)
-  V      [Volt](https://en.wikipedia.org/wiki/Volt)
-  kV     Kilo[volt](https://en.wikipedia.org/wiki/Volt)
+  Единица измерения   Описание
+  ------------------- ----------------------------------------------------------------------------
+  mV                  Милли[вольт](https://ru.wikipedia.org/wiki/%D0%92%D0%BE%D0%BB%D1%8C%D1%82)
+  V                   [Вольт](https://ru.wikipedia.org/wiki/%D0%92%D0%BE%D0%BB%D1%8C%D1%82)
+  kV                  Кило[вольт](https://ru.wikipedia.org/wiki/%D0%92%D0%BE%D0%BB%D1%8C%D1%82)
 
 Energy / work:
 
@@ -290,15 +289,15 @@ Energy / work:
   cal    [Calorie](https://en.wikipedia.org/wiki/Calorie); 1 cal = 4.184 J, <small>(v0.19)</small> 
   kcal   Kilo[calorie](https://en.wikipedia.org/wiki/Calorie), <small>(v0.19)</small> 
 
-Force:
+Сила:
 
-  Unit   Description
-  ------ ---------------------------------------------------------------
-  mN     Milli[newton](https://en.wikipedia.org/wiki/Newton_(unit))
-  N      [Newton](https://en.wikipedia.org/wiki/Newton_(unit))
-  kN     Kilo[newton](https://en.wikipedia.org/wiki/Newton_(unit))
-  MN     Mega[newton](https://en.wikipedia.org/wiki/Newton_(unit))
-  lbf    [Pound of force](https://en.wikipedia.org/wiki/Pound_(force))
+  Единица измерения   Описание
+  ------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  mN                  Милли[ньютон](https://ru.wikipedia.org/wiki/%D0%9D%D1%8C%D1%8E%D1%82%D0%BE%D0%BD_(%D0%B5%D0%B4%D0%B8%D0%BD%D0%B8%D1%86%D0%B0_%D0%B8%D0%B7%D0%BC%D0%B5%D1%80%D0%B5%D0%BD%D0%B8%D1%8F))
+  N                   [Ньютон](https://ru.wikipedia.org/wiki/%D0%9D%D1%8C%D1%8E%D1%82%D0%BE%D0%BD_(%D0%B5%D0%B4%D0%B8%D0%BD%D0%B8%D1%86%D0%B0_%D0%B8%D0%B7%D0%BC%D0%B5%D1%80%D0%B5%D0%BD%D0%B8%D1%8F))
+  kN                  Кило[ньютон](https://ru.wikipedia.org/wiki/%D0%9D%D1%8C%D1%8E%D1%82%D0%BE%D0%BD_(%D0%B5%D0%B4%D0%B8%D0%BD%D0%B8%D1%86%D0%B0_%D0%B8%D0%B7%D0%BC%D0%B5%D1%80%D0%B5%D0%BD%D0%B8%D1%8F))
+  MN                  Мега[ньютон](https://ru.wikipedia.org/wiki/%D0%9D%D1%8C%D1%8E%D1%82%D0%BE%D0%BD_(%D0%B5%D0%B4%D0%B8%D0%BD%D0%B8%D1%86%D0%B0_%D0%B8%D0%B7%D0%BC%D0%B5%D1%80%D0%B5%D0%BD%D0%B8%D1%8F))
+  lbf                 [Фунт-сила](https://en.wikipedia.org/wiki/Pound_(force))(Английская единица)
 
 Length:
 

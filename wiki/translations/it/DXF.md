@@ -1,5 +1,4 @@
 # DXF/it
-
  {{TOCright}}
 
 ## Storia

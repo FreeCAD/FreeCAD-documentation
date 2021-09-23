@@ -4,7 +4,6 @@
 
 
 
-
 <img alt="L\'icona di Arch" src=images/Workbench_Arch.svg  style="width:128px;">
 
 

@@ -2,7 +2,6 @@
 
 
 
-
 {{docnav/hr|[Workbenches/hr](Workbenches/hr.md)|[Nacrt 2D Moduli](Draft_Workbench/hr.md)|IconL=|IconR=Workbench_Draft.svg}}
 
 <img alt="Arch workbench icon" src=images/Workbench_Arch.svg  style="width:128px;">

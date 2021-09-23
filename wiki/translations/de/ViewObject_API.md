@@ -1,6 +1,5 @@
 # ViewObject API/de
-
- {{VeryImportantMessage|(Oktober 2019) Bearbeite diese Seiten nicht. Die Informationen sind unvollständig und veraltet. Die neueste API findest Du in der [https://www.freecadweb.org/api autogenerierten API-Dokumentation] oder generiere die Dokumentation selbst, siehe [Quelldokumentation](Source_documentation/de.md).}}
+ **(Oktober 2019) Bearbeite diese Seiten nicht. Die Informationen sind unvollständig und veraltet. Die neueste API findest Du in der [https://www.freecadweb.org/api autogenerierten API-Dokumentation] oder generiere die Dokumentation selbst, siehe [Quelldokumentation](Source_documentation/de.md).**
 
 Wenn die GUI aktiv ist, hat jedes Objekt im FreeCAD-Dokument ein zugeordnetes ViewObject, das sich im FreeCADGui-Dokument-Gegenstück befindet. Ein Ansicht-Objekt kann auf zwei Arten abgefragt werden. Beispiel: 
 ```python

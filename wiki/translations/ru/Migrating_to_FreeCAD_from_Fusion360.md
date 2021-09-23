@@ -1,5 +1,4 @@
 # Migrating to FreeCAD from Fusion360/ru
-
  {{TOCright}}
 
 ## Background
@@ -15,7 +14,7 @@ This page is intended for users who are interested in migrating to FreeCAD from 
 ## Glossary
 
 
-{{VeryImportantMessage|Please also reference the ongoing work in progress [CAD Rosetta Stone](CAD_Rosetta_Stone.md) project to learn the analogous names that popular proprietary CADs use}}
+**Please also reference the ongoing work in progress [CAD Rosetta Stone](CAD_Rosetta_Stone.md) project to learn the analogous names that popular proprietary CADs use**
 
 Reference the [Glossary](Glossary.md) page in general but here is a short list of specific terms that F360 folks may find spefically helpful:
 
@@ -24,7 +23,7 @@ Reference the [Glossary](Glossary.md) page in general but here is a short list o
 -   Toponaming - Short for [Topological naming problem](Topological_naming_problem.md). Covered very well in [Brodie Fairhall\'s youtube clip](https://www.youtube.com/watch?v=6p2vqEEmWq4)\].
 --   
 
-## FAQ
+## Часто задаваемые вопросы 
 
 1.  What formats do you support in FreeCAD?
     -   The native file format in FreeCAD is BREP, [boundary representation](https://en.wikipedia.org/wiki/Boundary_representation), provided by the internal [OpenCASCADE (OCCT)](OpenCASCADE.md) geometry kernel.
@@ -49,7 +48,7 @@ Reference the [Glossary](Glossary.md) page in general but here is a short list o
 
 -   [Model a compressor turbine in FreeCAD and Fusion360](https://www.youtube.com/watch?v=kirDbZd0dvI&feature=youtu.be)
 
-## Help
+## Помощь
 
 Is this wiki page missing something. Please make a request for [wiki permissions](https://forum.freecadweb.org/viewtopic.php?f=21&t=6830) on the forum to edit this page.
 

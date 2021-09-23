@@ -1,5 +1,4 @@
 # Tracker
-
  
 
 
@@ -51,16 +50,11 @@ If you want something to appear in FreeCAD that is not implemented yet, it is no
 
 ## Submitting patches 
 
-In case you have programmed a bug fix, an extension or something else that can be of public use in FreeCAD, create a patch using the Git diff tool and submit it on the same tracker (file it as *patch*).
+In case you have programmed a bug fix, an extension or something else that can be of public use in FreeCAD, submit your patch as a \"Pull Request\" at [GitHub](https://github.com/FreeCAD/FreeCAD).
 
-Addendumː FreeCAD development has switched to the [GitHub](https://github.com/FreeCAD/FreeCAD) development model so the workflow for submitting patches has been greatly enhanced/streamlined by submitting Pull Requests.
-
-1.  Open a forum thread in the [Developer subforum](https://forum.freecadweb.org/viewforum.php?f=10) to announce and discuss your patch.
-2.  Submit your Pull Request (PR) to the [FreeCAD GitHub repo](http://github.com/FreeCAD/FreeCAD). Be sure to link to the forum thread in the git commit summary. If you haven\'t worked with `git` before or are unfamiliar with submitting a PR to github, please read our introduction to [github](Source_code_management.md) wiki page.
-3.  Paste the PR link in to the forum thread for the devs/testers to test.
-4.  Be present for the discussion so that your code can potentially be merged more effectively.
-
-**NOTEː** the FreeCAD community recommends to first discuss any large revision to the source code in advance to save everyone time.
+1.  For a large, complex, or behavior-changing submission, open a forum thread in the [Developer subforum](https://forum.freecadweb.org/viewforum.php?f=10) to announce and discuss your patch. For small bugfixes this is not necessary.
+2.  Submit your Pull Request (PR) to the [FreeCAD GitHub repo](http://github.com/FreeCAD/FreeCAD). The PR submission message will be pre-filled with a checklist for you to follow to ensure that your submission has the best chance at speedy acceptance. If you haven\'t worked with `git` before or are unfamiliar with submitting a PR to github, please read our introduction to [github](Source_code_management.md) wiki page.
+3.  Be present for the discussion, both in the forum and in the GitHub pull request, so that your code can potentially be merged more effectively.
 
 ## Requesting merge 
 

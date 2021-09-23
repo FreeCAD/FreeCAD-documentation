@@ -1,5 +1,4 @@
 # Artwork/it
-
   Questi oggetti grafici sono stati creati per FreeCAD. Sono utilizzabili liberamente anche in altre applicazioni.
 
 Per contribuire alla realizzazione di icone, si prega di leggere prima le [linee guida per le opere grafiche](Artwork_Guidelines/it.md).
@@ -88,10 +87,6 @@ See [Artwork PartDesign](Artwork_PartDesign.md).
 
 See [Artwork Path](Artwork_Path.md).
 
-### From src/Mod/Plot/ 
-
-See [Artwork Plot](Artwork_Plot.md).
-
 ### From src/Mod/Points/ 
 
 See [Artwork Points](Artwork_Points.md).
@@ -107,10 +102,6 @@ See [Artwork ReverseEngineering](Artwork_ReverseEngineering.md).
 ### From src/Mod/Robot/ 
 
 See [Artwork Robot](Artwork_Robot.md).
-
-### From src/Mod/Ship/ 
-
-See [Artwork Ship](Artwork_Ship.md).
 
 ### From src/Mod/Sketcher/ 
 
@@ -152,9 +143,17 @@ See [Artwork Web](Artwork_Web.md).
 
 ## Ambienti esterni e componenti aggiuntivi 
 
+### From Mod/Plot/ 
+
+See [Artwork Plot](Artwork_Plot.md).
+
 ### Da Mod/Reinforcement/ 
 
 See [Artwork Reinforcement](Artwork_Reinforcement.md).
+
+### From Mod/Ship/ 
+
+See [Artwork Ship](Artwork_Ship.md).
 
 ## Erroneous icons 
 

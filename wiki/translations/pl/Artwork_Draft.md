@@ -1,5 +1,4 @@
 # Artwork Draft/pl
-
  
 
 These icons are in the indicated source path.

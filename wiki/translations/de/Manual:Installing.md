@@ -5,7 +5,6 @@
 
 
 
-
 {{Manual:TOC/de}}
 
 FreeCAD verwendet die [LGPL](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License) Lizenz; Du darfst FreeCAD herunterladen, installieren, weitergeben und verwenden, wie du willst, unabhängig von der Art der Arbeit, die du damit machst (kommerziell oder nicht kommerziell). Du bist an keine Klausel oder Einschränkungen gebunden, und die Dateien, die du damit erstellst, gehören dir vollständig. Das einzige, was die Lizenz wirklich verbietet, ist zu behaupten, dass Sie FreeCAD selbst programmiert haben!
@@ -96,7 +95,7 @@ Wenn du das Ubuntu Betriebssystem benutzt, sind einige der oben genannten Addons
 -   [Kompiliere FreeCAD selbst](Compiling/de.md)
 -   [FreeCAD Übersetzungen](https://crowdin.com/project/freecad)
 -   [FreeCAD github Seite](https://github.com/FreeCAD)
--   [Der FreeCAD Erweiterungsverwalter](AddonManager/de.md)
+-   [Der FreeCAD Erweiterungsverwalter](Std_AddonMgr/de.md)
 
 
 

@@ -1,7 +1,6 @@
 # Custom Spacing/es
 
 
-
 ## Descripción
 
 La herramienta Espaciado personalizado permite al usuario crear una distribución de barras de refuerzo en el elemento estructural. Puede definir tres segmentos para la distribución. Para el primer y tercer segmento, puede dar tanto una cantidad de barras y espaciado entre barras. Pero para el segundo segmento, solo puede dar una cantidad de barras o espaciado entre barras porque un valor determina automáticamente otro.

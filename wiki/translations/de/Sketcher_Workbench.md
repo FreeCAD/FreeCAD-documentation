@@ -4,8 +4,10 @@
 
 
 
-
 <img alt="Skizzierer Arbeitsbereichssymbol" src=images/Workbench_Sketcher.svg  style="width:128px;">
+
+
+{{TOCright}}
 
 ## Einführung
 
@@ -13,12 +15,7 @@ Der FreeCAD <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> 
 
 Der Arbeitsbereich Skizzierer bietet *Beschränkungen* (engl.: constraints), die es erlauben 2D Formen gemäß präzisen geometrischen Vorgaben in Bezug auf Länge, Winkel und Verknüpfungen (Horizontalität, Vertikalität, Rechtwinkligkeit, usw.) zu folgen. Ein Beschränkungslöser berechnet die beschränkte Ausdehnung der 2D Geometrie und ermöglicht die interaktive Untersuchung von Freiheitsgraden der Skizze.
 
-
-{{TOCright}}
-
-<img alt="" src=images/FC_ConstrainedSketch.png  style="width:450px;">
-
-
+<img alt="" src=images/FC_ConstrainedSketch.png  style="width:450px;"> 
 *Eine vollständig beschränkte Skizze‎*
 
 ## Basics of constraint sketching 

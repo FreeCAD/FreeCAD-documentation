@@ -1,5 +1,4 @@
 # FEM Beginner tutorial/pl
-
  {{TutorialInfo/pl
 |Topic=FEM dla początkujących
 |Level=początkujący

@@ -1,5 +1,4 @@
 # Artwork Points/pl
-
  
 
 Ikony te znajdują się we wskazanej ścieżce źródłowej.

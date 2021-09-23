@@ -1,7 +1,6 @@
 # Sketcher SketchObject/fr
 
 
-
 ## Introduction
 
 <img alt="" src=images/Sketcher_Sketch.svg  style="width:32px;">

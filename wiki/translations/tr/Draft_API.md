@@ -2,7 +2,6 @@
 
 
 
-
 <div class="mw-translate-fuzzy">
 
 Bu işlevler Taslak modülünün bir parçasıdır ve Taslak modülü alındıktan sonra komut dosyalarında ve makrolarda veya python yorumlayıcısında kullanılabilir.

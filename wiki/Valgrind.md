@@ -1,6 +1,5 @@
 # Valgrind
 
-
 {{TOCright}}
 
 ## Introduction

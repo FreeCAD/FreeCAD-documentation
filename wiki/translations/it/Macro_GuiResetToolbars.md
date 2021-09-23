@@ -2,7 +2,6 @@
 
 
 
-
 {{Macro/it
 |Name=GuiResetToolbars
 |Name/it=Gui Reset Tool bars

@@ -1,5 +1,4 @@
 # Expressions/pt-br
-
  {{TOCright}}
 
 ## Visão geral 

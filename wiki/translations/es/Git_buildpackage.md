@@ -1,7 +1,6 @@
 # Git buildpackage/es
 
 
-
 Los flujos de trabajo de desarrollo de Debian modernos implican [empaquetar con Git](https://wiki.debian.org/PackagingWithGit) y la herramienta principal para hacerlo es [git-buildpackage](http://honk.sigxcpu.org/projects/git-buildpackage/manual-html/gbp.html). git-buildpackage proporciona un comando gbp con varias opciones similares al propio comando git. Muchos de estos comandos son en sí mismos sólo una envoltura de herramientas de Debian de nivel inferior, por lo que la complejidad para aprender a empaquetar puede ser bastante alta.
 
 Para evitar esto, aquí están los pasos cortos y simples para empezar con git-buildpackage. Esto debería funcionar en casi cualquier distribución basada en Debian, pero recomiendo trabajar en esto en un entorno limpio y separado una máquina virtual [Debian Inestable](Debian_Unstable/es.md).

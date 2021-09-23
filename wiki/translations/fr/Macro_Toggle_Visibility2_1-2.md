@@ -1,5 +1,4 @@
 # Macro Toggle Visibility2 1-2/fr
-
  {{Macro/fr
 |Name=Macro Toggle Visibility2 1-2
 |Icon=Macro_SelectVisible2.png

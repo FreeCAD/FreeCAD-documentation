@@ -1,7 +1,6 @@
 # Custom icon in tree view/pl
 
 
-
 ## Introduction
 
 This is an example of modifying the icon of a custom [viewprovider](Viewprovider.md), which are normally added to [scripted objects](scripted_objects.md).

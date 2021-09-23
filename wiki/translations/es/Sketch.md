@@ -1,7 +1,6 @@
 # Sketch/es
 
 
-
 ## Introducción
 
 

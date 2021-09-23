@@ -1,5 +1,4 @@
 # Macro crank simul/fr
-
  {{Macro/fr
 |Name=Crank Simul
 |Description=Simulation de mouvement d'un vilebrequin.

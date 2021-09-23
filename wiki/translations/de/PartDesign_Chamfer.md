@@ -35,9 +35,17 @@ Dieses Werkzeug erzeugt Fasen an den ausgewählten Kanten eines Objekts. Im Proj
 
 </div>
 
+## PartDesign Chamfer vs. Part Chamfer 
+
+
+<div class="mw-translate-fuzzy">
+
 ## PartDesign Fase vs. Part Fase 
 
 **Die PartDesign Fase ist nicht zu verwechseln mit ihrem [Part Arbeitsbereich Gegenstück](Part_Chamfer/de.md)**. Obwohl sie das gleiche Symbol haben, sind sie nicht identisch und werden nicht auf die gleiche Weise verwendet. Der Hauptunterschied besteht darin, dass PartDesign Fase einen separaten Faseneintrag (gefolgt von einer fortlaufenden Nummer, falls bereits Fasen vorhanden sind) im Projektbaum für den aktuellen Körper erstellt. Die Part Fase wird zum Elternobjekt des Objekts, auf das sie angewendet wurde.
+
+
+</div>
 
 
 

@@ -71,16 +71,6 @@ The Python command for refining a shape is the following:
 shape.removeSplitter()
 ```
 
-The **Part RefineShape** command can be applied after selecting one or more objects in the [Tree view](Tree_view.md):
-
-
-```python
-FreeCADGui.runCommand('Part_RefineShape')
-```
-
-The selection can be manual (by using the mouse), or via the [Python console](Python_console.md).
-To know more about selecting objects programmatically, refer to [Selection methods](Selection_methods.md).
-
 
 
 

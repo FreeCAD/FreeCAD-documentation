@@ -1,5 +1,4 @@
 # Common Airfoil Data Import
-
  
 
 ## Importing Airfoil Data 

@@ -4,7 +4,6 @@
 
 
 
-
 <img alt="Иконка стандартных инструментов" src=images/Freecad.svg  style="width:128px;">
 
 

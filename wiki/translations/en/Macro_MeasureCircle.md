@@ -1,5 +1,4 @@
 # Macro MeasureCircle/en
-
  {{Macro
 |Name=Macro MeasureCircle
 |Icon=Macro_MeasureCircle.png

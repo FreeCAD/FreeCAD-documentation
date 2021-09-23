@@ -1,7 +1,6 @@
 # Profiling/ru
 
 
-
 ## Описание
 
 Profiling the code of FreeCAD helps find bottlenecks in the algorithms used to create or manipulate objects.

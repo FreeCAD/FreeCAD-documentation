@@ -1,27 +1,20 @@
 # Basic TechDraw Tutorial/ru
-
  {{TutorialInfo/ru
-|Topic=Modeling
-|Level=Beginner
+|Topic=Моделирование
+|Level=Для начинающих
 |Author=[WandererFan](User:WandererFan.md)
-|Time=Less than an hour
-|FCVersion=0.17 or higher
-|Files=[https://github.com/FreeCAD/Examples/blob/master/Basic_Part_Design_Tutorial_Example_017_Files/Basic_Part_Design_Tutorial_017.fcstd  Basic Part Design for v0.17 Sample]<br />[https://github.com/FreeCAD/Examples/blob/master/Basic_TechDraw_Tutorial_Example_Files/Basic_TechDraw_Tutorial.fcstd Basic TechDraw Tutorial Sample]
+|Time=Меньше часа
+|FCVersion=0.17 и выше
+|Files=[https://github.com/FreeCAD/Examples/blob/master/Basic_Part_Design_Tutorial_Example_017_Files/Basic_Part_Design_Tutorial_017.fcstd Разработка простой детали Basic в v0.17 Пример]<br />[https://github.com/FreeCAD/Examples/blob/master/Basic_TechDraw_Tutorial_Example_Files/Basic_TechDraw_Tutorial.fcstd Простое TechDraw руководство Пример]
 }}
-
-
-<div class="mw-translate-fuzzy">
 
 ## Введение
 
-Это руководство для ознакомления начинающего пользователя с некоторыми инструментами и методами, используемыми в **<img src="images/Workbench_TechDraw.svg" width=24px> [верстаке технического черчения (TechDraw)](TechDraw_Workbench/ru.md)**. Это руководство по верстаку TechDraw не является полным и исчерпывающим, и многие инструменты и возможности не рассмотренны в ней. Это руководство проведет пользователя по шагам, необходимым для создания технических чертежей детали из [руководства по разработке простой детали](Basic_Part_Design_Tutorial/ru.md).
+Это руководство для ознакомления начинающих пользователей с некоторыми инструментами и методами, используемыми в **<img src="images/Workbench_TechDraw.svg" width=24px> [верстаке технического черчения (TechDraw)](TechDraw_Workbench/ru.md)**. Это руководство не является полным и исчерпывающим, и многие инструменты и возможности в нем не рассматриваются. Данное руководство проведет пользователя по шагам, необходимым для создания технических чертежей из детали которая была спроектирована в [руководстве к PartDesign для начинающих](Basic_Part_Design_Tutorial/ru.md).
 
+## Прежде чем начать 
 
-</div>
-
-## Прежде чем вы начнете 
-
-Скачайте [файл примера](https://github.com/FreeCAD/Examples/blob/master/Basic_Part_Design_Tutorial_Example_017_Files/Basic_Part_Design_Tutorial_017.fcstd) из руководства the Part Design.
+Скачайте [файл содержащий 3D модель](https://github.com/FreeCAD/Examples/blob/master/Basic_Part_Design_Tutorial_Example_017_Files/Basic_Part_Design_Tutorial_017.fcstd) из руководства к верстаку Part Design.
 
 ## Задание
 
@@ -69,24 +62,30 @@
 
 ![](images/TDTut_TopView2to1.png )
 
+
+<div class="mw-translate-fuzzy">
+
 Лучше, но немного скучновато. Давайте добавим немного размеров.
 
 1.  Выберите верхнюю левую вершину (маленькая точка) нажатием **LMB**, затем выберите (**Ctrl**+**LMB**) нижнюю левую вершину.
 2.  Кликните на <img alt="" src=images/TechDraw_Dimension_Vertical.png  style="width:32px;"> [Новый Вертикальный Размер](TechDraw_Dimension_Vertical/ru.md). Перетащите текст размера за пределы тела.
 3.  Повторите это с верхней левой и верхней правой вершинами и нажмите <img alt="" src=images/TechDraw_Dimension_Horizontal.png  style="width:32px;"> [Новый Горизонтальный Размер](TechDraw_Dimension_Horizontal/ru.md).
 
+
+</div>
+
 ![](images/TDTut_TopView2Dims.png )
 
-### Редактируемый текст 
+### Заполнение основной надписи 
 
-Мы должны добавить некоторое описание к нашему рисунку.
+Основная надпись (или штамп) содержит совокупность сведений о проектном документе. Чтобы её заполнить требуется сделать следующие действия:
 
-1.  Нажмите на маленький зеленый квадрат рядом с названием в блоке документации. Вы получите всплывающее окно, в котором вы можете изменить заголовок на что-то более значимое.
-2.  Просто для практики, введите свое имя в поле Designed by Name таким же образом.
+1.  Нажмите на маленький зеленый квадрат рядом с какой-либо надписью расположенной в штампе. В открывшемся диалоге, вы можете изменить надпись, или ввести её если она не заполнена.
+2.  В качестве примера, можете просто ввести свое имя в поле Designed by Name таким же образом.
 
 ![](images/TDTut_DocBlock.png )
 
-Становиться лучше. Давайте добавим текст на страницу.
+Чертеж выглядит теперь намного лучше. Давайте добавим текст на страницу.
 
 
 <div class="mw-translate-fuzzy">
@@ -113,9 +112,9 @@
 
 ![](images/TDTut_Toggle.png )
 
-### Несколько видов одной детали 
+### Несколько проекций детали 
 
-Давайте создадим чертеж с несколькими Видами, используя другой шаблон в качестве отправной точки. Мы будем использовать First Angle, но вы можете перейти на Third Angle, если это ваше местное соглашение.
+Давайте создадим чертеж с несколькими проекциями, используя другой шаблон рамки в качестве основы. Мы будем использовать First Angle, но вы можете перейти на Third Angle, если это ваше местное соглашение.
 
 
 <div class="mw-translate-fuzzy">
@@ -173,7 +172,7 @@
 
 ![](images/TDTut_FC018_TechDraw_Dim_Iso_View_01_NC.png )
 
-В TechDraw есть гораздо больше функциональных возможностей, которые вы можете изучить - Виды Сечений, Виды частей детали, символы SVG, Изображения, штриховка.
+В TechDraw имеется гораздо больше функциональных возможностей, которые вы можете изучить: сечения Видов, Виды частей детали, технические знаки SVG, возможность добавления растровых изображений, штриховка областей.
 
 ## Примечания
 

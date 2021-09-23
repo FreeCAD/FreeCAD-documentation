@@ -1,5 +1,4 @@
 # Macro MoveToOrigin
-
   {{Macro
 |Name=MoveToOrigin
 |Description=Moves the selected location of an object to the Origin.<br > This macro translates the [https://wiki.freecadweb.org/Placement Placement] of an object so that a selected location becomes its new origin.  This may be useful when imported objects from other formats like STL or STEP are inconveniently located for further processing by FreeCAD.  

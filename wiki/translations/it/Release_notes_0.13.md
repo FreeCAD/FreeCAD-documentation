@@ -1,5 +1,4 @@
 # Release notes 0.13/it
-
  Questo è un riassunto dei cambiamenti più interessanti avvenuti in FreeCAD con la versione più recente. Vedere [qui](http://www.freecadweb.org/tracker/changelog_page.php) per la lista completa delle modifiche.
 
 

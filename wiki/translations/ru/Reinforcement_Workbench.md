@@ -1,7 +1,6 @@
 # Reinforcement Workbench/ru
 
 
-
 <img alt="Иконка верстака Reinforcement" src=images/Reinforcement_Workbench.svg  style="width:128px;">
 
 

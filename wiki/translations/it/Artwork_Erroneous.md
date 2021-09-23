@@ -1,17 +1,16 @@
 # Artwork Erroneous/it
-
  
 
 Per tutte le icone nell\'albero del codice sorgente, vedere [Oggetti grafici](Artwork/it.md)
 
 
-{{VeryImportantMessage|Le icone in questa pagina sono utilizzate nel wiki ma sono errate. Sono elencate solo a scopo di riferimento. Per favore, non usatele}}
+**Le icone in questa pagina sono utilizzate nel wiki ma sono errate. Sono elencate solo a scopo di riferimento. Per favore, non usatele**
 
 ## Icone sbagliate 
 
 ### Icone con nomi di file errati 
 
-<img alt="" src=images/Arch_CommitGit.png  style="width:64px;"> <img alt="" src=images/Arch_BimServer.png  style="width:64px;"> <img alt="" src=images/Draft_SetWorkingPlaneProxy.png  style="width:64px;"> <img alt="" src=images/Freecad16.svg  style="width:64px;"> <img alt="" src=images/Part_CreatePrimitives.svg  style="width:64px;"> <img alt="" src=images/Part_CreateSimpleCopy.svg  style="width:64px;"> <img alt="" src=images/Tree_Part.svg  style="width:64px;"> <img alt="" src=images/View-zoom-border.svg  style="width:64px;"> <img alt="" src=images/View-zoom-in.svg  style="width:64px;"> <img alt="" src=images/View-zoom-out.svg  style="width:64px;"> <img alt="" src=images/WebTools_Sketchfab.png  style="width:64px;">
+<img alt="" src=images/Arch_CommitGit.png  style="width:64px;"> <img alt="" src=images/Arch_BimServer.png  style="width:64px;"> <img alt="" src=images/Draft_SetWorkingPlaneProxy.png  style="width:64px;"> <img alt="" src=images/Freecad16.svg  style="width:64px;"> <img alt="" src=images/Part_CreatePrimitives.svg  style="width:64px;"> <img alt="" src=images/Tree_Part.svg  style="width:64px;"> <img alt="" src=images/View-zoom-border.svg  style="width:64px;"> <img alt="" src=images/View-zoom-in.svg  style="width:64px;"> <img alt="" src=images/View-zoom-out.svg  style="width:64px;"> <img alt="" src=images/WebTools_Sketchfab.png  style="width:64px;">
 
 ### Icone PNG ad alta risoluzione per comandi senza icona GUI 
 

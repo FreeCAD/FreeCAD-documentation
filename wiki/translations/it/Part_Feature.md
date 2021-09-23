@@ -1,7 +1,6 @@
 # Part Feature/it
 
 
-
 ## Introduzione
 
 

@@ -1,5 +1,4 @@
 # Part TopoShape/de
-
  {{TOCright}}
 
 ## Einführung

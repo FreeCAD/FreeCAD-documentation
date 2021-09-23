@@ -1,7 +1,6 @@
 # Drawing API example/ro
 
 
-
 ## Introducere
 
 Fluxul de lucru pentru interfața grafică pentru [Drawing Workbench](Drawing_Workbench.md) este limitat, astfel încât API-ul de scripting este mai interesant.

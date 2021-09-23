@@ -1,5 +1,4 @@
 # Misc templates
-
  
 
 This page lists some mixed templates.

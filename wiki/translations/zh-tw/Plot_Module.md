@@ -1,7 +1,6 @@
 # Plot Module/zh-tw
 
 
-
 <img alt="Plot workbench icon" src=images/Workbench_Plot.svg  style="width:128px;">
 
 

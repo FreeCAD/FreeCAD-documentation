@@ -2,7 +2,6 @@
 
 
 
-
 {{Macro
 |Name=Macro Align Camera to Working Plane
 |Icon=Macro_Align_Camera_to_Working_Plane.png
@@ -21,8 +20,8 @@ This macro aligns the camera to the current [Draft Working Plane](Draft_SelectPl
 
 ## Usage
 
--   Set the [Draft Working Plane](Draft_SelectPlane.md) to your likings
--   Run the macro
+-   Set the [Draft Working Plane](Draft_SelectPlane.md) to your liking.
+-   Run the macro.
 
 ## Script
 
@@ -31,12 +30,12 @@ ToolBar Icon ![](images/Macro_Align_Camera_to_Working_Plane.png )
 **Macro\_Align\_Camera\_to\_Working\_Plane.FCMacro**
 
 
-{{MacroCode|code=
+```python
 import FreeCAD,FreeCADGui
 c = FreeCADGui.ActiveDocument.ActiveView.getCameraNode()
 r = FreeCAD.DraftWorkingPlane.getRotation().Rotation.Q
 c.orientation.setValue(r)
-}}
+```
 
 
 

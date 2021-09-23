@@ -1,5 +1,4 @@
 # Customize Toolbars/zh-tw
-
  {{TutorialInfo/zh-tw|Topic=SampleTopic|Level=Beginner|Time=5 minutes|Author=[Mario52](User:Mario52.md)|FCVersion=All}}
 
 ## Synopsis

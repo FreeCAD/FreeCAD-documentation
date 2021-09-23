@@ -2,8 +2,7 @@
 
 
 
-
-{{VeryImportantMessage|This article is a stub. Please contribute your knowledge to it!}}
+**This article is a stub. Please contribute your knowledge to it!**
 
 
 {{TOCright}}

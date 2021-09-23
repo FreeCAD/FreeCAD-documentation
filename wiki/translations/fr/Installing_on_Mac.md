@@ -4,7 +4,6 @@
 
 
 
-
 FreeCAD peut être installé sur macOS à partir d\'un paquet .dmg que vous pouvez glisser et déposer dans votre dossier Applications :
 
 

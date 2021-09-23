@@ -1,7 +1,6 @@
 # Cfd Workbench/it
 
 
-
 ## Introduzione
 
 

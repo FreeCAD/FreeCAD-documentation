@@ -1,5 +1,4 @@
 # Macro EdgesToArc/fr
-
  {{Macro/fr
 |Name=EdgesToArc
 |Icon=Macro_EdgesToArc.png

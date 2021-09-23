@@ -1,6 +1,8 @@
 # Macro Shake Sketch
+ 
 
-  {{Macro
+
+{{Macro
 |Name=Macro Shake Sketch
 |Icon=Macro_Shake_Sketch.png
 |Description=Shake a sketch in order to discover its unconstrained parts. Enter edit mode for a sketch and launch the macro. The macro will add a random noise on all sketch points. The sketch is then solved, constrained parts will retain their position, free parts will move {{ColoredText|#ff0000|#ffff00|(But be careful working on a copy of your file because the macro "dismantles all" to display and you may start over).}}
@@ -24,7 +26,7 @@ ToolBar Icon  ![](images/Macro_Shake_Sketch.png )
 **Macro Shake\_Sketch.py**
 
 
-{{MacroCode|code=
+```python
 # -*- coding: utf-8 -*-
 
 # FreeCAD macro to shake a sketch in order to discover its unconstrained parts.
@@ -165,7 +167,7 @@ if do_move:
 
     for i in range(len((sketch.Geometry))):
         move_points(sketch, i, sigma)
-}}
+```
 
 
 

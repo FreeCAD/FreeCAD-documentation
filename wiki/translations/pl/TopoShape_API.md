@@ -1,5 +1,4 @@
 # TopoShape API/pl
-
  {{VeryImportantMessage/pl
 |''(listopad 2018 r.)'' Informacje te mogą być niekompletne i nieaktualne. Najnowsze API - patrz [https://www.freecadweb.org/api dokumentacja API generowana automatycznie].}}
 

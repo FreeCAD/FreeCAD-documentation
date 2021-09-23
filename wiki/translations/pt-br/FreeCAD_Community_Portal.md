@@ -1,7 +1,6 @@
 # FreeCAD Community Portal/pt-br
 
 
-
 This is the place to put all kind of FreeCAD-related stuff! If you work on something FreeCAD-related, please include it here!
 
 ## Places where FreeCAD appears on the net 

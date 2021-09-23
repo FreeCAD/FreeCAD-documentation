@@ -1,7 +1,6 @@
 # Help FreeCAD/es
 
 
-
 ## Introducción
 
 

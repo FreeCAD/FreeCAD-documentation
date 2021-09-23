@@ -3,7 +3,6 @@
 
 
 
-
 {{TutorialInfo
 |Topic=Modeling
 |Level=Experienced User
@@ -14,7 +13,7 @@
 }}
 
 
-{{VeryImportantMessage|Acest tutorial a fost scris pentru o variantă acum abandonată de FreeCAD. Acest tutorial solicită o rescriere completă pentru a se alinia la schimbările efectuate la Atelierul PartDesign, schimbări care sunt în varianta v0.17. Rescrierea a fost începută în [NormandC](Sandbox:PartDesign_Bearingholder_Tutorial_I]]. Dacă vreți să participați, vă rugăm să postați solicitarea pe secțiunea Wiki a forumului [http://forum.freecadweb.org forum]. - [[User:Normandc.md)}}
+**Acest tutorial a fost scris pentru o variantă acum abandonată de FreeCAD. Acest tutorial solicită o rescriere completă pentru a se alinia la schimbările efectuate la Atelierul PartDesign, schimbări care sunt în varianta v0.17. Rescrierea a fost începută în [NormandC](Sandbox:PartDesign_Bearingholder_Tutorial_I]]. Dacă vreți să participați, vă rugăm să postați solicitarea pe secțiunea Wiki a forumului [http://forum.freecadweb.org forum]. - [[User:Normandc.md)**
 
 ![Bearing Holder Tutorial - Locaș de rulment finalizat (top)\|thumb\|right\|400px](images/HolderTop1-1.jpg )
 

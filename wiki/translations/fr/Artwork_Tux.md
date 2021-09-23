@@ -1,5 +1,4 @@
 # Artwork Tux/fr
-
  
 
 Ces icônes se trouvent dans le chemin source indiqué.

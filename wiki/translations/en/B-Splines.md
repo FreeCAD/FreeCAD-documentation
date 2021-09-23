@@ -1,5 +1,4 @@
 # B-Splines/en
-
  {{TOCright}}
 
 This page describes how to use B-splines in FreeCAD. It gives also background information what B-splines are and for what applications they are useful.

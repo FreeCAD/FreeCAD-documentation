@@ -5,8 +5,9 @@
 
 
 
-
 {{TOCright}}
+
+## Overview
 
 
 <div class="mw-translate-fuzzy">
@@ -18,18 +19,34 @@ O *Estilos de Navegação* do FreeCAD consiste nos comandos usados para navegar 
 
 </div>
 
+## Navigation
+
+
+<div class="mw-translate-fuzzy">
+
 ## Navegação
 
 Os gestos do mouse usados para manipulação de objetos variam dependendo do estilo de navegação selecionado; o estilo atualmente selecionado é usado para todas as bancadas de trabalho.
+
+
+</div>
 
 Existem duas maneiras de mudar o estilo de navegação:
 
 -   No menu [Editor de Preferências](Preferences_Editor/pt-br#Navegação.md); menu **Editar → Preferências → Tela → Navegação → Navegação 3D**.
 -   Clicando com o botão direito do mouse no espaço vazio na Vista 3D e selecionando **Estilo de Navegação** no menu de contexto.
 
+### CAD navigation 
+
+
+<div class="mw-translate-fuzzy">
+
 ### Navegação CAD 
 
 Este é o estilo de navegação padrão. Ele permite ao usuário um controle simples da visualização, e não requer o uso de teclas de teclado, exceto para fazer seleções múltiplas.
+
+
+</div>
 
 
 {{CAD Navigation
@@ -63,9 +80,17 @@ Com este método, o botão central do mouse pode ser solto depois que o botão d
 Os usuários que usam o mouse com a mão direita podem achar este método mais fácil do que o primeiro método.
 }}
 
+### OpenInventor navigation 
+
+
+<div class="mw-translate-fuzzy">
+
 ### Navegação OpenInventor 
 
 A navegação OpenInventor (antigo Inventor) foi modelada após [Open Inventor](http://en.wikipedia.org/wiki/Open_Inventor). Para selecionar objetos, você deve manter pressionada a tecla **Ctrl**.
+
+
+</div>
 
 Este modo não é baseado no Autodesk Inventor.
 
@@ -83,7 +108,13 @@ Este modo não é baseado no Autodesk Inventor.
 Alternativamente, segure o botão central do mouse, depois pressione e segure o botão esquerdo do mouse, depois mova o ponteiro. |Rotate_view_text=Mantenha o botão esquerdo do mouse pressionado, depois mova o ponteiro.
 }}
 
+
+<div class="mw-translate-fuzzy">
+
 ### Blender Navigation 
+
+
+</div>
 
 O estilo de navegação do Blender foi modelado após [Blender](https://www.blender.org). Anteriormente não havia como realizar movimento panorâmico usando apenas o mouse; sempre era necessário segurar a tecla **Shift**. Isto mudou em 2016, agora você pode segurar os botões esquerdo e direito do mouse para mover a janela de exibição. {{Blender Navigation
 |Select_name=Selecionar
@@ -99,7 +130,13 @@ Alternativamente, segure os botões esquerdo e direito do mouse, e então mova o
 |Rotate_view_text=Segure o botão do meio do mouse, depois mova o ponteiro.
 }}
 
+
+<div class="mw-translate-fuzzy">
+
 ### Navegação Touchpad 
+
+
+</div>
 
 Na Navegação com touchpad, panorâmico, zoom e rotacionar vista requerem o pressionamento de tecla com o touchpad. {{Touchpad Navigation
 |Select_name=Selecionar
@@ -119,7 +156,13 @@ Na Navegação com touchpad, panorâmico, zoom e rotacionar vista requerem o pre
 |Rotate_view_alt_text=Alternativamente, segure **Shift** e o botão esquerdo, depois mova o ponteiro.
 }}
 
+
+<div class="mw-translate-fuzzy">
+
 ### Navegação por gestos 
+
+
+</div>
 
 Este estilo foi introduzido na versão 0.16, e foi adaptado para uso com uma tela sensível ao toque e uma caneta. No entanto, também pode ser usado com um mouse, recomendado para uso quando se usa um Mac com trackpad. {{Gesture Navigation \|Select\_name=Selecionar \|Pan\_name=Pan(movimento panorâmico) \|Zoom\_name=Zoom \|Rotate\_view\_name=Rotacionar vista \|Tilt\_view\_name=Vista inclinada \|Select\_text=Pressione o botão esquerdo do mouse sobre um objeto que você deseja selecionar. \|Select\_gesture\_text=Toque para selecionar. \|Pan\_text=Segure o botão direito do mouse, depois mova o ponteiro. \|Pan\_gesture\_text=Arrastar com dois dedos.
 
@@ -132,7 +175,9 @@ Segure **Alt** quando no [Sketcher](Sketcher_Workbench/pt-br.md). \|Tilt\_view\_
 Na v0.18 este método é desativado por padrão. Para ativar, vá para {**Editar → Preferências → Tela → Navegação → Navegação**, e desmarque a caixa de seleção "Desabilitar gesto de inclinação da tela sensível ao toque".
 }}
 
+<div class="mw-translate-fuzzy">
 === Maya-Gesture Navigation ===
+</div>
 
 <div class="mw-translate-fuzzy">
 Na Navegação com o Maya-Gesture, o panorâmico, o zoom e a rotação da vista requerem a tecla **Alt** juntamente com um botão do mouse; portanto, é necessário um mouse de três botões. Também é possível usar gestos, pois este modo foi desenvolvido sobre o modo [Navegação por gestos](#Navegação_por_gestos.md).
@@ -151,8 +196,9 @@ Alternativamente, use a rodinha do mouse para aumentar e diminuir o zoom.
 |Rotate_view_text=Segure **Alt** e o botão esquerdo do mouse, depois mova o ponteiro.
 }}
 
-
+<div class="mw-translate-fuzzy">
 === Navegação do Revit ===
+</div>
 
 Este estilo foi introduzido na versão 0.18.
 
@@ -173,7 +219,9 @@ Alternativamente, segure os botões esquerdo e direito do mouse, depois mova o p
 Alternativamente, segure o botão central do mouse, depois pressione e segure o botão direito do mouse, depois mova o ponteiro.
 }}
 
+<div class="mw-translate-fuzzy">
 === OpenCascade ===
+</div>
 
 Este estilo foi introduzido na versão 0.18.
 
@@ -193,22 +241,44 @@ Alternativamente, segure **Ctrl** e o botão esquerdo do mouse, depois mova o po
 
 == Selecionar objetos ==
 
+=== Simple selection ===
+
+<div class="mw-translate-fuzzy">
 === Seleção simples ===
 Os objetos podem ser selecionados por um clique com o botão esquerdo do mouse, clicando no objeto na [[3D view]] ou selecionando-o na [[tree view]].
+</div>
 
+=== Preselection ===
+
+<div class="mw-translate-fuzzy">
 === Pré-seleção ===
 Há também um mecanismo de "pré-seleção" que destaca os objetos e exibe informações antes da seleção, bastando passar o mouse sobre os objetos. Se você não gostar deste comportamento ou se tiver uma máquina lenta, você pode desligar a pré-seleção nas preferências.
+</div>
 
+== Manipulating objects ==
+
+<div class="mw-translate-fuzzy">
 == Manipulando Objetos ==
 FreeCAD oferece [''manipuladores''](Manipulator/pt-br.md) que são manípulos que podem ser usados para modificar a aparência, forma ou outros parâmetros de um objeto.
+</div>
 
 == Suporte de Hardware ==
 
+<div class="mw-translate-fuzzy">
 O FreeCAD também suporta alguns [dispositivos de entrada 3D](3D_input_devices/pt-br.md).
+</div>
 
+<div class="mw-translate-fuzzy">
 == Problemas no Mac OS X ==
+</div>
 
+<div class="mw-translate-fuzzy">
 Recentemente recebemos relatórios [http://forum.freecadweb.org/viewtopic.php?f=3&t=3592&start=0 no fórum] de usuários de Mac que esses botões do mouse e combinação de teclas não funcionam como esperado. Infelizmente, nenhum dos desenvolvedores possui um Mac, nem os outros colaboradores regulares. Precisamos de sua ajuda para determinar quais botões do mouse e combinação de teclas funcionam para que possamos atualizar este wiki.
+</div>
+
+== Developing a custom navigation == 
+
+The tutorial [Adding a new mouse navigation option to FreeCAD](Adding_a_new_mouse_navigation_option_to_FreeCAD.md) orients developers who want to develop a custom mouse navigation option. Familiarity with the C++ syntax is required.
 
 
 

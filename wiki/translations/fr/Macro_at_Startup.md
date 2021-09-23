@@ -1,7 +1,6 @@
 # Macro at Startup/fr
 
 
-
 ## Introduction
 
 

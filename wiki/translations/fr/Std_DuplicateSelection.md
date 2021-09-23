@@ -25,22 +25,10 @@ La commande **Std Dupliquer la sélection** duplique les objets dans le document
 
 -   Les étiquettes en double sont autorisées si **Outils → Editer les paramètres... → BaseApp → Preferences → Document → DuplicateLabels** est défini sur `True`. Ce paramètre peut également être modifié dans l\'[Editeur de préférences](Preferences_Editor/fr#Document.md).
 
-## Script
-
-La commande **Std Dupliquer la sélection** peut être appliquée après avoir sélectionné un ou plusieurs objets dans la [Vue en arborescence](Tree_view/fr.md):
-
-
-```python
-FreeCADGui.runCommand('Std_DuplicateSelection')
-```
-
-La sélection peut être manuelle (en utilisant la souris) ou via la [Console Python](Python_console/fr.md).
-Pour en savoir plus sur la sélection d\'objets de manière programmatique, reportez-vous à [Méthodes de sélection](Selection_methods/fr.md).
-
 
 
 
 
 {{Std Base navi
 
-}}  
+}} 

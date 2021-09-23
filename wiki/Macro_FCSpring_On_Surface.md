@@ -1,5 +1,4 @@
 # Macro FCSpring On Surface
-
   {{Macro
 |Name=Macro FCSpring On Surface
 |Icon=FCSpring_On_Surface.png

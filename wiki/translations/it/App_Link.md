@@ -1,5 +1,4 @@
 # App Link/it
-
  {{TOCright}}
 
 ## Introduzione
@@ -27,6 +26,6 @@ Un oggetto [App Link](App_Link/it.md) (classe `App::Link`) è derivato dall\'ogg
 Vedere l\'elenco completo delle proprietà nella pagina [Crea link](Std_LinkMake/it.md).
 
 
-{{Std Base
+{{Std Base navi
 
 }} {{Document objects navi}} 

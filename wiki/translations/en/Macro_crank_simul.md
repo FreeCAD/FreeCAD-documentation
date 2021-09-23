@@ -1,5 +1,4 @@
 # Macro crank simul/en
-
  {{Macro
 |Name=Crank Simul
 |Icon=Macro_crank_simul.png

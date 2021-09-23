@@ -7,7 +7,7 @@
 
 ## Beschreibung
 
-The standard plot module already provides a minimum tool to save plots <img alt="" src=images/Matplotlib_save_button.png  style="width:24px;">. But if you install the <img alt="" src=images/Workbench_Plot.svg  style="width:24px;"> [Plot Workbench](Plot_Workbench.md) using the [Add-on manager](Std_AddonMgr.md), a more complete tool to save the active plot will be available. With this tool you can also select the size and resolution of the output image.
+The standard plot module already provides a minimum tool to save plots <img alt="" src=images/Matplotlib_save_button.png  style="width:24px;">. If you install the <img alt="" src=images/Workbench_Plot.svg  style="width:24px;"> [Plot Workbench](Plot_Workbench.md) using the [Add-on manager](Std_AddonMgr.md), a more complete tool to save the active plot will be available. With this tool you can also select the size and resolution of the output image.
 
 <img alt="" src=images/Plot_Trigonometric_Example.png  style="width:600px;">
 

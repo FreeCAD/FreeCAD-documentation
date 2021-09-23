@@ -1,9 +1,8 @@
 # Drawing Workbench/ru
-
  
 
 
-{{VeryImportantMessage|Разработка [верстак TechDraw](Drawing_Workbench/ru]],_начиная_с_FreeCAD_0.16, остановлена, и в версии 0.17 был предложен новый [[TechDraw Workbench/ru.md), предназначенный для его замены. Оба верстака пока есть в v0.17, но в будущих выпусках верстак Drawing может быть удалён.}}
+**Разработка [верстак TechDraw](Drawing_Workbench/ru]],_начиная_с_FreeCAD_0.16, остановлена, и в версии 0.17 был предложен новый [[TechDraw Workbench/ru.md), предназначенный для его замены. Оба верстака пока есть в v0.17, но в будущих выпусках верстак Drawing может быть удалён.**
 
 <img alt="Drawing workbench icon" src=images/Workbench_Drawing.svg  style="width:128px;">
 

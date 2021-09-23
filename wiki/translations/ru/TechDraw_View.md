@@ -1,11 +1,10 @@
 ---
 - GuiCommand:/ru
-   Name:TechDraw  View
-   Name/ru:TechDraw  View
+   Name/ru:Вставить Вид
+   Name:TechDraw_View
+   MenuLocation:TechDraw → Вставить Вид
    Workbenches:[TechDraw](TechDraw_Workbench/ru.md)
-   MenuLocation:TechDraw → View
-   Shortcut:na
-   SeeAlso:
+   SeeAlso:[Вставить группу проекций](TechDraw_ProjectionGroup/ru.md), [Вставить Вид сечения](TechDraw_SectionView/ru.md)
 ---
 
 ## Описание

@@ -1,5 +1,4 @@
 # ModernUI Workbench/en
-
  }
 
 <img alt="Modern UI workbench icon" src=images/ModernUI_workbench_icon.svg  style="width:128px;">

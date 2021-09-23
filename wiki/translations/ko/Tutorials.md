@@ -5,7 +5,6 @@
 
 
 
-
 {{TOCright}}
 
 
@@ -105,7 +104,7 @@ Export bodies from FreeCAD to Wavefront .obj, import the file into Blender, set 
 ## Robot workbench 
 
 
-{{VeryImportantMessage|Development of the [Robot Workbench](Robot_Workbench.md) is currently abandoned. Please inquire on our forum regarding any news or alternative workbenches.}}
+**Development of the [Robot Workbench](Robot_Workbench.md) is currently abandoned. Please inquire on our forum regarding any news or alternative workbenches.**
 
 Robot Tutorial RobotSimulation.gif\|link=[Robot tutorial](Robot_tutorial.md)\|[Robot tutorial](Robot_tutorial.md) (v0.17)
 Simulate the movement of an industrial robot: set up a trajectory, set up home position, change the robot position, insert various waypoints, and simulate the robot movement.
@@ -127,7 +126,7 @@ These are tutorials that are related to scripting or programming. They are geare
 ## Drawings
 
 
-{{VeryImportantMessage|Development of the [[Drawing Workbench]] stopped in FreeCAD 0.16. Consider using the [[TechDraw Workbench]] instead.}}
+**Development of the [[Drawing Workbench]] stopped in FreeCAD 0.16. Consider using the [[TechDraw Workbench]] instead.**
 
 Drawing\_tutorial\_result.png\|link=[Drawing tutorial](Drawing_tutorial.md)\|[Drawing tutorial](Special:MyLanguage/Drawing_tutorial.md) (v0.16)
 This is the essential introduction to the tools of the Drawing Workbench to create blueprints. Exercise drawing 01.jpg\|link=[Manual:Generating 2D drawings](Manual:Generating_2D_drawings.md)\|[Generating 2D drawings](Manual:Generating_2D_drawings.md) (v0.16)

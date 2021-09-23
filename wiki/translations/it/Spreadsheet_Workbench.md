@@ -1,6 +1,11 @@
 # Spreadsheet Workbench/it
 
- 
+{{Page_in_progress}}
+
+
+
+
+
 
 <img alt="L\'icona dell\'ambiente Spreadsheet" src=images/Workbench_Spreadsheet.svg  style="width:128px;">
 
@@ -40,6 +45,16 @@ L\'ambiente <img alt="" src=images/Workbench_Spreadsheet.svg  style="width:24px;
 -    **Nero**e **Bianco** impostano i colori di primo piano e di sfondo delle celle selezionate.
 
 -   menu contestuale delle righe e colonne del foglio di calcolo: cliccate con il tasto destro del mouse sull\'intestazione di una riga o colonna per inserire una nuova riga sopra o una nuova colonna a sinistra, o per cancellare la riga/colonna corrente. Si possono anche selezionare più righe o colonne al fine di cancellarle.{{Versione|0.20}} È anche possibile selezionare dove verranno inserite le nuove righe/colonne. Inoltre, per inserire ad esempio 3 nuove colonne in una volta sola, selezionate 3 colonne e usate il menu contestuale che vi offrirà ora di inserire 3 colonne.
+
+## Spreadsheet editing 
+
+As noted above under Tools, right click on a row or column header produces a pulldown menu that allows you to delete the row/column or insert a new blank one. Formula references to cells that get moved by these operations get patched to refer to the new location, You will get a warning and a request to confirm if a row or column deletion would abolish a reference that\'s used in your model.
+
+Cut/copy/paste can be used to edit data. Cut and copy will both operate on single cells, rows, columns, rectangles, or indeed any selection group of cells you set up. Cut clears the content of selected cells; both cut and copy stash the cell content in an internal paste buffer. A paste operation writes the buffered data in such a way that the content of the uppermost-leftmost cell of the buffered set is dropped in the cell where the cursor is when you paste; other buffered content is dropped where it will have the same relationship to that target as it originally did to the upper-left cell of your cut/paste set.
+
+An important caveat: Cut/copy/paste operations do *not* fix up formula references. If you move the content of a cell, formulas which referred to the old location will break. If the old location becomes empty, the breakage will become visible as the expression evaluator will display \#ERR in dependent cells. Properties are also not carried along.
+
+The Undo key can be use to back out any of these operations. However, it undoes a cell at a time - thus, multiple Undos may be requited to back out a single copy or paste.
 
 ### Proprietà delle celle 
 
@@ -197,8 +212,6 @@ Per gestire l\'impostazione della pagina necessaria per la stampa, i fogli di ca
 ## Limitazioni attuali 
 
 FreeCAD verifica le dipendenze cicliche. Per come è concepita, tale verifica si arresta al livello dell\'oggetto foglio di calcolo. Di conseguenza, non si dovrebbe avere un foglio di calcolo che contiene contemporaneamente le celle i cui valori sono utilizzati per specificare parametri nel modello e sia celle i cui valori utilizzano l\'output del modello. Ad esempio, non è possibile avere celle che specificano la lunghezza, la larghezza e l\'altezza di un oggetto e un\'altra cella che fa riferimento al volume totale della forma risultante. Questa limitazione può essere superata creando due fogli di calcolo: uno utilizzato come origine dati per i parametri di input per il modello e l\'altro usato per il risultato dei calcoli basati sui dati geometrici.
-
-Quando le celle vengono copiate, viene copiato solo il contenuto (espressione o valore). Le [Proprietà delle celle](Spreadsheet_Workbench/it#Proprietà_delle_celle.md) descritte sopra non sono copiate.
 
 ## Script di base 
 

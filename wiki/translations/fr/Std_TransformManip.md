@@ -33,6 +33,6 @@ Cet outil vous permet d\'appliquer des incréments de rotation ou des incrément
 
 
 
-{{Std Base
+{{Std Base navi
 
 }} 

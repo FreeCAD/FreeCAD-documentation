@@ -1,5 +1,4 @@
 # Macro Automatic drawing/cs
-
  {{Macro/cs
 |Name=Automatic drawing
 |Translate=Makro Automatický výkres

@@ -1,5 +1,4 @@
 # Sandbox:3rd Party Dependencies
-
   qt5                                                      qt5-base
   -------------------------------------------------------- -------------------------------------------------------------
   <https://repology.org/badge/vertical-allrepos/qt5.svg>   <https://repology.org/badge/vertical-allrepos/qt5-base.svg>

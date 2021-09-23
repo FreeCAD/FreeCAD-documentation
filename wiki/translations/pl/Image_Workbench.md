@@ -1,5 +1,4 @@
 # Image Workbench/pl
-
  
 
 <img alt="Ikonka FreeCAD dla Środowiska pracy Obraz" src=images/Workbench_Image.svg  style="width:128px;">

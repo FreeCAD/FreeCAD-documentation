@@ -158,7 +158,17 @@ Typing a (partial) string in this input box will fully expand the tree in the le
 
 [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md)
 
-Per un esempio di scripting vedere [Box contenitore](Std_SelBoundingBox/it.md).
+Preferences can be accessed from Python scripts using their corresponding path in the [Parameter Editor](Std_DlgParameter.md). For example, the **Edit → Preferences → Import-Export → DXF → Import options → Join geometry** preference appears in **Tools → Edit parameters → BaseApp → Preferences → Mod → Draft → dxfCreatePart** and has type `Boolean`. It can therefore be accessed in Python using the following code: 
+```python
+# get:
+App.ParamGet("User parameter:BaseApp/Preferences/Mod/Draft").GetBool('dxfCreatePart')
+# set:
+App.ParamGet("User parameter:BaseApp/Preferences/Mod/Draft").SetBool('dxfCreatePart', True)
+```
+
+Finding which parameter is used to store which option from the Preferences editor can require searching a bit, but the [Parameter Editor](Std_DlgParameter.md) offers a search facility, which should help.
+
+It is likely a bad idea to modify the preferences of other parts of FreeCAD unless doing so at the user\'s request. The setter can however be used to set parameters for your own workbench, and the getter can be used to obey existing parameters.
 
 
 <div class="mw-translate-fuzzy">
@@ -172,4 +182,4 @@ Per un esempio di scripting vedere [Box contenitore](Std_SelBoundingBox/it.md).
 
 {{Std Base navi
 
-}}  
+}} 

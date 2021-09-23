@@ -1,5 +1,4 @@
 # Manual:Import and export to other filetypes/pl
-
  
 
 
@@ -37,7 +36,7 @@ Some of these file formats have options. These can be configured from menu **Edi
 -   [Importing and exporting to IFC](Arch_IFC.md)
 -   [OpenCasCade](http://www.opencascade.com)
 -   [Teigha File Converter](https://www.opendesign.com/guestfiles)
--   [The IFC format](http://www.buildingsmart-tech.org/ifc/IFC4/final/html/index.htm)
+-   [IFC Specifications Database](https://technical.buildingsmart.org/standards/ifc/ifc-schema-specifications/)
 -   [IfcOpenShell](http://ifcopenshell.org/)
 
 

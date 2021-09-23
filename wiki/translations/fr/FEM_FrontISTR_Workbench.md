@@ -1,7 +1,6 @@
 # FEM FrontISTR Workbench/fr
 
 
-
 <img alt="Icône de l\'atelier FEM FrontISTR" src=images/FrontISTR.svg  style="width:128px;">
 
 

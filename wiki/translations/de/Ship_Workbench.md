@@ -1,7 +1,6 @@
 # Ship Workbench/de
 
 
-
 <img alt="Schiff Arbeitsbereichssymbol" src=images/Workbench_Ship.svg  style="width:128px;">
 
 

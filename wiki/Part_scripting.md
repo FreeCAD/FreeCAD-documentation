@@ -1,5 +1,4 @@
 # Part scripting
-
  
 
  
@@ -135,6 +134,36 @@ def mycreateCircle(rad, objName):
     return obj
 
 circle = mycreateCircle(5.0, "CircleName")
+```
+
+or create a circle defined by it\'s center, axis and radius using:
+
+ 
+```python
+import Part
+doc = App.activeDocument()
+center = App.Vector(1,2,3)
+axis = App.Vector(1,1,1)
+radius = 10
+c=Part.Circle(center,axis,radius)
+f = doc.addObject("Part::Feature", "Circle")
+f.Shape = c.toShape()
+doc.recompute()
+```
+
+or create a circle defined by three points using:
+
+ 
+```python
+import Part
+doc = App.activeDocument()
+p1 = App.Vector(10,0,0)
+p2 = App.Vector(0,10,0)
+p3 = App.Vector(0,0,10)
+c = Part.Circle(p1,p2,p3)
+f = doc.addObject("Part::Feature", "Circle")
+f.Shape = c.toShape()
+doc.recompute()
 ```
 
 Note again, we used the circle (geometry primitive) to construct a shape out of it. We can of course still access our construction geometry afterwards, by doing:

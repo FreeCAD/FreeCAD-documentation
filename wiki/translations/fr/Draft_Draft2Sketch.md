@@ -8,7 +8,7 @@
 
 ## Description
 
-La commande <img alt="" src=images/Draft_Draft2Sketch.svg  style="width:24px;"> **Draft Draft vers Esquisse** convertit les objets Draft en [Sketcher Esquisses](Sketcher_NewSketch/fr.md) et vice versa.
+La commande <img alt="" src=images/Draft_Draft2Sketch.svg  style="width:24px;"> **Draft Draft vers Esquisse** convertit les objets [Draft](Draft_Workbench/fr.md) en [Sketcher Esquisses](Sketcher_NewSketch/fr.md) et vice versa.
 
 ![](images/Draft_Draft2Sketch_example.png ) *Conversion d'objets Draft en esquisses de Sketcher*
 

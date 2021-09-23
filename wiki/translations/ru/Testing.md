@@ -4,8 +4,7 @@
 
 
 
-
-<img alt="Test workbench icon" src=images/Workbench_Test.svg  style="width:128px;">
+<img alt="Логотип верстака для тестирования" src=images/Workbench_Test.svg  style="width:128px;">
 
 
 {{TOCright}}

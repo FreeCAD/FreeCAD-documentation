@@ -1,6 +1,8 @@
 # Macro Extract Wires from Mesh/fr
 
- {{Macro/fr
+
+
+{{Macro/fr
 |Name=Macro Extract Wires from Mesh
 |Icon=Macro_Extract_Wires_from_Mesh.png
 |Description=Extrait les fils constituants les bords des mailles sélectionnées
@@ -17,12 +19,12 @@ Cherche les bords dans les objets de maillage sélectionnés. Les bords recherch
 
 ## Script
 
-ToolBar Icon ![](images/Macro_Extract_Wires_from_Mesh.png )
+Icône de la barre d\'outils ![](images/Macro_Extract_Wires_from_Mesh.png )
 
 **Macro\_Extract\_Wires\_from\_Mesh.FCMacro**
 
 
-{{MacroCode|code=
+```python
 #!/usr/bin/python
 
 # This macro will extract wires from selected meshes
@@ -48,5 +50,5 @@ for obj in FreeCADGui.Selection.getSelection():
             if wires:
                 Part.show(Part.makeCompound(wires))
                 obj.ViewObject.hide()
-}}
+```
 

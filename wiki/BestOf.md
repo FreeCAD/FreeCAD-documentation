@@ -1,5 +1,4 @@
 # BestOf
-
 ## Introduction
 
 This wiki page features the very best commentary that the FreeCAD forum has to offer. It acts similarly to the [/r/bestof](https://www.reddit.com/r/bestof/) subreddit.

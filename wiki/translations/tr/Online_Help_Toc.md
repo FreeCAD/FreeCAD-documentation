@@ -2,7 +2,6 @@
 
 
 
-
 <div class="mw-translate-fuzzy">
 
 Burada FreeCAD\'te On-line Yardım Sistemi için İçerik tablosu bulunmaktadır. Ayrıca bu kılavuzun yazdırılabilir sürümü [Sürümler sayfasında](https://github.com/FreeCAD/FreeCAD/releases) mevcuttur.

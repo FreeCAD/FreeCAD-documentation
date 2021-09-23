@@ -4,7 +4,6 @@
 
 
 
-
 <img alt="ícone da bancada de trabalho Path" src=images/Workbench_Path.svg  style="width:128px;">
 
 

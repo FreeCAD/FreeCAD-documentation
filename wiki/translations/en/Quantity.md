@@ -1,5 +1,4 @@
 # Quantity/en
-
  The quantity is a combination of a floating point number and a unit. It is used throughout all of FreeCAD to handle parameters and all other kind of input/output.
 
 ## General

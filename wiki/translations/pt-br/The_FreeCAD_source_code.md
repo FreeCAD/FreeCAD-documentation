@@ -1,5 +1,4 @@
 # The FreeCAD source code/pt-br
-
  O [FreeCAD source code](https://github.com/FreeCAD/FreeCAD) é gerenciado com git e é público, aberto e disponível sob a licença [LGPL](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License). Pode ser copiado, baixado, lido, analisado, redistribuído e modificado por qualquer pessoa. Se você planeja fazer modificações que deseja ver incluídas no próprio código oficial, lembre-se de que suas alterações precisarão ser aprovadas pelos desenvolvedores do FreeCAD, por isso é aconselhável discutir primeiro suas intenções em \[http: // forum.freecadweb.org forum\] para evitar o risco de ter suas alterações rejeitadas por algum motivo que você não previu.
 
 Abaixo estão algumas dicas e informações úteis para colocar você nos trilhos, caso esteja interessado em explorar o código do FreeCAD.

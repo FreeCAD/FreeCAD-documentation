@@ -2,7 +2,6 @@
 
 
 
-
 {{TutorialInfo/fr
 |Topic= Tutoriel de portage Wikihouse
 |Level= Intermediaire/Avancé

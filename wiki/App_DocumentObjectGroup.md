@@ -1,5 +1,4 @@
 # App DocumentObjectGroup
-
  
 
 ## Introduction
@@ -29,4 +28,4 @@ An [App DocumentObjectGroup](App_DocumentObjectGroup.md) (`App::DocumentObjectGr
 
 See the properties in the [Std Group](Std_Group.md) page.
 
- {{Std Base}} {{Document objects navi}} 
+ {{Std Base navi}} {{Document objects navi}} 

@@ -1,5 +1,4 @@
 # Macro AeroFoil/pl
-
  {{Macro/pl
 |Name=Macro AeroFoil
 |Name/pl=Makrodefinicja: Skrzydło samolotu

@@ -15,6 +15,9 @@
 
 Das Werkzeug *Dicke* bearbeitet einen Festkörper und wandelt ihn in einen dickwandigen hohlen Gegenstand mit mindestens einer offenen Fläche um, der jeder seiner verbleibenden Flächen eine gleichmäßige Dicke verleiht. Bei einigen Volumenkörpern können Sie die Arbeit erheblich beschleunigen und vermeiden, dass Extrusionen und Taschen entstehen.
 
+<img alt="" src=images/PartDesign_Thickness_example.svg  style="width:600px;"> 
+*The thickness tool applied to a face (B) of a solid (A), resulting in the hollow object (C).*
+
 ## Anwendung
 
 1.  Wählen Sie eine oder Flächen auf dem aktiven Körper aus.
@@ -69,9 +72,15 @@ Resultat: ![](images/Brga-spessore.png )
 
 ## Bekannte Probleme 
 
+
+<div class="mw-translate-fuzzy">
+
 -   BRep\_API: command not done (Befehl nicht ausgeführt)
 -   BRep\_Tool:: no parameter on edge
 -   Fehlschlag ohne weitere Fehlermeldung
+
+
+</div>
 
 
 

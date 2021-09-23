@@ -1,5 +1,4 @@
 # Importing From Sketchup/it
-
  {{Fake heading|sub=4|< Torna a [[FreeCAD Howto Import Export]]}}
 
 ## Il metodo migliore 

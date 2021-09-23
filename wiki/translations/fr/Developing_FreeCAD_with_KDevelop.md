@@ -1,5 +1,4 @@
 # Developing FreeCAD with KDevelop/fr
-
  }
 
 ## Introduction

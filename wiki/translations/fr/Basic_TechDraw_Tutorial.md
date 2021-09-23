@@ -1,5 +1,4 @@
 # Basic TechDraw Tutorial/fr
-
  {{TutorialInfo/fr
 |Topic=Dessin technique
 |Level=Débutant
@@ -54,8 +53,8 @@ Nous avons maintenant une vue sur la page qui regarde le Body du haut. C\'est un
 C\'est mieux, mais un peu ennuyeux. Ajoutons quelques dimensions.
 
 1.  Sélectionnez le sommet en haut à gauche (petit point) avec **LMB** (bouton gauche de la souris, Left Mouse Button), puis sélectionnez également (**Ctrl** + **LMB**) en bas à gauche sommet.
-2.  Cliquez sur <img alt="" src=images/TechDraw_Dimension_Vertical.svg  style="width:32px;"> [TechDraw Cote verticale](TechDraw_Dimension_Vertical/fr.md). Faites glisser le texte de cote hors du corps.
-3.  Essayez à nouveau avec les sommets supérieur à gauche et supérieur droit et <img alt="" src=images/TechDraw_Dimension_Horizontal.svg  style="width:32px;"> [TechDraw Cote horizontale](TechDraw_Dimension_Horizontal/fr.md).
+2.  Cliquez sur <img alt="" src=images/TechDraw_VerticalDimension.svg  style="width:32px;"> [TechDraw Cote verticale](TechDraw_VerticalDimension/fr.md). Faites glisser le texte de cote hors du corps.
+3.  Essayez à nouveau avec les sommets supérieur à gauche et supérieur droit et <img alt="" src=images/TechDraw_HorizontalDimension.svg  style="width:32px;"> [TechDraw Cote horizontale](TechDraw_HorizontalDimension/fr.md).
 
 ![](images/TDTut_TopView2Dims.png )
 
@@ -97,7 +96,7 @@ Créons un dessin à vues multiples en utilisant un modèle différent comme poi
 ![](images/TDTut_ProjGroup21.png )
 
 1.  Dans la vue intitulée \"TopLeftFront\", sélectionnez les deux sommets aux extrémités de l\'arête avant de la pièce.
-2.  Cliquez sur <img alt="" src=images/TechDraw_Dimension_Length.svg  style="width:32px;"> [TechDraw Longueur](TechDraw_Dimension_Length/fr.md). Faites glisser le texte de cote hors du corps.
+2.  Cliquez sur <img alt="" src=images/TechDraw_LengthDimension.svg  style="width:32px;"> [TechDraw Longueur](TechDraw_LengthDimension/fr.md). Faites glisser le texte de cote hors du corps.
 
 ### Lier les dimensions au modèle 3D 
 
@@ -109,9 +108,9 @@ D\'après la première partie de ce tutoriel, nous savons que la pièce a 53 mm 
 
 1.  Notez le nom de notre cote erronée dans la vue combinée. Nous en aurons besoin dans une minute.
 2.  Passez à l\'onglet 3D et sélectionnez les sommets aux extrémités de l\'arête avant de la pièce. Sélectionnez également Page001.
-3.  Cliquez sur <img alt="" src=images/TechDraw_Dimension_Link.svg  style="width:32px;"> [TechDraw Lier une dimension](TechDraw_Dimension_Link/fr.md). Une boîte de dialogue s\'ouvre dans le panneau des tâches.
+3.  Cliquez sur <img alt="" src=images/TechDraw_LinkDimension.svg  style="width:32px;"> [TechDraw Lier une dimension](TechDraw_LinkDimension/fr.md). Une boîte de dialogue s\'ouvre dans le panneau des tâches.
 4.  Dans la boîte de dialogue, déplacez notre cote de la colonne Disponible vers la colonne Sélectionnée. Appuyer sur **OK**.
-5.  Revenir à la Page001. Notre cote devrait maintenant lire la valeur correcte de 53. (si vous voyez toujours 43,27, vous devrez peut-être appuyer sur le bouton **Recalculer** ou faire glisser un peu la valeur de la cote jusqu\'à ce qu\'elle change).
+5.  Revenir à la Page001. Notre cote devrait maintenant lire la valeur correcte de 53. (si vous voyez toujours 43.27, vous devrez peut-être appuyer sur le bouton **Recalculer** ou faire glisser un peu la valeur de la cote jusqu\'à ce qu\'elle change).
 
 ## Aller plus loin 
 

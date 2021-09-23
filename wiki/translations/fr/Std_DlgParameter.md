@@ -152,7 +152,17 @@ La saisie d\'une chaîne (partielle) dans cette zone de saisie développera comp
 
 [FreeCAD Script de base](FreeCAD_Scripting_Basics/fr.md).
 
-Pour un exemple de script, voir [Std Boîte de délimitation](Std_SelBoundingBox/fr.md).
+Les préférences sont accessibles à partir des scripts Python en utilisant leur chemin correspondant dans l\'[Éditeur des paramètres](Std_DlgParameter/fr.md). Par exemple, la préférence **Édition → Préférences → Import-Export → DXF → Options d'Import → Joindre la géométrie** apparaît dans **Outils → Éditeur de paramètres → BaseApp → Préférences → Mod → Draft → dxfCreatePart** et a le type `Boolean`. Il est donc accessible en Python à l\'aide du code suivant : 
+```python
+# get:
+App.ParamGet("User parameter:BaseApp/Preferences/Mod/Draft").GetBool('dxfCreatePart')
+# set:
+App.ParamGet("User parameter:BaseApp/Preferences/Mod/Draft").SetBool('dxfCreatePart', True)
+```
+
+Trouver quel paramètre est utilisé pour stocker quelle option de l\'éditeur de préférences peut nécessiter une recherche un peu, mais l\'[Éditeur des paramètres](Std_DlgParameter/fr.md) offre une fonction de recherche qui devrait vous aider.
+
+C\'est probablement une mauvaise idée de modifier les préférences d\'autres parties de FreeCAD à moins de le faire à la demande de l\'utilisateur. Le configurateur peut cependant être utilisé pour définir les paramètres de votre propre atelier et le collecteur peut être utilisé pour obéir aux paramètres existants.
 
 
 
@@ -160,4 +170,4 @@ Pour un exemple de script, voir [Std Boîte de délimitation](Std_SelBoundingBox
 
 {{Std Base navi
 
-}}  
+}} 

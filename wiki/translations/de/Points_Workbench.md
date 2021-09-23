@@ -4,7 +4,6 @@
 
 
 
-
 <img alt="Punkte Arbeitsbereichssymbol" src=images/Workbench_Points.svg  style="width:128px;">
 
 ## Einführung

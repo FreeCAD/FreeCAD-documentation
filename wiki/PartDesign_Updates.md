@@ -1,5 +1,4 @@
 # PartDesign Updates
-
 This page is dedicated to the Google Summer of Code project regarding the updates on the PartDesign workbench.
 
 ## Outline

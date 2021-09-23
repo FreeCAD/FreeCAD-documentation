@@ -1,6 +1,8 @@
 # Macro Normal Vector/fr
 
- {{Macro/fr
+
+
+{{Macro/fr
 |Name=Normal Vector Macro
 |Icon=Macro_Normal_Vector.png
 |Description=Donne la Normale du vecteur de la face sélectionnée.
@@ -24,15 +26,15 @@ Cette simple macro extrait le vecteur normal de la face précédemment choisie d
 
 ## Script
 
-ToolBar Icon ![](images/Macro_Normal_Vector.png )
+Icône de la barre d\'outils ![](images/Macro_Normal_Vector.png )
 
 **Macro\_Normal\_Vector.FCMacro**
 
 
-{{MacroCode|code=
+```python
 
 Gui.Selection.getSelectionEx()[0].SubObjects[0].Faces[0].normalAt(0,0)
-}}
+```
 
 ## Lien
 

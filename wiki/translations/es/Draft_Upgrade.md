@@ -10,7 +10,13 @@
 
 ## Descripción
 
+
+<div class="mw-translate-fuzzy">
+
 El <img alt="" src=images/Draft_Upgrade.svg  style="width:24px;"> comando **Borrador Elevar** eleva objetos 2D seleccionados. El resultado depende del número de objetos seleccionados y de su tipo. El comando puede, por ejemplo, fusionar elementos y crear caras. Vale la pena intentar elevar una selección varias veces para ver si se puede obtener un mejor resultado. Vea el ejemplo de la imagen. Tenga en cuenta que no todos los objetos pueden ser elevados. Este comando es la contraparte del comando [Borrador Rebajar](Draft_Downgrade/es.md).
+
+
+</div>
 
 <img alt="" src=images/Draft_Upgrade_example.jpg  style="width:400px;"> 
 *Un hilo abierto no editable se elevar en un hilo cerrado y luego en una cara. Un hilo cuadrado cerrado no editable también se elevar en una cara. Las dos caras se actualizan para crear un compuesto, que finalmente se elevado a un único borrador de hilo editable.*

@@ -2,7 +2,6 @@
 
 
 
-
 {{TutorialInfo/pl
 |Topic= Przygotowanie projektu
 |Level= początkujący

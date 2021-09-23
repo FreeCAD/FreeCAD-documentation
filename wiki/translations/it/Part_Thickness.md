@@ -4,6 +4,8 @@
 
 </div>
 
+## Description
+
 
 <div class="mw-translate-fuzzy">
 
@@ -13,6 +15,8 @@ Lo strumento <img alt="" src=images/Part_Thickness.svg  style="width:24px;"> **S
 
 
 </div>
+
+## Usage
 
 
 <div class="mw-translate-fuzzy">
@@ -29,6 +33,11 @@ Lo strumento <img alt="" src=images/Part_Thickness.svg  style="width:24px;"> **S
 
 
 </div>
+
+## Options
+
+
+<div class="mw-translate-fuzzy">
 
 ### Opzioni
 
@@ -49,6 +58,11 @@ Lo strumento <img alt="" src=images/Part_Thickness.svg  style="width:24px;"> **S
 -   Update view: Aggiorna automaticamente la visualizzazione in tempo reale
 
 
+</div>
+
+## Limitations
+
+
 <div class="mw-translate-fuzzy">
 
 ## Limitazioni
@@ -58,9 +72,17 @@ A volte, su qualche forma, produce risultati bizzarri. Salvare il lavoro prima d
 
 </div>
 
-### Links
+## Links
+
+
+<div class="mw-translate-fuzzy">
+
+### Links 
 
 Un buon esempio su come utilizzare questo strumento nel forum: [Re: Help designing a simple enclosure](http://forum.freecadweb.org/viewtopic.php?f=3&t=3766&p=29741&hilit=enclosure#p29547)
+
+
+</div>
 
 ## Esempi
 
@@ -96,4 +118,4 @@ Notes:
 </div>
 
 
-  
+ 

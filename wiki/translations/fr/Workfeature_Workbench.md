@@ -1,7 +1,6 @@
 # Workfeature Workbench/fr
 
 
-
 <img alt="Icône de l\'atelier Workfeature" src=images/WF_wf.png  style="width:128px;">
 
 

@@ -1,5 +1,4 @@
 # Draft ShapeString tutorial/it
-
  {{TutorialInfo/it
 |Topic= Product design
 |Level= Base

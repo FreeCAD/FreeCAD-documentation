@@ -1,6 +1,8 @@
 # Macro Print SceneGraph/it
 
- {{Macro/it
+
+
+{{Macro/it
 |Name=Macro_Print_SceneGraph
 |Translate=Stampa SceneGraph
 |Icon=Macro_Print_SceneGraph.png
@@ -23,7 +25,7 @@ ToolBar Icon ![](images/Macro_Print_SceneGraph.png )
 **Macro\_Print\_SceneGraph.FCMacro**
 
 
-{{MacroCode|code=
+```python
 # -*- coding: utf-8 -*-
 """
 ***************************************************************************
@@ -115,5 +117,5 @@ else:
     QtGui.QApplication.setOverrideCursor(QtGui.QCursor(QtCore.Qt.WaitCursor))
     printTree(ad.ActiveView.getViewer().getSoEventManager().getSceneGraph(), "")
     QtGui.QApplication.restoreOverrideCursor()
-}}
+```
 

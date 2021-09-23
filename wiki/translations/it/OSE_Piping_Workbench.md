@@ -1,7 +1,6 @@
 # OSE Piping Workbench/it
 
 
-
 ## Introduzione
 
 

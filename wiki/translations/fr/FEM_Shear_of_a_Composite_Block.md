@@ -1,5 +1,4 @@
 # FEM Shear of a Composite Block/fr
-
  {{TutorialInfo/fr
 |Topic=Analyse d'éléments finis
 |Level=Débutant/intermédiaire

@@ -4,8 +4,10 @@
 
 
 
-
 <img alt="El icono del Ambiente de trabajo Croquizador" src=images/Workbench_Sketcher.svg  style="width:128px;">
+
+
+{{TOCright}}
 
 ## Introducción
 
@@ -13,12 +15,7 @@ El FreeCAD <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [
 
 El ambiente de trabajo Croquizador presenta \"restricciones\", que permiten que las formas 2D sigan definiciones geométricas precisas en términos de longitud, ángulos y relaciones (horizontalidad, verticalidad, perpendicularidad, etc.). Un solucionador de restricciones calcula el alcance de las restricciones de la geometría 2D y permite la exploración interactiva de los grados de libertad del croquis.
 
-
-{{TOCright}}
-
-<img alt="" src=images/FC_ConstrainedSketch.png  style="width:450px;">
-
-
+<img alt="" src=images/FC_ConstrainedSketch.png  style="width:450px;"> 
 *Un croquis completamente restringido‎*
 
 ## Basics of constraint sketching 

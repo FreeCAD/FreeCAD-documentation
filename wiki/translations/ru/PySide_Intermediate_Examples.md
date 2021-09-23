@@ -1,7 +1,6 @@
 # PySide Intermediate Examples/ru
 
 
-
 ## Введение
 
 

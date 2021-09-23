@@ -2,8 +2,7 @@
 
 
 
-
-{{VeryImportantMessage|Środowisko pracy [Complete](Complete_Workbench.md) jest przestarzałe.}}
+**Środowisko pracy [Complete](Complete_Workbench.md) jest przestarzałe.**
 
 <img alt="" src=images/Workbench_Complete.svg  style="width:64px;">
 

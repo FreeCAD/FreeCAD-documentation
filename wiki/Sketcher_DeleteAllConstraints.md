@@ -19,4 +19,4 @@ This tool deletes all constraints from the sketch being edited, and leaves the g
 
 
 
- {{Sketcher Tools navi}}  
+ {{Sketcher Tools navi}} 

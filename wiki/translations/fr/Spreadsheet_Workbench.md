@@ -1,6 +1,11 @@
 # Spreadsheet Workbench/fr
 
- 
+{{Page_in_progress}}
+
+
+
+
+
 
 <img alt="Icône de l\'atelier Spreadsheet" src=images/Workbench_Spreadsheet.svg  style="width:128px;">
 
@@ -40,6 +45,16 @@ L\'<img alt="" src=images/Workbench_Spreadsheet.svg  style="width:24px;"> [ateli
 -    **Noir**et **Blanc** définissent les couleurs de premier plan et d\'arrière-plan des cellules sélectionnées.
 
 -   Menu contextuel des lignes et colonnes de la feuille de calcul : cliquez avec le bouton droit de la souris sur l\'en-tête d\'une ligne ou d\'une colonne pour insérer une nouvelle ligne au-dessus ou une nouvelle colonne à gauche ou pour supprimer la ligne/colonne actuelle. Vous pouvez également sélectionner plusieurs lignes ou colonnes pour les supprimer.{{Version/fr|0.20}} Vous pouvez également sélectionner là où les nouvelles lignes/colonnes seront insérées. De plus, pour insérer par exemple 3 nouvelles colonnes en une seule fois, sélectionnez 3 colonnes et utilisez le menu contextuel qui vous proposera désormais d\'insérer 3 colonnes.
+
+## Edition de feuilles de calcul 
+
+Comme indiqué ci-dessus dans la section Outils, un clic droit sur un en-tête de ligne ou de colonne fait apparaître un menu déroulant qui vous permet de supprimer la ligne/colonne ou d\'en insérer une nouvelle vierge. Les références de formules aux cellules qui sont déplacées par ces opérations sont corrigées pour faire référence au nouvel emplacement. Vous recevrez un avertissement et une demande de confirmation si la suppression d\'une ligne ou d\'une colonne supprime une référence utilisée dans votre modèle.
+
+Les fonctions couper/copier/coller peuvent être utilisées pour modifier des données. Les fonctions Couper et Copier fonctionnent toutes deux sur des cellules individuelles, des lignes, des colonnes, des rectangles ou tout autre groupe de sélection de cellules que vous définissez. Couper efface le contenu des cellules sélectionnées. Couper et copier stockent le contenu des cellules dans un tampon de collage interne. Une opération de collage écrit les données mises en mémoire tampon de manière à ce que le contenu de la cellule la plus haute et la plus à gauche de l\'ensemble mis en mémoire tampon soit déposé dans la cellule où se trouve le curseur lorsque vous collez. Les autres contenus mis en mémoire tampon sont déposés là où ils auront la même relation avec cette cible qu\'avec la cellule la plus haute et la plus à gauche de votre ensemble couper/coller.
+
+Une mise en garde importante : les opérations couper/copier/coller ne réparent pas les références des formules. Si vous déplacez le contenu d\'une cellule, les formules qui faisaient référence à l\'ancien emplacement seront rompues. Si l\'ancien emplacement devient vide, la rupture sera visible car l\'évaluateur d\'expression affichera \#ERR dans les cellules dépendantes. Les propriétés ne sont pas non plus transférées.
+
+La touche Annuler peut être utilisée pour annuler l\'une de ces opérations. Cependant, elle annule une cellule à la fois, ce qui signifie que plusieurs annulations peuvent être nécessaires pour annuler un seul copier ou coller.
 
 ### Propriétés d\'une cellule 
 
@@ -192,8 +207,6 @@ Pour gérer la mise en page nécessaire à l\'impression, les feuilles de calcul
 ## Limitations courantes 
 
 FreeCAD vérifie les dépendances cycliques. De par sa conception, cette vérification s'arrête au niveau de l'objet feuille de calcul. Par conséquent, vous ne devriez pas avoir de feuille de calcul contenant à la fois des cellules dont les valeurs sont utilisées pour spécifier des paramètres pour le modèle et des cellules dont les valeurs utilisent la sortie du modèle. Par exemple, vous ne pouvez pas avoir de cellules spécifiant la longueur, la largeur et la hauteur d\'un objet, et une autre cellule qui référence le volume total de la forme obtenue. Cette restriction peut être surmontée en disposant de deux feuilles de calcul : l\'une utilisée comme source de données pour les paramètres d\'entrée du modèle et l\'autre pour les calculs basés sur les données géométriques résultantes.
-
-Lorsque les cellules sont copiées, seul le contenu (expression/valeur) est copié. Les [propriétés de cellule](Spreadsheet_Workbench/fr#Propriétés_de_Cellule.md) décrites ci-dessus ne sont pas copiées.
 
 ## Scripts basiques 
 

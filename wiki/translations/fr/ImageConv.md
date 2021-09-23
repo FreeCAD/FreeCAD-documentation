@@ -1,7 +1,6 @@
 # ImageConv/fr
 
 
-
 **ImageConv** est un programme utilisé pour convertir des images de différents formats en format **[XPM](http://fr.wikipedia.org/wiki/X_PixMap)**, qui peut être utilisé et compilé dans FreeCAD.
 
 ## Compilation

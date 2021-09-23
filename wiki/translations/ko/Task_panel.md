@@ -1,5 +1,4 @@
 # Task panel/ko
-
  {{TOCright}}
 
 ## Introduction
@@ -38,7 +37,7 @@ There are many commands that require selection of shapes or objects present in t
 ## Scripting
 
 
-{{VeryImportantMessage|Please reformulate and update this section}}
+**Please reformulate and update this section**
 
 See [forum thread](https://forum.freecadweb.org/viewtopic.php?f=10&t=44170&p=376759#p376759) Call that a Task Dialog widget can use to close the Task View. It can be closed with \"this-\>close()\", but that only closes the lower part of the view, not that view itself.
 

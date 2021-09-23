@@ -1,20 +1,17 @@
 ---
 - GuiCommand:/ru
-   Name:PartDesign Fillet
-   Name/ru:PartDesign Fillet
-   Workbenches:[PartDesign](PartDesign_Workbench/ru.md), Complete
-   MenuLocation:PartDesign → Скругление
-   SeeAlso:[Part Fillet](Part_Fillet/ru.md), [PartDesign Chamfer](PartDesign_Chamfer/ru.md)
+   Name/ru:Скругление
+   Name:PartDesign_Fillet
+   MenuLocation:PartDesign → Apply a dress-up feature → Скругление
+   Workbenches:[PartDesign](PartDesign_Workbench/ru.md)
+   SeeAlso:[Фаска](PartDesign_Chamfer/ru.md), [Скругление](Part_Fillet/ru.md)
 ---
 
-
-</div>
-
-## Description
+## Описание
 
 This tool creates fillets (rounds) on the selected edges of an object. A new separate Fillet entry (followed by a sequential number if there are already existing fillets in the document) is created in the project tree.
 
-## Usage
+## Применение
 
 -   Select a single or multiple edges or a face on an object, then start the tool either by clicking its icon or going into the menu. In case you selected a face all its edges are respected for filleting.
 -   In the appearing [Task panel](Task_panel.md) set the fillet radius either by entering the value, or by clicking on the up/down arrows.
@@ -37,11 +34,14 @@ Here is how they differ from each other:
 -   The PartDesign Fillet offers a live preview of the fillet applied to the object before validating the function.
 -   The Part Fillet supports variable radii (with a start radius and an end radius). The PartDesign fillet doesn\'t.
 
-## Known Issues 
+## Известные проблемы 
 
 Fillets, chamfers, and other features that operate on solid bodies depend on the underlying OpenCASCADE Technology (OCCT) kernel that FreeCAD uses. The OCCT kernel occasionally has difficulty handling coincident sharp edges, where two faces meet. If this is the case FreeCAD may crash without an explanation.
 
-If run from the terminal, FreeCAD may output a log like this one after the crash: {{code|code=
+If run from the terminal, FreeCAD may output a log like this one after the crash:
+
+
+{{code|code=
 #1  0x7fff63d660ba in BRep_Tool::Curve(TopoDS_Edge const&, TopLoc_Location&, double&, double&) from /usr/lib/x86_64-linux-gnu/libTKBRep.so.7+0x2a
 #2  0x7fff63d69546 in BRep_Tool::Curve(TopoDS_Edge const&, double&, double&) from /usr/lib/x86_64-linux-gnu/libTKBRep.so.7+0x46
 #3  0x7fff71f4fef5 in ChFi3d_Builder::PerformIntersectionAtEnd(int) from /usr/lib/x86_64-linux-gnu/libTKFillet.so.7+0x3b05
@@ -68,9 +68,11 @@ Edge numbers are not completely stable, therefore it is advisable that you finis
 
 Read more in [topological naming problem](topological_naming_problem.md).
 
-## Scripting
+## Программирование
 
-The tool **[16px|text-top=Fillet|link=PartDesign_Fillet](File:PartDesign_Fillet.svg.md) [Fillet](PartDesign_Fillet.md)** can be used in a macro, and, from the Python console using the following function : 
+The tool **[16px|text-top=Fillet|link=PartDesign_Fillet](File:PartDesign_Fillet.svg.md) [Fillet](PartDesign_Fillet.md)** can be used in a macro, and, from the Python console using the following function:
+
+
 ```python
 Box = Box.makeFillet(3,[Box.Edges[0]]) # 1 Fillet
 Box = Box.makeFillet(3,[Box.Edges[1],Box.Edges[2],Box.Edges[3],Box.Edges[4]]) # for several Fillets
@@ -79,7 +81,15 @@ Box = Box.makeFillet(3,[Box.Edges[1],Box.Edges[2],Box.Edges[3],Box.Edges[4]]) # 
 -   3 = radius
 -   Box.Edges\[2\] = Edge with its number
 
-Example : 
+
+<div class="mw-translate-fuzzy">
+
+Пример:
+
+
+</div>
+
+
 ```python
 import PartDesign
 from FreeCAD import Base
@@ -89,9 +99,6 @@ Box = Box.makeFillet(3,[Box.Edges[0]]) # pour 1 Fillet
 Box = Box.makeFillet(3,[Box.Edges[1],Box.Edges[2],Box.Edges[3],Box.Edges[4]]) # for several Fillets
 Part.show(Box)
 ```
-
-
-
 
 
 

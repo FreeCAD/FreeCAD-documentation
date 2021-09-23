@@ -1,8 +1,13 @@
 # Spreadsheet Workbench/ru
 
- 
+{{Page_in_progress}}
 
-<img alt="Иконка верстака электронных таблиц" src=images/Workbench_Spreadsheet.svg  style="width:128px;">
+
+
+
+
+
+<img alt="Логотип верстака электронных таблиц" src=images/Workbench_Spreadsheet.svg  style="width:128px;">
 
 ## Введение
 
@@ -40,6 +45,16 @@
 -    **Black**и **White** устанавливают цвета переднего и заднего плана выбранных ячеек.
 
 -   Context-menu of the spreadsheet rows and columns: right-click onto the header of a row or column to insert a new row above or a new column at the left, or to delete the current row/column. You can also select several rows or columns to delete them.<small>(v0.20)</small>  You can also select where the the new rows/columns will be inserted. Furthermore, to insert for example 3 new columns at once, select 3 columns and use the context-menu that will now offer to insert 3 columns.
+
+## Spreadsheet editing 
+
+As noted above under Tools, right click on a row or column header produces a pulldown menu that allows you to delete the row/column or insert a new blank one. Formula references to cells that get moved by these operations get patched to refer to the new location, You will get a warning and a request to confirm if a row or column deletion would abolish a reference that\'s used in your model.
+
+Cut/copy/paste can be used to edit data. Cut and copy will both operate on single cells, rows, columns, rectangles, or indeed any selection group of cells you set up. Cut clears the content of selected cells; both cut and copy stash the cell content in an internal paste buffer. A paste operation writes the buffered data in such a way that the content of the uppermost-leftmost cell of the buffered set is dropped in the cell where the cursor is when you paste; other buffered content is dropped where it will have the same relationship to that target as it originally did to the upper-left cell of your cut/paste set.
+
+An important caveat: Cut/copy/paste operations do *not* fix up formula references. If you move the content of a cell, formulas which referred to the old location will break. If the old location becomes empty, the breakage will become visible as the expression evaluator will display \#ERR in dependent cells. Properties are also not carried along.
+
+The Undo key can be use to back out any of these operations. However, it undoes a cell at a time - thus, multiple Undos may be requited to back out a single copy or paste.
 
 ### Свойства ячейки 
 
@@ -201,14 +216,6 @@ To handle the page setup necessary for printing, FreeCAD spreadsheets are printe
 <div class="mw-translate-fuzzy">
 
 FreeCAD проверяет циклические зависимости. По задумке эта проверка останавливается на уровне объекта электронной таблицы. Как следствие, у вас не должно быть электронной таблицы, содержащей как ячейки, значения которых используются для определения параметров модели, так и ячейки, значения которых используют выходные данные модели. Например, у вас не может быть ячеек, определяющих длину, ширину и высоту объекта, и другой ячейки, которая ссылается на общий объем полученной формы. Это ограничение можно преодолеть с помощью двух электронных таблиц: одна используется в качестве источника данных для входных параметров модели, а другая используется для расчётов на основе результирующих геометрических данных.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-При копировании ячеек копируется только содержание (выражение/значение). Описанные выше [свойства ячейки](#Свойства_ячейки/ru.md) не копируются.
 
 
 </div>

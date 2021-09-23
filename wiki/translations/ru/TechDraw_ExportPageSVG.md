@@ -1,9 +1,10 @@
 ---
-- GuiCommand:
-   Name:TechDraw ExportPageSVG
-   MenuLocation:TechDraw → Export Page as SVG
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
-   SeeAlso:[TechDraw Templates](TechDraw_Templates.md), [Draft SVG](Draft_SVG.md)
+- GuiCommand:/ru
+   Name/ru:Экспорт листа в SVG
+   Name:TechDraw_ExportPageSVG
+   MenuLocation:TechDraw → Экспорт листа в SVG
+   Workbenches:[TechDraw](TechDraw_Workbench/ru.md)
+   SeeAlso:[Шаблоны](TechDraw_Templates/ru.md), [Draft SVG](Draft_SVG/ru.md)
 ---
 
 ## Описание
@@ -20,12 +21,12 @@ The ExportPageSVG tool saves the current drawing page as an [SVG](SVG.md) file.
 -   [TechDraw Hatch](TechDraw_Hatch.md) patterns are not exported to [SVG](SVG.md) due to a limitation in Qt4\'s SVG support.
 -   Text positions and sizes are not correct in the exported file. Using the \"system\" default font in the drawing improves the size problem considerably.
 
-## Scripting
+## Программирование
 
 
-**See also:**
+**См. так же:**
 
-[TechDrawGui API](TechDrawGui_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+[TechDrawGui API](TechDrawGui_API/ru.md) и [Основы составления скриптов FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 
 The SaveSVG tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following functions:
 
@@ -42,4 +43,4 @@ Note that the FreeCADGui module must be active to use this function.
 
 {{TechDraw Tools navi
 
-}}  
+}} 

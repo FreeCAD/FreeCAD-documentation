@@ -5,7 +5,6 @@
 
 
 
-
 {{TOCright}}
 
 ## Informacje ogólne 

@@ -1,5 +1,4 @@
 # Microscope Adapter Model
-
 # Purpose
 
 This adapter is intended to couple a GoPro or similar camera to a microscope eyepiece. It can be used for similar purposes on other devices, but it is expected that the weight of the camera allows it to be supported by the eyepiece of the connected device.

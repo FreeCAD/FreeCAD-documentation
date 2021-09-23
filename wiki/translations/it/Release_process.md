@@ -1,5 +1,4 @@
 # Release process/it
-
  Questa pagina serve per raccogliere le idee e organizzare le cose in modo che i rilasci ufficiali di FreeCAD richiedano meno lavoro, e quindi possano essere più frequenti. Questo argomento è discusso in questa [discussione nel forum](http://forum.freecadweb.org/viewtopic.php?f=8&t=6441).
 
 ## Idee generali 

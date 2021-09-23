@@ -1,6 +1,11 @@
 # Spreadsheet Workbench/de
 
- 
+{{Page_in_progress}}
+
+
+
+
+
 
 <img alt="Tabellenkalkulation Arbeitsbereichssymbol" src=images/Workbench_Spreadsheet.svg  style="width:128px;">
 
@@ -40,6 +45,16 @@ Der <img alt="" src=images/Workbench_Spreadsheet.svg  style="width:24px;"> [Arbe
 -    **Schwarz**und **Weiß** bestimmen die Vorder- und den Hintergrundfarbe der gewählten Zellen.
 
 -   Kontextmenü der Tabellenzeilen und -spalten: Klicke mit der rechten Maustaste auf den Kopf einer Zeile oder Spalte, um darüber eine neue Zeile oder links eine neue Spalte einzufügen, oder um die aktuelle Zeile/Spalte zu löschen. Du kannst auch mehrere Zeilen oder Spalten markieren, um sie zu löschen.{{Version/de|0.20}} Du kannst auch auswählen, wo die neuen Zeilen/Spalten eingefügt werden sollen. Um z.B. 3 neue Spalten auf einmal einzufügen, markiere 3 Spalten und verwende das Kontextmenü, das nun das Einfügen von 3 Spalten anbietet.
+
+## Spreadsheet editing 
+
+As noted above under Tools, right click on a row or column header produces a pulldown menu that allows you to delete the row/column or insert a new blank one. Formula references to cells that get moved by these operations get patched to refer to the new location, You will get a warning and a request to confirm if a row or column deletion would abolish a reference that\'s used in your model.
+
+Cut/copy/paste can be used to edit data. Cut and copy will both operate on single cells, rows, columns, rectangles, or indeed any selection group of cells you set up. Cut clears the content of selected cells; both cut and copy stash the cell content in an internal paste buffer. A paste operation writes the buffered data in such a way that the content of the uppermost-leftmost cell of the buffered set is dropped in the cell where the cursor is when you paste; other buffered content is dropped where it will have the same relationship to that target as it originally did to the upper-left cell of your cut/paste set.
+
+An important caveat: Cut/copy/paste operations do *not* fix up formula references. If you move the content of a cell, formulas which referred to the old location will break. If the old location becomes empty, the breakage will become visible as the expression evaluator will display \#ERR in dependent cells. Properties are also not carried along.
+
+The Undo key can be use to back out any of these operations. However, it undoes a cell at a time - thus, multiple Undos may be requited to back out a single copy or paste.
 
 ## Zelleigenschaften
 
@@ -206,8 +221,6 @@ Um die erforderlichen Seiteneinstellungen für den Druck von FreeCAD-Tabellen ei
 ## Aktuelle Begrenzungen 
 
 FreeCAD prüft auf zyklische Abhängigkeiten. Nach dem Entwurf endet diese Prüfung auf der Ebene des Tabellenkalkulationsobjekts. Infolgedessen solltest du keine Tabellenkalkulation haben, die beides enthält Zellen, deren Werte zur Angabe von Parametern für das Modell verwendet werden, und Zellen, deren Werte die Ausgabe aus dem Modell verwenden. Du kannst z.B. keine Zellen haben, die die Länge, Breite und Höhe eines Objekts festlegen, und eine weitere Zelle, die das Gesamtvolumen der resultierenden Form referenziert. Diese Einschränkung kann durch zwei Tabellenkalkulationen überwunden werden: eine, die als Datenquelle für die Eingabeparameter des Modells dient und die andere verwendet für Berechnungen auf der Grundlage der resultierenden Geometriedaten.
-
-Wenn Zellen kopiert werden, wird nur der Inhalt (Ausdruck/Wert) kopiert. Die oben beschriebenen [Zelleigenschaften](Spreadsheet_Workbench/de#Zelleigenschaften.md) werden nicht kopiert.
 
 ## Grundlagen Skripterstellung 
 

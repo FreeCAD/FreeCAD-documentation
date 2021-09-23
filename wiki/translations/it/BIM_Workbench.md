@@ -1,6 +1,5 @@
 # BIM Workbench/it
 
-
  
 
 <img alt="Icona dell\'ambiente aggiuntivo BIM" src=images/IFC.svg  style="width:128px;">

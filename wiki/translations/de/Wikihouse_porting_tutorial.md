@@ -2,7 +2,6 @@
 
 
 
-
 {{TutorialInfo/de
 |Topic= Wikihouse Migration Tutorium
 |Level= Zwischenstufe/Fortgeschritten

@@ -1,7 +1,6 @@
 # Sketcher reference/pl
 
 
-
 ## Wprowadzenie
 
 Użytkownik **chrisb** napisał długą, 70-stronicową instrukcję dotyczącą Środowiska pracy [Sketcher](Sketcher_Workbench/pl.md), która obejmuje wiele tematów związanych z użytkowaniem tego warsztatu. Dla niedoświadczonych użytkowników jest to delikatne wprowadzenie, które obejmuje podstawowe użycie Sketchera, a następnie wkracza w wiele szczegółów tworzenia elementów geometrycznych i używania każdego typu wiązania.

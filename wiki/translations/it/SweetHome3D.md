@@ -1,5 +1,4 @@
 # SweetHome3D/it
-
  ![](images/SweetHome3DLogo.png )
 
 **Sweet Home 3D** è un\'applicazione gratuita di design di interni che aiuta a disegnare il piano di una casa, ad organizzare i mobili e a vedere i risultati in 3D. Guardare questo [video](http://www.sweethome3d.com/videos/SweetHome3D-720p-music.mp4)

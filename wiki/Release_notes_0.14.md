@@ -1,5 +1,4 @@
 # Release notes 0.14
-
  
 
 FreeCAD 0.14 was released on July 1, 2014. This is a summary of the most interesting changes. The complete list of changes can be found in the [Mantis changelog](http://www.freecadweb.org/tracker/changelog_page.php). Older versions at: [0.13](Release_notes_0.13.md) - [0.12](Release_notes_0.12.md) - [0.11](Release_notes_0.11.md)

@@ -1,11 +1,10 @@
 # Render project/es
-
- {{VeryImportantMessage|(2020) This page refers to an attempt to update the [Raytracing Workbench](Raytracing_Workbench.md), proposed around 2012. Its original author never completed the implementation so this information is outdated, and should not be considered current.
+ **(2020) This page refers to an attempt to update the [Raytracing Workbench](Raytracing_Workbench.md), proposed around 2012. Its original author never completed the implementation so this information is outdated, and should not be considered current.
 
 New development is happening in the [https://github.com/FreeCAD/FreeCAD-render Render Workbench], a complete Python replacement for the [Raytracing Workbench](Raytracing_Workbench.md).
 
 Despite this page mentioning the "Render module", this is not the same project as the new [https://github.com/FreeCAD/FreeCAD-render Render Workbench].
-}}
+**
 
 ## Overview
 
@@ -44,7 +43,7 @@ Cada material de renderizado está basado en una biblioteca de materiales que es
 
 
 
-{{VeryImportantMessage|Para utilizar el entorno de Render, actualmente deberías ser capaz de compilarlo desde la rama de los desrrolladores.}}
+**Para utilizar el entorno de Render, actualmente deberías ser capaz de compilarlo desde la rama de los desrrolladores.**
 
 
 <div class="mw-translate-fuzzy">

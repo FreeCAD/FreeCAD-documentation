@@ -1,5 +1,4 @@
 # Macro Solid Sweep/cs
-
  {{Macro/cs
 |Name=Solid Sweep
 |Icon=Macro_Solid_Sweep.png

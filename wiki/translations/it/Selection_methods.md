@@ -3,13 +3,6 @@
 
 
 
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 {{TOCright}}
@@ -18,31 +11,13 @@
 
 I metodi di selezione in FreeCAD consentono di selezionare gli oggetti nell\'[interfaccia di FreeCAD](Interface/it.md): ad esempio nella [vista 3D](3D_view/it.md), nella [struttura ad albero](Tree_view/it.md), nella [vista selezione](Selection_view/it.md), e tramite altri dialoghi. Alcuni metodi di selezione sono specifici di un particolare ambiente e sono documentati nella documentazione specifica di tale ambiente.
 
-
-<div class="mw-translate-fuzzy">
-
 ## Vista 3D 
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Nella [Vista 3D](3D_view/it.md) ci sono vari modi per selezionare gli oggetti usando il puntatore del mouse.
-
-
-</div>
+Nella [vista 3D](3D_view/it.md) ci sono vari modi per selezionare gli oggetti.
 
 ### Selezione semplice 
 
-
-<div class="mw-translate-fuzzy">
-
-La selezione semplice con il mouse (per impostazione predefinita clic sinistro) e la preselezione (passaggio del mouse) sono descritte nella pagina [navigazione 3D](Mouse_Model/it.md).
-
-
-</div>
+La selezione semplice con il mouse (per impostazione predefinita clic sinistro) e la preselezione (passaggio del mouse) sono descritte nella pagina [navigare col mouse](Mouse_navigation/it.md).
 
 ### Clic ripetuti 
 
@@ -52,13 +27,9 @@ Il terzo clic estende la selezione al suo oggetto contenitore ([Corpo di PartDes
 
 ### Comandi di selezione 
 
-
-<div class="mw-translate-fuzzy">
-
-La selezione tramite il trascinamento del mouse per selezionare più oggetti o sotto-elementi (vertici o facce) è disponibile usando i comandi [Seleziona tutto](Std_SelectAll/it.md), [Box di selezione](Std_BoxSelection/it.md), [Box di selezione di Part](Part_BoxSelection/it.md) e [Seleziona elementi](Std_BoxElementSelection/it.md).
-
-
-</div>
+-   Per selezionare tutti gli oggetti: [Std SelectAll](Std_SelectAll/it.md).
+-   Per inquadrare selezionare più oggetti principali: [Std BoxSelection](Std_BoxSelection/it.md).
+-   Per inquadrare più facce: [Std BoxElementSelection](Std_BoxElementSelection/it.md) o [Part BoxSelection](Part_BoxSelection/it.md).
 
 ## Vista selezione 
 
@@ -87,7 +58,7 @@ Nella [vista ad albero](tree_view/it.md) gli elementi possono essere selezionati
 
 La selezione di un singolo elemento mostrerà anche le sue proprietà nell\'[editore delle proprietà](property_editor/it.md).
 
-Facendo doppio clic si apre la [scheda zioni](task_panel/it.md) contente tutte le azioni associate. Assicurarsi di chiudere questo pannello delle azioni prima di eseguire un altro comando o di passare a qualsiasi altro ambiente.
+Facendo doppio clic si apre la [scheda azioni](task_panel/it.md) contente tutte le azioni associate. Assicurarsi di chiudere questo pannello delle azioni prima di eseguire un altro comando o di passare a qualsiasi altro ambiente.
 
 Sono disponibili altri metodi aprendo il menu di scelta rapida (tasto destro), a seconda dell\'oggetto selezionato o dell\'ambiente attivo; vedere le informazioni in [vista ad albero](tree_view/it.md).
 
@@ -116,13 +87,7 @@ Gui.Selection.addSelectionGate("SELECT Part::Feature SUBELEMENT Edge")
 Vedere nella [Documentazione del codice sorgente](Source_documentation/it.md) e nella [Documentazione dei moduli Python](Std_PythonHelp/it.md) per ulteriori aiuti sull\'uso di questi strumenti.
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 

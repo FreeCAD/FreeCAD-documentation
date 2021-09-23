@@ -36,6 +36,6 @@ Nie ma przycisku Anuluj.
 
 
 
-{{Std Base
+{{Std Base navi
 
 }} 

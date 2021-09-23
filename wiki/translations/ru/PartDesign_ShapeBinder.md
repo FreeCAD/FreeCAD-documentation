@@ -1,10 +1,11 @@
 ---
-- GuiCommand:
-   Name:PartDesign ShapeBinder
-   MenuLocation:Part Design → Create a shape binder
-   Workbenches:[PartDesign](PartDesign_Workbench.md)
+- GuiCommand:/ru
+   Name/ru:Создать связующую форму
+   Name:PartDesign_ShapeBinder
+   MenuLocation:Part Design → Создать связующую форму
+   Workbenches:[PartDesign](PartDesign_Workbench/ru.md)
    Version:0.17
-   SeeAlso:[PartDesign SubShapeBinder](PartDesign_SubShapeBinder.md), [PartDesign Clone](PartDesign_Clone.md)
+   SeeAlso:[Создать новую под-объектную связующую форму](PartDesign_SubShapeBinder/ru.md), [Создать клон](PartDesign_Clone/ru.md)
 ---
 
 ## Описание
@@ -16,7 +17,7 @@ Examples of use would be to build a box with fitting cover in two different bodi
 <img alt="" src=images/Shapebinder_tree.png ) ![](images/Shapebinder_flow.png  style="width:600px;"> 
 *Two shapes from Body.Pad004 are selected and their datum objects are now available in Body001.Sketch005 as external geometry through Body001.ShapeBinder.*
 
-## Использование
+## Применение
 
 General Use:
 
@@ -81,17 +82,17 @@ Done.
 :   that there is another way to create a ShapeBinder: with the back cube activated click the front face of the front cube and create a new sketch. A dialog will pop up where you select \"Dependent sketch\". This will actually create a shape binder. You can see the **Trace Support** parameter in the property window. It\'s a few clicks less than our procedure.
 :   Also note that working with ShapeBinder with Sketches is only a subset of its capabilities. It\'s also possible to use parts of 3D geometry as seen in the example above.
 
-## Options
+## Опции
 
 Double-click the ShapeBinder label in the [tree view](Tree_view.md) or right-click and select **Edit shape binder** in the contextual menu to edit its parameters.
 
-## Properties
+## Свойства
 
 -    **Label**: name given to the object, this name can be changed at convenience.
 
 -    **Trace Support**: At setting this option to true, the Shapebinder does observe relative placements of the parts and bodies. Default is false. See the example above for how this is used and works <small>(v0.18)</small> 
 
-## Limitations
+## Ограничения
 
 -   Multiple selection is not supported. The Add geometry and Remove geometry buttons need to be pressed for each single selection.
 

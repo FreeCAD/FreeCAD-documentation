@@ -1,21 +1,22 @@
 ---
-- GuiCommand:
-   Name:PartDesign Plane
-   MenuLocation:PartDesign → Create a datum → Create a datum plane
-   Workbenches:[PartDesign](PartDesign_Workbench.md)
+- GuiCommand:/ru
+   Name/ru:Создать опорную плоскость
+   Name:PartDesign_Plane
+   MenuLocation:PartDesign → Create a datum → Создать опорную плоскость
+   Workbenches:[PartDesign](PartDesign_Workbench/ru.md)
    Version:0.17
-   SeeAlso:[PartDesign Point](PartDesign_Point.md), [PartDesign Line](PartDesign_Line.md)
+   SeeAlso:[Создать опорную точку](PartDesign_Point/ru.md), [Создать опорную линию](PartDesign_Line/ru.md)
 ---
 
 ## Описание
 
 Creates a **datum plane** which can be used as reference for sketches or other datum geometry. Sketches can be attached to datum planes. ![](images/Datum_plane.png ) *Datum Plane crossing 3 corners of the Cube with a Cylinder sketched on it using the Datum Plane as its X-Y Plane.*
 
-## Prerequisites
+## Требования
 
 A datum plane, as of FreeCAD 0.18, can only be created inside of a <img alt="" src=images/PartDesign_Body.svg  style="width:16px;"> [Body](PartDesign_Body.md). Every body has an origin, which is hidden by default. To be able to refer to the origin base planes, make the the origin visible. You can do this before creating a datum plane.
 
-## Использование
+## Применение
 
 1.  Press the **<img src="images/PartDesign_Plane.svg" width=16px> [Create a datum plane](PartDesign_Plane.md)** button.
 2.  Define Plane parameters. Select a first reference in the 3D view to filter the available [attachment](Part_EditAttachment.md) modes.
@@ -26,11 +27,11 @@ A datum plane, as of FreeCAD 0.18, can only be created inside of a <img alt="" s
 7.  **Rotation:** Changing \"Around x-axis\" makes the plane rotate around its local X-axis. Changing \"Around y-axis\" makes the plane rotate around its local Y-axis. Changing \"Around z-axis\" makes the plane rotate around its local Z-axis.
 8.  Press **OK**.
 
-## Options
+## Опции
 
 Double-click the DatumPlane label in the Model tree or right-click and select **Edit datum** in the contextual menu to edit its parameters. For more details about Attachment mode and Attachment offset, see [Part EditAttachment](Part_EditAttachment.md).
 
-## Properties
+## Свойства
 
 -    **MapMode**: lists the attachment mode used.
 

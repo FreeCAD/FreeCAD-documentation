@@ -4,7 +4,6 @@
 
 
 
-
 <img alt="Иконка стандартных инструментов" src=images/Freecad.svg  style="width:128px;">
 
 
@@ -102,13 +101,7 @@
 
 -   <img alt="" src=images/Std_ToggleClipPlane.svg  style="width:32px;"> [Плоскость сечения](Std_ToggleClipPlane/ru.md): Позволяет просмотреть объект в разрезе.
 
-
-<div class="mw-translate-fuzzy">
-
--   [Texture mapping\...](Std_TextureMapping.md)
-
-
-</div>
+-   <img alt="" src=images/Std_TextureMapping.svg  style="width:32px;"> [Текстурирование\...](Std_TextureMapping/ru.md): Временно накладывает текстуру поверх всех объектов.
 
 -   Видимость
     -   <img alt="" src=images/Std_ToggleVisibility.svg  style="width:32px;"> [Скрыть/показать выделенное](Std_ToggleVisibility/ru.md): Переключает видимость выбранных объектов.
@@ -122,13 +115,7 @@
     -   <img alt="" src=images/View_Measure_Toggle_All.svg  style="width:32px;"> [Скрыть/показать всё измерения](View_Measure_Toggle_All/ru.md): Откл/вкл отображение измерений деталей.
     -   <img alt="" src=images/View_Measure_Clear_All.svg  style="width:32px;"> [Удалить все измерения](View_Measure_Clear_All/ru.md): Удаляет все измерения детали.
 
-
-<div class="mw-translate-fuzzy">
-
--   [Скрыть или показать](Std_ToggleVisibility.md)
-
-
-</div>
+-   <img alt="" src=images/Std_ToggleVisibility.svg  style="width:32px;"> [Видимость](Std_ToggleVisibility/ru.md): Переключает видимость выбранных объектов.
 
 
 <div class="mw-translate-fuzzy">
@@ -163,20 +150,14 @@
     -   Вид
     -   Structure
 
-
-<div class="mw-translate-fuzzy">
-
--   [Панели](Std_Panels/ru.md) **Each panels can be switched on or off in the submenu.**
+-   Панели **-- Каждую панель можно включить или выключить в этом подменю.**
     -   [Отчёт](Report_view/ru.md)
     -   [Дерево документа](Tree_view/ru.md)
     -   [Просмотр свойств](Property_editor/ru.md)
     -   [Просмотр выделения](Selection_view/ru.md)
     -   [Комбо панель](Combo_view/ru.md)
     -   [Консоль Python](Python_console/ru.md)
-    -   [DAG view](DAG_view/ru.md)
-
-
-</div>
+    -   [Просмотр DAG](DAG_view/ru.md)
 
 -   Tree view actions
     -   <img alt="" src=images/Std_TreeSyncView.svg  style="width:32px;"> [Sync view](Std_TreeSyncView.md): Toggles the [Tree view](Tree_view.md) SyncView mode. <small>(v0.19)</small> 
@@ -190,13 +171,7 @@
     -   <img alt="" src=images/Std_TreeDrag.svg  style="width:32px;"> [Initiate dragging](Std_TreeDrag.md): Initiates a drag operation for selected objects in the Tree view. <small>(v0.19)</small> 
     -   <img alt="" src=images/Std_TreeSelection.svg  style="width:32px;"> [Go to selection](Std_TreeSelection.md): Scrolls the Tree view to the first created object in a 3D view selection. <small>(v0.19)</small> 
 
-
-<div class="mw-translate-fuzzy">
-
--   [Status bar](Status_bar/ru.md) **Строка состояния может быть включена и выключена.**
-
-
-</div>
+[Строка состояния](Std_ViewStatusBar/ru.md): Переключает видимость [строки состояния](Status_bar/ru.md).
 
 
 

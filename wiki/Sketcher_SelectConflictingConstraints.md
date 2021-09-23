@@ -20,4 +20,4 @@ Selects the conflicting constraints of a sketch.
 
 
 
- {{Sketcher Tools navi}}  
+ {{Sketcher Tools navi}} 

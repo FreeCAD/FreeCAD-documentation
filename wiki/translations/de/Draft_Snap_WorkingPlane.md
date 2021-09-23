@@ -54,19 +54,7 @@ Diese Methode platziert immer einen neuen Punkt auf der aktuellen [Arbeitsebene]
 See [Draft Snap](Draft_Snap#Preferences.md).
 
 
-<div class="mw-translate-fuzzy">
 
-
-{{docnav/de
-|[Dimensions](Draft_Dimensions/de.md)
-|
-|[Draft Snap](Draft_Snap/de.md)
-|IconL=Draft Dimensions.png
-|IconC=Workbench_Draft.svg
-}}
-
-
-</div>
 
 
  

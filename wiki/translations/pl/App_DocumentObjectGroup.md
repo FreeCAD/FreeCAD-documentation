@@ -1,7 +1,6 @@
 # App DocumentObjectGroup/pl
 
 
-
 ## Introduction
 
 <img alt="" src=images/Folder.svg  style="width:32px;">
@@ -30,6 +29,6 @@ An [App DocumentObjectGroup](App_DocumentObjectGroup.md) (`App::DocumentObjectGr
 See the properties in the [Std Group](Std_Group.md) page.
 
 
-{{Std Base
+{{Std Base navi
 
 }} {{Document objects navi}} 

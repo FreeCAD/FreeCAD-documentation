@@ -1,7 +1,6 @@
 # PySide usage snippets/de
 
 
-
 ## Einführung
 
 Dies sind Codeschnipsel, die bei [Erstellen von Oberflächen](Dialog_creation/de.md) mit [PySide](PySide/de.md) nützlich sind.

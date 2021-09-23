@@ -12,7 +12,7 @@
 
 Insère un **Balayage additif** dans un Corps actif par balayage d\'une ou plusieurs esquisses (également appelées sections transversales) le long d\'un chemin ouvert ou fermé. Si le Corps contient déjà un solide, le balayage additif sera fusionné avec lui.
 
-![](images/PartDesign_AdditivePipe_example.svg ) À gauche les sections (A) et (B) seront balayées le long du chemin (C), le résultat est visible à droite.
+![](images/PartDesign_AdditivePipe_example.svg ) *À gauche les sections (A) et (B) seront balayées le long du chemin (C), le résultat est visible à droite.*
 
 ## Utilisation
 

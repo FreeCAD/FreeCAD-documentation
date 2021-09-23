@@ -1,7 +1,6 @@
 # Sketcher helper constraint/it
 
 
-
 ## Introduzione
 
 <img alt="Esempio di vincolo di supporto (il Constraint5 - punto su cerchio) per un vincolo di tangenza (il Constraint6 nel modo \"tangenza in un punto\"). In questo caso viene usato un solo vincolo di supporto, poiché il punto di tangenza è il punto finale del diametro maggiore dell\'ellisse, che si trova intrinsecamente sull\'ellisse." src=images/Sketcher_helper_constraint_example1.png ). In questo caso viene usato un solo vincolo di supporto, poiché il punto di tangenza è il punto finale del diametro maggiore dell'ellisse, che si trova intrinsecamente sull'ellisse." style="width:500px;">

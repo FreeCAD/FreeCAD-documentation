@@ -30,18 +30,6 @@ La copie a une simple propriété {{PropertyData/fr|Placement}} comme n\'importe
 
 La copie a des propriétés de vue comme toutes les autres [Part Features](Part_Feature/fr.md).
 
-## Script
-
-La commande **Part Copie d\'un élément** peut être appliquée après avoir sélectionné un ou plusieurs objets dans la [Vue en arborescence](Tree_view/fr.md):
-
-
-```python
-FreeCADGui.runCommand('Part_ElementCopy')
-```
-
-La sélection peut être manuelle (en utilisant la souris) ou via la [Console Python](Python_console/fr.md).
-Pour en savoir plus sur la sélection d\'objets de manière programmatique, reportez-vous à [Méthodes de sélection](Selection_methods/fr.md).
-
 
 
 

@@ -4,7 +4,6 @@
 
 
 
-
 <img alt="Start Arbeitsbereichssymbol" src=images/Workbench_Start.svg  style="width:128px;">
 
 Der <img alt="" src=images/Workbench_Start.svg  style="width:24px;"> [Start Arbeitsbereich](Start_Workbench/de.md) ist kein richtiger Arbeitsbereich, es ist nur die Seite, die angezeigt wird, wenn FreeCAD ohne geladenes Dokument geöffnet wird.

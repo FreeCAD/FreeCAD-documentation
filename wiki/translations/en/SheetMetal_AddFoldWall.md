@@ -18,23 +18,41 @@ The <img alt="" src=images/SheetMetal_AddFoldWall.svg  style="width:24px;"> **Sh
 
 ## Properties
 
--    **Bend Line**: Bend line. Default: none
+See also: [Property editor](Property_editor.md).
 
--    **Position**: Bend line position. Possible values: forward, middle, backward Default: forward
+A SheetMetal Fold object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
 
--    **Angle**: Bend angle. Default: 90.0
+### Data
 
--    **Base Object**: Base object. Default: none
 
--    **Invert**: Invert bend direction. Default: False
+{{Properties_Title|Base}}
 
--    **Invert bend**: Swap side to be bent. Default: False
+-    **Label|String**: Default value: The user editable name of this object, it may be any arbitrary UTF8 string.
 
--    **Kfactor**: Neutral axis position. Default: 0.50
+-    **Base Feature|Link|hidden**: Base Feature. Link to the parent feature.
 
--    **Radius**: Bend radius. Default: 1.0
+-    **_Body|LinkHidden|hidden**: Hidden link to the parent body.
 
--    **Unfold**: Unfold bend. Default: False
+
+{{Properties_Title|Parameters}}
+
+-    **Bend Line|Link**: \"Bend Reference Line List\". Links to the bend line objects.
+
+-    **Position|Enumeration**: \"Bend Line Position\". {{value|forward}} (default), {{value|middle}}, {{value|backward}}.
+
+-    **angle|Angle**: \"Bend Angle\". Default angle: {{value|90,00°}}.
+
+-    **base Object|LinkSub**: \"Base Object\". Link to the planar face to be bent.
+
+-    **invert|Bool**: \"Invert Bend Direction\". Default: `False`
+
+-    **invertbend|Bool**: \"Invert Solid Bend Direction\". Default:  `True` swaps the side of the line to be bent.
+
+-    **kfactor|FloatConstraint**: \"Neutral Axis Position\". Default: {{value|0,50}}.
+
+-    **radius|Length**: \"Bend Radius\". Default: {{value|1,00 mm}}.
+
+-    **unfold|Bool**: \"Unfold Bend\". Default: `False`
 
 ## Example
 

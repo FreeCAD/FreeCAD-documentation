@@ -1,5 +1,4 @@
 # Spreadsheet CSV/en
-
  The [CSV format](http://en.wikipedia.org/wiki/Comma-separated_values) (comma-separated values) is a plain-text format to exchange spreadsheet data. It can usually be imported and exported by any spreadsheet application such as LibreOffice or Microsoft Excel. Reading and writing to csv format is done with python\'s built-in [csv module](http://docs.python.org/2/library/csv.html).
 
 ## Importing

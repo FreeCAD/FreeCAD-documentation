@@ -1,6 +1,8 @@
 # Macro VisibleAlls/it
 
- {{Macro/it
+
+
+{{Macro/it
 |Name=Macro VisibleAlls
 |Icon=Macro_VisibleAlls.png
 |Description=Questa macro mostra tutti gli oggetti del documento (Visibility True).
@@ -23,7 +25,7 @@ ToolBar Icon <img alt="" src=images/Macro_VisibleAlls.png  style="width:64px;">
 **Macro\_VisibleAlls.FCMacro**
 
 
-{{MacroCode|code=
+```python
 import FreeCAD
 #Macro_VisibleAlls
 __title__="Macro_DisplayAllObjects"
@@ -38,7 +40,7 @@ try:
         FreeCADGui.ActiveDocument.getObject(ShapeNameObj.Name).Visibility = True
 except Exception:
     None
-}}
+```
 
 
 

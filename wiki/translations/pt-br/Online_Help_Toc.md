@@ -2,7 +2,6 @@
 
 
 
-
 <div class="mw-translate-fuzzy">
 
 Este é o índice utilizado para criação automática do sistema de ajuda on-line do FreeCAD. Também há uma versão para impressão deste manual [clicando aqui](https://github.com/FreeCAD/FreeCAD/releases).

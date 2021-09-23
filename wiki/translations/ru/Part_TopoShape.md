@@ -1,5 +1,4 @@
 # Part TopoShape/ru
-
  {{TOCright}}
 
 ## Введение

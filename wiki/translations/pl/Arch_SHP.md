@@ -1,5 +1,4 @@
 # Arch SHP/pl
-
  FreeCAD is able to import [shapefiles](https://en.wikipedia.org/wiki/Shapefile)
 
 The importer uses the shapefile.py library from <https://github.com/GeospatialPython/pyshp>, it is not found on your system on first run, the importer will propose to download and install it for you.

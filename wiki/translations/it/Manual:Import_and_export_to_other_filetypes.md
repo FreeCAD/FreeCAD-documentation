@@ -2,7 +2,6 @@
 
 
 
-
 <div class="mw-translate-fuzzy">
 
 
@@ -51,6 +50,9 @@ Alcuni di questi formati di file hanno delle opzioni. Questi formati possono ess
 
 **Approfondimenti**
 
+
+<div class="mw-translate-fuzzy">
+
 -   [Tutti i formati di file supportati da FreeCAD](Import_Export/it.md)
 -   [Lavorare con i file DXF in FreeCAD](Draft_DXF/it.md):
 -   [Abilitare il supporto per i file DXF e DWG](Dxf_Importer_Install/it.md)
@@ -60,6 +62,9 @@ Alcuni di questi formati di file hanno delle opzioni. Questi formati possono ess
 -   [Teigha File Converter](https://www.opendesign.com/guestfiles)
 -   [The IFC format](http://www.buildingsmart-tech.org/ifc/IFC4/final/html/index.htm)
 -   [IfcOpenShell](http://ifcopenshell.org/)
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

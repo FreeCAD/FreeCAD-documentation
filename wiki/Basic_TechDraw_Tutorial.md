@@ -1,5 +1,4 @@
 # Basic TechDraw Tutorial
-
   {{TutorialInfo
 |Topic=Modeling
 |Level=Beginner
@@ -54,8 +53,8 @@ Now we have a View on the Page looking down at the top of the Body. It is a litt
 Better, but a little boring. Let\'s add some Dimensions.
 
 1.  Select the top-left Vertex (small dot) with the **LMB** (Left Mouse Button), then also select (**Ctrl**+**LMB**) the bottom-left vertex.
-2.  Click on <img alt="" src=images/TechDraw_Dimension_Vertical.svg  style="width:32px;"> [TechDraw Dimension Vertical](TechDraw_Dimension_Vertical.md). Drag the dimension text away from the Body.
-3.  Try that again with the top-left and top-right Vertices and <img alt="" src=images/TechDraw_Dimension_Horizontal.svg  style="width:32px;"> [TechDraw Dimension Horizontal](TechDraw_Dimension_Horizontal.md).
+2.  Click on <img alt="" src=images/TechDraw_VerticalDimension.svg  style="width:32px;"> [TechDraw VerticalDimension](TechDraw_VerticalDimension.md). Drag the dimension text away from the Body.
+3.  Try that again with the top-left and top-right Vertices and <img alt="" src=images/TechDraw_HorizontalDimension.svg  style="width:32px;"> [TechDraw HorizontalDimension](TechDraw_HorizontalDimension.md).
 
 ![](images/TDTut_TopView2Dims.png )
 
@@ -97,7 +96,7 @@ Let\'s create a multiview drawing using a different Template as a starting point
 ![](images/TDTut_ProjGroup21.png )
 
 1.  In the View labelled \"TopLeftFront\", select the two Vertices at the extreme ends of the front edge of the work piece.
-2.  Click on <img alt="" src=images/TechDraw_Dimension_Length.svg  style="width:32px;"> [TechDraw Dimension Length](TechDraw_Dimension_Length.md). Drag the dimension text away from the Body.
+2.  Click on <img alt="" src=images/TechDraw_LengthDimension.svg  style="width:32px;"> [TechDraw LengthDimension](TechDraw_LengthDimension.md). Drag the dimension text away from the Body.
 
 ### Linking Dimensions to 3D Model 
 
@@ -109,7 +108,7 @@ From the first part of this tutorial, we know that the work piece is 53 mm wide,
 
 1.  Note the name of our faulty dimension in the Combo panel. We\'ll need it in a minute.
 2.  Change to the 3D tab and select the Vertices at the ends of the front edge of the work piece. Also select Page001.
-3.  Click on <img alt="" src=images/TechDraw_Dimension_Link.svg  style="width:32px;"> [TechDraw Dimension Link](TechDraw_Dimension_Link.md). A dialog will open in the Task panel.
+3.  Click on <img alt="" src=images/TechDraw_LinkDimension.svg  style="width:32px;"> [TechDraw LinkDimension](TechDraw_LinkDimension.md). A dialog will open in the Task panel.
 4.  In the dialog, move our dimension from the Available column to the Selected column. Press **OK**.
 5.  Return to Page001. Our dimension should now read the correct value of 53. (if you still see 43.27, you may need to press the **Recompute** button or drag the dimension value a bit until it changes.)
 

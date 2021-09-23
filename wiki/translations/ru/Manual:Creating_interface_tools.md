@@ -1,5 +1,4 @@
 # Manual:Creating interface tools/ru
-
  
 
 

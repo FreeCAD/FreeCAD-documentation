@@ -1,5 +1,4 @@
 # Tutorial for open windows
-
  
 
 

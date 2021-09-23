@@ -1,5 +1,4 @@
 # Artwork ReverseEngineering/ru
-
  
 
 Эти иконки находятся в указанной исходной папке.

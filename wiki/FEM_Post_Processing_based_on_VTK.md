@@ -1,5 +1,4 @@
 # FEM Post Processing based on VTK
-
 This page is dedicated to the description of the [Google Summer of Code](Google_Summer_of_Code.md) project idea regarding FEM post processing based on the VTK library.
 
 ## Outline

@@ -2,7 +2,6 @@
 
 
 
-
 <div class="mw-translate-fuzzy">
 
 Bu sayfa, beton yapılarla ilgili bazı ilginç konuları toplar:

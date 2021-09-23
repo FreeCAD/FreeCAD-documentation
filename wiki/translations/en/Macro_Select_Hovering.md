@@ -1,5 +1,4 @@
 # Macro Select Hovering/en
-
  {{Macro
 |Name=Macro Select Hovering
 |Icon=Macro_Select_Hovering.png

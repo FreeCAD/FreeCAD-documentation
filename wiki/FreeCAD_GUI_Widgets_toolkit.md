@@ -1,5 +1,4 @@
 # FreeCAD GUI Widgets toolkit
-
 ## Background
 
 Design456 is an external workbench that aims to provide a Direct Modeling solution within FreeCAD.

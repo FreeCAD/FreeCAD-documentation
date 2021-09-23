@@ -1,5 +1,4 @@
 # Macro Python Assistant Window
-
   {{Macro
 |Name=Macro Python Assistant Window
 |Description=This macro provides a cut/copy/paste workspace for Python code, it is segmented so different sections can be selected and it is persistent between FreeCAD sessions.
@@ -133,7 +132,7 @@ none (so far)
 ## Script
 
 
-{{VeryImportantMessage|'''If the script listing does not end with FreeCAD version information and a last line of "thus ends the macro..." then the Wiki has eaten the script again and you will have to download or copy it from [[http://pastebin.com/raw.php?i=2m0u94Z1 unabbreviated script on pastebin.com]]'''}}
+**'''If the script listing does not end with FreeCAD version information and a last line of "thus ends the macro..." then the Wiki has eaten the script again and you will have to download or copy it from [[http://pastebin.com/raw.php?i=2m0u94Z1 unabbreviated script on pastebin.com]]'''**
 
 
 

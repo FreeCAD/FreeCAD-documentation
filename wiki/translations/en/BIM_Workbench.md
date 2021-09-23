@@ -1,6 +1,5 @@
 # BIM Workbench/en
 
-
  
 
 <img alt="BIM External Workbench icon" src=images/IFC.svg  style="width:128px;">

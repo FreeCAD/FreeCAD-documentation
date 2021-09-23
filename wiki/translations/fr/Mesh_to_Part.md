@@ -2,7 +2,6 @@
 
 
 
-
 {{TOCright}}
 
 ## Conversion d\'objets Part en maillages 

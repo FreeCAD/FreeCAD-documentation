@@ -9,69 +9,88 @@
 
 ## Description
 
+La commande <img alt="" src=images/SheetMetal_SketchOnSheet.svg  style="width:16px;"> [Perçage de paroi](SheetMetal_SketchOnSheet/fr.md) découpe des trous le long des parois pliées d\'un objet en tôle. Pour la disposition des trous, une <img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;"> [esquisse](Sketcher_Workbench/fr.md) est utilisée.
 
-<div class="mw-translate-fuzzy">
-
-La commande <img alt="" src=images/SheetMetal_SketchOnSheet.svg  style="width:24px;"> **SheetMetal SketchOnSheet** découpe un trou dans la tôle à partir d\'un sketch.
-
-
-</div>
-
-In contrast to the <img alt="" src=images/PartDesign_Pocket.svg  style="width:16px;"> [PartDesign Pocket](PartDesign_Pocket.md) command, where holes are just cut along the sketch normal (local z axis), this tool acts as if it would unfold the sheet metal object, cut the holes, and refold the object.
+Contrairement à la commande <img alt="" src=images/PartDesign_Pocket.svg  style="width:16px;"> [PartDesign Cavité](PartDesign_Pocket/fr.md) où les trous sont simplement découpés le long de la normale à l\'esquisse (axe z local), cet outil agit comme s\'il dépliait l\'objet en tôle, découpait les trous et repliait l\'objet.
 
 ## Utilisation
 
-1.  Select a **planar face**
-2.  Select a coplanar <img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;"> [sketch](Sketcher_Workbench.md) (i.e. lying on the same plane) for the **hole layout** (preferably from the [tree view](tree_view.md)).
-    -   **Note:** Don\'t forget the **Control**/**Command** key!
-3.  Activate the <img alt="" src=images/SheetMetal_SketchOnSheet.svg  style="width:16px;"> Sketch On Sheet metal command using the:
+
+<div class="mw-translate-fuzzy">
+
+1.  Sélectionner une *face plane*.
+2.  Sélectionner une face coplanaire <img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;"> [esquisse](Sketcher_Workbench/fr.md). (c\'est-à-dire située sur le même plan) pour la **disposition des trous** (de préférence à partir de la [Vue en arborescence](Tree_view/fr.md)).
+    -   **Remarque:** N\'oubliez pas la touche **Control**/**Command** !
+3.  Activez la commande <img alt="" src=images/SheetMetal_SketchOnSheet.svg  style="width:16px;"> Sketch Perçage de paroi en faisant :
     -   
-        **<img src="images/SheetMetal_SketchOnSheet.svg" width=16px> [Sketch On Sheet metal](SheetMetal_SketchOnSheet.md)
+        **<img src="images/SheetMetal_SketchOnSheet.svg" width=16px> [Sketch On Sheet metal](SheetMetal_SketchOnSheet/fr.md)
 **
         
-        button
+        .
 
     -   
         **SheetMetal → <img src="images/SheetMetal_SketchOnSheet.svg" width=16px> Sketch On Sheet metal
 **
         
-        drop down menu
+        menu déroulant
 
-    -   keyboard shortcut: **M** then **S**
+    -   Raccourci clavier : **M** puis **S**
 
-## Notes
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+## Remarques
+
+-   L\'esquisse peut contenir plus d\'un contour.
+-   Tout contour doit au moins toucher la face planaire, sinon il ne fera pas de trou du tout.
+
+
+</div>
 
 -   The sketch may contain more than just one outline.
 -   Any outline has to touch the planar face, at least, otherwise it won\'t cut a hole at all.
 
 ## Propriétés
 
-### Data
+See also: [Property editor](Property_editor.md).
+
+A SheetMetal SketchOnSheet object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
+
+### Données
 
 
 {{Properties_Title|Base}}
+
+-    **Label|String**: Default value: The user editable name of this object, it may be any arbitrary UTF8 string.
+
+-    **Base Feature|Link|hidden**: Base Feature. Link to the parent feature.
+
+-    **_Body|LinkHidden|hidden**: Hidden link to the parent body.
 
 
 {{Properties_Title|Parameters}}
 
-### View
+-    **Sketch|Link**: \"Sketch on Sheetmetal\". Link to the hole layout/cut-out sketch.
+
+-    **base Object|LinkSub**: \"Base Object\". Link to the planar face where the cut-out starts.
+
+-    **kfactor|FloatConstraint**: \"Gap from Left Side\". Default: {{value|0,50}}.
+
+## Exemple
+
+<img alt="" src=images/SheetMetal_SketchOnSheet-05.png  style="width:300px;">
 
 
-{{Properties_Title|Base}}
+<div class="mw-translate-fuzzy">
 
 
-{{Properties_Title|Display Options}}
+*Un simple bidule*
 
 
-{{Properties_Title|Object Style}}
-
-
-{{Properties_Title|Selection}}
-
-## Example
-
-<img alt="" src=images/SheetMetal_SketchOnSheet-05.png  style="width:300px;"> 
-*A simple thingamajg*
+</div>
 
 
 <div class="mw-collapsible mw-collapsed">
@@ -79,25 +98,32 @@ In contrast to the <img alt="" src=images/PartDesign_Pocket.svg  style="width:16
 
 <div class="mw-collapsible-content">
 
-### Preparation
+### Préparation
 
-This thingamajg is made of a folded sheet metal object with holes added.  And so one open contour sketch for the sheet metal and one sketch for the hole layout have to be prepared in advance.  One straight line of the first sketch must be coplanar to the other sketch plane,  this will result in coplanar sketch and face used in the next steps.
+
+<div class="mw-translate-fuzzy">
+
+Ce bidule est constitué d\'un objet en tôle pliée auquel on a ajouté des trous.  Et donc il faut préparer à l\'avance une esquisse de contour ouvert pour la tôle et un croquis pour la disposition des trous.  Une ligne droite de la première esquisse doit être coplanaire à l\'autre plan de l\'esquisse, cela permettra d\'obtenir une esquisse et une face coplanaires utilisées dans les étapes suivantes.
+
+
+</div>
 
 <img alt="" src=images/SheetMetal_SketchOnSheet-01.png  style="width:200px;"> 
-*Just a contour and a hole layout*
+*Seulement un contour et une disposition des trous*
 
-### Workflow
+### Processus de travail 
 
-1.  Create a folded sheet metal object
-    1.  Select the **contour** sketch  <img alt="" src=images/SheetMetal_SketchOnSheet-02.png  style="width:240px;">
-    2.  Press the  or use the keyboard shortcut:  <img alt="" src=images/SheetMetal_SketchOnSheet-03.png  style="width:240px;">  
-2.  Cut some holes
-    1.  Select the **planar face**
-    2.  Select the **hole layout** sketch  <img alt="" src=images/SheetMetal_SketchOnSheet-04.png  style="width:240px;">
-    3.  Press the  or use the keyboard shortcut:  <img alt="" src=images/SheetMetal_SketchOnSheet-05.png  style="width:240px;">   Done!  
-3.  Some hints
-    1.  Check if the folded object\'s thickness is built to the right side.  <img alt="" src=images/SheetMetal_SketchOnSheet-06.png  style="width:240px;">   The yellow contour should lie on the top face of the bottom fold (as shown).  To reverse direction set the value of **Bend Side** property (Outside \<-\> Inside).  
-    2.  **Hole shapes** not touching the used planar face won\'t cut holes into the folded object.  <img alt="" src=images/SheetMetal_SketchOnSheet-07.png  style="width:240px;">  The lower rectangle which is hardly touching said face does cut a hole while the upper slot shape doesn\'t.
+1.  1.  Créer un objet en tôle pliée
+    2.  Sélectionnez l\'esquisse **contour**  <img alt="" src=images/SheetMetal_SketchOnSheet-02.png  style="width:240px;">
+    3.  Appuyez sur le bouton  <img alt="" src=images/SheetMetal_SketchOnSheet-03.png  style="width:240px;">  
+    4.  Découpez des trous
+    5.  Sélectionnez la **face planaire**.
+    6.  Sélectionnez l\'esquisse **disposition des trous**  <img alt="" src=images/SheetMetal_SketchOnSheet-04.png  style="width:240px;">
+    7.  Appuyez sur le bouton  <img alt="" src=images/SheetMetal_SketchOnSheet-05.png  style="width:240px;">  C\'est fait!  
+
+2.  Quelques conseils
+    1.  Vérifier si l\'épaisseur de l\'objet plié est construite sur le côté droit.  <img alt="" src=images/SheetMetal_SketchOnSheet-06.png  style="width:240px;">  Le contour jaune doit se trouver sur la face supérieure du pli inférieur (comme indiqué). Pour inverser la direction, définissez la valeur de la propriété **Bend Side** (Outside \<-\> Inside).  
+    2.  **Les formes de trous** ne touchant pas la face plane utilisée ne découperont pas de trous dans l\'objet plié.  <img alt="" src=images/SheetMetal_SketchOnSheet-07.png  style="width:240px;"> Le rectangle inférieur qui touche à peine ladite face découpe un trou alors que la forme de fente supérieure ne le fait pas.
 
 
 </div>

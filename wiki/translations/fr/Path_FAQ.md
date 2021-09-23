@@ -1,7 +1,6 @@
 # Path FAQ/fr
 
 
-
 ## FAQ Atelier Path 
 
 

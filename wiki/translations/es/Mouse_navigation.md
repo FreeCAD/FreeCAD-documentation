@@ -5,25 +5,48 @@
 
 
 
-
 {{TOCright}}
+
+## Overview
+
+
+<div class="mw-translate-fuzzy">
 
 ## Vista general 
 
 La **Navegación Ratón** de FreeCAD consiste en los comandos utilizados para navegar visualmente por el espacio tridimensional e interactuar con los objetos mostrados. Actualmente hay 3 esquemas diferentes de navegación con el ratón en FreeCAD. El estilo de navegación por defecto se denomina \"Navegación CAD\", y es muy simple y práctico, pero FreeCAD también tiene dos estilos de navegación alternativos modelados según la navegación de Inventor y Blender.
 
+
+</div>
+
+## Navigation
+
+
+<div class="mw-translate-fuzzy">
+
 ## Navegación
 
 Los gestos del ratón utilizados para la manipulación de objetos varían según el estilo de navegación seleccionado; el estilo seleccionado actualmente se utiliza para todos los ambientes de trabajo.
+
+
+</div>
 
 Hay dos formas de cambiar el estilo de navegación:
 
 -   En el [Editor de Preferencias](Preferences_Editor/es.md), sección Display, pestaña *Vista 3D*;
 -   Pulsando con el botón derecho en un área vacía de la vista 3D y seleccionando *Estilo de navegación* en el menú contextual.
 
+### CAD navigation 
+
+
+<div class="mw-translate-fuzzy">
+
 ### Navegación CAD 
 
 Este es el estilo de navegación por defecto y permite al usuario un control simple de la vista, y no requiere el uso del teclado con la excepción de la realización de selecciones múltiples.
+
+
+</div>
 
 
 {{CAD Navigation
@@ -56,9 +79,17 @@ With this method the middle mouse button may be released after the right mouse b
 Users who use the mouse with their right hand may find this method easier than the first method.
 }}
 
+### OpenInventor navigation 
+
+
+<div class="mw-translate-fuzzy">
+
 ### Navegación de Inventor 
 
 La navegación de OpenInventor (antes Inventor) fue modelada según [Open Inventor](http://en.wikipedia.org/wiki/Open_Inventor). Para seleccionar los objetos, debe mantener pulsada la tecla **Ctrl**.
+
+
+</div>
 
 Este modo no está basado en el Autodesk Inventor.
 
@@ -77,7 +108,13 @@ Alternatively, hold the middle mouse button, then press and hold the left mouse 
 |Rotate_view_text=Hold the left mouse button, then move the pointer.
 }}
 
+
+<div class="mw-translate-fuzzy">
+
 ### Navegación de Blender 
+
+
+</div>
 
 En la Navegación de Blender, no se puede hacer un encuadre sólo con el ratón. Para hacer un encuadre, debes mantener presionada la tecla **SHIFT**. {{Blender Navigation/es}}
 
@@ -98,7 +135,13 @@ Alternatively, hold both left and right mouse buttons, and then move the pointer
 
 Alternatively, hold both left and right mouse buttons, and then move the pointer. \|Zoom\_text=Use the mouse wheel to zoom in and out. \|Rotate\_view\_text=Hold the middle mouse button, then move the pointer. }}
 
+
+<div class="mw-translate-fuzzy">
+
 ### Navegación Touchpad 
+
+
+</div>
 
 En la Navegación Touchpad, ni el barrido, ni el acercamiento, ni la rotación de vista son operaciones exclusivas del ratón (o del touchpad). {{Touchpad Navigation/es}}
 
@@ -121,7 +164,13 @@ En la Navegación Touchpad, ni el barrido, ni el acercamiento, ni la rotación d
 |Rotate_view_alt_text=Alternatively, hold **Shift** and the left button, then move the pointer.
 }}
 
+
+<div class="mw-translate-fuzzy">
+
 ### Navegación Gestual 
+
+
+</div>
 
 This navigation style was tailored for usability with touchscreen and pen, but is very usable with mouse too. {{Gesture Navigation
 |Select_name=Select
@@ -158,7 +207,13 @@ Hold **Alt** when in the [Sketcher](Sketcher_Workbench.md). \|Tilt\_view\_text=H
 
 On v0.18 this method is disabled by default. To enable, go to **Edit → Preferences → Display**, and untick \"Disable touchscreen tilt gesture\" checkbox. }}
 
+
+<div class="mw-translate-fuzzy">
+
 ### Navegación Maya-Gestual 
+
+
+</div>
 
 En Navegación Maya-Gestual, la panorámica, el zoom y la rotación de la vista requieren la tecla **Alt** junto con un botón del ratón; por lo tanto, se requiere un ratón de tres botones. También es posible utilizar gestos, ya que este modo fue desarrollado sobre el modo [Navegación Gestual](#Navegación_Gestual.md). {{Navegación Maya-Gestual
 |Select_name=Selección
@@ -171,7 +226,13 @@ Traducción realizada con la versión gratuita del traductor www.DeepL.com/Trans
 
 Alternatively, use the mouse wheel to zoom in and out. \|Rotate\_view\_text=Hold **Alt** and the left mouse button, then move the pointer. }}
 
+
+<div class="mw-translate-fuzzy">
+
 ### Navegación Revit 
+
+
+</div>
 
 Este estilo fue introducido en la versión 0.18.
 
@@ -193,7 +254,13 @@ Alternatively, hold both left and right mouse buttons, then move the pointer.
 Alternatively, hold the middle mouse button, then press and hold the right mouse button, then move the pointer.
 }}
 
+
+<div class="mw-translate-fuzzy">
+
 ### OpenCascade
+
+
+</div>
 
 Este estilo fue introducido en la versión 0.18.
 
@@ -214,23 +281,69 @@ Alternatively, hold **Ctrl** and the left mouse button, then move the pointer.
 
 ## Seleccionando objetos 
 
+### Simple selection 
+
+
+<div class="mw-translate-fuzzy">
+
 ### Selección simple 
 
 Los objetos pueden seleccionarse mediante un clic con el botón izquierdo del ratón o bien pulsando sobre el objeto en [la vista 3D](3D_view/es.md) o seleccionándolo en la [vista en árbol](tree_view/es.md).
 
+
+</div>
+
+### Preselection
+
+
+<div class="mw-translate-fuzzy">
+
 También hay un mecanismo de preselección que resalta los tobjetos y muestra información de ellos antes de seleccionarlos con sólo pasar el ratón sobre ellos. Si no te gusta ese comportamiento o si tienes una máquina lenta, puedes desactivar la opción de preselección en el menú de *preferencias*.
+
+
+</div>
+
+## Manipulating objects 
+
+
+<div class="mw-translate-fuzzy">
 
 ## Manipulación de Objetos 
 
 FreeCAD ofrece [manipuladores](manipulator/es.md) que se pueden utilizar para modificar un objeto o su aspecto visual.
 
+
+</div>
+
 ## Soporte de Hardware 
+
+
+<div class="mw-translate-fuzzy">
 
 FreeCAD también soporta algún [Dispositivo de entrada 3D](3D_input_devices/es.md).
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 ## Problemas en Mac OS X 
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Recientemente hemos recibido reportes [en el foro](http://forum.freecadweb.org/viewtopic.php?f=3&t=3592&start=0) de usuarios Mac que esas combinaciones de ratón y tecla no funcionan como se espera. Desafortunadamente, ninguno de los desarrolladores posee una Mac, tampoco otros contribuidores regulares. Necesitamos de tu ayuda para determinar que combinaciones de ratón y tecla funcionan para poder actualizar este wiki.
+
+
+</div>
+
+## Developing a custom navigation 
+
+The tutorial [Adding a new mouse navigation option to FreeCAD](Adding_a_new_mouse_navigation_option_to_FreeCAD.md) orients developers who want to develop a custom mouse navigation option. Familiarity with the C++ syntax is required.
 
 
 

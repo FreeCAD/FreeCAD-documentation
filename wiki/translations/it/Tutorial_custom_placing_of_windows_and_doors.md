@@ -1,5 +1,4 @@
 # Tutorial custom placing of windows and doors/it
-
  {{TutorialInfo/it
 |Topic=Architettura
 |Level=Intermedio

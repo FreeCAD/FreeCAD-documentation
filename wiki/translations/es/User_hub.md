@@ -1,5 +1,4 @@
 # User hub/es
-
  <img alt="" src=images/User_hub.png  style="width:64px;">
 
 ------------------------------------------------------------------------
@@ -57,7 +56,7 @@ Ver también:
 
 -   <img alt="" src=images/Workbench_Mesh.svg  style="width:32px;"> El [Ambiente de Trabajo Malla](Mesh_Workbench/es.md) para trabajar con mallas trianguladas.
 
--   <img alt="" src=images/Workbench_OpenSCAD.svg  style="width:32px;"> El [Ambiente de trabajo OpenSCAD](OpenSCAD_Workbench/es.md) para la interoperabilidad con OpenSCAD y la reparación de [geometría sólida constructiva](constructive_solid_geometry/es.md) (CSG) del historial del modelo.
+-   <img alt="" src=images/Workbench_OpenSCAD.svg  style="width:32px;"> El [Ambiente de trabajo OpenSCAD](OpenSCAD_Workbench/es.md) para la interoperabilidad con OpenSCAD y la reparación de [geometría sólida constructiva](Constructive_solid_geometry/es.md) (CSG) del historial del modelo.
 
 -   <img alt="" src=images/Workbench_Part.svg  style="width:32px;"> El [Ambiente de Trabajo Pieza](Part_Workbench/es.md) para trabajar con piezas CAD.
 

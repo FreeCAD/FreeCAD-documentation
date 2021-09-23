@@ -1,10 +1,11 @@
 ---
-- GuiCommand:
-   Name:PartDesign Line
-   MenuLocation:Part Design → Create a datum → Create a datum line
-   Workbenches:[PartDesign](PartDesign_Workbench.md)
+- GuiCommand:/ru
+   Name/ru:Создать опорную линию
+   Name:PartDesign_Line
+   MenuLocation:Part Design → Create a datum → Создать опорную линию
+   Workbenches:[PartDesign](PartDesign_Workbench/ru.md)
    Version:0.17
-   SeeAlso:[PartDesign Point](PartDesign_Point.md), [PartDesign Plane](PartDesign_Plane.md)
+   SeeAlso:[Создать опорную точку](PartDesign_Point/ru.md), [Создать опорную плоскость](PartDesign_Plane/ru.md)
 ---
 
 ## Описание
@@ -14,7 +15,7 @@ Creates a **datum line** which can be used as reference for sketches, other datu
 <img alt="" src=images/datum_line.png  style="width:600px;"> 
 *Two Datum lines through opposite corners of the cube meet at the center of mass.*
 
-## Использование
+## Применение
 
 1.  Press the **<img src="images/PartDesign_Line.svg" width=24px> '''Create a datum line'''** button.
 2.  Define Line parameters. Select a first reference in the 3D view to filter the available attachment modes.
@@ -24,11 +25,11 @@ Creates a **datum line** which can be used as reference for sketches, other datu
 6.  Define Attachment Offset values.
 7.  Press **OK**.
 
-## Options
+## Опции
 
 Double-click the DatumLine label in the Model tree or right-click and select **Edit datum** in the contextual menu to edit its parameters. For more details about Attachment mode and Attachment offset, see [Part EditAttachment](Part_EditAttachment.md).
 
-## Properties
+## Свойства
 
 -    **MapMode**: lists the attachment mode used.
 

@@ -1,5 +1,4 @@
 # Macro CirclePlus
-
   {{Macro
 |Name=Macro CirclePlus
 |Icon=Macro_CirclePlus.png

@@ -1,6 +1,5 @@
 # Animation Workbench/fr
 
-
 {{Template:UnfinishedDocu
 
 }} 

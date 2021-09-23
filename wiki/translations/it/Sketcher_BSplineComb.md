@@ -25,6 +25,8 @@ The curvature comb indicates the curvature (value of the second-order derivative
 
 ![](images/sketcher_BSplineCurvatureShow.png ) *B-spline with a saddle point at its mid position - the curvature comb there is zero.*
 
+## Usage
+
 
 <div class="mw-translate-fuzzy">
 
@@ -47,4 +49,4 @@ The curvature comb indicates the curvature (value of the second-order derivative
 
 {{Sketcher Tools navi
 
-}}  
+}} 

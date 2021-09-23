@@ -2,7 +2,6 @@
 
 
 
-
 {{TutorialInfo/fr
 |Topic=Atelier Bateau
 |Level=Débutant
@@ -85,9 +84,9 @@ En exécutant le menu (Ship design/Load an example ship geometry) une boîte de 
 <div class="mw-translate-fuzzy">
 
 
-{{VeryImportantMessage|<center>'''Attention avant de continuer!'''</center>
+**<center>'''Attention avant de continuer!'''</center>
 <center>Vous travaillez maintenant avec le fichier exemple d'origine.</center>
-<center>Pour préserver l'original intact, vous devez enregistrer votre travail avec un autre nom avant de le modifier</center>}}
+<center>Pour préserver l'original intact, vous devez enregistrer votre travail avec un autre nom avant de le modifier</center>**
 
 
 </div>

@@ -1,5 +1,4 @@
 # Defeaturing Workbench/fr
-
  <img alt="Icône de l\'atelier Defeaturing" src=images/Defeaturing_workbench_icon.svg  style="width:128px;">
 
 ## Introduction

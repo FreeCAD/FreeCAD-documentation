@@ -1,5 +1,4 @@
 # Screenshots/it
-
  {{TOCright}}
 
 Ecco alcuni screenshot che mostrano diverse parti di FreeCAD. Essi non sono ordinati cronologicamente, quindi le immagini possono differire dalla versione attuale. Si possono vedere altre schermate presentate dagli utenti di FreeCAD in [screenshot forum thread](http://forum.freecadweb.org/viewtopic.php?f=8&t=4751) e in [\"Show your project here!\" Users Showcase forum part](http://forum.freecadweb.org/viewforum.php?f=24).

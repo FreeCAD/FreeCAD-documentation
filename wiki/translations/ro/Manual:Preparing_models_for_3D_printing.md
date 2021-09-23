@@ -5,7 +5,6 @@
 
 
 
-
 {{Manual:TOC/ro}}
 
 Una dintre principalele utilizări ale FreeCAD este de a produce obiecte în lumea reală. Acestea pot fi proiectate în FreeCAD și apoi materializat în diferite moduri, cum ar fi cele comunicarea altor persoane care le vor construi sau, tot mai des, trimise direct la o [3D printer](https://en.wikipedia.org/wiki/3D_printing) sau la o [CNC mill](https://en.wikipedia.org/wiki/Milling_%28machining%29). Capitolul său vă va arăta cum să vă pregătiți modelele pentru a le trimite la aceste mașini-unelte.

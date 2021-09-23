@@ -1,5 +1,4 @@
 # Image Workbench/de
-
  
 
 <img alt="Bild Arbeitsbereichssymbol" src=images/Workbench_Image.svg  style="width:128px;">

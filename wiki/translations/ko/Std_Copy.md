@@ -34,23 +34,10 @@
 -   FreeCAD 텍스트 창, 입력 박스 또는 스프레드시트에서 작업할 때 표준 단축키 **Ctrl**+**C**는 대부분의 경우 **표준 복사(Std Copy)** 명령을 호출하는 대신 OS의 복사(Copy) 기능을 사용합니다.
 -   FreeCAD와 다른 응용 프로그램간에 기본 개체를 복사, 붙여넣기 할 수 없습니다.
 
-## Scripting
-
-The **Std Copy** command can be applied after selecting one or more objects in the [Tree view](Tree_view.md):
-
-
-```python
-FreeCADGui.runCommand('Std_Copy')
-FreeCADGui.runCommand('Std_Paste')
-```
-
-The selection can be manual (by using the mouse), or via the [Python console](Python_console.md).
-To know more about selecting objects programmatically, refer to [Selection methods](Selection_methods.md).
-
 
 
 
 
 {{Std Base navi
 
-}}  
+}} 

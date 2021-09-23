@@ -1,5 +1,4 @@
 # Artwork Gui/de
-
   Diese Symbole befinden sich im angegebenen Quellpfad.
 
 Für alle Symbole im Quellbaum siehe [Grafik](Artwork/de.md).

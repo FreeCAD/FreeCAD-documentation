@@ -5,11 +5,10 @@
 
 
 
-
-{{VeryImportantMessage|L'ambiente Robot non è mantenuto. Se avete esperienza con l'argomento e se siete interessati a mantenerlo, vi preghiamo di dichiarare la vostra intenzione nella sezione degli sviluppatori del [https://forum.freecadweb.org/index.php forum di FreeCAD].
+**L'ambiente Robot non è mantenuto. Se avete esperienza con l'argomento e se siete interessati a mantenerlo, vi preghiamo di dichiarare la vostra intenzione nella sezione degli sviluppatori del [https://forum.freecadweb.org/index.php forum di FreeCAD].
 
 Il motivo per cui questo ambiente è ancora nel codice sorgente principale è perché esso è programmato in C++. Se fosse programmato in Python, allora potrebbe essere creato un [ambiente esterno](external_workbenches/it.md) e potrebbe essere spostato in un repository separato.
-}}
+**
 
 ## Introduzione
 

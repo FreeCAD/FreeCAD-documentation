@@ -1,5 +1,4 @@
 # NumPy
-
  
 
 ## Introduction

@@ -1,5 +1,4 @@
 # Macro crank simul/de
-
  {{Macro/de
 |Name=Crank Simul
 |Name/de=Kurbel Simulation

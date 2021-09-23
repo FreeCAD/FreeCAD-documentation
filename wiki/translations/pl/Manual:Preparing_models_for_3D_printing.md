@@ -5,7 +5,6 @@
 
 
 
-
 {{Manual:TOC/pl}}
 
 Jednym z głównych zastosowań programu FreeCAD jest produkcja rzeczywistych obiektów. Mogą one być zaprojektowane w FreeCAD, a następnie urzeczywistnione na różne sposoby, takie jak przekazanie ich innym ludziom, którzy następnie je zbudują, lub, coraz częściej, przesłanie ich bezpośrednio do [drukarki 3D](https://en.wikipedia.org/wiki/3D_printing) lub [frezarki CNC](https://en.wikipedia.org/wiki/Milling_%28machining%29). W tym rozdziale dowiesz się, jak przygotować swoje modele do przesłania do tych maszyn.
@@ -80,7 +79,7 @@ Po zainstalowaniu zarówno programu Cura, jak i środowiska pracy Cura, będzies
 ## Generowanie G-kodu 
 
 
-{{VeryImportantMessage|'''Ostrzeżenie:''' Ta sekcja została stworzona dla FreeCAD v0.16. Zostały wprowadzone znaczące zmiany w tworzeniu ścieżek. Proszę zapoznać się z dokumentacją środowiska pracy [Path](Path_Workbench/pl.md) ogólnie lub z poradnikiem na przykład [przejście po ścieżce](Path_Walkthrough_for_the_Impatient/pl.md)!}}
+**'''Ostrzeżenie:''' Ta sekcja została stworzona dla FreeCAD v0.16. Zostały wprowadzone znaczące zmiany w tworzeniu ścieżek. Proszę zapoznać się z dokumentacją środowiska pracy [Path](Path_Workbench/pl.md) ogólnie lub z poradnikiem na przykład [przejście po ścieżce](Path_Walkthrough_for_the_Impatient/pl.md)!**
 
 FreeCAD oferuje również bardziej zaawansowane sposoby bezpośredniego generowania G-kodu. Jest to często o wiele bardziej skomplikowane niż używanie automatycznych narzędzi, jak widzieliśmy powyżej, ale ma tę zaletę, że pozwala na pełną kontrolę wyjścia. Zazwyczaj nie jest to potrzebne przy korzystaniu z drukarek 3D, ale staje się bardzo ważne, gdy mamy do czynienia z frezowaniem CNC, jako że maszyny te są znacznie bardziej skomplikowane.
 

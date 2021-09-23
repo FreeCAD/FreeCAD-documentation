@@ -1,8 +1,4 @@
 # Draft SVG
-
-
-
-
  
 
 
@@ -50,9 +46,9 @@ SVG is a 2D format, so all Z information will be disregarded (all objects will b
 
 When exporting, a User Unit (px) equals one millimeter.
 
-When importing, the width, height and viewBox attributes are respected. All elements are scaled to their size in millimeter, which is FreeCAD internal unit. If the SVG does not contain information on its physical size, it is assumed to have 90 DPI resolution. Using absoulte units in attributes inside the SVG should be avoided. Relative units like em,ex and % are currently not supported.
+When importing, the width, height and viewBox attributes are respected. All elements are scaled to their size in millimeters, which is FreeCAD\'s internal unit. If the SVG does not contain information on its physical size, it is assumed to have a 90 DPI resolution. Using absolute units in attributes inside the SVG should be avoided. Relative units like em, ex and % are currently not supported.
 
-The [Inkscape](https://inkscape.org/) SVG Editor currently works only with **90 DPI** documents. No matter which unit is selected in Inkscape. All the output has to be considered converted to 90 DPI and **rounded** to 6 decimal places. As FreeCAD (and the SVG standard) is agnostic to the precision of rounding done in Inkscape these values will not be rounded on input. And odd values in millimeter will remain. If you need the SVG import not to be rounded, work on User Units (px) in Inkscape. Scaling can be done after the import to FreeCAD or by changing the width, height and viewbox attributes.
+The [Inkscape](https://inkscape.org/) SVG Editor currently works only with 90 DPI documents. No matter which unit is selected in Inkscape. All the output has to be considered converted to 90 DPI and rounded to 6 decimal places. As FreeCAD (and the SVG standard) is agnostic to the precision of rounding done in Inkscape these values will not be rounded on input. And odd values in millimeter will remain. If you need the SVG import not to be rounded, work on User Units (px) in Inkscape. Scaling can be done after the import in FreeCAD or by changing the width, height and viewbox attributes.
 
 ## Preferences
 

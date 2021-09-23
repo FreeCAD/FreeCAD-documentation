@@ -5,7 +5,7 @@
    MenuLocation:Sketch → Outils d'esquisse B-Spline → Afficher/masquer le polygone de contrôle de la B-spline
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
    Version:0.17
-   SeeAlso:[Sketcher Créer une B-spline](Sketcher_CompCreateBSpline.md)
+   SeeAlso:[Sketcher Créer une B-spline](Sketcher_CompCreateBSpline/fr.md)
 ---
 
 ## Description
@@ -24,4 +24,4 @@ Montre ou masque l\'affichage du polygone de définition d\'une courbe B-spline 
 
 {{Sketcher Tools navi
 
-}}  
+}} 

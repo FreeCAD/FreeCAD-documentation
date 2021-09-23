@@ -11,7 +11,7 @@
 ## Description
 
 
-{{VeryImportantMessage|Ce calculateur ne donne qu'une estimation de la quantité de poudre nécessaire. Une quantité trop importante ou trop faible peut entraîner l'échec de la récupération ou endommager votre fusée<br>'''TOUJOURS''' faire un essai au sol de votre fusée avant le vol}}
+**Ce calculateur ne donne qu'une estimation de la quantité de poudre nécessaire. Une quantité trop importante ou trop faible peut entraîner l'échec de la récupération ou endommager votre fusée<br>'''TOUJOURS''' faire un essai au sol de votre fusée avant le vol**
 
 L\'éjection se produit lorsque la chambre contenant le système de récupération est pressurisée avec une force suffisante pour éjecter le système de récupération de la chambre. La force nécessaire peut varier en fonction d\'un certain nombre de facteurs :
 

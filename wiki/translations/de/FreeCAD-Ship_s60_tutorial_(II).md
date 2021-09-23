@@ -2,7 +2,6 @@
 
 
 
-
 {{TutorialInfo/de
 |Topic=Schiff Arbeitsbereich
 |Level=Anfänger

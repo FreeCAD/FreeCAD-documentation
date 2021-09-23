@@ -14,7 +14,7 @@
 
 ![](images/SketcherTrimExample1.png ) ![](images/SketcherTrimExample2.png ) ![](images/SketcherTrimExample3.png )
 
-## Использование
+## Применение
 
 
 <div class="mw-translate-fuzzy">

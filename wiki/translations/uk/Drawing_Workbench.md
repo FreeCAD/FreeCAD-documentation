@@ -1,9 +1,8 @@
 # Drawing Workbench/uk
-
  
 
 
-{{VeryImportantMessage|Development of the [[Drawing Workbench]] stopped in FreeCAD 0.16, and the new [[TechDraw Workbench]] aiming to replace it was introduced in v0.17. Both workbenches are still provided in v0.17, but the Drawing Workbench may be removed in future releases.}}
+**Development of the [[Drawing Workbench]] stopped in FreeCAD 0.16, and the new [[TechDraw Workbench]] aiming to replace it was introduced in v0.17. Both workbenches are still provided in v0.17, but the Drawing Workbench may be removed in future releases.**
 
 <img alt="Drawing workbench icon" src=images/Workbench_Drawing.svg  style="width:128px;">
 

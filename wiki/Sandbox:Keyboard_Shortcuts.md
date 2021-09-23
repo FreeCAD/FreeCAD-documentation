@@ -1,6 +1,5 @@
 # Sandbox:Keyboard Shortcuts
 
-
 {{TOCright}}
 
 # Context

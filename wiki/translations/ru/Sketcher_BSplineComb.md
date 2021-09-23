@@ -10,16 +10,16 @@
 
 ## Описание
 
-Shows or hides the display of the Curvature Comb of a B-spline (see [this page](B-Splines.md) for more info about B-splines).
+Позволяет отобразить или скрыть гребень кривизны B-сплайна (см. [данную страницу](B-Splines/ru.md) для получения дополнительной информации о B-сплайнах).
 
-The curvature comb indicates the curvature (value of the second-order derivative) of the B-spline at every position. The higher the curvature at a position, the more is the the comb away from the curve. For positive curvatures (\"turn to the right\"), the comb is at the other side of the curve than for negative curvatures.
+Гребень кривизны указывает кривизну (значение производной второго порядка) B-сплайна в каждой позиции. Чем выше кривизна в положении, тем больше гребень отходит от кривой. При положительной кривизние (\"повернутой вправо\") гребень находится на другой стороне кривой, чем при отрицательной кривизне.
 
-![](images/sketcher_BSplineCurvatureShow.png ) *B-spline with a saddle point at its mid position - the curvature comb there is zero.*
+![](images/sketcher_BSplineCurvatureShow.png ) *B-сплайн с точкой оседлости в центральном положении - гребень кривизны там равняется нулю.*
 
-## Usage
+## Применение
 
-1.  Select a B-spline
-2.  Either use the toolbar button **<img src=images/Sketcher_BSplineComb.svg style="width:16px"> [Show/hide B-spline curvature comb](Sketcher_BSplineComb.md)** or use the menu **Sketch → Sketcher B-spline tools → Show/Hide B-spline curvature comb**.
+1.  Выберите B-сплайн
+2.  Используйте кнопку панели инструментов **<img src=images/Sketcher_BSplineComb.svg style="width:16px"> [Показать/скрыть гребень кривизны B-сплайна](Sketcher_BSplineComb/ru.md)**, либо выберите пункт меню **Sketch → B-сплйан инструменты эскиза → Показать/скрыть гребень кривизны B-сплайна**.
 
 
 
@@ -27,4 +27,4 @@ The curvature comb indicates the curvature (value of the second-order derivative
 
 {{Sketcher Tools navi
 
-}}  
+}} 

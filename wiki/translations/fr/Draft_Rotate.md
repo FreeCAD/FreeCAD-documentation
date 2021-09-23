@@ -1,7 +1,7 @@
 ---
 - GuiCommand:/fr
    Name:Draft Rotate
-   Name/fr:Draft Rotation
+   Name/fr:Draft Pivoter
    MenuLocation:Modification → Pivoter
    Workbenches:[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
    Shortcut:**R** **O**
@@ -11,12 +11,12 @@
 
 ## Description
 
-La commande <img alt="" src=images/Draft_Rotate.svg  style="width:24px;"> **Draft Rotation** permet de faire pivoter ou de copier les objets sélectionnés autour d\'un point central selon un angle donné. En mode sous-élément, la commande fait tourner les points et les bords sélectionnés ou copie les bords sélectionnés des [Draft Lignes](Draft_Line/fr.md) et [Draft Polylignes](Draft_Wire/fr.md).
+La commande <img alt="" src=images/Draft_Rotate.svg  style="width:24px;"> **Draft Pivoter** permet de faire pivoter ou de copier les objets sélectionnés autour d\'un point central selon un angle donné. En mode sous-élément, la commande fait tourner les points et les bords sélectionnés ou copie les bords sélectionnés des [Draft Lignes](Draft_Line/fr.md) et [Draft Polylignes](Draft_Wire/fr.md).
 
 Cette commande peut être utilisée sur des objets 2D créés avec l\'[atelier Draft](Draft_Workbench/fr.md) ou l\'[atelier Sketcher](Sketcher_Workbench/fr.md), mais aussi sur de nombreux objets 3D tels que ceux créés avec l\'[atelier Part](Part_Workbench/fr.md), l\'[atelier PartDesign](PartDesign_Workbench/fr.md) ou l\'[atelier Arch](Arch_Workbench/fr.md).
 
 <img alt="" src=images/Draft_Rotate_example.jpg  style="width:400px;"> 
-*Rotation d'un objet autour d'un point central*
+*Pivoter un objet autour d'un point central*
 
 ## Utilisation
 
@@ -24,8 +24,8 @@ Voir aussi : [Draft Accrochage](Draft_Snap/fr.md) et [Draft Contrainte](Draft_Co
 
 1.  Sélectionnez un ou plusieurs objets ou un ou plusieurs sous-éléments de [Draft Lignes](Draft_Line/fr.md) ou [Draft Polylignes](Draft_Wire/fr.md).
 2.  Il existe plusieurs façons de lancer la commande :
-    -   Appuyez sur le **<img src="images/Draft_Rotate.svg" width=16px> [Rotation des objets sélectionnés](Draft_Rotate/fr.md)**.
-    -   Sélectionnez l\'option **Modification → <img src="images/Draft_Rotate.svg" width=16px> Rotation** dans le menu.
+    -   Appuyez sur le **<img src="images/Draft_Rotate.svg" width=16px> [Pivoter](Draft_Rotate/fr.md)**.
+    -   Sélectionnez l\'option **Modification → <img src="images/Draft_Rotate.svg" width=16px> Pivoter** dans le menu.
     -   Utilisez le raccourci clavier : **R** puis **O**.
 3.  Si vous n\'avez pas encore sélectionné d\'objet : sélectionnez un objet dans la [Vue 3D](3D_view/fr.md).
 4.  Le panneau de tâches **Rotate** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.

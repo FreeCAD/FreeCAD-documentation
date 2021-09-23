@@ -1,5 +1,4 @@
 # Macro Half-Hull Model/it
-
  {{Macro/it
 |Name=Macro Half-Hull Model
 |Name/it=Mezzo scafo

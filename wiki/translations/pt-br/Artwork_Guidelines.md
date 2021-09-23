@@ -1,7 +1,6 @@
 # Artwork Guidelines/pt-br
 
 
-
 ## Introduction
 
 

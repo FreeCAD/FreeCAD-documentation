@@ -25,25 +25,17 @@ Das Bogen Werkzeug erstellt einen Kreisbogen in der aktuellen [Arbeitsebene](Dra
 
 A Draft Arc is in fact a [Draft Circle](Draft_Circle.md) with a **First Angle** that is not the same as its **Last Angle**.
 
-<img alt="" src=images/Draft_Arc_example.jpg  style="width:400px;">
-
-
-<div class="mw-translate-fuzzy">
-
-
-*Bogen definiert durch vier Punkte, Mittelpunkt, Radius, Startpunkt und letzter Punkt des Bogens.*
-
-
-</div>
-
-## Usage
-
-See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
-
-
-<div class="mw-translate-fuzzy">
+<img alt="" src=images/Draft_Arc_example.jpg  style="width:400px;"> 
+*Bogen definiert durch vier Punkte, Mittelpunkt, Radius, Startpunkt und letzter Punkt des Bogens*
 
 ## Anwendung
+
+Siehe auch: [Entwurf Ablage](Draft_Tray/de.md), [Entwurf Fang](Draft_Snap/de.md) und [Entwurf beschränken](Draft_Constrain/de.md).
+
+
+<div class="mw-translate-fuzzy">
+
+## Anwendung 
 
 1.  Drücke den **<img src="images/Draft_Arc.svg" width=16px> [Bogen](Draft_Arc/de.md)
 ** Taste oder drücke **A**, dann **R**
@@ -55,14 +47,14 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 
 </div>
 
-## Options
+## Optionen
 
-The single character keyboard shortcuts available in the task panel can be changed. See [Draft Preferences](Draft_Preferences.md). The shortcuts mentioned here are the default shortcuts.
+Die im Aufgabenpaneel verfügbaren Einzelzeichen-Tastaturkürzel können geändert werden. Siehe [Entwurf Einstellungen](Draft_Preferences/de.md). Die hier genannten Tastenkürzel sind die Standardtastenkürzel.
 
 
 <div class="mw-translate-fuzzy">
 
-## Optionen
+## Optionen 
 
 -   Die primäre Anwendung des Kreisbogen-Werkzeugs erfolgt durch Auswahl von vier Punkten: dem Mittelpunkt, einem Punkt auf dem Umkreis, dem Startwinkel und dem Endpunkt.
 -   Durch Drücken von **Alt** kannst Du eine Tangente anstatt eines Punkts zur Definition des Basiskreises des Bogens auswählen. Du kannst deshalb verschiedene Kreisarten durch Auswahl von ein, zwei oder drei Tangenten erstellen.
@@ -77,57 +69,26 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 </div>
 
-## Notes
+## Hinweise
 
+-   Ein Bogen kann mit dem [Bearbeiten](Draft_Edit/de.md)-Befehl geändert werden.
 
-<div class="mw-translate-fuzzy">
+## Einstellungen
 
-Der Bogen kann durch doppelklicken des Element in der Baumansicht geändert werden oder durch drücken des **<img src="images/Draft_Edit.svg" width=16px> [Bearbeiten](Draft_Edit/de.md)**-Buttons. Dann kannst Du den Mittelpunkt an eine andere Position ziehen.
-
-
-</div>
-
-## Preferences
-
-See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
+Siehe auch: [Einstellungseditor](Preferences_Editor/de.md) und [Entwurf Einstellungen](Draft_Preferences/de.md).
 
 -   To change the number of decimals used for the input of coordinates, radii and angles: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
 -   If the **Edit → Preferences... → Draft → General settings → Draft tools options → Use Part Primitives when available** option is checked, the command will create a [Part Circle](Part_Circle.md) instead of a Draft Circle.
 
-## Properties
-
-
-<div class="mw-translate-fuzzy">
-
 ## Eigenschaften
 
-Ein Bogen-Objekt hat die gleichen Eigenschaften wie ein [Kreis](Draft_Circle/de.md), aber einige Eigenschaften sind nur bei einem Kreis sinnvoll.
+Siehe [Draft Kreis](Draft_Circle/de#Properties.md).
 
+## Skripten
 
-</div>
+Siehe auch: [Autogenerierte API Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-## Scripting
-
-
-<div class="mw-translate-fuzzy">
-
-## Scripting 
-
-
-**Siehe auch:**
-
-[Draft API](Draft_API/de.md) und [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics/de.md).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Das Kreis-Werkzeug kann verwendet werden, um Kreisbögen in [Makros](macros/de.md) und in der [Python](Python.md)-Konsole durch Nutzung der folgenden Funktion mit zusätzlichen Argumenten zu erzeugen. Siehe die Informationen in [Kreis](Draft_Circle/de.md).
-
-
-</div>
+Um einen Entwurf Bogen zu erstellen, verwende die Methode `make_circle` (<small>(v0.19)</small> ) des Entwurfmoduls. Diese Methode ersetzt die veraltete Methode `makeCircle`.
 
 Beispiel:
 
@@ -146,13 +107,7 @@ doc.recompute()
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
  

@@ -1,7 +1,6 @@
 # Macro at Startup/de
 
 
-
 ## Einführung
 
 
@@ -123,7 +122,7 @@ Beachte, dass, wenn das Originalmakro über den Erweiterungsverwalter herunterge
 ## General Notes 
 
 -   In the example \'InitGui.py\' script above, the function named \'runStartupMacros()\' may be changed, so long as you also change the other four references to it, so they all match.
--   This script will be run prior to the auto loading of your desired startup workbench in the FreeCAD Preferences, [Preferences\_Editor\#General\_settings](Preferences_Editor#General_settings.md).
+-   This script will be run prior to the auto loading of your desired startup workbench in the FreeCAD Preferences, [General settings](Preferences_Editor#General_settings.md).
 
 ### Linux
 

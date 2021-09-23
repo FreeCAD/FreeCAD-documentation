@@ -1,5 +1,4 @@
 # Macro FlattenWire3Points/pl
-
  {{Macro
 |Name=FlattenWire3Points
 |Name/pl=FlattenWire3Points

@@ -2,7 +2,6 @@
 
 
 
-
 <div class="mw-translate-fuzzy">
 
 FreeCADオンラインヘルプシステムの目次です。ここで参照された記事は、wiki2chm.pyツールによって自動的にFreeCAD.chmファイルに取り込まれます。このツールはsrc/Tools/wiki2chm.pyにあります。このマニュアルの[印刷用バージョンも利用できます](Manual/jp.md)。

@@ -3,44 +3,19 @@
 
 
 
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 {{TOCright}}
 
 ## Descrizione
 
+L\'[editor delle proprietà](property_editor/it.md) appare quando è attiva la scheda **Modello** della [vista combinata](combo_view/it.md) nell\'[interfaciia](interface/it.md); consente di gestire le proprietà degli oggetti nel documento.
 
-<div class="mw-translate-fuzzy">
-
-L\'[editore delle proprietà](property_editor/it.md) appare quando è attiva la scheda **Modello** della vista combinata; consente di gestire le proprietà degli oggetti nel documento.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Generalmente, l\'editore delle proprietà è destinato a gestire solo un oggetto alla volta. I valori mostrati nell\'editore appartengono all\'oggetto attivo del documento attivo. Alcune proprietà come i colori, possono però essere impostate per più oggetti selezionati. Se non ci sono elementi selezionati, l\'editore delle proprietà è vuoto.
-
-
-</div>
+Generalmente, l\'editor delle proprietà è destinato a gestire solo un oggetto alla volta. I valori mostrati nell\'editor appartengono all\'oggetto selezionato nel documento attivo. Nonostante questo, alcune proprietà come i colori, possono essere impostate per più oggetti selezionati. Se non ci sono elementi selezionati, l\'editor delle proprietà è vuoto.
 
 Non tutte le proprietà possono sempre essere modificate; a seconda dello stato specifico della proprietà, alcune di esse possono essere invisibili (non elencate) o di sola lettura (non modificabili). {{TOCright}}
 
-
-<div class="mw-translate-fuzzy">
-
-![](images/FreeCAD_Properties_empty.png )
-
-
-</div>
+![](images/FreeCAD_Property_editor_empty.png )
 
 
 *Editore delle proprietà vuoto, quando nessun oggetto è selezionato.*
@@ -73,20 +48,14 @@ Ci sono due classi di proprietà delle funzioni accessibili tramite le schede ne
 -   Proprietà **Vista** relative all\'aspetto \"visivo\" dell\'oggetto. Le proprietà **Vista** sono legate all\'attributo **ViewProvider** (`ViewObject`) dell\'oggetto e sono accessibili solo quando viene caricata l\'interfaccia utente grafica (GUI). Non sono accessibili quando si utilizza FreeCAD in modalità console o come libreria senza testa.
 -   Proprietà **Dati** relative ai parametri \"fisici\" dell\'oggetto. Le proprietà **Dati** definiscono le caratteristiche essenziali dell\'oggetto; esistono sempre, anche quando FreeCAD viene utilizzato in modalità console o come libreria. Ciò significa che se si carica un documento in modalità console, è possibile modificare il raggio di un cerchio o la lunghezza di una linea, anche se non è possibile visualizzare il risultato sullo schermo.
 
-
-<div class="mw-translate-fuzzy">
-
-Per questo motivo, le proprietà **Dati** sono considerate più \"reali\", in quanto definiscono veramente la geometria di una forma. Invece le proprietà **Vista** sono meno importanti perché influenzano solo l\'aspetto della geometria. Ad esempio, un cerchio di raggio di 10 mm è diverso da un cerchio di raggio di 5 mm; il colore del cerchio (proprietà vista) non influisce sulla sua forma, ma il raggio (proprietà dati) sì. In molti casi in questa documentazione, si intende che la parola \"proprietà\" si riferisce a una \"proprietà dati\".
-
-
-</div>
+Per questo motivo, le proprietà **Dati** sono considerate più \"reali\", in quanto definiscono veramente la geometria di una forma. Invece le proprietà **Vista** sono meno importanti perché influenzano solo l\'aspetto supericiale della geometria. Ad esempio, un cerchio di raggio di 10 mm è diverso da un cerchio di raggio di 5 mm; il colore del cerchio (proprietà vista) non influisce sulla sua forma, ma il raggio (proprietà dati) sì. In molti casi in questa documentazione, si intende che la parola \"proprietà\" si riferisce a una \"proprietà dati\" e non ad una \"proprietà vista\".
 
 ### Proprietà di base 
 
 
-**See also: [Object name](Object_name.md)**
+**Vedere anche: [Nome dell'oggetto](Object_name/it.md)**
 
-L\'oggetto [script](scripted_objects/it.md) più semplice non mostra alcuna proprietà **Dati** nell\'editore delle proprietà, ad eccezione dell\'attributo `Label`. {{Incode|Label}} è una stringa modificabile dall\'utente che identifica l\'oggetto nella [vista ad albero](tree_view/it.md). Invece, l\'attributo `Name` di un oggetto viene assegnato al momento della sua creazione e non può essere modificato; questo attributo è di sola lettura e non viene nemmeno visualizzato nell\'editor delle proprietà.
+L\'oggetto [script](scripted_objects/it.md) più semplice non mostra alcuna proprietà **Dati** nell\'editor delle proprietà, ad eccezione dell\'attributo `Label`. {{Incode|Label}} è una stringa modificabile dall\'utente che identifica l\'oggetto nella [vista ad albero](tree_view/it.md). Invece, l\'attributo `Name` di un oggetto viene assegnato al momento della sua creazione e non può essere modificato; questo attributo è di sola lettura e non viene nemmeno visualizzato nell\'editor delle proprietà.
 
 Un oggetto parametrico di base viene creato nel modo seguente:
 
@@ -98,32 +67,14 @@ print(obj.Name)
 print(obj.Label)
 ```
 
-
-<div class="mw-translate-fuzzy">
-
-<img alt="" src=images/FreeCAD_Properties_View_basic.png  style="width:" height="264px;"> <img alt="" src=images/FreeCAD_Properties_Data_basic.png  style="width:" height="264px;">
-
-
-</div>
+<img alt="" src=images/FreeCAD_Property_editor_View_basic.png  style="width:" height="264px;"> <img alt="" src=images/FreeCAD_Property_editor_Data_basic.png  style="width:" height="264px;">
 
 
 *Schede Vista e Dati dell'editor delle proprietà, per un oggetto script di base "App::FeaturePython".*
 
+La maggior parte degli oggetti geometrici che possono essere creati e visualizzati nella [vista 3D](3D_view/it.md) sono derivati da una `Part::Feature`. Vedere [Part Feature](Part_Feature/it.md) per le proprietà più basilari di questi oggetti.
 
-<div class="mw-translate-fuzzy">
-
-La maggior parte degli oggetti geometrici che possono essere creati e visualizzati nella [vista 3D](3D_view/it.md) sono derivati da una [`Part::Feature`](Part_Feature/it.md). Vedere [Part Feature](Part_Feature/it.md) per le proprietà più basilari di questi oggetti.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Per la geometria 2D, la maggior parte degli oggetti deriva da [`Part::Part2DObject`](Part_Part2DObject/it.md) (essi stessi derivati da [`Part::Feature`](Part_Feature/it.md)) che sono la base di [Schizzi](Sketcher_Workbench/it.md), e di molti elementi di [Draft](Draft_Workbench/it.md). Vedere [Part Part2DObject](Part_Part2DObject/it.md) per le proprietà più basilari di questi oggetti.
-
-
-</div>
+Per la geometria 2D, la maggior parte degli oggetti deriva da `Part::Part2DObject` (essi stessi derivati da `Part::Feature`) che sono la base di [Schizzi](Sketch/it.md), e di molti elementi di [Draft](Draft_Workbench/it.md). Vedere [Part Part2DObject](Part_Part2DObject/it.md) per le proprietà più basilari di questi oggetti.
 
 ## Azioni
 
@@ -338,13 +289,10 @@ print(obj.ViewObject.PropertiesList)
 ```
 
 
-<div class="mw-translate-fuzzy">
-
-
-{{docnav/it|[Personalizzare l'interfaccia](Interface_Customization/it.md)|[Ambienti di lavoro](Workbenches/it.md)}}
-
-
-</div>
+{{docnav/it
+|[Struttura del documento](Document_structure/it.md)
+|[Ambienti di lavoro](Workbenches/it.md)
+}}
 
 
 {{Interface navi

@@ -1,7 +1,6 @@
 # IfcPlusPlus/fr
 
 
-
 ## Description
 
 

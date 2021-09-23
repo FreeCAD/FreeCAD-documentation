@@ -1,5 +1,4 @@
 # Feature list/bg
-
  
 
 This is an extensive, but not complete, list of features which FreeCAD implements. If you want to look into the future see the [Development roadmap](Development_roadmap.md) for a quick overview of what\'s coming next. Also, the [Screenshots](Screenshots.md) are a nice place to go.

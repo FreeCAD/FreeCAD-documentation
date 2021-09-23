@@ -1,5 +1,4 @@
 # VRML Preparation for Robot Simulation/de
-
  {{TutorialInfo/de
 |Topic=Roboter Arbeitsbereich
 |Level=Mittelschwer
@@ -10,7 +9,7 @@
 }}
 
 
-{{VeryImportantMessage|Der FreeCAD Roboter Arbeitsbereich wird nicht gewartet. Bitte erwähne im FreeCAD Forum, wenn du daran interessiert bist, diesen Arbeitsbereich zu warten.}}
+**Der FreeCAD Roboter Arbeitsbereich wird nicht gewartet. Bitte erwähne im FreeCAD Forum, wenn du daran interessiert bist, diesen Arbeitsbereich zu warten.**
 
 ## Übersicht
 

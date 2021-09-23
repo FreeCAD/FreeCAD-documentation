@@ -1,7 +1,6 @@
 # AppImage/it
-
- {{VeryImportantMessage|A partire dal 7 luglio 2019, la comunità di FreeCAD ha segnalato che il download di AppImages da Github sembra terminare prima del completamento. Non sappiamo perché accade questo. In questo caso, provare a scaricare di nuovo. Ci vogliono alcuni tentativi. Una pratica consigliata è quella di utilizzare la [https://wiki.freecadweb.org/AppImage/it#Aggiornamento_automatico funzione di aggiornamento automatico] di AppImage, che ripristina il download dal punto in cui si è interrotto.
-}}
+ **A partire dal 7 luglio 2019, la comunità di FreeCAD ha segnalato che il download di AppImages da Github sembra terminare prima del completamento. Non sappiamo perché accade questo. In questo caso, provare a scaricare di nuovo. Ci vogliono alcuni tentativi. Una pratica consigliata è quella di utilizzare la [https://wiki.freecadweb.org/AppImage/it#Aggiornamento_automatico funzione di aggiornamento automatico] di AppImage, che ripristina il download dal punto in cui si è interrotto.
+**
 
 
 {{TOCright}}
@@ -26,7 +25,7 @@ Per altri tipi di installazione vedere [Download](Download/it.md).
 <div class="mw-translate-fuzzy">
 
 
-{{VeryImportantMessage|Se i seguenti link di download non funzionano, scaricare manualmente i file dalla sezione "Assets" in [https://github.com/FreeCAD/FreeCAD/releases '''FreeCAD Github Releases''']}}
+**Se i seguenti link di download non funzionano, scaricare manualmente i file dalla sezione "Assets" in [https://github.com/FreeCAD/FreeCAD/releases '''FreeCAD Github Releases''']**
 
 
 </div>

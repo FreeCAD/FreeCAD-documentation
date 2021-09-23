@@ -1,5 +1,4 @@
 # User hub/ru
-
  <img alt="" src=images/User_hub.png  style="width:64px;">
 
 ------------------------------------------------------------------------
@@ -32,28 +31,16 @@
 
 ### Основные элементы Приложения 
 
-
-<div class="mw-translate-fuzzy">
-
 -   [Интерфейс](Interface/ru.md): интерфейс FreeCAD составлен из различных графических элементов на экране, включая [трёхмерный вид](3D_view/ru.md), [древо проекта](Tree_view/ru.md), [редактор свойств](Property_editor/ru.md), [панель задач](Task_panel/ru.md), и [консоль Python](Python_console/ru.md).
--   [Навигация мышью](Mouse_Model/ru.md): различные способы использования мыши или трэкпада для навигации в панели трёхмерного вида.
+-   [Навигация мышью](Mouse_navigation/ru.md): различные способы использования мыши или трэкпада для навигации в панели трёхмерного вида.
 -   [Методы выделения](Selection_methods/ru.md): различные методы выделения объектов в программе.
 -   [Object name](Object_name/ru.md): все объекты имеют атрибут только для чтения `Name`, который уникально идентифицирует их, и `Label`, редактируемый пользователем.
 -   [Редактор настроек](Preferences_Editor/ru.md): система, позволяющая управлять множеством свойств базовой системы и отдельных верстаков.
 -   [Форматы файлов](Import_Export/ru.md): различные форматы файлов, которые FreeCAD может читать и записывать
 
-
-</div>
-
 ### Верстаки
 
-
-<div class="mw-translate-fuzzy">
-
-[Верстаки](Workbenches/ru.md) это коллекции инструментов, используемых для специальных задач. Это базовые верстаки, поставляемые в комплекте с каждой установкой FreeCAD:
-
-
-</div>
+[Верстаки](Workbenches/ru.md) - это наборы инструментов, используемые для решения определенных задач. Далее перечислены базовые верстаки, идущие в комплекте с каждой установкой FreeCAD:
 
 -   <img alt="" src=images/Freecad.svg  style="width:32px;"> [Std Base](Std_Base.md). This is not really a workbench, but rather a category of \'standard\' commands and tools that can be used in all workbenches.
 
@@ -69,7 +56,7 @@
 
 -   <img alt="" src=images/Workbench_Mesh.svg  style="width:32px;"> The [Mesh Workbench](Mesh_Workbench.md) for working with triangulated meshes.
 
--   <img alt="" src=images/Workbench_OpenSCAD.svg  style="width:32px;"> The [OpenSCAD Workbench](OpenSCAD_Workbench.md) for interoperability with OpenSCAD and repairing [constructive solid geometry](constructive_solid_geometry.md) (CSG) model history.
+-   <img alt="" src=images/Workbench_OpenSCAD.svg  style="width:32px;"> The [OpenSCAD Workbench](OpenSCAD_Workbench.md) for interoperability with OpenSCAD and repairing [constructive solid geometry](Constructive_solid_geometry.md) (CSG) model history.
 
 -   <img alt="" src=images/Workbench_Part.svg  style="width:32px;"> The [Part Workbench](Part_Workbench.md) for working with CAD parts.
 
@@ -105,13 +92,7 @@
 
 Опытные пользователи написали различные [макросы](macros.md) для расширения возможностей FreeCAD.
 
-
-<div class="mw-translate-fuzzy">
-
-Начиная с версии FreeCAD 0.17,многие макросы можно установить с помощью [Менеджера Дополнений](Std_AddonMgr/ru.md). Список макросов приведен на странице [рецепты макросов](macros_recipes/ru.md). Для ручной установки см. [Как установить макросы](How_to_install_macros/ru.md).
-
-
-</div>
+Начиная с версии FreeCAD 0.17,многие макросы можно установить с помощью [Менеджера Дополнений](Std_AddonMgr/ru.md). Список макросов приведен на странице [рецепты макросов](Macros_recipes/ru.md). Для ручной установки см. [Как установить макросы](How_to_install_macros/ru.md).
 
 ### Сторонние Верстаки 
 

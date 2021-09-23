@@ -1,5 +1,4 @@
 # Combo view/de
-
  {{TOCright}}
 
 ## Einführung

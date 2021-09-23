@@ -1,5 +1,4 @@
 # Artwork Sketcher/pl
-
  
 
 These icons are in the indicated source path.

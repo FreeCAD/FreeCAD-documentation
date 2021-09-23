@@ -1,5 +1,4 @@
 # Macro Animated Constrain/en
-
  {{Macro
 |Name=Animated Constrain
 |Icon=Macro_Animated_Constrain.png

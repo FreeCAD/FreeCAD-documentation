@@ -1,5 +1,4 @@
 # Arch DAE/pl
-
  
 
 Format [Collada *(DAE)*](https://en.wikipedia.org/wiki/COLLADA) jest standardowym formatem plików do wymiany danych Siatki. Środowisko pracy [Architektura](Arch_Workbench/pl.md) może importować siatki z plików .dae i eksportować obiekty Arch i inne oparte na [kształtach](Part_Workbench/pl.md) do formatu .dae.

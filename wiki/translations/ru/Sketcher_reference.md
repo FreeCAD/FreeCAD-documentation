@@ -1,7 +1,6 @@
 # Sketcher reference/ru
 
 
-
 ## Введение
 
 User **chrisb** wrote a lengthy 70-page reference manual for the [Sketcher Workbench](Sketcher_Workbench.md) that covers many topics of using this workbench. For inexperienced users, it is a gentle introduction that covers the basic usage of the Sketcher, and then goes into many details of creating geometrical elements, and using each type of constraint.

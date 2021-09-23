@@ -1,5 +1,4 @@
 # Fastener holes
-
 This macro creates shapes to act as holes when cut to other shapes. It makes easy and fast the creation and tweaking of all needed parts. It may be very useful when designing parts for 3D printing and others.
 
 It recognizes the preselection (faces, edges or points) and place the hole in the center of it.

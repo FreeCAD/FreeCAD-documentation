@@ -2,8 +2,7 @@
 
 
 
-
-{{VeryImportantMessage|Le développement de l'[atelier Mise en plan](Drawing_Workbench/fr.md) s'est arrêté, et un nouvel atelier [Techdraw](TechDraw_Workbench/fr.md) visant à le remplacer sera introduit dans la version 0.17. Les deux ateliers seront fournis dans la version v0.17, mais l'atelier Mise en plan peut être supprimé dans les versions ultérieures.}}
+**Le développement de l'[atelier Mise en plan](Drawing_Workbench/fr.md) s'est arrêté, et un nouvel atelier [Techdraw](TechDraw_Workbench/fr.md) visant à le remplacer sera introduit dans la version 0.17. Les deux ateliers seront fournis dans la version v0.17, mais l'atelier Mise en plan peut être supprimé dans les versions ultérieures.**
 
 
 {{TOCright}}

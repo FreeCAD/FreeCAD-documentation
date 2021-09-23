@@ -8,6 +8,9 @@
    Version:0.15
 ---
 
+
+</div>
+
 ## Beschreibung
 
 Wählt die widersprüchlichen Beschränkungen einer Skizze aus.
@@ -24,4 +27,4 @@ Wählt die widersprüchlichen Beschränkungen einer Skizze aus.
 
 {{Sketcher Tools navi
 
-}}  
+}} 

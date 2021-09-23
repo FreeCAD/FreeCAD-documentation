@@ -2,7 +2,6 @@
 
 
 
-
 <div class="mw-translate-fuzzy">
 
 Los vectores se utilizan en todas partes en FreeCAD.

@@ -1,7 +1,6 @@
 # Artwork Guidelines/es
 
 
-
 ## Introducción
 
 

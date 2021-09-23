@@ -2,7 +2,6 @@
 
 
 
-
 <div class="mw-translate-fuzzy">
 
 Här är innehållslistan för On-line Hjälpsystemet i FreeCAD. De artiklar som refereras här inkluderas automatiskt i FreeCAD.chm filen med verktyget wiki2chm.py. Du hittar det verktyget under src/Tools/wiki2chm.py. En [utskrivningsbar version](Manual/sv.md) av denna manual finns också.

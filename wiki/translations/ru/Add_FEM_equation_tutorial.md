@@ -2,7 +2,6 @@
 
 
 
-
 {{TutorialInfo/ru
 |Topic= Учебник по добавлению уравнений в верстак FEM
 |Level= 

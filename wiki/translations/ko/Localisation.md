@@ -2,7 +2,6 @@
 
 
 
-
 <div class="mw-translate-fuzzy">
 
 
@@ -26,7 +25,7 @@
 
 ## FreeCAD 번역 도움 
 
-One of the very important things users can contribute to FreeCAD (if for example they don\'t have programming skills) is to help translate its different aspects (source code, wiki, website, documentation etc\...) in to another language. Here are the ways to do that
+One of the very important things users can contribute to FreeCAD (if for example they don\'t have programming skills) is to help translate its different aspects (source code, wiki, website, documentation etc\...) in to another language. Here are the ways to do that.
 
 
 <div class="mw-translate-fuzzy">
@@ -60,6 +59,18 @@ Details on how to use crowdin can be found on the [Crowdin Administration](Crowd
 ## Translating external workbenches 
 
 Visit [Translating an external workbench](Translating_an_external_workbench.md).
+
+## FreeCAD Preferences for Translators 
+
+Starting with FreeCAD 0.20, the following variables can be manually added to the BaseApp/Preferences/General section of the user.cfg file to assist with the development of new translations:
+
+**AdditionalLanguageDomainEntries** - to add entirely new languages to FreeCAD that are not currently supported by the source code, you can use this user preference to add to the list of available languages. The format of the languages is \"Language Name\"=\"code\"; for example:
+
+    <FCText Name="AdditionalLanguageDomainEntries">"Esperanto"="eo";"French"="fr";</FCText>
+
+**AdditionalTranslationsDirectory** - add an additional directory for FreeCAD to search for \*.qm files. This location will take precedence over \$userAppDataDir/translations and \$resourceDir/translations. For example:
+
+    <FCText Name="AdditionalTranslationsDirectory">C:/Users/FreeCADUser/TestTranslations</FCText>
 
 ## FreeCAD 위키 번역 
 
@@ -210,6 +221,63 @@ Currently FreeCAD maintainers use the Crowdin API via [Crowdin Scripts](Crowdin_
 -   [Crowdin Administration](Crowdin_Administration.md)
 -   [Crowdin Scripts](Crowdin_Scripts.md)
 
+## Scripting
+
+
+**See also:**
+
+[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+
+To get a dictionary with the languages the FreeCAD interface supports, use the `supportedLocales` method of the `FreeCADGui` module.
+
+
+```python
+locales = FreeCADGui.supportedLocales()
+```
+
+After execution `locales` will contain:
+
+
+```python
+{'English': 'en', 'Afrikaans': 'af', 'Arabic': 'ar', 'Basque': 'eu', 'Catalan': 'ca', 'Chinese Simplified': 'zh-CN', 'Chinese Traditional': 'zh-TW', 'Croatian': 'hr', 'Czech': 'cs', 'Dutch': 'nl', 'Filipino': 'fil', 'Finnish': 'fi', 'French': 'fr', 'Galician': 'gl', 'German': 'de', 'Hungarian': 'hu', 'Indonesian': 'id', 'Italian': 'it', 'Japanese': 'ja', 'Kabyle': 'kab', 'Korean': 'ko', 'Lithuanian': 'lt', 'Norwegian': 'no', 'Polish': 'pl', 'Portuguese': 'pt-PT', 'Portuguese, Brazilian': 'pt-BR', 'Romanian': 'ro', 'Russian': 'ru', 'Slovak': 'sk', 'Slovenian': 'sl', 'Spanish': 'es-ES', 'Swedish': 'sv-SE', 'Turkish': 'tr', 'Ukrainian': 'uk', 'Valencian': 'val-ES', 'Vietnamese': 'vi'}
+```
+
+To get the current interface language use the `getLocale` method of the same module:
+
+
+```python
+locale = FreeCADGui.getLocale()
+```
+
+If the current language is English `locale` will contain:
+
+
+```python
+'English'
+```
+
+To get the corresponding [language code](https://support.crowdin.com/api/language-codes/) you can use use:
+
+
+```python
+locale = FreeCADGui.supportedLocales()[Gui.getLocale()]
+```
+
+If the current language is English the result will be:
+
+
+```python
+'en'
+```
+
+To set the current interface language use the `setLocale` method of the same module. You can specify the language or the language code:
+
+
+```python
+FreeCADGui.setLocale('Russian')
+FreeCADGui.setLocale('ru')
+```
+
 
 <div class="mw-translate-fuzzy">
 
@@ -220,6 +288,6 @@ Currently FreeCAD maintainers use the Crowdin API via [Crowdin Scripts](Crowdin_
 </div>
 
 
- 
+
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Wiki](Category:Wiki.md)

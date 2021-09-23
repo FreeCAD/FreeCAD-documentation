@@ -1,5 +1,4 @@
 # Material/de
-
  }
 
 ## Überblick

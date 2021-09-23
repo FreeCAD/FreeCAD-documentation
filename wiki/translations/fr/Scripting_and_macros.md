@@ -4,7 +4,6 @@
 
 
 
-
 ## Présentation des pages de script Python 
 
 -   Pages relatives à Python dans le manuel :

@@ -1,28 +1,28 @@
 ---
 - GuiCommand:/ru
-   Name:PartDesign MoveTip
-   Name/ru:PartDesign MoveTip
-   MenuLocation:Contextual menu → Set tip
+   Name/ru:Установить конечную точку расчета
+   Name:PartDesign_MoveTip
+   MenuLocation:Контекстное меню → Установить конечную точку расчета
    Workbenches:[PartDesign](PartDesign_Workbench/ru.md)
    Version:0.17
-   SeeAlso:[Перемещение объекта в другое тело](PartDesign_MoveFeature/ru.md), [Поместить объект позади другого объекта](PartDesign_MoveFeatureInTree/ru.md)
+   SeeAlso:[Переместить объекта в другое тело](PartDesign_MoveFeature/ru.md), [Поместить объект позади другого объекта](PartDesign_MoveFeatureInTree/ru.md)
 ---
 
 ## Описание
 
-<img alt="" src=images/PartDesign_MoveTip.svg  style="width:24px;"> [Set tip](PartDesign_MoveTip.md), as this command is labeled in the context menu, redefines the tip, which is the feature exposed outside of the Body. By default, the tip is the last feature added to the Body; but sometimes it can be useful to temporarily set the tip to a feature earlier in the tree. This may be done to add a sketch, datum geometry or a feature which in retrospect should have been created earlier in the Body\'s history.
+<img alt="" src=images/PartDesign_MoveTip.svg  style="width:24px;"> [Установить конечную точку расчета](PartDesign_MoveTip/ru.md) данная команда расположена в контекстном меню и определяет положение значка подсказки, который указывает на конечную точку расчета активного тела. По умолчанию данная точка располагается в самом конце последовательности расчета тела; но иногда может быть полезно временно установить данную точку на более ранний этап расчета тела в древе построения объекта. Это может быть сделано для добавления эскиза, исходной геометрии или элемента, который, в ретроспективе, должен был быть создан ранее в истории Тела.
 
-The tip is visually distinguished in the Model tree by a small white down arrow in a green circle overlayed on the feature\'s icon. For example, the following feature is the tip:
+Значок данной конечной точки отображается в древе построения модели как: маленькой зеленый круг, с белой стрелкой указывающей вниз внутри. Например, так выглядит этап расчета, на котором установленная данная точка:
 
 ![](images/PartDesign_Body_tree-04.png )
 
-## Использование
+## Применение
 
-1.  In the Model tree, right-click on the feature to set as tip.
-2.  Select from the list in the context menu <img alt="" src=images/PartDesign_MoveTip.svg  style="width:24px;"> **Set tip**.
-3.  The new tip is set to visible, and all elements below the tip are hidden from view. Elements newly created from that point will be placed under the tip, and above the other existing elements.
+1.  В дереве построения тела щелкните правой кнопкой мыши на том этапе построения, который нужно сделать конечным в расчете.
+2.  Выберите в появившемся контекстном меню пункт <img alt="" src=images/PartDesign_MoveTip.svg  style="width:24px;"> **Установить конечную точку расчета**.
+3.  Тело будет заново пересчитано от начала, до указанной точки, а все этапы расположенные после данной точки, будут проигнорированы. Новые этапы расчета добавленные в месте расположения данной точки, будут добавлены после данной точки и перед проигнорированными последующими этапами расчета.
 
-**Note**: It is important not to forget to set the tip again to the last feature at the bottom of the Body tree.
+**Примечание**: Важно не забывать, после проведения нужных операций снова установить точку оконачания расчета на последнюю операцию в нижней части древа построения тела.
 
 
 <div class="mw-translate-fuzzy">

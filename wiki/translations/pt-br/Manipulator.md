@@ -1,5 +1,4 @@
 # Manipulator/pt-br
-
  }
 
 ## Description

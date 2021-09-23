@@ -8,8 +8,6 @@
    SeeAlso:[Part Définir les couleurs](Part_FaceColors/fr.md)
 ---
 
-![La boîte de dialogue des tâches d\'affichage des propriétés\|left](images/Std_SetAppearance_taskpanel.png )
-
 ## Description
 
 La commande **Std Apparence** affiche les propriétés d\'affichage du [Panneau des tâches](Task_Panel/fr.md) pour les objets sélectionnés.

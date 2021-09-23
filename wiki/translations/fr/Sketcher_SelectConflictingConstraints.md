@@ -4,7 +4,7 @@
    Name/fr:Sketcher Sélectionner les contraintes conflictuelles
    MenuLocation:Sketch → Outils d'esquisse → Sélectionner les contraintes conflictuelles
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
-   Shortcut:**Ctrl**+**Maj**+**E**
+   Shortcut:**Shift**+**Ctrl**+**E**
    Version:0.15
 ---
 
@@ -24,4 +24,4 @@ Sélectionne les contraintes conflictuelles d\'une esquisse.
 
 {{Sketcher Tools navi
 
-}}  
+}} 

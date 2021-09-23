@@ -1,8 +1,8 @@
 ---
 - GuiCommand:/ru
-   Name/ru:TechDraw__ActiveView
-   Name:TechDraw__ActiveView
-   MenuLocation:TechDraw → Вставить Активный вид (3D Вид)
+   Name/ru:Вставить активный вид (3D Вид)
+   Name:TechDraw_ActiveView
+   MenuLocation:TechDraw → Вставить активный вид (3D Вид)
    Workbenches:[TechDraw](TechDraw_Workbench/ru.md)
    Version:0.19
    SeeAlso:[Вставить SVG знак](TechDraw_Symbol/ru.md)

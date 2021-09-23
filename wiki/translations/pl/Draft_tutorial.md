@@ -2,7 +2,6 @@
 
 
 
-
 {{TutorialInfo/pl
 |Topic= Drafting
 |Level= początkujący

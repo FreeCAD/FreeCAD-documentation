@@ -2,7 +2,6 @@
 
 
 
-
 <div class="mw-translate-fuzzy">
 
 
@@ -21,6 +20,8 @@
 
 
 </div>
+
+## Description
 
 
 <div class="mw-translate-fuzzy">
@@ -59,8 +60,18 @@ La macro <img alt="FCCreaLoft" src=images/FCCreaLoft.png  style="width:32px;"> [
 
 {{Codeextralink|https://gist.githubusercontent.com/mario52a/262317bc7d8555885b0e/raw/3ec2ab127d8ad01a6b657aa5df9a6127ff07c7c0/Macro%2520FCTexture.FCMacro}}
 
+<img alt="" src=images/Texture_004_Honda.png  style="width:480px;">
+
+
+<div class="mw-translate-fuzzy">
+
 <img alt="" src=images/Texture_004_Honda.png  style="width:480px;"> 
 *Texture 004 Honda*
+
+
+</div>
+
+## Usage
 
 
 <div class="mw-translate-fuzzy">
@@ -96,10 +107,15 @@ Attenzione: secondo le dimensioni dell\'immagine, il file del disegno può diven
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 <img alt="Texture 002" src=images/Texture_002.png  style="width:300px;">
 
 
+</div>
 
+#### Coordinates
 
 
 <div class="mw-translate-fuzzy">
@@ -113,6 +129,8 @@ Attenzione: secondo le dimensioni dell\'immagine, il file del disegno può diven
 
 </div>
 
+#### Stretching
+
 
 <div class="mw-translate-fuzzy">
 
@@ -125,10 +143,12 @@ Attenzione: secondo le dimensioni dell\'immagine, il file del disegno può diven
 
 </div>
 
+#### Inversion
+
 
 <div class="mw-translate-fuzzy">
 
-#### Inversion
+#### Inversion 
 
 -    {{CheckBox|Axis X}}: Inverte le coordinate **X** dell\'immagine.
 
@@ -138,6 +158,8 @@ Attenzione: secondo le dimensioni dell\'immagine, il file del disegno può diven
 
 
 </div>
+
+#### 8 bit Mode 
 
 
 <div class="mw-translate-fuzzy">
@@ -165,6 +187,8 @@ Il valore iniziale dell\'operazione si adegua automaticamente alla funzione sele
 
 </div>
 
+#### 32 bit Mode 
+
 
 <div class="mw-translate-fuzzy">
 
@@ -177,6 +201,8 @@ Il valore iniziale dell\'operazione si adegua automaticamente alla funzione sele
 
 </div>
 
+#### File
+
 
 <div class="mw-translate-fuzzy">
 
@@ -188,6 +214,8 @@ Il valore iniziale dell\'operazione si adegua automaticamente alla funzione sele
 
 
 </div>
+
+#### Capping (10mm) 
 
 
 <div class="mw-translate-fuzzy">
@@ -211,10 +239,12 @@ Il valore iniziale dell\'operazione si adegua automaticamente alla funzione sele
 
 </div>
 
+#### Command
+
 
 <div class="mw-translate-fuzzy">
 
-#### Command
+#### Command 
 
 -    **File and launch**: Apre il file immagine e avvia la conversione.
 
@@ -348,11 +378,25 @@ Image:Texture\_003\_napperon.png\|Una porzione di una tovaglia. Image:Texture\_0
 </center>
 
 
+## Links
+
+
+<div class="mw-translate-fuzzy">
+
 ## Link
 
 La discussione sul [forum](http://forum.freecadweb.org/viewtopic.php?f=24&t=5893) per esprimere le proprie impressioni e contattare l\'autore.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 La <img alt="FCCreaLoft" src=images/FCCreaLoft.png  style="width:32px;"> [Macro Loft](Macro_Loft/it.md) che permette di automatizzare il \"multi loft\"
+
+
+</div>
 
 [apply hair cell texture](http://forum.freecadweb.org/viewtopic.php?f=3&t=4708&start=10#p46353)
 
@@ -392,7 +436,3 @@ La <img alt="FCCreaLoft" src=images/FCCreaLoft.png  style="width:32px;"> [Macro 
 ver 0.4 : 08/08/2014 PyQt4 PySide
 
 ver 0.3 : 28/03/2014 :commentata la riga \"**\# self.checkBox\_5.setAccessibleName(\_fromUtf8(\"\"))**\" che causa un errore con la seguente versione di FreeCAD : 0.14.3343 (Git), Python version: 2.7.6, Qt version: 4.8.5
-
-
-
-

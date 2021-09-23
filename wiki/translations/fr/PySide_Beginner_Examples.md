@@ -1,7 +1,6 @@
 # PySide Beginner Examples/fr
 
 
-
 ## Introduction
 
 Le but de cette page est de couvrir les exemples de niveau débutant du gestionnaire de l\'interface graphique utilisateur [PySide](PySide/fr.md) (voir ensuite les pages [Exemples intermédiaires PySide](PySide_Intermediate_Examples/fr.md) et [Exemples avancés PySide](PySide_Advanced_Examples/fr.md)).

@@ -5,8 +5,9 @@
 
 
 
-
 {{TOCright}}
+
+## Overview
 
 
 <div class="mw-translate-fuzzy">
@@ -16,18 +17,34 @@
 
 </div>
 
+## Navigation
+
+
+<div class="mw-translate-fuzzy">
+
 ## Навигация
 
 Стилът на навигацията и работа с обектите е един и същ във всички работни плотове. Долуописаните жестове на мишката могат да се използват за да се контролира позицията на обекта и изгледа към обекта (в зависимост от кой стил на навигация е избран).
+
+
+</div>
 
 Има два начина да сменим стила на навигация:
 
 -   В менюто [Preference Editor](Preferences_Editor/bg.md), скецията Display и в таба *3D View*;
 -   Като натиснем десния бутон на мишката в празно място в 3D прозореца и изберем *Navigation style* от контекстното меню което се появява.
 
+### CAD navigation 
+
+
+<div class="mw-translate-fuzzy">
+
 ### Стил CAD Навигация (по-подразбиране) 
 
 Това е стилът на навигация по-подразбиране който позволява лесен контрол на изгелда без да изисква използването на клавиатурата, с изключението на бутона **SHIFT** за избиране на няколко обекта едновременно. {{CAD Navigation/bg}}
+
+
+</div>
 
 
 {{CAD Navigation
@@ -60,9 +77,17 @@ With this method the middle mouse button may be released after the right mouse b
 Users who use the mouse with their right hand may find this method easier than the first method.
 }}
 
+### OpenInventor navigation 
+
+
+<div class="mw-translate-fuzzy">
+
 ### Стил на навгиация Inventor 
 
 Този стил на навигация е наподобява програмата [Open Inventor](http://en.wikipedia.org/wiki/Open_Inventor) (която не бива да се бърка с Autodesk Inventor). В този стил не можете да избирате обекти само с мишката. За да избирате обекти трябва да задържите натиснат бутонът **CTRL**. {{Inventor Navigation/bg}}
+
+
+</div>
 
 This mode is not based on Autodesk Inventor.
 
@@ -81,20 +106,38 @@ Alternatively, hold the middle mouse button, then press and hold the left mouse 
 |Rotate_view_text=Hold the left mouse button, then move the pointer.
 }}
 
+
+<div class="mw-translate-fuzzy">
+
 ### Стил навигация Blender 
+
+
+</div>
 
 Този стил навигация е подобен на навигацията в програмата [Blender](http://www.blender.org). Не може да се движви обект в четерите посоки(pan) само с мишката. За да движите обект в четирите посоки трябва да задържите бутонът **SHIFT**. {{Blender Navigation/bg}}
 
 Alternatively, hold both left and right mouse buttons, and then move the pointer. \|Zoom\_text=Use the mouse wheel to zoom in and out. \|Rotate\_view\_text=Hold the middle mouse button, then move the pointer. }}
 
+
+<div class="mw-translate-fuzzy">
+
 ### Навигация с тъчпад 
+
+
+</div>
 
 В случай че разполагате само с тъчпад (например на лаптоп) може да използвате този стил. При навигацията с тъчпад за всяка операция (движение, ротация, промяна на мащаб) се използва и клавиатурата.
 
 
 {{Touchpad Navigation/bg}}
 
+
+<div class="mw-translate-fuzzy">
+
 ### Навигация с жестове (v0.16) 
+
+
+</div>
 
 Този стил на навигация е основно предназначен за работа с тъчскрийн или с електронна писалка/таблет. Може да се използва и само с мишка. {{Gesture Navigation/bg}}
 
@@ -106,7 +149,13 @@ Hold **Alt** when in the [Sketcher](Sketcher_Workbench.md). \|Tilt\_view\_text=H
 
 On v0.18 this method is disabled by default. To enable, go to **Edit → Preferences → Display**, and untick \"Disable touchscreen tilt gesture\" checkbox. }}
 
+
+<div class="mw-translate-fuzzy">
+
 ### Навигация с жестове стил Maya 
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -118,7 +167,7 @@ On v0.18 this method is disabled by default. To enable, go to **Edit → Prefere
 
 Alternatively, use the mouse wheel to zoom in and out. \|Rotate\_view\_text=Hold **Alt** and the left mouse button, then move the pointer. }}
 
-### Revit Navigation 
+### Revit navigation 
 
 This style was introduced in version 0.18.
 
@@ -140,7 +189,7 @@ Alternatively, hold both left and right mouse buttons, then move the pointer.
 Alternatively, hold the middle mouse button, then press and hold the right mouse button, then move the pointer.
 }}
 
-### OpenCascade
+### OpenCascade navigation 
 
 This style was introduced in version 0.18.
 
@@ -161,25 +210,55 @@ Alternatively, hold **Ctrl** and the left mouse button, then move the pointer.
 
 ## Избиране на обекти 
 
+### Simple selection 
+
+
+<div class="mw-translate-fuzzy">
+
 ### Проста селекция 
 
 Обект може да се избере като се натисне левия бутон на мишката върху него или в 3D прозореца, или върху неговото име в дървото на обектите.
+
+
+</div>
+
+### Preselection
+
+
+<div class="mw-translate-fuzzy">
 
 ### Пре-селекция 
 
 Ако режим \"Пре-селекция\" е включен (настройката за него може да намерите в менюто Preferences), то когато курсора на мишката е върху някой обект в 3D прозореца ще видите информация за него дори и без да го избирате.
 
-## Manipulating Objects 
+
+</div>
+
+## Manipulating objects 
 
 FreeCAD offers [*manipulators*](Manipulator.md) that are handles that can be used to modify an object\'s appearance, shape, or other parameters.
 
 ## Поддържан хардуер 
 
+
+<div class="mw-translate-fuzzy">
+
 FreeCAD също поддържа някои [3D input devices](3D_input_devices.md).
 
-## Mac OS X Issues 
 
-Recently we got reports [on the forum](http://forum.freecadweb.org/viewtopic.php?f=3&t=3592&start=0) from Mac users that those mouse button and key combination do not work as expected. Unfortunately, none of the developers owns a Mac, neither do the other regular contributors. We need your help to determine which mouse buttons and key combination work so we can update this wiki.
+</div>
+
+## Recommended navigation for macOS 
+
+On MacBooks with a trackpad the Gesture navigation works very well, but the gestures have a special meaning:
+
+-   Zoom: drag with two fingers.
+-   Rotate: drag with three fingers.
+-   Pan: **Ctrl** + three fingers.
+
+## Developing a custom navigation 
+
+The tutorial [Adding a new mouse navigation option to FreeCAD](Adding_a_new_mouse_navigation_option_to_FreeCAD.md) orients developers who want to develop a custom mouse navigation option. Familiarity with the C++ syntax is required.
 
 
 {{docnav|Getting started/bg|Document structure/bg}}

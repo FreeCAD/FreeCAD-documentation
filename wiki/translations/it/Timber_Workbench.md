@@ -1,6 +1,5 @@
 # Timber Workbench/it
-
- {{VeryImportantMessage|Questo ambiente di lavoro non è più sviluppato o mantenuto.}}
+ **Questo ambiente di lavoro non è più sviluppato o mantenuto.**
 
 ## Introduzione
 

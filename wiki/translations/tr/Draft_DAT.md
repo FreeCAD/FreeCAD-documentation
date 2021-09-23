@@ -5,10 +5,6 @@
 
 
 
-
-
-
-
 <div class="mw-translate-fuzzy">
 
 Ortak kanat profili veri biçimi, ilk 1-2 satırdaki kanat profili ile ilgili isteğe bağlı meta verileri ve üst ve alt yüzeyin koordinatlarını içeren basit bir dosyadır.

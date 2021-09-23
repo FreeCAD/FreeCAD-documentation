@@ -153,7 +153,17 @@ Wpisanie ciągu znaków *(nawet kilku znaków)* w tym polu wprowadzania danych, 
 
 [FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics.md).
 
-Aby zapoznać się z przykładem tworzenia skryptu, zobacz [Std: SelBoundingBox](Std_SelBoundingBox.md).
+Dostęp do preferencji można uzyskać ze skryptów środowiska Python, używając odpowiedniej ścieżki w [Edytorze parametrów](Std_DlgParameter/pl.md). Na przykład, preferencja **Edycja → Preferencje → Import-Eksport → DXF → Opcje importu → Łącz geometrie** pojawia się w **Narzędzia → Edycja parametrów → BaseApp → Preferences → Mod → Draft → dxfCreatePart** i ma typ `Boolean`. Można więc uzyskać do niej dostęp w środowisku Python za pomocą następującego kodu: 
+```python
+# get:
+App.ParamGet("User parameter:BaseApp/Preferences/Mod/Draft").GetBool('dxfCreatePart')
+# set:
+App.ParamGet("User parameter:BaseApp/Preferences/Mod/Draft").SetBool('dxfCreatePart', True)
+```
+
+Znalezienie, który parametr jest używany do przechowywania jakiej opcji z edytora Preferencji może wymagać nieco poszukiwań, ale [Edytor parametrów](Std_DlgParameter/pl.md) oferuje możliwość przeszukiwania, co powinno być pomocne.
+
+Modyfikowanie preferencji innych części programu FreeCAD jest raczej złym pomysłem, chyba że robi się to na życzenie użytkownika. Jednakże ustawianie parametrów może być użyte do określenia parametrów dla własnego środowiska pracy, a pobieranie może być użyte do przestrzegania istniejących parametrów.
 
 
 
@@ -161,4 +171,4 @@ Aby zapoznać się z przykładem tworzenia skryptu, zobacz [Std: SelBoundingBox]
 
 {{Std Base navi
 
-}}  
+}} 

@@ -5,7 +5,6 @@
 
 
 
-
 {{TOCright}}
 
 ## Cuvânt înainte 
@@ -98,14 +97,6 @@ Când porniți FreeCAD pentru prima dată, vi se prezintă centrul de pornire. I
 </div>
 
 <img alt="" src=images/Start_center_0.18_screenshot.jpg  style="width:1024px;">
-
-
-<div class="mw-translate-fuzzy">
-
-<img alt="" src=images/Startcenter.jpg  style="width:1024px;"> Pentru FreeCAD 0.17 vedeți asceasta [start center](Media:Startcenter0.17.jpg.md) screenshot.
-
-
-</div>
 
 
 <div class="mw-translate-fuzzy">

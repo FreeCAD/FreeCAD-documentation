@@ -1,5 +1,4 @@
 # Crowdin Scripts/pl
-
  {{TOCright}}
 
 ## Zarządzanie Tłumaczeniami w programie FreeCAD 

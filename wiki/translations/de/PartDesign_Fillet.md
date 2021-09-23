@@ -40,7 +40,10 @@ Hier ist, wie sie sich voneinander unterscheiden:
 
 Verrundungen, Fasen und andere Funktionen, die auf Festkörpern arbeiten, hängen vom zugrunde liegenden OpenCASCADE Technology (OCCT) Kernel ab, den FreeCAD verwendet. Der OCCT Kernel hat gelegentlich Schwierigkeiten, mit zufälligen scharfen Kanten umzugehen, wenn sich zwei Seiten treffen. Wenn dies der Fall ist, kann FreeCAD ohne Erklärung abstürzen.
 
-Wenn FreeCAD vom Terminal aus gestartet wird, kann es nach dem Absturz ein solches Protokoll ausgeben: {{code|code=
+Wenn FreeCAD vom Terminal aus gestartet wird, kann es nach dem Absturz ein solches Protokoll ausgeben:
+
+
+{{code|code=
 #1  0x7fff63d660ba in BRep_Tool::Curve(TopoDS_Edge const&, TopLoc_Location&, double&, double&) from /usr/lib/x86_64-linux-gnu/libTKBRep.so.7+0x2a
 #2  0x7fff63d69546 in BRep_Tool::Curve(TopoDS_Edge const&, double&, double&) from /usr/lib/x86_64-linux-gnu/libTKBRep.so.7+0x46
 #3  0x7fff71f4fef5 in ChFi3d_Builder::PerformIntersectionAtEnd(int) from /usr/lib/x86_64-linux-gnu/libTKFillet.so.7+0x3b05
@@ -61,15 +64,31 @@ Siehe die Forenbeiträge für weitere Informationen:
 
 Der Anwender ist auch für die Integrität seines eigenen Modells verantwortlich. Je nach Modell kann es unmöglich sein, eine Verrundung oder Fase durchzuführen, wenn der Körper nicht groß genug ist, um diesen Vorgang zu unterstützen. So wäre es beispielsweise nicht möglich, eine 10 mm Verrundung zu erzeugen, wenn eine Kante nur 5 mm von der nächsten Oberfläche entfernt ist. In diesem Fall wäre der maximale Radius für eine Verrundung 5 mm; der Versuch, einen größeren Wert zu verwenden, kann zu einer Form führen, die nicht berechnet wird, oder sogar zu einem Crash. Wenn die Verwendung der genauen Grenze von 5 mm nicht funktioniert, kann es möglich sein, eine sehr enge Annäherung, wie z.B. 4,9999 mm, zu verwenden, um das gleiche sichtbare Ergebnis zu erzielen.
 
+### Topological naming 
+
+
+<div class="mw-translate-fuzzy">
+
 ### Topologische Benennung 
 
 Kantennummern sind nicht vollständig stabil, daher ist es ratsam, dass Du die Hauptkonstruktionsarbeiten Deines Festkörpers abschließt, bevor Du Funktionen wie Verrundungen und Fasen anwendest, da sonst Kanten den Namen ändern könnten und abgerundete Kanten wahrscheinlich ungültig werden würden.
+
+
+</div>
 
 Lies mehr unter [topologisches Namensproblem](topological_naming_problem/de.md).
 
 ## Skripten
 
-Das Werkzeug **[16px|text-top=Fillet|link=PartDesign_Fillet](File:PartDesign_Fillet.svg.md) [Verrundung](_PartDesign_Fillet/de.md)** kann in einem Makro und in der Python Konsole mit folgender Funktion verwendet werden: 
+
+<div class="mw-translate-fuzzy">
+
+Das Werkzeug **[16px|text-top=Fillet|link=PartDesign_Fillet](File:PartDesign_Fillet.svg.md) [Verrundung](_PartDesign_Fillet/de.md)** kann in einem Makro und in der Python Konsole mit folgender Funktion verwendet werden:
+
+
+</div>
+
+
 ```python
 Box = Box.makeFillet(3,[Box.Edges[0]]) # 1 Fillet
 Box = Box.makeFillet(3,[Box.Edges[1],Box.Edges[2],Box.Edges[3],Box.Edges[4]]) # for several Fillets
@@ -78,7 +97,15 @@ Box = Box.makeFillet(3,[Box.Edges[1],Box.Edges[2],Box.Edges[3],Box.Edges[4]]) # 
 -   3 = radius
 -   Box.Edges\[2\] = Edge with its number
 
-Beispiel: 
+
+<div class="mw-translate-fuzzy">
+
+Beispiel:
+
+
+</div>
+
+
 ```python
 import PartDesign
 from FreeCAD import Base
@@ -88,9 +115,6 @@ Box = Box.makeFillet(3,[Box.Edges[0]]) # pour 1 Fillet
 Box = Box.makeFillet(3,[Box.Edges[1],Box.Edges[2],Box.Edges[3],Box.Edges[4]]) # for several Fillets
 Part.show(Box)
 ```
-
-
-
 
 
 

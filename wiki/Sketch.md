@@ -1,5 +1,4 @@
 # Sketch
-
  
 
 ## Introduction

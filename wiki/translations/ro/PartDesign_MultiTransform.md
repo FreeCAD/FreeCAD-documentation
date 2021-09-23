@@ -114,6 +114,11 @@ When initiated and completed in this way, the **![](images/)_[MultiTransform](P
 
 
 
+## Options
+
+
+<div class="mw-translate-fuzzy">
+
 ## Opțiuni
 
 +--------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -146,6 +151,35 @@ When initiated and completed in this way, the **![](images/)_[MultiTransform](P
 
 
 
+
+
+</div>
+
+### Select originals 
+
+The list view shows the \'originals\', the features that are to be patterned. Clicking on any feature will add it to the list.
+
+### Select transformations 
+
+This list can be filled with a combination of the simple transformations [mirrored](PartDesign_Mirrored.md), [linear pattern](PartDesign_LinearPattern.md), [polar pattern](PartDesign_PolarPattern.md) and [scaled](PartDesign_Scaled.md). The transformations will be applied one after the other. The context menu offers the following entries:
+
+#### Edit
+
+Allows editing the parameters of a transformation in the list (double-clicking will have the same effect)
+
+#### Delete
+
+Removes a transformation from the list
+
+#### Add transformation 
+
+Adds a transformation to the list
+
+#### Move Up/Down 
+
+Allows changing the order of transformations in the list \|}
+
+## Examples
 
 
 <div class="mw-translate-fuzzy">

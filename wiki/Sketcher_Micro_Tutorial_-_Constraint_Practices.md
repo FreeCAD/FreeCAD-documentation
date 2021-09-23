@@ -1,5 +1,4 @@
 # Sketcher Micro Tutorial - Constraint Practices
-
  
 
 

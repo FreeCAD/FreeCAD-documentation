@@ -1,5 +1,4 @@
 # Macro FlattenWire/it
-
  {{Macro/it
 |Name=FlattenWire
 |Translate=Wire appiattita su piano mediano

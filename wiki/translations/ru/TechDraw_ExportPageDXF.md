@@ -1,10 +1,11 @@
 ---
-- GuiCommand:
-   Name:TechDraw ExportPageDXF
-   MenuLocation:TechDraw → Export Page as DXF
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
+- GuiCommand:/ru
+   Name/ru:Экспорт листа в DXF
+   Name:TechDraw_ExportPageDXF
+   MenuLocation:TechDraw → Экспорт листа в DXF
+   Workbenches:[TechDraw](TechDraw_Workbench/ru.md)
    Version:0.18
-   SeeAlso:[TechDraw Export Page as SVG](TechDraw_ExportPageSVG.md), [Draft DXF](Draft_DXF.md)
+   SeeAlso:[Экспорт листа в SVG](TechDraw_ExportPageSVG/ru.md), [Draft DXF](Draft_DXF/ru.md)
 ---
 
 ## Описание
@@ -47,12 +48,12 @@ The ExportPageDXF tool saves a drawing page as a [DXF](DXF.md) file.
         
         . This is a float value. If splines and ellipses are converted to polylines this parameter determines the segment length.
 
-## Scripting
+## Программирование
 
 
-**Смотрите так же:**
+**См. так же:**
 
-[TechDrawGui API](TechDrawGui_API/ru.md) и [Основы написания скриптов FreeCAD](FreeCAD_Scripting_Basics/ru.md).
+[TechDrawGui API](TechDrawGui_API/ru.md) и [Основы составления скриптов FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 
 The SaveDXF tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following functions:
 

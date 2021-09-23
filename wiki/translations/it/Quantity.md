@@ -1,5 +1,4 @@
 # Quantity/it
-
  Quantity è la combinazione di un numero in virgola mobile e di una unità di misura.
 
 ## Aspetti generali 

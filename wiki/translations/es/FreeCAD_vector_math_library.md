@@ -1,7 +1,6 @@
 # FreeCAD vector math library/es
 
 
-
 ## Introduction
 
 

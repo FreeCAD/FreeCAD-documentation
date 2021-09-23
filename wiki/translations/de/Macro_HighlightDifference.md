@@ -1,5 +1,4 @@
 # Macro HighlightDifference/de
-
  {{Macro/de
 |Name=HighlightDifference
 |Name/de=UnterschiedHervorheben

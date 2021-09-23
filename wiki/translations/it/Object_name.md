@@ -1,7 +1,6 @@
 # Object name/it
 
 
-
 ## Introduzione
 
 

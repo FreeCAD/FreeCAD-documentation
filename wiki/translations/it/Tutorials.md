@@ -5,7 +5,6 @@
 
 
 
-
 {{TOCright}}
 
 
@@ -163,7 +162,7 @@ These are tutorials that are related to scripting or programming. They are geare
 ## Disegni tecnici 
 
 
-{{VeryImportantMessage|Lo sviluppo di [Drawing](Drawing_Workbench/it.md) si è fermato con FreeCAD 0.16. Al suo posto utilizzare [TechDraw](TechDraw_Workbench/it.md).}}
+**Lo sviluppo di [Drawing](Drawing_Workbench/it.md) si è fermato con FreeCAD 0.16. Al suo posto utilizzare [TechDraw](TechDraw_Workbench/it.md).**
 
 
 <div class="mw-translate-fuzzy">

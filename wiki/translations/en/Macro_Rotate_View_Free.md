@@ -1,5 +1,4 @@
 # Macro Rotate View Free/en
-
  {{Macro
 |Name=Rotate View Free
 |Icon=Text_console_python.png

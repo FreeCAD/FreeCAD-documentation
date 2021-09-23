@@ -2,7 +2,6 @@
 
 
 
-
 <div class="mw-translate-fuzzy">
 
 Următoarea procedură va funcționa pentru Windows Vista / 7/8, pentru XP este necesar un set de instrumente alternative VS pentru VS 2012 și 2013, care a fost finalizat cu succes cu Libpacks actuale. Pentru a viza XP (ambele și x32 și x64), este recomandat să utilizați VS2008 și LibpackFreeCADLibs\_11.0\_x86\_VC9.7z

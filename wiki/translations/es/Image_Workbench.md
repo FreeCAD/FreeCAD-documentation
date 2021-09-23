@@ -1,5 +1,4 @@
 # Image Workbench/es
-
  
 
 <img alt="El icono del Ambiente de trabajo Imagen" src=images/Workbench_Image.svg  style="width:128px;">

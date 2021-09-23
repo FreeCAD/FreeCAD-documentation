@@ -4,8 +4,10 @@
 
 
 
-
 <img alt="Sketcher workbench icon" src=images/Workbench_Sketcher.svg  style="width:128px;">
+
+
+{{TOCright}}
 
 ## Úvod
 
@@ -24,9 +26,6 @@ Samotná pracovní plocha Skicář obsahuje vazby - umožňující 2D tvarům m�
 
 
 </div>
-
-
-{{TOCright}}
 
 <img alt="" src=images/FC_ConstrainedSketch.png  style="width:450px;">
 

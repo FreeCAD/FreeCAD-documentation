@@ -4,7 +4,6 @@
 
 
 
-
 Nejsnadnější způsob instalace FreeCADu na Windows je stáhnout níže uvedený instaler.
 
 

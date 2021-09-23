@@ -1,5 +1,4 @@
 # Manual:The FreeCAD document
-
  
 
 

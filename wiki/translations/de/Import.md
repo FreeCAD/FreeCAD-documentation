@@ -1,5 +1,4 @@
 # Import/Export IFC - compiling IfcOpenShell/de
-
  {{TutorialInfo/de
 |Topic=Architektur Arbeitsbereich
 |Level=Fortgeschritten

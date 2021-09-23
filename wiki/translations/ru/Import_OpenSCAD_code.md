@@ -2,7 +2,6 @@
 
 
 
-
 {{TutorialInfo/ru
 |Topic= Import OpenSCAD code
 |Level= Beginner

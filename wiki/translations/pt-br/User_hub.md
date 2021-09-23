@@ -1,5 +1,4 @@
 # User hub/pt-br
-
  <img alt="" src=images/User_hub.png  style="width:64px;">
 
 ------------------------------------------------------------------------
@@ -57,7 +56,13 @@ Veja também:
 
 -   <img alt="" src=images/Workbench_Mesh.svg  style="width:32px;"> A [bancada de trabalho Mesh](Mesh_Workbench/pt-br.md) por trabalhar com malhas trianguladas.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Workbench_OpenSCAD.svg  style="width:32px;"> A [bancada de trabalho OpenSCAD](OpenSCAD_Workbench/pt-br.md) para interoperabilidade com OpenSCAD e reparo [ geometria sólida construtiva](constructive_solid_geometry/pt-br.md)(CSG) história do modelo.
+
+
+</div>
 
 -   <img alt="" src=images/Workbench_Part.svg  style="width:32px;"> A [bancada de trabalho Part](Part_Workbench/pt-br.md) para trabalhar com peças CAD.
 

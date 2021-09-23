@@ -2,7 +2,6 @@
 
 
 
-
 {{TutorialInfo/it
 |Topic= Analisi agli elementi finiti
 |Level=Base

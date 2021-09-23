@@ -2,7 +2,6 @@
 
 
 
-
 <div class="mw-translate-fuzzy">
 
 
@@ -11,7 +10,7 @@
 
 </div>
 
-<img alt="Mesh workbench icon" src=images/Workbench_Mesh.svg  style="width:128px;">
+<img alt="Логотип верстака Mesh" src=images/Workbench_Mesh.svg  style="width:128px;">
 
 
 {{TOCright}}

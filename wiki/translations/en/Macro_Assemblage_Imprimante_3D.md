@@ -1,5 +1,4 @@
 # Macro Assemblage Imprimante 3D/en
-
  {{Macro
 |Name=Macro_Assemblage_Imprimante_3D
 |Icon=Macro_Assemblage_Imprimante_3D.png

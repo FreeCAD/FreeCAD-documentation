@@ -8,6 +8,9 @@
    Version:0.15
 ---
 
+
+</div>
+
 ## Описание
 
 Selects the horizontal axis of a sketch.
@@ -24,4 +27,4 @@ Selects the horizontal axis of a sketch.
 
 {{Sketcher Tools navi
 
-}}  
+}} 

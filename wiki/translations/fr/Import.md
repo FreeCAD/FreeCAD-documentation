@@ -1,5 +1,4 @@
 # Import/Export IFC - compiling IfcOpenShell/fr
-
  {{TutorialInfo/fr
 |Topic=Atelier Arch
 |Level=Avancé

@@ -4,7 +4,6 @@
 
 
 
-
 <img alt="TechDraw workbench icon" src=images/Workbench_TechDraw.svg  style="width:128px;">
 
 ## Introduction
@@ -15,7 +14,7 @@ Dimensions, sections, hatched areas, annotations, and [SVG](SVG.md) symbols can 
 
 TechDraw was officially included in FreeCAD starting with version 0.17; it is intended to replace the unsupported [Drawing Workbench](Drawing_Workbench.md). Both workbenches are still provided in v0.17, but the Drawing Workbench may be removed in future releases. To keep up with TechDraw plans and developments, visit the [TechDraw Roadmap](TechDraw_Roadmap.md).
 
-FreeCAD is primarily a 3D modelling application, and thus doesn\'t have many 2D drawing tools, which are mostly included in the [Draft](Draft_Workbench.md) and [Sketcher Workbenches](Sketcher_Workbench.md). If your primary goal is the production of complex 2D drawings and [DXF](DXF.md) files, and you don\'t need 3D modelling, you may wish to consider a dedicated software program for technical drafting such as [LibreCAD](https://en.wikipedia.org/wiki/LibreCAD), [QCad](https://en.wikipedia.org/wiki/QCad), TurboCad, and others.
+If your primary goal is the production of complex 2D drawings and [DXF](DXF.md) files, and you don\'t need 3D modelling, FreeCAD may not be the right choice for you. You may wish to consider a dedicated software program for technical drafting instead, such as [LibreCAD](https://en.wikipedia.org/wiki/LibreCAD) or [QCad](https://en.wikipedia.org/wiki/QCad).
 
 
 {{TOCright}}
@@ -68,37 +67,29 @@ These are tools for creating and working with Dimension objects.
 
 Linear dimensions can be based on two points, on one line, or on two lines.
 
--   <img alt="" src=images/TechDraw_Dimension_Length.svg  style="width:32px;"> [New Length](TechDraw_Dimension_Length.md): adds a length dimension.
+-   <img alt="" src=images/TechDraw_LengthDimension.svg  style="width:32px;"> [Insert Length Dimension](TechDraw_LengthDimension.md): adds a length dimension.
 
--   <img alt="" src=images/TechDraw_Dimension_Horizontal.svg  style="width:32px;"> [New Horizontal](TechDraw_Dimension_Horizontal.md): adds a horizontal length dimension.
+-   <img alt="" src=images/TechDraw_HorizontalDimension.svg  style="width:32px;"> [Insert Horizontal Dimension](TechDraw_HorizontalDimension.md): adds a horizontal length dimension.
 
--   <img alt="" src=images/TechDraw_Dimension_Vertical.svg  style="width:32px;"> [New Vertical](TechDraw_Dimension_Vertical.md): adds a vertical length dimension.
+-   <img alt="" src=images/TechDraw_VerticalDimension.svg  style="width:32px;"> [Insert Vertical Dimension](TechDraw_VerticalDimension.md): adds a vertical length dimension.
 
--   <img alt="" src=images/TechDraw_Dimension_Radius.svg  style="width:32px;"> [New Radius](TechDraw_Dimension_Radius.md): adds a radius dimension to a circle or circular arc.
+-   <img alt="" src=images/TechDraw_RadiusDimension.svg  style="width:32px;"> [Insert Radius Dimension](TechDraw_RadiusDimension.md): adds a radius dimension to a circle or circular arc.
 
--   <img alt="" src=images/TechDraw_Dimension_Diameter.svg  style="width:32px;"> [New Diameter](TechDraw_Dimension_Diameter.md): adds a diameter dimension to a circle or a circular arc.
+-   <img alt="" src=images/TechDraw_DiameterDimension.svg  style="width:32px;"> [Insert Diameter Dimension](TechDraw_DiameterDimension.md): adds a diameter dimension to a circle or a circular arc.
 
--   <img alt="" src=images/TechDraw_Dimension_Angle.svg  style="width:32px;"> [New Angle](TechDraw_Dimension_Angle.md): adds an angle dimension between two straight edges.
+-   <img alt="" src=images/TechDraw_AngleDimension.svg  style="width:32px;"> [Insert Angle Dimension](TechDraw_AngleDimension.md): adds an angle dimension between two straight edges.
 
--   <img alt="" src=images/TechDraw_Dimension_Angle3Pt.svg  style="width:32px;"> [New Angle3Pt](TechDraw_Dimension_Angle3Pt.md): adds an angle dimension using three vertices.
+-   <img alt="" src=images/TechDraw_3PtAngleDimension.svg  style="width:32px;"> [Insert 3-Point Angle Dimension](TechDraw_3PtAngleDimension.md): adds an angle dimension using three vertices.
 
--   <img alt="" src=images/TechDraw_Dimension_Horizontal_Extent.svg  style="width:32px;"> [New Horizontal Extent](TechDraw_Dimension_Horizontal_Extent.md): adds a horizontal extent dimension. <small>(v0.19)</small> 
+-   <img alt="" src=images/TechDraw_HorizontalExtentDimension.svg  style="width:32px;"> [Insert Horizontal Extent Dimension](TechDraw_HorizontalExtentDimension.md): adds a horizontal extent dimension. <small>(v0.19)</small> 
 
--   <img alt="" src=images/TechDraw_Dimension_Vertical_Extent.svg  style="width:32px;"> [New Vertical Extent](TechDraw_Dimension_Vertical_Extent.md): adds a vertical extent dimension. <small>(v0.19)</small> 
+-   <img alt="" src=images/TechDraw_VerticalExtentDimension.svg  style="width:32px;"> [Insert Vertical Extent Dimension](TechDraw_VerticalExtentDimension.md): adds a vertical extent dimension. <small>(v0.19)</small> 
 
--   <img alt="" src=images/TechDraw_Dimension_Link.svg  style="width:32px;"> [New Links](TechDraw_Dimension_Link.md): links an existing dimension to the 3D geometry.
+-   <img alt="" src=images/TechDraw_LinkDimension.svg  style="width:32px;"> [Link Dimension to 3D Geometry](TechDraw_LinkDimension.md): links an existing dimension to the 3D geometry.
 
--   <img alt="" src=images/TechDraw_Balloon.svg  style="width:32px;"> [New Balloon](TechDraw_Balloon.md): adds a \"balloon\" annotation to a page. <small>(v0.19)</small> 
+-   <img alt="" src=images/TechDraw_Balloon.svg  style="width:32px;"> [Insert Balloon Annotation](TechDraw_Balloon.md): adds a \"balloon\" annotation to a page. <small>(v0.19)</small> 
 
--   <img alt="" src=images/TechDraw_Dimension_Landmark.svg  style="width:32px;"> [New Landmark Dimension](TechDraw_Dimension_Landmark.md): adds a landmark distance dimension. <small>(v0.19)</small> 
-
-## Import/Export
-
-These are tools for exporting pages to other applications.
-
--   <img alt="" src=images/TechDraw_ExportPageSVG.svg  style="width:32px;"> [Export Page as SVG](TechDraw_ExportPageSVG.md): saves the current page as [SVG](SVG.md) file.
-
--   <img alt="" src=images/TechDraw_ExportPageDXF.svg  style="width:32px;"> [Export Page as DXF](TechDraw_ExportPageDXF.md): saves the current page as [DXF](DXF.md) file.
+-   <img alt="" src=images/TechDraw_LandmarkDimension.svg  style="width:32px;"> [Insert Landmark Dimension](TechDraw_LandmarkDimension.md): adds a landmark distance dimension. <small>(v0.19)</small> 
 
 ## Decorations
 
@@ -136,7 +127,7 @@ The annotation tools are for \"marking up\" a drawing with additional informatio
 
 -   <img alt="" src=images/TechDraw_2PointCenterLine.svg  style="width:32px;"> [Add Centerline between 2 Points](TechDraw_2PointCenterLine.md): adds a centerline between 2 points. <small>(v0.19)</small> 
 
--   <img alt="" src=images/TechDraw_2PointCosmeticLine.svg  style="width:32px;"> [Add a cosmetic line](TechDraw_2PointCosmeticLine.md): adds a cosmetic line connecting 2 vertices. <small>(v0.19)</small> 
+-   <img alt="" src=images/TechDraw_2PointCosmeticLine.svg  style="width:32px;"> [Add Cosmetic Line Through 2 points](TechDraw_2PointCosmeticLine.md): adds a cosmetic line connecting 2 vertices. <small>(v0.19)</small> 
 
 -   <img alt="" src=images/TechDraw_CosmeticEraser.svg  style="width:32px;"> [Remove Cosmetic Object](TechDraw_CosmeticEraser.md): removes cosmetic objects from a page. <small>(v0.19)</small> 
 
@@ -153,15 +144,23 @@ The Extension Package includes many useful tools to improve your TechDraw drawin
 
 **Some of these tools have yet to be released.**
 
--   <img alt="" src=images/TechDraw_Extension_CircleCenterLines.svg  style="width:32px;"> [CircleCenterLines](TechDraw_Extension_CircleCenterLines.md): adds center lines to circles and arcs. <small>(v0.20)</small> 
+-   <img alt="" src=images/TechDraw_ExtensionCircleCenterLines.svg  style="width:32px;"> [CircleCenterLines](TechDraw_ExtensionCircleCenterLines.md): adds center lines to circles and arcs. <small>(v0.20)</small> 
 
--   <img alt="" src=images/TechDraw_Extension_ThreadHoleSide.svg  style="width:32px;"> [ThreadHoleSide](TechDraw_Extension_ThreadHoleSide.md): adds a symbolic thread to the side view of a hole. <small>(v0.20)</small> 
+-   <img alt="" src=images/TechDraw_ExtensionThreadHoleSide.svg  style="width:32px;"> [ThreadHoleSide](TechDraw_ExtensionThreadHoleSide.md): adds a symbolic thread to the side view of a hole. <small>(v0.20)</small> 
 
--   <img alt="" src=images/TechDraw_Extension_ThreadHoleBottom.svg  style="width:32px;"> [ThreadHoleBottom](TechDraw_Extension_ThreadHoleBottom.md): adds symbolic threads to the bottom view of holes. <small>(v0.20)</small> 
+-   <img alt="" src=images/TechDraw_ExtensionThreadHoleBottom.svg  style="width:32px;"> [ThreadHoleBottom](TechDraw_ExtensionThreadHoleBottom.md): adds symbolic threads to the bottom view of holes. <small>(v0.20)</small> 
 
--   <img alt="" src=images/TechDraw_Extension_ThreadBoltSide.svg  style="width:32px;"> [ThreadBoltSide](TechDraw_Extension_ThreadBoltSide.md): adds a symbolic thread to the side view of a bolt. <small>(v0.20)</small> 
+-   <img alt="" src=images/TechDraw_ExtensionThreadBoltSide.svg  style="width:32px;"> [ThreadBoltSide](TechDraw_ExtensionThreadBoltSide.md): adds a symbolic thread to the side view of a bolt. <small>(v0.20)</small> 
 
--   <img alt="" src=images/TechDraw_Extension_ThreadBoltBottom.svg  style="width:32px;"> [ThreadBoltBottom](TechDraw_Extension_ThreadBoltBottom.md): adds symbolic threads to the bottom view of bolts. <small>(v0.20)</small> 
+-   <img alt="" src=images/TechDraw_ExtensionThreadBoltBottom.svg  style="width:32px;"> [ThreadBoltBottom](TechDraw_ExtensionThreadBoltBottom.md): adds symbolic threads to the bottom view of bolts. <small>(v0.20)</small> 
+
+## Import/Export
+
+These are tools for exporting pages to other applications.
+
+-   <img alt="" src=images/TechDraw_ExportPageSVG.svg  style="width:32px;"> [Export Page as SVG](TechDraw_ExportPageSVG.md): saves the current page as [SVG](SVG.md) file.
+
+-   <img alt="" src=images/TechDraw_ExportPageDXF.svg  style="width:32px;"> [Export Page as DXF](TechDraw_ExportPageDXF.md): saves the current page as [DXF](DXF.md) file.
 
 ## Additional features 
 
@@ -186,7 +185,6 @@ The TechDraw tools can be used in [macros](macros.md) and from the [Python](Pyth
 -   TechDraw drawings and its API are not interchangeable with the [Drawing Workbench](Drawing_Workbench.md) and its API. It is possible to convert Drawing Pages to TechDraw Pages using a Python script (`moveViews.py`).
 -   It is possible to have both TechDraw and Drawing Pages in the same FreeCAD document, as each page is completely independent from each other.
 -   There are minor differences in specifying editable texts in [SVG](SVG.md) templates compared to the Drawing module. In TechDraw the scaling of the SVG document affects the position of the editable text fields. See the forum discussion [TechDraw templates scale](https://forum.freecadweb.org/viewtopic.php?f=3&t=24981&p=196271#p196271) for more details.
--   Threads are not implemented. A possible workaround is to use a [diameter dimension](TechDraw_Dimension_Diameter.md) and put a suitable text into the \"Format Spec\" property, e.g. \"M4x15\"
 -   Do not cut, copy and paste TechDraw objects in the tree view as this generally does not work out well.
 
 ## Tutorials

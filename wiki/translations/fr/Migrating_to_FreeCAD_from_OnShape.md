@@ -1,5 +1,4 @@
 # Migrating to FreeCAD from OnShape/fr
-
  {{TOCright}}
 
 ## Contexte

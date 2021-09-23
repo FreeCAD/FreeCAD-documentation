@@ -1,7 +1,6 @@
 # LGTM/it
 
 
-
 ## Descrizione
 
 

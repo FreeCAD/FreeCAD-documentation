@@ -1,7 +1,6 @@
 # Macro Kerkythea/it
 
 
-
 ## Introduzione
 
 

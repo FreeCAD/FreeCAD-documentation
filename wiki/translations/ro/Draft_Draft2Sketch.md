@@ -6,9 +6,15 @@
 
 ## Description
 
+
+<div class="mw-translate-fuzzy">
+
 ## Descriere
 
 Acest instrument convertește [ Draft objects](Draft_Workbench.md) la [Sketcher objects](Sketcher_Workbench.md) și invers.
+
+
+</div>
 
 ![](images/Draft_Draft2Sketch_example.png )
 

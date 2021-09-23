@@ -1,5 +1,4 @@
 # FreeCAD vector math library
-
  
 
 ## Introduction

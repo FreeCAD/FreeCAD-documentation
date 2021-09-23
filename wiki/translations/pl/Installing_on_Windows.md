@@ -2,7 +2,6 @@
 
 
 
-
 {{docnav/pl
 |[Funkcjonalność programu](Feature_list/pl.md)
 |[Instalacja w systemie Linux](Installing_on_Linux/pl.md)

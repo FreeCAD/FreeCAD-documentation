@@ -1,5 +1,4 @@
 # Macro Spring/en
-
  {{Macro
 |Name=Spring Simul
 |Icon=Macro_Spring.png

@@ -5,7 +5,6 @@
 
 
 
-
 {{TutorialInfo
 |Topic=Modeling
 |Level=Experienced User
@@ -16,7 +15,7 @@
 }}
 
 
-{{VeryImportantMessage|This tutorial was originally written for a now deprecated development version of FreeCAD. This tutorial requires a complete rewrite to align with the PartDesign changes that will be in the upcoming v0.17 release. Rewrite was started in [NormandC](Sandbox:PartDesign_Bearingholder_Tutorial_I]]. If you want to participate, please post to the Wiki section of the [http://forum.freecadweb.org forum]. - [[User:Normandc.md)}}
+**This tutorial was originally written for a now deprecated development version of FreeCAD. This tutorial requires a complete rewrite to align with the PartDesign changes that will be in the upcoming v0.17 release. Rewrite was started in [NormandC](Sandbox:PartDesign_Bearingholder_Tutorial_I]]. If you want to participate, please post to the Wiki section of the [http://forum.freecadweb.org forum]. - [[User:Normandc.md)**
 
 ![Bearing Holder Tutorial - Finished bearing holder (top)\|thumb\|right\|400px](images/HolderTop1-1.jpg )
 

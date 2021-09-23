@@ -3,7 +3,6 @@
 
 
 
-
 {{TutorialInfo
 |Topic=Modeling
 |Level=Experienced User
@@ -14,10 +13,10 @@
 }}
 
 
-{{VeryImportantMessage|Acest tutorial a fost inițial scris pentru o versiune de dezvoltare și nu este acum disponibilă în binar sau ca executabil în FreeCAD. Începând cu aprilie 2016, aceste caracteristici au fost integrate în versiunea de 0.17 de pre-dezvoltare disponibilă [https://github.com/FreeCAD/FreeCAD/releases/tag/0.17_pre here].
+**Acest tutorial a fost inițial scris pentru o versiune de dezvoltare și nu este acum disponibilă în binar sau ca executabil în FreeCAD. Începând cu aprilie 2016, aceste caracteristici au fost integrate în versiunea de 0.17 de pre-dezvoltare disponibilă [https://github.com/FreeCAD/FreeCAD/releases/tag/0.17_pre here].
 <br />
 
-Rețineți că această versiune de FreeCAD se află încă în stadii incipiente de dezvoltare. În plus, acest tutorial poate necesita actualizarea. Dacă doriți să participați la revizuirea și actualizarea acestuia, mergeți la secțiunea Wiki din [http://forum.freecadweb.org forum].}}
+Rețineți că această versiune de FreeCAD se află încă în stadii incipiente de dezvoltare. În plus, acest tutorial poate necesita actualizarea. Dacă doriți să participați la revizuirea și actualizarea acestuia, mergeți la secțiunea Wiki din [http://forum.freecadweb.org forum].**
 
 ![Bearing Holder Tutorial - Finished bearing holder (top)\|thumb\|right\|400px](images/HolderTop2-19.jpg )
 

@@ -2,11 +2,13 @@
 
 
 
+<div class="mw-translate-fuzzy">
 
 
 
 
 
+</div>
 
 
 {{TOCright}}
@@ -19,9 +21,26 @@ DXF Entwurf ist ein Softwaremodul, das von den <img alt="" src=images/Std_Open.s
 
 ## Importieren
 
+
+<div class="mw-translate-fuzzy">
+
 Der Importeur hat zwei Modi, einstellbar unter **Bearbeiten → Einstellungen → Import/Export → DXF**: Der eine ist eingebaut, C++ basiert und schnell, der andere ist eine Altlast, in Python kodiert, langsamer und erfordert die Installation einer Erweiterung, kann aber manche Objekte besser handhaben und kann verfeinerte FreeCAD Objekte erzeugen. Beide unterstützen alle DXF Versionen beginnend ab R12.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 3D Objekte innerhalb einer DXF Datei werden unter einem binären ACIS/SAT Klecks gespeichert, der zur Zeit von FreeCAD nicht gelesen werden kann. Einfachere Objekte wie 3DFACEs werden jedoch unterstützt.
+
+
+</div>
+
+### C++ importer 
+
+
+<div class="mw-translate-fuzzy">
 
 Die folgenden DXF Objekte können importiert werden:
 
@@ -37,9 +56,48 @@ Die folgenden DXF Objekte können importiert werden:
 -   Führungen
 -   Papierraumobjekte
 
+
+</div>
+
+### Legacy importer 
+
+This importer can import the following DXF objects:
+
+-   lines
+-   polylines (and lwpolylines)
+-   arcs
+-   circles
+-   ellipses
+-   splines
+-   3D faces
+-   texts and mtexts
+-   leaders
+-   layers
+
 ## Exportieren
 
+
+<div class="mw-translate-fuzzy">
+
 Dateien werden im R14 DXF Format exportiert, das von vielen Anwendungen verarbeitet werden kann.
+
+
+</div>
+
+### C++ exporter 
+
+Some of the features and limitations of this exporter are:
+
+-   All FreeCAD 2D geometry is exported, except [Draft CubicBezCurves](Draft_CubicBezCurve.md), [Draft BezCurves](Draft_BezCurve.md) and [Draft Points](Draft_Point.md).
+-   Straight edges from faces of 3D objects are exported, but curved edges only if they are on a plane parallel to the XY plane of the global coordinate system. Note that a DXF created from 3D objects will contain duplicate lines.
+-   Texts and dimensions are not exported.
+-   Colors are ignored.
+-   Layers are mapped from object names.
+
+### Legacy exporter 
+
+
+<div class="mw-translate-fuzzy">
 
 Die folgenden FreeCAD Objekte können exportiert werden:
 
@@ -51,13 +109,27 @@ Die folgenden FreeCAD Objekte können exportiert werden:
 -   Lagen werden von Gruppennamen abgebildet. Wenn Gruppen verschachtelt sind, gibt die tiefste Gruppe den Lagennamen an.
 -   Bemaßungen, die mit dem Dimstyle \"Standard\" exportiert werden.
 
+
+</div>
+
 ## Installieren
 
 Aus lizenzrechtlichen Gründen sind die benötigten [DXF](DXF/de.md) Import/Export Bibliotheken, die von der Legacy Version des Importeurs benötigt werden, nicht Teil des FreeCAD Quellcodes. Für weitere Informationen siehe: [FreeCAD und DXF Import](FreeCAD_and_DXF_Import/de.md).
 
 ## Einstellungen
 
+
+<div class="mw-translate-fuzzy">
+
 Für weitere Informationen siehe: [Import Export Einstellungen](Import_Export_Preferences/de.md).
+
+
+</div>
+
+## Scripting
+
+
+<div class="mw-translate-fuzzy">
 
 ## Skripten
 
@@ -66,25 +138,51 @@ Für weitere Informationen siehe: [Import Export Einstellungen](Import_Export_Pr
 
 [Draft API](Draft_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-Elemente können durch die folgende Funktion nach DXF exportiert werden: 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+Elemente können durch die folgende Funktion nach DXF exportiert werden:
+
+
+</div>
+
+
 ```python
 importDXF.export(objectslist, filename, nospline=False, lwPoly=False)
 ```
 
-Beispiel: 
+-   For the Windows OS: use a {{FileName|/}} (forward slash) as the path separator in {{Incode|filename}}.
+
+Beispiel:
+
+
 ```python
-import Draft, importDXF
+import FreeCAD as App
+import Draft
+import importDXF
 
-Polygon1 = Draft.makePolygon(3, radius=500)
-Polygon2 = Draft.makePolygon(5, radius=1500)
+doc = App.newDocument()
 
-objects = [Polygon1, Polygon2]
+polygon1 = Draft.make_polygon(3, radius=500)
+polygon2 = Draft.make_polygon(5, radius=1500)
 
+doc.recompute()
+
+objects = [polygon1, polygon2]
 importDXF.export(objects, "/home/user/Pictures/myfile.dxf")
 ```
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
  

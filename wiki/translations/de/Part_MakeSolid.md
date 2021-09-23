@@ -12,26 +12,14 @@ Dieser Befehl erstellt einen Festkörper aus einem Formobjekt.
 
 ## Anwendung
 
-
-<div class="mw-translate-fuzzy">
-
 1.  Wähle das Formobjekt.
-2.  Wähle ** Part** → **Umwandeln in Festkörper** aus dem oberen Menü.
+2.  Wähle **Part → <img src="images/Part_MakeSolid.svg" width=16px> Umwandeln in Festkörper** aus dem Menü.
 3.  Ein Festkörper aus dem Formobjekt wird als separates neues Objekt erstellt.
-
-
-</div>
 
 ## Begrenzungen
 
-
-<div class="mw-translate-fuzzy">
-
-Eine Analyse oder Validierung des Formobjekts findet nicht statt.
-Es wird empfohlen, ** Part** → ** Form verfeinern** vor der Konvertierung in einen Festkörper zu verwenden.
-
-
-</div>
+-   Eine Analyse oder Validierung des Formobjekts findet nicht statt.
+-   Es wird empfohlen, [Part Form verfeinern](Part_RefineShape/de.md) vor der Konvertierung in einen Festkörper zu verwenden.
 
 
 

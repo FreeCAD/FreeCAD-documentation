@@ -1,14 +1,12 @@
 ---
 - GuiCommand:/ru
-   Name:Part BoxSelection
-   Name/ru:Part BoxSelection
-   MenuLocation:Part → Box selection
+   Name/ru:Выделить область
+   Name:Part_BoxSelection
+   MenuLocation:Part → Выделить область
    Workbenches:[Part](Part_Workbench/ru.md)
-   SeeAlso:[Std BoxSelection](Std_BoxSelection/ru.md), [Std BoxElementSelection](Std_BoxElementSelection/ru.md), [Std SelectAll](Std_SelectAll/ru.md)
+   Version:0.18
+   SeeAlso:[Выделить область](Std_BoxSelection/ru.md), [Область выбора элементов](Std_BoxElementSelection/ru.md), [Выбрать всё](Std_SelectAll/ru.md)
 ---
-
-
-</div>
 
 ## Описание
 
@@ -27,16 +25,10 @@ The **<img src="images/Part_BoxSelection.svg" width=16px> [Part BoxSelection](Pa
 
 ## Ограничения
 
-## Scripting
-
-
-<div class="mw-translate-fuzzy">
+## Программирование
 
 
 
-
-
-</div>
 
 
  

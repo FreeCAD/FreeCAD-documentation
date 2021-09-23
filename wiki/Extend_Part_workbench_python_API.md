@@ -1,5 +1,4 @@
 # Extend Part workbench python API
-
 This page is dedicated to the Google Summer of Code project regarding the extension of the Python Part workbench API
 
 ## Outline

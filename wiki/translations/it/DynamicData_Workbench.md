@@ -1,12 +1,19 @@
 # DynamicData Workbench/it
 
- <img alt="" src=images/DynamicData_workbench_icon.svg  style="width:240px;"> 
+
+
+<div class="mw-translate-fuzzy">
+
+
 *align=center|L'icona dell'ambiente aggiuntivo DynamicData*
 
-## Presentazione
+
+</div>
 
 
 {{TOCright}}
+
+## Presentazione
 
 DynamicData è un [ambiente aggiuntivo](External_workbenches/it.md) con cui è possibile creare un oggetto contenitore per contenere proprietà personalizzate.
 

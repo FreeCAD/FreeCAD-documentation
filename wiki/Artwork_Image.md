@@ -1,5 +1,4 @@
 # Artwork Image
-
   
 
 These icons are in the indicated source path.

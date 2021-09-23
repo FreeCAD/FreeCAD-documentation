@@ -2,7 +2,6 @@
 
 
 
-
 <div class="mw-translate-fuzzy">
 
 Los comandos de la interfaz gráfica de usuario (GuiCommand) son una de las funciones más importantes de FreeCAD en el principal punto de interacción del usuario. Cada vez que el usuario selecciona un elemento del menú o presiona un botón de una barra de herramientas se activa un comando de la interfaz gráfica de usuario. Alguno de los atributos de un comandos de la interfaz gráfica de usuario (GuiCommand) son:

@@ -1,6 +1,5 @@
 # TechDraw TemplateGenerator
 
-
   
 
 
@@ -186,11 +185,11 @@ EndSvg(template_file)
 
 To make a drawing out of a blank page we need:
 
-:\* Frames i.e. rectagles created with the **rect** instruction
+:\* Frames i.e. rectangles created with the **rect** instruction
 
 :\* a title block and more made of lines created with the **path** instruction
 
-:\* simple texts for indexes and labelling title block cells
+:\* simple texts for indexes and labeling title block cells
 
 :\* editable texts like part number or part name
 

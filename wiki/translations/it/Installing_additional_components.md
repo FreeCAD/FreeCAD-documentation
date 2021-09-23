@@ -5,12 +5,11 @@
 
 
 
-
 {{TOCright}}
 
 ## Introduzione
 
-Dopo aver installato FreeCAD sul sistema operativo ([Windows](Installing_on_Windows.md), [Linux](Installing_on_Linux.md) or [Mac](Installing_on_Mac.md)), si può prendere in considerazione l\'installazione di uno o più dei seguenti componenti aggiuntivi.
+Dopo aver installato FreeCAD sul sistema operativo ([Windows](Installing_on_Windows/it.md), [Linux](Installing_on_Linux/it.md) o [Mac](Installing_on_Mac/it.md)), si può prendere in considerazione l\'installazione di uno o più dei seguenti componenti aggiuntivi.
 
 # File di aiuto 
 

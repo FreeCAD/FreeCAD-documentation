@@ -1,7 +1,6 @@
 # Drawing API example/fr
 
 
-
 ## Introduction
 
 Le flux de travail de l\'interface utilisateur graphique pour l\' [atelier Drawing](Drawing_Workbench/fr.md) est limité. Utiliser un script pour l\'interface est plus intéressante.

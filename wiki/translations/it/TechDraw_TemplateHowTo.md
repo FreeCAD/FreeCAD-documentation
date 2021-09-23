@@ -2,7 +2,6 @@
 
 
 
-
 {{TutorialInfo/it
 |Topic=Disegno tecnico
 |Level=Intermedio

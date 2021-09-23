@@ -1,7 +1,6 @@
 # Property/it
 
 
-
 ## Introduzione
 
 Una [proprietà](Property/it.md) è una parte di informazione sotto forma di numero o di stringa di testo che viene allegata a un documento di FreeCAD oppure a un oggetto di un documento. Le proprietà pubbliche possono essere visualizzate e, se consentito, modificate nell\'[editore delle proprietà](Property_editor/it.md).

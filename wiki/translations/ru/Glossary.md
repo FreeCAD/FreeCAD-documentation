@@ -4,7 +4,6 @@
 
 
 
-
 Эта страница содержит общую терминологию FreeCAD и их определения. {{CompactTOC|center=yes}}
 
 Jump to letter: {{CompactTOC|center=yes}}

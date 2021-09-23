@@ -1,5 +1,4 @@
 # Customize Toolbars/pl
-
  {{TutorialInfo/pl
 |Topic=Przykład
 |Level=początkujący

@@ -1,5 +1,4 @@
 # PropertyLink: InList and OutList
-
  
 
 See [Properties](Property.md) before this section.

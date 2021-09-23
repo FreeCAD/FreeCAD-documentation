@@ -1,5 +1,4 @@
 # Manual:Creating parametric objects/it
-
  
 
 

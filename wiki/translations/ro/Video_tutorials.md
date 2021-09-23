@@ -2,11 +2,10 @@
 
 
 
-
 <div class="mw-translate-fuzzy">
 
 
-{{VeryImportantMessage|Această documentație are nevoie de actulaizare. Lista Video trebuie revizuită, noi videos adăugate, legăturile moarte șterse. Please [help us update this page](Help_FreeCAD#Work_on_the_documentation.md)!}}
+**Această documentație are nevoie de actulaizare. Lista Video trebuie revizuită, noi videos adăugate, legăturile moarte șterse. Please [help us update this page](Help_FreeCAD#Work_on_the_documentation.md)!**
 
 
 </div>
@@ -107,6 +106,8 @@ Since there are many videos that deal with this topic, please visit [Video tutor
 
 -   [flowwie\'s corner](https://www.youtube.com/c/flowwiescorner/videos) by flowwie in German: a nice series of 62 short videos concerning FreeCAD 0.18 and 0.19, from basic to intermediate level.
 
+-   [Evgeniy Ivanov](https://www.youtube.com/c/CFDIntech/videos) by Evgeniy Ivanov in English: a nice series of videos concerning FreeCAD 0.19, from basic to intermediate level.
+
 
 <div class="mw-translate-fuzzy">
 
@@ -116,10 +117,10 @@ Since there are many videos that deal with this topic, please visit [Video tutor
 </div>
 
 
-{{VeryImportantMessage|In FreeCAD 0.17 the [PartDesign Workbench](PartDesign_Workbench.md) received important updates that change the way solids are created with respect to previous versions. New users should watch videos for versions 0.17 and above to understand the concept of working with a [PartDesign Body](PartDesign_Body.md) and datum objects.}}
+**In FreeCAD 0.17 the [PartDesign Workbench](PartDesign_Workbench.md) received important updates that change the way solids are created with respect to previous versions. New users should watch videos for versions 0.17 and above to understand the concept of working with a [PartDesign Body](PartDesign_Body.md) and datum objects.**
 
 
-{{VeryImportantMessage|These videos are considered obsolete because they use v0.16 or earlier versions of the program.}}
+**These videos are considered obsolete because they use v0.16 or earlier versions of the program.**
 
 
 <div class="mw-translate-fuzzy">

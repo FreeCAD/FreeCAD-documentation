@@ -1,5 +1,4 @@
 # Macro EasyAlias
-
  {{Macro
 |Name=EasyAlias
 |Icon=easy-alias-icon.png

@@ -1,15 +1,10 @@
 ---
 - GuiCommand:/ru
-   Name:PartDesign Draft
-   Name/ru:PartDesign Draft
-   MenuLocation:Part Design → Притяжка
+   Name/ru:Полость
+   Name:PartDesign_Draft
+   MenuLocation:Part Design → Apply a dress-up feature → Полость
    Workbenches:[Part Design](PartDesign_Workbench/ru.md)
-   Shortcut:Нет
-   SeeAlso:...
 ---
-
-
-</div>
 
 ### Description
 

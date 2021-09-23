@@ -1,5 +1,4 @@
 # About FreeCAD/fr
-
  
 
 <img alt="" src=images/Freecad_default.jpg  style="width:1024px;">

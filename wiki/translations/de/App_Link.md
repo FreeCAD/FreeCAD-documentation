@@ -1,5 +1,4 @@
 # App Link/de
-
  {{TOCright}}
 
 ## Einführung
@@ -27,6 +26,6 @@ Eine [Anwendungsverknüpfung](App_Link.md) (`App::Link` Klasse) wird aus der [An
 Siehe die vollständige Liste der Eigenschaften auf der [Std VerknüpfungHerstellen](Std_LinkMake/de.md) Seite.
 
 
-{{Std Base
+{{Std Base navi
 
 }} {{Document objects navi}} 

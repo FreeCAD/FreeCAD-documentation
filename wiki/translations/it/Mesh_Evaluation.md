@@ -46,6 +46,7 @@ The **Mesh Evaluation** command evaluates and repairs a mesh object.
 ## Notes
 
 -   Repairing a mesh can mean that problematic elements are deleted from the mesh resulting in holes. Holes can be closed with the [Mesh FillupHoles](Mesh_FillupHoles.md), [Mesh FillInteractiveHole](Mesh_FillInteractiveHole.md) and [Mesh AddFacet](Mesh_AddFacet.md) commands.
+-   See [this forum post](https://forum.freecadweb.org/viewtopic.php?f=3&p=533252#p533252) for an explanation of the mesh data structure. This information may help to understand why a mesh has problems.
 
 ## Preferences
 

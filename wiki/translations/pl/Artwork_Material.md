@@ -1,5 +1,4 @@
 # Artwork Material/pl
-
  
 
 Ikony te znajdują się we wskazanej ścieżce źródłowej.

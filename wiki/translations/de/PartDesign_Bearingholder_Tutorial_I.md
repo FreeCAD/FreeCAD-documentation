@@ -3,7 +3,6 @@
 
 
 
-
 {{TutorialInfo/de
 |Topic=Modellierung
 |Level=Erfahrene Anwender
@@ -12,7 +11,7 @@
 }}
 
 
-{{VeryImportantMessage|Dieses Tutorium wurde ursprünglich für eine inzwischen veraltete Entwicklungsversion von FreeCAD geschrieben. Dieses Tutorium muss komplett neu geschrieben werden, um es an die Änderungen im PartDesign anzupassen, die in der kommenden Version 0.17 vorgenommen werden. Das Neuschreiben wurde in [NormandC](Sandbox:PartDesign_Bearingholder_Tutorial_I]]_begonnen. Wenn du teilnehmen möchtest, schreibe bitte einen Beitrag im Wiki Bereich des [http://forum.freecadweb.org Forum]. - [[Benutzer:Normandc.md)}}
+**Dieses Tutorium wurde ursprünglich für eine inzwischen veraltete Entwicklungsversion von FreeCAD geschrieben. Dieses Tutorium muss komplett neu geschrieben werden, um es an die Änderungen im PartDesign anzupassen, die in der kommenden Version 0.17 vorgenommen werden. Das Neuschreiben wurde in [NormandC](Sandbox:PartDesign_Bearingholder_Tutorial_I]]_begonnen. Wenn du teilnehmen möchtest, schreibe bitte einen Beitrag im Wiki Bereich des [http://forum.freecadweb.org Forum]. - [[Benutzer:Normandc.md)**
 
 ![Lagergehäuse Tutorium - Fertiges Lagergehäuse (oben)\|thumb\|right\|400px](images/HolderTop1-1.jpg )
 

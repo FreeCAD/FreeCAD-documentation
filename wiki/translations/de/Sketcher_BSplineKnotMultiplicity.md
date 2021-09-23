@@ -8,6 +8,9 @@
    SeeAlso:[Erstelle B-spline](Sketcher_CompCreateBSpline/de.md)
 ---
 
+
+</div>
+
 ## Beschreibung
 
 Zeigt oder verbirgt die Anzeige der Knotenvielfalt einer B-Spline. Siehe [diese Seite](Sketcher_BSplineDecreaseKnotMultiplicity/de#Beschreibung.md) für eine Erklärung der Vielfachheit. Die Vielfachheit wird in geschweiften Klammern neben dem Knoten angezeigt.
@@ -25,4 +28,4 @@ Zeigt oder verbirgt die Anzeige der Knotenvielfalt einer B-Spline. Siehe [diese 
 
 {{Sketcher Tools navi
 
-}}  
+}} 

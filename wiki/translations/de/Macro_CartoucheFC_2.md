@@ -1,25 +1,15 @@
 # Macro CartoucheFC 2/de
-
-
-
-
-<div class="mw-translate-fuzzy">
-
-
-{{Macro/de
+ {{Macro/de
 |Name=Macro CartoucheFC 2
 |Translate=Macro CartoucheFC 2
 |Icon=Macro_CartoucheFC_2.png
-|Description=Dieses Makro ist eine vollständige Anwendung. Es ermöglicht, die Kartusche des Zeichenblatts mit vollem Bearbeitungstext zu füllen. (For [Drawing Arbeitsberisch](Drawing_Workbench/de.md)).
+|Description=Dieses Makro ist eine vollständige Anwendung. Es ermöglicht, die Kartusche des Zeichenblatts mit vollem Bearbeitungstext zu füllen. (Nur für den [Drawing Arbeitsbereich](Drawing_Workbench/de.md)).
 |Author=Mario52
 |Version=5.0
 |Date=2014-08-08
-|FCVersion=All version using Drawing WorkBench
+|FCVersion=Alle Versionen, die den Drawing-Arbeitsbereich benutzen
 |Download=[https://www.freecadweb.org/wiki/images/0/00/Macro_CartoucheFC_2.png ToolBar Icon]
 }}
-
-
-</div>
 
 ## Beschreibung
 

@@ -1,7 +1,6 @@
 # Sketcher helper constraint/de
 
 
-
 ## Überblick
 
 <img alt="Beispiel einer Hilfsbeschränkung (Beschränkung5 - Punkt auf Kreis) für eine Tangentialbeschränkung (Beschränkung6; im Tangens über Punkt Modus). In diesem Fall wird nur eine Hilfsbeschränkung verwendet, da der Tangentenpunkt der Endpunkt des Ellipsenhauptdurchmessers ist, der von Natur aus auf der Ellipse liegt." src=images/Sketcher_helper_constraint_example1.png  style="width:500px;">

@@ -1,5 +1,4 @@
 # Compiling/fr
-
  Chaque système d\'exploitation dispose de sa page spécifique pour compiler FreeCAD dans la [Documentation d\'aide en ligne](Online_Help_Toc/fr.md).
 
   ----------------------------------------------------------- ------------------------------------------------------- ----------------------------------------------------- ---------------------------------------------------------

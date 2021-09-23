@@ -1,6 +1,5 @@
 # Video tutorials for architectural design/de
-
- {{VeryImportantMessage|Bitte beachte die im Tutorial verwendete Version von FreeCAD. Wenn ein Tutorial eine ältere Version des Programms verwendet, kann der allgemeine Modellierungsprozess noch funktionieren, aber einige Werkzeuge können sich in neueren Versionen geändert haben. Füge keine Videos hinzu, die mit Version 0.16 oder älter erstellt wurden, da diese Versionen als veraltet gelten.}}
+ **Bitte beachte die im Tutorial verwendete Version von FreeCAD. Wenn ein Tutorial eine ältere Version des Programms verwendet, kann der allgemeine Modellierungsprozess noch funktionieren, aber einige Werkzeuge können sich in neueren Versionen geändert haben. Füge keine Videos hinzu, die mit Version 0.16 oder älter erstellt wurden, da diese Versionen als veraltet gelten.**
 
 ## Einführung
 

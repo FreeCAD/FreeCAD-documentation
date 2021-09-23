@@ -1,5 +1,4 @@
 # Macro ArrayCopy/fr
-
  {{Macro/fr
 |Name=ArrayCopy
 |Icon=Macro_ArrayCopy.png

@@ -1,5 +1,4 @@
 # Macro Solid Sweep/fr
-
  {{Macro/fr
 |Name=Balayage solide
 |Icon=Macro_Solid_Sweep.png

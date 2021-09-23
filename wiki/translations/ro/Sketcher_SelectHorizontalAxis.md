@@ -32,4 +32,4 @@ Selectează axa orizontală a schiței.
 
 {{Sketcher Tools navi
 
-}}  
+}} 

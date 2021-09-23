@@ -8,6 +8,9 @@
    Version:0.17
 ---
 
+
+</div>
+
 ## Descripción
 
 **Crear una B-Spline** es un botón de icono en la barra de herramientas de geometrías de Croquizador que agrupa herramientas para crear una curva B-Spline. Haz clic en la flecha hacia abajo situada a su derecha para expandir los iconos que hay debajo y seleccionar una herramienta.
@@ -23,4 +26,4 @@
 
 {{Sketcher Tools navi
 
-}}  
+}} 

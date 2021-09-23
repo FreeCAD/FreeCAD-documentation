@@ -1,5 +1,4 @@
 # FreeCad with Multiple Monitors
-
 # Notice This is an Early Draft 
 
 This is an early draft. It may or may not be finished.

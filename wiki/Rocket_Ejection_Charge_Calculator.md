@@ -10,7 +10,7 @@
 ## Description
 
 
-{{VeryImportantMessage|This calculator only gives an estimate of the amount of powder required. Too much or too little may result in a failed recovery or damage to your rocket<br>'''ALWAYS''' ground test your rocket before flying}}
+**This calculator only gives an estimate of the amount of powder required. Too much or too little may result in a failed recovery or damage to your rocket<br>'''ALWAYS''' ground test your rocket before flying**
 
 Ejection occurs when the chamber containing the recovery system is pressurized with sufficient force to eject the recovery system from the chamber. The force required can vary according to a number of factors:
 

@@ -1,16 +1,16 @@
 ---
-- GuiCommand:
-   Name:Sketcher Create Rectangles
-   Name/fr:Sketcher Create Rectangles
+- GuiCommand:/fr
+   Name:Sketcher_CompCreateRectangles
+   Name/fr:Sketcher Créer des rectangles
    Icon:Sketcher_CompCreateRectangles.png
-   MenuLocation:Aucun (barre d'outils uniquement)
+   MenuLocation:barre d'outils seulement
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
-   Version : 0.20
+   Version:0.20
 ---
 
 ## Description
 
-**Créer un rectangle** est un bouton-icône de la barre d\'outils géométries de Sketcher qui regroupe les outils permettant de créer des rectangles. Cliquez sur la flèche vers le bas à sa droite pour développer les icônes situées en dessous et sélectionner un outil.
+**Créer des rectangles** est un bouton-icône de la barre d\'outils géométries de Sketcher qui regroupe les outils permettant de créer des rectangles. Cliquez sur la flèche vers le bas à sa droite pour développer les icônes situées en dessous et sélectionner un outil.
 
 ## Types de rectangles 
 
@@ -24,4 +24,4 @@
 
 {{Sketcher Tools navi
 
-}}  
+}} 

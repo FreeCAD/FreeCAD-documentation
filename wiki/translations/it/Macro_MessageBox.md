@@ -1,5 +1,4 @@
 # Macro MessageBox/it
-
  {{Macro/it
 |Name=MessageBox
 |Icon=Macro MessageBox.png

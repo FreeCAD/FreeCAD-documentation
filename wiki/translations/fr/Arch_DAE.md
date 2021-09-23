@@ -1,5 +1,4 @@
 # Arch DAE/fr
-
  
 
 Le format [Collada (DAE)](https://fr.wikipedia.org/wiki/Collaborative_Design_Activity) est un format de fichier standard pour l\'échange de données de maillage. L\'[atelier Arch](Arch_Workbench/fr.md) peut importer des maillages à partir de fichiers .dae, et exporter des objets Arch et d\'autres objets basés sur [Part](Part_Workbench.md) au format .dae.

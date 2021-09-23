@@ -1,7 +1,6 @@
 # Doxygen/ru
 
 
-
 ## About
 
 

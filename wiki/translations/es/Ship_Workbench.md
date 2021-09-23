@@ -1,7 +1,6 @@
 # Ship Workbench/es
 
 
-
 <img alt="Icono del ambiente de trabajo Nave" src=images/Workbench_Ship.svg  style="width:128px;">
 
 

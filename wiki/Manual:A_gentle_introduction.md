@@ -1,6 +1,8 @@
 # Manual:A gentle introduction
+ 
 
-  
+
+
 
 
 {{Manual:TOC}}
@@ -110,6 +112,6 @@ box.Placement = otherpla
 
 
 
- {{Powerdocnavi}} 
+ {{Powerdocnavi}}
 
 [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)

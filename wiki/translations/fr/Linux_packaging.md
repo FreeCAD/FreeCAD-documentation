@@ -1,7 +1,6 @@
 # Linux packaging/fr
 
 
-
 Linux permet le packaging de différentes manières en fonction de la distribution spécifique utilisée. Les formats populaires sont les packages Debian `.deb`, les packages openSuse et Fedora `.rpm` et le format quasi universel `.AppImage`.
 
 

@@ -34,7 +34,7 @@ In order to help new users, Ship includes a geometries examples loader, with the
 4.  Result: Tool loads new document with the **s60\_IowaUniversity** geometry.
 
 
-{{VeryImportantMessage|Warning, before editing anything! You are now working with the original example file. To preserve the original unedited example, you must first save it as a new file before editing anything.}}
+**Warning, before editing anything! You are now working with the original example file. To preserve the original unedited example, you must first save it as a new file before editing anything.**
 
 ## Tutoriales
 

@@ -1,7 +1,6 @@
 # Direct modeling tools
 
-
-{{VeryImportantMessage|An effort to implement direct modelling methodologies is currently being explored at https://github.com/MariwanJ/Design456}}
+**An effort to implement direct modelling methodologies is currently being explored at https://github.com/MariwanJ/Design456**
 
 This page is dedicated to the description of the [Google Summer of Code 2017](Google_Summer_of_Code.md) project idea regarding direct modeling.
 

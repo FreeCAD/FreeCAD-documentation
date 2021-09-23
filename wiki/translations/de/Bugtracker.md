@@ -1,5 +1,4 @@
 # Bugtracker/de
-
 1.  REDIRECT [Tracker/de](Tracker/de.md)
 
 

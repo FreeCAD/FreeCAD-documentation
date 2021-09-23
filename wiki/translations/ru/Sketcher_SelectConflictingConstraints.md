@@ -8,6 +8,9 @@
    Version:0.15
 ---
 
+
+</div>
+
 ## Описание
 
 Selects the conflicting constraints of a sketch.
@@ -24,4 +27,4 @@ Selects the conflicting constraints of a sketch.
 
 {{Sketcher Tools navi
 
-}}  
+}} 

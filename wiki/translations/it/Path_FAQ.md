@@ -1,7 +1,6 @@
 # Path FAQ/it
 
 
-
 ## Domande frequenti su Path 
 
 

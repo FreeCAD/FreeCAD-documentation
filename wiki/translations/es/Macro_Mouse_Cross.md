@@ -1,5 +1,4 @@
 # Macro Mouse Cross/es
-
  {{Macro/es
 |Name=Macro_Mouse_Cross
 |Icon=Macro_Mouse_Cross.png

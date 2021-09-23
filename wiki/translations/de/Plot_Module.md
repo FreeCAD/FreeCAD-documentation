@@ -1,7 +1,6 @@
 # Plot Module/de
 
 
-
 <img alt="Druck Arbeitsbereichsymbol" src=images/Workbench_Plot.svg  style="width:128px;">
 
 

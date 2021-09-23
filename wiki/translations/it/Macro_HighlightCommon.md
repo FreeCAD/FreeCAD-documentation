@@ -1,5 +1,4 @@
 # Macro HighlightCommon/it
-
  {{Macro/it
 |Name=HightlightCommon
 |Icon=Macro_HighlightCommon.png

@@ -4,7 +4,6 @@
 
 
 
-
 <img alt="Ícone da Bancada de Trabalho Points" src=images/Workbench_Points.svg  style="width:128px;">
 
 ## Introdução

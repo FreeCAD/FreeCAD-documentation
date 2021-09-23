@@ -1,7 +1,6 @@
 # PySide Beginner Examples/pl
 
 
-
 ## Introduction
 
 The purpose of this page is to cover beginner level examples of the [PySide](PySide.md) GUI manager (there are accompanying pages [Intermediate PySide Examples](PySide_Intermediate_Examples.md) and [Advanced PySide Examples](PySide_Advanced_Examples.md)).

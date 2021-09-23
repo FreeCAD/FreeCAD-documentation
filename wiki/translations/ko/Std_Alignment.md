@@ -11,7 +11,7 @@
 
 **표준 정렬(Std Alignment)** 명령은 하나 이상의 점 쌍을 이용하여 고정된 참조 개체를 기준으로 하나의 개체를 정렬합니다.
 
-![](images/Std_Alignment2.png ) *두 점 쌍을 정의하고 난 뒤 명령 인터페이스 모습*
+![](images/Std_Alignment_example.png ) *두 점 쌍을 정의하고 난 뒤 명령 인터페이스 모습*
 
 ## 용법
 

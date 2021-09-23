@@ -8,9 +8,20 @@
    Version:0.15
 ---
 
+
+</div>
+
+## Description
+
+
+<div class="mw-translate-fuzzy">
+
 ## Descripción
 
 Selecciona las restricciones redundantes de un croquis.
+
+
+</div>
 
 ## Utilización
 
@@ -24,4 +35,4 @@ Selecciona las restricciones redundantes de un croquis.
 
 {{Sketcher Tools navi
 
-}}  
+}} 

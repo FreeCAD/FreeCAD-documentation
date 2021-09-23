@@ -1,7 +1,6 @@
 # Developer hub/es
 
 
-
 ![150](images/Crystal_Clear_app_tutorials.png )
 
 Este es el lugar al que acudir si quieres contribuir al desarrollo del software FreeCAD.

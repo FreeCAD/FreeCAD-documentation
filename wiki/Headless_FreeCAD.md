@@ -1,5 +1,4 @@
 # Headless FreeCAD
-
 ## Introduction
 
 This wiki page will document various aspect of running FreeCAD in the console without enabling the GUI (Graphical User Interface) or what is called \'headless\'.

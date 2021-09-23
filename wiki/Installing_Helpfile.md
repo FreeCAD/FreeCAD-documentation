@@ -1,5 +1,4 @@
 # Installing Helpfile
-
  
 
 ## FreeCAD Helpfiles 

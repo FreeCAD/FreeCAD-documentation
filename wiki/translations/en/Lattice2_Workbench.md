@@ -1,12 +1,11 @@
 # Lattice2 Workbench/en
-
  } <img alt="" src=images/Lattice2_Lattice2.svg  style="width:240px;"> 
 *align=center|The FreeCAD Lattice2 External Workbench Icon*
 
 ## Introduction
 
 
-{{VeryImportantMessage|Lattice2 is stable. New features may be added, but no breaking changes are supposed to happen.}}
+**Lattice2 is stable. New features may be added, but no breaking changes are supposed to happen.**
 
 
 {{TOCright}}

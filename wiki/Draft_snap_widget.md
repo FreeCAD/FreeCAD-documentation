@@ -1,5 +1,4 @@
 # Draft snap widget
-
  
 
 

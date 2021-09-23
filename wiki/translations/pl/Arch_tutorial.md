@@ -2,7 +2,6 @@
 
 
 
-
 {{TutorialInfo/pl
 |Topic=Modelowanie
 |Level=średniozaawansowany

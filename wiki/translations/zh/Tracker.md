@@ -5,7 +5,6 @@
 
 
 
-
 {{TOCright}}
 
 ![](images/Mantis_logo_262x90.png )

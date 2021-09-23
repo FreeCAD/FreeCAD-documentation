@@ -1,5 +1,4 @@
 # Macro FreeCAD to Kerkythea/it
-
  {{Macro/it
 |Name=FC to Kerkythea
 |Icon=Macro_FreeCAD_to_Kerkythea.png

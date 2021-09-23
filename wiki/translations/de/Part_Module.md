@@ -4,7 +4,6 @@
 
 
 
-
 <img alt="Part Arbeitsbereichsymbol" src=images/Workbench_Part.svg  style="width:128px;">
 
 
@@ -99,13 +98,7 @@ Dies sind Werkzeuge zum Erstellen neuer und Ändern vorhandener Objekte.
 
 -   <img alt="" src=images/Part_ProjectionOnSurface.svg  style="width:32px;"> [Projektion auf Oberfläche](Part_ProjectionOnSurface/de.md): Projiziert ein Logo, einen Text oder eine beliebige Fläche, Draht, Kante auf eine Oberfläche. {{Version/de|0.19}}
 
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Part_Attachment.svg  style="width:32px;"> [Anheftung](Part_Attachment/de.md): Heftet ein Objekt an ein anderes Objekt an.
-
-
-</div>
+-   <img alt="" src=images/Part_EditAttachment.svg  style="width:32px;"> [Anhang](Part_EditAttachment/de.md): Hängtt ein Objekt an ein anderes Objekt an.
 
 ### Boolesch
 

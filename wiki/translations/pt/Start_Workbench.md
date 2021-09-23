@@ -4,7 +4,6 @@
 
 
 
-
 <img alt="Start workbench icon" src=images/Workbench_Start.svg  style="width:128px;">
 
 The <img alt="" src=images/Workbench_Start.svg  style="width:24px;"> [Start Workbench](Start_Workbench.md) is not really a workbench, it\'s just the page that is presented when you open FreeCAD with no document loaded.

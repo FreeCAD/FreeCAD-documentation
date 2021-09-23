@@ -39,4 +39,4 @@ Questo strumento cancella tutta la geometria dallo schizzo che si sta modificand
 
 {{Sketcher Tools navi
 
-}}  
+}} 

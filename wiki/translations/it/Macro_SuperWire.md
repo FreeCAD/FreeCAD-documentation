@@ -1,6 +1,8 @@
 # Macro SuperWire/it
 
- {{Macro/it
+
+
+{{Macro/it
 |Name=SuperWire
 |Icon=Macro_SuperWire.png
 |Translate=Forza Wire
@@ -12,9 +14,17 @@
 |Download=[https://www.freecadweb.org/wiki/images/e/e3/Macro_SuperWire.png ToolBar Icon]
 }}
 
+## Description
+
+
+<div class="mw-translate-fuzzy">
+
 ## Descrizione
 
 Questa macro crea una polilinea da oggetti selezionati (linee e archi), anche quando i normali metodi di creazione delle polilinee, per esempio lo strumento di aggiornamento, non funzionano.
+
+
+</div>
 
 Attenzione, funziona solo con le versioni recenti di FreeCAD
 
@@ -25,7 +35,7 @@ ToolBar Icon ![](images/Macro_SuperWire.png )
 **Macro\_SuperWire.FCMacro**
 
 
-{{MacroCode|code=
+```python
 
 import FreeCAD,FreeCADGui,Part
 try:
@@ -47,7 +57,7 @@ else:
    else:
        FreeCAD.Console.PrintError("SuperWire operation failed!")
 
-}}
+```
 
 
 

@@ -1,5 +1,4 @@
 # Macro CartoucheFC 2/pl
-
  {{Macro
 |Name=Macro CartoucheFC 2
 |Icon=Macro_CartoucheFC_2.png

@@ -1,7 +1,6 @@
 # Reinforcement Addon/pl
 
 
-
 ## Introduction
 
 The [Reinforcement Addon](Reinforcement_Addon.md) augments the [Arch Workbench](Arch_Workbench.md) by providing new interfaces and presets for the creation of common rebar types for use with [Arch Structures](Arch_Structure.md).

@@ -5,7 +5,6 @@
 
 
 
-
 {{TOCright}}
 
 ## Förord
@@ -92,12 +91,11 @@ När du startar FreeCAD för den första gången, så kommer en \"generell\" arb
 
 The main concept behind the FreeCAD interface is that it is separated into [workbenches](workbenches.md). A workbench is a collection of tools suited for a specific task, such as working with [meshes](Mesh_Workbench.md), or drawing [2D objects](Draft_Workbench.md), or [constrained sketches](Sketcher_Workbench.md). You can switch the current workbench with the [workbench selector](Std_Workbench.md). You can [customize](Interface_Customization.md) the tools included in each workbench, add tools from other workbenches or even self-created tools, that we call [macros](macros.md). Widely used starting points are the [PartDesign Workbench](PartDesign_Workbench.md) and [Part Workbench](Part_Workbench.md).
 
-When you start FreeCAD for the first time, you are presented with the start center. Here is what it looks like for version 0.18:
+When you start FreeCAD for the first time, you are presented with the Start page. Here is what it looks like for version 0.18:
 
-<img alt="" src=images/Start_center_0.18_screenshot.jpg  style="width:1024px;"> 
-*For FreeCAD 0.17 see this [start center](Media:Startcenter0.17.jpg.md) screenshot.*
+<img alt="" src=images/Start_center_0.18_screenshot.jpg  style="width:1024px;">
 
-The Start Center allows you to quickly jump to one of the most common workbenches, open one of the recent files, or see the latest news from the FreeCAD world. You can change the default workbench in the [preferences](Preferences_Editor.md).
+The Start page allows you to quickly jump to one of the most common workbenches, open one of the recent files, or see the latest news from the FreeCAD world. You can change the default workbench in the [preferences](Preferences_Editor.md).
 
 ### Navigera i 3D rymden 
 

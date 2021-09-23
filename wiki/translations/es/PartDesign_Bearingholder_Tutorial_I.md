@@ -3,7 +3,6 @@
 
 
 
-
 {{TutorialInfo
 |Topic=Modeling
 |Level=Experienced User
@@ -14,7 +13,7 @@
 }}
 
 
-{{VeryImportantMessage|Este tutorial fue escrito originalmente para una versión de desarrollo ya obsoleta de FreeCAD. Este tutorial requiere una completa reescritura para alinearse con los cambios de PartDesign que se harán en la próxima versión v0.17. La reescritura se inició en [NormandC](Sandbox:Tutorial_de_PartDesign_Bearingholder_I]]. Si desea participar, por favor, envíe un mensaje a la sección Wiki del [http://forum.freecadweb.org foro]. - [[User:Normandc.md)}}
+**Este tutorial fue escrito originalmente para una versión de desarrollo ya obsoleta de FreeCAD. Este tutorial requiere una completa reescritura para alinearse con los cambios de PartDesign que se harán en la próxima versión v0.17. La reescritura se inició en [NormandC](Sandbox:Tutorial_de_PartDesign_Bearingholder_I]]. Si desea participar, por favor, envíe un mensaje a la sección Wiki del [http://forum.freecadweb.org foro]. - [[User:Normandc.md)**
 
 ![Tutorial de soporte de rodamiento - Soporte de rodamiento terminado (arriba)\|thumb\|right\|400px](images/HolderTop1-1.jpg )
 

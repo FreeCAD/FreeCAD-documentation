@@ -8,6 +8,9 @@
    Version:0.15
 ---
 
+
+</div>
+
 ## Descripción
 
 Selecciona las restricciones conflictivas de un croquis.
@@ -24,4 +27,4 @@ Selecciona las restricciones conflictivas de un croquis.
 
 {{Sketcher Tools navi
 
-}}  
+}} 

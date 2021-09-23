@@ -1,5 +1,4 @@
 # File Format FCStd/pt-br
-
  {{TOCright}}
 
 ## Overview

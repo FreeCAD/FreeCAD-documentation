@@ -5,7 +5,6 @@
 
 
 
-
 {{Manual:TOC/de}}
 
 Eine der größten Schwierigkeiten für neue Benutzer von FreeCAD, ist zu wissen, in welchem Arbeitsbereich ein bestimmtes Werkzeug zu finden ist. Die folgende Tabelle gibt einen Überblick über die wichtigsten Arbeitsbereiche und deren Werkzeuge. Eine vollständigere Liste findest du auf jeder Seite [Arbeitsbereich](Workbenches/de.md) in der FreeCAD Dokumentation.
@@ -116,7 +115,7 @@ Der Architektur Arbeitsbereich enthält Werkzeuge für die Arbeit mit [Bauwerksd
 ### Zeichnen
 
 
-{{VeryImportantMessage|Entwicklung der [Arbeitsbereich Zeichnung](Drawing_Workbench/de.md) wurde in FreeCAD 0.16 eingestellt, und die neue [TechDraw Arbeitsbereich](TechDraw_Workbench/de.md), die diese ersetzen soll, wurde in v0.17 eingeführt. Der Arbeitsbereich Zeichnung kann in zukünftigen Versionen entfernt werden. Verwende stattdessen den TechDraw Arbeitsbereich.}}
+**Entwicklung der [Arbeitsbereich Zeichnung](Drawing_Workbench/de.md) wurde in FreeCAD 0.16 eingestellt, und die neue [TechDraw Arbeitsbereich](TechDraw_Workbench/de.md), die diese ersetzen soll, wurde in v0.17 eingeführt. Der Arbeitsbereich Zeichnung kann in zukünftigen Versionen entfernt werden. Verwende stattdessen den TechDraw Arbeitsbereich.**
 
 Der Arbeitsbereich Zeichnung übernimmt die Erstellung und Bearbeitung von 2D Zeichnungsblättern, die für die Anzeige von Ansichten Ihrer 3D Arbeiten in 2D verwendet werden. Diese Blätter können dann in 2D Anwendungen im SVG oder DXF Format, in eine PDF Datei oder zum Drucken exportiert werden.
 

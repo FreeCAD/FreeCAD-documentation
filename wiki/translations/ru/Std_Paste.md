@@ -31,20 +31,10 @@
 
 -   Дублирование меток возможно, если **Инструменты → Редактор параметров... → BaseApp → Preferences → → Document → DuplicateLabels** равно `True`. Этот параметр также можно изменить в [Редакторе настроек](Preferences_Editor/ru#Документ.md).
 
-## Программирование
-
-Команда **Std\_Paste** можед быть прменена тлько после выполнения команды **[Std\_Copy](Std_Copy/ru.md)**:
-
-
-```python
-FreeCADGui.runCommand('Std_Copy')
-FreeCADGui.runCommand('Std_Paste')
-```
-
 
 
 
 
 {{Std Base navi
 
-}}  
+}} 

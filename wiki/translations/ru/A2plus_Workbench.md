@@ -1,5 +1,4 @@
 # A2plus Workbench/ru
-
  <img alt="Иконка верстака A2plus" src=images/A2p_workbench.svg  style="width:128px;">
 
 ## Введение

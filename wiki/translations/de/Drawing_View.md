@@ -8,7 +8,7 @@
    SeeAlso:[Drawing Landscape A3](Drawing_Landscape_A3/de.md)---
 
 
-{{VeryImportantMessage|Die Entwicklung des Drawing-Arbeitsbereich wurde gestoppt und ein neuer in v0.17 eingeführter TechDraw-Arbeitsbereich zielt darauf, es zu ersetzen. Beide Module stehen in v0.17 zur Verfügung, aber das Drawing-Arbeitsbereich könnte in zukünftigen Ausgaben entfernt werden.}}
+**Die Entwicklung des Drawing-Arbeitsbereich wurde gestoppt und ein neuer in v0.17 eingeführter TechDraw-Arbeitsbereich zielt darauf, es zu ersetzen. Beide Module stehen in v0.17 zur Verfügung, aber das Drawing-Arbeitsbereich könnte in zukünftigen Ausgaben entfernt werden.**
 
 Dieses Werkzeug erstellt eine neue Ansicht des ausgewählten Objekts im aktiven Zeichenblatt.
 

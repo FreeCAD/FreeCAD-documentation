@@ -1,7 +1,6 @@
 # Mesh Feature/it
 
 
-
 ## Introduzione
 
 

@@ -1,5 +1,4 @@
 # SweetHome3D/pl
-
  ![](images/SweetHome3DLogo.png )
 
 ## Wprowadzenie

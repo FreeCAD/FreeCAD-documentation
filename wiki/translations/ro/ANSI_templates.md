@@ -1,5 +1,4 @@
 # ANSI templates/ro
-
  Această pagină listează șabloanele conform cu standardul American National Standards Institute [ANSI](http://en.wikipedia.org/wiki/American_National_Standards_Institute)
 
 ### ANSI A 

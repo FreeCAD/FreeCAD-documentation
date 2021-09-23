@@ -4,7 +4,6 @@
 
 
 
-
 ## Przegląd stron ze skryptami Python 
 
 -   Strony związane z tematem podręcznik dla środowiska Python:

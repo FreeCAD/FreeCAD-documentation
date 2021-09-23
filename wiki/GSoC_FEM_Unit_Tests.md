@@ -1,5 +1,4 @@
 # GSoC FEM Unit Tests
-
 This page is dedicated to the description of the Google Summer of Code project idea regarding extending FreeCAD FEM unit test suite.
 
 ## Outline

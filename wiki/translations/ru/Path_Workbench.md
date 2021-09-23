@@ -4,8 +4,7 @@
 
 
 
-
-<img alt="Иконка верстака Path" src=images/Workbench_Path.svg  style="width:128px;">
+<img alt="Логотип верстака Path" src=images/Workbench_Path.svg  style="width:128px;">
 
 
 {{TOCright}}

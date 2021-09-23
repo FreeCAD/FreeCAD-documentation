@@ -1,7 +1,6 @@
 # Translating an external workbench/fr
 
 
-
 Dans les notes suivantes, `"context"` doit être le nom de votre addon ou de votre atelier, par exemple, `"MySuperAddon"` ou `"DraftPlus"`, etc. Ce contexte permet de regrouper toutes les traductions de votre code sous le même nom, afin qu\'elles soient plus facilement identifiables par les traducteurs. C\'est-à-dire qu\'ils sauront exactement à quel addon ou atelier une chaîne particulière appartient.
 
 **Remarque** : Voici un script tout-en-un qui automatise la procédure complète mentionnée ci-dessous (il est tout de même conseillé de lire la procédure pour savoir ce que le script doit faire) : <https://github.com/yorikvanhavre/BIM_Workbench/blob/master/utils/updateTranslations.py>.
@@ -202,6 +201,12 @@ Résultat : Cela devrait vous donner la traduction allemande. Si cela fonctionne
 ### Remarques importantes 
 
 -   Assurez-vous que vous utilisez un \*contexte\* et une \*chaîne\* qui se trouvent réellement dans le fichier ts/qm bien sûr.
+
+## Script pratique 
+
+Yorik maintient un script pratique pour l\'atelier BIM, qui peut rassembler, charger et télécharger des fichiers ts. Vous pouvez simplement copier et adapter ce script à votre atelier :
+
+<https://github.com/yorikvanhavre/BIM_Workbench/blob/master/utils/updateTranslations.py>
 
 ## Références importantes 
 

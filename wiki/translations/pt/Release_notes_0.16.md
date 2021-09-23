@@ -2,7 +2,6 @@
 
 
 
-
 <div class="mw-translate-fuzzy">
 
 O FreeCAD 0.16 foi lançado a 18 abril, 2016 descarregue aqui [Download](Download.md). Este é o sumário das alterações mais interessantes. A lista completa de alterações pode ser encontrada na [Histórico de alterações](http://www.freecadweb.org/tracker/changelog_page.php). Versões antigas em: [0.15](Release_notes_0.15/pt.md) - [0.14](Release_notes_0.14.md) - [0.13](Release_notes_0.13.md) - [0.12](Release_notes_0.12.md) - [0.11](Release_notes_0.11.md)

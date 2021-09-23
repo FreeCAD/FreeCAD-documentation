@@ -5,7 +5,6 @@
 
 
 
-
 {{TOCright}}
 
 
@@ -182,7 +181,7 @@ Pe sistemele unix, este posibilă legarea documentației sursă Coin3D de FreeCA
 ## Cum se integrează doxygen în codul sursă al FreeCAD 
 
 
-{{VeryImportantMessage|This is a Work In Progress. See [[Doxygen]]}}
+**This is a Work In Progress. See [[Doxygen]]**
 
 Examplu de pagină completă doxygen: (from another project)
 

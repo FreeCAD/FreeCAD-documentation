@@ -1,5 +1,4 @@
 # Sketcher scripting/fr
-
  {{TOCright}}
 
 ## Créer une contrainte en Python 

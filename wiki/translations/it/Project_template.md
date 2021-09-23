@@ -1,5 +1,4 @@
 # Project template/it
-
  Questa maschera è il modello delle linee guida per il Piano di sviluppo del progetto di FreeCAD. Si seguono le regole di processo di \[<http://http://it.wikipedia.org/wiki/Detto,_fatto>! Getting Things Done (GTD)\] .
 
 I progetti sono raccolti nel [Piano di sviluppo](Development_roadmap/it.md).

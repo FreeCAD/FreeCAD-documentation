@@ -9,6 +9,8 @@
 
 </div>
 
+## Description
+
 
 <div class="mw-translate-fuzzy">
 
@@ -18,6 +20,8 @@ Instrumentul **Thickness** funcționează pe forme solide și le trasnformă în
 
 
 </div>
+
+## Usage
 
 
 <div class="mw-translate-fuzzy">
@@ -34,6 +38,11 @@ Instrumentul **Thickness** funcționează pe forme solide și le trasnformă în
 
 
 </div>
+
+## Options
+
+
+<div class="mw-translate-fuzzy">
 
 ## Opțiuni
 
@@ -54,6 +63,11 @@ Instrumentul **Thickness** funcționează pe forme solide și le trasnformă în
 -   Update view: Actualizează automat vizualizarea în timp real
 
 
+</div>
+
+## Limitations
+
+
 <div class="mw-translate-fuzzy">
 
 ## Limitări
@@ -63,9 +77,17 @@ Uneori, pe o anumită formă produc rezultate bizare. Salvați munca înainte de
 
 </div>
 
+## Links
+
+
+<div class="mw-translate-fuzzy">
+
 ## Legături
 
 Un bun exemplu de cum se utilizează acest instrument găsiți pe forum: [Re: Help designing a simple enclosure](http://forum.freecadweb.org/viewtopic.php?f=3&t=3766&p=29741&hilit=enclosure#p29547)
+
+
+</div>
 
 ## Exemple
 
@@ -95,4 +117,4 @@ Notes:
 
 
 
-  
+ 

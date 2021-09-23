@@ -3,87 +3,145 @@
 
 
 
- 
 
-<img alt="Иконка верстака Draft на которой изображен Кульман" src=images/Workbench_Draft.svg  style="width:128px;">
+<img alt="Логотип верстака Draft на котором изображен кульман" src=images/Workbench_Draft.svg  style="width:128px;">
 
 
 {{TOCright}}
 
 ## Введение
 
+
+<div class="mw-translate-fuzzy">
+
 <img alt="" src=images/Workbench_Draft.svg  style="width:32px;"> [Верстак Draft Workbench](Draft_Workbench/ru.md) позволяет начертить простые двумерные объекты и предлагает некоторые инструменты для их последующей модификации. Он так же предоставляет инструменты для указания рабочей плоскости, сетки и привязки для точного управления расположением геометрии.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 Создаваемые плоские объекты могут использоваться для общего черчения как в программах Inkscape или Autocad. Эти плоские фигуры могут так же использоваться как базовые компоненты трёхмерных объектов, создаваемых другими верстаками, например, <img alt="" src=images/Workbench_Part.svg  style="width:32px;"> [Part](Part_Workbench/ru.md) и <img alt="" src=images/Workbench_Arch.svg  style="width:32px;"> [Arch](Arch_Workbench/ru.md). Так же возможно преобразование объектов Draft в объекты <img alt="" src=images/Workbench_Sketcher.svg  style="width:32px;"> [Sketch](Sketcher_Workbench/ru.md), это значит, что фигуры могут так же использоваться в <img alt="" src=images/Workbench_PartDesign.svg  style="width:32px;"> [верстаке PartDesign](PartDesign_Workbench/ru.md) для создания твёрдых тел.
 
+
+</div>
+
+The Draft Workbench also provides tools to define a [working plane](Draft_SelectPlane.md), a [grid](Draft_Snap_Grid.md), and a [snapping system](Draft_Snap.md) to precisely control the position of geometry.
+
+
+<div class="mw-translate-fuzzy">
+
 FreeCAD --- это, прежде всего, приложение для 3D-моделирования, и поэтому его инструменты для двумерного рисования не столь совершенны, как в других чертёжных программах. Если вашей основной целью является создание сложных 2D-чертежей и файлов в формате [DXF](DXF/ru.md), и вам не нужно 3D-моделирование, возможно вы захотите использовать специальное программное обеспечения для технического черчения, такое как [LibreCAD](https://ru.wikipedia.org/wiki/LibreCAD), [QCad](https://ru.wikipedia.org/wiki/QCad), TurboCad и другие.
 
-<img alt="Draft Workbench Example" src=images/Draft_Workbench_Example.png  style="width:400px;">
 
-## Черчение объектов 
+</div>
 
-Эти инструменты предназначенные для создания объектов.
+![](images/Draft_Workbench_Example.png ) *The image shows the [grid](Draft_Snap_Grid.md) aligned with the XY plane.<br>
+On the left, in white, several planar objects.<br>
+On the right a non-planar [Draft Wire](Draft_Wire.md) used as the Path Object of a [Draft PathArray](Draft_PathArray.md).*
 
--   <img alt="" src=images/Draft_Line.svg  style="width:32px;"> [Линия](Draft_Line/ru.md): чертит отрезок через две точки.
--   <img alt="" src=images/Draft_Wire.svg  style="width:32px;"> [Полилиния](Draft_Wire/ru.md): чертит ломанную, состоящую из отрезков (полилинию).
--   <img alt="" src=images/Draft_Fillet.svg  style="width:32px;"> [Fillet](Draft_Fillet/ru.md): чертит fillet (скруглённый угол) или chamfer (сглаженный линией угол) между двумя простыми [линиями](Draft_Line/ru.md). <small>(v0.19)</small> .
--   <img alt="" src=images/Draft_Arc.svg  style="width:32px;"> [Дуга](Draft_Arc/ru.md): чертит дугу по центру, радиусу, начальному и конечному углу.
--   <img alt="" src=images/Draft_Arc_3Points.svg  style="width:32px;"> [Arc 3Points](Draft_Arc_3Points/ru.md): чертит круглый дуговой сегмент по трём точкам, находящимся на окружности. <small>(v0.19)</small> .
--   <img alt="" src=images/Draft_Circle.svg  style="width:32px;"> [Окружность](Draft_Circle/ru.md): чертит окружность по центру и радиусу.
--   <img alt="" src=images/Draft_Ellipse.svg  style="width:32px;"> [Эллипс](Draft_Ellipse/ru.md): чертит эллипс по двум угловым точкам.
--   <img alt="" src=images/Draft_Rectangle.svg  style="width:32px;"> [Прямоугольник](Draft_Rectangle/ru.md): чертит прямоугольник по двум противоположным точкам.
--   <img alt="" src=images/Draft_Polygon.svg  style="width:32px;"> [Многоугольник](Draft_Polygon/ru.md): чертит правильный многоугольник по центру, радиусу и числу сторон.
--   <img alt="" src=images/Draft_BSpline.svg  style="width:32px;"> [B-сплайн](Draft_BSpline/ru.md): чертит B-сплайн по последовательности точек.
--   <img alt="" src=images/Draft_CubicBezCurve.svg  style="width:32px;"> [Cubic Bezier Curve](Draft_CubicBezCurve/ru.md): чертит кривую Безье третьего порядка протягиванием двух точке. <small>(v0.19)</small> .
--   <img alt="" src=images/Draft_BezCurve.svg  style="width:32px;"> [Кривая Безье](Draft_BezCurve/ru.md): чертит кривую Безье по последовательности точек.
--   <img alt="" src=images/Draft_Point.svg  style="width:32px;"> [Точка](Draft_Point/ru.md): вставляет точку.
--   <img alt="" src=images/Draft_Facebinder.svg  style="width:32px;"> [Граневяз](Draft_Facebinder/ru.md): создаёт новый объект из выбранных граней существующих объектов.
--   <img alt="" src=images/Draft_ShapeString.svg  style="width:32px;"> [Текст в кривую](Draft_ShapeString/ru.md): создаёт сложную форму, представляющую текстовую строку в заданном месте.
+## Drafting
 
-## Аннотации
+-   <img alt="" src=images/Draft_Line.svg  style="width:32px;"> [Line](Draft_Line.md): creates a straight line.
 
--   <img alt="" src=images/Draft_Text.svg  style="width:32px;"> [Текст](Draft_Text/ru.md): чертит многострочную текстовую аннотацию.
--   <img alt="" src=images/Draft_Dimension.svg  style="width:32px;"> [Dimension](Draft_Dimension/ru.md): чертить размерную аннотацию.
--   <img alt="" src=images/Draft_Label.svg  style="width:32px;"> [Label](Draft_Label/ru.md): помещает метку со стрелкой, указывающую на выбранный элемент. <small>(v0.17)</small> 
--   <img alt="" src=images/Draft_AnnotationStyleEditor.svg  style="width:32px;"> [Annotation style editor](Draft_AnnotationStyleEditor/ru.md): Открывает редактор для изменения стиля аннотации этих объектов. <small>(v0.19)</small> 
+-   <img alt="" src=images/Draft_Wire.svg  style="width:32px;"> [Polyline](Draft_Wire.md): creates a polyline, a sequence of several connected line segments.
 
-## Изменение объектов 
+-   <img alt="" src=images/Draft_Fillet.svg  style="width:32px;"> [Fillet](Draft_Fillet.md): creates a fillet, a rounded corner, or a chamfer, a straight edge, between two [Draft Lines](Draft_Line.md). <small>(v0.19)</small> 
 
-Эти инструменты изменяют существующие объекты. Они работают на выбранных объектах, но если ни одного объекта не выбрано, вам будет предложено его выбрать.
+-   <img alt="" src=images/Draft_Arc.svg  style="width:32px;"> Arc tools
 
-многие операционные инструменты (перемещение, поворот, массивы и т.д.) так же работают над твердотельными объектами ([Part](Part_Workbench/ru.md), [PartDesign](PartDesign_Workbench/ru.md), [Arch](Arch_Workbench/ru.md) и т.д.).
+:\* <img alt="" src=images/Draft_Arc.svg  style="width:32px;"> [Arc](Draft_Arc.md): creates a circular arc from a center, a radius, a start angle and an aperture angle.
 
--   <img alt="" src=images/Draft_Move.svg  style="width:32px;"> [Перемещение](Draft_Move/ru.md): перемещает объект(ы) из одной локации в другую.
--   <img alt="" src=images/Draft_Rotate.svg  style="width:32px;"> [Повернуть](Draft_Rotate/ru.md): поворачивает объект(ы) от начального и до конечного угла.
--   <img alt="" src=images/Draft_Scale.svg  style="width:32px;"> [Масштаб](Draft_Scale/ru.md): изменяет размер выбранного(ых) объекта(ов) вокруг базовой точки.
--   <img alt="" src=images/Draft_Mirror.svg  style="width:32px;"> [Отразить](Draft_Mirror/ru.md): создаёт зеркальное отражение выбранных объектов.
--   <img alt="" src=images/Draft_Offset.svg  style="width:32px;"> [Смещение](Draft_Offset/ru.md): перемещает сегменты объекта на заданное расстояние.
--   <img alt="" src=images/Draft_Trimex.svg  style="width:32px;"> [Trim/Extend (Trimex)](Draft_Trimex/ru.md): обрезает или удлиняет объект.
--   <img alt="" src=images/Draft_Stretch.svg  style="width:32px;"> [Pастягивать](Draft_Stretch/ru.md): растягивает выбранные объекты {{Version/ru|0.17}}
+:\* <img alt="" src=images/Draft_Arc_3Points.svg  style="width:32px;"> [Arc by 3 points](Draft_Arc_3Points.md): creates a circular arc from three points that define its circumference. <small>(v0.19)</small> 
 
--   <img alt="" src=images/Draft_Clone.svg  style="width:32px;"> [Клонировать](Draft_Clone/ru.md): клонирует выбранные объекты.
--   <img alt="" src=images/Draft_Array.svg  style="width:32px;"> Инструменты работы с массивами.
-    -   <img alt="" src=images/Draft_OrthoArray.svg  style="width:32px;"> [OrthoArray](Draft_OrthoArray/ru.md): создаёт ортогональный объект из выбранного объекта. <small>(v0.19)</small> 
-    -   <img alt="" src=images/Draft_PolarArray.svg  style="width:32px;"> [Polar Array](Draft_PolarArray/ru.md): создаёт массив в полярном узоре, то есть охватывающий угол. <small>(v0.19)</small> 
-    -   <img alt="" src=images/Draft_CircularArray.svg  style="width:32px;"> [Circular Array](Draft_CircularArray/ru.md): создает массив по круговой схеме, то есть от центра и двигаясь радиально наружу. <small>(v0.19)</small> 
-    -   <img alt="" src=images/Draft_PathArray.svg  style="width:32px;"> [Массив по направляющей](Draft_PathArray/ru.md): создаёт массив объектов, помещая копии вдоль пути.
-    -   <img alt="" src=images/Draft_PathLinkArray.svg  style="width:32px;"> [Path LinkArray](Draft_PathLinkArray/ru.md): создаёт массив элементов [App::Link](Std_LinkMake/ru.md), помещая копии вдоль трассы. <small>(v0.19)</small> 
-    -   <img alt="" src=images/Draft_PointArray.svg  style="width:32px;"> [Point Array](Draft_PointArray/ru.md): создаёт массив объектов, где копии помещёны в заданных точках. <small>(v0.18)</small> 
+-   <img alt="" src=images/Draft_Circle.svg  style="width:32px;"> [Circle](Draft_Circle.md): creates a circle from a center and a radius.
 
--   <img alt="" src=images/Draft_Edit.svg  style="width:32px;"> [Правка](Draft_Edit/ru.md): редактировать выбранный объект.
--   <img alt="" src=images/Draft_SubelementHighlight.svg  style="width:32px;"> [Subelement highlight](Draft_SubelementHighlight/ru.md): входит в режим, позволяющий редактировать внутренние элементы объектов. <small>(v0.19)</small> 
+-   <img alt="" src=images/Draft_Ellipse.svg  style="width:32px;"> [Ellipse](Draft_Ellipse.md): creates an ellipse from two points defining a rectangle in which the ellipse will fit.
 
--   <img alt="" src=images/Draft_Join.svg  style="width:32px;"> [Join](Draft_Join/ru.md): объединяет линии в единую полилинию. <small>(v0.18)</small> 
--   <img alt="" src=images/Draft_Split.svg  style="width:32px;"> [Split](Draft_Split/ru.md): разделяет полилинию по точке на две. <small>(v0.18)</small> 
--   <img alt="" src=images/Draft_Upgrade.svg  style="width:32px;"> [Обновить](Draft_Upgrade/ru.md): обновляет объекты в объект более высокого уровня.
--   <img alt="" src=images/Draft_Downgrade.svg  style="width:32px;"> [Перестроить](Draft_Downgrade/ru.md): перестраивает объекты в объекты более низкого уровня.
+-   <img alt="" src=images/Draft_Rectangle.svg  style="width:32px;"> [Rectangle](Draft_Rectangle.md): creates a rectangle from two points.
 
--   <img alt="" src=images/Draft_WireToBSpline.svg  style="width:32px;"> [направляющая в BSpline](Draft_WireToBSpline/ru.md): Преобразовать полилинию в B-Сплайн и наоборот
--   <img alt="" src=images/Draft_Draft2Sketch.svg  style="width:32px;"> [Преобразовать в эскиз](Draft_Draft2Sketch/ru.md): Преобразует объект Draft в эскиз верстака [Sketcher](Sketcher_Workbench/ru.md) и обратно
--   <img alt="" src=images/Draft_Slope.svg  style="width:32px;"> [Slope](Draft_Slope/ru.md): изменяет угол возвышения выбранной в данный момент [линии](Draft_Line.md) или [полилинии](Draft_Wire/ru.md). <small>(v0.17)</small> 
--   <img alt="" src=images/Draft_FlipDimension.svg  style="width:32px;"> [Flip Dimension](Draft_FlipDimension/ru.md): переворачивает ориентацию текста в [размере](Draft_Dimension/ru.md).
+-   <img alt="" src=images/Draft_Polygon.svg  style="width:32px;"> [Polygon](Draft_Polygon.md): creates a regular polygon from a center and a radius.
 
--   <img alt="" src=images/Draft_Shape2DView.png  style="width:32px;"> [2D вид фигуры](Draft_Shape2DView/ru.md): создаёт двумерный объект, представляющий собой плоскую проекцию другого трёхмерного объекта.
+-   <img alt="" src=images/Draft_BSpline.svg  style="width:32px;"> [B-spline](Draft_BSpline.md): creates a B-spline curve from several points.
+
+-   <img alt="" src=images/Draft_CubicBezCurve.svg  style="width:32px;"> Bézier tools
+
+:\* <img alt="" src=images/Draft_CubicBezCurve.svg  style="width:32px;"> [Cubic Bézier curve](Draft_CubicBezCurve.md): creates a Bézier curve of the third degree. <small>(v0.19)</small> 
+
+:\* <img alt="" src=images/Draft_BezCurve.svg  style="width:32px;"> [Bézier curve](Draft_BezCurve.md): creates a Bézier curve from several points.
+
+-   <img alt="" src=images/Draft_Point.svg  style="width:32px;"> [Point](Draft_Point.md): creates a simple point.
+
+-   <img alt="" src=images/Draft_Facebinder.svg  style="width:32px;"> [Facebinder](Draft_Facebinder.md): creates a surface object from selected faces.
+
+-   <img alt="" src=images/Draft_ShapeString.svg  style="width:32px;"> [ShapeString](Draft_ShapeString.md): creates a compound shape that represents a text string.
+
+## Annotation
+
+-   <img alt="" src=images/Draft_Text.svg  style="width:32px;"> [Text](Draft_Text.md): creates a multi-line text at a given point.
+
+-   <img alt="" src=images/Draft_Dimension.svg  style="width:32px;"> [Dimension](Draft_Dimension.md): creates a linear dimension, a radial dimension or an angular dimension.
+
+-   <img alt="" src=images/Draft_Label.svg  style="width:32px;"> [Label](Draft_Label.md): creates a multi-line text with a 2-segment leader line and an arrow.
+
+-   <img alt="" src=images/Draft_AnnotationStyleEditor.svg  style="width:32px;"> [Annotation styles\...](Draft_AnnotationStyleEditor.md): allows you to define styles that affect the visual properties of annotation-like objects. <small>(v0.19)</small> 
+
+## Modification
+
+-   <img alt="" src=images/Draft_Move.svg  style="width:32px;"> [Move](Draft_Move.md): moves or copies selected objects from one point to another.
+
+-   <img alt="" src=images/Draft_Rotate.svg  style="width:32px;"> [Rotate](Draft_Rotate.md): rotates or copies selected objects around a center point by a given angle.
+
+-   <img alt="" src=images/Draft_Scale.svg  style="width:32px;"> [Scale](Draft_Scale.md): scales or copies selected objects around a base point.
+
+-   <img alt="" src=images/Draft_Mirror.svg  style="width:32px;"> [Mirror](Draft_Mirror.md): creates mirrored copies from selected objects.
+
+-   <img alt="" src=images/Draft_Offset.svg  style="width:32px;"> [Offset](Draft_Offset.md): offsets each segment of a selected object over a given distance, or creates an offset copy of the selected object.
+
+-   <img alt="" src=images/Draft_Trimex.svg  style="width:32px;"> [Trimex](Draft_Trimex.md): trims or extends a selected object.
+
+-   <img alt="" src=images/Draft_Stretch.svg  style="width:32px;"> [Stretch](Draft_Stretch.md): stretches objects by moving selected points.
+
+-   <img alt="" src=images/Draft_Clone.svg  style="width:32px;"> [Clone](Draft_Clone.md): creates linked copies, clones, of selected objects.
+
+-   <img alt="" src=images/Draft_OrthoArray.svg  style="width:32px;"> Array tools
+
+:\* <img alt="" src=images/Draft_OrthoArray.svg  style="width:32px;"> [Array](Draft_OrthoArray.md): creates an orthogonal array from a selected object. It can optionally create a [Link](App_Link.md) array. <small>(v0.19)</small> 
+
+:\* <img alt="" src=images/Draft_PolarArray.svg  style="width:32px;"> [Polar array](Draft_PolarArray.md): creates an array from a selected object by placing copies along a circumference. It can optionally create a [Link](App_Link.md) array. <small>(v0.19)</small> 
+
+:\* <img alt="" src=images/Draft_CircularArray.svg  style="width:32px;"> [Circular array](Draft_CircularArray.md): creates an array from a selected object by placing copies along concentric circumferences. It can optionally create a [Link](App_Link.md) array. <small>(v0.19)</small> 
+
+:\* <img alt="" src=images/Draft_PathArray.svg  style="width:32px;"> [Path array](Draft_PathArray.md): creates an array from a selected object by placing copies along a path.
+
+:\* <img alt="" src=images/Draft_PathLinkArray.svg  style="width:32px;"> [Path Link array](Draft_PathLinkArray.md): idem, but create a [Link](App_Link.md) array instead of a regular array. <small>(v0.19)</small> 
+
+:\* <img alt="" src=images/Draft_PointArray.svg  style="width:32px;"> [Point Array](Draft_PointArray.md): creates an array from a selected object by placing copies at the points from a point compound.
+
+:\* <img alt="" src=images/Draft_PointLinkArray.svg  style="width:32px;"> [Point Link array](Draft_PointLinkArray.md): idem, but create a [Link](App_Link.md) array instead of a regular array. <small>(v0.19)</small> 
+
+-   <img alt="" src=images/Draft_Edit.svg  style="width:32px;"> [Edit](Draft_Edit.md): puts selected objects in Draft Edit mode. In this mode the properties of objects can be edited graphically.
+
+-   <img alt="" src=images/Draft_SubelementHighlight.svg  style="width:32px;"> [Subelement highlight](Draft_SubelementHighlight.md): temporarily highlights selected objects, or the base objects of selected objects.
+
+-   <img alt="" src=images/Draft_Join.svg  style="width:32px;"> [Join](Draft_Join.md): joins [Draft Lines](Draft_Line.md) and [Draft Wires](Draft_Wire.md) into a single wire.
+
+-   <img alt="" src=images/Draft_Split.svg  style="width:32px;"> [Split](Draft_Split.md): splits a [Draft Line](Draft_Line.md) or [Draft Wire](Draft_Wire.md) at a specified point or edge.
+
+-   <img alt="" src=images/Draft_Upgrade.svg  style="width:32px;"> [Upgrade](Draft_Upgrade.md): upgrades selected objects.
+
+-   <img alt="" src=images/Draft_Downgrade.svg  style="width:32px;"> [Downgrade](Draft_Downgrade.md): downgrades selected objects.
+
+-   <img alt="" src=images/Draft_WireToBSpline.svg  style="width:32px;"> [Wire to B-spline](Draft_WireToBSpline.md): converts [Draft Wires](Draft_Wire.md) to [Draft BSplines](Draft_BSpline.md) and vice versa.
+
+-   <img alt="" src=images/Draft_Draft2Sketch.svg  style="width:32px;"> [Draft to Sketch](Draft_Draft2Sketch.md): converts [Draft](Draft_Workbench.md) objects to [Sketcher Sketches](Sketcher_NewSketch.md) and vice versa.
+
+-   <img alt="" src=images/Draft_Slope.svg  style="width:32px;"> [Set slope](Draft_Slope.md): slopes selected [Draft Lines](Draft_Line.md) or [Draft Wires](Draft_Wire.md) by increasing, or decreasing, the Z coordinate of all points after the first one.
+
+-   <img alt="" src=images/Draft_FlipDimension.svg  style="width:32px;"> [Flip dimension](Draft_FlipDimension.md): rotates the dimension text of selected [Draft Dimensions](Draft_Dimension.md) 180° around the dimension line.
+
+-   <img alt="" src=images/Draft_Shape2DView.svg  style="width:32px;"> [Shape 2D view](Draft_Shape2DView.md): creates 2D projections from selected objects.
 
 ## Draft Tray 
 
@@ -91,18 +149,22 @@ FreeCAD --- это, прежде всего, приложение для 3D-мо
 
 ![](images/Draft_tray_default.png )
 
-Its tools are also available in the **Draft → Utilities** menu:
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Draft_SelectPlane.svg  style="width:32px;"> [Выбор плоскости](Draft_SelectPlane/ru.md): устанавливает вашу рабочую плоскость для следующих операций из стандартного вида либо выбранной плоскости.
 -   <img alt="" src=images/Draft_ToggleConstructionMode.svg  style="width:32px;"> [Переключить режим конструирования](Draft_ToggleConstructionMode/ru.md): включает и выключает режим конструирования в Draft.
 -   <img alt="" src=images/Draft_AutoGroup.svg  style="width:32px;"> [AutoGroup](Draft_AutoGroup/ru.md): автоматически помещает новый объект в данную [группу](Std_Group/ru.md) или [визуальную группу](Draft_VisGroup/ru.md). <small>(v0.17)</small> 
 -   <img alt="" src=images/Draft_ApplyStyle.svg  style="width:32px;"> [Применить текущий стиль](Draft_Apply/ru.md): устанавливает для выделенных объектов указанный цвет и длину линий.
 
--   <img alt="" src=images/Draft_SetStyle.svg  style="width:32px;"> [Set style](Draft_SetStyle.md): sets the default style for new objects. <small>(v0.19)</small> 
 
--   <img alt="" src=images/Draft_ToggleConstructionMode.svg  style="width:32px;"> [Toggle construction mode](Draft_ToggleConstructionMode.md): switches Draft construction mode on or off.
+</div>
 
--   <img alt="" src=images/Draft_AutoGroup.svg  style="width:32px;"> [AutoGroup](Draft_AutoGroup.md): changes the active [Draft Layer](Draft_Layer.md) or, optionally, the active [Std Group](Std_Group.md) or group-like [Arch](Arch_Workbench.md) object.
+-   ![](images/Draft_tray_button_style.png ) [Set style](Draft_SetStyle.md): sets the default style for new objects. Also available in the menu: **Draft → Utilities → <img src="images/Draft_SetStyle.svg" width=16px> Set style**. <small>(v0.19)</small> 
+
+-   ![](images/Draft_tray_button_construction.png ) [Toggle construction mode](Draft_ToggleConstructionMode.md): switches Draft construction mode on or off. Also available in the menu: **Draft → Utilities → <img src="images/Draft_ToggleConstructionMode.svg" width=16px> Toggle construction mode**.
+
+-   ![](images/Draft_tray_button_layer.png ) [AutoGroup](Draft_AutoGroup.md): changes the active [Draft Layer](Draft_Layer.md) or, optionally, the active [Std Group](Std_Group.md) or group-like [Arch](Arch_Workbench.md) object.
 
 ## Draft annotation scale widget 
 
@@ -112,7 +174,7 @@ With the [Draft annotation scale widget](Draft_annotation_scale_widget.md) the D
 
 ## Draft snap widget 
 
-The [Draft snap widget](Draft_snap_widget.md) can be used as an alternative for the [Draft Snap toolbar](#Draft_snap_toolbar.md). <small>(v0.19)</small> 
+The [Draft snap widget](Draft_snap_widget.md) can be used as an alternative for the [Draft Snap toolbar](#Draft_Snap_toolbar.md). <small>(v0.19)</small> 
 
 ![](images/Draft_snap_widget_button.png )
 
@@ -120,42 +182,68 @@ The [Draft snap widget](Draft_snap_widget.md) can be used as an alternative for 
 
 Панель инструментов [Draft Snap](Draft_Snap/ru.md) позволяет выбрать текущий режим привязки. Его кнопка остаётся ненажатой при активности режима.
 
--   <img alt="" src=images/Draft_ToggleSnap.svg  style="width:32px;"> [Toggle snap](Draft_ToggleSnap/ru.md): включает/выключает [привязку](Draft_Snap/ru.md).
--   <img alt="" src=images/Snap_Endpoint.svg  style="width:32px;"> [Endpoint](Draft_Endpoint/ru.md): привязка к конечным точкам линий, дуг и сегментов сплайна.
--   <img alt="" src=images/Snap_Midpoint.svg  style="width:32px;"> [Midpoint](Draft_Midpoint/ru.md): привязка к средней точке линий и дуговых сегментов.
--   <img alt="" src=images/Snap_Center.svg  style="width:32px;"> [Center](Draft_Center/ru.md): привязка к центральным точкам дуг и окружностей.
--   <img alt="" src=images/Snap_Angle.svg  style="width:32px;"> [Angle](Draft_Angle/ru.md): привязка к особым точкам окружностей и дуг под углом 45 ° и 90 °.
--   <img alt="" src=images/Snap_Intersection.svg  style="width:32px;"> [Intersection](Draft_Intersection/ru.md): привязка к пересечению двух отрезков линии или дуги. Наведите указатель мыши на два нужных объекта, чтобы активировать их привязки пересечения.
--   <img alt="" src=images/Snap_Perpendicular.svg  style="width:32px;"> [Perpendicular](Draft_Perpendicular/ru.md): на отрезках линии и дуги привязка перпендикулярно самой последней точке.
--   <img alt="" src=images/Snap_Extension.svg  style="width:32px;"> [Extension](Draft_Extension/ru.md): привязка к воображаемой линии, которая выходит за пределы конечных точек отрезков. Наведите указатель мыши на нужный объект, чтобы активировать его расширение привязки.
--   <img alt="" src=images/Snap_Parallel.svg  style="width:32px;"> [Parallel](Draft_Parallel/ru.md): привязка к воображаемой линии, параллельной отрезку. Наведите указатель мыши на нужный объект, чтобы активировать его параллельную привязку.
--   <img alt="" src=images/Snap_Special.svg  style="width:32px;"> [Special](Draft_Special/ru.md): привязка к специальным точкам, определенным объектом. <small>(v0.17)</small> 
--   <img alt="" src=images/Snap_Near.svg  style="width:32px;"> [Near](Draft_Near/ru.md): привязка к ближайшей точке или краю на ближайшем объекте.
--   <img alt="" src=images/Snap_Ortho.svg  style="width:32px;"> [Ortho](Draft_Ortho/ru.md): привязка к воображаемым линиям, которые пересекают последнюю точку и простираются на 0°, 45° и 90°.
--   <img alt="" src=images/Snap_Grid.svg  style="width:32px;"> [Grid](Draft_Grid/ru.md): привязка к пересечению линий сетки, если сетка видна.
--   <img alt="" src=images/Snap_WorkingPlane.svg  style="width:32px;"> [Working plane](Draft_WorkingPlane/ru.md): всегда помещает точку привязки к текущей [рабочей плоскости](Draft_SelectPlane/ru.md), даже если захвачена точка вне её.
--   <img alt="" src=images/Snap_Dimensions.svg  style="width:32px;"> [Dimensions](Draft_Dimensions/ru.md): показывает временные размеры X и Y при привязке.
--   <img alt="" src=images/Draft_ToggleGrid.svg  style="width:32px;"> [Toggle grid](Draft_ToggleGrid/ru.md): включает/выключает видимость сетки.
+-   <img alt="" src=images/Draft_Snap_Lock.svg  style="width:32px;"> [Snap Lock](Draft_Snap_Lock.md): enables or disables snapping globally.
+
+-   <img alt="" src=images/Draft_Snap_Endpoint.svg  style="width:32px;"> [Snap Endpoint](Draft_Snap_Endpoint.md): snaps to the endpoints of edges.
+
+-   <img alt="" src=images/Draft_Snap_Midpoint.svg  style="width:32px;"> [Snap Midpoint](Draft_Snap_Midpoint.md): snaps to the midpoint of straight and circular edges.
+
+-   <img alt="" src=images/Draft_Snap_Center.svg  style="width:32px;"> [Snap Center](Draft_Snap_Center.md): snaps to the center point of faces and circular edges, and to the **Placement** point of [Draft WorkingPlaneProxies](Draft_WorkingPlaneProxy.md) and [Arch BuildingParts](Arch_BuildingPart.md).
+
+-   <img alt="" src=images/Draft_Snap_Angle.svg  style="width:32px;"> [Snap Angle](Draft_Snap_Angle.md): snaps to the special cardinal points on circular edges, at multiples of 30° and 45°.
+
+-   <img alt="" src=images/Draft_Snap_Intersection.svg  style="width:32px;"> [Snap Intersection](Draft_Snap_Intersection.md): snaps to the intersection of two edges.
+
+-   <img alt="" src=images/Draft_Snap_Perpendicular.svg  style="width:32px;"> [Snap Perpendicular](Draft_Snap_Perpendicular.md): snaps to the perpendicular point on edges.
+
+-   <img alt="" src=images/Draft_Snap_Extension.svg  style="width:32px;"> [Snap Extension](Draft_Snap_Extension.md): snaps to an imaginary line that extends beyond the endpoints of straight edges.
+
+-   <img alt="" src=images/Draft_Snap_Parallel.svg  style="width:32px;"> [Snap Parallel](Draft_Snap_Parallel.md): snaps to an imaginary line parallel to straight edges.
+
+-   <img alt="" src=images/Draft_Snap_Special.svg  style="width:32px;"> [Snap Special](Draft_Snap_Special.md): snaps to special points defined by the object.
+
+-   <img alt="" src=images/Draft_Snap_Near.svg  style="width:32px;"> [Snap Near](Draft_Snap_Near.md): snaps to the nearest point on faces or edges.
+
+-   <img alt="" src=images/Draft_Snap_Ortho.svg  style="width:32px;"> [Snap Ortho](Draft_Snap_Ortho.md): snaps to imaginary lines that cross the previous point at 0°, 45°, 90° and 135°.
+
+-   <img alt="" src=images/Draft_Snap_Grid.svg  style="width:32px;"> [Snap Grid](Draft_Snap_Grid.md): snaps to the intersections of grid lines.
+
+-   <img alt="" src=images/Draft_Snap_WorkingPlane.svg  style="width:32px;"> [Snap WorkingPlane](Draft_Snap_WorkingPlane.md): projects the snap point onto the current [working plane](Draft_SelectPlane.md).
+
+-   <img alt="" src=images/Draft_Snap_Dimensions.svg  style="width:32px;"> [Snap Dimensions](Draft_Snap_Dimensions.md): shows temporary X and Y dimensions.
+
+-   <img alt="" src=images/Draft_ToggleGrid.svg  style="width:32px;"> [Toggle Grid](Draft_ToggleGrid.md): switches the grid on or off.
 
 ## Сервисные инструменты 
 
--   <img alt="" src=images/Draft_Layer.svg  style="width:32px;"> [Layer](Draft_Layer/ru.md): создаёт слой в текущем документе, в который можно добавить объект, чтобы контролировать его видимость и цвет. Заменяет [VisGroup](Draft_VisGroup/ru.md). <small>(v0.19)</small> 
--   <img alt="" src=images/Draft_VisGroup.svg  style="width:32px;"> [VisGroup](Draft_VisGroup/ru.md): создаёт в текущем документе VisGroup. {{Obsolete|0.19}}
--   <img alt="" src=images/Draft_SetWorkingPlaneProxy.svg  style="width:32px;"> [Set Working Plane Proxy](Draft_SetWorkingPlaneProxy/ru.md): создаёт промежуточный объект для хранения текущей позиции [рабочей плоскости](Draft_SelectPlane/ru.md). <small>(v0.17)</small> 
--   <img alt="" src=images/Draft_ToggleDisplayMode.svg  style="width:32px;"> [Переключить режим отображения](Draft_ToggleDisplayMode/ru.md): переключить режим отображения выбранных объектов между \"Flat Lines\" и \"Wireframe\".
--   <img alt="" src=images/Draft_AddToGroup.svg  style="width:32px;"> [Добавить в группу](Draft_AddToGroup/ru.md): быстро добавить выбранные объекты в существующую [группы](Std_Group/ru.md) или [визуальной группы](Draft_VisGroup/ru.md).
--   <img alt="" src=images/Draft_SelectGroup.svg  style="width:32px;"> [Выбрать группу](Draft_SelectGroup/ru.md): выбрать содержимое выбранной [группы](Std_Group/ru.md) или [визуальной группы](Draft_VisGroup/ru.md).
--   <img alt="" src=images/Draft_AddConstruction.svg  style="width:32px;"> [Add to Construction group](Draft_AddConstruction/ru.md): добавляет выделенные объекты в конструкционную группу. <small>(v0.17)</small> 
--   <img alt="" src=images/Draft_Heal.svg  style="width:32px;"> [Heal](Draft_Heal/ru.md): исправляет проблемный объект Draft, найденный в очень старом файле.
+-   <img alt="" src=images/Draft_Layer.svg  style="width:32px;"> [Layer](Draft_Layer.md): creates a [Draft Layer](Draft_Layer.md). <small>(v0.19)</small> 
+
+-   <img alt="" src=images/Draft_WorkingPlaneProxy.svg  style="width:32px;"> [Create working plane proxy](Draft_WorkingPlaneProxy.md): creates a working plane proxy to save the current [Draft working plane](Draft_SelectPlane.md).
+
+-   <img alt="" src=images/Draft_ToggleDisplayMode.svg  style="width:32px;"> [Toggle normal/wireframe display](Draft_ToggleDisplayMode.md): switches the **Display Mode** property of selected objects between {{Value|Flat Lines}} and {{Value|Wireframe}}.
+
+-   <img alt="" src=images/Draft_AddToGroup.svg  style="width:32px;"> [Move to group\...](Draft_AddToGroup.md): moves objects to a [Std Group](Std_Group.md). It can also ungroup objects.
+
+-   <img alt="" src=images/Draft_SelectGroup.svg  style="width:32px;"> [Select group](Draft_SelectGroup.md): selects the content of [Draft Layers](Draft_Layer.md), [Std Groups](Std_Group.md) or group-like [Arch](Arch_Workbench.md) objects.
+
+-   <img alt="" src=images/Draft_AddConstruction.svg  style="width:32px;"> [Add to Construction group](Draft_AddConstruction.md): moves objects to the [Draft construction group](Draft_ToggleConstructionMode.md).
 
 ## Меню Вспомогательные 
 
 Дополнительные инструменты доступны из меню **Draft → Вспомогательные**, или через контекстное меню по правому клику мыши, зависящее от выбранного объекта.
 
--   <img alt="" src=images/Draft_ToggleContinueMode.svg  style="width:32px;"> [Переключить режим продолжения](Draft_ToggleContinueMode/ru.md): включает и выключает режим продолжения
--   <img alt="" src=images/Draft_ShowSnapBar.svg  style="width:32px;"> [Show snap bar](Draft_ShowSnapBar/ru.md): показывает или скрывает инструментальную панель [привязки](Draft_Snap/ru.md).
+-   <img alt="" src=images/Draft_Heal.svg  style="width:32px;"> [Heal](Draft_Heal.md): heals problematic Draft objects found in very old files.
+
+-   <img alt="" src=images/Draft_ToggleContinueMode.svg  style="width:32px;"> [Toggle continue mode](Draft_ToggleContinueMode.md): switches continue mode on or off.
+
+-   <img alt="" src=images/Draft_ApplyStyle.svg  style="width:32px;"> [Apply current style](Draft_ApplyStyle.md): applies the current style settings to selected objects.
+
+-   <img alt="" src=images/Draft_ShowSnapBar.svg  style="width:32px;"> [Show snap toolbar](Draft_ShowSnapBar.md): shows the [Draft Snap toolbar](#Draft_Snap_toolbar.md).
 
 ## Дополнительные возможности 
+
+
+<div class="mw-translate-fuzzy">
 
 -   [Работа с координатами вручную](Draft_Coordinates/ru.md): позволяет вводить координаты вручную, вместо указания их на экране.
 -   [Геометрические ограничения](Draft_Constrain/ru.md): ограничивает указатель в горизонтальном или вертикальном перемещении относительно предыдущей точки.
@@ -163,6 +251,9 @@ The [Draft snap widget](Draft_snap_widget.md) can be used as an alternative for 
 -   [Copy Mode](Draft_Copying/ru.md): Все инструменты редактирования могут либо модифицировать выделенный объект или создать его модифицированную копию. Нажатие и удержание **Alt** во время модификации объекта, то есть перемещения или вращения, создаёт копию при отпускании клавиши.
 -   [Construction Mode](Draft_ToggleConstructionMode/ru.md): позволяет создавать отдельную от остальной геометрию, просто включая или выключая этот режим.
 -   [Рабочая плоскость](Draft_SelectPlane/ru.md): позволяет задать плоскость в трёхмерном пространстве, где будут проводиться операции с плоскими фигурами
+
+
+</div>
 
 ## Tree view context menu 
 
@@ -192,7 +283,7 @@ For a [Draft LayerContainer](Draft_Layer.md) these additional options are availa
 
 For a [Draft Layer](Draft_Layer.md) these additional options are available:
 
--   <img alt="" src=images/button_right.svg  style="width:32px;"> [Activate this layer](Draft_AutoGroup.md): makes the selected layer the active layer.
+-   <img alt="" src=images/button_right.svg  style="width:32px;"> [Activate this layer](Draft_AutoGroup.md): activates the selected layer.
 
 -   <img alt="" src=images/Draft_SelectGroup.svg  style="width:32px;"> [Select layer contents](Draft_SelectGroup.md): selects the objects inside the selected layer.
 
@@ -200,9 +291,9 @@ For a [Draft Layer](Draft_Layer.md) these additional options are available:
 
 For a [Draft WorkingPlaneProxy](Draft_WorkingPlaneProxy.md) these additional options are available:
 
--   <img alt="" src=images/Draft_SelectPlane.svg  style="width:32px;"> [Write camera position](Draft_WorkingPlaneProxy#Tree_view_context_menu.md): updates the camera settings stored in the working plane proxy.
+-   <img alt="" src=images/Draft_SelectPlane.svg  style="width:32px;"> [Write camera position](Draft_WorkingPlaneProxy#Context_menu.md): updates the **View Data** property of the working plane proxy with the current [3D view](3D_view.md) camera settings.
 
--   <img alt="" src=images/Draft_SelectPlane.svg  style="width:32px;"> [Write objects state](Draft_WorkingPlaneProxy#Tree_view_context_menu.md): updates the visibility state of objects stored in the working plane proxy.
+-   <img alt="" src=images/Draft_SelectPlane.svg  style="width:32px;"> [Write objects state](Draft_WorkingPlaneProxy#Context_menu.md): updates the **Visibility Map** property of the working plane proxy with the current visibility state of objects in the document.
 
 ## 3D view context menu 
 
@@ -218,7 +309,7 @@ If there is no selection the context menu contains one additional sub-menu:
 
 If there is a selection the context menu contains two additional sub-menus:
 
--    **Draft**: tools for [drawing objects](#Drawing_objects.md) and [modifying objects](#Modifying_objects.md).
+-    **Draft**: tools for [drawing objects](#Drafting.md) and [modifying objects](#Modification.md).
 
 -    **Utilities**: a subset of the tools available in the main Draft Utilities menu.
 
@@ -226,11 +317,17 @@ If there is a selection the context menu contains two additional sub-menus:
 
 Эти инструменты удалены из интерфейса в v0.19, поскольку в них больше нет нужды.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Draft_FinishLine.svg  style="width:32px;"> [Закончить линию](Draft_FinishLine/ru.md): завершает черчение текущей [полилинии](Draft_Wire/ru.md) или [сплайна](Draft_BSpline/ru.md) без их замыкания.
 -   <img alt="" src=images/Draft_CloseLine.svg  style="width:32px;"> [Замкнуть линию](Draft_CloseLine/ru.md): заканчивает черчение текущей [полилинии](Draft_Wire/ru.md) или [сплайна](Draft_BSpline/ru.md), и замыкает их.
 -   <img alt="" src=images/Draft_UndoLine.svg  style="width:32px;"> [Отменить последний сегмент](Draft_UndoLine/ru.md): отменяет последний сегмент [полилинии](Draft_Wire.md).
 
--   <img alt="" src=images/Draft_Drawing.svg  style="width:32px;"> [Drawing](Draft_Drawing.md): writes selected objects to a [Drawing Workbench](Drawing_Workbench.md) page. {{Obsolete|0.17}}
+
+</div>
+
+-   <img alt="" src=images/Draft_Drawing.svg  style="width:32px;"> [Drawing](Draft_Drawing.md): inserts views of selected objects into a [drawing](Drawing_Workbench.md) page. {{Obsolete|0.17}}
 
 These [3D view](3D_view.md) context menu options are still available when the [Draft Wire](Draft_Wire.md), [Draft BSpline](Draft_BSpline.md), [Draft CubicBezCurve](Draft_CubicBezCurve.md) or [Draft BezCurve](Draft_BezCurve.md) command is active but will be removed in the near future:
 
@@ -242,12 +339,29 @@ These [3D view](3D_view.md) context menu options are still available when the [D
 
 ## Настройки
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Preferences-draft.svg  style="width:32px;"> [Preferences](Draft_Preferences/ru.md): общие настройки для рабочей плоскости и инструментов черчения.
 -   <img alt="" src=images/Preferences-import-export.svg  style="width:32px;"> [Import-Export Preferences](Import_Export_Preference/ru.md): настройки, доступные для импорта и экспорта в различные форматы файлов.
 
+
+</div>
+
+-   <img alt="" src=images/Preferences-import-export.svg  style="width:32px;"> [Import Export Preferences](Import_Export_Preferences.md): preferences available for importing from and exporting to different file formats.
+
 ## Форматы файлов 
 
+
+<div class="mw-translate-fuzzy">
+
 Эти функции предназначены для открытия, импорта или экспорта других форматов файлов. Открытие подразумевает открытие нового документа с содержимым файла, в то время как импортирование добавляет содержимое файла в текущий документ. Экспорт сохраняет выделенные объекты в файл. Если ничего не выбрано, будут экспортированы все объекты. Учитывайте, что задача модуля Draft - работа с плоскими объектами, так что процедуры импорта фокусируются на двумерных объектах, хотя форматы DXF и OCA так же поддерживают определения объектов в трёхмерном пространстве (объекты не обязательно плоские), они не импортируют объекты вроде сеток, трйхмерных поверхностей и так далее, а только линии, окружности, тексты или плоские фигуры. Ныне поддерживаемые форматы файлов: Верстак Draft позволяет FreeCAD импортировать и экспортировать следующие форматы файлов:
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   [Autodesk .DXF](Draft_DXF/ru.md): импорт и экспорт файлов [DXF (Drawing Exchange Format)](http://en.wikipedia.org/wiki/AutoCAD_DXF), созданных в двумерных приложениях САПР. Смотри так же [FreeCAD and DXF Import](FreeCAD_and_DXF_Import.md).
 -   [Autodesk .DWG](Draft_DXF/ru.md): импорт и экспорт файлов DWG через экспортёр DXF при установленной утилите [ODA Converter](Extra_python_modules/ru.md). Смотри так же [FreeCAD and DWG Import](FreeCAD_and_DWG_Import/ru.md).
@@ -255,50 +369,93 @@ These [3D view](3D_view.md) context menu options are still available when the [D
 -   [формат Open Cad .OCA](Draft_OCA/ru.md): импорт и экспорт файлов OCA/GCAD, потенциально нового [формата файлов открытых САПР](http://groups.google.com/group/open_cad_format)
 -   [формат Airfoil Data .DAT](Draft_DAT/ru.md): импорт файлов DAT, описывающих [профили Airfoil](http://www.ae.illinois.edu/m-selig/ads/coord_database.html).
 
-### Установка импортёров 
 
--   [FreeCAD and DWG Import](FreeCAD_and_DWG_Import/ru.md): импорт и экспорт файлов DWG
--   [FreeCAD and DXF Import](FreeCAD_and_DXF_Import/ru.md): импорт и экспорт файлов DXF
+</div>
 
 ## Модульные тесты 
+
+
+<div class="mw-translate-fuzzy">
 
 
 **Смотри так же:**
 
 [Test Workbench](Test_Workbench/ru.md).
 
-Для запуска модульных тестов рабочей среды выполните следующие действия с терминала операционной системы. 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+Для запуска модульных тестов рабочей среды выполните следующие действия с терминала операционной системы.
+
+
+</div>
+
+
 ```python
 freecad -t TestDraft
 ```
 
 ## Написание сценариев 
 
+
+<div class="mw-translate-fuzzy">
+
 Инструменты модуля Draft могут использоваться в [макросах](macros/ru.md) и в консоли [Python](Python/ru.md), используя [программный интерфейс Draft](Draft_API/ru.md).
+
+
+</div>
 
 Рабочая среда включает модуль для создания образцов всех объектов в новом документе. <small>(v0.19)</small> 
 
-Используйте это, чтобы проверить, что все объекты произведены правильно. 
+
+<div class="mw-translate-fuzzy">
+
+Используйте это, чтобы проверить, что все объекты произведены правильно.
+
+
+</div>
+
+
 ```python
 import drafttests.draft_test_objects as dto
 doc = dto.create_test_file()
 ```
 
-Проверка кода этого модуля полезна, чтобы понять, как использовать интерфейс программирования. 
-```python
-$INSTALLDIR/Mod/Draft/drafttests/draft_test_objects.py
-```
 
-Где `$INSTALLDIR` это верхний уровень каталога, где установлена программа, например, в Linux это может быть `/usr/share/freecad`.
+<div class="mw-translate-fuzzy">
 
-<img alt="" src=images/Draft_test_objects.png  style="width:500px;"> 
+Проверка кода этого модуля полезна, чтобы понять, как использовать интерфейс программирования.
+
+
+</div>
+
+<img alt="" src=images/Draft_test_objects.png  style="width:500px;">
+
+
+<div class="mw-translate-fuzzy">
+
+
 *Тестовые объекты [верстака Draft](Draft_Workbench/ru.md).*
+
+
+</div>
+
+## Tutorials
+
+
+<div class="mw-translate-fuzzy">
 
 ## Учебники
 
 -   [Руководство по Draft](Draft_tutorial/ru.md)
 -   [Устаревшее руководство по Draft](Draft_tutorial_Outdated/ru.md)
 -   [Руководство по инструменту Draft преобразования текста в кривые](Draft_ShapeString_tutorial/ru.md)
+
+
+</div>
 
 
 

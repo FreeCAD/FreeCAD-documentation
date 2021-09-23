@@ -1,5 +1,4 @@
 # PartDesign tutorial/ru
-
  {{TutorialInfo/ru
 |Topic= Sketcher
 |Level= Beginner

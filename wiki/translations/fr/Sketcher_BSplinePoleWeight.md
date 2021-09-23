@@ -59,4 +59,4 @@ La façon de modifier les poids est décrite dans [cette page Wiki](B-Splines#Ch
 
 {{Sketcher Tools navi
 
-}}  
+}} 

@@ -1,5 +1,4 @@
 # Macro FlattenWire/en
-
  {{Macro
 |Name=FlattenWire
 |Icon=Macro_FlattenWire.png

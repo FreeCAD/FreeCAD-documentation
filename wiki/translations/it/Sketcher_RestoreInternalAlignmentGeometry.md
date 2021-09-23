@@ -48,4 +48,4 @@ Il comando elimina gli elementi di allineamento della geometria interna inutiliz
 
 {{Sketcher Tools navi
 
-}}  
+}} 

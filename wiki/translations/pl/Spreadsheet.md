@@ -1,7 +1,6 @@
 # Spreadsheet/pl
 
 
-
 ## Opis
 
 [Arkusz kalkulacyjny](Spreadsheet/pl.md) to strona zawierająca wiersze i kolumny, która pozwala na przechowywanie dowolnego tekstu w komórkach. Co ważniejsze, pozwala na użycie komórek z [wyrażeniami](Expressions/pl.md) do obliczania wartości, które zależą od wcześniej wprowadzonych wartości; mogą to być długości, kąty, powierzchnie, objętości i inne typy.

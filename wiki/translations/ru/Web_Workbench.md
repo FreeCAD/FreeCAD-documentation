@@ -4,8 +4,7 @@
 
 
 
-
-<img alt="Web workbench icon" src=images/Workbench_Web.svg  style="width:128px;">
+<img alt="Логотип верстака Web" src=images/Workbench_Web.svg  style="width:128px;">
 
 ## Введение
 

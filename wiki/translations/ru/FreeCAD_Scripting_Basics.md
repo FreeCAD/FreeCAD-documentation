@@ -2,7 +2,6 @@
 
 
 
-
 {{TOCright}}
 
 ## Написание сценариев Python в FreeCAD 

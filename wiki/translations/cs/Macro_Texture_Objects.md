@@ -1,5 +1,4 @@
 # Macro Texture Objects/cs
-
  {{Macro/cs
 |Name=Texture Objects
 |Translate=Texture Objects

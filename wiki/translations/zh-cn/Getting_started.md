@@ -5,7 +5,6 @@
 
 
 
-
 {{TOCright}}
 
 ## 前言
@@ -100,14 +99,6 @@ FreeCAD接口背后的主要概念是将它分成[工作台](workbenches/zh-cn.m
 </div>
 
 <img alt="" src=images/Start_center_0.18_screenshot.jpg  style="width:1024px;">
-
-
-<div class="mw-translate-fuzzy">
-
-<img alt="" src=images/Startcenter.jpg  style="width:1024px;"> FreeCAD 0.17参考这里的[起始中心截屏](Media:Startcenter0.17.jpg.md)。
-
-
-</div>
 
 
 <div class="mw-translate-fuzzy">

@@ -1,5 +1,4 @@
 # Inspection Workbench/de
-
  
 
 <img alt="Inspektion Arbeitsbereichssymbol" src=images/Workbench_Inspection.svg  style="width:128px;">

@@ -1,7 +1,6 @@
 # Dialog creation with various widgets/fr
 
 
-
 ## Introduction
 
 Exemple de [création de boîte de dialogue](Dialog_creation/fr.md) avec [PySide](PySide/fr.md).

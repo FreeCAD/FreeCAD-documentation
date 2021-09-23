@@ -11,7 +11,7 @@
 
 La commande **Std Alignement** aligne un objet par rapport à un objet de référence fixe en utilisant une ou plusieurs paires de points.
 
-![](images/Std_Alignment2.png ) *L'interface de commande après la définition de deux paires de points*
+![](images/Std_Alignment_example.png ) *L'interface de commande après la définition de deux paires de points*
 
 ## Utilisation
 

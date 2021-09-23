@@ -1,7 +1,6 @@
 # Developer hub/ru
 
 
-
 ![150](images/Crystal_Clear_app_tutorials.png )
 
 Это раздел для тех, кто хочет принять участие в разработке FreeCAD.

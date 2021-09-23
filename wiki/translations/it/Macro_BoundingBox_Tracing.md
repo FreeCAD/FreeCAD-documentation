@@ -1,5 +1,4 @@
 # Macro BoundingBox Tracing/it
-
  {{Macro/it
 |Name=Macro BoundingBox Tracing
 |Translate=Traccia contenitore

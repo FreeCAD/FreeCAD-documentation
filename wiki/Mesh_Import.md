@@ -20,6 +20,10 @@ The **Mesh Import** command imports geometry from a mesh file format into the ac
 3.  Select a file.
 4.  Press the **Open** button.
 
+## Supported file types 
+
+The **Mesh Import** supports: bms, stl, ast, iv, nas, bdf, obj, smf, off and ply files. For NASTRAN nas/bdf file, only GRID, CTRIA3 and CQUAD4 cards are supported. In each data line, a space must exist between two variables.
+
 ## Preferences
 
 -   The last used file location is stored: **Tools → Edit parameters... → BaseApp → Preferences → General → FileOpenSavePath**.

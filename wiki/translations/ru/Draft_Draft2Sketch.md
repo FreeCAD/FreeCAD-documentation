@@ -12,9 +12,15 @@
 
 ## Description
 
+
+<div class="mw-translate-fuzzy">
+
 ## Описание
 
 Этот инструмент преобразует [ Draft objects](Draft_Workbench.md) в [Sketcher objects](Sketcher_Workbench.md) и наоборот.
+
+
+</div>
 
 ![](images/Draft_Draft2Sketch_example.png )
 

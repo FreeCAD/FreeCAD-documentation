@@ -2,8 +2,7 @@
 
 
 
-
-{{VeryImportantMessage|[[Complete Workbench]] è deprecato.}}
+**[[Complete Workbench]] è deprecato.**
 
 <img alt="" src=images/Workbench_Complete.svg  style="width:64px;">
 

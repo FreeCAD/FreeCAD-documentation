@@ -5,7 +5,6 @@
 
 
 
-
 {{Manual:TOC}}
 
 FreeCAD is designed for parametric modeling. This means that the geometry that you create, instead of being freely sculptable, is produced by rules and parameters. For example, a cylinder might be produced from a radius and a height. With these two parameters, the program has enough information to build the cylinder.

@@ -17,9 +17,15 @@ Dieses Werkzeug entfernt eine Ansicht aus einem vorhandenen Ausschnitt und gibt 
 -   Wähle eine Ansicht, die Teil eines Ausschnitts ist, und drücke die **<img src="images/TechDraw_ClipGroupRemove.svg" width=16px> [Ansicht aus Ausschnittgruppe entfernen](TechDraw_ClipGroupRemove/de.md)** Schaltfläche, um die Ansicht zu entfernen.
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{TechDraw Tools navi
 
-}}  
+}} 

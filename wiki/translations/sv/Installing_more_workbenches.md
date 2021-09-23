@@ -1,7 +1,6 @@
 # Installing more workbenches/sv
 
 
-
 ## Introduction
 
 Since v0.17 it is easy to add [external workbenches](external_workbenches.md) by using the [Addon Manager](Std_AddonMgr.md). A regular user doesn\'t need to do more than use this tool.

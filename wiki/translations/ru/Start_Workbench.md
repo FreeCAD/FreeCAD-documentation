@@ -2,7 +2,6 @@
 
 
 
-
 <div class="mw-translate-fuzzy">
 
 
@@ -11,7 +10,7 @@
 
 </div>
 
-<img alt="Иконка верстака Start" src=images/Workbench_Start.svg  style="width:128px;">
+<img alt="Логотип верстака Start" src=images/Workbench_Start.svg  style="width:128px;">
 
 <img alt="" src=images/Workbench_Start.svg  style="width:24px;"> [Верстак Start](Start_Workbench/ru.md) на самом деле не является верстаком в полном смысле. Это просто страница \"приветствия\", которая отображается при открытии FreeCAD без пред загруженного документа.
 

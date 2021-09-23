@@ -1,5 +1,4 @@
 # Macro MeasureCircle/de
-
  {{Macro/de
 |Name=Macro MeasureCircle|Name/de=Makro Kreis messen
 |Icon=Macro_MeasureCircle.png

@@ -2,7 +2,6 @@
 
 
 
-
 {{Macro/pl
 |Name=Makrodefinicja: Wyrównaj ujęcie widoku do płaszczyzny roboczej
 |Icon=Macro_Align_Camera_to_Working_Plane.png
@@ -17,7 +16,7 @@
 
 ## Opis
 
-Za pomocą tej makrodefinicji ujęcie widoku jest wyrównywane do bieżącej [Płaszczyzny roboczej](Draft_SelectPlane.md).
+Za pomocą tej makrodefinicji ujęcie widoku jest wyrównywane do bieżącej [Płaszczyzny roboczej](Draft_SelectPlane/pl.md).
 
 ## Użycie
 
@@ -26,17 +25,17 @@ Za pomocą tej makrodefinicji ujęcie widoku jest wyrównywane do bieżącej [P�
 
 ## Skrypt
 
-ToolBar Icon ![](images/Macro_Align_Camera_to_Working_Plane.png )
+Ikonka paska narzędzi ![](images/Macro_Align_Camera_to_Working_Plane.png )
 
 **Macro\_Align\_Camera\_to\_Working\_Plane.FCMacro**
 
 
-{{MacroCode|code=
+```python
 import FreeCAD,FreeCADGui
 c = FreeCADGui.ActiveDocument.ActiveView.getCameraNode()
 r = FreeCAD.DraftWorkingPlane.getRotation().Rotation.Q
 c.orientation.setValue(r)
-}}
+```
 
 
 

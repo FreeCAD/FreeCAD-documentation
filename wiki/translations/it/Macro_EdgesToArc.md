@@ -1,5 +1,4 @@
 # Macro EdgesToArc/it
-
  {{Macro/it
 |Name=EdgesToArc
 |Translate=Da Segmento a Arco

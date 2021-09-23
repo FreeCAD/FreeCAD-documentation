@@ -25,4 +25,4 @@ Montre ou masque l\'affichage de la multiplicité des nœuds d\'une courbe B-spl
 
 {{Sketcher Tools navi
 
-}}  
+}} 

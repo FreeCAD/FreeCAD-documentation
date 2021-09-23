@@ -1,5 +1,4 @@
 # ExplodedAssembly Workbench
-
  
 
 ## Introduction

@@ -4,7 +4,6 @@
 
 
 
-
 <img alt="Icône de Std Base" src=images/Freecad.svg  style="width:128px;">
 
 

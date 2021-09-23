@@ -1,7 +1,6 @@
 # Online Help Toc/de
 
 
-
 Dies ist das Inhaltsverzeichnis, das für den automatischen Aufbau des Systems **Online Hilfe** in FreeCAD verwendet wird. Eine druckbare Version dieses Handbuchs ist auch auf der Seite [Veröffentlichungsseite](https://github.com/FreeCAD/FreeCAD/releases) (z.Zt. nur in Englisch) verfügbar. Wenn Du Fragen hast oder Hilfe zu FreeCAD benötigst, besuch bitte die **[Hilfeseite](Help/de.md)** einschließlich der Foren und Chatgruppen.
 
 Es gibt ein weiteres Inhaltsverzeichnis für das [FreeCAD HANDBUCH](Manual:Introduction/de.md).

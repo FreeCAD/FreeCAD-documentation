@@ -1,5 +1,4 @@
 # Changelog
-
   The FreeCAD changelog is maintained on our mantis tracker:
 
 <http://www.freecadweb.org/tracker/changelog_page.php>

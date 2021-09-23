@@ -2,7 +2,6 @@
 
 
 
-
 <div class="mw-translate-fuzzy">
 
 
@@ -101,18 +100,15 @@ Osnovni koncept FreeCAD sučelja je taj da je podijeljen na [Radne ploče](workb
 
 </div>
 
-Kada otvorite FreeCAD prvi puta otvorit če se Start Centar Ovdje je izgled od verzije 0.18:
-
-<img alt="" src=images/Start_center_0.18_screenshot.jpg  style="width:1024px;">
-
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/Start_center_0.18_screenshot.jpg  style="width:1024px;"> 
-*align=center|For FreeCAD 0.17 see this [start center](Media:Startcenter0.17.jpg.md) screenshot.*
+Kada otvorite FreeCAD prvi puta otvorit če se Start Centar Ovdje je izgled od verzije 0.18:
 
 
 </div>
+
+<img alt="" src=images/Start_center_0.18_screenshot.jpg  style="width:1024px;">
 
 
 <div class="mw-translate-fuzzy">

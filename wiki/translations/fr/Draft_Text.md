@@ -11,9 +11,9 @@
 
 ## Description
 
-La commande <img alt="" src=images/Draft_Text.svg  style="width:24px;"> **Draft Texte** insère un texte de plusieurs lignes à un endroit donné.
+La commande <img alt="" src=images/Draft_Text.svg  style="width:24px;"> **Draft Texte** crée un texte de plusieurs lignes à un endroit donné.
 
-Pour insérer un élément de texte avec une flèche, utilisez plutôt la commande [Draft Étiquette](Draft_Label/fr.md).
+Pour créer un élément de texte avec une flèche, utilisez plutôt la commande [Draft Étiquette](Draft_Label/fr.md).
 
 <img alt="" src=images/Draft_Text_example.jpg  style="width:400px;"> 
 *Un seul point est nécessaire pour positionner le texte*

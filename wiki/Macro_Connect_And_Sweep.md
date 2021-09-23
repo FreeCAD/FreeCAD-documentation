@@ -1,5 +1,4 @@
 # Macro Connect And Sweep
-
   {{Macro
 |Name= Macro Connect And Sweep
 |Icon=Macro_Connect_And_Sweep.png

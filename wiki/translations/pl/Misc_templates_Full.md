@@ -1,5 +1,4 @@
 # Misc templates Full/pl
-
  Szablony te są całkowicie pustą tabelką *(22 pola do wypełnienia)* i dedykowane dla makra [Macro\_CartoucheFC\_Full](Macro_CartoucheFC_Full.md).
 
 Te same czynności można wykonać bezpośrednio w programie FreeCAD.

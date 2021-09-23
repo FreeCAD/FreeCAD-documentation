@@ -1,5 +1,4 @@
 # Draft annotation scale widget
-
  
 
 

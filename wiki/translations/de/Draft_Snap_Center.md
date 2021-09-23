@@ -58,20 +58,7 @@ For general information about snapping see [Draft Snap](Draft_Snap.md).
 See [Draft Snap](Draft_Snap#Preferences.md).
 
 
-<div class="mw-translate-fuzzy">
 
-
-{{docnav/de
-|[Winkel](Draft_Angle/de.md)
-|[Senkrecht](Draft_Ortho/de.md)
-|[Draft Snap](Draft_Snap/de.md)
-|IconL=Draft Angle.png
-|IconC=Workbench_Draft.svg
-|IconR=Draft Ortho.png
-}}
-
-
-</div>
 
 
  

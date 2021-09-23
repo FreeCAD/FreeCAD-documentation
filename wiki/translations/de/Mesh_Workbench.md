@@ -4,7 +4,6 @@
 
 
 
-
 <img alt="Polygonnetz Arbeitsbereichssymbol" src=images/Workbench_Mesh.svg  style="width:128px;">
 
 

@@ -15,7 +15,15 @@
 
 **Additive Pipe** creează un solid în corpul activ, prin baleierea uneia sau a mai multor schițe (denumite și secțiuni transversale) de-a lungul unei căi deschise sau închise. Dacă corpul conține deja funcții(onalități), conductele aditive vor fi îmbinate cu ele.
 
-![](images/PartDesign_AdditivePipe_example.svg ) *On the left: cross-sections (A) and (B) to be swept along path (C); resulting Additive pipe on the right.*
+![](images/PartDesign_AdditivePipe_example.svg )
+
+
+<div class="mw-translate-fuzzy">
+
+*On the left: cross-sections (A) and (B) to be swept along path (C); resulting Additive pipe on the right.*
+
+
+</div>
 
 ## Usage
 
@@ -43,6 +51,8 @@
 </div>
 
 To use more than one cross-section, start with the first cross-section sketch as described above. Then under **Section transformation** set the Transform mode to *Multisection*; press **Add Section** then select a sketch in the [3D view](3D_view.md). Repeat for each additional cross-section.
+
+## Options
 
 
 <div class="mw-translate-fuzzy">

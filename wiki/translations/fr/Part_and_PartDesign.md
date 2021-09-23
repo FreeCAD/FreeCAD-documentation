@@ -1,5 +1,4 @@
 # Part and PartDesign/fr
-
  {{TOCright}}
 
 ## Présentation

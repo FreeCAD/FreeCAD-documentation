@@ -8,7 +8,7 @@
 
 ## Description
 
-This tool allows you to create a 2D profile of a sprocket. It can be padded with the [PartDesign Pad](PartDesign_Pad.md) feature.
+This tool allows you to create a 2D profile of a sprocket (or chainwheel). It can be padded with the [PartDesign Pad](PartDesign_Pad.md) feature.
 
 ## Usage
 

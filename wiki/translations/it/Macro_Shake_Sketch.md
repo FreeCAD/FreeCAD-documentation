@@ -1,6 +1,8 @@
 # Macro Shake Sketch/it
 
- {{Macro/it
+
+
+{{Macro/it
 |Name=Macro Shake Sketch
 |Icon=Macro_Shake_Sketch.png
 |Translate=Scrolla lo schizzo
@@ -12,9 +14,17 @@
 |Download=[https://www.freecadweb.org/wiki/images/4/4a/Macro_Shake_Sketch.png ToolBar Icon]
 }}
 
+## Description
+
+
+<div class="mw-translate-fuzzy">
+
 ## Descrizione
 
 Agita uno schizzo per scoprire le sue parti non vincolate. Entrare in modalità di modifica dello schizzo e lanciare la macro. La macro aggiunge un disturbo casuale su tutti i punti dello schizzo. Dopo il disegno viene risolto, le parti vincolate manterranno la loro posizione, parti libere si muoveranno.
+
+
+</div>
 
 **Attenzione, lavorare su una copia del file perché la macro \"smonta tutto\" e si rischia di dover ricominciare da capo.**
 
@@ -25,7 +35,7 @@ ToolBar Icon ![](images/Macro_Shake_Sketch.png )
 **Macro Shake\_Sketch.py**
 
 
-{{MacroCode|code=
+```python
 # -*- coding: utf-8 -*-
 
 # FreeCAD macro to shake a sketch in order to discover its unconstrained parts.
@@ -166,7 +176,7 @@ if do_move:
 
     for i in range(len((sketch.Geometry))):
         move_points(sketch, i, sigma)
-}}
+```
 
 
 

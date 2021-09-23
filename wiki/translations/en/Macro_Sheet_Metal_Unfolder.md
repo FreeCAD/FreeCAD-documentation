@@ -1,5 +1,4 @@
 # Macro Sheet Metal Unfolder/en
-
  {{Macro
 |Name=Sheet Metal Unfolder
 |Icon=Macro_Sheet_Metal_Unfolder.png

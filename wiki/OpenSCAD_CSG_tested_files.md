@@ -1,5 +1,4 @@
 # OpenSCAD CSG tested files
-
  
 
 ## This is a list of OpenSCAD files that can not be opened in FreeCAD 

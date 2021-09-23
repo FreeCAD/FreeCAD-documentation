@@ -1,5 +1,4 @@
 # Silk Workbench
-
   *align=center|The Silk External Workbench Icon*
 
 ## Description

@@ -1,5 +1,4 @@
 # Macro Automatic drawing/it
-
  {{Macro/it
 |Name=Automatic drawing
 |Translate=Proiezioni Automatiche

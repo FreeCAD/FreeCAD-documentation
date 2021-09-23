@@ -35,18 +35,6 @@ Il comando **Duplica la selezione** duplica gli oggetti all\'interno del documen
 
 -   Le etichette duplicate sono consentite se **Strumenti → Modifica parametri ... → BaseApp → Preferenze → Documento → DuplicateLabels** è impostato su `True`. Questa impostazione può essere modificata anche nell\'[editor delle preferenze](Preferences_Editor/it#Documento.md).
 
-## Scripting
-
-The **Std DuplicateSelection** command can be applied after selecting one or more objects in the [Tree view](Tree_view.md):
-
-
-```python
-FreeCADGui.runCommand('Std_DuplicateSelection')
-```
-
-The selection can be manual (by using the mouse), or via the [Python console](Python_console.md).
-To know more about selecting objects programmatically, refer to [Selection methods](Selection_methods.md).
-
 
 <div class="mw-translate-fuzzy">
 
@@ -59,4 +47,4 @@ To know more about selecting objects programmatically, refer to [Selection metho
 
 {{Std Base navi
 
-}}  
+}} 

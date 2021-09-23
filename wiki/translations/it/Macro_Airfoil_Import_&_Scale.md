@@ -1,5 +1,4 @@
 # Macro Airfoil Import & Scale/it
-
  {{Macro/it
 |Name=Macro Airfoil Import & Scale
 |Icon=Macro_Airfoil_Import_&_Scale.png
@@ -308,7 +307,7 @@ Una nota su questo è inclusa nel testo della macro.
 ## Version 2 
 
 
-{{VeryImportantMessage|'''Avvertenza - Usando questa Macro con versioni di FreeCAD inferiori a 0.14, la revisione 3077 non produrrà i risultati attesi quando si usa l'opzione BSpline e può causare arresti anomali di FreeCAD e perdita di dati non salvati!'''}}
+**'''Avvertenza - Usando questa Macro con versioni di FreeCAD inferiori a 0.14, la revisione 3077 non produrrà i risultati attesi quando si usa l'opzione BSpline e può causare arresti anomali di FreeCAD e perdita di dati non salvati!'''**
 
 
 {{MacroCode|code=

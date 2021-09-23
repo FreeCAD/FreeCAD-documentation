@@ -1,5 +1,4 @@
 # Qt Example/es
-
  {{Macro/es
 |Name=Macro Qt Ejemplo
 |Icon=MEPlan.png

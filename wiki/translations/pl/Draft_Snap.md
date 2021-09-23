@@ -5,12 +5,11 @@
 
 
 
-
 {{TOCright}}
 
 ## Opis
 
-W środowisku pracy <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Rysunek Roboczy](Draft_Workbench/pl.md) i <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Architektura](Arch_Workbench/pl.md) możesz tworzyć geometrię przez wybieranie punktów w oknie [widoku 3D](3D_view/pl.md) lub przez wprowadzanie współrzędnych w poleceniach [panelu zadań](Task_panel/pl.md). Innym sposobem dokładnego wybierania punktów jest przyciąganie. Przyciąganie pozwala na wybranie dokładnych punktów geometrycznych na lub zdefiniowanych przez istniejące obiekty. Można na przykład przyciągnąć do punktu końcowego prostej, środka okręgu lub przecięcia dwóch krawędzi.
+W środowisku pracy <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Rysunek Roboczy](Draft_Workbench/pl.md) i <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Architektura](Arch_Workbench/pl.md) możesz tworzyć geometrię przez wybieranie punktów w oknie [widoku 3D](3D_view/pl.md) lub przez wprowadzanie współrzędnych w poleceniach [panelu zadań](Task_panel/pl.md). Innym sposobem dokładnego wybierania punktów jest przyciąganie. Przyciąganie pozwala na wybranie dokładnych punktów geometrycznych na lub zdefiniowanych przez istniejące obiekty lub siatkę. Można na przykład przyciągnąć do punktu końcowego prostej, środka okręgu lub przecięcia dwóch krawędzi.
 
 Przyciąganie jest dostępne z większością poleceń środowisk [Rysunek Roboczy](Draft_Workbench/pl.md) i [Architektura](Arch_Workbench/pl.md).
 

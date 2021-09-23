@@ -1,7 +1,6 @@
 # Integrate Cycles renderer
 
-
-{{VeryImportantMessage|Cycles Renderer was added by Yorik in 2019! Please check out the [https://github.com/FreeCAD/FreeCAD-render FreeCAD-Render WB]}}
+**Cycles Renderer was added by Yorik in 2019! Please check out the [https://github.com/FreeCAD/FreeCAD-render FreeCAD-Render WB]**
 
 ## Outline
 

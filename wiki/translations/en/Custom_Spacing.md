@@ -1,7 +1,6 @@
 # Custom Spacing/en
 
 
-
 ## Description
 
 The Custom Spacing tool allows a user to create rebar distribution in the structural element. You can define three segments for the distribution. For the first and third segments, you can give both a number of rebars and spacing between rebars. But for the second segment, you can only give either a number of rebars or spacing between rebars because one value automatically determines other.

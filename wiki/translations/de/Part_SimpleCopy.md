@@ -34,18 +34,6 @@ Die Kopie hat eine einfache {{PropertyData/de|Platzierung}} Eigenschaft wie jede
 
 Die Kopie hat einfache Ansichtseigenschaften wie jede andere [Teilfunktion](Part_Feature/de.md).
 
-## Skripten
-
-The **Part SimpleCopy**‎ command can be applied after selecting one or more objects in the [Tree view](Tree_view.md):
-
-
-```python
-FreeCADGui.runCommand('Part_SimpleCopy')
-```
-
-The selection can be manual (by using the mouse), or via the [Python console](Python_console.md).
-To know more about selecting objects programmatically, refer to [Selection methods](Selection_methods.md).
-
 
 <div class="mw-translate-fuzzy">
 
@@ -56,4 +44,4 @@ To know more about selecting objects programmatically, refer to [Selection metho
 </div>
 
 
-  
+ 

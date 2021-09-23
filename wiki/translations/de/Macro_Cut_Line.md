@@ -1,5 +1,4 @@
 # Macro Cut Line/de
-
  {{Macro/de
 |Name=Macro Cut Line
 |Name/de=Makro Linie Schneiden

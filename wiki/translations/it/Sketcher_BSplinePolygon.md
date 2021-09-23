@@ -45,4 +45,4 @@ Mostra o nasconde la visualizzazione del poligono di definizione di una B-spline
 
 {{Sketcher Tools navi
 
-}}  
+}} 

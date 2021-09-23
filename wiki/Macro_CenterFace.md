@@ -1,5 +1,4 @@
 # Macro CenterFace
-
   {{Macro
 |Name=Macro CenterFace
 |Icon=CenterFace.png

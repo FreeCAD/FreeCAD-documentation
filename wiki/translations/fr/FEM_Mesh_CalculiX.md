@@ -1,5 +1,4 @@
 # FEM Mesh CalculiX/fr
-
  {{TOCright}}
 
 ## Types d\'éléments MEF dans CalculiX 

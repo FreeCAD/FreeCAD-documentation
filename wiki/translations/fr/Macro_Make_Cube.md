@@ -1,6 +1,8 @@
 # Macro Make Cube/fr
 
- {{Macro/fr
+
+
+{{Macro/fr
 |Name=Make Cube
 |Icon=Macro_makeCube.png
 |Description=Cette macro créé un cube à partir de 4 points définis à l'écran
@@ -17,12 +19,12 @@ Cette macro crée un cube en donnant 4 points
 
 ## Script
 
-ToolBar Icon ![](images/Macro_makeCube.png )
+Icône de la barre d\'outils ![](images/Macro_makeCube.png )
 
 **Macro\_Make\_Cube.FCMacro**
 
 
-{{MacroCode|code=
+```python
 # first we import the needed Draft modules
 import draftTools, WorkingPlane
 from draftlibs import fcvec
@@ -149,5 +151,5 @@ class myCommand(draftTools.Creator):
 
 #  finally, we execute our code!
 myCommand()
-}}
+```
 

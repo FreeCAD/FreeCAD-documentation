@@ -1,12 +1,11 @@
 # Raytracing Workbench/fr
-
  
 
 
-{{VeryImportantMessage|L'atelier Raytracing est essentiellement obsolète. Un nouveau développement est en cours dans le [https://github.com/FreeCAD/FreeCAD-render atelier Render] qui est destiné à le remplacer. Cet atelier est entièrement programmé en Python, il est donc beaucoup plus facile à étendre.
+**L'atelier Raytracing est essentiellement obsolète. Un nouveau développement est en cours dans le [https://github.com/FreeCAD/FreeCAD-render atelier Render] qui est destiné à le remplacer. Cet atelier est entièrement programmé en Python, il est donc beaucoup plus facile à étendre.
 
 Néanmoins, les informations de cette page sont généralement utiles pour le nouvel atelier, car les deux modules fonctionnent essentiellement de la même manière.
-}}
+**
 
 <img alt="Icône de l\'atelier Raytracing" src=images/Workbench_Raytracing.svg  style="width:128px;">
 

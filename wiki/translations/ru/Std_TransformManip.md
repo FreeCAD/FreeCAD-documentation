@@ -33,6 +33,6 @@ This tool allows you to apply rotation increments or translation increments to a
 
 
 
-{{Std Base
+{{Std Base navi
 
 }} 

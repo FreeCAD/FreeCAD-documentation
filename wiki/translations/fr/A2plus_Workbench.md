@@ -1,5 +1,4 @@
 # A2plus Workbench/fr
-
  <img alt="Icône de l\'atelier Assembly2+" src=images/A2p_workbench.svg  style="width:128px;">
 
 ## Introduction

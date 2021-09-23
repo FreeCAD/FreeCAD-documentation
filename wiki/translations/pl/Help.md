@@ -1,7 +1,6 @@
 # Help/pl
 
 
-
 ## Forum
 
 The first place you can ask for help is the [FreeCAD forum](https://forum.freecadweb.org/viewforum.php?f=3). Please read [this post](https://forum.freecadweb.org/viewtopic.php?f=3&t=2264) before asking any question. Remember that [important information](Important_information.md) about your system is necessary when asking for help.
@@ -19,6 +18,10 @@ There is an [IRC \#freecad chat room on Freenode](irc://chat.freenode.net/freeca
 ## Reddit
 
 If you are on Reddit you may use the [r/FreeCAD](https://www.reddit.com/r/FreeCAD/), or the [r/flossCAD](https://www.reddit.com/r/flossCAD/) using the FreeCAD flair. The r/flossCAD subreddit also has [a chatroom](https://s.reddit.com/channel/300896_dfacaa912e069e3d3f7e55e5cedfb25483d8d68a) where might be able to ask questions. There are also [r/ElmerFEM](https://www.reddit.com/r/ElmerFEM/), [r/openscad](https://www.reddit.com/r/openscad/), [r/LibreCAD/](https://www.reddit.com/r/LibreCAD/) [r/OpenFOAM](https://www.reddit.com/r/OpenFOAM/), and [r/Modelica](https://www.reddit.com/r/Modelica/) subreddits.
+
+## Telegram
+
+If you are on Telegram you may use the [t.me/FreeCAD\_EN](https://t.me/FreeCAD_EN).
 
 ## Twitter and Mastodon 
 

@@ -1,5 +1,4 @@
 # Macro Constraint Draft/fr
-
  {{Macro/fr
 |Name=Constraint Draft
 |Icon=Macro_Constraint_Draft.png

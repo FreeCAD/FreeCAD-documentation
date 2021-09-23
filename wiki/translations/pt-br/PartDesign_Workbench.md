@@ -1,5 +1,4 @@
 # PartDesign Workbench/pt-br
-
  
 
 <img alt="ícone da bancada de trabalho PartDesign" src=images/Workbench_PartDesign.svg  style="width:128px;">

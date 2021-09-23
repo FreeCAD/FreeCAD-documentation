@@ -1,6 +1,8 @@
 # Video tutorials/fr
 
- {{VeryImportantMessage|Faites attention à la version de FreeCAD utilisée dans le tutoriel. Si un didacticiel utilise une version plus ancienne du programme, le processus de modélisation général peut toujours fonctionner, mais certains outils peuvent avoir changé dans les nouvelles versions. N'ajoutez pas de vidéos créées avec la version 0.16 ou antérieure, ces versions étant considérées comme obsolètes.}}
+
+
+**Faites attention à la version de FreeCAD utilisée dans le tutoriel. Si un didacticiel utilise une version plus ancienne du programme, le processus de modélisation général peut toujours fonctionner, mais certains outils peuvent avoir changé dans les nouvelles versions. N'ajoutez pas de vidéos créées avec la version 0.16 ou antérieure, ces versions étant considérées comme obsolètes.**
 
 Ci-dessous vous trouverez une collection de tutoriels vidéos faite par les utilisateurs et développeurs de FreeCAD. Consultez le sujet [Tutorials and videos (EN)](https://forum.freecadweb.org/viewforum.php?f=36) du forum pour plus de liens. [YouTube](https://YouTube.com) est une source intéressante de didacticiels vidéo.
 
@@ -65,13 +67,15 @@ Puisqu\'il existe de nombreuses vidéos traitant de ce sujet, vous pouvez vous r
 
 -   [flowwie\'s corner](https://www.youtube.com/c/flowwiescorner/videos) par flowwie en allemand : une belle série de 62 courtes vidéos concernant FreeCAD 0.18 et 0.19, du niveau de base au niveau intermédiaire.
 
+-   [Evgeniy Ivanov](https://www.youtube.com/c/CFDIntech/videos) par Evgeniy Ivanov en anglais : une belle série de vidéos concernant FreeCAD 0.19, du niveau de base au niveau intermédiaire.
+
 ## Anciennes vidéos 
 
 
-{{VeryImportantMessage|Dans FreeCAD 0.17, l'[atelier PartDesign](PartDesign_Workbench/fr.md) a reçu des mises à jour importantes qui modifient la façon dont les solides sont créés par rapport aux versions précédentes. Les nouveaux utilisateurs doivent regarder des vidéos pour les versions 0.17 et supérieures pour comprendre le concept de travail avec un [PartDesign Coprs](PartDesign_Body/fr.md) et des objets de référence.}}
+**Dans FreeCAD 0.17, l'[atelier PartDesign](PartDesign_Workbench/fr.md) a reçu des mises à jour importantes qui modifient la façon dont les solides sont créés par rapport aux versions précédentes. Les nouveaux utilisateurs doivent regarder des vidéos pour les versions 0.17 et supérieures pour comprendre le concept de travail avec un [PartDesign Coprs](PartDesign_Body/fr.md) et des objets de référence.**
 
 
-{{VeryImportantMessage|Ces vidéos sont considérées comme obsolètes car elles utilisent la v0.16 ou des versions antérieures du programme.}}
+**Ces vidéos sont considérées comme obsolètes car elles utilisent la v0.16 ou des versions antérieures du programme.**
 
 Bien que ces vidéos soient considérées comme obsolètes, elles sont incluses ici pour référence historique car les informations qu\'elles contiennent peuvent encore être utiles pour les utilisateurs intermédiaires et avancés. Il est conseillé aux débutants absolus d\'éviter ces vidéos jusqu\'à ce qu\'ils aient une meilleure compréhension des différentes techniques de modélisation.
 

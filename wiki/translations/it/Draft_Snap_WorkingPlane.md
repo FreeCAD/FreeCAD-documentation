@@ -58,13 +58,7 @@ Questo metodo posiziona sempre un nuovo punto sull\'attuale [piano di lavoro](Dr
 See [Draft Snap](Draft_Snap#Preferences.md).
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
  

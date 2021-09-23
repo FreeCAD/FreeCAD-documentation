@@ -2,7 +2,6 @@
 
 
 
-
 {{docnav/zh|[Workbenches/zh](Workbenches/zh.md)|[Draft Workbench/zh](Draft_Workbench/zh.md)|IconL=|IconR=Workbench_Draft.svg}}
 
 <img alt="Arch workbench icon" src=images/Workbench_Arch.svg  style="width:128px;">

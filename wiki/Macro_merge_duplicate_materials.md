@@ -1,6 +1,8 @@
 # Macro merge duplicate materials
+ 
 
-  {{Macro
+
+{{Macro
 |Name=Macro merge duplicate materials
 |Icon=Macro_merge_duplicate_materials.png
 |Description=Merges materials that have the same base name (with different numeral endings like 001, 002,...) into one. Only the first one will be kept, and all the objects that link to the duplicates will be linking to the first one instead. So before using this macro, make sure your first material (either the one without numerical ending or the lowest number found) is the right one.
@@ -22,7 +24,7 @@ ToolBar Icon  ![](images/Macro_merge_duplicate_materials.png )
 **Merge duplicate materials.FCMacro**
 
 
-{{MacroCode|code=
+```python
 import FreeCAD,FreeCADGui
 mats = [o for o in FreeCAD.ActiveDocument.Objects if o.isDerivedFrom("App::MaterialObject")]
 todelete = []
@@ -50,7 +52,7 @@ for tod in todelete:
     else:
         print( "Unable to delete material "+tod.Label+": InList not empty")
 
-}}
+```
 
 
 

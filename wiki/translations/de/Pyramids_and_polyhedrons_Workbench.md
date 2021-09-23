@@ -1,7 +1,6 @@
 # Pyramids and polyhedrons Workbench/de
 
 
-
 ## Beschreibung
 
 <img alt="The Pyramids-and-Polyhedrons External Workbench Icon" src=images/Pyramids-and-Polyhedrons_workbench_icon.svg  style="width:128px;">

@@ -1,15 +1,12 @@
 ---
 - GuiCommand:/ru
-   Name:PartDesign MultiTransform
-   Name/ru:PartDesign MultiTransform
-   Workbenches:[PartDesign](PartDesign_Workbench/ru.md), Complete
-   MenuLocation:PartDesign -> Множественное преобразование
+   Name/ru:Множественное преобразование
+   Name:PartDesign_MultiTransform
+   MenuLocation:PartDesign → Apply a pattern → Множественное преобразование
+   Workbenches:[PartDesign](PartDesign_Workbench/ru.md)
 ---
 
-
-</div>
-
-## Description
+## Описание
 
 \'Make a pattern from combinations of transformations\' - The **![](images/)_[MultiTransform](PartDesign_MultiTransform.md)** tool takes one (or a set of) part \'features\' as its input, and allows the user to apply multiple transformations to that feature (or set of features) progressively, in sequence - creating a combined or compound transformation.
 
@@ -140,9 +137,6 @@ When initiated and completed in this way, the **![](images/)_[MultiTransform](P
 |                                                                    |                                                                                                                                                                                                                                                                                                                                                                                     |
 |                                                                    | Allows changing the order of transformations in the list                                                                                                                                                                                                                                                                                                                            |
 +--------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-
-
-
 
 ## Examples
 

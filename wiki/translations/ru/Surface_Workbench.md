@@ -2,7 +2,6 @@
 
 
 
-
 <div class="mw-translate-fuzzy">
 
 
@@ -11,7 +10,7 @@
 
 </div>
 
-<img alt="Surface workbench icon" src=images/Workbench_Surface.svg  style="width:128px;">
+<img alt="Логотип верстака Surface" src=images/Workbench_Surface.svg  style="width:128px;">
 
 
 {{TOCright}}

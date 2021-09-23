@@ -1,5 +1,4 @@
 # Macro Toggle Panels Visibility/ru
-
  {{Macro
 |Name=Macro Toggle Panels Visibility
 |Icon=Macro_Toggle_Views_Visibility.png
@@ -31,7 +30,7 @@ Click on the associated toolbar button, or invoke from the Macro menu. The suppo
 
 There is immediate confirmation of the user action as the supporting windows either appear or disappear.
 
-## Скрипты
+## Программирование
 
 Toolbar icon ![](images/Macro_Toggle_Views_Visibility.png )
 

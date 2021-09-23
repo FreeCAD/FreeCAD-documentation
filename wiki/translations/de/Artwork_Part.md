@@ -1,5 +1,4 @@
 # Artwork Part/de
-
  
 
 Diese Symbole befinden sich im angegebenen Quellpfad.

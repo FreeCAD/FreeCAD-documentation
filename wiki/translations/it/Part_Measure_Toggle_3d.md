@@ -10,9 +10,19 @@
 
 </div>
 
+## Description
+
+
+<div class="mw-translate-fuzzy">
+
 ## Descrizione
 
 Attiva o Disattiva le misure 3D in corso.
+
+
+</div>
+
+## Usage
 
 
 <div class="mw-translate-fuzzy">
@@ -34,10 +44,4 @@ Attiva o Disattiva le misure 3D in corso.
 </div>
 
 
-
-
-
-
-
-
-
+ 

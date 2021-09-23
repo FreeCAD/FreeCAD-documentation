@@ -1,7 +1,6 @@
 # Fasteners Workbench/fr
 
 
-
 <img alt="Icône de l\'atelier externe Fasteners" src=images/Fasteners_workbench_icon.svg  style="width:128px;">
 
 

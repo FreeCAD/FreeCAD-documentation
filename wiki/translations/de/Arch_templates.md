@@ -1,5 +1,4 @@
 # Arch templates/de
-
  Dieses Seite zeigt die Vorlagen entsprechend dem American National Standards Institute [ANSI](https://de.wikipedia.org/wiki/American_National_Standards_Institute)-Standard
 
 ### Arch A 

@@ -2,7 +2,6 @@
 
 
 
-
 <div class="mw-translate-fuzzy">
 
 
@@ -103,7 +102,7 @@ Draft 工作台虽然继承了传统 2D CAD 的工作方式，但并不局限于
 <div class="mw-translate-fuzzy">
 
 -   现在，可以右键单击 Construction 组并选择 **Hide Selection** 来隐藏构造几何体。
--   我们现在画窗户和门。 确保<img alt="" src=images/Snap_Midpoint.png  style="width:16px;"> [midpoint snap](Draft_Snap/zh-cn.md) 已打开，如下所示，绘制六条线：
+-   我们现在画窗户和门。 确保<img alt="" src=images/Draft_Snap_Midpoint.svg  style="width:16px;"> [midpoint snap](Draft_Snap/zh-cn.md) 已打开，如下所示，绘制六条线：
 
 
 </div>

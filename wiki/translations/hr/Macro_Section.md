@@ -1,5 +1,4 @@
 # Macro Section/hr
-
  (parametarski!)
 
 

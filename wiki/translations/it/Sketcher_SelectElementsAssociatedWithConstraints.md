@@ -32,4 +32,4 @@ Seleziona gli elementi dello schizzo che sono associati a determinati vincoli
 
 {{Sketcher Tools navi
 
-}}  
+}} 

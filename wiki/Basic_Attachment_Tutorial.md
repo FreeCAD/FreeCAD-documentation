@@ -1,7 +1,6 @@
 # Basic Attachment Tutorial
 
 
-
  {{TutorialInfo
 |Topic=Attachment
 |Level=Beginner/Intermediate

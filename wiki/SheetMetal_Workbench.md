@@ -1,25 +1,21 @@
 # SheetMetal Workbench
 
+  
 
+<img alt="Sheet Metal External workbench icon" src=images/Sheetmetal_workbench_icon.svg  style="width:128px;">
 
-
- <img alt=" Sheet Metal External workbench icon" src=images/Sheetmetal_workbench_icon.svg  style="width:128px;">
-
-
-{{TOCright}}
-
-
+ 
 
 ## Introduction
 
-<img alt="" src=images/Sheetmetal_workbench_icon.svg  style="width:32px;"> [Sheet Metal](SheetMetal_Workbench.md) is an [external workbench](external_workbenches.md) and does not belong to the standard FreeCAD installation. It is developed to supply tools to create and unfold sheet metal objects.
+<img alt="" src=images/Sheetmetal_workbench_icon.svg  style="width:32px;"> [Sheet Metal](SheetMetal_Workbench.md) is an [external workbench](external_workbenches.md) and does not belong to the standard FreeCAD installation. It has been developed to supply tools to create and unfold sheet metal objects.
 
 Characteristics of sheet metal objects are:
 
-:   \- They have a constant thickness
-:   \- They are made of planar walls and cylindrical connections
+-   They have a constant thickness
+-   They can be unfolded, if they are made of planar walls and cylindrical connections only
 
-The unfolding tool in both of its versions is not restricted to parts being made with tools of this workbench, but can handle [Part](Part_Workbench.md) and [PartDesign](PartDesign_Workbench.md) objects as well, as long as they meet above characteristics.
+The unfolding tool in both of its versions is not restricted to parts made with tools from this workbench, but can handle [Part](Part_Workbench.md) and [PartDesign](PartDesign_Workbench.md) objects as well, as long as they meet above characteristics.
 
  <img alt="" src=images/SheetMetal_Example.png  style="width:600px;">  
 *The sheet metal model built with the Sheet Metal add-on (rear); in front of it, the unfolded solid; at the forefront, the unfold sketch with bending lines for export to DXF.*
@@ -32,31 +28,31 @@ This workbench can be installed from the [Addon Manager](Std_AddonMgr.md). For m
 
 ## Tools
 
-A detailed description of the tools can be found [on the author\'s blog](http://theseger.com/projects/2015/06/sheet-metal-addon-for-freecad/). (It\'s a bit outdated now, since some new tools have been added)
+A detailed description of the tools can be found [on the author\'s blog](http://theseger.com/projects/2015/06/sheet-metal-addon-for-freecad/). It\'s a bit outdated now, since some new tools have been added.
 
 -   <img alt="" src=images/SheetMetal_AddBase.svg  style="width:32px;"> [Make Base Wall](SheetMetal_AddBase.md): Creates a sheetmetal wall from a sketch.
 
--   <img alt="" src=images/SheetMetal_AddWall.svg  style="width:32px;"> [Make Wall](SheetMetal_AddWall.md): Extends a wall from a side face of the metal sheet.
+-   <img alt="" src=images/SheetMetal_AddWall.svg  style="width:32px;"> [Make Wall](SheetMetal_AddWall.md): Extends a wall from a side face of a metal sheet.
 
--   <img alt="" src=images/SheetMetal_Extrude.svg  style="width:32px;"> [Extend Face](SheetMetal_Extrude.md): Extends a face along normal.
+-   <img alt="" src=images/SheetMetal_Extrude.svg  style="width:32px;"> [Extend Face](SheetMetal_Extrude.md): Extends a face along a normal.
 
--   <img alt="" src=images/SheetMetal_AddFoldWall.svg  style="width:32px;"> [Fold a Wall](SheetMetal_AddFoldWall.md): Folds a face at the chosen line with specified bend radius.
+-   <img alt="" src=images/SheetMetal_AddFoldWall.svg  style="width:32px;"> [Fold a Wall](SheetMetal_AddFoldWall.md): Folds a face at the chosen line with a specified bend radius.
 
--   <img alt="" src=images/SheetMetal_Unfold.svg  style="width:32px;"> [Unfold](SheetMetal_Unfold.md): Flattens folded sheet metal object and generates a solid and a sketch (provides a window to set parameters).
+-   <img alt="" src=images/SheetMetal_Unfold.svg  style="width:32px;"> [Unfold](SheetMetal_Unfold.md): Flattens a folded sheet metal object and generates a solid and a sketch (provides a dialog to set parameters).
 
--   <img alt="" src=images/SheetMetal_UnattendedUnfold.svg  style="width:32px;"> [Unattended Unfold](SheetMetal_UnattendedUnfold.md): Flattens folded sheet metal object and generates a solid and a sketch (if parameters have already been set).
+-   <img alt="" src=images/SheetMetal_UnattendedUnfold.svg  style="width:32px;"> [Unattended Unfold](SheetMetal_UnattendedUnfold.md): Flattens a folded sheet metal object and generates a solid and a sketch (if parameters have already been set).
 
--   <img alt="" src=images/SheetMetal_AddCornerRelief.svg  style="width:32px;"> [Add Corner Relief](SheetMetal_AddCornerRelief.md): Adds corner relief to a corner.
+-   <img alt="" src=images/SheetMetal_AddCornerRelief.svg  style="width:32px;"> [Add Corner Relief](SheetMetal_AddCornerRelief.md): Adds a corner relief to a corner.
 
--   <img alt="" src=images/SheetMetal_AddRelief.svg  style="width:32px;"> [Make Relief](SheetMetal_AddRelief.md): Adds relief to a corner.
+-   <img alt="" src=images/SheetMetal_AddRelief.svg  style="width:32px;"> [Make Relief](SheetMetal_AddRelief.md): Adds a relief to a corner.
 
--   <img alt="" src=images/SheetMetal_AddJunction.svg  style="width:32px;"> [Make Junction](SheetMetal_AddJunction.md): Creates gap in the corner of two walls.
+-   <img alt="" src=images/SheetMetal_AddJunction.svg  style="width:32px;"> [Make Junction](SheetMetal_AddJunction.md): Creates a gap in the corner of two walls.
 
--   <img alt="" src=images/SheetMetal_AddBend.svg  style="width:32px;"> [Make Bend](SheetMetal_AddBend.md): Folds a face at the chosen line.
+-   <img alt="" src=images/SheetMetal_AddBend.svg  style="width:32px;"> [Make Bend](SheetMetal_AddBend.md): Folds a face at a chosen line.
 
--   <img alt="" src=images/SheetMetal_SketchOnSheet.svg  style="width:32px;"> [Sketch On Sheet metal](SheetMetal_SketchOnSheet.md): Cuts hole in sheetmetal based on a sketch.
+-   <img alt="" src=images/SheetMetal_SketchOnSheet.svg  style="width:32px;"> [Sketch On Sheet metal](SheetMetal_SketchOnSheet.md): Cuts a hole in sheetmetal based on a sketch.
 
--   <img alt="" src=images/SheetMetal_Forming.svg  style="width:32px;"> [Make Forming in Wall](SheetMetal_Forming.md): Creates forming tool.
+-   <img alt="" src=images/SheetMetal_Forming.svg  style="width:32px;"> [Make Forming in Wall](SheetMetal_Forming.md): Creates a forming tool.
 
 ## Brief description 
 
@@ -91,7 +87,7 @@ This section is meant to give a rough idea of how to use the supplied tools. Mor
 
 Some parameters will be inherited from the parent object(s) but it is better to check the relevant parameters at each stage.
 
-The resulting sheet metal object should now be checked if it can be unfolded. (see [Unfold\...](#Unfold_a_sheet_metal_object.md) below)
+It should now be checked if the resulting sheet metal object can be unfolded. (see [Unfold\...](#Unfold_a_sheet_metal_object.md) below).
 
 #### Adding more features 
 
@@ -104,7 +100,7 @@ The unfoldable basic sheet metal objects can be extended:
 5.  Use the <img alt="" src=images/SheetMetal_SketchOnSheet.svg  style="width:16px;"> [Sketch on Sheet metal](SheetMetal_SketchOnSheet.md) command to cut holes into the object starting on a chosen wall and then following the adjoined walls and connections.
 6.  The <img alt="" src=images/SheetMetal_Forming.svg  style="width:16px;"> [Make Forming in Wall](SheetMetal_Forming.md) command will stamp a shape into a wall.
 
-Several tools of other workbenches could be used to add holes or to reshape edges.
+Several tools from other workbenches can be used to add holes or to reshape edges.
 
 ### Unfold a sheet metal object 
 
@@ -114,9 +110,9 @@ The result will be a 3D object with an optional outline sketch including bend li
 
 ### Examples
 
-Until tutorial pages are available on this wiki here\'s an [Examples](SheetMetal_Examples.md) page.
+Until tutorial pages are available on this wiki there is an [Examples](SheetMetal_Examples.md) page.
 
-<img alt="" src=images/SheetMetal_Example-01.png  style="width:100px;"> <img alt="" src=images/SheetMetal_Example-02.png  style="width:100px;"> <img alt="" src=images/SheetMetal_Example-03.png  style="width:100px;"> <img alt="" src=images/SheetMetal_Example-04.png  style="width:100px;"> <img alt="" src=images/SheetMetal_Example-05.png  style="width:100px;">
+ <img alt="" src=images/SheetMetal_Example-01.png  style="width:100px;"> <img alt="" src=images/SheetMetal_Example-02.png  style="width:100px;"> <img alt="" src=images/SheetMetal_Example-03.png  style="width:100px;"> <img alt="" src=images/SheetMetal_Example-04.png  style="width:100px;"> <img alt="" src=images/SheetMetal_Example-05.png  style="width:100px;"> 
 
 ## Limitations
 
@@ -255,10 +251,9 @@ How to do ?
 ## Links
 
 -   [Macro Sheet Metal Unfolder](Macro_Sheet_Metal_Unfolder.md), the original macro the Unfold tool is based on.
--   [Sheet Metal Workbench](https://forum.freecadweb.org/viewtopic.php?t=11303) announcement on the FreeCAD Forum
--   [An English and French tutorial in PDF format](https://forum.freecadweb.org/viewtopic.php?f=3&t=25002) on the FreeCAD forum
--   Files:
--   Reporting bugs/Request feartures: <https://github.com/shaise/FreeCAD_SheetMetal/issues>
+-   [Sheet Metal Workbench](https://forum.freecadweb.org/viewtopic.php?t=11303) announcement on the FreeCAD Forum.
+-   [An English and French tutorial in PDF format](https://forum.freecadweb.org/viewtopic.php?f=3&t=25002) on the FreeCAD forum.
+-   Report bugs/Request features: <https://github.com/shaise/FreeCAD_SheetMetal/issues>.
 
 ## References
 
@@ -268,14 +263,6 @@ How to do ?
 -   License: [GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html)
 -   Official blog: [Sheet metal Addon for FreeCAD](http://theseger.com/projects/2015/06/sheet-metal-addon-for-freecad/)
 -   Source code on github: <https://github.com/shaise/FreeCAD_SheetMetal>
-
-## External workbenches 
-
-FreeCAD workbenches are easy to program in [Python](Python.md), there are therefore many people developing additional workbenches outside of the FreeCAD main developers.
-
-The [external workbenches](external_workbenches.md) page has some information and tutorials on some of them, and the [FreeCAD Addons](https://github.com/FreeCAD/FreeCAD-addons) project aims at gathering them and making them easily installable from within FreeCAD.
-
-New workbenches are in development, stay tuned!
 
 
 

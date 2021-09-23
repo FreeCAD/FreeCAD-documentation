@@ -1,7 +1,6 @@
 # Crowdin Administration/de
 
 
-
 ## Rollen
 
 -   Übersetzer

@@ -1,6 +1,8 @@
 # Macro HiddenAlls/en
 
- {{Macro
+
+
+{{Macro
 |Name=Macro HiddenAlls
 |Icon=Macro_HiddenAlls.png
 |Description=This macro hidden all objects in the document (Visibility False).
@@ -23,7 +25,7 @@ ToolBar Icon <img alt="" src=images/Macro_HiddenAlls.png  style="width:64px;">
 **Macro\_HidenAlls.FCMacro**
 
 
-{{MacroCode|code=
+```python
 import FreeCAD
 #Macro_HideAllObjects
 __title__="Macro_HideAlls"
@@ -38,7 +40,7 @@ try:
         FreeCADGui.ActiveDocument.getObject(ShapeNameObj.Name).Visibility = False
 except Exception:
     None
-}}
+```
 
 
 

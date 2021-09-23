@@ -4,8 +4,10 @@
 
 
 
-
 <img alt="Ikonka FreeCAD dla Środowiska pracy Szkicownik " src=images/Workbench_Sketcher.svg  style="width:128px;">
+
+
+{{TOCright}}
 
 ## Wprowadzenie
 
@@ -13,12 +15,7 @@ FreeCAD <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Śr
 
 Środowisko pracy Szkicownik posiada **wiązania**, dzięki czemu kształty 2D mogą podążać za precyzyjnymi definicjami geometrycznymi pod względem długości, kątów i relacji *(poziomość, pionowość, prostopadłość itp.)*. Narzędzie do tworzenia wiązań oblicza wymagany zakres geometrii 2D i umożliwia przeprowadzenie interaktywnej eksploracji stopni swobody szkicu.
 
-
-{{TOCright}}
-
-<img alt="" src=images/FC_ConstrainedSketch.png  style="width:450px;">
-
-
+<img alt="" src=images/FC_ConstrainedSketch.png  style="width:450px;"> 
 *W pełni związany szkic.*
 
 ## Podstawy szkicowania z wiązaniami 
@@ -35,7 +32,7 @@ Tradycyjna metoda rysowania CAD pochodzi od dawnej [deski kreślarskiej](http://
 
 #### Czym są wiązania 
 
-Zamiast wymiarów, wiązania są stosowane w celu ograniczenia stopnia swobody obiektu. Na przykład, linia bez wiązań ma 4 [stopnie swobody](#Degrees_Of_Freedom.md) *(w skrócie \"DOF\")*: można ją przesuwać w poziomie lub w pionie, można ją rozciągać i obracać.
+Zamiast wymiarów, wiązania są stosowane w celu ograniczenia stopnia swobody obiektu. Na przykład, linia bez wiązań ma 4 [stopnie swobody](#Degrees_Of_Freedom/pl.md) *(w skrócie \"DOF\")*: można ją przesuwać w poziomie lub w pionie, można ją rozciągać i obracać.
 
 Wykorzystanie wiązania poziomego lub pionowego, lub wiązania kąta *(względem innej linii lub jednej z osi)*, ograniczy jej zdolność do obracania pozostawiając ją z 3 stopniami swobody. Zablokowanie jednego z punktów w relacji do układu współrzędnych usunie kolejne dwa stopnie. W końcu zastosowanie wiązania wymiaru usunie ostatni stopień swobody. Linia jest w wtedy uznawana za **w pełni ograniczoną więzami**.
 

@@ -1,7 +1,6 @@
 # Interface creation/pl
 
 
-
 ## Introduction
 
 Power users have the possibility of [creating interfaces](Interface_creation.md) to help them produce complex tools for their custom [addons](Addon.md), such as [macros](Macros.md) or full [workbenches](Workbenches.md).

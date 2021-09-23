@@ -1,6 +1,5 @@
 # Macro FCGear/en
-
- {{VeryImportantMessage|This Macro has been converted in to a workbench called [[FCGear Workbench]]. Please use the workbench instead of this macro as it is actively maintained.}}
+ **This Macro has been converted in to a workbench called [[FCGear Workbench]]. Please use the workbench instead of this macro as it is actively maintained.**
 
 
 {{Macro

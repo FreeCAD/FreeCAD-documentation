@@ -45,4 +45,4 @@ Zeigt oder blendet die Anzeige des Grades einer B-Spline-Kurve ein oder aus (sie
 
 {{Sketcher Tools navi
 
-}}  
+}} 

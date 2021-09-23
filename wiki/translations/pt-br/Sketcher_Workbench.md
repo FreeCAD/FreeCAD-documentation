@@ -4,8 +4,10 @@
 
 
 
-
 <img alt="Ícone da Sketcher workbench" src=images/Workbench_Sketcher.svg  style="width:128px;">
+
+
+{{TOCright}}
 
 ## Introdução
 
@@ -13,12 +15,7 @@ A bancada de trabalho <img alt="" src=images/Workbench_Sketcher.svg  style="widt
 
 A bancada do Sketcher apresenta restrições (\"constraints\"), permitindo que formas 2D sigam definições geométricas precisas em termos de comprimento, ângulos e relações (horizontalidade, verticalidade, perpendicularidade, etc.). Um solucionador de restrições calcula a extensão do efeito das restrições sobre a geometria 2D e permite a exploração interativa dos graus de liberdade do esboço.
 
-
-{{TOCright}}
-
-<img alt="" src=images/FC_ConstrainedSketch.png  style="width:450px;">
-
-
+<img alt="" src=images/FC_ConstrainedSketch.png  style="width:450px;"> 
 *''Um esboço básico totalmente restrito''*
 
 ## Basics of constraint sketching 

@@ -1,5 +1,4 @@
 # Inkscape
-
 Inkscape is a free and open-source vector graphics editor used to create vector images, primarily in Scalable Vector Graphics (SVG) format. Other formats can be imported and exported ([wikipedia](https://en.wikipedia.org/wiki/Inkscape)).
 
 Website: <https://inkscape.org/>

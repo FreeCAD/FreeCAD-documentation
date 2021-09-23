@@ -1,6 +1,5 @@
 # Key ASCII/it
-
- {{VeryImportantMessage|Pagina da finire}}
+ **Pagina da finire**
 
 <img alt="" src=images/Ascii_000.svg  style="width:24px;"> : type 
 **Alt** + **0**

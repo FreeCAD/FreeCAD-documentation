@@ -4,7 +4,6 @@
 
 
 
-
 <img alt="El icono del Ambiente de trabajo Puntos" src=images/Workbench_Points.svg  style="width:128px;">
 
 ## Introducción

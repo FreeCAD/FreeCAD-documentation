@@ -4,7 +4,6 @@
 
 
 
-
 <img alt="Oberfläche Arbeitsbereichssymbol" src=images/Workbench_Surface.svg  style="width:128px;">
 
 

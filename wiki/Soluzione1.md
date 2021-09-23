@@ -1,7 +1,6 @@
 # Soluzione1
 
-
-{{VeryImportantMessage|pagina in costruzione}}
+**pagina in costruzione**
 
 # Costruzione di contorno non vincolato 
 

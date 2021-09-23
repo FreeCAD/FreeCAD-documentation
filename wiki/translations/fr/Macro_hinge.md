@@ -1,5 +1,4 @@
 # Macro hinge/fr
-
  {{Macro/fr
 |Name=Hinge Simul
 |Description=Simulation de mouvement d'une charnière.

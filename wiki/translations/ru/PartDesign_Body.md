@@ -5,11 +5,8 @@
    MenuLocation:Part Design → Создать тело
    Workbenches:[PartDesign](PartDesign_Workbench/ru.md)
    Version:0.17
-   SeeAlso:[Создать деталь](Std_Part/ru.md), [Feature editing](Feature_editing/ru.md)
+   SeeAlso:[Создать деталь](Std_Part/ru.md), [Особенности редактирования](Feature_editing/ru.md)
 ---
-
-
-</div>
 
 ## Описание
 
@@ -248,12 +245,12 @@ A [PartDesign Body](PartDesign_Body.md) is formally an instance of the class `Pa
 
 *Simplified diagram of the relationships between the core objects in the program. The `PartDesign::Body* object is intended to build parametric 3D solids, and thus is derived from the basic {{incode|Part::Feature` object, and has an Origin to control the placement of the features used inside of it.}}
 
-## Скрипты
+## Программирование
 
 
-**See also:**
+**См. так же:**
 
-[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md), and [scripted objects](scripted_objects.md).
+[Основы составления скриптов FreeCAD](FreeCAD_Scripting_Basics/ru.md), и [создание объектов через скрипт](scripted_objects/ru.md).
 
 See [Part Feature](Part_Feature.md) for the general information on adding objects to the document
 

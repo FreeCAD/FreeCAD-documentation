@@ -1,5 +1,4 @@
 # App DocumentObject/fr
-
  {{TOCright}}
 
 ## Introduction

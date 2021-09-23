@@ -1,5 +1,4 @@
 # 3Dconnexion input devices
-
  <img alt="3Dconnexion SpaceNavigator" src=images/SpaceNavigator.jpg  style="width:200px;"> 
 
 ## Driver installation 

@@ -5,7 +5,6 @@
 
 
 
-
 {{TOCright}}
 
 O controle do cubo de navegação, ou *\'cubo de navegação*, é uma ajuda gráfica de interface com o usuário para reorientar a visualização 3D. Por padrão, ele é visível e reside no canto superior direito da tela 3D. Se você estiver olhando para a vista 3D padrão, ela se parece com o seguinte:

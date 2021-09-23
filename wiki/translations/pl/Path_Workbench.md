@@ -4,7 +4,6 @@
 
 
 
-
 <img alt="Path workbench icon" src=images/Workbench_Path.svg  style="width:128px;">
 
 

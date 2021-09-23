@@ -1,7 +1,6 @@
 # Misc templates/en
 
 
-
 This page lists some mixed templates.
 All models are in SVG format directly downloadable and usable with or without modification.
 All the templates and cartridges are equipped with editable texts in FreeCAD.

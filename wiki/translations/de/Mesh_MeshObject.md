@@ -1,7 +1,6 @@
 # Mesh MeshObject/de
 
 
-
 ## Beschreibung
 
 Ein [Polygonnetz PolygonnetzObjekt](Mesh_MeshObject/de.md), oder formal ein `Mesh::MeshObject`, ist eine Klasse, die eine Polygonnetz Datenstruktur in der Software definiert. Dies ist ähnlich wie [Part TopoForm](Part_TopoShape/de.md), aber für [Polygonnetze](Mesh/de.md).

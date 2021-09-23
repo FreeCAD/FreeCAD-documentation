@@ -1,5 +1,4 @@
 # Manual:Import and export to other filetypes/zh-cn
-
  
 
 
@@ -42,6 +41,9 @@ FreeCAD 可以导入和导出多种类型的文件。下表列出了最重要的
 
 **延伸阅读**
 
+
+<div class="mw-translate-fuzzy">
+
 -   [FreeCAD 支持的所有文件格式](Import_Export.md)
 -   [在 FreeCAD 中使用 DXF 文件](Draft_DXF.md)
 -   [启用支持 DXF 和 DWG 格式](Dxf_Importer_Install.md)
@@ -51,6 +53,9 @@ FreeCAD 可以导入和导出多种类型的文件。下表列出了最重要的
 -   [Teigha 文件转换器](https://www.opendesign.com/guestfiles)
 -   [IFC格式](http://www.buildingsmart-tech.org/ifc/IFC4/final/html/index.htm)
 -   [IfcOpenShell](http://ifcopenshell.org/)
+
+
+</div>
 
 
 

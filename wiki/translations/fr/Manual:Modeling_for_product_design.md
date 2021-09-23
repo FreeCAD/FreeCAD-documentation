@@ -1,5 +1,4 @@
 # Manual:Modeling for product design/fr
-
  
 
 

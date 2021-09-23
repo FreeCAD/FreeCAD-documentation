@@ -2,7 +2,6 @@
 
 
 
-
 {{TOCright}}
 
 ## Introducción
@@ -227,7 +226,7 @@ Since then some success has been achieved patching and linking newer versions of
 ## Instalación en MacOSX 
 
 
-{{VeryImportantMessage|This information may be out of date. If you are an OSX user, please test and clean up this section}}
+**This information may be out of date. If you are an OSX user, please test and clean up this section**
 
 The OSX [development packages](https://github.com/FreeCAD/FreeCAD/releases) of FreeCAD may include Netgen but may not include CalculiX.
 

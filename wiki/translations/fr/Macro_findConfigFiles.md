@@ -1,5 +1,4 @@
 # Macro findConfigFiles/fr
-
  {{Macro/fr
 |Name=findConfigFiles
 |Name/fr=findConfigFiles

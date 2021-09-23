@@ -15,50 +15,44 @@ La commande <img alt="" src=images/SheetMetal_AddCornerRelief.svg  style="width:
 
 ## Propriétés
 
-See also: [Property editor](Property_editor.md).
+Voir aussi : [Éditeur de propriétés](Property_editor/fr.md)
 
-A SheetMetal CornerRelief object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties and its label has a default value:
+Un objet SheetMetal Grugeage rond du coin est dérivé d\'un objet [Part Feature](Part_Feature/fr.md) et hérite de toutes ses propriétés. Il possède également les propriétés supplémentaires suivantes :
 
-### Data
+### Données
 
 
 {{Properties_Title|Base}}
 
--    **Label|String**: Default value: The user editable name of this object, it may be any arbitrary UTF8 string.
+-    {{PropertyData/fr|Label|String}}: Valeur par défaut : Le nom modifiable par l\'utilisateur de cet objet, il peut être toute chaîne UTF8 arbitraire.
 
--    **Base Feature|Link|hidden**: Base Feature. Link to the parent feature.
+-    {{PropertyData/fr|Base Feature|Link|hidden}}: Fonctionnalité de base. Lien vers la caractéristique parent.
 
--    **_Body|LinkHidden|hidden**: Hidden link to the parent body.
+-    {{PropertyData/fr|_Body|LinkHidden|hidden}}: Lien caché vers le corps du parent.
 
 
 {{Properties_Title|Parameters}}
 
--    **ReliefSketch|Enumeration**: \"Corner Relief Type\". {{value|Circle}} (default), {{value|Circle-Scaled}}, {{value|Square}}, {{value|Square-Scaled}}, {{value|Sketch}}.
+-    {{PropertyData/fr|ReliefSketch|Enumeration}}: \"Type de relief d\'angle\". {{value|Circle}} (par défaut), {{value|Circle-Scaled}}, {{value|Square}}, {{value|Square-Scaled}}, {{value|Sketch}}.
 
--    **Size|Length**: \"Size of Shape\". Default: {{value|3,00 mm}}.
+-    {{PropertyData/fr|Size|Length}}: \"Taille de la forme\". Valeur par défaut : {{value|3,00 mm}}.
 
--    **Size Ratio|Float**: \"Size Ratio of Shape\". Default: {{value|1,50}}.
+-    {{PropertyData/fr|Size Ratio|Float}}: \"Rapport de taille de la forme\". Valeur par défaut : {{value|1,50}}.
 
--    **base Object|LinkSub**: \"Base Object\". Links to the pair of edges defining the Corner Relief position.
+-    {{PropertyData/fr|base Object|LinkSub}}: \"Objet de base\". Liens vers la paire d\'arêtes définissant la position du Corner Relief.
 
--    **kfactor|FloatConstraint**: \"Neutral Axis Position\". Default: {{value|0,50}}.
+-    {{PropertyData/fr|kfactor|FloatConstraint}}: \"Position de l\'axe neutre\". Valeur par défaut : {{value|0,50}}.
 
 
 {{Properties_Title|Parameters1}}
 
--    **Sketch|Link**: \"Corner Relief Sketch\".
+-    {{PropertyData/fr|Sketch|Link}}: \"Esquisse du relief de l\'angle\".
 
--    **XOffset|Distance**: \"Gap from side one\". Default: {{value|0,00 mm}}.
+-    {{PropertyData/fr|XOffset|Distance}}: \"Ecart par rapport au premier côté\". Valeur par défaut : {{value|0,00 mm}}.
 
--    **YOffset|Distance**: \"Gap from side two\". Default: {{value|0,00 mm}}.
-
-
-<div class="mw-translate-fuzzy">
+-    {{PropertyData/fr|YOffset|Distance}}: \"Ecart du côté deux\". Valeur par défaut : {{value|0,00 mm}}.
 
 
 
-
-
-</div>
 
 [Category:SheetMetal](Category:SheetMetal.md) [Category:Addons](Category:Addons.md) [Category:External Command Reference](Category:External_Command_Reference.md)

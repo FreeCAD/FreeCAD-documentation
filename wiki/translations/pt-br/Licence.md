@@ -5,7 +5,6 @@
 
 
 
-
 {{TOCright}}
 
 ## Licenças utilizadas no FreeCAD 

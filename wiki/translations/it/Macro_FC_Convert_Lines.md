@@ -1,5 +1,4 @@
 # Macro FC Convert Lines/it
-
  {{Macro/it
 |Name=Macro FC Convert Lines
 |Translate=Converti Linee

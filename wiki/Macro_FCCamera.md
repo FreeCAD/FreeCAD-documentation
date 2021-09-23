@@ -1,5 +1,4 @@
 # Macro FCCamera
-
   {{Macro
 |Name=Macro FCCamera
 |Icon=FCCamera_00.png

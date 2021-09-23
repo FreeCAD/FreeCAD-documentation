@@ -5,7 +5,6 @@
 
 
 
-
 {{Manual:TOC}}
 
 FreeCAD uses the [Qt framework](https://en.wikipedia.org/wiki/Qt_(software)) to draw and manage its interface. This framework is used in a wide range of applications, so the FreeCAD interface is very classical and presents no particular difficulty to understand. Most buttons are standard and will be found where you expect them **File → Open, Edit → Paste, etc**. Here is the look of FreeCAD when you open it for the first time, just after installing, showing you the start center:

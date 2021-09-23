@@ -1,5 +1,4 @@
 # Artwork Surface
-
   
 
 These icons are in the indicated source path.

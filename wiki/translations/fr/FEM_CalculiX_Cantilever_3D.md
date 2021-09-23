@@ -2,7 +2,6 @@
 
 
 
-
 {{TutorialInfo/fr
 |Topic=Analyse par éléments finis
 |Level=Débutant

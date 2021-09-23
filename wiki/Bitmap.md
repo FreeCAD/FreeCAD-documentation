@@ -1,5 +1,4 @@
 # Bitmap
-
  
 
 ## Description

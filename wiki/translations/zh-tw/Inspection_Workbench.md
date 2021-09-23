@@ -1,5 +1,4 @@
 # Inspection Workbench/zh-tw
-
  
 
 <img alt="Inspection workbench icon" src=images/Workbench_Inspection.svg  style="width:128px;">

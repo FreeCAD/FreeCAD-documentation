@@ -1,7 +1,6 @@
 # Status bar/de
 
 
-
 ## Einleitung
 
 Die [Statusleiste](status_bar/de.md) ist eine einfache Multifunktionsleiste, die am unteren Rand der FreeCAD-[Schnittstelle](interface/de.md) erscheint.

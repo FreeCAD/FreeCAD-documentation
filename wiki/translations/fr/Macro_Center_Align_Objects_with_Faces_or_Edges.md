@@ -1,6 +1,5 @@
 # Macro Center Align Objects with Faces or Edges/fr
-
- {{VeryImportantMessage|Cet outil est maintenant inclus dans l'atelier [Manipulator Workbench](Manipulator_Workbench/fr.md). Installez cet atelier pour bénéficier des dernières mises à ajours.}}
+ **Cet outil est maintenant inclus dans l'atelier [Manipulator Workbench](Manipulator_Workbench/fr.md). Installez cet atelier pour bénéficier des dernières mises à ajours.**
 
 
 {{Macro/fr

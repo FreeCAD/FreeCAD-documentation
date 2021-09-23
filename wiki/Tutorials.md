@@ -1,5 +1,4 @@
 # Tutorials
-
  
 
 
@@ -132,7 +131,7 @@ Export bodies from FreeCAD to Wavefront .obj, import the file into Blender, set 
 ## Robot workbench 
 
 
-{{VeryImportantMessage|Development of the [Robot Workbench](Robot_Workbench.md) is currently abandoned. Please inquire on our forum regarding any news or alternative workbenches.}}
+**Development of the [Robot Workbench](Robot_Workbench.md) is currently abandoned. Please inquire on our forum regarding any news or alternative workbenches.**
 
 
 
@@ -162,7 +161,7 @@ These are tutorials that are related to scripting or programming. They are geare
 ## Drawings
 
 
-{{VeryImportantMessage|Development of the [[Drawing Workbench]] stopped in FreeCAD 0.16. Consider using the [[TechDraw Workbench]] instead.}}
+**Development of the [[Drawing Workbench]] stopped in FreeCAD 0.16. Consider using the [[TechDraw Workbench]] instead.**
 
 
 

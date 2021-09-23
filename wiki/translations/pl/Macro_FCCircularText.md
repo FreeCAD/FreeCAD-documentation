@@ -1,5 +1,4 @@
 # Macro FCCircularText/pl
-
  {{Macro
 |Name=Macro FCCircularText
 |Icon=FCCircularTextButtom.png

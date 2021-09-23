@@ -1,8 +1,7 @@
 # Image Workbench/ru
-
  
 
-<img alt="Image workbench icon" src=images/Workbench_Image.svg  style="width:128px;">
+<img alt="Логотип верстака Image" src=images/Workbench_Image.svg  style="width:128px;">
 
 ## Введение
 

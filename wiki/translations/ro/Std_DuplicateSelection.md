@@ -63,22 +63,10 @@ După această operație, duplicatele nu se deosebesc de originale deoarece sunt
 
 -   Duplicate labels are allowed if **Tools → Edit parameters... → BaseApp → Preferences → Document → DuplicateLabels** is set to `True`. This setting can also be changed in the [Preferences Editor](Preferences_Editor#Document.md).
 
-## Scripting
-
-The **Std DuplicateSelection** command can be applied after selecting one or more objects in the [Tree view](Tree_view.md):
-
-
-```python
-FreeCADGui.runCommand('Std_DuplicateSelection')
-```
-
-The selection can be manual (by using the mouse), or via the [Python console](Python_console.md).
-To know more about selecting objects programmatically, refer to [Selection methods](Selection_methods.md).
-
 
 
 
 
 {{Std Base navi
 
-}}  
+}} 

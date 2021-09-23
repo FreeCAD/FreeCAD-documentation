@@ -1,7 +1,6 @@
 # Contributors hub/it
 
 
-
 ## Introduzione
 
 Se volete contribuire a FreeCAD e utilizzare la vostra energia per far avanzare questo progetto, ci sono molti modi per dare un aiuto. Di seguito sono indicati diversi ruoli a cui è possibile partecipare.

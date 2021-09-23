@@ -2,7 +2,6 @@
 
 
 
-
 <div class="mw-translate-fuzzy">
 
 Vectorii sunt utilizați peste tot în FreeCAD.

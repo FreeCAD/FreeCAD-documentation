@@ -15,7 +15,15 @@
 
 El *Tubo Aditivo* crea un sólido en el Cuerpo activo barriendo uno o más bosquejos (también conocidos como secciones transversales) a lo largo de un camino abierto o cerrado. Si el Cuerpo ya contiene características, la tubería aditiva se fusionará con ellas.
 
-![](images/PartDesign_AdditivePipe_example.svg ) \"A la izquierda: secciones transversales (A) y (B) para ser barridas a lo largo del camino (C); Tubo Aditivo resultante a la derecha.
+![](images/PartDesign_AdditivePipe_example.svg )
+
+
+<div class="mw-translate-fuzzy">
+
+\"A la izquierda: secciones transversales (A) y (B) para ser barridas a lo largo del camino (C); Tubo Aditivo resultante a la derecha.
+
+
+</div>
 
 ## Utilización
 

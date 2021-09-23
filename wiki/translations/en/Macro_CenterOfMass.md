@@ -2,7 +2,6 @@
 
 
 
-
 {{Macro
 |Name=Macro CenterOfMass
 |Description=Gives the Center of mass multiple of multiple objects selected.

@@ -1,10 +1,11 @@
 ---
-- GuiCommand:
-   Name:Std Part
+- GuiCommand:/ru
+   Name/ru:Создать деталь
+   Name:Std_Part
    MenuLocation:None
-   Workbenches:All
+   Workbenches:Все
    Version:0.17
-   SeeAlso:[Std Group](Std_Group.md), [PartDesign Body](PartDesign_Body.md)
+   SeeAlso:[Создать группу](Std_Group/ru.md), [Создать тело](PartDesign_Body/ru.md)
 ---
 
 ## Описание
@@ -38,13 +39,13 @@ The **<img src=images/Std_Part.svg style="width:16px"> <img src=images/Std_Group
 -   As of v0.19, a given object can only belong to a single Part.
 -   Double-click the Part in the [tree view](tree_view.md) or open the context menu (right-click) and select **Toggle active part** to activate or deactivate the Part. If another Part is active, it will be deactivated. See [active status](Std_Part#Active_status.md) for more information.
 
-### Limitations
+### Ограничения
 
 -   At this time, [Draft Snap](Draft_Snap.md) methods do not work on selected Part containers nor on the objects inside of them.
 -   A Part has no [topological shape](Part_TopoShape.md), therefore 3D operations like [Part Boolean](Part_Boolean.md) cannot be used on a Part itself. For example, you cannot select two Parts, and perform a [Part Fuse](Part_Fuse.md) or [Part Cut](Part_Cut.md) with them.
     -   These boolean operations only work on the contained objects as long as these are derived from [Part Feature](Part_Feature.md) and have a [topological shape](Part_TopoShape.md).
 
-## Properties
+## Свойства
 
 A [Std Part](Std_Part.md) is internally called [App Part](App_Part.md) (`App::Part` class), and is derived from an [App GeoFeature](App_GeoFeature.md) (`App::GeoFeature` class), therefore it shares most of the latter\'s properties.
 
@@ -265,13 +266,7 @@ App.ActiveDocument.addObject('Part::FeaturePython', 'Group', group.MyGroup(), gr
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Std Base navi

@@ -5,7 +5,6 @@
 
 
 
-
 {{Manual:TOC/fr}}
 
 FreeCAD utilise la licence [LGPL](https://fr.wikipedia.org/wiki/Licence_publique_g%C3%A9n%C3%A9rale_limit%C3%A9e_GNU), ce qui vous permet de télécharger, installer, redistribuer et utiliser FreeCAD comme vous le souhaitez, quel que soit le type de travail que vous allez faire avec (commercial ou non commercial). Vous n\'êtes lié à aucune clause ou restriction, et les fichiers que vous produirez avec sont entièrement à vous. La seule chose que la licence interdit, en réalité, est de prétendre que vous avez programmé FreeCAD vous-même !
@@ -94,6 +93,7 @@ Si vous utilisez Ubuntu, certains des greffons cités au-dessus sont disponibles
 -   [Compilez FreeCAD vous-même](Compiling/fr.md)
 -   [Traductions FreeCAD](https://crowdin.com/project/freecad)
 -   [Page du github FreeCAD](https://github.com/FreeCAD)
+-   [Gestionnaire d\'Addons de Freecad](Std_AddonMgr/fr.md)
 
 
 

@@ -2,8 +2,7 @@
 
 
 
-
-{{VeryImportantMessage|L'ambiente [Drawing](Drawing_Workbench/it.md) è diventato obsoleto nella versione 0.17. Al suo posto utilizzare [TechDraw](TechDraw_Workbench/it.md).}}
+**L'ambiente [Drawing](Drawing_Workbench/it.md) è diventato obsoleto nella versione 0.17. Al suo posto utilizzare [TechDraw](TechDraw_Workbench/it.md).**
 
 
 <div class="mw-translate-fuzzy">

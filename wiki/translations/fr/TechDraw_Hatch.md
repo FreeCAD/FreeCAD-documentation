@@ -25,7 +25,7 @@ L\'outil Hachures remplit une région fermée dans une vue avec un motif de hach
 
 ## Notes
 
--   Les objets hachurés sont vulnérables aux problèmes de [nommage topologique](Topological_naming_problem/fr.md). Consultez les informations de l\'outil [TechDraw Longueur](TechDraw_Dimension_Length/fr.md) pour plus d\'informations. Il est recommandé que le hachurage soit l'une des dernières étapes de votre processus de dessin.
+-   Les objets hachurés sont vulnérables au \"[problème de nommage topologique](Topological_naming_problem/fr.md)\". Voir [TechDraw Cote de longueur](TechDraw_LengthDimension/fr.md) pour plus d\'informations. Il est recommandé que le hachurage soit l\'une des dernières étapes de votre processus de dessin.
 -   Des exemples de modèles [SVG](SVG/fr.md) sont disponibles localement dans:
 
 

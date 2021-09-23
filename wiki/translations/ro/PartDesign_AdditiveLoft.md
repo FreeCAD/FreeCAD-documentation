@@ -15,7 +15,15 @@
 
 **Additive Loft** creează un solid (printr-o extrudarea gen suprafață riglată) în corpul activ (Body) prin realizarea unei tranziții între două sau mai multe polilinii închise sau deschise (denumite și schițe sau secțiuni transversale) Dacă corpul conține deja funcții , Additiv Loft va fi lipit de ele.
 
-![](images/PartDesign_AddLoft_example.png ) *În partea dreaptă: cross-sections (A), (B) and (C); Additive loft creat în partea dreaptă.*
+![](images/PartDesign_AddLoft_example.png )
+
+
+<div class="mw-translate-fuzzy">
+
+*În partea dreaptă: cross-sections (A), (B) and (C); Additive loft creat în partea dreaptă.*
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

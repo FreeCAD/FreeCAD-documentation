@@ -5,7 +5,6 @@
 
 
 
-
 {{TOCright}}
 
 ![](images/Screenshot_treeview.jpg ) O documento FreeCAD contém todos os objectos da sua cena. Ele pode conter grupos e objectos feitos com qualquer bancada. Portanto, você pode alternar entre bancadas de trabalho, e ainda trabalhar no mesmo documento. O documento é o que fica guardado no disco quando você salvar seu trabalho. Você também pode abrir vários documentos ao mesmo tempo em FreeCAD e abra várias vistas do mesmo documento.

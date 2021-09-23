@@ -1,7 +1,6 @@
 # Profiling/it
 
 
-
 ## Descrizione
 
 La profilazione del codice di FreeCAD aiuta a trovare i colli di bottiglia negli algoritmi utilizzati per creare o manipolare oggetti.

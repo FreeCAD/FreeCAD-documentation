@@ -2,8 +2,7 @@
 
 
 
-
-{{VeryImportantMessage|Il s'agit d'un billet qui doit être développé.}}
+**Il s'agit d'un billet qui doit être développé.**
 
 ## Multithreading dans FreeCAD 
 

@@ -22,41 +22,37 @@ L\'outil crée une feuille à partir d\'une esquisse :
 
 ## Propriétés
 
-See also: [Property editor](Property_editor.md).
+Voir aussi: [Éditeur de propriétés](Property_editor/fr.md)
 
-A SheetMetal BaseBend object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
+Un objet SheetMetal Tôle de base est dérivé d\'un objet [Part Feature](Part_Feature/fr.md) et hérite de toutes ses propriétés. Il possède également les propriétés supplémentaires suivantes :
 
-### Data
+### Données
 
 
 {{Properties_Title|Base}}
 
--    **Label|String**: Default value: The user editable name of this object, it may be any arbitrary UTF8 string.
+-    {{PropertyData/fr|Label|String}}: Valeur par défaut : Le nom modifiable par l\'utilisateur de cet objet, il peut être toute chaîne UTF8 arbitraire.
 
--    **Base Feature|Link|hidden**: Base Feature. Link to the parent feature.
+-    {{PropertyData/fr|Base Feature|Link|hidden}}: Fonctionnalité de base. Lien vers la caractéristique parent.
 
--    **_Body|LinkHidden|hidden**: Hidden link to the parent body.
+-    {{PropertyData/fr|_Body|LinkHidden|hidden}}: Lien caché vers le corps du parent.
 
 
 {{Properties_Title|Parameters}}
 
+-    {{PropertyData/fr|Bend Side|Enumeration}}: \"Relief Type\". {{value|Outside}} (par défaut), {{value|Inside}}, {{value|Middle}}.
 
-<div class="mw-translate-fuzzy">
+-    {{PropertyData/fr|Bend Sketch|Link}}: \"Objet Esquisse de mur\". Lien vers l\'esquisse de profil/de contour.
 
--    {{PropertyData/fr|bend side}}: Côté du pliage. Extérieur, Intérieur, Milieu
+-    {{PropertyData/fr|Mid Plane|Bool}}: \"Extruder symétriquement au plan\".   `True`, le profil s\'étend symétriquement sur les deux côtés du plan d\'esquisse.
 
--    {{PropertyData/fr|mid plane}}: Milieu du pla. Booléen
+-    {{PropertyData/fr|Reverse|Bool}}: \"Inverse la direction d\'extrusion\". Valeur par défaut : `False`.
 
--    {{PropertyData/fr|revers}}: Inverser. Booléen
+-    {{PropertyData/fr|length|Length}}: \"Longueur du mur\". Valeur par défaut : {{value|100,00 mm}}.
 
--    {{PropertyData/fr|length}}: Longueur. Longueur du solide
+-    {{PropertyData/fr|radius|Length}}: \"Rayon de courbure\". Valeur par défaut : {{value|1,00 mm}}.
 
--    {{PropertyData/fr|radius}}: Rayon de la courbure.
-
--    {{PropertyData/fr|thickness}}: Epaisseur du matériau.
-
-
-</div>
+-    {{PropertyData/fr|thickness|Length}}: \"Epaisseur de la tôle\". Valeur par défaut : {{value|1,00 mm}}.
 
 
 

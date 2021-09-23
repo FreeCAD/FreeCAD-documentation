@@ -1,6 +1,5 @@
 # Key ASCII
-
-  {{VeryImportantMessage|Not finished page}}
+  **Not finished page**
 
 <img alt="" src=images/Ascii_000.svg  style="width:24px;"> : type 
 **Alt** + **0**

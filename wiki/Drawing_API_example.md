@@ -1,5 +1,4 @@
 # Drawing API example
-
  
 
 ## Introduction

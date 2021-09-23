@@ -1,7 +1,6 @@
 # Part/it
 
 
-
 ## Introduzione
 
 

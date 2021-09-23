@@ -1,10 +1,11 @@
 ---
-- GuiCommand:
-   Name:PartDesign Point
-   MenuLocation:Part Design → Create a datum → Create a datum point
-   Workbenches:[PartDesign](PartDesign_Workbench.md)
+- GuiCommand:/ru
+   Name/ru:Создать опорную точку
+   Name:PartDesign_Point
+   MenuLocation:Part Design → Create a datum → Создать опорную точку
+   Workbenches:[PartDesign](PartDesign_Workbench/ru.md)
    Version:0.17
-   SeeAlso:[PartDesign Line](PartDesign_Line.md), [PartDesign Plane](PartDesign_Plane.md)
+   SeeAlso:[Создать опорную линию](PartDesign_Line/ru.md), [Создать опорную плоскость](PartDesign_Plane/ru.md)
 ---
 
 ## Описание
@@ -13,7 +14,7 @@ Creates a **datum point** which can be used as reference for sketches or other d
 
 ![](images/DatumPoint.png ) *A datum point attached to a sphere with an attachment offset of {{Value|2* in the Z direction.}}
 
-## Использование
+## Применение
 
 1.  Press the **<img src="images/PartDesign_Point.svg" width=24px> '''Create a datum point'''** button.
 2.  Define Point parameters. Select a first reference in the 3D view to filter the available attachment modes.
@@ -35,7 +36,7 @@ Double-click the DatumPoint label in the Model tree or right-click and select **
 
 -    **Label**: name given to the object, this name can be changed at convenience.
 
-## Limitations
+## Ограничения
 
 -   The datum point cannot be used as section for Pipe and Loft features.
 

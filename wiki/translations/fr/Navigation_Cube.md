@@ -5,7 +5,6 @@
 
 
 
-
 {{TOCright}}
 
 Le contrôle du cube de navigation, ou **cube de navigation**, est une aide graphique de l\'interface utilisateur permettant de réorienter la vue 3D. Par défaut, il est visible et réside dans le coin supérieur droit de l'affichage 3D. Si vous regardez la vue 3D standard, cela ressemble à ce qui suit :

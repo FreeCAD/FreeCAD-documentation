@@ -30,10 +30,7 @@ Der Quader kann auf zwei verschiedene Weisen bearbeitet werden:
 
 ## Eigenschaften
 
-
-<div class="mw-translate-fuzzy">
-
--    {{PropertyData/de|Attachment}}: Bestimmt den Befestigungsmodus und den Befestigungsversatz. Siehe [Befestigung](Part_Attachment/de.md).
+-    {{PropertyData/de|Attachment}}: Bestimmt den Befestigungsmodus und den Befestigungsversatz. Siehe [Anhang](Part_EditAttachment/de.md).
 
 -    {{PropertyData/de|Label}}: Die vom Benutzer vergebene Bezeichung für das Quader-Objekt. Dies kann nach Bedarf geändert werden.
 
@@ -42,9 +39,6 @@ Der Quader kann auf zwei verschiedene Weisen bearbeitet werden:
 -    {{PropertyData/de|Width}}: Die Länge des Quaders in der Y-Richtung.
 
 -    {{PropertyData/de|Height}}: Die Länge des Quaders in der Z-Richtung.
-
-
-</div>
 
 
 

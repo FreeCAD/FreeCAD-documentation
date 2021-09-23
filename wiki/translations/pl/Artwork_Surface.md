@@ -1,5 +1,4 @@
 # Artwork Surface/pl
-
  
 
 Ikony te znajdują się we wskazanej ścieżce źródłowej.

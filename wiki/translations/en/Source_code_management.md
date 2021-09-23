@@ -1,5 +1,4 @@
 # Source code management/en
-
  {{TOCright}}
 
 ## Introduction
@@ -177,7 +176,7 @@ git remote show upstream
 ## Git development process 
 
 
-{{VeryImportantMessage|Never develop on your local ''master'' branch. Instead, create a local branch for development, and then merge this local branch to the upstream master branch through a pull request. Please read [https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell Git Branching], [https://book.git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging Basic Branching and Merging], and [https://git-scm.com/book/en/v2/GitHub-Contributing-to-a-Project GitHub - Contributing to a project] to learn more.}}
+**Never develop on your local ''master'' branch. Instead, create a local branch for development, and then merge this local branch to the upstream master branch through a pull request. Please read [https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell Git Branching], [https://book.git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging Basic Branching and Merging], and [https://git-scm.com/book/en/v2/GitHub-Contributing-to-a-Project GitHub - Contributing to a project] to learn more.**
 
 <img alt="" src=images/FreeCAD_git_branches_workflow.svg  style="width:800px;"> *Generic workflow to develop code for FreeCAD using `git*; the main repository is forked online and cloned to an offline computer (0); new branches (1) are used to commit local changes and additions to the code (2); the branches are rebased to the latest online code (3), and then are pushed to the remote repository (4); then a pull request is created in order to merge the code into the main repository (5). Then the personal clone is updated with the new master code (a); this updated master is also pushed to the remote repository (b) in order to have the same code both online and offline.`
 
@@ -832,7 +831,7 @@ To learn more, read [Useful tricks you might not know about Git stash](https://m
 ### Blaming
 
 
-{{VeryImportantMessage|Section TBD}}
+**Section TBD**
 
 Add content from <https://forum.freecadweb.org/viewtopic.php?f=23&t=55943&p=481483#p481287>
 

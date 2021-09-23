@@ -1,5 +1,4 @@
 # Feature list/ru
-
  {{docnav/ru
 |[О FreeCAD](About_FreeCAD/ru.md)
 |[Установка в Windows](Installing_on_Windows/ru.md)

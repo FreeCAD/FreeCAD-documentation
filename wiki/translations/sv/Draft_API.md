@@ -2,7 +2,6 @@
 
 
 
-
 <div class="mw-translate-fuzzy">
 
 Dessa funktioner är en del av Skissmodulen och kan användas i skript och makron eller från pythontolken, när Skissmodulen har importerats.

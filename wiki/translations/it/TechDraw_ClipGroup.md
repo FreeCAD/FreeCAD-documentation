@@ -12,7 +12,13 @@
 
 ## Descrizione
 
+
+<div class="mw-translate-fuzzy">
+
 Questo strumento crea una finestra di ritaglio che può contenere una o più viste.
+
+
+</div>
 
 ![](images/TechDraw_Clipview.png ) *Finestra di ritaglio di diverse viste esistenti*
 

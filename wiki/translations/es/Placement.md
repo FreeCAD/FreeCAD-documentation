@@ -1,7 +1,6 @@
 # Placement/es
 
 
-
 ## Introducción
 
 **Placement o Ubicación** es el modo en que Freecad especifica la localización y la inclinación (orientación) de un objeto en el espacio. Placement puede ser especificado de múltiples formas y manipulado a través de [Código](Python_scripting_tutorial/es#Vectors_and_placements.md), del [Editor de propiedades](Property_editor/es.md) o seleccionando desde el menú **Editar → Ubicación...** para abrir el [Panel de tareas de Ubicación](Std_Placement.md).

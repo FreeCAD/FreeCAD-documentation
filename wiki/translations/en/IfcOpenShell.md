@@ -1,7 +1,6 @@
 # IfcOpenShell/en
 
 
-
 ## Description
 
 

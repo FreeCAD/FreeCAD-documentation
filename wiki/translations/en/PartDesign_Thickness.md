@@ -11,6 +11,9 @@
 
 The **Thickness** tool works on a solid Body and transforms it into a thick-walled hollow object with at least one open face, giving to each of its remaining faces a uniform thickness. On some solids it allows you to significantly speed up the work, and avoids making extrusions and pockets.
 
+<img alt="" src=images/PartDesign_Thickness_example.svg  style="width:600px;"> 
+*The thickness tool applied to a face (B) of a solid (A), resulting in the hollow object (C).*
+
 ## Usage
 
 1.  Select one or more face(s) on the active Body.
@@ -65,7 +68,7 @@ Result: ![](images/Brga-spessore.png )
 ## Known Errors 
 
 -   BRep\_API: command not done
--   BRep\_Tool:: no parameter on edge
+-   BRep\_Tool: no parameter on edge
 -   Silently Fails
 
 

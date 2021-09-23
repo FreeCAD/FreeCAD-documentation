@@ -1,5 +1,4 @@
 # Manual:Summary/de
-
 Dies ist das Inhaltsverzeichnis, das für die automatische Erstellung des **FreeCAD Handbuch**s verwendet wird.
 
 Es gibt ein weiteres Inhaltsverzeichnis für das [FreeCAD **Online Hilfe** System](Online_Help_Toc/de.md).

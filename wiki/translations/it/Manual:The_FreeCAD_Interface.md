@@ -2,13 +2,27 @@
 
 
 
+<div class="mw-translate-fuzzy">
 
 
+
+
+
+</div>
+
+
+{{Manual:TOC}}
+
+
+<div class="mw-translate-fuzzy">
 
 
 {{Manual:TOC/it}}
 
 FreeCAD utilizza il [framework Qt](https://en.wikipedia.org/wiki/Qt_(software)) per disegnare e gestire la sua interfaccia. Questa struttura viene utilizzata in una vasta gamma di applicazioni, perciò l\'interfaccia di FreeCAD è molto classica e non presenta particolari difficoltà di comprensione. La maggior parte dei pulsanti sono standard e si trovano dove ci si aspetta che siano **File → Apri, Modifica → Incolla, ecc**. Ecco l\'aspetto di FreeCAD quando lo si apre per la prima volta, subito dopo l\'installazione, e mostra il centro di partenza:
+
+
+</div>
 
 ![](images/FreeCAD-v0-18-FirstStart.png )
 
@@ -75,5 +89,11 @@ Le opzioni di personalizzazione avanzate sono disponibili dal menu {{MenuCommand
 -   [More about Python](https://www.python.org)
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 

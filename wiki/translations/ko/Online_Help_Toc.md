@@ -2,7 +2,6 @@
 
 
 
-
 <div class="mw-translate-fuzzy">
 
  이것은 FreeCAD의 \'\'온라인 도움말 \'\'시스템의 자동 구축에 사용 된 목차입니다. 이 설명서의 인쇄용 버전은 [릴리즈 페이지](https://github.com/FreeCAD/FreeCAD/releases)에서도 사용할 수 있습니다.

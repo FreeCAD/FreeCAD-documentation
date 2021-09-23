@@ -2,7 +2,6 @@
 
 
 
-
 <div class="mw-translate-fuzzy">
 
 Fiecare sistem de operare are propria pagină de compilare a FreeCAD în [Online Help Documentation](Online_Help_Toc.md).

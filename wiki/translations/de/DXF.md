@@ -1,5 +1,4 @@
 # DXF/de
-
  {{TOCright}}
 
 ## Hintergrundgeschichte

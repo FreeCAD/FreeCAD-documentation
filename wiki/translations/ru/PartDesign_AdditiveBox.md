@@ -17,7 +17,7 @@
 
 <img alt="" src=images/PartDesign_AdditiveBox_example.png  style="width:200px;">
 
-## Использование
+## Применение
 
 1.  Press the **<img src="images/PartDesign_AdditiveBox.svg" width=24px> '''Additive Box'''** button. **Note**: the Additive Box is part of an icon menu labelled *Create an additive primitive*. After launching FreeCAD, the Additive Box is the one displayed in the toolbar. If a different primitive is displayed, click on the down arrow besides the icon and select Additive Box in the menu.
 2.  Set the Primitive parameters and [Attachment](Part_EditAttachment.md).

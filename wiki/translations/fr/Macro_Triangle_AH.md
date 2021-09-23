@@ -1,5 +1,4 @@
 # Macro Triangle AH/fr
-
  {{Macro/fr
 |Name=Macro Triangle AH
 |Icon=Macro_Triangle_AH.png

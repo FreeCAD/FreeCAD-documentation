@@ -5,7 +5,6 @@
 
 
 
-
 {{Manual:TOC/es}}
 
 Uno de los principales usos de FreeCAD es producir objetos del mundo real. Estos pueden ser diseñados en FreeCAD, y luego hacerse realidad de diferentes maneras, como comunicándolos a otras personas que luego los construirán, o, cada vez más frecuentemente, enviándolos directamente a una [impresora 3D](https://en.wikipedia.org/wiki/3D_printing) o a una [fresadora CNC](https://en.wikipedia.org/wiki/Milling_%28machining%29). Este capítulo le mostrará cómo preparar sus modelos para enviarlos a estas máquinas.
@@ -82,7 +81,7 @@ Una vez que hayas instalado tanto Cura como el Ambiente de trabajo Cura, podrás
 ### Generación de G-code 
 
 
-{{VeryImportantMessage|'''Aviso:''' Esta sección fue hecha para FreeCAD 0.16. Se han hecho cambios significativos en la creación de trayectorias. Por favor, consulta la documentación del [Ambiente de trabajo trayectorias](Path_Workbench/es.md) en general o el tutorial como [caminar trayectorias](Path_Walkthrough_for_the_Impatient/es.md)!}}
+**'''Aviso:''' Esta sección fue hecha para FreeCAD 0.16. Se han hecho cambios significativos en la creación de trayectorias. Por favor, consulta la documentación del [Ambiente de trabajo trayectorias](Path_Workbench/es.md) en general o el tutorial como [caminar trayectorias](Path_Walkthrough_for_the_Impatient/es.md)!**
 
 FreeCAD también ofrece formas más avanzadas de generar G-code directamente. Esto es a menudo mucho más complicado que el uso de herramientas automáticas como vimos anteriormente, pero tiene la ventaja de permitirte controlar completamente la salida. Esto no suele ser necesario cuando se utilizan impresoras 3D, pero se vuelve muy importante cuando se trata de fresado CNC, ya que las máquinas son mucho más complejas.
 

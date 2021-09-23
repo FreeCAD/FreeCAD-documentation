@@ -1,5 +1,4 @@
 # Macro ObjectInfo/it
-
  {{Macro/it
 |Name=Macro ObjectInfo
 |Translate=Info oggetto

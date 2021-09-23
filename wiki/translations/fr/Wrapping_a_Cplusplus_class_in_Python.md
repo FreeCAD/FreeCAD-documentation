@@ -2,8 +2,7 @@
 
 
 
-
-{{VeryImportantMessage|Cet article est un article en cours. Merci d'y apporter vos connaissances!}}
+**Cet article est un article en cours. Merci d'y apporter vos connaissances!**
 
 
 {{TOCright}}

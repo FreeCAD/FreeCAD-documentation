@@ -1,7 +1,6 @@
 # Report view/de
 
 
-
 ## Einleitung
 
 Die [Berichtsansicht](Report_view/de.md) ist eine Konsole, die Textnachrichten von FreeCAD Prozessen und Werkzeugen anzeigt. Sie ist im Menü **{{StdMenu|[Ansicht](Std_View_Menu/de.md)** verfügbar. → Konsole → Berichtsansicht}}.

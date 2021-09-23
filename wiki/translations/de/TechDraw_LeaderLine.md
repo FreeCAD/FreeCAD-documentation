@@ -71,6 +71,11 @@ leaderObj.X = 5
 leaderObj.Y = 5
 ```
 
+## Notes
+
+
+<div class="mw-translate-fuzzy">
+
 ## Hinweise
 
 -   Du kannst deine FührungsLinie bearbeiten, indem du in der Baumansicht darauf doppelklickst. Ein Doppelklick in den Grafikbereich wird noch nicht unterstützt. Die FührungsLinie kann durch Drücken von \"Punkte bearbeiten\" im Bearbeitungsmodus bearbeitet werden. Um die Punktbearbeitung zu beenden: drücke \"Änderungen speichern\" oder \"Änderungen verwerfen\".
@@ -79,9 +84,12 @@ leaderObj.Y = 5
 -   Für bestehende Führungslinien kann **Auto Horizontal** auf \"False\" gesetzt werden.
 
 
+</div>
+
+
 
 
 
 {{TechDraw Tools navi
 
-}}  
+}} 

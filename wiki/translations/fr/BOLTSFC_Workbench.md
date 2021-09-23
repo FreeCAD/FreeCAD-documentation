@@ -1,5 +1,4 @@
 # BOLTSFC Workbench/fr
-
  } <img alt="L\'icône de l\'atelier externe BOLTS FreeCAD" src=images/BOLTSFC_workbench_icon.svg  style="width:128px;">
 
 ## Introduction

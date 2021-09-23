@@ -5,10 +5,6 @@
 
 
 
-
-
-
-
 <div class="mw-translate-fuzzy">
 
 El formato de datos aerodinámicos comunes es un simple tipo de archivo que contiene metadatos opcionales sobre aerodinámica en las primeras 1-2 líneas y las coordenadas de las superficies superior e inferior.

@@ -14,7 +14,13 @@
 
 ## Descripción
 
+
+<div class="mw-translate-fuzzy">
+
 El comando <img alt="" src=images/Draft_PointArray.svg  style="width:24px;"> El comando **Borrador ArregloPuntos** crea una arreglo regular a partir de un objeto seleccionado colocando copias en los puntos de un [compuesto puntos](#Compuesto_puntos.md). Utilice el comando [Borrador ArregloEnlacePunto](Draft_PointLinkArray/es.md) para crear un arreglo [Enlace](App_Link/es.md) más eficiente. Excepto por el tipo de arreglo que se crea, arreglo de enlace o matriz normal, el comando [Borrador ArregloEnlacePunto](Draft_PointLinkArray/es.md) es idéntico a este comando.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

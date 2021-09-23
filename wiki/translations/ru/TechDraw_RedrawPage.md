@@ -1,8 +1,9 @@
 ---
-- GuiCommand:
-   Name:TechDraw RedrawPage
-   MenuLocation:TechDraw → Redraw Page
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
+- GuiCommand:/ru
+   Name/ru:Перерисовать страницу
+   Name:TechDraw_RedrawPage
+   MenuLocation:TechDraw → Перерисовать страницу
+   Workbenches:[TechDraw](TechDraw_Workbench/ru.md)
    Version:0.19
 ---
 

@@ -1,7 +1,6 @@
 # App Part/fr
 
 
-
 ## Introduction
 
 <img alt="" src=images/Geofeaturegroup.svg  style="width:32px;">
@@ -30,6 +29,6 @@ Une classe [App Part](App_Part/fr.md) (classe `App::Part`) est dérivée de la c
 Voir la liste complète des propriétés dans la page [Std Part](Std_Part/fr.md).
 
 
-{{Std Base
+{{Std Base navi
 
 }} {{Document objects navi}} 

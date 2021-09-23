@@ -1,12 +1,22 @@
 # Reverse Engineering Workbench/ru
 
- 
 
-<img alt="Reverse Engineering workbench icon" src=images/Workbench_Reverse_Engineering.svg  style="width:128px;">
+
+
+
+<img alt="Логотип верстака обратной разработки" src=images/Workbench_Reverse_Engineering.svg  style="width:128px;">
+
+## Introduction
+
+
+<div class="mw-translate-fuzzy">
 
 ## Вступление
 
 <img alt="" src=images/Workbench_Reverse_Engineering.svg  style="width:24px;"> [Верстак Обратной Разработки](Reverse_Engineering_Workbench.md) предназначен для того, чпредназначен для превращения твердых тел или сетей в совместимые с FreeCAD параметрические объекты с помощью применения специфичных инструментов. Он постепенно развивается.
+
+
+</div>
 
 На данный момент пока ещё в нём нет **НИКАКОЙ** функциональности. Он используется как \"песочница\" для программистов.
 
@@ -24,6 +34,6 @@ Link to appropriate threads discussing this workbench
 
 
 
- 
+
 
 [Category:Reverse Engineering](Category:Reverse_Engineering.md) [Category:Workbenches](Category:Workbenches.md)

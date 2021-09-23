@@ -7,8 +7,6 @@
    SeeAlso:[Part FaceColors](Part_FaceColors.md)
 ---
 
-![The Display properties task dialog\|left](images/Std_SetAppearance_taskpanel.png )
-
 ## Description
 
 The **Std SetAppearance** command shows the Display properties [task panel](Task_panel.md) for selected objects.

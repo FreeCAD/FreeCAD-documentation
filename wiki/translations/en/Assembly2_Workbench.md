@@ -2,8 +2,7 @@
 
 
 
-
-{{VeryImportantMessage|The Assembly2 workbench is obsolete. Its author no longer maintains it, so it may not work with FreeCAD versions 0.17 and above. The information in this page is not maintained; it is just kept for historical purposes.}}
+**The Assembly2 workbench is obsolete. Its author no longer maintains it, so it may not work with FreeCAD versions 0.17 and above. The information in this page is not maintained; it is just kept for historical purposes.**
 
 
 {{Message|For an alternative, see [A2plus](A2plus_Workbench.md). This workbench is a fork of Assembly2, but it is not compatible with it. If you have older models that you need to open, you should stay with FreeCAD 0.16 and Assembly2. Newer models should be created entirely and opened with A2plus.<br/>

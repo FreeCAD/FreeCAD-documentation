@@ -2,7 +2,6 @@
 
 
 
-
 <div class="mw-translate-fuzzy">
 
 
@@ -22,15 +21,9 @@
 
 </div>
 
-
-<div class="mw-translate-fuzzy">
-
 ## Beschreibung
 
 Mit diesem kleinen Makro können Sie aus einem Bitmap-Bild mit 256 Graustufen sehr einfach ein 3D-Projekt erstellen.
-
-
-</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -40,21 +33,9 @@ Ich hoffe, dass dieses Makro die Denkweise von CAD und CNC jedes Bild revolution
 
 </div>
 
-
-<div class="mw-translate-fuzzy">
-
 Alles wird möglich, unabhängig von der Komplexität des Bildes!
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Das Makro <img alt="FCCreaLoft" src=images/FCCreaLoft.png  style="width:32px;"> [Macro Loft](Macro_Loft/de.md) zum Automatisieren des Multi Loft
-
-
-</div>
+Das Makro <img alt="FCCreaLoft" src=images/FCCreaLoft.png  style="width:32px;"> [Macro Loft](Macro_Loft/de.md) wird zum Automatisieren der Multi Loft-Operation benutzt.
 
 
 {{Codeextralink|https://gist.githubusercontent.com/mario52a/262317bc7d8555885b0e/raw/3ec2ab127d8ad01a6b657aa5df9a6127ff07c7c0/Macro%2520FCTexture.FCMacro}}
@@ -62,15 +43,9 @@ Das Makro <img alt="FCCreaLoft" src=images/FCCreaLoft.png  style="width:32px;"> 
 <img alt="" src=images/Texture_004_Honda.png  style="width:480px;"> 
 *Texture 004 Honda*
 
+## Anwendung
 
-<div class="mw-translate-fuzzy">
-
-## Verwenden Sie 
-
-Dieses Makro benötigt ein Bild mit 256 Graustufen (0-255), bevor Sie das Makro verwenden, konvertieren Sie Ihr Bild in Graustufen (Schwarzweiß), Lowe. Die Anzahl der Farben wird automatisch erkannt, wenn das Bild mehr als 256 Farben enthält, wird erwartet, dass eine andere Funktion erwartet wird. Jede Farbe (Graustufe) wird als tiefes, weißes (255) als hoch und schwarz (0) als niedrigster Pegel (tief) angesehen.
-
-
-</div>
+Dieses Makro benötigt ein Bild mit 256 Graustufen (0-255), daher konvertieren Sie Ihr Bild vor dem Verwenden des Makros in Graustufen (Schwarzweiß). Bei der Ausführung des Makros wird die Anzahl der Farben automatisch erkannt. Hinweis: Falls das Bild mehr als 256 Farben enthält, wird eine andere Funktion erwartet (in Arbeit). Jede Farbe (Graustufe) wird als tiefes, weißes (255) als hoch und schwarz (0) als niedrigster Pegel (tief) angesehen.
 
 Die Konfiguration erfolgt vor dem Öffnen der Datei. Die Standardwerte sind die Einstellungen, um die Dimensionen eines Projekts zu ermitteln:
 
@@ -80,13 +55,7 @@ Die Konfiguration erfolgt vor dem Öffnen der Datei. Die Standardwerte sind die 
 
 Die Bilddatei wird wie ein Scanner x1 x2 x3 \... in 1-mm-Schritten in FreeCAD ähnlich dem Wert y von jeweils 1 mm aufgefächert. Der Wert von z ergibt sich aus dem Wert der Farbe. Diese Werte sind im Makro konfigurierbar.
 
-
-<div class="mw-translate-fuzzy">
-
-Achtung: Je nach Größe des Bildes kann das Projekt sehr groß werden! Für die Aufzeichnung ergibt ein Bild mit einer Breite von 100 px und einer Höhe von 100 px **100 x 100 = 10000 Punkte** \'und da jeder Punkt einer Koordinate entspricht,\'\'\' 10000 Koordinaten XYZ dort \'\'\'.
-
-
-</div>
+Wichtiger Hinweis: Je nach Größe des Bildes kann das Projekt sehr groß werden! Bspw. ergibt ein Bild mit einer Breite von 100 px und einer Höhe von 100 px **100 x 100 = 10000 Punkte** und da jeder Punkt einer Koordinate entspricht, sind es 10000 X-, 10000 Y- und 10000 Z-Koordinaten.
 
 
 <div class="mw-translate-fuzzy">
@@ -98,8 +67,7 @@ Achtung: Je nach Größe des Bildes kann das Projekt sehr groß werden! Für die
 
 <img alt="Texture 002" src=images/Texture_002.png  style="width:300px;">
 
-
-
+#### Koordinaten
 
 
 <div class="mw-translate-fuzzy">
@@ -113,6 +81,8 @@ Achtung: Je nach Größe des Bildes kann das Projekt sehr groß werden! Für die
 
 </div>
 
+#### Stretching
+
 
 <div class="mw-translate-fuzzy">
 
@@ -125,10 +95,12 @@ Achtung: Je nach Größe des Bildes kann das Projekt sehr groß werden! Für die
 
 </div>
 
+#### Inversion
+
 
 <div class="mw-translate-fuzzy">
 
-#### Inversion
+#### Inversion 
 
 -    {{CheckBox|Axis X}}: Umkehrkoordinaten **X** Bild.
 
@@ -138,6 +110,8 @@ Achtung: Je nach Größe des Bildes kann das Projekt sehr groß werden! Für die
 
 
 </div>
+
+#### 8 bit Mode 
 
 
 <div class="mw-translate-fuzzy">
@@ -165,6 +139,8 @@ Der Anfangswert des Bedienungswerts passt sich automatisch an die ausgewählte F
 
 </div>
 
+#### 32 bit Mode 
+
 
 <div class="mw-translate-fuzzy">
 
@@ -177,10 +153,12 @@ Der Anfangswert des Bedienungswerts passt sich automatisch an die ausgewählte F
 
 </div>
 
+#### File
+
 
 <div class="mw-translate-fuzzy">
 
-#### File
+#### File 
 
 -    {{CheckBox|.pcd}}: Wenn eine Datei markiert ist, wird originalName.bmp.pcd im selben Verzeichnis der Datei (pcd v0.7) gespeichert.
 
@@ -188,6 +166,8 @@ Der Anfangswert des Bedienungswerts passt sich automatisch an die ausgewählte F
 
 
 </div>
+
+#### Capping (10mm) 
 
 
 <div class="mw-translate-fuzzy">
@@ -211,6 +191,11 @@ Der Anfangswert des Bedienungswerts passt sich automatisch an die ausgewählte F
 
 </div>
 
+#### Command
+
+
+<div class="mw-translate-fuzzy">
+
 #### Befehl
 
 -    **Datei und Start**: Öffnet die Image-Datei und startet die Konvertierung.
@@ -225,6 +210,9 @@ Der Anfangswert des Bedienungswerts passt sich automatisch an die ausgewählte F
     -   \_\_Für die Suche, ob das Makro aktualisiert wurde:\_\_
     -   User parameter:**BaseApp/Preferences/Macros/FCMmacros/FCTexture → switchVesionMacroSearch**
     -   Passen Sie die switchVesionMacroSearch auf `True` an (standardmäßig `False`).
+
+
+</div>
 
 -    **Quit**: beendet die Funktion.
 
@@ -335,11 +323,19 @@ Image:Texture\_003\_napperon.png\|A portion of a tablecloth. Image:Texture\_005\
 </center>
 
 
+## Verweise
+
+
+<div class="mw-translate-fuzzy">
+
 ## Links
 
 Die Diskussion über [the forum](http://forum.freecadweb.org/viewtopic.php?f=24&t=5893) Um Ihre Eindrücke zu vermitteln oder kontaktieren Sie mich.
 
-Das Makro <img alt="FCCreaLoft" src=images/FCCreaLoft.png  style="width:32px;"> [Macro Loft](Macro_Loft/de.md) für die automatisierung des multi loft
+
+</div>
+
+Das Makro <img alt="FCCreaLoft" src=images/FCCreaLoft.png  style="width:32px;"> [Macro Loft](Macro_Loft/de.md) wird zum Automatisieren der Multi Loft-Operation benutzt.
 
 [apply hair cell texture](http://forum.freecadweb.org/viewtopic.php?f=3&t=4708&start=10#p46353)
 
@@ -381,7 +377,3 @@ Das Makro <img alt="FCCreaLoft" src=images/FCCreaLoft.png  style="width:32px;"> 
 -   ver 0.3 : 28/03/2014 :comment out the line \"**\# self.checkBox\_5.setAccessibleName(\_fromUtf8(\"\"))**\"
 
 that causes an error with the version FreeCAD : Version: 0.14.3343 (Git), Python version: 2.7.6, Qt version: 4.8.5
-
-
-
-

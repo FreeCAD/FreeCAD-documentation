@@ -1,6 +1,5 @@
 # Python/fr
-
- {{VeryImportantMessage|FreeCAD a été conçu à l'origine pour fonctionner avec Python 2.x. Cette série s'est terminée avec la version 2.7.18 du 20 avril 2020 et a été remplacée par Python 3. Le développement futur de FreeCAD se fera exclusivement avec Python 3, et la rétrocompatibilité ne sera pas supportée.}}
+ **FreeCAD a été conçu à l'origine pour fonctionner avec Python 2.x. Cette série s'est terminée avec la version 2.7.18 du 20 avril 2020 et a été remplacée par Python 3. Le développement futur de FreeCAD se fera exclusivement avec Python 3, et la rétrocompatibilité ne sera pas supportée.**
 
 ## Description
 

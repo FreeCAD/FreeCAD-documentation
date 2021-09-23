@@ -2,7 +2,6 @@
 
 
 
-
 <div class="mw-translate-fuzzy">
 
 
@@ -106,6 +105,9 @@ If you are using the Ubuntu operating system, some of the addons above are also 
 
 **Читать далее**
 
+
+<div class="mw-translate-fuzzy">
+
 -   [Дополнительные опции загрузки](Download/ru.md)
 -   [PPA с FreeCAD для Ubuntu](https://launchpad.net/~freecad-maintainers)
 -   [PPA с расширениями FreeCAD для Ubuntu](https://launchpad.net/freecad-extras)
@@ -113,6 +115,9 @@ If you are using the Ubuntu operating system, some of the addons above are also 
 -   [Трансляция FreeCAD](https://crowdin.com/project/freecad)
 -   [Страница FreeCAD на github](https://github.com/FreeCAD)
 -   [Менеджер дополнений FreeCAD](AddonManager/ru.md)
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

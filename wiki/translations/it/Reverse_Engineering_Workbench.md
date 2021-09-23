@@ -1,12 +1,22 @@
 # Reverse Engineering Workbench/it
 
- 
+
+
+
 
 <img alt="L\'icona di Reverse Engineering" src=images/Workbench_Reverse_Engineering.svg  style="width:128px;">
+
+## Introduction
+
+
+<div class="mw-translate-fuzzy">
 
 ## Introduzione
 
 Il <img alt="" src=images/Workbench_Reverse_Engineering.svg  style="width:24px;"> Il [Ambiente Ingegneria inversa](Reverse_Engineering_Workbench/it.md) ha lo scopo di fornire strumenti specifici per convertire forme, solidi e mesh in funzioni parametriche di FreeCAD. È ancora in sviluppo.
+
+
+</div>
 
 Al momento, in questo ambiente non è presente nessuna funzionalità. Viene utilizzato come sandbox dai programmatori.
 
@@ -24,6 +34,6 @@ Link a thread appropriati che discutono di questo ambiente
 
 
 
- 
+
 
 [Category:Reverse Engineering](Category:Reverse_Engineering.md) [Category:Workbenches](Category:Workbenches.md)

@@ -1,5 +1,4 @@
 # Scripts/ru
-
  {{TutorialInfo/ru
 |Topic=Scripting
 |Level=Base

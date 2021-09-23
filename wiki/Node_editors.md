@@ -1,10 +1,9 @@
 # Node editors
 
-
 {{TOCright}}
 
 
-{{VeryImportantMessage|WIP, feel free to help create it}}
+**WIP, feel free to help create it**
 
 ## Background
 

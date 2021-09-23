@@ -3,7 +3,6 @@
 
 
 
-
 {{TutorialInfo
 |Topic=Modeling
 |Level=Experienced User
@@ -14,9 +13,9 @@
 }}
 
 
-{{VeryImportantMessage|Questo tutorial è stato originariamente scritto per una versione di sviluppo di FreeCAD ora deprecata. A partire da aprile 2016 queste funzionalità sono state integrate nella release di pre-sviluppo 0.17 disponibile [https://github.com/FreeCAD/FreeCAD/releases/tag/0.17_pre qui].
+**Questo tutorial è stato originariamente scritto per una versione di sviluppo di FreeCAD ora deprecata. A partire da aprile 2016 queste funzionalità sono state integrate nella release di pre-sviluppo 0.17 disponibile [https://github.com/FreeCAD/FreeCAD/releases/tag/0.17_pre qui].
 <br />
-Si noti che questa versione di FreeCAD è ancora in una fase iniziale di sviluppo. Inoltre questo tutorial potrebbe richiedere un aggiornamento. Se si desidera partecipare alla sua revisione e aggiornamento, si prega di annunciarlo nella sezione Wiki del [http://forum.freecadweb.org forum].}}
+Si noti che questa versione di FreeCAD è ancora in una fase iniziale di sviluppo. Inoltre questo tutorial potrebbe richiedere un aggiornamento. Se si desidera partecipare alla sua revisione e aggiornamento, si prega di annunciarlo nella sezione Wiki del [http://forum.freecadweb.org forum].**
 
 ![Bearing Holder Tutorial - Supporto per cuscinetto finito (top)\|thumb\|right\|400px](images/HolderTop2-19.jpg )
 

@@ -5,7 +5,6 @@
 
 
 
-
 {{Manual:TOC/ru}}
 
 ![150\|center](images/Crystal_Clear_manual.png )

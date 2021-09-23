@@ -5,7 +5,6 @@
 
 
 
-
 {{TOCright}}
 
 ## 序文
@@ -100,14 +99,6 @@ FreeCADは汎用の3Dモデリングアプリケーションです。機械工�
 </div>
 
 <img alt="" src=images/Start_center_0.18_screenshot.jpg  style="width:1024px;">
-
-
-<div class="mw-translate-fuzzy">
-
-<img alt="" src=images/Startcenter.jpg  style="width:1024px;"> For FreeCAD 0.17 see this [start center](Media:Startcenter0.17.jpg.md) screenshot.
-
-
-</div>
 
 
 <div class="mw-translate-fuzzy">

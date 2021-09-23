@@ -1,5 +1,4 @@
 # Macro Half turn stairs
-
   {{Macro
 |Name=Half_turn_stairs
 |Icon=Macro_Half_turn_stairs.png

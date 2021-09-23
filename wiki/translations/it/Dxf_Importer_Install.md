@@ -2,7 +2,6 @@
 
 
 
-
 {{TutorialInfo/it|Topic=SampleClass|Level=Utente medio|Time=15 minuti|Author=[Mario52](User:Mario52.md)|FCVersion=Tutte}}
 
 ### Descrizione

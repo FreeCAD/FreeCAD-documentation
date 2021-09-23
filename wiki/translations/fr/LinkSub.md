@@ -1,7 +1,6 @@
 # LinkSub/fr
 
 
-
 ## Description
 
 Une [LinkSub](LinkSub/fr.md) est une structure de données qui est utilisée comme une entrée pour diverses fonctions et objets. Son but est de transmettre un sous-objet ou un sous-élément (sommet, arête ou face) d\'un objet à un autre objet qui utilisera ou transformera cette géométrie.

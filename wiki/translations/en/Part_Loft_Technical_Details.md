@@ -1,5 +1,4 @@
 # Part Loft Technical Details/en
-
  This page explains the details of how the [Loft](Part_Loft.md) surface is created. This is also relevant to [Part Sweep](Part_Sweep.md) done along a straight path, although there are differences.
 
 The information provided is implementation specific, and may change. Current state is relevant to FreeCAD 0.15.4119, OCC version: 6.7.0.

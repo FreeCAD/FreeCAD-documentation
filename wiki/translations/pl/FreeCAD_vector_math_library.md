@@ -1,7 +1,6 @@
 # FreeCAD vector math library/pl
 
 
-
 ## Wprowadzenie
 
 Jest to moduł [Python](Python/pl.md) zawierający kilka użytecznych funkcji do manipulowania wektorami. Biblioteka ta jest zawarta w środowisku pracy [Rysunek Roboczy](Draft_Workbench/pl.md) i może być dostępna w ten sposób z interpretera Python: 

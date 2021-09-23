@@ -1,33 +1,39 @@
 ---
 - GuiCommand:/ru
-   Name/ru:Вставить группу сечений
+   Name/ru:Создать группу Видов
    Name:TechDraw_ClipGroup
-   MenuLocation:TechDraw → Вставить группу сечений
+   MenuLocation:TechDraw → Создать группу Видов
    Workbenches:[TechDraw](TechDraw_Workbench/ru.md)
-   SeeAlso:[Добавить вид в группу сечений](TechDraw_ClipGroupAdd/ru.md), [Удалить вид из группы сечений](TechDraw_ClipGroupRemove/ru.md)
+   SeeAlso:[Добавить Вид в группу](TechDraw_ClipGroupAdd/ru.md), [Удалить Вид из группы](TechDraw_ClipGroupRemove/ru.md)
 ---
 
 ## Описание
 
-This tool creates a clipping window which can contain one or more Views.
 
-![](images/TechDraw_Clipview.png ) *Viewport window clipping different existing views*
+<div class="mw-translate-fuzzy">
+
+Данный инструмент создает группу Видов, которая может содержать в себе один или несколько Видов. В зависимости от размеров пространства группы, Виды могут быть отсечены по краям.
+
+
+</div>
+
+![](images/TechDraw_Clipview.png ) *Группа Видов, содержащая в себе несколько Видов отсеченных по краям*
 
 ## Применение
 
--   Press the **<img src="images/TechDraw_ClipGroup.svg" width=16px> [Insert Clip Group](TechDraw_ClipGroup.md)** button to create a new Clip.
+-   Нажмите кнопку **<img src="images/TechDraw_ClipGroup.svg" width=16px> [Создать группу Видов](TechDraw_ClipGroup/ru.md)** для создания новой группы Видов.
 
 ## Свойства
 
--    **Width**: The width of the clipping window in units
+-    **Width**: Ширина окна отсечения в единицах измерения
 
--    **Height**: The height of the clipping window in units
+-    **Height**: Высота окна отсечения в единицах измерения
 
--    **ShowFrame**: When true, show a frame around the clipping window
+-    **ShowFrame**: Если true, вокруг пространства группы, будет отображаться рамка
 
--    **ShowLabels**: When true, show the Labels of the Views within the clipping window. **NOTE:** removed in v0.19.
+-    **ShowLabels**: Если true, метки видов будут отображаться в группе. **ПРИМЕЧАНИЕ:** удалено в версии 0.19.
 
--    **Views**: The Views contained in the clipping window
+-    **Views**: Список Видов, содержащихся в группе
 
 
 

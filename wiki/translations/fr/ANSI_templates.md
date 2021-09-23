@@ -1,5 +1,4 @@
 # ANSI templates/fr
-
  Cette page répertorie les modèles selon le standard American National Standards Institute [ANSI](http://en.wikipedia.org/wiki/American_National_Standards_Institute)
 
 ### ANSI A 

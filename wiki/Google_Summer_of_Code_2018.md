@@ -1,5 +1,4 @@
 # Google Summer of Code 2018
-
 FreeCAD started participating to the Google student coding program ([GSoC](https://summerofcode.withgoogle.com/)) in 2016. We participate through a [combined effort](http://brlcad.org/w/index.php?title=Google_Summer_of_Code/Project_Ideas#FreeCAD_Projects) of many CAx organisations. Due to the [combined application](http://brlcad.org/w/index.php?title=Google_Summer_of_Code/Project_Ideas#FreeCAD_Projects) at GSoC many links will lead from here to the [BRLcad wiki](http://brlcad.org/wiki/Google_Summer_of_Code), which is used as single place for everything.
 
 ## How it works 

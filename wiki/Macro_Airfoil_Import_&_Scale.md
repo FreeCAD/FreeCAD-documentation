@@ -1,5 +1,4 @@
 # Macro Airfoil Import & Scale
-
   {{Macro
 |Name=Macro Airfoil Import & Scale
 |Icon=Macro_Airfoil_Import_&_Scale.png

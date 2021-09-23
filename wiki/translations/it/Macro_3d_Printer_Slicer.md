@@ -1,5 +1,4 @@
 # Macro 3d Printer Slicer/it
-
  {{Macro/it
 |Name=Macro_3d_Printer_Slicer
 |Icon=Macro_3d_Printer_Slicer.png

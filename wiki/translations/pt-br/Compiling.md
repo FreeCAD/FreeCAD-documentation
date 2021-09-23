@@ -1,5 +1,4 @@
 # Compiling/pt-br
-
  Cada sistema operacional tem sua própria página para a compilação do FreeCAD na [Documentação de ajuda on-line](Online_Help_Toc/pt-br.md).
 
   ------------------------------------------------------------ -------------------------------------------------------- -------------------------------------------------------- --------------------------------------------------------------------

@@ -1,6 +1,5 @@
 # Timber Workbench
-
-  {{VeryImportantMessage|This workbench is no longer developed or maintained.}}
+  **This workbench is no longer developed or maintained.**
 
 ## Introduction
 

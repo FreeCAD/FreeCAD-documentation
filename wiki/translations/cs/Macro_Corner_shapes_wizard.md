@@ -1,5 +1,4 @@
 # Macro Corner shapes wizard/cs
-
  {{Macro/cs
 |Name=Corner shapes wizard
 |Translate=Corner shapes wizard

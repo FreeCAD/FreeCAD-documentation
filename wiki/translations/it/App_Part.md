@@ -1,7 +1,6 @@
 # App Part/it
 
 
-
 ## Introduzione
 
 <img alt="" src=images/Geofeaturegroup.svg  style="width:32px;">
@@ -30,6 +29,6 @@ Una classe [App Part](App_Part/it.md) (`App::Part`) è derivata dalla classe bas
 Vedere l\'elenco completo delle proprietà nella pagina [Std Part](Std_Part/it.md).
 
 
-{{Std Base
+{{Std Base navi
 
 }} {{Document objects navi}} 

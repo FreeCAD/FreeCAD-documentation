@@ -19,6 +19,27 @@ Der Befehl <img alt="" src=images/SheetMetal_AddFoldWall.svg  style="width:24px;
 
 ## Eigenschaften
 
+See also: [Property editor](Property_editor.md).
+
+A SheetMetal Fold object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
+
+### Data
+
+
+{{Properties_Title|Base}}
+
+-    **Label|String**: Default value: The user editable name of this object, it may be any arbitrary UTF8 string.
+
+-    **Base Feature|Link|hidden**: Base Feature. Link to the parent feature.
+
+-    **_Body|LinkHidden|hidden**: Hidden link to the parent body.
+
+
+{{Properties_Title|Parameters}}
+
+
+<div class="mw-translate-fuzzy">
+
 -    **Bend Line**: Biegelinie. Voreingestellt: none
 
 -    **Position**: Lage der Biegelinie. Mögliche Werte: forward, middle, backward; Voreingestellt: forward
@@ -37,10 +58,24 @@ Der Befehl <img alt="" src=images/SheetMetal_AddFoldWall.svg  style="width:24px;
 
 -    **unfold**: Abwickeln. Voreingestellt: False
 
+
+</div>
+
 ## Beispiel
+
+<img alt="" src=images/SheetMetal_AddFoldWall-01.png  style="width:300px;">
+
+
+<div class="mw-translate-fuzzy">
 
 <img alt="" src=images/SheetMetal_AddFoldWall-01.png  style="width:300px;"> 
 *Ein einfacher Klipp*
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 
 <div class="mw-collapsible mw-collapsed">
@@ -49,6 +84,9 @@ Der Befehl <img alt="" src=images/SheetMetal_AddFoldWall.svg  style="width:24px;
 <div class="mw-collapsible-content">
 
 ### Vorbereitung
+
+
+</div>
 
 Dieser Klipp wird aus einer Platine hergestellt, die dreimal abgekantet wird, d.h. es müssen vier Skizzen vorbereitet werden:
 
@@ -61,8 +99,16 @@ Der einfachste Weg, um sicherzustellen, dass eine Fläche der Platine (Rohling) 
 
 Die Biegelinien könnten mit einem anderen Werkzeug erstellt werden, aber hey, wir haben einen <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Sketcher](Sketcher_Workbench.md)!
 
+<img alt="" src=images/SheetMetal_AddFoldWall-21.png  style="width:280px;"> <img alt="" src=images/SheetMetal_AddFoldWall-20.png  style="width:200px;">
+
+
+<div class="mw-translate-fuzzy">
+
 <img alt="" src=images/SheetMetal_AddFoldWall-21.png  style="width:280px;"> <img alt="" src=images/SheetMetal_AddFoldWall-20.png  style="width:200px;"> 
 *Skizzen auf ihrer gemeinsamen Ebene und ihre Darstellung im Konstruktionsbaum*
+
+
+</div>
 
 ## Arbeitsablauf
 

@@ -1,5 +1,4 @@
 # App Link/fr
-
  {{TOCright}}
 
 ## Introduction
@@ -27,6 +26,6 @@ Voir la page [Std LinkMake](Std_LinkMake/fr.md) pour les informations complètes
 Voir la liste complète des propriétés à la page [Std Créer un lien](Std_LinkMake/fr.md).
 
 
-{{Std Base
+{{Std Base navi
 
 }} {{Document objects navi}} 

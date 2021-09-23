@@ -1,5 +1,4 @@
 # Inspection Workbench/fr
-
  
 
 <img alt="Icône de l\'atelier Inspection" src=images/Workbench_Inspection.svg  style="width:128px;">

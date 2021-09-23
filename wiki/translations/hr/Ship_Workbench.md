@@ -1,7 +1,6 @@
 # Ship Workbench/hr
 
 
-
 <img alt="Ship workbench icon" src=images/Workbench_Ship.svg  style="width:128px;">
 
 

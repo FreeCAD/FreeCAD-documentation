@@ -1,6 +1,5 @@
 # BIM Workbench/pl
 
-
  
 
 <img alt="Ikonka FreeCAD dla zewnętrznego Środowiska pracy BIM" src=images/IFC.svg  style="width:128px;">

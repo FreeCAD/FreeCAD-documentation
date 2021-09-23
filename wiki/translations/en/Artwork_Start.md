@@ -1,5 +1,4 @@
 # Artwork Start/en
-
  
 
 These icons are in the indicated source path.

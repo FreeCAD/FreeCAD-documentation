@@ -2,7 +2,6 @@
 
 
 
-
 <div class="mw-translate-fuzzy">
 
 Veličina je kombinace čísla a jednotky. Je využívána všude ve FreeCADu k práci s parametry a všemi dalšími druhy vstupů a výstupů.

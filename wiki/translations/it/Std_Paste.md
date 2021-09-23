@@ -31,16 +31,6 @@ Il comando **Incolla** incolla gli oggetti dagli Appunti nel documento attivo.
 
 -   Le etichette duplicate sono consentite se **Strumenti → Modifica parametri ... → BaseApp → Preferenze → Documento → DuplicateLabels** è impostato su `True`. Questa impostazione può essere modificata anche nell\'[editor delle preferenze](Preferences_Editor/it#Documento.md).
 
-## Scripting
-
-The **Std Paste** command can be applied only after running the **[Std Copy](Std_Copy.md)** command:
-
-
-```python
-FreeCADGui.runCommand('Std_Copy')
-FreeCADGui.runCommand('Std_Paste')
-```
-
 
 <div class="mw-translate-fuzzy">
 
@@ -53,4 +43,4 @@ FreeCADGui.runCommand('Std_Paste')
 
 {{Std Base navi
 
-}}  
+}} 

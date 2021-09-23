@@ -38,7 +38,7 @@ Informazioni su FreeCAD apre una finestra che mostra informazioni sul programma.
 <div class="mw-translate-fuzzy">
 
 
-{{VeryImportantMessage|'''ATTENZIONE''': Non fare uno screenshot della finestra di dialogo, ma premere il pulsante **Copia negli appunti** e incollare le informazioni}}
+**'''ATTENZIONE''': Non fare uno screenshot della finestra di dialogo, ma premere il pulsante **Copia negli appunti** e incollare le informazioni**
 
 
 </div>

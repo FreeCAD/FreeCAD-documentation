@@ -1,5 +1,4 @@
 # Macro Python Assistant Window/it
-
  {{Macro/it
 |Name=Macro Python Assistant Window
 |Translate=Python Assistant Window
@@ -140,7 +139,7 @@ nessuno (fino ad ora)
 ## Script
 
 
-{{VeryImportantMessage|'''Se il listato dello script non finisce con le informazioni sulla versione FreeCAD e ultima riga non è "thus ends the macro..." significa che il Wiki ne ha mangiato una parte e quindi si deve scaricarlo o copiarlo da [[http://pastebin.com/raw.php?i=2m0u94Z1 unabbreviated script on pastebin.com]]'''}}
+**'''Se il listato dello script non finisce con le informazioni sulla versione FreeCAD e ultima riga non è "thus ends the macro..." significa che il Wiki ne ha mangiato una parte e quindi si deve scaricarlo o copiarlo da [[http://pastebin.com/raw.php?i=2m0u94Z1 unabbreviated script on pastebin.com]]'''**
 
 ToolBar Icon ![](images/Macro_Python_Assistant_Window.png )
 

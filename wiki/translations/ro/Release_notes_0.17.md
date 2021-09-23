@@ -2,7 +2,6 @@
 
 
 
-
 <div id="itsfree" style="text-align:left;color:black;background:#f6f6f6;margin:1em 7em;padding:0.5em 2em;border:2px solid #a7d7f9;">
 
 *Aceasată ediție FreeCAD este dedicată prietenului nostru Roland Frank [who left us in 2017](https://forum.freecadweb.org/viewtopic.php?f=8&t=25673). A fost un membru activ și bine-apreciat a forumului FreeCAD, și tutorialele sale de la [Learn FreeCAD](https://www.youtube.com/watch?v=_HEvhclR4-o&list=PL6fZ68Cq3L8k0JhxnIVjZQN26cn9idJrj) și [BPLFRE](https://www.youtube.com/watch?v=m49z0weonog&list=PLsrwVwvqYb8G4Ri0iz1JIebsOXkgoytAY) de pe canalul Youtube au ajutate mulți oameni să facă primii pași în FreeCAD.*

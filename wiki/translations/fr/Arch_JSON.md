@@ -4,7 +4,6 @@
 
 
 
-
 L\'objectif principal de ce format d\'exportation est de faciliter le traitement des données du modèle FreeCAD à partir de langages de programmation. Le format [JSON](http://json.org/) est le suivant:
 
       {

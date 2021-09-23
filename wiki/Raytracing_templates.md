@@ -1,5 +1,4 @@
 # Raytracing templates
-
  
 
 ## Introduction

@@ -1,5 +1,4 @@
 # Basic modeling tutorial/ro
-
  {{TutorialInfo/ro
 |Topic= Introduction to modelling
 |Level= Beginner

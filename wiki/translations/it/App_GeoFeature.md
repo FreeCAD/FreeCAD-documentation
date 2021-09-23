@@ -1,7 +1,6 @@
 # App GeoFeature/it
 
 
-
 ## Introduzione
 
 <img alt="" src=images/Feature.svg  style="width:32px;">

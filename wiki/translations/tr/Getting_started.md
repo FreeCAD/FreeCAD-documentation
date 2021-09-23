@@ -5,7 +5,6 @@
 
 
 
-
 {{TOCright}}
 
 ## Önsöz
@@ -98,14 +97,6 @@ FreeCAD ilk çalıştırıldığında, karşılama ekranı olarak başlangıç m
 </div>
 
 <img alt="" src=images/Start_center_0.18_screenshot.jpg  style="width:1024px;">
-
-
-<div class="mw-translate-fuzzy">
-
-<img alt="" src=images/Startcenter.jpg  style="width:1024px;"> FreeCAD 0.17 karşılama ekranı için [başlangıç merkezi](Media:Startcenter0.17.jpg.md) ekran görüntüsüne bakın.
-
-
-</div>
 
 
 <div class="mw-translate-fuzzy">

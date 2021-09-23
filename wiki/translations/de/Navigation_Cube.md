@@ -5,7 +5,6 @@
 
 
 
-
 {{TOCright}}
 
 Die Navigationswürfelsteuerung, oder **Navigationswürfel**, ist eine grafische Hilfe der Benutzeroberfläche zur Neuausrichtung der 3D Ansicht. Standardmäßig ist es sichtbar und befindet sich in der oberen rechten Ecke der 3D Anzeige. Wenn Du dir die Standard 3D Ansicht ansiehst, sieht es wie folgt aus:

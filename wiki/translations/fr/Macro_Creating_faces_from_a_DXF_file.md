@@ -1,5 +1,4 @@
 # Macro Creating faces from a DXF file/fr
-
  {{Macro/fr
 |Name=Creating faces from a DXF file
 |Icon=Macro_Creating_faces_from_a_DXF_file.png

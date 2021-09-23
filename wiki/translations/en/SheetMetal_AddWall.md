@@ -18,7 +18,7 @@ To add a Bend:
 
 1.  Switch to the <img alt="" src=images/Sheetmetal_workbench_icon.svg  style="width:22px;"> [SheetMetal Workbench](SheetMetal_Workbench.md).
 2.  Start with a base plate or sheet, select one or more edges to receive a bend.
-3.  Click on the <img alt="" src=images/SheetMetal_Bend.svg  style="width:24px;"> **Bend** tool to add a bend.
+3.  Click on the <img alt="" src=images/SheetMetal_AddWall.svg  style="width:24px;"> [Make Wall](SheetMetal_AddWall.md) tool to add a wall.
 
 
 **Note**
@@ -52,45 +52,93 @@ Alternatively you can generate a base plate with one of the following methods as
 
 ## Properties
 
+See also: [Property editor](Property_editor.md).
+
+A SheetMetal Bend object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties and its label has a default value:
+
 ### Data
 
 
 {{Properties_Title|Base}}
 
--    **Label**: User name of the object in the [Tree view](Tree_view.md).
+-    **Label|String**: Default value: The user editable name of this object, it may be any arbitrary UTF8 string.
+
+-    **Base Feature|Link|hidden**: Base Feature. Link to the parent feature.
+
+-    **_Body|LinkHidden|hidden**: Hidden link to the parent body.
 
 
 {{Properties_Title|Parameters}}
 
--    **angle**: Bend angle.
+-    **Bend Type|Enumeration**: \"Bend Type\". {{value|Material Outside}} (default), {{value|Material Inside}}, {{value|Thickness Outside}}, {{value|Offset}}.
 
--    **extend1**: Extends the wall on the left side.
+-    **angle|Angle**: \"Bend Angle\". Default angle: {{value|90,00°}}.
 
--    **extend2**: Extends the wall on the right side.
+-    **base Object|LinkSub**: \"Base Object\". Link to the planar face to receive a bend.
 
--    **gap1**: Gap from the left side.
+-    **gap1|Distance**: \"Gap from Left side\". Default: {{value|0,00 mm}}.
 
--    **gap2**: Gap from the right side.
+-    **gap2|Distance**: \"Gap from Right side\". Default: {{value|0,00 mm}}.
 
--    **invert**: Invert bend direction.
+-    **invert|Bool**: \"Invert Bend Direction\". Default: `False`.
 
--    **length**: Length of the wall.
+-    **length|Length**: \"Length of Wall\". Default: {{value|10,00 mm}}.
 
--    **miterangle1**: Bend miter angle on the left side.
+-    **radius|Length**: \"Bend Radius\". Default: {{value|1,00 mm}}.
 
--    **miterangle2**: Bend miter angle on the right side.
 
--    **radius**: Bend radius.
+{{Properties_Title|Parameters Ex}}
 
--    **relief Type**: Rectangle or Round. Enabled only when a gap value is set.
+-    **Auto Miter|Bool**: \"Enable Auto Miter\". Default: `True`.
 
--    **reliefd**: Relief depth. Enabled only when a gap value is set.
+-    **extend1|Distance**: \"Extend from Left Side\". Default: {{value|0,00 mm}}.
 
--    **reliefw**: Relief width. Enabled only when a gap value is set.
+-    **extend2|Distance**: \"Extend from Right Side\". Default: {{value|0,00 mm}}.
 
--    **kfactor**: K factor (also known as neutral factor) for the bend. Used to calculate bend allowance when unfolding.
+-    **kfactor|FloatConstraint**: \"Location of Neutral Line. Caution: Using ANSI standards, not DIN.\".  Default: {{value|0,50}}. K factor (also known as neutral factor) for the bend. Used to calculate bend allowance when unfolding.
 
--    **unfold**: False (default) or True. If true, unfolds the bend.
+-    **max Extend Dist|Length**: \"Auto Miter maximum Extend Distance\". Default: {{value|5,00 mm}}.
+
+-    **min Gap|Length**: \"Auto Miter Minimum Gap\". Default: {{value|5,00 mm}}.
+
+-    **miterangle1|Angle**: \"Bend Miter Angle from Left Side\". Default angle: {{value|0,00°}}.
+
+-    **miterangle2|Angle**: \"Bend Miter Angle from Right Side\". Default angle: {{value|0,00°}}.
+
+-    **offset|Distance**: \"Offset Bend\". Default: {{value|0,00 mm}}.
+
+-    **unfold|Bool**: \"Shows Unfold View of Current Bend\". Default:  `True` unfolds the bend.
+
+
+{{Properties_Title|Parameters Ex2}}
+
+-    **Sketch|Link**: \"Sketch Object\".
+
+-    **sketchflip|Bool**: \"Flip Sketch Direction\". Default: `False`.
+
+-    **sketchinvert|Bool**: \"Invert Sketch Start\". Default: `False`.
+
+
+{{Properties_Title|Parameters Ex3}}
+
+-    **Length List|FloatList**: \"Length of Wall List\". Default: {{value|[10,00]}}.
+
+-    **bend AList|FloatList**: \"Bend Angle List\". Default: {{value|[90,00]}}.
+
+
+{{Properties_Title|Parameters Relief}}
+
+-    **Relief Factor|Float**: \"Relief Factor\". Default: {{value|0,70}}.
+
+-    **Use Relief Factor|Bool**: \"Use Relief Factor\". Default: `False`.
+
+-    **min Relief Gap|Length**: \"Minimum Gap to Relief Cut\". Default: {{value|1,00 mm}}.
+
+-    **relief Type|Enumeration**: \"Relief Type\". {{value|Rectangle}} (default), {{value|Round}}. Enabled only when a gap value is set.
+
+-    **reliefd|Length**: \"Relief Depth\". Default: {{value|1,00 mm}}. Enabled only when a gap value is set.
+
+-    **reliefw|Length**: \"Relief Width\". Default: {{value|0,80 mm}}. Enabled only when a gap value is set.
 
 ## Example
 

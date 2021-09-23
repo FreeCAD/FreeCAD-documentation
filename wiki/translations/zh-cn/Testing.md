@@ -4,7 +4,6 @@
 
 
 
-
 <img alt="Test workbench icon" src=images/Workbench_Test.svg  style="width:128px;">
 
 

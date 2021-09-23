@@ -2,7 +2,6 @@
 
 
 
-
 <div class="mw-translate-fuzzy">
 
 
@@ -281,7 +280,7 @@ Linear dimensions work best when using the appropriate [Draft Snap](Draft_Snap.m
 
 1.  Seleccione ![](images/Draft_Dimension.png ) [ Dimension](Draft_Dimension.md)
 2.  Selecione o primeiro ponto. Este pode ser um elemento ou especificado por coordintes existente. Para este tutorial, o primeiro ponto será alwaysvbe \'\' \'(0, 0, 0)\' \'\'
-3.  Selecione o segundo ponto. Aproxime-se do ponto médio da linha superior do polígono. Um ponto branco deverá aparecer ao lado deste ícone ![ 32px](images/Snap_Midpoint.png )
+3.  Selecione o segundo ponto. Aproxime-se do ponto médio da linha superior do polígono. Um ponto branco deverá aparecer ao lado deste ícone ![ 32px](images/Draft_Snap_Midpoint.svg )
 4.  Mova o cursor para o local desejado da dimensão e clique sobre ele.
 5.  Alterar o tamanho da fonte na guia \'\' \'View\' \'\' e 6 mm
 

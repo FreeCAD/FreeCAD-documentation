@@ -5,7 +5,6 @@
 
 
 
-
 <div class="mw-translate-fuzzy">
 
 インストーラーを使って1ステップでFreeCADをMac OS Xにインストールすることができます。

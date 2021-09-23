@@ -1,5 +1,4 @@
 # Image Workbench/zh
-
  
 
 <img alt="Image workbench icon" src=images/Workbench_Image.svg  style="width:128px;">

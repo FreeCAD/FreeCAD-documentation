@@ -1,5 +1,4 @@
 # Manual:BIM modeling/it
-
  }
 
 
@@ -101,7 +100,7 @@ Le singole pareti sono comunque ancora accessibili, espandendo il muro nella vis
 -   Impostare il [Piano di lavoro](Draft_SelectPlane/it.md) su **auto** in modo da non sono limitati al piano terra
 -   Premere il pulsante <img alt="" src=images/Arch_Window.png  style="width:16px;"> [Finestra](Arch_Window/it.md).
 -   Nel pannello di creazione della finestra, selezionare la preset **Simple door** , e impostare la sua **Width** a 0.9 m e la sua **Height** a 2.1 m
--   Assicurarsi che la casella di aggancio a <img alt="" src=images/Snap_Near.png  style="width:16px;"> [Vicinanza](Draft_Near/it.md) sia attivata, in modo che sia possibile agganciarsi alle facce
+-   Assicurarsi che la casella di aggancio a <img alt="" src=images/Draft_Snap_Near.svg  style="width:16px;"> [Vicinanza](Draft_Near/it.md) sia attivata, in modo che sia possibile agganciarsi alle facce
 -   Posizionare la finestra verso il centro della faccia anteriore del muro:
 
 

@@ -5,8 +5,9 @@
 
 
 
-
 {{TOCright}}
+
+## Overview
 
 
 <div class="mw-translate-fuzzy">
@@ -16,14 +17,27 @@
 
 </div>
 
+## Navigation
+
+
+<div class="mw-translate-fuzzy">
+
 ## Navigarea
 
 Modul de lucru cu obiecte este comun pentru toate paletele. Urmatoarele acțiuni cu mouse-ul pot fi folosite pentru controlul poziției si modului de vizualizare, în functie de stilul de navigare selectat.
+
+
+</div>
 
 Exista două moduri de a schimba stilul de navigare:
 
 -   In dialogul pentru [preferinte](Preferences_Editor/ro.md), secțiunea Afișare, tab-ul *Vizualizare 3D*;
 -   Click-dreapta în spațiul liber în zona de vizualizare 3D, selectând *Stil de navigare* în meniul contextual.
+
+### CAD navigation 
+
+
+<div class="mw-translate-fuzzy">
 
 ### Navigare CAD (implicita) 
 
@@ -61,6 +75,9 @@ Users who use the mouse with their right hand may find this method easier than t
 }}
 
 
+</div>
+
+
 {{CAD Navigation
 |Select_name=Select
 |Pan_name=Pan
@@ -91,6 +108,11 @@ With this method the middle mouse button may be released after the right mouse b
 Users who use the mouse with their right hand may find this method easier than the first method.
 }}
 
+### OpenInventor navigation 
+
+
+<div class="mw-translate-fuzzy">
+
 ### Navigare Tip Inventor 
 
 In acest tip de navigare modelată după [Open Inventor](http://en.wikipedia.org/wiki/Open_Inventor) (a nu se confunda cu Autodesk Inventor) nu exista selectie cu mouse-ul. Pentru selectare trebuie apasată tasta **CTRL**. {{Inventor Navigation/ro}}
@@ -110,6 +132,9 @@ Alternatively, hold the middle mouse button, then press and hold the left mouse 
 |Rotate_view_text=Hold the left mouse button, then move the pointer.
 }}
 
+
+</div>
+
 This mode is not based on Autodesk Inventor.
 
 
@@ -127,7 +152,13 @@ Alternatively, hold the middle mouse button, then press and hold the left mouse 
 |Rotate_view_text=Hold the left mouse button, then move the pointer.
 }}
 
+
+<div class="mw-translate-fuzzy">
+
 ### Navigare Tip Blender 
+
+
+</div>
 
 Blender Navigation a fost modelat după [Blender](http://www.blender.org). Anterior nu a existat o panoramare cu mouse-ul și a fost necesară utilizarea tastei {{KEY | SHIFT}} pentru a panorama vederea. Acest lucru s-a schimbat în 2016, cu o adăugare de caracteristici. Pentru a panorama vizualizarea, puteți apăsa acum butoanele mouse-ului stânga și dreapta și trageți în vizualizare. {{Blender Navigation
 |Select_name=Select
@@ -145,7 +176,13 @@ Alternatively, hold both left and right mouse buttons, and then move the pointer
 
 Alternatively, hold both left and right mouse buttons, and then move the pointer. \|Zoom\_text=Use the mouse wheel to zoom in and out. \|Rotate\_view\_text=Hold the middle mouse button, then move the pointer. }}
 
+
+<div class="mw-translate-fuzzy">
+
 ### Navigarea cu Touchpad-ul 
+
+
+</div>
 
 În Navigatorul cu touchpad, nici panningul, nici zoom-ul, nici rotirea vizualizării nu sunt operații numai pentru mouse (sau doar touchpad). {{Touchpad Navigation
 |Select_name=Select
@@ -165,7 +202,13 @@ Alternatively, hold both left and right mouse buttons, and then move the pointer
 |Rotate_view_alt_text=Alternatively, hold **Shift** and the left button, then move the pointer.
 }}
 
+
+<div class="mw-translate-fuzzy">
+
 ### Navigarea prin Gesturi(v0.16) 
+
+
+</div>
 
 Acest stil de navigare a fost adaptat pentru utilizarea cu touchscreen și stiloul, dar este foarte ușor de utilizat cu mouse-ul. {{Gesture Navigation
 |Select_name=Select
@@ -202,7 +245,13 @@ Hold **Alt** when in the [Sketcher](Sketcher_Workbench.md). \|Tilt\_view\_text=H
 
 On v0.18 this method is disabled by default. To enable, go to **Edit → Preferences → Display**, and untick \"Disable touchscreen tilt gesture\" checkbox. }}
 
+
+<div class="mw-translate-fuzzy">
+
 ### Navigare tip Maya 
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -226,7 +275,7 @@ Alternatively, use the mouse wheel to zoom in and out.
 
 Alternatively, use the mouse wheel to zoom in and out. \|Rotate\_view\_text=Hold **Alt** and the left mouse button, then move the pointer. }}
 
-### Revit Navigation 
+### Revit navigation 
 
 This style was introduced in version 0.18.
 
@@ -248,7 +297,7 @@ Alternatively, hold both left and right mouse buttons, then move the pointer.
 Alternatively, hold the middle mouse button, then press and hold the right mouse button, then move the pointer.
 }}
 
-### OpenCascade
+### OpenCascade navigation 
 
 This style was introduced in version 0.18.
 
@@ -269,25 +318,71 @@ Alternatively, hold **Ctrl** and the left mouse button, then move the pointer.
 
 ## Selectarea Obiectelor 
 
+### Simple selection 
+
+
+<div class="mw-translate-fuzzy">
+
 ### Selecția Simplă 
 
 Obiectele se selectează cu click-stânga în vizualizarea 3D sau selectare în vizualizarea arborescentă.
+
+
+</div>
+
+### Preselection
+
+
+<div class="mw-translate-fuzzy">
 
 ### Preselecție
 
 Există, de asemenea, și un mecanism de preselecție care evidențiază obiectele și prezintă informații despre ele înainte de a fi selectate, doar prin mișcarea mouse-ului deasupra lor. Dacă nu agreați acest comportament sau calculatorul este lent puteți să-l suprimați din dialogul pentru preferințe.
 
+
+</div>
+
+## Manipulating objects 
+
+
+<div class="mw-translate-fuzzy">
+
 ## Manipularea Obiectelor 
 
 FreeCAD oferă [manipulatori](manipulator/ro.md) ce pot fi folosiți pentru a schimba aparența sau proprietățile obiectului.
 
+
+</div>
+
 ## Suport Hardware 
+
+
+<div class="mw-translate-fuzzy">
 
 FreeCAD suportă și un număr de [dispozitive 3D](3D_input_devices/ro.md).
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 ## Probleme la Mac OS X 
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Recent am primit rapoarte [pe forum](http://forum.freecadweb.org/viewtopic.php?f=3&t=3592&start=0) de la utilizatorii de Mac la care acele combinații de taste și butoane de mouse nu funcționează conform așteptărilor. Din păcate, niciunul dintre dezvoltatori nu deține un Mac, nici ceilalți contributori obișnuiți. Avem nevoie de ajutorul tău pentru a determina ce butoane și combinații de taste ale mouse-ului funcționează astfel încât să putem actualiza acest
+
+
+</div>
+
+## Developing a custom navigation 
+
+The tutorial [Adding a new mouse navigation option to FreeCAD](Adding_a_new_mouse_navigation_option_to_FreeCAD.md) orients developers who want to develop a custom mouse navigation option. Familiarity with the C++ syntax is required.
 
 
 {{docnav/ro|Getting started/ro|Document structure/ro}}

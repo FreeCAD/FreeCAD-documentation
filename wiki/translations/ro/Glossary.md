@@ -4,7 +4,6 @@
 
 
 
-
 Această pagină este un glosar de termeni și definiții comune ale FreeCAD.
 
 Salt la literă: {{CompactTOC|center=yes}}

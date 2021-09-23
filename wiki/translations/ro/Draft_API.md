@@ -2,7 +2,6 @@
 
 
 
-
 <div class="mw-translate-fuzzy">
 
 Aceste funcții fac parte din modulul Draft-Desen 2D și pot fi utilizate în scripturi și macrocomenzi sau de la interpretorul python, odată ce modulul Draft a fost importat.

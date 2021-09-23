@@ -1,5 +1,4 @@
 # Manual:BIM modeling/de
-
  }
 
 
@@ -176,7 +175,7 @@ Wir werden nun einen Satz von Ansichten unseres Modells vorbereiten, die auf ein
 ![](images/Exercise_arch_21.jpg )
 
 
-{{VeryImportantMessage|Die Entwicklung des [Zeichnung Arbeitsbereich](Drawing_Workbench/de.md)es wurde in FreeCAD 0.16 beendet, als Ersatz wurde in Version 0.17 der [TechDraw Arbeitsbereich](TechDraw_Workbench/de.md) eingeführt. Der Drawing Arbeitsbereich könnte in zukünftigen FreeCAD Versionen entfallen. Benutze statt dessen den TechDraw Arbeitsbereich.}}
+**Die Entwicklung des [Zeichnung Arbeitsbereich](Drawing_Workbench/de.md)es wurde in FreeCAD 0.16 beendet, als Ersatz wurde in Version 0.17 der [TechDraw Arbeitsbereich](TechDraw_Workbench/de.md) eingeführt. Der Drawing Arbeitsbereich könnte in zukünftigen FreeCAD Versionen entfallen. Benutze statt dessen den TechDraw Arbeitsbereich.**
 
 -   Jetzt haben wir alles notwendige und wir können unsere Zeichnungsseite erstellen. Beginne mit dem Wechsel zum [Arbeitsbereich Zeichnung](Drawing_Workbench/de.md) und erzeuge eine neue Standard<img alt="" src=images/Drawing_Landscape_A3.png  style="width:16px;"> [DIN A3 Seite](Drawing_Landscape_A3/de.md) (oder wähle eine andere Vorlage, wenn du möchtest).
 -   Wähle die erste Abschnittsebene, die für den Lageplan benutzt wird

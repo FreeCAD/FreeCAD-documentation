@@ -2,10 +2,9 @@
 
 
 
-
 {{TOCright}}
 
-## Guiónes Python en FreeCAD 
+## Guionización Python en FreeCAD 
 
 FreeCAD está construido desde cero para ser totalmente controlado por guiónes de Python. Casi todas las partes de FreeCAD, como la interfaz, el contenido de la escena, e incluso la representación de este contenido en las vistas 3D, son accesibles desde el intérprete de Python incorporado o desde tus propios guiónes. Como resultado, FreeCAD es probablemente una de las aplicaciones de ingeniería más profundamente personalizables disponibles hoy en día.
 
@@ -31,7 +30,7 @@ Al hacer clic derecho en la ventana del intérprete también tienes otras opcion
 
 ### Ayuda de Python 
 
-En el menú de FreeCAD **Ayuda**, encontrarás una entrada etiquetada como **Documentación automática de los módulos de Python**, que abrirá una ventana del navegador que contiene una documentación completa, generada en tiempo real, de todos los módulos de Python disponibles para el intérprete de FreeCAD, incluyendo los módulos incorporados de Python y FreeCAD, los módulos instalados en el sistema y los módulos adicionales de FreeCAD. La documentación disponible allí depende del esfuerzo que cada desarrollador de módulos ponga en documentar su código, pero los módulos de Python tienen la reputación de estar bastante bien documentados. Tu ventana de FreeCAD debe permanecer abierta para que este sistema de documentación funcione. La entrada **Documentación de scripts de Python** te dará un enlace rápido a la sección wiki [Centro usuarios avanzados](Power_users_hub/es.md).
+En el menú de FreeCAD **Ayuda**, encontrarás una entrada etiquetada como **Documentación automática de los módulos de Python**, que abrirá una ventana del navegador que contiene una documentación completa, generada en tiempo real, de todos los módulos de Python disponibles para el intérprete de FreeCAD, incluyendo los módulos incorporados de Python y FreeCAD, los módulos instalados en el sistema y los módulos adicionales de FreeCAD. La documentación disponible allí depende del esfuerzo que cada desarrollador de módulos ponga en documentar su código, pero los módulos de Python tienen la reputación de estar bastante bien documentados. Tu ventana de FreeCAD debe permanecer abierta para que este sistema de documentación funcione. La entrada **Documentación Guionización en Python** te dará un enlace rápido a la sección wiki [Centro usuarios avanzados](Power_users_hub/es.md).
 
 [inicio](#top.md)
 

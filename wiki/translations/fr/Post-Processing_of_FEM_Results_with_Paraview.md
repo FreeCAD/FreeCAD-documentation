@@ -1,5 +1,4 @@
 # Post-Processing of FEM Results with Paraview/fr
-
  {{TutorialInfo/fr
 |Topic= Post-traitement des résultats FEM avec Paraview
 |Level= Intermédiaire

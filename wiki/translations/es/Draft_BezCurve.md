@@ -13,7 +13,13 @@
 
 ## Descripción
 
+
+<div class="mw-translate-fuzzy">
+
 El <img alt="" src=images/Draft_BezCurve.svg  style="width:24px;"> **Borrador BezCurva** comando crea una [Curva de Bézier](https://es.wikipedia.org/wiki/Curva_de_B%C3%A9zier) a partir de varios puntos.
+
+
+</div>
 
 El comando crea una única curva de Bézier con una **Degree** que es `number_of_points - 1`. Se puede transformar en una curva Bézier a trozos reduciendo esta propiedad.
 

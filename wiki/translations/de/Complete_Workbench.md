@@ -2,8 +2,7 @@
 
 
 
-
-{{VeryImportantMessage|Der [[Complete Workbench/de]] ist veraltet.}}
+**Der [[Complete Workbench/de]] ist veraltet.**
 
 <img alt="" src=images/Workbench_Complete.svg  style="width:64px;">
 

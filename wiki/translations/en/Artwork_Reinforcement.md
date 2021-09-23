@@ -1,5 +1,4 @@
 # Artwork Reinforcement/en
-
  
 
 These icons are in the indicated source path.

@@ -4,8 +4,10 @@
 
 
 
-
 <img alt="Sketcher workbench icon" src=images/Workbench_Sketcher.svg  style="width:128px;">
+
+
+{{TOCright}}
 
 ## 简介
 
@@ -19,12 +21,7 @@
 
 草图工作台本身具有约束条件 - 允许将2D形状约束到精确的几何定义。以及一个约束求解器，它计算二维几何约束范围，并允许对草图自由度的交互式探索。
 
-
-{{TOCright}}
-
-<img alt="" src=images/FC_ConstrainedSketch.png  style="width:450px;">
-
-
+<img alt="" src=images/FC_ConstrainedSketch.png  style="width:450px;"> 
 *一个全约束草图*
 
 ## Basics of constraint sketching 

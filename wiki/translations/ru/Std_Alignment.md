@@ -11,7 +11,7 @@
 
 The **Std Alignment** command aligns an object in relation to a fixed reference object using one or more point pairs.
 
-![](images/Std_Alignment2.png ) *The command interface after two point pairs have been defined*
+![](images/Std_Alignment_example.png ) *The command interface after two point pairs have been defined*
 
 ## Применение
 

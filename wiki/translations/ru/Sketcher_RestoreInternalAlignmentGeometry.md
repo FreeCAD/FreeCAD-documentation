@@ -8,6 +8,9 @@
    SeeAlso:[Создать эллипс от центра](Sketcher_CreateEllipseByCenter/ru.md), [Привязать к внутренней геометрии](Sketcher_ConstrainInternalAlignment/ru.md)
 ---
 
+
+</div>
+
 ## Описание
 
 The command deletes unused elements aligned to internal geometry, or recreates the missing ones.
@@ -34,4 +37,4 @@ If there are free alignment places for the selected element, new construction ge
 
 {{Sketcher Tools navi
 
-}}  
+}} 

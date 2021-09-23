@@ -2,7 +2,6 @@
 
 
 
-
 <div class="mw-translate-fuzzy">
 
 O FreeCAD, como outros programas como o [Revit](wikipedia:Revit.md) ou [Catia](wikipedia:CATIA.md), é baseado no conceito de bancadas. Uma bancada pode ser considerada como um conjunto de ferramentas agrupadas para fazer uma certa tarefa. Numa oficina de carpintaria tradicional, haveria uma mesa para a pessoa que trabalha com madeira, outra para peças metálicas, e talvez uma terceira para a pessoa que faz a montagem das várias peças.

@@ -2,7 +2,6 @@
 
 
 
-
 <div class="mw-translate-fuzzy">
 
 [Yerelleştirme](Localisation/tr.md), çoklu dil kullanıcı arabirimiyle yazılım sağlama işlemidir. wiki Dokümantasyonu, [Localisation \# Wiki\'nin çevrilmesi](Localisation_#_Wiki'nin_çevrilmesi.md) bölümünde açıklandığı gibi yerelleştirilebilir.

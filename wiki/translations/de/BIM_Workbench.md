@@ -1,6 +1,5 @@
 # BIM Workbench/de
 
-
  
 
 <img alt="BIM Externes Arbeitsbereichssymbol" src=images/IFC.svg  style="width:128px;">

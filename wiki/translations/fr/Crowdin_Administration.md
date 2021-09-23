@@ -1,7 +1,6 @@
 # Crowdin Administration/fr
 
 
-
 ## Rôles
 
 -   Traducteur

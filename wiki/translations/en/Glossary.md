@@ -4,7 +4,6 @@
 
 
 
-
 This page is a glossary of common FreeCAD terms and definitions.
 
 Jump to letter: {{CompactTOC|center=yes}}

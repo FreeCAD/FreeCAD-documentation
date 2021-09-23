@@ -1,5 +1,4 @@
 # Macro Draft Circle 3 Points/en
-
  {{Macro
 |Name=Macro Make Circle 3 Points
 |Icon=Macro_Make_Circle_3_Points.png

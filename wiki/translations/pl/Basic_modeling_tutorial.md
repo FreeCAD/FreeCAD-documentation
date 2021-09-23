@@ -1,5 +1,4 @@
 # Basic modeling tutorial/pl
-
  {{TutorialInfo/pl
 |Topic= Wprowadzenie do modelowania
 |Level= Początkujący

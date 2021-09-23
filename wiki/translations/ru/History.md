@@ -1,5 +1,4 @@
 # History/ru
-
  \_\_FORCETOC\_\_
 
 

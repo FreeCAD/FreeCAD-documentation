@@ -1,5 +1,4 @@
 # Artwork Assembly3/pl
-
  
 
 Ikony te znajdują się we wskazanej ścieżce źródłowej gałęzi Realthundera:

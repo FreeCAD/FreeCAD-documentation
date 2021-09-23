@@ -2,7 +2,6 @@
 
 
 
-
 <div class="mw-translate-fuzzy">
 
 FreeCAD, som många moderna design applikationer som [Revit](wikipedia:Revit.md), är baserade på konceptet [Arbetsbänk](wikipedia:Workbench.md). En arbetsbänk kan anses vara ett set verktyg, grupperade för en viss uppgift. I en traditionell möbelverkstad, så skulle du ha ett arbetsbord för den person som arbetar med trä, ett annat bord för den som arbetar med metalldelar, och kanske ett tredje för den som monterar ihop allting.

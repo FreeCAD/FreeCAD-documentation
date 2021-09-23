@@ -1,5 +1,4 @@
 # FCGear Workbench/de
-
  <img alt="Symbol Externer Arbeitsbereich FCZahnrad" src=images/FCGear_workbench_icon.svg  style="width:128px;">
 
 ## Einführung

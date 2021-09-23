@@ -1,7 +1,6 @@
 # Reinforcement Addon/it
 
 
-
 ## Introduzione
 
 L\'addon [Reinforcement](Reinforcement_Addon/it.md) potenzia [Arch](Arch_Workbench/it.md) fornendo nuove interfacce e preimpostazioni per la creazione di tipi di armature comuni da utilizzare con le [Strutture](Arch_Structure/it.md) di Arch.

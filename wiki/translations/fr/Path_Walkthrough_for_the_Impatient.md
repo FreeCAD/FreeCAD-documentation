@@ -2,7 +2,6 @@
 
 
 
-
 {{TutorialInfo/fr
 |Topic=Atelier Path
 |Level=Débutant/modéré

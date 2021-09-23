@@ -1,6 +1,5 @@
 # Flamingo Workbench/it
-
-  {{VeryImportantMessage|Flamingo Workbench (Python2/Qt4) è stato sostituito da Dodo Workbench (Python3/Qt5). Questa pagina wiki evidenzia le differenze tra questi due ambienti. I link indicati qui si riferiscono all'attuale [Dodo](Dodo_Workbench/it.md).}}
+  **Flamingo Workbench (Python2/Qt4) è stato sostituito da Dodo Workbench (Python3/Qt5). Questa pagina wiki evidenzia le differenze tra questi due ambienti. I link indicati qui si riferiscono all'attuale [Dodo](Dodo_Workbench/it.md).**
 
 ## Introduzione
 
@@ -79,7 +78,7 @@ Finestra di dialogo per creare su più spigoli selezionati nella vista le travi 
 Con il pulsante **Select** è possibile modificare il tipo di trave.
 
 
-{{VeryImportantMessage|Dodo: nel dialogo "Insert framebranch" questa funzione è stata sostituita con il pulsante "Add single"}}
+**Dodo: nel dialogo "Insert framebranch" questa funzione è stata sostituita con il pulsante "Add single"**
 
 
 :   3\) Insert a path (class insertPath). Inserisci un percorso
@@ -101,13 +100,13 @@ Nel modello possono essere disegnati altri profili e poi trascinati all\'interno
 L\'orientamento dei DWire può influenzare il rendering delle travi.
 
 
-{{VeryImportantMessage|Dodo: la portata di questa funzione è cambiata.
+**Dodo: la portata di questa funzione è cambiata.
 In dodo si apre una finestra di dialogo dalla quale è possibile creare 10 sagome per sezione trave con dimensioni personalizzate:
 * quadrato vuoto e pieno
 * cerchio vuoto e pieno
 * T, I, C, L, Z
 * omega
-È anche possibile cambiare la posizione del centro o modificare una sezione esistente.}}
+È anche possibile cambiare la posizione del centro o modificare una sezione esistente.**
 
 
 :   5\) FrameLine manager (class FrameLineManager). Gestore di Frame Line
@@ -260,7 +259,7 @@ Se non viene specificata alcuna lunghezza, il valore predefinito è 200 unità (
 **Apply** pulsante consente di applicare una lunghezza diversa o un diametro nominale ai tubi attualmente selezionati.
 
 
-{{VeryImportantMessage|Dodo: aggiunto un menu a torta (scorciatoia da tastiera: "Z") per creare oggetti "pype": questo ha lo scopo di inserire rifiniture più veloci nel disegno}}
+**Dodo: aggiunto un menu a torta (scorciatoia da tastiera: "Z") per creare oggetti "pype": questo ha lo scopo di inserire rifiniture più veloci nel disegno**
 
 
 :   2\) Inserisci una curva

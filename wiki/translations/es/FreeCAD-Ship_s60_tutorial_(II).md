@@ -2,7 +2,6 @@
 
 
 
-
 {{TutorialInfo/es
 |Topic=Ship Workbench
 |Level= Beginner

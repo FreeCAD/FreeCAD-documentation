@@ -1,7 +1,6 @@
 # Developer hub/hr
 
 
-
 ![150](images/Crystal_Clear_app_tutorials.png )
 
 Ovo je mjesto gdje ste pozvani da razvijate i uređujete FreeCAD software.

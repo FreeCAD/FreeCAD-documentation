@@ -1,5 +1,4 @@
 # Path Walkthrough for the Impatient
-
  
 
 

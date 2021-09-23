@@ -9,7 +9,13 @@
 
 ## Beschreibung
 
+
+<div class="mw-translate-fuzzy">
+
 Dieses Werkzeug erstellt ein Ausschnittfenster, das eine oder mehrere Ansichten enthalten kann.
+
+
+</div>
 
 ![](images/TechDraw_Clipview.png ) *Ansichtsfenster, das verschiedene vorhandene Ansichten beschneidet*
 

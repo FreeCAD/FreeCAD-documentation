@@ -1,7 +1,6 @@
 # Common Airfoil Data Import/it
 
 
-
 ## Importare Dati Airfoil 
 
 FreeCAD può importare i dati di un profilo alare, come quello trovato in [UIUC Airfoil Coordinates Database](http://m-selig.ae.illinois.edu/ads/coord_database.html) o file prodotti con software per la creazione e l\'analisi di un profilo alare come [XFLR5](http://www.xflr5.com/xflr5.htm)

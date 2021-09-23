@@ -1,5 +1,4 @@
 # Macro Automatic drawing/de
-
  {{Macro/de
 |Name=Automatic drawing
 |Translate=Automatic drawing
@@ -12,16 +11,10 @@
 |Download=[https://www.freecadweb.org/wiki/images/0/08/Macro_Automatic_drawing.png ToolBar icon]
 }}
 
-
-<div class="mw-translate-fuzzy">
-
 ## Beschreibung
 
-Dieser Code generiert eine Seite [Drawing Arbeitsbereich](Drawing_Workbench/de.md) mit drei orthogonalen Ansichten (vorne, oben und rechts) und einer isometrischen Ansicht rechts oben auf der Seite. Sie berechnet den Maßstab basierend auf der Modellgröße und dem verfügbaren Platz auf dem Arbeitsblatt. Die ISO-Ansicht ist auf 2/3 der Ortho-Ansichten skaliert.
+Dieser Code generiert eine [Zeichnungsseite](Drawing_Workbench/de.md) mit drei orthogonalen Ansichten (vorne, oben und rechts) und einer isometrischen Ansicht rechts oben auf der Seite. Sie berechnet den Maßstab basierend auf der Modellgröße und dem verfügbaren Platz auf dem Arbeitsblatt. Die ISO-Ansicht ist auf 2/3 der Ortho-Ansichten skaliert.
 Es verwendet die [first-angle projection](http://en.wikipedia.org/wiki/Multiview_orthographic_projection#First-angle_projection).
-
-
-</div>
 
 ## Anwendung
 

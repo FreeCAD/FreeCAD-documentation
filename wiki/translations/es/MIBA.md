@@ -1,7 +1,6 @@
 # MIBA/es
 
 
-
 ## Introduction
 
 

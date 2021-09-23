@@ -1,5 +1,4 @@
 # Macro Arch Axis System Repartition/fr
-
  {{Macro/fr
 |Name=Arch Axis System Repartition
 |Icon=Macro_Arch_Axis_System_Repartition.png

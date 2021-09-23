@@ -1,5 +1,4 @@
 # Task panel/de
-
  {{TOCright}}
 
 ## Einführung
@@ -38,7 +37,7 @@ Es gibt viele Befehle, die die Auswahl von vorhandenen Formen oder Objekten aus 
 ## Skripten
 
 
-{{VeryImportantMessage|Bitte diesen Abschnitt neuformulieren und aktualisieren.}}
+**Bitte diesen Abschnitt neuformulieren und aktualisieren.**
 
 Siehe [Forumsbeitrag](https://forum.freecadweb.org/viewtopic.php?f=10&t=44170&p=376759#p376759) Aufruf, den ein Aufgaben Dialog Widget verwenden kann, um die Aufgabenansicht zu schließen. Es kann mit \"this-\>close()\" geschlossen werden, aber das schließt nur den unteren Teil der Ansicht, nicht die Ansicht selbst.
 

@@ -1,5 +1,4 @@
 # Best Practices with SpreadSheets
-
 # Introduction
 
 This is a draft of what I imperfectly understand as best practices ( and tips, and gotchas ) for parametric modeling in FreeCad using SpreadSheets. On a wiki things may never be finished, but until I get comment I am pretty much finished with this. Plan to move out of sandbox soon.

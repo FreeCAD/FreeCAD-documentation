@@ -1,7 +1,7 @@
 ---
 - GuiCommand:/ru
-   Name:Draft Ortho
-   Name/ru:Draft Ortho
+   Name:Draft Snap Ortho
+   Name/ru:Draft Snap Ortho
    MenuLocation:Черчение → [Привязка](Draft_Snap/ru.md) → Ортогональная
    Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
    Shortcut:

@@ -4,7 +4,6 @@
 
 
 
-
 <img alt="Ikonka FreCAD dla środowiska pracy Web" src=images/Workbench_Web.svg  style="width:128px;">
 
 ## Wprowadzenie

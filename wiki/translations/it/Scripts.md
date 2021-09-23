@@ -1,5 +1,4 @@
 # Scripts/it
-
  {{TutorialInfo/it
 |Topic=Scripting
 |Level=Base

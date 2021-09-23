@@ -1,7 +1,6 @@
 # Misc templates/it
 
 
-
 Questa pagina elenca alcuni modelli misti.
 
 Tutti i modelli sono in formato SVG direttamente scaricabili e utilizzabili con o senza modifiche.

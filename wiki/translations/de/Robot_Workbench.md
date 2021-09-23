@@ -5,11 +5,10 @@
 
 
 
-
-{{VeryImportantMessage|Der Roboter Arbeitsbereich ist nicht gewartet. Wenn du Erfahrung mit dem Thema hast und daran interessiert bist, es zu pflegen, gib bitte deine Absicht im Entwicklerbereich des [https://forum.freecadweb.org/index.php FreeCAD Forums] an.
+**Der Roboter Arbeitsbereich ist nicht gewartet. Wenn du Erfahrung mit dem Thema hast und daran interessiert bist, es zu pflegen, gib bitte deine Absicht im Entwicklerbereich des [https://forum.freecadweb.org/index.php FreeCAD Forums] an.
 
 Der Grund dafür, dass sich dieser Arbeitsbereich noch im Master Quellcode befindet, liegt darin, dass dieser Arbeitsbereich in C++ programmiert ist. Wenn dieser Arbeitsbereich in Python programmiert werden könnte, dann könnte sie zu einem[externen Arbeitsbereich](external_workbenches/de.md) gemacht und in ein separates Repositorium verschoben werden.
-}}
+**
 
 ## Einführung
 

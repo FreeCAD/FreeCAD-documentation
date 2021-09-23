@@ -1,5 +1,4 @@
 # Trademark legend
-
 -   The word mark \"Python\" is a registered trademark in the United States of America. See <http://tarr.uspto.gov/servlet/tarr?regser=serial&entry=76044902>.
 
 <https://www.python.org/psf/trademarks/>

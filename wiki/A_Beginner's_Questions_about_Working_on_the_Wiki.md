@@ -1,7 +1,6 @@
 # A Beginner's Questions about Working on the Wiki
 
 
-
 ## Purpose of this Page 
 
 This is a page that is a one person\'s perspective, put out for discussion of the Wiki process.

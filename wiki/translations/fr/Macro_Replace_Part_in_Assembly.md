@@ -1,5 +1,4 @@
 # Macro Replace Part in Assembly/fr
-
  {{Macro/fr
 |Name=Macro Replace Part in Assembly
 |Icon=Replace_Part.png

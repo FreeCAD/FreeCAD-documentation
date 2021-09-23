@@ -1,5 +1,4 @@
 # A2plus Workbench
-
   <img alt="A2plus workbench icon" src=images/A2p_workbench.svg  style="width:128px;">
 
 ## Introduction

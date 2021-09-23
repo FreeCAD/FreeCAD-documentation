@@ -1,7 +1,6 @@
 # Topological naming problem/ru
 
 
-
 ## Вступление
 
 

@@ -4,7 +4,6 @@
 
 
 
-
 <img alt="Erprobung Arbeitsbereichssymbol" src=images/Workbench_Test.svg  style="width:128px;">
 
 

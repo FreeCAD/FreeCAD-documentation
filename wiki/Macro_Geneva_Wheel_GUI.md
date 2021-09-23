@@ -1,5 +1,4 @@
 # Macro Geneva Wheel GUI
-
   {{Macro
 |Name=Geneva Wheel GUI
 |Icon=GW_Dim.png

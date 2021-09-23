@@ -1,5 +1,4 @@
 # Drawing Documentation/it
-
  Questa pagina documenta la comprensione del modulo Drawing di jcc242. Il modulo include i file e le funzioni su cui sta lavorando attualmente e non può ancora essere inserita nel ramo master. La fonte di questi file è il suo [Github](https://github.com/jcc242/FreeCAD), ma fate attenzione in quanto è molto instabile!
 
 ## Base (Mod/Drawing) 

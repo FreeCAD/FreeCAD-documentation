@@ -3,7 +3,6 @@
 
 
 
-
 {{TutorialInfo
 |Topic=Modélisation
 |Level=Utilisateur expérimenté
@@ -14,9 +13,9 @@
 }}
 
 
-{{VeryImportantMessage|Ce tutoriel a été écrit à l'origine pour une version de développement maintenant obsolète de FreeCAD. Depuis avril 2016, ces fonctionnalités ont été intégrées à la version 0.17 de pré-développement disponible [https://github.com/FreeCAD/FreeCAD/releases/tag/0.17_pre ici].
+**Ce tutoriel a été écrit à l'origine pour une version de développement maintenant obsolète de FreeCAD. Depuis avril 2016, ces fonctionnalités ont été intégrées à la version 0.17 de pré-développement disponible [https://github.com/FreeCAD/FreeCAD/releases/tag/0.17_pre ici].
 <br />
-Veuillez noter que cette version de FreeCAD en est encore à ses débuts. De plus, ce tutoriel peut nécessiter une mise à jour. Si vous souhaitez participer à sa révision et à sa mise à jour, publiez-le dans la section Wiki du [http://forum.freecadweb.org forum].}}
+Veuillez noter que cette version de FreeCAD en est encore à ses débuts. De plus, ce tutoriel peut nécessiter une mise à jour. Si vous souhaitez participer à sa révision et à sa mise à jour, publiez-le dans la section Wiki du [http://forum.freecadweb.org forum].**
 
 ![ Tutoriel Support de Roulement - support de roulement terminé(en haut) \| thumb \| right \| 400px](images/_HolderTop2-19.jpg )
 

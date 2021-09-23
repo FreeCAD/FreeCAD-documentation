@@ -1,5 +1,4 @@
 # Macro SketchUnmap/it
-
  {{Macro
 |Name=SketchUnmap
 |Description=This macro resets a sketch placement to an absolute one, eventually creating a datum plane.<br />This macro has been written mainly to circumvent Topological Naming Issue that can break a model when a sketch has been directly or indirectly attached to a face or any other topological item.<br />

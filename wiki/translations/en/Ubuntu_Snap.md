@@ -1,7 +1,6 @@
 # Ubuntu Snap/en
 
 
-
 ## Introduction
 
 An [Ubuntu Snap](Ubuntu_Snap.md) package, or just [Snap](Ubuntu_Snap.md) is a distribution format similar to [AppImage](AppImage.md) in that it is intended to be a \"universal installable package\" to deploy software in Linux systems. Snaps were introduced by Ubuntu but they are intended to run in all Linux distributions as long as the Snap daemon, or `snapd`, is available in the target system.

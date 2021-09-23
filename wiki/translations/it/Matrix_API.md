@@ -1,6 +1,5 @@
 # Matrix API/it
-
- {{VeryImportantMessage|(Ottobre 2019) Non modificare queste pagine. Le informazioni sono incomplete e obsolete. Per l'API più recente, consultare la [https://www.freecadweb.org/api documentazione API autogenerata] o generare la documentazione autonomamente. Vedere [Documentazione del codice sorgente](Source_documentation/it.md).}}
+ **(Ottobre 2019) Non modificare queste pagine. Le informazioni sono incomplete e obsolete. Per l'API più recente, consultare la [https://www.freecadweb.org/api documentazione API autogenerata] o generare la documentazione autonomamente. Vedere [Documentazione del codice sorgente](Source_documentation/it.md).**
 
 In FreeCAD le matrici 4x4 sono utilizzate ovunque e possono essere create con una delle seguenti modalità: 
 ```python

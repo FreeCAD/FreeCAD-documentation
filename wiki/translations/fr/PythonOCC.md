@@ -1,7 +1,6 @@
 # PythonOCC/fr
 
 
-
 ## Description
 
 [PythonOCC](PythonOCC/fr.md) est un projet qui vise à fournir toute la gamme des fonctions [OpenCASCADE Technology](OpenCASCADE/fr.md) (OCCT) via le module [Python](Python/fr.md) `OCC`. C\'est une approche différente de celle de FreeCAD, où seuls certains composants d\'OCCT sont exposés via l\'[atelier Part](Part_Workbench/fr.md).

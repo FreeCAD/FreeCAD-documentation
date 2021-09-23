@@ -1,5 +1,4 @@
 # Artwork Path/pl
-
  
 
 Ikony te znajdują się we wskazanej ścieżce źródłowej.

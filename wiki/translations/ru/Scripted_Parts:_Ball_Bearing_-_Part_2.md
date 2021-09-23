@@ -1,5 +1,4 @@
 # Scripted Parts: Ball Bearing - Part 2/ru
-
  {{TutorialInfo/ru
 |Topic= Part Scripting - Ball Bearing #2
 |Level= Beginner

@@ -1,7 +1,6 @@
 # Fasteners Workbench/pl
 
 
-
 <img alt="Ikonka FreeCAD dla środowiska Elementów złącznych" src=images/Fasteners_workbench_icon.svg  style="width:128px;">
 
 

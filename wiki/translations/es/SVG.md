@@ -1,5 +1,4 @@
 # SVG/es
-
  {{TOCright}}
 
 ## Descripción

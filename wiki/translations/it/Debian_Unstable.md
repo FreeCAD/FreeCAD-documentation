@@ -1,7 +1,6 @@
 # Debian Unstable/it
 
 
-
 [Debian Unstable](https://wiki.debian.org/DebianUnstable) is a rolling distribution used for [Debian development](Debian_development.md) and recommended for advanced users in FreeCAD development and packaging. New packages are ready as soon as they are uploaded and built, unless the uploader has marked them for [Debian Experimental](https://wiki.debian.org/DebianExperimental) which requires explicit installation (after some setup to enable the extra distribution) via .
 
 Frequently, people using Debian Testing should actually use Debian Unstable; Debian Testing should only be considered a \"QA release pocket\", since, while it may appear to be more stable than Unstable, there\'s actually a downside. New packages are uploaded to Debian Unstable and migrate to Testing after some time, and so security fixes and important packaging changes can be inappropriately delayed.

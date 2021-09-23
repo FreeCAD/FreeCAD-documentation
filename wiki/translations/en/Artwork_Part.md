@@ -1,5 +1,4 @@
 # Artwork Part/en
-
  
 
 These icons are in the indicated source path.

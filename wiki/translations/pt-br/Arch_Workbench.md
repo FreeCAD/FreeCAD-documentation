@@ -4,7 +4,6 @@
 
 
 
-
 <img alt="Ícone da bancada de trabalho Arch" src=images/Workbench_Arch.svg  style="width:128px;">
 
 

@@ -1,5 +1,4 @@
 # Macro Make Arc 3 Points/fr
-
  {{Macro/fr
 |Name=Macro Make Arc 3 Points
 |Icon=Macro_Make_Arc_3_Points.png

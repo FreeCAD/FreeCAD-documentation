@@ -1,5 +1,4 @@
 # Python Development Environment/de
-
  {{TOCright}}
 
 ## Eine vereinfachte Entwicklungsumgebung für Python in FreeCAD 
@@ -287,7 +286,7 @@ FreeCAD.ParamGet('User parameter:BaseApp/Preferences/Macro').SetString('MacroPat
 ## Fehlersuchprogramm
 
 
-{{VeryImportantMessage|'''Ein Fehlersuchprogramm ist für FreeCAD geplant, und diese Schritte sind ein Übergangslösung, bis er verfügbar ist. Siehe github.com/mumme74/FreeCAD/tree/editor_fixes'''}}
+**'''Ein Fehlersuchprogramm ist für FreeCAD geplant, und diese Schritte sind ein Übergangslösung, bis er verfügbar ist. Siehe github.com/mumme74/FreeCAD/tree/editor_fixes'''**
 
 [Debugger](wikipedia:Debugger.md) bieten typischerweise zwei Hauptfunktionen (unter anderem):
 

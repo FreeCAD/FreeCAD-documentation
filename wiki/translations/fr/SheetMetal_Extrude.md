@@ -19,12 +19,10 @@ Pour prolonger la face:
 2.  Cliquez sur le <img alt="" src=images/SheetMetal_Extrude.svg  style="width:24px;"> outil **Extrude** pour étendre la face.
 
 
-<div class="mw-translate-fuzzy">
-
-
 **Remarque**
 
-: L\'atelier ne possède pas d\'outil pour créer une plaque de base, vous devez donc démarrer votre modèle avec l\'une des méthodes suivantes:
+: Pour créer une plaque de base, utilisez un contour 2D fermé - de préférence une <img alt="" src=images/Sketcher_NewSketch.svg  style="width:24px;"> [esquisse](Sketcher_NewSketch/fr.md) - avec <img alt="" src=images/SheetMetal_AddBase.svg  style="width:24px;"> [Tôle de base](SheetMetal_AddBase/fr.md).
+Au lieu de cela, vous pouvez également générer une plaque de base avec l\'une des méthodes suivantes :
 
 :\* Méthode 1: <img alt="" src=images/Part_Box.svg  style="width:24px;"> [Part Cube](Part_Box/fr.md)
 
@@ -42,10 +40,6 @@ Pour prolonger la face:
 
 ::\* <img alt="" src=images/PartDesign_Pad.svg  style="width:24px;"> [PartDesign Protrusion](PartDesign_Pad/fr.md) réalisée à partir d\'une <img alt="" src=images/Sketcher_NewSketch.svg  style="width:24px;"> [Sketcher Nouvelle esquisse](Sketcher_NewSketch/fr.md).
 
-
-</div>
-
-
 :   
 
     :   Si vous commencez avec un <img alt="" src=images/PartDesign_Body.svg  style="width:24px;"> PartDesign Corps, vous pouvez mélanger des fonctions de tôlerie avec des fonctions PartDesign telles que <img alt="" src=images/PartDesign_Pocket.svg  style="width:24px;"> [PartDesign Cavité](PartDesign_Pocket/fr.md) or <img alt="" src=images/PartDesign_Hole.svg  style="width:24px;"> [PartDesign Perçage](PartDesign_Hole/fr.md).
@@ -57,46 +51,42 @@ Pour prolonger la face:
 
 ## Propriétés
 
-See also: [Property editor](Property_editor.md).
+Voir aussi : [Éditeur de propriétés](Property_editor/fr.md)
 
-A SheetMetal Extend object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
+Un objet SheetMetal Prolonger une face est dérivé d\'un objet [Part Feature](Part_Feature/fr.md) et hérite de toutes ses propriétés. Il possède également les propriétés supplémentaires suivantes :
 
 ### Données
 
 
 {{Properties_Title|Base}}
 
--    **Label|String**: Default value: The user editable name of this object, it may be any arbitrary UTF8 string.
+-    {{PropertyData/fr|Label|String}}: Valeur par défaut : Le nom modifiable par l\'utilisateur de cet objet, il peut être toute chaîne UTF8 arbitraire.
 
--    **Base Feature|Link|hidden**: Base Feature. Link to the parent feature.
+-    {{PropertyData/fr|Base Feature|Link|hidden}}: Fonctionnalité de base. Lien vers la caractéristique parent.
 
--    **_Body|LinkHidden|hidden**: Hidden link to the parent body.
+-    {{PropertyData/fr|_Body|LinkHidden|hidden}}: Lien caché vers le corps du parent.
 
 
 {{Properties_Title|Parameters}}
 
+-    {{PropertyData/fr|base Object|LinkSub}}: \"Objet de base\". Lien vers la face planaire à étendre.
 
-<div class="mw-translate-fuzzy">
+-    {{PropertyData/fr|gap1|Distance}}: \"Ecart par rapport au côté gauche\". Valeur par défaut : {{value|0,00 mm}}.
 
--    {{PropertyData/fr|gap1}}: retrait du côté gauche.
+-    {{PropertyData/fr|gap2|Distance}}: \"Ecart depuis le côté droit\". Valeur par défaut : {{value|0,00 mm}}.
 
--    {{PropertyData/fr|gap2}}: retrait du côté droit.
-
--    {{PropertyData/fr|length}}: longueur du côté plié.
-
-
-</div>
+-    {{PropertyData/fr|length|Length}}: \"Longueur de la paroi\". Valeur par défaut : {{value|10,00 mm}}.
 
 
 {{Properties_Title|Parameters Ext.}}
 
--    **Offset|Distance**: \"Offset for substraction\". Default: {{value|20,00 µm}}.
+-    {{PropertyData/fr|Offset|Distance}}: \"Décalage pour la soustraction\". Valeur par défaut : {{value|20,00 µm}}.
 
--    **Refine|Bool**: \"Use Refine\". Default: `True`.
+-    {{PropertyData/fr|Refine|Bool}}: \"Utiliser le raffinage\". Valeur par défaut : `True`.
 
--    **Sketch|Link**: \"Wall Sketch\".
+-    {{PropertyData/fr|Sketch|Link}}: \"Esquisse de la paroi\".
 
--    **Use Substraction|Bool**: \"Use Substraction\". Default: `False`
+-    {{PropertyData/fr|Use Substraction|Bool}}: \"Utiliser la soustraction\". Valeur par défaut : `False`.
 
 
 

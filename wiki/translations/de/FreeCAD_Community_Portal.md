@@ -1,7 +1,6 @@
 # FreeCAD Community Portal/de
 
 
-
 Dies ist der Ort, an dem du alle Arten von FreeCAD-bezogenen Sachen ablegen kannst! Wenn Du an etwas arbeitest, das mit FreeCAD zu tun hat, füge es bitte hier ein!
 
 ## Orte, an denen FreeCAD im Netz erscheint 

@@ -1,7 +1,6 @@
 # Reinforcement Workbench/fr
 
 
-
 <img alt="Icône de l\'atelier Reinforcement" src=images/Reinforcement_Workbench.svg  style="width:128px;">
 
 
@@ -11,13 +10,7 @@
 
 L\'[Atelier Reinforcement](Reinforcement_Workbench/fr.md) est un [Atelier externe](External_workbenches/fr.md) qui fournit des outils pour la génération et le détail des armatures. Cet atelier fournit une interface et des préréglages pour la création de types d\'armatures courants ainsi que des outils pour générer la nomenclature des armatures, la liste de coupe des formes d\'armatures, la nomenclature de pliage des barres et le dessin et la cote des armatures.
 
-
-<div class="mw-translate-fuzzy">
-
-Image:Arch\_Rebar\_Straight\_example.png\|[Armature droite](Arch_Rebar_Straight/fr.md) Image:Arch\_Rebar\_UShape\_example.png\|[Armature en U](Arch_Rebar_UShape/fr.md) Image:Arch\_Rebar\_LShape\_example.png\|[Armature en L](Arch_Rebar_LShape/fr.md) Image:Arch\_Rebar\_BentShape\_example.png\|[Armature cintrée](Arch_Rebar_BentShape/fr.md) Image:Arch\_Rebar\_Stirrup\_example.png\|[Armature en étrier](Arch_Rebar_Stirrup/fr.md) Image:Arch\_Rebar\_Helical\_example.png\|[Armature hélicoïdale](Arch_Rebar_Helical/fr.md) Image:Arch\_Rebar\_Circular\_ColumnReinforcement\_example.png\|[Armature circulaire](Arch_Rebar_Circular_ColumnReinforcement/fr.md) Image:Arch\_Rebar\_ColumnReinforcement\_example.png\|[Armature en colonne](Arch_Rebar_ColumnReinforcement/fr.md) Image:Arch\_Rebar\_ColumnReinforcement\_TwoTies\_example.png\|[Armature 2 cadres 6 barres](Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars/fr.md) Image:Arch\_Rebar\_BeamReinforcement\_example.png\|[Poutre](Arch_Rebar_BeamReinforcement/fr.md) Image:Isometric\_view\_of\_Bent\_Shape\_rebars\_in\_parallel\_and\_cross\_direction\_with\_distribution\_rebars.png\|[Renforts de dalle](Arch_Rebar_Slab_Reinforcement/fr.md) Image:Arch\_Rebar\_BOM\_example.png\|[Nomenclature armature](Arch_Rebar_BOM/fr.md) Image:Reinforcement\_Bar\_Shape\_Cut\_List\_example.svg\|[Nomenclature de façonnage des armatures](Reinforcement_Bar_Shape_Cut_List/fr.md) Image:Reinforcement\_Bar\_Bending\_Schedule\_example.svg\|[Tableau des armatures](Reinforcement_Bar_Bending_Schedule/fr.md) Image:Arch\_Rebar\_Drawing\_Dimensioning\_example.svg\|[Dimensions et dessins d\'armatures](Arch_Rebar_Drawing_Dimensioning/fr.md)
-
-
-</div>
+Image:Arch\_Rebar\_Straight\_example.png\|[Armature droite](Arch_Rebar_Straight/fr.md) Image:Arch\_Rebar\_UShape\_example.png\|[Armature en U](Arch_Rebar_UShape/fr.md) Image:Arch\_Rebar\_LShape\_example.png\|[Armature en L](Arch_Rebar_LShape/fr.md) Image:Arch\_Rebar\_BentShape\_example.png\|[Armature cintrée](Arch_Rebar_BentShape/fr.md) Image:Arch\_Rebar\_Stirrup\_example.png\|[Armature en étrier](Arch_Rebar_Stirrup/fr.md) Image:Arch\_Rebar\_Helical\_example.png\|[Armature hélicoïdale](Arch_Rebar_Helical/fr.md) Image:Arch\_Rebar\_Circular\_ColumnReinforcement\_example.png\|[Armature circulaire](Arch_Rebar_Circular_ColumnReinforcement/fr.md) Image:Arch\_Rebar\_ColumnReinforcement\_example.png\|[Armature en colonne](Arch_Rebar_ColumnReinforcement/fr.md) Image:Arch\_Rebar\_ColumnReinforcement\_TwoTies\_example.png\|[Armature 2 cadres 6 barres](Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars/fr.md) Image:Arch\_Rebar\_BeamReinforcement\_example.png\|[Poutre](Arch_Rebar_BeamReinforcement/fr.md) Image:Isometric\_view\_of\_Bent\_Shape\_rebars\_in\_parallel\_and\_cross\_direction\_with\_distribution\_rebars.png\|[Renforts de dalle](Arch_Rebar_Slab_Reinforcement/fr.md) Image:Isometric view of Columns footing.png\|[Renforts de semelle](Arch_Rebar_Footing_Reinforcement/fr.md) Image:Arch\_Rebar\_BOM\_example.png\|[Nomenclature armature](Arch_Rebar_BOM/fr.md) Image:Reinforcement\_Bar\_Shape\_Cut\_List\_example.svg\|[Nomenclature de façonnage des armatures](Reinforcement_Bar_Shape_Cut_List/fr.md) Image:Reinforcement\_Bar\_Bending\_Schedule\_example.svg\|[Tableau des armatures](Reinforcement_Bar_Bending_Schedule/fr.md) Image:Arch\_Rebar\_Drawing\_Dimensioning\_example.svg\|[Dimensions et dessins d\'armatures](Arch_Rebar_Drawing_Dimensioning/fr.md)
 
 ## Installation
 
@@ -39,15 +32,15 @@ L\'atelier Reinforcement n\'est pas fourni avec le package FreeCAD par défaut m
 
 -   <img alt="" src=images/Arch_Rebar_Helical.png  style="width:32px;"> [Armature hélicoïdale](Arch_Rebar_Helical/fr.md) : Crée une barre de ferraillage hélicoïdale dans un élément de structure sélectionné.
 
--   <img alt="" src=images/Arch_Rebar_ColumnReinforcement.svg  style="width:32px;"> [Arch Armature circulaire](Arch_Rebar_Circular_ColumnReinforcement/fr.md) : Crée des armatures dans un élément structurel circulaire de type poteau.
+-   <img alt="" src=images/Arch_Rebar_ColumnReinforcement.svg  style="width:32px;"> [Armature circulaire](Arch_Rebar_Circular_ColumnReinforcement/fr.md) : Crée des armatures dans un élément structurel circulaire de type poteau.
 
 -   <img alt="" src=images/Arch_Rebar_ColumnReinforcement.svg  style="width:32px;"> [Armature en colonne](Arch_Rebar_ColumnReinforcement/fr.md) : Crée des armatures dans un élément structurel rectangulaire de type poteau.
 
--   <img alt="" src=images/Arch_Rebar_ColumnReinforcement.svg  style="width:32px;"> [Armature 2 cadres 6 barres](Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars/fr.md) : crée des barres d\'armature dans un élément structurel de type poteau.
+-   <img alt="" src=images/Arch_Rebar_ColumnReinforcement.svg  style="width:32px;"> [Armature 2 cadres 6 barres](Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars/fr.md) : Crée des barres d\'armature dans un élément structurel de type poteau.
 
--   <img alt="" src=images/Arch_Rebar_BeamReinforcement.svg  style="width:32px;"> [Poutre](Arch_Rebar_BeamReinforcement/fr.md) : crée des barres d\'armature dans un élément structurel de type poutre.
+-   <img alt="" src=images/Arch_Rebar_BeamReinforcement.svg  style="width:32px;"> [Poutre](Arch_Rebar_BeamReinforcement/fr.md) : Crée des barres d\'armature dans un élément structurel de type poutre.
 
--   <img alt="" src=images/Arch_Rebar_Slab_Reinforcement.svg  style="width:32px;"> [SlabReinforcement](Arch_Rebar_Slab_Reinforcement.md): Creates reinforcing bars in a selected slab structural element
+-   <img alt="" src=images/Arch_Rebar_Slab_Reinforcement.svg  style="width:32px;"> [Renfort de dalle](Arch_Rebar_Slab_Reinforcement/fr.md) : Crée des barres d\'armature dans un élément structurel de dalle sélectionné.
 
 -   <img alt="" src=images/Arch_Rebar.svg  style="width:32px;"> [Armature personnalisée](Arch_Rebar/fr.md) : Crée une barre de ferraillage personnalisée dans un élément de structure sélectionné à l\'aide d\'une esquisse.
 

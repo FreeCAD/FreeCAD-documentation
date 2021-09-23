@@ -5,7 +5,6 @@
 
 
 
-
 {{TOCright}}
 
 ## Vorwort
@@ -30,8 +29,16 @@ Beginne damit, FreeCAD herunter zu laden und zu installieren. Für Informationen
 
 ## Erkunden der Oberfläche 
 
-<img alt="" src=images/FreeCAD_interface_base_divisions.svg  style="width:1024px;"> 
+<img alt="" src=images/FreeCAD_interface_base_divisions.svg  style="width:1024px;">
+
+
+<div class="mw-translate-fuzzy">
+
+
 *Standard FreeCAD Oberfläche in 0.19.*
+
+
+</div>
 
 
 **Vollständige Erklärung der  [Oberfläche](Interface/de.md).**
@@ -51,12 +58,23 @@ Beginne damit, FreeCAD herunter zu laden und zu installieren. Für Informationen
 
 Das Hauptkonzept der FreeCAD Oberfläche besteht darin, dass sie in [Arbeitsbereiche](workbenches/de.md) unterteilt ist. Ein Arbeitsbereich ist eine Sammlung von Werkzeugen, die für eine bestimmte Aufgabe angepasst wurden, wie z.B. das Arbeiten mit [Polygonnetzen (mesh)](Mesh_Workbench/de.md) oder das Zeichnen von [2D Objekten](Draft_Workbench/de.md) oder das Arbeiten mit [beschränkten Skizzen](Sketcher_Workbench/de.md). Der aktuelle Arbeitsbereich kann mit dem [Arbeitsbereich Wähler](Std_Workbench/de.md) gewechselt werden. Die in jedem Arbeitsbereich enthaltenen Werkzeuge können individuell [angepasst werden](Interface_Customization/de.md). Werkzeuge von anderen Arbeitsbereichen und auch selbst erstellte [Makros](macros/de.md) können hinzugefügt werden. Meistens wird mit dem [Arbeitsbereich PartDesign](PartDesign_Workbench/de.md) und /oder [Arbeitsbereich Part](Part_Workbench/de.md) begonnen.
 
+
+<div class="mw-translate-fuzzy">
+
 Wenn FreeCAD zum ersten Mal gestartet wird, wird das Startzentrum angezeigt. So sieht es für die Version 0.18 aus:
 
-<img alt="" src=images/Start_center_0.18_screenshot.jpg  style="width:1024px;"> 
-*Für FreeCAD 0.17 siehe diese [Start Center](Media:Startcenter0.17.jpg.md) Bildschirmansicht.*
+
+</div>
+
+<img alt="" src=images/Start_center_0.18_screenshot.jpg  style="width:1024px;">
+
+
+<div class="mw-translate-fuzzy">
 
 Das Startzentrum ermöglicht, schnell zu einer der gängigsten Arbeitsbereiche zu gelangen, eine der letzten Dateien zu öffnen oder die neuesten Nachrichten aus der FreeCAD Welt zu sehen. Du kannst die Standard Arbeitsbereich unter [Einstellungen](Preferences_Editor/de.md) ändern.
+
+
+</div>
 
 ## Navigation im 3D Raum 
 

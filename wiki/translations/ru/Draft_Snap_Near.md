@@ -1,7 +1,7 @@
 ---
 - GuiCommand:/ru
-   Name:Draft Near
-   Name/ru:Draft Near
+   Name:Draft Snap Near
+   Name/ru:Draft Snap Near
    MenuLocation:Черчение → [Привязка](Draft_Snap/ru.md) → Ближайшие
    Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
    Shortcut:

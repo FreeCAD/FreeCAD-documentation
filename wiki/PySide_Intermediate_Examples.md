@@ -1,5 +1,4 @@
 # PySide Intermediate Examples
-
  
 
 ## Introduction

@@ -24,4 +24,4 @@ Montre ou masque l\'affichage du **degré** d\'une courbe B-spline (voir [cette 
 
 {{Sketcher Tools navi
 
-}}  
+}} 

@@ -1,6 +1,5 @@
 # Video tutorials obsolete/de
-
- {{VeryImportantMessage|In FreeCAD 0.17 hat der [PartDesign Arbeitsbereich](PartDesign_Workbench/de.md) wichtige Aktualisierungen erhalten, die die Art und Weise der Erstellung von Volumenkörpern im Vergleich zu früheren Versionen ändern. Neue Anwender sollten sich Videos für die Versionen 0.17 und höher ansehen, um das Konzept der Arbeit mit einem [PartDesign Körper](PartDesign_Body/de.md) und Bezugsobjekten zu verstehen.}} {{VeryImportantMessage|Diese Videos gelten als veraltet, da sie v0.16 oder frühere Versionen des Programms verwenden.}}
+ **In FreeCAD 0.17 hat der [PartDesign Arbeitsbereich](PartDesign_Workbench/de.md) wichtige Aktualisierungen erhalten, die die Art und Weise der Erstellung von Volumenkörpern im Vergleich zu früheren Versionen ändern. Neue Anwender sollten sich Videos für die Versionen 0.17 und höher ansehen, um das Konzept der Arbeit mit einem [PartDesign Körper](PartDesign_Body/de.md) und Bezugsobjekten zu verstehen.** **Diese Videos gelten als veraltet, da sie v0.16 oder frühere Versionen des Programms verwenden.**
 
 ## Einführung
 

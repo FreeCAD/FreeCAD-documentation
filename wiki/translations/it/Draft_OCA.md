@@ -2,10 +2,6 @@
 
 
 
-
-
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -32,7 +28,13 @@ Draft OCA è un modulo software utilizzato dai comandi <img alt="" src=images/St
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 Il formato di file OCA è uno sforzo della comunità per creare un formato di file CAD gratuito, semplice e aperto. OCA è in gran parte basato sul formato di file GCAD generato da [gCAD3D](http://www.gcad3d.org/). Entrambi i formati possono essere importati in FreeCAD e i file OCA esportati da FreeCAD possono essere aperti in gCAD3D.
+
+
+</div>
 
 ## Importazione
 
@@ -52,7 +54,18 @@ Si posssono importare i seguenti oggetti OCA:
 
 ## Preferenze
 
+
+<div class="mw-translate-fuzzy">
+
 Per ulteriori informazioni, consultare: [Preferenze di Importa/Esporta](Import_Export_Preferences/it.md).
+
+
+</div>
+
+## Scripting
+
+
+<div class="mw-translate-fuzzy">
 
 ## Script
 
@@ -61,25 +74,40 @@ Per ulteriori informazioni, consultare: [Preferenze di Importa/Esporta](Import_E
 
 [Draft API](Draft_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-Si possono esportare elementi in Oca usando la seguente funzione: 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+Si possono esportare elementi in Oca usando la seguente funzione:
+
+
+</div>
+
+
 ```python
 importOCA.export(exportList, filename)
 ```
 
-Esempio: 
+-   For the Windows OS: use a {{FileName|/}} (forward slash) as the path separator in {{Incode|filename}}.
+
+Esempio:
+
+
 ```python
-import FreeCAD, Draft, importOCA
+import FreeCAD as App
+import Draft
+import importOCA
 
-p1 = FreeCAD.Vector(0, 0, 0)
-p2 = FreeCAD.Vector(1000, 1000, 0)
-p3 = FreeCAD.Vector(2200, 1500, 0)
-p4 = FreeCAD.Vector(2500, -100, 0)
+doc = App.newDocument()
 
-obj1 = Draft.makeWire([p1, p2, p3, p4])
-obj2 = Draft.makeWire([p1, -2.3*p2, -0.8*p3, -1.8*p4])
+polygon1 = Draft.make_polygon(3, radius=500)
+polygon2 = Draft.make_polygon(5, radius=1500)
 
-objects = [obj1, obj2]
+doc.recompute()
 
+objects = [polygon1, polygon2]
 importOCA.export(objects, "/home/user/Pictures/myfile.oca")
 ```
 

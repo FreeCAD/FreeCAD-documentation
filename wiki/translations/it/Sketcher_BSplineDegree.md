@@ -45,4 +45,4 @@ Mostra o nasconde la visualizzazione del **grado** di una B-spline (vedere: [B-s
 
 {{Sketcher Tools navi
 
-}}  
+}} 

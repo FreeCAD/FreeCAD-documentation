@@ -4,8 +4,7 @@
 
 
 
-
-<img alt="Иконка верстака FEM" src=images/Workbench_FEM.svg  style="width:128px;">
+<img alt="Логотип верстака FEM" src=images/Workbench_FEM.svg  style="width:128px;">
 
 
 {{TOCright}}

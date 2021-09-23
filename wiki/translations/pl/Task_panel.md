@@ -1,5 +1,4 @@
 # Task panel/pl
-
  {{TOCright}}
 
 ## Wprowadzenie
@@ -38,7 +37,7 @@ Istnieje wiele poleceń wymagających wyboru kształtów lub obiektów obecnych 
 ## Tworzenie skryptów 
 
 
-{{VeryImportantMessage|Proszę przeformułować i zaktualizować tę sekcję}}
+**Proszę przeformułować i zaktualizować tę sekcję**
 
 Zobacz [wątek na forum](https://forum.freecadweb.org/viewtopic.php?f=10&t=44170&p=376759#p376759) Aby zamknąć Widok Zadań, należy użyć widżetu Widok Zadań. Można go zamknąć za pomocą *przycisku-\>close()*, ale zamyka on tylko dolną część widoku, a nie całe okno.
 

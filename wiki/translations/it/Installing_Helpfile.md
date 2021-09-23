@@ -1,7 +1,6 @@
 # Installing Helpfile/it
 
 
-
 ## File della Guida di FreeCAD 
 
 

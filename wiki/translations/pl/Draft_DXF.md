@@ -5,10 +5,6 @@
 
 
 
-
-
-
-
 {{TOCright}}
 
 ## Opis
@@ -19,9 +15,11 @@ Funkcja DXF, środowiska Rysunek Roboczy jest modułem oprogramowania używanym 
 
 ## Importowanie
 
-Importer posiada dwa tryby pracy, konfigurowane w menu **Edycja → Preferencje → Import/Eksport → DXF**: Pierwszy jest wbudowany, oparty na C++ i szybki, drugi jest starszy, zakodowany w Pythonie, wolniejszy i wymaga instalacji dodatku, ale czasami lepiej radzi sobie z niektórymi wystąpieniami obiektów i potrafi tworzyć bardziej dopracowane obiekty FreeCAD. Oba obsługują wszystkie wersje DXF począwszy od R12.
+Dostępne są dwa importery, który z nich będzie używany można określić w menu **Edycja → Preferencje → Import/Eksport → DXF**: Pierwszy jest wbudowany, oparty na C++ i szybki, drugi jest starszy, zakodowany w Pythonie, wolniejszy i wymaga instalacji dodatku, ale czasami lepiej radzi sobie z niektórymi wystąpieniami obiektów i potrafi tworzyć bardziej dopracowane obiekty FreeCAD. Oba obsługują wszystkie wersje DXF począwszy od R12.
 
-Obiekty 3D wewnątrz pliku DXF są przechowywane w binarnym bloku ACIS/SAT, który w tej chwili nie może być odczytany przez FreeCAD. Prostsze obiekty, takie jak 3DFACE, są jednak obsługiwane.
+Bryły 3D wewnątrz pliku DXF są przechowywane w binarnym bloku ACIS/SAT, który w tej chwili nie może być odczytany przez FreeCAD.
+
+### Importer C++ 
 
 Można importować następujące obiekty DXF:
 
@@ -39,19 +37,45 @@ Można importować następujące obiekty DXF:
 -   obiekty odniesienia
 -   obiekty przestrzeni papierowej
 
+### Starszy importer 
+
+Importer ten może importować następujące obiekty DXF:
+
+-   linie
+-   polilinie *(i lwpolilinie)*
+-   łuki
+-   okręgi
+-   elipsy
+-   splajny
+-   ściany 3D
+-   teksty i mteksty
+-   linie odniesienia
+-   warstwy
+
 ## Eksportowanie
 
-Pliki są eksportowane w formacie R14 DXF, który może być obsługiwany przez wiele aplikacji.
+Istnieją również dwa eksportery. Starszy eksporter eksportuje do formatu R12 DXF, a eksporter C++ do formatu R14 DXF. Oba formaty mogą być obsługiwane przez wiele aplikacji.
 
-Można eksportować następujące obiekty FreeCAD:
+### Eksporter C++ 
 
--   cała geometria 2D FreeCAD, taka jak obiekty środowiska Rysunek Roboczy lub Szkicownik,
+Niektóre z cech i ograniczeń tego eksportera to:
+
+-   Eksportowana jest cała geometria FreeCAD 2D, z wyjątkiem [Draft CubicBezCurves](Draft_CubicBezCurve/pl.md), [Draft BezCurves](Draft_BezCurve/pl.md) i [Draft Points](Draft_Point/pl.md).
+-   Proste krawędzie z powierzchni obiektów 3D są eksportowane, ale krawędzie zakrzywione tylko wtedy, gdy leżą na płaszczyźnie równoległej do płaszczyzny XY globalnego układu współrzędnych. Należy pamiętać, że DXF utworzony z obiektów 3D będzie zawierał zduplikowane linie.
+-   Teksty i wymiary nie są eksportowane.
+-   Kolory są ignorowane.
+-   Warstwy są mapowane na podstawie nazw obiektów.
+
+### Starszy eksporter 
+
+Niektóre z cech i ograniczeń tego eksportera to:
+
+-   Eksportowana jest cała geometria FreeCAD 2D, z wyjątkiem [Punktów](Draft_Point/pl.md) środowiska Rysunek Roboczy. Jednak elipsy, krzywe złożone i krzywe Béziera nie są eksportowane poprawnie.
 -   Obiekty 3D są eksportowane jako spłaszczony widok 2D,
 -   Obiekty złożone są eksportowane jako bloki,
 -   teksty,
--   kolory są odwzorowywane z obiektów, kolory RGB na indeks kolorów autocad *(ACI)*. Czarny będzie zawsze \"według warstwy\"\'
--   warstwy są odwzorowywane na podstawie nazw grup. Gdy grupy są zagnieżdżone, najgłębsza grupa nadaje nazwę warstwy\'
--   wymiary, które są eksportowane ze stylem wymiarowania \"Standard\".
+-   Kolory w DXF są oparte na kolorze linii obiektów. Czarny jest mapowany do \"ByBlock\", inne kolory są mapowane przy użyciu kolorów indeksu kolorów AutoCAD Color Index *(ACI)*.
+-   Warstwy są odwzorowywane na podstawie nazw grup. Gdy grupy są zagnieżdżone, najgłębsza grupa nadaje nazwę warstwy\'
 
 ## Instalacja
 
@@ -61,27 +85,35 @@ Z powodów licencyjnych, wymagane biblioteki importu/eksportu [DXF](DXF/pl.md) p
 
 Aby uzyskać więcej informacji zobacz stronę [Ustawienia Importu i Eksportu](Import_Export_Preferences/pl.md).
 
-## Pisanie skryptów 
+## Tworzenie skryptów 
+
+Zobacz również: [Dokumentacja API generowana automatycznie](https://freecad.github.io/SourceDoc/) oraz [Podstawy tworzenia skryptów FreeCAD](FreeCAD_Scripting_Basics/pl.md).
+
+Do eksportu obiektów do DXF użyj metody `export` modułu importDXF.
 
 
-**Zobacz również:**
-
-[Skrypty dla środowiska Rysunek Roboczy](Draft_API/pl.md) oraz [Podstawy tworzenia skryptów FreeCAD](FreeCAD_Scripting_Basics/pl.md).
-
-Elementy można eksportować do DXF za pomocą następującej funkcji: 
 ```python
 importDXF.export(objectslist, filename, nospline=False, lwPoly=False)
 ```
 
-Przykład: 
+-   Dla systemu operacyjnego Windows: użyj {{FileName|/}} *(ukośnik do przodu)* jako separatora ścieżki w {{Incode|filename}}.
+
+Przykład:
+
+
 ```python
-import Draft, importDXF
+import FreeCAD as App
+import Draft
+import importDXF
 
-Polygon1 = Draft.makePolygon(3, radius=500)
-Polygon2 = Draft.makePolygon(5, radius=1500)
+doc = App.newDocument()
 
-objects = [Polygon1, Polygon2]
+polygon1 = Draft.make_polygon(3, radius=500)
+polygon2 = Draft.make_polygon(5, radius=1500)
 
+doc.recompute()
+
+objects = [polygon1, polygon2]
 importDXF.export(objects, "/home/user/Pictures/myfile.dxf")
 ```
 

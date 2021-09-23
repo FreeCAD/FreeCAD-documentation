@@ -1,5 +1,4 @@
 # Macro FCSpring Helix Variable/hr
-
  {{Macro/hr
 |Name=Macro FCSpring Helix Variable
 |Translate=Makro FCSpring Helix Variable

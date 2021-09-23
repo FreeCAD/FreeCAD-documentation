@@ -1,5 +1,4 @@
 # Dialog creation with various widgets
-
  
 
 ## Introduction

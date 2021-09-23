@@ -1,5 +1,4 @@
 # Standard Menu/de
-
   {{TOCright}}
 
 ## Einführung

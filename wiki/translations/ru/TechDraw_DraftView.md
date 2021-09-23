@@ -1,10 +1,10 @@
 ---
 - GuiCommand:/ru
-   Name/ru:Вставить Объект верстака Draft
+   Name/ru:Вставить объект верстака Draft
    Name:TechDraw_DraftView
-   MenuLocation:TechDraw → Вставить Объект верстака Draft
+   MenuLocation:TechDraw → Вставить объект верстака Draft
    Workbenches:[TechDraw](TechDraw_Workbench/ru.md), [Draft](Draft_Workbench/ru.md)
-   SeeAlso:[Вставить Объект верстака Arch](TechDraw_ArchView/ru.md)
+   SeeAlso:[Вставить объект верстака Arch](TechDraw_ArchView/ru.md)
 ---
 
 ## Описание

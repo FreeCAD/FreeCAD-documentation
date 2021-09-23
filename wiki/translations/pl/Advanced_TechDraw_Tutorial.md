@@ -5,7 +5,6 @@
 
 
 
-
 {{TutorialInfo/pl
 |Topic=Modelowanie
 |Level=Użytkownik zaawansowany

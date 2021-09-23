@@ -1,10 +1,9 @@
 # Troubleshooting FreeCAD
 
-
 {{TOCright}}
 
 
-{{VeryImportantMessage|This page is still being created. Feel free to assist}}
+**This page is still being created. Feel free to assist**
 
 ## Troubleshooting FreeCAD Problems 
 

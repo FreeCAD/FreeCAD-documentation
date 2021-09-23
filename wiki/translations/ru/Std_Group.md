@@ -1,12 +1,12 @@
 ---
 - GuiCommand:/ru
-   Name:Std Group
-   Name/ru:Std Group
-   MenuLocation:[Tree view](Tree_view/ru.md) → Правый клик на имени документа → Создать группу
+   Name/ru:Создать группу
+   Name:Std_Group
+   MenuLocation:[Древовидное представление](Tree_view/ru.md) → Правый клик на имени документа → Создать группу
    Workbenches:Все
    Shortcut:
    Version:
-   SeeAlso:[Std Part](Std_Part/ru.md), [Draft SelectGroup](Draft_SelectGroup/ru.md), [Draft AddToGroup](Draft_AddToGroup/ru.md)
+   SeeAlso:[Создать деталь](Std_Part/ru.md), [Выбрать группу](Draft_SelectGroup/ru.md), [Переместить в группу](Draft_AddToGroup/ru.md)
 ---
 
 ## Описание
@@ -78,9 +78,9 @@ A [Std Group](Std_Group.md) is formally an instance of the class `App::DocumentO
 ## Программирование
 
 
-**See also:**
+**См. так же:**
 
-[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md), and [scripted objects](scripted_objects.md).
+[Основы составления скриптов FreeCAD](FreeCAD_Scripting_Basics/ru.md), и [создание объектов через скрипт](scripted_objects/ru.md).
 
 See [Part Feature](Part_Feature.md) for the general information on adding objects to the document.
 
