@@ -36,7 +36,7 @@ This command is now obsolete. Use the [Draft OrthoArray](Draft_OrthoArray.md), [
 
 1.  Selectați un obiect cu care doriți să faceți o matrice
 
-2.  Apăsați tasta {{KEY | [ 16px](Imagine:_Schiță_Array.png .md) [[Array de Proiect]]}}
+2.  Apăsați tasta {{KEY | _ [[Array de Proiect]]}}
 
 3.  Selectați {{PropertyData | Array Type}}: Specifică tipul matricei, orto sau polar
 

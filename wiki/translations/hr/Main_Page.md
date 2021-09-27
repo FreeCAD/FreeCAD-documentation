@@ -3,7 +3,7 @@
 
 ## Uvod
 
-Ovdje se nalazi wiki dokumentacija programa [FreeCAD](https://www.freecadweb.org). Imate dvije osnovne mogućnosti za pregledavanje dokumentacije: možete istraživati u korisničkom okruženju ili koristite priručnik. Ova dokumentacija (wiki) je rad u tijeku koji je napisan od zajednice korisnika i razvojnih programera programa FreeCAD. Ako pronađete informacije koje su pogrešne ili koje nedostaju, [help FreeCAD](Special:MyLanguage/help_FreeCAD.md)!
+Ovdje se nalazi wiki dokumentacija programa _!
 
 
 </div>
@@ -37,7 +37,7 @@ Ovdje se nalazi wiki dokumentacija programa [FreeCAD](https://www.freecadweb.org
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/Crystal_Clear_manual.png  style="width:64px;"> [FreeCAD priručnik](Manual:Introduction/hr.md) je još jedan, linearniji način prikazivanja informacija sadržanih na ovoj wiki stranici. Napravljen je za čitanje poput knjige i upoznaje vas s mnogim drugim stranicama iz okruženja gore. Također su dostupne i [ebook verzija](https://www.gitbook.com/book/yorikvanhavre/a-freecad-manual/details), kao i [nekoliko prijevoda u pdf formatu](https://www.freecadweb.org/manual/). 
+<img alt="" src=images/Crystal_Clear_manual.png  style="width:64px;"> _ je još jedan, linearniji način prikazivanja informacija sadržanih na ovoj wiki stranici. Napravljen je za čitanje poput knjige i upoznaje vas s mnogim drugim stranicama iz okruženja gore. Također su dostupne i [ebook verzija](https://www.gitbook.com/book/yorikvanhavre/a-freecad-manual/details), kao i [nekoliko prijevoda u pdf formatu](https://www.freecadweb.org/manual/). 
 
 
 
@@ -70,14 +70,14 @@ Dosta je toga za napraviti unutar projekta FreeCAD, ako ste zainteresirani za po
 -   pomažući s pakiranjem najnovijeg izdanja FreeCAD-a za vaš omiljeni operacijski sustav
 -   pomažući drugima oko vas da otkriju FreeCAD.
 
-Stranica[help FreeCAD](Special:MyLanguage/help_FreeCAD/hr.md) opisuje sve to s više pojedinosti. Od 2016. godine, FreeCAD također sudjeluje u [Google Summer of Code](Google_Summer_of_Code.md). Stranica [Suradničko okruženje](Contributors_hub.md) još je jedan napor od mogućih načina prikupljanja pomoći i doprinosa projektu FreeCAD.
+Stranica_ opisuje sve to s više pojedinosti. Od 2016. godine, FreeCAD također sudjeluje u [Google Summer of Code](Google_Summer_of_Code.md). Stranica [Suradničko okruženje](Contributors_hub.md) još je jedan napor od mogućih načina prikupljanja pomoći i doprinosa projektu FreeCAD.
 
 ### Izvorni kod 
 
 
 <div class="mw-translate-fuzzy">
 
-FreeCAD može biti kompiliran na svim platformama koristeći [CMake](https://cmake.org/). Izvorni kod je [LGPL](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License) licenciran i udomljen na [GitHub](https://github.com/FreeCAD/FreeCAD)i zrcaljen na [GitLab](https://gitlab.com/freecad/FreeCAD) and [CodeBerg](https://codeberg.org/FreeCAD/FreeCAD) tamo se nalaze uputstva za [Windows](Compile_on_Windows.md), [Unix/Linux](Compile_on_Linux/Unix.md) i [MacOSX](Compile_on_MacOS.md). Dokumentacija izvornog koda se nalazi [ovdje](http://www.freecadweb.org/api/), napravljena sa programom [Doxygen](Doxygen.md), i [dokumentirana na wiki stranici](Source_documentation.md)
+FreeCAD može biti kompiliran na svim platformama koristeći _, _, i [dokumentirana na wiki stranici](Source_documentation.md)
 
 
 </div>
@@ -89,7 +89,7 @@ Provjerite [Development roadmap](Development_roadmap.md) za vijesti o onom što 
 
 
 
-[Category:Documentation](Category:Documentation.md)
+_
 
 ---
-[documentation index](../README.md) > [Documentation](Category:Documentation.md) > Main Page/hr
+[documentation index](../README.md) > [Documentation](Category_Documentation.md) > Main Page/hr

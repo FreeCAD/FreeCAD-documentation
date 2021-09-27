@@ -25,7 +25,7 @@ The <img alt="" src=images/Curves_GordonSurface.svg  style="width:24px;"> [Curve
         -   Each \"rib\" is in a separate sketch.
     -   The sketches containing the extent/shape (yellow) lines will typically reference external geometry from the \"rib\" sketches for accurate positioning.
 5.  These need to be created before the next step.
-6.  Switch to the <img alt="" src=images/Curves_workbench_icon.svg  style="width:24px;"> [Curves](Curves_Workbench.md) workbench (install from <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md) is necessary, if not previously installed)
+6.  Switch to the <img alt="" src=images/Curves_workbench_icon.svg  style="width:24px;"> _ is necessary, if not previously installed)
 7.  Now select all the lines of that will define the surface.
 8.  The order of selection defines the stitching or tenting order.
 9.  Use multi-select to select all lines defining the surface. (Left click while holding the Ctrl key.)

@@ -12,7 +12,7 @@
 
 Narzędzie Punkt tworzy punkt w bieżącym szkicu, który może być użyty do konstruowania elementów geometrii. Punkt jest zawsze elementem konstrukcyjnym i nie jest widoczny w oknie widoku 3D.
 
-[480px\|Point in the sketcher](IMAGE:Sketcher_Point_fr_01.png.md) 
+_ 
 
 ## Użycie
 
@@ -26,7 +26,7 @@ Tryb przyciągania do siatki może być ustawiony w [Preferencje szkicownika](Sk
 
 ## Ograniczenia
 
-Utworzony punkt nie jest dostępny poza szkicem. Jeśli punkt jest potrzebny w widoku 3D, użyj punktu środowiska pracy [Projekt części: punkt](PartDesign_Point/pl.md) jako punktu odniesienia lub [Część: punkt](Part_Point/pl.md).
+Utworzony punkt nie jest dostępny poza szkicem. Jeśli punkt jest potrzebny w widoku 3D, użyj punktu środowiska pracy _.
 
 
 

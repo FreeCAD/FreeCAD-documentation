@@ -118,7 +118,7 @@ print(obj.Label)
 
 *View and Data tabs of the property editor, for a basic "App::FeaturePython" scripted object.*
 
-Most geometrical objects that can be created and displayed in the [3D view](3D_view.md) are derived from a `Part::Feature`. See [Part Feature](Part_Feature.md) for the most basic properties that these objects have.
+Most geometrical objects that can be created and displayed in the _ for the most basic properties that these objects have.
 
 For 2D geometry, most objects are derived from `Part::Part2DObject` (itself derived from `Part::Feature`) which is the base of [Sketches](Sketch.md), and most [Draft elements](Draft_Workbench.md). See [Part Part2DObject](Part_Part2DObject.md) for the most basic properties that these objects have.
 
@@ -188,9 +188,9 @@ Most of these properties are inherited from the [Part Feature](Part_Feature.md) 
 
 -    **偏差（Deviation）**: 设置3D视图中模型多边形表示法（polygonal representation）的精准度（曲面细分）。较小的数值 = 更高的渲染质量。此值按对象大小的百分比来计算(以mm表示的偏差 = (w+h+d)/3\*valueInPercent/100, 其中w,h,d分别为包围盒的维度)。
 
--    **显示模式（Display Mode）**:对象的显示模式，**平直线（Flat lines）, 着色（Shaded）, 线框（Wireframe）, 点（Points）** [96px](IMAGE:Vue_DisplayModePartDesign_fr_00.png.md)。 （默认值, **平直线**）。
+-    **显示模式（Display Mode）**:对象的显示模式，**平直线（Flat lines）, 着色（Shaded）, 线框（Wireframe）, 点（Points）** _。 （默认值, **平直线**）。
 
--    **光照（Lighting）**: 光照**单侧（One side）, 两侧（Two side）** [96px](IMAGE:Vue_Lighting_fr_00.png.md). (默认值，**两侧**)。
+-    **光照（Lighting）**: 光照**单侧（One side）, 两侧（Two side）** _. (默认值，**两侧**)。
 
 -    **线段颜色（Line Color）**: 指定线段（边）的颜色（默认值, **25, 25, 25**）。
 

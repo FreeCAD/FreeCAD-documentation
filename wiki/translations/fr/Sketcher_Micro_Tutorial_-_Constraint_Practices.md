@@ -2,7 +2,7 @@
 {{TutorialInfo/fr
 |Topic=Sketcher
 |Level=Débutant
-|Author=Mark Stephen ([Quick61](User:Quick61.md)) et vocx
+|Author=Mark Stephen (_) et vocx
 |Time=Moins de 15 minutes
 |FCVersion=0.19
 |Files=[https://forum.freecadweb.org/viewtopic.php?f=36&p=371659#p371659 Sketcher Constraints practices]
@@ -12,7 +12,7 @@
 
 Ce tutoriel a été écrit à l\'origine par Quick61 et a été écrit et illustré par vocx.
 
-Ce tutoriel est conçu pour aider le nouvel utilisateur à se familiariser avec les meilleures pratiques de contrainte d\'une [Esquisse](Sketch/fr.md) dans le flux de travail de l\'<img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [atelier Sketcher](Sketcher_Workbench.md).
+Ce tutoriel est conçu pour aider le nouvel utilisateur à se familiariser avec les meilleures pratiques de contrainte d\'une _.
 
 Il existe une règle générale avec des contraintes : moins il y a de **contraintes de données** (dimensions), mieux c\'est.
 

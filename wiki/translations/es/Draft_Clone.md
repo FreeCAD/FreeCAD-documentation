@@ -62,7 +62,7 @@ Un objeto creado con el comando Clonar Borrador deriva de un [Pieza Pieza2DObjet
 
 ## Guión
 
-Ver también: [Documentación de la API autogenerada](https://freecad.github.io/SourceDoc/) y [Fundamentos de FreeCAD Guión](FreeCAD_Scripting_Basics/es.md).
+Ver también: _.
 
 Para crear un clon utilice el método `make_clone` ({{Version/es|0.19}}) del módulo Draft. Este método sustituye al método obsoleto `clone`.
 

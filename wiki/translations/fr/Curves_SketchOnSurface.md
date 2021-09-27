@@ -16,7 +16,7 @@ Cet outil mappe une esquisse sur une face comme une étiquette sur une bouteille
 
 ## Utilisation
 
-1.  Passer à l\'atelier <img alt="" src=images/Curves_workbench_icon.svg  style="width:24px;"> [Curves](Curves_Workbench/fr.md) (à installer à partir du <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md) si ce n\'est pas déjà fait)
+1.  Passer à l\'atelier <img alt="" src=images/Curves_workbench_icon.svg  style="width:24px;"> _ si ce n\'est pas déjà fait)
 2.  Il existe 2 méthodes pour utiliser l\'outil Esquisse sur une surface:
 
     Vous avez déjà une esquisse que vous souhaitez mapper sur une surface :

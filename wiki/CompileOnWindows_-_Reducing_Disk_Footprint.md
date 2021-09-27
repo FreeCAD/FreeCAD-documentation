@@ -160,7 +160,7 @@ This batch must be run with administrator privileges (or, you can set to allow u
 
 
 
-[Category:Developer Documentation](Category:Developer_Documentation.md)
+_
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > CompileOnWindows - Reducing Disk Footprint
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > CompileOnWindows - Reducing Disk Footprint

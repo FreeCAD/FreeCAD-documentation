@@ -28,7 +28,7 @@ Rezultaul produs de dialogul Rebar Distribution atunci când utilizatorul face c
 
 
 
-[Category:User Documentation](Category:User_Documentation.md) [Category:Reinforcement](Category:Reinforcement.md)
+_ _
 
 ---
-[documentation index](../README.md) > [User Documentation](Category:User Documentation.md) > Custom Spacing/ro
+[documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > Custom Spacing/ro

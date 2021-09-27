@@ -14,7 +14,7 @@ New development is happening in the [https://github.com/FreeCAD/FreeCAD-render R
 
  
 
-This is the FreeCAD Raytracing development project. It follows the rules of the [Getting things done](https://en.wikipedia.org/wiki/Getting_Things_Done) process. The projects are collected in the [Development roadmap](Development_roadmap.md).
+This is the FreeCAD Raytracing development project. It follows the rules of the _.
 
 ## Purpose and principles 
 
@@ -78,7 +78,7 @@ Featured is a part that was creating using PartDesign/Sketcher then rendered usi
 
  
 
-[Category:Roadmap](Category:Roadmap.md)
+_
 
 ---
-[documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing project
+[documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing project

@@ -59,7 +59,7 @@ Un objet SheetMetal Tôle de base est dérivé d\'un objet [Part Feature](Part_F
 
 
 
-[Category:SheetMetal](Category:SheetMetal.md) [Category:Addons](Category:Addons.md) [Category:External Command Reference](Category:External_Command_Reference.md)
+_ _ _
 
 ---
-[documentation index](../README.md) > [SheetMetal](Category:SheetMetal.md) > SheetMetal AddBase/fr
+[documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > SheetMetal AddBase/fr

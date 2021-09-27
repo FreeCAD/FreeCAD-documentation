@@ -50,7 +50,7 @@ Download the Curves workbench via the <img alt="" src=images/AddonManager.svg  s
 
 }} 
 
-[Category:External Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)
+_ _
 
 ---
-[documentation index](../README.md) > Curves Workbench/it
+[documentation index](../README.md) > [External Workbenches](Category_External Workbenches.md) > Curves Workbench/it

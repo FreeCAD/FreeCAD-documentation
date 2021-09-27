@@ -19,7 +19,7 @@ Da Mesh a Forma converte un oggetto [Mesh](Mesh/it.md) ([Mesh Feature](Mesh_Feat
 
 <div class="mw-translate-fuzzy">
 
-Questo strumento è ottimizzato per oggetti con facce piane (senza curve). Lo strumento corrispondente **<img src=images/Part_ShapeFromMesh.svg style="width:16px"> [Crea forma da mesh](Part_ShapeFromMesh/it.md)** dell\'ambiente <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> [Parte](Part_Workbench/it.md) potrebbe essere più adatto per oggetti che contengono superfici curve.
+Questo strumento è ottimizzato per oggetti con facce piane (senza curve). Lo strumento corrispondente **<img src=images/Part_ShapeFromMesh.svg style="width:16px"> _ potrebbe essere più adatto per oggetti che contengono superfici curve.
 
 
 </div>
@@ -80,4 +80,4 @@ new_obj = Arch.meshToShape(Box)
 </div>
 
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch MeshToShape/it
+[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch MeshToShape/it

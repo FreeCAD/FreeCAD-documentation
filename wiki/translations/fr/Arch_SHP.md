@@ -20,7 +20,7 @@ A noter que toute la question des unités géoréférencées, avec des centaines
 
  
 
-[Category:File Formats](Category:File_Formats.md)
+_
 
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SHP/fr
+[documentation index](../README.md) > [File Formats](Category_File Formats.md) > [Arch](Arch_Workbench.md) > Arch SHP/fr

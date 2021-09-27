@@ -228,7 +228,7 @@ N\'importez pas de formes invisibles: Cela masquera les formes de données/const
    
 
 Utilisez l\'union solide pour importer des pièces et des sous-assemblages: Toutes les pièces importées seront directement assemblées en tant que union.
-Cette fonctionnalité est utile pour les simulations [FEM](FEM_Workbench/fr.md) ou [l'impression 3D](Manual:Preparing_models_for_3D_printing/fr.md) si un seul solide est autorisé. L\'alternative consiste à créer ultérieurement une [forme de l\'assemblage complet](#Forme_de_l.27assemblage_complet.md).
+Cette fonctionnalité est utile pour les simulations _ si un seul solide est autorisé. L\'alternative consiste à créer ultérieurement une [forme de l\'assemblage complet](#Forme_de_l.27assemblage_complet.md).
 
 ### Paramètres de l\'interface utilisateur 
 
@@ -609,7 +609,7 @@ Il s\'agit d\'une commande spécifique à A2plus. Elle résout les contraintes d
 
 
 
-[Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+_ _
 
 ---
-[documentation index](../README.md) > A2plus Workbench/fr
+[documentation index](../README.md) > [Addons](Category_Addons.md) > A2plus Workbench/fr

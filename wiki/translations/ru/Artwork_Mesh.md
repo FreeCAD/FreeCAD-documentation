@@ -18,7 +18,7 @@
 
 }} 
 
-[Category:Mesh](Category:Mesh.md)
+_
 
 ---
-[documentation index](../README.md) > [Mesh](Category:Mesh.md) > Artwork Mesh/ru
+[documentation index](../README.md) > [Mesh](Category_Mesh.md) > Artwork Mesh/ru

@@ -4,7 +4,7 @@
 
 {{TOCright}}
 
-Dans FreeCAD, le mot \"[Part](Part/fr.md)\" est normalement utilisé pour faire référence à une classe <img alt="" src=images/Std_Part.svg  style="width:24px;"> [Std Part](Std_Part/fr.md) (`App::Part`), un type d\'objet conteneur défini par le système de base. Cette pièce permet de gérer la position des formes 3D afin de créer des assemblages mécaniques.
+Dans FreeCAD, le mot \"_ (`App::Part`), un type d\'objet conteneur défini par le système de base. Cette pièce permet de gérer la position des formes 3D afin de créer des assemblages mécaniques.
 
 Voir <img alt="" src=images/Std_Part.svg  style="width:24px;"> [Std Part](Std_Part/fr.md) pour plus d\'informations sur ce type d\'objet.
 
@@ -31,7 +31,7 @@ Cependant, lorsque plus de précision est requise, la distinction doit être fai
 
 }} {{Document objects navi}} 
 
-[Category:Glossary](Category:Glossary.md)
+_
 
 ---
-[documentation index](../README.md) > [Glossary](Category:Glossary.md) > Part/fr
+[documentation index](../README.md) > [Glossary](Category_Glossary.md) > Part/fr

@@ -163,7 +163,7 @@ Replace a string in all the pages listed in the Arch category (a/k/a )
 
 
 
-[Category:Arch](Category:Arch.md) [Category:Administration](Category:Administration.md) [Category:Developer](Category:Developer.md)
+_ _ _
 
 ---
-[documentation index](../README.md) > [Administration](Category:Administration.md) > WikiRobots
+[documentation index](../README.md) > [Administration](Category_Administration.md) > WikiRobots

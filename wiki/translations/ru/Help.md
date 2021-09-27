@@ -1,7 +1,7 @@
 # Help/ru
 ## Форум
 
-Первое место, куда вы можете обратиться за помощью, это [FreeCAD форум](https://forum.freecadweb.org/viewforum.php?f=3). Прочитайте [этот пост](https://forum.freecadweb.org/viewtopic.php?f=3&t=2264) перед тем как задать вопросы. Помните, что [важная информация](Important_information/ru.md) о Вашей системе необходима для помощи.
+Первое место, куда вы можете обратиться за помощью, это _ о Вашей системе необходима для помощи.
 
 There are different subforums for FreeCAD users and developers. Make sure you search the internet, and read through existing questions before you ask for help. There are subforums where you can discuss more specific topics, give your impressions of FreeCAD, discuss new ideas, etc. The forums are very active and you should get a reply very quickly.
 
@@ -37,7 +37,7 @@ We have an [official dedicated FreeCAD Discord server](https://discord.gg/NpMefp
 
  
 
-[Category:Help](Category:Help.md)
+_
 
 ---
-[documentation index](../README.md) > [Help](Category:Help.md) > Help/ru
+[documentation index](../README.md) > [Help](Category_Help.md) > Help/ru

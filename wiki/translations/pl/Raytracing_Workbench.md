@@ -145,7 +145,7 @@ Strony te odnoszą się do zastępczego stołu warsztatowego, zaprogramowanego w
 
 }} 
 
-[Category:Workbenches](Category:Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > Raytracing Workbench/pl
+[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Raytracing Workbench/pl

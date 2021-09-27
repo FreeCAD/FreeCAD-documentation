@@ -23,7 +23,7 @@ Alternativement, vous pouvez aussi utiliser la macro <img alt="" src=images/High
 
 
 
-[Category:Inspection](Category:Inspection.md) [Category:Workbenches](Category:Workbenches.md)
+_ _
 
 ---
-[documentation index](../README.md) > Inspection Workbench/fr
+[documentation index](../README.md) > [Inspection](Category_Inspection.md) > Inspection Workbench/fr

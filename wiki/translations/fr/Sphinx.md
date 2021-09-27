@@ -30,7 +30,7 @@ Résultats encourageants de David\_D:
 -   [Génération et hébergement automatiques de documentation](https://forum.freecadweb.org/viewtopic.php?f=8&t=47229)
 -   [Forum FreeCAD](https://forum.freecadweb.org/viewtopic.php?p=411563#p411563) - <https://github.com/DavidDaish/freecad_sphinx_docs>
 
-[Category:Developer\_Documentation](Category:Developer_Documentation.md)
+_
 
 ---
-[documentation index](../README.md) > [Developer_Documentation](Category:Developer_Documentation.md) > Sphinx/fr
+[documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > Sphinx/fr

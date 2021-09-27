@@ -243,7 +243,7 @@ With those two, you can proceed as above for displaying them on the drawing page
 
 }} {{Drawing Tools navi}} 
 
-[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing API example/en
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Drawing](Drawing_Workbench.md) > Drawing API example/en

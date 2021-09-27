@@ -37,7 +37,7 @@ The surface can be modified by adding constraint edges and vertices which the su
 
 </div>
 
-The base edges that form the closed contour, as well as the auxiliary vertices and edges, can belong to 2D curves from <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft](Draft_Workbench.md) or the <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Sketcher](Sketcher_Workbench.md), but can also belong to 3D solid objects such as those created with the <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part](Part_Workbench.md) or <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign Workbenches](PartDesign_Workbench.md).
+The base edges that form the closed contour, as well as the auxiliary vertices and edges, can belong to 2D curves from <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> _, but can also belong to 3D solid objects such as those created with the <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> _.
 
 ## Opţiuni
 
@@ -46,7 +46,7 @@ The base edges that form the closed contour, as well as the auxiliary vertices a
     -   
         **Add edge**
         
-        : press once to start picking **Boundary edges** in the <img src=images/Draft_Wire.svg style="width:3D view](3D_view.md). Straight edges such as **[16px"> <img src=images/Sketcher_CreatePolyline.svg style="width:Draft Wires](Draft_Wire.md)** and **[16px"> <img src=images/Draft_BSpline.svg style="width:Sketcher Polylines](Sketcher_CreatePolyline.md)**, or curved edges such as **[16px"> <img src=images/Sketcher_CreateBSpline.svg style="width:Draft BSplines](Draft_BSpline.md)** and **[16px"> <img src=images/PartDesign_Body.svg style="width:Sketcher BSplines](Sketcher_CreateBSpline.md)** can be chosen, as well as any edge from solid objects, like those of **[16px"> <img src=images/Part_Primitives.svg style="width:PartDesign Bodies](PartDesign_Body.md)** and **[16px"> [Part Primitives](Part_Primitives.md)**.
+        : press once to start picking **Boundary edges** in the <img src=images/Draft_Wire.svg style="width:3D view](3D_view.md). Straight edges such as **_**, or curved edges such as **_** can be chosen, as well as any edge from solid objects, like those of **[16px"> <img src=images/Part_Primitives.svg style="width:PartDesign Bodies](PartDesign_Body.md)** and **[16px"> [Part Primitives](Part_Primitives.md)**.
 
     -   
         **Remove edge**
@@ -66,7 +66,7 @@ The base edges that form the closed contour, as well as the auxiliary vertices a
 
 ## Proprietăți
 
-A [Surface Filling](Surface_Filling.md) (`Surface::Filling` class) is derived from the basic [Part Feature](Part_Feature.md) (`Part::Feature` class, through the `Part::Spline` subclass), therefore it shares all the latter\'s properties.
+A _ (`Part::Feature` class, through the `Part::Spline` subclass), therefore it shares all the latter\'s properties.
 
 In addition to the properties described in [Part Feature](Part_Feature.md), the Surface Filling has the following properties in the [property editor](Property_editor.md).
 

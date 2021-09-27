@@ -22,7 +22,7 @@ Avec la première utilisation de l\'outil <img alt="" src=images/SheetMetal_Unfo
 
 1.  Sélectionnez une face plane d\'une pièce en tôle. **Remarque** : la face doit être plane et d\'épaisseur constante.
 2.  Activez le <img alt="" src=images/SheetMetal_UnattendedUnfold.svg  style="width:16px;"> [Unattended Unfold](SheetMetal_UnattendedUnfold/fr.md) en utilisant la commande :
-    -   Le bouton **[16px](Image_:_SheetMetal_UnattendedUnfold.svg .md) [Unattended Unfold](SheetMetal_UnattendedUnfold/fr.md)**.
+    -   Le bouton **_ [Unattended Unfold](SheetMetal_UnattendedUnfold/fr.md)**.
 
     -   
         **SheetMetal → <img src="images/SheetMetal_UnattendedUnfold.svg" width=16px> [Unattended Unfold](SheetMetal_UnattendedUnfold/fr.md)
@@ -54,7 +54,7 @@ Voir <img alt="" src=images/SheetMetal_Unfold.svg  style="width:16px;"> [Déplie
 
 
 
-[Category:SheetMetal](Category:SheetMetal.md) [Category:Addons](Category:Addons.md) [Category:External Command Reference](Category:External_Command_Reference.md)
+_ _ _
 
 ---
-[documentation index](../README.md) > [SheetMetal](Category:SheetMetal.md) > SheetMetal UnattendedUnfold/fr
+[documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > SheetMetal UnattendedUnfold/fr

@@ -3,7 +3,7 @@
 
 ## Introdução
 
-Esta é a documentação wiki de [FreeCAD](http://www.freecadweb.org). Existem duas maneiras principais de navegar pela documentação: explorando os tópicos ou seguindo o manual. Trata-se de um trabalho em andamento, escrito pela comunidade de usuários e desenvolvedores do FreeCAD. Se você encontrar informações erradas ou ausentes, [ajude o FreeCAD](Special:MyLanguage/help_FreeCAD.md)!
+Esta é a documentação wiki de _!
 
 
 </div>
@@ -22,7 +22,7 @@ Esta é a documentação wiki de [FreeCAD](http://www.freecadweb.org). Existem d
 
 ## Manual
 
-<img alt="Crystal_Clear_manual.png" src=images/Crystal_Clear_manual.png  style="width:64px;">[O manual do FreeCAD](Manual:Introduction/pt-br.md) é um outro caminho mais linear para apresentar a informação presente nesta wiki. Ela foi projetada para ser lida como um livro, e irá iniciá-lo gentilmente para muitas outras páginas à partir dos hubs acima. [versões book](https://www.gitbook.com/book/yorikvanhavre/a-freecad-manual/details) estão disponíveis, como em [algumas traduções em formato PDF](https://www.freecadweb.org/manual/).
+<img alt="Crystal_Clear_manual.png" src=images/Crystal_Clear_manual.png  style="width:64px;">_ é um outro caminho mais linear para apresentar a informação presente nesta wiki. Ela foi projetada para ser lida como um livro, e irá iniciá-lo gentilmente para muitas outras páginas à partir dos hubs acima. [versões book](https://www.gitbook.com/book/yorikvanhavre/a-freecad-manual/details) estão disponíveis, como em [algumas traduções em formato PDF](https://www.freecadweb.org/manual/).
 
 
 
@@ -55,11 +55,11 @@ Há muito o que fazer no projeto FreeCAD, se você estiver interessado em nos aj
 -   ajudando com empacotamento do último lançamento do FreeCAD para o seu sistema operacional preferido
 -   apresente o FreeCAD para pessoas à sua volta.
 
-A página [ajude o FreeCAD](Special:MyLanguage/help_FreeCAD.md) descreve tudo com mais detalhes. Desde 2016, o FreeCAD também participa do [Google Summer of Code](Google_Summer_of_Code.md). A página [Tópicos de usuários](Contributors_hub.md) é outro esforço para reunir as maneiras possíveis de ajudar e contribuir com o projeto FreeCAD.
+A página _ descreve tudo com mais detalhes. Desde 2016, o FreeCAD também participa do [Google Summer of Code](Google_Summer_of_Code.md). A página [Tópicos de usuários](Contributors_hub.md) é outro esforço para reunir as maneiras possíveis de ajudar e contribuir com o projeto FreeCAD.
 
 ### Código fonte 
 
-O FreeCAD pode ser compilado em todas as plataformas usando [CMake](https://cmake.org/). O código-fonte é LGPL - licenciado e hospedado no [GitHub](https://github.com/FreeCAD/FreeCAD) e espelhado em [GitLab](https://gitlab.com/freecad/FreeCAD) e [CodeBerg](https://codeberg.org/FreeCAD/FreeCAD).Existem instruções de compilação para [Windows](Compile_on_Windows.md), [Linux](Compile_on_Linux.md) e [MacOS](Compile_on_MacOS.md).A documentação do código-fonte esta [aqui](http://www.freecadweb.org/api/hospedado), gerado por [Doxygen](Doxygen.md), e [documentado na wiki](Source_documentation.md).
+O FreeCAD pode ser compilado em todas as plataformas usando _, _, e [documentado na wiki](Source_documentation.md).
 
 ### Sobre o desenvolvimento 
 
@@ -68,7 +68,7 @@ Visite o [Mapa de desenvolvimento](Development_roadmap/pt-br.md) para ver notíc
 
 
 
-[Category:Documentation](Category:Documentation.md)
+_
 
 ---
-[documentation index](../README.md) > [Documentation](Category:Documentation.md) > Main Page/pt-br
+[documentation index](../README.md) > [Documentation](Category_Documentation.md) > Main Page/pt-br

@@ -1,9 +1,9 @@
 # Source code management
 ## Introduction
 
-The main source code management tool for the FreeCAD project is [Git](http://en.wikipedia.org/wiki/Git_%28software%29), which can be easily installed in most operating systems from a package manager or directly from [Git\'s website](https://git-scm.com/). You are advised to become familiar with Git before working with the FreeCAD source code directly. Visit the [Git documentation](https://git-scm.com/doc) page for the reference manual, as well as the [Pro Git book](https://git-scm.com/book/en/v2) to learn to use the system in a general way. The present document focuses on the use of Git for FreeCAD development. Compiling FreeCAD is described in [Compiling](Compiling.md).
+The main source code management tool for the FreeCAD project is _.
 
-While Git is primarily a terminal application, there are many graphical clients for it which facilitate working with branches, applying patches, and submitting pull requests to a master branch. Examples include [gitk](https://git-scm.com/docs/gitk) (the first graphical interface developed), [gitg](https://wiki.gnome.org/Apps/Gitg/) (Gnome), [qgit](https://github.com/tibirna/qgit) (Qt), [tig](https://jonas.github.io/tig/) (Ncurses), [git-cola](http://github.com/git-cola/git-cola), and [GitKraken](https://www.gitkraken.com/) (proprietary). Please see [Developing FreeCAD with GitKraken](Developing_FreeCAD_with_GitKraken.md) for a cursory introduction to this tool.
+While Git is primarily a terminal application, there are many graphical clients for it which facilitate working with branches, applying patches, and submitting pull requests to a master branch. Examples include _ for a cursory introduction to this tool.
 
 Note: if any of this is starting to make you dizzy, there is a very good non-technical series on how to use git and Github called \'[Git and Github for Poets](https://youtu.be/BCQHnlnPusY)\'
 
@@ -353,11 +353,9 @@ c83d67 OK, feature B is fully implemented now, with proper module setup, and cle
 When coding for FreeCAD, we ask that you begin each commit message with the module that it affects. For example, a commit message for a change to sketcher might be:
 
     Sketcher: make straight lines curve a bit
-
-    Straight lines are sort of ugly, so this commit adds a little bit of curvature to them, so
+Straight lines are sort of ugly, so this commit adds a little bit of curvature to them, so
     they are more visually pleasing. They also sparkle some, and change colors over time.
-
-    Fixes bug #1234.
+Fixes bug #1234.
 
 Your PR will be easier to review, and faster to be merged, if you are careful to use rebase to structure and describe your commits before submitting.
 
@@ -1026,7 +1024,7 @@ Head to the development section of the [FreeCAD forum](https://forum.freecadweb.
 
  
 
-[Category:Developer Documentation](Category:Developer_Documentation.md)
+_
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Source code management
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Source code management

@@ -19,7 +19,7 @@ Erzeugt eine Ellipse durch Auswahl von drei Punkten (in dieser Reihenfolge): Mit
 
 ## Neueste Version 
 
-Die neueste Version des Makros ist zu finden auf [EllipseCenter2Points.FCMacro](https://github.com/FreeCAD/FreeCAD-macros/blob/master/ObjectCreation/EllipseCenter2Points.FCMacro), aber der einfachste Weg zur Installation dieses Makros ist die Nutzung des [Addon-Managers](AddonManager/de.md).
+Die neueste Version des Makros ist zu finden auf _.
 
 ## Skript
 

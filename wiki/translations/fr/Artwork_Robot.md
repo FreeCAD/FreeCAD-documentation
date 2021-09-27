@@ -14,7 +14,7 @@ Pour toutes les icônes de l\'arborescence source, voir [Graphisme](Artwork/fr.m
 
 }} 
 
-[Category:Robot](Category:Robot.md)
+_
 
 ---
-[documentation index](../README.md) > [Robot](Category:Robot.md) > Artwork Robot/fr
+[documentation index](../README.md) > [Robot](Category_Robot.md) > Artwork Robot/fr

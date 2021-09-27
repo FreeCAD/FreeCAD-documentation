@@ -9,7 +9,7 @@
 
 Nástroj **![](images/)_[Bod](Sketcher_Point/cs.md)** vytvoří bod v aktuálním listu \"**Skicáře**\".
 
-[480px\|Point in the sketcher](IMAGE:Sketcher_Point_fr_01.png.md) 
+_ 
 
 
 <div class="mw-translate-fuzzy">

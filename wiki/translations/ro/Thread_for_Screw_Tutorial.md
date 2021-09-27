@@ -6,7 +6,7 @@
 |Topic= Modeling
 |Level= Advanced
 |Time= 
-|Author=[DeepSOIC](User:DeepSOIC.md), [Murdic](User:Murdic.md)
+|Author=_, _
 |FCVersion=0.14 or above (depends on method)
 |Files=
 }}

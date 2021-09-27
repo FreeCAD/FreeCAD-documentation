@@ -6,7 +6,7 @@ The FreeCAD changelog is maintained on our mantis tracker:
 
 
 
-[Category:Administration](Category:Administration.md) [Category:Developer](Category:Developer.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Administration](Category:Administration.md) > Changelog/en
+[documentation index](../README.md) > [Administration](Category_Administration.md) > Changelog/en

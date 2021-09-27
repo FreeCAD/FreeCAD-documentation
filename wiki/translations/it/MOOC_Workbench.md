@@ -91,7 +91,7 @@ Sono in fase di sviluppo ulteriori nuovi ambienti.
 
  
 
-[Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+_ _
 
 ---
-[documentation index](../README.md) > MOOC Workbench/it
+[documentation index](../README.md) > [Addons](Category_Addons.md) > MOOC Workbench/it

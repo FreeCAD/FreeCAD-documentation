@@ -1,6 +1,6 @@
 # Part Cut/cs
 ---
-- GuiCommand:/cs   Name:Part Cut   Name/cs:Díl Oddělit   MenuLocation:Díl → Oddělit   Workbenches:[Kompletace ](Part_Workbench/cs___Díl]],_[[Complete_Workbench/cs.md)|SeeAlso:[Díl Sjednotit](Part_Union/cs.md), [Díl Společné](Part_Common/cs.md)---
+- GuiCommand:/cs   Name:Part Cut   Name/cs:Díl Oddělit   MenuLocation:Díl → Oddělit   Workbenches:_, [Díl Společné](Part_Common/cs.md)---
 
 
 </div>
@@ -17,7 +17,7 @@ Cuts (subtracts) selected Part objects, the last one being subtracted from the f
 
 **Note:** This command is an automated form of the <img alt="" src=images/Part_Boolean.svg  style="width:24px;"> [Boolean operation](Part_Boolean.md).
 
-[480px\|left\|Cut](IMAGE:Part_Cut_01.png.md)
+_
 
 ## Usage
 

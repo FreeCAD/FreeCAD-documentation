@@ -1,5 +1,5 @@
 # Dependency Matrix
-1.  REDIRECT [Sandbox:Dependency Matrix](Sandbox:Dependency_Matrix.md)
+1.  REDIRECT _
 
 ---
 [documentation index](../README.md) > Dependency Matrix

@@ -27,7 +27,7 @@ Il Comando Gui è denominato nel modo: *ModuleName\_CommandName*. Ad esempio, \"
 
 <div class="mw-translate-fuzzy">
 
-Se la sua documentazione non è completa usare la maschera [Template:UnfinishedDocu](Template:UnfinishedDocu.md) (en) - [Documentazione incompleta](Template:UnfinishedDocu/it.md) (it).
+Se la sua documentazione non è completa usare la maschera _ (en) - _ (it).
 
 
 </div>
@@ -121,7 +121,7 @@ There are a lot of GuiCommands (tools) in FreeCAD which are experimental or used
 
 -   Il comando o funzione è **finito**. Non ci sono lavori in corso!
 -   Ha una **pagina di aiuto** come [Draft ShapeString](Draft_ShapeString/it.md)
-    -   Tutti i campi del modello [Template:GuiCommand](Template:GuiCommand.md) - [Maschera di GuiCommand](Template:GuiCommand/it.md) sono compilati
+    -   Tutti i campi del modello _ - _ sono compilati
     -   È visualizzata l\'eventuale finestra di dialogo del comando
     -   C\'è la descrizione dettagliata del comando, di tutti i suoi parametri e delle impostazioni
     -   Le interfacce e classi Python correlate sono descritte con codici di esempio

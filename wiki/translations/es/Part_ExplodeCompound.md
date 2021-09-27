@@ -41,7 +41,7 @@ La herramienta también explotará las formas no compuestas en sus constituyente
 <div class="mw-translate-fuzzy">
 
 -   Ajustar las posiciones de las formas hechas por <img alt="" src=images/Draft_Array.svg  style="width:24px;"> [Draft Array](Draft_Array/es.md)
--   Obtención de piezas divididas a partir del resultado de <img alt="" src=images/Part_Slice.svg  style="width:24px;"> [Pieza Slice](Part_Slice/es.md) y <img alt="" src=images/Part_Cut.svg  style="width:24px;"> [Pieza Cut](Part_Cut/es.md)
+-   Obtención de piezas divididas a partir del resultado de <img alt="" src=images/Part_Slice.svg  style="width:24px;"> _
 -   Obtención de contornos individuales a partir de bocetos y rostros multicontorno
 -   Obtención de un sólido puro a partir de un sólido en compuesto, para su uso en <img alt="" src=images/Workbench_FEM.svg  style="width:24px;"> [MEF Ambiente de trabajo](FEM_Workbench/es.md).
 

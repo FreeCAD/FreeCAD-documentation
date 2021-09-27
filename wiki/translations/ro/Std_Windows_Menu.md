@@ -87,7 +87,7 @@ Ferestre\...
 
 }}  
 
-[Category:Workbenches](Category:Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > [Workbenches](Category:Workbenches.md) > Std Windows Menu/ro
+[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Std Windows Menu/ro

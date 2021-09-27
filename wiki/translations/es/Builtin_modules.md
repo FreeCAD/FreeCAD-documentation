@@ -28,7 +28,7 @@ Esta página presenta información más detallada sobre los módulos incorporado
 
 }} 
 
-[Category:API](Category:API.md)
+_
 
 ---
-[documentation index](../README.md) > [API](Category:API.md) > Builtin modules/es
+[documentation index](../README.md) > [API](Category_API.md) > Builtin modules/es

@@ -19,12 +19,17 @@ The list below shows parameters that are not accessible via the preferences edit
 -   **Document/SaveThumbnailFix** (boolean): Set to `True` to fix a problem with Qt5 that prevents the generation of `.FCStd` file thumbnails.
 -   **General/RecentIncludesExported** (boolean): Set to `True` to include exported files in the Recent Files list. Defaults to `False`.
 -   **General/RecentIncludesImported** (boolean): Set to `False` to exclude imported files from the Recent Files list. Defaults to `True`.
+-   **Macro/DuplicateFrom001** (boolean): Set to `True` to always begin searching for suggested duplicate macro filename with \@001 instead of current \@NNN, if applicable. Defaults to `False`.
+-   **Macro/DuplicateIgnoreExtraNote** (boolean): Set to `True` to ignore extra note when suggesting duplicate macro filename. Extra note is text in the filename following \"\@NNN\" and before \".FCMacro\". Example: \"my\_macro\@005.my\_note.FCMacro\". If `True` the next suggested filename is \"my\_macro\@006.FCMacro\". If set to `False` the next suggested filename is \"my\_macro\@006.my\_note.FCMacro\". To be recognized as an extra note the text should begin with a dot (\".\") following the \"\@NNN\". Otherwise, for example \"my\_macro\@006\_my\_note.FCMacro\" gets \"my\_macro\@006\_my\_note\@001.FCMacro\" as suggested new filename, which might be desirable in some cases. Defaults to `False`.
+-   **Macro/ReplaceSpaces** (boolean): Set to `False` if you do not want spaces in your filenames automatically converted to underscores when creating, renaming, or duplicating a macro. Does not affect existing files, only matters when creating new file or renaming or duplicating existing file. Defaults to `True`.
 -   **Mod/Draft/defaultCameraHeight** (int) : Sets the height of the camera when Draft starts in an empty document. 0 disables, FreeCAD default is 5, good when working in millimeters, a good height for arch work is 4500.
 -   **Mod/Part/ParametricRefine** (boolean) : Set to `False` so [Part RefineShape](Part_RefineShape.md) creates an independent copy rather than a linked one. Defaults to `True`.
 -   **Mod/PartDesign/AdditiveHelixPreview** (boolean): Set to `True` to ensure an additive helix that does not intersect the body is visible in the preview. Defaults to `False`.
 -   **Mod/PartDesign/SubtractiveHelixPreview** (boolean): Set to `True` to ensure a subtractive helix that does not intersect the body is visible in the preview. Defaults to `True`.
 -   **Mod/PartDesign/SwitchToTask** (boolean): Set to `False` to prevent the [PartDesign Workbench](PartDesign_Workbench.md) from switching to the Task panel when starting. Defaults to `True`.
 -   **Mod/PartDesign/SwitchToWB** (boolean): Set to `False` to prevent the [PartDesign Workbench](PartDesign_Workbench.md) to be automatically called when a [PartDesign Body](PartDesign_Body.md) is activated. Defaults to `True`.
+-   **Mod/Sketcher/RadiusDiameterConstraintDisplayBaseAngle** (float): Set the angle (from horizontal) used to display radius/diameter constraints in Sketcher at creation time. Default is 15 degrees (if no value set).
+-   **Mod/Sketcher/RadiusDiameterConstraintDisplayAngleRandomness** (float): Set an angle randomness on the above value. Value is the range of the random angle, centered on base angle. Default is 0 degree \-- disabled \-- (if no value set).
 -   **PropertyView/AutoTransactionView** (boolean) : Set to `True` so changes of View tab properties are added to the undo stack (hence are undoable). Defaults to `False`.
 -   **View/NavigationDebug** (boolean) : enables debug output of navigation styles (as of v0.19, only Gesture navigation style has something to say).
 -   **View/SavePicture** (string): Set to **FramebufferObject**, **PixelBuffer** or **CoinOffscreenRenderer** for different methods to produce images from the 3D view.
@@ -55,7 +60,7 @@ Any other characters are treated literally. If the resulting filename is illegal
 
 ### Escape Key 
 
--   **General/TasksKeyEsc** (boolean) : Create and set to `False` to disable the **ESC** key exiting the [Task panel](Task_panel.md) in all workbenches (that is if the task panel has focus). **Note:** Superceded by [Sketcher Preferences](Sketcher_Preferences#General.md).
+-   **General/TasksKeyEsc** (boolean) : Create and set to `False` to disable the **ESC** key exiting the _.
 -   **Mod/Sketcher/ViewKeyEsc** (boolean) : Create and set to `False` to disable **ESC** key issues with pressing one to many times, when escaping sketcher geometry/constraints creation continue mode (see [forum thread](https://forum.freecadweb.org/viewtopic.php?f=3&t=42207&start=60#p367584))
 
 ## Specific Workbenches 
@@ -73,7 +78,7 @@ Any other characters are treated literally. If the resulting filename is illegal
 
 
 
-[Category:Developer Documentation](Category:Developer_Documentation.md)
+_
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Fine-tuning/pt-br
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Fine-tuning/pt-br

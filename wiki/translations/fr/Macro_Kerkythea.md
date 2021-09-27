@@ -45,7 +45,7 @@ Voir [Comment installer des Macros](How_to_install_macros/fr.md)
 
 
 
-[Category:Macros](Category:Macros.md) [Category:Sandbox](Category:Sandbox.md) [Category:User Documentation](Category:User_Documentation.md) [Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+_ _ _ _ _
 
 ---
-[documentation index](../README.md) > [Macros](Category:Macros.md) > Macro Kerkythea/fr
+[documentation index](../README.md) > [Macros](Category_Macros.md) > Macro Kerkythea/fr

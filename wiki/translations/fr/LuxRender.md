@@ -8,7 +8,7 @@
 
 # Description 
 
-[LuxRender](https://luxcorerender.org/history/) est l\'un des deux moteurs de rendu supportés par l\'[atelier Raytracing](Raytracing_Workbench/fr.md) avec [POV-Ray](POV-Ray/fr.md). En 2013, le projet a été redémarré pour devenir [LuxCoreRender](LuxCoreRender/fr.md), avec une réécriture majeure du code et des changements de compatibilité, le projet LuxRender a donc été abandonné. Officiellement, [LuxCoreRender](LuxCoreRender/fr.md) n\'est pas supporté par l\'[atelier Raytracing](Raytracing_Workbench/fr.md), bien qu\'il puisse être intéressant d\'essayer.
+_ avec [POV-Ray](POV-Ray/fr.md). En 2013, le projet a été redémarré pour devenir [LuxCoreRender](LuxCoreRender/fr.md), avec une réécriture majeure du code et des changements de compatibilité, le projet LuxRender a donc été abandonné. Officiellement, [LuxCoreRender](LuxCoreRender/fr.md) n\'est pas supporté par l\'[atelier Raytracing](Raytracing_Workbench/fr.md), bien qu\'il puisse être intéressant d\'essayer.
 
 
 </div>
@@ -25,7 +25,7 @@
 ## Atelier Raytracing 
 
 
-**L'[atelier Raytracing](Raytracing_Workbench/fr.md) a été remplacé par le nouvel [https://github.com/FreeCAD/FreeCAD-render atelier Render], qui est destiné à le remplacer. Il ne doit pas être confondu avec [Le module de rendus](Render_project.md), arrêté et dépassé. Le Render Workbench peut être installé via le [Gestionnaire d'Addon](Std_AddonMgr/fr.md). L'information ici est fournie parce que par défaut FreeCAD est toujours livré (à partir de 0.19-24276) avec l'atelier Raytracing et parce que le nouveau module devrait fondamentalement fonctionner de la même manière**
+**L'_, arrêté et dépassé. Le Render Workbench peut être installé via le [Gestionnaire d'Addon](Std_AddonMgr/fr.md). L'information ici est fournie parce que par défaut FreeCAD est toujours livré (à partir de 0.19-24276) avec l'atelier Raytracing et parce que le nouveau module devrait fondamentalement fonctionner de la même manière**
 
 .
 
@@ -125,7 +125,7 @@ Il n\'existe pas de version de développement de LuxRender, le développement ay
 
 ## Atelier Render 
 
-L\'[Atelier Render](https://github.com/FreeCAD/FreeCAD-render) a abandonné la prise en charge de LuxRender, car il est dépassé. Il supporte à la place le redémarrage moderne [LuxCoreRender](LuxCoreRender/fr.md).
+L\'_.
 
 
 </div>

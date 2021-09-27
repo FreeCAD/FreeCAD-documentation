@@ -9,7 +9,7 @@
 
 ## Description
 
-The <img alt="" src=images/Assembly_ConstraintDiameter.svg  style="width:16px;"> [Diameter](Assembly3_ConstraintDiameter.md) command constrains the diameter of a 2D circle or arc which is made with <img alt="" src=images/Workbench_Draft.svg  style="width:16px;"> [Draft Workbench](Draft_Workbench.md) tools in relation with a <img alt="" src=images/Assembly_Workplane.svg  style="width:16px;"> workplane.
+The <img alt="" src=images/Assembly_ConstraintDiameter.svg  style="width:16px;"> _ tools in relation with a <img alt="" src=images/Assembly_Workplane.svg  style="width:16px;"> workplane.
 
 To set the diameter edit the Diameter parameter in the properties panel.
 

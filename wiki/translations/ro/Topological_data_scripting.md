@@ -1693,7 +1693,7 @@ Pentru a converti un fișier **.stp** în **.igs** este simplu :
 
 }} 
 
-[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Topological data scripting/ro
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Topological data scripting/ro

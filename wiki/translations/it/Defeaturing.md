@@ -26,7 +26,7 @@ Part.show(box4) #show defeatured shape
 
  
 
-[Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Addons](Category:Addons.md) > Defeaturing/it
+[documentation index](../README.md) > [Addons](Category_Addons.md) > Defeaturing/it

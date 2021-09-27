@@ -1,6 +1,6 @@
 # Sketcher ConstrainHorizontal/cs
 ---
-- GuiCommand:/cs   Name:Constraint Horizontal   Name/cs:Constraint Horizontal   Workbenches:[PartDesign](Sketcher_Workbench/cs___Sketcher]],_[[PartDesign_Workbench/cs.md)|MenuLocation:Sketch → Sketcher constraints → Constrain horizontally   SeeAlso:[Constraint Vertical](Constraint_Vertical/cs.md)---
+- GuiCommand:/cs   Name:Constraint Horizontal   Name/cs:Constraint Horizontal   Workbenches:_---
 
 
 </div>

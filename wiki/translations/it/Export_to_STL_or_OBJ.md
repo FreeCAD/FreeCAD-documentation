@@ -111,7 +111,7 @@ In questo tutorial ci occuperemo di come esportare file STL / OBJ da FreeCAD. Da
 
 
 
-[Category:File\_Formats](Category:File_Formats.md)
+_
 
 ---
-[documentation index](../README.md) > [File_Formats](Category:File_Formats.md) > Export to STL or OBJ/it
+[documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Export to STL or OBJ/it

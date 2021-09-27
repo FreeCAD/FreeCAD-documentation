@@ -11,7 +11,7 @@
 
 ## Description
 
-L\'outil Hachures remplit une région fermée dans une vue avec un motif de hachures, qui peut être des fichiers [SVG](SVG/fr.md) ou [bitmap](bitmap/fr.md). Au contraire, l\'outil <img alt="" src=images/TechDraw_GeometricHatch.svg  style="width:24px;"> [TechDraw Hachures géométriques](TechDraw_GeometricHatch/fr.md) utilise un fichier de modèle PAT spécifique, voir [Hachures](TechDraw_Hatching/fr.md) pour plus de détails.
+L\'outil Hachures remplit une région fermée dans une vue avec un motif de hachures, qui peut être des fichiers _ utilise un fichier de modèle PAT spécifique, voir [Hachures](TechDraw_Hatching/fr.md) pour plus de détails.
 
 <img alt="" src=images/TechDraw_Hatch_example.png  style="width:300px;">
 

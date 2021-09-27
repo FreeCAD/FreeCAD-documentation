@@ -3,7 +3,7 @@
 |Topic= Reinforced concrete with FEM
 |Level= Intermediate
 |Time= 60 minutes
-|Author=[HarryvL](User:HarryvL.md), [https://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=18062 HarryvL]
+|Author=_, [https://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=18062 HarryvL]
 |FCVersion= 0.19 or newer
 |Files=
 }}

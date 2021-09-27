@@ -21,7 +21,7 @@ Il est également possible d\'installer des bibliothèques PythonOCC pré-compil
 
 ## Compilation
 
-Vous pouvez également compiler vous-même pythonOCC (voir [instructions](https://github.com/tpaviot/pythonocc-core/blob/master/INSTALL.md)). Voici la procédure à suivre pour Debian/Ubuntu en utilisant les paquets opencascade fournis par la distribution :
+Vous pouvez également compiler vous-même pythonOCC (voir _). Voici la procédure à suivre pour Debian/Ubuntu en utilisant les paquets opencascade fournis par la distribution :
 
     git clone git://github.com/tpaviot/pythonocc-core.git pythonocc
     cd pythonocc
@@ -42,7 +42,7 @@ Vous pouvez également compiler vous-même pythonOCC (voir [instructions](https:
 
 }} 
 
-[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > PythonOCC/fr
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > PythonOCC/fr

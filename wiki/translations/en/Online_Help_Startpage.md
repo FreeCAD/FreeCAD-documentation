@@ -19,7 +19,7 @@ As you may have experienced sometimes, programmers are really bad help writers! 
 
 
 
-[Category:User\_Documentation](Category:User_Documentation.md)
+_
 
 ---
-[documentation index](../README.md) > [User_Documentation](Category:User_Documentation.md) > Online Help Startpage/en
+[documentation index](../README.md) > [User_Documentation](Category_User_Documentation.md) > Online Help Startpage/en

@@ -1,6 +1,6 @@
 # Sketcher ConstrainRadius/es
 ---
-- GuiCommand:/es   Name:Constraint Radius   Workbenches:[Diseño de Piezas](Sketcher_Workbench/es___Croquizador]],_[[PartDesign_Workbench/es.md)|MenuLocation:Croquizador → Restricciones del Croquizador → Radio   SeeAlso:[Distancia](Constraint_Length/es.md), [Horizontal](Constraint_Horizontal/es.md), [Vertical](Constraint_Vertical/es.md)---
+- GuiCommand:/es   Name:Constraint Radius   Workbenches:_, [Horizontal](Constraint_Horizontal/es.md), [Vertical](Constraint_Vertical/es.md)---
 
 
 </div>

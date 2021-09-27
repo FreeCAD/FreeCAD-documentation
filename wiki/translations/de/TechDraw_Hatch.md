@@ -11,7 +11,7 @@
 
 ## Beschreibung
 
-Das Schraffur Werkzeug füllt einen geschlossenen Bereich in einer Ansicht mit einem Schraffurmuster, das [SVG](SVG/de.md) oder [bitmap](bitmap/de.md) Dateien sein können. Im Gegenteil, das <img alt="" src=images/TechDraw_GeometricHatch.svg  style="width:24px;"> [Geometrische Schraffur](TechDraw_GeometricHatch/de.md) Werkzeug verwendet eine bestimmte PAT Musterdatei, siehe [Schraffur](TechDraw_Hatching/de.md) für Einzelheiten.
+Das Schraffur Werkzeug füllt einen geschlossenen Bereich in einer Ansicht mit einem Schraffurmuster, das _ Werkzeug verwendet eine bestimmte PAT Musterdatei, siehe [Schraffur](TechDraw_Hatching/de.md) für Einzelheiten.
 
 <img alt="" src=images/TechDraw_Hatch_example.png  style="width:300px;">
 

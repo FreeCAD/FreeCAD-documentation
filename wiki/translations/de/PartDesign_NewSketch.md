@@ -59,7 +59,7 @@ Dialog-Einstellungen
 
 <div class="mw-translate-fuzzy">
 
-Um beliebige Elemente im [Arbeitsbereich Skizzierer](Sketcher_Workbench/de.md) zu referenzieren, verwende die beiden Funktionen <img alt="" src=images/Sketcher_External.svg  style="width:32px;"> [Externe Geometrie](Sketcher_External/de.md) und <img alt="" src=images/Sketcher_CarbonCopy.svg  style="width:32px;"> [Kopie](Sketcher_CarbonCopy/de.md). Generell ist es empfehlenswert, andere Skizzen als Quelle für Referenzen zu verwenden, anstatt Flächen oder Kanten, da diese weniger von der Topologischen Benennungsproblematik betroffen sind.
+Um beliebige Elemente im _ und <img alt="" src=images/Sketcher_CarbonCopy.svg  style="width:32px;"> [Kopie](Sketcher_CarbonCopy/de.md). Generell ist es empfehlenswert, andere Skizzen als Quelle für Referenzen zu verwenden, anstatt Flächen oder Kanten, da diese weniger von der Topologischen Benennungsproblematik betroffen sind.
 
 
 </div>

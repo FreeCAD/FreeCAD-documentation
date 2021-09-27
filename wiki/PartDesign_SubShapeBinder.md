@@ -35,7 +35,7 @@ It can also bind to objects that are nested inside [Std Parts](Std_Part.md), and
 
 ## Properties
 
-The [SubShapeBinder](PartDesign_SubShapeBinder.md) is derived from [Part Feature](Part_Feature.md) (`Part::Feature` class). In addition to the properties listed in [Part Feature](Part_Feature.md), the following properties are available in the [property editor](property_editor.md).
+The _, the following properties are available in the [property editor](property_editor.md).
 
 ### Data
 

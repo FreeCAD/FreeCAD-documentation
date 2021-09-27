@@ -96,7 +96,7 @@ print m.A21()               # print m[1][0]
 
   
 
-[Category:API](Category:API.md) [Category:Poweruser Documentation](Category:Poweruser_Documentation.md)
+_ _
 
 ---
-[documentation index](../README.md) > [API](Category:API.md) > Matrix API
+[documentation index](../README.md) > [API](Category_API.md) > Matrix API

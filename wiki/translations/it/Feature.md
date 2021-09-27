@@ -1,7 +1,7 @@
 # Feature/it
 ## Introduzione
 
-In FreeCAD the word \"[Feature](Feature.md)\" is normally used to refer to a [PartDesign Feature](PartDesign_Feature.md) object (`PartDesign::Feature` class) that is defined by the [PartDesign Workbench](PartDesign_Workbench.md). This is an operation or modelling step performed to create or modify a solid [Shape](Shape.md) following the [feature editing](feature_editing.md) paradigm.
+In FreeCAD the word \"_. This is an operation or modelling step performed to create or modify a solid [Shape](Shape.md) following the [feature editing](feature_editing.md) paradigm.
 
 See [PartDesign Feature](PartDesign_Feature.md) for more information about this type of object.
 
@@ -18,18 +18,18 @@ See [PartDesign Feature](PartDesign_Feature.md) for more information about this 
 
 In the general sense, a \"Feature\" can be any modelling step used to create a final [Shape](Shape.md), with any tool of any [workbench](Workbenches.md).
 
--   For example, in the <img src=images/Part_Fuse.svg style="width:Part Workbench](Part_Workbench.md), in the [constructive solid geometry](constructive_solid_geometry.md) workflow, a \"Feature\" could be any boolean operation, like **[16px"> <img src=images/Part_Cut.svg style="width:Part Fuse](Part_Fuse.md)**, **[16px"> <img src=images/Part_Common.svg style="width:Part Cut](Part_Cut.md)**, or **[16px"> [Part Common](Part_Common.md)**.
+-   For example, in the <img src=images/Part_Fuse.svg style="width:Part Workbench](Part_Workbench.md), in the _**, **[16px"> <img src=images/Part_Common.svg style="width:Part Cut](Part_Cut.md)**, or **[16px"> [Part Common](Part_Common.md)**.
 
 In a more specific sense, a \"Feature\" is a modelling step used inside a [PartDesign Body](PartDesign_Body.md).
 
--   For example, **<img src=images/PartDesign_AdditiveCylinder.svg style="width:16px"> <img src=images/PartDesign_AdditiveLoft.svg style="width:PartDesign Additive cylinder](PartDesign_AdditiveCylinder.md)**, **[16px"> <img src=images/PartDesign_Pocket.svg style="width:PartDesign Additive loft](PartDesign_AdditiveLoft.md)**, **[16px"> <img src=images/PartDesign_SubtractiveCone.svg style="width:PartDesign Pocket](PartDesign_Pocket.md)**, **[16px"> [PartDesign Subtractive cone](PartDesign_SubtractiveCone.md)**, etc., are all \"Features\".
+-   For example, **<img src=images/PartDesign_AdditiveCylinder.svg style="width:16px"> <img src=images/PartDesign_AdditiveLoft.svg style="width:PartDesign Additive cylinder](PartDesign_AdditiveCylinder.md)**, **_**, **[16px"> [PartDesign Subtractive cone](PartDesign_SubtractiveCone.md)**, etc., are all \"Features\".
 
 
 {{PartDesign Tools navi
 
 }}  {{Document objects navi}} 
 
-[Category:Glossary](Category:Glossary.md)
+_
 
 ---
-[documentation index](../README.md) > [Glossary](Category:Glossary.md) > Feature/it
+[documentation index](../README.md) > [Glossary](Category_Glossary.md) > Feature/it

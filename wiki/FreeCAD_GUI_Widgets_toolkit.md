@@ -13,7 +13,7 @@ This doesn\'t serve Design456\'s agenda as it would make producing new tools dif
 
 This GUI toolkit will in the beginning try to produce different kind of primitive drawings which then can be adapted by different widgets (i.e square, circle, triangle, ellipse etc\...) For example an arrow that a user can push/pull to get the effect of extruding or pushing a face of a 3D object.
 
-As I am inspired totally by the simplicity of [FLTK GUI Toolkit](https://www.fltk.org/) used for making Windows/macOS/Linux GUI interfaces in cplusplus and other languages. The [Fr Widget](Fr_Widget.md) toolkit will be inspired by FLTK so understanding the toolkit shouldn\'t present much difficulty.
+As I am inspired totally by the simplicity of _ toolkit will be inspired by FLTK so understanding the toolkit shouldn\'t present much difficulty.
 
 ##### Simple example showing a drawing 
 

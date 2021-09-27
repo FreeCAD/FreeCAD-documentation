@@ -12,7 +12,7 @@ There is only one tab: Raytracing.
 
 }}  
 
-[Category:Preferences](Category:Preferences.md)
+_
 
 ---
-[documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing Preferences/en
+[documentation index](../README.md) > [Preferences](Category_Preferences.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing Preferences/en

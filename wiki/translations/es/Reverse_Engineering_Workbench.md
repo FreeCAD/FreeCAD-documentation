@@ -30,7 +30,7 @@ Enlace a los hilos apropiados en los que se habla de este ambiente de trabajo
 
 
 
-[Category:Reverse Engineering](Category:Reverse_Engineering.md) [Category:Workbenches](Category:Workbenches.md)
+_ _
 
 ---
-[documentation index](../README.md) > Reverse Engineering Workbench/es
+[documentation index](../README.md) > [Reverse Engineering](Category_Reverse Engineering.md) > Reverse Engineering Workbench/es

@@ -18,7 +18,7 @@ La compilation de la documentation de l\'API suit les mêmes étapes générales
 
 ### Documentation complète 
 
-Si vous avez installé Doxygen, il est très facile de construire la documentation. Installez également [Graphviz](https://www.graphviz.org/) pour pouvoir produire des diagrammes montrant les relations entre différentes classes et bibliothèques dans le code FreeCAD. Graphviz est également utilisé par le [graphe de dépendance](Std_DependencyGraph/fr.md) de FreeCAD pour montrer les relations entre différents objets. 
+Si vous avez installé Doxygen, il est très facile de construire la documentation. Installez également _ de FreeCAD pour montrer les relations entre différents objets. 
 ```python
 sudo apt install doxygen graphviz
 ```
@@ -124,7 +124,7 @@ void removeTaskWatcher(void);
 
  
 
-[Category:Developer Documentation](Category:Developer_Documentation.md)
+_
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Source documentation/fr
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Source documentation/fr

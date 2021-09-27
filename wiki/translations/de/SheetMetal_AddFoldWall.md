@@ -149,7 +149,7 @@ Achtung!: Im wirklichen Leben muss die Kantung nach oben vor der Kantung nach un
 
 
 
-[Category:SheetMetal](Category:SheetMetal.md) [Category:Addons](Category:Addons.md) [Category:External Command Reference](Category:External_Command_Reference.md)
+_ _ _
 
 ---
-[documentation index](../README.md) > [SheetMetal](Category:SheetMetal.md) > SheetMetal AddFoldWall/de
+[documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > SheetMetal AddFoldWall/de

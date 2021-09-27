@@ -40,7 +40,7 @@ Eventually a property editor for the PropertyUntit.
 ### Workbenches
 
 -   Upgrading workbenches to use the Units framework. I would start with Sketcher and PartDesign and go subsequently further\...
--   Documenting that upgrade process so other people can do the same with other workbenches \--[Yorikvanhavre](User:Yorikvanhavre.md) 13:13, 28 November 2011 (UTC)
+-   Documenting that upgrade process so other people can do the same with other workbenches \--_ 13:13, 28 November 2011 (UTC)
 
 ## Next actions 
 
@@ -48,7 +48,7 @@ Eventually a property editor for the PropertyUntit.
 
  
 
-[Category:Roadmap](Category:Roadmap.md)
+_
 
 ---
-[documentation index](../README.md) > [Roadmap](Category:Roadmap.md) > Units project
+[documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > Units project

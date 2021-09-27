@@ -59,9 +59,9 @@
 
 ## Авторы
 
-Шаблоны созданы [Quick61](User:Quick61.md) и записаны в [FreeCAD-Drawing-Templates](https://github.com/quick61/FreeCAD-Drawing-Templates).
+Шаблоны созданы _ и записаны в [FreeCAD-Drawing-Templates](https://github.com/quick61/FreeCAD-Drawing-Templates).
 
-[Category:Documentation](Category:Documentation.md) [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Drawing](Category:Drawing.md)
+_ _ _
 
 ---
-[documentation index](../README.md) > [Documentation](Category:Documentation.md) > ANSI templates/ru
+[documentation index](../README.md) > [Documentation](Category_Documentation.md) > ANSI templates/ru

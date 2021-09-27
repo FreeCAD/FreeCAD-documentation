@@ -25,7 +25,7 @@ Notez que les facettes forment des triangles et leurs valeurs entières référe
 
  
 
-[Category:File Formats](Category:File_Formats.md)
+_
 
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch JSON/fr
+[documentation index](../README.md) > [File Formats](Category_File Formats.md) > [Arch](Arch_Workbench.md) > Arch JSON/fr

@@ -219,7 +219,7 @@ Some of the new community modules that were actively developed during the 0.18 d
 
 
 
-[Category:News](Category:News.md) [Category:Documentation](Category:Documentation.md) [Category:Releases](Category:Releases.md)
+_ _ _
 
 ---
-[documentation index](../README.md) > [News](Category:News.md) > Release notes 0.18
+[documentation index](../README.md) > [News](Category_News.md) > Release notes 0.18

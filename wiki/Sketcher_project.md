@@ -112,7 +112,7 @@ For 0.12:
 
  {{Sketcher Tools navi}}  
 
-[Category:Roadmap](Category:Roadmap.md)
+_
 
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher project
+[documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher project

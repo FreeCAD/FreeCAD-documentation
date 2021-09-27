@@ -43,7 +43,7 @@ Since they appeared in v0.17, datum objects were intended to be used inside [Par
 
 }} {{Document objects navi}} 
 
-[Category:Glossary](Category:Glossary.md)
+_
 
 ---
-[documentation index](../README.md) > [Glossary](Category:Glossary.md) > Datum/pl
+[documentation index](../README.md) > [Glossary](Category_Glossary.md) > Datum/pl

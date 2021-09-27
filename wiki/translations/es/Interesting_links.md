@@ -128,7 +128,7 @@ Otra página que contiene enlaces interesantes es [Portal de la Comunidad](FreeC
 
 
 
-[Category:Documentation](Category:Documentation.md)
+_
 
 ---
-[documentation index](../README.md) > [Documentation](Category:Documentation.md) > Interesting links/es
+[documentation index](../README.md) > [Documentation](Category_Documentation.md) > Interesting links/es

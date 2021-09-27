@@ -5,7 +5,7 @@
 
 FreeCAD est une [application de modélisation paramétrique](About_FreeCAD/fr.md) 3D. Elle est principalement destinée à la conception mécanique, mais sert aussi à toutes les utilisations où vous avez besoin de modéliser des objets de précision et de contrôler l\'historique de la modélisation 3D.
 
-FreeCAD est en cours de développement depuis 2002 et propose une grande liste de [fonctions](Feature_list/fr.md). Des capacités manquent encore mais il est assez puissant pour une utilisation amateur et de petits ateliers. Il existe une communauté d\'utilisateurs enthousiastes en pleine croissance qui participent au [forum FreeCAD](http://forum.freecadweb.org/index.php) et vous pouvez trouver [nombreux exemples](http://forum.freecadweb.org/viewforum.php?f=24) de projets de qualité développés avec FreeCAD. Voir aussi [FreeCAD utilisé en production](FreeCAD_used_in_production.md).
+FreeCAD est en cours de développement depuis 2002 et propose une grande liste de _.
 
 Comme tous les projets de logiciels libres, FreeCAD dépend de sa communauté pour se développer, gagner en fonctionnalités et corriger les bogues. N\'oubliez pas cela lorsque vous utilisez FreeCAD. Si vous l\'aimez, vous pouvez [faire un don](Donate/fr.md) et [Contribuer à FreeCAD](Help_FreeCAD/fr.md) de diverses manières, comme par exemple rédiger de la documentation et faire des traductions.
 
@@ -123,7 +123,7 @@ Ce qui vous donne un objet comme ceci :
 
 Les ateliers [Draft](Draft_Workbench/fr.md) et [Arch](Arch_Workbench/fr.md) se comportent un peu différemment des autres ateliers ci-dessus, bien qu\'ils suivent les mêmes règles communes à l\'ensemble de FreeCAD. En bref, alors que le Sketcher (esquisse) et PartDesign sont faits principalement pour concevoir des pièces uniques, Draft et Arch sont faits pour faciliter votre travail lorsque vous travaillez avec plusieurs objets simples.
 
-L\'[atelier Draft](Draft_Workbench/fr.md) vous propose des outils 2D un peu semblables à ce que vous pouvez trouver dans les applications de CAO 2D traditionnelles telles que [AutoCAD](https://fr.wikipedia.org/wiki/AutoCAD). Cependant, le dessin 2D étant loin du champ d\'application de FreeCAD, ne vous attendez pas à y trouver la gamme complète d\'outils que ces applications offrent. La plupart des outils Draft travaillent non seulement dans un plan 2D, mais également dans l\'espace 3D et bénéficient de systèmes spéciaux d\'assistance tels que les [Plans de travail](Draft_SelectPlane/fr.md) et l\'[aimantation d\'objet](Draft_Snap/fr.md).
+L\'_ et l\'[aimantation d\'objet](Draft_Snap/fr.md).
 
 L\'[atelier Arch](Arch_Workbench/fr.md) ajoute des outils de modélisation [BIM](http://fr.wikipedia.org/wiki/Building_Information_Modeling) à FreeCAD, vous permettant de construire des modèles architecturaux à partir d\'objets paramétriques. L\'atelier Arch s\'appuie beaucoup sur les autres modules tels que Draft et le Sketcher. Tous les outils Draft sont également présents dans l\'atelier Arch, et la plupart des outils Arch font usage des systèmes d\'assistance Draft.
 
@@ -152,7 +152,7 @@ Le principe des [Addon](Addon/fr.md) est basé sur le développement d\'un ateli
 Il existe deux types d\'addons :
 
 1.  [Macros](Macros/fr.md) : courts extraits de code Python fournissant un nouvel outil ou de nouvelles fonctionnalités. Les macros commencent généralement par simplifier ou automatiser la tâche de dessin ou d\'édition d\'un objet particulier. Si plusieurs de ces macros sont collectées dans un répertoire, l\'intégralité du répertoire peut être distribué en tant que nouveau plan de travail.
-2.  [Ateliers externes](External_workbenches/fr.md) : un ensemble d\'outils programmés en Python ou en C++ qui étend FreeCAD de manière importante. Si un atelier est suffisamment développé et bien documenté, il peut être inclus comme l'un des ateliers de base de FreeCAD. Sous [Ateliers externes](External_workbenches/fr.md), vous trouverez le principe et une liste des bibliothèques existantes.
+2.  _, vous trouverez le principe et une liste des bibliothèques existantes.
 
 ## Script
 
@@ -168,7 +168,7 @@ Et enfin, une des caractéristiques les plus puissantes de FreeCAD est l\'enviro
 
 {{Userdocnavi/fr}}
 
-[Category:User Documentation/fr](Category:User_Documentation/fr.md)
+_
 
 ---
 [documentation index](../README.md) > Getting started/fr

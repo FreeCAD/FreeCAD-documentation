@@ -1,6 +1,6 @@
 ---
 - GuiCommand:/de
-   Name:Draft Intersection
+   Name:Draft Snap Intersection
    Name/de:Draft Schnittpunkt
    MenuLocation:Entwurf → [Fang](Draft_Snap/de.md) → Schnittpunkt
    Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)

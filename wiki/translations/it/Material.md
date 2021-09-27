@@ -228,7 +228,7 @@ Questa sezione definisce le proprietà relative all\'aspetto visivo del material
 
  {{FEM Tools navi}} 
 
-[Category:Developer](Category:Developer.md) [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Roadmap](Category:Roadmap.md) [Category:BIM](Category:BIM.md) [Category:File\_Formats](Category:File_Formats.md)
+_ _ _ _ _
 
 ---
-[documentation index](../README.md) > [Developer](Category:Developer.md) > Material/it
+[documentation index](../README.md) > [Developer](Category_Developer.md) > Material/it

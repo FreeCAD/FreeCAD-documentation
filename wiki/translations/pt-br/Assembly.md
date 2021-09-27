@@ -11,7 +11,7 @@ For example, a bolt, a washer and a nut are three separate bodies that when put 
 <img alt="" src=images/PartDesign_Body_contiguous_separate.png  style="width:" height="200px;"> <img alt="" src=images/PartDesign_Body_contiguous_assembly.png  style="width:" height="200px;">
 
 
-*Left: three individual contiguous solids, each of them modelled by a [PartDesign Body](PartDesign_Body.md). Right: the individual Bodies put together inside a [Std Part](Std_Part.md) to create an assembly.*
+*Left: three individual contiguous solids, each of them modelled by a _ to create an assembly.*
 
 ## Utilização
 
@@ -31,7 +31,7 @@ In general, the **<img src=images/Std_Part.svg style="width:16px"> [Std Part](St
 
 ### Constrained assembly 
 
-You can also use a dedicated assembly workbench, like <img alt="" src=images/A2p_workbench.svg  style="width:24px;"> [A2plus](A2plus_Workbench.md), <img alt="" src=images/Assembly3_workbench_icon.svg  style="width:24px;"> [Assembly3](Assembly3_Workbench.md), or <img alt="" src=images/Assembly4_workbench_icon.svg  style="width:24px;"> [Assembly4](Assembly4_Workbench.md). Please note that [Assembly2](Assembly2_Workbench.md) is unmaintained, so it is not recommended for new models.
+You can also use a dedicated assembly workbench, like <img alt="" src=images/A2p_workbench.svg  style="width:24px;"> _, or <img alt="" src=images/Assembly4_workbench_icon.svg  style="width:24px;"> [Assembly4](Assembly4_Workbench.md). Please note that [Assembly2](Assembly2_Workbench.md) is unmaintained, so it is not recommended for new models.
 
 The assembly workbenches use constraints and expressions to create relationships between the objects in your model, in order to mathematically tie the objects in place, for example, \"this face should stick to this other face\", \"this cylinder should be concentric to that circle\", \"this point should follow this edge\", etc.
 
@@ -50,7 +50,7 @@ The assembly workbenches continue development, and it is expected that at some p
 
 }} {{Document objects navi}} 
 
-[Category:Glossary](Category:Glossary.md)
+_
 
 ---
-[documentation index](../README.md) > [Glossary](Category:Glossary.md) > Assembly/pt-br
+[documentation index](../README.md) > [Glossary](Category_Glossary.md) > Assembly/pt-br

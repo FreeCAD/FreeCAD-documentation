@@ -59,11 +59,11 @@ In questo menu sono disponibili i seguenti strumenti:
 
 -   <img alt="" src=images/Std_Delete.svg  style="width:32px;"> [Elimina](Std_Delete/it.md): cancella gli oggetti selezionati.
 
--   <img alt="" src=images/Std_SendToPythonConsole.svg  style="width:32px;"> [Invia alla console Python](Std_SendToPythonConsole/it.md): crea delle variabili nella [console Python](Python_console/it.md) in riferimento a un oggetto {{Version/it|0.19}}
+-   <img alt="" src=images/Std_SendToPythonConsole.svg  style="width:32px;"> _ in riferimento a un oggetto {{Version/it|0.19}}
 
 -   <img alt="" src=images/Std_Placement.svg  style="width:32px;"> [Posizionamento\...](Std_Placement/it.md): apre il dialogo per il Posizionamento di un oggetto.
 
--   <img alt="" src=images/Std_TransformManip.svg  style="width:32px;"> [Transform](Std_TransformManip.md): Transforms an object in the [3D view](3D_view.md).
+-   <img alt="" src=images/Std_TransformManip.svg  style="width:32px;"> _.
 
 
 <div class="mw-translate-fuzzy">
@@ -75,10 +75,12 @@ In questo menu sono disponibili i seguenti strumenti:
 
 -   <img alt="" src=images/Std_Edit.svg  style="width:32px;"> [Attiva o disattiva modalità modifica](Std_Edit/it.md): attiva o disattiva la modalità di modifica degli oggetti.
 
+-   <img alt="" src=images/Std_UserEditMode.svg  style="width:32px;"> _. <small>(v0.20)</small> 
+
 
 <div class="mw-translate-fuzzy">
 
--   <img alt="" src=images/Std_DlgPreferences.svg  style="width:32px;"> [Preferenze](Std_DlgPreferences/it.md): apre la finestra di dialogo per l[editor delle preferenze](Preferences_Editor/it.md). **Nota:** Su MacOS questa opzione può apparire nel menu di FreeCAD invece che nel menu Modifica.
+-   <img alt="" src=images/Std_DlgPreferences.svg  style="width:32px;"> _. **Nota:** Su MacOS questa opzione può apparire nel menu di FreeCAD invece che nel menu Modifica.
 
 
 </div>
@@ -91,7 +93,7 @@ In questo menu sono disponibili i seguenti strumenti:
 
 }}  
 
-[Category:Workbenches](Category:Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > [Workbenches](Category:Workbenches.md) > Std Edit Menu/it
+[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Std Edit Menu/it

@@ -123,7 +123,7 @@ Todas as etiquetas listadas são opcionais.
 
 
 
-[Category:Developer Documentation](Category:Developer_Documentation.md)
+_
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Branding/pt-br
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Branding/pt-br

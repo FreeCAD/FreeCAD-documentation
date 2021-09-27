@@ -225,7 +225,7 @@ Ta karta jest pusta, jeśli nie wykryto tego typu manipulatora. Patrz: [urządze
 
 ## Motywy
 
-FreeCAD obsługuje kompletną personalizację interfejsu, poprzez arkusze stylów .qss. Format [qss](https://doc.qt.io/qt-5/stylesheet-syntax.html) jest bardzo podobny do formatu [css](https://en.wikipedia.org/wiki/CSS) używanego na stronach internetowych, w zasadzie dodaje więcej metod, aby odnieść się do różnych widżetów i elementów interfejsu Qt. Możesz zmienić obecny domyślny motyw *(który po prostu bierze styl zdefiniowany przez system pulpitu)* poprzez wybranie **arkusza stylów** w [Edytorze ustawień](Preferences_Editor/pl#Informacje_og.C3.B3lne.md).
+FreeCAD obsługuje kompletną personalizację interfejsu, poprzez arkusze stylów .qss. Format _.
 
 Możesz również stworzyć własny motyw, jeśli nie odpowiada Ci motyw dołączony do programu FreeCAD, na przykład poprzez edycję [istniejącego arkusza stylów](https://github.com/FreeCAD/FreeCAD/tree/master/src/Gui/Stylesheets). Twój nowy styl musi być umieszczony w określonym folderze, aby został znaleziony przez FreeCAD:
 

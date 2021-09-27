@@ -483,7 +483,7 @@ On the *Texts and dimensions* tab you can specify the following:
 
  
 
-[Category:Preferences](Category:Preferences.md)
+_
 
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Preferences/pt-br
+[documentation index](../README.md) > [Preferences](Category_Preferences.md) > [Draft](Draft_Workbench.md) > Draft Preferences/pt-br

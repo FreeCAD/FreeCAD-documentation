@@ -8,9 +8,9 @@
 
 ## 简介
 
-建筑工作台在Freecad中提供了一个现代[建筑信息建模技术](http://en.wikipedia.org/wiki/Building_Information_Modeling) (BIM) 工作流，它支持特征参数建筑实体，如墙壁，结构元件，屋顶，窗户，楼梯，管道和家具等功能。它支持[建筑业国际工业标准](http://en.wikipedia.org/wiki/Industry_Foundation_Classes) (IFC) 数据, 同时可以结合[技术制图工作台生成平面图](TechDraw_Workbench.md)。
+建筑工作台在Freecad中提供了一个现代_。
 
-The <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Arch Workbench](Arch_Workbench.md) provides a modern [building information modelling](http://en.wikipedia.org/wiki/Building_Information_Modeling) (BIM) workflow to FreeCAD, with support for features like fully parametric architectural entities such as walls, beams, roofs, windows, stairs, pipes, and furniture. It supports industry foundation classes ([IFC](Arch_IFC.md)) files, and production of 2D floor plans in combination with the <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [TechDraw Workbench](TechDraw_Workbench.md).
+The <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> _) files, and production of 2D floor plans in combination with the <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [TechDraw Workbench](TechDraw_Workbench.md).
 
 建筑工作台导入来自[草图工作台的所有工具](Draft_Workbench.md)，因为它使用2D对象来构建其建筑对象。然而，建筑工作台还可以使用其他如[零件工作台和](Part_Workbench.md)[零件设计工作台的其他工作台上创建的实体对象](partdesign_workbench.md)。
 
@@ -94,7 +94,7 @@ These are tools for modifying architectural objects.
 These are additional tools to help you in specific tasks.
 
 -   <img alt="" src=images/Arch_Component.svg  style="width:32px;"> [Component](Arch_Component.md): Creates a non-parametric Arch component
--   <img alt="" src=images/Arch_CloneComponent.svg  style="width:32px;"> [Clone component](Arch_CloneComponent.md): Produces Arch Components that are clones of selected Arch objects (not to be confused with [Draft Clone](Draft_Clone.md))
+-   <img alt="" src=images/Arch_CloneComponent.svg  style="width:32px;"> _)
 -   <img alt="" src=images/Arch_SplitMesh.svg  style="width:32px;"> [Split Mesh](Arch_SplitMesh.md): Splits a selected mesh into separate components
 -   <img alt="" src=images/Arch_MeshToShape.svg  style="width:32px;"> [Mesh To Shape](Arch_MeshToShape.md): Converts a mesh into a shape, unifying coplanar faces
 -   <img alt="" src=images/Arch_SelectNonManifold.svg  style="width:32px;"> [Select non-solid meshes](Arch_SelectNonSolidMeshes.md): Selects all non-solid meshes from the current selection or from the document
@@ -102,10 +102,10 @@ These are additional tools to help you in specific tasks.
 -   <img alt="" src=images/Arch_CloseHoles.svg  style="width:32px;"> [Close Holes](Arch_CloseHoles.md): Closes holes in a selected shape-based object
 -   <img alt="" src=images/Arch_MergeWalls.svg  style="width:32px;"> [Merge Walls](Arch_MergeWalls.md): Merge two or more walls
 -   <img alt="" src=images/Arch_Check.svg  style="width:32px;"> [Check](Arch_Check.md): Check if the selected objects are solids and don\'t contain defects
--   <img alt="" src=images/IFC.svg  style="width:32px;"> [Ifc Explorer](Arch_IfcExplorer.md): Browse the contents of an [IFC](Arch_IFC.md) file
+-   <img alt="" src=images/IFC.svg  style="width:32px;"> _ file
 -   <img alt="" src=images/Arch_ToggleIfcBrepFlag.svg  style="width:32px;"> [Toggle IFC Brep flag](Arch_ToggleIfcBrepFlag.md): Forces a selected object to be exported as an [IfcFacetedBrep](http://www.buildingsmart-tech.org/ifc/IFC4/final/html/schema/ifcgeometricmodelresource/lexical/ifcfacetedbrep.htm).
--   <img alt="" src=images/Arch_3Views.svg  style="width:32px;"> [3 Views from mesh](Arch_3Views.md): Creates top, frontal and side views from a [mesh](Mesh_Workbench.md).
--   <img alt="" src=images/Arch_IfcSpreadsheet.svg  style="width:32px;"> [Create IFC spreadsheet\...](Arch_IfcSpreadsheet.md): Creates a spreadsheet to store [IFC](Arch_IFC.md) properties of an object
+-   <img alt="" src=images/Arch_3Views.svg  style="width:32px;"> _.
+-   <img alt="" src=images/Arch_IfcSpreadsheet.svg  style="width:32px;"> _ properties of an object
 -   <img alt="" src=images/Arch_ToggleSubs.svg  style="width:32px;"> [Toggle Subcomponents](Arch_ToggleSubs.md): Shows or hides the subcomponents of an Arch object.
 
 ### Preferences
@@ -132,7 +132,7 @@ The Arch module can be used in [Python](Python.md) scripts and [macros](macros.m
 -   [Quick arch overview on Yorik\'s blog](http://yorik.uncreated.net/guestblog.php?2012=180) (v0.13)
 -   [Video presentation of the Arch workbench](https://www.youtube.com/watch?v=lTDOeHapv_E) (2016)
 -   [Arch panel tutorial](Arch_panel_tutorial.md) (v0.15)
--   [BIM modeling chapter from the FreeCAD manual](Manual:BIM_modeling.md)
+-   _
 -   [Import from STL or OBJ](Import_from_STL_or_OBJ.md)
 -   [Export to STL or OBJ](Export_to_STL_or_OBJ.md)
 
@@ -142,7 +142,7 @@ The Arch module can be used in [Python](Python.md) scripts and [macros](macros.m
 
  
 
-[Category:Workbenches](Category:Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > Arch Workbench/zh
+[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Arch Workbench/zh

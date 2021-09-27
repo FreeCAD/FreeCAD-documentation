@@ -3,7 +3,7 @@
 
 ## 소개
 
-이것은 [FreeCAD](http://www.freecadweb.org) 문서 위키입니다. 문서를 탐색하는 두 가지 주요 방법은 사용자 허브를 탐색하거나 매뉴얼을 따라하는 것입니다. 진행중인 작업이며, FreeCAD의 사용자와 개발자 커뮤니티에서 썼습니다. 잘못되거나 빠진 정보를 찾으면 [ FreeCAD를 도와주세요](Special:MyLanguage/help_FreeCAD.md) !
+이것은 _ !
 
 
 </div>
@@ -37,7 +37,7 @@
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/Crystal_Clear_manual.png  style="width:64px;"> [The FreeCAD manual은](Manual:Introduction.md) 또다른 이 위키에 보함된 정보를 나타내는 좀더 직선적인 방법입니다. 그것은 책처럼 읽도록 만들어졌으며 위의 허브에서 다른 많은 페이지로 부드럽게 소개 할 것입니다. 전자 책 버전뿐만 아니라 [ebook versions](https://www.gitbook.com/book/yorikvanhavre/a-freecad-manual/details) 형식으로 번역 사용할 수 있습니다. 
+<img alt="" src=images/Crystal_Clear_manual.png  style="width:64px;"> _ 또다른 이 위키에 보함된 정보를 나타내는 좀더 직선적인 방법입니다. 그것은 책처럼 읽도록 만들어졌으며 위의 허브에서 다른 많은 페이지로 부드럽게 소개 할 것입니다. 전자 책 버전뿐만 아니라 [ebook versions](https://www.gitbook.com/book/yorikvanhavre/a-freecad-manual/details) 형식으로 번역 사용할 수 있습니다. 
 
 
 
@@ -76,14 +76,14 @@
 
 </div>
 
-[도움 FreeCAD](Special:MyLanguage/help_FreeCAD.md) 페이지는 더 자세히 설명합니다. 2016년부터, FreeCAD는 [Google Summer of Code에](Google_Summer_of_Code.md) 참여합니다. [Contributors hub](Contributors_hub/ko.md) 페이지는 FreeCAD 프로젝트를 돕고 기여할 수있는 방법을 모으기위한 또 다른 노력입니다.
+_ 페이지는 더 자세히 설명합니다. 2016년부터, FreeCAD는 [Google Summer of Code에](Google_Summer_of_Code.md) 참여합니다. [Contributors hub](Contributors_hub/ko.md) 페이지는 FreeCAD 프로젝트를 돕고 기여할 수있는 방법을 모으기위한 또 다른 노력입니다.
 
 ### 소스 코드 
 
 
 <div class="mw-translate-fuzzy">
 
-FreeCAD는 모든 플랫폼에서 [CMake](https://cmake.org/)를 사용하여 컴파일 할 수 있습니다. 소스 코드는 [LGPL](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License) 라이선스를 받고 [GitHub](https://github.com/FreeCAD/FreeCAD)에서 호스팅됩니다. [Windows](Compile_on_Windows/ko.md), [Unix/Linux](Compile_on_Linux/ko.md) 및 [MacOSX에](Compile_on_MacOS/ko.md) 대한 빌드 지침이 있습니다. 소스 코드 문서는 [여기](http://www.freecadweb.org/api/)에, [Doxygen에](Doxygen.md) 의해 생성되고 [위키에 문서화](Source_documentation.md).
+FreeCAD는 모든 플랫폼에서 _, _ 의해 생성되고 [위키에 문서화](Source_documentation.md).
 
 
 </div>
@@ -95,7 +95,7 @@ FreeCAD는 모든 플랫폼에서 [CMake](https://cmake.org/)를 사용하여 �
 
 
 
-[Category:Documentation](Category:Documentation.md)
+_
 
 ---
-[documentation index](../README.md) > [Documentation](Category:Documentation.md) > Main Page/ko
+[documentation index](../README.md) > [Documentation](Category_Documentation.md) > Main Page/ko

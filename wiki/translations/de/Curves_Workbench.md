@@ -53,7 +53,7 @@ Lade den Arbeitsbereich Kurven über den <img alt="" src=images/AddonManager.svg
 
 }} 
 
-[Category:External Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)
+_ _
 
 ---
-[documentation index](../README.md) > Curves Workbench/de
+[documentation index](../README.md) > [External Workbenches](Category_External Workbenches.md) > Curves Workbench/de

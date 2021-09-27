@@ -151,7 +151,7 @@ BentShapeRebar.editBentShapeRebar(Rebar2, 50, 35, 20, 20,
 
  
 
-[Category:Reinforcement](Category:Reinforcement.md)
+_
 
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Rebar BentShape/de
+[documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar BentShape/de

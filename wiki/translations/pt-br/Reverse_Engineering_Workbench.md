@@ -30,7 +30,7 @@ Link para os tópicos apropriados discutindo esta bancada de trabalho
 
 
 
-[Category:Reverse Engineering](Category:Reverse_Engineering.md) [Category:Workbenches](Category:Workbenches.md)
+_ _
 
 ---
-[documentation index](../README.md) > Reverse Engineering Workbench/pt-br
+[documentation index](../README.md) > [Reverse Engineering](Category_Reverse Engineering.md) > Reverse Engineering Workbench/pt-br

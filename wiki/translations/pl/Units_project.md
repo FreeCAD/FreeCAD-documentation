@@ -41,7 +41,7 @@ Ostatecznie edytor właściwości dla \"Właściwości jednostek\".
 ### Środowiska pracy 
 
 -   Ulepszanie środowisk pracy, aby używać frameworka Jednostek. Zacząłbym od środowiska Szkicownika i Projekt Części, a następnie poszedł dalej\...
--   Dokumentując proces aktualizacji, aby inni ludzie mogli zrobić to samo z innymi środowiskami \--[Yorikvanhavre](User:Yorikvanhavre.md). 13:13, 28 listopad 2011 (UTC)
+-   Dokumentując proces aktualizacji, aby inni ludzie mogli zrobić to samo z innymi środowiskami \--_. 13:13, 28 listopad 2011 (UTC)
 
 ## Następne działania 
 
@@ -49,7 +49,7 @@ Ostatecznie edytor właściwości dla \"Właściwości jednostek\".
 
 
 
-[Category:Roadmap](Category:Roadmap.md)
+_
 
 ---
-[documentation index](../README.md) > [Roadmap](Category:Roadmap.md) > Units project/pl
+[documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > Units project/pl

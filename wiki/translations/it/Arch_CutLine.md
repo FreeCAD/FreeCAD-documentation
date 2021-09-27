@@ -50,4 +50,4 @@ Lo strumento [Taglia con una linea](Arch_CutLine/it.md) consente di tagliare un 
 </div>
 
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CutLine/it
+[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch CutLine/it

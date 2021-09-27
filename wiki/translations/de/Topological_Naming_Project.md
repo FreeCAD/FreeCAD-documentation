@@ -39,7 +39,7 @@ Hart
 
 ### Zusätzliche Informationen 
 
-[Category:Google Summer of Code](Category:Google_Summer_of_Code.md)
+_
 
 ---
 [documentation index](../README.md) > Topological Naming Project/de

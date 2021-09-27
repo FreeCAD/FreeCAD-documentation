@@ -27,7 +27,7 @@ Actuellement, le dépôt FreeCAD sur GitHub déclenchera une construction sur le
 
  
 
-[Category:Developer\_Documentation](Category:Developer_Documentation.md) [Category:Testing](Category:Testing.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Developer_Documentation](Category:Developer_Documentation.md) > Continuous Integration/fr
+[documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > Continuous Integration/fr

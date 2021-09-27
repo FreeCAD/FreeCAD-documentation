@@ -16,7 +16,7 @@
 
 
 
-[Category:Glossary](Category:Glossary.md)
+_
 
 ---
-[documentation index](../README.md) > [Glossary](Category:Glossary.md) > Manipulator/ru
+[documentation index](../README.md) > [Glossary](Category_Glossary.md) > Manipulator/ru

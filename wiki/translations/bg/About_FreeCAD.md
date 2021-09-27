@@ -78,7 +78,7 @@ FreeCAD се поддържа и развива от общност от ент�
 
 
 
-[Category:User Documentation](Category:User_Documentation.md)
+_
 
 ---
-[documentation index](../README.md) > [User Documentation](Category:User Documentation.md) > About FreeCAD/bg
+[documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > About FreeCAD/bg

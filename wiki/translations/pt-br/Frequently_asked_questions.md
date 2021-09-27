@@ -15,11 +15,11 @@ Se você estiver no Windows ou Mac OS, a maneira mais simples é ir para a pági
 
 ### Quais são os pré-requisitos para executar o FreeCAD? 
 
-Em contraste com a maioria dos softwares CAD 3D, o FreeCAD pode funcionar sem problemas nos computadores mais modestos - é conhecido por funcionar em CPUs Pentium IV e Intel Core2 Solo. Se seu computador estiver rodando um sistema operacional atual, é provável que o FreeCAD seja executado. O único pré-requisito é que sua placa gráfica ou chipset deve suportar [OpenGL](https://en.wikipedia.org/wiki/OpenGL), de preferência não mais antigo que a v2.0. Em caso de problemas, consulte a seção [Solução de problemas](Frequently_asked_questions/pt-br#Solução_de_problemas.md) desta FAQ.
+Em contraste com a maioria dos softwares CAD 3D, o FreeCAD pode funcionar sem problemas nos computadores mais modestos - é conhecido por funcionar em CPUs Pentium IV e Intel Core2 Solo. Se seu computador estiver rodando um sistema operacional atual, é provável que o FreeCAD seja executado. O único pré-requisito é que sua placa gráfica ou chipset deve suportar _ desta FAQ.
 
 #### Multithreading
 
-O núcleo de modelagem geométrica subjacente do FreeCAD, a [OpenCASCADE Technology](http://en.wikipedia.org/wiki/Open_Cascade_Technology) (OCCT) biblioteca de terceiros, tem apenas suporte parcial para multithreading neste momento. Veja a página [multithreading](multithreading/pt-br.md) para mais detalhes.
+O núcleo de modelagem geométrica subjacente do FreeCAD, a _ para mais detalhes.
 
 #### Para usuários de Mac 
 
@@ -148,7 +148,7 @@ Há um [Macro findConfigFiles](Macro_findConfigFiles.md) disponível para ajudar
 
 ### O FreeCAD é realmente livre? Mesmo para uso comercial? 
 
-O FreeCAD é um [software de código aberto](http://en.wikipedia.org/wiki/Open-source_software), e é livre não só para uso, pessoal ou comercial, mas também para distribuir, modificar, ou mesmo usar em uma aplicação de código fechado. Para resumir, você está livre para fazer (quase) tudo o que quiser com ele. Consulte a página [Licença](Licence/pt-br.md) para obter mais detalhes.
+O FreeCAD é um _ para obter mais detalhes.
 
 ### Como faço para girar a vista 3D? 
 
@@ -209,7 +209,7 @@ Vá para a página [Começar a usar](Getting_started/pt-br.md) para uma rápida 
 
 ### Existe documentação para os recém-chegados? Como posso aprender a usar o FreeCAD? 
 
-Há muita documentação espalhada em diferentes lugares, tanto dentro como fora do site do FreeCAD. Talvez você queira começar com a página [Começar a usar](Getting_started/pt-br.md). A seção [Tutoriais](Tutorials/pt-br.md) contém muitas páginas de tutoriais especializados para ajudá-lo a começar com as diferentes bancadas de trabalho. O [Manual:Introdução](Manual:Introduction/pt-br.md) é um guia geral, completo e orientado ao usuário do FreeCAD. A seção [Central do Usuário](User_hub/pt-br.md) deste wiki lista todas as páginas destinadas aos usuários finais. Em sites externos como [Youtube](https://www.youtube.com/results?search_query=freecad), você também encontrará uma série de tutoriais em vídeo criados pelos usuários. E, por último, mas não menos importante, o [forum](https://forum.freecadweb.org) contém muitas respostas a perguntas feitas por outros recém-chegados.
+Há muita documentação espalhada em diferentes lugares, tanto dentro como fora do site do FreeCAD. Talvez você queira começar com a página _ é um guia geral, completo e orientado ao usuário do FreeCAD. A seção [Central do Usuário](User_hub/pt-br.md) deste wiki lista todas as páginas destinadas aos usuários finais. Em sites externos como [Youtube](https://www.youtube.com/results?search_query=freecad), você também encontrará uma série de tutoriais em vídeo criados pelos usuários. E, por último, mas não menos importante, o [forum](https://forum.freecadweb.org) contém muitas respostas a perguntas feitas por outros recém-chegados.
 
 ### Eu quero importar/exportar dados no formato XYZ para/de FreeCAD. Como posso fazer isso? 
 
@@ -224,7 +224,7 @@ Favor consultar a página [FreeCAD Howto Import Export](FreeCAD_Howto_Import_Exp
 
 <div class="mw-translate-fuzzy">
 
-A teoria é simples: As linhas (ou fios), quando extrudidas, formam faces. Faces, quando extrudadas, formam sólidos. Se você extrudar algo e o resultado não for um sólido, então o algo não era uma face. Se você tiver linhas e quiser extrudar um sólido delas, você deve primeiro selecionar linhas que formam um perímetro fechado (selecione vários objetos pressionando **Ctrl**), junte-as em um fio usando ([Promomovedor Draft](Draft_Upgrade/pt-br.md)), depois faça uma face desse fio ([16px](arquivo:Draft_Upgrade.svg.md) Ferramenta de atualização novamente). Aí está, se tudo correu bem, agora você pode extrudi-lo para um sólido.
+A teoria é simples: As linhas (ou fios), quando extrudidas, formam faces. Faces, quando extrudadas, formam sólidos. Se você extrudar algo e o resultado não for um sólido, então o algo não era uma face. Se você tiver linhas e quiser extrudar um sólido delas, você deve primeiro selecionar linhas que formam um perímetro fechado (selecione vários objetos pressionando **Ctrl**), junte-as em um fio usando (_ Ferramenta de atualização novamente). Aí está, se tudo correu bem, agora você pode extrudi-lo para um sólido.
 
 
 </div>
@@ -317,7 +317,7 @@ Sim, você pode usar as partes principais do FreeCAD em outras aplicações, des
 
 
 
-[Category:Documentation](Category:Documentation.md)
+_
 
 ---
-[documentation index](../README.md) > [Documentation](Category:Documentation.md) > Frequently asked questions/pt-br
+[documentation index](../README.md) > [Documentation](Category_Documentation.md) > Frequently asked questions/pt-br

@@ -17,7 +17,7 @@ Rețineți că, la fel ca FreeCAD în sine, aceste pagini sunt în continuă dez
 
 <div class="mw-translate-fuzzy">
 
-Dacă doriți să contribuiți la FreeCAD, consultați pagina [ Help FreeCAD](Help_FreeCAD.md). Dacă doriți să editați acest wiki, solicitați un cont wiki cu permisiuni de editor [în forum](https://forum.freecadweb.org/viewtopic.php?f=21&t=6830) și citiți [ WikiPages ](WikiPages.md) pentru regulile generale pe care ar trebui să le urmați.
+Dacă doriți să contribuiți la FreeCAD, consultați pagina _ pentru regulile generale pe care ar trebui să le urmați.
 
 
 </div>
@@ -40,7 +40,7 @@ Dacă doriți să știți cum a început dezvoltarea FreeCAD cu ani în urmă vi
 <div class="mw-translate-fuzzy">
 
 -   [Application Overview](About_FreeCAD.md): O privire generală a FreeCAD
--   [Installing](Installing.md): How to install FreeCAD on [Windows](Install_on_Windows.md), [Linux](Install_on_Linux.md) and [Mac](Install_on_Mac.md)
+-   _, [Linux](Install_on_Linux.md) and [Mac](Install_on_Mac.md)
 -   [Installing help files](Installing_Helpfile.md): how to install the offline documentation which is based on this wiki.
 -   [Getting started](Getting_started.md): A quick overview of the available tools
 -   [FAQ](FAQ.md): Frequently asked questions
@@ -200,7 +200,7 @@ Acesta este ajutorul online oficial al FreeCAD. Rețineți că întregul sistem 
 
 
 
-[Category:Hubs](Category:Hubs.md)
+_
 
 ---
-[documentation index](../README.md) > [Hubs](Category:Hubs.md) > User hub/ro
+[documentation index](../README.md) > [Hubs](Category_Hubs.md) > User hub/ro

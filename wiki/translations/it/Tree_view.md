@@ -109,7 +109,7 @@ Se si seleziona il documento attivo e si fa clic con il tasto destro, oltre a **
 
 -    **Segna da ricalcolare**: contrassegna tutti gli oggetti del documento come toccati e pronti per il [ricalcolo](recompute/it.md).
 
--    **[Crea un gruppo](Std_Group/it.md)**: crea un [gruppo](Std_Group/it.md) nel documento selezionato usando il metodo `addObject()` del documento.
+-    **_ nel documento selezionato usando il metodo `addObject()` del documento.
 
 
 </div>
@@ -123,19 +123,19 @@ Una volta aggiunti gli oggetti al documento, oltre alle azioni precedenti, facen
 
 Ad esempio, con [Draft](Draft_Workbench/it.md) attivo, selezionare prima un oggetto, quindi fare clic con il tasto destro su un posto vuoto nella vista ad albero:
 
--    **[Attiva/disattiva la visibilità](Std_ToggleVisibility/it.md)**: rende l\'oggetto visibile o invisibile nella [vista 3D](3D_view/it.md).
+-    **_.
 
 -    **[Mostra la selezione](Std_ShowSelection/it.md)**: rende visibili gli oggetti selezionati.
 
 -    **[Nascondi la selezione](Std_HideSelection/it.md)**: nasconde gli oggetti selezionati.
 
--    **[Attiva/disattiva la selezionabilità](Std_ToggleSelectability/it.md)**: rende l\'oggetto non più selezionabile nella [Vista 3D](3D_view/it.md); usare di nuovo questo comando per annullarne l\'effetto. Imposta l\'attributo `Selectable` dell\'oggetto su `True` o `False`. Modificare la proprietà attivando **Selectable** nell\'[editor delle proprietà](property_editor/it.md).
+-    **_; usare di nuovo questo comando per annullarne l\'effetto. Imposta l\'attributo `Selectable` dell\'oggetto su `True` o `False`. Modificare la proprietà attivando **Selectable** nell\'[editor delle proprietà](property_editor/it.md).
 
 -    **[Seleziona tutte le istanze](Std_TreeSelectAllInstances/it.md)**: seleziona tutte le istanze di questo oggetto nella vista ad albero.
 
 -    **[Aspetto](Std_SetAppearance/it.md)**: avvia la finestra di dialogo per modificare il colore e le dimensioni di linee e vertici e il colore delle facce.
 
--    **[Colore casuale](Std_RandomColor/it.md)**: assegna un colore casuale all\'oggetto. Imposta l\'attributo `ShapeColor` dell\'oggetto su una tupla `(r, g, b)` con un valore casuale compreso tra 0 e 1. Cambia la proprietà modificando **Shape Color** nell\'[editor delle proprietà](property_editor/it.md).
+-    **_.
 
 -    **[Taglia](Std_Cut/it.md)**: disabilitato se il cli con il tasto destro non si avviene sull\'oggetto.
 

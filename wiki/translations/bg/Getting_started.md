@@ -183,7 +183,7 @@ Users who use the mouse with their right hand may find this method easier than t
 
 <div class="mw-translate-fuzzy">
 
-Работния плот който ще използвате зависи от работата която искате да свършите: например за механически модели (или общо казано по-малки обекти), вероятно искате да използвате [Плотът за дезайн на части](PartDesign_Workbench/bg.md). Ако ще работите само в двумерно пространство, тогава използвайте [Draft Плотът](Draft_Workbench/bg.md). За скици с ограничения използвайте [Плотът за скициране](Sketcher_Workbench/bg.md). Ако искате да правите БИМ, пуснете [Плотът за архитектура](Arch_Workbench/bg.md). Ако искате да моелирате кораби, има специален [работен плот за тази цел](Ship_Workbench/bg.md). Ако искате да работите със [OpenSCAD](https://en.wikipedia.org/wiki/OpenSCAD.md) използвайте [работния плот за OpenSCAD](OpenSCAD_Workbench/bg.md).
+Работния плот който ще използвате зависи от работата която искате да свършите: например за механически модели (или общо казано по-малки обекти), вероятно искате да използвате _ използвайте [работния плот за OpenSCAD](OpenSCAD_Workbench/bg.md).
 
 
 </div>
@@ -245,7 +245,7 @@ Users who use the mouse with their right hand may find this method easier than t
 
 <div class="mw-translate-fuzzy">
 
-Плотът [Draft](Draft_Workbench/bg.md) предлага 2D инструменти подобни на по-традиционните 2D програми като [AutoCAD](https://en.wikipedia.org/wiki/AutoCAD). Тъй като стандартното 2D чертане не е основния фокус на FreeCAD, в него няма да намерите всички инструменти които има в програми специално за тази цел (като AutoCAD). Повечето инструменти в плота Draft работят не само в 2D равнини но и в 3D пространството и могат да бъдат интегрирани със помощни системи като [Work planes](Draft_SelectPlane/bg.md) и [object snapping](Draft_Snap/bg.md).
+Плотът _ и [object snapping](Draft_Snap/bg.md).
 
 
 </div>
@@ -295,7 +295,7 @@ The [Addon](Addon.md) principle is based on the development of a workbench compl
 There are two types of addons:
 
 1.  [Macros](Macros.md): short snippets of Python code that provide a new tool or functionality. Macros usually start as a way to simplify or automate the task of drawing or editing a particular object. If many of these macros are collected inside a directory, the entire directory may be distributed as a new workbench.
-2.  [External workbenches](External_workbenches.md): collections of tools programmed in Python or C++ that extend FreeCAD in an important way. If a workbench is sufficiently developed and is well documented, it may be included as one of the base workbenches in FreeCAD. Under [External workbenches](External_workbenches.md), you\'ll find the principle and a list of existing library.
+2.  _, you\'ll find the principle and a list of existing library.
 
 ## Scripting
 
@@ -341,7 +341,7 @@ There are two types of addons:
 
 
 
-[Category:User Documentation/bg](Category:User_Documentation/bg.md)
+_
 
 ---
 [documentation index](../README.md) > Getting started/bg

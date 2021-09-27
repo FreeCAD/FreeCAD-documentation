@@ -17,7 +17,7 @@
 
 <div class="mw-translate-fuzzy">
 
-В <img alt="" src=images/Sketcher_EditSketch.svg  style="width:24px;"> [режиме редактирования эскиза](Sketcher_EditSketch/ru.md) вспомогательная геометрия отображается синим цветом и не становится зеленой, когда эскиз полностью ограничен. После <img alt="" src=images/Sketcher_LeaveSketch.svg  style="width:24px;"> [выхода из режима эскиза](Sketcher_LeaveSketch/ru.md) вспомогательная геометрия скрывается из [3D-вида](3D_view/ru.md).
+В <img alt="" src=images/Sketcher_EditSketch.svg  style="width:24px;"> _ вспомогательная геометрия скрывается из [3D-вида](3D_view/ru.md).
 
 
 </div>

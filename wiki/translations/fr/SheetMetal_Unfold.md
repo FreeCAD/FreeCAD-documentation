@@ -51,7 +51,7 @@ L\'objet *Unfold*, quant à lui, est dérivé d\'un objet [Part Feature](Part_Fe
 
 
 
-[Category:SheetMetal](Category:SheetMetal.md) [Category:Addons](Category:Addons.md) [Category:External Command Reference](Category:External_Command_Reference.md)
+_ _ _
 
 ---
-[documentation index](../README.md) > [SheetMetal](Category:SheetMetal.md) > SheetMetal Unfold/fr
+[documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > SheetMetal Unfold/fr

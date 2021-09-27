@@ -41,4 +41,4 @@ Back to [Workbenches](Workbenches#External_workbenches.md) / [External Workbench
 -   <img alt="" src=images/Arch_Rebar.svg  style="width:32px;"> [Rebar](Arch_Rebar.md): Creates a custom reinforcement bar in a selected structural element using a sketch
 
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CompRebarStraight/es
+[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch CompRebarStraight/es

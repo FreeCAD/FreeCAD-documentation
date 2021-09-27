@@ -60,7 +60,7 @@ The standard menu is composed of 7 sub-menus. Each sub-menu has a dedicated page
 
 }} 
 
-[Category:Workbenches](Category:Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > [Workbenches](Category:Workbenches.md) > Std Base/en
+[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Std Base/en

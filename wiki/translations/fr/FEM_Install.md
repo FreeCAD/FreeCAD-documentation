@@ -3,7 +3,7 @@
 
 ## Introduction
 
-Pour pouvoir effectuer une analyse par éléments finis (FEA) dans l\'**<img src="images/Workbench_FEM.svg" width=24px> [atelier FEM](FEM_Workbench/fr.md)**, FreeCAD utilise deux programmes externes: l'un est utilisé pour générer le [FEM Mesh](FEM_Mesh/fr.md), l'autre pour la résolution numérique du analyse réelle. Vous pouvez tester si votre installation FreeCAD est prête pour une FEA en exécutant l'exemple [FEM CalculiX Cantilever 3D](FEM_CalculiX_Cantilever_3D/fr.md) fourni avec l\'installation de FreeCAD depuis la v0.17.
+Pour pouvoir effectuer une analyse par éléments finis (FEA) dans l\'**<img src="images/Workbench_FEM.svg" width=24px> _, l'autre pour la résolution numérique du analyse réelle. Vous pouvez tester si votre installation FreeCAD est prête pour une FEA en exécutant l'exemple [FEM CalculiX Cantilever 3D](FEM_CalculiX_Cantilever_3D/fr.md) fourni avec l\'installation de FreeCAD depuis la v0.17.
 
 <img alt="" src=images/FEM_Workbench_workflow.svg  style="width:600px;"> 
 *Workflow de l'atelier FEM; le plan de travail appelle deux programmes externes pour effectuer le maillage d'un objet solide et pour résoudre le problème des éléments finis*
@@ -56,7 +56,7 @@ Si le mailleur est installé, assurez-vous que l\'atelier FEM est capable de tro
 
 **Note: le mailleur Netgen a été désactivé en mars 2017, lorsque FreeCAD est passé à l'utilisation de OCCT 7.1. Modifiez ces informations si Netgen est à nouveau utilisable avec la version stable de FreeCAD.**
 
-Dans les versions précédentes de FreeCAD, [Netgen](https://sourceforge.net/projects/netgen-mesher/) était le mailleur par défaut. Pour fonctionner avec l\'atelier FEM, FreeCAD devait être lié aux bibliothèques Netgen au moment de la compilation. Alors que FreeCAD passait de OCE 0.17 à OCCT 7.1, Netgen 4.9.13 n\'a pas réussi à établir de liaison avec cette version d\'OCCT. Il a donc été décidé de supprimer le support Netgen dans [Atelier FEM](FEM_Workbench/fr.md) (le bouton [Netgen button](FEM_MeshNetgenFromShape.md) a été enlevé). Néanmoins, peu après, certains utilisateurs ont signalé qu\'ils avaient réussi à appliquer une correction à Netgen 5.3.1, qui fonctionnait donc avec OCCT 7.x et FreeCAD.
+Dans les versions précédentes de FreeCAD, _ (le bouton [Netgen button](FEM_MeshNetgenFromShape.md) a été enlevé). Néanmoins, peu après, certains utilisateurs ont signalé qu\'ils avaient réussi à appliquer une correction à Netgen 5.3.1, qui fonctionnait donc avec OCCT 7.x et FreeCAD.
 
 Pour référence historique, voir les discussions:
 
@@ -106,7 +106,7 @@ Les distributions Linux ont différentes manières d\'installer un logiciel. De 
 
 ### PPA Ubuntu 
 
-Les versions PPA (personal package archives) [stable de Freecad](https://launchpad.net/~freecad-maintainers/+archive/ubuntu/freecad-stable) et [développement de Freecad](https://launchpad.net/~freecad-maintainers/+archive/ubuntu/freecad-daily) fournissent une version de FreeCAD plus récente que celle disponible dans les dépôts officiels d\'Ubuntu. Ces PPA incluent également les derniers `netgen`, `gmsh` et `calculix-ccx`. Voir [Installation sous Linux](Installing_on_Linux/fr.md) pour plus d\'informations sur la configuration des référentiels.
+Les versions PPA (personal package archives) _ pour plus d\'informations sur la configuration des référentiels.
 
 Si un PPA est déjà ajouté à votre système, installez les packages comme suit
 
@@ -132,7 +132,7 @@ Récupérez le package CalculiX à partir de [AUR repository](https://aur.archli
 
 -   Debian 9 Buster: les paquets [dépôts](https://packages.debian.org/buster/calculix-ccx) sont obsolètes, mais vous pouvez utiliser les paquets du PPA Ubuntu (`freecad-community`). Voir [Gmsh 4 package available for testing in Community Extras PPA](https://forum.freecadweb.org/viewtopic.php?f=18&t=31360&start=10#p279925) (post de forum).
 -   Debian 8 Stretch: les paquets [dépôts](https://packages.debian.org/stretch/calculix-ccx) sont obsolètes, mais vous pouvez utiliser les packages de la PPA Ubuntu (`freecad-community`). Voir [Gmsh 4 package available for testing in Community Extras PPA](https://forum.freecadweb.org/viewtopic.php?f=18&t=31360&p=279925#p260872) (post de forum).
--   Debian 7 Jessie: installez les paquets à partir de Debian 8 Stretch en utilisant `dpkg`. Voir [http://forum.freecadweb.org/viewtopic.php?f=4&t=5975&p=110597\#p110597 Debian source package for Calculix](http://forum.freecadweb.org/viewtopic.php?f=4&t=5975&p=110597#p110597_Debian_source_package_for_Calculix.md) (message sur le forum).
+-   Debian 7 Jessie: installez les paquets à partir de Debian 8 Stretch en utilisant `dpkg`. Voir _ (message sur le forum).
 
 ### openSUSE
 

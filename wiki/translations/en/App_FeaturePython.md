@@ -1,7 +1,7 @@
 # App FeaturePython/en
 ## Introduction
 
-An <img alt="" src=images/Feature.svg  style="width:32px;"> [App FeaturePython](App_FeaturePython.md) object, or formally an `App::FeaturePython`, is a simple instance of the [App DocumentObject](App_DocumentObject.md) in [Python](Python.md).
+An <img alt="" src=images/Feature.svg  style="width:32px;"> _ in [Python](Python.md).
 
 This is a simple object that by default doesn\'t have many properties, for example, no [placement](Placement.md) nor [topological shape](Part_TopoShape.md). This object is for general purpose use; depending on the properties that are assigned to it, it can be used to manage different types of data.
 
@@ -18,7 +18,7 @@ See [Scripting](App_FeaturePython#Scripting.md) for more information.
 
 ## Properties
 
-An [App FeaturePython](App_FeaturePython.md) (`App::FeaturePython` class) is derived from the basic [App DocumentObject](App_DocumentObject.md) (`App::DocumentObject` class), therefore it shares all the latter\'s properties.
+An _ (`App::DocumentObject` class), therefore it shares all the latter\'s properties.
 
 In addition to the properties described in [App DocumentObject](App_DocumentObject.md), the FeaturePython has a basic view provider, so it does appear in the [tree view](tree_view.md).
 
@@ -86,7 +86,7 @@ obj = App.ActiveDocument.addObject("App::FeaturePython", "Name")
 obj.Label = "Custom label"
 ```
 
-For example, the [Draft Text](Draft_Text.md), [Draft Dimension](Draft_Dimension.md), and [Working plane proxy](Draft_WorkingPlaneProxy.md) elements of the [Draft Workbench](Draft_Workbench.md) are `App::FeaturePython` objects with a custom icon and additional properties. They hold data but not an actual [Part TopoShape](Part_TopoShape.md).
+For example, the _.
 
 If the desired object should have a placement, a shape, an attachment, or other complex properties, it is better to create one of the more complex classes, for example, [App GeoFeature](App_GeoFeature.md), [Part Feature](Part_Feature.md), or [Part Part2DObject](Part_Part2DObject.md).
 

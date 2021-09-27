@@ -19,9 +19,9 @@ Las principales características del Assembly3 Ambiente de trabajo son
 
 [inicio](#top.md)
 
-### Barras de herramientas 
+### Barras Herramienta 
 
-A partir de 2020, el ambiente de trabajo Assembly3 cuenta con las siguientes barras de herramientas.
+A partir de 2020, el ambiente de trabajo Assembly3 cuenta con las siguientes barras herramienta.
 
 #### Barra de herramientas principal 
 
@@ -109,16 +109,7 @@ La **Barra Herramienta principal** contiene herramientas que cubren las funcione
 
 </div>
 
-
-<div class="mw-translate-fuzzy">
-
-#### Barra de herramientas de restricciones principales 
-
-:   <img alt="" src=images/Assembly3_ToolbarConstraints_1.jpg  style="width:700px;">
-
-
-</div>
-
+#### Barra Herramienta Restricciones Principales 
 
 :   <img alt="" src=images/Assembly_ConstraintLock.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintAlignment.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintCoincidence.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintAttachment.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintAxial.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintSameOrientation.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintMultiParallel.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintAngle.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPerpendicular.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointCoincident.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointInPlane.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointOnLine.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointOnCircle.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointsDistance.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointPlaneDistance.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointLineDistance.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintSymmetric.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintMore.svg‎‎  style="width:28px;">
 
@@ -126,7 +117,7 @@ La **Barra Herramienta principal** contiene herramientas que cubren las funcione
 <div class="mw-collapsible mw-collapsed">
 
 
-:   Some tools are actually a menu for more tools.
+:   Algunas herramientas son en realidad un menú para más herramientas.
 
 
 <div class="mw-collapsible-content toccolours">
@@ -205,16 +196,7 @@ La **Barra Herramienta principal** contiene herramientas que cubren las funcione
 
 </div>
 
-
-<div class="mw-translate-fuzzy">
-
-#### Barras Herramienta de restricciones adicionales 
-
-:   <img alt="" src=images/Assembly3_ToolbarConstraints_2.jpg  style="width:700px;">
-
-
-</div>
-
+#### Barras Herramienta Restricciones Adicionales 
 
 :   <img alt="" src=images/Assembly_ConstraintPointDistance.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintEqualAngle.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointsSymmetric.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintGeneral.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintGeneral.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintSymmetricLine.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointsHorizontal.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointsVertical.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintLineHorizontal.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintLineVertical.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintArcLineTangent.svg‎‎  style="width:28px;"> (Assembly3 Constraints2)
 
@@ -228,7 +210,7 @@ La **Barra Herramienta principal** contiene herramientas que cubren las funcione
 <div class="mw-collapsible mw-collapsed">
 
 
-:   You can enable these by selecting the **<img src="images/Assembly_ConstraintMore.svg‎‎" width=16px> [More](Assembly3_ConstraintMore.md)** button on the Main Constraints toolbar.
+:   Puede activarlas seleccionando el botón **<img src="images/Assembly_ConstraintMore.svg" width=16px> [Más](Assembly3_ConstraintMore/es.md)** en la barra de herramientas de Restricciones principales.
 
 
 <div class="mw-collapsible-content toccolours">
@@ -302,15 +284,9 @@ La **Barra Herramienta principal** contiene herramientas que cubren las funcione
     :   whether 2D/3D of if more than 2 Elements can be added.
 :   A detailed description can be found in the Github wiki.
 
-
-<div class="mw-translate-fuzzy">
-
 #### Barra Herramienta de navegación 
 
-:   <img alt="" src=images/Assembly3_ToolbarNavigation.jpg  style="width:100px;">
-
-
-</div>
+:   <img alt="" src=images/Assembly_GotoRelation.svg‎‎  style="width:28px;"> <img alt="" src=images/LinkSelect.svg‎‎  style="width:28px;"> <img alt="" src=images/LinkSelectFinal.svg‎‎  style="width:28px;">
 
 
 <div class="mw-collapsible mw-collapsed">
@@ -333,16 +309,7 @@ La **Barra Herramienta principal** contiene herramientas que cubren las funcione
 
 </div>
 
-
-<div class="mw-translate-fuzzy">
-
 #### Barra Herramienta de medición 
-
-:   <img alt="" src=images/Assembly3_ToolbarMeasurement.jpg  style="width:150px;">
-
-
-</div>
-
 
 :   <img alt="" src=images/Assembly_MeasurePointDistance.svg‎‎  style="width:28px;"> <img alt="" src=images/_Assembly_MeasurePointLineDistance.svg‎‎  style="width:28px;"> <img alt="" src=images/_Assembly_MeasurePointPlaneDistance.svg‎‎  style="width:28px;"> <img alt="" src=images/_Assembly_MeasureAngle.svg‎‎  style="width:28px;">
 
@@ -375,7 +342,7 @@ La **Barra Herramienta principal** contiene herramientas que cubren las funcione
 
 As usual you can modify the tool bars and add or remove single tools. Be sure to check the menu Assembly3 for functions that may not be present in the tool bars.
 
-[top](#top.md)
+[inicio](#top.md)
 
 ### Restricciones
 
@@ -412,11 +379,11 @@ Other
 
 *: Note: In the following list Tx,Ty,Tz and Rx,Ry,Rz are used to describe translations and rotations about the reference coordinate systems of the involved Element\'s. This is not always exact or fully defined, e.g. when a line is involved it is not defined if it runs in X, Y or any angle in betweeen. The system is used for bevity and easy comparison in favour of a correct but more complex definition. So Z is generally the normal direction of any faces involved. Please feel free to modify this with a better approach with improved readability.*
 
-[top](#top.md)
+[inicio](#top.md)
 
-### Elements
+### Elementos
 
-Elements is a specific term used in the Assembly3 workbench and it is important to understand Elements for understanding how Assembly3 should be used.
+Elementos es un término específico utilizado en el banco de trabajo de Assembly3 y es importante entender los elementos para comprender cómo se debe utilizar Assembly3.
 
 It is helpul to think of an Element as a general word for a \'selectable item\' of a part, i.e. a face, an edge, a circle or a corner or other point. The items you select to constrain them, are those Elements. In the tree an Assembly folder has three sub-folders. Beside \'Parts\' and \'Constraints\' there is a folder named \'Elements\', which is emtpy as long as there are no constraints added. When adding a constraint the constraint itself gets two (or more) leafs, these are the selected \'Elements\'. Also these get added in the \'Elements\' folder which is just a list of all Elements used in the assembly. Its a good idea to change their names (with F2 key), especially in bigger assemblies.
 
@@ -440,21 +407,21 @@ The example showed that without removing the constraint we can change the Elemen
 -   you can add a constraint in a totally different order: First add some Elements to the \'Elements List\' (naming is useful, e.g. \"Cube Top Face\" or \"Cube Front Face\"), then add a constraint without selecting anything - it will be an empty constraint. Then drag Elements from the \'Elements\' list. The result is the same than what we did in the first example. After doing that exercise the nature of how constraints work with Elements should be clear.
 -   you can change an existing constraint between existing elements by just select a different item in the PropertyWindow/ConstraintType property.
 
-[top](#top.md)
+[inicio](#top.md)
 
 ## Compatibilidad
 
-Assembly3 was inspired by [Assembly2](Assembly2_Workbench.md), but it is not compatible with it. If you have older models made in Assembly2, you should stay with FreeCAD 0.16 and use Assembly2 there.
+Assembly3 se inspiró en [Assembly2](Assembly2_Workbench/es.md), pero no es compatible con él. Si tienes modelos más antiguos hechos en Assembly2, deberías quedarte con FreeCAD 0.16 y usar Assembly2 allí.
 
-New models developed with Assembly3 should only be opened and edited with this workbench.
+Los nuevos modelos desarrollados con Assembly3 sólo deben abrirse y editarse con este ambiente de trabajo.
 
-Although they may have similar tools, Assembly3 is not compatible with [A2plus](A2plus_Workbench.md) nor [Assembly4](Assembly4_Workbench.md). Models created with these workbenches should be opened only with their respective workbench.
+Aunque tengan herramientas similares, Assembly3 no es compatible con [A2plus](A2plus_Workbench/es.md) ni con [Assembly4](Assembly4_Workbench/es.md). Los modelos creados con estos ambientes de trabajo deben abrirse sólo con su respectivo ambiente de trabajo.
 
-[top](#top.md)
+[inicio](#top.md)
 
 ## Pruebas
 
-The [Assembly3 Workbench](Assembly3_Workbench.md) is under development and is not yet available (April 2020) through the [Addon Manager](Std_AddonMgr.md), but it is expected that this will happen at some point.
+El [ Ambiente de trabajo Assembly3](Assembly3_Workbench/es.md) está en desarrollo y aún no está disponible (abril de 2020) a través del [Gestor de complementos](Std_AddonMgr/es.md), pero se espera que esto ocurra en algún momento.
 
 You can test it in two ways:
 
@@ -463,13 +430,13 @@ You can test it in two ways:
 
 Since the AppImage only works for Linux, for Windows users at the moment the only option to test Assembly3 is the first option (realthunder\'s fork).
 
-[top](#top.md)
+[inicio](#top.md)
 
 ## Instrucción
 
-### Get Started 
+### Empezar
 
-There are many ways to create an assembly with Assembly3. Here is the most simple one you can do.
+Hay muchas maneras de crear un ensamblaje con Assembly3. Esta es la más sencilla que puedes hacer.
 
 :   <img alt="" src=images/Assembly3_Example-GettingStarted.jpg  style="width:600px;">
 :   *Final Result of the Getting Started Example. In the image the Assembly3 Worksbench is selected, so its multiple toolbars are visible. Note that the vertical \"TabBar\" left of the tree view is an AddOn Workbench that is not contained in standard FreeCAD (but can be installed with the Addon-Manager).*
@@ -478,8 +445,8 @@ There are many ways to create an assembly with Assembly3. Here is the most simpl
 -   Change to <img alt="" src=images/Assembly3_workbench_icon.svg  style="width:16px;"> [Assembly3](Assembly3_Workbench.md) workbench
 -   Select **<img src="images/Assembly_New_Assembly.svg‎‎" width=16px> [Create assembly](Assembly3_CreateAssembly.md)
 **
--   Change to <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> [Part](Part_Workbench.md) workbench and add a <img alt="" src=images/Part_Cylinder.svg  style="width:16px;"> [Cylinder](Part_Cylinder.md) and a <img alt="" src=images/Part_Box.svg  style="width:16px;"> [Cube](Part_Box.md)
--   <img alt="" src=images/Std_Save.svg  style="width:16px;"> [Save](Std_Save.md) the file with any filename you like. <img alt="" src=images/Std_CloseActiveWindow.svg  style="width:16px;"> [Close](Std_CloseActiveWindow.md) and <img alt="" src=images/Std_Open.svg  style="width:16px;"> [Open\...](Std_Open.md) the file again
+-   Change to <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> _ and a <img alt="" src=images/Part_Box.svg  style="width:16px;"> [Cube](Part_Box.md)
+-   <img alt="" src=images/Std_Save.svg  style="width:16px;"> _ and <img alt="" src=images/Std_Open.svg  style="width:16px;"> [Open\...](Std_Open.md) the file again
 
 The tree view should look like this (0.20.pre and Link Branch):
 
@@ -518,9 +485,9 @@ If you like you can move the **Locked** constraint upwards in the tree. Use the 
 **Note:** all new external files must be **saved**, **closed** and re-**opend** at least once, so that Assembly3 can find it.
 
 :   Without doing that FreeCAD can not give a file handle to the Assembly3 Workbench and it can not find the new part.
-:   When all parts are in the same file, you should **save** and re-**open** the file.
+:   When all parts are in the same file, you should **save**, **close** and re-**open** this file, too.
 
-[top](#top.md)
+[inicio](#top.md)
 
 ### Add an Offset 
 
@@ -539,23 +506,17 @@ Example:
 
 :\* Test with other axes or the angle/axis fields. Also verify that you get the same result when using the other Element. This is the same approach for all other constraints.
 
-[top](#top.md)
-
-
-<div class="mw-translate-fuzzy">
+[inicio](#top.md)
 
 ### Resolver un fallo de solucionador 
 
-Esto sucede a menudo cuando las piezas están restringidas en exceso, es decir, más de 6 DOF están bloqueados.
-
-
-</div>
+Esto sucede a menudo cuando las piezas están sobre-restringidas, es decir, más de 6 DOF están bloqueados.
 
 The easiest way to find the problem is to click relevant constraints in the tree and select *ContextMenu/Disable* and re-calculate. It is helpful to know the last added constraints before the solver failed and just undo them.
 
 Note: as Assembly3 tries to compensate for over-constraint parts behind the scenes, sometimes the problem is just triggered by a new constraint but the root cause is somewhere different. Before deleting all and starting again, remember that you can re-use Elements. If you named them you can identify the required elements and re-build the constraints without using the 3D view at all. See [Elements](#Elements.md) seciton above.
 
-[top](#top.md)
+[inicio](#top.md)
 
 ### Replace a part or rename a filename 
 
@@ -596,7 +557,7 @@ One way to solve this is to just delete all invalid constraints and elements, im
 
 \'\'
 
-[top](#top.md)
+[inicio](#top.md)
 
 ### Tips & Tricks 
 
@@ -628,7 +589,7 @@ One way to solve this is to just delete all invalid constraints and elements, im
 
 
 
-[Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+_ _
 
 ---
-[documentation index](../README.md) > Assembly3 Workbench/es
+[documentation index](../README.md) > [Addons](Category_Addons.md) > Assembly3 Workbench/es

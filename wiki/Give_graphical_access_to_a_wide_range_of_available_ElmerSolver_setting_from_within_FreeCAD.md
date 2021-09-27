@@ -45,7 +45,7 @@ Hard
 
 ### Additional Information 
 
-[Category:Google Summer of Code](Category:Google_Summer_of_Code.md)
+_
 
 ---
 [documentation index](../README.md) > Give graphical access to a wide range of available ElmerSolver setting from within FreeCAD

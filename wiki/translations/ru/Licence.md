@@ -5,7 +5,7 @@
 
 FreeCAD использует две разные лицензии, одна для самого приложения, и другая для документации:
 
-**[Lesser General Public Licence, version 2 or superior (LGPL2+)](wikipedia:LGPL.md)** Для всех исходных кодов FreeCAD, находящихся в [официальном репозитории Git](https://github.com/FreeCAD/FreeCAD)
+**_** Для всех исходных кодов FreeCAD, находящихся в [официальном репозитории Git](https://github.com/FreeCAD/FreeCAD)
 
 
 <div class="mw-translate-fuzzy">
@@ -81,7 +81,7 @@ FreeCAD это смесь из библиотек и приложений, та�
 
  
 
-[Category:Developer Documentation](Category:Developer_Documentation.md)
+_
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Licence/ru
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Licence/ru

@@ -38,7 +38,7 @@ Niniejszy poradnik jest skierowany do wykorzystania [Robotów przemysłowych](ht
 5.  Ustaw pozycję wyjściową dla robota klikając na przycisk <img alt="" src=images/Robot_SetHomePos.svg  style="width:24px;"> [Ustaw pozycję startową](Robot_SetHomePos.md).
 6.  przełącz widok na [panel zadań](Task_Panel.md) w [widoku połączonym](Combo_view/pl.md).
 7.  Za pomocą suwaków zmień pozycję robota.
-8.  Gdy robot i obiekt trajektorii są wybrane w [widoku drzewa](tree_view/pl.md) kliknięcie na przycisk <img alt="" src=images/Robot_InsertWaypoint.svg  style="width:24px;"> [Ustaw lokację narzędzia na trajektorię](Robot_InsertWaypoint.md) wstawi punkt trasy w trajektorii.
+8.  Gdy robot i obiekt trajektorii są wybrane w _ wstawi punkt trasy w trajektorii.
 9.  Każdy punkt trasy jest oznaczony żółtym krzyżykiem, punkty trasy są połączone pomarańczową linią.
 10. Zdefiniuj co najmniej trzy różne punkty orientacyjne i wstaw je do toru ruchu.
 

@@ -30,7 +30,7 @@ dla Linux: \"\"
 
  
 
-[Category:Macros](Category:Macros.md)
+_
 
 ---
-[documentation index](../README.md) > [Macros](Category:Macros.md) > Misc templates Full/pl
+[documentation index](../README.md) > [Macros](Category_Macros.md) > Misc templates Full/pl

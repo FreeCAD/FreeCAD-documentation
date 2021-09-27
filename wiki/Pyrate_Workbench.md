@@ -11,7 +11,7 @@ This workbench is a new style workbench. This means it is intended to install it
 
  
 
-[Category:User Documentation](Category:User_Documentation.md) [Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+_ _ _
 
 ---
-[documentation index](../README.md) > Pyrate Workbench
+[documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > Pyrate Workbench

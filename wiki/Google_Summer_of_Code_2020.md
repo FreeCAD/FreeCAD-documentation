@@ -49,7 +49,7 @@ Best of luck to all applicants!
 -   [Google Summer of Code 2018](Google_Summer_of_Code_2018.md)
 -   [Google Summer of Code 2017](Google_Summer_of_Code_2017.md)
 
-[Category:Google Summer of Code](Category:Google_Summer_of_Code.md)
+_
 
 ---
 [documentation index](../README.md) > Google Summer of Code 2020

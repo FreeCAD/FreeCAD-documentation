@@ -16,7 +16,7 @@ En **manipulator** är ett handtag som kan användas till att förändra ett obj
 
 
 
-[Category:Glossary](Category:Glossary.md)
+_
 
 ---
-[documentation index](../README.md) > [Glossary](Category:Glossary.md) > Manipulator/sv
+[documentation index](../README.md) > [Glossary](Category_Glossary.md) > Manipulator/sv

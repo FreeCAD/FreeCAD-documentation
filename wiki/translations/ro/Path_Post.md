@@ -56,7 +56,7 @@ Postprocesoarele conțin steaguri de configurare și sunt proiectate pentru a fi
 -   Răcire pornită / oprită
 -   Etc \...
 
-Postprocesoarele utilizează: [https://www.freecadweb.org/wiki/Path\_scripting\#FreeCAD.27s\_internal\_GCode\_format Path Job Operations FreeCAD G-Code dialect](https://www.freecadweb.org/wiki/Path_scripting#FreeCAD.27s_internal_GCode_format_Path_Job_Operations_FreeCAD_G-Code_dialect.md), în combinație cu definițiile de configurare Postprocessor, pentru a genera G-Codul corect pentru diagramele pentru mașinile țintă. Acest lucru permite ca Atelierul Path să genereze codul G corect pentru a viza diferite controlere de mașini CNC invocând diferite postprocesoare.
+Postprocesoarele utilizează: _, în combinație cu definițiile de configurare Postprocessor, pentru a genera G-Codul corect pentru diagramele pentru mașinile țintă. Acest lucru permite ca Atelierul Path să genereze codul G corect pentru a viza diferite controlere de mașini CNC invocând diferite postprocesoare.
 
 CNC Machine Controller types include:
 

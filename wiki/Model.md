@@ -15,7 +15,7 @@ In informal usage, the word \"[Drawing](Drawing.md)\" may be used with the same 
 
  {{Document objects navi}} 
 
-[Category:Glossary](Category:Glossary.md)
+_
 
 ---
-[documentation index](../README.md) > [Glossary](Category:Glossary.md) > Model
+[documentation index](../README.md) > [Glossary](Category_Glossary.md) > Model

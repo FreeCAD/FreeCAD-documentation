@@ -23,7 +23,7 @@ Pour prolonger la face:
 
 **Remarque**
 
-: Pour créer une plaque de base, utilisez un contour 2D fermé - de préférence une <img alt="" src=images/Sketcher_NewSketch.svg  style="width:24px;"> [esquisse](Sketcher_NewSketch/fr.md) - avec <img alt="" src=images/SheetMetal_AddBase.svg  style="width:24px;"> [Tôle de base](SheetMetal_AddBase/fr.md).
+: Pour créer une plaque de base, utilisez un contour 2D fermé - de préférence une <img alt="" src=images/Sketcher_NewSketch.svg  style="width:24px;"> _.
 Au lieu de cela, vous pouvez également générer une plaque de base avec l\'une des méthodes suivantes :
 
 :\* Méthode 1: <img alt="" src=images/Part_Box.svg  style="width:24px;"> [Part Cube](Part_Box/fr.md)
@@ -40,11 +40,11 @@ Au lieu de cela, vous pouvez également générer une plaque de base avec l\'une
 
 ::\* <img alt="" src=images/PartDesign_AdditiveBox.svg  style="width:24px;"> [PartDesign Cube additif](PartDesign_AdditiveBox/fr.md) ou une
 
-::\* <img alt="" src=images/PartDesign_Pad.svg  style="width:24px;"> [PartDesign Protrusion](PartDesign_Pad/fr.md) réalisée à partir d\'une <img alt="" src=images/Sketcher_NewSketch.svg  style="width:24px;"> [Sketcher Nouvelle esquisse](Sketcher_NewSketch/fr.md).
+::\* <img alt="" src=images/PartDesign_Pad.svg  style="width:24px;"> _.
 
 :   
 
-    :   Si vous commencez avec un <img alt="" src=images/PartDesign_Body.svg  style="width:24px;"> PartDesign Corps, vous pouvez mélanger des fonctions de tôlerie avec des fonctions PartDesign telles que <img alt="" src=images/PartDesign_Pocket.svg  style="width:24px;"> [PartDesign Cavité](PartDesign_Pocket/fr.md) or <img alt="" src=images/PartDesign_Hole.svg  style="width:24px;"> [PartDesign Perçage](PartDesign_Hole/fr.md).
+    :   Si vous commencez avec un <img alt="" src=images/PartDesign_Body.svg  style="width:24px;"> PartDesign Corps, vous pouvez mélanger des fonctions de tôlerie avec des fonctions PartDesign telles que <img alt="" src=images/PartDesign_Pocket.svg  style="width:24px;"> _.
 
 
 **Remarque**
@@ -93,7 +93,7 @@ Un objet SheetMetal Prolonger une face est dérivé d\'un objet [Part Feature](P
 
 
 
-[Category:SheetMetal](Category:SheetMetal.md) [Category:Addons](Category:Addons.md) [Category:External Command Reference](Category:External_Command_Reference.md)
+_ _ _
 
 ---
-[documentation index](../README.md) > [SheetMetal](Category:SheetMetal.md) > SheetMetal Extrude/fr
+[documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > SheetMetal Extrude/fr

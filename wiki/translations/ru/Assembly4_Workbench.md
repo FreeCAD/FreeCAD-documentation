@@ -17,7 +17,7 @@ Assembly4 может быть установлен с помощью [Addon Mana
 
 Assembly4 проектировался на базе новых инструментов, созданных для [Assembly3](Assembly3_Workbench/ru.md), в частности, объекта [App Link](App_Link/ru.md) и улучшенного [механизма выражений](expressions/ru.md).
 
-Assembly4 создавался под влиянием верстаков <img alt="" src=images/A2p_workbench.svg  style="width:24px;"> [A2plus](A2plus_Workbench/ru.md) и <img alt="" src=images/Assembly3_workbench_icon.svg  style="width:24px;">[Assembly3](Assembly3_Workbench/ru.md), но не совместим с ними. Если у вас есть старые модели, сделанные в этих двух верстаках, вы должны использовать эти верстаки для открытия ваших моделей.
+Assembly4 создавался под влиянием верстаков <img alt="" src=images/A2p_workbench.svg  style="width:24px;"> _, но не совместим с ними. Если у вас есть старые модели, сделанные в этих двух верстаках, вы должны использовать эти верстаки для открытия ваших моделей.
 
 ## Ссылки
 
@@ -43,7 +43,7 @@ Assembly4 создавался под влиянием верстаков <img a
 
 
 
-[Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+_ _
 
 ---
-[documentation index](../README.md) > Assembly4 Workbench/ru
+[documentation index](../README.md) > [Addons](Category_Addons.md) > Assembly4 Workbench/ru

@@ -17,7 +17,7 @@ To makro rozbija twoją formę za pomocą funkcji **<img src="images/Draft_Downg
 
 ## Tworzenie skryptów 
 
-Ikonka paska narzędzi [mage:Macro\_FaceToSketch.png](mage:Macro_FaceToSketch.png.md)
+Ikonka paska narzędzi _
 
 **Macro\_FaceToSketch.FCMacro**
 

@@ -19,7 +19,7 @@
 Extrage partea comună între obiectele selectate. Această operație este complet parametrică, iar componentele pot fi modificate, iar rezultatul este recompensat.
 
 Funcția **![](images/)_[Intersection](Part_Common/fr.md)**, extrage partea comună (intersecția) a celor două solide selectate. Această operație este total parametrică: componentele pot fi modificate și rezultatul recalculat.
-[480px\|left](IMAGE:Part_Common_fr_01.png.md)
+_
 
 
 
@@ -32,7 +32,7 @@ Funcția **![](images/)_[Intersection](Part_Common/fr.md)**, extrage partea com
 
 ## Utilisation
 
-Selectați atelierul **Part [24px|Part](File:Workbench_Part.png.md)**, sur la **barre d\'outils**, ou sur **Affichage → Atelier → Part**.
+Selectați atelierul **Part _**, sur la **barre d\'outils**, ou sur **Affichage → Atelier → Part**.
 Pour effectuer une opération d\'**![](images/)_[Intersection](Part_Common/fr.md)**, sélectionnez deux ou plusieurs objets, puis cliquez sur le bouton **![](images/)_[Intersection](Part_Common/fr.md)**, et, la partie commune des objets sélectionnés sera extraite.
 
 ## Options
@@ -65,7 +65,7 @@ Les formes originales peuvent être effacées, pour ne conserver que le produit 
 
 ## Les outils Booléens 
 
-[text-top=Opérations\|32px\|link=Part\_Booleans/fr](Image:Part_Booleans.png.md)    [text-top=Soustraction\|32px\|link=Part\_Cut/fr](Image:Part_Cut.png.md)    [text-top=Union\|32px\|link=Part\_Union/fr](Image:Part_Union.png.md)    [text-top=Intersection\|32px\|link=Part\_Common/fr](Image:Part_Common.png.md)    [text-top=Coupe\|32px\|link=Part\_Section/fr](Image:Part_Section.png.md)   
+_    _    _    _    _   
 
 
 </div>

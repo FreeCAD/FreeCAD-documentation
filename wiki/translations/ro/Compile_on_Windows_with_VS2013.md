@@ -152,7 +152,7 @@ Dacă nu primiți nici un mesaj de eroare. Ieșiți din Visual Studio și porni�
 
 
 
-[Category:Developer\_Documentation](Category:Developer_Documentation.md) [Category:Developer](Category:Developer.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Developer_Documentation](Category:Developer_Documentation.md) > Compile on Windows with VS2013/ro
+[documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > Compile on Windows with VS2013/ro

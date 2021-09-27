@@ -17,7 +17,7 @@ Această comandă creează o formă dintr-un [mesh object](Glossary#Mesh.md) . O
 
 </div>
 
-The inverse operation is **<img src=images/Mesh_FromPartShape.svg style="width:16px"> [Mesh FromPartShape](Mesh_FromPartShape.md)** from the <img alt="" src=images/Workbench_Mesh.svg  style="width:24px;"> [Mesh Workbench](Mesh_Workbench.md).
+The inverse operation is **<img src=images/Mesh_FromPartShape.svg style="width:16px"> _.
 
 ## Usage
 

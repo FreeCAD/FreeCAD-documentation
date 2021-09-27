@@ -14,7 +14,7 @@ For all icons in the source tree, see [Artwork](Artwork.md).
 
 }} 
 
-[Category:Points](Category:Points.md)
+_
 
 ---
-[documentation index](../README.md) > [Points](Category:Points.md) > Artwork Points/it
+[documentation index](../README.md) > [Points](Category_Points.md) > Artwork Points/it

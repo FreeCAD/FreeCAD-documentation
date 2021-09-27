@@ -153,7 +153,7 @@ Siehe Anweisungen für Linux oben
 
 ## Andere nützliche Verweise 
 
--   <img alt="PartDesign\_InvoluteGear" src=images/PartDesign_InvoluteGear.svg  style="width:24px;"> [PartDesign EvolventenZahnrad](PartDesign_InvoluteGear/de.md): Dieses Werkzeug ermöglicht die Erstellung eines 2D Profils eines Evolventenzahnrads. Dieses 2D Profil ist vollständig parametrisch und kann mit der Funktion [PartDesign Polster](PartDesign_Pad/de.md) aufgefüllt werden.
+-   <img alt="PartDesign\_InvoluteGear" src=images/PartDesign_InvoluteGear.svg  style="width:24px;"> _ aufgefüllt werden.
 -   [Externe Arbeitsbereiche](External_workbenches/de.md): Eine Liste aller aktuellen externen Arbeitsbereiche von FreeCAD
 -   [Makrorezepte](Macros_recipes/de.md)
 -   [Die Zykloidenverzahnung (deutsch)](https://vivat-geo.de/zykloidenverzahnung.html)
@@ -162,7 +162,7 @@ Siehe Anweisungen für Linux oben
 
 
 
-[Category:External Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md) [Category:FCGear](Category:FCGear.md)
+_ _ _
 
 ---
-[documentation index](../README.md) > FCGear Workbench/de
+[documentation index](../README.md) > [External Workbenches](Category_External Workbenches.md) > FCGear Workbench/de

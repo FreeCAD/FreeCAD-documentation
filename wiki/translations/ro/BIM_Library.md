@@ -67,7 +67,7 @@ Instrumentul Bibliotecă vă permite să plasați, în modelul curent, un obiect
 
  
 
-[Category:BIM](Category:BIM.md)
+_
 
 ---
-[documentation index](../README.md) > [BIM](Category:BIM.md) > BIM Library/ro
+[documentation index](../README.md) > [BIM](Category_BIM.md) > BIM Library/ro

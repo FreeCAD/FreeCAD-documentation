@@ -51,7 +51,7 @@ FreeCAD è principalmente un\'applicazione di modellazione 3D e quindi non ha mo
 
 
 
-[Category:Draft](Category:Draft.md) [Category:TechDraw](Category:TechDraw.md) [Category:File\_Formats](Category:File_Formats.md)
+_ _ _
 
 ---
-[documentation index](../README.md) > [Draft](Category:Draft.md) > SVG/it
+[documentation index](../README.md) > [Draft](Category_Draft.md) > SVG/it

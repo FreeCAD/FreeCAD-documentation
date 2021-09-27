@@ -33,7 +33,7 @@ The Tools menu provides tools for debugging models, customizing FreeCAD\'s behav
 
 -   <img alt="" src=images/Std_DlgParameter.svg  style="width:32px;"> [Редактор параметров\...](Std_DlgParameter/ru.md): Открывает диалоговое окно, позволяющее изменять многие установки, которые управляют программой FreeCAD.
 
--   <img alt="" src=images/Std_ViewScreenShot.svg  style="width:32px;"> [Сохранить изображение](Std_ViewScreenShot/ru.md): Сохраняет снимок экрана текущего [3D вида](3D_view/ru.md).
+-   <img alt="" src=images/Std_ViewScreenShot.svg  style="width:32px;"> _.
 
 -   <img alt="" src=images/Std_SceneInspector.svg  style="width:32px;"> [Инспектор сцены\...](Std_SceneInspector/ru.md): Открывает окно обзора узлов графической сцены активного 3D-вида.
 
@@ -63,7 +63,7 @@ The Tools menu provides tools for debugging models, customizing FreeCAD\'s behav
 
 </div>
 
--   <img alt="" src=images/Std_AddonMgr.svg  style="width:32px;"> [Addon manager](Std_AddonMgr.md): Opens the Addon manager with which [external workbenches](External_workbenches.md) and [macros](macros.md) can be installed.
+-   <img alt="" src=images/Std_AddonMgr.svg  style="width:32px;"> _ and [macros](macros.md) can be installed.
 
 
 
@@ -73,7 +73,7 @@ The Tools menu provides tools for debugging models, customizing FreeCAD\'s behav
 
 }}  
 
-[Category:Workbenches](Category:Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > [Workbenches](Category:Workbenches.md) > Std Tools Menu/ru
+[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Std Tools Menu/ru

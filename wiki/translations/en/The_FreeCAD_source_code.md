@@ -32,7 +32,7 @@ Below are some clues and useful information to get you on tracks if you are inte
 -   The [Power users hub](Power_users_hub.md) contains a lot of documentation about modules, OpenCascade and Coin3D, mainly for the Python programmer. However, as the functionality is similar, these pages will be of interest to the C++ programmer as well.
 -   [FCStd](File_Format_FCStd.md) - the FreeCAD file format
 
-[Category:Developer Documentation](Category:Developer_Documentation.md)
+_
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > The FreeCAD source code/en
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > The FreeCAD source code/en

@@ -12,7 +12,7 @@ TBD
 ### Prerequisites
 
 -   Netgen
--
+
 ### Recommended
 
 -   Paraview
@@ -35,7 +35,7 @@ The FEM code lives in `src/Mod/Fem`
 
 -    `App/`console-mode application, defines basic structures and base classes for document objects, that are used by modules to build their own.
 
--    `Gui/`GUI-mode application, defines the [3D view](3D_view.md), tools/functions used by workbench to interact with UI and 3D view, defines base classes for [view providers](view_provider.md).
+-    `Gui/`GUI-mode application, defines the [3D view](3D_view.md), tools/functions used by workbench to interact with UI and 3D view, defines base classes for [view providers](Viewprovider.md).
 
 -    `femcommands/`
     
@@ -96,7 +96,7 @@ The FEM code lives in `src/Mod/Fem`
 
 ### Coding Conventions 
 
-Please see [coding\_conventions.md](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Fem/coding_conventions.md) file on the FreeCAD repository.
+Please see _ file on the FreeCAD repository.
 
 ## Adding New FEM Solvers 
 
@@ -114,7 +114,7 @@ A new FEM solver requires the following:
 See also:
 
 -   [Add FEM solver tutorial](Add_FEM_solver_tutorial.md)
--   [Extend\_FEM\_Module](Extend_FEM_Module.md)
+-   [Extend FEM Module](Extend_FEM_Module.md)
 -   The implementation efforts of the [oofem](https://github.com/berndhahnebach/FreeCAD_bhb/commits/femoofem) solver
 -   The implementation efforts of the \[<https://github.com/FreeCAD/FreeCAD/compare/a03eb6b9625ba>\...dfc01ec949525 myStran\] solver
 
@@ -126,7 +126,7 @@ TBD
 
 -   [Wrapping a Cplusplus class in Python](Wrapping_a_Cplusplus_class_in_Python.md)
 -   [Add FEM equation tutorial](Add_FEM_equation_tutorial.md)
--   [Add button to FEM toolbar tutorial](Add_button_to_FEM_toolbar_tutorial.md)
+-   [Add Button to FEM Toolbar Tutorial](Add_Button_to_FEM_Toolbar_Tutorial.md)
 
 ## Related
 
@@ -135,8 +135,10 @@ TBD
 -   Open FEM [TODO](https://github.com/FreeCAD/FreeCAD/search?q=TODO+AND+fem) comments in the FreeCAD source code
 -   [Original thread discussion](https://forum.freecadweb.org/viewtopic.php?f=18&t=60574) for this wiki page
 -   [FEM Workbench](FEM_Workbench.md)
--
-[Category:FEM](Category:FEM.md) [Category:FEM](Category:FEM.md) [Category:Developer Documentation](Category:Developer_Documentation.md)
+
+
+
+_ _
 
 ---
-[documentation index](../README.md) > [FEM](Category:FEM.md) > Onboarding FEM Devs
+[documentation index](../README.md) > [FEM](Category_FEM.md) > Onboarding FEM Devs

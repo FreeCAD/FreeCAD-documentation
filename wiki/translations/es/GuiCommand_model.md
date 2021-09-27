@@ -13,11 +13,11 @@
 
 </div>
 
-While the page is under construction, add the [Template:UnfinishedDocu](Template:UnfinishedDocu.md) template at the top of the page by simply typing: ****
+While the page is under construction, add the _ template at the top of the page by simply typing: ****
 
 In this first paragraph give a short description of what the command does. The description can refer to other workbenches such as the <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Sketcher Workbench](Sketcher_Workbench.md). (*Editor note:* The image is 24px, not 16px)
 
-Remember to use [Template:Version](Template:Version.md), [Template:VersionMinus](Template:VersionMinus.md), [Template:VersionPlus](Template:VersionPlus.md) and [Template:Obsolete](Template:Obsolete.md) when applicable.
+Remember to use _, _, _ and _ when applicable.
 
 For example: The feature to utilize `App::Link` <small>(v0.19)</small>  allows linking between sub-assemblies etc\...
 
@@ -108,7 +108,7 @@ Optional.
 
 </div>
 
-See also: [:Category:API](:Category:API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+See also: _ and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
 The ExampleCommandModel tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function:
 
@@ -216,7 +216,7 @@ Optional.
 
 == Scripting ==
 
-See also: [FreeCAD Scripting Basics](:Category:API]] and [[FreeCAD_Scripting_Basics.md).
+See also: _.
 
 The ExampleCommandModel tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function:
 
@@ -257,7 +257,7 @@ Optional.
 
 }} 
 
-[Category:Wiki:Example](Category:Wiki:Example.md)
+_
 
 ---
-[documentation index](../README.md) > [API]] and ](Category:API]] and .md) > GuiCommand model/es
+[documentation index](../README.md) > [API]] and ](Category_API]] and .md) > GuiCommand model/es

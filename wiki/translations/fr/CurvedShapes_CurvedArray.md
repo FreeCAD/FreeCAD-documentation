@@ -14,7 +14,7 @@
 
 Crée un réseau et redimensionne les objets dans les limites d\'une ou plusieurs courbes de la coque. Dans cet exemple, la forme de base orange est redimensionnée dans les limites des courbes de coque rouge et violette. Il n\'est pas nécessaire de relier les courbes entre elles. Les courbes de coque doivent se trouver sur le plan XY- XZ- ou YZ- ou être parallèles à celui-ci.
 
-<https://github.com/chbergmann/CurvedShapesWorkbench/blob/master/Examples/WingExample.png> [Image:](Image:.md)
+<https://github.com/chbergmann/CurvedShapesWorkbench/blob/master/Examples/WingExample.png> _
 
 ## Utilisation
 
@@ -58,7 +58,7 @@ Crée un réseau et redimensionne les objets dans les limites d\'une ou plusieur
 
 
 
-[Category:Name](Category:Name.md) [Category:External Command Reference](Category:External_Command_Reference.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Name](Category:Name.md) > CurvedShapes CurvedArray/fr
+[documentation index](../README.md) > [Name](Category_Name.md) > CurvedShapes CurvedArray/fr

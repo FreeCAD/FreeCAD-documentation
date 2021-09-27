@@ -74,7 +74,7 @@ section:
 
 If {{CheckBox|FALSE|Spline approximation}} is unchecked, the [Curve on mesh](Surface_CurveOnMesh.md) tool creates a basic [Part Feature](Part_Feature.md).
 
-If {{CheckBox|TRUE|Spline approximation}} is checked, the <img src=images/Part_Spline.svg style="width:Curve on mesh](Surface_CurveOnMesh.md) tool creates a **[16px"> [Part Spline](Part_Spline.md)** (`Part::Spline` class) which is derived from the basic [Part Feature](Part_Feature.md) (`Part::Feature` class), therefore it shares all the latter\'s properties.
+If {{CheckBox|TRUE|Spline approximation}} is checked, the <img src=images/Part_Spline.svg style="width:Curve on mesh](Surface_CurveOnMesh.md) tool creates a **_ (`Part::Feature` class), therefore it shares all the latter\'s properties.
 
 In addition to the properties described in [Part Feature](Part_Feature.md), the Part Spline has the following properties in the [property editor](Property_editor.md).
 

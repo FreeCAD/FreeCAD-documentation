@@ -13,7 +13,7 @@
 
 The [Rebar Shape Cut List](Reinforcement_Bar_Shape_Cut_List.md) tool allows the user to create the rebar shape cut list of reinforcing bars.
 
-This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md), an [external workbench](External_workbenches.md) that can be installed with the <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Addon_Manager.md) via the **Tools → Addon manager → Reinforcement** menu.
+This command is part of the _ via the **Tools → Addon manager → Reinforcement** menu.
 
 <img alt="" src=images/Reinforcement_Bar_Shape_Cut_List_example.svg  style="width:800px;">
 
@@ -400,7 +400,7 @@ RebarShapeCutListfunc.getRebarShapeCutList(
 
 
 
-[Category:External Command Reference](Category:External_Command_Reference.md) [Category:Reinforcement](Category:Reinforcement.md)
+_ _
 
 ---
-[documentation index](../README.md) > [External Command Reference](Category:External Command Reference.md) > Reinforcement Bar Shape Cut List/en
+[documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > Reinforcement Bar Shape Cut List/en

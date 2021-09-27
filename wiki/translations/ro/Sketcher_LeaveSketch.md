@@ -44,7 +44,7 @@ Modificările sunt salvate  {{LesAutresOutilsDEsquisse}}
 
 }}  
 
-[Category:Sketcher/ro](Category:Sketcher/ro.md)
+_
 
 ---
 [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher LeaveSketch/ro

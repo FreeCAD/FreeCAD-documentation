@@ -33,7 +33,7 @@ You can do the following tasks:
 
 <div class="mw-translate-fuzzy">
 
-你可以从这儿找到例子： [Example files](http://www.freecad-project.de/svn/ExampleData/Examples/RobotSimulation/) 或者去参考 [Robot tutorial](Robot_tutorial.md).
+你可以从这儿找到例子： _.
 
 
 </div>
@@ -124,7 +124,7 @@ See the [Robot API example](Robot_API_example.md) for a description of the funct
 
 }} 
 
-[Category:Workbenches](Category:Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > Robot Workbench/zh-cn
+[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Robot Workbench/zh-cn

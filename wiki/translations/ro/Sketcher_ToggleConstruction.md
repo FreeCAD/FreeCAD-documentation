@@ -79,7 +79,7 @@ Utilizați Construction mode pe câteva elemente dals schiței,
 
 }}  
 
-[Category:Sketcher/ro](Category:Sketcher/ro.md)
+_
 
 ---
 [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ToggleConstruction/ro

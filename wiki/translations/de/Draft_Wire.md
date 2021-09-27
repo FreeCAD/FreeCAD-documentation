@@ -159,7 +159,7 @@ A Draft Wire object is derived from a [Part Part2DObject](Part_Part2DObject.md) 
 
 ## Skripten
 
-Siehe auch: [Autogenerierte API Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch: _.
 
 
 <div class="mw-translate-fuzzy">

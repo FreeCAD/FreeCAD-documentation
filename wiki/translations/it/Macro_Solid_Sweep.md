@@ -94,7 +94,7 @@ myObject.Shape = Sweep
 
 ## Crediti
 
-Grazie a [Wmayer](User:Wmayer.md) per il suo aiuto nella stesura di questo script.
+Grazie a _ per il suo aiuto nella stesura di questo script.
 
 In [questa sezione del forum](https://forum.freecadweb.org/viewtopic.php?f=8&t=1222&start=50#p11120) si trovano due esempi di utlizzo e si trovano anche i collegamenti per scaricare i file FCStd.
 

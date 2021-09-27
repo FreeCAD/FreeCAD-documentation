@@ -4,7 +4,7 @@
 
 {{TOCright}}
 
-[IfcOpenShell](IfcOpenShell/es.md) es una biblioteca de software de código abierto (LGPL 3) que ayuda a los desarrolladores a trabajar con el formato de archivo [industry foundation classes](http://www.buildingsmart-tech.org/specifications/ifc-overview) ([IFC](Arch_IFC/es.md)). El formato de archivo IFC puede utilizarse para describir datos de construcción y edificación. El formato se utiliza habitualmente para [building information modelling](https://en.wikipedia.org/wiki/Building_information_modeling) (BIM), por ejemplo, para el análisis de cargas mecánicas y para los estudios de eficiencia térmica y energética. IfcOpenShell es principalmente una colección de librerías C++, sin embargo, como tiene enlaces [Python](Python/es.md), puede integrarse con programas como FreeCAD y Blender.
+_). El formato de archivo IFC puede utilizarse para describir datos de construcción y edificación. El formato se utiliza habitualmente para _, puede integrarse con programas como FreeCAD y Blender.
 
 IfcOpenShell utiliza [OpenCASCADE](OpenCASCADE/es.md) internamente para convertir la geometría implícita de los archivos IFC en geometría explícita que otros paquetes CAD pueden entender, por ejemplo, STEP, [OBJ](Arch_OBJ/es.md), y [DAE](Arch_DAE/es.md).
 
@@ -443,12 +443,12 @@ The IfcOpenShell project has also developed \"IFC Pipeline\", a self-hosted IFC 
 -   [Instalación de IFC](https://forum.freecadweb.org/viewtopic.php?f=39&t=12368&start=10#p117883); discusión antigua en el foro.
 -   [IfcPlusPlus compilado en Gentoo - ¿preguntas y alternativas?](https://forum.freecadweb.org/viewtopic.php?f=39&t=33254)
 -   [Compilación de IfcOpenShell para MacOS](Import/Export_IFC_-_compiling_IfcOpenShell/es.md); una guía antigua que describe el proceso general. Puede que ya no sea necesaria ya que IfcOpenShell se distribuye ahora junto con FreeCAD gracias a [Conda](Conda/es.md).
--   Qué páginas enlazan con [esta página](Special:WhatLinksHere/IfcOpenShell/es.md).
+-   Qué páginas enlazan con _.
 
 
  {{FEM Tools navi}} 
 
-[Category:BIM](Category:BIM.md) [Category:3rd Party](Category:3rd_Party.md)
+_ _
 
 ---
-[documentation index](../README.md) > [BIM](Category:BIM.md) > IfcOpenShell/es
+[documentation index](../README.md) > [BIM](Category_BIM.md) > IfcOpenShell/es

@@ -6,7 +6,7 @@ Berikut ini adalah daftar isi dari Bantuan on-line sistem FreeCAD. Artikel yang 
 
 </div>
 
-There is another table of contents for the [FreeCAD MANUAL](Manual:Introduction.md).
+There is another table of contents for the _.
 
 
 <div class="mw-translate-fuzzy">
@@ -160,7 +160,7 @@ There is another table of contents for the [FreeCAD MANUAL](Manual:Introduction.
 
 
 
-[Category:Documentation/id](Category:Documentation/id.md) [Category:Documentation](Category:Documentation.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Documentation](Category:Documentation.md) > Online Help Toc/id
+[documentation index](../README.md) > [Documentation](Category_Documentation.md) > Online Help Toc/id

@@ -59,4 +59,4 @@ new_list = Arch.splitMesh(mesh_obj)
 ```
 
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SplitMesh/fr
+[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch SplitMesh/fr

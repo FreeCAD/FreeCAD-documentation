@@ -123,7 +123,7 @@ Much of the Data properties are the same as those shown in [Options](#Options.md
 
 ## Cut Type Definitions 
 
-Cut types (screw-types) are defined in [json](https://de.wikipedia.org/wiki/JavaScript_Object_Notation) files since version 0.19. There is a set of files distributed with FreeCAD, but users can create their own definitions. Files are searched in <UserAppDataDir>/PartDesign/Hole. The `UserAppDataDir` can be found by typing `App.getUserAppDataDir()` in the [Python console](Python_console.md).
+Cut types (screw-types) are defined in _.
 
 The file should contain:
 

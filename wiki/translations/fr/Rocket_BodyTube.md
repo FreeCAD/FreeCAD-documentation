@@ -49,7 +49,7 @@ Ces paramètres sont fournis à titre indicatif et n\'ont aucun effet sur la con
 
 ## Script
 
-Voir aussi : [:Category:API/fr](:Category:API/fr.md) et [Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md).
+Voir aussi : _ et [Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md).
 
 A définir
 
@@ -63,7 +63,7 @@ A définir
 
 
 
-[Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+_ _
 
 ---
-[documentation index](../README.md) > [API/fr]] et ](Category:API/fr]] et .md) > Rocket BodyTube/fr
+[documentation index](../README.md) > [API/fr]] et ](Category_API/fr]] et .md) > Rocket BodyTube/fr

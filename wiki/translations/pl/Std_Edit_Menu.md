@@ -53,17 +53,19 @@ W tym menu dostępne są następujące narzędzia:
 
 -   <img alt="" src=images/Std_Delete.svg  style="width:32px;"> [Usuń](Std_Delete.md): Usuwa aktualnie zaznaczony obiekt.
 
--   <img alt="" src=images/Std_SendToPythonConsole.svg  style="width:32px;"> [Prześlij do konsoli Python](Std_SendToPythonConsole.md): W [konsoli Python](Python_console/pl.md) tworzy zmienne odnoszące się do obiektu. {{Version/pl|0.19}}
+-   <img alt="" src=images/Std_SendToPythonConsole.svg  style="width:32px;"> _ tworzy zmienne odnoszące się do obiektu. {{Version/pl|0.19}}
 
 -   <img alt="" src=images/Std_Placement.svg  style="width:32px;"> [Położenie \...](Std_Placement.md): Otwiera panel zadań **Umieszczenie** dla wybranego obiektu.
 
--   <img alt="" src=images/Std_TransformManip.svg  style="width:32px;"> [Przemieszczenie](Std_TransformManip/pl.md): Przemieszcza obiekt w oknie [widoku 3D](3D_view/pl.md).
+-   <img alt="" src=images/Std_TransformManip.svg  style="width:32px;"> _.
 
 -   <img alt="" src=images/Std_Alignment.svg  style="width:32px;"> [Wyrównanie\...](Std_Alignment/pl.md): Wyrównuje obiekt w stosunku do ustalonego obiektu odniesienia.
 
 -   <img alt="" src=images/Std_Edit.svg  style="width:32px;"> [Przełącz tryb edycji](Std_Edit.md): Włącza lub wyłącza tryb edycji dla wybranych obiektów.
 
--   <img alt="" src=images/Std_DlgPreferences.svg  style="width:32px;"> [Preferencje](Std_DlgPreferences.md): Otwiera okno [Edytor Preferencji](Preferences_Editor/pl.md). 
+-   <img alt="" src=images/Std_UserEditMode.svg  style="width:32px;"> _. {{Version/pl|0.20}}
+
+-   <img alt="" src=images/Std_DlgPreferences.svg  style="width:32px;"> _. 
 **-- W systemie Mac OS ta opcja menu może pojawić się w menu FreeCAD, zamiast w menu Edit.**
 
 
@@ -74,7 +76,7 @@ W tym menu dostępne są następujące narzędzia:
 
 }}  
 
-[Category:Workbenches](Category:Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > [Workbenches](Category:Workbenches.md) > Std Edit Menu/pl
+[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Std Edit Menu/pl

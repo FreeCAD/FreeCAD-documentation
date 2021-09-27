@@ -81,7 +81,7 @@ See the bug tracker for up to date information.
 
 }}  
 
-[Category:User Documentation/it](Category:User_Documentation/it.md) [Category:User Documentation](Category:User_Documentation.md) [Category:TechDraw](Category:TechDraw.md)
+_ _ _
 
 ---
-[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Roadmap/it
+[documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Roadmap/it

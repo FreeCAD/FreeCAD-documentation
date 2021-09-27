@@ -79,7 +79,7 @@ view = Gui.subgraphFromObject(obj)
 
 [Category:Developer Documentation](Embedding_FreeCAD#Using_FreeCAD_without_GUI.md)
 
-[Category:Poweruser Documentation](Category:Poweruser_Documentation.md)
+_
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Headless FreeCAD
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Headless FreeCAD

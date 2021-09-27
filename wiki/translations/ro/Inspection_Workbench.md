@@ -52,7 +52,7 @@ Ca alternativă, puteţi folosi macro-comanda [HighlightDifference](Macro_Highli
 
 
 
-[Category:Inspection](Category:Inspection.md) [Category:Workbenches](Category:Workbenches.md)
+_ _
 
 ---
-[documentation index](../README.md) > Inspection Workbench/ro
+[documentation index](../README.md) > [Inspection](Category_Inspection.md) > Inspection Workbench/ro

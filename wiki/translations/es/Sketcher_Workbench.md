@@ -5,7 +5,7 @@
 
 ## Introducción
 
-El FreeCAD <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Ambiente de trabajo Croquizador](Sketcher_Workbench/es.md) se utiliza para crear geometrías 2D destinadas a ser utilizadas en el <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Ambiente de trabajo DiseñoPieza](PartDesign_Workbench/es.md), <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> y otros Ambiente de trabajo. Generalmente, un dibujo 2D se considera el punto de partida para la mayoría de los modelos CAD, ya que un boceto 2D puede ser \"extruido\" para crear una forma 3D; otros bocetos 2D pueden ser utilizados para crear otras características como bolsas, crestas o extrusiones sobre las formas 3D previamente construidas. Junto con las operaciones booleanas definidas en el <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Ambiente de trabajo piezas](Part_Workbench/es.md), el Croquis forma la base de la [geometría sólida constructiva](constructive_solid_geometry/es.md) (CSG) método de construcción de sólidos. Además, junto con el <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Ambiente de trabajo DiseñoPieza](PartDesign_Workbench/es.md) operaciones, el Sketcher también forma la base de la [edición de características](feature_editing/es.md) metodología de la creación de sólidos.
+El FreeCAD <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> _, <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> y otros Ambiente de trabajo. Generalmente, un dibujo 2D se considera el punto de partida para la mayoría de los modelos CAD, ya que un boceto 2D puede ser \"extruido\" para crear una forma 3D; otros bocetos 2D pueden ser utilizados para crear otras características como bolsas, crestas o extrusiones sobre las formas 3D previamente construidas. Junto con las operaciones booleanas definidas en el <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> _ operaciones, el Sketcher también forma la base de la [edición de características](feature_editing/es.md) metodología de la creación de sólidos.
 
 El ambiente de trabajo Croquizador presenta \"restricciones\", que permiten que las formas 2D sigan definiciones geométricas precisas en términos de longitud, ángulos y relaciones (horizontalidad, verticalidad, perpendicularidad, etc.). Un solucionador de restricciones calcula el alcance de las restricciones de la geometría 2D y permite la exploración interactiva de los grados de libertad del croquis.
 
@@ -118,7 +118,7 @@ Todas las herramientas del Ambiente de Trabajo Croquiz se encuentran en el menú
 
 -   <img alt="" src=images/Sketcher_NewSketch.svg  style="width:32px;"> [Nuevo croquis](Sketcher_NewSketch/es.md): Crea un nuevo croquis en la cara o plano seleccionado. Si no se selecciona ninguna cara mientras se ejecuta esta herramienta, se le pide al usuario que seleccione un avión en una ventana emergente.
 
--   <img alt="" src=images/Sketcher_EditSketch.svg  style="width:32px;"> [Editar croquis](Sketcher_EditSketch/es.md): Edita el croquis seleccionado. Esto abrirá el [Diálogo de Croquis](Sketcher_Dialog/es.md).
+-   <img alt="" src=images/Sketcher_EditSketch.svg  style="width:32px;"> _.
 
 -   <img alt="" src=images/Sketcher_LeaveSketch.svg  style="width:32px;"> [Abandonar el croquis](Sketcher_LeaveSketch/es.md): Abandona el modo de edición del croquis.
 
@@ -518,7 +518,7 @@ La página [Croquizador Guión](Sketcher_scripting/es.md) contiene ejemplos sobr
 
 }} 
 
-[Category:Workbenches](Category:Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > Sketcher Workbench/es
+[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Sketcher Workbench/es

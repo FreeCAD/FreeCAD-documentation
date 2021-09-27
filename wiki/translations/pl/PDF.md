@@ -19,14 +19,14 @@ The option to export to PDF is available in the **File → [Export PDF](Std_Expo
 
 ## Related
 
--   See also: <img alt="" src=images/Std_Export.svg  style="width:24px;"> [Std Export](Std_Export.md) and <img alt="" src=images/Std_PrintPdf.svg  style="width:24px;"> [Std PrintPdf](Std_PrintPdf.md).
+-   See also: <img alt="" src=images/Std_Export.svg  style="width:24px;"> _.
 
 -   For [power users](Power_users_hub.md), there is an option to utilize the [Python console](Python_console.md) to export a PDF.
 
 
 
 
-[Category:File\_Formats](Category:File_Formats.md)
+_
 
 ---
-[documentation index](../README.md) > [File_Formats](Category:File_Formats.md) > PDF/pl
+[documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > PDF/pl

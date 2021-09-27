@@ -10,7 +10,7 @@ Siehe [Anpassung der Benutzeroberfläche ](Interface_Customization/de.md), wenn 
 
 
 
-[Category:Complete](Category:Complete.md) [Category:Obsolete Workbenches](Category:Obsolete_Workbenches.md)
+_ _
 
 ---
-[documentation index](../README.md) > Complete Workbench/de
+[documentation index](../README.md) > [Complete](Category_Complete.md) > Complete Workbench/de

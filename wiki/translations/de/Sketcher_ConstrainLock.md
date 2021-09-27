@@ -23,7 +23,7 @@
 
 ## Skripten
 
-Die <img alt="" src=images/Sketcher_ConstrainLock.svg  style="width:24px;"> [Schloss](Sketcher_ConstrainLock/de.md) Beschränkung ist ein GUI Befehl, der eine <img alt="" src=images/Sketcher_ConstrainDistanceX.svg  style="width:24px;"> [Horizontaler Abstands](Sketcher_ConstrainDistanceX/de.md) und eine <img alt="" src=images/Sketcher_ConstrainDistanceY.svg  style="width:24px;"> [Vertikaler Abstands](Sketcher_ConstrainDistanceY/de.md) Beschränkung erzeugt, sie ist keine eigenständige Beschränkung. Siehe die [Skizzierer Skripten](Sketcher_scripting/de.md) Seite für Details und Beispiele, wie diese Beschränkungen aus Python Skripten erstellt werden können.
+Die <img alt="" src=images/Sketcher_ConstrainLock.svg  style="width:24px;"> _ und eine <img alt="" src=images/Sketcher_ConstrainDistanceY.svg  style="width:24px;"> [Vertikaler Abstands](Sketcher_ConstrainDistanceY/de.md) Beschränkung erzeugt, sie ist keine eigenständige Beschränkung. Siehe die [Skizzierer Skripten](Sketcher_scripting/de.md) Seite für Details und Beispiele, wie diese Beschränkungen aus Python Skripten erstellt werden können.
 
 
 

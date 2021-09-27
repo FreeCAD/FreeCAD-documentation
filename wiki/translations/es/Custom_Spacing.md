@@ -28,7 +28,7 @@ La salida se genera mediante el cuadro de diálogo Distribución de barras de re
 
 
 
-[Category:User Documentation](Category:User_Documentation.md) [Category:Reinforcement](Category:Reinforcement.md)
+_ _
 
 ---
-[documentation index](../README.md) > [User Documentation](Category:User Documentation.md) > Custom Spacing/es
+[documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > Custom Spacing/es

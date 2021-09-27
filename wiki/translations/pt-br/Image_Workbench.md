@@ -35,7 +35,7 @@ O deslocamento da imagem pode ser configurado durante a importação ou alterada
 
 }} 
 
-[Category:Workbenches](Category:Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > Image Workbench/pt-br
+[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Image Workbench/pt-br

@@ -21,19 +21,19 @@ FreeCAD supporta molti pacchetti software di terze parti pronti all\'uso. In mol
 
 ### GitPython
 
-[GitPython](https://github.com/gitpython-developers/GitPython) è una libreria python che viene utilizzata per interagire con i repository Git. L\'[Addon Manager](Std_AddonMgr/it.md) può usare questa libreria. GitPython è incluso nei programmi di installazione di FreeCAD per Windows e Mac.
+_ può usare questa libreria. GitPython è incluso nei programmi di installazione di FreeCAD per Windows e Mac.
 
 ### GraphViz
 
-[GraphViz](https://www.graphviz.org) è un software di visualizzazione di grafici open source. È utilizzato dallo strumento [Grafico delle dipendenze](Std_DependencyGraph/it.md).
+_.
 
 ### OpenCAMLib
 
-[OpenCAMLib](http://www.anderswallin.net/CAM) è una libreria open source di algoritmi di produzione assistita da computer (CAM). È utilizzata nell\'ambiente [Path](Path_Workbench/it.md). Vedere la pagina [OpenCamLib](OpenCamLib/it.md) per le istruzioni d\'installazione.
+_. Vedere la pagina [OpenCamLib](OpenCamLib/it.md) per le istruzioni d\'installazione.
 
 ### OpenSCAD
 
-[OpenSCAD](https://www.openscad.org) è un modellatore solido 3D. L\'ambiente [OpenSCAD](OpenSCAD_Workbench/it.md) dipende da questo software e [Mesh Workbench](Mesh_Workbench/it.md) lo utilizza per i suoi strumenti booleani. È richiesto anche per l\'importazione di file SCAD con lo strumento [Std Import](Std_Import/it.md).
+_ dipende da questo software e [Mesh Workbench](Mesh_Workbench/it.md) lo utilizza per i suoi strumenti booleani. È richiesto anche per l\'importazione di file SCAD con lo strumento [Std Import](Std_Import/it.md).
 
 ## Formati file 
 
@@ -45,11 +45,11 @@ Tutto il software in questa sezione viene utilizzato dagli strumenti [Importa](S
 
 ### DXF Importer 
 
-FreeCAD ha un importatore ed esportatore nativo per file DXF, programmato in C++. Attualmente non implementa tutte le funzionalità del formato DXF. Per queste funzionalità sono ancora disponibili l\'importatore ed esportatore Python legacy. Questi richiedono la libreria Python [Draft-dxf-importer](https://github.com/yorikvanhavre/Draft-dxf-importer). Vedere la pagina [Importare i file DXF in FreeCAD](FreeCAD_and_DXF_Import/it.md) per maggiori informazioni.
+FreeCAD ha un importatore ed esportatore nativo per file DXF, programmato in C++. Attualmente non implementa tutte le funzionalità del formato DXF. Per queste funzionalità sono ancora disponibili l\'importatore ed esportatore Python legacy. Questi richiedono la libreria Python _ per maggiori informazioni.
 
 ### IfcOpenShell
 
-[IfcOpenShell](http://ifcopenshell.org) è una libreria per lavorare con il formato file Industry Foundation Classes (IFC) utilizzato nella progettazione architettonica. La libreria è utilizzata anche dagli strumenti [Arch IfcExplorer](Arch_IfcExplorer/it.md) ({{VersionMinus|0.18}}) e [BIM IfcExplorer](BIM_IfcExplorer/it.md). IfcOpenShell è incluso nei programmi di installazione di FreeCAD per Windows e Mac.
+_ ({{VersionMinus|0.18}}) e [BIM IfcExplorer](BIM_IfcExplorer/it.md). IfcOpenShell è incluso nei programmi di installazione di FreeCAD per Windows e Mac.
 
 ### IfcJson
 
@@ -57,11 +57,11 @@ FreeCAD ha un importatore ed esportatore nativo per file DXF, programmato in C++
 
 ### LibreDWG
 
-Il supporto per [LibreDWG](https://www.gnu.org/software/libredwg) è ancora sperimentale. Come il convertitore di file ODA, può convertire file DWG in DXF che possono poi essere importati da FreeCAD. Vedere la pagina [Importare i file DWG in FreeCAD](FreeCAD_and_DWG_Import/it.md) per maggiori informazioni.
+Il supporto per _ per maggiori informazioni.
 
 ### ODA File Converter 
 
-Il [ODA File Converter](https://www.opendesign.com/guestfiles/oda_file_converter) è un\'applicazione gratuita per convertire tra diverse versioni di file DWG e DXF. FreeCAD richiede questo convertitore, o LibreDWG, per importare file DWG. Vedere la pagina [Importare i file DWG in FreeCAD](FreeCAD_and_DWG_Import/it.md) per maggiori informazioni.
+Il _ per maggiori informazioni.
 
 ### Pycollada
 
@@ -71,41 +71,41 @@ Il [ODA File Converter](https://www.opendesign.com/guestfiles/oda_file_converter
 
 ### LuxCoreRender
 
-[LuxCoreRender](https://www.luxcorerender.org) è un motore di rendering, reboot del progetto [LuxRender](LuxRender/it.md). Ufficialmente non è supportato dall\'ambiente [Raytracing](Raytracing_Workbench/it.md), ma potrebbe valere la pena di provarlo. È ufficialmente supportato dal nuovo ambiente [Render](https://github.com/FreeCAD/FreeCAD-render), inteso come futuro sostituto dell\'ambiente Raytracing. Vedere la pagina [LuxCoreRender](LuxCoreRender/it.md) per ulteriori informazioni e istruzioni di installazione.
+_. Ufficialmente non è supportato dall\'ambiente _ per ulteriori informazioni e istruzioni di installazione.
 
 ### LuxRender
 
-[LuxRender](https://luxcorerender.org/history/) è uno dei due motori di rendering supportati dall\'ambiente [Raytracing](Raytracing_Workbench/it.md). Nel 2013 il progetto è stato riavviato diventando [LuxCoreRender/it](LuxCoreRender/it.md), con un\'importante riscrittura del codice e modifiche alla compatibilità. Ufficialmente l\'ambiente Raytracing supporta solo [LuxRender](LuxRender.md) che è stato dismesso (l\'ultima versione è la 1.6 del 28/12/2017), mentre il nuovo ambiente [Render](https://github.com/FreeCAD/FreeCAD-render) (destinato in futuro a sostituire l\'ambiente Raytracing) supporta LuxCoreRender ed ha abbandonato il supporto per LuxRender. Comunque, anche se ufficialmente non supportato, [LuxCoreRender](LuxCoreRender/it.md) potrebbe funzionare con l\'ambiente Raytracing, potrebbe valere la pena di provarlo. Vedere la pagina [LuxRender](LuxRender/it.md) per ulteriori informazioni e istruzioni di installazione e [LuxCoreRender](LuxCoreRender/it.md) se si desidera provare un software più moderno.
+_. Nel 2013 il progetto è stato riavviato diventando _ potrebbe funzionare con l\'ambiente Raytracing, potrebbe valere la pena di provarlo. Vedere la pagina [LuxRender](LuxRender/it.md) per ulteriori informazioni e istruzioni di installazione e [LuxCoreRender](LuxCoreRender/it.md) se si desidera provare un software più moderno.
 
 ### POV-Ray 
 
-[POV-Ray](https://www.povray.org) è un noto ray-tracer che può rendere immagini fotorealistiche. È uno dei due motori di rendering attualmente supportati dall\'ambiente [Raytracing](Raytracing_Workbench/it.md). Consulta la pagina [POV-Ray](POV-Ray/it.md) per ulteriori informazioni e istruzioni di installazione.
+_. Consulta la pagina [POV-Ray](POV-Ray/it.md) per ulteriori informazioni e istruzioni di installazione.
 
 ## Elementi finiti 
 
 ### CalculiX
 
-[CalculiX](http://calculix.de) è una suite di due pacchetti di elementi finiti: CalculiX CrunchiX, un risolutore FEM, e CalculiX GraphiX, un frontend GUI. Solo il risolutore è supportato da FreeCAD. Viene utilizzato dallo strumento [Risolutore CalculiX](FEM_SolverCalculiX/it.md).
+_.
 
 ### Gmsh
 
-[Gmsh](http://gmsh.info) è un generatore automatico di mesh agli elementi finiti. è utilizzato dagli strumenti [FEM MeshGmshFromShape](FEM_MeshGmshFromShape/it.md) e [Mesh FromPartShape](Mesh_FromPartShape/it.md).
+_ e [Mesh FromPartShape](Mesh_FromPartShape/it.md).
 
 ### Elmer
 
-[Elmer](https://www.csc.fi/web/elmer) è un software di simulazione multifisica, che è stato reso open source nel 2005. In FreeCAD i suoi moduli Grid e Solver sono utilizzati dallo strumento [FEM SolverElmer](FEM_SolverElmer/it.md).
+_.
 
 ### FEniCS
 
-[FEniCS](https://fenicsproject.org) è una piattaforma di calcolo per risolvere equazioni differenziali alle derivate parziali (PDE), ampiamente utilizzate per la risoluzione di problemi FEM. Viene utilizzato dall\'ambiente [FEM](FEM_Workbench/it.md).
+_.
 
 ### Z88
 
-[Z88](https://en.z88.de) è un altro programma FEM, contenente un mesher, un risolutore e convertitori. Viene utilizzato dallo strumento [FEM SolverZ88](FEM_SolverZ88/it.md). FreeCAD richiede il pacchetto open source Z88OS.
+_. FreeCAD richiede il pacchetto open source Z88OS.
 
 ### OpenFOAM
 
-[OpenFOAM](https://openfoam.org) è una vasta raccolta di librerie per simulazioni di fluidodinamica computazionale (CFD). OpenFOAM è utilizzato dall\'ambiente [Cfd](Cfd_Workbench/it.md) e [CfdOF](https://github.com/jaheyns/CfdOF) [external\_workbench](external_workbench.md).
+_ e _.
 
 # Pagine correlate 
 
@@ -116,7 +116,7 @@ Il [ODA File Converter](https://www.opendesign.com/guestfiles/oda_file_converter
 
 
 
-[Category:User Documentation/it](Category:User_Documentation/it.md)
+_
 
 ---
 [documentation index](../README.md) > Installing additional components/it

@@ -914,7 +914,7 @@ If a newly loaded workbench has dedicated preference they will appear in a new s
 
 For a list of workbench preferences see [Workbench preferences](#Workbench_preferences.md)
 
-![](images/Preferences_Workbenches_Tab_Unloaded_Workbenches.png )
+![](images/Preferences_Workbenches_Tab_Available_Workbenches.png )
 
 
 <div class="mw-translate-fuzzy">
@@ -939,7 +939,7 @@ I link per le preferenze degli ambienti più comuni sono indicati sotto. Alcuni 
 
 **This section is incomplete and requires mentioning the preference pages of each core workbench**
 
-Preferences for the more common workbenches are linked below. Some workbenches have no preferences. Other optional workbenches may not be listed. These links are also listed in [:Category:Preferences](:Category:Preferences.md)
+Preferences for the more common workbenches are linked below. Some workbenches have no preferences. Other optional workbenches may not be listed. These links are also listed in _
 
 
 <div class="mw-translate-fuzzy">
@@ -1016,7 +1016,7 @@ For a scripting example see [Std DlgParameter](Std_DlgParameter.md).
 
 
 
-[Category:Preferences](Category:Preferences.md)
+_
 
 ---
-[documentation index](../README.md) > [Preferences](Category:Preferences.md) > Preferences Editor/it
+[documentation index](../README.md) > [Preferences](Category_Preferences.md) > Preferences Editor/it

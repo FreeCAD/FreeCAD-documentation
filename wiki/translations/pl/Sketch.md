@@ -4,7 +4,7 @@
 
 {{TOCright}}
 
-W FreeCAD słowo \"[Szkic](Sketch/pl.md)\" jest zwykle używane w odniesieniu do [Sketcher: SketchObject](Sketcher_SketchObject.md). (`Sketcher::SketchObject`) jest zdefiniowany przez klasę [Środowiska pracy Sketcher](Sketcher_Workbench/pl.md). Jest to rysunek 2D, który wykorzystuje wiązania matematyczne w celu dokładnego opisania geometrii 2D.
+W FreeCAD słowo \"_. (`Sketcher::SketchObject`) jest zdefiniowany przez klasę [Środowiska pracy Sketcher](Sketcher_Workbench/pl.md). Jest to rysunek 2D, który wykorzystuje wiązania matematyczne w celu dokładnego opisania geometrii 2D.
 
 Zobacz opis [Sketcher: SketchObject](Sketcher_SketchObject.md), aby uzyskać więcej informacji na temat tego typu obiektu.
 
@@ -30,14 +30,14 @@ Po zakończeniu tworzenia/modyfikacji szkicu, zamknij go, aby wyjść z trybu ed
 Szkic jest bardzo często używany w połączeniu ze środowiskiem pracy <img alt="" src=images/Workbench_PartDesign.svg  style="width:16px;"> [PartDesign](PartDesign_Workbench/pl.md) do tworzenia brył metodą wyciągnięcia, używając funkcji 
 **<img src=images/PartDesign_Pad.svg style="width:16px"> [PartDesign: Wyciągnij wybrany szkic](PartDesign_Pad/pl.md)**
 
-Niemniej jednak, Szkic zawsze może być stworzony samodzielnie w dowolnym innym celu. Nie musi być powiązany z funkcja <img src=images/Arch_Window.svg style="width:PartDesign: Stwórz nową zawartość](PartDesign_Body/pl.md). Na przykład narzędzie **[16px"> <img src=images/Arch_Wall.svg style="width:Arch Window](Arch_Window.md)**, narzędzia Środowiska pracy [Arch](Arch_Workbench/pl.md) wykorzystują szkice do definiowania kształtów okien i drzwi. W ten sam sposób mogą być wykorzystane do zdefiniowania kształtu **[16px"> [Arch: Wall](Arch_Wall.md)**.
+Niemniej jednak, Szkic zawsze może być stworzony samodzielnie w dowolnym innym celu. Nie musi być powiązany z funkcja <img src=images/Arch_Window.svg style="width:PartDesign: Stwórz nową zawartość](PartDesign_Body/pl.md). Na przykład narzędzie **_**.
 
 
 {{Sketcher Tools navi
 
 }} {{Document objects navi}} 
 
-[Category:Glossary](Category:Glossary.md)
+_
 
 ---
-[documentation index](../README.md) > [Glossary](Category:Glossary.md) > Sketch/pl
+[documentation index](../README.md) > [Glossary](Category_Glossary.md) > Sketch/pl

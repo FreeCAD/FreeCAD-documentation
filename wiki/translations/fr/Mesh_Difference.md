@@ -13,7 +13,7 @@
 
 La commande **Mesh Différence** crée un nouvel objet maillé non paramétrique, un [Mesh Feature](Mesh_Feature/fr.md), qui est la différence de deux objets maillé: un objet maillé est coupé de l\'autre.
 
-[OpenSCAD](http://www.openscad.org/) doit être installé pour utiliser cette commande et le chemin d\'accès à son exécutable doit être défini dans les [Préférences d\'OpenSCAD](OpenSCAD_Preferences/fr.md).
+_.
 
 ![](images/Mesh_Difference_example.png ) *A gauche deux objets maillés, à droite l'objet maillé qui est la différence de ces objets si le cube est sélectionné comme objet principal*
 

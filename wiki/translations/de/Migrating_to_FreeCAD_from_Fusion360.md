@@ -27,7 +27,7 @@ Verweise auf die [Glossar](Glossary/de.md) Seite im Allgemeinen, aber hier ist e
 
 \#\* Welche Formate werden in FreeCAD unterstützt?
 
-\#\* Das native Dateiformat in FreeCAD ist BREP, [boundary representation](https://en.wikipedia.org/wiki/Boundary_representation), bereitgestellt vom internen [OpenCASCADE (OCCT)](OpenCASCADE/de.md) Geometriekern.
+\#\* Das native Dateiformat in FreeCAD ist BREP, _ Geometriekern.
 
 \#\* FreeCAD unterstützt alle Formate, die OCCT unterstützt, also zumindest STEP und IGES.
 
@@ -37,7 +37,7 @@ Verweise auf die [Glossar](Glossary/de.md) Seite im Allgemeinen, aber hier ist e
 
 ## Tips
 
--   \@MPetrika ([twitter](https://twitter.com/MPetrikas/status/1362051484704264198)) empfiehlt die Installation der [ModernUI Arbeitsbereich](ModernUI_Workbench/de.md) von HakanSeven12
+-   \@MPetrika (_ von HakanSeven12
 
 ## Lernmaterialien
 

@@ -28,7 +28,7 @@ Narzędzie to działa na aktywnym zestawie osi. W przypadku wykresów wieloosiow
 
 }} 
 
-[Category:External\_Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)
+_ _
 
 ---
-[documentation index](../README.md) > [External_Workbenches](Category:External_Workbenches.md) > Plot Grid/pl
+[documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > Plot Grid/pl

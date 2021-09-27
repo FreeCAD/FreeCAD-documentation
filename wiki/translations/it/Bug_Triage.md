@@ -163,7 +163,7 @@ An important methodology to track tickets by a certain subject/theme/category. I
 
 
 
-[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Administration](Category:Administration.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Bug Triage/it
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Bug Triage/it

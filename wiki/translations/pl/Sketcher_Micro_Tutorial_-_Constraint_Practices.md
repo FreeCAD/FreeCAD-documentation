@@ -3,7 +3,7 @@
 |Topic=Modelowanie
 |Level=początkujący
 |Time=30 minut
-|Author=Mark Stephen ([Quick61](User:Quick61.md)) and vocx
+|Author=Mark Stephen (_) and vocx
 |FCVersion=0.19
 |Files=[https://forum.freecadweb.org/viewtopic.php?f=36&p=371659#p371659 Sketcher: wiązania praktycznie]
 }}
@@ -14,7 +14,7 @@ Ten tutorial został pierwotnie napisany przez Quick61 i został zaktualizowany 
 
 ## Witamy
 
-Ten poradnik ma na celu pomóc nowemu użytkownikowi FreeCAD zapoznać się z technikami i najlepszymi praktykami dotyczącymi tworzenia wiązań [szkicu](Sketch.md) oraz przepływem pracy Środowiska <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Sketcher](Sketcher_Workbench/pl.md).
+Ten poradnik ma na celu pomóc nowemu użytkownikowi FreeCAD zapoznać się z technikami i najlepszymi praktykami dotyczącymi tworzenia wiązań _.
 
 Istnieje ogólna zasada dotycząca wiązań szkicownika FreeCAD, im mniej jest **wiązań wymiarów**, tym lepiej.
 

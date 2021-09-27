@@ -1,7 +1,7 @@
 # Online Help Toc/zh-hant
-This is the table of contents used for the automatic building of the **Online Help** system in FreeCAD. A printable version of this manual is also available on the [releases page](https://github.com/FreeCAD/FreeCAD/releases). If you have any questions or need help with FreeCAD please consult the [help page](Help.md) including the forums and chat groups.
+This is the table of contents used for the automatic building of the **Online Help** system in FreeCAD. A printable version of this manual is also available on the _ including the forums and chat groups.
 
-There is another table of contents for the [FreeCAD MANUAL](Manual:Introduction.md).
+There is another table of contents for the _.
 
 <img alt="" src=images/Online_Help_Toc.svg  style="width:64px;">
 
@@ -121,7 +121,7 @@ There is another table of contents for the [FreeCAD MANUAL](Manual:Introduction.
 
 
 
-[Category:Documentation/zh-hant](Category:Documentation/zh-hant.md) [Category:Documentation](Category:Documentation.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Documentation](Category:Documentation.md) > Online Help Toc/zh-hant
+[documentation index](../README.md) > [Documentation](Category_Documentation.md) > Online Help Toc/zh-hant

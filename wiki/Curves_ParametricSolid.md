@@ -16,13 +16,13 @@ The <img alt="" src=images/Curves_ParametricSolid.svg  style="width:24px;"> [Cur
 
 ## Usage
 
-1.  Switch to the <img alt="" src=images/Curves_workbench_icon.svg  style="width:24px;"> [Curves](Curves_Workbench.md) workbench (install from <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md) is necessary, if not previously installed)
+1.  Switch to the <img alt="" src=images/Curves_workbench_icon.svg  style="width:24px;"> _ is necessary, if not previously installed)
 2.  Select faces to create a solid (in the [tree view](Tree_view.md) or in the [3D view](3D_view.md)).
     -   Use **Ctrl** key to select several faces. The whole faces must be closed together. The picture above show 4 faces that comprised the one solid wing.
 3.  To invoke the command, do one of the following:
     -   Press the <img alt="" src=images/Curves_ParametricSolid.svg  style="width:24px;"> button
     -   Use the **Misc. → Parametric solid** entry in the Curves menu
-4.  The shape created can be use as a solid in other workbench (i.e. <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part](Part_Workbench.md) or <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench.md) workbenches). It has volume and weight.
+4.  The shape created can be use as a solid in other workbench (i.e. <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> _ workbenches). It has volume and weight.
 
 ## Notes
 
@@ -37,7 +37,7 @@ The <img alt="" src=images/Curves_ParametricSolid.svg  style="width:24px;"> [Cur
 
  {{Curves Tools navi}} 
 
-[Category:External Command Reference](Category:External_Command_Reference.md)
+_
 
 ---
-[documentation index](../README.md) > [External Command Reference](Category:External Command Reference.md) > Curves ParametricSolid
+[documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > Curves ParametricSolid

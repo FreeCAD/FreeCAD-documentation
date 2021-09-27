@@ -49,7 +49,7 @@ Components created using the Rocket Workbench are essentially parts similar to w
 
 
 
-[Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+_ _
 
 ---
-[documentation index](../README.md) > Rocket Workbench/pl
+[documentation index](../README.md) > [Addons](Category_Addons.md) > Rocket Workbench/pl

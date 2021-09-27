@@ -225,7 +225,7 @@ FreeCAD, запущенный в консольном режиме (без гр�
 
 Диалог сохранения картинки с произвольным размером.
 
-[Category:User Documentation/ru](Category:User_Documentation/ru.md) [Category:Screenshots/ru](Category:Screenshots/ru.md)
+_ _
 
 ---
 [documentation index](../README.md) > Screenshots/ru

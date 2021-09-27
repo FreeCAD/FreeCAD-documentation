@@ -37,7 +37,7 @@ The BIM views manager will show all the levels (building parts) and working plan
 
 }}
 
-[Category:External Command Reference](Category:External_Command_Reference.md)
+_
 
 ---
-[documentation index](../README.md) > [External Command Reference](Category:External Command Reference.md) > BIM Views/pl
+[documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > BIM Views/pl

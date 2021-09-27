@@ -62,7 +62,7 @@ If the mesher is installed, make sure the FEM Workbench is able to find the bina
 
 **Note: The Netgen mesher was disabled in March 2017, when FreeCAD transitioned to using OCCT 7.1. Please edit this information if Netgen is usable again with the stable release of FreeCAD.**
 
-In previous versions of FreeCAD, [Netgen](https://sourceforge.net/projects/netgen-mesher/) was the default mesher. For it to work with the FEM Workbench, FreeCAD had to be linked against the Netgen libraries at compile time. As FreeCAD transitioned from OCE 0.17 to OCCT 7.1, Netgen 4.9.13 failed to link against this version of OCCT, so it was decided to drop Netgen support in the [FEM Workbench](FEM_Workbench.md) (the [Netgen button](FEM_MeshNetgenFromShape.md) was removed). Nevertheless, shortly afterwards some users reported success in patching Netgen 5.3.1, so that it worked with OCCT 7.x and FreeCAD.
+In previous versions of FreeCAD, _ (the [Netgen button](FEM_MeshNetgenFromShape.md) was removed). Nevertheless, shortly afterwards some users reported success in patching Netgen 5.3.1, so that it worked with OCCT 7.x and FreeCAD.
 
 For historical reference, see the threads:
 
@@ -112,7 +112,7 @@ Linux distributions have different ways of installing software. Many distributio
 
 ### Ubuntu PPA 
 
-The [freecad-stable](https://launchpad.net/~freecad-maintainers/+archive/ubuntu/freecad-stable) and [freecad-daily](https://launchpad.net/~freecad-maintainers/+archive/ubuntu/freecad-daily) personal package archives (PPA) provide a more recent version of FreeCAD than is available in the official Ubuntu repositories. These PPAs include the most recent `netgen`, `gmsh`, and `calculix-ccx` packages as well. See [Installing on Linux](Installing_on_Linux.md) for more information on setting up the repositories.
+The _ for more information on setting up the repositories.
 
 If a PPA is already added to your system, install the packages as follows
 

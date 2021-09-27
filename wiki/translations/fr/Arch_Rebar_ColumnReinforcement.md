@@ -16,7 +16,7 @@ L\'outil [Renfort de colonnes](Arch_Rebar_Circular_ColumnReinforcement/fr.md) pe
 
 L\'outil [Rebar Armature en colonne](Arch_Rebar_ColumnReinforcement.md) est également intégré dans [atelier BIM](BIM_Workbench/fr.md).
 
-Cette commande fait partie de l\'[atelier Reinforcement](Reinforcement_Workbench/fr.md), un [atelier externe](External_workbenches/fr.md) que vous pouvez installer avec <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Addon_Manager/fr.md) via le menu **Outils → Gestionnaire d'Addon → Reinforcement**.
+Cette commande fait partie de l\'_ via le menu **Outils → Gestionnaire d'Addon → Reinforcement**.
 
 <img alt="" src=images/Arch_Rebar_ColumnReinforcement_example.png  style="width:400px;"> 
 *Renfort de colonne à l'intérieur d'une colonne [Arch Structure](Arch_Structure/fr.md)*
@@ -570,7 +570,7 @@ rebar_group = SingleTieMultipleRebars.editSingleTieMultipleRebars(
 
  
 
-[Category:Reinforcement](Category:Reinforcement.md)
+_
 
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Rebar ColumnReinforcement/fr
+[documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar ColumnReinforcement/fr

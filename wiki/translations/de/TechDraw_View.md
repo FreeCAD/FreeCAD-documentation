@@ -21,7 +21,7 @@ Das Werkzeug Ansicht fügt eine Darstellung eines oder mehrerer Objekte einer Ze
 2.  Wenn du mehrere Zeichnungsseiten in deinem Dokument hast, musst du auch die gewünschte Seite im Baum auswählen. Verwende die **Strg**, um mehrere Elemente im Baum auszuwählen.
 3.  Drücke die **<img src="images/TechDraw_View.svg" width=16px> [Ansicht einfügen](TechDraw_View/de.md)** Schaltfläche
 
-Ansicht wird versuchen, alles mit einer `Form` Eigenschaft zu zeichnen. Du kannst [Entwurf](Draft_Workbench/de.md) Objekte und [PartDesign Körper](PartDesign_Body/de.md) auch auswählen. Ansicht extrahiert auch beliebige Formen aus Objekten innerhalb eines [App::Part](Std_Part/de.md) Containers oder einer [Gruppe](Std_Group/de.md).
+Ansicht wird versuchen, alles mit einer `Form` Eigenschaft zu zeichnen. Du kannst _ Containers oder einer [Gruppe](Std_Group/de.md).
 
 ## Eigenschaften
 

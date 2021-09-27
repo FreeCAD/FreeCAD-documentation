@@ -94,7 +94,7 @@ No installation is required. Thanks go to the author of the program.
 
  {{Powerdocnavi}}
 
-[Category:Developer Documentation](Category:Developer_Documentation.md)
+_
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Coin3d snippets
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Coin3d snippets

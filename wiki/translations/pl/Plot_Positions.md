@@ -33,7 +33,7 @@ Wybierz kartę wykresu, który chcesz edytować, i uruchom to narzędzie. Nastę
 
 }} 
 
-[Category:External\_Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)
+_ _
 
 ---
-[documentation index](../README.md) > [External_Workbenches](Category:External_Workbenches.md) > Plot Positions/pl
+[documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > Plot Positions/pl

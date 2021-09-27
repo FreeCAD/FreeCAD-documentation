@@ -1,7 +1,7 @@
 # Feature/de
 ## Einleitung
 
-In FreeCAD wird das Wort \"[Formelement](Feature/de.md)\" normalerweise verwendet, um sich auf eine [PartDesign Formelement](PartDesign_Feature/de.md) Objekt (`PartDesign::Feature` Klasse) zu beziehen, die von der [PartDesign Arbeitsbereich](PartDesign_Workbench/de.md) definiert wird. Dies ist eine Operation oder ein Modellierungsschritt ausgeführt zum Erstellen oder Ändern eines Volumenkörpers [Form](Shape/de.md) nach dem [Formelementbearbeitungs](feature_editing/de.md) Paradigma.
+In FreeCAD wird das Wort \"_ definiert wird. Dies ist eine Operation oder ein Modellierungsschritt ausgeführt zum Erstellen oder Ändern eines Volumenkörpers [Form](Shape/de.md) nach dem [Formelementbearbeitungs](feature_editing/de.md) Paradigma.
 
 Siehe [PartDesign Formelement](PartDesign_Feature/de.md) für weitere Informationen über diesen Objekttyp.
 
@@ -18,18 +18,18 @@ Siehe [PartDesign Formelement](PartDesign_Feature/de.md) für weitere Informatio
 
 Im allgemeinen Verständnis kann ein \"Formelement\" jeder Modellierungsschritt sein, der zur Erstellung einer endgültigen [Form](Shape/de.md) mit einem beliebigen Werkzeug eines beliebigen [Arbeitsbereichs](Workbenches/de.md) verwendet werden.
 
--   Zum Beispiel im <img src=images/Part_Fuse.svg style="width:Part Arbeitsbereich](Part_Workbench/de.md), im [konstruktive Volumenkörpergeometrie](constructive_solid_geometry/de.md) Arbeitsablauf kann ein \"Formelement\" eine beliebige boolesche Operation sein, wie {{Button[16px"> <img src=images/Part_Cut.svg style="width:Part Verschmelzung](Part_Fuse/de.md)}}, **[16px"> <img src=images/Part_Common.svg style="width:Part Schnitt](Part_Cut.md)**, oder **[16px"> [Part Schnittmenge](Part_Common/de.md)**.
+-   Zum Beispiel im <img src=images/Part_Fuse.svg style="width:Part Arbeitsbereich](Part_Workbench/de.md), im _}}, **[16px"> <img src=images/Part_Common.svg style="width:Part Schnitt](Part_Cut.md)**, oder **[16px"> [Part Schnittmenge](Part_Common/de.md)**.
 
 In einem genaueren Verständnis ist ein \"Formelement\" ein Modellierungsschritt, der innerhalb eines [PartDesign Körper](PartDesign_Body/de.md) verwendet wird.
 
--   Zum Beispiel: **<img src=images/PartDesign_AdditiveCylinder.svg style="width:16px"> <img src=images/PartDesign_AdditiveLoft.svg style="width:PartDesign Hinzuzufügender Zylinder](PartDesign_AdditiveCylinder/de.md)**, **[16px"> <img src=images/PartDesign_Pocket.svg style="width:PartDesign Hinzuzufügende Ausformung](PartDesign_AdditiveLoft/de.md)**, **[16px"> <img src=images/PartDesign_SubtractiveCone.svg style="width:PartDesign Tasche](PartDesign_Pocket/de.md)**, **[16px"> [PartDesign Abzuziehender Kegel](PartDesign_SubtractiveCone.md)**, usw., sind alles \"Formelemente\".
+-   Zum Beispiel: **<img src=images/PartDesign_AdditiveCylinder.svg style="width:16px"> <img src=images/PartDesign_AdditiveLoft.svg style="width:PartDesign Hinzuzufügender Zylinder](PartDesign_AdditiveCylinder/de.md)**, **_**, **[16px"> [PartDesign Abzuziehender Kegel](PartDesign_SubtractiveCone.md)**, usw., sind alles \"Formelemente\".
 
 
 {{PartDesign Tools navi
 
 }}  {{Document objects navi}} 
 
-[Category:Glossary](Category:Glossary.md)
+_
 
 ---
-[documentation index](../README.md) > [Glossary](Category:Glossary.md) > Feature/de
+[documentation index](../README.md) > [Glossary](Category_Glossary.md) > Feature/de

@@ -8,6 +8,9 @@
 
 # Std Edit/ru
 
+
+</div>
+
 ## Описание
 
 Команда **Редактировать/закончить редактирование** позволяет переключать объект в режим редактирования и обратно.
@@ -58,7 +61,13 @@ FreeCADGui.ActiveDocument.resetEdit()
 ```
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{Std Base navi

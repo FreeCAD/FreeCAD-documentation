@@ -14,7 +14,7 @@ Es wurde für die Verwendung in Baugruppen entwickelt, da es über einen {{MenuC
 
 ## Anwendung
 
-1.  Drücke die **[16px](Datei:Std_Teil.svg.md) [Std Part](Std_Part/de.md)** Schaltfläche. Es wird ein leeres Teil erstellt, das automatisch zu *[aktiv](Std_Part#Active_status.md)* wird.
+1.  Drücke die **_ [Std Part](Std_Part/de.md)** Schaltfläche. Es wird ein leeres Teil erstellt, das automatisch zu *[aktiv](Std_Part#Active_status.md)* wird.
 2.  Um Objekte zu einem Teil hinzuzufügen, ziehe sie per Ziehen & Ablegen über das Teil in der [Baumansicht](tree_view/de.md).
 3.  Um Objekte aus einem Teil zu entfernen, ziehe sie aus dem Teil heraus und auf die Dokumentbeschriftung oben in der [Baumansicht](tree_view/de.md).
 
@@ -22,7 +22,7 @@ Siehe die [Std Part](Std_Part/de.md) Seite findest du die vollständigen Informa
 
 ## Eigenschaften
 
-Eine [App Part](App_Part.md) (`App::Part` Klasse) wird von der Basisklasse [App GeoFeature](App_GeoFeature.md) (`App::GeoFeature` Klasse) abgeleitet, daher teilt sie alle Eigenschaften der letzteren.
+Eine _ (`App::GeoFeature` Klasse) abgeleitet, daher teilt sie alle Eigenschaften der letzteren.
 
 Siehe die komplette Liste der Eigenschaften auf der [Std Part](Std_Part/de.md) Seite.
 

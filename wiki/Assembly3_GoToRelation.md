@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
    Name:Assembly3 GoToRelation
-   MenuLocation:Assembly3 → Go to relation
    Icon:Assembly_GotoRelation.svg
+   MenuLocation:Assembly3 → Go to relation
    Workbenches:[Assembly3](Assembly3_Workbench.md)
    Shortcut:**A** **R**
 ---

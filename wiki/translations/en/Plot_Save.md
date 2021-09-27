@@ -33,7 +33,7 @@ Select the plot tab that you want to save, and run this tool. Use the path selec
 
 }} 
 
-[Category:External\_Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)
+_ _
 
 ---
-[documentation index](../README.md) > [External_Workbenches](Category:External_Workbenches.md) > Plot Save/en
+[documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > Plot Save/en

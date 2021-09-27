@@ -54,7 +54,7 @@ Néanmoins, cette décision est prise seulement pour le système de base de Free
 
  
 
-[Category:Developer Documentation](Category:Developer_Documentation.md)
+_
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Licence/fr
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Licence/fr

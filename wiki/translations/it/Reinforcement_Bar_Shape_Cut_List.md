@@ -17,7 +17,7 @@
 
 Lo strumento **Sagomatura dei ferri** consente all\'utente di creare una lista per il taglio e la piega delle barre d\'armatura.
 
-Questo comando fa parte dell\'ambiente [Reinforcement](Reinforcement_Workbench/it.md), un [ambiente esterno](External_workbenches/it.md) che si può installare con <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon manager](Addon_Manager/it.md), tramite il menu **Strumenti → Addon manager → Reinforcement**.
+Questo comando fa parte dell\'ambiente _, tramite il menu **Strumenti → Addon manager → Reinforcement**.
 
 <img alt="" src=images/Reinforcement_Bar_Shape_Cut_List_example.svg  style="width:800px;">
 
@@ -410,7 +410,7 @@ RebarShapeCutListfunc.getRebarShapeCutList(
 
 </div>
 
-[Category:External Command Reference](Category:External_Command_Reference.md) [Category:Reinforcement](Category:Reinforcement.md)
+_ _
 
 ---
-[documentation index](../README.md) > [External Command Reference](Category:External Command Reference.md) > Reinforcement Bar Shape Cut List/it
+[documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > Reinforcement Bar Shape Cut List/it

@@ -22,7 +22,7 @@ is used to create a surface from edges that represent transversal sections of a 
 
 ## Anwendung
 
-1.  Make sure you have at lease two edges or curves in space. For example, these can be created with tools of the <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft Workbench](Draft_Workbench.md) or the <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Sketcher](Sketcher_Workbench.md).
+1.  Make sure you have at lease two edges or curves in space. For example, these can be created with tools of the <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> _.
 2.  Press the **<img src=images/Surface_Sections.svg style="width:16px"> [Surface sections](Surface_Sections.md)** button.
 3.  Press **Add edge**.
 4.  Use the pointer to pick the desired edges in the [3D view](3D_view.md); a preview of the final shape will be shown after selecting two valid edges.
@@ -30,7 +30,7 @@ is used to create a surface from edges that represent transversal sections of a 
 
 ## Optionen
 
--    **Add edge**: press once to start picking edges in the <img src=images/Draft_BSpline.svg style="width:3D view](3D_view.md). Individual lines such as **[16px"> <img src=images/Sketcher_CreateBSpline.svg style="width:Draft BSplines](Draft_BSpline.md)** and **[16px"> <img src=images/PartDesign_Body.svg style="width:Sketcher BSplines](Sketcher_CreateBSpline.md)** can be chosen, as well as any edge from solid objects, like those of **[16px"> <img src=images/Part_Primitives.svg style="width:PartDesign Bodies](PartDesign_Body.md)** and **[16px"> [Part Primitives](Part_Primitives.md)**.
+-    **Add edge**: press once to start picking edges in the <img src=images/Draft_BSpline.svg style="width:3D view](3D_view.md). Individual lines such as **_** can be chosen, as well as any edge from solid objects, like those of **[16px"> <img src=images/Part_Primitives.svg style="width:PartDesign Bodies](PartDesign_Body.md)** and **[16px"> [Part Primitives](Part_Primitives.md)**.
 
 -    **Remove edge**: press once to start picking edges in the [3D view](3D_view.md); these must be edges that were previously picked with **Add edge**.
 
@@ -42,7 +42,7 @@ is used to create a surface from edges that represent transversal sections of a 
 
 ## Eigenschaften
 
-A [Surface Sections](Surface_Sections.md) (`Surface::Sections` class) is derived from the basic [Part Feature](Part_Feature.md) (`Part::Feature` class, through the `Part::Spline` subclass), therefore it shares all the latter\'s properties.
+A _ (`Part::Feature` class, through the `Part::Spline` subclass), therefore it shares all the latter\'s properties.
 
 In addition to the properties described in [Part Feature](Part_Feature.md), the Surface Sections has the following properties in the [property editor](property_editor.md).
 

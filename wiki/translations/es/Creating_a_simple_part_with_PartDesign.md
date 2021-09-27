@@ -119,7 +119,7 @@ If your sketch is not yet green, one or more points are not coincident (2 points
 
 Proceed in the same way with all the points.
 
-If your sketch is still not green, verify that all lines (but the slanted one) have either a <img alt="" src=images/Constraint_Horizontal.svg  style="width:24px;"> [Horizontal](Sketcher_ConstrainHorizontal.md) or <img alt="" src=images/Constraint_Vertical.svg  style="width:24px;"> [Vertical](Sketcher_ConstrainVertical.md) constraint, and add if necessary.
+If your sketch is still not green, verify that all lines (but the slanted one) have either a <img alt="" src=images/Constraint_Horizontal.svg  style="width:24px;"> _ constraint, and add if necessary.
 
 ### Using Pad and Pocket features 
 

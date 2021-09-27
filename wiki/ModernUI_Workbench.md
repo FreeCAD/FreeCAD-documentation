@@ -85,7 +85,7 @@ for WB in WBList:
 
  
 
-[Category:External\_Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)
+_ _
 
 ---
-[documentation index](../README.md) > ModernUI Workbench
+[documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > ModernUI Workbench

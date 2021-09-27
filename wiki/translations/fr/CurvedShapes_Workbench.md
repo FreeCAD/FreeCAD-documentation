@@ -21,7 +21,7 @@ L\'installation recommandée se fait par <img alt="" src=images/AddonManager.svg
 -   <img alt="" src=images/CurvedShapes_CurvedArray.svg  style="width:24px;"> [CurvedArray](CurvedShapes_CurvedArray/fr.md): crée un réseau et redimensionne les éléments dans les limites d\'une ou plusieurs courbes de coque.
 -   <img alt="" src=images/CurvedShapes_CurvedSegment.svg  style="width:24px;"> [CurvedSegment](CurvedShapes_CurvedSegment/fr.md): interpole entre deux courbes 2D. Les courbes interpolées peuvent être redimensionnées dans les limites de certaines courbes de coque.
 -   <img alt="" src=images/CurvedShapes_InterpolatedMiddle.svg  style="width:24px;"> [InterpolatedMiddle](CurvedShapes_InterpolatedMiddle/fr.md): interpole une forme 2D au milieu entre deux courbes 2D. Les formes de base peuvent être connectées à une forme avec un coin pointu.
--   <img alt="" src=images/CurvedShapes_SurfaceCut.svg  style="width:24px;"> [SurfaceCut](CurvedShapes_SurfaceCut/fr.md): coupe une surface pour obtenir la courbe de contour ou une face. Cet outil est similaire à <img alt="" src=images/Part_CrossSections.svg  style="width:24px;"> [Part Coupes](Part_CrossSections/fr.md) dans l\'<img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Atelier Part](Part_Workbench/fr.md) mais il est entièrement paramétrique et a une option pour réduire la complexité de la courbe de sortie. Il essaie de supprimer les bords qui se chevauchent.
+-   <img alt="" src=images/CurvedShapes_SurfaceCut.svg  style="width:24px;"> _ dans l\'<img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Atelier Part](Part_Workbench/fr.md) mais il est entièrement paramétrique et a une option pour réduire la complexité de la courbe de sortie. Il essaie de supprimer les bords qui se chevauchent.
 
 ### Exemples
 
@@ -42,7 +42,7 @@ L\'installation recommandée se fait par <img alt="" src=images/AddonManager.svg
 
 
 
-[Category:External Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)
+_ _
 
 ---
-[documentation index](../README.md) > CurvedShapes Workbench/fr
+[documentation index](../README.md) > [External Workbenches](Category_External Workbenches.md) > CurvedShapes Workbench/fr

@@ -12,7 +12,7 @@ Dostępna jest tylko jedna zakładka: Ustawienia ogólne.
 
 }} 
 
-[Category:Preferences](Category:Preferences.md)
+_
 
 ---
-[documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD Preferences/pl
+[documentation index](../README.md) > [Preferences](Category_Preferences.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD Preferences/pl

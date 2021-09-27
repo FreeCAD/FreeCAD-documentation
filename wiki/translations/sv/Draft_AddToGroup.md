@@ -1,6 +1,6 @@
 # Draft AddToGroup/sv
 ---
-- GuiCommand:/sv   Name:Draft AddToGroup   Name/sv:Draft AddToGroup   Workbenches:[Arch](Draft_Workbench/sv___Draft]],_[[Arch_Workbench/sv.md)|MenuLocation:Draft → Utilities → Add to group   Shortcut:   SeeAlso:[Draft SelectGroup](Draft_SelectGroup/sv.md), [Std CreateGroup](Std_CreateGroup/sv.md)---
+- GuiCommand:/sv   Name:Draft AddToGroup   Name/sv:Draft AddToGroup   Workbenches:_, [Std CreateGroup](Std_CreateGroup/sv.md)---
 
 
 </div>

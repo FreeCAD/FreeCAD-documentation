@@ -23,7 +23,7 @@ The **Std Paste** command pastes objects from the Clipboard into the active docu
 ## Anwendung
 
 1.  Aktiviere das Zieldokument durch Anklicken im Projekt-Reiter oder dem Dokumenten-Fenster.
-2.  Drücke das **[16px|Einfügen](File:Std_Paste.png.md)**-Piktogramm, die **Strg** + **V**-Tasten oder benutze aus der Menüleiste **Bearbeiten** → **Einfügen**.
+2.  Drücke das **_**-Piktogramm, die **Strg** + **V**-Tasten oder benutze aus der Menüleiste **Bearbeiten** → **Einfügen**.
 
 
 </div>

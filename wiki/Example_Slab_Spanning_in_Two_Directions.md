@@ -3,7 +3,6 @@
    Name:Arch Rebar Slab Reinforcement
    MenuLocation:Arch → Rebar tools → Slab Reinforcement
    Workbenches:[Arch](Arch_Workbench.md)
-   Version:
    SeeAlso:[Reinforcement](Reinforcement_Workbench.md), [Arch Rebar](Arch_Rebar.md), [Arch Helical Rebar](Arch_Rebar_Helical.md)
 ---
 
@@ -13,7 +12,7 @@
 
 The [Slab Reinforcement](Arch_Rebar_Slab_Reinforcement.md) tool allows the user to create reinforcing bars inside a Slab [Arch Structure](Arch_Structure.md) object.
 
-This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md), an [external workbench](External_workbenches.md) that can be installed with the <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Addon_Manager.md) via the **Tools → Addon manager → Reinforcement** menu.
+This command is part of the _ via the **Tools → Addon manager → Reinforcement** menu.
 
 In this example we will create Slab Reinforcement for Slab spanning in two directions as shown in below figure.
 
@@ -105,7 +104,9 @@ The Slab Reinforcement tool can be used from the [Python](Python.md) console by 
 
 ### Create Slab Reinforcementof Slab Spanning in Two directions 
 
-To create Slab reinforcement spanning two direction as shown in above figures you can use makeSlabReinforcement function as follows:- 
+To create Slab reinforcement spanning two direction as shown in above figures you can use makeSlabReinforcement function as follows:
+
+ 
 ```python
 from SlabReinforcement.SlabReinforcement import makeSlabReinforcement
 SlabReinforcementGroup = makeSlabReinforcement(
@@ -238,7 +239,7 @@ SlabReinforcementGroup = makeSlabReinforcement(
 
 You can change the properties of the Slab Reinforcement for slab spanning in two direction by using editSlabReinforcement function as follows
 
-
+ 
 ```python
 
 from SlabReinforcement.SlabReinforcement import editSlabReinforcement
@@ -290,5 +291,9 @@ SlabReinforcementGroup = editSlabReinforcement(
 
 Here we are editing count of rebars in parallel and cross. But you can change any property to edit Slab Reinforcement.
 
+  
+
+_
+
 ---
-[documentation index](../README.md) > Example Slab Spanning in Two Directions
+[documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > Example Slab Spanning in Two Directions

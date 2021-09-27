@@ -242,7 +242,7 @@ Tento odstavec definuje materiálové vlastnosti, které se vztahují k vizuáln
 
  {{FEM Tools navi}} 
 
-[Category:Developer](Category:Developer.md) [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Roadmap](Category:Roadmap.md) [Category:BIM](Category:BIM.md) [Category:File\_Formats](Category:File_Formats.md)
+_ _ _ _ _
 
 ---
-[documentation index](../README.md) > [Developer](Category:Developer.md) > Material/cs
+[documentation index](../README.md) > [Developer](Category_Developer.md) > Material/cs

@@ -2,7 +2,13 @@
 
 **FreeCAD** è un modellatore 3D parametrico di uso generale [**CAD**](http://en.wikipedia.org/wiki/CAD), il cui sviluppo è completamente [open source](http://en.wikipedia.org/wiki/Open_source) ([LGPL License](https://www.gnu.org/licenses/lgpl-3.0.en.html)). FreeCAD si rivolge direttamente a [mechanical engineering](http://en.wikipedia.org/wiki/Mechanical_engineering) e [product design](http://en.wikipedia.org/wiki/Product_design) ma si adatta anche ad una gamma più ampia di usi in ambito ingegneristico, come l\'architettura, l\'analisi ad elementi finiti, la stampa 3D, e altri compiti.
 
+
+<div class="mw-translate-fuzzy">
+
 L\'utilizzo e le funzioni di FreeCAD sono simili a quelle di [Catia](http://it.wikipedia.org/wiki/Catia), [SolidWorks](http://it.wikipedia.org/wiki/Solidworks) o [Solid Edge](http://it.wikipedia.org/wiki/Solid_Edge), e rientra anche nella categoria di [**MCAD**](http://it.wikipedia.org/wiki/CAD), [**PLM**](http://en.wikipedia.org/wiki/Product_Lifecycle_Management), [**CAx**](http://it.wikipedia.org/wiki/CAx) e [**CAE**](http://it.wikipedia.org/wiki/Computer-aided_engineering). È un [Modellatore parametrico di solidi](http://en.wikipedia.org/wiki/Parametric_feature_based_modeler) con una architettura modulare che permette l\'aggiunta e lo sviluppo di nuove funzioni con estrema facilità, senza modificare il \"cuore\" del software.
+
+
+</div>
 
 Come molti modellatori CAD è provvisto di molti componenti 2D per disegnare forme planari o creare disegni di produzione, ma il disegno in 2D (tipo [Inkscape](https://inkscape.org/) o [AutoCAD LT](http://en.wikipedia.org/wiki/AutoCAD#AutoCAD_LT)) non è lo scopo del software, e non rientrano negli interessi principali neanche l\'animazione o la modifica delle mesh (come [Blender](https://www.blender.org/), [Maya](http://en.wikipedia.org/wiki/Maya_(software)), [3ds Max](http://en.wikipedia.org/wiki/3ds_Max), o [Cinema 4D](http://en.wikipedia.org/wiki/CINEMA_4D)), anche se, grazie alla sua estrema flessibilità, FreeCAD può essere molto utile in numerosi altri campi che non fanno parte dei suoi interessi attuali.
 
@@ -10,7 +16,13 @@ FreeCAD utilizza molte delle librerie open-source disponibili nel campo della [c
 
 Inoltre, FreeCAD è [multi-piattaforma](http://en.wikipedia.org/wiki/Cross-platform), ed allo stato attuale è in grado di funzionare senza problemi su Windows, Linux/Unix e Mac OSX, conservando inalterate le caratteristiche e le funzionalità su ognuna di queste piattaforme.
 
+
+<div class="mw-translate-fuzzy">
+
 Per ulteriori informazioni su FreeCAD, dare un\'occhiata alla [lista delle funzioni](Feature_list/it.md), alle ultime [note di rilascio](Feature_list/it#Note_di_rilascio.md), e all\'articolo [per iniziare](getting_started/it.md), o vedere alcuni [screenshots](screenshots/it.md).
+
+
+</div>
 
 ### Informazioni sul progetto FreeCAD 
 
@@ -24,7 +36,7 @@ FreeCAD è mantenuto e sviluppato da una comunità di sviluppatori appassionati 
 
 
 
-[Category:User Documentation](Category:User_Documentation.md)
+_
 
 ---
-[documentation index](../README.md) > [User Documentation](Category:User Documentation.md) > About FreeCAD/it
+[documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > About FreeCAD/it

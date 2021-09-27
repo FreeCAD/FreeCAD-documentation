@@ -40,7 +40,7 @@ With support for HDRI environments, beautiful environments are simple to use.
 
 ### User inc file 
 
-Power users who want access to *all* options of the [POV-Ray](http://www.povray.org/) renderer can do so by creating a special file. For more details see the [Power User](https://gitlab.com/usbhub/exporttopovray/-/blob/master/doc/PowerUser.md) page on our Wiki.
+Power users who want access to *all* options of the _ page on our Wiki.
 
 ## Usage
 
@@ -87,7 +87,7 @@ To complete the installation the path to the POV-Ray executable has to be define
 
  
 
-[Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+_ _
 
 ---
-[documentation index](../README.md) > POV-Ray-Rendering Workbench
+[documentation index](../README.md) > [Addons](Category_Addons.md) > POV-Ray-Rendering Workbench

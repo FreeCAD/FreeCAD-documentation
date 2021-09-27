@@ -18,7 +18,7 @@ Pour toutes les icônes de l\'arborescence source, voir [Graphisme](Artwork/fr.m
 
 }} 
 
-[Category:Web](Category:Web.md)
+_
 
 ---
-[documentation index](../README.md) > [Web](Category:Web.md) > Artwork Web/fr
+[documentation index](../README.md) > [Web](Category_Web.md) > Artwork Web/fr

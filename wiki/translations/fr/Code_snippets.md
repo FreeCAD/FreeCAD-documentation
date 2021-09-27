@@ -1771,7 +1771,7 @@ Voir [Bouts de codes Coin3d](Coin3d_snippets/fr.md)
 
 }}
 
-[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Code snippets/fr
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Code snippets/fr

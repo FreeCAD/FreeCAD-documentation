@@ -23,7 +23,7 @@ La **Contrainte fixe** applique des contraintes **<img src=images/Sketcher_Const
 
 ## Script
 
-La <img alt="" src=images/Sketcher_ConstrainLock.svg  style="width:24px;"> [Contrainte fixe](Sketcher_ConstrainLock/fr.md) est une commande graphique qui crée une <img alt="" src=images/Sketcher_ConstrainDistanceX.svg  style="width:24px;"> [Contrainte de distance en X](Sketcher_ConstrainDistanceX/fr.md) et une <img alt="" src=images/Sketcher_ConstrainDistanceY.svg  style="width:24px;"> [Contrainte de distance en Y](Sketcher_ConstrainDistanceY/fr.md), ce n\'est pas une contrainte en soi. Consultez la page [Sketcher : Écrire un script](Sketcher_scripting/fr.md) pour obtenir des détails et des exemples sur la façon de créer ces contraintes à partir de scripts Python.
+La <img alt="" src=images/Sketcher_ConstrainLock.svg  style="width:24px;"> _ et une <img alt="" src=images/Sketcher_ConstrainDistanceY.svg  style="width:24px;"> _ pour obtenir des détails et des exemples sur la façon de créer ces contraintes à partir de scripts Python.
 
 
 

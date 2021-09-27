@@ -8,7 +8,7 @@ If you are not involved with the development discussed here:<br>
 
 {{TOCright}}
 
-Dies ist der [Projektartikel](project/de.md) für das Roboter Projekt. Es folgt den Regeln des \[<http://en.wikipedia.org/wiki/Getting_Things_Done#GTD_methodology>\| Getting things done\] Prozesses. Die Projekte sind im [Entwicklungsfahrplan](Development_roadmap/de.md) zusammengefasst.
+Dies ist der _ zusammengefasst.
 
 ## Zweck und Grundsätze 
 
@@ -71,7 +71,7 @@ Robotersimulation
 
 
 
-[Category:Roadmap](Category:Roadmap.md)
+_
 
 ---
-[documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot project/de
+[documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > [Robot](Robot_Workbench.md) > Robot project/de

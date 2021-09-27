@@ -20,7 +20,7 @@ For all icons in the source tree, see [Artwork](Artwork.md).
 
  {{Artwork}}
 
-[Category:Icon](Category:Icon.md) [Category:Developer Documentation](Category:Developer_Documentation.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Icon](Category:Icon.md) > Artwork Erroneous
+[documentation index](../README.md) > [Icon](Category_Icon.md) > Artwork Erroneous

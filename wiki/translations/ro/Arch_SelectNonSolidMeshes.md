@@ -17,7 +17,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Acest instrument identifică și selectează obiecte non solide/neprintabile 3D (non-[manifold](http://en.wikipedia.org/wiki/Manifold)) meshes in a selected group of selected [Mesh](Mesh_Workbench.md) .
+Acest instrument identifică și selectează obiecte non solide/neprintabile 3D (non-_ .
 
 
 </div>
@@ -40,4 +40,4 @@ Acest instrument identifică și selectează obiecte non solide/neprintabile 3D 
 </div>
 
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SelectNonSolidMeshes/ro
+[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch SelectNonSolidMeshes/ro

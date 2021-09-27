@@ -22,7 +22,7 @@ See the [Std Part](Std_Part.md) page for the complete information, including its
 
 ## Properties
 
-An [App Part](App_Part.md) (`App::Part` class) is derived from the basic [App GeoFeature](App_GeoFeature.md) (`App::GeoFeature` class), therefore it shares most of the latter\'s properties.
+An _ (`App::GeoFeature` class), therefore it shares most of the latter\'s properties.
 
 See the full list of properties in the [Std Part](Std_Part.md) page.
 

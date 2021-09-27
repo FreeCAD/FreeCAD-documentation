@@ -270,7 +270,7 @@ Si vous avez aimé cet exercise, pourquoi ne pas essayer d\'améliorer ce petit 
 
 N\'hésitez pas à poser des questions ou à partager des idées sur le [forum](https://forum.freecadweb.org/)! {{Top}} {{Powerdocnavi}} 
 
-[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Line drawing function/fr
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Line drawing function/fr

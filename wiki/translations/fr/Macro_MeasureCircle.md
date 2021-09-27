@@ -27,7 +27,7 @@ Sélectionnez les éléments et lancez la macro ou lancez la macro et sélection
 
 ## Script
 
-La dernière version est téléchargeable sur [MeasureCircle.FCMacro](https://raw.githubusercontent.com/FreeCAD/FreeCAD-macros/master/Information/MeasureCircle.FCMacro) ou avec [Addon Manager](Addon_Manager/fr.md).
+La dernière version est téléchargeable sur _.
 
 ToolBar Icon ![](images/Macro_MeasureCircle.png )
 

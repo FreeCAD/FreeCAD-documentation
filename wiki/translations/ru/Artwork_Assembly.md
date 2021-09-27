@@ -26,7 +26,7 @@
 
 }} 
 
-[Category:Assembly](Category:Assembly.md)
+_
 
 ---
-[documentation index](../README.md) > [Assembly](Category:Assembly.md) > Artwork Assembly/ru
+[documentation index](../README.md) > [Assembly](Category_Assembly.md) > Artwork Assembly/ru

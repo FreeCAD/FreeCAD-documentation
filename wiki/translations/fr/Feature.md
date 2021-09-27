@@ -1,7 +1,7 @@
 # Feature/fr
 ## Introduction
 
-Dans FreeCAD, le mot \"[Feature](Feature/fr.md)\" est normalement utilisé pour faire référence à un objet [PartDesign Feature](PartDesign_Feature/fr.md) (classe `PartDesign::Feature`) défini par la classe [PartDesign Workbench](PartDesign_Workbench/fr.md). Il s\'agit d\'une opération ou d\'une étape de modélisation effectuée pour créer ou modifier un solide [Shape](Shape/fr.md) en suivant le paradigme [feature publishing](feature_editing/fr.md).
+Dans FreeCAD, le mot \"_. Il s\'agit d\'une opération ou d\'une étape de modélisation effectuée pour créer ou modifier un solide [Shape](Shape/fr.md) en suivant le paradigme [feature publishing](feature_editing/fr.md).
 
 Voir [PartDesign Feature](PartDesign_Feature/fr.md) pour plus d\'informations sur ce type d\'objet.
 
@@ -18,18 +18,18 @@ Voir [PartDesign Feature](PartDesign_Feature/fr.md) pour plus d\'informations su
 
 Dans le sens général, \"Feature\" peut être n\'importe quelle étape de modélisation utilisée pour créer une [Forme](Shape/fr.md) finale avec n\'importe quel outil de n\'importe quel [Atelier](Workbenches/fr.md).
 
--   Par exemple, dans l\'<img src=images/Part_Fuse.svg style="width:Atelier Part](Part_Workbench/fr.md), dans le flux de travail de [géométrie solide constructive](constructive_solid_geometry/fr.md), \"Feature\" peut être n\'importe quelle opération booléenne comme **[16px"> <img src=images/Part_Cut.svg style="width:Part Union](Part_Fuse/fr.md)**, **[16px"> <img src=images/Part_Common.svg style="width:Part Soustraction](Part_Cut/fr.md)** ou **[16px"> [Part Intersection](Part_Common/fr.md)**.
+-   Par exemple, dans l\'<img src=images/Part_Fuse.svg style="width:Atelier Part](Part_Workbench/fr.md), dans le flux de travail de _**, **[16px"> <img src=images/Part_Common.svg style="width:Part Soustraction](Part_Cut/fr.md)** ou **[16px"> [Part Intersection](Part_Common/fr.md)**.
 
 Dans un sens plus spécifique, une \"entité\" est une étape de modélisation utilisée à l\'intérieur d\'un [PartDesign Corps](PartDesign_Body/fr.md).
 
--   Par exemple, **<img src=images/PartDesign_AdditiveCylinder.svg style="width:16px"> <img src=images/PartDesign_AdditiveLoft.svg style="width:PartDesign Cylindre additif](PartDesign_AdditiveCylinder/fr.md)**, **[16px"> <img src=images/_PartDesign_Pocket.svg style="width:PartDesign Lissage additif](PartDesign_AdditiveLoft/fr.md)**, **[16px"> <img src=images/_PartDesign_SubtractiveCone.svg style="width:PartDesign Cavité](PartDesign_Pocket/fr.md)**, **[16px"> [PartDesign Cône soustractif](PartDesign_SubtractiveCone/fr.md)** etc\... sont toutes des \"Fonctionnalités\" (Features).
+-   Par exemple, **<img src=images/PartDesign_AdditiveCylinder.svg style="width:16px"> <img src=images/PartDesign_AdditiveLoft.svg style="width:PartDesign Cylindre additif](PartDesign_AdditiveCylinder/fr.md)**, **_**, **[16px"> [PartDesign Cône soustractif](PartDesign_SubtractiveCone/fr.md)** etc\... sont toutes des \"Fonctionnalités\" (Features).
 
 
 {{PartDesign Tools navi
 
 }}  {{Document objects navi}} 
 
-[Category:Glossary](Category:Glossary.md)
+_
 
 ---
-[documentation index](../README.md) > [Glossary](Category:Glossary.md) > Feature/fr
+[documentation index](../README.md) > [Glossary](Category_Glossary.md) > Feature/fr

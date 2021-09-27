@@ -135,7 +135,7 @@ Vous pouvez trouver les répertoires joints dans le répertoire `/mnt`.
 
 
 
-[Category:Developer](Category:Developer.md) [Category:Developer Documentation](Category:Developer_Documentation.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Developer](Category:Developer.md) > Compile on Docker/fr
+[documentation index](../README.md) > [Developer](Category_Developer.md) > Compile on Docker/fr

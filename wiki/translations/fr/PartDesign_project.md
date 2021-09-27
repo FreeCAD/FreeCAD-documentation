@@ -161,7 +161,7 @@ Faire pivoter une esquisse sur un axe et un angle défini.
 
 
 
-[Category:Roadmap](Category:Roadmap.md)
+_
 
 ---
-[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign project/fr
+[documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign project/fr

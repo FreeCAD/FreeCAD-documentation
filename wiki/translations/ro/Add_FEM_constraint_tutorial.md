@@ -6,7 +6,7 @@
 |Topic= 
 |Level= 
 |Time= 
-|Author=[M42kus](User:M42kus.md)
+|Author=_
 |FCVersion=
 |Files=
 }}
@@ -374,7 +374,7 @@ def _handleFlowBndConditions(self):
             self._handled(obj)
 ```
 
-[Category:FEM](Category:FEM.md)
+_
 
 ---
-[documentation index](../README.md) > [FEM](Category:FEM.md) > Add FEM constraint tutorial/ro
+[documentation index](../README.md) > [FEM](Category_FEM.md) > Add FEM constraint tutorial/ro

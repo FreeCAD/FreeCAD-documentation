@@ -34,7 +34,7 @@ Scopul Atelierului **PartDesign Workbench** este de a permite utilizatorului să
 
 <div class="mw-translate-fuzzy">
 
-Pentru a realiza acest lucru, există două instrumente:<img alt="" src=images/PartDesign_Pad.png  style="width:32px;"> [Pad](PartDesign_Pad.md) and <img alt="" src=images/PartDesign_Revolution.png  style="width:32px;"> [Revolution](PartDesign_Revolution.md). Alongside their subtractive counterparts (<img alt="" src=images/PartDesign_Pocket.png  style="width:32px;"> [Pocket](PartDesign_Pocket.md) and <img alt="" src=images/PartDesign_Groove.png  style="width:32px;"> [Groove](PartDesign_Groove.md)) they make up most of the common actions used by this workbench.
+Pentru a realiza acest lucru, există două instrumente:<img alt="" src=images/PartDesign_Pad.png  style="width:32px;"> _. Alongside their subtractive counterparts (<img alt="" src=images/PartDesign_Pocket.png  style="width:32px;"> _) they make up most of the common actions used by this workbench.
 
 
 </div>

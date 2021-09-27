@@ -66,7 +66,7 @@ print(obj.Label)
 
 *Schede Vista e Dati dell'editor delle proprietà, per un oggetto script di base "App::FeaturePython".*
 
-La maggior parte degli oggetti geometrici che possono essere creati e visualizzati nella [vista 3D](3D_view/it.md) sono derivati da una `Part::Feature`. Vedere [Part Feature](Part_Feature/it.md) per le proprietà più basilari di questi oggetti.
+La maggior parte degli oggetti geometrici che possono essere creati e visualizzati nella _ per le proprietà più basilari di questi oggetti.
 
 Per la geometria 2D, la maggior parte degli oggetti deriva da `Part::Part2DObject` (essi stessi derivati da `Part::Feature`) che sono la base di [Schizzi](Sketch/it.md), e di molti elementi di [Draft](Draft_Workbench/it.md). Vedere [Part Part2DObject](Part_Part2DObject/it.md) per le proprietà più basilari di questi oggetti.
 
@@ -134,9 +134,9 @@ Most of these properties are inherited from the [Part Feature](Part_Feature.md) 
 
 -    **Deviation**: Imposta la precisione della rappresentazione poligonale del modello nella vista 3D (tassellatura). Valori più bassi = migliore qualità. Il valore è in percentuale della dimensione dell\'oggetto (deviazione in mm = (w+h+d)/3\* valore in Percentuale /100, dove w, h, d sono le dimensioni del riquadro di delimitazione).
 
--    **Display Mode**:Modalità di visualizzazione della funzione, **Flat lines, Shaded, Wireframe, Points** [96px](IMAGE:Vue_DisplayModePartDesign_fr_00.png.md). (Default, **Flat lines**).
+-    **Display Mode**:Modalità di visualizzazione della funzione, **Flat lines, Shaded, Wireframe, Points** _. (Default, **Flat lines**).
 
--    **Lighting**: Illuminazione **One side, Two side** [96px](IMAGE:Vue_Lighting_fr_00.png.md). (Default, **Two side**).
+-    **Lighting**: Illuminazione **One side, Two side** _. (Default, **Two side**).
 
 -    **Line Color**: Dà il colore della linea (bordi) (Default, **25, 25, 25**).
 

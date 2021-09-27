@@ -4,7 +4,7 @@
    Name/it:View Measure Clear All
    MenuLocation:Visualizza → Visibilita → Cancella le misure
    Workbenches:Tutti
-   SeeAlso:[Attiva/disattiva le misure](View_Measure_Toggle_All/it.md), [Part: Attiva o Disattiva tutte le misure](Part_Measure_Toggle_All/it.md), [Part: Cancella tutte le misure](Part_Measure_Clear_All/it.md)
+   SeeAlso:_, [Part: Cancella tutte le misure](Part_Measure_Clear_All/it.md)
 ---
 
 # View Measure Clear All/it

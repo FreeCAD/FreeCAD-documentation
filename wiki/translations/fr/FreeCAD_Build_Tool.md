@@ -65,7 +65,7 @@ La commande \"CM\" [crée un nouveau module d\'application (atelier)](Workbench_
 
  
 
-[Category:Developer Documentation](Category:Developer_Documentation.md)
+_
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > FreeCAD Build Tool/fr
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > FreeCAD Build Tool/fr

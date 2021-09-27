@@ -9,7 +9,7 @@
 }}
 
 
-**Acest tutorial a fost scris pentru o variantă acum abandonată de FreeCAD. Acest tutorial solicită o rescriere completă pentru a se alinia la schimbările efectuate la Atelierul PartDesign, schimbări care sunt în varianta v0.17. Rescrierea a fost începută în [NormandC](Sandbox:PartDesign_Bearingholder_Tutorial_I]]. Dacă vreți să participați, vă rugăm să postați solicitarea pe secțiunea Wiki a forumului [http://forum.freecadweb.org forum]. - [[User:Normandc.md)**
+**Acest tutorial a fost scris pentru o variantă acum abandonată de FreeCAD. Acest tutorial solicită o rescriere completă pentru a se alinia la schimbările efectuate la Atelierul PartDesign, schimbări care sunt în varianta v0.17. Rescrierea a fost începută în _**
 
 ![Bearing Holder Tutorial - Locaș de rulment finalizat (top)\|thumb\|right\|400px](images/HolderTop1-1.jpg )
 
@@ -29,7 +29,7 @@ Aceasta este prima parte a tutorialului. Acesta va folosi ceea ce s-ar putea num
 
 Obviously, to follow through this tutorial you must activate the PartDesign workbench.
 
-~~You can find my version of the part created by this tutorial [http://ubuntuone.com/5gok0J4dye3Fo4BKWMGWVa here](http://ubuntuone.com/5gok0J4dye3Fo4BKWMGWVa_here.md).~~ *The file is no longer available, a new one will be provided at some later date*.
+~~You can find my version of the part created by this tutorial _.~~ *The file is no longer available, a new one will be provided at some later date*.
 
 ## Design data 
 
@@ -117,7 +117,7 @@ We have modelled the bearing holder top with the dimensions it will have after c
 
 
 
-[Category:Tutorials](Category:Tutorials.md)
+_
 
 ---
-[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Bearingholder Tutorial I/ro
+[documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Bearingholder Tutorial I/ro

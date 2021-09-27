@@ -67,9 +67,9 @@ print(obj.Label)
 
 *Onglets Vue et Données de l’éditeur de propriétés, pour une basique "App::FeaturePython" d'un objet scripté.*
 
-La plupart des objets géométriques pouvant être créés et affichés dans la [Vue 3D](3D_view/fr.md) sont dérivés d\'un `Part::Feature`. Voir [Part Feature](Part_Feature/fr.md) pour les propriétés les plus élémentaires de ces objets.
+La plupart des objets géométriques pouvant être créés et affichés dans la _ pour les propriétés les plus élémentaires de ces objets.
 
-Pour la géométrie 2D, la plupart des objets sont dérivés de [`Part::Part2DObject`](Part_Part2DObject/fr.md) (itself derived from [`Part::Feature`](Part_Feature/fr.md)) qui est la base du [Sketchers](Sketch/fr.md), et de [Draft éléments](Draft_Workbench/fr.md). Voir [Part Part2DObject](Part_Part2DObject/fr.md) pour les propriétés les plus élémentaires de ces objets.
+Pour la géométrie 2D, la plupart des objets sont dérivés de _) qui est la base du [Sketchers](Sketch/fr.md), et de [Draft éléments](Draft_Workbench/fr.md). Voir [Part Part2DObject](Part_Part2DObject/fr.md) pour les propriétés les plus élémentaires de ces objets.
 
 ## Actions
 

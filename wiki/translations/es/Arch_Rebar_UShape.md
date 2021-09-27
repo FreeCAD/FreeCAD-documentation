@@ -27,7 +27,7 @@ La herramienta {{KEY | <img src="images/_UShapeRebar.png_" width= 16px> UShape R
 
 The **<img src="images/Arch_Rebar_UShape.svg" width=16px> [UShape Rebar](Arch_Rebar_UShape.md)** tool is also integrated into [BIM Workbench](BIM_Workbench.md).
 
-This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md), an [external workbench](External_workbenches.md) that can be installed with the <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Addon_Manager.md) via the **Tools → Addon manager → Reinforcement** menu.
+This command is part of the _ via the **Tools → Addon manager → Reinforcement** menu.
 
 <img alt="" src=images/Arch_Rebar_UShape_example.png  style="width:400px;">
 
@@ -189,7 +189,7 @@ UShapeRebar.editUShapeRebar(Rebar2, 70, 50, 20, 20,
 
  
 
-[Category:Arch/es](Category:Arch/es.md) [Category:Reinforcement](Category:Reinforcement.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Rebar UShape/es
+[documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar UShape/es

@@ -117,7 +117,7 @@ When the sketch edit mode is closed, External Geometry lines are not visible.
 
 }}  
 
-[Category:Sketcher/ro](Category:Sketcher/ro.md)
+_
 
 ---
 [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher External/ro

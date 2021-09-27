@@ -143,7 +143,7 @@ Geometry (Points, Lines and Curves) may be selected by dragging on the backgroun
 -   OpenSCAD script can be executed from within FreeCAD, by OpenSCAD (if installed on your computer), with the result appearing in your FreeCAD document.
 -   For more information see the [OpenSCAD Workbench](OpenSCAD_Workbench.md) page on the FreeCAD wiki
 
-[Category:News](Category:News.md) [Category:Documentation](Category:Documentation.md) [Category:Releases](Category:Releases.md)
+_ _ _
 
 ---
-[documentation index](../README.md) > [News](Category:News.md) > Release notes 0.13/pl
+[documentation index](../README.md) > [News](Category_News.md) > Release notes 0.13/pl

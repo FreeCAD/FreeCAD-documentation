@@ -54,7 +54,7 @@ Důvod pro použití tohoto prohlížeče je jednoduše v tom, že si můžete z
 
  
 
-[Category:BIM](Category:BIM.md)
+_
 
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch IfcExplorer/cs
+[documentation index](../README.md) > [BIM](Category_BIM.md) > [Arch](Arch_Workbench.md) > Arch IfcExplorer/cs

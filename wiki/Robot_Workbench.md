@@ -69,7 +69,7 @@ See the [Robot API example](Robot_API_example.md) for a description of the funct
 
  {{Robot Tools navi}} 
 
-[Category:Workbenches](Category:Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > Robot Workbench
+[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Robot Workbench

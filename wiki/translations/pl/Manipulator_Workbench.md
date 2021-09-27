@@ -29,7 +29,7 @@ Each Tool has a **Help Button** ![](images/Help-btn.png ) to get some useful tip
 
 ## Tutorial
 
-[1024px \|link=<https://youtu.be/owGzsd1fyZc> \|alt=Manipulator-WB-\@Work\|Title Manipulator-WB-\@Work](Image:Manipulator-WB-@Work.png.md)
+_
 
 
 *align=center|YouTube Tutorial [https://youtu.be/owGzsd1fyZc Manipulator WorkBench @Work]*
@@ -121,7 +121,7 @@ New workbenches are in development, stay tuned!
 
  
 
-[Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+_ _
 
 ---
-[documentation index](../README.md) > Manipulator Workbench/pl
+[documentation index](../README.md) > [Addons](Category_Addons.md) > Manipulator Workbench/pl

@@ -26,7 +26,7 @@ Recommended install is via the <img alt="" src=images/AddonManager.svg  style="w
 
 
 
-[Category:Silk](Category:Silk.md) [Category:External Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)
+_ _ _
 
 ---
-[documentation index](../README.md) > Silk Workbench/en
+[documentation index](../README.md) > [Silk](Category_Silk.md) > Silk Workbench/en

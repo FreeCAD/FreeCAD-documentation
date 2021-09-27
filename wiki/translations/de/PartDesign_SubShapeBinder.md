@@ -42,7 +42,7 @@ Es kann auch an Objekte binden, die innerhalb von [Std Parts](Std_Part/de.md) ve
 
 ## Eigenschaften
 
-Der [UnterFormBinder](PartDesign_SubShapeBinder/de.md) ist abgeleitet von [Part Formelement](Part_Feature/de.md) (`Part::Feature` Klasse). Zusätzlich zu den in [Part Formelement](Part_Feature/de.md) aufgelisteten Eigenschaften sind die folgenden Eigenschaften im [Eigenschaftseditor](property_editor/de.md) verfügbar.
+Der _ aufgelisteten Eigenschaften sind die folgenden Eigenschaften im [Eigenschaftseditor](property_editor/de.md) verfügbar.
 
 ### Daten
 

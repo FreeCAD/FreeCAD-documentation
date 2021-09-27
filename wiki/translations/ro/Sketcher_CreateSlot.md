@@ -30,7 +30,7 @@ When starting the tool, the mouse pointer changes to a white cross with a red sl
 
 <div class="mw-translate-fuzzy">
 
--   După apăsarea butonului **[16px Create slot](File:Sketcher_CreateSlot.png.md)**, click o dată pentru a defini centrul unuia dintre semicercuri, apoi mutați mouse-ul și click a doua oară pentru a defini punctul final al celuilalt semicerc.
+-   După apăsarea butonului **_**, click o dată pentru a defini centrul unuia dintre semicercuri, apoi mutați mouse-ul și click a doua oară pentru a defini punctul final al celuilalt semicerc.
 -   Apăsați **Esc** sau click butonul dreapta al mouse-ului pentru a abandona/anula funcția.
 
 

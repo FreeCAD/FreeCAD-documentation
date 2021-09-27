@@ -8,6 +8,9 @@
 
 # Std Edit/de
 
+
+</div>
+
 ## Beschreibung
 
 Der **Std Bearbeiten**-Befehl aktiviert oder deaktiviert den Bearbeitungsmodus eines Objekts.
@@ -58,7 +61,13 @@ FreeCADGui.ActiveDocument.resetEdit()
 ```
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{Std Base navi

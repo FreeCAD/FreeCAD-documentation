@@ -142,7 +142,7 @@ Set the output image size in inches, for example use 11.7x8.3 to get a **DIN A4*
 
  {{Tutorials_navi}} {{Plot_Tools_navi}} 
 
-[Category:External\_Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)
+_ _
 
 ---
-[documentation index](../README.md) > [External_Workbenches](Category:External_Workbenches.md) > Plot Basic tutorial
+[documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > Plot Basic tutorial

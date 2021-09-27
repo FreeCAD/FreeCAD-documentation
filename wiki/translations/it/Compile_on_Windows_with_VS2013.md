@@ -115,7 +115,7 @@ If you don\'t get any errors your done. Exit Visual Studio and start FreeCAD by 
 
 
 
-[Category:Developer\_Documentation](Category:Developer_Documentation.md) [Category:Developer](Category:Developer.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Developer_Documentation](Category:Developer_Documentation.md) > Compile on Windows with VS2013/it
+[documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > Compile on Windows with VS2013/it

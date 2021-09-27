@@ -194,7 +194,7 @@ Some preference settings are only accessible through the [Parameter editor](Std_
 
 }} 
 
-[Category:Preferences](Category:Preferences.md)
+_
 
 ---
-[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Preferences/ru
+[documentation index](../README.md) > [Preferences](Category_Preferences.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Preferences/ru

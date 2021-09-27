@@ -610,7 +610,7 @@ Have Fun! Also if you have feedback or any refinements, feel free to participate
 
  {{Tutorials navi}} {{FEM Tools navi}}  
 
-[Category:Python Code](Category:Python_Code.md)
+_
 
 ---
-[documentation index](../README.md) > [Python Code](Category:Python Code.md) > FEM Tutorial Python
+[documentation index](../README.md) > [Python Code](Category_Python Code.md) > FEM Tutorial Python

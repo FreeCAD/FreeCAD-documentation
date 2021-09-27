@@ -134,7 +134,7 @@ See various examples in [Custom icon in tree view](Custom_icon_in_tree_view.md).
 
  {{Powerdocnavi}} 
 
-[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Viewprovider
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Viewprovider

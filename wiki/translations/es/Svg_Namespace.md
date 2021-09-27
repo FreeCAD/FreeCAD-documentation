@@ -7,7 +7,7 @@
 
 <div class="mw-translate-fuzzy">
 
-En los documentos [SVG](http://en.wikipedia.org/wiki/Scalable_Vector_Graphics) exportados por el [Módulo de dibujo](Drawing_Workbench/es.md) de FreeCAD y utilizados como páginas de [plantillas](Drawing_templates/es.md), se pueden utilizar diversos [atributos](http://www.w3schools.com/xml/xml_attributes.asp) personalizados, originalmente para uso interno de FreeCAD, pero podrían también utilizarse por otras aplicaciones sobre FreeCAD en el futuro. Todos esos atributos utilizan el prefijo **freecad:** para el [namespace](http://www.w3schools.com/xml/xml_namespaces.asp). La URL de namespace definida en dichos documentos SVG refiere a esta página.
+En los documentos _ de FreeCAD y utilizados como páginas de [plantillas](Drawing_templates/es.md), se pueden utilizar diversos [atributos](http://www.w3schools.com/xml/xml_attributes.asp) personalizados, originalmente para uso interno de FreeCAD, pero podrían también utilizarse por otras aplicaciones sobre FreeCAD en el futuro. Todos esos atributos utilizan el prefijo **freecad:** para el [namespace](http://www.w3schools.com/xml/xml_namespaces.asp). La URL de namespace definida en dichos documentos SVG refiere a esta página.
 
 
 </div>
@@ -50,7 +50,7 @@ Additional information for Working space and Title block may be added, and is de
 
 ## Atributos
 
-### [freecad:EditableText](#Example_of_code_freecad:EditableText.md)
+### _
 
 To use any of the **freecad:** attributes in your SVG documents, you must first define the freecad namespace as an attribute of the opening
 
@@ -97,7 +97,7 @@ Define el segundo punto de un objeto de [Acotación](Draft_Dimension/es.md) (rep
 
 </div>
 
-Ejemplo: see [freecad:basepoint1](#freecad:basepoint1.md)
+Ejemplo: see _
 
 ### freecad:dimpoint
 
@@ -109,7 +109,7 @@ Define el punto de un objeto de [Acotación](Draft_Dimension/es.md) a través de
 
 </div>
 
-Ejemplo: see [freecad:basepoint1](#freecad:basepoint1.md)
+Ejemplo: see _
 
 ### Example of code freecad:EditableText 
 
@@ -247,7 +247,7 @@ See [Drawing templates](Drawing_templates.md)
 
 }}
 
-[Category:Poweruser\_Documentation](Category:Poweruser_Documentation.md) [Category:Developer](Category:Developer.md) [Category:Python\_Code](Category:Python_Code.md) [Category:Macros](Category:Macros.md)
+_ _ _ _
 
 ---
-[documentation index](../README.md) > [Poweruser_Documentation](Category:Poweruser_Documentation.md) > Svg Namespace/es
+[documentation index](../README.md) > [Poweruser_Documentation](Category_Poweruser_Documentation.md) > Svg Namespace/es

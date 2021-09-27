@@ -11,16 +11,13 @@
 
 ## Description
 
-La commande <img alt="" src=images/SheetMetal_SketchOnSheet.svg  style="width:16px;"> [Perçage de paroi](SheetMetal_SketchOnSheet/fr.md) découpe des trous le long des parois pliées d\'un objet en tôle. Pour la disposition des trous, une <img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;"> [esquisse](Sketcher_Workbench/fr.md) est utilisée.
+La commande <img alt="" src=images/SheetMetal_SketchOnSheet.svg  style="width:16px;"> _ est utilisée.
 
 Contrairement à la commande <img alt="" src=images/PartDesign_Pocket.svg  style="width:16px;"> [PartDesign Cavité](PartDesign_Pocket/fr.md) où les trous sont simplement découpés le long de la normale à l\'esquisse (axe z local), cet outil agit comme s\'il dépliait l\'objet en tôle, découpait les trous et repliait l\'objet.
 
 ## Utilisation
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Sélectionner une *face plane*.
+1.  Sélectionner une **face plane**.
 2.  Sélectionner une face coplanaire <img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;"> [esquisse](Sketcher_Workbench/fr.md). (c\'est-à-dire située sur le même plan) pour la **disposition des trous** (de préférence à partir de la [Vue en arborescence](Tree_view/fr.md)).
     -   **Remarque:** N\'oubliez pas la touche **Control**/**Command** !
 3.  Activez la commande <img alt="" src=images/SheetMetal_SketchOnSheet.svg  style="width:16px;"> Sketch Perçage de paroi en faisant :
@@ -38,61 +35,41 @@ Contrairement à la commande <img alt="" src=images/PartDesign_Pocket.svg  style
 
     -   Raccourci clavier : **M** puis **S**
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
 ## Remarques
 
 -   L\'esquisse peut contenir plus d\'un contour.
 -   Tout contour doit au moins toucher la face planaire, sinon il ne fera pas de trou du tout.
 
-
-</div>
-
--   The sketch may contain more than just one outline.
--   Any outline has to touch the planar face, at least, otherwise it won\'t cut a hole at all.
-
 ## Propriétés
 
-See also: [Property editor](Property_editor.md).
+Voir aussi : [Éditeur de propriétés](Property_editor/fr.md)
 
-A SheetMetal SketchOnSheet object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
+Un objet SheetMetal SketchOnSheet est dérivé d\'un objet [Part Feature](Part_Feature/fr.md) et hérite de toutes ses propriétés. Il possède également les propriétés supplémentaires suivantes :
 
 ### Données
 
 
 {{Properties_Title|Base}}
 
--    **Label|String**: Default value: The user editable name of this object, it may be any arbitrary UTF8 string.
+-    {{PropertyData/fr|Label|String}}: Valeur par défaut : Le nom modifiable par l\'utilisateur de cet objet, il peut être toute chaîne UTF8 arbitraire.
 
--    **Base Feature|Link|hidden**: Base Feature. Link to the parent feature.
+-    {{PropertyData/fr|Base Feature|Link|hidden}}: Fonctionnalité de base. Lien vers la caractéristique parent.
 
--    **_Body|LinkHidden|hidden**: Hidden link to the parent body.
+-    {{PropertyData/fr|_Body|LinkHidden|hidden}}: Lien caché vers le corps du parent.
 
 
 {{Properties_Title|Parameters}}
 
--    **Sketch|Link**: \"Sketch on Sheetmetal\". Link to the hole layout/cut-out sketch.
+-    {{PropertyData/fr|Sketch|Link}}: \"Esquisse sur tôle\". Lien vers l\'esquisse de la disposition des trous/découpe.
 
--    **base Object|LinkSub**: \"Base Object\". Link to the planar face where the cut-out starts.
+-    {{PropertyData/fr|base Object|LinkSub}}: \"Objet de base\". Lien vers la face plane où commence la découpe.
 
--    **kfactor|FloatConstraint**: \"Gap from Left Side\". Default: {{value|0,50}}.
+-    {{PropertyData/fr|kfactor|FloatConstraint}}: \"Ecart par rapport au côté gauche\". Valeur par défaut : {{value|0,50}}.
 
 ## Exemple
 
-<img alt="" src=images/SheetMetal_SketchOnSheet-05.png  style="width:300px;">
-
-
-<div class="mw-translate-fuzzy">
-
-
+<img alt="" src=images/SheetMetal_SketchOnSheet-05.png  style="width:300px;"> 
 *Un simple bidule*
-
-
-</div>
 
 
 <div class="mw-collapsible mw-collapsed">
@@ -102,13 +79,7 @@ A SheetMetal SketchOnSheet object is derived from a [Part Feature](Part_Feature.
 
 ### Préparation
 
-
-<div class="mw-translate-fuzzy">
-
 Ce bidule est constitué d\'un objet en tôle pliée auquel on a ajouté des trous.  Et donc il faut préparer à l\'avance une esquisse de contour ouvert pour la tôle et un croquis pour la disposition des trous.  Une ligne droite de la première esquisse doit être coplanaire à l\'autre plan de l\'esquisse, cela permettra d\'obtenir une esquisse et une face coplanaires utilisées dans les étapes suivantes.
-
-
-</div>
 
 <img alt="" src=images/SheetMetal_SketchOnSheet-01.png  style="width:200px;"> 
 *Seulement un contour et une disposition des trous*
@@ -136,7 +107,7 @@ Ce bidule est constitué d\'un objet en tôle pliée auquel on a ajouté des tro
 
 
 
-[Category:SheetMetal](Category:SheetMetal.md) [Category:Addons](Category:Addons.md) [Category:External Command Reference](Category:External_Command_Reference.md)
+_ _ _
 
 ---
-[documentation index](../README.md) > [SheetMetal](Category:SheetMetal.md) > SheetMetal SketchOnSheet/fr
+[documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > SheetMetal SketchOnSheet/fr

@@ -12,7 +12,7 @@
 
 [Arch MeshToShape](Arch_MeshToShape.md) converts a selected [Mesh](Mesh.md) ([Mesh Feature](Mesh_Feature.md)) object into a [Shape](Shape.md) ([Part Feature](Part_Feature.md)) object.
 
-This tool is optimized for objects with flat faces (no curves). The corresponding tool **<img src=images/Part_ShapeFromMesh.svg style="width:16px"> [Part ShapeFromMesh](Part_ShapeFromMesh.md)** from the <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> [Part Workbench](Part_Workbench.md) might be more suited for objects that contain curved surfaces.
+This tool is optimized for objects with flat faces (no curves). The corresponding tool **<img src=images/Part_ShapeFromMesh.svg style="width:16px"> _ might be more suited for objects that contain curved surfaces.
 
 ## Usage
 
@@ -61,4 +61,4 @@ new_obj = Arch.meshToShape(Box)
 ```
 
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch MeshToShape
+[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch MeshToShape

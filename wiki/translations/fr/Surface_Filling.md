@@ -26,7 +26,7 @@ La surface peut être modifiée en ajoutant des arêtes et des sommets de contra
 
 ## Utilisation
 
-1.  Assurez-vous d\'avoir au moins trois arêtes ou courbes dans l\'espace formant un contour fermé. Par exemple, ceux-ci peuvent être créés avec des outils de l\'<img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [atelier Draft](Draft_Workbench/fr.md) ou de l\'<img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [atelier Sketcher](Sketcher_Workbench/fr.md) . L\'utilisation de trois arêtes créerait une surface triangulaire; quatre arêtes une surface quadrilatérale.
+1.  Assurez-vous d\'avoir au moins trois arêtes ou courbes dans l\'espace formant un contour fermé. Par exemple, ceux-ci peuvent être créés avec des outils de l\'<img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> _ . L\'utilisation de trois arêtes créerait une surface triangulaire; quatre arêtes une surface quadrilatérale.
     -   En option, les courbes peuvent être dessinées à l\'intérieur du contour fermé, sans nécessairement toucher les bords. Ces courbes peuvent être utilisées pour contrôler la courbure de la surface résultante.
     -   De même, un certain nombre de sommets peuvent être utilisés dans le même but pour indiquer où la surface doit passer.
 2.  Appuyez sur le bouton **<img src=images/Surface_Filling.svg style="width:16px"> [Surface fill](Surface_Filling/fr.md)**.
@@ -36,7 +36,7 @@ La surface peut être modifiée en ajoutant des arêtes et des sommets de contra
     -   En option, allez dans la section **Curvature: non-boundary vertices**, appuyez sur **Add vertex**, et choisissez les sommets désirés dans la [Vue 3D](3D_view/fr.md) .
 5.  Appuyez sur **OK** pour terminer l\'opération.
 
-Les arêtes de base qui forment le contour fermé, ainsi que les sommets et arêtes auxiliaires, peuvent appartenir à des courbes 2D de <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft](Draft_Workbench/fr.md) ou de <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Sketcher](Sketcher_Workbench/fr.md) mais peut également appartenir à des objets solides 3D tels que ceux créés avec <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part](Part_Workbench/fr.md) ou <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench/fr.md).
+Les arêtes de base qui forment le contour fermé, ainsi que les sommets et arêtes auxiliaires, peuvent appartenir à des courbes 2D de <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> _ mais peut également appartenir à des objets solides 3D tels que ceux créés avec <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> _.
 
 ## Options
 
@@ -44,7 +44,7 @@ Les arêtes de base qui forment le contour fermé, ainsi que les sommets et arê
     -   
         **Add edge**
         
-        : appuyez une fois pour commencer à sélectionner **Boundary edges** (les bords) dans la <img src=images/Draft_Wire.svg style="width:Vue 3D](3D_view/fr.md). Les arêtes droites telles que **[16px"> <img src=images/Sketcher_CreatePolyline.svg style="width:Draft Fils](Draft_Wire/fr.md)** et **[16px"> <img src=images/Draft_BSpline.svg style="width:Sketcher Polylignes](Sketcher_CreatePolyline/fr.md)** ou les arêtes courbes telles que **[16px"> <img src=images/PartDesign_Body.svg style="width:Draft BSplines](Draft_BSpline.md)** et **[16px ](File:Sketcher_CreateBSpline.svg.md) [Sketcher BSplines](Sketcher_CreateBSpline/fr.md)** peuvent être prises ainsi que n\'importe quelle arête d\'objets solides, comme celles des **[16px"> <img src=images/Part_Primitives.svg style="width:PartDesign Corps](PartDesign_Body/fr.md)** et des **[16px"> [Part Primitives](Part_Primitives/fr.md)**.
+        : appuyez une fois pour commencer à sélectionner **Boundary edges** (les bords) dans la <img src=images/Draft_Wire.svg style="width:Vue 3D](3D_view/fr.md). Les arêtes droites telles que **_** ou les arêtes courbes telles que **_ _** et des **[16px"> [Part Primitives](Part_Primitives/fr.md)**.
 
     -   
         **Remove edge**
@@ -59,7 +59,7 @@ Les arêtes de base qui forment le contour fermé, ainsi que les sommets et arê
 
 ## Propriétés
 
-[Surface Remplissage](Surface_Filling/fr.md) (classe `Surface::Filling`) est dérivée de la classe de base [Part Feature](Part_Feature/fr.md) (classe `Part::Feature` via la sous-classe `Part::Spline`), elle partage donc toutes les propriétés de cette dernière.
+_ (classe `Part::Feature` via la sous-classe `Part::Spline`), elle partage donc toutes les propriétés de cette dernière.
 
 Outre les propriétés décrites dans [Part Feature](Part_Feature/fr.md), Surface Remplissage a les propriétés suivantes dans l\'[éditeur de propriétés](Property_editor/fr.md).
 

@@ -42,7 +42,7 @@ Der <img alt="" src=images/Draft_Split.svg  style="width:24px;"> **Entwurf Teile
 
 ## Skripten
 
-Siehe auch: [Autogenerierte API Dokumentation](https://www.freecadweb.org/api) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch: _.
 
 Um einen Draht zu teilen, verwende die Methode `split` des Moduls Entwurf. Diese Methode gibt `None` zurück.
 

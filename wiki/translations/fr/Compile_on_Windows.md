@@ -369,7 +369,7 @@ FreeCAD utilise [Qt](https://fr.wikipedia.org/wiki/Qt) comme boîte à outils po
 
 Pour que Qt Designer connaisse les widgets FreeCAD, vous devez
 
-1.  Téléchargez le fichier [ce ZIP](https://forum.freecadweb.org/download/file.php?id=124239). (Compilé à l\'aide de Qt 5.12, voir [ci-dessous](#Compilation.md).)
+1.  Téléchargez le fichier _.)
 2.  Extraire le fichier DLL dans le ZIP et le copier
 
 -   Si vous utilisez le LibPack: dans le dossier *\~\\FreeCADLibs\_12.5.2\_x64\_VC17\\bin\\designer* Puisqu\'il n\'y aura qu\'un dossier *bin* et vous devez d\'abord créer le dossier sous-dossier *designer*.
@@ -377,7 +377,7 @@ Pour que Qt Designer connaisse les widgets FreeCAD, vous devez
 
 (Re)démarrez Qt Designer et vérifiez son menu **Help → Plugins**. Si le plugin **FreeCAD\_widgets.dll** est répertorié comme étant chargé, vous pouvez maintenant concevoir et modifier les fichiers .ui de FreeCAD, sinon vous devez [compiler](#Compilation.md) vous-même la DLL.
 
-Si vous préférez utiliser [Qt Creator](https://en.wikipedia.org/wiki/Qt_Creator) au lieu de Qt Designer, la DLL doit être placée dans ce dossier : *C:\\Qt\\Qt5.15.2\\Tools\\QtCreator\\bin\\plugins\\designer* (Re)démarrez Qt Creator, passez en mode **Design** puis vérifiez le menu **Tools → Form Editor → About Qt Designer Plugins**. Si le plugin **FreeCAD\_widgets.dll** est répertorié comme étant chargé, vous pouvez maintenant concevoir et modifier les fichiers .ui de FreeCAD. Sinon, vous devez [compiler](#Compilation.md) vous-même la DLL.
+Si vous préférez utiliser _ vous-même la DLL.
 
 #### Compilation
 
@@ -458,7 +458,7 @@ A voir
 
 
 
-[Category:Developer\_Documentation](Category:Developer_Documentation.md) [Category:Developer](Category:Developer.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Developer_Documentation](Category:Developer_Documentation.md) > Compile on Windows/fr
+[documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > Compile on Windows/fr

@@ -3,7 +3,7 @@
 
 ## Introduction
 
-L\'<img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [atelier PartDesign](PartDesign_Workbench/fr.md) et l\'<img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [atelier Part](Part_Workbench/fr.md) utilisent les mêmes préférences. Elles se trouvent dans la section <img alt="" src=images/Preferences-part_design.svg  style="width:24px;"> **Part design** de l\'éditeur de préférences [Réglage des préférences](Preferences_Editor/fr.md). Cette section ne sera disponible que si l\'un des ateliers a été chargé dans la session FreeCAD en cours.
+L\'<img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> _ utilisent les mêmes préférences. Elles se trouvent dans la section <img alt="" src=images/Preferences-part_design.svg  style="width:24px;"> **Part design** de l\'éditeur de préférences [Réglage des préférences](Preferences_Editor/fr.md). Cette section ne sera disponible que si l\'un des ateliers a été chargé dans la session FreeCAD en cours.
 
 ## Préférences disponibles 
 
@@ -16,7 +16,7 @@ Dans l\'onglet *Général*, vous pouvez spécifier les éléments suivants:
 +------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Nom                                                                                | Description                                                                                                                                                                      |
 +====================================================================================+==================================================================================================================================================================================+
-|                                                                     | Si coché, le [BRep](https://fr.wikipedia.org/wiki/B-Rep) du modèle est [validé](Part_CheckGeometry/fr.md) après les [opérations booléennes](Part_Boolean/fr.md). |
+|                                                                     | Si coché, le _ après les [opérations booléennes](Part_Boolean/fr.md). |
 | **Vérifier les modèles automatiquement après une opération booléenne** |                                                                                                                                                                                  |
 |                                                                                 |                                                                                                                                                                                  |
 +------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -38,11 +38,11 @@ Dans l\'onglet *Vue de la forme*, vous pouvez spécifier les éléments suivants
 +-----------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Nom                                                                   | Description                                                                                                                                                                                                                          |
 +=======================================================================+======================================================================================================================================================================================================================================+
-|                                                        | Déviation maximale [déviation linéaire](https://www.opencascade.com/doc/occt-7.3.0/overview/html/occt_user_guides__modeling_algos.html#occt_modalg_11_2) des objets [tesselés](#Tesselation.md) par rapport à leur surface.  |
+|                                                        | Déviation maximale _ par rapport à leur surface.  |
 | **L'écart maximal suivant la  boîte englobant le modèle** |                                                                                                                                                                                                                                      |
 |                                                                    |                                                                                                                                                                                                                                      |
 +-----------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|                                                        | Déviation [angulaire maximale](https://www.opencascade.com/doc/occt-7.3.0/overview/html/occt_user_guides__modeling_algos.html#occt_modalg_11_2) d\'une section d\'un objet [tesselé](#Tesselation.md) à la section suivante. |
+|                                                        | Déviation _ à la section suivante. |
 | **Déviation angulaire maximale**                          |                                                                                                                                                                                                                                      |
 |                                                                    |                                                                                                                                                                                                                                      |
 +-----------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -109,7 +109,7 @@ Cliquez avec le bouton droit de la souris sur **Mesh deviation** dans le menu co
 
 }} 
 
-[Category:Preferences](Category:Preferences.md)
+_
 
 ---
-[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Preferences/fr
+[documentation index](../README.md) > [Preferences](Category_Preferences.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Preferences/fr

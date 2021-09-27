@@ -23,7 +23,7 @@
 
 ## Code
 
-Die neueste Version des Makros finden Sie unter [ViewRotation.FCMacro](https://github.com/FreeCAD/FreeCAD-macros/blob/master/PureGui/ViewRotation.FCMacro). Der einfachste Weg, dieses Makro zu installieren, ist das [Addon Manager](Addon_Manager/de.md).
+Die neueste Version des Makros finden Sie unter _.
 
 ToolBar Icon ![](images/Macro_View_Rotation.png )
 

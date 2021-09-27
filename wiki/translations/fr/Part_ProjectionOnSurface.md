@@ -16,7 +16,7 @@
 
 est utilisé pour projeter une <img src=images/_Draft_ShapeString.svg style="width:forme](Shape/fr.md) au-dessus d\'une surface depuis une autre [forme](Shape/fr.md). Cela peut être utilisé pour projeter un logo ou un objet texte (voir **[16px"> [Draft Formes à partir texte](Draft_ShapeString/fr.md)**) sur des surfaces courbes pour créer des effets intéressants.
 
-À partir d\'une [Forme](Shape/fr.md), cet outil peut projeter des arêtes, des fils (arêtes fermées) ou des faces entières à partir de celle-ci. Le résultat peut être de nouvelles arêtes, de nouveaux fils, de nouvelles faces ou même de nouveaux solides extrudés qui peuvent être utilisés dans des <img alt="" src=images/Part_Boolean.svg  style="width:24px;"> [opérations booléennes](Part_Boolean/fr.md) pour des effets tels que la gravure ou l\'estampage.
+À partir d\'une _ pour des effets tels que la gravure ou l\'estampage.
 
 <img alt="" src=images/Part_ProjectionOnSurface1.png  style="width:300px;"> <img alt="" src=images/Part_ProjectionOnSurface2.png  style="width:300px;">
 

@@ -40,7 +40,7 @@ Since they appeared in v0.17, datum objects were intended to be used inside [Par
 
  {{PartDesign Tools navi}} {{Document objects navi}} 
 
-[Category:Glossary](Category:Glossary.md)
+_
 
 ---
-[documentation index](../README.md) > [Glossary](Category:Glossary.md) > Datum
+[documentation index](../README.md) > [Glossary](Category_Glossary.md) > Datum

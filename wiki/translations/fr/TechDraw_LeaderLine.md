@@ -21,7 +21,7 @@ L\'outil Ligne de référence ajoute une ligne à une vue. D\'autres objets d\'a
 1.  Sélectionnez une vue.
 2.  Appuyez sur le bouton **<img src="images/TechDraw_LeaderLine.svg" width=16px> Insérer une ligne de référence à la vue**. Une boîte de dialogue s\'ouvrira permettant de dessiner la ligne de repère et d\'assigner des symboles de fin à la ligne.
 3.  Cliquez sur **Pick points** puis cliquez dans la page pour définir le point de départ de la ligne.
-4.  Déplacez la souris et cliquez sur un autre point pour créer une ligne.
+4.  Déplacez la souris et cliquez sur un autre point pour créer une ligne. Maintenez la touche Ctrl enfoncée pour obtenir des angles multiples de 22,5°.
 5.  Maintenant, vous pouvez soit:
     1.  terminer le dessin au trait en double-cliquant ou en appuyant sur **Save Points**.
     2.  ajoutez d\'autres points pour définir davantage de segments de ligne.

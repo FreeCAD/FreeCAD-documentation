@@ -18,7 +18,7 @@ Il modulo Base è contenuto all\'interno del modulo FreeCAD e contiene i costrut
 
  
 
-[Category:API](Category:API.md) [Category:Poweruser Documentation](Category:Poweruser_Documentation.md)
+_ _
 
 ---
-[documentation index](../README.md) > [API](Category:API.md) > Base API/it
+[documentation index](../README.md) > [API](Category_API.md) > Base API/it

@@ -68,7 +68,7 @@ Avant d\'appuyer sur le bouton, vous pouvez également modifier la valeur du dé
 5\. Nous allons maintenant créer un profil fermé en liant les arcs avec des lignes.
 
 :   5.1. Appuyez sur **<img src=images/Draft_Line.svg style="width:16px"> [Ligne](Draft_Line/fr.md)**.
-:   5.2. Dans la <img src=images/Draft_Snap_Lock.svg style="width:Barre d\'outils Accrochage](Draft_Snap/fr.md), assurez-vous que **[16px"> <img src=images/Draft_Snap_Endpoint.svg style="width:Activer/désactiver l'accrochage](Draft_Snap_Lock/fr.md)** est actif et que **[16px"> [Terminaison](Draft_Snap_Endpoint/fr.md)** également. Lorsque vous déplacez le pointeur sur l\'arc et à proximité de l\'un de ses extrémités, l\'icône <img alt="" src=images/Draft_Snap_Endpoint.svg  style="width:24px;"> [Terminaison](Draft_Snap_Endpoint/fr.md) doit apparaître. De plus, le point cible est mis en valeur par un grand point blanc. Cliquez pour sélectionner ce point.
+:   5.2. Dans la <img src=images/Draft_Snap_Lock.svg style="width:Barre d\'outils Accrochage](Draft_Snap/fr.md), assurez-vous que **_ doit apparaître. De plus, le point cible est mis en valeur par un grand point blanc. Cliquez pour sélectionner ce point.
 :   5.3. Déplacez le pointeur vers l\'extrémité la plus proche de l\'autre arc pour lier les deux arcs ensemble.
 :   5.4. Répétez le processus pour l\'autre côté de l\'arc pour fermer le profil.
 
@@ -146,13 +146,13 @@ Les cotes linéaires fonctionnent mieux lorsque vous utilisez les méthodes d\'[
 
 :   11.1. Appuyez sur **<img src=images/Draft_Dimension.svg style="width:16px"> [Dimension](Draft_Dimension/fr.md)**.
 :   11.2. Choisissez le premier point. Dans ce tutoriel, le premier point sera toujours l\'origine {{Value|(0, 0, 0)}}.
-:   11.3. Dans la <img src=images/Draft_Snap_Lock.svg style="width:Barre d\'outils Accrochage](Draft_Snap/fr.md), assurez-vous que **[16px"> <img src=images/Draft_Snap_Midpoint.svg style="width:Bascule l'accrochage](Draft_Snap_Lock/fr.md)** est actif et que **[16px"> [Milieu](Draft_Snap_Midpoint/fr.md)** également. Lorsque vous déplacez le pointeur vers le bord supérieur du polygone, l\'icône <img alt="" src=images/Draft_Snap_Midpoint.svg  style="width:24px;"> [Milieu](Draft_Snap_Midpoint/fr.md) doit apparaître; cliquez pour sélectionner ce point.
+:   11.3. Dans la <img src=images/Draft_Snap_Lock.svg style="width:Barre d\'outils Accrochage](Draft_Snap/fr.md), assurez-vous que **_ doit apparaître; cliquez pour sélectionner ce point.
 :   11.4. Déplacez le curseur vers la droite pour spécifier l\'emplacement de la dimension, puis cliquez pour définir la position finale, autour de {{Value|(100, 20, 0)}}. La cote affichera automatiquement la valeur de longueur mesurée entre les deux points.
 :   11,5. Sélectionnez l\'objet dimension dans la [Vue en arborescence](Tree_view/fr.md) et dans l\'[Éditeur de propriétés](Property_editor/fr.md) remplacez {{PropertyView/fr|Font Size}} par {{Value|6 mm}}, définissez {{PropertyView/fr|Ext Lines}} à {{Value|45 mm}} et {{PropertyView/fr|Show Unit}} à `False`.
 
 12\. Répétez le processus pour les deux arcs du profil fermé. Le premier point de la mesure sera toujours l\'origine et le second point utilisera le <img alt="" src=images/Draft_Snap_Midpoint.svg  style="width:24px;"> [Milieu](Draft_Snap_Midpoint/fr.md) de l\'arc.
 
-13\. Répétez le processus pour le cercle situé au centre. Le premier point de la mesure sera toujours l\'origine. Pour sélectionner le deuxième point, assurez-vous que **<img src=images/Draft_Snap_Lock.svg style="width:16px"> [Bascule de l'accrochage](Draft_Snap_Lock/fr.md)** est actif et que seul **[16px ](File:Draft_Snap_Angle.svg.md) [Angle](Draft_Snap_Angle/fr.md)** également. Lorsque vous déplacez le pointeur vers le haut du cercle, l\'icône <img alt="" src=images/Draft_Snap_Angle.svg  style="width:24px;"> [Angle](Draft_Snap_Angle/fr.md) doit apparaître. Cliquez pour sélectionner ce point. Déplacez ensuite le curseur vers la droite et cliquez pour fixer la cote.
+13\. Répétez le processus pour le cercle situé au centre. Le premier point de la mesure sera toujours l\'origine. Pour sélectionner le deuxième point, assurez-vous que **<img src=images/Draft_Snap_Lock.svg style="width:16px"> _ _ doit apparaître. Cliquez pour sélectionner ce point. Déplacez ensuite le curseur vers la droite et cliquez pour fixer la cote.
 
 N\'oubliez pas d\'ajuster {{PropertyView/fr|Font Size}} et d\'autres propriétés pour voir correctement la dimension.
 
@@ -164,7 +164,7 @@ N\'oubliez pas d\'ajuster {{PropertyView/fr|Font Size}} et d\'autres propriété
 14\. Les objets texte sont de simples figures planes qui sont créées dans la [Vue 3D](3D_view/fr.md) mais qui n\'ont pas de véritable \"[Forme](Shape/fr.md)\" sous jacente. Cela signifie qu\'ils ne peuvent pas être utilisés dans des opérations complexes avec des formes telles que des extrusions ou des opérations booléennes.
 
 :   14.1. Appuyez sur **<img src=images/Draft_Text.svg style="width:16px"> [Texte](Draft_Text/fr.md)**.
-:   14.2. Sélectionnez le point de référence dans la <img src=images/Draft_Snap_Lock.svg style="width:Vue 3D](3D_view/fr.md). Dans la [Barre d\'outils d\'accrochage](Draft_Snap/fr.md), assurez-vous que **[16px"> <img src=images/Draft_Snap_Midpoint.svg style="width:Bascule l'accrochage](Draft_Snap_Lock/fr.md)** est actif et que **[16px"> [Milieu](Draft_Snap_Midpoint/fr.md)** également. Déplacez le pointeur vers le bord supérieur de l\'arc le plus élevé, de sorte que l\'icône <img alt="" src=images/Draft_Snap_Midpoint.svg  style="width:24px;"> [Milieu](Draft_Snap_Midpoint/fr.md) s\'affiche. Cliquez pour sélectionner ce point.
+:   14.2. Sélectionnez le point de référence dans la <img src=images/Draft_Snap_Lock.svg style="width:Vue 3D](3D_view/fr.md). Dans la _** est actif et que **_ s\'affiche. Cliquez pour sélectionner ce point.
 :   14.3. Entrez le **Text** souhaité et appuyez une fois sur **Validez** pour commencer une nouvelle ligne; ajoutez plus de lignes de texte au besoin.
 :   14.4. Lorsque vous êtes prêt à terminer l\'édition, appuyez deux fois sur **Validez**.
 :   14,5. Sélectionnez l\'objet texte dans [tree view](tree_view.md), et dans l\'[Éditeur de propriétés](Property_editor/fr.md) remplacez {{PropertyView/fr|Font Size}} par {{Value|6 mm}} et {{PropertyView/fr|Justification}} à {{Value|Center}}.
@@ -199,7 +199,7 @@ Avant de faire quoi que ce soit, masquez la grille Draft en appuyant sur **<img 
 :   16.5. Recalculez le modèle en utilisant **<img src=images/Std_Refresh.svg style="width:16px"> [Rafraîchir](Std_Refresh/fr.md)** ou en appuyant sur **F5**.
 :   16.6. Cachez les cadres des objets en appuyant sur **<img src=images/TechDraw_ToggleFrame.svg style="width:16px"> [TechDraw Bascule des cadres](TechDraw_ToggleFrame/fr.md)**.
 
-En savoir plus sur l\'[atelier TechDraw](TechDraw_Workbench/fr.md) en lisant le [TechDraw: Tutoriel d\'introduction](Basic_TechDraw_Tutorial/fr.md).
+En savoir plus sur l\'_.
 
 <img alt="" src=images/06_Dr01_Draft_TechDraw_page.png  style="width:" height="400px;"> 
 *Page TechDraw avec une projection des formes créées avec l'atelier Draft.*

@@ -5,7 +5,7 @@
 
 FreeCAD jest aplikacją typu 3D [parametric modeling application](About_FreeCAD/pl.md). Został stworzony przede wszystkim do projektowania mechanicznego. Może służyć również do wszystkich pokrewnych zastosowań, w których trzeba precyzyjnie modelować obiekty przestrzenne. Dodatkowo zapewnia kontrolę nad historią modelowania.
 
-Freecad jest już rozwijany od 2002 roku i oferuje sporą listę [funkcjonalności](Feature_list/pl.md). Niektórych z nich wciąż brakuje, w porównaniu z komercyjnymi rozwiązaniami. Jednak w zupełności spełnia wymagania hobbystów i osób pracujących z mniejszymi projektami. Na [forum](http://forum.freecadweb.org/index.php) możesz znaleźć naszą szybko rozwijającą się społeczność zaangażowaną w rozwój programu FreeCAD. [Tutaj](https://forum.freecadweb.org/viewforum.php?f=24) możesz znaleźć wiele wartościowych przykładowych projektów dla FreeCAD. Zobacz również, [FreeCAD używany w produkcji](FreeCAD_used_in_production.md).
+Freecad jest już rozwijany od 2002 roku i oferuje sporą listę _.
 
 Jak wszystkie wolne projekty, projekt FreeCAD jest uzależniony od swojej społeczności, aby się rozwijać, zdobywać funkcje i stabilizować *(usuwać błędy)*. Więc nie zapominaj o tym podczas używania programu FreeCAD. Jeśli ci się to podoba, możesz dokonać [darowizny](Donate/pl.md) i [wspomóc FreeCAD](Help_FreeCAD/pl.md) również na inne sposoby, takie jak tworzenie dokumentacji i tłumaczeń.
 
@@ -124,7 +124,7 @@ W każdej chwili możesz wybrać oryginalne szkice i zmodyfikować je lub zmieni
 
 Środowiska pracy [Rysunek Roboczy](Draft_Workbench/pl.md) i [Architektura](Arch_Workbench/pl.md) zachowują się nieco inaczej niż pozostałe omówione powyżej. Chociaż przestrzegają tych samych zasad, które są wspólne dla wszystkich we FreeCAD. Krótko mówiąc, podczas gdy Szkicownik i Projekt Części są stworzone przede wszystkim do projektowania pojedynczych elementów, Draft i Arch są stworzone, aby ułatwić pracę z kilkoma prostszymi obiektami.
 
-Środowisko pracy [Rysunek Roboczy](Draft_Workbench/pl.md) oferuje narzędzia 2D nieco podobne do tych, które można znaleźć w tradycyjnych aplikacjach 2D CAD, takich jak [AutoCAD](https://en.wikipedia.org/wiki/AutoCAD). Jednakże, ponieważ szkic 2D jest daleki od celu twórców programu FreeCAD, nie oczekuj, że znajdziesz tam pełen wachlarz narzędzi, które oferują te dedykowane aplikacje. Większość narzędzi Draft działa nie tylko w płaszczyźnie 2D, ale także w pełnej przestrzeni 3D i korzysta ze specjalnych systemów pomocniczych, takich jak [płaszczyzny robocze](Draft_SelectPlane/pl.md) i [przyciąganie](Draft_Snap/pl.md).
+Środowisko pracy _ i [przyciąganie](Draft_Snap/pl.md).
 
 Środowisko pracy [Architektura](Arch_Workbench/pl.md) dodaje narzędzia [BIM](http://en.wikipedia.org/wiki/Building_Information_Modeling) do FreeCAD, pozwalając na tworzenie modeli architektonicznych zawierających obiekty parametryczne. Środowisko pracy Architektura opiera się w dużym stopniu na innych modułach, takich jak Rysunek Roboczy i Szkicownik. Wszystkie narzędzia do tworzenia szkiców są również obecne w środowisku pracy Architektura, większość narzędzi architrktonicznych korzysta z systemów pomocniczych środowiska Rysunek Roboczy.
 
@@ -152,7 +152,7 @@ Zasada [Dodatki](Addon.md) opiera się na opracowaniu uzupełnienia Środowiska 
 Istnieją dwa rodzaje dodatków:
 
 1.  [Makrodefinicje](Macros/pl.md): krótkie fragmenty kodu Pythona, które zapewniają nowe narzędzie lub funkcjonalność. Makra zazwyczaj są uruchamiane jako sposób na uproszczenie lub zautomatyzowanie zadania rysowania lub edycji konkretnego obiektu. Jeśli wiele z tych makrodefinicji jest zbieranych w jednym katalogu, cały katalog może być dystrybuowany jako nowe Środowisko pracy.
-2.  [Zewnętrzne środowiska pracy](External_workbenches/pl.md): zbiór narzędzi zaprogramowanych w Pythonie lub C++, które rozszerzają FreeCAD w istotny sposób. Jeśli dany stół pracy został wystarczająco rozwinięty i jest dobrze udokumentowany, może zostać włączony do FreeCAD jako jeden z podstawowych stołów roboczych. W sekcji [Zewnętrzne Środowiska pracy](External_workbenches/pl.md) można znaleźć listę i wytyczne dla istniejących bibliotek.
+2.  _ można znaleźć listę i wytyczne dla istniejących bibliotek.
 
 ## Tworzenie skryptów 
 
@@ -168,7 +168,7 @@ I na końcu, jedną z najpotężniejszych cech FreeCAD jest środowisko [skrypto
 
 {{Userdocnavi/pl}}
 
-[Category:User Documentation/pl](Category:User_Documentation/pl.md)
+_
 
 ---
 [documentation index](../README.md) > Getting started/pl

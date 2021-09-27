@@ -190,7 +190,7 @@ FreeCAD, deși utilizabilă în anumite domenii, este la începutul unei lungi d
 
 
 
-[Category:Hubs](Category:Hubs.md) [Category:Developer Documentation](Category:Developer_Documentation.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Hubs](Category:Hubs.md) > Developer hub/ro
+[documentation index](../README.md) > [Hubs](Category_Hubs.md) > Developer hub/ro

@@ -72,7 +72,7 @@ Section **Wire**:
 
 Si {{CheckBox|FALSE|Spline approximation}} n\'est pas cochée, l\'outil [Courbe sur maillage](Surface_CurveOnMesh/fr.md) crée une [Part Feature](Part_Feature/fr.md) de base.
 
-Si {{CheckBox|TRUE|Spline approximation}} est coché, l\'outil <img src=images/Part_Spline.svg style="width:Courbe sur maillage](Surface_CurveOnMesh/fr.md) crée une **[16px"> [Part Spline](Part_Spline/fr.md) ** (classe `Part::Spline`) qui est dérivée de la classe de base [Part Feature](Part_Feature/fr.md) (classe `Part::Feature`). Elle partage donc toutes les propriétés de cette dernière.
+Si {{CheckBox|TRUE|Spline approximation}} est coché, l\'outil <img src=images/Part_Spline.svg style="width:Courbe sur maillage](Surface_CurveOnMesh/fr.md) crée une **_ (classe `Part::Feature`). Elle partage donc toutes les propriétés de cette dernière.
 
 Outre les propriétés décrites dans [Part Feature](Part_Feature/fr.md), Part Spline a les propriétés suivantes dans l\'[éditeur de propriétés](Property_editor/fr.md).
 

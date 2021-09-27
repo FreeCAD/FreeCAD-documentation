@@ -6,7 +6,7 @@
 |Topic=Modeling
 |Level=Intermediate
 |Time=
-|Author=[Yorik](User:Yorik.md)
+|Author=_
 |FCVersion=0.14
 |Files=
 }}
@@ -21,7 +21,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Záměrem výukového program je představit základy práce v [Pracovní ploše Architektura](Arch_Workbench/cs.md). Pokusím se podat to tak jednoduše aby i uživateli bez předchozích zkušeností s FreeCADem, ale s nějakými zkušenostmi s 3D nebo [BIM](http://en.wikipedia.org/wiki/Building_Information_Modeling) aplikacemi byl tento výukový program užitečný. V každém případě počítejte s tím, že si budete muset vyhledat další informace o práci s FreeCADem na stránce [FreeCAD documentace wiki](Main_Page.md). Jestliže nemáte žádné zkušenosti s FreeCADem, existuje stránka [Začínáme](Getting_started/cs.md), kterou byste si měli přečíst. Také si projděte naši stránku [Výukové programy](tutorials/cs.md) a na stránce [youtube](http://www.youtube.com/results?search_query=freecad) najdete také spoustu dalších výukových programů FreeCADu.
+Záměrem výukového program je představit základy práce v _. Jestliže nemáte žádné zkušenosti s FreeCADem, existuje stránka [Začínáme](Getting_started/cs.md), kterou byste si měli přečíst. Také si projděte naši stránku [Výukové programy](tutorials/cs.md) a na stránce [youtube](http://www.youtube.com/results?search_query=freecad) najdete také spoustu dalších výukových programů FreeCADu.
 
 
 </div>
@@ -29,7 +29,7 @@ Záměrem výukového program je představit základy práce v [Pracovní ploše
 
 <div class="mw-translate-fuzzy">
 
-Cílem [Pracovní plochy Architektura](Arch_Workbench/cs.md) je nabídnout kompletní pracovní postup [BIM](http://en.wikipedia.org/wiki/Building_Information_Modeling) uvnitř FreeCADu. Vzhledem k tomu, že je zatím ve vývoji, neočekávejte, že hned najdete stejné nástroje na stejné úrovni jako v obdobných komerčních alternativách jako je [Revit](http://en.wikipedia.org/wiki/Revit) nebo [ArchiCAD](http://en.wikipedia.org/wiki/Archicad), ale an druhou stranu je využíván v mnohem větším rozsahu než tyto aplikace. [Pracovní plocha Architektura](Arch_Workbench/cs.md) významně využívá výhod ostatních disciplín, které FreeCAD poskytuje a nabízí některé vlastnosti, které jsou zřídka viděny u tradičních BIM aplikací.
+Cílem _ významně využívá výhod ostatních disciplín, které FreeCAD poskytuje a nabízí některé vlastnosti, které jsou zřídka viděny u tradičních BIM aplikací.
 
 
 </div>
@@ -86,7 +86,7 @@ V době, kdy je psán tento text, [Pracovní ploch Architektura](Arch_Workbench/
 
 </div>
 
--   Je nainstalována velmi předběžbé podpora [IFC](http://en.wikipedia.org/wiki/Industry_Foundation_Classes). Už teď můžete docela spolehlivě [importovat IFC soubory](Arch_IFC/cs.md), poskytované z [IfcOpenShell](http://ifcopenshell.org), ale exportování ještě není oficiálně podporováno. Vývojáři pracují na FreeCADu i na IfcOpenShellu a v budoucnu můžeme očekávay plnou podporu IFC.
+-   Je nainstalována velmi předběžbé podpora _, poskytované z [IfcOpenShell](http://ifcopenshell.org), ale exportování ještě není oficiálně podporováno. Vývojáři pracují na FreeCADu i na IfcOpenShellu a v budoucnu můžeme očekávay plnou podporu IFC.
 
 -   Mnogo nástrojů Architektury je stále ještě ve vývoji. Znamená to, že automatické \"wizardy\", které jsou schopny vytvářet automaticky komplexní konstrukce, jako jsou [Střecha](Arch_Roof/cs.md) nebo [Schody](Arch_Stairs/cs.md) mohou zatím vytvářet jen určité typy těchto objektů a další nástroje, které mají předvolby jako jsou [Struktura](Arch_Structure/cs.md) nebo [Okno](Arch_Window/cs.md) mají jen několik základních předvoleb. To se samozřejmě časem zlepší.
 
@@ -137,7 +137,7 @@ V tomto výukovém programu budeme modelovat dům ve 3D, založený na 3D výkre
 
 Místo vytváření projektu od začátku, vezměme si pro modelování projekt z příkladu, ušetří nám to čas. Vybral jsem nádherný dům známého architekta [Vilanova Artigas](http://en.wikipedia.org/wiki/Jo%C3%A3o_Batista_Vilanova_Artigas) (podívejte se na sérii [obrázků](http://www.leonardofinotti.com/projects/architects-second-house/image/40409-130405-010d) od Leonardo Finotti), protože je to blízko od mého bydliště, protože je to jednoduché a protože je to parádní příklad modernistické architektury v Sao Paulu a dwg výkresy jsou [snadno dostupné](http://www.bibliocad.com/library/second-house-vilanova-artigas_72926#).
 
-Použijeme 2D DWG výkresy získané z odkazu nahoře (musíte se registrovat ke stažení, ale je to zdarma) jako základ pro tvorbu našeho modelu. Takže první věc je stažení souboru, jeho rozzipování a otevření DWG souboru v nějaké dwg aplikaci jeko je třeba [DraftSight](http://www.3ds.com/products-services/draftsight/overview/). Alternativně můžete jej konvertovat do DXF pomocí bezplatné utility, třeba [ODA File Converter](https://www.opendesign.com/guestfiles/oda_file_converter). Máte-li konvertor ODA nainstalován (a cestu k němu nastavenou v předvolbách Architektury), pak je FreeCAD také [schopen naimportovat DWG soubory přímo](Draft_DXF/cs.md). Ale protože tyto soubory často mívají špatnou kvalitu a jsou velmi těžkopádné, je obyčejně lepší otevřít je ve 2D CAD aplikaci a pročistit je.
+Použijeme 2D DWG výkresy získané z odkazu nahoře (musíte se registrovat ke stažení, ale je to zdarma) jako základ pro tvorbu našeho modelu. Takže první věc je stažení souboru, jeho rozzipování a otevření DWG souboru v nějaké dwg aplikaci jeko je třeba _. Ale protože tyto soubory často mívají špatnou kvalitu a jsou velmi těžkopádné, je obyčejně lepší otevřít je ve 2D CAD aplikaci a pročistit je.
 
 Zde jsem vyhodil všechny výkresy detailů, všechny rámečky s informacemi o výkrese, \"vyčistil\" jsem jej (v AutoCADu je to \"purge\") pro odstranění všech zbytečných entit, zreorganizoval jsem řezy do logického umístění v relaci s ohledem na plán a přesunul jsem všechno k počátku (0,0). Potom může být náš soubor otevřen ve FreeCADu efektivně. Zkontrolujte různé odlišné volby dostupné v menu Úpravy → Předvolby → Kreslení → Import/Export, které mohou ovlivnit jak (a jak rychle) jsou soubory DXF/DWG importovány.
 
@@ -152,7 +152,7 @@ Takto vypadá soubor po otevření ve FreeCADu. Změnil jsem taky tloušťku zd�
 
 <div class="mw-translate-fuzzy">
 
-Jako většina [Architektonických](Arch_Workbench/cs.md) objektů, mohou být [zdi](Arch_Wall/cs.md) stavěny na rozmanitých objektech: [přímky](Draft_Line/cs.md), [dráty](Draft_Wire/cs.md) (lomené čáry), [náčrty](Sketcher_Workbench/cs.md), plochy nebo tělesa (nebo dokonce na ničem, když jsou definovány výškou, šířkou a délkou). Výsledná konstrukce zdi závisí na konstrukci základu a vlastnostech, které zadáte, jako jsou šířka a výška. Jak asi uhodnete, zeď založená na přímce ji využije jeko přímku, podle které se zeď zarovná, zatímco zeď založená na ploše využije plochu jako svůj základový obrys a zeď založená na tělese jednoduše převezme rozměry zadaného tělesa. To umožňuje jakémukoliv tvaru stát se zdí.
+Jako většina _, [dráty](Draft_Wire/cs.md) (lomené čáry), [náčrty](Sketcher_Workbench/cs.md), plochy nebo tělesa (nebo dokonce na ničem, když jsou definovány výškou, šířkou a délkou). Výsledná konstrukce zdi závisí na konstrukci základu a vlastnostech, které zadáte, jako jsou šířka a výška. Jak asi uhodnete, zeď založená na přímce ji využije jeko přímku, podle které se zeď zarovná, zatímco zeď založená na ploše využije plochu jako svůj základový obrys a zeď založená na tělese jednoduše převezme rozměry zadaného tělesa. To umožňuje jakémukoliv tvaru stát se zdí.
 
 
 </div>
@@ -160,7 +160,7 @@ Jako většina [Architektonických](Arch_Workbench/cs.md) objektů, mohou být [
 
 <div class="mw-translate-fuzzy">
 
-Ve FreeCADu existuje několik možných strategií jak stavět zdi. Jedna umožňuje vystvět kompletní \"plán podlaží\" pomocí [skicáře](Sketcher_Workbench/cs.md) a pak z ní vystvět jedne velký objekt zdi. Tato technika funguje, ale můžete zadat pouze jednu tloušťku pro všechny zdi v projektu. Nebo můžete vystvět každou zaď samostatně ze segmentů přímek. Nebo (a to bude využito zde) můžet využít mix z obou způsobů: uděláme pár [drátů](Draft_Wire/cs.md) nad importovaným plánem, jeden pro každý typ zdi:
+Ve FreeCADu existuje několik možných strategií jak stavět zdi. Jedna umožňuje vystvět kompletní \"plán podlaží\" pomocí _ nad importovaným plánem, jeden pro každý typ zdi:
 
 
 </div>
@@ -239,7 +239,7 @@ Nakresleme tedy ten objem, větší než střecha, který bude odečten ze zdí.
 
 <img alt="" src=images/Arch_tutorial_09.jpg  style="width:1024px;">
 
-A teď ta finta: Použijeme nástroj [Otočení](Draft_Rotate/cs.md) pro pootočení našeho profilu o 90 stupňů nahoru, do správné pozice kde bude vysunut. Uděláme to tak, že nejdříve musíme změnit [pracovní rovinu](Draft_SelectPlane/cs.md) na rovinu YZ. Když je to provedeno, bude otočení provedeno v této rovině. Kdybychom chtěli a udělali to trochu dříve a nastavili boční pohled, bylo by obtížné vidět a vybrat náš profil a zjistit kde je základní bod kolem kterého to musí rotovat, jasné? Potom musíme nastavit pracovní rovinu ručně: Stiskneme tlačítko [Vybrat rovinu](Draft_SelectPlane/cs.md) (je to v záložce \"úkoly\" v okně stromu) a nastavíme ji na YZ (což je \"boční\" rovina). Když nastavíte pracovní rovinu ručně, jako zde, nezmění to závislost na Vašem pohledu. Nyní můžete otočit pohled tak, abyste měli dobrý výhled na všechny věci, které musíte vybrat. Pro pozdější přepnutí pracovní roviny zpět \"automatického\" módu, stiskněte opět tlačítko [Vybrat rovinu](Draft_SelectPlane/cs.md) a nastavte ji na \"Žádná\".
+A teď ta finta: Použijeme nástroj _ (je to v záložce \"úkoly\" v okně stromu) a nastavíme ji na YZ (což je \"boční\" rovina). Když nastavíte pracovní rovinu ručně, jako zde, nezmění to závislost na Vašem pohledu. Nyní můžete otočit pohled tak, abyste měli dobrý výhled na všechny věci, které musíte vybrat. Pro pozdější přepnutí pracovní roviny zpět \"automatického\" módu, stiskněte opět tlačítko [Vybrat rovinu](Draft_SelectPlane/cs.md) a nastavte ji na \"Žádná\".
 
 Nyní bude snadné provést otočení: Vyberte profil, stiskněte tlačítko [Otočení](Draft_Rotate/cs.md), klikněte na bod v modré přímce, zadejte 0 jako počáteční úhel a 90 jako rotace:
 
@@ -249,7 +249,7 @@ A vše co musíme udělat teď je posunout profil trochu blíže k modelu (pokud
 
 <img alt="" src=images/Arch_tutorial_11.jpg  style="width:1024px;">
 
-A nyní příchází na řadu akce opačná k nástroji [Přidat](Arch_Add/cs.md) a to [Odebrat](Arch_Remove/cs.md). Jak asi uhodnete, také to vytváří objekt jako dítě jiného, ale jeho tvar je odečten z hostitelského objektu místo jejich sjednocení. Takže je to jednoduché: Vyberte objem k odečtení (pojmenoval jsem jej jako \"Roof volume to subtract\" (Objem střechy k odebrání) v okně stromu, takže ho snadno najdete), CTRL + výběr zdi, a stisknout tlačítko [Odebrat](Arch_Remove/cs.md). Tohle uvidíte po odebrání, objem pro odebrání zmizel ze 3D pohledu i z okna stromu. Je to proto, že byl označen jako dítě zdi a \"spolknut\" zdí. Vyberte zeď, rozbalte ji v okně stromu a máte tady Váš objem.
+A nyní příchází na řadu akce opačná k nástroji _. Tohle uvidíte po odebrání, objem pro odebrání zmizel ze 3D pohledu i z okna stromu. Je to proto, že byl označen jako dítě zdi a \"spolknut\" zdí. Vyberte zeď, rozbalte ji v okně stromu a máte tady Váš objem.
 
 Nyní vyberte ten objem v okně stromu, CTRL + výběr další zdi a stiskněte [Odebrat](Arch_Remove/cs.md). Opakujte pro všechny zdi až budou všechny příslušně zkráceny:
 
@@ -329,7 +329,7 @@ Nástroj [Architektura Okno](Arch_Window/cs.md) je pěkně složitá záležitos
 
 <div class="mw-translate-fuzzy">
 
-Objekt [Architektura Okno](Arch_Window/cs.md) funguje následovně: Je založen na 2D plánu (jakýkoliv 2D objekt, ale přednost má [náčrt](Sketcher_Workbench/cs.md), který obsahuje uzavřené dráty (lomené čáry)). Tyto dráty definují různé části okna: vnější rámečky, vnitřní rámečky, okenní panely, pevné panely, atd. Objekt okno má vlastnosti, které obsahují co dělat se kterým drátem: vysunout je, umístit je s určitým odsunutím, atd. Nakonec může být okno vloženo do hostitelského objektu jako je zeď nebo struktura, do které automaticky vytvoří otvor. Otvor bude vypočten podle největšího drátu nalezeného ve 2D plánu.
+Objekt _, který obsahuje uzavřené dráty (lomené čáry)). Tyto dráty definují různé části okna: vnější rámečky, vnitřní rámečky, okenní panely, pevné panely, atd. Objekt okno má vlastnosti, které obsahují co dělat se kterým drátem: vysunout je, umístit je s určitým odsunutím, atd. Nakonec může být okno vloženo do hostitelského objektu jako je zeď nebo struktura, do které automaticky vytvoří otvor. Otvor bude vypočten podle největšího drátu nalezeného ve 2D plánu.
 
 
 </div>
@@ -359,7 +359,7 @@ Nyní je vhodný čas udělat malou očistu domu. Protože už máme dvě okna, 
 
 <div class="mw-translate-fuzzy">
 
-[Pracovní plocha Architektura](Arch_Workbench/cs.md) má několik přidaných nástrojů pro organizaci modelu: [Staveniště](Arch_Site/cs.md), [Budova](Arch_Building/cs.md) a [Podlaží](Arch_Floor/cs.md). Tyto 3 objekty jsou založeny na standardních skupinách FreeCADu, takže se chovají přesně stejně jako skupiny, ale mají několik vlastností navíc. Například, [podlaží](Arch_Floor/cs.md) má schopnost nastavit a řídit výšku obsažených zdí a struktur, a když jsou přesunuty, celý jejich obsah je přesunut také.
+_, [Budova](Arch_Building/cs.md) a [Podlaží](Arch_Floor/cs.md). Tyto 3 objekty jsou založeny na standardních skupinách FreeCADu, takže se chovají přesně stejně jako skupiny, ale mají několik vlastností navíc. Například, [podlaží](Arch_Floor/cs.md) má schopnost nastavit a řídit výšku obsažených zdí a struktur, a když jsou přesunuty, celý jejich obsah je přesunut také.
 
 
 </div>
@@ -394,7 +394,7 @@ A teď je podívejme na opravdu zajímavou věc: Jak navrhnout naše vlastní u�
 
 <div class="mw-translate-fuzzy">
 
-Jak jsem vysvětlil výše, objekty [Architektura Okno](Arch_Window/cs.md) se vytvářejí z 2D plánů, sestavených z uzavřených prvků (dráty (lomené čáry), kružnice, obdélníky, cokoliv). Objekty [Kreslení](Draft_Workbench/cs.md) nemohou držet více než jeden z těchto prvků, doporučovaný nástroj pro kreslení plánů oken je [Skicář](Sketcher_Workbench/cs.md). Bohužel, u skicáře není možné zachytit vnější objekt jako u pracovní plochy Kreslení, což by zde bylo užitečné, protože naše nárysy už jsou nakresleny. Naštěstí existuje nástroj pro konverzi objektů Kreslení do náčrtů: Nástroj [Kreslení do Náčrtu](Draft_Draft2Sketch/cs.md).
+Jak jsem vysvětlil výše, objekty _.
 
 
 </div>
@@ -536,7 +536,7 @@ Před začátkem exportu je zajímavé udělat zajímavou úvahu: Jak jste vidě
 
 <img alt="" src=images/Arch_tutorial_45.jpg  style="width:400px;">
 
-Jedna ze základních věcí, které potřebujete při práci s BIM je schopnost importu a exportu souborů [IFC](http://en.wikipedia.org/wiki/Industry_Foundation_Classes). To je zatím věc, na které se ve FreeCADu pracuje. Formát [IFC](Arch_IFC/cs.md) už je podporován a import IFC souborů do FreeCADu je už docela spolehlivý. Export je nicméně zatím ve stavu experimentování a aktuálně má mnoho omezení. Přesto, stav se zlepšuje a odpovídající exportní možnosti IFC bychom měli mít velmi brzy.
+Jedna ze základních věcí, které potřebujete při práci s BIM je schopnost importu a exportu souborů _ už je podporován a import IFC souborů do FreeCADu je už docela spolehlivý. Export je nicméně zatím ve stavu experimentování a aktuálně má mnoho omezení. Přesto, stav se zlepšuje a odpovídající exportní možnosti IFC bychom měli mít velmi brzy.
 
 [IFC export](Arch_IFC/cs.md) požaduje jenom malé nastavení, když už jsou nainstalovány potřebné softwarové knihovny. Potřebujete pouze znovuvytvořit stavební struktury, které jsou potřebné ve všech IFC souborech, přidáním [Budovy](Arch_Building/cs.md) do souboru, potom [Podlaží](Arch_Floor/cs.md) a potom do něj přesunout všechny skupiny objektu, ze kterých se model skládá. Ujistěte se, že vypustíte konstrukční geometrii (všechny 2D věci, které jsme nakreslili), abychom se vyhnuli vytvoření zbytečně náročného IFC souboru.
 
@@ -544,7 +544,7 @@ IFC nemá žádný \"obecný\" strukturální prvek jako FreeCAD, musíme jim p�
 
 V takovém případě potřebujeme celý nášarchitektonický systém, proto IFC exporter ví, jestli objekt musí být exportován jako zeď nebo jako sloup, takže používáme náš hlavní model a ne výstupní model.
 
-Když je to uděláno, jednoduše vybereme stavební objekt a zvolíme formát \"Industry Foundation Classes\". Exportování do ne-BIM aplikace, jako je třeba [Sketchup](http://www.sketchup.com/) je také velmi jednoduché, máte k dispozici několik exportních formátů, jako jsou [Collada](Arch_DAE/cs.md), STEP, IGES nebo OBJ.
+Když je to uděláno, jednoduše vybereme stavební objekt a zvolíme formát \"Industry Foundation Classes\". Exportování do ne-BIM aplikace, jako je třeba _, STEP, IGES nebo OBJ.
 
 
 
@@ -663,4 +663,4 @@ Soubor vytvořený tímto výukovým programem najdete [zde](http://yorik.uncrea
 }}
 
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch tutorial/cs
+[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch tutorial/cs

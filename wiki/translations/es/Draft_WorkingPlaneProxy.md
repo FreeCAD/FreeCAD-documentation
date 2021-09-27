@@ -77,13 +77,6 @@ A Draft WorkingPlaneProxy object is derived from an [App FeaturePython](App_Feat
 ### View
 
 
-{{TitleProperty|Arch}}
-
--    **Arrow Size|Length**: specifies the size of the arrow symbols displayed at the tip of the three axes.
-
--    **Display Size|Length**: specifies the length and width of the working plane proxy.
-
-
 {{TitleProperty|Base}}
 
 -    **Line Color|Color**: specifies the color of all elements of the working plane proxy.
@@ -99,6 +92,13 @@ A Draft WorkingPlaneProxy object is derived from an [App FeaturePython](App_Feat
 -    **View Data|FloatList**: specifies the camera position and settings.
 
 -    **Visibility Map|Map|Hidden**: specifies the visibility state of objects.
+
+
+{{TitleProperty|Draft}}
+
+-    **Arrow Size|Length**: specifies the size of the arrow symbols displayed at the tip of the three axes.
+
+-    **Display Size|Length**: specifies the length and width of the working plane proxy.
 
 ## Guión
 

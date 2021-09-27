@@ -2,7 +2,7 @@
 {{TutorialInfo/pl
 |Topic=Modelowanie
 |Level=początkujący
-|Author=[WandererFan](User:WandererFan.md)
+|Author=_
 |Time=Mniej niż godzinę
 |FCVersion=0.17 lub nowszy
 |Files=[https://github.com/FreeCAD/Examples/blob/master/Basic_Part_Design_Tutorial_Example_017_Files/Basic_Part_Design_Tutorial_017.fcstd  Basic Part Design for v0.17 Sample]<br />[https://github.com/FreeCAD/Examples/blob/master/Basic_TechDraw_Tutorial_Example_Files/Basic_TechDraw_Tutorial.fcstd Basic TechDraw Tutorial Sample]
@@ -114,7 +114,7 @@ Od pierwszej części tego poradnika wiemy, że przedmiot posiada szerokość **
 
 ## Dalsze postępowanie 
 
-W tym samouczku nauczyłeś się wystarczająco dużo o Środowisku pracy **<img src="images/Workbench_TechDraw.svg" width=24px> [TechDraw](TechDraw_Workbench/pl.md)**, aby stworzyć taki rysunek *(autor: [NormandC](User:Normandc.md))*. Uwaga 2.
+W tym samouczku nauczyłeś się wystarczająco dużo o Środowisku pracy **<img src="images/Workbench_TechDraw.svg" width=24px> _)*. Uwaga 2.
 
 ![](images/TDTut_FC018_TechDraw_Dim_Iso_View_01_NC.png )
 

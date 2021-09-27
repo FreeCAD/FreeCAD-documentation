@@ -14,7 +14,7 @@
 
 ## Utilisation
 
-1.  Passer à l\'atelier <img alt="" src=images/Curves_workbench_icon.svg  style="width:24px;"> [Curves](Curves_Workbench/fr.md) (à installer à partir du <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md) si ce n\'est pas déjà fait)
+1.  Passer à l\'atelier <img alt="" src=images/Curves_workbench_icon.svg  style="width:24px;"> _ si ce n\'est pas déjà fait)
 2.  Sélectionnez l\'arête qui crée le chemin de balayage dans la [vue 3D](3D_view/fr.md)
 3.  Sélectionnez un ou plusieurs profils requis dans la [vue en arborescence](Tree_view/fr.md)
 4.  Pour appeler la commande, effectuez l\'une des opérations suivantes:

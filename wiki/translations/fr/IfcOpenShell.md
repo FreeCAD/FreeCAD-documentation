@@ -4,7 +4,7 @@
 
 {{TOCright}}
 
-[IfcOpenShell](IfcOpenShell/fr.md) est une bibliothèque de logiciels open source (LGPL 3) qui aide les développeurs à travailler avec les classes de base de l\'industrie [1](http://www.buildingsmart-tech.org/specifications/ifc-overview) ([Format de fichier IFC](Arch_IFC/fr.md)). Le format de fichier IFC peut être utilisé pour décrire les données de bâtiment et de construction. Le format est couramment utilisé pour la [Building Information Modeling](https://fr.wikipedia.org/wiki/Building_information_modeling) (BIM), par exemple, l\'analyse des charges mécaniques et les études d\'efficacité thermique et énergétique. IfcOpenShell est principalement une collection de bibliothèques C ++, cependant, comme elle a des liaisons [Python](Python/fr.md), elle peut être intégrée à des programmes comme FreeCAD et Blender.
+_). Le format de fichier IFC peut être utilisé pour décrire les données de bâtiment et de construction. Le format est couramment utilisé pour la _, elle peut être intégrée à des programmes comme FreeCAD et Blender.
 
 IfcOpenShell utilise [OpenCASCADE](OpenCASCADE/fr.md) en interne pour convertir la géométrie implicite des fichiers IFC en une géométrie explicite que d\'autres packages de CAO peuvent comprendre, par exemple, STEP, [OBJ](Arch_OBJ/fr.md) et [DAE](Arch_DAE/fr.md).
 
@@ -443,12 +443,12 @@ Le projet IfcOpenShell a également développé \"IFC Pipeline\", un programme d
 -   [Installation IFC](https://forum.freecadweb.org/viewtopic.php?f=39&t=12368&start=10#p117883); ancienne discussion du forum.
 -   [IfcPlusPlus compilé sur Gentoo - questions et alternatives?](https://forum.freecadweb.org/viewtopic.php?f=39&t=33254)
 -   [Compilation IfcOpenShell pour MacOS](Import/Export_IFC_-_compiling_IfcOpenShell/fr.md); un guide qui décrit le processus général. Cela peut ne plus être nécessaire car IfcOpenShell est maintenant distribué avec FreeCAD grâce à [Conda](Conda/fr.md).
--   Quelles pages sont liées à [cette page](Special:WhatLinksHere/IfcOpenShell.md).
+-   Quelles pages sont liées à _.
 
 
  {{FEM Tools navi}} 
 
-[Category:BIM](Category:BIM.md) [Category:3rd Party](Category:3rd_Party.md)
+_ _
 
 ---
-[documentation index](../README.md) > [BIM](Category:BIM.md) > IfcOpenShell/fr
+[documentation index](../README.md) > [BIM](Category_BIM.md) > IfcOpenShell/fr

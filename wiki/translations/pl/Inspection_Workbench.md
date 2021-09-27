@@ -23,7 +23,7 @@ Alternatywnie, użyj makra ![ 24px](images/_HighlightDifference.png ) [Highlight
 
 
 
-[Category:Inspection](Category:Inspection.md) [Category:Workbenches](Category:Workbenches.md)
+_ _
 
 ---
-[documentation index](../README.md) > Inspection Workbench/pl
+[documentation index](../README.md) > [Inspection](Category_Inspection.md) > Inspection Workbench/pl

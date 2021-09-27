@@ -3,7 +3,7 @@
 
 Cette catégorie regroupe des articles répertoriant les objets et les méthodes disponibles pour la programmation [Python](Python/fr.md).
 
-[Category:Categories/fr](Category:Categories/fr.md)
+_
 
 ---
 [documentation index](../README.md) > API documentation/fr

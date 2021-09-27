@@ -25,7 +25,7 @@
 
  {{OpenSCAD Tools navi}}
 
-[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:File\_Formats](Category:File_Formats.md)
+_ _
 
 ---
-[documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD CSG tested files
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD CSG tested files

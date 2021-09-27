@@ -1137,7 +1137,7 @@ cd bin
 
 <div class="mw-collapsible-content">
 
-Vous pouvez poster à l\'utilisateur [http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=3666 PrzemoF](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=3666_PrzemoF.md) sur le forum.
+Vous pouvez poster à l\'utilisateur _ sur le forum.
 
 
 {{Code|lang=bash|code=
@@ -1209,7 +1209,7 @@ Pour mettre à jour FreeCAD vers la dernière version, recommencez à partir de 
 
 
 
-[Category:Developer\_Documentation](Category:Developer_Documentation.md) [Category:Developer](Category:Developer.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Developer_Documentation](Category:Developer_Documentation.md) > Compile on Linux/fr
+[documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > Compile on Linux/fr

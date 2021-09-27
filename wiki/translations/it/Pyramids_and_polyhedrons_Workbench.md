@@ -56,7 +56,7 @@ Invia il tuo feedback, idee, pensieri su questo banco di lavoro al thread del fo
 
 
 
-[Category:User Documentation](Category:User_Documentation.md) [Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+_ _ _
 
 ---
-[documentation index](../README.md) > Pyramids and polyhedrons Workbench/it
+[documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > Pyramids and polyhedrons Workbench/it

@@ -217,7 +217,7 @@ Certains des nouveaux modules communautaires activement développés au cours du
 
 -   L\'[atelier Defeaturing](Defeaturing_Workbench/fr.md) est destiné à l\'édition de modèles STEP importés, à la suppression d\'éléments sélectionnés du modèle.
 
-[Category:News](Category:News.md) [Category:Documentation](Category:Documentation.md) [Category:Releases](Category:Releases.md)
+_ _ _
 
 ---
-[documentation index](../README.md) > [News](Category:News.md) > Release notes 0.18/fr
+[documentation index](../README.md) > [News](Category_News.md) > Release notes 0.18/fr

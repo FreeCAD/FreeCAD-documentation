@@ -48,7 +48,7 @@ The **Std Export** command exports selected objects to a different file format. 
 
  {{Std Base navi}}  
 
-[Category:File\_Formats](Category:File_Formats.md)
+_
 
 ---
-[documentation index](../README.md) > [File_Formats](Category:File_Formats.md) > Std Export
+[documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Std Export

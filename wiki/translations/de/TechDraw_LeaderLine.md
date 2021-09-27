@@ -18,6 +18,9 @@ Das FührungsLinien Werkzeug fügt einer Ansicht eine Führungslinie hinzu. Ande
 
 ## Anwendung
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Wähle eine Ansicht.
 2.  Drücke die **<img src="images/TechDraw_LeaderLine.svg" width=16px> Führungslinie zur Ansicht hinzufügen** Schaltfläche. Es öffnet sich ein Dialog, in dem die Führungslinie gezeichnet und der Linie Endsymbole zugewiesen werden können.
 3.  Klicke auf **Punkte greifen** und klicke dann in die Seite, um den Startpunkt der Linie festzulegen.
@@ -26,6 +29,9 @@ Das FührungsLinien Werkzeug fügt einer Ansicht eine Führungslinie hinzu. Ande
     1.  beende die Linienzeichnung durch Doppelklicken oder Drücken von **|Punkte speichern**.
     2.  weitere Punkte hinzufügen, um weitere Liniensegmente festzulegen.
 6.  Um die Erstellung abzuschließen, drücke **OK**, um das Dialogfeld zu schließen.
+
+
+</div>
 
 **Hinweis:** Wenn du bei der Erstellung der Führungslinie keine Punkte definiert hast, wird eine kurze Linie in der Mitte der Ansicht dargestellt.
 

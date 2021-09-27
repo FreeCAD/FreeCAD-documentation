@@ -16,7 +16,7 @@ numpy comes installed as a dependency of FreeCAD, therefore you can import numpy
 
 
 
-[Category:3rd Party](Category:3rd_Party.md)
+_
 
 ---
-[documentation index](../README.md) > [3rd Party](Category:3rd Party.md) > NumPy/en
+[documentation index](../README.md) > [3rd Party](Category_3rd Party.md) > NumPy/en

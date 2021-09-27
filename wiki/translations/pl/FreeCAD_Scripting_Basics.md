@@ -119,7 +119,7 @@ myView = Gui.ActiveDocument.ActiveView
 
 ## Używanie dodatkowych modułów 
 
-Moduły `FreeCAD` i `FreeCADGui` są odpowiedzialne tylko za tworzenie i zarządzanie obiektami w dokumencie FreeCAD. W rzeczywistości nie robią one nic więcej, jak tworzenie lub modyfikowanie geometrii. Dzieje się tak, ponieważ geometria ta może być kilku typów i dlatego wymaga dodatkowych modułów, z których każdy jest odpowiedzialny za zarządzanie danym typem geometrii. Na przykład, środowisko pracy [Część](Part_Workbench/pl.md), używa jądra OpenCascade, jest ono w stanie tworzyć i manipulować geometrią typu [BRep](http://en.wikipedia.org/wiki/Boundary_representation). Natomiast środowisko pracy [Sziatka](Mesh_Workbench/pl.md) jest w stanie budować i modyfikować obiekty typu siatka. W ten sposób FreeCAD jest w stanie obsłużyć wiele różnych typów obiektów, które mogą współistnieć w tym samym dokumencie, a nowe typy mogą być łatwo dodawane w przyszłości.
+Moduły `FreeCAD` i `FreeCADGui` są odpowiedzialne tylko za tworzenie i zarządzanie obiektami w dokumencie FreeCAD. W rzeczywistości nie robią one nic więcej, jak tworzenie lub modyfikowanie geometrii. Dzieje się tak, ponieważ geometria ta może być kilku typów i dlatego wymaga dodatkowych modułów, z których każdy jest odpowiedzialny za zarządzanie danym typem geometrii. Na przykład, środowisko pracy _ jest w stanie budować i modyfikować obiekty typu siatka. W ten sposób FreeCAD jest w stanie obsłużyć wiele różnych typów obiektów, które mogą współistnieć w tym samym dokumencie, a nowe typy mogą być łatwo dodawane w przyszłości.
 
 [na początek strony](#top.md)
 
@@ -198,7 +198,7 @@ lub sprawdzić, czy obiekt jest pochodną jednej z podstawowych własności (cz�
 print(myObj.isDerivedFrom("Part::Feature"))
 ```
 
-Teraz naprawdę możesz zacząć zabawę z FreeCAD! Pełna lista dostępnych modułów i ich narzędzi znajduje się w sekcji [Category:API](:Category:API.md).
+Teraz naprawdę możesz zacząć zabawę z FreeCAD! Pełna lista dostępnych modułów i ich narzędzi znajduje się w sekcji _.
 
 [na początek strony](#top.md)
 
@@ -207,7 +207,7 @@ Teraz naprawdę możesz zacząć zabawę z FreeCAD! Pełna lista dostępnych mod
 
 }} 
 
-[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > FreeCAD Scripting Basics/pl
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > FreeCAD Scripting Basics/pl

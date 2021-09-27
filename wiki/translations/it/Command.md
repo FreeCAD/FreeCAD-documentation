@@ -9,7 +9,7 @@ Un **Comando** è ciò che viene eseguito quando si preme un pulsante della barr
 
 <div class="mw-translate-fuzzy">
 
-Ogni comando di FreeCAD ha un nome univoco, che appare nella pagina [:Category:Command\_Reference](:Category:Command_Reference.md) se originale inglese, e nella pagina [:Category:Command\_Reference/it](:Category:Command_Reference/it.md) per le traduzioni . I comandi possono essere lanciati da un pulsante della barra degli strumenti, da una voce di menu o da uno script [python](python/it.md) o dalla [console python](Python_console/it.md), eseguendo:
+Ogni comando di FreeCAD ha un nome univoco, che appare nella pagina _ se originale inglese, e nella pagina _ per le traduzioni . I comandi possono essere lanciati da un pulsante della barra degli strumenti, da una voce di menu o da uno script [python](python/it.md) o dalla [console python](Python_console/it.md), eseguendo:
 
 
 </div>
@@ -104,7 +104,7 @@ Vedere [Funzione per disegnare delle linee](Line_drawing_function/it.md).
 
 }}
 
-[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md) [Category:Glossary](Category:Glossary.md)
+_ _ _
 
 ---
-[documentation index](../README.md) > [Command_Reference]] se originale inglese, e nella pagina ](Category:Command_Reference]] se originale inglese, e nella pagina .md) > Command/it
+[documentation index](../README.md) > [Command_Reference]] se originale inglese, e nella pagina ](Category_Command_Reference]] se originale inglese, e nella pagina .md) > Command/it

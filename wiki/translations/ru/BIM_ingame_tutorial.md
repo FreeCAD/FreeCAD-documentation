@@ -2,7 +2,7 @@
 
 
 {{BIMTutorialAction
-|descr=Это внутреннее руководство по [верстаку BIM](BIM_Workbench/ru.md). Он не предназначен для чтения здесь, в вики, а скорее для запуска из FreeCAD, в рабочей среде BIM, в меню '''Справка -> Обучение BIM'''. Он включает в себя ряд шагов, которые должен выполнить пользователь. Каждый шаг завершается экземпляром шаблона [<nowiki>{{BIMTutorialAction|descr|goal1|test1|goal2|test2}}</nowiki>](Template:BIMTutorialAction.md), который информирует появлении необходимых условий. Изображения должны быть 300 пикселей в ширину. На этой странице нельзя использовать изображения SVG, так как они не поддерживаются виджетом QTextBrowser.}}
+|descr=Это внутреннее руководство по _, который информирует появлении необходимых условий. Изображения должны быть 300 пикселей в ширину. На этой странице нельзя использовать изображения SVG, так как они не поддерживаются виджетом QTextBrowser.}}
 
 ### Добро пожаловать в верстак BIM! 
 
@@ -453,7 +453,7 @@ Printable sheets are created and managed with the [TechDraw Workbench](TechDraw_
 
 The [IFC, or Industry Foundation Classes](https://en.wikipedia.org/wiki/Industry_Foundation_Classes), is a protocol and file format aimed at interchanging BIM model between applications. By saving your model as an IFC file, you will be able to open it in most or all other open-source or proprietary BIM applications out there.
 
-IFC import/export operations in FreeCAD are performed by an external piece of software called [IfcOpenShell](http://www.ifcopenshell.org/). Read the [Arch IFC](Arch_IFC.md) page to learn further about how to install it.
+IFC import/export operations in FreeCAD are performed by an external piece of software called _ page to learn further about how to install it.
 
 Once IfcOpenShell is installed, exporting your model as an IFC file is as simple as selecting the objects you wish to export, or just the top container (group or Building Part) that contains all other objects you wish to export, and use menu **File-\>Export** and choose the IFC file format.
 
@@ -517,7 +517,7 @@ FreeCAD is free software, developed by an enthusiast community of users, some of
 
 {{BIMTutorialAction|descr=No action to perform for this step}}
 
-[Category:BIM](Category:BIM.md) [Category:Tutorials](Category:Tutorials.md)
+_ _
 
 ---
-[documentation index](../README.md) > [BIM](Category:BIM.md) > BIM ingame tutorial/ru
+[documentation index](../README.md) > [BIM](Category_BIM.md) > BIM ingame tutorial/ru

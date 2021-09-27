@@ -30,7 +30,7 @@ Die Bewehrungswerkzeuge sind derzeit Teil der [Arch Arbeitsbereichs](Arch_Workbe
 
 
 
-[Category:Documentation](Category:Documentation.md) [Category:User Documentation](Category:User_Documentation.md) [Category:Addons](Category:Addons.md)
+_ _ _
 
 ---
-[documentation index](../README.md) > Civil Engineering Workbench/de
+[documentation index](../README.md) > [Documentation](Category_Documentation.md) > Civil Engineering Workbench/de

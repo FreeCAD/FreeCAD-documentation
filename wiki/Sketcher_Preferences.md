@@ -96,7 +96,7 @@ In the *Display* tab you can specify the following:
 | **Hide base length units for supported unit systems**       |                                                                                                                                                                                                                                                                                                                                                                        |
 |                                                                      |                                                                                                                                                                                                                                                                                                                                                                        |
 +-------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|                                                          | If checked, <img alt="" src=images/Sketcher_ConstrainDiameter.svg  style="width:20px;"> [diameter](Sketcher_ConstrainDiameter.md) will be used as default constraint for arcs and circles instead of <img alt="" src=images/Sketcher_ConstrainRadius.svg  style="width:20px;"> [radius](Sketcher_ConstrainRadius.md).                  |
+|                                                          | If checked, <img alt="" src=images/Sketcher_ConstrainDiameter.svg  style="width:20px;"> _.                  |
 | **Use Diameter as default constraint for arcs and circles** |                                                                                                                                                                                                                                                                                                                                                                        |
 |                                                                      |                                                                                                                                                                                                                                                                                                                                                                        |
 | <small>(v0.20)</small>                                           |                                                                                                                                                                                                                                                                                                                                                                        |
@@ -237,7 +237,7 @@ In the *Colors* tab you can specify the following:
 
  {{Sketcher Tools navi}}  
 
-[Category:Preferences](Category:Preferences.md)
+_
 
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Preferences
+[documentation index](../README.md) > [Preferences](Category_Preferences.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Preferences

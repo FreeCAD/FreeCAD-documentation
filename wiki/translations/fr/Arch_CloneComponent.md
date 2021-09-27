@@ -29,4 +29,4 @@ Le composant clone aura simplement sa propriété {{PropertyData/fr|CloneOf}} d�
 ## Script
 
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CloneComponent/fr
+[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch CloneComponent/fr

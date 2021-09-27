@@ -3,7 +3,7 @@
 |Topic= Produktgestaltung
 |Level= Fortgeschrittene
 |Time= 60 Minuten
-|Author=[DeepSOIC](User:DeepSOIC.md), [Murdic](User:Murdic.md), vocx
+|Author=_, _, vocx
 |FCVersion=0.19
 |Files=[https://forum.freecadweb.org/viewtopic.php?f=36&t=44668 Aktualisiert: Gewinde für Schrauben Tutorium]
 }}

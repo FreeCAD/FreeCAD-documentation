@@ -39,7 +39,7 @@ Der <img alt="" src=images/Draft_Draft2Sketch.svg  style="width:24px;"> **Entwur
 
 ## Skripten
 
-Siehe auch: [Autogenerierte API Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch: _.
 
 Um Objekte in eine Skizze zu konvertieren, verwendedie Methode `make_sketch` ({{Version/de|0.19}}) des Moduls Entwurf. Diese Methode ersetzt die veraltete Methode `makeSketch`.
 

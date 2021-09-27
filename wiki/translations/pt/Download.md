@@ -34,7 +34,7 @@ Previous versions can be downloaded from the [releases](https://github.com/FreeC
 |                                                                                                                                          |   |                                                                                                                                                        |   |                                                                         |
 | Install on Windows                                                                                                                       |   | Install on Mac                                                                                                                                         |   | Install on Linux                                                        |
 |                                                                                                                                          |   |                                                                                                                                                        |   |                                                                         |
-| [64-bit](https://github.com/FreeCAD/FreeCAD/releases/download/0.19.2/FreeCAD-0.19.2.7b5e18a-WIN-x64-installer1.exe) (includes installer) |   | [macOS](https://github.com/FreeCAD/FreeCAD/releases/download/0.19.2/FreeCAD_0.19-24291-macOS-x86_64-conda.dmg) 64-bit |   | [AppImage](AppImage.md) 64-bit |
+| _ 64-bit |
 +------------------------------------------------------------------------------------------------------------------------------------------+---+--------------------------------------------------------------------------------------------------------------------------------------------------------+---+-------------------------------------------------------------------------+
 
 
@@ -71,7 +71,7 @@ More information about FreeCAD\'s environment variables can be found on [the con
 
 ### Versões de desenvolvimento 
 
-Se quiser instalar o FreeCAD com funcionalidades em desenvolvimento, e estiver disposto a aceitar que estas versões têm altas probabilidades de ter bugs ou de bloquear, então pode verificar a [pagina oficial de lançamento dos ficheiros FreeCAD](https://github.com/FreeCAD/FreeCAD/) para fazer a transferência das versões instáveis ou desatualizadas de 64 ou 32 bit. Claro, que se quiser manter-se ainda mais atualizado (no fio da navalha do desnvolvimento), pode [ compilar](compiling.md) o FreeCAD, ou usar as [atualizações diárias do Ubuntu daily build](#Ubuntu_PPA_packages.md) ou instalar um dos ficheiros pré-lançados da página do github acima.
+Se quiser instalar o FreeCAD com funcionalidades em desenvolvimento, e estiver disposto a aceitar que estas versões têm altas probabilidades de ter bugs ou de bloquear, então pode verificar a _ o FreeCAD, ou usar as [atualizações diárias do Ubuntu daily build](#Ubuntu_PPA_packages.md) ou instalar um dos ficheiros pré-lançados da página do github acima.
 
 
 </div>

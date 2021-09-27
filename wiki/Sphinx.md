@@ -32,7 +32,7 @@ Encouraging results from David\_D:
 
 
 
-[Category:Developer\_Documentation](Category:Developer_Documentation.md)
+_
 
 ---
-[documentation index](../README.md) > [Developer_Documentation](Category:Developer_Documentation.md) > Sphinx
+[documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > Sphinx

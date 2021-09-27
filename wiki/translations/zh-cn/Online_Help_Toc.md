@@ -6,7 +6,7 @@
 
 </div>
 
-另外，这里还有一份[FreeCAD手册的目录](Manual:Introduction/zh-cn.md).
+另外，这里还有一份_.
 
 
 <div class="mw-translate-fuzzy">
@@ -163,7 +163,7 @@
 
 
 
-[Category:Documentation/zh-cn](Category:Documentation/zh-cn.md) [Category:Documentation](Category:Documentation.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Documentation](Category:Documentation.md) > Online Help Toc/zh-cn
+[documentation index](../README.md) > [Documentation](Category_Documentation.md) > Online Help Toc/zh-cn

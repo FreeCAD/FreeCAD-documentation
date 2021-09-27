@@ -108,7 +108,7 @@ These parameters are provided for information and have no effect on the design o
 
 ## Scripting
 
-See also: [:Category:API](:Category:API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+See also: _ and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
 TBD
 
@@ -121,7 +121,7 @@ TBD
 
  
 
-[Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+_ _
 
 ---
-[documentation index](../README.md) > [API]] and ](Category:API]] and .md) > Rocket Transition
+[documentation index](../README.md) > [API]] and ](Category_API]] and .md) > Rocket Transition

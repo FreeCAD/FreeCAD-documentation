@@ -16,7 +16,7 @@ import HelicalRebar
 
  
 
-[Category:API](Category:API.md) [Category:Reinforcement](Category:Reinforcement.md) [Category:Poweruser Documentation](Category:Poweruser_Documentation.md)
+_ _ _
 
 ---
-[documentation index](../README.md) > [API](Category:API.md) > Reinforcement API/en
+[documentation index](../README.md) > [API](Category_API.md) > Reinforcement API/en

@@ -71,7 +71,7 @@ is required.
 
 
 
-[Category:External Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)
+_ _
 
 ---
-[documentation index](../README.md) > BOLTSFC Workbench/pl
+[documentation index](../README.md) > [External Workbenches](Category_External Workbenches.md) > BOLTSFC Workbench/pl

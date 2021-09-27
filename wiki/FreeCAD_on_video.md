@@ -231,7 +231,7 @@ Consider: (This content is mostly from the Forum)
 -   **[Free video tutorials - FreeCAD Forum](https://forum.FreeCADweb.org/viewtopic.php?f=36&t=51507)**
 -   **[Tutorials and videos - FreeCAD Forum](https://forum.FreeCADweb.org/viewforum.php?f=36)**
 
-[Category:Sandbox](Category:Sandbox.md) [Category:Tutorials‏‎](Category:Tutorials‏‎.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Sandbox]]](Category:Sandbox]].md) > FreeCAD on video
+[documentation index](../README.md) > [Sandbox]]](Category_Sandbox]].md) > FreeCAD on video

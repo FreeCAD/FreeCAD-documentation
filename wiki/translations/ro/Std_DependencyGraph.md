@@ -166,7 +166,7 @@ Puteți salva / exporta graficul de dependență afișat ca fișier imagine. În
 
 }}  
 
-[Category:3rd Party](Category:3rd_Party.md)
+_
 
 ---
-[documentation index](../README.md) > [3rd Party](Category:3rd Party.md) > Std DependencyGraph/ro
+[documentation index](../README.md) > [3rd Party](Category_3rd Party.md) > Std DependencyGraph/ro

@@ -22,7 +22,7 @@ Le varie Macro possono anche essere usate in combinazione tra di loro, importand
 
 ## BOLTS
 
-Al momento BOLTS offre una raccolta di parti standard principalmente di carattere meccanico, bulloni, dadi, rondelle, etc\..., ma non solo . Sostanzialmente si tratta di una macro che consente di esplorare il catalogo delle parti e di inserirle nel documento di FreeCAD. Vedere anche la pagina: [Macro BOLTS](http://www.freecadweb.org/wiki/index.php?title=Macro_BOLTS/it) negli [Esempi di Macro](Macros_recipes/it.md).
+Al momento BOLTS offre una raccolta di parti standard principalmente di carattere meccanico, bulloni, dadi, rondelle, etc\..., ma non solo . Sostanzialmente si tratta di una macro che consente di esplorare il catalogo delle parti e di inserirle nel documento di FreeCAD. Vedere anche la pagina: _.
 
 Le istruzioni per l\'installazione e l\'uso di BOLTS si trovano sul suo [sito Web](http://www.bolts-library.org) da cui sono ricavate queste informazioni.
 
@@ -126,7 +126,7 @@ Come impostazione predefinita la finestra per selezionare le parti si apre sul l
 
 ## PartsLibrary
 
-In questa libreria si trovano tutte le parti standard definite in FreeCAD, porte, finestre, ecc. Siccome con gli oggetti inseriti tramite questa macro viene anche inserito tutto lo storico della loro creazione essi sono interamente modificabili. Vedere anche la pagina: [Macro PartsLibrary](http://www.freecadweb.org/wiki/index.php?title=Macro_PartsLibrary/it) negli [Esempi di Macro](Macros_recipes/it.md)
+In questa libreria si trovano tutte le parti standard definite in FreeCAD, porte, finestre, ecc. Siccome con gli oggetti inseriti tramite questa macro viene anche inserito tutto lo storico della loro creazione essi sono interamente modificabili. Vedere anche la pagina: _
 
 Esempio di PartsLibrary installata:
 
@@ -211,7 +211,7 @@ La finestra di questa macro è indipendente dalla finestra di FreeCAD e può ess
 
 {{languages/it| }}
 
-[Category:User\_Documentation/it](Category:User_Documentation/it.md) [Category:Command\_Reference/it](Category:Command_Reference/it.md) [Category:Macros/it](Category:Macros/it.md)
+_ _ _
 
 ---
 [documentation index](../README.md) > Standard Parts/it

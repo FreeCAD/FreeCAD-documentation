@@ -17,7 +17,7 @@ Assembly4 kann mit dem [Erweiterungsverwalter](Std_AddonMgr/de.md) installiert w
 
 Assembly4 wurde aus den neuen Werkzeugen entwickelt, die für [Assembly3](Assembly3_Workbench/de.md) erstellt wurden, insbesondere das [App Link](App_Link/de.md) Objekt und die verbesserte [Ausdruckmaschine](expressions/de.md).
 
-Assembly4 wurde angeregt durch <img alt="" src=images/A2p_workbench.svg  style="width:24px;"> [A2plus](A2plus_Workbench/de.md) und <img alt="" src=images/Assembly3_workbench_icon.svg  style="width:24px;"> [Assembly3](Assembly3_Workbench/de.md), aber es ist nicht mit ihnen kompatibel. Wenn du ältere Modelle in diesen beiden Arbeitsbereichen erstellt hast, solltest du nur diese Arbeitsbereiche verwenden, um deine Modelle zu öffnen.
+Assembly4 wurde angeregt durch <img alt="" src=images/A2p_workbench.svg  style="width:24px;"> _, aber es ist nicht mit ihnen kompatibel. Wenn du ältere Modelle in diesen beiden Arbeitsbereichen erstellt hast, solltest du nur diese Arbeitsbereiche verwenden, um deine Modelle zu öffnen.
 
 ## Verweise
 
@@ -36,7 +36,7 @@ Assembly4 wurde angeregt durch <img alt="" src=images/A2p_workbench.svg  style="
 
 
 
-[Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+_ _
 
 ---
-[documentation index](../README.md) > Assembly4 Workbench/de
+[documentation index](../README.md) > [Addons](Category_Addons.md) > Assembly4 Workbench/de

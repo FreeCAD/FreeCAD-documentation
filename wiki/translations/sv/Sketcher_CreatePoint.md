@@ -9,7 +9,7 @@
 
 The Point tool creates a point in the current sketch, which can be used for constructing geometry elements. The point is always an construction element and does not show up in the 3D-view.
 
-[480px\|Point in the sketcher](IMAGE:Sketcher_Point_fr_01.png.md) 
+_ 
 
 ## Usage
 

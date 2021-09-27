@@ -4,7 +4,7 @@
 
 Atelierul OpenSCAD este într-un stadiu timpuriu de dezvoltare. Se intenționează da el să ofere interoperabnilitate cu open source software [OpenSCAD](http://www.openscad.org/).
 
-The <img alt="" src=images/Workbench_OpenSCAD.svg  style="width:24px;"> [OpenSCAD Workbench](OpenSCAD_Workbench.md) is intended to offer interoperability with the open source software [OpenSCAD](http://www.openscad.org/). This program is not distributed as part of FreeCAD, but should be installed to make full use of this workbench. OpenSCAD should not be confused with [OpenCASCADE](OpenCASCADE.md), which is the geometrical kernel that FreeCAD uses to build geometry on screen. The OpenCASCADE libraries are always needed to use FreeCAD, while the OpenSCAD executable is entirely optional.
+The <img alt="" src=images/Workbench_OpenSCAD.svg  style="width:24px;"> _, which is the geometrical kernel that FreeCAD uses to build geometry on screen. The OpenCASCADE libraries are always needed to use FreeCAD, while the OpenSCAD executable is entirely optional.
 
 el conține un importator[importer](OpenSCAD_CSG.md) care permite deschiderea rezultatelor [.csg](OpenSCAD_CSG.md) output din OpenSCAD în FreeCAD.
 
@@ -98,7 +98,7 @@ Dacă FreeCAD se blochează atunci când importați CSG, este recomandat să act
 
 }} 
 
-[Category:Workbenches](Category:Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > OpenSCAD Workbench/ro
+[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > OpenSCAD Workbench/ro

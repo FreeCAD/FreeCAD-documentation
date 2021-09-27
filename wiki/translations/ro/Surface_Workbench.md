@@ -49,7 +49,7 @@ creează o suprafață de la două, trei sau patru margini de graniță. Sunt di
 
 -   <img alt="" src=images/Surface_ExtendFace.svg  style="width:32px;"> [Extend face](Surface_ExtendFace.md): extrapolates the surface at the boundaries with its local U parameter and V parameter.
 
--   <img alt="" src=images/Surface_CurveOnMesh.svg  style="width:32px;"> [Curve on mesh](Surface_CurveOnMesh.md): create approximated spline segments on top of a selected [mesh](Mesh_Workbench.md).
+-   <img alt="" src=images/Surface_CurveOnMesh.svg  style="width:32px;"> _.
 
 
 <div class="mw-translate-fuzzy">
@@ -68,7 +68,7 @@ creează o suprafață de la două, trei sau patru margini de graniță. Sunt di
 
 }} 
 
-[Category:Workbenches](Category:Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > Surface Workbench/ro
+[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Surface Workbench/ro

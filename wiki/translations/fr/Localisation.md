@@ -3,17 +3,11 @@
 
 ## Vue d'ensemble 
 
-La **localisation** en général, est le processus de fourniture d\'un logiciel avec une interface utilisateur en plusieurs langues. Dans FreeCAD vous pouvez définir la langue d\'interface utilisateur dans le menu **Édition → Préférences → Général → Onglet Général → Langue**. FreeCAD utilise [Qt](wikipedia:fr:Qt.md) pour activer le support de plusieurs langues. Sur les systèmes Unix/Linux, FreeCAD utilise les paramètres régionaux actuels de votre système par défaut.
+La **localisation** en général, est le processus de fourniture d\'un logiciel avec une interface utilisateur en plusieurs langues. Dans FreeCAD vous pouvez définir la langue d\'interface utilisateur dans le menu **Édition → Préférences → Général → Onglet Général → Langue**. FreeCAD utilise _ pour activer le support de plusieurs langues. Sur les systèmes Unix/Linux, FreeCAD utilise les paramètres régionaux actuels de votre système par défaut.
 
 ## Aider à la traduction de FreeCAD 
 
-
-<div class="mw-translate-fuzzy">
-
 Une des choses importantes que les utilisateurs peuvent apporter à FreeCAD (s'ils ne possèdent pas de compétences en programmation, par exemple) est d'aider à traduire ses différents aspects (code source, wiki, site Web, documentation, etc.) dans une autre langue. Voici les moyens de le faire.
-
-
-</div>
 
 ## Traduire le code source de FreeCAD 
 
@@ -40,15 +34,15 @@ les détails sur l\'utilisation de crowdin peuvent être trouvés sur la page [A
 
 Visitez [Traduction d\'un atelier externe](Translating_an_external_workbench/fr.md).
 
-## FreeCAD Preferences for Translators 
+## Préférences de FreeCAD pour les traducteurs 
 
-Starting with FreeCAD 0.20, the following variables can be manually added to the BaseApp/Preferences/General section of the user.cfg file to assist with the development of new translations:
+A partir de FreeCAD 0.20, les variables suivantes peuvent être ajoutées manuellement à la section BaseApp/Préférences/Général du fichier user.cfg pour aider au développement de nouvelles traductions :
 
-**AdditionalLanguageDomainEntries** - to add entirely new languages to FreeCAD that are not currently supported by the source code, you can use this user preference to add to the list of available languages. The format of the languages is \"Language Name\"=\"code\"; for example:
+**AdditionalLanguageDomainEntries** - pour ajouter des langues entièrement nouvelles à FreeCAD qui ne sont pas actuellement supportées par le code source, vous pouvez utiliser cette préférence utilisateur pour ajouter à la liste des langues disponibles. Le format des langues est \"Nom de la langue\"=\"code\", par exemple :
 
     <FCText Name="AdditionalLanguageDomainEntries">"Esperanto"="eo";"French"="fr";</FCText>
 
-**AdditionalTranslationsDirectory** - add an additional directory for FreeCAD to search for \*.qm files. This location will take precedence over \$userAppDataDir/translations and \$resourceDir/translations. For example:
+**AdditionalTranslationsDirectory** - ajoute un répertoire supplémentaire pour que FreeCAD recherche les fichiers \*.qm. Cet emplacement aura la priorité sur \$userAppDataDir/translations et \$resourceDir/translations. Par exemple :
 
     <FCText Name="AdditionalTranslationsDirectory">C:/Users/FreeCADUser/TestTranslations</FCText>
 
@@ -62,7 +56,7 @@ Il est recommandé d\'avoir des connaissances de base du formatage de style wiki
 
 ### Extension de traduction Mediawiki 
 
-Après le départ du wiki de SourceForge, [Yorik](User:Yorik.md) a installé un [plugin de traduction MediaWiki](http://www.mediawiki.org/wiki/Help:Extension:Translate/fr) qui facilite les traductions de pages. Les avantages de l\'extension de traduction sont que le titre de la page peut maintenant être traduit, qu\'il garde une trace des traductions, qu\'il informe si la page d\'origine a été mise à jour et qu\'il maintient la synchronisation des traductions avec la page anglaise d\'origine.
+Après le départ du wiki de SourceForge, _ a installé un [plugin de traduction MediaWiki](http://www.mediawiki.org/wiki/Help:Extension:Translate/fr) qui facilite les traductions de pages. Les avantages de l\'extension de traduction sont que le titre de la page peut maintenant être traduit, qu\'il garde une trace des traductions, qu\'il informe si la page d\'origine a été mise à jour et qu\'il maintient la synchronisation des traductions avec la page anglaise d\'origine.
 
 L\'outil est documenté dans [MediaWiki Traduire](http://www.mediawiki.org/wiki/Help:Extension:Translate/fr), et fait partie du [MediaWiki Language Extension Bundle](http://www.mediawiki.org/wiki/MediaWiki_Language_Extension_Bundle).
 
@@ -70,7 +64,7 @@ Pour commencer rapidement la préparation d\'une page pour la traduction et acti
 
     &lt;translate&gt; ... &lt;/translate&gt;
 
-balises doit entourer la page entière pour activer le système de traduction, et la page doit être marquée pour traduction.
+balises doit entourer la page entière pour activer le système de traduction, et la page doit être marquée pour traduction.
 
 Pour voir un exemple de comment l\'outil de traduction fonctionne, vous pouvez visiter la [Page principale](Main_Page/fr.md). Vous verrez qu\'une barre de menu de langues est automatiquement générée en haut de page. Cliquez par exemple sur le lien *français* et vous serez redirigé sur [Main\_Page/fr](Main_Page/fr.md). Juste sous le titre, vous pourrez lire  (XX étant le pourcentage de traduction réalisé). Cliquez sur le lien \"Traduire\" pour lancer l\'utilitaire de traduction pour mettre à jour, corriger ou revoir une traduction existante.
 
@@ -108,9 +102,9 @@ Conformément au consensus général, la page de référence dans le wiki est la
 | Si vous avez des doutes, dirigez-vous vers les forums et demandez aux gens de vérifier ce que vous avez fait et vous dire si c\'est bien fait ou non.                                                                                                                                                                                                                                                                                                                                                |
 | Quatre modèles sont couramment utilisés dans les pages de manuel. Ces 4 modèles ont des versions localisées (Modèle: Docnav/fr, Modèle: fr, etc \...)                                                                                                                                                                                                                                                                                                                                                |
 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| -   [Template:GuiCommand/fr](Template:GuiCommand/fr.md) : est le bloc d\'informations de la commande Gui en haut à droite de la documentation de la commande.                                                                                                                                                                                                                                                                                                                                |
-| -   [Template:Docnav/fr](Template:Docnav/fr.md) : c\'est la barre de navigation au bas des pages, montrant les pages précédentes et suivantes.                                                                                                                                                                                                                                                                                                                                               |
-| -   [Template:Userdocnavi/fr](Template:Userdocnavi/fr.md) : donne des liens directs vers les pages de base principales.                                                                                                                                                                                                                                                                                                                                                                      |
+| -   _ : est le bloc d\'informations de la commande Gui en haut à droite de la documentation de la commande.                                                                                                                                                                                                                                                                                                                                |
+| -   _ : c\'est la barre de navigation au bas des pages, montrant les pages précédentes et suivantes.                                                                                                                                                                                                                                                                                                                                               |
+| -   _ : donne des liens directs vers les pages de base principales.                                                                                                                                                                                                                                                                                                                                                                      |
 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | **Page Naming Convention**                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | Veuillez noter que, en raison des limitations de l\'implémentation du moteur MediaWiki par Sourceforge, nous exigeons que vos pages conservent toutes le nom de leur homologue anglais d\'origine, en ajoutant une barre oblique et votre code de langue. Par exemple, la page traduite pour À propos de FreeCAD devrait être About FreeCAD/es pour l'espagnol, About FreeCAD/pl pour le polonais, etc. saura à quoi servent ces pages. Cela facilitera la maintenance et évitera les pages perdues. |
@@ -175,56 +169,56 @@ Actuellement, les mainteneurs de FreeCAD utilisent l'API Crowdin via [Crowdin Sc
 -   [Administration de Crowdin](Crowdin_Administration/fr.md)
 -   [Scripts pour Crowdin](Crowdin_Scripts/fr.md)
 
-## Scripting
+## Script
 
 
-**See also:**
+**Voir aussi :**
 
-[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+[FreeCAD Script de base](FreeCAD_Scripting_Basics/fr.md).
 
-To get a dictionary with the languages the FreeCAD interface supports, use the `supportedLocales` method of the `FreeCADGui` module.
+Pour obtenir un dictionnaire des langues prises en charge par l\'interface FreeCAD, utilisez la méthode `supportedLocales` du module `FreeCADGui`.
 
 
 ```python
 locales = FreeCADGui.supportedLocales()
 ```
 
-After execution `locales` will contain:
+Après l\'exécution, `locales` contiendra :
 
 
 ```python
 {'English': 'en', 'Afrikaans': 'af', 'Arabic': 'ar', 'Basque': 'eu', 'Catalan': 'ca', 'Chinese Simplified': 'zh-CN', 'Chinese Traditional': 'zh-TW', 'Croatian': 'hr', 'Czech': 'cs', 'Dutch': 'nl', 'Filipino': 'fil', 'Finnish': 'fi', 'French': 'fr', 'Galician': 'gl', 'German': 'de', 'Hungarian': 'hu', 'Indonesian': 'id', 'Italian': 'it', 'Japanese': 'ja', 'Kabyle': 'kab', 'Korean': 'ko', 'Lithuanian': 'lt', 'Norwegian': 'no', 'Polish': 'pl', 'Portuguese': 'pt-PT', 'Portuguese, Brazilian': 'pt-BR', 'Romanian': 'ro', 'Russian': 'ru', 'Slovak': 'sk', 'Slovenian': 'sl', 'Spanish': 'es-ES', 'Swedish': 'sv-SE', 'Turkish': 'tr', 'Ukrainian': 'uk', 'Valencian': 'val-ES', 'Vietnamese': 'vi'}
 ```
 
-To get the current interface language use the `getLocale` method of the same module:
+Pour obtenir la langue de l\'interface en cours, utilisez la méthode `getLocale` du même module :
 
 
 ```python
 locale = FreeCADGui.getLocale()
 ```
 
-If the current language is English `locale` will contain:
+Si la langue utilisée est l\'anglais, `locale` contiendra :
 
 
 ```python
 'English'
 ```
 
-To get the corresponding [language code](https://support.crowdin.com/api/language-codes/) you can use use:
+Pour obtenir le [code de la langue](https://support.crowdin.com/api/language-codes/) correspondant, vous pouvez utiliser :
 
 
 ```python
 locale = FreeCADGui.supportedLocales()[Gui.getLocale()]
 ```
 
-If the current language is English the result will be:
+Si la langue utilisée est l\'anglais, le résultat sera le suivant :
 
 
 ```python
 'en'
 ```
 
-To set the current interface language use the `setLocale` method of the same module. You can specify the language or the language code:
+Pour définir la langue de l\'interface utilisée, utilisez la méthode `setLocale` du même module. Vous pouvez spécifier la langue ou le code de la langue :
 
 
 ```python
@@ -238,7 +232,7 @@ FreeCADGui.setLocale('ru')
 
 
 
-[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Wiki](Category:Wiki.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Localisation/fr
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Localisation/fr

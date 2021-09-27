@@ -76,7 +76,7 @@ See the bug tracker for up to date information.
 
  {{TechDraw Tools navi}}  
 
-[Category:User Documentation](Category:User_Documentation.md) [Category:TechDraw](Category:TechDraw.md)
+_ _
 
 ---
-[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Roadmap
+[documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Roadmap

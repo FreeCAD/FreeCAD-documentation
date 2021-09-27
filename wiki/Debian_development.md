@@ -5,7 +5,7 @@ Debian is the parent distribution from which many other Linux distributions are 
 
  
 
-[Category:Packaging](Category:Packaging.md) [Category:Developer Documentation](Category:Developer_Documentation.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Packaging](Category:Packaging.md) > Debian development
+[documentation index](../README.md) > [Packaging](Category_Packaging.md) > Debian development

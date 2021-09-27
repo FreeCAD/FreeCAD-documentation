@@ -11,7 +11,7 @@ Zum Beispiel sind eine Schraube, eine Beilagscheibe und eine Mutter drei separat
 <img alt="" src=images/PartDesign_Body_contiguous_separate.png  style="width:" height="200px;"> <img alt="" src=images/PartDesign_Body_contiguous_assembly.png  style="width:" height="200px;">
 
 
-*Links: drei einzelne beieinander liegende Teile, die mit [PartDesign Körper](PartDesign_Body.md) erstellt wurden. Rechts: die einzelnen Teile zu einer Einheit in [Std Part](Std_Part.md) zusammengestellt.*
+*Links: drei einzelne beieinander liegende Teile, die mit _ zusammengestellt.*
 
 ## Anwendung
 
@@ -31,7 +31,7 @@ Im Allgemeinen wurde das**<img src=images/Std_Part.svg style="width:16px"> [Std 
 
 ### Beschränkter Zusammenbau 
 
-Du kannst auch einen anderen zugeordneten Baugruppenarbeitsbereich verwenden, wie <img alt="" src=images/A2p_workbench.svg  style="width:24px;"> [A2plus](A2plus_Workbench/de.md), <img alt="" src=images/Assembly3_workbench_icon.svg  style="width:24px;"> [Assembly3](Assembly3_Workbench/de.md) oder <img alt="" src=images/Assembly4_workbench_icon.svg  style="width:24px;"> [Assembly4](Assembly4_Workbench/de.md). Bitte beachte, dass [Assembly2](Assembly2_Workbench/de.md) nicht gepflegt wird und daher für neue Modelle nicht zu empfehlen ist.
+Du kannst auch einen anderen zugeordneten Baugruppenarbeitsbereich verwenden, wie <img alt="" src=images/A2p_workbench.svg  style="width:24px;"> _ oder <img alt="" src=images/Assembly4_workbench_icon.svg  style="width:24px;"> [Assembly4](Assembly4_Workbench/de.md). Bitte beachte, dass [Assembly2](Assembly2_Workbench/de.md) nicht gepflegt wird und daher für neue Modelle nicht zu empfehlen ist.
 
 Die Zusammenbau Arbeitsbereiche verwenden Beschränkungen und Ausdrücke, um Beziehungen zwischen den Objekten in deinem Modell zu erstellen, um die Objekte mathematisch an ihren Platz zu binden, z. B. \"diese Fläche sollte an dieser anderen Fläche haften\", \"dieser Zylinder sollte konzentrisch zu diesem Kreis sein\", \"dieser Punkt sollte dieser Kante folgen\", usw.
 
@@ -50,7 +50,7 @@ Die Entwicklung der Zusammenbau Arbeitsbereiche geht weiter, und es wird erwarte
 
 }} {{Document objects navi}} 
 
-[Category:Glossary](Category:Glossary.md)
+_
 
 ---
-[documentation index](../README.md) > [Glossary](Category:Glossary.md) > Assembly/de
+[documentation index](../README.md) > [Glossary](Category_Glossary.md) > Assembly/de

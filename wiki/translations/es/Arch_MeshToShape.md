@@ -21,7 +21,7 @@ Esta herramienta convierte un objeto [Malla](Mesh_Workbench/es.md) seleccionado 
 
 </div>
 
-This tool is optimized for objects with flat faces (no curves). The corresponding tool **<img src=images/Part_ShapeFromMesh.svg style="width:16px"> [Part ShapeFromMesh](Part_ShapeFromMesh.md)** from the <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> [Part Workbench](Part_Workbench.md) might be more suited for objects that contain curved surfaces.
+This tool is optimized for objects with flat faces (no curves). The corresponding tool **<img src=images/Part_ShapeFromMesh.svg style="width:16px"> _ might be more suited for objects that contain curved surfaces.
 
 ## Utilización
 
@@ -97,4 +97,4 @@ new_obj = Arch.meshToShape(Box)
 </div>
 
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch MeshToShape/es
+[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch MeshToShape/es

@@ -35,7 +35,7 @@ Il y a une macro disponible qui importera le profil avec une longueur de corde d
 
 
 
-[Category:User Documentation](Category:User_Documentation.md)
+_
 
 ---
-[documentation index](../README.md) > [User Documentation](Category:User Documentation.md) > Common Airfoil Data Import/fr
+[documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > Common Airfoil Data Import/fr

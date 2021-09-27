@@ -3,7 +3,7 @@
 
 ## Kontinuierliche Integration 
 
-Aktuell stößt das FreeCAD-Repository auf GitHub einen Build auf den beiden unten genannten [CI](https://de.wikipedia.org/wiki/Kontinuierliche_Integration)-Systemen an. Durch diese sind plattformübergreifend praktisch alle wichtigen Betriebssysteme (Linux, MacOSX und Windows) abgedeckt. CIs können auch für [Erprobung](Testing/de.md) verwendet werden.
+Aktuell stößt das FreeCAD-Repository auf GitHub einen Build auf den beiden unten genannten _ verwendet werden.
 
 ### TravisCI
 
@@ -27,7 +27,7 @@ Aktuell stößt das FreeCAD-Repository auf GitHub einen Build auf den beiden unt
 
  
 
-[Category:Developer\_Documentation](Category:Developer_Documentation.md) [Category:Testing](Category:Testing.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Developer_Documentation](Category:Developer_Documentation.md) > Continuous Integration/de
+[documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > Continuous Integration/de

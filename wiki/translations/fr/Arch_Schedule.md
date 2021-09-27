@@ -18,7 +18,7 @@ L\'outil Planificateur vous permet de créer et de remplir automatiquement une [
 
 : Cet outil a été complètement réécrit dans la version 0.17 de FreeCAD et est différent des versions précédentes.
 
-Pour une solution plus générale, consultez le [Reporting Workbench](https://github.com/furti/FreeCAD-Reporting/tree/master) dans la liste des [ateliers externes](External_workbenches/fr.md). Cet atelier utilise la syntaxe SQL pour extraire des informations du document.
+Pour une solution plus générale, consultez le _. Cet atelier utilise la syntaxe SQL pour extraire des informations du document.
 
 ## Utilisation
 
@@ -100,4 +100,4 @@ A partir du plan de travail Spreadsheet, la feuille de calcul peut ensuite être
 Il est possible d\'ajouter vos propres propriétés aux objets. Celles-ci sont appelées [propriétés dynamiques](Property_editor/fr#Actions.md). Si elles ont été ajoutées avec l\'option **Prefix group name** sélectionnée, leurs noms commenceront effectivement par le nom du groupe, mais ce préfixe ne sera pas affiché dans l\'[Éditeur de propriétés](Property_editor/fr.md). Leurs noms ont la forme suivante: `NameOfGroup_NameOfProperty`. Pour les référencer dans un calendrier, ce nom complet doit être utilisé.
 
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Schedule/fr
+[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch Schedule/fr

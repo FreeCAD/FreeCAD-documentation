@@ -229,7 +229,7 @@ Niektóre atrybuty i metody mają zastosowanie tylko do określonych Kształtów
 
  
 
-[Category:API](Category:API.md) [Category:Poweruser Documentation](Category:Poweruser_Documentation.md)
+_ _
 
 ---
-[documentation index](../README.md) > [API](Category:API.md) > TopoShape API/pl
+[documentation index](../README.md) > [API](Category_API.md) > TopoShape API/pl

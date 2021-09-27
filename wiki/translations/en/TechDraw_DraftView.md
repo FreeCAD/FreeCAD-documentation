@@ -10,7 +10,7 @@
 
 ## Description
 
-The <img alt="" src=images/TechDraw_DraftView.svg  style="width:24px;"> [DraftView](TechDraw_DraftView.md) tool inserts a view of a selected [Part](Part_Workbench.md)-based or Group object into a drawing page. Unlike the standard <img alt="" src=images/TechDraw_View.svg  style="width:24px;"> [View](TechDraw_View.md) tool, views created with this tool are handled by the <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft Workbench](Draft_Workbench.md), and specially designed for showing 2D objects. See Notes.
+The <img alt="" src=images/TechDraw_DraftView.svg  style="width:24px;"> _ tool, views created with this tool are handled by the <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft Workbench](Draft_Workbench.md), and specially designed for showing 2D objects. See Notes.
 
 ![](images/TechDraw_DraftView_example.png ) *Draft elements like circles and arrays imported into a TechDraw drawing page*
 

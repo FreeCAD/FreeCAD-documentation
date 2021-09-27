@@ -3,7 +3,7 @@
 
 <img alt="" src=images/Tree_Part2D.svg  style="width:32px;">
 
-Ein [Part Teil2DObjekt](Part_Part2DObject/de.md), oder formal ein `Part::Part2DObject`, ist ein einfaches Element mit einer [topologische Form](Part_TopoShape/de.md), das in der [3D Ansicht](3D_view/de.md) angezeigt werden kann.
+Ein _, das in der [3D Ansicht](3D_view/de.md) angezeigt werden kann.
 
 Das `Part::Part2DObject` ist von einem [Part Formelement](Part_Feature/de.md) abgeleitet, ist aber auf 2D Geometrie spezialisiert, da seine Form auf einer Ebene liegen wird. Diese Ebene wird durch die {{PropertyData/de|Platzierung}} Eigenschaft definiert (Position, Normale und Rotation). Die Ebene kann aber auch durch unterstützende geometrische Elemente definiert werden, wie z.B. die Ebene, die durch drei beliebige Knoten erzeugt wird, oder eine Fläche eines Volumenkörpers.
 
@@ -24,7 +24,7 @@ Arbeitsbereiche können diesem Grundelement weitere Eigenschaften hinzufügen, u
 
 Siehe [Eigenschaft](Property/de.md) für alle Eigenschaftstypen, die geskriptete Objekte haben können.
 
-Ein [Part Teil2DObjekt](Part_Part2DObject/de.md) (`PartDesign::Body` Klasse) wird von einem [Part Formelement](Part_Feature/de.md) (`Part::Feature` Klasse) abgeleitet, daher teilt sie alle Eigenschaften der letzteren.
+Ein _ (`Part::Feature` Klasse) abgeleitet, daher teilt sie alle Eigenschaften der letzteren.
 
 Zusätzlich zu den in [Part Formelement](Part_Feature/de.md) beschriebenen Eigenschaften hat das Part Teil2DObjekt im [Eigenschaftseditor](property_editor/de.md) die folgenden Eigenschaften. Ausgeblendete Eigenschaften können unter Verwendung des {{MenuCommand/de|Alles anzeigen}} Befehl im Kontextmenü des [Eigenschaftseditor](property_editor/de.md) angezeigt werden.
 

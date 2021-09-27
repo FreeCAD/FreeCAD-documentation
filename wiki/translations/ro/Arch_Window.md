@@ -318,7 +318,7 @@ Door = Arch.makeWindowPreset("Simple door",
 
 
 
-[Category:Arch/ro](Category:Arch/ro.md)
+_
 
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Window/ro
+[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch Window/ro

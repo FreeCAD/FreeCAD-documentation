@@ -23,13 +23,7 @@ Définit une contrainte de liaison qui relie les deux surfaces sélectionnées d
 3.  En option, définissez Tolerance - la contrainte de lien sera appliquée uniquement aux noeuds séparés de la surface opposée par une distance qui ne sera pas supérieure à celle spécifiée ici.
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{FEM Tools navi

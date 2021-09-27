@@ -13,7 +13,7 @@
 
 L\'outil <img alt="" src=images/TechDraw_ProjectionGroup.svg  style="width:24px;"> [Groupe de projection](TechDraw_ProjectionGroup/fr.md) crée une [projection multi-vue](https://en.wikipedia.org/wiki/Multiview_projection) d\'un ou plusieurs objets 3D. Les vues isométriques des 4 coins de devant peuvent également être incluses.
 
-Si vous ne voulez produire qu\'une seule vue, l\'utilisation de Projection de groupe ne présente aucun avantage. Vous devez alors utiliser [Insérer une vue dans la page](TechDraw_View/fr.md) à la place. Si vous ne souhaitez pas utiliser les traditionnelles [projection premier-angle](https://en.wikipedia.org/wiki/Multiview_orthographic_projection#First-angle_projection) / [projection troisième-angle](https://en.wikipedia.org/wiki/Multiview_orthographic_projection#Third-angle_projection), vous devez utiliser plusieurs *Vues* ([Insérer une vue dans la page](TechDraw_View/fr.md)) au lieu de *Groupe de projection*.
+Si vous ne voulez produire qu\'une seule vue, l\'utilisation de Projection de groupe ne présente aucun avantage. Vous devez alors utiliser _) au lieu de *Groupe de projection*.
 
 <img alt="" src=images/TechDraw_ProjGroup_example.png  style="width:400px;"> 
 *Trois vues orthogonales et une vue isométrique d'un objet solide*

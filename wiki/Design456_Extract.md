@@ -15,7 +15,7 @@ The <img alt="" src=images/Extract.svg  style="width:24px;"> **Extract face** lo
 
 ## Usage
 
-1.  Switch to the <img alt="" src=images/Design456_workbench_icon.svg  style="width:24px;"> [Design456](Design456_Workbench.md) workbench (install from <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Addon_Manager.md) is necessary, if not previously installed)
+1.  Switch to the <img alt="" src=images/Design456_workbench_icon.svg  style="width:24px;"> _ is necessary, if not previously installed)
 2.  Select a face of an object, run the <img alt="" src=images/Extract.svg  style="width:24px;"> Extract command. A copy of the face will be created. Might be difficult to see it but it is there.
 
 This might be helpful to create a 2D drawing of a complex shape that you later manipulate to get another 3D shape after extrusion.
@@ -39,7 +39,7 @@ Works on 3D objects.
 
 }} 
 
-[Category:External Command Reference](Category:External_Command_Reference.md)
+_
 
 ---
-[documentation index](../README.md) > [External Command Reference](Category:External Command Reference.md) > Design456 Extract
+[documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > Design456 Extract

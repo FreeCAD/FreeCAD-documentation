@@ -7,7 +7,7 @@ If you are not involved with the development discussed here:<br>
 
  
 
-This template is the guideline for a FreeCAD development project. It follows the rules of the [Getting Things Done (GTD)](http://en.wikipedia.org/wiki/Getting_Things_Done#Methodology) process. The projects are collected in the [Development roadmap](Development_roadmap.md).
+This template is the guideline for a FreeCAD development project. It follows the rules of the _.
 
 ## Purpose and principles 
 
@@ -69,7 +69,7 @@ As of June 13th, 2016, here is a summary of the work that has been done for this
 
 ### Information about TNaming 
 
-See [here](https://github.com/ezzieyguywuf/freecadTopoTesting/blob/master/TNaming_Writeup.md) for a decent write-up on the github repo [freecadTopoTesting](https://github.com/ezzieyguywuf/freecadTopoTesting) by ezzieyguywuf. Here are some highlights:
+See _ for a decent write-up on the github repo [freecadTopoTesting](https://github.com/ezzieyguywuf/freecadTopoTesting) by ezzieyguywuf. Here are some highlights:
 
 -   opencascade\'s TNaming relies upon the [TDF\_Data data framework](https://dev.opencascade.org/doc/occt-7.5.0/refman/html/class_t_d_f___reference.html#details).
 -   TDF\_Data is a key component of the opencascade OCAF thing, but can be used independent of it
@@ -103,7 +103,7 @@ See [here](https://github.com/ezzieyguywuf/freecadTopoTesting/blob/master/TNamin
 
  
 
-[Category:Roadmap](Category:Roadmap.md)
+_
 
 ---
-[documentation index](../README.md) > [Roadmap](Category:Roadmap.md) > Naming project
+[documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > Naming project

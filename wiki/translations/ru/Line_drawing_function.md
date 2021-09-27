@@ -449,7 +449,7 @@ FreeCADGui.addCommand('line', line())
 
 Don\'t hesitate to ask questions or share ideas on the [forum](https://forum.freecadweb.org/)! {{Top}} {{Powerdocnavi}} 
 
-[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Line drawing function/ru
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Line drawing function/ru

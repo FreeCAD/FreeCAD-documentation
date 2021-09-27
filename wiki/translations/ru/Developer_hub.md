@@ -11,7 +11,7 @@
 
 ### Компиляция FreeCAD 
 
--   [Github репозиторий](https://github.com/FreeCAD/FreeCAD). Если вы новичок, в git изучите [управление исходным кодом](Source_code_management/ru.md)
+-   _
 -   [Компиляция с Docker](Compile_on_Docker/ru.md)
 -   [Компиляция в Windows](Compile_on_Windows/ru.md)
 -   [Компиляция в Linux](Compile_on_Linux/ru.md)
@@ -135,7 +135,7 @@ FreeCAD, though usable in certain areas, is at the beginning of a long way into 
 
 
 
-[Category:Hubs](Category:Hubs.md) [Category:Developer Documentation](Category:Developer_Documentation.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Hubs](Category:Hubs.md) > Developer hub/ru
+[documentation index](../README.md) > [Hubs](Category_Hubs.md) > Developer hub/ru

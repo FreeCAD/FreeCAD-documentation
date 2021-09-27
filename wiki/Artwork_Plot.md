@@ -11,7 +11,7 @@ For all icons in the source tree, see [Artwork](Artwork.md).
 
  
 
-[Category:Plot](Category:Plot.md)
+_
 
 ---
-[documentation index](../README.md) > [Plot](Category:Plot.md) > Artwork Plot
+[documentation index](../README.md) > [Plot](Category_Plot.md) > Artwork Plot

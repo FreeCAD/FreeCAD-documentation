@@ -40,7 +40,7 @@ A pesar de que Coin3D se ha movido ahora a un plataforma de desarrollo más abie
 
 
 
-[Category:Roadmap](Category:Roadmap.md)
+_
 
 ---
-[documentation index](../README.md) > [Roadmap](Category:Roadmap.md) > UTF Project/es
+[documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > UTF Project/es

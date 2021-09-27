@@ -19,7 +19,7 @@ Ce didacticiel décrit une méthode pour créer du texte 3D et l\'utiliser avec 
 -   le positionner dans l\'espace 3D en utilisant le <img src=images/Draft_Move.svg style="width:placement](placement.md) et **[16px"> [Draft Move](Draft_Move/fr.md)** (on utilise une esquisse comme géométrie auxiliaire) et
 -   gravez le texte en appliquant une **<img src=images/Part_Cut.svg style="width:16px"> [coupe Part](Part_Cut/fr.md)**.
 
-Pour utiliser ShapeStrings à l\'intérieur de l\'[atelier PartDesign](PartDesign_Workbench/fr.md) <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;">, le procédé est essentiellement le même qu\'avec l\'atelier Part, mais le ShapeString est placé à l\'intérieur du [corps PartDesign](PartDesign_Body/fr.md) pour l\'extruder. allez à la fin de ce didacticiel pour plus d\'informations.
+Pour utiliser ShapeStrings à l\'intérieur de l\'_ pour l\'extruder. allez à la fin de ce didacticiel pour plus d\'informations.
 
 ![](images/08_T04_Part_ShapesString_Extrude_final_cut.png ) *Maquette finale du texte gravé.*
 
@@ -133,7 +133,7 @@ Nous allons maintenant dessiner une simple esquisse qui sera utilisée comme gé
 12\. Basculez à nouveau vers l\'[Atelier Draft](Draft_Workbench/fr.md).
 
 :   12.1. Passez au style de dessin \"Filaire\" avec **Affichage → <img src=images/DrawStyleWireFrame.svg style="width:Style de représentation](Std_DrawStyle/fr.md) → [16px"> Filaire** ou appuyez sur **<img src=images/DrawStyleWireFrame.svg style="width:16px"> [Filaire](Std_DrawStyle/fr.md)** dans la barre d\'outils de la vue. Cela vous permettra de voir les objets derrière d\'autres objets.
-:   12.2. Assurez-vous que la méthode <img src=images/Draft_Snap_Lock.svg style="width:Draft Accrochage](Draft_Snap/fr.md) \"Snap to endpoint\" est active. Cela peut être fait à partir du menu **Draft → Accrochage → [16px"> <img src=images/Snap_Endpoint.svg style="width:Activer/désactiver l'accrochage](Draft_Snap_Lock/fr.md)** puis ** → [16px"> <img src=images/Draft_Snap_Lock.svg style="width:Terminaison](Draft_Snap_Endpoint/fr.md)** ou en appuyant sur **[16px"> <img src=images/Draft_Snap_Endpoint.svg style="width:Activer/désactiver l'accrochage](Draft_Snap_Lock/fr.md)** et **[16px"> [Terminaison](Draft_Snap_Endpoint/fr.md)** dans la barre d\'outils Snap.
+:   12.2. Assurez-vous que la méthode <img src=images/Draft_Snap_Lock.svg style="width:Draft Accrochage](Draft_Snap/fr.md) \"Snap to endpoint\" est active. Cela peut être fait à partir du menu **Draft → Accrochage → _** ou en appuyant sur **[16px"> <img src=images/Draft_Snap_Endpoint.svg style="width:Activer/désactiver l'accrochage](Draft_Snap_Lock/fr.md)** et **[16px"> [Terminaison](Draft_Snap_Endpoint/fr.md)** dans la barre d\'outils Snap.
 
 13\. Dans la [Vue en arborescence](Tree_view/fr.md), sélectionnez `Extrude`.
 

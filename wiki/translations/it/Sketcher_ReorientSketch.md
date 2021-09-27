@@ -31,12 +31,12 @@ Questo strumento permette di svincolare uno schizzo dal piano che lo contiene e 
 
 La finestra di dialogo che permette di impostare il nuovo {{KEY/it|<img src="images/Draft_SelectPlane.png" width=16px> [piano](Draft_SelectPlane/it.md)}} dello schizzo. Il piano può essere uno dei piani standard o un piano parallelo a uno di questi.
 
-La finestra per definire il piano: [left\|Finestra di selezione del piano](IMAGE:Sketcher_New_it.png.md)
+La finestra per definire il piano: _
 Orientamento dello schizzo
 
--   Piano XY [24px](IMAGE:View-top.svg.md)
--   Piano XZ [24px](IMAGE:View-front.svg.md)
--   Piano YZ [24px](IMAGE:View-right.svg.md)
+-   Piano XY _
+-   Piano XZ _
+-   Piano YZ _
 
 \* **Direzione inversa** del piano, ad esempio vista dall\'alto oppure vista dal basso.
 

@@ -34,7 +34,7 @@ Abk. GUI von englisch graphical user interface Diese Trennung spiegelt sich übe
 -   Das [Hauptanwenderzentrum](Power_users_hub/de.md) enthält eine Menge Dokumentation über Module, OpenCascade und Coin3D, hauptsächlich für den Python Programmierer. Da die Funktionalität jedoch ähnlich ist, sind diese Seiten auch für den C++ Programmierer von Interesse.
 -   [FCStd](File_Format_FCStd.md) - Das FreeCAD-Dateiformat
 
-[Category:Developer Documentation](Category:Developer_Documentation.md)
+_
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > The FreeCAD source code/de
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > The FreeCAD source code/de

@@ -597,7 +597,7 @@ $ python setup.py install --prefix=/Applications/FreeCAD\ 0.16.6706.app/Contents
 -   licencia: LGPL
 -   opcional, necesario para ampliar las capacidades de importación de los archivos IFC
 
-IFCOpenShell is a library currently in development, that allows to import (and soon export) [Industry foundation Classes (\*.IFC)](http://en.wikipedia.org/wiki/Industry_Foundation_Classes) files. IFC is an extension to the STEP format, and is becoming the standard in [BIM](http://en.wikipedia.org/wiki/Building_information_modeling) workflows. When ifcopenshell is correctly installed on your system, the FreeCAD [Arch Workbench](Arch_Workbench.md) will detect it and use it to import IFC files, instead of its built-in rudimentary importer. Since ifcopenshell is based on OpenCasCade, like FreeCAD, the quality of the import is very high, producing high-quality solid geometry.
+IFCOpenShell is a library currently in development, that allows to import (and soon export) _ will detect it and use it to import IFC files, instead of its built-in rudimentary importer. Since ifcopenshell is based on OpenCasCade, like FreeCAD, the quality of the import is very high, producing high-quality solid geometry.
 
 ### Instalación 
 
@@ -738,7 +738,7 @@ utils = LazyLoader('PathScripts', globals(), 'PathScripts.PathUtils')
 
  
 
-[Category:Python Code](Category:Python_Code.md) [Category:Developer Documentation](Category:Developer_Documentation.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Python Code](Category:Python Code.md) > Extra python modules/es
+[documentation index](../README.md) > [Python Code](Category_Python Code.md) > Extra python modules/es

@@ -46,7 +46,7 @@ If you want something to appear in FreeCAD that is not implemented yet, it is no
 In case you have programmed a bug fix, an extension or something else that can be of public use in FreeCAD, submit your patch as a \"Pull Request\" at [GitHub](https://github.com/FreeCAD/FreeCAD).
 
 1.  For a large, complex, or behavior-changing submission, open a forum thread in the [Developer subforum](https://forum.freecadweb.org/viewforum.php?f=10) to announce and discuss your patch. For small bugfixes this is not necessary.
-2.  Submit your Pull Request (PR) to the [FreeCAD GitHub repo](http://github.com/FreeCAD/FreeCAD). The PR submission message will be pre-filled with a checklist for you to follow to ensure that your submission has the best chance at speedy acceptance. If you haven\'t worked with `git` before or are unfamiliar with submitting a PR to github, please read our introduction to [github](Source_code_management.md) wiki page.
+2.  Submit your Pull Request (PR) to the _ wiki page.
 3.  Be present for the discussion, both in the forum and in the GitHub pull request, so that your code can potentially be merged more effectively.
 
 ## Requesting merge 
@@ -173,7 +173,7 @@ For the inquisitive here is the regex MantisBT uses for this operation:
 
  
 
-[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Administration](Category:Administration.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Tracker
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Tracker

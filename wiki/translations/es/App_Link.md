@@ -5,7 +5,7 @@
 
 <img alt="" src=images/Link.svg  style="width:32px;">
 
-Un [Enlace de aplicación](App_Link/es.md), o formalmente un `App::Link`, es un tipo de objeto que hace referencia o enlace a otro objeto, en el mismo documento, o en otro documento. Está especialmente diseñado para duplicar eficientemente un único objeto varias veces, lo que ayuda a la creación de [ensamblajes](assembly/es.md) complejos a partir de subensamblajes más pequeños, y de múltiples componentes reutilizables como tornillos, tuercas y elementos de fijación similares.
+Un _ complejos a partir de subensamblajes más pequeños, y de múltiples componentes reutilizables como tornillos, tuercas y elementos de fijación similares.
 
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
 
@@ -21,7 +21,7 @@ See the [Std LinkMake](Std_LinkMake.md) page for the complete information, inclu
 
 ## Propiedades
 
-An [App Link](App_Link.md) (`App::Link` class) is derived from the basic [App DocumentObject](App_DocumentObject.md) (`App::DocumentObject` class), therefore it shares most of the latter\'s properties.
+An _ (`App::DocumentObject` class), therefore it shares most of the latter\'s properties.
 
 See the full list of properties in the [Std LinkMake](Std_LinkMake.md) page.
 

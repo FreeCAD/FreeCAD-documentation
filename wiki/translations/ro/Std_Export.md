@@ -60,7 +60,7 @@ Aceasta este comanda standard pentru a exporta obiecte din interiorul unui docum
 
 }}  
 
-[Category:File\_Formats](Category:File_Formats.md)
+_
 
 ---
-[documentation index](../README.md) > [File_Formats](Category:File_Formats.md) > Std Export/ro
+[documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Std Export/ro

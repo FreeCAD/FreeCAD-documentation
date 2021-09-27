@@ -133,7 +133,7 @@ Nun zeichnen wir eine einfache Skizze, die als Hilfsgeometrie zur Positionierung
 12\. Wechsle wieder in die [Entwurf Arbeitsbereich](Draft_Workbench/de.md).
 
 :   12.1. Wechsle zum *Drahtgitter* Zeichenstil mit **Ansicht → <img src=images/DrawStyleWireFrame.svg style="width:Zeichen Stil](Std_DrawStyle/de.md) → [16px"> Drahtgitter**, oder drücke **<img src=images/DrawStyleWireFrame.svg style="width:16px"> [Drahtgitter](Std_DrawStyle/de.md)** Schaltfläche in der Ansichtswerkzeugleiste. Damit kannst du die Objekte hinter anderen Objekten sehen.
-:   12.2. Stelle sicher, dass die Schaltfläche <img src=images/Draft_ToggleSnap.svg style="width:Entwurf Fang](Draft_Snap/de.md) die Methode \"Am Endpunkt fangen\" aktiv ist . Dies kann über das Menü **Entwurf→ Fang → [16px"> <img src=images/Snap_Endpoint.svg style="width:Umschalten An/Aus](Draft_ToggleSnap/de.md)**erfolgen, und dann ** → [16px"> <img src=images/Draft_ToggleSnap.svg style="width:Entwurf Endpunkt](Draft_Endpoint/de.md)**, oder durch Drücken der **[16px"> <img src=images/Snap_Endpoint.svg style="width:UmschaltenFang](Draft_ToggleSnap/de.md)** und **[16px"> [Fang Endpunkt](Draft_Endpoint.md)** Schaltflächen in der Fang Werkzeugleiste.
+:   12.2. Stelle sicher, dass die Schaltfläche <img src=images/Draft_ToggleSnap.svg style="width:Entwurf Fang](Draft_Snap/de.md) die Methode \"Am Endpunkt fangen\" aktiv ist . Dies kann über das Menü **Entwurf→ Fang → _**, oder durch Drücken der **[16px"> <img src=images/Snap_Endpoint.svg style="width:UmschaltenFang](Draft_ToggleSnap/de.md)** und **[16px"> [Fang Endpunkt](Draft_Endpoint.md)** Schaltflächen in der Fang Werkzeugleiste.
 
 13\. Wähle in der [Baumansicht](tree_view/de.md) `Extrudieren`.
 
@@ -180,7 +180,7 @@ Ein ähnlicher Ablauf wie oben beschrieben kann mit der [PartDesign Arbeitsberei
 2.  Erstelle einen **<img src=images/PartDesign_Body_Tree.svg style="width:16px"> <img src=images/PartDesign_Pad.svg style="width:PartDesign Körper](PartDesign_Body/de.md)**, aktiviere ihn und füge einen Basis-Volumenkörper hinzu, indem du Primitive hinzufügst, oder verwende eine Skizze und extrudiere sie mit **[16px"> [PartDesign Polster](PartDesign_Pad/de.md)**.
 3.  Bewege das `FormZeichenfolge` Objekt in den aktiven Körper.
 4.  Hänge das `FormZeichenfolge` Objekt an eine der Flächen des Volumenkörpers oder an ein **<img src=images/PartDesign_Plane.svg style="width:16px"> <img src=images/Part_Attachment.svg style="width:PartDesign Ebene](PartDesign_Plane/de.md)**, unter Verwendung **[16px"> [/de|Part Bindung](Part_Attachment.md)**.
-5.  Erstelle jetzt ein **<img src=images/PartDesign_Pad.svg style="width:16px"> [PartDesign Polster](PartDesign_Pad/de.md)** oder ein **[16px](Datei:PartDesign_Pocket.svg.md) [PartDesign Tasche](PartDesign_Pocket/de.md)** aus der `Formzeichenfolge`, um eine additive bzw. subtraktive [Grundelement](PartDesign_Feature/de.md) des Grundkörpers zu erzeugen.
+5.  Erstelle jetzt ein **<img src=images/PartDesign_Pad.svg style="width:16px"> _ [PartDesign Tasche](PartDesign_Pocket/de.md)** aus der `Formzeichenfolge`, um eine additive bzw. subtraktive [Grundelement](PartDesign_Feature/de.md) des Grundkörpers zu erzeugen.
 
 
 </div>

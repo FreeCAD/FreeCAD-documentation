@@ -57,7 +57,7 @@ The Help menu provides access to the help system and links to the FreeCAD websit
 
 }}  
 
-[Category:Workbenches](Category:Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > [Workbenches](Category:Workbenches.md) > Std Help Menu/ru
+[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Std Help Menu/ru

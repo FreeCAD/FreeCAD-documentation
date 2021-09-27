@@ -3,7 +3,7 @@
 |Topic=Sketcher
 |Level=Beginner
 |Time=30 minutes
-|Author=Mark Stephen ([Quick61](User:Quick61.md)) and vocx
+|Author=Mark Stephen (_) and vocx
 |FCVersion=0.19
 |Files=[https://forum.freecadweb.org/viewtopic.php?f=36&p=371659#p371659 Sketcher Constraints practices]
 }}
@@ -12,7 +12,7 @@
 
 This tutorial was originally written by Quick61, and it was rewritten and reillustrated by vocx.
 
-This tutorial is designed to help the new user become familiar with the best practices of constraining a [Sketch](Sketch.md) in the workflow of the <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Sketcher Workbench](Sketcher_Workbench.md).
+This tutorial is designed to help the new user become familiar with the best practices of constraining a _.
 
 There is a general rule with constraints: the fewer amount of **datum constraints** (dimensions), the better.
 

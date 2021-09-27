@@ -311,7 +311,7 @@ C\'est le sens du mot \"maladroit\" que j\'ai utilisé pour définir la proprié
 
 }} 
 
-[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Scripts/fr
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Scripts/fr

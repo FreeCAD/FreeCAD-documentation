@@ -3,13 +3,13 @@
 
 ## Un semplicistico Ambiente di sviluppo per Python all\'interno di FreeCAD 
 
-[Python](wikipedia:Python_(programming_language).md) è l\'ambiente di programmazione che è stato incorporato nel sistema di [FreeCAD](http://www.freecadweb.org/). Usando Python molte delle operazioni offerte da FreeCAD sono accessibili tramite programmazione. Di solito i programmi in Python per FreeCAD sono sviluppati per essere eseguiti nella console Python o attraverso la facilitazione delle Macro di FreeCAD (vedere [Come installare le macro](How_to_install_macros/it.md)).
+_ è l\'ambiente di programmazione che è stato incorporato nel sistema di _).
 
 Gli strumenti disponibili per lo sviluppo di programmi in Python sono numerosi. I fattori di complicazione per lo sviluppo di Python da usare con FreeCAD sono due: in primo luogo gli strumenti non hanno alcun supporto per le numerose strutture di dati e punti di accesso di FreeCAD; in secondo luogo non funzionano \"internamente a FreeCAD\". Ciò significa che è possibile utilizzare Python per sviluppare del codice all\'esterno di FreeCAD senza poterlo testare nell\'ambiente di destinazione; oppure si può svilupparlo nell\'ambiente di destinazione (ad esempio l\'ambiente FreeCAD), ma senza poter usufruire del supporto degli strumenti di sviluppo. Nessuna di queste è una soluzione accettabile.
 
 ## Introduzione
 
-Lo sviluppo dei software moderni nello standard commerciale di solito è fatto con un set di strumenti genericamente denominato [\'IDE\'](wikipedia:Integrated_development_environment.md) (Integrated Development Environment - Ambiente di sviluppo integrato). Tipicamente questi strumenti sono i seguenti 3:
+Lo sviluppo dei software moderni nello standard commerciale di solito è fatto con un set di strumenti genericamente denominato _ (Integrated Development Environment - Ambiente di sviluppo integrato). Tipicamente questi strumenti sono i seguenti 3:
 
 -   un editor di codice sorgente
 -   uno strumento di building automatico
@@ -288,7 +288,7 @@ FreeCAD.ParamGet('User parameter:BaseApp/Preferences/Macro').SetString('MacroPat
 
 **'''Per FreeCAD è previsto un debugger e questi passi sono un'alternativa fino a quando esso non sarà disponibile. Vedere github.com/mumme74/FreeCAD/tree/editor_fixes'''**
 
-Tipicamente i [Debugger](wikipedia:Debugger.md) forniscono due funzionalità principali (tra le altre):
+Tipicamente i _ forniscono due funzionalità principali (tra le altre):
 
 -   i breakpoint (punti di sospensione) nel codice sorgente
 -   l\'ispezione delle variabili
@@ -551,7 +551,7 @@ Alcuni altri link che riguardano le IDE per Python e che possono essere interess
 
  
 
-[Category:Poweruser Documentation](Category:Poweruser_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Poweruser Documentation](Category:Poweruser Documentation.md) > Python Development Environment/it
+[documentation index](../README.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > Python Development Environment/it

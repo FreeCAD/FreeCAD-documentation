@@ -28,7 +28,7 @@ Cet outil agit sur le jeu d\'axes actif. Dans le cas de tracés multi-axes, vous
 
 }} 
 
-[Category:External\_Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)
+_ _
 
 ---
-[documentation index](../README.md) > [External_Workbenches](Category:External_Workbenches.md) > Plot Grid/fr
+[documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > Plot Grid/fr

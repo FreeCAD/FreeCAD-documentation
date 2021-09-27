@@ -45,7 +45,7 @@ une fois créée, il n\'est pas possible d\'appliquer des contraintes supplémen
 
 ## Propriétés
 
-[Surface Remplir entre les courbes limites](Surface_GeomFillSurface/fr.md) (classe `Surface::GeomFillSurface`) est dérivée de la classe de base [Part Feature](Part_Feature/fr.md) (classe `Part::Feature` via la sous-classe `Part::Spline`), elle partage donc toutes les propriétés de cette dernière.
+_ (classe `Part::Feature` via la sous-classe `Part::Spline`), elle partage donc toutes les propriétés de cette dernière.
 
 Outre les propriétés décrites dans [Part Feature](Part_Feature/fr.md), Surface Remplissage a les propriétés suivantes dans l\'[éditeur de propriétés](Property_editor/fr.md).
 

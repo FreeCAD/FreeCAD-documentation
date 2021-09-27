@@ -22,7 +22,7 @@ La boîte de dialogue Gestionnaire de fenêtres BIM vous permet de parcourir et 
 
 }}
 
-[Category:External Command Reference](Category:External_Command_Reference.md)
+_
 
 ---
-[documentation index](../README.md) > [External Command Reference](Category:External Command Reference.md) > BIM Windows/fr
+[documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > BIM Windows/fr

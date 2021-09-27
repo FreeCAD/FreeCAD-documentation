@@ -17,13 +17,13 @@
 
 *(wewnętrznie nazywany [App: Część](App_Part.md))* jest to uniwersalny kontener, który gromadzi wspólnie grupę obiektów, dzięki czemu można je przesuwać razem jako całość w oknie [widoku 3D](3D_view/pl.md).
 
-Element **Std: Część** został opracowany jako podstawowy element konstrukcyjny do tworzenia [zespołów](Assembly/pl.md) mechanicznych. W szczególności, ma on za zadanie uporządkować obiekty, które mają kształt [części TopoShape](Part_TopoShape/pl.md), jak [Część: Bryły pierwotne](Part_Primitives/pl.md), [Projekt Części: Zawartość](PartDesign_Body/pl.md) i inne [cechy Części](Part_Feature/pl.md). Std: Część dostarcza [obiekt Odniesienie położenia](#Odniesienie_położenia.md) z lokalnymi osiami X, Y i Z oraz płaszczyznami standardowymi, które mogą być używane jako odniesienie do położenia obiektów zamkniętych. Ponadto Std: Część mogą być zagnieżdżone wewnątrz innych Std: Część w celu utworzenia dużego zespołu z mniejszych podzespołów.
+Element **Std: Część** został opracowany jako podstawowy element konstrukcyjny do tworzenia _, _ z lokalnymi osiami X, Y i Z oraz płaszczyznami standardowymi, które mogą być używane jako odniesienie do położenia obiektów zamkniętych. Ponadto Std: Część mogą być zagnieżdżone wewnątrz innych Std: Część w celu utworzenia dużego zespołu z mniejszych podzespołów.
 
-Chociaż jest on przeznaczony głównie dla brył, Std: Część może być użyty do zarządzania dowolnym obiektem, który posiada właściwość [Umiejscowienie](Placement/pl.md), więc może również zawierać [cechy siatki](Mesh_Feature/pl.md), [szkice](Sketch/pl.md) i inne obiekty pochodzące z klas [App: GeoFeature](App_GeoFeature.md).
+Chociaż jest on przeznaczony głównie dla brył, Std: Część może być użyty do zarządzania dowolnym obiektem, który posiada właściwość _.
 
-Nie należy mylić elementu **<img src=images/PartDesign_Body.svg style="width:16px"> <img src=images/Std_Part.svg style="width:Projekt Części: Zawartość](PartDesign_Body/pl.md)** z częścią **[16px"> [Std: Część](Std_Part/pl.md)**. Pierwszym z nich jest określony obiekt używany w środowisku pracy <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Projekt Części](PartDesign_Workbench/pl.md), przeznaczony do modelowania [pojedynczej, ciągłej bryły](PartDesign_Body/pl#Single_contiguous_solid.md) za pomocą funkcji [właściwości](PartDesign_Feature.md). Z drugiej strony [Std: Część](Std_Part/pl.md) nie jest używana do modelowania, a jedynie do rozmieszczania różnych obiektów w przestrzeni z zamiarem tworzenia [złożeń](assembly.md).
+Nie należy mylić elementu **<img src=images/PartDesign_Body.svg style="width:16px"> <img src=images/Std_Part.svg style="width:Projekt Części: Zawartość](PartDesign_Body/pl.md)** z częścią **_, przeznaczony do modelowania _ nie jest używana do modelowania, a jedynie do rozmieszczania różnych obiektów w przestrzeni z zamiarem tworzenia [złożeń](assembly.md).
 
-Narzędzie **<img src=images/Std_Part.svg style="width:16px"> <img src=images/Std_Group.svg style="width:Std: Część](Std_Part/pl.md)** nie jest zdefiniowane przez konkretne środowisko pracy, lecz przez system bazowy, a więc znajduje się na pasku **narzędzi struktury**, który jest dostępny we wszystkich [Środowiskach pracy.](Workbenches/pl.md) Aby dowolnie grupować obiekty bez względu na ich położenie, należy użyć funkcji **[16px"> [Std: Group](Std_Group.md)**. Obiekt ten nie ma wpływu na rozmieszczenie elementów, które zawiera, w zasadzie jest to tylko folder, który jest używany do utrzymania widoku drzewa w sposób zorganizowany.
+Narzędzie **<img src=images/Std_Part.svg style="width:16px"> <img src=images/Std_Group.svg style="width:Std: Część](Std_Part/pl.md)** nie jest zdefiniowane przez konkretne środowisko pracy, lecz przez system bazowy, a więc znajduje się na pasku **narzędzi struktury**, który jest dostępny we wszystkich _**. Obiekt ten nie ma wpływu na rozmieszczenie elementów, które zawiera, w zasadzie jest to tylko folder, który jest używany do utrzymania widoku drzewa w sposób zorganizowany.
 
 ![](images/Std_Part-tree.png )![](images/Std_Part_example.png )
 
@@ -44,12 +44,12 @@ Narzędzie **<img src=images/Std_Part.svg style="width:16px"> <img src=images/St
 ## Ograniczenia
 
 -   Aktualnie metody [Draft: Przyciąganie](Draft_Snap/pl.md) nie działają na wybranych kontenerach części ani na obiektach znajdujących się wewnątrz nich.
--   Część nie ma kształtu topologicznego, dlatego też operacje przestrzenne, takie jak [Część: Działania logiczne na bryłach](Part_Boolean/pl.md), nie mogą być bezpośrednio użyte na samej części. Na przykład nie można wybrać dwóch Części i wykonać za ich pomocą operacji [Część: Suma](Part_Fuse/pl.md) lub [Część: Wytnij](Part_Cut/pl.md).
+-   Część nie ma kształtu topologicznego, dlatego też operacje przestrzenne, takie jak _ lub [Część: Wytnij](Part_Cut/pl.md).
     -   Te operacje logiczne działają tylko na zawartych obiektach, o ile pochodzą one z obiektu [Część: funkcjonalność](Part_Feature/pl.md) i mają [kształt topologiczny](Part_TopoShape/pl.md).
 
 ## Właściwości
 
-[Std: Część](Std_Part/pl.md) jest wewnętrznie nazywana [App: Part](App_Part.md) *(klasa App::Part)*, i pochodzi z [App: GeoFeature](App_GeoFeature.md) *(klasa App::GeoFeature)*, dlatego też posiada większość właściwości tej ostatniej.
+_ *(klasa App::Part)*, i pochodzi z [App: GeoFeature](App_GeoFeature.md) *(klasa App::GeoFeature)*, dlatego też posiada większość właściwości tej ostatniej.
 
 Oprócz właściwości opisanych w [App: GeoFeature](App_GeoFeature.md), klasa App Part posiada pewne właściwości, które pomagają w zarządzaniu informacjami w kontekście zespołu, na przykład: **Typ**, **Id**, **Licencja**, **LicencjaURL**, **Kolor**, oraz **Grupa**.
 
@@ -70,7 +70,7 @@ Są to właściwości dostępne w [edytorze właściwości](Property_editor/pl.m
 
 -    **Kolor|Color**: tupla czterech zmiennoprzecinkowych wartości RGBA white color.
 
--    **Umieszczenie|Placement**: ustawienie obiektu w oknie [widoku 3D](3D_view.md). Umieszczenie jest określone przez punkt *(wektor)* `Baza` i `Obrót` *(oś i kąt)*. Patrz: [Umiejscowienie](Placement.md).
+-    **Umieszczenie|Placement**: ustawienie obiektu w oknie _.
 
     -   
         **Kąt**
@@ -173,7 +173,7 @@ Początek układu współrzędnych składa się z trzech standardowych osi *(X, 
 ![](images/Part_Origin_tree.png ) ![](images/Part_Origin_view.png )
 
 
-*Z lewej: Początek układu współrzędnych Części w [widoku drzewa](Tree_view/pl.md). <br>Z prawej: reprezentacja początku układu współrzędnych w oknie [widoku 3D](3D_view/pl.md).*
+*Z lewej: Początek układu współrzędnych Części w _.*
 
 
 **Uwaga:**
@@ -189,11 +189,11 @@ Wszystkie elementy składowe Części są powiązane z jej początkiem, co oznac
 
 Parametr wyświetlania Części ma pierwszeństwo określania wyświetlania dowolnego obiektu, który zawiera. Jeśli wyświetlanie Części zostanie ukryte, to obiekty, które zawiera będą również ukryte, nawet jeśli ich indywidualna właściwość {{PropertyView/pl|Widoczność}} jest ustawiona na `True`. Jeśli Część jest widoczna, to właściwość każdego obiektu **Widoczność** określa, czy obiekt jest prezentowany na ekranie okna [widoku 3D](3D_view/pl.md) czy nie.
 
-![](images/Part_Visibility_off.png ) ![](images/Part_Visibility_on.png ) *Parametr widoczności Std Części określa, czy zgrupowane pod nią obiekty są prezentowane w oknie [widoku 3D](3D_view/pl.md), czy też nie. <br>Po lewej: Część została ukryta, więc żaden z obiektów nie będzie widoczny w oknie [widoku 3D](3D_view/pl.md). <br>Po prawej: Część jest widoczna, więc każdy obiekt kontroluje indywidualnie swoje właściwości w zakresie wyświetlania.*
+!_. <br>Po prawej: Część jest widoczna, więc każdy obiekt kontroluje indywidualnie swoje właściwości w zakresie wyświetlania.*
 
 ### Dziedziczenie
 
-Obiekt [Std: Część](Std_Part/pl.md) jest formalnie instancją klasy `App::Part`, której rodzicem jest podstawowa klasa [App GeoFeature](App_GeoFeature/pl.md) *(`App::GeoFeature`)*, i jest wzbogacona o rozszerzenie Origin.
+Obiekt _ *(`App::GeoFeature`)*, i jest wzbogacona o rozszerzenie Origin.
 
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
 

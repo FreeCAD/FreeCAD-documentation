@@ -228,7 +228,7 @@ U bilo kojem trenutku možete odabrati originalne skice i modificirati ih ili pr
 
 <div class="mw-translate-fuzzy">
 
-[Nacrt radna ploča](Draft_Workbench/hr.md) nudi vam 2D alate pomalo slične onima koje možete pronaći u tradicionalnim 2D CAD aplikacijama, poput [AutoCAD](https://en.wikipedia.org/wiki/AutoCAD). No, 2D nacrt je daleko od dosega FreeCAD-a, nemojte očekivati da će te tamo naći čitav niz alata koje nude ove posvećene aplikacije. Većina alata za nacrte djeluje ne samo u 2D ravnini, već i u cijelom 3D prostoru, a imaju koristi od posebnih pomoćnih sustava kao što su [Označi plohu nacrta](Draft_SelectPlane.md) i [Privuci objekt](Draft_Snap/hr.md).
+_ i [Privuci objekt](Draft_Snap/hr.md).
 
 
 </div>
@@ -269,7 +269,7 @@ Princip [Dodatci](Addon/hr.md) temelji se na razvoju dopuna radne površine. Bil
 Postoje dvije vrste dodataka:
 
 1.  [Makronaredbe](Macros/hr.md): kratki isječci Python koda koji pružaju novi alat ili funkcionalnost. Makronaredbe obično počinju kao način pojednostavljenja ili automatizacije zadatka crtanja ili uređivanja određenog objekta. Ako se mnogo makronaredbi sakuplja unutar mape, cijeli se direktorij može distribuirati kao nova radna ploča.
-2.  [Vanjskie radne ploče](External_workbenches/hr.md): zbirka alata programiranih u Pythonu ili C ++ koji na važan način proširuju FreeCAD. Ako je radna ploča dovoljno razvijena i dobro je dokumentirana, može biti uključena kao jedana od osnovnih radnih ploča u FreeCAD. Pod [ Vanjske radne ploče](External_workbenches/hr.md) naći ćete principe i popis postojeće knjižnice.
+2.  _ naći ćete principe i popis postojeće knjižnice.
 
 
 </div>
@@ -297,7 +297,7 @@ I na kraju, jedna od najmoćnijih značajki FreeCAD-a je [skriptiranje](scriptin
 
 {{Userdocnavi/hr}}
 
-[Category:User Documentation/hr](Category:User_Documentation/hr.md)
+_
 
 ---
 [documentation index](../README.md) > Getting started/hr

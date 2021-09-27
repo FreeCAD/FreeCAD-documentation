@@ -237,4 +237,4 @@ QT5_ADD_RESOURCES(SimpleViewerExample_RESOURCES_RCC ${RESOURCES})
  {{FEM Tools navi}}
 
 ---
-[documentation index](../README.md) > [Arch](Category:Arch.md) > IfcPlusPlus/en
+[documentation index](../README.md) > [Arch](Category_Arch.md) > IfcPlusPlus/en

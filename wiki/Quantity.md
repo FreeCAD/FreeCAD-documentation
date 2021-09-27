@@ -273,7 +273,7 @@ from FreeCAD import Units
 
  {{Powerdocnavi}} 
 
-[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Quantity
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Quantity

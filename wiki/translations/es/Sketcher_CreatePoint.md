@@ -12,7 +12,7 @@
 
 La herramienta Punto crea un punto en el croquis actual, que puede utilizarse para construir elementos geométricos. El punto es siempre un elemento de construcción y no se muestra en la vista 3D.
 
-[480px\|Point in the sketcher](IMAGE:Sketcher_Point_fr_01.png.md) 
+_ 
 
 ## Utilización
 

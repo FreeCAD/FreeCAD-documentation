@@ -70,7 +70,7 @@ Evidenziare alcuni nodi nella vista:
 
 
 
-[Category:Poweruser\_Documentation/it](Category:Poweruser_Documentation/it.md) [Category:Developer/it](Category:Developer/it.md) [Category:Python\_Code/it](Category:Python_Code/it.md)
+_ _ _
 
 ---
 [documentation index](../README.md) > FEM Python Scripting/it

@@ -168,7 +168,7 @@ Interfaccia per consentire a un (esterno) (multi) software di simulazione fisica
 -   Modello di oggetti
 -   \...
 
-[Category:Roadmap](Category:Roadmap.md)
+_
 
 ---
-[documentation index](../README.md) > [Roadmap](Category:Roadmap.md) > Assembly project/it
+[documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > Assembly project/it

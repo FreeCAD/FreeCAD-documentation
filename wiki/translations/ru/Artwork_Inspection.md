@@ -14,7 +14,7 @@
 
 }} 
 
-[Category:Inspection](Category:Inspection.md)
+_
 
 ---
-[documentation index](../README.md) > [Inspection](Category:Inspection.md) > Artwork Inspection/ru
+[documentation index](../README.md) > [Inspection](Category_Inspection.md) > Artwork Inspection/ru

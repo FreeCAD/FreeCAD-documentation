@@ -18,7 +18,7 @@ Pomozi u stvaranju, ispravci i proširenju dokumentacije. Ispravi greške, proš
 
 Par područja koja bi pozdravila vaš rad:
 
--   Na stranici [:Category:Command Reference/hr](:Category:Command_Reference/hr.md) su popisane i dokumentirane sve FreeCAD [naredbes](command/hr.md). Većina ih sadrži malo ili nimalo informacija. Molimo pogledajte [Wiki stranice](WikiPages/hr.md) za dobre primjere kako trebaju izgledati stranice naredbene dokumentacije.
+-   Na stranici _ su popisane i dokumentirane sve FreeCAD [naredbes](command/hr.md). Većina ih sadrži malo ili nimalo informacija. Molimo pogledajte [Wiki stranice](WikiPages/hr.md) za dobre primjere kako trebaju izgledati stranice naredbene dokumentacije.
 -   U odjeljku [Vježbe](Tutorials/hr.md) potrebni su primjeri kako koristiti radne površine. Ako ste razvili nešto super s FreeCAD-om, zašto ne dokumentirati kako ste to učinili za potomstvo?
 -   Na FreeCAD [bugtracker](bugtracker/hr.md) postoje otvorene karte s oznakom [\"dokumentacija\"](https://freecadweb.org/tracker/search.php?tag_string=documentation) koje bi mogli koristiti sa ljubavlju za stvaranjem uputstava.
 
@@ -45,7 +45,7 @@ Prevođenje je jednostavno, wiki FreeCAD podržava dodatak za prijevod koji vam 
 
 Pojedinosti o prijevodu potražite u [Localization \# Translating wiki](Localization_#_Translating_wiki.md).
 
-Molimo vas budite sigurni da ste upoznati s osnovama wiki markiranja; pogledajte [Pomoć:Uređivanje](Help:Editing.md) za referencu.
+Molimo vas budite sigurni da ste upoznati s osnovama wiki markiranja; pogledajte _ za referencu.
 
 Zatim idite na [WikiPages](WikiPages.md) da se upoznate sa stilom koji se koristi u ovom wikiju, posebno kada je riječ o predlošcima.
 
@@ -104,7 +104,7 @@ Kod za pisanje za FreeCAD nije težak i ne trebate nikakvo dopuštenje, odmah mo
 
 
 
-[Category:Documentation](Category:Documentation.md) [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Common Questions](Category:Common_Questions.md)
+_ _ _
 
 ---
-[documentation index](../README.md) > [Command Reference/hr]] su popisane i dokumentirane sve FreeCAD ](Category:Command Reference/hr]] su popisane i dokumentirane sve FreeCAD .md) > Help FreeCAD/hr
+[documentation index](../README.md) > [Command Reference/hr]] su popisane i dokumentirane sve FreeCAD ](Category_Command Reference/hr]] su popisane i dokumentirane sve FreeCAD .md) > Help FreeCAD/hr

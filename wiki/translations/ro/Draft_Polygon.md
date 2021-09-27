@@ -46,7 +46,7 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 
 ## Cum se utilizează 
 
-1.  Apăsați tasta **[ 16px](Imagine:_Proiect_Polygon.png .md) 
+1.  Apăsați tasta **_ 
     [Proiect Polygon](Draft_Polygon/ro.md)** sau apăsați **P** apoi tastele **G**
 2.  Faceți clic pe un prim punct al vizualizării 3D sau tastați un [coordinate](Draft_Coordinates/ro.md) pentru a indica centrul
 3.  Ajustați numărul dorit de laturi în dialogul de opțiuni,

@@ -520,7 +520,7 @@ And what it should look like when inserted (plus magnified title block):
 
 ![TechDraw TemplateGenerator.png](images/TechDraw_TemplateGenerator.png )
 
-[Category:Wiki](Category:Wiki.md)
+_
 
 ---
 [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw TemplateGenerator/en

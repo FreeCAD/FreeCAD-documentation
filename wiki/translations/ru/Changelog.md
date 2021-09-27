@@ -6,7 +6,7 @@
 
 
 
-[Category:Administration](Category:Administration.md) [Category:Developer](Category:Developer.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Administration](Category:Administration.md) > Changelog/ru
+[documentation index](../README.md) > [Administration](Category_Administration.md) > Changelog/ru

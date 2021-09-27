@@ -116,7 +116,7 @@ Odwraca kierunek wyciągnięcia.
 :   Oznacza to, że znaleziona ściana może nie zawsze być tą, której się spodziewałeś. Jeśli natkniesz się na ten problem, zamiast tego użyj **odwrotnie do ściany** i wybierz ścianę, którą chcesz.
 :   W bardzo szczególnym przypadku wytłaczania do powierzchni wklęsłych, gdzie szkic jest większy niż ta powierzchnia, wytłoczenie nie powiedzie się. Jest to nierozwiązany błąd.
 
--    {{VersionMinus/pl|0.16}}Nie ma funkcjonalności automatycznej optymalizacji np. łączenia sąsiednich powierzchni płaskich w jedną powierzchnię. Można to naprawić samodzielnie w Środowisku pracy Part za pomocą środowiska pracy <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Część](Part_Workbench/pl.md) i funkcji **<img src="images/Part_RefineShape.svg" width=16px> [Udoskonal kształt ](Part_RefineShape/pl.md)** *(która tworzy niepowiązaną, nieparametryczną bryłę)* lub za pomocą **<img src="images/OpenSCAD_RefineShapeFeature.svg" width=24px> [OpenSCAD RefineShapeFeature](OpenSCAD_RefineShapeFeature/pl.md)** na podstawie środowiska pracy <img alt="" src=images/Workbench_OpenSCAD.svg  style="width:16px;"> [penSCAD](OpenSCAD_Workbench/pl.md), który utworzy cechę parametryczną.
+-    {{VersionMinus/pl|0.16}}Nie ma funkcjonalności automatycznej optymalizacji np. łączenia sąsiednich powierzchni płaskich w jedną powierzchnię. Można to naprawić samodzielnie w Środowisku pracy Part za pomocą środowiska pracy <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> _, który utworzy cechę parametryczną.
 
 
 

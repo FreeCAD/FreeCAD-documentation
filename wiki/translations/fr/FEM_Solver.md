@@ -10,7 +10,7 @@ Wikipedia [répertorie de nombreux packages logiciels d\'éléments finis](https
 
 ### Solveurs disponibles dans diverses distributions Linux 
 
-Le dépôt [FreeCAD-dependencies](https://github.com/luzpaz/FreeCAD-dependencies) suit les dépendances de FreeCAD sur de nombreuses distributions Linux. La page [FEM.md](https://github.com/luzpaz/FreeCAD-dependencies/blob/master/FC-Workbenches/FEM.md) examine les solveurs FEA open source pouvant être utilisés avec [atelier FEM](FEM_Workbench/fr.md). La page affiche la version d\'un solveur particulier dans le référentiel d\'une distribution Linux particulière. Cette information est utile pour savoir si un solveur est actuel ou obsolète et doit être mis à niveau.
+Le dépôt _ examine les solveurs FEA open source pouvant être utilisés avec [atelier FEM](FEM_Workbench/fr.md). La page affiche la version d\'un solveur particulier dans le référentiel d\'une distribution Linux particulière. Cette information est utile pour savoir si un solveur est actuel ou obsolète et doit être mis à niveau.
 
 L\'information est également discutée sur le forum: [supported and not supported Solver](https://forum.freecadweb.org/viewtopic.php?f=18&t=26326&start=10#p270325).
 
@@ -28,7 +28,7 @@ Le solveur multiphysique Elmer a été intégré à FreeCAD en tant que projet [
 
 ### Z88
 
-Le solveur Z88 est conçu pour les simulations statiques linéaires en mettant l\'accent sur l\'enseignement de la méthode des éléments finis. C\'était le deuxième solveur à être [intégré à FreeCAD](https://forum.freecadweb.org/viewtopic.php?f=18&t=15568). L\'intégration a ensuite été améliorée en tant que projet [Google Summer of Code 2017](Google_Summer_of_Code_2017.md).
+Le solveur Z88 est conçu pour les simulations statiques linéaires en mettant l\'accent sur l\'enseignement de la méthode des éléments finis. C\'était le deuxième solveur à être _.
 
 Voir les informations:
 
@@ -92,7 +92,7 @@ Certains des problèmes qui sont censés être résolus par ce solveur incluent
 
 L\'auteur considère que FreeCAD est une bonne plate-forme de prototypage permettant de configurer, de tester et de visualiser rapidement différents problèmes structurels. Il est donc très utile de disposer d\'un solveur intégré et flexible. Voir le fil principal, [fcFEM - FEA de bout en bout](https://forum.freecadweb.org/viewtopic.php?f=18&t=33974).
 
-fcFEM est présenté sous la forme d\'une bibliothèque python et d\'une macro. Vous pouvez le télécharger à partir du [dépôt de github](https://github.com/HarryvL/fcFEM). Il sera éventuellement disponible à partir du [gestionnaire d\'Addon](Std_AddonMgr/fr.md) ou sera distribué avec FreeCAD lui-même.
+fcFEM est présenté sous la forme d\'une bibliothèque python et d\'une macro. Vous pouvez le télécharger à partir du _ ou sera distribué avec FreeCAD lui-même.
 
 ## Implémentation en cours 
 
@@ -102,7 +102,7 @@ FEniCS est un cadre informatique permettant de résoudre des équations aux dér
 
 Voir: [main website](https://fenicsproject.org/), [Fenics as Solver](https://forum.freecadweb.org/viewtopic.php?f=18&t=4677) (fil du forum).
 
-[FenicsSolver](https://github.com/qingfengxia/FenicsSolver) est une plate-forme de simulation permettant de traiter des problèmes multi-corps, multi-physique (couplés) et multi-échelles. Il espère intégrer le solveur FEniCS à la fois dans [atelier FEM](FEM_Workbench/fr.md) et dans l\'[atelier extérieur](External_workbenches/fr.md) Cfd afin que le système résultant fonctionne comme une alternative gratuite à Comsol ou à Moose. FenicsSolver est développé par le même auteur de Cfd.
+_ et dans l\'[atelier extérieur](External_workbenches/fr.md) Cfd afin que le système résultant fonctionne comme une alternative gratuite à Comsol ou à Moose. FenicsSolver est développé par le même auteur de Cfd.
 
 ### OOFEM
 
@@ -160,7 +160,7 @@ Il a été suggéré dans les forums de procéder à une analyse des cadres en b
 
 [libMesh](https://libmesh.github.io/) est une bibliothèque d\'éléments finis c ++ pour la solution numérique d\'équations aux dérivées différentielles avec pour objectif principal de prendre en charge les calculs de raffinement de maillage adaptatif (AMR) en parallèle: [code repository](https://github.com/libMesh/libmesh).
 
-Il a été suggéré d\'intégrer cette bibliothèque à FreeCAD dans le cadre d\'un [projet](https://forum.freecadweb.org/viewtopic.php?f=8&t=35493) [Google Summer of Code](Google_Summer_of_Code_2020.md).
+Il a été suggéré d\'intégrer cette bibliothèque à FreeCAD dans le cadre d\'un _.
 
 ### Modelica
 

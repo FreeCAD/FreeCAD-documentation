@@ -91,7 +91,7 @@ For more advanced configuration, refer to the [CubeMenu](Interface_Customization
 
 
 
-[Category:User Documentation](Category:User_Documentation.md)
+_
 
 ---
-[documentation index](../README.md) > [User Documentation](Category:User Documentation.md) > Navigation Cube/ro
+[documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > Navigation Cube/ro

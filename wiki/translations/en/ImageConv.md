@@ -14,7 +14,7 @@ Building is easy with the *Makefile* or the VisualStudio-Project.
 
 ImageConv is a command line tool.
 
-[Category:Developer](Category:Developer.md)
+_
 
 ---
-[documentation index](../README.md) > [Developer](Category:Developer.md) > ImageConv/en
+[documentation index](../README.md) > [Developer](Category_Developer.md) > ImageConv/en

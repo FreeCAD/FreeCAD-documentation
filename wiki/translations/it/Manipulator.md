@@ -18,7 +18,7 @@ Un **manipolatore** può essere usato per modificare l\'aspetto, la forma o altr
 
 
 
-[Category:Glossary](Category:Glossary.md)
+_
 
 ---
-[documentation index](../README.md) > [Glossary](Category:Glossary.md) > Manipulator/it
+[documentation index](../README.md) > [Glossary](Category_Glossary.md) > Manipulator/it

@@ -15,7 +15,7 @@
 
 ## Beschreibung
 
-The <img alt="" src=images/Path_Engrave.svg  style="width:24px;"> [Path Engrave](Path_Engrave.md) tool is primarily for engraving a <img alt="" src=images/Draft_ShapeString.svg  style="width:24px;"> [Draft ShapeString](Draft_ShapeString.md) onto a part. However, it may be useful for other kinds of 2D.
+The <img alt="" src=images/Path_Engrave.svg  style="width:24px;"> _ onto a part. However, it may be useful for other kinds of 2D.
 
 ## Anwendung
 

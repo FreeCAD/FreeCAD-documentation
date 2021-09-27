@@ -53,17 +53,19 @@ The following tools are available in this menu:
 
 -   <img alt="" src=images/Std_Delete.svg  style="width:32px;"> [Delete](Std_Delete.md): Deletes selected objects.
 
--   <img alt="" src=images/Std_SendToPythonConsole.svg  style="width:32px;"> [Send to Python Console](Std_SendToPythonConsole.md): Creates variables in the [Python console](Python_console.md) referencing an object. <small>(v0.19)</small> 
+-   <img alt="" src=images/Std_SendToPythonConsole.svg  style="width:32px;"> _ referencing an object. <small>(v0.19)</small> 
 
 -   <img alt="" src=images/Std_Placement.svg  style="width:32px;"> [Placement\...](Std_Placement.md): Opens the Placement task panel for an object.
 
--   <img alt="" src=images/Std_TransformManip.svg  style="width:32px;"> [Transform](Std_TransformManip.md): Transforms an object in the [3D view](3D_view.md).
+-   <img alt="" src=images/Std_TransformManip.svg  style="width:32px;"> _.
 
 -   <img alt="" src=images/Std_Alignment.svg  style="width:32px;"> [Alignment\...](Std_Alignment.md): Aligns an object in relation to a fixed reference object.
 
 -   <img alt="" src=images/Std_Edit.svg  style="width:32px;"> [Toggle Edit mode](Std_Edit.md): Activates or deactivates an object\'s edit mode.
 
--   <img alt="" src=images/Std_DlgPreferences.svg  style="width:32px;"> [Preferences\...](Std_DlgPreferences.md): Opens the \[Preferences\_Editor\|Preferences Editor\]\]. 
+-   <img alt="" src=images/Std_UserEditMode.svg  style="width:32px;"> _. <small>(v0.20)</small> 
+
+-   <img alt="" src=images/Std_DlgPreferences.svg  style="width:32px;"> _. 
 **-- On MacOS this menu option may be located in the FreeCAD menu instead of the Edit menu.**
 
 
@@ -74,7 +76,7 @@ The following tools are available in this menu:
 
 }}  
 
-[Category:Workbenches](Category:Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > [Workbenches](Category:Workbenches.md) > Std Edit Menu/es
+[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Std Edit Menu/es

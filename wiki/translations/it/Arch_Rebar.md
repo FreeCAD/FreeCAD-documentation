@@ -15,7 +15,7 @@
 
 ## Descrizione
 
-Lo strumento Armatura permette di posizionare delle [barre di rinforzo](http://en.wikipedia.org/wiki/Rebar) negli oggetti [Struttura](Arch_Structure/it.md).
+Lo strumento Armatura permette di posizionare delle _.
 
 Lo strumento **Armatura** è anche integrato in [BIM](BIM_Workbench/it.md).
 
@@ -131,7 +131,7 @@ FreeCAD.ActiveDocument.recompute()
 
  
 
-[Category:External Command Reference](Category:External_Command_Reference.md) [Category:Reinforcement](Category:Reinforcement.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Rebar/it
+[documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Arch](Arch_Workbench.md) > Arch Rebar/it

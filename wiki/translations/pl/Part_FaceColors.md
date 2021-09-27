@@ -57,7 +57,7 @@ Aby zresetować wszystkie kolory powierzchni:
 
  
 
-[Category:User Documentation](Category:User_Documentation.md) [Category:Command\_Reference](Category:Command_Reference.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part FaceColors/pl
+[documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [Part](Part_Workbench.md) > Part FaceColors/pl

@@ -156,4 +156,4 @@ Panel = Arch.makePanel(Rect, thickness=36)
 </div>
 
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Panel/es
+[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch Panel/es

@@ -237,7 +237,7 @@ FreeCAD ejecutado en modo consola (sin interfaz gráfico de usuario GUI)
 
 Letrero de diálogo para guardar una imagen de tamaño arbitrario.
 
-[Category:User Documentation/es](Category:User_Documentation/es.md) [Category:Screenshots/es](Category:Screenshots/es.md)
+_ _
 
 ---
 [documentation index](../README.md) > Screenshots/es

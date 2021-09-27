@@ -31,7 +31,7 @@ From this interface you can see useful information and jump to recently opened f
 
 
 
-[Category:Start](Category:Start.md) [Category:Workbenches](Category:Workbenches.md)
+_ _
 
 ---
-[documentation index](../README.md) > Start Workbench/ru
+[documentation index](../README.md) > [Start](Category_Start.md) > Start Workbench/ru

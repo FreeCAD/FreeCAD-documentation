@@ -3,7 +3,7 @@
 
 
 
-[Category:Redirects](Category:Redirects.md) [Category:File\_Formats](Category:File_Formats.md)
+_ _
 
 ---
-[documentation index](../README.md) > [File_Formats](Category:File_Formats.md) > DWG
+[documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > DWG

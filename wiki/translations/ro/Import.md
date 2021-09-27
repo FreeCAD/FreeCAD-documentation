@@ -192,7 +192,7 @@ Subiectul este pe Forum la [here](http://forum.freecadweb.org/viewtopic.php?f=23
 
 
 
-[Category:BIM](Category:BIM.md) [Category:Arch](Category:Arch.md) [Category:3rd Party](Category:3rd_Party.md) [Category:File\_Formats](Category:File_Formats.md)
+_ _ _ _
 
 ---
-[documentation index](../README.md) > [BIM](Category:BIM.md) > Import/Export IFC - compiling IfcOpenShell/ro
+[documentation index](../README.md) > [BIM](Category_BIM.md) > Import/Export IFC - compiling IfcOpenShell/ro

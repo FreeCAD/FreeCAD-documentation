@@ -24,7 +24,7 @@ Nell\'uso informale, un \"Disegno\"può essere qualsiasi figura geometrica che �
 
 Tuttavia, quando è richiesta maggiore precisione, è necessario fare distinzione.
 
--   Un \"[Corpo](Body/it.md)\" ([Corpo o Body di PartDesign](PartDesign_Body/it.md)) è un oggetto derivato da una [Part Feature](Part_Feature/it.md) (classe `Part::Feature`), creato con [PartDesign](PartDesign_Workbench/it.md).
+-   Un \"_.
 -   Una \"[Parte](Part/it.md)\" ([App Part](App_Part.md)) è usato per raggruppare diversi \"[Corpi](Body/it.md)\" per formare un assemblaggio.
 -   Un \"Disegno\" è una proiezione 2D di un \"Corpo\" o di una \"Parte\".
 -   Un \"Disegno\" può anche essere creato con l\'ambiente [Drawing](Drawing_Workbench/it.md), però questo ambiente è diventato obsoleto nella versione 0.17, quindi ora si dovrebbe usare l\'ambiente [TechDraw](TechDraw_Workbench/it.md).
@@ -34,7 +34,7 @@ Tuttavia, quando è richiesta maggiore precisione, è necessario fare distinzion
 
 }} {{Document objects navi}} 
 
-[Category:Glossary](Category:Glossary.md)
+_
 
 ---
-[documentation index](../README.md) > [Glossary](Category:Glossary.md) > Drawing/it
+[documentation index](../README.md) > [Glossary](Category_Glossary.md) > Drawing/it

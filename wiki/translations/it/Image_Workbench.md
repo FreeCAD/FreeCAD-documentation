@@ -35,7 +35,7 @@ L\'offset dell\'immagine può essere impostato durante l\'importazione o modific
 
 }} 
 
-[Category:Workbenches](Category:Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > Image Workbench/it
+[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Image Workbench/it

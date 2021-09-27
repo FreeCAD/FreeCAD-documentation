@@ -140,7 +140,7 @@ See also [Raytracing tutorial](Raytracing_tutorial.md)
 
  
 
-[Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md) [Category:Render](Category:Render.md)
+_ _ _
 
 ---
-[documentation index](../README.md) > [Addons](Category:Addons.md) > Render project/es
+[documentation index](../README.md) > [Addons](Category_Addons.md) > Render project/es

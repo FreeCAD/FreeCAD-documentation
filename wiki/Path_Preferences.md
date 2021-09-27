@@ -34,7 +34,7 @@ There are three sections: General, Post processor, and Setup.
 
  {{Path_Tools_navi}} 
 
-[Category:Preferences](Category:Preferences.md)
+_
 
 ---
-[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Preferences
+[documentation index](../README.md) > [Preferences](Category_Preferences.md) > [Path](Path_Workbench.md) > Path Preferences

@@ -22,7 +22,7 @@ Okienko dialogowe menadżera okien BIM pozwala na przeglądanie i modyfikowanie 
 
 }}
 
-[Category:External Command Reference](Category:External_Command_Reference.md)
+_
 
 ---
-[documentation index](../README.md) > [External Command Reference](Category:External Command Reference.md) > BIM Windows/pl
+[documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > BIM Windows/pl

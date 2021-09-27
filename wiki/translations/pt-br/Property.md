@@ -3,7 +3,7 @@
 
 A [property](Property.md) is a piece of information like a number or a text string that is attached to a FreeCAD document or an object in a document. Public properties can be viewed and modified in the [Property editor](Property_editor.md).
 
-Properties play a very important role in FreeCAD. As objects in FreeCAD are \"parametric\", this means that their behavior is defined by their properties, and how these properties are used as input for their class methods. See also [PropertyLink:\_InList\_and\_OutList](PropertyLink:_InList_and_OutList.md)
+Properties play a very important role in FreeCAD. As objects in FreeCAD are \"parametric\", this means that their behavior is defined by their properties, and how these properties are used as input for their class methods. See also _
 
 ## Todos os tipos de propriedade 
 
@@ -112,7 +112,7 @@ They are imported and initialized in `[https://github.com/FreeCAD/FreeCAD/blob/9
 
 }} 
 
-[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Property/pt-br
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Property/pt-br

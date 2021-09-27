@@ -1,6 +1,6 @@
 # Sketcher ConstrainPointOnObject/es
 ---
-- GuiCommand:/es   Name:Constraint PointOnObject   Workbenches:[Diseño de Piezas](Sketcher_Workbench/es___Croquizador]],_[[PartDesign_Workbench/es.md)|MenuLocation:Croquizador → Restricciones del Croquizador → Punto en objeto   SeeAlso:[Coincidente](Constraint_PointOnPoint/es.md)---
+- GuiCommand:/es   Name:Constraint PointOnObject   Workbenches:_---
 
 
 </div>

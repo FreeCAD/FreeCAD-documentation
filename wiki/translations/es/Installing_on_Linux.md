@@ -7,7 +7,7 @@
 La instalación de FreeCAD en los sistemas Linux más conocidos ha sido aprobada por la comunidad, y FreeCAD debería estar disponible directamente a través del gestor de paquetes disponible en su distribución. El equipo de FreeCAD también proporciona algunos:
 
 -   Paquetes \"oficiales\" cuando se hacen nuevos lanzamientos
--   Repositorios experimentales [Archivo de Paquetes Personales](https://help.ubuntu.com/community/PPA) (APP), [AppImages](AppImage/es.md), y [Ubuntu Snaps](Ubuntu_Snap/es.md) para probar las características de sangrado.
+-   Repositorios experimentales _, y [Ubuntu Snaps](Ubuntu_Snap/es.md) para probar las características de sangrado.
 
 
 <div class="mw-collapsible mw-collapsed toccolours">
@@ -328,7 +328,7 @@ Diversos paquetes de FreeCAD alternativos, no oficiales están disponibles en la
 Si por cualquier razón no puedes utilizar los métodos de arriba, siempre puedes descargar uno de los paquetes .deb disponibles en la página de [Descargas](Download/es.md).
 {{DownloadUnixStable}}
 
-Una vez descargues el .deb correspondiente a tu versión del sistema, si tienes el paquete [Gdebi](wikipedia:Debian#GDEBI.md) instalado (normalmente es así), simplemente necesitas navegar a donde esté to archivo descargado, y hacer doble clic en él. Las dependencias necesarias se cogerán automáticamente por tu sistema de gestión de paquetes. Alternativamente también puedes instalar desde el terminal, navegando a donde esté ubicado el archivo descargado, y escribiendo:
+Una vez descargues el .deb correspondiente a tu versión del sistema, si tienes el paquete _ instalado (normalmente es así), simplemente necesitas navegar a donde esté to archivo descargado, y hacer doble clic en él. Las dependencias necesarias se cogerán automáticamente por tu sistema de gestión de paquetes. Alternativamente también puedes instalar desde el terminal, navegando a donde esté ubicado el archivo descargado, y escribiendo:
 
 
 ```python
@@ -371,7 +371,7 @@ Una vez tengas instalado FreeCAD, es hora de [dar tus primeros pasos](Getting_st
 
 
 
-[Category:Common Questions](Category:Common_Questions.md) [Category:Developer Documentation](Category:Developer_Documentation.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Common Questions](Category:Common Questions.md) > Installing on Linux/es
+[documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > Installing on Linux/es

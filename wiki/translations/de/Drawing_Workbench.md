@@ -80,7 +80,7 @@ Einige Hinweise auf der Programmierseite des Zeichenmoduls werden auf der Seite 
 
 }} 
 
-[Category:Obsolete Workbenches](Category:Obsolete_Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > Drawing Workbench/de
+[documentation index](../README.md) > [Obsolete Workbenches](Category_Obsolete Workbenches.md) > Drawing Workbench/de

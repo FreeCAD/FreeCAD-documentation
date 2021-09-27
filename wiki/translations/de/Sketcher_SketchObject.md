@@ -3,7 +3,7 @@
 
 <img alt="" src=images/Sketcher_Sketch.svg  style="width:32px;">
 
-A [Sketcher SketchObject](Sketcher_SketchObject.md), or formally a `Sketcher::SketchObject`, is the base element to create 2D objects with the [Sketcher Workbench](Sketcher_Workbench.md).
+A _.
 
 The `Sketcher::SketchObject` is derived from [Part Part2DObject](Part_Part2DObject.md), which means it is a [Part Feature](Part_Feature.md) object specialized for 2D geometry. Like Part2DObject, the SketchObject can be attached to planes and faces. In addition, the SketchObject can handle geometrical constraints of the lines and curves that are drawn within it.
 
@@ -36,7 +36,7 @@ Although the SketchObject can be used by itself to draw on a plane, it is most c
 
 See [Property](Property.md) for all property types that scripted objects can have.
 
-A [Sketcher SketchObject](Sketcher_SketchObject.md) (`Sketcher::SketchObject` class) is derived from a [Part Part2DObject](Part_Part2DObject.md) (`Part::Part2DObject` class), therefore it shares all the latter\'s properties.
+A _ (`Part::Part2DObject` class), therefore it shares all the latter\'s properties.
 
 In addition to the properties described in [Part Part2DObject](Part_Part2DObject.md), the basic Sketcher SketchObject has the following properties in the [property editor](property_editor.md). Hidden properties can be shown by using the **Show all** command in the context menu of the [property editor](property_editor.md).
 

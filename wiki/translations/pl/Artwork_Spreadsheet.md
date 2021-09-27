@@ -14,7 +14,7 @@ Wszystkie ikonki widoczne na liście źródłowej, patrz [Grafika](Artwork/pl.md
 
 }} 
 
-[Category:Spreadsheet](Category:Spreadsheet.md)
+_
 
 ---
-[documentation index](../README.md) > [Spreadsheet](Category:Spreadsheet.md) > Artwork Spreadsheet/pl
+[documentation index](../README.md) > [Spreadsheet](Category_Spreadsheet.md) > Artwork Spreadsheet/pl

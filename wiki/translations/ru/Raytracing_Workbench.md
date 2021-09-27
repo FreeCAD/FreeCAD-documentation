@@ -145,7 +145,7 @@ Although direct export to the Kerkythea XML-File-Format is not supported yet, yo
 
 }} 
 
-[Category:Workbenches](Category:Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > Raytracing Workbench/ru
+[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Raytracing Workbench/ru

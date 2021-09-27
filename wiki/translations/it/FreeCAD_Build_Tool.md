@@ -19,7 +19,7 @@ trunc/src/Tools/fcbt.py
 
 ### Utilizzo
 
-Con [Python](wikipedia:Python_(programming_language).md) installato correttamente, *fcbt* può essere richiamato con il comando 
+Con _ installato correttamente, *fcbt* può essere richiamato con il comando 
 ```python
 python fbct.py
 ``` che visualizza un menu, in cui è possibile selezionare l\'operazione che si desidera utilizzare per: 
@@ -94,7 +94,7 @@ Il comando \"CM\" [crea un nuovo modulo dell\'applicazione](Module_Creation/it.m
 
  
 
-[Category:Developer Documentation](Category:Developer_Documentation.md)
+_
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > FreeCAD Build Tool/it
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > FreeCAD Build Tool/it

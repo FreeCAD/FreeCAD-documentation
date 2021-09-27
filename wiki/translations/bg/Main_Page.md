@@ -1,7 +1,7 @@
 # Main Page/bg
 <div class="mw-translate-fuzzy">
 
-Това е документацията на [FreeCAD](http://www.freecadweb.org). Информацията кояте се съдържа тук е това което оформя документацията която се доставя с FreeCAD. Има два основни начина да преглеждате документацията: като проучвате потребителски центрове или като следвате ръководството. Това е работа в прогрес която се пише от общност от потребители и разработчици на FreeCAD. Ако намерите информация която е грешна или липсва, моля [помогнете](Help_FreeCAD/bg.md)!
+Това е документацията на _!
 
 
 </div>
@@ -35,7 +35,7 @@
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/Crystal_Clear_manual.png  style="width:64px;"> [Ръководството на FreeCAD (на английски език)](Manual:Introduction.md) е друг, линеен начин да се представи информацията съдържана в тази документация. Направено е да бъде четено като книга и ще ви запознае постепенно със много други страници от горните центрове. [Електронна книга (pdf, също на английски език)](https://www.gitbook.com/book/yorikvanhavre/a-freecad-manual/details) също е на разположение. 
+<img alt="" src=images/Crystal_Clear_manual.png  style="width:64px;"> _ е друг, линеен начин да се представи информацията съдържана в тази документация. Направено е да бъде четено като книга и ще ви запознае постепенно със много други страници от горните центрове. [Електронна книга (pdf, също на английски език)](https://www.gitbook.com/book/yorikvanhavre/a-freecad-manual/details) също е на разположение. 
 
 
 
@@ -68,14 +68,14 @@
 
 </div>
 
-The [help FreeCAD](Special:MyLanguage/help_FreeCAD.md) page describes it all with more details. Starting from 2016, FreeCAD also participates in the [Google Summer of Code](Google_Summer_of_Code.md). The [Contributors hub](Contributors_hub.md) page is another effort to gather the possible ways to help and contribute to the FreeCAD project.
+The _ page describes it all with more details. Starting from 2016, FreeCAD also participates in the [Google Summer of Code](Google_Summer_of_Code.md). The [Contributors hub](Contributors_hub.md) page is another effort to gather the possible ways to help and contribute to the FreeCAD project.
 
 ### Програмен код 
 
 
 <div class="mw-translate-fuzzy">
 
-FreeCAD може да бъде компилиран на всички платформи използвайки cMake. Програмния код е [LGPL](https://bg.wikipedia.org/wiki/GNU_General_Public_License) лицензиран и се пази на <https://github.com/FreeCAD/FreeCAD> и има инструкции за компилиране за [Windows](CompileOnWindows/bg.md), [Unix/Linux](CompileOnUnix/bg.md) и [MacOSX](CompileOnMac/bg.md). Документацията за програмния код е на <http://www.freecadweb.org/api/>.
+FreeCAD може да бъде компилиран на всички платформи използвайки cMake. Програмния код е _, [Unix/Linux](CompileOnUnix/bg.md) и [MacOSX](CompileOnMac/bg.md). Документацията за програмния код е на <http://www.freecadweb.org/api/>.
 
 
 </div>
@@ -93,7 +93,7 @@ FreeCAD може да бъде компилиран на всички платф
 
 
 
-[Category:Documentation](Category:Documentation.md)
+_
 
 ---
-[documentation index](../README.md) > [Documentation](Category:Documentation.md) > Main Page/bg
+[documentation index](../README.md) > [Documentation](Category_Documentation.md) > Main Page/bg

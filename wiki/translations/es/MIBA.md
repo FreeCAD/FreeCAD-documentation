@@ -52,7 +52,7 @@ for p in ["PerspectiveCamera", "OrthographicCamera"]:
 App.closeDocument(App.ActiveDocument.Name)
 ```
 
-[Category:User\_Documentation](Category:User_Documentation.md)
+_
 
 ---
-[documentation index](../README.md) > [User_Documentation](Category:User_Documentation.md) > MIBA/es
+[documentation index](../README.md) > [User_Documentation](Category_User_Documentation.md) > MIBA/es

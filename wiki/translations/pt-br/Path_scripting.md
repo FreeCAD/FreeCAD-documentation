@@ -440,7 +440,7 @@ doc.recompute()
 
 }} {{Powerdocnavi}}
 
-[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Path](Path_Workbench.md) > Path scripting/pt-br
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Path](Path_Workbench.md) > Path scripting/pt-br

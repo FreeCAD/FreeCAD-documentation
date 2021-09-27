@@ -11,7 +11,7 @@
 
 To **<img src=images/Part_Boolean.svg style="width:16px"> [Part Boolean](Part_Boolean/pl.md)** polecenie jest ogólnym narzędziem logicznym wszystko w jednym. Pozwala ono na określenie obiektów i operacji do wykonania za pomocą jednego okna dialogowego.
 
-Aby uzyskać szybszy dostęp do tych operacji, użyj **<img src=images/Part_Fuse.svg style="width:16px"> <img src=images/Part_Common.svg style="width:Suma](Part_Fuse/pl.md)**, **[16px"> <img src=images/Part_Cut.svg style="width:Część wspólna brył](Part_Common/pl.md)**, **[16px"> <img src=images/Part_Section.svg style="width:Wytnij](Part_Cut/pl.md)**, oraz **[16px"> [Przecięcie](Part_Section/pl.md)**.
+Aby uzyskać szybszy dostęp do tych operacji, użyj **<img src=images/Part_Fuse.svg style="width:16px"> <img src=images/Part_Common.svg style="width:Suma](Part_Fuse/pl.md)**, **_**, oraz **[16px"> [Przecięcie](Part_Section/pl.md)**.
 
 ![](images/PartBooleansDialog.png )
 

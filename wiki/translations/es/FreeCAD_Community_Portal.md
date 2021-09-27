@@ -26,7 +26,7 @@ Estos son los ambientes de trabajo, scripts, macros y complementos desarrollados
 
 ### Redes sociales 
 
--   [yorik](User:Yorik.md) - <http://www.facebook.com/FreeCAD> (also updates <http://twitter.com/FreeCADNews> automatically)
+-   _ - <http://www.facebook.com/FreeCAD> (also updates <http://twitter.com/FreeCADNews> automatically)
 
 ### Sitios de noticias 
 
@@ -52,7 +52,7 @@ Estos son los ambientes de trabajo, scripts, macros y complementos desarrollados
 -   <http://linuxaideddesign.blogspot.de/>
 -   <http://sliptonic.com/>
 -   <http://opensourcedesigntools.blogspot.de/>
--   [yorik](User:Yorik.md) - <http://yorik.uncreated.net>
+-   _ - <http://yorik.uncreated.net>
 
 ### Francés
 
@@ -84,7 +84,7 @@ Estos son los ambientes de trabajo, scripts, macros y complementos desarrollados
 
 
 
-[Category:Documentation](Category:Documentation.md)
+_
 
 ---
-[documentation index](../README.md) > [Documentation](Category:Documentation.md) > FreeCAD Community Portal/es
+[documentation index](../README.md) > [Documentation](Category_Documentation.md) > FreeCAD Community Portal/es

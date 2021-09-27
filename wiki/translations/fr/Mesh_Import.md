@@ -23,6 +23,10 @@ La commande **Importer un maillage** importe la géométrie d\'un format de fich
 3.  Sélectionner un fichier.
 4.  Appuyez sur le bouton **Ouvrir**.
 
+## Types de fichiers supportés 
+
+Le **Mesh Importateur** supporte : les fichiers bms, stl, ast, iv, nas, bdf, obj, smf, off et ply. Pour les fichiers nas/bdf de NASTRAN, seules les cartes GRID, CTRIA3 et CQUAD4 sont supportées. Pour chaque ligne de données, un espace doit exister entre deux variables.
+
 ## Préférences
 
 -   Le dernier emplacement de fichier utilisé est stocké: **Outils → Editer les paramètres... → BaseApp → Preferences → General → FileOpenSavePath**.

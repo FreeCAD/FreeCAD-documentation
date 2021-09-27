@@ -2,7 +2,7 @@
 {{TutorialInfo
 |Topic=Sketch
 |Level=Beginner
-|Author=[Maker](User:Maker.md)
+|Author=_
 |Time=
 |FCVersion=
 }}

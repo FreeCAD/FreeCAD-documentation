@@ -5,11 +5,11 @@
 
 ## Wprowadzenie
 
-Środowisko pracy <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Architektura](Arch_Workbench/pl.md) zapewnia [modelowanie informacji o budynku](http://en.wikipedia.org/wiki/Building_Information_Modeling) *(BIM)* nowoczesny przepływ pracy programu FreeCAD, z obsługą funkcjonalności takich jak w pełni parametryczne struktury architektoniczne obejmujące: ściany, elementy konstrukcyjne, dachy, okna, schody, rury i meble. Obsługuje on dane [branżowe klasy fundamentów](http://en.wikipedia.org/wiki/Industry_Foundation_Classes) plików *([IFC](Arch_IFC.md))* oraz produkcję rzutów poziomych 2D w połączeniu z Środowiskiem pracy <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [Rysunek Techniczny](TechDraw_Workbench/pl.md).
+Środowisko pracy <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> _)* oraz produkcję rzutów poziomych 2D w połączeniu z Środowiskiem pracy <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [Rysunek Techniczny](TechDraw_Workbench/pl.md).
 
-Środowisko pracy Architektura importuje wszystkie narzędzia środowiska <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Rysunek Roboczy](Draft_Workbench/pl.md), ponieważ używa obiektów 2D do budowy swoich przestrzennych obiektów architektonicznych. Niemniej jednak Arch może używać kształtów brył utworzonych w innych środowiskach pracy, takich jak <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Część](Part_Workbench/pl.md) i <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Projekt Części](PartDesign_Workbench/pl.md).
+Środowisko pracy Architektura importuje wszystkie narzędzia środowiska <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> _ i <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Projekt Części](PartDesign_Workbench/pl.md).
 
-Funkcjonalność BIM FreeCAD jest obecnie stopniowo poszerzana w obrębie Środowiska pracy Arch, który posiada podstawowe narzędzia architektoniczne, oraz <img alt="" src=images/Workbench_BIM.svg  style="width:24px;"> [Środowisko pracy BIM](BIM_Workbench/pl.md), które można zainstalować za pomocą <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md). Środowisko BIM dodaje nową warstwę interfejsu nad narzędziami Arch, w celu uczynienia przepływu BIM bardziej intuicyjnym i przyjaznym dla użytkownika. Zobacz [Przewodnik migracji FreeCAD BIM](https://yorik.uncreated.net/blog/2020-010-freecad-bim-guide).
+Funkcjonalność BIM FreeCAD jest obecnie stopniowo poszerzana w obrębie Środowiska pracy Arch, który posiada podstawowe narzędzia architektoniczne, oraz <img alt="" src=images/Workbench_BIM.svg  style="width:24px;"> _. Środowisko BIM dodaje nową warstwę interfejsu nad narzędziami Arch, w celu uczynienia przepływu BIM bardziej intuicyjnym i przyjaznym dla użytkownika. Zobacz [Przewodnik migracji FreeCAD BIM](https://yorik.uncreated.net/blog/2020-010-freecad-bim-guide).
 
 Twórcy Draft, Arch i BIM współpracują również z większą [Społecznością OSArch](https://osarch.org), mając na uwadze ostateczny cel, jakim jest poprawa projektowania budynków przy użyciu całkowicie wolnego oprogramowania.
 
@@ -89,7 +89,7 @@ Są to narzędzia służące do modyfikowania obiektów architektonicznych.
 Są to dodatkowe narzędzia, które pomogą Ci w konkretnych zadaniach.
 
 -   <img alt="" src=images/Arch_Component.svg  style="width:32px;"> [Komponent](Arch_Component/pl.md): tworzy nieparametryczny komponent architektoniczny.
--   <img alt="" src=images/Arch_Component_Clone.svg  style="width:32px;"> [Klonuj komponent](Arch_CloneComponent/pl.md): pozwala stworzyć komponenty architektury, które są klonami wybranych obiektów architektury *(nie należy mylić z funkcją [Draft: klonuj](Draft_Clone/pl.md))*.
+-   <img alt="" src=images/Arch_Component_Clone.svg  style="width:32px;"> _)*.
 -   <img alt="" src=images/Arch_SplitMesh.svg  style="width:32px;"> [Podziel siatkę](Arch_SplitMesh/pl.md): dzieli wybrane siatki na odrębne części składowe.
 -   <img alt="" src=images/Arch_MeshToShape.svg  style="width:32px;"> [Siatka na kształt](Arch_MeshToShape/pl.md): przekształca siatkę na kształt, jednocząc powierzchnie współpłaszczyznowe.
 -   <img alt="" src=images/Arch_SelectNonManifold.svg  style="width:32px;"> [Wybierz siatki typu non-solid](Arch_SelectNonSolidMeshes/pl.md): wybiera wszystkie niestałe siatki z bieżącego wyboru lub z dokumentu.
@@ -97,10 +97,10 @@ Są to dodatkowe narzędzia, które pomogą Ci w konkretnych zadaniach.
 -   <img alt="" src=images/Arch_CloseHoles.svg  style="width:32px;"> [Zamknij otwory](Arch_CloseHoles/pl.md): zamyka otwory w wybranym obiekcie opartym na kształcie.
 -   <img alt="" src=images/Arch_MergeWalls.svg  style="width:32px;"> [Połącz ściany](Arch_MergeWalls/pl.md): łączy dwie lub więcej ścian.
 -   <img alt="" src=images/Arch_Check.svg  style="width:32px;"> [Sprawdź](Arch_Check/pl.md): sprawdza, czy zaznaczone obiekty są bryłami i nie zawierają defektów.
--   <img alt="" src=images/IFC.svg  style="width:32px;"> [Przeglądarka Ifc](Arch_IfcExplorer/pl.md): umożliwia przeglądanie zawartości plików typu [IFC](Arch_IFC/pl.md).
+-   <img alt="" src=images/IFC.svg  style="width:32px;"> _.
 -   <img alt="" src=images/Arch_ToggleIfcBrepFlag.svg  style="width:32px;"> [Przełącz flagę IFC Brep](Arch_ToggleIfcBrepFlag/pl.md): Wymusza wyeksportowanie wybranego obiektu jako [IfcFacetedBrep](http://www.buildingsmart-tech.org/ifc/IFC4/final/html/schema/ifcgeometricmodelresource/lexical/ifcfacetedbrep.htm).
--   <img alt="" src=images/Arch_3Views.svg  style="width:32px;"> [3 widoki](Arch_3Views/pl.md): tworzy widok od góry, od przodu i z boku dla [siatki](Mesh_Workbench/pl.md).
--   <img alt="" src=images/Arch_IfcSpreadsheet.svg  style="width:32px;"> [Arkusz kalkulacyjny IFC](Arch_IfcSpreadsheet/pl.md): tworzy arkusz kalkulacyjny do przechowywania własności obiektu [IFC](Arch_IFC.md).
+-   <img alt="" src=images/Arch_3Views.svg  style="width:32px;"> _.
+-   <img alt="" src=images/Arch_IfcSpreadsheet.svg  style="width:32px;"> _.
 -   <img alt="" src=images/Arch_ToggleSubs.svg  style="width:32px;"> [Przełącz widoczność odjęcia](Arch_ToggleSubs/pl.md): pokazuje lub ukrywa elementy składowe obiektu architektury.
 
 ### Ustawienia
@@ -127,7 +127,7 @@ Moduł Arch może być używany w skryptach [Python](Python.md) i [makrodefiniac
 -   [Szybki przegląd na blogu Yorika](http://yorik.uncreated.net/guestblog.php?2012=180) *(v0.13)*.
 -   [Wideo prezentacja Środowiska pracy Arch](https://www.youtube.com/watch?v=lTDOeHapv_E) *(2016)*.
 -   [Poradnik Arch panel](Arch_panel_tutorial.md) *(v0.15)*
--   [Rozdział z podręcznika FreeCAD dotyczący modelowania BIM](Manual:BIM_modeling.md)
+-   _
 -   [Import z formatu STL lub OBJ](Import_from_STL_or_OBJ.md)
 -   [Eksport do formatu STL lub OBJ](Export_to_STL_or_OBJ.md)
 
@@ -137,7 +137,7 @@ Moduł Arch może być używany w skryptach [Python](Python.md) i [makrodefiniac
 
  
 
-[Category:Workbenches](Category:Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > Arch Workbench/pl
+[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Arch Workbench/pl

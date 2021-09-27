@@ -154,7 +154,7 @@ After you install the workbench, it should appear at the bottom of list of workb
 
 
 
-[Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+_ _
 
 ---
-[documentation index](../README.md) > Lattice2 Workbench/pl
+[documentation index](../README.md) > [Addons](Category_Addons.md) > Lattice2 Workbench/pl

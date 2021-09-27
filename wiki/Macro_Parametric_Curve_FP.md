@@ -2,7 +2,7 @@
 {{Macro
 |Name=Macro Parametric_Curve_FP
 |Icon=Parametric_Curve_FP.svg
-|Description=Update of Macro 3D Parametric Curve, but with new features. Creates a Feature Python object, offers spreadsheet and JSON integration, expanded parameters.
+|Description=Update of Macro 3D Parametric Curve, but with new features. Creates a Feature Python object, offers spreadsheet and JSON integration, expanded parameters.<br/>It has support for the same a, b, c parameters, but also can have as many d parameters in the form of d1, d2, d3, d4, etc. as you like.<br/>It also supports saving formulas to a text file in JSON format and support for Spreadsheet integration of the current formula.<br/>Full documentation can be found [https://github.com/mwganson/Parametric_Curve_FP Full Documentation on Github Parametric_Curve_FP] on github. 
 |Author=TheMarkster
 |Version=2021.09.17
 |Date=2021-09-17

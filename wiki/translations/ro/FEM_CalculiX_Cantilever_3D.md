@@ -103,13 +103,13 @@ Acest exemplu este menit să arate o analiză simplă a elementelor finite (AEF)
 
 -   Dacă analiza este activată, FreeCAD va schimba bancul de lucru curent cu FEM.
 -   Există cel puțin cele 5 obiecte necesare pentru a efectua o analiză mecanică statică.
--   [ 32px](Imagine:_FEM_Analysis.png.md) container de analiză
+-   _ container de analiză
 
-1.  [ 32px](Imagine:_FEM_Solver.png.md) un solver
-2.  [ 32px](Imagine:_FEM_Material.png.md) un material
+1.  _ un solver
+2.  _ un material
 3.  ![ 32px](images/_FEM_FixedConstraint.png ) o constrângere fixă
 4.  ![ 32px](images/_FEM_ForceConstraint.png ) o constrângere de forță
-5.  [ 32px](Imagine:_FEM_Create.png.md) FEM mesh
+5.  _ FEM mesh
 
 -   Deoarece în exemplul de aici sunt incluse rezultatele și există un al șaselea obiect, rezultatele ![ 16px](images/_FEM_ShowResult.png ).
 

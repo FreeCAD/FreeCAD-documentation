@@ -111,7 +111,7 @@ Dans l\'onglet \"Start\" vous pouvez spécifiez:
 
 }} 
 
-[Category:Preferences](Category:Preferences.md)
+_
 
 ---
-[documentation index](../README.md) > [Start](Start_Workbench.md) > Start Preferences/fr
+[documentation index](../README.md) > [Preferences](Category_Preferences.md) > [Start](Start_Workbench.md) > Start Preferences/fr

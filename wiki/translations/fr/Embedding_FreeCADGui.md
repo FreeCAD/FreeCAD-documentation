@@ -487,7 +487,7 @@ Dans le code source, il existe des exemples d\'intégration de FreeCAD avec dive
 
 }} 
 
-[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Embedding FreeCADGui/fr
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Embedding FreeCADGui/fr

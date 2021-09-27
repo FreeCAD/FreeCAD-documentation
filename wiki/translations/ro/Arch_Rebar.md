@@ -36,7 +36,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Instrumentul Rebar vă permite să plasați barele de armătură [1](http://en.wikipedia.org/wiki/Rebar) în interiorul obiectelor [Arch Structure](Arch_Structure.md). Obiectele bare de armătură sunt bazate pe profilele 2D, cum ar fi [sketches](Sketcher_Workbench.md) sau [draft objects](Draft_Workbench.md), care trebuie să fie desenate pe o față a unui obiect de structură. Puteți apoi să reglați configurația armăturilor, cum ar fi numărul și diametrul barelor sau distanța de decalaj dintre cele două capete ale elementului structural.
+Instrumentul Rebar vă permite să plasați barele de armătură _. Obiectele bare de armătură sunt bazate pe profilele 2D, cum ar fi [sketches](Sketcher_Workbench.md) sau [draft objects](Draft_Workbench.md), care trebuie să fie desenate pe o față a unui obiect de structură. Puteți apoi să reglați configurația armăturilor, cum ar fi numărul și diametrul barelor sau distanța de decalaj dintre cele două capete ale elementului structural.
 
 
 </div>
@@ -180,7 +180,7 @@ FreeCAD.ActiveDocument.recompute()
 
  
 
-[Category:Arch/ro](Category:Arch/ro.md) [Category:External Command Reference](Category:External_Command_Reference.md) [Category:Reinforcement](Category:Reinforcement.md)
+_ _ _
 
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Rebar/ro
+[documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Arch](Arch_Workbench.md) > Arch Rebar/ro

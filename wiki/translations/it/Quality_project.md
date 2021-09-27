@@ -40,7 +40,7 @@ Lavorare con tutti i comandi *unfinished* e creare la documentazione per i coman
 
  
 
-[Category:Roadmap](Category:Roadmap.md)
+_
 
 ---
-[documentation index](../README.md) > [Roadmap](Category:Roadmap.md) > Quality project/it
+[documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > Quality project/it

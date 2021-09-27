@@ -14,7 +14,7 @@ Wszystkie ikonki widoczne na liście źródłowej, patrz [Grafika](Artwork/pl.md
 
 }} 
 
-[Category:Image](Category:Image.md)
+_
 
 ---
-[documentation index](../README.md) > [Image](Category:Image.md) > Artwork Image/pl
+[documentation index](../README.md) > [Image](Category_Image.md) > Artwork Image/pl

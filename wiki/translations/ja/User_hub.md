@@ -23,7 +23,7 @@
 
 <div class="mw-translate-fuzzy">
 
-それから、あなたがここに乗せたい情報を持っているとしたら、何故それをここに追加してマニュアルの成長を手伝ってくれないんですか？wikiページの編集は簡単です。この[ページがあなたの手助けになってくれます](Help:Editing.md)。
+それから、あなたがここに乗せたい情報を持っているとしたら、何故それをここに追加してマニュアルの成長を手伝ってくれないんですか？wikiページの編集は簡単です。この_。
 
 
 </div>
@@ -31,7 +31,7 @@
 
 <div class="mw-translate-fuzzy">
 
-それから、あなたがここに乗せたい情報を持っているとしたら、何故それをここに追加してマニュアルの成長を手伝ってくれないんですか？wikiページの編集は簡単です。この[ページがあなたの手助けになってくれます](Help:Editing.md)。
+それから、あなたがここに乗せたい情報を持っているとしたら、何故それをここに追加してマニュアルの成長を手伝ってくれないんですか？wikiページの編集は簡単です。この_。
 
 
 </div>
@@ -202,7 +202,7 @@ Since FreeCAD 0.17, many workbenches can be installed using the [Addon Manager](
 
 
 
-[Category:Hubs](Category:Hubs.md)
+_
 
 ---
-[documentation index](../README.md) > [Hubs](Category:Hubs.md) > User hub/ja
+[documentation index](../README.md) > [Hubs](Category_Hubs.md) > User hub/ja

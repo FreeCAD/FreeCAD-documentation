@@ -69,7 +69,7 @@ Il comando **Importa** importa la geometria da un diverso formato di file nel do
 
 }}  
 
-[Category:File\_Formats](Category:File_Formats.md)
+_
 
 ---
-[documentation index](../README.md) > [File_Formats](Category:File_Formats.md) > Std Import/it
+[documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Std Import/it

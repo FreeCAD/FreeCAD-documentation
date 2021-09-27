@@ -35,7 +35,7 @@ Odsunięcie obrazu może być ustawione podczas importu lub zmienione później 
 
 }} 
 
-[Category:Workbenches](Category:Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > Image Workbench/pl
+[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Image Workbench/pl

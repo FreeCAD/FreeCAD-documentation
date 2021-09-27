@@ -84,7 +84,7 @@ The uninstall sequence is as follows:
 
 
 
-[Category:External\_Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)
+_ _
 
 ---
-[documentation index](../README.md) > ModernUI Workbench/fr
+[documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > ModernUI Workbench/fr

@@ -3,13 +3,13 @@
 
 ## Упрощённая среда разработки для Python в FreeCAD 
 
-[Python](wikipedia:Python_(programming_language).md) is a programming environment which has been incorporated into the [FreeCAD](http://www.freecadweb.org/) system. Using Python many operations offered by FreeCAD are available for programmatic access. Python programs for FreeCAD are usually developed to be either run on the Python console or through the Macro facility of FreeCAD (see [How to install macros](How_to_install_macros.md)).
+_ is a programming environment which has been incorporated into the _).
 
 There are numerous tools available for program development in Python. The complicating factors for developing Python to use with FreeCAD are twofold: first the tools do not have any support for the numerous data structures and access points of FreeCAD; secondly they do not work \"within FreeCAD\". This means that you can use them to develop code outside of FreeCAD and not be able to test in the target environment; or you can develop Python in the target environment (i.e. the FreeCAD environment) but not have any support from the development tools. Neither of these is an acceptable solution.
 
 ## Background
 
-Modern software development at the commercial standard is usually done using a set of tools generically referred to as [\'IDE\'](wikipedia:Integrated_development_environment.md). Typically these tools include the following 3:
+Modern software development at the commercial standard is usually done using a set of tools generically referred to as _. Typically these tools include the following 3:
 
 -   source code editor
 -   build automation tools
@@ -288,7 +288,7 @@ FreeCAD.ParamGet('User parameter:BaseApp/Preferences/Macro').SetString('MacroPat
 
 **'''A debugger is planned for FreeCAD and these steps are a work-around until it is available. See github.com/mumme74/FreeCAD/tree/editor_fixes'''**
 
-[Debuggers](wikipedia:Debugger.md) typically provide two main features (amongst others):
+_ typically provide two main features (amongst others):
 
 -   breakpoints in the source code
 -   variable inspection
@@ -551,7 +551,7 @@ Some other links about IDEs for Python which might be of interest are:
 
  
 
-[Category:Poweruser Documentation](Category:Poweruser_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Poweruser Documentation](Category:Poweruser Documentation.md) > Python Development Environment/ru
+[documentation index](../README.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > Python Development Environment/ru

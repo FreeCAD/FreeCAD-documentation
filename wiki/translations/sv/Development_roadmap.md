@@ -3,7 +3,7 @@
 
 FreeCAD, är, fastän det redan är användbart inom vissa områden, i början av en lång väg till huvudvägen inom CAD. Det finns fortfarande mycket att göra för att nå en status där vi kan tävla med kommersiell mjukvara.
 
-Denna sektion ger dig en översikt av vad som är planerat och ger dig tillfället att medverka eller ge din åsikt. Eftersom vi är volontärer för FreeCAD så har vi bara en viss tid för det. Så om du är intresserad i något av ämnena och är villig att hjälpa till, låt oss veta! Vi använder [saker gjorda](http://en.wikipedia.org/wiki/GTD%7CFå) stilen för projektdokumentet. Här är [Projektmallen](Project_template/sv.md).
+Denna sektion ger dig en översikt av vad som är planerat och ger dig tillfället att medverka eller ge din åsikt. Eftersom vi är volontärer för FreeCAD så har vi bara en viss tid för det. Så om du är intresserad i något av ämnena och är villig att hjälpa till, låt oss veta! Vi använder _.
 
 -   The [Organization chart](Organization_chart.md) shows who does what in the FreeCAD universe.
 -   Du kan följa de saker som vi arbetar med på [tracker](http://www.freecadweb.org/tracker/roadmap_page.php).
@@ -43,7 +43,7 @@ Som i de flesta [FLOSS](http://en.wikipedia.org/wiki/FLOSS) projekt så är slä
 
 
 
-[Category:Roadmap](Category:Roadmap.md)
+_
 
 ---
-[documentation index](../README.md) > [Roadmap](Category:Roadmap.md) > Development roadmap/sv
+[documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > Development roadmap/sv

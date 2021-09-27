@@ -1137,7 +1137,7 @@ cd bin
 
 <div class="mw-collapsible-content">
 
-Veröffentlicht von Benutzer [http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=3666 PrzemoF](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=3666_PrzemoF.md) im Forum.
+Veröffentlicht von Benutzer _ im Forum.
 
 
 {{Code|lang=bash|code=
@@ -1212,7 +1212,7 @@ Um FreeCAD auf den neuesten Stand zu bringen, wiederhole einfach ab Schritt 3. A
 
 
 
-[Category:Developer\_Documentation](Category:Developer_Documentation.md) [Category:Developer](Category:Developer.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Developer_Documentation](Category:Developer_Documentation.md) > Compile on Linux/de
+[documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > Compile on Linux/de

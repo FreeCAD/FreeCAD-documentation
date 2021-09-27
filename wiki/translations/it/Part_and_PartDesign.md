@@ -3,7 +3,7 @@
 
 ## Descrizione
 
-Ci sono state molte discussioni nel corso degli anni sulle differenze e le ramificazioni dell\'uso degli ambienti <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part](Part_Workbench/it.md) e <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench/it.md).
+Ci sono state molte discussioni nel corso degli anni sulle differenze e le ramificazioni dell\'uso degli ambienti <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> _.
 
 È una buona idea usare l\'uno o l\'altro finché l\'utente non è a suo agio con uno, poi impara l\'altro. È anche tipicamente raccomandato che i nuovi utenti non li confondano finché non hanno capito le differenze.
 

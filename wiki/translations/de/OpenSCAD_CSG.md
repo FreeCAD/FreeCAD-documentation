@@ -39,7 +39,7 @@ Jedes von Part::Feature abgeleitete Objekt, das (noch) nicht unterstützt wird, 
 
  {{OpenSCAD Tools navi}}
 
-[Category:File\_Formats](Category:File_Formats.md)
+_
 
 ---
-[documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD CSG/de
+[documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD CSG/de

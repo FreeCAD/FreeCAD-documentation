@@ -22,7 +22,7 @@
 5.  Offset this part by 2 mm along the Z-axis (via **Placement → Position → z**).
 6.  Select both solids (using the **Shift** key + mouse click) and create <img alt="" src=images/Part_BooleanFragments.svg  style="width:24px;"> [Boolean Fragments](Part_BooleanFragments.md) from them
 7.  Rename these Boolean Fragments to `bimetal strip`
-8.  In the [Property editor](Property_editor.md), we change the mode from **Standard** to **CompSolid**. (It should also work by using the [Part Compound](Part_Compound.md) command instead of <img alt="" src=images/Part_BooleanFragments.svg  style="width:24px;"> [Boolean Fragments](Part_BooleanFragments.md), however, with more complex intersecting shapes, there might be trouble with the FEM analysis later. So, better get used to using Boolean Fragments in the first place.) The result should look like this:
+8.  In the _, however, with more complex intersecting shapes, there might be trouble with the FEM analysis later. So, better get used to using Boolean Fragments in the first place.) The result should look like this:
 
 <img alt="" src=images/Transient_FEM_Bimetal_(1).JPG  style="width:700px;">
 

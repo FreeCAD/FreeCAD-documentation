@@ -70,7 +70,7 @@ Si vous sélectionnez le document actif et cliquez avec le bouton droit, en plus
 
 -    **Mark to recompute**: marque tous les objets du document comme touchés et prêts pour [recalcul](Std_Refresh/fr.md).
 
--    **[Créer un groupe](Std_Group/fr.md)**: crée un [groupe](Std_Group/fr.md) dans le document sélectionné en utilisant la méthode `addObject()` du document.
+-    **_ dans le document sélectionné en utilisant la méthode `addObject()` du document.
 
 ### Sélection d\'objets 
 
@@ -78,19 +78,19 @@ Une fois les objets ajoutés au document, en plus des actions précédentes, un 
 
 Par exemple, avec [Atelier Draft](Draft_Workbench/fr.md) actif, sélectionnez d\'abord un objet, puis cliquez avec le bouton droit sur un emplacement vide dans l\'arborescence :
 
--    **[Basculer la visibilité](Std_ToggleVisibility/fr.md)**: rend l\'objet visible ou invisible dans la [vue 3D](3D_view/fr.md).
+-    **_.
 
 -    **[Afficher la sélection](Std_ShowSelection/fr.md)**: rend les objets sélectionnés visibles.
 
 -    **[Masquer la sélection](Std_HideSelection/fr.md)**: rend les objets sélectionnés invisibles.
 
--    **[Basculer la sélectivité](Std_ToggleSelectability/fr.md)**: rend l\'objet non sélectionnable dans la [vue 3D](3D_view/fr.md). Utilisez à nouveau cette commande pour annuler son effet. Il définit l\'attribut `Selectable` de l\'objet sur `True` ou `False`. Modifiez la propriété en basculant {{PropertyView/fr|Selectable}} dans l\'[Éditeur de propriétés](Property_editor/fr.md).
+-    **_. Utilisez à nouveau cette commande pour annuler son effet. Il définit l\'attribut `Selectable` de l\'objet sur `True` ou `False`. Modifiez la propriété en basculant {{PropertyView/fr|Selectable}} dans l\'[Éditeur de propriétés](Property_editor/fr.md).
 
 -    **[Select all instances](Std_TreeSelectAllInstances.md)**: sélectionne toutes les instances de cet objet dans l\'arborescence.
 
 -    **[Apparence](Std_SetAppearance/fr.md)**: ouvre la boîte de dialogue pour changer la couleur et la taille des lignes et des sommets et la couleur des faces.
 
--    **[Couleur aléatoire](Std_RandomColor/fr.md)**: attribue une couleur aléatoire à l\'objet. Il définit l\'attribut `ShapeColor` de l\'objet sur un tuple `(r,g,b)` avec des arborescences aléatoires entre 0 et 1. Modifiez la propriété en modifiant {{PropertyView/fr|Shape Color}} dans l\'[Éditeur de propriétés](Property_editor/fr.md).
+-    **_.
 
 -    **[Couper](Std_Cut.md)**: désactivé si le clic droit n\'est pas sur l\'objet.
 

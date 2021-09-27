@@ -1,6 +1,6 @@
 # Draft Circle/cs
 ---
-- GuiCommand:/cs   Name:Draft_Circle   Name/cs:Kreslení_Kružnice   Workbenches:[Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation:Kreslení -> Kružnice   Shortcut:C I   SeeAlso:[Kreslení oblouk](Draft_Arc/cs.md)---
+- GuiCommand:/cs   Name:Draft_Circle   Name/cs:Kreslení_Kružnice   Workbenches:_---
 
 
 </div>
@@ -12,7 +12,7 @@
 
 ## Popis
 
-Nástroj Kružnice vytváří kružnici v aktuální [pracovní rovině](Draft_SelectPlane/cs.md) zadáním dvou bodů: střed a poloměr nebo zadáním tečen nebo kombinací obou způsobů. Použije se [tloušťka čáry a barva](Draft_Linestyle/cs.md) předem zadaná v záložce Nástrojů. Tento nástroj pracuje stejně jako nástroj [Oblouk](Draft_Circle/cs.md), kromě toho, že se končí po zadání poloměru.
+Nástroj Kružnice vytváří kružnici v aktuální _ předem zadaná v záložce Nástrojů. Tento nástroj pracuje stejně jako nástroj [Oblouk](Draft_Circle/cs.md), kromě toho, že se končí po zadání poloměru.
 
 
 </div>

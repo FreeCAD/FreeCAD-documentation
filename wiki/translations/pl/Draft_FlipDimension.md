@@ -26,7 +26,7 @@ Narzędzie <img alt="" src=images/Draft_FlipDimension.svg  style="width:24px;"> 
 
 ## Tworzenie skryptów 
 
-Zobacz również stronę: [Dokumentacja API generowana automatycznie](https://freecad.github.io/SourceDoc/) oraz [Podstawy tworzenia skryptów FreeCAD](FreeCAD_Scripting_Basics/pl.md).
+Zobacz również stronę: _.
 
 Aby odwrócić [wymiar](Draft_Dimension/pl.md) należy zmienić jego właściwość `Normal`.
 

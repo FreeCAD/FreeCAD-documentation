@@ -12,7 +12,7 @@
 
 ## Descrizione
 
-Il comando **Std AddonMgr** apre Addon manager. Con il gestore degli addon è possibile installare e gestire gli [ambienti esterni](external_workbenches/it.md) e le [macro](macros/it.md) forniti dalla comunità di FreeCAD. Gli ambienti e le macro disponibili sono presi da due repository, [FreeCAD-addons](https://github.com/FreeCAD/FreeCAD-addons/) e [FreeCAD-macros](https://github.com/FreeCAD/FreeCAD-macros/), e dalla pagina [Raccolta di macro](Macros_recipes/it.md).
+Il comando **Std AddonMgr** apre Addon manager. Con il gestore degli addon è possibile installare e gestire gli _.
 
 
 <div class="mw-translate-fuzzy">
@@ -22,7 +22,7 @@ Si noti che gli addon contrassegnati come {{emphasis|Solo Python 2}} non funzion
 
 </div>
 
-Due to changes to the GitHub platform in the year 2020 the Addon manager no longer works if you use FreeCAD version 0.17 or earlier. You need to upgrade to version [0.18.5](https://github.com/FreeCAD/FreeCAD/releases/tag/0.18.5) or a recent [0.19](https://github.com/FreeCAD/FreeCAD/releases/tag/0.19_pre) version. Alternatively you can install addons manually, see [Notes](#Notes.md) below.
+Due to changes to the GitHub platform in the year 2020 the Addon manager no longer works if you use FreeCAD version 0.17 or earlier. You need to upgrade to version _ below.
 
 ![](images/Std_AddonMgr_dialog.png ) *La finestra di dialogo di Gestione de componenti aggiuntivi*
 
@@ -75,7 +75,7 @@ La finestra di Addon manager ha due schede a sinistra, una che elenca gli ambien
 
 ## Informazioni per gli sviluppatori 
 
-Se avete sviluppato un workbench o una macro e volete vederlo incluso in Addon manager, leggete come farlo nelle pagine del repository ([FreeCAD-addons](https://github.com/FreeCAD/FreeCAD-addons/) e [FreeCAD-macros](https://github.com/FreeCAD/FreeCAD-macros/)). Se aggiungete la vostra macro a [Raccolta di macro](Macros_recipes.md), non dovete fare nient\'altro, essa verrà automaticamente selezionata da Addon manager.
+Se avete sviluppato un workbench o una macro e volete vederlo incluso in Addon manager, leggete come farlo nelle pagine del repository (_, non dovete fare nient\'altro, essa verrà automaticamente selezionata da Addon manager.
 
 ### Ambienti di lavoro in Python 
 

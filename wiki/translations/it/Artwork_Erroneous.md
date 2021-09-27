@@ -23,7 +23,7 @@ Per tutte le icone nell\'albero del codice sorgente, vedere [Oggetti grafici](Ar
 
 }}
 
-[Category:Icon](Category:Icon.md) [Category:Developer Documentation](Category:Developer_Documentation.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Icon](Category:Icon.md) > Artwork Erroneous/it
+[documentation index](../README.md) > [Icon](Category_Icon.md) > Artwork Erroneous/it

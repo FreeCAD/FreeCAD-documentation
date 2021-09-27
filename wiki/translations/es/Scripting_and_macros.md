@@ -10,10 +10,10 @@
 ## Vista general de las páginas de scripts de Python 
 
 -   Páginas relacionadas con la pitón en el Manual:
-    -   [Una introducción suave](Manual:A_gentle_introduction/es.md)
-    -   [Creando y manipulando la geometría](Manual:Creating_and_manipulating_geometry/es.md)
-    -   [Creando objetos paramétricos](Manual:Creating_parametric_objects/es.md)
-    -   [Creando herramientas de interfaz](Manual:Creating_interface_tools/es.md)
+    -   _
+    -   _
+    -   _
+    -   _
 
 -   Basics:
     -   [Working with macros](Macros.md)
@@ -29,8 +29,8 @@
     -   [Mesh: Converting between Meshes and Parts](Mesh_to_Part.md)
     -   [Part scripting](Part_scripting.md)
     -   [Part: Basic shape manipulation](Topological_data_scripting.md)
-    -   [Part: Create a ball bearing part I](Scripted_Parts:_Ball_Bearing_-_Part_1.md)
-    -   [Part: Create a ball bearing part II](Scripted_Parts:_Ball_Bearing_-_Part_2.md)
+    -   _
+    -   _
     -   [Path scripting](Path_scripting.md)
     -   [Raytracing scripting](Raytracing_API_example.md) (**the Raytracing workbench is obsolete**)
     -   [Sketcher scripting](Sketcher_scripting.md)
@@ -45,7 +45,7 @@
     -   [Viewprovider](Viewprovider.md)
     -   [Custom icon in tree view](Custom_icon_in_tree_view.md)
     -   [Properties](Property.md)
-    -   [PropertyLink: InList and OutList](PropertyLink:_InList_and_OutList.md)
+    -   _
     -   [Methods](FeaturePython_methods.md)
 
 -   [3D view](3D_view.md):
@@ -104,7 +104,7 @@
 
 }} 
 
-[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Scripting and macros/es
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Scripting and macros/es

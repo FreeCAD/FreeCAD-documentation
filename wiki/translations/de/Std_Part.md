@@ -21,7 +21,7 @@ Das \'Std Part\'-Element wurde entwickelt, um als Fundament zur Zusammenstellung
 
 Obwohl es vorläufig für Festkörper gedacht ist, kann \'Std Part\' zur Handhabung jedes Objektes verwendet werden, das eine [Positionierungseigenschaft](Placement/de.md) hat. Deshalb kann es auch [Polygonnetz Formelement](Mesh_Feature/de.md), [Skizzen](Sketch/de.md) und andere Objekte enthalten, die aus [App GeoFeature](App_GeoFeature.md) kommen.
 
-Die **<img src=images/PartDesign_Body.svg style="width:16px"> <img src=images/Std_Part.svg style="width:PartDesign Körper](PartDesign_Body/de.md)**-Schaltfläche darf nicht mit der **[16px"> [Std Part](Std_Part/de.md)**-Schaltfläche verwechselt werden. Das erste ist ein entsprechendes Objekt aus dem <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign Arbeitsbereich](PartDesign_Workbench/de.md), um ein [einzeln zusammenhängenden Körper](PartDesign_Body/de#Einzeln_zusammenhängender_Körper.md) als [PartDesign Formelemente](PartDesign_Feature/de.md) zu erstellen. Beim anderen wird [Standard Teil](Std_Part/de.md) nicht zur Erstellung von Objekten verwendet, sondern um unterschiedliche Objekte zur Erzeugung von [Baugruppen](assembly/de.md) im Raum zu positionieren.
+Die **<img src=images/PartDesign_Body.svg style="width:16px"> <img src=images/Std_Part.svg style="width:PartDesign Körper](PartDesign_Body/de.md)**-Schaltfläche darf nicht mit der **_, um ein [einzeln zusammenhängenden Körper](PartDesign_Body/de#Einzeln_zusammenhängender_Körper.md) als [PartDesign Formelemente](PartDesign_Feature/de.md) zu erstellen. Beim anderen wird [Standard Teil](Std_Part/de.md) nicht zur Erstellung von Objekten verwendet, sondern um unterschiedliche Objekte zur Erzeugung von [Baugruppen](assembly/de.md) im Raum zu positionieren.
 
 Das Werkzeug **<img src=images/Std_Part.svg style="width:16px"> <img src=images/Std_Group.svg style="width:Std Part](Std_Part/de.md)** wird nicht durch einen bestimmten Arbeitsbereich festgelegt, sondern durch das Grundsystem. Daher befindet es sich in der **structure toolbar**, die es in allen [Arbeitsbereichen](Workbenches/de.md) gibt. Mit der Schaltfläche **[16px"> [Std Gruppe](Std_Group/de.md)** können Objekte in der Baumansicht frei gruppiert werden, ohne ihre Position zu berücksichtigen. Dieses Objekt beeinflußt die Positionen seiner Elemente nicht. Es ist im wesentlichen nur ein Ordner mit dem die [Baumansicht](tree_view/de.md) geordnet werden kann.
 
@@ -49,7 +49,7 @@ Das Werkzeug **<img src=images/Std_Part.svg style="width:16px"> <img src=images/
 
 ## Eigenschaften
 
-Ein [Std Teil](Std_Part/de.md) wird intern [App Part](App_Part.md)(`App::Part` Klasse) genannt und stammt aus einer [App GeoFeature](App_GeoFeature.md) (`App::GeoFeature` Klasse). Deshalb hat es die meisten Eigenschaften mit letzterem gemein.
+Ein _ (`App::GeoFeature` Klasse). Deshalb hat es die meisten Eigenschaften mit letzterem gemein.
 
 Zusätzlich zu den Eigenschaften, die in [App GeoFeature](App_GeoFeature.md) beschrieben sind, hat die \'App Part Klasse\' einige Eigenschaften, die helfen, Informationen im Zusammenhang mit dem Zusammenbau zu verwalten, z.B. **Type**, **Id**, **License**, **LicenseURL**, **Color** und **Group**.
 
@@ -171,7 +171,7 @@ Der Ursprung besteht aus den drei Standardachsen (X, Y, Z) und drei Standardeben
 ![](images/Part_Origin_tree.png ) ![](images/Part_Origin_view.png )
 
 
-*Links: Teil Ursprung in der [Baumansicht](tree_view/de.md). Rechts: Ansicht der Ursprungselemente in der [3D-Ansicht](3D_view/de.md).*
+*Links: Teil Ursprung in der _.*
 
 
 **Hinweis:**
@@ -187,11 +187,11 @@ alle Elemente innerhalb einer Zusammenstellung beziehen sich auf den Ursprung de
 
 Die Sichtbarkeit der Zusammenstellung verdrängt die Sichtbarkeit jedes darin enthaltenen Objekts. Wenn die Zusammenstellung ausgeblendet ist, werden auch die darin enthaltenen Objekte ausgeblendet, auch wenn ihre jeweilige Eigenschaft **Sichtbarkeit** auf `True` (wahr) gesetzt ist. Ist die Zusammenstellung sichtbar, entscheidet die Eigenschaft **Sichtbarkeit** jedes Objektes, ob das Objekt angezeigt wird oder nicht.
 
-![](images/Part_Visibility_off.png ) ![](images/Part_Visibility_on.png ) *Die Sichtbarkeitseigenschaft von 'Std Part' entscheidet, ob die Objekte, die unter der Zusammenstellung zusammengestellt sind, in der [3D-Ansicht](3D_view/de.md) angezeigt werden oder nicht. Links: die Zusammenstellung ist verborgen und keines der Objekte wird in der [3D-Ansicht](3D_view/de.md) angezeigt. Rechts: die Zusammenstellung ist sichtbar und jedes Objekt kontrolliert seine Sichtbarkeit selbst.*
+!_ angezeigt. Rechts: die Zusammenstellung ist sichtbar und jedes Objekt kontrolliert seine Sichtbarkeit selbst.*
 
 ### Vererbung
 
-[Std Part](Std_Part.md) ist formell eine Instanz der Klasse `App::Part`, deren Elternteil die Basisklasse [App GeoFeature](App_GeoFeature.md)(`App::GeoFeature`) ist und um eine Origin-Erweiterung erweitert wird.
+_(`App::GeoFeature`) ist und um eine Origin-Erweiterung erweitert wird.
 
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
 

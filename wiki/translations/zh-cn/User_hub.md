@@ -11,7 +11,7 @@
 
 <div class="mw-translate-fuzzy">
 
-如果你想要为 FreeCAD 作出贡献，请参阅 [帮助FreeCAD页面](Help_FreeCAD/zh-cn.md)。如果你想编辑这个维基，请到 [论坛](https://forum.freecadweb.org/viewtopic.php?f=21&t=6830) 中请求一个具有编辑权限的维基账号，并且你遵循 [WikiPages](WikiPages.md) 中描述的通用指引进行编辑。
+如果你想要为 FreeCAD 作出贡献，请参阅 _ 中描述的通用指引进行编辑。
 
 
 </div>
@@ -26,7 +26,7 @@
 <div class="mw-translate-fuzzy">
 
 -   [应用总览](About_FreeCAD/zh-cn.md): FreeCAD概况的一个通览。
--   [安装应用](Installing/zh-cn.md): 怎样把FreeCAD安装在[Windows](Install_on_Windows/zh-cn.md), [Linux和](Install_on_Linux/zh-cn.md)[Mac系统上](Install_on_Mac/zh-cn.md)。
+-   _, [Linux和](Install_on_Linux/zh-cn.md)[Mac系统上](Install_on_Mac/zh-cn.md)。
 -   [帮助文件的安装](Installing_Helpfile/zh-cn.md): 怎样安装基于这个维基的离线文档
 -   [起步入门](Getting_started/zh-cn.md): 对各种好用的工具建立一个总体印象。
 -   [常见提问](FAQ.md): 经常被问到的题目，这里有答案。
@@ -190,7 +190,7 @@ When many macros or functions are developed together, and are organized in toolb
 
 
 
-[Category:Hubs](Category:Hubs.md)
+_
 
 ---
-[documentation index](../README.md) > [Hubs](Category:Hubs.md) > User hub/zh-cn
+[documentation index](../README.md) > [Hubs](Category_Hubs.md) > User hub/zh-cn

@@ -130,7 +130,7 @@ Weil das FreeCAD-Python-Modul aus C++ kompiliert wurde (anstatt ein reines Pytho
 
 }} 
 
-[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Embedding FreeCAD/de
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Embedding FreeCAD/de

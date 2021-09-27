@@ -10,7 +10,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Il vincolo **Blocca** applica un vincolo <img alt="" src=images/Constraint_HorizontalDistance.svg  style="width:24px;"> [Distanza orizzontale](Sketcher_ConstrainDistanceX/it.md) e un vincolo <img alt="" src=images/Constraint_VerticalDistance.svg  style="width:24px;"> [Distanza verticale](Sketcher_ConstrainDistanceY/it.md) ai vertici (punti) selezionati nello schizzo. Se viene selezionato un singolo vertice, i vincoli di distanza orizzontale e verticale si riferiscono al punto di origine dello schizzo. Se vengono selezionati due o più punti, verranno aggiunti i vincoli di distanza orizzontale e verticale per ogni coppia di punti. Non esiste un sistema automatico per modificare i valori dei vincoli, essi devono essere modificati manualmente.
+Il vincolo **Blocca** applica un vincolo <img alt="" src=images/Constraint_HorizontalDistance.svg  style="width:24px;"> _ ai vertici (punti) selezionati nello schizzo. Se viene selezionato un singolo vertice, i vincoli di distanza orizzontale e verticale si riferiscono al punto di origine dello schizzo. Se vengono selezionati due o più punti, verranno aggiunti i vincoli di distanza orizzontale e verticale per ogni coppia di punti. Non esiste un sistema automatico per modificare i valori dei vincoli, essi devono essere modificati manualmente.
 
 
 </div>
@@ -31,7 +31,7 @@ Il vincolo **Blocca** applica un vincolo <img alt="" src=images/Constraint_Horiz
 
 ## Scripting
 
-The <img alt="" src=images/Sketcher_ConstrainLock.svg  style="width:24px;"> [Lock](Sketcher_ConstrainLock.md) constraint is a GUI command which creates a <img alt="" src=images/Sketcher_ConstrainDistanceX.svg  style="width:24px;"> [Horizontal distance](Sketcher_ConstrainDistanceX.md) and a <img alt="" src=images/Sketcher_ConstrainDistanceY.svg  style="width:24px;"> [Vertical distance](Sketcher_ConstrainDistanceY.md) constraint, it is not a constraint of its own. See the [Sketcher scripting](Sketcher_scripting.md) page for details and examples on how to create these constraints from Python scripts.
+The <img alt="" src=images/Sketcher_ConstrainLock.svg  style="width:24px;"> _ and a <img alt="" src=images/Sketcher_ConstrainDistanceY.svg  style="width:24px;"> [Vertical distance](Sketcher_ConstrainDistanceY.md) constraint, it is not a constraint of its own. See the [Sketcher scripting](Sketcher_scripting.md) page for details and examples on how to create these constraints from Python scripts.
 
 
 <div class="mw-translate-fuzzy">

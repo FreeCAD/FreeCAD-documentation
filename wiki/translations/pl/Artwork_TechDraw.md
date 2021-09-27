@@ -30,7 +30,7 @@ The [TechDraw Workbench](TechDraw_Workbench.md) comes with a number of default t
 
 }} 
 
-[Category:TechDraw](Category:TechDraw.md)
+_
 
 ---
-[documentation index](../README.md) > [TechDraw](Category:TechDraw.md) > Artwork TechDraw/pl
+[documentation index](../README.md) > [TechDraw](Category_TechDraw.md) > Artwork TechDraw/pl

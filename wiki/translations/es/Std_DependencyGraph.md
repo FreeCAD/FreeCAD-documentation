@@ -107,7 +107,7 @@ Puede guardar un gráfico dependencia:
 
 }}  
 
-[Category:3rd Party](Category:3rd_Party.md)
+_
 
 ---
-[documentation index](../README.md) > [3rd Party](Category:3rd Party.md) > Std DependencyGraph/es
+[documentation index](../README.md) > [3rd Party](Category_3rd Party.md) > Std DependencyGraph/es

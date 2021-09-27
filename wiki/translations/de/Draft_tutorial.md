@@ -71,7 +71,7 @@ Vor dem drücken der Taste kannst du auch den Wert des Versatzes in Millimetern 
 5\. Wir werden nun ein geschlossenes Profil erzeugen, indem wir die Bögen mit Linien verbinden.
 
 :   5.1. Drücke **<img src=images/Draft_Line.svg style="width:16px"> [Linie](Draft_Line/de.md)**.
-:   5.2. Stelle in der Werkzeugleiste <img src=images/Draft_ToggleSnap.svg style="width:Fang](Draft_Snap/de.md) sicher, dass **[16px"> <img src=images/Draft_Endpoint.svg style="width:Fang umschalten](Draft_ToggleSnap/de.md)** aktiv ist, und nur **[16px"> [Endpunkt](Draft_Endpoint/de.md)** ebenfalls. Wenn du den Zeiger auf einen Endpunkt eines Bogens bewegst, sollte das <img alt="" src=images/Draft_Endpoint.svg  style="width:24px;"> Symbol [Endpunkt](Draft_Endpoint/de.md) erscheinen. Klicke diesen Punkt zum auswählen .
+:   5.2. Stelle in der Werkzeugleiste <img src=images/Draft_ToggleSnap.svg style="width:Fang](Draft_Snap/de.md) sicher, dass **_ erscheinen. Klicke diesen Punkt zum auswählen .
 :   5.3. Bewege den Zeiger auf den nächstgelegenen Endpunkt des anderen Bogens, um die beiden Bögen miteinander zu verbinden.
 :   5.4. Wiederhole den Vorgang für die andere Seite des Bogens, um das Profil zu schließen.
 
@@ -151,13 +151,13 @@ Lineare Bemaßungen funktionieren am besten, wenn die geeigneten [Entwurf Fang](
 
 :   11.1. Drücke **<img src=images/Draft_Dimension.svg style="width:16px"> [Bemaßung](Draft_Dimension/de.md)**.
 :   11.2. Nimm den ersten Punkt. In diesem Tutorial wird der erste Punkt immer der Ursprung sein. {{Value|(0, 0, 0)}}.
-:   11.3. In der <img src=images/Draft_Snap_Lock.svg style="width:Fang Werkzeugleiste](Draft_Snap/de.md) stelle sicher das **[16px"> <img src=images/Draft_Snap_Midpoint.svg style="width:Umschalten Fang](Draft_Snap_Lock/de.md)** aktiv ist, und ebenso nur **[16px"> [Mittelpunkt](Draft_Snap_Midpoint/de.md)**. Sowie du den Zeiger auf die Oberkante des Polygons bewegst, sollte das <img alt="" src=images/Draft_Snap_Midpoint.svg  style="width:24px;"> [Mittelpunkt](Draft_Snap_Midpoint/de.md) Symbol erscheinen; klicke, um diesen Punkt auszuwählen.
+:   11.3. In der <img src=images/Draft_Snap_Lock.svg style="width:Fang Werkzeugleiste](Draft_Snap/de.md) stelle sicher das **_ Symbol erscheinen; klicke, um diesen Punkt auszuwählen.
 :   11.4. Bewege den Cursor nach rechts, um die Position der Abmessung anzugeben, und klicke dann, um die Endposition um {{Value|(100, 20, 0)}} festzulegen. Die Bemaßung zeigt automatisch den zwischen den beiden Punkten gemessenen Längenwert an.
 :   11.5. Wähle das Bemaßungsobjekt in der [Baumansicht](tree_view/de.md), und im [Eigenschaftseditor](Property_editor/de.md), wechsle **Schriftgröße** auf {{Value|6 mm}}, setze **Ext Linien** auf {{Value|45 mm}}, und **Anzeige Einheit** auf `False`.
 
 12\. Wiederhole den Vorgang für die beiden Bögen des geschlossenen Profils. Der erste Punkt der Messung ist immer noch der Ursprung, und der zweite Punkt verwendet den <img alt="" src=images/Draft_Snap_Midpoint.svg  style="width:24px;"> [Mittelpunkt](Draft_Snap_Midpoint/de.md) des Bogens.
 
-13\. Wiederhole den Vorgang für den Kreis in der Mitte. Der erste Punkt der Messung ist immer noch der Ursprung. Um den zweiten Punkt auszuwählen, stelle sicher, dass **<img src=images/Draft_Snap_Lock.svg style="width:16px"> <img src=images/Draft_Snap_Angle.svg style="width:Umschalten Fang](Draft_Snap_Lock/de.md)** aktiv ist, und ebenso nur **[16px"> [Winkel](Draft_Snap_Angle/de.md)**. Sobald du den Zeiger an den oberen Rand des Kreises bewegst, sollte das <img alt="" src=images/Draft_Snap_Angle.svg  style="width:24px;"> [Winkel](Draft_Snap_Angle/de.md) Symbol erscheinen; klicke, um diesen Punkt auszuwählen. Bewege dann den Cursor nach rechts, und klicke, um die Bemaßung zu fixieren.
+13\. Wiederhole den Vorgang für den Kreis in der Mitte. Der erste Punkt der Messung ist immer noch der Ursprung. Um den zweiten Punkt auszuwählen, stelle sicher, dass **<img src=images/Draft_Snap_Lock.svg style="width:16px"> <img src=images/Draft_Snap_Angle.svg style="width:Umschalten Fang](Draft_Snap_Lock/de.md)** aktiv ist, und ebenso nur **_ Symbol erscheinen; klicke, um diesen Punkt auszuwählen. Bewege dann den Cursor nach rechts, und klicke, um die Bemaßung zu fixieren.
 
 Denke daran, die **Schriftgröße** und andere Eigenschaften anzupassen, damit die Bemaßung korrekt angezeigt wird.
 
@@ -169,7 +169,7 @@ Denke daran, die **Schriftgröße** und andere Eigenschaften anzupassen, damit d
 14\. Textobjekte sind einfache planare Figuren, die in der [3D Ansicht](3D_view/de.md) erstellt werden, aber keine tatsächliche \"[Form](Shape/de.md)\" darunter haben. Das bedeutet, dass sie nicht in komplexen Operationen mit Formen wie Extrusionen oder booleschen Operationen verwendet werden können.
 
 :   14.1. Drücke **<img src=images/Draft_Text.svg style="width:16px"> [Text](Draft_Text/de.md)**.
-:   14.2. Wähle den Referenzpunkt in der <img src=images/Draft_Snap_Lock.svg style="width:3D Ansicht](3D_view/de.md). In der [Fang Werkzeugleiste](Draft_Snap/de.md) stelle sicher das **[16px"> <img src=images/Draft_Snap_Midpoint.svg style="width:Umschalten Fang](Draft_Snap_Lock/de.md)** aktiv ist, und ebenfalls nur **[16px"> [Mittelpunkt](Draft_Snap_Midpoint/de.md)**. Bewege den Mauszeiger auf die Oberkante des höchsten Bogens, so dass das <img alt="" src=images/Draft_Snap_Midpoint.svg  style="width:24px;"> [Mittelpunkt](Draft_Snap_Midpoint/de.md) Symbol erscheint; klicke um diesen Punkt auszuwählen.
+:   14.2. Wähle den Referenzpunkt in der <img src=images/Draft_Snap_Lock.svg style="width:3D Ansicht](3D_view/de.md). In der _** aktiv ist, und ebenfalls nur **_ Symbol erscheint; klicke um diesen Punkt auszuwählen.
 :   14.3. Gib den gewünschten **Text** ein und drücke einmal **Enter**, um eine neue Zeile zu beginnen; füge bei Bedarf weitere Textzeilen hinzu.
 :   14.4. Wenn du mit der Ausgabe fertig bist, drücke zweimal **Enter**.
 :   14.5. Wähle das Textobjekt in der [Baumansicht](tree_view/de.md) aus, und ändere im [Eigenschaftseditor](Property_editor/de.md) **Schriftgröße** in {{Value|6 mm}} und **Ausrichtung** in {{Value|Center}}.

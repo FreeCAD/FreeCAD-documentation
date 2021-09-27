@@ -42,7 +42,7 @@ El propósito de este explorador es simplemente permitirte comprobar lo que real
 
  
 
-[Category:BIM](Category:BIM.md)
+_
 
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch IfcExplorer/es
+[documentation index](../README.md) > [BIM](Category_BIM.md) > [Arch](Arch_Workbench.md) > Arch IfcExplorer/es

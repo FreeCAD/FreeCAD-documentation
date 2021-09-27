@@ -64,7 +64,7 @@ New workbenches are in development, stay tuned!
 
  
 
-[Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+_ _
 
 ---
-[documentation index](../README.md) > MOOC Workbench/pl
+[documentation index](../README.md) > [Addons](Category_Addons.md) > MOOC Workbench/pl

@@ -12,7 +12,7 @@ Modeling a complete engine (ongoing tutorial):
 
 
 
-[Category:Tutorials/en](Category:Tutorials/en.md)
+_
 
 ---
 [documentation index](../README.md) > Engine tutorial/en

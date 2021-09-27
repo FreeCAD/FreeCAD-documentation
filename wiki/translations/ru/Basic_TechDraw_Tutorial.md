@@ -2,7 +2,7 @@
 {{TutorialInfo/ru
 |Topic=Моделирование
 |Level=Для начинающих
-|Author=[WandererFan](User:WandererFan.md)
+|Author=_
 |Time=Меньше часа
 |FCVersion=0.17 и выше
 |Files=[https://github.com/FreeCAD/Examples/blob/master/Basic_Part_Design_Tutorial_Example_017_Files/Basic_Part_Design_Tutorial_017.fcstd Разработка простой детали Basic в v0.17 Пример]<br />[https://github.com/FreeCAD/Examples/blob/master/Basic_TechDraw_Tutorial_Example_Files/Basic_TechDraw_Tutorial.fcstd Простое TechDraw руководство Пример]
@@ -168,7 +168,7 @@
 
 ## Идём дальше 
 
-В этом руководстве вы узнали достаточно о TechDraw, чтобы создать рисунок, подобный этому (by [NormandC](User:Normandc.md)). Смотрите примечание 2.
+В этом руководстве вы узнали достаточно о TechDraw, чтобы создать рисунок, подобный этому (by _). Смотрите примечание 2.
 
 ![](images/TDTut_FC018_TechDraw_Dim_Iso_View_01_NC.png )
 

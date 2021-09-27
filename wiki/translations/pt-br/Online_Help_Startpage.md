@@ -19,7 +19,7 @@ Como você pode ter experimentado algumas vezes, os programadores não sabem esc
 
 
 
-[Category:User\_Documentation](Category:User_Documentation.md)
+_
 
 ---
-[documentation index](../README.md) > [User_Documentation](Category:User_Documentation.md) > Online Help Startpage/pt-br
+[documentation index](../README.md) > [User_Documentation](Category_User_Documentation.md) > Online Help Startpage/pt-br

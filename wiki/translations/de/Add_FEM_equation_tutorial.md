@@ -3,7 +3,7 @@
 |Topic=FEM Gleichung hinzufügen
 |Level=Fortgeschritten
 |Time=1 Tag
-|Author=[JohnWang](User:JohnWang.md)
+|Author=_
 |FCVersion=0.19
 }}
 
@@ -179,9 +179,15 @@ Nun haben wir den Funktionsteil der neuen Gleichung beendet. Nun werden wir die 
 
 ## GUI-Werkzeug zum Erstellen einer Gleichung 
 
+
+<div class="mw-translate-fuzzy">
+
 Wir haben gerade eine neue Gleichungsklasse erstellt. Um sie über die FEM-GUI anzusprechen, müssen wir eine Schaltfläche erstellen und sie mit der neuen Gleichungsklasse verbinden. Hier ist ein Tutorium: [Add button to FEM toolbar tutorial](Add_button_to_FEM_toolbar_tutorial/de.md).
 
-[Category:FEM](Category:FEM.md) [Category:Developer Documentation](Category:Developer_Documentation.md)
+
+</div>
+
+_ _
 
 ---
-[documentation index](../README.md) > [FEM](Category:FEM.md) > Add FEM equation tutorial/de
+[documentation index](../README.md) > [FEM](Category_FEM.md) > Add FEM equation tutorial/de

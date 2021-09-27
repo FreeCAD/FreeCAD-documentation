@@ -75,7 +75,7 @@ O menu padrão é composto de 7 sub-menus. Cada sub-menu tem uma página dedicad
 
 }} 
 
-[Category:Workbenches](Category:Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > [Workbenches](Category:Workbenches.md) > Std Base/pt-br
+[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Std Base/pt-br

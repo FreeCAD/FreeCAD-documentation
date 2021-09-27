@@ -176,7 +176,7 @@ There are two principal types of constraints:
 
 
 :   7.6. Select the construction line that is closest to the vertical axis.
-:   7.7. Press **<img src=images/Constraint_Vertical.svg style="width:16px"> [Vertical](‎Sketcher_ConstrainVertical.md)** (optional). If you drew the construction line downwards over the Y axis, an automatic <img alt="" src=images/Constraint_PointOnObject.svg  style="width:32px;"> [Point on object constraint](Sketcher_ConstrainPointOnObject.md) was already placed, keeping the construction line vertical. In this case, no additional <img alt="" src=images/Constraint_Vertical.svg  style="width:32px;"> [Vertical constraint](‎Sketcher_ConstrainVertical.md) is necessary.
+:   7.7. Press **<img src=images/Constraint_Vertical.svg style="width:16px"> _ was already placed, keeping the construction line vertical. In this case, no additional <img alt="" src=images/Constraint_Vertical.svg  style="width:32px;"> [Vertical constraint](‎Sketcher_ConstrainVertical.md) is necessary.
 
 
 **Note:**

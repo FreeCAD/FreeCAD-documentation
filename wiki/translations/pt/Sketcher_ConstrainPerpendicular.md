@@ -1,6 +1,6 @@
 # Sketcher ConstrainPerpendicular/pt
 ---
-- GuiCommand:/pt   Name:Constraint Perpendicular   Name/pt:Constraint Perpendicular   Workbenches:[PartDesign](Sketcher_Workbench/pt___Sketcher]],_[[PartDesign_Workbench/pt.md)|MenuLocation:Sketch → Sketcher constraints → Constrain perpendicular   Shortcut:N   SeeAlso:[Constraint Angle](Constraint_InternalAngle/pt.md)---
+- GuiCommand:/pt   Name:Constraint Perpendicular   Name/pt:Constraint Perpendicular   Workbenches:_---
 
 
 </div>

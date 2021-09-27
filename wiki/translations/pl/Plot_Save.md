@@ -34,7 +34,7 @@ Wybierz kartę powierzchni, którą chcesz zapisać, i uruchom to narzędzie. U�
 
 }} 
 
-[Category:External\_Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)
+_ _
 
 ---
-[documentation index](../README.md) > [External_Workbenches](Category:External_Workbenches.md) > Plot Save/pl
+[documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > Plot Save/pl

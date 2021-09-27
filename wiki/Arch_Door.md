@@ -26,4 +26,4 @@ All properties are described in the [Arch Window](Arch_Window.md) tool.
 *Door being constructed from a [Sketch](Sketcher_Workbench.md)*
 
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Door
+[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch Door

@@ -10,7 +10,7 @@
 ![](images/Shape_and_mesh.svg )
 
 
-*Слева: параметрическая [форма](Shape/ru.md), определяемая свойствами. Справа: [сетка](Mesh/ru.md), определяемая вершинами и треугольными поверхностями.*
+*Слева: параметрическая _, определяемая вершинами и треугольными поверхностями.*
 
 ## Использование
 
@@ -26,14 +26,14 @@
 
 Однако, когда требуется более точное определение, различие должно быть сделано.
 
--   \"[Тело](Body/ru.md)\" это объект полученный [Функцией Part](Part_Feature/ru.md) (`Part::Feature` класса), созданный с помощью [Версткак PartDesign](PartDesign_Workbench/ru.md).
+-   \"_.
 -   \"Форма\" - это внутренний объект, встроенный в \"[Тело](Body/ru.md)\".
 -   \"[Деталь](Part/ru.md)\" используется для группировки нескольких \"[Тел](Body/ru.md)\" чтобы сформировать [сборку](assembly/ru.md). \"Деталь\" состоит из набора \"Форм\", но не имеет собственной \"Формы\" как таковой.
 
 
  {{Document objects navi}} 
 
-[Category:Glossary](Category:Glossary.md)
+_
 
 ---
-[documentation index](../README.md) > [Glossary](Category:Glossary.md) > Shape/ru
+[documentation index](../README.md) > [Glossary](Category_Glossary.md) > Shape/ru

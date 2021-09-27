@@ -61,7 +61,7 @@ mydoc = FreeCAD.activeDocument()
 
  
 
-[Category:API](Category:API.md) [Category:Poweruser Documentation](Category:Poweruser_Documentation.md)
+_ _
 
 ---
-[documentation index](../README.md) > [API](Category:API.md) > FreeCAD API/en
+[documentation index](../README.md) > [API](Category_API.md) > FreeCAD API/en

@@ -11,7 +11,7 @@ For all icons in the source tree, see [Artwork](Artwork.md).
 
  
 
-[Category:Spreadsheet](Category:Spreadsheet.md)
+_
 
 ---
-[documentation index](../README.md) > [Spreadsheet](Category:Spreadsheet.md) > Artwork Spreadsheet
+[documentation index](../README.md) > [Spreadsheet](Category_Spreadsheet.md) > Artwork Spreadsheet

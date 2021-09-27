@@ -7,7 +7,7 @@ La bibliothèque [PySide](PySide/fr.md) donne accès à la boîte à outils d\'i
 
 Lorsque vous [installez](Installing/fr.md) FreeCAD, vous devriez obtenir à la fois Qt et PySide dans le package. Si vous [compilez](Compiling/fr.md) vous-même, vous devez vérifier que ces deux bibliothèques sont installées pour que FreeCAD fonctionne correctement. Bien sûr, PySide ne fonctionnera que si Qt est présent.
 
-Dans le passé, FreeCAD utilisait PyQt, une autre liaison Qt pour Python, mais en 2013 ([1dc122dc9a](https://github.com/FreeCAD/FreeCAD/commit/1dc122dc9a)) le projet a migré vers PySide car il a une [licence](licence/fr.md) plus permissible.
+Dans le passé, FreeCAD utilisait PyQt, une autre liaison Qt pour Python, mais en 2013 (_ plus permissible.
 
 Pour plus d\'informations, consultez:
 
@@ -71,7 +71,7 @@ La documentation PySide fait référence aux classes de style Python; cependant,
 
 }} 
 
-[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > PySide/fr
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > PySide/fr

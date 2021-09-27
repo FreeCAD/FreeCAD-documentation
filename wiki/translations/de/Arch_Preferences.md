@@ -14,7 +14,7 @@ Es gibt zwei Reiter: Allgemeine Einstellungen und Standardvorgaben.
 
  
 
-[Category:Preferences](Category:Preferences.md)
+_
 
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Preferences/de
+[documentation index](../README.md) > [Preferences](Category_Preferences.md) > [Arch](Arch_Workbench.md) > Arch Preferences/de

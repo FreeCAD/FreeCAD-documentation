@@ -3,7 +3,7 @@
 
 ## Description
 
-Les ateliers <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Arch](Arch_Workbench/fr.md) et <img alt="" src=images/Workbench_BIM.svg  style="width:24px;"> [BIM](BIM_Workbench/fr.md) comportent un importateur et un exportateur [IFC (Industry Foundation Classes)](https://fr.wikipedia.org/wiki/Industry_Foundation_Classes). Le format IFC est un format en constante évolution qui permet d\'échanger des données entre les applications [BIM](https://fr.wikipedia.org/wiki/Building_information_modeling) utilisées en architecture et en ingénierie.
+Les ateliers <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> _ comportent un importateur et un exportateur [IFC (Industry Foundation Classes)](https://fr.wikipedia.org/wiki/Industry_Foundation_Classes). Le format IFC est un format en constante évolution qui permet d\'échanger des données entre les applications [BIM](https://fr.wikipedia.org/wiki/Building_information_modeling) utilisées en architecture et en ingénierie.
 
 L\'importateur et l\'exportateur dépendent tous deux de la bibliothèque [IfcOpenShell](IfcOpenShell/fr.md) qui est fournie dans certaines distributions de FreeCAD. Une façon simple de vérifier si IfcOpenShell est disponible est d\'entrer ce qui suit dans la [console Python](Python_console/fr.md):
 
@@ -53,7 +53,7 @@ Activer **afficher les messages de débogage** dans les paramètres de préfére
 
 ## Exporter
 
-L\'exportation vers des fichiers IFC exportera tous les objets sélectionnés et leurs descendants. Tous les objets Arch/BIM sont pris en charge ainsi que d\'autres objets créés dans d\'autres ateliers. Pour le moment, les seuls objets qui ne sont pas totalement pris en charge sont les **<img src=images/PartDesign_Body.svg style="width:16px"> <img src=images/Std_Part.svg style="width:PartDesign Corps](PartDesign_Body/fr.md)**, **[16px"> <img src=images/Link.svg style="width:Std Parts](Std_Part/fr.md)** et les nouvelles structures telles que **[16px"> <img src=images/LinkGroup.svg style="width:App Links](Std_LinkMake/fr.md)** et **[16px"> LinkGroups**. Vous devrez donc les tester un peu avant de les utiliser. [Arch Référence](Arch_Reference/fr.md) exportera actuellement sous le nom `IfcBuildingElementProxies`.
+L\'exportation vers des fichiers IFC exportera tous les objets sélectionnés et leurs descendants. Tous les objets Arch/BIM sont pris en charge ainsi que d\'autres objets créés dans d\'autres ateliers. Pour le moment, les seuls objets qui ne sont pas totalement pris en charge sont les **<img src=images/PartDesign_Body.svg style="width:16px"> <img src=images/Std_Part.svg style="width:PartDesign Corps](PartDesign_Body/fr.md)**, **_** et **[16px"> LinkGroups**. Vous devrez donc les tester un peu avant de les utiliser. [Arch Référence](Arch_Reference/fr.md) exportera actuellement sous le nom `IfcBuildingElementProxies`.
 
 Pour exporter un site ou un bâtiment entier, un étage entier ou un groupe contenant d\'autres objets, il suffit de sélectionner ce bâtiment, cet étage ou ce groupe. Les objets Arch seront exportés avec le type défini dans leur propriété \"Type IFC\". Leurs [IfcProperties](http://www.buildingsmart-tech.org/ifc/IFC4/Add1/html/schema/ifcpropertyresource/lexical/ifcproperty.htm) sont également exportés, et si ces objets ont un UID IFC provenant d\'une importation précédente, le même UID sera conservé à l\'exportation. Les objets qui ne sont pas des objets Arch sont exportés sous le format [IfcBuildingElementProxy](http://www.buildingsmart-tech.org/ifc/IFC4/Add1/html/schema/ifcsharedbldgelements/lexical/ifcbuildingelementproxy.htm).
 
@@ -71,7 +71,7 @@ Si la forme des objets exportés est basée sur une extrusion ou une opération 
 
  
 
-[Category:File Formats](Category:File_Formats.md)
+_
 
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch IFC/fr
+[documentation index](../README.md) > [File Formats](Category_File Formats.md) > [Arch](Arch_Workbench.md) > Arch IFC/fr

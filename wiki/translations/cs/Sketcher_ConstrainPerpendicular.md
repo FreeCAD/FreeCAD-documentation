@@ -1,6 +1,6 @@
 # Sketcher ConstrainPerpendicular/cs
 ---
-- GuiCommand:/cs   Name:Constraint Perpendicular   Name/cs:Constraint Perpendicular   Workbenches:[Návrh dílu](Sketcher_Workbench/cs___Náčrt]],_[[PartDesign_Workbench/cs.md)|MenuLocation:Sketch → Sketcher constraints → Constrain perpendicular   Shortcut:N   SeeAlso:[Vazba úhlu](Constraint_InternalAngle/cs.md)---
+- GuiCommand:/cs   Name:Constraint Perpendicular   Name/cs:Constraint Perpendicular   Workbenches:_---
 
 
 </div>

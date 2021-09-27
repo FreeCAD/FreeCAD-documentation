@@ -47,7 +47,7 @@ La commande **Std Importer** importe la géométrie d\'un format de fichier diff
 
 }}  
 
-[Category:File\_Formats](Category:File_Formats.md)
+_
 
 ---
-[documentation index](../README.md) > [File_Formats](Category:File_Formats.md) > Std Import/fr
+[documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Std Import/fr

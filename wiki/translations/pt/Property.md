@@ -46,7 +46,7 @@ Custom [scripted objects](scripted_objects.md) in FreeCAD can have properties of
 
 </div>
 
-Properties play a very important role in FreeCAD. As objects in FreeCAD are \"parametric\", this means that their behavior is defined by their properties, and how these properties are used as input for their class methods. See also [PropertyLink:\_InList\_and\_OutList](PropertyLink:_InList_and_OutList.md)
+Properties play a very important role in FreeCAD. As objects in FreeCAD are \"parametric\", this means that their behavior is defined by their properties, and how these properties are used as input for their class methods. See also _
 
 ## All property types 
 
@@ -155,7 +155,7 @@ They are imported and initialized in `[https://github.com/FreeCAD/FreeCAD/blob/9
 
 }} 
 
-[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Property/pt
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Property/pt

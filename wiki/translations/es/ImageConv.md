@@ -14,7 +14,7 @@ La creación es fácil con el *Makefile* o el VisualStudio-Projecto.
 
 ImageConv es una herramienta de comando en línea.
 
-[Category:Developer](Category:Developer.md)
+_
 
 ---
-[documentation index](../README.md) > [Developer](Category:Developer.md) > ImageConv/es
+[documentation index](../README.md) > [Developer](Category_Developer.md) > ImageConv/es

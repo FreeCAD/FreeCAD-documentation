@@ -1,6 +1,6 @@
 # Sketcher ConstrainPointOnObject/sv
 ---
-- GuiCommand:/sv   Name:Constraint PointOnObject   Name/sv:Constraint PointOnObject   Workbenches:[PartDesign](Sketcher_Workbench/sv___Sketcher]],_[[PartDesign_Workbench/sv.md)|MenuLocation:Sketch → Sketcher constraints → Constrain point onto object   SeeAlso:[Constraint Coincident](Constraint_PointOnPoint/sv.md)---
+- GuiCommand:/sv   Name:Constraint PointOnObject   Name/sv:Constraint PointOnObject   Workbenches:_---
 
 
 </div>

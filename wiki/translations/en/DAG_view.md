@@ -4,7 +4,7 @@
 
 {{TOCright}}
 
-The [DAG view](DAG_view.md) is a [directed acyclic graph](https://en.wikipedia.org/wiki/Directed_acyclic_graph) (DAG) that shows the relationships between different objects in the document. It is meant primarily to show how certain objects depend on others in a complex model with many features and references, such as those that can be created with the <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign Workbench](PartDesign_Workbench.md).
+The _.
 
 The DAG view resembles the graph that can be produced from a Git repository and its branches. Together with the standard [tree view](tree_view.md) and the [dependency graph](Std_DependencyGraph.md), the DAG view is a tool to inspect the parametric history of objects in a document.
 

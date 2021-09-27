@@ -30,7 +30,7 @@ ImageConv è uno strumento da riga di comando.
 
 </div>
 
-[Category:Developer](Category:Developer.md)
+_
 
 ---
-[documentation index](../README.md) > [Developer](Category:Developer.md) > ImageConv/it
+[documentation index](../README.md) > [Developer](Category_Developer.md) > ImageConv/it

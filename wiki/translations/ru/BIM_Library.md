@@ -12,7 +12,7 @@
 
 ## Описание
 
-Инструмент «Библиотека BIM» позволяет разместить в текущей модели объект из [FreeCAD Parts Library](Parts_Library.md), который должен быть установлен с помощью <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Addon_Manager.md), чтобы этот инструмент был доступен.
+Инструмент «Библиотека BIM» позволяет разместить в текущей модели объект из _, чтобы этот инструмент был доступен.
 
 <img alt="" src=images/BIM_Library_screenshot.png  style="width:800px;"> 
 *Выше: Смотрите диалог '''Library browser''' [панели задач](Task_panel/ru.md) слева*
@@ -37,7 +37,7 @@
 
  
 
-[Category:BIM](Category:BIM.md)
+_
 
 ---
-[documentation index](../README.md) > [BIM](Category:BIM.md) > BIM Library/ru
+[documentation index](../README.md) > [BIM](Category_BIM.md) > BIM Library/ru

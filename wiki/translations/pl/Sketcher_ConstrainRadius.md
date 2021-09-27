@@ -4,7 +4,7 @@
    Name/pl:Szkicownik: Wiązanie promienia
    MenuLocation:Szkic → Wiązania szkicownika → Wiązanie promienia
    Workbenches:[Szkicownik](Sketcher_Workbench/pl.md), [Projekt części](PartDesign_Workbench/pl.md)
-   SeeAlso:[Szkicownik: Wiązanie odległości](Sketcher_ConstrainDistance/pl.md), [Szkicownik: Zwiąż odległość poziomą](Sketcher_ConstrainDistanceX/pl.md), [Szkicownik: Zwiąż odległość pionową](Sketcher_ConstrainDistanceY/pl.md)
+   SeeAlso:_, [Szkicownik: Zwiąż odległość pionową](Sketcher_ConstrainDistanceY/pl.md)
 ---
 
 # Sketcher ConstrainRadius/pl

@@ -22,7 +22,7 @@ Link do odpowiednich wątków omawiających te stanowiska pracy
 
 
 
-[Category:Reverse Engineering](Category:Reverse_Engineering.md) [Category:Workbenches](Category:Workbenches.md)
+_ _
 
 ---
-[documentation index](../README.md) > Reverse Engineering Workbench/pl
+[documentation index](../README.md) > [Reverse Engineering](Category_Reverse Engineering.md) > Reverse Engineering Workbench/pl

@@ -11,7 +11,7 @@
 
 ## Description
 
-L\'outil <img alt="" src=images/Path_Vcarve.svg  style="width:24px;"> [Path Gravure en V](Path_Vcarve/fr.md) est principalement destiné à la gravure de la ligne centrale d\'une <img alt="" src=images/Draft_ShapeString.svg  style="width:24px;"> [Draft Formes à partir texte](Draft_ShapeString/fr.md) sur une pièce. Cependant, cela peut être utile pour d\'autres types de 2D.
+L\'outil <img alt="" src=images/Path_Vcarve.svg  style="width:24px;"> _ sur une pièce. Cependant, cela peut être utile pour d\'autres types de 2D.
 
 Contrairement à la gravure qui suit les lignes d\'une Forme à partir texte, la gravure en V utilise un couteau en forme de V et tente de dégager la zone en déplaçant le couteau au centre de la région et en variant la profondeur de coupe. Étant donné qu\'un rayon de coupe en V varie avec la profondeur, la largeur de coupe varie également. Le résultat est une coupe plus naturelle, en particulier pour les polices serif.
 

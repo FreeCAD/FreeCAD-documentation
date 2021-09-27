@@ -11,7 +11,7 @@ For all icons in the source tree, see [Artwork](Artwork.md).
 
  
 
-[Category:Raytracing](Category:Raytracing.md)
+_
 
 ---
-[documentation index](../README.md) > [Raytracing](Category:Raytracing.md) > Artwork Raytracing
+[documentation index](../README.md) > [Raytracing](Category_Raytracing.md) > Artwork Raytracing

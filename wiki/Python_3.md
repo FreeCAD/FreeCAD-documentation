@@ -158,7 +158,7 @@ conda build . --python=3.6 --dirty
 
  
 
-[Category:User Documentation](Category:User_Documentation.md) [Category:Administration](Category:Administration.md)
+_ _
 
 ---
-[documentation index](../README.md) > [User Documentation](Category:User Documentation.md) > Python 3
+[documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > Python 3

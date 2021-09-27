@@ -15,7 +15,7 @@ Schneidet (subtrahiert) ausgewählte Teileobjekte, wobei das letzte vom ersten s
 
 **Hinweis:** Dieser Befehl ist eine automatisierte Form des <img alt="" src=images/Part_Booleans.svg  style="width:24px;"> [Boolesche Operation](Part_Boolean/de.md).
 
-[480px\|left\|Schneiden](IMAGE:Part_Cut_01.png.md)
+_
 
 ## Anwendung
 

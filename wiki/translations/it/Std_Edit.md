@@ -8,6 +8,9 @@
 
 # Std Edit/it
 
+
+</div>
+
 ## Descrizione
 
 Il comando **Std Edit** attiva o disattiva la modalità di modifica di un oggetto.

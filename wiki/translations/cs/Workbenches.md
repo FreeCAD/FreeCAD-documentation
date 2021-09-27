@@ -1,12 +1,12 @@
 # Workbenches/cs
 <div class="mw-translate-fuzzy">
 
-FreeCAD,stejně jako mnoho dalších moderních designových aplikací takových jako [Revit](wikipedia:Revit.md) nebo [CATIA](wikipedia:CATIA.md), je založen na konceptu [Pracovní plochy](wikipedia:Workbench.md). Pracovní plocha představuje skupinu nástrojů speciálně sestavených pro dané úlohy. V tradiční nábytkářské dílně byl samostatný pracovní stůl pro osobu, která pracovala se dřevem, další stůl pro osobu, která pracovala s kovovými částmi a třeba i třetí stůl, na kterém třetí pracovník montoval všechny kusy dohromady.
+FreeCAD,stejně jako mnoho dalších moderních designových aplikací takových jako _ nebo _, je založen na konceptu _. Pracovní plocha představuje skupinu nástrojů speciálně sestavených pro dané úlohy. V tradiční nábytkářské dílně byl samostatný pracovní stůl pro osobu, která pracovala se dřevem, další stůl pro osobu, která pracovala s kovovými částmi a třeba i třetí stůl, na kterém třetí pracovník montoval všechny kusy dohromady.
 
 
 </div>
 
-FreeCAD, like many modern design applications such as [Revit](wikipedia:Revit.md) or [CATIA](wikipedia:CATIA.md), is based on the concept of [Workbench](wikipedia:Workbench.md). A workbench can be considered as a set of tools specially grouped for a certain task. In a traditional furniture workshop, you would have a work table for the person who works with wood, another one for the one who works with metal pieces, and maybe a third one for the guy who mounts all the pieces together.
+FreeCAD, like many modern design applications such as _ or _, is based on the concept of _. A workbench can be considered as a set of tools specially grouped for a certain task. In a traditional furniture workshop, you would have a work table for the person who works with wood, another one for the one who works with metal pieces, and maybe a third one for the guy who mounts all the pieces together.
 
 Ve FreeCADu je použit úplně stejný koncept. Nástroje jsou přiřazovány do pracovních ploch podle úkolů, ke kterým, jsou tyto plochy určeny.
 
@@ -114,7 +114,7 @@ Nové plochy jsou ve vývoji a ladění!
 
 
 
-[Category:Workbenches](Category:Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > Workbenches/cs
+[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Workbenches/cs

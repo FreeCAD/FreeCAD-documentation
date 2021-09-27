@@ -55,7 +55,7 @@ Din această interfață puteți vedea informații utile și puteți să accesa�
 
 
 
-[Category:Start](Category:Start.md) [Category:Workbenches](Category:Workbenches.md)
+_ _
 
 ---
-[documentation index](../README.md) > Start Workbench/ro
+[documentation index](../README.md) > [Start](Category_Start.md) > Start Workbench/ro

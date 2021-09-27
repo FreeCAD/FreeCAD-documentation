@@ -70,7 +70,7 @@ Links to forum thread discussions related to this topic
 
 
 
-[Category:Common Questions](Category:Common_Questions.md)
+_
 
 ---
-[documentation index](../README.md) > [Common Questions](Category:Common Questions.md) > FreeCAD Managing Expectations
+[documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > FreeCAD Managing Expectations

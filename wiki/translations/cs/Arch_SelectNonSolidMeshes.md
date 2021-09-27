@@ -10,7 +10,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Tento nástroj identifikuje a vybírá netělesové (neuzavřené) (non-[manifold](http://en.wikipedia.org/wiki/Manifold)) sítě ve vybraných skupinách objektů [Síť](Mesh_Workbench.md).
+Tento nástroj identifikuje a vybírá netělesové (neuzavřené) (non-_.
 
 
 </div>
@@ -33,4 +33,4 @@ Tento nástroj identifikuje a vybírá netělesové (neuzavřené) (non-[manifol
 </div>
 
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SelectNonSolidMeshes/cs
+[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch SelectNonSolidMeshes/cs

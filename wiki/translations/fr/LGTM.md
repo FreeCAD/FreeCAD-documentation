@@ -60,7 +60,7 @@ En outre, certaines classifications (telles que \"modèle\" et \"test\") sont ut
 -   Fichier FreeCAD .lgtm.yml sur [Github](https://github.com/FreeCAD/FreeCAD/blob/master/lgtm.yml)
 -   freecad.trails .lgtm.yml sur [Github](https://github.com/joelgraff/freecad.trails/blob/dev/.lgtm.yml)
 
-[Category:Developer](Category:Developer.md) [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Testing](Category:Testing.md)
+_ _ _
 
 ---
-[documentation index](../README.md) > [Developer](Category:Developer.md) > LGTM/fr
+[documentation index](../README.md) > [Developer](Category_Developer.md) > LGTM/fr

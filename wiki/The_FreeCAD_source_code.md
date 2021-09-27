@@ -34,7 +34,7 @@ Below are some clues and useful information to get you on tracks if you are inte
 
 
 
-[Category:Developer Documentation](Category:Developer_Documentation.md)
+_
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > The FreeCAD source code
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > The FreeCAD source code

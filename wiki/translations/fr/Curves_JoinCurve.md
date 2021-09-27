@@ -16,7 +16,7 @@
 
 ## Utilisation
 
-1.  Passer à l\'atelier <img alt="" src=images/Curves_workbench_icon.svg  style="width:24px;"> [Curves](Curves_Workbench/fr.md) (à installer à partir du <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md) si ce n\'est pas déjà fait)
+1.  Passer à l\'atelier <img alt="" src=images/Curves_workbench_icon.svg  style="width:24px;"> _ si ce n\'est pas déjà fait)
 2.  Sélectionnez une ou plusieurs arêtes dans la [vue 3D](3D_view/fr.md). (utilisez la touche CTRL pour plusieurs sélections)
 3.  Les bords doivent être ajoutés dans un ordre consécutif. Et être sélectionné à partir de l\'esquisse, du bord de n\'importe quelle forme.
 4.  Pour appeler la commande, effectuez l\'une des opérations suivantes:

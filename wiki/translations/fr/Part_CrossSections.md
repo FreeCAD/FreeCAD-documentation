@@ -17,7 +17,7 @@ L\'outil **Coupes** créé une ou plusieurs coupes à travers la forme sélectio
 ## Utilisation
 
 1.  Sélectionner une forme.
-2.  Cliquer sur le bouton **[24px|link=Part_CrossSections](File:Part_CrossSections.svg.md) '''Coupes...'''**.
+2.  Cliquer sur le bouton **_ '''Coupes...'''**.
 3.  Définir le plan guide.
 4.  Définir la position (distance de la coupe par rapport au plan guide).
 5.  Optionnellement, cocher **Sections** pour créer plus d\'une coupe :

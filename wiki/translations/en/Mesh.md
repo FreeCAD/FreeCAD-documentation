@@ -1,7 +1,7 @@
 # Mesh/en
 ## Introduction
 
-In FreeCAD the word \"[Mesh](Mesh.md)\" is normally used to refer to a [Mesh MeshObject](Mesh_MeshObject.md) (`Mesh::MeshObject` class), a type of object that defines 3D data but is not a solid \"[Shape](Shape.md)\".
+In FreeCAD the word \"_\".
 
 Meshes are very simple objects, containing only vertices (points), edges and triangular faces. In general, they are easy to create, modify, subdivide, and stretch, and can be passed from one application to another without any loss of detail. In addition, since meshes contain very simple data, 3D applications like animation software and video games can manage very large quantities of them (millions of triangles) without using a lot of computing resources.
 
@@ -12,7 +12,7 @@ See [Mesh MeshObject](Mesh_MeshObject.md) for more information about this type o
 ![](images/Shape_and_mesh.svg )
 
 
-*Left: parametric [shape](Shape.md) defined by properties. Right: [mesh](Mesh.md), defined by vertices and triangular surfaces.*
+*Left: parametric _, defined by vertices and triangular surfaces.*
 
 ## Usage
 
@@ -26,7 +26,7 @@ Since FreeCAD is designed to be a solid modeller primarily, it is better suited 
 
 In FreeCAD the word \"[Mesh](Mesh.md)\" may also refer to a specific object that will be used in finite element analysis (FEA).
 
-When an object with a solid [Shape](Shape.md) is used in the [FEM Workbench](FEM_Workbench.md) it will be discretized into a triangular mesh. In this case, the resulting object is a [Fem FemMeshObject](Fem_FemMeshObject.md) (`Fem::FemMeshObject` class), and is not derived from a [Mesh Feature](Mesh_Feature.md) (`Mesh::Feature` class).
+When an object with a solid _ (`Mesh::Feature` class).
 
 For more information see [FEM Workbench](FEM_Workbench.md) and [FEM Mesh](FEM_Mesh.md).
 
@@ -39,7 +39,7 @@ For more information see [FEM Workbench](FEM_Workbench.md) and [FEM Mesh](FEM_Me
 
 }} {{FEM Tools navi}} {{Document objects navi}} 
 
-[Category:Glossary](Category:Glossary.md)
+_
 
 ---
-[documentation index](../README.md) > [Glossary](Category:Glossary.md) > Mesh/en
+[documentation index](../README.md) > [Glossary](Category_Glossary.md) > Mesh/en

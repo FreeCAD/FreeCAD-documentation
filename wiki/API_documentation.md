@@ -1,5 +1,5 @@
 # API documentation
-1.  REDIRECT [:Category:API](:Category:API.md)
+1.  REDIRECT _
 
 ---
 [documentation index](../README.md) > API documentation

@@ -14,7 +14,7 @@ Wszystkie ikonki widoczne na liście źródłowej, patrz [Grafika](Artwork/pl.md
 
 }} 
 
-[Category:Path](Category:Path.md)
+_
 
 ---
-[documentation index](../README.md) > [Path](Category:Path.md) > Artwork Path/pl
+[documentation index](../README.md) > [Path](Category_Path.md) > Artwork Path/pl

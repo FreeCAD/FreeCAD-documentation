@@ -198,4 +198,4 @@ Atât instrumentele Draft Rotire cât și Move utilizează sistemul de ancorare 
 }}   {{Sketcher Tools navi}}
 
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch panel tutorial/ro
+[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch panel tutorial/ro

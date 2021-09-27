@@ -5,7 +5,7 @@
 
 FreeCAD è una [applicazione per la modellazione parametrica](About_FreeCAD/it.md). È fatto principalmente per la progettazione meccanica, ma serve anche in tutti casi in cui è necessario modellare degli oggetti 3D con precisione e avere il controllo dello storico della modellazione.
 
-FreeCAD è in fase di sviluppo dal 2002 e offre un ampio elenco di [funzioni](Feature_list/it.md), anche se alcune mancano ancora, è però abbastanza potente per uso hobbistico e per molte piccole officine. C\'è una comunità in rapida crescita di utenti entusiasti, e si possono già trovare [molti esempi](https://forum.freecadweb.org/viewforum.php?f=24) di progetti di qualità sviluppati con FreeCAD. Vedere anche [FreeCAD utilizzato in produzione](FreeCAD_used_in_production.md).
+FreeCAD è in fase di sviluppo dal 2002 e offre un ampio elenco di _.
 
 Come tutti i progetti di software libero, FreeCAD dipende dalla sua comunità per crescere, acquisire funzionalità e correggere i bug. Non dimenticate questo quando usate FreeCAD; se vi piace, potete [donare](Donate/it.md) e [aiutare FreeCAD](Help_FreeCAD/it.md) in vari modi, come scrivere documentazione e fare traduzioni.
 
@@ -143,7 +143,7 @@ In qualsiasi momento è possibile selezionare gli schizzi originali e modificarl
 
 Gli ambienti [Draft](Draft_Workbench/it.md) e [Arch](Arch_Workbench/it.md) si comportano in modo un po\' diverso dagli altri ambienti di lavoro di cui sopra, anche se seguono le regole comuni di FreeCAD. In breve, Sketcher e PartDesign sono utilizzati principalmente per la progettazione di singoli pezzi, invece Draft e Arch sono concepiti per facilitare il lavoro quando si opera con diversi oggetti semplici.
 
-L\'ambiente [Draft](Draft_Workbench/it.md) offre degli strumenti 2D in parte simili a quelli che si possono trovare nelle applicazioni tradizionali di CAD 2D quali [AutoCAD](https://en.wikipedia.org/wiki/AutoCAD). Però, il disegno 2D è lontano dagli scopi di FreeCAD, quindi non aspettatevi di trovare in esso la gamma completa di strumenti offerta da queste applicazioni dedicate. La maggior parte degli strumenti di Draft lavorano, non solo in un piano 2D, ma anche nello spazio 3D, e beneficiano degli speciali sistemi di supporto come il [Piano di lavoro](Draft_SelectPlane/it.md) e lo [Snapping](Draft_Snap/it.md).
+L\'ambiente _ e lo [Snapping](Draft_Snap/it.md).
 
 L\'ambiente [Arch](Arch_Workbench/it.md) aggiunge a FreeCAD gli strumenti [BIM](http://en.wikipedia.org/wiki/Building_Information_Modeling) che consentono di costruire i modelli architettonici con degli oggetti parametrici. L\'ambiente Arch si basa ampiamente sugli altri moduli come Draft e Sketcher. Tutti gli strumenti di Draft sono presenti anche nell\'ambiente Arch e molti strumenti di Arch usano i sistemi di supporto di Draft.
 
@@ -172,7 +172,7 @@ Il principio degli [Addon](Addon/it.md) si basa sullo sviluppo di un complemento
 Esistono due tipi di componenti aggiuntivi:
 
 1.  Le [macro](Macros/it.md): sono dei brevi frammenti di codice Python che forniscono un nuovo strumento o funzionalità. Le macro di solito iniziano come un modo per semplificare o automatizzare l\'attività di disegno o per la modifica di un particolare oggetto. Se molte di queste macro vengono raccolte all\'interno di una directory, l\'intera directory può essere distribuita come nuovo ambiente di lavoro.
-2.  Gli [ambienti complementari](External_workbenches/it.md): sono delle raccolte di strumenti programmati in Python o C ++ che estendono FreeCAD in modo importante. Se un ambiente è sufficientemente sviluppato ed è ben documentato, può essere incluso come uno degli ambienti di base in FreeCAD. Nella pagina [ambienti complementari](External_workbenches/it.md) sono elencati quelli principali e le librerie esistenti.
+2.  Gli _ sono elencati quelli principali e le librerie esistenti.
 
 ## Script
 
@@ -188,7 +188,7 @@ Infine, una delle più potenti caratteristiche di FreeCAD è l\'ambiente di [scr
 
 {{Userdocnavi/it}}
 
-[Category:User Documentation/it](Category:User_Documentation/it.md)
+_
 
 ---
 [documentation index](../README.md) > Getting started/it

@@ -35,7 +35,7 @@ For all these [Kicad](https://kicad-pcb.org/) concepts one can find a feature of
 
 ## Installation
 
-KicadStepUp is part of the [external workbenches](external_workbenches.md), and can be automatically installed using the <img alt="" src=images/AddonManager.svg  style="width:24px;"> [FreeCAD Add-on Manager](Addon_Manager.md) which comes bundled with FreeCAD 0.17, under the **Tools → Add-On Manager** menu.
+KicadStepUp is part of the _ which comes bundled with FreeCAD 0.17, under the **Tools → Add-On Manager** menu.
 
 ## Usage
 
@@ -131,7 +131,7 @@ New workbenches are in development, stay tuned!
 
 
 
-[Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+_ _
 
 ---
-[documentation index](../README.md) > KicadStepUp Workbench/it
+[documentation index](../README.md) > [Addons](Category_Addons.md) > KicadStepUp Workbench/it

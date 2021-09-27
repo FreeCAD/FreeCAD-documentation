@@ -59,7 +59,7 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 
 3.  3D görünümünde ikinci bir noktaya tıklayın veya bir [ koordinat](Draft_Coordinates/tr.md) yazın ve {{Button | <img src="images/_Draft_AddPoint.svg_" width= 16px> [ Nokta ekle](Draft_AddPoint/tr_.md)}} düğmesine basın. Bu nokta yatay veya dikey bir liderin başlangıcını gösterir.
 
-4.  3D görünümünde üçüncü bir noktaya tıklayın veya bir [ koordinat](Draft_Coordinates.md) yazın ve {{Button | [ 16px](Resim:_Draft_AddPoint.svg .md) [Nokta ekle](Draft_AddPoint/tr_.md)}} düğmesine basın. Bu nokta metnin temel noktasını gösterir.
+4.  3D görünümünde üçüncü bir noktaya tıklayın veya bir _ [Nokta ekle](Draft_AddPoint/tr_.md)}} düğmesine basın. Bu nokta metnin temel noktasını gösterir.
 
 
 </div>

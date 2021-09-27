@@ -21,7 +21,7 @@ The BIM windows manager dialog allows you to browse and modify all the [windows 
 
 }}
 
-[Category:External Command Reference](Category:External_Command_Reference.md)
+_
 
 ---
-[documentation index](../README.md) > [External Command Reference](Category:External Command Reference.md) > BIM Windows/en
+[documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > BIM Windows/en

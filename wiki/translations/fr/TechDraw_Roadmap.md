@@ -79,7 +79,7 @@ Voir le traqueur de bogues pour des informations à jour.
 
 }}  
 
-[Category:User Documentation](Category:User_Documentation.md) [Category:TechDraw](Category:TechDraw.md)
+_ _
 
 ---
-[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Roadmap/fr
+[documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Roadmap/fr

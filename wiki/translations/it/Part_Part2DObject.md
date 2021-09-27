@@ -3,7 +3,7 @@
 
 <img alt="" src=images/Tree_Part2D.svg  style="width:32px;">
 
-Un [Part Part2DObject](Part_Part2DObject/it.md), o formalmente un `Part::Part2DObject`, è un elemento semplice a cui è associata una [forma topologica](Part_TopoShape/it.md) che può essere visualizzato nella [Vista 3D](3D_view/it.md).
+Un _ che può essere visualizzato nella [Vista 3D](3D_view/it.md).
 
 
 {{Incode|Part::Part2DObject}}
@@ -30,7 +30,7 @@ I workbench possono aggiungere diverse proprietà a questo elemento di base per 
 
 Vedere [Proprietà](Property/it.md) per tutti i tipi di proprietà che possono avere gli oggetti con script.
 
-Un [Part Part2DObject](Part_Part2DObject/it.md) (classe `Part::Part2DObject`) è derivato da una [Part Feature](Part_Feature/it.md) (classe `Part::Feature`), pertanto condivide tutte le proprietà di quest\'ultimo.
+Un _ (classe `Part::Feature`), pertanto condivide tutte le proprietà di quest\'ultimo.
 
 Oltre alle proprietà descritte in [Part Feature](Part_Feature/it.md), Part Part2DObject ha le seguenti proprietà nell\'[editor delle proprietà](property_editor/it.md). Le proprietà nascoste possono essere mostrate usando il comando **Mostra tutto** nel menu contestuale dell\'[editor delle proprietà](property_editor/it.md).
 

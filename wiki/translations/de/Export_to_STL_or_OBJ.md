@@ -56,7 +56,7 @@ Methode 2 ist zu bevorzugen: Wenn Du mehr als einen Body zu konvertieren hast, k
 
 
 
-[Category:File\_Formats](Category:File_Formats.md)
+_
 
 ---
-[documentation index](../README.md) > [File_Formats](Category:File_Formats.md) > Export to STL or OBJ/de
+[documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Export to STL or OBJ/de

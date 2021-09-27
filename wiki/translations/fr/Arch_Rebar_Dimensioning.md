@@ -16,7 +16,7 @@ Remarque: le travail ci-dessous est présent dans la branche de développement d
 
 L\'outil [Dimensionnement des armatures](Arch_Rebar_Dimensioning/fr.md) permet à l\'utilisateur de créer des cotations pour les armatures dans [Dessin d\'armatures](Arch_Rebar_Drawing/fr.md).
 
-Cette commande fait partie de l\'[Addon Reinforcement](Reinforcement_Addon/fr.md), un [atelier externe](External_workbenches/fr.md) que vous pouvez installer avec <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Gestionnaire d\'Addon](Addon_Manager/fr.md) via le menu **Outils → Gestionnaire d'Addon → Reinforcement**.
+Cette commande fait partie de l\'_ via le menu **Outils → Gestionnaire d'Addon → Reinforcement**.
 
 <img alt="" src=images/Arch_Rebar_Drawing_Dimensioning_example.svg  style="width:1000px;">
 
@@ -354,7 +354,7 @@ for visible_rebar in visible_rebars:
 
 
 
-[Category:External Command Reference](Category:External_Command_Reference.md) [Category:Reinforcement](Category:Reinforcement.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Rebar Dimensioning/fr
+[documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Arch](Arch_Workbench.md) > Arch Rebar Dimensioning/fr

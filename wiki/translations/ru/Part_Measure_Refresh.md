@@ -14,7 +14,7 @@
 
 ## Описание
 
-[Part Measure Refresh](Part_Measure_Refresh.md) updates the [3D view](3D_view.md) to display all measurements created with <img alt="" src=images/Part_Measure_Linear.svg  style="width:16px;"> [Measure Linear](Part_Measure_Linear.md) and <img alt="" src=images/Part_Measure_Angular.svg  style="width:16px;"> [Measure Angular](Part_Measure_Angular.md).
+_ and <img alt="" src=images/Part_Measure_Angular.svg  style="width:16px;"> [Measure Angular](Part_Measure_Angular.md).
 
 ## Применение
 

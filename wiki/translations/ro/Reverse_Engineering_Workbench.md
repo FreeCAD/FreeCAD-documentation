@@ -45,7 +45,7 @@ Link to appropriate threads discussing this workbench
 
 
 
-[Category:Reverse Engineering](Category:Reverse_Engineering.md) [Category:Workbenches](Category:Workbenches.md)
+_ _
 
 ---
-[documentation index](../README.md) > Reverse Engineering Workbench/ro
+[documentation index](../README.md) > [Reverse Engineering](Category_Reverse Engineering.md) > Reverse Engineering Workbench/ro

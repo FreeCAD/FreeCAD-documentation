@@ -114,7 +114,7 @@ Reverses the direction of the pad.
 :   This means that the face that is found might not always be what you expected. If you run into this problem, use the **Up to face** type instead, and pick the face you want.
 :   For the very special case of extrusion to a concave surface, where the sketch is larger than this surface, extrusion will fail. This is a unresolved bug.
 
--    {{VersionMinus|0.16}}There is no automatic cleanup, e.g. of adjacent planar surfaces into a single surface. You can fix this manually in the <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> [Part workbench](Part_Workbench.md) with **<img src="images/Part_RefineShape.svg" width=16px> [Part RefineShape](Part_RefineShape.md)** (which creates an unlinked, non-parametric solid) or with the **<img src="images/OpenSCAD_RefineShapeFeature.svg" width=16px> [OpenSCAD RefineShapeFeature](OpenSCAD_RefineShapeFeature.md)** from the <img alt="" src=images/Workbench_OpenSCAD.svg  style="width:16px;"> [OpenSCAD Workbench](OpenSCAD_Workbench.md) which creates a parametric feature.
+-    {{VersionMinus|0.16}}There is no automatic cleanup, e.g. of adjacent planar surfaces into a single surface. You can fix this manually in the <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> _ which creates a parametric feature.
 
 
 

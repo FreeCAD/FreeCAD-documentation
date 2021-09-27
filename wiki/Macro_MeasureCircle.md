@@ -27,7 +27,7 @@ You can either select elements and then launch the macro or launch the macro wit
 
 ## Code
 
-The latest version of the macro is to be found at [MeasureCircle.FCMacro](https://raw.githubusercontent.com/FreeCAD/FreeCAD-macros/master/Information/MeasureCircle.FCMacro) but the easiest way to install this macro is through the [Addon Manager](Addon_Manager.md). 
+The latest version of the macro is to be found at _. 
 
 ToolBar Icon ![](images/Macro_MeasureCircle.png )
 

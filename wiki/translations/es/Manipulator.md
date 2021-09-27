@@ -16,7 +16,7 @@ Un **manipulador** es una utilidad que puede utilizarse para modificar la aparie
 
 
 
-[Category:Glossary](Category:Glossary.md)
+_
 
 ---
-[documentation index](../README.md) > [Glossary](Category:Glossary.md) > Manipulator/es
+[documentation index](../README.md) > [Glossary](Category_Glossary.md) > Manipulator/es

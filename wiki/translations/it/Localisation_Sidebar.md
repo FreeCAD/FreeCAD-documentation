@@ -11,11 +11,11 @@ Nella wiki di FreeCAD, la barra laterale viene implementata utilizzando i modell
 
 ### Instruzioni
 
-Per iniziare la traduzione, aprire la pagina speciale [Special:Translate/wiki-sidebar](Special:Translate/wiki-sidebar.md).
+Per iniziare la traduzione, aprire la pagina speciale _.
 
 C\'è un bug con la pagina Download. Non è possibile reindirizzare il link \"Download/lang\". Il link punta automaticamente a una pagina il cui nome è la vera traduzione di \"Download\" nella lingua corrispondente. Ad es. in italiano punta alla pagina \"Scarica\" e non è modificabile.
 
-Il modo migliore per aggirare il problema è quello di creare questa nuova pagina e poi reindirizzarla alla pagina giusta. Per altre informazioni sul reindirizzamento vedere la pagina [Help:Editing](Help:Editing/it.md).
+Il modo migliore per aggirare il problema è quello di creare questa nuova pagina e poi reindirizzarla alla pagina giusta. Per altre informazioni sul reindirizzamento vedere la pagina _.
 
 ## Note importanti 
 
@@ -33,7 +33,7 @@ Non aggiungere i codici lingua \"/ fr\", \"/ de\", \"/ es\", \"/ ru\", ecc., se 
 
 
 
-[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Wiki](Category:Wiki.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Localisation Sidebar/it
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Localisation Sidebar/it

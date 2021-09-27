@@ -107,7 +107,7 @@ Die ausgewählte Skizze muss einen oder mehrere Kreis(e) enthalten. Der Radius d
 
 ## Schnitttyp Definitionen 
 
-Schnittarten (Schraubentypen) werden seit Version 0.19 in [json](https://de.wikipedia.org/wiki/JavaScript_Object_Notation) Dateien definiert. Es gibt einen Satz von Dateien, die mit FreeCAD verteilt werden, aber Benutzer können ihre eigenen Definitionen erstellen. Die Dateien werden in <UserAppDataDir>/PartDesign/Hole gesucht. Das `UserAppDataDir` kann durch Eingabe von `App.getUserAppDataDir()` in der [Python Konsole](Python_console/de.md) gefunden werden.
+Schnittarten (Schraubentypen) werden seit Version 0.19 in _ gefunden werden.
 
 Die Datei sollte enthalten:
 

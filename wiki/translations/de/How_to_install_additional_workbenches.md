@@ -4,7 +4,7 @@
 |Level=Mittelmäßiger Programmierer
 |Time=15 Minuten
 |FCVersion=Alle
-|Author=[r-frank](User:R-Frank.md)
+|Author=_
 |Files=keine
 }}
 
@@ -169,7 +169,7 @@ Der Einfachheit halber für dieses Beispiel, sage du hast die [Arbeitsbereich Ku
 
  {{Powerdocnavi}}
 
-[Category:External Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)
+_ _
 
 ---
-[documentation index](../README.md) > [External Workbenches](Category:External Workbenches.md) > How to install additional workbenches/de
+[documentation index](../README.md) > [External Workbenches](Category_External Workbenches.md) > How to install additional workbenches/de

@@ -3,7 +3,7 @@
 
  <img alt="" src=images/Feature.svg  style="width:32px;"> 
 
-An [App GeoFeature](App_GeoFeature.md) object, or formally an `App::GeoFeature`, is the base class of most objects that will display geometrical elements in the [3D view](3D_view.md) because it includes the **Placement** property.
+An _ because it includes the **Placement** property.
 
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
 
@@ -22,11 +22,11 @@ Some of the most important derived objects are the following:
 -   The [Path Feature](Path_Feature.md) class, the parent of paths created with the [Path Workbench](Path_Workbench.md) for use in CNC machining.
 -   The [App Part](App_Part.md) class, which defines [Std Parts](Std_Part.md) that can be used as containers of bodies to perform assemblies.
 
-When creating this object in [Python](Python.md), instead of sub-classing `App::GeoFeature`, you should sub-class `App::GeometryPython` because the latter includes a default view provider, and `Proxy` attributes for the object itself, and its view provider. See [Scripting](App_GeoFeature#Scripting.md).
+When creating this object in _.
 
 ## Properties
 
-An [App GeoFeature](App_GeoFeature.md) (`App::GeoFeature` class) is derived from the basic [App DocumentObject](App_DocumentObject.md) (`App::DocumentObject` class), therefore it shares all the latter\'s properties.
+An _ (`App::DocumentObject` class), therefore it shares all the latter\'s properties.
 
 In addition to the properties described in [App DocumentObject](App_DocumentObject.md), the GeoFeature has the **Placement** property, which controls its position in the [3D view](3D_view.md).
 

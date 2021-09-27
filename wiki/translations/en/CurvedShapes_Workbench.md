@@ -21,7 +21,7 @@ Recommended installation is through the FreeCAD <img alt="" src=images/AddonMana
 -   <img alt="" src=images/CurvedShapes_CurvedArray.svg  style="width:24px;"> [CurvedArray](CurvedShapes_CurvedArray.md): Creates an array and resizes the items in the bounds of one or more hull curves.
 -   <img alt="" src=images/CurvedShapes_CurvedSegment.svg  style="width:24px;"> [CurvedSegment](CurvedShapes_CurvedSegment.md): Interpolates between two 2D curves. The interpolated curves can be resized in the bounds of some hullcurves.
 -   <img alt="" src=images/CurvedShapes_InterpolatedMiddle.svg  style="width:24px;"> [InterpolatedMiddle](CurvedShapes_InterpolatedMiddle.md): Interpolates a 2D shape into the middle between two 2D curves. The base shapes can be connected to a shape with a sharp corner.
--   <img alt="" src=images/CurvedShapes_SurfaceCut.svg  style="width:24px;"> [SurfaceCut](CurvedShapes_SurfaceCut.md): Cuts a surface to get the outline curve or a face. This tool is similar to <img alt="" src=images/Part_CrossSections.svg  style="width:24px;"> [Cross-Sections](Part_CrossSections.md) in the <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part workbench](Part_Workbench.md), but it is fully parametric and has an option to reduce the complexity of the output curve. It tries to remove overlapping edges.
+-   <img alt="" src=images/CurvedShapes_SurfaceCut.svg  style="width:24px;"> _ in the <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part workbench](Part_Workbench.md), but it is fully parametric and has an option to reduce the complexity of the output curve. It tries to remove overlapping edges.
 
 ### Examples
 
@@ -42,7 +42,7 @@ Recommended installation is through the FreeCAD <img alt="" src=images/AddonMana
 
 
 
-[Category:External Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)
+_ _
 
 ---
-[documentation index](../README.md) > CurvedShapes Workbench/en
+[documentation index](../README.md) > [External Workbenches](Category_External Workbenches.md) > CurvedShapes Workbench/en

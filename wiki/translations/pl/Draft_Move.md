@@ -22,7 +22,7 @@ Narzędzie Przesuń może być używane na obiektach 2D utworzonych za pomocą �
 
 ## Użycie
 
-Zobacz także strony: [Rysunek Roboczy: Przyciąganie](Draft_Snap/pl.md) i [Rysunek Roboczy: Wiązania](Draft_Constrain/pl.md).
+Zobacz także strony: _.
 
 1.  Opcjonalnie wybierz jeden lub więcej obiektów, albo jeden lub więcej elementów podrzędnych typu [linia](Draft_Line/pl.md) lub [polilinia](Draft_Wire/pl.md).
 2.  Istnieje kilka sposobów na wywołanie polecenia:
@@ -59,7 +59,7 @@ Wspomniane tutaj skróty klawiaturowe mogą być zmienione. Zobacz stronę [Rysu
 
 ## Ustawienia
 
-Zobacz także strony: [Edytor ustawień](Preferences_Editor/pl.md) oraz [Rysunek Roboczy: Preferencje](Draft_Preferences/pl.md).
+Zobacz także strony: _.
 
 -   Aby zmienić liczbę miejsc po przecinku używanych do wprowadzania współrzędnych, długości i kątów: **Edycja → Preferencje → Ogólne → Jednostki → Ustawienia jednostek → Liczba cyfr po przecinku**.
 -   Aby zmienić początkową pozycję z panelu zadań na pole wprowadzania **Długość**: **Edycja → Preferencje... → Rysunek Roboczy → Ustawienia ogólne → Opcje narzędzi do kreślenia → Ustaw fokus na Długość zamiast Współrzędnej X**. Należy pamiętać, że aby zmiana zaczęła obowiązywać, należy przesunąć kursor w oknie [widoku 3D](3D_view/pl.md).
@@ -68,7 +68,7 @@ Zobacz także strony: [Edytor ustawień](Preferences_Editor/pl.md) oraz [Rysunek
 
 ## Tworzenie skryptów 
 
-Zobacz również stronę: [Dokumentacja API generowana automatycznie](https://freecad.github.io/SourceDoc/) oraz [Podstawy tworzenia skryptów FreeCAD](FreeCAD_Scripting_Basics/pl.md).
+Zobacz również stronę: _.
 
 Do przesuwania obiektów służy metoda `move` środowiska Rysunek Roboczy.
 

@@ -18,7 +18,7 @@ W nieformalnym użyciu, słowo \"[Rysunek](Drawing/pl.md)\" może być używane 
 
 }} 
 
-[Category:Glossary](Category:Glossary.md)
+_
 
 ---
-[documentation index](../README.md) > [Glossary](Category:Glossary.md) > Model/pl
+[documentation index](../README.md) > [Glossary](Category_Glossary.md) > Model/pl

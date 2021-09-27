@@ -493,7 +493,7 @@ Dans l\'onglet *Textes et cotes*, vous pouvez spécifier les éléments suivants
 
  
 
-[Category:Preferences](Category:Preferences.md)
+_
 
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Preferences/fr
+[documentation index](../README.md) > [Preferences](Category_Preferences.md) > [Draft](Draft_Workbench.md) > Draft Preferences/fr

@@ -383,7 +383,7 @@ When you open this tab for the first time, it will be empty and unavailable. To 
 -   Forum thread [spacenav on windows](https://forum.freecadweb.org/viewtopic.php?f=3&t=51023)
 -   Forum thread [Space navigator axis confusion](https://forum.freecadweb.org/viewtopic.php?f=8&t=57188)
 
-[Category:User Documentation](Category:User_Documentation.md) [Category:3rd Party](Category:3rd_Party.md)
+_ _
 
 ---
-[documentation index](../README.md) > [User Documentation](Category:User Documentation.md) > 3Dconnexion input devices/ru
+[documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > 3Dconnexion input devices/ru

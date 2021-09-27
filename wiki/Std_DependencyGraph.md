@@ -91,7 +91,7 @@ You can save a dependency graph:
 
  {{Std Base navi}}  
 
-[Category:3rd Party](Category:3rd_Party.md)
+_
 
 ---
-[documentation index](../README.md) > [3rd Party](Category:3rd Party.md) > Std DependencyGraph
+[documentation index](../README.md) > [3rd Party](Category_3rd Party.md) > Std DependencyGraph

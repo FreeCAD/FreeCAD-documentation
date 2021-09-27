@@ -201,7 +201,7 @@ FreeCAD runs in console mode (without gui)
 
 Dialog to save a picture with arbitrary sizes.
 
-[Category:User Documentation/zh-tw](Category:User_Documentation/zh-tw.md) [Category:Screenshots/zh-tw](Category:Screenshots/zh-tw.md)
+_ _
 
 ---
 [documentation index](../README.md) > Screenshots/zh-tw

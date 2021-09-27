@@ -147,7 +147,7 @@ ToolBar icon ![](images/Macro_FCConvertLines.png )
 
 ## Examples
 
-Example dot, dash dot, dash dot, dash dot dot [center\|500px ](File:Macro_FCConvertLines_11b.png.md)   Example hand, zigzag [center\|500px ](File:Macro_FCConvertLines_11.png.md)   Example hand [center\|500px ](File:Macro_FCConvertLines_012.png.md) All lines created the configuration specifications set in this Option lines   Example hand can make beautiful sine wave or totally anarchic [center\|500px ](File:Macro_FCConvertLines_013.png.md) 
+Example dot, dash dot, dash dot, dash dot dot _   Example hand, zigzag _   Example hand _ All lines created the configuration specifications set in this Option lines   Example hand can make beautiful sine wave or totally anarchic _ 
 
 Example convert ShapeString to sketch (the curves hare not authorized for convert Shape to Sketch) ![](images/ShapeString_To_Sketch.gif )
 

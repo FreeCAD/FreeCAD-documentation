@@ -14,9 +14,9 @@ Der FreeCAD Pfad Arbeitsbereich Arbeitsablauf erstellt diese Maschinenanweisunge
 -   Ein 3D Modell ist das Basisobjekt, das typischerweise mit einer oder mehreren der Arbeitsbereiche <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;">
 
 [Part Design](PartDesign_Workbench/de.md), <img alt="Workbench_Part.svg" src=images/Workbench_Part.svg  style="width:24px;"> 
-[Part](Part_Workbench/de.md) oder <img alt="Workbench_Draft.svg" src=images/Workbench_Draft.svg  style="width:24px;"> [Entwurf](Draft_Workbench/de.md) erstellt wird.
+_ erstellt wird.
 
--   Ein [Pfad Auftrag](Path_Job/de.md) wird im Pfad Arbeitsbereich erstellt. Dieser enthält alle Informationen, die zur Erzeugung des notwendigen G-codes für die Bearbeitung des Arbeitsauftrags auf einer CNC Fräse erforderlich sind: es gibt Rohmaterial, die Fräse hat einen bestimmten [Werkzeugsatz](Path_ToolLibraryEdit/de.md) und es folgen bestimmte Befehle, die die Geschwindigkeit und die Bewegungen steuern (normalerweise G-code).
+-   Ein _ und es folgen bestimmte Befehle, die die Geschwindigkeit und die Bewegungen steuern (normalerweise G-code).
 -   Die Werkzeuge werden entsprechend den Anforderungen der Arbeitsauftragsabläufe ausgewählt.
 -   Fräsbahnen werden z.B. mit [Kontur](Path_Profile/de.md) und [Tasche](Path_Pocket_3D/de.md) Abläufen erzeugt. Diese [Bahnobjekte](Path_objects/de.md) verwenden den internen FreeCAD G-code Dialekt, unabhängig von der CNC Maschine.
 -   Exportiere den Job mit einem G-code, der zu Ihrer Maschine passt. Dieser Schritt wird *Nachbearbeitung* genannt; es sind unterschiedliche Nachbearbeitungsprozessoren verfügbar.
@@ -88,7 +88,7 @@ Some commands are experimental and not available by default. To enable them see 
 
 -   <img alt="" src=images/Path_PostProcess.svg  style="width:32px;"> [Nach Prozess](Path_Post/de.md): Exportiert ein Projekt in G-code.
 
--   <img alt="" src=images/Path_Sanity.svg  style="width:32px;"> [Überprüfen des Pfadauftrags auf allgemeine Fehler](Path_Sanity/de.md): Überprüft den gewählten Auftrag auf fehlende Werte. [/de**Experimentell**](Path_experimental.md). {{Version/de|0.19}}
+-   <img alt="" src=images/Path_Sanity.svg  style="width:32px;"> _. {{Version/de|0.19}}
 
 -   <img alt="" src=images/Path_ExportTemplate.svg  style="width:32px;"> [Export Vorlage](Path_ExportTemplate/de.md): Den aktuellen Auftrag als Vorlage exportieren.
 
@@ -422,7 +422,7 @@ Siehe [Path scripting/de](Path_scripting/de.md) Seite.
 
 ## Videos
 
--   [FreeCAD Path: Custom paths with Python - Part 1 - 5](https://www.youtube.com/playlist?list=PLEuOia-QxyFKgzAeTyH62GKqWKVURiWJL): a playlist with a series of 5 videos in English by sliptonic. This series shows how to work with the [Path Workbench](Path_Workbench.md).
+-   _.
 -   [FreeCAD CAM Path Workbench](https://www.youtube.com/playlist?list=PLUrr_kHPp4vhGdLlj6IemtF-OPUlRvSTC): a playlist with a series of 7 videos in English by CAD CAM Lessons.
 -   [FreeCAD CAM CNC](https://www.youtube.com/playlist?list=PLUrr_kHPp4vh2n6DcIlegK4dEKIFjmISJ) a playlist with a series of 8 videos in English by CAD CAM Lessons.
 
@@ -434,7 +434,7 @@ Siehe [Path scripting/de](Path_scripting/de.md) Seite.
 
 }} 
 
-[Category:Workbenches](Category:Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > Path Workbench/de
+[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Path Workbench/de

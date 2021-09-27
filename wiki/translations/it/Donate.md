@@ -20,12 +20,12 @@ Vedi altri modi per [aiutare il progetto](Help_FreeCAD/it.md) (documentazione, t
 <div class="mw-translate-fuzzy">
 
 -   Alcuni sviluppatori svolgeranno un compito specifico in cambio di denaro o possono essere sponsorizzati per passare del tempo a lavorare su FreeCAD. Ci sono stati un paio di esperimenti di successo in passato, come il [Ambiente Path](Path_Workbench/it.md) o [Esperimento di finanziamento di Ian Rees](https://opendeveloperfunding.wordpress.com/). Al momento, i seguenti sviluppatori possono essere sponsorizzati:
-    -   [Yorik](User:Yorik.md) via <img alt="yorikvanhavre\|link=<https://www.patreon.com/yorikvanhavre>" src=images/patreonporange.png  style="width:20px;"> [Patreon](https://www.patreon.com/yorikvanhavre) o <img alt="" src=images/Liberapay_logo.svg  style="width:24px;"> [Liberapay](https://liberapay.com/yorik) ([Ambiente Draft](Draft_Workbench/it.md), [Ambiente Architettura](Arch_Workbench/it.md), [BIM](BIM_Workbench/it.md), IFC)
-    -   [Kurt Kremitzki](User:Kkremitzki.md) via <img alt="kkremitzki\|link=<https://www.patreon.com/kkremitzki>" src=images/patreonporange.png  style="width:20px;"> [Patreon](https://www.patreon.com/kkremitzki) o <img alt="" src=images/Liberapay_logo.svg  style="width:24px;"> [Liberapay](https://liberapay.com/kkremitzki) (infrastruttura, server, imballaggio, Debian/Ubuntu)
-    -   Lei Zheng alias [Realthunder](https://github.com/realthunder) via [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2SM8GY3U2UUJN), <img alt="" src=images/Liberapay_logo.svg  style="width:24px;"> [Liberapay](https://liberapay.com/realthunder/) o <img alt="Patreon" src=images/patreonporange.png  style="width:20px;"> [Patreon](https://www.patreon.com/thundereal) ([App Link](App_Link/it.md), [Assembly3](Assembly3/it.md))
-    -   Lorenz alias looooo via <img alt="" src=images/Liberapay_logo.svg  style="width:24px;"> [Liberapay](https://liberapay.com/looooo/donate) ([FCGears ambiente](https://github.com/looooo/freecad.gears), [Conda](Conda/it.md) imballaggio)
+    -   _ via <img alt="yorikvanhavre\|link=<https://www.patreon.com/yorikvanhavre>" src=images/patreonporange.png  style="width:20px;"> _, [Ambiente Architettura](Arch_Workbench/it.md), [BIM](BIM_Workbench/it.md), IFC)
+    -   _ via <img alt="kkremitzki\|link=<https://www.patreon.com/kkremitzki>" src=images/patreonporange.png  style="width:20px;"> [Patreon](https://www.patreon.com/kkremitzki) o <img alt="" src=images/Liberapay_logo.svg  style="width:24px;"> [Liberapay](https://liberapay.com/kkremitzki) (infrastruttura, server, imballaggio, Debian/Ubuntu)
+    -   Lei Zheng alias _, [Assembly3](Assembly3/it.md))
+    -   Lorenz alias looooo via <img alt="" src=images/Liberapay_logo.svg  style="width:24px;"> _ imballaggio)
     -   Amritpal Singh alias amrit3701 via <img alt="" src=images/Liberapay_logo.svg  style="width:24px;"> [Liberapay](https://liberapay.com/amrit3701) o <img alt="Patreon" src=images/patreonporange.png  style="width:20px;"> [Patreon](https://www.patreon.com/amrit3701) ([Addizione Armatura](https://github.com/amrit3701/FreeCAD-Reinforcement))
-    -   Brad Collette alias sliptonic via <img alt="" src=images/Liberapay_logo.svg  style="width:24px;"> [Liberapay](https://liberapay.com/sliptonic/donate) o <img alt="Patreon" src=images/patreonporange.png  style="width:20px;"> [Patreon](https://www.patreon.com/sliptonic) ([Path Ambiente](Path_Workbench/it.md))
+    -   Brad Collette alias sliptonic via <img alt="" src=images/Liberapay_logo.svg  style="width:24px;"> _)
 
 
 </div>

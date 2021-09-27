@@ -4,6 +4,7 @@
    Name/fr:Std Édition
    MenuLocation:Édition → Basculer le mode d'édition
    Workbenches:Tous
+   SeeAlso:[Std Edition arborescence](Std_UserEditMode/fr.md)
 ---
 
 # Std Edit/fr

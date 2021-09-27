@@ -2,7 +2,7 @@
 {{TutorialInfo/fr
 |Topic=Dessin technique
 |Level=Débutant
-|Author=[WandererFan](User:WandererFan.md)
+|Author=_
 |Time=Moins d'une heure
 |FCVersion=0.17 ou ultérieur
 |Files=[https://github.com/FreeCAD/Examples/blob/master/Basic_Part_Design_Tutorial_Example_017_Files/Basic_Part_Design_Tutorial_017.fcstd  Basic Part Design for v0.17 Sample]<br />[https://github.com/FreeCAD/Examples/blob/master/Basic_TechDraw_Tutorial_Example_Files/Basic_TechDraw_Tutorial.fcstd Basic TechDraw Tutorial Sample]
@@ -38,7 +38,7 @@ Tout le travail dans TechDraw commence par une page. Les pages sont basées sur 
 
 1.  Cliquez sur <img alt="" src=images/TechDraw_PageDefault.svg  style="width:32px;"> [TechDraw Page par défaut](TechDraw_PageDefault/fr.md) pour créer une nouvelle page.
 2.  Cliquez sur Body dans la [vue 3D](3D_view/fr.md) ou dans la [vue combinée](Combo_view/fr.md).
-3.  Cliquez sur [32px]([Image:TechDraw_View.svg.md)\] [TechDraw Créer une nouvelle vue](TechDraw_View/fr.md). Cela ajoutera la vue à la page que nous venons de créer.
+3.  Cliquez sur _\] [TechDraw Créer une nouvelle vue](TechDraw_View/fr.md). Cela ajoutera la vue à la page que nous venons de créer.
 
 Nous avons maintenant une vue sur la page qui regarde le Body du haut. C\'est un peu petit, cependant.
 
@@ -114,7 +114,7 @@ D\'après la première partie de ce tutoriel, nous savons que la pièce a 53 mm 
 
 ## Aller plus loin 
 
-Dans ce tutoriel, vous avez suffisamment appris sur TechDraw pour produire un dessin comme celui-ci (par [NormandC](User:Normandc.md)). Voir la note 2.
+Dans ce tutoriel, vous avez suffisamment appris sur TechDraw pour produire un dessin comme celui-ci (par _). Voir la note 2.
 
 ![](images/TDTut_FC018_TechDraw_Dim_Iso_View_01_NC.png )
 

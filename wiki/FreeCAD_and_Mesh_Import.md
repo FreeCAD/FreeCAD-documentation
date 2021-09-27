@@ -6,12 +6,12 @@ After import the model is (for FreeCAD), just an assembly of faces. You might wa
 To do this:
 
 1.  Switch to the <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part Workbench](Part_Workbench.md)
-2.  Select the mesh, and go to the **Part → [Create shape from mesh](Part_ShapeFromMesh.md)** or press the <img alt="" src=images/Part_ShapeFromMesh.svg  style="width:24px;"> [Part ShapeFromMesh](Part_ShapeFromMesh.md) button
+2.  Select the mesh, and go to the **Part → _ button
 3.  Click **OK** in the dialog
 4.  Select the newly created shape
 5.  Go to **Part → [Convert to solid](Part_MakeSolid.md)**
 6.  Select the newly created solid
-7.  Go to **Part → [Refine shape](Part_RefineShape.md)** or press the <img alt="" src=images/Part_RefineShape.svg  style="width:24px;"> [Part RefineShape](Part_RefineShape.md) button
+7.  Go to **Part → _ button
 
 **Note:** The last step is not necessary, but it will clean the solid of most of its residual edges on planar and cylindrical surfaces.
 
@@ -41,7 +41,7 @@ Well, your shell seems to have errors, maybe it is not closed (has holes). Since
 
 
 
-[Category:User\_Documentation](Category:User_Documentation.md) [Category:File\_Formats](Category:File_Formats.md)
+_ _
 
 ---
-[documentation index](../README.md) > [User_Documentation](Category:User_Documentation.md) > FreeCAD and Mesh Import
+[documentation index](../README.md) > [User_Documentation](Category_User_Documentation.md) > FreeCAD and Mesh Import

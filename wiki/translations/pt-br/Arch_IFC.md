@@ -16,7 +16,7 @@
 
 ## Description
 
-The <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Arch](Arch_Workbench.md) and <img alt="" src=images/Workbench_BIM.svg  style="width:24px;"> [BIM Workbenches](BIM_Workbench.md) feature an [Industry Foundation Classes (IFC)](http://en.wikipedia.org/wiki/Industry_Foundation_Classes) importer and exporter. The IFC format is a continuously growing format to interchange data among [BIM](http://en.wikipedia.org/wiki/Building_Information_Modeling) applications, used in architecture and engineering.
+The <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> _ feature an [Industry Foundation Classes (IFC)](http://en.wikipedia.org/wiki/Industry_Foundation_Classes) importer and exporter. The IFC format is a continuously growing format to interchange data among [BIM](http://en.wikipedia.org/wiki/Building_Information_Modeling) applications, used in architecture and engineering.
 
 Both the importer and exporter depend on the [IfcOpenShell](IfcOpenShell.md) library, which is bundled in some distributions of FreeCAD. An easy way to check if IfcOpenShell is available is to enter the following in the [Python console](Python_console.md):
 
@@ -66,7 +66,7 @@ Enabling the **show debug messages** in the IFC preferences settings will print 
 
 ## Exporting
 
-Exporting to IFC files will export all the selected objects and their descendants. All Arch/BIM objects are supported, as well as other objects created in other workbenches. The only not fully supported objects, at the moment, are **<img src=images/PartDesign_Body.svg style="width:16px"> <img src=images/Std_Part.svg style="width:PartDesign Bodies](PartDesign_Body.md)**, **[16px"> <img src=images/Link.svg style="width:Std Parts](Std_Part.md)**, and new structures such as **[16px"> <img src=images/LinkGroup.svg style="width:App Links](Std_LinkMake.md)** and **[16px"> LinkGroups**, so you will need a bit of testing if using them. [Arch References](Arch_Reference.md) will currently export as `IfcBuildingElementProxies`.
+Exporting to IFC files will export all the selected objects and their descendants. All Arch/BIM objects are supported, as well as other objects created in other workbenches. The only not fully supported objects, at the moment, are **<img src=images/PartDesign_Body.svg style="width:16px"> <img src=images/Std_Part.svg style="width:PartDesign Bodies](PartDesign_Body.md)**, **_** and **[16px"> LinkGroups**, so you will need a bit of testing if using them. [Arch References](Arch_Reference.md) will currently export as `IfcBuildingElementProxies`.
 
 To export a whole site or building or a whole floor or a group containing other objects, it is only needed to select that building or floor or group. Arch objects will be exported with the type set in their \"IFC Type\" property. Their [IfcProperties](http://www.buildingsmart-tech.org/ifc/IFC4/Add1/html/schema/ifcpropertyresource/lexical/ifcproperty.htm) are exported as well, and if these objects have an IFC UID from a previous import, the same UID will be kept at export. Objects that are not Arch objects are exported as [IfcBuildingElementProxy](http://www.buildingsmart-tech.org/ifc/IFC4/Add1/html/schema/ifcsharedbldgelements/lexical/ifcbuildingelementproxy.htm).
 
@@ -94,7 +94,7 @@ If the shape of exported objects is based on an extrusion or a boolean operation
 
  
 
-[Category:File Formats](Category:File_Formats.md)
+_
 
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch IFC/pt-br
+[documentation index](../README.md) > [File Formats](Category_File Formats.md) > [Arch](Arch_Workbench.md) > Arch IFC/pt-br

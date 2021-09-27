@@ -233,7 +233,7 @@ Do not import invisible shapes : This will hide invisible datum/construction sha
 
 
 Use solid union for importing parts and subassemblies : All imported parts will directly be put together as union.
-This feature is useful for [FEM](FEM_Workbench.md) simulations or [3D-printing](Manual:Preparing_models_for_3D_printing.md) if only one solid is allowed. The alternative is to create a [shape of the whole assembly](#Shape_of_whole_Assembly.md) later on.
+This feature is useful for _ if only one solid is allowed. The alternative is to create a [shape of the whole assembly](#Shape_of_whole_Assembly.md) later on.
 
 ### Benutzeroberflächeneinstellungen
 
@@ -612,7 +612,7 @@ This is an A2plus-specific command. It solves the assembly constraints of the as
 
 
 
-[Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+_ _
 
 ---
-[documentation index](../README.md) > A2plus Workbench/de
+[documentation index](../README.md) > [Addons](Category_Addons.md) > A2plus Workbench/de

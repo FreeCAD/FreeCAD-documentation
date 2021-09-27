@@ -520,7 +520,7 @@ De nouveaux ateliers sont en développement, tenez vous au courant!
 
 
 
-[Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+_ _
 
 ---
-[documentation index](../README.md) > Flamingo Workbench/fr
+[documentation index](../README.md) > [Addons](Category_Addons.md) > Flamingo Workbench/fr

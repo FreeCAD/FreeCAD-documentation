@@ -7,7 +7,7 @@
 Die Installation von FreeCAD auf den bekanntesten Linux Systemen wurde nun von der Gemeinschaft befürwortet, und FreeCAD sollte direkt über den in Ihrer Distribution verfügbaren Paketmanager verfügbar sein. Die FreeCAD Mannschaft stellt auch einige zur Verfügung:
 
 -   \"Offizielle\" Pakete, wenn neue Versionen erstellt werden
--   Experimentelle [Personal Package Archive](https://help.ubuntu.com/community/PPA) (PPA) Repositorien, [AppImages](AppImage.md) und [Ubuntu Snaps](Ubuntu_Snap.md) zum Testen nicht ausgereifter Funktionen.
+-   Experimentelle _ und [Ubuntu Snaps](Ubuntu_Snap.md) zum Testen nicht ausgereifter Funktionen.
 
 
 <div class="mw-collapsible mw-collapsed toccolours">
@@ -328,7 +328,7 @@ Viele alternative, nicht-offizielle FreeCAD Pakete sind im Netz verfügbar, z.B.
 Wenn aus irgendeinem Grund eine der oben genannten Methoden nicht verwendet werden können, kannst Du immer eines der .deb Pakete herunterladen, die auf der Seite [Download](Download/de.md) verfügbar sind.
 {{DownloadUnixStable}}
 
-Wenn du die entsprechende .deb Datei für dein System heruntergeladen und das [Gdebi](wikipedia:Debian#GDEBI.md) Paket installiert hast (was meistens der Fall ist), navigiere einfach zum Verzeichnis, wo du die Datei heruntergeladen hast und doppelklicke darauf. Die notwendigen Abhängigkeiten werden automatisch von deinem Systempaketmanager erledigt. Alternativ kannst du sie auch vom Terminal aus installieren, indem du zu der Stelle gehst, an der du die Datei heruntergeladen hast, und dann tippst:
+Wenn du die entsprechende .deb Datei für dein System heruntergeladen und das _ Paket installiert hast (was meistens der Fall ist), navigiere einfach zum Verzeichnis, wo du die Datei heruntergeladen hast und doppelklicke darauf. Die notwendigen Abhängigkeiten werden automatisch von deinem Systempaketmanager erledigt. Alternativ kannst du sie auch vom Terminal aus installieren, indem du zu der Stelle gehst, an der du die Datei heruntergeladen hast, und dann tippst:
 
 
 ```python
@@ -371,7 +371,7 @@ Wenn Du FreeCAD installiert hast, ist es Zeit für die [ersten Schritte](Getting
 
 
 
-[Category:Common Questions](Category:Common_Questions.md) [Category:Developer Documentation](Category:Developer_Documentation.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Common Questions](Category:Common Questions.md) > Installing on Linux/de
+[documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > Installing on Linux/de

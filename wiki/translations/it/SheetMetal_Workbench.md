@@ -28,7 +28,7 @@ Icona dell\'ambiente esterno SheetMetal
 Characteristics of sheet metal objects are:
 
 -   They have a constant thickness
--   They are made of planar walls and cylindrical connections
+-   They can be unfolded, if they are made of planar walls and cylindrical connections only
 
 The unfolding tool in both of its versions is not restricted to parts made with tools from this workbench, but can handle [Part](Part_Workbench.md) and [PartDesign](PartDesign_Workbench.md) objects as well, as long as they meet above characteristics.
 
@@ -185,7 +185,7 @@ Several tools from other workbenches can be used to add holes or to reshape edge
 
 ### Unfold a sheet metal object 
 
-To unfold a sheet metal object aktivate the <img alt="" src=images/SheetMetal_Unfold.svg  style="width:16px;"> [Unfold](SheetMetal_Unfold.md) or the <img alt="" src=images/SheetMetal_UnattendedUnfold.svg  style="width:16px;"> [Unattended Unfold](SheetMetal_UnattendedUnfold.md) tool.
+To unfold a sheet metal object aktivate the <img alt="" src=images/SheetMetal_Unfold.svg  style="width:16px;"> _ tool.
 
 The result will be a 3D object with an optional outline sketch including bend lines.
 
@@ -406,7 +406,7 @@ Come fare ?
 -   Blog ufficiale: [Sheet metal Addon for FreeCAD](http://theseger.com/projects/2015/06/sheet-metal-addon-for-freecad/)
 -   Codice sorgente su github: <https://github.com/shaise/FreeCAD_SheetMetal>
 
-[Category:SheetMetal](Category:SheetMetal.md) [Category:Addons](Category:Addons.md) [Category:External Command Reference](Category:External_Command_Reference.md)
+_ _ _
 
 ---
-[documentation index](../README.md) > SheetMetal Workbench/it
+[documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > SheetMetal Workbench/it

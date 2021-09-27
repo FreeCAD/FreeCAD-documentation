@@ -5,7 +5,7 @@
 
 Diese Seite erklärt, die Art und Weise wie der <img alt="" src=images/Workbench_PartDesign.svg  style="width:32px;"> [PartDesign Arbeitsbereich](PartDesign_Workbench/de.md) für den Einsatz ab FreeCAD 0.17 vorgesehen ist.
 
-Während der <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part Arbeitsbereich](Part_Workbench/de.md) und andere Arbeitsbereiche Modelle konstruieren, indem sie Formen miteinander kombinieren (siehe [Konstruktive Volumenkörpergeometrie](Constructive_solid_geometry/de.md)), verwendet der <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign Arbeitsbereich](PartDesign_Workbench.md) **[Formelemente](PartDesign_Feature/de.md)**. Ein [Formelement](https://en.wikipedia.org/wiki/Feature_recognition) ist ein Vorgang, die die Form eines Modells verändert.
+Während der <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> _ **[Formelemente](PartDesign_Feature/de.md)**. Ein [Formelement](https://en.wikipedia.org/wiki/Feature_recognition) ist ein Vorgang, die die Form eines Modells verändert.
 
 ## Formelement Bearbeitungsmethodik 
 
@@ -140,7 +140,7 @@ Es gibt mehrere Arbeitsabläufe, die mit der [PartDesign Arbeitsbereich](PartDes
 
 ### Verschiedene Skizzen 
 
-Skizzen müssen von einer Ebene unterstützt werden. Diese Ebene kann eine der Hauptebenen (XY, XZ oder YZ) sein, die durch den Ursprung des Körpers definiert sind. Eine Skizze wird entweder mit einem Werkzeug wie <img alt="" src=images/PartDesign_Pad.svg  style="width:24px;"> [PartDesign Polster](PartDesign_Pad/de.md) zu einem positiven Festkörper (Additiv) oder zu einem negativen Festkörper (subtraktiv) mit einem Werkzeug wie <img alt="" src=images/PartDesign_Pocket.svg  style="width:24px;"> [PartDesign Tasche](PartDesign_Pocket/de.md) ausgeformt. Der erste fügt der endgültigen Form des Körpers Volumen hinzu, während der zweite das Volumen aus der endgültigen Form schneidet. Auf diese Weise können beliebig viele Skizzen und Teilkörper erzeugt werden; die endgültige Form (Spitze) ergibt sich aus der Verschmelzung dieser Vorgänge. Natürlich kann der Körper nicht nur aus subtraktiven Operationen bestehen, da die endgültige Form ein Körper mit einem Volumen größer Null sein sollte.
+Skizzen müssen von einer Ebene unterstützt werden. Diese Ebene kann eine der Hauptebenen (XY, XZ oder YZ) sein, die durch den Ursprung des Körpers definiert sind. Eine Skizze wird entweder mit einem Werkzeug wie <img alt="" src=images/PartDesign_Pad.svg  style="width:24px;"> _ ausgeformt. Der erste fügt der endgültigen Form des Körpers Volumen hinzu, während der zweite das Volumen aus der endgültigen Form schneidet. Auf diese Weise können beliebig viele Skizzen und Teilkörper erzeugt werden; die endgültige Form (Spitze) ergibt sich aus der Verschmelzung dieser Vorgänge. Natürlich kann der Körper nicht nur aus subtraktiven Operationen bestehen, da die endgültige Form ein Körper mit einem Volumen größer Null sein sollte.
 
 <img alt="" src=images/PartDesign_workflow_1.svg  style="width:600px;">
 
@@ -172,7 +172,7 @@ Using datum objects is often the best way to produce stable models, when used wi
 
 ## Tutorien
 
-Die [Tutorien](Tutorials/de.md) Seite bietet einige Beispiele für die Verwendung der [ Formelementbearbeitungs](feature_editing/de.md) Methode des <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign Arbeitsbereich](PartDesign_Workbench/de.md).
+Die _.
 
 -   [Erstellen eines einfachen Teils mit PartDesign](Creating_a_simple_part_with_PartDesign/de.md)
 -   [Grundlagen Part Design Tutorium](Basic_Part_Design_Tutorial/de.md)
@@ -189,7 +189,7 @@ Die [Tutorien](Tutorials/de.md) Seite bietet einige Beispiele für die Verwendun
 
 }} 
 
-[Category:Common Questions](Category:Common_Questions.md)
+_
 
 ---
-[documentation index](../README.md) > [Common Questions](Category:Common Questions.md) > Feature editing/de
+[documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > Feature editing/de

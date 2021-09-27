@@ -737,7 +737,7 @@ Naturalmente, dopo spetta all\'utente il compito di caricare i documenti corrisp
 
 }} 
 
-[Category:Spreadsheet](Category:Spreadsheet.md)
+_
 
 ---
-[documentation index](../README.md) > [Spreadsheet](Category:Spreadsheet.md) > Expressions/it
+[documentation index](../README.md) > [Spreadsheet](Category_Spreadsheet.md) > Expressions/it

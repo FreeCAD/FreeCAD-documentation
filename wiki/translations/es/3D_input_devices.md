@@ -12,7 +12,7 @@ FreeCAD soporta algunos dispositivos de entrada especializados, tales como raton
 
 </div>
 
-[category:Documentation](category:Documentation.md)
+_
 
 ---
 [documentation index](../README.md) > 3D input devices/es

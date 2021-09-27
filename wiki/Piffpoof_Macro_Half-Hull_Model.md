@@ -1181,7 +1181,7 @@
                 FreeCAD.closeDocument(docSrc.Name)
             resetSketchesVisibility()
 
-[Category:Macros](Category:Macros.md) [Category:Python Code](Category:Python_Code.md)
+_ _
 
 ---
 [documentation index](../README.md) > Piffpoof Macro Half-Hull Model

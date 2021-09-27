@@ -32,7 +32,7 @@ L\'image suivante a été redimensionnée à une largeur d\'affichage de 480 pix
 
 }} 
 
-[Category:Start](Category:Start.md)
+_
 
 ---
-[documentation index](../README.md) > [Start](Category:Start.md) > Artwork Start/fr
+[documentation index](../README.md) > [Start](Category_Start.md) > Artwork Start/fr

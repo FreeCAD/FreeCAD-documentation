@@ -20,7 +20,7 @@ Notera att dessa sidor är i ett tidigt utvecklingsstadie. För tillfället finn
 
 </div>
 
-If you\'d like to contribute to FreeCAD, please [donate](donate.md), and see the [Help FreeCAD](Help_FreeCAD.md) page for other ways to contribute. If you\'d like to edit this wiki, request a wiki account with editor permissions [in the forum](https://forum.freecadweb.org/viewtopic.php?f=21&t=6830), and read the [WikiPages](WikiPages.md) for the general guidelines that you should follow.
+If you\'d like to contribute to FreeCAD, please _ for the general guidelines that you should follow.
 
 If you would like to know how FreeCAD started years ago visit the [History](History.md) page.
 
@@ -40,7 +40,7 @@ Och om du har någon information som du vill ska finnas här, varför inte hjäl
 <div class="mw-translate-fuzzy">
 
 -   [Applikationsöversikt](About_FreeCAD/sv.md): En allmän översikt över FreeCAD
--   [Installera FreeCAD](Install_on_Windows/sv.md): Hur man installerar FreeCAD på [Windows](Install_on_Windows/sv.md), [Unix/Linux](Install_on_Unix/sv.md) och [Mac](Install_on_Mac/sv.md)
+-   _, [Unix/Linux](Install_on_Unix/sv.md) och [Mac](Install_on_Mac/sv.md)
 -   [Börja här](Getting_started/sv.md): En snabb överblick över de tillgängliga verktygen
 -   [FAQ](FAQ/sv.md): Ofta ställda frågor
 
@@ -178,7 +178,7 @@ Detta är den officiella FreeCAD online hjälpen. Notera att hela online hjälp 
 -   [Expertanvändarhubben](Power_users_hub/sv.md) är den plats du ska gå till om du vill se mer avancerat FreeCAD användande
 -   [arbetsflöde inom arkitektur](http://yorik.uncreated.net/guestblog.php?tag=freecad) : Ett exempel på hur FreeCAD kan börja ha sin preliminära plats i en arkitekts arbetsflöde\...
 -   Om du vill hjälpa FreeCAD, gå till [Hjälp FreeCAD](Help_FreeCAD/sv.md) sidan.
--   [free-cad:Grupp Portal](free-cad:Community_Portal/sv.md) listar projekt som gjorts av gruppmedlemmar omkring FreeCAD.
+-   _ listar projekt som gjorts av gruppmedlemmar omkring FreeCAD.
 -   Don\'t understand a term or phrase as used in FreeCAD? Try the [Glossary](Glossary.md) page.
 
 
@@ -187,7 +187,7 @@ Detta är den officiella FreeCAD online hjälpen. Notera att hela online hjälp 
 
 
 
-[Category:Hubs](Category:Hubs.md)
+_
 
 ---
-[documentation index](../README.md) > [Hubs](Category:Hubs.md) > User hub/sv
+[documentation index](../README.md) > [Hubs](Category_Hubs.md) > User hub/sv

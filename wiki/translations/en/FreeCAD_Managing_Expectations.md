@@ -69,7 +69,7 @@ Links to forum thread discussions related to this topic
 
 -   Discussion: FreeCAD is not ready for 1.0 ([forum thread](https://forum.freecadweb.org/viewtopic.php?f=8&t=43461))
 
-[Category:Common Questions](Category:Common_Questions.md)
+_
 
 ---
-[documentation index](../README.md) > [Common Questions](Category:Common Questions.md) > FreeCAD Managing Expectations/en
+[documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > FreeCAD Managing Expectations/en

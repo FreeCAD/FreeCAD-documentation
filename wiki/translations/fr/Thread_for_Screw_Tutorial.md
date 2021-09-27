@@ -3,7 +3,7 @@
 |Topic= Conception de produit
 |Level= Avancé
 |Time= 60 minutes
-|Author=[DeepSOIC](User:DeepSOIC.md), [Murdic](User:Murdic.md), vocx
+|Author=_, _, vocx
 |FCVersion=0.19
 |Files=[https://forum.freecadweb.org/viewtopic.php?f=36&t=44668 Updated: Thread for screw tutorial]
 }}

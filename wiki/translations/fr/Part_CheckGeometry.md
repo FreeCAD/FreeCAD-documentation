@@ -10,7 +10,7 @@
 
 ## Description
 
-L\'outil **<img src="images/Part_CheckGeometry.svg" width=16px> [Part Vérifier la géométrie](Part_CheckGeometry/fr.md)** exécute une vérification et indique si la géométrie est un solide valide. L\'outil vérifie si la [Représentation par les Bords](https://fr.wikipedia.org/wiki/B-Rep) (BRep ou [B-rep](Glossary/fr#B.md)) du modèle est valide.
+L\'outil **<img src="images/Part_CheckGeometry.svg" width=16px> _) du modèle est valide.
 
 ## Utilisation
 
@@ -20,7 +20,7 @@ L\'outil **<img src="images/Part_CheckGeometry.svg" width=16px> [Part Vérifier 
     -   En utilisant **Pièce → <img src="images/Part_CheckGeometry.svg" width=16px> Vérifier la géométrie** dans le menu supérieur.
 3.  Le panneau de tâches **Settings** s\'ouvre, sauf si **Skip settings page** est activé. Voir [Options](#Options.md) pour plus d\'informations. Cliquez sur **Run check**.
 
-Les résultats seront présentés dans le [Panneau des tâches](Task_panel/fr.md). Si la vérification a produit des erreurs : cliquez dans le rapport sur un message d\'erreur spécifique et l\'objet géométrique correspondant (arête, face, etc.) sera mis en surbrillance dans la [vue 3D](3D_view/fr.md).
+Les résultats seront présentés dans le _.
 
 **Remarque :** FreeCAD ne dispose pas de méthodes de réparation automatique pour les solides, vous devez donc examiner les étapes nécessaires pour modéliser cette géométrie spécifique et essayer de réparer l\'erreur par vous-même.
 

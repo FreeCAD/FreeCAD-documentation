@@ -79,7 +79,7 @@ and once you **<img src=images/Sketcher_LeaveSketch.svg style="width:16px"> [lea
 
 }}  
 
-[Category:Sketcher/cs](Category:Sketcher/cs.md)
+_
 
 ---
 [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ToggleConstruction/cs

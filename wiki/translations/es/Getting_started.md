@@ -5,7 +5,7 @@
 
 FreeCAD es una 3D [aplicación de modelado paramétrico](About_FreeCAD/es.md). Esta primeramente hecha para diseño mecánico, pero también sirve a muchos otros usos donde donde necesitas modelado 3D con precisión y control sobre historial de modelado.
 
-FreeCAD se ha estado desarrollando desde 2002, y ofrece una amplia lista de [características](Feature_list/es.md). Todavía faltan capacidades, pero es lo suficientemente potente para el uso de aficionados y pequeños talleres. Hay una comunidad en rápido crecimiento de usuarios entusiastas que participan en el [foro de FreeCAD](http://forum.freecadweb.org/index.php), y se pueden encontrar [muchos ejemplos](https://forum.freecadweb.org/viewforum.php?f=24) de proyectos de calidad desarrollados con FreeCAD allí. Véase también, [FreeCAD utilizado en producción](FreeCAD_used_in_production/es.md).
+FreeCAD se ha estado desarrollando desde 2002, y ofrece una amplia lista de _.
 
 Como todos los proyectos de software libre, FreeCAD depende de su comunidad para crecer, obtener características y corregir errores. No olvide esto cuando use FreeCAD; si le gusta, puede [donar](Donate/es.md) y [ayudar a FreeCAD](Help_FreeCAD/es.md) de varias maneras, como escribir documentación y hacer traducciones.
 
@@ -144,7 +144,7 @@ En cualquier momento, puedes seleccionar el origen del croquis y modificarlo, o 
 
 El [Ambiente de trabajo Borrador](Draft_Workbench/es.md) y [Ambiente de trabajo Arquitectura](Arch_Workbench/es.md) se comportan un poco diferente que los otros bancos de trabajo de arriba, a pesar que ellos siguen las mismas reglas, las cuales son comunes de todo FreeCAD. En breve, mientras el Boceto y diseño de parte están hechas primeramente para diseñar piezas sencillas, borrador y arquitectura son hechos para facilitar tu trabajo cuando están trabajando con varios, objetos sencillos.
 
-El [Ambiente de trabajo Borrador](Draft_Workbench/es.md) le ofrece herramientas 2D un poco similares a las que puede encontrar en aplicaciones CAD 2D tradicionales como [AutoCAD](https://en.wikipedia.org/wiki/AutoCAD). Sin embargo, el dibujo en 2D está muy lejos del alcance de FreeCAD, no espere encontrar allí la gama completa de herramientas que ofrecen estas aplicaciones dedicadas. La mayoría de las herramientas Borrador funcionan no solo en un plano 2D sino también en el espacio 3D completo, y se benefician de los sistemas auxiliares especiales tales como [Planos de trabajo](Draft_SelectPlane/es.md) y [Atrapar objeto](Draft_Snap/es.md).
+El _ y [Atrapar objeto](Draft_Snap/es.md).
 
 El [Ambiente de trabajo Arquitectura](Arch_Workbench/es.md) agrega herramientas [modelado de información de construcción (BIM)](https://es.wikipedia.org/wiki/Modelado_de_informaci%C3%B3n_de_construcci%C3%B3n) a FreeCAD, lo que le permite construir modelos arquitectónicos con objetos paramétricos. El Ambiente de trabajo Arquitectura se basa mucho en otros módulos, como Borrador y Croquizador. Todas las herramientas de borrador están también presentes en el ambiente de trabajo de Arquitectura, y la mayoría de las herramientas de Arquitectura hacen uso de los sistemas de ayuda de Borrador.
 
@@ -173,7 +173,7 @@ El principio de [Complementos](Addon/es.md) se basa en el desarrollo de un compl
 Hay dos tipos de complementos:
 
 1.  [Macros](Macros/es.md): breves fragmentos de código Python que proporcionan una nueva herramienta o funcionalidad. Las macros suelen empezar como una forma de simplificar o automatizar la tarea de dibujar o editar un objeto concreto. Si muchas de estas macros se reúnen dentro de un directorio, todo el directorio puede ser distribuido como un nuevo ambiente de trabajo.
-2.  [Ambientes de trabajo externos](External_workbenches/es.md): colecciones de herramientas programadas en Python o C++ que extienden FreeCAD de forma importante. Si un ambiente de trabajo está suficientemente desarrollado y está bien documentado, puede ser incluido como uno de los ambientes de trabajo base en FreeCAD. En [Ambientes de trabajo externos](External_workbenches/es.md), encontrarás el principio y una lista de las bibliotecas existentes.
+2.  _, encontrarás el principio y una lista de las bibliotecas existentes.
 
 ## Guión
 
@@ -189,7 +189,7 @@ Y finalmente, una de las características más poderosas de FreeCAD es el entorn
 
 {{Userdocnavi/es}}
 
-[Category:User Documentation/es](Category:User_Documentation/es.md)
+_
 
 ---
 [documentation index](../README.md) > Getting started/es

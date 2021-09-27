@@ -5,11 +5,11 @@
 
 ## Introduction
 
-Les capacités de modélisations de solides de FreeCAD sont basées sur le noyau [OpenCASCADE Technology](OpenCASCADE/fr.md) (OCCT), un système de CAO de niveau professionnel qui offre une création et une manipulation avancées de la géométrie 3D. L\'<img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [atelier Part](Part_Workbench/fr.md) est une couche située au-dessus des bibliothèques OCCT qui permet à l\'utilisateur d\'accéder aux primitives et fonctions géométriques OCCT. Toutes les fonctions de dessin 2D et 3D de chaque atelier (<img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft](Draft_Workbench/fr.md), <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Sketcher](Sketcher_Workbench/fr.md), <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench/fr.md), etc.), sont basées sur ces fonctions exposées par l\'atelier Part. Par conséquent, L\'atelier Part est considéré comme le composant central des capacités de modélisation de FreeCAD.
+Les capacités de modélisations de solides de FreeCAD sont basées sur le noyau _ est une couche située au-dessus des bibliothèques OCCT qui permet à l\'utilisateur d\'accéder aux primitives et fonctions géométriques OCCT. Toutes les fonctions de dessin 2D et 3D de chaque atelier (<img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> _, <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench/fr.md), etc.), sont basées sur ces fonctions exposées par l\'atelier Part. Par conséquent, L\'atelier Part est considéré comme le composant central des capacités de modélisation de FreeCAD.
 
 Une discussion plus détaillée de l\'atelier Part par rapport à l\'atelier Part Design peut être trouvée ici: [Part et Part Design](Part_and_PartDesign/fr.md).
 
-Les objets créés avec l\'atelier Part sont relativement simples. ils sont destinés à être utilisés avec des opérations booléennes (unions et coupes) afin de créer des formes plus complexes. **Ce paradigme de modélisation est connu sous le nom de \[CSG\] [Géométrie Solide Constructive](constructive_solid_geometry/fr.md) et constitue la méthodologie traditionnelle utilisée dans les premiers systèmes de CAO**. D\'autre part, l\'[atelier PartDesign](PartDesign_Workbench/fr.md) fournit un flux de travail plus moderne pour la construction de formes: il utilise des croquis définis de manière paramétrique, qui sont extrudés pour former un corps solide de base, qui est ensuite modifié par des transformations paramétriques ([édition de fonctions](feature_editing/fr.md)), jusqu\'à l\'obtention de l\'objet final.
+Les objets créés avec l\'atelier Part sont relativement simples. ils sont destinés à être utilisés avec des opérations booléennes (unions et coupes) afin de créer des formes plus complexes. **Ce paradigme de modélisation est connu sous le nom de \_), jusqu\'à l\'obtention de l\'objet final.
 
 Les objets Part sont plus complexes que les objets maillés créés avec [l\'atelier Mesh](Mesh_Workbench/fr.md), les objets Part sont plus complexes et permettent donc des opérations plus avancées telles que les opérations booléennes cohérentes, l\'historique des modifications et le comportement paramétrique.
 
@@ -40,12 +40,12 @@ Ce sont des outils pour créer des objets primitifs.
 
 -   <img alt="" src=images/Part_Primitives.svg  style="width:32px;"> [Primitives](Part_Primitives/fr.md): Un outil pour créer l\'une des primitives suivantes:
     -   <img alt="" src=images/Part_Plane.svg  style="width:32px;"> [Plan](Part_Plane/fr.md): Crée un plan.
-    -   <img alt="" src=images/Tree_Part_Box_Parametric.svg  style="width:32px;"> [Cube](Part_Box/fr.md): Crée une boîte. Cet objet peut également être créé avec l\'outil <img alt="" src=images/Part_Box.svg  style="width:32px;"> [Cube](Part_Box/fr.md).
-    -   <img alt="" src=images/Tree_Part_Cylinder_Parametric.svg  style="width:32px;"> [Cylindre](Part_Cylinder/fr.md): Crée un cylindre. Cet objet peut également être créé avec l\'outil <img alt="" src=images/Part_Cylinder.svg  style="width:32px;"> [Cylindre](Part_Cylinder/fr.md).
-    -   <img alt="" src=images/Tree_Part_Cone_Parametric.svg  style="width:32px;"> [Cône](Part_Cone/fr.md): Crée un cône. Cet objet peut également être créé avec l\'outil <img alt="" src=images/Part_Cone.svg  style="width:32px;"> [Cône](Part_Cone.md).
-    -   <img alt="" src=images/Tree_Part_Sphere_Parametric.svg  style="width:32px;"> [Sphère](Part_Sphere/fr.md): Crée une sphère. Cet objet peut également être créé avec l\'outil <img alt="" src=images/Part_Sphere.svg  style="width:32px;"> [Sphère](Part_Sphere/fr.md).
+    -   <img alt="" src=images/Tree_Part_Box_Parametric.svg  style="width:32px;"> _.
+    -   <img alt="" src=images/Tree_Part_Cylinder_Parametric.svg  style="width:32px;"> _.
+    -   <img alt="" src=images/Tree_Part_Cone_Parametric.svg  style="width:32px;"> _.
+    -   <img alt="" src=images/Tree_Part_Sphere_Parametric.svg  style="width:32px;"> _.
     -   <img alt="" src=images/Part_Ellipsoid.svg  style="width:32px;"> [Ellipsoïde](Part_Ellipsoid/fr.md): Crée un ellipsoïde.
-    -   <img alt="" src=images/Tree_Part_Torus_Parametric.svg  style="width:32px;"> [Tore](Part_Torus/fr.md): Crée un tore. Cet objet peut également être créé avec l\'outil <img alt="" src=images/Part_Torus.svg  style="width:32px;"> [Tore](Part_Torus/fr.md).
+    -   <img alt="" src=images/Tree_Part_Torus_Parametric.svg  style="width:32px;"> _.
     -   <img alt="" src=images/Part_Prism.svg  style="width:32px;"> [Prisme](Part_Prism/fr.md): Crée un prisme.
     -   <img alt="" src=images/Part_Wedge.svg  style="width:32px;"> [Pyramide tronquée](Part_Wedge/fr.md): Crée une pyramide tronquée.
     -   <img alt="" src=images/Part_Helix.svg  style="width:32px;"> [Hélice](Part_Helix/fr.md): Crée une hélice.
@@ -120,7 +120,7 @@ Ces outils effectuent des opérations booléennes.
     -   <img alt="" src=images/Part_BooleanFragments.svg  style="width:32px;"> [Fragments booléens](Part_BooleanFragments/fr.md): Crée toutes les pièces pouvant être obtenues par des opérations booléennes entre objets
     -   <img alt="" src=images/Part_SliceApart.png  style="width:32px;"> [Trancher une pièce](Part_SliceApart/fr.md): Coupe et divise un objet par intersection avec d\'autres objets.
     -   <img alt="" src=images/Part_Slice.svg  style="width:32px;"> [Scinder](Part_Slice/fr.md): Divise un objet en morceaux par intersection avec un autre objet.
-    -   <img alt="" src=images/Part_XOR.svg  style="width:32px;"> [OU exclusif](Part_XOR/fr.md): Supprime l\'espace partagé (commun) par un nombre pair d\'objets (version symétrique de [Soustraction booléenne](Part_Cut/fr.md)).
+    -   <img alt="" src=images/Part_XOR.svg  style="width:32px;"> _).
 
 ### Mesure
 
@@ -194,7 +194,7 @@ Voir [Part Ecrire un script](Part_scripting/fr.md)
 
  
 
-[Category:Workbenches](Category:Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Module/fr
+[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Part](Part_Workbench.md) > Part Module/fr

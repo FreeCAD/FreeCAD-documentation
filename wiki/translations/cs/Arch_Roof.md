@@ -146,7 +146,7 @@ doc.recompute()
 
  
 
-[Category:Arch/cs](Category:Arch/cs.md)
+_
 
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Roof/cs
+[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch Roof/cs

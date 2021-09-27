@@ -22,7 +22,7 @@
 
 }} 
 
-[Category:PartDesign](Category:PartDesign.md)
+_
 
 ---
-[documentation index](../README.md) > [PartDesign](Category:PartDesign.md) > Artwork PartDesign/ru
+[documentation index](../README.md) > [PartDesign](Category_PartDesign.md) > Artwork PartDesign/ru

@@ -106,7 +106,7 @@ Part.show(solid)
 
 }} {{Mesh Tools navi}}
 
-[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh to Part/tr
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Mesh](Mesh_Workbench.md) > Mesh to Part/tr

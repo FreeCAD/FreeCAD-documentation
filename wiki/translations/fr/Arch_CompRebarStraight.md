@@ -42,4 +42,4 @@ Voir sur [Ateliers](Workbenches/fr#Ateliers_externes.md)/[Ateliers externes](Ext
 -   <img alt="" src=images/Arch_Rebar.svg  style="width:32px;"> [Armature personnalisée](Arch_Rebar/fr.md) : Crée une barre de ferraillage personnalisée dans un élément de structure sélectionné à l\'aide d\'une esquisse.
 
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CompRebarStraight/fr
+[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch CompRebarStraight/fr

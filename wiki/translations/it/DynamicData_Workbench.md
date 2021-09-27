@@ -35,7 +35,7 @@ Questo ambiente può essere facilmente installato e aggiornato dal <img alt="" s
 ## Link
 
 -   Codice sorgente ospitato su GitHub: [github.com](https://github.com/mwganson/DynamicData)
--   [Documentazione ufficiale completa](https://github.com/mwganson/DynamicData/blob/master/README.md)
+-   _
 
 ## Ambienti esterni 
 
@@ -48,7 +48,7 @@ Sono in fase di sviluppo ulteriori nuovi ambienti.
 
 
 
-[Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+_ _
 
 ---
-[documentation index](../README.md) > DynamicData Workbench/it
+[documentation index](../README.md) > [Addons](Category_Addons.md) > DynamicData Workbench/it

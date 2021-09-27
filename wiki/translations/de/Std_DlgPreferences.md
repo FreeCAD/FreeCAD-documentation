@@ -23,7 +23,13 @@ Der **Std DlgEinstellungen**-Befehl öffnet den [Voreinstellungseditor](Preferen
 -   Unter MacOS kann dieser Befehl im FreeCAD-Menü anstatt im [Bearbeiten](Std_Edit_Menu/de.md)-Menü erscheinen.
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{Std Base navi

@@ -18,7 +18,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Questo strumento identifica e seleziona i mesh non-solido, non-[manifold](http://en.wikipedia.org/wiki/Manifold), non-[varietà](http://it.wikipedia.org/wiki/Varietà_(geometria)) in un gruppo di oggetti <img alt="" src=images/Workbench_Mesh.svg  style="width:24px;"> [Mesh](Mesh_Workbench/it.md) selezionati.
+Questo strumento identifica e seleziona i mesh non-solido, non-_ selezionati.
 
 
 </div>
@@ -38,4 +38,4 @@ Questo strumento identifica e seleziona i mesh non-solido, non-[manifold](http:/
 </div>
 
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SelectNonSolidMeshes/it
+[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch SelectNonSolidMeshes/it

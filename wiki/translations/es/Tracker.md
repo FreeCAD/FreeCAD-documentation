@@ -55,16 +55,13 @@ Si quieres que aparezca algo en FreeCAD que aún no está implementado, no se tr
 
 ## Envío de parches 
 
+
+<div class="mw-translate-fuzzy">
+
 En caso de haber programado la corrección de un error, una extensión o algo que puede ser de uso público en FreeCAD, crea un parche con la herramienta Subversion diff y preséntalo en el mismo tracker (lo archivas como parche).
 
-Addendumː FreeCAD development has switched to the [GitHub](https://github.com/FreeCAD/FreeCAD) development model so the workflow for submitting patches has been greatly enhanced/streamlined by submitting Pull Requests.
 
-1.  Open a forum thread in the [Developer subforum](https://forum.freecadweb.org/viewforum.php?f=10) to announce and discuss your patch.
-2.  Submit your Pull Request (PR) to the [FreeCAD GitHub repo](http://github.com/FreeCAD/FreeCAD). Be sure to link to the forum thread in the git commit summary. If you haven\'t worked with `git` before or are unfamiliar with submitting a PR to github, please read our introduction to [github](Source_code_management.md) wiki page.
-3.  Paste the PR link in to the forum thread for the devs/testers to test.
-4.  Be present for the discussion so that your code can potentially be merged more effectively.
-
-**NOTEː** the FreeCAD community recommends to first discuss any large revision to the source code in advance to save everyone time.
+</div>
 
 ## Requesting merge 
 
@@ -197,7 +194,7 @@ For the inquisitive here is the regex MantisBT uses for this operation:
 
 
 
-[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Administration](Category:Administration.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Tracker/es
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Tracker/es

@@ -6,7 +6,7 @@ Burada FreeCAD\'te On-line Yardım Sistemi için İçerik tablosu bulunmaktadır
 
 </div>
 
-There is another table of contents for the [FreeCAD MANUAL](Manual:Introduction.md).
+There is another table of contents for the _.
 
 
 <div class="mw-translate-fuzzy">
@@ -171,7 +171,7 @@ There is another table of contents for the [FreeCAD MANUAL](Manual:Introduction.
 
 
 
-[Category:Documentation/tr](Category:Documentation/tr.md) [Category:Documentation](Category:Documentation.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Documentation](Category:Documentation.md) > Online Help Toc/tr
+[documentation index](../README.md) > [Documentation](Category_Documentation.md) > Online Help Toc/tr

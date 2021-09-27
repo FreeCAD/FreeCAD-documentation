@@ -18,7 +18,7 @@ Das Ablaufplan Werkzeug erlaubt dir ein [Tabellenblatt](Spreadsheet_Workbench/de
 
 : Dieses Werkzeug wurde in FreeCAD 0.17 neu geschrieben und unterscheidet sich von früheren Versionen.
 
-Für eine allgemeinere Lösung siehe den [Auswertung Arbeitsbereich](https://github.com/furti/FreeCAD-Reporting/tree/master) in der Liste der [Externe Arbeitsbereiche](External_workbenches/de.md). Dieser Arbeitsbereich verwendet die SQL-Syntax, um Informationen aus dem Dokument zu extrahieren.
+Für eine allgemeinere Lösung siehe den _. Dieser Arbeitsbereich verwendet die SQL-Syntax, um Informationen aus dem Dokument zu extrahieren.
 
 ## Anwendung
 
@@ -100,4 +100,4 @@ Die Kalkulationstabelle kann dann ganz normal von der Arbeitsbereich Tabellenkal
 Es ist möglich, eigene Eigenschaften zu Objekten hinzuzufügen. Diese werden [Dynamische Eigenschaften](Property_editor/de#Maßnahmen.md) genannt. Falls sie mit der **Prefix group name**-Option ausgewählt wurden, beginnen ihre Namen tatsächlich mit dem Gruppennamen, aber dieser Präfix wird nicht im [Eigenschafteneditor](Property_editor/de.md) angezeigt. Ihre Namen haben die Form: `NameOfGroup_NameOfProperty`. Um sie in einem Zeitplan zu referenzieren muss dieser vollständige Name verwendet werden.
 
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Schedule/de
+[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch Schedule/de

@@ -11,11 +11,11 @@ Obraz SVG jest opisany w języku XML, co oznacza, że w celu dokonania zmian mo�
 
 ## Użycie
 
-FreeCAD może czytać i eksportować grafiki SVG za pomocą funkcji [**Draft SVG**](Draft_SVG.md) ze Środowiska pracy <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft](Draft_Workbench/pl.md). Pliki SVG są używane do wielu rzeczy, w tym do symboli i ikon interfejsu graficznego oraz do szablonów.
+FreeCAD może czytać i eksportować grafiki SVG za pomocą funkcji _. Pliki SVG są używane do wielu rzeczy, w tym do symboli i ikon interfejsu graficznego oraz do szablonów.
 
-:   Na przykład, [szablon](TechDraw_Templates.md) Środowiska pracy <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [TechDraw](TechDraw_Workbench/pl.md) może być utworzony jako plik SVG z kilkoma edytowalnymi polami tekstowymi, które użytkownik może wypełnić.
+:   Na przykład, _ może być utworzony jako plik SVG z kilkoma edytowalnymi polami tekstowymi, które użytkownik może wypełnić.
 
-FreeCAD jest przede wszystkim aplikacją do modelowania przestrzennego, a więc nie posiada wielu narzędzi do rysowania 2D, które są w większości zawarte w Środowisku pracy <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft](Draft_Workbench/pl.md) i <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Sketcher](Sketcher_Workbench/pl.md). Aby tworzyć wyłącznie kształty 2D i produkować pliki SVG, istnieją alternatywne programy, takie jak [Inkscape](https://en.wikipedia.org/wiki/Inkscape).
+FreeCAD jest przede wszystkim aplikacją do modelowania przestrzennego, a więc nie posiada wielu narzędzi do rysowania 2D, które są w większości zawarte w Środowisku pracy <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> _. Aby tworzyć wyłącznie kształty 2D i produkować pliki SVG, istnieją alternatywne programy, takie jak [Inkscape](https://en.wikipedia.org/wiki/Inkscape).
 
 ## Powiązane
 
@@ -23,7 +23,7 @@ FreeCAD jest przede wszystkim aplikacją do modelowania przestrzennego, a więc 
 
 
 
-[Category:Draft](Category:Draft.md) [Category:TechDraw](Category:TechDraw.md) [Category:File\_Formats](Category:File_Formats.md)
+_ _ _
 
 ---
-[documentation index](../README.md) > [Draft](Category:Draft.md) > SVG/pl
+[documentation index](../README.md) > [Draft](Category_Draft.md) > SVG/pl

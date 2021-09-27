@@ -10,7 +10,7 @@ See [Interface Customization](Interface_Customization.md) if you\'d like to adap
 
 
 
-[Category:Complete](Category:Complete.md) [Category:Obsolete Workbenches](Category:Obsolete_Workbenches.md)
+_ _
 
 ---
-[documentation index](../README.md) > Complete Workbench/cs
+[documentation index](../README.md) > [Complete](Category_Complete.md) > Complete Workbench/cs

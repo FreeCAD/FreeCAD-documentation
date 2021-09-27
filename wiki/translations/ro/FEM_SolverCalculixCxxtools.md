@@ -34,7 +34,7 @@ Acest obiect este creat automat cu crearea cotainerului **<img src="images/_FEM_
 **. Altfel utilizați **Solve** → **Solver CalculiX Standard** sau apăsați **S** apoi tastele **X**
 
 1.  Opțional setați proprietățile de date ale obiectului **<img src="images/_FEM_Solver.png_" width= 24px> CalculiXccxTools** obiect
-2.  Faceți dublu clic pe **[24px](Imagine:_FEM_Solver.png.md) CalculiXccxTools** obiect
+2.  Faceți dublu clic pe **_ CalculiXccxTools** obiect
 3.  Selectați tipul analizei
 4.  Faceți clic pe **Write .inp file**
 5.  Faceți clic pe **Run CalculiX**

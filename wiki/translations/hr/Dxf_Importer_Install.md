@@ -2,7 +2,7 @@
 <div class="mw-translate-fuzzy">
 
 
-{{TutorialInfo/hr|Topic=SampleClass|Level=Medium user|Time=15 minutes|Author=[Mario52](User:Mario52.md)|FCVersion=All}}
+{{TutorialInfo/hr|Topic=SampleClass|Level=Medium user|Time=15 minutes|Author=_|FCVersion=All}}
 
 
 </div>

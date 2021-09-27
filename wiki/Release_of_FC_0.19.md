@@ -49,7 +49,7 @@ Contributors:
 
 Document the new features listed [here](Release_notes_0.19.md) and updating existing Wiki pages to the new or changed behavior.
 
-Maintainer(s): [Uwestoehr](User:Uwestoehr.md)
+Maintainer(s): _
 
 Contributors:
 

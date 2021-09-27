@@ -30,7 +30,7 @@ L\'[atelier TechDraw](TechDraw_Workbench.md) est livré avec un certain nombre d
 
 }} 
 
-[Category:TechDraw](Category:TechDraw.md)
+_
 
 ---
-[documentation index](../README.md) > [TechDraw](Category:TechDraw.md) > Artwork TechDraw/fr
+[documentation index](../README.md) > [TechDraw](Category_TechDraw.md) > Artwork TechDraw/fr

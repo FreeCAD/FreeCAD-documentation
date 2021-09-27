@@ -11,7 +11,7 @@
 
 Dieses Tutorium zeigt dir die Erstellung einer [SVG](SVG/de.md) Datei, die als Hintergrund [Vorlage](TechDraw_Templates/de.md) für die [TechDraw Arbeitsbereich](TechDraw_Workbench/de.md)-Seiten verwendet werden kann.
 
-Dieses Tutorial setzt voraus, dass du mäßig vertraut bist mit [Inkscape](https://de.wikipedia.org/wiki/Inkscape) und [SVG](SVG/de.md) sowie in FreeCAD und dem [TechDraw](TechDraw_Workbench/de.md)-Arbeitsbereich.
+Dieses Tutorial setzt voraus, dass du mäßig vertraut bist mit _ sowie in FreeCAD und dem [TechDraw](TechDraw_Workbench/de.md)-Arbeitsbereich.
 
 Wir erstellen eine einfache Vorlage für US Briefgrößenpapier in Querformat Ausrichtung.
 

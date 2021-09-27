@@ -17,7 +17,7 @@
 
 <div class="mw-translate-fuzzy">
 
-[Part Measure Refresh](Part_Measure_Refresh/de.md) aktualisiert die [3D Ansicht](3D_view/de.md), um alle Messungen anzuzeigen, die mit <img alt="" src=images/Part_Measure_Linear.svg  style="width:24px;"> [Measure Linear](Part_Measure_Linear.md) und <img alt="" src=images/Part_Measure_Angular.svg  style="width:24px;"> [Winkel messen](Part_Measure_Angular.md) erstellt wurden.
+_ und <img alt="" src=images/Part_Measure_Angular.svg  style="width:24px;"> [Winkel messen](Part_Measure_Angular.md) erstellt wurden.
 
 
 </div>

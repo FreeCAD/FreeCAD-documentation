@@ -25,7 +25,7 @@ Esta es la segunda parte del tutorial. Utilizará lo que podría llamarse el flu
 
 Obviamente, para seguir este tutorial debes activar la mesa de trabajo de PartDesign.
 
-~~Puedes encontrar mi versión de la parte creada en este tutorial [http://ubuntuone.com/39PTZ3Y3LUnmZzpZQPcJT4 aquí](http://ubuntuone.com/39PTZ3Y3LUnmZzpZQPcJT4_aquí.md)~~ *El archivo ya no está disponible, se proporcionará uno nuevo en una fecha posterior*.
+~~Puedes encontrar mi versión de la parte creada en este tutorial _~~ *El archivo ya no está disponible, se proporcionará uno nuevo en una fecha posterior*.
 
 ## Datos de diseño 
 
@@ -84,7 +84,7 @@ For the rest of the machining, create a new Body. The bottom of the holder will 
 
 
 
-[Category:Tutorials](Category:Tutorials.md)
+_
 
 ---
-[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Bearingholder Tutorial II/es
+[documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Bearingholder Tutorial II/es

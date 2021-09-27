@@ -19,4 +19,4 @@ The Material tools allows to add materials to the active document.
 -   <img alt="" src=images/Arch_MultiMaterial.svg  style="width:32px;"> [Multi-Material](Arch_MultiMaterial.md): Creates a multi-material and attributes it to selected objects, if any <small>(v0.17)</small>
 
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CompSetMaterial/en
+[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch CompSetMaterial/en

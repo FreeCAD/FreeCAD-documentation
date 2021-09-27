@@ -83,7 +83,7 @@ print myViewObj.IV
 
  
 
-[Category:API](Category:API.md) [Category:Poweruser Documentation](Category:Poweruser_Documentation.md)
+_ _
 
 ---
-[documentation index](../README.md) > [API](Category:API.md) > ViewObject API/en
+[documentation index](../README.md) > [API](Category_API.md) > ViewObject API/en

@@ -148,7 +148,7 @@ Dato che il solido creato in questo modo non ha cronologia e non ha funzioni mod
 
  
 
-[Category:File\_Formats](Category:File_Formats.md)
+_
 
 ---
-[documentation index](../README.md) > [Import](Import_Workbench.md) > Import from STL or OBJ/it
+[documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > [Import](Import_Workbench.md) > Import from STL or OBJ/it

@@ -630,7 +630,7 @@ See forum posts:
 
 }} {{FEM Tools navi}}  
 
-[Category:Python Code](Category:Python_Code.md)
+_
 
 ---
-[documentation index](../README.md) > [Python Code](Category:Python Code.md) > FEM Tutorial Python/ru
+[documentation index](../README.md) > [Python Code](Category_Python Code.md) > FEM Tutorial Python/ru

@@ -11,7 +11,7 @@ Lo strumento Punto crea un punto nello schizzo corrente, il punto può essere ut
 
 Il punto è sempre un elemento di costruzione e non viene visualizzato nella vista 3D.
 
-[480px\|Point in the sketcher](IMAGE:Sketcher_Point_fr_01.png.md) 
+_ 
 
 ## Utilizzo
 

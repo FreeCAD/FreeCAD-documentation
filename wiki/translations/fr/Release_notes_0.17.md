@@ -27,7 +27,7 @@ Le nouvel atelier **TechDraw** (mise en plan) vise à remplacer l\'atelier Drawi
 
 ## Généralités
 
--   Yorik van Havre a écrit \"[Le Manuel FreeCAD](Manual:Introduction/fr.md)\" comme un livre d\'introduction sur l\'utilisation de FreeCAD.
+-   Yorik van Havre a écrit \"_\" comme un livre d\'introduction sur l\'utilisation de FreeCAD.
 -   Le recalcul de document peut maintenant être désactivé / activé via le menu contextuel.
 -   Il y a un nouveau style de navigation Revit.
 -   Un nouvel indicateur de navigation en bas à droite de la fenêtre FreeCAD permet un accès rapide aux styles de navigation.
@@ -76,9 +76,9 @@ Le nouvel atelier **TechDraw** (mise en plan) vise à remplacer l\'atelier Drawi
 
 -   [Système de groupage Automatique](Draft_AutoGroup/fr.md): L\'atelier Draft dispose désormais d\'un bouton de regroupement automatique dans sa barre d\'outils principale. Une fois activé, tous les objets Draft et Arch nouvellement créés seront automatiquement placés dans ce groupe.
 
--   [Outil d\'inclinaison](Draft_Slope/fr.md): Lorsqu\'il est utilisé sur une [Droite Draft](Draft_Line/fr.md) ou un [Objet filaire Draft](Draft_Wire/fr.md), cet outil vous permettra de lui donner une pente / inclinaison donnée. C\'est-à-dire que les points intermédiaires et terminaux auront une valeur Z inférieure, de sorte que l\'objet entier aura une inclinaison constante. Ceci est utile pour utiliser les droites ou les objets filaires comme base pour les objets nécessitant une inclinaison précise, tels que les vitres de toit ou les tuyaux d\'égout.
+-   _ ou un [Objet filaire Draft](Draft_Wire/fr.md), cet outil vous permettra de lui donner une pente / inclinaison donnée. C\'est-à-dire que les points intermédiaires et terminaux auront une valeur Z inférieure, de sorte que l\'objet entier aura une inclinaison constante. Ceci est utile pour utiliser les droites ou les objets filaires comme base pour les objets nécessitant une inclinaison précise, tels que les vitres de toit ou les tuyaux d\'égout.
 
--   [Proxy du plan de travail](Draft_SetWorkingPlaneProxy/fr.md): Lorsque vous travaillez avec [Plans de travail Draft](Draft_SelectPlane/fr.md), vous devez souvent stocker les emplacements du plan de travail que vous utilisez souvent. Ceci est maintenant possible en plaçant l\'un de ces mandataires dans votre document. Il se souviendra de l\'emplacement actuel du plan de travail et pourra également restaurer la visibilité actuelle et / ou la visibilité des objets.
+-   _, vous devez souvent stocker les emplacements du plan de travail que vous utilisez souvent. Ceci est maintenant possible en plaçant l\'un de ces mandataires dans votre document. Il se souviendra de l\'emplacement actuel du plan de travail et pourra également restaurer la visibilité actuelle et / ou la visibilité des objets.
 
 <img alt="" src=images/Draft_WP_preview.png  style="width:640px;">
 
@@ -293,7 +293,7 @@ Certains des nouveaux modules de la communauté qui ont été créés.
 
 -   [Kicad StepUp Workbench](https://www.freecadweb.org/wiki/KicadStepUp_Workbench) est destiné à aider les utilisateurs de KiCad et FreeCAD dans la collaboration ECAD et MCAD.
 
-[Category:News](Category:News.md) [Category:Documentation](Category:Documentation.md) [Category:Releases](Category:Releases.md)
+_ _ _
 
 ---
-[documentation index](../README.md) > [News](Category:News.md) > Release notes 0.17/fr
+[documentation index](../README.md) > [News](Category_News.md) > Release notes 0.17/fr

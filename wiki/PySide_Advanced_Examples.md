@@ -97,7 +97,7 @@ self.dialog = FreeCADGui.PySideUic.loadUi(os.path.join(os.path.dirname(__file__)
 
  {{Powerdocnavi}} 
 
-[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > PySide Advanced Examples
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > PySide Advanced Examples

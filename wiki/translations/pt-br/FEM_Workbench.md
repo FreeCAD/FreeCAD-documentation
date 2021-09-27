@@ -88,6 +88,8 @@ A bancada FEM pode ser usada no Linux, Windows e Mac OSX. Como o ambiente de tra
 
 -   <img alt="" src=images/FEM_ConstraintTie.svg  style="width:32px;"> [Restrições de amarração](FEM_ConstraintTie/pt-br.md): <small>(v0.19)</small> 
 
+-   <img alt="" src=images/FEM_ConstraintSpring.svg  style="width:32px;"> [Constraint spring](FEM_ConstraintSpring.md): Used to define a tie constraint (\"bonded contact\") between two faces. <small>(v0.20)</small> 
+
 -   <img alt="" src=images/FEM_ConstraintForce.svg  style="width:32px;"> [Restrição de força](FEM_ConstraintForce/pt-br.md): Usada para definir uma força em Newtons \[N\] aplicada uniformemente a uma face selecionável em uma direção definida.
 
 -   <img alt="" src=images/FEM_ConstraintPressure.svg  style="width:32px;"> [Restrição de pressão](FEM_ConstraintPressure/pt-br.md): Usada para definir uma restrição de pressão.
@@ -141,6 +143,8 @@ A bancada FEM pode ser usada no Linux, Windows e Mac OSX. Como o ambiente de tra
 -   <img alt="" src=images/FEM_SolverCalculiX.svg  style="width:32px;"> [Solucionador CalculiX(experimental)](FEM_SolverCalculiX/pt-br.md)
 
 -   <img alt="" src=images/FEM_SolverElmer.svg  style="width:32px;"> [Solucionador Elmer](FEM_SolverElmer/pt-br.md): Cria o controlador solver para Elmer. Ele é independente de outros objetos solucionadores.
+
+-   <img alt="" src=images/FEM_SolverMystran.svg  style="width:32px;"> [Solver Mystran](FEM_SolverMystran.md):
 
 -   <img alt="" src=images/FEM_SolverZ88.svg  style="width:32px;"> [Solucionador Z88](FEM_SolverZ88/pt-br.md)
 
@@ -277,7 +281,7 @@ Um guia do desenvolvedor foi escrito para ajudar os usuários a entenderem a com
 
 }} 
 
-[Category:Workbenches](Category:Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > FEM Workbench/pt-br
+[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > FEM Workbench/pt-br

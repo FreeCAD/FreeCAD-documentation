@@ -4,12 +4,12 @@
 
 {{docnav/tr|[Özellik Penceresi](Property_editor/tr.md)|[Parça Tasarım Tezgahı](PartDesign_Workbench/tr.md)}}
 
-FreeCAD, [Revit](wikipedia:Revit.md) veya [CATIA](wikipedia:CATIA.md) gibi birçok modern tasarım uygulamasına benzer olarak, [Tezgah](wikipedia:Workbench.md) kavramına dayanmaktadır. Bir tezgah, belirli bir görev için özel olarak gruplandırılmış bir takım araçlar olarak düşünülebilir. Geleneksel bir mobilya atölyesinde, ahşapla çalışan için bir çalışma masası, metal parçalarıyla çalışan için başka bir çalışma masası ve montaj yapan kişi için üçüncü bir çalışma masası olacaktır.
+FreeCAD, _ veya _ gibi birçok modern tasarım uygulamasına benzer olarak, _ kavramına dayanmaktadır. Bir tezgah, belirli bir görev için özel olarak gruplandırılmış bir takım araçlar olarak düşünülebilir. Geleneksel bir mobilya atölyesinde, ahşapla çalışan için bir çalışma masası, metal parçalarıyla çalışan için başka bir çalışma masası ve montaj yapan kişi için üçüncü bir çalışma masası olacaktır.
 
 
 </div>
 
-FreeCAD, like many modern design applications such as [Revit](wikipedia:Revit.md) or [CATIA](wikipedia:CATIA.md), is based on the concept of [Workbench](wikipedia:Workbench.md). A workbench can be considered as a set of tools specially grouped for a certain task. In a traditional furniture workshop, you would have a work table for the person who works with wood, another one for the one who works with metal pieces, and maybe a third one for the guy who mounts all the pieces together.
+FreeCAD, like many modern design applications such as _ or _, is based on the concept of _. A workbench can be considered as a set of tools specially grouped for a certain task. In a traditional furniture workshop, you would have a work table for the person who works with wood, another one for the one who works with metal pieces, and maybe a third one for the guy who mounts all the pieces together.
 
 FreeCAD\'de de aynı görüş geçerlidir. Araçlar, ilgili oldukları görevlere göre tezgahlarda gruplanır.
 
@@ -123,7 +123,7 @@ Yeni tezgahlar geliştiriliyor, bizi izlemeye devam edin!
 
 
 
-[Category:Workbenches](Category:Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > Workbenches/tr
+[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Workbenches/tr

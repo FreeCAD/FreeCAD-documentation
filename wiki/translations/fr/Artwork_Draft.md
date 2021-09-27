@@ -18,7 +18,7 @@ Pour toutes les icônes de l\'arborescence source, voir [Graphisme](Artwork/fr.m
 
 
 
-[Category:Draft](Category:Draft.md)
+_
 
 ---
-[documentation index](../README.md) > [Draft](Category:Draft.md) > Artwork Draft/fr
+[documentation index](../README.md) > [Draft](Category_Draft.md) > Artwork Draft/fr

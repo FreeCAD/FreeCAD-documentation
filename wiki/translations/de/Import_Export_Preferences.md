@@ -11,7 +11,7 @@ Nicht alle Reiter für Import und Exporteinstellungen sind standardmäßig verf�
 
 ### TechDraw Seiten 
 
-Die hier aufgeführten DXF und SVG Einstellungen werden nicht verwendet von den <img alt="" src=images/TechDraw_ExportPageSVG.svg  style="width:24px;"> [Seite als SVG exportieren](TechDraw_ExportPageSVG/de.md) und <img alt="" src=images/TechDraw_ExportPageDXF.svg  style="width:24px;"> [Seite als DXF exportieren](TechDraw_ExportPageDXF/de.md) Befehlen des <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [TechDraw Arbeitsbereichs](TechDraw_Workbench/de.md) oder durch die [TechDraw](TechDraw_Workbench/de.md)-Exportoption: **Datei → Export → Technische Zeichnung (*.svg *.dxf *.pdf)**.
+Die hier aufgeführten DXF und SVG Einstellungen werden nicht verwendet von den <img alt="" src=images/TechDraw_ExportPageSVG.svg  style="width:24px;"> _ Befehlen des <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [TechDraw Arbeitsbereichs](TechDraw_Workbench/de.md) oder durch die [TechDraw](TechDraw_Workbench/de.md)-Exportoption: **Datei → Export → Technische Zeichnung (*.svg *.dxf *.pdf)**.
 
 ### OpenSCAD Dateien 
 
@@ -28,7 +28,7 @@ Weitere Informationen findest du auf den folgenden Seiten:
 
 ### DAE
 
-Das [Collada](http://en.wikipedia.org/wiki/COLLADA) DAE (Digital Asset Exchange) Format ist ein Standarddateiformat für den Austausch von Netz Daten. FreeCAD kann Netze aus {{FileName|.dae}} Dateien importieren und [Form](Part_Workbench/de.md) basierte Objekte in das {{FileName|.dae}} Format exportieren.
+Das _ basierte Objekte in das {{FileName|.dae}} Format exportieren.
 
 Hinweis für Linux Anwender: Um mit diesem Dateiformat umgehen zu können, benötigt FreeCAD das [pyCollada Modul](Extra_python_modules/de.md).
 
@@ -188,9 +188,9 @@ Für das DXF Format kannst du folgendes festlegen:
 
 ### IGES
 
-Das [Initial Graphics Exchange Specification](https://de.wikipedia.org/wiki/Initial_Graphics_Exchange_Specification) (Anfangsspezifikation für den Austausch von Grafiken; wortgetreue Übersetzung ins Deutsche) (IGES) Dateiformat ist ein Dateiformat, das den digitalen Austausch von Informationen zwischen CAD Systemen ermöglicht. Nach der Veröffentlichung des Dateiformats [STEP](Preferences_Editor#STEP/de.md) wurde die Entwicklung von IGES 1996 eingestellt, aber es wird immer noch von vielen CAD Programmen unterstützt. IGES Dateien haben die {{FileName|.iges}} oder {{FileName|.igs}} Erweiterung.
+Das _ wurde die Entwicklung von IGES 1996 eingestellt, aber es wird immer noch von vielen CAD Programmen unterstützt. IGES Dateien haben die {{FileName|.iges}} oder {{FileName|.igs}} Erweiterung.
 
-Der Reiter *IGES* wird nur in den Einstellungen angezeigt, wenn der <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part Arbeitsbereich](Part_Workbench/de.md), <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign Arbeitsbereich](PartDesign_Workbench/de.md) oder <img alt="" src=images/Workbench_OpenSCAD.svg  style="width:24px;"> [OpenSCAD Arbeitsbereich](OpenSCAD_Workbench/de.md) bereits in der aktuellen FreeCAD Sitzung geladen wurde.
+Der Reiter *IGES* wird nur in den Einstellungen angezeigt, wenn der <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> _ oder <img alt="" src=images/Workbench_OpenSCAD.svg  style="width:24px;"> [OpenSCAD Arbeitsbereich](OpenSCAD_Workbench/de.md) bereits in der aktuellen FreeCAD Sitzung geladen wurde.
 
 Für das IGES Format kannst du folgendes festlegen:
 
@@ -389,7 +389,7 @@ Für den Export des IFC Formats kannst du folgendes festlegen:
 
 ### INP
 
-INP ist das Eingabedateiformat für die FEM Software [Abaqus](https://en.wikipedia.org/wiki/Abaqus). Es wird für den [CalculiX](FEM_CalculiX/de.md) Löser im <img alt="" src=images/Workbench_FEM.svg  style="width:24px;"> [FEM Arbeitsbereich](FEM_Workbench/de.md) verwendet.
+INP ist das Eingabedateiformat für die FEM Software _ Löser im <img alt="" src=images/Workbench_FEM.svg  style="width:24px;"> [FEM Arbeitsbereich](FEM_Workbench/de.md) verwendet.
 
 Der Reiter *INP* wird in den Einstellungen nur angezeigt, wenn der <img alt="" src=images/Workbench_FEM.svg  style="width:24px;"> [FEM Arbeitsbereich](FEM_Workbench/de.md) bereits in der aktuellen FreeCAD Sitzung geladen wurde.
 
@@ -415,7 +415,7 @@ Für das INP Format kannst du folgendes festlegen:
 
 ### Netzformate
 
-Netze sind eine besondere Art von 3D Objekten, die aus dreieckigen Flächen bestehen, die durch ihre [Knoten](Glossar/de#Vertex.md) und Kanten verbunden sind. Sie werden häufig für [additive Fertigung](https://en.wikipedia.org/wiki/3D_printing) verwendet. FreeCAD bietet die <img alt="" src=images/Workbench_Mesh.svg  style="width:24px;"> [Mesh Arbeitsbereich](Mesh_Workbench/de.md) zum Erstellen und Bearbeiten von Netzen. FreeCAD unterstützt verschiedene Netzdateiformate.
+Netze sind eine besondere Art von 3D Objekten, die aus dreieckigen Flächen bestehen, die durch ihre _ zum Erstellen und Bearbeiten von Netzen. FreeCAD unterstützt verschiedene Netzdateiformate.
 
 Der Reiter *Netzformate* wird in den Einstellungen nur angezeigt, wenn der <img alt="" src=images/Workbench_Mesh.svg  style="width:24px;"> [Netz Arbeitsbereich](Mesh_Workbench/de.md) bereits in der aktuellen FreeCAD Sitzung geladen wurde.
 
@@ -463,7 +463,7 @@ Für das OCA Format kannst du folgendes festlegen:
 
 Das (STEP) Dateiformat [Norm für den Austausch von Produktmodelldaten](https://en.wikipedia.org/wiki/ISO_10303) (engl.: Standard for The Exchange of Product model data) ist eine ISO Norm für die computerinterpretierbare Darstellung und den Austausch von Informationen zur Produktherstellung. STEP wird häufig zum Austausch von 3D Daten zwischen CAD Software verwendet. STEP Dateien haben die {{FileName|.step}} oder {{FileName|.stp}} Erweiterung . Bei gepackten Dateien wird die Erweiterung {{FileName|.stpz}} verwendet.
 
-Der Reiter *STEP* wird in den Einstellungen nur angezeigt, wenn der <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part Arbeitsbereich](Part_Workbench/de.md), <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign Arbeitsbereich](PartDesign_Workbench/de.md) oder <img alt="" src=images/Workbench_OpenSCAD.svg  style="width:24px;"> [OpenSCAD Arbeitsbereich](OpenSCAD_Workbench/de.md) bereits in der aktuellen FreeCAD Sitzung geladen wurde.
+Der Reiter *STEP* wird in den Einstellungen nur angezeigt, wenn der <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> _ oder <img alt="" src=images/Workbench_OpenSCAD.svg  style="width:24px;"> [OpenSCAD Arbeitsbereich](OpenSCAD_Workbench/de.md) bereits in der aktuellen FreeCAD Sitzung geladen wurde.
 
 Für das STEP Format kannst du Folgendes festlegen:
 
@@ -590,7 +590,7 @@ Für das SVG Format kannst du folgendes festlegen:
 
 ### VTK
 
-Der [Visualisierungwerkzeugkasten](https://en.wikipedia.org/wiki/VTK) (VTK) (engl. Visualization Toolkit) ist ein quelloffenes, frei verfügbares Softwaresystem für 3D Computergrafik, Bildverarbeitung und Visualisierung. VTK Dateien werden von der <img alt="" src=images/Workbench_FEM.svg  style="width:24px;"> [FEM Arbeitsbereich](FEM_Workbench/de.md) für die [Nachbearbeitung](FEM_Post_Processing_based_on_VTK.md) von Simulationsergebnissen.
+Der _ für die [Nachbearbeitung](FEM_Post_Processing_based_on_VTK.md) von Simulationsergebnissen.
 
 Der Reiter *VTK* wird in den Einstellungen nur angezeigt, wenn der <img alt="" src=images/Workbench_FEM.svg  style="width:24px;">[FEM-Arbeitsbereich](FEM_Workbench/de.md) bereits in der aktuellen FreeCAD-Sitzung geladen wurde.
 
@@ -616,7 +616,7 @@ Für das VTK Format kannst du folgendes festlegen:
 
 
 
-[Category:Common Questions](Category:Common_Questions.md) [Category:Preferences](Category:Preferences.md) [Category:File\_Formats](Category:File_Formats.md)
+_ _ _
 
 ---
-[documentation index](../README.md) > [Import](Import_Workbench.md) > Import Export Preferences/de
+[documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > [Import](Import_Workbench.md) > Import Export Preferences/de

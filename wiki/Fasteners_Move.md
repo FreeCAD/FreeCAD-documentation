@@ -17,7 +17,7 @@ For example to attach a screw to a part, the part must have features with circul
 
 ## Usage
 
-1.  Switch to the <img alt="" src=images/Fasteners_workbench_icon.svg  style="width:24px;"> [Fasteners](Fasteners_Workbench.md) workbench (install from <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Addon_Manager.md) is necessary, if not previously installed)
+1.  Switch to the <img alt="" src=images/Fasteners_workbench_icon.svg  style="width:24px;"> _ is necessary, if not previously installed)
 
 2.  Choose the fastener by clicking on it
 
@@ -52,7 +52,7 @@ Result: fastener will move to the new location.
 
  {{Fasteners Tools navi}} 
 
-[Category:External Command Reference](Category:External_Command_Reference.md)
+_
 
 ---
-[documentation index](../README.md) > [External Command Reference](Category:External Command Reference.md) > Fasteners Move
+[documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > Fasteners Move

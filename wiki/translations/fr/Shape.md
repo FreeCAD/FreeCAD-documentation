@@ -10,7 +10,7 @@ Voir [Part TopoShape](Part_TopoShape.md) pour plus d\'informations sur ce type d
 ![](images/Shape_and_mesh.svg )
 
 
-*A gauche: paramétrique [shape](Shape/fr.md) définie par les propriétés. A droite: [mesh](Mesh/fr.md) défini par des sommets et des surfaces triangulaires.*
+*A gauche: paramétrique _ défini par des sommets et des surfaces triangulaires.*
 
 ## Utilisation
 
@@ -26,14 +26,14 @@ Dans un usage informel, une \"forme\" peut être n\'importe quelle figure géom�
 
 Cependant, lorsque plus de précision est requise, la distinction doit être faite.
 
--   Un \"[Corps](Body/fr.md)\" est un objet dérivé d\'une [Part Feature](Part_Feature/fr.md) (classe `Part::Feature`), créé avec l\' [atelier PartDesign](PartDesign_Workbench/fr.md).
+-   Un \"_.
 -   Un \"Shape\" est un objet interne, intégré dans le \"[Corps](Body/fr.md)\".
 -   Un \"[Part](Part/fr.md)\" est utilisé pour regrouper plusieurs \"[Corps](Body/fr.md)\" pour former un [assemblage](assembly/fr.md). Une \"pièce\" a une collection de \"formes\", mais n\'a pas de \"forme\" qui lui soit propre.
 
 
  {{Document objects navi}} 
 
-[Category:Glossary](Category:Glossary.md)
+_
 
 ---
-[documentation index](../README.md) > [Glossary](Category:Glossary.md) > Shape/fr
+[documentation index](../README.md) > [Glossary](Category_Glossary.md) > Shape/fr

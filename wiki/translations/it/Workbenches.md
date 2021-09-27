@@ -1,5 +1,5 @@
 # Workbenches/it
-FreeCAD, come molte applicazioni moderne di progettazione come [Revit](wikipedia:Revit.md) o [CATIA](wikipedia:CATIA.md), è basato sul concetto di [Workbench](wikipedia:Workbench.md). Un banco da lavoro può essere considerato come un insieme di strumenti appositamente raggruppati per un certo compito. In un tradizionale laboratorio di mobili, si avrebbe un tavolo da lavoro per la persona che lavora con il legno, un altro per quello che lavora con i pezzi di metallo, e forse un terzo per quello che monta tutti i pezzi insieme.
+FreeCAD, come molte applicazioni moderne di progettazione come _ o _, è basato sul concetto di _. Un banco da lavoro può essere considerato come un insieme di strumenti appositamente raggruppati per un certo compito. In un tradizionale laboratorio di mobili, si avrebbe un tavolo da lavoro per la persona che lavora con il legno, un altro per quello che lavora con i pezzi di metallo, e forse un terzo per quello che monta tutti i pezzi insieme.
 
 In FreeCAD, viene applicato lo stesso concetto. Gli strumenti sono raggruppati per ambienti in base alle funzioni correlate.
 
@@ -98,7 +98,7 @@ Sono in fase di sviluppo ulteriori nuovi ambienti, mantenetevi aggiornati.
 
 
 
-[Category:Workbenches](Category:Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > Workbenches/it
+[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Workbenches/it

@@ -3,7 +3,7 @@
 
 <img alt="" src=images/Sketcher_Sketch.svg  style="width:32px;">
 
-Un [Sketcher SketchObject](Sketcher_SketchObject/fr.md), ou formellement un `Sketcher::SketchObject`, est l\'élément de base pour créer des objets 2D avec l\'[Atelier Sketcher](Sketcher_Workbench/fr.md).
+Un _.
 
 
 `Sketcher::SketchObject`
@@ -39,7 +39,7 @@ Bien que SketchObject puisse être utilisé seul pour dessiner sur un plan, il e
 
 Voir [Propriétés](Property/fr.md) pour tous les types de propriétés que les objets scriptés peuvent avoir.
 
-Un [Sketcher SketchObject](Sketcher_SketchObject/fr.md) (classe `Sketcher::SketchObject`) est dérivé de [Part Part2DObject](Part_Part2DObject/fr.md) (classe `Part::Part2DObject`) donc partage toutes les propriétés de ce dernier.
+Un _ (classe `Part::Part2DObject`) donc partage toutes les propriétés de ce dernier.
 
 Outre les propriétés décrites dans [Part Part2DObject](Part_Part2DObject/fr.md), l\'objet de base Sketcher SketchObject possède les propriétés suivantes dans l\'[éditeur de propriétés](property_editor/fr.md). Les propriétés masquées peuvent être affichées en utilisant la commande **Show all** dans le menu contextuel de l\'[éditeur de propriétés](property_editor/fr.md).
 

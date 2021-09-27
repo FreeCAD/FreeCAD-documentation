@@ -54,7 +54,7 @@ Può anche legare oggetti nidificati all\'interno di [Parti](Std_Part/it.md) e s
 
 ## Proprietà
 
-[SubShapeBinder](PartDesign_SubShapeBinder/it.md) deriva da una [Funzione Part](Part_Feature/it.md) (classe `Part::Feature`). Oltre alle proprietà elencate in [Funzione Part](Part_Feature/it.md), nell\'[editor delle proprietà](property_editor/it.md) sono disponibili le seguenti proprietà.
+_, nell\'[editor delle proprietà](property_editor/it.md) sono disponibili le seguenti proprietà.
 
 ### Dati
 

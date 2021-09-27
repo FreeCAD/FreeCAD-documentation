@@ -14,7 +14,7 @@ Pour toutes les icônes de l\'arborescence source, voir [Graphisme](Artwork/fr.m
 
 }} 
 
-[Category:FEM](Category:FEM.md)
+_
 
 ---
-[documentation index](../README.md) > [FEM](Category:FEM.md) > Artwork Fem/fr
+[documentation index](../README.md) > [FEM](Category_FEM.md) > Artwork Fem/fr

@@ -256,7 +256,7 @@ Do not import invisible shapes : Questo nasconde le forme di costruzione o di ri
 
 
 Use solid union for importing parts and subassemblies : Tutte le parti importate vengono create direttamente come unione.
-Questa funzione è utile per le [FEM](FEM_Workbench/it.md) o per la [stampa 3D](Manual:Preparing_models_for_3D_printing/it.md) se è consentito un solo solido. L\'alternativa è creare in seguito una [Forma dell\'intero assemblaggio](A2plus_Workbench/it#Forma_dell.27intero_assemblaggio.md).
+Questa funzione è utile per le _ se è consentito un solo solido. L\'alternativa è creare in seguito una [Forma dell\'intero assemblaggio](A2plus_Workbench/it#Forma_dell.27intero_assemblaggio.md).
 
 
 </div>
@@ -638,7 +638,7 @@ This is an A2plus-specific command. It solves the assembly constraints of the as
 
 
 
-[Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+_ _
 
 ---
-[documentation index](../README.md) > A2plus Workbench/it
+[documentation index](../README.md) > [Addons](Category_Addons.md) > A2plus Workbench/it

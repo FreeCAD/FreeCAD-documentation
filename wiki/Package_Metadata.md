@@ -85,7 +85,7 @@ The name of the person maintaining the package. All packages require a maintaine
 
 An orphaned package is one with no current maintainer. Orphaned packages should use the following maintainer information:
 
-    <maintainer email="no-one@freecadweb.org">No current maintainer</maintainer>
+    <maintainer email="no-one@freecad.org">No current maintainer</maintainer>
 
 ###  
 
@@ -168,7 +168,7 @@ Multiple allowed
 
 A Uniform Resource Locator for the package\'s website, bug tracker, source repository, readme file, or documentation.
 
-It is a good idea to include  tags pointing users to these resources. The website is commonly a wiki page on wiki.freecadweeb.org where users can find and update information about the package.
+It is a good idea to include  tags pointing users to these resources. The website is commonly a wiki page on wiki.freecad.org where users can find and update information about the package.
 
 #### Attributes 
 
@@ -240,7 +240,7 @@ The maximum version of FreeCAD required to use package/element, as a semantic ve
       <name>Built-In Preference Packs</name>
       <description>Preference Packs included with the FreeCAD distribution</description>
       <version>1.0.0</version>
-      <maintainer email="email@freecadweb.org">No Maintainer</maintainer>
+      <maintainer email="no-one@freecad.org">No Maintainer</maintainer>
       <license file="../../LICENSE">LGPL2</license>
       <url type="repository">https://github.com/FreeCAD/FreeCAD</url>
 

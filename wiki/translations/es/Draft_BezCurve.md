@@ -119,7 +119,7 @@ Un objeto Draft BezCurva deriva de un [Pieza2DObjeto](Part_Part2DObject/es.md) y
 
 ## Guión
 
-Ver también: [Documentación de la API autogenerada](https://freecad.github.io/SourceDoc/) y [Fundamentos de FreeCAD Guión](FreeCAD_Scripting_Basics/es.md).
+Ver también: _.
 
 Para crear una Borrador Línea utilice el método `make_bezcurve` ({{Version/es|0.19}}) del módulo Borrador. Este método sustituye al método obsoleto `makeBezCurve`.
 

@@ -6,7 +6,7 @@ Debian ist die übergeordnete Distribution, von der viele andere Linux Distribut
 
 
 
-[Category:Packaging](Category:Packaging.md) [Category:Developer Documentation](Category:Developer_Documentation.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Packaging](Category:Packaging.md) > Debian development/de
+[documentation index](../README.md) > [Packaging](Category_Packaging.md) > Debian development/de

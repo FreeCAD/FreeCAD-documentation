@@ -19,12 +19,12 @@ Dopo l\'importazione, per FreeCAD, il modello è solo un insieme di facce. Si po
 Per fare questo:
 
 1.  Passare nel\'ambiente <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> [Part](Part_workbench/it.md)
-2.  Selezionare la mesh e andare in **Part → [Crea forma da mesh](Part_ShapeFromMesh/it.md)** o premere il pulsante <img alt="" src=images/Part_ShapeFromMesh.svg  style="width:24px;"> [Forma da mesh](Part_ShapeFromMesh/it.md)
+2.  Selezionare la mesh e andare in **Part → _
 3.  Cliccare **OK** nel dialogo
 4.  Selezionare la forma appena creata
 5.  Andare in **Part → [Converti in solido](Part_ConvertToSolid/it.md)**
 6.  Selezionare il solido appena creato
-7.  Andare in **Part → [Affina forma](Part_RefineShape/it.md)** o premere il pulsante <img alt="" src=images/Part_RefineShape.svg  style="width:24px;"> [Affina forma](Part_RefineShape/it.md)
+7.  Andare in **Part → _
 
 
 </div>
@@ -84,7 +84,7 @@ Il guscio (shell dell\'oggetto mesh) sembra avere degli errori, forse non è chi
 
 -   [FreeCAD Howto Import Export](FreeCAD_Howto_Import_Export.md)
 
-[Category:User\_Documentation](Category:User_Documentation.md) [Category:File\_Formats](Category:File_Formats.md)
+_ _
 
 ---
-[documentation index](../README.md) > [User_Documentation](Category:User_Documentation.md) > FreeCAD and Mesh Import/it
+[documentation index](../README.md) > [User_Documentation](Category_User_Documentation.md) > FreeCAD and Mesh Import/it

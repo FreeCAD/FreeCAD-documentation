@@ -32,7 +32,7 @@ The following image has been re-sized to a display width of 480 pixels:
 
 }} 
 
-[Category:Start](Category:Start.md)
+_
 
 ---
-[documentation index](../README.md) > [Start](Category:Start.md) > Artwork Start/en
+[documentation index](../README.md) > [Start](Category_Start.md) > Artwork Start/en

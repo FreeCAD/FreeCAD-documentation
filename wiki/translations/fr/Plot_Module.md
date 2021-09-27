@@ -5,13 +5,13 @@
 
 ## Introduction
 
-FreeCAD est capable d\'effectuer des tracés en utilisant la bibliothèque [matplotlib](https://matplotlib.org/) de [Python](Python/fr.md). Un module est fourni à cette fin, en tant qu\'extension externe dans la version 0.19 et en tant que composant principal à partir de la version 0.20. Les anciennes versions de FreeCAD ne sont pas couvertes par cette documentation.
+FreeCAD est capable d\'effectuer des tracés en utilisant la bibliothèque _. Un module est fourni à cette fin, en tant qu\'extension externe dans la version 0.19 et en tant que composant principal à partir de la version 0.20. Les anciennes versions de FreeCAD ne sont pas couvertes par cette documentation.
 
-Les graphiques produits offrent les outils standard [matplotlib](https://matplotlib.org/) pour l\'édition et la sauvegarde. En plus de cela, un <img alt="" src=images/Workbench_Plot.svg  style="width:24px;"> [atelier Plot](Plot_Workbench/fr.md) est fourni en tant que module complémentaire externe offrant des outils plus complets pour modifier le tracé et le sauvegarder. L\'add-on peut être installé avec le [Gestionnaire d\'Addon](Std_AddonMgr/fr.md).
+Les graphiques produits offrent les outils standard _ est fourni en tant que module complémentaire externe offrant des outils plus complets pour modifier le tracé et le sauvegarder. L\'add-on peut être installé avec le [Gestionnaire d\'Addon](Std_AddonMgr/fr.md).
 
 ## Module
 
-Le module peut être invoqué dans une console Python ou dans une [macro](Macros/fr.md). La première chose que vous devez faire est d\'importer le module. Dans FreeCAD 0.19 vous devez d\'abord installer le module <img alt="" src=images/Workbench_Plot.svg  style="width:24px;"> [atelier Plot](Plot_Workbench/fr.md) à l\'aide du [Gestionnaire d\'Addon](Std_AddonMgr/fr.md) et ensuite vous pouvez importer le graphique en écrivant:
+Le module peut être invoqué dans une console Python ou dans une _ à l\'aide du [Gestionnaire d\'Addon](Std_AddonMgr/fr.md) et ensuite vous pouvez importer le graphique en écrivant:
 
 
 ```python
@@ -60,7 +60,7 @@ Puisque l\'atelier Plot est une couche sur `matplotlib`, vous êtes libre d\'uti
 
 }} 
 
-[Category:External\_Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)
+_ _
 
 ---
-[documentation index](../README.md) > [External_Workbenches](Category:External_Workbenches.md) > Plot Module/fr
+[documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > Plot Module/fr

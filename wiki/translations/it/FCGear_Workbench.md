@@ -163,7 +163,7 @@ Vedere sopra le istruzioni per Linux
 
 <div class="mw-translate-fuzzy">
 
--   <img alt="PartDesign\_InvoluteGear" src=images/PartDesign_InvoluteGear.svg  style="width:24px;"> [PartDesign InvoluteGear](PartDesign_InvoluteGear/it.md): questo strumento consente di creare un profilo 2D di un ingranaggio a spirale. Questo profilo 2D è completamente parametrico e può essere estruso con la funzione [PartDesign Pad](PartDesign_Pad/it.md).
+-   <img alt="PartDesign\_InvoluteGear" src=images/PartDesign_InvoluteGear.svg  style="width:24px;"> _.
 -   [Ambienti esterni](External_workbenches/it.md): Un elenco di tutti gli ambienti di lavoro esterni correnti di FreeCAD
 -   [Raccolta di macro](Macros_recipes/it.md)
 
@@ -173,7 +173,7 @@ Vedere sopra le istruzioni per Linux
 
 
 
-[Category:External Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md) [Category:FCGear](Category:FCGear.md)
+_ _ _
 
 ---
-[documentation index](../README.md) > FCGear Workbench/it
+[documentation index](../README.md) > [External Workbenches](Category_External Workbenches.md) > FCGear Workbench/it

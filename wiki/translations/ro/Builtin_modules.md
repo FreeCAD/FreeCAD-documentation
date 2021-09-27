@@ -28,7 +28,7 @@ Această pagină oferă informații detaliate despre modulele integrate în Free
 
 }} 
 
-[Category:API](Category:API.md)
+_
 
 ---
-[documentation index](../README.md) > [API](Category:API.md) > Builtin modules/ro
+[documentation index](../README.md) > [API](Category_API.md) > Builtin modules/ro

@@ -99,7 +99,7 @@ Autre
 -   [Assembly2](http://www.freecadweb.org/wiki/index.php?title=Sandbox:Assembly2) : Atelier d\'assemblage pour FreeCAD avec prise en charge de l\'importation de pièces à partir de fichiers externes.
 -   [Ateliers externes](External_workbenches/fr.md)
 
-[Category:User Documentation](Category:User_Documentation.md) [Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+_ _ _
 
 ---
-[documentation index](../README.md) > Animation Workbench/fr
+[documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > Animation Workbench/fr

@@ -13,7 +13,7 @@ FreeCAD dev \'etrombly\' has published a short explanation on [how to install di
 -   [Compiling (Speeding up)](Compiling_(Speeding_up).md)
 -   [ccache](ccache.md)
 
-[Category: Developer Documentation](Category:_Developer_Documentation.md) [Category: 3rd Party](Category:_3rd_Party.md)
+_ _
 
 ---
-[documentation index](../README.md) > [ Developer Documentation](Category: Developer Documentation.md) > Distcc
+[documentation index](../README.md) > [ Developer Documentation](Category_ Developer Documentation.md) > Distcc

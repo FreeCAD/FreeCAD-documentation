@@ -45,7 +45,7 @@ Siehe [Wie Makros installieren](How_to_install_macros/de.md) für eine ausführl
 
 ## Makro Repositorien 
 
-Es gibt zwei wichtige Anlaufstellen für Makros. Die erste ist das offiziell geprüfte Makro Repository unter [GitHub](https://github.com/FreeCAD/FreeCAD-macros). Die zweite ist die [Makrorezepte](Macros_recipes/de.md) Seite Dort kannst du einige nützliche Makros finden, die du zu deiner FreeCAD Installation hinzufügen kannst. Makros aus beiden Repositorien können über den [Addon Manager](Std_AddonMgr.md) direkt in FreeCAD installiert werden.
+Es gibt zwei wichtige Anlaufstellen für Makros. Die erste ist das offiziell geprüfte Makro Repository unter _ Seite Dort kannst du einige nützliche Makros finden, die du zu deiner FreeCAD Installation hinzufügen kannst. Makros aus beiden Repositorien können über den [Addon Manager](Std_AddonMgr.md) direkt in FreeCAD installiert werden.
 
 ## Zusätzliche Informationen 
 
@@ -64,7 +64,7 @@ Du kannst Erweiterungen manuell installieren, es ist jedoch viel einfacher, einf
 
 }} 
 
-[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md) [Category:Macros](Category:Macros.md)
+_ _ _
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Macros/de
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Macros/de

@@ -5,11 +5,11 @@
 
 Les tutoriels listés ici sont ceux qui traitent de la conception de produits physiques pour la fabrication ou l\'impression 3D. Pour d\'autres sujets, consultez la page générale [tutoriels vidéo](video_tutorials/fr.md).
 
-Consultez la page [tutoriels](tutorials/fr.md) pour des tutoriels écrits de haute qualité. Vous trouverez une liste complète et non triée de didacticiels dans la [:Category:Tutorials](:Category:Tutorials.md).
+Consultez la page _.
 
 ## Conception de produit 
 
-Les vidéos qui passent par la modélisation de divers objets solides à l\'aide d\'ateliers tels que <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part](Part_Workbench/fr.md), <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign ](PartDesign_Workbench/fr.md) et <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Sketcher](Sketcher_Workbench/fr.md).
+Les vidéos qui passent par la modélisation de divers objets solides à l\'aide d\'ateliers tels que <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> _ et <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Sketcher](Sketcher_Workbench/fr.md).
 
 ### En anglais 
 
@@ -18,16 +18,16 @@ Les vidéos qui passent par la modélisation de divers objets solides à l\'aide
 -   [Joko Engineeringhelp playlists](https://www.youtube.com/channel/UC-CubOaooNwC-3RBKUoAOQQ/playlists): de nombreuses vidéos sur la modélisation 3D avec des outils comme FreeCAD et Blender.
     -   [FreeCAD](https://www.youtube.com/playlist?list=PL7eiW2bt21YU6QEbly78kUgQCNEiDUwSH): une série de 85 vidéos décrivant de nombreux sujets dans FreeCAD, y compris l\'analyse par éléments finis (FEM), un tutoriel pour les nouveaux utilisateurs venant d\'autres programmes, en développement un modèle utilisant une image comme référence, comment utiliser des variables et des équations pour concevoir des modèles, et présente également des modèles complexes, comme une culasse pleine pour un moteur.
 
--   [FreeCAD Videos](https://www.youtube.com/watch?v=YOXOlqw1Pvg&list=PLH_3jUdtTUKU9kajyWPz2C848TYSI7GET): une série de longues vidéos de Mark Ganson (TheMarkster) utilisant FreeCAD 0.19. Cela commence par les bases, puis progresse dans la modélisation avec l\'[atelier Part](Part_Workbench/fr.md). Il aborde également des choses comme les [macros](macros/fr.md), l\'[atelier Spreadsheet](Spreadsheet_Workbench.md) et l\'[atelier Sketcher](Sketcher_Workbench.md).
+-   _. Il aborde également des choses comme les [macros](macros/fr.md), l\'[atelier Spreadsheet](Spreadsheet_Workbench.md) et l\'[atelier Sketcher](Sketcher_Workbench.md).
 
 -   [FreeCAD for Beginners](https://www.youtube.com/playlist?list=PLxa9m2nC6N924jFUOYRECQUMm9xl4_jUI): une série de vidéos de DrVax, présentant FreeCAD 0.19 et l\'utilisant pour l\'impression 3D avec Cura et PrusaSlicer.
 
 -   [Invent Box Tutorials playlists](https://www.youtube.com/channel/UCRQCzMftIUElX03kHjV4rmQ/playlists): de nombreuses vidéos de différents programmes de conception, notamment GIMP, Krita, Inkscape, Blender, KiCad et FreeCAD.
-    -   [Learn FreeCAD](https://www.youtube.com/watch?v=CG_czsNdUfs&list=PL2935W76vRNFvUGefQr3q9P9eezJZyj-u): FreeCAD 0.17, une série de 15 vidéos par Invent Box Tutorials en anglais. Cette série présente de nombreux outils courants utilisés dans [PartDesign](PartDesign_Workbench/fr.md) et dans [atelier Path](Path_Workbench/fr.md) pour modéliser une pièce adaptée à la fabrication: esquisses, extrusion, lissage, balayage, miroir, motifs linéaires et polaires, opérations booléennes , hélice, parcours d\'outils, découpe de cavités, perçage, gravure, post-traitement et découpe.
+    -   _ et dans [atelier Path](Path_Workbench/fr.md) pour modéliser une pièce adaptée à la fabrication: esquisses, extrusion, lissage, balayage, miroir, motifs linéaires et polaires, opérations booléennes , hélice, parcours d\'outils, découpe de cavités, perçage, gravure, post-traitement et découpe.
 
--   [FreeCAD Tutorial - Basics](https://www.youtube.com/watch?v=8V4zmIoYuOA&list=PL4mEeIFbIt5e_gfW3sxbDwHBkORFrJvPe): FreeCAD 0.19, une série de 4 vidéos en anglais par MarthamEngineering. Cette série montre comment construire divers objets à l\'aide de l\'[atelier PartDesign](PartDesign_Workbench/fr.md): un vase torsadé, un bloc de connexion, une pièce d\'échecs et une enseigne de maison.
+-   _: un vase torsadé, un bloc de connexion, une pièce d\'échecs et une enseigne de maison.
 
--   [FreeCAD Tutorial - Basics](https://www.youtube.com/channel/UCwCv3eUU5qWywmunb9voJPA/videos): FreeCAD 0.19, une série de 10 vidéos en anglais par MECH INFOTECH. Cette série montre comment construire divers objets à l\'aide de [atelier PartDesign](PartDesign_Workbench/fr.md): balayage, lissage, rotation, extrusion, un embrayage, une trémie.
+-   _: balayage, lissage, rotation, extrusion, un embrayage, une trémie.
 
 -   [AllVisuals4U playlists](https://www.youtube.com/channel/UCZ3nn99kwDQSmmHu9ohYoKQ/playlists): diverses vidéos sur la modélisation et les logiciels 3D, dont Blender, FreeCAD et l\'impression 3D. Certaines vidéos peuvent être obsolètes.
     -   [MODÉLISATION 3D \| FREECAD](https://www.youtube.com/watch?v=4DjCLZNg60U&list=PLKu--JcOZKTPE13UyWyrS8Hp5-kgnTifN): FreeCAD 0.17 et 0.18, une série de 22 vidéos de modélisation d\'objets comme des chaussures, une roue à rayons, un siège de vélo, un grattoir à glace, une paire de lunettes de soleil, une table, un arrosoir, un abat-jour, une pelle à poussière, un vase pour l\'eau, un verre à cocktail, une horloge murale, un porte-stylo, une chaise imprimable, un gâteau d\'anniversaire et autres. Il montre également comment modéliser des objets pour l\'impression 3D et les exporter vers Blender.
@@ -42,7 +42,7 @@ Les vidéos qui passent par la modélisation de divers objets solides à l\'aide
 -   [Vidéos de Bugman](https://www.youtube.com/user/fiestasbc/videos): FreeCAD 0.17 et 0.18, au moins 150 vidéos démontrant l\'utilisation de FreeCAD pour créer une grande variété d\'objets dont un réservoir d\'eau, des cadres en bois, un gyroscope, formes basées sur des équations paramétriques, mécanismes à came, engrenages sans fin, transmissions différentielles, jonctions en bois, diverses bobines et ressorts, escaliers et mains courantes, pièces de vélo, divers polyèdres, chaînes diverses, pistons divers, balles de sport diverses, outils à main comme des rasoirs, tournevis, clés et ouvre-bouteilles.
 
 -   [Playlists Glasson Design Studio](https://www.youtube.com/channel/UC-Nio4u1JhP7eUFeBtz7XFw/playlists): diverses vidéos en anglais sur le travail du bois et la conception de meubles, y compris l\'utilisation de FreeCAD.
-    -   [FreeCAD for Woodworkers](https://www.youtube.com/playlist?list=PLNKr-ocZWgQ66AX5y3uY71SCTClpUpGrt): une série de vidéos montrant comment utiliser FreeCAD 0.17 à 0.18 pour modéliser des objets en bois, à l\'aide d\'ateliers comme [PartDesign ](PartDesign_Workbench/fr.md), [Sketcher](Sketcher_Workbench/fr.md), [Spreadsheet](Spreadsheet_Workbench/fr.md) et [TechDraw](TechDraw_Workbench/fr.md).
+    -   _, [Sketcher](Sketcher_Workbench/fr.md), [Spreadsheet](Spreadsheet_Workbench/fr.md) et [TechDraw](TechDraw_Workbench/fr.md).
 
 -   [FreeCAD Beginners Tutorials](https://www.youtube.com/watch?v=VEk4RuNIlRY&list=PL1Fv0Kg44dc0WbIB_OoFnEqzanDI7nRQi) : FreeCAD 0.17, une série de 5 vidéos d\'Eklavya Self Learning Tutorials, en anglais, explique les bases de FreeCAD, telles que l\'installation, l\'interface et présente des ateliers de base tels que Draft, Arch, Part et Sketcher.
 
@@ -51,8 +51,8 @@ Les vidéos qui passent par la modélisation de divers objets solides à l\'aide
 Bien que cette liste se concentre sur le contenu allemand, bon nombre de ces chaînes proposent également des vidéos en anglais.
 
 -   [flowwies corner playlists](https://www.youtube.com/user/stolz3d/playlists): de nombreuses vidéos utilisant FreeCAD 0.18 et 0.19, y compris des informations d\'introduction et des didacticiels plus avancés. En langue allemande.
-    -   [FreeCAD 0.18 Grundlagen - Einstieg in FreeCAD](https://www.youtube.com/watch?v=rTvgCcOXfuw&list=PLw48L7HmCgMLg-hU-4Ro3tQOJ0k7yH56T): une série de 6 vidéos pour les débutants, présentant le programme général, puis l\'[atelier Sketcher](Sketcher_Workbench/fr.md) et l\'[atelier PartDesign](PartDesign_Workbench/fr.md) pour modéliser les solides.
-    -   [FreeCAD 0.18 & 0.19 - Tutorials von flowwies corner](https://www.youtube.com/watch?v=4QJTaCplAK0&list=PLw48L7HmCgMKg5za09Ncxg0in5G4nNkPs): une série de 11 vidéos traitant de divers sujets, comme l\'export STL, la modélisation de pièces mécaniques comme un connecteur et un couteau. Il traite également des différents outils de l\'[atelier PartDesign](PartDesign_Workbench/fr.md), de l\'[atelier Spreadsheet](Spreadsheet_Workbench/fr.md) ainsi que de la visualisation avec Blender.
+    -   _ et l\'[atelier PartDesign](PartDesign_Workbench/fr.md) pour modéliser les solides.
+    -   _, de l\'[atelier Spreadsheet](Spreadsheet_Workbench/fr.md) ainsi que de la visualisation avec Blender.
 
 -   [Vidéos Harry Geier](https://www.youtube.com/channel/UCoe3BcVuLC9I2_yFud5vp8Q/videos): plusieurs vidéos en anglais et en allemand de Harry Geier. Les vidéos se concentrent principalement sur PartDesign, en utilisant FreeCAD 0.17 et 0.18.
     -   [FreeCAD 0.17 for Beginners, Part Design First Steps and STL Export](https://www.youtube.com/watch?v=bs3eEF2rGX8), [FreeCAD 0.17 Tutoriel, version complète](https://www.youtube.com/watch?v=geIrH1cOCzc), [FreeCad (0.17) De l\'idée à l\'impression](https://www.youtube.com/watch?v=Zkh7WFnS5nw), [mavbz1Zpkws FreeCad 0.18 Introduction, présentation et premiers pas avec PART Workbench. English](https://www.youtube.com/watch?v=), [FreeCAD 0.18 Entry Level Tutorial (Follow Up)](https://www.youtube.com/watch?v=C1JG6l1uIJw), [3D Print Workflow- -freeCAD .18 \--Kissslicer - Imprimer](https://www.youtube.com/watch?v=2YgzCVBBCzc)

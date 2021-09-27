@@ -59,9 +59,9 @@ Această pagină listează șabloanele conform cu standardul American National S
 
 ## Contribuții
 
-Șablonul este desenat de către [Quick61](User:Quick61.md) și listat de [FreeCAD-Drawing-Templates](https://github.com/quick61/FreeCAD-Drawing-Templates).
+Șablonul este desenat de către _ și listat de [FreeCAD-Drawing-Templates](https://github.com/quick61/FreeCAD-Drawing-Templates).
 
-[Category:Documentation](Category:Documentation.md) [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Drawing](Category:Drawing.md)
+_ _ _
 
 ---
-[documentation index](../README.md) > [Documentation](Category:Documentation.md) > ANSI templates/ro
+[documentation index](../README.md) > [Documentation](Category_Documentation.md) > ANSI templates/ro

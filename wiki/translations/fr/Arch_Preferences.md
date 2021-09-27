@@ -14,7 +14,7 @@ Il existe deux onglets : Paramètres généraux et Valeurs par défaut.
 
  
 
-[Category:Preferences](Category:Preferences.md)
+_
 
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Preferences/fr
+[documentation index](../README.md) > [Preferences](Category_Preferences.md) > [Arch](Arch_Workbench.md) > Arch Preferences/fr

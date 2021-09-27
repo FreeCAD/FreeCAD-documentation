@@ -23,7 +23,7 @@ Hay muchos dialectos diferentes en este formato de modo que este módulo de este
 
  
 
-[Category:User Documentation/es](Category:User_Documentation/es.md) [Category:File Formats](Category:File_Formats.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft DAT/es
+[documentation index](../README.md) > [File Formats](Category_File Formats.md) > [Draft](Draft_Workbench.md) > Draft DAT/es

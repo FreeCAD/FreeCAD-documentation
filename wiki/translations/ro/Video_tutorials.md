@@ -15,7 +15,7 @@ Mai jos este o colecție de tutoriale realizate de către utilizatorii și dezvo
 
 </div>
 
-Visit [tutorials](tutorials.md) for high quality written tutorials. A complete, unsorted list of tutorials can be found in [:Category:Tutorials](:Category:Tutorials.md).
+Visit _.
 
 Visit [offsite tutorials](offsite_tutorials.md) for lists of tutorials hosted on external sites.
 
@@ -45,12 +45,12 @@ Since there are many videos that deal with this topic, please visit [Video tutor
 
 ## Assembly
 
--   [Go further with Asm 3 WB](http://help-freecad-jpg87.fr/025c_ass_ex_creat.php) by jpg87 is website with step by step instructions and videos to demonstrate usage of the [Assembly3 Workbench](Assembly3_Workbench.md).
--   [FreeCAD Tutorial - Assembly 4 Workbench](https://www.youtube.com/watch?v=n04M6nFvdxs) by Martham Engineering. It showcases the [Assembly4 Workbench](Assembly4_Workbench.md).
+-   _.
+-   _.
 
 ## Technical drawings 
 
--   [TechDraw](https://www.youtube.com/watch?v=7LbOmSGW9F0&list=PLEuOia-QxyFKQnmM1U9yVo7eNrK_Mcln8): a series of 5 videos describing the [TechDraw Workbench](TechDraw_Workbench.md), by sliptonic; [1 (Basics)](https://www.youtube.com/watch?v=7LbOmSGW9F0), [2 (Dimensions)](https://www.youtube.com/watch?v=z3w84RfvqaE), [3 (Multiview)](https://www.youtube.com/watch?v=uNjXg-m38aI), [4 (Sections and Detail)](https://www.youtube.com/watch?v=3zSdeFV6I5o), and [5 (Customizing templates)](https://www.youtube.com/watch?v=kcmdJ7xa7gg).
+-   _, by sliptonic; [1 (Basics)](https://www.youtube.com/watch?v=7LbOmSGW9F0), [2 (Dimensions)](https://www.youtube.com/watch?v=z3w84RfvqaE), [3 (Multiview)](https://www.youtube.com/watch?v=uNjXg-m38aI), [4 (Sections and Detail)](https://www.youtube.com/watch?v=3zSdeFV6I5o), and [5 (Customizing templates)](https://www.youtube.com/watch?v=kcmdJ7xa7gg).
 
 -   [Introduction to the FreeCAD TechDraw Workbench](https://www.youtube.com/watch?v=TnYMfpdNQoo) by Glasson Design Studio. This is particularly aimed at woodworkers but can be used for general solids.
 
@@ -71,13 +71,13 @@ Since there are many videos that deal with this topic, please visit [Video tutor
 
 ## Design Architectural 
 
-Videos that go through modeling of rooms, houses, office buildings, and similar structures, and drawing floor plans, using workbenches such as <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft](Draft_Workbench.md), <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Arch](Arch_Workbench.md), and <img alt="" src=images/Workbench_BIM.svg  style="width:24px;"> [BIM](BIM_Workbench.md).
+Videos that go through modeling of rooms, houses, office buildings, and similar structures, and drawing floor plans, using workbenches such as <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> _, and <img alt="" src=images/Workbench_BIM.svg  style="width:24px;"> [BIM](BIM_Workbench.md).
 
 Since there are many videos that deal with this topic, please visit [Video tutorials for architectural design](Video_tutorials_for_architectural_design.md).
 
 ## Finite element (FEM) simulation 
 
--   [FreeCAD FEM/Civil/Structural/Arch Tutorial-1-An Introduction](https://www.youtube.com/watch?v=wAJe1R5NDGw): FreeCAD 0.16, and introduction that builds a simple structure of pillars and beams, and analyzes them with the <img alt="" src=images/Workbench_FEM.svg  style="width:24px;"> [FEM Workbench](FEM_Workbench.md), by Eklavya Self Learning Tutorials.
+-   _, by Eklavya Self Learning Tutorials.
 
 -   [How To Use FreeCAD FEM](https://www.youtube.com/watch?v=dhrynRdBOIg) \[12:15\] FreeCAD v0.19, Intro to using the FEM workbench. Very well done, by Joko Engineering
 
@@ -152,7 +152,7 @@ For more see [Video tutorials obsolete](Video_tutorials_obsolete.md).
 
 }} 
 
-[Category:Common Questions](Category:Common_Questions.md)
+_
 
 ---
-[documentation index](../README.md) > [Common Questions](Category:Common Questions.md) > Video tutorials/ro
+[documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > Video tutorials/ro

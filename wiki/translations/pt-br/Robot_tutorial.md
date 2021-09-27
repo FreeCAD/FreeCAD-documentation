@@ -38,7 +38,7 @@ This tutorial is targeting on the use of [industrial robots](http://en.wikipedia
 5.  Set home position for robot by clicking on <img alt="" src=images/Robot_SetHomePos.svg  style="width:24px;"> [Robot\_SetHomePos](Robot_SetHomePos.md)
 6.  Switch to the [Task Panel](Task_Panel.md)
 7.  By using the sliders change robot position
-8.  When robot and trajectory are selected in [tree view](tree_view.md) clicking on <img alt="" src=images/Robot_InsertWaypoint.svg  style="width:24px;"> [Robot InsertWaypoint](Robot_InsertWaypoint.md) will insert the way-point in the trajectory
+8.  When robot and trajectory are selected in _ will insert the way-point in the trajectory
 9.  Each way-point is shown with a yellow cross, the waypoints are connected with orange lines
 10. Define at least three different way points and insert them in the trajectory
 

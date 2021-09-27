@@ -101,7 +101,7 @@ import ifcopenshell
 from ifcopenshell import geom
 ``` s\'il ne génère aucune erreur, cela signifie qu\'il est peut-être correctement installé
 
-12.2 Accédez au [manuel FreeCAD de Yorik](Manual:BIM_modeling/fr.md), accédez à la partie inférieure de la page et téléchargez les fichiers suivants pour tester: 
+12.2 Accédez au _, accédez à la partie inférieure de la page et téléchargez les fichiers suivants pour tester: 
 ```python
 house.FCStd
 house.ifc
@@ -129,7 +129,7 @@ Tchao!
 
 
 
-[Category:BIM](Category:BIM.md) [Category:Arch](Category:Arch.md) [Category:3rd Party](Category:3rd_Party.md) [Category:File\_Formats](Category:File_Formats.md)
+_ _ _ _
 
 ---
-[documentation index](../README.md) > [BIM](Category:BIM.md) > Import/Export IFC - compiling IfcOpenShell/fr
+[documentation index](../README.md) > [BIM](Category_BIM.md) > Import/Export IFC - compiling IfcOpenShell/fr

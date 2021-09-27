@@ -1,6 +1,6 @@
 # Sketcher ConstrainAngle/es
 ---
-- GuiCommand:/es   Name:Constraint InternalAngle   Workbenches:[Diseño de Piezas](Sketcher_Workbench/es___Croquizador]],_[[PartDesign_Workbench/es.md)|Shortcut:A   MenuLocation:Croquizador → Restricciones del Croquizador → Restricción angular   SeeAlso:[Restricción distancia](Constraint_Length/es.md), [Restricción perpendicular](Constraint_Perpendicular/es.md)---
+- GuiCommand:/es   Name:Constraint InternalAngle   Workbenches:_, [Restricción perpendicular](Constraint_Perpendicular/es.md)---
 
 
 </div>

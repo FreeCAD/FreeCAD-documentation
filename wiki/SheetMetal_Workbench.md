@@ -4,7 +4,7 @@
 
 ## Introduction
 
-<img alt="" src=images/Sheetmetal_workbench_icon.svg  style="width:32px;"> [Sheet Metal](SheetMetal_Workbench.md) is an [external workbench](external_workbenches.md) and does not belong to the standard FreeCAD installation. It has been developed to supply tools to create and unfold sheet metal objects.
+<img alt="" src=images/Sheetmetal_workbench_icon.svg  style="width:32px;"> [Sheet Metal](SheetMetal_Workbench.md) is an [external workbench](External_workbenches.md) and does not belong to the standard FreeCAD installation. It has been developed to supply tools to create and unfold sheet metal objects.
 
 Characteristics of sheet metal objects are:
 
@@ -100,7 +100,7 @@ Several tools from other workbenches can be used to add holes or to reshape edge
 
 ### Unfold a sheet metal object 
 
-To unfold a sheet metal object aktivate the <img alt="" src=images/SheetMetal_Unfold.svg  style="width:16px;"> [Unfold](SheetMetal_Unfold.md) or the <img alt="" src=images/SheetMetal_UnattendedUnfold.svg  style="width:16px;"> [Unattended Unfold](SheetMetal_UnattendedUnfold.md) tool.
+To unfold a sheet metal object aktivate the <img alt="" src=images/SheetMetal_Unfold.svg  style="width:16px;"> _ tool.
 
 The result will be a 3D object with an optional outline sketch including bend lines.
 
@@ -262,7 +262,7 @@ How to do ?
 
 
 
-[Category:SheetMetal](Category:SheetMetal.md) [Category:Addons](Category:Addons.md) [Category:External Command Reference](Category:External_Command_Reference.md)
+_ _ _
 
 ---
-[documentation index](../README.md) > SheetMetal Workbench
+[documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > SheetMetal Workbench

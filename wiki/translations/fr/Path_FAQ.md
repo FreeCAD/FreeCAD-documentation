@@ -43,7 +43,7 @@ All additions to the Job\--including modifications, and Operation copies\--are a
 
 </div>
 
-Des informations plus détaillées sont disponible sur [ Depths and Heights](Template:Depths/Heights.md).
+Des informations plus détaillées sont disponible sur _.
 
 [top](#top.md)
 
@@ -237,7 +237,7 @@ Commonly, the Custom G-Code command because the format is always in Units/second
 
 However, Path Compounds can make use of the Placement of their children (see below).\"
 
-[https://www.freecadweb.org/wiki/Path\_scripting Path scripting](https://www.freecadweb.org/wiki/Path_scripting_Path_scripting.md)
+_
 
 [top](#top.md)
 

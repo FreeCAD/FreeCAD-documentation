@@ -65,7 +65,7 @@ FreeCAD supports several third party software packages out of the box. In many c
 
 </div>
 
-[GitPython](https://github.com/gitpython-developers/GitPython) is a library to interact with Git repositories. The [Addon Manager](Std_AddonMgr.md) can use this library. GitPython is included in the FreeCAD installers for Windows and Mac.
+_ can use this library. GitPython is included in the FreeCAD installers for Windows and Mac.
 
 
 <div class="mw-translate-fuzzy">
@@ -77,7 +77,7 @@ GraphViz是一款开源的图形可视化（graph visualization）软件。在Fr
 
 </div>
 
-[GraphViz](https://www.graphviz.org) is an open source graph visualization software. It is used by the [Std DependencyGraph](Std_DependencyGraph.md) tool.
+_ tool.
 
 
 <div class="mw-translate-fuzzy">
@@ -89,7 +89,7 @@ GraphViz是一款开源的图形可视化（graph visualization）软件。在Fr
 
 </div>
 
-[OpenCAMLib](http://www.anderswallin.net/CAM) is an open source library of computer aided manufacturing (CAM) algorithms. It is used in the [Path Workbench](Path_Workbench.md). See the [OpenCamLib](OpenCamLib.md) page for installation instructions.
+_. See the [OpenCamLib](OpenCamLib.md) page for installation instructions.
 
 
 <div class="mw-translate-fuzzy">
@@ -101,7 +101,7 @@ GraphViz是一款开源的图形可视化（graph visualization）软件。在Fr
 
 </div>
 
-[OpenSCAD](https://www.openscad.org) is a solid 3D modeller. The [OpenSCAD Workbench](OpenSCAD_Workbench.md) depends on this software and the [Mesh Workbench](Mesh_Workbench.md) uses it for its Boolean tools. It is also required for the import of SCAD files with the [Std Import](Std_Import.md) tool.
+_ depends on this software and the [Mesh Workbench](Mesh_Workbench.md) uses it for its Boolean tools. It is also required for the import of SCAD files with the [Std Import](Std_Import.md) tool.
 
 ## File formats 
 
@@ -129,7 +129,7 @@ FreeCAD中有一个以C++编写的DXF原生导入、导出工具。 此导入器
 
 </div>
 
-FreeCAD has a native importer and exporter for DXF files, programmed in C++. Currently they do not implement all features of the DXF format. For those features the legacy Python importer and exporter are still available. These require the [Draft-dxf-importer](https://github.com/yorikvanhavre/Draft-dxf-importer) Python library. See the [FreeCAD and DXF Import](FreeCAD_and_DXF_Import.md) page for more information.
+FreeCAD has a native importer and exporter for DXF files, programmed in C++. Currently they do not implement all features of the DXF format. For those features the legacy Python importer and exporter are still available. These require the _ page for more information.
 
 
 <div class="mw-translate-fuzzy">
@@ -141,7 +141,7 @@ IfcOpenShell是一种用来处理建筑设计所用Industry Foundation Classes (
 
 </div>
 
-[IfcOpenShell](http://ifcopenshell.org) is a library for working with the Industry Foundation Classes (IFC) file format used in architectural design. The library is also used by the [Arch IfcExplorer](Arch_IfcExplorer.md) ({{VersionMinus|0.18}}) and [BIM IfcExplorer](BIM_IfcExplorer.md) tools. IfcOpenShell is included in the FreeCAD installers for Windows and Mac.
+_ ({{VersionMinus|0.18}}) and [BIM IfcExplorer](BIM_IfcExplorer.md) tools. IfcOpenShell is included in the FreeCAD installers for Windows and Mac.
 
 ### IfcJson
 
@@ -149,7 +149,7 @@ IfcOpenShell是一种用来处理建筑设计所用Industry Foundation Classes (
 
 ### LibreDWG
 
-Support for [LibreDWG](https://www.gnu.org/software/libredwg) is still experimental. Like the ODA File Converter it can convert DWG to DXF files which FreeCAD can then import. See the [FreeCAD and DWG Import](FreeCAD_and_DWG_Import.md) page for more information.
+Support for _ page for more information.
 
 
 <div class="mw-translate-fuzzy">
@@ -161,7 +161,7 @@ ODA文件转换器是一种专有、闭源、二进制且可自由使用的应�
 
 </div>
 
-The [ODA File Converter](https://www.opendesign.com/guestfiles/oda_file_converter) is a free application to convert between several versions of DWG and DXF files. FreeCAD requires this converter, or LibreDWG, to import DWG files. See the [FreeCAD and DWG Import](FreeCAD_and_DWG_Import.md) page for more information.
+The _ page for more information.
 
 
 <div class="mw-translate-fuzzy">
@@ -179,11 +179,11 @@ Pycollada，又名`python-collada`，是一款用来读写COLLADA文档（一种
 
 ### LuxCoreRender
 
-[LuxCoreRender](https://www.luxcorerender.org) is a render engine, reboot of the [LuxRender](LuxRender.md) project. Officially it is not supported by the [Raytracing Workbench](Raytracing_Workbench.md), but it might be worth to give it a try. It is officially supported by the new [Render Workbench](https://github.com/FreeCAD/FreeCAD-render), intended as a future replacement of the Raytracing Workbench. See the [LuxCoreRender](LuxCoreRender.md) page for more information and installation instructions.
+_ project. Officially it is not supported by the _ page for more information and installation instructions.
 
 ### LuxRender
 
-[LuxRender](https://luxcorerender.org/history/) is one of the two render engines supported by the [Raytracing Workbench](Raytracing_Workbench.md). In 2013 the project has been rebooted becoming [LuxCoreRender](LuxCoreRender.md), with a major code rewriting and compatibility breaking changes. Officially the Raytracing Workbench only supports the abandoned [LuxRender](LuxRender.md) (latest version is 1.6, 2017-12-28), while the new [Render Workbench](https://github.com/FreeCAD/FreeCAD-render) (intended as a future replacement of the Raytracing Workbench) supports instead LuxCoreRender and has dropped the support for LuxRender. Anyway, even if officially not supported, [LuxCoreRender](LuxCoreRender.md) may work with the Raytracing Workbench, it might be worth to give it a try. See the [LuxRender](LuxRender.md) page for more information and installation instructions, and the [LuxCoreRender](LuxCoreRender.md) if you want to try a more modern software.
+_. In 2013 the project has been rebooted becoming _ may work with the Raytracing Workbench, it might be worth to give it a try. See the [LuxRender](LuxRender.md) page for more information and installation instructions, and the [LuxCoreRender](LuxCoreRender.md) if you want to try a more modern software.
 
 
 <div class="mw-translate-fuzzy">
@@ -195,7 +195,7 @@ POVRay是一款人所共知的光线追踪器，借助它可渲染出照片级�
 
 </div>
 
-[POV-Ray](https://www.povray.org) is a well-known ray-tracer which can render photo-realistic images. It is one of two render engines currently supported by the [Raytracing Workbench](Raytracing_Workbench.md). See the [POV-Ray](POV-Ray.md) page for more information and installation instructions.
+_. See the [POV-Ray](POV-Ray.md) page for more information and installation instructions.
 
 ## Finite element 
 
@@ -212,7 +212,7 @@ CalculiX是两种有限元包的组合套件：
 
 </div>
 
-[CalculiX](http://calculix.de) is a suite of two finite element packages: CalculiX CrunchiX, a FEM solver, and CalculiX GraphiX, a GUI frontend. Only the solver is supported by FreeCAD. It is used by the [Solver CalculiX](FEM_SolverCalculiX.md) tool.
+_ tool.
 
 
 <div class="mw-translate-fuzzy">
@@ -224,7 +224,7 @@ CalculiX是两种有限元包的组合套件：
 
 </div>
 
-[Gmsh](http://gmsh.info) is an automatic finite element mesh generator. it is used by the [FEM MeshGmshFromShape](FEM_MeshGmshFromShape.md) and [Mesh FromPartShape](Mesh_FromPartShape.md) tools.
+_ and [Mesh FromPartShape](Mesh_FromPartShape.md) tools.
 
 
 <div class="mw-translate-fuzzy">
@@ -236,7 +236,7 @@ Elmer是一种多物理模拟软件，开源于2005年。在FreeCAD中，可通�
 
 </div>
 
-[Elmer](https://www.csc.fi/web/elmer) is a multi-physics simulation software, which was open sourced in 2005. In FreeCAD its Grid and Solver modules are used by the [FEM SolverElmer](FEM_SolverElmer.md) tool.
+_ tool.
 
 
 <div class="mw-translate-fuzzy">
@@ -248,7 +248,7 @@ FEniCS是一种解偏微分方程（partial differential equations (PDEs)）的�
 
 </div>
 
-[FEniCS](https://fenicsproject.org) is a computing platform to solve partial differential equations (PDEs), which are widely used when solving FEM problems. It is used by the [FEM workbench](FEM_Workbench.md)
+_
 
 
 <div class="mw-translate-fuzzy">
@@ -260,7 +260,7 @@ Z88是另一种FEM程序，内含网格生成器、求解器与转换器，用�
 
 </div>
 
-[Z88](https://en.z88.de) is another FEM program, containing a mesher, a solver and converters. It is used by the [FEM SolverZ88](FEM_SolverZ88.md) tool. FreeCAD requires the open source Z88OS package.
+_ tool. FreeCAD requires the open source Z88OS package.
 
 
 <div class="mw-translate-fuzzy">
@@ -272,7 +272,7 @@ Z88是另一种FEM程序，内含网格生成器、求解器与转换器，用�
 
 </div>
 
-[OpenFOAM](https://openfoam.org) is a large collection of libraries for computational fluid dynamics (CFD) simulations. OpenFOAM is used by the [Cfd](Cfd_Workbench.md) and [CfdOF](https://github.com/jaheyns/CfdOF) [external workbenches](external_workbenches.md).
+_ and _.
 
 
 <div class="mw-translate-fuzzy">
@@ -297,7 +297,7 @@ Z88是另一种FEM程序，内含网格生成器、求解器与转换器，用�
 
 </div>
 
-[Category:User Documentation/zh-cn](Category:User_Documentation/zh-cn.md)
+_
 
 ---
 [documentation index](../README.md) > Installing additional components/zh-cn

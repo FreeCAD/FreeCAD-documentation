@@ -3,7 +3,7 @@
 
 ## Introduction
 
-[Part TopoShape](Part_TopoShape/fr.md) ou officiellement `Part::TopoShape` est une classe qui définit une **topological shape** (forme topologique) paramétrique dans le logiciel. Les objets dans le document qui montrent quelque chose dans la [Vue 3D](3D_view/fr.md) ont normalement une TopoShape.
+_ ont normalement une TopoShape.
 
 Les formes topologiques, ainsi que leurs méthodes, sont définies par le noyau [OpenCASCADE](OpenCASCADE/fr.md) (OCCT). FreeCAD utilise ces formes et construit [App DocumentObjects](App_DocumentObject/fr.md) autour d\'eux.
 
@@ -12,7 +12,7 @@ Un autre type de classe est celui de [mesh](Mesh/fr.md). Cette classe n\'est pas
 ![](images/Shape_and_mesh.svg )
 
 
-*A gauche: paramétrique [Part TopoShape](Part_TopoShape/fr.md) définie par les propriétés. A droite: un [maillage](Mesh/fr.md) non paramétrique défini par des sommets et des surfaces triangulaires.*
+*A gauche: paramétrique _ non paramétrique défini par des sommets et des surfaces triangulaires.*
 
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
 

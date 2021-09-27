@@ -25,9 +25,9 @@ FreeCAD es principalmente una aplicación de modelado en 3D, y por lo tanto no t
 
 Estas son herramientas para crear objetos de la página.
 
--   <img alt="" src=images/TechDraw_PageDefault.svg  style="width:32px;"> [Insertar página predeterminada](TechDraw_PageDefault/es.md): Agrega una nueva página usando el predeterminado [Plantilla](TechDraw_Templates/es.md).
+-   <img alt="" src=images/TechDraw_PageDefault.svg  style="width:32px;"> _.
 
--   <img alt="" src=images/TechDraw_PageTemplate.svg  style="width:32px;"> [Insertar la página usando la plantilla](TechDraw_PageTemplate/es.md): Agrega una nueva página usando un seleccionado [Plantilla](TechDraw_Templates/es.md).
+-   <img alt="" src=images/TechDraw_PageTemplate.svg  style="width:32px;"> _.
 
 -   <img alt="" src=images/TechDraw_RedrawPage.svg  style="width:32px;"> [Redibujar página](TechDraw_RedrawPage/es.md): fuerza una actualización de la página seleccionada. <small>(v0.19)</small> 
 
@@ -47,9 +47,9 @@ Estas son herramientas para crear objetos de la Vista.
 
 -   <img alt="" src=images/TechDraw_DraftView.svg  style="width:32px;"> [Insertar el borrador del objeto de l\'ambiente de trabajo](TechDraw_DraftView/es.md) Inserta una vista de un objeto [Draft ambiente de trabajo](Draft_Workbench/es.md).
 
--   <img alt="" src=images/TechDraw_ArchView.svg  style="width:32px;"> [Insertar Ambiente de trabajo architectura Objeto](TechDraw_ArchView/es.md): Agrega una vista de un [Architectura Ambiente de trabajo](Arch_Workbench/es.md) [Plano de la sección](Arch_SectionPlane/es.md) objeto.
+-   <img alt="" src=images/TechDraw_ArchView.svg  style="width:32px;"> _ [Plano de la sección](Arch_SectionPlane/es.md) objeto.
 
--   <img alt="" src=images/TechDraw_SpreadsheetView.svg  style="width:32px;"> [Insertar Spreadsheet Vista](TechDraw_SpreadsheetView/es.md): Inserta una vista de una [Spreadsheet Ambiente de trabajo](Spreadsheet_Workbench/es.md) sheet.
+-   <img alt="" src=images/TechDraw_SpreadsheetView.svg  style="width:32px;"> _ sheet.
 
 ## Recortes
 
@@ -165,6 +165,37 @@ Agrega una dimensión de ángulo usando tres vértices.
 
 </div>
 
+## Extensions
+
+These are tools to improve your TechDraw drawings.
+
+
+**Some of these tools have yet to be released.**
+
+-   <img alt="" src=images/TechDraw_ExtensionCircleCenterLines.svg  style="width:32px;"> [Draw circle centerlines](TechDraw_ExtensionCircleCenterLines.md): adds centerlines to circles and arcs. <small>(v0.20)</small> 
+
+-   <img alt="" src=images/TechDraw_ExtensionThreadHoleSide.svg  style="width:32px;"> [Cosmetic thread hole side view](TechDraw_ExtensionThreadHoleSide.md): adds a symbolic thread to the side view of a hole. <small>(v0.20)</small> 
+
+-   <img alt="" src=images/TechDraw_ExtensionThreadBoltSide.svg  style="width:32px;"> [Cosmetic thread bolt side view](TechDraw_ExtensionThreadBoltSide.md): adds a symbolic thread to the side view of a bolt. <small>(v0.20)</small> 
+
+-   <img alt="" src=images/TechDraw_ExtensionThreadHoleBottom.svg  style="width:32px;"> [Cosmetic thread hole bottom view](TechDraw_ExtensionThreadHoleBottom.md): adds symbolic threads to the bottom view of holes. <small>(v0.20)</small> 
+
+-   <img alt="" src=images/TechDraw_ExtensionThreadBoltBottom.svg  style="width:32px;"> [Cosmetic thread bolt bottom view](TechDraw_ExtensionThreadBoltBottom.md): adds symbolic threads to the bottom view of bolts. <small>(v0.20)</small> 
+
+
+<div class="mw-translate-fuzzy">
+
+## Importar/Exportar
+
+
+</div>
+
+Estas son herramientas para exportar páginas a otras aplicaciones.
+
+-   <img alt="" src=images/TechDraw_ExportPageSVG.svg  style="width:32px;"> _.
+
+-   <img alt="" src=images/TechDraw_ExportPageDXF.svg  style="width:32px;"> _.
+
 ## Decoración
 
 Estas son herramientas para decorar páginas o vistas:
@@ -173,9 +204,9 @@ Estas son herramientas para decorar páginas o vistas:
 
 -   <img alt="" src=images/TechDraw_GeometricHatch.svg  style="width:32px;"> [Geometric Hatch](TechDraw_GeometricHatch/es.md): aplica una sombrea uno plano usando una especificación PAT de Autodesk.
 
--   <img alt="" src=images/TechDraw_Symbol.svg  style="width:32px;"> [Insertar símbolo SVG](TechDraw_Symbol/es.md): inserta un símbolo de un archivo [SVG](SVG/es.md) en una página.
+-   <img alt="" src=images/TechDraw_Symbol.svg  style="width:32px;"> _ en una página.
 
--   <img alt="" src=images/TechDraw_Image.svg  style="width:32px;"> [Insertar Bitmap imagen](TechDraw_Image/es.md): inserta una imagen PNG o JPG [bitmap](bitmap/es.md) en una página.
+-   <img alt="" src=images/TechDraw_Image.svg  style="width:32px;"> _ en una página.
 
 -   <img alt="" src=images/TechDraw_ToggleFrame.svg  style="width:32px;"> [Turn View Frames On/Off](TechDraw_ToggleFrame/es.md): activa y desactiva ver marcos y etiquetas que rodean una vista.
 
@@ -216,31 +247,6 @@ Los instrumentos de anotación sirven para \"marcar\" un dibujo con información
 -   <img alt="" src=images/TechDraw_ShowAll.svg  style="width:24px;"> [Mostrar/Ocultar Bordes Invisibles](TechDraw_ShowAll/es.md): muestra/oculta las líneas/bordes invisibles en una vista. {{Version/es|0.19}}
 
 -   <img alt="" src=images/TechDraw_WeldSymbol.svg  style="width:24px;"> [Añadir información de soldadura a la línea de mando](TechDraw_WeldSymbol/es.md): añade especificaciones de soldadura a una línea de mando existente. {{Version/es|0.19}}
-
-## Extension Package 
-
-The Extension Package includes many useful tools to improve your TechDraw drawings.
-
-
-**Some of these tools have yet to be released.**
-
--   <img alt="" src=images/TechDraw_ExtensionCircleCenterLines.svg  style="width:32px;"> [CircleCenterLines](TechDraw_ExtensionCircleCenterLines.md): adds center lines to circles and arcs. <small>(v0.20)</small> 
-
--   <img alt="" src=images/TechDraw_ExtensionThreadHoleSide.svg  style="width:32px;"> [ThreadHoleSide](TechDraw_ExtensionThreadHoleSide.md): adds a symbolic thread to the side view of a hole. <small>(v0.20)</small> 
-
--   <img alt="" src=images/TechDraw_ExtensionThreadHoleBottom.svg  style="width:32px;"> [ThreadHoleBottom](TechDraw_ExtensionThreadHoleBottom.md): adds symbolic threads to the bottom view of holes. <small>(v0.20)</small> 
-
--   <img alt="" src=images/TechDraw_ExtensionThreadBoltSide.svg  style="width:32px;"> [ThreadBoltSide](TechDraw_ExtensionThreadBoltSide.md): adds a symbolic thread to the side view of a bolt. <small>(v0.20)</small> 
-
--   <img alt="" src=images/TechDraw_ExtensionThreadBoltBottom.svg  style="width:32px;"> [ThreadBoltBottom](TechDraw_ExtensionThreadBoltBottom.md): adds symbolic threads to the bottom view of bolts. <small>(v0.20)</small> 
-
-## Importar/Exportar
-
-Estas son herramientas para exportar páginas a otras aplicaciones.
-
--   <img alt="" src=images/TechDraw_ExportPageSVG.svg  style="width:32px;"> [Exportar página como SVG](TechDraw_ExportPageSVG/es.md): guarda la página actual como archivo [SVG](SVG/es.md).
-
--   <img alt="" src=images/TechDraw_ExportPageDXF.svg  style="width:32px;"> [Exportar página como DXF](TechDraw_ExportPageDXF/es.md): guarda la página actual como archivo [DXF](DXF/es.md).
 
 ## Características adicionales 
 
@@ -300,11 +306,17 @@ Las herramientas de TechDraw pueden ser utilizadas en [macros](macros/es.md) y d
 
 ## Tutoriales
 
+
+<div class="mw-translate-fuzzy">
+
 -   [Tutorial básico de DibujoTécnico](Basic_TechDraw_Tutorial/es.md): Introducción a la creación de dibujos con el ambiente de trabajo DibujoTécnico.
 -   [Creando una nueva plantilla](TechDraw_TemplateHowTo/es.md): instrucciones para crear una nueva plantilla de página en Inkscape para usarla con el ambiente de trabajo DibujoTécnico.
 -   [Medición de los ángulos en los agujeros](Measurement_Of_Angles_On_Holes/es.md): instrucciones para añadir líneas centrales y posteriores representaciones de ángulos en los agujeros.
 -   [Misceláneos](TechDraw_HowTo_Page/es.md): Instrucciones para diferentes configuraciones como marcas centrales, etc.
 -   [Crear un círculo de cabeceo](TechDraw_Pitch_Circle/es.md): instrucciones para añadir un círculo de cabeceo
+
+
+</div>
 
 Tutoriales de vídeo de sliptonic
 
@@ -319,7 +331,7 @@ Tutoriales de vídeo de sliptonic
 
 }} 
 
-[Category:Workbenches](Category:Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > TechDraw Workbench/es
+[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > TechDraw Workbench/es

@@ -9,7 +9,7 @@
 
 Instrumentul Point creează un punct în schița curentă, care poate fi utilizată pentru construirea de elemente geometrice. Punctul este mereu un element de construcție și nu poate fi prezentat într-o vizualizarea 3D.
 
-[480px\|Point in the sketcher](IMAGE:Sketcher_Point_fr_01.png.md) 
+_ 
 
 
 <div class="mw-translate-fuzzy">

@@ -163,7 +163,7 @@ Notare che se la macro originale è stata scaricata tramite Addon Manager, nel c
 
 }}
 
-[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md) [Category:Macros](Category:Macros.md)
+_ _ _
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Macro at Startup/it
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Macro at Startup/it

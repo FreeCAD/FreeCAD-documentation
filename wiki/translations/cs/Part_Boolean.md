@@ -12,7 +12,7 @@
 
 is a generic all-in-one boolean tool. It allows you to specify the objects and operation to perform via a single dialog.
 
-For quicker access to these operations, use **<img src=images/Part_Cut.svg style="width:16px"> <img src=images/Part_Fuse.svg style="width:Part Cut](Part_Cut.md)**, **[16px"> <img src=images/Part_Common.svg style="width:Part Fuse](Part_Fuse.md)**, **[16px"> <img src=images/Part_Section.svg style="width:Part Common](Part_Common.md)** and **[16px"> [Part Section](Part_Section.md)**.
+For quicker access to these operations, use **<img src=images/Part_Cut.svg style="width:16px"> <img src=images/Part_Fuse.svg style="width:Part Cut](Part_Cut.md)**, **_** and **[16px"> [Part Section](Part_Section.md)**.
 
 ![](images/PartBooleansDialog.png )
 

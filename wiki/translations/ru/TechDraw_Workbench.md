@@ -2,7 +2,7 @@
 
 ## Введение
 
-Верстак [TechDraw](TechDraw_Workbench/ru.md) предназначен для построения технических чертежей на основе 3D-моделей созданных с помощью таких верстаков, как: [Part](Part_Workbench/ru.md), [PartDesign](PartDesign_Workbench/ru.md), [Arch](Arch_Workbench.md). 3D модели импортированные из других приложений, так же могут быть применены для построения чертежа. Каждый чертеж представляет собой лист, который может содержать различные виды отображаемых объектов, таких как: Part::Features, PartDesign::Bodies, App::Part groups и группы объектов документа. Полученные листы можно использовать в качестве документации, инструкции по эксплуатации, перечня элементов, спецификации и т. д.
+Верстак _, [PartDesign](PartDesign_Workbench/ru.md), [Arch](Arch_Workbench.md). 3D модели импортированные из других приложений, так же могут быть применены для построения чертежа. Каждый чертеж представляет собой лист, который может содержать различные виды отображаемых объектов, таких как: Part::Features, PartDesign::Bodies, App::Part groups и группы объектов документа. Полученные листы можно использовать в качестве документации, инструкции по эксплуатации, перечня элементов, спецификации и т. д.
 
 В чертеж могут быть добавлены такие элементы как: размеры, сечения 3D Вида, дополнительные заштрихованные области, надписи и примечания, чертежные знаки в формате [SVG](SVG/ru.md). Чертеж так же можно экспортировать в различные форматы, такие как [DXF](DXF/ru.md), [SVG](SVG/ru.md) или [PDF](PDF/ru.md).
 
@@ -19,9 +19,9 @@ TechDraw был официально включен в FreeCAD начиная с
 
 Содержит инструменты для создания объектов Page.
 
--   <img alt="" src=images/TechDraw_PageDefault.svg  style="width:32px;"> [Вставить страницу по умолчанию](TechDraw_PageDefault/ru.md): добавляет новую страницу используя [шаблон](TechDraw_Templates/ru.md) по умолчанию.
+-   <img alt="" src=images/TechDraw_PageDefault.svg  style="width:32px;"> _ по умолчанию.
 
--   <img alt="" src=images/TechDraw_PageTemplate.svg  style="width:32px;"> [Вставить страницу используя шаблон](TechDraw_PageTemplate/ru.md): добавляет новую страницу, используя выбранный [шаблон](TechDraw_Templates/ru.md).
+-   <img alt="" src=images/TechDraw_PageTemplate.svg  style="width:32px;"> _.
 
 -   <img alt="" src=images/TechDraw_RedrawPage.svg  style="width:32px;"> [Перерисовать страницу](TechDraw_RedrawPage/ru.md): принудительно обновляет выбранные листы. {{Version/ru|0.19}}
 
@@ -39,11 +39,11 @@ TechDraw был официально включен в FreeCAD начиная с
 
 -   <img alt="" src=images/TechDraw_DetailView.svg  style="width:32px;"> [Вставить подробный Вид](TechDraw_DetailView/ru.md): добавляет подробный вид части существующего вида.
 
--   <img alt="" src=images/TechDraw_DraftView.svg  style="width:32px;"> [Вставить Вид верстака Draft](TechDraw_DraftView/ru.md): добавляет Вид объекта из верстака [Draft](Draft_Workbench/ru.md).
+-   <img alt="" src=images/TechDraw_DraftView.svg  style="width:32px;"> _.
 
--   <img alt="" src=images/TechDraw_ArchView.svg  style="width:32px;"> [Вставить Вид верстака Arch](TechDraw_ArchView/ru.md): добавляет Вид объекта из верстака [Arch](Arch_Workbench/ru.md) или вид [Секущей Плоскости](Arch_SectionPlane/ru.md).
+-   <img alt="" src=images/TechDraw_ArchView.svg  style="width:32px;"> _ или вид [Секущей Плоскости](Arch_SectionPlane/ru.md).
 
--   <img alt="" src=images/TechDraw_SpreadsheetView.svg  style="width:32px;"> [Вставить электронную таблицу](TechDraw_SpreadsheetView/ru.md): добавляет таблицу из верстака [Spreadsheet](Spreadsheet_Workbench/ru.md).
+-   <img alt="" src=images/TechDraw_SpreadsheetView.svg  style="width:32px;"> _.
 
 ## Группа Видов 
 
@@ -85,6 +85,85 @@ TechDraw был официально включен в FreeCAD начиная с
 
 -   <img alt="" src=images/TechDraw_LandmarkDimension.svg  style="width:32px;"> [Вставить размер знака](TechDraw_LandmarkDimension/ru.md): добавляет размер указывающий расстояние до landmark. {{Version/ru|0.19}}
 
+
+<div class="mw-translate-fuzzy">
+
+## Пакет расширений 
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+Пакет расширений содержит в себе множество полезных инструментов для улучшения ваших TechDraw чертежей.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+
+**Некоторые из этих инструментов еще не опубликованы.**
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/TechDraw_ExtensionCircleCenterLines.svg  style="width:32px;"> [Добавить осевые линии к окружностям](TechDraw_ExtensionCircleCenterLines/ru.md): добавляет осевые линии к окружностям и дугам. {{Version/ru|0.20}}
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/TechDraw_ExtensionThreadHoleSide.svg  style="width:32px;"> [Обозначить внутреннюю резьбу, для вида сбоку](TechDraw_ExtensionThreadHoleSide/ru.md): добавляет внутреннюю резьбу к отверстию с видом сбоку. {{Version/ru|0.20}}
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/TechDraw_ExtensionThreadBoltSide.svg  style="width:32px;"> [Обозначить наружную резьбу, для вида сбоку](TechDraw_ExtensionThreadBoltSide/ru.md): добавляет наружную резьбу к отверстию с видом сбоку. {{Version/ru|0.20}}
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/TechDraw_ExtensionThreadHoleBottom.svg  style="width:32px;"> [Обозначить внутреннюю резьбу, для вида снизу](TechDraw_ExtensionThreadHoleBottom/ru.md): добавляет внутреннюю резьбу к отверстию с видом снизу. {{Version/ru|0.20}}
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/TechDraw_ExtensionThreadBoltBottom.svg  style="width:32px;"> [Обозначить наружную резьбу, для вида снизу](TechDraw_ExtensionThreadBoltBottom/ru.md): добавляет наружную резьбу к отверстию с видом снизу. {{Version/ru|0.20}}
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+## Импорт/Экспорт
+
+
+</div>
+
+Содержит инструменты для экспорта страниц в другие приложения.
+
+-   <img alt="" src=images/TechDraw_ExportPageSVG.svg  style="width:32px;"> _ файл.
+
+-   <img alt="" src=images/TechDraw_ExportPageDXF.svg  style="width:32px;"> _ файл.
+
 ## Доработка
 
 Содержит инструменты для добавления недостающих элементов в чертеж или Вид:
@@ -93,9 +172,9 @@ TechDraw был официально включен в FreeCAD начиная с
 
 -   <img alt="" src=images/TechDraw_GeometricHatch.svg  style="width:32px;"> [Применить геометрическую штриховку к грани](TechDraw_GeometricHatch/ru.md): Применяет шаблон штриховки к участку, используя спецификацию Autodesk PAT.
 
--   <img alt="" src=images/TechDraw_Symbol.svg  style="width:32px;"> [Вставить SVG Символ](TechDraw_Symbol/ru.md): Вставляет на страницу Символ из [SVG](SVG/ru.md) файла.
+-   <img alt="" src=images/TechDraw_Symbol.svg  style="width:32px;"> _ файла.
 
--   <img alt="" src=images/TechDraw_Image.svg  style="width:32px;"> [Вставить растровое изображение](TechDraw_Image/ru.md): вставляет на страницу рисунок в формате [bitmap](bitmap/ru.md) PNG или JPG.
+-   <img alt="" src=images/TechDraw_Image.svg  style="width:32px;"> _ PNG или JPG.
 
 -   <img alt="" src=images/TechDraw_ToggleFrame.svg  style="width:32px;"> [Вкл/выкл отображение рамки](TechDraw_ToggleFrame/ru.md): включает и выключает рамки и метки, окружающие Вид.
 
@@ -131,31 +210,6 @@ TechDraw был официально включен в FreeCAD начиная с
 
 -   <img alt="" src=images/TechDraw_WeldSymbol.svg  style="width:32px;"> [Добавить информацию о сварке в линию-выноску](TechDraw_WeldSymbol/ru.md): добавляет символы сварки и другие параметры к существующей Линии-выноске. <small>(v0.19)</small> 
 
-## Пакет расширений 
-
-Пакет расширений содержит в себе множество полезных инструментов для улучшения ваших TechDraw чертежей.
-
-
-**Некоторые из этих инструментов еще не опубликованы.**
-
--   <img alt="" src=images/TechDraw_ExtensionCircleCenterLines.svg  style="width:32px;"> [Добавить осевые линии к окружностям](TechDraw_ExtensionCircleCenterLines/ru.md): добавляет осевые линии к окружностям и дугам. {{Version/ru|0.20}}
-
--   <img alt="" src=images/TechDraw_ExtensionThreadHoleSide.svg  style="width:32px;"> [Обозначить внутреннюю резьбу, для вида сбоку](TechDraw_ExtensionThreadHoleSide/ru.md): добавляет внутреннюю резьбу к отверстию с видом сбоку. {{Version/ru|0.20}}
-
--   <img alt="" src=images/TechDraw_ExtensionThreadHoleBottom.svg  style="width:32px;"> [Обозначить внутреннюю резьбу, для вида снизу](TechDraw_ExtensionThreadHoleBottom/ru.md): добавляет внутреннюю резьбу к отверстию с видом снизу. {{Version/ru|0.20}}
-
--   <img alt="" src=images/TechDraw_ExtensionThreadBoltSide.svg  style="width:32px;"> [Обозначить наружную резьбу, для вида сбоку](TechDraw_ExtensionThreadBoltSide/ru.md): добавляет наружную резьбу к отверстию с видом сбоку. {{Version/ru|0.20}}
-
--   <img alt="" src=images/TechDraw_ExtensionThreadBoltBottom.svg  style="width:32px;"> [Обозначить наружную резьбу, для вида снизу](TechDraw_ExtensionThreadBoltBottom/ru.md): добавляет наружную резьбу к отверстию с видом снизу. {{Version/ru|0.20}}
-
-## Импорт/Экспорт
-
-Содержит инструменты для экспорта страниц в другие приложения.
-
--   <img alt="" src=images/TechDraw_ExportPageSVG.svg  style="width:32px;"> [Экспорт страницы в SVG](TechDraw_ExportPageSVG/ru.md): Экспорт страницы в [SVG](SVG/ru.md) файл.
-
--   <img alt="" src=images/TechDraw_ExportPageDXF.svg  style="width:32px;"> [Экспорт страницы в DXF](TechDraw_ExportPageDXF/ru.md): Экспорт страницы в [DXF](DXF/ru.md) файл.
-
 ## Дополнительные возможности 
 
 -   [Группы Линий](TechDraw_LineGroup/ru.md): позволяет назначить толщину различным типам линий по умолчанию.
@@ -183,11 +237,17 @@ TechDraw был официально включен в FreeCAD начиная с
 
 ## Руководства
 
+
+<div class="mw-translate-fuzzy">
+
 -   [TechDraw руководство для начинающих](Basic_TechDraw_Tutorial/ru.md): введение в создание чертежей с помощью Верстака TechDraw.
 -   [Создание нового шаблона](TechDraw_TemplateHowTo/ru.md): инструкции по созданию нового шаблона страницы в Inkscape для использования с Верстака TechDraw.
 -   [Measurement Of Angles On Holes](Measurement_Of_Angles_On_Holes/ru.md): инструкция по добавлению осевых линий и последующих угловых представлений на отверстиях.
 -   [Разнообразная информация](TechDraw_HowTo_Page/ru.md): инструкции по различным настройкам, таким как обозначение центральных осей и т. п.
 -   [Создание окружностей с заданным шагом](TechDraw_pitch_circle_tutorial/ru.md): инструкция по созданию окружностей по траектории с шагом.
+
+
+</div>
 
 Видео уроки by sliptonic
 
@@ -202,7 +262,7 @@ TechDraw был официально включен в FreeCAD начиная с
 
 }} 
 
-[Category:Workbenches](Category:Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > TechDraw Workbench/ru
+[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > TechDraw Workbench/ru

@@ -444,8 +444,8 @@ There are many ways to create an assembly with Assembly3. Here is the most simpl
 -   Change to <img alt="" src=images/Assembly3_workbench_icon.svg  style="width:16px;"> [Assembly3](Assembly3_Workbench.md) workbench
 -   Select **<img src="images/Assembly_New_Assembly.svg‎‎" width=16px> [Create assembly](Assembly3_CreateAssembly.md)
 **
--   Change to <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> [Part](Part_Workbench.md) workbench and add a <img alt="" src=images/Part_Cylinder.svg  style="width:16px;"> [Cylinder](Part_Cylinder.md) and a <img alt="" src=images/Part_Box.svg  style="width:16px;"> [Cube](Part_Box.md)
--   <img alt="" src=images/Std_Save.svg  style="width:16px;"> [Save](Std_Save.md) the file with any filename you like. <img alt="" src=images/Std_CloseActiveWindow.svg  style="width:16px;"> [Close](Std_CloseActiveWindow.md) and <img alt="" src=images/Std_Open.svg  style="width:16px;"> [Open\...](Std_Open.md) the file again
+-   Change to <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> _ and a <img alt="" src=images/Part_Box.svg  style="width:16px;"> [Cube](Part_Box.md)
+-   <img alt="" src=images/Std_Save.svg  style="width:16px;"> _ and <img alt="" src=images/Std_Open.svg  style="width:16px;"> [Open\...](Std_Open.md) the file again
 
 The tree view should look like this (0.20.pre and Link Branch):
 
@@ -484,7 +484,7 @@ If you like you can move the **Locked** constraint upwards in the tree. Use the 
 **Note:** all new external files must be **saved**, **closed** and re-**opend** at least once, so that Assembly3 can find it.
 
 :   Without doing that FreeCAD can not give a file handle to the Assembly3 Workbench and it can not find the new part.
-:   When all parts are in the same file, you should **save** and re-**open** the file.
+:   When all parts are in the same file, you should **save**, **close** and re-**open** this file, too.
 
 [top](#top.md)
 
@@ -588,7 +588,7 @@ One way to solve this is to just delete all invalid constraints and elements, im
 
 
 
-[Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+_ _
 
 ---
-[documentation index](../README.md) > Assembly3 Workbench/pl
+[documentation index](../README.md) > [Addons](Category_Addons.md) > Assembly3 Workbench/pl

@@ -5,7 +5,7 @@
    MenuLocation:Szkicownik → Wiązania szkicownika → Wiązanie kąta
    Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
    Shortcut:**A**
-   SeeAlso:[Szkicownik: Wiązanie odległości](Sketcher_ConstrainDistance/pl.md), [Szkicownik: Wiązanie prostopadłości](Sketcher_ConstrainPerpendicular/pl.md)
+   SeeAlso:_
 ---
 
 # Sketcher ConstrainAngle/pl

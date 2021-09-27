@@ -7,8 +7,8 @@
 |Version=0.14c
 |Date=2021/01/16
 |FCVersion=0.18 et ultérieur
-|Download=[https://www.freecadweb.org/wiki/images/9/90/FCTexture.png ToolBar Icon], [https://www.freecadweb.org/wiki/Macro_Loft Macro Loft] [16px|FCCreaLoft](File:FCCreaLoft.png.md)
-|SeeAlso=[32px|FCCreaLoft](File:FCCreaLoft.png.md) [Macro Loft](Macro_Loft/fr.md)
+|Download=_
+|SeeAlso=_ [Macro Loft](Macro_Loft/fr.md)
 }}
 
 ## Description
@@ -312,7 +312,7 @@ Image:Texture\_003\_napperon.png\|Une portion d\'une nappe de table. Image:Textu
 [File:FCTexture\_Example.gif\|Procédure](File:FCTexture_Example.gif%7CProcédure) pour créer un solide:
 **1:** Créer les lofts avec l\'outil <img alt="" src=images/Part_RuledSurface.svg  style="width:24px;">ou avec la <img alt="FCCreaLoft" src=images/FCCreaLoft.png  style="width:32px;"> [Macro Loft](Macro_Loft/fr.md)
 **2:** Sélectionnez l\'ensemble et faites une opération d\'extrusion avec l\'outil <img alt="" src=images/Part_Extrude.svg  style="width:24px;">
-**3A:** Pour Linux téléchargez [GMSHMesh](https://github.com/psicofil/Macros_FreeCAD) (auteur psicofil) [Macro GMSH Wiki page](Macro_GMSH.md)
+**3A:** Pour Linux téléchargez _
 **3B:** Pour Windows téléchargez [GmshMesh2.zip](http://forum.freecadweb.org/download/file.php?id=15220) dézippez le fichier et installez le dans votre répertoire Mod (author ulrich1a)
 **4:** Créez votre objet Mesh et utilisez le.
 

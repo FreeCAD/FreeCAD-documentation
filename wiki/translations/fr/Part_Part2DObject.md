@@ -3,7 +3,7 @@
 
 <img alt="" src=images/Tree_Part2D.svg  style="width:32px;">
 
-Un objet [Part Part2DObject](Part_Part2DObject/fr.md) ou formellement un `Part::Part2DObject`, est un élément simple associé à une [une forme topologique](Part_TopoShape/fr.md) qui peut être affiché dans la [Vue 3D](3D_view/fr.md).
+Un objet _ qui peut être affiché dans la [Vue 3D](3D_view/fr.md).
 
 Le `Part::Part2DObject` est dérivé d\'un [Part Feature](Part_Feature/fr.md) mais est spécialisé pour la géométrie 2D, étant donné que sa forme reposera sur un plan. Ce plan est défini par sa propriété **Placement** (position, normale et rotation). Cependant, le plan peut également être défini en prenant en charge des éléments géométriques, tel que le plan créé par trois sommets arbitraires ou une face d\'un corps solide.
 
@@ -27,7 +27,7 @@ Des ateliers peuvent ajouter plus de propriétés à cet élément de base pour 
 
 Voir [Propriétés](Property/fr.md) pour tous les types de propriétés que les objets scriptés peuvent avoir.
 
-Un [Part Part2DObject](Part_Part2DObject/fr.md) (de classe `Part::Part2DObject`) est dérivé d\'un [Part Feature](Part_Feature/fr.md) (de classe `Part::Feature`) de fait, il partage toutes les propriétés de cette dernière.
+Un _ (de classe `Part::Feature`) de fait, il partage toutes les propriétés de cette dernière.
 
 Outre les propriétés décrites dans [Part Feature](Part_Feature/fr.md), le corps de PartDesign a les propriétés suivantes dans l\'[éditeur de propriétés](property_editor/fr.md). Les propriétés masquées peuvent être affichées en utilisant la commande **Show all** dans le menu contextuel de l\'[éditeur de propriétés](property_editor/fr.md).
 

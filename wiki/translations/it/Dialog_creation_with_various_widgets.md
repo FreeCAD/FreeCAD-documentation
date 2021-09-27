@@ -398,7 +398,7 @@ The code page and the icons [Qt\_Example](Qt_Example.md)
 
 }} 
 
-[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Dialog creation with various widgets/it
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Dialog creation with various widgets/it

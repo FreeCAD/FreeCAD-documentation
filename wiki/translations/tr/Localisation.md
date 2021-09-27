@@ -13,12 +13,12 @@
 
 <div class="mw-translate-fuzzy">
 
-**Yerelleştirme** genel olarak bir Yazılımın çok dilli bir kullanıcı arayüzüne sahip olma sürecidir. FreeCAD\'de kullanıcı arayüzünün dilini *Düzenle → Seçenekler → Uygulama* altında ayarlayabilirsiniz. FreeCAD çoklu dil desteğini etkinleştirmek için [Qt](wikipedia:Qt(toolkit).md) kullanır. Unix / Linux sistemlerinde, FreeCAD sisteminizin mevcut yerel ayarlarını varsayılan olarak kullanır.
+**Yerelleştirme** genel olarak bir Yazılımın çok dilli bir kullanıcı arayüzüne sahip olma sürecidir. FreeCAD\'de kullanıcı arayüzünün dilini *Düzenle → Seçenekler → Uygulama* altında ayarlayabilirsiniz. FreeCAD çoklu dil desteğini etkinleştirmek için _ kullanır. Unix / Linux sistemlerinde, FreeCAD sisteminizin mevcut yerel ayarlarını varsayılan olarak kullanır.
 
 
 </div>
 
-**Localisation** is in general the process of providing a Software with a multiple language user interface. In FreeCAD you can set the language of the user interface under **Edit → Preferences → General**. FreeCAD uses [Qt](wikipedia:Qt_(toolkit).md) to enable multiple language support. On Unix/Linux systems, FreeCAD uses the current locale settings of your system by default.
+**Localisation** is in general the process of providing a Software with a multiple language user interface. In FreeCAD you can set the language of the user interface under **Edit → Preferences → General**. FreeCAD uses _ to enable multiple language support. On Unix/Linux systems, FreeCAD uses the current locale settings of your system by default.
 
 ## FreeCAD\'i çevirme de yardım 
 
@@ -109,7 +109,7 @@ Ayrıca, wiki işaretlemesi hakkında yeterli bilgiye sahip olmalı ve [WikiPage
 
 ### Mediawiki Çeviri Uzantısı 
 
-Wiki SourceForge\'dan uzaklaştığında, [Yorik](User:Yorik.md), sayfaların çevrilmesini kolaylaştıran [MediaWiki\'nin Çeviri eklentisini](http://www.mediawiki.org/wiki/Help:Extension:Translate) kurdu. Çeviri uzantısının avantajları, sayfa başlığının artık çevrilebilmesi, çevirilerin kaydını tutması, orijinal sayfanın güncellendiğini bildirmesi ve çevirileri orijinal İngilizce sayfasıyla senkronize olarak tutmasıdır.
+Wiki SourceForge\'dan uzaklaştığında, _, sayfaların çevrilmesini kolaylaştıran [MediaWiki\'nin Çeviri eklentisini](http://www.mediawiki.org/wiki/Help:Extension:Translate) kurdu. Çeviri uzantısının avantajları, sayfa başlığının artık çevrilebilmesi, çevirilerin kaydını tutması, orijinal sayfanın güncellendiğini bildirmesi ve çevirileri orijinal İngilizce sayfasıyla senkronize olarak tutmasıdır.
 
 Bu araç [Help: Extension: Translate](http://www.mediawiki.org/wiki/Help:Extension:Translate) bölümünde belgelenmiştir ve [MediaWiki Dilinin Uzatma Paketi](http://www.mediawiki.org/wiki/MediaWiki_Language_Extension_Bundle)nin bir parçasıdır.
 
@@ -194,8 +194,8 @@ As per general consensus, the reference page in the wiki is the English page, wh
 | And if you are unsure, head to the forums and ask people to check what you did and tell you if it\'s right or not.                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | Four templates are commonly used in manual pages. These 4 templates have localized versions (Template:Docnav/fr, Template:fr, etc\...)                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| -   [Template:GuiCommand](Template:GuiCommand.md) : is the Gui Command information block in upper-right of command documentation.                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| -   [Template:Docnav](Template:Docnav.md) : it is the navigation bar at the bottom of the pages, showing previous and next pages.                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| -   _ : is the Gui Command information block in upper-right of command documentation.                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| -   _ : it is the navigation bar at the bottom of the pages, showing previous and next pages.                                                                                                                                                                                                                                                                                                                                                                                                                                |
 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | \'\'\' Page Naming Convention \'\'\'                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 | Please take note that, due to limitations in the Sourceforge implementation of the MediaWiki engine, we require that your pages all keep their original English counterpart\'s name, appending a slash and your language code. For example, the translated page for About FreeCAD should be About Freecad/es for Spanish, About FreeCAD/pl for polish, etc. The reason is simple: so that if translators go away, the wiki\'s administrators, who do not speak all languages, will know what these pages are for. This will facilitate maintenance and avoid lost pages. |
@@ -413,7 +413,7 @@ FreeCADGui.setLocale('ru')
 
 
 
-[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Wiki](Category:Wiki.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Localisation/tr
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Localisation/tr

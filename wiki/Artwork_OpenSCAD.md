@@ -11,7 +11,7 @@ For all icons in the source tree, see [Artwork](Artwork.md).
 
  
 
-[Category:OpenSCAD](Category:OpenSCAD.md)
+_
 
 ---
-[documentation index](../README.md) > [OpenSCAD](Category:OpenSCAD.md) > Artwork OpenSCAD
+[documentation index](../README.md) > [OpenSCAD](Category_OpenSCAD.md) > Artwork OpenSCAD

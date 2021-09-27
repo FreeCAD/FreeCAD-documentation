@@ -11,19 +11,19 @@ História
 
 ### How it all started 
 
-FreeCAD began in January 2001 when [Jürgen Riegel](User:Jriegel.md) started working on the Cas.CADE project. Cas.CADE was a commercial software development framework that included a [geometric modeling kernel](Glossary#Geometric_modeling_kernel.md) (or CAD kernel): it was released under an open source license in 2000 and renamed [OpenCASCADE](OpenCASCADE.md). This made the realization of an open source 3D CAD program possible, as having to program a CAD kernel from scratch would have required a huge amount of work.
+FreeCAD began in January 2001 when _ started working on the Cas.CADE project. Cas.CADE was a commercial software development framework that included a _. This made the realization of an open source 3D CAD program possible, as having to program a CAD kernel from scratch would have required a huge amount of work.
 
 In Jürgen\'s own words:
 
 
 {{Quote|text=''The FreeCAD project was started by me in January 2001, as a so called GOM (Graphical Object Modeler), with the idea to use Qt, Python and Cas.CADE, an commercial CAD-Kernel that time I used in Daimler's projects. Cas.CADE gone open source shortly before, so the time seemed right to try a move in the, at that time, empty space of open source CAD. I had a two year experience with OpenCascade in a project called QSpect in which, at the end, I was the main software designer. I learned a lot about 3D and CAD programming. I also was influenced by Catia V5 and its very special user and programming interface… In March 17 2002, within the OpenCascade Project, I registered the software as FreeCAD. I couldn't think of a better name, I'm very bad on names… In April 2003, Werner Meyer, one of the colleges in the QSpect project, switched to a company called Imetric. The contact to Imetric resulted very promising since they searched for a new 3D software platform for their 3D sensors. In 2005, Imetric donated most of its Mesh Module to FreeCAD and the Open Source community, and since then they used FreeCAD as basis for their sensor system software. Since that time, Werner Meyer is a very active developer of FreeCAD. In 2005, after one year of struggle, I decided to rip of the OpenCascade document framework and replace it with an own implementation. So, at the end, we only use the CAD kernel of OpenCascade and not the rest of its Framework. 2007 was another interesting milestone. We switched to QT4 and, therefore, to the LGPL. At that time we did much work, mainly Werner''.
-|sign=[Jürgen Riegel](User:Jriegel.md)|source=''[http://forum.freecadweb.org/viewtopic.php?f=8&t=295 Who is behind FreeCad?]''}}
+|sign=_|source=''[http://forum.freecadweb.org/viewtopic.php?f=8&t=295 Who is behind FreeCad?]''}}
 
 The project was announced to the general public on the [OpenCascade Forum](https://dev.opencascade.org/forums) in 2003:
 
 
 {{Quote|text=''Hi together, my name is Juergen Riegel and today I want announce an OpenCasCade project, FreeCAD. It is an Open Source CAx RAD based on OpenCasCade, QT and Python. It features some key concepts like Macro Recording, Workbenches, ability to run as a server and as a dynamically loadable applications' extension, and it is designed to be platform independent… Although it is in an early stage and not usable for users nor developers—the first user release is planned for the end of 2003—, I would like to get some feedback on the direction and design of FreeCAD. The GUI is nearly finished and now we, my co-developer Werner Mayer and me, have started adding the first CAD functions. FreeCAD can be seen as a general purpose mechanical CAD system, but its first audience, I think, will be CAx developers which need groundwork for own development''.
-|sign=[Jürgen Riegel](User:Jriegel.md)|source=''[https://dev.opencascade.org/content/announcing-freecad-project Announcing FreeCAD Project on Sun, 08/17/2003 - 19:23]''}}
+|sign=_|source=''[https://dev.opencascade.org/content/announcing-freecad-project Announcing FreeCAD Project on Sun, 08/17/2003 - 19:23]''}}
 
 ### Werner Mayer 
 
@@ -64,7 +64,7 @@ Over time the project gained traction and saw the addition of new key contributo
 
 ### Yorik joins the project 
 
-[Yorik van Havre](User:Yorik.md) joined the project in 2008 and started work on the [Draft Module](Draft_Workbench.md). Before that point, there was no way to create 2D geometry through the [GUI](Glossary#GUI.md). This module was programmed entirely in Python rather than in C++ (the core programming language used in FreeCAD). The new Draft workbench proved that Python integration was a success and could be used to extend or customize FreeCAD\'s capabilities. In addition to his work on the Draft module, Yorik worked on expanding the FreeCAD documentation, and became FreeCAD\'s *de facto* \"Art director\", creating many icons for FreeCAD\'s GUI and [defining its style](Artwork.md).
+_ joined the project in 2008 and started work on the [Draft Module](Draft_Workbench.md). Before that point, there was no way to create 2D geometry through the [GUI](Glossary#GUI.md). This module was programmed entirely in Python rather than in C++ (the core programming language used in FreeCAD). The new Draft workbench proved that Python integration was a success and could be used to extend or customize FreeCAD\'s capabilities. In addition to his work on the Draft module, Yorik worked on expanding the FreeCAD documentation, and became FreeCAD\'s *de facto* \"Art director\", creating many icons for FreeCAD\'s GUI and [defining its style](Artwork.md).
 
 Version 0.7 of FreeCAD released in April 2009 was the first to include the Draft module. The Part module provided a simple [CSG](Glossary#Constructive_Solid_Geometry.md) workflow with creation of primitive shapes and boolean operations accessible through the Part menu. Extrusion of 2D profiles and filleting was also possible.
 
@@ -143,7 +143,7 @@ In April 2019 the team of core developers was expanded: Jürgen, Werner and Yori
 -   [SourceForge Old Files section](http://sourceforge.net/projects/free-cad/files/OldFiles/)
 -   [Announcing FreeCAD Project](http://www.opencascade.org/org/forum/thread_6572/?forum=11) on the OpenCascade forum
 
-[Category:News](Category:News.md)
+_
 
 ---
-[documentation index](../README.md) > [News](Category:News.md) > History/pt
+[documentation index](../README.md) > [News](Category_News.md) > History/pt

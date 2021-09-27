@@ -18,7 +18,7 @@ Pour toutes les icônes de l\'arborescence source, voir [Graphisme](Artwork/fr.m
 
 }} 
 
-[Category:Arch](Category:Arch.md)
+_
 
 ---
-[documentation index](../README.md) > [Arch](Category:Arch.md) > Artwork Arch/fr
+[documentation index](../README.md) > [Arch](Category_Arch.md) > Artwork Arch/fr

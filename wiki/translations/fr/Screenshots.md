@@ -201,7 +201,7 @@ FreeCAD s\'exécutant en mode console (sans interface graphique)
 
 La boîte de dialogue pour sauvegarder une image avec des dimensions personnalisées.
 
-[Category:User Documentation/fr](Category:User_Documentation/fr.md) [Category:Screenshots/fr](Category:Screenshots/fr.md)
+_ _
 
 ---
 [documentation index](../README.md) > Screenshots/fr

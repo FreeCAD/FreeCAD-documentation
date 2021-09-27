@@ -6,7 +6,7 @@
 |Topic= 
 |Level= 
 |Time= 
-|Author=[M42kus](User:M42kus.md)
+|Author=_
 |FCVersion=
 |Files=
 }}
@@ -148,7 +148,7 @@ Agregar nuevas restricciones es bastante sencillo. Para los recién llegados hay
 
 </div>
 
-[Category:FEM](Category:FEM.md)
+_
 
 ---
-[documentation index](../README.md) > [FEM](Category:FEM.md) > Extend FEM Module/es
+[documentation index](../README.md) > [FEM](Category_FEM.md) > Extend FEM Module/es

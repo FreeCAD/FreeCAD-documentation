@@ -23,7 +23,7 @@ est utilisé pour créer une surface à partir d\'arêtes qui représentent des 
 
 ## Utilisation
 
-1.  Assurez-vous d\'avoir au moins deux arêtes ou courbes dans l\'espace. Par exemple, ceux-ci peuvent être créés avec des outils de l\'<img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [atelier Draft](Draft_Workbench/fr.md) ou de l\'<img alt="" src=images/_Workbench_Sketcher.svg  style="width:24px;"> [atelier Sketcher](Sketcher_Workbench.md).
+1.  Assurez-vous d\'avoir au moins deux arêtes ou courbes dans l\'espace. Par exemple, ceux-ci peuvent être créés avec des outils de l\'<img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> _.
 2.  Appuyez sur le bouton **<img src=images/_Surface_Sections.svg style="width:16px"> [Surface sections](Surface_Sections/fr.md)**.
 3.  Appuyez sur **Add edge**.
 4.  Utilisez le pointeur pour sélectionner les arêtes souhaitées dans la [Vue 3D](3D_view/fr.md). Un aperçu de la forme finale sera affiché après avoir sélectionné deux arêtes valides.
@@ -31,7 +31,7 @@ est utilisé pour créer une surface à partir d\'arêtes qui représentent des 
 
 ## Options
 
--    **Add edge**: appuyez une fois pour commencer à choisir les arêtes dans la <img src=images/Draft_BSpline.svg style="width:Vue 3D](3D_view/fr.md). Les lignes individuelles telles que les **[16px"> <img src=images/Sketcher_CreateBSpline.svg style="width:Draft BSplines](Draft_BSpline/fr.md)** et les **[16px"> <img src=images/PartDesign_Body.svg style="width:Sketcher BSplines](Sketcher_CreateBSpline/fr.md)** peuvent être choisies ainsi que n\'importe quelle arête des objets solides, comme celles de **[16px"> <img src=images/Part_Primitives.svg style="width:PartDesign Corps](PartDesign_Body/fr.md)** et de **[16px"> [Part Primitives](Part_Primitives/fr.md)**.
+-    **Add edge**: appuyez une fois pour commencer à choisir les arêtes dans la <img src=images/Draft_BSpline.svg style="width:Vue 3D](3D_view/fr.md). Les lignes individuelles telles que les **_** peuvent être choisies ainsi que n\'importe quelle arête des objets solides, comme celles de **[16px"> <img src=images/Part_Primitives.svg style="width:PartDesign Corps](PartDesign_Body/fr.md)** et de **[16px"> [Part Primitives](Part_Primitives/fr.md)**.
 
 -    **Remove edge**: appuyez une fois pour commencer à choisir les arêtes dans la [Vue 3D](3D_view/fr.md). Celles-ci doivent être des arêtes précédemment sélectionnées avec **Add edge**.
 
@@ -43,7 +43,7 @@ est utilisé pour créer une surface à partir d\'arêtes qui représentent des 
 
 ## Propriétés
 
-[Surface Sections](Surface_Sections/fr.md) (classe `Surface::Sections`) sont dérivées de la classe de base [Part Feature](Part_Feature/fr.md) (classe `Part::Feature` via la sous-classe `Part::Spline`). Elles partagent donc toutes les propriétés de cette dernière.
+_ (classe `Part::Feature` via la sous-classe `Part::Spline`). Elles partagent donc toutes les propriétés de cette dernière.
 
 Outre les propriétés décrites dans [Part Feature](Part_Feature/fr.md), Surface Section a les propriétés suivantes dans l\'[éditeur de propriétés](property_editor/fr.md).
 

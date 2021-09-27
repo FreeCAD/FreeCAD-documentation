@@ -11,7 +11,7 @@ For all icons in the source tree, see [Artwork](Artwork.md).
 
  
 
-[Category:Path](Category:Path.md)
+_
 
 ---
-[documentation index](../README.md) > [Path](Category:Path.md) > Artwork Path
+[documentation index](../README.md) > [Path](Category_Path.md) > Artwork Path

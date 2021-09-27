@@ -1,7 +1,7 @@
 # Main Page/uk
 <div class="mw-translate-fuzzy">
 
-Це документація Вікі [FreeCAD](http://www.freecadweb.org). Інформація, що міститься тут те, що формує автономну документацію яка постачається безпосердньо з FreeCAD. У вас є два основних способи, щоб переглядати документацію: досліджувати досвід користувачів, або, слідувати посібнику. Це не скінчений документ. Ця документація створюється спільнотою користувачів і розробників FreeCAD. Якщо Ви виявите невірну або відсутню інформацію, будь ласка, [ Допомога Допоможіть FreeCAD ](Help_FreeCAD/uk.md)!
+Це документація Вікі _!
 
 
 </div>
@@ -20,7 +20,7 @@
 Нижче наведені три основних точки входу в документації, для трьох загальних категорій користувачів FreeCAD:
 
 +------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| -   <img alt="" src=images/Crystal_Clear_app_display.png  style="width:22px;"> [Досвід користувачів](User_hub.md): Для звичайних користувачів, пояснює, як встановити та використовувати програму FreeCAD і зміст різних автоматизованих робочих місць (workbench) | \* <img alt="" src=images/Crystal_Clear_app_terminal.png  style="width:22px;"> [Центр досвідчених користувачів](Power_users_hub.md): Для просунутих користувачів, пояснює, як використовувати макроси і python сценарії для вдосконалення вашого робочого процесу | -   <img alt="" src=images/Crystal_Clear_app_tutorials.png  style="width:22px;"> [Центр розробників](Developer_hub.md): Для розробників, пояснює як написати програмний код для |
+| -   <img alt="" src=images/Crystal_Clear_app_display.png  style="width:22px;"> _: Для просунутих користувачів, пояснює, як використовувати макроси і python сценарії для вдосконалення вашого робочого процесу | -   <img alt="" src=images/Crystal_Clear_app_tutorials.png  style="width:22px;"> [Центр розробників](Developer_hub.md): Для розробників, пояснює як написати програмний код для |
 |                                                                                                                                                                                                                                                                                    |                                                                                                                                                                                                                                                                                    |                                                                                                                                                                                                   |
 |                                                                                                                                                                                                                                                                                    |                                                                                                                                                                                                                                                                                    | пояснює, як писати код для застосування FreeCAD, розширювати його або використовувати його в своїх власних додатках                                                                               |
 +------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -30,7 +30,7 @@
 
 ## Посібник
 
-<img alt="Crystal_Clear_manual.png" src=images/Crystal_Clear_manual.png  style="width:64px;"> [The FreeCAD manual](Manual:Introduction.md)  is another, more linear way to present the information contained in this wiki. It is designed to be read like a book, and will gently introduce you to many other pages from the hubs above. [ebook versions](https://www.gitbook.com/book/yorikvanhavre/a-freecad-manual/details) are also available, as well as [a couple of translations in pdf format](https://www.freecadweb.org/manual/).
+<img alt="Crystal_Clear_manual.png" src=images/Crystal_Clear_manual.png  style="width:64px;"> _  is another, more linear way to present the information contained in this wiki. It is designed to be read like a book, and will gently introduce you to many other pages from the hubs above. [ebook versions](https://www.gitbook.com/book/yorikvanhavre/a-freecad-manual/details) are also available, as well as [a couple of translations in pdf format](https://www.freecadweb.org/manual/).
 
 
 
@@ -69,7 +69,7 @@
 
 </div>
 
-The [help FreeCAD](Special:MyLanguage/help_FreeCAD.md) page describes it all with more details. Starting from 2016, FreeCAD also participates in the [Google Summer of Code](Google_Summer_of_Code.md). The [Contributors hub](Contributors_hub.md) page is another effort to gather the possible ways to help and contribute to the FreeCAD project.
+The _ page describes it all with more details. Starting from 2016, FreeCAD also participates in the [Google Summer of Code](Google_Summer_of_Code.md). The [Contributors hub](Contributors_hub.md) page is another effort to gather the possible ways to help and contribute to the FreeCAD project.
 
 ### Сирцевий код 
 
@@ -94,7 +94,7 @@ FreeCAD може бути зібрано з використанням CMake. П
 
 
 
-[Category:Documentation](Category:Documentation.md)
+_
 
 ---
-[documentation index](../README.md) > [Documentation](Category:Documentation.md) > Main Page/uk
+[documentation index](../README.md) > [Documentation](Category_Documentation.md) > Main Page/uk

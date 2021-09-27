@@ -5,7 +5,7 @@
 
 FreeCAD uses two different licenses, one for the application itself, and one for the documentation:
 
-**[Lesser General Public Licence, version 2 or superior (LGPL2+)](wikipedia:LGPL.md)** For all of the FreeCAD source code found in the [official Git repository](https://github.com/FreeCAD/FreeCAD)
+**_** For all of the FreeCAD source code found in the [official Git repository](https://github.com/FreeCAD/FreeCAD)
 
 **[Creative Commons Attribution 3.0 License (CC-BY-3.0)](http://creativecommons.org/licenses/by/3.0/)** For the documentation on <https://www.freecadweb.org>
 
@@ -54,7 +54,7 @@ Nevertheless this decision is made only for the core system of FreeCAD. Every wr
 
  
 
-[Category:Developer Documentation](Category:Developer_Documentation.md)
+_
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Licence/tr
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Licence/tr

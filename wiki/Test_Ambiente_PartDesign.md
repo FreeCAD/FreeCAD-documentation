@@ -33,8 +33,8 @@ Un Pad è una protuberanza realizzata estrudendo uno schizzo di base. (questa de
 
 Sono gli strumenti per modificare gli oggetti esistenti.
 
--   <img alt="" src=images/PartDesign_Fillet.svg  style="width:32px;"> [Raccordo](PartDesign_Fillet/it.md): Raccorda (arrotonda) i bordi di un oggetto. Prestare attenzione alle differenze con il [Raccordo dell\'ambiente Parte](Part_Fillet/it.md)
--   <img alt="" src=images/PartDesign_Chamfer.svg  style="width:32px;"> [Smusso](PartDesign_Chamfer/it.md): Smussa i bordi di un oggetto. Non deve essere confuso con lo [smusso di Part](Part_Chamfer/it.md).
+-   <img alt="" src=images/PartDesign_Fillet.svg  style="width:32px;"> _
+-   <img alt="" src=images/PartDesign_Chamfer.svg  style="width:32px;"> _.
 -   <img alt="" src=images/PartDesign_Draft.svg  style="width:32px;"> [Sformo](PartDesign_Draft/it.md): Applica uno sformo angolare alle facce di un oggetto.
 
 #### Gli strumenti di trasformazione 
@@ -53,7 +53,7 @@ Per vedere come creare gli schizzi di base fare riferimento alla pagina dedicata
 
 Torna a [Esercitazioni](Esercitazioni.md) 
 
-[Category:User Documentation/it](Category:User_Documentation/it.md)
+_
 
 ---
 [documentation index](../README.md) > [Test](Test_Workbench.md) > Test Ambiente PartDesign

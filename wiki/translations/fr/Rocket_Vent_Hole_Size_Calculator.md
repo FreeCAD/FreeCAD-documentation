@@ -55,7 +55,7 @@ Les calculs sont effectués en unités métriques, mais s\'affichent dans les un
 
 
 
-[Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Addons](Category:Addons.md) > Rocket Vent Hole Size Calculator/fr
+[documentation index](../README.md) > [Addons](Category_Addons.md) > Rocket Vent Hole Size Calculator/fr

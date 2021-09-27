@@ -119,7 +119,7 @@ Kehrt die Extrusionsrichtung um.
 
 -    {{VersionMinus|0.16}}Es gibt keine automatische Bereinigung, z.B. benachbarter planarer Oberflächen zu einer Einzeloberfläche.
 
-Du kannst dies manuell in der Datei <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> korrigieren. [Part Arbeitsbereich](Part_Workbench.md) mit **<img src="images/Part_RefineShape.svg" width=16px> [Part FormVerfeinern](Part_RefineShape/de.md)** (wodurch ein unverknüpfter, nichtparametrischer Körper erzeugt wird) oder mit der **<img src="images/OpenSCAD_RefineShapeFeature.svg" width=16px>  [OpenSCAD FormVerfeinernFormelement](OpenSCAD_RefineShapeFeature/de.md)** aus der Datei <img alt="" src=images/Workbench_OpenSCAD.svg  style="width:16px;"> [OpenSCAD Arbeitsbereich](OpenSCAD_Modul/de.md), das ein parametrisches Formelement erzeugt.
+Du kannst dies manuell in der Datei <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> korrigieren. _, das ein parametrisches Formelement erzeugt.
 
 
 </div>

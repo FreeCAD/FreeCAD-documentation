@@ -18,7 +18,7 @@
 
 }} 
 
-[Category:Arch](Category:Arch.md)
+_
 
 ---
-[documentation index](../README.md) > [Arch](Category:Arch.md) > Artwork Arch/ru
+[documentation index](../README.md) > [Arch](Category_Arch.md) > Artwork Arch/ru

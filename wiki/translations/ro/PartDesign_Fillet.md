@@ -50,7 +50,7 @@ Acest instrument creează racordări/rotunjiri pe muchiile selectate al unui obi
 
 </div>
 
-<img alt="" src=images/PartDesign_Fillet.svg  style="width:24px;"> [PartDesign Fillet](PartDesign_Fillet.md) is not to be confused with **<img alt="" src=images/Part_Fillet.svg  style="width:24px;"> [Part Fillet](Part_Fillet.md)** of the [Part Workbench](Part_Workbench.md). Although they share the same name, they are not the same, and are not used the same way.
+<img alt="" src=images/PartDesign_Fillet.svg  style="width:24px;"> _** of the [Part Workbench](Part_Workbench.md). Although they share the same name, they are not the same, and are not used the same way.
 
 Here is how they differ from each other:
 
@@ -143,7 +143,7 @@ Read more in [topological naming problem](topological_naming_problem.md).
 
 <div class="mw-translate-fuzzy">
 
-Instrumentul **[16px|text-top=Fillet|link=PartDesign_Fillet](File:PartDesign_Fillet.png.md) [Fillet](_PartDesign_Fillet.md)** poate fi utilizat într-o macrocomandă, și, din consola Pythonutilizând următaorea funcție :
+Instrumentul **_ [Fillet](_PartDesign_Fillet.md)** poate fi utilizat într-o macrocomandă, și, din consola Pythonutilizând următaorea funcție :
 
 
 </div>

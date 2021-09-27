@@ -24,7 +24,7 @@ Auf dieser Seite findest Du weiterführende Informationen über die eingebauten 
 
 }} 
 
-[Category:API](Category:API.md)
+_
 
 ---
-[documentation index](../README.md) > [API](Category:API.md) > Builtin modules/de
+[documentation index](../README.md) > [API](Category_API.md) > Builtin modules/de

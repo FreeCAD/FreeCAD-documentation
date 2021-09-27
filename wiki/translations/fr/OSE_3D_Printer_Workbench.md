@@ -3,7 +3,7 @@ Voir l\'atelier sur le wiki OSE: <https://wiki.opensourceecology.org/wiki/3D_Pri
 
 
 
-[Category:User Documentation](Category:User_Documentation.md) [Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+_ _ _
 
 ---
-[documentation index](../README.md) > OSE 3D Printer Workbench/fr
+[documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > OSE 3D Printer Workbench/fr

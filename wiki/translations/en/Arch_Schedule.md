@@ -17,7 +17,7 @@ The Schedule tool allows you to create and automatically populate a [spreadsheet
 
 : This tool has been rewritten in FreeCAD 0.17 and differs from previous versions.
 
-For a more general solution, see the [Reporting Workbench](https://github.com/furti/FreeCAD-Reporting/tree/master) in the list of [external workbenches](External_workbenches.md). This workbench uses SQL syntax to extract information from the document.
+For a more general solution, see the _. This workbench uses SQL syntax to extract information from the document.
 
 ## Usage
 
@@ -99,4 +99,4 @@ The spreadsheet can then be exported to csv normally, from the Spreadsheet workb
 It is possible to add your own properties to objects. These are called [Dynamic properties](Property_editor#Actions.md). If they have been added with the **Prefix group name** option selected, their names will indeed start with the group name, but this prefix is not displayed in the [Property editor](Property_editor.md). Their names have this form: `NameOfGroup_NameOfProperty`. To reference them in a schedule this full name must be used.
 
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Schedule/en
+[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch Schedule/en

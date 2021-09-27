@@ -17,14 +17,14 @@
 
 <div class="mw-translate-fuzzy">
 
-Questo strumento tenta di eliminare una forma cubica (un parallelepipedo) incorporata in un <img alt="" src=images/Arch_Wall.svg  style="width:16px;"> [Muro](Arch_Wall/it.md) o in una <img alt="" src=images/Arch_Structure.svg  style="width:16px;"> [Struttura](Arch_Structure/it.md) e di regolare le sue proprietà per rendere l\'oggetto rimanente totalmente parametrico. Questo strumento funziona solo se la forma da eliminare è cubica (con 6 facce e tutti gli angoli retti).
+Questo strumento tenta di eliminare una forma cubica (un parallelepipedo) incorporata in un <img alt="" src=images/Arch_Wall.svg  style="width:16px;"> _ e di regolare le sue proprietà per rendere l\'oggetto rimanente totalmente parametrico. Questo strumento funziona solo se la forma da eliminare è cubica (con 6 facce e tutti gli angoli retti).
 
 
 </div>
 
 ## Utilizzo
 
-1.  Selezionare un <img alt="" src=images/Arch_Wall.svg  style="width:16px;"> [Muro](Arch_Wall/it.md) o una <img alt="" src=images/Arch_Structure.svg  style="width:16px;"> [Struttura](Arch_Structure/it.md).
+1.  Selezionare un <img alt="" src=images/Arch_Wall.svg  style="width:16px;"> _.
 2.  Premere il pulsante **<img src="images/Arch_RemoveShape.svg" width=16px> [Rimuovi Forma](Arch_RemoveShape/it.md)** in **Arch → Utilità → Rimuovi Forma**.
 
 ## Script
@@ -75,4 +75,4 @@ FreeCAD.ActiveDocument.recompute()
 </div>
 
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch RemoveShape/it
+[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch RemoveShape/it

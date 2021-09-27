@@ -26,7 +26,7 @@ These are FreeCAD community developed workbenches, scripts, macros, and addons f
 
 ### Social networks 
 
--   [yorik](User:Yorik.md) - <http://www.facebook.com/FreeCAD> (also updates <http://twitter.com/FreeCADNews> automatically)
+-   _ - <http://www.facebook.com/FreeCAD> (also updates <http://twitter.com/FreeCADNews> automatically)
 
 ### News Sites 
 
@@ -52,7 +52,7 @@ These are FreeCAD community developed workbenches, scripts, macros, and addons f
 -   <http://linuxaideddesign.blogspot.de/>
 -   <http://sliptonic.com/>
 -   <http://opensourcedesigntools.blogspot.de/>
--   [yorik](User:Yorik.md) - <http://yorik.uncreated.net>
+-   _ - <http://yorik.uncreated.net>
 
 ### French
 
@@ -84,7 +84,7 @@ These are FreeCAD community developed workbenches, scripts, macros, and addons f
 
 
 
-[Category:Documentation](Category:Documentation.md)
+_
 
 ---
-[documentation index](../README.md) > [Documentation](Category:Documentation.md) > FreeCAD Community Portal/pt-br
+[documentation index](../README.md) > [Documentation](Category_Documentation.md) > FreeCAD Community Portal/pt-br

@@ -225,7 +225,7 @@ FreeCAD körs i konsolläge (utan gränssnitt)
 
 Dialog för att spara en bild i valfri storlek.
 
-[Category:User Documentation/sv](Category:User_Documentation/sv.md) [Category:Screenshots/sv](Category:Screenshots/sv.md)
+_ _
 
 ---
 [documentation index](../README.md) > Screenshots/sv

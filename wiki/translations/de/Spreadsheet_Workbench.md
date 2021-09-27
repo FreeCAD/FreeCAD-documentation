@@ -39,7 +39,13 @@ Der <img alt="" src=images/Workbench_Spreadsheet.svg  style="width:24px;"> [Arbe
 -   <img alt="" src=images/Spreadsheet_StyleItalic.svg  style="width:24px;"> [Stil Kursiv](Spreadsheet_StyleItalic/de.md): den Inhalt der gewählten Zelle auf kursiv stellen.
 -   <img alt="" src=images/Spreadsheet_StyleUnderline.svg  style="width:24px;"> [Stil Unterstrichen](Spreadsheet_StyleUnderline/de.md): den Inhalt der gewählten Zelle auf unterstrichen stellen.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Spreadsheet_SetAlias.svg  style="width:24px;"> [Setze Alias](Spreadsheet_SetAlias/de.md): die ausgewählte Zelle mit einem Alias benennen.
+
+
+</div>
 
 -    **Schwarz**und **Weiß** bestimmen die Vorder- und den Hintergrundfarbe der gewählten Zellen.
 
@@ -47,13 +53,11 @@ Der <img alt="" src=images/Workbench_Spreadsheet.svg  style="width:24px;"> [Arbe
 
 ## Spreadsheet editing 
 
-As noted above under Tools, right click on a row or column header produces a pulldown menu that allows you to delete the row/column or insert a new blank one. Formula references to cells that get moved by these operations get patched to refer to the new location, You will get a warning and a request to confirm if a row or column deletion would abolish a reference that\'s used in your model.
+As noted above under Tools, right click on a row or column header produces a pulldown menu that allows you to delete the row/column or insert a new blank one. Formula references to cells that get moved by these operations get patched to refer to the new location.
 
-Cut/copy/paste can be used to edit data. Cut and copy will both operate on single cells, rows, columns, rectangles, or indeed any selection group of cells you set up. Cut clears the content of selected cells; both cut and copy stash the cell content in an internal paste buffer. A paste operation writes the buffered data in such a way that the content of the uppermost-leftmost cell of the buffered set is dropped in the cell where the cursor is when you paste; other buffered content is dropped where it will have the same relationship to that target as it originally did to the upper-left cell of your cut/paste set.
+Cut/copy/paste can be used to edit data. Cut and copy will both operate on single cells, rectangles, or indeed any selection group of cells you set up. Cut clears the content of selected cells; both cut and copy store the cell\'s content and properties in the Clipboard. A paste operation writes the buffered data in such a way that the content of the uppermost-leftmost cell of the buffered set is dropped in the cell where the cursor is when you paste; other buffered content is dropped where it will have the same relationship to that target as it originally did to the upper-left cell of your cut/paste set.
 
-An important caveat: Cut/copy/paste operations do *not* fix up formula references. If you move the content of a cell, formulas which referred to the old location will break. If the old location becomes empty, the breakage will become visible as the expression evaluator will display \#ERR in dependent cells. Properties are also not carried along.
-
-The Undo key can be use to back out any of these operations. However, it undoes a cell at a time - thus, multiple Undos may be requited to back out a single copy or paste.
+An important caveat: Cut/copy/paste operations do *not* fix up formula references. If you move the content of a cell, formulas which referred to the old location will break. If the old location becomes empty, the breakage will become visible as the expression evaluator will display \#ERR in dependent cells.
 
 ## Zelleigenschaften
 
@@ -247,7 +251,7 @@ sheet.get('Diameter')
 
 }} 
 
-[Category:Workbenches](Category:Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > Spreadsheet Workbench/de
+[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Spreadsheet Workbench/de

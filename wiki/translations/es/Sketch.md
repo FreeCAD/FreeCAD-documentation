@@ -4,7 +4,7 @@
 
 {{TOCright}}
 
-En FreeCAD la palabra \"[Croquis](Sketch/es.md)\" se usa normalmente para referirse a un [Croquizador CroquisObjeto](Sketcher_SketchObject/es.md) (`Sketcher::SketchObject` clase) que es definida por el [Ambiente de trabajo Croquizador](Sketcher_Workbench/es.md). Este es un dibujo 2D que utiliza restricciones matemáticas para describir la geometría 2D con precisión.
+En FreeCAD la palabra \"_. Este es un dibujo 2D que utiliza restricciones matemáticas para describir la geometría 2D con precisión.
 
 Ver [Coquizador CroquisObjeto](Sketcher_SketchObject/es.md) para más información sobre este tipo de objeto.
 
@@ -29,14 +29,14 @@ Cuando termines de editar el boceto, ciérralo para salir del modo de edición. 
 
 Un Croquis se utiliza muy normalmente junto con el <img alt="" src=images/Workbench_PartDesign.svg  style="width:16px;"> <img src=images/PartDesign_Pad.svg style="width:Ambiente de trabajo DiseñoPiezas](PartDesign_Workbench/es.md) para crear sólidos por extrusión, utilizando el **[16px"> [PartDesign Pastilla](PartDesign_Pad/es.md)**.
 
-Sin embargo, un Croquis siempre puede ser creado por sí mismo para cualquier otro propósito; no tiene que estar ligado a un <img src=images/Arch_Window.svg style="width:DiseñoPieza Cuerpo](PartDesign_Body/es.md). Por ejemplo, el **[16px"> <img src=images/Arch_Wall.svg style="width:Arquitectura Ventana](Arch_Window/es.md)** de la herramienta <img alt="" src=images/Workbench_Arch.svg  style="width:16px;"> [Ambiente de trabajo Arquitectura](Arch_Workbench/es.md) utiliza los Croquis para definir las formas de las ventanas y las puertas; del mismo modo, pueden utilizarse para definir la forma de **[16px"> [Arquitectura Muros](Arch_Wall/es.md)**.
+Sin embargo, un Croquis siempre puede ser creado por sí mismo para cualquier otro propósito; no tiene que estar ligado a un <img src=images/Arch_Window.svg style="width:DiseñoPieza Cuerpo](PartDesign_Body/es.md). Por ejemplo, el **_ utiliza los Croquis para definir las formas de las ventanas y las puertas; del mismo modo, pueden utilizarse para definir la forma de **[16px"> [Arquitectura Muros](Arch_Wall/es.md)**.
 
 
 {{Sketcher Tools navi
 
 }} {{Document objects navi}} 
 
-[Category:Glossary](Category:Glossary.md)
+_
 
 ---
-[documentation index](../README.md) > [Glossary](Category:Glossary.md) > Sketch/es
+[documentation index](../README.md) > [Glossary](Category_Glossary.md) > Sketch/es

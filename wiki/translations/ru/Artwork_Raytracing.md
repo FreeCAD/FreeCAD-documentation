@@ -14,7 +14,7 @@
 
 }} 
 
-[Category:Raytracing](Category:Raytracing.md)
+_
 
 ---
-[documentation index](../README.md) > [Raytracing](Category:Raytracing.md) > Artwork Raytracing/ru
+[documentation index](../README.md) > [Raytracing](Category_Raytracing.md) > Artwork Raytracing/ru

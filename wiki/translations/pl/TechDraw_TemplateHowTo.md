@@ -11,7 +11,7 @@
 
 Poradnik ten pokazuje jak stworzyć plik [SVG](SVG/pl.md), który może być użyty jako [szablon](TechDraw_Templates/pl.md) tła dla stron Środowiska pracy [Rysunek Techniczny](TechDraw_Workbench/pl.md).
 
-W poradniku tym założono, że znasz umiarkowanie dobrze [Inkscape](https://en.wikipedia.org/wiki/Inkscape) i [SVG](SVG/pl.md), jak również FreeCAD i środowisko pracy [Rysunek techniczny](TechDraw_Workbench/pl.md).
+W poradniku tym założono, że znasz umiarkowanie dobrze _, jak również FreeCAD i środowisko pracy [Rysunek techniczny](TechDraw_Workbench/pl.md).
 
 Stworzymy prosty szablon dla papieru w rozmiarze US Letter w orientacji poziomej.
 
@@ -58,7 +58,7 @@ Zauważ, że twoje edytowalne teksty będą \"nie\" działały, jeśli używasz 
 
 9\. Użyj edytora XML, aby dodać tag `freecad:editable`} do każdego edytowalnego elementu `<text>}.
 * Przypisać sensowną nazwę do każdego pola tekstowego, które można edytować.
-[800px|center](File:InkXMLeditableTag.png.md)
+_
 *align=center|Inkscape: Edytor XML dodający właściwość "freecad:editable" do żądanej pozycji <text>.*
 {{clear`
 
@@ -66,12 +66,12 @@ Zauważ, że twoje edytowalne teksty będą \"nie\" działały, jeśli używasz 
 
 10. Użyj edytora XML, aby dopasować atrybut `viewBox` do rozmiaru strony, w milimetrach.
 * Są to cztery wartości, w formacie `"0 0 width height"`
-[800px|center](File:InkXMLviewBox.png.md)
+_
 *align=center|Inkscape: Edytor XML dopasowujący pole widzenia do rozmiaru strony w milimetrach*
 
 
 11. Twój szablon pojawi się teraz znacznie większy niż oczekiwano.
-[800px|center](File:InkMuchTooBig.png.md)
+_
 *align=center|Inkscape: wstępny układ szablonów przekraczający rozmiar strony.*
 
 
@@ -101,7 +101,7 @@ Zauważ, że twoje edytowalne teksty będą \"nie\" działały, jeśli używasz 
 20. Zapisz swój szablon. Jeśli używasz Inkscape, zapisz go najlepiej jako '''Plain SVG''', ponieważ FreeCAD może obsługiwać tylko cechy specyfikacji SVG </br>1.1. Zwykły SVG'' usunie wszystkie znaczniki XML specyficzne dla Inkscape'a.
 
 21. Wypróbuj go w programie FreeCAD i środowisku pracy [Rysunek Techniczny](TechDraw_Workbench/pl.md) z opcją [wstaw stronę uzywając szablonu](TechDraw_PageTemplate/pl.md).
-[center](File:FCTemplateHow.png.md)
+_
 *align=center|FreeCAD: gotowy szablon z polem tekstowym do edycji*
 
 

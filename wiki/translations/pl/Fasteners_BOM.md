@@ -15,7 +15,7 @@ The <img alt="" src=images/Fasteners_BOM.svg  style="width:24px;"> [Fasteners BO
 
 ## Usage
 
-1.  Switch to the <img alt="" src=images/Fasteners_workbench_icon.svg  style="width:24px;"> [Fasteners](Fasteners_Workbench.md) workbench (install from <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Addon_Manager.md) is necessary, if not previously installed)
+1.  Switch to the <img alt="" src=images/Fasteners_workbench_icon.svg  style="width:24px;"> _ is necessary, if not previously installed)
 2.  Invoke the Fasteners BOM tool several ways:
     -   Press the <img alt="" src=images/Fasteners_BOM.svg  style="width:24px;"> button
     -   Use the **Fasteners → BOM** entry in the Fasteners menu
@@ -57,7 +57,7 @@ The <img alt="" src=images/Fasteners_BOM.svg  style="width:24px;"> [Fasteners BO
 
 }} 
 
-[Category:External Command Reference](Category:External_Command_Reference.md)
+_
 
 ---
-[documentation index](../README.md) > [External Command Reference](Category:External Command Reference.md) > Fasteners BOM/pl
+[documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > Fasteners BOM/pl

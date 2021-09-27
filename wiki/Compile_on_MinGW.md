@@ -126,13 +126,13 @@ Make a directory for the build: note this is typically not a subdirectory of the
 
     mkdir FreeCAD-build
     cd FreeCAD-build
-    <pre>
-    <translate>
 
-    Run cMake:
 
-    </translate>
-    <pre>
+
+Run cMake:
+
+
+
     cmake ../FreeCAD
 
 
@@ -147,7 +147,7 @@ And finally:
 
  
 
-[Category:Developer\_Documentation](Category:Developer_Documentation.md) [Category:Developer](Category:Developer.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Developer_Documentation](Category:Developer_Documentation.md) > Compile on MinGW
+[documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > Compile on MinGW

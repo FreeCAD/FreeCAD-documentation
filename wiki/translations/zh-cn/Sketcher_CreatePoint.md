@@ -11,7 +11,7 @@
 
 通过此点工具可在当前的草图中创建一个点，而所创建的点可作为构造几何图形的元素。创建的点将一直作为构造要素，且不会在3D视图中显示出来。
 
-[480px\|Point in the sketcher](IMAGE:Sketcher_Point_fr_01.png.md) 
+_ 
 
 
 <div class="mw-translate-fuzzy">

@@ -118,7 +118,7 @@ Jeśli Twój szkic nie jest jeszcze prezentowany w kolorze zielonym, oznacza to,
 
 Czynności należy przeprowadzić w ten sam sposób w odniesieniu do wszystkich punktów.
 
-Jeśli Twój szkic nadal nie jest wyświetlany na zielono, sprawdź, czy wszystkie linie *(z wyjątkiem ukośnej)* mają zdefiniowane albo <img alt="" src=images/Constraint_Horizontal.svg  style="width:24px;"> [wiązania poziome](Sketcher_ConstrainHorizontal/pl.md) lub <img alt="" src=images/Constraint_Vertical.svg  style="width:24px;"> [wiązania pionowe](Sketcher_ConstrainVertical/pl.md). W razie potrzeby dodaj je.
+Jeśli Twój szkic nadal nie jest wyświetlany na zielono, sprawdź, czy wszystkie linie *(z wyjątkiem ukośnej)* mają zdefiniowane albo <img alt="" src=images/Constraint_Horizontal.svg  style="width:24px;"> _. W razie potrzeby dodaj je.
 
 ### Używanie funkcji wyciągnięcia i kieszeni 
 

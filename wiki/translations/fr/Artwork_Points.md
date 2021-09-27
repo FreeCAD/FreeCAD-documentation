@@ -14,7 +14,7 @@ Pour toutes les icônes de l\'arborescence source, voir [Graphisme](Artwork/fr.m
 
 }} 
 
-[Category:Points](Category:Points.md)
+_
 
 ---
-[documentation index](../README.md) > [Points](Category:Points.md) > Artwork Points/fr
+[documentation index](../README.md) > [Points](Category_Points.md) > Artwork Points/fr

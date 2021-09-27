@@ -33,7 +33,7 @@ Desde este navegador eres capaz de navegar por la web, hacer clic en los enlaces
 
 
 
-[Category:Web](Category:Web.md) [Category:Workbenches](Category:Workbenches.md)
+_ _
 
 ---
-[documentation index](../README.md) > Web Workbench/es
+[documentation index](../README.md) > [Web](Category_Web.md) > Web Workbench/es

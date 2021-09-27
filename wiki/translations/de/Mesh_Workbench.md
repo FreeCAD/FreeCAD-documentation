@@ -9,7 +9,7 @@ Der <img alt="" src=images/Workbench_Mesh.svg  style="width:24px;">[Arbeitsberei
 
 Viele 3D Anwendungen, wie [Sketchup](http://de.wikipedia.org/wiki/SketchUp_%28Software%29), [blender](http://de.wikipedia.org/wiki/Blender_%28Software%29), [1](http://de.wikipedia.org/wiki/Maya_%28Software%29%7CMaya) und [3d studio max](http://de.wikipedia.org/wiki/3D-Studio_MAX), verwenden Polygonnetze als wichtigsten Typ von 3D Objekten. Da Polygonnetze sehr einfache Objekte sind, die nur aus Knoten (Punkten), Kanten und (dreieckigen) Flächen bestehen, sind sie sehr einfach zu erstellen, zu modifizieren, zu unterteilen und zu dehnen und können leicht von einer Anwendung zur anderen ohne Verlust übertragen werden. Außerdem können 3D Anwendungen in der Regel sehr große Mengen davon ohne Probleme verwalten, da sie sehr einfache Daten enthalten. Aus diesen Gründen sind Netze oft das 3D Objekt der Wahl, insbesondere bei Anwendungen im Umgang mit Filmen, Animationen und Bilderstellung.
 
-Im Bereich der Ingenieurswissenschaften jedoch stellen Polygonnetze eine große Begrenzung dar: Sie können gekrümmte Flächen nicht genau definieren. Deshalb setzt FreeCAD stattdessen auf [Brep](wikipedia:Boundary_representation.md). Der Arbeitsbereich Polygonnetz bietet einige Befehle zur direkten Änderung von Polygonnetzen, wird aber am häufigsten verwendet, um 3D Netzdaten zu importieren und in einen Festkörper umzuwandeln, zur Verwendung mit dem <img alt="" src=images/Workbench_Part.svg  style="width:24px;">[Arbeitsbereich Part](Part_Workbench/de.md) oder <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign Arbeitsbereich](PartDesign_Workbench/de.md).
+Im Bereich der Ingenieurswissenschaften jedoch stellen Polygonnetze eine große Begrenzung dar: Sie können gekrümmte Flächen nicht genau definieren. Deshalb setzt FreeCAD stattdessen auf _. Der Arbeitsbereich Polygonnetz bietet einige Befehle zur direkten Änderung von Polygonnetzen, wird aber am häufigsten verwendet, um 3D Netzdaten zu importieren und in einen Festkörper umzuwandeln, zur Verwendung mit dem <img alt="" src=images/Workbench_Part.svg  style="width:24px;">_.
 
 <img alt="" src=images/Mesh_example.jpg  style="width:500px;">
 
@@ -28,7 +28,7 @@ Auf alle Werkzeuge des Polygonnetz Arbeitsbereichs kann über das Menü **Polygo
 -   Analysieren
     -   <img alt="" src=images/Mesh_Evaluation.svg  style="width:32px;">[Netz auswerten und reparieren\...](Mesh_Evaluation/de.md): Bewertet und repariert ein Netzobjekt.
     -   <img alt="" src=images/Mesh_EvaluateFacet.svg  style="width:32px;"> [Flächeninfo](Mesh_EvaluateFacet/de.md): Zeigt Informationen über Flächen von Netzobjekten an.
-    -   <img alt="" src=images/Mesh_CurvatureInfo.svg  style="width:32px;">[Krümmungsinfo](Mesh_CurvatureInfo/de.md): Zeigt Informationen über Flächen von Netzobjekten an: Zeigt die absolute Krümmung von [Krümmungsobjekte](Mesh_VertexCurvature/de.md) an ausgewählten Punkten an.
+    -   <img alt="" src=images/Mesh_CurvatureInfo.svg  style="width:32px;">_ an ausgewählten Punkten an.
     -   <img alt="" src=images/Mesh_EvaluateSolid.svg  style="width:32px;">[Festkörpernetz prüfen](Mesh_EvaluateSolid/de.md): Prüft, ob ein Netzobjekt fest ist.
     -   <img alt="" src=images/Mesh_BoundingBox.svg  style="width:32px;">[Begrenzungsinfo\...](Mesh_BoundingBox/de.md): Zeigt die Begrenzungsrahmen Koordinaten eines Netzobjekts an.
 
@@ -86,8 +86,8 @@ Es gibt einige [Exporteinstellungen verwandt mit Netzformaten](Import_Export_Pre
 
 Netz Arbeitsbereichseinstellungen können in den folgenden Kategorien des [Preferences Editor](Preferences_Editor/de.md) gefunden werden:
 
--   <img alt="" src=images/Preferences-display.svg  style="width:32px;"> [Anzeige](Preferences_Editor#Display_settings/de.md): Auf dem [Netz Ansicht](Preferences_Editor#Mesh_view/de.md) Reiter können verschiedene Einstellungen vorgenommen werden.
--   <img alt="" src=images/Preferences-openscad.svg  style="width:32px;"> [OpenSCAD](OpenSCAD_Preferences/de.md): Die [Netz Vereinigen](Mesh_Union/de.md), [Netz Schnittmenge](Mesh_Intersection/de.md) und [Mesh Differenz](Mesh_Difference/de.md) Befehle erfordern [OpenSCAD](http://www.openscad.org/) und verwenden die **OpenSCAD funktionsfähig** Einstellung, um die ausführbare Datei zu finden.
+-   <img alt="" src=images/Preferences-display.svg  style="width:32px;"> _ Reiter können verschiedene Einstellungen vorgenommen werden.
+-   <img alt="" src=images/Preferences-openscad.svg  style="width:32px;"> _, [Netz Schnittmenge](Mesh_Intersection/de.md) und [Mesh Differenz](Mesh_Difference/de.md) Befehle erfordern [OpenSCAD](http://www.openscad.org/) und verwenden die **OpenSCAD funktionsfähig** Einstellung, um die ausführbare Datei zu finden.
 
 ## Hinweise
 
@@ -104,7 +104,7 @@ Netz Arbeitsbereichseinstellungen können in den folgenden Kategorien des [Prefe
 
 }} 
 
-[Category:Workbenches](Category:Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > Mesh Workbench/de
+[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Mesh Workbench/de

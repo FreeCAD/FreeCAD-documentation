@@ -7,7 +7,7 @@
 
 L\'ambiente [Reinforcement](Reinforcement_Workbench/it.md) è un [ambiente di lavoro esterno](External_workbenches/it.md) che fornisce strumenti per la generazione e la creazione di armature. Questo ambiente fornisce un\'interfaccia e preimpostazioni per la creazione dei tipi comuni di barre d\'armatura, e strumenti per generare distinte base per barre d\'armatura, distinte di taglio per forme d\'armatura, programma di piegatura delle barre e disegno e quotatura delle barre d\'armatura.
 
-Image:Arch\_Rebar\_Straight\_example.png\|[Straight Rebar](Arch_Rebar_Straight.md) Image:Arch\_Rebar\_UShape\_example.png\|[UShape Rebar](Arch_Rebar_UShape.md) Image:Arch\_Rebar\_LShape\_example.png\|[LShape Rebar](Arch_Rebar_LShape.md) Image:Arch\_Rebar\_BentShape\_example.png\|[BentShape Rebar](Arch_Rebar_BentShape.md) Image:Arch\_Rebar\_Stirrup\_example.png\|[Stirrup Rebar](Arch_Rebar_Stirrup.md) Image:Arch\_Rebar\_Helical\_example.png\|[Helical Rebar](Arch_Rebar_Helical.md) Image:Arch\_Rebar\_Circular\_ColumnReinforcement\_example.png\|[Circular Column Reinforcement](Arch_Rebar_Circular_ColumnReinforcement.md) Image:Arch\_Rebar\_ColumnReinforcement\_example.png\|[Single Tie Column Reinforcement](Arch_Rebar_ColumnReinforcement.md) Image:Arch\_Rebar\_ColumnReinforcement\_TwoTies\_example.png\|[Two Ties Six Rebars Column Reinforcement](Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars.md) Image:Arch\_Rebar\_BeamReinforcement\_example.png\|[Beam Reinforcement](Arch_Rebar_BeamReinforcement.md) Image:Isometric\_view\_of\_Bent\_Shape\_rebars\_in\_parallel\_and\_cross\_direction\_with\_distribution\_rebars.png\|[Slab Reinforcement](Arch_Rebar_Slab_Reinforcement.md) Image:Isometric view of Columns footing.png\|[Footing Reinforcement](Arch_Rebar_Footing_Reinforcement.md) Image:Arch\_Rebar\_BOM\_example.png\|[Bill Of Material](Arch_Rebar_BOM.md) Image:Reinforcement\_Bar\_Shape\_Cut\_List\_example.svg\|[Rebar Shape Cut List](Reinforcement_Bar_Shape_Cut_List.md) Image:Reinforcement\_Bar\_Bending\_Schedule\_example.svg\|[Reinforcement Bar Bending Schedule](Reinforcement_Bar_Bending_Schedule.md) Image:Arch\_Rebar\_Drawing\_Dimensioning\_example.svg\|[Reinforcement Drawing Dimensioning](Arch_Rebar_Drawing_Dimensioning.md)
+Image:Arch\_Rebar\_Straight\_example.png\|_ Image:Arch\_Rebar\_LShape\_example.png\|_ Image:Arch\_Rebar\_Stirrup\_example.png\|_ Image:Arch\_Rebar\_Circular\_ColumnReinforcement\_example.png\|_ Image:Arch\_Rebar\_ColumnReinforcement\_TwoTies\_example.png\|_ Image:Isometric\_view\_of\_Bent\_Shape\_rebars\_in\_parallel\_and\_cross\_direction\_with\_distribution\_rebars.png\|_ Image:Arch\_Rebar\_BOM\_example.png\|_ Image:Reinforcement\_Bar\_Bending\_Schedule\_example.svg\|_
 
 ## Installazione
 
@@ -39,6 +39,8 @@ The Reinforcement workbench is not bundled with the default FreeCAD package, but
 
 -   <img alt="" src=images/Arch_Rebar_Slab_Reinforcement.svg  style="width:32px;"> [SlabReinforcement](Arch_Rebar_Slab_Reinforcement.md): Creates reinforcing bars in a selected slab structural element
 
+-   <img alt="" src=images/Arch_Rebar_Footing_Reinforcement.svg  style="width:32px;"> [FootingReinforcement](Arch_Rebar_Footing_Reinforcement.md): Creates reinforcing bars inside a Footing Arch Structure object
+
 -   <img alt="" src=images/Arch_Rebar.svg  style="width:32px;"> [Rebar](Arch_Rebar.md): Creates a custom reinforcement bar in a selected structural element using a sketch
 
 ### Reinforcement Detailing 
@@ -51,12 +53,12 @@ The Reinforcement workbench is not bundled with the default FreeCAD package, but
 
 -   <img alt="" src=images/Arch_Rebar_Drawing_Dimensioning.svg  style="width:32px;"> [Disegna e quota un\'armatura](Arch_Rebar_Drawing_Dimensioning/it.md): Crea il disegno e il dimensionamento delle barre d\'armatura.
     -   <img alt="" src=images/Arch_Rebar_Drawing.svg  style="width:32px;"> [Disegna un\'armatura](Arch_Rebar_Drawing_Dimensioning/it#Disegna_un'armatura.md): Crea il disegno delle barre d\'armatura
-    -   <img alt="" src=images/Arch_Rebar_Dimensioning.svg  style="width:32px;"> [Quota un\'armatura](Arch_Rebar_Drawing_Dimensioning/it#Quota_un'armatura.md): Crea il dimensionamento delle barre d\'armatura in [Disegna un\'armatura](Arch_Rebar_Drawing_Dimensioning/it#Disegna_un'armatura.md)
+    -   <img alt="" src=images/Arch_Rebar_Dimensioning.svg  style="width:32px;"> _
 
 
 
 
-[Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md) [Category:Reinforcement](Category:Reinforcement.md)
+_ _ _
 
 ---
-[documentation index](../README.md) > Reinforcement Workbench/it
+[documentation index](../README.md) > [Addons](Category_Addons.md) > Reinforcement Workbench/it

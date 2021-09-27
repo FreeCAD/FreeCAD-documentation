@@ -51,7 +51,7 @@ The **Std Export** command exports selected objects to a different file format. 
 
 }}  
 
-[Category:File\_Formats](Category:File_Formats.md)
+_
 
 ---
-[documentation index](../README.md) > [File_Formats](Category:File_Formats.md) > Std Export/pt-br
+[documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Std Export/pt-br

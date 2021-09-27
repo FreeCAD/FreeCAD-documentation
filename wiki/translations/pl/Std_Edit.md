@@ -4,6 +4,7 @@
    Name/pl:Edycja
    MenuLocation:Edycja → Przełącz tryb edycji
    Workbenches:Wszystkie
+   SeeAlso:[Tryb edycji dla uzytkownika](Std_UserEditMode/pl.md)
 ---
 
 # Std Edit/pl

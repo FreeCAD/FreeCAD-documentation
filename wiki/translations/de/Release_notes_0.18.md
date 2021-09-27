@@ -215,7 +215,7 @@ Einige der neuen Gemeinschaftsmodule, die während des Entwicklungszyklus von 0.
 
 -   [Arbeitsbereich Defeaturing](Defeaturing_Workbench/de.md) ist bestimmt für die Bearbeitung importierter STEP Modelle, das Entfernen der ausgewählten Funktionen aus dem Modell
 
-[Category:News](Category:News.md) [Category:Documentation](Category:Documentation.md) [Category:Releases](Category:Releases.md)
+_ _ _
 
 ---
-[documentation index](../README.md) > [News](Category:News.md) > Release notes 0.18/de
+[documentation index](../README.md) > [News](Category_News.md) > Release notes 0.18/de

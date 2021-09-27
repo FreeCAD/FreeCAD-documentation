@@ -99,7 +99,7 @@ Andere
 -   [Baugruppe2](http://www.freecadweb.org/wiki/index.php?title=Sandbox:Assembly2): Assembly Arbeitsbereich für FreeCAD mit Unterstützung für den Import von Teilen aus externen Dateien.
 -   [Externe Arbeitsbereiche](External_workbenches/de.md)
 
-[Category:User Documentation](Category:User_Documentation.md) [Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+_ _ _
 
 ---
-[documentation index](../README.md) > Animation Workbench/de
+[documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > Animation Workbench/de

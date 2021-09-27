@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:SheetMetal Forming
    Name/fr:SheetMetal Outil d'emboutissage
-   MenuLocation:SheetMetal → Faire un emboutissage sur un mur
+   MenuLocation:SheetMetal → Make Forming in Wall
    Workbenches:[SheetMetal](SheetMetal_Workbench/fr.md)
    Shortcut:**M** **F**
 ---
@@ -11,139 +11,117 @@
 
 ## Description
 
+La commande <img alt="" src=images/SheetMetal_Forming.svg  style="width:24px;"> **SheetMetal Forming** crée une forme emboutie dans une paroi en tôle à l\'aide d\'un objet solide distinct.
 
-<div class="mw-translate-fuzzy">
+Le plan arrière du solide définissant la forme et la face à emboutir sont utilisés pour positionner et orienter la forme emboutie, c\'est-à-dire que leurs systèmes de coordonnées locales auront la même origine et la même orientation par défaut. L\'angle autour de l\'axe z et les décalages dans les directions x, y et z peuvent être modifiés en changeant les valeurs des paramètres dans la fenêtre des propriétés.
 
-La commande <img alt="" src=images/SheetMetal_Forming.svg  style="width:24px;"> *SheetMetal Forming* crée un outil de formage.
+Une esquisse peut être ajoutée pour multiplier et distribuer la forme emboutie selon des motifs réguliers ou irréguliers (en utilisant les points centraux de cercles ou d\'arcs).
 
-
-</div>
-
-The back side plane of the shape defining solid and the face to be embossed are used to position and orient the embossed shape, i.e. their local coordinate systems will have the same origin and the same orientation by default.  The angle around the z-axis and offsets in x, y, and z direction may be altered by changing the parameter values in the properties window.
-
-A sketch can be added to multiply and distribute the embossed shape in regular or irregular patterns (using the center points of circles or arcs)
-
-A small selection of features that can be created:
+Une petite sélection de fonctions qui peuvent être créées :
 
 <img alt="" src=images/SheetMetal_Forming-08.png  style="width:200px;"> <img alt="" src=images/SheetMetal_Forming-09.png  style="width:200px;"> <img alt="" src=images/SheetMetal_Forming-10.png  style="width:200px;"> <img alt="" src=images/SheetMetal_Forming-11.png  style="width:200px;"> 
-*dimples, louvres, drawn cutouts, bridges*
+*fossettes, persiennes, découpes dessinées, ponts*
 
 ## Utilisation
 
-### Dimple
+### Fossette
 
-1.  Select the face of the SheetMetal object to be embossed
-2.  Select the **bottom face** (back side) of the shape defining solid
-    -   **Note:** Don\'t forget the **Control**/**Command** key!
-3.  Activate the <img alt="" src=images/SheetMetal_Forming.svg  style="width:16px;"> [Make Forming in Wall](SheetMetal_Forming.md) command using:
-    -   
-        **<img src="images/SheetMetal_Forming.svg" width=16px> [Make Forming in Wall](SheetMetal_Forming.md)
+1.  Sélectionnez la face de l\'objet SheetMetal à emboutir.
+2.  Sélectionnez la **face inférieure** (face arrière) de la forme définissant le solide.
+    -   **Remarque:** n\'oubliez pas la touche **Control**/**Command**!
+3.  Activez la commande <img alt="" src=images/SheetMetal_Forming.svg  style="width:16px;"> [Outil d\'emboutissage](SheetMetal_Forming/fr.md) en utilisant :
+    -   le bouton **<img src="images/SheetMetal_Forming.svg" width=16px> [Make Forming in Wall](SheetMetal_Forming/fr.md)**.
+    -   par le menu déroulant **SheetMetal → <img src="images/SheetMetal_Forming.svg" width=16px> Make Forming in Wall
 **
-        
-        button
+    -   par le raccourci clavier : **M** puis **F**
 
-    -   
-        **SheetMetal → <img src="images/SheetMetal_Forming.svg" width=16px> Make Forming in Wall
+### Persienne
+
+1.  Sélectionnez la face de l\'objet SheetMetal à emboutir.
+2.  Sélectionnez la **face inférieure** (face arrière) de la forme définissant le solide.
+3.  Sélectionnez une **face latérale** adjacente à la face inférieure pour marquer la zone à découper.
+    -   **Remarque:** n\'oubliez pas la touche **Control**/**Command**!
+4.  Activez la commande <img alt="" src=images/SheetMetal_Forming.svg  style="width:16px;"> [Make Forming in Wall](SheetMetal_Forming/fr.md) (voir ci-dessus)
+
+### Pont
+
+1.  Sélectionnez la face de l\'objet SheetMetal à emboutir.
+2.  Sélectionnez la **face inférieure** (face arrière) de la forme définissant le solide.
+3.  Sélectionnez une **face latérale** adjacente à la face inférieure pour marquer une zone à découper.
+4.  Sélectionnez la **face opposée** adjacente à la face inférieure pour marquer l\'autre zone à découper.
+    -   **Remarque:** n\'oubliez pas la touche **Control**/**Command**!
+5.  Activez la commande <img alt="" src=images/SheetMetal_Forming.svg  style="width:16px;"> [Make Forming in Wall](SheetMetal_Forming/fr.md) (voir ci-dessus)
+
+### Découpe dessinée 
+
+1.  Sélectionnez la face de l\'objet SheetMetal à emboutir.
+2.  Sélectionnez la **face inférieure** (face arrière) de la forme définissant le solide.
+3.  Sélectionnez la **face supérieure** opposée à la face inférieure pour marquer la zone à découper.
+    -   **Remarque:** n\'oubliez pas la touche **Control**/**Command**!
+4.  Activez la commande <img alt="" src=images/SheetMetal_Forming.svg  style="width:16px;"> [Make Forming in Wall](SheetMetal_Forming/fr.md) (voir ci-dessus)
+
+### Multiplication et motif 
+
+Pour multiplier et modeler la fonction emboutie, une **esquisse** contenant des cercles et des arcs peut être ajoutée à la propriété {{PropertyData/fr|Sketch}} de l\'objet **WallForming**.
+
+Les points centraux des cercles ou des arcs sont utilisés pour fournir des positions où placer les instances de la caractéristique en relief. Ils n\'influencent pas l\'orientation des instances.
+
+L\'orientation dépend toujours de l\'orientation de la première face sélectionnée.
+
+### Ajouter des congés 
+
+1.  Passez à l\'<img alt="" src=images/Workbench_PartDesign.svg  style="width:16px;"> [atelier PartDesign](PartDesign_Workbench/fr.md).
+2.  Sélectionnez un bord sur la face supérieure de l\'objet SheetMetal pour recevoir un congé.
+3.  Activez le <img alt="" src=images/PartDesign_Fillet.svg  style="width:16px;"> [Congé](PartDesign_Fillet/fr.md) en utilisant la commande :
+    -   par le bouton **<img src="images/PartDesign_Fillet.svg" width=16px> [Congé](PartDesign_Fillet/fr.md)
 **
-        
-        drop down menu
-
-    -   keyboard shortcut: **M** then **F**
-
-### Louvre
-
-1.  Select the face of the SheetMetal object to be embossed
-2.  Select the **bottom face** (back side) of the shape defining solid
-3.  Select a **side face** adjoined to the bottom face to mark the area to be cut open
-    -   **Note:** Don\'t forget the **Control**/**Command** key!
-4.  Activate the <img alt="" src=images/SheetMetal_Forming.svg  style="width:16px;"> [Make Forming in Wall](SheetMetal_Forming.md) command (see above)
-
-### Bridge
-
-1.  Select the face of the SheetMetal object to be embossed
-2.  Select the **bottom face** (back side) of the shape defining solid
-3.  Select a **side face** adjoined to the bottom face to mark one area to be cut open
-4.  Select the **opposite face** adjoined to the bottom face to mark the other area to be cut open
-    -   **Note:** Don\'t forget the **Control**/**Command** key!
-5.  Activate the <img alt="" src=images/SheetMetal_Forming.svg  style="width:16px;"> [Make Forming in Wall](SheetMetal_Forming.md) command (see above)
-
-### Drawn Cutout 
-
-1.  Select the face of the SheetMetal object to be embossed
-2.  Select the **bottom face** (back side) of the shape defining solid
-3.  Select the **top face** opposite the bottom face to mark the area to be cut open
-    -   **Note:** Don\'t forget the **Control**/**Command** key!
-4.  Activate the <img alt="" src=images/SheetMetal_Forming.svg  style="width:16px;"> [Make Forming in Wall](SheetMetal_Forming.md) command (see above)
-
-### Multiply and Pattern 
-
-To muliply and pattern the embossed feature a **sketch** containing circles and arcs can be added to the **WallForming** object\'s property **Sketch**.
-
-The centerpoints of the circles or arcs are used to provide positions to put instances of the embossed feature; they don\'t influence the instances\' orientation.
-
-The orientation still depends on the orientation of the first selected face.
-
-### Adding Fillets 
-
-1.  Switch to the <img alt="" src=images/Workbench_PartDesign.svg  style="width:16px;"> [PartDesign](PartDesign_Workbench.md) workbench
-2.  Select an edge on the upper side of the SheetMetal object to receive a fillet
-3.  Activate the <img alt="" src=images/PartDesign_Fillet.svg  style="width:16px;"> [Fillet](PartDesign_Fillet.md) command using:
-    -   
-        **<img src="images/PartDesign_Fillet.svg" width=16px> [Fillet](PartDesign_Fillet.md)
+    -   par le menu déroulant **Conception de pièce → Appliquer une fonction d'habillage → <img src="images/PartDesign_Fillet.svg" width=16px> Congé
 **
-        
-        button
-
-    -   
-        **PartDesign → Apply a dress-up feature → <img src="images/PartDesign_Fillet.svg" width=16px> Fillet
-**
-        
-        drop down menu
-4.  Set the Fillet object\'s property  (It is quite **important** for the next fillet)
-5.  Select an edge on the bottom side of the SheetMetal object to receive a fillet
-6.  Activate the <img alt="" src=images/PartDesign_Fillet.svg  style="width:16px;"> [Fillet](PartDesign_Fillet.md) command (see above)
+4.  Mettez la propriété  (C\'est assez **important** pour le prochain congé).
+5.  Sélectionnez un bord sur la face inférieure de l\'objet SheetMetal pour recevoir un congé.
+6.  Activez le <img alt="" src=images/PartDesign_Fillet.svg  style="width:16px;"> [Congé](PartDesign_Fillet/fr.md) (voir ci-dessus)
 
 ## Propriétés
 
-See also: [Property editor](Property_editor.md).
+Voir aussi : [Éditeur de propriétés](Property_editor/fr.md)
 
-A SheetMetal WallForming object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
+Un objet SheetMetal WallForming est dérivé d\'un objet [Part Feature](Part_Feature/fr.md) et hérite de toutes ses propriétés. Il possède également les propriétés supplémentaires suivantes :
 
-### Data
+### Données
 
 
 {{Properties_Title|Base}}
 
--    **Label|String**: Default value: The user editable name of this object, it may be any arbitrary UTF8 string.
+-    {{PropertyData/fr|Label|String}}: Valeur par défaut : Le nom modifiable par l\'utilisateur de cet objet, il peut être toute chaîne UTF8 arbitraire.
 
--    **Base Feature|Link|hidden**: Base Feature. Link to the parent feature.
+-    {{PropertyData/fr|Base Feature|Link|hidden}}: Fonctionnalité de base. Lien vers la caractéristique parent.
 
--    **_Body|LinkHidden|hidden**:
+-    {{PropertyData/fr|_Body|LinkHidden|hidden}}:
 
 
 {{Properties_Title|Parameters}}
 
--    **Suppress Feature|Bool**: \"Suppress Forming Feature\". Default value is `False`.
+-    {{PropertyData/fr|Suppress Feature|Bool}}: \"Suppression de la fonction de formation\". La valeur par défaut est `False`.
 
--    **angle|Angle**: \"Tool Position Angle\". Default angle: {{value|0,00°}}.
+-    {{PropertyData/fr|angle|Angle}}: \"Angle de position de l\'outil\". Angle par défaut : {{value|0,00°}}.
 
--    **base Object|LinkSub**: \"Base Object\". Link to the planar face to be embossed.
+-    {{PropertyData/fr|base Object|LinkSub}}: \"Objet de base\". Lien vers la face planaire à emboutir.
 
--    **offset|VectorDistance**: \"Offset from Center of Face\". Default: {{value|[0,00 mm, 0,00 mm, 0,00 mm]}}.
+-    {{PropertyData/fr|offset|VectorDistance}}: \"Décalage par rapport au centre de la face\". Valeur par défaut : {{value|[0,00 mm, 0,00 mm, 0,00 mm]}}.
 
--    **thickness|Distance**: \"Thickness of Sheetmetal\". Thickness of the **Base Feature||hidden**:.
+-    {{PropertyData/fr|thickness|Distance}}: \"Epaisseur de la tôle\". Epaisseur de la {{PropertyData/fr|Base Feature||hidden}} :.
 
--    **tool Object|LinkSub**: \"Forming Tool Object\". Link to the planar face used to position the Forming Tool
+-    {{PropertyData/fr|tool Object|LinkSub}}: \"Objet Outil de Formage\". Lien vers la face planaire utilisée pour positionner l\'outil de formage.
 
 
 {{Properties_Title|Parameters1}}
 
--    **Sketch|Link**: \"Point Sketch on Sheetmetal\". Link to the sketch containing information how to multiply and distribute instances of the Forming Tool. (Center points of circles and arcs are used to create and position these instances)
+-    {{PropertyData/fr|Sketch|Link}}: \"Esquisse de point sur la tôle\". Lien vers l\'esquisse contenant des informations sur la manière de multiplier et de distribuer les instances de l\'outil de formage. (Les points centraux des cercles et des arcs sont utilisés pour créer et positionner ces instances).
 
-## Example
+## Exemple
 
 <img alt="" src=images/SheetMetal_Forming-01.png  style="width:300px;"> <img alt="" src=images/SheetMetal_Forming-02.png  style="width:300px;"> 
-*A hexagon bowl with embossed centre*
+*Un bol hexagonal avec centre repoussé*
 
 
 <div class="mw-collapsible mw-collapsed">
@@ -151,45 +129,46 @@ A SheetMetal WallForming object is derived from a [Part Feature](Part_Feature.md
 
 <div class="mw-collapsible-content">
 
-### Preparation
+### Préparation
 
-This bowl is made of a folded sheet metal object with a shape embossed, both have to be prepared in advance.
+Ce bol est fait d\'un objet en tôle pliée avec une forme emboutie, les deux doivent être préparés à l\'avance.
 
-No need to work with coplanar sketches here.
+Il n\'est pas nécessaire de travailler avec des esquisses coplanaires ici.
 
 <img alt="" src=images/SheetMetal_Forming-03.png  style="width:200px;"> 
-*SheetMetal bowl and embossing object*
+*Bol en tôle et objet embouti*
 
-### Workflow
+### Processus de travail 
 
-1.  Select the wall of the SheetMetal object to be embossed
-2.  Select the **back side** of the shape defining solid  (Don\'t forget the <img alt="" src=images/SheetMetal_Forming-04.png  style="width:240px;">
-3.  Press the  or use the keyboard shortcut:  <img alt="" src=images/SheetMetal_Forming-05.png  style="width:240px;">
-4.  Fillet the sharp edges:
-    -   Flip the bowl and select one or more edges for the smaller inner radii
-    -   Press the <img alt="" src=images/SheetMetal_Forming-12.png  style="width:240px;"> **\--\>** <img alt="" src=images/SheetMetal_Forming-02.png  style="width:240px;">
-    -   Flip the bowl again and select one or more edges for the bigger outer radii
-    -   Press the <img alt="" src=images/SheetMetal_Forming-13.png  style="width:240px;"> **\--\>** <img alt="" src=images/SheetMetal_Forming-01.png  style="width:240px;">   Done!  
-5.  Alter orientation and position (should be done before filleting)
-    -   Activate the <img alt="" src=images/SheetMetal_Forming.svg  style="width:16px;"> WallForming object in the [Tree view](Tree_view.md)
-    -   Set the value of the property  <img alt="" src=images/SheetMetal_Forming-14.png  style="width:240px;">
-    -   Set the value of the property  <img alt="" src=images/SheetMetal_Forming-06.png  style="width:240px;">  Here it is plain to see that it doesn\'t make sense to move the embossed geometry outside the selected wall.  
-    -   Setting the value of the property  <img alt="" src=images/SheetMetal_Forming-07.png  style="width:240px;">  At least the FreeCAD doesn\'t crash when a part has two bodies\...  
-6.  Some hints
-    1.  The height of the defining solid determines the depth of the embossed shape.  That means changing the parameter **offset, z** to alter the depth won\'t deliver expected results.
-    2.  The embossed geometry is made of a shell object i.e. it has a constant thickness.  And so the defining solid has to be offsetable, otherwise the tool will fail to create the emboss.
-    3.  If the outer edges are filleted first it may rip the object into several pieces when the radii are set too large.
+1.  Sélectionnez la paroi de l\'objet SheetMetal à emboutir.
+2.  Sélectionnez la **face arrière** de la forme définissant le solide (N\'oubliez pas la touche <img alt="" src=images/SheetMetal_Forming-04.png  style="width:240px;">
+3.  Appuyez sur le bouton ou utilisez le raccourci clavier :  <img alt="" src=images/SheetMetal_Forming-05.png  style="width:240px;">
+4.  Filetter les arêtes vives :
+    -   Retournez le bol et sélectionnez une ou plusieurs arêtes pour les plus petits rayons intérieurs.
+    -   Appuyez sur le bouton <img alt="" src=images/SheetMetal_Forming-12.png  style="width:240px;"> **\--\>**\' <img alt="" src=images/SheetMetal_Forming-02.png  style="width:240px;">
+    -   Retournez à nouveau le bol et sélectionnez une ou plusieurs arêtes pour les plus grands rayons extérieurs.
+    -   Appuyez sur le bouton <img alt="" src=images/SheetMetal_Forming-13.png  style="width:240px;"> **\--\>**\' <img alt="" src=images/SheetMetal_Forming-01.png  style="width:240px;">  Fait!  
+5.  Modifier l\'orientation et la position (doit être fait avant la mise en congés).
+    -   Activez l\'objet <img alt="" src=images/SheetMetal_Forming.svg  style="width:16px;"> WallForming dans la [Vue en arborescence](Tree_view/fr.md).
+    -   Définissez la valeur de la propriété  <img alt="" src=images/SheetMetal_Forming-14.png  style="width:240px;">
+    -   Définir la valeur de la propriété  <img alt="" src=images/SheetMetal_Forming-06.png  style="width:240px;"> Ici, il est clair que cela n\'a pas de sens de déplacer la géométrie en relief en dehors du mur sélectionné.  
+    -   Définir la valeur de la propriété  <img alt="" src=images/SheetMetal_Forming-07.png  style="width:240px;"> Au moins, le FreeCAD ne plante pas quand une pièce a deux corps\....  
 
-
-</div>
+    1.  Quelques conseils
+    2.  La hauteur du solide de définition détermine la profondeur de la forme emboutie. Cela signifie que changer le paramètre **offset, z** pour modifier la profondeur ne donnera pas les résultats escomptés.
+    3.  La géométrie emboutie est constituée d\'un objet coquille c\'est-à-dire qu\'elle a une épaisseur constante. Et donc le solide de définition doit être décalable, sinon l\'outil échouera à créer l\'emboutissage.
+    4.  Si les bords extérieurs sont filetés en premier, cela peut déchirer l\'objet en plusieurs morceaux lorsque les rayons sont définis trop grands.
 
 
 </div>
 
 
+</div>
 
 
-[Category:SheetMetal](Category:SheetMetal.md) [Category:Addons](Category:Addons.md) [Category:External Command Reference](Category:External_Command_Reference.md)
+
+
+_ _ _
 
 ---
-[documentation index](../README.md) > [SheetMetal](Category:SheetMetal.md) > SheetMetal Forming/fr
+[documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > SheetMetal Forming/fr

@@ -16,7 +16,7 @@ Le résultat produit par la boîte de dialogue Rebar Distribution lorsque l\'uti
 
 
 
-[Category:User Documentation](Category:User_Documentation.md) [Category:Reinforcement](Category:Reinforcement.md)
+_ _
 
 ---
-[documentation index](../README.md) > [User Documentation](Category:User Documentation.md) > Custom Spacing/fr
+[documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > Custom Spacing/fr

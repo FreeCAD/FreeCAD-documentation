@@ -90,7 +90,7 @@ Le script updatefromcrowdin.py extrait les modifications de crowdin vers votre r
 
 
 
-[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Administration](Category:Administration.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Crowdin Scripts/fr
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Crowdin Scripts/fr

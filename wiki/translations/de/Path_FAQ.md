@@ -25,7 +25,7 @@ Alle Ergänzungen zum Arbeitsauftrag\--einschließlich Änderungen und Arbeitsga
 
 ## Was ist der Unterschied zwischen der lichten Höhe und der sicheren Höhe? 
 
-Genauere Informationen findest Du unter [Tiefen und Höhen](Template:Depths/Heights/de.md).
+Genauere Informationen findest Du unter _.
 
 [top](#top.md)
 
@@ -195,7 +195,7 @@ Da das Format des benutzerdefinierten G-Code Befehls immer in Einheiten/Sekunde 
 
 Pfadverbünde können jedoch die Positionierung ihrer Kinder nutzen (siehe unten).\"
 
-[https://www.freecadweb.org/wiki/Path\_scripting Pfad Skripten](https://www.freecadweb.org/wiki/Path_scripting_Pfad_Skripten.md)
+_
 
 [top](#top.md)
 

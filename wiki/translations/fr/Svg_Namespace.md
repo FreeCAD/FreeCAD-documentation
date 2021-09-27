@@ -4,7 +4,7 @@
 
 {{TOCright}}
 
-Dans les documents [SVG](https://fr.wikipedia.org/wiki/Scalable_Vector_Graphics) exportés par l\'[atelier Drawing](Drawing_Workbench/fr.md) de FreeCAD et utilisés comme des pages [modèles](Drawing_templates.md), plusieurs [attributs](http://www.w3schools.com/xml/xml_attributes.asp) personnalisés peuvent être utilisés, à l\'origine pour l\'usage interne de FreeCAD, mais pourraient également être utilisés par d\'autres applications compatibles avec FreeCAD dans le futur. Ces attributs utilisent tous le préfixe **freecad:** [namespace](http://www.w3schools.com/xml/xml_namespaces.asp). L\'URL de l\'espace de nom défini dans ces documents SVG fait référence à cette page.
+Dans les documents _ de FreeCAD et utilisés comme des pages [modèles](Drawing_templates.md), plusieurs [attributs](http://www.w3schools.com/xml/xml_attributes.asp) personnalisés peuvent être utilisés, à l\'origine pour l\'usage interne de FreeCAD, mais pourraient également être utilisés par d\'autres applications compatibles avec FreeCAD dans le futur. Ces attributs utilisent tous le préfixe **freecad:** [namespace](http://www.w3schools.com/xml/xml_namespaces.asp). L\'URL de l\'espace de nom défini dans ces documents SVG fait référence à cette page.
 
 ## Utilisation
 
@@ -44,7 +44,7 @@ Les informations complémentaires pour l\'espace de travail et le bloc du titre 
 
 ## Attributs
 
-### [freecad:EditableText](#Exemple_de_code_freecad:EditableText.md)
+### _
 
 Pour utiliser l\'un des attributs **freecad:** dans vos documents SVG, vous devez d\'abord définir l\'espace de nom freecad comme un attribut de la balise d\'ouverture
 
@@ -77,13 +77,13 @@ Exemple :
 
 Définit le deuxième point d\'un objet [Draft Dimension](Draft_Dimension/fr.md) (représenté comme un groupe dans un document SVG). Cet attribut est utilisé lors de l\'importation du fragment SVG dans FreeCAD, afin de recréer l\'objet dimension. Le groupe contient des chemins et d\'autres éléments graphiques pour rendre correctement l\'objet de dimension dans d\'autres applications SVG.
 
-Exemple: voir [freecad:basepoint1](#freecad:basepoint1.md)
+Exemple: voir _
 
 ### freecad:dimpoint
 
 Définit le point d\'un objet [Draft Dimension](Draft_Dimension/fr.md) par lequel passe la ligne de cote. Cet attribut est utilisé lors de l\'importation du fragment SVG dans FreeCAD, afin de recréer l\'objet dimension. Le groupe contient des chemins et d\'autres éléments graphiques pour rendre correctement l\'objet de dimension dans d\'autres applications SVG.
 
-Exemple: voir [freecad:basepoint1](#freecad:basepoint1.md)
+Exemple: voir _
 
 ### Exemple de code freecad:EditableText 
 
@@ -221,7 +221,7 @@ Voir [Drawing Modèles](Drawing_templates/fr.md)
 
 }}
 
-[Category:Poweruser\_Documentation](Category:Poweruser_Documentation.md) [Category:Developer](Category:Developer.md) [Category:Python\_Code](Category:Python_Code.md) [Category:Macros](Category:Macros.md)
+_ _ _ _
 
 ---
-[documentation index](../README.md) > [Poweruser_Documentation](Category:Poweruser_Documentation.md) > Svg Namespace/fr
+[documentation index](../README.md) > [Poweruser_Documentation](Category_Poweruser_Documentation.md) > Svg Namespace/fr

@@ -10,7 +10,7 @@
 
 ## Description
 
-This tool removes axis alignments (<img alt="" src=images/Sketcher_ConstrainHorizontal.svg  style="width:16px;"> [Horizontal](Sketcher_ConstrainHorizontal.md), <img alt="" src=images/Sketcher_ConstrainVertical.svg  style="width:16px;"> [Vertical](Sketcher_ConstrainVertical.md) constraints) from the selected elements by trying to preserve the constraint relationship.
+This tool removes axis alignments (<img alt="" src=images/Sketcher_ConstrainHorizontal.svg  style="width:16px;"> _ constraints) from the selected elements by trying to preserve the constraint relationship.
 
 ## How to use 
 

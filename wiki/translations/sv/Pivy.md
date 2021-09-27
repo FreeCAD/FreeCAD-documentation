@@ -6,7 +6,7 @@
 
 <div class="mw-translate-fuzzy">
 
-[Pivy](http://pivy.coin3d.org/) är ett python bindnings bibliotek för [Coin3d](http://www.coin3d.org), det 3D-renderingsbibliotek som används av FreeCAD. när det importeras i en körande python tolk, så kan du föra en direkt dialog med alla körande [scengrafer](Scenegraph/sv.md), som FreeCAD\'s 3D vyer, eller att även skapa nya. Pivy följer med i en standard FreeCAD installation.
+_, som FreeCAD\'s 3D vyer, eller att även skapa nya. Pivy följer med i en standard FreeCAD installation.
 
 
 </div>
@@ -256,7 +256,7 @@ These links provide reference documentation for Coin v3.x. The differences with 
 
 }} 
 
-[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Pivy/sv
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Pivy/sv

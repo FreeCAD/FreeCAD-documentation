@@ -12,7 +12,7 @@ Un **manipulateur** est une poignée qui peut être utilisée pour modifier l\'a
 
 
 
-[Category:Glossary](Category:Glossary.md)
+_
 
 ---
-[documentation index](../README.md) > [Glossary](Category:Glossary.md) > Manipulator/fr
+[documentation index](../README.md) > [Glossary](Category_Glossary.md) > Manipulator/fr

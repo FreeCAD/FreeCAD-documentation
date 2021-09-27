@@ -7,27 +7,27 @@
 
 ### Comment tout a démarré 
 
-FreeCAD a commencé en janvier 2001 lorsque [Jürgen Riegel](User:Jriegel.md) a commencé à travailler sur le projet Cas.CADE. Cas.CADE était un framework de développement logiciel commercial qui comprenait un [noyau de modélisation géométrique](Glossary/fr#Geometric_modeling_kernel.md) (ou noyau CAO): il a été publié sous une licence open source en 2000 et renommé [Open CASCADE](OpenCASCADE/fr.md). Cela a rendu possible la réalisation d\'un programme CAO 3D open source, car avoir à programmer un noyau CAO à partir de zéro aurait nécessité un travail énorme.
+FreeCAD a commencé en janvier 2001 lorsque _ a commencé à travailler sur le projet Cas.CADE. Cas.CADE était un framework de développement logiciel commercial qui comprenait un _. Cela a rendu possible la réalisation d\'un programme CAO 3D open source, car avoir à programmer un noyau CAO à partir de zéro aurait nécessité un travail énorme.
 
 Le discours de Jürgen :
 
 
 {{Quote|text=''The FreeCAD project was started by me in January 2001, as a so called GOM (Graphical Object Modeler), with the idea to use Qt, Python and Cas.CADE, an commercial CAD-Kernel that time I used in Daimler's projects. Cas.CADE gone open source shortly before, so the time seemed right to try a move in the, at that time, empty space of open source CAD. I had a two year experience with OpenCascade in a project called QSpect in which, at the end, I was the main software designer. I learned a lot about 3D and CAD programming. I also was influenced by Catia V5 and its very special user and programming interface… In March 17 2002, within the OpenCascade Project, I registered the software as FreeCAD. I couldn't think of a better name, I'm very bad on names… In April 2003, Werner Meyer, one of the colleges in the QSpect project, switched to a company called Imetric. The contact to Imetric resulted very promising since they searched for a new 3D software platform for their 3D sensors. In 2005, Imetric donated most of its Mesh Module to FreeCAD and the Open Source community, and since then they used FreeCAD as basis for their sensor system software. Since that time, Werner Meyer is a very active developer of FreeCAD. In 2005, after one year of struggle, I decided to rip of the OpenCascade document framework and replace it with an own implementation. So, at the end, we only use the CAD kernel of OpenCascade and not the rest of its Framework. 2007 was another interesting milestone. We switched to QT4 and, therefore, to the LGPL. At that time we did much work, mainly Werner''.
-|sign=[Jürgen Riegel](User:Jriegel.md)|source=''[http://forum.freecadweb.org/viewtopic.php?f=8&t=295 Who is behind FreeCad?]''}}
+|sign=_|source=''[http://forum.freecadweb.org/viewtopic.php?f=8&t=295 Who is behind FreeCad?]''}}
 
 
 {{Quote|text=''Le projet FreeCAD a été lancé par moi-même en janvier 2001 sous le nom de GOM (Graphical Object Modeler), avec l’idée d’utiliser Qt, Python et Cas.CADE, un noyau CAD commercial que j’ai utilisé dans les projets de Daimler. Cas.CADE étant devenu open source peu de temps auparavant, le temps semblait donc bien choisi pour tenter de le faire évoluer dans l’espace vide de la CAO open source. J'ai eu une expérience de deux ans avec OpenCascade dans un projet appelé QSpect dans lequel, à la fin, j'étais le principal concepteur de logiciel. J'ai beaucoup appris sur la programmation 3D et la CAO. J'ai également été influencé par Catia V5 et son interface utilisateur et de programmation très spéciale… Le 17 mars 2002, dans le cadre du projet OpenCascade, j'ai enregistré le logiciel sous le nom de FreeCAD. Je ne pouvais pas penser à un meilleur nom, je suis très mauvais en noms… En avril 2003, Werner Meyer, l'un des collèges participant au projet QSpect, est passé à une société appelée Imetric. Le contact avec Imetric a été très prometteur car ils recherchaient une nouvelle plate-forme logicielle 3D pour leurs capteurs 3D. En 2005, Imetric a fait don de la majeure partie de son module de maillage à FreeCAD et à la communauté Open Source. Depuis lors, ils ont utilisé FreeCAD comme base de leur logiciel de système de capteurs. Depuis ce temps, Werner Meyer est un développeur très actif de FreeCAD. En 2005, après un an de lutte, j'ai décidé de supprimer le cadre de documentation OpenCascade et de le remplacer par une implémentation propre. Finalement, nous n'utilisons que le noyau CAD d'OpenCascade et pas le reste de son Framework. L'année 2007 a été une autre étape intéressante. Nous sommes passés à QT4 et, par conséquent, à la LGPL. À cette époque, nous travaillions beaucoup, principalement Werner''.
-|sign=[Jürgen Riegel](User:Jriegel.md)}}
+|sign=_}}
 
 Le projet a été annoncé au grand public lors du [forum OpenCascade](https://dev.opencascade.org/forums) en 2003.
 
 
 {{Quote|text=''Hi together, my name is Juergen Riegel and today I want announce an OpenCasCade project, FreeCAD. It is an Open Source CAx RAD based on OpenCasCade, QT and Python. It features some key concepts like Macro Recording, Workbenches, ability to run as a server and as a dynamically loadable applications' extension, and it is designed to be platform independent… Although it is in an early stage and not usable for users nor developers—the first user release is planned for the end of 2003—, I would like to get some feedback on the direction and design of FreeCAD. The GUI is nearly finished and now we, my co-developer Werner Mayer and me, have started adding the first CAD functions. FreeCAD can be seen as a general purpose mechanical CAD system, but its first audience, I think, will be CAx developers which need groundwork for own development''.
-|sign=[Jürgen Riegel](User:Jriegel.md)|source=''[http://www.opencascade.org/org/forum/thread_6572/?forum=11 Announcing FreeCAD Project]''}}
+|sign=_|source=''[http://www.opencascade.org/org/forum/thread_6572/?forum=11 Announcing FreeCAD Project]''}}
 
 
 {{Quote|text=''Bonjour à tous, je m'appelle Juergen Riegel et je souhaite aujourd'hui annoncer un projet OpenCasCade, FreeCAD. Il s'agit d'un RAD CAx Open Source basé sur OpenCasCade, QT et Python. Il présente des concepts clés tels que l'enregistrement de macros, les ateliers, la capacité de fonctionner en tant que serveur et en tant qu'extension d'applications à chargement dynamique, et il est conçu pour être indépendant de la plate-forme… Bien qu'il soit à un stade précoce et qu'il ne soit utilisable ni par les utilisateurs ni par les développeurs - la première version utilisateur est prévue pour la fin de 2003 - j'aimerais avoir votre avis sur l'orientation et la conception de FreeCAD. Le GUI est presque terminée et maintenant nous, mon co-développeur Werner Mayer et moi-même, avons commencé à ajouter les premières fonctions de CAO. FreeCAD peut être considéré comme un système de CAO mécanique à usage général, mais son premier public sera, je pense, les développeurs de CAx qui ont besoin d’un travail préparatoire pour leur propre développement''.
-|sign=[Jürgen Riegel](User:Jriegel.md)|source=''[https://dev.opencascade.org/content/announcing-freecad-project Annonce du projet FreeCAD sur Sun, 08/17/2003 - 19:23]''}}
+|sign=_|source=''[https://dev.opencascade.org/content/announcing-freecad-project Annonce du projet FreeCAD sur Sun, 08/17/2003 - 19:23]''}}
 
 ### Werner Mayer 
 
@@ -97,7 +97,7 @@ Les décisions de conception les plus importantes ont été de le rendre disponi
 
 ### Yorik rejoint le projet 
 
-[Yorik van Havre](User:Yorik.md) a rejoint le projet en 2008 et a commencé à travailler sur l\'[atelier Draft](Draft_Workbench/fr.md). Auparavant, il n\'existait aucun moyen de créer une géométrie 2D via l\'[interface graphique](Glossary/fr#GUI.md). Ce module a été entièrement programmé en Python plutôt qu\'en C++, le langage de programmation principal utilisé dans FreeCAD. Le nouvel atelier Draft a prouvé que l\'intégration Python était un succès et pouvait être utilisée pour étendre ou personnaliser les fonctionnalités de FreeCAD. En plus de son travail sur le module Draft, Yorik a amélioré la documentation de FreeCAD et est devenu *de facto* \"directeur artistique\" de FreeCAD, créant de nombreuses icônes pour le GUI de FreeCAD et [définissant son style](Artwork/fr.md).
+_ a rejoint le projet en 2008 et a commencé à travailler sur l\'[atelier Draft](Draft_Workbench/fr.md). Auparavant, il n\'existait aucun moyen de créer une géométrie 2D via l\'[interface graphique](Glossary/fr#GUI.md). Ce module a été entièrement programmé en Python plutôt qu\'en C++, le langage de programmation principal utilisé dans FreeCAD. Le nouvel atelier Draft a prouvé que l\'intégration Python était un succès et pouvait être utilisée pour étendre ou personnaliser les fonctionnalités de FreeCAD. En plus de son travail sur le module Draft, Yorik a amélioré la documentation de FreeCAD et est devenu *de facto* \"directeur artistique\" de FreeCAD, créant de nombreuses icônes pour le GUI de FreeCAD et [définissant son style](Artwork/fr.md).
 
 La version 0.7 de FreeCAD publiée en avril 2009 a été la première à inclure le module Draft. Le module Part fournit un simple flux de travail [CSG](Glossary/fr#Constructive_Solid_Geometry.md) avec la création de formes primitives et d\'opérations booléennes accessibles via le menu de la pièce. L\'extrusion de profils 2D et le filetage étaient également possibles.
 
@@ -176,7 +176,7 @@ En avril 2019, l\'équipe de développeurs principaux a été élargie: Jürgen,
 -   [SourceForge Old Files section](http://sourceforge.net/projects/free-cad/files/OldFiles/)
 -   [Announcing FreeCAD Project](http://www.opencascade.org/org/forum/thread_6572/?forum=11) Annonces sur le forum Open Cascade
 
-[Category:News](Category:News.md)
+_
 
 ---
-[documentation index](../README.md) > [News](Category:News.md) > History/fr
+[documentation index](../README.md) > [News](Category_News.md) > History/fr

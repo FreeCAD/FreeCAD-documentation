@@ -5,7 +5,7 @@ Website: <https://inkscape.org/>
 
 Inkscape can be used in conjunction with the [TechDraw Workbench](TechDraw_Workbench.md) to customize or fix broken SVG formatting.
 
-[Category:3rd Party](Category:3rd_Party.md)
+_
 
 ---
 [documentation index](../README.md) > Inkscape

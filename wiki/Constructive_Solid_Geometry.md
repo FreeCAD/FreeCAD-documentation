@@ -3,7 +3,7 @@
 
 
 
-[Category:Redirects](Category:Redirects.md) [Category:Common Questions](Category:Common_Questions.md)
+_ _
 
 ---
 [documentation index](../README.md) > Constructive Solid Geometry

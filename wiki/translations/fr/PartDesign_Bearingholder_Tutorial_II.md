@@ -25,7 +25,7 @@ C\'est la deuxième partie du tutoriel. Il utilisera ce qu\'on pourrait appeler 
 
 Évidemment, pour suivre ce tutoriel, vous devez activer l\'Atelier Conception de Pièce.
 
-~~Vous pouvez trouver ma version de la pièce créée dans ce tutoriel [http://ubuntuone.com/39PTZ3Y3LUnmZzpZQPcJT4 ici](http://ubuntuone.com/39PTZ3Y3LUnmZzpZQPcJT4_ici.md)~~ *Le fichier n\'est plus disponible, un nouveau fichier sera fourni à certains date ultérieure*.
+~~Vous pouvez trouver ma version de la pièce créée dans ce tutoriel _~~ *Le fichier n\'est plus disponible, un nouveau fichier sera fourni à certains date ultérieure*.
 
 ## 
 
@@ -87,7 +87,7 @@ Pour le reste de l\'usinage, créer un nouveau corps. Le fond du support sera us
 
 
 
-[Category:Tutorials](Category:Tutorials.md)
+_
 
 ---
-[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Bearingholder Tutorial II/fr
+[documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Bearingholder Tutorial II/fr

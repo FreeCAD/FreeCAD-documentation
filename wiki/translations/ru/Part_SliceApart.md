@@ -20,7 +20,7 @@ Tool to split shapes by intersection with other shapes. For example, for a box a
 
 * Above: the pieces were moved apart manually afterwards, to reveal the slicing.*
 
-[Slice apart](Part_SliceApart.md) is the same as <img alt="" src=images/Part_Slice.svg  style="width:24px;"> [Part Slice](Part_Slice.md) followed by <img alt="" src=images/Part_ExplodeCompound.svg  style="width:24px;"> [Part Explode Compound](Part_ExplodeCompound.md). While \"Slice to compound\" is fully-parametric, and causes no trouble as the number of pieces changes, \"Slice apart\" will not update the number of objects as the number of pieces changes. They both create Slice parametric feature, that puts the sliced pieces into a compound, but \"Slice apart\" explodes the resulting compound into separate objects.
+_ followed by <img alt="" src=images/Part_ExplodeCompound.svg  style="width:24px;"> [Part Explode Compound](Part_ExplodeCompound.md). While \"Slice to compound\" is fully-parametric, and causes no trouble as the number of pieces changes, \"Slice apart\" will not update the number of objects as the number of pieces changes. They both create Slice parametric feature, that puts the sliced pieces into a compound, but \"Slice apart\" explodes the resulting compound into separate objects.
 
 The output shape occupies the same space as the original. But it is split where it intersects with other shapes. The split pieces are individual pieces.
 

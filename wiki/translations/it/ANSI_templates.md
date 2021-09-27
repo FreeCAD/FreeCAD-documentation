@@ -59,9 +59,9 @@ Questa pagina propone i modelli standard [ANSI](http://en.wikipedia.org/wiki/Ame
 
 ## Contributi
 
-Questi modelli sono stati disegnati da [Quick61](User:Quick61.md) e sono disponibili in [FreeCAD-Drawing-Templates](https://github.com/quick61/FreeCAD-Drawing-Templates).
+Questi modelli sono stati disegnati da _ e sono disponibili in [FreeCAD-Drawing-Templates](https://github.com/quick61/FreeCAD-Drawing-Templates).
 
-[Category:Documentation](Category:Documentation.md) [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Drawing](Category:Drawing.md)
+_ _ _
 
 ---
-[documentation index](../README.md) > [Documentation](Category:Documentation.md) > ANSI templates/it
+[documentation index](../README.md) > [Documentation](Category_Documentation.md) > ANSI templates/it

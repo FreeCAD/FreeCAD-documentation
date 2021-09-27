@@ -18,7 +18,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento <img alt="" src=images/Draft_Edit.svg  style="width:16px;"> Modifica di Draft consente di modificare graficamente determinate proprietà dell\'oggetto selezionato, come i vertici di una <img alt="" src=images/Draft_Wire.svg  style="width:16px;"> [polilinea](Draft_Wire/it.md), la lunghezza e la larghezza di un <img alt="" src=images/Draft_Rectangle.svg  style="width:16px;"> [rettangolo](Draft_Rectangle/it.md), o il raggio di un <img alt="" src=images/Draft_Circle.svg  style="width:16px;"> [cerchio](Draft_Circle/it.md).
+Lo strumento <img alt="" src=images/Draft_Edit.svg  style="width:16px;"> Modifica di Draft consente di modificare graficamente determinate proprietà dell\'oggetto selezionato, come i vertici di una <img alt="" src=images/Draft_Wire.svg  style="width:16px;"> _, o il raggio di un <img alt="" src=images/Draft_Circle.svg  style="width:16px;"> [cerchio](Draft_Circle/it.md).
 
 
 </div>
@@ -79,13 +79,13 @@ The single character keyboard shortcuts mentioned here can be changed. See [Draf
 
 ## Supported objects 
 
-### <img alt="" src=images/Draft_Line.svg  style="width:24px;"> [Draft Line](Draft_Line.md) and <img alt="" src=images/Draft_Wire.svg  style="width:24px;"> [Draft Wire](Draft_Wire.md) 
+### <img alt="" src=images/Draft_Line.svg  style="width:24px;"> _ 
 
 -   If the start or end node of an open wire is moved so that they coincide, the wire is closed.
 -   Node context menu: {{Value|delete point}}. At least two points must remain.
 -   Edge context menu: {{Value|add point}}, {{Value|reverse wire}} (<small>(v0.20)</small> ).
 
-### <img alt="" src=images/Draft_Arc.svg  style="width:24px;"> [Draft Arc](Draft_Arc.md) and <img alt="" src=images/Draft_Arc_3Points.svg  style="width:24px;"> [Draft Arc 3Points](Draft_Arc_3Points.md) 
+### <img alt="" src=images/Draft_Arc.svg  style="width:24px;"> _ 
 
 -   Center node context menu: {{Value|move arc}}.
 -   Start node context menu: {{Value|set first angle}}.
@@ -115,7 +115,7 @@ The single character keyboard shortcuts mentioned here can be changed. See [Draf
 -   Node context menu: {{Value|delete point}}. At least two points must remain for an open spline. For a closed spline the minimum number of points is three.
 -   Edge context menu: {{Value|add point}}.
 
-### <img alt="" src=images/Draft_CubicBezCurve.svg  style="width:24px;"> [Draft CubicBezCurve](Draft_CubicBezCurve.md) and <img alt="" src=images/Draft_BezCurve.svg  style="width:24px;"> [Draft BezCurve](Draft_BezCurve.md) 
+### <img alt="" src=images/Draft_CubicBezCurve.svg  style="width:24px;"> _ 
 
 -   If the start or end node of an open curve is moved so that they coincide, the curve is closed.
 -   Node context menu: {{Value|make sharp}}, {{Value|make tangent}}, {{Value|make symmetric}} and {{Value|delete point}}.

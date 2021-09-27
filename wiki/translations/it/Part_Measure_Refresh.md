@@ -17,7 +17,7 @@
 
 <div class="mw-translate-fuzzy">
 
-[Aggiorna](Part_Measure_Refresh/it.md) aggiorna la [vista 3D](3D_view/it.md) per visualizzare tutte le misurazioni create con <img alt="" src=images/Part_Measure_Linear.svg  style="width:24px;"> [Misura lineare](Part_Measure_Linear/it.md) e <img alt="" src=images/Part_Measure_Angular.svg  style="width:24px;"> [Misura angolare](Part_Measure_Angular/it.md).
+_ e <img alt="" src=images/Part_Measure_Angular.svg  style="width:24px;"> [Misura angolare](Part_Measure_Angular/it.md).
 
 
 </div>

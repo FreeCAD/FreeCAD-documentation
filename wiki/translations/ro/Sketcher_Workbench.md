@@ -921,7 +921,7 @@ The [Sketcher scripting](Sketcher_scripting.md) page contains examples on how to
 
 }} 
 
-[Category:Workbenches](Category:Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > Sketcher Workbench/ro
+[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Sketcher Workbench/ro

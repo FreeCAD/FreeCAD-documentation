@@ -43,7 +43,7 @@ Seit ihrem Erscheinen in v0.17 waren Bezugsobjekte für die Verwendung innerhalb
 
 }} {{Document objects navi}} 
 
-[Category:Glossary](Category:Glossary.md)
+_
 
 ---
-[documentation index](../README.md) > [Glossary](Category:Glossary.md) > Datum/de
+[documentation index](../README.md) > [Glossary](Category_Glossary.md) > Datum/de

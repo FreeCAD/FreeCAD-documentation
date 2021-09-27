@@ -1,5 +1,5 @@
 # Customize Toolbars/zh-tw
-{{TutorialInfo/zh-tw|Topic=SampleTopic|Level=Beginner|Time=5 minutes|Author=[Mario52](User:Mario52.md)|FCVersion=All}}
+{{TutorialInfo/zh-tw|Topic=SampleTopic|Level=Beginner|Time=5 minutes|Author=_|FCVersion=All}}
 
 ## Synopsis
 
@@ -121,7 +121,7 @@ See also [Interface Customization](Interface_Customization.md).
 
 
 
-[Category:Preferences](Category:Preferences.md)
+_
 
 ---
-[documentation index](../README.md) > [Preferences](Category:Preferences.md) > Customize Toolbars/zh-tw
+[documentation index](../README.md) > [Preferences](Category_Preferences.md) > Customize Toolbars/zh-tw

@@ -3,7 +3,7 @@
 
 As of 
 
-[Category:Redirects](Category:Redirects.md)
+_
 
 ---
 [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Cube

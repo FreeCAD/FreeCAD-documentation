@@ -17,12 +17,12 @@
 
 <div class="mw-translate-fuzzy">
 
-Acest instrument convertește un obiect selectat [ Mesh](Mesh_Workbench.md) într-un obiect [ Shape](Part_Workbench.md). Notă: Acest instrument este optimizat pentru obiectele cu fețe plate (fără curbe). Instrumentul corespunzător din [Part Workbench](Part_Workbench.md) poate fi mai potrivit pentru obiectele care conțin suprafețe curbe.
+Acest instrument convertește un obiect selectat _ poate fi mai potrivit pentru obiectele care conțin suprafețe curbe.
 
 
 </div>
 
-This tool is optimized for objects with flat faces (no curves). The corresponding tool **<img src=images/Part_ShapeFromMesh.svg style="width:16px"> [Part ShapeFromMesh](Part_ShapeFromMesh.md)** from the <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> [Part Workbench](Part_Workbench.md) might be more suited for objects that contain curved surfaces.
+This tool is optimized for objects with flat faces (no curves). The corresponding tool **<img src=images/Part_ShapeFromMesh.svg style="width:16px"> _ might be more suited for objects that contain curved surfaces.
 
 ## Cum se folosește 
 
@@ -97,4 +97,4 @@ new_obj = Arch.meshToShape(Box)
 </div>
 
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch MeshToShape/ro
+[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch MeshToShape/ro

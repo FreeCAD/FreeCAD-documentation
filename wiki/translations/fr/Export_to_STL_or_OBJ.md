@@ -57,7 +57,7 @@ La méthode 2 doit être préférée. Parmi les raisons:
 
 
 
-[Category:File\_Formats](Category:File_Formats.md)
+_
 
 ---
-[documentation index](../README.md) > [File_Formats](Category:File_Formats.md) > Export to STL or OBJ/fr
+[documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Export to STL or OBJ/fr

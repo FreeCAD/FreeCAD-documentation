@@ -8,7 +8,7 @@ Esta é a principal área de ajuda para os recém chegados ao FreeCAD.
 
 Estas páginas estão em contínuo desenvolvimento, portanto, pode haver informações ausentes ou desatualizadas. Se você não conseguir encontrar as informações de que necessita, não hesite perguntar no [fórum FreeCAD](http://forum.freecadweb.org).
 
-Se você gostaria de contribuir com o FreeCAD, por favor [doar](donate/pt-br.md), e veja a página [Ajude o FreeCAD](Help_FreeCAD/pt-br.md) para outras formas de contribuir. Se você gostaria de editar este wiki, solicite uma conta wiki com permissões de editor [no fórum](https://forum.freecadweb.org/viewtopic.php?f=21&t=6830), e leia o [PaginasWiki](WikiPages/pt-br.md) para as diretrizes gerais que você deve seguir.
+Se você gostaria de contribuir com o FreeCAD, por favor _ para as diretrizes gerais que você deve seguir.
 
 Se você gostaria de saber como o FreeCAD começou há anos, visite a página [História](History/pt-br.md).
 
@@ -30,7 +30,7 @@ Veja também:
 
 ### Conceitos Básicos do Software 
 
--   [Interface](Interface/pt-br.md): a interface FreeCAD é composta de vários elementos gráficos na tela, incluindo o [Vista 3D](3D_view/pt-br.md), o [Vista em árvore](Tree_view/pt-br.md), o [Editor de propriedade](Property_editor/pt-br.md), o [Painel de tarefas](Task_panel/pt-br.md), e o [Console Python](Python_console/pt-br.md).
+-   _, o [Vista em árvore](Tree_view/pt-br.md), o [Editor de propriedade](Property_editor/pt-br.md), o [Painel de tarefas](Task_panel/pt-br.md), e o [Console Python](Python_console/pt-br.md).
 -   [Estilos de Navegação](Mouse_navigation/pt-br.md): os diferentes tipos de uso do mouse ou trackpad para navegar na visualização 3D.
 -   [Métodos de seleção](Selection_methods/pt-br.md): os diferentes métodos de seleção de objetos no software.
 -   [Nome do objeto](Object_name/pt-br.md): todos os objetos têm um {{{incódigo|Nome}}} somente de leitura que os identifica de forma única, e um {{incódigo|Label}} que é editável pelo usuário.
@@ -126,7 +126,7 @@ Esta é a ajuda online oficial do FreeCAD. Note que o sistema de ajuda online es
 
 
 
-[Category:Hubs](Category:Hubs.md)
+_
 
 ---
-[documentation index](../README.md) > [Hubs](Category:Hubs.md) > User hub/pt-br
+[documentation index](../README.md) > [Hubs](Category_Hubs.md) > User hub/pt-br

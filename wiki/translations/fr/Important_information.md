@@ -3,7 +3,7 @@
 
 [Importantes informations](Important_information/fr.md) aide à résoudre les problèmes d\'installation et d\'utilisation du programme.
 
-Le [forum FreeCAD](https://forum.freecadweb.org/viewforum.php?f=3) est le meilleur endroit pour obtenir de l\'aide d\'utilisateurs avertis et d\'experts développeurs. Pour d\'autres moyens, voir [Aide](Help/fr.md).
+Le _.
 
 ## Directives
 

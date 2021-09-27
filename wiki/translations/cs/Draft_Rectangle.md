@@ -1,6 +1,6 @@
 # Draft Rectangle/cs
 ---
-- GuiCommand:/cs   Name:Draft Rectangle   Name/cs:Draft Rectangle   Workbenches:[Architecture](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation:Draft -> Rectangle   Shortcut:R E   SeeAlso:[Part Box](Part_Box/cs.md)---
+- GuiCommand:/cs   Name:Draft Rectangle   Name/cs:Draft Rectangle   Workbenches:_---
 
 
 </div>

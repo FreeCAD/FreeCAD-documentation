@@ -79,7 +79,7 @@ W tym menu dostępne są następujące narzędzia:
     -   <img alt="" src=images/Std_ViewIvStereoInterleavedRows.svg  style="width:32px;"> [Widok z przeplotem rzędów](Std_ViewIvStereoInterleavedRows.md): Przełącza na widok stereo z przeplotem rzędów.
     -   <img alt="" src=images/Std_ViewIvStereoInterleavedColumns.svg  style="width:32px;"> [Widok z przeplotem kolumn](Std_ViewIvStereoInterleavedColumns.md): Przełącza się na widok stereo z przeplotem kolumn.
     -   <img alt="" src=images/Std_ViewIvStereoOff.svg  style="width:32px;"> [Wyłącz widok przestrzenny](Std_ViewIvStereoOff.md): Wyłącza widok stereo.
-    -   <img alt="" src=images/Std_ViewIvIssueCamPos.svg  style="width:32px;"> [Podaj pozycję kamery](Std_ViewIvIssueCamPos.md): Drukuje ustawienia kamery w [widoku raportu](Report_view.md) oraz w [konsoli Python](Python_console.md).
+    -   <img alt="" src=images/Std_ViewIvIssueCamPos.svg  style="width:32px;"> _ oraz w [konsoli Python](Python_console.md).
 
 -   Przybliżanie.
     -   <img alt="" src=images/Std_ViewZoomIn.svg  style="width:32px;"> [Przybliż](Std_ViewZoomIn.md): Przybliża widok.
@@ -137,7 +137,7 @@ W tym menu dostępne są następujące narzędzia:
     -   [Widok DAG](DAG_view.md).
 
 -   Działania w zakresie widoku drzewa. {{Version/pl|0.19}}
-    -   <img alt="" src=images/Std_TreeSyncView.svg  style="width:32px;"> [Widok synchroniczny](Std_TreeSyncView.md): Przełącza [TWidok drzewa](Tree_view/pl.md) w tryb Widok synchroniczny. {{Version/pl|0.19}}
+    -   <img alt="" src=images/Std_TreeSyncView.svg  style="width:32px;"> _ w tryb Widok synchroniczny. {{Version/pl|0.19}}
     -   <img alt="" src=images/Std_TreeSyncSelection.svg  style="width:32px;"> [Wybór synchroniczny](Std_TreeSyncSelection.md) {{Version/pl|0.19}}
     -   <img alt="" src=images/Std_TreeSyncPlacement.svg  style="width:32px;"> [Umieszczenie synchroniczne](Std_TreeSyncPlacement.md): Przełącza tryb Umieszczenie synchroniczne w widoku drzewa. {{Version/pl|0.19}}
     -   <img alt="" src=images/Std_TreePreSelection.svg  style="width:32px;"> [Wybór wstępny](Std_TreePreSelection.md): Przełącza tryb wyboru wstępnego w widoku drzewa. {{Version/pl|0.19}}
@@ -148,7 +148,7 @@ W tym menu dostępne są następujące narzędzia:
     -   <img alt="" src=images/Std_TreeDrag.svg  style="width:32px;"> [Rozpocznij przeciąganie](Std_TreeDrag.md): Inicjuje operację przeciągania dla wybranych obiektów w widoku drzewa. {{Version/pl|0.19}}
     -   <img alt="" src=images/Std_TreeSelection.svg  style="width:32px;"> [Przejdź do wyboru](Std_TreeSelection.md): Przewija widok drzewa do pierwszego utworzonego obiektu wybranego w widoku 3D. {{Version/pl|0.19}}
 
--   [Pasek stanu](Std_ViewStatusBar.md): Przełącza wyświetlenie [paska statusu](Status_bar.md).
+-   _.
 
 
 
@@ -158,7 +158,7 @@ W tym menu dostępne są następujące narzędzia:
 
 }}  
 
-[Category:Workbenches](Category:Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > [Workbenches](Category:Workbenches.md) > Std View Menu/pl
+[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Std View Menu/pl

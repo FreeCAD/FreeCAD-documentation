@@ -27,6 +27,10 @@ Der Befehl **Polygonnetz Import** importiert Geometrie aus einem Netzdateiformat
 2.  Wähle eine Datei aus.
 3.  Drücke die **Öffnen** Schaltfläche.
 
+## Supported file types 
+
+The **Mesh Import** supports: bms, stl, ast, iv, nas, bdf, obj, smf, off and ply files. For NASTRAN nas/bdf file, only GRID, CTRIA3 and CQUAD4 cards are supported. In each data line, a space must exist between two variables.
+
 ## Einstellungen
 
 -   Der zuletzt verwendete Dateispeicherort wird gespeichert: **Werkzeuge → Parameter bearbeiten... → BasisAnwendung → Einstellungen → Allgemein → FileOpenSavePath**.

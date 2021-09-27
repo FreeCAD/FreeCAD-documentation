@@ -2,10 +2,10 @@
 ## Übersicht über Python Skriptseiten 
 
 -   Python bezogene Seiten im Handbuch:
-    -   [Eine sanfte Einführung](Manual:A_gentle_introduction/de.md)
-    -   [Geometrie erstellen und verändern](Manual:Creating_and_manipulating_geometry/de.md)
-    -   [Erzeugen parametrischer Objekte](Manual:Creating_parametric_objects/de.md)
-    -   [Benutzeroberflächenwerkzeuge erstellen](Manual:Creating_interface_tools/de.md)
+    -   _
+    -   _
+    -   _
+    -   _
 
 -   Grundlagen:
     -   [Arbeiten mit Makros](Macros/de.md)
@@ -21,8 +21,8 @@
     -   [Netz: Konvertieren zwischen Netzen und Teilen](Mesh_to_Part/de.md)
     -   [Part Skripten](Part_scripting/de.md)
     -   [Part: Grundlegende Formveränderung](Topological_data_scripting/de.md)
-    -   [Part: Erstellen eines Kugellagers Teil I](Scripted_Parts:_Ball_Bearing_-_Part_1/de.md)
-    -   [Part: Erstellen eines Kugellagers Teil II](Scripted_Parts:_Ball_Bearing_-_Part_2/de.md)
+    -   _
+    -   _
     -   [Pfad Skripten](Path_scripting/de.md)
     -   [Strahlverfolgung Skripten](Raytracing_API_exampl/dee.md) (**Der Arbeitsbereich Strahlverfolgung ist veraltet**)
     -   [Skizzierer Skripten](Sketcher_scripting/de.md)
@@ -37,7 +37,7 @@
     -   [Ansichtsanbieter](Viewprovider/de.md)
     -   [Benutzerdefiniertes Symbol in der Baumansicht](Custom_icon_in_tree_view/de.md)
     -   [Eigenschaften](Property/de.md)
-    -   [PropertyLink: InList und OutList](PropertyLink:_InList_and_OutList/de.md)
+    -   _
     -   [Methoden](FeaturePython_methods/de.md)
 
 -   [3D Ansicht](3D_view/de.md):
@@ -90,7 +90,7 @@
 
 }} 
 
-[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Scripting and macros/de
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Scripting and macros/de

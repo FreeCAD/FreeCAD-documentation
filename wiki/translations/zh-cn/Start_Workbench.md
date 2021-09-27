@@ -52,7 +52,7 @@
 
 
 
-[Category:User Documentation/zh-cn](Category:User_Documentation/zh-cn.md) [Category:Start](Category:Start.md) [Category:Workbenches](Category:Workbenches.md)
+_ _ _
 
 ---
-[documentation index](../README.md) > Start Workbench/zh-cn
+[documentation index](../README.md) > [Start](Category_Start.md) > Start Workbench/zh-cn

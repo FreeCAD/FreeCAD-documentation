@@ -246,4 +246,4 @@ Une interaction plus étroite entre les ateliers est prévue pour les futures ve
 }}   {{TechDraw Tools navi}}
 
 ---
-[documentation index](../README.md) > [Arch](Category:Arch.md) > Tutorial for open windows/fr
+[documentation index](../README.md) > [Arch](Category_Arch.md) > Tutorial for open windows/fr

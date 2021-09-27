@@ -198,4 +198,4 @@ Entrambi gli strumenti Ruota e Sposta di Draft usano il sistema di Aggancio di D
 }}   {{Sketcher Tools navi}}
 
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch panel tutorial/it
+[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch panel tutorial/it

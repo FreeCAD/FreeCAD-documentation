@@ -12,7 +12,7 @@
 
 {{TOCright}}
 
-[Python](https://www.python.org) - это язык программирования высокого уровня, общего назначения, который очень часто используется в больших приложениях для автоматизации некоторых задач путем создания скриптов или [макросов](macros.md).
+_.
 
 В FreeCAD код Python можно использовать для создания различных элементов программно, без необходимости нажимать на графический пользовательский интерфейс. Кроме того, многие инструменты и верстаки FreeCAD запрограммированы на Python.
 
@@ -132,7 +132,7 @@ Structure = Arch.make_structure(Wire, name="Big pillar")
 
 }}
 
-[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:API Documentation](Category:API_Documentation.md) [Category:Python Code](Category:Python_Code.md) [Category:Glossary](Category:Glossary.md)
+_ _ _ _
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Python/ru
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Python/ru

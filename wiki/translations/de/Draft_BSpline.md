@@ -100,7 +100,7 @@ Ein Entwurf BSpline Objekt wird von einem [Part Part2DObject](Part_Part2DObject/
 
 ## Skripten
 
-Siehe auch: [Autogenerierte API Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch: _.
 
 Um einen Entwurf BSpline zu erstellen, verwende die Methode `make_bspline` ({{Version/de|0.19}}) des Entwurf Moduls. Diese Methode ersetzt die veraltete `makeBSpline` Methode.
 

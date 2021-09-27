@@ -221,7 +221,7 @@ FreeCAD rodando em modo console (sem interface gráfica)
 
 A caixa de diálogo para salvar uma imagem com dimensões personalizadas.
 
-[Category:User Documentation/pt-br](Category:User_Documentation/pt-br.md) [Category:Screenshots](Category:Screenshots.md)
+_ _
 
 ---
 [documentation index](../README.md) > Screenshots/pt-br

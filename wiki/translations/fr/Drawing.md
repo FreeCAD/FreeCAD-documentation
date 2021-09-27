@@ -18,7 +18,7 @@ Dans un usage informel, un \"Drawing\" peut être n\'importe quelle figure géom
 
 Cependant, lorsque plus de précision est requise, la distinction doit être faite.
 
--   Un \"[Corps](Body/fr.md)\" ([PartDesign Corps](PartDesign_Body/fr.md)) est un objet dérivé d\'une [Part Feature](Part_Feature/fr.md) classe (`Part::Feature`) créé avec l\'[Atelier PartDesign](PartDesign_Workbench/fr.md).
+-   Un \"_.
 -   Un \"[Part](Part/fr.md)\" ([App Part](App_Part/fr.md)) est utilisé pour regrouper plusieurs \"[Bodies](Body/fr.md)\" pour former un assemblage.
 -   Un \"Drawing\" est une projection 2D d\'un \"Body\" ou d\'une \"Part\".
 -   Un \"Drawing\" peut également être créé avec l\'[Atelier Drawing](Drawing_Workbench/fr.md). Cependant, étant donné que ce plan de travail est devenu obsolète en 0.17, vous devriez préférer l\'[Atelier TechDraw](TechDraw_Workbench/fr.md) à la place.
@@ -28,7 +28,7 @@ Cependant, lorsque plus de précision est requise, la distinction doit être fai
 
 }} {{Document objects navi}} 
 
-[Category:Glossary](Category:Glossary.md)
+_
 
 ---
-[documentation index](../README.md) > [Glossary](Category:Glossary.md) > Drawing/fr
+[documentation index](../README.md) > [Glossary](Category_Glossary.md) > Drawing/fr

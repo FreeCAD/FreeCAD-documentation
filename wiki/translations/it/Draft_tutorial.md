@@ -108,7 +108,7 @@ Ripetere la stessa procedura per un secondo arco con raggio di 25 mm, e con le a
 <div class="mw-translate-fuzzy">
 
 1.  Selezionare ![](images/Draft_Line.png ) [Linea](Draft_Line/it.md).
-2.  Avvicinare il cursore al **Punto finale** di un arco. Dovrebbe apparire un punto bianco, accanto a questa icona <img alt="" src=images/Snap_Endpoint.png  style="width:32px;">.
+2.  Avvicinare il cursore al **Punto finale** di un arco. Dovrebbe apparire un punto bianco, accanto a questa icona <img alt="" src=images/Draft_Snap_Endpoint.svg  style="width:32px;">.
 3.  Selezionare il punto finale dell\'altro arco.
 4.  Ripetere per l\'altro lato degli archi.
 
@@ -261,7 +261,7 @@ Ripetere il processo per gli archi ed i cerchi.
 
 </div>
 
-13\. Repeat the process for the circle located in the center. The first point of the measurement will still be the origin. To select the second point make sure **<img src=images/Draft_Snap_Lock.svg style="width:16px"> <img src=images/Draft_Snap_Angle.svg style="width:Toggle snap](Draft_Snap_Lock.md)** is active, and only **[16px"> [Angle](Draft_Snap_Angle.md)** as well. As you move the pointer to the top of the circle, the <img alt="" src=images/Draft_Snap_Angle.svg  style="width:24px;"> [Angle](Draft_Snap_Angle.md) icon should appear; click to select this point. Then move the cursor to the right, and click to fix the dimension.
+13\. Repeat the process for the circle located in the center. The first point of the measurement will still be the origin. To select the second point make sure **<img src=images/Draft_Snap_Lock.svg style="width:16px"> <img src=images/Draft_Snap_Angle.svg style="width:Toggle snap](Draft_Snap_Lock.md)** is active, and only **_ icon should appear; click to select this point. Then move the cursor to the right, and click to fix the dimension.
 
 Remember to adjust the **Font Size**, and other properties to see the dimension correctly.
 

@@ -25,8 +25,8 @@ Vous trouverez ici une liste approfondie, mais cependant incomplète, des foncti
 
 
 -   ![](images/Feature3.jpg ) Un **modèle paramétrique** complet. Tous les objets construits dans FreeCAD sont paramétriques, ce qui signifie que leurs formes sont basées sur des [propriétés](Property/fr.md) ou peuvent même dépendre d\'autres objets. Toutes les modifications sont recalculées à la demande et enregistrées dans la pile annuler/rétablir. Les nouveaux types d\'objet peuvent être ajoutés très facilement et peuvent même être totalement [programmés en Python](Scripted_objects/fr.md).
--   ![](images/Feature4.jpg ) L**\'architecture modulaire** permet aux modules (plugins) d\'ajouter des fonctionnalités à l\'application de base. Ces extensions peuvent être aussi complexes qu\'une nouvelle application programmée en **[C++](http://fr.wikipedia.org/wiki/C%2B%2B)** ou aussi simple qu\'un **[Script Python](Power_users_hub/fr.md)** ou encore une [macro](macros/fr.md) que vous avez enregistrée. Vous avez un accès complet à la console **[Python](http://www.python.org/)** intégrée pour concevoir vos macros ou exécuter des scripts externes, à pratiquement n\'importe quelle partie de FreeCAD que ce soit pour la création, la transformation, la représentation [géométrique](Topological_data_scripting/fr.md) 2D ou 3D de votre [projet graphique](scenegraph/fr.md) ou même l\'[interface de FreeCAD](PySide/fr.md) elle-même.
--   ![](images/Feature5.jpg ) L\'importation/exportation de **formats standards** tels que [STEP](http://fr.wikipedia.org/wiki/Standard_pour_l%27%C3%A9change_de_donn%C3%A9es_de_produit), [IGES](http://fr.wikipedia.org/wiki/Initial_Graphics_Exchange_Specification), [OBJ](https://fr.wikipedia.org/wiki/Obj), [STL](http://fr.wikipedia.org/wiki/Fichier_de_st%C3%A9r%C3%A9olithographie), [DXF](http://fr.wikipedia.org/wiki/Drawing_eXchange_Format), [SVG](http://fr.wikipedia.org/wiki/Scalable_Vector_Graphics), [DAE](http://fr.wikipedia.org/wiki/Collaborative_Design_Activity), [SFI](http://fr.wikipedia.org/wiki/Industry_Foundation_Classes) ou [OFF](http://people.sc.fsu.edu/~jburkardt/data/off/off.html), [NASTRAN](http://fr.wikipedia.org/wiki/Nastran), [VRML](http://fr.wikipedia.org/wiki/Virtual_Reality_Markup_Language), outre le format de fichier originaire de FreeCAD*\' {{FileName|[FCStd](File_Format_FCStd/fr.md)}}*\'. Le niveau de compatibilité entre FreeCAD et un format de fichier donné peut varier car cela dépend du module qui l\'implémente.
+-   !_** ou encore une _ 2D ou 3D de votre [projet graphique](scenegraph/fr.md) ou même l\'[interface de FreeCAD](PySide/fr.md) elle-même.
+-   !_}}*\'. Le niveau de compatibilité entre FreeCAD et un format de fichier donné peut varier car cela dépend du module qui l\'implémente.
 -   ![](images/Feature7.jpg ) Le module [Sketcher](Sketcher_Workbench/fr.md) est un solveur de contraintes qui permet de faire des esquisses des formes 2D géométriques contraintes. L\'esquisse 2D contrainte avec Sketcher permet aujourdh\'ui de construire plusieurs types de contraintes géométriques et de les utiliser comme la base de construction d\'autres objets tout au long de l\'utilisation de FreeCAD.
 -   ![](images/Feature9.jpg ) Le module [Robot](Robot_Workbench/fr.md) permet d\'étudier les mouvements de type robot dans un environnement graphique.
 -   ![](images/_Feature8.jpg ) Le module [TechDraw](TechDraw_Workbench/fr.md) avec les options telles que vue détaillée, coupes, cotations et autres permet de générer des vues 2D sur feuille à partir de vos modèles 3D. Ce module produit des feuilles au format SVG ou PDF prêtes à être exportées. Il existe toujours l\'ancien module [Drawing](Drawing_Workbench/fr.md) avec quelques commandes par interface graphique mais présente de puissantes fonctionnalités en [Python](http://www.python.org/).
@@ -40,7 +40,7 @@ Vous trouverez ici une liste approfondie, mais cependant incomplète, des foncti
 
 -   **FreeCAD est multiplate-forme**. Le logiciel fonctionne et se comporte exactement de la même manière sur Windows, Linux, macOS et d\'autres plateformes.
 
--   **FreeCAD est une application entièrement graphique**. FreeCAD possède une Interface Graphique Utilisateur développée sur le célèbre framework [Qt](https://www.qt.io/) avec une visualisation 3D basée sur [Open Inventor](wikipedia:fr:Inventor_(bibliothèque_logicielle).md) qui permet un rendu rapide des travaux en 3D et une représentation graphique de ces mêmes travaux très accessible.
+-   **FreeCAD est une application entièrement graphique**. FreeCAD possède une Interface Graphique Utilisateur développée sur le célèbre framework _ qui permet un rendu rapide des travaux en 3D et une représentation graphique de ces mêmes travaux très accessible.
 
 -   **FreeCAD peut aussi fonctionner en ligne de commande**, avec une utilisation réduite des ressources. En ligne de commande, FreeCAD s\'exécute sans son interface, mais avec tous ses outils géométriques. Il est possible, par exemple de l\'utiliser comme serveur pour produire du contenu destiné à d\'autres applications.
 
@@ -102,7 +102,7 @@ Des utilisateurs avancés ont créé différents [Ateliers externes](external_wo
 
 
 
-[Category:User Documentation](Category:User_Documentation.md)
+_
 
 ---
-[documentation index](../README.md) > [User Documentation](Category:User Documentation.md) > Feature list/fr
+[documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > Feature list/fr

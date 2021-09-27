@@ -45,16 +45,13 @@ Wenn du möchtest, dass etwas in FreeCAD erscheint, das noch nicht implementiert
 
 ## Einreichen von Änderungssätzen 
 
+
+<div class="mw-translate-fuzzy">
+
 Falls du eine Fehlerbehebung, eine Erweiterung oder etwas anderes programmiert hast, das in FreeCAD von öffentlichem Nutzen sein kann, erstelle einen Änderungssatz mit dem Git diff Werkzeug und sende ihn auf demselben Fehlerverfolger (Datei als *Patch* ablegen).
 
-Addendumː Die FreeCAD Entwicklung ist auf das [GitHub](https://github.com/FreeCAD/FreeCAD) Entwicklungsmodell umgestiegen, so dass der Arbeitsablauf für das Einreichen von Patches durch das Einreichen von Pull Requests stark verbessert/gestrafft wurde.
 
-1.  Öffne ein Forumsthema im [Unterforum für Entwickler](https://forum.freecadweb.org/viewforum.php?f=10), um deinen Patch anzukündigen und zu diskutieren.
-2.  Reiche deinen Pull Request (PR) an das [FreeCAD GitHub Repo](http://github.com/FreeCAD/FreeCAD) ein. Stelle sicher, in der Git-Commit-Zusammenfassung auf das Forumsthema zu verknüpfen. Falls du vorher noch nicht mit {{Incode|git}} gearbeitet hast oder nicht mit dem Einreichen eines PR auf GitHub vertraut bist, lies bitte unsere Einführung auf der [github](Source_code_management/de.md)-Wiki-Seite.
-3.  Füge die PR-Verknüpfung in das Forumsthema ein, damit die Entwickler/Tester den Patch testen können.
-4.  Sei bei der Diskussion anwesend, damit dein Code möglicherweise effektiver zusammengeführt werden kann.
-
-**Anmerkung** die FreeCAD-Gemeinschaft empfiehlt, jede größere Überarbeitung des Quellcodes im Voraus zu diskutieren, um allen Zeit zu sparen.
+</div>
 
 ## Zusammenführen anfragen 
 
@@ -180,7 +177,7 @@ Für die Neugierigen hier ist die regex, die MantisBT für diese Operation verwe
 
 
 
-[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Administration](Category:Administration.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Tracker/de
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Tracker/de

@@ -70,7 +70,7 @@ Wenn du das aktive Dokument auswählst und mit der rechten Maustaste klickst, mu
 
 -    {{MenuCommand/de|Markieren zum Neuberechnen}}: markiert alle Objekte des Dokuments als berührt und bereit für [Neuberechnen](recompute/de.md).
 
--    {{MenuCommand/de|[Create group](Std_Group/de.md)}}: Erzeugt eine [Gruppe](Std_Group/de.md) im ausgewählten Dokument, indem du die Dokumenten `addObject()` Methode.
+-    {{MenuCommand/de|_ im ausgewählten Dokument, indem du die Dokumenten `addObject()` Methode.
 
 ### Objekte auswählen 
 
@@ -78,19 +78,19 @@ Sobald Objekte zum Dokument hinzugefügt wurden, zeigt ein Rechtsklick auf einen
 
 Zum Beispiel mit angewähltem [Arbeitsbereich Entwurf](Draft_Workbench/de.md), wähle zuerst ein Objekt und klicke dann mit der rechten Maustaste auf eine leere Stelle in der Baumansicht:
 
--    {{MenuCommand/de|[Toggle visibility](Std_ToggleVisibility/de.md)}}: macht das Objekt in der [3D Ansicht](3D_view/de.md) sichtbar oder unsichtbar.
+-    {{MenuCommand/de|_ sichtbar oder unsichtbar.
 
 -    {{MenuCommand/de|[Show selection](Std_ShowSelection/de.md)}}: macht die ausgewählten Objekte sichtbar.
 
 -    {{MenuCommand/de|[Hide selection](Std_HideSelection/de.md)}}: macht die ausgewählten Objekte unsichtbar.
 
--    {{MenuCommand/de|[Toggle selectability](Std_ToggleSelectability/de.md)}}: macht das Objekt in der[3D Ansicht](3D_view/de.md) nicht mehr auswählbar; verwende diesen Befehl erneut, um die Wirkung aufzuheben. Es setzt das Attribut `Selectable` des Objekts auf `True` oder `False`. Ändere die Eigenschaft, indem Du {{PropertyView/de|Selectable}} im [Property Editor](Property_Editor/de.md) umschaltest.
+-    {{MenuCommand/de|_ nicht mehr auswählbar; verwende diesen Befehl erneut, um die Wirkung aufzuheben. Es setzt das Attribut `Selectable` des Objekts auf `True` oder `False`. Ändere die Eigenschaft, indem Du {{PropertyView/de|Selectable}} im [Property Editor](Property_Editor/de.md) umschaltest.
 
 -    {{MenuCommand/de|[Select all instances](Std_TreeSelectAllInstances/de.md)}}: wählt alle Instanzen dieses Objekts in der Baumansicht aus.
 
 -    {{MenuCommand/de|[Appearance](Std_SetAppearance/de.md)}}: startet den Dialog zum Ändern der Farbe und Größe von Linien und Knoten sowie der Farbe von Flächen.
 
--    {{MenuCommand/de|[Zufällige Farbe](Std_RandomColor/de.md)}}: Weist dem Objekt eine Zufallsfarbe zu. Es setzt das Attribut `ShapeColor` des Objekts auf ein Tupel `(r,g,b)` mit drei zufälligen Gleitkommazahlen zwischen 0 und 1 und ändert die Eigenschaft, indem es {{PropertyView/de|Form Farbe}} im [Eigenschaftseditor](Property_Editor/de.md) ändert.
+-    {{MenuCommand/de|_ ändert.
 
 -    {{MenuCommand/de|[Schnitt](Std_Cut/de.md)}}: deaktiviert, wenn der Rechtsklick nicht auf das Objekt erfolgt.
 

@@ -23,11 +23,15 @@ A small selection of features that can be created:
 
 ## Usage
 
+Make sure that the body containing the object to be embossed is the active body.
+
+:   If required Double click on its representation in the tree view to activate it.
+
 ### Dimple
 
 1.  Select the face of the SheetMetal object to be embossed
 2.  Select the **bottom face** (back side) of the shape defining solid
-    -   **Note:** Don\'t forget the **Control**/**Command** key!
+    -   **Note:** Both the object to be embossed **and** the shape defining solid must be selected. Activate the multi-select method appropriate for your operating system: **Control**/**Command**.
 3.  Activate the <img alt="" src=images/SheetMetal_Forming.svg  style="width:16px;"> [Make Forming in Wall](SheetMetal_Forming.md) command using:
     -   
         **<img src="images/SheetMetal_Forming.svg" width=16px> [Make Forming in Wall](SheetMetal_Forming.md)
@@ -48,7 +52,7 @@ A small selection of features that can be created:
 1.  Select the face of the SheetMetal object to be embossed
 2.  Select the **bottom face** (back side) of the shape defining solid
 3.  Select a **side face** adjoined to the bottom face to mark the area to be cut open
-    -   **Note:** Don\'t forget the **Control**/**Command** key!
+    -   **Note:** The object to be embossed **and** the shape defining solid **and** the marking cut face must be selected. Activate the multi-select method appropriate for your operating system: **Control**/**Command**.
 4.  Activate the <img alt="" src=images/SheetMetal_Forming.svg  style="width:16px;"> [Make Forming in Wall](SheetMetal_Forming.md) command (see above)
 
 ### Bridge
@@ -57,7 +61,7 @@ A small selection of features that can be created:
 2.  Select the **bottom face** (back side) of the shape defining solid
 3.  Select a **side face** adjoined to the bottom face to mark one area to be cut open
 4.  Select the **opposite face** adjoined to the bottom face to mark the other area to be cut open
-    -   **Note:** Don\'t forget the **Control**/**Command** key!
+    -   **Note:** The object to be embossed **and** the shape defining solid, **and** both marking cut faces must be selected. Activate the multi-select method appropriate for your operating system: **Control**/**Command**.
 5.  Activate the <img alt="" src=images/SheetMetal_Forming.svg  style="width:16px;"> [Make Forming in Wall](SheetMetal_Forming.md) command (see above)
 
 ### Drawn Cutout 
@@ -65,7 +69,7 @@ A small selection of features that can be created:
 1.  Select the face of the SheetMetal object to be embossed
 2.  Select the **bottom face** (back side) of the shape defining solid
 3.  Select the **top face** opposite the bottom face to mark the area to be cut open
-    -   **Note:** Don\'t forget the **Control**/**Command** key!
+    -   **Note:** The object to be embossed **and** the shape defining solid **and** marking face must be selected. Activate the multi-select method appropriate for your operating system: **Control**/**Command**.
 4.  Activate the <img alt="" src=images/SheetMetal_Forming.svg  style="width:16px;"> [Make Forming in Wall](SheetMetal_Forming.md) command (see above)
 
 ### Multiply and Pattern 
@@ -156,7 +160,7 @@ No need to work with coplanar sketches here.
 ### Workflow
 
 1.  Select the wall of the SheetMetal object to be embossed
-2.  Select the **back side** of the shape defining solid  (Don\'t forget the <img alt="" src=images/SheetMetal_Forming-04.png  style="width:240px;">
+2.  Select the **back side** of the shape defining solid  (Remember both the object to be embossed **and** the shape defining solid must be selected. Activate the multi-select method appropriate for your operating system: <img alt="" src=images/SheetMetal_Forming-04.png  style="width:240px;">
 3.  Press the  or use the keyboard shortcut:  <img alt="" src=images/SheetMetal_Forming-05.png  style="width:240px;">
 4.  Fillet the sharp edges:
     -   Flip the bowl and select one or more edges for the smaller inner radii
@@ -184,7 +188,7 @@ No need to work with coplanar sketches here.
 
 
 
-[Category:SheetMetal](Category:SheetMetal.md) [Category:Addons](Category:Addons.md) [Category:External Command Reference](Category:External_Command_Reference.md)
+_ _ _
 
 ---
-[documentation index](../README.md) > [SheetMetal](Category:SheetMetal.md) > SheetMetal Forming
+[documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > SheetMetal Forming

@@ -98,7 +98,24 @@ A Draft WorkingPlaneProxy object is derived from an [App FeaturePython](App_Feat
 ### View
 
 
-{{TitleProperty|Arch}}
+{{TitleProperty|Base}}
+
+-    **Line Color|Color**: specifies the color of all elements of the working plane proxy.
+
+-    **Line Width|Float**: specifies the line width of the axes and arrow symbols.
+
+-    **Restore State|Bool**: specifies if the **Visibility Map** is restored when the [working plane](Draft_SelectPlane.md) is aligned with the working plane proxy.
+
+-    **Restore View|Bool**: specifies if the **View Data** is restored when the [working plane](Draft_SelectPlane.md) is aligned with the working plane proxy.
+
+-    **Transparency|Percent**: specifies the transparency of the face of the working plane proxy.
+
+-    **View Data|FloatList**: specifies the camera position and settings.
+
+-    **Visibility Map|Map|Hidden**: specifies the visibility state of objects.
+
+
+{{TitleProperty|Draft}}
 
 
 <div class="mw-translate-fuzzy">
@@ -115,23 +132,6 @@ A Draft WorkingPlaneProxy object is derived from an [App FeaturePython](App_Feat
 
 
 </div>
-
-
-{{TitleProperty|Base}}
-
--    **Line Color|Color**: specifies the color of all elements of the working plane proxy.
-
--    **Line Width|Float**: specifies the line width of the axes and arrow symbols.
-
--    **Restore State|Bool**: specifies if the **Visibility Map** is restored when the [working plane](Draft_SelectPlane.md) is aligned with the working plane proxy.
-
--    **Restore View|Bool**: specifies if the **View Data** is restored when the [working plane](Draft_SelectPlane.md) is aligned with the working plane proxy.
-
--    **Transparency|Percent**: specifies the transparency of the face of the working plane proxy.
-
--    **View Data|FloatList**: specifies the camera position and settings.
-
--    **Visibility Map|Map|Hidden**: specifies the visibility state of objects.
 
 ## Script
 

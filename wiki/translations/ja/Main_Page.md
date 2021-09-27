@@ -3,7 +3,7 @@
 
 ## はじめに
 
-これは[FreeCAD](http://www.freecadweb.org)のドキュメントwikiです。マニュアルを参照するには、ユーザーハブを探索する方法と、マニュアルを参照する方法の2つの方法があります。 FreeCADのユーザーと開発者のコ​​ミュニティによって作成された作業です。情報が間違っているか見つからない場合は、[help FreeCAD](help_FreeCAD.md)！
+これは_！
 
 # FreeCAD
 
@@ -63,7 +63,7 @@ FreeCADは強力なジオメトリーカーネルである[OpenCasCade](http://e
 
 -   ![](images/Feature8.jpg ) 3Dモデルの2Dビューをシート上に配置することを可能にする[ドローイングシートモジュール](Drawing_Workbench/jp.md)。さらにこのモジュールはエクスポート用のSVG、PDFシートを作成します。このモジュールはまだ未完成ですが既に強力なPythonの機能を提供しています。
 -   ![](images/Feature-raytracing.jpg ) 外部レンダラを使ったレンダリング用の3Dモジュールエクスポートを可能にする[レンダリングモジュール](Raytracing_Workbench.md)。現在サポートされているのは[POV-Ray](http://en.wikipedia.org/wiki/POV-Ray)だけですが将来的には他のレンダラにも拡張される予定です。
--   ![](images/Feature-arch.jpg ) [BIM](http://en.wikipedia.org/wiki/Building_Information_Modeling)ライクなワークフローを可能にする[IFC](http://en.wikipedia.org/wiki/Industry_Foundation_Classes)と互換性のある[建築モジュール](Arch_Module/jp.md)。Archモジュールの作成については[このコミュニティ](http://forum.freecadweb.org/viewtopic.php?f=10&t=821)によって激しい議論が行われています。
+-   !_。Archモジュールの作成については[このコミュニティ](http://forum.freecadweb.org/viewtopic.php?f=10&t=821)によって激しい議論が行われています。
 -   ![](images/Feature-assembly.jpg ) 複数の形状、複数ドキュメント、複数ファイル、複数の関連物での作業を可能にする[アセンブリモジュール](Assembly_project/jp.md)。
 
 ## マニュアル
@@ -100,7 +100,7 @@ FreeCADはcMakeまたはautotoolsを使ってコンパイルすることがで�
 
 
 
-This is the documentation wiki of [FreeCAD](http://www.freecadweb.org). The information contained here is what forms the offline documentation shipped with FreeCAD itself. You have two main ways to browse through the documentation: by exploring user hubs, or by following the manual. It is a work in progress, written by the community of users and developers of FreeCAD. If you find information that is wrong or missing, please [help](Help_FreeCAD.md)!
+This is the documentation wiki of _!
 
 
 </div>
@@ -134,7 +134,7 @@ This is the documentation wiki of [FreeCAD](http://www.freecadweb.org). The info
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/Crystal_Clear_manual.png  style="width:64px;"> [The FreeCAD manual](Manual:Introduction.md) は、このwikiに含まれる情報を表現するもう一つのより線形な方法です。 それは本のように読まれるように作られ、上のハブから他の多くのページにあなたを穏やかに紹介します。 [ebook versions](https://www.gitbook.com/book/yorikvanhavre/a-freecad-manual/details) も利用できます。また、[a couple of translations in pdf format](https://www.freecadweb.org/manual/) 
+<img alt="" src=images/Crystal_Clear_manual.png  style="width:64px;"> _ は、このwikiに含まれる情報を表現するもう一つのより線形な方法です。 それは本のように読まれるように作られ、上のハブから他の多くのページにあなたを穏やかに紹介します。 [ebook versions](https://www.gitbook.com/book/yorikvanhavre/a-freecad-manual/details) も利用できます。また、[a couple of translations in pdf format](https://www.freecadweb.org/manual/) 
  FreeCADマニュアルはFreeCADの使用についての最先端のドキュメントを提供するためにコミュニティの努力のもと常に作業が行われており、既に複数の言語で利用可能です。まだマニュアルには多くの情報が欠けています。遠慮せずに参加と[貢献を行ってください](Help_FreeCAD/jp.md)！
 
 +----------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------+
@@ -205,7 +205,7 @@ FreeCADはcMakeまたはautotoolsを使ってコンパイルすることがで�
 
 
 
-[Category:Documentation](Category:Documentation.md)
+_
 
 ---
-[documentation index](../README.md) > [Documentation](Category:Documentation.md) > Main Page/ja
+[documentation index](../README.md) > [Documentation](Category_Documentation.md) > Main Page/ja

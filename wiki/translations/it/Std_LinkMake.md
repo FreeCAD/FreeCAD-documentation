@@ -16,21 +16,21 @@
 **<img src="images/Std_LinkMake.svg" width=16px> [Crea link](Std_LinkMake/it.md)
 **
 
-crea un [App Link](App_Link/it.md) (classe `App::Link`), che è un tipo di oggetto che fa riferimento o collega ad un altro oggetto, nello stesso documento o in un altro documento. È appositamente progettato per duplicare in modo efficiente un singolo oggetto più volte, il che aiuta nella creazione di [assemblaggi](assembly/it.md) complessi da sottoassiemi più piccoli e da più componenti riutilizzabili come viti, dadi e dispositivi di fissaggio simili.
+crea un _ complessi da sottoassiemi più piccoli e da più componenti riutilizzabili come viti, dadi e dispositivi di fissaggio simili.
 
 L\'oggetto <img src=images/Draft_Clone.svg style="width:App Link](App_Link/it.md) è stato introdotto di recente nella versione 0.19; in passato, si poteva ottenere una semplice duplicazione di oggetti con **[16px"> [Clona](Draft_Clone/it.md)** di Draft, ma questa è una soluzione meno efficiente a causa della sua implementazione che essenzialmente crea una copia della [Forma (Shape)](Part_TopoShape/it.md) interna dell\'oggetto sorgente. Invece, un link fa riferimento direttamente alla forma originale, quindi è più efficiente in termini di memoria.
 
 
 <div class="mw-translate-fuzzy">
 
-Di per sé l\'oggetto <img src=images/Draft_OrthoArray.svg style="width:Link](App_Link/it.md) può comportarsi come un array, duplicando più volte il suo oggetto base; questo può essere fatto impostando la sua proprietà **Element Count** su {{Value|1}} o più grande. Questo oggetto \"[Link\_Array](Std_LinkMake/it#Link_Array.md)\" può essere creato anche con i diversi strumenti dell\'array <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Ambiente Draft](Draft_Workbench/it.md), per esempio, **[16px"> <img src=images/Draft_PolarArray.svg style="width:Draft Serie ortogonale](Draft_OrthoArray/it.md)**, **[16px"> <img src=images/Draft_CircularArray.svg style="width:Draft Serie polare](Draft_PolarArray/it.md)**, and **[16px"> [Draft Serie circolare](Draft_CircularArray/it.md)**.
+Di per sé l\'oggetto <img src=images/Draft_OrthoArray.svg style="width:Link](App_Link/it.md) può comportarsi come un array, duplicando più volte il suo oggetto base; questo può essere fatto impostando la sua proprietà **Element Count** su {{Value|1}} o più grande. Questo oggetto \"_, per esempio, **_**, and **[16px"> [Draft Serie circolare](Draft_CircularArray/it.md)**.
 
 
 </div>
 
-Quando si lavora con l\'<img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> <img src=images/PartDesign_Body.svg style="width:Ambiente Part Design](PartDesign_Workbench/it.md), i link sono destinati ad essere utilizzati con i **[16px"> <img src=images/PartDesign_LinearPattern.svg style="width:Corpo di Part Design](PartDesign_Body/it.md)**, quindi si consiglia di impostare la modalità {{PropertyView/it|Display Mode Body}} su {{Value|Tip}} per selezionare le caratteristiche dell\'intero corpo, e non le singole caratteristiche. Per creare array di elementi interni [Funzioni di PartDesign](PartDesign_Feature/it.md), utilizzare **[16px"> <img src=images/PartDesign_PolarPattern.svg style="width:PartDesign Serie lineare](PartDesign_LinearPattern/it.md)**, **[16px"> <img src=images/PartDesign_MultiTransform.svg style="width:PartDesign Serie polare](PartDesign_PolarPattern/it.md)**, e **[16px"> [PartDesign Multitransformazione](PartDesign_MultiTransform/it.md)**.
+Quando si lavora con l\'<img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> <img src=images/PartDesign_Body.svg style="width:Ambiente Part Design](PartDesign_Workbench/it.md), i link sono destinati ad essere utilizzati con i **_**, **[16px"> <img src=images/PartDesign_MultiTransform.svg style="width:PartDesign Serie polare](PartDesign_PolarPattern/it.md)**, e **[16px"> [PartDesign Multitransformazione](PartDesign_MultiTransform/it.md)**.
 
-Lo strumento **<img src=images/Std_LinkMake.svg style="width:16px"> <img src=images/Std_Part.svg style="width:Crea link](Std_LinkMake/it.md)** non è definito da un particolare banco di lavoro, ma dal sistema di base, quindi si trova nella **Struttura della barra degli strumenti** che è disponibile in tutti gli [ambienti di lavoro](Workbenches/it.md). L\'oggetto Link, usato insieme a **[16px"> [Parte](Std_Part/it.md)** per raggruppare vari oggetti, costituisce la base di <img alt="" src=images/Assembly3_workbench_icon.svg  style="width:24px;"> [Assembly3](Assembly3_Workbench/it.md) e <img alt="" src=images/Assembly4_workbench_icon.svg  style="width:24px;"> [Assembly4 Workbenches](Assembly4_Workbench/it.md).
+Lo strumento **<img src=images/Std_LinkMake.svg style="width:16px"> <img src=images/Std_Part.svg style="width:Crea link](Std_LinkMake/it.md)** non è definito da un particolare banco di lavoro, ma dal sistema di base, quindi si trova nella **Struttura della barra degli strumenti** che è disponibile in tutti gli _ e <img alt="" src=images/Assembly4_workbench_icon.svg  style="width:24px;"> [Assembly4 Workbenches](Assembly4_Workbench/it.md).
 
 ## Utilizzo
 
@@ -95,7 +95,7 @@ può essere usato su **<img src=images/Std_Part.svg style="width:16px"> [Parte](
 
 *Link creato da una [Parte](Std_Part/it.md); gli oggetti non sono duplicati, ma sono elencati sotto il contenitore originale e sotto il Link contenitore.*
 
-Un regolare **<img src=images/Std_Group.svg style="width:16px"> <img src=images/Std_LinkMake.svg style="width:Gruppo](Std_Group/it.md)** non possiede una proprietà {{PropertyData/it|Placement}}, quindi non può controllare la posizione degli oggetti al suo interno. Tuttavia, quando **[16px"> <img src=images/Std_Group.svg style="width:Crea link](Std_LinkMake/it.md)** è usato con **[16px"> <img src=images/Std_Part.svg style="width:Gruppo](Std_Group/it.md)**, il Link risultante si comporta essenzialmente come una **[16px"> [Parte](Std_Part/it.md)** e può anche essere spostata nello spazio.
+Un regolare **<img src=images/Std_Group.svg style="width:16px"> <img src=images/Std_LinkMake.svg style="width:Gruppo](Std_Group/it.md)** non possiede una proprietà {{PropertyData/it|Placement}}, quindi non può controllare la posizione degli oggetti al suo interno. Tuttavia, quando **_**, il Link risultante si comporta essenzialmente come una **[16px"> [Parte](Std_Part/it.md)** e può anche essere spostata nello spazio.
 
 ![](images/Std_Link_tree_Std_Group_example.png ) ![](images/Std_Link_Std_Group_example.png )
 
@@ -107,7 +107,7 @@ Un collegamento a una **<img src=images/Std_Part.svg style="width:16px"> <img sr
 ![](images/Std_Link_tree_Std_Part_visibility.png ) ![](images/Std_Link_tree_Std_Group_visibility.png )
 
 
-*Sinistra: [Parte](Std_Part/it.md) con due oggetti, e due Links alla Parte; la visibilità degli oggetti è sincronizzata. Destra: [Gruppo](Std_Group/it.md) con due oggetti, e due Links al Gruppo; la visibilità degli oggetti è controllata indipendentemente in ogni gruppo.*
+*Sinistra: _ con due oggetti, e due Links al Gruppo; la visibilità degli oggetti è controllata indipendentemente in ogni gruppo.*
 
 ## Aspetto dominante 
 
@@ -155,7 +155,7 @@ Una volta che si è soddisfatti del posizionamento e delle proprietà degli elem
 
 <div class="mw-translate-fuzzy">
 
-Quando si crea questo tipo di array Link, è necessario posizionare manualmente ciascuno degli elementi; tuttavia, se si desidera utilizzare modelli specifici per posizionare le copie, è possibile utilizzare gli strumenti di array del <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> <img src=images/Draft_OrthoArray.svg style="width:Ambiente Draft](Draft_Workbench/it.md), come **[16px"> <img src=images/Draft_PolarArray.svg style="width:Draft: Serie ortogonale](Draft_OrthoArray/it.md)**, **[16px"> <img src=images/Draft_CircularArray.svg style="width:Draft: Serie Polare](Draft_PolarArray/it.md)**, e **[16px"> [Draft: Serie circolare](Draft_CircularArray/it.md)**; questi comandi possono creare copie normali o copie Link a seconda delle opzioni al momento della creazione.
+Quando si crea questo tipo di array Link, è necessario posizionare manualmente ciascuno degli elementi; tuttavia, se si desidera utilizzare modelli specifici per posizionare le copie, è possibile utilizzare gli strumenti di array del <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> <img src=images/Draft_OrthoArray.svg style="width:Ambiente Draft](Draft_Workbench/it.md), come **_**, e **[16px"> [Draft: Serie circolare](Draft_CircularArray/it.md)**; questi comandi possono creare copie normali o copie Link a seconda delle opzioni al momento della creazione.
 
 
 </div>
@@ -187,7 +187,7 @@ Quando il Link è per una **<img src=images/Std_Part.svg style="width:16px"> <im
 
 ## Proprietà
 
-Un [App Link](App_Link/it.md) (`App::Link` class) è derivato dall\'[App DocumentObject](App_DocumentObject/it.md) (`App::DocumentObject` class) di base quindi ha le proprietà di base di quest\'ultimo come {{PropertyData/it|Label}} e {{PropertyData/it|Label2}}.
+Un _ (`App::DocumentObject` class) di base quindi ha le proprietà di base di quest\'ultimo come {{PropertyData/it|Label}} e {{PropertyData/it|Label2}}.
 
 Di seguito sono riportate le proprietà specifiche disponibili nell\'[editor delle proprietà](Property_editor/it.md). Le proprietà nascoste possono essere mostrate utilizzando il comando {{MenuCommand/it|Show all}} nel menu contestuale dell\'[editor delle proprietà](Property_editor/it.md).
 
@@ -313,7 +313,7 @@ Mostra inoltre le proprietà Vista dell\'originale **Linked Object**.
 
 ## Eredità
 
-Un [App Link](App_Link/it.md) è formalmente un\'istanza della classe `App::Link`, il cui genitore è il genitore di base [App DocumentObject](App_DocumentObject/it.md). (`App::DocumentObject` class). È un oggetto di livello molto basso, che può essere usato con la maggior parte degli altri oggetti documento.
+Un _. (`App::DocumentObject` class). È un oggetto di livello molto basso, che può essere usato con la maggior parte degli altri oggetti documento.
 
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
 

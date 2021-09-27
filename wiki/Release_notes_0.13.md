@@ -145,7 +145,7 @@ Geometry (Points, Lines and Curves) may be selected by dragging on the backgroun
 
 
 
-[Category:News](Category:News.md) [Category:Documentation](Category:Documentation.md) [Category:Releases](Category:Releases.md)
+_ _ _
 
 ---
-[documentation index](../README.md) > [News](Category:News.md) > Release notes 0.13
+[documentation index](../README.md) > [News](Category_News.md) > Release notes 0.13

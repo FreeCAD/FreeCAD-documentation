@@ -30,7 +30,7 @@
 
 }} 
 
-[Category:TechDraw](Category:TechDraw.md)
+_
 
 ---
-[documentation index](../README.md) > [TechDraw](Category:TechDraw.md) > Artwork TechDraw/ru
+[documentation index](../README.md) > [TechDraw](Category_TechDraw.md) > Artwork TechDraw/ru

@@ -5,7 +5,7 @@
 |Author=Piffpoof
 }}
 
-**Remarque de [L\'utilisateur: Piffpoof](L'utilisateur:_Piffpoof.md): certains changements entre v 0.14 et v 0.15 ont affecté cette macro qui retardera sa publication**
+**Remarque de _: certains changements entre v 0.14 et v 0.15 ont affecté cette macro qui retardera sa publication**
 
 Ces macros prennent en charge la création et la maintenance des cables et flexibles.
 

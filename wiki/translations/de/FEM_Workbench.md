@@ -85,6 +85,8 @@ Der FEM Arbeitsbereich kann unter Linux, Windows und Mac OSX eingesetzt werden. 
 
 -   <img alt="" src=images/FEM_ConstraintTie.svg  style="width:32px;"> [Beschränkungsbindung](FEM_ConstraintTie/de.md): {{Version/de|0.19}}
 
+-   <img alt="" src=images/FEM_ConstraintSpring.svg  style="width:32px;"> [Constraint spring](FEM_ConstraintSpring.md): Used to define a tie constraint (\"bonded contact\") between two faces. <small>(v0.20)</small> 
+
 -   <img alt="" src=images/FEM_ConstraintForce.svg  style="width:32px;"> [Kraftbeschränkung](FEM_ConstraintForce.md): Wird verwendet, um eine Kraft in \[N\] festzulegen, die gleichmäßig auf eine wählbare Fläche in einer definierbaren Richtung wirkt.
 
 -   <img alt="" src=images/FEM_ConstraintPressure.svg  style="width:32px;"> [Druckbeschränkung](FEM_ConstraintPressure/de.md): Wird verwendet, um eine Druckbeschränkung festzulegen.
@@ -138,6 +140,8 @@ Der FEM Arbeitsbereich kann unter Linux, Windows und Mac OSX eingesetzt werden. 
 -   <img alt="" src=images/FEM_SolverCalculiX.svg  style="width:32px;"> [Löser CalculiX (experimentell)](FEM_SolverCalculiX/de.md):
 
 -   <img alt="" src=images/FEM_SolverElmer.svg  style="width:32px;"> [Löser Elmer](FEM_SolverElmer/de.md): Erstellt den Löser Steuerung für Elmer. Er ist unabhängig von anderen Löser Objekten.
+
+-   <img alt="" src=images/FEM_SolverMystran.svg  style="width:32px;"> [Solver Mystran](FEM_SolverMystran.md):
 
 -   <img alt="" src=images/FEM_SolverZ88.svg  style="width:32px;"> [Löser Z88](FEM_SolverZ88/de.md):
 
@@ -272,7 +276,7 @@ Ein Entwicklerhandbuch wurde geschrieben, um Power-Usern zu helfen, die komplexe
 
 }} 
 
-[Category:Workbenches](Category:Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > FEM Workbench/de
+[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > FEM Workbench/de

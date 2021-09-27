@@ -49,7 +49,7 @@ Decalajul imaginii poate fi setat în timpul importului sau poate fi modificat m
 
 }} 
 
-[Category:Workbenches](Category:Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > Image Workbench/ro
+[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Image Workbench/ro

@@ -5,29 +5,18 @@
    MenuLocation:SheetMetal → Unattended Unfold
    Workbenches:[Blech (SheetMetal)](SheetMetal_Workbench/de.md)
    Shortcut:**U**
-   SeeAlso:<img src="images/SheetMetal_Unfold.svg" width=16px> [SheetMetal Abwickeln](SheetMetal_Unfold/de.md)
+|[SheetMetal Abwickeln](SheetMetal_Unfold/de.md)
 ---
 
 # SheetMetal UnattendedUnfold/de
-
-
-</div>
 
 ## Beschreibung
 
 Der Befehl <img alt="" src=images/SheetMetal_UnattendedUnfold.svg  style="width:24px;"> [Abwickeln ohne Eingaben](SheetMetal_UnattendedUnfold/de.md) wickelt ein Blechobjekt ab.
 
-
-<div class="mw-translate-fuzzy">
-
 Wenn der Elternkörper einer ausgewählten ebenen Fläche schon zuvor von einer Abwicklung betroffen war, überspringt dieses Werkzeug das Menü im Aufgaben-Fenster. Andernfalls zeigt es eine Fehlermeldung, die auffordert einen K-Faktor anzugeben (\"set a Manual K-factor\") oder ein Materialdatenblatt zu verwenden (\"use a Material Definition Sheet\").
 
 :   Mit der ersten Benutzung des <img alt="" src=images/SheetMetal_Unfold.svg  style="width:16px;"> [Abwickeln](SheetMetal_Unfold.md)-Befehls erhält das **Label** des Elternkörpers einen Zusatz (wie z.B. *\_material\_0.5din*) und ist danach bereit für die Benutzung mit diesem Werkzeug.
-
-
-</div>
-
-With the first use of the <img alt="" src=images/SheetMetal_Unfold.svg  style="width:16px;"> [Unfold](SheetMetal_Unfold.md) command the parent body\'s label received a suffix (such as *\_material\_0.5din*) and after that it is ready to be use with this tool.
 
 ## Anwendung
 
@@ -61,7 +50,7 @@ Siehe <img alt="" src=images/SheetMetal_Unfold.svg  style="width:16px;"> [Abwick
 
 
 
-[Category:SheetMetal](Category:SheetMetal.md) [Category:Addons](Category:Addons.md) [Category:External Command Reference](Category:External_Command_Reference.md)
+_ _ _
 
 ---
-[documentation index](../README.md) > [SheetMetal](Category:SheetMetal.md) > SheetMetal UnattendedUnfold/de
+[documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > SheetMetal UnattendedUnfold/de

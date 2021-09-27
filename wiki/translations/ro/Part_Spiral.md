@@ -1,6 +1,6 @@
 # Part Spiral/ro
 ---
-- GuiCommand:   Name:Part Spiral   MenuLocation:[Create Primitives](Part_Workbench___Part]]_→_[[Part_CreatePrimitives.md) → Spiral|Workbenches:[OpenSCAD](Part_Workbench___Part]],__[[OpenSCAD_Workbench.md)|SeeAlso:[Create Primitives](Part_CreatePrimitives.md)---
+- GuiCommand:   Name:Part Spiral   MenuLocation:_|SeeAlso:[Create Primitives](Part_CreatePrimitives.md)---
 
 
 </div>

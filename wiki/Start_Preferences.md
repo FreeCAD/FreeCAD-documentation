@@ -108,7 +108,7 @@ In the *Start page* tab you can specify the following:
 
  {{Start Tools navi}} 
 
-[Category:Preferences](Category:Preferences.md)
+_
 
 ---
-[documentation index](../README.md) > [Start](Start_Workbench.md) > Start Preferences
+[documentation index](../README.md) > [Preferences](Category_Preferences.md) > [Start](Start_Workbench.md) > Start Preferences

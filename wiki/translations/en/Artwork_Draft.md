@@ -18,7 +18,7 @@ For all icons in the source tree, see [Artwork](Artwork.md).
 
 
 
-[Category:Draft](Category:Draft.md)
+_
 
 ---
-[documentation index](../README.md) > [Draft](Category:Draft.md) > Artwork Draft/en
+[documentation index](../README.md) > [Draft](Category_Draft.md) > Artwork Draft/en

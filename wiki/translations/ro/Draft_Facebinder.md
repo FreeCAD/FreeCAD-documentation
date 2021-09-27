@@ -33,7 +33,7 @@ It can be used to create an extrusion from a collection of faces. This extrusion
 <div class="mw-translate-fuzzy">
 
 1.  Selectați fețetele pe obiecte (utilizați CTRL pentru a selecta mai multe fețe)
-2.  Apăsați butonul {{KEY | [ 16px](Imagine:_Draft_Facebinder.png .md) [ Facebinder](Draft_Facebinder_.md)}}, sau apăsați tatele {{KEY | F}}, {{KEY | F}}
+2.  Apăsați butonul {{KEY | _ [ Facebinder](Draft_Facebinder_.md)}}, sau apăsați tatele {{KEY | F}}, {{KEY | F}}
 
 
 </div>

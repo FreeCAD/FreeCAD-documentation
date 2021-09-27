@@ -25,9 +25,9 @@ FreeCAD este în primul rând o aplicație de modelare 3D și, prin urmare, nu a
 
 Acestea sunt instrumente pentru crearea obiectelor de pagină.
 
--   <img alt="" src=images/TechDraw_New_Default.png  style="width:32px;"> [New Default](TechDraw_New_Default.md): adaugă o nouă pagină utilizând [template](TechDraw_Templates.md) implicit.
+-   <img alt="" src=images/TechDraw_New_Default.png  style="width:32px;"> _ implicit.
 
--   <img alt="" src=images/TechDraw_New_Pick.png  style="width:32px;"> [New Pick](TechDraw_New_Pick.md): Adaugă o nouă pagină utilizând o selecție [template](TechDraw_Templates.md).
+-   <img alt="" src=images/TechDraw_New_Pick.png  style="width:32px;"> _.
 
 -   <img alt="" src=images/TechDraw_RedrawPage.svg  style="width:32px;"> [Redraw Page](TechDraw_RedrawPage.md): forces an update of the selected page. <small>(v0.19)</small> 
 
@@ -45,11 +45,11 @@ Acestea sunt instrumente pentru crearea de Vizualizare obiecte.
 
 -   <img alt="" src=images/techdraw-viewdetail.png  style="width:32px;"> [New Detail](TechDraw_NewDetail.md): adaugă un detaliu vizualizarea unei porțiuni dintr-o vizualizare existentă.
 
--   <img alt="" src=images/techdraw-draft-view.png  style="width:32px;"> [New Draft](TechDraw_NewDraft.md): adaugă o vizualizare la un Obiect din Atelierul [Draft Workbench](Draft_Workbench.md) .
+-   <img alt="" src=images/techdraw-draft-view.png  style="width:32px;"> _ .
 
--   <img alt="" src=images/techdraw-arch-view.png  style="width:32px;"> [New Arch](TechDraw_NewArch.md): adaugă o vizualizare la un obiect din Atelierul Arhitectură adaugă o vizualizare a [Arch Workbench](Arch_Workbench.md) [SectionPlane](Arch_SectionPlane.md) .
+-   <img alt="" src=images/techdraw-arch-view.png  style="width:32px;"> _ [SectionPlane](Arch_SectionPlane.md) .
 
--   <img alt="" src=images/techdraw-spreadsheet.svg  style="width:32px;"> [Spreadsheet](TechDraw_Spreadsheet.md): inserează o vizualizare a unei foi de calcul [Spreadsheet Workbench](Spreadsheet_Workbench.md) sheet.
+-   <img alt="" src=images/techdraw-spreadsheet.svg  style="width:32px;"> _ sheet.
 
 ## Măști
 
@@ -141,6 +141,38 @@ Cotele liniare pot fi bazate pe două puncte, o linie sau două linii.
 
 -   <img alt="" src=images/TechDraw_LandmarkDimension.svg  style="width:32px;"> [Insert Landmark Dimension](TechDraw_LandmarkDimension.md): adds a landmark distance dimension. <small>(v0.19)</small> 
 
+## Extensions
+
+These are tools to improve your TechDraw drawings.
+
+
+**Some of these tools have yet to be released.**
+
+-   <img alt="" src=images/TechDraw_ExtensionCircleCenterLines.svg  style="width:32px;"> [Draw circle centerlines](TechDraw_ExtensionCircleCenterLines.md): adds centerlines to circles and arcs. <small>(v0.20)</small> 
+
+-   <img alt="" src=images/TechDraw_ExtensionThreadHoleSide.svg  style="width:32px;"> [Cosmetic thread hole side view](TechDraw_ExtensionThreadHoleSide.md): adds a symbolic thread to the side view of a hole. <small>(v0.20)</small> 
+
+-   <img alt="" src=images/TechDraw_ExtensionThreadBoltSide.svg  style="width:32px;"> [Cosmetic thread bolt side view](TechDraw_ExtensionThreadBoltSide.md): adds a symbolic thread to the side view of a bolt. <small>(v0.20)</small> 
+
+-   <img alt="" src=images/TechDraw_ExtensionThreadHoleBottom.svg  style="width:32px;"> [Cosmetic thread hole bottom view](TechDraw_ExtensionThreadHoleBottom.md): adds symbolic threads to the bottom view of holes. <small>(v0.20)</small> 
+
+-   <img alt="" src=images/TechDraw_ExtensionThreadBoltBottom.svg  style="width:32px;"> [Cosmetic thread bolt bottom view](TechDraw_ExtensionThreadBoltBottom.md): adds symbolic threads to the bottom view of bolts. <small>(v0.20)</small> 
+
+
+<div class="mw-translate-fuzzy">
+
+## Import/Export
+
+
+</div>
+
+These are tools for exporting pages to other applications.
+
+-   \* <img alt="" src=images/techdraw-saveSVG.svg  style="width:32px;"> _ .
+-   <img alt="" src=images/techdraw-saveDXF.svg  style="width:32px;"> _.
+
+-   <img alt="" src=images/TechDraw_ExportPageDXF.svg  style="width:32px;"> _ file.
+
 ## Decorațiune
 
 Acestea sunt instrumente pentru modificarea aspectului paginilor și al vizualizărilor.
@@ -149,9 +181,9 @@ Acestea sunt instrumente pentru modificarea aspectului paginilor și al vizualiz
 
 -   <img alt="" src=images/techdraw-geomhatch.png  style="width:32px;"> [Geometric Hatch](TechDraw_GeomHatch.md): aplică un model de trasură la o față folosind o specificație Autodesk PAT.
 
--   <img alt="" src=images/techdraw-symbol.png  style="width:32px;"> [New Symbol](TechDraw_Symbol.md): inserază un simbol cartezian [SVG](SVG.md) în pagină.
+-   <img alt="" src=images/techdraw-symbol.png  style="width:32px;"> _ în pagină.
 
--   <img alt="" src=images/Techdraw-image.png  style="width:32px;"> [New Image](TechDraw_Image.md): Inserează o imagine PNG or JPG [bitmap](bitmap.md) în pagină.
+-   <img alt="" src=images/Techdraw-image.png  style="width:32px;"> _ în pagină.
 
 -   <img alt="" src=images/techdraw-toggleframe.png  style="width:32px;"> [Toggle Frames](TechDraw_Toggle.md): Comuntă on/off cadrele și etichete care înconjoară o pagină.
 
@@ -186,32 +218,6 @@ The annotation tools are for \"marking up\" a drawing with additional informatio
 -   <img alt="" src=images/TechDraw_ShowAll.svg  style="width:32px;"> [Show/Hide Invisible Edges](TechDraw_ShowAll.md): shows/hides invisible lines/edges in a view. <small>(v0.19)</small> 
 
 -   <img alt="" src=images/TechDraw_WeldSymbol.svg  style="width:32px;"> [Add Welding Information to Leader](TechDraw_WeldSymbol.md): adds welding specifications to an existing leaderline. <small>(v0.19)</small> 
-
-## Extension Package 
-
-The Extension Package includes many useful tools to improve your TechDraw drawings.
-
-
-**Some of these tools have yet to be released.**
-
--   <img alt="" src=images/TechDraw_ExtensionCircleCenterLines.svg  style="width:32px;"> [CircleCenterLines](TechDraw_ExtensionCircleCenterLines.md): adds center lines to circles and arcs. <small>(v0.20)</small> 
-
--   <img alt="" src=images/TechDraw_ExtensionThreadHoleSide.svg  style="width:32px;"> [ThreadHoleSide](TechDraw_ExtensionThreadHoleSide.md): adds a symbolic thread to the side view of a hole. <small>(v0.20)</small> 
-
--   <img alt="" src=images/TechDraw_ExtensionThreadHoleBottom.svg  style="width:32px;"> [ThreadHoleBottom](TechDraw_ExtensionThreadHoleBottom.md): adds symbolic threads to the bottom view of holes. <small>(v0.20)</small> 
-
--   <img alt="" src=images/TechDraw_ExtensionThreadBoltSide.svg  style="width:32px;"> [ThreadBoltSide](TechDraw_ExtensionThreadBoltSide.md): adds a symbolic thread to the side view of a bolt. <small>(v0.20)</small> 
-
--   <img alt="" src=images/TechDraw_ExtensionThreadBoltBottom.svg  style="width:32px;"> [ThreadBoltBottom](TechDraw_ExtensionThreadBoltBottom.md): adds symbolic threads to the bottom view of bolts. <small>(v0.20)</small> 
-
-## Import/Export
-
-These are tools for exporting pages to other applications.
-
--   \* <img alt="" src=images/techdraw-saveSVG.svg  style="width:32px;"> [Save SVG](TechDraw_SaveSVG.md): Salvează o pagină ca fișier [SVG](SVG.md) .
--   <img alt="" src=images/techdraw-saveDXF.svg  style="width:32px;"> [Save DXF](TechDraw_SaveDXF.md): Salvează o pagină ca fișier [DXF](DXF.md).
-
--   <img alt="" src=images/TechDraw_ExportPageDXF.svg  style="width:32px;"> [Export Page as DXF](TechDraw_ExportPageDXF.md): saves the current page as [DXF](DXF.md) file.
 
 ## Caracteristici suplimentare 
 
@@ -272,8 +278,14 @@ Instrumentele TechDraw pot fi utilizate în [macros](macros.md) și din consola 
 
 ## Tutoriale
 
+
+<div class="mw-translate-fuzzy">
+
 -   [Basic TechDraw Tutorial](Basic_TechDraw_Tutorial.md): introducere în crearea de desene cu TechDraw Workbench.
 -   [ Crearea unui nou șablon](TechDraw_TemplateHowTo.md): instrucțiuni pentru crearea unui nou șablon de pagină în Inkscape pentru utilizarea cu TechDraw Workbench.
+
+
+</div>
 
 Video tutorials by sliptonic
 
@@ -287,7 +299,7 @@ Video tutorials by sliptonic
 
 }} 
 
-[Category:Workbenches](Category:Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > TechDraw Workbench/ro
+[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > TechDraw Workbench/ro

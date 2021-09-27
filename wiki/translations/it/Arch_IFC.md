@@ -12,7 +12,7 @@
 
 ## Descrizione
 
-Gli ambienti <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Arch](Arch_Workbench/it.md) e <img alt="" src=images/Workbench_BIM.svg  style="width:24px;"> [BIM](BIM_Workbench/it.md) (Build Information Modeling) forniscono un importatore e esportatore [Industry Foundation Classes (IFC)](http://en.wikipedia.org/wiki/Industry_Foundation_Classes). Il formato IFC è un formato sempre più diffuso per scambiare dati tra le applicazioni [BIM](http://en.wikipedia.org/wiki/Building_Information_Modeling), utilizzato in architettura e in ingegneria.
+Gli ambienti <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> _ (Build Information Modeling) forniscono un importatore e esportatore [Industry Foundation Classes (IFC)](http://en.wikipedia.org/wiki/Industry_Foundation_Classes). Il formato IFC è un formato sempre più diffuso per scambiare dati tra le applicazioni [BIM](http://en.wikipedia.org/wiki/Building_Information_Modeling), utilizzato in architettura e in ingegneria.
 
 Sia l\'importatore che l\'esportatore dipendono dalla libreria [IfcOpenShell](IfcOpenShell/it.md), che è inclusa in alcune distribuzioni di FreeCAD. Un modo semplice per verificare se IfcOpenShell è presente e disponibile, è provare a importare o esportare un file IFC o semplicemente inserire quanto segue nella [console Python](Python_console/it.md) di FreeCAD (che si attiva dal menu Visualizza → Pannelli):
 
@@ -68,7 +68,7 @@ Attivando **mostra i messaggi di debug** nelle impostazioni delle preferenze IFC
 
 ## Exportazione
 
-L\'esportazione in IFC esporta tutti gli oggetti selezionati e i loro discendenti. Sono supportati tutti gli oggetti Arch e BIM, così come altri oggetti creati in altri ambienti. Al momento, gli unici oggetti non completamente supportati sono i <img alt="" src=images/PartDesign_Body.svg  style="width:16px;"> [corpi PartDesign](PartDesign_Body/it.md), le <img alt="" src=images/Std_Part.svg  style="width:16px;"> [Parti standard](Std_Part/it.md) e le nuove strutture come i <img alt="" src=images/Link.svg  style="width:16px;"> [Link](Std_LinkMake/it.md) e i <img alt="" src=images/LinkGroup.svg  style="width:16px;"> Gruppi di link, quindi è necessario fare ualcune prove se si usano. I [Riferimenti Arch](Arch_Reference/it.md) attualmente sono esportati come `IfcBuildingElementProxies`.
+L\'esportazione in IFC esporta tutti gli oggetti selezionati e i loro discendenti. Sono supportati tutti gli oggetti Arch e BIM, così come altri oggetti creati in altri ambienti. Al momento, gli unici oggetti non completamente supportati sono i <img alt="" src=images/PartDesign_Body.svg  style="width:16px;"> _ e le nuove strutture come i <img alt="" src=images/Link.svg  style="width:16px;"> _ attualmente sono esportati come `IfcBuildingElementProxies`.
 
 Per esportare un intero sito o edificio o un intero piano o un gruppo contenente altri oggetti, basta selezionare quell\'edificio o piano o gruppo. Gli oggetti Arch verranno esportati con il tipo impostato nella proprietà \"Tipo IFC\". Vengono esportati anche le loro [IfcProperties](http://www.buildingsmart-tech.org/ifc/IFC4/Add1/html/schema/ifcpropertyresource/lexical/ifcproperty.htm) e se questi oggetti hanno un UID IFC da una precedente importazione, all\'esportazione viene mantenuto lo stesso UID. Gli oggetti che non sono oggetti Arch vengono esportati come [IfcBuildingElementProxy](http://www.buildingsmart-tech.org/ifc/IFC4/Add1/html/schema/ifcsharedbldgelements/lexical/ifcbuildingelementproxy.htm).
 
@@ -92,7 +92,7 @@ Se la forma degli oggetti esportati si basa su una estrusione o una operazione b
 
  
 
-[Category:File Formats](Category:File_Formats.md)
+_
 
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch IFC/it
+[documentation index](../README.md) > [File Formats](Category_File Formats.md) > [Arch](Arch_Workbench.md) > Arch IFC/it

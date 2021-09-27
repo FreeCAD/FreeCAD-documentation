@@ -12,7 +12,7 @@
 
 The [Footing Reinforcement](Arch_Rebar_Footing_Reinforcement.md) tool allows the user to create reinforcing bars inside a Footing [Arch Structure](Arch_Structure.md) object.
 
-This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md), an [external workbench](External_workbenches.md) that can be installed with the <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Addon_Manager.md) via the **Tools → Addon manager → Reinforcement** menu.
+This command is part of the _ via the **Tools → Addon manager → Reinforcement** menu.
 
 In this example we will create Combined Footing Reinforcement as shown in below figure. ![Isomeric view of Combined Footing reinforcement](images/Combined_Footing_reinforcement.png ) *A Example of Combined Footing reinforcement in Footing [Arch Structure](Arch_Structure.md)*
 

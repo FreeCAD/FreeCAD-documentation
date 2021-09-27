@@ -43,16 +43,11 @@ Jeśli chcesz, aby w FreeCAD pojawiło się coś, co nie jest jeszcze zaimplemen
 
 ## Przesyłanie łatek 
 
-Jeśli zaprogramowałeś poprawkę dotyczącą błędu, rozszerzenie lub coś innego, co może być użyteczne publicznie w programie FreeCADe, stwórz łatkę używając narzędzia Git diff i prześlij ją na tym samym trackerze *(zapisz ją jako **łatkę**)*.
+Jeśli zaprogramowałeś poprawkę dotyczącą błędu, rozszerzenie lub coś innego, co może być użyteczne publicznie w programie FreeCADe, prześlij swoją poprawkę jako \"Pull Request\" na [GitHub](https://github.com/FreeCAD/FreeCAD).
 
-Uzupełnienieː Rozwijanie programu FreeCAD zostało oparte na modelu [GitHub](https://github.com/FreeCAD/FreeCAD), więc przepływ pracy przy przesyłaniu łatek został znacznie ulepszony i uzupełniony poprzez przesyłanie Pull Requests.
-
-1.  Otwórz wątek na forum, w [podforum dewelopera](https://forum.freecadweb.org/viewforum.php?f=10), aby ogłosić i omówić swój patch.
-2.  Wyślij swój Pull Request *(PR)* do [FreeCAD repozytorium GitHub](http://github.com/FreeCAD/FreeCAD). Upewnij się, że połączyłeś wątek forum z podsumowaniem git commit. Jeśli nie pracowałeś wcześniej z `Git` lub nie jesteś zaznajomiony z wysyłaniem PR na Github, przeczytaj nasze wprowadzenie do [Github](Source_code_management.md) na stronie wiki.
-3.  Wklej link PR do wątku forum dla testerów deweloperów.
-4.  Bądź obecny podczas dyskusji, aby Twój kod mógł być potencjalnie efektywniej połączony.
-
-**UWAGA**:, społeczność FreeCAD zaleca, aby najpierw przedyskutować każdą dużą zmianę kodu źródłowego, w celu oszczędności czasu.
+1.  Dla dużych, złożonych lub zmieniających zachowanie zgłoszeń, otwórz wątek na [forum dla programistów](https://forum.freecadweb.org/viewforum.php?f=10), aby ogłosić i omówić swoją poprawkę. Dla małych poprawek błędów nie jest to konieczne.
+2.  Prześlij swój Pull Request *(PR)* do _ na stronie wiki.
+3.  Bądź obecny w dyskusji, zarówno na forum jak i w żądaniu podciągnięcia na GitHub, aby twój kod mógł być potencjalnie scalony bardziej efektywnie.
 
 ## Wnioskowanie o połączenie 
 
@@ -179,7 +174,7 @@ Dla dociekliwych: mamy tu zastosowanie wyrażenia regularnego MantisBT do tej op
 
 
 
-[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Administration](Category:Administration.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Tracker/pl
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Tracker/pl

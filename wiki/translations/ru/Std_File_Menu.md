@@ -75,7 +75,7 @@
 
 }}  
 
-[Category:Workbenches](Category:Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > [Workbenches](Category:Workbenches.md) > Std File Menu/ru
+[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Std File Menu/ru

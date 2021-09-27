@@ -5,7 +5,7 @@
 
 [Constructive solid geometry](https://en.wikipedia.org/wiki/Constructive_solid_geometry) *(**CSG**)* to paradygmat modelowania, który jest używany w wielu tradycyjnych systemach CAD. Zasadniczo polega on na użyciu pierwotnych obiektów bryłowych i wykonywaniu na nich operacji logicznych, takich jak łączenie, odejmowanie i przecinanie, w celu utworzenia ostatecznego kształtu.
 
-W programie FreeCAD metoda ta jest najczęściej wykorzystywana przy użyciu środowiska pracy <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Część](Part_Workbench/pl.md), która posiada możliwość tworzenia pierwotnych obiektów takich jak <img alt="" src=images/Part_Box.svg  style="width:24px;"> [sześcian](Part_Box/pl.md), <img alt="" src=images/Part_Cylinder.svg  style="width:24px;"> [walec](Part_Cylinder/pl.md), oraz <img alt="" src=images/Part_Sphere.svg  style="width:24px;"> [kula](Part_Sphere/pl.md) oraz łączenia ich ze sobą, lub używania ich do cięcia innych obiektów za pomocą takich narzędzi środowiska pracy Część jak **<img src="images/Part_Cut.svg" width=24px> [Wytnij](Part_Cut/pl.md)**.
+W programie FreeCAD metoda ta jest najczęściej wykorzystywana przy użyciu środowiska pracy <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> _, <img alt="" src=images/Part_Cylinder.svg  style="width:24px;"> _ oraz łączenia ich ze sobą, lub używania ich do cięcia innych obiektów za pomocą takich narzędzi środowiska pracy Część jak **<img src="images/Part_Cut.svg" width=24px> [Wytnij](Part_Cut/pl.md)**.
 
 <img alt="" src=images/Part_Constructive_Solid_Geometry_workflow.svg  style="width:800px;">
 
@@ -29,15 +29,15 @@ Alternatywnie, środowisko pracy <img alt="" src=images/Workbench_PartDesign.svg
 
 ## Poradniki
 
-Strona [Poradniki](Tutorials/pl.md) zawiera kilka przykładów tworzenia brył za pomocą środowiska pracy <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Część](Part_Workbench/pl.md), które wykorzystują metodę **CSG**.
+Strona _, które wykorzystują metodę **CSG**.
 
--   [Podręcznik:Modelowanie tradycyjne, według CSG](Manual:Traditional_modeling,_the_CSG_way/pl.md)
+-   _
 -   [Poradnik: Kula Whiffle](Whiffle_Ball_tutorial/pl.md)
 -   [Poradnik: Podstawy modelowania](Basic_modeling_tutorial/pl.md)
 
  
 
-[Category:Common Questions](Category:Common_Questions.md)
+_
 
 ---
-[documentation index](../README.md) > [Common Questions](Category:Common Questions.md) > Constructive solid geometry/pl
+[documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > Constructive solid geometry/pl

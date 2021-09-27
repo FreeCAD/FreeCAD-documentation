@@ -60,7 +60,7 @@ El menú estándar se compone de 7 submenús. Cada submenú tiene una página de
 
 }} 
 
-[Category:Workbenches](Category:Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > [Workbenches](Category:Workbenches.md) > Std Base/es
+[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Std Base/es

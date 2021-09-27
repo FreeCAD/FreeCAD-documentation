@@ -43,18 +43,13 @@ Si vous souhaitez que quelque chose apparaisse dans FreeCAD qui ne soit pas enco
 
 ![Page de rapport de FreeCAD Bugtracker - utilisez le menu déroulant pour désigner correctement le ticket](images/MantisBT-setting-Feature-Request.jpg )
 
-## Soumettre un correctif (**patch**) 
+## Soumettre un correctif (*patch*) 
 
-Dans le cas, où vous avez programmé une correction d\'un bug (**patch**), une extension ou autre chose qui peut être d\'utilité publique dans FreeCAD, créer un **patch** à l\'aide de l\'outil **Subversion diff tool** et de le soumettre sur **[mantis bug tracker](http://www.mantisbt.org/)** <img alt="" src=images/Mantis_logo_button.gif  style="width:64px;"> **et envoyez-le comme patch**.
+Si vous avez programmé une correction de bogue, une extension ou quelque chose d\'autre qui peut être d\'utilité publique dans FreeCAD, soumettez votre patch comme une \"Pull Request\" sur [GitHub](https://github.com/FreeCAD/FreeCAD).
 
-Addendum ː Le développement de FreeCAD a basculé vers le modèle de développement [GitHub](https://github.com/FreeCAD/FreeCAD), de sorte que le flux de travail pour soumettre des correctifs a été grandement amélioré/simplifié par la soumission de Pull Requests (PR).
-
-1.  Ouvrez un fil de discussion dans le forum [Developer subforum](https://forum.freecadweb.org/viewforum.php?f=10) pour annoncer et discuter de votre correctif.
-2.  Soumettez votre Pull Request (PR) sur le [dépôt FreeCAD GitHub](http://github.com/FreeCAD/FreeCAD). Veillez à créer un lien vers le fil de discussion du forum dans le résumé du commit git. Si vous n\'avez jamais travaillé avec `git` auparavant ou si vous n\'êtes pas familier avec la soumission d\'une PR à github, veuillez lire notre page wiki d\'introduction à [github](Source_code_management/fr.md).
-3.  Collez le lien PR dans le fil de discussion du forum pour que les développeurs/testers puissent le tester.
-4.  Soyez présent lors de la discussion afin que votre code puisse potentiellement être fusionné plus efficacement.
-
-**Remarque :** la communauté FreeCAD recommande de discuter au préalable de toute révision importante du code source afin de faire gagner du temps à tous.
+1.  Pour une contribution importante, complexe ou modifiant le comportement, ouvrez un fil de discussion sur le forum [Developer subforum](https://forum.freecadweb.org/viewforum.php?f=10) pour annoncer et discuter de votre correctif. Ce n\'est pas nécessaire pour les petites corrections de bogues.
+2.  Soumettez votre Pull Request (PR) sur la _.
+3.  Soyez présent lors de la discussion, à la fois sur le forum et dans la pull request GitHub afin que votre code puisse potentiellement être fusionné plus rapidement.
 
 ## Demande de fusion 
 
@@ -179,7 +174,7 @@ Pour les curieux, voici le regex que MantisBT utilise pour cette opération:
 
 
 
-[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Administration](Category:Administration.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Tracker/fr
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Tracker/fr

@@ -7,7 +7,7 @@
 The installation of FreeCAD on the most well-known Linux systems has been now endorsed by the community, and FreeCAD should be directly available via the package manager available on your distribution. The FreeCAD team also provides some:
 
 -   \"Official\" packages when new releases are made
--   Experimental [Personal Package Archive](https://help.ubuntu.com/community/PPA) (PPA) repositories, [AppImages](AppImage.md), and [Ubuntu Snaps](Ubuntu_Snap.md) for testing bleeding-edge features.
+-   Experimental _, and [Ubuntu Snaps](Ubuntu_Snap.md) for testing bleeding-edge features.
 
 
 <div class="mw-collapsible mw-collapsed toccolours">
@@ -328,7 +328,7 @@ Many alternative, non-official FreeCAD packages are available on the net, for ex
 If for some reason you cannot use one of the above methods, you can always download one of the .deb packages available on the [Download](Download.md) page.
 {{DownloadUnixStable}}
 
-Once you downloaded the .deb corresponding to your system version, if you have the [Gdebi](wikipedia:Debian#GDEBI.md) package installed (usually it is), you just need to navigate to where you downloaded the file, and double-click on it. The necessary dependencies will be taken care of automatically by your system package manager. Alternatively you can also install it from the terminal, navigating to where you downloaded the file, and type:
+Once you downloaded the .deb corresponding to your system version, if you have the _ package installed (usually it is), you just need to navigate to where you downloaded the file, and double-click on it. The necessary dependencies will be taken care of automatically by your system package manager. Alternatively you can also install it from the terminal, navigating to where you downloaded the file, and type:
 
 
 ```python
@@ -371,7 +371,7 @@ Once you\'ve got FreeCAD installed, it\'s time to [get started](Getting_started.
 
 
 
-[Category:Common Questions](Category:Common_Questions.md) [Category:Developer Documentation](Category:Developer_Documentation.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Common Questions](Category:Common Questions.md) > Installing on Linux/uk
+[documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > Installing on Linux/uk

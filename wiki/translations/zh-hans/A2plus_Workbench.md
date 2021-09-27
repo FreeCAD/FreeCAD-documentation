@@ -346,7 +346,7 @@ Solve automatically if a constraint property is changed : The solver will automa
 
 -   *\'使用实体联合体来导入零件和子装配*
     所有导入的零件将直接作为联合体放在一起。
-    如果只允许使用一个实体，此功能对于[有限元模拟或](FEM_Module/zh-hans.md)[3D打印很有用](Manual:Preparing_models_for_3D_printing.md)。 另一种方法是稍后创建 [整个部件的外形](#Shape_of_whole_Assembly.md)。
+    如果只允许使用一个实体，此功能对于_。 另一种方法是稍后创建 [整个部件的外形](#Shape_of_whole_Assembly.md)。
 
 
 </div>
@@ -786,7 +786,7 @@ This is an A2plus-specific command. It solves the assembly constraints of the as
 
 
 
-[Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+_ _
 
 ---
-[documentation index](../README.md) > A2plus Workbench/zh-hans
+[documentation index](../README.md) > [Addons](Category_Addons.md) > A2plus Workbench/zh-hans

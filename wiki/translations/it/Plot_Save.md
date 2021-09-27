@@ -61,7 +61,7 @@ Selezionare l\'immagine che si desidera salvare utilizzando le schede nella vist
 
 }} 
 
-[Category:External\_Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)
+_ _
 
 ---
-[documentation index](../README.md) > [External_Workbenches](Category:External_Workbenches.md) > Plot Save/it
+[documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > Plot Save/it

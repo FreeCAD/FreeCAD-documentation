@@ -49,7 +49,7 @@ Medium
 -   Ticket [\#3353: Direct modeling tools](https://tracker.freecadweb.org/view.php?id=3353) tracking efforts to implement this feature
 -   Ticket [\#1367: Extend Draft Edit mode to work with 3D shapes](https://tracker.freecadweb.org/view.php?id=1367)
 
-[Category:Google Summer of Code](Category:Google_Summer_of_Code.md)
+_
 
 ---
-[documentation index](../README.md) > [Google Summer of Code](Category:Google Summer of Code.md) > Direct modeling tools
+[documentation index](../README.md) > [Google Summer of Code](Category_Google Summer of Code.md) > Direct modeling tools

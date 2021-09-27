@@ -18,12 +18,12 @@
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento [Curva di Bézier cubica](Draft_CubicBezCurve/it.md) crea una[Curva di Bézier](http://en.wikipedia.org/wiki/Bezier_curve) di terzo grado (sono richiesti quattro punti). Questa è una delle curve di Bezier più usate nelle applicazioni di computer grafica. Questo strumento consente di creare una grande spline composta da diversi segmenti Bezier di 3° grado, in un modo simile allo strumento Bezier in Inkscape. Una curva generica di Bezier di qualsiasi grado può essere creata con lo strumento [Curva di Bézier](Draft_BezCurve/it.md).
+Lo strumento _.
 
 
 </div>
 
-The Bézier Curve is one of the most commonly used curves in computer graphics. This command allows you to create a continuous spline made up of several 3rd-degree Bézier segments, in a way that is similar to the Bézier tool in [Inkscape](https://inkscape.org/). A general Bézier curve of any degree can be created with the [Draft BezCurve](Draft_BezCurve.md) command.
+The Bézier Curve is one of the most commonly used curves in computer graphics. This command allows you to create a continuous spline made up of several 3rd-degree Bézier segments, in a way that is similar to the Bézier tool in _ command.
 
 
 <div class="mw-translate-fuzzy">

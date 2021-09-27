@@ -21,7 +21,7 @@ It is also possible to install pre-compiled PythonOCC libraries using [Conda](Co
 
 ## Compilation
 
-You can also self compile pythonOCC (see [instructions](https://github.com/tpaviot/pythonocc-core/blob/master/INSTALL.md)). Below is the procedure for Debian/Ubuntu using distro-provided opencascade packages:
+You can also self compile pythonOCC (see _). Below is the procedure for Debian/Ubuntu using distro-provided opencascade packages:
 
     git clone git://github.com/tpaviot/pythonocc-core.git pythonocc
     cd pythonocc
@@ -42,7 +42,7 @@ You can also self compile pythonOCC (see [instructions](https://github.com/tpavi
 
 }} 
 
-[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > PythonOCC/en
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > PythonOCC/en

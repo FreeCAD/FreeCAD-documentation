@@ -26,7 +26,7 @@
 
 }} 
 
-[Category:Ship](Category:Ship.md)
+_
 
 ---
-[documentation index](../README.md) > [Ship](Category:Ship.md) > Artwork Ship/ru
+[documentation index](../README.md) > [Ship](Category_Ship.md) > Artwork Ship/ru

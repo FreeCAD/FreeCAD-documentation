@@ -51,7 +51,7 @@ Vous pouvez également essayer:
 
 Pour un aperçu de toutes les préférences liées à DXF, voir les [Préférences d\'Import Export](Import_Export_Preferences/fr#DXF.md).
 
-[Category:User\_Documentation](Category:User_Documentation.md) [Category:File\_Formats](Category:File_Formats.md)
+_ _
 
 ---
-[documentation index](../README.md) > [User_Documentation](Category:User_Documentation.md) > FreeCAD and DXF Import/fr
+[documentation index](../README.md) > [User_Documentation](Category_User_Documentation.md) > FreeCAD and DXF Import/fr

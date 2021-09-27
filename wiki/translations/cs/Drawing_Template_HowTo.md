@@ -5,7 +5,7 @@
 <div class="mw-translate-fuzzy">
 
 
-{{TutorialInfo/cs|Topic=2D Drafting|Level=Intermediate|Author=Mark Stephen ([Quick61](User:Quick61.md))|Time=An hour or less|FCVersion=0.14.3700 or greater}}
+{{TutorialInfo/cs|Topic=2D Drafting|Level=Intermediate|Author=Mark Stephen (_)|Time=An hour or less|FCVersion=0.14.3700 or greater}}
 
 
 </div>

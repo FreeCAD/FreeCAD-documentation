@@ -72,7 +72,7 @@ Rețineți că Loft are o proprietate \"Riglat\". Dacă este setat la adevărat,
 
  
 
-[Category:Tutorials](Category:Tutorials.md)
+_
 
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Loft Technical Details/ro
+[documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Part](Part_Workbench.md) > Part Loft Technical Details/ro

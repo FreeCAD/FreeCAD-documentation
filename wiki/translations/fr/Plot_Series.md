@@ -38,7 +38,7 @@ Sélectionnez l\'onglet du graphique que vous voulez modifier et exécutez cet o
 
 }} 
 
-[Category:External\_Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)
+_ _
 
 ---
-[documentation index](../README.md) > [External_Workbenches](Category:External_Workbenches.md) > Plot Series/fr
+[documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > Plot Series/fr

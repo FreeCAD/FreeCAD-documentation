@@ -27,7 +27,7 @@ Todas as ferramentas da Bancada de Trabalho Points podem ser acessadas do menu *
 
 ## Notas
 
--   [Draft](Draft_Workbench/pt-br.md) comandos, tais como <img alt="" src=images/Draft_Line.svg  style="width:24px;"> [Linha](Draft_Line/pt-br.md) e <img alt="" src=images/Draft_BSpline.svg  style="width:24px;"> [BSpline](Draft_BSpline/pt-br.md) pode ser usado para conectar os pontos em uma nuvem de pontos. Use <img alt="" src=images/Draft_Snap_Endpoint.svg  style="width:24px;"> [Ponto final](Draft_Snap_Endpoint/pt-br.md) para ir direto aos pontos.
+-   _ e <img alt="" src=images/Draft_BSpline.svg  style="width:24px;"> _ para ir direto aos pontos.
 -   [Python](Python/pt-br.md) pode ser usado para analisar e processar nuvens de pontos. Veja os seguintes fóruns de discussão:
     -   [Inspecting Point cloud](http://forum.freecadweb.org/viewtopic.php?f=3&t=16098).(Inglês)
     -   [Fläche aus Messwerten](http://forum.freecadweb.org/viewtopic.php?f=13&t=15988) (Alemão)
@@ -44,7 +44,7 @@ Todas as ferramentas da Bancada de Trabalho Points podem ser acessadas do menu *
 
 }} 
 
-[Category:Workbenches](Category:Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > Points Workbench/pt-br
+[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Points Workbench/pt-br

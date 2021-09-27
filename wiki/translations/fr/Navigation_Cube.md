@@ -73,7 +73,7 @@ Pour une configuration plus avancée, consultez l\'[atelier externe](External_wo
 
 
 
-[Category:User Documentation](Category:User_Documentation.md)
+_
 
 ---
-[documentation index](../README.md) > [User Documentation](Category:User Documentation.md) > Navigation Cube/fr
+[documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > Navigation Cube/fr

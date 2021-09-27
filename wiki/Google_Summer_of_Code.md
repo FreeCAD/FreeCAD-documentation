@@ -3,7 +3,7 @@
 
 
 
-[Category:Redirects](Category:Redirects.md)
+_
 
 ---
 [documentation index](../README.md) > Google Summer of Code

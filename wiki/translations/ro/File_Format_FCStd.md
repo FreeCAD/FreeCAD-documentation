@@ -170,7 +170,7 @@ Acestea sunt forme .brep shapes a tuturor obeicteleor care au o Part shape în D
 
 </div>
 
-These are the [B-rep](wikipedia:Boundary_representation.md) shapes of all objects that have a Part shape in the {{FileName|Document.xml}}. Each object, even if it is parametric, has its shape stored as an individual {{FileName|.brep}} file, so it can be accessed by components without the need to recalculate the shape.
+These are the _ shapes of all objects that have a Part shape in the {{FileName|Document.xml}}. Each object, even if it is parametric, has its shape stored as an individual {{FileName|.brep}} file, so it can be accessed by components without the need to recalculate the shape.
 
 
 <div class="mw-translate-fuzzy">
@@ -255,7 +255,7 @@ Here, a file Converter utility [ImageConv](ImageConv.md).
 
  
 
-[Category:Developer](Category:Developer.md) [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:File\_Formats](Category:File_Formats.md)
+_ _ _
 
 ---
-[documentation index](../README.md) > [Developer](Category:Developer.md) > File Format FCStd/ro
+[documentation index](../README.md) > [Developer](Category_Developer.md) > File Format FCStd/ro

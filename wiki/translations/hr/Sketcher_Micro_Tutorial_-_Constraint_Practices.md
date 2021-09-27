@@ -2,7 +2,7 @@
 <div class="mw-translate-fuzzy">
 
 
-{{TutorialInfo/hr|Topic=Modeling|Level=Beginner|Author=Mark Stephen ([Quick61](User:Quick61.md))|Time=Less than 15 minutes|FCVersion=0.15.4671 Release or greater}}
+{{TutorialInfo/hr|Topic=Modeling|Level=Beginner|Author=Mark Stephen (_)|Time=Less than 15 minutes|FCVersion=0.15.4671 Release or greater}}
 
 
 </div>
@@ -11,7 +11,7 @@
 
 This tutorial was originally written by Quick61, and it was rewritten and reillustrated by vocx.
 
-This tutorial is designed to help the new user become familiar with the best practices of constraining a [Sketch](Sketch.md) in the workflow of the <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Sketcher Workbench](Sketcher_Workbench.md).
+This tutorial is designed to help the new user become familiar with the best practices of constraining a _.
 
 There is a general rule with constraints: the fewer amount of **datum constraints** (dimensions), the better.
 

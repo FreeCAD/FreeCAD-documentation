@@ -9,7 +9,7 @@
 
 ## Description
 
-The **<img src="images/Assembly_ConstraintSketchPlane.svg" width=24px> [Sketch plane](Assembly3_ConstraintSketchPlane.md)** command creates a \"Sketch plane\" as a container for draft objects.
+The **<img src="images/Assembly_ConstraintSketchPlane.svg" width=24px> [Sketch plane](Assembly3_ConstraintSketchPlane.md)** command creates a \"Sketch plane\" as a container for Draft objects.
 
 It can be used to create a skeleton sketch for 2D kinematics.
 

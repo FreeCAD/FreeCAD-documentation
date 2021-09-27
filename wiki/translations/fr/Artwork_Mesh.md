@@ -18,7 +18,7 @@ Pour toutes les icônes de l\'arborescence source, voir [Graphisme](Artwork/fr.m
 
 }} 
 
-[Category:Mesh](Category:Mesh.md)
+_
 
 ---
-[documentation index](../README.md) > [Mesh](Category:Mesh.md) > Artwork Mesh/fr
+[documentation index](../README.md) > [Mesh](Category_Mesh.md) > Artwork Mesh/fr

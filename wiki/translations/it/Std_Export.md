@@ -68,7 +68,7 @@ Il comando **Esporta** esporta gli oggetti selezionati in un formato file divers
 
 }}  
 
-[Category:File\_Formats](Category:File_Formats.md)
+_
 
 ---
-[documentation index](../README.md) > [File_Formats](Category:File_Formats.md) > Std Export/it
+[documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Std Export/it

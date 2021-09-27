@@ -24,4 +24,4 @@ Remarquez que, bien que tout autre objet BIM puisse être ajouté à un projet, 
 2.  Ajoutez n\'importe quel objet à votre projet en les faisant glisser sur la [Vue en arborescence](Tree_view/fr.md).
 
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Project/fr
+[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch Project/fr

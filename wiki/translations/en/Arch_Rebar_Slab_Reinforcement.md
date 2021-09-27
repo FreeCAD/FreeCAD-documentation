@@ -12,7 +12,7 @@
 
 The [Slab Reinforcement](Arch_Rebar_Slab_Reinforcement.md) tool allows the user to create reinforcing bars inside a Slab [Arch Structure](Arch_Structure.md) object.
 
-This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md), an [external workbench](External_workbenches.md) that can be installed with the <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Addon_Manager.md) via the **Tools → Addon manager → Reinforcement** menu.
+This command is part of the _ via the **Tools → Addon manager → Reinforcement** menu.
 
 <img alt="inline" src=images/Isometric_view_of_Bent_Shape_rebars_in_parallel_and_cross_direction_with_distribution_rebars.png  style="width:800px;"> 
 *A Example of Slab Reinforcement inside a Slab [Arch Structure](Arch_Structure.md)*
@@ -50,46 +50,73 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 **Properties for Rebars in Parallel Direction to selected face:**
 
--   {{ PropertyData\|Mesh Cover Along}}: It represent alignment of rebar mesh along top or bottom face of structure. It can have two values \"Top\" and \"Bottom\".
--   {{ PropertyData\|Rebar Type}}: Type of rebar for parallel rebars for slab reinforcement. It can have four values \'StraightRebar\', \'LShapeRebar\', \'UShapeRebar\', \'BentShapeRebar\'.
--   {{ PropertyData\|Front Cover}}: The distance between parallel rebar and selected face.
--   {{ PropertyData\|Left Cover}}: The distance between the left end of the parallel rebar to the left face of the structure.
--   {{ PropertyData\|Right Cover}}: The distance between the right end of the parallel rebar to right face of the structure.
--   {{ PropertyData\|Bottom Cover}}: The distance between parallel rebars from the bottom face of the structure.
--   {{ PropertyData\|Top Cover}}: The distance between parallel rebars from the top face of the structure.
--   {{ PropertyData\|Rear Cover}}: Rear cover for slab reinforcement of parallel rebars.
--   {{ PropertyData\|Anchor Length}}: It represents arm\'s length of bent shape parallel rebar when parallel rebar type is BentShapeRebar.
--   {{ PropertyData\|Bent Angle}}: It represents angle for bent shape parallel rebar when parallel rebar type is BentShapeRebar.
--   {{ PropertyData\|Rounding}}: A rounding value to be applied to the corners of the bars, expressed in times of diameter of parallel rebars.
--   {{ PropertyData\|Diameter}}: Diameter of parallel rebars
--   {{ PropertyData\|Amount}}: It contains count of parallel rebars.
--   {{ PropertyData\|Spacing}}: It contains spacing between parallel rebars.
+-    **Mesh Cover Along**: It represent alignment of rebar mesh along top or bottom face of structure. It can have two values \"Top\" and \"Bottom\".
+
+-    **Rebar Type**: Type of rebar for parallel rebars for slab reinforcement. It can have four values \'StraightRebar\', \'LShapeRebar\', \'UShapeRebar\', \'BentShapeRebar\'.
+
+-    **Front Cover**: The distance between parallel rebar and selected face.
+
+-    **Left Cover**: The distance between the left end of the parallel rebar to the left face of the structure.
+
+-    **Right Cover**: The distance between the right end of the parallel rebar to right face of the structure.
+
+-    **Bottom Cover**: The distance between parallel rebars from the bottom face of the structure.
+
+-    **Top Cover**: The distance between parallel rebars from the top face of the structure.
+
+-    **Rear Cover**: Rear cover for slab reinforcement of parallel rebars.
+
+-    **Anchor Length**: It represents arm\'s length of bent shape parallel rebar when parallel rebar type is BentShapeRebar.
+
+-    **Bent Angle**: It represents angle for bent shape parallel rebar when parallel rebar type is BentShapeRebar.
+
+-    **Rounding**: A rounding value to be applied to the corners of the bars, expressed in times of diameter of parallel rebars.
+
+-    **Diameter**: Diameter of parallel rebars
+
+-    **Amount**: It contains count of parallel rebars.
+
+-    **Spacing**: It contains spacing between parallel rebars.
 
 **Properties of Distribution Rebars for bent shape rebars in parallel Direction to selected face:**
 
--   {{ PropertyData\|Amount}}: It contains count of Distribution Rebars for Bent shape rebars in parallel Direction.
--   {{ PropertyData\|Spacing}}: It contains spacing between Distribution Rebars for Bent shape rebars in parallel Direction.
+-    **Amount**: It contains count of Distribution Rebars for Bent shape rebars in parallel Direction.
+
+-    **Spacing**: It contains spacing between Distribution Rebars for Bent shape rebars in parallel Direction.
 
 **Properties for Rebars in Cross Direction to selected face:**
 
--   {{ PropertyData\|Rebar Type}}: Type of rebar for cross rebars for slab reinforcement. It can have four values \'StraightRebar\', \'LShapeRebar\', \'UShapeRebar\', \'BentShapeRebar\'.
--   {{ PropertyData\|Front Cover}}: The distance between cross rebar and selected face.
--   {{ PropertyData\|Left Cover}}: The distance between the left end of the cross rebar to the left face of the structure.
--   {{ PropertyData\|Right Cover}}: The distance between the right end of the cross rebar to right face of the structure.
--   {{ PropertyData\|Bottom Cover}}: The distance between cross rebars from the bottom face of the structure.
--   {{ PropertyData\|Top Cover}}: The distance between cross rebars from the top face of the structure.
--   {{ PropertyData\|Rear Cover}}: Rear cover for slab reinforcement of cross rebars.
--   {{ PropertyData\|Anchor Length}}: It represents arm\'s length of bent shape cross rebar when cross rebar type is BentShapeRebar.
--   {{ PropertyData\|Bent Angle}}: It represents angle for bent shape cross rebar when cross rebar type is BentShapeRebar.
--   {{ PropertyData\|Rounding}}: A rounding value to be applied to the corners of the bars, expressed in times of diameter of cross rebars.
--   {{ PropertyData\|Diameter}}: Diameter of cross rebars
--   {{ PropertyData\|Amount}}: It contains count of cross rebars.
--   {{ PropertyData\|Spacing}}: It contains spacing between cross rebars.
+-    **Rebar Type**: Type of rebar for cross rebars for slab reinforcement. It can have four values \'StraightRebar\', \'LShapeRebar\', \'UShapeRebar\', \'BentShapeRebar\'.
+
+-    **Front Cover**: The distance between cross rebar and selected face.
+
+-    **Left Cover**: The distance between the left end of the cross rebar to the left face of the structure.
+
+-    **Right Cover**: The distance between the right end of the cross rebar to right face of the structure.
+
+-    **Bottom Cover**: The distance between cross rebars from the bottom face of the structure.
+
+-    **Top Cover**: The distance between cross rebars from the top face of the structure.
+
+-    **Rear Cover**: Rear cover for slab reinforcement of cross rebars.
+
+-    **Anchor Length**: It represents arm\'s length of bent shape cross rebar when cross rebar type is BentShapeRebar.
+
+-    **Bent Angle**: It represents angle for bent shape cross rebar when cross rebar type is BentShapeRebar.
+
+-    **Rounding**: A rounding value to be applied to the corners of the bars, expressed in times of diameter of cross rebars.
+
+-    **Diameter**: Diameter of cross rebars
+
+-    **Amount**: It contains count of cross rebars.
+
+-    **Spacing**: It contains spacing between cross rebars.
 
 **Properties of Distribution Rebars for bent shape rebars in cross Direction to selected face:**
 
--   {{ PropertyData\|Amount}}: It contains count of Distribution Rebars for Bent shape rebars in cross Direction.
--   {{ PropertyData\|Spacing}}: It contains spacing between Distribution Rebars for Bent shape rebars in cross Direction.
+-    **Amount**: It contains count of Distribution Rebars for Bent shape rebars in cross Direction.
+
+-    **Spacing**: It contains spacing between Distribution Rebars for Bent shape rebars in cross Direction.
 
 ## Scripting
 
@@ -318,7 +345,7 @@ slabReinforcementGroup = editSlabReinforcement(
 
  
 
-[Category:Reinforcement](Category:Reinforcement.md)
+_
 
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Rebar Slab Reinforcement/en
+[documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar Slab Reinforcement/en

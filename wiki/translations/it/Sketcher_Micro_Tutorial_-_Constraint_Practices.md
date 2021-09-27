@@ -2,7 +2,7 @@
 <div class="mw-translate-fuzzy">
 
 
-{{TutorialInfo/it|Topic=Modellazione|Level=Principiante|Author=Mark Stephen ([Quick61](User:Quick61.md))|Time=Meno di 15 minuti|FCVersion=0.15.4671 o successiva}}
+{{TutorialInfo/it|Topic=Modellazione|Level=Principiante|Author=Mark Stephen (_)|Time=Meno di 15 minuti|FCVersion=0.15.4671 o successiva}}
 
 
 </div>
@@ -19,7 +19,7 @@ Benvenuto. Questo tutorial è stato progettato per aiutare i nuovi utenti di Fre
 
 This tutorial was originally written by Quick61, and it was rewritten and reillustrated by vocx.
 
-This tutorial is designed to help the new user become familiar with the best practices of constraining a [Sketch](Sketch.md) in the workflow of the <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Sketcher Workbench](Sketcher_Workbench.md).
+This tutorial is designed to help the new user become familiar with the best practices of constraining a _.
 
 
 <div class="mw-translate-fuzzy">

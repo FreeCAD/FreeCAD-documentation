@@ -15,7 +15,7 @@ Per un elenco di tutti i vincoli che possono essere applicati vedere le informaz
 
 ## Utilizzo
 
-1.  Create a sketch either from the <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Sketcher Workbench](Sketcher_Workbench.md) or through the <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign Workbench](PartDesign_Workbench.md).
+1.  Create a sketch either from the <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> _.
 2.  Press
     -   
         **<img src=images/Sketcher_NewSketch.svg style="width:16px"> [Sketcher NewSketch](Sketcher_NewSketch.md)**
@@ -36,14 +36,14 @@ Per un elenco di tutti i vincoli che possono essere applicati vedere le informaz
 ## Note
 
 -   Constraints are useful to create very precise profiles which can the be turned into solid extrusions by using the **<img src=images/PartDesign_Pad.svg style="width:16px"> <img src=images/Part_Extrude.svg style="width:PartDesign Pad](PartDesign_Pad.md)** or **[16px"> [Part Extrude](Part_Extrude.md)** operations.
--   Constraints are only used within [Sketches](Sketch.md); other 2D objects such as those created with the <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft Workbench](Draft_Workbench.md) do not understand about constraints; the latter are simply placed in 3D space, and their properties define their shape and position.
+-   Constraints are only used within _ do not understand about constraints; the latter are simply placed in 3D space, and their properties define their shape and position.
 
 
 {{Sketcher Tools navi
 
 }} {{Document objects navi}} 
 
-[Category:Glossary](Category:Glossary.md)
+_
 
 ---
-[documentation index](../README.md) > [Glossary](Category:Glossary.md) > Constraint/it
+[documentation index](../README.md) > [Glossary](Category_Glossary.md) > Constraint/it

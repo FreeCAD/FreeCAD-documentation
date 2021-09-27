@@ -90,7 +90,7 @@ myObject.Shape = Sweep
 
 ## Poděkování
 
-Díky [Wmayer](User:Wmayer.md) za jeho pomoc při psaní tohoto skriptu.
+Díky _ za jeho pomoc při psaní tohoto skriptu.
 
 Dva příklady použití makra lze nalézt na [this forum topic](http://forum.freecadweb.org/viewtopic.php?f=8&t=1222&start=50#p11120), spolu s odkazem na stažení do souboru FCStd. Použitím spirály jako trajektorie může být toto makro použito pro vytvoření závitu šroubu.
 

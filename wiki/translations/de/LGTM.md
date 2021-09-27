@@ -60,7 +60,7 @@ Also, some classifications (like \'template\' and \'test\') are used by LGTM for
 -   FreeCAD .lgtm.yml file on [Github](https://github.com/FreeCAD/FreeCAD/blob/master/lgtm.yml)
 -   freecad.trails .lgtm.yml on [Github](https://github.com/joelgraff/freecad.trails/blob/dev/.lgtm.yml)
 
-[Category:Developer](Category:Developer.md) [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Testing](Category:Testing.md)
+_ _ _
 
 ---
-[documentation index](../README.md) > [Developer](Category:Developer.md) > LGTM/de
+[documentation index](../README.md) > [Developer](Category_Developer.md) > LGTM/de

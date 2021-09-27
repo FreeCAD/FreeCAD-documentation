@@ -99,7 +99,7 @@ Aucune installation n\'est nécessaire. Merci à l\'auteur du programme.
 
 }}
 
-[Category:Developer Documentation](Category:Developer_Documentation.md)
+_
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Coin3d snippets/fr
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Coin3d snippets/fr

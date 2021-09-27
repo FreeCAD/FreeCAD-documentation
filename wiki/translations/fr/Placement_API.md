@@ -22,7 +22,7 @@ myObj.Placement = pl
 
 [[Category:API\]\] 
 
-[Category:Poweruser Documentation](Category:Poweruser_Documentation.md)
+_
 
 ---
-[documentation index](../README.md) > [API](Category:API.md) > Placement API/fr
+[documentation index](../README.md) > [API](Category_API.md) > Placement API/fr

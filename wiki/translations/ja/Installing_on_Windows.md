@@ -204,14 +204,14 @@ With Windows Group Policy, it is possible to automatically install FreeCAD on a 
 
 .msi
 
-FreeCADは実行されますがOpenGL表示が動作しないことが報告されています。これはGoogle [SketchUpなど](wikipedia:SketchUp.md)[Wine上で動作するプログラム全般に言えることです](wikipedia:Wine_(software).md)。
+FreeCADは実行されますがOpenGL表示が動作しないことが報告されています。これはGoogle __。
 
 
 ```python
 msiexec /i Y:\\software\\FreeCAD<version>.msi
 ```
 
-FreeCAD is running, but it has been reported that the OpenGL display does not work, like with other programs running under [Wine](wikipedia:Wine_(software).md) i.e. Google [SketchUp](wikipedia:SketchUp.md).
+FreeCAD is running, but it has been reported that the OpenGL display does not work, like with other programs running under _ i.e. Google _.
 
 
 <div class="mw-translate-fuzzy">

@@ -643,7 +643,7 @@
 
   
 
-[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Icon](Category:Icon.md) [Category:Help](Category:Help.md)
+_ _ _
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Key ASCII/en
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Key ASCII/en

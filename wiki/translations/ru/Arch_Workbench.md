@@ -5,11 +5,11 @@
 
 ## Введение
 
-<img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Архитектурный верстак](Arch_Workbench/ru.md) обеспечивает современный процесс [информационного моделирования здания](http://ru.wikipedia.org/wiki/BIM) (Building Information Modeling, BIM) внутри FreeCAD, c поддержкой таких функций как полностью параметрические архитектурные элементы вроде стен, балок, крыш, окон, лестниц, труб и фурнитуры. Он поддерживает Industry Foundation Classes ([IFC](Arch_IFC/ru.md)) данные, и создание двумерных планов строений совместно с [верстаком TechDraw](TechDraw_Workbench/ru.md).
+<img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> _) данные, и создание двумерных планов строений совместно с [верстаком TechDraw](TechDraw_Workbench/ru.md).
 
 Верстак Arch импортирует все инструменты из [верстака Draft](Draft_Workbench/ru.md), используя двумерные объекты для построения архитектурных объектов. В то же время Arch так же использует твердотельные объекты, созданные в других верстаках вроде [Part](Part_Workbench/ru.md) и [PartDesign](PartDesign_Workbench/ru.md).
 
-Функциональность [BIM](http://en.wikipedia.org/wiki/Building_Information_Modeling) во FreeCAD сейчас постепенно разделяется на описываемый верстак Arch, который содержит все архитектурные инструменты, и [верстак BIM](BIM_Workbench/ru.md), который можно установить через [Addon Manager](Std_AddonMgr/ru.md). Этот верстак добавит новые инструменты в интерфейсе программы поверх инструментов Архитектурного Модуля, с тем чтобы сделать рабочий процесс BIM в FreeCAD более интуитивно понятным и удобным для пользователя.
+Функциональность _, который можно установить через [Addon Manager](Std_AddonMgr/ru.md). Этот верстак добавит новые инструменты в интерфейсе программы поверх инструментов Архитектурного Модуля, с тем чтобы сделать рабочий процесс BIM в FreeCAD более интуитивно понятным и удобным для пользователя.
 
 The developers of Draft, Arch, and BIM also collaborate with the greater [OSArch community](https://osarch.org), with the ultimate goal of improving building design by using entirely free software.
 
@@ -89,7 +89,7 @@ The developers of Draft, Arch, and BIM also collaborate with the greater [OSArch
 
 !!FUZZY!!\* <img alt="" src=images/Arch_Component.svg  style="width:32px;"> [Компонент](Arch_Component/ru.md): Создает непараметрический Архитектурный компонент
 
--   <img alt="" src=images/Arch_Component_Clone.svg  style="width:32px;"> [Клонировать компонент](Arch_CloneComponent/ru.md):Создает клон выбранного Архитектурного компонента (не путать с [Draft Clone](Draft_Clone/ru.md))
+-   <img alt="" src=images/Arch_Component_Clone.svg  style="width:32px;"> _)
 
 -   <img alt="" src=images/Arch_SplitMesh.svg  style="width:32px;"> [Разделить Сетку(Mesh)](Arch_SplitMesh/ru.md): Разделяет выбранную Сеть на отдельные компоненты
 -   <img alt="" src=images/Arch_MeshToShape.svg  style="width:32px;"> [Сетка в Поверхность](Arch_MeshToShape/ru.md): Конвертирует сетку в поверхность, объединяя копланарные грани
@@ -98,10 +98,10 @@ The developers of Draft, Arch, and BIM also collaborate with the greater [OSArch
 -   <img alt="" src=images/Arch_CloseHoles.svg  style="width:32px;"> [Close Holes](Arch_CloseHoles/ru.md): Закрывает отверстия в выбранном базирующемся на форме объекте
 -   <img alt="" src=images/Arch_MergeWalls.svg  style="width:32px;"> [Merge Walls](Arch_MergeWalls/ru.md): Объединяет две или более стен
 -   <img alt="" src=images/Arch_Check.svg  style="width:32px;"> [Check](Arch_Check/ru.md): Проверяет, являются ли выделенные объекты твёрдыми телами и не содержат дефектов
--   <img alt="" src=images/IFC.svg  style="width:32px;"> [Ifc Explorer](Arch_IfcExplorer/ru.md): Просмотр содержимого файла [IFC](Arch_IFC/ru.md)
+-   <img alt="" src=images/IFC.svg  style="width:32px;"> _
 -   <img alt="" src=images/Arch_ToggleIfcBrepFlag.svg  style="width:32px;"> [Toggle IFC Brep flag](Arch_ToggleIfcBrepFlag/ru.md): Заставляет выделенные объекты экспортироваться как [IfcFacetedBrep](http://www.buildingsmart-tech.org/ifc/IFC4/final/html/schema/ifcgeometricmodelresource/lexical/ifcfacetedbrep.htm).
--   <img alt="" src=images/Arch_3Views.svg  style="width:32px;"> [3 Views from mesh](Arch_3Views/ru.md): Создаёт виды сверху, спереди, и с тыла из [mesh](Mesh_Workbench/ru.md).
--   <img alt="" src=images/Arch_Schedule.svg  style="width:32px;"> [Create IFC spreadsheet\...](Arch_MakeIfcSpreadsheet/ru.md): Создаёт электронную таблицу для сохранения параметров [IFC](Arch_IFC/ru.md) объекта
+-   <img alt="" src=images/Arch_3Views.svg  style="width:32px;"> _.
+-   <img alt="" src=images/Arch_Schedule.svg  style="width:32px;"> _ объекта
 -   <img alt="" src=images/Arch_ToggleSubs.svg  style="width:32px;"> [Toggle Subcomponents](Arch_ToggleSubs.md): Показывает или скрывает субкомпоненты объекта Arch.
 
 ### Настройки
@@ -128,7 +128,7 @@ The developers of Draft, Arch, and BIM also collaborate with the greater [OSArch
 -   [Быстрый архитектурный обзор в блоге Yorik\'а](http://yorik.uncreated.net/guestblog.php?2012=180) (v. 0.13)
 -   [Видеопрезентация верстака Arch](https://www.youtube.com/watch?v=lTDOeHapv_E) (2016)
 -   [Учебник по архитектурным панелям](Arch_panel_tutorial/ru.md) (v. 0.15)
--   [Глава моделирования BIM из руководства FreeCAD](Manual:BIM_modeling/ru.md)
+-   _
 -   [Импорт из STL или OBJ](Import_from_STL_or_OBJ/ru.md)
 -   [Экспорт в STL или OBJ](Export_to_STL_or_OBJ/ru.md)
 
@@ -138,7 +138,7 @@ The developers of Draft, Arch, and BIM also collaborate with the greater [OSArch
 
  
 
-[Category:Workbenches](Category:Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > Arch Workbench/ru
+[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Arch Workbench/ru

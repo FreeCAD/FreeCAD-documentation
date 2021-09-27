@@ -32,7 +32,7 @@ Vous trouverez ci-dessous quelques indices et informations utiles pour vous mett
 -   La [Documentation pour utilisateurs expérimentés](Power_users_hub/fr.md) contient beaucoup de documentation sur les modules, OpenCascade et Coin3D, principalement pour le programmeur Python. Cependant, comme la fonctionnalité est similaire, ces pages intéresseront également le programmeur C++.
 -   [FCStd](File_Format_FCStd/fr.md) - le format de fichier FreeCAD
 
-[Category:Developer Documentation](Category:Developer_Documentation.md)
+_
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > The FreeCAD source code/fr
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > The FreeCAD source code/fr

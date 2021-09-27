@@ -14,7 +14,7 @@
 
 }} 
 
-[Category:Robot](Category:Robot.md)
+_
 
 ---
-[documentation index](../README.md) > [Robot](Category:Robot.md) > Artwork Robot/ru
+[documentation index](../README.md) > [Robot](Category_Robot.md) > Artwork Robot/ru

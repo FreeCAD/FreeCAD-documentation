@@ -23,13 +23,13 @@ FreeCAD uses two different licenses, one for the application itself, and one for
 
 
 
-[LGPL](http://sv.wikipedia.org/wiki/GNU_Lesser_General_Public_License): För kärnbiblioteken som uttalat i .h och .cpp filerna i src/App src/Gui src/Base och de flesta [modulerna](Workbenches/sv.md) i src/Mod och för de körbara som uttalat i .h och .cpp filerna i src/main
+_ i src/Mod och för de körbara som uttalat i .h och .cpp filerna i src/main
 
 
 
 
 
-[Open Publication Licence](wikipedia:Open_Publication_License.md): För dokumentationen på <http://free-cad.sourceforge.net/> om inget annat markerats av författaren
+_: För dokumentationen på <http://free-cad.sourceforge.net/> om inget annat markerats av författaren
 
 
 </div>
@@ -135,7 +135,7 @@ Detta beslut är ändå bara gjort för FreeCAD\'s kärnsystem. Var och en som s
 
  
 
-[Category:Developer Documentation](Category:Developer_Documentation.md)
+_
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Licence/sv
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Licence/sv

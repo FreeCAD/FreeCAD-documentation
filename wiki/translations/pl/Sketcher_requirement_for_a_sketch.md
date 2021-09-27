@@ -2,7 +2,7 @@
 {{TutorialInfo/pl
 |Topic=Szkicownik
 |Level=Początkujący
-|Author=[Maker](User:Maker.md)
+|Author=_
 |Time=
 |FCVersion= dowolna
 }}

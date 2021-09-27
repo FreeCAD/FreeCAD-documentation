@@ -14,7 +14,7 @@ Sono disponibili due schede: Impostazioni generali e Defaults.
 
  
 
-[Category:Preferences](Category:Preferences.md)
+_
 
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Preferences/it
+[documentation index](../README.md) > [Preferences](Category_Preferences.md) > [Arch](Arch_Workbench.md) > Arch Preferences/it

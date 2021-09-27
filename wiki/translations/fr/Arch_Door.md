@@ -27,4 +27,4 @@ Toutes les propriétés sont accessibles dans l\'outil [Arch Fenêtre](Arch_Wind
 *Les portes doivent être construites avec l'atelier [Esquisse](Sketcher_Workbench/fr.md)*
 
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Door/fr
+[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch Door/fr

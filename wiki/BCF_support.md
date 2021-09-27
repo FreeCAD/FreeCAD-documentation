@@ -62,7 +62,7 @@ This workbench was created during a GSOC 2019 by user \'podestplatz\'. Relevant 
 -   FreeCAD blog - BCF integration ([link](https://podestplatz.github.io/FreeCAD-blog/))
 -   [BCF git repo](https://github.com/podestplatz/BCF-Plugin-FreeCAD/)
 
-[Category:Google Summer of Code](Category:Google_Summer_of_Code.md)
+_
 
 ---
-[documentation index](../README.md) > [Google Summer of Code](Category:Google Summer of Code.md) > BCF support
+[documentation index](../README.md) > [Google Summer of Code](Category_Google Summer of Code.md) > BCF support

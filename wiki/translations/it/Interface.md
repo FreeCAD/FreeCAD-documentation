@@ -30,14 +30,14 @@ Come molti software, FreeCAD include una barra dei menu standard, quindi una ser
 
 ### Menu
 
-I [menu standard](Standard_Menu/it.md) sono: [**File**](Std_File_Menu/it.md), [**Modifica**](Std_Edit_Menu/it.md), [**Visualizza**](Std_View_Menu/it.md), [**Strumenti**](Std_Tools_Menu/it.md), [**Macro**](Std_Macro_Menu/it.md), [**Finestre**](Std_Windows_Menu/it.md), [**Aiuto**](Std_Help_Menu/it.md).
+I _, [**Modifica**](Std_Edit_Menu/it.md), [**Visualizza**](Std_View_Menu/it.md), [**Strumenti**](Std_Tools_Menu/it.md), [**Macro**](Std_Macro_Menu/it.md), [**Finestre**](Std_Windows_Menu/it.md), [**Aiuto**](Std_Help_Menu/it.md).
 
 ### Barre degli strumenti 
 
 Le barre degli strumenti standard che appaiono nell\'interfaccia sono:
 
 -   Barra degli strumenti File: strumenti per lavorare con i file, aprire documenti, copiare, incollare, annullare e ripetere azioni.
--   [Selettore degli ambienti](Std_Workbench/it.md): contiene un singolo widget per selezionare l\'[ambiente](workbenches/it.md) attivo.
+-   _ attivo.
 -   Barra degli strumenti Macro: strumenti per registrare, modificare ed eseguire le [macro](macros/it.md).
 -   Barra degli strumenti Visualizza: strumenti per controllare la modalità di visualizzazione degli oggetti nella [vista 3D](3D_view/it.md).
 -   Barra degli strumenti Struttura: strumenti per organizzare gli oggetti nel documento e creare collegamenti a documenti aggiuntivi.
@@ -52,15 +52,15 @@ Questi possono essere attivati e disattivati facendo clic con il pulsante destro
 I pannelli principali che consentono di lavorare con gli oggetti sono:
 
 -   [Vista 3D](3D_view/it.md): l\'area in cui viene disegnata la geometria 2D e 3D.
--   [Vista combinata](Combo_view/it.md): il pannello che contiene la [vista ad albero](tree_view/it.md), il [pannello azioni](task_panel/it.md), e l\'[editor delle proprietà](property_editor/it.md).
+-   _, il [pannello azioni](task_panel/it.md), e l\'[editor delle proprietà](property_editor/it.md).
 -   [Vista ad albero](Tree_view/it.md): l\'elemento che mostra tutti gli oggetti nel documento e la loro cronologia parametrica.
 -   [Pannello Azioni](Task_panel/it.md): il pannello che mostra diverse azioni e opzioni a seconda dello strumento selezionato.
 -   [Editor delle proprietà](Property_editor/it.md): il luogo in cui si possono modificare le proprietà dell\'oggetto.
 -   [Vista selezione](Selection_view/it.md): il pannello che mostra gli elementi attualmente selezionati.
 -   [Vista report](Report_view/it.md): il campo di testo che mostra i messaggi dell\'applicazione e dei suoi strumenti.
--   [Console Python](Python_console/it.md): l\'editor che consente di eseguire il codice [Python](Python/it.md) in modo interattivo per vedere i risultati nella [vista 3D](3D_view/it.md).
--   [Barra di stato](Status_bar/it.md): la barra che mostra determinati messaggi dell\'applicazione e che ha il selettore per impostare il [tipo di mouse](Mouse_Model/it.md).
--   [Vista DAG](DAG_view/it.md): un\'alternativa alla [vista ad albero](tree_view/it.md), che mostra le relazioni tra oggetti diversi attraverso un grafico.
+-   _ in modo interattivo per vedere i risultati nella [vista 3D](3D_view/it.md).
+-   _.
+-   _, che mostra le relazioni tra oggetti diversi attraverso un grafico.
 
 
 </div>
@@ -73,8 +73,8 @@ Per attivare e disattivare la barra di stato utilizzare il menu **Visualizza →
 
 Altre interfacce e finestre utili includono:
 
--   [Ispettore di scena](Std_SceneInspector/it.md): un pannello che mostra i nodi Coin3D che compongono la [scena grafica](scenegraph/it.md). Per utenti esperti e sviluppatori, può essere utile per risolvere le operazioni che manipolano direttamente la scena e gli oggetti creati nella [Vista 3D](3D_view/it.md).
--   [Grafico delle dipendenze](Std_DependencyGraph/it.md): una finestra che mostra il grafico delle dipendenze di tutti gli oggetti nel documento, creato con il programma ausiliario [Graphviz](Graphviz/it.md). È utile per riconoscere i problemi nella creazione di oggetti, come le dipendenze circolari, che potrebbero non essere del tutto evidenti dalla [vista ad albero](tree_view/it.md) o dalla [vista DAG](DAG_view/it.md).
+-   _. Per utenti esperti e sviluppatori, può essere utile per risolvere le operazioni che manipolano direttamente la scena e gli oggetti creati nella [Vista 3D](3D_view/it.md).
+-   _. È utile per riconoscere i problemi nella creazione di oggetti, come le dipendenze circolari, che potrebbero non essere del tutto evidenti dalla [vista ad albero](tree_view/it.md) o dalla [vista DAG](DAG_view/it.md).
 
 ### Personalizzazione
 

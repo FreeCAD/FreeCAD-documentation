@@ -14,7 +14,7 @@
 
 }} 
 
-[Category:Spreadsheet](Category:Spreadsheet.md)
+_
 
 ---
-[documentation index](../README.md) > [Spreadsheet](Category:Spreadsheet.md) > Artwork Spreadsheet/ru
+[documentation index](../README.md) > [Spreadsheet](Category_Spreadsheet.md) > Artwork Spreadsheet/ru

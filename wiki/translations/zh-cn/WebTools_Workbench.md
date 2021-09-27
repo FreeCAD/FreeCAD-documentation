@@ -37,7 +37,7 @@ This workbench can be easily installed and updated from the [Addon Manager](Addo
 
  
 
-[Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md) [Category:User Documentation](Category:User_Documentation.md)
+_ _ _
 
 ---
-[documentation index](../README.md) > WebTools Workbench/zh-cn
+[documentation index](../README.md) > [Addons](Category_Addons.md) > WebTools Workbench/zh-cn

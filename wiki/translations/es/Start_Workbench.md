@@ -31,7 +31,7 @@ Desde esta interfaz puedes ver información útil y saltar a los archivos abiert
 
 
 
-[Category:Start](Category:Start.md) [Category:Workbenches](Category:Workbenches.md)
+_ _
 
 ---
-[documentation index](../README.md) > Start Workbench/es
+[documentation index](../README.md) > [Start](Category_Start.md) > Start Workbench/es

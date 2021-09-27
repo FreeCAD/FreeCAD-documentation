@@ -61,7 +61,7 @@ Die hier genannten Tastaturkürzel für einzelne Zeichen können geändert werde
 
 ### Hauptaufgabenpaneel
 
--   Drücke **O** oder die **[16px](Bild:Draft_CloseLine.svg.md) Schließen** Schaltfläche, um den Befehl zu beenden. Wenn ein einzelner [Entwurf Draht](Draft_Wire/de.md) ausgewählt wurde, wird der Draht geschlossen.
+-   Drücke **O** oder die **_ Schließen** Schaltfläche, um den Befehl zu beenden. Wenn ein einzelner [Entwurf Draht](Draft_Wire/de.md) ausgewählt wurde, wird der Draht geschlossen.
 -   Drücke **Esc** oder die **Schliessen** Schaltfläche, um den Befehl zu beenden.
 
 ### Knoten Aufgabenpaneel 
@@ -77,13 +77,13 @@ Die hier genannten Tastaturkürzel für einzelne Zeichen können geändert werde
 
 ## Unterstützte Objekte 
 
-### <img alt="" src=images/Draft_Line.svg  style="width:24px;"> [Entwurf Linie](Draft_Line/de.md) und <img alt="" src=images/Draft_Wire.svg  style="width:24px;"> [Entwurf Draht](Draft_Wire/de.md) 
+### <img alt="" src=images/Draft_Line.svg  style="width:24px;"> _ 
 
 -   Wenn der Anfangs- oder Endknoten eines offenen Drahtes so verschoben wird, dass sie zusammenfallen, wird der Draht geschlossen.
 -   Kontextmenü des Knotens: {{Value|Punkt löschen}}. Es müssen mindestens zwei Punkte verbleiben.
 -   Kante Kontextmenü: {{Value|Punkt hinzufügen}}, {{Value|Draht umkehren}} ({{Version/de|0.20}}).
 
-### <img alt="" src=images/Draft_Arc.svg  style="width:24px;"> [Entwurf Bogen](Draft_Arc/de.md) und <img alt="" src=images/Draft_Arc_3Points.svg  style="width:24px;"> [Entwurf Bogen 3Punkte](Draft_Arc_3Points/de.md) 
+### <img alt="" src=images/Draft_Arc.svg  style="width:24px;"> _ 
 
 -   Knotenkontextmenü Zentrum: {{Value|Bogen verschieben}}.
 -   Knotenkontextmenü Anfang: {{Value|Ersten Winkel setzen}}.
@@ -113,7 +113,7 @@ Die hier genannten Tastaturkürzel für einzelne Zeichen können geändert werde
 -   Kontextmenü Knoten: {{Value|Punkt löschen}}. Für einen offenen Spline müssen mindestens zwei Punkte übrig bleiben. Bei einem geschlossenen Spline sind es mindestens drei Punkte.
 -   Kontextmenü Kante: {{Value|Punkt hinzufügen}}.
 
-### <img alt="" src=images/Draft_CubicBezCurve.svg  style="width:24px;"> [Entwurf KubischeBezKurve](Draft_CubicBezCurve/de.md) und <img alt="" src=images/Draft_BezCurve.svg  style="width:24px;"> [Entwurf BezKurve](Draft_BezCurve/de.md) 
+### <img alt="" src=images/Draft_CubicBezCurve.svg  style="width:24px;"> _ 
 
 -   Wenn der Anfangs- oder Endknoten einer offenen Kurve so verschoben wird, dass sie zusammenfallen, wird die Kurve geschlossen.
 -   Kontextmenü Knoten: {{Value|Scharf machen}}, {{Value|Tangente machen}}, {{Value|Symmetrisch machen}} und {{Value|Punkt löschen}}.
@@ -183,7 +183,7 @@ Siehe auch: [Einstellungseditor](Preferences_Editor/de.md) und [Entwurf Einstell
 
 ## Skripten
 
-Siehe auch: [Autogenerierte API Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch: _.
 
 Es gibt keine Python Methode für Entwurf Editieren Objekte. Um die Ergebnisse des Befehls zu emulieren, müssen geometrische Eigenschaften von Objekten geändert werden.
 

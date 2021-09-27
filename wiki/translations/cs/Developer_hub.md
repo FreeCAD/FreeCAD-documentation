@@ -176,7 +176,7 @@ FreeCAD, ačkoli už je použitelný v určité oblasti, je na začátku dlouhé
 
 
 
-[Category:Hubs](Category:Hubs.md) [Category:Developer Documentation](Category:Developer_Documentation.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Hubs](Category:Hubs.md) > Developer hub/cs
+[documentation index](../README.md) > [Hubs](Category_Hubs.md) > Developer hub/cs

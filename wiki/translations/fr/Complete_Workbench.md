@@ -10,7 +10,7 @@ Voir [Personnalisation de l\'interface](Interface_Customization/fr.md) si vous s
 
 
 
-[Category:Complete](Category:Complete.md) [Category:Obsolete Workbenches](Category:Obsolete_Workbenches.md)
+_ _
 
 ---
-[documentation index](../README.md) > Complete Workbench/fr
+[documentation index](../README.md) > [Complete](Category_Complete.md) > Complete Workbench/fr

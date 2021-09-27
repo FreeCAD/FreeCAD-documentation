@@ -275,7 +275,7 @@ It includes among other things: Boost 1.67, Coin3D 4.0.0a, Eigen3, Open CASCADE 
 
  
 
-[Category:Developer Documentation](Category:Developer_Documentation.md)
+_
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Third Party Libraries/pt-br
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Third Party Libraries/pt-br

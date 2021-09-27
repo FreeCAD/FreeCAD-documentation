@@ -903,7 +903,7 @@ The [Sketcher scripting](Sketcher_scripting.md) page contains examples on how to
 
 }} 
 
-[Category:Sketcher/tr](Category:Sketcher/tr.md) [Category:Workbenches/tr](Category:Workbenches/tr.md) [Category:Workbenches](Category:Workbenches.md)
+_ _ _
 
 ---
-[documentation index](../README.md) > Sketcher Workbench/tr
+[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Sketcher Workbench/tr

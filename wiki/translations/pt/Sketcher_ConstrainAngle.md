@@ -1,6 +1,6 @@
 # Sketcher ConstrainAngle/pt
 ---
-- GuiCommand:/pt   Name:Constraint InternalAngle   Name/pt:Constraint InternalAngle   Workbenches:[PartDesign](Sketcher_Workbench/pt___Sketcher]],_[[PartDesign_Workbench/pt.md)|Shortcut:A   MenuLocation:Sketch → Sketcher constraints → Constrain angle   SeeAlso:[Constraint Length](Constraint_Length/pt.md), [Constraint Perpendicular](Constraint_Perpendicular/pt.md)---
+- GuiCommand:/pt   Name:Constraint InternalAngle   Name/pt:Constraint InternalAngle   Workbenches:_, [Constraint Perpendicular](Constraint_Perpendicular/pt.md)---
 
 
 </div>

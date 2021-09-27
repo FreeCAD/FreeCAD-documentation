@@ -22,7 +22,7 @@ Un nouveau développement est en cours dans l'[https://github.com/FreeCAD/FreeCA
 
 {{TOCright}}
 
-Ce projet est le développement de **FreeCAD Raytracing**. Il suit les règles de la [Getting things done](https://en.wikipedia.org/wiki/Getting_Things_Done) processus. Les projets sont collectées dans le feuille [de route de développement](Development_roadmap/fr.md).
+Ce projet est le développement de **FreeCAD Raytracing**. Il suit les règles de la _.
 
 
 <div class="mw-translate-fuzzy">
@@ -130,7 +130,7 @@ Ici en vedette, une pièce qui a été créée à l\'aide **PartDesign/Sketcher*
 
 
 
-[Category:Roadmap](Category:Roadmap.md)
+_
 
 ---
-[documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing project/fr
+[documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing project/fr

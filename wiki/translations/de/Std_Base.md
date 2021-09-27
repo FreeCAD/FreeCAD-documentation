@@ -60,7 +60,7 @@ Das Standardmenü setzt sich aus 7 Untermenüs zusammen. Jedes Untermenü hat ei
 
 }} 
 
-[Category:Workbenches](Category:Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > [Workbenches](Category:Workbenches.md) > Std Base/de
+[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Std Base/de

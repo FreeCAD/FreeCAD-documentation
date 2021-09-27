@@ -51,9 +51,9 @@ creados con el [Ambiente de Trabajo Borrador](Draft_Workbench/es.md) o [Amb
 
 Un compuesto de puntos es un objeto que contiene uno o más puntos. Estos son los compuestos de puntos soportados y cómo se pueden crear:
 
--   [Compuesta Pieza](Part_Compound.md): Cree uno o más [Borrador Puntos](Draft_Point/es.md) o [Pieza Puntos](Part_Point/es.md), selecciónelos e invoque el comando [Compuesta Pieza](Part_Compound/es.md).
+-   _ o [Pieza Puntos](Part_Point/es.md), selecciónelos e invoque el comando [Compuesta Pieza](Part_Compound/es.md).
 -   Bloque de borrador: Crea uno o más [Borrador Puntos](Draft_Point/es.md) o [Pieza Puntos](Part_Point/es.md), selecciónalos e invoca el comando [Borrador Actualización](Draft_Upgrade/es.md).
--   [Croquizador Croquis](Sketcher_NewSketch/es.md): Crea un [Croquis](Sketcher_NewSketch/es.md) y añade uno o más [Croquizador Puntos](Sketcher_CreatePoint/es.md) al croquis.
+-   _ y añade uno o más [Croquizador Puntos](Sketcher_CreatePoint/es.md) al croquis.
 
 ## Propiedades
 
@@ -183,7 +183,7 @@ The properties in this group are not inherited by Link arrays.
 
 ## Guión
 
-Ver también: [Documentación de la API autogenerada](https://freecad.github.io/SourceDoc/) y [Fundamentos de FreeCAD Guión](FreeCAD_Scripting_Basics/es.md).
+Ver también: _.
 
 To create a point array use the `make_point_array` method (<small>(v0.19)</small> ) of the Draft module. This method replaces the deprecated `makePointArray` method.
 

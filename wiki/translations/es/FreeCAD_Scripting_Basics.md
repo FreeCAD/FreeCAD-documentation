@@ -119,7 +119,7 @@ myView = Gui.ActiveDocument.ActiveView
 
 ## Utilizando módulos adicionales 
 
-Los módulos `FreeCAD` y `FreeCADGui` sólo se encargan de crear y gestionar objetos en el documento de FreeCAD. En realidad no hacen nada más como crear o modificar la geometría. Esto se debe a que la geometría puede ser de varios tipos, y por lo tanto requiere módulos adicionales, cada uno responsable de la gestión de un determinado tipo de geometría. Por ejemplo, el [Part Workbench](Part_Workbench.md), usando el kernel de OpenCascade, es capaz de crear y manipular geometría del tipo [BRep](http://en.wikipedia.org/wiki/Boundary_representation). Mientras que el [Mesh Workbench](Mesh_Workbench.md) es capaz de construir y modificar objetos de malla. De esta manera FreeCAD es capaz de manejar una amplia variedad de tipos de objetos, que pueden coexistir en el mismo documento, y nuevos tipos pueden ser fácilmente añadidos en el futuro.
+Los módulos `FreeCAD` y `FreeCADGui` sólo se encargan de crear y gestionar objetos en el documento de FreeCAD. En realidad no hacen nada más como crear o modificar la geometría. Esto se debe a que la geometría puede ser de varios tipos, y por lo tanto requiere módulos adicionales, cada uno responsable de la gestión de un determinado tipo de geometría. Por ejemplo, el _ es capaz de construir y modificar objetos de malla. De esta manera FreeCAD es capaz de manejar una amplia variedad de tipos de objetos, que pueden coexistir en el mismo documento, y nuevos tipos pueden ser fácilmente añadidos en el futuro.
 
 [inicio](#top.md)
 
@@ -198,7 +198,7 @@ o comprobar si un objeto deriva de uno de los básicos (Característica Pieza, C
 print(myObj.isDerivedFrom("Part::Feature"))
 ```
 
-¡Ahora puedes empezar a jugar de verdad con FreeCAD! Para una lista completa de los módulos disponibles y sus herramientas, visite la sección [Categoría:API](:Category:API/es.md).
+¡Ahora puedes empezar a jugar de verdad con FreeCAD! Para una lista completa de los módulos disponibles y sus herramientas, visite la sección _.
 
 [inicio](#top.md)
 
@@ -207,7 +207,7 @@ print(myObj.isDerivedFrom("Part::Feature"))
 
 }} 
 
-[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > FreeCAD Scripting Basics/es
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > FreeCAD Scripting Basics/es

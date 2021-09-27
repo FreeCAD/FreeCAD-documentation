@@ -35,7 +35,7 @@ The offset of the image can be set during import, or changed later through its p
 
 }} 
 
-[Category:Workbenches](Category:Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > Image Workbench/zh-tw
+[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Image Workbench/zh-tw

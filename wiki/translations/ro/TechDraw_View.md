@@ -38,7 +38,7 @@ The View tool adds a representation of one or more objects to a Drawing page. Th
 2.  If you have multiple drawing pages in your document, you will also need to select the desired page in the tree. Use the **Ctrl** to select multiple items in the tree.
 3.  Press the **<img src="images/TechDraw_View.svg" width=16px> [Insert View](TechDraw_View.md)** button
 
-View will try to draw anything with a `Shape` property. You can select [Draft](Draft_Workbench.md) objects and [PartDesign Bodies](PartDesign_Body.md) also. View will also extract any shapes from objects within an [App::Part](Std_Part.md) container or a [Group](Std_Group.md).
+View will try to draw anything with a `Shape` property. You can select _ container or a [Group](Std_Group.md).
 
 ## Proprietăți
 

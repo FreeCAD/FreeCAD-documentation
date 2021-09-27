@@ -231,7 +231,7 @@ O FreeCAD corre em modo consola (sem gui)
 
 Caixa de dialogo para salvar imagens com tamanhos arbitrários.
 
-[Category:User\_Documentation/pt](Category:User_Documentation/pt.md) [Category:Screenshots/pt](Category:Screenshots/pt.md)
+_ _
 
 ---
 [documentation index](../README.md) > Screenshots/pt

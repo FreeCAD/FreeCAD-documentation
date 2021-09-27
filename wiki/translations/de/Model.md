@@ -18,7 +18,7 @@ Allgemein gesprochen, kann das Wort \"[Zeichnung](Drawing.md)\" das gleiche bede
 
 }} 
 
-[Category:Glossary](Category:Glossary.md)
+_
 
 ---
-[documentation index](../README.md) > [Glossary](Category:Glossary.md) > Model/de
+[documentation index](../README.md) > [Glossary](Category_Glossary.md) > Model/de

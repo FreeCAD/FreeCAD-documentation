@@ -23,7 +23,13 @@
 -   MacOS에서 이 명령은 [편집](Std_Edit_Menu/ko.md) 대신 FreeCAD 메뉴에서 나타날 수 있습니다.
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{Std Base navi

@@ -22,7 +22,7 @@ Cet atelier peut être installé à partir du [Gestionnaire d\'Addon](Std_AddonM
 ## Liens
 
 -   Code source hébergé sur GitHub : [github.com](https://github.com/mwganson/DynamicData)
--   [Documentation officielle complète](https://github.com/mwganson/DynamicData/blob/master/README.md)
+-   _
 
 ## Ateliers externes 
 
@@ -35,7 +35,7 @@ De nouveaux ateliers sont en développement, restez à l\'écoute !
 
 
 
-[Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+_ _
 
 ---
-[documentation index](../README.md) > DynamicData Workbench/fr
+[documentation index](../README.md) > [Addons](Category_Addons.md) > DynamicData Workbench/fr

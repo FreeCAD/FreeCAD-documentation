@@ -30,7 +30,7 @@ A common usage for the helix primitive is for <img src=images/PartDesign_Additiv
 
 <div class="mw-translate-fuzzy">
 
-The Create Primitives dialogue can be accessed via the [CreatePrimitives](Part_CreatePrimitives.md) icon <img alt="" src=images/Part_CreatePrimitives.png  style="width:32px;"> located in the Part menu or the Part toolbar, in the Part Workbench. A common usage for the Helix is for [threads](Thread_for_Screw_Tutorial.md) in conjunction with the [sweep](Part_Sweep.md) operation.
+The Create Primitives dialogue can be accessed via the _ in conjunction with the [sweep](Part_Sweep.md) operation.
 
 
 </div>

@@ -59,9 +59,9 @@ Dieses Seite zeigt die Vorlagen entsprechend dem American National Standards Ins
 
 ## Abspann
 
-Die Vorlagen wurden erstellt durch [Quick61](User:Quick61.md) und aufgelistet in [FreeCAD-Drawing-Templates](https://github.com/quick61/FreeCAD-Drawing-Templates).
+Die Vorlagen wurden erstellt durch _ und aufgelistet in [FreeCAD-Drawing-Templates](https://github.com/quick61/FreeCAD-Drawing-Templates).
 
-[Category:Documentation](Category:Documentation.md) [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Drawing](Category:Drawing.md)
+_ _ _
 
 ---
-[documentation index](../README.md) > [Documentation](Category:Documentation.md) > ANSI templates/de
+[documentation index](../README.md) > [Documentation](Category_Documentation.md) > ANSI templates/de

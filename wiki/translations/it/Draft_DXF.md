@@ -192,7 +192,7 @@ importDXF.export(objects, "/home/user/Pictures/myfile.dxf")
 
  
 
-[Category:File Formats](Category:File_Formats.md)
+_
 
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft DXF/it
+[documentation index](../README.md) > [File Formats](Category_File Formats.md) > [Draft](Draft_Workbench.md) > Draft DXF/it

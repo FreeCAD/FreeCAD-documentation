@@ -1,0 +1,25 @@
+# Manual:Introduction/hr
+<div class="mw-translate-fuzzy">
+
+
+{{Manual:TOC}}
+
+![150](images/Crystal_Clear_manual.png )[FreeCAD](http://www.freecadweb.org) je jedan open-source parametrijski program za 3D modeliranje.On je napravljen za modeliranje stvarnih objekata, počevši od malih elektronskih komponenata pa do zgrada i predmeta za 3D printanje. FreeCAD je besplatan za učitavanje, korištenje, distribuciju i mjenjanje koda. I njegov source code je otvorenog koda izdan pod [LGPL](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License) licencom. Podatci koje ste stvorili sa FreeCAD-om su potpuno vaši, i mogu se dobiti nazad (oporaviti) bez FreeCAD-a.
+
+
+</div>
+
+![150\|center](images/Crystal_Clear_manual.png )
+
+[FreeCAD](http://www.freecadweb.org) is a free, open source parametric 3D modeling application. It is made primarily to model real-world objects, ranging from small electronic components up to large objects such as buildings and civil engineering projects, with a strong focus on 3D-printable objects. FreeCAD is free to download, use, distribute and modify, and its source code is open and published under the very permissive [LGPL](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License) license. The data you produce with FreeCAD is fully yours, and can be recovered without FreeCAD.
+
+FreeCAD is also fundamentally a social project, as it is developed and maintained by a community of developers and users united by their passion for FreeCAD.
+
+This manual is an experiment, taking a different approach from the [official FreeCAD documentation wiki](Main_Page.md). The wiki is written collaboratively by dozens of community members. Like most wikis, it contains huge amounts of information but is somewhat difficult to access and navigate by newcomers. This makes it an excellent resource for reference, but a less practical tool for learning FreeCAD. This manual will walk you through much of the information available on the wiki, but we hope the step-by-step approach based on examples and a more unified tone due to a smaller number of authors will make it more suitable for a first contact with FreeCAD. It will become a companion for the wiki, but not replace it.
+
+This manual is being written for the newest stable version of FreeCAD, version **0.18** (early 2019).
+
+The contents of this manual are published under the _, and on the original [github](https://github.com/yorikvanhavre/FreeCAD-manual) account used to write the first version of this book. Easier to read HTML, PDF, MOBI and EPUB versions are available on [GitBook](https://www.gitbook.com/book/yorikvanhavre/a-freecad-manual/details). A printed version is being prepared.
+
+---
+[documentation index](../README.md) > Manual:Introduction/hr

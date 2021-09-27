@@ -8,7 +8,7 @@ Questa pagina raccoglie le informazioni sulla costruzione dei pacchetti di FreeC
 
  
 
-[Category:Packaging](Category:Packaging.md) [Category:Developer Documentation](Category:Developer_Documentation.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Packaging](Category:Packaging.md) > Packaging/it
+[documentation index](../README.md) > [Packaging](Category_Packaging.md) > Packaging/it

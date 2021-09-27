@@ -23,7 +23,7 @@ The **Std Paste** command pastes objects from the Clipboard into the active docu
 ## Cum se folosește 
 
 1.  Make the target Document active by clicking on it in the Project tab or Document window.
-2.  Press the **[16px|Paste](File:Std_Paste.png.md)** icon, **ctrl** + **V** keys or use menu choices Edit → Paste.
+2.  Press the **_** icon, **ctrl** + **V** keys or use menu choices Edit → Paste.
 
 
 </div>

@@ -17,7 +17,7 @@ Outil pour diviser des formes par intersection avec d\'autres formes. Par exempl
 
 *Ci-dessus : les morceaux ont été séparés manuellement par la suite pour révéler le découpage.*
 
-[Séparer/exploser](Part_SliceApart/fr.md) est identique à <img alt="" src=images/Part_Slice.svg  style="width:24px;"> [Part Scinder](Part_Slice/fr.md) suivi de <img alt="" src=images/Part_ExplodeCompound.svg  style="width:24px;"> [Part Éclater le composé](Part_ExplodeCompound/fr.md). Alors que \"Slice to compound (Scinder vers composé)\" est totalement paramétrique et ne pose aucun problème lorsque le nombre de pièces change, \"Slice apart (Séparer/exploser)\" ne met pas à jour le nombre d\'objets lorsque le nombre de pièces change. Ils créent tous deux la fonction paramétrique Slice, qui place les morceaux scindés dans un composé, mais \"Slice apart\" fait exploser le composé résultant en objets séparés.
+_ suivi de <img alt="" src=images/Part_ExplodeCompound.svg  style="width:24px;"> [Part Éclater le composé](Part_ExplodeCompound/fr.md). Alors que \"Slice to compound (Scinder vers composé)\" est totalement paramétrique et ne pose aucun problème lorsque le nombre de pièces change, \"Slice apart (Séparer/exploser)\" ne met pas à jour le nombre d\'objets lorsque le nombre de pièces change. Ils créent tous deux la fonction paramétrique Slice, qui place les morceaux scindés dans un composé, mais \"Slice apart\" fait exploser le composé résultant en objets séparés.
 
 La forme de sortie occupe le même espace que l\'original. Mais il est divisé là où il croise d\'autres formes. Les pièces fendues sont des pièces individuelles.
 

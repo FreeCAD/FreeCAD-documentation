@@ -3,14 +3,14 @@
 
 # Description
 
-[LuxRender](https://luxcorerender.org/history/) is one of the two render engines supported by the [Raytracing Workbench](Raytracing_Workbench.md) together with [POV-Ray](POV-Ray.md). In 2013 the project has been rebooted becoming [LuxCoreRender](LuxCoreRender.md), with a major code rewriting and compatibility breaking changes, thus the LuxRender project has been abandoned. Officially [LuxCoreRender](LuxCoreRender.md) is not supported by the [Raytracing Workbench](Raytracing_Workbench.md), although it might be worth to try.
+_ together with [POV-Ray](POV-Ray.md). In 2013 the project has been rebooted becoming [LuxCoreRender](LuxCoreRender.md), with a major code rewriting and compatibility breaking changes, thus the LuxRender project has been abandoned. Officially [LuxCoreRender](LuxCoreRender.md) is not supported by the [Raytracing Workbench](Raytracing_Workbench.md), although it might be worth to try.
 
 # Installation
 
 ## Raytracing Workbench 
 
 
-**The [Raytracing Workbench](Raytracing_Workbench.md) is being superseded by the new [https://github.com/FreeCAD/FreeCAD-render Render Workbench], which is intended as its replacement. This must not be confused with the halted and outdated [Render project](Render_project.md). The Render Workbench can be installed through the [Addon Manager](Std_AddonMgr.md). The information here is provided because by default FreeCAD is still shipped (as of 0.19-24276) with the Raytracing Workbench**
+**The _. The Render Workbench can be installed through the [Addon Manager](Std_AddonMgr.md). The information here is provided because by default FreeCAD is still shipped (as of 0.19-24276) with the Raytracing Workbench**
 
 ### Stable Version 
 
@@ -54,7 +54,7 @@ There is no development version of LuxRender, as development has been halted in 
 
 ## Render Workbench 
 
-The [Render Workbench](https://github.com/FreeCAD/FreeCAD-render) has dropped support for LuxRender, as it is outdated. It supports instead the modern reboot [LuxCoreRender](LuxCoreRender.md).
+The _.
 
 ---
 [documentation index](../README.md) > LuxRender/ru

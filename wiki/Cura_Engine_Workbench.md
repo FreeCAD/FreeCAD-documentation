@@ -57,12 +57,12 @@ To use do the following:
 ## Other useful links 
 
 -   Official CuraEngine: [Ultimaker Cura](https://ultimaker.com/software/ultimaker-cura) respectively [github CuraEngine repository](https://github.com/Ultimaker/CuraEngine)
--   [Manual:Preparing models for 3D printing: Using the Cura addon](Manual:Preparing_models_for_3D_printing#Using_the_Cura_addon.md)
+-   _
 -   [FreeCAD-CuraEngine-Plugin](https://github.com/cblt2l/FreeCAD-CuraEngine-Plugin/tree/28f66c9d39a354da4839acb7c5d6884cbde948ab)
 -   [External workbenches](External_workbenches.md)
 -   [Macros recipes](Macros_recipes.md)
 
-[Category:Sandbox](Category:Sandbox.md)
+_
 
 ---
 [documentation index](../README.md) > Cura Engine Workbench

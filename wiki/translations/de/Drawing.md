@@ -18,7 +18,7 @@ Im informellen Gebrauch kann eine \"Zeichnung\" jede geometrische Abbildung sein
 
 Wenn jedoch mehr Präzision erforderlich ist, muss eine Unterscheidung getroffen werden.
 
--   Ein \"[Körper](Body/de.md)\" ([PartDesign Körper](PartDesign_Body/de.md)) ist ein Objekt, das von einem [Part Formelement](Part_Feature/de.md) abgeleitet ist. (`Part::Feature` Klasse), erstellt mit dem [PartDesign Arbeitsbereich](PartDesign_Workbench/de.md).
+-   Ein \"_.
 -   Ein \"[Part](Part/de.md)\" ([Anwendung Part](App_Part/de.md)) wird zum Gruppieren mehrerer \"[Körper](Body/de.md)\" verwendet, um eine Baugruppe zu bilden.
 -   Eine \"Zeichnung\" ist eine 2D Projektion eines \"Körpers\" oder eines \"Teils\".
 -   Eine \"Zeichnung\" kann auch mit dem [Arbeitsbereich Zeichnung](Drawing_Workbench/de.md) erstellt werden. Da dieser Arbeitsbereich jedoch seit 0.17 veraltet ist, solltest du stattdessen [TechDraw Arbeitsbereich](TechDraw_Workbench/de.md) bevorzugen.
@@ -28,7 +28,7 @@ Wenn jedoch mehr Präzision erforderlich ist, muss eine Unterscheidung getroffen
 
 }} {{Document objects navi}} 
 
-[Category:Glossary](Category:Glossary.md)
+_
 
 ---
-[documentation index](../README.md) > [Glossary](Category:Glossary.md) > Drawing/de
+[documentation index](../README.md) > [Glossary](Category_Glossary.md) > Drawing/de

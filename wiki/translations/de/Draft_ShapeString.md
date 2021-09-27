@@ -20,7 +20,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Das Werkzeug **<img src="images/Draft_ShapeString.svg" width=16px> [Entwurf FormZeichenfolge](Draft_ShapeString/de.md)** fügt eine Verbundform ein, die eine TextZeichenfolge darstellt. Texthöhe, Laufweite und Schriftart können angegeben werden. Die resultierende Form kann mit dem Werkzeug <img alt="" src=images/Part_Extrude.svg  style="width:24px;"> [Teil Extrusion](Part_Extrude/de.md) verwendet werden, um 3D Buchstaben zu erzeugen.
+Das Werkzeug **<img src="images/Draft_ShapeString.svg" width=16px> _ verwendet werden, um 3D Buchstaben zu erzeugen.
 
 
 </div>
@@ -28,7 +28,7 @@ Das Werkzeug **<img src="images/Draft_ShapeString.svg" width=16px> [Entwurf Form
 
 <div class="mw-translate-fuzzy">
 
-**Alternativ**: Um ein einfacheres Textelement ohne geschlossene Form einzufügen, verwende <img alt="" src=images/Draft_Text.svg  style="width:24px;"> [Entwurf Text](Draft_Text/de.md). Um eine Textbeschriftung mit einem Anfang und einem Pfeil zu erstellen, verwende <img alt="" src=images/Draft_Label.svg  style="width:24px;">[Entwurf Beschriftung](Draft_Label/de.md)
+**Alternativ**: Um ein einfacheres Textelement ohne geschlossene Form einzufügen, verwende <img alt="" src=images/Draft_Text.svg  style="width:24px;"> _
 
 
 </div>

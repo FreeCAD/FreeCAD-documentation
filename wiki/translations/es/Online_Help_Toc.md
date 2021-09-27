@@ -1,7 +1,7 @@
 # Online Help Toc/es
-Esta es la tabla de contenidos usada para construcción automática de el sistema de \'\'\'ayuda en linea \'\'\' en FreeCAD. Una versión imprimible de este manual es tambien disponible en [paginas liberadas](https://github.com/FreeCAD/FreeCAD/releases). Si tienes alguna pregunta o necesitas ayuda con FreeCAD por favor consulta la [página de ayuda](Help/es.md) incluyendo los foros y grupos de chat.
+Esta es la tabla de contenidos usada para construcción automática de el sistema de \'\'\'ayuda en linea \'\'\' en FreeCAD. Una versión imprimible de este manual es tambien disponible en _ incluyendo los foros y grupos de chat.
 
-Alli esta otra tabla de contenidos para el [Manual de FreeCAD](Manual:Introduction.md).
+Alli esta otra tabla de contenidos para el _.
 
 <img alt="" src=images/Online_Help_Toc.svg  style="width:64px;">
 
@@ -117,7 +117,7 @@ Alli esta otra tabla de contenidos para el [Manual de FreeCAD](Manual:Introducti
 
 
 
-[Category:Documentation](Category:Documentation.md)
+_
 
 ---
-[documentation index](../README.md) > [Documentation](Category:Documentation.md) > Online Help Toc/es
+[documentation index](../README.md) > [Documentation](Category_Documentation.md) > Online Help Toc/es

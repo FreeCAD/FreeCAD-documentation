@@ -14,7 +14,7 @@
 
 FreeCAD é uma aplicação de modelagem 3D [aplicação de modelagem paramétrica](About_FreeCAD/pt-br.md). Ele é feito principalmente para projetos mecânicos, mas também serve a todos os outros usos onde você precisa modelar objetos 3D com precisão e controle sobre o histórico da modelagem.
 
-O FreeCAD está em desenvolvimento desde 2002 e oferece uma grande lista de [ recursos](Feature_list/pt-br.md). Ainda faltam recursos, mas elas são suficientemente poderosas para o uso por hobby e pequenas oficinas. Existe uma comunidade em rápido crescimento de usuários entusiastas que participam do [fórum do FreeCAD](http://forum.freecadweb.org/index.php) e você pode encontrar nele muitos [exemplos](https://forum.freecadweb.org/viewforum.php?f=24) de projetos de qualidade desenvolvidos com o FreeCAD. Veja também, [FreeCAD usado na produção](FreeCAD_used_in_production/pt-br.md).
+O FreeCAD está em desenvolvimento desde 2002 e oferece uma grande lista de _.
 
 Como todos os projetos de software livre, o FreeCAD depende de sua comunidade para crescer, ganhar recursos e corrigir bugs. Não se esqueça disso ao usar o FreeCAD; se você gostar, pode [doar](Donate/pt-br.md) e [ajude o FreeCAD](Help_FreeCAD/pt-br.md) de várias maneiras, como escrever documentação e fazer traduções.
 
@@ -197,7 +197,7 @@ O [Bancada de Trabalho Draft](Draft_Workbench/pt-br.md) e o [Bancada de Trabalho
 
 <div class="mw-translate-fuzzy">
 
-A [bancada de trabalho Draft](Draft_Workbench/pt-br.md) oferece ferramentas 2D um pouco semelhantes ao que você pode encontrar em aplicações CAD 2D tradicionais, tais como [AutoCAD](https://en.wikipedia.org/wiki/AutoCAD). Entretanto, estando o esboço 2D longe do escopo do FreeCAD, não espere encontrar ali toda a gama de ferramentas que estas aplicações dedicadas oferecem. A maioria das ferramentas de rascunho funciona não apenas em um plano 2D, mas também em todo o espaço 3D, e se beneficia de sistemas de ajuda especiais como [Work planes](Draft_SelectPlane/pt-br.md) e [object snapping](Draft_Snap/pt-br.md).
+A _ e [object snapping](Draft_Snap/pt-br.md).
 
 
 </div>
@@ -238,7 +238,7 @@ O princípio [Extensões](Addon/pt-br.md) é baseado no desenvolvimento de um co
 Há dois tipos de extensões:
 
 1.  [Macros](Macros/pt-br.md): pequenos trechos de código Python que fornecem uma nova ferramenta ou funcionalidade. As macros geralmente começam como uma forma de simplificar ou automatizar a tarefa de desenhar ou editar um determinado objeto. Se muitas destas macros forem coletadas dentro de um diretório, o diretório inteiro pode ser distribuído como uma nova bancada de trabalho.
-2.  [ Bancadas de trabalho externas](External_workbenches/pt-br.md): coleções de ferramentas programadas em Python ou C++ que estendem o FreeCAD de uma forma importante. Se uma bancada de trabalho estiver suficientemente desenvolvida e bem documentada, ela pode ser incluída como uma das bancadas de trabalho de base no FreeCAD. Em [bancos de trabalho externos](External_workbenches/pt-br.md), você encontrará o princípio e uma lista da biblioteca existente.
+2.  _, você encontrará o princípio e uma lista da biblioteca existente.
 
 
 </div>
@@ -263,7 +263,7 @@ E, finalmente, um dos recursos mais poderosos do FreeCAD é o ambiente [ scripti
 
 
 
-[Category:User\_Documentation/pt-br](Category:User_Documentation/pt-br.md)
+_
 
 ---
 [documentation index](../README.md) > Getting started/pt-br

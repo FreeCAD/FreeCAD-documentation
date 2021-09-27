@@ -17,7 +17,7 @@
 
 The **Mesh Intersection** command creates a new non-parametric mesh object, a [Mesh Feature](Mesh_Feature.md), that is the intersection (common) of two mesh objects.
 
-[OpenSCAD](http://www.openscad.org/) must be installed to use this command, and the path to its executable must be set in the [OpenSCAD preferences](OpenSCAD_Preferences.md).
+_.
 
 ![](images/Mesh_Intersection_example.png ) *On the left two mesh objects, on the right the mesh object that is the intersection of those objects*
 

@@ -93,4 +93,4 @@ Arch.makeProfile([0,'REC','REC100x100','R',100,100])
 Lorsque le premier élément de la liste est un numéro ordonné pas encore utilisé.
 
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Profile/fr
+[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch Profile/fr

@@ -89,6 +89,8 @@ Pașii pentru a face AEF în Atelierul AEF din FreeCAD GUI sunt:
 
 -   <img alt="" src=images/FEM_ConstraintTie.svg  style="width:32px;"> [Constraint tie](FEM_ConstraintTie.md): Used to define a tie constraint (\"bonded contact\") between two faces. <small>(v0.19)</small> 
 
+-   <img alt="" src=images/FEM_ConstraintSpring.svg  style="width:32px;"> [Constraint spring](FEM_ConstraintSpring.md): Used to define a tie constraint (\"bonded contact\") between two faces. <small>(v0.20)</small> 
+
 -   <img alt="" src=images/Fem-constraint-force.svg  style="width:32px;"> [Constraint force](FEM_ConstraintForce/ro.md): Utilizat pentru a defini o forță exprimată în \[N\] aplicată unifrom pe fațetă selectată într-o direcție definibilă.
 
 -   <img alt="" src=images/Fem-constraint-pressure.svg  style="width:32px;"> [Constraint pressure](FEM_ConstraintPressure/ro.md): Utilizat pentru a defini constrângere de presiune.
@@ -142,6 +144,8 @@ Pașii pentru a face AEF în Atelierul AEF din FreeCAD GUI sunt:
 -   <img alt="" src=images/Fem-solver.svg  style="width:32px;"> [Solver CalculiX](FEM_SolverCalculiX.md):
 
 -   <img alt="" src=images/Fem-elmer.svg  style="width:32px;"> [Solver Elmer](FEM_SolverElmer.md):
+
+-   <img alt="" src=images/FEM_SolverMystran.svg  style="width:32px;"> [Solver Mystran](FEM_SolverMystran.md):
 
 -   <img alt="" src=images/Fem-solver.svg  style="width:32px;"> [Solver Z88](FEM_SolverZ88.md):
 
@@ -276,7 +280,7 @@ A developer\'s guide has been written to help power users in understanding the c
 
 }} 
 
-[Category:Workbenches](Category:Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > FEM Workbench/ro
+[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > FEM Workbench/ro

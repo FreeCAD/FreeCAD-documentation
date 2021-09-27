@@ -125,7 +125,7 @@ Un\'altra pagina che contiene i link interessanti è il [Portale della comunità
 
 
 
-[Category:Documentation](Category:Documentation.md)
+_
 
 ---
-[documentation index](../README.md) > [Documentation](Category:Documentation.md) > Interesting links/it
+[documentation index](../README.md) > [Documentation](Category_Documentation.md) > Interesting links/it

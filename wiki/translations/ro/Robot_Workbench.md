@@ -125,7 +125,7 @@ A se vedea [Robot API example](Robot_API_example.md) pentru o descriere a funcț
 
 }} 
 
-[Category:Workbenches](Category:Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > Robot Workbench/ro
+[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Robot Workbench/ro

@@ -82,7 +82,7 @@ Szczegółowe instrukcje można znaleźć na [GitHub](https://github.com/HakanSe
 
 
 
-[Category:External\_Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)
+_ _
 
 ---
-[documentation index](../README.md) > ModernUI Workbench/pl
+[documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > ModernUI Workbench/pl

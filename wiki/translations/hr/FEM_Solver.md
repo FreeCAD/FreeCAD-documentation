@@ -10,7 +10,7 @@ Wikipedia [lists many finite element software packages](https://en.wikipedia.org
 
 ### Available solvers in various Linux distributions 
 
-The [FreeCAD-dependencies](https://github.com/luzpaz/FreeCAD-dependencies) repository tracks the dependencies of FreeCAD across many Linux distribution. The [FEM.md](https://github.com/luzpaz/FreeCAD-dependencies/blob/master/FC-Workbenches/FEM.md) page looks at available open source FEA solvers that could be used with the [FEM Workbench](FEM_Workbench.md). The page shows the version of a particular solver in the repository of a particular Linux distribution. This information is useful to know if a solver is current, or out of date and must be upgraded.
+The _ page looks at available open source FEA solvers that could be used with the [FEM Workbench](FEM_Workbench.md). The page shows the version of a particular solver in the repository of a particular Linux distribution. This information is useful to know if a solver is current, or out of date and must be upgraded.
 
 The information is also discussed in the forum: [supported and not supported Solver](https://forum.freecadweb.org/viewtopic.php?f=18&t=26326&start=10#p270325).
 
@@ -28,7 +28,7 @@ The Elmer multiphysics solver was integrated into FreeCAD as a [Google Summer of
 
 ### Z88
 
-The Z88 solver is designed for linear static simulations with an emphasis in teaching about the finite element method. It was the second solver to be [integrated into FreeCAD](https://forum.freecadweb.org/viewtopic.php?f=18&t=15568). Afterwards, the integration was improved as a [Google Summer of Code 2017](Google_Summer_of_Code_2017.md) project.
+The Z88 solver is designed for linear static simulations with an emphasis in teaching about the finite element method. It was the second solver to be _ project.
 
 See the information:
 
@@ -92,7 +92,7 @@ Some of the problems that are intended to be overcome by this solver include
 
 The author considers FreeCAD a good prototyping platform to quickly set up, test, and visualize different structural problems, so having an integrated yet flexible solver is very helpful. See the main thread, [fcFEM - FEA from start to finish](https://forum.freecadweb.org/viewtopic.php?f=18&t=33974).
 
-fcFEM is packaged as a python library and a macro, and can be downloaded from the [github repository](https://github.com/HarryvL/fcFEM). It will eventually be available from the [AddonManager](Std_AddonMgr.md), or will be distributed as part of FreeCAD itself.
+fcFEM is packaged as a python library and a macro, and can be downloaded from the _, or will be distributed as part of FreeCAD itself.
 
 ## Implementation in progress 
 
@@ -102,7 +102,7 @@ FEniCS is a computing framework for solving partial differential equations (PDEs
 
 See: [main website](https://fenicsproject.org/), [Fenics as Solver](https://forum.freecadweb.org/viewtopic.php?f=18&t=4677) (forum thread).
 
-[FenicsSolver](https://github.com/qingfengxia/FenicsSolver) is a simulation platform to deal with multi-body, multi-physics (coupled), multi-scale problems. It hopes to integrate the FEniCS solver into both the [FEM Workbench](FEM_Workbench.md) and the Cfd [external workbench](External_workbenches.md), so the resulting system functions like a free alternative to Comsol or Moose. FenicsSolver is being developed by the same author of Cfd.
+_ and the Cfd [external workbench](External_workbenches.md), so the resulting system functions like a free alternative to Comsol or Moose. FenicsSolver is being developed by the same author of Cfd.
 
 ### OOFEM
 

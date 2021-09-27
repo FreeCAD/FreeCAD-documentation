@@ -21,7 +21,7 @@
 
 ## Açıklama
 
-BSpline aracı, mevcut [ Çalışma düzleminde](Draft_SelectPlane/tr.md) birçok noktadan [B-Spline eğrisi](http://en.wikipedia.org/wiki/B-spline) oluşturur.[Tepsi](Draft_Tray/tr.md) \'de ayarlanan [Çizgi stili](Draft_Linestyle/tr.md) alır.
+BSpline aracı, mevcut _ \'de ayarlanan [Çizgi stili](Draft_Linestyle/tr.md) alır.
 
 
 </div>
@@ -90,7 +90,7 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 -   [snapping](Draft_Snap/tr.md) noktanızı mesafeden bağımsız olarak, en yakın çeki konumuna yönlendirmek için çizim yaparken **Ctrl** tuşunu basılı tutun.
 -   Bir sonraki noktanızı yatay veya dikey olarak son noktaya göre [sınırlamak](Draft_Constrain/tr.md) çizerken **Shift** tuşunu basılı tutun.
--   Son noktayı geri almak için **Ctrl** **Z** tuşuna basınız veya **[12px](Resim:_Taslak_UndoLine.png.md) [Geri alma](Draft_UndoLine/tr.md)** düğmesine basınız. .
+-   Son noktayı geri almak için **Ctrl** **Z** tuşuna basınız veya **_ [Geri alma](Draft_UndoLine/tr.md)** düğmesine basınız. .
 -   Geçerli komutu iptal etmek için **Esc** veya **Close** tuşuna basınız; Önceden yerleştirilmiş eğri parçaları kalacaktır.
 
 

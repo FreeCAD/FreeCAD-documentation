@@ -78,7 +78,7 @@ Se sei un utente CAD e vuoi aggiungere qualcosa qui, sentiti libero di modificar
 -   Roof
 -   Assemblies
 
-[Category:Hubs](Category:Hubs.md) [Category:Roadmap](Category:Roadmap.md) [Category:Developer](Category:Developer.md)
+_ _ _
 
 ---
-[documentation index](../README.md) > [Hubs](Category:Hubs.md) > Wished tools/it
+[documentation index](../README.md) > [Hubs](Category_Hubs.md) > Wished tools/it

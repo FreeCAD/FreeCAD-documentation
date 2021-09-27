@@ -61,7 +61,7 @@ See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Dr
 
   
 
-[Category:User Documentation/sv](Category:User_Documentation/sv.md)
+_
 
 ---
 [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Constrain/sv

@@ -8,7 +8,7 @@ Dies ist der wichtigste Hilfebereich für FreeCAD Neueinsteiger.
 
 Diese Seiten werden ständig weiterentwickelt, so dass es zu fehlenden oder veralteten Informationen kommen kann. Wenn du die Informationen, die du brauchst, nicht findest, zögere nicht, sie im [FreeCAD Forum](http://forum.freecadweb.org) zu erfragen.
 
-Wenn Du zu FreeCAD beitragen möchtest, [spende](donate/de.md) bitte und lies die [Hilf FreeCAD](Help_FreeCAD.md) Seite für andere Möglichkeiten, einen Beitrag zu leisten. Wenn Du dieses Wiki bearbeiten möchtest, fordere ein Wiki Konto mit Bearbeiterberechtigungen an [im Forum](https://forum.freecadweb.org/viewtopic.php?f=21&t=6830), und lies die [Wiki Seiten](WikiPages/de.md) für die allgemeinen Richtlinien, die Du befolgen solltest.
+Wenn Du zu FreeCAD beitragen möchtest, _ für die allgemeinen Richtlinien, die Du befolgen solltest.
 
 Wenn du erfahren möchtest, wie FreeCAD vor Jahren begann, besuche die Seite [Geschichte](History/de.md).
 
@@ -30,7 +30,7 @@ Siehe auch:
 
 ### Grundlegende Anwendung 
 
--   [Benutzeroberfläche](Interface/de.md): Die FreeCAD Benutzeroberfläche besteht aus verschiedenen grafischen Elementen auf dem Bildschirm, darunter der [3D Ansicht](3D_view/de.md), der [Baumansicht](Tree_view/de.md), dem [Eigenschaftseditor](Property_editor/de.md), der [Aufgabenleiste](Task_panel/de.md) und der [Python Konsole](Python_console/de.md).
+-   _, der [Baumansicht](Tree_view/de.md), dem [Eigenschaftseditor](Property_editor/de.md), der [Aufgabenleiste](Task_panel/de.md) und der [Python Konsole](Python_console/de.md).
 -   [Mausnavigation](Mouse_navigation/de.md): die verschiedenen Arten der Verwendung der Maus oder des Trackpads zur Navigation in der 3D Ansicht.
 -   [Auswahlmethoden](Selection_methods/de.md): den unterschiedlichen Methoden zur Auswahl von Objekten im Programm.
 -   [Objektname](Object_name/de.md): alle Objekte haben einen einzigartigen `Namen` der sie identifiziert und eine `Beschriftung` die vom Anwender bearbeitet werden kann.
@@ -61,7 +61,7 @@ Siehe auch:
 
 -   <img alt="" src=images/Workbench_PartDesign.svg  style="width:32px;"> Der [Part Design Arbeitsbereich](PartDesign_Workbench/de.md) zur Erstelllung von Teilformen aus Skizzen.
 
--   <img alt="" src=images/Workbench_Path.svg  style="width:32px;"> Der [Pfad Arbeitsbereich](Path_Workbench/de.md) wird zur Erstellung von G-Code Anweisungen verwendet. Er befindet sich noch in der Entwicklung.
+-   <img alt="" src=images/Workbench_Path.svg  style="width:32px;"> Der [Path Arbeitsbereich](Path_Workbench/de.md) wird zur Erstellung von G-Code Anweisungen verwendet. Er befindet sich noch in der Entwicklung.
 
 -   <img alt="" src=images/Workbench_Points.svg  style="width:32px;"> Der [Punkte Arbeitsbereich](Points_Workbench/de.md) für die Arbeit mit Punktwolken.
 
@@ -71,7 +71,7 @@ Siehe auch:
 
 -   <img alt="" src=images/Workbench_Robot.svg  style="width:32px;"> Der [Roboter Arbeitsbereich](Robot_Workbench/de.md) zur Untersuchung von Roboterbewegungen.
 
--   <img alt="" src=images/Workbench_Sketcher.svg  style="width:32px;"> Der [Skizzierer Arbeitsbereich](Sketcher_Workbench/de.md) für die Arbeit mit geometrie-beschränkten Skizzen.
+-   <img alt="" src=images/Workbench_Sketcher.svg  style="width:32px;"> Der [Sketcher Arbeitsbereich](Sketcher_Workbench/de.md) für die Arbeit mit geometrie-beschränkten Skizzen.
 
 -   <img alt="" src=images/Workbench_Spreadsheet.svg  style="width:32px;"> Der [Arbeitsbereich Tabellenkalkulation](Spreadsheet_Workbench/de.md) zur Erstellung und Bearbeitung von Tabellenkalkulationsdaten.
 
@@ -121,7 +121,7 @@ Dies ist die offizielle FreeCAD Online Hilfe. Bitte beachte, dass das gesamte On
 
 
 
-[Category:Hubs](Category:Hubs.md)
+_
 
 ---
-[documentation index](../README.md) > [Hubs](Category:Hubs.md) > User hub/de
+[documentation index](../README.md) > [Hubs](Category_Hubs.md) > User hub/de

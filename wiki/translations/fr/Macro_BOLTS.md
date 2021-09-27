@@ -25,7 +25,7 @@ La page web fournit également le package [BOLTSFC](https://github.com/boltspart
 
 ## Utilisation
 
-Les instructions détaillées sur la [section documentation](https://github.com/boltsparts/BOLTSFC/blob/master/README.md) ou les pages :
+Les instructions détaillées sur la _ ou les pages :
 
 -   Comment installer BOLTS dans FreeCAD
 -   Comment configurer la barre d\'outils pour BOLTS

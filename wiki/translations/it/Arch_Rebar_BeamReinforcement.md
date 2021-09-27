@@ -19,7 +19,7 @@ Lo strumento [Rinforzo di trave](Arch_Rebar_BeamReinforcement/it.md) consente al
 
 The [Beam Reinforcement](Arch_Rebar_BeamReinforcement.md) tool is also integrated into [BIM Workbench](BIM_Workbench.md).
 
-Questo comando fa parte dell\'ambiente aggiuntivo [Reinforcement](Reinforcement_Workbench/it.md), che si può installare con <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon manager](Addon_Manager/it.md), tramite il menu **Strumenti → Addon manager → Reinforcement**.
+Questo comando fa parte dell\'ambiente aggiuntivo _, tramite il menu **Strumenti → Addon manager → Reinforcement**.
 
 ![](images/Arch_Rebar_BeamReinforcement_example.png )
 
@@ -383,7 +383,7 @@ RebarGroup = TwoLeggedBeam.makeReinforcement(
 
  
 
-[Category:Reinforcement](Category:Reinforcement.md)
+_
 
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Rebar BeamReinforcement/it
+[documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar BeamReinforcement/it

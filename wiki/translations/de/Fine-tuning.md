@@ -29,7 +29,7 @@ Die folgende Liste zeigt Parameter, die nicht über den Einstellungseditor zugä
 
 </div>
 
-### Export Default Filename 
+### Standard Dateinamen exportieren 
 
 -   **General/ExportDefaultFilenameMultiple** (string): Set the default filename to use when exporting multiple objects. Defaults to \"%F\".
 -   **General/ExportDefaultFilenameSingle** (string): Set the default filename to use when exporting a single object. Defaults to \"%F-%P-\".
@@ -44,7 +44,7 @@ Both of these options support the automatic insertion of various pieces of infor
 
 Any other characters are treated literally. If the resulting filename is illegal it will be changed on saving, with illegal characters replaced by the underscore (\_).
 
-## Mausgesteuert
+## Mausbezogenes
 
 -   **General/ComboBoxWheelEventFilter** (boolesch) : Setze den Wert auf `True`, damit sich Mausradereignisse nicht auf Elemente auswirken und rollbare (scrollbar) Bereiche nicht gerollt werden.
 -   **View/GestureMoveThreshold** (ganzzahlig / integer) : der Weg (px), den der Mauszeiger sich bewegen muss, um einen Rotations- oder Schwenkmodus des Gesture-Navigationsstils zu starten. Der Standardwert ist 5.
@@ -53,21 +53,17 @@ Any other characters are treated literally. If the resulting filename is illegal
 
 ## Tastaturkurzbefehle
 
-### Esc-Taste 
+### Abbruchtaste
 
--   **General/TasksKeyEsc** (boolesch): erstelle und setze den Parameter auf `False`, um die Funktion der **Esc**-Taste, den [Aufgabenbereich](Task_panel/de.md) zu verlassen, wenn dieser den Fokus hat, zu deaktivieren. **Hinweis:** Ersetzt durch [Skizzen Einstellungen](Sketcher_Preferences/de#Allgemein.md)
+-   **General/TasksKeyEsc** (boolesch): erstelle und setze den Parameter auf `False`, um die Funktion der **Esc**-Taste, den _
 -   **Mod/Sketcher/ViewKeyEsc** (boolesch): erstelle und setze den Parameter auf `False`, um Fehler zu vermeiden, wenn die **Esc**-Taste während des Fortführmodus zur Erstellung von Geometrie/Einschränkungen im Skizzierer einmal zu oft gedrückt wird (siehe [Foren-Thema](https://forum.freecadweb.org/viewtopic.php?f=3&t=42207&start=60#p367584))
 
 ## Bestimmte Arbeitsbereiche 
 
-
-<div class="mw-translate-fuzzy">
-
 -   <img alt="" src=images/Workbench_TechDraw.svg  style="width:16px;"> [TechDraw Arbeitsbereich](TechDraw_Workbench/de.md) hat mehrere versteckte Schalter, die in [TechDraw Einstellungen](TechDraw_Preferences/de#Ausgeblendete_Einstellungen.md) dokumentiert sind.
 -   <img alt="" src=images/Workbench_Path.svg  style="width:16px;"> [Pfad Arbeitsbereich](Path_Workbench/de.md) hat einen Schalter zur Aktivierung experimenteller Funktionen, die in [Pfad experimentell](Path_experimental/de.md) dokumentiert sind.
-
-
-</div>
+-   <img alt="" src=images/Workbench_BIM.svg  style="width:16px;"> [BIM Arbeitsbereich](BIM_Workbench/de.md):
+    -   **Mod/BIM/DefaultPageScale** (Float): Standard Skalierung für neue TechDraw Seiten, die vom BIM Arbeitsbereich aus erstellt werden, falls die Vorlage kein editierbares Textfeld \"Skalieren\" oder \"Skalierung\" (Text unempfindlich) enthält.
 
 ## Verwandtes
 
@@ -77,7 +73,7 @@ Any other characters are treated literally. If the resulting filename is illegal
 
 
 
-[Category:Developer Documentation](Category:Developer_Documentation.md)
+_
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Fine-tuning/de
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Fine-tuning/de

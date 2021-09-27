@@ -1,6 +1,6 @@
 # Sketcher ConstrainHorizontal/it
 ---
-- GuiCommand:/it   Name:Constraint Horizontal   Name/it:Vincolo orizzontale   Workbenches:[PartDesign](Sketcher_Workbench/it___Schizzo]],_[[PartDesign_Workbench/it.md)|Shortcut:**H**   MenuLocation:PartDesign → Vincoli → Orizzontale   SeeAlso:[Verticale](Sketcher_ConstrainVertical/it.md)---
+- GuiCommand:/it   Name:Constraint Horizontal   Name/it:Vincolo orizzontale   Workbenches:_---
 
 
 </div>

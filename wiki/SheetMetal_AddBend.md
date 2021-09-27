@@ -10,7 +10,9 @@
 
 ## Description
 
-The <img alt="" src=images/SheetMetal_AddBend.svg  style="width:24px;"> **SheetMetal AddBend** command folds a wall at a chosen line.
+The <img alt="" src=images/SheetMetal_AddBend.svg  style="width:24px;"> [Make Bend](SheetMetal_AddBend.md) command starts the **third** of three steps to convert a shell object made with tools of the Part or PartDesign workbench into an unfoldable SheetMetal object.
+
+As long as faces are joined with sharp edges the object can\'t be unfolded, and so the sharp edges have to be replaced with cylindrical bends, thus the naming Make Bend.
 
 ## Usage
 
@@ -45,7 +47,7 @@ A SheetMetal SolidBend object is derived from a [Part Feature](Part_Feature.md) 
 
 
 
-[Category:SheetMetal](Category:SheetMetal.md) [Category:Addons](Category:Addons.md) [Category:External Command Reference](Category:External_Command_Reference.md)
+_ _ _
 
 ---
-[documentation index](../README.md) > [SheetMetal](Category:SheetMetal.md) > SheetMetal AddBend
+[documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > SheetMetal AddBend

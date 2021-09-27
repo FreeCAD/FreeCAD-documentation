@@ -16,7 +16,7 @@
 
 ## Utilisation
 
-1.  Basculez vers <img alt="" src=images/Fasteners_workbench_icon.svg  style="width:24px;"> [Fasteners](Fasteners_Workbench.md) (installer à partir de <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Gestionnaire d\'Addon](Addon_Manager/fr.md) si ce n\'est pas déjà fait)
+1.  Basculez vers <img alt="" src=images/Fasteners_workbench_icon.svg  style="width:24px;"> _ si ce n\'est pas déjà fait)
 2.  Appelez l\'outil de nomenclature des fixations de plusieurs manières:
     -   Appuyez sur le bouton <img alt="" src=images/Fasteners_BOM.svg  style="width:24px;">
     -   Utilisez l\'entrée **Fasteners → BOM** dans le menu Fasteners
@@ -58,7 +58,7 @@
 
 }} 
 
-[Category:External Command Reference](Category:External_Command_Reference.md)
+_
 
 ---
-[documentation index](../README.md) > [External Command Reference](Category:External Command Reference.md) > Fasteners BOM/fr
+[documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > Fasteners BOM/fr

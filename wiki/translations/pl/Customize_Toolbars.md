@@ -3,7 +3,7 @@
 |Topic=Przykład
 |Level=początkujący
 |Time=5 minut
-|Author=[Mario52](User:Mario52.md)
+|Author=_
 |FCVersion=Wszystkie
 }}
 
@@ -121,7 +121,7 @@ Zobacz również [Dostosowywanie interfejsu użytkownika do własnych potrzeb](I
 
 
 
-[Category:Preferences](Category:Preferences.md)
+_
 
 ---
-[documentation index](../README.md) > [Preferences](Category:Preferences.md) > Customize Toolbars/pl
+[documentation index](../README.md) > [Preferences](Category_Preferences.md) > Customize Toolbars/pl

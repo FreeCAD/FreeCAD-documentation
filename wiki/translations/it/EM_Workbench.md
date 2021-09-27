@@ -12,7 +12,7 @@ The ElectroMagnetic (EM) Workbench provides the CAD front-end interface to some 
 
 ## Installazione
 
-[EM](EM_Workbench/it.md) è un [ambiente esterno](external_workbenches/it.md), che può essere installato da <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr/it.md). Questo può essere fatto tramite il menu **Strumenti → Addon Manager**.
+_. Questo può essere fatto tramite il menu **Strumenti → Addon Manager**.
 
 I risolutori elettromagnetici FastHenry2 e FasterCap devono essere installati separatamente. I loro codici binari e i sorgenti sono liberamente disponibili in [FastFieldSolvers](https://www.fastfieldsolvers.com).
 
@@ -77,7 +77,7 @@ New workbenches are in development, stay tuned!
 
 }}  
 
-[Category:External Workbenches](Category:External_Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > EM Workbench/it
+[documentation index](../README.md) > [External Workbenches](Category_External Workbenches.md) > EM Workbench/it

@@ -80,7 +80,7 @@ FreeCAD поставляется вместе с набором стандарт
 
 }} 
 
-[Category:Obsolete Workbenches](Category:Obsolete_Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > Drawing Workbench/ru
+[documentation index](../README.md) > [Obsolete Workbenches](Category_Obsolete Workbenches.md) > Drawing Workbench/ru

@@ -233,7 +233,7 @@ sheet.get('Diameter')
 
 }} 
 
-[Category:Workbenches](Category:Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > Spreadsheet Workbench
+[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Spreadsheet Workbench

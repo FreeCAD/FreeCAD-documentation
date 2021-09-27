@@ -21,7 +21,7 @@ El <img alt="" src=images/Workbench_Path.svg  style="width:24px;"> [Ambiente de 
 El flujo de trabajo del ambiente de trabajo Trayectoria crea estas instrucciones maquina como sigue:
 
 -   Un modelo 3D es la base del objeto, tipicamente creado utilizando uno o más de los bancos de trabajo [Diseño de parte](PartDesign_Workbench/es.md), [Parte](Part_Workbench/es.md) o [Boceto](Draft_Workbench/es.md).
--   Un [Objeto trabajo](Path_Job/es.md) es creado en el banco de trabajo Trayectoria. Este contiene toda la información necesaria para generar el código G para procesarlo el trabajo sobre una maquina CNC:Eso es material stock, la maquina de mecanizado tiene un cierto [Conjunto de herramientas](Path_ToolLibraryEdit/es.md) y estos siguen cierto comandos de control de velocidad y movimientos (Usualmente codigo G).
+-   Un _ y estos siguen cierto comandos de control de velocidad y movimientos (Usualmente codigo G).
 -   Herramientas son seleccionadas como son requeridas por las operaciones de trabajo.
 -   Trayectorias de mecanizado son creadas utilizando por ejemplo, operaciones [Contorno](Path_Profile.md) and [Vaciado](Path_Pocket_3D.md). Esos [Objectos trayectoria](Path_objects.md) utilizan una dialecto de código G el cual es independiente de la maquina CNC.
 -   Exporte el trabajo con un código G, que coincida con su máquina.
@@ -225,7 +225,7 @@ Some commands are experimental and not available by default. To enable them see 
 
 -   <img alt="" src=images/Path_Adaptive.svg  style="width:32px;"> [Adaptive](Path_Adaptive.md): Creates an adaptive clearing and profiling operation.
 
--   <img alt="" src=images/Path_Slot.svg  style="width:32px;"> [Slot](Path_Slot.md): Creates a slotting operation from selected features or custom points. [**Experimental**](Path_experimental.md). <small>(v0.19)</small> 
+-   <img alt="" src=images/Path_Slot.svg  style="width:32px;"> _. <small>(v0.19)</small> 
 
 
 <div class="mw-translate-fuzzy">
@@ -261,7 +261,7 @@ Some commands are experimental and not available by default. To enable them see 
 
 </div>
 
--   <img alt="" src=images/Path_Waterline.svg  style="width:32px;"> [Waterline](Path_Waterline.md): Creates a waterline path for a 3D surface. [**Experimental**](Path_experimental.md). <small>(v0.19)</small> 
+-   <img alt="" src=images/Path_Waterline.svg  style="width:32px;"> _. <small>(v0.19)</small> 
 
 
 <div class="mw-translate-fuzzy">
@@ -467,7 +467,7 @@ See [Path scripting](Path_scripting.md).
 
 ## Videos
 
--   [FreeCAD Path: Custom paths with Python - Part 1 - 5](https://www.youtube.com/playlist?list=PLEuOia-QxyFKgzAeTyH62GKqWKVURiWJL): a playlist with a series of 5 videos in English by sliptonic. This series shows how to work with the [Path Workbench](Path_Workbench.md).
+-   _.
 -   [FreeCAD CAM Path Workbench](https://www.youtube.com/playlist?list=PLUrr_kHPp4vhGdLlj6IemtF-OPUlRvSTC): a playlist with a series of 7 videos in English by CAD CAM Lessons.
 -   [FreeCAD CAM CNC](https://www.youtube.com/playlist?list=PLUrr_kHPp4vh2n6DcIlegK4dEKIFjmISJ) a playlist with a series of 8 videos in English by CAD CAM Lessons.
 
@@ -479,7 +479,7 @@ See [Path scripting](Path_scripting.md).
 
 }} 
 
-[Category:Workbenches](Category:Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > Path Workbench/es
+[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Path Workbench/es

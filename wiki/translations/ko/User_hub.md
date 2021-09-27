@@ -17,7 +17,7 @@ FreeCAD 자체처럼, 이 페이지는 계속 개발중이며, 빠지거나 틀�
 
 <div class="mw-translate-fuzzy">
 
-FreeCAD에 기여하고 싶다면, [Help FreeCAD](Help_FreeCAD.md) 페이지를 보세요. 이 위키를 편집하고 싶다면,[포럼](https://forum.freecadweb.org/viewtopic.php?f=21&t=6830)에서 편집권한을 갖는 위키 계정을 요청하고, 따라야 하는 일반 규칙을 위해 [위키 페이지를](WikiPages.md) 읽으세요.
+FreeCAD에 기여하고 싶다면, _ 읽으세요.
 
 
 </div>
@@ -32,7 +32,7 @@ FreeCAD에 기여하고 싶다면, [Help FreeCAD](Help_FreeCAD.md) 페이지를 
 <div class="mw-translate-fuzzy">
 
 -   [Application Overview](About_FreeCAD.md): A general overview of FreeCAD
--   [Installing](Installing.md): How to install FreeCAD on [Windows](Install_on_Windows.md), [Linux](Install_on_Linux.md) and [Mac](Install_on_Mac.md)
+-   _, [Linux](Install_on_Linux.md) and [Mac](Install_on_Mac.md)
 -   [Installing help files](Installing_Helpfile.md): how to install the offline documentation which is based on this wiki.
 -   [Getting started](Getting_started.md): A quick overview of the available tools
 -   [FAQ](FAQ.md): Frequently asked questions
@@ -53,7 +53,7 @@ See also:
 
 </div>
 
--   [Interface](Interface.md): the FreeCAD interface is composed of various graphical elements on the screen, including the [3D view](3D_view.md), the [tree view](Tree_view.md), the [property editor](Property_editor.md), the [task panel](Task_panel.md), and the [Python console](Python_console.md).
+-   _, the [tree view](Tree_view.md), the [property editor](Property_editor.md), the [task panel](Task_panel.md), and the [Python console](Python_console.md).
 -   [Mouse navigation](Mouse_navigation.md): the different types of using the mouse or trackpad to navigate in the 3D view.
 -   [Selection methods](Selection_methods.md): the different methods of selecting objects in the software.
 -   [Object name](Object_name.md): all objects have a read-only `Name` that uniquely identifies them, and a `Label` which is user editable.
@@ -155,7 +155,7 @@ This is the official FreeCAD online help. Please note that the whole online help
 
 
 
-[Category:Hubs](Category:Hubs.md)
+_
 
 ---
-[documentation index](../README.md) > [Hubs](Category:Hubs.md) > User hub/ko
+[documentation index](../README.md) > [Hubs](Category_Hubs.md) > User hub/ko

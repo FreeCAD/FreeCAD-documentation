@@ -78,7 +78,7 @@ Duża część właściwości Danych jest taka sama jak te prezentowane w sekcji
 
 ## Definicje typów cięcia 
 
-Typy cięcia *(typy śrub)* są zdefiniowane od wersji 0.19 w plikach [json](https://de.wikipedia.org/wiki/JavaScript_Object_Notation). Istnieje zestaw plików dystrybuowanych z programem FreeCAD, ale użytkownicy mogą tworzyć własne definicje. Pliki są wyszukiwane w <UserAppDataDir>/PartDesign/Hole. Folder `UserAppDataDir` można odnaleźć, wpisując ciąg `App.getUserAppDataDir()` w [konsoli Python](Python_console/pl.md).
+Typy cięcia *(typy śrub)* są zdefiniowane od wersji 0.19 w plikach _.
 
 Plik ten powinien zawierać:
 

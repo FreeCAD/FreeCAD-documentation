@@ -4,7 +4,7 @@
 
 {{TOCright}}
 
-In FreeCAD the word \"[Constraint](Constraint.md)\" is normally used to refer to a \"rule\" to draw geometrical shapes inside a <img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;"> [Sketch](Sketch.md) (`Sketcher::SketchObject` class). A constraint limits the position of a certain geometrical element in different ways, for example, it can specify whether the element is horizontal, vertical, tangent, parallel, perpendicular, coincident with a point, concentric to another object, etc.
+In FreeCAD the word \"_ (`Sketcher::SketchObject` class). A constraint limits the position of a certain geometrical element in different ways, for example, it can specify whether the element is horizontal, vertical, tangent, parallel, perpendicular, coincident with a point, concentric to another object, etc.
 
 There are two big types of constraints:
 
@@ -16,7 +16,7 @@ See the information in the <img alt="" src=images/Workbench_Sketcher.svg  style=
 
 ## Применение
 
-1.  Create a sketch either from the <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Sketcher Workbench](Sketcher_Workbench.md) or through the <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign Workbench](PartDesign_Workbench.md).
+1.  Create a sketch either from the <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> _.
 2.  Press
     -   
         **<img src=images/Sketcher_NewSketch.svg style="width:16px"> [Sketcher NewSketch](Sketcher_NewSketch.md)**
@@ -37,14 +37,14 @@ See the information in the <img alt="" src=images/Workbench_Sketcher.svg  style=
 ## Примечания
 
 -   Constraints are useful to create very precise profiles which can the be turned into solid extrusions by using the **<img src=images/PartDesign_Pad.svg style="width:16px"> <img src=images/Part_Extrude.svg style="width:PartDesign Pad](PartDesign_Pad.md)** or **[16px"> [Part Extrude](Part_Extrude.md)** operations.
--   Constraints are only used within [Sketches](Sketch.md); other 2D objects such as those created with the <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft Workbench](Draft_Workbench.md) do not understand about constraints; the latter are simply placed in 3D space, and their properties define their shape and position.
+-   Constraints are only used within _ do not understand about constraints; the latter are simply placed in 3D space, and their properties define their shape and position.
 
 
 {{Sketcher Tools navi
 
 }} {{Document objects navi}} 
 
-[Category:Glossary](Category:Glossary.md)
+_
 
 ---
-[documentation index](../README.md) > [Glossary](Category:Glossary.md) > Constraint/ru
+[documentation index](../README.md) > [Glossary](Category_Glossary.md) > Constraint/ru

@@ -21,19 +21,19 @@ FreeCAD unterstützt von Haus aus einige Softwarepakete von Drittanbietern. In v
 
 ### GitPython
 
-[GitPython](https://github.com/gitpython-developers/GitPython) ist eine Bibliothek zur Interaktion mit Git Repositorien. Der [Erweiterungsverwalter](Std_AddonMgr/de.md) kann diese Bibliothek verwenden. GitPython ist in den FreeCAD Installationsprogrammen für Windows und Mac enthalten.
+_ kann diese Bibliothek verwenden. GitPython ist in den FreeCAD Installationsprogrammen für Windows und Mac enthalten.
 
 ### GraphViz
 
-[GraphViz](https://www.graphviz.org) ist eine Open Source Software zur Visualisierung von Graphen. Sie wird von dem Werkzeug [Std Abhängigkeitsgraph](Std_DependencyGraph/de.md) verwendet.
+_ verwendet.
 
 ### OpenCAMLib
 
-[OpenCAMLib](http://www.anderswallin.net/CAM) ist eine Open Source Bibliothek für Computergestützte Fertigung (engl.: computer aided manufacturing (CAM)) Algorithmen. Sie wird im [Pfad Arbeitsbereich](Path_Workbench/de.md) verwendet. Siehe die [OpenCamLib](OpenCamLib/de.md) Seite zu Installationsanweisungen.
+_ verwendet. Siehe die [OpenCamLib](OpenCamLib/de.md) Seite zu Installationsanweisungen.
 
 ### OpenSCAD
 
-[OpenSCAD](https://www.openscad.org) ist ein 3D Volumenkörper Modellierer. Der [OpenSCAD Arbeitsbereich](OpenSCAD_Workbench/de.md) ist von dieser Software abhängig und der [ Arbeitsbereich Polygonnetze](Mesh_Workbench/de.md) verwendet sie für ihre booleschen Werkzeuge. Es wird auch für den Import von SCAD Dateien mit dem [Std Import](Std_Import/de.md) Werkzeug benötigt.
+_ ist von dieser Software abhängig und der [ Arbeitsbereich Polygonnetze](Mesh_Workbench/de.md) verwendet sie für ihre booleschen Werkzeuge. Es wird auch für den Import von SCAD Dateien mit dem [Std Import](Std_Import/de.md) Werkzeug benötigt.
 
 ## Dateiformate
 
@@ -45,11 +45,11 @@ Die gesamte Software in diesem Abschnitt wird von den [Std Import](Std_Import/de
 
 ### DXF Importeur 
 
-FreeCAD hat einen eigenen Importeur und Exporteur für DXF Dateien, programmiert in C++. Derzeit führen sie nicht alle Funktionen des DXF Formats aus. Für diese Funktionen sind der alte Python Importeer und Exporteur weiterhin verfügbar. Diese benötigen die [Draft-dxf-importer](https://github.com/yorikvanhavre/Draft-dxf-importer) Python Bibliothek. Siehe die [FreeCAD und DXF Import](FreeCAD_und_DXF_Import/de.md) Seite für weitere Informationen.
+FreeCAD hat einen eigenen Importeur und Exporteur für DXF Dateien, programmiert in C++. Derzeit führen sie nicht alle Funktionen des DXF Formats aus. Für diese Funktionen sind der alte Python Importeer und Exporteur weiterhin verfügbar. Diese benötigen die _ Seite für weitere Informationen.
 
 ### IfcOpenShell
 
-[IfcOpenShell](http://ifcopenshell.org) ist eine Bibliothek ist eine Bibliothek für die Arbeit mit dem Industry Foundation Classes (IFC) Dateiformat, daß in der Architektur Verwendung findet. Die Bibliothek wird auch von den [Arch IfcExplorer](Arch_IfcExplorer/de.md) ({{VersionMinus|0.18}}) und [BIM IfcExplorer](BIM_IfcExplorer/de.md) Werkzeugen verwendet. IfcOpenShell ist in den FreeCAD Installationsprogrammen für Windows und Mac enthalten.
+_ ({{VersionMinus|0.18}}) und [BIM IfcExplorer](BIM_IfcExplorer/de.md) Werkzeugen verwendet. IfcOpenShell ist in den FreeCAD Installationsprogrammen für Windows und Mac enthalten.
 
 ### IfcJson
 
@@ -57,11 +57,11 @@ FreeCAD hat einen eigenen Importeur und Exporteur für DXF Dateien, programmiert
 
 ### LibreDWG
 
-Die Unterstützung für [LibreDWG](https://www.gnu.org/software/libredwg) ist noch experimentell. Wie der ODA Datei Konverter kann es DWG in DXF Dateien umwandeln, die FreeCAD dann importieren kann. Siehe die [FreeCAD und DWG Import](FreeCAD_und_DWG_Import/de.md) Seite für weitere Informationen.
+Die Unterstützung für _ Seite für weitere Informationen.
 
 ### ODA Datei Konverter 
 
-Der [ODA Dateikonverter](https://www.opendesign.com/guestfiles/oda_file_converter) ist eine freie, Anwendung zum umwandeln zwischen verschiedenen Versionen von DWG und DXF Dateien. FreeCAD benötigt diesen Konverter, oder LibreDWG, um DWG Dateien zu importieren. Siehe die [FreeCAD and DWG Import](FreeCAD_and_DWG_Import/de.md) Seite für weitere Information.
+Der _ Seite für weitere Information.
 
 ### Pycollada
 
@@ -71,41 +71,41 @@ Der [ODA Dateikonverter](https://www.opendesign.com/guestfiles/oda_file_converte
 
 ### LuxCoreRender
 
-[LuxCoreRender](https://www.luxcorerender.org) ist eine Render Maschine, ein Neustart des [LuxRender](LuxRender/de.md) Projekts. Offiziell wird sie nicht von der [Arbeitsbereich Strahlverfolgung](Raytracing_Workbench/de.md) unterstützt, aber es könnte sich lohnen, sie auszuprobieren. Es wird offiziell von der neuen [Render Arbeitsbereich](https://github.com/FreeCAD/FreeCAD-render) unterstützt, die als zukünftiger Ersatz für den Arbeitsbereich Strahlverfolgung gedacht ist. Auf der Seite [LuxCoreRender](LuxCoreRender/de.md) findest du weitere Informationen und Installationsanweisungen.
+_ Projekts. Offiziell wird sie nicht von der _ findest du weitere Informationen und Installationsanweisungen.
 
 ### LuxRender
 
-[https://luxcorerender.org/history/ LuxRender](https://luxcorerender.org/history/_LuxRender.md) ist eine der beiden Render Maschinen, die von der [Arbeitsbereich Strahlverfolgung](Raytracing_Workbench/de.md) unterstützt werden. Im Jahr 2013 wurde das Projekt neu gestartet und wurde zu [LuxCoreRender](LuxCoreRender/de.md), wobei der Code neu geschrieben und die Kompatibilität verbessert wurde. Offiziell unterstützt der Arbeitsbereich Strahlverfolgung nur noch den aufgegebenen [LuxRender](LuxRender/de.md) (letzte Version ist 1.6, 2017-12-28), während der neue [Render Arbeitsbereich](https://github.com/FreeCAD/FreeCAD-render) (gedacht als zukünftiger Ersatz des Arbeitsbereich Strahlverfolgung) stattdessen LuxCoreRender unterstützt und die Unterstützung für LuxRender eingestellt hat. Wie auch immer, auch wenn es offiziell nicht unterstützt wird, kann [LuxCoreRender](LuxCoreRender/de.md) mit dem Arbeitsbereich Strahlverfolgung funktionieren, es könnte sich lohnen, es auszuprobieren. Siehe die [LuxRender](LuxRender/de.md) Seite für weitere Informationen und Installationsanweisungen, und den [LuxCoreRender](LuxCoreRender/de.md), wenn du eine modernere Software ausprobieren möchtest.
+_ ist eine der beiden Render Maschinen, die von der _ mit dem Arbeitsbereich Strahlverfolgung funktionieren, es könnte sich lohnen, es auszuprobieren. Siehe die [LuxRender](LuxRender/de.md) Seite für weitere Informationen und Installationsanweisungen, und den [LuxCoreRender](LuxCoreRender/de.md), wenn du eine modernere Software ausprobieren möchtest.
 
 ### POVRay
 
-[POV-Ray](https://www.povray.org) ist ein sehr bekannter Strahlenverfolger zur Bildsynthese von fotorealistischen Bildern. Er ist einer von zwei Bildsynthese Engines, die derzeit vom [Arbeitsbereich Strahlverfolgung](Raytracing_Workbench/de.md) unterstützt werden. Siehe die [POV-Ray](POV-Ray/de.md) Seite für weitere Informationen und Installationsanweisungen.
+_ unterstützt werden. Siehe die [POV-Ray](POV-Ray/de.md) Seite für weitere Informationen und Installationsanweisungen.
 
 ## Finite Elemente 
 
 ### CalculiX
 
-[CalculiX](http://calculix.de) ist eine Garnitur von zwei Finite Element Paketen: CalculiX CrunchiX, ein FEM Löser, und CalculiX GraphiX, ein GUI Frontend. Nur der Löser wird von FreeCAD unterstützt. Er wird von dem Werkzeug [Löser CalculiX](FEM_SolverCalculiX/de.md) verwendet.
+_ verwendet.
 
 ### Gmsh
 
-[Gmsh](http://gmsh.info) ist ein automatischer Finite Element Netzgenerator. Er wird von den [FEM NetzGmshAusForm](FEM_MeshGmshFromShape/de.md) und [Netz AusPartForm](Mesh_FromPartShape/de.md) Werkzeugen verwendet.
+_ und [Netz AusPartForm](Mesh_FromPartShape/de.md) Werkzeugen verwendet.
 
 ### Elmer
 
-[Elmer](https://www.csc.fi/web/elmer) ist eine Multiphysik Simulationssoftware, die 2005 quelloffen wurde. In FreeCAD werden seine Gitter und Löser Module vom [FEM LöserElmer](FEM_SolverElmer/de.md) Werkzeug verwendet.
+_ Werkzeug verwendet.
 
 ### FEniCS
 
-[FEniCS](https://fenicsproject.org) ist eine Berechnungsplattform zur Lösung partieller Differentialgleichungen (PDEs), die bei der Lösung von FEM Problemen weit verbreitet sind. Sie wird vom [FEM Arbeitsbereich](FEM_Workbench/de.md) verwendet.
+_ verwendet.
 
 ### Z88
 
-[Z88](https://en.z88.de) ist ein weiteres FEM Programm, das einen Netzgenerator, einen Löser und Konverter beinhaltet. Es wird vom [FEM Löser Z88](FEM_SolverZ88/de.md) Werkzeug verwendet. FreeCAD benötigt das Open Source Paket Z88OS.
+_ Werkzeug verwendet. FreeCAD benötigt das Open Source Paket Z88OS.
 
 ### OpenFOAM
 
-[OpenFOAM](https://openfoam.org) ist eine große Sammlung von Bibliotheken für numerische Strömungsmechanik (engl.: Computational Fluid Dynamics) (CFD) Simulationen. OpenFOAM wird von [Cfd](Cfd_Workbench/de.md) und [CfdOF](https://github.com/jaheyns/CfdOF) [externe Arbeitsbereiche](external_workbenches/de.md) verwendet.
+_ und _ verwendet.
 
 # Verwandte Seiten 
 
@@ -116,7 +116,7 @@ Der [ODA Dateikonverter](https://www.opendesign.com/guestfiles/oda_file_converte
 
 
 
-[Category:User Documentation/de](Category:User_Documentation/de.md)
+_
 
 ---
 [documentation index](../README.md) > Installing additional components/de

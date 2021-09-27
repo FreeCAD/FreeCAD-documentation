@@ -14,7 +14,7 @@ Wszystkie ikonki widoczne na liście źródłowej, patrz [Grafika](Artwork/pl.md
 
 }} 
 
-[Category:OpenSCAD](Category:OpenSCAD.md)
+_
 
 ---
-[documentation index](../README.md) > [OpenSCAD](Category:OpenSCAD.md) > Artwork OpenSCAD/pl
+[documentation index](../README.md) > [OpenSCAD](Category_OpenSCAD.md) > Artwork OpenSCAD/pl

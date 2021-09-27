@@ -192,7 +192,7 @@ FreeCAD, though usable in certain areas, is at the beginning of a long way into 
 
 
 
-[Category:Hubs](Category:Hubs.md) [Category:Developer Documentation](Category:Developer_Documentation.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Hubs](Category:Hubs.md) > Developer hub/ko
+[documentation index](../README.md) > [Hubs](Category_Hubs.md) > Developer hub/ko

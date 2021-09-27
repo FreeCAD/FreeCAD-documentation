@@ -175,7 +175,7 @@ This section defines material-properties which are related to the visual appeara
 
  {{FEM Tools navi}} 
 
-[Category:Developer](Category:Developer.md) [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Roadmap](Category:Roadmap.md) [Category:BIM](Category:BIM.md) [Category:File\_Formats](Category:File_Formats.md)
+_ _ _ _ _
 
 ---
-[documentation index](../README.md) > [Developer](Category:Developer.md) > Material/ru
+[documentation index](../README.md) > [Developer](Category_Developer.md) > Material/ru

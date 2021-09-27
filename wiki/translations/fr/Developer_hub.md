@@ -11,7 +11,7 @@ La documentation pour les développeurs comprend les sections suivantes :
 
 ### Compiler FreeCAD 
 
--   [dépôt Github](https://github.com/FreeCAD/FreeCAD). Si vous êtes nouveau avec Git, lire [Gestion du code source](Source_code_management/fr.md)
+-   _
 -   [Compiler avec Docker](Compile_on_Docker/fr.md)
 -   [Compiler sous Windows](Compile_on_Windows/fr.md)
 -   [Compiler sous Linux](Compile_on_Linux/fr.md)
@@ -123,7 +123,7 @@ FreeCAD, bien qu\'utilisable dans certains domaines, n\'est qu\'au début d\'un 
 
 
 
-[Category:Hubs](Category:Hubs.md) [Category:Developer Documentation](Category:Developer_Documentation.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Hubs](Category:Hubs.md) > Developer hub/fr
+[documentation index](../README.md) > [Hubs](Category_Hubs.md) > Developer hub/fr

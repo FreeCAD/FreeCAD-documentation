@@ -40,7 +40,7 @@ Pour des exemples sur cette méthode, voir [Création d\'interface complètement
 
 }} 
 
-[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Interface creation/fr
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Interface creation/fr

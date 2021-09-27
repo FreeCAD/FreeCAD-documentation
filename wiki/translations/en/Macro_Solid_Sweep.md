@@ -82,7 +82,7 @@ myObject.Shape = Sweep
 
 ## Credits
 
-Thanks to [Wmayer](User:Wmayer.md) for his help in writing this script.
+Thanks to _ for his help in writing this script.
 
 Two examples of uses can be found in [this forum topic](http://forum.freecadweb.org/viewtopic.php?f=8&t=1222&start=50#p11120), along with download links to the FCStd files. Using a helix as trajectory, a solid sweep can be used to create a bolt thread.
 

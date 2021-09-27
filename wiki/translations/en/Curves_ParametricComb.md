@@ -18,7 +18,7 @@ A 3D comb will be created for 3D curves. Sample and scale can be changed. This t
 
 ## Usage
 
-1.  Switch to the <img alt="" src=images/Curves_workbench_icon.svg  style="width:24px;"> [Curves](Curves_Workbench.md) workbench (install from <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md) is necessary, if not previously installed)
+1.  Switch to the <img alt="" src=images/Curves_workbench_icon.svg  style="width:24px;"> _ is necessary, if not previously installed)
 2.  Select an object in the [tree view](Tree_view.md) (sketch, wire\...) or one or several edges in the [3D view](3D_view.md) (use **CTRL** key)
 3.  To invoke the command, do one of the following:
     -   Press the <img alt="" src=images/Curves_ParametricComb.svg  style="width:24px;"> button
@@ -43,7 +43,7 @@ A 3D comb will be created for 3D curves. Sample and scale can be changed. This t
 
 }} 
 
-[Category:External Command Reference](Category:External_Command_Reference.md)
+_
 
 ---
-[documentation index](../README.md) > [External Command Reference](Category:External Command Reference.md) > Curves ParametricComb/en
+[documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > Curves ParametricComb/en

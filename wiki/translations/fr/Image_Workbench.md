@@ -35,7 +35,7 @@ Le décalage de l\'image peut être défini lors de l\'importation ou modifié u
 
 }} 
 
-[Category:Workbenches](Category:Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > Image Workbench/fr
+[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Image Workbench/fr

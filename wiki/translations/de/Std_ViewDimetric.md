@@ -10,7 +10,7 @@
 
 ## Beschreibung
 
-Der **Std AnsichtDimetrisch**-Befehl richtet die Kamera in der aktiven [3D-Ansicht](3D_view/de.md) neu aus, um eine [dimetrisch](https://de.wikipedia.org/wiki/Axonometrie#Bildachsen_und_Verzerrungen)e Ansicht ([dimetric](https://en.wikipedia.org/wiki/Axonometric_projection#Three_types) view) zu erreichen. Für eine wahrlich (truly) trimetrische Ansicht muss die 3D-Ansicht im [orthographischen Modus](Std_OrthographicCamera/de.md) sein, aber der Befehl funktioniert auch, wenn die Ansicht im [perspektivischen Modus](Std_PerspectiveCamera/de.md) ist.
+Der **Std AnsichtDimetrisch**-Befehl richtet die Kamera in der aktiven _ sein, aber der Befehl funktioniert auch, wenn die Ansicht im [perspektivischen Modus](Std_PerspectiveCamera/de.md) ist.
 
 ![](images/Std_ViewDimetric_example.svg ) *Das [Achsenkreuz](Std_AxisCross/de.md) und ein Würfel in dimetrischer Ansicht*
 

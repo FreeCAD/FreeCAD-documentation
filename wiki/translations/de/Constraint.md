@@ -4,7 +4,7 @@
 
 {{TOCright}}
 
-In FreeCAD wird das Wort \"[Beschränkung](Constraint/de.md)\" normalerweise verwendet, um sich auf eine \"Regel\" zum Zeichnen geometrischer Formen innerhalb einer <img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;"> [Skizze](Sketch/de.md) (`Sketcher::SketchObject` Klasse) zu beziehen. Eine Beschränkung begrenzt die Position eines bestimmten geometrischen Elements auf verschiedene Weise, z.B. kann sie angeben, ob das Element horizontal, vertikal, tangential, parallel, senkrecht, mit einem Punkt deckungsgleich, konzentrisch zu einem anderen Objekt usw. ist.
+In FreeCAD wird das Wort \"_ (`Sketcher::SketchObject` Klasse) zu beziehen. Eine Beschränkung begrenzt die Position eines bestimmten geometrischen Elements auf verschiedene Weise, z.B. kann sie angeben, ob das Element horizontal, vertikal, tangential, parallel, senkrecht, mit einem Punkt deckungsgleich, konzentrisch zu einem anderen Objekt usw. ist.
 
 Es gibt zwei große Typen von Beschränkungen:
 
@@ -16,7 +16,7 @@ Siehe die Informationen in der <img alt="" src=images/Workbench_Sketcher.svg  st
 
 ## Anwendung
 
-1.  Erstelle eine Skizze entweder aus der <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Arbeitsbereich Skizzierer](Sketcher_Workbench/de.md) oder über die <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign Arbeitsbereich](PartDesign_Workbench/de.md).
+1.  Erstelle eine Skizze entweder aus der <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> _.
 2.  Drücke
     -   
         **<img src=images/Sketcher_NewSketch.svg style="width:16px"> [Skizzierer NeueSkizze](Sketcher_NewSketch/de.md)**
@@ -37,14 +37,14 @@ Siehe die Informationen in der <img alt="" src=images/Workbench_Sketcher.svg  st
 ## Hinweise
 
 -   Beschränkungen sind nützlich, um sehr präzise Profile zu erstellen, die in feste Extrusionen umgewandelt werden können durch verwenden von **<img src=images/PartDesign_Pad.svg style="width:16px"> <img src=images/Part_Extrude.svg style="width:PartDesign Polster](PartDesign_Pad/de.md)** oder **[16px"> [Part Extrudieren](Part_Extrude/de.md)** Arbeitsgänge.
--   Beschränkungen werden nur innerhalb von [Skizzen](Sketch/de.md) verwendet; andere 2D Objekte, wie die mit <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Entwurf Arbeitsbereich](Draft_Workbench/de.md) erzeugten verstehen nichts von Beschränkungen; letztere werden einfach im 3D-Raum platziert, und ihre Eigenschaften definieren ihre Form und Position.
+-   Beschränkungen werden nur innerhalb von _ erzeugten verstehen nichts von Beschränkungen; letztere werden einfach im 3D-Raum platziert, und ihre Eigenschaften definieren ihre Form und Position.
 
 
 {{Sketcher Tools navi
 
 }} {{Document objects navi}} 
 
-[Category:Glossary](Category:Glossary.md)
+_
 
 ---
-[documentation index](../README.md) > [Glossary](Category:Glossary.md) > Constraint/de
+[documentation index](../README.md) > [Glossary](Category_Glossary.md) > Constraint/de

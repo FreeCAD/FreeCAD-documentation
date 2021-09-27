@@ -1,5 +1,5 @@
 # Manual
-1.  Redirect:[Manual:Introduction](Manual:Introduction.md)
+1.  Redirect:_
 
 ---
 [documentation index](../README.md) > Manual

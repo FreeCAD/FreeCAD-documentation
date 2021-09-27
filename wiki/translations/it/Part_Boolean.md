@@ -12,7 +12,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Per operazioni booleane più veloci, usare <img alt="" src=images/Part_Fuse.svg  style="width:16px;"> [Unione](Part_Union/it.md), <img alt="" src=images/Part_Common.svg  style="width:16px;">[Intersezione](Part_Common/it.md), <img alt="" src=images/Part_Cut.svg  style="width:16px;"> [Taglio](Part_Cut/it.md) e <img alt="" src=images/Part_Section.svg  style="width:16px;"> [Sezione](Part_Section/it.md).
+Per operazioni booleane più veloci, usare <img alt="" src=images/Part_Fuse.svg  style="width:16px;"> _, <img alt="" src=images/Part_Cut.svg  style="width:16px;"> _.
 
 
 </div>

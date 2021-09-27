@@ -92,17 +92,17 @@ Vedere [Come installare ambienti di lavoro aggiuntivi](How_to_install_additional
 
 Rimozione delle funzioni mediante i nuovi strumenti OCC7.3
 
-[480px\|left\|thumb \|link=<https://raw.githubusercontent.com/easyw/FreeCAD-tutorials/master/testing-files/removing-holes.mp4%7CDefeaturing-WB>: removing-features (holes)](Image:Defeaturing-WB-@Work_v3.png.md)
+_
 
-[480px\|left\|thumb \|link=<https://youtu.be/yrTtWFakAyE> \|alt=Defeaturing-WB-\@Work\|YouTube: Defeaturing tools - Simplifying the model](Image:Defeaturing-WB-@Work_v1.png.md)
+_
 
-[480px\|left\|thumb \|link=<https://youtu.be/vgQwGI6Fk6Q%7CYouTube>: Defeaturing tools - Multi-select faces for defeaturing](Image:Defeaturing-WB-@Work_v2.png.md)
+_
 
-[480px\|left\|thumb \|link=<https://raw.githubusercontent.com/easyw/FreeCAD-tutorials/master/testing-files/removing-fillet-chamfer.mp4%7CDefeaturing-WB> - removing-fillet-chamfer](Image:Defeaturing-WB-@Work_v4.png.md)
+_
 
-[480px\|left\|thumb \|link=<https://peertube.mastodon.host/videos/watch/c6bc5abd-2eb7-48c7-af67-c4d8e6783872%7CDefeaturing-WB> - overview-features (in german language)](Image:Defeaturing-WB-@Work_v5.png.md)
+_
 
-[480px\|left\|thumb \|link=<https://raw.githubusercontent.com/easyw/FreeCAD-tutorials/master/testing-files/parametric-defeaturing.mp4%7CDefeaturing-WB> - parametric-defeaturing](Image:Defeaturing-WB-@Work_v6.png.md) 
+_ 
 
 ### Riparazioni
 
@@ -123,7 +123,7 @@ Sono in fase di sviluppo ulteriori nuovi ambienti.
 
  
 
-[Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+_ _
 
 ---
-[documentation index](../README.md) > Defeaturing Workbench/it
+[documentation index](../README.md) > [Addons](Category_Addons.md) > Defeaturing Workbench/it

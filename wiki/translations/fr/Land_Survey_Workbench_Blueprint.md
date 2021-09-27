@@ -55,11 +55,11 @@ La position plane est généralement découplée (en particulier dans les applic
 
 Support général pour le [format de texte enrichi](https://fr.wikipedia.org/wiki/Rich_Text_Format).
 
-Remarque: les informations de cette page sont basées sur une compréhension superficielle des composants internes de FreeCAD. Cela demande à être approfondi. Les contributions sont les bienvenues! \--[Xtnickx](User:Xtnickx.md) 11:00, 26 January 2013 (UTC).
+Remarque: les informations de cette page sont basées sur une compréhension superficielle des composants internes de FreeCAD. Cela demande à être approfondi. Les contributions sont les bienvenues! \--_ 11:00, 26 January 2013 (UTC).
 
 
 
-[Category:Roadmap](Category:Roadmap.md) [Category:Developer](Category:Developer.md)
+_ _
 
 ---
-[documentation index](../README.md) > Land Survey Workbench Blueprint/fr
+[documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > Land Survey Workbench Blueprint/fr

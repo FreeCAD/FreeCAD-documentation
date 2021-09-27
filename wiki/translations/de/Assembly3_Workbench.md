@@ -5,23 +5,23 @@
 
 ## Einführung
 
-<img alt="" src=images/Assembly3_workbench_icon.svg  style="width:24px;"> [Assembly3](Assembly3_Workbench.md) ist ein [externer Arbeitsbereich](External_workbenches.md), der verwendet wird, um den Zusammenbau von verschiedenen Körpern in einer einzigen Datei oder in mehreren Dokumenten durchzuführen. Der Arbeitsbereich basiert auf einigen Änderungen der Kernfunktionsänderungen ausgeführt für die Version FreeCAD 0.19 (z.B. [App Link](App_Link/de.md)), sodass der Assembly3 Arbeitsbereich nicht mit älteren Versionen verwendet werden kann.
+<img alt="" src=images/Assembly3_workbench_icon.svg  style="width:24px;"> [Assembly3](Assembly3_Workbench.md) ist ein [externer Arbeitsbereich](External_workbenches/de.md), der verwendet wird, um den Zusammenbau von verschiedenen Körpern in einer einzigen Datei oder in mehreren Dokumenten durchzuführen. Der Arbeitsbereich basiert auf einigen Kernfunktionsänderungen ausgeführt für die Version FreeCAD 0.19 (z.B. [App Verweis](App_Link/de.md)), sodass der Assembly3 Arbeitsbereich nicht mit früheren Versionen verwendet werden kann.
 
-Die wichtigsten Eigenschaften der Assembly3-Arbeitsumgebung sind
+Die Hauptfunktionen des Assembly3 Arbeitsbereichs sind
 
--   **dynamischer/interaktiver Löser**. Das heißt, dass man Teile mit der Maus bewegen kann, während der Löser die Bewegung einschränkt. Dies erlaubt z.B. ein Rad und eine Achse zu verbinden und das Rad interaktiv mit der Maus zu drehen.
--   **Verknüpfungen**. Das heißt, dass man ein einzelnes Teil, wie z.B. eine Schraube, mehrfach (an unterschiedlichen Stellen) im Zusammenbau verwenden kann, ohne die Geometrie zu vervielfachen.
--   **externe Verknüpfungen**. Es ist möglich, dass ein Freecad Dokument nur einen Zusammenbau und keine Einzelteile enthält. Alle Bauteile können in separaten Dateien abgelegt sein. Die Daten könnten auch in einer Bibliothek oder anderswo im Dateisystem liegen. Die einzige Voraussetzung ist die, dass die Datei geladen sein muss, wenn die Verknüpfung angelegt wird. Nachdem die Verknüpfung erstellt wurde, muss die Datei geöffnet sein um die Verknüpfungen die die Datei betreffen zu aktualisieren. Assembly3 erreicht dies, indem es die Dateien bei Bedarf im Hintergrund öffnet.
--   **hierarchische Zusammenbauten**. Wie im richtigen Leben darf ein mechanischer Zusammenbau aus Unterbaugruppen bestehen. Diese könnten wiederum weitere Unterbaugruppen enthalten usw.
--   **Zusammenbauten einfrieren**. Da die CPU nur eine bestimmte Anzahl gleichzeitiger Einschränkungen in Echtzeit bearbeiten kann, ermöglicht das Einfrieren eines Zusammenbaus Einschränkungen sogar für große Zusammenbauten zu verwenden. Durch das Einfrieren fertiger Zusammenbauten oder Einschränkungen, die nicht dynamisch verändert werden müssen (z.B. bei verschweißten, vernieteten oder verklebten Bauteilen), werden diese von den Aktualisierungsbrechnungen ausgenommen und werden vom Assembly3-Löser als fixierte Geometrie angesehen.
+-   **dynamischer/interaktiver Löser**. Das bedeutet, du kannst Teile mit der Maus bewegen, während der Löser die Bewegung beschränkt. Dies erlaubt z.B. ein Rad mit einer Achse zu verbinden und das Rad interaktiv mit der Maus zu drehen.
+-   **Verknüpfungen**. Das bedeutet, dass du ein einzelnes Teil, z. B. eine Schraube, mehrfach in einer Baugruppe (an verschiedenen Stellen) verwenden kannst, ohne die Geometrie zu duplizieren.
+-   **externe Verknüpfungen**. Es ist möglich, ein Freecad Dokument zu besitzen, das nur eine Baugruppe und keine Teile enthält. Alle Teile können in einzelnen Dateien sein. Die Dateien können sich sogar in einer Bibliothek oder irgenwo anders im Dateisystem befinden. Die einzige Voraussetzung ist, dass die Datei geladen sein muss, wenn die Verknüpfung hergestellt wird. Nachdem die Verknüpfung gemacht wurde muss die Datei geöffnet sein, um Aktualisierungen an den Verknüpfungen, die die Datei betreffen, vorzunehmen. Assembly3 löst dieses Problem, indem es die Dateien bei Bedarf im Hintergrund öffnet.
+-   **hierarchische Baugruppen**. Wie im wirklichen Leben kann eine mechanische Baugruppe aus Unterbaugruppen bestehen. Diese können wiederum aus Unterbaugruppen bestehen und so weiter.
+-   **Baugruppen einfrieren**. Da die CPU nur eine bestimmte Anzahl gleichzeitiger Beschränkungen in Echtzeit verarbeiten kann, ermöglicht das Einfrieren einer Baugruppe die Verwendung von Beschränkungen auch für große Baugruppen. Durch das Einfrieren von fertigen Baugruppen oder Beschränkungen, die nicht dynamisch bleiben müssen (z. B. geschweißte, geschraubte oder geklebte Teile), werden diese von Aktualisierungsberechnungen ausgeschlossen und vom Assembly3 Löser als feste Geometrie betrachtet.
 
-    :   Man beachte, dass andere Herangehensweisen andere Lösungen für dieses Problem anbieten, z.B. der <img alt="" src=images/Assembly4_workbench_icon.svg  style="width:24px;"> [Assembly4 Arbeitsbereich](Assembly4_Workbench/de.md).
+    :   Beachte, dass andere Ansätze eine andere Lösung für dieses Problem bieten, z. B. der <img alt="" src=images/Assembly4_workbench_icon.svg  style="width:24px;"> [Assembly4 Arbeitsbereich](Assembly4_Workbench/de.md).
 
-[Zum Anfang](#top.md)
+[Anfang](#top.md)
 
 ### Werkzeugleisten
 
-Seit 2020 befinden sich folgende Werkzeugleisten in der Assembly3-Arbeitsumgebung.
+Ab 2020 verfügt die Assembly3 Arbeitsbereich über die folgenden Werkzeugleisten.
 
 #### Hauptwerkzeugleiste
 
@@ -108,7 +108,7 @@ Seit 2020 befinden sich folgende Werkzeugleisten in der Assembly3-Arbeitsumgebun
 
 </div>
 
-#### Hauptwerkzeugleiste für Beschränkungen 
+#### Hauptwerkzeugleiste Beschränkungen 
 
 :   <img alt="" src=images/Assembly_ConstraintLock.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintAlignment.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintCoincidence.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintAttachment.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintAxial.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintSameOrientation.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintMultiParallel.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintAngle.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPerpendicular.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointCoincident.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointInPlane.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointOnLine.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointOnCircle.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointsDistance.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointPlaneDistance.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointLineDistance.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintSymmetric.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintMore.svg‎‎  style="width:28px;">
 
@@ -316,18 +316,17 @@ Diese Funktionen sind nützlich, wenn eine Baugruppe mit einer Hierarchie von ve
 
 <div class="mw-collapsible-content toccolours">
 
-:\* <img alt="" src=images/Assembly_MeasurePointDistance.svg‎‎  style="width:32px;"> [Punkt zu Punkt messen](Assembly3_MeasurePoints/de.md): Zum Messen des Abstands zweier Punkte in 2D oder 3D.
+:\* <img alt="" src=images/Assembly_MeasurePointDistance.svg‎‎  style="width:32px;"> [Punkte messen](Assembly3_MeasurePoints/de.md): Füge ein \"Punkte messen\" hinzu, um den Abstand zwischen zwei Punkten in 2D oder 3D zu messen.
 
-:\* <img alt="" src=images/Assembly_MeasurePointLineDistance.svg‎‎  style="width:32px;"> [Punkt zu Linie messen](Assembly3_MeasurePointLine/de.md): Zum Messen des Abstands eines Punktes zu einer geraden Kante in 2D oder 3D.
+:\* <img alt="" src=images/Assembly_MeasurePointLineDistance.svg‎‎  style="width:32px;"> [Punkt zu Linie messen](Assembly3_MeasurePointLine/de.md): Füge ein \"Punkt zu Linie messen\" hinzu, um den Abstand zwischen einem Punkt und einer linearen Kante in 2D oder 3D zu messen.
 
-:\* <img alt="" src=images/Assembly_MeasurePointPlaneDistance.svg‎‎  style="width:32px;"> [Punkt zu Ebene messen](Assembly3_MeasurePointPlane/de.md): Zum Messen des Abstands eines Punktes zu einer Ebene in 2D oder 3D.
+:\* <img alt="" src=images/Assembly_MeasurePointPlaneDistance.svg‎‎  style="width:32px;"> [Punkt zu Ebene messen](Assembly3_MeasurePointPlane/de.md): Füge ein \"Punkt zu Ebene messen\" hinzu, um den Abstand zwischen einem Punkt und einer Ebene zu messen.
 
-:\* <img alt="" src=images/Assembly_MeasureAngle.svg‎‎  style="width:32px;"> [Winkel messen](Assembly3_MeasureAngle/de.md): Zum Messen des Winkels zwischen ebenen Flächen oder geraden Kanten zweier Teile.
+:\* <img alt="" src=images/Assembly_MeasureAngle.svg‎‎  style="width:32px;"> [Winkel messen](Assembly3_MeasureAngle/de.md): Füge ein \"Winkel messen\" hinzu, um den Winkel von ebenen Flächen oder linearen Kanten zweier Teile zu messen.
 
 :   Es gibt keine Funktion um einen Radius oder Durchmesser zu messen.
-:   Die Messwerkzeuge überdauern Änderungen des Bauteils, z.B. den Abstand zwischen Kanten eines Würfels, wenn die die Größe des Würfels verändert wird.
-:   Wie die Einschränkungen werden diese Berechnungen in Echtzeit ausgeführt und bei jeder Änderung aktualisiert. Im Hintergrund ist die Funktion ähnlich zu der der [Einschränkungen](#Constraints.md).
-:   Der Abstand oder Winkel wird zwischen [Elementen](#Elements.md) auf die gleiche Art wie für [Einschränkungen](#Constraints.md) berechnet. Die Anzeige im Baum funktioniert auf die selbe Weise.
+:   Die Messwerkzeuge überdauern Teiländerungen, z.B. den Abstand zwischen Kanten eines Würfels, wenn die die Größe des Würfels geändert wird.
+:   Wie die Beschränkungen werden diese Berechnungen in Echtzeit ausgeführt und bei jeder Änderung aktualisiert. Hinter den Kulissen ist die Funktion den [Beschränkungen](#Constraints.md) sehr ähnlich. Der Abstand oder Winkel zwischen [Elemente](#Elemente.md) wird auf die gleiche Weise berechnet wie bei [Beschränkungen](#Beschränkungen.md). Die Anzeige im Baum funktioniert auf die gleiche Weise.
 
 
 </div>
@@ -337,15 +336,15 @@ Diese Funktionen sind nützlich, wenn eine Baugruppe mit einer Hierarchie von ve
 
 Wie gewohnt, kann die Werkzeugleiste geändert und einzelne Werkzeuge hinzugefügt oder entfernt werden. Im Assembly3-Menü sind weitere Funktionen vorhanden, die sich nicht in den Werkzeugleisten befinden.
 
-[Zum Anfang](#top.md)
+[Anfang](#top.md)
 
 ### Beschränkungen
 
 Der Konstrukteur verwendet Beschränkungen um das gewünschte Ergebnis für die Beziehung zweier Teile zu erreichen. Die Kunst besteht darin, für jedes Problem die richtigen Beschränkungen auszuwählen, die sich am besten dafür eignen. Jeder beseitigte Freiheitsgrad sollte theoretisch nur einmal zwischen zwei Objekten beseitigt werden, aber in der Praxis mit vielen CAD Werkzeugen verursachen gewählte Beschränkungen über-beschränkte Kombinationen, oftmals kompensiert durch komplexe Algorithmen, manchmal aber auch nicht. Assembly3 benutzt Algorithmen, um über-bestimmte Beschränkungen zu entdecken und zu kompensieren, aber sie sind bisher noch nicht sehr ausgereift. So für Assembly3 Beschränkungen praktisch angewendet vermeide Probleme indem du dir bewusst machst, wie viele Freiheitsgrade genutzt wurden und welche noch durch Beschränkungen gesperrt werden müssen. Kein Teil sollte eine Verbindung durch Beschränkungen haben, die mehr als 6 Freiheitsgrade verwenden.
 
-:   Achtung: Wenn der Gleichungslöser auf eine Zusammenstellung trifft, die nicht gelöst werden kann, gibt er eine Fehlermeldung aus. Es ist für den Löser sehr schwierig, die Ursache des Problems herauszufinden, sodass man normalerweise aus dem angegebenen Fehler nicht klar erkennen kann, \"wo\" sich das Problem befindet. Bei größeren Zusamenbauten kann dies zu aufwändigen Fehlersuchen führen. Leider gibt es keinen einfachen Weg, diese zu vermeiden. Allerdings hilft es, im Blick zu behalten, wie das System funktioniert (siehe z.B. [Elemente](#Elements.md) weiter unten), eindeutige Namen für alle betroffenen Komponenten zu vergeben und nur dann weitere Einschränkungen hinzuzufügen, wenn der Gleichungslöser den aktuellen Zusammenbau berechnet. Um ein Problem nachverfolgen zu können, ist die \"ContexMenu/Deactivate\"-Funktion der jeweiligen Einschränkung sehr hilfreich.
+Hinweis: Wenn der Löser auf eine Kombination trifft, die nicht gelöst werden kann, gibt er einen Fehler aus. Es ist sehr schwierig für den Löser herauszufinden, was das Problem verursacht hat, so dass typischerweise aus dieser Fehlermeldung nicht klar hervorgeht, *wo* das Problem liegt. Bei größeren Baugruppen kann dies zu einer komplexen Problemsuche führen. Leider gibt es keine einfache Möglichkeit, dies zu vermeiden. Es ist jedoch hilfreich, sich über die Funktionsweise des Systems im Klaren zu sein (siehe z.B. [Elemente](#Elemente.md) unten), eindeutige Namen für alle beteiligten Komponenten zu verwenden und immer nur dann zusätzliche Beschränkungen hinzuzufügen, wenn der Löser die aktuelle Baugruppe gelöst hat. Sehr hilfreich, um ein Problem aufzuspüren, ist die \"KontexMenü/Deaktivieren\" Funktion jeder Beschränkung.
 
-Assembly3-Einschränkungen definieren Festlegungen bezüglich der Position oder der Orientierung zweier [Elemente](#Elements.md) zueinander. Einige Einschränkungen arbeiten sogar mit mehr als zwei [Elementen](#Elements.md). Ein [Element](#Elements.md) kann eine Fläche, eine Linie oder Kante, oder ein Punkt eines Teiles sein. Generell werden Einschränkungen erstellt, in dem man erst die gewünschten [Elemente](#Elements.md) und danach die Einschränkungen aus den [Werkzeugleisten](#Toolbars.md) der Einschränkungen auswählt.
+Assembly3 Beschränkungen definieren Einschränkungen in der Position oder Orientierung zwischen zwei [Elementen](#Elemente.md). Einige Beschränkungen arbeiten sogar mit mehr als zwei [Elementen](#Elemente.md). Ein [Element](#Elemente.md) kann eine Fläche, eine Linie oder Kante oder ein Punkt eines Teils sein. Im Allgemeinen werden Beschränkungen definiert, indem man die gewünschten [Elemente](#Elemente.md) auswählt und dann die Beschränkung aus der Beschränkungen [Werkzeugleiste](#Werkzeugleiste.md) auswählt.
 
 -   Fixiert 6 Freiheitsgrade, 0 bleiben unbestimmt:
     -   **Fixierung (Schloss)**: Die Fixiereinschränkung legt alle Freiheitsgrade einer Fläche. Sie sollte in jedem Zusammenbau zur Festlegung eines Basisteils genutzt werden. Es ist sinnvoll auch gleich die \"Bewegung ausschließen für fixierte Teile\"-Funktion (in der Werkzeugleiste) zu aktivieren, um damit ein unbeabsichtigtes Verschieben zu verhindern. In der Regel ist es egal welche Fläche, Linie oder Punkt benutzt wird um ein Teil zu fixieren. Man beachte, dass die Fixierung nur auf den aktuellen Zusammenbau wirkt, d.h. im Falle einer Unterbaugruppe braucht der übergeordnete Zusammenbau noch ein eigenes fixiertes Teil.
@@ -439,8 +438,8 @@ Es gibt viele Wege einen Zusammenbau mit Assembly3 zu erstellen. Hier ist der ei
 -   Schaltfläche **<img src="images/Std_New.svg" width=16px> [Neu](Std_New/de.md)** drücken, um eine neue FreeCAD-Datei zu erstellen
 -   Zur <img alt="" src=images/Assembly3_workbench_icon.svg  style="width:16px;"> [Assembly3 Arbeitsumgebung](Assembly3_Workbench/de.md) wechseln
 -   Schaltfläche **<img src="images/Assembly_New_Assembly.svg‎‎" width=16px> [Baugruppe anlegen](Assembly3_CreateAssembly/de.md)** drücken
--   Zur <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> [Part Arbeitsumgebung](Part_Workbench/de.md) wechseln und einen <img alt="" src=images/Part_Cylinder.svg  style="width:16px;"> [Zylinder](Part_Cylinder/de.md) und einen <img alt="" src=images/Part_Box.svg  style="width:16px;"> [Würfel](Part_Box/de.md) hinzufügen
--   Die Datei unter einem selbstgewählten Dateinamen <img alt="" src=images/Std_Save.svg  style="width:16px;"> [speichern](Std_Save/de.md). Anschließend die Datei <img alt="" src=images/Std_CloseActiveWindow.svg  style="width:16px;"> [schließen](Std_CloseActiveWindow/de.md) und erneut <img alt="" src=images/Std_Open.svg  style="width:16px;"> [öffnen](Std_Open/de.md)
+-   Zur <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> _ und einen <img alt="" src=images/Part_Box.svg  style="width:16px;"> [Würfel](Part_Box/de.md) hinzufügen
+-   Die Datei unter einem selbstgewählten Dateinamen <img alt="" src=images/Std_Save.svg  style="width:16px;"> _ und erneut <img alt="" src=images/Std_Open.svg  style="width:16px;"> [öffnen](Std_Open/de.md)
 
 Die Baumansicht sollte so aussehen (0.20.pre and Link Branch):
 
@@ -474,33 +473,33 @@ Der fertige Baugruppenbaum sollte so aussehen (0.20.pre and Link Branch):
 
 <img alt="" src=images/Assembly3_Example-Tree-05.png  style="width:300px;"> <img alt="" src=images/Assembly3_Example-Tree-06.png  style="width:280px;">:
 
-Wenn gewünscht, kann die Fixiereinschränkung <img alt="" src=images/Assembly_ConstraintLock.svg‎‎  style="width:16px;"> [Festsetzen](Assembly3_ConstraintLock/de.md) im Baum weiter nach oben bewegt werden.  Dazu wird die Schaltfläche **<img src="images/Assembly_TreeItemUp.svg‎‎" width=16px> [Objekt aufwärts bewegen](Assembly3_MoveItemUp/de.md)** aus der [Hauptwerkzeugleiste für Beschränkungen](#Main_Constraints_Toolbar/de.md) benutzt.
+Wenn du möchtest, kannst du die **Gesperrt** Beschränkung im Baum nach oben verschieben. Verwende die **<img src="images/Assembly_TreeItemUp.svg‎‎" width=16px> [Objekt aufwärts bewegen](Assembly3_MoveItemUp/de.md)** Schaltfläche auf der [Hauptwerkzeugleiste](#Hauptwerkzeugleiste.md) dafür.
 
 **Hinweis:** Alle neuen externen Dateien müssen mindestens einmal **gespeichert**, **geschlossen** und wieder-**geöffnet** werden, damit Assembly3 sie finden kann.
 
-:   Andernfalls kann FreeCAD dem Assembly3 Arbeitsbereich kein Datei Handhabung geben und diese kann das neue Teil nicht finden.
-:   Wenn alle Teile in der gleichen Datei sind, solltest du die Datei **speichern** und wieder- **öffnen**.
+:   Andernfalls kann FreeCAD der Assembly3 Arbeitsbereich keine Dateihandhabung geben und diese kann das neue Teil nicht finden.
+:   Wenn alle Teile in der gleichen Datei sind, solltest du diese Datei auch **speichern**, **schließen** und wieder **öffnen**.
 
-[Zum Anfang](#top.md)
+[Anfang](#top.md)
 
 ### Hinzufügen eines Versatzes 
 
-Assembly3 bietet keinen Versatz mit den Beschränkungen, wie es der [A2plus Arbeitsbereich](A2plus_Workbench/de.md) oder andere CAD-Werkzeuge tun. Stattdessen bietet es ein allgemeineres und flexibleres System zum Hinzufügen von Versätzen, aber auch von Winkeln.
+Assembly3 bietet keinen Versatz mit den Beschränkungen, wie es der [A2plus Arbeitsbereich](A2plus_Workbench/de.md) oder andere CAD Werkzeuge tun. Stattdessen bietet er ein allgemeineres und flexibleres System um Versätze, Übersetzungen, aber auch von Winkeln hinzuzufügen.
 
--   Füge einen Versatz in den Eigenschaften eines [Elemente](#Elemente.md) einer [Beschränkung](#Beschränkung.md) hinzufügen.
+-   Füge einen Versatz in den Eigenschaften eines [Elemente](#Elemente.md) einer [Beschränkung](#Beschränkung.md) hinzu.
 
-    :   Du kannst wählen, welche der beiden Möglichkeiten du nutzen möchtest.
+    :   Du kannst wählen, welche der beiden du nutzen möchtest.
 
 Beispiel:
 
--   Zwei Würfel zu einem Zusammenbau hinzufügen und ihre Seitenflächen auswählen.
--   \"PlaneCoincident\" auswählen. Die Würfel werden ineinanderliegend verbunden.
--   Ein Element und *ContextMenu/Flip Part* auswählen. Die Würfel werden seite-an-seite-liegend verbunden.
--   die Eigenschaft \'Offset/Position/z\' eines Elements auswählen und auf 5 mm setzen. Die Würfel liegen nun 5 mm auseinander.
+-   Füge 2 Würfel zu einer Baugruppe hinzu und wähle ihre Seitenflächen aus.
+-   Wähle \"EbenenDeckungsgleich\". Die Würfel werden ineinander angebracht.
+-   Wähle ein Element und *KontextMenü/Teil kippen*. Die Würfel werden Seite an Seite angebracht.
+-   Wähle eine Elementeigenschaft Versatz/Position/Zz und setze sie auf 5mm. Die Würfel sind nun 5mm voneinander entfernt.
 
-:\* Man kann noch den Versatz entlang der anderen Raumachsen und die Drehungen um die Achsen ausprobieren. Und man sollte überprüfen, dass man das gleich Ergebnis erreicht, wenn man die Einstellungen am anderen Element vornimmt. Dies gilt sinngemäß auch für alle anderen Einschränkungen.
+Teste mit anderen Achsen oder den Feldern Winkel/Achse. Prüfe auch , dass du das gleiche Ergebnis erhältst, wenn du das andere Element verwendest. Dies ist die gleiche Herangehensweise für alle anderen Beschränkungen.
 
-[Zum Anfang](#top.md)
+[Anfang](#top.md)
 
 ### Löse einen Löserfehler 
 
@@ -510,11 +509,11 @@ Der einfachste Weg das Problem zu finden, ist das Anklicken der entsprechenden E
 
 Achtung: Da Assembly3 hinter den Kulissen versucht überbestimmte Teile auszugleichen, kann es vorkommen, dass eine neue Einschränkung scheinbar eine Fehlfunktion auslöst, die tatsächliche Ursache aber an einer anderen Stelle zu finden ist. Bevor man nun alles löscht und von vorne beginnt, sollte man daran denken, dass man Elemente wiederverwenden kann. Wenn sie benannt wurden, können die erforderlichen Elemente leicht ermittelt und die Einschränkungen erneut aufgebaut werden, ohne die 3D-Ansicht zu verwenden. Siehe auch obigen [Elemente](#Elements.md)-Abschnitt.
 
-[Zum Anfang](#top.md)
+[Anfang](#top.md)
 
-### Ein Teil ersetzen oder einen Dateinamen umbenennen 
+### Ersetze ein Teil oder benenne einen Dateinamen um 
 
-Wenn ein Teil entfernt oder ein Dateiname geändert wird, zerbricht die Baugruppe, sie kann nicht mehr gelöst werden und der Löser gibt die Meldung \"Widersprüchliche Beschränkungen\" aus. Der Löser markiert ungültige Elemente und Beschränkungen mit einem Fragezeichen im Baum.
+Wenn ein Teil entfernt wird oder wenn sich ein Dateiname ändert, bricht die Baugruppe, sie kann nicht mehr gelöst werden und der Löser gibt die Meldung \"Widersprüchliche Beschränkungen\" aus. Der Löser kennzeichnet ungültige Elemente und Beschränkungen mit einem Fragezeichen im Baum.
 
 Ein Weg, dieses zu lösen ist, einfach alle ungültigen Beschränkungen und Elemente zu löschen, das neue Teil zu importieren und alles neu zu machen. Aber es gibt einen besseren Weg:
 
@@ -581,7 +580,7 @@ Ein Weg, dieses zu lösen ist, einfach alle ungültigen Beschränkungen und Elem
 
 
 
-[Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+_ _
 
 ---
-[documentation index](../README.md) > Assembly3 Workbench/de
+[documentation index](../README.md) > [Addons](Category_Addons.md) > Assembly3 Workbench/de

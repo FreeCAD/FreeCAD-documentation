@@ -1,6 +1,6 @@
 # Sketcher External/sv
 ---
-- GuiCommand:/sv   Name:Sketcher External   Name/sv:Sketcher External   Workbenches:[PartDesign](Sketcher_Workbench/sv___Sketcher]],_[[PartDesign_Workbench/sv.md)|Shortcut:E   MenuLocation:Sketch → Sketcher geometries → Sketcher External   SeeAlso:[ConstructionMode](Sketcher_ConstructionMode/sv.md)---
+- GuiCommand:/sv   Name:Sketcher External   Name/sv:Sketcher External   Workbenches:_---
 
 
 </div>

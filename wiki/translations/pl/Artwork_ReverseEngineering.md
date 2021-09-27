@@ -18,7 +18,7 @@ Wszystkie ikonki widoczne na liście źródłowej, patrz [Grafika](Artwork/pl.md
 
 }} 
 
-[Category:Reverse Engineering](Category:Reverse_Engineering.md)
+_
 
 ---
-[documentation index](../README.md) > [Reverse Engineering](Category:Reverse Engineering.md) > Artwork ReverseEngineering/pl
+[documentation index](../README.md) > [Reverse Engineering](Category_Reverse Engineering.md) > Artwork ReverseEngineering/pl

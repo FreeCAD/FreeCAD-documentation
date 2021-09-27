@@ -8,7 +8,7 @@
 |Date=2017-05-10
 |Download=[https://www.freecadweb.org/wiki/images/0/01/Macro_Align_Working_Plane_to_Camera.png ToolBar Icon]
 |FCVersion=Tutte
-|SeeAlso=[Macro Align Camera to Working Plane](Macro_Align_Camera_to_Working_Plane/it.md) [24px|Macro Align Camera to Working Plane](File:Macro_Align_Camera_to_Working_Plane.png.md)
+|SeeAlso=_
 }}
 
 ## Description

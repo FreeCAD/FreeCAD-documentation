@@ -2,7 +2,7 @@
 {{TutorialInfo/de
 |Topic=Skizze
 |Level=Anfänger
-|Author=[Maker](User:Maker.md)
+|Author=_
 |Time=
 |FCVersion=
 }}

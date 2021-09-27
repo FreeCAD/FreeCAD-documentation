@@ -14,7 +14,7 @@ New development is happening in the [https://github.com/FreeCAD/FreeCAD-render R
 
 {{TOCright}}
 
-Acesta este proiectul de dezvoltare Freetad Raytracing. Aceasta respectă regulile din [Getting things done](https://en.wikipedia.org/wiki/Getting_Things_Done). Proiectele sunt colectate în [Development roadmap](Development_roadmap.md).
+Acesta este proiectul de dezvoltare Freetad Raytracing. Aceasta respectă regulile din _.
 
 
 <div class="mw-translate-fuzzy">
@@ -84,7 +84,7 @@ Featured is a part that was creating using PartDesign/Sketcher then rendered usi
 
 
 
-[Category:Roadmap](Category:Roadmap.md)
+_
 
 ---
-[documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing project/ro
+[documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing project/ro

@@ -17,9 +17,9 @@ FreeCAD uses two different licenses, one for the application itself, and one for
 <div class="mw-translate-fuzzy">
 
 
-[Lesser General Public Licence (LGPL2+)](wikipedia:LGPL.md): Para las bibliotecas principales como se indica en los fichero .h y .cpp en src/App, src/Gui, sic/Base, y muchos de los [módulos](Workbenches/es.md) en src/Mod y para el ejecutable como se indica en los archivos .h y .cpp en el directorio src/main. Los iconos y otro material gráfico también son LGPL.
-[General Public Licence (GPL2+)](wikipedia:GPL.md): Para los archivo de guión de Python que construyen los binarios como se indica en los archivos .py en src/Tools
-[Open Publication Licence](wikipedia:Open_Publication_License.md): Para la documentacion en <http://free-cad.sourceforge.net/> salvo que se indique lo contrario por su autor
+_: Para las bibliotecas principales como se indica en los fichero .h y .cpp en src/App, src/Gui, sic/Base, y muchos de los [módulos](Workbenches/es.md) en src/Mod y para el ejecutable como se indica en los archivos .h y .cpp en el directorio src/main. Los iconos y otro material gráfico también son LGPL.
+_: Para los archivo de guión de Python que construyen los binarios como se indica en los archivos .py en src/Tools
+_: Para la documentacion en <http://free-cad.sourceforge.net/> salvo que se indique lo contrario por su autor
 
 
 </div>
@@ -125,7 +125,7 @@ No obstante, esta decisión se ha tomado sólo para el sistema básico de FreeCA
 
  
 
-[Category:Developer Documentation](Category:Developer_Documentation.md)
+_
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Licence/es
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Licence/es

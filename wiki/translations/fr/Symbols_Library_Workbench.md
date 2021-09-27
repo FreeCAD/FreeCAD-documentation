@@ -48,7 +48,7 @@ La bibliothèque est un simple conteneur pour les fichiers SVG. Vous pouvez le t
 
 
 
-[Category:Sandbox](Category:Sandbox.md) [Category:User Documentation](Category:User_Documentation.md) [Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+_ _ _ _
 
 ---
-[documentation index](../README.md) > Symbols Library Workbench/fr
+[documentation index](../README.md) > [Sandbox](Category_Sandbox.md) > Symbols Library Workbench/fr

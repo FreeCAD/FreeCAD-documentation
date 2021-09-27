@@ -8,11 +8,11 @@
 
 建築ワークベンチによって近代的なBIMワークフローをFreeCADで使用することができます。IFCサポート、壁や構造要素や窓といった完全にパラメトリックな建築物の構成要素、優れた2Dドキュメント制作といった機能がサポートされています。また建築ワークベンチでは製図ワークベンチの全てのツールが使用できます。
 
-The <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Arch Workbench](Arch_Workbench.md) provides a modern [building information modelling](http://en.wikipedia.org/wiki/Building_Information_Modeling) (BIM) workflow to FreeCAD, with support for features like fully parametric architectural entities such as walls, beams, roofs, windows, stairs, pipes, and furniture. It supports industry foundation classes ([IFC](Arch_IFC.md)) files, and production of 2D floor plans in combination with the <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [TechDraw Workbench](TechDraw_Workbench.md).
+The <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> _) files, and production of 2D floor plans in combination with the <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [TechDraw Workbench](TechDraw_Workbench.md).
 
-The Arch Workbench imports all tools from the <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft Workbench](Draft_Workbench.md), as it uses its 2D objects to build 3D parametric architectural objects. Nevertheless, Arch can also use solid shapes created with other workbenches like <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part](Part_Workbench.md) and <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench.md).
+The Arch Workbench imports all tools from the <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> _ and <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench.md).
 
-建築ワークベンチによって近代的な[BIM](http://en.wikipedia.org/wiki/Building_Information_Modeling)ワークフローをFreeCADで使用することができます。[IFC](http://en.wikipedia.org/wiki/Industry_Foundation_Classes)サポート、壁や構造要素や窓といった完全にパラメトリックな建築物の構成要素、優れた2Dドキュメント制作といった機能がサポートされています。また建築ワークベンチでは[製図ワークベンチの全てのツールが使用できます](Draft_Workbench/jp.md)。
+建築ワークベンチによって近代的な_。
 
 The developers of Draft, Arch, and BIM also collaborate with the greater [OSArch community](https://osarch.org), with the ultimate goal of improving building design by using entirely free software.
 
@@ -107,7 +107,7 @@ The Arch module can be used in [Python](Python.md) scripts and [macros](macros.m
 -   [Quick arch overview on Yorik\'s blog](http://yorik.uncreated.net/guestblog.php?2012=180) (v0.13)
 -   [Video presentation of the Arch workbench](https://www.youtube.com/watch?v=lTDOeHapv_E) (2016)
 -   [Arch panel tutorial](Arch_panel_tutorial.md) (v0.15)
--   [BIM modeling chapter from the FreeCAD manual](Manual:BIM_modeling.md)
+-   _
 -   [Import from STL or OBJ](Import_from_STL_or_OBJ.md)
 -   [Export to STL or OBJ](Export_to_STL_or_OBJ.md)
 
@@ -117,7 +117,7 @@ The Arch module can be used in [Python](Python.md) scripts and [macros](macros.m
 
  
 
-[Category:Workbenches](Category:Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > Arch Workbench/ja
+[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Arch Workbench/ja

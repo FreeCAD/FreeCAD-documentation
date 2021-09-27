@@ -89,9 +89,9 @@ Cette page répertorie les modèles selon le standard American National Standard
 
 ## Crédits
 
-Les modèles sont dessinés par [Quick61](User:Quick61.md) et répertoriés [FreeCAD-Drawing-Templates](https://github.com/quick61/FreeCAD-Drawing-Templates)
+Les modèles sont dessinés par _ et répertoriés [FreeCAD-Drawing-Templates](https://github.com/quick61/FreeCAD-Drawing-Templates)
 
-[Category:Documentation](Category:Documentation.md) [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Drawing](Category:Drawing.md)
+_ _ _
 
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch templates/fr
+[documentation index](../README.md) > [Documentation](Category_Documentation.md) > [Arch](Arch_Workbench.md) > Arch templates/fr

@@ -5,11 +5,11 @@
 
 ## Introduzione
 
-Il modulo <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> Arch fornisce a FreeCAD un moderno flusso di lavoro di tipo [building information modelling](http://en.wikipedia.org/wiki/Building_Information_Modeling) (BIM), con supporto per funzionalità come entità architettoniche completamente parametriche come muri, travi, tetti, finestre, scale, tubazioni e mobili. Supporta i file [industry foundation classes](http://en.wikipedia.org/wiki/Industry_Foundation_Classes) ([IFC](Arch_IFC/it.md)), e la produzione di planimetrie 2D in combinazione con l\'ambiente <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [TechDraw](TechDraw_Workbench/it.md).
+Il modulo <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> Arch fornisce a FreeCAD un moderno flusso di lavoro di tipo _), e la produzione di planimetrie 2D in combinazione con l\'ambiente <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [TechDraw](TechDraw_Workbench/it.md).
 
-L\'ambiente Arch importa tutti gli strumenti dall\'ambiente <img alt="" src=images/Workbench_Draft.svg  style="width:16px;"> [Draft](Draft_Workbench/it.md), poiché usa oggetti 2D per costruire i suoi oggetti architettonici 3D parametrici. Tuttavia, Arch può anche utilizzare oggetti solidi creati in altri ambiente di lavoro come <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> [Parte](Part_Workbench/it.md) e <img alt="" src=images/Workbench_PartDesign.svg  style="width:16px;"> [PartDesign](PartDesign_Workbench/it.md).
+L\'ambiente Arch importa tutti gli strumenti dall\'ambiente <img alt="" src=images/Workbench_Draft.svg  style="width:16px;"> _ e <img alt="" src=images/Workbench_PartDesign.svg  style="width:16px;"> [PartDesign](PartDesign_Workbench/it.md).
 
-La funzionalità BIM di FreeCAD ora è progressivamente distribuita in questo ambiente Arch, che contiene gli strumenti di base per l\'architettura, e <img alt="" src=images/Workbench_BIM.svg  style="width:24px;"> [BIM](BIM_Workbench/it.md), che è possibile installare tramite <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr/it.md). Questo ambiente BIM aggiunge un nuovo livello di interfaccia in cima agli strumenti Arch, con l\'obiettivo di rendere facile e più intuitivo il flusso di lavoro BIM in FreeCAD. Vedere [FreeCAD BIM migration guide](https://yorik.uncreated.net/blog/2020-010-freecad-bim-guide).
+La funzionalità BIM di FreeCAD ora è progressivamente distribuita in questo ambiente Arch, che contiene gli strumenti di base per l\'architettura, e <img alt="" src=images/Workbench_BIM.svg  style="width:24px;"> _. Questo ambiente BIM aggiunge un nuovo livello di interfaccia in cima agli strumenti Arch, con l\'obiettivo di rendere facile e più intuitivo il flusso di lavoro BIM in FreeCAD. Vedere [FreeCAD BIM migration guide](https://yorik.uncreated.net/blog/2020-010-freecad-bim-guide).
 
 Gli sviluppatori di Draft, Arch e BIM collaborano anche con la più ampia [comunità OSArch](https://osarch.org), con l\'obiettivo finale di migliorare la progettazione degli edifici utilizzando software completamente gratuito.
 
@@ -90,7 +90,7 @@ Strumenti aggiuntivi di aiuto per operazioni specifiche.
 
 !!FUZZY!!\* <img alt="" src=images/Arch_Component.svg  style="width:32px;"> [Componenti](Arch_Component/it.md): Crea un componente Arch non parametrico
 
--   <img alt="" src=images/Arch_ComponentClone.svg  style="width:32px;"> [Clona componente](Arch_CloneComponent/it.md): Produce componenti Arch che sono cloni di oggetti Arch selezionati (da non confondere con [Clona di Draft](Draft_Clone/it.md))
+-   <img alt="" src=images/Arch_ComponentClone.svg  style="width:32px;"> _)
 -   <img alt="" src=images/Arch_SplitMesh.svg  style="width:32px;"> [Dividi mesh](Arch_SplitMesh/it.md): Divide una maglia selezionata in componenti separati
 -   <img alt="" src=images/Arch_MeshToShape.svg  style="width:32px;"> [Forma da Mesh](Arch_MeshToShape/it.md): Converte una maglia in una forma, unificando le facce complanari
 -   <img alt="" src=images/Arch_SelectNonManifold.svg  style="width:32px;"> [Seleziona le mesh non-manifold](Arch_SelectNonSolidMeshes/it.md): Seleziona tutti gli oggetti maglia non-solidi della selezione corrente o del documento
@@ -98,10 +98,10 @@ Strumenti aggiuntivi di aiuto per operazioni specifiche.
 -   <img alt="" src=images/Arch_CloseHoles.svg  style="width:32px;"> [Chiudi aperture](Arch_CloseHoles/it.md): Chiude le aperture in un oggetto selezionato basato su forme
 -   <img alt="" src=images/Arch_MergeWalls.svg  style="width:32px;"> [Unisci pareti](Arch_MergeWalls/it.md): Unisce due o più pareti
 -   <img alt="" src=images/Arch_Check.svg  style="width:32px;"> [Verifica](Arch_Check/it.md): Controlla se gli oggetti selezionati sono solidi e non contengono difetti
--   <img alt="" src=images/IFC.svg  style="width:32px;"> [Ifc Explorer](Arch_IfcExplorer/it.md): Esplora il contenuto di un file [IFC](Arch_IFC/it.md)
+-   <img alt="" src=images/IFC.svg  style="width:32px;"> _
 -   <img alt="" src=images/Arch_ToggleIfcBrepFlag.svg  style="width:32px;"> [Attiva/Disattiva IFC Brep](Arch_ToggleIfcBrepFlag/it.md): Forza l\'esportazione [IfcFacetedBrep](http://www.buildingsmart-tech.org/ifc/IFC4/final/html/schema/ifcgeometricmodelresource/lexical/ifcfacetedbrep.htm) di un oggetto selezionato.
--   <img alt="" src=images/Arch_3Views.svg  style="width:32px;"> [3 Viste da mesh](Arch_3Views/it.md): Crea la vista superiore, frontale e laterale di un [mesh](Mesh_Workbench/it.md).
--   <img alt="" src=images/Arch_IfcSpreadsheet.svg  style="width:32px;"> [Crea un foglio IFC\...](Arch_IfcSpreadsheet/it.md): Crea un foglio di calcolo per memorizzare le proprietà [IFC](Arch_IFC/it.md) di un oggetto
+-   <img alt="" src=images/Arch_3Views.svg  style="width:32px;"> _.
+-   <img alt="" src=images/Arch_IfcSpreadsheet.svg  style="width:32px;"> _ di un oggetto
 -   <img alt="" src=images/Arch_ToggleSubs.svg  style="width:32px;"> [Mostra/Nascondi sottocomponenti](Arch_ToggleSubs/it.md): Mostra o nasconde i sotto-componenti di un oggetto Arch.
 
 ### Preferences
@@ -128,7 +128,7 @@ Il Modulo Arch può essere usato negli [Python](Python/it.md) e [macro](macros/i
 -   [Breve panoramica su Arch nel blog di Yorik](http://yorik.uncreated.net/guestblog.php?2012=180) (v0.13)
 -   [Presentazione video dell\'ambiente Arch](https://www.youtube.com/watch?v=lTDOeHapv_E) (2016)
 -   [Tutorial Pannello di Arch ](Arch_panel_tutorial/it.md) (v0.15)
--   [Il capitolo sulla modellazione BIM nel manuale di FreeCAD](Manual:BIM_modeling/it.md)
+-   _
 -   [Importare da STL o OBJ](Import_from_STL_or_OBJ/it.md)
 -   [Esportare in STL o OBJ](Export_to_STL_or_OBJ/it.md)
 
@@ -138,7 +138,7 @@ Il Modulo Arch può essere usato negli [Python](Python/it.md) e [macro](macros/i
 
  
 
-[Category:Workbenches](Category:Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > Arch Workbench/it
+[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Arch Workbench/it

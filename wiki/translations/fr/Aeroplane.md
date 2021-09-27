@@ -50,7 +50,7 @@ Assurez-vous que Union soit sélectionné et que Cylinder et Box soient cochés 
 
 
 
-Nous allons ajouter un <img alt="" src=images/Part_Box.png  style="width:32px;"> [Cube](Part_Box/fr.md) de plus, pour en finir avec notre modèle. Cliquez sur le <img alt="" src=images/Part_Box.png  style="width:32px;"> [bouton Cube](Part_Box/fr.md), puis sélectionnez, et, modifiez la hauteur à 5 mm, la longueur à 3 mm et la largeur à 1 mm. Modifier sa position par Y: -0,5.
+Nous allons ajouter un <img alt="" src=images/Part_Box.png  style="width:32px;"> _, puis sélectionnez, et, modifiez la hauteur à 5 mm, la longueur à 3 mm et la largeur à 1 mm. Modifier sa position par Y: -0,5.
 
 Il nous faut maintenant joindre notre Fusion au Box001, donc nous allons le faire rapidement. Cliquez sur Fusion dans la Vue combinée et **Ctrl** + cliquez sur Box001. Cette commande sélectionne les deux pièces ensembles. Maintenant, cliquez sur le bouton <img alt="" src=images/Part_Fuse.svg  style="width:32px;"> [Union](Part_Fuse/fr.md) pour obtenir **Fusion001**.
 

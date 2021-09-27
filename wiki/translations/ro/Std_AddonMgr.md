@@ -26,7 +26,7 @@
 
 Addons that are marked as {{emphasis|Python 2 Only}} will not work in FreeCAD version 0.19 or higher.
 
-Due to changes to the GitHub platform in the year 2020 the Addon manager no longer works if you use FreeCAD version 0.17 or earlier. You need to upgrade to version [0.18.5](https://github.com/FreeCAD/FreeCAD/releases/tag/0.18.5) or a recent [0.19](https://github.com/FreeCAD/FreeCAD/releases/tag/0.19_pre) version. Alternatively you can install addons manually, see [Notes](#Notes.md) below.
+Due to changes to the GitHub platform in the year 2020 the Addon manager no longer works if you use FreeCAD version 0.17 or earlier. You need to upgrade to version _ below.
 
 ![](images/Std_AddonMgr_dialog.png )
 
@@ -101,7 +101,7 @@ The Addon manager dialog box has two tabs on the left, one listing the available
 
 <div class="mw-translate-fuzzy">
 
-Dacă ați dezvoltat un atelier de lucru sau o macrocomandă și doriți să îl vedeți inclus în Addon Manager, citiți cum să faceți acest lucru în paginile de depozitului ([FreeCAD-addons](https://github.com/FreeCAD/FreeCAD-addons/) și [FreeCAD-macros](https://github.com/FreeCAD/FreeCAD-macros/)). Dacă adăugați macrocomanda în [Macros recipes](Macros_recipes/ro.md), nu mai este nimic altceva de făcut, acesta va fi selectat automat de către Addon Manager.
+Dacă ați dezvoltat un atelier de lucru sau o macrocomandă și doriți să îl vedeți inclus în Addon Manager, citiți cum să faceți acest lucru în paginile de depozitului (_, nu mai este nimic altceva de făcut, acesta va fi selectat automat de către Addon Manager.
 
 
 </div>

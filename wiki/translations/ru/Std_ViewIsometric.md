@@ -12,7 +12,7 @@
 
 ## Описание
 
-Команда **Std ViewIsometric** перестраивает камеру в активном [окне трёхмерного вида](3D_view/ru.md) для получения [изометрического](https://en.wikipedia.org/wiki/Isometric_projection) вида. Для истинно изометрического вида трехмерный вид должен находиться в [ортогональном режиме](Std_OrthographicCamera/ru.md), но команда также работает, если вид находится в [режиме перспективы](Std_PerspectiveCamera/ru.md).
+Команда **Std ViewIsometric** перестраивает камеру в активном _, но команда также работает, если вид находится в [режиме перспективы](Std_PerspectiveCamera/ru.md).
 
 ![](images/Std_ViewIsometric_example.svg ) *The [axis cross](Std_AxisCross.md) and a cube in isometric view*
 

@@ -11,7 +11,7 @@ This addon was developed during the [Google Summer of Code](Google_Summer_of_Cod
 
 The Arch Workbench provides only one rebar tool:
 
--   <img alt="" src=images/Arch_Rebar.svg  style="width:32px;"> [Rebar](Arch_Rebar.md): creates a custom reinforcement bar in a selected [Arch Structure](Arch_Structure.md) using a [Sketch](Sketcher_Workbench.md).
+-   <img alt="" src=images/Arch_Rebar.svg  style="width:32px;"> _ using a [Sketch](Sketcher_Workbench.md).
 
 The Reinforcement Addon provides additional rebar types:
 
@@ -40,7 +40,7 @@ New workbenches are in development, stay tuned!
 
  
 
-[Category:Reinforcement](Category:Reinforcement.md)
+_
 
 ---
-[documentation index](../README.md) > [Reinforcement](Category:Reinforcement.md) > Reinforcement Addon/en
+[documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > Reinforcement Addon/en

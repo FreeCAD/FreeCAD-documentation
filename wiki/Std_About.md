@@ -58,7 +58,7 @@ The Credits tab shows a list of contributors to the FreeCAD project. To get your
 
 ### License
 
-FreeCAD is licensed under the terms of the [GNU Lesser General Public License 2](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License) (LGPL 2). The full text of this license is listed here. See [license](licence.md) for more details.
+FreeCAD is licensed under the terms of the _ for more details.
 
 As FreeCAD uses external libraries, they may have their own licensing terms. Consult their particular licenses in [third party libraries](Third_Party_Libraries.md).
 
@@ -73,7 +73,7 @@ The Libraries tab shows a list of the external libraries used by the program, an
 
  {{Std Base navi}}  
 
-[Category:Common Questions](Category:Common_Questions.md)
+_
 
 ---
-[documentation index](../README.md) > [Common Questions](Category:Common Questions.md) > Std About
+[documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > Std About

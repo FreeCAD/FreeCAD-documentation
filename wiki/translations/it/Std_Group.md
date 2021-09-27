@@ -37,7 +37,7 @@ Per raggruppare gli oggetti 3D come una singola unità, con l\'intenzione di cre
 
 ## Proprietà
 
-Un [Gruppo](Std_Group/it.md) è internamente chiamato [App DocumentObjectGroup](App_DocumentObjectGroup/it.md) (`App::DocumentObjectGroup` class), è derivato dall\'oggetto base [App DocumentObject](App_DocumentObject/it.md) (`App::DocumentObject` class), pertanto condivide tutte le proprietà di quest\'ultimo.
+Un _ (`App::DocumentObject` class), pertanto condivide tutte le proprietà di quest\'ultimo.
 
 Oltre alle proprietà descritte in [App FeaturePython](App_FeaturePython/it.md), che è l\'istanza più elementare di un [App DocumentObject](App_DocumentObject/it.md), l\'App DocumentObjectGroup ha la proprietà **Group**.
 
@@ -69,7 +69,7 @@ Vedere [App FeaturePython](App_FeaturePython/it.md) per le proprietà di base de
 
 ## Eredità
 
-Un [Gruppo](Std_Group/it.md) è formalmente un\'istanza della classe `App::DocumentObjectGroup`, il cui parente è [App DocumentObject](App_DocumentObject/it.md) (`App::DocumentObject` class), e viene incrementato con un\'estensione del Gruppo.
+Un _ (`App::DocumentObject` class), e viene incrementato con un\'estensione del Gruppo.
 
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
 

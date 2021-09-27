@@ -16,7 +16,7 @@
 
 est un outil booléen générique tout-en-un. Il vous permet de spécifier les objets et l\'opération à effectuer via une seule boîte de dialogue.
 
-Pour des opérations booléennes plus rapides, voir aussi **<img src=images/Part_Cut.svg style="width:16px"> <img src=images/Part_Fuse.svg style="width:Part Soustraction](Part_Cut/fr.md)**, **[16px"> <img src=images/Part_Common.svg style="width:Part Union](Part_Fuse/fr.md)**, **[16px"> <img src=images/Part_Section.svg style="width:Part Intersection](Part_Common/fr.md)** et **[16px"> [Part Section](Part_Section/fr.md)**.
+Pour des opérations booléennes plus rapides, voir aussi **<img src=images/Part_Cut.svg style="width:16px"> <img src=images/Part_Fuse.svg style="width:Part Soustraction](Part_Cut/fr.md)**, **_** et **[16px"> [Part Section](Part_Section/fr.md)**.
 
 ![PartBooleansDialog](images/PartBooleansDialog.png )
 

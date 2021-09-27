@@ -9,7 +9,7 @@
 |Date=2015-01-16
 |FCVersion=All
 |Download=[https://www.freecadweb.org/wiki/images/f/f4/Macro_Align_Object_to_View.png ToolBar Icon]
-|SeeAlso=[32px|FCCamera](File:FCCamera_00.png.md) [Macro_FCCamera](Macro_FCCamera/it.md)
+|SeeAlso=_ [Macro_FCCamera](Macro_FCCamera/it.md)
 }}
 
 ## Descrizione

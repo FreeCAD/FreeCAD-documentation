@@ -14,7 +14,7 @@
 
 }} 
 
-[Category:FEM](Category:FEM.md)
+_
 
 ---
-[documentation index](../README.md) > [FEM](Category:FEM.md) > Artwork Fem/ru
+[documentation index](../README.md) > [FEM](Category_FEM.md) > Artwork Fem/ru

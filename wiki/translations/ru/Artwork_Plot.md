@@ -26,7 +26,7 @@
 
 }} 
 
-[Category:Plot](Category:Plot.md)
+_
 
 ---
-[documentation index](../README.md) > [Plot](Category:Plot.md) > Artwork Plot/ru
+[documentation index](../README.md) > [Plot](Category_Plot.md) > Artwork Plot/ru

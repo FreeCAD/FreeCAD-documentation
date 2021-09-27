@@ -92,4 +92,4 @@ Arch.makeProfile([0,'REC','REC100x100','R',100,100])
 wobei das erste Element der Liste eine Bestellnummer (order number) ist, die bisher nicht verwendet wird.
 
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Profile/de
+[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch Profile/de

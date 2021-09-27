@@ -35,7 +35,7 @@ The current supported external solvers are:
 
 }}  
 
-[Category:Preferences](Category:Preferences.md)
+_
 
 ---
-[documentation index](../README.md) > [Preferences](Category:Preferences.md) > FEM Preferences/en
+[documentation index](../README.md) > [Preferences](Category_Preferences.md) > FEM Preferences/en

@@ -156,7 +156,7 @@ These pages refer to a replacement workbench, programmed in C++, proposed around
 
 }} 
 
-[Category:Workbenches](Category:Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > Raytracing Workbench/ro
+[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Raytracing Workbench/ro

@@ -4,7 +4,7 @@
 
 {{TOCright}}
 
-En FreeCAD la palabra \"[Restricción](Constraint/es.md)\" se usa normalmente para referirse a una \"regla\" para dibujar formas geométricas dentro de un <img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;"> [Sketch](Sketch/es.md) (`Sketcher::SketchObject` clase). Una restricción limita la posición de un determinado elemento geométrico de diferentes maneras, por ejemplo, puede especificar si el elemento es horizontal, vertical, tangente, paralelo, perpendicular, coincidente con un punto, concéntrico a otro objeto, etc.
+En FreeCAD la palabra \"_ (`Sketcher::SketchObject` clase). Una restricción limita la posición de un determinado elemento geométrico de diferentes maneras, por ejemplo, puede especificar si el elemento es horizontal, vertical, tangente, paralelo, perpendicular, coincidente con un punto, concéntrico a otro objeto, etc.
 
 Hay dos grandes tipos de restricciones:
 
@@ -16,7 +16,7 @@ Vea la información en el <img alt="" src=images/Workbench_Sketcher.svg  style="
 
 ## Utilización
 
-1.  Crear un boceto ya sea desde el <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Ambiente de trabajo croquizador](Sketcher_Workbench/es.md) o a través del <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Ambiente de trabajo DiseñoPieza](PartDesign_Workbench/es.md).
+1.  Crear un boceto ya sea desde el <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> _.
 2.  Presiona
     -   
         **<img src=images/Sketcher_NewSketch.svg style="width:16px"> [Sketcher NuevoBoceto](Sketcher_NewSketch/es.md)**
@@ -40,7 +40,7 @@ Vea la información en el <img alt="" src=images/Workbench_Sketcher.svg  style="
 <div class="mw-translate-fuzzy">
 
 -   Las restricciones son útiles para crear perfiles muy precisos que pueden ser convertidos en extrusiones sólidas usando el **<img src=images/PartDesign_Pad.svg style="width:16px"> <img src=images/Part_Extrude.svg style="width:PartDesign Pad](PartDesign_Pad/es.md)** o**[16px"> [Pieza extrusión](Part_Extrude/es.md)** operaciones.
--   Las restricciones sólo se utilizan dentro de [Sketches](Sketch/es.md); otros objetos 2D como los creados con el <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Ambiente de trabajo Borrador](Draft_Workbench/es.md) no entienden de restricciones; estas últimas simplemente se colocan en el espacio 3D, y sus propiedades definen su forma y posición.
+-   Las restricciones sólo se utilizan dentro de _ no entienden de restricciones; estas últimas simplemente se colocan en el espacio 3D, y sus propiedades definen su forma y posición.
 
 
 </div>
@@ -50,7 +50,7 @@ Vea la información en el <img alt="" src=images/Workbench_Sketcher.svg  style="
 
 }} {{Document objects navi}} 
 
-[Category:Glossary](Category:Glossary.md)
+_
 
 ---
-[documentation index](../README.md) > [Glossary](Category:Glossary.md) > Constraint/es
+[documentation index](../README.md) > [Glossary](Category_Glossary.md) > Constraint/es

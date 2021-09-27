@@ -12,7 +12,7 @@
 
 </div>
 
-FreeCad和许多现代设计应用程序一样，如[Revit或](wikipedia:Revit.md) [CATIA](wikipedia:CATIA.md)，都基于 [工作台的概念](wikipedia:Workbench.md)。工作台可以看作是为某个任务专门归类的一组工具。在一个传统的家具车间里，你会有一张工作台给木材工人，另一张给金属件工人，也许还有第三张给把所有零件组装在一起的工人。
+FreeCad和许多现代设计应用程序一样，如_ _，都基于 _。工作台可以看作是为某个任务专门归类的一组工具。在一个传统的家具车间里，你会有一张工作台给木材工人，另一张给金属件工人，也许还有第三张给把所有零件组装在一起的工人。
 
 在FreeCad中，同样的概念也适用。工具根据与之相关的任务分组归类到工作台中。
 
@@ -122,7 +122,7 @@ FreeCAD工作台易于通过[Python进行编程开发](Python.md)，因此FreeCA
 
 
 
-[Category:Workbenches](Category:Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > Workbenches/zh
+[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Workbenches/zh

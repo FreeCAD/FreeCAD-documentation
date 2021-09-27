@@ -15,7 +15,7 @@ The <img alt="" src=images/Fasteners_Flip.svg  style="width:24px;"> [Fasteners F
 
 ## Usage
 
-1.  Switch to the <img alt="" src=images/Fasteners_workbench_icon.svg  style="width:24px;"> [Fasteners](Fasteners_Workbench.md) workbench (install from <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Addon_Manager.md) is necessary, if not previously installed)
+1.  Switch to the <img alt="" src=images/Fasteners_workbench_icon.svg  style="width:24px;"> _ is necessary, if not previously installed)
 2.  Choose the inverted object (for example, a mis-orientated screw)
 3.  Invoke the Fasteners Flip tool several ways:
     -   Press the <img alt="" src=images/Fasteners_Flip.svg  style="width:24px;"> button
@@ -46,7 +46,7 @@ Result: object will invert/flip
 
 }} 
 
-[Category:External Command Reference](Category:External_Command_Reference.md)
+_
 
 ---
-[documentation index](../README.md) > [External Command Reference](Category:External Command Reference.md) > Fasteners Flip
+[documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > Fasteners Flip

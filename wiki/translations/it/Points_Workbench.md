@@ -30,7 +30,7 @@ Una nuvola di punti è una raccolta di punti nello spazio 3D. Generalmente una n
 
 <div class="mw-translate-fuzzy">
 
--   [Ambiente Draft](Draft_Workbench/it.md): comandi come <img alt="" src=images/Draft_Line.svg  style="width:24px;"> [Draft Linea](Draft_Line/it.md) and <img alt="" src=images/Draft_BSpline.svg  style="width:24px;"> [Draft BSpline](Draft_BSpline/it.md) possono essere usati per collegare i punti in una nuvola di punti. Usa <img alt="" src=images/Draft_Snap_Endpoint.svg  style="width:24px;"> [Draft Punto finale](Draft_Snap_Endpoint/it.md) per agganciarsi ai punti.
+-   _ and <img alt="" src=images/Draft_BSpline.svg  style="width:24px;"> _ per agganciarsi ai punti.
 -   [Python](Python.md) può essere usato per analizzare ed elaborare le nuvole di punti. Vedi le seguenti discussioni del forum:
     -   [Inspecting Point cloud](http://forum.freecadweb.org/viewtopic.php?f=3&t=16098).
     -   [Fläche aus Messwerten](http://forum.freecadweb.org/viewtopic.php?f=13&t=15988) (German)
@@ -50,7 +50,7 @@ Una nuvola di punti è una raccolta di punti nello spazio 3D. Generalmente una n
 
 }} 
 
-[Category:Workbenches](Category:Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > Points Workbench/it
+[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Points Workbench/it

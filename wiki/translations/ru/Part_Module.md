@@ -5,11 +5,11 @@
 
 ## Введение
 
-Возможности твердотельного моделирования FreeCAD основаны на ядре [Технологии OpenCASCADE](OpenCASCADE/ru.md) (OCCT), профессиональной САПР-системы, которая обеспечивает создание 3D-геометрии и манипулирование ею с помощью **функций** (features). <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Верстак Part](Part_Workbench/ru.md) - это слой, расположенный поверх библиотек OCCT, который даёт пользователю доступ к геометрическим примитивам и функциям OCCT. По существу, все функции 2D и 3D проектирования в каждом верстаке (<img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft](Draft_Workbench/ru.md), <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Sketcher](Sketcher_Workbench/ru.md), <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench/ru.md) и т.д.), базируются на этих функциях, предоставляемых Верстаком Part. Поэтому Верстак Part считается центральным компонентом возможностей моделирования FreeCAD.
+Возможности твердотельного моделирования FreeCAD основаны на ядре _ - это слой, расположенный поверх библиотек OCCT, который даёт пользователю доступ к геометрическим примитивам и функциям OCCT. По существу, все функции 2D и 3D проектирования в каждом верстаке (<img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> _, <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench/ru.md) и т.д.), базируются на этих функциях, предоставляемых Верстаком Part. Поэтому Верстак Part считается центральным компонентом возможностей моделирования FreeCAD.
 
 Более подробное обсуждение сравнения Верстака Part с Верстаком Part Design можно найти здесь: [Part и PartDesign](Part_and_PartDesign/ru.md)
 
-Объекты, создаваемые верстаком Part относительно просты, они предназначены для использования в булевых операциях (объединения и вырезания) для построения более сложных фигур. **Эта парадигма моделирования известна как процесс [конструктивной блочной геометрии](Constructive_solid_geometry/ru.md) (CSG, КБГ), и это традиционная методология, используемая в ранних системах САПР.** С другой стороны, [верстак PartDesign](PartDesign_Workbench/ru.md) предлагает более современный процесс создания фигур: он использует параметрически заданные эскизы, которые выдавливаются для формирования базовых твёрдых тел, которые потом модифицируются параметрическими трансформациями ([функциями редактирования](feature_editing/ru.md)) до получения конечного объекта.
+Объекты, создаваемые верстаком Part относительно просты, они предназначены для использования в булевых операциях (объединения и вырезания) для построения более сложных фигур. **Эта парадигма моделирования известна как процесс _) до получения конечного объекта.
 
 Объекты Part сложнее, чем сеточные объекты, создаваемые в [верстаке Mesh](Mesh_Workbench/ru.md), поскольку они дают более сложные операции вроде когерентных (взаимосвязанных) булевых операций, историю модификации и параметрическое поведение.
 
@@ -40,12 +40,12 @@
 
 -   <img alt="" src=images/Part_Primitives.svg  style="width:32px;"> [Примитивы](Part_Primitives/ru.md): Инструмент для создания одного из следующих примитивов:
     -   <img alt="" src=images/Part_Plane.svg  style="width:32px;"> [Плоскость](Part_Plane/ru.md): Создаёт плоскость.
-    -   <img alt="" src=images/Tree_Part_Box_Parametric.svg  style="width:32px;"> [Куб](Part_Box/ru.md): Создаёт куб (параллепипед). Этот объект также может быть создан с помощью инструмента <img alt="" src=images/Part_Box.svg  style="width:32px;"> [Куб](Part_Box/ru.md).
-    -   <img alt="" src=images/Tree_Part_Cylinder_Parametric.svg  style="width:32px;"> [Цилиндр](Part_Cylinder/ru.md): Создаёт цилиндр. Этот объект также может быть создан с помощью инструмента <img alt="" src=images/Part_Cylinder.svg  style="width:32px;"> [Цилиндр](Part_Cylinder/ru.md).
-    -   <img alt="" src=images/Tree_Part_Cone_Parametric.svg  style="width:32px;"> [Конус](Part_Cone/ru.md): Создаёт конус. Этот объект также может быть создан с помощью инструмента <img alt="" src=images/Part_Cone.svg  style="width:32px;"> [Конус](Part_Cone/ru.md).
-    -   <img alt="" src=images/Tree_Part_Sphere_Parametric.svg  style="width:32px;"> [Сфера](Part_Sphere/ru.md): Создаёт сферу. Этот объект также может быть создан с помощью инструмента <img alt="" src=images/Part_Sphere.svg  style="width:32px;"> [Сфера](Part_Sphere/ru.md).
+    -   <img alt="" src=images/Tree_Part_Box_Parametric.svg  style="width:32px;"> _.
+    -   <img alt="" src=images/Tree_Part_Cylinder_Parametric.svg  style="width:32px;"> _.
+    -   <img alt="" src=images/Tree_Part_Cone_Parametric.svg  style="width:32px;"> _.
+    -   <img alt="" src=images/Tree_Part_Sphere_Parametric.svg  style="width:32px;"> _.
     -   <img alt="" src=images/Part_Ellipsoid.svg  style="width:32px;"> [Эллипсоид](Part_Ellipsoid/ru.md): Создаёт эллипсоид.
-    -   <img alt="" src=images/Tree_Part_Torus_Parametric.svg  style="width:32px;"> [Тор](Part_Torus/ru.md): Создаёт тор. Этот объект также может быть создан с помощью инструмента <img alt="" src=images/Part_Torus.svg  style="width:32px;"> [Тор](Part_Torus/ru.md).
+    -   <img alt="" src=images/Tree_Part_Torus_Parametric.svg  style="width:32px;"> _.
     -   <img alt="" src=images/Part_Prism.svg  style="width:32px;"> [Призма](Part_Prism/ru.md): Создаёт призму.
     -   <img alt="" src=images/Part_Wedge.svg  style="width:32px;"> [Клин](Part_Wedge/ru.md): Создаёт клин.
     -   <img alt="" src=images/Part_Helix.svg  style="width:32px;"> [Спираль винтовая](Part_Helix/ru.md): Создаёт винтовую спираль.
@@ -126,7 +126,7 @@
     -   <img alt="" src=images/Part_BooleanFragments.svg  style="width:32px;"> [Логические(Булевы) фрагменты](Part_BooleanFragments/ru.md): Создаёт все фрагменты, которые могут быть получены булевыми операциями между объектами.
     -   <img alt="" src=images/Part_SliceApart.svg  style="width:32px;"> [Разрезать на части](Part_SliceApart/ru.md): Разрезает и разбивает объект, путём его пересечения с другими объектами.
     -   <img alt="" src=images/Part_Slice.svg  style="width:32px;"> [Обрезать](Part_Slice/ru.md): Обрезает объект, пересекая его с другими объектами образуя объединение.
-    -   <img alt="" src=images/Part_XOR.svg  style="width:32px;"> [Булева XOR](Part_XOR/ru.md): Удаляет пространство, общее для пересекаемых объектов (обратная версия [Обрезать](Part_Cut/ru.md)).
+    -   <img alt="" src=images/Part_XOR.svg  style="width:32px;"> _).
 
 ### Измерение
 
@@ -200,7 +200,7 @@
 
  
 
-[Category:Workbenches](Category:Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Module/ru
+[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Part](Part_Workbench.md) > Part Module/ru

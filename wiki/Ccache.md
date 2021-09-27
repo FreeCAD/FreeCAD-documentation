@@ -11,7 +11,7 @@ Ccache (or "ccache") is a compiler cache. It speeds up recompilation by caching 
 -   [Compiling (Speeding up)](Compiling_(Speeding_up).md)
 -   [distcc](distcc.md)
 
-[Category: Developer Documentation](Category:_Developer_Documentation.md) [Category: 3rd Party](Category:_3rd_Party.md)
+_ _
 
 ---
-[documentation index](../README.md) > [ Developer Documentation](Category: Developer Documentation.md) > Ccache
+[documentation index](../README.md) > [ Developer Documentation](Category_ Developer Documentation.md) > Ccache

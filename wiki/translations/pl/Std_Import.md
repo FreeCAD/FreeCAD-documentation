@@ -46,7 +46,7 @@ The **Std Import** command imports geometry from a different file format into th
 
 }}  
 
-[Category:File\_Formats](Category:File_Formats.md)
+_
 
 ---
-[documentation index](../README.md) > [File_Formats](Category:File_Formats.md) > Std Import/pl
+[documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Std Import/pl

@@ -83,6 +83,8 @@
 
 -   <img alt="" src=images/FEM_ConstraintTie.svg  style="width:32px;"> [Constraint tie](FEM_ConstraintTie/ru.md): Creates a FEM constraint tie {{Version/ru|0.19}}.
 
+-   <img alt="" src=images/FEM_ConstraintSpring.svg  style="width:32px;"> [Constraint spring](FEM_ConstraintSpring.md): Used to define a tie constraint (\"bonded contact\") between two faces. <small>(v0.20)</small> 
+
 -   <img alt="" src=images/FEM_ConstraintForce.svg  style="width:32px;"> [Constraint force](FEM_ConstraintForce/ru.md): Используется для определения силы в \[N\], приложенной равномерно к выбираемой поверхности в определяемом направлении.
 
 -   <img alt="" src=images/FEM_ConstraintPressure.svg  style="width:32px;"> [Constraint pressure](FEM_ConstraintPressure/ru.md): Используется для определения ограничения давления.
@@ -138,6 +140,8 @@ Translations:FEM Module/141/ru
 -   <img alt="" src=images/FEM_SolverCalculiX.svg  style="width:32px;"> [Решатель CalculiX (экспериментальный)](FEM_SolverCalculiX/ru.md): Создает решатель МКЭ CalculiX (экспериментальный).
 
 -   <img alt="" src=images/FEM_SolverElmer.svg  style="width:32px;"> [Solver Elmer](FEM_SolverElmer/ru.md): Создает контроллер решателя для Элмера. Он не зависит от других объектов решателя.
+
+-   <img alt="" src=images/FEM_SolverMystran.svg  style="width:32px;"> [Solver Mystran](FEM_SolverMystran.md):
 
 -   <img alt="" src=images/FEM_SolverZ88.svg  style="width:32px;"> [Решатель Z88](FEM_SolverZ88/ru.md): Создает задачу для решателя МКЭ Z88 .
 
@@ -272,7 +276,7 @@ Many video tutorials: [anisim Open Source Engineering Software](https://www.yout
 
 }} 
 
-[Category:Workbenches](Category:Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > FEM Workbench/ru
+[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > FEM Workbench/ru

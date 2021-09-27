@@ -2,7 +2,7 @@
 {{TutorialInfo/fr
 |Topic=Sketcher
 |Level=Débutant
-|Author=[Maker](User:Maker.md)
+|Author=_
 |FCVersion=
 }}
 

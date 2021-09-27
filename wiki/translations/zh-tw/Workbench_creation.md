@@ -391,7 +391,7 @@ os.remove(qrc_filename)
 
 }} 
 
-[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+_ _
 
 ---
-[documentation index](../README.md) > Workbench creation/zh-tw
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Workbench creation/zh-tw

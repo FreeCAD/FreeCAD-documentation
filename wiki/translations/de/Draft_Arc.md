@@ -88,7 +88,7 @@ Siehe [Draft Kreis](Draft_Circle/de#Properties.md).
 
 ## Skripten
 
-Siehe auch: [Autogenerierte API Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch: _.
 
 Um einen Entwurf Bogen zu erstellen, verwende die Methode `make_circle` (<small>(v0.19)</small> ) des Entwurfmoduls. Diese Methode ersetzt die veraltete Methode `makeCircle`.
 

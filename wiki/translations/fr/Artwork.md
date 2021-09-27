@@ -135,13 +135,7 @@ Voir [Artwork Web](Artwork_Web.md).
 
 ## Ateliers externes et addons 
 
-
-<div class="mw-translate-fuzzy">
-
-### Depuis src/Mod/Plot/ 
-
-
-</div>
+### Depuis Mod/Plot/ 
 
 Voir [Artwork Plot](Artwork_Plot.md).
 
@@ -149,13 +143,7 @@ Voir [Artwork Plot](Artwork_Plot.md).
 
 Voir [Artwork Reinforcement](Artwork_Reinforcement.md).
 
-
-<div class="mw-translate-fuzzy">
-
-### Depuis src/Mod/Ship/ 
-
-
-</div>
+### Depuis Mod/Ship/ 
 
 Voir [Artwork Ship](Artwork_Ship.md).
 
@@ -168,7 +156,7 @@ Voir [Erreurs graphiques](Artwork_Erroneous/fr.md).
 
 }}
 
-[Category:Icon](Category:Icon.md) [Category:Developer Documentation](Category:Developer_Documentation.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Icon](Category:Icon.md) > Artwork/fr
+[documentation index](../README.md) > [Icon](Category_Icon.md) > Artwork/fr

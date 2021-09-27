@@ -93,7 +93,7 @@ conda create --name fcenv-dev --channel freecad/label/dev freecad
 
 
 
-[Category:Developer\_Documentation](Category:Developer_Documentation.md) [Category:Developer](Category:Developer.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Developer_Documentation](Category:Developer_Documentation.md) > Conda
+[documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > Conda

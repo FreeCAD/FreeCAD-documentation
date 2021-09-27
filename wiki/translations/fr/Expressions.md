@@ -528,7 +528,7 @@ Bien sûr, vous pouvez charger les documents correspondants à tout moment pour 
 
 }} 
 
-[Category:Spreadsheet](Category:Spreadsheet.md)
+_
 
 ---
-[documentation index](../README.md) > [Spreadsheet](Category:Spreadsheet.md) > Expressions/fr
+[documentation index](../README.md) > [Spreadsheet](Category_Spreadsheet.md) > Expressions/fr

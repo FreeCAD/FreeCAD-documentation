@@ -11,7 +11,7 @@ For all icons in the source tree, see [Artwork](Artwork.md).
 
  
 
-[Category:Ship](Category:Ship.md)
+_
 
 ---
-[documentation index](../README.md) > [Ship](Category:Ship.md) > Artwork Ship
+[documentation index](../README.md) > [Ship](Category_Ship.md) > Artwork Ship

@@ -17,22 +17,16 @@ La commande <img alt="" src=images/SheetMetal_Bend.svg  style="width:24px;"> **S
 
 ## Utilisation
 
-
-<div class="mw-translate-fuzzy">
-
 Pour ajouter un pli:
 
 1.  Basculez vers l\'<img alt="" src=images/Sheetmetal_workbench_icon.svg  style="width:22px;"> [atelier SheetMetal](SheetMetal_Workbench/fr.md).
 2.  Commencez avec une plaque de base ou une feuille, sélectionnez un ou plusieurs bords pour recevoir un pli.
-3.  Cliquez sur l\'outil <img alt="" src=images/SheetMetal_Bend.svg  style="width:24px;"> **Bend** pour ajouter un pli.
-
-
-</div>
+3.  Cliquez sur l\'outil <img alt="" src=images/SheetMetal_AddWall.svg  style="width:24px;"> [Make Wall](SheetMetal_AddWall/fr.md) pour ajouter un pli.
 
 
 **Remarque**
 
-: Pour créer une plaque de base, utilisez un contour 2D fermé - de préférence une <img alt="" src=images/Sketcher_NewSketch.svg  style="width:24px;">. [Esquisse](Sketcher_NewSketch/fr.md) - avec le <img alt="" src=images/SheetMetal_AddBase.svg  style="width:24px;"> [Tôle de base](SheetMetal_AddBase/fr.md).
+: Pour créer une plaque de base, utilisez un contour 2D fermé - de préférence une <img alt="" src=images/Sketcher_NewSketch.svg  style="width:24px;">. _.
 Au lieu de cela, vous pouvez également générer une plaque de base avec l\'une des méthodes suivantes :
 
 :\* Method 1: <img alt="" src=images/Part_Box.svg  style="width:24px;"> [Part Cube](Part_Box/fr.md)
@@ -51,201 +45,120 @@ Au lieu de cela, vous pouvez également générer une plaque de base avec l\'une
 
 ::\* <img alt="" src=images/PartDesign_AdditiveBox.svg  style="width:24px;"> [PartDesign Cube additif](PartDesign_AdditiveBox.md) ou une
 
-::\* <img alt="" src=images/PartDesign_Pad.svg  style="width:24px;"> [PartDesign Protrusion](PartDesign_Pad/fr.md) fabriquée à partir d\'une <img alt="" src=images/Sketcher_NewSketch.svg  style="width:24px;"> [Sketch Nouvelle esquisse](Sketcher_NewSketch/fr.md).
+::\* <img alt="" src=images/PartDesign_Pad.svg  style="width:24px;"> _.
 
 ::\* Utilisez <img alt="" src=images/PartDesign_Thickness.svg  style="width:24px;"> [PartDesign Epaisseur](PartDesign_Thickness/fr.md) pour créer une coque (**Typiquement avec la valeur d'épaisseur de la tôle.**)
 
 :   
 
-    :   Si vous commencez avec un <img alt="" src=images/PartDesign_Body.svg  style="width:24px;"> PartDesign Corps, vous pouvez mélanger des fonctions de tôlerie avec des fonctions PartDesign telles que <img alt="" src=images/PartDesign_Pocket.svg  style="width:24px;"> [PartDesign Cavité](PartDesign_Pocket/fr.md) ou <img alt="" src=images/PartDesign_Hole.svg  style="width:24px;"> [PartDesign Perçages](PartDesign_Hole/fr.md).
+    :   Si vous commencez avec un <img alt="" src=images/PartDesign_Body.svg  style="width:24px;"> PartDesign Corps, vous pouvez mélanger des fonctions de tôlerie avec des fonctions PartDesign telles que <img alt="" src=images/PartDesign_Pocket.svg  style="width:24px;"> _.
 
 ## Propriétés
 
-See also: [Property editor](Property_editor.md).
+Voir aussi : [Éditeur de propriétés](Property_editor/fr.md)
 
-A SheetMetal Bend object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties and its label has a default value:
+Un objet SheetMetal Bend est dérivé d\'un objet [Part Feature](Part_Feature/fr.md) et hérite de toutes ses propriétés. Il possède également les propriétés supplémentaires suivantes :
 
 ### Données
 
 
 {{Properties_Title|Base}}
 
+-    {{PropertyData/fr|Label|String}}: Valeur par défaut : Le nom modifiable par l\'utilisateur de cet objet, il peut être toute chaîne UTF8 arbitraire.
 
-<div class="mw-translate-fuzzy">
+-    {{PropertyData/fr|Base Feature|Link|hidden}}: Fonctionnalité de base. Lien vers la caractéristique parent.
 
--    {{PropertyData/fr|Label}}: Nom donné par l\'utilisateur à l\'objet dans la [vue en arborescence](tree_view/fr.md).
-
-
-</div>
+-    {{PropertyData/fr|_Body|LinkHidden|hidden}}: Lien caché vers le corps du parent.
 
 
 {{Properties_Title|Parameters}}
 
+-    {{PropertyData/fr|Bend Type|Enumeration}}: \"Type de pliage\". {{value|Material Outside}}, {{value|Material Inside}}, {{value|Thickness Outside}}. (par défaut), {{value|Material Inside}}, {{value|Thickness Outside}}, {{value|Offset}}.
 
-<div class="mw-translate-fuzzy">
+-    {{PropertyData/fr|angle|Angle}}: \"Angle de pliage\". Angle par défaut : {{value|90,00°}}.
 
--    {{PropertyData/fr|angle}}: angle de pliage.
+-    {{PropertyData/fr|base Object|LinkSub}}: \"Objet de base\". Lien vers la face planaire devant recevoir une courbure.
 
--    {{PropertyData/fr|extend1}}: prolonge le mur sur le côté gauche.
+-    {{PropertyData/fr|gap1|Distance}}: \"Ecart par rapport au côté gauche\". Valeur par défaut : {{value|0,00 mm}}.
 
--    {{PropertyData/fr|extend2}}: prolonge le mur sur le côté droit.
+-    {{PropertyData/fr|gap2|Distance}}: \"Ecart depuis le côté droit\". Valeur par défaut : {{value|0,00 mm}}.
 
--    {{PropertyData/fr|gap1}}: espace depuis le côté gauche.
+-    {{PropertyData/fr|invert|Bool} :} "Inverser la direction du pliage". Valeur par défaut : `False`.
+    * {{PropertyData/fr|length|Length}} : "Longueur du mur". Valeur par défaut : {{value|10,00 mm}}.
+    * {{PropertyData/fr|radius|Length}} : "Rayon de courbure". Valeur par défaut : {{value|1,00 mm}}.
 
--    {{PropertyData/fr|gap2}}: espace depuis le côté droit.
+    {{Properties_Title|Parameters Ex}}
 
--    {{PropertyData/fr|invert}}: inverse la direction du pli.
+    * {{PropertyData/fr|Auto Miter|Bool}} : "Activer l'onglet automatique". Valeur par défaut : `True`.
+    * {{PropertyData/fr|extend1|Distance}} : "Étendre à partir du côté gauche". Valeur par défaut : {{value|0,00 mm}}.
+    * {{PropertyData/fr|extend2|Distance} :} "Extension à partir du côté droit". Valeur par défaut : {{value|0,00 mm}}.
+    * {{PropertyData/fr|kfactor|FloatConstraint}} : "Emplacement de la ligne neutre. Attention : Utiliser les normes ANSI et non DIN.". </br>Par défaut : {{value|0,50}}. Facteur K (également connu sous le nom de facteur neutre) pour le coude. Utilisé pour calculer la marge de pliage lors du dépliage.
+    * {{PropertyData/fr|max Extend Dist|Length}} : "Distance maximale d'extension de l'onglet automatique". Valeur par défaut : {{value|5,00 mm}}.
+    * {{PropertyData/fr|min Gap|Length}} : "L'espacement minimum de l'onglet automatique. Valeur par défaut : {{value|5,00 mm}}.
+    * {{PropertyData/fr|miterangle1|Angle}} : "Angle de l'onglet de pliage depuis le côté gauche". Angle par défaut : {{value|0,00°}}.
+    * {{PropertyData/fr|miterangle2|Angle}} : "Angle de pliage à partir du côté droit. Angle par défaut : {{value|0,00°}}.
+    * {{PropertyData/fr|offset|Distance}} : "Coude décalé". Valeur par défaut : {{value|0,00 mm}}.
+    * {{PropertyData/fr|unfold|Bool}} : "Montre la vue dépliée du pliage en cours". Valeur par défaut : `False`. </br> `True` Déplie le pli.
 
--    {{PropertyData/fr|length}}: longueur du mur.
+    {{Properties_Title|Parameters Ex2}}
 
--    {{PropertyData/fr|mitreangle1}}: angle d\'onglet de pliage sur le côté gauche.
+    * {{PropertyData/fr|Sketch|Link}} : "Objet de l'esquisse".
+    * {{PropertyData/fr|sketchflip|Bool}} : "Retourner la direction de l'esquisse". Valeur par défaut : `False`.
+    * {{PropertyData/fr|sketchinvert|Bool}} : "Inverser le début de l'esquisse". Valeur par défaut : `False`.
 
--    {{PropertyData/fr|mitreangle2}}: angle d\'onglet de pliage sur le côté droit.
+    {{Properties_Title|Parameters Ex3}}
 
--    {{PropertyData/fr|radius}}: rayon de courbure.
+    * {{PropertyData/fr|Length List|FloatList}} : "Longueur de la liste des parois". Valeur par défaut : {{value|[10,00]}}.
+    * {{PropertyData/fr|bend AList|FloatList}} : "Liste des angles de pliage". Valeur par défaut : {{value|[90,00]}}.
 
--    {{PropertyData/fr|relief Type}}: rectangle ou Rond. Activé uniquement lorsqu\'une valeur d\'espacement est définie.
+    {{Properties_Title|Parameters Relief}}
 
--    {{PropertyData/fr|reliefd}}: profondeur du relief. Activé uniquement lorsqu\'une valeur d\'écart est définie.
+    * {{PropertyData/fr|Relief Factor|Float}} : "Facteur de soulagement". Valeur par défaut : {{value|0,70}}.
+    * {{PropertyData/fr|Use Relief Factor|Bool} :} "Use Relief Factor". Valeur par défaut : `False`.
+    * {{PropertyData/fr|min Relief Gap|Length}} : "Espace minimum pour la coupe en relief". Valeur par défaut : {{value|1,00 mm}}.
+    * {{PropertyData/fr|relief Type|Enumeration}} : "Type de relief". {{value|Rectangle}} (valeur par défaut), {{value|Rectangle}}. (par défaut), {{value|Round}}. Activé uniquement lorsqu'une valeur d'écart est définie.
+    * {{PropertyData/fr|reliefd|Length}} : "Profondeur du relief". Valeur par défaut : {{value|1,00 mm}}. Activé uniquement lorsqu'une valeur d'écart est définie.
+    * {{PropertyData/fr|reliefw|Length}} : "Largeur du relief". Valeur par défaut : {{value|0,80 mm}}. Activé uniquement lorsqu'une valeur d'écart est définie.
 
--    {{PropertyData/fr|reliefw}}: largeur du relief. Activé uniquement lorsqu\'une valeur d\'espacement est définie.
+    == Exemple ==
 
--    {{PropertyData/fr|kfactor}}: facteur K (également appelé facteur neutre) pour le pli. Utilisé pour calculer la tolérance de pliage lors du dépliage.
+    <img src="images/SheetMetal_AddWall-01.png" width=300px>
+    *Un plateau tout simple*
+    <div class="mw-collapsible mw-collapsed">
+    <div class="mw-collapsible-content">
 
--    {{PropertyData/fr|unfold}}: False (par défaut) ou True. Si c\'est vrai, déplie le pli.
+    === Préparation ===
 
+    Ce plateau est constitué d'une ébauche rectangulaire à laquelle on a ajouté des parois sur les bords de son contour. Il faut donc préparer à l'avance un croquis de contour pour l'ébauche.
 
-</div>
+    <img src="images/SheetMetal_AddWall-02.png" width=200px>
+    *Un simple contour rectangulaire*
 
+    === Processus de travail ===
 
-{{Properties_Title|Parameters Ex}}
+    ## Créer une ébauche
+    ## Sélectionnez l'esquisse de contour </br> <img src="images/SheetMetal_AddWall-03.png" width=240px> 
+    ## Appuyez sur le bouton **<img src="images/SheetMetal_AddBase.svg" width=16px> [Make Base Wall](SheetMetal_AddBase/fr.md)** ou utilisez le raccourci clavier : **C** puis **F**. </br> <img src="images/SheetMetal_AddWall-04.png" width=240px> </br> (L'ébauche est générée dans la direction z </br> </br>.
+    # Ajouter des murs aux bords du contour 
+    ## Sélectionnez les '''bords du contour''' du blanc </br> <img src="images/SheetMetal_AddWall-05.png" width=240px>.
+    ## Appuyez sur le bouton **<img src="images/SheetMetal_AddWall.svg" width=16px> [Make Wall](SheetMetal_AddWall/fr.md)** ou utilisez le raccourci clavier : **W**. </br> <img src="images/SheetMetal_AddWall-06.png" width=240px>
+    ## Si le pli est à 90° vers le bas, mettez la valeur de la propriété '''invert''' à true pour inverser le sens (et '''length''' à une valeur plus faible pour les petits murs) </br> <img src="images/SheetMetal_AddWall-01.png" width=240px>. </br> </br>
+    # Ajouter d'autres parois
+    ## Sélectionnez les '''bords extérieurs supérieurs''' du plateau </br> <img src="images/SheetMetal_AddWall-08.png" width=240px>.
+    ## Appuyez sur le bouton **<img src="images/SheetMetal_AddWall.svg" width=16px> [Make Wall](SheetMetal_AddWall/fr.md)** ou utilisez le raccourci clavier : **W**.  </br> <img src="images/SheetMetal_AddWall-09.png" width=240px> </br>
+    ## Les parois sont un peu trop longues et il faut donc mettre la propriété '''longueur''' à une valeur inférieure </br> <img src="images/SheetMetal_AddWall-10.png" width=240px>.
+    ## Si vous aimez que les plis se mettent vers l'extérieur mettez la valeur '''invert''' à true </br> <img src="images/SheetMetal_AddWall-11.png" width=240px>. 
 
--    **Auto Miter|Bool**: \"Enable Auto Miter\". Default: `True`.
+    C'est fait!
+    </div> 
+    </div> 
 
--    **extend1|Distance**: \"Extend from Left Side\". Default: {{value|0,00 mm}}.
 
--    **extend2|Distance**: \"Extend from Right Side\". Default: {{value|0,00 mm}}.
+    
 
--    **kfactor|FloatConstraint**: \"Location of Neutral Line. Caution: Using ANSI standards, not DIN.\".  Default: {{value|0,50}}. K factor (also known as neutral factor) for the bend. Used to calculate bend allowance when unfolding.
-
--    **max Extend Dist|Length**: \"Auto Miter maximum Extend Distance\". Default: {{value|5,00 mm}}.
-
--    **min Gap|Length**: \"Auto Miter Minimum Gap\". Default: {{value|5,00 mm}}.
-
--    **miterangle1|Angle**: \"Bend Miter Angle from Left Side\". Default angle: {{value|0,00°}}.
-
--    **miterangle2|Angle**: \"Bend Miter Angle from Right Side\". Default angle: {{value|0,00°}}.
-
--    **offset|Distance**: \"Offset Bend\". Default: {{value|0,00 mm}}.
-
--    **unfold|Bool**: \"Shows Unfold View of Current Bend\". Default:  `True` unfolds the bend.
-
-
-{{Properties_Title|Parameters Ex2}}
-
--    **Sketch|Link**: \"Sketch Object\".
-
--    **sketchflip|Bool**: \"Flip Sketch Direction\". Default: `False`.
-
--    **sketchinvert|Bool**: \"Invert Sketch Start\". Default: `False`.
-
-
-{{Properties_Title|Parameters Ex3}}
-
--    **Length List|FloatList**: \"Length of Wall List\". Default: {{value|[10,00]}}.
-
--    **bend AList|FloatList**: \"Bend Angle List\". Default: {{value|[90,00]}}.
-
-
-{{Properties_Title|Parameters Relief}}
-
--    **Relief Factor|Float**: \"Relief Factor\". Default: {{value|0,70}}.
-
--    **Use Relief Factor|Bool**: \"Use Relief Factor\". Default: `False`.
-
--    **min Relief Gap|Length**: \"Minimum Gap to Relief Cut\". Default: {{value|1,00 mm}}.
-
--    **relief Type|Enumeration**: \"Relief Type\". {{value|Rectangle}} (default), {{value|Round}}. Enabled only when a gap value is set.
-
--    **reliefd|Length**: \"Relief Depth\". Default: {{value|1,00 mm}}. Enabled only when a gap value is set.
-
--    **reliefw|Length**: \"Relief Width\". Default: {{value|0,80 mm}}. Enabled only when a gap value is set.
-
-## Exemple
-
-<img alt="" src=images/SheetMetal_AddWall-01.png  style="width:300px;">
-
-
-<div class="mw-translate-fuzzy">
-
-<img alt="" src=images/SheetMetal_AddWall-01.png  style="width:300px;"> 
-*Un plateau tout simple*
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-
-<div class="mw-collapsible mw-collapsed">
-
-
-<div class="mw-collapsible-content">
-
-### Préparation
-
-
-</div>
-
-Ce plateau est constitué d\'une ébauche rectangulaire à laquelle on a ajouté des parois sur les bords de son contour. Il faut donc préparer à l\'avance un croquis de contour pour l\'ébauche.
-
-<img alt="" src=images/SheetMetal_AddWall-02.png  style="width:200px;">
-
-
-<div class="mw-translate-fuzzy">
-
-<img alt="" src=images/SheetMetal_AddWall-02.png  style="width:200px;"> 
-*Un simple contour rectangulaire*
-
-
-</div>
-
-### Processus de travail 
-
-
-<div class="mw-translate-fuzzy">
-
-1.  1.  Créer une ébauche
-    2.  Sélectionnez l\'esquisse de contour  <img alt="" src=images/SheetMetal_AddWall-03.png  style="width:240px;">
-    3.  Appuyez sur le bouton  <img alt="" src=images/SheetMetal_AddWall-04.png  style="width:240px;">  (L\'ébauche est générée dans la direction z  .
-
-2.  Ajouter des murs aux bords du contour
-    1.  Sélectionnez les **bords du contour** du blanc  <img alt="" src=images/SheetMetal_AddWall-05.png  style="width:240px;">.
-    2.  Appuyez sur le bouton  <img alt="" src=images/SheetMetal_AddWall-06.png  style="width:240px;">
-    3.  Si le pli est à 90° vers le bas, mettez la valeur de la propriété **invert** à true pour inverser le sens (et **length** à une valeur plus faible pour les petits murs)  <img alt="" src=images/SheetMetal_AddWall-01.png  style="width:240px;">.  
-
-3.  Ajouter d\'autres parois
-    1.  Sélectionnez les **bords extérieurs supérieurs** du plateau  <img alt="" src=images/SheetMetal_AddWall-08.png  style="width:240px;">.
-    2.  Appuyez sur le bouton  <img alt="" src=images/SheetMetal_AddWall-09.png  style="width:240px;"> 
-    3.  Les parois sont un peu trop longuess (mais joliment taillées) et il faut donc mettre la propriété **longueur** à une valeur inférieure  <img alt="" src=images/SheetMetal_AddWall-10.png  style="width:240px;">.
-    4.  Si vous aimez que les plis se mettent vers l\'extérieur mettez la valeur **invert** à true  <img alt="" src=images/SheetMetal_AddWall-11.png  style="width:240px;">.
-
-
-</div>
-
-C\'est fait!
-
-
-</div>
-
-
-</div>
-
-
-
-
-[Category:SheetMetal](Category:SheetMetal.md) [Category:Addons](Category:Addons.md) [Category:External Command Reference](Category:External_Command_Reference.md)
+    [[Category:SheetMetal]]
+    [[Category:Addons]]
+    [[Category:External Command Reference\]\]
 
 ---
-[documentation index](../README.md) > [SheetMetal](Category:SheetMetal.md) > SheetMetal AddWall/fr
+[documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > SheetMetal AddWall/fr

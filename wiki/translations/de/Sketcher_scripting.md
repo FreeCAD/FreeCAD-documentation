@@ -140,7 +140,7 @@ Die <img alt="" src=images/Sketcher_ConstrainSnellsLaw.svg  style="width:24px;">
 |                     |                                                                                    |                                                        |
 +------------------------+------------------------------------------------------------------------------------+--------------------------------------------------------+
 
-Die <img alt="" src=images/Sketcher_ConstrainLock.svg  style="width:24px;"> [Schloss](Sketcher_ConstrainLock/de.md) Beschränkung ist ein GUI Befehl, der eine <img alt="" src=images/Sketcher_ConstrainDistanceX.svg  style="width:24px;"> [Horizontaler Abstand](Sketcher_ConstrainDistanceX/de.md) und eine <img alt="" src=images/Sketcher_ConstrainDistanceY.svg  style="width:24px;"> [Vertikaler Abstandsbeschränkung](Sketcher_ConstrainDistanceY/de.md) erzeugt, es ist keine eigene Beschränkung.
+Die <img alt="" src=images/Sketcher_ConstrainLock.svg  style="width:24px;"> _ und eine <img alt="" src=images/Sketcher_ConstrainDistanceY.svg  style="width:24px;"> [Vertikaler Abstandsbeschränkung](Sketcher_ConstrainDistanceY/de.md) erzeugt, es ist keine eigene Beschränkung.
 
 ## Identifizierung der Nummerierung einer Linie 
 
@@ -172,7 +172,7 @@ Um festzulegen, welcher Teil einer Linie von einer Beschränkung betroffen ist, 
 
 -    `2`, um anzuzeigen, dass die Beschränkung den Endpunkt der Kante betrifft.
 
--    `3`, um anzuzeigen, dass die Beschränkung den Mittelpunkt der Kante betrifft. Für <img alt="" src=images/Sketcher_CompCreateCircle.png  style="width:24px;">[Kreise](Sketcher_CompCreateCircle/de.md) und <img alt="" src=images/Sketcher_CompCreateConic.png  style="width:24px;">[Kegel](Sketcher_CompCreateConic/de.md) (Ellipsen) ist dies der Mittelpunkt des Kreises bzw. das Zentrum (Schnittpunkt von Haupt- und Nebenachse) der Ellipse. Bei geraden <img alt="" src=images/Sketcher_CreateLine.svg  style="width:24px;">[Linien](Sketcher_CreateLine/de.md) kann `3` nicht zur Angabe des Mittelpunktes verwendet werden.
+-    `3`, um anzuzeigen, dass die Beschränkung den Mittelpunkt der Kante betrifft. Für <img alt="" src=images/Sketcher_CompCreateCircle.png  style="width:24px;">_ (Ellipsen) ist dies der Mittelpunkt des Kreises bzw. das Zentrum (Schnittpunkt von Haupt- und Nebenachse) der Ellipse. Bei geraden <img alt="" src=images/Sketcher_CreateLine.svg  style="width:24px;">[Linien](Sketcher_CreateLine/de.md) kann `3` nicht zur Angabe des Mittelpunktes verwendet werden.
 
 -    `n`, um anzuzeigen, dass die Beschränkung den n-ten Pol eines <img alt="" src=images/Sketcher_CreateBSpline.png  style="width:24px;">[B-Spline](Sketcher_CompCreateBSpline/de.md) betrifft.
 

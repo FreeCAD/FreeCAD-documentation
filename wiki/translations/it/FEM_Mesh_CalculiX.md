@@ -101,7 +101,7 @@ Il seguente ordine di nodo non è implementato ! TODO: verify node order (do not
 
 }}  
 
-[Category:Developer](Category:Developer.md) [Category:Poweruser\_Documentation](Category:Poweruser_Documentation.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Developer](Category:Developer.md) > FEM Mesh CalculiX/it
+[documentation index](../README.md) > [Developer](Category_Developer.md) > FEM Mesh CalculiX/it

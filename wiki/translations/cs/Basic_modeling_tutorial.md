@@ -29,7 +29,7 @@ Rozdělanou práci ukládejte často a občas ji uložte pod jiným jménem, zí
 
 ## Úvod do modelovacích technik 
 
-První (a základní) technika modelování těles je [Constructive Solid Geometry (CSG)](http://en.wikipedia.org/wiki/Constructive_solid_geometry). Pracujete se základními tvary jako jsou kostky, válce, koule a kužely a konstruujete z nich požadované tvary jejich kombinací, odečítáním jednoho tvaru od druhého nebo jejich protínáním. Tyto nástroje jsou součástí [Pracovní plochy Díl](Part_Workbench/cs.md). Můžete také uplatnit transformace tvarů, jako jsou zaoblení nebo úkosy hran. Tyto nástroje jsou také v [Pracovní ploše Díl](Part_Workbench/cs.md).
+První (a základní) technika modelování těles je _. Můžete také uplatnit transformace tvarů, jako jsou zaoblení nebo úkosy hran. Tyto nástroje jsou také v [Pracovní ploše Díl](Part_Workbench/cs.md).
 
 
 </div>
@@ -104,7 +104,7 @@ Tato metoda vyžaduje začít kreslení 2D profilu. Musíte aktivovat [pracovní
 
 <div class="mw-translate-fuzzy">
 
-Dále potřebujeme nastavit [pracovní rovinu](Draft_SelectPlane/cs.md). Podle verze FreeCADu máte přímo pod nástrojovým pruhem vpravo tlačítko \"None\". Klikněte na ně a vlevo se objeví hned za \"aktivní příkaz\": Vyberte rovinu Odstup, potom textové pole a několik dalších tlačítek. Předpokládejme, že chcete začít profil v půdorysu, stiskněte XY. Tlačítko \"None\" nyní bude ukazovat \"Top\" jako aktivní rovinu. [Podívejte se na poznámku.](#DraftPlaneButton.md)
+Dále potřebujeme nastavit _
 
 Vyberte nástroj ![](images/Draft_Wire.png ) [Drát (lomená čára)](Draft_Wire/cs.md), potom začněte kreslit tvar použitím textových polí pro pozice X a Y. Mělo by být zakliknuto políčko \"Relativně\" i políčko \"Vyplněno\".
 

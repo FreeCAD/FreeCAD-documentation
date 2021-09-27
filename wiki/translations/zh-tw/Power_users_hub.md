@@ -29,7 +29,7 @@ FreeCAD有一個最棒的特色就是你可以藉由腳本來擴充功能並且�
 
 <div class="mw-translate-fuzzy">
 
-這個頁面還在早期開發階段。如果你找不到你所需要的資訊，或是你在其他地方找到有用的資訊，請在[論壇](http://forum.freecadweb.org/)上留言，或者何不[ 直接由你來幫忙增加本頁面的內容!](Help_FreeCAD.md)
+這個頁面還在早期開發階段。如果你找不到你所需要的資訊，或是你在其他地方找到有用的資訊，請在_
 
 
 </div>
@@ -83,7 +83,7 @@ The functionality of FreeCAD is separated in Modules which deal with special dat
 
 #### Working with Meshes 
 
--   [Mesh Scripting](Mesh_Scripting.md): How to interact with the [Mesh Workbench](Mesh_Workbench.md)
+-   _
 
 #### Working with Parts 
 
@@ -153,7 +153,7 @@ The functionality of FreeCAD is separated in Modules which deal with special dat
 
 ## API Functions 
 
-The complete API documentation of FreeCAD is located at <http://www.freecadweb.org/api/> . It contains both C++ and Python APIs, and is not totally well formatted yet, which can be confusing when looking for python-only code. An easier to browse version can be found [here](:Category:API.md). Note that it can be incomplete, since it is updated manually. For more accurate information, browse the modules directly from FreeCAD\'s Python console.
+The complete API documentation of FreeCAD is located at <http://www.freecadweb.org/api/> . It contains both C++ and Python APIs, and is not totally well formatted yet, which can be confusing when looking for python-only code. An easier to browse version can be found _. Note that it can be incomplete, since it is updated manually. For more accurate information, browse the modules directly from FreeCAD\'s Python console.
 
 Related: [Exposing C++ to Python](Exposing_C%2B%2B_to_Python.md)
 
@@ -206,7 +206,7 @@ On the [Community portal](FreeCAD_Community_Portal.md), you can find other FreeC
 
 }}
 
-[Category:Hubs](Category:Hubs.md)
+_
 
 ---
-[documentation index](../README.md) > [Hubs](Category:Hubs.md) > Power users hub/zh-tw
+[documentation index](../README.md) > [Hubs](Category_Hubs.md) > Power users hub/zh-tw

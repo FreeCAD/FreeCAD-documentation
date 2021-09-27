@@ -3,16 +3,16 @@
 
 ## Wprowadzenie
 
-[Część: Kształt topologiczny](Part_TopoShape/pl.md), lub formalnie `Part::TopoShape`, jest klasą, która definiuje parametryczny **kształt topologiczny** w oprogramowaniu. Obiekty w dokumencie, które pokazują coś w oknie [widoku 3D](3D_view/pl.md) zazwyczaj mają Kształt topologiczny.
+_ zazwyczaj mają Kształt topologiczny.
 
-Kształty topologiczne, jak również ich metody, i są ostatecznie definiowane przez kernel *(OCCT)* w technologii [OpenCASCADE](OpenCASCADE/pl.md). FreeCAD używa tych kształtów i buduje wokół nich [App: Obiekt dokumentu](App_DocumentObject/pl.md).
+Kształty topologiczne, jak również ich metody, i są ostatecznie definiowane przez kernel *(OCCT)* w technologii _.
 
 Innym typem klasy jest [siatka](Mesh/pl.md). Klasa ta nie jest zbyt parametryczna, ponieważ nie można jej łatwo przedefiniować, chyba że poprzez określenie poszczególnych wierzchołków i trójkątnych powierzchni.
 
 ![](images/Shape_and_mesh.svg )
 
 
-*Po lewej: [Kształt topologiczny](Part_TopoShape/pl.md) zdefiniowany przez właściwości. <br>Po prawej: [Siatka](Mesh/pl.md), zdefiniowana przez wierzchołki i powierzchnie trójkątne.*
+*Po lewej: _, zdefiniowana przez wierzchołki i powierzchnie trójkątne.*
 
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
 

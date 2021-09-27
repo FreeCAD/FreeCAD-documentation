@@ -26,7 +26,7 @@ Um eine Kante hinzuzufügen:
 
 **Hinweis**
 
-: Um eine Grundplatte (Platine) zu erstellen, verwendet man eine geschlossene 2D-Kontur - vorzugsweise eine <img alt="" src=images/Sketcher_NewSketch.svg  style="width:24px;"> [Skizze](Sketcher_NewSketch.md) - mit dem Befehl <img alt="" src=images/SheetMetal_AddBase.svg  style="width:24px;"> [Basisprofil erstellen](SheetMetal_AddBase/de.md).
+: Um eine Grundplatte (Platine) zu erstellen, verwendet man eine geschlossene 2D-Kontur - vorzugsweise eine <img alt="" src=images/Sketcher_NewSketch.svg  style="width:24px;"> _.
 Alternativ kann man eine Grundplatte auch mit einer der folgenden Methoden erstellen:
 
 :\* Methode 1: Einen <img alt="" src=images/Part_Box.svg  style="width:24px;"> [Part Würfel](Part_Box/de.md) erstellen
@@ -45,13 +45,13 @@ Alternativ kann man eine Grundplatte auch mit einer der folgenden Methoden erste
 
 ::\* <img alt="" src=images/PartDesign_AdditiveBox.svg  style="width:24px;"> [PartDesign Zu addierender Quader](PartDesign_AdditiveBox/de.md)
 
-::\* <img alt="" src=images/PartDesign_Pad.svg  style="width:24px;"> [PartDesign Extrudieren](PartDesign_Pad/de.md) aus einer <img alt="" src=images/Sketcher_NewSketch.svg  style="width:24px;"> [Skizze](Sketcher_NewSketch/de.md).
+::\* <img alt="" src=images/PartDesign_Pad.svg  style="width:24px;"> _.
 
 ::\* Dann <img alt="" src=images/PartDesign_Thickness.svg  style="width:24px;"> [PartDesign Dicke](PartDesign_Thickness/de.md) verwenden, um ein Schalenobjekt zu erstellen (**Typischerweise mit der Wandstärke des Blechs.**)
 
 :   
 
-    :   Wenn mit <img alt="" src=images/PartDesign_Body.svg  style="width:24px;"> [Körper erstellen](PartDesign_Body/de.md) gestartet wird, können SheetMetal-Werkzeuge mit PartDesign-Werkzeugen wie z.B. <img alt="" src=images/PartDesign_Pocket.svg  style="width:24px;"> [Tasche](PartDesign_Pocket/de.md) oder <img alt="" src=images/PartDesign_Hole.svg  style="width:24px;"> [Bohrung](PartDesign_Hole/de.md) gemischt werden.
+    :   Wenn mit <img alt="" src=images/PartDesign_Body.svg  style="width:24px;"> _ oder <img alt="" src=images/PartDesign_Hole.svg  style="width:24px;"> [Bohrung](PartDesign_Hole/de.md) gemischt werden.
 
 ## Eigenschaften
 
@@ -187,7 +187,7 @@ Fertig!
 
 
 
-[Category:SheetMetal](Category:SheetMetal.md) [Category:Addons](Category:Addons.md) [Category:External Command Reference](Category:External_Command_Reference.md)
+_ _ _
 
 ---
-[documentation index](../README.md) > [SheetMetal](Category:SheetMetal.md) > SheetMetal AddWall/de
+[documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > SheetMetal AddWall/de

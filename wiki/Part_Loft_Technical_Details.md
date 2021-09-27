@@ -71,7 +71,7 @@ Note that Loft has a \"Ruled\" property. If it is set to true, ruled surfaces ar
 
   
 
-[Category:Tutorials](Category:Tutorials.md)
+_
 
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Loft Technical Details
+[documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Part](Part_Workbench.md) > Part Loft Technical Details

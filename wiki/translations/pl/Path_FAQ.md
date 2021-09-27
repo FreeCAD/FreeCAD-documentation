@@ -24,7 +24,7 @@ All additions to the Job\--including modifications, and Operation copies\--are a
 
 ## What is the difference between Clearance Height and Safe Height? 
 
-More detailed information is available in [ Depths and Heights](Template:Depths/Heights.md).
+More detailed information is available in _.
 
 [top](#top.md)
 
@@ -194,7 +194,7 @@ Commonly, the Custom G-Code command because the format is always in Units/second
 
 However, Path Compounds can make use of the Placement of their children (see below).\"
 
-[https://www.freecadweb.org/wiki/Path\_scripting Path scripting](https://www.freecadweb.org/wiki/Path_scripting_Path_scripting.md)
+_
 
 [top](#top.md)
 

@@ -29,9 +29,9 @@ Help us to build, correct and extend this documentation. Correct mistakes, exten
 
 あなたの仕事を歓迎するいくつかの分野：
 
--   [:Category:Command\_Reference/jaページには](:Category:Command_Reference/ja.md)、すべてのFreeCAD [commandsがリストされ文書化されています](Command/ja.md)。 それらのほとんどには、ほとんどまたはまったく情報がありません。 コマンドのドキュメンテーションページがどのように見えるべきかについての良い例については[WikiPagesを参照してください](WikiPages/ja.md)。
+-   _、すべてのFreeCAD [commandsがリストされ文書化されています](Command/ja.md)。 それらのほとんどには、ほとんどまたはまったく情報がありません。 コマンドのドキュメンテーションページがどのように見えるべきかについての良い例については[WikiPagesを参照してください](WikiPages/ja.md)。
 -   [Tutorialsセクションはまだ非常に貧弱です](Tutorials.md)。もしあなたがFreeCADでクールなものを開発したなら、後世の人のためにやったことは文書化すべきです。
--   \'[documentation](https://freecadweb.org/tracker/search.php?tag_string=documentation)\'にタグ付けされたFreeCAD [bugtrackerには](bugtracker.md)、愛を使うことができるオープンチケットがあります。
+-   \'_、愛を使うことができるオープンチケットがあります。
 
 
 </div>
@@ -103,7 +103,7 @@ Translating is easy, the FreeCAD wiki supports a translation plugin which allows
 
 <div class="mw-translate-fuzzy">
 
-[ヘルプ編集ページには](Help:Editing/ja.md)、編集に関する情報がいくつかあります。
+_、編集に関する情報がいくつかあります。
 
 
 </div>
@@ -209,7 +209,7 @@ Writing code for FreeCAD is not hard, and you don\'t need any permission, you ca
 
 
 
-[Category:Documentation](Category:Documentation.md) [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Common Questions](Category:Common_Questions.md)
+_ _ _
 
 ---
-[documentation index](../README.md) > [Command_Reference/ja]]ページには、すべてのFreeCAD ](Category:Command_Reference/ja]]ページには、すべてのFreeCAD .md) > Help FreeCAD/ja
+[documentation index](../README.md) > [Command_Reference/ja]]ページには、すべてのFreeCAD ](Category_Command_Reference/ja]]ページには、すべてのFreeCAD .md) > Help FreeCAD/ja

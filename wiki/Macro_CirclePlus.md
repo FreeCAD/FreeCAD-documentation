@@ -87,7 +87,7 @@ ver 0.0 , 2018-07-10 :
 
 
 
-[Category:Macros Needing Review](Category:Macros_Needing_Review.md)
+_
 
 ---
 [documentation index](../README.md) > Macro CirclePlus

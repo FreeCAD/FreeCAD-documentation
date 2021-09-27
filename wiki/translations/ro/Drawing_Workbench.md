@@ -42,7 +42,7 @@ Unelte pentru crearea, configurarea si exportul foilor de desen 2D
 
 -   Notă **Note:**
 
-Instrumentul [Draft View](Draft_Drawing.md) este utilizat în special pentru a plasa obiecte 2D Draft pe hârtie. Acesta are câteva capabilități adiționale și suportă obiecte specifice ca de ex: [Draft dimensions](Draft_Dimension.md).
+Instrumentul _.
 
 ## Flux de lucru 
 
@@ -81,7 +81,7 @@ Unele note despre partea de programare a modulului de desen vor fi adăugate la 
 
 }} 
 
-[Category:Obsolete Workbenches](Category:Obsolete_Workbenches.md) [Category:Obsolete Workbenches](Category:Obsolete_Workbenches.md)
+_ _
 
 ---
-[documentation index](../README.md) > Drawing Workbench/ro
+[documentation index](../README.md) > [Obsolete Workbenches](Category_Obsolete Workbenches.md) > Drawing Workbench/ro

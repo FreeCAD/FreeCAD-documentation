@@ -36,7 +36,7 @@ Il peut également se lier à des objets imbriqués dans des [Std Parts](Std_Par
 
 ## Propriétés
 
-[PartDesign Sous forme liée](PartDesign_SubShapeBinder/fr.md) est dérivée de [Part Fonctionnalité](Part_Feature/fr.md) (classe `Part::Feature`). En plus des propriétés répertoriées dans [Part Fonctionnalité](Part_Feature/fr.md), les propriétés suivantes sont disponibles dans l\'[Éditeur de propriétés](Property_editor/fr.md).
+_, les propriétés suivantes sont disponibles dans l\'[Éditeur de propriétés](Property_editor/fr.md).
 
 ### Données
 

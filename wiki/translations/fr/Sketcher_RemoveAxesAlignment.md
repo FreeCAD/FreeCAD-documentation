@@ -11,7 +11,7 @@
 
 ## Description
 
-Cet outil supprime les alignements d\'axe (<img alt="" src=images/Sketcher_ConstrainHorizontal.svg  style="width:16px;"> [Horizontal](Sketcher_ConstrainHorizontal/fr.md), <img alt="" src=images/Sketcher_ConstrainVertical.svg  style="width:16px;"> [Vertical](Sketcher_ConstrainVertical/fr.md)) des éléments sélectionnés en essayant de préserver la relation de contrainte.
+Cet outil supprime les alignements d\'axe (<img alt="" src=images/Sketcher_ConstrainHorizontal.svg  style="width:16px;"> _) des éléments sélectionnés en essayant de préserver la relation de contrainte.
 
 ## Utilisation
 

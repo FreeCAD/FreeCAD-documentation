@@ -78,7 +78,7 @@ Některé poznámky k programovací stránce vykreslovacího modulu budou přid�
 
 }} 
 
-[Category:Obsolete Workbenches](Category:Obsolete_Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > Drawing Workbench/cs
+[documentation index](../README.md) > [Obsolete Workbenches](Category_Obsolete Workbenches.md) > Drawing Workbench/cs

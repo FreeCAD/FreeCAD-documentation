@@ -25,7 +25,7 @@ Należy zauważyć, że ścianki tworzą trójkąty, a ich wartości całkowite 
 
  
 
-[Category:File Formats](Category:File_Formats.md)
+_
 
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch JSON/pl
+[documentation index](../README.md) > [File Formats](Category_File Formats.md) > [Arch](Arch_Workbench.md) > Arch JSON/pl

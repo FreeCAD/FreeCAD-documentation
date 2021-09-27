@@ -347,7 +347,7 @@ Questo è il significato dell\'aggettivo \"delicato\" che ho usato precedentemen
 
 }} 
 
-[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Scripts/it
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Scripts/it

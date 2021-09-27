@@ -3,9 +3,9 @@
 
 ## Einführung
 
-Das Haupt Quellcode Verwaltungswerkzeug für das FreeCAD Projekt ist [Git](http://en.wikipedia.org/wiki/Git_%28software%29), das in den meisten Betriebssystemen einfach über einen Paketmanager oder direkt von der Website von [Git](https://git-scm.com/) installiert werden kann. Es wird empfohlen, sich mit Git vertraut zu machen, bevor du direkt mit dem FreeCAD Quellcode arbeitest. Besuche die Seite [Git Dokumentation](https://git-scm.com/doc) für das Referenzhandbuch sowie das [Pro Git Buch](https://git-scm.com/book/en/v2), um zu lernen, das System allgemein zu nutzen. Das vorliegende Dokument konzentriert sich auf die Verwendung von Git für die FreeCAD Entwicklung. Die Kompilierung von FreeCAD ist unter [Kompilieren](Compiling/de.md) beschrieben.
+Das Haupt Quellcode Verwaltungswerkzeug für das FreeCAD Projekt ist _ beschrieben.
 
-Während Git in erster Linie eine Terminalanwendung ist, gibt es viele grafische Anwendungen, die die Arbeit mit Zweigen, das Anwenden von Patches und das Senden von Pull Anfragen an einen Master Zweig erleichtern. Beispiele sind [gitk](https://git-scm.com/docs/gitk) (die erste entwickelte grafische Benutzeroberfläche),[gitg](https://wiki.gnome.org/Apps/Gitg/) (Gnome),[qgit](https://github.com/tibirna/qgit) (Qt), [tig](https://jonas.github.io/tig/) (Ncurses), [git-cola](http://github.com/git-cola/git-cola) und [GitKraken](https://www.gitkraken.com/) (proprietär). Eine kurze Einführung in dieses Werkzeug findest Du unter [Entwicklung von FreeCAD mit GitKraken](Developing_FreeCAD_with_GitKraken/de.md).
+Während Git in erster Linie eine Terminalanwendung ist, gibt es viele grafische Anwendungen, die die Arbeit mit Zweigen, das Anwenden von Patches und das Senden von Pull Anfragen an einen Master Zweig erleichtern. Beispiele sind _.
 
 Hinweis: Wenn dir davon schwindelig wird, gibt es eine sehr gute nicht-technische Serie über die Verwendung von Git und Github mit dem Titel \'[Git und Github für Dichter](https://youtu.be/BCQHnlnPusY)\'.
 
@@ -315,6 +315,8 @@ Use the `rebase` operation with the `--interactive` or `-i` option to select var
 git rebase -i 6394da
 ```
 
+(TIP: If you know how many commits you want to edit, you can use `git rebase -i HEAD~n` to work on the last `n` commits)
+
 The command line editor, like `nano` or `vim`, will open to show you the commits again, now with the older commit on top. Before each commit, the word `pick` will be shown. Delete the word `pick`, and write the word `squash` or just the letter `s` instead, with the exception of the first entry; this commit is the oldest one, so all future commits will be squashed into it.
 
 
@@ -339,6 +341,17 @@ You can use `git log --oneline` again to observe the new commit history. In this
 c83d67 OK, feature B is fully implemented now, with proper module setup, and clean code.
 6394da Feature A
 ```
+
+When coding for FreeCAD, we ask that you begin each commit message with the module that it affects. For example, a commit message for a change to sketcher might be:
+
+    Sketcher: make straight lines curve a bit
+
+    Straight lines are sort of ugly, so this commit adds a little bit of curvature to them, so
+    they are more visually pleasing. They also sparkle some, and change colors over time.
+
+    Fixes bug #1234.
+
+Your PR will be easier to review, and faster to be merged, if you are careful to use rebase to structure and describe your commits before submitting.
 
 ### Pushing your work to your GitHub repository 
 
@@ -420,7 +433,17 @@ git rebase master
 
 Once you have committed your changes locally, rebased your branch from the upstream repository, and pushed your branch online, you can initiate a \"pull request\". A [pull request](https://help.github.com/articles/about-pull-requests/) tells the administrators of the official FreeCAD repository that you want to merge the new code in your branch with the official code.
 
-As soon as you push the code to your `origin` repository {{URLn|https://github.com/GITHUB_USERNAME/FreeCAD}}, GitHub will give you the option of comparing and creating a pull request against the `upstream` repository. By pressing **Compare & pull request** you will open an interface that will allow you to pick which repository is the \"base\", target of the merge, and which is the \"head\", your additional code. A quick check will be done by the system telling you if there are no conflicts with the files that you modified; if you worked on files that nobody has touched, your branch will be able to merge cleanly. In addition, it will show you a text editor so you can write a message documenting your changes; it will also display the number of commits in your branch, the number of files that were modified, and a view showing you the differences between the \"base\" and the \"head\" so that everybody can immediately see your intended modifications.
+To recap, the development process looks like this:
+
+1.  Fork FreeCAD and get a local copy of that fork.
+2.  Create a branch on your fork and change to that branch.
+3.  Code! Commit and much or as little as you like, writing good commit messages to keep track of what you are doing.
+4.  When you are satisfied with your work, use `git rebase -i HEAD~n` (where n is the total number of commits you\'ve made) to collapse your commits into a logical set with good commit messages (each message should begin with the name of the module it affects, e.g. \"Sketcher: make straight lines curve a bit\").
+5.  Use GitHub to submit your code as a \"Pull Request (PR)\" as described below.
+
+As soon as you push the code to your `origin` repository {{URLn|https://github.com/GITHUB_USERNAME/FreeCAD}}, GitHub will give you the option of comparing and creating a pull request against the `upstream` repository. By pressing **Compare & pull request** you will open an interface that will allow you to pick which repository is the \"base\", target of the merge, and which is the \"head\", your additional code. A quick check will be done by the system telling you if there are no conflicts with the files that you modified; if you worked on files that nobody has touched, your branch will be able to merge cleanly.
+
+GitHub will show you a text editor so you can write a message documenting your changes: this editor will be pre-filled with a welcome message (that you can delete), a checklist (that you should go through), and a reminder to document your change on the wiki when it\'s accepted. To use the checklist, go through each item in turn and change the `[ ]` to `[X]` to indicate that you\'ve done that step. GitHub will also display the number of commits in your branch, the number of files that were modified, and a view showing you the differences between the \"base\" and the \"head\" so that everybody can immediately see your intended modifications. Double-check these for things like stray blank lines you didn\'t mean to add, or huge formatting changes that your IDE decided to make behind your back.
 
 
 ```python
@@ -973,7 +996,7 @@ Besuche die Entwicklungsabteilung des [FreeCAD Forum](https://forum.freecadweb.o
 
 
 
-[Category:Developer Documentation](Category:Developer_Documentation.md)
+_
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Source code management/de
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Source code management/de

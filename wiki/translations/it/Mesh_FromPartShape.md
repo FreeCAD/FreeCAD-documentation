@@ -12,7 +12,7 @@ Il comando **Crea mesh da una forma** crea oggetti mesh non parametrici, [Mesh f
 
 </div>
 
-The inverse operation is [Part ShapeFromMesh](Part_ShapeFromMesh.md) from the <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part Workbench](Part_Workbench.md).
+The inverse operation is _.
 
 ## Utilizzo
 

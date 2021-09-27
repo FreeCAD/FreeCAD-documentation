@@ -60,7 +60,7 @@ Scopul acestui explorator este pur și simplu să vă permită să verificați c
 
  
 
-[Category:BIM](Category:BIM.md)
+_
 
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch IfcExplorer/ro
+[documentation index](../README.md) > [BIM](Category_BIM.md) > [Arch](Arch_Workbench.md) > Arch IfcExplorer/ro

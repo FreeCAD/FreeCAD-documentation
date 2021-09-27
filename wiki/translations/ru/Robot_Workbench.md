@@ -73,7 +73,7 @@ The reason this workbench is still in the master source code is because this wor
 
 }} 
 
-[Category:Workbenches](Category:Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > Robot Workbench/ru
+[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Robot Workbench/ru

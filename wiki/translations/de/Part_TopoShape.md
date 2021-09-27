@@ -3,7 +3,7 @@
 
 ## Einführung
 
-Eine [Part TopoForm](Part_TopoShape/de.md), oder formal eine `Part::TopoShape`, ist eine Klasse, die eine parametrische *\'topologische Form* in der Software definiert. Objekte im Dokument, die etwas in der [3D Ansicht](3D_view/de.md) zeigen, haben normalerweise eine TopoForm.
+Eine _ zeigen, haben normalerweise eine TopoForm.
 
 Die topologischen Formen sowie deren Methoden werden durch den [OpenCASCADE Technologie](OpenCASCADE/de.md) Kernel (OCCT) definiert. FreeCAD verwendet diese Formen und baut [Anwendung DokumentObjekte](App_DocumentObject/de.md) um sie herum.
 
@@ -12,7 +12,7 @@ Eine andere Art von Klasse ist die des [Polygonnetzes](Mesh/de.md); diese Klasse
 ![](images/Shape_and_mesh.svg )
 
 
-*Links: parametrische [Part_TopoForm](Part_TopoShape/de.md), definiert durch Eigenschaften. Rechts: nichtparametrisches [Polygonnetz](Mesh/de.md), definiert durch Knoten und und dreieckigen Oberflächen.*
+*Links: parametrische _, definiert durch Knoten und und dreieckigen Oberflächen.*
 
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
 

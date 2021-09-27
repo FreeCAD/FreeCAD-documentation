@@ -249,7 +249,7 @@ Solve automatically if a constraint property is changed : The solver will automa
 
 
 Использовать сплошное объединение для импорта деталей и сборочных узлов: Все импортированные детали будут напрямую объединены в объединение.
-Эта функция полезна для моделирования [FEM](FEM_Workbench.md) или [3D-печать](Manual:Preparing_models_for_3D_printing.md), если разрешено только одно тело. Альтернативой является создание [вида всей сборки](#Shape_of_whole_Assembly.md) позже.
+Эта функция полезна для моделирования _, если разрешено только одно тело. Альтернативой является создание [вида всей сборки](#Shape_of_whole_Assembly.md) позже.
 
 
 </div>
@@ -630,7 +630,7 @@ while AnimationDialog.isVisible():
 
 
 
-[Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+_ _
 
 ---
-[documentation index](../README.md) > A2plus Workbench/ru
+[documentation index](../README.md) > [Addons](Category_Addons.md) > A2plus Workbench/ru

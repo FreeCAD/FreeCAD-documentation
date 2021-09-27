@@ -3,7 +3,7 @@
 
  
 
-In the [SVG](http://en.wikipedia.org/wiki/Scalable_Vector_Graphics) documents exported by FreeCAD\'s [Drawing Workbench](Drawing_Workbench.md) and used as page [templates](Drawing_templates.md), several custom [attributes](http://www.w3schools.com/xml/xml_attributes.asp) can be used, originally for FreeCAD\'s own internal use, but could also be used by other FreeCAD-aware applications in the future. These attributes all use the **freecad:** [namespace](http://www.w3schools.com/xml/xml_namespaces.asp) prefix. The namespace URL defined in those SVG documents refers to this page.
+In the _ and used as page [templates](Drawing_templates.md), several custom [attributes](http://www.w3schools.com/xml/xml_attributes.asp) can be used, originally for FreeCAD\'s own internal use, but could also be used by other FreeCAD-aware applications in the future. These attributes all use the **freecad:** [namespace](http://www.w3schools.com/xml/xml_namespaces.asp) prefix. The namespace URL defined in those SVG documents refers to this page.
 
 ## Usage
 
@@ -51,7 +51,7 @@ Additional information for Working space and Title block may be added, and is de
 
 ## Attributes
 
-### [freecad:EditableText](#Example_of_code_freecad:EditableText.md)
+### _
 
 To use any of the **freecad:** attributes in your SVG documents, you must first define the freecad namespace as an attribute of the opening
 
@@ -94,13 +94,13 @@ Example:
 
 Defines the second point of a [Draft Dimension](Draft_Dimension.md) object (represented as a group in a SVG document). This attribute is used when importing the SVG fragment in FreeCAD, in order to recreate the dimension object. The group contains paths and other graphical items to correctly render the dimension object in other SVG applications.
 
-Example: see [freecad:basepoint1](#freecad:basepoint1.md)
+Example: see _
 
 ### freecad:dimpoint
 
 Defines the point of a [Draft Dimension](Draft_Dimension.md) object through which the dimension line passes. This attribute is used when importing the SVG fragment in FreeCAD, in order to recreate the dimension object. The group contains paths and other graphical items to correctly render the dimension object in other SVG applications.
 
-Example: see [freecad:basepoint1](#freecad:basepoint1.md)
+Example: see _
 
 ### Example of code freecad:EditableText 
 
@@ -271,7 +271,7 @@ See [Drawing templates](Drawing_templates.md)
 
  {{Drawing Tools navi}}
 
-[Category:Poweruser\_Documentation](Category:Poweruser_Documentation.md) [Category:Developer](Category:Developer.md) [Category:Python\_Code](Category:Python_Code.md) [Category:Macros](Category:Macros.md)
+_ _ _ _
 
 ---
-[documentation index](../README.md) > [Poweruser_Documentation](Category:Poweruser_Documentation.md) > Svg Namespace
+[documentation index](../README.md) > [Poweruser_Documentation](Category_Poweruser_Documentation.md) > Svg Namespace

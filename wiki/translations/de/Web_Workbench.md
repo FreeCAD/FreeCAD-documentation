@@ -12,7 +12,7 @@ Von hier aus kannst Du im Web navigieren, auf Verweise (Links) klicken, die Onli
 
 
 
-[Category:Web](Category:Web.md) [Category:Workbenches](Category:Workbenches.md)
+_ _
 
 ---
-[documentation index](../README.md) > Web Workbench/de
+[documentation index](../README.md) > [Web](Category_Web.md) > Web Workbench/de

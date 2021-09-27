@@ -83,6 +83,8 @@ L\'atelier FEM peut être utilisé sur les plates-formes Windows, MacOSX et Linu
 
 -   <img alt="" src=images/FEM_ConstraintTie.svg  style="width:32px;"> [Contrainte de liaison](FEM_ConstraintTie/fr.md) : Utilisé pour définir une contrainte de liaison (\"contact lié\") entre deux faces. {{Version/fr|0.19}}
 
+-   <img alt="" src=images/FEM_ConstraintSpring.svg  style="width:32px;"> [Contrainte de ressort](FEM_ConstraintSpring/fr.md) : utilisé pour définir une contrainte de liaison (\"contact collé\") entre deux faces. {{Version/fr|0.20}}
+
 -   <img alt="" src=images/FEM_ConstraintForce.svg  style="width:32px;"> [Contrainte de force](FEM_ConstraintForce/fr.md) : Utilisé pour définir une force dans \[N\] appliquée uniformément à une face sélectionnable dans une direction définissable.
 
 -   <img alt="" src=images/FEM_ConstraintPressure.svg  style="width:32px;"> [Contrainte de pression](FEM_ConstraintPressure/fr.md) : Permet de définir une contrainte de pression.
@@ -136,6 +138,8 @@ L\'atelier FEM peut être utilisé sur les plates-formes Windows, MacOSX et Linu
 -   <img alt="" src=images/FEM_SolverCalculiX.svg  style="width:32px;"> [Solveur CalculiX (experimental)](FEM_SolverCalculiX/fr.md) :
 
 -   <img alt="" src=images/FEM_SolverElmer.svg  style="width:32px;"> [Solveur Elmer](FEM_SolverElmer/fr.md) : Crée le contrôleur de solveur pour Elmer. Il est indépendant des autres objets du solveur.
+
+-   <img alt="" src=images/FEM_SolverMystran.svg  style="width:32px;"> [Solveur Mystran](FEM_SolverMystran/fr.md):
 
 -   <img alt="" src=images/FEM_SolverZ88.svg  style="width:32px;"> [Solveur Z88](FEM_SolverZ88/fr.md) :
 
@@ -271,7 +275,7 @@ Un guide du développeur a été rédigé pour aider les utilisateurs expérimen
 
 }} 
 
-[Category:Workbenches](Category:Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > FEM Workbench/fr
+[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > FEM Workbench/fr

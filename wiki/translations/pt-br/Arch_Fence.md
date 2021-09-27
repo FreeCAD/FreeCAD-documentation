@@ -106,4 +106,4 @@ Fence = Arch.buildFence(fence_section, post, sketch)
 </div>
 
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Fence/pt-br
+[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch Fence/pt-br

@@ -72,7 +72,7 @@ FreeCAD, gönüllü geliştiriciler ve kullanıcılar topluluğu tarafından kor
 
 
 
-[Category:User Documentation](Category:User_Documentation.md)
+_
 
 ---
-[documentation index](../README.md) > [User Documentation](Category:User Documentation.md) > About FreeCAD/tr
+[documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > About FreeCAD/tr

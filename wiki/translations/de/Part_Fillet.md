@@ -26,7 +26,7 @@ Dieses Werkzeug erzeugt eine Verrundung auf den ausgewählten Kanten eines Objek
 
 ## Formteilverrundung VS. PartDesign Verrundung 
 
-Es gibt ein weiteres Verrundungswerkzeug in der <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign Arbeitsbereich](PartDesign_Workbench/de.md). Bitte beachte, dass ihre Bedienung recht unterschiedlich ist. Siehe sich das <img alt="" src=images/PartDesign_Fillet.svg  style="width:24px;"> [PartDesign Verrundung](PartDesign_Fillet/de.md) Referenzseite für weitere Einzelheiten zu ihren Unterschieden.
+Es gibt ein weiteres Verrundungswerkzeug in der <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> _ Referenzseite für weitere Einzelheiten zu ihren Unterschieden.
 
 ## Hinweise zur Anwendung der Teilverrundung 
 

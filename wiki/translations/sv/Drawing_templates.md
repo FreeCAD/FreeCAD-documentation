@@ -225,7 +225,7 @@ The two lines that FreeCAD will be looking for are \"\$blocks\" and \"\$entities
 
 }} 
 
-[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Documentation](Category:Documentation.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing templates/sv
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Drawing](Drawing_Workbench.md) > Drawing templates/sv

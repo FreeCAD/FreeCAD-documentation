@@ -16,7 +16,7 @@ Lo strumento [Armatura ad U](Arch_Rebar_UShape/it.md) consente all\'utente di cr
 
 The **<img src="images/Arch_Rebar_UShape.svg" width=16px> [UShape Rebar](Arch_Rebar_UShape.md)** tool is also integrated into [BIM Workbench](BIM_Workbench.md).
 
-Questo comando fa parte dell\'ambiente aggiuntivo [Reinforcement](Reinforcement_Workbench/it.md), che si può installare con <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon manager](Addon_Manager/it.md), tramite il menu **Strumenti → Addon manager → Reinforcement**.
+Questo comando fa parte dell\'ambiente aggiuntivo _, tramite il menu **Strumenti → Addon manager → Reinforcement**.
 
 <img alt="" src=images/Arch_Rebar_UShape_example.png  style="width:400px;"> 
 *Due serie di barre di rinforzo a forma di U all'interno di una [Struttura](Arch_Structure/it.md)*
@@ -155,7 +155,7 @@ UShapeRebar.editUShapeRebar(Rebar2, 70, 50, 20, 20,
 
  
 
-[Category:Reinforcement](Category:Reinforcement.md)
+_
 
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Rebar UShape/it
+[documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar UShape/it

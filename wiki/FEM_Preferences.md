@@ -32,7 +32,7 @@ The current supported external solvers are:
 
  {{FEM Tools navi}}  
 
-[Category:Preferences](Category:Preferences.md)
+_
 
 ---
-[documentation index](../README.md) > [Preferences](Category:Preferences.md) > FEM Preferences
+[documentation index](../README.md) > [Preferences](Category_Preferences.md) > FEM Preferences

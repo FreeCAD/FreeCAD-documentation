@@ -8,7 +8,7 @@ If you are not involved with the development discussed here:<br>
 
 {{TOCright}}
 
-Acest șablon este ghidul pentru un proiect de dezvoltare FreeCAD. Aceasta urmează regulile procesului [Getting Things Done (GTD)](http://en.wikipedia.org/wiki/Getting_Things_Done#Methodology). Proiectele sunt colectate în [Development roadmap](Development_roadmap.md).
+Acest șablon este ghidul pentru un proiect de dezvoltare FreeCAD. Aceasta urmează regulile procesului _.
 
 ## Scop și principii 
 
@@ -111,7 +111,7 @@ Aici sunt câteva link uri cu informații:
 
 
 
-[Category:Roadmap](Category:Roadmap.md)
+_
 
 ---
-[documentation index](../README.md) > [Roadmap](Category:Roadmap.md) > STEP project/ro
+[documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > STEP project/ro

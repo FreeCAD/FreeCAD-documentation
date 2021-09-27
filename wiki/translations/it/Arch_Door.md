@@ -30,4 +30,4 @@ Tutte le proprietà sono descritte nello strumento [Finestra](Arch_Window/it.md)
 *Porta costruita da uno [Schizzo](Sketcher_Workbench/it.md)*
 
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Door/it
+[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch Door/it

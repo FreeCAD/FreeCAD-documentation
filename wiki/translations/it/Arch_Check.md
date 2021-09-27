@@ -17,7 +17,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Questo strumento controlla il documento corrente o gli oggetti selezionati alla ricerca di oggetti <img alt="" src=images/_Workbench_Part.svg  style="width:16px;"> [Parte](Part_Workbench/it.md) o <img alt="" src=images/_Workbench_Arch.svg  style="width:16px;"> [Architettura](Arch_Workbench/it.md) non-solidi, che potrebbero dare problemi, poiché la maggior parte delle operazioni del modulo Architettura richiedono oggetti solidi.
+Questo strumento controlla il documento corrente o gli oggetti selezionati alla ricerca di oggetti <img alt="" src=images/_Workbench_Part.svg  style="width:16px;"> _ non-solidi, che potrebbero dare problemi, poiché la maggior parte delle operazioni del modulo Architettura richiedono oggetti solidi.
 
 
 </div>
@@ -75,4 +75,4 @@ print(list_bad)
 </div>
 
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Check/it
+[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch Check/it

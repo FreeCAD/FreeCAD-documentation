@@ -41,7 +41,7 @@ Modulul Draft dispune de un sistem de plan de lucru, care vă permit
         -   [Draft WorkingPlaneProxies](Draft_WorkingPlaneProxy.md): the **View Data** (the camera position) and the **Visibility Map** (the saved visibility of objects) of the working plane proxy are also restored.
         -   [Arch BuildingParts](Arch_BuildingPart.md).
         -   [Arch SectionPlanes](Arch_SectionPlane.md).
-        -   [Std Parts](Std_Part.md): to avoid selecting subelements it is advisable to select these in the [Tree view](Tree_view.md).
+        -   _.
         -   [Part Feature](Part_Feature.md) objects that have a single face. [Part Planes](Part_Plane.md) for example.
         -   Objects that are not [Part Feature](Part_Feature.md) objects and have a **Placement** property.
     -   Select one or more subelements. You can select:

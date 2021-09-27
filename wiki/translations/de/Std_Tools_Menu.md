@@ -67,7 +67,7 @@ Speichert ein Bildschirmfoto der aktiven [3D Ansicht](3D_view/de.md).
 
 }}  
 
-[Category:Workbenches](Category:Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > [Workbenches](Category:Workbenches.md) > Std Tools Menu/de
+[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Std Tools Menu/de

@@ -18,4 +18,4 @@ This tool turns the IfcBrep flag of a selected [Arch](Arch_Workbench.md) object 
 2.  Select the **<img src="images/Arch_ToggleIfcBrepFlag.svg" width=16px>** button, or **Arch** → **Utilities** → **<img src="images/Arch_ToggleIfcBrepFlag.svg" width=16px> [Toggle IfcBrepFlag](Arch_ToggleIfcBrepFlag.md)** from the top menu.
 
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch ToggleIfcBrepFlag/en
+[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch ToggleIfcBrepFlag/en

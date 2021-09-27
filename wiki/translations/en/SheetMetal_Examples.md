@@ -96,7 +96,7 @@ For the second use of **Extend Face** a Sketch with two contours is used for sha
 
 (The pull relief is just an artistic expression of what could be hidden inside a real plug)
 
-[Category:SheetMetal](Category:SheetMetal.md) [Category:Addons](Category:Addons.md) [Category:External Command Reference](Category:External_Command_Reference.md)
+_ _ _
 
 ---
-[documentation index](../README.md) > [SheetMetal](Category:SheetMetal.md) > SheetMetal Examples/en
+[documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > SheetMetal Examples/en

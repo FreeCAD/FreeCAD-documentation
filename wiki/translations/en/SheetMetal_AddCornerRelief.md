@@ -56,7 +56,7 @@ A SheetMetal CornerRelief object is derived from a [Part Feature](Part_Feature.m
 
 
 
-[Category:SheetMetal](Category:SheetMetal.md) [Category:Addons](Category:Addons.md) [Category:External Command Reference](Category:External_Command_Reference.md)
+_ _ _
 
 ---
-[documentation index](../README.md) > [SheetMetal](Category:SheetMetal.md) > SheetMetal AddCornerRelief/en
+[documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > SheetMetal AddCornerRelief/en

@@ -6,7 +6,7 @@ Debian es la distribución madre de la que derivan muchas otras distribuciones d
 
 
 
-[Category:Packaging](Category:Packaging.md) [Category:Developer Documentation](Category:Developer_Documentation.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Packaging](Category:Packaging.md) > Debian development/es
+[documentation index](../README.md) > [Packaging](Category_Packaging.md) > Debian development/es

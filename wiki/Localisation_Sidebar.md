@@ -11,9 +11,9 @@ In the FreeCAD wiki, the sidebar is implemented using templates, which change th
 
 ### Instructions
 
-You can go to the special page [Special:Translate/wiki-sidebar](Special:Translate/wiki-sidebar.md) to begin translation.
+You can go to the special page _ to begin translation.
 
-There is a bug with the Download page. You can\'t redirect the link to \"Download/fr\", or \"Download/de\", etc. Instead, the link will point to the actual translation of \"Download\" in your language. The best way to deal with it is to create this new page and do a redirection to the right page. More about redirection on [Help:Editing](Help:Editing.md).
+There is a bug with the Download page. You can\'t redirect the link to \"Download/fr\", or \"Download/de\", etc. Instead, the link will point to the actual translation of \"Download\" in your language. The best way to deal with it is to create this new page and do a redirection to the right page. More about redirection on _.
 
 ## Important notes 
 
@@ -31,7 +31,7 @@ Do not add the language codes \"/fr\", \"/de\", \"/es\", \"/ru\", etc., if the t
 
  
 
-[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Wiki](Category:Wiki.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Localisation Sidebar
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Localisation Sidebar

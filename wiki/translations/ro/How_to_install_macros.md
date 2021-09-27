@@ -2,7 +2,7 @@
 <div class="mw-translate-fuzzy">
 
 
-{{TutorialInfo/ro|Topic=Programming|Level=Medium programmer|Time=15 minutes|FCVersion=All|Author=[Mario52](User:Mario52.md)}}
+{{TutorialInfo/ro|Topic=Programming|Level=Medium programmer|Time=15 minutes|FCVersion=All|Author=_}}
 
 
 </div>
@@ -468,7 +468,7 @@ Create a new document with **File → <img src="images/Std_New.svg" width=16px> 
 
 <div class="mw-translate-fuzzy">
 
-Download the file compressed here (example) [Macro\_screw\_maker 1.7](http://forum.freecadweb.org/viewtopic.php?f=22&t=6558#p52887). (the page [Macro\_screw\_maker](Macro_screw_maker1_2.md))
+Download the file compressed here (example) _)
 
 
 </div>
@@ -1090,7 +1090,7 @@ and click the **OK** button
 
 }} 
 
-[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > How to install macros/ro
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > How to install macros/ro

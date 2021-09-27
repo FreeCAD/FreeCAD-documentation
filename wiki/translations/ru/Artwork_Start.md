@@ -32,7 +32,7 @@
 
 }} 
 
-[Category:Start](Category:Start.md)
+_
 
 ---
-[documentation index](../README.md) > [Start](Category:Start.md) > Artwork Start/ru
+[documentation index](../README.md) > [Start](Category_Start.md) > Artwork Start/ru

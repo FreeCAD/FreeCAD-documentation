@@ -30,7 +30,7 @@ Der [TechDraw-Arbeitsbereich](TechDraw_Workbench/de.md) wird mit einer Reihe von
 
 }} 
 
-[Category:TechDraw](Category:TechDraw.md)
+_
 
 ---
-[documentation index](../README.md) > [TechDraw](Category:TechDraw.md) > Artwork TechDraw/de
+[documentation index](../README.md) > [TechDraw](Category_TechDraw.md) > Artwork TechDraw/de

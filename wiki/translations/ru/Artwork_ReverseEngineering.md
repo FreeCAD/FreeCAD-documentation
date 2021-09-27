@@ -18,7 +18,7 @@
 
 }} 
 
-[Category:Reverse Engineering](Category:Reverse_Engineering.md)
+_
 
 ---
-[documentation index](../README.md) > [Reverse Engineering](Category:Reverse Engineering.md) > Artwork ReverseEngineering/ru
+[documentation index](../README.md) > [Reverse Engineering](Category_Reverse Engineering.md) > Artwork ReverseEngineering/ru

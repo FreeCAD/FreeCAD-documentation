@@ -43,7 +43,7 @@ Depuis leur apparition dans la v0.17, les objets de référence étaient destin�
 
 }} {{Document objects navi}} 
 
-[Category:Glossary](Category:Glossary.md)
+_
 
 ---
-[documentation index](../README.md) > [Glossary](Category:Glossary.md) > Datum/fr
+[documentation index](../README.md) > [Glossary](Category_Glossary.md) > Datum/fr

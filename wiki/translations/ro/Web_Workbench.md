@@ -18,7 +18,7 @@ Pornind de aici, puteţi parcurge întregul Internet, să vă autentifi
 
 
 
-[Category:Web](Category:Web.md) [Category:Workbenches](Category:Workbenches.md)
+_ _
 
 ---
-[documentation index](../README.md) > Web Workbench/ro
+[documentation index](../README.md) > [Web](Category_Web.md) > Web Workbench/ro

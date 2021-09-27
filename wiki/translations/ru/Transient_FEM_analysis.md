@@ -25,7 +25,7 @@
 5.  Сместите эту деталь на 2 мм по оси Z (через **Placement → Position → z**).
 6.  Выберите оба твердых тела (с помощью клавиши **Shift** + щелчок мышью) и создайте из них <img alt="" src=images/Part_BooleanFragments.svg  style="width:24px;"> [Boolean Fragments](Part_BooleanFragments/ru.md)
 7.  Переименуйте эти логические фрагменты в `биметаллическую полосу`
-8.  В [Редакторе свойств](Property_editor/ru.md) мы меняем режим с **Standard** на **CompSolid**. (Это также должно работать с использованием команды [Part Compound](Part_Compound/ru.md) вместо <img alt="" src=images/Part_BooleanFragments.svg  style="width:24px;"> [Boolean Fragments](Part_BooleanFragments/ru.md), однако с более сложными пересекающимися формами позже могут возникнуть проблемы с анализом МКЭ. Так что лучше сначала привыкнуть к использованию Boolean Fragments.) Результат должен выглядеть следующим образом:
+8.  В _, однако с более сложными пересекающимися формами позже могут возникнуть проблемы с анализом МКЭ. Так что лучше сначала привыкнуть к использованию Boolean Fragments.) Результат должен выглядеть следующим образом:
 
 
 </div>

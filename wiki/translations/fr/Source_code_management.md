@@ -3,9 +3,9 @@
 
 ## Introduction
 
-Le principal outil de gestion de code source du projet FreeCAD est [Git](http://en.wikipedia.org/wiki/Git_%28software%29), qui peut être facilement installé dans la plupart des systèmes d\'exploitation à partir d\'un gestionnaire de paquets ou directement à partir de [Git\'s website](https://git-scm.com/). Nous vous conseillons de vous familiariser avec Git avant de travailler directement avec le code source FreeCAD. Visitez la page [Git documentation](https://git-scm.com/doc) pour obtenir le manuel de référence, ainsi que le [Pro Git book](https://git-scm.com/book/en/v2) pour apprendre à utiliser le système de manière générale. Le présent document porte sur l\'utilisation de Git pour le développement FreeCAD. La compilation de FreeCAD est décrite dans [Compilation](Compiling/fr.md).
+Le principal outil de gestion de code source du projet FreeCAD est _.
 
-Bien que Git soit principalement une application de terminal, il existe de nombreux clients graphiques qui facilitent le travail avec les branches, l'application de correctifs et la soumission de demandes d\'extraction à une branche principale. Les exemples incluent [gitk](https://git-scm.com/docs/gitk) (la première interface graphique développée), [gitg](https://wiki.gnome.org/Apps/Gitg/) (Gnome), [qgit](https://github.com/tibirna/qgit) (Qt), [tig](https://jonas.github.io/tig/) (Ncurses), [git-cola](http://github.com/git-cola/git-cola) et [GitKraken](https://www.gitkraken.com/) (propriétaire). Veuillez consulter [Developing FreeCAD with GitKraken](Developing_FreeCAD_with_GitKraken.md) pour une introduction sommaire à cet outil.
+Bien que Git soit principalement une application de terminal, il existe de nombreux clients graphiques qui facilitent le travail avec les branches, l'application de correctifs et la soumission de demandes d\'extraction à une branche principale. Les exemples incluent _ pour une introduction sommaire à cet outil.
 
 Remarque: si tout cela commence à vous donner le vertige, il existe une très bonne série non technique sur l\'utilisation de git et Github appelée \'[Git et Github pour les poètes](https://youtu.be/BCQHnlnPusY)\'
 
@@ -303,6 +303,8 @@ Utilisez la commande `rebase` avec l\'option `--interactive` ou `-i` pour sélec
 git rebase -i 6394da
 ```
 
+(ASTUCE : Si vous savez combien de commits vous voulez éditer, vous pouvez utiliser `git rebase -i HEAD~n` pour travailler sur les derniers commits `n`)
+
 un éditeur de ligne de commande comme `nano` ou `vim` s\'ouvrira pour vous montrer les \"commits\", mais cette fois avec le plus ancien en haut de la liste. Avant chaque \"commit\", le mot `pick` sera affiché. Supprimez le mot `pick`, et écrivez le mot `squash` ou juste la lettre `s` à la place, à l\'exception de la première entrée; Ce \"commit\" est le plus ancien, donc tous les futurs \"commits\" seront regroupés dans celui-ci.
 
 
@@ -327,6 +329,17 @@ Vous pouvez encore utiliser `git log --oneline` pour observer le nouvel historiq
 c83d67 OK, feature B is fully implemented now, with proper module setup, and clean code.
 6394da Feature A
 ```
+
+Lorsque vous codez pour FreeCAD, nous vous demandons de commencer chaque message de validation par le module qu\'il affecte. Par exemple, un message de validation pour une modification de sketcher pourrait être :
+
+    Sketcher: make straight lines curve a bit
+
+    Straight lines are sort of ugly, so this commit adds a little bit of curvature to them, so
+    they are more visually pleasing. They also sparkle some, and change colors over time.
+
+    Fixes bug #1234.
+
+Votre PR sera plus facile à réviser et plus rapide à être fusionné, si vous prenez soin d\'utiliser rebase pour structurer et décrire vos commits avant de les soumettre.
 
 ### Publication de votre travail sur votre dépôt GitHub 
 
@@ -408,7 +421,17 @@ git rebase master
 
 Une fois que vous avez validé vos modifications, \"mis à jour\" votre branche à partir du dépôt principal et \"poussé\" votre branche sur le serveur, vous pouvez initier un \"pull request\". Un \"[pull request](https://help.github.com/articles/about-pull-requests/)\" informe les administrateurs du dépôt officiel de FreeCAD que vous souhaitez fusionner le nouveau code de votre branche avec le code officiel.
 
-Dès que vous transmettez le code à votre référentiel `origin` {{URLn|https://github.com/GITHUB_USERNAME/FreeCAD}}, GitHub vous offre la possibilité de comparer et de créer une demande d\'extraction par rapport au Référentiel `upstream`. En appuyant sur le bouton **Compare & pull request**, vous ouvrirez une interface qui vous permettra de choisir quel référentiel est la \"base\", cible de la fusion, et quelle est la \"tête\", de votre code supplémentaire. Une vérification rapide sera effectuée par le système vous indiquant s\'il n\'y a pas de conflit avec les fichiers que vous avez modifiés; si vous avez travaillé sur des fichiers que personne n\'a touchés, votre branche pourra fusionner proprement. De plus, il vous montrera un éditeur de texte afin que vous puissiez écrire un message documentant vos modifications. il affichera également le nombre de commits dans votre branche, le nombre de fichiers modifiés et une vue indiquant les différences entre la \"base\" et la \"tête\", afin que tout le monde puisse voir immédiatement les modifications que vous souhaitez apporter.
+Pour résumer, le processus de développement ressemble à ceci :
+
+1.  Forkez FreeCAD et faites une copie locale de ce fork.
+2.  Créez une branche sur votre fork et passez à cette branche.
+3.  Codez ! Commencez à coder autant ou aussi peu que vous le souhaitez, en écrivant de bons messages de validation pour garder une trace de ce que vous faites.
+4.  Lorsque vous êtes satisfait de votre travail, utilisez `git rebase -i HEAD~n` (où n est le nombre total de commits que vous avez fait) pour réduire vos commits en un ensemble logique avec de bons messages de commit (chaque message doit commencer par le nom du module qu\'il affecte, par exemple \"Sketcher : make straight lines curve a bit\").
+5.  Utilisez GitHub pour soumettre votre code en tant que \"Pull Request (PR)\" comme décrit ci-dessous.
+
+Dès que vous transmettez le code à votre référentiel `origin` {{URLn|https://github.com/GITHUB_USERNAME/FreeCAD}}, GitHub vous offre la possibilité de comparer et de créer une demande d\'extraction par rapport au Référentiel `upstream`. En appuyant sur le bouton **Compare & pull request**, vous ouvrirez une interface qui vous permettra de choisir quel référentiel est la \"base\", cible de la fusion, et quelle est la \"tête\", de votre code supplémentaire. Une vérification rapide sera effectuée par le système vous indiquant s\'il n\'y a pas de conflit avec les fichiers que vous avez modifiés; si vous avez travaillé sur des fichiers que personne n\'a touchés, votre branche pourra fusionner proprement.
+
+GitHub vous montrera un éditeur de texte pour que vous puissiez écrire un message documentant vos modifications : cet éditeur sera pré-rempli avec un message de bienvenue (que vous pouvez supprimer), une liste de contrôle (que vous devez parcourir) et un rappel pour documenter votre modification sur le wiki lorsqu\'elle est acceptée. Pour utiliser la liste de contrôle, passez en revue chaque élément et remplacez `[ ]` par `[X]` pour indiquer que vous avez effectué cette étape. GitHub affichera également le nombre de commits dans votre branche, le nombre de fichiers qui ont été modifiés, ainsi qu\'une vue vous montrant les différences entre la \"base\" et la \"head\" afin que tout le monde puisse immédiatement voir les modifications prévues. Vérifiez que vous n\'avez pas oublié d\'ajouter des lignes vides ou que votre IDE n\'a pas décidé d\'effectuer d\'énormes changements de formatage par devers vous.
 
 
 ```python
@@ -961,7 +984,7 @@ Dirigez vous vers la section de développement du [forum FreeCAD](https://forum.
 
 
 
-[Category:Developer Documentation](Category:Developer_Documentation.md)
+_
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Source code management/fr
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Source code management/fr

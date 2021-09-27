@@ -207,7 +207,7 @@ Supponendo che il pacchetto di installazione si trovi nella directory \"software
 msiexec /i Y:\\software\\FreeCAD<version>.msi
 ```
 
-FreeCAD viene eseguito, ma è stato riferito che OpenGL non funziona, come succede con altri programmi che girano sotto [http://es.wikipedia.org/wiki/Wine Wine](http://es.wikipedia.org/wiki/Wine_Wine.md), quali ad esempio [Google SketchUp](http://es.wikipedia.org/wiki/Google_SketchUp.md).
+FreeCAD viene eseguito, ma è stato riferito che OpenGL non funziona, come succede con altri programmi che girano sotto _, quali ad esempio _.
 
 
 {{docnav/it

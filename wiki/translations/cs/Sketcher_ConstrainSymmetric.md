@@ -1,6 +1,6 @@
 # Sketcher ConstrainSymmetric/cs
 ---
-- GuiCommand:/cs   Name:Constraint Symmetric   Name/cs:Constraint Symmetric   Workbenches:[Návrh dílu](Sketcher_Workbench/cs___Náčrt]],_[[PartDesign_Workbench/cs.md)|MenuLocation:Sketch → Sketcher constraints → Constrain symmetrical   SeeAlso:[Vazba rovnoběžnosti](Constraint_Parallel/cs.md)---
+- GuiCommand:/cs   Name:Constraint Symmetric   Name/cs:Constraint Symmetric   Workbenches:_---
 
 
 </div>

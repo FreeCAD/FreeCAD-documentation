@@ -280,8 +280,7 @@ Vous pouvez les activer en sélectionnant le bouton **<img src="images/Assembly_
 :   Les différents cadres colorés marquent différentes caractéristiques des contraintes :
 
     :   si 2D/3D ou si plus de 2 éléments peuvent être ajoutés.
-
-Une description détaillée peut être trouvée dans le wiki Github.
+:   Une description détaillée peut être trouvée dans le wiki Github.
 
 #### Barre d\'outils de navigation 
 
@@ -451,8 +450,8 @@ Il existe de nombreuses façons de créer un assemblage avec Assembly3. Voici la
 -   Changez pour l\'atelier <img alt="" src=images/Assembly3_workbench_icon.svg  style="width:16px;"> [Assembly3](Assembly3_Workbench/fr.md).
 -   Sélectionnez **<img src="images/Assembly_New_Assembly.svg" width=16px> [Create assembly](Assembly3_CreateAssembly/fr.md)
 **
--   Changez pour l\'atelier <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> [Part](Part_Workbench/fr.md) et ajoutez un <img alt="" src=images/Part_Cylinder.svg  style="width:16px;"> [Cylindre](Part_Cylinder/fr.md) et une <img alt="" src=images/Part_Box.svg  style="width:16px;"> [Cube](Part_Box/fr.md)
--   <img alt="" src=images/Std_Save.svg  style="width:16px;"> [Sauvegardez](Std_Save/fr.md) le fichier avec le nom que vous voulez. <img alt="" src=images/Std_CloseActiveWindow.svg  style="width:16px;"> [Fermez](Std_CloseActiveWindow/fr.md) et <img alt="" src=images/Std_Open.svg  style="width:16px;"> [Ouvrez](Std_Open/fr.md) le fichier de nouveau.
+-   Changez pour l\'atelier <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> _ et une <img alt="" src=images/Part_Box.svg  style="width:16px;"> [Cube](Part_Box/fr.md)
+-   <img alt="" src=images/Std_Save.svg  style="width:16px;"> _ et <img alt="" src=images/Std_Open.svg  style="width:16px;"> [Ouvrez](Std_Open/fr.md) le fichier de nouveau.
 
 L\'arborescence devrait ressembler à ceci (0.20.pre et Link Branch) :
 
@@ -488,7 +487,10 @@ L\'arbre d\'assemblage terminé devrait ressembler à (0.20.pre et Link Branch) 
 
 Si vous le souhaitez, vous pouvez déplacer la contrainte *Verrouillé* vers le haut de l\'arbre. Utilisez le bouton **<img src="images/Assembly_TreeItemUp.svg‎‎" width=16px> [Move item up](Assembly3_MoveItemUp/fr.md)** sur la [Barre d\'outils principale](#Barre_d.27outils_principale.md) pour cela.
 
-**Remarque :** tous les nouveaux fichiers externes doivent être **enregistrés, fermés et rouverts** au moins une fois pour que Assembly3 puisse les trouver. Sans cela, FreeCAD ne peut pas donner de descripteur de fichier à l\'atelier Assembly3 et il ne peut pas trouver la nouvelle pièce. Lorsque toutes les pièces sont dans le même fichier, vous devez **enregistrer et rouvrir** le fichier.
+**Remarque :** tous les nouveaux fichiers externes doivent être **enregistrés**, **fermés** et **ouverts** au moins une fois, afin que Assembly3 puisse les trouver.
+
+:   Sans cela, FreeCAD ne peut pas donner un handle de fichier à l\'Assembly3 Workbench et celui-ci ne peut pas trouver la nouvelle pièce.
+:   Lorsque toutes les pièces sont dans le même fichier, vous devez **sauvegarder**, **fermer** et ré-**ouvrir** ce fichier également.
 
 [En haut](#top.md)
 
@@ -594,7 +596,7 @@ Une façon de résoudre ce problème consiste simplement à supprimer toutes les
 
 
 
-[Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+_ _
 
 ---
-[documentation index](../README.md) > Assembly3 Workbench/fr
+[documentation index](../README.md) > [Addons](Category_Addons.md) > Assembly3 Workbench/fr

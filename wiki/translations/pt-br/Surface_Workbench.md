@@ -14,7 +14,7 @@
 
 ## Introdução
 
-A bancada de trabalho Superfície foi introduzida no FreeCAD 0.17 e fornece ferramentas para criar e modificar [NURBS surfaces](https://en.wikipedia.org/wiki/Non-uniform_rational_B-spline) simples. Essas ferramentas tem uma funcionalidade similar à ferramenta [Part Shapebuilder](Part_Shapebuilder/pt-br.md) quando as opções \"Faces das bordas\" são utilizadas. Entretanto, ao contrário dessa ferramenta, as ferramentas da bancada Superfície são paramétricas e fornecem opções adicionais. Quanto a isso, as ferramentas nesta bancada são similares a recursos como [PartDesign AdditiveLoft](PartDesign_AdditiveLoft/pt-br.md) e [PartDesign AdditivePipe](PartDesign_AdditivePipe/pt-br.md).
+A bancada de trabalho Superfície foi introduzida no FreeCAD 0.17 e fornece ferramentas para criar e modificar _ quando as opções \"Faces das bordas\" são utilizadas. Entretanto, ao contrário dessa ferramenta, as ferramentas da bancada Superfície são paramétricas e fornecem opções adicionais. Quanto a isso, as ferramentas nesta bancada são similares a recursos como [PartDesign AdditiveLoft](PartDesign_AdditiveLoft/pt-br.md) e [PartDesign AdditivePipe](PartDesign_AdditivePipe/pt-br.md).
 
 Alguns dos recursos disponíveis são:
 
@@ -37,7 +37,7 @@ A bancada de trabalho Superfície tem por objetivo criar faces com formas, o que
 
 A bancada Superfície se integra com outras bancadas do FreeCAD. O exemplo acima foi criado a partir de [esboços](Sketcher_Workbench/pt-br.md) colocado sobre [planos de referência](PartDesign_Plane/pt-br.md) na [Bancada PartDesign](PartDesign_Workbench/pt-br.md). O projeto pode ser totalmente paramétrico, quando todos os planos de referência e esboços são definidos de acordo. Na maioria dos casos é suficiente desejar um esboço fechado para definir a borda para uma face; então, opções estão disponíveis para modificar ainda mais sua forma.
 
-The generated surface cannot be placed inside a **<img src=images/PartDesign_Body.svg style="width:16px"> <img src=images/Std_Part.svg style="width:PartDesign Body](PartDesign_Body.md)**. However, the generated surface can be contained inside a **[16px"> <img src=images/PartDesign_Body.svg style="width:Std Part](Std_Part.md)** together with the associated **[16px"> <img src=images/Part_Builder.svg style="width:PartDesign Body](PartDesign_Body.md)** that holds the datum planes and sketches. The non-parametric **[16px"> [Part Builder](Part_Builder.md)** tool can then be used in order to create a [shell](Glossary#Shell.md) and finally a [solid](Glossary#Solid.md).
+The generated surface cannot be placed inside a **<img src=images/PartDesign_Body.svg style="width:16px"> <img src=images/Std_Part.svg style="width:PartDesign Body](PartDesign_Body.md)**. However, the generated surface can be contained inside a **_** that holds the datum planes and sketches. The non-parametric **[16px"> [Part Builder](Part_Builder.md)** tool can then be used in order to create a [shell](Glossary#Shell.md) and finally a [solid](Glossary#Solid.md).
 
 ## Ferramentas da bancada Superfície 
 
@@ -50,7 +50,7 @@ The generated surface cannot be placed inside a **<img src=images/PartDesign_Bod
 
 -   <img alt="" src=images/Surface_ExtendFace.svg  style="width:32px;"> [Extend face](Surface_ExtendFace.md): extrapolates the surface at the boundaries with its local U parameter and V parameter.
 
--   <img alt="" src=images/Surface_CurveOnMesh.svg  style="width:32px;"> [Curve on mesh](Surface_CurveOnMesh.md): create approximated spline segments on top of a selected [mesh](Mesh_Workbench.md).
+-   <img alt="" src=images/Surface_CurveOnMesh.svg  style="width:32px;"> _.
 
 
 <div class="mw-translate-fuzzy">
@@ -66,7 +66,7 @@ The generated surface cannot be placed inside a **<img src=images/PartDesign_Bod
 
 }} 
 
-[Category:Workbenches](Category:Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > Surface Workbench/pt-br
+[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Surface Workbench/pt-br

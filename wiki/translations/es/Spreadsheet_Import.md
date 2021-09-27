@@ -15,7 +15,7 @@
 
 ## Descripción
 
-El herramienta **<img src=images/Spreadsheet_Import.svg style="width:16px"> [Importación de hojas de cálculo](Spreadsheet_Import/es.md)** permite importar un archivo de valores separados por tabulaciones (denominado vagamente CSV) (inglés: valores separados por comas) a una hoja de cálculo para poder modificarlo y utilizarlo con [expresiones](expressions/es.md).
+El herramienta **<img src=images/Spreadsheet_Import.svg style="width:16px"> _.
 
 ## Utilización
 

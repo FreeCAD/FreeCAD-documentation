@@ -30,7 +30,7 @@ Esta herramienta crea redondeos en las aristas seleccionadas de un objeto. Se cr
 
 ## Redondeo DiseñoPiezas VS. Redondeo Piezas 
 
-<img alt="" src=images/PartDesign_Fillet.svg  style="width:24px;"> [Redondeo DiseñoPiezas](PartDesign_Fillet/es.md) no debe confundirse con el **<img alt="" src=images/Part_Fillet.svg  style="width:24px;"> [Redondeo Piezas](Part_Fillet/es.md)** de la [Ambiente de trabajo Piezas](Part_Workbench/es.md). Aunque comparten el mismo nombre, no son iguales y no se usan de la misma manera.
+<img alt="" src=images/PartDesign_Fillet.svg  style="width:24px;"> _** de la [Ambiente de trabajo Piezas](Part_Workbench/es.md). Aunque comparten el mismo nombre, no son iguales y no se usan de la misma manera.
 
 Aquí puedes ver las diferencias entre ambos:
 
@@ -87,7 +87,7 @@ Lea más en [problema de denominación topológica](topological_naming_problem/e
 
 <div class="mw-translate-fuzzy">
 
-La herramienta **[16px|text-top=Fillet|link=PartDesign_Fillet](File:PartDesign_Fillet.svg.md) [Redondeo](PartDesign_Fillet/es.md)** puede ser usada en una macro, y, desde la consola Python usando la siguiente función :
+La herramienta **_ [Redondeo](PartDesign_Fillet/es.md)** puede ser usada en una macro, y, desde la consola Python usando la siguiente función :
 
 
 </div>

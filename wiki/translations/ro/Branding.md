@@ -141,7 +141,7 @@ Toate etichetele enumerate sunt opționale.
 
 
 
-[Category:Developer Documentation](Category:Developer_Documentation.md)
+_
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Branding/ro
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Branding/ro

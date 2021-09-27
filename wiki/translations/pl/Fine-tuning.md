@@ -11,21 +11,24 @@ Jednak możliwy jest również dostęp, modyfikacja i ręczne tworzenie parametr
 
 Poniższa lista przedstawia parametry, które nie są dostępne za pośrednictwem edytora preferencji, ale które można ustawić ręcznie *(w **BaseApp/Preferencje**)*:
 
--   **Bitmaps/Theme/ThemeSearchPaths** (boolean): Ustaw wartość opcji na `False` aby FreeCAD używał dołączonych ikon zamiast systemowego motywu ikon w Linuksie.
--   **DockWindows/TreeView/Enabled** *(boolean)*: Ustaw wartość opcji na `True` aby umożliwić dokowanie widżetu [Widok drzewa](Document_structure/pl.md) niezależnie od Widoku Połączonego. Po zmianie wartości parametru potrzebny jest restart programu FreeCAD, aby widżet był dostępny na liście Panelu - Widok połączony.
--   **DockWindows/PropertyView/Enabled** *(boolean)*: Ustaw wartość opcji na `True` aby umożliwić dokowanie widżetu [Widok właściwości](Property_editor/pl.md) niezależnie od Widoku Połączonego. Po zmianie wartości parametru potrzebny jest restart programu FreeCAD, aby widżet był dostępny na liście Panelu - Widok.
--   **DockWindows/DAGView/Enabled** *(boolean)*: Ustaw opcje na `True` aby włączyć wersję testową dokowanego widżetu [DAG view](DAG_view.md). Po zmianie wartości parametru potrzebny jest restart programu FreeCAD, aby widżet był dostępny na liście Panelu - Widok.
+-   **Bitmaps/Theme/ThemeSearchPaths** *(boolean)*: Ustaw wartość opcji na {{FALSE/pl}} aby FreeCAD używał dołączonych ikon zamiast systemowego motywu ikon w Linuksie.
+-   **DockWindows/TreeView/Enabled** *(boolean)*: Ustaw wartość opcji na {{TRUE/pl}} aby umożliwić dokowanie widżetu [Widok drzewa](Document_structure/pl.md) niezależnie od Widoku Połączonego. Po zmianie wartości parametru potrzebny jest restart programu FreeCAD, aby widżet był dostępny na liście Panelu - Widok połączony.
+-   **DockWindows/PropertyView/Enabled** *(boolean)*: Ustaw wartość opcji na {{TRUE/pl}} aby umożliwić dokowanie widżetu [Widok właściwości](Property_editor/pl.md) niezależnie od Widoku Połączonego. Po zmianie wartości parametru potrzebny jest restart programu FreeCAD, aby widżet był dostępny na liście Panelu - Widok.
+-   **DockWindows/DAGView/Enabled** *(boolean)*: Ustaw opcje na {{TRUE/pl}} aby włączyć wersję testową dokowanego widżetu [DAG view](DAG_view/pl.md). Po zmianie wartości parametru potrzebny jest restart programu FreeCAD, aby widżet był dostępny na liście Panelu - Widok.
 -   **Document/ChangeViewProviderTouchDocument** *(boolean)*: Ustaw wartość opcji na `False` aby zmiany widoczności elementów nie oznaczały dokumentu jako zmodyfikowany.
--   **Document/SaveThumbnailFix** *(boolean)*: Ustaw wartość opcji na `True` aby naprawić problem z Qt5, który uniemożliwia generowanie miniaturek plików `.FCStd`.
--   **General/RecentIncludesExported** *(boolean)*: Ustaw wartość opcji na `True` to include exported files in the Recent Files list. Defaults to `False`.
--   **General/RecentIncludesImported** *(boolean)*: Ustaw wartość opcji na `False` to exclude imported files from the Recent Files list. Defaults to `True`.
+-   **Document/SaveThumbnailFix** *(boolean)*: Ustaw wartość opcji na {{TRUE/pl}} aby naprawić problem z Qt5, który uniemożliwia generowanie miniaturek plików `.FCStd`.
+-   **General/RecentIncludesExported** *(boolean)*: Ustaw wartość opcji na {{TRUE/pl}} to include exported files in the Recent Files list. Defaults to {{FALSE/pl}}.
+-   **General/RecentIncludesImported** *(boolean)*: Ustaw wartość opcji na {{FALSE/pl}} to exclude imported files from the Recent Files list. Defaults to {{TRUE/pl}}.
+-   **Macro/DuplicateFrom001** *(boolean)*: Set to {{TRUE/pl}} to always begin searching for suggested duplicate macro filename with \@001 instead of current \@NNN, if applicable. Defaults to `False`.
+-   **Macro/DuplicateIgnoreExtraNote** *(boolean)*: Ustaw wartość na {{TRUE/pl}}, aby zignorować dodatkową notatkę podczas sugerowania zduplikowanej nazwy pliku makra. Dodatkowa uwaga to tekst w nazwie pliku po \"\@NNN\" i przed \".FCMacro\". Przykład: \"my\_macro\@005.my\_note.FCMacro\". Jeżeli ustawiono wartość {{TRUE/pl}}, następną sugerowaną nazwą pliku będzie \"my\_macro\@006.FCMacro\". Jeżeli {{FALSE/pl}}, to następną sugerowaną nazwą pliku jest \"my\_macro\@006.my\_note.FCMacro\". Aby tekst został rozpoznany jako dodatkowa notatka, powinien zaczynać się od kropki (\".\") po członie \"\@NNN\". W przeciwnym razie, na przykład \"my\_macro\@006\_my\_note.FCMacro\" otrzyma \"my\_macro\@006\_my\_note\@001.FCMacro\" jako sugerowaną nową nazwę pliku, co może być pożądane w niektórych przypadkach. Domyślną wartością jest {{FALSE/pl}}.
+-   **Macro/ReplaceSpaces** *(boolean)*: Ustaw wartość na {{FALSE/pl}}, jeśli nie chcesz, aby spacje w nazwach plików były automatycznie zamieniane na podkreślenia podczas tworzenia, zmiany nazwy lub powielania makra. Nie ma to wpływu na istniejące pliki, ma znaczenie tylko przy tworzeniu nowego pliku, zmianie nazwy lub powielaniu istniejącego. Domyślną wartością jest {{TRUE/pl}}.
 -   **Mod/Draft/defaultCameraHeight** *(int)*: Ustawia wysokość kamery, gdy w pustym dokumencie Draft zostanie uruchomiona edycja projektu. Wartość 0 wyłącz, wartość domyślna FreeCAD to 5, dobra przy pracy w milimetrach, dobra wysokość przy pracy w Środowisku pracy Arch to 4500.
--   **Mod/Part/ParametricRefine** *(boolean)*: Ustaw wartość opcji na `False`, aby funkcja [udoskonal kształt](Part_RefineShape/pl.md) utworzyła niezależną kopię, a nie linkowaną. Domyślną wartością jest `True` jeśli wartość nie jest dostępna.
--   **Mod/PartDesign/AdditiveHelixPreview** *(boolean)*: Ustaw wartość opcji na `True` aby zapewnić, że helisa addytywna, która nie przecina ciała, jest widoczna w podglądzie. Domyślną wartością jest `False`.
--   **Mod/PartDesign/SubtractiveHelixPreview** *(boolean)*: Ustaw wartość opcji na `True` aby upewnić się, że helisa odejmowana, która nie przecina ciała, jest widoczna w podglądzie. Wartością domyślną jest `True`.
--   **Mod/PartDesign/SwitchToTask** *(boolean)*: Ustaw wartość opcji na `False`, aby uniemożliwić przełączenie na panel zadań podczas uruchamiania Środowiska pracy [Projekt części](PartDesign_Workbench/pl.md). Wartością domyślną jest `True`, jeśli wartość nie jest dostępna.
--   **Mod/PartDesign/SwitchToWB** *(boolean)*: Ustaw wartość opcji na `False`, aby zapobiec automatycznemu wywołaniu Środowiska pracy [Projekt części](PartDesign_Workbench/pl.md), gdy aktywowana jest opcja [zawartość](PartDesign_Body/pl.md). Wartością domyślną jest `True`, jeśli wartość nie jest dostępna.
--   **PropertyView/AutoTransactionView** *(boolean)*: Ustaw wartość opcji na `True` więc zmiany właściwości zakładki Widok są dodawane do stosu Cofnij *(stąd są cofane)*. Domyślną wartością jest `False`.
+-   **Mod/Part/ParametricRefine** *(boolean)*: Ustaw wartość opcji na {{FALSE/pl}}, aby funkcja [udoskonal kształt](Part_RefineShape/pl.md) utworzyła niezależną kopię, a nie linkowaną. Domyślną wartością jest {{TRUE/pl}} jeśli wartość nie jest dostępna.
+-   **Mod/PartDesign/AdditiveHelixPreview** *(boolean)*: Ustaw wartość opcji na {{TRUE/pl}} aby zapewnić, że helisa addytywna, która nie przecina ciała, jest widoczna w podglądzie. Domyślną wartością jest {{FALSE/pl}}.
+-   **Mod/PartDesign/SubtractiveHelixPreview** *(boolean)*: Ustaw wartość opcji na {{TRUE/pl}} aby upewnić się, że helisa odejmowana, która nie przecina ciała, jest widoczna w podglądzie. Wartością domyślną jest {{TRUE/pl}}.
+-   **Mod/PartDesign/SwitchToTask** *(boolean)*: Ustaw wartość opcji na {{FALSE/pl}}, aby uniemożliwić przełączenie na panel zadań podczas uruchamiania Środowiska pracy [Projekt części](PartDesign_Workbench/pl.md). Wartością domyślną jest {{TRUE/pl}}, jeśli wartość nie jest dostępna.
+-   **Mod/PartDesign/SwitchToWB** *(boolean)*: Ustaw wartość opcji na {{FALSE/pl}}, aby zapobiec automatycznemu wywołaniu Środowiska pracy [Projekt części](PartDesign_Workbench/pl.md), gdy aktywowana jest opcja [zawartość](PartDesign_Body/pl.md). Wartością domyślną jest {{TRUE/pl}}, jeśli wartość nie jest dostępna.
+-   **PropertyView/AutoTransactionView** *(boolean)*: Ustaw wartość opcji na {{TRUE/pl}} więc zmiany właściwości zakładki Widok są dodawane do stosu Cofnij *(stąd są cofane)*. Domyślną wartością jest {{FALSE/pl}}.
 -   **View/NavigationDebug** *(boolean)*: Włącza debugowanie stylów nawigacji *(od wersji v0.19 tylko styl nawigacji Gesture ma coś do powiedzenia)*.
 -   **View/NavigationDebug** *(boolean)*: Udostępnia możliwość debugowania stylów nawigacji *(od v0.19, tylko styl nawigacji Gesture znajduje zastosowanie)*.
 -   **View/SavePicture** *(string)*: Ustaw wartość opcji na **FramebufferObject**, **PixelBuffer** lub **CoinOffscreenRenderer** dla różnych metod tworzenia obrazów w oknie widoku 3D.
@@ -58,7 +61,7 @@ Wszelkie inne znaki traktowane są dosłownie. Jeśli wynikowa nazwa pliku jest 
 
 ### Klawisz ESC 
 
--   **General/TasksKeyEsc** *(boolean)*: Utwórz i ustaw wartość na `False`, aby wyłączyć wychodzenie klawiszem **ESC** z [Panelu zadań](Task_panel/pl.md) we wszystkich środowiskach pracy *(to znaczy, jeśli panel zadań jest aktywny)*. **Uwaga:** Zastąpiono przez [Preferencje szkicownika](Sketcher_Preferences/pl#Og.C3.B3lne.md).
+-   **General/TasksKeyEsc** *(boolean)*: Utwórz i ustaw wartość na `False`, aby wyłączyć wychodzenie klawiszem **ESC** z _.
 -   **Mod/Sketcher/ViewKeyEsc** *(boolean)*: Utwórz i ustaw wartość na `False`, aby wyłączyć problemy z klawiszami **ESC** przy naciskaniu od jednego do wielu razy, podczas wychodzenia z trybu kontynuacji tworzenia geometrii / wiązań szkicownika.
     -   Źródło: [wątek na forum](https://forum.freecadweb.org/viewtopic.php?f=3&t=42207&start=60#p367584)
 
@@ -80,7 +83,7 @@ Ustawienia ukryte\|Tech Draw: Preferencje\]\].
 
 
 
-[Category:Developer Documentation](Category:Developer_Documentation.md)
+_
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Fine-tuning/pl
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Fine-tuning/pl

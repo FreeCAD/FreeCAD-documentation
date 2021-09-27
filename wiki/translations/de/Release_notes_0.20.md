@@ -39,7 +39,13 @@ Weitere Neuigkeiten zur Entwicklung:
 
 ### Dokumentation
 
+
+<div class="mw-translate-fuzzy">
+
 ### Bekannte Begrenzungen 
+
+
+</div>
 
 ## Benutzeroberfläche
 
@@ -68,7 +74,13 @@ Weitere Neuigkeiten zur Entwicklung:
   ![](images/Std_UserEditMode_relnotes_0.20.gif )   The new [Std UserEditMode](Std_UserEditMode.md) command allows the user to choose an edit mode that will be used when an object is double-clicked in the [Tree view](Tree_view.md). If a selected edit mode is not applicable, the object\'s default edit mode is used instead.
   ------------------------------------------------------------------------------ -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+
+<div class="mw-translate-fuzzy">
+
 ### Weitere Verbesserungen der Benutzeroberfläche 
+
+
+</div>
 
 -   Es ist nun möglich, die Ansicht des [Abhängigkeitsgraphen](Std_DependencyGraph/de.md) mit der Maus zu verschieben. [Forumsdiskussion](https://forum.freecadweb.org/viewtopic.php?f=3&t=34791), [pull request \#4638](https://github.com/FreeCAD/FreeCAD/pull/4638).
 -   Es wurde ein Problem behoben, bei dem die Verwendung eines Stifttabletts (z.B. Wacom Tablett) so langsam war, dass es völlig unbrauchbar wurde. [Forumsdiskussion](https://forum.freecadweb.org/viewtopic.php?f=8&t=45046), [pull request \#4687](https://github.com/FreeCAD/FreeCAD/pull/4687).
@@ -93,9 +105,21 @@ Weitere Neuigkeiten zur Entwicklung:
 
 ## Arbeitsbereich Entwurf 
 
+
+<div class="mw-translate-fuzzy">
+
 ### Weitere Entwurf Verbesserungen 
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   Es ist nun möglich, einen [Entwurf Draht](Draft_Wire/de.md) über das [Entwurf Bearbeiten](Draft_Edit/de.md) Kontextmenü umzukehren. [Forumsdiskussion](https://forum.freecadweb.org/viewtopic.php?f=23&t=58643&start=20), [pull request \#4811](https://github.com/FreeCAD/FreeCAD/pull/4811).
+
+
+</div>
 
 ## Arbeitsbereich FEM 
 
@@ -110,13 +134,22 @@ Weitere Neuigkeiten zur Entwicklung:
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 ### Weitere FEM Verbesserungen 
 
+
+</div>
+
+-   A new solver was added: **Solve → <img src=images/FEM_SolverMystran.svg style="width:16px"> [Solver Mystran](FEM_SolverMystran.md)**. Multiple commits.
+-   A new constraint was added: **Model → Geometrical Constraints → <img src=images/FEM_ConstraintSpring.svg style="width:16px"> [Constraint Spring](FEM_ConstraintSpring.md)**. [PR \#4982](https://github.com/FreeCAD/FreeCAD/pull/4982)
 -   The element order of [Gmsh](FEM_MeshGmshFromShape.md) meshes can be changed via the mesh dialog. [PR \#4660](https://github.com/FreeCAD/FreeCAD/pull/4660)
 -   Material cards can now contain values for the electrical conductivity. [PR \#4647](https://github.com/FreeCAD/FreeCAD/pull/4647)
 -   Material cards added for Nitrogen and Argon. [PR \#4649](https://github.com/FreeCAD/FreeCAD/pull/4649)
 -   Support for the [Gmsh](FEM_MeshGmshFromShape.md) mesh algorithms \"HXT\" (3D) and \"Packing Parallelograms\" (2D) added. [PR \#4654](https://github.com/FreeCAD/FreeCAD/pull/4654)
 -   Allow to set for the [Gmsh](FEM_MeshGmshFromShape#Properties.md) property **High Order Optimize** a certain algorithm. [PR \#4705](https://github.com/FreeCAD/FreeCAD/pull/4705)
+-   Nonlinear solid materials with simple hardening can now have an arbitrary number of yield points. [PR \#5024](https://github.com/FreeCAD/FreeCAD/pull/5024)
 
 ## Import
 
@@ -124,7 +157,15 @@ Weitere Neuigkeiten zur Entwicklung:
 
 ## Polygonnetze
 
+
+<div class="mw-translate-fuzzy">
+
 ### Weitere Verbesserungen 
+
+
+</div>
+
+Fixed false negatives during self-intersection tests when facets are coplanar: [PR \#5002](https://github.com/FreeCAD/FreeCAD/pull/5002).
 
 ## OpenSCAD Arbeitsbereich 
 
@@ -141,18 +182,31 @@ There is also a text box for feedback of OpenSCAD errors.
 
 ## Arbeitsbereich Formteil 
 
+
+<div class="mw-translate-fuzzy">
+
 ### Weitere Verbesserungen 
+
+
+</div>
 
 -   The dialog to edit [Cylinders](Part_Cylinder.md) allows now to specify an angle in respect to the normal of the chosen attachment plane. This way one can create skew cylinders. [Pull request \#4708](https://github.com/FreeCAD/FreeCAD/pull/4708)
 
 ## Arbeitsbereich PartDesign 
 
-  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   <img alt="" src=images/PD_Pad-Length-alog-direction_relnotes_0.20.gif  style="width:384px;">Effect of the new option *Length along sketch normal*.Click on the image to show the animation.   There is a new option to pad a certain length along the direction. The length is either measured along the sketch normal or along the custom direction. [Forum discussion](https://forum.freecadweb.org/viewtopic.php?f=17&t=50466), [pull request \#3893](https://github.com/FreeCAD/FreeCAD/pull/3893)
   <img alt="" src=images/PartDesign_Cylinder_direction_relnotes_0.20.png  style="width:384px;">                                                                                                                                The dialog to edit [Cylinder](PartDesign_AdditiveCylinder.md) (additive and subtractive) allows now to specify an angle in respect to the normal of the chosen attachment plane. This way one can create skew cylinders. [pull request \#4708](https://github.com/FreeCAD/FreeCAD/pull/4708)
-  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  <img alt="" src=images/PartDesign_Chamfer_Face_Selection_relnotes_0.20.png  style="width:384px;">                                                                                                                        When Distance and Angle is specified in the [Chamfer](PartDesign_Chamfer.md) tool and faces are selected, the distance will be applied along the selected faces. Likewise if two distances are specified then Size 1 will be applied along the selected face. This behaviour can be swapped to the other face using the flip direction button. [Forum discussion](https://forum.freecadweb.org/viewtopic.php?f=19&t=62084), [pull request \#5039](https://github.com/FreeCAD/FreeCAD/pull/5039)
+  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+<div class="mw-translate-fuzzy">
 
 ### Weitere Verbesserungen 
+
+
+</div>
 
 -   The [Helix](PartDesign_AdditiveHelix.md) feature has the new mode **Height-Turns-Growth** to create flat spirals. [Forum thread](https://forum.freecadweb.org/viewtopic.php?f=19&t=56378) [PR \#4590](https://github.com/FreeCAD/FreeCAD/pull/4590)
 -   The [Sprocket](PartDesign_Sprocket.md) feature can now create also ISO-normed sprockets. [Forum thread](https://forum.freecadweb.org/viewtopic.php?f=22&t=44525#p478369) [PR \#4478](https://github.com/FreeCAD/FreeCAD/pull/4478)
@@ -167,17 +221,23 @@ There is also a text box for feedback of OpenSCAD errors.
 <div class="mw-translate-fuzzy">
 
   ----------------------------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  <img alt="" src=images/SketcherSplitExample2.png )                                                  Neue ![](images/Sketcher_Split.svg  style="width:24px;"> [Aufteilen](Sketcher_Split/de.md) Funktion zum Aufteilen bestehender Linien oder Bögen. [Forumsdiskussion](https://forum.freecadweb.org/viewtopic.php?f=9&t=55412) [pull request \#4420](https://github.com/FreeCAD/FreeCAD/pull/4420)
-  <img alt="" src=images/SketcherCreateRoundedRectangleExample.png )                  Neues ![](images/Sketcher_CreateOblong.svg  style="width:24px;"> [Abgerundetes Rechteck](Sketcher_CreateOblong.md) Werkzeug zum Erstellen von Rechtecken mit abgerundeten Ecken. [Forumsdiskussion](https://forum.freecadweb.org/viewtopic.php?f=17&t=59210) [Main pull request \#4835](https://github.com/FreeCAD/FreeCAD/pull/4835)
+  <img alt="" src=images/SketcherSplitExample2.png )                                                  Neue !_ Funktion zum Aufteilen bestehender Linien oder Bögen. [Forumsdiskussion](https://forum.freecadweb.org/viewtopic.php?f=9&t=55412) [pull request \#4420](https://github.com/FreeCAD/FreeCAD/pull/4420)
+  <img alt="" src=images/SketcherCreateRoundedRectangleExample.png )                  Neues !_ Werkzeug zum Erstellen von Rechtecken mit abgerundeten Ecken. [Forumsdiskussion](https://forum.freecadweb.org/viewtopic.php?f=17&t=59210) [Main pull request \#4835](https://github.com/FreeCAD/FreeCAD/pull/4835)
   <img alt="" src=images/SketcherCreateCenteredRectangleExample.png  style="width:384px;">   Neu <img alt="" src=images/Sketcher_CreateRectangle_Center.svg  style="width:24px;"> [Zentriertes Rechteck](Sketcher_CreateRectangle_Center/de.md) Werkzeug um Rechtecke über einen Mittelpunkt zu definieren. [Main commit](https://github.com/FreeCAD/FreeCAD/commit/8b4acf11c2caf53cc1cb8dccd8bb6de8516f4492)
   <img alt="" src=images/Radiam_anim.gif  style="width:384px;">                                                         Neu <img alt="" src=images/Sketcher_ConstrainRadiam.svg  style="width:24px;"> [Radiam](Sketcher_ConstrainRadiam/de.md) Funktion zur automatischen Zuweisung von Gewicht auf B-Spline Pol, Durchmesser auf Vollkreis oder Radius auf Bogen. Unterstützung von Mehrfachauswahl als Durchmesser/Radius Werkzeuge. [Forumsdiskussion](https://forum.freecadweb.org/viewtopic.php?f=3&t=57584&start=20#p509485) [Haupt-Pull-Request \#4855](https://github.com/FreeCAD/FreeCAD/pull/4855)
-  <img alt="" src=images/SketcherRemoveAxesAlignmentResult.png )                          Neues ![](images/Sketcher_RemoveAxesAlignment.svg  style="width:24px;"> [Achsenausrichtung entfernen](Sketcher_RemoveAxesAlignment/de.md) Beschränkungswerkzeug zum Entfernen der Achsenausrichtung unter Beibehaltung der Beschränkungsbeziehung der Auswahl. [Main commit](https://github.com/FreeCAD/FreeCAD/commit/3c593a33cedc3e6a42928d9087f8a160852cc685)
+  <img alt="" src=images/SketcherRemoveAxesAlignmentResult.png )                          Neues !_ Beschränkungswerkzeug zum Entfernen der Achsenausrichtung unter Beibehaltung der Beschränkungsbeziehung der Auswahl. [Main commit](https://github.com/FreeCAD/FreeCAD/commit/3c593a33cedc3e6a42928d9087f8a160852cc685)
   ----------------------------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 ### Weitere Verbesserungen 
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -193,7 +253,13 @@ There is also a text box for feedback of OpenSCAD errors.
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 ### Fehlerberichtigungen
+
+
+</div>
 
 -   Fix \'Reference\' option not working for radius/diameter at creation time [PR for radius](https://github.com/FreeCAD/FreeCAD/pull/4744) [PR for diameter](https://github.com/FreeCAD/FreeCAD/pull/4832) [Forum discussion](https://forum.freecadweb.org/viewtopic.php?f=3&t=57584)
 
@@ -207,11 +273,23 @@ There is also a text box for feedback of OpenSCAD errors.
 
 ## Arbeitsbereich TechDraw 
 
+
+<div class="mw-translate-fuzzy">
+
 ### Weitere TechDraw Verbesserungen 
+
+
+</div>
 
 ## Internet
 
+
+<div class="mw-translate-fuzzy">
+
 ## Zusätzliche Module 
+
+
+</div>
 
 ### 3D Druckwerkzeuge 
 
@@ -239,7 +317,7 @@ There is also a text box for feedback of OpenSCAD errors.
 
 ### Wege, PyTrails, Abbiege, pivy\_trackers, und Geomatik 
 
-[Category:News](Category:News.md) [Category:Documentation](Category:Documentation.md) [Category:Releases](Category:Releases.md)
+_ _ _
 
 ---
-[documentation index](../README.md) > [News](Category:News.md) > Release notes 0.20/de
+[documentation index](../README.md) > [News](Category_News.md) > Release notes 0.20/de

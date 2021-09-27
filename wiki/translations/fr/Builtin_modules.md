@@ -26,7 +26,7 @@ Cette page n\'est pas une liste complète du contenus de ces modules, et, en rai
 
 }} 
 
-[Category:API](Category:API.md)
+_
 
 ---
-[documentation index](../README.md) > [API](Category:API.md) > Builtin modules/fr
+[documentation index](../README.md) > [API](Category_API.md) > Builtin modules/fr

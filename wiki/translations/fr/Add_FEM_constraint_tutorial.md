@@ -3,7 +3,7 @@
 |Topic=Ajouter des contraintes FEM
 |Level=
 |Time=
-|Author=[M42kus](User:M42kus.md)
+|Author=_
 |FCVersion=
 |Files=
 }}
@@ -306,7 +306,7 @@ def _handleFlowBndConditions(self):
             self._handled(obj)
 ```
 
-[Category:FEM/fr](Category:FEM/fr.md) [Category:FEM](Category:FEM.md)
+_ _
 
 ---
-[documentation index](../README.md) > [FEM](Category:FEM.md) > Add FEM constraint tutorial/fr
+[documentation index](../README.md) > [FEM](Category_FEM.md) > Add FEM constraint tutorial/fr

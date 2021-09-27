@@ -108,7 +108,7 @@ Zabezpieczenia → Edytuj → Użytkownicy i zaznacz wszystkie pola wyboru w opc
 
 
 
-[Category:Sandbox](Category:Sandbox.md) [Category:User Documentation](Category:User_Documentation.md) [Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+_ _ _ _
 
 ---
-[documentation index](../README.md) > PCB Workbench/pl
+[documentation index](../README.md) > [Sandbox](Category_Sandbox.md) > PCB Workbench/pl

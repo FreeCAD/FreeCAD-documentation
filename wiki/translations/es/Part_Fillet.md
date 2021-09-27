@@ -38,7 +38,7 @@ Esta herramienta crea un redondeo (ronda) sobre las aristas seleccionadas de un 
 
 ## Redondeo de Piezas VS. Redondeo de Diseño de Piezas 
 
-Existe otra herramienta de redondeo en el <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Ambiente de trabajo DiseñoPiezas](PartDesign_Workbench/es.md). Ten en cuenta que sus operaciones son bastante diferente. Comprueba la <img alt="" src=images/PartDesign_Fillet.svg  style="width:24px;"> [Redondeo de DiseñoPiezas](PartDesign_Fillet/es.md) página de referencia para más detalles de sus diferencias.
+Existe otra herramienta de redondeo en el <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> _ página de referencia para más detalles de sus diferencias.
 
 
 </div>

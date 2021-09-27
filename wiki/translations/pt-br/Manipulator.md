@@ -12,7 +12,7 @@ A **manipulator** can be used to modify an object\'s appearance, shape, or other
 
 
 
-[Category:Glossary](Category:Glossary.md)
+_
 
 ---
-[documentation index](../README.md) > [Glossary](Category:Glossary.md) > Manipulator/pt-br
+[documentation index](../README.md) > [Glossary](Category_Glossary.md) > Manipulator/pt-br

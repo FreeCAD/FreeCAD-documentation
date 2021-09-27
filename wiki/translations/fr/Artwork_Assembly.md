@@ -22,7 +22,7 @@ Pour toutes les icônes de l\'arborescence source, voir [Graphisme](Artwork/fr.m
 
 }} 
 
-[Category:Assembly](Category:Assembly.md)
+_
 
 ---
-[documentation index](../README.md) > [Assembly](Category:Assembly.md) > Artwork Assembly/fr
+[documentation index](../README.md) > [Assembly](Category_Assembly.md) > Artwork Assembly/fr

@@ -1,5 +1,5 @@
 # Debian Unstable/de
-[Debian Unstable](https://wiki.debian.org/DebianUnstable) ist eine rollierende Distribution, die für [Debian Entwicklung](Debian_development/de.md) verwendet wird und für fortgeschrittene Benutzer in der FreeCAD Entwicklung und Paketierung empfohlen wird. Neue Pakete sind bereit, sobald sie hochgeladen und erstellt wurden, es sei denn, der Uploader hat sie für [Debian Experimental](https://wiki.debian.org/DebianExperimental) markiert, was eine explizite Installation (nach einigen Einstellungen, um die zusätzliche Verbreitung zu ermöglichen) über  erfordert.
+_ verwendet wird und für fortgeschrittene Benutzer in der FreeCAD Entwicklung und Paketierung empfohlen wird. Neue Pakete sind bereit, sobald sie hochgeladen und erstellt wurden, es sei denn, der Uploader hat sie für [Debian Experimental](https://wiki.debian.org/DebianExperimental) markiert, was eine explizite Installation (nach einigen Einstellungen, um die zusätzliche Verbreitung zu ermöglichen) über  erfordert.
 
 Häufig sollten Leute, die Debian Testen verwenden, tatsächlich Debian Instabil verwenden; Debian Testen sollte nur als \"QA Versionshülle\" betrachtet werden, da es zwar stabiler zu sein scheint als Instabil, aber tatsächlich einen Nachteil hat. Neue Pakete werden zu Debian Instabil hochgeladen und nach einiger Zeit zu Testen migriert, so dass Sicherheitskorrekturen und wichtige Paketänderungen unangemessen verzögert werden können.
 
@@ -24,7 +24,7 @@ deb [http://deb.debian.org/debian](http://deb.debian.org/debian) experimental�
 
 
 
-[Category:Packaging](Category:Packaging.md) [Category:Developer Documentation](Category:Developer_Documentation.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Packaging](Category:Packaging.md) > Debian Unstable/de
+[documentation index](../README.md) > [Packaging](Category_Packaging.md) > Debian Unstable/de

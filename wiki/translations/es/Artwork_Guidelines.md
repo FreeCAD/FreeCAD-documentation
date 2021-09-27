@@ -170,7 +170,7 @@ Una imagen en escala de grises permite identificar más fácilmente los problema
 
 {{Artwork/es}}
 
-[Category:Developer Documentation](Category:Developer_Documentation.md)
+_
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Artwork Guidelines/es
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Artwork Guidelines/es

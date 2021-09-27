@@ -46,7 +46,7 @@ Zobacz prezentacje [jak zainstalować makrodefinicje](How_to_install_macros/pl.m
 
 ## Repozytorium makrodefinicji 
 
-Istnieją dwa główne miejsca, w których można znaleźć makra. Pierwszym z nich jest oficjalne repozytorium makrodefinicji na [GitHub](https://github.com/FreeCAD/FreeCAD-macros). Drugim jest strona [Przepisy na makrodefinicje](Macros_recipes/pl.md), z której możesz wybrać kilka użytecznych makrodefinicji do dodania do swojej instalacji FreeCAD. Makrodefinicje z obu repozytoriów mogą być instalowane poprzez [Menadżer dodatków](Std_AddonMgr/pl.md) bezpośrednio z programu FreeCAD.
+Istnieją dwa główne miejsca, w których można znaleźć makra. Pierwszym z nich jest oficjalne repozytorium makrodefinicji na _, z której możesz wybrać kilka użytecznych makrodefinicji do dodania do swojej instalacji FreeCAD. Makrodefinicje z obu repozytoriów mogą być instalowane poprzez [Menadżer dodatków](Std_AddonMgr/pl.md) bezpośrednio z programu FreeCAD.
 
 ## Informacje dodatkowe 
 
@@ -65,7 +65,7 @@ Możesz ręcznie instalować rozszerzenia, jednak znacznie prostsze jest użycie
 
 }} 
 
-[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md) [Category:Macros](Category:Macros.md)
+_ _ _
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Macros/pl
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Macros/pl

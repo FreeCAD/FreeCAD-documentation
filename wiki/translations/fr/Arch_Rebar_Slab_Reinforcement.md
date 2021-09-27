@@ -1,106 +1,133 @@
 ---
-- GuiCommand:
+- GuiCommand:/fr
    Name:Arch Rebar Slab Reinforcement
+   Name/fr:Arch Rebar Renfort de dalle
    MenuLocation:Arch → Rebar tools → Slab Reinforcement
-   Workbenches:[Arch](Arch_Workbench.md)
-   SeeAlso:[Reinforcement](Reinforcement_Workbench.md), [Arch Rebar](Arch_Rebar.md), [Arch Helical Rebar](Arch_Rebar_Helical.md)
+   Workbenches:[Arch](Arch_Workbench/fr.md)
+   SeeAlso:[Reinforcement](Reinforcement_Workbench/fr.md), [Arch Armature personnalisée](Arch_Rebar/fr.md), [Arch Rebar Armature hélicoïdale](Arch_Rebar_Helical/fr.md)
 ---
 
 # Arch Rebar Slab Reinforcement/fr
 
 ## Description
 
-The [Slab Reinforcement](Arch_Rebar_Slab_Reinforcement.md) tool allows the user to create reinforcing bars inside a Slab [Arch Structure](Arch_Structure.md) object.
+L\'outil [Renfort de dalle](Arch_Rebar_Slab_Reinforcement/fr.md) permet à l\'utilisateur de créer des barres d\'armature à l\'intérieur d\'un objet dalle [Arch Structure](Arch_Structure/fr.md).
 
-This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md), an [external workbench](External_workbenches.md) that can be installed with the <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Addon_Manager.md) via the **Tools → Addon manager → Reinforcement** menu.
+Cette commande fait partie de l\'_ via le menu **Outils → Gestionnaire d'Addon → Reinforcement**.
 
-<img alt="inline" src=images/Isometric_view_of_Bent_Shape_rebars_in_parallel_and_cross_direction_with_distribution_rebars.png  style="width:800px;"> 
-*A Example of Slab Reinforcement inside a Slab [Arch Structure](Arch_Structure.md)*
+<img alt="en ligne" src=images/Isometric_view_of_Bent_Shape_rebars_in_parallel_and_cross_direction_with_distribution_rebars.png  style="width:800px;"> 
+*Un exemple d'armature de dalle à l'intérieur d'une dalle [Arch Structure](Arch_Structure/fr.md)*
 
 <img alt="" src=images/Right_view_of_Bent_Shape_rebars_in_parallel_and_cross_direction_with_distribution_rebars.png  style="width:800px;"> 
-*Right view of the given Slab Reinforcement example*
+*Vue de droite de l'exemple d'armature de dalle donné*
 
-<img alt="Front view of Bent Shape rebars in parallel and cross direction with distribution rebars" src=images/Front_view_of_Bent_Shape_rebars_in_parallel_and_cross_direction_with_distribution_rebars.png  style="width:800px;"> 
-*Front view of the given Slab Reinforcement example*
+<img alt="Vue de face des barres d\'armature pliées en parallèle et en croix avec les barres d\'armature de distribution." src=images/Front_view_of_Bent_Shape_rebars_in_parallel_and_cross_direction_with_distribution_rebars.png  style="width:800px;"> 
+*Vue de face de l'exemple d'armature de dalle donné*
 
-## Usage
+## Utilisation
 
-1\. Select any face of a previously created Slab **<img src="images/Arch_Structure.svg" width=16px> [Arch Structure](Arch_Structure.md)** object. as shown in below image.
-<img alt="" src=images/Selected_face_for_Slab_Arch_Structure.png  style="width:400px;"> 
-*Selected face for Slab Arch Structure*
+1\. Sélectionnez n\'importe quelle face d\'une dalle **<img src="images/Arch_Structure.svg" width=16px> [Arch Structure](Arch_Structure/fr.md)** déjà créée comme indiqué dans l\'image ci-dessous.
+<img alt="" src=images/Selected_face_for_Slab_Arch_Structure.png  style="width:400px;"> *Face sélectionnée de la dalle Arch Structure*.
 
-2\. Then select **<img src="images/Arch_Rebar_Slab_Reinforcement.svg" width=16px> [Slab Reinforcement](Arch_Rebar_Slab_Reinforcement.md)** from the rebar tools.
+2\. Sélectionnez ensuite **<img src="images/Arch_Rebar_Slab_Reinforcement.svg" width=16px> [Slab Reinforcement](Arch_Rebar_Slab_Reinforcement/fr.md)** dans les outils d\'armature.
 
-3\. A dialog box will pop-out on screen as shown below.
-![Slab Reinforcement input dialog box](images/Slab_Reinforcement_input_dialog_box.png ) *Dialog Box for the Slab Reinforcement*
+3\. Une boîte de dialogue apparaîtra à l\'écran comme indiqué ci-dessous.
+![Boîte de dialogue de saisie de l\'armature des dalles](images/Slab_Reinforcement_input_dialog_box.png ) *Boîte de dialogue pour le renforcement des dalles*.
 
-4\. Select the desired type of cover of reinforcement mesh (Top or Bottom).
+4\. Sélectionnez le type de couverture de la maille d\'armature souhaité (Top ou Bottom).
 
-5\. Select the desired raber type and other input data for rabars in parallel direction of selected face as show in below image.
-![Bent Shape rebars in parallel with distribution rebars inputs for Slab Reinforcement](images/Bent_Shape_rebars_in_parallel_with_distribution_rebars_inputs_for_Slab_Reinforcement.png ) *Dialog Box for Slab Reinforcement of the Rebars in parallel direction of selected face*
+5\. Sélectionnez le type de barre d\'armature souhaité et les autres données d\'entrée pour les barres d\'armature dans la direction parallèle à la face sélectionnée, comme le montre l\'image ci-dessous.
+![Armatures de forme pliée en parallèle avec les entrées des armatures de distribution pour le renforcement des dalles.](images/Bent_Shape_rebars_in_parallel_with_distribution_rebars_inputs_for_Slab_Reinforcement.png ). *Boîte de dialogue pour l'armature de dalle des armatures en direction parallèle de la face sélectionnée*.
 
-6\. Now click on **Next** button or select Cross Rebars in list view.
-7. Now select desired data for input data for rabars in cross direction of selected face as show in below image.
-![Bent Shape rebars in cross direction with distribution rebars](images/Bent_Shape_rebars_in_cross_direction_with_distribution_rebars.png ) *Dialog Box for Slab Reinforcement of the Rebars in cross direction of selected face*
+6\. Cliquez maintenant sur le bouton **Suivant** ou sélectionnez Cross Rebars dans la vue en liste.
+7. Maintenant, sélectionnez les données souhaitées pour les données d\'entrée pour les barres dans la direction transversale de la face sélectionnée comme le montre l\'image ci-dessous.
+![Armatures de forme courbées dans le sens transversal avec des armatures de répartition](images/Bent_Shape_rebars_in_cross_direction_with_distribution_rebars.png ). *Boîte de dialogue pour le renforcement de la dalle des armatures dans le sens transversal de la face sélectionnée*.
 
-8\. Click **OK** or **Apply** or **Finish** to generate Slab reinforcement.
-9. Click **Cancel** to exit the dialog box.
+8\. Cliquez sur **OK** ou **Apply** ou **Finish** pour générer le ferraillage des dalles.
+9. Cliquez sur **Cancel** pour quitter la boîte de dialogue.
 
-## Properties
+## Propriétés
 
-**Properties for Rebars in Parallel Direction to selected face:**
+**Propriétés des barres d\'armature dans la direction parallèle à la face sélectionnée :**
 
--   {{ PropertyData\|Mesh Cover Along}}: It represent alignment of rebar mesh along top or bottom face of structure. It can have two values \"Top\" and \"Bottom\".
--   {{ PropertyData\|Rebar Type}}: Type of rebar for parallel rebars for slab reinforcement. It can have four values \'StraightRebar\', \'LShapeRebar\', \'UShapeRebar\', \'BentShapeRebar\'.
--   {{ PropertyData\|Front Cover}}: The distance between parallel rebar and selected face.
--   {{ PropertyData\|Left Cover}}: The distance between the left end of the parallel rebar to the left face of the structure.
--   {{ PropertyData\|Right Cover}}: The distance between the right end of the parallel rebar to right face of the structure.
--   {{ PropertyData\|Bottom Cover}}: The distance between parallel rebars from the bottom face of the structure.
--   {{ PropertyData\|Top Cover}}: The distance between parallel rebars from the top face of the structure.
--   {{ PropertyData\|Rear Cover}}: Rear cover for slab reinforcement of parallel rebars.
--   {{ PropertyData\|Anchor Length}}: It represents arm\'s length of bent shape parallel rebar when parallel rebar type is BentShapeRebar.
--   {{ PropertyData\|Bent Angle}}: It represents angle for bent shape parallel rebar when parallel rebar type is BentShapeRebar.
--   {{ PropertyData\|Rounding}}: A rounding value to be applied to the corners of the bars, expressed in times of diameter of parallel rebars.
--   {{ PropertyData\|Diameter}}: Diameter of parallel rebars
--   {{ PropertyData\|Amount}}: It contains count of parallel rebars.
--   {{ PropertyData\|Spacing}}: It contains spacing between parallel rebars.
+-    **Mesh Cover Along**: Représente l\'alignement du maillage de barres d\'armature le long de la face supérieure ou inférieure de la structure. Peut avoir deux valeurs : \"Top\" et \"Bottom\".
 
-**Properties of Distribution Rebars for bent shape rebars in parallel Direction to selected face:**
+-    **Rebar Type**: Type de barre d\'armature pour les barres d\'armature parallèles pour le renforcement des dalles. Peut avoir quatre valeurs : \'StraightRebar\', \'LShapeRebar\', \'UShapeRebar\', \'BentShapeRebar\'.
 
--   {{ PropertyData\|Amount}}: It contains count of Distribution Rebars for Bent shape rebars in parallel Direction.
--   {{ PropertyData\|Spacing}}: It contains spacing between Distribution Rebars for Bent shape rebars in parallel Direction.
+-    **Couverture avant**: Distance entre la barre d\'armature parallèle et la face sélectionnée.
 
-**Properties for Rebars in Cross Direction to selected face:**
+-    **Left Cover**: Distance entre l\'extrémité gauche de la barre d\'armature parallèle et la face gauche de la structure.
 
--   {{ PropertyData\|Rebar Type}}: Type of rebar for cross rebars for slab reinforcement. It can have four values \'StraightRebar\', \'LShapeRebar\', \'UShapeRebar\', \'BentShapeRebar\'.
--   {{ PropertyData\|Front Cover}}: The distance between cross rebar and selected face.
--   {{ PropertyData\|Left Cover}}: The distance between the left end of the cross rebar to the left face of the structure.
--   {{ PropertyData\|Right Cover}}: The distance between the right end of the cross rebar to right face of the structure.
--   {{ PropertyData\|Bottom Cover}}: The distance between cross rebars from the bottom face of the structure.
--   {{ PropertyData\|Top Cover}}: The distance between cross rebars from the top face of the structure.
--   {{ PropertyData\|Rear Cover}}: Rear cover for slab reinforcement of cross rebars.
--   {{ PropertyData\|Anchor Length}}: It represents arm\'s length of bent shape cross rebar when cross rebar type is BentShapeRebar.
--   {{ PropertyData\|Bent Angle}}: It represents angle for bent shape cross rebar when cross rebar type is BentShapeRebar.
--   {{ PropertyData\|Rounding}}: A rounding value to be applied to the corners of the bars, expressed in times of diameter of cross rebars.
--   {{ PropertyData\|Diameter}}: Diameter of cross rebars
--   {{ PropertyData\|Amount}}: It contains count of cross rebars.
--   {{ PropertyData\|Spacing}}: It contains spacing between cross rebars.
+-    **Right Cover**: Distance entre l\'extrémité droite de la barre d\'armature parallèle et la face droite de la structure.
 
-**Properties of Distribution Rebars for bent shape rebars in cross Direction to selected face:**
+-    **Bottom Cover**: Distance entre les barres d\'armature parallèles et la face inférieure de la structure.
 
--   {{ PropertyData\|Amount}}: It contains count of Distribution Rebars for Bent shape rebars in cross Direction.
--   {{ PropertyData\|Spacing}}: It contains spacing between Distribution Rebars for Bent shape rebars in cross Direction.
+-    **Top Cover**: Distance entre les barres d\'armature parallèles à partir de la face supérieure de la structure.
 
-## Scripting
+-    **Rear Cover**: Couverture arrière pour le renforcement des dalles de barres d\'armature parallèles.
+
+-    **Anchor Length**: Représente la longueur du bras de la barre d\'armature parallèle pliée lorsque le type de barre d\'armature parallèle est BentShapeRebar.
+
+-    **Bent Angle**: Représente l\'angle de la barre d\'armature parallèle pliée lorsque le type de barre d\'armature parallèle est BentShapeRebar.
+
+-    **Rounding**: Valeur d\'arrondi à appliquer aux coins des barres, exprimée en fois le diamètre des barres d\'armature parallèles.
+
+-    **Diameter**: Diamètre des barres d\'armature parallèles
+
+-    **Amount**: Contient le nombre de barres d\'armature parallèles.
+
+-    **Spacing**: Contient l\'espacement entre les barres d\'armature parallèles.
+
+**Propriétés des armatures de distribution pour les armatures de forme pliée en direction parallèle à la face sélectionnée :**
+
+-    **Amount**: Contient le nombre d\'armatures de distribution pour les armatures pliées en parallèle.
+
+-    **Spacing**: Contient l\'espacement entre les armatures de distribution pour les armatures pliées en direction parallèle.
+
+**Propriétés des barres d\'armature dans le sens transversal de la face sélectionnée :**
+
+-    **Rebar Type**: Type de barre d\'armature pour les armatures transversales pour le renforcement des dalles. Peut avoir quatre valeurs : \'StraightRebar\', \'LShapeRebar\', \'UShapeRebar\', \'BentShapeRebar\'.
+
+-    **Front Cover**: Distance entre la barre d\'armature transversale et la face sélectionnée.
+
+-    **Left Cover**: Distance entre l\'extrémité gauche de la barre d\'armature transversale et la face gauche de la structure.
+
+-    **Right Cover**: Distance entre l\'extrémité droite de la barre d\'armature transversale et la face droite de la structure.
+
+-    **Bottom Cover**: Distance entre les armatures transversales et la face inférieure de la structure.
+
+-    **Top Cover**: Distance entre les barres d\'armature transversales depuis la face supérieure de la structure.
+
+-    **Rear Cover**: Couverture arrière pour le renforcement de la dalle des armatures transversales.
+
+-    **Anchor Length**: Représente la longueur du bras de l\'armature transversale pliée lorsque le type d\'armature transversale est BentShapeRebar.
+
+-    **Bent Angle**: Représente l\'angle de la barre d\'armature transversale pliée lorsque le type de barre d\'armature transversale est BentShapeRebar.
+
+-    **Rounding**: Valeur d\'arrondi à appliquer aux coins des barres, exprimée en fois le diamètre des barres d\'armature transversales.
+
+-    **Diameter**: Diamètre des armatures transversales
+
+-    **Amount**: Contient le nombre d\'armatures transversales.
+
+-    **Spacing**: Contient l\'espacement entre les armatures transversales.
+
+**Propriétés des armatures de distribution pour les armatures pliées dans le sens transversal par rapport à la face sélectionnée :**
+
+-    **Amount**: Contient le nombre d\'armatures de distribution pour les armatures pliées dans le sens transversal.
+
+-    **Spacing**: Contient l\'espacement entre les armatures de distribution pour les armatures pliées dans le sens transversal.
+
+## Script
 
 
-**See also:**
+**Voir aussi :**
 
-[Arch API](Arch_API.md), [Reinforcement API](Reinforcement_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+[Arch API](Arch_API/fr.md), [Reinforcement API](Reinforcement_API/fr.md) et [FreeCAD Scripts de bases](FreeCAD_Scripting_Basics/fr.md).
 
-The Slab Reinforcement tool can be used from the [Python](Python.md) console by using the following function:
+L\'outil Renforcement des dalles peut être utilisé à partir de la console [Python](Python/fr.md) en utilisant la fonction suivante :
 
-### Create Slab Reinforcement 
+### Créer une armature de dalle 
 
 
 ```python
@@ -148,96 +175,96 @@ SlabReinforcementGroup = makeSlabReinforcement(
 )
 ```
 
--   Creates a `SlabReinforcementGroup` object from the given `structure`, which is a Slab [Arch Structure](Arch_Structure.md), and `facename`, which is a face of that structure.
-    -   If no `structure` nor `facename` are given, it will take the user selected face as input.
+-   Crée un objet `SlabReinforcementGroup` à partir des données `structure`, qui est une dalle [Arch Structure](Arch_Structure/fr.md) et `facename`, qui est une face de cette structure.
+    -   Si ni `structure` ni `facename` ne sont donnés, il prendra en entrée la face sélectionnée par l\'utilisateur.
 
-**Properties for Rebars in Parallel Direction to selected face:**
+**Propriétés des barres d\'armature dans la direction parallèle à la face sélectionnée :**
 
--    **parallel_rebar_type**: Type of rebar for parallel rebars for slab reinforcement. It can have four values \'StraightRebar\', \'LShapeRebar\', \'UShapeRebar\', \'BentShapeRebar\'.
+-    **parallel_rebar_type**: Type de barre d\'armature pour les barres d\'armature parallèles pour le renforcement des dalles. Peut avoir quatre valeurs : \'StraightRebar\', \'LShapeRebar\', \'UShapeRebar\', \'BentShapeRebar\'.
 
--    **parallel_front_cover**: The distance between parallel rebar and selected face.
+-    **parallel_front_cover**: Distance entre la barre d\'armature parallèle et la face sélectionnée.
 
--    **parallel_rear_cover**: Rear cover for slab reinforcement of parallel rebars.
+-    **parallel_rear_cover**: Couverture arrière pour le renforcement de dalle des armatures parallèles.
 
--    **parallel_left_cover**: The distance between the left end of the parallel rebar to the left face of the structure.
+-    **parallel_left_cover**: Distance entre l\'extrémité gauche de la barre d\'armature parallèle et la face gauche de la structure.
 
--    **parallel_right_cover**: The distance between the right end of the parallel rebar to right face of the structure.
+-    **parallel_right_cover**: Distance entre l\'extrémité droite de la barre d\'armature parallèle et la face droite de la structure.
 
--    **parallel_top_cover**: The distance between parallel rebars from the top face of the structure.
+-    **parallel_top_cover**: Distance entre les barres d\'armature parallèles et la face supérieure de la structure.
 
--    **parallel_bottom_cover**: The distance between parallel rebars from the bottom face of the structure.
+-    **parallel_bottom_cover**: Distance entre les barres d\'armature parallèles à partir de la face inférieure de la structure.
 
--    **parallel_diameter**: Diameter of parallel rebars.
+-    **parallel_diameter**: Diamètre des barres d\'armature parallèles.
 
--    **parallel_amount_spacing_check**: If is set to True, then value of parallel\_amount\_spacing\_value is used as rebars count else parallel\_amount\_spacing\_value\'s value is used as spacing in parallel rebars.
+-    **parallel_amount_spacing_check**: Si elle vaut True, alors la valeur de parallel\_amount\_spacing\_value est utilisée comme nombre de barres, sinon la valeur de parallel\_amount\_spacing\_value est utilisée comme espacement dans les barres parallèles.
 
--    **parallel_amount_spacing_value**: It contains count of rebars or spacing between parallel rebars based on value of amount\_spacing\_check.
+-    **parallel_amount_spacing_value**: Contient le nombre d\'armatures ou l\'espacement entre les armatures parallèles en fonction de la valeur de amount\_spacing\_check.
 
--    **parallel_rounding**: A rounding value to be applied to the corners of the bars, expressed in times the parallel\_diameter.
+-    **parallel_rounding**: Valeur d\'arrondi à appliquer aux coins des barres, exprimée en fois le parallel\_diamètre.
 
--    **parallel_bent_bar_length**: It represents arm\'s length of bent shape parallel rebar when parallel\_rebar\_type is BentShapeRebar
+-    **parallel_bent_bar_length**: Représente la longueur du bras de la barre d\'armature parallèle pliée lorsque le type de barre parallèle est BentShapeRebar.
 
--    **parallel_bent_bar_angle**: It represents angle for bent shape parallel rebar when parallel\_rebar\_type is BentShapeRebar
+-    **parallel_bent_bar_angle**: Représente l\'angle de la barre d\'armature parallèle pliée lorsque le type de parallélogramme est BentShapeRebar.
 
--    **parallel_l_shape_hook_orintation**: It represents orintation of hook of parallel L-Shape rebar if parallel\_rebar\_type is LShapeRebar. It can have three values \"Left\", \"Right\",\"Alternate\"
+-    **parallel_l_shape_hook_orintation**: Représente l\'orientation du crochet de la barre d\'armature parallèle en forme de L si le type de barre parallèle est LShapeRebar. Il peut avoir trois valeurs : \"Left\", \"Right\", \"Alternate\".
 
--    **parallel_distribution_rebars_check**: If True add distribution rebars for parallel bent shape rebars. Default is False.
+-    **parallel_distribution_rebars_check**: Si True, ajoute des barres de distribution pour les barres de forme pliées parallèles. La valeur par défaut est False.
 
--    **parallel_distribution_rebars_diameter**: Diameter of distribution rebars for parallel bent shape rebars.
+-    **parallel_distribution_rebars_diameter**: Diamètre des armatures de distribution pour les armatures parallèles pliées.
 
--    **parallel_distribution_rebars_amount_spacing_check**: If is set to True, then value of parallel\_distribution\_rebars\_amount\_spacing\_value is used as rebars count else parallel\_distribution\_rebars\_amount\_spacing\_value\'s value is used as spacing in parallel\_distribution\_rebars. Default is True.
+-    **parallel_distribution_rebars_amount_spacing_check**: Si elle est définie sur True, alors la valeur de parallel\_distribution\_rebars\_amount\_spacing\_value est utilisée comme nombre de barres, sinon la valeur de parallel\_distribution\_rebars\_amount\_spacing\_value est utilisée comme espacement dans parallel\_distribution\_rebars. La valeur par défaut est True.
 
--    **parallel_distribution_rebars_amount_spacing_value**: It contains count or spacing between distribution rebars for one side of parallel bent shape rebars based on value of parallel\_distribution\_rebars\_check. Default is 2.
+-    **parallel_distribution_rebars_amount_spacing_value**: Contient le nombre ou l\'espacement entre les armatures de distribution pour un côté des armatures parallèles pliées en fonction de la valeur de parallel\_distribution\_rebars\_check. La valeur par défaut est 2.
 
-**Properties for Rebars in Cross Direction to selected face:**
+**Propriétés des barres d\'armature dans le sens transversal de la face sélectionnée :**
 
--    **cross_rebar_type**: Type of rebar for cross rebars for slab reinforcement. It can have four values \'StraightRebar\', \'LShapeRebar\', \'UShapeRebar\', \'BentShapeRebar\'.
+-    **cross_rebar_type**: Type d\'armature pour les armatures transversales pour le renforcement des dalles. Peut avoir quatre valeurs : \'StraightRebar\', \'LShapeRebar\', \'UShapeRebar\', \'BentShapeRebar\'.
 
--    **cross_front_cover**: The distance between cross rebar and cross\_face (face perpendicular to selected face).
+-    **cross_front_cover**: Distance entre l\'armature transversale et la face transversale (face perpendiculaire à la face sélectionnée).
 
--    **cross_rear_cover**: Rear cover for slab reinforcement of cross rebars.
+-    **cross_rear_cover**: Couverture arrière pour le renforcement de dalle des armatures transversales.
 
--    **cross_left_cover**: The distance between the left end of the cross rebar to the left face of the structure.
+-    **cross_left_cover**: Distance entre l\'extrémité gauche de l\'armature transversale et la face gauche de la structure.
 
--    **cross_right_cover**: The distance between the right end of the rebar to right face of the structure relative to cross\_face.
+-    **cross_right_cover**: Distance entre l\'extrémité droite de la barre d\'armature et la face droite de la structure par rapport à la face transversale.
 
--    **cross_top_cover**: The distance between cross rebar from the top face of the structure.
+-    **cross_top_cover**: Distance entre la barre d\'armature transversale et la face supérieure de la structure.
 
--    **cross_bottom_cover**: The distance between cross rebar from the bottom face of the structure.
+-    **cross_bottom_cover**: Distance entre les barres d\'armature croisées de la face inférieure de la structure.
 
--    **cross_diameter**: Diameter of cross rebars.
+-    **cross_diameter**: Diamètre des barres d\'armature transversales.
 
--    **cross_amount_spacing_check**: If is set to True, then value of cross\_amount\_spacing\_value is used as rebars count else cross\_amount\_spacing\_value\'s value is used as spacing in rebars.
+-    **cross_amount_spacing_check**: Si elle vaut True, la valeur de cross\_amount\_spacing\_value est utilisée comme nombre de barres, sinon la valeur de cross\_amount\_spacing\_value est utilisée comme espacement entre les barres.
 
--    **cross_amount_spacing_value**: It contains count of rebars or spacing between rebars based on value of cross\_amount\_spacing\_check.
+-    **cross_amount_spacing_value**: Contient le nombre d\'armatures ou l\'espacement entre les armatures en fonction de la valeur de cross\_amount\_spacing\_check.
 
--    **cross_rounding**: A rounding value to be applied to the corners of the bars, expressed in times the cross\_diameter.
+-    **cross_rounding**: Valeur d\'arrondi à appliquer aux coins des barres, exprimée en fois le cross\_diameter.
 
--    **cross_bent_bar_length**: It represents arm\'s length of bent shape cross rebar when cross\_rebar\_type is BentShapeRebar
+-    **cross_bent_bar_length**: Représente la longueur du bras de la barre d\'armature transversale pliée lorsque le type de barre transversale est BentShapeRebar.
 
--    **cross_bent_bar_angle**: It represents angle for bent shape cross rebar when cross\_rebar\_type is BentShapeRebar
+-    **cross_bent_bar_angle**: Représente l\'angle de la barre d\'armature transversale pliée lorsque le type de barre transversale est BentShapeRebar.
 
--    **cross_l_shape_hook_orintation**: It represents orintation of hook of cross L-Shape rebar if cross\_rebar\_type is LShapeRebar. It can have three values \"Left\", \"Right\", \"Alternate\"
+-    **cross_l_shape_hook_orintation**: Représente l\'orientation du crochet de la barre d\'armature transversale en forme de L si le type de barre transversale est LShapeRebar. Il peut avoir trois valeurs : \"Left\", \"Right\", \"Alternate\".
 
--    **cross_distribution_rebars_check**: If True add distribution rebars for cross bent shape rebars. Default is False.
+-    **cross_distribution_rebars_check**: Si True, ajoute des barres de distribution pour les barres de forme pliées en croix. La valeur par défaut est False.
 
--    **cross_distribution_rebars_diameter**: Diameter for distribution rebars for cross bent shape rebars.
+-    **cross_distribution_rebars_diameter**: Diamètre des armatures de distribution pour les armatures pliées en croix.
 
--    **cross_distribution_rebars_amount_spacing_check**: If is set to True, then value of cross\_distribution\_rebars\_amount\_spacing\_value is used as rebars count else cross\_distribution\_rebars\_amount\_spacing\_value\'s value is used as spacing in cross\_distribution\_rebars. Default is True.
+-    **cross_distribution_rebars_amount_spacing_check**: Si la valeur est True, alors la valeur de cross\_distribution\_rebars\_amount\_spacing\_value est utilisée comme nombre de barres, sinon la valeur de cross\_distribution\_rebars\_amount\_spacing\_value est utilisée comme espacement dans cross\_distribution\_rebars. La valeur par défaut est True.
 
--    **cross_distribution_rebars_amount_spacing_value**: It contains count or spacing between distribution rebars for one side of cross bent shape rebars based on value of cross\_distribution\_rebars\_check. Default is 2.
+-    **cross_distribution_rebars_amount_spacing_value**: Contient le nombre ou l\'espacement entre les barres de distribution pour un côté des barres de forme pliée en croix en fonction de la valeur de cross\_distribution\_rebars\_check. La valeur par défaut est 2.
 
-**Common Properties for Parallel and Cross Rebars:**
+**Propriétés communes aux armatures parallèles et croisées :**
 
--    **mesh_cover_along**: It can have two values \"Top\" and \"Bottom\". It represent alignment of rebar mesh along top or bottom face of structure.
+-    **mesh_cover_along**: Peut avoir deux valeurs \"Top\" et \"Bottom\". Représente l\'alignement des mailles d\'armature le long de la face supérieure ou inférieure de la structure.
 
--    **structure**: Arch structure object. Default is None
+-    **structure**: Objet de structure d\'arc. La valeur par défaut est None.
 
--    **facename**: selected face of structure. Default is None
+-    **facename**: Face sélectionnée de la structure. La valeur par défaut est None.
 
-### Edition of Slab Reinforcement 
+### Edition de l\'armature de la dalle 
 
-You can change the properties of the Slab Reinforcement with the following function
+Vous pouvez modifier les propriétés de l\'armature de dalle à l\'aide de la fonction suivante
 
 
 ```python
@@ -286,29 +313,29 @@ slabReinforcementGroup = editSlabReinforcement(
 )
 ```
 
--    `slabReinforcementGroup`is a previously created `Slab Reinforcement` group object.
+-    `slabReinforcementGroup`est un objet groupe `Slab Reinforcement` préalablement créé.
 
--   The other parameters are the same as required by the `makeSlabReinforcement()` function.
+-   Les autres paramètres sont les mêmes que ceux requis par la fonction `makeSlabReinforcement()`.
 
-### Examples for Slab Reinforcement 
+### Exemples de renforcement de dalles 
 
--   [Slab Spanning in Two Directions](Example_Slab_Spanning_in_Two_Directions.md)
+-   [Portée des dalles dans deux directions](Example_Slab_Spanning_in_Two_Directions/fr.md)
 
-<img alt="inline" src=images/Isometric_view_of_Bent_Shape_rebars_in_parallel_and_cross_direction_with_distribution_rebars.png  style="width:800px;">
+<img alt="en ligne" src=images/Isometric_view_of_Bent_Shape_rebars_in_parallel_and_cross_direction_with_distribution_rebars.png  style="width:800px;">
 
--   [Slab Spanning in One Direction](Example_Slab_Spanning_in_One_Direction.md)
+-   [Portée de la dalle dans une direction](Example_Slab_Spanning_in_One_Direction/fr.md)
 
-<img alt="inline" src=images/Slab_spanning_in_one_Direction.png  style="width:800px;">
+<img alt="en ligne" src=images/Slab_spanning_in_one_Direction.png  style="width:800px;">
 
--   [Slab Having Straight Rebars Reinforcement Mesh](Example_Slab_Having_Mesh_Of_Straight_Rebars.md)
+-   [Dalle avec armatures droites Mailles d\'armature](Example_Slab_Having_Mesh_Of_Straight_Rebars/fr.md)
 
 <img alt="" src=images/Slab_having_straight_rebars_in_both_direction.png  style="width:800px;">
 
--   [Slab Having U-Shape Rebars Reinforcement Mesh](Example_Slab_Having_UShape_Rebars_Reinforcement_Mesh.md)
+-   [Dalle avec armatures en forme de U Maillage d\'armature](Example_Slab_Having_UShape_Rebars_Reinforcement_Mesh/fr.md)
 
 <img alt="" src=images/U-shape_rebars_isometric_view.png  style="width:800px;">
 
--   [Slab Having L-Shape Rebars Reinforcement Mesh](Example_Slab_Having_LShape_Rebars_Reinforcement_Mesh.md)
+-   [Dalle avec armatures en forme de L Maillage d\'armature](Example_Slab_Having_LShape_Rebars_Reinforcement_Mesh/fr.md)
 
 <img alt="" src=images/L-Shape_Rebars_isometric_view.png  style="width:800px;">
 
@@ -318,7 +345,7 @@ slabReinforcementGroup = editSlabReinforcement(
 
  
 
-[Category:Reinforcement](Category:Reinforcement.md)
+_
 
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Rebar Slab Reinforcement/fr
+[documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar Slab Reinforcement/fr

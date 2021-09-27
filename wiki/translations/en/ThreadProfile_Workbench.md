@@ -3,7 +3,7 @@ ThreadProfile Workbench is a workbench for creating a thread profile, which can 
 
 Full documentation can be found on Github: [ThreadProfile Workbench on Github](https://github.com/mwganson/ThreadProfile)
 
-[Category:Addons](Category:Addons.md)
+_
 
 ---
-[documentation index](../README.md) > ThreadProfile Workbench/en
+[documentation index](../README.md) > [Addons](Category_Addons.md) > ThreadProfile Workbench/en

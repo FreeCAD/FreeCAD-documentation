@@ -56,7 +56,7 @@ Der Danksagungen Reiter zeigt eine Liste der Mitwirkenden am FreeCAD Projekt. Um
 
 ### Lizenz
 
-FreeCAD ist lizenziert unter den Bedingungen der [GNU Lesser General Public License 2](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License) (LGPL 2). Der vollständige Text dieser Lizenz ist hier aufgeführt. Siehe [Lizenz](licence/de.md) für weitere Details.
+FreeCAD ist lizenziert unter den Bedingungen der _ für weitere Details.
 
 Da FreeCAD externe Bibliotheken verwendet, können diese ihre eigenen Lizenzbedingungen haben. Schlage die jeweiligen Lizenzen unter [Drittanbieter Bibliotheken](Third_Party_Libraries/de.md) nach.
 
@@ -71,7 +71,7 @@ Der Bibliotheken Reiter zeigt eine Liste der externen Bibliotheken, die vom Prog
 
 {{Std Base navi}}  
 
-[Category:Common Questions](Category:Common_Questions.md)
+_
 
 ---
-[documentation index](../README.md) > [Common Questions](Category:Common Questions.md) > Std About/de
+[documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > Std About/de

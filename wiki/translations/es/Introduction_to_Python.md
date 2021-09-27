@@ -16,7 +16,7 @@ o siguiente es una introducción muy básica, y de ninguna manera un tutorial co
 
 Por lo general, cuando se escriben programas de ordenador, se abre un editor de texto o su entorno de programación especial (que es básicamente un editor de texto con algunas herramientas adicionales), se escribe el programa, luego se compila y se ejecuta. A menudo se cometieron uno o más errores durante la entrada, por lo que su programa no funcionará. Puede que incluso aparezca un mensaje de error indicando lo que ha fallado. Entonces vuelves a tu editor de texto, corriges los errores, ejecutas de nuevo, repitiendo hasta que tu programa funcione como es debido.
 
-En Python todo ese proceso se puede hacer de forma transparente dentro del intérprete de Python. El intérprete es una ventana de Python con un prompt de comandos, donde puedes simplemente escribir código Python. Si has instalado Python en tu ordenador (descárgalo desde el [Python página web](https://www.python.org/) si estás en Windows o Mac, instálalo desde tu repositorio de paquetes si estás en GNU/Linux), tendrás un intérprete de Python en tu menú de inicio. Pero, como ya se ha mencionado, FreeCAD también tiene un intérprete de Python incorporado: la [Consola de Python](Python_console/es.md).
+En Python todo ese proceso se puede hacer de forma transparente dentro del intérprete de Python. El intérprete es una ventana de Python con un prompt de comandos, donde puedes simplemente escribir código Python. Si has instalado Python en tu ordenador (descárgalo desde el _.
 
 ![](images/FreeCAD_Python_console.png ) *La consola de FreeCAD Python*
 
@@ -497,7 +497,7 @@ dir()
 
 }} 
 
-[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Introduction to Python/es
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Introduction to Python/es

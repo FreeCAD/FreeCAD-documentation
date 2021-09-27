@@ -39,7 +39,7 @@ Dacă adăugaţi [skip ci] sau [ci skip] pentru comiterea unui \"git\", aceasta 
 
  
 
-[Category:Developer\_Documentation](Category:Developer_Documentation.md) [Category:Testing](Category:Testing.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Developer_Documentation](Category:Developer_Documentation.md) > Continuous Integration/ro
+[documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > Continuous Integration/ro

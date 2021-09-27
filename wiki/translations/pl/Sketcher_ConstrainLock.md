@@ -23,7 +23,7 @@
 
 ## Tworzenie skryptów 
 
-Wiązanie <img alt="" src=images/Sketcher_ConstrainLock.svg  style="width:24px;"> [Blokada wiązania](Sketcher_ConstrainLock/pl.md) jest poleceniem GUI, które tworzy wiązanie <img alt="" src=images/Sketcher_ConstrainDistanceX.svg  style="width:24px;"> [odległości poziomej](Sketcher_ConstrainDistanceX/pl.md) oraz <img alt="" src=images/Sketcher_ConstrainDistanceY.svg  style="width:24px;"> [odległości pionowej](Sketcher_ConstrainDistanceY/pl.md), i nie stanowi samodzielnego wiązania. Zobacz stronę [Skrypty Szkicownika](Sketcher_scripting/pl.md), aby uzyskać szczegóły i przykłady, jak tworzyć te wiązania za pomocą skryptów języka Python.
+Wiązanie <img alt="" src=images/Sketcher_ConstrainLock.svg  style="width:24px;"> _ oraz <img alt="" src=images/Sketcher_ConstrainDistanceY.svg  style="width:24px;"> [odległości pionowej](Sketcher_ConstrainDistanceY/pl.md), i nie stanowi samodzielnego wiązania. Zobacz stronę [Skrypty Szkicownika](Sketcher_scripting/pl.md), aby uzyskać szczegóły i przykłady, jak tworzyć te wiązania za pomocą skryptów języka Python.
 
 
 

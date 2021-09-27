@@ -592,7 +592,13 @@ Jeśli nowo załadowane środowisko pracy posiada dedykowane preferencje, pojawi
 
 Aby zapoznać się z listą preferencji Środowiska pracy, zobacz [Preferencje Środowiska pracy](#Preferencje_Środowiska_pracy.md)
 
+
+<div class="mw-translate-fuzzy">
+
 ![](images/Preferences_Workbenches_Tab_Unloaded_Workbenches.png )
+
+
+</div>
 
 ## Konfiguracja dla importu i eksportu 
 
@@ -603,7 +609,7 @@ Ustawienia Import-Export wpływają na sposób importowania i eksportowania plik
 
 **Ta sekcja jest niekompletna i wymaga podania stron z opisem preferencji, każdego podstawowego Środowiska pracy.**
 
-Preferencje dla bardziej popularnych stołów warsztatowych są linkowane poniżej. Niektóre stoły warsztatowe nie mają preferencji. Inne opcjonalne Środowiska pracy mogą nie być tutaj wymienione. Te linki są również wymienione w [:Category:Preferences](:Category:Preferences.md)
+Preferencje dla bardziej popularnych stołów warsztatowych są linkowane poniżej. Niektóre stoły warsztatowe nie mają preferencji. Inne opcjonalne Środowiska pracy mogą nie być tutaj wymienione. Te linki są również wymienione w _
 
 -   [konfiguracja środowiska Architektura](Arch_Preferences/pl.md)
 -   [konfiguracja środowiska Rysunek Roboczy](Draft_Preferences/pl.md)
@@ -661,7 +667,7 @@ For a scripting example see [Std DlgParameter](Std_DlgParameter.md).
 
 
 
-[Category:Preferences](Category:Preferences.md)
+_
 
 ---
-[documentation index](../README.md) > [Preferences](Category:Preferences.md) > Preferences Editor/pl
+[documentation index](../README.md) > [Preferences](Category_Preferences.md) > Preferences Editor/pl

@@ -21,7 +21,7 @@ L\'élément Std Part a été développé pour être le bloc de construction de 
 
 Bien qu\'elle soit principalement destinée aux corps solides, Std Part peut être utilisée pour gérer tout objet possédant une propriété [Positionnement](Placement/fr.md), elle peut donc également contenir [Mesh Features](Mesh_Feature/fr.md), [Esquisses](Sketch/fr.md) et d\'autres objets dérivés de la classe [App GeoFeature](App_GeoFeature/fr.md).
 
-Ne pas confondre **<img src=images/PartDesign_Body.svg style="width:16px"> <img src=images/Std_Part.svg style="width:PartDesign Corps](PartDesign_Body/fr.md)** avec **[16px"> [Std Part](Std_Part/fr.md)**. Le premier est un objet spécifique utilisé dans l\'<img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Atelier PartDesign](PartDesign_Workbench/fr.md), destiné à modéliser un [solide contigu unique](PartDesign_Body/fr#Solide_contigu_unique.md) au moyen de [PartDesign Features](PartDesign_Feature/fr.md). En revanche, [Std Part](Std_Part.md) n\'est pas utilisée pour la modélisation, juste pour arranger différents objets dans l\'espace, avec l\'intention de créer des [assemblages](assembly/fr.md).
+Ne pas confondre **<img src=images/PartDesign_Body.svg style="width:16px"> <img src=images/Std_Part.svg style="width:PartDesign Corps](PartDesign_Body/fr.md)** avec **_, destiné à modéliser un [solide contigu unique](PartDesign_Body/fr#Solide_contigu_unique.md) au moyen de [PartDesign Features](PartDesign_Feature/fr.md). En revanche, [Std Part](Std_Part.md) n\'est pas utilisée pour la modélisation, juste pour arranger différents objets dans l\'espace, avec l\'intention de créer des [assemblages](assembly/fr.md).
 
 L\'outil **<img src=images/Std_Part.svg style="width:16px"> <img src=images/Std_Group.svg style="width:Std Part](Std_Part/fr.md)** n\'est pas défini par un atelier particulier mais par le système de base. Il se trouve donc dans la **structure toolbar** qui est disponible dans tous les [ateliers](Workbenches/fr.md). Pour grouper des objets arbitrairement sans tenir compte de leur position, utilisez **[16px"> [Std Groupe](Std_Group/fr.md)**. Cet objet n\'affecte pas les placements des éléments qu\'il contient, c\'est essentiellement juste un dossier qui sert à garder la [Vue en arborescence](Tree_view/fr.md) organisée.
 
@@ -49,7 +49,7 @@ L\'outil **<img src=images/Std_Part.svg style="width:16px"> <img src=images/Std_
 
 ## Propriétés
 
-[Std Part](Std_Part/fr.md) est appelée en interne [App Part](App_Part/fr.md) (classe `App::Part`) et est dérivé d\'une [App GeoFeature](App_GeoFeature/fr.md) (classe `App::GeoFeature`). Il partage donc la plupart des propriétés de ce dernier.
+_ (classe `App::GeoFeature`). Il partage donc la plupart des propriétés de ce dernier.
 
 En plus des propriétés décrites dans [App GeoFeature](App_GeoFeature/fr.md), la classe App Part possède des propriétés qui l\'aident à gérer les informations dans le contexte d\'un assemblage, par exemple, **Type**, **Id**, **License**, **LicenseURL**, **Color** et **Group**.
 
@@ -173,7 +173,7 @@ L\'Origine se compose des trois axes standard (X, Y, Z) et de trois plans standa
 ![](images/Part_Origin_tree.png ) ![](images/Part_Origin_view.png )
 
 
-*À gauche : Part Origin dans la [vue en arborescence](tree_view/fr.md) et telle qu'elle apparaît affichée dans la [vue 3D](3D_view/fr.md). À droite : représentation des éléments Origin dans la [Vue 3D](3D_view/fr.md).*
+*À gauche : Part Origin dans la _.*
 
 
 **Remarque :**
@@ -189,11 +189,11 @@ tous les éléments à l\'intérieur du Part sont référencés à l\'origine du
 
 La visibilité d\'un Part remplace la visibilité de tout objet qu\'elle contient. Si Part est masqué, les objets qu\'il contient seront également masqués, même si leur propriété individuelle **Visibility** est définie sur `True`. Si Part est visible, la **Visibility** de chaque objet détermine si l\'objet est affiché ou non.
 
-![](images/Part_Visibility_off.png ) ![](images/Part_Visibility_on.png ) *La visibilité de Std Part détermine si les objets regroupés sous lui sont affichés dans la [vue 3D](3D_view/fr.md) ou non. À gauche : Part est masqué, donc aucun des objets ne sera affiché dans la [vue 3D](3D_view/fr.md). À droite : Part est visible, donc chaque objet contrôle sa propre visibilité.*
+!_. À droite : Part est visible, donc chaque objet contrôle sa propre visibilité.*
 
 ### Héritage
 
-Un [Std Part](Std_Part/fr.md) est formellement une instance de la classe `App::Part` dont le parent est la base de [App GeoFeature](App_GeoFeature/fr.md) (`App::GeoFeature` class) et est complété par une extension Origin.
+Un _ (`App::GeoFeature` class) et est complété par une extension Origin.
 
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
 

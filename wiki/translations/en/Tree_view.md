@@ -70,7 +70,7 @@ If you select the active document and right click, in addition to **Expression a
 
 -    **Mark to recompute**: marks all objects of the document as touched, and ready for [recompute](Std_Refresh.md).
 
--    **[Create group](Std_Group.md)**: creates a [group](Std_Group.md) in the selected document by using the document\'s `addObject()` method.
+-    **_ in the selected document by using the document\'s `addObject()` method.
 
 ### Selecting objects 
 
@@ -78,19 +78,19 @@ Once objects are added to the document then in addition to the previous actions,
 
 For example, with the [Draft Workbench](Draft_Workbench.md) active, first select an object, then right click on an empty place in the tree view:
 
--    **[Toggle visibility](Std_ToggleVisibility.md)**: makes the object visible or invisible in the [3D view](3D_view.md).
+-    **_.
 
 -    **[Show selection](Std_ShowSelection.md)**: makes the selected objects visible.
 
 -    **[Hide selection](Std_HideSelection.md)**: makes the selected objects invisible.
 
--    **[Toggle selectability](Std_ToggleSelectability.md)**: makes the object no longer selectable in the [3D view](3D_view.md); use again this command to cancel its effect. It sets the object\'s `Selectable` attribute to `True` or `False`. Change the property by toggling **Selectable** in the [property editor](Property_editor.md).
+-    **_; use again this command to cancel its effect. It sets the object\'s `Selectable` attribute to `True` or `False`. Change the property by toggling **Selectable** in the [property editor](Property_editor.md).
 
 -    **[Select all instances](Std_TreeSelectAllInstances.md)**: selects all instances of this object in the tree view.
 
 -    **[Appearance](Std_SetAppearance.md)**: launches the dialog to change color and sizes of lines and vertices, and color of faces.
 
--    **[Random color](Std_RandomColor.md)**: assigns a random color to the object. It sets the object\'s `ShapeColor` attribute to a tuple `(r,g,b)` with tree random floats between 0 and 1. Change the property by modifying **Shape Color** in the [property editor](Property_editor.md).
+-    **_.
 
 -    **[Cut](Std_Cut.md)**: disabled if the right-click is not on the object.
 

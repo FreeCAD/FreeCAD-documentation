@@ -18,7 +18,7 @@ For all icons in the source tree, see [Artwork](Artwork.md).
 
 }} 
 
-[Category:Web](Category:Web.md)
+_
 
 ---
-[documentation index](../README.md) > [Web](Category:Web.md) > Artwork Web/it
+[documentation index](../README.md) > [Web](Category_Web.md) > Artwork Web/it

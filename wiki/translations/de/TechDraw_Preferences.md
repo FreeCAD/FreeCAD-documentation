@@ -206,7 +206,7 @@ Einige Einrichtungseinstellungen sind nur über den [Parametereditor](Std_DlgPar
 
 }} 
 
-[Category:Preferences](Category:Preferences.md)
+_
 
 ---
-[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Preferences/de
+[documentation index](../README.md) > [Preferences](Category_Preferences.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Preferences/de

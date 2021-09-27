@@ -16,7 +16,7 @@ The <img alt="" src=images/Design456_2DTrimLine.svg  style="width:24px;"> **Desi
 
 ## Usage
 
-1.  Switch to the <img alt="" src=images/Design456_workbench_icon.svg  style="width:24px;"> [Design456](Design456_Workbench.md) workbench (install from <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Addon_Manager.md) is necessary, if not previously installed)
+1.  Switch to the <img alt="" src=images/Design456_workbench_icon.svg  style="width:24px;"> _ is necessary, if not previously installed)
 2.  Select any edge, line or wire to trim. This tool can be used to cut a wire in the middle or a 2D shape. If it is used on an Arc it will be deleted. If no edges or lines remains in the original shape, the last line will be deleted and the object will no longer exist in the object lists.
 
 After using this tool in the middle of a wire, two different wires will be created.
@@ -44,7 +44,7 @@ Unknown yet.
 
 }} 
 
-[Category:External Command Reference](Category:External_Command_Reference.md)
+_
 
 ---
-[documentation index](../README.md) > [External Command Reference](Category:External Command Reference.md) > Design456 2DTrim
+[documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > Design456 2DTrim

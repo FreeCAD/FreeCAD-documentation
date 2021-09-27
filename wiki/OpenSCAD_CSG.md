@@ -36,7 +36,7 @@ Every object derived from Part::Feature which is not (yet) supported will get me
 
   {{OpenSCAD Tools navi}}
 
-[Category:File\_Formats](Category:File_Formats.md)
+_
 
 ---
-[documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD CSG
+[documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD CSG

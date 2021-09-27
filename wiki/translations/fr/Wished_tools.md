@@ -78,7 +78,7 @@ Si vous êtes un utilisateur de CAO et que vous souhaitez ajouter des éléments
 -   Roof
 -   Assemblies
 
-[Category:Hubs](Category:Hubs.md) [Category:Roadmap](Category:Roadmap.md) [Category:Developer](Category:Developer.md)
+_ _ _
 
 ---
-[documentation index](../README.md) > [Hubs](Category:Hubs.md) > Wished tools/fr
+[documentation index](../README.md) > [Hubs](Category_Hubs.md) > Wished tools/fr

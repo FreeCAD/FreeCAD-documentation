@@ -49,7 +49,7 @@ Download the Curves workbench via the <img alt="" src=images/AddonManager.svg  s
 
  {{Curves Tools navi}} 
 
-[Category:External Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)
+_ _
 
 ---
-[documentation index](../README.md) > Curves Workbench
+[documentation index](../README.md) > [External Workbenches](Category_External Workbenches.md) > Curves Workbench

@@ -1,6 +1,6 @@
 # Sketcher ConstrainPointOnObject/cs
 ---
-- GuiCommand:/cs   Name:Constraint PointOnObject   Name/cs:Constraint PointOnObject   Workbenches:[Návrh dílu](Sketcher_Workbench/cs___Náčrt]],_[[PartDesign_Workbench/cs.md)|MenuLocation:Sketch → Sketcher constraints → Constrain point onto object   SeeAlso:[Vazba totožnosti](Constraint_PointOnPoint/cs.md)---
+- GuiCommand:/cs   Name:Constraint PointOnObject   Name/cs:Constraint PointOnObject   Workbenches:_---
 
 
 </div>

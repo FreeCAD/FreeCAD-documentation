@@ -49,7 +49,7 @@ Para aprender a usar o sistema de controle de revisão e contribuir com o códig
 
 
 
-[Category:Developer\_Documentation](Category:Developer_Documentation.md) [Category:Developer](Category:Developer.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Developer_Documentation](Category:Developer_Documentation.md) > Compiling/pt-br
+[documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > Compiling/pt-br

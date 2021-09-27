@@ -15,7 +15,7 @@ Das [U-förmiger Bewehrungsstab](Arch_Rebar_UShape/de.md)-Werkzeug erlaubt es de
 
 Das **<img src="images/Arch_Rebar_UShape.svg" width=16px>[Bewehrungsstab U-förmig](Arch_Rebar_UShape/de.md)**-Werkzeug ist auch in den [BIM Arbeitsbereich](BIM_Workbench/de.md) integriert.
 
-Dieser Befehl ist Teil der [BewehrungsErweiterung](Reinforcement_Workbench/de.md), eines [externen Arbeitsbereichs](External_Workbenches.md), der mit dem <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Erweiterungsverwalter](Addon_Manager/de.md) über das {{MenuCommand/de|Werkzeuge → Erweiterungsverwalter → Bewehrung}}-Menü installiert werden kann.
+Dieser Befehl ist Teil der _ über das {{MenuCommand/de|Werkzeuge → Erweiterungsverwalter → Bewehrung}}-Menü installiert werden kann.
 
 <img alt="" src=images/Arch_Rebar_UShape_example.png  style="width:400px;"> 
 *Zwei Sätze von U-förmigen Bewehrungsstäben in einer [Struktur](Arch_Structure/de.md)*
@@ -145,7 +145,7 @@ UShapeRebar.editUShapeRebar(Rebar2, 70, 50, 20, 20,
 
  
 
-[Category:Reinforcement](Category:Reinforcement.md)
+_
 
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Rebar UShape/de
+[documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar UShape/de

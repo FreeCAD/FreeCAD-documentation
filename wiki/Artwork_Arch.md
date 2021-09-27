@@ -15,7 +15,7 @@ For all icons in the source tree, see [Artwork](Artwork.md).
 
  
 
-[Category:Arch](Category:Arch.md)
+_
 
 ---
-[documentation index](../README.md) > [Arch](Category:Arch.md) > Artwork Arch
+[documentation index](../README.md) > [Arch](Category_Arch.md) > Artwork Arch

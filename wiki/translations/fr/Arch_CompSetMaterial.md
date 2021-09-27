@@ -20,4 +20,4 @@ Les outils Matériaux permettent d\'ajouter des matériaux au document actif.
 -   <img alt="" src=images/Arch_MultiMaterial.svg  style="width:32px;"> [Matériaux multiples](Arch_MultiMaterial/fr.md): crée un multi-matériau et l\'attribue aux objets sélectionnés, le cas échéant {{Version/fr|0.17}}.
 
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CompSetMaterial/fr
+[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch CompSetMaterial/fr

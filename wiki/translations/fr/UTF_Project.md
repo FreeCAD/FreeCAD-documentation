@@ -40,7 +40,7 @@ Migrer des modules pour exploiter de nouveaux nœuds à l\'aide de [SoText2](htt
 
 
 
-[Category:Roadmap](Category:Roadmap.md)
+_
 
 ---
-[documentation index](../README.md) > [Roadmap](Category:Roadmap.md) > UTF Project/fr
+[documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > UTF Project/fr

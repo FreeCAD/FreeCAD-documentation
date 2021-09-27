@@ -27,7 +27,7 @@ All Points Workbench tools can be accessed from the **Points** menu. Some tools 
 
 ## Notes
 
--   [Draft](Draft_Workbench.md) commands such as <img alt="" src=images/Draft_Line.svg  style="width:24px;"> [Draft Line](Draft_Line.md) and <img alt="" src=images/Draft_BSpline.svg  style="width:24px;"> [Draft BSpline](Draft_BSpline.md) can be used to connect the points in a point cloud. Use <img alt="" src=images/Draft_Snap_Endpoint.svg  style="width:24px;"> [Draft Snap Endpoint](Draft_Snap_Endpoint.md) to snap to the points.
+-   _ and <img alt="" src=images/Draft_BSpline.svg  style="width:24px;"> _ to snap to the points.
 -   [Python](Python.md) can be used to analyze and process point clouds. See the following forum discussions:
     -   [Inspecting Point cloud](http://forum.freecadweb.org/viewtopic.php?f=3&t=16098).
     -   [Fläche aus Messwerten](http://forum.freecadweb.org/viewtopic.php?f=13&t=15988) (German)
@@ -44,7 +44,7 @@ All Points Workbench tools can be accessed from the **Points** menu. Some tools 
 
 }} 
 
-[Category:Workbenches](Category:Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > Points Workbench/hu
+[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Points Workbench/hu

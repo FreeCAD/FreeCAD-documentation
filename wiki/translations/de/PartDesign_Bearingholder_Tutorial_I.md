@@ -7,7 +7,7 @@
 }}
 
 
-**Dieses Tutorium wurde ursprünglich für eine inzwischen veraltete Entwicklungsversion von FreeCAD geschrieben. Dieses Tutorium muss komplett neu geschrieben werden, um es an die Änderungen im PartDesign anzupassen, die in der kommenden Version 0.17 vorgenommen werden. Das Neuschreiben wurde in [NormandC](Sandbox:PartDesign_Bearingholder_Tutorial_I]]_begonnen. Wenn du teilnehmen möchtest, schreibe bitte einen Beitrag im Wiki Bereich des [http://forum.freecadweb.org Forum]. - [[Benutzer:Normandc.md)**
+**Dieses Tutorium wurde ursprünglich für eine inzwischen veraltete Entwicklungsversion von FreeCAD geschrieben. Dieses Tutorium muss komplett neu geschrieben werden, um es an die Änderungen im PartDesign anzupassen, die in der kommenden Version 0.17 vorgenommen werden. Das Neuschreiben wurde in _**
 
 ![Lagergehäuse Tutorium - Fertiges Lagergehäuse (oben)\|thumb\|right\|400px](images/HolderTop1-1.jpg )
 
@@ -21,7 +21,7 @@ Dies ist der erste Teil des Tutoriums. Es wird der so genannte \"Ein Körper\" A
 
 Um dieses Tutorium durcharbeiten zu können musst du offensichtlich den PartDesign Arbeitsbereich aktivieren.
 
-~~Du findest meine Version des von diesem Tutorium erstellten Teils [http://ubuntuone.com/5gok0J4dye3Fo4BKWMGWVa hier](http://ubuntuone.com/5gok0J4dye3Fo4BKWMGWVa_hier.md).~~ *Die Datei ist nicht mehr verfügbar, eine neue wird zu einem späteren Zeitpunkt bereitgestellt werden*.
+~~Du findest meine Version des von diesem Tutorium erstellten Teils _.~~ *Die Datei ist nicht mehr verfügbar, eine neue wird zu einem späteren Zeitpunkt bereitgestellt werden*.
 
 ## Konstruktionsdaten
 
@@ -109,7 +109,7 @@ Wir haben die Oberseite des Lagergehäuses mit den Abmessungen modelliert, die e
 
 
 
-[Category:Tutorials](Category:Tutorials.md)
+_
 
 ---
-[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Bearingholder Tutorial I/de
+[documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Bearingholder Tutorial I/de

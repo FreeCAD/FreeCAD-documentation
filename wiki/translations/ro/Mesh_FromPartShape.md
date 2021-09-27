@@ -17,7 +17,7 @@ Această comandă creează o plasă dintr-un obiect tip formă.
 
 </div>
 
-The inverse operation is [Part ShapeFromMesh](Part_ShapeFromMesh.md) from the <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part Workbench](Part_Workbench.md).
+The inverse operation is _.
 
 ## Utilizare
 

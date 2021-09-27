@@ -55,7 +55,7 @@ Selecciona el gráfico que deseas salvar mediante las pestañas de la vista prin
 
 }} 
 
-[Category:External\_Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)
+_ _
 
 ---
-[documentation index](../README.md) > [External_Workbenches](Category:External_Workbenches.md) > Plot Save/es
+[documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > Plot Save/es

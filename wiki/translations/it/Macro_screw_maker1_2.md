@@ -38,7 +38,7 @@ Creare il filetto richiede molto tempo. Siate pazienti e date un\'occhiata all\'
 
 ## Codice
 
-L\'ultima versione della macro è disponibile all\'indirizzo [ScrewMaker.FCMacro](https://github.com/FreeCAD/FreeCAD-macros/blob/master/ObjectCreation/ScrewMaker.FCMacro) ma il modo più semplice per installare questa macro è tramite [Addon Manager](AddonManager/it.md).
+L\'ultima versione della macro è disponibile all\'indirizzo _.
 
 ToolBar Icon ![](images/Macro_screw_maker1_2.png )
 

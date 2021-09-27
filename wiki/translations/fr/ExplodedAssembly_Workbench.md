@@ -64,7 +64,7 @@ C\'est tout, la prochaine fois que vous lancerez FreeCAD, l\'atelier devrait êt
 
 
 
-[Category:Sandbox](Category:Sandbox.md) [Category:User Documentation](Category:User_Documentation.md) [Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+_ _ _ _
 
 ---
-[documentation index](../README.md) > ExplodedAssembly Workbench/fr
+[documentation index](../README.md) > [Sandbox](Category_Sandbox.md) > ExplodedAssembly Workbench/fr

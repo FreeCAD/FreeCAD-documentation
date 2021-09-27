@@ -5,7 +5,7 @@
 
 <img alt="" src=images/Link.svg  style="width:32px;">
 
-Eine [Anwendungsverkn체pfung](App_Link/de.md) oder formal ein `App::Link`, ist ein Objekttyp, der auf ein anderes Objekt im selben Dokument oder in einem anderen Dokument verweist oder auf ein anderes Objekt verkn체pft. Es wurde speziell entwickelt, um ein einzelnes Objekt effizient mehrfach zu duplizieren, was bei der Erstellung komplexer [Baugruppen](assembly/de.md) aus kleineren Unterbaugruppen und aus mehreren wiederverwendbaren Komponenten wie Schrauben, Muttern und 채hnlichen Verbindungselementen hilfreich ist.
+Eine _ aus kleineren Unterbaugruppen und aus mehreren wiederverwendbaren Komponenten wie Schrauben, Muttern und 채hnlichen Verbindungselementen hilfreich ist.
 
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
 
@@ -21,7 +21,7 @@ Siehe die [Std Verkn체pfungErstellen](Std_LinkMake/de.md) Seite f체r die vollst�
 
 ## Eigenschaften
 
-Eine [Anwendungsverkn체pfung](App_Link.md) (`App::Link` Klasse) wird aus der [Anwendung DokumentObjekt](App_DocumentObject/de.md) (`App::DocumentObject` Klasse) abgeleitet. Daher haben sie die meisten gleichen Eigenschaften.
+Eine _ (`App::DocumentObject` Klasse) abgeleitet. Daher haben sie die meisten gleichen Eigenschaften.
 
 Siehe die vollst채ndige Liste der Eigenschaften auf der [Std Verkn체pfungHerstellen](Std_LinkMake/de.md) Seite.
 

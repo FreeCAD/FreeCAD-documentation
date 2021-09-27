@@ -14,11 +14,11 @@
 
 ## Introduzione
 
-Le funzionalità di modellazione di solidi di FreeCAD sono basate sul kernel [OpenCASCADE](OpenCASCADE/it.md) (OCCT), un sistema CAD di livello professionale che offre funzionalità avanzate per la creazione e manipolazione della geometria 3D. L\'ambiente <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part](Part_Workbench/it.md) è su un livello superiore alle librerie OCCT, che fornisce all\'utente l\'accesso alle primitive e alle funzioni geometriche OCCT. Essenzialmente tutte le funzioni di disegno 2D e 3D in FreeCAD, negli ambienti <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft](Draft_Workbench/it.md), <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Sketcher](Sketcher_Workbench/it.md), <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench/it.md), ecc. si basano sulle funzioni esposte dall\'ambiente Parte. Pertanto, L\'ambiente Part può essere considerato il componente principale delle funzioni di disegno di FreeCAD.
+Le funzionalità di modellazione di solidi di FreeCAD sono basate sul kernel _ è su un livello superiore alle librerie OCCT, che fornisce all\'utente l\'accesso alle primitive e alle funzioni geometriche OCCT. Essenzialmente tutte le funzioni di disegno 2D e 3D in FreeCAD, negli ambienti <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> _, <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench/it.md), ecc. si basano sulle funzioni esposte dall\'ambiente Parte. Pertanto, L\'ambiente Part può essere considerato il componente principale delle funzioni di disegno di FreeCAD.
 
 Una discussione più dettagliata dell\'ambiente Part e dell\'ambiente PartDesign può essere trovata qui: [Part e PartDesign](Part_and_PartDesign/it.md).
 
-Gli oggetti creati con Part sono relativamente semplici; sono pensati per essere utilizzati con le operazioni booleane (unioni e tagli) al fine di costruire forme più complesse. **Questo paradigma di modellazione è noto come flusso di lavoro [geometria solida costruttiva](constructive_solid_geometry/it.md) (CSG) ed era la metodologia tradizionale utilizzata nei primi sistemi CAD.** D\'altra parte, l\'ambiente [PartDesign](PartDesign_Workbench/it.md) fornisce un flusso di lavoro più moderno per la costruzione di forme: utilizza schizzi parametrici definiti, che vengono estrusi per formare un corpo solido di base, che viene poi modificato da trasformazioni parametriche ([editazione delle funzioni](feature_editing/it.md)), fino a quando non si ottiene l\'oggetto finale.
+Gli oggetti creati con Part sono relativamente semplici; sono pensati per essere utilizzati con le operazioni booleane (unioni e tagli) al fine di costruire forme più complesse. **Questo paradigma di modellazione è noto come flusso di lavoro _), fino a quando non si ottiene l\'oggetto finale.
 
 Gli oggetti Parte sono più complessi degli oggetti mesh creati con l\'ambiente [Mesh](Mesh_Workbench/it.md), e consentono operazioni più avanzate come le operazioni booleane coerenti, la cronologia delle modifiche e il comportamento parametrico.
 
@@ -49,12 +49,12 @@ Questi sono strumenti per creare oggetti primitivi.
 
 -   <img alt="" src=images/Part_Primitives.svg  style="width:32px;"> [Primitive](Part_Primitives/it.md): Uno strumento per creare una delle seguenti primitive:
     -   <img alt="" src=images/Part_Plane.svg  style="width:32px;"> [Piano](Part_Plane/it.md): Crea un piano.
-    -   <img alt="" src=images/Tree_Part_Box_Parametric.svg  style="width:32px;"> [Prisma](Part_Box/it.md): Crea un parallelepipedo. Questo oggetto può essere creato anche con lo strumento<img alt="" src=images/Part_Box.svg  style="width:32px;"> [Prisma](Part_Box/it.md).
-    -   <img alt="" src=images/Tree_Part_Cylinder_Parametric.svg  style="width:32px;"> [Cilindro](Part_Cylinder/it.md): Crea un cilindro. Questo oggetto può essere creato anche con lo strumento<img alt="" src=images/Part_Cylinder.svg  style="width:32px;"> [Cilindro](Part_Cylinder/it.md).
-    -   <img alt="" src=images/Tree_Part_Cone_Parametric.svg  style="width:32px;"> [Cono](Part_Cone/it.md): Crea un cono. Questo oggetto può essere creato anche con lo strumento<img alt="" src=images/Part_Cone.svg  style="width:32px;"> [Cono](Part_Cone/it.md) .
-    -   <img alt="" src=images/Tree_Part_Sphere_Parametric.svg  style="width:32px;"> [Sfera](Part_Sphere/it.md): Crea una sfera. Questo oggetto può essere creato anche con lo strumento<img alt="" src=images/Part_Sphere.svg  style="width:32px;"> [Sfera](Part_Sphere/it.md).
+    -   <img alt="" src=images/Tree_Part_Box_Parametric.svg  style="width:32px;"> _.
+    -   <img alt="" src=images/Tree_Part_Cylinder_Parametric.svg  style="width:32px;"> _.
+    -   <img alt="" src=images/Tree_Part_Cone_Parametric.svg  style="width:32px;"> _ .
+    -   <img alt="" src=images/Tree_Part_Sphere_Parametric.svg  style="width:32px;"> _.
     -   <img alt="" src=images/Part_Ellipsoid.svg  style="width:32px;"> [Ellissoide](Part_Ellipsoid/it.md): Crea un Ellissoide.
-    -   <img alt="" src=images/Tree_Part_Torus_Parametric.svg  style="width:32px;"> [Toro](Part_Torus/it.md): Crea un toro (anello). Questo oggetto può essere creato anche con lo strumento <img alt="" src=images/Part_Torus.svg  style="width:32px;"> [Toro](Part_Torus/it.md).
+    -   <img alt="" src=images/Tree_Part_Torus_Parametric.svg  style="width:32px;"> _.
     -   <img alt="" src=images/Part_Prism.svg  style="width:32px;"> [Prisma](Part_Prism/it.md): Crea un prisma.
     -   <img alt="" src=images/Part_Wedge.svg  style="width:32px;"> [Cuneo](Part_Wedge/it.md): Crea un cuneo.
     -   <img alt="" src=images/Part_Helix.svg  style="width:32px;"> [Elica](Part_Helix.md): Crea una elica.
@@ -135,7 +135,7 @@ Questi strumenti eseguono operazioni booleane.
     -   <img alt="" src=images/Part_BooleanFragments.svg  style="width:32px;"> [Frammenti booleani](Part_BooleanFragments/it.md): Crea qualsiasi pezzo ottenendolo da operazioni booleane.
     -   <img alt="" src=images/Part_SliceApart.svg  style="width:32px;"> [Affetta in parti](Part_SliceApart/it.md): Taglia e divide un oggetto intersecandolo con altri oggetti.
     -   <img alt="" src=images/Part_Slice.svg  style="width:32px;"> [Affetta in composto](Part_Slice/it.md): Taglia un oggetto intersecandolo con altri oggetti.
-    -   <img alt="" src=images/Part_XOR.svg  style="width:32px;"> [Booleana XOR](Part_XOR/it.md): Rimuove lo spazio condiviso da un numero pari di oggetti (versione simmetrica di [Taglia](Part_Cut/it.md)).
+    -   <img alt="" src=images/Part_XOR.svg  style="width:32px;"> _).
 
 ### Misure
 
@@ -215,7 +215,7 @@ Vedere [Script di Part](Part_scripting/it.md)
 
  
 
-[Category:Workbenches](Category:Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Module/it
+[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Part](Part_Workbench.md) > Part Module/it

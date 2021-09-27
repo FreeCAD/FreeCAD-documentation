@@ -19,7 +19,7 @@ For all icons in the source tree, see [Artwork](Artwork.md).
 
  
 
-[Category:PartDesign](Category:PartDesign.md)
+_
 
 ---
-[documentation index](../README.md) > [PartDesign](Category:PartDesign.md) > Artwork PartDesign
+[documentation index](../README.md) > [PartDesign](Category_PartDesign.md) > Artwork PartDesign

@@ -260,12 +260,12 @@ myView = Gui.ActiveDocument.ActiveView
 
 ## Utilizarea de module adiționale 
 
-Modulele FreeCAD și FreeCADGui sunt singurele responsabile pentru crearea și gestionarea obiectelor din documentul FreeCAD. Ele nu fac de fapt nimic, cum ar fi crearea sau modificarea geometriei. Aceasta deoarece această geometrie poate fi de mai multe tipuri și astfel este gestionată de module suplimentare, fiecare responsabil pentru gestionarea unui anumit tip de geometrie. De exemplu, [Part Workbench](Part_Workbench.md) utilizează kernelul OpenCascade și, prin urmare, este capabil să creeze și să manipuleze [B-rep](http://en.wikipedia.org/wiki/Boundary_representation) type geometry, ceea ce este construit pentru OpenCascade. Modul [Mesh Workbench](Mesh_Workbench.md) poate construi și modifica obiecte tip plase. În acest fel, FreeCAD este capabil să gestioneze o mare varietate de tipuri de obiecte, care pot coexista în același document, iar noi tipuri pot fi adăugate cu ușurință în viitor.
+Modulele FreeCAD și FreeCADGui sunt singurele responsabile pentru crearea și gestionarea obiectelor din documentul FreeCAD. Ele nu fac de fapt nimic, cum ar fi crearea sau modificarea geometriei. Aceasta deoarece această geometrie poate fi de mai multe tipuri și astfel este gestionată de module suplimentare, fiecare responsabil pentru gestionarea unui anumit tip de geometrie. De exemplu, _ poate construi și modifica obiecte tip plase. În acest fel, FreeCAD este capabil să gestioneze o mare varietate de tipuri de obiecte, care pot coexista în același document, iar noi tipuri pot fi adăugate cu ușurință în viitor.
 
 
 </div>
 
-The `FreeCAD` and `FreeCADGui` modules are only responsible for creating and managing objects in the FreeCAD document. They don\'t actually do anything more such as creating or modifying geometry. This is because that geometry can be of several types, and therefore requires additional modules, each responsible for managing a certain geometry type. For example, the [Part Workbench](Part_Workbench.md), using the OpenCascade kernel, is able to create and manipulate [BRep](http://en.wikipedia.org/wiki/Boundary_representation) type geometry. Whereas the [Mesh Workbench](Mesh_Workbench.md) is able to build and modify mesh objects. In this manner FreeCAD is able to handle a wide variety of object types, that can all coexist in the same document, and new types can easily be added in the future.
+The `FreeCAD` and `FreeCADGui` modules are only responsible for creating and managing objects in the FreeCAD document. They don\'t actually do anything more such as creating or modifying geometry. This is because that geometry can be of several types, and therefore requires additional modules, each responsible for managing a certain geometry type. For example, the _ is able to build and modify mesh objects. In this manner FreeCAD is able to handle a wide variety of object types, that can all coexist in the same document, and new types can easily be added in the future.
 
 [top](#top.md)
 
@@ -395,7 +395,7 @@ print(myObj.isDerivedFrom("Part::Feature"))
 
 <div class="mw-translate-fuzzy">
 
-Acum puteți începe să jucați cu FreeCAD! Pentru a vedea ce puteți face cu [Part Workbench](Part_Workbench.md), citiți pagina [ Pare scripting](Topological_data_scripting.md), sau pagina [Mesh Scriptingpentru](Mesh_Scripting.md) a lucra cu [Mesh Workbench](Mesh_Workbench.md).Rețineți că, deși modulele Parte și Mesh sunt cele mai complete și utilizate pe scară largă, alte module cum ar fi [Draft Workbench](Draft_Workbench.md) au, de asemenea, [scripting](Draft_API.md) APIs care vă pate fi utili.Pentru o listă completă a fiecărui modul și a instrumentelor disponibile, vizitați secțiunea [:Category:API](:Category:API.md).
+Acum puteți începe să jucați cu FreeCAD! Pentru a vedea ce puteți face cu _.
 
 
 </div>
@@ -407,7 +407,7 @@ Acum puteți începe să jucați cu FreeCAD! Pentru a vedea ce puteți face cu [
 
 }} 
 
-[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > FreeCAD Scripting Basics/ro
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > FreeCAD Scripting Basics/ro

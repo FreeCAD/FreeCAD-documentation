@@ -26,7 +26,7 @@ Baza de lucru PartDesign este în mod intrinsec legată de [Sketcher Workbench](
 
 <div class="mw-translate-fuzzy">
 
-În timp ce [Part Workbench](Part_Workbench.md) se bazează pe o metodologie [constructive solid geometry](https://en.wikipedia.org/wiki/Constructive_solid_geometry) (CSG) pentru forme de construcție, Atelierul de lucru PartDesign utilizează o editare parametrică, ceea ce înseamnă că un solid de bază este transformat secvențial prin adăugarea de caracteristici deasupra până la obținerea formei finale. Consultați pagina [feature editing](feature_editing.md) pentru o explicație mai completă a acestui proces și apoi a se vedea [Creating a simple part with PartDesign](Creating_a_simple_part_with_PartDesign.md) pentru a începe să creați solide.
+În timp ce _ pentru o explicație mai completă a acestui proces și apoi a se vedea [Creating a simple part with PartDesign](Creating_a_simple_part_with_PartDesign.md) pentru a începe să creați solide.
 
 
 </div>
@@ -66,7 +66,7 @@ These are tools to organize the Model tree.
 
 </div>
 
--   <img alt="" src=images/Std_Group.svg  style="width:32px;"> [Group](Std_Group.md): adds a Group container in the active document, which allows organizing the objects in the [tree view](Tree_view.md).
+-   <img alt="" src=images/Std_Group.svg  style="width:32px;"> _.
 
 ### Instrumente Help pentru Part Design 
 
@@ -81,7 +81,7 @@ These are tools to organize the Model tree.
 
 <div class="mw-translate-fuzzy">
 
--   ![ 32px](images/_PartDesign_NewSketch.png ) [ Creare schiță](PartDesign_NewSketch.md): creează o schiță nouă pe o față sau pe un plane selectat. Dacă nu este selectată nicio față în timp ce această unealtă este executată, utilizatorul este chemat să selecteze un plan din panoul Activități. Interfața trece apoi în modul [ Sketcher\_Workbench](Sketcher_Workbench.md) în modul de editare a schițelor.
+-   !_ în modul de editare a schițelor.
 
 
 </div>
@@ -197,7 +197,7 @@ Acestea sunt instrumente pentru crearea de caracteristici de bază sau adăugare
 
 <div class="mw-translate-fuzzy">
 
--   [1](File:PartDesign_CompPrimitiveAdditive.png%7C48px)\] [Create an additive primitive](PartDesign_CompPrimitiveAdditive.md): adaugă o primitivă geometrică aditivă la corpul activ.
+-   _: adaugă o primitivă geometrică aditivă la corpul activ.
 
 
 </div>
@@ -562,7 +562,7 @@ Unele funcționalități suplimentare găsite în meniul PartDesign:
 
  {{PartDesign Tools navi}}
 
-[Category:Workbenches](Category:Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > PartDesign Workbench/ro
+[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > PartDesign Workbench/ro

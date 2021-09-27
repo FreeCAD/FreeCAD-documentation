@@ -437,7 +437,7 @@ Constraining a sketch can be done in many different ways. In general, it is reco
 
 }} {{Sketcher Tools navi}} 
 
-[Category:Sketcher](Category:Sketcher.md)
+_
 
 ---
 [documentation index](../README.md) > Basic Sketcher Tutorial/ro

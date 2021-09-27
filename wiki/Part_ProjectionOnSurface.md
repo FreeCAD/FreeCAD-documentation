@@ -15,7 +15,7 @@
 
 is used to project a <img src=images/Draft_ShapeString.svg style="width:Shape](Shape.md) on top of a face from another object; this can be used to project a logo or textual object (see **[16px"> [Draft ShapeString](Draft_ShapeString.md)**) onto different surfaces to create interesting effects.
 
-Given a source [Shape](Shape.md), this tool can project edges, wires (closed edges), or entire faces from it; the result can be new edges, new wires, new faces, or even new extruded solids which can be used in <img alt="" src=images/Part_Boolean.svg  style="width:24px;"> [boolean operations](Part_Boolean.md) for effects such as engraving or stamping.
+Given a source _ for effects such as engraving or stamping.
 
  <img alt="" src=images/Part_ProjectionOnSurface1.png  style="width:300px;"> <img alt="" src=images/Part_ProjectionOnSurface2.png  style="width:300px;"> 
 

@@ -1,6 +1,6 @@
 # Part Section/es
 ---
-- GuiCommand:/es   Name:Part_Section   MenuLocation:Pieza → Sección   Workbenches:[Complete](Part_Workbench___Part]],_[[Complete_Workbench/es.md)|SeeAlso:[SectionCross](Part_SectionCross/es.md)---
+- GuiCommand:/es   Name:Part_Section   MenuLocation:Pieza → Sección   Workbenches:_---
 
 
 </div>

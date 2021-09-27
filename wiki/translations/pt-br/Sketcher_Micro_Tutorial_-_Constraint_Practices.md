@@ -3,7 +3,7 @@
 |Topic=Sketcher
 |Level=Iniciante
 |Time=30 minutos
-|Author=Mark Stephen ([Quick61](User:Quick61.md)) e vocx
+|Author=Mark Stephen (_) e vocx
 |FCVersion=0.19
 |Files=[https://forum.freecadweb.org/viewtopic.php?f=36&p=371659#p371659 Sketcher Constraints practices]
 }}
@@ -12,7 +12,7 @@
 
 Este tutorial foi originalmente escrito por Quick61, e reescrito e reilustrado por vocx.
 
-Este tutorial foi composto para ajudar o novo usuário a se familiarizar com as melhores práticas de restrição de [esboço](Sketch.md) no fluxo de trabalho da <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Sketcher Workbench](Sketcher_Workbench/pt-br.md).
+Este tutorial foi composto para ajudar o novo usuário a se familiarizar com as melhores práticas de restrição de _.
 
 Existe uma regra geral para as restrições: quanto menor a quantidade de **restrições de dados** (cotas ou dimensões), melhor.
 

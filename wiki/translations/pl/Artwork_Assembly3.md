@@ -32,7 +32,7 @@ Ikony te znajdują się we wskazanej ścieżce źródłowej gałęzi Realthunder
 
 }} 
 
-[Category:Assembly](Category:Assembly.md)
+_
 
 ---
-[documentation index](../README.md) > [Assembly](Category:Assembly.md) > Artwork Assembly3/pl
+[documentation index](../README.md) > [Assembly](Category_Assembly.md) > Artwork Assembly3/pl

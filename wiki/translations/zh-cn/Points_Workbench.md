@@ -55,7 +55,7 @@ A point cloud is a collection of points in 3D space. A point cloud is generally 
 
 }} 
 
-[Category:Workbenches](Category:Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > Points Workbench/zh-cn
+[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Points Workbench/zh-cn

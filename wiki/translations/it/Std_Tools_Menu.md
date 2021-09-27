@@ -33,7 +33,7 @@ In questo menu sono disponibili i seguenti strumenti:
 
 -   <img alt="" src=images/Std_DlgParameter.svg  style="width:32px;"> [Modifica parametri\...](Std_DlgParameter/it.md): apre una finestra di dialogo che consente di accedere ai parametri che controllano il programma.
 
--   <img alt="" src=images/Std_ViewScreenShot.svg  style="width:32px;"> [Salva immagine\...](Std_ViewScreenShot/it.md): salva una schermata della [vista 3D](3D_view/it.md) attiva.
+-   <img alt="" src=images/Std_ViewScreenShot.svg  style="width:32px;"> _ attiva.
 
 
 <div class="mw-translate-fuzzy">
@@ -75,7 +75,7 @@ In questo menu sono disponibili i seguenti strumenti:
 
 -   <img alt="" src=images/Std_DlgCustomize.svg  style="width:32px;"> [Personalizza\...](Std_DlgCustomize/it.md): permette di modificare menu, tasti di scelta rapida e barre degli strumenti.
 
--   <img alt="" src=images/Std_AddonMgr.svg  style="width:32px;"> [Addon manager](Std_AddonMgr/it.md): installa e gestisce gli [ambienti esterni](External_workbenches/it.md) e le [macro](macros/it.md) fornite dalla comunità di FreeCAD.
+-   <img alt="" src=images/Std_AddonMgr.svg  style="width:32px;"> _ e le [macro](macros/it.md) fornite dalla comunità di FreeCAD.
 
 
 
@@ -85,7 +85,7 @@ In questo menu sono disponibili i seguenti strumenti:
 
 }}  
 
-[Category:Workbenches](Category:Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > [Workbenches](Category:Workbenches.md) > Std Tools Menu/it
+[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Std Tools Menu/it

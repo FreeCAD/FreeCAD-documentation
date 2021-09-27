@@ -5,7 +5,7 @@
 
 ## Introducción
 
-El <img alt="" src=images/Workbench_BIM.svg  style="width:24px;"> [Ambiente de trabajo BIM](BIM_Workbench/es.md) es un [Ambiente de trabajo externo](External_workbenches/es.md) destinado a implementar herramientas completas de [Building Information Modeling](https://en.wikipedia.org/wiki/Building_information_modeling) (BIM) y flujo de trabajo en FreeCAD. Se puede instalar desde el <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr/es.md).
+El <img alt="" src=images/Workbench_BIM.svg  style="width:24px;"> _.
 
 
 <div class="mw-translate-fuzzy">
@@ -85,7 +85,7 @@ Anotaciones son objetos de ayuda visual que se pueden colocar dentro de su model
 -   <img alt="" src=images/Arch_Axis_System.svg  style="width:32px;"> [Sistema de ejes](Arch_AxisSystem/es.md): Crea un sistema de ejes compuesto por hasta 3 series de ejes
 -   <img alt="" src=images/Arch_Grid.svg  style="width:32px;"> [Rejilla](Arch_Grid/es.md): Crea un objeto similar a una cuadrícula en el documento
 -   <img alt="" src=images/Arch_SectionPlane.svg  style="width:32px;"> [Plano de sección](Arch_SectionPlane/es.md): Añade un objeto de plano de sección al documento. Los planos de sección definen vistas en 2D como planos, secciones y alzados
--   <img alt="" src=images/TechDraw_PageDefault.svg  style="width:32px;"> [Página](TechDraw_PageDefault/es.md): Crea una nueva página [TechDraw](TechDraw_Workbench/es.md) a partir de una plantilla [SVG](TechDraw_Templates/es.md) new [TechDraw](TechDraw_Workbench.md) page from a [SVG plantilla](TechDraw_Templates/es.md)
+-   <img alt="" src=images/TechDraw_PageDefault.svg  style="width:32px;"> _ a partir de una plantilla [SVG](TechDraw_Templates/es.md) new [TechDraw](TechDraw_Workbench.md) page from a [SVG plantilla](TechDraw_Templates/es.md)
 -   <img alt="" src=images/TechDraw_ArchView.svg  style="width:32px;"> [Vista](TechDraw_ArchView/es.md): Inserta una vista de un plano de sección en una página
 
 ### 3D / BIM Modelado 
@@ -105,12 +105,12 @@ Los objetos 3D y BIM son los elementos del mundo real que compondrán tu proyect
 
 -   <img alt="" src=images/Arch_Wall.svg  style="width:32px;"> [Wall](Arch_Wall.md): Creates a wall from scratch or using a selected object as a base
 -   <img alt="" src=images/Arch_CurtainWall.svg  style="width:32px;"> [Curtain Wall](Arch_CurtainWall.md): creates a curtain wall from scratch or using a selected object as a base
--   <img alt="" src=images/BIM_Column.svg  style="width:32px;"> [Column](Arch_Structure.md): Creates a vertical [structural](Arch_Structure.md) element at a given point, optionally using a selected object as a profile
--   <img alt="" src=images/BIM_Beam.svg  style="width:32px;"> [Beam](Arch_Structure.md): Creates a horizontal [structural](Arch_Structure.md) element between two points, optionally using a selected object as a profile
--   <img alt="" src=images/BIM_Slab.svg  style="width:32px;"> [Slab](Arch_Structure.md): Creates a flat [structural](Arch_Structure.md) element by extruding a selected flat object
--   <img alt="" src=images/Arch_Rebar_Straight.png  style="width:32px;"> <img alt="" src=images/Arch_Rebar_UShape.png  style="width:32px;"> <img alt="" src=images/Arch_Rebar_LShape.png  style="width:32px;"> <img alt="" src=images/Arch_Rebar_BentShape.png  style="width:32px;"> <img alt="" src=images/Arch_Rebar_Stirrup.png  style="width:32px;"> <img alt="" src=images/Arch_Rebar_ColumnReinforcement.svg  style="width:32px;"> <img alt="" src=images/Arch_Rebar_BeamReinforcement.svg  style="width:32px;"> <img alt="" src=images/Arch_Rebar_Helical.png  style="width:32px;"> <img alt="" src=images/Arch_Rebar.svg  style="width:32px;"> [Rebar](Arch_Rebar.md): Creates a reinforcement bar in a selected structural element using a sketch. Requires the [Reinforcement](Reinforcement_Addon.md) addon
+-   <img alt="" src=images/BIM_Column.svg  style="width:32px;"> _ element at a given point, optionally using a selected object as a profile
+-   <img alt="" src=images/BIM_Beam.svg  style="width:32px;"> _ element between two points, optionally using a selected object as a profile
+-   <img alt="" src=images/BIM_Slab.svg  style="width:32px;"> _ element by extruding a selected flat object
+-   <img alt="" src=images/Arch_Rebar_Straight.png  style="width:32px;"> <img alt="" src=images/Arch_Rebar_UShape.png  style="width:32px;"> <img alt="" src=images/Arch_Rebar_LShape.png  style="width:32px;"> <img alt="" src=images/Arch_Rebar_BentShape.png  style="width:32px;"> <img alt="" src=images/Arch_Rebar_Stirrup.png  style="width:32px;"> <img alt="" src=images/Arch_Rebar_ColumnReinforcement.svg  style="width:32px;"> <img alt="" src=images/Arch_Rebar_BeamReinforcement.svg  style="width:32px;"> <img alt="" src=images/Arch_Rebar_Helical.png  style="width:32px;"> <img alt="" src=images/Arch_Rebar.svg  style="width:32px;"> _ addon
 -   <img alt="" src=images/Arch_Window.svg  style="width:32px;"> [Window](Arch_Window.md): Creates a window using a selected object as a base
--   <img alt="" src=images/BIM_Door.svg  style="width:32px;"> [Door](Arch_Window.md): Creates a [Window](Arch_Window.md) object using door presets
+-   <img alt="" src=images/BIM_Door.svg  style="width:32px;"> _ object using door presets
 -   <img alt="" src=images/Arch_Pipe.svg  style="width:32px;"> <img alt="" src=images/Arch_PipeConnector.svg  style="width:32px;"> [Pipe tools](Arch_Pipe.md): Creates pipes and corner or tee connection between 2 or 3 selected pipes
 -   <img alt="" src=images/Arch_Stairs.svg  style="width:32px;"> [Stairs](Arch_Stairs.md): Creates a stairs object in the document
 -   <img alt="" src=images/Arch_Roof.svg  style="width:32px;"> [Roof](Arch_Roof.md): Creates a sloped roof from a selected face
@@ -118,7 +118,7 @@ Los objetos 3D y BIM son los elementos del mundo real que compondrán tu proyect
 -   <img alt="" src=images/Arch_Frame.svg  style="width:32px;"> [Frame](Arch_Frame.md): Creates a frame object from a selected layout
 -   <img alt="" src=images/Arch_Fence.svg  style="width:32px;"> [Fence](Arch_Fence.md): Creates a fence object from a selected post object and path
 -   <img alt="" src=images/Arch_Truss.svg  style="width:32px;"> [Truss](Arch_Truss.md): Creates a truss from a selected line of from scratch
--   <img alt="" src=images/BIM_Library.png  style="width:32px;"> [Library](BIM_Library.md): Inserts an equipment or furniture object. Requires the [Parts Library](Parts_Library.md) addon
+-   <img alt="" src=images/BIM_Library.png  style="width:32px;"> _ addon
 -   <img alt="" src=images/Arch_Component.png  style="width:32px;"> [BIM Component](Arch_Component.md): Turns any selected object into a BIM object, with complete IFC support
 
 **Herramientas 3D genéricas**: Estas herramientas construyen objetos 3D genéricos que pueden convertirse o utilizarse en componentes BIM
@@ -159,7 +159,7 @@ Los objetos 3D y BIM son los elementos del mundo real que compondrán tu proyect
 ### Herramientas de gestión 
 
 -   <img alt="" src=images/BIM_Setup.png  style="width:32px;"> [BIM setup](BIM_Setup.md): Configures some of the FreeCAD preferences most commonly used for BIM
--   <img alt="" src=images/BIM_Project.png  style="width:32px;"> [Project setup](BIM_Project.md): Allows to create some basic objects such as a [site](Arch_Site.md), a [building](Arch_Building.md) and [axes](Arch_Axis.md) by filling basic project information.
+-   <img alt="" src=images/BIM_Project.png  style="width:32px;"> _, a [building](Arch_Building.md) and [axes](Arch_Axis.md) by filling basic project information.
 -   <img alt="" src=images/BIM_Views.png  style="width:32px;"> [Views and levels manager](BIM_Views.md): Manage the different views and levels of your project
 -   <img alt="" src=images/BIM_Windows.png  style="width:32px;"> [Windows manager](BIM_Windows.md): Manage the doors and windows of your project
 -   <img alt="" src=images/BIM_IfcElements.png  style="width:32px;"> [IFC elements manager](BIM_IfcElements.md): Manage how the different elements of your project will be exported to IFC
@@ -167,7 +167,7 @@ Los objetos 3D y BIM son los elementos del mundo real que compondrán tu proyect
 -   <img alt="" src=images/BIM_IfcQuantities.svg  style="width:32px;"> [IFC quantities manager](BIM_IfcQuantities.md): Manage how the quantities of your objects are explicitely exported to IFC
 -   <img alt="" src=images/BIM_Classification.png  style="width:32px;"> [Classification manager](BIM_Classification.md): Manage how objects and materials of your project relate to classifications systems such as [Uniclass](https://en.wikipedia.org/wiki/Uniclass)
 -   <img alt="" src=images/Draft_VisGroup.svg  style="width:32px;"> [Layers manager](BIM_Layers.md): Manage the layers of your document
--   <img alt="" src=images/Arch_Material_Group.svg  style="width:32px;"> [Material](Arch_SetMaterial.md): Manages materials or [multimaterials](Arch_MultiMaterial.md) of selected objects
+-   <img alt="" src=images/Arch_Material_Group.svg  style="width:32px;"> _ of selected objects
 -   <img alt="" src=images/Arch_Schedule.svg  style="width:32px;"> [Schedule](Arch_Schedule.md): Creates different types of schedules
 -   <img alt="" src=images/BIM_Preflight.svg  style="width:32px;"> [Preflight checks](BIM_Preflight.md): Perform different checks on your model before exporting to IFC
 -   <img alt="" src=images/Draft_AnnotationStyleEditor.svg  style="width:32px;"> [Annotation style editor](Draft_AnnotationStyleEditor.md): Manages annotation styles used by texts and dimensions
@@ -190,7 +190,7 @@ Nuevos ambientes de trabajo están en desarrollo, esté atento!
 
 
 
-[Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md) [Category:BIM](Category:BIM.md)
+_ _ _
 
 ---
-[documentation index](../README.md) > BIM Workbench/es
+[documentation index](../README.md) > [Addons](Category_Addons.md) > BIM Workbench/es

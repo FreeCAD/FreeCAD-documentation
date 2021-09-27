@@ -156,7 +156,7 @@ Zobacz [Grafika niepoprawna](Artwork_Erroneous/pl.md).
 
 }}
 
-[Category:Icon](Category:Icon.md) [Category:Developer Documentation](Category:Developer_Documentation.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Icon](Category:Icon.md) > Artwork/pl
+[documentation index](../README.md) > [Icon](Category_Icon.md) > Artwork/pl

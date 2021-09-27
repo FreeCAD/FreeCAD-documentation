@@ -68,7 +68,7 @@ La herramienta de biblioteca le permite colocar, en el modelo actual, un objeto 
 
  
 
-[Category:BIM](Category:BIM.md)
+_
 
 ---
-[documentation index](../README.md) > [BIM](Category:BIM.md) > BIM Library/es
+[documentation index](../README.md) > [BIM](Category_BIM.md) > BIM Library/es

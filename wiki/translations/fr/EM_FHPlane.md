@@ -21,7 +21,7 @@ L\'outil FHPlane insère un objet plan conducteur uniforme FastHenry.
 
 L\'objet FHPlane doit être basé sur un autre objet, qui peut être un objet [Draft Rectangle](Draft_Rectangle/fr.md) ou un objet [Part Cube](Part_Box/fr.md). Si vous avez basé votre FHPlane sur un objet [Part Cube](Part_Box/fr.md), le paramètre Thickness sera hérité de la valeur Box Height.
 
-1.  Créez et sélectionnez un objet <img alt="" src=images/Draft_Rectangle.svg  style="width:16px;"> [Draft Rectangle](Draft_Rectangle/fr.md) ou un objet <img alt="" src=images/Part_Box.svg  style="width:16px;"> [Part Cube](Part_Box/fr.md).
+1.  Créez et sélectionnez un objet <img alt="" src=images/Draft_Rectangle.svg  style="width:16px;"> _.
 2.  Appuyez sur le bouton **<img src="images/EM_FHPlane.svg" width=16px> [EM FHPlane](EM_FHPlane/fr.md)** ou appuyez sur les touches **E** puis **P**.
 
 De plus, vous pouvez également sélectionner conjointement avec l\'objet de base ([Draft Rectangle](Draft_Rectangle/fr.md) ou [Part Cube](Part_Box/fr.md)) également un ou plusieurs [EM FHNode](EM_FHNode/fr.md) et/ou un ou plus [EM FHPlaneHole](EM_FHPlaneHole/fr.md) qui seront adoptés par le FHPlane:

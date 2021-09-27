@@ -806,7 +806,7 @@ MainWindow.show()
 
 ¡Buen provecho!
 
-[Category:Poweruser Documentation](Category:Poweruser_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Poweruser Documentation](Category:Poweruser Documentation.md) > Qt Example/es
+[documentation index](../README.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > Qt Example/es

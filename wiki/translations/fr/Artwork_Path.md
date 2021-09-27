@@ -14,7 +14,7 @@ Pour toutes les icônes de l\'arborescence source, voir [Graphisme](Artwork/fr.m
 
 }} 
 
-[Category:Path](Category:Path.md)
+_
 
 ---
-[documentation index](../README.md) > [Path](Category:Path.md) > Artwork Path/fr
+[documentation index](../README.md) > [Path](Category_Path.md) > Artwork Path/fr

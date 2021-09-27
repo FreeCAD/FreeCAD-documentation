@@ -4,7 +4,7 @@
 
 {{TOCright}}
 
-В FreeCAD слово \"[Sketch(Эскиз)](Sketch/ru.md)\" обычно используется для обозначения [Sketcher SketchObject](Sketcher_SketchObject/ru.md) (`Sketcher::SketchObject` класс), который определяется [Верстаком Sketcher](Sketcher_Workbench/ru.md). Это 2D-чертеж, который использует математические ограничения для точного описания 2D-геометрии.
+В FreeCAD слово \"_. Это 2D-чертеж, который использует математические ограничения для точного описания 2D-геометрии.
 
 Дополнительные сведения об этом типе объектов см. в разделе [Sketcher SketchObject](Sketcher_SketchObject/ru.md).
 
@@ -29,14 +29,14 @@
 
 Эскиз обычно используется вместе с <img alt="" src=images/Workbench_PartDesign.svg  style="width:16px;"> <img src=images/PartDesign_Pad.svg style="width:верстаком PartDesign](PartDesign_Workbench/ru.md) для создания твёрдых тел выдавливанием, используя операцию **[16px"> [Выдавить выбранный эскиз](PartDesign_Pad/ru.md)**.
 
-Тем не менее, Эскиз(Sketch) всегда может быть создан сам по себе для любой другой цели; он не обязан быть привязан к <img src=images/Arch_Window.svg style="width:Создать новое тело](PartDesign_Body/ru.md) верстака PartDesign. Например, инструмент **[16px"> <img src=images/Arch_Wall.svg style="width:Arch Window(Окно)](Arch_Window.md)** в <img alt="" src=images/Workbench_Arch.svg  style="width:16px;"> [Верстаке Arch](Arch_Workbench.md) использует эскизы для определения формы окон и дверей; точно так же эскиз может быть использован для определения формы **[16px"> [Arch Walls(Стен)](Arch_Wall.md)**.
+Тем не менее, Эскиз(Sketch) всегда может быть создан сам по себе для любой другой цели; он не обязан быть привязан к <img src=images/Arch_Window.svg style="width:Создать новое тело](PartDesign_Body/ru.md) верстака PartDesign. Например, инструмент **_ использует эскизы для определения формы окон и дверей; точно так же эскиз может быть использован для определения формы **[16px"> [Arch Walls(Стен)](Arch_Wall.md)**.
 
 
 {{Sketcher Tools navi
 
 }} {{Document objects navi}} 
 
-[Category:Glossary](Category:Glossary.md)
+_
 
 ---
-[documentation index](../README.md) > [Glossary](Category:Glossary.md) > Sketch/ru
+[documentation index](../README.md) > [Glossary](Category_Glossary.md) > Sketch/ru

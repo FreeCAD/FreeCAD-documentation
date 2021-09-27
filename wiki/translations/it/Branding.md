@@ -150,7 +150,7 @@ Tutti i tag elencati sono opzionali.
 
 
 
-[Category:Developer Documentation](Category:Developer_Documentation.md)
+_
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Branding/it
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Branding/it

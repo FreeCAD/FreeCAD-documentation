@@ -27,13 +27,13 @@ Estas herramientas no son de hecho parte de l\'Ambiente de Trabajo de diseño de
 
 -   <img alt="" src=images/Std_Part.svg  style="width:32px;"> [Pieza](Std_Part/es.md): añade un nuevo contenedor de Parte en el documento activo y lo hace activo.
 
--   <img alt="" src=images/Std_Group.svg  style="width:32px;"> [Grupo](Std_Group/es.md): añade un contenedor de Grupo en el documento activo, que permite organizar los objetos en el [vista de árbol](Tree_view/es.md).
+-   <img alt="" src=images/Std_Group.svg  style="width:32px;"> _.
 
 ### DiseñoPiezas herramientas de ayuda 
 
--   <img alt="" src=images/PartDesign_Body.svg  style="width:32px;"> [Crear Cuerpo](PartDesign_Body/es.md): Crea un [cuerpo](Body/es.md) objeto en el documento activo y lo activa.
+-   <img alt="" src=images/PartDesign_Body.svg  style="width:32px;"> _ objeto en el documento activo y lo activa.
 
--   <img alt="" src=images/PartDesign_NewSketch.svg  style="width:32px;"> [Crear croquis](PartDesign_NewSketch/es.md): crea un nuevo croquis on la cara o plano seleccionados. Si no se selecciona una cara o un plano, el usuario deberá seleccionar un plano del dialogo de tareas. El interfaz alterna al [Ambiente de Trabajo de croquis](Sketcher_Workbench/es.md) mientras el croquis esté en modo edición.
+-   <img alt="" src=images/PartDesign_NewSketch.svg  style="width:32px;"> _ mientras el croquis esté en modo edición.
 
 -   <img alt="" src=images/Sketcher_EditSketch.svg  style="width:32px;"> [Editar Croquis](Sketcher_EditSketch/es.md): Editar el croquis seleccionado.
 
@@ -198,7 +198,7 @@ Otras funcionalidades adicionales disponibles en el menú de diseño de piezas:
 
  {{PartDesign Tools navi}}
 
-[Category:Workbenches](Category:Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > PartDesign Workbench/es
+[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > PartDesign Workbench/es

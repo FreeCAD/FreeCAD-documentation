@@ -80,7 +80,7 @@ Wenn Du ein CAD Anwender bist und hier etwas hinzufügen möchtest, kannst Du ge
 -   Dach
 -   Baugruppen\*.
 
-[Category:Hubs](Category:Hubs.md) [Category:Roadmap](Category:Roadmap.md) [Category:Developer](Category:Developer.md)
+_ _ _
 
 ---
-[documentation index](../README.md) > [Hubs](Category:Hubs.md) > Wished tools/de
+[documentation index](../README.md) > [Hubs](Category_Hubs.md) > Wished tools/de

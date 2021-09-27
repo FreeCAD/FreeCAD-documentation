@@ -148,7 +148,7 @@ Free and open source software for video recording and live streaming. More detai
 
  
 
-[Category:Developer Documentation](Category:Developer_Documentation.md)
+_
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Third Party Tools/ru
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Third Party Tools/ru

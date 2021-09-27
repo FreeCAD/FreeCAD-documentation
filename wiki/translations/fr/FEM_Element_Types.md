@@ -272,7 +272,7 @@ Cette description est basée sur le format MED décrit dans \[<https://hammi.ext
 
 }}  
 
-[Category:Developer](Category:Developer.md) [Category:Poweruser\_Documentation](Category:Poweruser_Documentation.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Developer](Category:Developer.md) > FEM Element Types/fr
+[documentation index](../README.md) > [Developer](Category_Developer.md) > FEM Element Types/fr

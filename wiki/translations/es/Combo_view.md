@@ -6,7 +6,7 @@
 El [Combo view](combo_view/es.md) es uno de los paneles principales del FreeCAD [interfaz](interface/es.md). Se encuentra en el lado izquierdo de la pantalla por defecto. Está *compuesto por dos secciones*, la:
 
 -   [Sección superior](#Upper_section/es.md) que contiene dos pestañas: la pestaña **Modelo** y la pestaña **Tareas**
--   [Sección inferior](#Lower_section/es.md) muestra el [Editorial de propiedades](property_editor/es.md). Contiene dos pestañas: las propiedades **Ver** y **Datos**. El [Editor de propiedades](property_editor/es.md) sólo se muestra cuando la pestaña **Modelo** está *activa*, es decir, cuando la [vista de árbol](tree_view/es.md) es visible.
+-   _ sólo se muestra cuando la pestaña **Modelo** está *activa*, es decir, cuando la [vista de árbol](tree_view/es.md) es visible.
 
 
 **Note:**

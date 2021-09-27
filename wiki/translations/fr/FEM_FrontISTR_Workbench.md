@@ -97,7 +97,7 @@ En préparation.
 -   Documentation du solveur FrontISTR : <https://manual.frontistr.com/en/>
 -   Rapporter les bogues : Veuillez signaler les bogues à [Github.com](https://github.com/FrontISTR/FEM_FrontISTR).
 
-[Category:Sandbox](Category:Sandbox.md) [Category:User Documentation](Category:User_Documentation.md) [Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+_ _ _ _
 
 ---
-[documentation index](../README.md) > FEM FrontISTR Workbench/fr
+[documentation index](../README.md) > [Sandbox](Category_Sandbox.md) > FEM FrontISTR Workbench/fr

@@ -17,7 +17,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento [Travatura](Arch_Truss/it.md) crea un oggetto [travatura](https://en.wikipedia.org/wiki/Truss), sia da un oggetto lineare selezionato (posta su una [Linea di Draft](Draft_Line/it.md) o uno \[\[Sketcher\_NewSketch/it\|Schizzo\] \]), o da zero se non viene selezionato alcun oggetto all\'avvio del comando.
+Lo strumento _ o uno \[\[Sketcher\_NewSketch/it\|Schizzo\] \]), o da zero se non viene selezionato alcun oggetto all\'avvio del comando.
 
 
 </div>
@@ -131,4 +131,4 @@ truss.HeightEnd = 400
 </div>
 
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Truss/it
+[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch Truss/it

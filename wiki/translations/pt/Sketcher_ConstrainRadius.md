@@ -1,6 +1,6 @@
 # Sketcher ConstrainRadius/pt
 ---
-- GuiCommand:/pt   Name:Constraint Radius   Name/pt:Constraint Radius   Workbenches:[PartDesign](Sketcher_Workbench/pt___Sketcher]],_[[PartDesign_Workbench/pt.md)|MenuLocation:Sketch → Sketcher constraints → Constrain radius   SeeAlso:[Constraint Distance](Constraint_Length/pt.md), [Constraint Horizontal](Constraint_Horizontal/pt.md), [Constraint Vertical](Constraint_Vertical/pt.md)---
+- GuiCommand:/pt   Name:Constraint Radius   Name/pt:Constraint Radius   Workbenches:_, [Constraint Horizontal](Constraint_Horizontal/pt.md), [Constraint Vertical](Constraint_Vertical/pt.md)---
 
 
 </div>

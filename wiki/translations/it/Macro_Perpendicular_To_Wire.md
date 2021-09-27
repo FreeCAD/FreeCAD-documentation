@@ -188,7 +188,7 @@ per discretizzare gli altri parametri
 
 <div class="mw-translate-fuzzy">
 
-La discussione nel forum [https://forum.freecadweb.org/viewtopic.php?f=13&t=19899&start=20 Spiralbohrer](https://forum.freecadweb.org/viewtopic.php?f=13&t=19899&start=20_Spiralbohrer.md)
+La discussione nel forum _
 
 
 </div>

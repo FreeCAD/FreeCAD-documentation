@@ -5,7 +5,7 @@
 {{TutorialInfo/fr
 |Topic=Modélisation 2D
 |Level=Intermédiaire
-|Author=Mark Stephen ([Quick61](User:Quick61.md))
+|Author=Mark Stephen (_)
 |Time=Moins d'une heure
 |FCVersion=0.14.3700 ou plus
 }}

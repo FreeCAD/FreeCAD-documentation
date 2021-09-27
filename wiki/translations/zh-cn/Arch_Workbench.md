@@ -5,7 +5,7 @@
 
 ## 简介
 
-建筑工作台为FreeCAD提供了一种现代化的[建筑信息模型（building information modelling）](http://en.wikipedia.org/wiki/Building_Information_Modeling) (BIM)工作流程，它支持的特性有完全参数化的建筑实体，如墙、结构构件、屋顶、窗口、台阶、管道与家具。建筑工作台还支持[建筑业国际工业标准（industry foundation classes）](http://en.wikipedia.org/wiki/Industry_Foundation_Classes) (IFC) 数据，以及联合[TechDraw工作台制作](TechDraw_Workbench.md)2D平面布置图。
+建筑工作台为FreeCAD提供了一种现代化的_2D平面布置图。
 
 由于建筑工作台要利用2D对象来构建其建筑对象，因此，它导入了[底图工作台（Draft Workbench）中的所有工具](Draft_Workbench.md)。除此以外，建筑工作台亦可使用如[零件工具台（Part）与](Part_Workbench.md)[零件设计工作台（PartDesign）所创建的对象](PartDesign_Workbench.md)。
 
@@ -88,7 +88,7 @@ The developers of Draft, Arch, and BIM also collaborate with the greater [OSArch
 以下这些工具可助您实现一些特定任务。
 
 -   <img alt="" src=images/Arch_Component.svg  style="width:32px;"> [Component](Arch_Component.md): Creates a non-parametric Arch component
--   <img alt="" src=images/Arch_CloneComponent.svg  style="width:32px;"> [Clone component](Arch_CloneComponent.md): Produces Arch Components that are clones of selected Arch objects (not to be confused with [Draft Clone](Draft_Clone.md))
+-   <img alt="" src=images/Arch_CloneComponent.svg  style="width:32px;"> _)
 -   <img alt="" src=images/Arch_SplitMesh.svg  style="width:32px;"> [Split Mesh](Arch_SplitMesh.md): Splits a selected mesh into separate components
 -   <img alt="" src=images/Arch_MeshToShape.svg  style="width:32px;"> [Mesh To Shape](Arch_MeshToShape.md): Converts a mesh into a shape, unifying coplanar faces
 -   <img alt="" src=images/Arch_SelectNonManifold.svg  style="width:32px;"> [Select non-solid meshes](Arch_SelectNonSolidMeshes.md): Selects all non-solid meshes from the current selection or from the document
@@ -96,10 +96,10 @@ The developers of Draft, Arch, and BIM also collaborate with the greater [OSArch
 -   <img alt="" src=images/Arch_CloseHoles.svg  style="width:32px;"> [Close Holes](Arch_CloseHoles.md): Closes holes in a selected shape-based object
 -   <img alt="" src=images/Arch_MergeWalls.svg  style="width:32px;"> [Merge Walls](Arch_MergeWalls.md): Merge two or more walls
 -   <img alt="" src=images/Arch_Check.svg  style="width:32px;"> [Check](Arch_Check.md): Check if the selected objects are solids and don\'t contain defects
--   <img alt="" src=images/IFC.svg  style="width:32px;"> [Ifc Explorer](Arch_IfcExplorer.md): Browse the contents of an [IFC](Arch_IFC.md) file
+-   <img alt="" src=images/IFC.svg  style="width:32px;"> _ file
 -   <img alt="" src=images/Arch_ToggleIfcBrepFlag.svg  style="width:32px;"> [Toggle IFC Brep flag](Arch_ToggleIfcBrepFlag.md): Forces a selected object to be exported as an [IfcFacetedBrep](http://www.buildingsmart-tech.org/ifc/IFC4/final/html/schema/ifcgeometricmodelresource/lexical/ifcfacetedbrep.htm).
--   <img alt="" src=images/Arch_3Views.svg  style="width:32px;"> [3 Views from mesh](Arch_3Views.md): Creates top, frontal and side views from a [mesh](Mesh_Workbench.md).
--   <img alt="" src=images/Arch_IfcSpreadsheet.svg  style="width:32px;"> [Create IFC spreadsheet\...](Arch_IfcSpreadsheet.md): Creates a spreadsheet to store [IFC](Arch_IFC.md) properties of an object
+-   <img alt="" src=images/Arch_3Views.svg  style="width:32px;"> _.
+-   <img alt="" src=images/Arch_IfcSpreadsheet.svg  style="width:32px;"> _ properties of an object
 -   <img alt="" src=images/Arch_ToggleSubs.svg  style="width:32px;"> [Toggle Subcomponents](Arch_ToggleSubs.md): Shows or hides the subcomponents of an Arch object.
 
 ### 首选项
@@ -125,7 +125,7 @@ The developers of Draft, Arch, and BIM also collaborate with the greater [OSArch
 -   [Quick arch overview on Yorik\'s blog](http://yorik.uncreated.net/guestblog.php?2012=180) (v0.13)
 -   [Video presentation of the Arch workbench](https://www.youtube.com/watch?v=lTDOeHapv_E) (2016)
 -   [Arch panel tutorial](Arch_panel_tutorial.md) (v0.15)
--   [BIM modeling chapter from the FreeCAD manual](Manual:BIM_modeling.md)
+-   _
 -   [Import from STL or OBJ](Import_from_STL_or_OBJ.md)
 -   [Export to STL or OBJ](Export_to_STL_or_OBJ.md)
 
@@ -135,7 +135,7 @@ The developers of Draft, Arch, and BIM also collaborate with the greater [OSArch
 
  
 
-[Category:Workbenches](Category:Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > Arch Workbench/zh-cn
+[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Arch Workbench/zh-cn

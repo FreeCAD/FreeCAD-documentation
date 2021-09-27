@@ -237,7 +237,7 @@ FreeCAD 在控制台模式下运行 (没有 gui)
 
 对话框以保存任意大小的图片。
 
-[分类:用户文档](Category:User_Documentation/zh-cn.md) [Category:Screenshots/zh-cn](Category:Screenshots/zh-cn.md)
+_ _
 
 ---
 [documentation index](../README.md) > Screenshots/zh-cn

@@ -12,7 +12,7 @@
 
 The [Slab Reinforcement](Arch_Rebar_Slab_Reinforcement.md) tool allows the user to create reinforcing bars inside a Slab [Arch Structure](Arch_Structure.md) object.
 
-This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md), an [external workbench](External_workbenches.md) that can be installed with the <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Addon_Manager.md) via the **Tools → Addon manager → Reinforcement** menu.
+This command is part of the _ via the **Tools → Addon manager → Reinforcement** menu.
 
 <img alt="inline" src=images/Isometric_view_of_Bent_Shape_rebars_in_parallel_and_cross_direction_with_distribution_rebars.png  style="width:800px;"> 
 *A Example of Slab Reinforcement inside a Slab [Arch Structure](Arch_Structure.md)*
@@ -36,7 +36,7 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 4\. Select the desired type of cover of reinforcement mesh (Top or Bottom).
 
-5\. Select the desired raber type and other input data for rabars in parallel direction of selected face as show in below image.
+5\. Select the desired rebar type and other input data for rebars in parallel direction of selected face as show in below image.
 ![Bent Shape rebars in parallel with distribution rebars inputs for Slab Reinforcement](images/Bent_Shape_rebars_in_parallel_with_distribution_rebars_inputs_for_Slab_Reinforcement.png ) *Dialog Box for Slab Reinforcement of the Rebars in parallel direction of selected face*
 
 6\. Now click on **Next** button or select Cross Rebars in list view.
@@ -344,7 +344,7 @@ slabReinforcementGroup = editSlabReinforcement(
 
   
 
-[Category:Reinforcement](Category:Reinforcement.md)
+_
 
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Rebar Slab Reinforcement
+[documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar Slab Reinforcement

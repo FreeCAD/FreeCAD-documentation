@@ -41,7 +41,7 @@ The purpose of this explorer is simply to allow you to check what is really writ
 
  
 
-[Category:BIM](Category:BIM.md)
+_
 
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch IfcExplorer/sv
+[documentation index](../README.md) > [BIM](Category_BIM.md) > [Arch](Arch_Workbench.md) > Arch IfcExplorer/sv

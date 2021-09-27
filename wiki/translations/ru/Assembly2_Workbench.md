@@ -10,7 +10,7 @@
 
 [Assembly2](Assembly2_Workbench/ru.md) это верстак для создания сборок из FreeCAD v0.15 с поддержкой импорта деталей из внешних файлов.
 
-По утверждению автора [на форуме](https://forum.freecadweb.org/viewtopic.php?f=17&t=16591), он более не поддерживается с 2016 года, поэтому у него могут быть проблемы с FreeCAD 0.17 и выше. Хорошей альтернативой может быть более новый и активно поддерживаемый [верстак A2plus](A2plus_Workbench/ru.md).
+По утверждению автора _.
 
 ![](images/Assembly2_example.jpg )
 
@@ -148,7 +148,7 @@ To update to the latest version, delete the assembly2 folder and redownload the 
 
 
 
-[Category:User Documentation](Category:User_Documentation.md) [Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+_ _ _
 
 ---
-[documentation index](../README.md) > Assembly2 Workbench/ru
+[documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > Assembly2 Workbench/ru

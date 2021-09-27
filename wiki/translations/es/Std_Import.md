@@ -49,7 +49,7 @@ Cuando se carga, el fichero es **incorporado** al proyecto actual (que debe esta
 
 }}  
 
-[Category:File\_Formats](Category:File_Formats.md)
+_
 
 ---
-[documentation index](../README.md) > [File_Formats](Category:File_Formats.md) > Std Import/es
+[documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Std Import/es

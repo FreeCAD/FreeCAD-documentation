@@ -1,6 +1,6 @@
 # Sketcher ConstrainEqual/ja
 ---
-- GuiCommand:/jp   Name:Constraint EqualLength   Workbenches:[パートデザイン](Sketcher_Workbench/jp___スケッチャー]],_[[PartDesign_Workbench/jp.md)|MenuLocation:Sketch → Sketcher constraints → Constrain equal   SeeAlso:[Constraint Radius](Constraint_Radius/jp.md)---
+- GuiCommand:/jp   Name:Constraint EqualLength   Workbenches:_---
 
 
 </div>

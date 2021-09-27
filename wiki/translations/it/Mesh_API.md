@@ -238,7 +238,7 @@ d.recompute()
 
  
 
-[Category:API](Category:API.md) [Category:Poweruser Documentation](Category:Poweruser_Documentation.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh API/it
+[documentation index](../README.md) > [API](Category_API.md) > [Mesh](Mesh_Workbench.md) > Mesh API/it

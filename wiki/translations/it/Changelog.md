@@ -6,7 +6,7 @@ La cronologia delle modifiche FreeCAD è conservato nel nostro inseguitore Manti
 
 
 
-[Category:Administration](Category:Administration.md) [Category:Developer](Category:Developer.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Administration](Category:Administration.md) > Changelog/it
+[documentation index](../README.md) > [Administration](Category_Administration.md) > Changelog/it

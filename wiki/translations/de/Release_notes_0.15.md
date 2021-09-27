@@ -1,5 +1,5 @@
 # Release notes 0.15/de
-FreeCAD 0.15 wurde am 8. April 2015 veröffentlicht. Dies ist eine Zusammenfassung der interessantesten Entwicklungen. Eine komplette Liste der Änderungen kann unter [Mantis changelog](http://www.freecadweb.org/tracker/changelog_page.php) gefunden werden. Ältere Versionen finden sich unter: [0.14](Release_notes_0.14/de.md) - [0.13](Release_notes_0.13/de.md) - [0.12](Release_notes_0.12.md) - [0.11](Release_notes_0.11/de.md)
+FreeCAD 0.15 wurde am 8. April 2015 veröffentlicht. Dies ist eine Zusammenfassung der interessantesten Entwicklungen. Eine komplette Liste der Änderungen kann unter _ - [0.13](Release_notes_0.13/de.md) - [0.12](Release_notes_0.12.md) - [0.11](Release_notes_0.11/de.md)
 
 <img alt="" src=images/Spark-Plug-Plane.jpg  style="width:1024px;">
 
@@ -151,7 +151,7 @@ Das [WorkFeature Macro](https://github.com/Rentlau/WorkFeature) fügt ein breite
 
 <img alt="" src=images/WF.png  style="width:640px;">
 
-[Category:News](Category:News.md) [Category:Documentation](Category:Documentation.md) [Category:Releases](Category:Releases.md)
+_ _ _
 
 ---
-[documentation index](../README.md) > [News](Category:News.md) > Release notes 0.15/de
+[documentation index](../README.md) > [News](Category_News.md) > Release notes 0.15/de

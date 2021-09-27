@@ -22,6 +22,9 @@ Lo strumento Linea guida aggiunge una linea a una vista. Altri oggetti di annota
 
 ## Utilizzo
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Selezionare una vista.
 2.  Premere il pulsante **<img src="images/TechDraw_LeaderLine.svg" width=16px> Linea guida**. Si apre una finestra di dialogo che consente di disegnare la linea guida e di assegnare simboli di fine linea.
 3.  Cliccare su **seleziona punti** e quindi fare clic nella pagina per definire il punto iniziale della linea.
@@ -30,6 +33,9 @@ Lo strumento Linea guida aggiunge una linea a una vista. Altri oggetti di annota
     1.  terminare il disegno facendo doppio clic o premendo **Salva i punti**,
     2.  oppure aggiungere ulteriori punti per definire più segmenti di linea.
 6.  Per terminare la creazione, premere **OK** per chiudere la finestra di dialogo.
+
+
+</div>
 
 **Nota:** Se non è stato definito alcun punto durante la creazione della linea guida, viene posizionata una linea corta al centro della vista.
 

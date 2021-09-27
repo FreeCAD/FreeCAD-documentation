@@ -153,7 +153,7 @@ See [Artwork Erroneous](Artwork_Erroneous.md).
 
  {{Artwork}}
 
-[Category:Icon](Category:Icon.md) [Category:Developer Documentation](Category:Developer_Documentation.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Icon](Category:Icon.md) > Artwork
+[documentation index](../README.md) > [Icon](Category_Icon.md) > Artwork

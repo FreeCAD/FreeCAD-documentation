@@ -3,7 +3,7 @@
 
 ## Introduction
 
-Dans cette page, nous allons montrer comment construire une interface graphique simple avec [Qt Designer](http://qt-project.org/doc/qt-4.8/designer-manual.html), l\'outil officiel de Qt pour concevoir des interfaces. La boîte de dialogue sera convertie en code [Python](Python/fr.md) puis elle sera utilisée dans FreeCAD. Nous supposerons que l\'utilisateur sait comment éditer et exécuter [Python](Python/fr.md) en général.
+Dans cette page, nous allons montrer comment construire une interface graphique simple avec _ puis elle sera utilisée dans FreeCAD. Nous supposerons que l\'utilisateur sait comment éditer et exécuter [Python](Python/fr.md) en général.
 
 Dans cet exemple, l\'interface entière est définie en [Python](Python/fr.md). Bien que cela soit possible pour les petites interfaces, pour les interfaces plus importantes, la recommandation est de charger les fichiers {{FileName|.ui}} créés directement dans le programme. Voir [Création d\'une interface avec des fichiers UI](Interface_creation_with_UI_files/fr.md) pour plus d\'informations.
 
@@ -280,7 +280,7 @@ class plane():
 
 ## Liens pertinents 
 
--   [Outils de création d\'interfaces](Manual:Creating_interface_tools/fr.md)
+-   _
 -   [Création d\'une interface avec des fichiers UI](Interface_creation_with_UI_files/fr.md)
 
 
@@ -288,7 +288,7 @@ class plane():
 
 }} 
 
-[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Dialog creation/fr
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Dialog creation/fr

@@ -3,7 +3,7 @@
 |Topic=Add FEM Equation
 |Level=Advanced
 |Time=1 day
-|Author=[JohnWang](User:JohnWang.md)
+|Author=_
 |FCVersion=0.19
 }}
 
@@ -179,9 +179,9 @@ We now finished the function part of the new equation. Next we\'ll connect the n
 
 ## Gui tool to create an equation 
 
-We have just created a new equation class. To access it from the FEM GUI, we need to create a button and link it to the new equation class. Here is a tutorial: [Add button to FEM toolbar tutorial](Add_button_to_FEM_toolbar_tutorial.md).
+We have just created a new equation class. To access it from the FEM GUI, we need to create a button and link it to the new equation class. Here is a tutorial: [Add Button to FEM Toolbar Tutorial](Add_Button_to_FEM_Toolbar_Tutorial.md).
 
-[Category:FEM](Category:FEM.md) [Category:Developer Documentation](Category:Developer_Documentation.md)
+_ _
 
 ---
-[documentation index](../README.md) > [FEM](Category:FEM.md) > Add FEM equation tutorial/en
+[documentation index](../README.md) > [FEM](Category_FEM.md) > Add FEM equation tutorial/en

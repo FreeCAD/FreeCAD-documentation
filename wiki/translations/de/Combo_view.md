@@ -6,7 +6,7 @@
 Die [Comboansicht](combo_view/de.md) ist eines der Hauptpaneele in der FreeCAD [Benutzeroberfläche](interface/de.md). Sie befindet sich standardmäßig auf der linken Seite des Bildschirms. Sie ist \'\'zusammengesetzt aus zwei Abschnitten\", der:
 
 -   [Oberer Bereich](#Upper_section/de.md), der zwei Reiter enthält: den {{MenuCommand/de|Modell}} Reiter und {{MenuCommand/de|Aufgaben Reiter}}
--   [Unterer Bereich](#Lower_section/de.md) zeigt den [Eigenschafteneditor](property_editor/de.md). Er enthält zwei Reiter: die {{MenuCommand/de|Ansicht}} und {{MenuCommand/de|Daten}} Eigenschaften. Der [Eigenschafteneditor](property_editor/de.md) wird nur angezeigt, wenn der {{MenuCommand/de|Modell}} Reiter **aktiv** ist, d. h. wenn die [Baumansicht](tree_view/de.md) sichtbar ist.
+-   _ wird nur angezeigt, wenn der {{MenuCommand/de|Modell}} Reiter **aktiv** ist, d. h. wenn die [Baumansicht](tree_view/de.md) sichtbar ist.
 
 
 **Hinweis:**

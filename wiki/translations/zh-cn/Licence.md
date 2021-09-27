@@ -5,7 +5,7 @@
 
 FreeCAD有两种不同的许可, 一个用于应用程序本身, 另一个用于文档：
 
-**[Lesser General Public Licence, version 2 or superior (LGPL2+)](wikipedia:LGPL.md)**用于所有FreeCAD的源代码。所谓源代码，即包含于[官方Git仓库](https://github.com/FreeCAD/FreeCAD)里的那些。
+**_**用于所有FreeCAD的源代码。所谓源代码，即包含于[官方Git仓库](https://github.com/FreeCAD/FreeCAD)里的那些。
 
 
 <div class="mw-translate-fuzzy">
@@ -78,7 +78,7 @@ FreeCAD是一个库和一个应用的混合体，所以要求GPL协议就显得�
 
  
 
-[Category:Developer Documentation](Category:Developer_Documentation.md)
+_
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Licence/zh-cn
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Licence/zh-cn

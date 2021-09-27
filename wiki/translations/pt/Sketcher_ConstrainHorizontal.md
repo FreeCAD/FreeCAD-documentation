@@ -58,7 +58,7 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 }}  
 
-[Category:Sketcher/pt](Category:Sketcher/pt.md)
+_
 
 ---
 [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainHorizontal/pt

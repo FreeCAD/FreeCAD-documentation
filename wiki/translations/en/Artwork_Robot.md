@@ -14,7 +14,7 @@ For all icons in the source tree, see [Artwork](Artwork.md).
 
 }} 
 
-[Category:Robot](Category:Robot.md)
+_
 
 ---
-[documentation index](../README.md) > [Robot](Category:Robot.md) > Artwork Robot/en
+[documentation index](../README.md) > [Robot](Category_Robot.md) > Artwork Robot/en

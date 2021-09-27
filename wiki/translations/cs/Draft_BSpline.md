@@ -1,6 +1,6 @@
 # Draft BSpline/cs
 ---
-- GuiCommand:/cs   Name:Draft BSpline   Name/cs:Draft BSpline   Workbenches:[Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation:Draft → BSpline   Shortcut:B S   SeeAlso:[Drát](Draft_Wire/cs.md)---
+- GuiCommand:/cs   Name:Draft BSpline   Name/cs:Draft BSpline   Workbenches:_---
 
 
 </div>
@@ -12,7 +12,7 @@
 
 ## Popis
 
-Nástroj B-křivka vytváří [B-křivku](http://en.wikipedia.org/wiki/B-spline) z několika bodů v aktuální [pracovní rovině](Draft_SelectPlane/cs.md). Přebírá [tloušťku čáry a barvu](Draft_Linestyle/cs.md) předtím nastavenou v záložce nástrojů. Nástroj B-křivka se chová přesně stejně jako nástroj [Drát](Draft_Wire/cs.md).
+Nástroj B-křivka vytváří _. Přebírá [tloušťku čáry a barvu](Draft_Linestyle/cs.md) předtím nastavenou v záložce nástrojů. Nástroj B-křivka se chová přesně stejně jako nástroj [Drát](Draft_Wire/cs.md).
 
 
 </div>

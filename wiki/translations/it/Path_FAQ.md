@@ -49,7 +49,7 @@ Tutte le aggiunte alla lavorazione, comprese le modifiche e le copie di operazio
 
 </div>
 
-Informazioni dettagliate sono disponibili in [ Profondità e Altezze](Template:Depths/Heights/it.md).
+Informazioni dettagliate sono disponibili in _.
 
 [top](#top.md)
 
@@ -322,7 +322,7 @@ La funzione Path detiene inoltre una proprietà Placement. Cambiando il valore d
 
 Tuttavia, i Path Compounds possono usufruire del Placement (posizionamento) dei propri figli (vedi sotto).
 
-[https://www.freecadweb.org/wiki/Path\_scripting Path scripting](https://www.freecadweb.org/wiki/Path_scripting_Path_scripting.md)
+_
 
 [top](#top.md)
 

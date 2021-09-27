@@ -79,7 +79,7 @@
     -   <img alt="" src=images/Std_ViewIvStereoInterleavedRows.svg  style="width:32px;"> [Стерео с чередованием строк](Std_ViewIvStereoInterleavedRows/ru.md): Переключить стерео в режим чередования строк.
     -   <img alt="" src=images/Std_ViewIvStereoInterleavedColumns.svg  style="width:32px;"> [Стерео с чередованием столбцов](Std_ViewIvStereoInterleavedColumns/ru.md): Переключить стерео в режим чередования столбцов.
     -   <img alt="" src=images/Std_ViewIvStereoOff.svg  style="width:32px;"> [Выключить стерео](Std_ViewIvStereoOff/ru.md): Выключить стерео режим.
-    -   <img alt="" src=images/Std_ViewIvIssueCamPos.svg  style="width:32px;"> [Выводить положение камеры](Std_ViewIvIssueCamPos/ru.md): вывести настройки камеры в [отчёт](Report_view/ru.md) и в [Python консоль](Python_console/ru.md).
+    -   <img alt="" src=images/Std_ViewIvIssueCamPos.svg  style="width:32px;"> _ и в [Python консоль](Python_console/ru.md).
 
 -   Масштаб
     -   <img alt="" src=images/Std_ViewZoomIn.svg  style="width:32px;"> [Увеличить](Std_ViewZoomIn/ru.md): Увеличивает масштаб изображения вида.
@@ -154,7 +154,7 @@
     -   [Просмотр DAG](DAG_view/ru.md)
 
 -   Tree view actions
-    -   <img alt="" src=images/Std_TreeSyncView.svg  style="width:32px;"> [Sync view](Std_TreeSyncView.md): Toggles the [Tree view](Tree_view.md) SyncView mode. <small>(v0.19)</small> 
+    -   <img alt="" src=images/Std_TreeSyncView.svg  style="width:32px;"> _ SyncView mode. <small>(v0.19)</small> 
     -   <img alt="" src=images/Std_TreeSyncSelection.svg  style="width:32px;"> [Sync selection](Std_TreeSyncSelection.md): Toggles the Tree view SyncSelection mode. <small>(v0.19)</small> 
     -   <img alt="" src=images/Std_TreeSyncPlacement.svg  style="width:32px;"> [Sync placement](Std_TreeSyncPlacement.md): Toggles the Tree view SyncPlacement mode. <small>(v0.19)</small> 
     -   <img alt="" src=images/Std_TreePreSelection.svg  style="width:32px;"> [Pre-selection](Std_TreePreSelection.md): Toggles the Tree view PreSelection mode. <small>(v0.19)</small> 
@@ -165,7 +165,7 @@
     -   <img alt="" src=images/Std_TreeDrag.svg  style="width:32px;"> [Initiate dragging](Std_TreeDrag.md): Initiates a drag operation for selected objects in the Tree view. <small>(v0.19)</small> 
     -   <img alt="" src=images/Std_TreeSelection.svg  style="width:32px;"> [Go to selection](Std_TreeSelection.md): Scrolls the Tree view to the first created object in a 3D view selection. <small>(v0.19)</small> 
 
-[Строка состояния](Std_ViewStatusBar/ru.md): Переключает видимость [строки состояния](Status_bar/ru.md).
+_.
 
 
 
@@ -175,7 +175,7 @@
 
 }}  
 
-[Category:Workbenches](Category:Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > [Workbenches](Category:Workbenches.md) > Std View Menu/ru
+[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Std View Menu/ru

@@ -7,7 +7,7 @@
 
 </div>
 
-FreeCAD, la fel ca multe aplicații de design moderne, precum [ Revit](wikipedia:_Revit.md) sau [ CATIA](wikipedia:_CATIA.md), se bazează pe conceptul de [ Workbench](wikipedia:_Workbench.md). Un atelier poate fi considerat un set de instrumente special grupate pentru o anumită sarcină. Într-un atelier de mobilier tradițional, veți avea o masă de lucru pentru persoana care lucrează cu lemn, un altul pentru cel care lucrează cu piese de metal și poate un al treilea pentru tipul care montează toate piesele împreună.
+FreeCAD, la fel ca multe aplicații de design moderne, precum _ sau _, se bazează pe conceptul de _. Un atelier poate fi considerat un set de instrumente special grupate pentru o anumită sarcină. Într-un atelier de mobilier tradițional, veți avea o masă de lucru pentru persoana care lucrează cu lemn, un altul pentru cel care lucrează cu piese de metal și poate un al treilea pentru tipul care montează toate piesele împreună.
 
 În FreeCAD, se aplică același concept. Instrumentele sunt grupate în ateliere în funcție de sarcinile cu care sunt legate.
 
@@ -121,7 +121,7 @@ Noi ateliere sunt în curs de dezvoltare, fiți pe recepție!
 
 
 
-[Category:Workbenches](Category:Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > Workbenches/ro
+[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Workbenches/ro

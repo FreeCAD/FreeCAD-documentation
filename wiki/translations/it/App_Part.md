@@ -22,7 +22,7 @@ Vedere la pagina [Std Part](Std_Part/it.md) per le informazioni complete, inclus
 
 ## Proprietà
 
-Una classe [App Part](App_Part/it.md) (`App::Part`) è derivata dalla classe base [App GeoFeature](App_GeoFeature/it.md) (`App::GeoFeature`), pertanto condivide la maggior parte delle proprietà di quest\'ultima.
+Una classe _ (`App::GeoFeature`), pertanto condivide la maggior parte delle proprietà di quest\'ultima.
 
 Vedere l\'elenco completo delle proprietà nella pagina [Std Part](Std_Part/it.md).
 

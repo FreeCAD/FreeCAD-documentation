@@ -35,7 +35,7 @@ There is a macro available that will import the airfoil with a user defined chor
 
 
 
-[Category:User Documentation](Category:User_Documentation.md)
+_
 
 ---
-[documentation index](../README.md) > [User Documentation](Category:User Documentation.md) > Common Airfoil Data Import/en
+[documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > Common Airfoil Data Import/en

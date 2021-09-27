@@ -18,7 +18,7 @@ Wszystkie ikonki widoczne na liście źródłowej, patrz [Grafika](Artwork/pl.md
 
 }} 
 
-[Category:Mesh](Category:Mesh.md)
+_
 
 ---
-[documentation index](../README.md) > [Mesh](Category:Mesh.md) > Artwork Mesh/pl
+[documentation index](../README.md) > [Mesh](Category_Mesh.md) > Artwork Mesh/pl

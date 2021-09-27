@@ -56,7 +56,7 @@ Utilizarea metodei de ancorare [Endpoint](Draft_Endpoint.md) va asigura că inst
 
 }} 
 
-[Category:Workbenches](Category:Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > Points Workbench/ro
+[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Points Workbench/ro

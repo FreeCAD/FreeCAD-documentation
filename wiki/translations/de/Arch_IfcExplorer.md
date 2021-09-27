@@ -34,7 +34,7 @@ Der Zweck dieses Explorers besteht einfach darin, dir zu ermöglichen, zu überp
 
  
 
-[Category:BIM](Category:BIM.md)
+_
 
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch IfcExplorer/de
+[documentation index](../README.md) > [BIM](Category_BIM.md) > [Arch](Arch_Workbench.md) > Arch IfcExplorer/de

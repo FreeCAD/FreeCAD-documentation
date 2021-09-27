@@ -6,7 +6,7 @@
 
 <div class="mw-translate-fuzzy">
 
-[Pivy](http://pivy.coin3d.org/) este o bibliotecă de coduri care servește drept punte între Python și coin [Coin3d](http://www.coin3d.org), biblioteca de randare 3D utilizată de către FreeCAD. Atunci când este importat într-un interpretor python care rulează, Pivy permite dialogul direct și imediat cu orice procedură Coin3d care rulează [scenegraphs](Scenegraph.md), ca dexemplu vizualizările FreeCAD 3D , sau chiar creare unora noi. Pivy este inclus în pachetul standard de instalare FreeCAD .
+_, ca dexemplu vizualizările FreeCAD 3D , sau chiar creare unora noi. Pivy este inclus în pachetul standard de instalare FreeCAD .
 
 
 </div>
@@ -254,7 +254,7 @@ These links provide reference documentation for Coin v3.x. The differences with 
 
 }} 
 
-[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Pivy/ro
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Pivy/ro

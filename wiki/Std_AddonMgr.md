@@ -11,11 +11,11 @@
 
 ## Description
 
-The **Std AddonMgr** command opens the Addon manager. With the Addon manager you can install and manage [external workbenches](external_workbenches.md) and [macros](macros.md) provided by the FreeCAD community. The available workbenches and macros are taken from two repositories, [FreeCAD-addons](https://github.com/FreeCAD/FreeCAD-addons/) and [FreeCAD-macros](https://github.com/FreeCAD/FreeCAD-macros/), and from the [Macros recipes](Macros_recipes.md) page.
+The **Std AddonMgr** command opens the Addon manager. With the Addon manager you can install and manage _ page.
 
 Addons that are marked as {{emphasis|Python 2 Only}} will not work in FreeCAD version 0.19 or higher.
 
-Due to changes to the GitHub platform in the year 2020 the Addon manager no longer works if you use FreeCAD version 0.17 or earlier. You need to upgrade to version [0.18.5](https://github.com/FreeCAD/FreeCAD/releases/tag/0.18.5) or a recent [0.19](https://github.com/FreeCAD/FreeCAD/releases/tag/0.19_pre) version. Alternatively you can install addons manually, see [Notes](#Notes.md) below.
+Due to changes to the GitHub platform in the year 2020 the Addon manager no longer works if you use FreeCAD version 0.17 or earlier. You need to upgrade to version _ below.
 
  ![](images/Std_AddonMgr_dialog.png )  *The Addon manager dialog box*
 
@@ -63,7 +63,7 @@ The Addon manager dialog box has two tabs on the left, one listing the available
 
 ## Information for developers 
 
-If you have developed a workbench or macro, and want to see it included in the Addon manager, read how to do so on the repository pages: ([FreeCAD-addons](https://github.com/FreeCAD/FreeCAD-addons/) and [FreeCAD-macros](https://github.com/FreeCAD/FreeCAD-macros/)). If you add your macro to the [Macros recipes](Macros_recipes.md) page, there is nothing else to do, it will automatically be picked up by the Addon manager.
+If you have developed a workbench or macro, and want to see it included in the Addon manager, read how to do so on the repository pages: (_ page, there is nothing else to do, it will automatically be picked up by the Addon manager.
 
 ### Python workbenches 
 

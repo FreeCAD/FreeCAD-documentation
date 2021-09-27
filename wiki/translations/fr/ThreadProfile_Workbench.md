@@ -3,7 +3,7 @@ L\'atelier ThreadProfile est un atelier permettant de créer un profil de fil, q
 
 La documentation complète peut être trouvée sur Github: [ThreadProfile Workbench sur Github](https://github.com/mwganson/ThreadProfile)
 
-[Category:Addons](Category:Addons.md)
+_
 
 ---
-[documentation index](../README.md) > ThreadProfile Workbench/fr
+[documentation index](../README.md) > [Addons](Category_Addons.md) > ThreadProfile Workbench/fr

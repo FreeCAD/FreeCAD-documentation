@@ -8,7 +8,7 @@ Diese Seite sammelt die Informationen über die Paketerstellung von FreeCAD auf 
 
  
 
-[Category:Packaging](Category:Packaging.md) [Category:Developer Documentation](Category:Developer_Documentation.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Packaging](Category:Packaging.md) > Packaging/de
+[documentation index](../README.md) > [Packaging](Category_Packaging.md) > Packaging/de

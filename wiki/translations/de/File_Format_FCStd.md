@@ -118,7 +118,7 @@ Hierbei handelt es sich um eine 128x128 Pixel große Miniaturansicht des Dokumen
 
 ### \*.brep
 
-Dies sind die [B-rep](wikipedia:Boundary_representation.md) Formen aller Objekte, die eine Teilform in der {{FileName|Document.xml}}. haben. Jedes Objekt, auch wenn es parametrisch ist, hat seine Form als individuelle {{FileName|.brep}} Datei gespeichert, so dass Komponenten darauf zugreifen können, ohne die Form neu berechnen zu müssen.
+Dies sind die _ Formen aller Objekte, die eine Teilform in der {{FileName|Document.xml}}. haben. Jedes Objekt, auch wenn es parametrisch ist, hat seine Form als individuelle {{FileName|.brep}} Datei gespeichert, so dass Komponenten darauf zugreifen können, ohne die Form neu berechnen zu müssen.
 
 ### \*.svg
 
@@ -166,7 +166,7 @@ Siehe den Forumsbeitrag, [PDF innerhalb des Projekts](https://forum.freecadweb.o
 
  
 
-[Category:Developer](Category:Developer.md) [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:File\_Formats](Category:File_Formats.md)
+_ _ _
 
 ---
-[documentation index](../README.md) > [Developer](Category:Developer.md) > File Format FCStd/de
+[documentation index](../README.md) > [Developer](Category_Developer.md) > File Format FCStd/de

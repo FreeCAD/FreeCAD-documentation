@@ -64,7 +64,7 @@ Ein Bildschirmfoto der Version 0.11
 
 {{languages/de | {{en|Release_notes_0.11}} {{es|Release_notes_0.11/es}} {{fr|Release_notes_0.11/fr}} {{it|Release_notes_0.11/it}} {{pl|Release_notes_0.11/pl}} {{ru|Release_notes_0.11/ru}} }}
 
-[Category:News](Category:News.md) [Category:Documentation](Category:Documentation.md) [Category:Releases](Category:Releases.md)
+_ _ _
 
 ---
-[documentation index](../README.md) > [News](Category:News.md) > Release notes 0.11/de
+[documentation index](../README.md) > [News](Category_News.md) > Release notes 0.11/de

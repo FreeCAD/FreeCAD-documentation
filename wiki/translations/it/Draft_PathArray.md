@@ -90,7 +90,7 @@ See also: [Property editor](property_editor.md).
 
 <div class="mw-translate-fuzzy">
 
-Una **Serie su tracciato** deriva da una [Part Feature](Part_Feature/it.md) (classe `Part::Feature`), quindi condivide tutte le proprietà di quest\'ultima. Oltre alle proprietà descritte in [Funzione Part](Part_Feature/it.md), Serie su tracciato ha le seguenti proprietà nell\'[editor delle proprietà](property_editor/it.md).
+Una **Serie su tracciato** deriva da una _, Serie su tracciato ha le seguenti proprietà nell\'[editor delle proprietà](property_editor/it.md).
 
 
 </div>

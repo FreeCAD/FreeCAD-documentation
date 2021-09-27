@@ -43,7 +43,7 @@ După cum poate ați observat uneori, programatorii nu sunt foarte pricepuți la
 
 
 
-[Category:User\_Documentation](Category:User_Documentation.md)
+_
 
 ---
-[documentation index](../README.md) > [User_Documentation](Category:User_Documentation.md) > Online Help Startpage/ro
+[documentation index](../README.md) > [User_Documentation](Category_User_Documentation.md) > Online Help Startpage/ro

@@ -21,7 +21,7 @@ Cet atelier peut être installé à partir du [Gestionnaire d\'Addon](Std_AddonM
 
  
 
-[Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md) [Category:User Documentation](Category:User_Documentation.md)
+_ _ _
 
 ---
-[documentation index](../README.md) > WebTools Workbench/fr
+[documentation index](../README.md) > [Addons](Category_Addons.md) > WebTools Workbench/fr

@@ -39,7 +39,7 @@ L\'<img alt="" src=images/Workbench_Spreadsheet.svg  style="width:24px;"> [ateli
 -   <img alt="" src=images/Spreadsheet_StyleItalic.svg  style="width:24px;"> [Texte en italique](Spreadsheet_StyleItalic/fr.md): met le contenu des cellules sélectionnées en italique.
 -   <img alt="" src=images/Spreadsheet_StyleUnderline.svg  style="width:24px;"> [Texte souligné](Spreadsheet_StyleUnderline/fr.md): met le contenu des cellules sélectionnées en souligné.
 
--   <img alt="" src=images/Spreadsheet_SetAlias.svg  style="width:24px;"> [Alias](Spreadsheet_SetAlias/fr.md): définit des alias pour les cellules sélectionnées.
+-   <img alt="" src=images/Spreadsheet_SetAlias.svg  style="width:24px;"> [Alias](Spreadsheet_SetAlias/fr.md): définit l\'alias d\'une cellule sélectionnée.
 
 -    **Noir**et **Blanc** définissent les couleurs de premier plan et d\'arrière-plan des cellules sélectionnées.
 
@@ -47,13 +47,11 @@ L\'<img alt="" src=images/Workbench_Spreadsheet.svg  style="width:24px;"> [ateli
 
 ## Edition de feuilles de calcul 
 
-Comme indiqué ci-dessus dans la section Outils, un clic droit sur un en-tête de ligne ou de colonne fait apparaître un menu déroulant qui vous permet de supprimer la ligne/colonne ou d\'en insérer une nouvelle vierge. Les références de formules aux cellules qui sont déplacées par ces opérations sont corrigées pour faire référence au nouvel emplacement. Vous recevrez un avertissement et une demande de confirmation si la suppression d\'une ligne ou d\'une colonne supprime une référence utilisée dans votre modèle.
+Comme indiqué ci-dessus dans la section Outils, un clic droit sur un en-tête de ligne ou de colonne fait apparaître un menu déroulant qui vous permet de supprimer la ligne/colonne ou d\'en insérer une nouvelle vierge. Les références de formules aux cellules qui sont déplacées par ces opérations sont corrigées pour faire référence au nouvel emplacement.
 
-Les fonctions couper/copier/coller peuvent être utilisées pour modifier des données. Les fonctions Couper et Copier fonctionnent toutes deux sur des cellules individuelles, des lignes, des colonnes, des rectangles ou tout autre groupe de sélection de cellules que vous définissez. Couper efface le contenu des cellules sélectionnées. Couper et copier stockent le contenu des cellules dans un tampon de collage interne. Une opération de collage écrit les données mises en mémoire tampon de manière à ce que le contenu de la cellule la plus haute et la plus à gauche de l\'ensemble mis en mémoire tampon soit déposé dans la cellule où se trouve le curseur lorsque vous collez. Les autres contenus mis en mémoire tampon sont déposés là où ils auront la même relation avec cette cible qu\'avec la cellule la plus haute et la plus à gauche de votre ensemble couper/coller.
+Les fonctions couper/copier/coller peuvent être utilisées pour modifier des données. Les fonctions Couper et Copier fonctionnent toutes deux sur des cellules individuelles, des rectangles ou tout groupe de cellules que vous avez sélectionné. Couper efface le contenu des cellules sélectionnées. Couper et copier stockent le contenu et les propriétés de la cellule dans le Presse-papiers. Une opération de collage écrit les données mises en mémoire tampon de manière à ce que le contenu de la cellule la plus haute et la plus à gauche de l\'ensemble mis en mémoire tampon soit déposé dans la cellule où se trouve le curseur lorsque vous collez. Les autres contenus mis en mémoire tampon sont déposés là où ils auront la même relation avec cette cible qu\'avec la cellule la plus haute et la plus à gauche de votre ensemble couper/coller.
 
-Une mise en garde importante : les opérations couper/copier/coller ne réparent pas les références des formules. Si vous déplacez le contenu d\'une cellule, les formules qui faisaient référence à l\'ancien emplacement seront rompues. Si l\'ancien emplacement devient vide, la rupture sera visible car l\'évaluateur d\'expression affichera \#ERR dans les cellules dépendantes. Les propriétés ne sont pas non plus transférées.
-
-La touche Annuler peut être utilisée pour annuler l\'une de ces opérations. Cependant, elle annule une cellule à la fois, ce qui signifie que plusieurs annulations peuvent être nécessaires pour annuler un seul copier ou coller.
+Une mise en garde importante : les opérations couper/copier/coller ne réparent pas les références des formules. Si vous déplacez le contenu d\'une cellule, les formules qui faisaient référence à l\'ancien emplacement seront rompues. Si l\'ancien emplacement devient vide, la rupture sera visible car l\'évaluateur d\'expression affichera \#ERR dans les cellules dépendantes.
 
 ### Propriétés d\'une cellule 
 
@@ -233,7 +231,7 @@ sheet.get('Diameter')
 
 }} 
 
-[Category:Workbenches](Category:Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > Spreadsheet Workbench/fr
+[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Spreadsheet Workbench/fr

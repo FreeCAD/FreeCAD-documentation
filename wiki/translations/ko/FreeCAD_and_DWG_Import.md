@@ -201,7 +201,7 @@ In development version as mentioned above you can switch from the proprietary OD
 
  
 
-[Category:File\_Formats](Category:File_Formats.md) [Category:Common Questions](Category:Common_Questions.md)
+_ _
 
 ---
-[documentation index](../README.md) > [File_Formats](Category:File_Formats.md) > FreeCAD and DWG Import/ko
+[documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > FreeCAD and DWG Import/ko

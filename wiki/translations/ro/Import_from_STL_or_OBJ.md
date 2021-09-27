@@ -151,7 +151,7 @@ Deoarece solidul creat nu are istorie si nici funcții editabile (ca o copie sim
 
  
 
-[Category:File\_Formats](Category:File_Formats.md)
+_
 
 ---
-[documentation index](../README.md) > [Import](Import_Workbench.md) > Import from STL or OBJ/ro
+[documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > [Import](Import_Workbench.md) > Import from STL or OBJ/ro

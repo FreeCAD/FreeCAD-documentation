@@ -11,8 +11,8 @@ L\'<img alt="" src=images/Workbench_Path.svg  style="width:24px;"> [atelier Path
 
 Le flux de travail de l\'atelier Path FreeCAD crée ces instructions machine comme suit :
 
--   Un modèle 3D est l\'objet de base, généralement créé à l\'aide d\'un ou plusieurs des ateliers <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Part Design](PartDesign_Workbench/fr.md), <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part](Part_Workbench/fr.md) ou <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft](Draft_Workbench/fr.md).
--   Un [Path Tâche](Path_Job/fr.md) est créée dans l\'atelier Path. Celui-ci contient toutes les informations nécessaires pour générer le G-code nécessaire pour traiter l\'usinage sur une fraiseuse CNC : il y a le brut de matière (le stock), le [magasin d\'outils](Path_ToolLibraryEdit/fr.md) et il suit certaines commandes contrôlant la vitesse et les mouvements (généralement en G-code).
+-   Un modèle 3D est l\'objet de base, généralement créé à l\'aide d\'un ou plusieurs des ateliers <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> _ ou <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft](Draft_Workbench/fr.md).
+-   Un _ et il suit certaines commandes contrôlant la vitesse et les mouvements (généralement en G-code).
 -   Les [Path Outils](Path_Tools/fr.md) sont sélectionnés comme requis par les opérations d\'usinage.
 -   Les parcours de l\'outil de fraisage sont créés en utilisant par ex. des opérations de [Contournage](Path_Profile/fr.md) et [Poche](Path_Pocket_3D/fr.md). Ces objets Path utilisent le langage G-code interne à FreeCAD, indépendant de la machine CNC.
 -   Le travail est exporté en G-code, correspondant à votre machine. Cette étape s\'appelle *post-traitement*. Il y a différents post-processeurs disponibles.
@@ -84,7 +84,7 @@ Certaines commandes sont expérimentales et ne sont pas disponibles par défaut.
 
 -   <img alt="" src=images/Path_Post.svg  style="width:32px;"> [Post-traitement](Path_Post/fr.md) : Exporte un projet en G-code.
 
--   <img alt="" src=images/Path_Sanity.svg  style="width:32px;"> [Rechercher des erreurs](Path_Sanity/fr.md) : Vérifie les valeurs manquantes dans la tâche sélectionnée. [**Fonctions expérimentales**](Path_experimental/fr.md). {{Version/fr|0.19}}
+-   <img alt="" src=images/Path_Sanity.svg  style="width:32px;"> _. {{Version/fr|0.19}}
 
 -   <img alt="" src=images/Path_ExportTemplate.svg  style="width:32px;"> [Exporter comme modèle](Path_ExportTemplate/fr.md) : Exporte la tâche en cours en tant que modèle.
 
@@ -116,7 +116,7 @@ Certaines commandes sont expérimentales et ne sont pas disponibles par défaut.
 
 -   <img alt="" src=images/Path_Adaptive.svg  style="width:32px;"> [Adaptation](Path_Adaptive/fr.md) : Crée une opération adaptatif de compensation et de profilage.
 
--   <img alt="" src=images/Path_Slot.svg  style="width:32px;"> [Rainure](Path_Slot/fr.md) : crée une opération de rainurage à partir d\'entités sélectionnées ou de points personnalisés. [**Fonctions expérimentales**](Path_experimental/fr.md). {{Version/fr|0.19}}
+-   <img alt="" src=images/Path_Slot.svg  style="width:32px;"> _. {{Version/fr|0.19}}
 
 -   <img alt="" src=images/Path_Engrave.svg  style="width:32px;"> [Gravure](Path_Engrave/fr.md) : Crée un parcours de gravure.
 
@@ -126,9 +126,9 @@ Certaines commandes sont expérimentales et ne sont pas disponibles par défaut.
 
 -   <img alt="" src=images/Path_3DPocket.svg  style="width:32px;"> [Poche 3D](Path_Pocket_3D/fr.md) : Crée un parcours d\'usinage pour une poche 3D.
 
--   <img alt="" src=images/Path_Surface.svg  style="width:32px;"> [Surface 3D](Path_Surface/fr.md) : Crée un parcours d\'usinage pour une surface 3D. [**Fonctions expérimentales**](Path_experimental/fr.md). {{Version/fr|0.19}}
+-   <img alt="" src=images/Path_Surface.svg  style="width:32px;"> _. {{Version/fr|0.19}}
 
--   <img alt="" src=images/Path_Waterline.svg  style="width:32px;"> [Contour par lignes de niveau](Path_Waterline/fr.md) : Crée un tracé défini par lignes de niveau pour une surface 3D. [**Fonctions expérimentales**](Path_experimental/fr.md). {{Version/fr|0.19}}
+-   <img alt="" src=images/Path_Waterline.svg  style="width:32px;"> _. {{Version/fr|0.19}}
 
 ### Habillage de parcours 
 
@@ -154,7 +154,7 @@ Certaines commandes sont expérimentales et ne sont pas disponibles par défaut.
 
 -   <img alt="" src=images/Path_Custom.svg  style="width:32px;"> [Personnaliser](Path_Custom/fr.md) : Insère un G-code personnalisé.
 
--   <img alt="" src=images/Path_Shape.svg  style="width:32px;"> [Parcours à partir de formes](Path_Shape/fr.md) : Crée un objet parcours d\'usinage à partir d\'un objet Part sélectionné. [**Fonctions expérimentales**](Path_experimental/fr.md). {{Version/fr|0.19}}
+-   <img alt="" src=images/Path_Shape.svg  style="width:32px;"> _. {{Version/fr|0.19}}
 
 ### Modification du parcours d\'usinage 
 
@@ -166,9 +166,9 @@ Certaines commandes sont expérimentales et ne sont pas disponibles par défaut.
 
 ### Divers
 
--   <img alt="" src=images/Path_Area.svg  style="width:32px;"> [Zone d\'usinage](Path_Area/fr.md) : Crée une zone d\'usinage à partir d\'objets sélectionnés. [**Fonctions expérimentales**](Path_experimental/fr.md).
+-   <img alt="" src=images/Path_Area.svg  style="width:32px;"> _.
 
--   <img alt="" src=images/Path_Area_Workplane.svg  style="width:32px;"> [Zone de travail plane](Path_Area_Workplane/fr.md) : Crée une zone d\'usinage plane. [**Fonctions expérimentales**](Path_experimental/fr.md).
+-   <img alt="" src=images/Path_Area_Workplane.svg  style="width:32px;"> _.
 
 ### Obsolète
 
@@ -206,7 +206,7 @@ Voir la page [Path Ecrire un script](Path_scripting/fr.md).
 
 ## Vidéos
 
--   [FreeCAD Path : Custom paths with Python - Part 1 - 5](https://www.youtube.com/playlist?list=PLEuOia-QxyFKgzAeTyH62GKqWKVURiWJL) : une playlist avec une série de 5 vidéos en anglais par sliptonic. Cette série montre comment travailler avec l\'[atelier Path](Path_Workbench/fr.md).
+-   _.
 -   [FreeCAD CAM Path Workbench](https://www.youtube.com/playlist?list=PLUrr_kHPp4vhGdLlj6IemtF-OPUlRvSTC) : une playlist avec une série de 7 vidéos en anglais par CAD CAM Lessons.
 -   [FreeCAD CAM CNC](https://www.youtube.com/playlist?list=PLUrr_kHPp4vh2n6DcIlegK4dEKIFjmISJ) : une playlist avec une série de 8 vidéos en anglais par CAD CAM Lessons.
 
@@ -218,7 +218,7 @@ Voir la page [Path Ecrire un script](Path_scripting/fr.md).
 
 }} 
 
-[Category:Workbenches](Category:Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > Path Workbench/fr
+[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Path Workbench/fr

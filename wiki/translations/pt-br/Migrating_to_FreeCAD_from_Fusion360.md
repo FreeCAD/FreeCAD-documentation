@@ -26,7 +26,7 @@ Reference the [Glossary](Glossary.md) page in general but here is a short list o
 ## FAQ
 
 1.  What formats do you support in FreeCAD?
-    -   The native file format in FreeCAD is BREP, [boundary representation](https://en.wikipedia.org/wiki/Boundary_representation), provided by the internal [OpenCASCADE (OCCT)](OpenCASCADE.md) geometry kernel.
+    -   The native file format in FreeCAD is BREP, _ geometry kernel.
     -   FreeCAD supports all formats that OCCT supports, so STEP and IGES at least.
 2.  What formats should I use to migrate to FreeCAD?
     -   STEP is the best format because it is a solid [Shape](Shape.md) format, as opposed to a [Mesh](Mesh.md) (STL, OBJ, DAE). Example, [Importing Step with Colors](https://forum.freecadweb.org/viewtopic.php?f=3&t=50308).
@@ -34,7 +34,7 @@ Reference the [Glossary](Glossary.md) page in general but here is a short list o
 
 ## Tips
 
--   \@MPetrika ([twitter](https://twitter.com/MPetrikas/status/1362051484704264198)) recommends installing HakanSeven12\'s [ModernUI Workbench](ModernUI_Workbench.md)
+-   \@MPetrika (_
 
 ## Learning Resources 
 

@@ -24,7 +24,7 @@ This page presents more in-depth information over the built-in FreeCAD modules, 
 
 }} 
 
-[Category:API](Category:API.md)
+_
 
 ---
-[documentation index](../README.md) > [API](Category:API.md) > Builtin modules/ru
+[documentation index](../README.md) > [API](Category_API.md) > Builtin modules/ru

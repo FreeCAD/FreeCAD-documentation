@@ -45,7 +45,7 @@ The Ship Workbench was unmaintained since v0.17 but has been resurrected in v0.1
 
 }} 
 
-[Category:External Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)
+_ _
 
 ---
-[documentation index](../README.md) > Ship Workbench/tr
+[documentation index](../README.md) > [External Workbenches](Category_External Workbenches.md) > Ship Workbench/tr

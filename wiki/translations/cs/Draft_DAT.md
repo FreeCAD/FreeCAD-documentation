@@ -12,7 +12,7 @@ There are many different dialects of this format so this import module tries to 
 
  
 
-[Category:User Documentation/cs](Category:User_Documentation/cs.md) [Category:File Formats](Category:File_Formats.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft DAT/cs
+[documentation index](../README.md) > [File Formats](Category_File Formats.md) > [Draft](Draft_Workbench.md) > Draft DAT/cs

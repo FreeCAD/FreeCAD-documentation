@@ -5,11 +5,11 @@
 
 ## Introduction
 
-L\'[atelier PartDesign](PartDesign_Workbench/fr.md) <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> fournit des outils avancés pour la modélisation de pièces complexes et solides. Il est principalement axé sur la création de pièces mécaniques pouvant être fabriquées et assemblées dans un produit fini. Néanmoins, les solides créés peuvent en général être utilisés à d\'autres fins, tels que la [conception architecturale](Arch_Workbench/fr.md), l\'[analyse par éléments finis](FEM_Workbench/fr.md) ou l\'[usinage et l\'impression 3D](Path_Workbench/fr.md).
+L\'_, l\'[analyse par éléments finis](FEM_Workbench/fr.md) ou l\'[usinage et l\'impression 3D](Path_Workbench/fr.md).
 
 L\'atelier PartDesign est étroitement lié à l\'[atelier Sketcher (Esquisse)](Sketcher_Workbench/fr.md). L\'utilisateur crée normalement une esquisse, puis utilise l\'outil [PartDesign Protrusion](PartDesign_Pad/fr.md) pour l\'extruder et créer un solide de base, ensuite ce solide peut être à nouveau modifié.
 
-Alors que l\'<img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [atelier Part](Part_Workbench/fr.md) est basé sur la méthodologie de [géométrie de construction de solides](constructive_solid_geometry/fr.md) (CSG en anglais: \"Constructive Solid Geometry\") pour la construction de formes, l\'atelier PartDesign utilise une méthodologie paramétrique d\'édition de fonctions, ce qui signifie qu\'un solide de base est transformé de manière séquentielle en lui ajoutant des fonctions jusqu\'à l\'obtention de la forme finale. Voir la page [édition de fonctions](feature_editing/fr.md) pour une explication plus complète de ce processus, puis voir [Créer une pièce simple avec PartDesign](Creating_a_simple_part_with_PartDesign/fr.md) pour commencer à créer des solides.
+Alors que l\'<img alt="" src=images/Workbench_Part.svg  style="width:24px;"> _ pour une explication plus complète de ce processus, puis voir [Créer une pièce simple avec PartDesign](Creating_a_simple_part_with_PartDesign/fr.md) pour commencer à créer des solides.
 
 Une discussion plus détaillée de l\'atelier Part par rapport à l\'atelier Part Design peut être trouvée ici: [Part et Part Design](Part_and_PartDesign/fr.md).
 
@@ -27,13 +27,13 @@ Ces outils ne font en fait pas partie de l\'atelier PartDesign. Ils appartiennen
 
 -   <img alt="" src=images/Std_Part.svg  style="width:32px;"> [Pièce](Std_Part/fr.md): ajoute un conteneur Pièce dans le document actif et le rend actif.
 
--   <img alt="" src=images/Std_Group.svg  style="width:32px;"> [Groupe](Std_Group/fr.md): ajoute un Groupe dans l\'arborescence du document actif, qui permet d\'organiser les objets dans la [vue arborescence](Tree_view/fr.md).
+-   <img alt="" src=images/Std_Group.svg  style="width:32px;"> _.
 
 ### Outils d\'assistance Part Design 
 
--   <img alt="" src=images/PartDesign_Body.svg  style="width:32px;"> [Corps](PartDesign_Body/fr.md) : crée un objet [Body](Body/fr.md) dans le document actif et le rend actif.
+-   <img alt="" src=images/PartDesign_Body.svg  style="width:32px;"> _ dans le document actif et le rend actif.
 
--   ![\|32px](images/Sketcher_NewSketch.svg ) [Esquisse](PartDesign_NewSketch/fr.md) : crée une nouvelle esquisse sur un plan ou une face sélectionnée. Si rien n\'est sélectionné, l\'utilisateur est invité à sélectionner un plan dans le panneau Tâches. L\'interface bascule ensuite vers l\'[atelier Sketcher](Sketcher_Workbench/fr.md) en mode d\'édition d\'esquisse.
+-   !_ en mode d\'édition d\'esquisse.
 
 -   <img alt="" src=images/Sketcher_EditSketch.svg  style="width:32px;"> [Modifier l\'esquisse](Sketcher_EditSketch/fr.md) : édite l\'esquisse sélectionnée.
 
@@ -196,7 +196,7 @@ Des fonctionnalités supplémentaires se trouvent dans le menu Part Design :
 
  {{PartDesign Tools navi}}
 
-[Category:Workbenches](Category:Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > PartDesign Workbench/fr
+[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > PartDesign Workbench/fr

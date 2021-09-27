@@ -25,7 +25,7 @@ Dieses Tutorium soll den Leser in den grundlegenden Arbeitsablauf des [PartDesig
 
 Der Zweck des **PartDesign Arbeitsbereichs** ist es, dem Benutzer die Erstellung von Geometrie im 3D Raum zu ermöglichen. Als solche ist sie mit Werkzeugen ausgestattet, um Skizzen zu nutzen und sie in 3D Objekte umzuwandeln.
 
-Um dies zu erreichen, gibt es zwei Werkzeuge: <img alt="" src=images/PartDesign_Pad.svg  style="width:32px;"> [Polster](PartDesign_Pad/de.md) und <img alt="" src=images/PartDesign_Revolution.svg  style="width:32px;"> [Drehung](PartDesign_Revolution/de.md). Neben ihren subtraktiven Gegenstücken (<img alt="" src=images/PartDesign_Pocket.svg  style="width:32px;"> [Tasche](PartDesign_Pocket/de.md) und <img alt="" src=images/PartDesign_Groove.svg  style="width:32px;"> [Nut](PartDesign_Groove/de.md)) bilden sie die meisten der von diesem Arbeitsbereich verwendeten üblichen Aktionen.
+Um dies zu erreichen, gibt es zwei Werkzeuge: <img alt="" src=images/PartDesign_Pad.svg  style="width:32px;"> _. Neben ihren subtraktiven Gegenstücken (<img alt="" src=images/PartDesign_Pocket.svg  style="width:32px;"> _) bilden sie die meisten der von diesem Arbeitsbereich verwendeten üblichen Aktionen.
 
 1.  Wechsle in den Arbeitsbereich PartDesign.
 2.  Mit der Skizze ausgewählt in der <img src=images/PartDesign_Body.svg style="width:Baumansicht](tree_view/de.md), drücke **[16px"> [PartDesign Körper](PartDesign_Body/de.md)**, Wähle die Standard XY-Ebene und drücke **OK**. Die Skizze sollte nun innerhalb des Körpers erscheinen.

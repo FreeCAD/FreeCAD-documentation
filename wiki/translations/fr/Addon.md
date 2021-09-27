@@ -7,9 +7,9 @@ Dans FreeCAD et dans cette documentation, un [addon](addon/fr.md) est un composa
 
 Il existe environ trois types d\'extensions:
 
--   [Macro](Macros/fr.md): petit bout de code en [Python](Python/fr.md) qui fournit un nouvel outil ou une nouvelle fonctionnalité dans un seul fichier se terminant par `.FCMacro`.
+-   _ qui fournit un nouvel outil ou une nouvelle fonctionnalité dans un seul fichier se terminant par `.FCMacro`.
 -   Module: un seul fichier source Python, ou une collection de fichiers Python, qui étend le logiciel d\'une certaine manière. Les modules ne définissent pas nécessairement un «atelier» graphique mais peuvent fournir une fonctionnalité de support, par exemple, une bibliothèque qui effectue la conversion des formats ou du code qui modifie l\'[interface](interface/fr.md) graphique.
--   [Atelier](External_workbenches/fr.md): collections de fichiers Python qui fournissent des [Gui Commands](Gui_Command/fr.md) (outils) centrés autour d\'un sujet particulier, par exemple, des outils pour concevoir des armoires ou des outils pour travailler avec l\'architecture, ou des outils pour concevoir des bateaux, etc. Ces ateliers définissent généralement de nouvelles barres d\'outils où des [commandes](Gui_Command/fr.md) sont placées sous forme de boutons.
+-   _ (outils) centrés autour d\'un sujet particulier, par exemple, des outils pour concevoir des armoires ou des outils pour travailler avec l\'architecture, ou des outils pour concevoir des bateaux, etc. Ces ateliers définissent généralement de nouvelles barres d\'outils où des [commandes](Gui_Command/fr.md) sont placées sous forme de boutons.
 
 Les macros sont installées dans le répertoire `Macro/` de l\'utilisateur tandis que les modules et les ateliers se trouvent dans le répertoire `Mod/`. {{Code|lang=bash|code=
 $HOME/.FreeCAD/Macro/
@@ -34,7 +34,7 @@ Cependant, une installation manuelle est toujours possible.
 
 
 
-[Category:Addons](Category:Addons.md)
+_
 
 ---
-[documentation index](../README.md) > [Addons](Category:Addons.md) > Addon/fr
+[documentation index](../README.md) > [Addons](Category_Addons.md) > Addon/fr

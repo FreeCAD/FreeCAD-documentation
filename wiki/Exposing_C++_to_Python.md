@@ -35,7 +35,7 @@ Note:
 -   Source: <https://forum.freecadweb.org/viewtopic.php?p=314796#p314617>
 -   [Workbench creation](Workbench_creation.md)
 
-[Category:Developer Documentation](Category:Developer_Documentation.md)
+_
 
 ---
 [documentation index](../README.md) > Exposing C++ to Python

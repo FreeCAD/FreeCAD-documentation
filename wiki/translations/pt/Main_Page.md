@@ -3,7 +3,7 @@
 
 ## Introducão
 
-Esta é a documentação wiki do [FreeCAD](http://www.freecadweb.org). Existem duas maneiras principais para navegar nesta documentação: explorando os hubs de utilizadores ou percorrendo o manual. Este é um trabalho em continuo desenvolvimento, escrito pela comunidade de utilizadores e desenvolvedores do FreeCAD. Se encontrar erros ou informação em falta, por favor [ajude](Help_FreeCAD/pt.md)!
+Esta é a documentação wiki do _!
 
 
 </div>
@@ -22,7 +22,7 @@ Esta é a documentação wiki do [FreeCAD](http://www.freecadweb.org). Existem d
 Esta página contém documentação útil para utilizadores do FreeCAD em geral: Uma lista de bancadas, instruções detalhadas para instalar e usar o FreeCAD, tutoriais, e tudo que o que vai precisa para começar.
 
 +---+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|   | -   [Para utilizadores avançados](Power_users_hub/pt.md): Para utilizadores avançados, explica como usar macros e programação python para melhorar o seu fluxo de trabalho | -   [Para desenvolvedores](Developer_hub/pt.md): Para desenvolvedores, explica como escrever código para a aplicação FreeCAD, expandi-lo ou utilizá-lo nas suas próprias aplicações |
+|   | -   _: Para desenvolvedores, explica como escrever código para a aplicação FreeCAD, expandi-lo ou utilizá-lo nas suas próprias aplicações |
 +---+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
@@ -33,7 +33,7 @@ Esta página contém documentação útil para utilizadores do FreeCAD em geral:
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/Crystal_Clear_manual.png  style="width:64px;"> [Manual do FreeCAD](Manual:Introduction.md) é outra forma, mais linear de apresentar a informação contida nesta wiki. Foi feita para ser lida como um livro, e poderá levar-nos de forma suave a muitas páginas dos assuntos acima. [ebook versions](https://www.gitbook.com/book/yorikvanhavre/a-freecad-manual/details) também disponível como [algumas traduções em formato pdf](https://www.freecadweb.org/manual/). 
+<img alt="" src=images/Crystal_Clear_manual.png  style="width:64px;"> _ é outra forma, mais linear de apresentar a informação contida nesta wiki. Foi feita para ser lida como um livro, e poderá levar-nos de forma suave a muitas páginas dos assuntos acima. [ebook versions](https://www.gitbook.com/book/yorikvanhavre/a-freecad-manual/details) também disponível como [algumas traduções em formato pdf](https://www.freecadweb.org/manual/). 
 
 
 
@@ -85,7 +85,7 @@ A página [Ajuda o FreeCAD](help_FreeCAD/pt.md) descreve tudo com mais detalhes.
 
 <div class="mw-translate-fuzzy">
 
-O FreeCAD pode ser compilado em todas as plataformas usando [CMake](https://cmake.org/). O código-fonte é [LGPL](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License)-licenciado e disponível no [GitHub](https://github.com/FreeCAD/FreeCAD). Existem instruções de compilação para [Windows](CompileOnWindows.md), [Unix/Linux](CompileOnUnix.md) e [MacOSX](CompileOnMac.md). A documentação do código-fonte está [disponível aqui](http://www.freecadweb.org/api/), gerada por [Doxygen](Doxygen.md), e [documentada na wiki](Source_documentation.md).
+O FreeCAD pode ser compilado em todas as plataformas usando _, _, e [documentada na wiki](Source_documentation.md).
 
 
 </div>
@@ -103,7 +103,7 @@ Visite o [ Mapa de desenvolvimento](Development_roadmap/en.md) para ver notícia
 
 
 
-[Category:Documentation](Category:Documentation.md)
+_
 
 ---
-[documentation index](../README.md) > [Documentation](Category:Documentation.md) > Main Page/pt
+[documentation index](../README.md) > [Documentation](Category_Documentation.md) > Main Page/pt

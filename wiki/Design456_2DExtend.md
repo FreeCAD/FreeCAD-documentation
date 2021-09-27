@@ -15,7 +15,7 @@ The <img alt="" src=images/2D_ExtendLine.svg  style="width:24px;"> **Design456 T
 
 ## Usage
 
-1.  Switch to the <img alt="" src=images/Design456_workbench_icon.svg  style="width:24px;"> [Design456](Design456_Workbench.md) workbench (install from <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Addon_Manager.md) is necessary, if not previously installed)
+1.  Switch to the <img alt="" src=images/Design456_workbench_icon.svg  style="width:24px;"> _ is necessary, if not previously installed)
 2.  The aim of this tool is to easily Extend an edge or a wire.
 
 
@@ -45,7 +45,7 @@ At the moment, the command extend only at the end. This must be improved to do l
 
 }} 
 
-[Category:External Command Reference](Category:External_Command_Reference.md)
+_
 
 ---
-[documentation index](../README.md) > [External Command Reference](Category:External Command Reference.md) > Design456 2DExtend
+[documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > Design456 2DExtend

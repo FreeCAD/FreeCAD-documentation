@@ -9,7 +9,7 @@
 
 [Crea una copia semplice‎](Part_SimpleCopy/it‎.md) elimina lo storico della parte in modo che i diversi passaggi per creare la parte non siano più accessibili / modificabili
 
-In alternativa, per produrre altre copie non parametriche utilizzare <img alt="" src=images/Part_TransformedCopy.svg  style="width:16px;"> [Copia trasformata](Part_TransformedCopy/it.md), <img alt="" src=images/Part_ElementCopy.svg  style="width:16px;"> [Copia elemento](Part_ElementCopy/it.md), e <img alt="" src=images/Part_RefineShape.svg  style="width:16px;"> [Affina forma](Part_RefineShape/it.md).
+In alternativa, per produrre altre copie non parametriche utilizzare <img alt="" src=images/Part_TransformedCopy.svg  style="width:16px;"> _, e <img alt="" src=images/Part_RefineShape.svg  style="width:16px;"> [Affina forma](Part_RefineShape/it.md).
 
 ## Utilizzo
 

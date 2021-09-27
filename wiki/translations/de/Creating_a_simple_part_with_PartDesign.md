@@ -118,7 +118,7 @@ Wenn deine Skizze noch nicht grün ist, sind ein oder mehrere Punkte nicht decku
 
 Gehe bei allen Punkten auf die gleiche Weise vor.
 
-Wenn deine Skizze immer noch nicht grün ist, überprüfe, ob alle Linien (außer der schrägen) entweder ein <img alt="" src=images/Constraint_Horizontal.svg  style="width:24px;"> [Horizontal](Sketcher_ConstrainHorizontal.md) oder <img alt="" src=images/Constraint_Vertical.svg  style="width:24px;"> [Vertikal](Sketcher_ConstrainVertical.md) und füge, wenn nötig, eine Beschränkung hinzu.
+Wenn deine Skizze immer noch nicht grün ist, überprüfe, ob alle Linien (außer der schrägen) entweder ein <img alt="" src=images/Constraint_Horizontal.svg  style="width:24px;"> _ und füge, wenn nötig, eine Beschränkung hinzu.
 
 ### Verwendung der Polster- und Taschen Formelemente 
 

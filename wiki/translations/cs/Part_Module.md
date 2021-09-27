@@ -8,14 +8,14 @@
 
 <div class="mw-translate-fuzzy">
 
-CAD možnosti FreeCADu jsou založeny na jádře [OpenCasCade](http://en.wikipedia.org/wiki/Open_CASCADE). Modul Díl umožňuje FreeCADu přístup a používání objektů a funkcí OpenCasCade. OpenCascade je profesionální CAD jádro, jehož vlastnosti umožňují pokročilou manipulaci s 3D konstrukcemi a objekty. Objekty Díl, narozdíl od objektů [Modulu Síť](Mesh_Workbench/cs.md), jsou mnohem komplexnější a proto umožňují mnohem dokonalejší operace, jako jsou logické boolean operace, modifikace historie a parametrické chování.
+CAD možnosti FreeCADu jsou založeny na jádře _, jsou mnohem komplexnější a proto umožňují mnohem dokonalejší operace, jako jsou logické boolean operace, modifikace historie a parametrické chování.
 
 
 </div>
 
 A more detailed discussion of Part workbench versus Part Design workbench can be found here: [Part and Part Design](Part_and_PartDesign.md).
 
-The objects created with the Part Workbench are relatively simple; they are intended to be used with boolean operations (unions and cuts) in order to build more complex shapes. **This modeling paradigm is known as the [constructive solid geometry](Constructive_solid_geometry.md) (CSG) workflow, and it was the traditional methodology used in early CAD systems.** On the other hand, the [PartDesign Workbench](PartDesign_Workbench.md) provides a more modern workflow to constructing shapes: it uses a parametrically defined sketch, that is extruded to form a basic solid body, which is then modified by parametric transformations ([feature editing](feature_editing.md)), until the final object is obtained.
+The objects created with the Part Workbench are relatively simple; they are intended to be used with boolean operations (unions and cuts) in order to build more complex shapes. **This modeling paradigm is known as the _), until the final object is obtained.
 
 Part objects are more complex than mesh objects created with the [Mesh Workbench](Mesh_Workbench.md), as they permit more advanced operations like coherent boolean operations, modifications history, and parametric behaviour.
 
@@ -64,12 +64,12 @@ These are tools for creating primitive objects.
 
 -   <img alt="" src=images/Part_Primitives.svg  style="width:32px;"> [Primitives](Part_Primitives.md): A tool to create one of the following primitives:
     -   <img alt="" src=images/Part_Plane.svg  style="width:32px;"> [Plane](Part_Plane.md): Creates a plane.
-    -   <img alt="" src=images/Tree_Part_Box_Parametric.svg  style="width:32px;"> [Box](Part_Box.md): Creates a box. This object can also be created with the <img alt="" src=images/Part_Box.svg  style="width:32px;"> [Box](Part_Box.md) tool.
-    -   <img alt="" src=images/Tree_Part_Cylinder_Parametric.svg  style="width:32px;"> [Cylinder](Part_Cylinder.md): Creates a cylinder. This object can also be created with the <img alt="" src=images/Part_Cylinder.svg  style="width:32px;"> [Cylinder](Part_Cylinder.md) tool.
-    -   <img alt="" src=images/Tree_Part_Cone_Parametric.svg  style="width:32px;"> [Cone](Part_Cone.md): Creates a cone. This object can also be created with the <img alt="" src=images/Part_Cone.svg  style="width:32px;"> [Cone](Part_Cone.md) tool.
-    -   <img alt="" src=images/Tree_Part_Sphere_Parametric.svg  style="width:32px;"> [Sphere](Part_Sphere.md): Creates a sphere. This object can also be created with the <img alt="" src=images/Part_Sphere.svg  style="width:32px;"> [Sphere](Part_Sphere.md) tool.
+    -   <img alt="" src=images/Tree_Part_Box_Parametric.svg  style="width:32px;"> _ tool.
+    -   <img alt="" src=images/Tree_Part_Cylinder_Parametric.svg  style="width:32px;"> _ tool.
+    -   <img alt="" src=images/Tree_Part_Cone_Parametric.svg  style="width:32px;"> _ tool.
+    -   <img alt="" src=images/Tree_Part_Sphere_Parametric.svg  style="width:32px;"> _ tool.
     -   <img alt="" src=images/Part_Ellipsoid.svg  style="width:32px;"> [Ellipsoid](Part_Ellipsoid.md): Creates a ellipsoid.
-    -   <img alt="" src=images/Tree_Part_Torus_Parametric.svg  style="width:32px;"> [Torus](Part_Torus.md): Creates a torus. This object can also be created with the <img alt="" src=images/Part_Torus.svg  style="width:32px;"> [Torus](Part_Torus.md) tool.
+    -   <img alt="" src=images/Tree_Part_Torus_Parametric.svg  style="width:32px;"> _ tool.
     -   <img alt="" src=images/Part_Prism.svg  style="width:32px;"> [Prism](Part_Prism.md): Creates a prism.
     -   <img alt="" src=images/Part_Wedge.svg  style="width:32px;"> [Wedge](Part_Wedge.md): Creates a wedge.
     -   <img alt="" src=images/Part_Helix.svg  style="width:32px;"> [Helix](Part_Helix.md): Creates a helix.
@@ -144,7 +144,7 @@ These tools perform boolean operations.
     -   <img alt="" src=images/Part_BooleanFragments.svg  style="width:32px;"> [Boolean fragments](Part_BooleanFragments.md): Creates all pieces obtained from Boolean operations.
     -   <img alt="" src=images/Part_SliceApart.svg  style="width:32px;"> [Slice a part](Part_SliceApart.md): Slices and splits an object by intersecting it with other objects.
     -   <img alt="" src=images/Part_Slice.svg  style="width:32px;"> [Slice](Part_Slice.md): Slices an object by intersecting it with other objects.
-    -   <img alt="" src=images/Part_XOR.svg  style="width:32px;"> [XOR](Part_XOR.md): Removes space shared by an even number of objects (symmetric version of [Cut](Part_Cut.md)).
+    -   <img alt="" src=images/Part_XOR.svg  style="width:32px;"> _).
 
 ### Measure
 
@@ -230,7 +230,7 @@ See [Part scripting](Part_scripting.md).
 
  
 
-[Category:Workbenches](Category:Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Module/cs
+[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Part](Part_Workbench.md) > Part Module/cs

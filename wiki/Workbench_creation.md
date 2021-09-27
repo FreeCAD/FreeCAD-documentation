@@ -334,7 +334,7 @@ os.remove(qrc_filename)
 
  {{Powerdocnavi}} 
 
-[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+_ _
 
 ---
-[documentation index](../README.md) > Workbench creation
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Workbench creation

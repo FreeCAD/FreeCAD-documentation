@@ -12,7 +12,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Navíc ke standardu exportu z FreeCADu [OBJ](http://en.wikipedia.org/wiki/Wavefront_.obj_file), [ModulArchitektura](Arch_Workbench.md) má i alternativní exportní systém, který exportuje koplanární plochy jako celé OBJ plochy, místo triangulačních objektů založených na objektu [Tvar](Part_Workbench.md) jako to dělají jiné standardní exportní systémy.
+Navíc ke standardu exportu z FreeCADu _ má i alternativní exportní systém, který exportuje koplanární plochy jako celé OBJ plochy, místo triangulačních objektů založených na objektu [Tvar](Part_Workbench.md) jako to dělají jiné standardní exportní systémy.
 
 
 </div>
@@ -67,7 +67,7 @@ mesh.write(Filename="new_example.obj", Material=face_colors, Format="obj")
 
  
 
-[Category:File Formats](Category:File_Formats.md)
+_
 
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch OBJ/cs
+[documentation index](../README.md) > [File Formats](Category_File Formats.md) > [Arch](Arch_Workbench.md) > Arch OBJ/cs

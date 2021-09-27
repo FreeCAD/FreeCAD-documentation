@@ -33,7 +33,7 @@ In order to configure it you should open the macro and change the variables at y
 
 
 
-[Category:Macros](Category:Macros.md)
+_
 
 ---
-[documentation index](../README.md) > [Macros](Category:Macros.md) > Simple grid
+[documentation index](../README.md) > [Macros](Category_Macros.md) > Simple grid

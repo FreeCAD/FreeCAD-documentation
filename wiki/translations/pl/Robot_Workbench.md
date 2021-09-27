@@ -74,7 +74,7 @@ Aby uzyskać opis funkcji używanych do modelowania przemieszczeń robota, zobac
 
 }} 
 
-[Category:Workbenches](Category:Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > Robot Workbench/pl
+[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Robot Workbench/pl

@@ -622,7 +622,7 @@ Divertitevi! Inoltre, se avete commenti o miglioramenti, non esitate a partecipa
 
 }} {{FEM Tools navi}}  
 
-[Category:Python Code](Category:Python_Code.md)
+_
 
 ---
-[documentation index](../README.md) > [Python Code](Category:Python Code.md) > FEM Tutorial Python/it
+[documentation index](../README.md) > [Python Code](Category_Python Code.md) > FEM Tutorial Python/it

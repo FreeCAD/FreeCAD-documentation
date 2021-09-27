@@ -13,7 +13,7 @@
 
 [Arch Maillage vers une forme](Arch_MeshToShape/fr.md) convertit un objet [Mesh](Mesh/fr.md) ([Mesh Feature](Mesh_Feature/fr.md)) sélectionné en un objet [Shape](Shape/fr.md) ([Part Feature](Part_Feature/fr.md)).
 
-Cet outil est optimisé pour les objets à surfaces planes (pas de courbes). L\'outil correspondant **<img src=images/Part_ShapeFromMesh.svg style="width:16px"> [Part Créer une forme à partir du maillage](Part_ShapeFromMesh/fr.md)** à partir de l\'<img alt="" src=images/Workbench_Part.svg  style="width:16px;"> [Atelier Part](Part_Workbench/fr.md) peut être plus adapté aux objets qui contiennent des surfaces courbes.
+Cet outil est optimisé pour les objets à surfaces planes (pas de courbes). L\'outil correspondant **<img src=images/Part_ShapeFromMesh.svg style="width:16px"> _ peut être plus adapté aux objets qui contiennent des surfaces courbes.
 
 ## Utilisation
 
@@ -62,4 +62,4 @@ new_obj = Arch.meshToShape(Box)
 ```
 
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch MeshToShape/fr
+[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch MeshToShape/fr

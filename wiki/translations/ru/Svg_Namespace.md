@@ -7,7 +7,7 @@
 
 <div class="mw-translate-fuzzy">
 
-В [SVG](http://en.wikipedia.org/wiki/Scalable_Vector_Graphics) документы, экспортированные из FreeCAD [Модуля рисования](Drawing_Workbench/ru.md) и используемые в качестве страницы [шаблонов](Drawing_templates/ru.md), несколько пользовательских [атрибутов](http://www.w3schools.com/xml/xml_attributes.asp) могут использоваться первоначально для собственного внутреннего использования FreeCAD, но в будущем могут также использоваться другими приложениями, поддерживающими FreeCAD. Все эти атрибуты начинаются с префикса [пространства имен](http://www.w3schools.com/xml/xml_namespaces.asp) \"freecad:\". URL-адрес пространства имен, определенный в этих документах SVG, относится к этой странице.
+В _ и используемые в качестве страницы [шаблонов](Drawing_templates/ru.md), несколько пользовательских [атрибутов](http://www.w3schools.com/xml/xml_attributes.asp) могут использоваться первоначально для собственного внутреннего использования FreeCAD, но в будущем могут также использоваться другими приложениями, поддерживающими FreeCAD. Все эти атрибуты начинаются с префикса [пространства имен](http://www.w3schools.com/xml/xml_namespaces.asp) \"freecad:\". URL-адрес пространства имен, определенный в этих документах SVG, относится к этой странице.
 
 
 </div>
@@ -50,7 +50,7 @@ viewBox="0 0 xxx yyy"
 
 ## Атрибуты
 
-### [freecad:EditableText](#Example_of_code_freecad:EditableText.md)
+### _
 
 To use any of the **freecad:** attributes in your SVG documents, you must first define the freecad namespace as an attribute of the opening
 
@@ -85,13 +85,13 @@ Defines the first point of a [Draft Dimension](Draft_Dimension.md) object (repre
 
 Defines the second point of a [Draft Dimension](Draft_Dimension.md) object (represented as a group in a SVG document). This attribute is used when importing the SVG fragment in FreeCAD, in order to recreate the dimension object. The group contains paths and other graphical items to correctly render the dimension object in other SVG applications.
 
-Example: see [freecad:basepoint1](#freecad:basepoint1.md)
+Example: see _
 
 ### freecad:dimpoint
 
 Defines the point of a [Draft Dimension](Draft_Dimension.md) object through which the dimension line passes. This attribute is used when importing the SVG fragment in FreeCAD, in order to recreate the dimension object. The group contains paths and other graphical items to correctly render the dimension object in other SVG applications.
 
-Example: see [freecad:basepoint1](#freecad:basepoint1.md)
+Example: see _
 
 ### Example of code freecad:EditableText 
 
@@ -229,7 +229,7 @@ See [Drawing templates](Drawing_templates.md)
 
 }}
 
-[Category:Poweruser\_Documentation](Category:Poweruser_Documentation.md) [Category:Developer](Category:Developer.md) [Category:Python\_Code](Category:Python_Code.md) [Category:Macros](Category:Macros.md)
+_ _ _ _
 
 ---
-[documentation index](../README.md) > [Poweruser_Documentation](Category:Poweruser_Documentation.md) > Svg Namespace/ru
+[documentation index](../README.md) > [Poweruser_Documentation](Category_Poweruser_Documentation.md) > Svg Namespace/ru

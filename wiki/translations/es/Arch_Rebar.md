@@ -19,7 +19,7 @@
 
 <div class="mw-translate-fuzzy">
 
-La herramienta Rebar le permite colocar [reinforcing bars](http://en.wikipedia.org/wiki/Rebar) dentro de los objetos [Arch Structure](Arch_Structure/es.md). Los objetos de barra de refuerzo se basan en perfiles 2D como [sketches](Sketcher_Workbench/es.md) o [draft objects](Draft_Workbench/es.md), que deben dibujarse en una cara de un objeto de estructura. A continuación, puede ajustar la configuración de las barras de refuerzo, como el número y el diámetro de las barras, o la distancia de desplazamiento entre los dos extremos del elemento estructural.
+La herramienta Rebar le permite colocar _. Los objetos de barra de refuerzo se basan en perfiles 2D como [sketches](Sketcher_Workbench/es.md) o [draft objects](Draft_Workbench/es.md), que deben dibujarse en una cara de un objeto de estructura. A continuación, puede ajustar la configuración de las barras de refuerzo, como el número y el diámetro de las barras, o la distancia de desplazamiento entre los dos extremos del elemento estructural.
 
 
 </div>
@@ -164,7 +164,7 @@ FreeCAD.ActiveDocument.recompute()
 
  
 
-[Category:Arch/es](Category:Arch/es.md) [Category:External Command Reference](Category:External_Command_Reference.md) [Category:Reinforcement](Category:Reinforcement.md)
+_ _ _
 
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Rebar/es
+[documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Arch](Arch_Workbench.md) > Arch Rebar/es

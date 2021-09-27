@@ -79,7 +79,7 @@ Para uma configuração mais avançada, consulte o **CubeMenu** [Bancadas de tra
 
 
 
-[Category:User Documentation](Category:User_Documentation.md)
+_
 
 ---
-[documentation index](../README.md) > [User Documentation](Category:User Documentation.md) > Navigation Cube/pt-br
+[documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > Navigation Cube/pt-br

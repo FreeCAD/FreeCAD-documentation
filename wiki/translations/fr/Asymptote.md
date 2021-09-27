@@ -3,7 +3,7 @@
 
 ## Description
 
-[Asymptote](https://asymptote.sourceforge.io/) est un langage vectoriel pour l\'infographie 2D et 3D. Le code Asymptote peut être inclus dans des documents [LaTeX](https://www.latex-project.org/) ou utilisé pour générer [PostScript](https://fr.wikipedia.org/wiki/PostScript), [PDF](PDF/fr.md), [SVG](SVG/fr.md), [WebGL](https://www.khronos.org/webgl/) et [PRC](https://fr.wikipedia.org/wiki/PRC_(fichier)). Les fichiers PDF 3D interactifs créés à partir du code Asymptote nécessitent Acrobat Reader version 9 ou supérieure.
+_, [SVG](SVG/fr.md), [WebGL](https://www.khronos.org/webgl/) et [PRC](https://fr.wikipedia.org/wiki/PRC_(fichier)). Les fichiers PDF 3D interactifs créés à partir du code Asymptote nécessitent Acrobat Reader version 9 ou supérieure.
 
 Le support d\'Asymptote a été ajouté dans la version 0.19 de FreeCAD.
 
@@ -42,7 +42,7 @@ Les vidéos suivantes sont en espagnol :
 
 }} 
 
-[Category:File\_Formats](Category:File_Formats.md)
+_
 
 ---
-[documentation index](../README.md) > [File_Formats](Category:File_Formats.md) > Asymptote/fr
+[documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Asymptote/fr

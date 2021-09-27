@@ -3,7 +3,7 @@
 
 <img alt="" src=images/Sketcher_Sketch.svg  style="width:32px;">
 
-Un [Sketcher SketchObject](Sketcher_SketchObject/it.md), o formalmente un `Sketcher::SketchObject`, è l\'elemento base per creare oggetti 2D con l\'ambiente [Sketcher](Sketcher_Workbench/it.md).
+Un _.
 
 
 {{Incode|Sketcher::SketchObject}}
@@ -45,7 +45,7 @@ Sebbene SketchObject possa essere utilizzato da solo per disegnare su un piano, 
 
 Vedere [Proprietà](Property/it.md) per tutti i tipi di proprietà che possono avere gli oggetti con script.
 
-Un [Sketcher SketchObject](Sketcher_SketchObject.md) (classe `Sketcher::SketchObject`) deriva da un [Part Part2DObject](Part_Part2DObject.md) (`Part::Part2DObject`), quindi condivide tutte le proprietà di quest\'ultimo.
+Un _ (`Part::Part2DObject`), quindi condivide tutte le proprietà di quest\'ultimo.
 
 
 <div class="mw-translate-fuzzy">

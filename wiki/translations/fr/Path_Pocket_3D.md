@@ -10,7 +10,7 @@
 
 ## Description
 
-Cette commande insère un chemin <img alt="" src=images/Path_3DPocket.svg  style="width:24px;"> [Poche 3D](Path_Pocket_3D/fr.md) dans la tâche. Cette opération prend en compte la surface inférieure de la poche, ainsi que les parois sélectionnées qui ne sont pas verticales. Dans son état actuel, cette opération est utilisée pour dégrossir une poche avec des parois non verticales et/ou un fond non horizontal. Une technique de finition courante consiste à utiliser une fraise à bout sphérique avec l\'opération expérimentale <img alt="" src=images/Path_3DSurface.svg  style="width:24px;"> [Surface 3D](Path_3DSurface/fr.md). <img alt="Exemple de l\'opération Poche 3D utilisée pour dégager un porte-piles cylindrique" src=images/Path_3D_Pocket_Sample.png  style="width:600px;">.
+Cette commande insère un chemin <img alt="" src=images/Path_3DPocket.svg  style="width:24px;"> _. <img alt="Exemple de l\'opération Poche 3D utilisée pour dégager un porte-piles cylindrique" src=images/Path_3D_Pocket_Sample.png  style="width:600px;">.
 
 ## Utilisation
 

@@ -135,7 +135,7 @@ Du kannst die angehängten Verzeichnisse im `/mnt` Verzeichnis finden.
 
 
 
-[Category:Developer](Category:Developer.md) [Category:Developer Documentation](Category:Developer_Documentation.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Developer](Category:Developer.md) > Compile on Docker/de
+[documentation index](../README.md) > [Developer](Category_Developer.md) > Compile on Docker/de

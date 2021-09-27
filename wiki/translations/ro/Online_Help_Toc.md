@@ -10,7 +10,7 @@ Versiunea în limba engleză este versiunea oficială, de referință și cea ma
 
 Aici este un alt conținut de cuprins pentru
 
-[FreeCAD MANUAL](Manual:Introduction.md).
+_.
 
 
 <div class="mw-translate-fuzzy">
@@ -180,7 +180,7 @@ Aici este un alt conținut de cuprins pentru
 
 
 
-[Category:Documentation](Category:Documentation.md)
+_
 
 ---
-[documentation index](../README.md) > [Documentation](Category:Documentation.md) > Online Help Toc/ro
+[documentation index](../README.md) > [Documentation](Category_Documentation.md) > Online Help Toc/ro

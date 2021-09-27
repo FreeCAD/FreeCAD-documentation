@@ -29,7 +29,7 @@ Dieses Werkzeug erstellt Verrundungen (Rundungen) an den ausgewählten Kanten ei
 
 ## PartDesign Verrundung vs. Part Verrundung 
 
-<img alt="" src=images/PartDesign_Fillet.svg  style="width:24px;"> [PartDesign Verrundung](PartDesign_Fillet/de.md) ist nicht zu verwechseln mit **<img alt="" src=images/Part_Fillet.svg  style="width:24px;"> [Part Abrunden](Part_Fillet/de.md)** des [Part Arbeitsbereich](Part_Workbench/de.md). Obwohl sie den gleichen Namen tragen, sind sie nicht gleich und werden nicht auf die gleiche Weise verwendet.
+<img alt="" src=images/PartDesign_Fillet.svg  style="width:24px;"> _** des [Part Arbeitsbereich](Part_Workbench/de.md). Obwohl sie den gleichen Namen tragen, sind sie nicht gleich und werden nicht auf die gleiche Weise verwendet.
 
 Hier ist, wie sie sich voneinander unterscheiden:
 
@@ -85,7 +85,7 @@ Lies mehr unter [topologisches Namensproblem](topological_naming_problem/de.md).
 
 <div class="mw-translate-fuzzy">
 
-Das Werkzeug **[16px|text-top=Fillet|link=PartDesign_Fillet](File:PartDesign_Fillet.svg.md) [Verrundung](_PartDesign_Fillet/de.md)** kann in einem Makro und in der Python Konsole mit folgender Funktion verwendet werden:
+Das Werkzeug **_ [Verrundung](_PartDesign_Fillet/de.md)** kann in einem Makro und in der Python Konsole mit folgender Funktion verwendet werden:
 
 
 </div>

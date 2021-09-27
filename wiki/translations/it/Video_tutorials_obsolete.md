@@ -5,7 +5,7 @@
 
 Although these videos are considered obsolete, they are included here for historical reference as the information they contain may still be useful for intermediate and advanced users. Absolute beginners are advised to avoid these videos until they have a better understanding of various modelling techniques.
 
-For up-to-date videos on different topics, see the [video tutorials](video_tutorials.md) page, and also [tutorials](tutorials.md) for written tutorials. A complete, unsorted list of tutorials can be found in [:Category:Tutorials](:Category:Tutorials.md).
+For up-to-date videos on different topics, see the _.
 
 ## Outdated videos 
 
@@ -18,8 +18,8 @@ For up-to-date videos on different topics, see the [video tutorials](video_tutor
     -   [FreeCAD- forum replies](https://www.youtube.com/watch?v=jkVYWUBPvAQ&list=PL6fZ68Cq3L8mW-mFAAkdXHiL26KrAKe5P), FreeCAD 0.16, a series of 4 videos in English. These videos answer questions asked in the forum.
 
 -   [bejant000 playlists](https://www.youtube.com/channel/UCuwmvJXdUCik-Z6goNzTxKQ/playlists): these are playlists in English by bejant.
-    -   [Basic Part Design Tutorial From The FreeCAD Wiki](https://www.youtube.com/watch?v=UacO5Pa4gIM&list=PLrEZShA-NGC9m04q5SKgcA6Eve_1lupEW): FreeCAD 0.16, a series of 5 videos in English, showing how to model a part that appears in the [tutorials](tutorials.md) section of the wiki.
-    -   [FreeCAD Tutorials In Viewing Order](https://www.youtube.com/watch?v=hkOuBvbvxSo&list=PLrEZShA-NGC9IIpq9chta_PKAnEjJGe8q): FreeCAD 0.14, a series of 9 videos in English, some of them with audio, showing how to model objects in the [PartDesign Workbench](PartDesign_Workbench.md).
+    -   _ section of the wiki.
+    -   _.
     -   A list of all the videos is at [bejant000 channel.](http://www.youtube.com/channel/UCuwmvJXdUCik-Z6goNzTxKQ/videos)
 
 -   [Freecad tutorial - Getting started - Tutorials / Product design](https://www.youtube.com/playlist?list=PLJ8J_verOTi2uQIMxEL64Wb2knQwVFXWz): FreeCAD 0.16, a series of 42 videos by TutorialField, demonstrating how to model many different objects including a door handle, a rotary switch knob, a bottle, a door latch, a fork, a screwdriver, a hammer, a faucet, a salt shaker, a hair brush, a hunting knife, a knife holster, a car wheel rim, a bar stool, a coffee table, a caster wheel, a ballpoint pen, a spoon, a bathroom basin, a skillet, a sink strainer, and others. It also has videos explaining how to assemble independently modeled parts to create a bigger product like a pottery wheel.
@@ -51,7 +51,7 @@ For up-to-date videos on different topics, see the [video tutorials](video_tutor
     -   [Designing a bicycle](https://www.youtube.com/watch?v=rT6pJKAzaWw&list=PL81C9CD4434F719E5) FreeCAD 0.12, a series of 5 videos explaining how to design a bicycle frame, the rims, and tires, using the Sketcher and PartDesign.
     -   [FreeCAD TurboTutes](https://www.youtube.com/watch?v=0c9wG01F_nc&list=PL0B4A001197FA65D3): FreeCAD 0.12 and 0.13, a series of 5 short videos explaining how to perform some modelling actions, holes, pads, booleans, degrees of freedom, and alignment.
 
--   [openPLM demo : FreeCAD interface](http://www.youtube.com/watch?v=SanPyZhLq6w): FreeCAD 0.10, it showcases the OpenPLM [addon](addon.md), intended for [Product Lifecycle Management](http://en.wikipedia.org/wiki/Product_lifecycle_management). It no longer works with recent versions of FreeCAD.
+-   _, intended for [Product Lifecycle Management](http://en.wikipedia.org/wiki/Product_lifecycle_management). It no longer works with recent versions of FreeCAD.
 
 
 {{Tutorials navi

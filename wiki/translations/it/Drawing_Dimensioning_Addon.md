@@ -3,7 +3,7 @@
 
 ## Introduzione
 
-Il [modulo Drawing dimensioning](https://github.com/hamish2014/FreeCAD_drawing_dimensioning) aggiunge potenti strumenti per la quotatura e le annotazioni all\'ambiente [Disegno](Drawing_Workbench/it.md) (vedere [forum thread](http://forum.freecadweb.org/viewtopic.php?f=10&t=8395)).
+Il _ (vedere [forum thread](http://forum.freecadweb.org/viewtopic.php?f=10&t=8395)).
 
 ![](images/Drawing_Dimensioning_example.jpg )
 
@@ -216,7 +216,7 @@ Tipps:
 -   [External workbenches](External_workbenches.md)
 -   [Macros recipes](Macros_recipes.md)
 
-[Category:User Documentation](Category:User_Documentation.md) [Category:Addons](Category:Addons.md) [Category:Drawing](Category:Drawing.md)
+_ _ _
 
 ---
-[documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Dimensioning Addon/it
+[documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [Drawing](Drawing_Workbench.md) > Drawing Dimensioning Addon/it

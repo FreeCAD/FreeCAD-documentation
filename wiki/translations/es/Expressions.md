@@ -533,7 +533,7 @@ Of course, it\'s up to you to load the corresponding documents later when you wa
 
 }} 
 
-[Category:Spreadsheet](Category:Spreadsheet.md)
+_
 
 ---
-[documentation index](../README.md) > [Spreadsheet](Category:Spreadsheet.md) > Expressions/es
+[documentation index](../README.md) > [Spreadsheet](Category_Spreadsheet.md) > Expressions/es

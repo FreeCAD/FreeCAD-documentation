@@ -111,7 +111,7 @@ Ecco alcuni link con delle informazioni:
 
 
 
-[Category:Roadmap](Category:Roadmap.md)
+_
 
 ---
-[documentation index](../README.md) > [Roadmap](Category:Roadmap.md) > STEP project/it
+[documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > STEP project/it

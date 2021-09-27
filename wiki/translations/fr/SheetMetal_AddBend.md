@@ -44,7 +44,7 @@ Un objet SheetMetal Transformation en pli est dérivé d\'un objet [Part Feature
 
 
 
-[Category:SheetMetal](Category:SheetMetal.md) [Category:Addons](Category:Addons.md) [Category:External Command Reference](Category:External_Command_Reference.md)
+_ _ _
 
 ---
-[documentation index](../README.md) > [SheetMetal](Category:SheetMetal.md) > SheetMetal AddBend/fr
+[documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > SheetMetal AddBend/fr

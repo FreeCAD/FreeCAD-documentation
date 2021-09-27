@@ -27,7 +27,7 @@ Der neue **Arbeitsbereich TechDraw** zielt darauf den Arbeitsbereich Drawing zu 
 
 ## Allgemein
 
--   Yorik van Havre schrieb das \"[Das FreeCAD Handbuch](Manual:Introduction/de.md)\", ein einführendes Buch über die Benutzung von FreeCAD.
+-   Yorik van Havre schrieb das \"_\", ein einführendes Buch über die Benutzung von FreeCAD.
 -   Die Neuberechnung des Dokumentes kann nun über das Kontextmenü deaktiviert und aktiviert werden.
 -   Es gibt einen neuen Revit-Navigationsstil.
 -   Eine neue Navigationsanzeige an der unteren rechten Ecke des FreeCAD-Fensters erlaubt einen schnellen Zugriff auf den Navigationsstil.
@@ -76,9 +76,9 @@ Der neue **Arbeitsbereich TechDraw** zielt darauf den Arbeitsbereich Drawing zu 
 
 -   [Autogroup system](Draft_AutoGroup.md): Der Arbeitsbereich Draft offeriert nun eine Schaltfläche **auto-group** in der Hauptwerkzeugleiste. Alle neuen Draft- und Archobjekte werden automatisch in diese Gruppe platziert, wenn Auto-group aktiviert ist.
 
--   [Gefälle-Werkzeug](Draft_Slope.md): Wenn das Gefälle-Werkzeug auf eine [Draftlinie](Draft_Line/de.md) oder einen [Draft-Kantenzug](Draft_Wire/de.md) angewandt wird, erlaubt das Werkzeug dem Objekt eine vorgebene Steigung bzw. vorgegebenes Gefälle zu geben. Das heißt, die Zwischenpunkte und der Endpunkt bekommen niedrigere Z-Werte, so dass das gesamte Objekt eine konstante Steigung aufweist. Dies ist hilfreich für Linien oder Kantenzüge, die als Basis für Objekte dienen, die eine präzises Gefälle aufweisen müssen, wie Dachflächen oder Abwasserleitungen.
+-   _ oder einen [Draft-Kantenzug](Draft_Wire/de.md) angewandt wird, erlaubt das Werkzeug dem Objekt eine vorgebene Steigung bzw. vorgegebenes Gefälle zu geben. Das heißt, die Zwischenpunkte und der Endpunkt bekommen niedrigere Z-Werte, so dass das gesamte Objekt eine konstante Steigung aufweist. Dies ist hilfreich für Linien oder Kantenzüge, die als Basis für Objekte dienen, die eine präzises Gefälle aufweisen müssen, wie Dachflächen oder Abwasserleitungen.
 
--   [Working Plane proxies](Draft_SetWorkingPlaneProxy/de.md): Beim Arbeiten mit [Draft working planes](Draft_SelectPlane/de.md) ist es oft notwendig die Lage von häufig genutzten Arbeitsebenen zu speichern. Dies ist nun möglich durch die Platzierung eines dieser Proxies (Stellvertreters) in dem Dokument. Es speichert die Lage der aktuellen Arbeitsebene und kann auch die aktuelle Ansicht und Objektsichtbarkeit wieder herstellen.
+-   _ ist es oft notwendig die Lage von häufig genutzten Arbeitsebenen zu speichern. Dies ist nun möglich durch die Platzierung eines dieser Proxies (Stellvertreters) in dem Dokument. Es speichert die Lage der aktuellen Arbeitsebene und kann auch die aktuelle Ansicht und Objektsichtbarkeit wieder herstellen.
 
 <img alt="" src=images/Draft_WP_preview.png  style="width:640px;">
 
@@ -316,7 +316,7 @@ Einige der neuen Module, die von der FreeCAD-Gemeinschaft geschaffen wurden.
 
 -   [Kicad StepUp Workbench](https://www.freecadweb.org/wiki/KicadStepUp_Workbench) is aimed to help KiCad and FreeCAD users in ECAD and MCAD collaboration.
 
-[Category:News](Category:News.md) [Category:Documentation](Category:Documentation.md) [Category:Releases](Category:Releases.md)
+_ _ _
 
 ---
-[documentation index](../README.md) > [News](Category:News.md) > Release notes 0.17/de
+[documentation index](../README.md) > [News](Category_News.md) > Release notes 0.17/de

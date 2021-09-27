@@ -21,7 +21,7 @@
 Рабочий процесс создания инструкций в верстаке FreeCAD Path выглядит следующим образом:
 
 -   3D-модель - это базовый объект, обычно созданный с использованием одного или нескольких верстаков [Part Design](PartDesign_Workbench.md), [Part](Part_Workbench.md) или [Draft](Draft_Workbench.md).
--   В верстаке Path создается [Задание](Path_Job/ru.md). Оно содержит всю информацию, необходимую для генерации G-кода для обработки на станке с ЧПУ: там определен материал, станок имеет определенный [набор инструментов](Path_EditToolsTable.md) и выполняет команды, контролирующие скорость и перемещения (обычно G-Code).
+-   В верстаке Path создается _ и выполняет команды, контролирующие скорость и перемещения (обычно G-Code).
 -   Инструменты выбираются в соответствии с требованиями Рабочих Операций.
 -   Операции обработки задаются с использованием, например, [Контуров](Path_Profile/ru.md) и [Вырезов](Path_Pocket_3D.md). Эти [Операции обработки](Path_objects.md) используют внутренний диалект FreeCAD G-Code, независимо от станка с ЧПУ.
 -   Экспортируйте задание в g-код, соответствующий вашему станку. Этот шаг называется «постобработка», доступны разные постпроцессоры.
@@ -139,7 +139,7 @@ Some commands are experimental and not available by default. To enable them see 
 
 </div>
 
--   <img alt="" src=images/Path_Sanity.svg  style="width:32px;"> [Check the path job for common errors](Path_Sanity.md): Checks the selected job for missing values. [**Experimental**](Path_experimental.md). <small>(v0.19)</small> 
+-   <img alt="" src=images/Path_Sanity.svg  style="width:32px;"> _. <small>(v0.19)</small> 
 
 
 <div class="mw-translate-fuzzy">
@@ -189,7 +189,7 @@ Some commands are experimental and not available by default. To enable them see 
 
 -   <img alt="" src=images/Path_Adaptive.svg  style="width:32px;"> [Adaptive](Path_Adaptive.md): Creates an adaptive clearing and profiling operation.
 
--   <img alt="" src=images/Path_Slot.svg  style="width:32px;"> [Slot](Path_Slot.md): Creates a slotting operation from selected features or custom points. [**Experimental**](Path_experimental.md). <small>(v0.19)</small> 
+-   <img alt="" src=images/Path_Slot.svg  style="width:32px;"> _. <small>(v0.19)</small> 
 
 -   <img alt="" src=images/Path_Engrave.svg  style="width:32px;"> [Engrave](Path_Engrave.md): Creates an engraving path.
 
@@ -199,9 +199,9 @@ Some commands are experimental and not available by default. To enable them see 
 
 -   <img alt="" src=images/Path_3DPocket.svg  style="width:32px;"> [3D Pocket](Path_Pocket_3D.md): Creates a path for a 3D pocket.
 
--   <img alt="" src=images/Path_Surface.svg  style="width:32px;"> [3D Surface](Path_Surface.md): Creates a path for a 3D surface. [**Experimental**](Path_experimental.md). <small>(v0.19)</small> 
+-   <img alt="" src=images/Path_Surface.svg  style="width:32px;"> _. <small>(v0.19)</small> 
 
--   <img alt="" src=images/Path_Waterline.svg  style="width:32px;"> [Waterline](Path_Waterline.md): Creates a waterline path for a 3D surface. [**Experimental**](Path_experimental.md). <small>(v0.19)</small> 
+-   <img alt="" src=images/Path_Waterline.svg  style="width:32px;"> _. <small>(v0.19)</small> 
 
 ### Path Dressup 
 
@@ -257,9 +257,9 @@ Some commands are experimental and not available by default. To enable them see 
 
 ### Miscellaneous
 
--   <img alt="" src=images/Path_Area.svg  style="width:32px;"> [Area](Path_Area.md): Creates a feature area from selected objects. [**Experimental**](Path_experimental.md).
+-   <img alt="" src=images/Path_Area.svg  style="width:32px;"> _.
 
--   <img alt="" src=images/Path_Area_Workplane.svg  style="width:32px;"> [Area workplane](Path_Area_Workplane.md): Creates a feature area workplane. [**Experimental**](Path_experimental.md).
+-   <img alt="" src=images/Path_Area_Workplane.svg  style="width:32px;"> _.
 
 ### Obsolete
 
@@ -303,7 +303,7 @@ See [Path scripting](Path_scripting.md).
 
 ## Videos
 
--   [FreeCAD Path: Custom paths with Python - Part 1 - 5](https://www.youtube.com/playlist?list=PLEuOia-QxyFKgzAeTyH62GKqWKVURiWJL): a playlist with a series of 5 videos in English by sliptonic. This series shows how to work with the [Path Workbench](Path_Workbench.md).
+-   _.
 -   [FreeCAD CAM Path Workbench](https://www.youtube.com/playlist?list=PLUrr_kHPp4vhGdLlj6IemtF-OPUlRvSTC): a playlist with a series of 7 videos in English by CAD CAM Lessons.
 -   [FreeCAD CAM CNC](https://www.youtube.com/playlist?list=PLUrr_kHPp4vh2n6DcIlegK4dEKIFjmISJ) a playlist with a series of 8 videos in English by CAD CAM Lessons.
 
@@ -315,7 +315,7 @@ See [Path scripting](Path_scripting.md).
 
 }} 
 
-[Category:Workbenches](Category:Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > Path Workbench/ru
+[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Path Workbench/ru

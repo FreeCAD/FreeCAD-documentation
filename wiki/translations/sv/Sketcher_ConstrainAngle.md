@@ -1,6 +1,6 @@
 # Sketcher ConstrainAngle/sv
 ---
-- GuiCommand:/sv   Name:Constraint InternalAngle   Name/sv:Constraint InternalAngle   Workbenches:[PartDesign](Sketcher_Workbench/sv___Sketcher]],_[[PartDesign_Workbench/sv.md)|Shortcut:A   MenuLocation:Sketch → Sketcher constraints → Constrain angle   SeeAlso:[Constraint Length](Constraint_Length/sv.md), [Constraint Perpendicular](Constraint_Perpendicular/sv.md)---
+- GuiCommand:/sv   Name:Constraint InternalAngle   Name/sv:Constraint InternalAngle   Workbenches:_, [Constraint Perpendicular](Constraint_Perpendicular/sv.md)---
 
 
 </div>

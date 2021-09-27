@@ -625,7 +625,7 @@ Si un atelier nouvellement chargé a des préférences dédiées, elles apparaî
 
 Pour une liste des préférences de l\'atelier, voir [Préférences d\'ateliers](#Pr.C3.A9f.C3.A9rences_d.27ateliers.md)
 
-![](images/Preferences_Workbenches_Tab_Unloaded_Workbenches.png )
+![](images/Preferences_Workbenches_Tab_Available_Workbenches.png )
 
 ## Options d\'Import-Export 
 
@@ -637,7 +637,7 @@ Les paramètres d\'Importation-Exportation affectent la façon dont les fichiers
 **
 Cette section est incomplète et nécessite de mentionner les pages de préférences de chaque atelier de base**
 
-Les préférences pour les ateliers les plus courants sont liées ci-dessous. Certains ateliers n\'ont aucune préférence. D\'autres ateliers facultatifs peuvent ne pas être répertoriés. Ces liens sont également répertoriés dans [:Category:Preferences/fr](:Category:Preferences/fr.md)
+Les préférences pour les ateliers les plus courants sont liées ci-dessous. Certains ateliers n\'ont aucune préférence. D\'autres ateliers facultatifs peuvent ne pas être répertoriés. Ces liens sont également répertoriés dans _
 
 -   [Arch Préférences](Arch_Preferences/fr.md)
 -   [Draft Préférences](Draft_Preferences/fr.md)
@@ -693,7 +693,7 @@ Pour un exemple de script, voir [Std Éditeur des paramètres](Std_DlgParameter/
 
 
 
-[Category:Preferences](Category:Preferences.md)
+_
 
 ---
-[documentation index](../README.md) > [Preferences](Category:Preferences.md) > Preferences Editor/fr
+[documentation index](../README.md) > [Preferences](Category_Preferences.md) > Preferences Editor/fr

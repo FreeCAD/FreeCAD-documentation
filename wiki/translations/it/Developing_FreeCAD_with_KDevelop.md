@@ -18,7 +18,7 @@ L\'intenzione di questa pagina è di aiutare gli utenti che sono inclini a compr
 -   [Source code management](Source_code_management.md)
 -   [Developing FreeCAD with GitKraken](Developing_FreeCAD_with_GitKraken.md)
 
-[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:3rd Party](Category:3rd_Party.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Developing FreeCAD with KDevelop/it
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Developing FreeCAD with KDevelop/it

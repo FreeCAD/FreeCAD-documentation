@@ -29,7 +29,7 @@ A bounding box is an orthographic cube which is a way to describe outer boundari
 
  
 
-[Category:API](Category:API.md) [Category:Poweruser Documentation](Category:Poweruser_Documentation.md)
+_ _
 
 ---
-[documentation index](../README.md) > [API](Category:API.md) > Base API/de
+[documentation index](../README.md) > [API](Category_API.md) > Base API/de

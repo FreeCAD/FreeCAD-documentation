@@ -37,7 +37,7 @@ La dernière version de création de vis est la version 2.0. Le wiki ne permet p
 
 ## Script
 
-La dernière version de la macro se trouve à l\'adresse [ScrewMaker.FCMacro](https://github.com/FreeCAD/FreeCAD-macros/blob/master/ObjectCreation/ScrewMaker.FCMacro). Mais le moyen le plus simple d\'installer cette macro consiste à utiliser [Addon Manager](Addon_Manager/fr.md).
+La dernière version de la macro se trouve à l\'adresse _.
 
 ToolBar Icon ![](images/Macro_screw_maker1_2.png )
 

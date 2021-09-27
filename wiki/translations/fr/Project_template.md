@@ -1,5 +1,5 @@
 # Project template/fr
-Ce modèle est la ligne directrice pour un projet de développement FreeCAD. Il suit les règles de la [Getting Things Done (GTD)](http://fr.wikipedia.org/wiki/Getting_Things_Done). Les projets sont collectées dans le feuille [de route de développement](Development_roadmap/fr.md).
+Ce modèle est la ligne directrice pour un projet de développement FreeCAD. Il suit les règles de la _.
 
 *Commençons par regarder le modèle de planification naturelle. Le modèle de planification naturelle n\'est vraiment rien de nouveau. Ce n\'est pas un modèle fantastique nouvellement mis au point par [David Allen](http://fr.wikipedia.org/wiki/David_Allen_(auteur)) pour nous aider à planifier et à gérer nos projets. C\'est cependant le modèle de planification, qui est recommandée par David dans son livre Getting Things Done. Le modèle de planification naturelle est basée sur la planification que nous faisons sur une base quotidienne, en utilisant seulement notre cerveau. Par exemple, pensez à combien de tâches, nous prévoyons sur la base de jour en jour, nous n\'avons même pas pris la peine d\'écrire, que ceux-ci sont normalement classés comme des tâches banales. Par exemple, s\'habiller, ou se rendre au travail. Tous ces éléments peuvent être considérés comme des tâches, mais nous avons juste aller de l\'avant et de les planifier sans aucune pensée que ce soit. Nous utilisons les aspects de la planification de notre cerveau qui sont conditionnées, pour ce type naturel de planification.*
 
@@ -27,7 +27,7 @@ Ce modèle est la ligne directrice pour un projet de développement FreeCAD. Il 
 
 
 
-[Category:Roadmap](Category:Roadmap.md)
+_
 
 ---
-[documentation index](../README.md) > [Roadmap](Category:Roadmap.md) > Project template/fr
+[documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > Project template/fr

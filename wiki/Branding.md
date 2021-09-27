@@ -98,7 +98,7 @@ All listed tags are optional.
 
  
 
-[Category:Developer Documentation](Category:Developer_Documentation.md)
+_
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Branding
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Branding

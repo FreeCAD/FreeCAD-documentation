@@ -97,7 +97,7 @@ ver 0.1 , 2018-07-14 : add create segment
 
 ver 0.0 , 2018-07-10 :
 
-[Category:Macros Needing Review](Category:Macros_Needing_Review.md)
+_
 
 ---
 [documentation index](../README.md) > Macro CirclePlus/it

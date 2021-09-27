@@ -21,7 +21,7 @@ The LeaderLine tool adds a line to a View. Other annotation objects (such as [Ri
 1.  Select a view.
 2.  Press the **<img src="images/TechDraw_LeaderLine.svg" width=16px> Add Leaderline to View** button. A dialog will open allowing to draw the leaderline and assigning end symbols to the line.
 3.  Click on **Pick points** and then click into the page to define the starting point of the line.
-4.  Move the mouse and click on another point to create a line.
+4.  Move the mouse and click on another point to create a line. Hold **Ctrl** to snap to multiples of 22.5° angles.
 5.  Now you can either
     1.  finish the line drawing by double-clicking or pressing **Save Points**.
     2.  add further points to define more line segments.

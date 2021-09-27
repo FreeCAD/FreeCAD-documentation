@@ -26,4 +26,4 @@ Bei der geklonten Komponente wird die {{PropertyData/de|CloneOf}}-Eigenschaft au
 ## Skripten
 
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CloneComponent/de
+[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch CloneComponent/de

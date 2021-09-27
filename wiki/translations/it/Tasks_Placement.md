@@ -125,7 +125,7 @@ Ulteriori informazioni si trovano nella pagina [Posizionamento](Placement/it.md)
 
 
 
-[Category:Command\_Reference](Category:Command_Reference.md)
+_
 
 ---
-[documentation index](../README.md) > [Command_Reference](Category:Command_Reference.md) > Tasks Placement/it
+[documentation index](../README.md) > [Command_Reference](Category_Command_Reference.md) > Tasks Placement/it

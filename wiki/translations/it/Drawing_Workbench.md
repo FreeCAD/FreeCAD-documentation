@@ -82,7 +82,7 @@ Alcune ulteriori note sulla programmazione del Modulo Disegno sono contenute nel
 
 }} 
 
-[Category:Obsolete Workbenches](Category:Obsolete_Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > Drawing Workbench/it
+[documentation index](../README.md) > [Obsolete Workbenches](Category_Obsolete Workbenches.md) > Drawing Workbench/it

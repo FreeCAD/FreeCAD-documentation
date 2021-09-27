@@ -38,7 +38,7 @@
 
 }} 
 
-[Category:Workbenches](Category:Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > Image Workbench/ru
+[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Image Workbench/ru

@@ -10,7 +10,7 @@ FreeCAD macht umfangreichen Gebrauch von Open-Source-Bibliotheken, die im Bereic
 
 FreeCAD ist außerdem vollständig [plattformunabhängig](http://de.wikipedia.org/wiki/Plattformunabhängigkeit), und läuft aktuell auf Linux/Unix, Windows und Mac OSX Systemen, mit gleicher Oberfläche und gleichen Funktionalitäten auf allen Plattformen.
 
-Weitere Informationen zu den Möglichkeiten von FreeCAD finden Sie auf unserer [Funktionsübersicht](Feature_list/de.md)-Seite, den [Versionshinweisen](Feature_list#Release_notes.md) oder der [Erste Schritte](Getting_started/de.md)-Seite oder gehen Sie direkt auf die Seite [Hinweise für Einsteiger](User_hub/de.md) oder schauen Sie sich die [Bildschirmfotos](screenshots/de.md) an.
+Für weitere Informationen über FreeCADs Fähigkeiten, schau dir die [Funktionsübersicht](Feature_list/de.md), die [letzte Versionshinweise](Feature_list/de#Versionshinweise.md), und die [Loslegen](Getting_started/de.md) Artikel an, oder schau dir weitere [Bildschirmfotos](Screenshots/de.md) an.
 
 ### Über das Projekt FreeCAD 
 
@@ -24,7 +24,7 @@ FreeCAD wird von einer Gemeinschaft enthusiastischer Entwickler und Nutzer gewar
 
 
 
-[Category:User Documentation](Category:User_Documentation.md)
+_
 
 ---
-[documentation index](../README.md) > [User Documentation](Category:User Documentation.md) > About FreeCAD/de
+[documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > About FreeCAD/de

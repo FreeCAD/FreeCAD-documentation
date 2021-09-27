@@ -29,7 +29,7 @@ Una dintre cele mai interesante posibilități ale FreeCad este să puteți crea
 
 <div class="mw-translate-fuzzy">
 
-Aceste pagini sunt în stadiu incipient de dezvoltare. Dacă nu găsiți informațiile pe care le căutați sau ați găsit informații utile undeva la care nu ne-am conectat, vă rugăm să lăsați un comentariu cu privire la [forum](http://forum.freecadweb.org/), sau, de ce nu? [ Add some more content here yourself!](Help_FreeCAD.md)
+Aceste pagini sunt în stadiu incipient de dezvoltare. Dacă nu găsiți informațiile pe care le căutați sau ați găsit informații utile undeva la care nu ne-am conectat, vă rugăm să lăsați un comentariu cu privire la _
 
 
 </div>
@@ -94,7 +94,7 @@ Deoarece funcționalitatea FreeCAD este separată în module care se ocupă cu t
 
 ### Working with Meshes 
 
--   [Mesh Scripting](Mesh_Scripting.md): Cum se interacționează cu [Mesh Workbench](Mesh_Workbench.md)
+-   _
 
 
 </div>
@@ -175,7 +175,7 @@ Deoarece funcționalitatea FreeCAD este separată în module care se ocupă cu t
 
 ## API Functions 
 
-Descrierea completă a API-urilor FreeCad se află pe această pagină <http://www.freecadweb.org/api/> . Pagina conține atât C++ și Python APIs, și nu este încă bine formatat, ceea ce poate fi confuz atunci când cauți cod de tip Python. O versiune mai ușor de navigat poate fi găsită la [here](:Category:API.md). Rețineți că este posibil să fie incompletă, dar nu am găsit încă o modalitate de a include în mod automat pe acest wiki. Pentru mai multe informații, răsfoiți modulele direct în FreeCad.
+Descrierea completă a API-urilor FreeCad se află pe această pagină <http://www.freecadweb.org/api/> . Pagina conține atât C++ și Python APIs, și nu este încă bine formatat, ceea ce poate fi confuz atunci când cauți cod de tip Python. O versiune mai ușor de navigat poate fi găsită la _. Rețineți că este posibil să fie incompletă, dar nu am găsit încă o modalitate de a include în mod automat pe acest wiki. Pentru mai multe informații, răsfoiți modulele direct în FreeCad.
 
 Related: [Exposing C++ to Python](Exposing_C%2B%2B_to_Python.md)
 
@@ -257,7 +257,7 @@ Pe pagina [Community portal](FreeCAD_Community_Portal.md), puteți căuta alte p
 
 }}
 
-[Category:Hubs](Category:Hubs.md)
+_
 
 ---
-[documentation index](../README.md) > [Hubs](Category:Hubs.md) > Power users hub/ro
+[documentation index](../README.md) > [Hubs](Category_Hubs.md) > Power users hub/ro

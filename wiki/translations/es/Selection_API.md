@@ -25,7 +25,7 @@ sel = FreeCADGui.Selection.getSelection()
 
  
 
-[Category:API](Category:API.md) [Category:Poweruser Documentation](Category:Poweruser_Documentation.md)
+_ _
 
 ---
-[documentation index](../README.md) > [API](Category:API.md) > Selection API/es
+[documentation index](../README.md) > [API](Category_API.md) > Selection API/es

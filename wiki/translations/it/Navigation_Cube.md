@@ -82,7 +82,7 @@ Per una configurazione più avanzata, fare riferimento a [CubeMenu](Interface_Cu
 
 
 
-[Category:User Documentation](Category:User_Documentation.md)
+_
 
 ---
-[documentation index](../README.md) > [User Documentation](Category:User Documentation.md) > Navigation Cube/it
+[documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > Navigation Cube/it

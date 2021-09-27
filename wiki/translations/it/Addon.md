@@ -7,9 +7,9 @@ In FreeCAD e in questa documentazione, un addon è un componente che non fa part
 
 Esistono tre tipi di componenti aggiuntivi:
 
--   Le [Macro](Macros/it.md): brevi frammenti di codice [Python](Python/it.md) che forniscono un nuovo strumento o funzionalità in un singolo file che termina con `.FCMacro`.
+-   Le _ che forniscono un nuovo strumento o funzionalità in un singolo file che termina con `.FCMacro`.
 -   I Moduli: un singolo file sorgente Python o una raccolta di file Python che estende il software in qualche modo. I moduli non definiscono necessariamente un \"ambiente di lavoro\" grafico ma possono fornire una funzione di supporto, ad esempio una libreria che esegue la conversione di formati o un codice che modifica l\'[interfaccia](interface/it.md) grafica.
--   Gli [Ambienti](External_workbenches/it.md): raccolte di file Python che forniscono [comandi GUI](Gui_Command/it.md) (strumenti) correlati, centrati su un argomento particolare, ad esempio strumenti per progettare cabine o strumenti per lavorare con l\'architettura o strumenti per progettare barche, ecc. Questi ambienti di lavoro di solito definiscono nuove barre degli strumenti in cui sono posizionati i pulsanti dei [comandi](Gui_Command/it.md).
+-   Gli _ (strumenti) correlati, centrati su un argomento particolare, ad esempio strumenti per progettare cabine o strumenti per lavorare con l\'architettura o strumenti per progettare barche, ecc. Questi ambienti di lavoro di solito definiscono nuove barre degli strumenti in cui sono posizionati i pulsanti dei [comandi](Gui_Command/it.md).
 
 Le macro sono installate nella directory `Macro/` dell\'utente, mentre i moduli e gli ambienti si trovano nella directory `Mod/`. {{Code|lang=bash|code=
 $HOME/.FreeCAD/Macro/
@@ -34,7 +34,7 @@ L\'installazione manuale è ancora possibile.
 
 
 
-[Category:Addons](Category:Addons.md)
+_
 
 ---
-[documentation index](../README.md) > [Addons](Category:Addons.md) > Addon/it
+[documentation index](../README.md) > [Addons](Category_Addons.md) > Addon/it

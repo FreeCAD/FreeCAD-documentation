@@ -3,7 +3,7 @@ See workbench at OSE wiki: <https://wiki.opensourceecology.org/wiki/3D_Printer_W
 
 
 
-[Category:User Documentation](Category:User_Documentation.md) [Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+_ _ _
 
 ---
-[documentation index](../README.md) > OSE 3D Printer Workbench/en
+[documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > OSE 3D Printer Workbench/en

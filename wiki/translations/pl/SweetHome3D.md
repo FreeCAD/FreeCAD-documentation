@@ -15,7 +15,7 @@
 
 
 
-[Category:3rd Party](Category:3rd_Party.md) [Category:Arch](Category:Arch.md)
+_ _
 
 ---
-[documentation index](../README.md) > [3rd Party](Category:3rd Party.md) > SweetHome3D/pl
+[documentation index](../README.md) > [3rd Party](Category_3rd Party.md) > SweetHome3D/pl

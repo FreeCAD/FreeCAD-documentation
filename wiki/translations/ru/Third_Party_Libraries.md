@@ -287,7 +287,7 @@ See the announcement in the forum: [New libpacks for Windows with Qt5.12, OCC7.3
 
  
 
-[Category:Developer Documentation](Category:Developer_Documentation.md)
+_
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Third Party Libraries/ru
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Third Party Libraries/ru

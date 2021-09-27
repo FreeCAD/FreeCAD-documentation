@@ -125,7 +125,7 @@ importOCA.export(objects, "/home/user/Pictures/myfile.oca")
 
  
 
-[Category:File Formats](Category:File_Formats.md)
+_
 
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft OCA/it
+[documentation index](../README.md) > [File Formats](Category_File Formats.md) > [Draft](Draft_Workbench.md) > Draft OCA/it

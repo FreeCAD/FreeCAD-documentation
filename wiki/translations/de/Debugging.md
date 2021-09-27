@@ -328,7 +328,7 @@ Für Entwickler, die tiefer in den OpenCasCade Kernel einsteigen müssen, hat de
 
 }} 
 
-[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Debugging/de
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Debugging/de

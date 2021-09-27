@@ -7,7 +7,7 @@ Comme beaucoup d\'autres logiciels, FreeCAD est également capable de copier/cou
 
 ![centre](images/Copy_past_duplicate.png )
 
-Veuillez considérer que les objets copiés-collés ne dépendent pas de l\'original. Si vous voulez des clones dépendants, veuillez utiliser <img alt="" src=images/Draft_Clone.svg  style="width:24px;"> [Draft Clone](Draft_Clone/fr.md) ou <img alt="" src=images/PartDesign_Clone.svg  style="width:24px;"> [PartDesign Clone](PartDesign_Clone/fr.md). Si vous avez besoin d\'un clone dépendant ou d\'un réplica paramétrique, vous pouvez également utiliser <img alt="" src=images/Part_SimpleCopy.svg  style="width:24px;"> [Part Copie simple](Part_SimpleCopy/fr.md). Pour les clones à motifs, veuillez regarder dans [Autres méthodes](Copying_Objects/fr#Autres_m.C3.A9thodes.md) de cette page.
+Veuillez considérer que les objets copiés-collés ne dépendent pas de l\'original. Si vous voulez des clones dépendants, veuillez utiliser <img alt="" src=images/Draft_Clone.svg  style="width:24px;"> _. Si vous avez besoin d\'un clone dépendant ou d\'un réplica paramétrique, vous pouvez également utiliser <img alt="" src=images/Part_SimpleCopy.svg  style="width:24px;"> [Part Copie simple](Part_SimpleCopy/fr.md). Pour les clones à motifs, veuillez regarder dans [Autres méthodes](Copying_Objects/fr#Autres_m.C3.A9thodes.md) de cette page.
 
 ## Copier des objets liés 
 

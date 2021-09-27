@@ -73,7 +73,7 @@ There are two approaches to specifying Product and Manufacturing Information (PM
 -   [GD&T for beginners \| step by step approach to do GD&T for mechanical drawing (Video)](https://www.youtube.com/watch?v=-3tN7KvDUjQ)
 -   [Straight To The Point Engineering (Video tutorials)](https://www.youtube.com/c/StraightToThePointEngineering/videos?view=0&sort=da&flow=grid)
 
-[Category:Roadmap](Category:Roadmap.md) [Category:TechDraw](Category:TechDraw.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Roadmap](Category:Roadmap.md) > Tolerancing/en
+[documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > Tolerancing/en

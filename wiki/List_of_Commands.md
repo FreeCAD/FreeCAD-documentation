@@ -1,5 +1,5 @@
 # List of Commands
-1.  REDIRECT [:Category:Command Reference](:Category:Command_Reference.md)
+1.  REDIRECT _
 
 ---
 [documentation index](../README.md) > List of Commands

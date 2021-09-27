@@ -22,7 +22,7 @@ La finestra di dialogo Gestione finestre BIM consente di sfogliare e modificare 
 
 }}
 
-[Category:External Command Reference](Category:External_Command_Reference.md)
+_
 
 ---
-[documentation index](../README.md) > [External Command Reference](Category:External Command Reference.md) > BIM Windows/it
+[documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > BIM Windows/it

@@ -91,7 +91,7 @@ The Spreadsheet workbench makes spreadsheets, think OpenOffice, Excel\.... Compa
 
 -   Documents and Links:
     -   [Spreadsheet Workbench](Spreadsheet_Workbench.md)
-    -   [Manual:Using spreadsheets](Manual:Using_spreadsheets.md)
+    -   _
 
 -   Example Files:
     -   **[workbench\_examples/SpreadSheet\_part.txt · master · Russell Hensel / FreeCadTest · GitLab](https://gitlab.com/russhensel/freecadtest/-/blob/master/workbench_examples/SpreadSheet_part.txt)** This is the link to the documentation \*.txt file ( which can be read directly on gitlab ), the FreeCad file has the same name, in the same directory, with the FCStd extension.
@@ -121,7 +121,7 @@ This workbench can transform other FreeCad parts into meshes ( the sort of part 
 
 -   [Workbenches](Workbenches.md)
 
-[Category:Sandbox](Category:Sandbox.md) [Category:User Documentation](Category:User_Documentation.md) [Category:Workbenches](Category:Workbenches.md)
+_ _ _
 
 ---
-[documentation index](../README.md) > FreeCad Workbenches
+[documentation index](../README.md) > [Sandbox]]  ](Category_Sandbox]]  .md) > FreeCad Workbenches

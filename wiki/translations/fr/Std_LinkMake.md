@@ -15,15 +15,15 @@
 
 **<img src=images/Std_LinkMake.svg style="width:16px"> [Std LinkMake](Std_LinkMake/fr.md)**
 
-crée une classe [App Link](App_Link/fr.md) (`App::Link`), un type d\'objet faisant référence ou lié à un autre objet, dans le même document ou dans un autre document. Il est spécialement conçu pour dupliquer efficacement un seul objet plusieurs fois, ce qui permet de créer des [assemblages](assembly/fr.md) complexes à partir de sous-assemblages plus petits et de plusieurs composants réutilisables tels que des vis, des écrous et des éléments de fixation similaires.
+crée une classe _ complexes à partir de sous-assemblages plus petits et de plusieurs composants réutilisables tels que des vis, des écrous et des éléments de fixation similaires.
 
 L\'objet <img src=images/Draft_Clone.svg style="width:App Link](App_Link/fr.md) a été nouvellement introduit dans la v0.19. Auparavant, une simple duplication d\'objets pouvait être réalisée avec **[16px"> [Draft Clone](Draft_Clone/fr.md)**, mais c\'est une solution moins efficace en raison de son implémentation qui crée essentiellement une copie de la [Forme](Part_TopoShape/fr.md) interne de l\'objet source. D\'un autre côté, un lien fait directement référence à la forme d\'origine, donc plus efficace en mémoire.
 
-En lui-même, l\'objet <img src=images/Draft_OrthoArray.svg style="width:Link](App_Link/fr.md) peut se comporter comme un tableau dupliquant son objet de base plusieurs fois. Cela peut être fait en définissant sa propriété {{PropertyData/fr|Element Count}} sur {{Value|1}} ou plus. Cet objet \"[Link Array](#Link_Array/fr.md)\" peut également être créé avec les différents outils de tableau du <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [atelier Draft](Draft_Workbench/fr.md), par exemple **[16px"> <img src=images/Draft_PolarArray.svg style="width:Draft Réseau orthogonal](Draft_OrthoArray/fr.md)**, **[16px"> <img src=images/Draft_CircularArray.svg style="width:Draft Réseau polaire](Draft_PolarArray/fr.md)**, et **[16px"> [Draft Réseau circulaire](Draft_CircularArray/fr.md)**.
+En lui-même, l\'objet <img src=images/Draft_OrthoArray.svg style="width:Link](App_Link/fr.md) peut se comporter comme un tableau dupliquant son objet de base plusieurs fois. Cela peut être fait en définissant sa propriété {{PropertyData/fr|Element Count}} sur {{Value|1}} ou plus. Cet objet \"_, par exemple **_**, et **[16px"> [Draft Réseau circulaire](Draft_CircularArray/fr.md)**.
 
-Lorsqu\'ils sont utilisés avec l\'<img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> <img src=images/PartDesign_Body.svg style="width:atelier PartDesign](PartDesign_Workbench/fr.md), les liens sont destinés à être utilisés avec **[16px"> <img src=images/PartDesign_LinearPattern.svg style="width:PartDesign Corps](PartDesign_Body/fr.md)**. Il est donc recommandé de définir {{PropertyView/fr|Display Mode Body}} sur {{Value|Tip}} pour sélectionner les caractéristiques du corps entier et non les fonctions individuelles. Pour créer des tableaux des [PartDesign Features](PartDesign_Feature/fr.md) internes, utilisez **[16px"> <img src=images/PartDesign_PolarPattern.svg style="width:PartDesign Répétition linéaire](PartDesign_LinearPattern/fr.md)**, **[16px"> <img src=images/PartDesign_MultiTransform.svg style="width:PartDesign Répétition circulaire](PartDesign_PolarPattern/fr.md)** et **[16px"> [PartDesign Transformation multiple](PartDesign_MultiTransform/fr.md)**.
+Lorsqu\'ils sont utilisés avec l\'<img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> <img src=images/PartDesign_Body.svg style="width:atelier PartDesign](PartDesign_Workbench/fr.md), les liens sont destinés à être utilisés avec **_**, **[16px"> <img src=images/PartDesign_MultiTransform.svg style="width:PartDesign Répétition circulaire](PartDesign_PolarPattern/fr.md)** et **[16px"> [PartDesign Transformation multiple](PartDesign_MultiTransform/fr.md)**.
 
-L\'outil **<img src=images/Std_LinkMake.svg style="width:16px"> <img src=images/Std_Part.svg style="width:Std Créer un lien](Std_LinkMake/fr.md)** n\'est pas défini par un atelier particulier mais par le système de base. De ce fait il se trouve donc dans **Barre d'outils Structure** qui est disponible dans tous les [ateliers](Workbenches/fr.md). L\'objet Link, utilisé en conjonction avec **[16px"> [Std Part](Std_Part/fr.md)** pour regrouper divers objets, constitue la base des ateliers <img alt="" src=images/Assembly3_workbench_icon.svg  style="width:24px;"> [Assembly3](Assembly3_Workbench/fr.md) et <img alt="" src=images/Assembly4_workbench_icon.svg  style="width:24px;"> [Assembly4](Assembly4_Workbench/fr.md).
+L\'outil **<img src=images/Std_LinkMake.svg style="width:16px"> <img src=images/Std_Part.svg style="width:Std Créer un lien](Std_LinkMake/fr.md)** n\'est pas défini par un atelier particulier mais par le système de base. De ce fait il se trouve donc dans **Barre d'outils Structure** qui est disponible dans tous les _ et <img alt="" src=images/Assembly4_workbench_icon.svg  style="width:24px;"> [Assembly4](Assembly4_Workbench/fr.md).
 
 ## Utilisation
 
@@ -88,7 +88,7 @@ peut être utilisé avec des objets **<img src=images/Std_Part.svg style="width:
 
 *Lien créé à partir d'une [Std Part](Std_Part/fr.md) ; les objets ne sont pas dupliqués mais ils sont répertoriés sous le conteneur d'origine et sous le conteneur Lien.*
 
-Un **<img src=images/Std_Group.svg style="width:16px"> <img src=images/Std_LinkMake.svg style="width:Std Groupe](Std_Group/fr.md)** ne possède pas de propriété {{PropertyData/fr|Placement}}, il ne peut donc pas contrôler la position des objets à l\'intérieur de celui-ci. Cependant, lorsque **[16px"> <img src=images/Std_Group.svg style="width:Std Créer un lien](Std_LinkMake/fr.md)** est utilisé avec **[16px"> <img src=images/Std_Part.svg style="width:Std Groupe](Std_Group/fr.md)**, le lien résultant se comporte essentiellement comme un **[16px"> [Std Part](Std_Part/fr.md)** et peut également être déplacé dans l\'espace.
+Un **<img src=images/Std_Group.svg style="width:16px"> <img src=images/Std_LinkMake.svg style="width:Std Groupe](Std_Group/fr.md)** ne possède pas de propriété {{PropertyData/fr|Placement}}, il ne peut donc pas contrôler la position des objets à l\'intérieur de celui-ci. Cependant, lorsque **_**, le lien résultant se comporte essentiellement comme un **[16px"> [Std Part](Std_Part/fr.md)** et peut également être déplacé dans l\'espace.
 
 ![](images/Std_Link_tree_Std_Group_example.png ) ![](images/Std_Link_Std_Group_example.png )
 
@@ -100,7 +100,7 @@ Un lien vers un **<img src=images/Std_Part.svg style="width:16px"> <img src=imag
 ![](images/Std_Link_tree_Std_Part_visibility.png ) ![](images/Std_Link_tree_Std_Group_visibility.png )
 
 
-*À gauche : [Std Part](Std_Part/fr.md) avec deux objets et deux liens vers la pièce; la visibilité des objets est synchronisée. À droite : [Std Group](Std_Group/fr.md) avec deux objets et deux liens vers le groupe. La visibilité des objets est contrôlée indépendamment dans chaque groupe.*
+*À gauche : _ avec deux objets et deux liens vers le groupe. La visibilité des objets est contrôlée indépendamment dans chaque groupe.*
 
 ## Apparence de remplacement 
 
@@ -145,7 +145,7 @@ De la même manière, chaque élément du réseau peut avoir sa propre apparence
 
 Une fois que vous êtes satisfait de l\'emplacement et des propriétés des éléments Liens dans le réseau, vous pouvez changer {{PropertyData/fr|Show Element}} en `False` afin de masquer les liens individuels dans la [Vue en arborescence](Tree_view/fr.md). Cela présente l\'avantage de rendre le système plus réactif, en particulier si vous avez de nombreux objets dans le document.
 
-Lors de la création de ce type de réseau de liens, vous devez placer chacun des éléments manuellement. Cependant, si vous souhaitez utiliser des modèles spécifiques pour placer les copies, vous pouvez utiliser les outils de réseau de l\'<img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> <img src=images/Draft_PolarArray.svg style="width:atelier Draft](Draft_Workbench/fr.md), comme **[16px](_File:Draft_OrthoArray.svg.md) [Draft Réseau orthogonal](Draft_OrthoArray/fr.md)**, **[16px"> <img src=images/Draft_CircularArray.svg style="width:Draft Réseau polaire](Draft_PolarArray/fr.md)** et **[16px"> [Draft Réseau circulaire](Draft_CircularArray/fr.md)**; ces commandes peuvent créer des copies normales ou des copies de lien selon les options au moment de la création.
+Lors de la création de ce type de réseau de liens, vous devez placer chacun des éléments manuellement. Cependant, si vous souhaitez utiliser des modèles spécifiques pour placer les copies, vous pouvez utiliser les outils de réseau de l\'<img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> <img src=images/Draft_PolarArray.svg style="width:atelier Draft](Draft_Workbench/fr.md), comme **_ _** et **[16px"> [Draft Réseau circulaire](Draft_CircularArray/fr.md)**; ces commandes peuvent créer des copies normales ou des copies de lien selon les options au moment de la création.
 
 ## Visibilité
 
@@ -174,7 +174,7 @@ Lorsque le lien est pour un **<img src=images/Std_Part.svg style="width:16px"> <
 
 ## Propriétés
 
-Un [App Link](App_Link/fr.md) (classe `App::Link`) est dérivé de [App DocumentObject](App_DocumentObject/fr.md) (classe `App::DocumentObject`). Il a donc les propriétés de base de ce dernier comme {{PropertyData/fr|Label}} et {{PropertyData/fr|Label2}}.
+Un _ (classe `App::DocumentObject`). Il a donc les propriétés de base de ce dernier comme {{PropertyData/fr|Label}} et {{PropertyData/fr|Label2}}.
 
 Voici les propriétés spécifiques disponibles dans l\'[Éditeur de propriétés](Property_editor/fr.md). Les propriétés masquées peuvent être affichées en utilisant la commande **Afficher tout** dans le menu contextuel de l\'[Éditeur de propriétés](Property_editor/fr.md).
 
@@ -300,7 +300,7 @@ Il montrera en outre les propriétés de vue de l\'original **Linked Object**.
 
 ## Héritage
 
-Un [App Link](App_Link/fr.md) est formellement une instance de la classe `App::Link`, dont le parent est le [App DocumentObject](App_DocumentObject/fr.md) (classe `App::DocumentObject`). C\'est un objet de très bas niveau, qui peut être utilisé avec la plupart des autres objets de document.
+Un _ (classe `App::DocumentObject`). C\'est un objet de très bas niveau, qui peut être utilisé avec la plupart des autres objets de document.
 
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
 

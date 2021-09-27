@@ -21,7 +21,7 @@ Each branch object is an <img alt="" src=images/Assembly_Assembly_Tree.svg  styl
 **Parts**
 :   \- One for the <img alt="" src=images/Assembly_Assembly_Relation_Tree.svg  style="width:24px;"> **Relations** (which is hidden by default and will be revealed when the <img alt="" src=images/Assembly_GotoRelation.svg  style="width:16px;"> [Go to relation](Assembly3_GoToRelation.md) command is used)
 
-The added **Assembly** object with all visible containers looks like this (0.20.pre and Link Branch):
+ The added **Assembly** object with all visible containers looks like this (0.20.pre and Link Branch):
 
 <img alt="" src=images/Assembly3_Example-Tree-07.png  style="width:190px;"> <img alt="" src=images/Assembly3_Example-Tree-08.png  style="width:190px;">
 

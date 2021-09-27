@@ -10,8 +10,8 @@ The <img alt="" src=images/Workbench_Path.svg  style="width:24px;"> [Path Workbe
 
 The FreeCAD Path Workbench workflow creates these machine instructions as follows:
 
--   A 3D model is the base object, typically created using one or more of the <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Part Design](PartDesign_Workbench.md), <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part](Part_Workbench.md) or <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft](Draft_Workbench.md) Workbenches.
--   A [Path Job](Path_Job.md) is created in the Path Workbench. This contains all the information required to generate the necessary G-code to process the Job on a CNC mill: there is Stock material, the mill has a certain [set of tools](Path_ToolLibraryEdit.md) and it follows certain commands controlling speed and movements (usually G-code).
+-   A 3D model is the base object, typically created using one or more of the <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> _ or <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft](Draft_Workbench.md) Workbenches.
+-   A _ and it follows certain commands controlling speed and movements (usually G-code).
 -   [Path Tools](Path_Tools.md) are selected as required by the Job Operations.
 -   Milling paths are created using e.g. [Contour](Path_Profile.md) and [Pocket](Path_Pocket_3D.md) Operations. These Path objects use internal FreeCAD G-code dialect, independent of the CNC machine.
 -   Export the job with a G-code, matching to your machine. This step is called *post processing*; there are different post processors available.
@@ -83,7 +83,7 @@ Some commands are experimental and not available by default. To enable them see 
 
 -   <img alt="" src=images/Path_Post.svg  style="width:32px;"> [Post Process](Path_Post.md): Exports a project to G-code.
 
--   <img alt="" src=images/Path_Sanity.svg  style="width:32px;"> [Check the path job for common errors](Path_Sanity.md): Checks the selected job for missing values. [**Experimental**](Path_experimental.md). <small>(v0.19)</small> 
+-   <img alt="" src=images/Path_Sanity.svg  style="width:32px;"> _. <small>(v0.19)</small> 
 
 -   <img alt="" src=images/Path_ExportTemplate.svg  style="width:32px;"> [Export Template](Path_ExportTemplate.md): Export the current job as a template.
 
@@ -115,7 +115,7 @@ Some commands are experimental and not available by default. To enable them see 
 
 -   <img alt="" src=images/Path_Adaptive.svg  style="width:32px;"> [Adaptive](Path_Adaptive.md): Creates an adaptive clearing and profiling operation.
 
--   <img alt="" src=images/Path_Slot.svg  style="width:32px;"> [Slot](Path_Slot.md): Creates a slotting operation from selected features or custom points. [**Experimental**](Path_experimental.md). <small>(v0.19)</small> 
+-   <img alt="" src=images/Path_Slot.svg  style="width:32px;"> _. <small>(v0.19)</small> 
 
 -   <img alt="" src=images/Path_Engrave.svg  style="width:32px;"> [Engrave](Path_Engrave.md): Creates an engraving path.
 
@@ -125,9 +125,9 @@ Some commands are experimental and not available by default. To enable them see 
 
 -   <img alt="" src=images/Path_3DPocket.svg  style="width:32px;"> [3D Pocket](Path_Pocket_3D.md): Creates a path for a 3D pocket.
 
--   <img alt="" src=images/Path_Surface.svg  style="width:32px;"> [3D Surface](Path_Surface.md): Creates a path for a 3D surface. [**Experimental**](Path_experimental.md). <small>(v0.19)</small> 
+-   <img alt="" src=images/Path_Surface.svg  style="width:32px;"> _. <small>(v0.19)</small> 
 
--   <img alt="" src=images/Path_Waterline.svg  style="width:32px;"> [Waterline](Path_Waterline.md): Creates a waterline path for a 3D surface. [**Experimental**](Path_experimental.md). <small>(v0.19)</small> 
+-   <img alt="" src=images/Path_Waterline.svg  style="width:32px;"> _. <small>(v0.19)</small> 
 
 ### Path Dressup 
 
@@ -153,7 +153,7 @@ Some commands are experimental and not available by default. To enable them see 
 
 -   <img alt="" src=images/Path_Custom.svg  style="width:32px;"> [Custom](Path_Custom.md): Inserts custom G-code.
 
--   <img alt="" src=images/Path_Shape.svg  style="width:32px;"> [From Shape](Path_Shape.md): Creates a path object from a selected Part object. [**Experimental**](Path_experimental.md).
+-   <img alt="" src=images/Path_Shape.svg  style="width:32px;"> _.
 
 ### Path Modification 
 
@@ -165,9 +165,9 @@ Some commands are experimental and not available by default. To enable them see 
 
 ### Miscellaneous
 
--   <img alt="" src=images/Path_Area.svg  style="width:32px;"> [Area](Path_Area.md): Creates a feature area from selected objects. [**Experimental**](Path_experimental.md).
+-   <img alt="" src=images/Path_Area.svg  style="width:32px;"> _.
 
--   <img alt="" src=images/Path_Area_Workplane.svg  style="width:32px;"> [Area workplane](Path_Area_Workplane.md): Creates a feature area workplane. [**Experimental**](Path_experimental.md).
+-   <img alt="" src=images/Path_Area_Workplane.svg  style="width:32px;"> _.
 
 ### Obsolete
 
@@ -205,7 +205,7 @@ See [Path scripting](Path_scripting.md).
 
 ## Videos
 
--   [FreeCAD Path: Custom paths with Python - Part 1 - 5](https://www.youtube.com/playlist?list=PLEuOia-QxyFKgzAeTyH62GKqWKVURiWJL): a playlist with a series of 5 videos in English by sliptonic. This series shows how to work with the [Path Workbench](Path_Workbench.md).
+-   _.
 -   [FreeCAD CAM Path Workbench](https://www.youtube.com/playlist?list=PLUrr_kHPp4vhGdLlj6IemtF-OPUlRvSTC): a playlist with a series of 7 videos in English by CAD CAM Lessons.
 -   [FreeCAD CAM CNC](https://www.youtube.com/playlist?list=PLUrr_kHPp4vh2n6DcIlegK4dEKIFjmISJ) a playlist with a series of 8 videos in English by CAD CAM Lessons.
 
@@ -214,7 +214,7 @@ See [Path scripting](Path_scripting.md).
 
  {{Path_Tools_navi}} 
 
-[Category:Workbenches](Category:Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > Path Workbench
+[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Path Workbench

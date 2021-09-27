@@ -279,7 +279,7 @@ To connect certain command with a button, select button on the left side, and it
 
 
 
-[Category:User Documentation](Category:User_Documentation.md) [Category:3rd Party](Category:3rd_Party.md)
+_ _
 
 ---
-[documentation index](../README.md) > [User Documentation](Category:User Documentation.md) > 3Dconnexion input devices
+[documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > 3Dconnexion input devices

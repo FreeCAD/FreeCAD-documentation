@@ -1151,7 +1151,7 @@ cd bin
 
 <div class="mw-collapsible-content">
 
-Опубликовано пользователем [http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=3666 PrzemoF](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=3666_PrzemoF.md) на форуме.
+Опубликовано пользователем _ на форуме.
 
 
 {{Code|lang=bash|code=
@@ -1223,7 +1223,7 @@ make -j$(nproc)
 
 
 
-[Category:Developer\_Documentation](Category:Developer_Documentation.md) [Category:Developer](Category:Developer.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Developer_Documentation](Category:Developer_Documentation.md) > Compile on Linux/ru
+[documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > Compile on Linux/ru

@@ -16,7 +16,7 @@ Ce qui suit est une introduction très basique et en aucun cas un tutoriel compl
 
 Habituellement, lors de l\'écriture d\'un programme informatique, vous ouvrez un éditeur de texte ou votre environnement de programmation préféré (qui est essentiellement un éditeur de texte avec quelques outils supplémentaires), vous écrivez votre programme, puis vous le compilez et l\'exécutez. Souvent une ou plusieurs erreurs ont été commises lors de la saisie, votre programme ne fonctionnera donc pas. Vous pouvez même recevoir un message d\'erreur vous indiquant ce qui n\'a pas fonctionné. Ensuite, vous revenez à votre éditeur de texte, corrigez les erreurs, exécutez à nouveau et ainsi de suite jusqu\'à ce que votre programme fonctionne comme prévu.
 
-En Python, tout ce processus peut être effectué de manière transparente dans l\'interpréteur Python. L'interpréteur est une fenêtre Python avec une invite de commande, où vous pouvez simplement taper du code Python. Si vous avez installé Python sur votre ordinateur (téléchargez-le depuis le [site Web Python](https://www.python.org/) si vous êtes sous Windows ou Mac, installez le à partir des gestionnaires de paquets, si vous êtes sous GNU/Linux), vous aurez un interpréteur Python dans votre menu de démarrage. Mais comme déjà mentionné, FreeCAD dispose également d\'un interpréteur Python intégré : la [console Python](Python_console/fr.md).
+En Python, tout ce processus peut être effectué de manière transparente dans l\'interpréteur Python. L'interpréteur est une fenêtre Python avec une invite de commande, où vous pouvez simplement taper du code Python. Si vous avez installé Python sur votre ordinateur (téléchargez-le depuis le _.
 
 ![](images/FreeCAD_Python_console.png ) *La console Python FreeCAD*
 
@@ -497,7 +497,7 @@ dir()
 
 }} 
 
-[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Introduction to Python/fr
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Introduction to Python/fr

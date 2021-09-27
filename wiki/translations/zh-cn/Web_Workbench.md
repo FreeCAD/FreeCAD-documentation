@@ -18,7 +18,7 @@ From this browser you are able to navigate the web, click on links, read the onl
 
 
 
-[Category:Web](Category:Web.md) [Category:Workbenches](Category:Workbenches.md)
+_ _
 
 ---
-[documentation index](../README.md) > Web Workbench/zh-cn
+[documentation index](../README.md) > [Web](Category_Web.md) > Web Workbench/zh-cn

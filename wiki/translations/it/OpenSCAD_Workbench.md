@@ -11,7 +11,7 @@
 
 ## Introduzione
 
-L\'ambiente <img alt="" src=images/Workbench_OpenSCAD.svg  style="width:24px;"> OpenSCAD serve per offrire interoperabilità con il software open source [OpenSCAD](http://www.openscad.org/). Questo programma non è distribuito come parte di FreeCAD, ma dovrebbe essere installato per poter sfruttare appieno questo ambiente. OpenSCAD non deve essere confuso con [OpenCASCADE](OpenCASCADE/it.md), che è il kernel geometrico che FreeCAD utilizza per costruire la geometria sullo schermo. Le librerie OpenCASCADE sono sempre necessarie per utilizzare FreeCAD, mentre l\'eseguibile OpenSCAD è del tutto opzionale.
+L\'ambiente <img alt="" src=images/Workbench_OpenSCAD.svg  style="width:24px;"> OpenSCAD serve per offrire interoperabilità con il software open source _, che è il kernel geometrico che FreeCAD utilizza per costruire la geometria sullo schermo. Le librerie OpenCASCADE sono sempre necessarie per utilizzare FreeCAD, mentre l\'eseguibile OpenSCAD è del tutto opzionale.
 
 Contiene un importatore [CSG](OpenSCAD_CSG/it.md) che permette di aprire i file CSG di OpenSCAD, e un esportatore per produrre un albero basato su CSG. La geometria che non è basata su operazioni CSG viene esportata come mesh.
 
@@ -113,7 +113,7 @@ Se FreeCAD va in crash durante l\'importazione CSG, si consiglia vivamente di at
 
 }} 
 
-[Category:Workbenches](Category:Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > OpenSCAD Workbench/it
+[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > OpenSCAD Workbench/it

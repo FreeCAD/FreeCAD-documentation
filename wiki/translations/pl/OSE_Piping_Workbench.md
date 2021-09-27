@@ -40,7 +40,7 @@ A sweep elbow is a special elbow with larger radius of the bent part. It is desc
 
 
 
-[Category:User Documentation](Category:User_Documentation.md) [Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+_ _ _
 
 ---
-[documentation index](../README.md) > OSE Piping Workbench/pl
+[documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > OSE Piping Workbench/pl

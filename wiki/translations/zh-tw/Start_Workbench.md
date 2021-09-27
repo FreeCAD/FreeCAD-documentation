@@ -19,7 +19,7 @@ From this interface you can see useful information and jump to recently opened f
 
 
 
-[Category:User Documentation/zh-tw](Category:User_Documentation/zh-tw.md) [Category:Start](Category:Start.md) [Category:Workbenches](Category:Workbenches.md)
+_ _ _
 
 ---
-[documentation index](../README.md) > Start Workbench/zh-tw
+[documentation index](../README.md) > [Start](Category_Start.md) > Start Workbench/zh-tw

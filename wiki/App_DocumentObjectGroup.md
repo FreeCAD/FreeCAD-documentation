@@ -3,7 +3,7 @@
 
  <img alt="" src=images/Folder.svg  style="width:32px;"> 
 
-An [App DocumentObjectGroup](App_DocumentObjectGroup.md) object, or formally an `App::DocumentObjectGroup`, is a simple element that allows grouping any type of [App DocumentObject](App_DocumentObject.md) in the [tree view](tree_view.md) no matter its type of data.
+An _ in the [tree view](tree_view.md) no matter its type of data.
 
 It was developed to organize the objects in the [tree view](tree_view.md) in a way that is logical for the user.
 
@@ -22,7 +22,7 @@ See the [Std Group](Std_Group.md) page for the complete information, including i
 
 ## Properties
 
-An [App DocumentObjectGroup](App_DocumentObjectGroup.md) (`App::DocumentObjectGroup` class) is derived from the basic [App DocumentObject](App_DocumentObject.md) (`App::DocumentObject` class), therefore it shares all the latter\'s properties.
+An _ (`App::DocumentObject` class), therefore it shares all the latter\'s properties.
 
 See the properties in the [Std Group](Std_Group.md) page.
 

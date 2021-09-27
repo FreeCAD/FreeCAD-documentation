@@ -1,6 +1,6 @@
 # Sketcher ConstrainSymmetric/pt
 ---
-- GuiCommand:/pt   Name:Constraint Symmetric   Name/pt:Constraint Symmetric   Workbenches:[PartDesign](Sketcher_Workbench/pt___Sketcher]],_[[PartDesign_Workbench/pt.md)|MenuLocation:Sketch → Sketcher constraints → Constrain symmetrical   SeeAlso:[Constraint Parallel](Constraint_Parallel/pt.md)---
+- GuiCommand:/pt   Name:Constraint Symmetric   Name/pt:Constraint Symmetric   Workbenches:_---
 
 
 </div>

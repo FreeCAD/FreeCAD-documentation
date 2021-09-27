@@ -21,7 +21,7 @@ ToDo
 
 Under Mod\\Fem\\femsolver\\mystran, there are these files:
 
-
+ 
 ```python
 add_con_displacement.py
 add_con_fixed.py
@@ -37,7 +37,9 @@ tasks.py
 
 The function of each file are:
 
-writer.py - main control file 
+writer.py - main control file
+
+ 
 ```python
 model = BDF()
 model = add_solver_control.add_solver_control(pynasf, model, self)
@@ -49,7 +51,9 @@ model = add_con_displacement.add_con_displacement(pynasf, model, self)
 model = add_con_force.add_con_force(pynasf, model, self)
 ```
 
-BDF() - Create empty case file. 
+BDF() - Create empty case file.
+
+ 
 ```python
 $pyNastran: version=msc
 $pyNastran: punch=False
@@ -59,9 +63,10 @@ $pyNastran: nelements=0
 ENDDATA
 ```
 
-add\_solver\_control.py - Adding EXECUTIVE CONTROL DECK and CASE CONTROL DECK. 
-```python
+add\_solver\_control.py - Adding EXECUTIVE CONTROL DECK and CASE CONTROL DECK.
 
+ 
+```python
 $EXECUTIVE CONTROL DECK
 SOL 101
 CEND
@@ -78,7 +83,9 @@ SUBCASE 1
 BEGIN BULK
 $PARAMS
 PARAM       POST      -1
-``` add\_femelement\_geometry.py - Adding GRID cards
+```
+
+add\_femelement\_geometry.py - Adding GRID cards
 
 add\_mesh.py - Adding element cards
 

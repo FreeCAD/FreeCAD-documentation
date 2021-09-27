@@ -26,7 +26,7 @@ Narzędzie to tworzy łuk *(zaokrąglenie)* na wybranych krawędziach obiektu. O
 
 ## Zaokrąglenie w środowisku Część kontra Zaokrąglenie w środowisku Projekt Części 
 
-W środowisku pracy <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Projekt Części](PartDesign_Workbench/pl.md) znajduje się inne narzędzie do tworzenia zaokrągleń. Należy pamiętać, że ich działanie jest zupełnie inne. Sprawdź stronę <img alt="" src=images/PartDesign_Fillet.svg  style="width:24px;"> [Projekt Części: Zaokrąglenie](PartDesign_Fillet/pl.md) zawierającą więcej szczegółów na temat różnic między nimi.
+W środowisku pracy <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> _ zawierającą więcej szczegółów na temat różnic między nimi.
 
 ## Uwagi dotyczące stosowania funkcji zaokrąglenia w Środowisku Part 
 

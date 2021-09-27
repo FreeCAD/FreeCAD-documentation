@@ -5,7 +5,7 @@
 
 ## Wprowadzenie
 
-FreeCAD <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Środowisko pracy Szkicownik](Sketcher_Workbench/pl.md) służy do tworzenia geometrii 2D przeznaczonych do wykorzystania w Środowiskach pracy <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Projekt części](PartDesign_Workbench/pl.md), <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Arch](Arch_Workbench/pl.md) i innych. Ogólnie rzecz biorąc, rysunek 2D jest uważany za punkt wyjścia dla większości modeli CAD, ponieważ szkic 2D może być **wyciągany** do tworzenia kształtu 3D. Kolejne szkice 2D mogą być wykorzystywane do tworzenia następnych elementów detalu, takich jak kieszenie, grzbiety lub wytłoczki na górze uprzednio zbudowanych kształtów 3D. Wraz z operacjami logicznymi zdefiniowanymi w Środowisku pracy <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part](Part_Workbench/pl.md), Sketcher stanowi podstawę [konstrukcyjnej geometrii bryłowej](Constructive_solid_geometry.md) *(CSG)* metody budowania brył. Ponadto wraz z operacjami dostępnymi w <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> środowisku [Projekt części](PartDesign_Workbench/pl.md) Szkicownik stanowi również podstawę do metody tworzenia brył.
+FreeCAD <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> _, <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> _, Sketcher stanowi podstawę _ Szkicownik stanowi również podstawę do metody tworzenia brył.
 
 Środowisko pracy Szkicownik posiada **wiązania**, dzięki czemu kształty 2D mogą podążać za precyzyjnymi definicjami geometrycznymi pod względem długości, kątów i relacji *(poziomość, pionowość, prostopadłość itp.)*. Narzędzie do tworzenia wiązań oblicza wymagany zakres geometrii 2D i umożliwia przeprowadzenie interaktywnej eksploracji stopni swobody szkicu.
 
@@ -59,7 +59,7 @@ Wszystkie narzędzia Środowiska prascy Szkicownik znajdują się w menu główn
 
 -   <img alt="" src=images/Sketcher_NewSketch.svg  style="width:32px;"> [Nowy szkic](Sketcher_NewSketch/pl.md): Tworzy nowy szkic na wybranej powierzchni lub płaszczyźnie. Jeśli podczas uruchamiania tego narzędzia nie zostanie wybrana żadna ściana, użytkownik zostanie poproszony o wybranie płaszczyzny z wyskakującego okna.
 
--   <img alt="" src=images/Sketcher_EditSketch.svg  style="width:32px;"> [Edycja szkicu](Sketcher_EditSketch.md): Edytuj wybrany szkic. Spowoduje to otwarcie [Okna dialogowego Szkicownika](Sketcher_Dialog.md).
+-   <img alt="" src=images/Sketcher_EditSketch.svg  style="width:32px;"> _.
 
 -   <img alt="" src=images/Sketcher_LeaveSketch.svg  style="width:32px;"> [Opuść szkic](Sketcher_LeaveSketch/pl.md): Zamyka tryb edycji Środowiska pracy Szkicownik.
 
@@ -99,7 +99,7 @@ Poniżej znajdują się narzędzia do tworzenia obiektów.
 
 :\* <img alt="" src=images/Sketcher_Create3PointCircle.svg  style="width:32px;"> [Rysuje okrąg podając 3 punkty na obwodzie](Sketcher_Create3PointCircle.md): Rysuje okrąg z trzech punktów na obwodzie.
 
--   <img alt="" src=images/Sketcher_CompCreateConic.png  style="width:48px;"> [Utwórz krzywą stożkową](Sketcher_CompCreateConic.md): Szkicownik oferuje poniższe sekcje o kształcie stożka. W przeciwieństwie do linii B-splines mogą być one używane z różnego rodzaju wiązaniami, takimi jak [styczna](Sketcher_ConstrainTangent/pl.md), [punkt na obiekcie](Sketcher_ConstrainPointOnObject/pl.md), lub [prostopadle](Sketcher_ConstrainPerpendicular.md).
+-   <img alt="" src=images/Sketcher_CompCreateConic.png  style="width:48px;"> _, [punkt na obiekcie](Sketcher_ConstrainPointOnObject/pl.md), lub [prostopadle](Sketcher_ConstrainPerpendicular.md).
     -   <img alt="" src=images/Sketcher_CreateEllipseByCenter.svg  style="width:32px;"> [Ellipsa przez środek. ..](Sketcher_CreateEllipseByCenter.md): Rysuje elipsę według punktu środkowego, głównego promienia i małego promienia.
     -   <img alt="" src=images/Sketcher_CreateEllipseBy3Points.svg  style="width:32px;"> [Ellipsa przez 3 punkty](Sketcher_CreateEllipseBy3Points.md): Rysuje elipsę według średnicy głównej *(2 punkty)* i punktu mniejszego promienia.
     -   <img alt="" src=images/Sketcher_CreateArcOfEllipse.svg  style="width:32px;"> [Łuk elipsy przez środek \...](Sketcher_CreateArcOfEllipse.md): Rysuje łuk elipsy według punktu środkowego, głównego promienia, punktu początkowego i końcowego.
@@ -316,7 +316,7 @@ Strona [skrypty szkicownika](Sketcher_scripting.md) zawiera przykłady tworzenia
 
 }} 
 
-[Category:Workbenches](Category:Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > Sketcher Workbench/pl
+[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Sketcher Workbench/pl

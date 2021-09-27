@@ -13,7 +13,7 @@
 
 Das <img alt="" src=images/TechDraw_ProjectionGroup.svg  style="width:24px;"> [ProjektionsGruppe](TechDraw_ProjectionGroup/de.md) Werkzeug erstellt eine [Mehrfachansichtsprojektion](https://en.wikipedia.org/wiki/Multiview_projection) einer oder mehrerer 3D Objekte. Die isometrischen Ansichten der vier Frontecken können ebenfalls eingeschlossen werden.
 
-Wenn du nur eine einzige Ansicht erzeugen möchtest, ist es nicht von Vorteil, ProjektionsGruppe zu verwenden; nutze statt dessen [Ansicht einfügen](TechDraw_View/de.md). Wenn du nicht die herkömmliche [first-](https://en.wikipedia.org/wiki/Multiview_orthographic_projection#First-angle_projection) / [1](https://en.wikipedia.org/wiki/Multiview_orthographic_projection#Third-angle_projection) verwenden möchtest, solltest du mehrere *Ansichten* ([Ansichten einfügen](TechDraw_View/de.md)) anstelle von *ProjektionsGruppe* verwenden.
+Wenn du nur eine einzige Ansicht erzeugen möchtest, ist es nicht von Vorteil, ProjektionsGruppe zu verwenden; nutze statt dessen _) anstelle von *ProjektionsGruppe* verwenden.
 
 <img alt="" src=images/TechDraw_ProjGroup_example.png  style="width:400px;"> 
 *Drei orthogonale Ansichten und eine isometrische Ansicht eines Festkörperobjekts*

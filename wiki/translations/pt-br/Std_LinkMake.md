@@ -14,15 +14,15 @@
 
 **<img src=images/Std_LinkMake.svg style="width:16px"> [Std LinkMake](Std_LinkMake.md)**
 
-creates an [App Link](App_Link.md) (`App::Link` class), a type of object that references or links to another object, in the same document, or in another document. It is especially designed to efficiently duplicate a single object multiple times, which helps with the creation of complex [assemblies](assembly.md) from smaller subassemblies, and from multiple reusable components like screws, nuts, and similar fasteners.
+creates an _ from smaller subassemblies, and from multiple reusable components like screws, nuts, and similar fasteners.
 
 The <img src=images/Draft_Clone.svg style="width:App Link](App_Link.md) object was newly introduced in v0.19; in the past, simple duplication of objects could be achieved with **[16px"> [Draft Clone](Draft_Clone.md)**, but this is a less efficient solution due to its implementation which essentially creates a copy of the internal [Shape](Part_TopoShape.md) of the source object. On the other hand, a Link references directly the original Shape, so it is more memory efficient.
 
-By itself the <img src=images/Draft_OrthoArray.svg style="width:Link](App_Link.md) object can behave like an array, duplicating its base object many times; this can be done by setting its **Element Count** property to {{Value|1}} or larger. This \"[Link Array](#Link_Array.md)\" object can also be created with the different array tools of the <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft Workbench](Draft_Workbench.md), for example, **[16px"> <img src=images/Draft_PolarArray.svg style="width:Draft OrthoArray](Draft_OrthoArray.md)**, **[16px"> <img src=images/Draft_CircularArray.svg style="width:Draft PolarArray](Draft_PolarArray.md)**, and **[16px"> [Draft CircularArray](Draft_CircularArray.md)**.
+By itself the <img src=images/Draft_OrthoArray.svg style="width:Link](App_Link.md) object can behave like an array, duplicating its base object many times; this can be done by setting its **Element Count** property to {{Value|1}} or larger. This \"_, for example, **_**, and **[16px"> [Draft CircularArray](Draft_CircularArray.md)**.
 
-When used with the <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> <img src=images/PartDesign_Body.svg style="width:PartDesign Workbench](PartDesign_Workbench.md), Links are intended to be used with **[16px"> <img src=images/PartDesign_LinearPattern.svg style="width:PartDesign Bodies](PartDesign_Body.md)**, so it is recommended to set **Display Mode Body** to {{Value|Tip}} to select the features of the entire Body, and not the individual features. To create arrays of the internal [PartDesign Features](PartDesign_Feature.md), use **[16px"> <img src=images/PartDesign_PolarPattern.svg style="width:PartDesign LinearPattern](PartDesign_LinearPattern.md)**, **[16px"> <img src=images/PartDesign_MultiTransform.svg style="width:PartDesign PolarPattern](PartDesign_PolarPattern.md)**, and **[16px"> [PartDesign MultiTransform](PartDesign_MultiTransform.md)**.
+When used with the <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> <img src=images/PartDesign_Body.svg style="width:PartDesign Workbench](PartDesign_Workbench.md), Links are intended to be used with **_**, **[16px"> <img src=images/PartDesign_MultiTransform.svg style="width:PartDesign PolarPattern](PartDesign_PolarPattern.md)**, and **[16px"> [PartDesign MultiTransform](PartDesign_MultiTransform.md)**.
 
-The **<img src=images/Std_LinkMake.svg style="width:16px"> <img src=images/Std_Part.svg style="width:Std LinkMake](Std_LinkMake.md)** tool is not defined by a particular workbench, but by the base system, thus it is found in the **structure toolbar** that is available in all [workbenches](Workbenches.md). The Link object, used in conjunction with **[16px"> [Std Part](Std_Part.md)** to group various objects, forms the basis of the <img alt="" src=images/Assembly3_workbench_icon.svg  style="width:24px;"> [Assembly3](Assembly3_Workbench.md) and <img alt="" src=images/Assembly4_workbench_icon.svg  style="width:24px;"> [Assembly4 Workbenches](Assembly4_Workbench.md).
+The **<img src=images/Std_LinkMake.svg style="width:16px"> <img src=images/Std_Part.svg style="width:Std LinkMake](Std_LinkMake.md)** tool is not defined by a particular workbench, but by the base system, thus it is found in the **structure toolbar** that is available in all _ and <img alt="" src=images/Assembly4_workbench_icon.svg  style="width:24px;"> [Assembly4 Workbenches](Assembly4_Workbench.md).
 
 ## Utilização
 
@@ -87,7 +87,7 @@ can be used on **<img src=images/Std_Part.svg style="width:16px"> [Std Parts](St
 
 *Link created from a [Std Part](Std_Part.md); the objects are not duplicated but they are listed under the original container and under the Link container.*
 
-A regular **<img src=images/Std_Group.svg style="width:16px"> <img src=images/Std_LinkMake.svg style="width:Std Group](Std_Group.md)** does not possess a **Placement** property, so it cannot control the position of the objects inside of it. However, when **[16px"> <img src=images/Std_Group.svg style="width:Std LinkMake](Std_LinkMake.md)** is used with **[16px"> <img src=images/Std_Part.svg style="width:Std Group](Std_Group.md)**, the resulting Link behaves essentially like a **[16px"> [Std Part](Std_Part.md)**, and can also be moved in space.
+A regular **<img src=images/Std_Group.svg style="width:16px"> <img src=images/Std_LinkMake.svg style="width:Std Group](Std_Group.md)** does not possess a **Placement** property, so it cannot control the position of the objects inside of it. However, when **_**, the resulting Link behaves essentially like a **[16px"> [Std Part](Std_Part.md)**, and can also be moved in space.
 
 ![](images/Std_Link_tree_Std_Group_example.png ) ![](images/Std_Link_Std_Group_example.png )
 
@@ -99,7 +99,7 @@ A Link to a **<img src=images/Std_Part.svg style="width:16px"> <img src=images/S
 ![](images/Std_Link_tree_Std_Part_visibility.png ) ![](images/Std_Link_tree_Std_Group_visibility.png )
 
 
-*Left: [Std Part](Std_Part.md) with two objects, and two Links to the Part; the visibility of the objects is synchronized. Right: [Std Group](Std_Group.md) with two objects, and two Links to the Group; the visibility of the objects is independently controlled in each group.*
+*Left: _ with two objects, and two Links to the Group; the visibility of the objects is independently controlled in each group.*
 
 ## Overriding appearance 
 
@@ -144,7 +144,7 @@ In similar way, each element of the array can have its own appearance changed, e
 
 Once you are satisfied with the placement and properties of the Link elements in the array, you may change **Show Element** to `False` in order hide the individual Links in the [tree view](tree_view.md); this has the benefit of making the system more responsive, particularly if you have many objects in the document.
 
-When creating this type of Link array, you must place each of the elements manually; however, if you would like to use specific patterns to place the copies, you may use the array tools of the <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> <img src=images/Draft_OrthoArray.svg style="width:Draft Workbench](Draft_Workbench.md), like **[16px"> <img src=images/Draft_PolarArray.svg style="width:Draft OrthoArray](Draft_OrthoArray.md)**, **[16px"> <img src=images/Draft_CircularArray.svg style="width:Draft PolarArray](Draft_PolarArray.md)**, and **[16px"> [Draft CircularArray](Draft_CircularArray.md)**; these commands can create normal copies or Link copies depending on the options at creation time.
+When creating this type of Link array, you must place each of the elements manually; however, if you would like to use specific patterns to place the copies, you may use the array tools of the <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> <img src=images/Draft_OrthoArray.svg style="width:Draft Workbench](Draft_Workbench.md), like **_**, and **[16px"> [Draft CircularArray](Draft_CircularArray.md)**; these commands can create normal copies or Link copies depending on the options at creation time.
 
 ## Visibility
 
@@ -173,7 +173,7 @@ When the Link is for a **<img src=images/Std_Part.svg style="width:16px"> <img s
 
 ## Properties
 
-An [App Link](App_Link.md) (`App::Link` class) is derived from the basic [App DocumentObject](App_DocumentObject.md) (`App::DocumentObject` class), therefore it has the latter\'s basic properties like **Label** and **Label2**.
+An _ (`App::DocumentObject` class), therefore it has the latter\'s basic properties like **Label** and **Label2**.
 
 The following are the specific properties available in the [property editor](Property_editor.md). Hidden properties can be shown by using the **Show all** command in the context menu of the [property editor](Property_editor.md).
 
@@ -299,7 +299,7 @@ It will additionally show the view properties of the original **Linked Object**.
 
 ## Inheritance
 
-An [App Link](App_Link.md) is formally an instance of the class `App::Link`, whose parent is the basic [App DocumentObject](App_DocumentObject.md) (`App::DocumentObject` class). It is a very low level object, which can be used with most other document objects.
+An _ (`App::DocumentObject` class). It is a very low level object, which can be used with most other document objects.
 
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
 

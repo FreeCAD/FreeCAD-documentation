@@ -2,7 +2,7 @@
 {{TutorialInfo/pl
 |Topic=Modelowanie
 |Level=Początkujący
-|Author=Mark Stephen ([Quick61](User:Quick61.md)) oraz HarryGeier ([HarryGeier](User:HarryGeier.md))
+|Author=Mark Stephen (_) oraz HarryGeier (_)
 |Time=poniżej godziny
 |FCVersion=0.17 lub nowszy
 |Files=[https://github.com/FreeCAD/Examples/blob/master/Basic_Part_Design_Tutorial_Example_017_Files/Basic_Part_Design_Tutorial_017.fcstd Basic Part Design for v0.17]
@@ -131,7 +131,7 @@ Aby stworzyć kieszeń, która ma kształt pochylonego prostokąta jako wylot, r
 
 I na tym powinniśmy poprzestać. ![](images/tut17_rectangleconstrained.png )
 
-Ostatni krok tego poradnika to zamknięcie okna szkicownika poprzez zamknięcie lub zakończenie edycji z menu kontekstowego szkicownika004, a następnie wybranie opcji [32px](Plik:PartDesign_Pocket.svg.md) Kieszeń z paska narzędzi lub z menu Projektowanie części. Z menu rozwijanego Typ wybierz **Przez wszystkie** i kliknij w przycisk **OK**. ![](images/Tut17_final.png )
+Ostatni krok tego poradnika to zamknięcie okna szkicownika poprzez zamknięcie lub zakończenie edycji z menu kontekstowego szkicownika004, a następnie wybranie opcji _ Kieszeń z paska narzędzi lub z menu Projektowanie części. Z menu rozwijanego Typ wybierz **Przez wszystkie** i kliknij w przycisk **OK**. ![](images/Tut17_final.png )
 
 W tym momencie zobaczysz kilka linii, które pochodzą z przecinających się elementów. W tym przypadku *blok boczny* przecina się z *profilem bazowym*, dzięki czemu pojawia się jako trójkątny blok nad profilem *(tzn. na powyższym zdjęciu po prawej stronie modelu widoczna jest dodatkowa linia)*. Aby usunąć te linie, można albo włączyć **dopracowanie kształtu** w ustawieniach projektu części lub, aby zaoszczędzić trochę prędkości przetwarzania i nadal mieć te linie podczas konstruowania, indywidualnie włączyć je przy każdej funkcji. Ustawienie na poziomie elementu może być wykonane w zakładce **Dane** elementu. Ustaw [***refine* property**](Property_editor#Data.md) na `True` dla funkcji kieszeni Pocket001, aby wywołać udoskonalenie.
 

@@ -33,7 +33,7 @@ Poiché si suppone che il Corpo sia un [singolo solido contiguo](PartDesign_Body
 
 </div>
 
-![](images/PartDesign_Body_tree.png ) ![](images/PartDesign_Body_example.png ) *A sinistra: la vista ad albero che mostra le funzioni che producono in sequenza la forma finale dell'oggetto. A destra: l'oggetto finale visibile nella [vista 3D](3D_view/it.md).
+!_.
 *
 
 ## Utilizzo
@@ -55,7 +55,7 @@ Se viene selezionato un oggetto solido:
 
 ## Proprietà
 
-Un [Corpo di PartDesign](PartDesign_Body/it.md) (classe `PartDesign::Body`) è derivato da una [Part Feature](Part_Feature/it.md) (classe `Part::Feature`), pertanto condivide tutte le proprietà di quest\'ultimo.
+Un _ (classe `Part::Feature`), pertanto condivide tutte le proprietà di quest\'ultimo.
 
 Oltre alle proprietà descritte in [Part Feature](Part_Feature/it.md), il corpo di PartDesign ha le seguenti proprietà nell\'[editor delle proprietà](property_editor/it.md).
 
@@ -123,7 +123,7 @@ Un corpo di PartDesign esegue una [fusione](Part_Union/it.md) (unione) automatic
 <img alt="" src=images/PartDesign_Body_two_intersection.png  style="width:" height="200px;"> <img alt="" src=images/PartDesign_Body_two_fusion.png  style="width:" height="200px;"> 
 *A sinistra: due singoli solidi che si intersecano. A destra: un singolo corpo di PartDesign creato con due [funzioni additive](PartDesign_Feature/it.md), che vengono automaticamente fuse insieme, quindi invece di intersecarsi, formano un singolo solido contiguo.*
 
-![](images/PartDesign_Body_non-contiguous.png ) *A sinistra: due solidi disconnessi; questo non è un corpo PartDesign valido. A destra: due solidi che si toccano; ciò si traduce in un corpo PartDesign valido. La [funzione](PartDesign_Feature/it.md) più recente deve sempre contattare o intersecare la funzione precedente in modo che sia fusa con essa e diventi un singolo solido contiguo.*
+!_ più recente deve sempre contattare o intersecare la funzione precedente in modo che sia fusa con essa e diventi un singolo solido contiguo.*
 
 
 **Nota:**
@@ -172,7 +172,7 @@ all elements inside the Body are referenced to the Body\'s Origin which means th
 <img alt="" src=images/PartDesign_Body_Origin_tree.png ) ![](images/PartDesign_Body_Origin_view.png  style="width:" height="400px;">
 
 
-*Left: PartDesign Body Origin in the [tree view](tree_view.md). Right: representation of the Origin elements in the [3D view](3D_view.md).*
+*Left: PartDesign Body Origin in the _.*
 
 ### Funzione di base 
 
@@ -266,7 +266,7 @@ La visibilità del corpo prevale sulla visibilità di qualsiasi oggetto in esso 
 
 Multiple [Sketches](Sketch.md) may be visible at one time, but only one [PartDesign Feature](PartDesign_Feature.md) (solid result) can be visible at a time. Selecting a hidden feature and pressing the **Space** bar in the keyboard will make it visible, and automatically hide the previously visible feature.
 
-![](images/PartDesign_Body_Visibility.png ) *PartDesign Body: multiple [Sketches](Sketch.md) may be visible simultaneously, but only one solid [PartDesign Feature](PartDesign_Feature.md) may be visible at one time, whether it is the Tip or not.*
+!_ may be visible simultaneously, but only one solid [PartDesign Feature](PartDesign_Feature.md) may be visible at one time, whether it is the Tip or not.*
 
 ### Attachment
 
@@ -276,11 +276,11 @@ Multiple [Sketches](Sketch.md) may be visible at one time, but only one [PartDes
 
 A [PartDesign Feature](PartDesign_Feature.md) that is not attached will be shown with a red overlay symbol next to their icon in the [tree view](tree_view.md).
 
-![](images/PartDesign_Body_Feature_attachment.png ) *PartDesign Body: [PartDesign Features](PartDesign_Feature.md) that are not attached to a plane or coordinate system will be shown with an overlay symbol next to their icon in the [tree view](tree_view.md).*
+!_ that are not attached to a plane or coordinate system will be shown with an overlay symbol next to their icon in the [tree view](tree_view.md).*
 
 ### Inheritance
 
-A [PartDesign Body](PartDesign_Body.md) is formally an instance of the class `PartDesign::Body`, whose parent is [Part Feature](Part_Feature.md) (`Part::Feature` class) through the intermediate `Part::BodyBase` class, and is augmented with an Origin extension.
+A _ (`Part::Feature` class) through the intermediate `Part::BodyBase` class, and is augmented with an Origin extension.
 
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
 

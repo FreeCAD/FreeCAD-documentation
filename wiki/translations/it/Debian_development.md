@@ -6,7 +6,7 @@ Debian è la distribuzione genitore da cui derivano molte altre distribuzioni Li
 
 
 
-[Category:Packaging](Category:Packaging.md) [Category:Developer Documentation](Category:Developer_Documentation.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Packaging](Category:Packaging.md) > Debian development/it
+[documentation index](../README.md) > [Packaging](Category_Packaging.md) > Debian development/it

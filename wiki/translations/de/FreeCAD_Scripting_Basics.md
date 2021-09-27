@@ -119,7 +119,7 @@ myView = Gui.ActiveDocument.ActiveView
 
 ## Das Verwenden zusätzlicher Module 
 
-Die `FreeCAD` und `FreeCADGui` Module sind ausschließlich Verantwortlich für das Erstellen und Verwalten von Objekten in einem FreeCAD Dokument. Sie tun eigentlich nichts mehr, wie zum Beispiel Geometrie erstellen oder verändern. Das liegt daran, dass diese Geometrie aus mehreren Typen bestehen kann und daher zusätzliche Module erfordert, die jeweils für die Verwaltung eines bestimmten Geometrietyps zuständig ist. Beispielsweise ist der [Part-Arbeitsbereich](Part_Workbench/de.md) unter Verwendung des OpenCascade Kernels in der Lage, Geometrie vom Typ [BRep](http://en.wikipedia.org/wiki/Boundary_representation) zu erstellen und zu verändern. Wohingegen der [Netz-Arbeitsbereich](Mesh_Workbench/de.md) in der Lage ist, Netzobjekte zu erstellen und zu modifizieren. Auf diese Weise ist FreeCAD in der Lage, eine Vielzahl von Objekttypen zu handhaben, die alle im selben Dokument koexistieren können, und neue Typen können in Zukunft leicht hinzugefügt werden.
+Die `FreeCAD` und `FreeCADGui` Module sind ausschließlich Verantwortlich für das Erstellen und Verwalten von Objekten in einem FreeCAD Dokument. Sie tun eigentlich nichts mehr, wie zum Beispiel Geometrie erstellen oder verändern. Das liegt daran, dass diese Geometrie aus mehreren Typen bestehen kann und daher zusätzliche Module erfordert, die jeweils für die Verwaltung eines bestimmten Geometrietyps zuständig ist. Beispielsweise ist der _ in der Lage ist, Netzobjekte zu erstellen und zu modifizieren. Auf diese Weise ist FreeCAD in der Lage, eine Vielzahl von Objekttypen zu handhaben, die alle im selben Dokument koexistieren können, und neue Typen können in Zukunft leicht hinzugefügt werden.
 
 [Anfang](#top.md)
 
@@ -198,7 +198,7 @@ oder prüfe, ob ein Objekt von einem der Basisobjekte (Part Formelement, Netz Fo
 print(myObj.isDerivedFrom("Part::Feature"))
 ```
 
-Jetzt kannst du wirklich anfangen, mit FreeCAD zu spielen! Eine vollständige Liste der verfügbaren Module und ihrer Werkzeuge findest du im [Category:API](:Category:API.md) Abschnitt.
+Jetzt kannst du wirklich anfangen, mit FreeCAD zu spielen! Eine vollständige Liste der verfügbaren Module und ihrer Werkzeuge findest du im _ Abschnitt.
 
 [Anfang](#top.md)
 
@@ -207,7 +207,7 @@ Jetzt kannst du wirklich anfangen, mit FreeCAD zu spielen! Eine vollständige Li
 
 }} 
 
-[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > FreeCAD Scripting Basics/de
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > FreeCAD Scripting Basics/de

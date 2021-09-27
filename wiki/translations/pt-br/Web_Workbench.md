@@ -27,7 +27,7 @@ A partir desse navegador você é capaz de navegar na web, clicar em links, ler 
 
 
 
-[Category:Web](Category:Web.md) [Category:Workbenches](Category:Workbenches.md)
+_ _
 
 ---
-[documentation index](../README.md) > Web Workbench/pt-br
+[documentation index](../README.md) > [Web](Category_Web.md) > Web Workbench/pt-br

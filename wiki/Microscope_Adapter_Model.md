@@ -52,7 +52,7 @@ The clamp at the GoPro end is different than the microscope end because of the s
 
 and perhaps add category Model and Best Practice
 
-[Category:Sandbox‏‎](Category:Sandbox‏‎.md)
+_
 
 ---
 [documentation index](../README.md) > Microscope Adapter Model

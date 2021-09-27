@@ -4,7 +4,7 @@
 |Level=Programmeur moyen
 |Time=15 minutes
 |FCVersion=Toutes versions
-|Author=[Mario52](User:Mario52.md)
+|Author=_
 }}
 
 ## Description
@@ -473,7 +473,7 @@ et validez en cliquant sur le bouton **OK**.
 
 }} 
 
-[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > How to install macros/fr
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > How to install macros/fr

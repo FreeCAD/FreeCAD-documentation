@@ -78,7 +78,7 @@ Any other characters are treated literally. If the resulting filename is illegal
 
 ### Escape Key 
 
--   **General/TasksKeyEsc** (boolean) : Create and set to `False` to disable the **ESC** key exiting the [Task panel](Task_panel.md) in all workbenches (that is if the task panel has focus). **Note:** Superceded by [Sketcher Preferences](Sketcher_Preferences#General.md).
+-   **General/TasksKeyEsc** (boolean) : Create and set to `False` to disable the **ESC** key exiting the _.
 -   **Mod/Sketcher/ViewKeyEsc** (boolean) : Create and set to `False` to disable **ESC** key issues with pressing one to many times, when escaping sketcher geometry/constraints creation continue mode (see [forum thread](https://forum.freecadweb.org/viewtopic.php?f=3&t=42207&start=60#p367584))
 
 ## Specific Workbenches 
@@ -96,7 +96,7 @@ Any other characters are treated literally. If the resulting filename is illegal
 
 
 
-[Category:Developer Documentation](Category:Developer_Documentation.md)
+_
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Fine-tuning/it
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Fine-tuning/it

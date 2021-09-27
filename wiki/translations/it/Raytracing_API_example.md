@@ -50,7 +50,7 @@ myCustomRenderObject.Result = "// Hello from python!"
 
 }} {{Raytracing Tools navi}} 
 
-[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing API example/it
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing API example/it

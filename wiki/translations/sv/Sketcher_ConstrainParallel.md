@@ -1,6 +1,6 @@
 # Sketcher ConstrainParallel/sv
 ---
-- GuiCommand:/sv   Name:Constraint Parallel   Name/sv:Constraint Parallel   Workbenches:[PartDesign](Sketcher_Workbench/sv___Sketcher]],_[[PartDesign_Workbench/sv.md)|MenuLocation:Sketch → Sketcher constraints → Constrain parallel   SeeAlso:[Constraint Vertical](Constraint_Vertical/sv.md), [Constraint Horizontal](Constraint_Horizontal/sv.md)---
+- GuiCommand:/sv   Name:Constraint Parallel   Name/sv:Constraint Parallel   Workbenches:_, [Constraint Horizontal](Constraint_Horizontal/sv.md)---
 
 
 </div>

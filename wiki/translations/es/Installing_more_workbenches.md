@@ -45,7 +45,7 @@ Consulta también una descripción detallada en la página [cómo instalar ambie
 
 }} 
 
-[Category:Developer Documentation](Category:Developer_Documentation.md)
+_
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Installing more workbenches/es
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Installing more workbenches/es

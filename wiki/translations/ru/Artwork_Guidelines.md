@@ -176,7 +176,7 @@ Inkscape имеет удобный инструмент для проверки 
 
 {{Artwork}}
 
-[Category:Developer Documentation](Category:Developer_Documentation.md)
+_
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Artwork Guidelines/ru
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Artwork Guidelines/ru

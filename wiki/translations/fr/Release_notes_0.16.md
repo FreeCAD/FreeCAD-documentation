@@ -1,5 +1,5 @@
 # Release notes 0.16/fr
-FreeCAD 0.16 a été publié le 18 avril 2016, obtenez la depuis la page [Github](https://github.com/FreeCAD/FreeCAD/releases). Ceci est un résumé des changements les plus intéressants. La liste complète des changements peut être trouvée dans [sur Mantis (en anglais)](http://www.freecadweb.org/tracker/changelog_page.php). Les versions plus anciennes : [0.15](Release_notes_0.15/fr.md) - [0.14](Release_notes_0.14/fr.md) - [0.13](Release_notes_0.13/fr.md) - [0.12](Release_notes_0.12/fr.md) - [0.11](Release_notes_0.11/fr.md)
+FreeCAD 0.16 a été publié le 18 avril 2016, obtenez la depuis la page _ - [0.14](Release_notes_0.14/fr.md) - [0.13](Release_notes_0.13/fr.md) - [0.12](Release_notes_0.12/fr.md) - [0.11](Release_notes_0.11/fr.md)
 <img alt="" src=images/Satnogs_Rotator_FreeCAD.jpg  style="width:1024px;">
 
 
@@ -71,7 +71,7 @@ FreeCAD supporte maintenant de nouveaux styles de navigation dont un tactile. Ce
 
 ## Atelier Arch 
 
--   **[Support des Materiaux](Arch_SetMaterial/fr.md)**: Un objet Arch peut maintenant avoir un [matériau](material/fr.md) associé, qui utilise le framework des matériaux intégré à FreeCAD. Ces matériaux sont partagés entre les ateliers. Ils sont pleinement supporté lors de l\'import et l\'export IFC.
+-   **_ associé, qui utilise le framework des matériaux intégré à FreeCAD. Ces matériaux sont partagés entre les ateliers. Ils sont pleinement supporté lors de l\'import et l\'export IFC.
 -   La **[Section plane](Arch_SectionPlane/fr.md)** peut maintenant faire une coupe dans la vue 3D montrant en temps réel la section.
 
 <img alt="" src=images/Arch_clip_plane.jpg  style="width:1024px;">
@@ -120,7 +120,7 @@ Plusieurs nouveaux [ateliers complémentaires](https://github.com/FreeCAD/FreeCA
 
 ![](images/Macro_installer_02.jpg )
 
-[Category:News](Category:News.md) [Category:Documentation](Category:Documentation.md) [Category:Releases](Category:Releases.md)
+_ _ _
 
 ---
-[documentation index](../README.md) > [News](Category:News.md) > Release notes 0.16/fr
+[documentation index](../README.md) > [News](Category_News.md) > Release notes 0.16/fr

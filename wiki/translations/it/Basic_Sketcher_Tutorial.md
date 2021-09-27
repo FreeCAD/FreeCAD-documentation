@@ -12,7 +12,7 @@
 
 Questo tutorial ha lo scopo di introdurre il lettore al flusso di lavoro di base dell\'ambiente <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Schizzo](Sketcher_Workbench/it.md).
 
-L\'ambiente[Sketcher ](Sketcher_Workbench/it.md) esiste come modulo autonomo, quindi può essere utilizzato per disegnare oggetti 2D generici (planari). Tuttavia, viene utilizzato principalmente in combinazione con <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench/it.md). Uno schizzo chiuso viene normalmente utilizzato per creare una faccia o un profilo da estrudere in un [corpo](PartDesign_Body/it.md) solido con un\'operazione come <img alt="" src=images/PartDesign_Pad.svg  style="width:16px;"> [Pad](PartDesign_Pad/it.md) di PartDesign .
+L\'ambiente_. Uno schizzo chiuso viene normalmente utilizzato per creare una faccia o un profilo da estrudere in un _ di PartDesign .
 
 Il lettore farà pratica su:
 
@@ -310,7 +310,7 @@ Constraining a sketch can be done in many different ways. In general, it is reco
 
 }} {{Sketcher Tools navi}} 
 
-[Category:Sketcher/it](Category:Sketcher/it.md)
+_
 
 ---
 [documentation index](../README.md) > Basic Sketcher Tutorial/it

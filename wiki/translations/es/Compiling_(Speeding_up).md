@@ -69,7 +69,7 @@ The `distcc` program can be used to perform distributed compilation of C and C++
 
 
 
-[Category:Developer\_Documentation](Category:Developer_Documentation.md) [Category:Developer](Category:Developer.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Developer_Documentation](Category:Developer_Documentation.md) > Compiling (Speeding up)/es
+[documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > Compiling (Speeding up)/es

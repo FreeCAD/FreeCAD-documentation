@@ -187,7 +187,7 @@ Allows changing the order of transformations in the list \|}
 
 ## Example
 
-![c\|center\|800px](images/mt_example2.png ) Cel mai mic bosaj a fost modelat mai întâi de trei ori în direcția X și apoi scalat la factorul doi (deci cele trei apariții au factorul de scalare 1,0, 1,5 și 2,0). Apoi a fost aplicat un model polar cu 8 apariții. [ c \| centru \| 800px](Imagine:_mt_example3.png.md) Buzunarul a fost primul oglindit pe planul YZ și apoi modelat cu două modele liniare pentru a da un model dreptunghiular. 
+!_ Buzunarul a fost primul oglindit pe planul YZ și apoi modelat cu două modele liniare pentru a da un model dreptunghiular. 
 
 
 </div>

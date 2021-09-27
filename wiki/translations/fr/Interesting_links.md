@@ -56,7 +56,7 @@ Cette page contient des liens relatifs à FreeCAD et à d\'autres projets FLOSS.
 
 
 
-[Category:Documentation](Category:Documentation.md)
+_
 
 ---
-[documentation index](../README.md) > [Documentation](Category:Documentation.md) > Interesting links/fr
+[documentation index](../README.md) > [Documentation](Category_Documentation.md) > Interesting links/fr

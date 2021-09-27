@@ -1,5 +1,5 @@
 # Release notes 0.14/cs
-FreeCAD 0.14 was released on July 1, 2014. This is a summary of the most interesting changes. The complete list of changes can be found in the [Mantis changelog](http://www.freecadweb.org/tracker/changelog_page.php). Older versions at: [0.13](Release_notes_0.13.md) - [0.12](Release_notes_0.12.md) - [0.11](Release_notes_0.11.md)
+FreeCAD 0.14 was released on July 1, 2014. This is a summary of the most interesting changes. The complete list of changes can be found in the _ - [0.12](Release_notes_0.12.md) - [0.11](Release_notes_0.11.md)
 
 <img alt="" src=images/Freecad_jeep.png  style="width:1024px;">
 
@@ -79,7 +79,7 @@ The [Part Workbench](Part_Workbench.md) now features a [Make Compound](Part_Comp
 
 ### Part Primitives 
 
-New Part primitives have been added to the [Part CreatePrimitives](Part_CreatePrimitives.md) tool: Prisms, regular polygons and spirals are now easy to create by filling out a couple of parameters. Furthermore, some tools from the [Draft Workbench](Draft_Workbench.md) can now take advantage of this feature and create these primitives too, instead of their regular Draft object, when the appropriate option is set in the Draft preferences settings.
+New Part primitives have been added to the _ can now take advantage of this feature and create these primitives too, instead of their regular Draft object, when the appropriate option is set in the Draft preferences settings.
 
 ![](images/Part_Create_Primitives1.jpeg )
 
@@ -123,7 +123,7 @@ FreeCAD produced .pov scripts now contain auto-aspect ratio. Users no longer nee
 
 ### Luxrender support 
 
-Together with the existing support for [POV-Ray](http://en.wikipedia.org/wiki/POV-Ray), the [Raytracing workbench](Raytracing_Workbench.md) now also supports [LuxRender](http://en.wikipedia.org/wiki/LuxRender). Where POV-Ray is a [classical-style raytracer](http://en.wikipedia.org/wiki/Ray_tracing_%28graphics%29), that shoots rays from the camera in order to find the color of each pixel of the image, Luxrender is an [unbiased renderer](http://en.wikipedia.org/wiki/Unbiased_rendering), which takes much longer to render scenes, but can produce much more realistic lighting.
+Together with the existing support for _ now also supports [LuxRender](http://en.wikipedia.org/wiki/LuxRender). Where POV-Ray is a [classical-style raytracer](http://en.wikipedia.org/wiki/Ray_tracing_%28graphics%29), that shoots rays from the camera in order to find the color of each pixel of the image, Luxrender is an [unbiased renderer](http://en.wikipedia.org/wiki/Unbiased_rendering), which takes much longer to render scenes, but can produce much more realistic lighting.
 
 ## Spreadsheet
 
@@ -135,7 +135,7 @@ A new [Spreadsheet Workbench](Spreadsheet_Workbench.md) has been added to FreeCA
 
 ### DWG import/export 
 
-FreeCAD is now able to import and export to the [DWG format](https://en.wikipedia.org/wiki/.dwg), thanks to the free, multiplatform [ODA File Converter](https://www.opendesign.com/guestfiles/oda_file_converter). Once it is installed, and its path set in the FreeCAD Draft preferences settings, FreeCAD will be able to use it to import and export dwg files, by converting them to dxf, then using the Draft dxf importer and exporter. The import and export of dwg files has therefore the same limitations as the [dxf format](Draft_DXF.md).
+FreeCAD is now able to import and export to the _.
 
 ### Draft to Drawing works with groups 
 
@@ -149,7 +149,7 @@ The [Draft Dimension](Draft_Dimension.md) tool has been fully recoded, and dimen
 
 ### Hatches
 
-The [Draft workbench](Draft_Workbench.md) also features a new toy: hatching. On specific Draft objects (those that form a closed shape such as closed polylines, rectangles, regular polygons or circles), it is now possible to apply hatching. Currently, only a couple of default hatch patterns are available, but since those patterns are very easy to create (they are simple svg files), and custom patterns can already be added by the user, the default collection might grow quickly. Draft objects with patterns are also faithfully supported by the [Drawing workbench](Drawing_Workbench.md).
+The _.
 
 <img alt="" src=images/Draft_hatches.jpg  style="width:1024px;">
 
@@ -167,7 +167,7 @@ The [Draft Upgrade](Draft_Upgrade.md) and [Draft Downgrade](Draft_Downgrade.md) 
 
 ### Facebinder
 
-A new [Draft Facebinder](Draft_Facebinder.md) tool has been added, that does a very simple but potentially very useful operation: It gathers any number of selected faces from different objects, and creates a new object from these faces. The new object keeps links to the original objects, so any change in them is reflected in the facebinder object. This should prove useful above all for [architectural](Arch_Workbench.md) objects, where you can now construct new objects from the faces of several others.
+A new _ objects, where you can now construct new objects from the faces of several others.
 
 ### Shape strings 
 
@@ -175,13 +175,13 @@ The [Draft ShapeString](Draft_ShapeString.md) tool creates planar objects from a
 
 ### Bezier Curves 
 
-Alongside the existing [arcs of circle](Draft_Arc.md) and [B-spline](Draft_BSpline.md) curves, a new type of curve has just been merged in the Draft workbench: [Bezier curves](Draft_BezCurve.md). They can be created by clicking points, the same way as other Draft objects, but you can then [edit](Draft_Edit.md) them and modify their handle points, gaining a very precise control over the curve shape.
+Alongside the existing _. They can be created by clicking points, the same way as other Draft objects, but you can then [edit](Draft_Edit.md) them and modify their handle points, gaining a very precise control over the curve shape.
 
 ## Arch
 
 ### Structure presets + profiles 
 
-The [Arch Structure](Arch_Structure.md) tool has gained several improvements: it now features presets, which allow you to quickly build a beam or column based on a standard profile such as INP or HEB, and an easier placement system, with a special [snapping](Draft_Snap.md) mode. You can now also give structural elements an extrusion path, so very advanced configurations become possible. Some of the pieces offered by [BOLTS](#Plugins_and_side_projects:_Parts_library.2C_BOLTS.2C_Eagle_importer.md) can also be created directly as Arch structural elements.
+The _ mode. You can now also give structural elements an extrusion path, so very advanced configurations become possible. Some of the pieces offered by _ can also be created directly as Arch structural elements.
 
 ### Window presets 
 
@@ -195,7 +195,7 @@ A new [Space](Arch_Space.md) object is now available, allowing you to build, mar
 
 ### Multilayer walls 
 
-[Walls](Arch_Wall.md) can now be multilayer, with a very simple trick: Several walls can be based on a same baseline, specifying an offset distance from the baseline. This, combined for example with [Arch Frames](Arch_Frame.md), allows for example to create complex framed walls, or walls with an insulation layer. Furthermore, these walls are aware of their \"brothers\" (other walls based on the same baseline), and any window placed on one of these walls will also create a hole on its brothers.
+_, allows for example to create complex framed walls, or walls with an insulation layer. Furthermore, these walls are aware of their \"brothers\" (other walls based on the same baseline), and any window placed on one of these walls will also create a hole on its brothers.
 
 <img alt="" src=images/Screenshot_arch_multiwall.jpg  style="width:1024px;">
 
@@ -229,7 +229,7 @@ Much work has been done on both FreeCAD and [IfcOpenShell](http://www.ifcopenshe
 
 The full list of bugfixes and new features can be read on <http://freecadweb.org/tracker/changelog_page.php>
 
-[Category:News](Category:News.md) [Category:Documentation](Category:Documentation.md) [Category:Releases](Category:Releases.md)
+_ _ _
 
 ---
-[documentation index](../README.md) > [News](Category:News.md) > Release notes 0.14/cs
+[documentation index](../README.md) > [News](Category_News.md) > Release notes 0.14/cs

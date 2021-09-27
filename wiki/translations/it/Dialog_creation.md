@@ -3,7 +3,7 @@
 
 ## Introduzione
 
-In questa pagina mostreremo come creare una semplice interfaccia grafica con [Qt Designer](http://qt-project.org/doc/qt-4.8/designer-manual.html), lo strumento ufficiale di Qt per la progettazione di interfacce; la finestra di dialogo verrà convertita in codice [Python](Python/it.md), quindi verrà utilizzata all\'interno di FreeCAD. Si assume che l\'utente sappia come scrivere ed eseguire [Python](Python/it.md) in generale.
+In questa pagina mostreremo come creare una semplice interfaccia grafica con _, quindi verrà utilizzata all\'interno di FreeCAD. Si assume che l\'utente sappia come scrivere ed eseguire [Python](Python/it.md) in generale.
 
 In this example, the entire interface is defined in [Python](Python.md). Although this is possible for small interfaces, for larger interfaces the recommendation is to load the created {{FileName|.ui}} files directly into the program. See [Interface creation with UI files](Interface_creation_with_UI_files.md) for more information.
 
@@ -271,7 +271,7 @@ class plane():
 
 ## Link utili 
 
--   [Manual:Creating interface tools](Manual:Creating_interface_tools.md)
+-   _
 -   [Interface creation with UI files](Interface_creation_with_UI_files.md)
 
 
@@ -279,7 +279,7 @@ class plane():
 
 }} 
 
-[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Dialog creation/it
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Dialog creation/it

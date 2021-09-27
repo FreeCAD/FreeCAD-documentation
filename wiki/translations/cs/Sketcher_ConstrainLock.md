@@ -1,6 +1,6 @@
 # Sketcher ConstrainLock/cs
 ---
-- GuiCommand:/cs   Name:Sketcher ConstrainLock   Name/cs:Sketcher ConstrainLock   Workbenches:[PartDesign](Sketcher_Workbench/cs___Sketcher]],_[[PartDesign_Workbench/cs.md)|MenuLocation:Sketch → Sketcher constraints → Constrain lock   SeeAlso:[Constraint Coincident](Constraint_PointOnPoint/cs.md)---
+- GuiCommand:/cs   Name:Sketcher ConstrainLock   Name/cs:Sketcher ConstrainLock   Workbenches:_---
 
 
 </div>
@@ -52,7 +52,7 @@ Díky tomu, že FreeCAD je stále ještě ve vývoji - tento nástroj předvád�
 
 ## Scripting
 
-The <img alt="" src=images/Sketcher_ConstrainLock.svg  style="width:24px;"> [Lock](Sketcher_ConstrainLock.md) constraint is a GUI command which creates a <img alt="" src=images/Sketcher_ConstrainDistanceX.svg  style="width:24px;"> [Horizontal distance](Sketcher_ConstrainDistanceX.md) and a <img alt="" src=images/Sketcher_ConstrainDistanceY.svg  style="width:24px;"> [Vertical distance](Sketcher_ConstrainDistanceY.md) constraint, it is not a constraint of its own. See the [Sketcher scripting](Sketcher_scripting.md) page for details and examples on how to create these constraints from Python scripts.
+The <img alt="" src=images/Sketcher_ConstrainLock.svg  style="width:24px;"> _ and a <img alt="" src=images/Sketcher_ConstrainDistanceY.svg  style="width:24px;"> [Vertical distance](Sketcher_ConstrainDistanceY.md) constraint, it is not a constraint of its own. See the [Sketcher scripting](Sketcher_scripting.md) page for details and examples on how to create these constraints from Python scripts.
 
 
 

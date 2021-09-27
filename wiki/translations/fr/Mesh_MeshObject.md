@@ -1,7 +1,7 @@
 # Mesh MeshObject/fr
 ## Description
 
-Un [Mesh MeshObject](Mesh_MeshObject/fr.md), ou officiellement `Mesh::MeshObject`, est une classe qui définit une structure de données de maillage dans le logiciel. Ceci est similaire à la [Part TopoShape](Part_TopoShape/fr.md) mais pour [Mesh](Mesh/fr.md).
+Un _ mais pour [Mesh](Mesh/fr.md).
 
 Les maillages sont normalement créés avec l\'[atelier Mesh](Mesh_Workbench/fr.md), ou importés à partir de STL, OBJ et de formats de fichier de maillage similaires.
 

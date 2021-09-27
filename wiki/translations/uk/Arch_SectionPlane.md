@@ -118,7 +118,7 @@ FreeCAD.ActiveDocument.recompute()
 
 
 
-[Category:Arch/uk](Category:Arch/uk.md)
+_
 
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SectionPlane/uk
+[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch SectionPlane/uk

@@ -23,13 +23,13 @@ Architettura
 
 -   Parte prima: [Ambiente Architettura](ManualArch/it#Ambiente_Arch/it.md)
 
--   Parte seconda: [Ambiente Arch: Strumenti di costruzione](ManualArch/it#Ambiente_Arch:_Strumenti_di_costruzione.md)
+-   Parte seconda: _
 
--   Parte terza: [Ambiente Arch: Strumenti di modifica](ManualArch/it#Ambiente_Arch:_Strumenti_di_modifica.md)
+-   Parte terza: _
 
--   Parte quarta: [Ambiente Arch: Utilità](ManualArch/it#Ambiente_Arch:_Utilità.md)
+-   Parte quarta: _
 
--   Parte quinta: [Ambiente Arch: Altri strumenti e strumenti non documentati](ManualArch/it#Ambiente_Arch:_Altri_strumenti_e_strumenti_non_documentati.md)
+-   Parte quinta: _
 
 
 {{:Arch_Workbench/it}}

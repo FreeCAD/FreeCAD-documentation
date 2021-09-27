@@ -17,7 +17,7 @@
 
 wird verwendet, um eine <img src=images/Draft_ShapeString.svg style="width:Form](Shape/de.md) auf der Oberseite einer Oberfläche auf eine andere [Form](Shape/de.md) zu projizieren; dies kann verwendet werden, um ein Logo oder eine Textnachricht (siehe **[16px"> [Entwurf FormZeichenfolge](Draft_ShapeString/de.md)**) auf unterschiedliche Oberflächen zu projizieren, um interessante Effekte zu erzeugen.
 
-Wenn eine Quelle [Form](Shape/de.md) angegeben wird, kann dieses Werkzeug Kanten, Drähte (geschlossene Kanten) oder ganze Flächen daraus projizieren; das Ergebnis können neue Kanten, neue Drähte, neue Flächen oder sogar neue extrudierte Körper sein, die in <img alt="" src=images/Part_Boolean.svg  style="width:24px;"> [Boolesche Operationen](Part_Boolean/de.md) für Effekte wie Gravieren oder Prägen verwendet werden können.
+Wenn eine Quelle _ für Effekte wie Gravieren oder Prägen verwendet werden können.
 
 <img alt="" src=images/Part_ProjectionOnSurface1.png  style="width:300px;"> <img alt="" src=images/Part_ProjectionOnSurface2.png  style="width:300px;">
 

@@ -22,7 +22,7 @@ Acest instrument definește modelul vederii perpendicular pe planul schiței. It
 
 Atunci când Sketch este în edit mode, sau
 
--   Click pe iconița **[16px|View sketch icon](File:Sketcher_ViewSketch.png.md)'''View Sketch'''** în Sketcher sau bara de instrumente Part Design, sau
+-   Click pe iconița **_'''View Sketch'''** în Sketcher sau bara de instrumente Part Design, sau
 -   mergeți la meniul **Sketcher → View sketch** .
 
 

@@ -1,5 +1,5 @@
 # Toothbrush Head Stand/de
-{{TutorialInfo/de|Topic=Modellierung|Level=Anfänger|Author=[EmmanuelG](User:EmmanuelG.md)|Time=1 Stunde|FCVersion=0.16 oder höher|Files=[https://www.thingiverse.com/thing:2403310 Thingiverse 2403310]}}
+{{TutorialInfo/de|Topic=Modellierung|Level=Anfänger|Author=_|Time=1 Stunde|FCVersion=0.16 oder höher|Files=[https://www.thingiverse.com/thing:2403310 Thingiverse 2403310]}}
 
 ## Ein alltägliches Problem 
 

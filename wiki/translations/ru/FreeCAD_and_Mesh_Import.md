@@ -90,7 +90,7 @@
 
 -   [FreeCAD Howto Import Export](FreeCAD_Howto_Import_Export.md)
 
-[Category:User\_Documentation](Category:User_Documentation.md) [Category:File\_Formats](Category:File_Formats.md)
+_ _
 
 ---
-[documentation index](../README.md) > [User_Documentation](Category:User_Documentation.md) > FreeCAD and Mesh Import/ru
+[documentation index](../README.md) > [User_Documentation](Category_User_Documentation.md) > FreeCAD and Mesh Import/ru

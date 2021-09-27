@@ -86,17 +86,17 @@ Siehe [Wie man zusätzliche Werkbänke installiert](How_to_install_additional_wo
 
 Entfernen von Formelementen unter Verwendung neuer OCC7.3 Werkzeuge
 
-[480px\|left\|thumb \|link=<https://raw.githubusercontent.com/easyw/FreeCAD-tutorials/master/testing-files/removing-holes.mp4%7CDefeaturing-Arbeitsbereich>: entfernen von Formelementen (Bohrungen)](Image:Defeaturing-WB-@Work_v3.png.md)
+_
 
-[480px\|left\|thumb \|link=<https://youtu.be/yrTtWFakAyE> \|alt=Defeaturing-WB-\@Work\|YouTube: Defeaturing Werkzeuge - Vereinfachung des Modells](Image:Defeaturing-WB-@Work_v1.png.md)
+_
 
-[480px\|left\|thumb \|link=<https://youtu.be/vgQwGI6Fk6Q%7CYouTube>: Defeaturing Werkzeuge - Mehrfachauswahl von Flächen für Defeaturing](Image:Defeaturing-WB-@Work_v2.png.md)
+_
 
-[480px\|left\|thumb \|link=<https://raw.githubusercontent.com/easyw/FreeCAD-tutorials/master/testing-files/removing-fillet-chamfer.mp4%7CDefeaturing-Arbeitsbereich> - Entfernen-Verrundung-Fase](Image:Defeaturing-WB-@Work_v4.png.md)
+_
 
-[480px\|left\|thumb \|link=<https://peertube.mastodon.host/videos/watch/c6bc5abd-2eb7-48c7-af67-c4d8e6783872%7CDefeaturing-Arbeitsbereich> - Überblick-Funktionen (in deutscher Sprache)](Image:Defeaturing-WB-@Work_v5.png.md)
+_
 
-[480px\|left\|thumb \|link=<https://raw.githubusercontent.com/easyw/FreeCAD-tutorials/master/testing-files/parametric-defeaturing.mp4%7CDefeaturing> Arbeitsbereich - parametrisches-Defeaturing](Image:Defeaturing-WB-@Work_v6.png.md) 
+_ 
 
 ### Reparieren
 
@@ -117,7 +117,7 @@ Neue Arbeitsbereiche sind in der Entwicklung, bleib\' dran!
 
  
 
-[Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+_ _
 
 ---
-[documentation index](../README.md) > Defeaturing Workbench/de
+[documentation index](../README.md) > [Addons](Category_Addons.md) > Defeaturing Workbench/de

@@ -84,6 +84,8 @@ El Ambiente de trabajo MEF puede utilizarse en Linux, Windows y Mac OSX. Dado qu
 
 -   <img alt="" src=images/FEM_ConstraintTie.svg  style="width:32px;"> [Empate de restricciones](FEM_ConstraintTie/es.md): {{Version/es|0.19}}
 
+-   <img alt="" src=images/FEM_ConstraintSpring.svg  style="width:32px;"> [Constraint spring](FEM_ConstraintSpring.md): Used to define a tie constraint (\"bonded contact\") between two faces. <small>(v0.20)</small> 
+
 -   <img alt="" src=images/FEM_ConstraintForce.svg  style="width:32px;"> [Restricción de fuerza](FEM_ConstraintForce/es.md): Utilizada para definir una fuerza en Newtons aplicada uniformemente a una cara seleccionada en una dirección definida.
 
 -   <img alt="" src=images/FEM_ConstraintPressure.svg  style="width:32px;"> [Restricción de presión](FEM_ConstraintPressure/es.md): Utilizada para definir una restricción de presión
@@ -139,6 +141,8 @@ Crea mallas anisotrópicas para realizar cálculos precisos cerca de los límite
 -   <img alt="" src=images/FEM_SolverCalculiX.svg  style="width:32px;"> [Solucionador CalculiX (experimental)](FEM_SolverCalculiX/es.md):
 
 -   <img alt="" src=images/FEM_SolverElmer.svg  style="width:32px;"> [Solucionador Elmer](FEM_SolverElmer/es.md): Crea el controlador del Solucionador para Elmer. Es independiente de otros objetos solucionadores.
+
+-   <img alt="" src=images/FEM_SolverMystran.svg  style="width:32px;"> [Solver Mystran](FEM_SolverMystran.md):
 
 -   <img alt="" src=images/FEM_SolverZ88.svg  style="width:32px;"> [Solucionador Z88](FEM_SolverZ88/es.md):
 
@@ -273,7 +277,7 @@ A developer\'s guide has been written to help power users in understanding the c
 
 }} 
 
-[Category:Workbenches](Category:Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > FEM Workbench/es
+[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > FEM Workbench/es

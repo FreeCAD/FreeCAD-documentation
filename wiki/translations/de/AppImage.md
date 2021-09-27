@@ -166,11 +166,11 @@ Dank der Arbeit von **realthunder**, Autor von [Anwendungsverknüpfung](App_Link
 
 Dies macht es sehr bequem, Bilder für einen bestimmten Zweig des Quellcodes für andere zum Testen freizugeben. Obwohl AnwendungsAbbilder nur unter Linux funktioniert, ermöglichen es die Skripte von realthunder, AnwendungsAbbilder auch unter Windows und MacOS zu generieren.
 
-Das Repositorium für diese Skripte befindet sich unter [realthunder/FreeCADMakeImage](https://github.com/realthunder/FreeCADMakeImage). Bitte lies die [Readme.md](https://github.com/realthunder/FreeCADMakeImage/blob/master/Readme.md) für weitere Einzelheiten.
+Das Repositorium für diese Skripte befindet sich unter _ für weitere Einzelheiten.
 
 
 
-[Category:Packaging](Category:Packaging.md) [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Testing](Category:Testing.md)
+_ _ _
 
 ---
-[documentation index](../README.md) > [Packaging](Category:Packaging.md) > AppImage/de
+[documentation index](../README.md) > [Packaging](Category_Packaging.md) > AppImage/de

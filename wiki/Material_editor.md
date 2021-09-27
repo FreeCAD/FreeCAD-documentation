@@ -64,4 +64,4 @@ MaterialEditor.openEditor()
  {{FEM Tools navi}}
 
 ---
-[documentation index](../README.md) > [Material](Material_Workbench.md) > Material editor
+[documentation index](../README.md) > [Arch](Category_Arch.md) > [Material](Material_Workbench.md) > Material editor

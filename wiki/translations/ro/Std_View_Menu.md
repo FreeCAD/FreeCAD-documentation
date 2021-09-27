@@ -68,14 +68,14 @@ The following tools are available in this menu:
 
 -   Vizualizări standard
     -   <img alt="vertical-align: top=zoom-all" src=images/View-zoom-all.png  style="width:24px;"> [Vizualizare integrală](Std_ViewFitAll.md)
-    -   [24px\|text-top=View-zoom-selection](File:View-zoom-selection.png.md) [Vizualizare selecție](Std_ViewFitSelection.md)
-    -   [24px\|text-top=axonometric](Image:View-axonometric.png.md) Axonometric 0
-    -   [24px\|text-top=front](Image:View-front.png.md) Față 1
-    -   [24px\|text-top=top](Image:View-top.png.md) Sus 2
-    -   [24px\|text-top=right](Image:View-right.png.md) Dreapta 3
-    -   [24px\|text-top=rear](Image:View-rear.png.md) Spate 4
-    -   [24px\|text-top=bottom](Image:View-bottom.png.md) Jos 5
-    -   [24px\|text-top=View-left](Image:View-left.png.md) Stânga 6
+    -   _ [Vizualizare selecție](Std_ViewFitSelection.md)
+    -   _ Axonometric 0
+    -   _ Față 1
+    -   _ Sus 2
+    -   _ Dreapta 3
+    -   _ Spate 4
+    -   _ Jos 5
+    -   _ Stânga 6
     -   <img alt="" src=images/Std_RotateLeft.png  style="width:24px;"> [Rotație stânga](Std_RotateLeft.md)
     -   <img alt="" src=images/Std_RotateRight.png  style="width:24px;"> [Rotație sreapta](Std_RotateRight.md)
 
@@ -127,9 +127,9 @@ The following tools are available in this menu:
 <div class="mw-translate-fuzzy">
 
 -   Zoom see also [Mouse Model](Mouse_Model.md)
-    -   [24px\|text-top=View-zoom-in](File:View-zoom-in.png.md) [Zoom In](Std_ViewZoomIn.md)
-    -   [24px\|text-top=zoom-out](Image:View-zoom-out.png.md) [Zoom Out](Std_ViewZoomOut.md)
-    -   [24px\|text-top=View-zoom-border](File:View-zoom-border.png.md) [Box zoom](Std_ViewBoxZoom.md) (\....)
+    -   _ [Zoom In](Std_ViewZoomIn.md)
+    -   _ [Zoom Out](Std_ViewZoomOut.md)
+    -   _ [Box zoom](Std_ViewBoxZoom.md) (\....)
 -   [Document window](Std_ViewDockUndockFullscreen.md)
     -   [Docked](Std_ViewDockUndockFullscreen.md)
     -   [Undocked](Std_ViewDockUndockFullscreen.md)
@@ -290,7 +290,7 @@ The following tools are available in this menu:
 </div>
 
 -   Tree view actions
-    -   <img alt="" src=images/Std_TreeSyncView.svg  style="width:32px;"> [Sync view](Std_TreeSyncView.md): Toggles the [Tree view](Tree_view.md) SyncView mode. <small>(v0.19)</small> 
+    -   <img alt="" src=images/Std_TreeSyncView.svg  style="width:32px;"> _ SyncView mode. <small>(v0.19)</small> 
     -   <img alt="" src=images/Std_TreeSyncSelection.svg  style="width:32px;"> [Sync selection](Std_TreeSyncSelection.md): Toggles the Tree view SyncSelection mode. <small>(v0.19)</small> 
     -   <img alt="" src=images/Std_TreeSyncPlacement.svg  style="width:32px;"> [Sync placement](Std_TreeSyncPlacement.md): Toggles the Tree view SyncPlacement mode. <small>(v0.19)</small> 
     -   <img alt="" src=images/Std_TreePreSelection.svg  style="width:32px;"> [Pre-selection](Std_TreePreSelection.md): Toggles the Tree view PreSelection mode. <small>(v0.19)</small> 
@@ -317,7 +317,7 @@ The following tools are available in this menu:
 
 }}  
 
-[Category:Workbenches](Category:Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > [Workbenches](Category:Workbenches.md) > Std View Menu/ro
+[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Std View Menu/ro

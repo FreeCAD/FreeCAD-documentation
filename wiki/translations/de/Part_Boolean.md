@@ -16,7 +16,7 @@
 
 ist ein generisches boolesches Multifunktionswerkzeug. Es erlaubt dir die Objekte und die durchzuführende Operation in einem einzigen Dialog anzugeben.
 
-Für einen schnelleren Zugriff auf diese Operationen benutze **<img src=images/Part_Cut.svg style="width:16px"> <img src=images/Part_Fuse.svg style="width:Part Schneiden](Part_Cut/de.md)**, **[16px"> <img src=images/Part_Common.svg style="width:Part Verschmelzung](Part_Fuse/de.md)**, **[16px"> <img src=images/Part_Section.svg style="width:Part Gemeinsam](Part_Common/de.md)** und **[16px"> [Abschnitt](Part_Section/de.md)**.
+Für einen schnelleren Zugriff auf diese Operationen benutze **<img src=images/Part_Cut.svg style="width:16px"> <img src=images/Part_Fuse.svg style="width:Part Schneiden](Part_Cut/de.md)**, **_** und **[16px"> [Abschnitt](Part_Section/de.md)**.
 
 ![](images/PartBooleansDialog.png )
 

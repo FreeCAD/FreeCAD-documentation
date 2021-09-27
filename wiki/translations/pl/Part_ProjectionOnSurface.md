@@ -16,7 +16,7 @@
 
 służy do rzutowania <img src=images/Draft_ShapeString.svg style="width:kształtu](Shape/pl.md) na powierzchnię innego obiektu. Można użyć tej funkcji do rzutowania logo lub obiektu tekstowego *(patrz **[16px"> [Kształt z tekstu](Draft_ShapeString/pl.md)**)* na różne powierzchnie, aby stworzyć interesujące efekty.
 
-Biorąc pod uwagę [kształt](Shape/pl.md), źródłowy narzędzie to może rzutować z niego krawędzie, polilinie *(zamknięte krawędzie)* lub całe powierzchnie. Rezultatem mogą być nowe krawędzie, nowe polilinie, nowe powierzchnie, a nawet nowe wytłoczone bryły, które mogą być użyte w <img alt="" src=images/Part_Boolean.svg  style="width:24px;"> [operacjach logicznych](Part_Boolean/pl.md) do uzyskiwania efektów takich jak grawerowanie czy stemplowanie.
+Biorąc pod uwagę _ do uzyskiwania efektów takich jak grawerowanie czy stemplowanie.
 
 <img alt="" src=images/Part_ProjectionOnSurface1.png  style="width:300px;"> <img alt="" src=images/Part_ProjectionOnSurface2.png  style="width:300px;">
 

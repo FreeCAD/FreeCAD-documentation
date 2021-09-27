@@ -16,7 +16,7 @@ Depuis cette interface, vous pouvez voir des informations utiles et accéder aux
 
 
 
-[Category:Start](Category:Start.md) [Category:Workbenches](Category:Workbenches.md)
+_ _
 
 ---
-[documentation index](../README.md) > Start Workbench/fr
+[documentation index](../README.md) > [Start](Category_Start.md) > Start Workbench/fr

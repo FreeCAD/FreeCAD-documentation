@@ -3,7 +3,7 @@
 |Topic=SampleClass
 |Level=Medium user
 |Time=15 minutes
-|Author=[Mario52](User:Mario52.md)
+|Author=_
 |FCVersion=All
 }}
 

@@ -89,6 +89,8 @@ Il modulo FEM può essere usato su piattaforme Windows, Mac OSX e Linux. Dato ch
 
 -   <img alt="" src=images/FEM_ConstraintTie.svg  style="width:32px;"> [Legame di vincolo](FEM_ConstraintTie/it.md): <small>(v0.19)</small> 
 
+-   <img alt="" src=images/FEM_ConstraintSpring.svg  style="width:32px;"> [Constraint spring](FEM_ConstraintSpring.md): Used to define a tie constraint (\"bonded contact\") between two faces. <small>(v0.20)</small> 
+
 -   <img alt="" src=images/FEM_ConstraintForce.svg  style="width:32px;"> [Vincolo forza](FEM_ConstraintForce/it.md): Usato per definire una forza in N applicata uniformemente ad una faccia selezionabile, nella direzione definibile.
 
 -   <img alt="" src=images/FEM_ConstraintPressure.svg  style="width:32px;"> [Vincolo pressione](FEM_ConstraintPressure/it.md): Usato per definire un vincolo pressione.
@@ -142,6 +144,8 @@ Il modulo FEM può essere usato su piattaforme Windows, Mac OSX e Linux. Dato ch
 -   <img alt="" src=images/FEM_SolverCalculiX.svg  style="width:32px;"> [Solutore CalculiX (sperimentale)](FEM_SolverCalculiX/it.md):
 
 -   <img alt="" src=images/FEM_SolverElmer.svg  style="width:32px;"> [Solutore Elmer](FEM_SolverElmer/it.md): Crea il controller del risolutore per Elmer. È indipendente da altri oggetti del risolutore.
+
+-   <img alt="" src=images/FEM_SolverMystran.svg  style="width:32px;"> [Solver Mystran](FEM_SolverMystran.md):
 
 -   <img alt="" src=images/FEM_SolverZ88.svg  style="width:32px;"> [Solutore Z88](FEM_SolverZ88/it.md):
 
@@ -276,7 +280,7 @@ Per aiutare gli utenti a comprendere la complessa base di codici di FreeCAD e le
 
 }} 
 
-[Category:Workbenches](Category:Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > FEM Workbench/it
+[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > FEM Workbench/it

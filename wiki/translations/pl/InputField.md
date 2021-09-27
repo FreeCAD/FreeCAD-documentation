@@ -7,7 +7,7 @@ Pozostaje do wykonania\...
 
 
 
-[Category:Developer](Category:Developer.md)
+_
 
 ---
-[documentation index](../README.md) > [Developer](Category:Developer.md) > InputField/pl
+[documentation index](../README.md) > [Developer](Category_Developer.md) > InputField/pl

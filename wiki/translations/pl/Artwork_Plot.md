@@ -14,7 +14,7 @@ Wszystkie ikonki widoczne na liście źródłowej, patrz [Grafika](Artwork/pl.md
 
 }} 
 
-[Category:Plot](Category:Plot.md)
+_
 
 ---
-[documentation index](../README.md) > [Plot](Category:Plot.md) > Artwork Plot/pl
+[documentation index](../README.md) > [Plot](Category_Plot.md) > Artwork Plot/pl

@@ -77,7 +77,7 @@ The following workbenches are still included in the base installation for compat
 
 
 
-[Category:Workbenches](Category:Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > Workbenches/ru
+[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Workbenches/ru

@@ -5,7 +5,7 @@
 
 FreeCAD is a 3D [parametric modeling application](About_FreeCAD.md). It is primarily made for mechanical design, but also serves all other uses where you need to model 3D objects with precision and control over modeling history.
 
-FreeCAD has been under development since 2002, and it offers a large list of [features](Feature_list.md). Capabilities are still missing but it is powerful enough for hobbyist use, and small workshops. There is a fast-growing community of enthusiastic users who participate in the [FreeCAD forum](http://forum.freecadweb.org/index.php), and you can find [many examples](https://forum.freecadweb.org/viewforum.php?f=24) of quality projects developed with FreeCAD there. See also, [FreeCAD used in production](FreeCAD_used_in_production.md).
+FreeCAD has been under development since 2002, and it offers a large list of _.
 
 Like all free software projects, FreeCAD depends on its community to grow, gain features, and fix bugs. Don\'t forget this when using FreeCAD; if you like it, you can [donate](Donate.md) and [help FreeCAD](Help_FreeCAD.md) in various ways, such as writing documentation and making translations.
 
@@ -123,7 +123,7 @@ At any moment, you can select the original sketches and modify them, or change t
 
 The [Draft Workbench](Draft_Workbench.md) and [Arch Workbench](Arch_Workbench.md) behave a bit differently than the other workbenches above, although they follow the same rules, which are common to all of FreeCAD. In short, while the Sketcher and PartDesign are made primarily to design single pieces, Draft and Arch are made to ease your work when working with several, simpler objects.
 
-The [Draft Workbench](Draft_Workbench.md) offers you 2D tools somewhat similar to what you can find in traditional 2D CAD applications such as [AutoCAD](https://en.wikipedia.org/wiki/AutoCAD). However, 2D drafting being far away from the scope of FreeCAD, don\'t expect to find there the full array of tools that these dedicated applications offer. Most of the Draft tools work not only in a 2D plane but also in the full 3D space, and benefit from special helper systems such as [Work planes](Draft_SelectPlane.md) and [object snapping](Draft_Snap.md).
+The _ and [object snapping](Draft_Snap.md).
 
 The [Arch Workbench](Arch_Workbench.md) adds [BIM](http://en.wikipedia.org/wiki/Building_Information_Modeling) tools to FreeCAD, allowing you to build architectural models with parametric objects. The Arch workbench relies extensively on other modules such as Draft and Sketcher. All the Draft tools are also present in the Arch workbench, and most Arch tools make use of the Draft helper systems.
 
@@ -152,7 +152,7 @@ The [Addon](Addon.md) principle is based on the development of a workbench compl
 There are two types of addons:
 
 1.  [Macros](Macros.md): short snippets of Python code that provide a new tool or functionality. Macros usually start as a way to simplify or automate the task of drawing or editing a particular object. If many of these macros are collected inside a directory, the entire directory may be distributed as a new workbench.
-2.  [External workbenches](External_workbenches.md): collections of tools programmed in Python or C++ that extend FreeCAD in an important way. If a workbench is sufficiently developed and is well documented, it may be included as one of the base workbenches in FreeCAD. Under [External workbenches](External_workbenches.md), you\'ll find the principle and a list of existing library.
+2.  _, you\'ll find the principle and a list of existing library.
 
 ## Scripting
 
@@ -168,7 +168,7 @@ And finally, one of the most powerful features of FreeCAD is the [scripting](scr
 
 
 
-[Category:User Documentation](Category:User_Documentation.md)
+_
 
 ---
 [documentation index](../README.md) > Getting started/en

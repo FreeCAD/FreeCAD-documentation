@@ -751,7 +751,7 @@ These same commands can be executed on a user generated window, the syntax does 
 
 }} 
 
-[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > PySide Intermediate Examples/ru
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > PySide Intermediate Examples/ru

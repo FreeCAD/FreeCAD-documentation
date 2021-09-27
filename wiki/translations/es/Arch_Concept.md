@@ -210,7 +210,7 @@ El siguiente diagrama ilustra las relaciones entre todos los objetos descritos h
 
 <img alt="Objetos para capturar el conocimiento de la construcción" src=images/BldgComponents.png  style="width:800px;">
 
-[Category:Roadmap](Category:Roadmap.md)
+_
 
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Concept/es
+[documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > [Arch](Arch_Workbench.md) > Arch Concept/es

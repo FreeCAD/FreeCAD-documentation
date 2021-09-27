@@ -8,12 +8,12 @@ Après l\'importation, le modèle n\'est (pour FreeCAD) qu\'un assemblage de fac
 Pour ce faire :
 
 1.  Basculez vers l\'<img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [atelier Part](Part_Workbench/fr.md).
-2.  Sélectionnez le maillage et accédez au menu **Part → [Créer une forme à partir du maillage](Part_ShapeFromMesh/fr.md)** ou cliquez sur <img alt="" src=images/Part_ShapeFromMesh.svg  style="width:24px;"> [Part Créer une forme à partir du maillage](Part_ShapeFromMesh/fr.md).
+2.  Sélectionnez le maillage et accédez au menu **Part → _.
 3.  Cliquez sur **OK** dans le dialogue.
 4.  Sélectionnez la forme nouvellement créée.
 5.  Sélectionnez **Part → [Convertir en solide](Part_MakeSolid/fr.md)**.
 6.  Sélectionnez le nouveau solide créé.
-7.  Aller à **Part → [Affiner la forme](Part_RefineShape/fr.md)** ou pressez le bouton <img alt="" src=images/Part_RefineShape.svg  style="width:24px;"> [Affiner la forme](Part_RefineShape/fr.md).
+7.  Aller à **Part → _.
 
 **Remarque:** la dernière étape n'est pas nécessaire mais elle nettoiera le solide de la plupart de ses arêtes résiduelles sur les surfaces planes et cylindriques.
 
@@ -41,7 +41,7 @@ Eh bien, votre coque semble avoir des erreurs, peut-être qu\'elle n\'est pas fe
 
 -   [FreeCAD Howto Import Export](FreeCAD_and_Mesh_Import/fr.md)
 
-[Category:User\_Documentation](Category:User_Documentation.md) [Category:File\_Formats](Category:File_Formats.md)
+_ _
 
 ---
-[documentation index](../README.md) > [User_Documentation](Category:User_Documentation.md) > FreeCAD and Mesh Import/fr
+[documentation index](../README.md) > [User_Documentation](Category_User_Documentation.md) > FreeCAD and Mesh Import/fr

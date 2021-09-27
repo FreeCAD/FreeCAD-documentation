@@ -19,7 +19,7 @@ Pour apprendre à utiliser le système de contrôle des révisions et contribuer
 
 
 
-[Category:Developer\_Documentation](Category:Developer_Documentation.md) [Category:Developer](Category:Developer.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Developer_Documentation](Category:Developer_Documentation.md) > Compiling/fr
+[documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > Compiling/fr

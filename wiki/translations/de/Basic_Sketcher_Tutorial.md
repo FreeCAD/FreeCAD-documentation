@@ -170,7 +170,7 @@ Es gibt zwei Haupttypen von Beschränkungen:
 
 
 :   7.6. Wähle die Konstruktionslinie, die der vertikalen Achse am nächsten liegt.
-:   7.7. Drücke **<img src=images/Constraint_Vertical.svg style="width:16px"> [Vertikal](‎Sketcher_ConstrainVertical/de.md)** (wahlweise). Wenn du die Konstruktionslinie über die Y Achse nach unten gezogen hast, wird eine automatische <img alt="" src=images/Constraint_PointOnObject.svg  style="width:32px;"> [Punkt auf Object Beschränkung](Sketcher_ConstrainPointOnObject/de.md) wurde bereits platziert, wobei die Konstruktionslinie vertikal blieb. In diesem Fall ist keine zusätzliche <img alt="" src=images/Constraint_Vertical.svg  style="width:32px;"> [Vertikale Beschränkung](‎Sketcher_ConstrainVertical/de.md) erforderlich.
+:   7.7. Drücke **<img src=images/Constraint_Vertical.svg style="width:16px"> _ wurde bereits platziert, wobei die Konstruktionslinie vertikal blieb. In diesem Fall ist keine zusätzliche <img alt="" src=images/Constraint_Vertical.svg  style="width:32px;"> [Vertikale Beschränkung](‎Sketcher_ConstrainVertical/de.md) erforderlich.
 
 
 **Hinweis:**

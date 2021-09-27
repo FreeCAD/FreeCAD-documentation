@@ -6,7 +6,7 @@ Här är innehållslistan för On-line Hjälpsystemet i FreeCAD. De artiklar som
 
 </div>
 
-There is another table of contents for the [FreeCAD MANUAL](Manual:Introduction.md).
+There is another table of contents for the _.
 
 
 <div class="mw-translate-fuzzy">
@@ -164,7 +164,7 @@ There is another table of contents for the [FreeCAD MANUAL](Manual:Introduction.
 
 
 
-[Category:Documentation/sv](Category:Documentation/sv.md) [Category:Documentation](Category:Documentation.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Documentation](Category:Documentation.md) > Online Help Toc/sv
+[documentation index](../README.md) > [Documentation](Category_Documentation.md) > Online Help Toc/sv

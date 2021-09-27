@@ -1,12 +1,12 @@
 # Workbenches/pt
 <div class="mw-translate-fuzzy">
 
-O FreeCAD, como outros programas como o [Revit](wikipedia:Revit.md) ou [Catia](wikipedia:CATIA.md), é baseado no conceito de bancadas. Uma bancada pode ser considerada como um conjunto de ferramentas agrupadas para fazer uma certa tarefa. Numa oficina de carpintaria tradicional, haveria uma mesa para a pessoa que trabalha com madeira, outra para peças metálicas, e talvez uma terceira para a pessoa que faz a montagem das várias peças.
+O FreeCAD, como outros programas como o _ ou _, é baseado no conceito de bancadas. Uma bancada pode ser considerada como um conjunto de ferramentas agrupadas para fazer uma certa tarefa. Numa oficina de carpintaria tradicional, haveria uma mesa para a pessoa que trabalha com madeira, outra para peças metálicas, e talvez uma terceira para a pessoa que faz a montagem das várias peças.
 
 
 </div>
 
-FreeCAD, like many modern design applications such as [Revit](wikipedia:Revit.md) or [CATIA](wikipedia:CATIA.md), is based on the concept of [Workbench](wikipedia:Workbench.md). A workbench can be considered as a set of tools specially grouped for a certain task. In a traditional furniture workshop, you would have a work table for the person who works with wood, another one for the one who works with metal pieces, and maybe a third one for the guy who mounts all the pieces together.
+FreeCAD, like many modern design applications such as _ or _, is based on the concept of _. A workbench can be considered as a set of tools specially grouped for a certain task. In a traditional furniture workshop, you would have a work table for the person who works with wood, another one for the one who works with metal pieces, and maybe a third one for the guy who mounts all the pieces together.
 
 No FreeCAD aplica-se o mesmo conceito. As ferramentas são agrupadas em bancadas de acordo com as tarefas em que são usadas.
 
@@ -108,7 +108,7 @@ Há mais bancadas em desenvolvimento, mantenha-se atento!
 
 
 
-[Category:Workbenches](Category:Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > Workbenches/pt
+[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Workbenches/pt

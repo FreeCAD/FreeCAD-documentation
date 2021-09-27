@@ -14,7 +14,7 @@ Die meisten dieser Artikel sind frei zugänglich.
 
 }}
 
-[Category:Hubs](Category:Hubs.md)
+_
 
 ---
-[documentation index](../README.md) > [Hubs](Category:Hubs.md) > Scientific literature/de
+[documentation index](../README.md) > [Hubs](Category_Hubs.md) > Scientific literature/de

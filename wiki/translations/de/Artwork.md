@@ -168,7 +168,7 @@ Siehe [Grafik Fehlerhaft](Artwork_Erroneous/de.md).
 
 }}
 
-[Category:Icon](Category:Icon.md) [Category:Developer Documentation](Category:Developer_Documentation.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Icon](Category:Icon.md) > Artwork/de
+[documentation index](../README.md) > [Icon](Category_Icon.md) > Artwork/de

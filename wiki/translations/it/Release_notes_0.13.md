@@ -150,7 +150,7 @@ Le geometrie (punti, linee e curve) possono essere selezionate trascinando il mo
 -   Gli script di OpenSCAD possono essere eseguiti all\'interno di FreeCAD, da OpenSCAD (se è installato), e il risultato appare nel documento FreeCAD.
 -   Per ulteriori informazioni consultare la pagina [OpenSCAD](OpenSCAD_Workbench/it.md) nel wiki di FreeCAD.
 
-[Category:News](Category:News.md) [Category:Documentation](Category:Documentation.md) [Category:Releases](Category:Releases.md)
+_ _ _
 
 ---
-[documentation index](../README.md) > [News](Category:News.md) > Release notes 0.13/it
+[documentation index](../README.md) > [News](Category_News.md) > Release notes 0.13/it

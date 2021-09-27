@@ -7,11 +7,11 @@
 
 FreeCAD jest w stanie wykonywać wykresy przy użyciu biblioteki [Python](Python/pl.md) [matplotlib](https://matplotlib.org/). W tym celu w wersji 0.19 dostarczany jest moduł, jako zewnętrzny dodatek a od wersji 0.20 jako podstawowy komponent. Starsze wersje FreeCAD nie są objęte niniejszą dokumentacją.
 
-Generowane wykresy oferują standardowe narzędzia [matplotlib](https://matplotlib.org/) do edycji i zapisu. Dodatkowo, środowisko pracy <img alt="" src=images/Workbench_Plot.svg  style="width:24px;"> [Wykres](Plot_Workbench/pl.md) jest dostarczane jako zewnętrzny dodatek oferujący bardziej kompletne narzędzia do edycji i zapisywania wykresu. Dodatek ten może być zainstalowany za pomocą [Menadżera dodatków](Std_AddonMgr/pl.md).
+Generowane wykresy oferują standardowe narzędzia _ jest dostarczane jako zewnętrzny dodatek oferujący bardziej kompletne narzędzia do edycji i zapisywania wykresu. Dodatek ten może być zainstalowany za pomocą [Menadżera dodatków](Std_AddonMgr/pl.md).
 
 ## Moduł
 
-Moduł można wywołać w konsoli [Python](Python/pl.md) lub w [makrodefinicji](Macros/pl.md). Pierwszą rzeczą, niezbędna do wykonania jest zaimportowanie modułu. We FreeCAD v0.19 musisz najpierw zainstalować środowisko pracy <img alt="" src=images/Workbench_Plot.svg  style="width:24px;"> [Wykres](Plot_Workbench/pl.md) za pomocą [Menadżera dodatków](Std_AddonMgr/pl.md), a następnie możesz zaimportować pisanie wykresu
+Moduł można wywołać w konsoli _ za pomocą [Menadżera dodatków](Std_AddonMgr/pl.md), a następnie możesz zaimportować pisanie wykresu
 
 
 ```python
@@ -32,7 +32,7 @@ Następnie można wykreślić linię prostą od współrzędnych *(0,0)* do *(1,
 Plot.plot([0, 1], [0, 2])
 ```
 
-Bardziej złożone przykłady znajdziesz w poradnikach [Poradnik: Podstawy dla środowiska pracy Wykres](Plot_Basic_tutorial/pl.md) i [Poradnik: Wykres wieloosiowy](Plot_MultiAxes_tutorial/pl.md).
+Bardziej złożone przykłady znajdziesz w poradnikach _.
 
 ## Narzędzia środowiska pracy 
 
@@ -60,7 +60,7 @@ Ponieważ środowisko pracy Wykres jest nakładką `matplotlib`, możesz swobodn
 
 }} 
 
-[Category:External\_Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)
+_ _
 
 ---
-[documentation index](../README.md) > [External_Workbenches](Category:External_Workbenches.md) > Plot Module/pl
+[documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > Plot Module/pl

@@ -3,7 +3,7 @@ ThreadProfile è un ambiente per la creazione di un profilo di filettatura, che 
 
 La documentazione completa si trova su Github: [ThreadProfile Workbench on Github](https://github.com/mwganson/ThreadProfile)
 
-[Category:Addons](Category:Addons.md)
+_
 
 ---
-[documentation index](../README.md) > ThreadProfile Workbench/it
+[documentation index](../README.md) > [Addons](Category_Addons.md) > ThreadProfile Workbench/it

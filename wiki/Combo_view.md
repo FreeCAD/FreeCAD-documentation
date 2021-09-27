@@ -4,7 +4,7 @@
 The [Combo view](combo_view.md) is one of the main panels in the FreeCAD [interface](interface.md). It is located on the left side of the screen by default. It is **composed of two sections**, the:
 
 -   [Upper section](#Upper_section.md) which contains two tabs: the **Model** tab and **Tasks** tab
--   [Lower section](#Lower_section.md) shows the [Property editor](property_editor.md). It contains two tabs: the **View** and **Data** properties. The [Property editor](property_editor.md) is only shown when the **Model** tab is **active**, that is, when the [tree view](tree_view.md) is visible.
+-   _ is only shown when the **Model** tab is **active**, that is, when the [tree view](tree_view.md) is visible.
 
 
 **Note:**

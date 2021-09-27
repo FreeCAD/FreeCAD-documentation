@@ -88,7 +88,7 @@ Torna a [Esercitazioni](Esercitazioni.md)
 
 {{languages/it | }}
 
-[Category:Documentation/it](Category:Documentation/it.md) [Category:Tutorials/it](Category:Tutorials/it.md)
+_ _
 
 ---
 [documentation index](../README.md) > Soluzione2

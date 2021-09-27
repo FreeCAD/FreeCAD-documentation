@@ -249,7 +249,7 @@ Now we will draw a simple sketch that will be used as auxiliary geometry to posi
 12\. Switch again to the [Draft Workbench](Draft_Workbench.md).
 
 :   12.1. Switch to \"Wireframe\" draw style with **View → <img src=images/DrawStyleWireFrame.svg style="width:Draw style](Std_DrawStyle.md) → [16px"> Wireframe**, or press the **<img src=images/DrawStyleWireFrame.svg style="width:16px"> [Wireframe](Std_DrawStyle.md)** button in the view toolbar. This will allow you to see the objects behind other objects.
-:   12.2. Make sure the <img src=images/Draft_Snap_Lock.svg style="width:Draft Snap](Draft_Snap.md) \"Snap to endpoint\" method is active. This can be done from the menu **Draft → Snapping → [16px"> <img src=images/Snap_Endpoint.svg style="width:Toggle On/Off](Draft_Snap_Lock.md)**, and then ** → [16px"> <img src=images/Draft_Snap_Lock.svg style="width:Endpoint](Draft_Snap_Endpoint.md)**, or by pressing the **[16px"> <img src=images/Draft_Snap_Endpoint.svg style="width:ToggleSnap](Draft_Snap_Lock.md)** and **[16px"> [Snap endpoint](Draft_Snap_Endpoint.md)** buttons in the Snap toolbar.
+:   12.2. Make sure the <img src=images/Draft_Snap_Lock.svg style="width:Draft Snap](Draft_Snap.md) \"Snap to endpoint\" method is active. This can be done from the menu **Draft → Snapping → _**, or by pressing the **[16px"> <img src=images/Draft_Snap_Endpoint.svg style="width:ToggleSnap](Draft_Snap_Lock.md)** and **[16px"> [Snap endpoint](Draft_Snap_Endpoint.md)** buttons in the Snap toolbar.
 
 13\. In the [tree view](tree_view.md), select `Extrude`.
 

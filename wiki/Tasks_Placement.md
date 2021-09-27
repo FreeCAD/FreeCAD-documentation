@@ -117,7 +117,7 @@ Other explanation on [Placement](Placement.md)
 
 
 
-[Category:Command\_Reference](Category:Command_Reference.md)
+_
 
 ---
-[documentation index](../README.md) > [Command_Reference](Category:Command_Reference.md) > Tasks Placement
+[documentation index](../README.md) > [Command_Reference](Category_Command_Reference.md) > Tasks Placement

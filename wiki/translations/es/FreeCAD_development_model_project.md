@@ -70,7 +70,7 @@ Las reglas decididas y la información va al documento [Modelo de desarrollo de 
 
 
 
-[Category:Roadmap](Category:Roadmap.md)
+_
 
 ---
-[documentation index](../README.md) > [Roadmap](Category:Roadmap.md) > FreeCAD development model project/es
+[documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > FreeCAD development model project/es

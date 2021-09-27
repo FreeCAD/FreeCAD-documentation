@@ -201,7 +201,7 @@ FreeCAD runs in console mode (without gui)
 
 Dialog to save a picture with arbitrary sizes.
 
-[Category:User Documentation/id](Category:User_Documentation/id.md) [Category:Screenshots](Category:Screenshots.md)
+_ _
 
 ---
 [documentation index](../README.md) > Screenshots/id

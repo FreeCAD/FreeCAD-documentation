@@ -17,7 +17,7 @@ Assembly4 can be installed from the [Addon Manager](Std_AddonMgr.md).
 
 Assembly4 was developed from the new tools created for [Assembly3](Assembly3_Workbench.md), in particular, the [App Link](App_Link.md) object and the improved [expression engine](expressions.md).
 
-Assembly4 was inspired by <img alt="" src=images/A2p_workbench.svg  style="width:24px;"> [A2plus](A2plus_Workbench.md) and <img alt="" src=images/Assembly3_workbench_icon.svg  style="width:24px;"> [Assembly3](Assembly3_Workbench.md) but it is not compatible with them. If you have older models made in those two workbenches, you should use those workbenches to open your models only.
+Assembly4 was inspired by <img alt="" src=images/A2p_workbench.svg  style="width:24px;"> _ but it is not compatible with them. If you have older models made in those two workbenches, you should use those workbenches to open your models only.
 
 ## Links
 
@@ -36,7 +36,7 @@ Assembly4 was inspired by <img alt="" src=images/A2p_workbench.svg  style="width
 
 
 
-[Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+_ _
 
 ---
-[documentation index](../README.md) > Assembly4 Workbench/en
+[documentation index](../README.md) > [Addons](Category_Addons.md) > Assembly4 Workbench/en

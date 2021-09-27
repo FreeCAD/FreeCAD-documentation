@@ -27,7 +27,7 @@ Cet outil crée des congés (arrondis) sur les bords sélectionnés d\'un objet.
 
 ## PartDesign Congé versus Part Congé 
 
-<img alt="" src=images/PartDesign_Fillet.svg  style="width:24px;"> [PartDesign Congé](PartDesign_Fillet/fr.md) ne doit pas être confondu avec **<img alt="" src=images/Part_Fillet.svg  style="width:24px;"> [Part Congé](Part_Fillet/fr.md)** de l\'[Atelier Part](Part_Workbench.md). Bien qu\'ils partagent le même nom, ils ne sont pas identiques et ne sont pas utilisés de la même manière.
+<img alt="" src=images/PartDesign_Fillet.svg  style="width:24px;"> _** de l\'[Atelier Part](Part_Workbench.md). Bien qu\'ils partagent le même nom, ils ne sont pas identiques et ne sont pas utilisés de la même manière.
 
 Voici comment ils diffèrent les uns des autres:
 
@@ -72,7 +72,7 @@ Voir la page [Problème de dénomination topologique](Topological_naming_problem
 
 ## Script
 
-L\'outil **[16px|text-top=Congé|link=PartDesign_Fillet/fr](File:PartDesign_Fillet.svg.md) [Congés](PartDesign_Fillet/fr.md)** peut être utilisé dans une macro et à partir de la console Python en utilisant la fonction suivante :
+L\'outil **_ [Congés](PartDesign_Fillet/fr.md)** peut être utilisé dans une macro et à partir de la console Python en utilisant la fonction suivante :
 
 
 ```python

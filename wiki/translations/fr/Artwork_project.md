@@ -1,8 +1,8 @@
 # Artwork project/fr
 **
-This roadmap is probably obsolete. For more information see [Development roadmap](Development_roadmap.md).<br>
-If you are not involved with the development discussed here:<br>
-!!! PLEASE DO NOT EDIT OR TRANSLATE !!!
+Ce plan de développement est probablement obsolète. Pour plus d'informations, voir [Plan de développement](Development_roadmap/fr.md).<br>
+Si vous n'êtes pas impliqué dans le développement discuté ici :<br>
+!!! S'IL VOUS PLAÎT, NE MODIFIEZ PAS ET NE TRADUISEZ PAS !!!
 **
 
 
@@ -97,7 +97,7 @@ The current color palette is captured in google drive: <https://drive.google.com
 -   [Std\_Part](https://forum.freecadweb.org/viewtopic.php?f=34&t=50821)
 -   [Std Alignment](https://forum.freecadweb.org/viewtopic.php?f=34&t=50688)
 
-[Category:Roadmap](Category:Roadmap.md)
+_
 
 ---
-[documentation index](../README.md) > [Roadmap](Category:Roadmap.md) > Artwork project/fr
+[documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > Artwork project/fr

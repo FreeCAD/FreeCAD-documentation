@@ -1,6 +1,6 @@
 # Sketcher External/pt-br
 ---
-- GuiCommand:/pt-br   Name:Sketcher External   Name/pt-br:Sketcher External   Workbenches:[PartDesign](Sketcher_Workbench/pt-br___Sketcher]],_[[PartDesign_Workbench/pt-br.md)|Shortcut:E   MenuLocation:Sketch → Sketcher geometries → Sketcher External   SeeAlso:[ConstructionMode](Sketcher_ConstructionMode/pt-br.md)---
+- GuiCommand:/pt-br   Name:Sketcher External   Name/pt-br:Sketcher External   Workbenches:_---
 
 
 </div>

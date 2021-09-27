@@ -155,7 +155,7 @@ Après avoir installé l\'atelier, il devrait apparaître en bas de la liste du 
 
 
 
-[Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+_ _
 
 ---
-[documentation index](../README.md) > Lattice2 Workbench/fr
+[documentation index](../README.md) > [Addons](Category_Addons.md) > Lattice2 Workbench/fr

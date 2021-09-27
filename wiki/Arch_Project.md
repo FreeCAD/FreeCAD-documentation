@@ -23,4 +23,4 @@ Note that, although any other BIM object can be added to a Project, which the IF
 2.  Add any object to your project by drag-and-dropping them onto the Project in the [Tree view](Tree_view.md).
 
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Project
+[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch Project

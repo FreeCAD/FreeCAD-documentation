@@ -30,7 +30,7 @@ The Rebar tools are currently part of the [Arch Workbench](Arch_Workbench.md)
 
 
 
-[Category:Documentation](Category:Documentation.md) [Category:User Documentation](Category:User_Documentation.md) [Category:Addons](Category:Addons.md)
+_ _ _
 
 ---
-[documentation index](../README.md) > Civil Engineering Workbench/en
+[documentation index](../README.md) > [Documentation](Category_Documentation.md) > Civil Engineering Workbench/en

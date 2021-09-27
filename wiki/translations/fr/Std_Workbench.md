@@ -24,7 +24,7 @@ La commande **Std Atelier** active l\'un des [ateliers](Workbenches/fr.md) séle
 
 ## Remarques
 
--   Des [ateliers externes](External_workbenches/fr.md) supplémentaires peuvent être téléchargés à l\'aide du <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Gestionnaire d\'Addon](Addon_Manager/fr.md).
+-   Des _.
 
 ## Préférences
 

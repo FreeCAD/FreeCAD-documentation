@@ -20,7 +20,7 @@ Questo tutorial mostra come creare un file [SVG](SVG/it.md) da usare come [model
 
 <div class="mw-translate-fuzzy">
 
-Questa guida presume che si abbia una discreta familiarità con [Inkscape](https://en.wikipedia.org/wiki/Inkscape), [SVG](SVG/it.md) e l\'ambiente [TechDraw](TechDraw_Workbench/it.md) di FreeCAD.
+Questa guida presume che si abbia una discreta familiarità con _ e l\'ambiente [TechDraw](TechDraw_Workbench/it.md) di FreeCAD.
 
 
 </div>

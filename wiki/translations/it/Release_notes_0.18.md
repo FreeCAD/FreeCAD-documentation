@@ -219,7 +219,7 @@ Alcuni dei nuovi moduli della comunità che sono stati attivamente sviluppati du
 
 -   [Defeaturing Workbench](Defeaturing_Workbench/it.md) è destinato alla modifica di modelli STEP importati, per rimuovere dal modello le funzioni selezionate.
 
-[Category:News](Category:News.md) [Category:Documentation](Category:Documentation.md) [Category:Releases](Category:Releases.md)
+_ _ _
 
 ---
-[documentation index](../README.md) > [News](Category:News.md) > Release notes 0.18/it
+[documentation index](../README.md) > [News](Category_News.md) > Release notes 0.18/it

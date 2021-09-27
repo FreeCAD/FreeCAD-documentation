@@ -90,4 +90,4 @@ MaterialEditor.openEditor()
 }}
 
 ---
-[documentation index](../README.md) > [Material](Material_Workbench.md) > Material editor/ru
+[documentation index](../README.md) > [Arch](Category_Arch.md) > [Material](Material_Workbench.md) > Material editor/ru

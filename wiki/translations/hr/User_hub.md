@@ -8,7 +8,7 @@ Ovo je osnovno područje pomoći za novo pridošle korisnike FreeCAD programa.
 
 Te stranice se neprestano razvijaju, pa možda nedostaju informacije ili su zastarjele . Ako ne možete pronaći potrebne informacije, ne ustručavajte se pitati na [FreeCAD forumu](http://forum.freecadweb.org).
 
-Ako želite pridonijeti FreeCAD-u molimo [donirajte](donate.md), pogledajte stranicu [Pomozite FreeCAD-u](Help_FreeCAD/hr.md). Ako želite urediti ovaj wiki, zatražite wiki račun s dozvolama za uređivanje [na forumu](https://forum.freecadweb.org/viewtopic.php?f=21&t=6830) i pročitajte [ Wiki stranice](WikiPages/hr.md) za opće smjernice koje biste trebali slijediti.
+Ako želite pridonijeti FreeCAD-u molimo _ za opće smjernice koje biste trebali slijediti.
 
 Ako želite znati kako je FreeCAD započeo prije nekoliko godina, posjetite stranicu [Povijest](History/hr.md).
 
@@ -20,7 +20,7 @@ Ako želite znati kako je FreeCAD započeo prije nekoliko godina, posjetite stra
 <div class="mw-translate-fuzzy">
 
 -   [O FreeCAD-u](About_FreeCAD/hr.md): Glavni pregled FreeCAD programa
--   [Instalacija](Installing/hr.md): Kako instalirati FreeCAD na [Windows](Install_on_Windows/hr.md), [Linux](Install_on_Linux/hr.md) i [Mac](Install_on_Mac/hr.md)
+-   _, [Linux](Install_on_Linux/hr.md) i [Mac](Install_on_Mac/hr.md)
 -   [Instalcija datoteka pomoći](Installing_Helpfile/hr.md):kako instalirati izvanmrežnu dokumentaciju koja se temelji na ovom wikiju.
 -   [Prvi koraci](Getting_started/hr.md): Kratki pregled dostupnih alata
 -   [FAQ](FAQ/hr.md): Često postavljana pitanja
@@ -35,7 +35,7 @@ See also:
 
 ### Osnovna primjena 
 
--   [Interface](Interface.md): the FreeCAD interface is composed of various graphical elements on the screen, including the [3D view](3D_view.md), the [tree view](Tree_view.md), the [property editor](Property_editor.md), the [task panel](Task_panel.md), and the [Python console](Python_console.md).
+-   _, the [tree view](Tree_view.md), the [property editor](Property_editor.md), the [task panel](Task_panel.md), and the [Python console](Python_console.md).
 -   [Mouse navigation](Mouse_navigation.md): the different types of using the mouse or trackpad to navigate in the 3D view.
 -   [Selection methods](Selection_methods.md): the different methods of selecting objects in the software.
 -   [Object name](Object_name.md): all objects have a read-only `Name` that uniquely identifies them, and a `Label` which is user editable.
@@ -131,7 +131,7 @@ This is the official FreeCAD online help. Please note that the whole online help
 
 
 
-[Category:Hubs](Category:Hubs.md)
+_
 
 ---
-[documentation index](../README.md) > [Hubs](Category:Hubs.md) > User hub/hr
+[documentation index](../README.md) > [Hubs](Category_Hubs.md) > User hub/hr

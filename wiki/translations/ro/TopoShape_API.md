@@ -228,7 +228,7 @@ Some attributes and methods apply only to certain TopoShapes. These items apply 
 
  
 
-[Category:API](Category:API.md) [Category:Poweruser Documentation](Category:Poweruser_Documentation.md)
+_ _
 
 ---
-[documentation index](../README.md) > [API](Category:API.md) > TopoShape API/ro
+[documentation index](../README.md) > [API](Category_API.md) > TopoShape API/ro

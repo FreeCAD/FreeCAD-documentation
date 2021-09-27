@@ -1,7 +1,7 @@
 # App FeaturePython/it
 ## Introduzione
 
-Un oggetto <img alt="" src=images/Feature.svg  style="width:32px;"> [App FeaturePython](App_FeaturePython/it.md), o formalmente un `App::FeaturePython`, è una semplice istanza di [App DocumentObject](App_DocumentObject/it.md) in [Python](Python/it.md).
+Un oggetto <img alt="" src=images/Feature.svg  style="width:32px;"> _ in [Python](Python/it.md).
 
 Questo è un oggetto semplice che per impostazione predefinita non ha molte proprietà, ad esempio nessun [posizionamento](Placement/it.md) né [forma topologica](Part_TopoShape/it.md). Questo oggetto è per uso generale e, fornendolo di proprietà, può essere utilizzato per gestire diversi tipi di dati.
 
@@ -18,7 +18,7 @@ Vedere [Script](App_FeaturePython/it#Script.md) per ulteriori informazioni.
 
 ## Proprietà
 
-Un oggetto [App FeaturePython](App_FeaturePython/it.md) (classe `App::FeaturePython`) è derivato dall\'oggetto base [App DocumentObject](App_DocumentObject.md) (classe `App::DocumentObject`), pertanto condivide tutte le proprietà di quest\'ultimo.
+Un oggetto _ (classe `App::DocumentObject`), pertanto condivide tutte le proprietà di quest\'ultimo.
 
 Oltre alle proprietà descritte in [App DocumentObject](App_DocumentObject/it.md), FeaturePython ha un provider di visualizzazione di base, quindi appare nella [vista ad albero](tree_view/it.md).
 
@@ -89,7 +89,7 @@ obj.Label = "Custom label"
 
 <div class="mw-translate-fuzzy">
 
-Per esempio, gli elemnti [Testo](Draft_Text/it.md), [Dimensione](Draft_Dimension/it.md), e [Piano di lavoro proxy](Draft_SetWorkingPlaneProxy/it.md) di [Draft](Draft_Workbench/it.md) sono oggetti `App::FeaturePython` oggetti con un\'icona personalizzata e proprietà aggiuntive. Conservano i dati ma non sono in effetti [Part TopoShape](Part_TopoShape/it.md).
+Per esempio, gli elemnti _.
 
 
 </div>

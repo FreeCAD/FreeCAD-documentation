@@ -18,7 +18,7 @@ Wszystkie ikonki widoczne na liście źródłowej, patrz [Grafika](Artwork/pl.md
 
 }} 
 
-[Category:Web](Category:Web.md)
+_
 
 ---
-[documentation index](../README.md) > [Web](Category:Web.md) > Artwork Web/pl
+[documentation index](../README.md) > [Web](Category_Web.md) > Artwork Web/pl

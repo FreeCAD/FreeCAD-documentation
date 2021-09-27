@@ -18,7 +18,7 @@ In informal usage, a \"Drawing\" may be any geometrical figure that is visible i
 
 However, when more precision is required, the distinction must be made.
 
--   A \"[Body](Body.md)\" ([PartDesign Body](PartDesign_Body.md)) is an object derived from a [Part Feature](Part_Feature.md) (`Part::Feature` class), created with the [PartDesign Workbench](PartDesign_Workbench.md).
+-   A \"_.
 -   A \"[Part](Part.md)\" ([App Part](App_Part.md)) is used to group several \"[Bodies](Body.md)\" to form an assembly.
 -   A \"Drawing\" is a 2D projection of a \"Body\" or a \"Part\".
 -   A \"Drawing\" may also be created with the [Drawing Workbench](Drawing_Workbench.md). However, since this workbench became obsolete in 0.17, you should prefer [TechDraw Workbench](TechDraw_Workbench.md) instead.
@@ -28,7 +28,7 @@ However, when more precision is required, the distinction must be made.
 
 }} {{Document objects navi}} 
 
-[Category:Glossary](Category:Glossary.md)
+_
 
 ---
-[documentation index](../README.md) > [Glossary](Category:Glossary.md) > Drawing/pl
+[documentation index](../README.md) > [Glossary](Category_Glossary.md) > Drawing/pl

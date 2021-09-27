@@ -2,7 +2,7 @@
 {{TutorialInfo/de
 |Topic=Modellierung
 |Level=Anfänger
-|Author=[WandererFan](User:WandererFan.md)
+|Author=_
 |Time=Weniger als eine Stunde
 |FCVersion=0.17 oder höher
 |Files=[https://github.com/FreeCAD/Examples/blob/master/Basic_Part_Design_Tutorial_Example_017_Files/Basic_Part_Design_Tutorial_017.fcstd
@@ -133,7 +133,7 @@ Aus dem ersten Teil dieses Tutorials wissen wir, dass das Werkstück 53 mm breit
 
 ## Weitermachen
 
-In diesem Tutorial hast Du genug über TechDraw kennengelernt, um eine Zeichnung wie diese (von [NormandC](User:Normandc.md)) zu erstellen. Siehe Anmerkung 2.
+In diesem Tutorial hast Du genug über TechDraw kennengelernt, um eine Zeichnung wie diese (von _) zu erstellen. Siehe Anmerkung 2.
 
 ![](images/TDTut_FC018_TechDraw_Dim_Iso_View_01_NC.png )
 

@@ -168,7 +168,7 @@ Il existe deux principaux types de contraintes:
 
 
 :   7.6. Sélectionnez la ligne de construction la plus proche de l\'axe vertical.
-:   7.7. Appuyez sur **<img src=images/Constraint_Vertical.svg style="width:16px"> [‎Sketcher Créer une contrainte verticale...](‎Sketcher_ConstrainVertical.md)** (facultatif). Si vous avez tracé la ligne de construction vers le bas sur l\'axe Y, un <img alt="" src=images/Constraint_PointOnObject.svg  style="width:32px;"> [Sketcher Fixer un point sur un objet](Sketcher_ConstrainPointOnObject/fr.md) automatique a déjà été placé, en maintenant la ligne de construction verticale. Dans ce cas, aucun <img alt="" src=images/Constraint_Vertical.svg  style="width:32px;"> [‎Sketcher contrainte verticale](‎Sketcher_ConstrainVertical/fr.md) supplémentaire n\'est nécessaire.
+:   7.7. Appuyez sur **<img src=images/Constraint_Vertical.svg style="width:16px"> _ automatique a déjà été placé, en maintenant la ligne de construction verticale. Dans ce cas, aucun <img alt="" src=images/Constraint_Vertical.svg  style="width:32px;"> [‎Sketcher contrainte verticale](‎Sketcher_ConstrainVertical/fr.md) supplémentaire n\'est nécessaire.
 
 
 **Remarque 1:**
@@ -289,7 +289,7 @@ Contraindre une esquisse peut se faire de différentes manières. En général, 
 
 }} {{Sketcher Tools navi}} 
 
-[Category:Sketcher/fr](Category:Sketcher/fr.md)
+_
 
 ---
 [documentation index](../README.md) > Basic Sketcher Tutorial/fr

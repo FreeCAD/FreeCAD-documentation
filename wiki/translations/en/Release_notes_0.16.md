@@ -1,5 +1,5 @@
 # Release notes 0.16/en
-FreeCAD 0.16 was released on 18. April, 2016, get it from [Github](https://github.com/FreeCAD/FreeCAD/releases). This is a summary of the most interesting changes. The complete list of changes can be found in the [Mantis changelog](http://www.freecadweb.org/tracker/changelog_page.php). Older versions at: [0.15](Release_notes_0.15.md) - [0.14](Release_notes_0.14.md) - [0.13](Release_notes_0.13.md) - [0.12](Release_notes_0.12.md) - [0.11](Release_notes_0.11.md)
+FreeCAD 0.16 was released on 18. April, 2016, get it from _ - [0.14](Release_notes_0.14.md) - [0.13](Release_notes_0.13.md) - [0.12](Release_notes_0.12.md) - [0.11](Release_notes_0.11.md)
 <img alt="" src=images/Satnogs_Rotator_FreeCAD.jpg  style="width:1024px;">
 
 
@@ -71,7 +71,7 @@ The **FEM workbench** has tons of improvements. It has proven to be usable for v
 
 ## Arch Workbench 
 
--   **[Materials support](Arch_SetMaterial.md)**: Arch objects can now have a [material](material.md) attached, which uses FreeCAD\'s builtin materials framework. These materials are shared among other workbenches. These materials are fully supported by IFC import and export.
+-   **_ attached, which uses FreeCAD\'s builtin materials framework. These materials are shared among other workbenches. These materials are fully supported by IFC import and export.
 -   The **[Section plane](Arch_SectionPlane.md)** can now do clipping of the 3D view, showing the section in realtime.
 
 <img alt="" src=images/Arch_clip_plane.jpg  style="width:1024px;">
@@ -120,7 +120,7 @@ A couple of new [addons workbenches](https://github.com/FreeCAD/FreeCAD-addons) 
 
 ![](images/Macro_installer_02.jpg )
 
-[Category:News](Category:News.md) [Category:Documentation](Category:Documentation.md) [Category:Releases](Category:Releases.md)
+_ _ _
 
 ---
-[documentation index](../README.md) > [News](Category:News.md) > Release notes 0.16/en
+[documentation index](../README.md) > [News](Category_News.md) > Release notes 0.16/en

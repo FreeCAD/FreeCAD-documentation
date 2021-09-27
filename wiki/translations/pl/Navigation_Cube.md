@@ -73,7 +73,7 @@ Bardziej zaawansowana konfiguracja jest dostępna w tabeli - pozycja:**CubeMenu*
 
 
 
-[Category:User Documentation](Category:User_Documentation.md)
+_
 
 ---
-[documentation index](../README.md) > [User Documentation](Category:User Documentation.md) > Navigation Cube/pl
+[documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > Navigation Cube/pl

@@ -35,7 +35,7 @@ Acest instrument convertește [ Draft objects](Draft_Workbench.md) la [Sketcher 
 ## Cum se utilizează 
 
 1.  Selectați un obiect Draft sau Sketch
-2.  Apăsați butonul {{KEY | [ 16px](Imagine:_Proiect_Draft2Sketch.png .md) [[Draft Draft2Sketch]]}}
+2.  Apăsați butonul {{KEY | _ [[Draft Draft2Sketch]]}}
 
 
 </div>

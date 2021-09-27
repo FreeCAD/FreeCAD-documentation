@@ -64,7 +64,7 @@ That\'s all, the next time you launch FreeCAD the workbench should be incorporat
 
 
 
-[Category:Sandbox](Category:Sandbox.md) [Category:User Documentation](Category:User_Documentation.md) [Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+_ _ _ _
 
 ---
-[documentation index](../README.md) > ExplodedAssembly Workbench/hr
+[documentation index](../README.md) > [Sandbox](Category_Sandbox.md) > ExplodedAssembly Workbench/hr

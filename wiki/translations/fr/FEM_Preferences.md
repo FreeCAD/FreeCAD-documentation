@@ -35,7 +35,7 @@ Les solveurs externes actuellement acceptés sont :
 
 }}  
 
-[Category:Preferences](Category:Preferences.md)
+_
 
 ---
-[documentation index](../README.md) > [Preferences](Category:Preferences.md) > FEM Preferences/fr
+[documentation index](../README.md) > [Preferences](Category_Preferences.md) > FEM Preferences/fr

@@ -24,7 +24,7 @@ Questa funzione arresta la registrazione di una macro. La funzione è accessibil
 
 <div class="mw-translate-fuzzy">
 
-Quando si avvia la **<img src=images/Std_DlgMacroRecord.png style="width:16px"> <img src=images/Std_DlgMacroStop.png style="width:registrazione](Std_DlgMacroRecord/it.md)** di una macro il pulsante **[16px"> Interrompi la registrazione** della barra degli strumenti delle macro assume il colore verde [16px‎](File:Std_DlgMacroStop_02.png.md).
+Quando si avvia la **<img src=images/Std_DlgMacroRecord.png style="width:16px"> <img src=images/Std_DlgMacroStop.png style="width:registrazione](Std_DlgMacroRecord/it.md)** di una macro il pulsante **_.
 
 
 </div>

@@ -74,7 +74,7 @@ Cet atelier peut être installé à partir du [Gestionnaire d\'Addon](Std_AddonM
 
 -   [Ateliers externes](External_workbenches/fr.md)
 
-[Category:Sandbox](Category:Sandbox.md) [Category:User Documentation](Category:User_Documentation.md) [Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+_ _ _ _
 
 ---
-[documentation index](../README.md) > Workfeature Workbench/fr
+[documentation index](../README.md) > [Sandbox](Category_Sandbox.md) > Workfeature Workbench/fr

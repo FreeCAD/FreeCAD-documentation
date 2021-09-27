@@ -16,7 +16,7 @@
 
 génère une copie sans l\'historique paramétrique. Les étapes et opérations nécessaires à sa création ne sont plus accessibles.
 
-**Alternativement**, pour produire d\'autres copies non-paramétriques utilisez <img alt="" src=images/Part_TransformedCopy.svg  style="width:16px;"> [Part Copie transformée](Part_TransformedCopy/fr.md), <img alt="" src=images/Part_ElementCopy.svg  style="width:16px;"> [Part Copie élément](Part_ElementCopy/fr.md) et <img alt="" src=images/Part_RefineShape.svg  style="width:16px;"> [Part Affiner la forme](Part_RefineShape/fr.md)
+**Alternativement**, pour produire d\'autres copies non-paramétriques utilisez <img alt="" src=images/Part_TransformedCopy.svg  style="width:16px;"> _ et <img alt="" src=images/Part_RefineShape.svg  style="width:16px;"> [Part Affiner la forme](Part_RefineShape/fr.md)
 
 ## Utilisation
 

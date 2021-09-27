@@ -3,7 +3,7 @@
 |Topic=FEM
 |Level=Intermédiaire
 |Time=1 heure
-|Author=[M42kus](User:M42kus.md)
+|Author=_
 |FCVersion=0.17
 }}
 
@@ -129,7 +129,7 @@ Les contraintes définissent les conditions aux limites du problème à résoudr
 
 L\'ajout de nouvelles contraintes est assez simple. Pour les nouveaux arrivants, il existe un tutoriel:[Tutoriel pour ajouter des contraintes FEM](Add_FEM_Constraint_Tutorial/fr.md).
 
-[Category:FEM](Category:FEM.md)
+_
 
 ---
-[documentation index](../README.md) > [FEM](Category:FEM.md) > Extend FEM Module/fr
+[documentation index](../README.md) > [FEM](Category_FEM.md) > Extend FEM Module/fr

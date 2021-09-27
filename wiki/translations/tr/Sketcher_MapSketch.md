@@ -1,6 +1,6 @@
 # Sketcher MapSketch/tr
 ---
-- GuiCommand:   Name:Eskizi yüze eşle   Create a sketch on a face|Workbenches:[PartDesign](Sketcher_Workbench___Sketcher]],_[[PartDesign_Workbench.md)|MenuLocation:Part Design/Sketch → Map sketch to face...   SeeAlso:[Create a new sketch](Sketcher_NewSketch.md)---
+- GuiCommand:   Name:Eskizi yüze eşle   Create a sketch on a face|Workbenches:_---
 
 
 </div>
@@ -82,7 +82,7 @@ Modeli onarmak için önce katıların görünürlüğünü değiştiriyoruz. Pa
 
 }} 
 
-[Category:Sketcher/tr](Category:Sketcher/tr.md)
+_
 
 ---
 [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher MapSketch/tr

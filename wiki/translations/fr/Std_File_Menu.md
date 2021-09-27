@@ -75,7 +75,7 @@ Les outils suivants sont disponibles dans ce menu:
 
 }}  
 
-[Category:Workbenches](Category:Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > [Workbenches](Category:Workbenches.md) > Std File Menu/fr
+[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Std File Menu/fr

@@ -89,9 +89,9 @@ This page lists the templates according to American National Standards Institute
 
 ## Credits
 
-The templates are drawn by [Quick61](User:Quick61.md) and listed [FreeCAD-Drawing-Templates](https://github.com/quick61/FreeCAD-Drawing-Templates).
+The templates are drawn by _ and listed [FreeCAD-Drawing-Templates](https://github.com/quick61/FreeCAD-Drawing-Templates).
 
-[Category:Documentation](Category:Documentation.md) [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Drawing](Category:Drawing.md)
+_ _ _
 
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch templates/en
+[documentation index](../README.md) > [Documentation](Category_Documentation.md) > [Arch](Arch_Workbench.md) > Arch templates/en

@@ -3,7 +3,7 @@
 
 FreeCAD - deși utilizabilă în multe aplicații - este la începutul unei lungi călătorii în marele curent CAD. Mai sunt încă multe de făcut pentru a ajunge la o stare în care să putem concura cu software-ul comercial.
 
-Această secțiune oferă o imagine de ansamblu a ceea ce este planificat și vă oferă posibilitatea de a participa sau de a vă da părerea. Deoarece suntem voluntari la FreeCAD, avem doar o anumită perioadă de timp disponibilă. Deci, dacă sunteți interesat de unul dintre subiectele și doriți să vă ajutați, spuneți-ne! Noi folosim stilul [Getting Things Done (GTD)](http://en.wikipedia.org/wiki/Getting_Things_Done#Methodology) pentru documentul de proiect. Aici este șablonul [Project template](Project_template.md).
+Această secțiune oferă o imagine de ansamblu a ceea ce este planificat și vă oferă posibilitatea de a participa sau de a vă da părerea. Deoarece suntem voluntari la FreeCAD, avem doar o anumită perioadă de timp disponibilă. Deci, dacă sunteți interesat de unul dintre subiectele și doriți să vă ajutați, spuneți-ne! Noi folosim stilul _.
 
 -   [Organization chart](Organization_chart.md) Arată cine ce face în universul FreeCAD.
 -   Puteți urmări problemele la care se lucrează în prezent prin intermediul programului de urmărire a bug-urilor aici: <http://www.freecadweb.org/tracker/roadmap_page.php>
@@ -43,7 +43,7 @@ Ca și în cele mai multe proiecte [FLOSS](http://en.wikipedia.org/wiki/FLOSS) u
 
 
 
-[Category:Roadmap](Category:Roadmap.md)
+_
 
 ---
-[documentation index](../README.md) > [Roadmap](Category:Roadmap.md) > Development roadmap/ro
+[documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > Development roadmap/ro

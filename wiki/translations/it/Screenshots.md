@@ -225,7 +225,7 @@ FreeCAD da riga di comando, senza interfaccia grafica
 
 La finestra di dialogo per salvare le immagini.
 
-[Category:User Documentation/it](Category:User_Documentation/it.md) [Category:Screenshots/it](Category:Screenshots/it.md)
+_ _
 
 ---
 [documentation index](../README.md) > Screenshots/it

@@ -14,7 +14,7 @@
 
 FreeCAD是一种3D[参数化建模程序](About_FreeCAD/zh.md)。它主要用于机械设计，对所有需要精确建模3D物体并能够控制建模过程的情况都适用。
 
-FreeCAD自2002年起开始开发，它可以提供很多的[功能](Feature_list/zh.md)。 它仍有一些功能缺失，但对于多数业余爱好者和许多小型工厂来说它足够强大。在[FreeCAD论坛](http://forum.freecadweb.org/index.php)有一个由热情的用户组成的快速增长的社区，在那你可以发现许多用FreeCAD开发的项目[示例](https://forum.freecadweb.org/viewforum.php?f=24)。也可以看看[FreeCAD 产品应用](FreeCAD_used_in_production/zh.md)。
+FreeCAD自2002年起开始开发，它可以提供很多的_。
 
 像所有开源项目，FreeCAD依靠它的社区的成长、收集功能以及修复缺陷。所以在使用FreeCAD的时候不要忘记这一点，如果你愿意，你可以 [捐献并以各种方式](Donate.md)[帮助FreeCAD](help_FreeCAD/zh.md)，例如编写文档以及进行翻译工作。
 
@@ -201,7 +201,7 @@ Freecad的关注点是让你能够制作高精度的3D模型，对这些模型�
 
 <div class="mw-translate-fuzzy">
 
-[制图工作台为你提供了与传统二维制图CAD应用程序](draft_module.md)（[autocad](https://en.wikipedia.org/wiki/autocad)）中类似的二维制图工具。然而，二维制图远超Freecad所能及的范围，请不要期待着能在这里找到这些专用应用程序提供的全套工具。大多数制图工具不仅在二维平面中工作，而且在整个三维空间中工作，并且受益于特殊的辅助系统，如[工作面和](Draft_SelectPlane.md)[对象捕捉](Draft_Snap.md)。
+_[对象捕捉](Draft_Snap.md)。
 
 
 </div>
@@ -264,7 +264,7 @@ Freecad作为一种开放源代码软件，提供了使用插件补充其工作�
 
 {{Userdocnavi/zh}}
 
-[Category:User Documentation/zh](Category:User_Documentation/zh.md)
+_
 
 ---
 [documentation index](../README.md) > Getting started/zh

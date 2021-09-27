@@ -250,7 +250,7 @@ Qt bietet nicht die Funktionalität, um diesen Wert abzurufen. Also müssen wir 
 
 
 
-[Category:Roadmap](Category:Roadmap.md)
+_
 
 ---
-[documentation index](../README.md) > [Roadmap](Category:Roadmap.md) > HiDPI support/de
+[documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > HiDPI support/de

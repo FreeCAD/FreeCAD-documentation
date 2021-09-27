@@ -26,7 +26,7 @@ Dokumen ini dibagi menjadi beberapa seksi: pengantar, penggunaan, scripting dan 
 
 <div class="mw-translate-fuzzy">
 
-Mungkin kamu mempunyai beberapa pengalaman, para programer sungguh tidak sempat untuk membantu menulis! untuk para programer sudah sangat jelas karena merekalah yang membuat aplikasinya. Oleh karena itu ini sangat penting bagi para pengguna yang berpengalaman membantu kami untuk menulis dan merevisi dokumen ini. Ya, yang kami maksud adalah kamu! Bagaimana?, kamu mungkin bertanya, Buka situs Wiki di <http://www.freecadweb.org/wiki/index.php> dibagian Bab Pengguna. Kamu akan memerlukan sebuah [sourceforge akun](http://sourceforge.net/) untuk masuk, kemudian mintalah di forum atau irc channel untuk mendapatkan ijin penulisan (wiki menggunakan fitur write-protected untuk menghindari spam). Selanjutnya kami dapat memulai penulisan! Juga, lihatlah di halaman [Help\_FreeCAD](Help_FreeCAD.md) untuk jalan lain kamu bisa membantu FreeCAD.
+Mungkin kamu mempunyai beberapa pengalaman, para programer sungguh tidak sempat untuk membantu menulis! untuk para programer sudah sangat jelas karena merekalah yang membuat aplikasinya. Oleh karena itu ini sangat penting bagi para pengguna yang berpengalaman membantu kami untuk menulis dan merevisi dokumen ini. Ya, yang kami maksud adalah kamu! Bagaimana?, kamu mungkin bertanya, Buka situs Wiki di <http://www.freecadweb.org/wiki/index.php> dibagian Bab Pengguna. Kamu akan memerlukan sebuah _ untuk jalan lain kamu bisa membantu FreeCAD.
 
 
 </div>
@@ -43,7 +43,7 @@ Mungkin kamu mempunyai beberapa pengalaman, para programer sungguh tidak sempat 
 
 
 
-[Category:User\_Documentation](Category:User_Documentation.md)
+_
 
 ---
-[documentation index](../README.md) > [User_Documentation](Category:User_Documentation.md) > Online Help Startpage/id
+[documentation index](../README.md) > [User_Documentation](Category_User_Documentation.md) > Online Help Startpage/id

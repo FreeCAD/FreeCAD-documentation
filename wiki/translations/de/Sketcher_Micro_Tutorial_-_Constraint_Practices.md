@@ -3,7 +3,7 @@
 |Topic=Skizzierer
 |Level=Anfänger
 |Time=30 Minuten
-|Author=Mark Stephen ([Quick61](User:Quick61.md)) und vocx
+|Author=Mark Stephen (_) und vocx
 |FCVersion 0.19
 |Files=[https://forum.freecadweb.org/viewtopic.php?f=36&p=371659#p371659 Skizzierer Beschränkungspraktiken]
 }}
@@ -12,7 +12,7 @@
 
 Dieses Tutorial wurde ursprünglich von Quick61 geschrieben, und es wurde von vocx neu geschrieben und neu illustriert.
 
-Dieses Tutorium ist so gestaltet um dem neuen Anwender zu helfen, sich mit den bewährten Verfahren zur Beschränkung einer [Skizze](Sketch/de.md) im Arbeitsablauf des <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Skizzierer Arbeitsbereichs](Sketcher_Workbench/de.md) vertraut zu machen.
+Dieses Tutorium ist so gestaltet um dem neuen Anwender zu helfen, sich mit den bewährten Verfahren zur Beschränkung einer _ vertraut zu machen.
 
 Es gibt eine allgemeine Regel mit Beschränkungen: je weniger **Bezugsbeschränkungen** (Dimensionen), desto besser.
 

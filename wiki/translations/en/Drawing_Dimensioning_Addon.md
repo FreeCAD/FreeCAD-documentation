@@ -3,7 +3,7 @@
 
 ## Introduction
 
-The [Drawing dimensioning workbench](https://github.com/hamish2014/FreeCAD_drawing_dimensioning) adds powerful dimensioning and annotation tools to the [Drawing Workbench](Drawing_Workbench.md) (see [forum thread](http://forum.freecadweb.org/viewtopic.php?f=10&t=8395)).
+The _ (see [forum thread](http://forum.freecadweb.org/viewtopic.php?f=10&t=8395)).
 
 ![](images/Drawing_Dimensioning_example.jpg )
 
@@ -216,7 +216,7 @@ Tipps:
 -   [External workbenches](External_workbenches.md)
 -   [Macros recipes](Macros_recipes.md)
 
-[Category:User Documentation](Category:User_Documentation.md) [Category:Addons](Category:Addons.md) [Category:Drawing](Category:Drawing.md)
+_ _ _
 
 ---
-[documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Dimensioning Addon/en
+[documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [Drawing](Drawing_Workbench.md) > Drawing Dimensioning Addon/en

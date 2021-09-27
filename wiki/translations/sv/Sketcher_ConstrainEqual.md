@@ -1,6 +1,6 @@
 # Sketcher ConstrainEqual/sv
 ---
-- GuiCommand:/sv   Name:Constraint EqualLength   Name/sv:Constraint EqualLength   Workbenches:[PartDesign](Sketcher_Workbench/sv___Sketcher]],_[[PartDesign_Workbench/sv.md)|MenuLocation:Sketch → Sketcher constraints → Constrain equal   SeeAlso:[Constraint Radius](Constraint_Radius/sv.md)---
+- GuiCommand:/sv   Name:Constraint EqualLength   Name/sv:Constraint EqualLength   Workbenches:_---
 
 
 </div>

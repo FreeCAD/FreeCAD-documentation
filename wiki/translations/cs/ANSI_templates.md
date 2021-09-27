@@ -59,9 +59,9 @@ Tato stránka obsahuje seznam šablon podle American National Standards Institut
 
 ## Poděkování
 
-Šablony jsou nakreselny uživatelem [Quick61](User:Quick61.md) a jejich seznam je na [FreeCAD-výkresové-šablony](https://github.com/quick61/FreeCAD-Drawing-Templates).
+Šablony jsou nakreselny uživatelem _ a jejich seznam je na [FreeCAD-výkresové-šablony](https://github.com/quick61/FreeCAD-Drawing-Templates).
 
-[Category:Documentation](Category:Documentation.md) [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Drawing](Category:Drawing.md)
+_ _ _
 
 ---
-[documentation index](../README.md) > [Documentation](Category:Documentation.md) > ANSI templates/cs
+[documentation index](../README.md) > [Documentation](Category_Documentation.md) > ANSI templates/cs

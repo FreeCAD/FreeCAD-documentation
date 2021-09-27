@@ -27,7 +27,7 @@ Tous les outils de l\'atelier Points sont accessibles depuis le menu **Points**.
 
 ## Remarques
 
--   Les commandes de [Draft](Draft_Workbench/fr.md) telles que <img alt="" src=images/Draft_Line.svg  style="width:24px;"> [Draft Ligne](Draft_Line/fr.md) et <img alt="" src=images/Draft_BSpline.svg  style="width:24px;"> [Draft BSpline](Draft_BSpline/fr.md) peuvent être utilisées pour connecter les points dans un nuage de points. Utilisez <img alt="" src=images/Draft_Snap_Endpoint.svg  style="width:24px;"> [Draft Accrochage Terminaison](Draft_Snap_Endpoint/fr.md) pour accrocher les points.
+-   Les commandes de _ et <img alt="" src=images/Draft_BSpline.svg  style="width:24px;"> _ pour accrocher les points.
 -   [Python](Python/fr.md) peut être utilisé pour analyser et traiter les nuages de points. Voir les discussions du forum suivantes:
     -   [Inspection du nuage de points](http://forum.freecadweb.org/viewtopic.php?f=3&t=16098).
     -   [Fläche aus Messwerten](http://forum.freecadweb.org/viewtopic.php?f=13&t=15988) (allemand)
@@ -44,7 +44,7 @@ Tous les outils de l\'atelier Points sont accessibles depuis le menu **Points**.
 
 }} 
 
-[Category:Workbenches](Category:Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > Points Workbench/fr
+[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Points Workbench/fr

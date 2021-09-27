@@ -9,7 +9,7 @@ Il existe de nombreux versions de ce format, aussi ce module d\'importation tent
 
  
 
-[Category:File Formats](Category:File_Formats.md)
+_
 
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft DAT/fr
+[documentation index](../README.md) > [File Formats](Category_File Formats.md) > [Draft](Draft_Workbench.md) > Draft DAT/fr

@@ -14,7 +14,7 @@ For all icons in the source tree, see [Artwork](Artwork.md).
 
 }} 
 
-[Category:Inspection](Category:Inspection.md)
+_
 
 ---
-[documentation index](../README.md) > [Inspection](Category:Inspection.md) > Artwork Inspection/en
+[documentation index](../README.md) > [Inspection](Category_Inspection.md) > Artwork Inspection/en

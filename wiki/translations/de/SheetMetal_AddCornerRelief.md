@@ -57,7 +57,7 @@ Ein SheetMetal-CornerRelief-Objekt wird von einem [Part-Formelement](Part_Featur
 
 
 
-[Category:SheetMetal](Category:SheetMetal.md) [Category:Addons](Category:Addons.md) [Category:External Command Reference](Category:External_Command_Reference.md)
+_ _ _
 
 ---
-[documentation index](../README.md) > [SheetMetal](Category:SheetMetal.md) > SheetMetal AddCornerRelief/de
+[documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > SheetMetal AddCornerRelief/de

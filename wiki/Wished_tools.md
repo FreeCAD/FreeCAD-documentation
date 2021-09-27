@@ -80,7 +80,7 @@ If you are a CAD user and would like to add stuff here, feel free to edit, we wo
 
 
 
-[Category:Hubs](Category:Hubs.md) [Category:Roadmap](Category:Roadmap.md) [Category:Developer](Category:Developer.md)
+_ _ _
 
 ---
-[documentation index](../README.md) > [Hubs](Category:Hubs.md) > Wished tools
+[documentation index](../README.md) > [Hubs](Category_Hubs.md) > Wished tools

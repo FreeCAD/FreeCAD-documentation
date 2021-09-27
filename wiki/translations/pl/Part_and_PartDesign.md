@@ -3,7 +3,7 @@
 
 ## Informacje ogólne 
 
-Przez lata było wiele dyskusji o różnicach i konsekwencjach używania środowisk pracy <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Część](Part_Workbench/pl.md) i <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Projekt Części](PartDesign_Workbench/pl.md).
+Przez lata było wiele dyskusji o różnicach i konsekwencjach używania środowisk pracy <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> _.
 
 Dobrym pomysłem jest używanie jednego lub drugiego, dopóki użytkownik nie będzie czuł się komfortowo z jednym, a następnie nauczy się drugiego. Zazwyczaj zaleca się również, aby nowi użytkownicy nie mieszali ich ze sobą, dopóki nie zrozumieją konsekwencji takiego postępowania.
 

@@ -78,7 +78,7 @@ FreeCAD é mantido e desenvolvido por uma comunidade de desenvolvedores entusias
 
 
 
-[Category:User Documentation](Category:User_Documentation.md)
+_
 
 ---
-[documentation index](../README.md) > [User Documentation](Category:User Documentation.md) > About FreeCAD/pt
+[documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > About FreeCAD/pt

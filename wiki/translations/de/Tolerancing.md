@@ -32,7 +32,7 @@ Es gibt zwei Ansätze zur Angabe von Produkt- und Herstellungsinformationen (PMI
 
 <div class="mw-translate-fuzzy">
 
--   Der veraltete Ansatz (herkömmlich) zur Erstellung von 2D Zeichnungen mit GD&T Symbolen. In einigen Industrien wird diese Herangehensweise auch als [Technische Dokumentation](https://de.wikipedia.org/wiki/Technische_Dokumentation) bezeichnet. Wie dies mit FreeCADs [TechnischesZeichnen Arbeitsbereich](TechDraw_Workbench/de.md) erreicht wird, wird auf [dieser Seite](TechDraw_Geometric_dimensioning_and_tolerancing.md) beschrieben
+-   Der veraltete Ansatz (herkömmlich) zur Erstellung von 2D Zeichnungen mit GD&T Symbolen. In einigen Industrien wird diese Herangehensweise auch als _ erreicht wird, wird auf [dieser Seite](TechDraw_Geometric_dimensioning_and_tolerancing.md) beschrieben
 -   Der moderne 3D Ansatz modellbasierte Definition (MBD), bei dem GD&T Daten in das Modell eingebettet werden und Zeichnungen mit GD&T Symbolen erstellt werden
 
 
@@ -79,7 +79,7 @@ Es gibt zwei Ansätze zur Angabe von Produkt- und Herstellungsinformationen (PMI
 -   [GD&T für Anfänger \| Schritt für Schritt Ansatz zur Durchführung von GD&T für mechanisches Zeichnen (Video)](https://www.youtube.com/watch?v=-3tN7KvDUjQ)
 -   [Straight To The Point Engineering (Video tutorials)](https://www.youtube.com/c/StraightToThePointEngineering/videos?view=0&sort=da&flow=grid)
 
-[Category:Roadmap](Category:Roadmap.md) [Category:TechDraw](Category:TechDraw.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Roadmap](Category:Roadmap.md) > Tolerancing/de
+[documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > Tolerancing/de

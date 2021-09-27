@@ -43,7 +43,7 @@ Da questa interfaccia è possibile visualizzare informazioni utili e passare ai 
 
 
 
-[Category:Start](Category:Start.md) [Category:Workbenches](Category:Workbenches.md)
+_ _
 
 ---
-[documentation index](../README.md) > Start Workbench/it
+[documentation index](../README.md) > [Start](Category_Start.md) > Start Workbench/it

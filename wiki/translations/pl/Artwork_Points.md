@@ -14,7 +14,7 @@ Wszystkie ikonki widoczne na liście źródłowej, patrz [Grafika](Artwork/pl.md
 
 }} 
 
-[Category:Points](Category:Points.md)
+_
 
 ---
-[documentation index](../README.md) > [Points](Category:Points.md) > Artwork Points/pl
+[documentation index](../README.md) > [Points](Category_Points.md) > Artwork Points/pl

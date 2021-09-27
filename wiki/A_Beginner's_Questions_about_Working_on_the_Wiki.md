@@ -29,7 +29,7 @@ If you are here you probably have some question about how to contribute to this 
     -   -   **[How to get wiki editing permissions - FreeCAD Forum](https://forum.freecadweb.org/viewtopic.php?f=21&t=6830)**
 
 -   What is style guide for the Wiki? ( This is a broad topic, so some seemingly subtopics will be listed separately )
-    -   **[Help:Editing](Help:Editing.md)** Lots of information on the mechanics of editing, with notes on style on this wiki.
+    -   **_** Lots of information on the mechanics of editing, with notes on style on this wiki.
     -   **[WikiPages](WikiPages.md)** Seems to be the most important single page on the meta wiki. Has not had much in the way of major edit in about a year ( said Jan 2021 ), but minor edits have been active.
     -   \[<https://wiki.freecadweb.org/Special:PrefixIndex?prefix=Template>: List of Wiki templates\]
     -   **[Help for first steps within the wiki - FreeCAD Forum](https://forum.freecadweb.org/viewtopic.php?f=21&t=15372)**
@@ -154,7 +154,7 @@ Pages for users, developers, wiki creators
 
 \[\[Category:UnfinishedDocu\]
 
-[Category:Sandbox](Category:Sandbox.md)
+_
 
 ---
-[documentation index](../README.md) > [Sandbox]]](Category:Sandbox]].md) > A Beginner's Questions about Working on the Wiki
+[documentation index](../README.md) > [Sandbox]]](Category_Sandbox]].md) > A Beginner's Questions about Working on the Wiki

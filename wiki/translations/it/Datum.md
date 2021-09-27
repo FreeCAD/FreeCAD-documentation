@@ -49,7 +49,7 @@ Quando sono apparsi nella v0.17, gli oggetti di riferimento erano destinati ad e
 
 }} {{Document objects navi}} 
 
-[Category:Glossary](Category:Glossary.md)
+_
 
 ---
-[documentation index](../README.md) > [Glossary](Category:Glossary.md) > Datum/it
+[documentation index](../README.md) > [Glossary](Category_Glossary.md) > Datum/it

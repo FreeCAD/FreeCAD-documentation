@@ -40,7 +40,7 @@ Source: [Forum thread](https://forum.freecadweb.org/viewtopic.php?f=8&t=31680&p=
 
 
 
-[Category:File\_Formats](Category:File_Formats.md)
+_
 
 ---
-[documentation index](../README.md) > [File_Formats](Category:File_Formats.md) > GlTF/en
+[documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > GlTF/en

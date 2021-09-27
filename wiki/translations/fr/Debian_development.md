@@ -6,7 +6,7 @@ Debian est la distribution parente à partir de laquelle de nombreuses autres di
 
 
 
-[Category:Packaging](Category:Packaging.md) [Category:Developer Documentation](Category:Developer_Documentation.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Packaging](Category:Packaging.md) > Debian development/fr
+[documentation index](../README.md) > [Packaging](Category_Packaging.md) > Debian development/fr

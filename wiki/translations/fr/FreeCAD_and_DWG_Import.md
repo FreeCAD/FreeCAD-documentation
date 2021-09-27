@@ -133,7 +133,7 @@ Dans la version de développement comme mentionné ci-dessus, vous pouvez passer
 
  
 
-[Category:File\_Formats](Category:File_Formats.md) [Category:Common Questions](Category:Common_Questions.md)
+_ _
 
 ---
-[documentation index](../README.md) > [File_Formats](Category:File_Formats.md) > FreeCAD and DWG Import/fr
+[documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > FreeCAD and DWG Import/fr

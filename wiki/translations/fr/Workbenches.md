@@ -1,5 +1,5 @@
 # Workbenches/fr
-FreeCAD, à l\'instar de nombreuses applications de conception modernes telles que [Revit](wikipedia:Revit.md) ou [CATIA](wikipedia:CATIA.md), est basé sur le concept d\'[Atelier](https://fr.wikipedia.org/wiki/Établi). Un atelier peut être considéré comme un ensemble d'outils spécialement regroupés pour une tâche donnée. Dans un atelier de fabrication de meubles traditionnels, vous disposerez d\'une table de travail pour la personne qui travaille le bois, d\'une autre pour celui qui travaille avec des pièces métalliques et peut-être d\'une troisième pour le gars qui monte toutes les pièces ensemble.
+FreeCAD, à l\'instar de nombreuses applications de conception modernes telles que _ ou _, est basé sur le concept d\'[Atelier](https://fr.wikipedia.org/wiki/Établi). Un atelier peut être considéré comme un ensemble d'outils spécialement regroupés pour une tâche donnée. Dans un atelier de fabrication de meubles traditionnels, vous disposerez d\'une table de travail pour la personne qui travaille le bois, d\'une autre pour celui qui travaille avec des pièces métalliques et peut-être d\'une troisième pour le gars qui monte toutes les pièces ensemble.
 
 Le même principe s\'applique dans FreeCAD. Les outils sont regroupés sous des ateliers, selon les tâches auxquelles ils sont destinés.
 
@@ -79,7 +79,7 @@ Vous pouvez activer un atelier par le menu **Vue → Atelier**.
 
 
 
-[Category:Workbenches](Category:Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > Workbenches/fr
+[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Workbenches/fr

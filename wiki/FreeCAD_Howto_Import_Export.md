@@ -257,7 +257,7 @@ Please refer to the Page [Importing From Sketchup](Importing_From_Sketchup.md)
 
 
 
-[Category:Common Questions](Category:Common_Questions.md)
+_
 
 ---
 [documentation index](../README.md) > FreeCAD Howto Import Export

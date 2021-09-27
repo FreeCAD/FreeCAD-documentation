@@ -3,7 +3,7 @@
 
 ## Introduction
 
-Le but de cette page est de couvrir des exemples de niveau avancé du gestionnaire GUI [PySide](PySide/fr.md) (il y a des pages d\'accompagnement [PySide: Exemples pour débutant](PySide_Beginner_Examples/fr.md) et [PySide: Exemples pour niveau intermédiaire](PySide_Intermediate_Examples/fr.md)).
+Le but de cette page est de couvrir des exemples de niveau avancé du gestionnaire GUI _ et [PySide: Exemples pour niveau intermédiaire](PySide_Intermediate_Examples/fr.md)).
 
 En utilisant le module PySide depuis FreeCAD, vous avez un contrôle total sur son interface. Vous pouvez par exemple:
 
@@ -102,7 +102,7 @@ self.dialog = FreeCADGui.PySideUic.loadUi(os.path.join(os.path.dirname(__file__)
 
 }} 
 
-[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > PySide Advanced Examples/fr
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > PySide Advanced Examples/fr

@@ -279,7 +279,7 @@ r.run(suite)
 
 
 
-[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Test Framework](Category:Test_Framework.md) [Category:Workbenches](Category:Workbenches.md) [Category:Testing](Category:Testing.md)
+_ _ _ _
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Testing/ro
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Testing/ro

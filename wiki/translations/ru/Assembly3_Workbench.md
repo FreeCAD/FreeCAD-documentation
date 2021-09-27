@@ -725,7 +725,7 @@ Assembly3 не предлагает смещение с константами, 
 
 
 
-[Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+_ _
 
 ---
-[documentation index](../README.md) > Assembly3 Workbench/ru
+[documentation index](../README.md) > [Addons](Category_Addons.md) > Assembly3 Workbench/ru

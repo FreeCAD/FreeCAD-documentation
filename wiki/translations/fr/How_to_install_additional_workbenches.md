@@ -4,7 +4,7 @@
 |Level=Programmeur moyen
 |Time=15 minutes
 |FCVersion=Toutes versions
-|Author=[r-frank](User:R-Frank.md)
+|Author=_
 |Files=aucun
 }}
 
@@ -168,7 +168,7 @@ Pour cet exemple, supposons que vous ayez choisi l\'[Atelier Courbes](Curves_Wor
 
  {{Powerdocnavi}}
 
-[Category:External Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)
+_ _
 
 ---
-[documentation index](../README.md) > [External Workbenches](Category:External Workbenches.md) > How to install additional workbenches/fr
+[documentation index](../README.md) > [External Workbenches](Category_External Workbenches.md) > How to install additional workbenches/fr

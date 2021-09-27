@@ -3,7 +3,7 @@
 
  
 
-A <img alt="" src=images/Mesh_Tree.svg  style="width:32px;"> [Mesh Feature](Mesh_Feature.md) object, or formally a `Mesh::Feature`, is a simple element with a [mesh object](Mesh_MeshObject.md) associated to it that can be displayed in the [3D view](3D_view.md).
+A <img alt="" src=images/Mesh_Tree.svg  style="width:32px;"> _ associated to it that can be displayed in the [3D view](3D_view.md).
 
 A Mesh Feature is similar conceptually to a [Part Feature](Part_Feature.md); the former is the base object for elements with \"mesh\" information, while the latter is the base object for elements with \"geometrical shape\" information.
 
@@ -24,7 +24,7 @@ A `Mesh::Feature` has simple properties like a [placement](Placement.md), and vi
 
 ## Properties
 
-A [Mesh Feature](Mesh_Feature.md) (`Mesh::Feature` class) is derived from the basic [App GeoFeature](App_GeoFeature.md) (`App::GeoFeature` class), therefore it shares all the latter\'s properties.
+A _ (`App::GeoFeature` class), therefore it shares all the latter\'s properties.
 
 In addition to the properties described in [App GeoFeature](App_GeoFeature.md), the Mesh Feature has the **Mesh** property, which stores the [Mesh MeshObject](Mesh_MeshObject.md) of this element; this is the geometry that is shown in the [3D view](3D_view.md).
 
@@ -154,7 +154,7 @@ obj.Label = "Custom label"
 
  {{Mesh Tools navi}} {{Document objects navi}} 
 
-[Category:Glossary](Category:Glossary.md)
+_
 
 ---
-[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Feature
+[documentation index](../README.md) > [Glossary](Category_Glossary.md) > [Mesh](Mesh_Workbench.md) > Mesh Feature

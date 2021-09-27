@@ -10,7 +10,7 @@ Siehe [Part TopoForm](Part_TopoShape/de.md) für weitere Information über diese
 ![](images/Shape_and_mesh.svg )
 
 
-*Links: parametrische [Form](Shape/de.md), definiert durch Eigenschaften. Rechts: [Polygonnetz](Mesh/de.md), definiert durch Knoten und Dreiecksflächen.*
+*Links: parametrische _, definiert durch Knoten und Dreiecksflächen.*
 
 ## Anwendung
 
@@ -26,14 +26,14 @@ Im informellen Gebrauch kann eine \"Form\" jede geometrische Figur sein, die in 
 
 Wenn jedoch mehr Präzision erforderlich ist, muss eine Unterscheidung getroffen werden.
 
--   Ein \"[Körper](Body/de.md)\" ist ein Objekt, das von einem [Part Formelement](Part_Feature/de.md) abgeleitet ist. (`Part::Feature` Klasse), erstellt mit der [PartDesign Arbeitsbereich](PartDesign_Workbench/de.md).
+-   Ein \"_.
 -   Eine \"Form\" ist ein internes Objekt, eingebettet in die Klasse \"[Körper](Body/de.md)\".
 -   Ein \"[Part](Part/de.md)\" wird verwendet, um mehrere \"[Körper](Body/de.md)\" zu gruppieren, um eine [Baugruppe](assembly/de.md) zu bilden. Ein \"Part\" hat eine Sammlung von \"Formen\", hat aber keine eigenständige \"Form\".
 
 
  {{Document objects navi}} 
 
-[Category:Glossary](Category:Glossary.md)
+_
 
 ---
-[documentation index](../README.md) > [Glossary](Category:Glossary.md) > Shape/de
+[documentation index](../README.md) > [Glossary](Category_Glossary.md) > Shape/de

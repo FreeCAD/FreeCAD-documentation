@@ -153,7 +153,7 @@ Remplacer une chaîne dans toutes les pages listées dans la catégorie Arch (co
 
 {{SystemInput|python3 pwb.py replace.py -cat:Arch}}
 
-[Category:Arch](Category:Arch.md) [Category:Administration](Category:Administration.md) [Category:Developer](Category:Developer.md)
+_ _ _
 
 ---
-[documentation index](../README.md) > [Administration](Category:Administration.md) > WikiRobots/fr
+[documentation index](../README.md) > [Administration](Category_Administration.md) > WikiRobots/fr

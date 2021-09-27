@@ -13,7 +13,7 @@
 
 ## Beskrivning
 
-This tool identifies and selects the non-solid (non-[manifold](http://en.wikipedia.org/wiki/Manifold)) meshes in a selected group of selected <img alt="Mesh Workbench" src=images/Workbench_Mesh.svg  style="width:24px;"> [Mesh](Mesh_Workbench.md) objects.
+This tool identifies and selects the non-solid (non-_ objects.
 
 
 <div class="mw-translate-fuzzy">
@@ -36,4 +36,4 @@ This tool identifies and selects the non-solid (non-[manifold](http://en.wikiped
 </div>
 
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SelectNonSolidMeshes/sv
+[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch SelectNonSolidMeshes/sv

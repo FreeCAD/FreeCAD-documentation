@@ -18,7 +18,7 @@
 
 }} 
 
-[Category:Web](Category:Web.md)
+_
 
 ---
-[documentation index](../README.md) > [Web](Category:Web.md) > Artwork Web/ru
+[documentation index](../README.md) > [Web](Category_Web.md) > Artwork Web/ru

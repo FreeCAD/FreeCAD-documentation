@@ -214,14 +214,14 @@ Pode instalar a versão de Windows do FreeCAD num sistema Linux usando o *CXOffi
 
 .msi
 
-O FreeCAD está a correr, mas ha informação de que a imagem do OpenGL não funciona, tal como os outros programas a correr no [Wine](wikipedia:Wine_(software).md) i.e. Google [SketchUp](wikipedia:SketchUp.md).
+O FreeCAD está a correr, mas ha informação de que a imagem do OpenGL não funciona, tal como os outros programas a correr no _ i.e. Google _.
 
 
 ```python
 msiexec /i Y:\\software\\FreeCAD<version>.msi
 ```
 
-FreeCAD is running, but it has been reported that the OpenGL display does not work, like with other programs running under [Wine](wikipedia:Wine_(software).md) i.e. Google [SketchUp](wikipedia:SketchUp.md).
+FreeCAD is running, but it has been reported that the OpenGL display does not work, like with other programs running under _ i.e. Google _.
 
 
 <div class="mw-translate-fuzzy">

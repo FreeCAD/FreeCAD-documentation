@@ -168,7 +168,7 @@
 
 }}
 
-[Category:Icon](Category:Icon.md) [Category:Developer Documentation](Category:Developer_Documentation.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Icon](Category:Icon.md) > Artwork/ru
+[documentation index](../README.md) > [Icon](Category_Icon.md) > Artwork/ru

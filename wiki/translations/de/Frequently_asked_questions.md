@@ -9,11 +9,11 @@ Wenn du unter Windows oder Mac OS arbeitest, ist der einfachste Weg, auf die Sei
 
 ### Was sind die Voraussetzungen um FreeCAD auszuführen 
 
-Im Gegensatz zu den meisten 3D CAD Programmen kann FreeCAD problemlos auf den einfachsten Computern laufen - es ist bekannt, dass es auf Pentium IV und Intel Core2 Solo CPUs läuft. Wenn auf deinem Computer ein aktuelles Betriebssystem läuft, stehen die Chancen gut, dass FreeCAD läuft. Die einzige Voraussetzung ist, dass deine Grafikkarte oder dein Chipsatz [OpenGL](https://en.wikipedia.org/wiki/OpenGL) unterstützen muss, vorzugsweise nicht älter als v2.0. Bei Problemen lies bitte den Abschnitt [Fehlerbehebung](Frequently_asked_questions/de#Fehlerbehebung.md) dieser FAQ.
+Im Gegensatz zu den meisten 3D CAD Programmen kann FreeCAD problemlos auf den einfachsten Computern laufen - es ist bekannt, dass es auf Pentium IV und Intel Core2 Solo CPUs läuft. Wenn auf deinem Computer ein aktuelles Betriebssystem läuft, stehen die Chancen gut, dass FreeCAD läuft. Die einzige Voraussetzung ist, dass deine Grafikkarte oder dein Chipsatz _ dieser FAQ.
 
 #### Multithreading
 
-FreeCADs zugrunde liegender geometrischer Modellierungskern, die [OpenCASCADE Technologie](http://en.wikipedia.org/wiki/Open_Cascade_Technology) (OCCT) Drittanbieterbibliothek, [hat derzeit nur teilweise Multi-Threading Unterstützung](https://forum.freecadweb.org/viewtopic.php?f=4&t=17501&p=173095&hilit=Multithread#p173095). Siehe die [multithreading](multithreading/de.md) Seite für weitere Einzelheiten.
+FreeCADs zugrunde liegender geometrischer Modellierungskern, die _ Seite für weitere Einzelheiten.
 
 #### Für Mac Nutzer 
 
@@ -67,7 +67,7 @@ Es kann zwei Wege zu diesem Problem geben: entweder fehlt einfach eine Bibliothe
 
 Bitte überprüfe die Installationsprozedur ([Windows](Installing_on_Windows/de.md), [Linux](Installing_on_Linux/de.md) oder [Mac](Installing_on_Mac.md)), stelle sicher, dass du alle erforderlichen Bibliotheken installiert hast (auf den meisten Linux Systemen geschieht dies automatisch), und überprüfe, was die minimale Versionsnummer für jede der Komponenten ist.
 
-Wenn alles richtig aussieht, beschreibe das Problen im [Forum](http://forum.freecadweb.org/) oder [Einen Fehler über-Mitteln](Tracker/de.md). Wenn Du auf einem Linux-System bist, ist es einfach, eine Fehlerrückverfolung zu erstellen, der für die Entwickler sehr wichtige Informationen über den Absturz liefert:
+Wenn alles richtig aussieht, beschreibe das Problen im _. Wenn Du auf einem Linux-System bist, ist es einfach, eine Fehlerrückverfolung zu erstellen, der für die Entwickler sehr wichtige Informationen über den Absturz liefert:
 
 -   Tippe in einem Terminal {{SystemInput|gdb freecad}} (vorausgesetzt, das gdb Paket ist installiert)
 -   In gdb, tippe {{SystemInput|run}}
@@ -119,7 +119,7 @@ Es gibt ein [Makro findeKonfigDateien](Makro_findConfigFiles/de.md), das beim Au
 
 ### Ist FreeCAD wirklich kostenlos? Sogar für kommerzielle Nutzung? 
 
-FreeCAD ist [Open-Source Software](https://de.wikipedia.org/wiki/Open_Source) und ist nicht nur frei, um es für sich selbst oder für kommerzielle Zwecke zu nutzen, sondern auch, um es zu verteilen, zu modifizieren oder sogar in einer Closed-Source Anwendung zu verwenden. Zusammenfassend, du bist frei (fast) alles damit machen zu können, was du willst. Siehe die [Lizenz](License/de.md) Seite für weitere Details.
+FreeCAD ist _ Seite für weitere Details.
 
 ### Wie drehe ich die 3D Ansicht? 
 
@@ -173,7 +173,7 @@ Mach dich auf zur [Erste Schritte](Getting_started/de.md) Seite für eine kurze 
 
 ### Gibt es Dokumentation für Neueinsteiger? Wie kann ich die Benutzung von FreeCAD lernen? 
 
-Es gibt eine Menge Dokumentation, die an verschiedenen Stellen verteilt ist, sowohl auf der FreeCAD Webseite als auch außerhalb. Du solltest mit der Seite [Erste Schritte](Getting_started/de.md) beginnen. Der Bereich [Tutorien](Tutorials/de.md) enthält viele spezialisierte Tutorienseiten, die dir den Einstieg in die verschiedenen Arbeitsbereiche erleichtern. Das [Handbuch:Einführung](Manual:Introduction/de.md) ist eine allgemeine, vollständige, benutzerorientierte Anleitung zu FreeCAD. Der [Anwenderzentrums](User_hub/de.md) Abschnitt dieses Wikis listet alle Seiten auf, die sich an Endanwender richten. Auf externen Seiten wie z.B. [Youtube](https://www.youtube.com/results?search_query=freecad) findest du auch eine Menge von Video Tutorien, die von Benutzern erstellt wurden. Und nicht zuletzt enthält das [Forum](https://forum.freecadweb.org) eine Menge Antworten auf Fragen, die von anderen Neulingen gestellt wurden.
+Es gibt eine Menge Dokumentation, die an verschiedenen Stellen verteilt ist, sowohl auf der FreeCAD Webseite als auch außerhalb. Du solltest mit der Seite _ ist eine allgemeine, vollständige, benutzerorientierte Anleitung zu FreeCAD. Der [Anwenderzentrums](User_hub/de.md) Abschnitt dieses Wikis listet alle Seiten auf, die sich an Endanwender richten. Auf externen Seiten wie z.B. [Youtube](https://www.youtube.com/results?search_query=freecad) findest du auch eine Menge von Video Tutorien, die von Benutzern erstellt wurden. Und nicht zuletzt enthält das [Forum](https://forum.freecadweb.org) eine Menge Antworten auf Fragen, die von anderen Neulingen gestellt wurden.
 
 ### Ich möchte Daten im XYZ Format nach/von FreeCAD im-/exportieren. Wie mache ich das? 
 
@@ -273,7 +273,7 @@ Ja, du kannst die Kernteile von FreeCAD in anderen Anwendungen verwenden, solang
 
 
 
-[Category:Documentation](Category:Documentation.md)
+_
 
 ---
-[documentation index](../README.md) > [Documentation](Category:Documentation.md) > Frequently asked questions/de
+[documentation index](../README.md) > [Documentation](Category_Documentation.md) > Frequently asked questions/de

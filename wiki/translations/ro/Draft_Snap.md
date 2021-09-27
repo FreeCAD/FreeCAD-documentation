@@ -6,7 +6,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Ancorarea(Snapping) înseamnă \"lipirea\" următorului punct 3D pe un punct existent. Snapping este disponibil cu majoritatea instrumentelor [Draft Workbench](Draft_Workbench.md) and [Arch Workbench](Arch_Workbench.md) și poate fi activat și dezactivat la nivel global cu <img alt="" src=images/Snap_Lock.png  style="width:32px;"> [Draft ToggleSnap](#Options.md) . Fiecare locație de tip snap de mai jos poate fi activată sau dezactivată individual făcând clic pe butonul corespunzător din bara de instrumente snap. 
+Ancorarea(Snapping) înseamnă \"lipirea\" următorului punct 3D pe un punct existent. Snapping este disponibil cu majoritatea instrumentelor _ . Fiecare locație de tip snap de mai jos poate fi activată sau dezactivată individual făcând clic pe butonul corespunzător din bara de instrumente snap. 
 **View → Toolbars → Draft Snap**
 
 
@@ -36,7 +36,7 @@ Note that circular edges do not have to be full circles.
 
 -   <img alt="" src=images/Draft_Snap_Midpoint.svg  style="width:32px;"> [Snap Midpoint](Draft_Snap_Midpoint.md): snaps to the midpoint of straight and circular edges.
 
--   <img alt="" src=images/Draft_Snap_Center.svg  style="width:32px;"> [Snap Center](Draft_Snap_Center.md): snaps to the center point of faces and circular edges, and to the **Placement** point of [Draft WorkingPlaneProxies](Draft_WorkingPlaneProxy.md) and [Arch BuildingParts](Arch_BuildingPart.md).
+-   <img alt="" src=images/Draft_Snap_Center.svg  style="width:32px;"> _ and [Arch BuildingParts](Arch_BuildingPart.md).
 
 -   <img alt="" src=images/Draft_Snap_Angle.svg  style="width:32px;"> [Snap Angle](Draft_Snap_Angle.md): snaps to the special cardinal points on circular edges, at multiples of 30° and 45°.
 
@@ -56,7 +56,7 @@ Note that circular edges do not have to be full circles.
 
 -   <img alt="" src=images/Draft_Snap_Grid.svg  style="width:32px;"> [Snap Grid](Draft_Snap_Grid.md): snaps to the intersections of grid lines.
 
--   <img alt="" src=images/Draft_Snap_WorkingPlane.svg  style="width:32px;"> [Snap WorkingPlane](Draft_Snap_WorkingPlane.md): projects the snap point onto the current [working plane](Draft_SelectPlane.md).
+-   <img alt="" src=images/Draft_Snap_WorkingPlane.svg  style="width:32px;"> _.
 
 -   <img alt="" src=images/Draft_Snap_Dimensions.svg  style="width:32px;"> [Snap Dimensions](Draft_Snap_Dimensions.md): shows temporary X and Y dimensions.
 
@@ -89,7 +89,7 @@ Note that after changing some preferences you must restart FreeCAD.
 
 ## Opțiuni
 
--   <img alt="" src=images/Snap_Lock.png  style="width:32px;"> [Lock](Draft_ToggleSnap.md): activează global ancorarea on/off
+-   <img alt="" src=images/Draft_Snap_Lock.svg  style="width:32px;"> [Lock](Draft_ToggleSnap.md): activează global ancorarea on/off
 -   Anumite locații de fixare suplimentare pot fi obținute prin combinarea a două locații snap, cum ar fi extensia orto +, care vă va oferi un punct de fixare la intersecția liniilor lor imaginare.
 -   Alte locații, mai complexe, pot fi obținute prin utilizarea [constraining](Draft_Constrain.md) (by pressing **SHIFT** or **X** or **Y** or **Z** while drawing).
 -   apăsarea tastei **L** în timpul desenării, blochează unghiul curent al segmentului de linie care este desenat.
@@ -111,7 +111,7 @@ Note that after changing some preferences you must restart FreeCAD.
 
  
 
-[Category:User Documentation/ro](Category:User_Documentation/ro.md)
+_
 
 ---
 [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap/ro

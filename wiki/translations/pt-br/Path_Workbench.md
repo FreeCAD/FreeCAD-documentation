@@ -21,7 +21,7 @@ A <img alt="" src=images/Workbench_Path.svg  style="width:24px;"> [bancada de tr
 O fluxo de trabalho da bancada Path do FreeCAD Path cria essas instruções de máquina da seguinte maneira:
 
 -   Um modelo 3D é o objeto base, normalmente criado usando uma ou mais das Bancadas de trabalho [ Part Design](PartDesign_Workbench/pt-br.md), [ Part](Part_Workbench/pt-br.md) ou [ Draft](Draft_Workbench/pt-br.md).
--   Um [ Trabalho](Path_Job/pt-br.md) é criado na bancada Path. Este contém todas as informações necessárias para gerar o G-Code necessário para processar o trabalho em uma fresadora CNC: há material de estoque, a fresadora possui um determinado [ conjunto de ferramentas](Path_ToolLibraryEdit/pt-br.md) e segue certos comandos controlando a velocidade e os movimentos (geralmente G-Code).
+-   Um _ e segue certos comandos controlando a velocidade e os movimentos (geralmente G-Code).
 -   As ferramentas são selecionadas conforme exigido pelas operações do trabalho.
 -   Os caminhos de fresagem são criados usando, por exemplo, operações [ Contorno](Path_Profile/pt-br.md) e [ Corte](Path_Pocket_3D/pt-br.md). Estes [ Objetos de caminho](Path_objects/pt-br.md) usam o dialeto interno do G-Code do FreeCAD, independente da máquina CNC.
 -   Exporte o trabalho com um G-Code, correspondente à sua máquina. Essa etapa é chamada de \"pós-processamento\"; existem diferentes pós-processadores disponíveis.
@@ -514,7 +514,7 @@ Confira a página [Path scripting](Path_scripting.md).
 
 ## Videos
 
--   [FreeCAD Path: Custom paths with Python - Part 1 - 5](https://www.youtube.com/playlist?list=PLEuOia-QxyFKgzAeTyH62GKqWKVURiWJL): a playlist with a series of 5 videos in English by sliptonic. This series shows how to work with the [Path Workbench](Path_Workbench.md).
+-   _.
 -   [FreeCAD CAM Path Workbench](https://www.youtube.com/playlist?list=PLUrr_kHPp4vhGdLlj6IemtF-OPUlRvSTC): a playlist with a series of 7 videos in English by CAD CAM Lessons.
 -   [FreeCAD CAM CNC](https://www.youtube.com/playlist?list=PLUrr_kHPp4vh2n6DcIlegK4dEKIFjmISJ) a playlist with a series of 8 videos in English by CAD CAM Lessons.
 
@@ -526,7 +526,7 @@ Confira a página [Path scripting](Path_scripting.md).
 
 }} 
 
-[Category:Workbenches](Category:Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > Path Workbench/pt-br
+[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Path Workbench/pt-br

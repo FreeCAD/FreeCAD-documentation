@@ -151,7 +151,7 @@ Ces pages font référence à un plan de travail de remplacement, programmé en 
 
 }} 
 
-[Category:Workbenches](Category:Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > Raytracing Workbench/fr
+[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Raytracing Workbench/fr

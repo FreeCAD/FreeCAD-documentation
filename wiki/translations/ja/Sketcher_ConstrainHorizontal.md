@@ -1,6 +1,6 @@
 # Sketcher ConstrainHorizontal/ja
 ---
-- GuiCommand:/jp   Name:Sketcher ConstrainHorizontal   Workbenches:[パートデザイン](Sketcher_Workbench/jp___スケッチャー]],_[[PartDesign_Workbench/jp.md)|MenuLocation:Sketch → Sketcher constraints → Constrain horizontally   SeeAlso:[Constraint Vertical](Constraint_Vertical/jp.md)---
+- GuiCommand:/jp   Name:Sketcher ConstrainHorizontal   Workbenches:_---
 
 
 </div>
@@ -59,7 +59,7 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 }}  
 
-[Category:Sketcher](Category:Sketcher.md)
+_
 
 ---
 [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainHorizontal/ja

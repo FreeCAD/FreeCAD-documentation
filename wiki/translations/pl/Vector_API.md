@@ -67,7 +67,7 @@ print v3.Length
 
  
 
-[Category:API](Category:API.md) [Category:Poweruser Documentation](Category:Poweruser_Documentation.md)
+_ _
 
 ---
-[documentation index](../README.md) > [API](Category:API.md) > Vector API/pl
+[documentation index](../README.md) > [API](Category_API.md) > Vector API/pl

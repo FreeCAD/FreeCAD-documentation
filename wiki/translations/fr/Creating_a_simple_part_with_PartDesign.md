@@ -119,7 +119,7 @@ Si votre esquisse n\'est pas encore verte, un ou plusieurs points ne sont pas co
 
 Procédez de la même manière avec tous les points.
 
-Si votre esquisse n\'est toujours pas verte, vérifiez que tous les segments (sauf le segment incliné) aient une contrainte soit <img alt="" src=images/Constraint_Horizontal.svg  style="width:24px;"> [Horizontal](Sketcher_ConstrainHorizontal/fr.md), soit <img alt="" src=images/Constraint_Vertical.svg  style="width:24px;"> [Vertical](Sketcher_ConstrainVertical/fr.md), rajoutez la éventuellement.
+Si votre esquisse n\'est toujours pas verte, vérifiez que tous les segments (sauf le segment incliné) aient une contrainte soit <img alt="" src=images/Constraint_Horizontal.svg  style="width:24px;"> _, rajoutez la éventuellement.
 
 ### Utiliser les fonctions Pad et Pocket 
 

@@ -14,7 +14,7 @@ Der **Std AnsichtIvStereoRotGrün** Befehl ändert die aktive [3D Ansicht](3D_vi
 
 ## Anwendung
 
-1.  Wähle die {{MenuCommand/de|Ansicht → Stereo → [16px](Bild:Std_ViewIvStereoRedGreen.svg.md) Stereo rot/cyan}} Option aus dem Menü.
+1.  Wähle die {{MenuCommand/de|Ansicht → Stereo → _ Stereo rot/cyan}} Option aus dem Menü.
 
 ## Einstellungen
 

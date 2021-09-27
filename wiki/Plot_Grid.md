@@ -24,7 +24,7 @@ This tool acts on the active set of axis. In case of multi-axes plots you can se
 
  {{Plot_Tools_navi}} 
 
-[Category:External\_Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)
+_ _
 
 ---
-[documentation index](../README.md) > [External_Workbenches](Category:External_Workbenches.md) > Plot Grid
+[documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > Plot Grid

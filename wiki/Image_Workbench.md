@@ -31,7 +31,7 @@ The offset of the image can be set during import, or changed later through its p
 
  {{Image Tools navi}} 
 
-[Category:Workbenches](Category:Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > Image Workbench
+[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Image Workbench

@@ -21,7 +21,7 @@ Narzędzie Widok dodaje reprezentację jednego lub więcej obiektów do strony R
 2.  Jeśli masz wiele stron rysunków w dokumencie, będziesz musiał również wybrać żądaną stronę na drzewku. Użyj przycisku **Ctrl**, aby wybrać wiele elementów w drzewie.
 3.  Naciśnij przycisk **<img src="images/TechDraw_View.svg" width=16px> [Wstaw widok](TechDraw_View/pl.md)**.
 
-Widok będzie próbował narysować cokolwiek z właściwością `kształt`. Możesz wybrać obiekty środowiska [Rysunek Roboczy](Draft_Workbench/pl.md) i również [Projekt Części: Zawartość](PartDesign_Body/pl.md). Widok wyodrębni również kształty z obiektów w kontenerze [App::Część](Std_Part.md) lub [Grupa](Std_Group/pl.md).
+Widok będzie próbował narysować cokolwiek z właściwością `kształt`. Możesz wybrać obiekty środowiska _. Widok wyodrębni również kształty z obiektów w kontenerze [App::Część](Std_Part.md) lub [Grupa](Std_Group/pl.md).
 
 ## Właściwości
 

@@ -110,7 +110,7 @@ Notez que si la macro originale a été téléchargée via le gestionnaire d'add
 
 }}
 
-[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md) [Category:Macros](Category:Macros.md)
+_ _ _
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Macro at Startup/fr
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Macro at Startup/fr

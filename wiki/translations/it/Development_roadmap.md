@@ -48,7 +48,7 @@ Come nelle maggior parte dei progetti di [Software libero e open source (FLOSS)]
 
 
 
-[Category:Roadmap](Category:Roadmap.md)
+_
 
 ---
-[documentation index](../README.md) > [Roadmap](Category:Roadmap.md) > Development roadmap/it
+[documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > Development roadmap/it

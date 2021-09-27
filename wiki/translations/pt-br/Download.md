@@ -14,7 +14,7 @@ Versões anteriores podem ser baixadas da página [releases](https://github.com/
 |                                                                                                                                          |   |                                                                                                                                                        |   |                                                                         |
 | Install on Windows                                                                                                                       |   | Install on Mac                                                                                                                                         |   | Install on Linux                                                        |
 |                                                                                                                                          |   |                                                                                                                                                        |   |                                                                         |
-| [64-bit](https://github.com/FreeCAD/FreeCAD/releases/download/0.19.2/FreeCAD-0.19.2.7b5e18a-WIN-x64-installer1.exe) (includes installer) |   | [macOS](https://github.com/FreeCAD/FreeCAD/releases/download/0.19.2/FreeCAD_0.19-24291-macOS-x86_64-conda.dmg) 64-bit |   | [AppImage](AppImage.md) 64-bit |
+| _ 64-bit |
 +------------------------------------------------------------------------------------------------------------------------------------------+---+--------------------------------------------------------------------------------------------------------------------------------------------------------+---+-------------------------------------------------------------------------+
 
 ### Notas para usuários do Windows 
@@ -53,7 +53,7 @@ Mais informações sobre as variáveis de ambiente do FreeCAD podem ser encontra
 
 ## Módulos e macros adicionais 
 
-A comunidade FreeCAD fornece muitos módulos e macros adicionais. A partir de 0.17 eles podem ser facilmente instalados de dentro do FreeCAD usando o [Addon Manager](Addon_Manager/pt-br.md). [22px](Imagem:AddonManager.svg.md).
+A comunidade FreeCAD fornece muitos módulos e macros adicionais. A partir de 0.17 eles podem ser facilmente instalados de dentro do FreeCAD usando o _.
 
 ---
 [documentation index](../README.md) > Download/pt-br

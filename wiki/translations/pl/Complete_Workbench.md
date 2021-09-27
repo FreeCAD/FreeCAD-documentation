@@ -10,7 +10,7 @@ Zobacz temat [dostosowywanie interfejsu użytkownika do własnych potrzeb](Inter
 
 
 
-[Category:Complete](Category:Complete.md) [Category:Obsolete Workbenches](Category:Obsolete_Workbenches.md)
+_ _
 
 ---
-[documentation index](../README.md) > Complete Workbench/pl
+[documentation index](../README.md) > [Complete](Category_Complete.md) > Complete Workbench/pl

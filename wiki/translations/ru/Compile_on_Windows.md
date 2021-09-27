@@ -368,7 +368,7 @@ FreeCAD использует [Qt](https://en.wikipedia.org/wiki/Qt_(software)) �
 
 Чтобы Qt Designer знал о виджетах FreeCAD, вы должны
 
-1.  Скачать [this ZIP](https://forum.freecadweb.org/download/file.php?id=124239) файл. (Скомпилирован с использованием Qt 5.12, см. [below](#Compilation.md).)
+1.  Скачать _.)
 2.  Извлеките DLL-файл в ZIP-файле и скопируйте его
 
 -   Если вы используете LibPack: в папку\"\~\\FreeCADLibs\_12.5.2\_x64\_VC17\\bin\\designer\", так как там будет только папка \"bin\", и вы должны сначала создать подпапку \"конструктор\".
@@ -376,7 +376,7 @@ FreeCAD использует [Qt](https://en.wikipedia.org/wiki/Qt_(software)) �
 
 (Повторно)Запустите Qt Designer и проверьте его меню **Help → Plugins**. Если плагин \"\' FreeCAD\_widgets.dll\"\' указана как загружаемая, теперь вы можете создавать и изменять файлы .ui FreeCAD. Если нет, вы должны [compile](#Compilation.md) создать библиотеку DLL самостоятельно.
 
-Если вы предпочитаете использовать [Qt Creator](https://en.wikipedia.org/wiki/Qt_Creator) вместо Qt Designer библиотека DLL должна быть помещена в эту папку:\"C:\\Qt\\Qt5.15.2\\Tools\\QtCreator\\bin\\plugins\\designer\"(Повторно)Запустите Qt Creator, переключитесь в режим \"Design\", а затем проверьте меню **Tools → Form Editor → About Qt Designer Plugins**. Если плагин \"\' FreeCAD\_widgets.dll\"\' указана как загружаемая, теперь вы можете создавать и изменять файлы .ui FreeCAD. Если нет, вы должны [compile](#Compilation.md) создать библиотеку DLL самостоятельно.
+Если вы предпочитаете использовать _ создать библиотеку DLL самостоятельно.
 
 #### Сборник 
 
@@ -454,7 +454,7 @@ FreeCAD имеет функцию предварительного просмо�
 
 
 
-[Category:Developer\_Documentation](Category:Developer_Documentation.md) [Category:Developer](Category:Developer.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Developer_Documentation](Category:Developer_Documentation.md) > Compile on Windows/ru
+[documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > Compile on Windows/ru

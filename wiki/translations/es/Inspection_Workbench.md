@@ -23,7 +23,7 @@ Alternativamente, usa la macro <img alt="" src=images/HighlightDifference.png  s
 
 
 
-[Category:Inspection](Category:Inspection.md) [Category:Workbenches](Category:Workbenches.md)
+_ _
 
 ---
-[documentation index](../README.md) > Inspection Workbench/es
+[documentation index](../README.md) > [Inspection](Category_Inspection.md) > Inspection Workbench/es

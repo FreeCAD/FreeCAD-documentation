@@ -224,7 +224,7 @@ Qt ne fournit pas la fonctionnalité pour récupérer cette valeur. Nous devons 
 
 
 
-[Category:Roadmap](Category:Roadmap.md)
+_
 
 ---
-[documentation index](../README.md) > [Roadmap](Category:Roadmap.md) > HiDPI support/fr
+[documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > HiDPI support/fr

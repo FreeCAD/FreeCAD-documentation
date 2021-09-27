@@ -331,4 +331,4 @@ abs(N) = 1 = sqrt(sin^2(angle) + cos^2(angle) + z^2)
 }}   {{Sketcher Tools navi}}
 
 ---
-[documentation index](../README.md) > [Arch](Category:Arch.md) > Tutorial custom placing of windows and doors/pl
+[documentation index](../README.md) > [Arch](Category_Arch.md) > Tutorial custom placing of windows and doors/pl

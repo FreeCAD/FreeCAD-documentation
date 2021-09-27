@@ -38,7 +38,7 @@ The **Leave sketch** command exits the sketch editing mode and frees up the [Tas
 
 }}  
 
-[Category:Sketcher/es](Category:Sketcher/es.md)
+_
 
 ---
 [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher LeaveSketch/es

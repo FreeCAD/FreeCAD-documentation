@@ -14,7 +14,7 @@
 
 }} 
 
-[Category:Image](Category:Image.md)
+_
 
 ---
-[documentation index](../README.md) > [Image](Category:Image.md) > Artwork Image/ru
+[documentation index](../README.md) > [Image](Category_Image.md) > Artwork Image/ru

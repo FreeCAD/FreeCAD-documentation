@@ -48,7 +48,7 @@ Per imparare a usare il sistema di controllo di revisione e contribuire con il c
 
 
 
-[Category:Developer\_Documentation](Category:Developer_Documentation.md) [Category:Developer](Category:Developer.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Developer_Documentation](Category:Developer_Documentation.md) > Compiling/it
+[documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > Compiling/it

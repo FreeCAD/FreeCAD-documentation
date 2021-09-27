@@ -83,7 +83,7 @@ Los nuevos Ambientes de Trabajo están siempre en desarrollo, ¡manténganse en 
 
 
 
-[Category:Workbenches](Category:Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > Workbenches/es
+[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Workbenches/es

@@ -253,7 +253,7 @@ For a detailed description see <http://theseger.com/projects/2015/06/fasteners-w
 
  
 
-[Category:Addons](Category:Addons.md) [Category:External Command Reference](Category:External_Command_Reference.md) [Category:External Workbenches](Category:External_Workbenches.md) [Category:Fasteners](Category:Fasteners.md)
+_ _ _ _
 
 ---
-[documentation index](../README.md) > Fasteners Workbench
+[documentation index](../README.md) > [Addons](Category_Addons.md) > Fasteners Workbench

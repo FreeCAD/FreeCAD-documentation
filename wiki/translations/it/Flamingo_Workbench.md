@@ -549,7 +549,7 @@ Apre una finestra di dialogo per calcolare le perdite di carico attraverso le pa
 
 <div class="mw-translate-fuzzy">
 
--   [DevWorkbenches](Template:DevWorkbenches.md): Elenco di ambienti di lavoro in fase di sviluppo.
+-   _: Elenco di ambienti di lavoro in fase di sviluppo.
 -   [Esempi di Macro](Macros_recipes/it.md)
 -   [OSE-Piping-Workbench: applicazione per creare ulteriori raccordi per tubi](https://wiki.opensourceecology.org/wiki/OSE_Piping_Workbench)
 
@@ -567,7 +567,7 @@ Sono in fase di sviluppo ulteriori nuovi ambienti.
 
 
 
-[Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+_ _
 
 ---
-[documentation index](../README.md) > Flamingo Workbench/it
+[documentation index](../README.md) > [Addons](Category_Addons.md) > Flamingo Workbench/it

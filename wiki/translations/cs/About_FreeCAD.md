@@ -78,7 +78,7 @@ FreeCAD je udržován a vyvíjen komunitou nadšených vývojářů a uživatel�
 
 
 
-[Category:User Documentation](Category:User_Documentation.md)
+_
 
 ---
-[documentation index](../README.md) > [User Documentation](Category:User Documentation.md) > About FreeCAD/cs
+[documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > About FreeCAD/cs

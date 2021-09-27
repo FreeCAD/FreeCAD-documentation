@@ -25,7 +25,7 @@ Ce tutoriel a pour but d\'initier le lecteur à utilisation de l\' [Atelier Part
 
 L\'objectif de l**\'atelier PartDesign** est de permettre à l\'utilisateur de créer des formes géométriques dans un espace 3D, pour répondre à un certain besoin. Ainsi , sont mis à disposition des outils pour faire des esquisses et les convertir en objets 3D.
 
-Il existe deux outils de base pour y parvenir: <img alt="" src=images/PartDesign_Pad.svg  style="width:32px;"> [protusion](PartDesign_Pad/fr.md) et <img alt="" src=images/PartDesign_Revolution.svg  style="width:32px;"> [Révolution](PartDesign_Revolution/fr.md). À coté de leur équivalent de substitution (<img alt="" src=images/PartDesign_Pocket.svg  style="width:32px;"> [Poche](PartDesign_Pocket/fr.md) et <img alt="" src=images/PartDesign_Groove.svg  style="width:32px;"> [Rainure](PartDesign_Groove/fr.md)) Ils permettent de faire la plupart des actions usuelles utilisées dans cet atelier.
+Il existe deux outils de base pour y parvenir: <img alt="" src=images/PartDesign_Pad.svg  style="width:32px;"> _. À coté de leur équivalent de substitution (<img alt="" src=images/PartDesign_Pocket.svg  style="width:32px;"> _) Ils permettent de faire la plupart des actions usuelles utilisées dans cet atelier.
 
 1.  Aller sur l\'atelier PartDesign
 2.  L\'esquisse étant sélectionnée dans l\'<img src=images/PartDesign_Body.svg style="width:arborescence](tree_view/fr.md), appuyez sur **[16px"> [PartDesign Body](PartDesign_Body/fr.md)**, choisissez le plan XY par défaut et appuyez sur **OK**. L\'esquisse doit maintenant apparaître à l\'intérieur du corps.

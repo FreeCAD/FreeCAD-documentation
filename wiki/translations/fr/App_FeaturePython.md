@@ -1,7 +1,7 @@
 # App FeaturePython/fr
 ## Introduction
 
-Un objet <img alt="" src=images/Feature.svg  style="width:32px;"> [App FeaturePython](App_FeaturePython/fr.md), ou officiellement `App::FeaturePython`, est une simple instance de [App DocumentObject](App_DocumentObject/fr.md) dans [Python](Python/fr.md).
+Un objet <img alt="" src=images/Feature.svg  style="width:32px;"> _ dans [Python](Python/fr.md).
 
 Il s\'agit d\'un objet simple qui, par défaut, n\'a pas beaucoup de propriétés, par exemple, pas de [Positionnement](Placement/fr.md) ni [forme topologique](Part_TopoShape/fr.md). Cet objet est destiné à un usage général, et en lui donnant des propriétés. Il peut être utilisé pour gérer différents types de données.
 
@@ -18,7 +18,7 @@ Voir [Script](App_FeaturePython/fr#Script.md) pour plus d\'informations.
 
 ## Propriétés
 
-Une classe [App FeaturePython](App_FeaturePython/fr.md) (`App::FeaturePython` classe) est dérivée de la classe de base [App DocumentObject](App_DocumentObject/fr.md) (`App::DocumentObject` classe).Elle partage toutes les propriétés de cette dernière.
+Une classe _ (`App::DocumentObject` classe).Elle partage toutes les propriétés de cette dernière.
 
 En plus des propriétés décrites dans [App DocumentObject](App_DocumentObject/fr.md), FeaturePython possède un fournisseur de vues de base, il apparaît donc dans la [vue arborescente](tree_view/fr.md).
 
@@ -86,7 +86,7 @@ obj = App.ActiveDocument.addObject("App::FeaturePython", "Name")
 obj.Label = "Custom label"
 ```
 
-Par exemple, les éléments [Draft Text](Draft_Text/fr.md), [Draft Dimension](Draft_Dimension/fr.md) et [Proxy pour plan de travail](Draft_WorkingPlaneProxy/fr.md) de l\'[Atelier Draft](Draft_Workbench/fr.md) sont des objets `App::FeaturePython` avec une icône personnalisée et des propriétés additionnelles. Ils contiennent des données mais pas une [Part TopoShape](Part_TopoShape/fr.md) réelle.
+Par exemple, les éléments _ réelle.
 
 Si l\'objet souhaité doit avoir un placement, une forme, une pièce jointe ou d\'autres propriétés complexes, il est préférable de créer l\'une des classes les plus complexes, par exemple, [App GeoFeature](App_GeoFeature/fr.md), [Part Feature ](Part_Feature/fr.md) ou [Part Part2DObject](Part_Part2DObject/fr.md).
 

@@ -73,7 +73,7 @@ Für eine erweiterte Konfiguration beziehe dich auf das [WürfelMenü](Interface
 
 
 
-[Category:User Documentation](Category:User_Documentation.md)
+_
 
 ---
-[documentation index](../README.md) > [User Documentation](Category:User Documentation.md) > Navigation Cube/de
+[documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > Navigation Cube/de

@@ -207,6 +207,18 @@ In expressions it is possible to use the components of the placement for example
 <<Cube>>.Placement.Base.x
 ```
 
+You can access the angle of the rotation by 
+```python
+<<Cube>>.Placement.Rotation.Angle
+```
+
+The axis of rotation can be accessed with 
+```python
+<<Cube>>.Placement.Rotation.Axis.x
+<<Cube>>.Placement.Rotation.Axis.y
+<<Cube>>.Placement.Rotation.Axis.z
+``` where often one of these values is 1 while the others are 0.
+
 You can also use the whole Placement in a single expression: Right click on Placement property in the property editor, select \"show all\" then extra properties will show. If you then right click on Placement again the context menu will include Expression, select Expression then the Expression dialogue will open and whatever you type will go into the Placement property rather than its child properties.
 
 To make the placement of \"Sketch\" equal to that of \"Cylinder\", you would enter in that way for Sketch the expression 

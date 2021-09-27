@@ -15,7 +15,7 @@ Coupe (soustrait) un objet à un autre, le dernier sélectionné étant soustrai
 
 **Remarque :** Cette commande est une forme automatisée de <img alt="" src=images/Part_Boolean.svg  style="width:24px;"> [Part Opération booléenne](Part_Boolean/fr.md).
 
-[480px\|left\|Cut](IMAGE:Part_Cut_01.png.md)
+_
 
 ## Utilisation
 

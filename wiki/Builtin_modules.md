@@ -21,7 +21,7 @@ This page presents more in-depth information over the built-in FreeCAD modules, 
 
  {{Powerdocnavi}} 
 
-[Category:API](Category:API.md)
+_
 
 ---
-[documentation index](../README.md) > [API](Category:API.md) > Builtin modules
+[documentation index](../README.md) > [API](Category_API.md) > Builtin modules

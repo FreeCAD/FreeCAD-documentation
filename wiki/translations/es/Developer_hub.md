@@ -122,7 +122,7 @@ FreeCAD, es utilizable en ciertas áreas, está al principio de un largo camino 
 
 
 
-[Category:Hubs](Category:Hubs.md) [Category:Developer Documentation](Category:Developer_Documentation.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Hubs](Category:Hubs.md) > Developer hub/es
+[documentation index](../README.md) > [Hubs](Category_Hubs.md) > Developer hub/es

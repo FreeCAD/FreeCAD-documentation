@@ -57,7 +57,7 @@ make -j$(nproc --ignore=2)
 
 
 
-[Category:Developer\_Documentation](Category:Developer_Documentation.md) [Category:Developer](Category:Developer.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Developer_Documentation](Category:Developer_Documentation.md) > Compiling (Speeding up)/ru
+[documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > Compiling (Speeding up)/ru

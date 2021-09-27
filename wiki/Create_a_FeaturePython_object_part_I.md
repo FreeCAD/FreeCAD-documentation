@@ -385,7 +385,7 @@ class box():
 
  {{Powerdocnavi}} 
 
-[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Create a FeaturePython object part I
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Create a FeaturePython object part I

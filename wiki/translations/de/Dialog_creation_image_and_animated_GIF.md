@@ -48,7 +48,7 @@ patience.show()                    #show the image
 
 }} 
 
-[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Dialog creation image and animated GIF/de
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Dialog creation image and animated GIF/de

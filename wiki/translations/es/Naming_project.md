@@ -8,7 +8,7 @@ If you are not involved with the development discussed here:<br>
 
 {{TOCright}}
 
-Esta plantilla es la directriz para un proyecto de desarrollo de FreeCAD. Sigue las reglas de la metodología **GTD** [Getting Things Done (GTD)\|](http://en.wikipedia.org/wiki/Getting_Things_Done#Methodology). Los proyectos se recopilan en el [mapa de desarrollo](Development_roadmap/es.md).
+Esta plantilla es la directriz para un proyecto de desarrollo de FreeCAD. Sigue las reglas de la metodología **GTD** _.
 
 ## Propósito y principios 
 
@@ -69,7 +69,7 @@ A fecha de 13 de junio de 2016, este es un resumen del trabajo que se ha realiza
 
 ### Información sobre TNaming 
 
-Ver [aquí](https://github.com/ezzieyguywuf/freecadTopoTesting/blob/master/TNaming_Writeup.md) para un escrito decente en el repo de github de ezzieyguywuf. Aquí hay algunos puntos destacados:
+Ver _ para un escrito decente en el repo de github de ezzieyguywuf. Aquí hay algunos puntos destacados:
 
 -   El TNaming de opencascade se basa en el [marco de datos TDF\_Data](https://dev.opencascade.org/doc/occt-7.5.0/refman/html/class_t_d_f___reference.html#details).
 -   TDF\_Data es un componente clave de la cosa OCAF de opencascade, pero puede ser utilizado independientemente de ella
@@ -104,7 +104,7 @@ Ver [aquí](https://github.com/ezzieyguywuf/freecadTopoTesting/blob/master/TNami
 
 
 
-[Category:Roadmap](Category:Roadmap.md)
+_
 
 ---
-[documentation index](../README.md) > [Roadmap](Category:Roadmap.md) > Naming project/es
+[documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > Naming project/es

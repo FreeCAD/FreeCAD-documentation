@@ -461,7 +461,7 @@ Nu ezitați să vă scrieți întrebările sau ideile pe [forum](http://forum.fr
 
 Don\'t hesitate to ask questions or share ideas on the [forum](https://forum.freecadweb.org/)! {{Top}} {{Powerdocnavi}} 
 
-[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Line drawing function/ro
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Line drawing function/ro

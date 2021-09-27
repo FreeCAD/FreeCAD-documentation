@@ -219,7 +219,7 @@ Yorik maintient un script pratique pour l\'atelier BIM, qui peut rassembler, cha
 
  
 
-[Category:Developer Documentation](Category:Developer_Documentation.md)
+_
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Translating an external workbench/fr
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Translating an external workbench/fr

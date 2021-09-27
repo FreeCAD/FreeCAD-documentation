@@ -96,7 +96,7 @@ Du kannst ein Abhängigkeitsdiagramm speichern:
 
 }}  
 
-[Category:3rd Party](Category:3rd_Party.md)
+_
 
 ---
-[documentation index](../README.md) > [3rd Party](Category:3rd Party.md) > Std DependencyGraph/de
+[documentation index](../README.md) > [3rd Party](Category_3rd Party.md) > Std DependencyGraph/de

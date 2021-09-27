@@ -56,7 +56,7 @@ The latest version of CadQuery is no longer using FreeCAD and is not compatible 
 
 
 
-[Category:Sandbox](Category:Sandbox.md) [Category:User Documentation](Category:User_Documentation.md) [Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+_ _ _ _
 
 ---
-[documentation index](../README.md) > CadQuery Workbench/pl
+[documentation index](../README.md) > [Sandbox](Category_Sandbox.md) > CadQuery Workbench/pl

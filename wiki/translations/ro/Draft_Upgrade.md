@@ -1,6 +1,6 @@
 # Draft Upgrade/ro
 ---
-- GuiCommand:   Name:Draft Upgrade   Name:Draft Upgrade   Workbenches:[Arch](Draft_Workbench___Draft]],_[[Arch_Workbench.md)|MenuLocation:Draft -> Upgrade   Shortcut:U P   SeeAlso:[Draft Downgrade](Draft_Downgrade.md)---
+- GuiCommand:   Name:Draft Upgrade   Name:Draft Upgrade   Workbenches:_---
 
 
 </div>

@@ -74,7 +74,7 @@ Siehe das [Roboter API Beispiel](Robot_API_example/de.md) für eine Beschreibung
 
 }} 
 
-[Category:Workbenches](Category:Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > Robot Workbench/de
+[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Robot Workbench/de

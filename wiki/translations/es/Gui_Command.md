@@ -27,7 +27,7 @@ Los comandos de la interfaz gráfica de usuario se denominan de cierta forma: *M
 
 <div class="mw-translate-fuzzy">
 
-Si la documentación no está terminada utiliza la plantilla [Template:UnfinishedDocu](Template:UnfinishedDocu.md)
+Si la documentación no está terminada utiliza la plantilla _
 
 
 </div>
@@ -110,7 +110,7 @@ There are a lot of GuiCommands (tools) in FreeCAD which are experimental or used
 
 -   El comando/operación debe estar **terminado**. No en desarrollo!
 -   Debe tener una **página de ayuda** como [esta](Std_ViewScreenShot/es.md)
-    -   Todos los campos de la plantilla [Template:GuiCommand](Template:GuiCommand.md) deben estar cubiertos
+    -   Todos los campos de la plantilla _ deben estar cubiertos
     -   Una imagen de los letreros de diálogo que el comando eventualmente muestra
     -   Descripción detallada del comando y de todos sus parámetros y configuración
     -   Descripción de las interfaces de Python relacionadas y las clases con código de ejemplo

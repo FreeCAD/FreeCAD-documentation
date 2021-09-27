@@ -230,7 +230,7 @@ Ces points s\'appliquent aux bords (TopoShapeEdge).
 
  
 
-[Category:API](Category:API.md) [Category:Poweruser Documentation](Category:Poweruser_Documentation.md)
+_ _
 
 ---
-[documentation index](../README.md) > [API](Category:API.md) > TopoShape API/fr
+[documentation index](../README.md) > [API](Category_API.md) > TopoShape API/fr

@@ -13,9 +13,9 @@
 
 ## Introducere
 
-Arch Workbench oferă un flux de lucru modern pentru [modeling information building](http://en.wikipedia.org/wiki/Building_Information_Modeling) (BIM) pentru FreeCAD, cu suport pentru caracteristici precum entități arhitecturale complet parametrice, cum ar fi pereți, elemente structurale, acoperișuri, ferestre , scări, țevi și mobilier. Acesta susține datele \[IFC\] [industry foundation classes](http://en.wikipedia.org/wiki/Industry_Foundation_Classes) și producerea de planuri de planuri 2D în combinație cu [ TechDraw](TechDraw_Workbench.md).
+Arch Workbench oferă un flux de lucru modern pentru _.
 
-The <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Arch Workbench](Arch_Workbench.md) provides a modern [building information modelling](http://en.wikipedia.org/wiki/Building_Information_Modeling) (BIM) workflow to FreeCAD, with support for features like fully parametric architectural entities such as walls, beams, roofs, windows, stairs, pipes, and furniture. It supports industry foundation classes ([IFC](Arch_IFC.md)) files, and production of 2D floor plans in combination with the <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [TechDraw Workbench](TechDraw_Workbench.md).
+The <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> _) files, and production of 2D floor plans in combination with the <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [TechDraw Workbench](TechDraw_Workbench.md).
 
 Atelierul Arch Workbench importă toate uneltele din [ Draft Workbench](Draft_Workbench.md), deoarece utilizează obiecte 2D pentru a-și construi obiectele arhitecturale. Cu toate acestea, Arch poate folosi și obiecte solide create pe alte Ateliere de lucru precum [ Part](Part_Workbench.md) și [ PartDesign](PartDesign_Workbench.md).
 
@@ -101,9 +101,9 @@ Acestea sunt instrumente suplimentare care vă ajută în îndeplinirea unor sar
 -   ![ 32px](images/_Arch_CloseHoles.svg ) [ Close Holes](Arch_CloseHoles.md): Închide găurile într-un obiect selectat pe bază de forme
 -   ![ 32px](images/_Arch_MergeWalls.svg ) [ Merge Walls](Arch_MergeWalls.md): Uniți doi sau mai mulți pereți
 -   ![ 32px](images/_Arch_Check.svg ) [ Check](Arch_Check.md): Verificați dacă obiectele selectate sunt solide și nu conțin defecte
--   ![ 32px](images/_IFC.svg ) [ Ifc Explorer](Arch_IfcExplorer.md): Răsfoiți conținutul unui fișier tip [ IFC](Arch_IFC.md)
+-   !_
 -   ![ 32px](images/_Arch_ToggleIfcBrepFlag.svg ) [ Toggle flag IFC Brep](Arch_ToggleIfcBrepFlag.md): Forțează ca un obiect selectat să fie exportat ca un [/html/schema/ifcgeometricmodelresource/lexical/ifcfacetedbrep.htm IfcFacetedBrep](http://www.buildingsmart-tech.org/ifc/IFC4/final).
--   ![ 32px](images/_Arch_3Views.svg ) [ 3 Vizualizări de pe plasă](Arch_3Views.md): Creează vederi de sus, frontale și laterale dintr-o plasă [ mesh](Mesh_Workbench.md).
+-   !_.
 -   ![ 32px](images/_Arch_IfcSpreadsheet.svg ) [ Creare foaie de calcul IFC \...](Arch_IfcSpreadsheet.md):
 -   ![ 32px](images/_Arch_ToggleSubs.svg ) [ Toggle Subcomponents](Arch_ToggleSubs.md): Afișează sau ascunde subcomponentele unui obiect Arch.
 
@@ -133,7 +133,7 @@ Modulul Arch poate fi folosit în scripturile [Python](Python.md) scripts și [m
 -   [Quick arch overview on Yorik\'s blog](http://yorik.uncreated.net/guestblog.php?2012=180) (v. 0.13)
 -   [Video presentation of the Arch workbench](https://www.youtube.com/watch?v=lTDOeHapv_E) (2016)
 -   [Arch panel tutorial](Arch_panel_tutorial.md) (v. 0.15)
--   [BIM modeling chapter from the FreeCAD manual](Manual:BIM_modeling.md)
+-   _
 -   [Import from STL or OBJ](Import_from_STL_or_OBJ.md)
 -   [Export to STL or OBJ](Export_to_STL_or_OBJ.md)
 
@@ -147,7 +147,7 @@ Modulul Arch poate fi folosit în scripturile [Python](Python.md) scripts și [m
 
  
 
-[Category:Workbenches](Category:Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > Arch Workbench/ro
+[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Arch Workbench/ro

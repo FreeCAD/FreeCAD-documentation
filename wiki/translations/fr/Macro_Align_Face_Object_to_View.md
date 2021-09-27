@@ -8,7 +8,7 @@
 |Date=2015-01-16
 |Download=[https://www.freecadweb.org/wiki/images/d/d5/Macro_Align_Face_Object_to_View.png ToolBar Icon]
 |FCVersion=Toutes
-|SeeAlso=[32px|FCCamera](File:FCCamera_00.png.md) [Macro_FCCamera](Macro_FCCamera/fr.md)
+|SeeAlso=_ [Macro_FCCamera](Macro_FCCamera/fr.md)
 }}
 
 ## Description

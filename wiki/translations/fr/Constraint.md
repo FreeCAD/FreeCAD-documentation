@@ -4,7 +4,7 @@
 
 {{TOCright}}
 
-Dans FreeCAD, le mot \"[Contrainte](Constraint/fr.md)\" est normalement utilisé pour désigner une \"règle\" pour dessiner des formes géométriques à l\'intérieur d\'une <img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;"> [Esquisse](Sketch/fr.md) (classe `Sketcher::SketchObject`). Une contrainte limite la position d\'un certain élément géométrique de différentes manières, par exemple, elle peut spécifier si l\'élément est horizontal, vertical, tangent, parallèle, perpendiculaire, coïncidant avec un point, concentrique à un autre objet, etc.
+Dans FreeCAD, le mot \"_ (classe `Sketcher::SketchObject`). Une contrainte limite la position d\'un certain élément géométrique de différentes manières, par exemple, elle peut spécifier si l\'élément est horizontal, vertical, tangent, parallèle, perpendiculaire, coïncidant avec un point, concentrique à un autre objet, etc.
 
 Il existe deux principaux types de contraintes:
 
@@ -16,7 +16,7 @@ Reportez-vous aux informations dans l\'<img alt="" src=images/Workbench_Sketcher
 
 ## Utilisation
 
-1.  Créez une esquisse depuis l\'<img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [atelier Sketcher](Sketcher_Workbench/fr.md) ou via l\'<img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [atelier PartDesign](PartDesign_Workbench/fr.md).
+1.  Créez une esquisse depuis l\'<img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> _.
 2.  Presse
     -   
         **<img src=images/Sketcher_NewSketch.svg style="width:16px"> [Sketcher Nouvelle esquisse](Sketcher_NewSketch/fr.md)**
@@ -37,14 +37,14 @@ Reportez-vous aux informations dans l\'<img alt="" src=images/Workbench_Sketcher
 ## Remarques
 
 -   Les contraintes sont utiles pour créer des profils très précis qui peuvent être transformés en extrusions solides en utilisant le **<img src=images/PartDesign_Pad.svg style="width:16px"> <img src=images/Part_Extrude.svg style="width:PartDesign Protrusion](PartDesign_Pad/fr.md)** ou **[16px"> [Part Extrusion](Part_Extrude/fr.md)** opérations.
--   Les contraintes ne sont utilisées que dans les [Esquisses](Sketch/fr.md); d\'autres objets 2D tels que ceux créés avec l\'<img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [atelier Draft](Draft_Workbench/fr.md) ne comprennent pas de contraintes; ces derniers sont simplement placés dans l\'espace 3D et leurs propriétés définissent leur forme et leur position.
+-   Les contraintes ne sont utilisées que dans les _ ne comprennent pas de contraintes; ces derniers sont simplement placés dans l\'espace 3D et leurs propriétés définissent leur forme et leur position.
 
 
 {{Sketcher Tools navi
 
 }} {{Document objects navi}} 
 
-[Category:Glossary](Category:Glossary.md)
+_
 
 ---
-[documentation index](../README.md) > [Glossary](Category:Glossary.md) > Constraint/fr
+[documentation index](../README.md) > [Glossary](Category_Glossary.md) > Constraint/fr

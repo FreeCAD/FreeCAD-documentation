@@ -60,19 +60,10 @@ Dacă doriți să apară ceva în FreeCAD, care încă nu este implementat, it n
 
 ## Propunerea de îmbunătățiri 
 
-In cazul în care ați realizat un program de corectare a unei erori/disfuncționalități, o extensie sau orice altceva care poate fi de uz public în FreeCAD, creați un patch utilizând instrumentul Git diff și trimiteți-o pe același bug tracker (ca pe un *patch*).
-
 
 <div class="mw-translate-fuzzy">
 
-Addendumː dezvoltarea de FreeCAD a fost comutată pe [GitHub](https://github.com/FreeCAD/FreeCAD) astfel încât fluxul de lucru pentru trimiterea de patch-uri a fost mult îmbunătățit / simplificat prin trimiterea solicitărilor de tragere (Pull Requests) .
-
--   Deschideți un fir de forum din subforumul pentru dezvoltatori pentru a vă anunța și discuta despre patch-ul dvs.
--   Trimiteși PR dvs spre [FreeCAD GitHub repo](http://github.com/FreeCAD/FreeCAD). Asigurați-vă că ați conectat firul forumului la rezumatul comisiei git.
--   Inserați legătura PR în forumul de discuții pentru a fi testat de către devs/testers.
--   Fiți prezenți la discuție, astfel încât codul dvs. să poată fi înbinat mai eficient.
-
-**NOTEː** comunitatea FreeCAD recomandă să discuți mai întâi despre orice revizuire mare a codului sursă în avans pentru a salva timpul la toată lumea.
+In cazul în care ați realizat un program de corectare a unei erori/disfuncționalități, o extensie sau orice altceva care poate fi de uz public în FreeCAD, creați un patch utilizând instrumentul Git diff și trimiteți-o pe același bug tracker (ca pe un *patch*).
 
 
 </div>
@@ -226,7 +217,7 @@ For the inquisitive here is the regex MantisBT uses for this operation:
 
 
 
-[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Administration](Category:Administration.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Tracker/ro
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Tracker/ro

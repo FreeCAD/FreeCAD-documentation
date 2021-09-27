@@ -2,10 +2,10 @@
 ## Przegląd stron ze skryptami Python 
 
 -   Strony związane z tematem podręcznik dla środowiska Python:
-    -   [Łagodny wstęp](Manual:A_gentle_introduction/pl.md)
-    -   [Tworzenie i manipulowanie geometrią](Manual:Creating_and_manipulating_geometry/pl.md)
-    -   [Tworzenie obiektów parametrycznych](Manual:Creating_parametric_objects/pl.md)
-    -   [Tworzenie narzędzi interfejsu](Manual:Creating_interface_tools/pl.md)
+    -   _
+    -   _
+    -   _
+    -   _
 
 -   Basics:
     -   [Makrodefinicje](Macros/pl.md)
@@ -21,8 +21,8 @@
     -   [Konwersja Siatki na Część](Mesh_to_Part/pl.md)
     -   [Skrypty w środowisku Część](Part_scripting/pl.md)
     -   [Skrypty danych topologicznych](Topological_data_scripting/pl.md)
-    -   [Skrypty części: Łożysko kulkowe - część 1](Scripted_Parts:_Ball_Bearing_-_Part_1/pl.md)
-    -   [Skrypty części: Łożysko kulkowe - część 2](Scripted_Parts:_Ball_Bearing_-_Part_2/pl.md)
+    -   _
+    -   _
     -   [Skrypty środowiska Path](Path_scripting/pl.md)
     -   [Skrypty środowiska Raytracing](Raytracing_API_example/pl.md) (**środowisko pracy Raytracing  jest przestarzałe**)
     -   [Skrypty Szkicownika](Sketcher_scripting/pl.md)
@@ -37,7 +37,7 @@
     -   [Dostawca widoku](Viewprovider/pl.md)
     -   [Własna ikona w widoku drzewa](Custom_icon_in_tree_view/pl.md)
     -   [Właściwości](Property/pl.md)
-    -   [Link do własności: Lista wejściowa i lista wyjściowa](PropertyLink:_InList_and_OutList/pl.md)
+    -   _
     -   [Metody FeaturePython](FeaturePython_methods/pl.md)
 
 -   [Okno widoku 3D](3D_view/pl.md):
@@ -90,7 +90,7 @@
 
 }} 
 
-[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Scripting and macros/pl
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Scripting and macros/pl

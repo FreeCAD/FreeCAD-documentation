@@ -8,7 +8,13 @@
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 FreeCAD podržava alate koji sliče ovima na [Catia](http://en.wikipedia.org/wiki/Catia), [SolidWorks](http://en.wikipedia.org/wiki/Solidworks) ili [Solid Edge](http://en.wikipedia.org/wiki/Solid_Edge). Zbog toga spadaju u kategoriju [**MCAD**](http://en.wikipedia.org/wiki/CAD), [**PLM**](http://en.wikipedia.org/wiki/Product_Lifecycle_Management), [**CAx**](http://en.wikipedia.org/wiki/CAx) i [**CAE**](http://en.wikipedia.org/wiki/Computer-aided_engineering). To je [feature based parametric modeler](http://en.wikipedia.org/wiki/Parametric_feature_based_modeler) sa modularnom \"software\" arhitekturom koja omogućuje dodatne funkcije bez promjene jezgre sistema.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -22,7 +28,13 @@ Jedan smjer na kojem FreeCAD radi je korištenje Open-Source biblioteka, koje ra
 
 FreeCAD je potpuno više sistemski program [multi-platform](http://en.wikipedia.org/wiki/Cross-platform), trenutno radi na Windows i Linux/Unix i Mac OS sistemima, sa istim izgledom i istom funkcionalnošću na svim platformama.
 
+
+<div class="mw-translate-fuzzy">
+
 Za više informacija o mogućnostima FreeCAD-a pogledajte [Lista Osobina](Feature_list/hr.md), [Prvi koraci](Getting_started/hr.md) ili [Korisničko okruženje](User_hub/hr.md) članke, ili pogledajte [Slike zaslona](screenshots/hr.md).
+
+
+</div>
 
 ### O FreeCAD projektu 
 
@@ -36,7 +48,7 @@ FreeCAD je podržavan i razvijan od zajednice oduševljenih programera i korisni
 
 
 
-[Category:User Documentation](Category:User_Documentation.md)
+_
 
 ---
-[documentation index](../README.md) > [User Documentation](Category:User Documentation.md) > About FreeCAD/hr
+[documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > About FreeCAD/hr

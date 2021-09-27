@@ -4,7 +4,7 @@
 
 {{TOCright}}
 
-Das [topologische Benennungsproblem](topological_naming_problem/de.md) in FreeCAD bezieht sich auf die Frage, ob eine Form ihren internen Namen nach einer Modellierungsoperation (Polstern, Schnitt, Vereinigung, Fase, Verrundung, usw.) ändert. Dies führt dazu, dass andere parametrische Merkmale, die von dieser Form abhängen, brechen oder falsch berechnet werden. Dieser Sachverhalt betrifft alle Objekte in FreeCAD, ist aber besonders bemerkenswert, wenn Volumenkörper mit der <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Arbeitsbereich PartDesign](PartDesign_Workbench/de.md) erstellt und diese mit der <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [TechDraw Arbeitsbereich](TechDraw_Workbench/de.md) dimensioniert werden.
+Das _ erstellt und diese mit der <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [TechDraw Arbeitsbereich](TechDraw_Workbench/de.md) dimensioniert werden.
 
 -   Wenn in <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench/de.md) ein Merkmal auf einer Fläche (oder Kante oder Scheitelpunkt) unterstützt wird, kann das Merkmal brechen, wenn der zugrunde liegende Volumenkörper seine Größe oder Ausrichtung ändert, da die ursprüngliche Fläche (oder Kante oder Scheitelpunkt) intern umbenannt werden kann.
 -   Wenn in <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [TechDraw](TechDraw_Workbench/de.md) eine Dimension die Länge einer projizierten Kante misst, kann die Dimension brechen, wenn das 3D-Modell geändert wird, da die Knoten umbenannt werden können, wodurch die gemessene Kante geändert wird.
@@ -17,7 +17,7 @@ Das Problem der topologischen Benennung betrifft und verwirrt neue Anwender von 
 
 ## Beispiel
 
-1\. Erstelle in der <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Arbeitsbereich PartDesign](PartDesign_Workbench/de.md) einen <img alt="" src=images/PartDesign_Body.svg  style="width:24px;"> [PartDesign Körper](PartDesign_Body/de.md), verwende dann <img alt="" src=images/PartDesign_NewSketch.svg  style="width:24px;"> [PartDesign Neue Skizze](PartDesign_NewSketch/de.md) und wählen die XY-Ebene, um die Basisskizze zu zeichnen; führe dann ein <img alt="" src=images/PartDesign_Pad.svg  style="width:24px;"> [PartDesign Polster](PartDesign_Pad/de.md) aus, um einen ersten Volumenkörper zu erstellen.
+1\. Erstelle in der <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> _, verwende dann <img alt="" src=images/PartDesign_NewSketch.svg  style="width:24px;"> _ aus, um einen ersten Volumenkörper zu erstellen.
 
 <img alt="" src=images/FreeCAD_topological_problem_01_solid.png  style="width:" height="400px;">
 
@@ -124,7 +124,7 @@ Bezugsobjekte, [Punkte](PartDesign_Point/de.md), [Linien](PartDesign_Line/de.md)
 
 <div class="mw-translate-fuzzy">
 
--   [Warum brechen meine FreeCAD Modelle? - \"Topologisches Benennungsproblem\"](https://youtu.be/6p2vqEEmWq4): Eine Videoerklärung der zugrunde liegenden Probleme des [Topologisches Benennungsproblem](Topological_naming_problem/de.md)
+-   _
 
 
 </div>
@@ -132,7 +132,7 @@ Bezugsobjekte, [Punkte](PartDesign_Point/de.md), [Linien](PartDesign_Line/de.md)
 
  {{TechDraw Tools navi}} {{PartDesign Tools navi}} 
 
-[Category:Common Questions](Category:Common_Questions.md)
+_
 
 ---
-[documentation index](../README.md) > [Common Questions](Category:Common Questions.md) > Topological naming problem/de
+[documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > Topological naming problem/de

@@ -29,7 +29,7 @@
 
 ## Скругление в Part(Деталь) и в PartDesign 
 
-В верстаке <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench/ru.md) есть другой инструмент для скругления. Обратите внимание, что их работа отличается. Зайдите на страницу <img alt="" src=images/PartDesign_Fillet.svg  style="width:24px;"> [ Скругление в PartDesign](PartDesign_Fillet/ru.md), чтобы посмотреть различия.
+В верстаке <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> _, чтобы посмотреть различия.
 
 
 </div>

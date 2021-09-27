@@ -5,7 +5,7 @@
 {{TutorialInfo/de
 |Topic=2D-Zeichnen
 |Level=Fortgeschrittene Anfänger
-|Author=Mark Stephen ([Quick61](User:Quick61.md))
+|Author=Mark Stephen (_)
 |Time=Eine Stunde oder weniger
 |FCVersion=0.14.3700 oder höher
 }}

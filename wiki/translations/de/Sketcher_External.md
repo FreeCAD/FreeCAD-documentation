@@ -14,7 +14,7 @@
 
 Verwende das **<img src="images/Sketcher_External.svg" width=16px> [Externe Geometrie](Sketcher_External/de.md)** Werkzeug wenn Du eine Beschränkung zwischen der Skizzengeometrie und etwas außerhalb der Skizze anwenden möchtest. Es funktioniert, indem eine verknüpfte Konstruktionsgeometrie in die Skizze eingefügt wird. Die Standardfarbe der extern verbundenen Kanten ist Magenta. Wie bei der standardmäßigen unverknüpften Konstruktionsgeometrie (blau) ist die extern verknüpfte Geometrie nur sichtbar, wenn sich die Skizze im Bearbeitungsmodus befindet und nicht direkt im späteren Ergebnis aus der Verwendung der Skizze in einem anderen Werkzeug verwendet wird. Beide Arten von Konstruktionsgeometrien können als Referenz für Beschränkungen innerhalb der Skizze verwendet werden.
 
-Ein Hinweis zur Vorsicht, die Verwendung dieses Werkzeugs zur Verknüpfung mit generierter (Volumen) Geometrie kann aufgrund des [Topologisches Benennungsproblem](Topological_naming_problem/de.md) zu unerwarteten Ergebnissen führen. Siehe auch [Ratschlag für stabile Modelle](https://wiki.freecadweb.org/Feature_editing/de#Ratschläge_zur_Erstellung_stabiler_Modelle.md).
+Ein Hinweis zur Vorsicht, die Verwendung dieses Werkzeugs zur Verknüpfung mit generierter (Volumen) Geometrie kann aufgrund des _.
 
 <FILE:Sketcher_ExternalEsempio1.png>
 

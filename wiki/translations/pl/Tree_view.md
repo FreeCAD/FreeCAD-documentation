@@ -71,7 +71,7 @@ Jeśli wybierzesz aktywny dokument i klikniesz prawym przyciskiem myszy, oprócz
 
 -    **Zaznacz do przeliczenia**: zaznacza wszystkie obiekty dokumentu jako zmodyfikowane i gotowe do [przeliczenia](Std_Refresh.md).
 
--    **[Utwórz grupę](Std_Group.md)**: Tworzy [grupę](Std_Group.md) w wybranym dokumencie, przy użyciu następujących funkcji `addObject()`.
+-    **_ w wybranym dokumencie, przy użyciu następujących funkcji `addObject()`.
 
 ### Zaznaczanie obiektów 
 
@@ -80,19 +80,19 @@ Ich dostępność zależy od typu obiektu i aktywnego środowiska roboczego.
 
 Na przykład, gdy aktywne jest Środowisko pracy [Draft](Draft_Workbench.md), najpierw wybierz obiekt, a następnie kliknij prawym przyciskiem myszy na puste miejsce w widoku drzewa:
 
--    **[Ukryj](Std_ToggleVisibility.md)**: sprawia, że obiekt staje się widoczny lub niewidoczny w oknie [widoku 3D](3D_view/pl.md).
+-    **_.
 
 -    **[Pokaż zaznaczone](Std_ShowSelection.md)**: sprawia, że wybrane obiekty są widoczne.
 
 -    **[Ukryj zaznaczone](Std_HideSelection.md)**:sprawia, że wybrane obiekty są niewidoczne.
 
--    **[Przełącznik wyboru](Std_ToggleSelectability.md)**: sprawia, że obiekt nie może być dłużej zaznaczany w oknie [widoku 3D](3D_view/pl.md). Ponowne użycie tego polecenia, anuluje jego efekt działania. Ustawia atrybuty obiektu `Selectable` na wartość `True` lub `False`. Zmień właściwości przez przełączanie wartości obiektu {{PropertyView/pl|Selectable}} w [edytorze właściwości](Property_editor/pl.md).
+-    **_. Ponowne użycie tego polecenia, anuluje jego efekt działania. Ustawia atrybuty obiektu `Selectable` na wartość `True` lub `False`. Zmień właściwości przez przełączanie wartości obiektu {{PropertyView/pl|Selectable}} w [edytorze właściwości](Property_editor/pl.md).
 
 -    **[Wybierz wszystkie wystąpienia](Std_TreeSelectAllInstances.md)**: zaznacza wszystkie wystąpienia tego obiektu w widoku drzewa.
 
 -    **[Wygląd](Std_SetAppearance.md)**: uruchamia okno dialogowe w celu zmiany koloru i rozmiaru linii i wierzchołków oraz koloru ścian.
 
--    **[Kolor losowy](Std_RandomColor.md)**: przypisuje obiektowi przypadkowy kolor. Pozwala na określenie koloru obiektu `ShapeColor` atrybutami cząstkowymi `(r,g,b)` w sposób losowy, z pośród zakresu wartości 0 i 1. Zmień właściwość modyfikując {{PropertyView/pl|Kolor kształtu}} w [edytorze właściwości](Property_editor/pl.md).
+-    **_.
 
 -    **[Wytnij](Std_Cut.md)**: Opcja jest niedostępna, jeśli kliknięcie prawym przyciskiem myszy nie następuje na obiekcie.
 

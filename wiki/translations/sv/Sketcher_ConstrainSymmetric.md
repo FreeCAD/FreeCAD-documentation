@@ -1,6 +1,6 @@
 # Sketcher ConstrainSymmetric/sv
 ---
-- GuiCommand:/sv   Name:Constraint Symmetric   Name/sv:Constraint Symmetric   Workbenches:[PartDesign](Sketcher_Workbench/sv___Sketcher]],_[[PartDesign_Workbench/sv.md)|MenuLocation:Sketch → Sketcher constraints → Constrain symmetrical   SeeAlso:[Constraint Parallel](Constraint_Parallel/sv.md)---
+- GuiCommand:/sv   Name:Constraint Symmetric   Name/sv:Constraint Symmetric   Workbenches:_---
 
 
 </div>

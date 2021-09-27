@@ -297,7 +297,7 @@ class plane():
 
 ## Relevant links 
 
--   [Manual:Creating interface tools](Manual:Creating_interface_tools.md)
+-   _
 -   [Interface creation with UI files](Interface_creation_with_UI_files.md)
 
 
@@ -305,7 +305,7 @@ class plane():
 
 }} 
 
-[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Dialog creation/ro
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Dialog creation/ro

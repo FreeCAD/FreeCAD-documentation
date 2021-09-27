@@ -8,7 +8,7 @@ If you are not involved with the development discussed here:<br>
 
 {{TOCright}}
 
-Esta plantilla es la guía para un proyecto de desarrollo de FreeCAD. Sigue las reglas del proceso [Getting Things Done (GTD)](http://en.wikipedia.org/wiki/Getting_Things_Done#Methodology). Los proyectos se recogen en la [Hoja de ruta de desarrollo](Development_roadmap/es.md).
+Esta plantilla es la guía para un proyecto de desarrollo de FreeCAD. Sigue las reglas del proceso _.
 
 ## Propósito y principios 
 
@@ -111,7 +111,7 @@ Aquí algunos enlaces con información:
 
 
 
-[Category:Roadmap](Category:Roadmap.md)
+_
 
 ---
-[documentation index](../README.md) > [Roadmap](Category:Roadmap.md) > STEP project/es
+[documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > STEP project/es

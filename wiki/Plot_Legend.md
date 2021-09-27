@@ -24,7 +24,7 @@ Remember that the styles and labels of the data series can be edited with the [d
 
  {{Plot_Tools_navi}} 
 
-[Category:External\_Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)
+_ _
 
 ---
-[documentation index](../README.md) > [External_Workbenches](Category:External_Workbenches.md) > Plot Legend
+[documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > Plot Legend

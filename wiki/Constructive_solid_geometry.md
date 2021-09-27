@@ -3,7 +3,7 @@
 
 [Constructive solid geometry](https://en.wikipedia.org/wiki/Constructive_solid_geometry) (**CSG**) is a modelling paradigm that is used in many traditional CAD systems. It essentially consists of using primitive solid objects and doing boolean operations with them, such as fusion, subtraction and intersection, in order to create a final shape.
 
-In FreeCAD, this method is mostly utilized with the <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part Workbench](Part_Workbench.md), which has the ability of creating primitive objects like <img alt="" src=images/Part_Box.svg  style="width:24px;"> [boxes](Part_Box.md), <img alt="" src=images/Part_Cylinder.svg  style="width:24px;"> [cylinders](Part_Cylinder.md), and <img alt="" src=images/Part_Sphere.svg  style="width:24px;"> [spheres](Part_Sphere.md) and fuse them together, or use them to cut other objects with tools like **<img src="images/Part_Cut.svg" width=24px> [Part Cut](Part_Cut.md)**.
+In FreeCAD, this method is mostly utilized with the <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> _, <img alt="" src=images/Part_Cylinder.svg  style="width:24px;"> _ and fuse them together, or use them to cut other objects with tools like **<img src="images/Part_Cut.svg" width=24px> [Part Cut](Part_Cut.md)**.
 
 <img alt="" src=images/Part_Constructive_Solid_Geometry_workflow.svg  style="width:800px;">
 
@@ -26,15 +26,15 @@ A [PartDesign Body](PartDesign_Body.md) created with the [PartDesign Workbench](
 
 ## Tutorials
 
-The [tutorials](tutorials.md) page provides some examples on creating solids with the <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part Workbench](Part_Workbench.md) that use the **CSG** method.
+The _ that use the **CSG** method.
 
--   [Traditional modeling, the CSG way](Manual:Traditional_modeling,_the_CSG_way.md)
+-   _
 -   [Wiffle ball tutorial](Whiffle_Ball_tutorial.md)
 -   [Basic modeling tutorial](Basic_modeling_tutorial.md)
 
   
 
-[Category:Common Questions](Category:Common_Questions.md)
+_
 
 ---
-[documentation index](../README.md) > [Common Questions](Category:Common Questions.md) > Constructive solid geometry
+[documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > Constructive solid geometry

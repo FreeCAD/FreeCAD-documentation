@@ -3,7 +3,7 @@
 
 <img alt="" src=images/Folder.svg  style="width:32px;">
 
-Un oggetto [App DocumentObjectGroup](App_DocumentObjectGroup/it.md) o formalmente un `App::DocumentObjectGroup`, è un elemento semplice che consente di raggruppare qualsiasi tipo di [App DocumentObject](App_DocumentObject/it.md) nella [vista ad albero](tree_view/it.md) indipendentemente dal tipo di dati.
+Un oggetto _ nella [vista ad albero](tree_view/it.md) indipendentemente dal tipo di dati.
 
 È stato sviluppato per organizzare gli oggetti nella [vista ad albero](tree_view/it.md) in modo logico per l\'utente.
 
@@ -22,7 +22,7 @@ Vedere la pagina [Gruppo](Std_Group/it.md) per le informazioni complete, incluso
 
 ## Proprietà
 
-Un [App DocumentObjectGroup](App_DocumentObjectGroup/it.md) (classe `App::DocumentObjectGroup`) è derivato dall\'oggetto base [App DocumentObject](App_DocumentObject/it.md) (classe `App::DocumentObject`), pertanto condivide tutte le proprietà di quest\'ultimo.
+Un _ (classe `App::DocumentObject`), pertanto condivide tutte le proprietà di quest\'ultimo.
 
 Vedere le proprietà nella pagina [Gruppo](Std_Group/it.md).
 

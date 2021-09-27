@@ -10,7 +10,7 @@
 
 ## Beschreibung
 
-[Part Grundelemente](Part_Primitives/de.md) öffnet ein Dialogfeld zum Erstellen irgendeines der parametrischen geometrischen Grundelemente, die im <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part Arbeitsbereich](Part_Workbench/de.md) definiert sind.
+_ definiert sind.
 
 <img alt="" src=images/Part_Primitives_example.png  style="width:800px;"> 
 *Grundelementformen, die mit der [Part Arbeitsbereich](Part_Workbench/de.md) erstellt werden können.*
@@ -54,7 +54,7 @@ Einige der verfügbaren (parametrischen) geometrischen Grundelemente, die mögli
 :   <img alt="" src=images/Tree_Part_Torus_Parametric.svg  style="width:32px;"> [Torus](Part_Torus/de.md): Fügt einen einfachen parametrischen Torus mit Position, Winkel1, Winkel2, Winkel3, Radius1 und Radius2 als Parameter in das aktive Dokument ein.
 :   <img alt="" src=images/Part_Prism.svg  style="width:32px;"> [Prisma](Part_Prism/de.md): Fügt einen Volumenkörper, der durch einen regelmäßigen Polygonquerschnitt und eine Höhe definiert ist, in das aktive Dokument ein. <small>(v0.14)</small> 
 :   <img alt="" src=images/Part_Wedge.svg  style="width:32px;"> [Keil](Part_Wedge/de.md): Fügt ein parametrisches Keilobjekt in das aktive Dokument ein.
-:   <img alt="" src=images/Part_Helix.svg  style="width:32px;"> [Helix](Part_Helix/de.md): Fügt ein geometrisches Helix Grundelement in das aktive Dokument ein. Übliche Verwendung für Helix ist die Erstellung von [Gewinde](Thread_for_Screw_Tutorial/de.md).
+:   <img alt="" src=images/Part_Helix.svg  style="width:32px;"> _.
 :   <img alt="" src=images/Part_Spiral.svg  style="width:32px;"> [Spirale](Part_Spiral/de.md): Fügt ein geometrisches Spiral Grundelement in den aktiven Arbeitsbereich ein. <small>(v0.14)</small> 
 :   <img alt="" src=images/Part_Circle.svg  style="width:32px;"> [Kreis](Part_Circle/de.md): Fügt eine kreisförmig gekrümmte Kante in das aktive Dokument ein.
 :   <img alt="" src=images/Part_Ellipse.svg  style="width:32px;"> [Ellipse](Part_Ellipse/de.md): Fügt eine elliptisch gekrümmte Kante in das aktive Dokument ein.

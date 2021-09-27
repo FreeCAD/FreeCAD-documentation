@@ -35,7 +35,7 @@ El relleno de la imagen puede establecerse durante la importación, o modificars
 
 }} 
 
-[Category:Workbenches](Category:Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > Image Workbench/es
+[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Image Workbench/es

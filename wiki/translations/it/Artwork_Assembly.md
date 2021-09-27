@@ -22,7 +22,7 @@ For all icons in the source tree, see [Artwork](Artwork.md).
 
 }} 
 
-[Category:Assembly](Category:Assembly.md)
+_
 
 ---
-[documentation index](../README.md) > [Assembly](Category:Assembly.md) > Artwork Assembly/it
+[documentation index](../README.md) > [Assembly](Category_Assembly.md) > Artwork Assembly/it

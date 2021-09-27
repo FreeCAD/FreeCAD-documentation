@@ -12,7 +12,7 @@
 
 {{TOCright}}
 
-[Python](https://www.python.org) genel amaçlı, büyük uygulamalarda komut dosyası veya [makro](macros/tr.md) oluşturarak bazı görevleri otomatikleştirmek için yaygın olarak kullanılan yüksek seviye bir programlama dilidir.
+_ oluşturarak bazı görevleri otomatikleştirmek için yaygın olarak kullanılan yüksek seviye bir programlama dilidir.
 
 FreeCAD\'de, Python kodu, grafiksel kullanıcı arayüzüne tıklamak zorunda kalmadan programatik olarak çeşitli elemanlar oluşturmak için kullanılabilir. Ek olarak, FreeCAD\'in birçok aracı ve tezgahı Python\'da programlanmıştır.
 
@@ -144,7 +144,7 @@ Structure = Arch.make_structure(Wire, name="Big pillar")
 
 }}
 
-[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:API Documentation](Category:API_Documentation.md) [Category:Python Code](Category:Python_Code.md) [Category:Glossary](Category:Glossary.md)
+_ _ _ _
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Python/tr
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Python/tr

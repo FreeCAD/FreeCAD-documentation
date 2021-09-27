@@ -3,7 +3,7 @@
 
 ## Introduction
 
-La structure principale des données utilisée dans le module Part est le type de données [BRep](https://fr.wikipedia.org/wiki/B-Rep) d\'OpenCascade. Presque tous les contenus et types d\'objets du module Part sont disponibles par script [Python](Python/fr.md). Cela inclut les primitives géométriques, telles que Ligne et Cercle (ou Arc), et toute la gamme de TopoShapes, comme les sommets, les arêtes, les fils, les faces, les solides et les composés. Pour chacun de ces objets, plusieurs méthodes de création existent, et pour certaines d\'entre elles, en particulier les TopoShapes, des opérations avancées comme l\'union booléenne/différence/intersection sont également disponibles. Pour en savoir plus, explorez le contenu du module Part, comme décrit dans la page [Notions de base sur les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md).
+La structure principale des données utilisée dans le module Part est le type de données _. Cela inclut les primitives géométriques, telles que Ligne et Cercle (ou Arc), et toute la gamme de TopoShapes, comme les sommets, les arêtes, les fils, les faces, les solides et les composés. Pour chacun de ces objets, plusieurs méthodes de création existent, et pour certaines d\'entre elles, en particulier les TopoShapes, des opérations avancées comme l\'union booléenne/différence/intersection sont également disponibles. Pour en savoir plus, explorez le contenu du module Part, comme décrit dans la page [Notions de base sur les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md).
 
 L\'objet le plus simple pouvant être créé est une [Part Feature](Part_Feature/fr.md), qui possède une simple propriété {{PropertyData/fr|Placement}} et des propriétés de base permettant de définir sa couleur et son apparence.
 
@@ -134,6 +134,36 @@ def mycreateCircle(rad, objName):
 circle = mycreateCircle(5.0, "CircleName")
 ```
 
+ou créer un cercle défini par son centre, son axe et son rayon en utilisant :
+
+
+```python
+import Part
+doc = App.activeDocument()
+center = App.Vector(1,2,3)
+axis = App.Vector(1,1,1)
+radius = 10
+c=Part.Circle(center,axis,radius)
+f = doc.addObject("Part::Feature", "Circle")
+f.Shape = c.toShape()
+doc.recompute()
+```
+
+ou créer un cercle défini par trois points en utilisant :
+
+
+```python
+import Part
+doc = App.activeDocument()
+p1 = App.Vector(10,0,0)
+p2 = App.Vector(0,10,0)
+p3 = App.Vector(0,0,10)
+c = Part.Circle(p1,p2,p3)
+f = doc.addObject("Part::Feature", "Circle")
+f.Shape = c.toShape()
+doc.recompute()
+```
+
 Notez qu\'une fois encore, nous avons utilisé le cercle (primitive géométrique) pour construire une forme. Nous pouvons bien sûr toujours accéder à notre géométrie de construction par la suite, en faisant:
 
 
@@ -152,7 +182,7 @@ Rendez-vous sur la page [Scripts pour création topologique](Topological_data_sc
 
 }}  
 
-[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part scripting/fr
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Part](Part_Workbench.md) > Part scripting/fr

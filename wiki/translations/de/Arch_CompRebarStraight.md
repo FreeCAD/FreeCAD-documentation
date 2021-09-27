@@ -41,4 +41,4 @@ Zurück zu [Arbeitsbereiche](Workbenches#External_workbenches/de.md) / [Externe 
 -   <img alt="" src=images/Arch_Rebar.svg  style="width:32px;"> [Bewehrung](Arch_Rebar/de.md): Erstellt einen maßgefertigten Bewehrungsstab in einem ausgewählten Strukturelement unter Verwendung einer Skizze
 
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CompRebarStraight/de
+[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch CompRebarStraight/de

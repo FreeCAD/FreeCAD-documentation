@@ -110,7 +110,7 @@ FreeCAD.ActiveDocument.recompute()
 
  
 
-[Category:Arch/es](Category:Arch/es.md)
+_
 
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Building/es
+[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch Building/es

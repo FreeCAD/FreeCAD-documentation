@@ -39,7 +39,7 @@ Les objets dérivés de **Part::Feature** ne sont pas (encore) pris en charge, l
 
  {{OpenSCAD Tools navi}}
 
-[Category:File\_Formats](Category:File_Formats.md)
+_
 
 ---
-[documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD CSG/fr
+[documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD CSG/fr

@@ -3,7 +3,7 @@
 |Topic= Introducción a la modelización
 |Level= Principiante
 |Time= 15 minutos
-|Author=[NormandC](User:Normandc.md)
+|Author=_
 |FCVersion=cualquier
 |Files=ninguno
 }}
@@ -20,7 +20,7 @@ Guarde su trabajo a menudo, de vez en cuando guarde su trabajo con un nombre dif
 
 ## Introducción a las técnicas de modelado 
 
-La primera (y básica) técnica de modelado de sólidos es [Geometría constructiva de sólidos (CSG)](http://es.wikipedia.org/wiki/Geometr%C3%ADa_constructiva_de_s%C3%B3lidos). También hay una explicación detallada (en el contexto de FreeCAD) de [Geometría constructiva de sólidos](Constructive_solid_geometry/es.md) en el wiki. Trabajas con formas primitivas como cubos, cilindros, esferas y conos para construir tu geometría combinándolas, restando una forma de la otra, o intersectándolas. Estas herramientas forman parte del [Ambiente de trabajo Pieza](Part_Workbench/es.md). También puedes aplicar transformaciones en las formas, como aplicar redondeos o chaflanes en las aristas. Estas herramientas también están en el [Ambiente de trabajo Pieza](Part_Workbench/es.md).
+La primera (y básica) técnica de modelado de sólidos es _ en el wiki. Trabajas con formas primitivas como cubos, cilindros, esferas y conos para construir tu geometría combinándolas, restando una forma de la otra, o intersectándolas. Estas herramientas forman parte del [Ambiente de trabajo Pieza](Part_Workbench/es.md). También puedes aplicar transformaciones en las formas, como aplicar redondeos o chaflanes en las aristas. Estas herramientas también están en el [Ambiente de trabajo Pieza](Part_Workbench/es.md).
 
 Luego existen otras herramientas más avanzadas. Tu empiezas dibujando un perfil 2D que puedas extruir o revolucionar.
 
@@ -88,7 +88,7 @@ Este método requiere que comiences dibujando un perfil 2D. Necesitas activar el
 
 <div class="mw-translate-fuzzy">
 
-Después necesitamos establecer el [plano de trabajo](Draft_SelectPlane/es.md). Dependiendo de tu versión de FreeCAD, lo tendrás directamente en la barra de herramientas, a la derecha, el botón que indica \"None\". Pulsalo, y a la izquierda aparecerán justo después de \"Comando activo: Seleccionar plano Equidistancia\", un campo de texto y una serie de botones. Asumiendo que quieres comenzar tu perfil en la vista en planta, seleciona XY. El botón \"None\" mostrará ahora \"Top\" como plano activo. [Ver nota.](#DraftPlaneButton/es.md)
+Después necesitamos establecer el _
 
 Selecciona la herramienta ![](images/Draft_Wire.png ) [Wire o Polilínea (línea de múltiples puntos)](Draft_Wire.md), y comienza a dibujar la forma, utilizando los campos de texto para las posiciones X e Y. La casilla de verificación Relativo debería estar activada, así como la de \"Relleno\".
 

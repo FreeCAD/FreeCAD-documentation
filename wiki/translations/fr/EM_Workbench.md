@@ -12,7 +12,7 @@ L\'atelier ElectroMagnetic (EM) fournit l'interface front-end de CAO à certains
 
 ## Installation
 
-L\'atelier [EM](EM_Workbench/fr.md) est un [Addon FreeCAD](External_workbenches/fr.md) qui peut être installé avec <img alt="" src=images/AddonManager.svg  style="width:24px;"> [AddonManager](AddonManager/fr.md). ceci peut être fait à partir de 
+L\'atelier _. ceci peut être fait à partir de 
 **Outils → Addon Manager**
 
 Les solveurs électromagnétiques FastHenry2 et FasterCap doivent être installés séparément. Leurs codes binaires ainsi que les sources sont disponibles gratuitement sur [FastFieldSolvers](https://www.fastfieldsolvers.com).
@@ -78,7 +78,7 @@ De nouveaux ateliers sont en développement, restez à l\'écoute!
 
 }}  
 
-[Category:External Workbenches](Category:External_Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > EM Workbench/fr
+[documentation index](../README.md) > [External Workbenches](Category_External Workbenches.md) > EM Workbench/fr

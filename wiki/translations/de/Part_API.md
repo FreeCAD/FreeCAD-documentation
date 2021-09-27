@@ -92,7 +92,7 @@ Part.show(mycube)
 
  
 
-[Category:API](Category:API.md) [Category:Poweruser Documentation](Category:Poweruser_Documentation.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part API/de
+[documentation index](../README.md) > [API](Category_API.md) > [Part](Part_Workbench.md) > Part API/de

@@ -43,7 +43,7 @@ Wood Frame comes with the following tools:
 
 ## Further resources 
 
--   [Workbench documentation and demonstration videos](https://github.com/JeromeL63/Wood-Frame/blob/master/README.md).
+-   _.
 -   [Help: forum discussion](https://forum.freecadweb.org/viewtopic.php?t=40458).
 -   [Please report bugs](https://github.com/JeromeL63/Wood-Frame/issues).
 
@@ -55,7 +55,7 @@ Wood Frame is compatible with Freecad 0.19.
 
 
 
-[Category:User Documentation](Category:User_Documentation.md) [Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+_ _ _
 
 ---
-[documentation index](../README.md) > Wood Frame Workbench
+[documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > Wood Frame Workbench

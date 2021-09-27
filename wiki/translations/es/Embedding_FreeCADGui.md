@@ -539,7 +539,7 @@ In the source code there are examples of embedding FreeCAD with various graphica
 
 }} 
 
-[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Embedding FreeCADGui/es
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Embedding FreeCADGui/es

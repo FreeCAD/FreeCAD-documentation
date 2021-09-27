@@ -598,7 +598,7 @@ $ python setup.py install --prefix=/Applications/FreeCAD\ 0.16.6706.app/Contents
 
 <div class="mw-translate-fuzzy">
 
-IFCOpenShell este o bibliotecă în curs de dezvoltare, care permite importul fișierelor [Classes Fundation Classes (\* .IFC)](http://en.wikipedia.org/wiki/Industry_Foundation_Classes) pentru import (și, în curând, export). IFC este o extensie a formatului STEP și devine standard în fluxurile de lucru [BIM](http://en.wikipedia.org/wiki/Building_information_modeling). Când sistemul ifcopenshell este instalat corect pe sistem, FreeCAD [Arch Workbench/ro](Arch_Workbench/ro.md) îl va detecta și îl va folosi pentru a importa fișiere IFC în locul importatorului său rudimentar integrat. Deoarece ifcopenshell se bazează pe OpenCasCade, precum FreeCAD, calitatea importului este foarte mare, producând o geometrie solidă de înaltă calitate.
+IFCOpenShell este o bibliotecă în curs de dezvoltare, care permite importul fișierelor _ îl va detecta și îl va folosi pentru a importa fișiere IFC în locul importatorului său rudimentar integrat. Deoarece ifcopenshell se bazează pe OpenCasCade, precum FreeCAD, calitatea importului este foarte mare, producând o geometrie solidă de înaltă calitate.
 
 
 </div>
@@ -745,7 +745,7 @@ utils = LazyLoader('PathScripts', globals(), 'PathScripts.PathUtils')
 
  
 
-[Category:Python Code](Category:Python_Code.md) [Category:Developer Documentation](Category:Developer_Documentation.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Python Code](Category:Python Code.md) > Extra python modules/ro
+[documentation index](../README.md) > [Python Code](Category_Python Code.md) > Extra python modules/ro

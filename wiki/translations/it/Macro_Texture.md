@@ -11,8 +11,8 @@
 |Version=0.14c
 |Date=2021/01/16
 |FCVersion=0.18 e superiore
-|Download=[https://www.freecadweb.org/wiki/images/9/90/FCTexture.png ToolBar Icon], [https://www.freecadweb.org/wiki/Macro_Loft Macro Loft] [16px|FCCreaLoft](File:FCCreaLoft.png.md)
-|SeeAlso=[32px|FCCreaLoft](File:FCCreaLoft.png.md) [Macro Loft](Macro_Loft/it.md)
+|Download=_
+|SeeAlso=_ [Macro Loft](Macro_Loft/it.md)
 }}
 
 
@@ -358,7 +358,7 @@ Image:Texture\_003\_napperon.png\|Una porzione di una tovaglia. Image:Texture\_0
 <File:FCTexture_Example.gif%7CProcedura> per creare il solido:
 **1:** Creare un loft con lo strumento <img alt="" src=images/Part_RuledSurface.svg  style="width:24px;"> o con la <img alt="FCCreaLoft" src=images/FCCreaLoft.png  style="width:32px;"> [Macro Loft](Macro_Loft/it.md)
 **2:** Selezionare tutto e estrudere con lo strumento <img alt="" src=images/Part_Extrude.svg  style="width:24px;">
-**3A:** Per Linux Download [GMSHMesh](https://github.com/psicofil/Macros_FreeCAD) (autore psicofil) [Pagina del wiki Macro GMSH](Macro_GMSH/it.md)
+**3A:** Per Linux Download _
 **3B:** Per Windows Download [GmshMesh2.zip](http://forum.freecadweb.org/download/file.php?id=15220) decomprimere il file e installarlo nella propria directory Mod (autore ulrich1a)
 **4:** Creare il proprio file Mesh e utilizzarlo
 

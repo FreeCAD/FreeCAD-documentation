@@ -158,7 +158,7 @@ You\'ll have to modify the path to libpack to match yours. Use absolute paths. T
 
 This batch must be run with administrator privileges (or, you can set to allow users use mklink in local security policy settings in Windows). The batch may fail, if there are spaces in paths (it may work, but it is untested). Tip: create a shortcut to links\_libpack.bat, set it up to run as admin (in shortcut properties), and drag the build folder onto the shortcut.
 
-[Category:Developer Documentation](Category:Developer_Documentation.md)
+_
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > CompileOnWindows - Reducing Disk Footprint/en
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > CompileOnWindows - Reducing Disk Footprint/en

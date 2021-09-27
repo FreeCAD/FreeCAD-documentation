@@ -1,7 +1,7 @@
 # Mesh/de
 ## Einleitung
 
-In FreeCAD wird das Wort \"[Polygonnetz](Mesh/de.md)\" normalerweise verwendet, um sich auf ein [Polygonnetz PolygonnetzObjekt](Mesh_MeshObject/de.md) (`Mesh::MeshObject` Klasse) zu beziehen, ein Objekttyp, der 3D Daten definiert, aber kein Volumenkörper \"[Form](Shape/de.md)\" ist.
+In FreeCAD wird das Wort \"_\" ist.
 
 Polygonnetze sind sehr einfache Objekte, die nur Knoten (Punkte), Kanten und dreieckige Flächen enthalten. Im Allgemeinen sind sie leicht zu erstellen, zu modifizieren, zu unterteilen und zu dehnen und können ohne Detailverlust von einer Anwendung zur anderen übertragen werden. Da die Netze sehr einfache Daten enthalten, können 3D Anwendungen wie Animationssoftware und Videospiele sehr große Mengen von ihnen (Millionen von Dreiecken) ohne großen Rechenaufwand verwalten.
 
@@ -12,7 +12,7 @@ Siehe [Polygonnetz PolygonnetzObjekt](Mesh_MeshObject/de.md) für weitere Inform
 ![](images/Shape_and_mesh.svg )
 
 
-*Links: parametrische [Form](Shape/de.md), definiert durch Eigenschaften. Rechts: [Polygonnetz](Mesh/de.md), definiert durch Eckpunkte und Dreiecksflächen.*
+*Links: parametrische _, definiert durch Eckpunkte und Dreiecksflächen.*
 
 ## Anwendung
 
@@ -26,7 +26,7 @@ Da FreeCAD in erster Linie als Volumenmodellierer konzipiert ist, ist es besser 
 
 In FreeCAD kann sich das Wort \"[Polygonnetz](Mesh/de.md)\" auch auf ein bestimmtes Objekt beziehen, das in der Finite Elemente Analyse (FEA) verwendet wird.
 
-Wenn ein Objekt mit einem Volumenkörper [Form](Shape/de.md) in der [FEM Arbeitsbereich](FEM_Workbench/de.md) verwendet wird, wird es zu einem dreieckigen Netz diskretisiert. In diesem Fall ist das resultierende Objekt ein [Fem FemPolygonnetzObjekt](Fem_FemMeshObject/de.md) (`Fem::FemMeshObject` Klasse) und ist nicht von einer [Polygonnetz Merkmal](Mesh_Feature/de.md) (`Mesh::Feature` Klasse) abgeleitet.
+Wenn ein Objekt mit einem Volumenkörper _ (`Mesh::Feature` Klasse) abgeleitet.
 
 Für weitere Informationen siehe [FEM Arbeitsbereich](FEM_Workbench/de.md) und [FEM Polygonnetz](FEM_Mesh/de.md).
 
@@ -39,7 +39,7 @@ Für weitere Informationen siehe [FEM Arbeitsbereich](FEM_Workbench/de.md) und [
 
 }} {{FEM Tools navi}} {{Document objects navi}} 
 
-[Category:Glossary](Category:Glossary.md)
+_
 
 ---
-[documentation index](../README.md) > [Glossary](Category:Glossary.md) > Mesh/de
+[documentation index](../README.md) > [Glossary](Category_Glossary.md) > Mesh/de

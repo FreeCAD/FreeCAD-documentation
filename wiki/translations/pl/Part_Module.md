@@ -6,11 +6,11 @@
 ## Wprowadzenie
 
 Funkcje modelowania brył w FreeCAD są oparte na jądrze *(OCCT)* [Technologia Open Cascade](OpenCASCADE/pl.md), profesjonalnym systemie CAD, który oferuje możliwość zaawansowanego tworzenia i manipulacji geometrii 3D.
-Środowisko pracy <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Część](Part_Workbench/pl.md) jest warstwą umieszczoną nad bibliotekami OCCT, która daje użytkownikowi dostęp do geometrycznych brył pierwotnych i funkcji OCCT. Zasadniczo wszystkie funkcje rysowania 2D i 3D w każdym środowisku pracy *(<img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Rysunek Roboczy](Draft_Workbench/pl.md), <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Szkicownik](Sketcher_Workbench/pl.md), <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Projekt Części](PartDesign_Workbench/pl.md), itd.)*, są oparte na tych funkcjach, które zostały zaprezentowane przez Środowisko pracy Part. Dlatego też środowisko pracy Część jest uważane za kluczowy komponent umiejętności modelowania programu FreeCAD.
+Środowisko pracy <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> _, <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> _, itd.)*, są oparte na tych funkcjach, które zostały zaprezentowane przez Środowisko pracy Part. Dlatego też środowisko pracy Część jest uważane za kluczowy komponent umiejętności modelowania programu FreeCAD.
 
 Bardziej szczegółowa dyskusja na temat środowisk Część kontra Projekt części znajduje się tutaj: [Część i Projekt części](Part_and_PartDesign/pl.md).
 
-Obiekty stworzone przy użyciu środowiska pracy Część są stosunkowo proste. Są przeznaczone do używania z operacjami typu logicznego *(łączenia i cięcia)* w celu budowania bardziej złożonych kształtów. **Ten wzorzec modelowania znany jest jako [Stereometria konstrukcyjna](constructive_solid_geometry.md) *(CSG)* i była to tradycyjna metodologia stosowana we wczesnych systemach CAD**. Z drugiej strony środowisko pracy [Projekt Części](PartDesign_Workbench/pl.md) zapewnia bardziej nowoczesny cykl roboczy służący konstruowaniu kształtów: wykorzystuje szkic zdefiniowany parametrycznie, który jest wytłaczany w celu utworzenia podstawowej bryły, która następnie jest modyfikowana przez przekształcenia parametryczne *([edycja cech](feature_editing.md))*, aż do uzyskania ostatecznego obiektu.
+Obiekty stworzone przy użyciu środowiska pracy Część są stosunkowo proste. Są przeznaczone do używania z operacjami typu logicznego *(łączenia i cięcia)* w celu budowania bardziej złożonych kształtów. **Ten wzorzec modelowania znany jest jako _)*, aż do uzyskania ostatecznego obiektu.
 
 Obiekty części są bardziej złożone niż obiekty siatkowe utworzone przy użyciu środowiska pracy [Siatka](Mesh_Workbench/pl.md), ponieważ pozwalają one na bardziej zaawansowane operacje, takie jak spójne operacje logiczne, historia modyfikacji i właściwości parametryczne.
 
@@ -41,12 +41,12 @@ Są to narzędzia do tworzenia obiektów o charakterze elementarnym.
 
 -   <img alt="" src=images/Part_Primitives.svg  style="width:32px;"> [Bryły pierwotne](Part_Primitives/pl.md): Narzędzie do tworzenia jednego z następujących obiektów pierwotnych:
     -   <img alt="" src=images/Part_Plane.svg  style="width:32px;"> [Płaszczyzna](Part_Plane.md): tworzy płaszczyznę.
-    -   <img alt="" src=images/Tree_Part_Box_Parametric.svg  style="width:32px;"> [Box](Part_Box/pl.md): tworzy sześcian. Ten obiekt może być również utworzony za pomocą narzędzia <img alt="" src=images/Part_Box.svg  style="width:32px;"> [Utwórz sześcian](Part_Box/pl.md).
-    -   <img alt="" src=images/Tree_Part_Cylinder_Parametric.svg  style="width:32px;"> [Walec](Part_Cylinder.md): tworzy cylinder. Ten obiekt może być również utworzony za pomocą narzędzia <img alt="" src=images/Part_Cylinder.svg  style="width:32px;"> [Utwórz walec](Part_Cylinder/pl.md).
-    -   <img alt="" src=images/Tree_Part_Cone_Parametric.svg  style="width:32px;"> [Stożek](Part_Cone/pl.md): tworzy stożek. Ten obiekt może być również stworzony za pomocą narzędzia <img alt="" src=images/Part_Cone.svg  style="width:32px;"> [Utwórz stożek](Part_Cone/pl.md).
-    -   <img alt="" src=images/Tree_Part_Sphere_Parametric.svg  style="width:32px;"> [Sphere](Part_Sphere/pl.md): tworzy sferę. Ten obiekt może być również stworzony za pomocą narzędzia <img alt="" src=images/Part_Sphere.svg  style="width:32px;"> [Utwórz sferę](Part_Sphere/pl.md).
+    -   <img alt="" src=images/Tree_Part_Box_Parametric.svg  style="width:32px;"> _.
+    -   <img alt="" src=images/Tree_Part_Cylinder_Parametric.svg  style="width:32px;"> _.
+    -   <img alt="" src=images/Tree_Part_Cone_Parametric.svg  style="width:32px;"> _.
+    -   <img alt="" src=images/Tree_Part_Sphere_Parametric.svg  style="width:32px;"> _.
     -   <img alt="" src=images/Part_Ellipsoid.svg  style="width:32px;"> [Elipsoida](Part_Ellipsoid.md): tworzy elipsoidę.
-    -   <img alt="" src=images/Tree_Part_Torus_Parametric.svg  style="width:32px;"> [Torus](Part_Torus/pl.md): tworzy torusa. Ten obiekt może być również stworzony za pomocą narzędzia <img alt="" src=images/Part_Torus.svg  style="width:32px;"> [Utwórz torusa](Part_Torus/pl.md).
+    -   <img alt="" src=images/Tree_Part_Torus_Parametric.svg  style="width:32px;"> _.
     -   <img alt="" src=images/Part_Prism.svg  style="width:32px;"> [Graniastosłup](Part_Prism.md): tworzy graniastosłup.
     -   <img alt="" src=images/Part_Wedge.svg  style="width:32px;"> [Klin](Part_Wedge.md): tworzy klin.
     -   <img alt="" src=images/Part_Helix.svg  style="width:32px;"> [Helisa](Part_Helix.md): tworzy helisę.
@@ -121,7 +121,7 @@ Narzędzia te wykonują operacje logiczne.
     -   <img alt="" src=images/Part_BooleanFragments.svg  style="width:32px;"> [Fragmenty funkcji fogicznych](Part_BooleanFragments.md): tworzy wszystkie elementy, które można uzyskać poprzez operacje logiczne pomiędzy obiektami.
     -   <img alt="" src=images/Part_SliceApart.svg  style="width:32px;"> [Pokroj część](Part_SliceApart.md): Przecina i dzieli obiekt przez przecięcie go przez inne obiekty.
     -   <img alt="" src=images/Part_Slice.svg  style="width:32px;"> [Rozkroj częścią](Part_Slice.md): Dzieli obiekt na części, przecinając go innym obiektem.
-    -   <img alt="" src=images/Part_XOR.svg  style="width:32px;"> [XOR](Part_XOR.md): usuwa przestrzeń współdzieloną przez parzystą liczbę obiektów *(symetryczna wersja [Wycięcie](Part_Cut.md))*.
+    -   <img alt="" src=images/Part_XOR.svg  style="width:32px;"> _)*.
 
 ### Pomiary
 
@@ -195,7 +195,7 @@ Zobacz również: [skrypty dla środowiska Część](Part_scripting/pl.md)
 
  
 
-[Category:Workbenches](Category:Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Module/pl
+[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Part](Part_Workbench.md) > Part Module/pl

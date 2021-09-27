@@ -118,7 +118,7 @@ Jest to miniatura przedstawiająca obraz dokumentu o wymiarach 128x128 pikseli, 
 
 ### \*.brep
 
-Są to kształty [B-rep](wikipedia:Boundary_representation.md) wszystkich obiektów, które mają postać Part w {{FileName|Document.xml}}. Każdy obiekt, nawet jeśli jest parametryczny, ma swój kształt przechowywany jako indywidualny plik {{FileName|.brep}}, więc może być dostępny dla komponentów bez potrzeby ponownego obliczania kształtu.
+Są to kształty _ wszystkich obiektów, które mają postać Part w {{FileName|Document.xml}}. Każdy obiekt, nawet jeśli jest parametryczny, ma swój kształt przechowywany jako indywidualny plik {{FileName|.brep}}, więc może być dostępny dla komponentów bez potrzeby ponownego obliczania kształtu.
 
 ### \*.svg
 
@@ -166,7 +166,7 @@ Zobacz wątek na forum, [PDF wewnątrz projektu](https://forum.freecadweb.org/vi
 
  
 
-[Category:Developer](Category:Developer.md) [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:File\_Formats](Category:File_Formats.md)
+_ _ _
 
 ---
-[documentation index](../README.md) > [Developer](Category:Developer.md) > File Format FCStd/pl
+[documentation index](../README.md) > [Developer](Category_Developer.md) > File Format FCStd/pl

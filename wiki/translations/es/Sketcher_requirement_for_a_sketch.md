@@ -2,7 +2,7 @@
 {{TutorialInfo/es
 |Topic=Croquis
 |Level=Principiante
-|Author=[Maker](User:Maker.md)
+|Author=_
 |Time=
 |FCVersion=
 }}

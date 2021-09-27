@@ -41,7 +41,7 @@ Les outils suivants sont disponibles dans ce menu:
 
 -   Vues Standards
     -   ![vertical-align: top=zoom-all](images/Std_ViewFitAll.svg ) [Tout afficher](Std_ViewFitAll/fr.md): adapte tous les objets visibles à l\'intérieur de la vue.
-    -   [text-top=View-zoom-selection](Image:Std_ViewFitSelection.svg.md) [Afficher la sélection](Std_ViewFitSelection/fr.md): adapte les objets sélectionnés à l\'intérieur de la vue.
+    -   _ [Afficher la sélection](Std_ViewFitSelection/fr.md): adapte les objets sélectionnés à l\'intérieur de la vue.
     -   Axonometrique
         -   <img alt="" src=images/Std_ViewIsometric.svg  style="width:32px;"> [Isometric](Std_ViewIsometric/fr.md): bascule vers une vue isométrique.
         -   <img alt="" src=images/Std_ViewDimetric.svg  style="width:32px;"> [Dimétrique](Std_ViewDimetric/fr.md): bascule vers une vue dimétrique.
@@ -79,7 +79,7 @@ Les outils suivants sont disponibles dans ce menu:
     -   <img alt="" src=images/Std_ViewIvStereoInterleavedRows.svg  style="width:32px;"> [Lignes stéréo entrelacées](Std_ViewIvStereoInterleavedRows/fr.md): bascule vers la vue stéréo des lignes entrelacées.
     -   <img alt="" src=images/Std_ViewIvStereoInterleavedColumns.svg  style="width:32px;"> [Colonnes stéréo entrelacées](Std_ViewIvStereoInterleavedColumns/fr.md): bascule vers la vue stéréo des colonnes entrelacées.
     -   <img alt="" src=images/Std_ViewIvStereoOff.svg  style="width:32px;"> [Stéréo désactivée](Std_ViewIvStereoOff/fr.md): désactive la vue stéréo.
-    -   <img alt="" src=images/Std_ViewIvIssueCamPos.svg  style="width:32px;"> [Position de la caméra](Std_ViewIvIssueCamPos/fr.md): imprime les paramètres de la caméra dans la [Vue rapport](Report_view/fr.md) et la [console Python](Python_console/fr.md).
+    -   <img alt="" src=images/Std_ViewIvIssueCamPos.svg  style="width:32px;"> _ et la [console Python](Python_console/fr.md).
 
 -   Zoom
     -   <img alt="" src=images/Std_ViewZoomIn.svg  style="width:32px;"> [Zoom avant](Std_ViewZoomIn/fr.md): effectue un zoom avant sur la vue.
@@ -137,7 +137,7 @@ Les outils suivants sont disponibles dans ce menu:
     -   [Vue DAG](DAG_view/fr.md)
 
 -   Actions d\'arborescence
-    -   <img alt="" src=images/Std_TreeSyncView.svg  style="width:32px;"> [Vue synchronisation](Std_TreeSyncView/fr.md): bascule la [vue en arborescence](tree_view/fr.md) en mode synchronisation. {{Version/fr|0.19}}
+    -   <img alt="" src=images/Std_TreeSyncView.svg  style="width:32px;"> _ en mode synchronisation. {{Version/fr|0.19}}
     -   <img alt="" src=images/Std_TreeSyncSelection.svg  style="width:32px;"> [Synchroniser la sélection](Std_TreeSyncSelection/fr.md): bascule la vue en arborescence en mode Expansion synchrone. {{Version/fr|0.19}}
     -   <img alt="" src=images/Std_TreeSyncPlacement.svg  style="width:32px;"> [Synchroniser le placement](Std_TreeSyncPlacement/fr.md): bascule la vue en arborescence en mode Synchronisation placement. {{Version/fr|0.19}}
     -   <img alt="" src=images/Std_TreePreSelection.svg  style="width:32px;"> [Préselection](Std_TreePreSelection/fr.md): bascule la vue en arborescence en mode Préselection. {{Version/fr|0.19}}
@@ -148,7 +148,7 @@ Les outils suivants sont disponibles dans ce menu:
     -   <img alt="" src=images/Std_TreeDrag.svg  style="width:32px;"> [Déplacement](Std_TreeDrag/fr.md): lance une opération de glissement pour les objets sélectionnés dans l\'arborescence. {{Version/fr|0.19}}
     -   <img alt="" src=images/Std_TreeSelection.svg  style="width:32px;"> [Aller à la sélection](Std_TreeSelection/fr.md): fait défiler l\'arborescence jusqu\'au premier objet créé dans une sélection de vue 3D. {{Version/fr|0.19}}
 
--   [Barre d\'état](Std_ViewStatusBar/fr.md): bascule l\'affichage de la [Barre d\'état](Status_bar/fr.md).
+-   _.
 
 
 
@@ -158,7 +158,7 @@ Les outils suivants sont disponibles dans ce menu:
 
 }}  
 
-[Category:Workbenches](Category:Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > [Workbenches](Category:Workbenches.md) > Std View Menu/fr
+[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Std View Menu/fr

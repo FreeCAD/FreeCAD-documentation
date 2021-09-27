@@ -6,7 +6,7 @@ El historial de cambios de FreeCAD se mantiene en nuestro rastreador de Mantis:
 
 
 
-[Category:Administration](Category:Administration.md) [Category:Developer](Category:Developer.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Administration](Category:Administration.md) > Changelog/es
+[documentation index](../README.md) > [Administration](Category_Administration.md) > Changelog/es

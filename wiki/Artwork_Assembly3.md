@@ -29,7 +29,7 @@ These icons are in the indicated source path of Realthunder\'s Link Branch:
 
  
 
-[Category:Assembly](Category:Assembly.md)
+_
 
 ---
-[documentation index](../README.md) > [Assembly](Category:Assembly.md) > Artwork Assembly3
+[documentation index](../README.md) > [Assembly](Category_Assembly.md) > Artwork Assembly3

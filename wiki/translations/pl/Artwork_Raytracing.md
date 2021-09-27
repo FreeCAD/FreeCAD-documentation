@@ -14,7 +14,7 @@ Wszystkie ikonki widoczne na liście źródłowej, patrz [Grafika](Artwork/pl.md
 
 }} 
 
-[Category:Raytracing](Category:Raytracing.md)
+_
 
 ---
-[documentation index](../README.md) > [Raytracing](Category:Raytracing.md) > Artwork Raytracing/pl
+[documentation index](../README.md) > [Raytracing](Category_Raytracing.md) > Artwork Raytracing/pl

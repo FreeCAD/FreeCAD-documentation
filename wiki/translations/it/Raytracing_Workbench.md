@@ -151,7 +151,7 @@ Queste pagine si riferiscono all\'ambiente in sostituzione, programmato in C++, 
 
 }} 
 
-[Category:Workbenches](Category:Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > Raytracing Workbench/it
+[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Raytracing Workbench/it

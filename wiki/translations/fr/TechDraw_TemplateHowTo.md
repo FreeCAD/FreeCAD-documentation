@@ -3,7 +3,7 @@
 |Topic=Dessin
 |Level=Intermédiaire
 |Time=60 minutes
-|Author=[wandererfan](User:wandererfan.md)
+|Author=_
 |FCVersion=0.17
 }}
 
@@ -11,7 +11,7 @@
 
 Ce tutoriel explique comment créer un fichier [SVG](SVG/fr.md) pouvant être utilisé comme [modèle](TechDraw_Templates/fr.md) d\'arrière-plan pour les pages de l\'[Atelier Techdraw](TechDraw_Workbench/fr.md).
 
-Ce tutoriel suppose que vous connaissez moyennement [Inkscape](https://fr.wikipedia.org/wiki/Inkscape) et [SVG](SVG/fr.md) ainsi que FreeCAD et l\'[atelier TechDraw](TechDraw_Workbench/fr.md).
+Ce tutoriel suppose que vous connaissez moyennement _ ainsi que FreeCAD et l\'[atelier TechDraw](TechDraw_Workbench/fr.md).
 
 Nous allons créer un modèle simple pour le papier de format Lettre US en orientation paysage.
 

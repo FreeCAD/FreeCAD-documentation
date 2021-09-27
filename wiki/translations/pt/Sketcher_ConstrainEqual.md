@@ -1,6 +1,6 @@
 # Sketcher ConstrainEqual/pt
 ---
-- GuiCommand:/pt   Name:Constraint EqualLength   Name/pt:Constraint EqualLength   Workbenches:[PartDesign](Sketcher_Workbench/pt___Sketcher]],_[[PartDesign_Workbench/pt.md)|MenuLocation:Sketch → Sketcher constraints → Constrain equal   SeeAlso:[Constraint Radius](Constraint_Radius/pt.md)---
+- GuiCommand:/pt   Name:Constraint EqualLength   Name/pt:Constraint EqualLength   Workbenches:_---
 
 
 </div>

@@ -152,7 +152,7 @@ Voir les instructions pour Linux ci-dessus
 
 ## Autres liens intéressants 
 
--   <img alt="PartDesign\_InvoluteGear" src=images/PartDesign_InvoluteGear.svg  style="width:24px;"> [PartDesign Engrenage droit à développante](PartDesign_InvoluteGear/fr.md) : cet outil permet de créer un profil 2D d\'un engrenage à développante. Ce profil 2D est entièrement paramétrique et peut être complété avec la fonction [PartDesign Protrusion](PartDesign_Pad/fr.md).
+-   <img alt="PartDesign\_InvoluteGear" src=images/PartDesign_InvoluteGear.svg  style="width:24px;"> _.
 -   [Ateliers externes](External_workbenches/fr.md) : une liste de tous les ateliers externes actuels de FreeCAD
 -   [Macros](Macros_recipes/fr.md)
 -   [L\'engrenage cycloïdal (allemand)](https://vivat-geo.de/zykloidenverzahnung.html)
@@ -161,7 +161,7 @@ Voir les instructions pour Linux ci-dessus
 
 
 
-[Category:External Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md) [Category:FCGear](Category:FCGear.md)
+_ _ _
 
 ---
-[documentation index](../README.md) > FCGear Workbench/fr
+[documentation index](../README.md) > [External Workbenches](Category_External Workbenches.md) > FCGear Workbench/fr

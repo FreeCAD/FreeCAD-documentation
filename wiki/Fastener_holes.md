@@ -21,7 +21,7 @@ Finally, using [Fasteners workbench](https://www.freecadweb.org/wiki/Fasteners_W
 
 
 
-[Category:Macros](Category:Macros.md)
+_
 
 ---
-[documentation index](../README.md) > [Macros](Category:Macros.md) > Fastener holes
+[documentation index](../README.md) > [Macros](Category_Macros.md) > Fastener holes

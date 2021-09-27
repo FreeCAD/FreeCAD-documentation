@@ -69,7 +69,7 @@ Masquer **TX40\_HB007** car il contient les axes de tous les joints et ne peut p
 
 ## Mesure des caractéristiques géométriques 
 
-Afin de construire la table [Denavit-Hartenberg](http://fr.wikipedia.org/wiki/Denavit-Hartenberg) (voir [6-Axis\_Robot](Robot_6-Axis/fr.md) ) et de préparer le fichier [VRML](http://fr.wikipedia.org/wiki/Virtual_Reality_Markup_Language), que vous avez besoin pour obtenir des caractéristiques du Robot. Pour l\'instant, l\'outil de mesure de FreeCAD n\'est pas prêt, vous pouvez utiliser les axes inclus dans **TX40\_HB007** (les coordonnées sont indiquées en bas à gauche lorsque vous pointez un objet avec la souris) ou vous devez utiliser la [console Python](Introduction_to_Python/fr.md) pour obtenir des informations sur la forme géométrique.
+Afin de construire la table _ ) et de préparer le fichier _ pour obtenir des informations sur la forme géométrique.
 Notez que, le **DH-tableau** n\'est nécessaire que si vous avez besoin d\'utiliser la cinématique inverse, c\'est à dire obtenir les coordonnées cartésiennes ou de commander le robot en coordonnées cartésiennes.
 La **DH-table** pour ce robot est le suivant **(mm, degrés et deg/s)** :
 
@@ -453,7 +453,7 @@ Voici un **patch** pour obtenir un fichier **vrml** convenant à la simulation d
 
 
 
-[Category:Robot](Category:Robot.md)
+_
 
 ---
-[documentation index](../README.md) > [Robot](Category:Robot.md) > VRML Preparation for Robot Simulation/fr
+[documentation index](../README.md) > [Robot](Category_Robot.md) > VRML Preparation for Robot Simulation/fr

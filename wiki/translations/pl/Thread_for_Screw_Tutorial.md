@@ -3,7 +3,7 @@
 |Topic= Projektowanie wyrobu
 |Level= Zaawansowany
 |Time= 60 minut
-|Author=[DeepSOIC](User:DeepSOIC.md), [Murdic](User:Murdic.md), vocx
+|Author=_, _, vocx
 |FCVersion=0.19
 |Files= [https://forum.freecadweb.org/viewtopic.php?f=36&t=44668 Aktualizacja - Przewodnik: Tworzenie gwintów.]
 }}
@@ -93,7 +93,7 @@ Jeśli chcesz, możesz dodać **<img src=images/PartDesign_AdditiveCylinder.svg 
 
 Prawdziwy gwint składa się z zamkniętego profilu prowadzącego bryłę wzdłuż spiralnej ścieżki.
 
-1.  Znajdując się w środowisku pracy <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> <img src=images/Part_Primitives.svg style="width:Część](Part_Workbench/pl.md), kliknij w przycisk **[16px"> <img src=images/Part_Helix.svg style="width:Part: Bryły pierwotne](Part_Primitives/pl.md)** aby utworzyć **[16px"> [Part: Helisę](Part_Helix/pl.md)**. Podaj odpowiednie wartości dla parametrów **Gęstość** {{Value|3mm}}, **Wysokość** {{Value|23mm}}, oraz **Promień** {{Value|10mm}}.
+1.  Znajdując się w środowisku pracy <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> <img src=images/Part_Primitives.svg style="width:Część](Part_Workbench/pl.md), kliknij w przycisk **_**. Podaj odpowiednie wartości dla parametrów **Gęstość** {{Value|3mm}}, **Wysokość** {{Value|23mm}}, oraz **Promień** {{Value|10mm}}.
 2.  Przejdź do środowiska pracy <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> <img src=images/PartDesign_Body.svg style="width:Projekt Części](PartDesign_Workbench/pl.md), i kliknij na przycisk **[16px"> [Projekt Części: Utwórz zawartość](PartDesign_Body/pl.md)**.
 3.  Kliknij w przycisk **<img src=images/PartDesign_NewSketch.svg style="width:16px"> [Projekt Części: Utwórz nowy szkic](PartDesign_NewSketch/pl.md)**. Wybierz {{Value|płaszczyznę XZ}}.
 4.  Narysuj zamknięty szkic z wymaganym profilem zębów gwintu, zwykle w kształcie trójkąta. W tym przypadku użyjemy wysokości {{Value|2,9 mm}}, która jest nieco mniejsza niż skok {{Value|3,0 mm}} stosowany dla ścieżki spirali. Profil nie może tworzyć samoprzecięć przy przesuwaniu się wzdłuż helisy, ani między zakrętami, ani na środku, dlatego nie można użyć szkicu przedstawionego dla układania krążków w stos.
@@ -116,9 +116,9 @@ Prawdziwy gwint składa się z zamkniętego profilu prowadzącego bryłę wzdłu
 
 Proces ten można również wykonać za pomocą narzędzi środowiska pracy [Część](Part_Workbench/pl.md).
 
-1.  Znajdując się w środowisku pracy <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> <img src=images/Part_Primitives.svg style="width:Część](Part_Workbench/pl.md) kliknij w przycisk **[24px"> [Tworzenie brył parametrycznych](Part_Primitives/pl.md)** aby utworzyć **[24px](Plik:_Part_Helix.svg.md) [Część: Helisa](Part_Helix/pl.md)**. Podaj odpowiednie wartości dla parametrów **Gęstość** {{Value|3mm}}, **Wysokość** {{Value|23mm}} i **Promień** {{Value|10mm}}.
+1.  Znajdując się w środowisku pracy <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> <img src=images/Part_Primitives.svg style="width:Część](Part_Workbench/pl.md) kliknij w przycisk **_ [Część: Helisa](Part_Helix/pl.md)**. Podaj odpowiednie wartości dla parametrów **Gęstość** {{Value|3mm}}, **Wysokość** {{Value|23mm}} i **Promień** {{Value|10mm}}.
 
-Teraz możesz przystąpić do dodawania innych elementów pierwotnych, takich jak **<img src=images/Part_Cylinder.svg style="width:16px"> <img src=images/Part_Fuse.svg style="width:Część: Cylinder](Part_Cylinder/pl.md)** , lub innych kształtów, aby posłużyć się funkcją **[16px"> <img src=images/Part_Cut.svg style="width:Część: Suma](Part_Fuse/pl.md)** lub **[16px"> [Część: Wytnij](Part_Cut.md)**.
+Teraz możesz przystąpić do dodawania innych elementów pierwotnych, takich jak **<img src=images/Part_Cylinder.svg style="width:16px"> <img src=images/Part_Fuse.svg style="width:Część: Cylinder](Part_Cylinder/pl.md)** , lub innych kształtów, aby posłużyć się funkcją **_**.
 
 <img alt="" src=images/T13_14_Threads_components.png  style="width:" height="300px;"> 
 *Tworzenie zwoju gwintu poprzez przesuwanie pionowego profilu, (1) the [szkic profilu](sketch.md), (2) [helical](Part_Helix.md) ścieżka przeciągania, oraz (3) wynik [przeciągnięcia](Part_Sweep/pl.md).*

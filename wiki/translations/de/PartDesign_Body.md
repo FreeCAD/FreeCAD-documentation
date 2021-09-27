@@ -15,9 +15,9 @@ Ein [PartDesign Körper](PartDesign_Body/de.md) ist das Basiselement, um mit dem
 
 Der Körper bietet ein {{MenuCommand/de|Ursprung}} Objekt, das lokale X-, Y- und Z-Achsen sowie Standardebenen enthält. Diese Elemente können als Referenzen verwendet werden, um [Skizzen](Sketch/de.md) und [PartDesign Grundelement](PartDesign_CompPrimitiveAdditive/de.md) anzuheften.
 
-Die **<img src=images/PartDesign_Body.svg style="width:16px"> <img src=images/Std_Part.svg style="width:PartDesign Körper](PartDesign_Body/de.md)**-Schaltfläche darf nicht mit der **[16px"> [Standard Teil](Std_Part/de.md)**-Schaltfläche verwechselt werden. Das erste ist ein entsprechendes Objekt aus dem <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign Arbeitsbereich](PartDesign_Workbench/de.md), um ein [einzeln zusammenhängenden Körper](PartDesign_Body/de#Einzeln_zusammenhängender_Körper.md) als [PartDesign Formelemente](PartDesign_Feature/de.md) zu erstellen. [Std Part](Std_Part/de.md) ist ein gruppierendes Objekt, um [Baugruppen](assembly/de.md) zu erzeugen. Es wird nicht zur Erstellung von Objekten verwendet, sondern um unterschiedliche Objekte im Raum zu positionieren. Mehrfache Körper und andere [Standard Teile](Std_Part/de.md) können innerhalb [Standard Teilen](Std_Part/de.md) positioniert werden, um eine komplexe Baugruppe zu erstellen.
+Die **<img src=images/PartDesign_Body.svg style="width:16px"> <img src=images/Std_Part.svg style="width:PartDesign Körper](PartDesign_Body/de.md)**-Schaltfläche darf nicht mit der **_, um ein [einzeln zusammenhängenden Körper](PartDesign_Body/de#Einzeln_zusammenhängender_Körper.md) als [PartDesign Formelemente](PartDesign_Feature/de.md) zu erstellen. [Std Part](Std_Part/de.md) ist ein gruppierendes Objekt, um [Baugruppen](assembly/de.md) zu erzeugen. Es wird nicht zur Erstellung von Objekten verwendet, sondern um unterschiedliche Objekte im Raum zu positionieren. Mehrfache Körper und andere [Standard Teile](Std_Part/de.md) können innerhalb [Standard Teilen](Std_Part/de.md) positioniert werden, um eine komplexe Baugruppe zu erstellen.
 
-![](images/PartDesign_Body_tree.png ) ![](images/PartDesign_Body_example.png ) *Links: die Baumansicht, die die Merkmale zeigt, die nacheinander die endgültige Form des Objekts erzeugen. Rechts: das endgültige Objekt, das in der [3D Ansicht](3D_view/de.md) sichtbar ist.*
+!_ sichtbar ist.*
 
 ## Anwendung
 
@@ -50,7 +50,7 @@ Wenn ein Körper bereits existiert, muss er vor der Verwendung von **<img src=im
 
 ## Eigenschaften
 
-Ein [PartDesign Körper](PartDesign_Body/de.md) (`PartDesign::Body` Klasse) wird von einer [Part Formelement](Part_Feature/de.md) abgeleitet. (`Part::Feature` Klasse), daher teilt sie alle Eigenschaften der letzteren.
+Ein _ abgeleitet. (`Part::Feature` Klasse), daher teilt sie alle Eigenschaften der letzteren.
 
 Zusätzlich zu den unter [Part Formelementen](Part_Feature/de.md) beschriebenen Eigenschaften hat der PartDesign Körper die folgenden Eigenschaften im [Eigenschaftseditor](Property_Editor/de.md).
 
@@ -114,7 +114,7 @@ Ein PartDesign Körper führt eine automatische [Verschmelzung](Part_Fuse/de.md)
 <img alt="" src=images/PartDesign_Body_two_intersection.png  style="width:" height="200px;"> <img alt="" src=images/PartDesign_Body_two_fusion.png  style="width:" height="200px;"> 
 *Links: zwei einzelne Festkörper, die sich gegenseitig schneiden. Rechts: ein einzelner PartDesign Körper mit zwei [ Additive Formelemente](PartDesign_Feature/de.md); sie werden automatisch miteinander verschmolzen, so dass sie, anstatt sich zu schneiden, einen einzelnen, zusammenhängenden Festkörper bilden.*
 
-![](images/PartDesign_Body_non-contiguous.png ) *Links: zwei getrennte Festkörper; dies ist kein gültiger PartDesign Körper. Rechts: zwei sich berührende Festkörper; dies ergibt einen gültigen PartDesign Körper. Das neuere [Formelement](PartDesign_Feature/de.md) sollte immer das vorherige Formelement berühren oder schneiden, so dass es mit diesem verschmolzen wird und zu einem einzigen zusammenhängenden Festkörper wird.*
+!_ sollte immer das vorherige Formelement berühren oder schneiden, so dass es mit diesem verschmolzen wird und zu einem einzigen zusammenhängenden Festkörper wird.*
 
 
 **Hinweis:**
@@ -163,7 +163,7 @@ alle Elemente innerhalb des Körpers werden auf den Ursprung des Körpers refere
 <img alt="" src=images/PartDesign_Body_Origin_tree.png ) ![](images/PartDesign_Body_Origin_view.png  style="width:" height="400px;">
 
 
-*Links: PartDesign Körper Ursprung in der [Baumansicht](tree_view/de.md). Rechts: Darstellung der Ursprung Elemente in der [3D Ansicht](3D_view/de.md).*
+*Links: PartDesign Körper Ursprung in der _.*
 
 ### Basis Formelement 
 
@@ -245,7 +245,7 @@ Die Sichtbarkeit des Körpers hat Vorrang vor der Sichtbarkeit seiner Elemente. 
 
 Mehrfache [Skizzen](Sketch/de.md) können gleichzeitig sichtbar sein, aber nur ein [PartDesign Formelement](PartDesign_Feature/de.md) (Festkörper Ergebnis) kann gleichzeitig sichtbar sein. Durch Auswahl eines ausgeblendeten Formelementes und Drücken der **Space** in der Tastatur wird es sichtbar und das zuvor sichtbare Formelement automatisch ausgeblendet.
 
-![](images/PartDesign_Body_Visibility.png ) *PartDesign Körper: Mehrfache [Skizzen](Sketch/de.md) können gleichzeitig sichtbar sein, aber nur ein Festkörper [PartDesign Formelement](PartDesign_Feature/de.md) kann gleichzeitig sichtbar sein, unabhängig davon, ob es sich um die Spitze handelt oder nicht.*
+!_ können gleichzeitig sichtbar sein, aber nur ein Festkörper [PartDesign Formelement](PartDesign_Feature/de.md) kann gleichzeitig sichtbar sein, unabhängig davon, ob es sich um die Spitze handelt oder nicht.*
 
 ### Anfügung
 
@@ -261,11 +261,11 @@ Mehrfache [Skizzen](Sketch/de.md) können gleichzeitig sichtbar sein, aber nur e
 
 Ein [PartDesign Formelement](PartDesign_Feature/de.md), das nicht angehängt ist, wird mit einem roten Überlagerungssymbol neben seinem Symbol in der [Baumansicht](tree_view/de.md) angezeigt.
 
-![](images/PartDesign_Body_Feature_attachment.png ) *PartDesign Körper: [PartDesign Formelement](PartDesign_Feature/de.md) die nicht an eine Ebene oder ein Koordinatensystem gebunden sind, werden mit einem Überlagerungssymbol neben ihrem Symbol in der [Baumansicht](tree_view/de.md) angezeigt.*
+!_ die nicht an eine Ebene oder ein Koordinatensystem gebunden sind, werden mit einem Überlagerungssymbol neben ihrem Symbol in der [Baumansicht](tree_view/de.md) angezeigt.*
 
 ## Vererbung
 
-Ein [PartDesign Körper](PartDesign_Body.md) ist formell eine Instanz der Klasse `PartDesign::Body`, deren Elternteil die [Part Formelement](Part_Feature.md) (`Part::Feature` Klasse) ist durch die Zwischenklasse {`Part::BodyBase`} und wird um eine Origin-Erweiterung erweitert.
+Ein _ (`Part::Feature` Klasse) ist durch die Zwischenklasse {`Part::BodyBase`} und wird um eine Origin-Erweiterung erweitert.
 
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
 

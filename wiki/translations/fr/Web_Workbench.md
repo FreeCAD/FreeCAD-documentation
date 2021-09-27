@@ -12,7 +12,7 @@ L\'[atelier Web](Web_Workbench/fr.md) n\'est pas vraiment un atelier de modélis
 
 
 
-[Category:Web](Category:Web.md) [Category:Workbenches](Category:Workbenches.md)
+_ _
 
 ---
-[documentation index](../README.md) > Web Workbench/fr
+[documentation index](../README.md) > [Web](Category_Web.md) > Web Workbench/fr

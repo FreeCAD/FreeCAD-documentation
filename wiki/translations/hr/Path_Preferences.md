@@ -39,7 +39,7 @@ There are three sections: General, Post processor, and Setup.
 
 }} 
 
-[Category:Preferences](Category:Preferences.md)
+_
 
 ---
-[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Preferences/hr
+[documentation index](../README.md) > [Preferences](Category_Preferences.md) > [Path](Path_Workbench.md) > Path Preferences/hr

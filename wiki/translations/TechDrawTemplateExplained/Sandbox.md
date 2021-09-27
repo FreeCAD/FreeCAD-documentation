@@ -656,7 +656,7 @@ The editable texts are sorted according to font size. The group tag defines the 
 
 Dies ist eine Sandbox
 
-[Category:Sandbox](Category:Sandbox.md)
+_
 
 ---
 [documentation index](../README.md) > Sandbox/TechDrawTemplateExplained

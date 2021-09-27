@@ -28,7 +28,7 @@ N\'oubliez pas que les styles et les étiquettes des séries de données peuvent
 
 }} 
 
-[Category:External\_Workbenches](Category:External_Workbenches.md) [Category:Addons](Category:Addons.md)
+_ _
 
 ---
-[documentation index](../README.md) > [External_Workbenches](Category:External_Workbenches.md) > Plot Legend/fr
+[documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > Plot Legend/fr

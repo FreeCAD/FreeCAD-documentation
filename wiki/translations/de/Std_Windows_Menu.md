@@ -51,7 +51,7 @@ Die folgenden Werkzeuge sind in diesem Menü verfügbar:
 
 }}  
 
-[Category:Workbenches](Category:Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > [Workbenches](Category:Workbenches.md) > Std Windows Menu/de
+[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Std Windows Menu/de

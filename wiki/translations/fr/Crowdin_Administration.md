@@ -38,7 +38,7 @@
 
 
 
-[Category:Administration](Category:Administration.md)
+_
 
 ---
-[documentation index](../README.md) > [Administration](Category:Administration.md) > Crowdin Administration/fr
+[documentation index](../README.md) > [Administration](Category_Administration.md) > Crowdin Administration/fr

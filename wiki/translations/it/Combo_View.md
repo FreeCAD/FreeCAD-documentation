@@ -3,7 +3,7 @@
 
 
 
-[Category:Redirects/it](Category:Redirects/it.md)
+_
 
 ---
 [documentation index](../README.md) > Combo View/it

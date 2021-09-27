@@ -3,7 +3,7 @@
 
 ## Beschreibung
 
-Neben der Eingabe von Koordinaten oder der Verwendung vom [Fangen](Draft_Snap/de.md) gibt es eine Funktion namens Beschränken, um dir zu helfen im <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Entwurf Arbeitsbereich](Draft_Workbench/de.md) und dem <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Architektur Arbeitsbereich](Arch_Workbench/de.md) sorgfältig zu Zeichnen. Für jeden nachfolgenden Punkt kannst du die Bewegung des Mauszeigers auf die X, Y oder Z Richtung des Koordinatensystems der [Arbeitsebene](Draft_SelectPlane/de.md) beschränken. Dies kann zum Beispiel verwendet werden, um eine perfekt vertikale Linie zu erzeugen.
+Neben der Eingabe von Koordinaten oder der Verwendung vom _ und dem <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Architektur Arbeitsbereich](Arch_Workbench/de.md) sorgfältig zu Zeichnen. Für jeden nachfolgenden Punkt kannst du die Bewegung des Mauszeigers auf die X, Y oder Z Richtung des Koordinatensystems der [Arbeitsebene](Draft_SelectPlane/de.md) beschränken. Dies kann zum Beispiel verwendet werden, um eine perfekt vertikale Linie zu erzeugen.
 
 Das Beschränken ist mit den meisten [Entwurf](Draft_Workbench/de.md)- und [Architektur](Arch_Workbench/de.md)-Befehlen verfügbar.
 

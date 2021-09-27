@@ -56,7 +56,7 @@ Die neueste Version von CadAbfrage nutzt nicht mehr FreeCAD und ist nicht mit de
 
 
 
-[Category:Sandbox](Category:Sandbox.md) [Category:User Documentation](Category:User_Documentation.md) [Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+_ _ _ _
 
 ---
-[documentation index](../README.md) > CadQuery Workbench/de
+[documentation index](../README.md) > [Sandbox](Category_Sandbox.md) > CadQuery Workbench/de

@@ -14,7 +14,7 @@
 
 }} 
 
-[Category:Path](Category:Path.md)
+_
 
 ---
-[documentation index](../README.md) > [Path](Category:Path.md) > Artwork Path/ru
+[documentation index](../README.md) > [Path](Category_Path.md) > Artwork Path/ru

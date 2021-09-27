@@ -55,7 +55,7 @@ L\'onglet Remerciements affiche une liste des contributeurs au projet FreeCAD. P
 
 ### Licence
 
-FreeCAD est autorisé sous les termes de la [Licence Publique Générale Limitée GNU 2](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License) (LGPL 2). Le texte intégral de cette licence est répertorié ici. Voir la [licence](licence/fr.md) pour plus de détails.
+FreeCAD est autorisé sous les termes de la _ pour plus de détails.
 
 Comme FreeCAD utilise des bibliothèques externes, elles peuvent avoir leurs propres conditions de licence. Consultez leurs licences particulières dans les [bibliothèques tierces](Third_Party_Libraries/fr.md).
 
@@ -70,7 +70,7 @@ L\'onglet Bibliothèques affiche une liste des bibliothèques externes utilisée
 
 {{Std Base navi}}  
 
-[Category:Common Questions](Category:Common_Questions.md)
+_
 
 ---
-[documentation index](../README.md) > [Common Questions](Category:Common Questions.md) > Std About/fr
+[documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > Std About/fr

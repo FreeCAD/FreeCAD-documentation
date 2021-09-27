@@ -14,7 +14,7 @@
 
 }} 
 
-[Category:Points](Category:Points.md)
+_
 
 ---
-[documentation index](../README.md) > [Points](Category:Points.md) > Artwork Points/ru
+[documentation index](../README.md) > [Points](Category_Points.md) > Artwork Points/ru

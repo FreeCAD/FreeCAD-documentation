@@ -95,7 +95,7 @@ doc.recompute()
 
 Смотрите так же: [Mesh API](Mesh_API/ru.md). {{Top}} {{Powerdocnavi}} {{Mesh Tools navi}} 
 
-[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Scripting/ru
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Mesh](Mesh_Workbench.md) > Mesh Scripting/ru

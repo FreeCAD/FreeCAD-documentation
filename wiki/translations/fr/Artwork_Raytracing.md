@@ -14,7 +14,7 @@ Pour toutes les icônes de l\'arborescence source, voir [Graphisme](Artwork/fr.m
 
 }} 
 
-[Category:Raytracing](Category:Raytracing.md)
+_
 
 ---
-[documentation index](../README.md) > [Raytracing](Category:Raytracing.md) > Artwork Raytracing/fr
+[documentation index](../README.md) > [Raytracing](Category_Raytracing.md) > Artwork Raytracing/fr

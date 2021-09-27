@@ -1,7 +1,7 @@
 # Main Page/fr
 ## Introduction
 
-Ceci est la documentation wiki de [FreeCAD](http://www.freecadweb.org/?lang=fr_FR). Il existe plusieurs façons d\'utiliser cette documentation : en explorant les hubs, en suivant le manuel, ou en utilisant les entrées du menu Aide depuis FreeCAD. Il s\'agit d\'un travail en cours, rédigé par la communauté des utilisateurs et des développeurs de FreeCAD. Si vous trouvez une information erronée ou manquante, merci [d\'aider FreeCAD](Special:MyLanguage/help_FreeCAD.md)! 
+Ceci est la documentation wiki de _! 
 
 
 ## Les documentations 
@@ -18,7 +18,7 @@ Ceci est la documentation wiki de [FreeCAD](http://www.freecadweb.org/?lang=fr_F
 
 ## Manuel
 
-<img alt="Crystal_Clear_manual.png" src=images/Crystal_Clear_manual.png  style="width:64px;"> [Le manuel FreeCAD](Manual:Introduction/fr.md) est une autre façon, plus linéaire, de présenter les informations contenues dans ce wiki. Il est conçu pour être lu comme un livre, et vous introduira doucement à de nombreuses autres pages des documentations ci-dessus. Des [versions ebook](https://www.gitbook.com/book/yorikvanhavre/a-freecad-manual/details) sont également disponibles, ainsi que [quelques traductions au format pdf](https://www.freecadweb.org/manual/).
+<img alt="Crystal_Clear_manual.png" src=images/Crystal_Clear_manual.png  style="width:64px;"> _ est une autre façon, plus linéaire, de présenter les informations contenues dans ce wiki. Il est conçu pour être lu comme un livre, et vous introduira doucement à de nombreuses autres pages des documentations ci-dessus. Des [versions ebook](https://www.gitbook.com/book/yorikvanhavre/a-freecad-manual/details) sont également disponibles, ainsi que [quelques traductions au format pdf](https://www.freecadweb.org/manual/).
 
 
 
@@ -55,7 +55,7 @@ La page [Contribuer à FreeCAD](help_FreeCAD/fr.md) décrit tout cela avec plus 
 
 ### Code source 
 
-FreeCAD peut être compilé en utilisant [CMake](https://cmake.org/). Le code source est sous licence [LGPL](https://fr.wikipedia.org/wiki/Licence_publique_g%C3%A9n%C3%A9rale_limit%C3%A9e_GNU) et déposé sur [GitHub](https://github.com/FreeCAD/FreeCAD) avec des dépôts miroirs sur [GitLab](https://gitlab.com/freecad/FreeCAD) et [CodeBerg](https://codeberg.org/FreeCAD/FreeCAD). Les instructions de compilation sont ici pour [Windows](Compile_on_Windows/fr.md), [Linux](Compile_on_Linux/fr.md) et [MacOSX](Compile_on_MacOS/fr.md). Le code source de la documentation est sur le [site Web FreeCAD](http://www.freecadweb.org/api/) généré par [Doxygen](Doxygen/fr.md) et [documenté sur le wiki](Source_documentation/fr.md).
+FreeCAD peut être compilé en utilisant _, _ et [documenté sur le wiki](Source_documentation/fr.md).
 
 ### À propos du développement 
 
@@ -64,7 +64,7 @@ Consultez la [feuille de route du développement](Development_roadmap/fr.md) pou
 
 
 
-[Category:Documentation](Category:Documentation.md)
+_
 
 ---
-[documentation index](../README.md) > [Documentation](Category:Documentation.md) > Main Page/fr
+[documentation index](../README.md) > [Documentation](Category_Documentation.md) > Main Page/fr

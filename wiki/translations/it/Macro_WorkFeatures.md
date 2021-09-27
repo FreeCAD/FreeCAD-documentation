@@ -559,7 +559,7 @@ Data 2019-05-01 (YYYY-MM-DD)
 
  
 
-[Category:Addons/it](Category:Addons/it.md) [Category:User Documentation/it](Category:User_Documentation/it.md) [Category:Addons](Category:Addons.md) [Category:User Documentation](Category:User_Documentation.md)
+_ _ _ _
 
 ---
-[documentation index](../README.md) > [Addons](Category:Addons.md) > Macro WorkFeatures/it
+[documentation index](../README.md) > [Addons](Category_Addons.md) > Macro WorkFeatures/it

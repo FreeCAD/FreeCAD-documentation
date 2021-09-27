@@ -204,6 +204,18 @@ Dans les expressions, il est possible d\'utiliser les composants du placement pa
 <<Cube>>.Placement.Base.x
 ```
 
+Vous pouvez accéder à l\'angle de la rotation par 
+```python
+<<Cube>>.Placement.Rotation.Angle
+```
+
+L\'axe de rotation est accessible par 
+```python
+<<Cube>>.Placement.Rotation.Axis.x
+<<Cube>>.Placement.Rotation.Axis.y
+<<Cube>>.Placement.Rotation.Axis.z
+``` où souvent une de ces valeurs vaut 1 alors que les autres valent 0.
+
 Vous pouvez également utiliser tout le Placement dans une seule expression: Faites un clic droit sur la propriété Placement dans l\'éditeur de propriétés, sélectionnez \"show all\" puis des propriétés supplémentaires s\'afficheront. Si vous cliquez à nouveau avec le bouton droit sur Placement, le menu contextuel comprendra Expression, sélectionnez Expression puis la boîte de dialogue Expression s\'ouvrira et tout ce que vous tapez ira dans la propriété Placement plutôt que dans ses propriétés enfants.
 
 Pour rendre le placement de \"Sketch\" égal à celui de \"Cylinder\", vous devez entrer de cette manière pour Sketch l\'expression 

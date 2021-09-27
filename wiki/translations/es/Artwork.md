@@ -156,7 +156,7 @@ See [Artwork Erroneous](Artwork_Erroneous.md).
 
 }}
 
-[Category:Icon](Category:Icon.md) [Category:Developer Documentation](Category:Developer_Documentation.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Icon](Category:Icon.md) > Artwork/es
+[documentation index](../README.md) > [Icon](Category_Icon.md) > Artwork/es

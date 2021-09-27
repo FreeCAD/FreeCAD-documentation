@@ -1,7 +1,7 @@
 # Online Help Toc/hr
-Ovo je sadržaj koji se koristi za automatsku izgradnju sustava pomoći u FreeCAD-u. Verzija za ispis (printanje) ovog priručnika je dostupna na [releases page](https://github.com/FreeCAD/FreeCAD/releases) na Engleskom jeziku. Ako imate bilo kakvih pitanja ili vam je potrebna pomoć sa FreeCAD-om, molimo pogledajte [Stranica pomoći](Help/hr.md), uključujući forume i grupe za chat.
+Ovo je sadržaj koji se koristi za automatsku izgradnju sustava pomoći u FreeCAD-u. Verzija za ispis (printanje) ovog priručnika je dostupna na _, uključujući forume i grupe za chat.
 
-Postoji još jedna tablica sadržaja za[FreeCAD Uputstva](Manual:Introduction/hr.md).
+Postoji još jedna tablica sadržaja za_.
 
 
 <div class="mw-translate-fuzzy">
@@ -161,7 +161,7 @@ Postoji još jedna tablica sadržaja za[FreeCAD Uputstva](Manual:Introduction/hr
 
 
 
-[Category:Documentation](Category:Documentation.md)
+_
 
 ---
-[documentation index](../README.md) > [Documentation](Category:Documentation.md) > Online Help Toc/hr
+[documentation index](../README.md) > [Documentation](Category_Documentation.md) > Online Help Toc/hr

@@ -20,7 +20,7 @@ Il comando **Ambienti** attiva l\'[ambiente di lavoro](Workbenches/it.md) selezi
 
 ## Note
 
--   Ulteriori [ambienti aggiuntivi](External_Workbenches/it.md) possono essere scaricati con <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Addon_Manager/it.md).
+-   Ulteriori _.
 
 ## Preferenze
 

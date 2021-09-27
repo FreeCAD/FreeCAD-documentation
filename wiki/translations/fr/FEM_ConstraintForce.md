@@ -55,13 +55,7 @@ Cette commande applique une force de valeur donnée \[N\] à la géométrie cibl
 -   -   Cliquez sur **Close** pour terminer la boîte de dialogue et créer l\'objet **<img src=images/FEM_ConstraintForce.png style="width:24px"> ConstraintForce**
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{FEM Tools navi

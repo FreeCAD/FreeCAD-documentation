@@ -51,7 +51,7 @@ Hier verwenden wir die example005.scad Datei aus den (alten) OpenSCAD Beispielen
 -   [FreeCAD Wie Importieren Exportieren](FreeCAD_Howto_Import_Export/de.md)
 -   [Import Export Einstellungen](Import_Export_Preferences/de.md)
 
-[Category:OpenSCAD](Category:OpenSCAD.md)
+_
 
 ---
-[documentation index](../README.md) > [Import](Import_Workbench.md) > Import OpenSCAD code/de
+[documentation index](../README.md) > [OpenSCAD](Category_OpenSCAD.md) > [Import](Import_Workbench.md) > Import OpenSCAD code/de

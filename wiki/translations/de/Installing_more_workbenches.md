@@ -45,7 +45,7 @@ Siehe auch eine detaillierte Beschreibung auf der Seite [Wie man zusätzliche Ar
 
 }} 
 
-[Category:Developer Documentation](Category:Developer_Documentation.md)
+_
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Installing more workbenches/de
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Installing more workbenches/de

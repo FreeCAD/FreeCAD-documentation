@@ -139,7 +139,7 @@ Repetați procedeul pentru trasarea unui al doilea arc cu o rază de 25 mm. Cele
 <div class="mw-translate-fuzzy">
 
 1.  Selectaţi ![](images/Draft_Line.png ) [Linie](Draft_Line/ro.md).
-2.  Îndreptaţi-vă către **capătul** oricărui arc. Când cursorul Dvs. <img alt="" src=images/Snap_Endpoint.png  style="width:32px;"> se va apropia de punctul de terminare, la apropierea de el, punctul va deveni alb.
+2.  Îndreptaţi-vă către **capătul** oricărui arc. Când cursorul Dvs. <img alt="" src=images/Draft_Snap_Endpoint.svg  style="width:32px;"> se va apropia de punctul de terminare, la apropierea de el, punctul va deveni alb.
 3.  Selectaţi capătul celuilalt arc şi uniţi.
 4.  Repetaţi operaţia în cealaltă parte a arcelor.
 
@@ -292,7 +292,7 @@ Repetați procesul pentru arcuri de cerc și cercuri.
 
 </div>
 
-13\. Repeat the process for the circle located in the center. The first point of the measurement will still be the origin. To select the second point make sure **<img src=images/Draft_Snap_Lock.svg style="width:16px"> <img src=images/Draft_Snap_Angle.svg style="width:Toggle snap](Draft_Snap_Lock.md)** is active, and only **[16px"> [Angle](Draft_Snap_Angle.md)** as well. As you move the pointer to the top of the circle, the <img alt="" src=images/Draft_Snap_Angle.svg  style="width:24px;"> [Angle](Draft_Snap_Angle.md) icon should appear; click to select this point. Then move the cursor to the right, and click to fix the dimension.
+13\. Repeat the process for the circle located in the center. The first point of the measurement will still be the origin. To select the second point make sure **<img src=images/Draft_Snap_Lock.svg style="width:16px"> <img src=images/Draft_Snap_Angle.svg style="width:Toggle snap](Draft_Snap_Lock.md)** is active, and only **_ icon should appear; click to select this point. Then move the cursor to the right, and click to fix the dimension.
 
 Remember to adjust the **Font Size**, and other properties to see the dimension correctly.
 

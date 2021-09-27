@@ -28,7 +28,7 @@
 
 }} 
 
-[Category:API](Category:API.md)
+_
 
 ---
-[documentation index](../README.md) > [API](Category:API.md) > Builtin modules/ja
+[documentation index](../README.md) > [API](Category_API.md) > Builtin modules/ja

@@ -57,7 +57,7 @@ Medium
 
 -   Potential mentors: [Yorik](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=68)
 
-[Category:Google Summer of Code](Category:Google_Summer_of_Code.md)
+_
 
 ---
 [documentation index](../README.md) > Upgrade the documentation system

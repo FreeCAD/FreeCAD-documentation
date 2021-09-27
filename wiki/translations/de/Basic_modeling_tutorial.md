@@ -3,7 +3,7 @@
 |Thema= Einführung in die Modellierung
 |Level= Anfänger
 |Time= 15 Minuten
-|Autor=[NormandC](User:Normandc.md)
+|Autor=_
 |FCVersion=jede
 |Dateien=keine
 }}
@@ -20,7 +20,7 @@ Speichere deine Arbeit häufig, von Zeit zu Zeit unter einem anderen Namen, dami
 
 ## Einführung Modellierungstechniken 
 
-Die erste (und grundlegende) Technik der Volumenmodellierung ist [Konstruktive Festkörpergeometrie (CSG)](http://en.wikipedia.org/wiki/Constructive_solid_geometry). Es gibt auch eine detaillierte Erklärung (im Kontext von FreeCAD) von [Konstruktive Volumenkörpergeometrie](Constructive_solid_geometry/de.md) im Wiki. Du arbeitest mit Grundformen wie Würfeln, Zylindern, Kugeln und Kegeln, um deine Geometrie zu konstruieren, indem du sie kombinierst, eine Form von der anderen subtrahierst oder sie schneidest. Diese Werkzeuge sind Teil des [Part Arbeitsbereichs](Part_Workbench/de.md). Du kannst auch Transformationen auf Formen anwenden, wie z. B. das Anwenden von Rundungen oder Fasen an Kanten. Diese Werkzeuge sind ebenfalls in der [ Part Arbeitsbereich](Part_Workbench/de.md) enthalten.
+Die erste (und grundlegende) Technik der Volumenmodellierung ist _ im Wiki. Du arbeitest mit Grundformen wie Würfeln, Zylindern, Kugeln und Kegeln, um deine Geometrie zu konstruieren, indem du sie kombinierst, eine Form von der anderen subtrahierst oder sie schneidest. Diese Werkzeuge sind Teil des [Part Arbeitsbereichs](Part_Workbench/de.md). Du kannst auch Transformationen auf Formen anwenden, wie z. B. das Anwenden von Rundungen oder Fasen an Kanten. Diese Werkzeuge sind ebenfalls in der [ Part Arbeitsbereich](Part_Workbench/de.md) enthalten.
 
 Dann gibt es fortgeschrittenere Werkzeuge. Du beginnst, indem du ein 2D Profil zeichnest, das du entweder extrudierst oder drehst.
 

@@ -7,7 +7,7 @@ If you are not involved with the development discussed here:<br>
 
  
 
-This template is the guideline for a FreeCAD development project. It follows the rules of the [Getting Things Done (GTD)](http://en.wikipedia.org/wiki/Getting_Things_Done#Methodology) process. The projects are collected in the [Development roadmap](Development_roadmap.md).
+This template is the guideline for a FreeCAD development project. It follows the rules of the _.
 
 ## Purpose and principles 
 
@@ -73,7 +73,7 @@ The ISO 10303 (STEP) is very important in this field. Its the only good standard
 
  
 
-[Category:Roadmap](Category:Roadmap.md)
+_
 
 ---
-[documentation index](../README.md) > [Roadmap](Category:Roadmap.md) > STEP project
+[documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > STEP project

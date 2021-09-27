@@ -8,7 +8,13 @@
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 FreeCAD的工具类似于[CATIA](http://en.wikipedia.org/wiki/Catia)，[SolidWorks](http://en.wikipedia.org/wiki/Solidworks)以及[Solid Edge](http://en.wikipedia.org/wiki/Solid_Edge)，因此它属于[**MCAD**](http://en.wikipedia.org/wiki/CAD)、[**PLM**](http://en.wikipedia.org/wiki/Product_Lifecycle_Management)，[**CAx**](http://en.wikipedia.org/wiki/CAx)和[**CAE**](http://en.wikipedia.org/wiki/Computer-aided_engineering)类软件。 它是一个[基于特征的参数化建模工具](http://en.wikipedia.org/wiki/Parametric_feature_based_modeler)，具有模块化软件架构，可以在不修改核心系统的情况下轻松提供附加功能。
+
+
+</div>
 
 与许建模软件一样，FreeCAD具有许多2D组件，以便绘制平面草图或产品工程图，但是直接的2D工程图绘制（例如[Inkscape](https://inkscape.org/)或[AutoCAD LT](http://en.wikipedia.org/wiki/AutoCAD#AutoCAD_LT)）、动画以及网格编辑（例如[Blender](https://www.blender.org/) [Maya](http://en.wikipedia.org/wiki/Maya_(software)) [3ds Max](http://en.wikipedia.org/wiki/3ds_Max) [Cinema 4D](http://en.wikipedia.org/wiki/CINEMA_4D)）不是FreeCAD所专注的目标。然而，基于FreeCAD的广泛的适应性，它的使用范围应该会远远超出它当前的专注目标。
 
@@ -16,7 +22,13 @@ FreeCAD大量使用[科学计算](http://en.wikipedia.org/wiki/Scientific_Comput
 
 FreeCad也是完全的[跨平台](http://en.wikipedia.org/wiki/cross-platform)软件，目前在Windows、Linux/Unix和Mac OSX系统上运行完美，并且所有平台上的外观和功能完全相同。
 
+
+<div class="mw-translate-fuzzy">
+
 有关FreeCAD功能的更多信息，请查看[功能列表](Feature_list.md)，[ 最新发布说明](Feature_list＃Release_notes.md)，[入门文章](Getting_started.md)，或查看更多[截图集锦](screenshots.md)。
+
+
+</div>
 
 ### 关于FreeCAD项目
 
@@ -30,7 +42,7 @@ FreeCAD由热情的开发人员和用户组成的社区进行维护和开发（�
 
 
 
-[Category:User Documentation](Category:User_Documentation.md)
+_
 
 ---
-[documentation index](../README.md) > [User Documentation](Category:User Documentation.md) > About FreeCAD/zh
+[documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > About FreeCAD/zh

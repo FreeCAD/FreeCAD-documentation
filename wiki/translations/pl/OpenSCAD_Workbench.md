@@ -90,7 +90,7 @@ If FreeCAD crashes when importing CSG, it is strongly recommended that you enabl
 
 }} 
 
-[Category:Workbenches](Category:Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > OpenSCAD Workbench/pl
+[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > OpenSCAD Workbench/pl

@@ -11,7 +11,7 @@ The reason this workbench is still in the master source code is because this wor
 
 <div class="mw-translate-fuzzy">
 
-Robot arbetsbänken är ett verktyg för simulering av 6-axliga industrirobotar, som t.ex. [Kuka](http://kuka.com/). Denna arbetsbänk är ett pågående arbete för att implementera ett off-line programmeringsverktyg för [Robot\_6-Axis](Robot_6-Axis/sv.md) industrirobotar i FreeCAD. You can do following tasks:
+Robot arbetsbänken är ett verktyg för simulering av 6-axliga industrirobotar, som t.ex. _ industrirobotar i FreeCAD. You can do following tasks:
 
 -   set up a simulation environment with a robot and work pieces
 -   create and fill up trajectories
@@ -33,7 +33,7 @@ You can do the following tasks:
 
 <div class="mw-translate-fuzzy">
 
-Du kan hitta ett exempel här: [Example files](https://github.com/FreeCAD/FreeCAD_sf_master/blob/master/src/Mod/Robot/RobotExample.py) or try the [Robot tutorial](Robot_tutorial.md).
+Du kan hitta ett exempel här: _.
 
 
 </div>
@@ -106,7 +106,7 @@ See the [Robot API example](Robot_API_example.md) for a description of the funct
 
 }} 
 
-[Category:Workbenches](Category:Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > Robot Workbench/sv
+[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Robot Workbench/sv

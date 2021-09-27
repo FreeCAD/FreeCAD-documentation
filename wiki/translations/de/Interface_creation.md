@@ -40,7 +40,7 @@ Beispiele für diese Methode findest Du unter [Dialogerstellung](Dialog_creation
 
 }} 
 
-[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Interface creation/de
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Interface creation/de

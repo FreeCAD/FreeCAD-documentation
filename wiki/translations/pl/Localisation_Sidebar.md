@@ -11,9 +11,9 @@ W Wiki FreeCAD pasek boczny jest implementowany za pomocą szablonów, które zm
 
 ### Wytyczne
 
-Możesz przejść do strony specjalnej [Special:Translate/wiki-sidebar](Special:Translate/wiki-sidebar.md), aby rozpocząć tłumaczenie.
+Możesz przejść do strony specjalnej _, aby rozpocząć tłumaczenie.
 
-Występuje błąd na stronie pobierania. Nie można przekierować linku do **Download/fr**, lub **Download/de**, itp. Zamiast tego link będzie wskazywał na aktualne tłumaczenie **Download** w Twoim języku. Najlepszym sposobem na poradzenie sobie z tym problemem jest stworzenie nowej strony i przekierowanie jej na właściwą stronę. Więcej na temat przekierowania znajdziesz na stronie [Help:Editing](Help:Editing.md).
+Występuje błąd na stronie pobierania. Nie można przekierować linku do **Download/fr**, lub **Download/de**, itp. Zamiast tego link będzie wskazywał na aktualne tłumaczenie **Download** w Twoim języku. Najlepszym sposobem na poradzenie sobie z tym problemem jest stworzenie nowej strony i przekierowanie jej na właściwą stronę. Więcej na temat przekierowania znajdziesz na stronie _.
 
 ### Istotne uwagi 
 
@@ -31,7 +31,7 @@ Nie dodawaj kodów językowych \"/fr\", \"/de\", \"/es\", \"/ru\", itp., jeśli 
 
 
 
-[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Wiki](Category:Wiki.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Localisation Sidebar/pl
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Localisation Sidebar/pl

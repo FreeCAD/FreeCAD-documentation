@@ -109,7 +109,7 @@ The worm wheel must be designed manually. For this purpose **FCGear InvoluteGear
 
 
 
-[Category:Addons](Category:Addons.md) [Category:FCGear](Category:FCGear.md) [Category:External Command Reference](Category:External_Command_Reference.md)
+_ _ _
 
 ---
-[documentation index](../README.md) > [Addons](Category:Addons.md) > FCGear WormGear/it
+[documentation index](../README.md) > [Addons](Category_Addons.md) > FCGear WormGear/it

@@ -11,7 +11,7 @@ Most of these articles are open-access.
 
  {{Powerdocnavi}}
 
-[Category:Hubs](Category:Hubs.md)
+_
 
 ---
-[documentation index](../README.md) > [Hubs](Category:Hubs.md) > Scientific literature
+[documentation index](../README.md) > [Hubs](Category_Hubs.md) > Scientific literature

@@ -35,7 +35,7 @@ Der Versatz des Bildes kann beim Import eingestellt oder später über seine Eig
 
 }} 
 
-[Category:Workbenches](Category:Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > Image Workbench/de
+[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Image Workbench/de

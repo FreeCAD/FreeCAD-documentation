@@ -4,7 +4,7 @@
 
 {{TOCright}}
 
-W programie FreeCAD słowo \"[Część](Part/pl.md)\" jest zwykle używane w odniesieniu do typu obiektu <img alt="" src=images/Std_Part.svg  style="width:24px;"> [Std: Część](Std_Part/pl.md) *(klasa `App::Part`)*, kontenera, który jest zdefiniowany przez system bazowy. Ta część jest używana do zarządzania pozycją kształtów 3D w celu tworzenia złożeń mechanicznych.
+W programie FreeCAD słowo \"_ *(klasa `App::Part`)*, kontenera, który jest zdefiniowany przez system bazowy. Ta część jest używana do zarządzania pozycją kształtów 3D w celu tworzenia złożeń mechanicznych.
 
 Zobacz stronę <img alt="" src=images/Std_Part.svg  style="width:24px;"> [Std: Część](Std_Part/pl.md), aby uzyskać więcej informacji na temat tego typu obiektów.
 
@@ -31,7 +31,7 @@ Jednakże, gdy wymagana jest większa precyzja, należy dokonać rozróżnienia.
 
 }} {{Document objects navi}} 
 
-[Category:Glossary](Category:Glossary.md)
+_
 
 ---
-[documentation index](../README.md) > [Glossary](Category:Glossary.md) > Part/pl
+[documentation index](../README.md) > [Glossary](Category_Glossary.md) > Part/pl

@@ -89,7 +89,7 @@ Draft.move(myrect, mydistance)
 
 
 
-[Category:API](Category:API.md) [Category:Poweruser Documentation](Category:Poweruser_Documentation.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft API/es
+[documentation index](../README.md) > [API](Category_API.md) > [Draft](Draft_Workbench.md) > Draft API/es

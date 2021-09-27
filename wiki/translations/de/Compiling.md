@@ -19,7 +19,7 @@ Zum Erlernen der Verwendung des Revisionskontrollsystems und des Beitragscodes s
 
 
 
-[Category:Developer\_Documentation](Category:Developer_Documentation.md) [Category:Developer](Category:Developer.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Developer_Documentation](Category:Developer_Documentation.md) > Compiling/de
+[documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > Compiling/de

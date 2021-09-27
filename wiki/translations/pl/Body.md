@@ -1,7 +1,7 @@
 # Body/pl
 ## Introduction
 
-In FreeCAD the word \"[Body](Body.md)\" is normally used to refer to a [PartDesign Body](PartDesign_Body.md) object (`PartDesign::Body` class) that is defined by the [PartDesign Workbench](PartDesign_Workbench.md). This is a container object that can hold [2D sketches](Sketch.md) and [3D geometrical features](PartDesign_Feature.md) to build a solid shape.
+In FreeCAD the word \"_. This is a container object that can hold [2D sketches](Sketch.md) and [3D geometrical features](PartDesign_Feature.md) to build a solid shape.
 
 See [PartDesign Body](PartDesign_Body.md) for more information about this type of object.
 
@@ -26,7 +26,7 @@ A Body is not required when using the [Part Workbench](Part_Workbench.md), as th
 
 }} {{Document objects navi}} 
 
-[Category:Glossary](Category:Glossary.md)
+_
 
 ---
-[documentation index](../README.md) > [Glossary](Category:Glossary.md) > Body/pl
+[documentation index](../README.md) > [Glossary](Category_Glossary.md) > Body/pl

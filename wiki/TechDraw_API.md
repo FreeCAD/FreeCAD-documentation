@@ -370,7 +370,7 @@ dvp.requestPaint() Redraw the graphic for this View.
 
  {{TechDraw Tools navi}}  
 
-[Category:API](Category:API.md) [Category:Poweruser Documentation](Category:Poweruser_Documentation.md)
+_ _
 
 ---
-[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw API
+[documentation index](../README.md) > [API](Category_API.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw API

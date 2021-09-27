@@ -47,7 +47,7 @@ A nu se confunda acest meniu cu instrumentul <img alt="" src=images/Std_MeasureD
 
  
 
-[Category:Documentation](Category:Documentation.md)
+_
 
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Menu/ro
+[documentation index](../README.md) > [Documentation](Category_Documentation.md) > [Part](Part_Workbench.md) > Part Measure Menu/ro

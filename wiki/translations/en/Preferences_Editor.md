@@ -619,7 +619,7 @@ If a newly loaded workbench has dedicated preference they will appear in a new s
 
 For a list of workbench preferences see [Workbench preferences](#Workbench_preferences.md)
 
-![](images/Preferences_Workbenches_Tab_Unloaded_Workbenches.png )
+![](images/Preferences_Workbenches_Tab_Available_Workbenches.png )
 
 ## Import-Export settings 
 
@@ -630,7 +630,7 @@ The Import-Export settings affect how files are imported and exported. They are 
 
 **This section is incomplete and requires mentioning the preference pages of each core workbench**
 
-Preferences for the more common workbenches are linked below. Some workbenches have no preferences. Other optional workbenches may not be listed. These links are also listed in [:Category:Preferences](:Category:Preferences.md)
+Preferences for the more common workbenches are linked below. Some workbenches have no preferences. Other optional workbenches may not be listed. These links are also listed in _
 
 -   [Arch Preferences](Arch_Preferences.md)
 -   [Draft Preferences](Draft_Preferences.md)
@@ -684,7 +684,7 @@ For a scripting example see [Std DlgParameter](Std_DlgParameter.md).
 
 
 
-[Category:Preferences](Category:Preferences.md)
+_
 
 ---
-[documentation index](../README.md) > [Preferences](Category:Preferences.md) > Preferences Editor/en
+[documentation index](../README.md) > [Preferences](Category_Preferences.md) > Preferences Editor/en

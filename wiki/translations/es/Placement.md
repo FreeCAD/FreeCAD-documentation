@@ -204,6 +204,18 @@ En expresiones es posible usar los componentes de la ubicación, por ejemplo par
 <<Cubo>>.Placement.Base.x
 ```
 
+You can access the angle of the rotation by 
+```python
+<<Cube>>.Placement.Rotation.Angle
+```
+
+The axis of rotation can be accessed with 
+```python
+<<Cube>>.Placement.Rotation.Axis.x
+<<Cube>>.Placement.Rotation.Axis.y
+<<Cube>>.Placement.Rotation.Axis.z
+``` where often one of these values is 1 while the others are 0.
+
 Se puede usar también la Ubicación al completo en una única expresión. Para ello: Pinchar con el botón derecho del ratón sobre la propiedad Placement en el Editor de propiedades, seleccionar \"Mostrar todo\" y aparecerán más propiedades adicionales. Si se vuelve a pinchar con el botón derecho otra vez sobre Placement, el menú contextual incluirá \"Expresión\...\". Seleccionando Expresión se abrirá su caja de diálogo y lo que se introduzca irá a la propiedad de Placement en vez de a las propiedades hijas.
 
 Para hacer que la ubicación del \"Boceto\" sea la misma que la del \"Cilindro\", se debería introducir la expresión para el boceto de esta manera: 

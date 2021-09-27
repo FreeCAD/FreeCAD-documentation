@@ -52,7 +52,7 @@ Această comandă permite editarea unei schițe deja existente.
 
 }}  
 
-[Category:Sketcher/ro](Category:Sketcher/ro.md)
+_
 
 ---
 [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher EditSketch/ro

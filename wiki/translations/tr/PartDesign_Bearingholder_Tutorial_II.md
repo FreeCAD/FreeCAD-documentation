@@ -25,7 +25,7 @@ This is the second part of the tutorial. It will use what might be called the \'
 
 Obviously, to follow through this tutorial you must activate the PartDesign workbench.
 
-~~You can find my version of the part created in this tutorial [http://ubuntuone.com/39PTZ3Y3LUnmZzpZQPcJT4 here](http://ubuntuone.com/39PTZ3Y3LUnmZzpZQPcJT4_here.md)~~ *The file is no longer available, a new one will be provided at some later date*.
+~~You can find my version of the part created in this tutorial _~~ *The file is no longer available, a new one will be provided at some later date*.
 
 ## Veri Tasarımı 
 
@@ -84,7 +84,7 @@ For the rest of the machining, create a new Body. The bottom of the holder will 
 
 
 
-[Category:Tutorials](Category:Tutorials.md)
+_
 
 ---
-[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Bearingholder Tutorial II/tr
+[documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Bearingholder Tutorial II/tr

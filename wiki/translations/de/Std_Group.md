@@ -36,7 +36,7 @@ Um 3D-Objekte zu einer einzelnen Einheit zu gruppieren, um Baugruppen zu erzeuge
 
 ## Eigenschaften
 
-Eine [Standard Gruppe](Std_Group/de.md) wird intern [Anwendung DokumentObjektGruppe](App_DocumentObjectGroup/de.md) (`App::DocumentObjectGroup` Klasse) genannt und stammt aus einer [Anwendung DokumentObjekt](App_DocumentObject/de.md) (`App::DocumentObject` Klasse). Deshalb hat es die meisten Eigenschaften mit letzterem gemein.
+Eine _ (`App::DocumentObject` Klasse). Deshalb hat es die meisten Eigenschaften mit letzterem gemein.
 
 Zusätzlich zu den Eigenschaften, die in [App FeaturePython](App_FeaturePython.md), einer wesentlichen Instanz des [DokumentObjektes](App_DocumentObject/de.md), hat die App DocumentObjectGroup die {{PropertyData/de|Group}} Eigenschaft.
 
@@ -68,7 +68,7 @@ Siehe [App FeaturePython](App_FeaturePython.md) zu grundlegenden Ansichtseigensc
 
 ## Vererbung
 
-[Standard Gruppe](Std_Group/de.md) ist formell eine Instanz der Klasse `App::DocumentObjectGroup`, deren Elternteil die Basisklasse [App DocumentObject](App_DocumentObject.md)(`App::DocumentObject`) ist und um eine Gruppen-Erweiterung erweitert wird.
+_(`App::DocumentObject`) ist und um eine Gruppen-Erweiterung erweitert wird.
 
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
 

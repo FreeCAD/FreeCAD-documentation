@@ -26,7 +26,7 @@ Dies sind von der FreeCAD Gemeinschaft entwickelte Arbeitsbereiche, Skripte, Mak
 
 ### Soziale Netzwerke 
 
--   [yorik](User:Yorik.md) - <http://www.facebook.com/FreeCAD> (also updates <http://twitter.com/FreeCADNews> automatically)
+-   _ - <http://www.facebook.com/FreeCAD> (also updates <http://twitter.com/FreeCADNews> automatically)
 
 ### Nachrichten Webseiten 
 
@@ -52,7 +52,7 @@ Dies sind von der FreeCAD Gemeinschaft entwickelte Arbeitsbereiche, Skripte, Mak
 -   <http://linuxaideddesign.blogspot.de/>
 -   <http://sliptonic.com/>
 -   <http://opensourcedesigntools.blogspot.de/>
--   [yorik](User:Yorik.md) - <http://yorik.uncreated.net>
+-   _ - <http://yorik.uncreated.net>
 
 ### Französisch
 
@@ -84,7 +84,7 @@ Dies sind von der FreeCAD Gemeinschaft entwickelte Arbeitsbereiche, Skripte, Mak
 
 
 
-[Category:Documentation](Category:Documentation.md)
+_
 
 ---
-[documentation index](../README.md) > [Documentation](Category:Documentation.md) > FreeCAD Community Portal/de
+[documentation index](../README.md) > [Documentation](Category_Documentation.md) > FreeCAD Community Portal/de

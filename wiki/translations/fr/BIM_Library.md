@@ -38,7 +38,7 @@ L\'outil Bibliothèque BIM vous permet de placer dans le modèle en cours un obj
 
  
 
-[Category:BIM](Category:BIM.md)
+_
 
 ---
-[documentation index](../README.md) > [BIM](Category:BIM.md) > BIM Library/fr
+[documentation index](../README.md) > [BIM](Category_BIM.md) > BIM Library/fr

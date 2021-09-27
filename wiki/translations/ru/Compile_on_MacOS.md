@@ -192,7 +192,7 @@ Docnav/ru \|[Компиляция в Linux](Compile_on_Linux/ru.md) \|[Комп�
 
 
 
-[Category:Developer\_Documentation](Category:Developer_Documentation.md) [Category:Developer](Category:Developer.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Developer_Documentation](Category:Developer_Documentation.md) > Compile on MacOS/ru
+[documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > Compile on MacOS/ru

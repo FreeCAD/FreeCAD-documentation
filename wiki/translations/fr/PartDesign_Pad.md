@@ -116,7 +116,7 @@ Inverse la direction de la protrusion.
 
 -   Dans le cas très spécifique d\'une protrusion sur une surface concave, où l\'esquisse est plus grande que cette surface, la protrusion échouera. Il s\'agit d\'un bogue non-résolu.
 
--    {{VersionMinus/fr|0.16}}Il n\'y a pas de nettoyage automatique, par ex. des surfaces planes adjacentes en une seule surface. Vous pouvez résoudre ce problème manuellement dans l\'<img alt="" src=images/Workbench_Part.svg  style="width:16px;"> [Atelier Part](Part_Workbench.md) avec **<img src="images/Part_RefineShape.svg" width=16px> [Part Affiner la forme](Part_RefineShape/fr.md)** (qui crée un solide non paramétrique non lié) ou avec le **<img src="images/OpenSCAD_RefineShapeFeature.svg" width=16px> [OpenSCAD Affinage de la forme](OpenSCAD_RefineShapeFeature/fr.md)** à partir de l\'<img alt="" src=images/Workbench_OpenSCAD.svg  style="width:16px;"> [Atelier OpenSCAD](OpenSCAD_Workbench/fr.md) qui crée une fonction paramétrique.
+-    {{VersionMinus/fr|0.16}}Il n\'y a pas de nettoyage automatique, par ex. des surfaces planes adjacentes en une seule surface. Vous pouvez résoudre ce problème manuellement dans l\'<img alt="" src=images/Workbench_Part.svg  style="width:16px;"> _ qui crée une fonction paramétrique.
 
 
 

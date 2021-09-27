@@ -17,7 +17,7 @@
 
 <div class="mw-translate-fuzzy">
 
-La herramienta [Arquitectura Armadura](Arch_Truss/es.md) construye un objeto [1](https://es.wikipedia.org/wiki/Armadura_(estructura)), bien a partir de un objeto lineal seleccionado (mientas que una [Línea de Borrador](Draft_Line/es.md) o [Boceto](Sketcher_NewSketch/es.md)), o bien desde cero, si no hay ningún objeto seleccionado al lanzar el comando.
+La herramienta _ o [Boceto](Sketcher_NewSketch/es.md)), o bien desde cero, si no hay ningún objeto seleccionado al lanzar el comando.
 
 
 </div>
@@ -111,4 +111,4 @@ truss.HeightEnd = 400
 </div>
 
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Truss/es
+[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch Truss/es

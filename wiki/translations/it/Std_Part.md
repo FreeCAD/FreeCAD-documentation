@@ -18,9 +18,9 @@ L\'elemento Parte è stato sviluppato per essere l\'elemento di base per creare 
 
 Sebbene sia destinato principalmente a corpi solidi, Parte può essere utilizzato per gestire qualsiasi oggetto che abbia una proprietà [Posizionamento](Placement/it.md), quindi può anche contenere [Funzioni Mesh](Mesh_Feature/it.md), [schizzi](Sketch/it.md) e altri oggetti derivati dalla classe [App GeoFeature](App_GeoFeature/it.md).
 
-Non confondere il <img alt="" src=images/PartDesign_Body.svg  style="width:16px;"> [Corpo di PartDesign](PartDesign_Body/it.md) con la <img alt="" src=images/Std_Part.svg  style="width:16px;"> [Parte](Std_Part/it.md). Il primo è un oggetto specifico utilizzato in <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench/it.md), destinato a modellare un [singolo solido contiguo](PartDesign_Body/it#Singolo_solido_contiguo.md) mediante le [ funzioni di PartDesign](PartDesign_Feature/it.md). Invece, la [Parte](Std_Part/it.md) non viene utilizzata per la modellazione, ma solo per disporre diversi oggetti nello spazio, per creare degli [assemblaggi](assembly/it.md).
+Non confondere il <img alt="" src=images/PartDesign_Body.svg  style="width:16px;"> _. Il primo è un oggetto specifico utilizzato in <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench/it.md), destinato a modellare un [singolo solido contiguo](PartDesign_Body/it#Singolo_solido_contiguo.md) mediante le [ funzioni di PartDesign](PartDesign_Feature/it.md). Invece, la [Parte](Std_Part/it.md) non viene utilizzata per la modellazione, ma solo per disporre diversi oggetti nello spazio, per creare degli [assemblaggi](assembly/it.md).
 
-Lo strumento Parte non è definito da un particolare ambiente di lavoro, ma dal sistema base; di conseguenza lo si trova nella **barra degli strumenti struttura**, che è disponibile in tutti gli [ambienti di lavoro](Workbenches/it.md). Per raggruppare gli oggetti arbitrariamente senza considerare la loro posizione, utilizzare <img alt="" src=images/Std_Group.svg  style="width:16px;"> [Gruppo](Std_Group/it.md); questo oggetto non influenza i posizionamenti degli elementi che contiene, è essenzialmente solo una cartella che viene utilizzata per mantenere organizzata la [vista ad albero](tree_view/it.md).
+Lo strumento Parte non è definito da un particolare ambiente di lavoro, ma dal sistema base; di conseguenza lo si trova nella **barra degli strumenti struttura**, che è disponibile in tutti gli _; questo oggetto non influenza i posizionamenti degli elementi che contiene, è essenzialmente solo una cartella che viene utilizzata per mantenere organizzata la [vista ad albero](tree_view/it.md).
 
 ![](images/Std_Part-tree.png )![](images/Std_Part_example.png )
 
@@ -46,7 +46,7 @@ Lo strumento Parte non è definito da un particolare ambiente di lavoro, ma dal 
 
 ## Proprietà
 
-Una [Parte](Std_Part/it.md) è internamente chiamata [App Part](App_Part/it.md) (`App::Part` class), e deriva da un [App GeoFeature](App_GeoFeature/it.md) (`App::GeoFeature` class), quindi condivide la maggior parte delle proprietà di quest\'ultimo.
+Una _ (`App::GeoFeature` class), quindi condivide la maggior parte delle proprietà di quest\'ultimo.
 
 Oltre alle proprietà descritte in [App GeoFeature](App_GeoFeature/it.md), la classe App Part ha alcune proprietà che la aiutano a gestire le informazioni nel contesto di un assieme, ad esempio, **Type**, **Id**, **License**, **LicenseURL**, **Color**, e **Group**.
 
@@ -169,7 +169,7 @@ L\'Origine è costituita dai tre assi standard (X, Y, Z) e da tre piani standard
 ![](images/Part_Origin_tree.png ) ![](images/Part_Origin_view.png )
 
 
-*A sinistra: Origine di Part nella [vista ad albero](tree_view/it.md).</br> A destra: rappresentazione degli elementi Origine nella [vista 3D](3D_view/it.md).*
+*A sinistra: Origine di Part nella _.*
 
 
 **Nota:**
@@ -185,11 +185,11 @@ tutti gli elementi all\'interno della Parte sono riferiti all\'Origine della Par
 
 La visibilità della Parte sostituisce la visibilità di qualsiasi oggetto in essa contenuto. Se la Parte è nascosta, anche gli oggetti in essa contenuti saranno nascosti, anche se la loro proprietà individuale **Visibilità** è impostata su `True`. Se la Parte è visibile, allora la **Visibilità** di ogni oggetto determina se l\'oggetto è mostrato o meno.
 
-![](images/Part_Visibility_off.png ) ![](images/Part_Visibility_on.png ) *La visibilità della parte Std determina se gli oggetti raggruppati sotto di essa sono mostrati o meno nella [vista 3D ](3D_view/it.md).</br>A sinistra: la Parte è nascosta, quindi nessuno degli oggetti sarà mostrato nella [vista 3D](3D_view/it.md).</br>Destra: la Parte è visibile, quindi ogni oggetto controlla la propria visibilità.*
+!_.</br>Destra: la Parte è visibile, quindi ogni oggetto controlla la propria visibilità.*
 
 ## Eredità
 
-Una [Parte](Std_Part/it.md) è formalmente un\'istanza della classe `App::Part`, il cui genitore è il genitore di base [App GeoFeature](App_GeoFeature/it.md). (`App::GeoFeature` class), ed è incrementato con un\'estensione di Origine.
+Una _. (`App::GeoFeature` class), ed è incrementato con un\'estensione di Origine.
 
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
 

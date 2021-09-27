@@ -23,7 +23,7 @@ A gauche, en blanc, plusieurs objets planaires.<br>
 
 -   <img alt="" src=images/Draft_Wire.svg  style="width:32px;"> [Polyligne](Draft_Wire/fr.md) : crée une polyligne, une séquence de plusieurs segments de ligne connectés.
 
--   <img alt="" src=images/Draft_Fillet.svg  style="width:32px;"> [Congé](Draft_Fillet/fr.md) : crée un congé, un coin arrondi, ou un chanfrein, un bord droit, entre deux [Draft Lignes](Draft_Line/fr.md). {{Version/fr|0.19}}
+-   <img alt="" src=images/Draft_Fillet.svg  style="width:32px;"> _. {{Version/fr|0.19}}
 
 -   <img alt="" src=images/Draft_Arc.svg  style="width:32px;"> Outils d\'arc
 
@@ -83,39 +83,39 @@ A gauche, en blanc, plusieurs objets planaires.<br>
 
 -   <img alt="" src=images/Draft_OrthoArray.svg  style="width:32px;"> Outils de réseaux
 
-:\* <img alt="" src=images/Draft_OrthoArray.svg  style="width:32px;"> [Réseau orthogonal](Draft_OrthoArray/fr.md) : crée un réseau orthogonal à partir d\'un objet sélectionné. Il peut éventuellement créer un réseau de [Link](App_Link/fr.md). {{Version/fr|0.19}}
+:\* <img alt="" src=images/Draft_OrthoArray.svg  style="width:32px;"> _. {{Version/fr|0.19}}
 
-:\* <img alt="" src=images/Draft_PolarArray.svg  style="width:32px;"> [Réseau polaire](Draft_PolarArray/fr.md) : crée un réseau à partir d\'un objet sélectionné en plaçant des copies le long d\'une circonférence. Il peut éventuellement créer un réseau de [Link](App_Link/fr.md). {{Version/fr|0.19}}
+:\* <img alt="" src=images/Draft_PolarArray.svg  style="width:32px;"> _. {{Version/fr|0.19}}
 
-:\* <img alt="" src=images/Draft_CircularArray.svg  style="width:32px;"> [Réseau circulaire](Draft_CircularArray/fr.md) : crée un réseau à partir d\'un objet sélectionné en plaçant des copies le long de circonférences concentriques. Il peut éventuellement créer un réseau de [Link](App_Link/fr.md). {{Version/fr|0.19}}
+:\* <img alt="" src=images/Draft_CircularArray.svg  style="width:32px;"> _. {{Version/fr|0.19}}
 
 :\* <img alt="" src=images/Draft_PathArray.svg  style="width:32px;"> [Réseau selon une courbe](Draft_PathArray/fr.md) : crée un réseau à partir d\'un objet sélectionné en plaçant des copies le long d\'un tracé.
 
-:\* <img alt="" src=images/Draft_PathLinkArray.svg  style="width:32px;"> [Réseau lié selon une courbe](Draft_PathLinkArray/fr.md) : idem, mais crée un réseau de [Link](App_Link/fr.md) au lieu d\'un réseau normal. {{Version/fr|0.19}}
+:\* <img alt="" src=images/Draft_PathLinkArray.svg  style="width:32px;"> _ au lieu d\'un réseau normal. {{Version/fr|0.19}}
 
 :\* <img alt="" src=images/Draft_PointArray.svg  style="width:32px;"> [Réseau de points](Draft_PointArray/fr.md) : crée un réseau à partir d\'un objet sélectionné en plaçant des copies aux points d\'un composé de points.
 
-:\* <img alt="" src=images/Draft_PointLinkArray.svg  style="width:32px;"> [Réseau lié selon des points](Draft_PointLinkArray/fr.md) : idem, mais crée un réseau de [Link](App_Link/fr.md) au lieu d\'un réseau normal. {{Version/fr|0.19}}
+:\* <img alt="" src=images/Draft_PointLinkArray.svg  style="width:32px;"> _ au lieu d\'un réseau normal. {{Version/fr|0.19}}
 
 -   <img alt="" src=images/Draft_Edit.svg  style="width:32px;"> [Édition](Draft_Edit/fr.md) : met les objets sélectionnés en mode Édition de Draft. Dans ce mode, les propriétés des objets peuvent être modifiées graphiquement.
 
 -   <img alt="" src=images/Draft_SubelementHighlight.svg  style="width:32px;"> [Surligner les sous éléments](Draft_SubelementHighlight/fr.md) : met temporairement en évidence les objets sélectionnés ou les objets de base des objets sélectionnés.
 
--   <img alt="" src=images/Draft_Join.svg  style="width:32px;"> [Joindre](Draft_Join/fr.md) : joint des [Draft Lignes](Draft_Line/fr.md) et des [Draft Polylignes](Draft_Wire/fr.md) en une seule ligne.
+-   <img alt="" src=images/Draft_Join.svg  style="width:32px;"> _ et des [Draft Polylignes](Draft_Wire/fr.md) en une seule ligne.
 
--   <img alt="" src=images/Draft_Split.svg  style="width:32px;"> [Scinder](Draft_Split/fr.md) : divise une [Draft Ligne](Draft_Line/fr.md) ou une [Draft Polyligne](Draft_Wire/fr.md) à un point ou un bord spécifié.
+-   <img alt="" src=images/Draft_Split.svg  style="width:32px;"> _ ou une [Draft Polyligne](Draft_Wire/fr.md) à un point ou un bord spécifié.
 
 -   <img alt="" src=images/Draft_Upgrade.svg  style="width:32px;"> [Mettre à niveau](Draft_Upgrade/fr.md) : met à jour les objets sélectionnés.
 
 -   <img alt="" src=images/Draft_Downgrade.svg  style="width:32px;"> [Rétrograder](Draft_Downgrade/fr.md) : déclasse les objets sélectionnés.
 
--   <img alt="" src=images/Draft_WireToBSpline.svg  style="width:32px;"> [Filaire vers B-spline](Draft_WireToBSpline/fr.md) : convertit des [Draft Polylignes](Draft_Wire/fr.md) en [Draft BSplines](Draft_BSpline/fr.md) et vice versa.
+-   <img alt="" src=images/Draft_WireToBSpline.svg  style="width:32px;"> _ en [Draft BSplines](Draft_BSpline/fr.md) et vice versa.
 
--   <img alt="" src=images/Draft_Draft2Sketch.svg  style="width:32px;"> [Draft vers Esquisse](Draft_Draft2Sketch/fr.md): convertit les objets [Draft](Draft_Workbench/fr.md) en [Sketcher Esquisses](Sketcher_NewSketch/fr.md) et vice versa.
+-   <img alt="" src=images/Draft_Draft2Sketch.svg  style="width:32px;"> _ en [Sketcher Esquisses](Sketcher_NewSketch/fr.md) et vice versa.
 
--   <img alt="" src=images/Draft_Slope.svg  style="width:32px;"> [Pente](Draft_Slope/fr.md) : incline les [Draft Lignes](Draft_Line/fr.md) ou les [Draft Polylignes](Draft_Wire.md) sélectionnés en augmentant ou en diminuant, la coordonnée Z de tous les points après le premier.
+-   <img alt="" src=images/Draft_Slope.svg  style="width:32px;"> _ ou les [Draft Polylignes](Draft_Wire.md) sélectionnés en augmentant ou en diminuant, la coordonnée Z de tous les points après le premier.
 
--   <img alt="" src=images/Draft_FlipDimension.svg  style="width:32px;"> [Inverser la direction de la cote](Draft_FlipDimension/fr.md) : fait pivoter le texte de la dimension des [Draft Dimensions](Draft_Dimension/fr.md) sélectionnées de 180° autour de la ligne de cote.
+-   <img alt="" src=images/Draft_FlipDimension.svg  style="width:32px;"> _ sélectionnées de 180° autour de la ligne de cote.
 
 -   <img alt="" src=images/Draft_Shape2DView.svg  style="width:32px;"> [Vue 2D d\'une forme](Draft_Shape2DView/fr.md) : crée des projections 2D à partir des objets sélectionnés.
 
@@ -131,7 +131,7 @@ La barre d\'outils Plan de travail de Draft apparaît au démarrage de l\'atelie
 
 -   ![](images/Draft_tray_button_construction.png ) [Basculer en mode construction](Draft_ToggleConstructionMode/fr.md) : active ou désactive le mode de construction de Draft. Egalement disponible dans le menu : **Draft → Utilitaires → <img src="images/Draft_ToggleConstructionMode.svg" width=16px> Basculer en mode construction**.
 
--   ![](images/Draft_tray_button_layer.png ) [Groupement automatique](Draft_AutoGroup/fr.md) : change le [Draft Calque](Draft_Layer/fr.md) actif ou, accessoirement, le [Std Groupe](Std_Group/fr.md) actif ou un objet de type groupe [Arch](Arch_Workbench/fr.md).
+-   !_ actif ou, accessoirement, le [Std Groupe](Std_Group/fr.md) actif ou un objet de type groupe [Arch](Arch_Workbench/fr.md).
 
 ## Draft Widget d\'échelle d\'annotation 
 
@@ -155,7 +155,7 @@ La barre d\'outils [Draft Accrochage](Draft_Snap/fr.md) permet de sélectionner 
 
 -   <img alt="" src=images/Draft_Snap_Midpoint.svg  style="width:32px;"> [Aimantation Milieu](Draft_Snap_Midpoint/fr.md) : aimante au point milieu des segments droits et circulaires.
 
--   <img alt="" src=images/Draft_Snap_Center.svg  style="width:32px;"> [Aimantation Centre](Draft_Snap_Center/fr.md) : aimante au point central des faces et des arêtes circulaires et au point {{PropertyData/fr|Placement}} de [Draft Proxy de plan de travail](Draft_WorkingPlaneProxy/fr.md) et [Arch Partie de bâtiment](Arch_BuildingPart/fr.md).
+-   <img alt="" src=images/Draft_Snap_Center.svg  style="width:32px;"> _ et [Arch Partie de bâtiment](Arch_BuildingPart/fr.md).
 
 -   <img alt="" src=images/Draft_Snap_Angle.svg  style="width:32px;"> [Aimantation Angle](Draft_Snap_Angle/fr.md) : aimante aux points cardinaux spéciaux des bords circulaires, aux multiples de 30° et 45°.
 
@@ -175,7 +175,7 @@ La barre d\'outils [Draft Accrochage](Draft_Snap/fr.md) permet de sélectionner 
 
 -   <img alt="" src=images/Draft_Snap_Grid.svg  style="width:32px;"> [Aimantation Grille](Draft_Snap_Grid/fr.md) : aimante aux intersections des lignes de la grille.
 
--   <img alt="" src=images/Draft_Snap_WorkingPlane.svg  style="width:32px;"> [Aimantation Plan de travail](Draft_Snap_WorkingPlane/fr.md) : projette le point d\'aimantation sur le [plan de travail](Draft_SelectPlane/fr.md) en cours.
+-   <img alt="" src=images/Draft_Snap_WorkingPlane.svg  style="width:32px;"> _ en cours.
 
 -   <img alt="" src=images/Draft_Snap_Dimensions.svg  style="width:32px;"> [Aimantation Dimensions](Draft_Snap_Dimensions/fr.md) : montre les dimensions X et Y temporaires.
 
@@ -183,17 +183,17 @@ La barre d\'outils [Draft Accrochage](Draft_Snap/fr.md) permet de sélectionner 
 
 ## Outils utilitaires 
 
--   <img alt="" src=images/Draft_Layer.svg  style="width:32px;"> [Calque](Draft_Layer/fr.md) : crée un [Draft Calque](Draft_Layer/fr.md). {{Version/fr|0.19}}
+-   <img alt="" src=images/Draft_Layer.svg  style="width:32px;"> _. {{Version/fr|0.19}}
 
--   <img alt="" src=images/Draft_WorkingPlaneProxy.svg  style="width:32px;"> [Proxy de plan de travail](Draft_WorkingPlaneProxy/fr.md) : crée un proxy de plan de travail pour sauvegarder le [Draft Plan de travail](Draft_SelectPlane/fr.md).
+-   <img alt="" src=images/Draft_WorkingPlaneProxy.svg  style="width:32px;"> _.
 
 -   <img alt="" src=images/Draft_ToggleDisplayMode.svg  style="width:32px;"> [Mode d\'affichage](Draft_ToggleDisplayMode/fr.md) : bascule la {{PropertyView/fr|Display Mode}} (mode d\'affichage) des objets sélectionnés entre {{Value|Flat Lines}} et {{Value|Wireframe}}.
 
--   <img alt="" src=images/Draft_AddToGroup.svg  style="width:32px;"> [Déplacer vers un groupe](Draft_AddToGroup/fr.md) : déplace les objets vers un [Std Groupe](Std_Group/fr.md). Il peut aussi dégrouper des objets.
+-   <img alt="" src=images/Draft_AddToGroup.svg  style="width:32px;"> _. Il peut aussi dégrouper des objets.
 
--   <img alt="" src=images/Draft_SelectGroup.svg  style="width:32px;"> [Sélection groupée](Draft_SelectGroup/fr.md) : sélectionne le contenu des objets [Draft Calques](Draft_Layer/fr.md), [Std Groupes](Std_Group/fr.md) ou des objets de type groupe [Arch](Arch_Workbench/fr.md).
+-   <img alt="" src=images/Draft_SelectGroup.svg  style="width:32px;"> _, [Std Groupes](Std_Group/fr.md) ou des objets de type groupe [Arch](Arch_Workbench/fr.md).
 
--   <img alt="" src=images/Draft_AddConstruction.svg  style="width:32px;"> [Ajouter au groupe de construction](Draft_AddConstruction/fr.md) : déplace les objets vers le [Draft mode construction](Draft_ToggleConstructionMode/fr.md).
+-   <img alt="" src=images/Draft_AddConstruction.svg  style="width:32px;"> _.
 
 ## Menu Utilitaires 
 
@@ -205,11 +205,11 @@ Outils supplémentaires, disponibles via le menu **Draft → Utilitaires**, ou v
 
 -   <img alt="" src=images/Draft_ApplyStyle.svg  style="width:32px;"> [Appliquer le style](Draft_ApplyStyle/fr.md) : applique les paramètres du style en cours aux objets sélectionnés.
 
--   <img alt="" src=images/Draft_ShowSnapBar.svg  style="width:32px;"> [Barre d\'aimantation](Draft_ShowSnapBar/fr.md) : montre la [Draft Barre d\'aimantation](#Barre_d.27outils_d.27aimantation_de_Draft.md).
+-   <img alt="" src=images/Draft_ShowSnapBar.svg  style="width:32px;"> _.
 
 ## Fonctions additionnelles 
 
--   [Plan de travail](Draft_SelectPlane/fr.md) : le plan dans la [vue 3D](3D_view/fr.md) où les nouveaux objets Draft sont créés.
+-   _ où les nouveaux objets Draft sont créés.
 -   [Aimantation](Draft_Snap/fr.md) : sélectionne des points géométriques exacts sur, ou définis par, des objets existants ou la grille.
 -   [Contrainte](Draft_Constrain/fr.md) : pour chaque point suivant, vous pouvez contraindre le mouvement du curseur dans la direction X, Y ou Z.
 -   [Mode de construction](Draft_ToggleConstructionMode/fr.md) : place les nouveaux objets Draft dans un groupe dédié, ce qui facilite leur masquage ou leur suppression.
@@ -251,7 +251,7 @@ Pour un [Draft Calque](Draft_Layer/fr.md), les options supplémentaires sont dis
 
 Pour un [Draft Proxy de plan de travail](Draft_WorkingPlaneProxy/fr.md), les options supplémentaires sont disponibles :
 
--   <img alt="" src=images/Draft_SelectPlane.svg  style="width:32px;"> [Écrire la position de la caméra](Draft_WorkingPlaneProxy/fr#Menu_contextuel.md) : met à jour la propriété {{PropertyView/fr|View Data}} du proxy du plan de travail avec les paramètres en cours de la caméra de la [Vue 3D](3D_view/fr.md).
+-   <img alt="" src=images/Draft_SelectPlane.svg  style="width:32px;"> _.
 
 -   <img alt="" src=images/Draft_SelectPlane.svg  style="width:32px;"> [Écriture de l\'état des objets](Draft_WorkingPlaneProxy/fr#Menu_contextuel.md) : met à jour la propriété {{PropertyView/fr|Visibility Map}} du proxy du plan de travail avec l\'état de visibilité en cours des objets dans le document.
 
@@ -277,9 +277,9 @@ S\'il y a une sélection, le menu contextuel contient deux sous-menus supplémen
 
 Ces outils ont été supprimés de l\'interface dans la v0.19 car ils n\'avaient plus de raison d\'être.
 
--   <img alt="" src=images/Draft_Array.svg  style="width:32px;"> [Réseau](Draft_Array/fr.md) : crée un réseau orthogonal à partir d\'un objet sélectionné. Le réseau créé peut être transformé en un [réseau polaire](Draft_PolarArray/fr.md) ou un [réseau circulaire](Draft_CircularArray/fr.md) en modifiant sa propriété {{PropertyData/fr|Array Type}}. {{Obsolete/fr|0.19}}
+-   <img alt="" src=images/Draft_Array.svg  style="width:32px;"> _ ou un [réseau circulaire](Draft_CircularArray/fr.md) en modifiant sa propriété {{PropertyData/fr|Array Type}}. {{Obsolete/fr|0.19}}
 
--   <img alt="" src=images/Draft_Drawing.svg  style="width:32px;"> [Dessin](Draft_Drawing/fr.md) : insère des vues des objets sélectionnés dans une page [Drawing](Drawing_Workbench/fr.md). {{Obsolete/fr|0.17}}
+-   <img alt="" src=images/Draft_Drawing.svg  style="width:32px;"> _. {{Obsolete/fr|0.17}}
 
 Ces options du menu contextuel de la [vue 3D](3D_view/fr.md) sont toujours disponibles lorsque la commande [Draft Polyligne](Draft_Wire/fr.md), [Draft B-spline](Draft_BSpline/fr.md), [Draft Courbe de Bézier cubique](Draft_CubicBezCurve/fr.md) ou [Draft Courbe de Bézier](Draft_BezCurve/fr.md) est active mais seront supprimées dans un avenir proche :
 
@@ -299,8 +299,8 @@ Ces options du menu contextuel de la [vue 3D](3D_view/fr.md) sont toujours dispo
 
 L\'atelier Draft fournit à FreeCAD des importateurs et des exportateurs pour différents formats de fichiers. Ceux-ci sont utilisés par les commandes [Std Importer](Std_Import/fr.md) et [Std Exporter](Std_Export/fr.md).
 
--   [Autodesk .DXF](Draft_DXF/fr.md) : Importe et exporte les fichiers [DXF (Drawing eXchange Format)](http://fr.wikipedia.org/wiki/Drawing_eXchange_Format) créés avec d\'autres applications de CAO 2D. Voir aussi [Importation DXF et FreeCAD](FreeCAD_and_DXF_Import/fr.md).
--   [Autodesk .DWG](Draft_DXF/fr.md) : permet d\'importer et d\'exporter des fichiers DWG via l\'importateur DXF lorsque l\'utilitaire [Convertisseur ODA](Extra_python_modules/fr#ODA_Converter_.28pr.C3.A9c.C3.A9demment_Teigha_Converter.29.md) est installé. Voir aussi [ Importation FreeCAD et DWG](FreeCAD_and_DWG_Import/fr.md).
+-   _.
+-   _ est installé. Voir aussi [ Importation FreeCAD et DWG](FreeCAD_and_DWG_Import/fr.md).
 -   [Scalable Vector Graphics .SVG](Draft_SVG/fr.md) : Importe et exporte les fichiers [Scalable Vector Graphics(SVG)](http://fr.wikipedia.org/wiki/Scalable_Vector_Graphics) créés avec des applications de dessin vectoriel
 -   [Open Cad format .OCA](Draft_OCA/fr.md) : importe et exporte des fichiers [OCA/GCAD](http://groups.google.com/group/open_cad_format).
 -   [Airfoil Data Format .DAT](Draft_DAT/fr.md) : importe des fichiers DAT décrivant des profils d\'ailes.
@@ -318,7 +318,7 @@ freecad -t TestDraft
 
 ## Script
 
-Voir aussi : [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) et [Débuter avec les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md).
+Voir aussi : _.
 
 L\'atelier comprend un module pour créer des échantillons de tous les objets dans un nouveau document. {{Version/fr|0.19}}
 
@@ -346,7 +346,7 @@ L\'inspection du code de ce module peut aider à comprendre l\'interface de prog
 
  
 
-[Category:Workbenches](Category:Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > Draft Workbench/fr
+[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Draft Workbench/fr

@@ -15,7 +15,7 @@ The <img alt="" src=images/Design456_ExtrudeFace.svg  style="width:24px;"> [Desi
 
 ## Usage
 
-1.  Switch to the <img alt="" src=images/Design456_workbench_icon.svg  style="width:24px;"> [Design456](Design456_Workbench.md) workbench (install from <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Addon_Manager.md) is necessary, if not previously installed)
+1.  Switch to the <img alt="" src=images/Design456_workbench_icon.svg  style="width:24px;"> _ is necessary, if not previously installed)
 2.  Select a face from a 3D object
 3.  Press the <img alt="" src=images/Design456_ExtrudeFace.svg  style="width:24px;"> Extrude Face command. A copy of the face will be created and the command ask you for the length of the extrusion. Later the extruded face will be created on the same direction of the face.
 
@@ -38,7 +38,7 @@ Works on 3D objects.
 
 }} 
 
-[Category:External Command Reference](Category:External_Command_Reference.md)
+_
 
 ---
-[documentation index](../README.md) > [External Command Reference](Category:External Command Reference.md) > Design456 ExtrudeFace
+[documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > Design456 ExtrudeFace

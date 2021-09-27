@@ -190,7 +190,7 @@ FreeCAD虽然在特定领域已经可用了，但是在跨入主流CAD的路途�
 
 
 
-[Category:Hubs](Category:Hubs.md) [Category:Developer Documentation](Category:Developer_Documentation.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Hubs](Category:Hubs.md) > Developer hub/zh-cn
+[documentation index](../README.md) > [Hubs](Category_Hubs.md) > Developer hub/zh-cn

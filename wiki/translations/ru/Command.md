@@ -9,7 +9,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Каждая команда FreeCAD имеет уникальное имя, которое внесено в список [:Category:Command\_Reference/ru](:Category:Command_Reference/ru.md). Команды могут запускаться с помощью кнопки на панели инструментов или из списка меню, а так же из [python](python/ru.md) скрипта или [консоли Python](Python_console/ru.md), по средством выполнения следующей комманды:
+Каждая команда FreeCAD имеет уникальное имя, которое внесено в список _. Команды могут запускаться с помощью кнопки на панели инструментов или из списка меню, а так же из [python](python/ru.md) скрипта или [консоли Python](Python_console/ru.md), по средством выполнения следующей комманды:
 
 
 </div>
@@ -104,7 +104,7 @@ FreeCADGui.addCommand('My_Command', MyCommand())
 
 }}
 
-[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md) [Category:Glossary](Category:Glossary.md)
+_ _ _
 
 ---
-[documentation index](../README.md) > [Command_Reference/ru|:Category:Command_Reference/ru]]. Команды могут запускаться с помощью кнопки на панели инструментов или из списка меню, а так же из ](Category:Command_Reference/ru|:Category:Command_Reference/ru]]. Команды могут запускаться с помощью кнопки на панели инструментов или из списка меню, а так же из .md) > Command/ru
+[documentation index](../README.md) > [Command_Reference/ru|:Category:Command_Reference/ru]]. Команды могут запускаться с помощью кнопки на панели инструментов или из списка меню, а так же из ](Category_Command_Reference/ru|:Category:Command_Reference/ru]]. Команды могут запускаться с помощью кнопки на панели инструментов или из списка меню, а так же из .md) > Command/ru

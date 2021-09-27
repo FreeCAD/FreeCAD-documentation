@@ -80,7 +80,7 @@ Niektóre uwagi dotyczące programowania Środowiska pracy Drawing zostaną doda
 
 }} 
 
-[Category:Obsolete Workbenches](Category:Obsolete_Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > Drawing Workbench/pl
+[documentation index](../README.md) > [Obsolete Workbenches](Category_Obsolete Workbenches.md) > Drawing Workbench/pl

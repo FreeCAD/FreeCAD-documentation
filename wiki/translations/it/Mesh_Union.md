@@ -13,7 +13,7 @@
 
 Il comando **Unione** crea un nuovo oggetto mesh non parametrico, un [Mesh Feature](Mesh_Feature/it.md), che è l\'unione (fusione) di due oggetti mesh.
 
-Per utilizzare questo comando bisogna che [OpenSCAD](http://www.openscad.org/) sia installato e il percorso del suo eseguibile sia impostato nelle [preferenze di OpenSCAD](OpenSCAD_Preferences/it.md).
+Per utilizzare questo comando bisogna che _.
 
 ![](images/Mesh_Union_example.png ) *A sinistra due oggetti mesh, a destra l'oggetto mesh che è l'unione di quegli oggetti*
 

@@ -9,7 +9,7 @@
 }}
 
 
-**Questo tutorial è stato scritto originariamente per una versione di sviluppo di FreeCAD ora abbandonata. Questo tutorial richiede una riscrittura completa per essere allineato alle modifiche di PartDesign che sono presenti nella versione v0.17. La riscrittura è stata avviata in [NormandC](Sandbox:PartDesign_Bearingholder_Tutorial_I]]. Se volete partecipare, per favore fatelo sapere nella sezione del Wiki [http://forum.freecadweb.org forum]. - [[User:Normandc.md)**
+**Questo tutorial è stato scritto originariamente per una versione di sviluppo di FreeCAD ora abbandonata. Questo tutorial richiede una riscrittura completa per essere allineato alle modifiche di PartDesign che sono presenti nella versione v0.17. La riscrittura è stata avviata in _**
 
 ![Bearing Holder Tutorial - Supporto per cuscinetto finito(top)\|thumb\|right\|400px](images/HolderTop1-1.jpg )
 
@@ -29,7 +29,7 @@ Questa è la prima parte del tutorial. Usa il flusso di lavoro che può essere c
 
 Ovviamente, per seguire questo tutorial è necessario attivare l\'ambiente PartDesign.
 
-~~Potete trovare la versione di Jrheinlaender (l\'autore di questo articolo) della parte creata con questo tutorial a [http://ubuntuone.com/5gok0J4dye3Fo4BKWMGWVa questo link](http://ubuntuone.com/5gok0J4dye3Fo4BKWMGWVa_questo_link.md).~~ \'\' Il file non è più disponibile, ne verrà fornito uno nuovo in un secondo momento \'\'.
+~~Potete trovare la versione di Jrheinlaender (l\'autore di questo articolo) della parte creata con questo tutorial a _.~~ \'\' Il file non è più disponibile, ne verrà fornito uno nuovo in un secondo momento \'\'.
 
 ## Dati di progetto 
 
@@ -117,7 +117,7 @@ Abbiamo modellato la parte superiore del supporto per cuscinetto con le dimensio
 
 
 
-[Category:Tutorials](Category:Tutorials.md)
+_
 
 ---
-[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Bearingholder Tutorial I/it
+[documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Bearingholder Tutorial I/it

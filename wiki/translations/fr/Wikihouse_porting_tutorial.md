@@ -10,7 +10,7 @@
 
 ## Introduction
 
-Ce tutoriel va vous montrer comment convertir les fichiers [SketchUp](http://www.sketchup.com/) utilisés par le projet [WikiHouse](http://wikihouse.cc/) en FreeCAD, en utilisant l\'outil [panneau](Arch_Panel/fr.md) dans FreeCAD. Le résultat est une copie complète du fichier SketchUp d\'origine, la différence est qu\'il est devenu entièrement paramétrique. Le niveau de paramétrage du fichier final dépend du travail que vous y consacrez, comme expliqué ci-dessous. Mais il est tout à fait possible de faire le travail pas à pas, et de reconstruire le fichier Wikihouse rapidement, et de laisser la plus longue conversion des profils de base aux esquisses pour plus tard.
+Ce tutoriel va vous montrer comment convertir les fichiers _ dans FreeCAD. Le résultat est une copie complète du fichier SketchUp d\'origine, la différence est qu\'il est devenu entièrement paramétrique. Le niveau de paramétrage du fichier final dépend du travail que vous y consacrez, comme expliqué ci-dessous. Mais il est tout à fait possible de faire le travail pas à pas, et de reconstruire le fichier Wikihouse rapidement, et de laisser la plus longue conversion des profils de base aux esquisses pour plus tard.
 
 Ce tutoriel nécessite une connaissance moyenne de FreeCAD, c\'est-à-dire que vous êtes capable de trouver votre chemin entre les différents outils et ateliers, vous êtes déjà capable de modéliser des objets simples et surtout, vous êtes à l\'aise avec les outils [déplacer](Draft_Move/fr.md) et [rotation](Draft_Rotate/fr.md). Il utilisera principalement les ateliers Draft et Arch, mais la connaissance du Sketcher deviendra nécessaire lors de la conversion des profils de base en croquis.
 
@@ -66,7 +66,7 @@ The next step is to create wires from each of our meshes. There is a convenient 
 
 ![](images/Arch_Wikihouse_10.jpg )
 
-We could now already make [Arch Panel](Arch_Panel.md) objects from each of these wire-like objects, simply by selecting them and pressing the [Arch Panel](Arch_Panel.md) button. However, their base shape wouldn\'t be parametric. We now have several options: We could turn each component into a sketch, using the [Draft Draft2Sketch](Draft_Draft2Sketch.md) tool, but these will be rather heavy sketches, and might not be very manageable on a slow machine, or we could turn each individual wire (the outline and each hole) of the sketch into a separate sketch. This would allow us, for example, to reuse a typical hole, make it only once, then duplicate it with [Draft Clone](Draft_Clone.md) to make the other holes. This way, you would only need to edit one to edit them all.
+We could now already make _ tool, but these will be rather heavy sketches, and might not be very manageable on a slow machine, or we could turn each individual wire (the outline and each hole) of the sketch into a separate sketch. This would allow us, for example, to reuse a typical hole, make it only once, then duplicate it with [Draft Clone](Draft_Clone.md) to make the other holes. This way, you would only need to edit one to edit them all.
 
 The Extract Wires from Mesh macro also sometimes fails in finding closed wires inside a mesh, which will not produce correct Panels. An easy procedure to recompose the wires of a component is this:
 

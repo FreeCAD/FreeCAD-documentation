@@ -9,7 +9,7 @@
 }}
 
 
-**Este tutorial fue escrito originalmente para una versión de desarrollo ya obsoleta de FreeCAD. Este tutorial requiere una completa reescritura para alinearse con los cambios de PartDesign que se harán en la próxima versión v0.17. La reescritura se inició en [NormandC](Sandbox:Tutorial_de_PartDesign_Bearingholder_I]]. Si desea participar, por favor, envíe un mensaje a la sección Wiki del [http://forum.freecadweb.org foro]. - [[User:Normandc.md)**
+**Este tutorial fue escrito originalmente para una versión de desarrollo ya obsoleta de FreeCAD. Este tutorial requiere una completa reescritura para alinearse con los cambios de PartDesign que se harán en la próxima versión v0.17. La reescritura se inició en _**
 
 ![Tutorial de soporte de rodamiento - Soporte de rodamiento terminado (arriba)\|thumb\|right\|400px](images/HolderTop1-1.jpg )
 
@@ -29,7 +29,7 @@ Esta es la primera parte del tutorial. Utilizará lo que podría llamarse el flu
 
 Obviamente, para seguir este tutorial debes activar la mesa de trabajo de PartDesign.
 
-~~Puedes encontrar mi versión de la parte creada por este tutorial [http://ubuntuone.com/5gok0J4dye3Fo4BKWMGWVa aquí](http://ubuntuone.com/5gok0J4dye3Fo4BKWMGWVa_aquí.md).~~ *El archivo ya no está disponible, se proporcionará uno nuevo más adelante*.
+~~Puedes encontrar mi versión de la parte creada por este tutorial _.~~ *El archivo ya no está disponible, se proporcionará uno nuevo más adelante*.
 
 ## Datos de diseño 
 
@@ -117,7 +117,7 @@ We have modelled the bearing holder top with the dimensions it will have after c
 
 
 
-[Category:Tutorials](Category:Tutorials.md)
+_
 
 ---
-[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Bearingholder Tutorial I/es
+[documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Bearingholder Tutorial I/es

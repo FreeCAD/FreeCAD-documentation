@@ -126,7 +126,7 @@ Con [PartDesign](PartDesign_Workbench/it.md) sono possibili diversi flussi di la
 
 ### Schizzi diversi 
 
-Gli schizzi devono essere supportati da un piano. Questo piano può essere uno dei piani principali (XY, XZ o YZ) definiti dall\'origine del corpo. Uno schizzo può essere estruso in un solido positivo (additivo), con uno strumento come <img alt="" src=images/PartDesign_Pad.svg  style="width:24px;"> [Estrusione](PartDesign_Pad/it.md) di PartDesign, o in un solido negativo (sottrattivo), con uno strumento come <img alt="" src=images/PartDesign_Pocket.svg  style="width:24px;"> [Tasca](PartDesign_Pocket/it.md). Il primo aggiunge volume alla forma finale del corpo, mentre il secondo taglia il volume dalla forma finale. In questo modo è possibile creare qualsiasi numero di schizzi e parti solide parziali; la forma finale (tip) è il risultato della fusione di queste operazioni insieme. Naturalmente, il corpo non può consistere in sole operazioni sottrattive, poiché la forma finale dovrebbe essere un solido con un volume positivo diverso da zero.
+Gli schizzi devono essere supportati da un piano. Questo piano può essere uno dei piani principali (XY, XZ o YZ) definiti dall\'origine del corpo. Uno schizzo può essere estruso in un solido positivo (additivo), con uno strumento come <img alt="" src=images/PartDesign_Pad.svg  style="width:24px;"> _. Il primo aggiunge volume alla forma finale del corpo, mentre il secondo taglia il volume dalla forma finale. In questo modo è possibile creare qualsiasi numero di schizzi e parti solide parziali; la forma finale (tip) è il risultato della fusione di queste operazioni insieme. Naturalmente, il corpo non può consistere in sole operazioni sottrattive, poiché la forma finale dovrebbe essere un solido con un volume positivo diverso da zero.
 
 <img alt="" src=images/PartDesign_workflow_1.svg  style="width:600px;">
 
@@ -152,7 +152,7 @@ L\'uso degli oggetti datum è spesso il modo migliore per produrre modelli stabi
 
 ## Tutorial
 
-La pagina [Tutorial](Tutorials/it.md) fornisce alcuni esempi di utilizzo del metodo [Editazione delle funzioni](feature_editing/it.md) di <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench/it.md).
+La pagina _.
 
 -   [Creare una parte semplice con PartDesign](Creating_a_simple_part_with_PartDesign/it.md)
 -   [Basi di Part Design](Basic_Part_Design_Tutorial/it.md)
@@ -169,7 +169,7 @@ La pagina [Tutorial](Tutorials/it.md) fornisce alcuni esempi di utilizzo del met
 
 }} 
 
-[Category:Common Questions](Category:Common_Questions.md)
+_
 
 ---
-[documentation index](../README.md) > [Common Questions](Category:Common Questions.md) > Feature editing/it
+[documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > Feature editing/it

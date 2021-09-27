@@ -10,7 +10,7 @@
 
 ## Description
 
-L\'outil <img alt="" src=images/Path_Engrave.svg  style="width:24px;"> [Path Gravure](Path_Engrave/fr.md) sert principalement à graver une <img alt="" src=images/Draft_ShapeString.svg  style="width:24px;">[Draft Forme à partir d\'un texte](Draft_ShapeString/fr.md) sur une pièce, il peut être utile pour d\'autres types de 2D.
+L\'outil <img alt="" src=images/Path_Engrave.svg  style="width:24px;"> _ sur une pièce, il peut être utile pour d\'autres types de 2D.
 
 ## Utilisation
 

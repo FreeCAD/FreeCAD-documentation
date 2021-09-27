@@ -46,7 +46,7 @@ For examples on this method see [Interface creation completely in Python](Dialog
 
 }} 
 
-[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Interface creation/it
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Interface creation/it

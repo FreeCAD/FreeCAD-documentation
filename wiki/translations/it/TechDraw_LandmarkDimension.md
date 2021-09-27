@@ -88,7 +88,14 @@ dim1.References3D=[(Point3d2, 'Vertex1')]
 rc = page.addView(dim1)
 ```
 
-!!FUZZY!!
+
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
 
 
 {{TechDraw Tools navi

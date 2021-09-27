@@ -99,7 +99,7 @@ Other
 -   [Assembly2](http://www.freecadweb.org/wiki/index.php?title=Sandbox:Assembly2): Ambiente de Trabajo de ensamblaje para FreeCAD con soporte para importar piezas de archivos externos.
 -   [Ambiente de Trabajo externos](External_workbenches.md)
 
-[Category:User Documentation](Category:User_Documentation.md) [Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+_ _ _
 
 ---
-[documentation index](../README.md) > Animation Workbench/es
+[documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > Animation Workbench/es

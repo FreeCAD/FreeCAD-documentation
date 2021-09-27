@@ -29,7 +29,7 @@ Help us to build, correct and extend this documentation. Correct mistakes, exten
 
 Çalışmanızı memnuniyetle karşılayacak birkaç alan:
 
--   [Komut Referans](:Category:Command_Reference/tr.md) sayfası, FreeCAD [ Komutlar](Command/tr.md) \'ın tümünü listeler ve belgeler. Birçoğu çok az veya hiçbir bilgi içermiyor. Komut dokümantasyon sayfalarının nasıl görünmesi gerektiğine dair iyi örnekler için lütfen [WikiPages](WikiPages.md) bölümüne bakın.
+-   _ sayfası, FreeCAD [ Komutlar](Command/tr.md) \'ın tümünü listeler ve belgeler. Birçoğu çok az veya hiçbir bilgi içermiyor. Komut dokümantasyon sayfalarının nasıl görünmesi gerektiğine dair iyi örnekler için lütfen [WikiPages](WikiPages.md) bölümüne bakın.
 -   [Kılavuzlar](Tutorials/tr.md) bölümü hala çok zayıf. FreeCAD ile harika bir şey geliştirdiyseniz, herkesin faydalanması için yaptığınızı bizimle paylaşır mısınız?
 -   FreeCAD\'de [bugtracker](bugtracker.md) etiketli \'[belgelendirme](https://freecadweb.org/tracker/search.php?tag_string=documentation)\' de biraz özveri isteyen işler var.
 
@@ -103,7 +103,7 @@ Translating is easy, the FreeCAD wiki supports a translation plugin which allows
 
 <div class="mw-translate-fuzzy">
 
-[Yardım:Düzenleme](Help:Editing/tr.md) sayfası düzenleme hakkında bazı bilgiler sağlar.
+_ sayfası düzenleme hakkında bazı bilgiler sağlar.
 
 
 </div>
@@ -209,7 +209,7 @@ Writing code for FreeCAD is not hard, and you don\'t need any permission, you ca
 
 
 
-[Category:Documentation](Category:Documentation.md) [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Common Questions](Category:Common_Questions.md)
+_ _ _
 
 ---
-[documentation index](../README.md) > [Command_Reference/tr|Komut Referans]] sayfası, FreeCAD ](Category:Command_Reference/tr|Komut Referans]] sayfası, FreeCAD .md) > Help FreeCAD/tr
+[documentation index](../README.md) > [Command_Reference/tr|Komut Referans]] sayfası, FreeCAD ](Category_Command_Reference/tr|Komut Referans]] sayfası, FreeCAD .md) > Help FreeCAD/tr

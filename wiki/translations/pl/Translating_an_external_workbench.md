@@ -221,7 +221,7 @@ Yorik maintains a convenience script for the BIM workbench, that can gather, upl
 
  
 
-[Category:Developer Documentation](Category:Developer_Documentation.md)
+_
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Translating an external workbench/pl
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Translating an external workbench/pl

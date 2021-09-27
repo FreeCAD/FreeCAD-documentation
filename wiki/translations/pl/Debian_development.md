@@ -6,7 +6,7 @@ Debian jest dystrybucją macierzystą, z której pochodzi wiele innych dystrybuc
 
 
 
-[Category:Packaging](Category:Packaging.md) [Category:Developer Documentation](Category:Developer_Documentation.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Packaging](Category:Packaging.md) > Debian development/pl
+[documentation index](../README.md) > [Packaging](Category_Packaging.md) > Debian development/pl

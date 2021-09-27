@@ -121,7 +121,7 @@ Un diseño de clase para la estructura de recursos.
 
 
 
-[Category:Roadmap](Category:Roadmap.md)
+_
 
 ---
-[documentation index](../README.md) > [Roadmap](Category:Roadmap.md) > Resource framework project/es
+[documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > Resource framework project/es

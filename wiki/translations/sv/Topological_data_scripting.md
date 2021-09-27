@@ -1623,7 +1623,7 @@ To convert a STEP file to an IGS file:
  s.exportIges("file.igs") # outbound file igs
 ```{{Top}} {{Powerdocnavi}} 
 
-[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Topological data scripting/sv
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Topological data scripting/sv

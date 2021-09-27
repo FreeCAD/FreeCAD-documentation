@@ -4,7 +4,7 @@
    Name/pl:Częśc: Wytnij
    MenuLocation:Część → Logiczne → Wytnij
    Workbenches:[Part](Part_Workbench/pl.md)
-   SeeAlso:[Part: Działania logiczne na bryłach](Part_Boolean/pl.md), [Part: Fuse](Part_Fuse/pl.md), [Part: Common](Part_Common/pl.md)
+   SeeAlso:_, [Part: Common](Part_Common/pl.md)
 ---
 
 # Part Cut/pl
@@ -15,7 +15,7 @@ Tnie *(odejmuje)* wybrane obiekty typu Część, przy czym ostatni jest odejmowa
 
 **Uwaga:** To polecenie jest zautomatyzowaną formą <img alt="" src=images/Part_Boolean.svg  style="width:24px;"> [Operacji na bryłach](Part_Boolean/pl.md).
 
-[480px\|left\|Cut](IMAGE:Part_Cut_01.png.md)
+_
 
 ## Użycie
 

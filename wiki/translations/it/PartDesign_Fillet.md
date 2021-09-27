@@ -30,7 +30,7 @@ Questo strumento crea dei raccordi (arrotondamenti) sui bordi selezionati di un 
 
 ## Raccordo di PartDesign e Raccordo di Part 
 
-Il <img alt="" src=images/PartDesign_Fillet.svg  style="width:24px;"> [Raccordo di PartDesign](PartDesign_Fillet/it.md) non deve essere confuso con il **<img alt="" src=images/Part_Fillet.svg  style="width:24px;"> [Raccordo di Part](Part_Fillet/it.md)**. Sebbene condividano lo stesso nome, non sono uguali e non vengono utilizzati allo stesso modo.
+Il <img alt="" src=images/PartDesign_Fillet.svg  style="width:24px;"> _**. Sebbene condividano lo stesso nome, non sono uguali e non vengono utilizzati allo stesso modo.
 
 Ecco come differiscono l\'uno dall\'altro:
 

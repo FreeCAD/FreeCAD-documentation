@@ -10,7 +10,7 @@ Zobacz stronę [Część: Kształt topologiczny](Part_TopoShape/pl.md) aby uzysk
 ![](images/Shape_and_mesh.svg )
 
 
-*Po lewej: [Kształt](Shape/pl.md) parametryczny zdefiniowany przez właściwości. <br>Po prawej: [Siatka](Mesh/pl.md), zdefiniowana przez wierzchołki i powierzchnie trójkątne.*
+*Po lewej: _, zdefiniowana przez wierzchołki i powierzchnie trójkątne.*
 
 ## Użycie
 
@@ -26,14 +26,14 @@ W nieformalnym użyciu, \"Kształt\" może być dowolną figurą geometryczną, 
 
 Jednakże, gdy wymagana jest większa precyzja, należy dokonać rozróżnienia.
 
--   \"[Zawartość](Body/pl.md)\" to obiekt wywodzący się z obiektu [Część: Cecha](Part_Feature/pl.md) *(klasy `Part::Feature`)*, utworzony za pomocą środowiska pracy [Projekt Części](PartDesign_Workbench.md).
+-   \"_ *(klasy `Part::Feature`)*, utworzony za pomocą środowiska pracy [Projekt Części](PartDesign_Workbench.md).
 -   \"Kształt\" jest obiektem wewnętrznym, osadzonym w \"[Zawartości](Body/pl.md)\".
 -   [Część](Part/pl.md)\" jest używana do grupowania kilku \"[zawartości](Body/pl.md)\" w celu utworzenia [złożenia](Assembly/pl.md). \"Część\" posiada kolekcję \"Kształtów\", ale nie posiada własnego \"Kształtu\".
 
 
  {{Document objects navi}} 
 
-[Category:Glossary](Category:Glossary.md)
+_
 
 ---
-[documentation index](../README.md) > [Glossary](Category:Glossary.md) > Shape/pl
+[documentation index](../README.md) > [Glossary](Category_Glossary.md) > Shape/pl

@@ -129,7 +129,7 @@ print(unicode(uniteSs, 'iso8859'))
 
 }} 
 
-[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > PySide usage snippets/it
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > PySide usage snippets/it

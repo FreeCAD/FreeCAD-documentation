@@ -74,7 +74,7 @@ Este tutorial utiliza la notación {{Value|(x, y, z)}} para denotar las coordena
 
     5. We will now create a closed profile by tying the arcs with lines.
     :5.1. Press **<img src=images/Draft_Line.svg style="width:16px"> [Line](Draft_Line.md)**.
-    :5.2. In the <img src=images/Draft_Snap_Lock.svg style="width:Snap toolbar](Draft_Snap.md) make sure **[16px"> <img src=images/Draft_Snap_Endpoint.svg style="width:Toggle snap](Draft_Snap_Lock.md)** is active, and only **[16px"> <img src=images/Draft_Snap_Endpoint.svg style="width:Endpoint](Draft_Snap_Endpoint.md)** as well. As you move the pointer onto the arc and close to one of its endpoints, the [24px"> [Endpoint](Draft_Snap_Endpoint.md) icon should appear. Also, the target point is emphasized with a large white dot. Click to select this point.
+    :5.2. In the <img src=images/Draft_Snap_Lock.svg style="width:Snap toolbar](Draft_Snap.md) make sure **_** as well. As you move the pointer onto the arc and close to one of its endpoints, the [24px"> [Endpoint](Draft_Snap_Endpoint.md) icon should appear. Also, the target point is emphasized with a large white dot. Click to select this point.
     :5.3. Move the pointer to the closest endpoint of the other arc to tie the two arcs together.
     :5.4. Repeat the process for the other side of the arc to close the profile.
 
@@ -145,7 +145,7 @@ Este tutorial utiliza la notación {{Value|(x, y, z)}} para denotar las coordena
     11. Create dimensions for the different objects.
     :11.1. Press **<img src=images/Draft_Dimension.svg style="width:16px"> [Dimension](Draft_Dimension.md)**.
     :11.2. Pick the first point. In this tutorial the first point will always be the origin {{Value|(0, 0, 0)}}.
-    :11.3. In the <img src=images/Draft_Snap_Lock.svg style="width:Snap toolbar](Draft_Snap.md) make sure **[16px"> <img src=images/Draft_Snap_Midpoint.svg style="width:Toggle snap](Draft_Snap_Lock.md)** is active, and only **[16px"> <img src=images/Draft_Snap_Midpoint.svg style="width:Midpoint](Draft_Snap_Midpoint.md)** as well. As you move the pointer to the top edge of the polygon, the [24px"> [Midpoint](Draft_Snap_Midpoint.md) icon should appear; click to select this point.
+    :11.3. In the <img src=images/Draft_Snap_Lock.svg style="width:Snap toolbar](Draft_Snap.md) make sure **_** as well. As you move the pointer to the top edge of the polygon, the [24px"> [Midpoint](Draft_Snap_Midpoint.md) icon should appear; click to select this point.
     :11.4. Move the cursor to the right to specify the location of the dimension, then click to set the final position, around {{Value|(100, 20, 0)}}. The dimension will automatically show the length value measured between the two points.
     :11.5. Select the dimension object in the [tree view](tree_view.md), and in the [property editor](Property_editor.md), change **Font Size** to {{Value|6 mm}}, set **Ext Lines** to {{Value|45 mm}}, and **Show Unit** to `False`.
 
@@ -162,7 +162,7 @@ Este tutorial utiliza la notación {{Value|(x, y, z)}} para denotar las coordena
 
     14. Text objects are simple planar figures that are created in the [3D view](3D_view.md) but don't have an actual "[shape](Shape.md)" underneath. This means that they cannot be used in complex operations with shapes like extrusions or boolean operations.
     :14.1. Press **<img src=images/Draft_Text.svg style="width:16px"> [Text](Draft_Text.md)**.
-    :14.2. Select the reference point in the <img src=images/Draft_Snap_Lock.svg style="width:3D view](3D_view.md). In the [Snap toolbar](Draft_Snap.md) make sure **[16px"> <img src=images/Draft_Snap_Midpoint.svg style="width:Toggle snap](Draft_Snap_Lock.md)** is active, and only **[16px"> <img src=images/Draft_Snap_Midpoint.svg style="width:Midpoint](Draft_Snap_Midpoint.md)** as well. Move the pointer to the top edge of the highest arc, so that the [24px"> [Midpoint](Draft_Snap_Midpoint.md) icon appears; click to select this point.
+    :14.2. Select the reference point in the <img src=images/Draft_Snap_Lock.svg style="width:3D view](3D_view.md). In the _** is active, and only **[16px"> <img src=images/Draft_Snap_Midpoint.svg style="width:Midpoint](Draft_Snap_Midpoint.md)** as well. Move the pointer to the top edge of the highest arc, so that the [24px"> [Midpoint](Draft_Snap_Midpoint.md) icon appears; click to select this point.
     :14.3. Enter the desired **Text**, and press **Enter** once to start a new line; add more lines of text as needed.
     :14.4. When you are ready to finish with edition, press **Enter** twice.
     :14.5. Select the text object in the [tree view](tree_view.md), and in the [property editor](Property_editor.md), change **Font Size** to {{Value|6 mm}}, and **Justification** to {{Value|Center}}.

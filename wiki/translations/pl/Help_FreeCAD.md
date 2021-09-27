@@ -12,7 +12,7 @@ Pomóż nam w tworzeniu, poprawianiu i rozszerzaniu tej dokumentacji. Poprawiaj 
 
 Jest kilka obszarów, w których z zadowoleniem przyjmiemy twoje zaangażowanie:
 
--   Strona [:Category:Command Reference](:Category:Command_Reference.md) wyszczególnia i dokumentuje wszystkie [polecenia](command.md) FreeCAD. Wiele z nich zawiera niewiele lub nie zawiera żadnych informacji. Proszę zajrzeć do [Wiki](WikiPages/pl.md), aby znaleźć dobre przykłady tego, jak powinny wyglądać strony dokumentacji poleceń.
+-   Strona _ wyszczególnia i dokumentuje wszystkie [polecenia](command.md) FreeCAD. Wiele z nich zawiera niewiele lub nie zawiera żadnych informacji. Proszę zajrzeć do [Wiki](WikiPages/pl.md), aby znaleźć dobre przykłady tego, jak powinny wyglądać strony dokumentacji poleceń.
 -   Sekcja [Tutoriale](Tutorials/pl.md) potrzebuje przykładów, jak używać Środowisk pracy. Jeśli opracowałeś coś fajnego z FreeCAD, dlaczego nie udokumentować jak to zrobiłeś, dla dobra początkujących?
 -   Są otwarte wejściówki na FreeCAD [bugtracker](bugtracker.md) oznaczone [\"dokumentacja\"](https://freecadweb.org/tracker/search.php?tag_string=documentation), które mogą potrzebować trochę miłości.
 
@@ -39,7 +39,7 @@ Tłumaczenie jest niezwykle łatwe, FreeCAD Wiki udostępnia wtyczkę do tłumac
 
 Aby uzyskać szczegółowe informacje na temat tłumaczenia, zobacz [Localisation/pl\#Translating the wiki](Localisation/pl#Translating_the_wiki.md).
 
-Upewnij się, że znasz podstawy stosowania znaczników Wiki; zajrzyj do [Pomoc:Edycja](Help:Editing.md), aby zapoznać się z nimi.
+Upewnij się, że znasz podstawy stosowania znaczników Wiki; zajrzyj do _, aby zapoznać się z nimi.
 
 Następnie udaj się do [Wiki](WikiPages.md), aby zapoznać się ze stylem używanym we FreeCAD Wiki, szczególnie jeśli chodzi o szablony.
 
@@ -84,7 +84,7 @@ Pisanie kodu dla FreeCAD nie jest trudne i nie potrzebujesz niczyjej zgody, moż
 
 
 
-[Category:Documentation](Category:Documentation.md) [Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Common Questions](Category:Common_Questions.md)
+_ _ _
 
 ---
-[documentation index](../README.md) > [Command Reference]] wyszczególnia i dokumentuje wszystkie  ](Category:Command Reference]] wyszczególnia i dokumentuje wszystkie  .md) > Help FreeCAD/pl
+[documentation index](../README.md) > [Command Reference]] wyszczególnia i dokumentuje wszystkie  ](Category_Command Reference]] wyszczególnia i dokumentuje wszystkie  .md) > Help FreeCAD/pl

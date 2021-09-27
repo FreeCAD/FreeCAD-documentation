@@ -5,7 +5,7 @@ Full documentation can be found on Github: [ThreadProfile Workbench on Github](h
 
 
 
-[Category:Addons](Category:Addons.md)
+_
 
 ---
-[documentation index](../README.md) > ThreadProfile Workbench
+[documentation index](../README.md) > [Addons](Category_Addons.md) > ThreadProfile Workbench

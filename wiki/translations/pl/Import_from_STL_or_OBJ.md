@@ -100,7 +100,7 @@ Ponieważ utworzona bryła nie posiada historii i żadnych edytowalnych funkcji 
 
  
 
-[Category:File\_Formats](Category:File_Formats.md)
+_
 
 ---
-[documentation index](../README.md) > [Import](Import_Workbench.md) > Import from STL or OBJ/pl
+[documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > [Import](Import_Workbench.md) > Import from STL or OBJ/pl

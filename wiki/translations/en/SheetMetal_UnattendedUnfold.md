@@ -57,7 +57,7 @@ See <img alt="" src=images/SheetMetal_Unfold.svg  style="width:16px;"> [Unfold](
 
 
 
-[Category:SheetMetal](Category:SheetMetal.md) [Category:Addons](Category:Addons.md) [Category:External Command Reference](Category:External_Command_Reference.md)
+_ _ _
 
 ---
-[documentation index](../README.md) > [SheetMetal](Category:SheetMetal.md) > SheetMetal UnattendedUnfold/en
+[documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > SheetMetal UnattendedUnfold/en

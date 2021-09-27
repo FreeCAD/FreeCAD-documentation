@@ -22,7 +22,7 @@ L\'outil Vue ajoute une représentation d\'un ou plusieurs objets à une Page de
 3.  Appuyez sur le bouton **<img src="images/TechDraw_View.svg" width=16px> [Insérer une vue](TechDraw_View/fr.md)
 **
 
--   La Vue dessine n\'importe quel objet qui a une propriété de `Shape`. Vous pouvez également sélectionner des objets [Draft](Draft_Workbench/fr.md) ou [PartDesign Corps](PartDesign_Body/fr.md). La Vue extraira également toutes les formes des objets dans un conteneur [App::Part](Std_Part/fr.md) ou un [Group](Std_Group/fr.md).
+-   La Vue dessine n\'importe quel objet qui a une propriété de `Shape`. Vous pouvez également sélectionner des objets _ ou un [Group](Std_Group/fr.md).
 
 ## Propriétés
 

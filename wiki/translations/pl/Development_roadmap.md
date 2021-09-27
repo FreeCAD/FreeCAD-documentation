@@ -3,7 +3,7 @@
 
 FreeCAD - choć użyteczny w wielu aplikacjach - jest na początku długiej drogi do głównego nurtu CAD. Wciąż jest wiele do zrobienia, aby osiągnąć stan, w którym możemy konkurować z komercyjnym oprogramowaniem.
 
-Ta sekcja daje przegląd tego, co jest planowane i daje Ci możliwość uczestniczenia lub wyrażenia swojej opinii. Jako że jesteśmy wolontariuszami FreeCAD mamy tylko określony czas. Więc jeśli jesteś zainteresowany jednym z tematów i chcesz pomóc, po prostu daj nam znać! Używamy stylu [Getting Things Done *(GTD)*](http://en.wikipedia.org/wiki/Getting_Things_Done#Methodology) dla dokumentów projektowych. Tutaj znajduje się [Szablon projektu](Project_template.md).
+Ta sekcja daje przegląd tego, co jest planowane i daje Ci możliwość uczestniczenia lub wyrażenia swojej opinii. Jako że jesteśmy wolontariuszami FreeCAD mamy tylko określony czas. Więc jeśli jesteś zainteresowany jednym z tematów i chcesz pomóc, po prostu daj nam znać! Używamy stylu _.
 
 -   [Schemat organizacyjny](Organization_chart/pl.md) pokazuje kto czym zajmuje się w świecie FreeCAD.
 -   Możesz śledzić problemy, nad którymi aktualnie pracujemy poprzez bugtracker tutaj: <http://www.freecadweb.org/tracker/roadmap_page.php>
@@ -43,7 +43,7 @@ Jak w większości [FLOSS](http://en.wikipedia.org/wiki/FLOSS) projektów, harmo
 
 
 
-[Category:Roadmap](Category:Roadmap.md)
+_
 
 ---
-[documentation index](../README.md) > [Roadmap](Category:Roadmap.md) > Development roadmap/pl
+[documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > Development roadmap/pl

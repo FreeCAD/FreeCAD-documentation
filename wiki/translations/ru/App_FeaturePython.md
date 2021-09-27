@@ -1,7 +1,7 @@
 # App FeaturePython/ru
 ## Введение
 
-Объект <img alt="" src=images/Feature.svg  style="width:32px;"> [App FeaturePython](App_FeaturePython/ru.md), или формально `Приложение::FeaturePython`, является простым экземпляром [App DocumentObject](App_DocumentObject/ru.md) в [Python](Python/ru.md).
+Объект <img alt="" src=images/Feature.svg  style="width:32px;"> _ в [Python](Python/ru.md).
 
 Это простой объект, который по умолчанию не имеет многих свойств, например таких как [разположение](Placement/ru.md) и [топологическая форма](Part_TopoShape/ru.md). Этот объект предназначен для общего использования; в зависимости от назначенных ему свойств его можно использовать для управления различными типами данных.
 
@@ -18,7 +18,7 @@
 
 ## Свойства
 
-[App FeaturePython](App_FeaturePython/ru.md) (`App::FeaturePython` класс) является производным от базового [App DocumentObject](App_DocumentObject/ru.md) (`App::DocumentObject` класса), поэтому он разделяет все свойства последнего.
+_ (`App::DocumentObject` класса), поэтому он разделяет все свойства последнего.
 
 In addition to the properties described in [App DocumentObject](App_DocumentObject.md), the FeaturePython has a basic view provider, so it does appear in the [tree view](tree_view.md).
 
@@ -86,7 +86,7 @@ obj = App.ActiveDocument.addObject("App::FeaturePython", "Name")
 obj.Label = "Custom label"
 ```
 
-For example, the [Draft Text](Draft_Text.md), [Draft Dimension](Draft_Dimension.md), and [Working plane proxy](Draft_WorkingPlaneProxy.md) elements of the [Draft Workbench](Draft_Workbench.md) are `App::FeaturePython` objects with a custom icon and additional properties. They hold data but not an actual [Part TopoShape](Part_TopoShape.md).
+For example, the _.
 
 If the desired object should have a placement, a shape, an attachment, or other complex properties, it is better to create one of the more complex classes, for example, [App GeoFeature](App_GeoFeature.md), [Part Feature](Part_Feature.md), or [Part Part2DObject](Part_Part2DObject.md).
 

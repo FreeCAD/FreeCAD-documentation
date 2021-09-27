@@ -279,7 +279,7 @@ Para conectar un determinado comando con un botón, selecciona el botón en la i
 
 </div>
 
-[Category:User Documentation](Category:User_Documentation.md) [Category:3rd Party](Category:3rd_Party.md)
+_ _
 
 ---
-[documentation index](../README.md) > [User Documentation](Category:User Documentation.md) > 3Dconnexion input devices/es
+[documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > 3Dconnexion input devices/es

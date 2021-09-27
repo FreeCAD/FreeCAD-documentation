@@ -21,7 +21,7 @@ This workbench can be installed from the [Addon Manager](Std_AddonMgr.md). For m
 
  
 
-[Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md) [Category:User Documentation](Category:User_Documentation.md)
+_ _ _
 
 ---
-[documentation index](../README.md) > WebTools Workbench/pl
+[documentation index](../README.md) > [Addons](Category_Addons.md) > WebTools Workbench/pl

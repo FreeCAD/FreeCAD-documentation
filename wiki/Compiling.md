@@ -18,7 +18,7 @@ To learn to use revision control system and contribute code see [Source code man
 
  
 
-[Category:Developer\_Documentation](Category:Developer_Documentation.md) [Category:Developer](Category:Developer.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Developer_Documentation](Category:Developer_Documentation.md) > Compiling
+[documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > Compiling

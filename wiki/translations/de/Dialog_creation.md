@@ -3,7 +3,7 @@
 
 ## Einführung
 
-Auf dieser Seite werden wir zeigen, wie man mit [Qt Designer](http://qt-project.org/doc/qt-4.8/designer-manual.html), Qt\'s offiziellem Werkzeug für die Gestaltung von Oberflächen, eine einfache grafische Oberfläche erstellt; der Dialog wird in [Python](Python/de.md) Code umgewandelt und dann innerhalb von FreeCAD verwendet. Wir gehen davon aus, dass der Benutzer weiß, wie man [Python](Python/de.md) allgemein bearbeitet und ausführt.
+Auf dieser Seite werden wir zeigen, wie man mit _ Code umgewandelt und dann innerhalb von FreeCAD verwendet. Wir gehen davon aus, dass der Benutzer weiß, wie man [Python](Python/de.md) allgemein bearbeitet und ausführt.
 
 In diesem Beispiel ist die gesamte Oberfläche in [Python](Python/de.md) definiert. Obwohl dies bei kleinen Schnittstellen möglich ist, empfiehlt es sich bei größeren Schnittstellen, die erstellten {{FileName|.ui}} Dateien direkt in das Programm zu laden. Siehe [Obeflächenerstellung mit UI Dateien](Interface_creation_with_UI_files/de.md) für weitere Informationen.
 
@@ -251,7 +251,7 @@ class plane():
 
 ## Relevante Verweise 
 
--   [Handbuch:Erstellen von Oberflächenwerkzeugen](Manual:Creating_interface_tools/de.md)
+-   _
 -   [Oberflächenerstellung mit UI Dateien](Interface_creation_with_UI_files/de.md)
 
 
@@ -259,7 +259,7 @@ class plane():
 
 }} 
 
-[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md)
+_ _
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Dialog creation/de
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Dialog creation/de

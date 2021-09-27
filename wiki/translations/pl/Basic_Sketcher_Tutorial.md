@@ -169,7 +169,7 @@ Istnieją dwa główne rodzaje wiązań:
 
 
 :   7.6. Zaznacz linię konstrukcyjną, której pozycja jest najbliższa osi pionowej.
-:   7.7. Wybierz narzędzie **<img src=images/Constraint_Vertical.svg style="width:16px"> [Utwórz wiązanie pionowe](‎Sketcher_ConstrainVertical/pl.md)** *(opcjonalnie)*. Jeśli narysujesz linię konstrukcyjną w dół nad osią Y, automatycznie <img alt="" src=images/_Constraint_PointOnObject.svg  style="width:32px;"> [Punkt dotyczący wiązania z obiektem](Sketcher_ConstrainPointOnObject/pl.md) zostanie już umieszczony, utrzymując linię konstrukcyjną w pionie. W takim przypadku nie jest wymagane tworzenie dodatkowego <img alt="" src=images/_Constraint_Vertical.svg  style="width:32px;"> [wiązania pionowego](Sketcher_ConstrainVertical/pl.md).
+:   7.7. Wybierz narzędzie **<img src=images/Constraint_Vertical.svg style="width:16px"> _ zostanie już umieszczony, utrzymując linię konstrukcyjną w pionie. W takim przypadku nie jest wymagane tworzenie dodatkowego <img alt="" src=images/_Constraint_Vertical.svg  style="width:32px;"> [wiązania pionowego](Sketcher_ConstrainVertical/pl.md).
 
 
 **Uwaga:**
@@ -291,7 +291,7 @@ Ograniczenie szkicu może być wykonane na wiele różnych sposobów. Ogólnie r
 
 }} {{Sketcher Tools navi}} 
 
-[Category:Sketcher/pl](Category:Sketcher/pl.md)
+_
 
 ---
 [documentation index](../README.md) > Basic Sketcher Tutorial/pl

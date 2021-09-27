@@ -24,7 +24,7 @@ Les valeurs par défaut positionnent la boîte de dialogue en haut et à droite 
 
 ## Code
 
-La dernière version de la macro se trouve à l\'adresse [ViewRotation.FCMacro](https://github.com/FreeCAD/FreeCAD-macros/blob/master/PureGui/ViewRotation.FCMacro), mais le moyen le plus simple d\'installer cette macro consiste à [Addon Manager](Addon_Manager/fr.md).
+La dernière version de la macro se trouve à l\'adresse _.
 
 ToolBar Icon ![](images/Macro_View_Rotation.png )
 

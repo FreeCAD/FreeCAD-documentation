@@ -151,7 +151,7 @@ Diese Seiten beziehen sich auf einen in C++ programmierten Ersatzarbeitsbereich,
 
 }} 
 
-[Category:Workbenches](Category:Workbenches.md)
+_
 
 ---
-[documentation index](../README.md) > Raytracing Workbench/de
+[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Raytracing Workbench/de

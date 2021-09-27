@@ -30,7 +30,7 @@ Der <img alt="" src=images/Draft_WireToBSpline.svg  style="width:24px;"> **Entwu
 
 ## Skripten
 
-Siehe auch: [Autogenerierte API Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch: _.
 
 Um einen Draht in einen Bspline umzuwandeln oder umgekehrt, übergib die Eigenschaft `Points` des Quellobjekts an die Methode `[make_bspline](Draft_BSpline/de#Skripten.md)` bzw. die Methode `[make_wire](Draft_Wire/de#Skripten.md)` des Entwurf Moduls.
 

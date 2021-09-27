@@ -58,7 +58,7 @@ This tool creates fillets (rounds) on the selected edges of an object. A new sep
 
 ## PartDesign Fillet vs. Part Fillet 
 
-<img alt="" src=images/PartDesign_Fillet.svg  style="width:24px;"> [PartDesign Fillet](PartDesign_Fillet.md) is not to be confused with **<img alt="" src=images/Part_Fillet.svg  style="width:24px;"> [Part Fillet](Part_Fillet.md)** of the [Part Workbench](Part_Workbench.md). Although they share the same name, they are not the same, and are not used the same way.
+<img alt="" src=images/PartDesign_Fillet.svg  style="width:24px;"> _** of the [Part Workbench](Part_Workbench.md). Although they share the same name, they are not the same, and are not used the same way.
 
 Here is how they differ from each other:
 
@@ -106,12 +106,12 @@ Read more in [topological naming problem](topological_naming_problem.md).
 
 ## Skriptování
 
-Nástroj **[16px|text-top=Fillet|link=PartDesign_Fillet](File:PartDesign_Fillet.png.md) [Návrh dílu Zaoblení](_PartDesign_Fillet/cs.md)** může být použit v makru a z konzoly Pythonu použitím následující funkce:
+Nástroj **_ [Návrh dílu Zaoblení](_PartDesign_Fillet/cs.md)** může být použit v makru a z konzoly Pythonu použitím následující funkce:
 
 
 </div>
 
-The tool **[16px|text-top=Fillet|link=PartDesign_Fillet](File:PartDesign_Fillet.svg.md) [Fillet](PartDesign_Fillet.md)** can be used in a macro, and, from the Python console using the following function:
+The tool **_ [Fillet](PartDesign_Fillet.md)** can be used in a macro, and, from the Python console using the following function:
 
 
 ```python

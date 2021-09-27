@@ -25,7 +25,7 @@ Lo strumento ShapeString inserisce una forma composta che riproduce una stringa 
 
 <div class="mw-translate-fuzzy">
 
-Per inserire un elemento di testo più semplice senza una forma chiusa, utilizzare <img alt="" src=images/Draft_Text.svg  style="width:24px;"> [Testo](Draft_Text/it.md). Per creare un\'etichetta di testo con una linea guida e una freccia usare <img alt="" src=images/Draft_Label.svg  style="width:24px;"> [Etichetta](Draft_Label/it.md).
+Per inserire un elemento di testo più semplice senza una forma chiusa, utilizzare <img alt="" src=images/Draft_Text.svg  style="width:24px;"> _.
 
 
 </div>

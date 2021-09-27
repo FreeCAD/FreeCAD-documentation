@@ -624,7 +624,7 @@ Escribir el archivo de entrada en el modo de consola FreeCAD (sin Gui) se podrí
 
 }} {{FEM Tools navi}}  
 
-[Category:Python Code](Category:Python_Code.md)
+_
 
 ---
-[documentation index](../README.md) > [Python Code](Category:Python Code.md) > FEM Tutorial Python/es
+[documentation index](../README.md) > [Python Code](Category_Python Code.md) > FEM Tutorial Python/es

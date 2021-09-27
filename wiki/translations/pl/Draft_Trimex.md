@@ -56,7 +56,7 @@ Poniżej znajduje się przykład wyjaśniający działanie klawiszy modyfikator�
 
 ## Użycie 
 
-Zobacz także strony: [Rysunek Roboczy: Przyciąganie](Draft_Snap/pl.md) i [Rysunek Roboczy: Wiązania](Draft_Constrain/pl.md).
+Zobacz także strony: _.
 
 1.  Pomocna może być najpierw zmiana [Płaszczyzny roboczej rysunku](Draft_SelectPlane/pl.md) tak, by nie była współliniowa z powierzchnią, którą chcesz wyciągnąć.
 2.  Opcjonalnie wybierz pojedynczą ścianę lub obiekt z pojedynczą ścianą.
@@ -78,13 +78,13 @@ Wspomniane tutaj klawisze modyfikatorów mogą zostać zmienione. Zobacz stronę
 
 ## Ustawienia
 
-Zobacz także strony: [Edytor ustawień](Preferences_Editor/pl.md) oraz [Rysunek Roboczy: Preferencje](Draft_Preferences/pl.md).
+Zobacz także strony: _.
 
 -   Aby zmienić liczbę miejsc po przecinku używanych do wprowadzania odległości: **Edycja → Preferencje... → Ogólne → Jednostki → Ustawienia jednostek → Liczba cyfr po przecinku**.
 
 ## Tworzenie skryptów 
 
-Zobacz również stronę: [Dokumentacja API generowana automatycznie](https://freecad.github.io/SourceDoc/) oraz [Podstawy pisania skryptów dla FreeCAD](FreeCAD_Scripting_Basics/pl.md).
+Zobacz również stronę: _.
 
 Dla narzędzia Przytnij nie ma dostępnego interfejsu programistycznego. Do wyciągania obiektów służy metoda `extrude` modułu Rysunek Roboczy.
 

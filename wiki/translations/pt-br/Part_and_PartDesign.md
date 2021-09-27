@@ -3,7 +3,7 @@
 
 ## Visão geral 
 
-There has been much discussion over the years about the differences and ramifications of using the <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part](Part_Workbench.md) and the <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench.md) workbenches.
+There has been much discussion over the years about the differences and ramifications of using the <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> _ workbenches.
 
 It is a good idea to use one or the other until the user is comfortable with one, then learn the other. It is also typically recommended that new users not mix them until the ramifications of doing so are understood.
 

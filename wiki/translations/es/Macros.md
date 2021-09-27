@@ -106,7 +106,7 @@ Puede instalar manualmente las extensiones, sin embargo, es mucho más sencillo 
 
 }} 
 
-[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md) [Category:Macros](Category:Macros.md)
+_ _ _
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > Macros/es
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Macros/es

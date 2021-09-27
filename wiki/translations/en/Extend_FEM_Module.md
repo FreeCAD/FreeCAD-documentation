@@ -3,7 +3,7 @@
 |Topic=FEM
 |Level=Intermediate
 |Time=1 hour
-|Author=[M42kus](User:M42kus.md)
+|Author=_
 |FCVersion=0.17
 }}
 
@@ -129,7 +129,7 @@ Constraints define boundary conditions for the problem that shall be solved. In 
 
 Adding new constraints is quite straight forward. For newcomers there is a tutorial: [Add FEM constraint tutorial](Add_FEM_constraint_tutorial.md).
 
-[Category:FEM](Category:FEM.md)
+_
 
 ---
-[documentation index](../README.md) > [FEM](Category:FEM.md) > Extend FEM Module/en
+[documentation index](../README.md) > [FEM](Category_FEM.md) > Extend FEM Module/en

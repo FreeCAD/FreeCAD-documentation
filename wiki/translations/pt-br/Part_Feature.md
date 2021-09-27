@@ -6,7 +6,7 @@
 
 <img alt="" src=images/Part_3D_object.svg  style="width:32px;">
 
-A [Part Feature](Part_Feature.md) object, or formally a `Part::Feature`, is a simple element with a [topological shape](Part_TopoShape.md) associated to it that can be displayed in the [3D view](3D_view.md).
+A _ associated to it that can be displayed in the [3D view](3D_view.md).
 
 A Part Feature is the parent class of most 2D (Draft, Sketcher) and 3D (Part, PartDesign) objects, with the exception of meshes, which are normally based on [Mesh Feature](Mesh_Feature.md), or [Fem FemMeshObject](Fem_FemMeshObject.md) for FEM objects.
 
@@ -21,7 +21,7 @@ Every object created with the [Part Workbench](Part_Workbench.md) is essentially
 
 The [Part Feature](Part_Feature.md) is an internal object, so it cannot be created from the graphical interface, only from the [Python console](Python_console.md) as described in the [Scripting](Part_Feature#Scripting.md) section.
 
-The `Part::Feature` is defined in the [Part Workbench](Part_Workbench.md) but can be used as the base class for [scripted objects](scripted_objects.md) in all [workbenches](Workbenches.md) that produce 2D and 3D geometrical shapes. Essentially all objects produced in the [Part Workbench](Part_Workbench.md) are instances of a `Part::Feature`. Solid objects imported from STEP or BREP files will be imported using the [Part Workbench](Part_Workbench.md), so they will also be imported as `Part::Feature` elements albeit without parametric history.
+The `Part::Feature` is defined in the _, so they will also be imported as `Part::Feature` elements albeit without parametric history.
 
 
 `Part::Feature`
@@ -32,7 +32,7 @@ A `Part::Feature` has simple properties like a [placement](Placement.md), and vi
 
 ## Propriedades
 
-A [Part Feature](Part_Feature.md) (`Part::Feature` class) is derived from the basic [App GeoFeature](App_GeoFeature.md) (`App::GeoFeature` class), therefore it shares all the latter\'s properties.
+A _ (`App::GeoFeature` class), therefore it shares all the latter\'s properties.
 
 In addition to the properties described in [App GeoFeature](App_GeoFeature.md), the Part Feature has the **Shape** property, which stores the [Part TopoShape](Part_TopoShape.md) of this object; this is the geometry that is shown in the [3D view](3D_view.md).
 

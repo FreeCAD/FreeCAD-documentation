@@ -49,7 +49,7 @@ Versione precedente: [0.11](Release_notes_0.11/it.md)
 
 {{languages/it | {{en|Release_notes_0.12}} {{es|Release_notes_0.12/es}} {{fr|Release_notes_0.12/fr}} {{pl|Release_notes_0.12/pl}} {{ru|Release_notes_0.12/ru}} }}
 
-[Category:News](Category:News.md) [Category:Documentation](Category:Documentation.md) [Category:Releases](Category:Releases.md)
+_ _ _
 
 ---
-[documentation index](../README.md) > [News](Category:News.md) > Release notes 0.12/it
+[documentation index](../README.md) > [News](Category_News.md) > Release notes 0.12/it

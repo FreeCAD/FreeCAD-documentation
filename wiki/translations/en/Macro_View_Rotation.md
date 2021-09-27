@@ -24,7 +24,7 @@ The GUI defaults to the top right of the screen, this behaviour can be changed b
 
 ## Code
 
-The lastest version of the macro is to be found at [ViewRotation.FCMacro](https://github.com/FreeCAD/FreeCAD-macros/blob/master/PureGui/ViewRotation.FCMacro) but the easiest way to install this macro is through the [Addon Manager](Addon_Manager.md).
+The lastest version of the macro is to be found at _.
 
 ToolBar Icon ![](images/Macro_View_Rotation.png )
 

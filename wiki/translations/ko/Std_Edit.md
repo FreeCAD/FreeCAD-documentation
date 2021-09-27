@@ -8,6 +8,9 @@
 
 # Std Edit/ko
 
+
+</div>
+
 ## 설명
 
 **표준 편집 모드 전환(Std Edit)** 명령은 개체의 편집모드를 활성화하거나 비활성화합니다.
@@ -58,7 +61,13 @@ FreeCADGui.ActiveDocument.resetEdit()
 ```
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{Std Base navi

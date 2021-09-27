@@ -183,7 +183,7 @@ dieses Werkzeug ist in der Lage, einen komplexen Satz von Oberflächen oder Fest
 
 -   Dieser brandneue (experimentelle) Arbeitsbereich verschafft FreeCAD die Fähigkeit, OpenSCAD-Dateien zu importieren. Dieses Datei-Format ist sehr beliebt in der RepRap-Community und bei der digital designs sharing site (Webseite mit öffentlich verfügbaren 3D-Entwürfen) Thingiverse.
 
-[Category:News](Category:News.md) [Category:Documentation](Category:Documentation.md) [Category:Releases](Category:Releases.md)
+_ _ _
 
 ---
-[documentation index](../README.md) > [News](Category:News.md) > Release notes 0.13/de
+[documentation index](../README.md) > [News](Category_News.md) > Release notes 0.13/de

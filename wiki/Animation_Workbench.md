@@ -101,7 +101,7 @@ Other
 
 
 
-[Category:User Documentation](Category:User_Documentation.md) [Category:Addons](Category:Addons.md) [Category:External Workbenches](Category:External_Workbenches.md)
+_ _ _
 
 ---
-[documentation index](../README.md) > Animation Workbench
+[documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > Animation Workbench

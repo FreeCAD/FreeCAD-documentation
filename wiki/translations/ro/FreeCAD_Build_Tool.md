@@ -18,7 +18,7 @@ Acesta poate fi folosit pentru a simplifica unele sarcini frecvente în construi
 
 ## Utilizare
 
-Cu [Python](wikipedia:Python_(programming_language).md) corect instalat, *fcbt* can poate fi invocat prin comanda 
+Cu _ corect instalat, *fcbt* can poate fi invocat prin comanda 
 ```python
 python fbct.py
 ``` Afișează un meniu, unde puteți selecta următoarele: 
@@ -93,7 +93,7 @@ Comanda \"CM\" [creates a new application module](Module_Creation.md).
 
  
 
-[Category:Developer Documentation](Category:Developer_Documentation.md)
+_
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category:Developer Documentation.md) > FreeCAD Build Tool/ro
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > FreeCAD Build Tool/ro

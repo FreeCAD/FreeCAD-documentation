@@ -41,7 +41,7 @@ Cependant, une fois qu\'un [atelier](Workbenches/fr.md) est chargé, des command
 
 -    **[Style de dessin](Std_DrawStyle/fr.md)**: tel quel, lignes plates, ombrées, fil de fer, points, ligne cachée, aucun ombrage.
 
--    **[Vues standard](Std_View_Menu/fr.md)**: [isométrique](Std_ViewIsometric/fr.md), [avant](Std_ViewFront/fr.md), [haut](Std_ViewTop/fr.md), [droite](Std_ViewRight/fr.md), [arrière](Std_ViewRear/fr.md), [bas](Std_ViewBottom/fr.md), [gauche](Std_ViewLeft/fr.md), [rotation à gauche](Std_ViewRotateLeft/fr.md), [rotation à droite](Std_ViewRotateRight/fr.md).
+-    **_, [avant](Std_ViewFront/fr.md), [haut](Std_ViewTop/fr.md), [droite](Std_ViewRight/fr.md), [arrière](Std_ViewRear/fr.md), [bas](Std_ViewBottom/fr.md), [gauche](Std_ViewLeft/fr.md), [rotation à gauche](Std_ViewRotateLeft/fr.md), [rotation à droite](Std_ViewRotateRight/fr.md).
 
 -    **Mesure**: [basculer mesure](View_Measure_Toggle_All/fr.md), [effacer mesure](View_Measure_Clear_All/fr.md).
 
@@ -55,11 +55,11 @@ Par exemple, avec l\'[atelier Part](Part_Workbench/fr.md) et un objet sélection
 
 -    **[Basculer la visibilité](Std_ToggleVisibility/fr.md)**: rend l\'objet visible ou invisible dans la vue 3D.
 
--    **[Sélectionnable](Std_ToggleSelectability/fr.md)**: rend l'objet non sélectionnable dans la vue 3D ; utilisez à nouveau cette commande pour annuler son effet. Il fixe l\'attribut `Selectable` de l\'objet sur `True` ou `False`. Modifiez la propriété en basculant {{PropertyView/fr|Sélectionnable}} dans l\'[éditeur de propriété](property_editor/fr.md).
+-    **_.
 
--    **[Aller à la sélection](Std_TreeSelection/fr.md)**: développez l\'[arborescence](tree_view/fr.md) pour afficher l\'objet sélectionné dans la hiérarchie.
+-    **_ pour afficher l\'objet sélectionné dans la hiérarchie.
 
--    **[Couleur aléatoire](Std_RandomColor/fr.md)**: attribue une couleur aléatoire à l\'objet. Il définit l\'attribut `ShapeColor` de l\'objet sur un triplet `(r,g,b)` avec une arborescence flottante aléatoire comprise entre 0 et 1. Modifiez la propriété en modifiant {{PropertyView/fr|Shape Color}} dans l\'[éditeur de propriétés](property_editor/fr.md).
+-    **_.
 
 -    **[Supprimer](Std_Delete/fr.md)**: supprime l\'objet du document et de la vue 3D en appelant la fonction `removeObject()` du document.
 

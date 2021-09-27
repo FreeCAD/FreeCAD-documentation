@@ -6,7 +6,7 @@
 
 Ein [Befehl](Command/de.md) ist das, was ausgeführt wird, wenn Du eine Werkzeugleisten Schaltfläche oder einen Tastenkürzel eingibst. Es kann eine sehr einfache Handlung sein, wie den Zoomfaktor in der [3D Ansicht](3D_view/de.md) ändern oder das Drehen des Blickwinkels, oder ein komplexes System, das Dialogfenster öffnet und darauf wartet, dass der Benutzer bestimmte Aufgaben ausführt.
 
-Jeder FreeCAD-Befehl hat einen eindeutigen Namen, der in der [Liste aller Befehle](:Category:Command_Reference/de.md)-Seite erscheint. Befehle können über eine Werkzeugleisten-Schaltfläche, einen Menüpunkt, oder aus einem [Python](Python/de.md)-Skript oder der [Python Konsole](Python_console/de.md), ausgeführt werden:
+Jeder FreeCAD-Befehl hat einen eindeutigen Namen, der in der _-Seite erscheint. Befehle können über eine Werkzeugleisten-Schaltfläche, einen Menüpunkt, oder aus einem [Python](Python/de.md)-Skript oder der [Python Konsole](Python_console/de.md), ausgeführt werden:
 
 
 ```python
@@ -98,7 +98,7 @@ Siehe [Linienzeichungsfunktion](Line_drawing_function/de.md).
 
 }}
 
-[Category:Developer Documentation](Category:Developer_Documentation.md) [Category:Python Code](Category:Python_Code.md) [Category:Glossary](Category:Glossary.md)
+_ _ _
 
 ---
-[documentation index](../README.md) > [Command Reference/de|Liste aller Befehle]]-Seite erscheint. Befehle können über eine Werkzeugleisten-Schaltfläche, einen Menüpunkt, oder aus einem ](Category:Command Reference/de|Liste aller Befehle]]-Seite erscheint. Befehle können über eine Werkzeugleisten-Schaltfläche, einen Menüpunkt, oder aus einem .md) > Command/de
+[documentation index](../README.md) > [Command Reference/de|Liste aller Befehle]]-Seite erscheint. Befehle können über eine Werkzeugleisten-Schaltfläche, einen Menüpunkt, oder aus einem ](Category_Command Reference/de|Liste aller Befehle]]-Seite erscheint. Befehle können über eine Werkzeugleisten-Schaltfläche, einen Menüpunkt, oder aus einem .md) > Command/de

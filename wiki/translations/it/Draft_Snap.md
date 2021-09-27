@@ -15,7 +15,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Gli [24px](Immagine:Workbench_Draft.svg.md) [Ambiente Bozza](Draft_Workbench/it.md) strumenti consentono di scegliere punti e distanze cliccando sulla [vista 3D](3D_view/it.md) con il puntatore, o inserendo le [Bozza coordinate](Draft_Coordinates/it.md) nel [pannelo azioni](Task_panel/it.md) dello strumento.
+Gli _ [Ambiente Bozza](Draft_Workbench/it.md) strumenti consentono di scegliere punti e distanze cliccando sulla [vista 3D](3D_view/it.md) con il puntatore, o inserendo le [Bozza coordinate](Draft_Coordinates/it.md) nel [pannelo azioni](Task_panel/it.md) dello strumento.
 
 
 </div>
@@ -53,7 +53,7 @@ Note that circular edges do not have to be full circles.
 
 -   <img alt="" src=images/Draft_Snap_Midpoint.svg  style="width:32px;"> [Snap Midpoint](Draft_Snap_Midpoint.md): snaps to the midpoint of straight and circular edges.
 
--   <img alt="" src=images/Draft_Snap_Center.svg  style="width:32px;"> [Snap Center](Draft_Snap_Center.md): snaps to the center point of faces and circular edges, and to the **Placement** point of [Draft WorkingPlaneProxies](Draft_WorkingPlaneProxy.md) and [Arch BuildingParts](Arch_BuildingPart.md).
+-   <img alt="" src=images/Draft_Snap_Center.svg  style="width:32px;"> _ and [Arch BuildingParts](Arch_BuildingPart.md).
 
 -   <img alt="" src=images/Draft_Snap_Angle.svg  style="width:32px;"> [Snap Angle](Draft_Snap_Angle.md): snaps to the special cardinal points on circular edges, at multiples of 30° and 45°.
 
@@ -73,7 +73,7 @@ Note that circular edges do not have to be full circles.
 
 -   <img alt="" src=images/Draft_Snap_Grid.svg  style="width:32px;"> [Snap Grid](Draft_Snap_Grid.md): snaps to the intersections of grid lines.
 
--   <img alt="" src=images/Draft_Snap_WorkingPlane.svg  style="width:32px;"> [Snap WorkingPlane](Draft_Snap_WorkingPlane.md): projects the snap point onto the current [working plane](Draft_SelectPlane.md).
+-   <img alt="" src=images/Draft_Snap_WorkingPlane.svg  style="width:32px;"> _.
 
 -   <img alt="" src=images/Draft_Snap_Dimensions.svg  style="width:32px;"> [Snap Dimensions](Draft_Snap_Dimensions.md): shows temporary X and Y dimensions.
 
