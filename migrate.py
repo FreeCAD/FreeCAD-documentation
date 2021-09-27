@@ -68,19 +68,22 @@ import sys
 import os
 import re
 import json
-import datetime
+from datetime import datetime
 import pypandoc
+import threading
 from PySide2 import QtCore
 import FreeCAD
 
 unhandledTemplates = [] # holder for unhandled templates
+BASE_URL = "https://wiki.freecadweb.org"
+THREADS = 4 # number of threads for file writing
 
 class MediaWiki:
 
     """MediaWiki([url]) - A class to represent an online MediaWiki instance.
        default url is wiki.freecadweb.org"""
 
-    def __init__(self,url="https://wiki.freecadweb.org"):
+    def __init__(self,url=BASE_URL):
 
         if not url.endswith("api.php"):
             if not url.endswith("/"):
@@ -240,15 +243,23 @@ class MediaWiki:
                  }
         result = self.session.get(url=self.url, params=params)
         data = result.json()
-        wikitext = data["parse"]["wikitext"]
-        revision = data["parse"]["revid"]
-        if name.startswith("Category:"):
-            # add list of pages
-            cpages = self.getCategoryContents(name)
-            cpages = " , ".join(["[["+p+"]]" for p in cpages])
-            cpages = "\n\n===Contents:===\n\n" + cpages
-            wikitext += cpages
-        self.pagecontents[name] = wikitext
+        if "parse" in data:
+            wikitext = data["parse"]["wikitext"]
+            revision = data["parse"]["revid"]
+            if name.startswith("Category:"):
+                # add list of pages
+                cpages = self.getCategoryContents(name)
+                cpages = " , ".join(["[["+p+"]]" for p in cpages])
+                cpages = "\n\n===Contents:===\n\n" + cpages
+                wikitext += cpages
+            self.pagecontents[name] = wikitext
+        else:
+            #print("Page",BASE_URL+"/"+name,"not found")
+            if name in self.pagenames:
+                self.pagenames.remove(name)
+            if name in self.pagecontents:
+                del self.pagecontents[name]
+            return None,None
         return wikitext,revision
 
 
@@ -270,13 +281,14 @@ class MediaWiki:
             pageset = self.pagenames
         count = 1
         for page in pageset:
-            self.printProgress(count,len(pageset),"Getting page "+page+"...")
+            self.printProgress(count,len(pageset),"Getting page "+page[:64]+"...")
             if overwrite or (not page in self.pagecontents):
                 text,revid = self.getPage(page)
-                revisions[page] = revid
-                if count % 10 == 0:
-                    self.writeCache()
-                    self.writeRevisions(revisions,revfile)
+                if text:
+                    revisions[page] = revid
+                    if count % 10 == 0:
+                        self.writeCache()
+                        self.writeRevisions(revisions,revfile)
             count += 1
         self.writeCache()
         self.printProgress()
@@ -531,7 +543,7 @@ class MediaWiki:
         given, one is created automatically from the current timestamp"""
 
         if not filename:
-            d = str(datetime.datetime.now())
+            d = str(datetime.now())
             fp = os.path.dirname(__file__)
             filename = os.path.join(fp,"revisions_"+d+".json")
         with open(filename,'w',encoding='utf8') as jfile:
@@ -622,18 +634,18 @@ class MediaWiki:
         """addFooter(self,mdtext):
         adds a footer with navigation links to the bottom of the page"""
 
+        breadcrumb = " > "
         footer = "\n\n---\n"
         footer += "[documentation index](../"+self.rootpage+")"
-        if not any(el in page for el in ["Workbench","Category"]):
+        c = self.getPageCategory(page)
+        if c:
+            footer += breadcrumb + "[" + c + "](Category_" + c + ".md)"
+        if not ("Workbench" in page):
             for w in self.workbenches:
                 if page.replace(" ","_").startswith(w+"_"):
-                    footer += " > [" + w + "](" + w + "_Workbench.md)"
+                    footer += breadcrumb + "[" + w + "](" + w + "_Workbench.md)"
                     break
-            else:
-                c = self.getPageCategory(page)
-                if c:
-                    footer += " > [" + c + "](Category:" + c + ".md)"
-        footer += " > " + page.replace("_"," ") + "\n"
+        footer += breadcrumb + page.replace("_"," ") + "\n"
         mdtext += footer
         return mdtext
 
@@ -734,8 +746,10 @@ class MediaWiki:
         result = re.sub("(<img.*?>.*?)(\*.*?\*\n)",r"\1\n\2",result) # put captions on a newline
         result = re.sub("\[(.*?)\]\(image:(.*?)\.md\)",r"![\1]("+imagepath+r"/\2)",result) # fix image: links
         result = re.sub("\[(.*?)px\]\(File:(.*?)\.md\)",r'<img src='+imagepath+r'/\2 style="width:\1px">',result) # fix File: links
+        result = re.sub("\[.*?\]\(.*?(\:).*?\.md\)","_",result) # rename Namespace:Page to Namespace_Page
 
         # removing other leftovers
+
         result = re.sub("\\\_\\\_NOTOC\\\_\\\_","",result,flags=flags) # removing __NOTOC__ entries
         result = re.sub("\{\#.*?\}","",result,flags=flags) # removing {#...} tags
 
@@ -796,19 +810,22 @@ class MediaWiki:
             filename += ".md"
             filename = os.path.join(basepath,filename)
             filename = filename.replace(" ","_")
+            filename = filename.replace(":","_")
             if overwrite or (not os.file.exists(filename)):
                 with open(filename,"w") as mdfile:
                     mdfile.write(result)
             return None
 
 
-    def writeAllPages(self,overwrite=True,basepath=None):
+    def writeAllPages(self,overwrite=True,basepath=None,threads=THREADS):
 
-        """writeAllPages([overwrite]):
+        """writeAllPages([overwrite,basepath,threads]):
         Writes all pages to markdown files. Returns
         a list of pages which couldn't be written for some reason.
         If basepath is not given, file is written in the current dir.
-        If overwrite is False, existing files are skipped"""
+        If overwrite is False, existing files are skipped. basepath is
+        where to write the page (default to self.wikipath). threads is
+        the number of threads to use (default is THREADS global constant)"""
 
         global unhandledTemplates
 
@@ -816,12 +833,30 @@ class MediaWiki:
         count = 1
         if not basepath:
             basepath = self.output
-        for page in self.pagenames:
-            self.printProgress(count,len(self.pagenames),"Saving page "+page+"...")
-            r = self.writeMarkdown(page,overwrite,basepath)
-            if r:
-                errors.append(r)
-            count += 1
+        if threads < 2:
+            # single-thread
+            for page in self.pagenames:
+                self.printProgress(count,len(self.pagenames),"Saving page "+page+"...")
+                r = self.writeMarkdown(page,overwrite,basepath)
+                if r:
+                    errors.append(r)
+                count += 1
+        else:
+            print("Using",threads,"threads...")
+            # multi-thread
+            while count <= len(self.pagenames):
+                basket = []
+                for i in range(threads):
+                    n = count-1
+                    if n < len(self.pagenames):
+                        page = self.pagenames[n]
+                        self.printProgress(count,len(self.pagenames),"Saving page "+page+"...")
+                        t = threading.Thread(target=self.writeMarkdown,args=(page,overwrite,basepath))
+                        basket.append(t)
+                        t.start()
+                    count += 1
+                for t in basket:
+                    t.join()
         self.printProgress()
         print("All done!\n")
         print("SUMMARY:\n")
